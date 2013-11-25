@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(objectflow.structure)" version="101" />
+    </dependencies>
+    <rename id="un0u.4305265797165178361" type="CONCEPT" from="ReferenceScop" to="ReferenceScope" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(objectflow.structure)" version="102" />
+    </dependencies>
+    <rename id="un0u.6185198504743118463" type="CHILD" from="expression" to="icon" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(objectflow.structure)" version="103" />
+    </dependencies>
+    <rename id="un0u.983826980459555832" type="PROPERTY" from="string" to="cronSec" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(objectflow.structure)" version="104" />
+    </dependencies>
+    <rename id="un0u.2576785704220735078" type="CONCEPT" from="NotNull" to="NotNullOption" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(objectflow.structure)" version="105" />
+    </dependencies>
+    <rename id="un0u.5847590543402877731" type="CHILD" from="documentation2Documentation" to="documentation2" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(objectflow.structure)" version="106" />
+    </dependencies>
+    <rename id="un0u.5847590543402886028" type="CHILD" from="documentation" to="documentation2" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="70o0" modelUID="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(objectflow.behavior)" version="-1" />
+      <model index="hnrb" modelUID="r:14903c9e-467d-4b08-a0f1-8449390a1258(objectflow.constraints)" version="-1" />
+      <model index="do3l" modelUID="r:4c242c41-d2ae-4f5c-b607-09c9bbddd795(objectflow.scripts)" version="-1" />
+      <model index="z8tr" modelUID="r:bcfb927c-b184-4908-8828-52e996537df2(objectflow.editor)" version="-1" />
+      <model index="s2wb" modelUID="r:703c560f-f7dd-4490-bdd5-c28a2d35d2be(objectflow.dataFlow)" version="-1" />
+      <model index="dyo3" modelUID="r:e9f90445-fdc8-4ec7-a735-f25fd044971e(objectflow.actions)" version="-1" />
+      <model index="3ojc" modelUID="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(objectflow.util)" version="-1" />
+      <model index="j0yf" modelUID="r:3fc0f06a-4191-4fde-93c9-62c313d8e4e0(objectflow.plugin)" version="-1" />
+      <model index="q9vd" modelUID="r:4255c42d-aebc-4a31-9fe6-067e7474b61b(objectflow.generator.template.util)" version="-1" />
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(objectflow.structure)" version="107" />
+      <model index="gx82" modelUID="r:82cf6bdb-b45c-4cc8-9040-8db9cc241298(objectflow.refactorings)" version="-1" />
+      <model index="bpdf" modelUID="r:034603ed-8e73-486e-af2c-268865f08e38(objectflow.intentions)" version="-1" />
+      <model index="f7rz" modelUID="r:150c60e9-5317-48ed-9b80-619f4d069584(objectflow.typesystem)" version="-1" />
+    </dependencies>
+    <RenameModel oldModel="r:e9f90445-fdc8-4ec7-a735-f25fd044971e(objectflow.actions)" newModel="r:e9f90445-fdc8-4ec7-a735-f25fd044971e(org.modellwerkstatt.objectflow.actions)" />
+    <RenameModel oldModel="r:150c60e9-5317-48ed-9b80-619f4d069584(objectflow.typesystem)" newModel="r:150c60e9-5317-48ed-9b80-619f4d069584(org.modellwerkstatt.objectflow.typesystem)" />
+    <RenameModel oldModel="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(objectflow.util)" newModel="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
+    <RenameModel oldModel="r:034603ed-8e73-486e-af2c-268865f08e38(objectflow.intentions)" newModel="r:034603ed-8e73-486e-af2c-268865f08e38(org.modellwerkstatt.objectflow.intentions)" />
+    <RenameModel oldModel="r:4c242c41-d2ae-4f5c-b607-09c9bbddd795(objectflow.scripts)" newModel="r:4c242c41-d2ae-4f5c-b607-09c9bbddd795(org.modellwerkstatt.objectflow.scripts)" />
+    <RenameModel oldModel="r:703c560f-f7dd-4490-bdd5-c28a2d35d2be(objectflow.dataFlow)" newModel="r:703c560f-f7dd-4490-bdd5-c28a2d35d2be(org.modellwerkstatt.objectflow.dataFlow)" />
+    <RenameModel oldModel="r:3fc0f06a-4191-4fde-93c9-62c313d8e4e0(objectflow.plugin)" newModel="r:3fc0f06a-4191-4fde-93c9-62c313d8e4e0(org.modellwerkstatt.objectflow.plugin)" />
+    <RenameModel oldModel="r:bcfb927c-b184-4908-8828-52e996537df2(objectflow.editor)" newModel="r:bcfb927c-b184-4908-8828-52e996537df2(org.modellwerkstatt.objectflow.editor)" />
+    <RenameModel oldModel="r:14903c9e-467d-4b08-a0f1-8449390a1258(objectflow.constraints)" newModel="r:14903c9e-467d-4b08-a0f1-8449390a1258(org.modellwerkstatt.objectflow.constraints)" />
+    <RenameModel oldModel="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(objectflow.behavior)" newModel="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" />
+    <RenameModel oldModel="r:5abca60f-e29b-478e-90f5-405db58d17d2(objectflow.structure)" newModel="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
+    <RenameModel oldModel="r:82cf6bdb-b45c-4cc8-9040-8db9cc241298(objectflow.refactorings)" newModel="r:82cf6bdb-b45c-4cc8-9040-8db9cc241298(org.modellwerkstatt.objectflow.refactorings)" />
+    <RenameModel oldModel="r:4255c42d-aebc-4a31-9fe6-067e7474b61b(objectflow.generator.template.util)" newModel="r:4255c42d-aebc-4a31-9fe6-067e7474b61b(org.modellwerkstatt.objectflow.generator.template.util)" />
+  </StructureModification>
+</history>
+

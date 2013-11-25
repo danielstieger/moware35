@@ -1,0 +1,15 @@
+#
+# Git Ignore for MPS Project
+# Dan 25th march 2013
+#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+*.java
+*.info
+*.iws
+*.xml
+*.bxml
+*.class
+*.xslt
+dependencies
+generated
