@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="qfef" modelUID="r:08687f41-c431-48f2-9ac9-fd5226239f96(modellwerkstatt.FopLand.structure)" version="13" />
+    </dependencies>
+    <rename id="qfef.4629726998563534107" type="CHILD" from="header" to="footer" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qfef" modelUID="r:08687f41-c431-48f2-9ac9-fd5226239f96(modellwerkstatt.FopLand.structure)" version="14" />
+    </dependencies>
+    <rename id="qfef.8897841221868515417" type="PROPERTY" from="wideFactor" to="widefactor" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="ujeo" modelUID="r:95fb7056-c519-493f-874d-cc480f78c0e1(modellwerkstatt.FopLand.behavior)" version="-1" />
+      <model index="krol" modelUID="r:ce9af68a-9b55-4e58-bbd0-87a9c350325e(modellwerkstatt.FopLand.constraints)" version="-1" />
+      <model index="jkce" modelUID="r:bd5d92ce-c806-47bd-acac-38d3b2b1911e(modellwerkstatt.FopLand.generator.template.main@generator)" version="-1" />
+      <model index="zhe6" modelUID="r:a664ca4e-b8f9-4533-8cde-ec0b0ca0f4b8(modellwerkstatt.FopLand.typesystem)" version="-1" />
+      <model index="h8lr" modelUID="r:02c6db22-50a7-4f67-8d48-bf4b477d92c1(modellwerkstatt.FopLand.actions)" version="-1" />
+      <model index="vwki" modelUID="r:03b84cdb-c477-4bff-8e42-1b6205cb53e4(modellwerkstatt.FopLand.intentions)" version="-1" />
+      <model index="jznq" modelUID="r:c991577d-8f97-40c5-8b27-b89453aa026a(modellwerkstatt.FopLand.editor)" version="-1" />
+      <model index="qfef" modelUID="r:08687f41-c431-48f2-9ac9-fd5226239f96(modellwerkstatt.FopLand.structure)" version="15" />
+    </dependencies>
+    <RenameModel oldModel="r:95fb7056-c519-493f-874d-cc480f78c0e1(modellwerkstatt.FopLand.behavior)" newModel="r:95fb7056-c519-493f-874d-cc480f78c0e1(org.modellwerkstatt.FopLand.behavior)" />
+    <RenameModel oldModel="r:02c6db22-50a7-4f67-8d48-bf4b477d92c1(modellwerkstatt.FopLand.actions)" newModel="r:02c6db22-50a7-4f67-8d48-bf4b477d92c1(org.modellwerkstatt.FopLand.actions)" />
+    <RenameModel oldModel="r:08687f41-c431-48f2-9ac9-fd5226239f96(modellwerkstatt.FopLand.structure)" newModel="r:08687f41-c431-48f2-9ac9-fd5226239f96(org.modellwerkstatt.FopLand.structure)" />
+    <RenameModel oldModel="r:a664ca4e-b8f9-4533-8cde-ec0b0ca0f4b8(modellwerkstatt.FopLand.typesystem)" newModel="r:a664ca4e-b8f9-4533-8cde-ec0b0ca0f4b8(org.modellwerkstatt.FopLand.typesystem)" />
+    <RenameModel oldModel="r:c991577d-8f97-40c5-8b27-b89453aa026a(modellwerkstatt.FopLand.editor)" newModel="r:c991577d-8f97-40c5-8b27-b89453aa026a(org.modellwerkstatt.FopLand.editor)" />
+    <RenameModel oldModel="r:ce9af68a-9b55-4e58-bbd0-87a9c350325e(modellwerkstatt.FopLand.constraints)" newModel="r:ce9af68a-9b55-4e58-bbd0-87a9c350325e(org.modellwerkstatt.FopLand.constraints)" />
+    <RenameModel oldModel="r:03b84cdb-c477-4bff-8e42-1b6205cb53e4(modellwerkstatt.FopLand.intentions)" newModel="r:03b84cdb-c477-4bff-8e42-1b6205cb53e4(org.modellwerkstatt.FopLand.intentions)" />
+    <RenameModel oldModel="r:bd5d92ce-c806-47bd-acac-38d3b2b1911e(modellwerkstatt.FopLand.generator.template.main@generator)" newModel="r:bd5d92ce-c806-47bd-acac-38d3b2b1911e(org.modellwerkstatt.FopLand.generator.template.main@generator)" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qfef" modelUID="r:08687f41-c431-48f2-9ac9-fd5226239f96(org.modellwerkstatt.FopLand.structure)" version="16" />
+    </dependencies>
+    <rename id="qfef.7557592699717252420" type="PROPERTY" from="boolean" to="printHeaderAgain" />
+  </StructureModification>
+</history>
+
