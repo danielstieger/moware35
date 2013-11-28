@@ -256,7 +256,6 @@
   </root>
   <root type="un0u.Service" typeId="un0u.4517030675489743647" id="594565203028873674" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="SimpleService" />
-    <property name="expensiveCheck" nameId="un0u.1738089353714222761" value="true" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="594565203028873675" nodeInfo="nn" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="594565203028873676" nodeInfo="igu">
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="594565203028873677" nodeInfo="in" />
@@ -2052,7 +2051,6 @@
   </root>
   <root type="un0u.Service" typeId="un0u.4517030675489743647" id="7116957854515168586" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ServerTimeService" />
-    <property name="expensiveCheck" nameId="un0u.1738089353714222761" value="true" />
     <node role="field" roleId="tpee.1068390468199" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="7116957854515168592" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="dataSource" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="7116957854515168593" nodeInfo="nn" />

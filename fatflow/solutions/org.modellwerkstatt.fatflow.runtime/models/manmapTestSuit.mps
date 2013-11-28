@@ -15269,7 +15269,6 @@
   </root>
   <root type="un0u.Service" typeId="un0u.4517030675489743647" id="37499631051606974" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CountStringObjService" />
-    <property name="expensiveCheck" nameId="un0u.1738089353714222761" value="true" />
     <node role="field" roleId="tpee.1068390468199" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="37499631051682169" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="dataSource" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="37499631051682170" nodeInfo="nn" />
