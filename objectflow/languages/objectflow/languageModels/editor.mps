@@ -423,18 +423,6 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="271985905034959739" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpee.1178549979242" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6287236659904807344" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="old documentation" />
-        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="271985905034858533" resolveInfo="OFTecDetail" />
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="6287236659904807345" nodeInfo="nn">
-          <property name="flag" nameId="tpc2.1186414551515" value="true" />
-        </node>
-      </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1234268821833508558" nodeInfo="ng">
-        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="tpen.1198594875276" resolveInfo="Comment" />
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.1234268821833508554" resolveInfo="doc" />
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontStyleStyleClassItem" typeId="tpc2.1186403751766" id="79618268943655527" nodeInfo="nn" />
-      </node>
     </node>
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8396343267227475981" nodeInfo="nn">
       <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="8396343267227475982" nodeInfo="nn">
@@ -2500,7 +2488,7 @@
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="916807429098384716" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value=" OR null !" />
+        <property name="text" nameId="tpc2.1073389577007" value=" OR null (set proc doc first)!" />
         <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="7192042020165058067" resolveInfo="OFXVariable" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="916807429098384718" nodeInfo="nn">
           <property name="color" nameId="tpc2.1186403713874" value="yellow" />

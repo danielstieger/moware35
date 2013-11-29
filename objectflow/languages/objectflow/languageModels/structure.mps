@@ -66,10 +66,6 @@
       <property name="role" nameId="tpce.1071599776563" value="documentation" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6525155817177697680" resolveInfo="OFXDocumentation" />
     </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1234268821833508554" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="doc" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="271985905034983108" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DezimalLiteral" />
