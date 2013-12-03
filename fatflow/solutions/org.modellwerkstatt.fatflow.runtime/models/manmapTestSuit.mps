@@ -857,11 +857,13 @@
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097034747" nodeInfo="nn" />
     </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.Property" typeId="tpee.1201370618622" id="6575203773157276394" nodeInfo="igu">
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="5770301300890097599" nodeInfo="igu">
       <property name="propertyName" nameId="tpee.1201371481316" value="faktorSkonto" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6575203773157276395" nodeInfo="nn" />
-      <node role="type" roleId="tpee.1201371521209" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3572493221069956007" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="epq1.~BigDecimal" resolveInfo="BigDecimal" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5770301300890097601" nodeInfo="nn" />
+      <node role="documentation" roleId="un0u.6287236659904683502" type="un0u.OFXDocumentation" typeId="un0u.6525155817177697680" id="5770301300890097607" nodeInfo="ng">
+        <node role="lines" roleId="un0u.6525155817177697693" type="un0u.OFXDocumentationLine" typeId="un0u.6525155817177697681" id="5770301300890097608" nodeInfo="ng">
+          <property name="text" nameId="un0u.6525155817177697682" value="converted from virtual property" />
+        </node>
       </node>
       <node role="propertyImplementation" roleId="tpee.1201372378714" type="tpee.CustomPropertyImplementation" typeId="tpee.1201398722958" id="6575203773157276397" nodeInfo="ng">
         <node role="getAccessor" roleId="tpee.1201402259264" type="tpee.GetAccessor" typeId="tpee.1201402044357" id="6575203773157276398" nodeInfo="ng">
@@ -881,6 +883,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node role="type" roleId="tpee.1201371521209" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3572493221069956007" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="epq1.~BigDecimal" resolveInfo="BigDecimal" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="1846102710291384047" nodeInfo="igu">
@@ -3317,10 +3322,14 @@
       <node role="type" roleId="tpee.1201371521209" type="tpee.IntegerType" typeId="tpee.1070534370425" id="8634676618502866220" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097035287" nodeInfo="nn" />
     </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.Property" typeId="tpee.1201370618622" id="474476688155330451" nodeInfo="igu">
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="5770301300890097769" nodeInfo="igu">
       <property name="propertyName" nameId="tpee.1201371481316" value="mengeOEH" />
-      <property name="name" nameId="tpck.1169194664001" value="mengeOrderEH" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="474476688155330452" nodeInfo="nn" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5770301300890097771" nodeInfo="nn" />
+      <node role="documentation" roleId="un0u.6287236659904683502" type="un0u.OFXDocumentation" typeId="un0u.6525155817177697680" id="5770301300890097777" nodeInfo="ng">
+        <node role="lines" roleId="un0u.6525155817177697693" type="un0u.OFXDocumentationLine" typeId="un0u.6525155817177697681" id="5770301300890097778" nodeInfo="ng">
+          <property name="text" nameId="un0u.6525155817177697682" value="converted from virtual property" />
+        </node>
+      </node>
       <node role="propertyImplementation" roleId="tpee.1201372378714" type="tpee.CustomPropertyImplementation" typeId="tpee.1201398722958" id="474476688155330453" nodeInfo="ng">
         <node role="getAccessor" roleId="tpee.1201402259264" type="tpee.GetAccessor" typeId="tpee.1201402044357" id="474476688155330454" nodeInfo="ng">
           <node role="statementList" roleId="tpee.1202593363480" type="tpee.StatementList" typeId="tpee.1068580123136" id="474476688155330455" nodeInfo="sn">
@@ -3371,10 +3380,14 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="epq1.~BigDecimal" resolveInfo="BigDecimal" />
       </node>
     </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.Property" typeId="tpee.1201370618622" id="5744979767373806425" nodeInfo="igu">
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="5770301300890097971" nodeInfo="igu">
       <property name="propertyName" nameId="tpee.1201371481316" value="wertRelevant" />
-      <property name="name" nameId="tpck.1169194664001" value="mengeOrderEH" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5744979767373806426" nodeInfo="nn" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5770301300890097973" nodeInfo="nn" />
+      <node role="documentation" roleId="un0u.6287236659904683502" type="un0u.OFXDocumentation" typeId="un0u.6525155817177697680" id="5770301300890097979" nodeInfo="ng">
+        <node role="lines" roleId="un0u.6525155817177697693" type="un0u.OFXDocumentationLine" typeId="un0u.6525155817177697681" id="5770301300890097980" nodeInfo="ng">
+          <property name="text" nameId="un0u.6525155817177697682" value="converted from virtual property" />
+        </node>
+      </node>
       <node role="propertyImplementation" roleId="tpee.1201372378714" type="tpee.CustomPropertyImplementation" typeId="tpee.1201398722958" id="5744979767373806427" nodeInfo="ng">
         <node role="getAccessor" roleId="tpee.1201402259264" type="tpee.GetAccessor" typeId="tpee.1201402044357" id="5744979767373806428" nodeInfo="ng">
           <node role="statementList" roleId="tpee.1202593363480" type="tpee.StatementList" typeId="tpee.1068580123136" id="5744979767373806429" nodeInfo="sn">
@@ -3406,10 +3419,14 @@
       </node>
       <node role="type" roleId="tpee.1201371521209" type="tpee.BooleanType" typeId="tpee.1070534644030" id="5744979767373806451" nodeInfo="in" />
     </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.Property" typeId="tpee.1201370618622" id="5744979767373806496" nodeInfo="igu">
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="5770301300890098387" nodeInfo="igu">
       <property name="propertyName" nameId="tpee.1201371481316" value="mengenRelevant" />
-      <property name="name" nameId="tpck.1169194664001" value="mengeOrderEH" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5744979767373806497" nodeInfo="nn" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5770301300890098389" nodeInfo="nn" />
+      <node role="documentation" roleId="un0u.6287236659904683502" type="un0u.OFXDocumentation" typeId="un0u.6525155817177697680" id="5770301300890098395" nodeInfo="ng">
+        <node role="lines" roleId="un0u.6525155817177697693" type="un0u.OFXDocumentationLine" typeId="un0u.6525155817177697681" id="5770301300890098396" nodeInfo="ng">
+          <property name="text" nameId="un0u.6525155817177697682" value="converted from virtual property" />
+        </node>
+      </node>
       <node role="propertyImplementation" roleId="tpee.1201372378714" type="tpee.CustomPropertyImplementation" typeId="tpee.1201398722958" id="5744979767373806498" nodeInfo="ng">
         <node role="getAccessor" roleId="tpee.1201402259264" type="tpee.GetAccessor" typeId="tpee.1201402044357" id="5744979767373806499" nodeInfo="ng">
           <node role="statementList" roleId="tpee.1202593363480" type="tpee.StatementList" typeId="tpee.1068580123136" id="5744979767373806500" nodeInfo="sn">
@@ -3441,10 +3458,14 @@
       </node>
       <node role="type" roleId="tpee.1201371521209" type="tpee.BooleanType" typeId="tpee.1070534644030" id="5744979767373806512" nodeInfo="in" />
     </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.Property" typeId="tpee.1201370618622" id="474476688155330480" nodeInfo="igu">
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="5770301300890098177" nodeInfo="igu">
       <property name="propertyName" nameId="tpee.1201371481316" value="posNum" />
-      <property name="name" nameId="tpck.1169194664001" value="posNum" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="474476688155330481" nodeInfo="nn" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5770301300890098179" nodeInfo="nn" />
+      <node role="documentation" roleId="un0u.6287236659904683502" type="un0u.OFXDocumentation" typeId="un0u.6525155817177697680" id="5770301300890098185" nodeInfo="ng">
+        <node role="lines" roleId="un0u.6525155817177697693" type="un0u.OFXDocumentationLine" typeId="un0u.6525155817177697681" id="5770301300890098186" nodeInfo="ng">
+          <property name="text" nameId="un0u.6525155817177697682" value="converted from virtual property" />
+        </node>
+      </node>
       <node role="propertyImplementation" roleId="tpee.1201372378714" type="tpee.CustomPropertyImplementation" typeId="tpee.1201398722958" id="474476688155330482" nodeInfo="ng">
         <node role="getAccessor" roleId="tpee.1201402259264" type="tpee.GetAccessor" typeId="tpee.1201402044357" id="474476688155330483" nodeInfo="ng">
           <node role="statementList" roleId="tpee.1202593363480" type="tpee.StatementList" typeId="tpee.1068580123136" id="474476688155330484" nodeInfo="sn">

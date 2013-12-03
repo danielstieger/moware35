@@ -5708,7 +5708,7 @@
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5903203825075364354" resolveInfo="p" />
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="5903203825075377920" nodeInfo="nn">
-                <link role="property" roleId="tpee.1201385237847" targetNodeId="ofql.6575203773157276394" />
+                <link role="property" roleId="tpee.1201385237847" targetNodeId="ofql.5770301300890097599" resolveInfo="faktorSkonto" />
               </node>
             </node>
           </node>
