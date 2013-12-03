@@ -5871,6 +5871,18 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5770301300799048565" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpee.1201371481316" resolveInfo="propertyName" />
       </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="5770301300929042615" nodeInfo="ng">
+        <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;short&gt;" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.5770301300929026304" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="5770301300929052482" nodeInfo="ng">
+        <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;long&gt;" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.5770301300929026308" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="6057399400731351370" nodeInfo="ng">
+        <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;nmbrFrmt&gt;" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.6057399400731215414" />
+      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5770301300799048566" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value=";" />
       </node>
