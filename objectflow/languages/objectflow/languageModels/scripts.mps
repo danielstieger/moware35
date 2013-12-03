@@ -1020,5 +1020,18 @@
     </node>
     <node role="part" roleId="tp33.1177458178889" type="tp33.WhitespaceMigrationScriptPart" typeId="tp33.2598676492883244606" id="7732037918442186555" nodeInfo="ng" />
   </root>
+  <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="5770301300904672671" nodeInfo="ng">
+    <property name="type" nameId="tp33.5299416737274925395" value="migration" />
+    <property name="name" nameId="tpck.1169194664001" value="TestSetter" />
+    <property name="toBuild" nameId="tp33.5299416737274925397" value="MoWare" />
+    <property name="title" nameId="tp33.1177457669450" value="Some Test script from Dan" />
+    <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="5770301300904672672" nodeInfo="ng">
+      <property name="description" nameId="tp33.1177457972041" value="Search for a concept" />
+      <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="tpee.1201476912089" resolveInfo="SetAccessor" />
+      <node role="affectedInstanceUpdater" roleId="tp33.1177458005323" type="tp33.MigrationScriptPart_Instance_Updater" typeId="tp33.1177458491964" id="5770301300904672673" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5770301300904672674" nodeInfo="sn" />
+      </node>
+    </node>
+  </root>
 </model>
 
