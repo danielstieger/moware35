@@ -15541,7 +15541,7 @@
                         </node>
                       </node>
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8072308248939887114" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1070475926801" value="SecurityException - " />
+                        <property name="value" nameId="tpee.1070475926801" value="ValueObjectReplacementFacility - SecurityException - " />
                       </node>
                     </node>
                   </node>
@@ -15572,7 +15572,7 @@
                         </node>
                       </node>
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8072308248939927215" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1070475926801" value="NoSuchMethodException - " />
+                        <property name="value" nameId="tpee.1070475926801" value="ValueObjectReplacementFacility - NoSuchMethodException - " />
                       </node>
                     </node>
                   </node>
@@ -15609,7 +15609,7 @@
                         </node>
                       </node>
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8072308248939927224" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1070475926801" value="IllegalArgumentException - " />
+                        <property name="value" nameId="tpee.1070475926801" value="ValueObjectReplacementFacility - IllegalArgumentException - " />
                       </node>
                     </node>
                   </node>
@@ -15639,7 +15639,7 @@
                         </node>
                       </node>
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8072308248939927233" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1070475926801" value="IllegalAccessException - " />
+                        <property name="value" nameId="tpee.1070475926801" value="ValueObjectReplacementFacility - IllegalAccessException - " />
                       </node>
                     </node>
                   </node>
@@ -15669,7 +15669,7 @@
                         </node>
                       </node>
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8072308248939927242" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1070475926801" value="InvocationTargetException - " />
+                        <property name="value" nameId="tpee.1070475926801" value="ValueObjectReplacementFacility - InvocationTargetException - " />
                       </node>
                     </node>
                   </node>
@@ -15878,7 +15878,7 @@
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8072308248939931405" nodeInfo="nn">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~RuntimeException%d&lt;init&gt;(java%dlang%dString)" resolveInfo="RuntimeException" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8072308248939931406" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1070475926801" value="ValueObject directly bound to Delegates - no exchange of ValueObjects therefore possible. Programming Error!" />
+                    <property name="value" nameId="tpee.1070475926801" value="ValueObjectReplacementFacility - ValueObject directly bound to Delegates - no exchange of ValueObjects therefore possible. Programming Error!" />
                   </node>
                 </node>
               </node>
