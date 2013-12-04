@@ -101,7 +101,7 @@
   </root>
   <root type="tpce.ConstrainedDataTypeDeclaration" typeId="tpce.1082978499127" id="271985905035061743" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="_DezimalNumberValue" />
-    <property name="constraint" nameId="tpce.1083066089218" value="-?[0-9]+\\.[0-9]*d" />
+    <property name="constraint" nameId="tpce.1083066089218" value="-?[0-9]+\\.[0-9]*E?-?[0-9]*d" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Types" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4517030675489743647" nodeInfo="ig">
@@ -1438,6 +1438,12 @@
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="4313579457188683399" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
     <property name="name" nameId="tpck.1169194664001" value="IOFXObject" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3207218222495905601" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="businessProperties" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8396343267227475961" resolveInfo="BusinessProperty" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3262649880239917894" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject.Options" />
