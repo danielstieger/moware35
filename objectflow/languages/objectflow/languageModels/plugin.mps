@@ -18,7 +18,7 @@
   <import index="b2mh" modelUID="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.project(MPS.IDEA/com.intellij.openapi.project@java_stub)" version="-1" />
   <import index="ayyu" modelUID="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.ui(MPS.IDEA/com.intellij.ui@java_stub)" version="-1" />
   <import index="ec5l" modelUID="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" version="-1" />
-  <import index="j0yf" modelUID="r:3fc0f06a-4191-4fde-93c9-62c313d8e4e0(org.modellwerkstatt.objectflow.plugin)" version="-1" />
+  <import index="j0yf" modelUID="r:3fc0f06a-4191-4fde-93c9-62c313d8e4e0(org.modellwerkstatt.objectflow.plugin)" version="0" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -49,7 +49,7 @@
         <link role="action" roleId="tp4k.1203088061055" targetNodeId="8614254524339056649" resolveInfo="BusinessObjectFromCreate" />
       </node>
       <node role="reference" roleId="tp4k.1207145201301" type="tp4k.ActionInstance" typeId="tp4k.1203088046679" id="7930949789657580348" nodeInfo="ng">
-        <link role="action" roleId="tp4k.1203088061055" targetNodeId="7930949789657478562" resolveInfo="SummarizeInformation" />
+        <link role="action" roleId="tp4k.1203088061055" targetNodeId="7930949789657478562" resolveInfo="OFXSummarizeInformation" />
       </node>
     </node>
   </root>
@@ -915,8 +915,8 @@
   </root>
   <root type="tgbt.StandalonePluginDescriptor" typeId="tgbt.7520713872864775836" id="5377771638333924609" nodeInfo="ng" />
   <root type="tp4k.ActionDeclaration" typeId="tp4k.1203071646776" id="7930949789657478562" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="SummarizeInformation" />
-    <property name="caption" nameId="tp4k.1205250923097" value="OFX Summarize information" />
+    <property name="name" nameId="tpck.1169194664001" value="OFXSummarizeInformation" />
+    <property name="caption" nameId="tp4k.1205250923097" value="MoWare project information" />
     <property name="outsideCommandExecution" nameId="tp4k.1211298967294" value="true" />
     <property name="isAlwaysVisible" nameId="tp4k.1207149998849" value="true" />
     <property name="description" nameId="tp4k.1213273179528" value="Generate overall report" />
