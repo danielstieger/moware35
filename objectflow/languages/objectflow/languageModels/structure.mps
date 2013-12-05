@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="108">
+<model modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="111">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="37" />
   <import index="4fqr" modelUID="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="108" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="111" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1372017518093514468" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="BusinessObject" />
@@ -80,6 +80,12 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="documentation" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6525155817177697680" resolveInfo="OFXDocumentation" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6532710743545557315" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="testData" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6532710743549672557" resolveInfo="IOFXTestData" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="271985905034983108" nodeInfo="ig">
@@ -1815,6 +1821,38 @@
     <property name="name" nameId="tpck.1169194664001" value="NotPersistedOption" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="NOT_PERSIST_DIRTY_IRRELEVANT" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3674496190757459060" resolveInfo="PropertyOption" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6532710743546835760" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
+    <property name="name" nameId="tpck.1169194664001" value="IntTestData" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="int" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="integer test value" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6532710743549749053" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="value" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6532710743552501916" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6532710743549672557" resolveInfo="IOFXTestData" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="6532710743549672557" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
+    <property name="name" nameId="tpck.1169194664001" value="IOFXTestData" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6532710743549750194" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
+    <property name="name" nameId="tpck.1169194664001" value="DecimalTestData" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="BigDecimal" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="BigDecimal test value" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6532710743549750195" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="value" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="271985905035061743" resolveInfo="_DezimalNumberValue" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6532710743552501918" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6532710743549672557" resolveInfo="IOFXTestData" />
+    </node>
   </root>
 </model>
 

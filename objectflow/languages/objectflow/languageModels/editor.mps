@@ -21,17 +21,17 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="tpen" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="111" />
+  <import index="tpco" modelUID="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" version="-1" />
+  <import index="70o0" modelUID="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" version="0" />
+  <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <import index="tpcw" modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" implicit="yes" />
-  <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="108" implicit="yes" />
-  <import index="70o0" modelUID="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" version="0" implicit="yes" />
   <import index="tpdg" modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
-  <import index="tpco" modelUID="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" version="-1" implicit="yes" />
   <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="16" implicit="yes" />
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1372017518093514489" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
@@ -536,6 +536,9 @@
             <property name="noTargetText" nameId="tpc2.1139852716018" value="..." />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.6287236659904683502" />
           </node>
+        </node>
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.ChildsHorizontal" typeId="bnk3.1397920687864997197" id="6532710743545560031" nodeInfo="ng">
+          <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="un0u.6532710743545557315" />
         </node>
       </node>
     </node>
@@ -6153,6 +6156,28 @@
         </node>
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="5770301300802234589" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6532710743546835819" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="un0u.6532710743546835760" resolveInfo="IntTestData" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="6532710743546835821" nodeInfo="ng">
+      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="6532710743546835824" nodeInfo="ng">
+        <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6532710743549750184" nodeInfo="ng">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.6532710743549749053" resolveInfo="value" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6532710743549815578" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="un0u.6532710743549750194" resolveInfo="DecimalTestData" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="6532710743549815604" nodeInfo="ng">
+      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="6532710743549815605" nodeInfo="ng">
+        <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6532710743549815606" nodeInfo="ng">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.6532710743549750195" resolveInfo="value" />
         </node>
       </node>
     </node>
