@@ -6086,27 +6086,5 @@
       </node>
     </node>
   </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6532710743546835819" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="un0u.6532710743546835760" resolveInfo="IntTestData" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="6532710743546835821" nodeInfo="ng">
-      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="6532710743546835824" nodeInfo="ng">
-        <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6532710743549750184" nodeInfo="ng">
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.6532710743549749053" resolveInfo="value" />
-        </node>
-      </node>
-    </node>
-  </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6532710743549815578" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="un0u.6532710743549750194" resolveInfo="DecimalTestData" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="6532710743549815604" nodeInfo="ng">
-      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="6532710743549815605" nodeInfo="ng">
-        <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6532710743549815606" nodeInfo="ng">
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.6532710743549750195" resolveInfo="value" />
-        </node>
-      </node>
-    </node>
-  </root>
 </model>
 

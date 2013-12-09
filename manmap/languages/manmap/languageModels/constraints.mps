@@ -142,7 +142,7 @@
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lfe3.871579071900248876" resolveInfo="getClassConcept" />
                     </node>
                   </node>
-                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="881350737332607092" nodeInfo="nn" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConstraintFunctionParameter_contextNode" typeId="tp1t.8966504967485224688" id="6965540851928478736" nodeInfo="nn" />
                 </node>
                 <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="881350737332607093" nodeInfo="nn">
                   <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="r5tz.871579071900248872" resolveInfo="IMapsClassConcept" />
@@ -217,7 +217,7 @@
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lfe3.871579071900248876" resolveInfo="getClassConcept" />
                     </node>
                   </node>
-                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="881350737332606248" nodeInfo="nn" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConstraintFunctionParameter_contextNode" typeId="tp1t.8966504967485224688" id="6965540851928480253" nodeInfo="nn" />
                 </node>
                 <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="881350737332606249" nodeInfo="nn">
                   <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="r5tz.871579071900248872" resolveInfo="IMapsClassConcept" />
@@ -292,7 +292,7 @@
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lfe3.871579071900248876" resolveInfo="getClassConcept" />
                     </node>
                   </node>
-                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="881350737332606966" nodeInfo="nn" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConstraintFunctionParameter_contextNode" typeId="tp1t.8966504967485224688" id="6965540851928477403" nodeInfo="nn" />
                 </node>
                 <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="881350737332606967" nodeInfo="nn">
                   <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="r5tz.871579071900248872" resolveInfo="IMapsClassConcept" />
@@ -877,7 +877,7 @@
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lfe3.871579071900248876" resolveInfo="getClassConcept" />
                     </node>
                   </node>
-                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="881350737332606612" nodeInfo="nn" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tp1t.ConstraintFunctionParameter_contextNode" typeId="tp1t.8966504967485224688" id="6965540851928476049" nodeInfo="nn" />
                 </node>
                 <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="881350737332606613" nodeInfo="nn">
                   <link role="conceptDeclaration" roleId="tp25.1172424100906" targetNodeId="r5tz.871579071900248872" resolveInfo="IMapsClassConcept" />

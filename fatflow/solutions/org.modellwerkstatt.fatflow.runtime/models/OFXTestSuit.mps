@@ -5985,6 +5985,47 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5130395593884909992" nodeInfo="nn" />
       </node>
     </node>
+    <node role="testMethod" roleId="un0u.3262649880240512254" type="un0u.TestMethod" typeId="un0u.3262649880240512220" id="6965540851917305617" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="TEST_7" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="6965540851917305618" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6965540851917305620" nodeInfo="nn" />
+      <node role="description" roleId="un0u.3262649880240512230" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6965540851917305621" nodeInfo="nn">
+        <property name="value" nameId="tpee.1070475926801" value="Some tests with the builder" />
+      </node>
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6965540851917305622" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="6965540851917323150" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6965540851917323151" nodeInfo="nr">
+            <property name="name" nameId="tpck.1169194664001" value="p" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6965540851917323152" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ofql.2911334080249795734" resolveInfo="ExtendedProforma" />
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="un0u.BuilderExpression" typeId="un0u.6135709767654760052" id="6965540851917323206" nodeInfo="ng">
+              <node role="type" roleId="un0u.8174619299762601960" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6965540851917323208" nodeInfo="in">
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ofql.2911334080249795734" resolveInfo="ExtendedProforma" />
+              </node>
+              <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="6965540851917323229" nodeInfo="ng">
+                <link role="property" roleId="un0u.8174619299762825431" targetNodeId="ofql.2911334080249795742" />
+                <node role="expression" roleId="un0u.6135709767654784944" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="6965540851917329588" nodeInfo="ng">
+                  <property name="value" nameId="un0u.271985905034983109" value="10.0d" />
+                </node>
+              </node>
+              <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="6965540851917329602" nodeInfo="ng">
+                <link role="property" roleId="un0u.8174619299762825431" targetNodeId="ofql.5054552966230291360" resolveInfo="restrictedString" />
+                <node role="expression" roleId="un0u.6135709767654784944" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6965540851917329643" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1070475926801" value="restriced" />
+                </node>
+              </node>
+              <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="6965540851918058149" nodeInfo="ng">
+                <link role="property" roleId="un0u.8174619299762825431" targetNodeId="ofql.144161457182830236" resolveInfo="titel" />
+                <node role="expression" roleId="un0u.6135709767654784944" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6965540851918058225" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1070475926801" value="someTitle" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </root>
 </model>
 

@@ -49,6 +49,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4313579457188689073" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4313579457188683399" resolveInfo="IOFXObject" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6965540851922955365" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3734116213129792499" resolveInfo="ScopeProvider" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8396343267227475961" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="BusinessProperty" />
@@ -85,7 +88,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="testData" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="6532710743549672557" resolveInfo="IOFXTestData" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="271985905034983108" nodeInfo="ig">
@@ -1347,6 +1350,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4313579457188689072" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4313579457188683399" resolveInfo="IOFXObject" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6965540851922980988" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3734116213129792499" resolveInfo="ScopeProvider" />
+    </node>
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="7923683811122433769" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ModelRepositoryMethodType" />
@@ -1544,6 +1550,9 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5225022991485184064" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4313579457188683399" resolveInfo="IOFXObject" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6965540851923030296" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3734116213129792499" resolveInfo="ScopeProvider" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2277748321858151924" nodeInfo="ig">
@@ -1788,38 +1797,6 @@
     <property name="name" nameId="tpck.1169194664001" value="NotPersistedOption" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="NOT_PERSIST_DIRTY_IRRELEVANT" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3674496190757459060" resolveInfo="PropertyOption" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6532710743546835760" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
-    <property name="name" nameId="tpck.1169194664001" value="IntTestData" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="int" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="integer test value" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6532710743549749053" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="value" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6532710743552501916" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6532710743549672557" resolveInfo="IOFXTestData" />
-    </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="6532710743549672557" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
-    <property name="name" nameId="tpck.1169194664001" value="IOFXTestData" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6532710743549750194" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
-    <property name="name" nameId="tpck.1169194664001" value="DecimalTestData" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="BigDecimal" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="BigDecimal test value" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6532710743549750195" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="value" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="271985905035061743" resolveInfo="_DezimalNumberValue" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6532710743552501918" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="6532710743549672557" resolveInfo="IOFXTestData" />
-    </node>
   </root>
 </model>
 
