@@ -10,15 +10,94 @@
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="nyjx" modelUID="f:java_stub#5aaa957f-3447-4783-b1f7-b301fa3e0394#org.joda.time.base(org.modellwerkstatt.manmap/org.joda.time.base@java_stub)" version="-1" />
   <import index="v2qa" modelUID="f:java_stub#5aaa957f-3447-4783-b1f7-b301fa3e0394#org.joda.time(org.modellwerkstatt.manmap/org.joda.time@java_stub)" version="-1" />
+  <import index="fxg8" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(java.io@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="111" implicit="yes" />
-  <import index="fxg8" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(java.io@java_stub)" version="-1" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="112" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <root type="un0u.BatchJob" typeId="un0u.8399801448178544753" id="4723702796633551653" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TestBatchJob" />
     <link role="configuration" roleId="un0u.8399801448181160543" targetNodeId="3572493221071532650" resolveInfo="JobConfig" />
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="2691764572720572118" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="cycleTimeProblem" />
+      <property name="desc" nameId="un0u.8399801448182202651" value="CycleTime" />
+      <property name="fieldType" nameId="un0u.8399801448179812161" value="MONITORING_VALUE" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="2691764572720572119" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2691764572720572120" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.8603748575144933616" resolveInfo="Measure" />
+      </node>
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2691764572720572121" nodeInfo="nn">
+        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="2691764572720572122" nodeInfo="nn">
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144933618" resolveInfo="Measure" />
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2691764572720572123" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="measured" />
+          </node>
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2691764572720572124" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="10" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="983826980460899705" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="cycleTime2" />
+      <property name="desc" nameId="un0u.8399801448182202651" value="CycleTime" />
+      <property name="fieldType" nameId="un0u.8399801448179812161" value="MONITORING_VALUE" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="983826980460899706" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="983826980460899707" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.8603748575144933616" resolveInfo="Measure" />
+      </node>
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="983826980460899708" nodeInfo="nn">
+        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="983826980460899709" nodeInfo="nn">
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144933618" resolveInfo="Measure" />
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="983826980460899710" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="measured" />
+          </node>
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="983826980460899711" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="10" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="4723702796633625388" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="cycleTime" />
+      <property name="desc" nameId="un0u.8399801448182202651" value="CycleTime" />
+      <property name="fieldType" nameId="un0u.8399801448179812161" value="MONITORING_VALUE" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="4723702796633625389" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4723702796633625390" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.8603748575144933616" resolveInfo="Measure" />
+      </node>
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4723702796633625391" nodeInfo="nn">
+        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4723702796633625393" nodeInfo="nn">
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144933618" resolveInfo="Measure" />
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4723702796633625394" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="measured" />
+          </node>
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4723702796633625397" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="10" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="4723702796633625398" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="cycles" />
+      <property name="desc" nameId="un0u.8399801448182202651" value="cycles" />
+      <property name="fieldType" nameId="un0u.8399801448179812161" value="MONITORING_VALUE" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="4723702796633625399" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="4723702796633625400" nodeInfo="in" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4723702796633625401" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="0" />
+      </node>
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="4723702796633625384" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="test" />
+      <property name="desc" nameId="un0u.8399801448182202651" value="testValue" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="4723702796633625385" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="4723702796633625386" nodeInfo="in" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4723702796633625387" nodeInfo="nn">
+        <property name="value" nameId="tpee.1070475926801" value="test" />
+      </node>
+    </node>
     <node role="batchTask" roleId="un0u.8399801448178545745" type="un0u.BatchTask" typeId="un0u.8399801448178545728" id="983826980460386156" nodeInfo="ng">
       <property name="idleTimeout" nameId="un0u.8399801448180977990" value="000" />
       <property name="cronSec" nameId="un0u.983826980459555832" value="*" />
@@ -405,85 +484,6 @@
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="8732770515897405993" nodeInfo="nn" />
               </node>
             </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="field" roleId="tpee.1068390468199" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="4723702796633625384" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="test" />
-      <property name="desc" nameId="un0u.8399801448182202651" value="testValue" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="4723702796633625385" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="4723702796633625386" nodeInfo="in" />
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4723702796633625387" nodeInfo="nn">
-        <property name="value" nameId="tpee.1070475926801" value="test" />
-      </node>
-    </node>
-    <node role="field" roleId="tpee.1068390468199" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="4723702796633625398" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="cycles" />
-      <property name="desc" nameId="un0u.8399801448182202651" value="cycles" />
-      <property name="fieldType" nameId="un0u.8399801448179812161" value="MONITORING_VALUE" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="4723702796633625399" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="4723702796633625400" nodeInfo="in" />
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4723702796633625401" nodeInfo="nn">
-        <property name="value" nameId="tpee.1068580320021" value="0" />
-      </node>
-    </node>
-    <node role="field" roleId="tpee.1068390468199" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="4723702796633625388" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="cycleTime" />
-      <property name="desc" nameId="un0u.8399801448182202651" value="CycleTime" />
-      <property name="fieldType" nameId="un0u.8399801448179812161" value="MONITORING_VALUE" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="4723702796633625389" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4723702796633625390" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.8603748575144933616" resolveInfo="Measure" />
-      </node>
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4723702796633625391" nodeInfo="nn">
-        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4723702796633625393" nodeInfo="nn">
-          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144933618" resolveInfo="Measure" />
-          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4723702796633625394" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="measured" />
-          </node>
-          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="4723702796633625397" nodeInfo="nn">
-            <property name="value" nameId="tpee.1068580320021" value="10" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="field" roleId="tpee.1068390468199" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="983826980460899705" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="cycleTime2" />
-      <property name="desc" nameId="un0u.8399801448182202651" value="CycleTime" />
-      <property name="fieldType" nameId="un0u.8399801448179812161" value="MONITORING_VALUE" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="983826980460899706" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="983826980460899707" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.8603748575144933616" resolveInfo="Measure" />
-      </node>
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="983826980460899708" nodeInfo="nn">
-        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="983826980460899709" nodeInfo="nn">
-          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144933618" resolveInfo="Measure" />
-          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="983826980460899710" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="measured" />
-          </node>
-          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="983826980460899711" nodeInfo="nn">
-            <property name="value" nameId="tpee.1068580320021" value="10" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="field" roleId="tpee.1068390468199" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="2691764572720572118" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="cycleTimeProblem" />
-      <property name="desc" nameId="un0u.8399801448182202651" value="CycleTime" />
-      <property name="fieldType" nameId="un0u.8399801448179812161" value="MONITORING_VALUE" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="2691764572720572119" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2691764572720572120" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.8603748575144933616" resolveInfo="Measure" />
-      </node>
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="2691764572720572121" nodeInfo="nn">
-        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="2691764572720572122" nodeInfo="nn">
-          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144933618" resolveInfo="Measure" />
-          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2691764572720572123" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="measured" />
-          </node>
-          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2691764572720572124" nodeInfo="nn">
-            <property name="value" nameId="tpee.1068580320021" value="10" />
           </node>
         </node>
       </node>
