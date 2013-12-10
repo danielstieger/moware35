@@ -24,7 +24,7 @@
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="37" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="112" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="115" implicit="yes" />
   <root type="r5tz.PersistenceDescription" typeId="r5tz.871579071900124823" id="3572493221071361406" nodeInfo="ng">
     <node role="entityReference" roleId="r5tz.871579071900209323" type="r5tz.EntityReference" typeId="r5tz.871579071900209276" id="3572493221071361412" nodeInfo="ng">
       <link role="classConcept" roleId="r5tz.871579071900209277" targetNodeId="1846102710291384051" resolveInfo="ProfZeile" />
@@ -3581,7 +3581,26 @@
       <property name="name" nameId="tpck.1169194664001" value="helloWorld" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="5945580863359993533" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5945580863359993534" nodeInfo="nn" />
-      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5945580863359993535" nodeInfo="sn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5945580863359993535" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="896341873378626905" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="896341873378626906" nodeInfo="nr">
+            <property name="name" nameId="tpck.1169194664001" value="d" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="896341873378626907" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="v2qa.~DateTime" resolveInfo="DateTime" />
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="896341873378627092" nodeInfo="ng">
+              <property name="day" nameId="un0u.569389511234497414" value="1" />
+              <property name="month" nameId="un0u.569389511234497413" value="12" />
+              <property name="year" nameId="un0u.569389511234497412" value="2014" />
+              <property name="hour" nameId="un0u.569389511234497415" value="24" />
+              <property name="minute" nameId="un0u.569389511234497416" value="0" />
+              <property name="second" nameId="un0u.569389511234497417" value="0" />
+              <property name="fromServer" nameId="un0u.569389511234497418" value="false" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="896341873378627020" nodeInfo="nn" />
+      </node>
     </node>
     <node role="status" roleId="un0u.4533072425307746563" type="un0u.Status" typeId="un0u.4533072425307715669" id="6665012079371428176" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="OnOff" />
@@ -3689,6 +3708,15 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097035793" nodeInfo="nn" />
+      <node role="testData" roleId="un0u.6532710743545557315" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="896341873365795449" nodeInfo="ng">
+        <property name="day" nameId="un0u.569389511234497414" value="1" />
+        <property name="month" nameId="un0u.569389511234497413" value="12" />
+        <property name="year" nameId="un0u.569389511234497412" value="2013" />
+        <property name="hour" nameId="un0u.569389511234497415" value="13" />
+        <property name="minute" nameId="un0u.569389511234497416" value="15" />
+        <property name="second" nameId="un0u.569389511234497417" value="00" />
+        <property name="fromServer" nameId="un0u.569389511234497418" value="false" />
+      </node>
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="4747577502515364410" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="zzModifiedAtUid" />
@@ -4065,6 +4093,8 @@
         <property name="fromServer" nameId="un0u.569389511234497411" value="false" />
       </node>
     </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="896341873348631573" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="896341873347969355" nodeInfo="ngu" />
     <node role="testMethod" roleId="un0u.3262649880240512254" type="un0u.TestMethod" typeId="un0u.3262649880240512220" id="3262649880241050634" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="dateTest1" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3262649880241050635" nodeInfo="in" />
@@ -9918,11 +9948,6 @@
       </node>
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3262649880240975777" nodeInfo="nn" />
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="3262649880240975778" nodeInfo="igu">
-      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3262649880240975779" nodeInfo="in" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3262649880240975780" nodeInfo="nn" />
-      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3262649880240975781" nodeInfo="sn" />
-    </node>
   </root>
   <root type="un0u.TestCases" typeId="un0u.3262649880240512242" id="3262649880242561162" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="SessionTests_Ver_JAN2013" />
@@ -14814,11 +14839,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="3262649880242561164" nodeInfo="igu">
-      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3262649880242561165" nodeInfo="in" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3262649880242561166" nodeInfo="nn" />
-      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3262649880242561167" nodeInfo="sn" />
     </node>
   </root>
   <root type="un0u.BusinessObject" typeId="un0u.1372017518093514468" id="1954916302086772744" nodeInfo="ig">
