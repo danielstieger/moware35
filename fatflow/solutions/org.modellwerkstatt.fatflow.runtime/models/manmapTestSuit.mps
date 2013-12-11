@@ -697,7 +697,21 @@
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="1846102710291384047" nodeInfo="igu">
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="1846102710291384048" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1846102710291384049" nodeInfo="nn" />
-      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1846102710291384050" nodeInfo="sn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1846102710291384050" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5612365776964191081" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="5612365776964191079" nodeInfo="nn">
+            <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5612365776964222419" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6665012079371707459" resolveInfo="Konto" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5612365776964222933" nodeInfo="nn">
+                <property name="value" nameId="tpee.1068580320021" value="10" />
+              </node>
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5612365776964222978" nodeInfo="nn">
+                <property name="value" nameId="tpee.1068580320021" value="20" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="8581267934522457821" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="addProfZeile" />
@@ -3518,6 +3532,7 @@
   <root type="un0u.BusinessObject" typeId="un0u.1372017518093514468" id="2911334080249795734" nodeInfo="ig">
     <property name="transactionControl" nameId="un0u.1206044695255662788" value="false" />
     <property name="name" nameId="tpck.1169194664001" value="ExtendedProforma" />
+    <property name="right_transform_hint" value="true" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="2911334080249795735" nodeInfo="nn" />
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2911334080249866539" nodeInfo="in">
       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1846102710291383948" resolveInfo="Proforma" />
@@ -3582,23 +3597,6 @@
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="5945580863359993533" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5945580863359993534" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5945580863359993535" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="896341873378626905" nodeInfo="nn">
-          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="896341873378626906" nodeInfo="nr">
-            <property name="name" nameId="tpck.1169194664001" value="d" />
-            <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="896341873378626907" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="v2qa.~DateTime" resolveInfo="DateTime" />
-            </node>
-            <node role="initializer" roleId="tpee.1068431790190" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="896341873378627092" nodeInfo="ng">
-              <property name="day" nameId="un0u.569389511234497414" value="1" />
-              <property name="month" nameId="un0u.569389511234497413" value="12" />
-              <property name="year" nameId="un0u.569389511234497412" value="2014" />
-              <property name="hour" nameId="un0u.569389511234497415" value="24" />
-              <property name="minute" nameId="un0u.569389511234497416" value="0" />
-              <property name="second" nameId="un0u.569389511234497417" value="0" />
-              <property name="fromServer" nameId="un0u.569389511234497418" value="false" />
-            </node>
-          </node>
-        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="896341873378627020" nodeInfo="nn" />
       </node>
     </node>
@@ -3708,15 +3706,6 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097035793" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="896341873365795449" nodeInfo="ng">
-        <property name="day" nameId="un0u.569389511234497414" value="1" />
-        <property name="month" nameId="un0u.569389511234497413" value="12" />
-        <property name="year" nameId="un0u.569389511234497412" value="2013" />
-        <property name="hour" nameId="un0u.569389511234497415" value="13" />
-        <property name="minute" nameId="un0u.569389511234497416" value="15" />
-        <property name="second" nameId="un0u.569389511234497417" value="00" />
-        <property name="fromServer" nameId="un0u.569389511234497418" value="false" />
-      </node>
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="4747577502515364410" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="zzModifiedAtUid" />
