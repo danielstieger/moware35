@@ -24,7 +24,7 @@
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="37" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="117" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="122" implicit="yes" />
   <root type="r5tz.PersistenceDescription" typeId="r5tz.871579071900124823" id="3572493221071361406" nodeInfo="ng">
     <node role="entityReference" roleId="r5tz.871579071900209323" type="r5tz.EntityReference" typeId="r5tz.871579071900209276" id="3572493221071361412" nodeInfo="ng">
       <link role="classConcept" roleId="r5tz.871579071900209277" targetNodeId="1846102710291384051" resolveInfo="ProfZeile" />
@@ -653,10 +653,10 @@
   </root>
   <root type="un0u.BusinessObject" typeId="un0u.1372017518093514468" id="1846102710291383948" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Proforma" />
-    <node role="testDataHeader" roleId="un0u.2873275764321108154" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764342655948" nodeInfo="nn">
+    <node role="DEP_testDataHeader" roleId="un0u.2873275764321108154" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764342655948" nodeInfo="nn">
       <property name="value" nameId="tpee.1070475926801" value="Case1" />
     </node>
-    <node role="testDataHeader" roleId="un0u.2873275764321108154" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764342657018" nodeInfo="nn">
+    <node role="DEP_testDataHeader" roleId="un0u.2873275764321108154" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764342657018" nodeInfo="nn">
       <property name="value" nameId="tpee.1070475926801" value="Case2" />
     </node>
     <node role="status" roleId="un0u.4533072425307746563" type="un0u.Status" typeId="un0u.4533072425307715669" id="914294090284931631" nodeInfo="ng">
@@ -814,10 +814,10 @@
       </node>
       <node role="propertyOption" roleId="un0u.3674496190757459099" type="un0u.KeyOption" typeId="un0u.3674496190757459069" id="1268706582445057120" nodeInfo="ng" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097033085" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764278606401" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764278606401" nodeInfo="nn">
         <property name="value" nameId="tpee.1068580320021" value="4711" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764307643270" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764307643270" nodeInfo="nn">
         <property name="value" nameId="tpee.1068580320021" value="4711" />
       </node>
     </node>
@@ -833,8 +833,8 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097032865" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="2873275764282080814" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="2873275764307643301" nodeInfo="nn" />
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="2873275764282080814" nodeInfo="nn" />
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="2873275764307643301" nodeInfo="nn" />
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="4138088861057102794" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="lieferDatum" />
@@ -848,7 +848,7 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097034113" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="2873275764282080851" nodeInfo="ng">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="2873275764282080851" nodeInfo="ng">
         <property name="day" nameId="un0u.569389511234497414" value="27" />
         <property name="month" nameId="un0u.569389511234497413" value="01" />
         <property name="year" nameId="un0u.569389511234497412" value="1980" />
@@ -857,7 +857,7 @@
         <property name="second" nameId="un0u.569389511234497417" value="0" />
         <property name="fromServer" nameId="un0u.569389511234497418" value="false" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="2873275764307643332" nodeInfo="ng">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="2873275764307643332" nodeInfo="ng">
         <property name="day" nameId="un0u.569389511234497414" value="27" />
         <property name="month" nameId="un0u.569389511234497413" value="01" />
         <property name="year" nameId="un0u.569389511234497412" value="1980" />
@@ -877,10 +877,10 @@
       </node>
       <node role="type" roleId="tpee.1201371521209" type="tpee.StringType" typeId="tpee.1225271177708" id="144161457182830235" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097032193" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764282081045" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764282081045" nodeInfo="nn">
         <property name="value" nameId="tpee.1070475926801" value="MPS Test Proforma" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764307643363" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764307643363" nodeInfo="nn">
         <property name="value" nameId="tpee.1070475926801" value="MPS Test Proforma" />
       </node>
     </node>
@@ -894,10 +894,10 @@
       </node>
       <node role="type" roleId="tpee.1201371521209" type="tpee.IntegerType" typeId="tpee.1070534370425" id="647807003362610322" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097033101" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764282081687" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764282081687" nodeInfo="nn">
         <property name="value" nameId="tpee.1068580320021" value="0" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764307643394" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764307643394" nodeInfo="nn">
         <property name="value" nameId="tpee.1068580320021" value="0" />
       </node>
     </node>
@@ -911,10 +911,10 @@
       </node>
       <node role="type" roleId="tpee.1201371521209" type="tpee.StringType" typeId="tpee.1225271177708" id="144161457182830242" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097032687" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764282081721" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764282081721" nodeInfo="nn">
         <property name="value" nameId="tpee.1070475926801" value="UseCase1" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764307643425" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764307643425" nodeInfo="nn">
         <property name="value" nameId="tpee.1070475926801" value="UseCase1" />
       </node>
     </node>
@@ -928,10 +928,10 @@
       </node>
       <node role="type" roleId="tpee.1201371521209" type="tpee.IntegerType" typeId="tpee.1070534370425" id="144161457182830243" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097034205" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764282081835" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764282081835" nodeInfo="nn">
         <property name="value" nameId="tpee.1068580320021" value="0" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764307643456" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764307643456" nodeInfo="nn">
         <property name="value" nameId="tpee.1068580320021" value="0" />
       </node>
     </node>
@@ -947,11 +947,11 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097032137" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="un0u.StatusConstReference" typeId="un0u.4533072425307838443" id="2873275764282081872" nodeInfo="ng">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="un0u.StatusConstReference" typeId="un0u.4533072425307838443" id="2873275764282081872" nodeInfo="ng">
         <link role="status" roleId="un0u.4533072425307838444" targetNodeId="914294090284931631" resolveInfo="BelegTyp" />
         <link role="element" roleId="un0u.1707329006119989962" targetNodeId="914294090284931645" resolveInfo="None" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="un0u.StatusConstReference" typeId="un0u.4533072425307838443" id="2873275764307643487" nodeInfo="ng">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="un0u.StatusConstReference" typeId="un0u.4533072425307838443" id="2873275764307643487" nodeInfo="ng">
         <link role="status" roleId="un0u.4533072425307838444" targetNodeId="914294090284931631" resolveInfo="BelegTyp" />
         <link role="element" roleId="un0u.1707329006119989962" targetNodeId="914294090284931645" resolveInfo="None" />
       </node>
@@ -973,10 +973,10 @@
         <property name="scale" nameId="un0u.5903203825074373802" value="4" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097032449" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="2873275764282084835" nodeInfo="ng">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="2873275764282084835" nodeInfo="ng">
         <property name="value" nameId="un0u.271985905034983109" value="0.0d" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="2873275764307643518" nodeInfo="ng">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="2873275764307643518" nodeInfo="ng">
         <property name="value" nameId="un0u.271985905034983109" value="0.0d" />
       </node>
     </node>
@@ -992,10 +992,10 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="epq1.~BigDecimal" resolveInfo="BigDecimal" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097034737" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="2873275764282088705" nodeInfo="ng">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="2873275764282088705" nodeInfo="ng">
         <property name="value" nameId="un0u.271985905034983109" value="0.0d" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="2873275764307643549" nodeInfo="ng">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="2873275764307643549" nodeInfo="ng">
         <property name="value" nameId="un0u.271985905034983109" value="0.0d" />
       </node>
     </node>
@@ -1009,10 +1009,10 @@
       </node>
       <node role="type" roleId="tpee.1201371521209" type="tpee.IntegerType" typeId="tpee.1070534370425" id="3219319115356497189" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097034029" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764282089496" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764282089496" nodeInfo="nn">
         <property name="value" nameId="tpee.1068580320021" value="30" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764307643971" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="2873275764307643971" nodeInfo="nn">
         <property name="value" nameId="tpee.1068580320021" value="30" />
       </node>
     </node>
@@ -1026,10 +1026,10 @@
       </node>
       <node role="type" roleId="tpee.1201371521209" type="tpee.StringType" typeId="tpee.1225271177708" id="8634676618502865843" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097032571" nodeInfo="nn" />
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764282089546" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764282089546" nodeInfo="nn">
         <property name="value" nameId="tpee.1070475926801" value="ZZ" />
       </node>
-      <node role="testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764307644002" nodeInfo="nn">
+      <node role="DEP_testData" roleId="un0u.6532710743545557315" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2873275764307644002" nodeInfo="nn">
         <property name="value" nameId="tpee.1070475926801" value="ZZ" />
       </node>
     </node>
