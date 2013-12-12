@@ -3637,6 +3637,7 @@
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="4296094616050456121" nodeInfo="ng">
+        <property name="noTargetText" nameId="tpc2.1139852716018" value="Cancel" />
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.4296094616050456085" />
         <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="4296094616050456122" nodeInfo="ng">
           <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="5196923997523020705" nodeInfo="ng">

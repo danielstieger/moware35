@@ -475,11 +475,7 @@
             <link role="pageReference" roleId="un0u.1444282517685285790" targetNodeId="3642974105805131736" resolveInfo="Default" />
             <link role="pageConclusion" roleId="un0u.4296094616050456085" targetNodeId="3642974105805133675" resolveInfo="Ok" />
             <node role="pageFakeConceptFunc" roleId="un0u.4296094616050456111" type="un0u.FakeViewConceptFunc" typeId="un0u.4296094616050456101" id="3642974105812275363" nodeInfo="ng">
-              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105812275364" nodeInfo="sn">
-                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3642974105812275482" nodeInfo="nn">
-                  <node role="expression" roleId="tpee.1068580123156" type="un0u.FakeViewConceptParam" typeId="un0u.7303581843789659047" id="3642974105812275481" nodeInfo="ng" />
-                </node>
-              </node>
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105812275364" nodeInfo="sn" />
             </node>
           </node>
         </node>
@@ -2776,11 +2772,7 @@
                 <link role="pageReference" roleId="un0u.1444282517685285790" targetNodeId="3642974105802659101" resolveInfo="Default" />
                 <link role="pageConclusion" roleId="un0u.4296094616050456085" targetNodeId="3642974105802659342" resolveInfo="Ok" />
                 <node role="pageFakeConceptFunc" roleId="un0u.4296094616050456111" type="un0u.FakeViewConceptFunc" typeId="un0u.4296094616050456101" id="3642974105804789686" nodeInfo="ng">
-                  <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105804789687" nodeInfo="sn">
-                    <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3642974105804800505" nodeInfo="nn">
-                      <node role="expression" roleId="tpee.1068580123156" type="un0u.FakeViewConceptParam" typeId="un0u.7303581843789659047" id="3642974105804800504" nodeInfo="ng" />
-                    </node>
-                  </node>
+                  <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105804789687" nodeInfo="sn" />
                 </node>
               </node>
               <node role="actualArgument" roleId="un0u.4419932786254844498" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682203651" nodeInfo="nn">
@@ -3009,11 +3001,7 @@
                 <link role="pageReference" roleId="un0u.1444282517685285790" targetNodeId="3642974105805131736" resolveInfo="Default" />
                 <link role="pageConclusion" roleId="un0u.4296094616050456085" targetNodeId="3642974105805133675" resolveInfo="Ok" />
                 <node role="pageFakeConceptFunc" roleId="un0u.4296094616050456111" type="un0u.FakeViewConceptFunc" typeId="un0u.4296094616050456101" id="3642974105807934190" nodeInfo="ng">
-                  <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105807934192" nodeInfo="sn">
-                    <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3642974105807946779" nodeInfo="nn">
-                      <node role="expression" roleId="tpee.1068580123156" type="un0u.FakeViewConceptParam" typeId="un0u.7303581843789659047" id="3642974105807946778" nodeInfo="ng" />
-                    </node>
-                  </node>
+                  <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105807934192" nodeInfo="sn" />
                 </node>
               </node>
               <node role="actualArgument" roleId="un0u.4419932786254844498" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682203615" nodeInfo="nn">
@@ -3150,11 +3138,7 @@
                 <link role="pageReference" roleId="un0u.1444282517685285790" targetNodeId="3642974105805131736" resolveInfo="Default" />
                 <link role="pageConclusion" roleId="un0u.4296094616050456085" targetNodeId="3642974105805133675" resolveInfo="Ok" />
                 <node role="pageFakeConceptFunc" roleId="un0u.4296094616050456111" type="un0u.FakeViewConceptFunc" typeId="un0u.4296094616050456101" id="3642974105807961854" nodeInfo="ng">
-                  <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105807961856" nodeInfo="sn">
-                    <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3642974105807974526" nodeInfo="nn">
-                      <node role="expression" roleId="tpee.1068580123156" type="un0u.FakeViewConceptParam" typeId="un0u.7303581843789659047" id="3642974105807974525" nodeInfo="ng" />
-                    </node>
-                  </node>
+                  <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105807961856" nodeInfo="sn" />
                 </node>
               </node>
               <node role="actualArgument" roleId="un0u.4419932786254844498" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682204465" nodeInfo="nn">
@@ -4543,9 +4527,6 @@
                     </node>
                   </node>
                 </node>
-                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1522357666136036533" nodeInfo="nn">
-                  <node role="expression" roleId="tpee.1068580123156" type="un0u.FakeViewConceptParam" typeId="un0u.7303581843789659047" id="1522357666136036534" nodeInfo="ng" />
-                </node>
               </node>
             </node>
           </node>
@@ -4572,9 +4553,6 @@
                       </node>
                     </node>
                   </node>
-                </node>
-                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1522357666136036535" nodeInfo="nn">
-                  <node role="expression" roleId="tpee.1068580123156" type="un0u.FakeViewConceptParam" typeId="un0u.7303581843789659047" id="1522357666136036536" nodeInfo="ng" />
                 </node>
               </node>
             </node>
@@ -4744,20 +4722,50 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="3642974105816188187" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="3642974105816188188" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="obj" />
-            <property name="isFinal" nameId="tpee.1176718929932" value="true" />
+            <property name="isFinal" nameId="tpee.1176718929932" value="false" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3642974105816188189" nodeInfo="in">
               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ofql.7032039167864884548" resolveInfo="IntKeyObject" />
             </node>
-            <node role="initializer" roleId="tpee.1068431790190" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3642974105816311366" nodeInfo="nn" />
+            <node role="initializer" roleId="tpee.1068431790190" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3642974105872381996" nodeInfo="nn" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3642974105816177468" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="un0u.RunCommand" typeId="un0u.4419932786254844465" id="3642974105805121009" nodeInfo="ng">
+          <link role="command" roleId="un0u.4419932786254844467" targetNodeId="8831959791090670351" resolveInfo="Step1 SetAgain" />
+          <link role="process" roleId="un0u.4419932786254844466" targetNodeId="594565203028873644" resolveInfo="TestProcess" />
+          <node role="actualArgument" roleId="un0u.4419932786254844498" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3642974105805211461" nodeInfo="nn">
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3642974105816188188" resolveInfo="obj" />
+          </node>
+          <node role="viewsForCommands" roleId="un0u.4296094616050456129" type="un0u.FakeCommandView" typeId="un0u.4296094616050456083" id="3642974105805150103" nodeInfo="ng">
+            <link role="pageReference" roleId="un0u.1444282517685285790" targetNodeId="3642974105805131736" resolveInfo="Default" />
+            <link role="pageConclusion" roleId="un0u.4296094616050456085" targetNodeId="3642974105805133675" resolveInfo="Ok" />
+            <node role="pageFakeConceptFunc" roleId="un0u.4296094616050456111" type="un0u.FakeViewConceptFunc" typeId="un0u.4296094616050456101" id="3642974105805150104" nodeInfo="ng">
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105805150105" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3642974105869476442" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3642974105869476443" nodeInfo="nn">
+                    <node role="rValue" roleId="tpee.1068498886297" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3642974105869476444" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="un0u.FakeViewConceptParam" typeId="un0u.7303581843789659047" id="3642974105869476445" nodeInfo="ng" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="3642974105869476446" nodeInfo="nn" />
+                    </node>
+                    <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3642974105869476447" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3642974105816188188" resolveInfo="obj" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="sessionExpression" roleId="un0u.5196923997522444846" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3642974105805158291" nodeInfo="nn">
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3642974105802375408" resolveInfo="session" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3642974105869622037" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3642974105869620910" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="un0u.RunCommand" typeId="un0u.4419932786254844465" id="3642974105802401877" nodeInfo="ng">
           <link role="process" roleId="un0u.4419932786254844466" targetNodeId="594565203028873644" resolveInfo="TestProcess" />
           <link role="command" roleId="un0u.4419932786254844467" targetNodeId="594565203028873643" resolveInfo="Step0 Checkout" />
           <node role="viewsForCommands" roleId="un0u.4296094616050456129" type="un0u.FakeCommandView" typeId="un0u.4296094616050456083" id="3642974105802700498" nodeInfo="ng">
             <link role="pageReference" roleId="un0u.1444282517685285790" targetNodeId="3642974105802659101" resolveInfo="Default" />
-            <link role="pageConclusion" roleId="un0u.4296094616050456085" targetNodeId="3642974105802659342" resolveInfo="Ok" />
             <node role="pageFakeConceptFunc" roleId="un0u.4296094616050456111" type="un0u.FakeViewConceptFunc" typeId="un0u.4296094616050456101" id="3642974105802700500" nodeInfo="ng">
               <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105802700502" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3642974105816200043" nodeInfo="nn">
@@ -4771,32 +4779,7 @@
                     </node>
                   </node>
                 </node>
-                <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3642974105805162681" nodeInfo="nn" />
-                <node role="statement" roleId="tpee.1068581517665" type="un0u.RunCommand" typeId="un0u.4419932786254844465" id="3642974105805121009" nodeInfo="ng">
-                  <link role="process" roleId="un0u.4419932786254844466" targetNodeId="594565203028873644" resolveInfo="TestProcess" />
-                  <link role="command" roleId="un0u.4419932786254844467" targetNodeId="8831959791090670351" resolveInfo="Step1 SetAgain" />
-                  <node role="actualArgument" roleId="un0u.4419932786254844498" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3642974105805211461" nodeInfo="nn">
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3642974105816188188" resolveInfo="obj" />
-                  </node>
-                  <node role="viewsForCommands" roleId="un0u.4296094616050456129" type="un0u.FakeCommandView" typeId="un0u.4296094616050456083" id="3642974105805150103" nodeInfo="ng">
-                    <link role="pageReference" roleId="un0u.1444282517685285790" targetNodeId="3642974105805131736" resolveInfo="Default" />
-                    <link role="pageConclusion" roleId="un0u.4296094616050456085" targetNodeId="3642974105805133675" resolveInfo="Ok" />
-                    <node role="pageFakeConceptFunc" roleId="un0u.4296094616050456111" type="un0u.FakeViewConceptFunc" typeId="un0u.4296094616050456101" id="3642974105805150104" nodeInfo="ng">
-                      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3642974105805150105" nodeInfo="sn">
-                        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3642974105805152925" nodeInfo="nn">
-                          <node role="expression" roleId="tpee.1068580123156" type="un0u.FakeViewConceptParam" typeId="un0u.7303581843789659047" id="3642974105805152924" nodeInfo="ng" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node role="sessionExpression" roleId="un0u.5196923997522444846" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3642974105805158291" nodeInfo="nn">
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3642974105802375408" resolveInfo="session" />
-                  </node>
-                </node>
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3642974105805119731" nodeInfo="nn" />
-                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3642974105802731158" nodeInfo="nn">
-                  <node role="expression" roleId="tpee.1068580123156" type="un0u.FakeViewConceptParam" typeId="un0u.7303581843789659047" id="3642974105802731156" nodeInfo="ng" />
-                </node>
               </node>
             </node>
           </node>
@@ -4808,7 +4791,6 @@
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3642974105802375408" resolveInfo="session" />
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3642974105816164765" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.AssertStatement" typeId="tpee.1160998861373" id="3642974105816168600" nodeInfo="nn">
           <node role="condition" roleId="tpee.1160998896846" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3642974105816275071" nodeInfo="nn">
             <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3642974105816262434" nodeInfo="nn">
@@ -4822,7 +4804,7 @@
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3642974105816286503" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3642974105816294383" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="goto*on*" />
+                <property name="value" nameId="tpee.1070475926801" value="EntryXOn" />
               </node>
             </node>
           </node>
