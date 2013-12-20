@@ -1,22 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="org.modellwerkstatt.objectflow" uuid="ec097fca-5b84-41f2-847d-6a5690cae277">
   <models>
-    <modelRoot path="${module}/jars/printing/avalon-framework-4.2.0.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/barcode4j-fop-ext-complete.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/batik-all-1.7.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/commons-io-1.3.1.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/commons-logging-1.0.4.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/fop.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/serializer-2.7.0.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/xalan-2.7.0.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/xercesImpl-2.7.1.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/xml-apis-1.3.04.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/xml-apis-ext-1.3.04.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/printing/xmlgraphics-commons-1.4.jar" type="java_classes" />
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/avalon-framework-4.2.0.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/barcode4j-fop-ext-complete.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/batik-all-1.7.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/commons-io-1.3.1.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/commons-logging-1.0.4.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/fop.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/serializer-2.7.0.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/xalan-2.7.0.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/xercesImpl-2.7.1.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/xml-apis-1.3.04.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/xml-apis-ext-1.3.04.jar" />
+    </modelRoot>
+    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
+      <sourceRoot path="${module}/jars/printing/xmlgraphics-commons-1.4.jar" />
+    </modelRoot>
     <modelRoot contentPath="${module}/languageModels" type="default">
       <sourceRoot location="." />
     </modelRoot>
-    <modelRoot path="${module}/jars/org.springframework.context-3.0.5.RELEASE.jar" type="java_classes" />
+    <modelRoot contentPath="${module}/jars" type="java_classes">
+      <sourceRoot path="${module}/jars/org.springframework.context-3.0.5.RELEASE.jar" />
+    </modelRoot>
   </models>
   <accessoryModels>
     <model modelUID="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
@@ -87,7 +113,6 @@
     <dependency reexport="false">8d29d73f-ed99-4652-ae0a-083cdfe53c34(jetbrains.mps.ide.platform)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)</dependency>
-    <dependency reexport="false">5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)</dependency>
     <dependency reexport="false">37fdf88a-1025-4d01-864a-0bf987f72e6f(org.modellwerkstatt.manmap.solution)</dependency>
     <dependency reexport="false">5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.sandbox)</dependency>
   </dependencies>
@@ -111,8 +136,8 @@
   <extendedLanguages>
     <extendedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</extendedLanguage>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
-    <extendedLanguage>5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)</extendedLanguage>
     <extendedLanguage>83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</extendedLanguage>
+    <extendedLanguage>5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)</extendedLanguage>
   </extendedLanguages>
 </language>
 

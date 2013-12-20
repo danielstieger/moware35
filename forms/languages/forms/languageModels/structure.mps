@@ -7,7 +7,7 @@
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="122" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="123" />
   <import index="4fqr" modelUID="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" version="-1" />
   <import index="q13i" modelUID="r:9fc6570b-687f-43e8-a83d-7a99f464f174(org.modellwerkstatt.forms.behavior)" version="0" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -29,7 +29,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7105808579467823062" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="DelegateForm" />
-    <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/staticpictures/window.png" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/staticpictures/window.png" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="DelegateForm" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3792563709709170442" nodeInfo="ig">
@@ -157,7 +157,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Forms" />
     <property name="name" nameId="tpck.1169194664001" value="FormContainer" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/staticpictures/window_edit.png" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/staticpictures/window_edit.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8264937784150889254" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8264937784150783782" resolveInfo="ILayoutContainer" />
@@ -223,7 +223,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8089681376574938514" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Forms" />
     <property name="name" nameId="tpck.1169194664001" value="TableForm" />
-    <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/staticpictures/table_view.png" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/staticpictures/table_view.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6827528231168019613" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="selectFirst" />
@@ -301,7 +301,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8089681376575823254" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Forms" />
     <property name="name" nameId="tpck.1169194664001" value="TabContainer" />
-    <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/staticpictures/index.png" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/staticpictures/index.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="5611918813000320329" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="type" />
@@ -335,7 +335,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8089681376576034959" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Forms" />
     <property name="name" nameId="tpck.1169194664001" value="IncludeContainerReference" />
-    <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/staticpictures/nail.png" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/staticpictures/nail.png" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Include" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4554792820670493399" nodeInfo="ig">
@@ -361,7 +361,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="116370668401456157" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="CommandTrigger" />
     <property name="name" nameId="tpck.1169194664001" value="SelectedObject" />
-    <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/staticpictures/icecube.png" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/staticpictures/icecube.png" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="getSelected" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="mandatory one object" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
@@ -375,7 +375,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="116370668401845264" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="CommandTrigger" />
     <property name="name" nameId="tpck.1169194664001" value="SelectedList" />
-    <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/staticpictures/icecube.png" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/staticpictures/icecube.png" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="one or more objects" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="getSelectedList" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
@@ -786,7 +786,7 @@
     <property name="name" nameId="tpck.1169194664001" value="Application" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Application" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
-    <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/staticpictures/hat.png" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/staticpictures/hat.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068390468198" resolveInfo="ClassConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2470353161578441261" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -827,7 +827,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1472214787652375098" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Application" />
     <property name="name" nameId="tpck.1169194664001" value="Folder" />
-    <property name="iconPath" nameId="tpce.1160488491229" value="${language_descriptor}/staticpictures/folder.png" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/staticpictures/folder.png" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="Folder" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1472214787652375112" nodeInfo="ig">
