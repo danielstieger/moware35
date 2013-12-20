@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="org.modellwerkstatt.fxforms.runtime" uuid="1d2cdd29-56d5-4cde-8587-a18ac1c22af7" compileInMPS="true">
   <models>
-    <modelRoot path="C:/moware/fxforms/languages/fxforms/jars/apacheIcons.jar" type="java_classes" />
+    <modelRoot contentPath="C:/moware/fxforms/languages/fxforms/jars" type="java_classes">
+      <sourceRoot location="apacheIcons.jar" />
+    </modelRoot>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="." />
     </modelRoot>
@@ -9,9 +11,6 @@
       <sourceRoot location="." />
     </modelRoot>
   </models>
-  <stubModelEntries>
-    <stubModelEntry path="C:/moware/fxforms/languages/fxforms/jars/apacheIcons.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">3ffa979d-a559-4372-8a77-69ebb3d02788(org.modellwerkstatt.forms.sandbox)</dependency>
