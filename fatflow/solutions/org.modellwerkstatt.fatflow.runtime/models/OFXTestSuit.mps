@@ -6440,21 +6440,21 @@
               <node role="type" roleId="un0u.8174619299762601960" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6965540851917323208" nodeInfo="in">
                 <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ofql.2911334080249795734" resolveInfo="ExtendedProforma" />
               </node>
-              <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="6965540851917323229" nodeInfo="ng">
-                <link role="property" roleId="un0u.8174619299762825431" targetNodeId="ofql.2911334080249795742" />
-                <node role="expression" roleId="un0u.6135709767654784944" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="6965540851917329588" nodeInfo="ng">
+              <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="3860064244083103412" nodeInfo="ng">
+                <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="ofql.2911334080249795742" />
+                <node role="exp" roleId="un0u.3860064244073851668" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="3860064244083103413" nodeInfo="ng">
                   <property name="value" nameId="un0u.271985905034983109" value="10.0d" />
                 </node>
               </node>
-              <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="6965540851917329602" nodeInfo="ng">
-                <link role="property" roleId="un0u.8174619299762825431" targetNodeId="ofql.5054552966230291360" resolveInfo="restrictedString" />
-                <node role="expression" roleId="un0u.6135709767654784944" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6965540851917329643" nodeInfo="nn">
+              <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="3860064244083103414" nodeInfo="ng">
+                <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="ofql.5054552966230291360" />
+                <node role="exp" roleId="un0u.3860064244073851668" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3860064244083103415" nodeInfo="nn">
                   <property name="value" nameId="tpee.1070475926801" value="restriced" />
                 </node>
               </node>
-              <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="6965540851918058149" nodeInfo="ng">
-                <link role="property" roleId="un0u.8174619299762825431" targetNodeId="ofql.144161457182830236" resolveInfo="titel" />
-                <node role="expression" roleId="un0u.6135709767654784944" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6965540851918058225" nodeInfo="nn">
+              <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="3860064244083103416" nodeInfo="ng">
+                <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="ofql.144161457182830236" />
+                <node role="exp" roleId="un0u.3860064244073851668" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3860064244083103417" nodeInfo="nn">
                   <property name="value" nameId="tpee.1070475926801" value="someTitle" />
                 </node>
               </node>
