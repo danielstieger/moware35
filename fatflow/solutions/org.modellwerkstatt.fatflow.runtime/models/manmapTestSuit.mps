@@ -1093,6 +1093,7 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3860064244149865369" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1954916302086849710" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="1954916302086849714" nodeInfo="nn">
             <node role="rValue" roleId="tpee.1068498886297" type="r5tz.QueryFromMap" typeId="r5tz.774207833082573402" id="1954916302086849717" nodeInfo="ng">
@@ -1119,7 +1120,6 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1954916302086849729" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="1954916302089542371" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="1954916302089542372" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="p" />
@@ -1158,7 +1158,7 @@
                                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1954916302089542237" resolveInfo="zeile" />
                                     </node>
                                     <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="1954916302089542301" nodeInfo="nn">
-                                      <link role="property" roleId="tpee.1201385237847" targetNodeId="1846102710291384126" />
+                                      <link role="property" roleId="tpee.1201385237847" targetNodeId="1846102710291384126" resolveInfo="proforma" />
                                     </node>
                                   </node>
                                 </node>
@@ -1188,7 +1188,7 @@
                               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1954916302089542372" resolveInfo="p" />
                             </node>
                             <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="1954916302089542339" nodeInfo="nn">
-                              <link role="property" roleId="tpee.1201385237847" targetNodeId="1846102710291384038" />
+                              <link role="property" roleId="tpee.1201385237847" targetNodeId="1846102710291384038" resolveInfo="profZeilen" />
                             </node>
                           </node>
                           <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="1954916302089542350" nodeInfo="nn">
@@ -1209,11 +1209,11 @@
                                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1954916302089542237" resolveInfo="zeile" />
                                 </node>
                                 <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="1954916302089542439" nodeInfo="nn">
-                                  <link role="property" roleId="tpee.1201385237847" targetNodeId="1846102710291384126" />
+                                  <link role="property" roleId="tpee.1201385237847" targetNodeId="1846102710291384126" resolveInfo="proforma" />
                                 </node>
                               </node>
                               <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="1954916302089542458" nodeInfo="nn">
-                                <link role="property" roleId="tpee.1201385237847" targetNodeId="1846102710291384038" />
+                                <link role="property" roleId="tpee.1201385237847" targetNodeId="1846102710291384038" resolveInfo="profZeilen" />
                               </node>
                             </node>
                             <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="1954916302089542468" nodeInfo="nn">
@@ -1234,7 +1234,7 @@
                                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1954916302089542237" resolveInfo="zeile" />
                                 </node>
                                 <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="1954916302089542427" nodeInfo="nn">
-                                  <link role="property" roleId="tpee.1201385237847" targetNodeId="1846102710291384126" />
+                                  <link role="property" roleId="tpee.1201385237847" targetNodeId="1846102710291384126" resolveInfo="proforma" />
                                 </node>
                               </node>
                             </node>
@@ -1252,7 +1252,7 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="1954916302089542356" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3860064244149865134" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1954916302089542354" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682206095" nodeInfo="nn">
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1954916302089542217" resolveInfo="proformas" />
@@ -15371,6 +15371,146 @@
                 <property name="value" nameId="tpee.1068580320021" value="0" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="testDataInstance" roleId="un0u.1642685958923201293" type="un0u.TestDataInstance" typeId="un0u.1642685958923201142" id="202695187048450184" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="myObject1" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="202695187048450185" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7032039167864884548" resolveInfo="IntKeyObject" />
+      </node>
+      <node role="initializer" roleId="tpee.1068431790190" type="un0u.BuilderExpression" typeId="un0u.6135709767654760052" id="202695187048450166" nodeInfo="ng">
+        <node role="type" roleId="un0u.8174619299762601960" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="202695187048450167" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7032039167864884548" resolveInfo="IntKeyObject" />
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450168" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="7032039167864884556" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="202695187048450169" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="1" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450170" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="7032039167864884563" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="202695187048450171" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="test 1" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450172" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="6665012079371428180" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="un0u.StatusConstReference" typeId="un0u.4533072425307838443" id="202695187048450173" nodeInfo="ng">
+            <link role="status" roleId="un0u.4533072425307838444" targetNodeId="6665012079371428176" resolveInfo="OnOff" />
+            <link role="element" roleId="un0u.1707329006119989962" targetNodeId="6665012079371428178" resolveInfo="on" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450174" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="6665012079371901240" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="202695187048450175" nodeInfo="nn" />
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450176" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="4747577502515364389" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="202695187048450177" nodeInfo="ng">
+            <property name="day" nameId="un0u.569389511234497414" value="0" />
+            <property name="month" nameId="un0u.569389511234497413" value="0" />
+            <property name="year" nameId="un0u.569389511234497412" value="0" />
+            <property name="hour" nameId="un0u.569389511234497415" value="0" />
+            <property name="minute" nameId="un0u.569389511234497416" value="0" />
+            <property name="second" nameId="un0u.569389511234497417" value="0" />
+            <property name="fromServer" nameId="un0u.569389511234497418" value="true" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450178" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="4747577502515364396" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="202695187048450179" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="1" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450180" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="4747577502515364403" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="202695187048450181" nodeInfo="ng">
+            <property name="day" nameId="un0u.569389511234497414" value="0" />
+            <property name="month" nameId="un0u.569389511234497413" value="0" />
+            <property name="year" nameId="un0u.569389511234497412" value="0" />
+            <property name="hour" nameId="un0u.569389511234497415" value="0" />
+            <property name="minute" nameId="un0u.569389511234497416" value="0" />
+            <property name="second" nameId="un0u.569389511234497417" value="0" />
+            <property name="fromServer" nameId="un0u.569389511234497418" value="true" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450182" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="4747577502515364410" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="202695187048450183" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="testDataInstance" roleId="un0u.1642685958923201293" type="un0u.TestDataInstance" typeId="un0u.1642685958923201142" id="202695187048450204" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="myObject2" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="202695187048450205" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7032039167864884548" resolveInfo="IntKeyObject" />
+      </node>
+      <node role="initializer" roleId="tpee.1068431790190" type="un0u.BuilderExpression" typeId="un0u.6135709767654760052" id="202695187048450186" nodeInfo="ng">
+        <node role="type" roleId="un0u.8174619299762601960" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="202695187048450187" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7032039167864884548" resolveInfo="IntKeyObject" />
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450188" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="7032039167864884556" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="202695187048450189" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="2" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450190" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="7032039167864884563" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="202695187048450191" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="test 2" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450192" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="6665012079371428180" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="un0u.StatusConstReference" typeId="un0u.4533072425307838443" id="202695187048450193" nodeInfo="ng">
+            <link role="status" roleId="un0u.4533072425307838444" targetNodeId="6665012079371428176" resolveInfo="OnOff" />
+            <link role="element" roleId="un0u.1707329006119989962" targetNodeId="6665012079371428179" resolveInfo="off" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450194" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="6665012079371901240" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="202695187048450195" nodeInfo="nn" />
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450196" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="4747577502515364389" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="202695187048450197" nodeInfo="ng">
+            <property name="day" nameId="un0u.569389511234497414" value="0" />
+            <property name="month" nameId="un0u.569389511234497413" value="0" />
+            <property name="year" nameId="un0u.569389511234497412" value="0" />
+            <property name="hour" nameId="un0u.569389511234497415" value="0" />
+            <property name="minute" nameId="un0u.569389511234497416" value="0" />
+            <property name="second" nameId="un0u.569389511234497417" value="0" />
+            <property name="fromServer" nameId="un0u.569389511234497418" value="true" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450198" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="4747577502515364396" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="202695187048450199" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="3" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450200" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="4747577502515364403" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="202695187048450201" nodeInfo="ng">
+            <property name="day" nameId="un0u.569389511234497414" value="0" />
+            <property name="month" nameId="un0u.569389511234497413" value="0" />
+            <property name="year" nameId="un0u.569389511234497412" value="0" />
+            <property name="hour" nameId="un0u.569389511234497415" value="0" />
+            <property name="minute" nameId="un0u.569389511234497416" value="0" />
+            <property name="second" nameId="un0u.569389511234497417" value="0" />
+            <property name="fromServer" nameId="un0u.569389511234497418" value="true" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.6135709767654760053" type="un0u.SimpleBuilderElement" typeId="un0u.6135709767654760054" id="202695187048450202" nodeInfo="ng">
+          <link role="prop" roleId="un0u.3860064244073851670" targetNodeId="4747577502515364410" />
+          <node role="exp" roleId="un0u.3860064244073851668" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="202695187048450203" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580320021" value="4" />
           </node>
         </node>
       </node>
