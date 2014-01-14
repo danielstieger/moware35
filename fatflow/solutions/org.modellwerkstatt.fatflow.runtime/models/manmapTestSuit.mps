@@ -24,7 +24,7 @@
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="37" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="124" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="126" implicit="yes" />
   <root type="r5tz.PersistenceDescription" typeId="r5tz.871579071900124823" id="3572493221071361406" nodeInfo="ng">
     <node role="entityReference" roleId="r5tz.871579071900209323" type="r5tz.EntityReference" typeId="r5tz.871579071900209276" id="3572493221071361412" nodeInfo="ng">
       <link role="classConcept" roleId="r5tz.871579071900209277" targetNodeId="1846102710291384051" resolveInfo="ProfZeile" />
@@ -2901,7 +2901,7 @@
       <property name="name" nameId="tpck.1169194664001" value="findLinkObjKontoStand" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5345872660824411677" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5345872660824411678" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="un0u.TestStatements" typeId="un0u.6362637745398048173" id="6362637745400757809" nodeInfo="ng">
+        <node role="statement" roleId="tpee.1068581517665" type="un0u.VariantStatements" typeId="un0u.6362637745398048173" id="6362637745400757809" nodeInfo="ng">
           <node role="statements" roleId="un0u.6362637745398048174" type="tpee.StatementList" typeId="tpee.1068580123136" id="6362637745400757811" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="6362637745400764167" nodeInfo="nn">
               <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6362637745400764168" nodeInfo="nr">

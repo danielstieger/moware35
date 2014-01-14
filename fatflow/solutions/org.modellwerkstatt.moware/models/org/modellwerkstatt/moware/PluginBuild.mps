@@ -1224,6 +1224,7 @@
         <property name="compact" nameId="kdzh.8369506495128725901" value="true" />
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fxforms.runtime" />
         <property name="uuid" nameId="kdzh.322010710375892619" value="1d2cdd29-56d5-4cde-8587-a18ac1c22af7" />
+        <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
         <node role="path" roleId="kdzh.322010710375956261" type="3ior.BuildSourceMacroRelativePath" typeId="3ior.7389400916848153117" id="2013642546067934501" nodeInfo="ng">
           <link role="macro" roleId="3ior.7389400916848153130" targetNodeId="2013642546067885831" resolveInfo="moWareBase" />
           <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2013642546067935433" nodeInfo="nn">

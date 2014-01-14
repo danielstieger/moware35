@@ -21,7 +21,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="tpen" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="124" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="126" />
   <import index="tpco" modelUID="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" version="-1" />
   <import index="70o0" modelUID="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" version="0" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
@@ -1110,6 +1110,9 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8537348545916279036" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="Configuration" />
         <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="1194921945347585645" resolveInfo="O2Header" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.StrikeOutStyleSheet" typeId="tpc2.1223386653097" id="4388680175599603248" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="8537348545916279038" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
@@ -1184,13 +1187,13 @@
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.5528342994742670972" resolveInfo="javafx" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7782735571955048294" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="test mode:" />
+        <property name="text" nameId="tpc2.1073389577007" value="current variant:" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="7782735571955055597" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7782735571955053163" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.7782735571954932795" resolveInfo="testMode" />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.7782735571954932795" resolveInfo="variant" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5528342994742671916" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="" />
@@ -5387,13 +5390,16 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6362637745398048181" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.repository" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="un0u.6362637745398048173" resolveInfo="TestStatements" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="un0u.6362637745398048173" resolveInfo="VariantStatements" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6362637745398048237" nodeInfo="nn">
       <property name="usesFolding" nameId="tpc2.1160590353935" value="true" />
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6362637745403829729" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="iftest" />
+        <property name="text" nameId="tpc2.1073389577007" value="ifvariant" />
         <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="6525155817178075831" resolveInfo="O2Statement" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="4007775331831684814" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.4007775331831684812" resolveInfo="variant" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6362637745401045910" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="{" />

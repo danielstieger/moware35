@@ -14,7 +14,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="124" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="126" implicit="yes" />
   <root type="un0u.BatchJob" typeId="un0u.8399801448178544753" id="4723702796633551653" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TestBatchJob" />
     <link role="configuration" roleId="un0u.8399801448181160543" targetNodeId="3572493221071532650" resolveInfo="JobConfig" />

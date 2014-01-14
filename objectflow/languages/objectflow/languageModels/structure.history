@@ -162,5 +162,17 @@
     </dependencies>
     <rename id="un0u.1642685958950656128" type="REFERENCE" from="variableDeclaration" to="testDataInstance" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="124" />
+    </dependencies>
+    <rename id="un0u.6362637745398048173" type="CONCEPT" from="TestStatements" to="VariantStatements" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="125" />
+    </dependencies>
+    <rename id="un0u.7782735571954932795" type="PROPERTY" from="testMode" to="variant" />
+  </StructureModification>
 </history>
 

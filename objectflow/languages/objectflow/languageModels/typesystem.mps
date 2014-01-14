@@ -20,7 +20,7 @@
   <import index="v2qa" modelUID="f:java_stub#5aaa957f-3447-4783-b1f7-b301fa3e0394#org.joda.time(org.modellwerkstatt.manmap/org.joda.time@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="124" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="126" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <import index="70o0" modelUID="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" version="0" />
   <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="37" />
@@ -6232,7 +6232,7 @@
   </root>
   <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="6362637745398087153" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="typeof_TestStatements" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.repository" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="6362637745398087154" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="6362637745406826139" nodeInfo="nn" />
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="6362637745398087381" nodeInfo="nn">
@@ -6264,7 +6264,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="6362637745398087156" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="testStatements" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="un0u.6362637745398048173" resolveInfo="TestStatements" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="un0u.6362637745398048173" resolveInfo="VariantStatements" />
     </node>
   </root>
   <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="3779151249709331679" nodeInfo="ng">
