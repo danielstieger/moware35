@@ -636,5 +636,46 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
   </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="4388680175614537544" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="ManMapVariant" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4388680175614537545" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="SUGAR" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="SUGAR" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4388680175614537606" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="BABY" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="BABY" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4388680175614537609" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="SNOW" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="SNOW" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4388680175614537613" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="BICYCLE" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="BICYCLE" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="4388680175614537747" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="CHAIR" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="CHAIR" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4388680175614537753" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="mapping.tableoptions" />
+    <property name="name" nameId="tpck.1169194664001" value="AlternativeTableName" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="VARIANT_TABLENAME" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="specify tablename for variant" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="774207833082448719" resolveInfo="TableOption" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4388680175614543803" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="tablename" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1070475926800" resolveInfo="StringLiteral" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4388680175614543797" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="variant" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="4388680175614537544" resolveInfo="ManMapVariant" />
+    </node>
+  </root>
 </model>
 
