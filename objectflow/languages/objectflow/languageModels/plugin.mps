@@ -900,6 +900,35 @@
     </node>
     <node role="executeFunction" roleId="tp4k.1203083461638" type="tp4k.ExecuteBlock" typeId="tp4k.1203083511112" id="7930949789657478571" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7930949789657478572" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="9142134427798550756" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="9142134427798553914" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="(1) Get a summary of different status informations. are they consistent?  " />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="9142134427798555396" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="9142134427798558580" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="(2) Information on packaging and depndencies. Where are commands used private/public creators etc" />
+          </node>
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="9142134427798560235" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="    " />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="9142134427798578776" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="9142134427798581941" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="(3) What are public data structures, what are private ones? Calculate and display .. " />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="9142134427798589218" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="9142134427798592172" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="(4) Why are public data structures public, accessing which fields? Necessary, correct? " />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="9142134427798569250" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="9142134427798577214" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="(3) Setting process status externally should be forebidden ... " />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="9142134427798568271" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="8747999593184943901" nodeInfo="nn">
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="8747999593184943900" nodeInfo="nr">
             <property name="isFinal" nameId="tpee.1176718929932" value="false" />
