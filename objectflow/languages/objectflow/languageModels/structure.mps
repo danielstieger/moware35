@@ -1134,6 +1134,11 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="run" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="command from any process" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="9142134427755964996" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="doc" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6525155817177697680" resolveInfo="OFXDocumentation" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4419932786254844498" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="actualArgument" />
@@ -1446,6 +1451,10 @@
     <property name="name" nameId="tpck.1169194664001" value="TestMethod" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123165" resolveInfo="InstanceMethodDeclaration" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="9142134427742856830" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="exec" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="9142134427742856825" resolveInfo="TestMethodExecute" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3262649880240512230" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="description" />
@@ -1905,6 +1914,19 @@
       <property name="role" nameId="tpce.1071599776563" value="expression" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="9142134427742856825" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
+    <property name="name" nameId="tpck.1169194664001" value="TestMethodExecute" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="9142134427742856826" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="EXECUTE" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="EXECUTE" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="9142134427742856827" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="DONT_EXECUTE" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="DONT EXECUTE" />
     </node>
   </root>
 </model>
