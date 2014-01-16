@@ -14,7 +14,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="126" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="127" implicit="yes" />
   <root type="un0u.BatchJob" typeId="un0u.8399801448178544753" id="4723702796633551653" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TestBatchJob" />
     <link role="configuration" roleId="un0u.8399801448181160543" targetNodeId="3572493221071532650" resolveInfo="JobConfig" />
@@ -91,6 +91,7 @@
     <node role="member" roleId="tpee.5375687026011219971" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="4723702796633625384" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="test" />
       <property name="desc" nameId="un0u.8399801448182202651" value="testValue" />
+      <property name="fieldType" nameId="un0u.8399801448179812161" value="PRIVATE_VALUE" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="4723702796633625385" nodeInfo="nn" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="4723702796633625386" nodeInfo="in" />
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4723702796633625387" nodeInfo="nn">
@@ -159,23 +160,19 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="2691764572720531814" nodeInfo="nn">
-          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.StatementCommentPart" typeId="tpee.6329021646629175143" id="2691764572720531815" nodeInfo="nn">
-            <node role="commentedStatement" roleId="tpee.6329021646629175144" type="un0u.LogStatement" typeId="un0u.2356914237085017468" id="983826980460624339" nodeInfo="ng">
-              <property name="logLevel" nameId="un0u.830334255848575723" value="DEBUG" />
-              <node role="exp" roleId="un0u.2356914237085088917" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="983826980460624340" nodeInfo="nn">
-                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="983826980460899761" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="un0u.BatchFieldReference" typeId="un0u.4723702796633625403" id="983826980460899756" nodeInfo="ng">
-                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4723702796633625388" resolveInfo="cycleTime" />
-                  </node>
-                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="983826980460899767" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144942767" resolveInfo="toString" />
-                  </node>
-                </node>
-                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="983826980460624342" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="Task 1 - 20sec - " />
-                </node>
+        <node role="statement" roleId="tpee.1068581517665" type="un0u.LogStatement" typeId="un0u.2356914237085017468" id="983826980460624339" nodeInfo="ng">
+          <property name="logLevel" nameId="un0u.830334255848575723" value="DEBUG" />
+          <node role="exp" roleId="un0u.2356914237085088917" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="983826980460624340" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="983826980460899761" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="un0u.BatchFieldReference" typeId="un0u.4723702796633625403" id="983826980460899756" nodeInfo="ng">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4723702796633625388" resolveInfo="cycleTime" />
               </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="983826980460899767" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144942767" resolveInfo="toString" />
+              </node>
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="983826980460624342" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="TASK1 - TASK1 - TASK1 - TASK1 - TASK1 - TASK1: Task 1 - 20sec - " />
             </node>
           </node>
         </node>
@@ -638,7 +635,7 @@
   </root>
   <root type="un0u.Configuration" typeId="un0u.8537348545916279017" id="3572493221071532650" nodeInfo="ng">
     <property name="driver" nameId="un0u.8537348545916385363" value="oracle.jdbc.driver.OracleDriver" />
-    <property name="uri" nameId="un0u.8537348545916385362" value="jdbc:oracle:thin:@//lola-alt:1521/LOLA" />
+    <property name="uri" nameId="un0u.8537348545916385362" value="jdbc:oracle:thin:@//lola:1521/LOLA" />
     <property name="name" nameId="tpck.1169194664001" value="JobConfig" />
     <property name="username" nameId="un0u.8537348545916385360" value="reko" />
     <property name="password" nameId="un0u.8537348545916385361" value="test" />
@@ -649,11 +646,11 @@
     </node>
     <node role="logConfiguration" roleId="un0u.830334255848383637" type="un0u.LogConfiguration" typeId="un0u.830334255848344169" id="4558749542214412417" nodeInfo="ng">
       <property name="packageName" nameId="un0u.830334255848344170" value="net.ttddyy" />
-      <property name="logLevel" nameId="un0u.830334255848344171" value="TRACE" />
+      <property name="logLevel" nameId="un0u.830334255848344171" value="ALL" />
     </node>
     <node role="logConfiguration" roleId="un0u.830334255848383637" type="un0u.LogConfiguration" typeId="un0u.830334255848344169" id="4723702796634222566" nodeInfo="ng">
       <property name="packageName" nameId="un0u.830334255848344170" value="org.modellwerkstatt.fatflow.runtime.BatchJobTestSuit" />
-      <property name="logLevel" nameId="un0u.830334255848344171" value="TRACE" />
+      <property name="logLevel" nameId="un0u.830334255848344171" value="ALL" />
     </node>
   </root>
 </model>
