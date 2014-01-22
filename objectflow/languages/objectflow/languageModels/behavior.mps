@@ -7703,12 +7703,5 @@
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7782735571922977632" nodeInfo="sn" />
     </node>
   </root>
-  <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="1642685958946192133" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Builder" />
-    <link role="concept" roleId="1i04.1225194240799" targetNodeId="un0u.1642685958923201142" resolveInfo="TestDataInstance" />
-    <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="1642685958946192285" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1642685958946192286" nodeInfo="sn" />
-    </node>
-  </root>
 </model>
 

@@ -6,10 +6,9 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="${project}/languages/fatflow/fatflow.mpl" folder="" />
-      <modulePath path="${project}/solutions/org.modellwerkstatt.fatflow.runtime/org.modellwerkstatt.fatflow.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/fatflow/fatflow.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.modellwerkstatt.fatflow.runtime/org.modellwerkstatt.fatflow.runtime.msd" folder="" />
     </projectModules>
-    <genConfs />
   </component>
   <component name="ProjectModuleManager">
     <modules />

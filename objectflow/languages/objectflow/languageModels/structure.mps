@@ -1844,38 +1844,14 @@
     <property name="name" nameId="tpck.1169194664001" value="TestData" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/creditcards_add.png" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1642685958923201293" nodeInfo="ig">
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8624114674902976382" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="testDataInstance" />
+      <property name="role" nameId="tpce.1071599776563" value="builderExpression" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1642685958923201142" resolveInfo="TestDataInstance" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6135709767654760052" resolveInfo="BuilderExpression" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1642685958923201239" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
-    </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1642685958923201142" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Builder" />
-    <property name="name" nameId="tpck.1169194664001" value="TestDataInstance" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431474542" resolveInfo="VariableDeclaration" />
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1642685958950508524" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Builder" />
-    <property name="name" nameId="tpck.1169194664001" value="TestDataInstanceReference" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value=".&lt;test data&gt;" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="reference to test data variable" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068498886296" resolveInfo="VariableReference" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1642685958950656126" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="testData" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1642685958923200785" resolveInfo="TestData" />
-    </node>
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1642685958950656128" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="testDataInstance" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="1642685958923201142" resolveInfo="TestDataInstance" />
-      <link role="specializedLink" roleId="tpce.1071599698500" targetNodeId="tpee.1068581517664" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3860064244065287790" nodeInfo="ig">
@@ -1927,6 +1903,18 @@
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="9142134427742856827" nodeInfo="ig">
       <property name="internalValue" nameId="tpce.1083923523171" value="DONT_EXECUTE" />
       <property name="externalValue" nameId="tpce.1083923523172" value="DONT EXECUTE" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5319621840364545916" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Builder" />
+    <property name="name" nameId="tpck.1169194664001" value="TestDataListAccess" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="test data as list" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5319621840368239244" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="testData" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1642685958923200785" resolveInfo="TestData" />
     </node>
   </root>
 </model>

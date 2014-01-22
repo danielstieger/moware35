@@ -15878,7 +15878,7 @@
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8072308248939931405" nodeInfo="nn">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~RuntimeException%d&lt;init&gt;(java%dlang%dString)" resolveInfo="RuntimeException" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8072308248939931406" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1070475926801" value="ValueObjectReplacementFacility - ValueObject directly bound to Delegates - no exchange of ValueObjects therefore possible. Programming Error!" />
+                    <property name="value" nameId="tpee.1070475926801" value="ValueObjectReplacementFacility - ValueObject directly bound to Delegates - thus no exchange of ValueObjects possible. Programming Error!" />
                   </node>
                 </node>
               </node>
