@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="127">
+<model modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="128">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -8,7 +8,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="127" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="128" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1372017518093514468" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="BusinessObject" />
@@ -179,6 +179,11 @@
     <property name="name" nameId="tpck.1169194664001" value="StatusElement" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Status" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3140039561980674369" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="doc" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6525155817177697680" resolveInfo="OFXDocumentation" />
+    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4533072425307715682" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="value" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
@@ -1791,15 +1796,17 @@
     <property name="name" nameId="tpck.1169194664001" value="VariantStatements" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="ifvariant" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4007775331831684812" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="variant" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="r5tz.4388680175614537544" resolveInfo="ManMapVariant" />
-    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6362637745398048174" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="statements" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068580123136" resolveInfo="StatementList" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="3140039561983768159" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="characteristics" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3140039561983767668" resolveInfo="VariantCharacteristic" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6362637745421328047" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8537348545918708126" resolveInfo="IRequireRuntimeService" />
@@ -1833,11 +1840,6 @@
       <property name="role" nameId="tpce.1071599776563" value="condition" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
-  </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2873275764342658147" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
-    <property name="name" nameId="tpck.1169194664001" value="DEP_TestDataReference" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1642685958923200785" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Builder" />
@@ -1915,6 +1917,15 @@
       <property name="role" nameId="tpce.1071599776563" value="testData" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1642685958923200785" resolveInfo="TestData" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3140039561983767668" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
+    <property name="name" nameId="tpck.1169194664001" value="VariantCharacteristic" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3140039561983768079" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="characteristic" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="r5tz.4388680175614537544" resolveInfo="ManMapVariant" />
     </node>
   </root>
 </model>

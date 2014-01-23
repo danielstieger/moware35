@@ -6,9 +6,10 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="127" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="128" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="70o0" modelUID="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" version="0" />
+  <import index="tpem" modelUID="r:00000000-0000-4000-0000-011c895902c2(jetbrains.mps.baseLanguage.dataFlow)" version="-1" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -526,6 +527,79 @@
               <link role="link" roleId="tp25.1138056516764" targetNodeId="un0u.3860064244073851673" />
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="3140039561961245571" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
+    <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="un0u.896341873288561769" resolveInfo="AssertTable" />
+    <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="3140039561961245801" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3140039561961245802" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3140039561961255485" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3140039561961310476" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3140039561961255851" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="3140039561961255484" nodeInfo="nn" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkListAccess" typeId="tp25.1138056282393" id="3140039561961303118" nodeInfo="nn">
+                <link role="link" roleId="tp25.1138056546658" targetNodeId="un0u.896341873288730584" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp2q.VisitAllOperation" typeId="tp2q.1204980550705" id="3140039561961340126" nodeInfo="nn">
+              <node role="closure" roleId="tp2q.1204796294226" type="tp2c.ClosureLiteral" typeId="tp2c.1199569711397" id="3140039561961340128" nodeInfo="nn">
+                <node role="body" roleId="tp2c.1199569916463" type="tpee.StatementList" typeId="tpee.1068580123136" id="3140039561961340129" nodeInfo="sn">
+                  <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="3140039561961340766" nodeInfo="nn">
+                    <node role="codeFor" roleId="tp41.1206454079161" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3140039561961341372" nodeInfo="nn">
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3140039561961340130" resolveInfo="it" />
+                    </node>
+                  </node>
+                </node>
+                <node role="parameter" roleId="tp2c.1199569906740" type="tp2q.SmartClosureParameterDeclaration" typeId="tp2q.1203518072036" id="3140039561961340130" nodeInfo="ig">
+                  <property name="name" nameId="tpck.1169194664001" value="it" />
+                  <node role="type" roleId="tpee.5680397130376446158" type="tpee.UndefinedType" typeId="tpee.4836112446988635817" id="3140039561961340131" nodeInfo="in" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="3140039561961342016" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
+    <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="un0u.896341873288561770" resolveInfo="AsserTableRow" />
+    <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="3140039561961342017" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3140039561961342018" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="3140039561961342023" nodeInfo="nn">
+          <node role="codeFor" roleId="tp41.1206454079161" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3140039561961342183" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="3140039561961342039" nodeInfo="nn" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3140039561961345075" nodeInfo="nn">
+              <link role="link" roleId="tp25.1138056516764" targetNodeId="un0u.896341873288562138" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="3140039561983666469" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
+    <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="un0u.6362637745398048173" resolveInfo="VariantStatements" />
+    <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="3140039561983666470" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3140039561983666471" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitIfJumpStatement" typeId="tp41.1206445295557" id="1235407894378" nodeInfo="nn">
+          <node role="jumpTo" roleId="tp41.1206445193860" type="tp41.LabelPosition" typeId="tp41.1207062697254" id="1235407894379" nodeInfo="ng">
+            <link role="label" roleId="tp41.1207062703832" targetNodeId="3140039561992584734" resolveInfo="endOfTrue" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="3140039561983666527" nodeInfo="nn">
+          <node role="codeFor" roleId="tp41.1206454079161" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3140039561983666913" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="3140039561983666545" nodeInfo="nn" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3140039561983674736" nodeInfo="nn">
+              <link role="link" roleId="tp25.1138056516764" targetNodeId="un0u.6362637745398048174" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitLabelStatement" typeId="tp41.1207062474157" id="3140039561992584734" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="endOfTrue" />
         </node>
       </node>
     </node>
