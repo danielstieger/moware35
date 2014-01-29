@@ -28,13 +28,17 @@
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2013642546067902601" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2013642546067902615" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="3_rc1" />
+          <property name="text" nameId="3ior.4903714810883755350" value="MPS 3.0.3 / moware35 RC 2" />
         </node>
       </node>
       <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2013642546067902611" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2013642546067902613" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="MoWare Languages" />
+          <property name="text" nameId="3ior.4903714810883755350" value="Modellwerkstatt.org    MoWare Languages" />
         </node>
+      </node>
+      <node role="vendor" roleId="kdzh.7832771629084912518" type="kdzh.BuildMps_IdeaPluginVendor" typeId="kdzh.7832771629084799699" id="4518330267556582844" nodeInfo="ng">
+        <property name="name" nameId="kdzh.7832771629084799702" value="Modellwerkstatt.org" />
+        <property name="url" nameId="kdzh.7832771629084799701" value="http://www.modellwerkstatt.org" />
       </node>
     </node>
     <node role="parts" roleId="3ior.7389400916848080626" type="kdzh.BuildMps_Group" typeId="kdzh.1500819558095907805" id="2013642546067902631" nodeInfo="ng">
