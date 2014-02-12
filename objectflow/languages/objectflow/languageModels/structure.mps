@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="129">
+<model modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="139">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -10,7 +10,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="129" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="139" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1372017518093514468" nodeInfo="ig">
@@ -1944,8 +1944,8 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4518330267516957046" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Permission" />
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="permission" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="7192042020164640426" resolveInfo="Container" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4518330267516961511" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="doc" />
@@ -1963,17 +1963,21 @@
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4518330267519834336" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="type" />
+      <property name="role" nameId="tpce.1071599776563" value="restricts" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1107535904670" resolveInfo="ClassifierType" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4518330267516957098" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5697903518371830246" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="dependson" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="7192042020164640431" resolveInfo="ContainerParameter" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4518330267516957488" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="permission" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
     <property name="name" nameId="tpck.1169194664001" value="PermissionListFunc" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="calculatePermission" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="scope" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="calculate a scope for permission" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
     <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="4518330267519834371" nodeInfo="ig">
@@ -1984,10 +1988,10 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4518330267516957489" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="permission" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
     <property name="name" nameId="tpck.1169194664001" value="PermissionBooleanFunc" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="evaluatePermission" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="evaluate given object" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="evaluate permission" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="has" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
     <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="4518330267519834358" nodeInfo="ig">
       <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
@@ -1995,23 +1999,18 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4518330267516964667" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="permission" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
     <property name="name" nameId="tpck.1169194664001" value="PermissionRole" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4518330267541053600" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="permissions" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="4518330267541048861" resolveInfo="PermissionReference" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4518330267516964668" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5697903518383853365" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7192042020164493647" resolveInfo="ISpaceNamed" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4518330267516965068" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="permission" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
     <property name="name" nameId="tpck.1169194664001" value="RolesAndPermissions" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/brickwall_edit.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4518330267516965071" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -2028,16 +2027,19 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="4518330267516965069" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2665553595316142286" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2665553595316142000" resolveInfo="IO2RTComponent" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4518330267519834398" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="permission" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
     <property name="name" nameId="tpck.1169194664001" value="PermissionTypeParameter" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="doc" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="document to check" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4518330267538043609" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="permission" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
     <property name="name" nameId="tpck.1169194664001" value="PermissionUidParameter" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="uid" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="user id" />
@@ -2049,16 +2051,55 @@
       </node>
     </node>
   </root>
-  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4518330267541048861" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="permission" />
-    <property name="name" nameId="tpck.1169194664001" value="PermissionReference" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4518330267541052731" nodeInfo="ig">
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2665553595289276900" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
+    <property name="name" nameId="tpck.1169194664001" value="PermissionHasReference" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="evaluate a permission" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="has_perm" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5697903518450715463" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5697903518443819930" resolveInfo="IPermissionReference" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="2665553595316142000" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
+    <property name="name" nameId="tpck.1169194664001" value="IO2RTComponent" />
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5697903518362640308" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5424515722163903030" resolveInfo="IHandlesSession" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5697903518443819883" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
+    <property name="name" nameId="tpck.1169194664001" value="PermissionsScopeReference" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="scope_perm" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="calculate a scope by permission" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5697903518443820062" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5697903518443819930" resolveInfo="IPermissionReference" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5697903518443819930" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
+    <property name="name" nameId="tpck.1169194664001" value="IPermissionReference" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5697903518443819941" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
-      <property name="role" nameId="tpce.1071599776563" value="permission" />
+      <property name="role" nameId="tpce.1071599776563" value="evaluatePermission" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="4518330267516957046" resolveInfo="Permission" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5697903518443819935" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="expression" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5697903518480716347" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5697903518480686122" resolveInfo="IO2ResultsInRTComponentCall" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5697903518480686122" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
+    <property name="name" nameId="tpck.1169194664001" value="IO2ResultsInRTComponentCall" />
   </root>
 </model>
 

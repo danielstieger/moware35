@@ -192,5 +192,65 @@
     </dependencies>
     <rename id="un0u.4518330267516964667" type="CONCEPT" from="PRole" to="PermissionRole" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="129" />
+    </dependencies>
+    <rename id="un0u.2665553595289277439" type="PROPERTY" from="type" to="permissionType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="130" />
+    </dependencies>
+    <rename id="un0u.2665553595289276900" type="CONCEPT" from="PermissionsReference" to="PermissionEvaluateReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="131" />
+    </dependencies>
+    <rename id="un0u.2665553595289598683" type="CONCEPT" from="PermissionsCalculateReference" to="PermissionCalculateReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="132" />
+    </dependencies>
+    <rename id="un0u.2665553595289277361" type="REFERENCE" from="permission" to="evaluatePermission" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="133" />
+    </dependencies>
+    <rename id="un0u.2665553595289704786" type="REFERENCE" from="permission" to="calculatePermission" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="134" />
+    </dependencies>
+    <rename id="un0u.4518330267519834336" type="CHILD" from="type" to="restricts" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="135" />
+    </dependencies>
+    <rename id="un0u.2665553595289276900" type="CONCEPT" from="PermissionEvaluateReference" to="PermissionReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="136" />
+    </dependencies>
+    <rename id="un0u.2665553595289276900" type="CONCEPT" from="PermissionEvaluateReference" to="PermissionReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="137" />
+    </dependencies>
+    <rename id="un0u.2665553595289276900" type="CONCEPT" from="PermissionReference" to="PermissionHasReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="138" />
+    </dependencies>
+    <rename id="un0u.2665553595316142000" type="CONCEPT" from="IO2RuntimeComponent" to="IO2RTComponent" />
+  </StructureModification>
 </history>
 

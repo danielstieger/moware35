@@ -24,7 +24,7 @@
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="37" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="129" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="139" implicit="yes" />
   <root type="r5tz.PersistenceDescription" typeId="r5tz.871579071900124823" id="3572493221071361406" nodeInfo="ng">
     <node role="entityReference" roleId="r5tz.871579071900209323" type="r5tz.EntityReference" typeId="r5tz.871579071900209276" id="3572493221071361412" nodeInfo="ng">
       <link role="classConcept" roleId="r5tz.871579071900209277" targetNodeId="1846102710291384051" resolveInfo="ProfZeile" />
@@ -51,7 +51,7 @@
       <property name="name" nameId="tpck.1169194664001" value="MapProfZeile" />
       <link role="classConcept" roleId="r5tz.871579071900233967" targetNodeId="1846102710291384051" resolveInfo="ProfZeile" />
       <node role="tableName" roleId="r5tz.871579071901472001" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3572493221071361636" nodeInfo="nn">
-        <property name="value" nameId="tpee.1070475926801" value="WEBLG_POS" />
+        <property name="value" nameId="tpee.1070475926801" value="MPREIS.WEBLG_POS" />
       </node>
       <node role="mapping" roleId="r5tz.4557816287827057767" type="r5tz.FieldMapping" typeId="r5tz.871579071900209251" id="3572493221071361637" nodeInfo="ng">
         <link role="property" roleId="r5tz.871579071900248751" targetNodeId="1846102710291384112" />
@@ -164,7 +164,7 @@
       <property name="name" nameId="tpck.1169194664001" value="MapProforma" />
       <link role="classConcept" roleId="r5tz.871579071900233967" targetNodeId="1846102710291383948" resolveInfo="Proforma" />
       <node role="tableName" roleId="r5tz.871579071901472001" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3572493221071361692" nodeInfo="nn">
-        <property name="value" nameId="tpee.1070475926801" value="WEBLG_KOPF" />
+        <property name="value" nameId="tpee.1070475926801" value="MPREIS.WEBLG_KOPF" />
       </node>
       <node role="mapping" roleId="r5tz.4557816287827057767" type="r5tz.FieldMapping" typeId="r5tz.871579071900209251" id="3572493221071361693" nodeInfo="ng">
         <link role="property" roleId="r5tz.871579071900248751" targetNodeId="1846102710291383989" />
