@@ -26,7 +26,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="139" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="140" implicit="yes" />
   <import index="epq1" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" version="-1" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <root type="un0u.Command" typeId="un0u.7192042020163999178" id="594565203028873643" nodeInfo="ng">
@@ -8297,7 +8297,40 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.AssertStatement" typeId="tpee.1160998861373" id="7145888567845804204" nodeInfo="nn">
+          <node role="condition" roleId="tpee.1160998896846" type="tpee.NotEqualsExpression" typeId="tpee.1073239437375" id="7145888567845804205" nodeInfo="nn">
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7145888567845804206" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7145888567845804207" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7145888567845804208" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7145888567845804209" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7145888567845804210" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7145888567845804211" nodeInfo="nn">
+                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3701408894983215641" resolveInfo="a" />
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="7145888567845804212" nodeInfo="nn">
+                        <link role="property" roleId="tpee.1201385237847" targetNodeId="3701408894980953695" resolveInfo="rechnungen" />
+                      </node>
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="7145888567845804213" nodeInfo="nn" />
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="7145888567845804214" nodeInfo="nn">
+                    <link role="property" roleId="tpee.1201385237847" targetNodeId="3701408894980954090" resolveInfo="positionen" />
+                  </node>
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetFirstOperation" typeId="tp2q.1165525191778" id="7145888567845804215" nodeInfo="nn" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="7145888567845804216" nodeInfo="nn">
+                <link role="property" roleId="tpee.1201385237847" targetNodeId="3701408894980921114" resolveInfo="wert" />
+              </node>
+            </node>
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="7145888567845804217" nodeInfo="nn" />
+          </node>
+          <node role="message" roleId="tpee.1160998916832" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7145888567845809367" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="Precondition" />
+          </node>
+        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3701408894983215660" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="7145888567845791345" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="un0u.RunCommand" typeId="un0u.4419932786254844465" id="3701408894983215661" nodeInfo="ng">
           <link role="process" roleId="un0u.4419932786254844466" targetNodeId="3701408894981859783" resolveInfo="T1_AktProzess" />
           <link role="command" roleId="un0u.4419932786254844467" targetNodeId="3701408894981859921" resolveInfo="T1_CMD_ChangeTitles" />
@@ -8343,6 +8376,9 @@
               </node>
             </node>
             <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="3701408894988894006" nodeInfo="nn" />
+          </node>
+          <node role="message" roleId="tpee.1160998916832" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7145888567845814663" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="Postcondition" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.AssertStatement" typeId="tpee.1160998861373" id="2332321876735361396" nodeInfo="nn">
@@ -8476,7 +8512,7 @@
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3701408894981264546" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3701408894981264548" nodeInfo="nn" />
       <node role="description" roleId="un0u.3262649880240512230" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3701408894981264549" nodeInfo="nn">
-        <property name="value" nameId="tpee.1070475926801" value="Execute command an conclude successfull. Now Akt 1 is changed." />
+        <property name="value" nameId="tpee.1070475926801" value="Execute command and conclude successfull. Now Akt 1 is changed." />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3701408894981264550" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3701408894981265252" nodeInfo="nn">
@@ -9243,8 +9279,8 @@
   <root type="un0u.Command" typeId="un0u.7192042020163999178" id="3701408894981859921" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="T1_CMD_ChangeTitles" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="NEW_AKT" />
-    <property name="commandType" nameId="un0u.943115150037896890" value="GRAPH_OWNER" />
-    <property name="commandCommitType" nameId="un0u.7597083895870343939" value="COMMIT_SESSION" />
+    <property name="commandType" nameId="un0u.943115150037896890" value="GRAPH_EDIT" />
+    <property name="commandCommitType" nameId="un0u.7597083895870343939" value="DO_NOT_COMMIT_SESSION" />
     <link role="process" roleId="un0u.1993450443311478185" targetNodeId="3701408894981859783" resolveInfo="T1_AktProzess" />
     <node role="parameter" roleId="un0u.7192042020164640429" type="un0u.ContainerParameter" typeId="un0u.7192042020164640431" id="2332321876746026055" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="nrao" />

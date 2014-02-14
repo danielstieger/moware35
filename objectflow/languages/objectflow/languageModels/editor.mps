@@ -171,6 +171,16 @@
         <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="1194921945360161562" nodeInfo="nn" />
       </node>
     </node>
+    <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7635135080822215935" nodeInfo="nn">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7635135080822215937" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="visibility:" />
+        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="271985905034858533" resolveInfo="O2Detail" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="7635135080822215945" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpee.1178549979242" />
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7635135080822215938" nodeInfo="nn" />
+    </node>
   </root>
   <root type="tpc2.StyleSheet" typeId="tpc2.1186402211651" id="1372017518093514505" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="ObjectFlowStyles" />
@@ -2254,6 +2264,10 @@
             <property name="flag" nameId="tpc2.1186414551515" value="true" />
           </node>
         </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7145888567865038963" nodeInfo="nn">
+          <property name="text" nameId="tpc2.1073389577007" value="// do revert first" />
+          <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="3748648354046466254" resolveInfo="O2Hint" />
+        </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="1881524139085993276" nodeInfo="ng">
           <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;func&gt;" />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.1881524139085993258" />
@@ -2286,6 +2300,10 @@
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1881524139086021959" nodeInfo="nn">
           <property name="text" nameId="tpc2.1073389577007" value="exception" />
           <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="7192042020165058067" resolveInfo="O2Name" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7145888567865040614" nodeInfo="nn">
+          <property name="text" nameId="tpc2.1073389577007" value="// do revert first" />
+          <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="3748648354046466254" resolveInfo="O2Hint" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="1881524139086021954" nodeInfo="ng">
           <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;func&gt;" />
@@ -2358,7 +2376,7 @@
         <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="8396343267227427339" resolveInfo="O2Section" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1993450443312456217" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="// open a session in those commands" />
+        <property name="text" nameId="tpc2.1073389577007" value="// open a session in those commands, command will be available in every state !" />
         <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="3748648354046466254" resolveInfo="O2Hint" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="1881524139088097913" nodeInfo="ng">
