@@ -6353,7 +6353,7 @@
         <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="7192042020164871538" resolveInfo="ISpaceNamedEditor" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="960622660316598612" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="has also role" />
+        <property name="text" nameId="tpc2.1073389577007" value="is also" />
         <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="7192042020164640433" resolveInfo="O2Concept" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="960622660316599310" nodeInfo="ng">
@@ -6375,13 +6375,12 @@
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
         </node>
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5697903518386859808" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="// how to calc if user has role" />
-        <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="3748648354046466254" resolveInfo="O2Hint" />
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="5697903518386859816" nodeInfo="nn">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="8708994167766102093" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.8708994167766093283" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="8708994167766102111" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
         </node>
-        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="5697903518386859819" nodeInfo="nn">
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="8708994167766102114" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
         </node>
       </node>
@@ -6442,6 +6441,9 @@
         <property name="separatorText" nameId="tpc2.1140524450557" value="," />
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.5697903518443819935" />
         <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="5697903518447713863" nodeInfo="nn" />
+        <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8708994167771165269" nodeInfo="nn">
+          <property name="text" nameId="tpc2.1073389577007" value="" />
+        </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5697903518447713864" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value=")" />
