@@ -14,6 +14,7 @@
   <root type="tp3j.IntentionDeclaration" typeId="tp3j.1192794744107" id="3529381682965420497" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="mapping" />
     <property name="name" nameId="tpck.1169194664001" value="CreateAllFieldsDefault" />
+    <property name="isAvailableInChildNodes" nameId="tp3j.2522969319638091386" value="true" />
     <link role="forConcept" roleId="tp3j.2522969319638198290" targetNodeId="r5tz.871579071900209258" resolveInfo="EntityMapping" />
     <node role="descriptionFunction" roleId="tp3j.2522969319638093993" type="tp3j.DescriptionBlock" typeId="tp3j.1192794782375" id="3529381682965420498" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3529381682965420499" nodeInfo="sn">

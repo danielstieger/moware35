@@ -199,7 +199,7 @@
         <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5608072217429697285" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="5608072217429718628" nodeInfo="nn">
             <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5608072217429718631" nodeInfo="nn">
-              <property name="value" nameId="tpee.1070475926801" value="InputWindows have to be loaded with the selected Object" />
+              <property name="value" nameId="tpee.1070475926801" value="DelegateForms have to be loaded with the selected Object" />
             </node>
             <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="5608072217429721593" nodeInfo="nn">
               <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="5608072217429694356" resolveInfo="inputWindow" />

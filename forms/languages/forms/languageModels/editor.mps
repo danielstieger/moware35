@@ -594,7 +594,7 @@
           <property name="flag" nameId="tpc2.1186414551515" value="false" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8089681376574861183" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value=" FormContainer" />
+          <property name="text" nameId="tpc2.1073389577007" value="FormContainer" />
           <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="8089681376574938507" resolveInfo="FComponentName" />
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="8089681376574861191" nodeInfo="nn">
             <property name="flag" nameId="tpc2.1186414551515" value="true" />

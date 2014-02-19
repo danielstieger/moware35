@@ -9,7 +9,7 @@
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <language namespace="d8f591ec-4d86-4af2-9f92-a9e93c803ffa(jetbrains.mps.lang.scopes)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="140" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="146" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" />
   <import index="5h2r" modelUID="r:e985db5c-6ba2-43f6-94fe-1b4547c2cc5c(jetbrains.mps.baseLanguage.search)" version="-1" />
   <import index="vsqj" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.project(MPS.Core/jetbrains.mps.project@java_stub)" version="-1" />
@@ -8164,8 +8164,8 @@
                   <node role="operand" roleId="tpee.1197027771414" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="960622660327017255" nodeInfo="nn" />
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetDescendantsOperation" typeId="tp25.1171305280644" id="960622660327024652" nodeInfo="nn">
                     <node role="parameter" roleId="tp25.1144104376918" type="tp25.OperationParm_Concept" typeId="tp25.1144101972840" id="960622660327024654" nodeInfo="ng">
-                      <node role="conceptArgument" roleId="tp25.1207343664468" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="960622660327025833" nodeInfo="nn">
-                        <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="un0u.4518330267516964667" resolveInfo="PermissionRole" />
+                      <node role="conceptArgument" roleId="tp25.1207343664468" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="9111456360764200657" nodeInfo="nn">
+                        <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="un0u.4518330267516957046" resolveInfo="Permission" />
                       </node>
                     </node>
                   </node>
@@ -8178,8 +8178,8 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="960622660327773688" resolveInfo="kind" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tp25.Concept_IsSubConceptOfOperation" typeId="tp25.1180031783296" id="960622660327004796" nodeInfo="nn">
-              <node role="conceptArgument" roleId="tp25.1180031783297" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="960622660327026682" nodeInfo="nn">
-                <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="un0u.4518330267516964667" resolveInfo="PermissionRole" />
+              <node role="conceptArgument" roleId="tp25.1180031783297" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="9111456360764200655" nodeInfo="nn">
+                <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="un0u.4518330267516957046" resolveInfo="Permission" />
               </node>
             </node>
           </node>
@@ -8711,7 +8711,7 @@
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="960622660292074079" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
-    <link role="concept" roleId="1i04.1225194240799" targetNodeId="un0u.960622660292074076" resolveInfo="PermissionRoleReference" />
+    <link role="concept" roleId="1i04.1225194240799" targetNodeId="un0u.960622660292074076" resolveInfo="PermissionRoleReferenceDEP" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="960622660292074231" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="960622660292074232" nodeInfo="sn" />
     </node>
@@ -8814,7 +8814,7 @@
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="960622660300276434" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
-    <link role="concept" roleId="1i04.1225194240799" targetNodeId="un0u.960622660288771447" resolveInfo="RoleBooleanFunc" />
+    <link role="concept" roleId="1i04.1225194240799" targetNodeId="un0u.960622660288771447" resolveInfo="RoleBooleanFuncDEP" />
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="960622660300277310" nodeInfo="ng">
       <property name="isPrivate" nameId="1i04.1225194472833" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="getPresentation" />
@@ -8884,7 +8884,7 @@
   </root>
   <root type="1i04.ConceptBehavior" typeId="1i04.1225194240794" id="960622660307928704" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Permission" />
-    <link role="concept" roleId="1i04.1225194240799" targetNodeId="un0u.4518330267516964667" resolveInfo="PermissionRole" />
+    <link role="concept" roleId="1i04.1225194240799" targetNodeId="un0u.4518330267516964667" resolveInfo="PermissionRoleDEP" />
     <node role="constructor" roleId="1i04.1225194240801" type="1i04.ConceptConstructorDeclaration" typeId="1i04.1225194413805" id="960622660307928705" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="960622660307928706" nodeInfo="sn" />
     </node>
