@@ -1014,13 +1014,13 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="permRoleReference" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="9111456360764195863" resolveInfo="PermissionReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2665553595289276900" resolveInfo="PermissionHasReference" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2924471170334881325" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="permRoleReferenceReadOnly" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="9111456360764195863" resolveInfo="PermissionReference" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="2665553595289276900" resolveInfo="PermissionHasReference" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1881524139087020879" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -2191,9 +2191,6 @@
       <property name="role" nameId="tpce.1071599776563" value="permission" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="4518330267516957046" resolveInfo="Permission" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="2924471170381379483" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5697903518480686122" resolveInfo="IO2ResultsInRTComponentCall" />
     </node>
   </root>
 </model>
