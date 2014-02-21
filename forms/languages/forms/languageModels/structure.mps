@@ -804,13 +804,13 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="un0u.8537348545916279017" resolveInfo="Configuration" />
     </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1472214787654144378" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="styles" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="293796121013651477" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="versionInformation" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2125910882480415880" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="showLogin" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1472214787652375128" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -865,6 +865,10 @@
     <property name="name" nameId="tpck.1169194664001" value="AppStartupFunction" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="startup" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="2125910882481584504" nodeInfo="ig">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545148427" resolveInfo="conceptFunctionReturnType" />
+      <node role="target" roleId="tpce.1105736901241" type="tpee.BooleanType" typeId="tpee.1070534644030" id="2125910882481584508" nodeInfo="in" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="940368958464182844" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="DelegateForm.ConceptFunctions" />
@@ -1152,6 +1156,28 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="bound object of form" />
     <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/nail.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2125910882480365385" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Application" />
+    <property name="name" nameId="tpck.1169194664001" value="UserNameParameter" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="username" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="name of user from login screen" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="2125910882481584058" nodeInfo="ig">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
+      <node role="target" roleId="tpce.1105736901241" type="tpee.StringType" typeId="tpee.1225271177708" id="2125910882481584062" nodeInfo="in" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2125910882480415709" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="Application" />
+    <property name="name" nameId="tpck.1169194664001" value="PasswordParameter" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="password" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="password from login screen" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="2125910882481584065" nodeInfo="ig">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
+      <node role="target" roleId="tpce.1105736901241" type="tpee.IntegerType" typeId="tpee.1070534370425" id="2125910882546835507" nodeInfo="in" />
+    </node>
   </root>
 </model>
 

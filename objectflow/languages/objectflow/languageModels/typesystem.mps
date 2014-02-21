@@ -7465,5 +7465,23 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="un0u.960622660292074076" resolveInfo="PermissionRoleReferenceDEP" />
     </node>
   </root>
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="2217473011949516463" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="check_Role" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.process" />
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="2217473011949517028" nodeInfo="sn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpd4.ReportErrorStatement" typeId="tpd4.1175517767210" id="2217473011949550551" nodeInfo="nn">
+        <node role="errorString" roleId="tpd4.1175517851849" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2217473011949550569" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="Role concept in process is deprecated. No longer working but compiling possible." />
+        </node>
+        <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="2217473011949551180" nodeInfo="nn">
+          <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="2217473011949517030" resolveInfo="role" />
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="2217473011949517030" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="role" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="un0u.943115150039310957" resolveInfo="Role" />
+    </node>
+  </root>
 </model>
 
