@@ -64,7 +64,7 @@
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="871579071900110909" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="871579071900110910" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="871579071900110911" nodeInfo="sn" />
-      <node role="throwsItem" roleId="tpee.1164879685961" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3249360478174283292" nodeInfo="in">
+      <node role="throwsItem" roleId="tpee.1164879685961" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8858053051075008819" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="xmq6.~DataAccessException" resolveInfo="DataAccessException" />
       </node>
     </node>

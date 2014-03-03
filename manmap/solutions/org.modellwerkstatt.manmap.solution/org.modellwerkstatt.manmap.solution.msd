@@ -4,9 +4,6 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="." />
     </modelRoot>
-    <modelRoot contentPath="${module}/models" type="default">
-      <sourceRoot location="." />
-    </modelRoot>
   </models>
   <sourcePath />
   <dependencies>
@@ -20,7 +17,6 @@
     <usedLanguage>83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</usedLanguage>
     <usedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</usedLanguage>
     <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
-    <usedLanguage>5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)</usedLanguage>
   </usedLanguages>
 </solution>
 
