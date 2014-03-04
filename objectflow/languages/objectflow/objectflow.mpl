@@ -91,6 +91,7 @@
     <stubModelEntry path="${module}/jars/org.springframework.context-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${module}/jars/org.springframework.expression-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${module}/jars/commons-logging-1.0.4.jar" />
+    <stubModelEntry path="${module}/jars/org.springframework.aop-3.0.5.RELEASE.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
@@ -131,8 +132,8 @@
   <extendedLanguages>
     <extendedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</extendedLanguage>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
-    <extendedLanguage>5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)</extendedLanguage>
     <extendedLanguage>83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</extendedLanguage>
+    <extendedLanguage>5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)</extendedLanguage>
   </extendedLanguages>
 </language>
 

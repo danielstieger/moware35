@@ -39,6 +39,7 @@
     <dependency reexport="false">a0c108f0-1637-416e-a249-3effbaa4c998(jetbrains.mps.baseLanguage.search)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
+    <dependency reexport="false">d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)</dependency>
     <dependency reexport="false">3ffa979d-a559-4372-8a77-69ebb3d02788(org.modellwerkstatt.forms.sandbox)</dependency>
     <dependency reexport="false">5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)</dependency>
     <dependency reexport="false">ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)</dependency>

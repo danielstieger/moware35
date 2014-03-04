@@ -8,7 +8,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)</dependency>
     <dependency reexport="false">37fdf88a-1025-4d01-864a-0bf987f72e6f(org.modellwerkstatt.manmap.solution)</dependency>
     <dependency reexport="false">ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)</dependency>
