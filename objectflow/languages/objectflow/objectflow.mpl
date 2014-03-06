@@ -1,44 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="org.modellwerkstatt.objectflow" uuid="ec097fca-5b84-41f2-847d-6a5690cae277">
   <models>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/avalon-framework-4.2.0.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/barcode4j-fop-ext-complete.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/batik-all-1.7.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/commons-io-1.3.1.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/fop.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/serializer-2.7.0.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/xalan-2.7.0.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/xercesImpl-2.7.1.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/xml-apis-1.3.04.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/xml-apis-ext-1.3.04.jar" />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars/printing" type="java_classes">
-      <sourceRoot path="${module}/jars/printing/xmlgraphics-commons-1.4.jar" />
-    </modelRoot>
     <modelRoot contentPath="${module}/languageModels" type="default">
       <sourceRoot location="." />
-    </modelRoot>
-    <modelRoot contentPath="${module}/jars" type="java_classes">
-      <sourceRoot path="${module}/jars/org.springframework.context-3.0.5.RELEASE.jar" />
     </modelRoot>
   </models>
   <accessoryModels>
@@ -74,25 +38,6 @@
       <mapping-priorities />
     </generator>
   </generators>
-  <stubModelEntries>
-    <stubModelEntry path="${module}/jars/printing/avalon-framework-4.2.0.jar" />
-    <stubModelEntry path="${module}/jars/printing/barcode4j-fop-ext-complete.jar" />
-    <stubModelEntry path="${module}/jars/printing/batik-all-1.7.jar" />
-    <stubModelEntry path="${module}/jars/printing/commons-io-1.3.1.jar" />
-    <stubModelEntry path="${module}/jars/printing/fop.jar" />
-    <stubModelEntry path="${module}/jars/printing/serializer-2.7.0.jar" />
-    <stubModelEntry path="${module}/jars/printing/xalan-2.7.0.jar" />
-    <stubModelEntry path="${module}/jars/printing/xercesImpl-2.7.1.jar" />
-    <stubModelEntry path="${module}/jars/printing/xml-apis-1.3.04.jar" />
-    <stubModelEntry path="${module}/jars/printing/xml-apis-ext-1.3.04.jar" />
-    <stubModelEntry path="${module}/jars/printing/xmlgraphics-commons-1.4.jar" />
-    <stubModelEntry path="${module}/jars/ojdbc14.jar" />
-    <stubModelEntry path="${module}/jars/org.springframework.asm-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${module}/jars/org.springframework.context-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${module}/jars/org.springframework.expression-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${module}/jars/commons-logging-1.0.4.jar" />
-    <stubModelEntry path="${module}/jars/org.springframework.aop-3.0.5.RELEASE.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>

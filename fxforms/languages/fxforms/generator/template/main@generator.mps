@@ -5,21 +5,21 @@
   <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
   <language namespace="ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="8v1j" modelUID="f:java_stub#502d5f4c-1dec-4049-be64-04512b4ce66d#javafx.application(org.modellwerkstatt.fxforms/javafx.application@java_stub)" version="-1" />
   <import index="c9yi" modelUID="r:775c0fa7-99cc-49ff-86b2-34796e752e4b(org.modellwerkstatt.forms.api)" version="1" />
   <import index="mma5" modelUID="r:bd45a0c2-84a2-4253-86a2-c9c160a8121d(org.modellwerkstatt.forms.FormsRT)" version="1" />
   <import index="28jr" modelUID="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" version="-1" />
   <import index="q13i" modelUID="r:9fc6570b-687f-43e8-a83d-7a99f464f174(org.modellwerkstatt.forms.behavior)" version="0" />
   <import index="70o0" modelUID="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" version="0" />
   <import index="sgb" modelUID="r:ff1c5781-322e-4061-ae5c-5f435235d5a8(org.modellwerkstatt.forms.structure)" version="164" />
-  <import index="szyt" modelUID="f:java_stub#502d5f4c-1dec-4049-be64-04512b4ce66d#javafx.stage(org.modellwerkstatt.fxforms/javafx.stage@java_stub)" version="-1" />
-  <import index="y6w2" modelUID="f:java_stub#5aaa957f-3447-4783-b1f7-b301fa3e0394#org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap/org.springframework.beans.factory.annotation@java_stub)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="tpcu" modelUID="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" version="-1" />
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="146" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
+  <import index="oi9j" modelUID="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.annotation@java_stub)" version="-1" />
+  <import index="s0zi" modelUID="f:java_stub#1d2cdd29-56d5-4cde-8587-a18ac1c22af7#javafx.application(org.modellwerkstatt.fxforms.runtime/javafx.application@java_stub)" version="-1" />
+  <import index="roks" modelUID="f:java_stub#1d2cdd29-56d5-4cde-8587-a18ac1c22af7#javafx.stage(org.modellwerkstatt.fxforms.runtime/javafx.stage@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="-1" implicit="yes" />
@@ -484,7 +484,7 @@
       </node>
     </node>
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7226643946911754812" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="8v1j.~Application" resolveInfo="Application" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="s0zi.~Application" resolveInfo="Application" />
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="234418716434133231" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="uiRuntimeFactory" />
@@ -554,7 +554,7 @@
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7226643946911754816" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="stage" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7226643946911754817" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="szyt.~Stage" resolveInfo="Stage" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="roks.~Stage" resolveInfo="Stage" />
         </node>
       </node>
       <node role="throwsItem" roleId="tpee.1164879685961" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7226643946911754818" nodeInfo="in">
@@ -1439,11 +1439,11 @@
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="7226643946911723146" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7226643946911723147" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="7226643946911723148" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7226643946911754820" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7226643946911754823" nodeInfo="nn">
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8v1j.~Application%dlaunch(java%dlang%dString%d%d%d)%cvoid" resolveInfo="launch" />
-            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="8v1j.~Application" resolveInfo="Application" />
-            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="274072472582320457" nodeInfo="nn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3019743614948814747" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3019743614948830569" nodeInfo="nn">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="s0zi.~Application%dlaunch(java%dlang%dString%d%d%d)%cvoid" resolveInfo="launch" />
+            <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="s0zi.~Application" resolveInfo="Application" />
+            <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3019743614948846398" nodeInfo="nn">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7226643946911723149" resolveInfo="args" />
             </node>
           </node>
@@ -3523,7 +3523,7 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="c9yi.4654168761953780505" resolveInfo="IUiRuntimeFactory" />
       </node>
       <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="1529329103806061272" nodeInfo="nn">
-        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="y6w2.~Autowired" resolveInfo="Autowired" />
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="oi9j.~Autowired" resolveInfo="Autowired" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="1529329103806061273" nodeInfo="igu">
@@ -3533,7 +3533,7 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="c9yi.4563503734185925204" resolveInfo="IUiGeneratedFactory" />
       </node>
       <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="1529329103806061276" nodeInfo="nn">
-        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="y6w2.~Autowired" resolveInfo="Autowired" />
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="oi9j.~Autowired" resolveInfo="Autowired" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="1529329103806061277" nodeInfo="igu">
@@ -3543,7 +3543,7 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.4563503734185903078" resolveInfo="IOFXApplicationFactory" />
       </node>
       <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="1529329103806061280" nodeInfo="nn">
-        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="y6w2.~Autowired" resolveInfo="Autowired" />
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="oi9j.~Autowired" resolveInfo="Autowired" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="1529329103806024974" nodeInfo="igu">
@@ -5996,7 +5996,7 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="c9yi.4654168761953780505" resolveInfo="IUiRuntimeFactory" />
       </node>
       <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="5728590948228274951" nodeInfo="nn">
-        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="y6w2.~Autowired" resolveInfo="Autowired" />
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="oi9j.~Autowired" resolveInfo="Autowired" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="5728590948228274952" nodeInfo="igu">
@@ -6006,7 +6006,7 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="c9yi.4563503734185925204" resolveInfo="IUiGeneratedFactory" />
       </node>
       <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="5728590948228274955" nodeInfo="nn">
-        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="y6w2.~Autowired" resolveInfo="Autowired" />
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="oi9j.~Autowired" resolveInfo="Autowired" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="5728590948228274956" nodeInfo="igu">
@@ -6016,7 +6016,7 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.4563503734185903078" resolveInfo="IOFXApplicationFactory" />
       </node>
       <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="5728590948228274959" nodeInfo="nn">
-        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="y6w2.~Autowired" resolveInfo="Autowired" />
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="oi9j.~Autowired" resolveInfo="Autowired" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="5728590948228274133" nodeInfo="igu">
@@ -9517,7 +9517,7 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="c9yi.4654168761953780505" resolveInfo="IUiRuntimeFactory" />
       </node>
       <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="5528342994742670661" nodeInfo="nn">
-        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="y6w2.~Autowired" resolveInfo="Autowired" />
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="oi9j.~Autowired" resolveInfo="Autowired" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="5528342994742670662" nodeInfo="igu">
@@ -9527,7 +9527,7 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="c9yi.4563503734185925204" resolveInfo="IUiGeneratedFactory" />
       </node>
       <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="5528342994742670665" nodeInfo="nn">
-        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="y6w2.~Autowired" resolveInfo="Autowired" />
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="oi9j.~Autowired" resolveInfo="Autowired" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="5528342994742670666" nodeInfo="igu">
@@ -9537,7 +9537,7 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.4563503734185903078" resolveInfo="IOFXApplicationFactory" />
       </node>
       <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="5528342994742670669" nodeInfo="nn">
-        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="y6w2.~Autowired" resolveInfo="Autowired" />
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="oi9j.~Autowired" resolveInfo="Autowired" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="5528342994743396871" nodeInfo="igu">

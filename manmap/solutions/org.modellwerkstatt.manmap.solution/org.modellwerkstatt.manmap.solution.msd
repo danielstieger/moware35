@@ -4,11 +4,28 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="." />
     </modelRoot>
+    <modelRoot contentPath="C:/moware35/manmap/languages/manmap/jars" type="java_classes">
+      <sourceRoot location="c3p0-0.9.2-pre6.jar" />
+      <sourceRoot location="joda-time-2.1.jar" />
+      <sourceRoot location="mchange-commons-java-0.2.3.1.jar" />
+      <sourceRoot location="org.springframework.beans-3.0.5.RELEASE.jar" />
+      <sourceRoot location="org.springframework.core-3.0.5.RELEASE.jar" />
+      <sourceRoot location="org.springframework.jdbc-3.0.5.RELEASE.jar" />
+      <sourceRoot location="org.springframework.transaction-3.0.5.RELEASE.jar" />
+    </modelRoot>
   </models>
+  <stubModelEntries>
+    <stubModelEntry path="C:/moware35/manmap/languages/manmap/jars/c3p0-0.9.2-pre6.jar" />
+    <stubModelEntry path="C:/moware35/manmap/languages/manmap/jars/joda-time-2.1.jar" />
+    <stubModelEntry path="C:/moware35/manmap/languages/manmap/jars/mchange-commons-java-0.2.3.1.jar" />
+    <stubModelEntry path="C:/moware35/manmap/languages/manmap/jars/org.springframework.beans-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="C:/moware35/manmap/languages/manmap/jars/org.springframework.core-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="C:/moware35/manmap/languages/manmap/jars/org.springframework.jdbc-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="C:/moware35/manmap/languages/manmap/jars/org.springframework.transaction-3.0.5.RELEASE.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>

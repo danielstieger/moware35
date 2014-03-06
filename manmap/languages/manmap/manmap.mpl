@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="org.modellwerkstatt.manmap" uuid="5aaa957f-3447-4783-b1f7-b301fa3e0394">
   <models>
-    <modelRoot path="${module}/jars/c3p0-0.9.2-pre6.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/mchange-commons-java-0.2.3.1.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/org.springframework.beans-3.0.5.RELEASE.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/org.springframework.core-3.0.5.RELEASE.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/org.springframework.jdbc-3.0.5.RELEASE.jar" type="java_classes" />
-    <modelRoot path="${module}/jars/org.springframework.transaction-3.0.5.RELEASE.jar" type="java_classes" />
     <modelRoot contentPath="${module}/languageModels" type="default">
       <sourceRoot location="." />
     </modelRoot>
-    <modelRoot path="${module}/jars/joda-time-2.1.jar" type="java_classes" />
   </models>
   <accessoryModels>
     <model modelUID="r:6c3f0e13-fdba-40b6-8f82-fee20ffbba77(org.modellwerkstatt.manmap.conventions)" />
@@ -42,15 +35,6 @@
       <mapping-priorities />
     </generator>
   </generators>
-  <stubModelEntries>
-    <stubModelEntry path="${module}/jars/c3p0-0.9.2-pre6.jar" />
-    <stubModelEntry path="${module}/jars/mchange-commons-java-0.2.3.1.jar" />
-    <stubModelEntry path="${module}/jars/org.springframework.beans-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${module}/jars/org.springframework.core-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${module}/jars/org.springframework.jdbc-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${module}/jars/org.springframework.transaction-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${module}/jars/joda-time-2.1.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
