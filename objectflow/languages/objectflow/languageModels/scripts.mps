@@ -1866,6 +1866,13 @@
         </node>
       </node>
     </node>
+    <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="1724990426814441036" nodeInfo="ng">
+      <property name="description" nameId="tp33.1177457972041" value="(PROBLEM) Using null in code. " />
+      <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="tpee.1070534058343" resolveInfo="NullLiteral" />
+      <node role="affectedInstanceUpdater" roleId="tp33.1177458005323" type="tp33.MigrationScriptPart_Instance_Updater" typeId="tp33.1177458491964" id="1724990426814441038" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1724990426814441040" nodeInfo="sn" />
+      </node>
+    </node>
     <node role="part" roleId="tp33.1177458178889" type="tp33.WhitespaceMigrationScriptPart" typeId="tp33.2598676492883244606" id="4658368375954584339" nodeInfo="ng" />
   </root>
   <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="1530440135803417389" nodeInfo="ng">
