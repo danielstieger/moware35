@@ -114,6 +114,22 @@
         </node>
       </node>
     </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="7933642673975056189" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="decimalFormat" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7933642673975056190" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7933642673975442394" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="j9pa.~DecimalFormat" resolveInfo="DecimalFormat" />
+      </node>
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7933642673975443904" nodeInfo="nn">
+        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="7933642673975447038" nodeInfo="nn">
+          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="j9pa.~DecimalFormat%d&lt;init&gt;(java%dlang%dString)" resolveInfo="DecimalFormat" />
+          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4109693858854000154" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="#,##0.00" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="7933642673975046782" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="2125910882507065963" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="xmlPrintDate" />
       <property name="isSynchronized" nameId="tpee.4276006055363816570" value="false" />
