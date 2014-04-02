@@ -1131,6 +1131,10 @@
       <property name="internalValue" nameId="tpce.1083923523171" value="ReferenceDelegate" />
       <property name="externalValue" nameId="tpce.1083923523172" value="ReferenceDelegate" />
     </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="5939154128966954458" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="ImageDelegate" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="ImageDelegate" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5005516259701333694" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="DelegateForm" />
