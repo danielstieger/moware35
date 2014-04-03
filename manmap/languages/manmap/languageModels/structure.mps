@@ -303,6 +303,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8172309840348950205" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8172309840348950202" resolveInfo="INeedsClassMapper" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8510097166238590856" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8510097166208174348" resolveInfo="IDataBaseOperation" />
+    </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="774207833082651879" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="IRepository" />
@@ -540,6 +543,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8172309840348950206" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8172309840348950202" resolveInfo="INeedsClassMapper" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8510097166243801288" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8510097166208174348" resolveInfo="IDataBaseOperation" />
+    </node>
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="8172309840348863379" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="save" />
@@ -589,6 +595,9 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8172309840349143199" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8172309840348950202" resolveInfo="INeedsClassMapper" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8510097166238603706" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8510097166208174348" resolveInfo="IDataBaseOperation" />
     </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8009046666043404270" nodeInfo="ig">
@@ -681,14 +690,14 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4381394697191783829" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="query" />
     <property name="name" nameId="tpck.1169194664001" value="QueryFromSql" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="MapSQL" />
-    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="sql text query" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="MapSELECT" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="sql select text query" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4381394697191789858" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="sqlString" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1070475926800" resolveInfo="StringLiteral" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="4381394697219937324" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -706,10 +715,39 @@
       <property name="name" nameId="tpck.1169194664001" value="debugMe" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8510097166238599736" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8510097166208174348" resolveInfo="IDataBaseOperation" />
+    </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8510097166208174348" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="query" />
     <property name="name" nameId="tpck.1169194664001" value="IDataBaseOperation" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8510097166251501634" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="query" />
+    <property name="name" nameId="tpck.1169194664001" value="UpdateFormSql" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="MapUPDATE" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="sql update text query" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8510097166251501837" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="sqlString" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8510097166251501838" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="arguments" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8510097166251501827" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="debugMe" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8510097166251501825" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8510097166208174348" resolveInfo="IDataBaseOperation" />
+    </node>
   </root>
 </model>
 

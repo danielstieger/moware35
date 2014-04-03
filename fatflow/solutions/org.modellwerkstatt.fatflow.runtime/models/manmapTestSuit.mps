@@ -23,7 +23,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="38" implicit="yes" />
+  <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="39" implicit="yes" />
   <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="146" implicit="yes" />
   <root type="r5tz.PersistenceDescription" typeId="r5tz.871579071900124823" id="3572493221071361406" nodeInfo="ng">
     <node role="entityReference" roleId="r5tz.871579071900209323" type="r5tz.EntityReference" typeId="r5tz.871579071900209276" id="3572493221071361412" nodeInfo="ng">
@@ -3471,34 +3471,34 @@
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1724990426797219533" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1724990426797219534" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="1724990426797233324" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068581517676" type="r5tz.QueryFromSql" typeId="r5tz.4381394697191783829" id="1724990426797233468" nodeInfo="ng">
-            <node role="sqlString" roleId="r5tz.4381394697191789858" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1724990426797233474" nodeInfo="nn">
-              <property name="value" nameId="tpee.1070475926801" value="UPDATE TESTOBJECT_TABLE SET TXT_BEMERKUNG=?, KEY=? WHERE KEY=?" />
-            </node>
-            <node role="arguments" roleId="r5tz.4381394697219937324" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1724990426797250912" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1724990426797248177" nodeInfo="nn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8510097166252968153" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="r5tz.UpdateFormSql" typeId="r5tz.8510097166251501634" id="8510097166252968150" nodeInfo="ng">
+            <node role="arguments" roleId="r5tz.8510097166251501838" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8510097166252972551" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8510097166252972444" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1724990426797231311" resolveInfo="edited" />
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="1724990426797253980" nodeInfo="nn">
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="8510097166252972827" nodeInfo="nn">
                 <link role="property" roleId="tpee.1201385237847" targetNodeId="7032039167864884563" />
               </node>
             </node>
-            <node role="arguments" roleId="r5tz.4381394697219937324" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1724990426797262768" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1724990426797259668" nodeInfo="nn">
+            <node role="arguments" roleId="r5tz.8510097166251501838" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8510097166252976567" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8510097166252973265" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1724990426797231311" resolveInfo="edited" />
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="1724990426797266270" nodeInfo="nn">
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="8510097166252980041" nodeInfo="nn">
                 <link role="property" roleId="tpee.1201385237847" targetNodeId="7032039167864884556" />
               </node>
             </node>
-            <node role="arguments" roleId="r5tz.4381394697219937324" type="tpee.DotExpression" typeId="tpee.1197027756228" id="1724990426797275381" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1724990426797272359" nodeInfo="nn">
+            <node role="arguments" roleId="r5tz.8510097166251501838" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8510097166252986743" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8510097166252983546" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1724990426797231311" resolveInfo="edited" />
               </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="1724990426797278669" nodeInfo="nn">
+              <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="8510097166252990203" nodeInfo="nn">
                 <link role="property" roleId="tpee.1201385237847" targetNodeId="7032039167864884556" />
               </node>
+            </node>
+            <node role="sqlString" roleId="r5tz.8510097166251501837" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8510097166252968152" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="UPDATE TESTOBJECT_TABLE SET TXT_BEMERKUNG=?, KEY=? WHERE KEY=?" />
             </node>
           </node>
         </node>
