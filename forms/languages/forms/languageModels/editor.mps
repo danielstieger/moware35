@@ -768,7 +768,7 @@
         </node>
         <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3401302700295893894" nodeInfo="nn">
           <property name="text" nameId="tpc2.1073389577007" value="" />
-          <property name="nullText" nameId="tpc2.1082639509531" value="&lt;advanced selections&gt;" />
+          <property name="nullText" nameId="tpc2.1082639509531" value="&lt;table summary line&gt;" />
         </node>
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutIndentStyleClassItem" typeId="tpc2.1237307900041" id="3401302700295893895" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
