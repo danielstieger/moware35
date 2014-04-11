@@ -13751,9 +13751,12 @@
                       <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7813981954366284049" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="7813981954366283199" nodeInfo="nn" />
                         <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetDescendantsOperation" typeId="tp25.1171305280644" id="7813981954366297640" nodeInfo="nn">
-                          <node role="parameter" roleId="tp25.1144104376918" type="tp25.OperationParm_Concept" typeId="tp25.1144101972840" id="7813981954366297642" nodeInfo="ng">
-                            <node role="conceptArgument" roleId="tp25.1207343664468" type="tp25.RefConcept_Reference" typeId="tp25.1177026924588" id="7813981954366298333" nodeInfo="nn">
-                              <link role="conceptDeclaration" roleId="tp25.1177026940964" targetNodeId="r5tz.4381394697191783829" resolveInfo="QueryFromSql" />
+                          <node role="parameter" roleId="tp25.1144104376918" type="tp25.OperationParm_ConceptList" typeId="tp25.1154546920561" id="1955816297279314232" nodeInfo="ng">
+                            <node role="concept" roleId="tp25.1154546920563" type="tp25.ConceptReference" typeId="tp25.1154546950173" id="1955816297279315072" nodeInfo="ng">
+                              <link role="concept" roleId="tp25.1154546997487" targetNodeId="r5tz.4381394697191783829" resolveInfo="QueryFromSql" />
+                            </node>
+                            <node role="concept" roleId="tp25.1154546920563" type="tp25.ConceptReference" typeId="tp25.1154546950173" id="1955816297279316907" nodeInfo="ng">
+                              <link role="concept" roleId="tp25.1154546997487" targetNodeId="r5tz.8510097166251501634" resolveInfo="UpdateFormSql" />
                             </node>
                           </node>
                         </node>
