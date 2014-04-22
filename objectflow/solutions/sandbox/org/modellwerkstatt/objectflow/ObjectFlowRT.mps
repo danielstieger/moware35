@@ -3372,6 +3372,9 @@
       <node role="throwsItem" roleId="tpee.1164879685961" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7158462476986231853" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7158462476986215422" resolveInfo="OFXCommandDoneException" />
       </node>
+      <node role="throwsItem" roleId="tpee.1164879685961" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2642641265587612810" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="417916712549082733" resolveInfo="OFXPageFlagException" />
+      </node>
     </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="7158462476985918883" nodeInfo="ig">
