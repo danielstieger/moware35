@@ -2199,7 +2199,7 @@
     <property name="name" nameId="tpck.1169194664001" value="FindDelegateFormsFunction" />
     <property name="type" nameId="tp33.5299416737274925395" value="migration" />
     <property name="toBuild" nameId="tp33.5299416737274925397" value="MoWare" />
-    <property name="title" nameId="tp33.1177457669450" value="Find Delegate From Functions" />
+    <property name="title" nameId="tp33.1177457669450" value="STATIC FX RUTIME: Find Delegate From Functions" />
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="1089167126715151338" nodeInfo="ng">
       <property name="description" nameId="tp33.1177457972041" value="OnLoadDelegateForm" />
       <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
