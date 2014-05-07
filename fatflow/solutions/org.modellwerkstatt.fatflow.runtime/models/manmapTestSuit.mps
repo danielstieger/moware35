@@ -998,7 +998,7 @@
     <property name="name" nameId="tpck.1169194664001" value="TestConfig" />
     <property name="username" nameId="un0u.8537348545916385360" value="reko" />
     <property name="password" nameId="un0u.8537348545916385361" value="test" />
-    <property name="jmxuri" nameId="un0u.8603748575145006884" value="service:jmx:rmi://localhost/jndi/rmi://localhost:1099/DanMan " />
+    <property name="jmxuri" nameId="un0u.8603748575145006884" value=" " />
     <property name="maxPoolSize" nameId="un0u.3517052249650441955" value="1" />
     <node role="logConfiguration" roleId="un0u.830334255848383637" type="un0u.LogConfiguration" typeId="un0u.830334255848344169" id="3572493221071532651" nodeInfo="ng">
       <property name="packageName" nameId="un0u.830334255848344170" value="java.sql" />
