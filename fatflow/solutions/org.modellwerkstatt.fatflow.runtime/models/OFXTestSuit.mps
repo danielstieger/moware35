@@ -22,13 +22,13 @@
   <import index="26n1" modelUID="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time(org.modellwerkstatt.manmap.solution/org.joda.time@java_stub)" version="-1" />
   <import index="m41l" modelUID="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.jdbc.core(org.modellwerkstatt.manmap.solution/org.springframework.jdbc.core@java_stub)" version="-1" />
   <import index="8553" modelUID="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.springframework.jmx.export.annotation(org.modellwerkstatt.sandbox/org.springframework.jmx.export.annotation@java_stub)" version="-1" />
+  <import index="e2lc" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="146" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="154" implicit="yes" />
   <import index="epq1" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" version="-1" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
-  <import index="e2lc" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" implicit="yes" />
   <root type="un0u.Command" typeId="un0u.7192042020163999178" id="594565203028873643" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Step0 Checkout" />
     <property name="commandType" nameId="un0u.943115150037896890" value="GRAPH_OWNER" />
@@ -160,13 +160,13 @@
       <node role="transitions" roleId="un0u.1881524139087020907" type="un0u.OnTriggerTransition" typeId="un0u.1881524139087047680" id="2413364889821011247" nodeInfo="ng">
         <link role="command" roleId="un0u.1881524139087020879" targetNodeId="2413364889821010472" resolveInfo="DisabledCommand" />
         <node role="permRoleReference" roleId="un0u.2924471170334881318" type="un0u.PermissionHasReference" typeId="un0u.2665553595289276900" id="8346503553357959839" nodeInfo="ng">
-          <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="8346503553357927481" resolveInfo="Administrator" />
+          <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="4779674245239916323" resolveInfo="Admin" />
           <node role="expression" roleId="un0u.5697903518443819935" type="un0u.ContainerParamReference" typeId="un0u.7192042020165155254" id="8346503553357959840" nodeInfo="ng">
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="594565203028873645" resolveInfo="document" />
           </node>
         </node>
         <node role="permRoleReference" roleId="un0u.2924471170334881318" type="un0u.PermissionHasReference" typeId="un0u.2665553595289276900" id="8346503553357959867" nodeInfo="ng">
-          <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="8346503553357927487" resolveInfo="Sachbearbeiter" />
+          <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="4779674245239916325" resolveInfo="Sachbearbeiter" />
           <node role="expression" roleId="un0u.5697903518443819935" type="un0u.ContainerParamReference" typeId="un0u.7192042020165155254" id="8346503553357959868" nodeInfo="ng">
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="594565203028873645" resolveInfo="document" />
           </node>
@@ -191,13 +191,13 @@
       <node role="transitions" roleId="un0u.1881524139087020907" type="un0u.OnTriggerTransition" typeId="un0u.1881524139087047680" id="2413364889821011249" nodeInfo="ng">
         <link role="command" roleId="un0u.1881524139087020879" targetNodeId="2413364889821010472" resolveInfo="DisabledCommand" />
         <node role="permRoleReference" roleId="un0u.2924471170334881318" type="un0u.PermissionHasReference" typeId="un0u.2665553595289276900" id="8346503553357959986" nodeInfo="ng">
-          <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="8346503553357927481" resolveInfo="Administrator" />
+          <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="4779674245239916323" resolveInfo="Admin" />
           <node role="expression" roleId="un0u.5697903518443819935" type="un0u.ContainerParamReference" typeId="un0u.7192042020165155254" id="8346503553357959987" nodeInfo="ng">
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="594565203028873645" resolveInfo="document" />
           </node>
         </node>
         <node role="permRoleReference" roleId="un0u.2924471170334881318" type="un0u.PermissionHasReference" typeId="un0u.2665553595289276900" id="8346503553357960014" nodeInfo="ng">
-          <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="8346503553357927487" resolveInfo="Sachbearbeiter" />
+          <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="4779674245239916325" resolveInfo="Sachbearbeiter" />
           <node role="expression" roleId="un0u.5697903518443819935" type="un0u.ContainerParamReference" typeId="un0u.7192042020165155254" id="8346503553357960015" nodeInfo="ng">
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="594565203028873645" resolveInfo="document" />
           </node>
@@ -500,7 +500,7 @@
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5080865963779938104" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8346503553357957120" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="un0u.PermissionHasReference" typeId="un0u.2665553595289276900" id="8346503553357957118" nodeInfo="ng">
-            <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="8346503553357927481" resolveInfo="Administrator" />
+            <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="4779674245239916323" resolveInfo="Admin" />
             <node role="expression" roleId="un0u.5697903518443819935" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8346503553357958053" nodeInfo="nn">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5080865963779976841" resolveInfo="obj" />
             </node>
@@ -4520,6 +4520,38 @@
     </node>
     <node role="commandInit" roleId="un0u.7192042020164579739" type="un0u.VoidStatementList" typeId="un0u.6525155817176754757" id="2413364889821010490" nodeInfo="ng">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="2413364889821010491" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4779674245247348256" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4779674245247348252" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4779674245247348253" nodeInfo="nn">
+              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%derr" resolveInfo="err" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4779674245247348254" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="4779674245247369060" nodeInfo="nn">
+                <node role="rightExpression" roleId="tpee.1081773367579" type="un0u.PermissionHasReference" typeId="un0u.2665553595289276900" id="4779674245247371568" nodeInfo="ng">
+                  <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="4779674245239916325" resolveInfo="Sachbearbeiter" />
+                  <node role="expression" roleId="un0u.5697903518443819935" type="un0u.ProcessDocumentReference" typeId="un0u.1881524139088778970" id="4779674245247377454" nodeInfo="ng">
+                    <link role="processDocument" roleId="un0u.1881524139088778971" targetNodeId="594565203028873645" resolveInfo="document" />
+                  </node>
+                </node>
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="4779674245247361866" nodeInfo="nn">
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4779674245247348255" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1070475926801" value="Disabled command " />
+                  </node>
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4779674245247365256" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="un0u.ProcessDocumentReference" typeId="un0u.1881524139088778970" id="4779674245247363366" nodeInfo="ng">
+                      <link role="processDocument" roleId="un0u.1881524139088778971" targetNodeId="594565203028873645" resolveInfo="document" />
+                    </node>
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="4779674245247366976" nodeInfo="nn">
+                      <link role="property" roleId="tpee.1201385237847" targetNodeId="ofql.7032039167864884563" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="2413364889821010529" nodeInfo="nn">
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="2413364889821010530" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ThrowStatement" typeId="tpee.1164991038168" id="2413364889821010533" nodeInfo="nn">
@@ -4534,7 +4566,7 @@
             </node>
           </node>
           <node role="condition" roleId="tpee.1068580123160" type="un0u.PermissionHasReference" typeId="un0u.2665553595289276900" id="8346503553357954520" nodeInfo="ng">
-            <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="8346503553357927487" resolveInfo="Sachbearbeiter" />
+            <link role="evaluatePermission" roleId="un0u.5697903518443819941" targetNodeId="4779674245239916325" resolveInfo="Sachbearbeiter" />
             <node role="expression" roleId="un0u.5697903518443819935" type="un0u.ProcessDocumentReference" typeId="un0u.1881524139088778970" id="8346503553357956236" nodeInfo="ng">
               <link role="processDocument" roleId="un0u.1881524139088778971" targetNodeId="594565203028873645" resolveInfo="document" />
             </node>
@@ -9524,54 +9556,53 @@
   </root>
   <root type="un0u.RolesAndPermissions" typeId="un0u.4518330267516965068" id="8346503553357927480" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TestRoles" />
-    <node role="permissions" roleId="un0u.4518330267516965071" type="un0u.Permission" typeId="un0u.4518330267516957046" id="8346503553357927481" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Administrator" />
-      <node role="restricts" roleId="un0u.4518330267519834336" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8346503553357927852" nodeInfo="in">
+    <node role="dynamicRolesRestrictions" roleId="un0u.4518330267516965071" type="un0u.DynamicRoleRestrictions" typeId="un0u.4779674245184717178" id="4779674245239913878" nodeInfo="ng">
+      <node role="restricts" roleId="un0u.4518330267519834336" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4779674245239915667" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ofql.7032039167864884548" resolveInfo="IntKeyObject" />
       </node>
-      <node role="permissionReferences" roleId="un0u.9111456360764200660" type="un0u.PermissionReference" typeId="un0u.9111456360764195863" id="8346503553357927495" nodeInfo="ng">
-        <link role="permission" roleId="un0u.9111456360764195864" targetNodeId="8346503553357927487" resolveInfo="Sachbearbeiter" />
-      </node>
-      <node role="isFunc" roleId="un0u.4518330267516957492" type="un0u.PermissionBooleanFunc" typeId="un0u.4518330267516957489" id="8346503553357928927" nodeInfo="ng">
-        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8346503553357928928" nodeInfo="sn">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8346503553357929611" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8346503553357929613" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8346503553357929614" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="un0u.PermissionTypeParameter" typeId="un0u.4518330267519834398" id="8346503553357930475" nodeInfo="ng" />
-                <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="8346503553357929616" nodeInfo="nn">
-                  <link role="property" roleId="tpee.1201385237847" targetNodeId="ofql.7032039167864884563" resolveInfo="text" />
+      <node role="roles" roleId="un0u.4779674245184717189" type="un0u.DynamicRole" typeId="un0u.4518330267516957046" id="4779674245239916323" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Admin" />
+        <node role="permissionReferences" roleId="un0u.9111456360764200660" type="un0u.DynamicRoleReference" typeId="un0u.9111456360764195863" id="4779674245239916328" nodeInfo="ng">
+          <link role="permission" roleId="un0u.9111456360764195864" targetNodeId="4779674245239916325" resolveInfo="Sachbearbeiter" />
+        </node>
+        <node role="isFunc" roleId="un0u.4518330267516957492" type="un0u.DynamicRoleFunc" typeId="un0u.4518330267516957489" id="4779674245239916330" nodeInfo="ng">
+          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4779674245239916331" nodeInfo="sn">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4779674245239922718" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4779674245239924344" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4779674245239922918" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="un0u.DynamicRoleParameter" typeId="un0u.4518330267519834398" id="4779674245239922717" nodeInfo="ng" />
+                  <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="4779674245239923814" nodeInfo="nn">
+                    <link role="property" roleId="tpee.1201385237847" targetNodeId="ofql.7032039167864884563" />
+                  </node>
                 </node>
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8346503553357929617" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8346503553357929618" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="Admin" />
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4779674245239925252" nodeInfo="nn">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dcontains(java%dlang%dCharSequence)%cboolean" resolveInfo="contains" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4779674245239925974" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1070475926801" value="Admin" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
       </node>
-    </node>
-    <node role="permissions" roleId="un0u.4518330267516965071" type="un0u.Permission" typeId="un0u.4518330267516957046" id="8346503553357927487" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="Sachbearbeiter" />
-      <node role="restricts" roleId="un0u.4518330267519834336" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8346503553357928921" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ofql.7032039167864884548" resolveInfo="IntKeyObject" />
-      </node>
-      <node role="isFunc" roleId="un0u.4518330267516957492" type="un0u.PermissionBooleanFunc" typeId="un0u.4518330267516957489" id="8346503553357931306" nodeInfo="ng">
-        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8346503553357931307" nodeInfo="sn">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8346503553357931990" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8346503553357931992" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8346503553357931993" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="un0u.PermissionTypeParameter" typeId="un0u.4518330267519834398" id="8346503553357932845" nodeInfo="ng" />
-                <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="8346503553357931995" nodeInfo="nn">
-                  <link role="property" roleId="tpee.1201385237847" targetNodeId="ofql.7032039167864884563" resolveInfo="text" />
+      <node role="roles" roleId="un0u.4779674245184717189" type="un0u.DynamicRole" typeId="un0u.4518330267516957046" id="4779674245239916325" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="Sachbearbeiter" />
+        <node role="isFunc" roleId="un0u.4518330267516957492" type="un0u.DynamicRoleFunc" typeId="un0u.4518330267516957489" id="4779674245239929485" nodeInfo="ng">
+          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4779674245239929486" nodeInfo="sn">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4779674245239930148" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4779674245239930149" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4779674245239930150" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="un0u.DynamicRoleParameter" typeId="un0u.4518330267519834398" id="4779674245239930151" nodeInfo="ng" />
+                  <node role="operation" roleId="tpee.1197027833540" type="tpee.PropertyReference" typeId="tpee.1201385106094" id="4779674245239930152" nodeInfo="nn">
+                    <link role="property" roleId="tpee.1201385237847" targetNodeId="ofql.7032039167864884563" resolveInfo="text" />
+                  </node>
                 </node>
-              </node>
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8346503553357931996" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dequals(java%dlang%dObject)%cboolean" resolveInfo="equals" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8346503553357931997" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="Sach" />
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4779674245239930153" nodeInfo="nn">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dcontains(java%dlang%dCharSequence)%cboolean" resolveInfo="contains" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4779674245239930154" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1070475926801" value="Sach" />
+                  </node>
                 </node>
               </node>
             </node>

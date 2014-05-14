@@ -49,8 +49,8 @@
       <model index="gx82" modelUID="r:82cf6bdb-b45c-4cc8-9040-8db9cc241298(objectflow.refactorings)" version="-1" />
       <model index="do3l" modelUID="r:4c242c41-d2ae-4f5c-b607-09c9bbddd795(objectflow.scripts)" version="-1" />
       <model index="z8tr" modelUID="r:bcfb927c-b184-4908-8828-52e996537df2(objectflow.editor)" version="-1" />
-      <model index="bpdf" modelUID="r:034603ed-8e73-486e-af2c-268865f08e38(objectflow.intentions)" version="-1" />
       <model index="70o0" modelUID="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(objectflow.behavior)" version="-1" />
+      <model index="bpdf" modelUID="r:034603ed-8e73-486e-af2c-268865f08e38(objectflow.intentions)" version="-1" />
     </dependencies>
     <RenameModel oldModel="r:e9f90445-fdc8-4ec7-a735-f25fd044971e(objectflow.actions)" newModel="r:e9f90445-fdc8-4ec7-a735-f25fd044971e(org.modellwerkstatt.objectflow.actions)" />
     <RenameModel oldModel="r:150c60e9-5317-48ed-9b80-619f4d069584(objectflow.typesystem)" newModel="r:150c60e9-5317-48ed-9b80-619f4d069584(org.modellwerkstatt.objectflow.typesystem)" />
@@ -293,6 +293,54 @@
       <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="145" />
     </dependencies>
     <rename id="un0u.4518330267516957492" type="CHILD" from="boolFunc" to="isFunc" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="146" />
+    </dependencies>
+    <rename id="un0u.4779674245164323009" type="CHILD" from="s" to="isAlsoRole" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="147" />
+    </dependencies>
+    <rename id="un0u.4518330267516957046" type="CONCEPT" from="Permission" to="DynamicRole" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="148" />
+    </dependencies>
+    <rename id="un0u.4518330267516957489" type="CONCEPT" from="PermissionBooleanFunc" to="DynamicRoleFunc" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="149" />
+    </dependencies>
+    <rename id="un0u.4518330267519834398" type="CONCEPT" from="PermissionTypeParameter" to="DynamicRoleParameter" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="150" />
+    </dependencies>
+    <rename id="un0u.9111456360764195863" type="CONCEPT" from="PermissionReference" to="DynamicRoleReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="151" />
+    </dependencies>
+    <rename id="un0u.4518330267516965071" type="CHILD" from="permissions" to="dynamicRolesRestrictions" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="152" />
+    </dependencies>
+    <rename id="un0u.5697903518443819883" type="CONCEPT" from="PermissionsScopeReference" to="ScopeReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="153" />
+    </dependencies>
+    <rename id="un0u.4518330267516957488" type="CONCEPT" from="PermissionListFunc" to="ScopeFunc" />
   </StructureModification>
 </history>
 
