@@ -6828,6 +6828,15 @@
         <property name="value" nameId="tpee.1070475926801" value="resultset_next.png" />
       </node>
     </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="6067283156599566914" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="ICON_PRINT" />
+      <property name="isFinal" nameId="tpee.1176718929932" value="true" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6067283156599566915" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="6067283156599566916" nodeInfo="in" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6067283156599566917" nodeInfo="nn">
+        <property name="value" nameId="tpee.1070475926801" value="document-open.png" />
+      </node>
+    </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="5186513829533627963" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="LABEL_SAVEEND" />
       <property name="isFinal" nameId="tpee.1176718929932" value="true" />
