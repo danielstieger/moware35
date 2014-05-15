@@ -28,6 +28,7 @@
       <sourceRoot location="mail/mailapi.jar" />
       <sourceRoot location="mail/pop3.jar" />
       <sourceRoot location="mail/smtp.jar" />
+      <sourceRoot location="zoo/zookeeper-3.4.5.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -54,6 +55,9 @@
     <stubModelEntry path="C:/moware35/objectflow/languages/objectflow/jars/mail/pop3.jar" />
     <stubModelEntry path="C:/moware35/objectflow/languages/objectflow/jars/mail/smtp.jar" />
     <stubModelEntry path="C:/moware35/objectflow/languages/objectflow/jars/log4j.jar" />
+    <stubModelEntry path="C:/moware35/objectflow/languages/objectflow/jars/zoo/zookeeper-3.4.5.jar" />
+    <stubModelEntry path="C:/moware35/objectflow/languages/objectflow/jars/zoo/slf4j-api-1.6.1.jar" />
+    <stubModelEntry path="C:/moware35/objectflow/languages/objectflow/jars/zoo/slf4j-log4j12-1.6.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
