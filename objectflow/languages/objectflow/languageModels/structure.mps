@@ -1691,11 +1691,21 @@
       <property name="name" nameId="tpck.1169194664001" value="cronDayOfWeek" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="385689203890330475" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="numberOfInstances" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8399801448180426754" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="statementList" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068580123136" resolveInfo="StatementList" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="385689203887260176" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="executeFunction" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="385689203887128308" resolveInfo="BatchTaskConceptFunction" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8399801448178545737" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
@@ -2310,6 +2320,35 @@
       <property name="role" nameId="tpce.1071599776563" value="expression" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="385689203887128308" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.batch" />
+    <property name="name" nameId="tpck.1169194664001" value="BatchTaskConceptFunction" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="execute" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="what does the task have to do" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="385689203887259518" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.batch" />
+    <property name="name" nameId="tpck.1169194664001" value="InstanceNumberParameter" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="instanceNumber" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="num. of this instance" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="385689203887259519" nodeInfo="ig">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
+      <node role="target" roleId="tpce.1105736901241" type="tpee.IntegerType" typeId="tpee.1070534370425" id="385689203899515748" nodeInfo="in" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="385689203887259566" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.batch" />
+    <property name="name" nameId="tpck.1169194664001" value="NumberOfInstancesParameter" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="numberOfInstances" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="num. of instances total" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+    <node role="conceptLink" roleId="tpce.1105736949336" type="tpce.AggregationConceptLink" typeId="tpce.1105736889287" id="385689203887259568" nodeInfo="ig">
+      <link role="conceptLinkDeclaration" roleId="tpce.1105736734721" targetNodeId="tpee.1137545963098" resolveInfo="conceptFunctionParameterType" />
+      <node role="target" roleId="tpce.1105736901241" type="tpee.IntegerType" typeId="tpee.1070534370425" id="385689203899515753" nodeInfo="in" />
     </node>
   </root>
 </model>
