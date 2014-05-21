@@ -251,7 +251,7 @@
       <property name="name" nameId="tpck.1169194664001" value="MapExtendedProforma" />
       <link role="classConcept" roleId="r5tz.871579071900233967" targetNodeId="2911334080249795734" resolveInfo="ExtendedProforma" />
       <node role="tableName" roleId="r5tz.871579071901472001" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2911334080249903784" nodeInfo="nn">
-        <property name="value" nameId="tpee.1070475926801" value="WEBLG_KOPF" />
+        <property name="value" nameId="tpee.1070475926801" value="MPREIS.WEBLG_KOPF" />
       </node>
       <node role="mapping" roleId="r5tz.4557816287827057767" type="r5tz.IncludeMapping" typeId="r5tz.871579071901471997" id="2911334080249903787" nodeInfo="ng">
         <link role="mapping" roleId="r5tz.871579071901474029" targetNodeId="3572493221071361691" resolveInfo="MapProforma" />

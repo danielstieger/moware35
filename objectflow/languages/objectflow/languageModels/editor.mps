@@ -2374,7 +2374,7 @@
           </node>
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1881524139086021946" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value="EXCEPTION_CONCLUSION:" />
+          <property name="text" nameId="tpc2.1073389577007" value="FINAL_EXCEPTION_CONCLUSION:" />
           <link role="styleClass" roleId="tpc2.1186406756722" targetNodeId="8396343267227427339" resolveInfo="O2Section" />
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="1881524139086021947" nodeInfo="nn">
             <property name="flag" nameId="tpc2.1186414551515" value="true" />
