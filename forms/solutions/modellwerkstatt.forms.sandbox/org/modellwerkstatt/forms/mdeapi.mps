@@ -10,13 +10,13 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1571169973847196764" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="MCButton" />
+    <property name="name" nameId="tpck.1169194664001" value="MCButtonField" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="fields" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1571169973847196765" nodeInfo="nn" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="3212794039619776754" nodeInfo="ng">
       <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619776755" nodeInfo="ng">
         <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619776756" nodeInfo="ng">
-          <property name="text" nameId="m373.8970989240999019144" value="Per default, a button does have a submit" />
+          <property name="text" nameId="m373.8970989240999019144" value="Per default, the button does already have a submit." />
         </node>
       </node>
       <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619776764" nodeInfo="ng">
@@ -33,7 +33,7 @@
     </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1571169973847197257" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="MCDate" />
+    <property name="name" nameId="tpck.1169194664001" value="MCDateField" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="fields" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619776562" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619776564" nodeInfo="ngu" />
@@ -42,14 +42,24 @@
       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1571169973847196429" resolveInfo="MCField" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.StringType" typeId="tpee.1225271177708" id="3283862652174209914" nodeInfo="in" />
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="8229083570639099764" nodeInfo="ng">
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099765" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639099766" nodeInfo="ng" />
+      </node>
+    </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1571169973847197380" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="MCDateTime" />
+    <property name="name" nameId="tpck.1169194664001" value="MCDateTimeField" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="fields" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1571169973847197381" nodeInfo="nn" />
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3283862652174209975" nodeInfo="in">
       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1571169973847196429" resolveInfo="MCField" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.StringType" typeId="tpee.1225271177708" id="3283862652174209986" nodeInfo="in" />
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="8229083570639100056" nodeInfo="ng">
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100057" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100058" nodeInfo="ng" />
+      </node>
     </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1571169973847196429" nodeInfo="ig">
@@ -89,12 +99,17 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="1571169973847198144" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1571169973847198145" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="1571169973847198146" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="whereas pos is mandatory," />
+            <property name="text" nameId="m373.8970989240999019144" value="Whereas pos is mandatory, width and hight are optional. " />
           </node>
         </node>
-        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1571169973847198159" nodeInfo="ng">
-          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="1571169973847198160" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="width and hight are optional - minimum values are taken then." />
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100159" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100160" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="Minimum values are calculated and taken per default." />
+          </node>
+        </node>
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100173" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100174" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="" />
           </node>
         </node>
       </node>
@@ -112,7 +127,7 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="1571169973847199241" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1571169973847199242" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="1571169973847199243" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="if value is changed, the whole form should be submitted." />
+            <property name="text" nameId="m373.8970989240999019144" value="If value is changed, the whole form should be submitted." />
           </node>
         </node>
       </node>
@@ -124,7 +139,7 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="1571169973847199470" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1571169973847199471" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="1571169973847199472" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="this field is scanabel, scanner can cycle over all" />
+            <property name="text" nameId="m373.8970989240999019144" value="This MCField is scanabel, scanner cycles over all" />
           </node>
         </node>
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1571169973847199627" nodeInfo="ng">
@@ -141,7 +156,7 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="1571169973847199748" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1571169973847199749" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="1571169973847199825" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="mark this field as read only. " />
+            <property name="text" nameId="m373.8970989240999019144" value="Mark this field as read only and disable user input." />
           </node>
         </node>
       </node>
@@ -153,7 +168,7 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="1571169973847199830" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="1571169973847199831" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="1571169973847199832" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="althought field is available, it is not visible right now." />
+            <property name="text" nameId="m373.8970989240999019144" value="Althought field is available, it is not visible right now." />
           </node>
         </node>
       </node>
@@ -165,7 +180,7 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619528710" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528711" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619528712" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="beep, if this field is rendered fthe first time. " />
+            <property name="text" nameId="m373.8970989240999019144" value="Beep, if this field is rendered fthe first time. " />
           </node>
         </node>
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528811" nodeInfo="ng">
@@ -175,7 +190,7 @@
         </node>
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528817" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619528818" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="right now, this option is only used with MCStaticText fields. However," />
+            <property name="text" nameId="m373.8970989240999019144" value="Right now, this option is only used with MCStaticText fields. However," />
           </node>
         </node>
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528825" nodeInfo="ng">
@@ -192,25 +207,23 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="3212794039619531442" resolveInfo="MCField.PositioningReference" />
       </node>
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619528838" nodeInfo="ng">
-        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528839" nodeInfo="ng" />
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528841" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619528842" nodeInfo="ng">
             <property name="text" nameId="m373.8970989240999019144" value="" />
           </node>
         </node>
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528843" nodeInfo="ng">
-          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619528844" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="right now, this option is only used with MCStaticText fields. However," />
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100196" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="Position reference defines the location where x and y" />
           </node>
         </node>
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528845" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619528846" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="other field do support the beep also. " />
+            <property name="text" nameId="m373.8970989240999019144" value="is applied to. " />
           </node>
         </node>
       </node>
     </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="1571169973847198242" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619762286" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3212794039619762623" nodeInfo="igu">
       <property name="isVolatile" nameId="tpee.1240249534625" value="false" />
@@ -222,7 +235,12 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619762741" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619762742" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619762743" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="tabnumber determines ordering of focus traversals. " />
+            <property name="text" nameId="m373.8970989240999019144" value="" />
+          </node>
+        </node>
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100344" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100345" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="Tabnumber determines the ordering of focus traversals. " />
           </node>
         </node>
       </node>
@@ -234,6 +252,18 @@
       <property name="name" nameId="tpck.1169194664001" value="fontName" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3212794039619528000" nodeInfo="nn" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3212794039619528023" nodeInfo="in" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="8229083570639100357" nodeInfo="ng">
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100358" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100359" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="" />
+          </node>
+        </node>
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100374" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100375" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="Some font specifications follow ... " />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3212794039619777549" nodeInfo="igu">
       <property name="isVolatile" nameId="tpee.1240249534625" value="false" />
@@ -263,17 +293,17 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619528337" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528364" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619528365" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="typical color names: yellow, blue, black etc.. " />
+            <property name="text" nameId="m373.8970989240999019144" value="" />
           </node>
         </node>
-        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528350" nodeInfo="ng">
-          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619528351" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="" />
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100380" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100381" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="Typical color names can be applied, like yellow, blue, black etc.. " />
           </node>
         </node>
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528356" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619528357" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="or hex 0xRRGGBB" />
+            <property name="text" nameId="m373.8970989240999019144" value="Or hex specifications like 0xRRGGBB" />
           </node>
         </node>
       </node>
@@ -308,7 +338,12 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="3212794039619762929" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619762930" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619762931" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="MPreis CAS internally this reference is also labeled as &quot;Justification&quot;" />
+            <property name="text" nameId="m373.8970989240999019144" value="" />
+          </node>
+        </node>
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100397" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100398" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="MPreis CAS internally, this reference is also labeled as &quot;Justification&quot;" />
           </node>
         </node>
       </node>
@@ -357,13 +392,58 @@
           <property name="text" nameId="m373.8970989240999019144" value="" />
         </node>
       </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100403" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100404" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="The value set/get mechanism for MCField and it s subclasses " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100429" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100430" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="could be revised bevore release of the first version. Right now, " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100445" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100446" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="we use java generics and a public T value; field. It s still unclear if we handle" />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100471" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100472" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="only strings within these specifications or other datatypes also. E.g. MCResults does " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100491" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100492" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="only capture strings. " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100513" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100514" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="" />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100537" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100538" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="" />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100563" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100564" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="" />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100415" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100416" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="" />
+        </node>
+      </node>
     </node>
     <node role="typeVariableDeclaration" roleId="tpee.1109279881614" type="tpee.TypeVariableDeclaration" typeId="tpee.1109279763828" id="3212794039619521007" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="T" />
     </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1571169973847197755" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="MCList" />
+    <property name="name" nameId="tpck.1169194664001" value="MCListField" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="fields" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1571169973847197756" nodeInfo="nn" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619527765" nodeInfo="ngu" />
@@ -374,9 +454,11 @@
       <property name="isFinal" nameId="tpee.1176718929932" value="false" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3212794039619779374" nodeInfo="nn" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3212794039619779417" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="3212794039619779020" resolveInfo="MCList.MultiValueElement" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="3212794039619779020" resolveInfo="MCListField.MultiValueElement" />
       </node>
     </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="8229083570639101101" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="8229083570639101156" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3212794039619780242" nodeInfo="igu">
       <property name="isVolatile" nameId="tpee.1240249534625" value="false" />
       <property name="isTransient" nameId="tpee.8606350594693632173" value="false" />
@@ -384,29 +466,18 @@
       <property name="isFinal" nameId="tpee.1176718929932" value="false" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3212794039619780173" nodeInfo="nn" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3212794039619780229" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="3212794039619779627" resolveInfo="MCList.DispalyOption" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="3212794039619779627" resolveInfo="MCListField.DispalyOption" />
       </node>
-    </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619780124" nodeInfo="ngu" />
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3212794039619527740" nodeInfo="igu">
-      <property name="name" nameId="tpck.1169194664001" value="visualizeAsComboBox" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3212794039619527751" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3212794039619527758" nodeInfo="in" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619527862" nodeInfo="ng">
-        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619527863" nodeInfo="ng">
-          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619527864" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="do not render this field as list element but " />
-          </node>
-        </node>
-        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619527875" nodeInfo="ng">
-          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619527876" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="use combobox instead." />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="8229083570639101213" nodeInfo="ng">
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639101214" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639101215" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="MCList can be visualized in various ways. " />
           </node>
         </node>
       </node>
     </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619527784" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619528385" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="8229083570639101046" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3212794039619528418" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="visibleRowCount" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3212794039619528671" nodeInfo="nn" />
@@ -414,7 +485,7 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619528650" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528651" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619528652" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="How many lines should be visible in list mode. " />
+            <property name="text" nameId="m373.8970989240999019144" value="Number of lines should be visible in list mode. " />
           </node>
         </node>
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619528663" nodeInfo="ng">
@@ -425,6 +496,7 @@
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619528518" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="8229083570639100992" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.ClassConcept" typeId="tpee.1068390468198" id="3212794039619779020" nodeInfo="igu">
       <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
       <property name="abstractClass" nameId="tpee.1075300953594" value="false" />
@@ -455,25 +527,42 @@
         <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3212794039619779148" nodeInfo="nn" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3212794039619778991" nodeInfo="nn" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="8229083570639100787" nodeInfo="ng">
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100788" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100789" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="Id is neccessary to identify responses from " />
+          </node>
+        </node>
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100807" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100808" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="devices .. we have to map it back somehow. " />
+          </node>
+        </node>
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639100813" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639100814" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619527792" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.EnumClass" typeId="tpee.1083245097125" id="3212794039619779627" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="DispalyOption" />
       <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="3212794039619779737" nodeInfo="ig">
         <property name="name" nameId="tpck.1169194664001" value="LIST" />
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3212794039619780046" resolveInfo="MCList.DispalyOption" />
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3212794039619780046" resolveInfo="MCListField.DispalyOption" />
       </node>
       <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="3212794039619779778" nodeInfo="ig">
         <property name="name" nameId="tpck.1169194664001" value="COMBOBOX" />
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3212794039619780046" resolveInfo="MCList.DispalyOption" />
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3212794039619780046" resolveInfo="MCListField.DispalyOption" />
       </node>
       <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="3212794039619779851" nodeInfo="ig">
         <property name="name" nameId="tpck.1169194664001" value="RADIOS" />
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3212794039619780046" resolveInfo="MCList.DispalyOption" />
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3212794039619780046" resolveInfo="MCListField.DispalyOption" />
       </node>
       <node role="enumConstant" roleId="tpee.1083245396908" type="tpee.EnumConstantDeclaration" typeId="tpee.1083245299891" id="3212794039619779960" nodeInfo="ig">
         <property name="name" nameId="tpck.1169194664001" value="CHECKBOX" />
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3212794039619780046" resolveInfo="MCList.DispalyOption" />
+        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3212794039619780046" resolveInfo="MCListField.DispalyOption" />
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3212794039619779585" nodeInfo="nn" />
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="3212794039619780046" nodeInfo="igu">
@@ -500,7 +589,7 @@
     </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1571169973847197631" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="MCNumberEdit" />
+    <property name="name" nameId="tpck.1169194664001" value="MCNumberField" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="fields" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619521256" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619545330" nodeInfo="ngu" />
@@ -516,7 +605,7 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619545445" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619545446" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619545447" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="mandatory for decimal fields" />
+            <property name="text" nameId="m373.8970989240999019144" value="Mandatory for decimal fields!" />
           </node>
         </node>
       </node>
@@ -558,7 +647,7 @@
         </node>
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619759705" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619759706" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="withUpDownControls mode." />
+            <property name="text" nameId="m373.8970989240999019144" value="withUpDownControls mode!" />
           </node>
         </node>
       </node>
@@ -607,7 +696,7 @@
     </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1571169973847197503" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="MCStaticText" />
+    <property name="name" nameId="tpck.1169194664001" value="MCLabelField" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="fields" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1571169973847197504" nodeInfo="nn" />
     <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="1571169973847197877" nodeInfo="in">
@@ -617,7 +706,7 @@
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="3212794039619778860" nodeInfo="ng">
       <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619778861" nodeInfo="ng">
         <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619778862" nodeInfo="ng">
-          <property name="text" nameId="m373.8970989240999019144" value="MCStatiText does cover both, the MPreis CAS Label and the " />
+          <property name="text" nameId="m373.8970989240999019144" value="MCLabel does cover both, the MPreis CAS Label and the " />
         </node>
       </node>
       <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619778870" nodeInfo="ng">
@@ -632,13 +721,13 @@
       </node>
       <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619778884" nodeInfo="ng">
         <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619778885" nodeInfo="ng">
-          <property name="text" nameId="m373.8970989240999019144" value="MStaticText does support \n" />
+          <property name="text" nameId="m373.8970989240999019144" value="The MCLabelField does support \n special character for linefeeds." />
         </node>
       </node>
     </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="3212794039619761818" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="MCTextEdit" />
+    <property name="name" nameId="tpck.1169194664001" value="MCTextField" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="fields" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619761819" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619761820" nodeInfo="ngu" />
@@ -649,7 +738,7 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619761824" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619761825" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619761826" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="use asteriks instead of letters" />
+            <property name="text" nameId="m373.8970989240999019144" value="Use asteriks instead of letters if true." />
           </node>
         </node>
       </node>
@@ -665,7 +754,7 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619761831" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619761832" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619761833" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="mandatory for decimal fields" />
+            <property name="text" nameId="m373.8970989240999019144" value="Mandatory for text fields" />
           </node>
         </node>
       </node>
@@ -692,7 +781,7 @@
     </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="3212794039619776586" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="MCTime" />
+    <property name="name" nameId="tpck.1169194664001" value="MCTimeField" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="fields" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619776597" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3212794039619776599" nodeInfo="ngu" />
@@ -722,7 +811,7 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619520902" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619520903" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619520904" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="TODO: is the label actually a heading? " />
+            <property name="text" nameId="m373.8970989240999019144" value="Heading of form which is displayed as the windows title." />
           </node>
         </node>
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619520919" nodeInfo="ng">
@@ -744,7 +833,12 @@
       <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.FieldDocComment" typeId="m373.6832197706140896242" id="3212794039619776723" nodeInfo="ng">
         <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="3212794039619776724" nodeInfo="ng">
           <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="3212794039619776725" nodeInfo="ng">
-            <property name="text" nameId="m373.8970989240999019144" value="at least one of the elements should define a submit." />
+            <property name="text" nameId="m373.8970989240999019144" value="At least one of the elements should define a submit." />
+          </node>
+        </node>
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099099" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639099100" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="Else the form can not be closed anymore. " />
           </node>
         </node>
       </node>
@@ -799,6 +893,9 @@
     </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1571169973847195458" nodeInfo="nn" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="1571169973847195510" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="8229083570639099316" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="8229083570639099353" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="8229083570639099391" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1571169973847195596" nodeInfo="igu">
       <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
       <property name="abstractClass" nameId="tpee.1075300953594" value="false" />
@@ -836,7 +933,20 @@
       <node role="superclass" roleId="tpee.1165602531693" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3283862652174208849" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="3283862652174196708" resolveInfo="MCResult.Value" />
       </node>
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="8229083570639099190" nodeInfo="ng">
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099191" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639099192" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="Right now, only used with checkboxes. Even tables do not " />
+          </node>
+        </node>
+        <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099204" nodeInfo="ng">
+          <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639099205" nodeInfo="ng">
+            <property name="text" nameId="m373.8970989240999019144" value="support multiple selections right now. " />
+          </node>
+        </node>
+      </node>
     </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="8229083570639099541" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.ClassConcept" typeId="tpee.1068390468198" id="3283862652174196708" nodeInfo="igu">
       <property name="nonStatic" nameId="tpee.521412098689998745" value="true" />
       <property name="abstractClass" nameId="tpee.1075300953594" value="false" />
@@ -852,6 +962,33 @@
       </node>
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3283862652174196748" nodeInfo="ngu" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3283862652174196677" nodeInfo="nn" />
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="8229083570639099141" nodeInfo="ng">
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099142" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639099143" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="MPreis CAS form result. " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099151" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639099152" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="" />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099157" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639099158" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="Values are typically in form of SingleValue. However, checkboxes can " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099165" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639099166" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="result in MultiValue results .. " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099175" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639099176" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="" />
+        </node>
+      </node>
     </node>
   </root>
 </model>
