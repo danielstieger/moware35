@@ -9753,6 +9753,33 @@
   </root>
   <root type="un0u.RolesAndPermissions" typeId="un0u.4518330267516965068" id="8346503553357927480" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="TestRoles" />
+    <node role="staticRoles" roleId="un0u.4779674245164354289" type="un0u.StaticRole" typeId="un0u.4779674245164303002" id="4049344192110077063" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="STAT_Role1" />
+      <node role="staticRoleFunc" roleId="un0u.4779674245164315371" type="un0u.StaticRoleFunc" typeId="un0u.4779674245164315510" id="4049344192110077064" nodeInfo="ng">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4049344192110077065" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4049344192110080373" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4049344192110080372" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580123138" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="isAlsoRole" roleId="un0u.4779674245164323009" type="un0u.StaticRoleReference" typeId="un0u.4779674245172928845" id="4049344192110085167" nodeInfo="ng">
+        <link role="staticRole" roleId="un0u.4779674245172928846" targetNodeId="4049344192110081031" resolveInfo="STAT_Role2" />
+      </node>
+    </node>
+    <node role="staticRoles" roleId="un0u.4779674245164354289" type="un0u.StaticRole" typeId="un0u.4779674245164303002" id="4049344192110081031" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="STAT_Role2" />
+      <node role="staticRoleFunc" roleId="un0u.4779674245164315371" type="un0u.StaticRoleFunc" typeId="un0u.4779674245164315510" id="4049344192110081032" nodeInfo="ng">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4049344192110081033" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4049344192110083877" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4049344192110083876" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580123138" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="dynamicRolesRestrictions" roleId="un0u.4518330267516965071" type="un0u.DynamicRoleRestrictions" typeId="un0u.4779674245184717178" id="4779674245239913878" nodeInfo="ng">
       <node role="restricts" roleId="un0u.4518330267519834336" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4779674245239915667" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ofql.7032039167864884548" resolveInfo="IntKeyObject" />
