@@ -13897,10 +13897,10 @@
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="7813981954389673815" nodeInfo="igu">
-      <property name="name" nameId="tpck.1169194664001" value="qfsrWrapper" />
+      <property name="name" nameId="tpck.1169194664001" value="__mmTypeHandlers" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="7813981954389673816" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7813981954394222906" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="w7gk.4381394697205251840" resolveInfo="IQueryFromSqlRowRef" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4049344192145819603" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="w7gk.4049344192145533918" resolveInfo="MMTypeHandlers" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="7813981954389671292" nodeInfo="ngu" />
@@ -13913,9 +13913,9 @@
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7813981954389676412" nodeInfo="ir">
-        <property name="name" nameId="tpck.1169194664001" value="qfsr" />
-        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7813981954389677073" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="w7gk.7813981954359353789" resolveInfo="QueryFromSqlRowWrapper" />
+        <property name="name" nameId="tpck.1169194664001" value="typeHandlers" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4049344192145821599" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="w7gk.4049344192145533918" resolveInfo="MMTypeHandlers" />
         </node>
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="8009046666043401773" nodeInfo="in" />
@@ -13934,10 +13934,10 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7813981954389687079" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="7813981954389688399" nodeInfo="nn">
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7813981954389688490" nodeInfo="nn">
-              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7813981954389676412" resolveInfo="qfsr" />
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7813981954389676412" resolveInfo="typeHandlers" />
             </node>
             <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7813981954389687078" nodeInfo="nn">
-              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7813981954389673815" resolveInfo="qfsrWrapper" />
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7813981954389673815" resolveInfo="__mmTypeHandlers" />
             </node>
           </node>
         </node>
@@ -20202,13 +20202,13 @@
           <node role="attributes" roleId="iuxj.6666499814681415861" type="iuxj.XmlAttribute" typeId="iuxj.6666499814681447923" id="7813981954391339192" nodeInfo="ng">
             <property name="attrName" nameId="iuxj.6666499814681447926" value="id" />
             <node role="value" roleId="iuxj.6666499814681541918" type="iuxj.XmlTextValue" typeId="iuxj.6666499814681541919" id="7813981954391339193" nodeInfo="ng">
-              <property name="text" nameId="iuxj.6666499814681541920" value="_qsfrWrapper" />
+              <property name="text" nameId="iuxj.6666499814681541920" value="_mmTypeHandlers" />
             </node>
           </node>
           <node role="attributes" roleId="iuxj.6666499814681415861" type="iuxj.XmlAttribute" typeId="iuxj.6666499814681447923" id="7813981954391339194" nodeInfo="ng">
             <property name="attrName" nameId="iuxj.6666499814681447926" value="class" />
             <node role="value" roleId="iuxj.6666499814681541918" type="iuxj.XmlTextValue" typeId="iuxj.6666499814681541919" id="7813981954391339195" nodeInfo="ng">
-              <property name="text" nameId="iuxj.6666499814681541920" value="org.modellwerkstatt.manmap.solution.manmapRT.QueryFromSqlRowWrapper" />
+              <property name="text" nameId="iuxj.6666499814681541920" value="org.modellwerkstatt.manmap.solution.manmapRT.MMTypeHandlers" />
             </node>
           </node>
         </node>
