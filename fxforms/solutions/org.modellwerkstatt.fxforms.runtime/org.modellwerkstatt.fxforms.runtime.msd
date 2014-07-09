@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <solution name="org.modellwerkstatt.fxforms.runtime" uuid="1d2cdd29-56d5-4cde-8587-a18ac1c22af7" compileInMPS="true">
   <models>
-    <modelRoot contentPath="C:/moware/fxforms/languages/fxforms/jars" type="java_classes">
-      <sourceRoot location="apacheIcons.jar" />
-    </modelRoot>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="." />
     </modelRoot>
@@ -12,6 +9,9 @@
     </modelRoot>
     <modelRoot contentPath="${mps_home}/jre/lib" type="java_classes">
       <sourceRoot location="jfxrt.jar" />
+    </modelRoot>
+    <modelRoot contentPath="C:/moware35/fxforms/languages/fxforms/jars" type="java_classes">
+      <sourceRoot location="apacheIcons.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
