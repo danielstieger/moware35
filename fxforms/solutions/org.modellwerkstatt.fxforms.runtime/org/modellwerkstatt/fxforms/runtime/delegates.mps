@@ -28,7 +28,7 @@
   <import index="b86f" modelUID="f:java_stub#1d2cdd29-56d5-4cde-8587-a18ac1c22af7#javafx.scene.image(org.modellwerkstatt.fxforms.runtime/javafx.scene.image@java_stub)" version="-1" />
   <import index="3lcu" modelUID="f:java_stub#1d2cdd29-56d5-4cde-8587-a18ac1c22af7#javafx.scene.layout(org.modellwerkstatt.fxforms.runtime/javafx.scene.layout@java_stub)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" implicit="yes" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />

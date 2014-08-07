@@ -10,13 +10,13 @@
     <modelRoot contentPath="${mps_home}/jre/lib" type="java_classes">
       <sourceRoot location="jfxrt.jar" />
     </modelRoot>
-    <modelRoot contentPath="C:/moware35/fxforms/languages/fxforms/jars" type="java_classes">
+    <modelRoot contentPath="/Users/danielstieger/moware/fxforms/languages/fxforms/jars" type="java_classes">
       <sourceRoot location="apacheIcons.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${mps_home}/jre/lib/jfxrt.jar" />
-    <stubModelEntry path="C:/moware35/fxforms/languages/fxforms/jars/apacheIcons.jar" />
+    <stubModelEntry path="/Users/danielstieger/moware/fxforms/languages/fxforms/jars/apacheIcons.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
@@ -30,7 +30,6 @@
     <usedLanguage>fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)</usedLanguage>
     <usedLanguage>83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</usedLanguage>
     <usedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</usedLanguage>
-    <usedLanguage>502d5f4c-1dec-4049-be64-04512b4ce66d(org.modellwerkstatt.fxforms)</usedLanguage>
   </usedLanguages>
 </solution>
 

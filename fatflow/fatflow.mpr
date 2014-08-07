@@ -10,6 +10,9 @@
       <modulePath path="$PROJECT_DIR$/solutions/org.modellwerkstatt.fatflow.runtime/org.modellwerkstatt.fatflow.runtime.msd" folder="" />
     </projectModules>
   </component>
+  <component name="MPSProjectMigrationState">
+    <option name="step" value="1" />
+  </component>
   <component name="ProjectModuleManager">
     <modules />
   </component>
