@@ -13166,6 +13166,27 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5650962023206493270" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="5650962023206512878" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="5650962023206513067" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="******************************************************************************************" />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="5650962023206532896" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="5650962023206533086" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="TODO: Change that completley ...  if setEnabled() or setOptional() given within Delegate, do not " />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="5650962023206533294" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="5650962023206533486" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="TODO: take MetaInformation into account ... " />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="5650962023206533696" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="5650962023206533890" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="TODO: " />
+          </node>
+        </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5130395593885020387" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="defVal" />
