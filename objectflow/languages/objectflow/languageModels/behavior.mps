@@ -393,7 +393,7 @@
       </node>
     </node>
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="777542871648784396" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="getOFXKeyPropertyType" />
+      <property name="name" nameId="tpck.1169194664001" value="getOFXKeyPropertyAsType" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="777542871648784397" nodeInfo="nn" />
       <node role="returnType" roleId="tpee.1068580123133" type="tp25.SNodeType" typeId="tp25.1138055754698" id="777542871648784400" nodeInfo="in">
         <link role="concept" roleId="tp25.1138405853777" targetNodeId="tpee.1068431790189" resolveInfo="Type" />
@@ -1912,6 +1912,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="6016635605738076868" nodeInfo="nn">
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="e2lb.~Deprecated" resolveInfo="Deprecated" />
       </node>
     </node>
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="1410680821327167808" nodeInfo="ng">
@@ -6802,6 +6805,29 @@
         </node>
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="4313579457188731055" nodeInfo="sn" />
+    </node>
+    <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="6016635605732776967" nodeInfo="ng">
+      <property name="isAbstract" nameId="1i04.1225194472834" value="false" />
+      <property name="isVirtual" nameId="1i04.1225194472832" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="hasNoSuperClass" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6016635605732777119" nodeInfo="nn" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.BooleanType" typeId="tpee.1070534644030" id="6016635605732819469" nodeInfo="in" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6016635605732777121" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6016635605732822660" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6016635605732831711" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6016635605732823564" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tp25.SNodeTypeCastExpression" typeId="tp25.1140137987495" id="6016635605732822772" nodeInfo="nn">
+                <link role="concept" roleId="tp25.1140138128738" targetNodeId="tpee.1068390468198" resolveInfo="ClassConcept" />
+                <node role="leftExpression" roleId="tp25.1140138123956" type="1i04.ThisNodeExpression" typeId="1i04.1225194691553" id="6016635605732822659" nodeInfo="nn" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6016635605732828804" nodeInfo="nn">
+                <link role="link" roleId="tp25.1138056516764" targetNodeId="tpee.1165602531693" />
+              </node>
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_IsNullOperation" typeId="tp25.1171999116870" id="6016635605732834113" nodeInfo="nn" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="method" roleId="1i04.1225194240805" type="1i04.ConceptMethodDeclaration" typeId="1i04.1225194472830" id="2873275764285561497" nodeInfo="ng">
       <property name="isAbstract" nameId="1i04.1225194472834" value="false" />
