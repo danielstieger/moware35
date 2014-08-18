@@ -1405,5 +1405,12 @@
       </node>
     </node>
   </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="312461953123217046" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="save" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="r5tz.312461953123216608" resolveInfo="SaveOption" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="312461953123217264" nodeInfo="ng">
+      <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="tpco.2900100530630621651" resolveInfo="alias" />
+    </node>
+  </root>
 </model>
 

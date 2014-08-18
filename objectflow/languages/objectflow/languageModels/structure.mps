@@ -66,12 +66,15 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="propertyOption" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="3674496190757459060" resolveInfo="PropertyOption" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="r5tz.774207833082375238" resolveInfo="FieldOption" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6287236659904683502" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="documentation" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6525155817177697680" resolveInfo="OFXDocumentation" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="312461953122535144" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="r5tz.312461953122533452" resolveInfo="IOptionsProvider" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="271985905034983108" nodeInfo="ig">
@@ -453,19 +456,20 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject.Options" />
     <property name="name" nameId="tpck.1169194664001" value="PropertyOption" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="r5tz.774207833082375238" resolveInfo="FieldOption" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3674496190757459069" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject.Options" />
     <property name="name" nameId="tpck.1169194664001" value="KeyOption" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="KEY" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="3674496190757459060" resolveInfo="PropertyOption" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="312461953116573338" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3674496190758645956" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject.Options" />
     <property name="name" nameId="tpck.1169194664001" value="DeprecatedOption" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="DEPRECATED" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3674496190757459060" resolveInfo="PropertyOption" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="r5tz.774207833082375238" resolveInfo="FieldOption" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3674496190759055865" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Status" />
@@ -491,7 +495,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject.Options" />
     <property name="name" nameId="tpck.1169194664001" value="LengthOption" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="LENGTH" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3674496190757459060" resolveInfo="PropertyOption" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="r5tz.774207833082375238" resolveInfo="FieldOption" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8614254524338490550" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="min" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
@@ -1476,7 +1480,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject.Options" />
     <property name="name" nameId="tpck.1169194664001" value="OppositeOption" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="OPPOSITE" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3674496190757459060" resolveInfo="PropertyOption" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="r5tz.774207833082375238" resolveInfo="FieldOption" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3262649880240512220" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TestMethod" />
@@ -1578,7 +1582,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject.Options" />
     <property name="name" nameId="tpck.1169194664001" value="Containmentoption" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="CONTAINMENT" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3674496190757459060" resolveInfo="PropertyOption" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="r5tz.774207833082375238" resolveInfo="FieldOption" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1857682224740141072" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="businessProperty" />
@@ -1758,7 +1762,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject.Options" />
     <property name="name" nameId="tpck.1169194664001" value="RangeOption" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="RANGE" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3674496190757459060" resolveInfo="PropertyOption" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="r5tz.774207833082375238" resolveInfo="FieldOption" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="3517052249651130108" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="start" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="271985905035061743" resolveInfo="_DezimalNumberValue" />
@@ -1817,7 +1821,7 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject.Options" />
     <property name="name" nameId="tpck.1169194664001" value="NotPersistedOption" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="NOT_PERSIST_DIRTY_IRRELEVANT" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="3674496190757459060" resolveInfo="PropertyOption" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="r5tz.774207833082375238" resolveInfo="FieldOption" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6362637745398048173" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />

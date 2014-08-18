@@ -31,6 +31,7 @@
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
   <import index="tpdg" modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
+  <import index="bnk3" modelUID="r:9805308e-34d7-4576-b7d2-a758b4bd38a3(de.slisson.mps.tables.structure)" version="16" implicit="yes" />
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="1372017518093514489" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="un0u.1372017518093514468" resolveInfo="BusinessObject" />
@@ -84,30 +85,30 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3207218222598478167" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type=".de.slisson.mps.tables.structure.Table" id="3207218222561807328" nodeInfo="ng">
-        <node role="cells" type=".de.slisson.mps.tables.structure.ChildsVertical" id="3207218222561807399" nodeInfo="ng">
-          <link role="linkDeclaration" targetNodeId="un0u.3207218222495905601" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="bnk3.Table" typeId="bnk3.1397920687864683158" id="3207218222561807328" nodeInfo="ng">
+        <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsVertical" typeId="bnk3.1397920687865064415" id="3207218222561807399" nodeInfo="ng">
+          <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="un0u.3207218222495905601" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222561807736" nodeInfo="ng">
-          <property name="text" value="Type" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222561807736" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Type" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222561807738" nodeInfo="ng">
-          <property name="text" value="Name" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222561807738" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Name" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222561807741" nodeInfo="ng">
-          <property name="text" value="Short Desc" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222561807741" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Short Desc" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222561807745" nodeInfo="ng">
-          <property name="text" value="Long Desc" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222561807745" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Long Desc" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3701408894948031401" nodeInfo="ng">
-          <property name="text" value="Format" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3701408894948031401" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Format" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222561807750" nodeInfo="ng">
-          <property name="text" value="Options" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222561807750" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Options" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222561807756" nodeInfo="ng">
-          <property name="text" value="Documentation" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222561807756" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Documentation" />
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3674496190758055889" nodeInfo="nn">
@@ -363,15 +364,15 @@
         </node>
       </node>
     </node>
-    <node role="cellModel" roleId="tpc2.1080736633877" type=".de.slisson.mps.tables.structure.PartialTable" id="3207218222561807552" nodeInfo="ng">
-      <node role="cells" type=".de.slisson.mps.tables.structure.StaticHorizontal" id="3207218222561807584" nodeInfo="ng">
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="3207218222561807586" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3207218222561807590" nodeInfo="ng">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="3207218222561807552" nodeInfo="ng">
+      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticHorizontal" typeId="bnk3.1397920687864997153" id="3207218222561807584" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3207218222561807586" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3207218222561807590" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpee.1201371521209" />
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="3207218222561807596" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3207218222561807604" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3207218222561807596" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3207218222561807604" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpee.1201371481316" resolveInfo="propertyName" />
             <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.TextBackgroundColorStyleClassItem" typeId="tpc2.1214406454886" id="7930949789632830308" nodeInfo="nn">
               <node role="query" roleId="tpc2.1186403803051" type="tpc2.QueryFunction_Color" typeId="tpc2.1176809959526" id="7930949789632830312" nodeInfo="nn">
@@ -406,26 +407,26 @@
             </node>
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="3207218222561807612" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3207218222561807622" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3207218222561807612" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3207218222561807622" nodeInfo="ng">
             <property name="noTargetText" nameId="tpc2.1139852716018" value="..." />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.5770301300929026304" />
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="3207218222561807632" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3207218222561807644" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3207218222561807632" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3207218222561807644" nodeInfo="ng">
             <property name="noTargetText" nameId="tpc2.1139852716018" value="..." />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.5770301300929026308" />
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="3701408894948028603" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3701408894948030661" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3701408894948028603" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3701408894948030661" nodeInfo="ng">
             <property name="noTargetText" nameId="tpc2.1139852716018" value="..." />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.6057399400731215414" />
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="3207218222561807656" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="3207218222561807670" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3207218222561807656" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="3207218222561807670" nodeInfo="ng">
             <property name="separatorText" nameId="tpc2.1140524450557" value="," />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.3674496190757459099" />
             <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3207218222564426441" nodeInfo="nn">
@@ -434,8 +435,8 @@
             </node>
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="3207218222561807684" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3207218222561807700" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3207218222561807684" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3207218222561807700" nodeInfo="ng">
             <property name="noTargetText" nameId="tpc2.1139852716018" value="..." />
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.6287236659904683502" />
           </node>
@@ -682,24 +683,24 @@
         </node>
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="3140039561976618008" nodeInfo="nn" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type=".de.slisson.mps.tables.structure.Table" id="4153581803229528416" nodeInfo="ng">
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="7513369783952728039" nodeInfo="ng">
-          <property name="text" value="Name" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="bnk3.Table" typeId="bnk3.1397920687864683158" id="4153581803229528416" nodeInfo="ng">
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="7513369783952728039" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Name" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="4153581803229530774" nodeInfo="ng">
-          <property name="text" value="DB value" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="4153581803229530774" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="DB value" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="4153581803229530780" nodeInfo="ng">
-          <property name="text" value="Short label" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="4153581803229530780" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Short label" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="4153581803229530788" nodeInfo="ng">
-          <property name="text" value="Long label" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="4153581803229530788" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Long label" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3140039561980674412" nodeInfo="ng">
-          <property name="text" value="Documentation" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3140039561980674412" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Documentation" />
         </node>
-        <node role="cells" type=".de.slisson.mps.tables.structure.ChildsVertical" id="4153581803229530749" nodeInfo="ng">
-          <link role="linkDeclaration" targetNodeId="un0u.4533072425307715672" />
+        <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsVertical" typeId="bnk3.1397920687865064415" id="4153581803229530749" nodeInfo="ng">
+          <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="un0u.4533072425307715672" />
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4153581803239096943" nodeInfo="nn">
@@ -802,15 +803,15 @@
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="tpen.1215088010675" resolveInfo="RightParen" />
       </node>
     </node>
-    <node role="cellModel" roleId="tpc2.1080736633877" type=".de.slisson.mps.tables.structure.PartialTable" id="4153581803229544774" nodeInfo="ng">
-      <node role="cells" type=".de.slisson.mps.tables.structure.StaticHorizontal" id="4153581803229544776" nodeInfo="ng">
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="7513369783952728065" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7513369783952728080" nodeInfo="ng">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="4153581803229544774" nodeInfo="ng">
+      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticHorizontal" typeId="bnk3.1397920687864997153" id="4153581803229544776" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="7513369783952728065" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7513369783952728080" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="4153581803229544780" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7776782273680031008" nodeInfo="nn">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="4153581803229544780" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7776782273680031008" nodeInfo="nn">
             <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7776782273680031009" nodeInfo="nn" />
             <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7776782273680031012" nodeInfo="nn">
               <property name="text" nameId="tpc2.1073389577007" value="'" />
@@ -830,20 +831,20 @@
             </node>
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="4153581803229544788" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="4153581803229544789" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="4153581803229544788" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="4153581803229544789" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.1085421207787009238" resolveInfo="shortDesc" />
             <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="tpen.1186415563770" resolveInfo="StringLiteral" />
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="4153581803229544794" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="4153581803229544795" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="4153581803229544794" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="4153581803229544795" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.1085421207787009239" resolveInfo="longDesc" />
             <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="tpen.1186415563770" resolveInfo="StringLiteral" />
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="3140039561980674390" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3140039561980674404" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3140039561980674390" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3140039561980674404" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.3140039561980674369" />
           </node>
         </node>
@@ -1532,6 +1533,9 @@
         <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="tpco.2900100530630621651" resolveInfo="alias" />
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="1881524139088540315" resolveInfo="O2SubConcept" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationRightStyleClassItem" typeId="tpc2.1233759184865" id="7430902396495450047" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.StrikeOutStyleSheet" typeId="tpc2.1223386653097" id="312461953116582877" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
         </node>
       </node>
@@ -3607,30 +3611,30 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3207218222599597381" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type=".de.slisson.mps.tables.structure.Table" id="3207218222599597385" nodeInfo="ng">
-        <node role="cells" type=".de.slisson.mps.tables.structure.ChildsVertical" id="3207218222599597386" nodeInfo="ng">
-          <link role="linkDeclaration" targetNodeId="un0u.3207218222495905601" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="bnk3.Table" typeId="bnk3.1397920687864683158" id="3207218222599597385" nodeInfo="ng">
+        <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsVertical" typeId="bnk3.1397920687865064415" id="3207218222599597386" nodeInfo="ng">
+          <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="un0u.3207218222495905601" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597387" nodeInfo="ng">
-          <property name="text" value="Type" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597387" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Type" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597388" nodeInfo="ng">
-          <property name="text" value="Name" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597388" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Name" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597389" nodeInfo="ng">
-          <property name="text" value="Short Desc" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597389" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Short Desc" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597390" nodeInfo="ng">
-          <property name="text" value="Long Desc" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597390" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Long Desc" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3701408894948031367" nodeInfo="ng">
-          <property name="text" value="Format" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3701408894948031367" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Format" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597391" nodeInfo="ng">
-          <property name="text" value="Options" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597391" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Options" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597392" nodeInfo="ng">
-          <property name="text" value="Documentation" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597392" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Documentation" />
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8009046666042261483" nodeInfo="nn">
@@ -4271,30 +4275,30 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3207218222599597554" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type=".de.slisson.mps.tables.structure.Table" id="3207218222599597558" nodeInfo="ng">
-        <node role="cells" type=".de.slisson.mps.tables.structure.ChildsVertical" id="3207218222599597559" nodeInfo="ng">
-          <link role="linkDeclaration" targetNodeId="un0u.3207218222495905601" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="bnk3.Table" typeId="bnk3.1397920687864683158" id="3207218222599597558" nodeInfo="ng">
+        <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsVertical" typeId="bnk3.1397920687865064415" id="3207218222599597559" nodeInfo="ng">
+          <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="un0u.3207218222495905601" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597560" nodeInfo="ng">
-          <property name="text" value="Type" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597560" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Type" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597561" nodeInfo="ng">
-          <property name="text" value="Name" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597561" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Name" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597562" nodeInfo="ng">
-          <property name="text" value="Short Desc" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597562" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Short Desc" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597563" nodeInfo="ng">
-          <property name="text" value="Long Desc" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597563" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Long Desc" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3701408894948031349" nodeInfo="ng">
-          <property name="text" value="Format" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3701408894948031349" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Format" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597564" nodeInfo="ng">
-          <property name="text" value="Options" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597564" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Options" />
         </node>
-        <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3207218222599597565" nodeInfo="ng">
-          <property name="text" value="Documentation" />
+        <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3207218222599597565" nodeInfo="ng">
+          <property name="text" nameId="bnk3.1397920687864864274" value="Documentation" />
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5225022991485184105" nodeInfo="nn">
@@ -5756,20 +5760,20 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="896341873288730551" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="un0u.896341873288561770" resolveInfo="AsserTableRow" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type=".de.slisson.mps.tables.structure.PartialTable" id="896341873288730553" nodeInfo="ng">
-      <node role="cells" type=".de.slisson.mps.tables.structure.StaticHorizontal" id="896341873288730562" nodeInfo="ng">
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="3642974105795852557" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3642974105795852567" nodeInfo="nn">
+    <node role="cellModel" roleId="tpc2.1080736633877" type="bnk3.PartialTable" typeId="bnk3.1397920687865593407" id="896341873288730553" nodeInfo="ng">
+      <node role="cells" roleId="bnk3.1397920687865593523" type="bnk3.StaticHorizontal" typeId="bnk3.1397920687864997153" id="896341873288730562" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3642974105795852557" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3642974105795852567" nodeInfo="nn">
             <property name="text" nameId="tpc2.1073389577007" value="?" />
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="896341873288730564" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="896341873288730568" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="896341873288730564" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="896341873288730568" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.896341873288562138" />
           </node>
         </node>
-        <node role="childTableNodes" type=".de.slisson.mps.tables.structure.TableCell" id="896341873288730574" nodeInfo="ng">
-          <node role="editorCell" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="896341873288730582" nodeInfo="ng">
+        <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="896341873288730574" nodeInfo="ng">
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="896341873288730582" nodeInfo="ng">
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.896341873288562136" />
           </node>
         </node>
@@ -5784,18 +5788,18 @@
         <property name="text" nameId="tpc2.1073389577007" value="Table of conditions to pass ..." />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="896341873311132163" nodeInfo="nn">
-        <node role="childCellModel" roleId="tpc2.1073389446424" type=".de.slisson.mps.tables.structure.Table" id="896341873288730593" nodeInfo="ng">
-          <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="3642974105795852546" nodeInfo="ng">
-            <property name="text" value="Related Property" />
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="bnk3.Table" typeId="bnk3.1397920687864683158" id="896341873288730593" nodeInfo="ng">
+          <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="3642974105795852546" nodeInfo="ng">
+            <property name="text" nameId="bnk3.1397920687864864274" value="Related Property" />
           </node>
-          <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="896341873288730603" nodeInfo="ng">
-            <property name="text" value="Condition" />
+          <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="896341873288730603" nodeInfo="ng">
+            <property name="text" nameId="bnk3.1397920687864864274" value="Condition" />
           </node>
-          <node role="columnHeaders" type=".de.slisson.mps.tables.structure.StaticHeader" id="896341873288730609" nodeInfo="ng">
-            <property name="text" value="Description" />
+          <node role="columnHeaders" roleId="bnk3.1397920687864864726" type="bnk3.StaticHeader" typeId="bnk3.1397920687864864270" id="896341873288730609" nodeInfo="ng">
+            <property name="text" nameId="bnk3.1397920687864864274" value="Description" />
           </node>
-          <node role="cells" type=".de.slisson.mps.tables.structure.ChildsVertical" id="896341873288730598" nodeInfo="ng">
-            <link role="linkDeclaration" targetNodeId="un0u.896341873288730584" />
+          <node role="cells" roleId="bnk3.1397920687864865354" type="bnk3.ChildsVertical" typeId="bnk3.1397920687865064415" id="896341873288730598" nodeInfo="ng">
+            <link role="linkDeclaration" roleId="bnk3.1397920687864997201" targetNodeId="un0u.896341873288730584" />
           </node>
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="896341873318682897" nodeInfo="nn">

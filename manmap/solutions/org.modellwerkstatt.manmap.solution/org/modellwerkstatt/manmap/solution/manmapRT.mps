@@ -2501,7 +2501,7 @@
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5225022991482378895" nodeInfo="in">
               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="5382447973459065797" resolveInfo="M3ObjectKeyStore" />
               <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5225022991482405825" nodeInfo="in">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7923683811126400845" resolveInfo="MyEntity" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7923683811126400845" resolveInfo="MyDummyEntity" />
               </node>
               <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5225022991482405828" nodeInfo="in">
                 <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Integer" resolveInfo="Integer" />
@@ -2511,7 +2511,7 @@
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5225022991482378902" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5382447973459065799" resolveInfo="M3ObjectKeyStore" />
                 <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5225022991482405830" nodeInfo="in">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7923683811126400845" resolveInfo="MyEntity" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7923683811126400845" resolveInfo="MyDummyEntity" />
                 </node>
                 <node role="typeParameter" roleId="tpee.1212687122400" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5225022991482405832" nodeInfo="in">
                   <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Integer" resolveInfo="Integer" />
@@ -2524,11 +2524,11 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5225022991483407721" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="e" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5225022991483407722" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7923683811126400845" resolveInfo="MyEntity" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="7923683811126400845" resolveInfo="MyDummyEntity" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="5225022991483407724" nodeInfo="nn">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5225022991483407725" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7923683811126400847" resolveInfo="MyEntity" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7923683811126400847" resolveInfo="MyDummyEntity" />
               </node>
             </node>
           </node>
@@ -2776,7 +2776,7 @@
     </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="7923683811126400845" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="MyEntity" />
+    <property name="name" nameId="tpck.1169194664001" value="MyDummyEntity" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7923683811126400846" nodeInfo="nn" />
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7923683811126400851" nodeInfo="in">
       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6435836305144903484" resolveInfo="IM3Entity" />
@@ -2784,6 +2784,17 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Integer" resolveInfo="Integer" />
       </node>
     </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="312461953124801308" nodeInfo="igu">
+      <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="entitySessionUID" />
+      <property name="isFinal" nameId="tpee.1176718929932" value="true" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.IntegerType" typeId="tpee.1070534370425" id="312461953124782894" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="312461953124903516" nodeInfo="nn" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="312461953125048509" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580320021" value="4711" />
+      </node>
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="312461953124913976" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="7923683811126400847" nodeInfo="igu">
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="7923683811126400848" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7923683811126400849" nodeInfo="nn" />

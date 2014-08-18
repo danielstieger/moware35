@@ -529,6 +529,12 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="312461953123217536" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="options" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="312461953123216608" resolveInfo="SaveOption" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8172309840348863384" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="saveMapping" />
@@ -539,6 +545,7 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8172309840348863383" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="savetype" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="8172309840348863379" resolveInfo="SaveType" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="312461953123190122" nodeInfo="ig" />
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8172309840348950206" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8172309840348950202" resolveInfo="INeedsClassMapper" />
@@ -748,6 +755,17 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8510097166251501825" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8510097166208174348" resolveInfo="IDataBaseOperation" />
     </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="312461953122533452" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="mapping.fieldoptions" />
+    <property name="name" nameId="tpck.1169194664001" value="IOptionsProvider" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="312461953123216608" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="save" />
+    <property name="name" nameId="tpck.1169194664001" value="SaveOption" />
+    <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
+    <property name="final" nameId="tpce.4628067390765956807" value="false" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
   </root>
 </model>
 
