@@ -767,5 +767,61 @@
     <property name="final" nameId="tpce.4628067390765956807" value="false" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7925018510949439419" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="save" />
+    <property name="name" nameId="tpck.1169194664001" value="InsertSaveOption" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="INSERT" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="use always sql insert statement" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="312461953123216608" resolveInfo="SaveOption" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7925018510949442400" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="save" />
+    <property name="name" nameId="tpck.1169194664001" value="UpdateSaveOption" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="UPDATE" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="use always sql update statement" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="312461953123216608" resolveInfo="SaveOption" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7925018510949443157" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="save" />
+    <property name="name" nameId="tpck.1169194664001" value="SkipAuditSaveOption" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="SKIP AUDIT" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="do not audit even if dirty" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="312461953123216608" resolveInfo="SaveOption" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7925018510949444400" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="save" />
+    <property name="name" nameId="tpck.1169194664001" value="ForceAuditSaveOption" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="FORCE AUDIT" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="do audit even if not dirty" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="312461953123216608" resolveInfo="SaveOption" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7925018510953787849" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="mapping.fieldoptions" />
+    <property name="name" nameId="tpck.1169194664001" value="CreatedAtFieldOption" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="CREATEDAT" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="set timestamp on insert" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="774207833082375238" resolveInfo="FieldOption" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7925018510953790007" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="mapping.fieldoptions" />
+    <property name="name" nameId="tpck.1169194664001" value="CreatedByFieldOption" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="CREATEDBY" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="set userid on insert" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="774207833082375238" resolveInfo="FieldOption" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7925018510953791520" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="mapping.fieldoptions" />
+    <property name="name" nameId="tpck.1169194664001" value="UpdateAtFieldOption" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="UPDATEAT" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="set timestamp on update" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="774207833082375238" resolveInfo="FieldOption" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7925018510953792277" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="mapping.fieldoptions" />
+    <property name="name" nameId="tpck.1169194664001" value="UpdateByFieldOption" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="UPDATEDBY" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="set userid on update" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="774207833082375238" resolveInfo="FieldOption" />
+  </root>
 </model>
 

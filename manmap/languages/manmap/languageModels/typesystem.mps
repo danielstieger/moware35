@@ -1118,6 +1118,13 @@
           </node>
         </node>
       </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="7925018510955270983" nodeInfo="nn">
+        <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="7925018510955271054" nodeInfo="nn">
+          <property name="text" nameId="tpee.6329021646629104958" value="check auditing stuff ? " />
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="7925018510955271218" nodeInfo="nn" />
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="7925018510955271236" nodeInfo="nn" />
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="1287714018224135720" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="fm" />
@@ -1837,6 +1844,13 @@
           </node>
         </node>
       </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="7925018510962727434" nodeInfo="nn" />
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="7925018510962727689" nodeInfo="nn">
+        <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="7925018510962727877" nodeInfo="nn">
+          <property name="text" nameId="tpee.6329021646629104958" value="TODO: --------------- CHECKING RULE for insert/update force if not int given!!!! ---------------------" />
+        </node>
+      </node>
+      <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="7925018510962728419" nodeInfo="nn" />
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="8172309840348863414" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="swm" />

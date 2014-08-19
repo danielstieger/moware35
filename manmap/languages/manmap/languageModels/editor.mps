@@ -1205,8 +1205,14 @@
         <property name="text" nameId="tpc2.1073389577007" value="," />
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="tpen.1215094139260" resolveInfo="Semicolon" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="8172309840348913146" nodeInfo="ng">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="r5tz.8172309840348863383" resolveInfo="savetype" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="7925018510949465374" nodeInfo="ng">
+        <property name="separatorText" nameId="tpc2.1140524450557" value="," />
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="r5tz.312461953123217536" />
+        <node role="cellLayout" roleId="tpc2.1140524464360" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7925018510949465376" nodeInfo="nn" />
+        <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7925018510949466038" nodeInfo="nn">
+          <property name="text" nameId="tpc2.1073389577007" value="" />
+          <property name="nullText" nameId="tpc2.1082639509531" value="&lt;opt&gt;" />
+        </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8172309840348937481" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="(" />
@@ -1225,6 +1231,15 @@
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="8172309840348863390" nodeInfo="nn" />
+    </node>
+    <node role="inspectedCellModel" roleId="tpc2.1078153129734" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7925018510952501454" nodeInfo="nn">
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7925018510952501515" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="DEPRECATED save type:" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="7925018510952501953" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="r5tz.8172309840348863383" resolveInfo="savetype" />
+      </node>
+      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7925018510952501457" nodeInfo="nn" />
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8172309840349143200" nodeInfo="ng">

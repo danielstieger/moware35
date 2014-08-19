@@ -2127,6 +2127,7 @@
               <node role="expression" roleId="r5tz.8172309840348863385" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682207026" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6665012079371538542" resolveInfo="keyObj" />
               </node>
+              <node role="options" roleId="r5tz.312461953123217536" type="r5tz.InsertSaveOption" typeId="r5tz.7925018510949439419" id="7925018510952709679" nodeInfo="ng" />
             </node>
           </node>
           <node role="condition" roleId="tpee.1068580123160" type="tpee.OrExpression" typeId="tpee.1080223426719" id="37499631050941106" nodeInfo="nn">
@@ -2166,6 +2167,7 @@
                 <node role="expression" roleId="r5tz.8172309840348863385" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682206904" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6665012079371538542" resolveInfo="keyObj" />
                 </node>
+                <node role="options" roleId="r5tz.312461953123217536" type="r5tz.UpdateSaveOption" typeId="r5tz.7925018510949442400" id="7925018510952709681" nodeInfo="ng" />
               </node>
             </node>
           </node>
@@ -2356,6 +2358,7 @@
           <node role="expression" roleId="r5tz.8172309840348863385" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682207061" nodeInfo="nn">
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6665012079371707640" resolveInfo="stand" />
           </node>
+          <node role="options" roleId="r5tz.312461953123217536" type="r5tz.InsertSaveOption" typeId="r5tz.7925018510949439419" id="7925018510952709675" nodeInfo="ng" />
         </node>
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="6665012079371707639" nodeInfo="in" />
@@ -3096,6 +3099,7 @@
           <node role="expression" roleId="r5tz.8172309840348863385" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682207008" nodeInfo="nn">
             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6563128235560384095" resolveInfo="ks" />
           </node>
+          <node role="options" roleId="r5tz.312461953123217536" type="r5tz.InsertSaveOption" typeId="r5tz.7925018510949439419" id="7925018510952709673" nodeInfo="ng" />
         </node>
       </node>
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="6563128235560384094" nodeInfo="in" />
@@ -15738,6 +15742,7 @@
                     <node role="expression" roleId="r5tz.8172309840348863385" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682207129" nodeInfo="nn">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="37499631050496222" resolveInfo="it" />
                     </node>
+                    <node role="options" roleId="r5tz.312461953123217536" type="r5tz.InsertSaveOption" typeId="r5tz.7925018510949439419" id="7925018510952709677" nodeInfo="ng" />
                   </node>
                 </node>
                 <node role="parameter" roleId="tp2c.1199569906740" type="tp2q.SmartClosureParameterDeclaration" typeId="tp2q.1203518072036" id="37499631050496222" nodeInfo="ig">
