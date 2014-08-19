@@ -240,5 +240,17 @@
     </dependencies>
     <rename id="r5tz.8510097166208174348" type="CONCEPT" from="ISqlOperation" to="IDataBaseOperation" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="39" />
+    </dependencies>
+    <rename id="r5tz.7925018510953791520" type="CONCEPT" from="UpdateAtFieldOption" to="ModifiedAtFieldOption" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="40" />
+    </dependencies>
+    <rename id="r5tz.7925018510953792277" type="CONCEPT" from="UpdateByFieldOption" to="ModifiedByFieldOption" />
+  </StructureModification>
 </history>
 

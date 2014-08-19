@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="39">
+<model modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="41">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
@@ -7,7 +7,7 @@
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="39" implicit="yes" />
+  <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="41" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="871579071900124823" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="PersistenceDescription" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
@@ -811,15 +811,15 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7925018510953791520" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="mapping.fieldoptions" />
-    <property name="name" nameId="tpck.1169194664001" value="UpdateAtFieldOption" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="UPDATEAT" />
+    <property name="name" nameId="tpck.1169194664001" value="ModifiedAtFieldOption" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="MODIFIEDAT" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="set timestamp on update" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="774207833082375238" resolveInfo="FieldOption" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7925018510953792277" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="mapping.fieldoptions" />
-    <property name="name" nameId="tpck.1169194664001" value="UpdateByFieldOption" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="UPDATEDBY" />
+    <property name="name" nameId="tpck.1169194664001" value="ModifiedByFieldOption" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="MODIFIEDBY" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="set userid on update" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="774207833082375238" resolveInfo="FieldOption" />
   </root>

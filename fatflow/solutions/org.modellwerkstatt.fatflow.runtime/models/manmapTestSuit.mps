@@ -23,7 +23,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="39" implicit="yes" />
+  <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="41" implicit="yes" />
   <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="154" implicit="yes" />
   <root type="r5tz.PersistenceDescription" typeId="r5tz.871579071900124823" id="3572493221071361406" nodeInfo="ng">
     <node role="entityReference" roleId="r5tz.871579071900209323" type="r5tz.EntityReference" typeId="r5tz.871579071900209276" id="3572493221071361412" nodeInfo="ng">
@@ -683,6 +683,7 @@
             <node role="fieldName" roleId="r5tz.871579071900290535" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4251395634800280120" nodeInfo="nn">
               <property name="value" nameId="tpee.1070475926801" value="TXT_EAN" />
             </node>
+            <node role="mappingOption" roleId="r5tz.774207833082375248" type="r5tz.CreatedAtFieldOption" typeId="r5tz.7925018510953787849" id="8531475210682549364" nodeInfo="ng" />
           </node>
         </node>
       </node>
@@ -4243,6 +4244,7 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097032299" nodeInfo="nn" />
+      <node role="propertyOption" roleId="un0u.3674496190757459099" type="r5tz.CreatedAtFieldOption" typeId="r5tz.7925018510953787849" id="5234026095423011445" nodeInfo="ng" />
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="4747577502515364396" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="zzCreatedAtUid" />
@@ -4254,6 +4256,7 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097033141" nodeInfo="nn" />
+      <node role="propertyOption" roleId="un0u.3674496190757459099" type="r5tz.CreatedByFieldOption" typeId="r5tz.7925018510953790007" id="5234026095423011453" nodeInfo="ng" />
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="4747577502515364403" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="zzModifiedAt" />
@@ -4267,6 +4270,7 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097035793" nodeInfo="nn" />
+      <node role="propertyOption" roleId="un0u.3674496190757459099" type="r5tz.ModifiedAtFieldOption" typeId="r5tz.7925018510953791520" id="5234026095423011451" nodeInfo="ng" />
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="4747577502515364410" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="zzModifiedAtUid" />
@@ -4278,6 +4282,7 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097033717" nodeInfo="nn" />
+      <node role="propertyOption" roleId="un0u.3674496190757459099" type="r5tz.ModifiedByFieldOption" typeId="r5tz.7925018510953792277" id="5234026095423011459" nodeInfo="ng" />
     </node>
   </root>
   <root type="un0u.BusinessObject" typeId="un0u.1372017518093514468" id="6665012079371538387" nodeInfo="ig">
@@ -4343,7 +4348,7 @@
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="4747577502515714669" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="zzCreatedAt" />
-      <node role="type" roleId="tpee.1201371521209" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4747577502515714697" nodeInfo="in">
+      <node role="type" roleId="tpee.1201371521209" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6636951840085135872" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="26n1.~LocalDate" resolveInfo="LocalDate" />
       </node>
       <node role="propertyImplementation" roleId="tpee.1201372378714" type="tpee.DefaultPropertyImplementation" typeId="tpee.1201372606839" id="4747577502515714672" nodeInfo="ng">
@@ -4353,6 +4358,7 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097034577" nodeInfo="nn" />
+      <node role="propertyOption" roleId="un0u.3674496190757459099" type="r5tz.CreatedAtFieldOption" typeId="r5tz.7925018510953787849" id="5234026095423011447" nodeInfo="ng" />
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="4747577502515714676" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="zzCreatedAtUid" />
@@ -4364,11 +4370,12 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097032597" nodeInfo="nn" />
+      <node role="propertyOption" roleId="un0u.3674496190757459099" type="r5tz.CreatedByFieldOption" typeId="r5tz.7925018510953790007" id="5234026095423011455" nodeInfo="ng" />
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="4747577502515714683" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="zzModifiedAt" />
-      <node role="type" roleId="tpee.1201371521209" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4747577502515714698" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="26n1.~LocalDate" resolveInfo="LocalDate" />
+      <node role="type" roleId="tpee.1201371521209" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6636951840080950211" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="26n1.~DateTime" resolveInfo="DateTime" />
       </node>
       <node role="propertyImplementation" roleId="tpee.1201372378714" type="tpee.DefaultPropertyImplementation" typeId="tpee.1201372606839" id="4747577502515714686" nodeInfo="ng">
         <node role="defaultGetAccessor" roleId="tpee.1202065356069" type="tpee.DefaultGetAccessor" typeId="tpee.1202065242027" id="4747577502515714687" nodeInfo="ng" />
@@ -4377,6 +4384,7 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097035957" nodeInfo="nn" />
+      <node role="propertyOption" roleId="un0u.3674496190757459099" type="r5tz.ModifiedAtFieldOption" typeId="r5tz.7925018510953791520" id="5234026095423011449" nodeInfo="ng" />
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="4747577502515714690" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="zzModifiedAtUid" />
@@ -4388,6 +4396,7 @@
         </node>
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097032821" nodeInfo="nn" />
+      <node role="propertyOption" roleId="un0u.3674496190757459099" type="r5tz.ModifiedByFieldOption" typeId="r5tz.7925018510953792277" id="5234026095423011457" nodeInfo="ng" />
     </node>
   </root>
   <root type="un0u.BusinessObject" typeId="un0u.1372017518093514468" id="6665012079371707423" nodeInfo="ig">
@@ -4572,6 +4581,7 @@
       </node>
       <node role="type" roleId="tpee.1201371521209" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6665012079371707470" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097065940" nodeInfo="nn" />
+      <node role="propertyOption" roleId="un0u.3674496190757459099" type="r5tz.KeyOption" typeId="r5tz.774207833082557389" id="5234026095416576629" nodeInfo="ng" />
     </node>
     <node role="businessProperties" roleId="un0u.3207218222495905601" type="un0u.BusinessProperty" typeId="un0u.8396343267227475961" id="6665012079371707471" nodeInfo="ig">
       <property name="propertyName" nameId="tpee.1201371481316" value="kostenStelle" />
@@ -4583,6 +4593,7 @@
       </node>
       <node role="type" roleId="tpee.1201371521209" type="tpee.IntegerType" typeId="tpee.1070534370425" id="6665012079371707477" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6249102145097065941" nodeInfo="nn" />
+      <node role="propertyOption" roleId="un0u.3674496190757459099" type="r5tz.KeyOption" typeId="r5tz.774207833082557389" id="5234026095416577544" nodeInfo="ng" />
     </node>
   </root>
   <root type="un0u.TestCases" typeId="un0u.3262649880240512242" id="3262649880240975776" nodeInfo="ig">
