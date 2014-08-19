@@ -2253,8 +2253,11 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="un0u.3292003893123123200" resolveInfo="IsNull" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="3292003893123355005" nodeInfo="ng">
         <node role="templateNode" roleId="tpf8.1177093586806" type="tp68.InternalPartialInstanceMethodCall" typeId="tp68.1174294166120" id="3292003893123355008" nodeInfo="nn">
-          <property name="methodName" nameId="tp68.1174294288199" value="isNullasKey" />
+          <property name="methodName" nameId="tp68.1174294288199" value="equals" />
           <node role="returnType" roleId="tp68.1174313653259" type="tpee.BooleanType" typeId="tpee.1070534644030" id="3292003893123355010" nodeInfo="in" />
+          <node role="actualArgument" roleId="tp68.1174318197094" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7925018510948039841" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="" />
+          </node>
         </node>
       </node>
     </node>
@@ -21246,7 +21249,7 @@
         <property name="name" nameId="tpck.1169194664001" value="__manMapSession" />
         <property name="isFinal" nameId="tpee.1176718929932" value="false" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5697903518523442676" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="w7gk.3262649880242628495" resolveInfo="IManMapSession" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="w7gk.3262649880242628495" resolveInfo="IM3ManMapSession" />
         </node>
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8624114674907711753" nodeInfo="sn">
@@ -21811,7 +21814,7 @@
         <property name="name" nameId="tpck.1169194664001" value="doc" />
         <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4779674245233566336" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="w7gk.6435836305144903484" resolveInfo="IEntity" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="w7gk.6435836305144903484" resolveInfo="IM3Entity" />
           <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.CopySrcNodeMacro" typeId="tpf8.1114706874351" id="4779674245233566337" nodeInfo="nn">
             <node role="sourceNodeQuery" roleId="tpf8.1168024447342" type="tpf8.SourceSubstituteMacro_SourceNodeQuery" typeId="tpf8.1168024337012" id="4779674245233566338" nodeInfo="nn">
               <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4779674245233566339" nodeInfo="sn">
