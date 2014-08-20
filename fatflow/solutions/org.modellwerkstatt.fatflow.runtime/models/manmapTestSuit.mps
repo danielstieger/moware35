@@ -651,6 +651,12 @@
         <property name="value" nameId="tpee.1070475926801" value="MYENTITY" />
       </node>
       <node role="tableOption" roleId="r5tz.774207833082448730" type="r5tz.OptimisticOption" typeId="r5tz.774207833082448725" id="4251395634800279721" nodeInfo="ng" />
+      <node role="tableOption" roleId="r5tz.774207833082448730" type="r5tz.AlternativeTableName" typeId="r5tz.4388680175614537753" id="5337232230513257326" nodeInfo="ng">
+        <property name="variant" nameId="r5tz.4388680175614543797" value="SUGAR" />
+        <node role="tablename" roleId="r5tz.4388680175614543803" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5337232230513257328" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="SUGARMAPPING" />
+        </node>
+      </node>
       <node role="mapping" roleId="r5tz.4557816287827057767" type="r5tz.FieldMapping" typeId="r5tz.871579071900209251" id="4251395634800279732" nodeInfo="ng">
         <link role="property" roleId="r5tz.871579071900248751" targetNodeId="4251395634800197909" />
         <node role="fieldName" roleId="r5tz.871579071900290535" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4251395634800279733" nodeInfo="nn">
