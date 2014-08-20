@@ -2322,5 +2322,23 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1197027803184" resolveInfo="IOperation" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6855023620835054336" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.command" />
+    <property name="name" nameId="tpck.1169194664001" value="CheckedOutEntities" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="checked out" />
+    <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="entities checked out in session" />
+    <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/session.png" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6855023620835054339" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="businessObject" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="1372017518093514468" resolveInfo="BusinessObject" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6855023620835054337" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="keysOnly" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657063" resolveInfo="boolean" />
+    </node>
+  </root>
 </model>
 
