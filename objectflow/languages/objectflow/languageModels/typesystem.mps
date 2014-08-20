@@ -7595,5 +7595,31 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="un0u.8399801448178545728" resolveInfo="BatchTask" />
     </node>
   </root>
+  <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="6855023620829362804" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="typeof_ObjectMeta" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="6855023620829362805" nodeInfo="sn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateEquationStatement" typeId="tpd4.1174658326157" id="6855023620829406079" nodeInfo="nn">
+        <node role="rightExpression" roleId="tpd4.1174660783414" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="6855023620829406264" nodeInfo="ng">
+          <node role="normalType" roleId="tpd4.1185788644032" type="tp3r.Quotation" typeId="tp3r.1196350785113" id="6855023620829406260" nodeInfo="nn">
+            <node role="quotedNode" roleId="tp3r.1196350785114" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6855023620829406366" nodeInfo="in">
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.6855023620828202910" resolveInfo="IOFXMeta4Objects" />
+            </node>
+          </node>
+        </node>
+        <node role="leftExpression" roleId="tpd4.1174660783413" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="6855023620829406082" nodeInfo="ng">
+          <node role="normalType" roleId="tpd4.1185788644032" type="tpd4.TypeOfExpression" typeId="tpd4.1174657487114" id="6855023620829405920" nodeInfo="nn">
+            <node role="term" roleId="tpd4.1174657509053" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="6855023620829405959" nodeInfo="nn">
+              <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="6855023620829362807" resolveInfo="objectMeta" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="6855023620829362807" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="objectMeta" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="un0u.6855023620829296283" resolveInfo="ObjectMeta" />
+    </node>
+  </root>
 </model>
 

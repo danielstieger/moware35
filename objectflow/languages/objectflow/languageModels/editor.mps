@@ -6910,5 +6910,13 @@
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="6067283156584400676" nodeInfo="nn" />
     </node>
   </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6855023620829307855" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="un0u.6855023620829296283" resolveInfo="ObjectMeta" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6855023620829329832" nodeInfo="nn">
+      <property name="text" nameId="tpc2.1073389577007" value="#Meta" />
+      <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="4137166455007152119" resolveInfo="O2Meta" />
+    </node>
+  </root>
 </model>
 
