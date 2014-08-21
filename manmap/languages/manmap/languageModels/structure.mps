@@ -495,6 +495,10 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="refer to a field in result table" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="mappingReference" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8771400347576083753" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="option" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="8771400347576076552" resolveInfo="MappingReferenceOption" />
+    </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5159282717680535116" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="fieldMapping" />
@@ -511,6 +515,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="forcedClassifier" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1107461130800" resolveInfo="Classifier" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="8771400347576083755" nodeInfo="ig" />
     </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1974135804380344198" nodeInfo="ig">
@@ -822,6 +827,27 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="MODIFIEDBY" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="set userid on update" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="774207833082375238" resolveInfo="FieldOption" />
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="8771400347576076552" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="query" />
+    <property name="name" nameId="tpck.1169194664001" value="MappingReferenceOption" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="8771400347576076553" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="NOP" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="NOP" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="8771400347576083735" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="TO_LOCALDATE" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="TO_LOCALDATE" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="8771400347576083744" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="TO_LOWERCASE" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="TO_LOWERCASE" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="8771400347576083748" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="TO_UPPERCASE" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="TO_UPPERCASE" />
+    </node>
   </root>
 </model>
 
