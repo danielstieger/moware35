@@ -16679,7 +16679,7 @@
             <link role="fieldMapping" roleId="r5tz.7955334847797839919" targetNodeId="4747577502515364421" />
           </node>
           <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847804017765" nodeInfo="ng">
-            <property name="escapedValue" nameId="87nw.2557074442922438158" value=", \n\n    FROM " />
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value=", \n       \n    FROM " />
           </node>
           <node role="words" roleId="87nw.2557074442922392302" type="r5tz.SqlStringEntityRef" typeId="r5tz.7955334847797796413" id="7955334847802153506" nodeInfo="ng">
             <link role="entityMapping" roleId="r5tz.7955334847797830692" targetNodeId="7032039167864884661" resolveInfo="MapIntKeyObject" />
