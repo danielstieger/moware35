@@ -6,6 +6,7 @@
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
+  <language namespace="92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)" />
   <language-engaged-on-generation namespace="77d14628-0cd9-4192-8ee6-d86cbfeb4819(org.modellwerkstatt.fatflow)" />
   <import index="28jr" modelUID="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" version="-1" />
   <import index="epq1" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" version="-1" />
@@ -25,6 +26,7 @@
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="41" implicit="yes" />
   <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="154" implicit="yes" />
+  <import index="87nw" modelUID="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" version="5" implicit="yes" />
   <root type="r5tz.PersistenceDescription" typeId="r5tz.871579071900124823" id="3572493221071361406" nodeInfo="ng">
     <node role="entityReference" roleId="r5tz.871579071900209323" type="r5tz.EntityReference" typeId="r5tz.871579071900209276" id="3572493221071361412" nodeInfo="ng">
       <link role="classConcept" roleId="r5tz.871579071900209277" targetNodeId="1846102710291384051" resolveInfo="ProfZeile" />
@@ -1137,7 +1139,7 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3860064244149865369" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="7955334847799638223" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1954916302086849710" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="1954916302086849714" nodeInfo="nn">
             <node role="rValue" roleId="tpee.1068498886297" type="r5tz.QueryFromMap" typeId="r5tz.774207833082573402" id="1954916302086849717" nodeInfo="ng">
@@ -16639,6 +16641,107 @@
     </node>
     <node role="equalProperties" roleId="un0u.8009046666042261535" type="un0u.EqualPropertyReference" typeId="un0u.836579671456120410" id="4251395634800271155" nodeInfo="ng">
       <link role="property" roleId="un0u.836579671456120411" targetNodeId="4251395634800234525" />
+    </node>
+  </root>
+  <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="7955334847802153349" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="newTests" />
+    <property name="name" nameId="tpck.1169194664001" value="HelloWorld" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="7955334847804876412" nodeInfo="igu">
+      <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="mySql" />
+      <property name="isFinal" nameId="tpee.1176718929932" value="false" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="7955334847802153414" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="7955334847802153396" nodeInfo="nn" />
+      <node role="initializer" roleId="tpee.1068431790190" type="r5tz.SqlString" typeId="r5tz.7955334847797738396" id="7955334847802153475" nodeInfo="ng">
+        <node role="text" roleId="r5tz.7955334847797796239" type="87nw.Text" typeId="87nw.2557074442922380897" id="7955334847802153477" nodeInfo="ng">
+          <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847802153478" nodeInfo="ng">
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value="SELECT " />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="r5tz.SqlStringPropRef" typeId="r5tz.7955334847797796420" id="7955334847802153501" nodeInfo="ng">
+            <link role="fieldMapping" roleId="r5tz.7955334847797839919" targetNodeId="7032039167864884685" />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847802153502" nodeInfo="ng">
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value=",\n       " />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="r5tz.SqlStringPropRef" typeId="r5tz.7955334847797796420" id="7955334847804017755" nodeInfo="ng">
+            <link role="fieldMapping" roleId="r5tz.7955334847797839919" targetNodeId="6665012079371428189" />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847804017754" nodeInfo="ng">
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value=",\n       " />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="r5tz.SqlStringPropRef" typeId="r5tz.7955334847797796420" id="7955334847804017766" nodeInfo="ng">
+            <link role="fieldMapping" roleId="r5tz.7955334847797839919" targetNodeId="4747577502515364418" />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847804017874" nodeInfo="ng">
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value=",\n       " />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="r5tz.SqlStringPropRef" typeId="r5tz.7955334847797796420" id="7955334847804017861" nodeInfo="ng">
+            <link role="fieldMapping" roleId="r5tz.7955334847797839919" targetNodeId="4747577502515364421" />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847804017765" nodeInfo="ng">
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value=", \n\n    FROM " />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="r5tz.SqlStringEntityRef" typeId="r5tz.7955334847797796413" id="7955334847802153506" nodeInfo="ng">
+            <link role="entityMapping" roleId="r5tz.7955334847797830692" targetNodeId="7032039167864884661" resolveInfo="MapIntKeyObject" />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847802153507" nodeInfo="ng">
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value="\n    OUTER JOIN " />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="r5tz.SqlStringEntityRef" typeId="r5tz.7955334847797796413" id="7955334847804877001" nodeInfo="ng">
+            <link role="entityMapping" roleId="r5tz.7955334847797830692" targetNodeId="6665012079371707482" resolveInfo="MapKontoStand" />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847804877000" nodeInfo="ng">
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value=" on " />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="r5tz.SqlStringPropRef" typeId="r5tz.7955334847797796420" id="7955334847804877018" nodeInfo="ng">
+            <link role="fieldMapping" roleId="r5tz.7955334847797839919" targetNodeId="7032039167864884685" />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847804877017" nodeInfo="ng">
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value=" == " />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="r5tz.SqlStringPropRef" typeId="r5tz.7955334847797796420" id="7955334847804877093" nodeInfo="ng">
+            <link role="fieldMapping" roleId="r5tz.7955334847797839919" targetNodeId="6665012079371707494" />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847804877092" nodeInfo="ng">
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value="\n \n    WHERE " />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="r5tz.SqlStringPropRef" typeId="r5tz.7955334847797796420" id="7955334847802153536" nodeInfo="ng">
+            <link role="fieldMapping" roleId="r5tz.7955334847797839919" targetNodeId="7032039167864884685" />
+          </node>
+          <node role="words" roleId="87nw.2557074442922392302" type="87nw.Word" typeId="87nw.2557074442922438156" id="7955334847802153535" nodeInfo="ng">
+            <property name="escapedValue" nameId="87nw.2557074442922438158" value=" = '10'" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7955334847802153350" nodeInfo="nn" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="7955334847804876916" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="7955334847804876947" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticMethodDeclaration" typeId="tpee.1081236700938" id="7955334847804875681" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="main" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="7955334847804875683" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7955334847804875684" nodeInfo="nn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="7955334847804875685" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7955334847804875729" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7955334847804875725" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="7955334847804875726" nodeInfo="nn">
+              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="e2lb.~System" resolveInfo="System" />
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="e2lb.~System%dout" resolveInfo="out" />
+            </node>
+            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7955334847804875727" nodeInfo="nn">
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="7955334847804876298" nodeInfo="nn">
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7955334847804876505" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7955334847804876412" resolveInfo="mySql" />
+                </node>
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7955334847804875728" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1070475926801" value="&gt;" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>
