@@ -10,13 +10,13 @@
     <modelRoot contentPath="${mps_home}/jre/lib" type="java_classes">
       <sourceRoot location="jfxrt.jar" />
     </modelRoot>
-    <modelRoot contentPath="/Users/danielstieger/moware/fxforms/languages/fxforms/jars" type="java_classes">
+    <modelRoot contentPath="C:/moware35/fxforms/languages/fxforms/jars" type="java_classes">
       <sourceRoot location="apacheIcons.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${mps_home}/jre/lib/jfxrt.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/fxforms/languages/fxforms/jars/apacheIcons.jar" />
+    <stubModelEntry path="C:/moware35/fxforms/languages/fxforms/jars/apacheIcons.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
