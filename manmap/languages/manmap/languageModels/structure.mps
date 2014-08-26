@@ -585,7 +585,6 @@
       <property name="role" nameId="tpce.1071599776563" value="entityMapping" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="871579071900209258" resolveInfo="EntityMapping" />
-      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="1766436229143495852" nodeInfo="ig" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8172309840349143193" nodeInfo="ig">
@@ -865,8 +864,8 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7955334847803172050" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.3734116213129792499" resolveInfo="ScopeProvider" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1766436229143495859" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8172309840348950202" resolveInfo="INeedsClassMapper" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1766436229151057099" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8510097166208174348" resolveInfo="IDataBaseOperation" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7955334847797796413" nodeInfo="ig">
