@@ -4,7 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="." />
     </modelRoot>
-    <modelRoot contentPath="/Users/danielstieger/moware/objectflow/languages/objectflow/jars" type="java_classes">
+    <modelRoot contentPath="${mowareHome}/objectflow/languages/objectflow/jars" type="java_classes">
       <sourceRoot location="mail/mailapi.jar" />
       <sourceRoot location="mail/smtp.jar" />
       <sourceRoot location="printing/avalon-framework-4.2.0.jar" />
@@ -27,29 +27,29 @@
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/mail/mailapi.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/mail/smtp.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/avalon-framework-4.2.0.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/barcode4j-fop-ext-complete.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/batik-all-1.7.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/commons-io-1.3.1.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/fop.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/serializer-2.7.0.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/xalan-2.7.0.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/xercesImpl-2.7.1.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/xml-apis-1.3.04.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/xml-apis-ext-1.3.04.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/printing/xmlgraphics-commons-1.4.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/zoo/slf4j-api-1.6.1.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/zoo/slf4j-log4j12-1.6.1.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/zoo/zookeeper-3.4.5.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/commons-logging-1.0.4.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/log4j.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/ojdbc14.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/org.springframework.aop-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/org.springframework.asm-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/org.springframework.context-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="/Users/danielstieger/moware/objectflow/languages/objectflow/jars/org.springframework.expression-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/mail/mailapi.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/mail/smtp.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/avalon-framework-4.2.0.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/barcode4j-fop-ext-complete.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/batik-all-1.7.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/commons-io-1.3.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/fop.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/serializer-2.7.0.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/xalan-2.7.0.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/xercesImpl-2.7.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/xml-apis-1.3.04.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/xml-apis-ext-1.3.04.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/xmlgraphics-commons-1.4.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/slf4j-api-1.6.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/slf4j-log4j12-1.6.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/zookeeper-3.4.5.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/commons-logging-1.0.4.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/log4j.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/ojdbc14.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.aop-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.asm-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.context-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.expression-3.0.5.RELEASE.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

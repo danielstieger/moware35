@@ -1067,6 +1067,29 @@
         </node>
       </node>
     </node>
+    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="83671669573904504" nodeInfo="ng">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="r5tz.7955334847797738396" resolveInfo="SqlString" />
+      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="83671669573926060" nodeInfo="ng">
+        <node role="templateNode" roleId="tpf8.1177093586806" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="83671669573926066" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="SQL" />
+          <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.PropertyMacro" typeId="tpf8.1087833241328" id="83671669573926087" nodeInfo="nn">
+            <property name="propertyName" nameId="tpck.1757699476691236117" value="value" />
+            <node role="propertyValueFunction" roleId="tpf8.1167756362303" type="tpf8.PropertyMacro_GetPropertyValue" typeId="tpf8.1167756080639" id="83671669573926088" nodeInfo="nn">
+              <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="83671669573926089" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="83671669573926434" nodeInfo="nn">
+                  <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="83671669573926726" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="83671669573926433" nodeInfo="nn" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="83671669573969292" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="lfe3.7955334847804028212" resolveInfo="printSql" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="7145888567854004075" nodeInfo="ng">
       <property name="keepSourceRoot" nameId="tpf8.1177959072138" value="true" />
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="r5tz.871579071900124823" resolveInfo="PersistenceDescription" />
@@ -15742,7 +15765,7 @@
                                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="fxg7.~PrintStream%dprintln(java%dlang%dString)%cvoid" resolveInfo="println" />
                                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="4989738089868270886" nodeInfo="nn">
                                     <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="881350737332598272" nodeInfo="nn">
-                                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4989738089868270909" resolveInfo="e" />
+                                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4989738089868270909" resolveInfo="mapping" />
                                     </node>
                                     <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4989738089868270888" nodeInfo="nn">
                                       <property name="value" nameId="tpee.1070475926801" value="##  hasField? " />
@@ -15762,7 +15785,7 @@
                                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4989738089868270816" resolveInfo="outputModelClass" />
                                 </node>
                                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="881350737332606147" nodeInfo="nn">
-                                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4989738089868270909" resolveInfo="e" />
+                                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4989738089868270909" resolveInfo="mapping" />
                                 </node>
                               </node>
                               <node role="operand" roleId="tpee.1197027771414" type="tp25.ConceptRefExpression" typeId="tp25.1172424058054" id="881350737332606148" nodeInfo="nn">
@@ -15778,7 +15801,7 @@
                                 </node>
                                 <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="4989738089868270898" nodeInfo="nn">
                                   <node role="argument" roleId="tp2q.1160612519549" type="tpee.VariableReference" typeId="tpee.1068498886296" id="881350737332597933" nodeInfo="nn">
-                                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4989738089868270909" resolveInfo="e" />
+                                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4989738089868270909" resolveInfo="mapping" />
                                   </node>
                                 </node>
                               </node>
@@ -15810,7 +15833,7 @@
                         </node>
                       </node>
                       <node role="parameter" roleId="tp2c.1199569906740" type="tp2q.SmartClosureParameterDeclaration" typeId="tp2q.1203518072036" id="4989738089868270909" nodeInfo="ig">
-                        <property name="name" nameId="tpck.1169194664001" value="e" />
+                        <property name="name" nameId="tpck.1169194664001" value="mapping" />
                         <node role="type" roleId="tpee.5680397130376446158" type="tpee.UndefinedType" typeId="tpee.4836112446988635817" id="4989738089868270910" nodeInfo="in" />
                       </node>
                     </node>
