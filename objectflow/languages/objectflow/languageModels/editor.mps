@@ -123,6 +123,9 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3674496190758486114" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="object identity (overwrite equals() method):" />
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="8396343267227427339" resolveInfo="O2Section" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.StrikeOutStyleSheet" typeId="tpc2.1223386653097" id="3029495087397877390" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="3674496190758486118" nodeInfo="ng">
         <property name="separatorText" nameId="tpc2.1140524450557" value="," />
@@ -4313,6 +4316,9 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5225022991485184168" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="object identity (overwrite equals() method):" />
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="8396343267227427339" resolveInfo="O2Section" />
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.StrikeOutStyleSheet" typeId="tpc2.1223386653097" id="3029495087397877473" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="5225022991485184171" nodeInfo="ng">
         <property name="separatorText" nameId="tpc2.1140524450557" value="," />
