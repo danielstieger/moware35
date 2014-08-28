@@ -3734,7 +3734,7 @@
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3049915174232871138" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3049915174232871139" nodeInfo="nn" />
       <node role="description" roleId="un0u.3262649880240512230" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3049915174232871140" nodeInfo="nn">
-        <property name="value" nameId="tpee.1070475926801" value="Reference Support" />
+        <property name="value" nameId="tpee.1070475926801" value="Reference Support - Statdessen META für Virtual PRoperties :)" />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3049915174232871141" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="3049915174232883035" nodeInfo="nn">
