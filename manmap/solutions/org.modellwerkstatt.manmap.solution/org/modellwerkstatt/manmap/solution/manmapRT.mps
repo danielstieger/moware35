@@ -4825,6 +4825,9 @@
         </node>
       </node>
     </node>
+    <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="5505918508545638687" nodeInfo="nn">
+      <link role="annotation" roleId="tpee.1188208074048" targetNodeId="e2lb.~Deprecated" resolveInfo="Deprecated" />
+    </node>
   </root>
   <root type="tpee.Interface" typeId="tpee.1107796713796" id="4381394697205251840" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="IQueryFromSqlRowRef" />
