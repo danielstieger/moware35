@@ -21327,7 +21327,7 @@
       </node>
     </node>
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402061185" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertable" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertableAttribute" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402068902" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="5650962023206346502" resolveInfo="OFXInteger" />
       </node>
@@ -22296,7 +22296,7 @@
       </node>
     </node>
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742401983389" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertable" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertableAttribute" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402009751" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="4462882429075330611" resolveInfo="OFXBigDecimal" />
       </node>
@@ -23031,7 +23031,7 @@
       </node>
     </node>
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402205402" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertable" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertableAttribute" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402290658" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="4462882429075734312" resolveInfo="OFXString" />
       </node>
@@ -23658,7 +23658,7 @@
       </node>
     </node>
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402023217" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertable" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertableAttribute" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402029246" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="4462882429075865531" resolveInfo="OFXDateTime" />
       </node>
@@ -24284,7 +24284,7 @@
       </node>
     </node>
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6016635605736291212" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertable" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertableAttribute" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6016635605736294748" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="4462882429075954955" resolveInfo="OFXLocalDate" />
       </node>
@@ -25410,7 +25410,7 @@
       </node>
     </node>
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402107399" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertable" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertableAttribute" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402132663" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605730076168" resolveInfo="OFXKeyReference" />
         <node role="parameter" roleId="tpee.1109201940907" type="tpee.TypeVariableReference" typeId="tpee.1109283449304" id="2499707742405690156" nodeInfo="in">
@@ -25691,7 +25691,7 @@
       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="3614537725517403691" resolveInfo="IOFXMetaBasis" />
     </node>
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402309307" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertable" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertableAttribute" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402310701" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605731062983" resolveInfo="OFXVirtualProperty" />
       </node>
@@ -26598,7 +26598,7 @@
   </root>
   <root type="tpee.Interface" typeId="tpee.1107796713796" id="6016635605736287361" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXArchitecture" />
-    <property name="name" nameId="tpck.1169194664001" value="IOFXRevertable" />
+    <property name="name" nameId="tpck.1169194664001" value="IOFXRevertableAttribute" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="6016635605736287372" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="6016635605736287388" nodeInfo="igu">
       <property name="isAbstract" nameId="tpee.1178608670077" value="true" />
@@ -26625,6 +26625,38 @@
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6016635605736287362" nodeInfo="nn" />
     <node role="typeVariableDeclaration" roleId="tpee.1109279881614" type="tpee.TypeVariableDeclaration" typeId="tpee.1109279763828" id="6016635605736287377" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="T" />
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="5505918508533099996" nodeInfo="ng">
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="5505918508533099997" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="5505918508533099998" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="All attributes implment this revertable interface. " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="5505918508533100041" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="5505918508533100042" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="Since OPFXAttributes do not inherit from each other," />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="5505918508533100060" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="5505918508533100061" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="the copy() method signature does not have to be kept constant. " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="5505918508533100068" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="5505918508533100069" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="" />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="5505918508533100078" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="5505918508533100079" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="" />
+        </node>
+      </node>
+      <node role="param" roleId="m373.2068944020170241614" type="m373.ParameterBlockDocTag" typeId="m373.8465538089690881930" id="5505918508533099999" nodeInfo="ng">
+        <node role="parameter" roleId="m373.6832197706140518123" type="m373.DocTypeParameterReference" typeId="m373.6832197706140518107" id="5505918508533100001" nodeInfo="ng">
+          <link role="param" roleId="m373.6832197706140518108" targetNodeId="6016635605736287377" resolveInfo="T" />
+        </node>
+      </node>
     </node>
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="6016635605738433336" nodeInfo="ig">
@@ -27073,7 +27105,7 @@
       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="3614537725517403691" resolveInfo="IOFXMetaBasis" />
     </node>
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402302068" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertable" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertableAttribute" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402305233" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605738433336" resolveInfo="OFXValueObject" />
         <node role="parameter" roleId="tpee.1109201940907" type="tpee.TypeVariableReference" typeId="tpee.1109283449304" id="2499707742405645958" nodeInfo="in">
@@ -27466,7 +27498,7 @@
       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="3614537725517403691" resolveInfo="IOFXMetaBasis" />
     </node>
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402155407" nodeInfo="in">
-      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertable" />
+      <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605736287361" resolveInfo="IOFXRevertableAttribute" />
       <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2499707742402164759" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="6016635605740792699" resolveInfo="OFXList" />
         <node role="parameter" roleId="tpee.1109201940907" type="tpee.TypeVariableReference" typeId="tpee.1109283449304" id="2499707742405656904" nodeInfo="in">
@@ -27569,6 +27601,51 @@
       </node>
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6944070492441314850" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6944070492441314851" nodeInfo="sn" />
+    </node>
+  </root>
+  <root type="tpee.Interface" typeId="tpee.1107796713796" id="5505918508533032092" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXArchitecture" />
+    <property name="name" nameId="tpck.1169194664001" value="IOFXRevertableObject" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="5505918508533032093" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="5505918508533032094" nodeInfo="igu">
+      <property name="isAbstract" nameId="tpee.1178608670077" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="load" />
+      <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5505918508533032095" nodeInfo="ir">
+        <property name="name" nameId="tpck.1169194664001" value="t" />
+        <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5505918508533087695" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="5505918508533032092" resolveInfo="IOFXRevertableObject" />
+        </node>
+      </node>
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="5505918508533032097" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5505918508533032098" nodeInfo="nn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5505918508533032099" nodeInfo="sn" />
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="5505918508533032100" nodeInfo="igu">
+      <property name="isAbstract" nameId="tpee.1178608670077" value="true" />
+      <property name="name" nameId="tpck.1169194664001" value="copy" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5505918508533087783" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="5505918508533032092" resolveInfo="IOFXRevertableObject" />
+      </node>
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5505918508533032102" nodeInfo="nn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5505918508533032103" nodeInfo="sn" />
+    </node>
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5505918508533032104" nodeInfo="nn" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="5505918508533087895" nodeInfo="ng">
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="5505918508533087896" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="5505918508533087897" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="Entity, ValueObject and ViewObjects implement the IOFXRevertableObject " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="5505918508533087939" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="5505918508533087940" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="interface. Since inheritance is supported within these objects, the " />
+        </node>
+      </node>
+      <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="5505918508533087945" nodeInfo="ng">
+        <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="5505918508533087946" nodeInfo="ng">
+          <property name="text" nameId="m373.8970989240999019144" value="method signature of copy() has to be kept constant. " />
+        </node>
+      </node>
     </node>
   </root>
 </model>
