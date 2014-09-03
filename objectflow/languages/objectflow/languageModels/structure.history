@@ -342,5 +342,23 @@
     </dependencies>
     <rename id="un0u.4518330267516957488" type="CONCEPT" from="PermissionListFunc" to="ScopeFunc" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="154" />
+    </dependencies>
+    <rename id="un0u.478945708906902060" type="CONCEPT" from="IOFXConfigurationElement" to="IOFXConfigElement" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="155" />
+    </dependencies>
+    <rename id="un0u.478945708906770773" type="CONCEPT" from="OFXConfiguration" to="OFXConfig" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="156" />
+    </dependencies>
+    <rename id="un0u.478945708937917702" type="CHILD" from="options" to="values" />
+  </StructureModification>
 </history>
 
