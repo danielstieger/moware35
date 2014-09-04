@@ -511,18 +511,6 @@
       </node>
     </node>
   </root>
-  <root type="un0u.Configuration" typeId="un0u.8537348545916279017" id="594565203028873731" nodeInfo="ng">
-    <property name="driver" nameId="un0u.8537348545916385363" value="oracle.jdbc.driver.OracleDriver" />
-    <property name="uri" nameId="un0u.8537348545916385362" value="jdbc:oracle:thin:@//lola:1521/LOLA" />
-    <property name="name" nameId="tpck.1169194664001" value="Basis" />
-    <property name="username" nameId="un0u.8537348545916385360" value="reko" />
-    <property name="password" nameId="un0u.8537348545916385361" value="test" />
-    <property name="jmxuri" nameId="un0u.8603748575145006884" value=" " />
-    <property name="maxPoolSize" nameId="un0u.3517052249650441955" value="1" />
-    <node role="logConfiguration" roleId="un0u.830334255848383637" type="un0u.LogConfiguration" typeId="un0u.830334255848344169" id="594565203028873732" nodeInfo="ng">
-      <property name="packageName" nameId="un0u.830334255848344170" value="java.sql" />
-    </node>
-  </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="594565203028873733" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ServerTimeTest" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="594565203028873734" nodeInfo="nn" />
@@ -1675,7 +1663,6 @@
   </root>
   <root type="un0u.TestCases" typeId="un0u.3262649880240512242" id="8831959791090583145" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="OFXProcessTests" />
-    <link role="configuration" roleId="un0u.3262649880241442785" targetNodeId="594565203028873731" resolveInfo="Basis" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="8831959791090583163" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="procDocument" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="8831959791090583164" nodeInfo="nn" />
@@ -3609,7 +3596,6 @@
   </root>
   <root type="un0u.TestCases" typeId="un0u.3262649880240512242" id="5225022991483804125" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="OFXInfraTests" />
-    <link role="configuration" roleId="un0u.3262649880241442785" targetNodeId="594565203028873731" resolveInfo="Basis" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3642974105802375408" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="session" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="3642974105802375409" nodeInfo="nn" />
@@ -4931,7 +4917,6 @@
   </root>
   <root type="un0u.TestCases" typeId="un0u.3262649880240512242" id="1410680821329850012" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="MetaInformationTestCases" />
-    <link role="configuration" roleId="un0u.3262649880241442785" targetNodeId="594565203028873731" resolveInfo="Basis" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1410680821329850013" nodeInfo="nn" />
     <node role="testMethod" roleId="un0u.3262649880240512254" type="un0u.TestMethod" typeId="un0u.3262649880240512220" id="1410680821329850014" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="TEST_0" />
@@ -7530,7 +7515,6 @@
   <root type="un0u.TestCases" typeId="un0u.3262649880240512242" id="3701408894981264543" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="NEW_AKT" />
     <property name="name" nameId="tpck.1169194664001" value="T1_Command_Exception_Cancel_Tests" />
-    <link role="configuration" roleId="un0u.3262649880241442785" targetNodeId="594565203028873731" resolveInfo="Basis" />
     <node role="testMethod" roleId="un0u.3262649880240512254" type="un0u.TestMethod" typeId="un0u.3262649880240512220" id="7116957854515113363" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="TEST_4" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="7116957854515113364" nodeInfo="in" />

@@ -113,11 +113,8 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068580123165" resolveInfo="InstanceMethodDeclaration" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7926373352206491739" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7926373352206491737" resolveInfo="IRuntimeHandled" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="594565203028886136" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5424515722163903030" resolveInfo="IHandlesSession" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7206853901731286580" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2665553595316142000" resolveInfo="IO2RTComponent" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6135709767654760052" nodeInfo="ig">
@@ -328,13 +325,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7926373352206617601" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1204053956946" resolveInfo="IMethodCall" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8537348545918708199" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8537348545918708126" resolveInfo="IRequireRuntimeService" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7206853901732772441" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5697903518480686122" resolveInfo="IO2ResultsInRTComponentCall" />
     </node>
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7926373352206491737" nodeInfo="ig">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Service" />
-    <property name="name" nameId="tpck.1169194664001" value="IRuntimeHandled" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8537348545916279017" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Configuration" />
@@ -398,9 +391,6 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="478945708906907649" nodeInfo="ig" />
-  </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8537348545918708126" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="IRequireRuntimeService" />
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="830334255848173433" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="LogLevels" />
@@ -1418,11 +1408,8 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8009046666043401705" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="r5tz.774207833082651879" resolveInfo="IRepository" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8009046666043458556" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7926373352206491737" resolveInfo="IRuntimeHandled" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="37499631050496377" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5424515722163903030" resolveInfo="IHandlesSession" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7206853901731309102" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2665553595316142000" resolveInfo="IO2RTComponent" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8009046666043401704" nodeInfo="ig">
@@ -1841,9 +1828,6 @@
       <property name="role" nameId="tpce.1071599776563" value="characteristics" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3140039561983767668" resolveInfo="VariantCharacteristic" />
-    </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6362637745421328047" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8537348545918708126" resolveInfo="IRequireRuntimeService" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="896341873288561769" nodeInfo="ig">

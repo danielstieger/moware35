@@ -25335,7 +25335,7 @@
   <root type="un0u.OFXConfig" typeId="un0u.478945708906770773" id="3526396426306949532" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
     <property name="name" nameId="tpck.1169194664001" value="LolaTestConfig" />
-    <property name="lastUpdated" nameId="un0u.3526396426252206723" value="2014-09-04T15:16:24.754+01:00" />
+    <property name="lastUpdated" nameId="un0u.3526396426252206723" value="2014-09-04T16:32:28.497+01:00" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInclude" typeId="un0u.478945708907022307" id="3526396426306949533" nodeInfo="ng">
       <link role="element" roleId="un0u.478945708907022310" targetNodeId="6dvb.478945708942367565" resolveInfo="MPREIS_LoLa_Pool1" />
       <node role="properties" roleId="un0u.478945708912703715" type="un0u.OFXConfigPropOverwrite" typeId="un0u.3526396426289727497" id="3526396426306950146" nodeInfo="ng">
@@ -25364,99 +25364,99 @@
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="3526396426306950227" nodeInfo="ng" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigSection" typeId="un0u.478945708906907667" id="3526396426306950238" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="AUTO_CALC" />
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411560" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634956" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProfZeile" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411561" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634957" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProfZeile" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411562" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634958" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProforma" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411563" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634959" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProforma" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411564" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634960" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapExtendedProforma" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411565" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634961" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapExtendedProforma" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411566" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634962" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject_VARIANTS" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411567" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634963" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject_VARIANTS" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411568" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634964" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411569" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634965" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411570" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634966" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObjectREF" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411571" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634967" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObjectREF" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411572" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634968" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapStringKeyObject" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411573" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634969" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapStringKeyObject" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411574" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634970" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStand" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411575" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634971" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStand" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411576" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634972" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObject" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411577" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634973" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObject" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411578" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634974" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectKontoStand" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411579" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634975" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectKontoStand" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411580" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634976" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStandChild" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411581" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634977" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStandChild" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411582" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634978" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectParent" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411583" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634979" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectParent" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411584" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634980" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectDouble" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411585" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634981" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectDouble" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411586" nodeInfo="ng">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634982" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapMyEntity" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411587" nodeInfo="nn">
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634983" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapMyEntity" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411588" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="__testModelRepo" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411589" nodeInfo="nn">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634984" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="__manmapTestSuit_TestModelRepo" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634985" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.TestModelRepo" />
         </node>
       </node>
-      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901715411590" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="__complexQueries" />
-        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901715411591" nodeInfo="nn">
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7206853901741634986" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="__manmapTestSuit_ComplexQueries" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7206853901741634987" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.ComplexQueries" />
         </node>
       </node>
