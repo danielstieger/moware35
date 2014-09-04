@@ -1640,8 +1640,8 @@
     <property name="name" nameId="tpck.1169194664001" value="DEP_TestScript" />
     <property name="title" nameId="tp33.1177457669450" value="LOOKUP ___ RootConceptsChecker" />
     <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="6693209993724690332" nodeInfo="ng">
-      <property name="description" nameId="tp33.1177457972041" value="Search for IHandleSession Concepts" />
-      <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="un0u.5424515722163903030" resolveInfo="IHandlesSession" />
+      <property name="description" nameId="tp33.1177457972041" value="Convert OFXPropertery" />
+      <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="un0u.478945708907022269" resolveInfo="OFXConfigProperty" />
       <node role="affectedInstanceUpdater" roleId="tp33.1177458005323" type="tp33.MigrationScriptPart_Instance_Updater" typeId="tp33.1177458491964" id="6693209993724690334" nodeInfo="nn">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6693209993724690336" nodeInfo="sn" />
       </node>

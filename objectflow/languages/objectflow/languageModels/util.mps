@@ -3702,7 +3702,7 @@
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="478945708961241672" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="478945708961240863" nodeInfo="nn" />
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="478945708961241716" nodeInfo="nn">
-        <property name="value" nameId="tpee.1070475926801" value="AUTO_GEN" />
+        <property name="value" nameId="tpee.1070475926801" value="AUTO_CALC" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="478945708959029684" nodeInfo="ngu" />
