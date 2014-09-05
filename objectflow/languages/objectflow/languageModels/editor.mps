@@ -2424,7 +2424,7 @@
           <property name="flag" nameId="tpc2.1186414551515" value="false" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7192042020165011678" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value="process" />
+          <property name="text" nameId="tpc2.1073389577007" value="application process" />
           <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="1194921945347585645" resolveInfo="O2Header" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="7192042020165011679" nodeInfo="ng">
