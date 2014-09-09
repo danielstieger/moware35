@@ -2547,5 +2547,18 @@
       </node>
     </node>
   </root>
+  <root type="tp33.MigrationScript" typeId="tp33.1177457067821" id="4679662955911022716" nodeInfo="ng">
+    <property name="type" nameId="tp33.5299416737274925395" value="migration" />
+    <property name="toBuild" nameId="tp33.5299416737274925397" value="MoWare BOND" />
+    <property name="name" nameId="tpck.1169194664001" value="IUserEnvironMentDeleted" />
+    <property name="title" nameId="tp33.1177457669450" value="(8) IUserEnvironment no longer available. F5 should do the job" />
+    <node role="part" roleId="tp33.1177458178889" type="tp33.MigrationScriptPart_Instance" typeId="tp33.1177457850499" id="4679662955911022719" nodeInfo="ng">
+      <property name="description" nameId="tp33.1177457972041" value="UserEnvironmentParameter used here. " />
+      <link role="affectedInstanceConcept" roleId="tp33.1177457957477" targetNodeId="un0u.4779674245164262437" resolveInfo="UserEnvironmentParameter" />
+      <node role="affectedInstanceUpdater" roleId="tp33.1177458005323" type="tp33.MigrationScriptPart_Instance_Updater" typeId="tp33.1177458491964" id="4679662955911022721" nodeInfo="nn">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="4679662955911022723" nodeInfo="sn" />
+      </node>
+    </node>
+  </root>
 </model>
 
