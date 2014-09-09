@@ -10804,7 +10804,7 @@
             </node>
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3029495087457745506" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.3364325080893895440" resolveInfo="getNewManMapSession" />
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="28jr.830334255848151190" resolveInfo="StandAloneApplicationFactory" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="28jr.830334255848151190" resolveInfo="OFXApplication" />
             </node>
           </node>
         </node>
@@ -16036,7 +16036,7 @@
               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.8729701974214026602" resolveInfo="OFXSimpleManMapSession" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5098256934219841578" nodeInfo="nn">
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="28jr.830334255848151190" resolveInfo="StandAloneApplicationFactory" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="28jr.830334255848151190" resolveInfo="OFXApplication" />
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.3364325080893895440" resolveInfo="getNewManMapSession" />
             </node>
           </node>
@@ -23682,6 +23682,50 @@
   <root type="un0u.TestCases" typeId="un0u.3262649880240512242" id="4775479876636440134" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Test14_AuditManMap" />
     <link role="configuration" roleId="un0u.3262649880241442785" targetNodeId="3526396426306949532" resolveInfo="LolaTestConfig" />
+    <node role="testMethod" roleId="un0u.3262649880240512254" type="un0u.TestMethod" typeId="un0u.3262649880240512220" id="4110454698503761452" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="TEST_7" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="4110454698503761453" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="4110454698503761455" nodeInfo="nn" />
+      <node role="description" roleId="un0u.3262649880240512230" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4110454698503761456" nodeInfo="nn">
+        <property name="value" nameId="tpee.1070475926801" value="Quickly check new_LocalDateFormServer and new_DateTimeFromServer" />
+      </node>
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="4110454698503761457" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="4110454698503768110" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="4110454698503768112" nodeInfo="nn">
+            <property name="text" nameId="tpee.6329021646629104958" value="should no result in any problems: " />
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="un0u.TestInfo" typeId="un0u.3262649880241050695" id="4110454698503768133" nodeInfo="ng">
+          <node role="exp" roleId="un0u.3262649880241050696" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="4110454698503768393" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="un0u.DateLiteral" typeId="un0u.569389511234497391" id="4110454698503768592" nodeInfo="ng">
+              <property name="day" nameId="un0u.569389511234497410" value="0" />
+              <property name="month" nameId="un0u.569389511234497409" value="0" />
+              <property name="year" nameId="un0u.569389511234497408" value="0" />
+              <property name="fromServer" nameId="un0u.569389511234497411" value="true" />
+            </node>
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4110454698503768154" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="Date now " />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="un0u.TestInfo" typeId="un0u.3262649880241050695" id="4110454698503768963" nodeInfo="ng">
+          <node role="exp" roleId="un0u.3262649880241050696" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="4110454698503769235" nodeInfo="nn">
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4110454698503768988" nodeInfo="nn">
+              <property name="value" nameId="tpee.1070475926801" value="Time now " />
+            </node>
+            <node role="rightExpression" roleId="tpee.1081773367579" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="4110454698503769321" nodeInfo="ng">
+              <property name="day" nameId="un0u.569389511234497414" value="0" />
+              <property name="month" nameId="un0u.569389511234497413" value="0" />
+              <property name="year" nameId="un0u.569389511234497412" value="0" />
+              <property name="hour" nameId="un0u.569389511234497415" value="0" />
+              <property name="minute" nameId="un0u.569389511234497416" value="0" />
+              <property name="second" nameId="un0u.569389511234497417" value="0" />
+              <property name="fromServer" nameId="un0u.569389511234497418" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="testMethod" roleId="un0u.3262649880240512254" type="un0u.TestMethod" typeId="un0u.3262649880240512220" id="3029495087445524292" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="TEST_4" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3029495087445524293" nodeInfo="in" />
@@ -23729,7 +23773,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3029495087422561949" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="3029495087422563617" nodeInfo="nn">
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="3029495087422565139" nodeInfo="nn">
-              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="28jr.830334255848151190" resolveInfo="StandAloneApplicationFactory" />
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="28jr.830334255848151190" resolveInfo="OFXApplication" />
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.3364325080893895440" resolveInfo="getNewManMapSession" />
             </node>
             <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="3029495087422561947" nodeInfo="nn">
