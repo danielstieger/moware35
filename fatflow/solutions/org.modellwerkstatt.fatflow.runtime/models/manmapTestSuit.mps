@@ -10778,16 +10778,6 @@
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.8729701974214026602" resolveInfo="OFXSimpleManMapSession" />
       </node>
     </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="8729701974214026603" nodeInfo="igu">
-      <property name="name" nameId="tpck.1169194664001" value="transactionManager" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="8729701974214026604" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3162650144850634553" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="obxh.~PlatformTransactionManager" resolveInfo="PlatformTransactionManager" />
-      </node>
-      <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="8729701974214054633" nodeInfo="nn">
-        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="oi9j.~Autowired" resolveInfo="Autowired" />
-      </node>
-    </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3262649880242561163" nodeInfo="nn" />
     <node role="testMethod" roleId="un0u.3262649880240512254" type="un0u.TestMethod" typeId="un0u.3262649880240512220" id="3262649880242561168" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="TEST_0" />
