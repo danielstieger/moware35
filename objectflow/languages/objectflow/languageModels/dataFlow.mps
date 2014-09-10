@@ -6,7 +6,7 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="158" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="160" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
   <import index="70o0" modelUID="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" version="0" />
   <import index="tpem" modelUID="r:00000000-0000-4000-0000-011c895902c2(jetbrains.mps.baseLanguage.dataFlow)" version="-1" />
@@ -106,7 +106,7 @@
     </node>
   </root>
   <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="6098536907707365486" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="Exception" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="LogPrint" />
     <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="un0u.2356914237085017468" resolveInfo="LogStatement" />
     <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="6098536907707365487" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6098536907707365488" nodeInfo="sn">
@@ -631,6 +631,38 @@
                   <node role="type" roleId="tpee.5680397130376446158" type="tpee.UndefinedType" typeId="tpee.4836112446988635817" id="5697903518451465831" nodeInfo="in" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="6303390138608530080" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="LogPrint" />
+    <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="un0u.6303390138597557532" resolveInfo="PrintExpression" />
+    <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="6303390138608530081" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6303390138608530082" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="6303390138608532904" nodeInfo="nn">
+          <node role="codeFor" roleId="tp41.1206454079161" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6303390138608533076" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="6303390138608532930" nodeInfo="nn" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6303390138608534496" nodeInfo="nn">
+              <link role="link" roleId="tp25.1138056516764" targetNodeId="un0u.6303390138597674847" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="6303390138612832782" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
+    <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="un0u.3262649880241050695" resolveInfo="TestInfo" />
+    <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="6303390138612832783" nodeInfo="nn">
+      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6303390138612832784" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="6303390138612832852" nodeInfo="nn">
+          <node role="codeFor" roleId="tp41.1206454079161" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6303390138612833049" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="6303390138612832878" nodeInfo="nn" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6303390138612834909" nodeInfo="nn">
+              <link role="link" roleId="tp25.1138056516764" targetNodeId="un0u.3262649880241050696" />
             </node>
           </node>
         </node>

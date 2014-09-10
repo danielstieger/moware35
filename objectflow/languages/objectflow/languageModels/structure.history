@@ -366,5 +366,17 @@
     </dependencies>
     <rename id="un0u.5997138994194869553" type="PROPERTY" from="xml" to="string" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="158" />
+    </dependencies>
+    <rename id="un0u.6303390138597572053" type="PROPERTY" from="string" to="xml" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="159" />
+    </dependencies>
+    <rename id="un0u.6303390138597572053" type="PROPERTY" from="xml" to="type" />
+  </StructureModification>
 </history>
 
