@@ -360,5 +360,11 @@
     </dependencies>
     <rename id="un0u.478945708937917702" type="CHILD" from="options" to="values" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="157" />
+    </dependencies>
+    <rename id="un0u.5997138994194869553" type="PROPERTY" from="xml" to="string" />
+  </StructureModification>
 </history>
 
