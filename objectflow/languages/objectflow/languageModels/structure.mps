@@ -643,10 +643,11 @@
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="943115150037896890" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="commandType" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="943115150037896887" resolveInfo="CommandType" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="7912134052599426177" nodeInfo="ig" />
     </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7597083895870343939" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="commandCommitType" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="7597083895870343934" resolveInfo="CommandCommitSession" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="7912134052599426179" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="newCommandType" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="7912134052599425618" resolveInfo="O2CommandType" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7192042020164064743" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -713,6 +714,18 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="icon" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7912134052599551255" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="locks" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7912134052599565332" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="reverts" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="7912134052599564237" resolveInfo="IRevertableReference" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1993450443311478185" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -849,6 +862,9 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="7192042020164640431" resolveInfo="ContainerParameter" />
       <link role="specializedLink" roleId="tpce.1071599698500" targetNodeId="tpee.1068581517664" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7912134052599564238" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7912134052599564237" resolveInfo="IRevertableReference" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7192042020165155288" nodeInfo="ig">
@@ -1087,6 +1103,9 @@
       <property name="role" nameId="tpce.1071599776563" value="processDocument" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="7192042020164640431" resolveInfo="ContainerParameter" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7912134052599564240" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7912134052599564237" resolveInfo="IRevertableReference" />
     </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="6525155817176553312" nodeInfo="ig">
@@ -1787,19 +1806,6 @@
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="calculate reference scope" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="refScopeFunc" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
-  </root>
-  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="7597083895870343934" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.command" />
-    <property name="name" nameId="tpck.1169194664001" value="CommandCommitSession" />
-    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7597083895870343936" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="DO_NOT_COMMIT_SESSION" />
-      <property name="internalValue" nameId="tpce.1083923523171" value="DO_NOT_COMMIT_SESSION" />
-    </node>
-    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7597083895870343935" nodeInfo="ig">
-      <property name="internalValue" nameId="tpce.1083923523171" value="COMMIT_SESSION" />
-      <property name="externalValue" nameId="tpce.1083923523172" value="COMMIT_SESSION" />
-    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1410680821326658964" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject" />
@@ -2574,6 +2580,31 @@
       <property name="internalValue" nameId="tpce.1083923523171" value="XML" />
       <property name="externalValue" nameId="tpce.1083923523172" value="XML" />
     </node>
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="7912134052599425618" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.command" />
+    <property name="name" nameId="tpck.1169194664001" value="O2CommandType" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7912134052599425624" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="GRAPH_EDIT_CMD" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="GRAPH_EDIT_CMD" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7912134052599425627" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="GRAPH_OWNER_CMD" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="GRAPH_OWNER_CMD" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7912134052599425619" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="SEARCH_CMD" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="SEARCH_CMD" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="7912134052599536761" nodeInfo="ig">
+      <property name="internalValue" nameId="tpce.1083923523171" value="SUB_GRAPH_OWNER_CMD" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="SUB_GRAPH_OWNER_CMD" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7912134052599564237" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.command" />
+    <property name="name" nameId="tpck.1169194664001" value="IRevertableReference" />
   </root>
 </model>
 
