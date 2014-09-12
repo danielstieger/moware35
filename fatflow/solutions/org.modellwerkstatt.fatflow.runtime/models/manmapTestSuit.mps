@@ -25486,6 +25486,13 @@
       <link role="element" roleId="un0u.478945708907022310" targetNodeId="6dvb.3526396426318201506" resolveInfo="DEP_UserEnvironmentInformation" />
     </node>
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="3526396426306950217" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="8200135702751938477" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="lockService" />
+      <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8200135702751938479" nodeInfo="nn">
+        <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.objectflow.services.MoFakeLockService" />
+      </node>
+    </node>
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="8200135702751938309" nodeInfo="ng" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7912134052590675177" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="consoleAppFactory" />
       <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7912134052590675178" nodeInfo="nn">
@@ -25816,7 +25823,6 @@
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5997138994204349945" nodeInfo="nn" />
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="5997138994205803127" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5997138994205803527" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5997138994205803523" nodeInfo="nn">
             <node role="operand" roleId="tpee.1197027771414" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="5997138994205803524" nodeInfo="nn">
