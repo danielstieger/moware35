@@ -9,13 +9,14 @@
   <import index="cuok" modelUID="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.jdbc(org.modellwerkstatt.manmap.solution/org.springframework.jdbc@java_stub)" version="-1" />
   <import index="ybr6" modelUID="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time.base(org.modellwerkstatt.manmap.solution/org.joda.time.base@java_stub)" version="-1" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
+  <import index="6dvb" modelUID="r:4cd5a542-d1f3-4adb-85c7-084007ec666e(org.modellwerkstatt.fatflow.runtime.MPreisDefaults)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="157" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="160" implicit="yes" />
   <root type="un0u.BatchJob" typeId="un0u.8399801448178544753" id="4723702796633551653" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="TestBatchJob" />
-    <link role="configuration" roleId="un0u.8399801448181160543" targetNodeId="3572493221071532650" resolveInfo="JobConfig" />
+    <link role="configuration" roleId="un0u.8399801448181160543" targetNodeId="3526396426306949532" resolveInfo="LolaTestConfig" />
     <node role="member" roleId="tpee.5375687026011219971" type="un0u.BatchFieldDeclaration" typeId="un0u.8399801448179208226" id="2691764572720572118" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="cycleTimeProblem" />
       <property name="desc" nameId="un0u.8399801448182202651" value="CycleTime" />
@@ -138,6 +139,7 @@
               </node>
             </node>
           </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="8614237996219683116" nodeInfo="nn" />
         </node>
       </node>
     </node>
@@ -646,24 +648,97 @@
       </node>
     </node>
   </root>
-  <root type="un0u.Configuration" typeId="un0u.8537348545916279017" id="3572493221071532650" nodeInfo="ng">
-    <property name="driver" nameId="un0u.8537348545916385363" value="oracle.jdbc.driver.OracleDriver" />
-    <property name="uri" nameId="un0u.8537348545916385362" value="jdbc:oracle:thin:@//lola:1521/LOLA" />
-    <property name="name" nameId="tpck.1169194664001" value="JobConfig" />
-    <property name="username" nameId="un0u.8537348545916385360" value="reko" />
-    <property name="password" nameId="un0u.8537348545916385361" value="test" />
-    <property name="jmxuri" nameId="un0u.8603748575145006884" value="service:jmx:rmi://localhost/jndi/rmi://localhost:1099/MyJob" />
-    <property name="maxPoolSize" nameId="un0u.3517052249650441955" value="2" />
-    <node role="logConfiguration" roleId="un0u.830334255848383637" type="un0u.LogConfiguration" typeId="un0u.830334255848344169" id="3572493221071532651" nodeInfo="ng">
-      <property name="packageName" nameId="un0u.830334255848344170" value="java.sql" />
+  <root type="un0u.OFXConfig" typeId="un0u.478945708906770773" id="3526396426306949532" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
+    <property name="name" nameId="tpck.1169194664001" value="LolaTestConfig" />
+    <property name="lastUpdated" nameId="un0u.3526396426252206723" value="2014-09-16T12:39:20.975+01:00" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInclude" typeId="un0u.478945708907022307" id="3526396426306949533" nodeInfo="ng">
+      <link role="element" roleId="un0u.478945708907022310" targetNodeId="6dvb.8614237996252446509" resolveInfo="MPREIS_TomCat_LoLa" />
+      <node role="properties" roleId="un0u.478945708912703715" type="un0u.OFXConfigPropOverwrite" typeId="un0u.3526396426289727497" id="3526396426306950146" nodeInfo="ng">
+        <link role="property" roleId="un0u.3526396426289727551" targetNodeId="6dvb.8614237996252447559" resolveInfo="username" />
+        <node role="value" roleId="un0u.3526396426289727549" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3526396426306950147" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="reko" />
+        </node>
+      </node>
+      <node role="properties" roleId="un0u.478945708912703715" type="un0u.OFXConfigPropOverwrite" typeId="un0u.3526396426289727497" id="3526396426306950173" nodeInfo="ng">
+        <link role="property" roleId="un0u.3526396426289727551" targetNodeId="6dvb.8614237996252447561" resolveInfo="password" />
+        <node role="value" roleId="un0u.3526396426289727549" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3526396426306950174" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="test" />
+        </node>
+      </node>
     </node>
-    <node role="logConfiguration" roleId="un0u.830334255848383637" type="un0u.LogConfiguration" typeId="un0u.830334255848344169" id="4558749542214412417" nodeInfo="ng">
-      <property name="packageName" nameId="un0u.830334255848344170" value="net.ttddyy" />
-      <property name="logLevel" nameId="un0u.830334255848344171" value="ALL" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="3526396426306950168" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInclude" typeId="un0u.478945708907022307" id="3526396426319088497" nodeInfo="ng">
+      <link role="element" roleId="un0u.478945708907022310" targetNodeId="6dvb.3526396426318201506" resolveInfo="DEP_UserEnvironmentInformation" />
     </node>
-    <node role="logConfiguration" roleId="un0u.830334255848383637" type="un0u.LogConfiguration" typeId="un0u.830334255848344169" id="4723702796634222566" nodeInfo="ng">
-      <property name="packageName" nameId="un0u.830334255848344170" value="org.modellwerkstatt.fatflow.runtime.BatchJobTestSuit" />
-      <property name="logLevel" nameId="un0u.830334255848344171" value="ALL" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="3526396426306950217" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="8200135702751938477" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="lockService" />
+      <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8200135702751938479" nodeInfo="nn">
+        <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.objectflow.services.MoFakeLockService" />
+      </node>
+    </node>
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="8200135702751938309" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="7912134052590675177" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="tomcatAppFactory" />
+      <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7912134052590675178" nodeInfo="nn">
+        <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXTomcatAppFactory" />
+      </node>
+    </node>
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="3366325098243236534" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInclude" typeId="un0u.478945708907022307" id="3526396426306950199" nodeInfo="ng">
+      <link role="element" roleId="un0u.478945708907022310" targetNodeId="6dvb.478945708942440535" resolveInfo="MPREIS_BasicInfrastructure" />
+    </node>
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="3526396426306950227" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="937007607911245565" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="937007607911245612" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="937007607911245660" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="937007607911245709" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigSection" typeId="un0u.478945708906907667" id="3526396426306950238" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="AUTO_CALC" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="8614237996254507123" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="__testBatchJob" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8614237996254507124" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fatflow.runtime.BatchJobTestSuit.TestBatchJob" />
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="un0u.BatchJob" typeId="un0u.8399801448178544753" id="8614237996264713072" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="SimpleJob" />
+    <link role="configuration" roleId="un0u.8399801448181160543" targetNodeId="3526396426306949532" resolveInfo="LolaTestConfig" />
+    <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8614237996264713073" nodeInfo="nn" />
+    <node role="batchTask" roleId="un0u.8399801448178545745" type="un0u.BatchTask" typeId="un0u.8399801448178545728" id="8614237996264713074" nodeInfo="ng">
+      <property name="idleTimeout" nameId="un0u.8399801448180977990" value="10000" />
+      <property name="cronSec" nameId="un0u.983826980459555832" value="*" />
+      <property name="cronMin" nameId="un0u.983826980459572166" value="*" />
+      <property name="cronHour" nameId="un0u.983826980459572167" value="*" />
+      <property name="cronDayOfMonth" nameId="un0u.983826980459572168" value="*" />
+      <property name="cronMonth" nameId="un0u.983826980459572169" value="*" />
+      <property name="cronDayOfWeek" nameId="un0u.983826980459572170" value="*" />
+      <property name="numberOfInstances" nameId="un0u.385689203890330475" value="1" />
+      <property name="name" nameId="tpck.1169194664001" value="This is a simple Task" />
+      <node role="executeFunction" roleId="un0u.385689203887260176" type="un0u.BatchTaskConceptFunction" typeId="un0u.385689203887128308" id="8614237996264713075" nodeInfo="ng">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8614237996264713076" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="un0u.LogStatement" typeId="un0u.2356914237085017468" id="8614237996264714586" nodeInfo="ng">
+            <property name="logLevel" nameId="un0u.830334255848575723" value="ERROR" />
+            <node role="exp" roleId="un0u.2356914237085088917" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="8614237996264714854" nodeInfo="nn">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="un0u.DateTimeLiteral" typeId="un0u.569389511234497392" id="8614237996264714885" nodeInfo="ng">
+                <property name="day" nameId="un0u.569389511234497414" value="0" />
+                <property name="month" nameId="un0u.569389511234497413" value="0" />
+                <property name="year" nameId="un0u.569389511234497412" value="0" />
+                <property name="hour" nameId="un0u.569389511234497415" value="0" />
+                <property name="minute" nameId="un0u.569389511234497416" value="0" />
+                <property name="second" nameId="un0u.569389511234497417" value="0" />
+                <property name="fromServer" nameId="un0u.569389511234497418" value="true" />
+              </node>
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8614237996264714617" nodeInfo="nn">
+                <property name="value" nameId="tpee.1070475926801" value="Current date is " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </root>
 </model>

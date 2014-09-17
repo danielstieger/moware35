@@ -24,6 +24,7 @@
       <sourceRoot location="org.springframework.context-3.0.5.RELEASE.jar" />
       <sourceRoot location="org.springframework.expression-3.0.5.RELEASE.jar" />
       <sourceRoot location="log4j.jar" />
+      <sourceRoot location="servlet-api.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -50,6 +51,7 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.asm-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.context-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.expression-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/servlet-api.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
