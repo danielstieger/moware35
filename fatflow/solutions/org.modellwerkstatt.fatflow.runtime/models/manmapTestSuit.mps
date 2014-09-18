@@ -23,7 +23,7 @@
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="41" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="160" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="161" implicit="yes" />
   <import index="87nw" modelUID="r:ca2ab6bb-f6e7-4c0f-a88c-b78b9b31fff3(de.slisson.mps.richtext.structure)" version="5" implicit="yes" />
   <root type="r5tz.PersistenceDescription" typeId="r5tz.871579071900124823" id="3572493221071361406" nodeInfo="ng">
     <node role="entityReference" roleId="r5tz.871579071900209323" type="r5tz.EntityReference" typeId="r5tz.871579071900209276" id="3572493221071361412" nodeInfo="ng">
@@ -23467,7 +23467,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6303390138587297629" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="text" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="6303390138587297625" nodeInfo="in" />
-            <node role="initializer" roleId="tpee.1068431790190" type="un0u.PrintExpression" typeId="un0u.6303390138597557532" id="6303390138604251083" nodeInfo="ng">
+            <node role="initializer" roleId="tpee.1068431790190" type="un0u.ConvTextExpression" typeId="un0u.6303390138597557532" id="6303390138604251083" nodeInfo="ng">
               <property name="type" nameId="un0u.6303390138597572053" value="XML" />
               <node role="expression" roleId="un0u.6303390138597674847" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6303390138597527927" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6303390138587308993" resolveInfo="proforma" />
@@ -23493,7 +23493,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="6303390138626293118" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="text2" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="6303390138626293113" nodeInfo="in" />
-            <node role="initializer" roleId="tpee.1068431790190" type="un0u.PrintExpression" typeId="un0u.6303390138597557532" id="6303390138626445841" nodeInfo="ng">
+            <node role="initializer" roleId="tpee.1068431790190" type="un0u.ConvTextExpression" typeId="un0u.6303390138597557532" id="6303390138626445841" nodeInfo="ng">
               <node role="expression" roleId="un0u.6303390138597674847" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6303390138627802101" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6303390138587308993" resolveInfo="proforma" />
               </node>
@@ -23960,6 +23960,7 @@
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="3029495087435342758" nodeInfo="nn" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="6801918763232341191" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="3029495087436490870" nodeInfo="nn">
           <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="3029495087436492877" nodeInfo="nn">
             <property name="text" nameId="tpee.6329021646629104958" value="okay, transaction start in order to get a timestamp" />
@@ -25467,7 +25468,7 @@
     <property name="lastUpdated" nameId="un0u.3526396426252206723" value="2014-09-11T10:09:27.081+01:00" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="4110454698530740376" nodeInfo="ng" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInclude" typeId="un0u.478945708907022307" id="3526396426306949533" nodeInfo="ng">
-      <link role="element" roleId="un0u.478945708907022310" targetNodeId="6dvb.478945708942367565" resolveInfo="MPREIS_LoLa_Pool1" />
+      <link role="element" roleId="un0u.478945708907022310" targetNodeId="6dvb.478945708942367565" resolveInfo="MPREIS_Winter2014_FatClient_TestConfig" />
       <node role="properties" roleId="un0u.478945708912703715" type="un0u.OFXConfigPropOverwrite" typeId="un0u.3526396426289727497" id="3526396426306950146" nodeInfo="ng">
         <link role="property" roleId="un0u.3526396426289727551" targetNodeId="6dvb.3526396426284888526" resolveInfo="user" />
         <node role="value" roleId="un0u.3526396426289727549" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3526396426306950147" nodeInfo="nn">
@@ -25664,6 +25665,7 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5997138994205792708" nodeInfo="nn" />
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="5997138994204351614" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="6801918763232457927" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.ConstructorDeclaration" typeId="tpee.1068580123140" id="5997138994205794731" nodeInfo="igu">
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5997138994209870313" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="x" />
@@ -25685,6 +25687,7 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="6801918763232464967" nodeInfo="nn" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="5997138994204349631" nodeInfo="ngu" />

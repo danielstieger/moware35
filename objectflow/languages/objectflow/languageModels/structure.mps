@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="160">
+<model modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="161">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -10,7 +10,7 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="160" implicit="yes" />
+  <import index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="161" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1372017518093514468" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="BusinessObject" />
     <property name="rootable" nameId="tpce.1096454100552" value="true" />
@@ -637,8 +637,8 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7192042020163999178" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.command" />
     <property name="name" nameId="tpck.1169194664001" value="Command" />
-    <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/command.png" />
+    <property name="rootable" nameId="tpce.1096454100552" value="true" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="7192042020164640426" resolveInfo="Container" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="943115150037896890" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="commandType" />
@@ -1666,14 +1666,14 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7430432276631648886" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4fqr.4666195181811081429" resolveInfo="IMainClass" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6303390138604271365" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2665553595316142000" resolveInfo="IO2RTComponent" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6801918763237850532" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5424515722163903030" resolveInfo="IHandlesSession" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8399801448178545728" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.batch" />
     <property name="name" nameId="tpck.1169194664001" value="BatchTask" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="7192042020164640426" resolveInfo="Container" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8399801448180977990" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="idleTimeout" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983657062" resolveInfo="integer" />
@@ -1718,9 +1718,6 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="385689203887128308" resolveInfo="BatchTaskConceptFunction" />
     </node>
-    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8399801448178545737" nodeInfo="ig">
-      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
-    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5879857394048971446" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1239354281271" resolveInfo="IMethodLike" />
     </node>
@@ -1740,6 +1737,7 @@
       <property name="name" nameId="tpck.1169194664001" value="desc" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="6801918763269017310" nodeInfo="ig" />
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="8399801448179208228" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.batch" />
@@ -1764,6 +1762,7 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="isShutdown" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="any task notifications" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="6801918763269023668" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4723702796633625403" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.batch" />
@@ -1776,6 +1775,7 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="8399801448179208226" resolveInfo="BatchFieldDeclaration" />
       <link role="specializedLink" roleId="tpce.1071599698500" targetNodeId="tpee.7785501532031731645" />
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="6801918763269023664" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3517052249651130105" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="BusinessObject.Options" />
@@ -2547,7 +2547,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6303390138597557532" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="LogPrint" />
-    <property name="name" nameId="tpck.1169194664001" value="PrintExpression" />
+    <property name="name" nameId="tpck.1169194664001" value="ConvTextExpression" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="conv" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6303390138597674847" nodeInfo="ig">

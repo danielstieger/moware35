@@ -378,5 +378,11 @@
     </dependencies>
     <rename id="un0u.6303390138597572053" type="PROPERTY" from="xml" to="type" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="un0u" modelUID="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" version="160" />
+    </dependencies>
+    <rename id="un0u.6303390138597557532" type="CONCEPT" from="PrintExpression" to="ConvTextExpression" />
+  </StructureModification>
 </history>
 
