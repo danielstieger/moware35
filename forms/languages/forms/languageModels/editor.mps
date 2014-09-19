@@ -1277,7 +1277,7 @@
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3674496190759850980" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="configuration:" />
+        <property name="text" nameId="tpc2.1073389577007" value="default configuration for this test:" />
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="tpen.1186415544875" resolveInfo="KeyWord" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="3674496190759850981" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />

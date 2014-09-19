@@ -4100,7 +4100,7 @@
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3262649880241442788" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="configuration for this test:" />
+        <property name="text" nameId="tpc2.1073389577007" value="default configuration for this test:" />
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="271985905034858533" resolveInfo="O2Detail" />
         <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="3262649880241442789" nodeInfo="nn">
           <property name="flag" nameId="tpc2.1186414551515" value="true" />
@@ -4434,7 +4434,7 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8399801448181081106" nodeInfo="nn">
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8399801448181160546" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value="configuration for this test:" />
+          <property name="text" nameId="tpc2.1073389577007" value="default configuration for this test:" />
           <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="271985905034858533" resolveInfo="O2Detail" />
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="8399801448181160547" nodeInfo="nn">
             <property name="flag" nameId="tpc2.1186414551515" value="true" />
