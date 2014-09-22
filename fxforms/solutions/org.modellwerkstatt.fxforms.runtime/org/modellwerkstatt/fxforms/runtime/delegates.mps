@@ -194,14 +194,14 @@
               <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="4137166455008273456" nodeInfo="nr">
                 <property name="name" nameId="tpck.1169194664001" value="metaInformation" />
                 <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4137166455008276851" nodeInfo="in">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.3169947103211809269" resolveInfo="IOFXMetaRangeScale" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.6944070492441314821" resolveInfo="IOFXMetaRange" />
                   <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4137166455008276861" nodeInfo="in">
                     <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Integer" resolveInfo="Integer" />
                   </node>
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.CastExpression" typeId="tpee.1070534934090" id="4137166455008273458" nodeInfo="nn">
                   <node role="type" roleId="tpee.1070534934091" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4137166455008276867" nodeInfo="in">
-                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.3169947103211809269" resolveInfo="IOFXMetaRangeScale" />
+                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.6944070492441314821" resolveInfo="IOFXMetaRange" />
                     <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4137166455008276877" nodeInfo="in">
                       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Integer" resolveInfo="Integer" />
                     </node>
@@ -5234,14 +5234,14 @@
               <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5130395593885006426" nodeInfo="nr">
                 <property name="name" nameId="tpck.1169194664001" value="metaInformation" />
                 <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5130395593885006427" nodeInfo="in">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.3169947103211809269" resolveInfo="IOFXMetaRangeScale" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.6944070492441314821" resolveInfo="IOFXMetaRange" />
                   <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5130395593885011452" nodeInfo="in">
                     <link role="classifier" roleId="tpee.1107535924139" targetNodeId="26n1.~DateTime" resolveInfo="DateTime" />
                   </node>
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.CastExpression" typeId="tpee.1070534934090" id="5130395593885006429" nodeInfo="nn">
                   <node role="type" roleId="tpee.1070534934091" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5130395593885006430" nodeInfo="in">
-                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.3169947103211809269" resolveInfo="IOFXMetaRangeScale" />
+                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.6944070492441314821" resolveInfo="IOFXMetaRange" />
                     <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5130395593885011458" nodeInfo="in">
                       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="26n1.~DateTime" resolveInfo="DateTime" />
                     </node>
@@ -7200,14 +7200,14 @@
               <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5130395593885030000" nodeInfo="nr">
                 <property name="name" nameId="tpck.1169194664001" value="metaInformation" />
                 <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5130395593885030001" nodeInfo="in">
-                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.3169947103211809269" resolveInfo="IOFXMetaRangeScale" />
+                  <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.6944070492441314821" resolveInfo="IOFXMetaRange" />
                   <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5130395593885030056" nodeInfo="in">
                     <link role="classifier" roleId="tpee.1107535924139" targetNodeId="26n1.~LocalDate" resolveInfo="LocalDate" />
                   </node>
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.CastExpression" typeId="tpee.1070534934090" id="5130395593885030003" nodeInfo="nn">
                   <node role="type" roleId="tpee.1070534934091" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5130395593885030004" nodeInfo="in">
-                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.3169947103211809269" resolveInfo="IOFXMetaRangeScale" />
+                    <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.6944070492441314821" resolveInfo="IOFXMetaRange" />
                     <node role="parameter" roleId="tpee.1109201940907" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5130395593885030062" nodeInfo="in">
                       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="26n1.~LocalDate" resolveInfo="LocalDate" />
                     </node>
