@@ -25973,15 +25973,6 @@
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890699860" nodeInfo="ng" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890699861" nodeInfo="ng" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890699862" nodeInfo="ng" />
-    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInclude" typeId="un0u.478945708907022307" id="5505654805890699863" nodeInfo="ng">
-      <link role="element" roleId="un0u.478945708907022310" targetNodeId="5505654805890699870" resolveInfo="MPREIS_JmxSetup" />
-      <node role="properties" roleId="un0u.478945708912703715" type="un0u.OFXConfigPropOverwrite" typeId="un0u.3526396426289727497" id="5505654805890699864" nodeInfo="ng">
-        <link role="property" roleId="un0u.3526396426289727551" targetNodeId="5505654805890699879" resolveInfo="serviceUrl" />
-        <node role="value" roleId="un0u.3526396426289727549" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5505654805890699865" nodeInfo="nn" />
-      </node>
-    </node>
-    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890699866" nodeInfo="ng" />
-    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890699867" nodeInfo="ng" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890699868" nodeInfo="ng" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890699869" nodeInfo="ng" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigSection" typeId="un0u.478945708906907667" id="5505654805890699870" nodeInfo="ng">
@@ -26530,6 +26521,262 @@
       </node>
       <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890700079" nodeInfo="ng" />
       <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890700080" nodeInfo="ng" />
+    </node>
+  </root>
+  <root type="un0u.OFXConfig" typeId="un0u.478945708906770773" id="1811740595335623686" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="TestConfigurationForFX" />
+    <property name="lastUpdated" nameId="un0u.3526396426252206723" value="2014-09-22T13:34:41.990+01:00" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigSection" typeId="un0u.478945708906907667" id="2326685532393324019" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="MPREIS_Winter2014_FatClient_TestConfig" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="1811740595335626738" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="lockService" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1811740595335626740" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.objectflow.services.MoFakeLockService" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="1811740595335626697" nodeInfo="ng" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324020" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="transactionDefinition" />
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324021" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="propagationBehaviorName" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324022" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="PROPAGATION_REQUIRES_NEW" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324023" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="isolationLevelName" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324024" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="ISOLATION_READ_COMMITTED" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324025" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="timeout" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324026" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="5000" />
+          </node>
+        </node>
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324027" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.springframework.transaction.support.DefaultTransactionDefinition" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="2326685532393324028" nodeInfo="ng" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324029" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="transactionManager" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324030" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.springframework.jdbc.datasource.DataSourceTransactionManager" />
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324031" nodeInfo="ng">
+          <property name="ref" nameId="un0u.478945708938010900" value="true" />
+          <property name="name" nameId="tpck.1169194664001" value="dataSource" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324032" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="dataSource" />
+          </node>
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="2326685532393324033" nodeInfo="ng" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324034" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="dataSource" />
+        <node role="values" roleId="un0u.478945708937917702" type="un0u.OFXConfigInstanceValue" typeId="un0u.478945708937917661" id="2326685532393324035" nodeInfo="ng">
+          <node role="name" roleId="un0u.478945708937917662" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324036" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="destroy-method" />
+          </node>
+          <node role="value" roleId="un0u.478945708937917664" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324037" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="close" />
+          </node>
+        </node>
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324038" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="com.mchange.v2.c3p0.ComboPooledDataSource" />
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324039" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="numHelperThreads" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324040" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="1" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324041" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="maxIdleTime" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324042" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="1800" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324043" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="acquireRetryDelay" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324044" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="0" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324045" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="acquireRetryAttempts" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324046" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="30" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324047" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="driverClass" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324048" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="oracle.jdbc.driver.OracleDriver" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324049" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="jdbcUrl" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324050" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="jdbc:oracle:thin:@//lola:1521/LOLA" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324051" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="maxPoolSize" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324052" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="1" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324053" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="user" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324054" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="reko" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2326685532393324055" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="password" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324056" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="test" />
+          </node>
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="2326685532393324057" nodeInfo="ng" />
+    </node>
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="1811740595335626329" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigSection" typeId="un0u.478945708906907667" id="2326685532393324058" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="MPREIS_BasicInfrastructure" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324059" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="_dateTimeTypeHandler" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324060" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.manmap.solution.manmapRT.MMJodaDateTimeTypeHanlder" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324061" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="_localDateTypeHandler" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324062" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.manmap.solution.manmapRT.MMJodaLocalDateTypeHanlder" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324063" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="_bigDecimalTypeHandler" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324064" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.manmap.solution.manmapRT.MMBigDecimalTypeHandler" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324065" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="_stringTypeHandler" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324066" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.manmap.solution.manmapRT.MMStringTypeHandler" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324067" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="_intTypeHandler" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324068" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.manmap.solution.manmapRT.MMIntTypeHandler" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324069" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="_mmTypeHandlers" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324070" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.manmap.solution.manmapRT.MMTypeHandlers" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324071" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="deprecatedServerDateProvider" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324072" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.objectflow.ObjectFlowRT.DeprecatedServerDateProvider" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324073" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="simplePrinterServices" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324074" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.objectflow.services.MoSimplePrintService" />
+        </node>
+      </node>
+    </node>
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="1811740595335626370" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="1811740595335627174" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigSection" typeId="un0u.478945708906907667" id="2326685532393324075" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="DEP_UserEnvironmentInformation" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2326685532393324076" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="userEnviormentInformation" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324077" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.objectflow.ObjectFlowRT.UserEnvironmentInformation" />
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigConstructorArg" typeId="un0u.478945708907003617" id="2326685532393324078" nodeInfo="ng">
+          <node role="type" roleId="un0u.478945708935709194" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324079" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="0" />
+          </node>
+          <node role="value" roleId="un0u.478945708935709196" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324080" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="Some compile information" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigConstructorArg" typeId="un0u.478945708907003617" id="2326685532393324081" nodeInfo="ng">
+          <node role="type" roleId="un0u.478945708935709194" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324082" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="1" />
+          </node>
+          <node role="value" roleId="un0u.478945708935709196" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2326685532393324083" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="SUGAR" />
+          </node>
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="2326685532393324084" nodeInfo="ng" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="1811740595335627434" nodeInfo="ng" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="1811740595335627445" nodeInfo="ng" />
+    </node>
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="1811740595335627470" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="ofxAppFactory" />
+      <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1811740595335627472" nodeInfo="nn">
+        <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fxforms.runtime.windows.FxBondGlueAppFactory" />
+      </node>
+    </node>
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="1811740595356834029" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="fxUiFactory" />
+      <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1811740595356834030" nodeInfo="nn">
+        <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.fxforms.runtime.windows.FxUiFactory" />
+      </node>
+    </node>
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="1811740595335627237" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigSection" typeId="un0u.478945708906907667" id="1811740595353992678" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="AUTO_CALC" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="1811740595355232304" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="org.customsdesk.baseDATA.MapTC_CUSTOMS_SYS_PROC_TYPE" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1811740595355232305" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.customsdesk.baseDATA.MapTC_CUSTOMS_SYS_PROC_TYPE" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="1811740595355232306" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="org.customsdesk.baseDATA.MapTC_CUSTOMS_SYSTEM" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1811740595355232307" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.customsdesk.baseDATA.MapTC_CUSTOMS_SYSTEM" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="1811740595355232308" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="org.customsdesk.baseDATA.MapCustomsDeclartionType" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1811740595355232309" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.customsdesk.baseDATA.MapCustomsDeclartionType" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="1811740595355232310" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="__customs_verwalten" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1811740595355232311" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.customsdesk.basePROC.Customs_verwalten" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="1811740595355232312" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="__custDecProc" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1811740595355232313" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.customsdesk.basePROC.CustDecProc" />
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="1811740595355232314" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="__customsRepo" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1811740595355232315" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.customsdesk.baseDATA.CustomsRepo" />
+        </node>
+      </node>
     </node>
   </root>
 </model>

@@ -802,7 +802,7 @@
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="configuration" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="un0u.8537348545916279017" resolveInfo="Configuration" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="un0u.478945708906770773" resolveInfo="OFXConfig" />
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="293796121013651477" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="versionInformation" />
