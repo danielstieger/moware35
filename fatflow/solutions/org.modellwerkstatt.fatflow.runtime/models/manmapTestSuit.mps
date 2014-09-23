@@ -26349,7 +26349,48 @@
       <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890700009" nodeInfo="ng" />
     </node>
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890700010" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="2721129073015959475" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigSection" typeId="un0u.478945708906907667" id="2721129073015959924" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="LogLevel_LocalDebugging_on_console" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2721129073015948617" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="basicConfigDummy" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2721129073015948619" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.springframework.beans.factory.config.MethodInvokingFactoryBean" />
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="2721129073015948909" nodeInfo="ng">
+          <property name="name" nameId="tpck.1169194664001" value="staticMethod" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2721129073015948913" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="org.apache.log4j.BasicConfigurator.configure" />
+          </node>
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="2721129073015949057" nodeInfo="ng" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="2721129073015960191" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="logConfig_1" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2721129073015960192" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt.objectflow.ObjectFlowRT.Log4JLogLevel" />
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigConstructorArg" typeId="un0u.478945708907003617" id="2721129073015960193" nodeInfo="ng">
+          <node role="type" roleId="un0u.478945708935709194" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2721129073015960194" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="String" />
+          </node>
+          <node role="value" roleId="un0u.478945708935709196" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2721129073015960195" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="org.modellwerkstatt" />
+          </node>
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigConstructorArg" typeId="un0u.478945708907003617" id="2721129073015960196" nodeInfo="ng">
+          <node role="type" roleId="un0u.478945708935709194" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2721129073015960197" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="String" />
+          </node>
+          <node role="value" roleId="un0u.478945708935709196" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2721129073015960198" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="DEBUG" />
+          </node>
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="2721129073015960150" nodeInfo="ng" />
+    </node>
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890700011" nodeInfo="ng" />
+    <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="2721129073015960255" nodeInfo="ng" />
     <node role="elements" roleId="un0u.478945708906902061" type="un0u.OFXConfigSection" typeId="un0u.478945708906907667" id="5505654805890700012" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="LogLevel__JUST_Example" />
       <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="5505654805890700013" nodeInfo="ng">

@@ -16759,7 +16759,7 @@
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="4927985361892392791" nodeInfo="nn">
               <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="4927985361892398304" nodeInfo="nn">
-                <property name="text" nameId="tpee.6329021646629104958" value="TODO: why not focus on reload? Only on forgrounde, not in bagckground due to lazyness !!! " />
+                <property name="text" nameId="tpee.6329021646629104958" value="TODO: why not focus on reload? Only on foregrounde, not in bagckground due to lazyness !!! " />
               </node>
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="4927985361890752727" nodeInfo="nn">
