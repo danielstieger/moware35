@@ -9,20 +9,34 @@
     <model modelUID="r:66ce6cde-b3ac-450a-874c-1e3a5eda85f6(org.modellwerkstatt.forms.delegates)" />
   </accessoryModels>
   <generators>
-    <generator name="modelestic" generatorUID="org.modellwerkstatt.forms#6261604080326162081" uuid="40e5fc68-32cc-4846-ab80-06c8774316ef">
+    <generator name="independent" generatorUID="org.modellwerkstatt.forms#1117804404318809095" uuid="c07f7b86-fc25-403e-bd7e-9baf856cdeb7">
       <models>
         <modelRoot contentPath="${module}/generator/template" type="default">
           <sourceRoot location="." />
         </modelRoot>
       </models>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+        <dependency reexport="false">0f69ff68-7ed4-4ee4-8dc6-1619facda18d(org.modellwerkstatt.forms)</dependency>
+        <dependency reexport="false">3ffa979d-a559-4372-8a77-69ebb3d02788(org.modellwerkstatt.forms.sandbox)</dependency>
+        <dependency reexport="false">ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)</dependency>
+        <dependency reexport="false">5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.sandbox)</dependency>
+      </dependencies>
       <usedLanguages>
+        <usedLanguage>92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)</usedLanguage>
+        <usedLanguage>ed6d7656-532c-4bc2-81d1-af945aeb8280(jetbrains.mps.baseLanguage.blTypes)</usedLanguage>
+        <usedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</usedLanguage>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
+        <usedLanguage>c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</usedLanguage>
+        <usedLanguage>9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)</usedLanguage>
+        <usedLanguage>0f69ff68-7ed4-4ee4-8dc6-1619facda18d(org.modellwerkstatt.forms)</usedLanguage>
+        <usedLanguage>5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)</usedLanguage>
+        <usedLanguage>ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
-        <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
       </usedDevKits>
       <mapping-priorities />
     </generator>
