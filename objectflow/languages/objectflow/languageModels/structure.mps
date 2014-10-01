@@ -839,6 +839,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7192042020164640430" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.infra" />
     <property name="name" nameId="tpck.1169194664001" value="ContainerVariable" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="&lt;type&gt; &lt;var&gt;" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431474542" resolveInfo="VariableDeclaration" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7192042020165669933" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.5432666129547687712" resolveInfo="IVariableDeclaration" />
