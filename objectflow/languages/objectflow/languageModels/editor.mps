@@ -436,13 +436,16 @@
           </node>
         </node>
         <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3207218222561807656" nodeInfo="ng">
-          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="3207218222561807670" nodeInfo="ng">
-            <property name="separatorText" nameId="tpc2.1140524450557" value="," />
-            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.3674496190757459099" />
-            <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3207218222564426441" nodeInfo="nn">
-              <property name="text" nameId="tpc2.1073389577007" value="" />
-              <property name="nullText" nameId="tpc2.1082639509531" value="..." />
+          <node role="editorCell" roleId="bnk3.1397920687865064647" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6125640194633152731" nodeInfo="nn">
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNodeList" typeId="tpc2.1073390211982" id="3207218222561807670" nodeInfo="ng">
+              <property name="separatorText" nameId="tpc2.1140524450557" value="," />
+              <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.3674496190757459099" />
+              <node role="emptyCellModel" roleId="tpc2.1140524464359" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3207218222564426441" nodeInfo="nn">
+                <property name="text" nameId="tpc2.1073389577007" value="" />
+                <property name="nullText" nameId="tpc2.1082639509531" value="..." />
+              </node>
             </node>
+            <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="6125640194633152732" nodeInfo="nn" />
           </node>
         </node>
         <node role="childTableNodes" roleId="bnk3.1397920687864997171" type="bnk3.TableCell" typeId="bnk3.1397920687864997143" id="3207218222561807684" nodeInfo="ng">
@@ -4473,7 +4476,7 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="8399801448181081106" nodeInfo="nn">
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="8399801448181160546" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value="default configuration for this test:" />
+          <property name="text" nameId="tpc2.1073389577007" value="default configuration for this job:" />
           <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="271985905034858533" resolveInfo="O2Detail" />
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="8399801448181160547" nodeInfo="nn">
             <property name="flag" nameId="tpc2.1186414551515" value="true" />
