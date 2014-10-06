@@ -5,17 +5,17 @@
       <sourceRoot location="models" />
     </modelRoot>
     <modelRoot contentPath="${mowareHome}/fx8forms/solutions/jars" type="java_classes">
-      <sourceRoot location="controlsfx-8.0.6_20.jar" />
       <sourceRoot location="jfxrt.jar" />
+      <sourceRoot location="controlsfx-8.20.7.jar" />
     </modelRoot>
     <modelRoot contentPath="${mowareHome}/fxforms/languages/fxforms/jars" type="java_classes">
       <sourceRoot location="apacheIcons.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${mowareHome}/fx8forms/solutions/jars/controlsfx-8.0.6_20.jar" />
     <stubModelEntry path="${mowareHome}/fx8forms/solutions/jars/jfxrt.jar" />
     <stubModelEntry path="${mowareHome}/fxforms/languages/fxforms/jars/apacheIcons.jar" />
+    <stubModelEntry path="${mowareHome}/fx8forms/solutions/jars/controlsfx-8.20.7.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
