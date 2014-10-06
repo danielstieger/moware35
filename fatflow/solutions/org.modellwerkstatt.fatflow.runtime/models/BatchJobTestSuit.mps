@@ -11,6 +11,7 @@
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
   <import index="oi9j" modelUID="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.annotation@java_stub)" version="-1" />
   <import index="ofql" modelUID="r:d19ed509-ef31-4387-a63e-ca2090eb6503(org.modellwerkstatt.fatflow.runtime.manmapTestSuit)" version="0" />
+  <import index="gyq6" modelUID="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
@@ -129,7 +130,7 @@
       <node role="variable" roleId="un0u.7192042020164640432" type="un0u.ContainerVariable" typeId="un0u.7192042020164640430" id="6801918763283559636" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="waitingTime" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6801918763283559815" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.8603748575144933616" resolveInfo="Measure" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gyq6.5182089857300182027" resolveInfo="MoMeasure" />
         </node>
       </node>
       <node role="variable" roleId="un0u.7192042020164640432" type="un0u.ContainerVariable" typeId="un0u.7192042020164640430" id="3821586749038072244" nodeInfo="ng">
@@ -143,7 +144,7 @@
             <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="6801918763283559974" nodeInfo="nn">
               <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6801918763283560021" nodeInfo="nn">
                 <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="6801918763283560004" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144933618" resolveInfo="Measure" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gyq6.5182089857300182048" resolveInfo="MoMeasure" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6801918763283560057" nodeInfo="nn">
                     <property name="value" nameId="tpee.1070475926801" value="Counting Time" />
                   </node>
@@ -240,7 +241,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6801918763283559636" resolveInfo="waitingTime" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6801918763283560874" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144973544" resolveInfo="start" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gyq6.5182089857300182159" resolveInfo="start" />
                   </node>
                 </node>
               </node>
@@ -313,7 +314,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6801918763283559636" resolveInfo="waitingTime" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6801918763283561344" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144973548" resolveInfo="stop" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gyq6.5182089857300182167" resolveInfo="stop" />
                   </node>
                 </node>
               </node>

@@ -23,6 +23,8 @@
   <import index="26n1" modelUID="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time(org.modellwerkstatt.manmap.solution/org.joda.time@java_stub)" version="-1" />
   <import index="m41l" modelUID="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.jdbc.core(org.modellwerkstatt.manmap.solution/org.springframework.jdbc.core@java_stub)" version="-1" />
   <import index="8553" modelUID="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.springframework.jmx.export.annotation(org.modellwerkstatt.sandbox/org.springframework.jmx.export.annotation@java_stub)" version="-1" />
+  <import index="e2lc" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
+  <import index="gyq6" modelUID="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -30,7 +32,6 @@
   <import index="epq1" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" version="-1" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="r5tz" modelUID="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" version="41" implicit="yes" />
-  <import index="e2lc" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" implicit="yes" />
   <root type="un0u.Command" typeId="un0u.7192042020163999178" id="594565203028873643" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Step0 Checkout" />
     <property name="commandType" nameId="un0u.943115150037896890" value="GRAPH_OWNER" />
@@ -789,7 +790,7 @@
       <property name="name" nameId="tpck.1169194664001" value="measure" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8603748575144799884" nodeInfo="nn" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="8603748575144952511" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="28jr.8603748575144933616" resolveInfo="Measure" />
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="gyq6.5182089857300182027" resolveInfo="MoMeasure" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="7116957854515168607" nodeInfo="igu">
@@ -854,7 +855,7 @@
           <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="8603748575144952532" nodeInfo="nn">
             <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="8603748575144952535" nodeInfo="nn">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="8603748575144952539" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144933618" resolveInfo="Measure" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gyq6.5182089857300182048" resolveInfo="MoMeasure" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="8603748575144952540" nodeInfo="nn">
                   <property name="value" nameId="tpee.1070475926801" value="loop time" />
                 </node>
@@ -881,7 +882,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8603748575144697506" resolveInfo="measure" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8603748575144912142" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144942767" resolveInfo="toString" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gyq6.5182089857300182198" resolveInfo="toString" />
             </node>
           </node>
         </node>
@@ -974,7 +975,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8603748575144697506" resolveInfo="measure" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8603748575144954334" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="28jr.8603748575144942578" resolveInfo="cycle" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="gyq6.5182089857300182138" resolveInfo="cycle" />
             </node>
           </node>
         </node>
