@@ -1850,8 +1850,8 @@
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="un0u.ModelRepositoryMethod" typeId="un0u.8009046666043401704" id="7032039167863584495" nodeInfo="igu">
-      <property name="methodType" nameId="un0u.8009046666043401713" value="SAVE" />
-      <property name="name" nameId="tpck.1169194664001" value="saveTestObject" />
+      <property name="methodType" nameId="un0u.8009046666043401713" value="CHECKIN" />
+      <property name="name" nameId="tpck.1169194664001" value="checkinTestObject" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7032039167863584496" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="7032039167863584497" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="6251593130501265337" nodeInfo="nn">
@@ -7069,7 +7069,7 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7032039167864988052" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="un0u.OperationCall" typeId="un0u.7926373352206300571" id="7032039167864988053" nodeInfo="ng">
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="saveTestObject" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="checkinTestObject" />
             <link role="runtimeHandledObject" roleId="un0u.7926373352206300596" targetNodeId="3572493221071471693" resolveInfo="TestModelRepo" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682206169" nodeInfo="nn">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7032039167864988041" resolveInfo="to" />
@@ -7203,7 +7203,7 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7032039167864988155" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="un0u.OperationCall" typeId="un0u.7926373352206300571" id="7032039167864988156" nodeInfo="ng">
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="saveTestObject" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="checkinTestObject" />
             <link role="runtimeHandledObject" roleId="un0u.7926373352206300596" targetNodeId="3572493221071471693" resolveInfo="TestModelRepo" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682204913" nodeInfo="nn">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3262649880241442083" resolveInfo="reloadedTest" />
@@ -7654,7 +7654,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3262649880241442294" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="un0u.OperationCall" typeId="un0u.7926373352206300571" id="3262649880241442295" nodeInfo="ng">
             <link role="runtimeHandledObject" roleId="un0u.7926373352206300596" targetNodeId="3572493221071471693" resolveInfo="TestModelRepo" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="saveTestObject" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="checkinTestObject" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682205771" nodeInfo="nn">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3262649880241442363" resolveInfo="to" />
             </node>
@@ -7700,7 +7700,7 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3262649880241442310" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="un0u.OperationCall" typeId="un0u.7926373352206300571" id="3262649880241442311" nodeInfo="ng">
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="saveTestObject" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="checkinTestObject" />
             <link role="runtimeHandledObject" roleId="un0u.7926373352206300596" targetNodeId="3572493221071471693" resolveInfo="TestModelRepo" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682206343" nodeInfo="nn">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3262649880241442378" resolveInfo="reloadedTest" />
@@ -7737,7 +7737,7 @@
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3262649880241442326" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068580123156" type="un0u.OperationCall" typeId="un0u.7926373352206300571" id="3262649880241442327" nodeInfo="ng">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="saveTestObject" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="checkinTestObject" />
                 <link role="runtimeHandledObject" roleId="un0u.7926373352206300596" targetNodeId="3572493221071471693" resolveInfo="TestModelRepo" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682206555" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3262649880241442363" resolveInfo="to" />
@@ -7826,7 +7826,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3262649880241442413" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="un0u.OperationCall" typeId="un0u.7926373352206300571" id="3262649880241442414" nodeInfo="ng">
             <link role="runtimeHandledObject" roleId="un0u.7926373352206300596" targetNodeId="3572493221071471693" resolveInfo="TestModelRepo" />
-            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="saveTestObject" />
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="checkinTestObject" />
             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682206103" nodeInfo="nn">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3262649880241442443" resolveInfo="to" />
             </node>
@@ -11124,7 +11124,7 @@
                         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6281920345769901295" nodeInfo="nn">
                           <node role="expression" roleId="tpee.1068580123156" type="un0u.OperationCall" typeId="un0u.7926373352206300571" id="6281920345769901296" nodeInfo="ng">
                             <link role="runtimeHandledObject" roleId="un0u.7926373352206300596" targetNodeId="3572493221071471693" resolveInfo="TestModelRepo" />
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="saveTestObject" />
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="checkinTestObject" />
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682204931" nodeInfo="nn">
                               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6281920345769901303" resolveInfo="obj1" />
                             </node>
@@ -11441,7 +11441,7 @@
                         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6281920345769938223" nodeInfo="nn">
                           <node role="expression" roleId="tpee.1068580123156" type="un0u.OperationCall" typeId="un0u.7926373352206300571" id="6281920345769938224" nodeInfo="ng">
                             <link role="runtimeHandledObject" roleId="un0u.7926373352206300596" targetNodeId="3572493221071471693" resolveInfo="TestModelRepo" />
-                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="saveTestObject" />
+                            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7032039167863584495" resolveInfo="checkinTestObject" />
                             <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="82306186682205391" nodeInfo="nn">
                               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6281920345769938199" resolveInfo="obj1" />
                             </node>
@@ -26312,6 +26312,20 @@
         </node>
       </node>
       <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="5505654805890699960" nodeInfo="ng" />
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="6193476758195253173" nodeInfo="ng">
+        <property name="name" nameId="tpck.1169194664001" value="transactionManager" />
+        <node role="className" roleId="un0u.478945708907003567" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6193476758195253174" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="org.springframework.jdbc.datasource.DataSourceTransactionManager" />
+        </node>
+        <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="6193476758195253175" nodeInfo="ng">
+          <property name="ref" nameId="un0u.478945708938010900" value="true" />
+          <property name="name" nameId="tpck.1169194664001" value="dataSource" />
+          <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6193476758195253176" nodeInfo="nn">
+            <property name="value" nameId="tpee.1070475926801" value="dataSource" />
+          </node>
+        </node>
+      </node>
+      <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigEmpty" typeId="un0u.478945708912703702" id="6193476758195253108" nodeInfo="ng" />
       <node role="elements" roleId="un0u.478945708906994221" type="un0u.OFXConfigInstance" typeId="un0u.478945708907003466" id="5505654805890699961" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="dataSource" />
         <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="5505654805890699962" nodeInfo="ng">
