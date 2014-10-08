@@ -1685,8 +1685,8 @@
       <node role="defaultPath" roleId="3ior.7389400916848144618" type="3ior.BuildSourceProjectRelativePath" typeId="3ior.5481553824944787378" id="2013642546067885836" nodeInfo="ng">
         <node role="compositePart" roleId="3ior.7321017245477039051" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2013642546067885839" nodeInfo="nn">
           <property name="head" nameId="3ior.8618885170173601779" value=".." />
-          <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2558947380658338319" nodeInfo="nn">
-            <property name="head" nameId="3ior.8618885170173601779" value="moware35" />
+          <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6913005326791449161" nodeInfo="nn">
+            <property name="head" nameId="3ior.8618885170173601779" value="moware" />
           </node>
         </node>
       </node>
@@ -1698,8 +1698,8 @@
           <property name="head" nameId="3ior.8618885170173601779" value=".." />
           <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2013642546067885868" nodeInfo="nn">
             <property name="head" nameId="3ior.8618885170173601779" value="javaexe" />
-            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2558947380658338937" nodeInfo="nn">
-              <property name="head" nameId="3ior.8618885170173601779" value="MPS313" />
+            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6913005326791449787" nodeInfo="nn">
+              <property name="head" nameId="3ior.8618885170173601779" value="MPS30" />
             </node>
           </node>
         </node>
