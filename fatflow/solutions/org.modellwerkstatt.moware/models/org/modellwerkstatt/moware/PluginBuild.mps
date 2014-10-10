@@ -1185,12 +1185,6 @@
             <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="2013642546067907392" resolveInfo="org.modellwerkstatt.forms.sandbox" />
           </node>
         </node>
-        <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="2013642546067915965" nodeInfo="nn">
-          <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="2013642546067915966" nodeInfo="ng">
-            <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
-            <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="ffeo.8939513996048535456" resolveInfo="jetbrains.mps.baseLanguage.search" />
-          </node>
-        </node>
         <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="2013642546067915967" nodeInfo="nn">
           <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyExtendLanguage" typeId="kdzh.4278635856200794926" id="2013642546067915968" nodeInfo="ng">
             <link role="language" roleId="kdzh.4278635856200794928" targetNodeId="2013642546067905864" resolveInfo="org.modellwerkstatt.objectflow" />
@@ -1222,7 +1216,7 @@
           <property name="doNotCompile" nameId="kdzh.1500819558096356884" value="false" />
           <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="1117804404324163947" nodeInfo="nn">
             <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="1117804404324163948" nodeInfo="ng">
-              <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+              <property name="reexport" nameId="kdzh.5253498789149547713" value="true" />
               <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="2013642546067907392" resolveInfo="org.modellwerkstatt.forms.sandbox" />
             </node>
           </node>
@@ -1248,6 +1242,12 @@
             <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="3887085065497907999" nodeInfo="ng">
               <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
               <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="2013642546067905864" resolveInfo="org.modellwerkstatt.objectflow" />
+            </node>
+          </node>
+          <node role="dependencies" roleId="kdzh.5253498789149547704" type="kdzh.BuildMps_ExtractedModuleDependency" typeId="kdzh.7259033139236285166" id="5139125848541560144" nodeInfo="nn">
+            <node role="dependency" roleId="kdzh.7259033139236285167" type="kdzh.BuildMps_ModuleDependencyOnModule" typeId="kdzh.5253498789149585690" id="5139125848541560145" nodeInfo="ng">
+              <property name="reexport" nameId="kdzh.5253498789149547713" value="false" />
+              <link role="module" roleId="kdzh.5253498789149547705" targetNodeId="ffeo.8939513996048535420" resolveInfo="jetbrains.mps.lang.core" />
             </node>
           </node>
         </node>
