@@ -18,11 +18,13 @@
 */
 
 
-.conclusionButtonsBox {
+.comUiConclusionButtonBox {
 	-fx-padding: 5;
 }
 
 .formFlagBorder {
+	/* !!! flag jumping behaviour ?? */
+	
 	-fx-border-color: red; 
 	-fx-border-width: 1;
 }

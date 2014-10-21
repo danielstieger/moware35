@@ -11246,7 +11246,7 @@
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="1175949155998195953" nodeInfo="igu">
       <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="isReadOnly" />
+      <property name="name" nameId="tpck.1169194664001" value="isReadOnlySession" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.BooleanType" typeId="tpee.1070534644030" id="1175949155998195954" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="1175949155998195955" nodeInfo="nn" />
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="1175949155998195956" nodeInfo="sn">
@@ -12201,7 +12201,7 @@
                         <link role="classConcept" roleId="tpee.1182955020723" targetNodeId="6525155817178420451" resolveInfo="map_Command" />
                       </node>
                       <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5186513829535719153" nodeInfo="nn">
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1175949155998195953" resolveInfo="isReadOnly" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1175949155998195953" resolveInfo="isReadOnlySession" />
                       </node>
                     </node>
                     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.IfMacro" typeId="tpf8.1118773211870" id="5186513829535719306" nodeInfo="nn">

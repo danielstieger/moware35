@@ -8482,7 +8482,7 @@
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5728590948228274133" resolveInfo="uiDelegateForm" />
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8165829775236587422" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="quhv.3674730920700487895" resolveInfo="setFlagText" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="quhv.3674730920700422413" resolveInfo="setTitleText" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8165829775236587773" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8165829775236409286" resolveInfo="text" />
               </node>
