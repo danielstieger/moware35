@@ -6051,6 +6051,26 @@
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="6060430893324489913" nodeInfo="nn">
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="6060430893324489916" nodeInfo="sn">
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="2208138926723603209" nodeInfo="nn">
+                  <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="2208138926723603620" nodeInfo="nn">
+                    <property name="text" nameId="tpee.6329021646629104958" value="TODO: is it necessary to request a lock via session? " />
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="2208138926723604380" nodeInfo="nn">
+                  <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="2208138926723604793" nodeInfo="nn">
+                    <property name="text" nameId="tpee.6329021646629104958" value="or better in command container? " />
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="2208138926723605555" nodeInfo="nn">
+                  <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="2208138926723605970" nodeInfo="nn">
+                    <property name="text" nameId="tpee.6329021646629104958" value="wo does display the message? What if a graph edit can not " />
+                  </node>
+                </node>
+                <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="2208138926723606734" nodeInfo="nn">
+                  <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="2208138926723607151" nodeInfo="nn">
+                    <property name="text" nameId="tpee.6329021646629104958" value="optain a lock ? " />
+                  </node>
+                </node>
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="6060430893325208546" nodeInfo="nn">
                   <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="6060430893325208864" nodeInfo="nn">
                     <property name="text" nameId="tpee.6329021646629104958" value="get command in ENABLED_READ ONLY ... " />
