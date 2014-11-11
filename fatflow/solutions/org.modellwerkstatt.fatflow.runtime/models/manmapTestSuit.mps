@@ -4424,6 +4424,35 @@
         </node>
       </node>
     </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="un0u.ModelRepositoryMethod" typeId="un0u.8009046666043401704" id="5898471169163021060" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="findProformaByConstant" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tp2q.ListType" typeId="tp2q.1151688443754" id="5898471169163026212" nodeInfo="in">
+        <node role="elementType" roleId="tp2q.1151688676805" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5898471169163026218" nodeInfo="in">
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1846102710291383948" resolveInfo="Proforma" />
+        </node>
+      </node>
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5898471169163021062" nodeInfo="nn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5898471169163021063" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5898471169163023753" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="r5tz.QueryFromMap" typeId="r5tz.774207833082573402" id="5898471169163023752" nodeInfo="ng">
+            <property name="debugMe" nameId="r5tz.8660793628824932667" value="false" />
+            <property name="readOnly" nameId="r5tz.3572493221071471725" value="true" />
+            <link role="entityMapping" roleId="r5tz.8172309840348950203" targetNodeId="3572493221071361691" resolveInfo="MapProforma" />
+            <node role="queryOperation" roleId="r5tz.774207833082779687" type="r5tz.WhereQuery" typeId="r5tz.774207833082734171" id="5898471169163023767" nodeInfo="ng">
+              <node role="filter" roleId="r5tz.774207833082734172" type="tpee.LessThanOrEqualsExpression" typeId="tpee.1153422305557" id="5898471169170180585" nodeInfo="nn">
+                <node role="leftExpression" roleId="tpee.1081773367580" type="r5tz.MappingReference" typeId="r5tz.1974135804380344167" id="5898471169170180587" nodeInfo="ng">
+                  <link role="fieldMapping" roleId="r5tz.5159282717680535116" targetNodeId="3572493221071361726" />
+                  <link role="mappingSource" roleId="r5tz.1974135804380645439" targetNodeId="5898471169163023752" />
+                </node>
+                <node role="rightExpression" roleId="tpee.1081773367579" type="un0u.DezimalLiteral" typeId="un0u.271985905034983108" id="5898471169170180588" nodeInfo="ng">
+                  <property name="value" nameId="un0u.271985905034983109" value="100.0d" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </root>
   <root type="un0u.BusinessObject" typeId="un0u.1372017518093514468" id="1846102710291384051" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="ProfZeile" />
@@ -10817,7 +10846,7 @@
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="3440456921976149336" nodeInfo="in" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="3440456921976149337" nodeInfo="nn" />
       <node role="description" roleId="un0u.3262649880240512230" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3440456921976149338" nodeInfo="nn">
-        <property name="value" nameId="tpee.1070475926801" value="Checkid loading get with integer 0 key does return a null" />
+        <property name="value" nameId="tpee.1070475926801" value="Checkid loading get with integer 0 key does return a null." />
       </node>
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="3440456921976149339" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.AssertStatement" typeId="tpee.1160998861373" id="3440456921976178674" nodeInfo="nn">
@@ -10829,6 +10858,30 @@
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3440456921976178953" nodeInfo="nn">
                 <property name="value" nameId="tpee.1068580320021" value="0" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="testMethod" roleId="un0u.3262649880240512254" type="un0u.TestMethod" typeId="un0u.3262649880240512220" id="5898471169164464367" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="TEST_51" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="5898471169164464368" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5898471169164464370" nodeInfo="nn" />
+      <node role="description" roleId="un0u.3262649880240512230" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5898471169164464371" nodeInfo="nn">
+        <property name="value" nameId="tpee.1070475926801" value="Query Entity directly with BigDecimal constant." />
+      </node>
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5898471169164464372" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="5898471169164466723" nodeInfo="nn">
+          <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5898471169164466726" nodeInfo="nr">
+            <property name="name" nameId="tpck.1169194664001" value="pros" />
+            <node role="type" roleId="tpee.5680397130376446158" type="tp2q.ListType" typeId="tp2q.1151688443754" id="5898471169164466721" nodeInfo="in">
+              <node role="elementType" roleId="tp2q.1151688676805" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5898471169164470319" nodeInfo="in">
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1846102710291383948" resolveInfo="Proforma" />
+              </node>
+            </node>
+            <node role="initializer" roleId="tpee.1068431790190" type="un0u.OperationCall" typeId="un0u.7926373352206300571" id="5898471169164470375" nodeInfo="ng">
+              <link role="runtimeHandledObject" roleId="un0u.7926373352206300596" targetNodeId="3572493221071471693" resolveInfo="TestModelRepo" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="5898471169163021060" resolveInfo="findProformaByConstant" />
             </node>
           </node>
         </node>
