@@ -1,75 +1,85 @@
+/*
+ * FXBasis.css for the FX8 implementation
+ *
+ * Daniel Stieger
+ * Brighton 2014
+ *
+ */ 
  
- 
 
-.root {  -fx-control-inner-background:  #f0f0f0;
-         -fx-focus-color: #0064ac;
- }
+.root {  
+		/* so basically this template is working with 
+		 * modena.css, the default javafx template. 
+		-fx-base: white;
+       	-fx-accent: #68ABB4;
+		-fx-default-button: #68ABB4;
+		*/
+	
+	    -fx-focus-color: -fx-accent;
+		
+		/* -fx-text-base-color: black;
+		-fx-text-fill: -fx-text-base-color;
+	
+		-fx-font-family: "Segoe UI Semibold";
+		-fx-font-size: 12; */
+        
+}
 
-.formContainer { -fx-padding: 5;
- } 
- /* -fx-border-width: 1;
-    -fx-border-color: red;
-} */
 
-.tableForm { -fx-padding: 0 5 0 5;
+.FX8FormContainer {
+   -fx-padding: 5;
+} 
+
+.FX8FormTitleLabel {
+	-fx-text-fill: -fx-accent;
+	-fx-font-weight: bold;
+}
+
+.FX8FormFlagLabel {
+	-fx-text-fill: #FF0000;
+	-fx-font-weight: bold;
+}
+
+.FX8FromFlagBorder {
+   -fx-border-width: 1;
+   -fx-border-color: #FF0000;
+}
+
+
+.FX8TableForm { -fx-padding: 0 5 0 5;
  } 
  /*-fx-border-width: 1;
    -fx-border-color: green;
 } */
 
-.tabForm { } 
+.FX8TabForm { } 
 /* -fx-border-width: 1;
    -fx-border-color: blue;
  } */
 
-.formstopPane { -fx-padding: 5;
- } 
-
-.flagpane-title { -fx-text-fill: red;
- }
-
-.msgbox {-fx-background-color: #dedede;
-         -fx-border-insets: 5 5 5 5;
-         -fx-border-color: #494949;
-         -fx-border-width: 1;
- }
-
-.shortMessageLabel {-fx-font-size: 14;
- }
-
-.messageBoxScrollPane { -fx-background-color: null;
-                        -fx-border-width: 0;
-                        -fx-padding: 20;
- } 
-
-.button { -fx-background-color: -fx-shadow-highlight-color, linear-gradient(#1891e9, #106aa9), linear-gradient(#1867a9, #106aa9), linear-gradient(#0067a9, #0064ac);
-          -fx-background-radius: 3;
-          -fx-padding: 3 7 3 7;
-          -fx-font: bold 13 arial;
-          -fx-text-fill: white;
-} 
-
-.button:hover { -fx-background-color: -fx-shadow-highlight-color, linear-gradient(#0064ac, #005089), linear-gradient(#1867a9, #106aa9), linear-gradient(#0087e9, #0064ac);
-                -fx-background-radius: 3;
-                -fx-padding: 3 7 3 7;
-                -fx-font: bold 13 arial;
-                -fx-text-fill: white;
-} 
-
-.conclusionButtonBox { -fx-spacing: 10;
+.FX8ConclusionButtonsBox { -fx-spacing: 10;
                        -fx-padding: 2 10 5 10;
 } 
+
+.msgboxTextLabel {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+}
+
+.msgboxImagePadding {
+    -fx-padding: 20;
+}
+
+
+
+
 
 .tabelCellLabel { 
 /* -fx-ellipsis-string: "";
  */ 
    -fx-min-width: 0;
 }  
-
-.titleLabel { -fx-font-size: 13;
-              -fx-font-weight: bold;
-              -fx-text-fill: #0064ac;
- }
 
 .table-view .column-header { -fx-size: 11;
                              -fx-font-size: 12;
@@ -127,19 +137,4 @@
 }
 
 .delegateControlStatus:disabled { -fx-opacity: 0.65;
- }
-
-.delegate-validation-error { -fx-border-color: red;
-                             -fx-border-width: 2;
- } 
-
-.notificationbox {-fx-background-color: #edd824;
-                  -fx-border-insets: 5 5 5 5;
-                  -fx-border-color: #494949;
-                  -fx-border-width: 1;
- }
-
-.notificationLabel { -fx-border-color: #494949;
-                     -fx-border-width: 0 0 1 0;
-                     -fx-padding: 0 0 5 0;
  }

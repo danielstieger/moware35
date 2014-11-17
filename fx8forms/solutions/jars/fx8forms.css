@@ -18,29 +18,29 @@
 */
 
 
-.comUiConclusionButtonBox {
+.FX8ConclusionButtonsBox {
 	-fx-padding: 5;
 }
 
-.formFlagBorder {
+.FX8FromFlagBorder {
 	/* !!! flag jumping behaviour ?? */
 	
 	-fx-border-color: red; 
 	-fx-border-width: 1;
 }
 
-.formFlagLabel {
+.FX8FormFlagLabel {
 	-fx-text-fill: red;
 }
 
-.formTitleLabel {
+.FX8FormTitleLabel {
     -fx-font-size: 11pt;
     -fx-font-family: "Segoe UI Light";
     -fx-text-fill: #0084a7;
 
 }
 
-.FormContainer {
+.FX8FormContainer {
 	-fx-border-color: red;
 	-fx-border-width: 1;
 	-fx-padding: 5;
