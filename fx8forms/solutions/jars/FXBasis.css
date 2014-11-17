@@ -61,6 +61,7 @@
                        -fx-padding: 2 10 5 10;
 } 
 
+
 .msgboxTextLabel {
     -fx-font-size: 11pt;
     -fx-font-family: "Segoe UI Light";
@@ -70,6 +71,8 @@
 .msgboxImagePadding {
     -fx-padding: 20;
 }
+
+
 
 
 
