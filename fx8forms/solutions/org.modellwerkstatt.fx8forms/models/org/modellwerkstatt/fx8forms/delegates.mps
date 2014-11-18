@@ -3362,7 +3362,7 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6881830734647231216" nodeInfo="nn">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3cy2.~Node%dsetStyle(java%dlang%dString)%cvoid" resolveInfo="setStyle" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6881830734647231217" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: red; -fx-border-width: 0;" />
+                    <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: -error-red; -fx-border-width: 0;" />
                   </node>
                 </node>
               </node>
@@ -3390,7 +3390,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6881830734647231242" nodeInfo="nn">
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3cy2.~Node%dsetStyle(java%dlang%dString)%cvoid" resolveInfo="setStyle" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6881830734647231243" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: red; -fx-border-width: 1;" />
+                      <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: -error-red; -fx-border-width: 1;" />
                     </node>
                   </node>
                 </node>
@@ -4335,7 +4335,7 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3975159278465952879" nodeInfo="nn">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3cy2.~Node%dsetStyle(java%dlang%dString)%cvoid" resolveInfo="setStyle" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3975159278465952880" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: red; -fx-border-width: 0;" />
+                    <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: -error-red; -fx-border-width: 0;" />
                   </node>
                 </node>
               </node>
@@ -4363,7 +4363,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3975159278465952901" nodeInfo="nn">
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3cy2.~Node%dsetStyle(java%dlang%dString)%cvoid" resolveInfo="setStyle" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3975159278465952902" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: red; -fx-border-width: 1;" />
+                      <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: -error-red; -fx-border-width: 1;" />
                     </node>
                   </node>
                 </node>
@@ -6064,7 +6064,7 @@
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2282005205977997239" nodeInfo="nn">
                   <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3cy2.~Node%dsetStyle(java%dlang%dString)%cvoid" resolveInfo="setStyle" />
                   <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2282005205977997240" nodeInfo="nn">
-                    <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: red; -fx-border-width: 0;" />
+                    <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: -error-red; -fx-border-width: 0;" />
                   </node>
                 </node>
               </node>
@@ -6092,7 +6092,7 @@
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2282005205977997261" nodeInfo="nn">
                     <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="3cy2.~Node%dsetStyle(java%dlang%dString)%cvoid" resolveInfo="setStyle" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2282005205977997262" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: red; -fx-border-width: 1;" />
+                      <property name="value" nameId="tpee.1070475926801" value="-fx-border-color: -error-red; -fx-border-width: 1;" />
                     </node>
                   </node>
                 </node>

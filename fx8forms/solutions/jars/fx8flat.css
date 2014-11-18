@@ -1,0 +1,260 @@
+/*
+ * Flat FX8 Theme
+ * Dan Stieger
+ * Brighton 2014
+ *
+ *
+ */
+
+
+
+
+.root {
+    /* color settings 
+     */
+
+    -fx-text-base-color: black;
+    -fx-accent: #4387FD;
+    -fx-base: #f4f4f4; 
+	-dark: black;
+	-flatter-blue: -fx-accent;
+	-error-red: #D14836;
+
+    -fx-text-fill: -fx-text-base-color;
+    -fx-font-family: 'Helvetica';
+    -fx-font-size: 14.0px;
+    
+    -fx-disabled-opacity: 0.6;
+    -fx-focus-color: -fx-accent;
+
+
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Label                                                                       *
+ *                                                                             *
+ ******************************************************************************/
+
+.label {
+    -fx-text-fill: -fx-text-base-color;
+}
+
+.label:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+.label:show-mnemonics > .mnemonic-underline {
+    -fx-stroke: -fx-text-base-color;
+} 
+
+
+/*******************************************************************************
+ *                                                                             *
+ * Button & ToggleButton                                                       *
+ *                                                                             *
+ ******************************************************************************/
+ 
+.toggle-button, .button{
+	-fx-background-color: -fx-accent;
+    -fx-background-insets:  0.0;
+    -fx-background-radius: 2.0;
+    -fx-border-width: 0.0;
+    -fx-padding: 0.5em;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.toggle-button:focused,
+.button:focused,
+.button:default:focused {
+       -fx-background-color: derive(-fx-accent, 50.0%);
+}
+
+.toggle-button:focused:selected {
+       -fx-background-color: derive(-fx-accent, 50.0%), derive(-fx-accent, -20.0%);
+       -fx-background-insets: 0.0, 0.2em;
+}
+
+.toggle-button:armed,
+.toggle-button:selected,
+.button:armed,
+.button:default:armed {
+     -fx-background-color: derive(-fx-accent, -20.0%);
+}
+
+
+/*******************************************************************************
+ *                                                                             *
+ * TextField & TextArea                                                        *
+ *                                                                             *
+ ******************************************************************************/
+
+.text-area , .text-field {
+	-fx-text-fill: -fx-accent;
+    -fx-background-color: white;
+    -fx-background-insets:  0.0;
+    -fx-background-radius: 2.0;
+    -fx-padding: 0.3em;
+    -fx-border-width: 0.0;
+    -fx-prompt-text-fill: derive(-dark, 50.0%);
+    -fx-highlight-fill: rgb(94.0, 203.0, 234.0);
+}
+
+.text-area .text, .text-field > * > .text {
+    -fx-effect: null; 
+    -fx-fill: -dark;
+}
+
+.text-area {
+    -fx-padding: 0.15em;
+}
+
+.text-area .content {
+    -fx-padding: 0.7em;
+    -fx-border-width: 0.0;
+    -fx-background-color: transparent;
+}
+
+.text-area:focused  .content {
+     -fx-background-color: transparent;
+}
+
+.text-area:focused, .text-field:focused {
+    -fx-background-color: -flatter-blue, derive(rgb(94.0, 203.0, 234.0), 80.0%);
+    -fx-background-insets: 0.0, 0.2em;
+    -fx-background-radius: 1.0;
+}
+
+.text-area:disabled, .text-field:disabled {
+    -fx-text-fill: -dark;
+    -fx-opacity: 0.9;
+}
+
+.scroll-bar:vertical > .track-background,
+.scroll-bar:horizontal > .track-background{
+    -fx-background-color: derive(rgb(94.0, 203.0, 234.0), 50.0%);
+    -fx-background-insets: 0.0;
+}
+
+.scroll-bar:vertical > .thumb,
+.scroll-bar:horizontal > .thumb {
+    -fx-background-color: -flatter-blue;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 0.0;
+}
+
+.scroll-bar > .increment-button, 
+.scroll-bar > .decrement-button,
+.scroll-bar:hover > .increment-button, 
+.scroll-bar:hover > .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar > .increment-button > .increment-arrow,
+.scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: white;
+}
+
+.scroll-bar > .track-background{
+    -fx-background-color:transparent;
+}
+
+
+
+/*******************************************************************************
+ *                                                                             *
+ * ComboBox                                                                    *
+ *                                                                             *
+ ******************************************************************************/
+ 
+.combo-box-base  {
+	-fx-text-fill: -fx-accent;
+    -fx-background-color: white;
+    -fx-background-insets:  0.0;
+    -fx-background-radius: 2.0;
+    -fx-padding: 0.0em;
+    -fx-border-width: 0.0;
+    -fx-prompt-text-fill: derive(-dark, 50.0%);
+    -fx-highlight-fill: rgb(94.0, 203.0, 234.0);
+}
+
+.combo-box-base .list-cell {
+	-fx-text-fill: -fx-accent;
+}
+
+.combo-box-base:hover {
+     
+}
+ 
+.combo-box-base:focused {
+    -fx-background-color: -flatter-blue, derive(rgb(94.0, 203.0, 234.0), 80.0%);
+    -fx-background-insets: 0.0, 0.2em;
+    -fx-background-radius: 1.0;
+}
+ 
+.combo-box-base:disabled {
+    -fx-opacity: 0.9;
+    -fx-background-color: white;
+}
+
+.combo-box-base:disabled .list-cell {
+	-fx-text-fill: -dark;
+	-fx-opacity: 0.9;
+	-fx-font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+.FX8FormContainer {
+   -fx-padding: 5;
+} 
+
+.FX8FormTitleLabel {
+	-fx-text-fill: -fx-accent;
+	-fx-font-weight: bold;
+}
+
+.FX8FormFlagLabel {
+	-fx-text-fill: -error-red;
+	-fx-font-weight: bold;
+}
+
+.FX8FromFlagBorder {
+   -fx-border-width: 1;
+   -fx-border-color: -error-red;
+}
+
+
+.FX8TableForm { -fx-padding: 0 5 0 5;
+ } 
+ /*-fx-border-width: 1;
+   -fx-border-color: green;
+} */
+
+.FX8TabForm { } 
+/* -fx-border-width: 1;
+   -fx-border-color: blue;
+ } */
+
+.FX8ConclusionButtonsBox { -fx-spacing: 10;
+                       -fx-padding: 2 10 5 10;
+} 
+
+
+.msgboxTextLabel {
+
+}
+
+.msgboxImagePadding {
+    -fx-padding: 20;
+}
