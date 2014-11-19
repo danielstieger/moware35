@@ -15,11 +15,11 @@
 
     -fx-text-base-color: black;
     -fx-accent: #30698C;
-    -fx-base: #f4f4f4;
+    -fx-base: #fdfdfd;
     -flatter-blue: -fx-accent;
-	-error-red: #D14836;
-	-dark: black;
-	-white: white;
+    -error-red: #D14836;
+    -dark: black;
+    -white: white;
     -fx-focus-color: -fx-accent;
 	
     -fx-text-fill: -fx-text-base-color;
@@ -55,11 +55,11 @@
  ******************************************************************************/
  
 .toggle-button, .button{
-	-fx-background-color: -fx-accent;
+    -fx-background-color: -fx-accent;
     -fx-background-insets:  0.0;
     -fx-background-radius: 2.0;
     -fx-border-width: 0.0;
-    -fx-padding: 0.5em;
+    -fx-padding: 0.4em 1.4em 0.4em 1.4em;
     -fx-text-fill: -white;
     -fx-alignment: CENTER;
     -fx-content-display: LEFT;
@@ -218,19 +218,22 @@
  * Menu                                                                        *
  *                                                                             *
  ******************************************************************************/
-
-/* .menu-item {
-    -fx-background-color: -white;
-    -fx-padding: 0.3em;   
+.tab-pane {
+  -fx-background-color: #404140;
 }
- 
+
+.menu-item, .menu-bar {
+    -fx-background-color: -white;
+}
+
+/* 
 .menu-item .label {
 	-fx-text-fill: -fx-accent; */
 }
  
 .menu-item:focused {
      -fx-background: -fx-accent;
-     -fx-background-color: -flatter-blue, derive(rgb(94.0, 203.0, 234.0), 80.0%);;
+     -fx-background-color: -fx-accent;
 }
 
 /* .menu-item:focused .label {
@@ -373,6 +376,11 @@
 .FX8ConclusionButtonsBox { -fx-spacing: 10;
                        -fx-padding: 2 10 5 10;
 } 
+
+.FX8PromptBorder {
+  -fx-border-width: 0 2 2 2;
+  -fx-border-color: derive(-fx-accent, 50.0%);
+}
 
 
 .msgboxTextLabel {
