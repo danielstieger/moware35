@@ -95,7 +95,7 @@
     -fx-background-color: -white;
     -fx-background-insets:  0.0;
     -fx-background-radius: 2.0;
-    -fx-padding: 0.3em;
+    -fx-padding: 0.1em;
     -fx-border-width: 0.0;
     -fx-prompt-text-fill: derive(-dark, 50.0%);
     -fx-highlight-fill: rgb(94.0, 203.0, 234.0);
@@ -107,11 +107,11 @@
 }
 
 .text-area {
-    -fx-padding: 0.15em;
+    -fx-padding: 0.1em;
 }
 
 .text-area .content {
-    -fx-padding: 0.7em;
+    -fx-padding: 0.1em;
     -fx-border-width: 0.0;
     -fx-background-color: transparent;
 }
@@ -218,9 +218,9 @@
  * Menu                                                                        *
  *                                                                             *
  ******************************************************************************/
-.tab-pane {
+/* .tab-pane {
   -fx-background-color: #404140;
-}
+} */
 
 .menu-item, .menu-bar {
     -fx-background-color: -white;
