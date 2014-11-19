@@ -634,8 +634,16 @@
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6916354684230794710" nodeInfo="nn">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="6916354684230794711" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8bsn.~Image%d&lt;init&gt;(java%dlang%dString)" resolveInfo="Image" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6916354684230794716" nodeInfo="nn">
-                  <property name="value" nameId="tpee.1070475926801" value="file:/Users/danielstieger/Downloads/png/quit.png" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2558252587380523703" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="2558252587380522985" nodeInfo="nn">
+                    <link role="classifier" roleId="tpee.1116615189566" targetNodeId="l8ns.~IConsLoader" resolveInfo="IConsLoader" />
+                  </node>
+                  <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2558252587380525715" nodeInfo="nn">
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Class%dgetResourceAsStream(java%dlang%dString)%cjava%dio%dInputStream" resolveInfo="getResourceAsStream" />
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2558252587380525733" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1070475926801" value="delete.png" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -4358,18 +4366,21 @@
                 </node>
                 <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4073401377397578866" nodeInfo="nn">
                   <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="4073401377397578867" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8bsn.~Image%d&lt;init&gt;(java%dlang%dString)" resolveInfo="Image" />
-                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="6916354684230751589" nodeInfo="nn">
-                      <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6916354684230752535" nodeInfo="nn">
-                        <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6916354684230751623" nodeInfo="nn">
-                          <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4073401377397553978" resolveInfo="trigger" />
-                        </node>
-                        <node role="operation" roleId="tpee.1197027833540" type="tpee.FieldReferenceOperation" typeId="tpee.1197029447546" id="6916354684230753086" nodeInfo="nn">
-                          <link role="fieldDeclaration" roleId="tpee.1197029500499" targetNodeId="quhv.1117804404318667323" resolveInfo="imageName" />
-                        </node>
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="8bsn.~Image%d&lt;init&gt;(java%dio%dInputStream)" resolveInfo="Image" />
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2558252587380388951" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpee.ClassifierClassExpression" typeId="tpee.1116615150612" id="2558252587380308400" nodeInfo="nn">
+                        <link role="classifier" roleId="tpee.1116615189566" targetNodeId="l8ns.~IConsLoader" resolveInfo="IConsLoader" />
                       </node>
-                      <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="6916354684230738764" nodeInfo="nn">
-                        <property name="value" nameId="tpee.1070475926801" value="file:/Users/danielstieger/Downloads/png/" />
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2558252587380399840" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Class%dgetResourceAsStream(java%dlang%dString)%cjava%dio%dInputStream" resolveInfo="getResourceAsStream" />
+                        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6916354684230752535" nodeInfo="nn">
+                          <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6916354684230751623" nodeInfo="nn">
+                            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4073401377397553978" resolveInfo="trigger" />
+                          </node>
+                          <node role="operation" roleId="tpee.1197027833540" type="tpee.FieldReferenceOperation" typeId="tpee.1197029447546" id="6916354684230753086" nodeInfo="nn">
+                            <link role="fieldDeclaration" roleId="tpee.1197029500499" targetNodeId="quhv.1117804404318667323" resolveInfo="imageName" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
