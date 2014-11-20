@@ -25,7 +25,7 @@
     -fx-text-fill: -fx-text-base-color;
     -fx-font-family: 'Helvetica';
     -fx-font-size: 14.0px;
-    
+    /* check flag / title lable for it s size also */
     -fx-disabled-opacity: 0.6;
 }
 
@@ -349,11 +349,13 @@
 .FX8FormTitleLabel {
 	-fx-text-fill: -fx-accent;
 	-fx-font-weight: bold;
+	-fx-font-size: 16.0px;
 }
 
 .FX8FormFlagLabel {
 	-fx-text-fill: -error-red;
 	-fx-font-weight: bold;
+  -fx-font-size: 16.0px;
 }
 
 .FX8FromFlagBorder {

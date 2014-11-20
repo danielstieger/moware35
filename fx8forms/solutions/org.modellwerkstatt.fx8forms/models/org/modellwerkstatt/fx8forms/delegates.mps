@@ -5703,16 +5703,20 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2282005205977997094" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2282005205977997095" nodeInfo="nn">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2282005205977997096" nodeInfo="nn">
-              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2282005205977997036" resolveInfo="autoCompleteField" />
-            </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2282005205977997097" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4i1a.~Region%dsetMinHeight(double)%cvoid" resolveInfo="setMinHeight" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="2282005205978001940" nodeInfo="nn">
-                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="6881830734647054573" resolveInfo="FX8TextEditor" />
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3975159278465869385" resolveInfo="delegateEditorMinHeight" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="6183602187471430789" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.StatementCommentPart" typeId="tpee.6329021646629175143" id="6183602187471430790" nodeInfo="nn">
+            <node role="commentedStatement" roleId="tpee.6329021646629175144" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2282005205977997094" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2282005205977997095" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2282005205977997096" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2282005205977997036" resolveInfo="autoCompleteField" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="2282005205977997097" nodeInfo="nn">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="4i1a.~Region%dsetMinHeight(double)%cvoid" resolveInfo="setMinHeight" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="2282005205978001940" nodeInfo="nn">
+                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="6881830734647054573" resolveInfo="FX8TextEditor" />
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="3975159278465869385" resolveInfo="delegateEditorMinHeight" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
