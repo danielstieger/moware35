@@ -14,7 +14,7 @@
      */
 
     -fx-text-base-color: black;
-    -fx-accent: #30698C;
+    -fx-accent: #2185C5;
     -fx-base: #fdfdfd;
     -flatter-blue: -fx-accent;
     -error-red: #D14836;
@@ -349,13 +349,13 @@
 .FX8FormTitleLabel {
 	-fx-text-fill: -fx-accent;
 	-fx-font-weight: bold;
-	-fx-font-size: 16.0px;
+	-fx-font-size: 15.0px;
 }
 
 .FX8FormFlagLabel {
 	-fx-text-fill: -error-red;
 	-fx-font-weight: bold;
-  -fx-font-size: 16.0px;
+  -fx-font-size: 15.0px;
 }
 
 .FX8FromFlagBorder {
