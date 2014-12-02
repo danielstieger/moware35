@@ -335,11 +335,62 @@
 
 .table-row-cell .table-cell {  -fx-padding: 0 5 0 5;
                                -fx-insets: 0, 0 0 0 0;
+                               
  }
 
 .table-row-cell:selected .table-cell{
 	-fx-text-fill: -white;
 }
+
+.table-row-cell:filled:selected:focused,
+.table-row-cell:filled:selected{
+    -fx-background-color: darkgray;
+}
+
+
+/* # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */ 
+
+.FX8EditingCell {
+  -fx-background-color: -flatter-blue, derive(rgb(94.0, 203.0, 234.0), 80.0%);
+}
+
+
+.table-row-cell:filled:selected:focused .FX8EditingCell ,
+.table-row-cell:filled:selected .FX8EditingCell {
+  -fx-background-color: -fx-accent;
+}
+
+.FX8EditingCell .text-field  {
+    -fx-background-color: red;
+    -fx-background-insets:  0.0;
+    -fx-background-radius: 1.0;
+    -fx-padding: 0.1em;
+    -fx-border-width: 0.0;
+    -fx-prompt-text-fill: derive(-dark, 50.0%);
+    -fx-highlight-fill: darkgray;
+}
+.FX8EditingCell .text-field > * > .text {
+    -fx-effect: null; 
+    -fx-fill: -dark;
+}
+
+
+.FX8EditingCell .text-field:focused {
+	-fx-text-fill: -white;
+    -fx-background-color: -fx-accent;
+    -fx-background-insets: 0.0, 0.1em;
+    -fx-background-radius: 1.0;
+}
+
+/* maybe relevant if used with meta info */
+.FX8EditingCell .text-field:disabled {
+    -fx-text-fill: -dark;
+    -fx-opacity: 0.9;
+}
+
+
+
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 .FX8FormContainer {
