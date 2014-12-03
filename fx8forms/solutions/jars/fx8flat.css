@@ -68,7 +68,8 @@
 .toggle-button:focused,
 .button:focused,
 .button:default:focused {
-       -fx-background-color: derive(-fx-accent, 50.0%);
+       -fx-background-color: -fx-accent;
+       -fx-font-weight: bold;
 }
 
 .toggle-button:focused:selected {
