@@ -69,7 +69,7 @@
 .button:focused,
 .button:default:focused {
        -fx-background-color: -fx-accent;
-       -fx-font-weight: bold;
+       -fx-text-fill: yellow;
 }
 
 .toggle-button:focused:selected {
@@ -362,7 +362,7 @@
 }
 
 .FX8EditingCell .text-field  {
-    -fx-background-color: red;
+    -fx-background-color: yellow;
     -fx-background-insets:  0.0;
     -fx-background-radius: 1.0;
     -fx-padding: 0.1em;
