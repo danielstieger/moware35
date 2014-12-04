@@ -6602,11 +6602,7 @@
                                                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6434417707183607009" resolveInfo="userInterface" />
                                                   </node>
                                                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="1673750139896297898" nodeInfo="nn">
-                                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6434417707189898074" resolveInfo="showDialog" />
-                                                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="1673750139909801610" nodeInfo="nn">
-                                                      <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="5660009891551078359" resolveInfo="INFO" />
-                                                      <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="5660009891551078281" resolveInfo="IToolkit_AppWindow.MsgType" />
-                                                    </node>
+                                                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6434417707183007823" resolveInfo="setNotification" />
                                                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="1673750139896298114" nodeInfo="nn">
                                                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1673750139896289813" resolveInfo="lockMessage" />
                                                     </node>
@@ -10282,7 +10278,7 @@
         <property name="name" nameId="tpck.1169194664001" value="LOCK_NOT_GOT_READONLY" />
         <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="2942537570822165592" resolveInfo="FDefaultTrans.Key" />
         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1673750139896189544" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="Der (die) Benutzer %s verwenden Ressourcen, die für\ndie Ausführung des Kommandos notwendig sind. Das Kommando\nkann nur mit Leseberechtigug ausgeführt werden." />
+          <property name="value" nameId="tpee.1070475926801" value="%s verwendet Ressourcen, die für die Ausführung des Kommandos notwendig sind (Kommando nur im Lesemodus)." />
         </node>
         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="1673750139896209001" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="" />
