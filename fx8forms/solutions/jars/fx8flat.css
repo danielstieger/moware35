@@ -59,7 +59,7 @@
     -fx-background-insets:  0.0;
     -fx-background-radius: 2.0;
     -fx-border-width: 0.0;
-    -fx-padding: 0.4em 1.4em 0.4em 1.4em;
+    -fx-padding: 0.2em 1.4em 0.2em 1.4em;
     -fx-text-fill: -white;
     -fx-alignment: CENTER;
     -fx-content-display: LEFT;
@@ -444,6 +444,12 @@
   -fx-border-color: -fx-accent;
   -fx-border-width: 1;
   -fx-padding: 4, 4, 4, 4;
+}
+
+
+.FX8StatusButton {
+  -fx-padding: 0.01em 0.1em 0.01em 0.1em;
+  -fx-margin: 0.1em 0.1em 0.1em 0.1em;
 }
 
 .msgboxTextLabel {
