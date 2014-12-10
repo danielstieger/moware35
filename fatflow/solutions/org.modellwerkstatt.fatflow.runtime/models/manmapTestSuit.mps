@@ -4435,7 +4435,7 @@
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5898471169163021063" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5898471169163023753" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="r5tz.QueryFromMap" typeId="r5tz.774207833082573402" id="5898471169163023752" nodeInfo="ng">
-            <property name="debugMe" nameId="r5tz.8660793628824932667" value="false" />
+            <property name="debugMe" nameId="r5tz.8660793628824932667" value="true" />
             <property name="readOnly" nameId="r5tz.3572493221071471725" value="true" />
             <link role="entityMapping" roleId="r5tz.8172309840348950203" targetNodeId="3572493221071361691" resolveInfo="MapProforma" />
             <node role="queryOperation" roleId="r5tz.774207833082779687" type="r5tz.WhereQuery" typeId="r5tz.774207833082734171" id="5898471169163023767" nodeInfo="ng">
