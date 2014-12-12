@@ -988,7 +988,7 @@
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="m373.ClassifierDocComment" typeId="m373.2068944020170241612" id="8229083570639099141" nodeInfo="ng">
       <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099142" nodeInfo="ng">
         <node role="part" roleId="m373.8970989240999019149" type="m373.TextCommentLinePart" typeId="m373.8970989240999019143" id="8229083570639099143" nodeInfo="ng">
-          <property name="text" nameId="m373.8970989240999019144" value="MPreis CAS form result. " />
+          <property name="text" nameId="m373.8970989240999019144" value=" MPreis CAS form result. " />
         </node>
       </node>
       <node role="body" roleId="m373.8465538089690331502" type="m373.CommentLine" typeId="m373.8465538089690331500" id="8229083570639099151" nodeInfo="ng">
