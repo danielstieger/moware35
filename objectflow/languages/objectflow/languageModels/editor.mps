@@ -2221,17 +2221,6 @@
           <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;msg&gt;" />
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.4296094616049751277" />
         </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1642685958888228962" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value="title addon:" />
-          <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="271985905034858533" resolveInfo="O2Detail" />
-          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="5703121552501098451" nodeInfo="nn">
-            <property name="flag" nameId="tpc2.1186414551515" value="true" />
-          </node>
-        </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3748648354049763747" nodeInfo="ng">
-          <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;msg&gt;" />
-          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.3748648354049763742" />
-        </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1642685958888228968" nodeInfo="nn">
           <property name="text" nameId="tpc2.1073389577007" value="command icon:" />
           <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="271985905034858533" resolveInfo="O2Detail" />
@@ -2288,6 +2277,27 @@
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.7192042020164579739" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7192042020165792303" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1847249406501786876" nodeInfo="nn">
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1847249406501786878" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="false" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1642685958888228962" nodeInfo="nn">
+          <property name="text" nameId="tpc2.1073389577007" value="then, calc title addon:" />
+          <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="271985905034858533" resolveInfo="O2Detail" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.IndentLayoutOnNewLineStyleClassItem" typeId="tpc2.1237385578942" id="5703121552501098451" nodeInfo="nn">
+            <property name="flag" nameId="tpc2.1186414551515" value="true" />
+          </node>
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="3748648354049763747" nodeInfo="ng">
+          <property name="noTargetText" nameId="tpc2.1139852716018" value="&lt;msg&gt;" />
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="un0u.3748648354049763742" />
+        </node>
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1847249406501786880" nodeInfo="nn" />
+        <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1847249406501786881" nodeInfo="nn" />
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1847249406501783956" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7192042020165792306" nodeInfo="nn">
