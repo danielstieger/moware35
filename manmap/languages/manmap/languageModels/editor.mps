@@ -920,7 +920,7 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="r5tz.5156615240064015276" resolveInfo="ListJoinOption" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5156615240064015281" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5156615240064015284" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="[join" />
+        <property name="text" nameId="tpc2.1073389577007" value="[listJoin" />
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="871579071900268321" resolveInfo="UserConceptInner" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="5156615240064015286" nodeInfo="ng">
@@ -973,6 +973,12 @@
             </node>
           </node>
         </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.PunctuationLeftStyleClassItem" typeId="tpc2.1233758997495" id="3972477068524685267" nodeInfo="nn">
+          <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3972477068525660020" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="r5tz.3972477068525646974" resolveInfo="readOnly" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5156615240064081972" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="]" />
@@ -989,7 +995,7 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="r5tz.5156615240064101319" resolveInfo="RefJoinOption" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5156615240064101329" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5156615240064101330" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="[join" />
+        <property name="text" nameId="tpc2.1073389577007" value="[refJoin" />
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="871579071900268321" resolveInfo="UserConceptInner" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="5156615240064101331" nodeInfo="ng">
@@ -1024,6 +1030,9 @@
             <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />
           </node>
         </node>
+      </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="3972477068525657011" nodeInfo="ng">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="r5tz.3972477068525653278" resolveInfo="readOnly" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5156615240064101337" nodeInfo="nn">
         <property name="text" nameId="tpc2.1073389577007" value="]" />
