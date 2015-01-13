@@ -514,7 +514,7 @@
                       <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="2085529387343770612" nodeInfo="nn">
                         <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="2085529387343770602" nodeInfo="nn">
                           <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="2085529387343770596" nodeInfo="nn">
-                            <property name="value" nameId="tpee.1070475926801" value="ManmapSQLStatementProvider: in keyEquality - size of lists reference-fields " />
+                            <property name="value" nameId="tpee.1070475926801" value="FATAL: ManmapSQLStatementProvider: in keyEquality - size of lists reference-fields " />
                           </node>
                           <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.VariableReference" typeId="tpee.1068498886296" id="881350737332597901" nodeInfo="nn">
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2085529387343770274" resolveInfo="refFields" />
