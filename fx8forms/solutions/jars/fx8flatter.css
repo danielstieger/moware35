@@ -1,0 +1,558 @@
+/*
+ * Flat FX8 Theme
+ * Dan Stieger
+ * Brighton 2014
+ *
+ *
+ */
+
+
+
+
+.root {
+    /* color settings 
+     */
+
+    -fx-text-base-color: black;
+    -fx-accent: #2185C5;
+    -fx-base: #fdfdfd;
+    -flatter-blue: -fx-accent;
+    -error-red: #D14836;
+    -dark: black;
+    -white: white;
+    -fx-focus-color: -fx-accent;
+	
+    -fx-text-fill: -fx-text-base-color;
+    -fx-font-family: 'Helvetica';
+    -fx-font-size: 14.0px;
+    /* check flag / title lable for it s size also */
+    -fx-disabled-opacity: 0.6;
+}
+
+
+
+
+.scroll-bar{
+    -fx-padding: 0em;
+}
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track {
+    -fx-padding: 0em;
+}
+.scroll-bar:vertical .track-background,
+.scroll-bar:horizontal .track-background {
+    -fx-padding: 0em;
+}
+.scroll-bar:horizontal .thumb {
+    -fx-padding: 0em;
+}
+.scroll-bar:vertical .thumb {
+    -fx-padding: 0em;
+}
+.scroll-bar:horizontal .thumb:hover,
+.scroll-bar:vertical .thumb:hover {
+    -fx-padding: 0em;
+}
+.scroll-bar:horizontal .thumb:pressed,
+.scroll-bar:vertical .thumb:pressed {
+    -fx-padding: 0em;
+}
+.scroll-bar:vertical .increment-button, .scroll-bar:vertical .decrement-button {
+    -fx-padding: 0em;
+}
+.scroll-bar:horizontal .increment-button, .scroll-bar:horizontal .decrement-button {
+    -fx-padding: 0em;
+}
+.scroll-bar:horizontal .increment-arrow {
+    -fx-padding: 0em;
+}
+.scroll-bar:vertical .increment-arrow {
+    -fx-padding: 0em;
+}
+.scroll-bar:horizontal .decrement-arrow {
+    -fx-padding: 0em;
+}
+.scroll-bar:vertical .decrement-arrow {
+    -fx-padding: 0em;
+}
+.scroll-bar:vertical:focused,
+.scroll-bar:horizontal:focused {
+    -fx-padding: 0em;
+}
+
+
+
+/*******************************************************************************
+ *                                                                             *
+ * Label                                                                       *
+ *                                                                             *
+ ******************************************************************************/
+
+
+
+.label {
+    -fx-text-fill: -fx-text-base-color;
+}
+
+.label:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+.label:show-mnemonics > .mnemonic-underline {
+    -fx-stroke: -fx-text-base-color;
+} 
+
+
+/*******************************************************************************
+ *                                                                             *
+ * Button & ToggleButton                                                       *
+ *                                                                             *
+ ******************************************************************************/
+ 
+ .button{
+    -fx-background-color: -fx-accent;
+    -fx-background-insets:  0.0;
+    -fx-background-radius: 2.0;
+    -fx-border-width: 0.0;
+    -fx-padding: 0.2em 1.4em 0.2em 1.4em;
+    -fx-text-fill: -white;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+
+.button:focused,
+.button:default:focused {
+       -fx-background-color: -fx-accent;
+       -fx-text-fill: yellow;
+}
+
+.button:armed,
+.button:default:armed {
+     -fx-background-color: derive(-fx-accent, -20.0%);
+}
+
+
+.toggle-button {
+    -fx-background-color: derive(-fx-accent, -50.0%);
+    -fx-background-insets:  0.0;
+    -fx-background-radius: 2.0;
+    -fx-border-width: 0.0;
+    -fx-padding: 0.0em 0.1em 0.0em 0.1em;
+    -fx-text-fill: -white;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.toggle-button:armed,
+.toggle-button:selected {
+     -fx-background-color: yellow;
+     -fx-text-fill: -dark;
+} 
+
+.toggle-button:focused:selected {
+     -fx-background-color: yellow;
+     -fx-text-fill: -dark;
+}
+
+.toggle-button:focused {
+       -fx-background-color: -fx-accent;
+       -fx-text-fill: yellow;
+}
+
+
+
+
+/*******************************************************************************
+ *                                                                             *
+ * TextField & TextArea & ComboBox                                             *
+ *                                                                             *
+ ******************************************************************************/
+
+.text-area , .text-field  {
+	-fx-text-fill: -fx-accent;
+    -fx-background-color: -white;
+    -fx-background-insets:  0.0;
+    -fx-background-radius: 2.0;
+    -fx-padding: 0.1em;
+    -fx-border-width: 0.0;
+    -fx-prompt-text-fill: derive(-dark, 50.0%);
+    -fx-highlight-fill: rgb(94.0, 203.0, 234.0);
+}
+
+.text-area .text, .text-field > * > .text {
+    -fx-effect: null; 
+    -fx-fill: -dark;
+}
+
+.text-area {
+    -fx-padding: 0.1em;
+}
+
+.text-area .content {
+    -fx-padding: 0.1em;
+    -fx-border-width: 0.0;
+    -fx-background-color: transparent;
+}
+
+.text-area:focused  .content {
+     -fx-background-color: transparent;
+}
+
+.text-area:focused, .text-field:focused {
+    -fx-background-color: -flatter-blue, derive(rgb(94.0, 203.0, 234.0), 80.0%);
+    -fx-background-insets: 0.0, 0.2em;
+    -fx-background-radius: 1.0;
+}
+
+.text-area:disabled, .text-field:disabled {
+    -fx-text-fill: -dark;
+    -fx-opacity: 0.9;
+}
+
+.scroll-bar:vertical > .track-background,
+.scroll-bar:horizontal > .track-background{
+    -fx-background-color: derive(rgb(94.0, 203.0, 234.0), 50.0%);
+    -fx-background-insets: 0.0;
+}
+
+.scroll-bar:vertical > .thumb,
+.scroll-bar:horizontal > .thumb {
+    -fx-background-color: -flatter-blue;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 0.0;
+}
+
+.scroll-bar > .increment-button, 
+.scroll-bar > .decrement-button,
+.scroll-bar:hover > .increment-button, 
+.scroll-bar:hover > .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar > .increment-button > .increment-arrow,
+.scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: -white;
+}
+
+.scroll-bar > .track-background{
+    -fx-background-color:transparent;
+}
+
+
+
+/*******************************************************************************
+ *                                                                             *
+ * ComboBox                                                                    *
+ *                                                                             *
+ ******************************************************************************/
+ 
+ 
+.combo-box-base  {
+	-fx-text-fill: -fx-accent;
+    -fx-background-color: -white;
+    -fx-background-insets:  0.0;
+    -fx-background-radius: 2.0;
+    -fx-padding: 0.0em;
+    -fx-border-width: 0.0;
+    -fx-prompt-text-fill: derive(-dark, 50.0%);
+    -fx-highlight-fill: rgb(94.0, 203.0, 234.0);
+}
+
+.combo-box-base .list-cell {
+	-fx-text-fill: -fx-accent;
+}
+
+.combo-box-popup .list-view .list-cell {
+	-fx-text-fill: -dark;
+}
+
+
+.combo-box-base:hover {
+     
+}
+ 
+.combo-box-base:focused {
+    -fx-background-color: -flatter-blue, derive(rgb(94.0, 203.0, 234.0), 80.0%);
+    -fx-background-insets: 0.0, 0.2em;
+    -fx-background-radius: 1.0;
+}
+ 
+.combo-box-base:disabled {
+    -fx-opacity: 0.9;
+    -fx-background-color: -white;
+}
+
+.combo-box-base:disabled .list-cell {
+	-fx-text-fill: -dark;
+	-fx-opacity: 0.9;
+	-fx-font-weight: normal;
+}
+
+
+
+
+/*******************************************************************************
+ *                                                                             *
+ * Menu                                                                        *
+ *                                                                             *
+ ******************************************************************************/
+/* .tab-pane {
+  -fx-background-color: #404140;
+} */
+
+.menu-item, .menu-bar {
+    -fx-background-color: -white;
+}
+
+/* 
+.menu-item .label {
+	-fx-text-fill: -fx-accent; */
+}
+ 
+.menu-item:focused {
+     -fx-background: -fx-accent;
+     -fx-background-color: -fx-accent;
+}
+
+/* .menu-item:focused .label {
+     -fx-text-fill: -white;
+} */
+
+.menu-item:pressed
+{
+    -fx-background-color: #212121;
+    -fx-text-fill: -white;
+}
+ 
+.menu-item:pressed .label
+{
+    -fx-text-fill: -white;
+}
+
+.menu-button  {
+	-fx-text-fill: -fx-accent;
+    -fx-background-color: -white;
+    -fx-background-insets:  0.0;
+    -fx-background-radius: 2.0;
+    -fx-padding: 0.2em 0.4em 0.2em 0.4em;
+    -fx-border-width: 0.0;
+    -fx-prompt-text-fill: derive(-dark, 50.0%);
+    -fx-highlight-fill: rgb(94.0, 203.0, 234.0);
+}
+
+.menu-button:focused {
+    -fx-background-color: -flatter-blue, derive(rgb(94.0, 203.0, 234.0), 80.0%);
+    -fx-background-insets: 0.0, 0.2em;
+    -fx-background-radius: 1.0;
+}
+
+
+
+
+.context-menu {
+    -fx-background-color: -white;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 0 0 0, 0 0 0 0, 0 0 0 0;
+    -fx-padding: 0.333333em 0em 0.333333em 0em; /* 4 1 4 1 */
+     
+    /* TODO: the border color below is not being respected - it appears as gray instead of black*/
+    -fx-border-color: #212121;
+    -fx-border-style: solid;
+}
+ 
+.context-menu .separator .line{
+    -fx-padding: 0.0em 0.333333em 0.0em 0.333333em;  /*0 4 0 4 */
+    -fx-border-style: solid;
+    -fx-background-color: #c2c2c2;
+    -fx-border-width: 0.5px;
+}
+ 
+
+
+
+/*******************************************************************************
+ *                                                                             *
+ * SplitPane                                                                   *
+ *                                                                             *
+ ******************************************************************************/
+
+.split-pane > .split-pane-divider {
+	-fx-background-insets: 0;
+    -fx-padding: 0 0.01em 0 0.01em; /* 0 3 0 3 */
+}
+
+
+
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+.tabelCellLabel { 
+   -fx-min-width: 0;
+}  
+
+.table-view {
+	-fx-background-insets: 0;
+}
+
+.table-view .filler {
+	-fx-background-color: -white;
+}
+.table-view .column-header { -fx-size: 11;
+                             /* -fx-font-size: 12; */
+                            -fx-padding: 0px;
+                             -fx-background-color: -white;
+}
+
+.table-row-cell {  -fx-cell-size: 19;
+                   -fx-padding: 0;
+                   -fx-insets: 0, 0 0 0 0;
+ }
+
+.table-row-cell .table-cell {  -fx-padding: 0 5 0 5;
+                               -fx-insets: 0, 0 0 0 0;
+                               
+ }
+
+.table-row-cell:selected .table-cell{
+	-fx-text-fill: -white;
+}
+
+.table-row-cell:filled:selected:focused,
+.table-row-cell:filled:selected{
+    -fx-background-color: darkgray;
+}
+
+
+/* # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  */ 
+.FX8EditCellBigdeci {
+  -fx-background-color: -flatter-blue, derive(rgb(94.0, 203.0, 234.0), 80.0%);
+}
+
+
+.table-row-cell:filled:selected:focused .FX8EditCellBigdeci ,
+.table-row-cell:filled:selected .FX8EditCellBigdeci {
+  -fx-background-color: -fx-accent;
+}
+
+/* ---------------------------------------------------------------------- */
+.FX8EditCellBigdeci .text-field  {
+    -fx-background-color: yellow;
+    -fx-background-insets:  0.0;
+    -fx-background-radius: 1.0;
+    -fx-padding: 0.0em;
+    -fx-border-width: 0.0;
+    -fx-prompt-text-fill: derive(-dark, 50.0%);
+    -fx-highlight-fill: darkgray;
+}
+.FX8EditCellBigdeci .text-field > * > .text {
+    -fx-effect: null; 
+    -fx-fill: -dark;
+}
+
+
+.FX8EditCellBigdeci .text-field:focused {
+    -fx-text-fill: -white;
+    -fx-background-color: -fx-accent;
+    -fx-background-insets: 0.0, 0.1em;
+    -fx-background-radius: 1.0;
+}
+
+/* maybe relevant if used with meta info */
+.FX8EditCellBigdeci .text-field:disabled {
+    -fx-text-fill: -dark;
+    -fx-opacity: 0.9;
+}
+
+
+/* - - - - - - - - - - - - - - - -- - - - - - - - */
+
+.FX8EditCellStatusRadioEditor {
+	-fx-spacing: 10;
+}
+
+.FX8EditCellStatus {
+  -fx-background-color: -flatter-blue, derive(rgb(94.0, 203.0, 234.0), 80.0%);
+}
+
+.table-row-cell:filled:selected:focused .FX8EditCellStatus ,
+.table-row-cell:filled:selected .FX8EditCellStatus {
+  -fx-background-color: -fx-accent;
+}
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+.FX8FormContainer {
+   -fx-padding: 5;
+} 
+
+.FX8FormTitleLabel {
+	-fx-text-fill: -fx-accent;
+	-fx-font-weight: bold;
+	-fx-font-size: 15.0px;
+}
+
+.FX8FormFlagLabel {
+	-fx-text-fill: -error-red;
+	-fx-font-weight: bold;
+  -fx-font-size: 15.0px;
+}
+
+.FX8FromFlagBorder {
+   -fx-border-width: 1;
+   -fx-border-color: -error-red;
+}
+
+
+.FX8TableForm { -fx-padding: 0 5 0 5;
+ } 
+ /*-fx-border-width: 1;
+   -fx-border-color: green;
+} */
+
+.FX8TableSearchField {
+   -fx-border-width: 1;
+   -fx-border-color: -fx-accent;
+}
+
+.FX8TabForm { } 
+/* -fx-border-width: 1;
+   -fx-border-color: blue;
+ } */
+
+.FX8ConclusionButtonsBox { -fx-spacing: 10;
+                       -fx-padding: 2 10 5 10;
+} 
+
+.FX8PromptBorder {
+  -fx-border-width: 0 2 2 2;
+  -fx-border-color: derive(-fx-accent, 50.0%);
+}
+
+.FX8NotificationPaneLabel {
+  -fx-text-fill: -fx-accent;
+}
+
+.FX8NotificationPane {
+  -fx-border-color: -fx-accent;
+  -fx-border-width: 1;
+  -fx-padding: 4, 4, 4, 4;
+}
+
+
+.FX8StatusButton {
+  -fx-padding: 0.01em 0.1em 0.01em 0.1em;
+  -fx-margin: 0.1em 0.1em 0.1em 0.1em;
+}
+
+.msgboxTextLabel {
+
+}
+
+.msgboxImagePadding {
+    -fx-padding: 20;
+}
+
