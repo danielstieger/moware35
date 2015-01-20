@@ -232,13 +232,13 @@
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="8614237996264713073" nodeInfo="nn" />
     <node role="batchTask" roleId="un0u.8399801448178545745" type="un0u.BatchTask" typeId="un0u.8399801448178545728" id="8614237996264713074" nodeInfo="ng">
       <property name="idleTimeout" nameId="un0u.8399801448180977990" value="30000" />
-      <property name="cronSec" nameId="un0u.983826980459555832" value="*/5" />
+      <property name="cronSec" nameId="un0u.983826980459555832" value="*/10" />
       <property name="cronMin" nameId="un0u.983826980459572166" value="*" />
       <property name="cronHour" nameId="un0u.983826980459572167" value="*" />
       <property name="cronDayOfMonth" nameId="un0u.983826980459572168" value="*" />
       <property name="cronMonth" nameId="un0u.983826980459572169" value="*" />
       <property name="cronDayOfWeek" nameId="un0u.983826980459572170" value="*" />
-      <property name="numberOfInstances" nameId="un0u.385689203890330475" value="2" />
+      <property name="numberOfInstances" nameId="un0u.385689203890330475" value="1" />
       <property name="name" nameId="tpck.1169194664001" value="This is a simple Task" />
       <node role="variable" roleId="un0u.7192042020164640432" type="un0u.ContainerVariable" typeId="un0u.7192042020164640430" id="6801918763277003424" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="iNum" />
