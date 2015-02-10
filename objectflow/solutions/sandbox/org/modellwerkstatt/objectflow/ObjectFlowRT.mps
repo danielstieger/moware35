@@ -2276,7 +2276,7 @@
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5196923997522442679" nodeInfo="ir">
-        <property name="name" nameId="tpck.1169194664001" value="session" />
+        <property name="name" nameId="tpck.1169194664001" value="parentSession" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5196923997522442681" nodeInfo="in">
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="8564331579639265743" resolveInfo="IOFXSession" />
         </node>
