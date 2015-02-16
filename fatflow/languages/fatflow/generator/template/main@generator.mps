@@ -13421,6 +13421,16 @@
                     </node>
                   </node>
                   <node role="catchBody" roleId="tpee.1164903359218" type="tpee.StatementList" typeId="tpee.1068580123136" id="2942954476735228646" nodeInfo="sn">
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="8378648605489211024" nodeInfo="nn">
+                      <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8378648605489211047" nodeInfo="nn">
+                        <property name="text" nameId="tpee.6329021646629104958" value="inner command can be canceled on purpose" />
+                      </node>
+                    </node>
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="8378648605489211080" nodeInfo="nn">
+                      <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8378648605489211105" nodeInfo="nn">
+                        <property name="text" nameId="tpee.6329021646629104958" value="what is not a proble. might be on purpose, right? " />
+                      </node>
+                    </node>
                     <node role="statement" roleId="tpee.1068581517665" type="un0u.LogStatement" typeId="un0u.2356914237085017468" id="2942954476735513026" nodeInfo="ng">
                       <property name="logLevel" nameId="un0u.830334255848575723" value="ERROR" />
                       <node role="exp" roleId="un0u.2356914237085088917" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="2942954476735657336" nodeInfo="nn">
@@ -13478,6 +13488,16 @@
                     </node>
                   </node>
                   <node role="catchBody" roleId="tpee.1164903359218" type="tpee.StatementList" typeId="tpee.1068580123136" id="2942954476739350187" nodeInfo="sn">
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="8378648605489211124" nodeInfo="nn">
+                      <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8378648605489211135" nodeInfo="nn">
+                        <property name="text" nameId="tpee.6329021646629104958" value="Every other exception is a tec exception. issues with the system" />
+                      </node>
+                    </node>
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="8378648605489211200" nodeInfo="nn">
+                      <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="8378648605489211213" nodeInfo="nn">
+                        <property name="text" nameId="tpee.6329021646629104958" value="db connection, filesystem etc. we should stop inner and outer command. " />
+                      </node>
+                    </node>
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2942954476748727940" nodeInfo="nn">
                       <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2942954476748728143" nodeInfo="nn">
                         <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2942954476748727939" nodeInfo="nn">
