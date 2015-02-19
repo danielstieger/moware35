@@ -50,6 +50,38 @@
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="4747577502515216810" nodeInfo="in">
       <link role="classifier" roleId="tpee.1107535924139" targetNodeId="w7gk.4747577502515205546" resolveInfo="IM3UserEnvironment" />
     </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="4679662955910628072" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="variantsAsStrings" />
+      <property name="isFinal" nameId="tpee.1176718929932" value="true" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5545133144188618654" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="4679662955910628074" nodeInfo="in">
+        <node role="componentType" roleId="tpee.1070534760952" type="tpee.StringType" typeId="tpee.1225271177708" id="4679662955910628075" nodeInfo="in" />
+      </node>
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.ArrayLiteral" typeId="tpee.1188220165133" id="4679662955910628076" nodeInfo="nn">
+        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628077" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="SUGAR" />
+        </node>
+        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628078" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="BABY" />
+        </node>
+        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628079" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="SNOW" />
+        </node>
+        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628080" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="BICYCLE" />
+        </node>
+        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628081" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="CHAIR" />
+        </node>
+        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628082" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="ALL" />
+        </node>
+        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628083" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="OFF" />
+        </node>
+      </node>
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="5545133144188619240" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="354176282036775765" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="delegateDateOnlyFormatter" />
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="354176282036775766" nodeInfo="nn" />
@@ -187,36 +219,6 @@
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="7933642673975046782" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="4679662955910624905" nodeInfo="ngu" />
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="4679662955910628072" nodeInfo="igu">
-      <property name="name" nameId="tpck.1169194664001" value="variantsAsStrings" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="4679662955910628073" nodeInfo="nn" />
-      <node role="type" roleId="tpee.5680397130376446158" type="tpee.ArrayType" typeId="tpee.1070534760951" id="4679662955910628074" nodeInfo="in">
-        <node role="componentType" roleId="tpee.1070534760952" type="tpee.StringType" typeId="tpee.1225271177708" id="4679662955910628075" nodeInfo="in" />
-      </node>
-      <node role="initializer" roleId="tpee.1068431790190" type="tpee.ArrayLiteral" typeId="tpee.1188220165133" id="4679662955910628076" nodeInfo="nn">
-        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628077" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="SUGAR" />
-        </node>
-        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628078" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="BABY" />
-        </node>
-        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628079" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="SNOW" />
-        </node>
-        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628080" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="BICYCLE" />
-        </node>
-        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628081" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="CHAIR" />
-        </node>
-        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628082" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="ALL" />
-        </node>
-        <node role="item" roleId="tpee.1188220173759" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4679662955910628083" nodeInfo="nn">
-          <property name="value" nameId="tpee.1070475926801" value="OFF" />
-        </node>
-      </node>
-    </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="4110454698505615655" nodeInfo="igu">
       <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="uid" />
