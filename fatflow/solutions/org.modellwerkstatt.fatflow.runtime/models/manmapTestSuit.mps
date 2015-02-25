@@ -27484,7 +27484,7 @@
         <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="5505654805890699964" nodeInfo="ng">
           <property name="name" nameId="tpck.1169194664001" value="url" />
           <node role="value" roleId="un0u.478945708914721971" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5505654805890699965" nodeInfo="nn">
-            <property name="value" nameId="tpee.1070475926801" value="jdbc:oracle:thin:@//lola:1521/LOLA" />
+            <property name="value" nameId="tpee.1070475926801" value="jdbc:oracle:thin:@//dbtest:1521/LOLA" />
           </node>
         </node>
         <node role="elements" roleId="un0u.478945708907022272" type="un0u.OFXConfigProperty" typeId="un0u.478945708907022269" id="5505654805890699966" nodeInfo="ng">
