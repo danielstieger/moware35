@@ -30,7 +30,7 @@
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2013642546067902601" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2013642546067902615" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="MPS 3.1.3 / mowareFx8_RC6 (Feature complete)" />
+          <property name="text" nameId="3ior.4903714810883755350" value="MPS 3.1.3 / mowareFx8_RC11 (TapLayout)" />
         </node>
       </node>
       <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2013642546067902611" nodeInfo="ng">
@@ -1632,8 +1632,8 @@
           <property name="head" nameId="3ior.8618885170173601779" value=".." />
           <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="2013642546067885868" nodeInfo="nn">
             <property name="head" nameId="3ior.8618885170173601779" value="javaexe" />
-            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="8281978563705127133" nodeInfo="nn">
-              <property name="head" nameId="3ior.8618885170173601779" value="MPS313" />
+            <node role="tail" roleId="3ior.8618885170173601778" type="3ior.BuildCompositePath" typeId="3ior.8618885170173601777" id="6654362437191421872" nodeInfo="nn">
+              <property name="head" nameId="3ior.8618885170173601779" value="MPS30" />
             </node>
           </node>
         </node>
