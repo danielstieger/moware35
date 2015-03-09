@@ -1073,6 +1073,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6185198504741862561" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="1472214787652375099" resolveInfo="ITreeElement" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7519291481570501031" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="un0u.7519291481570500946" resolveInfo="ICanRunCommands" />
+    </node>
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1993450443312594713" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="Forms" />

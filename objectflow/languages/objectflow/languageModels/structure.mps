@@ -1531,6 +1531,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7430432276632379268" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="4fqr.4666195181811081429" resolveInfo="IMainClass" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7519291481570500972" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7519291481570500946" resolveInfo="ICanRunCommands" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3262649880241050695" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="NewTest" />
@@ -1724,6 +1727,9 @@
     </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5879857394048971448" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpee.1199653749349" resolveInfo="IStatementListContainer" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7519291481570500986" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7519291481570500946" resolveInfo="ICanRunCommands" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8399801448179208226" nodeInfo="ig">
@@ -2599,6 +2605,10 @@
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7912134052599564237" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.command" />
     <property name="name" nameId="tpck.1169194664001" value="IRevertableReference" />
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="7519291481570500946" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.process" />
+    <property name="name" nameId="tpck.1169194664001" value="ICanRunCommands" />
   </root>
 </model>
 
