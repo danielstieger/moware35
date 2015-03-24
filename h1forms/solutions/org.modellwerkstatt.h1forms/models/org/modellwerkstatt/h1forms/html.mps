@@ -3536,7 +3536,7 @@
             <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="9074137364310953567" nodeInfo="nn">
               <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~StringBuilder%dappend(java%dlang%dString)%cjava%dlang%dStringBuilder" resolveInfo="append" />
               <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="9074137364310953568" nodeInfo="nn">
-                <property name="value" nameId="tpee.1070475926801" value="&lt;div data-role=\&quot;header\&quot;&gt;&amp;nbsp;\n\t\t&lt;div class=\&quot;ui-btn-left\&quot;&gt;" />
+                <property name="value" nameId="tpee.1070475926801" value="&lt;div  data-role=\&quot;header\&quot;&gt;&amp;nbsp;\n\t\t&lt;div class=\&quot;ui-btn-left\&quot;&gt;" />
               </node>
             </node>
           </node>
@@ -3837,7 +3837,7 @@
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="9074137364310953710" nodeInfo="igu">
-      <property name="name" nameId="tpck.1169194664001" value="writeWindowTitle" />
+      <property name="name" nameId="tpck.1169194664001" value="writeWindowTitleEndHeader" />
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="9074137364310953711" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="builder" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="9074137364310953712" nodeInfo="in">
@@ -7056,6 +7056,17 @@
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="4781619091119941274" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="5176251288175475490" nodeInfo="igu">
+      <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="requestTopButtons" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.BooleanType" typeId="tpee.1070534644030" id="5176251288175475491" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="5176251288175475492" nodeInfo="nn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5176251288175475494" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5176251288175475496" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="5176251288175475495" nodeInfo="nn" />
+        </node>
+      </node>
+    </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="4781619091119941671" nodeInfo="ngu" />
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="9074137364310967458" nodeInfo="nn" />
     <node role="implementedInterface" roleId="tpee.1095933932569" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7418122189332731146" nodeInfo="in">
