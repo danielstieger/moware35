@@ -24,13 +24,19 @@
 	
     -fx-text-fill: -fx-text-base-color;
     -fx-font-family: 'Helvetica';
-    -fx-font-size: 14.0px;
+
     /* check flag / title lable for it s size also */
     -fx-disabled-opacity: 0.6;
 }
 
 
+.smallFont {
+	    -fx-font-size: 12.0px;
+}
 
+.bigFont {
+	    -fx-font-size: 14.0px;
+}
 
 .scroll-bar{
     -fx-padding: 0em;
