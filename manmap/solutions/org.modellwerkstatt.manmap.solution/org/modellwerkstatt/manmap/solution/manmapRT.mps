@@ -1338,7 +1338,7 @@
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6435836305144903485" nodeInfo="nn" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="6016635605729078308" nodeInfo="igu">
       <property name="isAbstract" nameId="tpee.1178608670077" value="true" />
-      <property name="name" nameId="tpck.1169194664001" value="getKey" />
+      <property name="name" nameId="tpck.1169194664001" value="getIM3Key" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.TypeVariableReference" typeId="tpee.1109283449304" id="6016635605729709470" nodeInfo="in">
         <link role="typeVariableDeclaration" roleId="tpee.1109283546497" targetNodeId="6016635605729709288" resolveInfo="Key" />
       </node>
@@ -1801,7 +1801,7 @@
                           <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6855023620847722644" resolveInfo="e" />
                         </node>
                         <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6855023620847727994" nodeInfo="nn">
-                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6016635605729078308" resolveInfo="getKey" />
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6016635605729078308" resolveInfo="getIM3Key" />
                         </node>
                       </node>
                     </node>
@@ -1968,7 +1968,7 @@
                     <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5225022991482378792" resolveInfo="entity" />
                   </node>
                   <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6855023620847877920" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6016635605729078308" resolveInfo="getKey" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6016635605729078308" resolveInfo="getIM3Key" />
                   </node>
                 </node>
               </node>
@@ -1990,7 +1990,7 @@
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5225022991482378792" resolveInfo="entity" />
                 </node>
                 <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6855023620847887241" nodeInfo="nn">
-                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6016635605729078308" resolveInfo="getKey" />
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6016635605729078308" resolveInfo="getIM3Key" />
                 </node>
               </node>
             </node>
@@ -2774,7 +2774,7 @@
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="3440456921956395961" nodeInfo="igu">
       <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
-      <property name="name" nameId="tpck.1169194664001" value="getKey" />
+      <property name="name" nameId="tpck.1169194664001" value="getIM3Key" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="3440456921956395965" nodeInfo="in">
         <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Integer" resolveInfo="Integer" />
       </node>

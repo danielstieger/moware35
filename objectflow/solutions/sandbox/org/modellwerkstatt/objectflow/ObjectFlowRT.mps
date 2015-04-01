@@ -17662,7 +17662,7 @@
       <property name="name" nameId="tpck.1169194664001" value="BarCode" />
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3691303493460687476" nodeInfo="igu">
         <property name="name" nameId="tpck.1169194664001" value="height" />
-        <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="3691303493460687477" nodeInfo="nn" />
+        <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="6572100702536480454" nodeInfo="nn" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3691303493460687543" nodeInfo="in" />
         <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3691303493460687607" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="15mm" />
@@ -17670,7 +17670,7 @@
       </node>
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3691303493460687791" nodeInfo="igu">
         <property name="name" nameId="tpck.1169194664001" value="width" />
-        <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="3691303493460687792" nodeInfo="nn" />
+        <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="6572100702536480484" nodeInfo="nn" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3691303493460687793" nodeInfo="in" />
         <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3691303493460687794" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="0.3mm" />
@@ -17678,7 +17678,7 @@
       </node>
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3691303493460687874" nodeInfo="igu">
         <property name="name" nameId="tpck.1169194664001" value="widefact" />
-        <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="3691303493460687875" nodeInfo="nn" />
+        <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="6572100702536480514" nodeInfo="nn" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3691303493460687876" nodeInfo="in" />
         <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3691303493460687877" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="3" />
@@ -17686,7 +17686,7 @@
       </node>
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3691303493460687950" nodeInfo="igu">
         <property name="name" nameId="tpck.1169194664001" value="gapwidth" />
-        <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="3691303493460687951" nodeInfo="nn" />
+        <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="6572100702536480544" nodeInfo="nn" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3691303493460687952" nodeInfo="in" />
         <node role="initializer" roleId="tpee.1068431790190" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3691303493460687953" nodeInfo="nn">
           <property name="value" nameId="tpee.1070475926801" value="3mw" />
@@ -17694,7 +17694,7 @@
       </node>
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="3691303493460688367" nodeInfo="igu">
         <property name="name" nameId="tpck.1169194664001" value="xpath" />
-        <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="3691303493460688368" nodeInfo="nn" />
+        <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="6572100702536480574" nodeInfo="nn" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="3691303493460688369" nodeInfo="in" />
       </node>
       <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="3691303493460687679" nodeInfo="ngu" />
