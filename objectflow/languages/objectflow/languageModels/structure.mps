@@ -2340,7 +2340,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6855023620835054336" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="OFXCore.command" />
     <property name="name" nameId="tpck.1169194664001" value="CheckedOutEntities" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="checked out" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="session checked out" />
     <property name="conceptShortDescription" nameId="tpce.4628067390765907488" value="entities checked out in session" />
     <property name="iconPath" nameId="tpce.1160488491229" value="${module}/icons/session.png" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />

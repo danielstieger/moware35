@@ -7035,7 +7035,7 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="un0u.6855023620835054336" resolveInfo="CheckedOutEntities" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6855023620835054352" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6855023620835054359" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="checked out" />
+        <property name="text" nameId="tpc2.1073389577007" value="session checked out" />
         <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="6525155817178075831" resolveInfo="O2Statement" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="6855023620835054355" nodeInfo="nn" />
