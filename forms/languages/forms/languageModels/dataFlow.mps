@@ -1,45 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:59f30368-c79c-43af-b522-a0b82f2b15ad(org.modellwerkstatt.forms.dataFlow)" version="0">
-  <persistence version="8" />
-  <language namespace="7fa12e9c-b949-4976-b4fa-19accbc320b4(jetbrains.mps.lang.dataFlow)" />
-  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="sgb" modelUID="r:ff1c5781-322e-4061-ae5c-5f435235d5a8(org.modellwerkstatt.forms.structure)" version="164" />
-  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="-1" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
-  <import index="tp41" modelUID="r:00000000-0000-4000-0000-011c8959037d(jetbrains.mps.lang.dataFlow.structure)" version="0" implicit="yes" />
-  <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="7151351193245484918" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="DelegateForm" />
-    <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="sgb.7105808579470337940" resolveInfo="DelegateFormCheck" />
-    <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="7151351193245484919" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="7151351193245484920" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="7151351193245484921" nodeInfo="nn">
-          <node role="codeFor" roleId="tp41.1206454079161" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7151351193245484926" nodeInfo="nn">
-            <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="7151351193245484923" nodeInfo="nn" />
-            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="7151351193245484932" nodeInfo="nn">
-              <link role="link" roleId="tp25.1138056516764" targetNodeId="sgb.7105808579470337964" />
+<model ref="r:59f30368-c79c-43af-b522-a0b82f2b15ad(org.modellwerkstatt.forms.dataFlow)">
+  <persistence version="9" />
+  <languages>
+    <use id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports>
+    <import index="sgb" ref="r:ff1c5781-322e-4061-ae5c-5f435235d5a8(org.modellwerkstatt.forms.structure)" />
+  </imports>
+  <registry>
+    <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
+        <child id="1197027771414" name="operand" index="2Oq$k0" />
+        <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
+        <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+    </language>
+    <language id="7fa12e9c-b949-4976-b4fa-19accbc320b4" name="jetbrains.mps.lang.dataFlow">
+      <concept id="1206442055221" name="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" flags="ig" index="3_zdsH">
+        <reference id="1206442096288" name="conceptDeclaration" index="3_znuS" />
+        <child id="1206442812839" name="builderBlock" index="3_A6iZ" />
+      </concept>
+      <concept id="1206442659665" name="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" flags="in" index="3__wT9" />
+      <concept id="1206442747519" name="jetbrains.mps.lang.dataFlow.structure.NodeParameter" flags="nn" index="3__QtB" />
+      <concept id="1206454052847" name="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" flags="nn" index="3AgYrR">
+        <child id="1206454079161" name="codeFor" index="3Ah4Yx" />
+      </concept>
+    </language>
+    <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
+        <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="3_zdsH" id="6cYH0lhtCtQ">
+    <property role="3GE5qa" value="DelegateForm" />
+    <ref role="3_znuS" to="sgb:6asTO4Xgauk" resolve="DelegateFormCheck" />
+    <node concept="3__wT9" id="6cYH0lhtCtR" role="3_A6iZ">
+      <node concept="3clFbS" id="6cYH0lhtCtS" role="2VODD2">
+        <node concept="3AgYrR" id="6cYH0lhtCtT" role="3cqZAp">
+          <node concept="2OqwBi" id="6cYH0lhtCtY" role="3Ah4Yx">
+            <node concept="3__QtB" id="6cYH0lhtCtV" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6cYH0lhtCu4" role="2OqNvi">
+              <ref role="3Tt5mk" to="sgb:6asTO4XgauG" />
             </node>
           </node>
         </node>
       </node>
     </node>
-  </root>
-  <root type="tp41.DataFlowBuilderDeclaration" typeId="tp41.1206442055221" id="8747269770634522053" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="CommandTrigger" />
-    <link role="conceptDeclaration" roleId="tp41.1206442096288" targetNodeId="sgb.8823062859078232521" resolveInfo="SetStatusText" />
-    <node role="builderBlock" roleId="tp41.1206442812839" type="tp41.BuilderBlock" typeId="tp41.1206442659665" id="8747269770634522054" nodeInfo="nn">
-      <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8747269770634522055" nodeInfo="sn">
-        <node role="statement" roleId="tpee.1068581517665" type="tp41.EmitCodeForStatement" typeId="tp41.1206454052847" id="8747269770634522056" nodeInfo="nn">
-          <node role="codeFor" roleId="tp41.1206454079161" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8747269770634522061" nodeInfo="nn">
-            <node role="operand" roleId="tpee.1197027771414" type="tp41.NodeParameter" typeId="tp41.1206442747519" id="8747269770634522058" nodeInfo="nn" />
-            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="8747269770634553712" nodeInfo="nn">
-              <link role="link" roleId="tp25.1138056516764" targetNodeId="sgb.8823062859078232537" />
+  </node>
+  <node concept="3_zdsH" id="7_$ySbDbIR5">
+    <property role="3GE5qa" value="CommandTrigger" />
+    <ref role="3_znuS" to="sgb:7DLOeLUjeB9" resolve="SetStatusText" />
+    <node concept="3__wT9" id="7_$ySbDbIR6" role="3_A6iZ">
+      <node concept="3clFbS" id="7_$ySbDbIR7" role="2VODD2">
+        <node concept="3AgYrR" id="7_$ySbDbIR8" role="3cqZAp">
+          <node concept="2OqwBi" id="7_$ySbDbIRd" role="3Ah4Yx">
+            <node concept="3__QtB" id="7_$ySbDbIRa" role="2Oq$k0" />
+            <node concept="3TrEf2" id="7_$ySbDbQ_K" role="2OqNvi">
+              <ref role="3Tt5mk" to="sgb:7DLOeLUjeBp" />
             </node>
           </node>
         </node>
       </node>
     </node>
-  </root>
+  </node>
 </model>
 
