@@ -25,6 +25,7 @@
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
         <dependency reexport="false">0f69ff68-7ed4-4ee4-8dc6-1619facda18d(org.modellwerkstatt.forms)</dependency>
         <dependency reexport="false">ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)</dependency>
+        <dependency reexport="false">e9b1404c-7884-4527-9561-1d1526266c6f(org.modellwerkstatt.fatflow#6220831822432810257)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)</usedLanguage>
@@ -62,7 +63,22 @@
         <language id="5aaa957f-3447-4783-b1f7-b301fa3e0394" fqName="org.modellwerkstatt.manmap" version="0" />
         <language id="ec097fca-5b84-41f2-847d-6a5690cae277" fqName="org.modellwerkstatt.objectflow" version="0" />
       </languageVersions>
-      <mapping-priorities />
+      <mapping-priorities>
+        <mapping-priority-rule kind="strictly_together">
+          <greater-priority-mapping>
+            <generator generatorUID="c07f7b86-fc25-403e-bd7e-9baf856cdeb7(org.modellwerkstatt.forms#1117804404318809095)" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="e9b1404c-7884-4527-9561-1d1526266c6f(org.modellwerkstatt.fatflow#6220831822432810257)" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+      </mapping-priorities>
     </generator>
   </generators>
   <sourcePath />

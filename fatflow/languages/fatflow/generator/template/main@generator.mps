@@ -6517,6 +6517,7 @@
         <node concept="3clFbH" id="77cIZAS6IcK" role="3cqZAp" />
         <node concept="3clFbJ" id="3PmKne7RhlY" role="3cqZAp">
           <node concept="3clFbS" id="3PmKne7RhlZ" role="3clFbx">
+            <node concept="3clFbH" id="7nDMIUKOOO1" role="3cqZAp" />
             <node concept="3clFbF" id="77cIZAS79Pd" role="3cqZAp">
               <node concept="37vLTI" id="77cIZAS7aMP" role="3clFbG">
                 <node concept="37vLTw" id="77cIZAS7aW1" role="37vLTx">
@@ -6602,7 +6603,45 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="1w5LdygnwfJ" role="3cqZAp" />
+            <node concept="3clFbJ" id="7nDMIUKOjZe" role="3cqZAp">
+              <node concept="3clFbS" id="7nDMIUKOjZg" role="3clFbx">
+                <node concept="YS8fn" id="7nDMIUKOs9n" role="3cqZAp">
+                  <node concept="2ShNRf" id="7nDMIUKOsd$" role="YScLw">
+                    <node concept="1pGfFk" id="7nDMIUKOyjQ" role="2ShVmc">
+                      <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                      <node concept="Xl_RD" id="7nDMIUKOyqM" role="37wK5m">
+                        <property role="Xl_RC" value="Session without UserEnvironment can not be run." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="7nDMIUKOrqp" role="3clFbw">
+                <node concept="10Nm6u" id="7nDMIUKOrs5" role="3uHU7w" />
+                <node concept="2OqwBi" id="7nDMIUKOr2b" role="3uHU7B">
+                  <node concept="37vLTw" id="7nDMIUKOqDa" role="2Oq$k0">
+                    <ref role="3cqZAo" node="77cIZAS6w2x" resolve="session" />
+                  </node>
+                  <node concept="liA8E" id="7nDMIUKOrm8" role="2OqNvi">
+                    <ref role="37wK5l" to="w7gk:4fBSqdHE32k" resolve="getUserEnvironment" />
+                  </node>
+                </node>
+              </node>
+              <node concept="1W57fq" id="7nDMIUKOW2n" role="lGtFl">
+                <node concept="3IZrLx" id="7nDMIUKOW2p" role="3IZSJc">
+                  <node concept="3clFbS" id="7nDMIUKOW2r" role="2VODD2">
+                    <node concept="3clFbF" id="7nDMIUKOWbj" role="3cqZAp">
+                      <node concept="2OqwBi" id="7nDMIUKOWkG" role="3clFbG">
+                        <node concept="30H73N" id="7nDMIUKOWbi" role="2Oq$k0" />
+                        <node concept="2qgKlT" id="7nDMIUKP7g1" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:77cIZAS3HwM" resolve="isSessionOwnerCommand" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbH" id="3BCllXoOMof" role="3cqZAp" />
             <node concept="3SKdUt" id="1w5Ldygnwkv" role="3cqZAp">
               <node concept="3SKdUq" id="1w5LdygnwmD" role="3SKWNk">
@@ -18807,6 +18846,19 @@
                   <node concept="Xjq3P" id="6xTGRhWGONZ" role="2Oq$k0" />
                   <node concept="2OwXpG" id="6xTGRhWGPrx" role="2OqNvi">
                     <ref role="2Oxat5" node="7ii5IAYGM$b" resolve="runTask" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nDMIUL7qmN" role="3cqZAp">
+              <node concept="37vLTI" id="7nDMIUL7qMz" role="3clFbG">
+                <node concept="37vLTw" id="7nDMIUL7qQD" role="37vLTx">
+                  <ref role="3cqZAo" node="3BCllXpQmMn" resolve="userEnv" />
+                </node>
+                <node concept="2OqwBi" id="7nDMIUL7qpB" role="37vLTJ">
+                  <node concept="Xjq3P" id="7nDMIUL7qmL" role="2Oq$k0" />
+                  <node concept="2OwXpG" id="7nDMIUL7qDL" role="2OqNvi">
+                    <ref role="2Oxat5" node="3BCllXpQn0F" resolve="userEnvironment" />
                   </node>
                 </node>
               </node>
