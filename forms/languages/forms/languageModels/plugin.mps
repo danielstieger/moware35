@@ -1531,16 +1531,10 @@
             <node concept="2ShNRf" id="62LYtHrZJw8" role="33vP2m">
               <node concept="1pGfFk" id="62LYtHrZJw7" role="2ShVmc">
                 <ref role="37wK5l" to="j0yf:62LYtHs0z32" resolve="CopyPasteDialog" />
-                <node concept="2OqwBi" id="62LYtHrZNLz" role="37wK5m">
-                  <node concept="2WthIp" id="62LYtHrZNLA" role="2Oq$k0" />
-                  <node concept="1DTwFV" id="62LYtHrZNLC" role="2OqNvi">
-                    <ref role="2WH_rO" node="62LYtHrZM6W" resolve="frame" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="62LYtHrZOjj" role="37wK5m">
-                  <node concept="2WthIp" id="62LYtHrZOjm" role="2Oq$k0" />
-                  <node concept="1DTwFV" id="62LYtHrZOjo" role="2OqNvi">
-                    <ref role="2WH_rO" node="62LYtHrZM6Y" resolve="context" />
+                <node concept="2OqwBi" id="4XpGPrD1Jom" role="37wK5m">
+                  <node concept="2WthIp" id="4XpGPrD1J88" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="4XpGPrD1KwZ" role="2OqNvi">
+                    <ref role="2WH_rO" node="6Sgpd1fZzmB" resolve="project" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="62LYtHrZOPW" role="37wK5m">

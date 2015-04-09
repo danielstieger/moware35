@@ -80,20 +80,6 @@
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
-        <mapping-priority-rule kind="strictly_together">
-          <greater-priority-mapping>
-            <generator generatorUID="e9b1404c-7884-4527-9561-1d1526266c6f(org.modellwerkstatt.fatflow#6220831822432810257)" />
-            <external-mapping>
-              <all-local-mappings />
-            </external-mapping>
-          </greater-priority-mapping>
-          <lesser-priority-mapping>
-            <generator generatorUID="c07f7b86-fc25-403e-bd7e-9baf856cdeb7(org.modellwerkstatt.forms#1117804404318809095)" />
-            <external-mapping>
-              <all-local-mappings />
-            </external-mapping>
-          </lesser-priority-mapping>
-        </mapping-priority-rule>
       </mapping-priorities>
     </generator>
   </generators>
