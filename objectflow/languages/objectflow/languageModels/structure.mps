@@ -1728,9 +1728,6 @@
     <node concept="PrWs8" id="6sucGAoevDQ" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
-    <node concept="PrWs8" id="5T_hheTQNQ$" role="PzmwI">
-      <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
-    </node>
   </node>
   <node concept="1TIwiD" id="7ii5IAYvBh0">
     <property role="3GE5qa" value="OFXCore.batch" />

@@ -20,9 +20,7 @@
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
-    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -35,7 +33,6 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
-      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1177326519037" name="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" flags="nn" index="u8gfJ">
         <child id="1177326540772" name="statement" index="u8lrQ" />
       </concept>
@@ -57,9 +54,6 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -1352,6 +1346,68 @@
         </node>
       </node>
     </node>
+    <node concept="nKS2y" id="7OaFZnrHZTC" role="1MLUbF">
+      <node concept="3clFbS" id="7OaFZnrHZTD" role="2VODD2">
+        <node concept="3cpWs8" id="7OaFZnrI0n$" role="3cqZAp">
+          <node concept="3cpWsn" id="7OaFZnrI0n_" role="3cpWs9">
+            <property role="TrG5h" value="ok" />
+            <node concept="10P_77" id="7OaFZnrI0nA" role="1tU5fm" />
+            <node concept="2OqwBi" id="7OaFZnrI0nB" role="33vP2m">
+              <node concept="2OqwBi" id="7OaFZnrI0nC" role="2Oq$k0">
+                <node concept="nLn13" id="7OaFZnrI0nD" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="7OaFZnrI0nE" role="2OqNvi">
+                  <node concept="1xMEDy" id="7OaFZnrI0nF" role="1xVPHs">
+                    <node concept="chp4Y" id="7OaFZnrI0nG" role="ri$Ld">
+                      <ref role="cht4Q" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="7OaFZnrI0nH" role="1xVPHs" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="7OaFZnrI0nI" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7OaFZnrI0nJ" role="3cqZAp">
+          <node concept="3clFbS" id="7OaFZnrI0nK" role="3clFbx">
+            <node concept="3cpWs6" id="7OaFZnrI0nL" role="3cqZAp">
+              <node concept="3clFbT" id="7OaFZnrI0nM" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="7OaFZnrI0nN" role="3clFbw">
+            <ref role="3cqZAo" node="7OaFZnrI0n_" resolve="ok" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7OaFZnrI0nO" role="3cqZAp">
+          <node concept="3SKdUq" id="7OaFZnrI0nP" role="3SKWNk">
+            <property role="3SKdUp" value="okay, check if we are in command init .. " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="7OaFZnrI0nQ" role="3cqZAp">
+          <node concept="3clFbC" id="7OaFZnrI0nR" role="3clFbG">
+            <node concept="2OqwBi" id="7OaFZnrI0nS" role="3uHU7B">
+              <node concept="2OqwBi" id="7OaFZnrI0nT" role="2Oq$k0">
+                <node concept="nLn13" id="7OaFZnrI0nU" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="7OaFZnrI0nV" role="2OqNvi">
+                  <node concept="1xMEDy" id="7OaFZnrI0nW" role="1xVPHs">
+                    <node concept="chp4Y" id="7OaFZnrI0nX" role="ri$Ld">
+                      <ref role="cht4Q" to="un0u:5Ee0EjqTeD5" resolve="VoidStatementList" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="25OxAV" id="7OaFZnrI0nY" role="2OqNvi" />
+            </node>
+            <node concept="28GBK8" id="7OaFZnrI0nZ" role="3uHU7w">
+              <ref role="28H3Ia" to="un0u:6ffh1MX_V6r" />
+              <ref role="28GBKb" to="un0u:6ffh1MXzHna" resolve="Command" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1M2fIO" id="1Csx3LqydfA">
     <property role="3GE5qa" value="OFXCore.command" />
@@ -1981,27 +2037,10 @@
     </node>
     <node concept="nKS2y" id="6xpSWdTtf2P" role="1MLUbF">
       <node concept="3clFbS" id="6xpSWdTtf2Q" role="2VODD2">
-        <node concept="3clFbF" id="7OaFZnr95m0" role="3cqZAp">
-          <node concept="2OqwBi" id="7OaFZnr95lX" role="3clFbG">
-            <node concept="10M0yZ" id="7OaFZnr95lY" role="2Oq$k0">
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-              <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-            </node>
-            <node concept="liA8E" id="7OaFZnr95lZ" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="7OaFZnr96re" role="37wK5m">
-                <node concept="EsrRn" id="7OaFZnr96yf" role="3uHU7w" />
-                <node concept="Xl_RD" id="7OaFZnr95sq" role="3uHU7B">
-                  <property role="Xl_RC" value="RunCommand: node is " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="6xpSWdTtg5E" role="3cqZAp">
           <node concept="2OqwBi" id="6xpSWdTu7ij" role="3clFbG">
             <node concept="2OqwBi" id="6xpSWdTth8A" role="2Oq$k0">
-              <node concept="EsrRn" id="6xpSWdTtg5D" role="2Oq$k0" />
+              <node concept="nLn13" id="7OaFZnr9HyP" role="2Oq$k0" />
               <node concept="2Xjw5R" id="6xpSWdTthAF" role="2OqNvi">
                 <node concept="1xMEDy" id="6xpSWdTCm6h" role="1xVPHs">
                   <node concept="chp4Y" id="6xpSWdTCm6t" role="ri$Ld">
