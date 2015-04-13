@@ -6545,95 +6545,69 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="77cIZAS7bYe" role="3cqZAp">
-              <node concept="37vLTI" id="77cIZAS7cVX" role="3clFbG">
-                <node concept="2OqwBi" id="77cIZAS7dKA" role="37vLTx">
-                  <node concept="37vLTw" id="77cIZAS7dgG" role="2Oq$k0">
-                    <ref role="3cqZAo" node="oHsXcaP53M" resolve="appFactory" />
-                  </node>
-                  <node concept="liA8E" id="77cIZAS7eoV" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+            <node concept="9aQIb" id="7OaFZnr4jMf" role="3cqZAp">
+              <node concept="3clFbS" id="7OaFZnr4jMh" role="9aQI4">
+                <node concept="3clFbF" id="77cIZAS7bYe" role="3cqZAp">
+                  <node concept="37vLTI" id="77cIZAS7cVX" role="3clFbG">
+                    <node concept="2OqwBi" id="77cIZAS7dKA" role="37vLTx">
+                      <node concept="37vLTw" id="77cIZAS7dgG" role="2Oq$k0">
+                        <ref role="3cqZAo" node="oHsXcaP53M" resolve="appFactory" />
+                      </node>
+                      <node concept="liA8E" id="77cIZAS7eoV" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="77cIZAS7bYc" role="37vLTJ">
+                      <ref role="3cqZAo" node="77cIZAS6w2x" resolve="session" />
+                    </node>
                   </node>
                 </node>
-                <node concept="37vLTw" id="77cIZAS7bYc" role="37vLTJ">
-                  <ref role="3cqZAo" node="77cIZAS6w2x" resolve="session" />
+                <node concept="3clFbF" id="6QX7KB57l2g" role="3cqZAp">
+                  <node concept="2OqwBi" id="6QX7KB57rTP" role="3clFbG">
+                    <node concept="37vLTw" id="6QX7KB57l2e" role="2Oq$k0">
+                      <ref role="3cqZAo" node="77cIZAS6w2x" resolve="session" />
+                    </node>
+                    <node concept="liA8E" id="6QX7KB57s9e" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:3$bhckF1T5U" resolve="setUserEnvironment" />
+                      <node concept="37vLTw" id="3BCllXoOMmv" role="37wK5m">
+                        <ref role="3cqZAo" node="3BCllXoOGmQ" resolve="userEnv" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="7nDMIUKOjZe" role="3cqZAp">
+                  <node concept="3clFbS" id="7nDMIUKOjZg" role="3clFbx">
+                    <node concept="YS8fn" id="7nDMIUKOs9n" role="3cqZAp">
+                      <node concept="2ShNRf" id="7nDMIUKOsd$" role="YScLw">
+                        <node concept="1pGfFk" id="7nDMIUKOyjQ" role="2ShVmc">
+                          <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                          <node concept="Xl_RD" id="7nDMIUKOyqM" role="37wK5m">
+                            <property role="Xl_RC" value="Session without UserEnvironment can not be run." />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbC" id="7nDMIUKOrqp" role="3clFbw">
+                    <node concept="10Nm6u" id="7nDMIUKOrs5" role="3uHU7w" />
+                    <node concept="2OqwBi" id="7nDMIUKOr2b" role="3uHU7B">
+                      <node concept="37vLTw" id="7nDMIUKOqDa" role="2Oq$k0">
+                        <ref role="3cqZAo" node="77cIZAS6w2x" resolve="session" />
+                      </node>
+                      <node concept="liA8E" id="7nDMIUKOrm8" role="2OqNvi">
+                        <ref role="37wK5l" to="w7gk:4fBSqdHE32k" resolve="getUserEnvironment" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
-              <node concept="1W57fq" id="77cIZAS7iHO" role="lGtFl">
-                <property role="34cw8o" value="OWNER" />
-                <node concept="3IZrLx" id="77cIZAS7iHQ" role="3IZSJc">
-                  <node concept="3clFbS" id="77cIZAS7iHS" role="2VODD2">
+              <node concept="1W57fq" id="7OaFZnr4rRp" role="lGtFl">
+                <node concept="3IZrLx" id="7OaFZnr4rRr" role="3IZSJc">
+                  <node concept="3clFbS" id="7OaFZnr4rRt" role="2VODD2">
                     <node concept="3clFbF" id="77cIZAS7iTm" role="3cqZAp">
                       <node concept="2OqwBi" id="77cIZAS7j2J" role="3clFbG">
                         <node concept="30H73N" id="77cIZAS7iTl" role="2Oq$k0" />
                         <node concept="2qgKlT" id="77cIZAS7l0E" role="2OqNvi">
-                          <ref role="37wK5l" to="70o0:77cIZAS3HwM" resolve="isSessionOwnerCommand" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="6QX7KB57l2g" role="3cqZAp">
-              <node concept="2OqwBi" id="6QX7KB57rTP" role="3clFbG">
-                <node concept="37vLTw" id="6QX7KB57l2e" role="2Oq$k0">
-                  <ref role="3cqZAo" node="77cIZAS6w2x" resolve="session" />
-                </node>
-                <node concept="liA8E" id="6QX7KB57s9e" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:3$bhckF1T5U" resolve="setUserEnvironment" />
-                  <node concept="37vLTw" id="3BCllXoOMmv" role="37wK5m">
-                    <ref role="3cqZAo" node="3BCllXoOGmQ" resolve="userEnv" />
-                  </node>
-                </node>
-              </node>
-              <node concept="1W57fq" id="3BCllXoOShe" role="lGtFl">
-                <property role="34cw8o" value="OWNER" />
-                <node concept="3IZrLx" id="3BCllXoOShg" role="3IZSJc">
-                  <node concept="3clFbS" id="3BCllXoOShi" role="2VODD2">
-                    <node concept="3clFbF" id="6QX7KB57tvR" role="3cqZAp">
-                      <node concept="2OqwBi" id="6QX7KB57tvS" role="3clFbG">
-                        <node concept="30H73N" id="6QX7KB57tvT" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="6QX7KB57tvU" role="2OqNvi">
-                          <ref role="37wK5l" to="70o0:77cIZAS3HwM" resolve="isSessionOwnerCommand" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="7nDMIUKOjZe" role="3cqZAp">
-              <node concept="3clFbS" id="7nDMIUKOjZg" role="3clFbx">
-                <node concept="YS8fn" id="7nDMIUKOs9n" role="3cqZAp">
-                  <node concept="2ShNRf" id="7nDMIUKOsd$" role="YScLw">
-                    <node concept="1pGfFk" id="7nDMIUKOyjQ" role="2ShVmc">
-                      <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                      <node concept="Xl_RD" id="7nDMIUKOyqM" role="37wK5m">
-                        <property role="Xl_RC" value="Session without UserEnvironment can not be run." />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbC" id="7nDMIUKOrqp" role="3clFbw">
-                <node concept="10Nm6u" id="7nDMIUKOrs5" role="3uHU7w" />
-                <node concept="2OqwBi" id="7nDMIUKOr2b" role="3uHU7B">
-                  <node concept="37vLTw" id="7nDMIUKOqDa" role="2Oq$k0">
-                    <ref role="3cqZAo" node="77cIZAS6w2x" resolve="session" />
-                  </node>
-                  <node concept="liA8E" id="7nDMIUKOrm8" role="2OqNvi">
-                    <ref role="37wK5l" to="w7gk:4fBSqdHE32k" resolve="getUserEnvironment" />
-                  </node>
-                </node>
-              </node>
-              <node concept="1W57fq" id="7nDMIUKOW2n" role="lGtFl">
-                <node concept="3IZrLx" id="7nDMIUKOW2p" role="3IZSJc">
-                  <node concept="3clFbS" id="7nDMIUKOW2r" role="2VODD2">
-                    <node concept="3clFbF" id="7nDMIUKOWbj" role="3cqZAp">
-                      <node concept="2OqwBi" id="7nDMIUKOWkG" role="3clFbG">
-                        <node concept="30H73N" id="7nDMIUKOWbi" role="2Oq$k0" />
-                        <node concept="2qgKlT" id="7nDMIUKP7g1" role="2OqNvi">
                           <ref role="37wK5l" to="70o0:77cIZAS3HwM" resolve="isSessionOwnerCommand" />
                         </node>
                       </node>
