@@ -5410,7 +5410,7 @@
         <ref role="37wK5l" to="vt2g:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
         <ref role="1Pybhc" to="vt2g:~DateTimeFormat" resolve="DateTimeFormat" />
         <node concept="Xl_RD" id="ncJg$H916I" role="37wK5m">
-          <property role="Xl_RC" value="dd.MM.yyyy" />
+          <property role="Xl_RC" value="dd.MM.yy" />
         </node>
       </node>
     </node>
