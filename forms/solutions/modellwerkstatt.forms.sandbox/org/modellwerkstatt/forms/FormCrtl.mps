@@ -11647,6 +11647,26 @@
           <property role="Xl_RC" value="" />
         </node>
       </node>
+      <node concept="QsSxf" id="7DInbKypMVW" role="Qtgdg">
+        <property role="TrG5h" value="MAINTAINANCE_MODE" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="7DInbKypNbD" role="37wK5m">
+          <property role="Xl_RC" value="Dieser Dienst steht gegenwärtig nicht zu Verfügung. Wartungsarbeiten werden durchgeführt." />
+        </node>
+        <node concept="Xl_RD" id="7DInbKypNec" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="7DInbKyry1J" role="Qtgdg">
+        <property role="TrG5h" value="SERVLET_BASE_ADR" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="7DInbKyry1K" role="37wK5m">
+          <property role="Xl_RC" value="Ihe letztes Kommando wurde abgebrochen. Sie haben das Start-Menü gewählt. " />
+        </node>
+        <node concept="Xl_RD" id="7DInbKyry1L" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
       <node concept="2tJIrI" id="3zf0S8jTrHW" role="jymVt" />
       <node concept="2tJIrI" id="3zf0S8jTrRC" role="jymVt" />
