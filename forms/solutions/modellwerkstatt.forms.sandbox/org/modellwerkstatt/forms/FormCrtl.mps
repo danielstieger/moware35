@@ -11331,7 +11331,7 @@
         <property role="TrG5h" value="ERROR" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQwg" role="37wK5m">
-          <property role="Xl_RC" value="_Fehler" />
+          <property role="Xl_RC" value="Fehler" />
         </node>
         <node concept="Xl_RD" id="4Zj1V_wFQwh" role="37wK5m">
           <property role="Xl_RC" value="" />
