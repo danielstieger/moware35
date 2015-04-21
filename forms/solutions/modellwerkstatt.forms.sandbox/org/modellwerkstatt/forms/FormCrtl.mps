@@ -35732,6 +35732,16 @@
             </node>
             <node concept="3clFbJ" id="1kaU3pLVkwN" role="3cqZAp">
               <node concept="3clFbS" id="1kaU3pLVkwO" role="3clFbx">
+                <node concept="3SKdUt" id="BV13nmoeSz" role="3cqZAp">
+                  <node concept="3SKdUq" id="BV13nmof4t" role="3SKWNk">
+                    <property role="3SKdUp" value="Returns OFXVirtualProperty but that can not be custed to IOFXMetaStatus" />
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="BV13nmofsI" role="3cqZAp">
+                  <node concept="3SKdUq" id="BV13nmofB2" role="3SKWNk">
+                    <property role="3SKdUp" value="right. " />
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="1kaU3pLSZpI" role="3cqZAp">
                   <node concept="3cpWsn" id="1kaU3pLSZpJ" role="3cpWs9">
                     <property role="TrG5h" value="m" />

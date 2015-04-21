@@ -6459,17 +6459,38 @@
               <property role="3SKdUp" value="DEFAULT -----  Virtual Property? ----------------------" />
             </node>
           </node>
+          <node concept="3SKdUt" id="BV13nmp0f4" role="3cqZAp">
+            <node concept="3SKdUq" id="BV13nmp0m$" role="3SKWNk">
+              <property role="3SKdUp" value="but not for status. Use standard status impl, even if VP" />
+            </node>
+          </node>
           <node concept="3clFbF" id="5z9VWwOlwER" role="3cqZAp">
-            <node concept="2OqwBi" id="5z9VWwOlwEX" role="3clFbG">
-              <node concept="2OqwBi" id="5z9VWwOlwEY" role="2Oq$k0">
-                <node concept="30H73N" id="5z9VWwOlwEZ" role="2Oq$k0" />
-                <node concept="3TrEf2" id="5z9VWwOlwF0" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tpee:huRnVpq" />
+            <node concept="1Wc70l" id="BV13nmp0RL" role="3clFbG">
+              <node concept="3fqX7Q" id="BV13nmp0ZI" role="3uHU7w">
+                <node concept="1eOMI4" id="BV13nmp0ZK" role="3fr31v">
+                  <node concept="2YIFZM" id="BV13nmp1gJ" role="1eOMHV">
+                    <ref role="37wK5l" to="3ojc:FaoLX6ipgB" resolve="isStatus" />
+                    <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
+                    <node concept="2OqwBi" id="BV13nmp1Jx" role="37wK5m">
+                      <node concept="30H73N" id="BV13nmp1C3" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="BV13nmpjA1" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:huRkE2T" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
-              <node concept="1mIQ4w" id="5z9VWwOlwF1" role="2OqNvi">
-                <node concept="chp4Y" id="5z9VWwOlwF2" role="cj9EA">
-                  <ref role="cht4Q" to="tpee:huSWr6e" resolve="CustomPropertyImplementation" />
+              <node concept="2OqwBi" id="5z9VWwOlwEX" role="3uHU7B">
+                <node concept="2OqwBi" id="5z9VWwOlwEY" role="2Oq$k0">
+                  <node concept="30H73N" id="5z9VWwOlwEZ" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="5z9VWwOlwF0" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:huRnVpq" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="5z9VWwOlwF1" role="2OqNvi">
+                  <node concept="chp4Y" id="5z9VWwOlwF2" role="cj9EA">
+                    <ref role="cht4Q" to="tpee:huSWr6e" resolve="CustomPropertyImplementation" />
+                  </node>
                 </node>
               </node>
             </node>
