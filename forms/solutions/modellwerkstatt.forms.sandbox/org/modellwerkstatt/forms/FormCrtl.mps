@@ -8407,6 +8407,22 @@
                 </node>
               </node>
               <node concept="3clFbH" id="2iGz3FgbM00" role="3cqZAp" />
+              <node concept="3SKdUt" id="MdbUSGQLxQ" role="3cqZAp">
+                <node concept="3SKdUq" id="MdbUSGQLC$" role="3SKWNk">
+                  <property role="3SKdUp" value="Dan Apr. 2015, just for testing purpose. " />
+                </node>
+              </node>
+              <node concept="3SKdUt" id="MdbUSGQLLK" role="3cqZAp">
+                <node concept="3SKdUq" id="MdbUSGQLSw" role="3SKWNk">
+                  <property role="3SKdUp" value="does that lead to a request focus after a flag. Is nnecessary, right?" />
+                </node>
+              </node>
+              <node concept="3clFbF" id="MdbUSGQKrs" role="3cqZAp">
+                <node concept="1rXfSq" id="MdbUSGQKrt" role="3clFbG">
+                  <ref role="37wK5l" node="5twmJXHcVTo" resolve="requestFocusAndFinalAfterEventOnCurrentForm" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="MdbUSGQJAf" role="3cqZAp" />
             </node>
           </node>
           <node concept="TDmWw" id="3g5RX4qXKJi" role="TEbGg">
@@ -30682,6 +30698,44 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="MdbUSGSyKe" role="3cqZAp">
+          <node concept="3SKWN0" id="MdbUSGSyKf" role="3SKWNk">
+            <node concept="3clFbF" id="MdbUSGKQVz" role="3SKWNf">
+              <node concept="2OqwBi" id="MdbUSGKQVw" role="3clFbG">
+                <node concept="10M0yZ" id="MdbUSGKQVx" role="2Oq$k0">
+                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                  <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="MdbUSGKQVy" role="2OqNvi">
+                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="MdbUSGKYe6" role="37wK5m">
+                    <node concept="2OqwBi" id="MdbUSGKYs3" role="3uHU7w">
+                      <node concept="37vLTw" id="MdbUSGKYly" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5Y1b9tRdVH0" resolve="requestFocus" />
+                      </node>
+                      <node concept="liA8E" id="MdbUSGKYDU" role="2OqNvi">
+                        <ref role="37wK5l" node="5Y1b9tQZbC9" resolve="getValue" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="MdbUSGM3O1" role="3uHU7B">
+                      <node concept="Xl_RD" id="MdbUSGM3Ut" role="3uHU7w">
+                        <property role="Xl_RC" value=" request focus called. Is now " />
+                      </node>
+                      <node concept="3cpWs3" id="MdbUSGM4ky" role="3uHU7B">
+                        <node concept="37vLTw" id="MdbUSGM4rZ" role="3uHU7w">
+                          <ref role="3cqZAo" node="5Y1b9tQYCst" resolve="propertyName" />
+                        </node>
+                        <node concept="Xl_RD" id="MdbUSGKRux" role="3uHU7B">
+                          <property role="Xl_RC" value="FDelegate " />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="5tdM1SXuper" role="3cqZAp">
           <node concept="3clFbT" id="5tdM1SXupeZ" role="3cqZAk">
             <property role="3clFbU" value="true" />
@@ -30705,6 +30759,27 @@
               <node concept="3clFbT" id="5Y1b9tRnbUb" role="37wK5m">
                 <property role="3clFbU" value="false" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="MdbUSGSzy0" role="3cqZAp" />
+        <node concept="3SKdUt" id="MdbUSGSzBh" role="3cqZAp">
+          <node concept="3SKdUq" id="MdbUSGSzD$" role="3SKWNk">
+            <property role="3SKdUp" value="That was added Dan 2014, in order to allow positioning." />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="MdbUSGSzIV" role="3cqZAp">
+          <node concept="3SKdUq" id="MdbUSGSzJa" role="3SKWNk">
+            <property role="3SKdUp" value="for delegates." />
+          </node>
+        </node>
+        <node concept="3clFbF" id="MdbUSGNKx1" role="3cqZAp">
+          <node concept="2OqwBi" id="MdbUSGNK$N" role="3clFbG">
+            <node concept="37vLTw" id="MdbUSGNKwZ" role="2Oq$k0">
+              <ref role="3cqZAo" node="5Y1b9tRdVH0" resolve="requestFocus" />
+            </node>
+            <node concept="liA8E" id="MdbUSGNKRK" role="2OqNvi">
+              <ref role="37wK5l" node="MdbUSGNFDX" resolve="clearReadOnly" />
             </node>
           </node>
         </node>
@@ -31293,6 +31368,23 @@
               </node>
               <node concept="3clFbT" id="5Y1b9tQZcZL" role="37vLTx">
                 <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFb_" id="MdbUSGNFDX" role="jymVt">
+        <property role="TrG5h" value="clearReadOnly" />
+        <node concept="3cqZAl" id="MdbUSGNFDZ" role="3clF45" />
+        <node concept="3Tm1VV" id="MdbUSGNFE0" role="1B3o_S" />
+        <node concept="3clFbS" id="MdbUSGNFE1" role="3clF47">
+          <node concept="3clFbF" id="MdbUSGNKiv" role="3cqZAp">
+            <node concept="37vLTI" id="MdbUSGNKon" role="3clFbG">
+              <node concept="3clFbT" id="MdbUSGNKpC" role="37vLTx">
+                <property role="3clFbU" value="false" />
+              </node>
+              <node concept="37vLTw" id="MdbUSGNKiu" role="37vLTJ">
+                <ref role="3cqZAo" node="5Y1b9tQZbmW" resolve="readOnly" />
               </node>
             </node>
           </node>
@@ -32559,7 +32651,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3sEA$PItH5f" role="2OqNvi">
-                  <ref role="37wK5l" to="epq1:~BigDecimal.multiply(java.math.BigDecimal):java.math.BigDecimal" resolve="multiply" />
+                  <ref role="37wK5l" to="epq1:~BigDecimal.divide(java.math.BigDecimal):java.math.BigDecimal" resolve="divide" />
                   <node concept="37vLTw" id="3sEA$PItH6a" role="37wK5m">
                     <ref role="3cqZAo" node="3sEA$PIsOyA" resolve="multiplier" />
                   </node>
