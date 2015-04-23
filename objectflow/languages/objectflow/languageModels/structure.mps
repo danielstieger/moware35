@@ -1722,7 +1722,7 @@
     <node concept="1TJgyj" id="7ii5IAYD_Dv" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="q_zDmI5v5l" resolve="OFXConfig" />
     </node>
     <node concept="PrWs8" id="6sucGAoevDQ" role="PzmwI">
