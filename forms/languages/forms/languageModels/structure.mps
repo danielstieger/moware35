@@ -1202,5 +1202,12 @@
     <property role="R4oN_" value="password from login screen" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="DwxaSd8adM">
+    <property role="3GE5qa" value="Application" />
+    <property role="TrG5h" value="SessionParameter" />
+    <property role="34LRSv" value="session" />
+    <property role="R4oN_" value="session to use" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 

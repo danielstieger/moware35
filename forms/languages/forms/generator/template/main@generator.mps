@@ -2368,6 +2368,12 @@
             <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
           </node>
         </node>
+        <node concept="37vLTG" id="66GoTZ7nQ3W" role="3clF46">
+          <property role="TrG5h" value="session" />
+          <node concept="3uibUv" id="66GoTZ7nRrc" role="1tU5fm">
+            <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+          </node>
+        </node>
         <node concept="10P_77" id="75iQIE8WV3z" role="3clF45" />
         <node concept="3Tm1VV" id="75iQIE8WV3$" role="1B3o_S" />
         <node concept="3clFbS" id="75iQIE8WV3A" role="3clF47">

@@ -7150,6 +7150,9 @@
               <node concept="3TUQnm" id="6P3UxUXVDCb" role="HW$Y0">
                 <ref role="3TV0OU" to="un0u:49kO6rP6mg_" resolve="UserEnvironmentParameter" />
               </node>
+              <node concept="3TUQnm" id="DwxaSd8apH" role="HW$Y0">
+                <ref role="3TV0OU" to="sgb:DwxaSd8adM" resolve="SessionParameter" />
+              </node>
             </node>
           </node>
         </node>

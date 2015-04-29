@@ -15,6 +15,7 @@
     <import index="q13i" ref="r:9fc6570b-687f-43e8-a83d-7a99f464f174(org.modellwerkstatt.forms.behavior)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -2216,6 +2217,32 @@
     <node concept="1YaCAy" id="7K4gD2_HeMk" role="1YuTPh">
       <property role="TrG5h" value="tableForm" />
       <ref role="1YaFvo" to="sgb:714k_BsPTQi" resolve="TableForm" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="DwxaSdnDwW">
+    <property role="TrG5h" value="typeof_SessionParameter" />
+    <property role="3GE5qa" value="Application" />
+    <node concept="3clFbS" id="DwxaSdnDwX" role="18ibNy">
+      <node concept="1Z5TYs" id="49kO6rP6w5R" role="3cqZAp">
+        <node concept="mw_s8" id="49kO6rP6w6e" role="1ZfhKB">
+          <node concept="2c44tf" id="49kO6rP6w6a" role="mwGJk">
+            <node concept="3uibUv" id="DwxaSdnE_R" role="2c44tc">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="49kO6rP6w5U" role="1ZfhK$">
+          <node concept="1Z2H0r" id="49kO6rP6w3b" role="mwGJk">
+            <node concept="1YBJjd" id="DwxaSdnEzX" role="1Z2MuG">
+              <ref role="1YBMHb" node="DwxaSdnDwZ" resolve="sessionParameter" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="DwxaSdnDwZ" role="1YuTPh">
+      <property role="TrG5h" value="sessionParameter" />
+      <ref role="1YaFvo" to="sgb:DwxaSd8adM" resolve="SessionParameter" />
     </node>
   </node>
 </model>

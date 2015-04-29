@@ -322,6 +322,32 @@
     <property role="2bfB8j" value="true" />
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
+    <node concept="Wx3nA" id="2eK$oa41LCZ" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="sessionTimeout" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10Oyi0" id="2eK$oa41Gs5" role="1tU5fm" />
+      <node concept="3Tm6S6" id="2eK$oa41C9C" role="1B3o_S" />
+      <node concept="17qRlL" id="2eK$oa41USM" role="33vP2m">
+        <node concept="3cmrfG" id="2eK$oa41UTq" role="3uHU7w">
+          <property role="3cmrfH" value="60" />
+        </node>
+        <node concept="3cmrfG" id="2eK$oa41UH_" role="3uHU7B">
+          <property role="3cmrfH" value="60" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wx3nA" id="2eK$oa4aIVV" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="charset" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="2eK$oa4aNp3" role="1tU5fm" />
+      <node concept="3Tm6S6" id="2eK$oa4aIVX" role="1B3o_S" />
+      <node concept="Xl_RD" id="2eK$oa4aQg4" role="33vP2m">
+        <property role="Xl_RC" value="ISO-8859-1" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2eK$oa41_CN" role="jymVt" />
     <node concept="312cEg" id="3ODNmtc2dWJ" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="notificationServiceName" />
@@ -342,6 +368,7 @@
         <property role="Xl_RC" value=":type=H1Telemetrics" />
       </node>
     </node>
+    <node concept="2tJIrI" id="2eK$oa41v2a" role="jymVt" />
     <node concept="312cEg" id="5HhpRjTup7Y" role="jymVt">
       <property role="TrG5h" value="appBehaviorFqName" />
       <node concept="3Tm6S6" id="5HhpRjTup7Z" role="1B3o_S" />
@@ -1620,13 +1647,8 @@
             </node>
             <node concept="liA8E" id="1XvfUlyovhZ" role="2OqNvi">
               <ref role="37wK5l" to="vksr:~HttpSession.setMaxInactiveInterval(int):void" resolve="setMaxInactiveInterval" />
-              <node concept="17qRlL" id="1XvfUlyovi0" role="37wK5m">
-                <node concept="3cmrfG" id="1XvfUlyovi1" role="3uHU7w">
-                  <property role="3cmrfH" value="60" />
-                </node>
-                <node concept="3cmrfG" id="1XvfUlyovi2" role="3uHU7B">
-                  <property role="3cmrfH" value="5" />
-                </node>
+              <node concept="37vLTw" id="2eK$oa41Trx" role="37wK5m">
+                <ref role="3cqZAo" node="2eK$oa41LCZ" resolve="sessionTimeout" />
               </node>
             </node>
           </node>
@@ -2000,7 +2022,35 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5OZ8iimK1LA" role="3cqZAp" />
+        <node concept="3cpWs8" id="66GoTZ7cO1D" role="3cqZAp">
+          <node concept="3cpWsn" id="66GoTZ7cO1E" role="3cpWs9">
+            <property role="TrG5h" value="localSession" />
+            <node concept="3uibUv" id="66GoTZ7cO1F" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+            <node concept="2OqwBi" id="66GoTZ7cS6f" role="33vP2m">
+              <node concept="37vLTw" id="66GoTZ7cPFW" role="2Oq$k0">
+                <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+              </node>
+              <node concept="liA8E" id="66GoTZ7cUqL" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="66GoTZ7d4RX" role="3cqZAp">
+          <node concept="2OqwBi" id="66GoTZ7dai7" role="3clFbG">
+            <node concept="37vLTw" id="66GoTZ7d4RV" role="2Oq$k0">
+              <ref role="3cqZAo" node="66GoTZ7cO1E" resolve="localSession" />
+            </node>
+            <node concept="liA8E" id="66GoTZ7dc_D" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:3$bhckF1T5U" resolve="setUserEnvironment" />
+              <node concept="37vLTw" id="66GoTZ7dcBY" role="37wK5m">
+                <ref role="3cqZAo" node="1XvfUlypqL4" resolve="env" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="1XvfUlypqLf" role="3cqZAp">
           <node concept="3clFbS" id="1XvfUlypqLg" role="3clFbx">
             <node concept="3cpWs8" id="1XvfUlypqLh" role="3cqZAp">
@@ -2269,6 +2319,9 @@
                 <node concept="10Nm6u" id="1XvfUlypqLJ" role="37wK5m" />
                 <node concept="37vLTw" id="1XvfUlypqLK" role="37wK5m">
                   <ref role="3cqZAo" node="1XvfUlypqL4" resolve="env" />
+                </node>
+                <node concept="37vLTw" id="66GoTZ7dgrm" role="37wK5m">
+                  <ref role="3cqZAo" node="66GoTZ7cO1E" resolve="localSession" />
                 </node>
               </node>
             </node>
@@ -2597,8 +2650,8 @@
                 </node>
                 <node concept="liA8E" id="7qRg8LncbPD" role="2OqNvi">
                   <ref role="37wK5l" to="tsi3:~ServletResponse.setCharacterEncoding(java.lang.String):void" resolve="setCharacterEncoding" />
-                  <node concept="Xl_RD" id="7qRg8LncbPO" role="37wK5m">
-                    <property role="Xl_RC" value="UTF-8" />
+                  <node concept="37vLTw" id="2eK$oa4aUi9" role="37wK5m">
+                    <ref role="3cqZAo" node="2eK$oa4aIVV" resolve="charset" />
                   </node>
                 </node>
               </node>
@@ -2610,8 +2663,8 @@
                 </node>
                 <node concept="liA8E" id="MdbUSGXyeq" role="2OqNvi">
                   <ref role="37wK5l" to="tsi3:~ServletRequest.setCharacterEncoding(java.lang.String):void" resolve="setCharacterEncoding" />
-                  <node concept="Xl_RD" id="MdbUSGXzHs" role="37wK5m">
-                    <property role="Xl_RC" value="UTF-8" />
+                  <node concept="37vLTw" id="2eK$oa4aWnG" role="37wK5m">
+                    <ref role="3cqZAo" node="2eK$oa4aIVV" resolve="charset" />
                   </node>
                 </node>
               </node>
@@ -3605,6 +3658,25 @@
                                           <ref role="37wK5l" to="tsi3:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
                                           <node concept="Xl_RD" id="7DInbKyuIFm" role="37wK5m">
                                             <property role="Xl_RC" value="username" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbF" id="2eK$oa4dJu1" role="3cqZAp">
+                                    <node concept="2OqwBi" id="2eK$oa4dNpA" role="3clFbG">
+                                      <node concept="2YIFZM" id="2eK$oa4dLsZ" role="2Oq$k0">
+                                        <ref role="37wK5l" node="6QX7KB4Quy0" resolve="getInstance" />
+                                        <ref role="1Pybhc" node="6QX7KB4Q4_P" resolve="H1LiveDebugLogger" />
+                                      </node>
+                                      <node concept="liA8E" id="2eK$oa4dPu7" role="2OqNvi">
+                                        <ref role="37wK5l" node="6QX7KB4QXtZ" resolve="log" />
+                                        <node concept="3cpWs3" id="2eK$oa4dVtP" role="37wK5m">
+                                          <node concept="37vLTw" id="2eK$oa4dX5y" role="3uHU7w">
+                                            <ref role="3cqZAo" node="7DInbKyuOTF" resolve="relogin" />
+                                          </node>
+                                          <node concept="Xl_RD" id="2eK$oa4dPvx" role="3uHU7B">
+                                            <property role="Xl_RC" value="Username is " />
                                           </node>
                                         </node>
                                       </node>
@@ -17378,6 +17450,10 @@
       <node concept="37vLTG" id="49rIjELDdUA" role="3clF46">
         <property role="TrG5h" value="additionalClass" />
         <node concept="17QB3L" id="49rIjELDdUB" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2eK$oa4xdLu" role="3clF46">
+        <property role="TrG5h" value="editorIndex" />
+        <node concept="10Oyi0" id="2eK$oa4xdNj" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="49rIjELDdUC" role="3clF45" />
       <node concept="3Tm1VV" id="49rIjELDdUD" role="1B3o_S" />

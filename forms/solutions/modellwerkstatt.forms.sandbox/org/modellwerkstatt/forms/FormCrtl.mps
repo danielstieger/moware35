@@ -1951,6 +1951,35 @@
         </node>
         <node concept="SfApY" id="1EA1lDXekGD" role="3cqZAp">
           <node concept="3clFbS" id="1EA1lDXekGF" role="SfCbr">
+            <node concept="3cpWs8" id="66GoTZ78nTc" role="3cqZAp">
+              <node concept="3cpWsn" id="66GoTZ78nTd" role="3cpWs9">
+                <property role="TrG5h" value="session" />
+                <node concept="3uibUv" id="66GoTZ78nTe" role="1tU5fm">
+                  <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+                </node>
+                <node concept="2OqwBi" id="66GoTZ78oaH" role="33vP2m">
+                  <node concept="37vLTw" id="66GoTZ78nXP" role="2Oq$k0">
+                    <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                  </node>
+                  <node concept="liA8E" id="66GoTZ78oo8" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="66GoTZ78otB" role="3cqZAp">
+              <node concept="2OqwBi" id="66GoTZ78oxM" role="3clFbG">
+                <node concept="37vLTw" id="66GoTZ78ot_" role="2Oq$k0">
+                  <ref role="3cqZAo" node="66GoTZ78nTd" resolve="session" />
+                </node>
+                <node concept="liA8E" id="66GoTZ78oCX" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:3$bhckF1T5U" resolve="setUserEnvironment" />
+                  <node concept="37vLTw" id="66GoTZ78oGk" role="37wK5m">
+                    <ref role="3cqZAo" node="3BCllXoLPzx" resolve="userEnvironment" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="1EA1lDXekUm" role="3cqZAp">
               <node concept="37vLTI" id="1EA1lDXekUo" role="3clFbG">
                 <node concept="2OqwBi" id="75iQIE8YPnk" role="37vLTx">
@@ -1976,6 +2005,9 @@
                     </node>
                     <node concept="37vLTw" id="3BCllXoNil_" role="37wK5m">
                       <ref role="3cqZAo" node="3BCllXoLPzx" resolve="userEnvironment" />
+                    </node>
+                    <node concept="37vLTw" id="66GoTZ78oS9" role="37wK5m">
+                      <ref role="3cqZAo" node="66GoTZ78nTd" resolve="session" />
                     </node>
                   </node>
                 </node>
@@ -10660,6 +10692,12 @@
           <property role="TrG5h" value="userEnvironment" />
           <node concept="3uibUv" id="75iQIE8U8kl" role="1tU5fm">
             <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
+          </node>
+        </node>
+        <node concept="37vLTG" id="66GoTZ77imT" role="3clF46">
+          <property role="TrG5h" value="session" />
+          <node concept="3uibUv" id="66GoTZ77mu2" role="1tU5fm">
+            <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
           </node>
         </node>
         <node concept="10P_77" id="75iQIE8U8bN" role="3clF45" />
