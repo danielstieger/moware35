@@ -235,6 +235,9 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
+      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
+        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
@@ -2899,7 +2902,41 @@
       </node>
       <node concept="3cqZAl" id="wDSRHNMjml" role="3clF45" />
       <node concept="3Tm1VV" id="wDSRHNMjmm" role="1B3o_S" />
-      <node concept="3clFbS" id="wDSRHNMjmo" role="3clF47" />
+      <node concept="3clFbS" id="wDSRHNMjmo" role="3clF47">
+        <node concept="3clFbF" id="5U6O6yzwlf$" role="3cqZAp">
+          <node concept="2OqwBi" id="5U6O6yzwljG" role="3clFbG">
+            <node concept="37vLTw" id="5U6O6yzwlfz" role="2Oq$k0">
+              <ref role="3cqZAo" node="wDSRHNMkwA" resolve="sb" />
+            </node>
+            <node concept="liA8E" id="5U6O6yzwlwd" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <node concept="3cpWs3" id="5U6O6yzwHe3" role="37wK5m">
+                <node concept="Xl_RD" id="5U6O6yzwHCU" role="3uHU7w">
+                  <property role="Xl_RC" value="\n" />
+                </node>
+                <node concept="3cpWs3" id="5U6O6yzwoaa" role="3uHU7B">
+                  <node concept="3cpWs3" id="5U6O6yzwmzc" role="3uHU7B">
+                    <node concept="3cpWs3" id="5U6O6yzwm0M" role="3uHU7B">
+                      <node concept="37vLTw" id="5U6O6yzwlJ9" role="3uHU7B">
+                        <ref role="3cqZAo" node="wDSRHNMjmf" resolve="indent" />
+                      </node>
+                      <node concept="37vLTw" id="5U6O6yzwmh4" role="3uHU7w">
+                        <ref role="3cqZAo" node="wDSRHNMjmh" resolve="fieldname" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="5U6O6yzwmUj" role="3uHU7w">
+                      <property role="Xl_RC" value=" (Virt.Prop.) " />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="5U6O6yzwoza" role="3uHU7w">
+                    <ref role="3cqZAo" node="2kdFTcLN3_1" resolve="value" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="wDSRHNMjiR" role="jymVt" />
     <node concept="3clFb_" id="wDSRHNJWAc" role="jymVt">
@@ -3589,12 +3626,61 @@
           </node>
           <node concept="TDmWw" id="2kdFTcLNwjz" role="TEbGg">
             <node concept="3clFbS" id="2kdFTcLNwjA" role="TDEfX">
-              <node concept="YS8fn" id="2kdFTcLNDig" role="3cqZAp">
-                <node concept="2ShNRf" id="2kdFTcLNDih" role="YScLw">
-                  <node concept="1pGfFk" id="2kdFTcLNDii" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="2kdFTcLNDij" role="37wK5m">
-                      <ref role="3cqZAo" node="2kdFTcLNwjB" resolve="e" />
+              <node concept="3SKdUt" id="5U6O6yzvXYD" role="3cqZAp">
+                <node concept="3SKWN0" id="5U6O6yzvXYE" role="3SKWNk">
+                  <node concept="YS8fn" id="2kdFTcLNDig" role="3SKWNf">
+                    <node concept="2ShNRf" id="2kdFTcLNDih" role="YScLw">
+                      <node concept="1pGfFk" id="2kdFTcLNDii" role="2ShVmc">
+                        <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                        <node concept="37vLTw" id="2kdFTcLNDij" role="37wK5m">
+                          <ref role="3cqZAo" node="2kdFTcLNwjB" resolve="e" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="5U6O6yzvO5T" role="3cqZAp">
+                <node concept="3cpWs3" id="5U6O6yzvQF7" role="3cqZAk">
+                  <node concept="3cpWs3" id="5U6O6yzvVLT" role="3uHU7B">
+                    <node concept="Xl_RD" id="5U6O6yzvVMv" role="3uHU7w">
+                      <property role="Xl_RC" value=": " />
+                    </node>
+                    <node concept="3cpWs3" id="5U6O6yzwhzd" role="3uHU7B">
+                      <node concept="Xl_RD" id="5U6O6yzwpsK" role="3uHU7B">
+                        <property role="Xl_RC" value="EXCEPTION " />
+                      </node>
+                      <node concept="2OqwBi" id="5U6O6yzvTFS" role="3uHU7w">
+                        <node concept="2OqwBi" id="5U6O6yzvS6m" role="2Oq$k0">
+                          <node concept="2OqwBi" id="5U6O6yzwVkD" role="2Oq$k0">
+                            <node concept="37vLTw" id="5U6O6yzvR$x" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2kdFTcLNwjB" resolve="e" />
+                            </node>
+                            <node concept="liA8E" id="5U6O6yzwWim" role="2OqNvi">
+                              <ref role="37wK5l" to="xqpa:~InvocationTargetException.getCause():java.lang.Throwable" resolve="getCause" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="5U6O6yzvT3F" role="2OqNvi">
+                            <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="5U6O6yzvUJl" role="2OqNvi">
+                          <ref role="37wK5l" to="e2lb:~Class.getName():java.lang.String" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="5U6O6yzwTrC" role="3uHU7w">
+                    <node concept="2OqwBi" id="5U6O6yzvON7" role="2Oq$k0">
+                      <node concept="37vLTw" id="5U6O6yzvOin" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2kdFTcLNwjB" resolve="e" />
+                      </node>
+                      <node concept="liA8E" id="5U6O6yzvPKf" role="2OqNvi">
+                        <ref role="37wK5l" to="xqpa:~InvocationTargetException.getCause():java.lang.Throwable" resolve="getCause" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="5U6O6yzwUpq" role="2OqNvi">
+                      <ref role="37wK5l" to="e2lb:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
                     </node>
                   </node>
                 </node>
