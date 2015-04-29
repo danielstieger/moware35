@@ -408,9 +408,14 @@
 	-fx-background-color: -white;
 }
 .table-view .column-header { -fx-size: 11;
-                             /* -fx-font-size: 12; */
-                            -fx-padding: 0px;
+                             /* -fx-font-size: 10;  */
+                             -fx-font-weight: normal;
+                             -fx-padding: 0px;
                              -fx-background-color: -white;
+}
+
+.table-view .column-header .label {
+  -fx-text-fill: -fx-accent;
 }
 
 .table-row-cell {  -fx-cell-size: 19;

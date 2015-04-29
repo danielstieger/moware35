@@ -442,7 +442,7 @@
                 <node concept="liA8E" id="7nDJo_bzzFW" role="2OqNvi">
                   <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="7nDJo_bzzGN" role="37wK5m">
-                    <property role="Xl_RC" value="You are successfully connect.\n\n" />
+                    <property role="Xl_RC" value="You are successfully connected.\n\n" />
                   </node>
                 </node>
               </node>
