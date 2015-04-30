@@ -6727,6 +6727,29 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbT" id="1VinVXFaCL2" role="37wK5m">
+                <property role="3clFbU" value="false" />
+                <node concept="17Uvod" id="1VinVXFaDem" role="lGtFl">
+                  <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                  <property role="2qtEX9" value="value" />
+                  <node concept="3zFVjK" id="1VinVXFaDen" role="3zH0cK">
+                    <node concept="3clFbS" id="1VinVXFaDeo" role="2VODD2">
+                      <node concept="3SKdUt" id="1VinVXFaDDi" role="3cqZAp">
+                        <node concept="3SKdUq" id="1VinVXFaDFL" role="3SKWNk">
+                          <property role="3SKdUp" value="is it a common integer key reference" />
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="1VinVXFaDXB" role="3cqZAp">
+                        <node concept="2YIFZM" id="1VinVXFaMi$" role="3clFbG">
+                          <ref role="37wK5l" to="3ojc:1GxgwjBwEqb" resolve="isIntKeyAtBusinessObjectProperty" />
+                          <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
+                          <node concept="30H73N" id="1VinVXFaMp8" role="37wK5m" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3uibUv" id="5dZoziQZSUz" role="1pMfVU">
                 <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
                 <node concept="29HgVG" id="5dZoziR06k9" role="lGtFl">
