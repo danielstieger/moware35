@@ -24,6 +24,7 @@
     <import index="e4l8" ref="f:java_stub#86b5ca77-71d4-452d-8c64-76f13a80aab6#javafx.stage(org.modellwerkstatt.fx8forms/javafx.stage@java_stub)" implicit="true" />
     <import index="gwt4" ref="f:java_stub#86b5ca77-71d4-452d-8c64-76f13a80aab6#javafx.beans.binding(org.modellwerkstatt.fx8forms/javafx.beans.binding@java_stub)" implicit="true" />
     <import index="1g2g" ref="f:java_stub#86b5ca77-71d4-452d-8c64-76f13a80aab6#com.sun.javafx.scene.control.behavior(org.modellwerkstatt.fx8forms/com.sun.javafx.scene.control.behavior@java_stub)" implicit="true" />
+    <import index="zdg3" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/f:java_stub#86b5ca77-71d4-452d-8c64-76f13a80aab6#javafx.collections(org.modellwerkstatt.fx8forms/javafx.collections@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2906,7 +2907,7 @@
       <node concept="3Tm1VV" id="3sEA$PIzApa" role="1B3o_S" />
       <node concept="10Oyi0" id="3sEA$PIzApb" role="1tU5fm" />
       <node concept="3cmrfG" id="3sEA$PIzApc" role="33vP2m">
-        <property role="3cmrfH" value="22" />
+        <property role="3cmrfH" value="26" />
       </node>
     </node>
     <node concept="2tJIrI" id="3sEA$PIzA_z" role="jymVt" />
@@ -4928,16 +4929,7 @@
   </node>
   <node concept="312cEu" id="1kaU3pLWzTJ">
     <property role="TrG5h" value="FX8StatusEditor" />
-    <node concept="Wx3nA" id="1kaU3pLWzTK" role="jymVt">
-      <property role="TrG5h" value="delegateEditorMinHeight" />
-      <node concept="3Tm1VV" id="1kaU3pLWzTL" role="1B3o_S" />
-      <node concept="10Oyi0" id="1kaU3pLWzTM" role="1tU5fm" />
-      <node concept="3cmrfG" id="1kaU3pLWzTN" role="33vP2m">
-        <property role="3cmrfH" value="30" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="1kaU3pLWzTO" role="jymVt" />
-    <node concept="2tJIrI" id="1kaU3pLWzTP" role="jymVt" />
     <node concept="312cEg" id="1kaU3pLWzTQ" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -5088,8 +5080,9 @@
             </node>
             <node concept="liA8E" id="1kaU3pLWzV0" role="2OqNvi">
               <ref role="37wK5l" to="4i1a:~Region.setMinHeight(double):void" resolve="setMinHeight" />
-              <node concept="37vLTw" id="1kaU3pLWzV1" role="37wK5m">
-                <ref role="3cqZAo" node="1kaU3pLWzTK" resolve="delegateEditorMinHeight" />
+              <node concept="10M0yZ" id="5leyo0Zg2fE" role="37wK5m">
+                <ref role="1PxDUh" node="5Y1b9tR0d3H" resolve="FX8TextEditor" />
+                <ref role="3cqZAo" node="3sEA$PIzAp9" resolve="delegateEditorMinHeight" />
               </node>
             </node>
           </node>
@@ -5771,7 +5764,7 @@
               </node>
             </node>
             <node concept="liA8E" id="1kaU3pLXABZ" role="2OqNvi">
-              <ref role="37wK5l" to="k7g3:~List.addAll(java.util.Collection):boolean" resolve="addAll" />
+              <ref role="37wK5l" to="zdg3:~ObservableList.addAll(java.lang.Object...):boolean" resolve="addAll" />
               <node concept="37vLTw" id="1kaU3pLXACD" role="37wK5m">
                 <ref role="3cqZAo" node="1kaU3pLXdDg" resolve="items" />
               </node>

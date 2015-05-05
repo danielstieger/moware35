@@ -4913,6 +4913,85 @@
         <node concept="10Oyi0" id="1y3D6gOo5bS" role="1tU5fm" />
       </node>
     </node>
+    <node concept="wbJLE" id="5leyo0ZbyOR" role="jymVt">
+      <property role="TrG5h" value="find_checkSQLExpression" />
+      <node concept="10P_77" id="5leyo0ZbzAs" role="3clF45" />
+      <node concept="3Tm1VV" id="5leyo0ZbyOT" role="1B3o_S" />
+      <node concept="3clFbS" id="5leyo0ZbyOU" role="3clF47">
+        <node concept="3cpWs8" id="5leyo0ZbzKv" role="3cqZAp">
+          <node concept="3cpWsn" id="5leyo0ZbzKy" role="3cpWs9">
+            <property role="TrG5h" value="sql" />
+            <node concept="17QB3L" id="5leyo0ZbzKu" role="1tU5fm" />
+            <node concept="3cpWs3" id="5leyo0ZbzVJ" role="33vP2m">
+              <node concept="3cpWs3" id="5leyo0ZbzQF" role="3uHU7B">
+                <node concept="1Q8zPT" id="5leyo0Zb$9n" role="3uHU7B">
+                  <node concept="19SGf9" id="5leyo0Zb$9p" role="1Q8hHE">
+                    <node concept="19SUe$" id="5leyo0Zb$9q" role="19SJt6">
+                      <property role="19SUeA" value="SELECT " />
+                    </node>
+                    <node concept="1Q8hyx" id="5leyo0Zb$se" role="19SJt6">
+                      <ref role="1Q8sVa" node="66mO_QBe4Rd" />
+                    </node>
+                    <node concept="19SUe$" id="5leyo0Zb$sf" role="19SJt6" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="5leyo0Zb$jL" role="3uHU7w">
+                  <property role="Xl_RC" value=" " />
+                </node>
+              </node>
+              <node concept="1Q8zPT" id="5leyo0Zb$i9" role="3uHU7w">
+                <node concept="19SGf9" id="5leyo0Zb$ib" role="1Q8hHE">
+                  <node concept="19SUe$" id="5leyo0Zb$ic" role="19SJt6">
+                    <property role="19SUeA" value="FROM " />
+                  </node>
+                  <node concept="1Q8hzo" id="5leyo0Zb$sJ" role="19SJt6">
+                    <ref role="1Q8qb1" node="66mO_QBe4QP" resolve="MapIntKeyObject" />
+                  </node>
+                  <node concept="19SUe$" id="5leyo0Zb$sK" role="19SJt6" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5leyo0ZbD4s" role="3cqZAp">
+          <node concept="2OqwBi" id="5leyo0ZbD4p" role="3clFbG">
+            <node concept="10M0yZ" id="5leyo0ZbD4q" role="2Oq$k0">
+              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="5leyo0ZbD4r" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="5leyo0ZbDBs" role="37wK5m">
+                <node concept="Xl_RD" id="5leyo0ZbDRE" role="3uHU7w">
+                  <property role="Xl_RC" value="'" />
+                </node>
+                <node concept="3cpWs3" id="5leyo0ZbDnZ" role="3uHU7B">
+                  <node concept="Xl_RD" id="5leyo0ZbDaS" role="3uHU7B">
+                    <property role="Xl_RC" value="SQL-STRING is '" />
+                  </node>
+                  <node concept="37vLTw" id="5leyo0ZbDsN" role="3uHU7w">
+                    <ref role="3cqZAo" node="5leyo0ZbzKy" resolve="sql" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5leyo0Zb$zx" role="3cqZAp">
+          <node concept="2OqwBi" id="5leyo0Zb$GB" role="3clFbG">
+            <node concept="37vLTw" id="5leyo0Zb$zv" role="2Oq$k0">
+              <ref role="3cqZAo" node="5leyo0ZbzKy" resolve="sql" />
+            </node>
+            <node concept="liA8E" id="5leyo0ZbCia" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="5leyo0ZbCmh" role="37wK5m">
+                <property role="Xl_RC" value="SELECT KEY FROM TESTOBJECT_TABLE" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="wbJLE" id="4r0DqI1Q1nQ" role="jymVt">
       <property role="TrG5h" value="findTableNameForIntKeyObject" />
       <node concept="17QB3L" id="4r0DqI1Q2jp" role="3clF45" />
@@ -11443,6 +11522,7 @@
               <node concept="3cmrfG" id="2YYXlurr8$9" role="37wK5m">
                 <property role="3cmrfH" value="0" />
               </node>
+              <node concept="10Nm6u" id="1jAcMFYGNV1" role="2f8TIa" />
             </node>
           </node>
         </node>
@@ -11467,6 +11547,7 @@
             <node concept="1odsa" id="57r_4rzVAxB" role="33vP2m">
               <ref role="1ods_" node="36k2Uwstchd" resolve="TestModelRepo" />
               <ref role="37wK5l" node="57r_4rzQ4G4" resolve="findProformaByConstant" />
+              <node concept="10Nm6u" id="1jAcMFYKmuA" role="2f8TIa" />
             </node>
           </node>
         </node>
@@ -19107,6 +19188,26 @@
                 <property role="Xl_RC" value=" zzCreateAt: " />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2fsTSr" id="5leyo0ZbE1$" role="2fsTST">
+      <property role="TrG5h" value="TEST_6" />
+      <node concept="3cqZAl" id="5leyo0ZbE1A" role="3clF45" />
+      <node concept="3Tm1VV" id="5leyo0ZbE1B" role="1B3o_S" />
+      <node concept="Xl_RD" id="5leyo0ZbE1C" role="2fsTSx">
+        <property role="Xl_RC" value="Concatination of SQL strings." />
+      </node>
+      <node concept="3clFbS" id="5leyo0ZbE1D" role="3clF47">
+        <node concept="1gVbGN" id="5leyo0ZbHDe" role="3cqZAp">
+          <node concept="1odsa" id="5leyo0ZbHDD" role="1gVkn0">
+            <ref role="1ods_" node="36k2Uwstchd" resolve="TestModelRepo" />
+            <ref role="37wK5l" node="5leyo0ZbyOR" resolve="find_checkSQLExpression" />
+            <node concept="10Nm6u" id="5leyo0ZbHEO" role="2f8TIa" />
+          </node>
+          <node concept="Xl_RD" id="5leyo0ZbHFs" role="1gVpfI">
+            <property role="Xl_RC" value="SQL string does not match" />
           </node>
         </node>
       </node>
