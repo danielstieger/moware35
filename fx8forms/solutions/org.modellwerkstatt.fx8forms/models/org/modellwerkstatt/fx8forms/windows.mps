@@ -16572,6 +16572,11 @@
       <node concept="3cqZAl" id="1e8699aCJoB" role="3clF45" />
       <node concept="3Tm1VV" id="1e8699aCJoC" role="1B3o_S" />
       <node concept="3clFbS" id="1e8699aCJoD" role="3clF47">
+        <node concept="3SKdUt" id="4ov51BXFIU" role="3cqZAp">
+          <node concept="3SKdUq" id="4ov51BXGz8" role="3SKWNk">
+            <property role="3SKdUp" value="is on platform.runlater() exec only, if table is not null" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="1e8699aCJoE" role="3cqZAp">
           <node concept="3clFbS" id="1e8699aCJoF" role="3clFbx">
             <node concept="3cpWs8" id="1e8699aCJoG" role="3cqZAp">
@@ -16867,15 +16872,23 @@
             </node>
             <node concept="3clFbH" id="1e8699aCJqj" role="3cqZAp" />
           </node>
-          <node concept="1Wc70l" id="1e8699aCJqk" role="3clFbw">
-            <node concept="3y3z36" id="1e8699aCJql" role="3uHU7w">
-              <node concept="10Nm6u" id="1e8699aCJqm" role="3uHU7w" />
-              <node concept="37vLTw" id="fdGRoMYPMI" role="3uHU7B">
-                <ref role="3cqZAo" node="1e8699aCJdU" resolve="allItems" />
+          <node concept="1Wc70l" id="4ov51BXH0l" role="3clFbw">
+            <node concept="3y3z36" id="4ov51BXI5a" role="3uHU7w">
+              <node concept="10Nm6u" id="4ov51BXIpo" role="3uHU7w" />
+              <node concept="37vLTw" id="4ov51BXHHj" role="3uHU7B">
+                <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
               </node>
             </node>
-            <node concept="37vLTw" id="fdGRoMYPqY" role="3uHU7B">
-              <ref role="3cqZAo" node="1e8699aCJdN" resolve="searchEnabled" />
+            <node concept="1Wc70l" id="1e8699aCJqk" role="3uHU7B">
+              <node concept="37vLTw" id="fdGRoMYPqY" role="3uHU7B">
+                <ref role="3cqZAo" node="1e8699aCJdN" resolve="searchEnabled" />
+              </node>
+              <node concept="3y3z36" id="1e8699aCJql" role="3uHU7w">
+                <node concept="37vLTw" id="fdGRoMYPMI" role="3uHU7B">
+                  <ref role="3cqZAo" node="1e8699aCJdU" resolve="allItems" />
+                </node>
+                <node concept="10Nm6u" id="1e8699aCJqm" role="3uHU7w" />
+              </node>
             </node>
           </node>
         </node>
