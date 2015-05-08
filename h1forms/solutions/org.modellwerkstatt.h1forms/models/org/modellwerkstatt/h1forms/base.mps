@@ -141,7 +141,6 @@
       <concept id="1109283449304" name="jetbrains.mps.baseLanguage.structure.TypeVariableReference" flags="in" index="16syzq">
         <reference id="1109283546497" name="typeVariableDeclaration" index="16sUi3" />
       </concept>
-      <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -322,21 +321,6 @@
     <property role="2bfB8j" value="true" />
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
-    <node concept="Wx3nA" id="2eK$oa41LCZ" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="TrG5h" value="sessionTimeout" />
-      <property role="3TUv4t" value="true" />
-      <node concept="10Oyi0" id="2eK$oa41Gs5" role="1tU5fm" />
-      <node concept="3Tm6S6" id="2eK$oa41C9C" role="1B3o_S" />
-      <node concept="17qRlL" id="2eK$oa41USM" role="33vP2m">
-        <node concept="3cmrfG" id="2eK$oa41UTq" role="3uHU7w">
-          <property role="3cmrfH" value="60" />
-        </node>
-        <node concept="3cmrfG" id="2eK$oa41UH_" role="3uHU7B">
-          <property role="3cmrfH" value="60" />
-        </node>
-      </node>
-    </node>
     <node concept="Wx3nA" id="2eK$oa4aIVV" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="charset" />
@@ -1591,6 +1575,33 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3yfWYM0MwHz" role="3cqZAp" />
+        <node concept="3SKdUt" id="3yfWYM0MA6L" role="3cqZAp">
+          <node concept="3SKdUq" id="3yfWYM0MB$n" role="3SKWNk">
+            <property role="3SKdUp" value="calc timeout to 24:00 " />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3yfWYM0NeM1" role="3cqZAp">
+          <node concept="3cpWsn" id="3yfWYM0NeM4" role="3cpWs9">
+            <property role="TrG5h" value="secondsOfDay" />
+            <node concept="10Oyi0" id="3yfWYM0NVWn" role="1tU5fm" />
+            <node concept="FJ1c_" id="3yfWYM0NvJ3" role="33vP2m">
+              <node concept="3cmrfG" id="3yfWYM0NvKC" role="3uHU7w">
+                <property role="3cmrfH" value="1000" />
+              </node>
+              <node concept="2OqwBi" id="3yfWYM0NshD" role="3uHU7B">
+                <node concept="2ShNRf" id="3yfWYM0NpsD" role="2Oq$k0">
+                  <node concept="1pGfFk" id="3yfWYM0NrYc" role="2ShVmc">
+                    <ref role="37wK5l" to="26n1:~LocalTime.&lt;init&gt;()" resolve="LocalTime" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3yfWYM0NucW" role="2OqNvi">
+                  <ref role="37wK5l" to="26n1:~LocalTime.getMillisOfDay():int" resolve="getMillisOfDay" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1XvfUlyovhW" role="3cqZAp">
           <node concept="2OqwBi" id="1XvfUlyovhX" role="3clFbG">
             <node concept="37vLTw" id="1XvfUlyovhY" role="2Oq$k0">
@@ -1598,12 +1609,18 @@
             </node>
             <node concept="liA8E" id="1XvfUlyovhZ" role="2OqNvi">
               <ref role="37wK5l" to="vksr:~HttpSession.setMaxInactiveInterval(int):void" resolve="setMaxInactiveInterval" />
-              <node concept="37vLTw" id="2eK$oa41Trx" role="37wK5m">
-                <ref role="3cqZAo" node="2eK$oa41LCZ" resolve="sessionTimeout" />
+              <node concept="3cpWsd" id="3yfWYM0NKBw" role="37wK5m">
+                <node concept="37vLTw" id="3yfWYM0NM3y" role="3uHU7w">
+                  <ref role="3cqZAo" node="3yfWYM0NeM4" resolve="secondsOfDay" />
+                </node>
+                <node concept="3cmrfG" id="3yfWYM0NXpZ" role="3uHU7B">
+                  <property role="3cmrfH" value="86400" />
+                </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3yfWYM0Oax6" role="3cqZAp" />
         <node concept="3cpWs6" id="1XvfUlyoUmY" role="3cqZAp">
           <node concept="37vLTw" id="1XvfUlyoUoF" role="3cqZAk">
             <ref role="3cqZAo" node="1XvfUlyowno" resolve="session" />
@@ -3299,19 +3316,14 @@
                         <node concept="3cpWsn" id="4ZThPOYO9NN" role="3cpWs9">
                           <property role="TrG5h" value="naviCrtl" />
                           <node concept="17QB3L" id="4ZThPOYO9NO" role="1tU5fm" />
-                          <node concept="1eOMI4" id="4ZThPOYO9NP" role="33vP2m">
-                            <node concept="10QFUN" id="4ZThPOYO9NQ" role="1eOMHV">
-                              <node concept="17QB3L" id="4ZThPOYO9NR" role="10QFUM" />
-                              <node concept="2OqwBi" id="4ZThPOYO9NS" role="10QFUP">
-                                <node concept="37vLTw" id="4ZThPOYO9NT" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
-                                </node>
-                                <node concept="liA8E" id="4ZThPOYO9NU" role="2OqNvi">
-                                  <ref role="37wK5l" to="tsi3:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
-                                  <node concept="Xl_RD" id="4ZThPOYO9NV" role="37wK5m">
-                                    <property role="Xl_RC" value="NaviCrtl" />
-                                  </node>
-                                </node>
+                          <node concept="2OqwBi" id="4ZThPOYO9NS" role="33vP2m">
+                            <node concept="37vLTw" id="4ZThPOYO9NT" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                            </node>
+                            <node concept="liA8E" id="4ZThPOYO9NU" role="2OqNvi">
+                              <ref role="37wK5l" to="tsi3:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                              <node concept="Xl_RD" id="4ZThPOYO9NV" role="37wK5m">
+                                <property role="Xl_RC" value="NaviCrtl" />
                               </node>
                             </node>
                           </node>
@@ -3934,6 +3946,7 @@
               </node>
             </node>
             <node concept="3clFbS" id="6QRLe84s9Jg" role="TDEfX">
+              <node concept="3clFbH" id="3yfWYM0Ma0n" role="3cqZAp" />
               <node concept="3cpWs8" id="75445jw3kn8" role="3cqZAp">
                 <node concept="3cpWsn" id="75445jw3kn9" role="3cpWs9">
                   <property role="TrG5h" value="b" />
@@ -4152,6 +4165,23 @@
                 <node concept="2YIFZM" id="7G_6kzK6j5f" role="3clFbG">
                   <ref role="37wK5l" node="7G_6kzK5S5C" resolve="incException" />
                   <ref role="1Pybhc" node="4x14MABr2ep" resolve="H1Telemetrics" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="3yfWYM0MbUJ" role="3cqZAp" />
+              <node concept="3SKdUt" id="3yfWYM0Mq1q" role="3cqZAp">
+                <node concept="3SKdUq" id="3yfWYM0MrR2" role="3SKWNk">
+                  <property role="3SKdUp" value="Log Exception here ... Exception was also displayed to user. " />
+                </node>
+              </node>
+              <node concept="3clFbF" id="3yfWYM0Mhez" role="3cqZAp">
+                <node concept="1rXfSq" id="3yfWYM0Mhex" role="3clFbG">
+                  <ref role="37wK5l" to="tsi3:~GenericServlet.log(java.lang.String,java.lang.Throwable):void" resolve="log" />
+                  <node concept="Xl_RD" id="3yfWYM0Mj7O" role="37wK5m">
+                    <property role="Xl_RC" value="Exception" />
+                  </node>
+                  <node concept="37vLTw" id="3yfWYM0MjY6" role="37wK5m">
+                    <ref role="3cqZAo" node="6QRLe84s9Je" resolve="ex" />
+                  </node>
                 </node>
               </node>
             </node>

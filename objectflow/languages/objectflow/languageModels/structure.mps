@@ -1359,6 +1359,10 @@
       <property role="1uS6qo" value="INSERT" />
       <property role="1uS6qv" value="INSERT" />
     </node>
+    <node concept="M4N5e" id="3yfWYM0QqeR" role="M5hS2">
+      <property role="1uS6qo" value="SCAN" />
+      <property role="1uS6qv" value="SCAN" />
+    </node>
   </node>
   <node concept="AxPO7" id="OmBzHGj4UR">
     <property role="3GE5qa" value="OFXCore.command" />

@@ -968,6 +968,17 @@
       <node concept="3Tm1VV" id="dX9tEw_WUp" role="1B3o_S" />
       <node concept="3clFbS" id="dX9tEw_WUq" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="3yfWYM0Rd0a" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setScanable" />
+      <node concept="3cqZAl" id="3yfWYM0Rd0c" role="3clF45" />
+      <node concept="3Tm1VV" id="3yfWYM0Rd0d" role="1B3o_S" />
+      <node concept="3clFbS" id="3yfWYM0Rd0e" role="3clF47" />
+      <node concept="37vLTG" id="3yfWYM0Rdzv" role="3clF46">
+        <property role="TrG5h" value="scanable" />
+        <node concept="10P_77" id="3yfWYM0Rdzu" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="3clFb_" id="dX9tEwAYDN" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isInputValid" />

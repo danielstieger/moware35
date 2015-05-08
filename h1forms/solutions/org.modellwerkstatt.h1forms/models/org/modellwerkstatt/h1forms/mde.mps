@@ -4704,7 +4704,7 @@
                 <node concept="liA8E" id="5rjVZFJECIL" role="2OqNvi">
                   <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="5rjVZFJECIM" role="37wK5m">
-                    <property role="Xl_RC" value="\&quot; class=\&quot;FocusMe\&quot;" />
+                    <property role="Xl_RC" value="\&quot; focusme=\&quot;true\&quot; " />
                   </node>
                 </node>
               </node>
@@ -5172,6 +5172,18 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="2tJIrI" id="3yfWYM11QFr" role="jymVt" />
+    <node concept="3clFb_" id="3yfWYM11RiL" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setScanable" />
+      <node concept="3cqZAl" id="3yfWYM11RiM" role="3clF45" />
+      <node concept="3Tm1VV" id="3yfWYM11RiN" role="1B3o_S" />
+      <node concept="37vLTG" id="3yfWYM11RiP" role="3clF46">
+        <property role="TrG5h" value="scanable" />
+        <node concept="10P_77" id="3yfWYM11RiQ" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3yfWYM11RiS" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="46JJF8ILz5q" role="1B3o_S" />
     <node concept="3uibUv" id="6nF$iZDK_p_" role="EKbjA">
@@ -5782,7 +5794,7 @@
                 <node concept="liA8E" id="5rjVZFJECQb" role="2OqNvi">
                   <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="5rjVZFJECQc" role="37wK5m">
-                    <property role="Xl_RC" value="\&quot; class=\&quot;FocusMe\&quot;" />
+                    <property role="Xl_RC" value="\&quot; focusme=\&quot;true\&quot; " />
                   </node>
                 </node>
               </node>
@@ -6174,6 +6186,17 @@
       </node>
     </node>
     <node concept="2tJIrI" id="46JJF8IQrUd" role="jymVt" />
+    <node concept="3clFb_" id="3yfWYM11XUH" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setScanable" />
+      <node concept="3cqZAl" id="3yfWYM11XUI" role="3clF45" />
+      <node concept="3Tm1VV" id="3yfWYM11XUJ" role="1B3o_S" />
+      <node concept="37vLTG" id="3yfWYM11XUL" role="3clF46">
+        <property role="TrG5h" value="scanable" />
+        <node concept="10P_77" id="3yfWYM11XUM" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3yfWYM11XUO" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="46JJF8ILz6b" role="1B3o_S" />
     <node concept="3uibUv" id="46JJF8ILEAQ" role="EKbjA">
       <ref role="3uigEE" to="quhv:1kaU3pLV2oM" resolve="IToolkit_StatusEditor" />
@@ -6218,6 +6241,11 @@
       <property role="TrG5h" value="isNumberInput" />
       <node concept="3Tm6S6" id="4NOhjsr$UmP" role="1B3o_S" />
       <node concept="10P_77" id="4NOhjsr_29R" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="3yfWYM13dfR" role="jymVt">
+      <property role="TrG5h" value="scanable" />
+      <node concept="3Tm6S6" id="3yfWYM13dfS" role="1B3o_S" />
+      <node concept="10P_77" id="3yfWYM13dfT" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="46JJF8IM4DB" role="jymVt" />
     <node concept="2tJIrI" id="46JJF8IM4Fz" role="jymVt" />
@@ -6278,6 +6306,16 @@
             </node>
             <node concept="37vLTw" id="4NOhjsr_2fC" role="37vLTJ">
               <ref role="3cqZAo" node="4NOhjsr$UmO" resolve="isNumberInput" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3yfWYM13dQ8" role="3cqZAp">
+          <node concept="37vLTI" id="3yfWYM13dQ9" role="3clFbG">
+            <node concept="3clFbT" id="3yfWYM13dQa" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="3yfWYM13e1O" role="37vLTJ">
+              <ref role="3cqZAo" node="3yfWYM13dfR" resolve="scanable" />
             </node>
           </node>
         </node>
@@ -6792,6 +6830,26 @@
           </node>
         </node>
         <node concept="3clFbH" id="2eK$oa4xWTp" role="3cqZAp" />
+        <node concept="3clFbJ" id="3yfWYM13fnI" role="3cqZAp">
+          <node concept="3clFbS" id="3yfWYM13fnK" role="3clFbx">
+            <node concept="3clFbF" id="3yfWYM13fZw" role="3cqZAp">
+              <node concept="2OqwBi" id="3yfWYM13g1V" role="3clFbG">
+                <node concept="37vLTw" id="3yfWYM13fZu" role="2Oq$k0">
+                  <ref role="3cqZAo" node="46JJF8ILYRE" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="3yfWYM13g9H" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="Xl_RD" id="3yfWYM13gau" role="37wK5m">
+                    <property role="Xl_RC" value=" scanable=\&quot;true\&quot; " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="3yfWYM13fGU" role="3clFbw">
+            <ref role="3cqZAo" node="3yfWYM13dfR" resolve="scanable" />
+          </node>
+        </node>
         <node concept="3clFbH" id="2eK$oa4xXbI" role="3cqZAp" />
         <node concept="3clFbF" id="46JJF8IM7Sf" role="3cqZAp">
           <node concept="2OqwBi" id="46JJF8IM7Zo" role="3clFbG">
@@ -7183,6 +7241,28 @@
     </node>
     <node concept="2tJIrI" id="46JJF8ILY_A" role="jymVt" />
     <node concept="2tJIrI" id="46JJF8ILYAN" role="jymVt" />
+    <node concept="3clFb_" id="3yfWYM12xm3" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setScanable" />
+      <node concept="3cqZAl" id="3yfWYM12xm4" role="3clF45" />
+      <node concept="3Tm1VV" id="3yfWYM12xm5" role="1B3o_S" />
+      <node concept="37vLTG" id="3yfWYM12xm7" role="3clF46">
+        <property role="TrG5h" value="scan" />
+        <node concept="10P_77" id="3yfWYM12xm8" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3yfWYM12xm9" role="3clF47">
+        <node concept="3clFbF" id="3yfWYM13eal" role="3cqZAp">
+          <node concept="37vLTI" id="3yfWYM13eqe" role="3clFbG">
+            <node concept="37vLTw" id="3yfWYM13eWb" role="37vLTx">
+              <ref role="3cqZAo" node="3yfWYM12xm7" resolve="scan" />
+            </node>
+            <node concept="37vLTw" id="3yfWYM13eKk" role="37vLTJ">
+              <ref role="3cqZAo" node="3yfWYM13dfR" resolve="scanable" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="46JJF8ILyzf" role="1B3o_S" />
     <node concept="3uibUv" id="46JJF8ILYRr" role="EKbjA">
       <ref role="3uigEE" to="9zr:49rIjELDdUs" resolve="IH1Editor" />
@@ -7556,7 +7636,25 @@
             </node>
             <node concept="3clFbS" id="2eK$oa444u0" role="3eOfB_">
               <node concept="3cpWs6" id="2eK$oa44zr5" role="3cqZAp">
-                <node concept="Xl_RD" id="2eK$oa44zrV" role="3cqZAk">
+                <node concept="Xl_RD" id="2eK$oa44zrV" role="3cqZAk" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="3yfWYM13gCi" role="3eNLev">
+            <node concept="2OqwBi" id="3yfWYM13gCj" role="3eO9$A">
+              <node concept="37vLTw" id="3yfWYM13gCk" role="2Oq$k0">
+                <ref role="3cqZAo" node="7RHNXGyQCLT" resolve="hotkey" />
+              </node>
+              <node concept="liA8E" id="3yfWYM13gCl" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="Xl_RD" id="3yfWYM13gCm" role="37wK5m">
+                  <property role="Xl_RC" value="SCAN" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="3yfWYM13gCn" role="3eOfB_">
+              <node concept="3cpWs6" id="3yfWYM13gCo" role="3cqZAp">
+                <node concept="Xl_RD" id="3yfWYM13gCp" role="3cqZAk">
                   <property role="Xl_RC" value="SCAN" />
                 </node>
               </node>

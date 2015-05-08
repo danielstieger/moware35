@@ -1174,6 +1174,17 @@
       </node>
     </node>
     <node concept="2tJIrI" id="46JJF8ILY_A" role="jymVt" />
+    <node concept="3clFb_" id="3yfWYM11_vl" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setScanable" />
+      <node concept="3cqZAl" id="3yfWYM11_vm" role="3clF45" />
+      <node concept="3Tm1VV" id="3yfWYM11_vn" role="1B3o_S" />
+      <node concept="37vLTG" id="3yfWYM11_vp" role="3clF46">
+        <property role="TrG5h" value="scanable" />
+        <node concept="10P_77" id="3yfWYM11_vq" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3yfWYM11_vr" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="46JJF8ILYAN" role="jymVt" />
     <node concept="3Tm1VV" id="46JJF8ILyzf" role="1B3o_S" />
     <node concept="3uibUv" id="46JJF8ILYRr" role="EKbjA">
@@ -2138,6 +2149,18 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="3yfWYM11zxO" role="jymVt" />
+    <node concept="3clFb_" id="3yfWYM11$8t" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setScanable" />
+      <node concept="3cqZAl" id="3yfWYM11$8u" role="3clF45" />
+      <node concept="3Tm1VV" id="3yfWYM11$8v" role="1B3o_S" />
+      <node concept="37vLTG" id="3yfWYM11$8x" role="3clF46">
+        <property role="TrG5h" value="scanable" />
+        <node concept="10P_77" id="3yfWYM11$8y" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3yfWYM11$8$" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="46JJF8ILz5q" role="1B3o_S" />
     <node concept="3uibUv" id="6nF$iZDK_p_" role="EKbjA">
       <ref role="3uigEE" to="9zr:49rIjELDdUs" resolve="IH1Editor" />
@@ -3084,6 +3107,17 @@
       </node>
     </node>
     <node concept="2tJIrI" id="46JJF8IQrUd" role="jymVt" />
+    <node concept="3clFb_" id="3yfWYM11B0C" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setScanable" />
+      <node concept="3cqZAl" id="3yfWYM11B0D" role="3clF45" />
+      <node concept="3Tm1VV" id="3yfWYM11B0E" role="1B3o_S" />
+      <node concept="37vLTG" id="3yfWYM11B0G" role="3clF46">
+        <property role="TrG5h" value="scanable" />
+        <node concept="10P_77" id="3yfWYM11B0H" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3yfWYM11B0J" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="46JJF8ILz6b" role="1B3o_S" />
     <node concept="3uibUv" id="46JJF8ILEAQ" role="EKbjA">
       <ref role="3uigEE" to="quhv:1kaU3pLV2oM" resolve="IToolkit_StatusEditor" />
