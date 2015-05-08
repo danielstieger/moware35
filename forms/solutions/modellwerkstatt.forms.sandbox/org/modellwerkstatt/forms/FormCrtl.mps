@@ -1924,6 +1924,7 @@
       <node concept="3cqZAl" id="20ohnkbJa4b" role="3clF45" />
       <node concept="3Tm1VV" id="20ohnkbJa4c" role="1B3o_S" />
       <node concept="3clFbS" id="20ohnkbJa4d" role="3clF47">
+        <node concept="3clFbH" id="28L2UA5P8M$" role="3cqZAp" />
         <node concept="3cpWs8" id="1EA1lDXekP$" role="3cqZAp">
           <node concept="3cpWsn" id="1EA1lDXekPB" role="3cpWs9">
             <property role="TrG5h" value="startupOk" />
@@ -1944,6 +1945,22 @@
           </node>
         </node>
         <node concept="3clFbH" id="75iQIE8YCSy" role="3cqZAp" />
+        <node concept="3SKdUt" id="28L2UA5PaA2" role="3cqZAp">
+          <node concept="3SKdUq" id="28L2UA5Pbab" role="3SKWNk">
+            <property role="3SKdUp" value="set locale for mpreis " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="28L2UA5Pcdq" role="3cqZAp">
+          <node concept="2YIFZM" id="28L2UA5PcRJ" role="3clFbG">
+            <ref role="37wK5l" to="k7g3:~Locale.setDefault(java.util.Locale):void" resolve="setDefault" />
+            <ref role="1Pybhc" to="k7g3:~Locale" resolve="Locale" />
+            <node concept="10M0yZ" id="28L2UA5Pdkg" role="37wK5m">
+              <ref role="1PxDUh" to="k7g3:~Locale" resolve="Locale" />
+              <ref role="3cqZAo" to="k7g3:~Locale.GERMAN" resolve="GERMAN" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="28L2UA5P9VJ" role="3cqZAp" />
         <node concept="3SKdUt" id="75iQIE8YEKw" role="3cqZAp">
           <node concept="3SKdUq" id="75iQIE8YFCW" role="3SKWNk">
             <property role="3SKdUp" value="check app startup method first .. " />
