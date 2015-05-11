@@ -1950,13 +1950,17 @@
             <property role="3SKdUp" value="set locale for mpreis " />
           </node>
         </node>
-        <node concept="3clFbF" id="28L2UA5Pcdq" role="3cqZAp">
-          <node concept="2YIFZM" id="28L2UA5PcRJ" role="3clFbG">
-            <ref role="37wK5l" to="k7g3:~Locale.setDefault(java.util.Locale):void" resolve="setDefault" />
-            <ref role="1Pybhc" to="k7g3:~Locale" resolve="Locale" />
-            <node concept="10M0yZ" id="28L2UA5Pdkg" role="37wK5m">
-              <ref role="1PxDUh" to="k7g3:~Locale" resolve="Locale" />
-              <ref role="3cqZAo" to="k7g3:~Locale.GERMAN" resolve="GERMAN" />
+        <node concept="3SKdUt" id="3dr$d3SSwav" role="3cqZAp">
+          <node concept="3SKWN0" id="3dr$d3SSwaw" role="3SKWNk">
+            <node concept="3clFbF" id="28L2UA5Pcdq" role="3SKWNf">
+              <node concept="2YIFZM" id="28L2UA5PcRJ" role="3clFbG">
+                <ref role="37wK5l" to="k7g3:~Locale.setDefault(java.util.Locale):void" resolve="setDefault" />
+                <ref role="1Pybhc" to="k7g3:~Locale" resolve="Locale" />
+                <node concept="10M0yZ" id="28L2UA5Pdkg" role="37wK5m">
+                  <ref role="1PxDUh" to="k7g3:~Locale" resolve="Locale" />
+                  <ref role="3cqZAo" to="k7g3:~Locale.GERMAN" resolve="GERMAN" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -28016,6 +28020,26 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3dr$d3SWa5g" role="3cqZAp">
+          <node concept="2OqwBi" id="3dr$d3SWa7s" role="3clFbG">
+            <node concept="37vLTw" id="3dr$d3SWa5e" role="2Oq$k0">
+              <ref role="3cqZAo" node="3PmCowOXvt5" resolve="formatter" />
+            </node>
+            <node concept="liA8E" id="3dr$d3SWai_" role="2OqNvi">
+              <ref role="37wK5l" to="j9pa:~DecimalFormat.setDecimalFormatSymbols(java.text.DecimalFormatSymbols):void" resolve="setDecimalFormatSymbols" />
+              <node concept="2ShNRf" id="3dr$d3SWal8" role="37wK5m">
+                <node concept="1pGfFk" id="3dr$d3SWbut" role="2ShVmc">
+                  <ref role="37wK5l" to="j9pa:~DecimalFormatSymbols.&lt;init&gt;(java.util.Locale)" resolve="DecimalFormatSymbols" />
+                  <node concept="10M0yZ" id="3dr$d3SWb$1" role="37wK5m">
+                    <ref role="1PxDUh" to="k7g3:~Locale" resolve="Locale" />
+                    <ref role="3cqZAo" to="k7g3:~Locale.GERMAN" resolve="GERMAN" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3dr$d3SXdpk" role="3cqZAp" />
         <node concept="3clFbF" id="7fo5K04WX2D" role="3cqZAp">
           <node concept="2OqwBi" id="7fo5K04WX4Z" role="3clFbG">
             <node concept="37vLTw" id="7fo5K04WX2B" role="2Oq$k0">
@@ -28156,6 +28180,20 @@
       <node concept="3cqZAl" id="1v00T4dac8W" role="3clF45" />
       <node concept="3Tm1VV" id="1v00T4dac8X" role="1B3o_S" />
       <node concept="3clFbS" id="1v00T4dac8Y" role="3clF47">
+        <node concept="3SKdUt" id="3dr$d3SWbFr" role="3cqZAp">
+          <node concept="3SKWN0" id="3dr$d3SWbFs" role="3SKWNk">
+            <node concept="3clFbF" id="3dr$d3SUxHO" role="3SKWNf">
+              <node concept="2YIFZM" id="3dr$d3SUxOf" role="3clFbG">
+                <ref role="37wK5l" to="k7g3:~Locale.setDefault(java.util.Locale):void" resolve="setDefault" />
+                <ref role="1Pybhc" to="k7g3:~Locale" resolve="Locale" />
+                <node concept="10M0yZ" id="3dr$d3SUxW3" role="37wK5m">
+                  <ref role="1PxDUh" to="k7g3:~Locale" resolve="Locale" />
+                  <ref role="3cqZAo" to="k7g3:~Locale.GERMANY" resolve="GERMANY" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="1v00T4dacuY" role="3cqZAp">
           <node concept="3cpWsn" id="1v00T4dacuZ" role="3cpWs9">
             <property role="TrG5h" value="c" />
@@ -32644,6 +32682,26 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3dr$d3SXqpX" role="3cqZAp">
+          <node concept="2OqwBi" id="3dr$d3SXqpY" role="3clFbG">
+            <node concept="37vLTw" id="3dr$d3SXqR5" role="2Oq$k0">
+              <ref role="3cqZAo" node="3DTEcmNJnAE" resolve="format" />
+            </node>
+            <node concept="liA8E" id="3dr$d3SXqq0" role="2OqNvi">
+              <ref role="37wK5l" to="j9pa:~DecimalFormat.setDecimalFormatSymbols(java.text.DecimalFormatSymbols):void" resolve="setDecimalFormatSymbols" />
+              <node concept="2ShNRf" id="3dr$d3SXqq1" role="37wK5m">
+                <node concept="1pGfFk" id="3dr$d3SXqq2" role="2ShVmc">
+                  <ref role="37wK5l" to="j9pa:~DecimalFormatSymbols.&lt;init&gt;(java.util.Locale)" resolve="DecimalFormatSymbols" />
+                  <node concept="10M0yZ" id="3dr$d3SXqq3" role="37wK5m">
+                    <ref role="1PxDUh" to="k7g3:~Locale" resolve="Locale" />
+                    <ref role="3cqZAo" to="k7g3:~Locale.GERMAN" resolve="GERMAN" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3dr$d3SXqmf" role="3cqZAp" />
         <node concept="3clFbF" id="B$ZgVJw4R3" role="3cqZAp">
           <node concept="2OqwBi" id="B$ZgVJw5xa" role="3clFbG">
             <node concept="37vLTw" id="B$ZgVJw4R1" role="2Oq$k0">
@@ -32657,6 +32715,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3dr$d3SXknR" role="3cqZAp" />
         <node concept="3clFbF" id="3sEA$PIstNT" role="3cqZAp">
           <node concept="37vLTI" id="3sEA$PIstNU" role="3clFbG">
             <node concept="2OqwBi" id="3sEA$PIstNV" role="37vLTx">
@@ -33703,6 +33762,26 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3dr$d3SXseT" role="3cqZAp">
+          <node concept="2OqwBi" id="3dr$d3SXseU" role="3clFbG">
+            <node concept="37vLTw" id="3dr$d3SXseV" role="2Oq$k0">
+              <ref role="3cqZAo" node="3DTEcmNJnAE" resolve="format" />
+            </node>
+            <node concept="liA8E" id="3dr$d3SXseW" role="2OqNvi">
+              <ref role="37wK5l" to="j9pa:~DecimalFormat.setDecimalFormatSymbols(java.text.DecimalFormatSymbols):void" resolve="setDecimalFormatSymbols" />
+              <node concept="2ShNRf" id="3dr$d3SXseX" role="37wK5m">
+                <node concept="1pGfFk" id="3dr$d3SXseY" role="2ShVmc">
+                  <ref role="37wK5l" to="j9pa:~DecimalFormatSymbols.&lt;init&gt;(java.util.Locale)" resolve="DecimalFormatSymbols" />
+                  <node concept="10M0yZ" id="3dr$d3SXseZ" role="37wK5m">
+                    <ref role="1PxDUh" to="k7g3:~Locale" resolve="Locale" />
+                    <ref role="3cqZAo" to="k7g3:~Locale.GERMAN" resolve="GERMAN" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3dr$d3SXscF" role="3cqZAp" />
         <node concept="3clFbF" id="B$ZgVJw8NY" role="3cqZAp">
           <node concept="2OqwBi" id="B$ZgVJw8NZ" role="3clFbG">
             <node concept="37vLTw" id="B$ZgVJw8O0" role="2Oq$k0">
