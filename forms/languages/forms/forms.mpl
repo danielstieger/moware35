@@ -26,6 +26,7 @@
         <dependency reexport="false">0f69ff68-7ed4-4ee4-8dc6-1619facda18d(org.modellwerkstatt.forms)</dependency>
         <dependency reexport="false">ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)</dependency>
         <dependency reexport="false">e9b1404c-7884-4527-9561-1d1526266c6f(org.modellwerkstatt.fatflow#6220831822432810257)</dependency>
+        <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>92d2ea16-5a42-4fdf-a676-c7604efe3504(de.slisson.mps.richtext)</usedLanguage>

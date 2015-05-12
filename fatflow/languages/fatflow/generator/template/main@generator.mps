@@ -45,6 +45,7 @@
     <import index="47m2" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.config@java_stub)" />
     <import index="53gy" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.concurrent(JDK/java.util.concurrent@java_stub)" />
     <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <import index="rmiu" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.log4j(org.modellwerkstatt.sandbox/org.apache.log4j@java_stub)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -17413,6 +17414,7 @@
       <node concept="3cqZAl" id="7ii5IAYGM4B" role="3clF45" />
       <node concept="3Tm1VV" id="7ii5IAYGM4C" role="1B3o_S" />
       <node concept="3clFbS" id="7ii5IAYGM4D" role="3clF47">
+        <node concept="3clFbH" id="688_CuLccx0" role="3cqZAp" />
         <node concept="3cpWs8" id="7ubUX4Z_siS" role="3cqZAp">
           <node concept="3cpWsn" id="7ubUX4Z_siT" role="3cpWs9">
             <property role="TrG5h" value="starter" />
@@ -17423,6 +17425,30 @@
         </node>
         <node concept="SfApY" id="1fGCQmfH3oc" role="3cqZAp">
           <node concept="3clFbS" id="56psMmAhEHK" role="SfCbr">
+            <node concept="3clFbH" id="688_CuLfUqI" role="3cqZAp" />
+            <node concept="3clFbF" id="688_CuLchiY" role="3cqZAp">
+              <node concept="2YIFZM" id="688_CuLchnl" role="3clFbG">
+                <ref role="37wK5l" to="ajxo:~BasicConfigurator.configure():void" resolve="configure" />
+                <ref role="1Pybhc" to="ajxo:~BasicConfigurator" resolve="BasicConfigurator" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="I5W9GWEHyI" role="3cqZAp">
+              <node concept="2OqwBi" id="I5W9GWEHyN" role="3clFbG">
+                <node concept="2YIFZM" id="2BCid69EdEr" role="2Oq$k0">
+                  <ref role="1Pybhc" to="rmiu:~Logger" resolve="Logger" />
+                  <ref role="37wK5l" to="rmiu:~Logger.getRootLogger():org.apache.log4j.Logger" resolve="getRootLogger" />
+                </node>
+                <node concept="liA8E" id="I5W9GWEHyT" role="2OqNvi">
+                  <ref role="37wK5l" to="rmiu:~Category.setLevel(org.apache.log4j.Level):void" resolve="setLevel" />
+                  <node concept="10M0yZ" id="I5W9GWEHyU" role="37wK5m">
+                    <ref role="1PxDUh" to="rmiu:~Level" resolve="Level" />
+                    <ref role="3cqZAo" to="rmiu:~Level.ERROR" resolve="ERROR" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="688_CuLe83h" role="3cqZAp" />
+            <node concept="3clFbH" id="688_CuLfUna" role="3cqZAp" />
             <node concept="3clFbF" id="7ubUX4Z_tet" role="3cqZAp">
               <node concept="37vLTI" id="7ubUX4Z_tjw" role="3clFbG">
                 <node concept="2ShNRf" id="7ubUX4Z_tmX" role="37vLTx">

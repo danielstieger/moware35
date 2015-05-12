@@ -238,7 +238,6 @@
     <property role="3GE5qa" value="" />
     <property role="TrG5h" value="LolaTestConfig" />
     <property role="2320hu" value="2014-10-07T10:50:31.097+01:00" />
-    <node concept="2CPvp3" id="5_hYnMtCY_M" role="2CGBMS" />
     <node concept="2CJf3v" id="2n3p7A96F9Z" role="2CGBMS">
       <property role="TrG5h" value="logConfig_1" />
       <node concept="Xl_RD" id="2n3p7A96Fa0" role="2CJf0U">
@@ -249,7 +248,7 @@
           <property role="Xl_RC" value="String" />
         </node>
         <node concept="Xl_RD" id="2n3p7A96Fa3" role="2DqwMp">
-          <property role="Xl_RC" value="org.modellwerkstatt" />
+          <property role="Xl_RC" value="org" />
         </node>
       </node>
       <node concept="2CJf1O" id="2n3p7A96Fa4" role="2CJ4_l">
@@ -257,7 +256,7 @@
           <property role="Xl_RC" value="String" />
         </node>
         <node concept="Xl_RD" id="2n3p7A96Fa6" role="2DqwMp">
-          <property role="Xl_RC" value="DEBUG" />
+          <property role="Xl_RC" value="ERROR" />
         </node>
       </node>
     </node>

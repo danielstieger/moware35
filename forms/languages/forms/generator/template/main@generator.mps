@@ -35,6 +35,7 @@
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
     <import index="oi9j" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.annotation@java_stub)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="ajxo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.apache.log4j(MPS.Core/org.apache.log4j@java_stub)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" implicit="true" />
     <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
     <import index="45gm" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" implicit="true" />
@@ -2475,6 +2476,12 @@
             <node concept="3SKdUt" id="Y3fiVKZqqR" role="3cqZAp">
               <node concept="3SKdUq" id="Y3fiVKZrcf" role="3SKWNk">
                 <property role="3SKdUp" value="init spring ioc first : )" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="688_CuLchiY" role="3cqZAp">
+              <node concept="2YIFZM" id="688_CuLchnl" role="3clFbG">
+                <ref role="1Pybhc" to="ajxo:~BasicConfigurator" resolve="BasicConfigurator" />
+                <ref role="37wK5l" to="ajxo:~BasicConfigurator.configure():void" resolve="configure" />
               </node>
             </node>
             <node concept="3clFbF" id="I5W9GWEHyI" role="3cqZAp">
