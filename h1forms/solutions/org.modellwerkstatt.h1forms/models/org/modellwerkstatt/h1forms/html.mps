@@ -628,29 +628,6 @@
       <node concept="3cqZAl" id="5rjVZFJEx4f" role="3clF45" />
       <node concept="3Tm1VV" id="5rjVZFJEx4g" role="1B3o_S" />
       <node concept="3clFbS" id="5rjVZFJEx4i" role="3clF47">
-        <node concept="3SKdUt" id="6QX7KB4Z3e9" role="3cqZAp">
-          <node concept="3SKWN0" id="6QX7KB4Z3ea" role="3SKWNk">
-            <node concept="3clFbF" id="6QX7KB4WeP5" role="3SKWNf">
-              <node concept="2OqwBi" id="6QX7KB4WeT_" role="3clFbG">
-                <node concept="2YIFZM" id="6QX7KB4WePn" role="2Oq$k0">
-                  <ref role="37wK5l" to="9zr:6QX7KB4Quy0" resolve="getInstance" />
-                  <ref role="1Pybhc" to="9zr:6QX7KB4Q4_P" resolve="H1LiveDebugLogger" />
-                </node>
-                <node concept="liA8E" id="6QX7KB4Wfby" role="2OqNvi">
-                  <ref role="37wK5l" to="9zr:6QX7KB4QXtZ" resolve="log" />
-                  <node concept="3cpWs3" id="6QX7KB4Wfye" role="37wK5m">
-                    <node concept="37vLTw" id="6QX7KB4Wfzg" role="3uHU7B">
-                      <ref role="3cqZAo" node="46JJF8IM4HV" resolve="editorId" />
-                    </node>
-                    <node concept="Xl_RD" id="6QX7KB4WfbS" role="3uHU7w">
-                      <property role="Xl_RC" value=" H1TextEditor: received requestFocus()" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="5rjVZFJEx9U" role="3cqZAp">
           <node concept="37vLTI" id="5rjVZFJExuN" role="3clFbG">
             <node concept="37vLTw" id="6QX7KB4XSTS" role="37vLTx">
@@ -884,34 +861,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="5rjVZFJEz2F" role="3cqZAp" />
-        <node concept="3SKdUt" id="6QX7KB4Z3lj" role="3cqZAp">
-          <node concept="3SKWN0" id="6QX7KB4Z3lk" role="3SKWNk">
-            <node concept="3clFbF" id="6QX7KB4Wffm" role="3SKWNf">
-              <node concept="2OqwBi" id="6QX7KB4Wffn" role="3clFbG">
-                <node concept="2YIFZM" id="6QX7KB4Wffo" role="2Oq$k0">
-                  <ref role="1Pybhc" to="9zr:6QX7KB4Q4_P" resolve="H1LiveDebugLogger" />
-                  <ref role="37wK5l" to="9zr:6QX7KB4Quy0" resolve="getInstance" />
-                </node>
-                <node concept="liA8E" id="6QX7KB4Wffp" role="2OqNvi">
-                  <ref role="37wK5l" to="9zr:6QX7KB4QXtZ" resolve="log" />
-                  <node concept="3cpWs3" id="6QX7KB4WfJW" role="37wK5m">
-                    <node concept="37vLTw" id="6QX7KB4WfO$" role="3uHU7w">
-                      <ref role="3cqZAo" node="5rjVZFJEwix" resolve="requestFocus" />
-                    </node>
-                    <node concept="3cpWs3" id="6QX7KB4WfC1" role="3uHU7B">
-                      <node concept="37vLTw" id="6QX7KB4WfDn" role="3uHU7B">
-                        <ref role="3cqZAo" node="46JJF8IM4HV" resolve="editorId" />
-                      </node>
-                      <node concept="Xl_RD" id="6QX7KB4Wffq" role="3uHU7w">
-                        <property role="Xl_RC" value=" H1TextEditor: toHtml() requestFocus is " />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="5rjVZFJExE8" role="3cqZAp">
           <node concept="3clFbS" id="5rjVZFJExEb" role="3clFbx">
             <node concept="3clFbF" id="5rjVZFJExHx" role="3cqZAp">
