@@ -4632,7 +4632,7 @@
     <node concept="2tJIrI" id="3y7CfyfpBOf" role="jymVt" />
     <node concept="3clFb_" id="20ohnkbAfva" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="isUserConfirmsApplicationQuit" />
+      <property role="TrG5h" value="userConfirmsApplicationQuit" />
       <node concept="10P_77" id="20ohnkbAfvb" role="3clF45" />
       <node concept="3Tm1VV" id="20ohnkbAfvc" role="1B3o_S" />
       <node concept="3clFbS" id="20ohnkbAfvf" role="3clF47">
@@ -4659,27 +4659,60 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="5_bDd1dlHYH" role="3cqZAp">
-          <node concept="2OqwBi" id="5_bDd1dlK1K" role="3cqZAk">
-            <node concept="37vLTw" id="5_bDd1dlJom" role="2Oq$k0">
-              <ref role="3cqZAo" node="5_bDd1djESZ" resolve="b" />
-            </node>
-            <node concept="liA8E" id="5_bDd1dlLnQ" role="2OqNvi">
-              <ref role="37wK5l" node="5_bDd1dlxxw" resolve="askYesNoQuestion" />
-              <node concept="2OqwBi" id="5_bDd1ds9Fh" role="37wK5m">
-                <node concept="37vLTw" id="5_bDd1dsgU7" role="2Oq$k0">
-                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                </node>
-                <node concept="liA8E" id="5_bDd1dsbdn" role="2OqNvi">
-                  <ref role="37wK5l" node="20ohnkbA3TC" resolve="getTranslation" />
-                  <node concept="Rm8GO" id="5_bDd1dse6k" role="37wK5m">
-                    <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
-                    <ref role="Rm8GQ" to="quhv:2zlZ_in69hs" resolve="CLOSE_APP" />
+        <node concept="3cpWs8" id="2wSq35xLPjo" role="3cqZAp">
+          <node concept="3cpWsn" id="2wSq35xLPjr" role="3cpWs9">
+            <property role="TrG5h" value="execQuitCode" />
+            <node concept="10P_77" id="2wSq35xLPjm" role="1tU5fm" />
+            <node concept="2OqwBi" id="5_bDd1dlK1K" role="33vP2m">
+              <node concept="37vLTw" id="5_bDd1dlJom" role="2Oq$k0">
+                <ref role="3cqZAo" node="5_bDd1djESZ" resolve="b" />
+              </node>
+              <node concept="liA8E" id="5_bDd1dlLnQ" role="2OqNvi">
+                <ref role="37wK5l" node="5_bDd1dlxxw" resolve="askYesNoQuestion" />
+                <node concept="2OqwBi" id="5_bDd1ds9Fh" role="37wK5m">
+                  <node concept="37vLTw" id="2wSq35xLRAo" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                  </node>
+                  <node concept="liA8E" id="5_bDd1dsbdn" role="2OqNvi">
+                    <ref role="37wK5l" node="20ohnkbA3TC" resolve="getTranslation" />
+                    <node concept="Rm8GO" id="5_bDd1dse6k" role="37wK5m">
+                      <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                      <ref role="Rm8GQ" to="quhv:2zlZ_in69hs" resolve="CLOSE_APP" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
           </node>
+        </node>
+        <node concept="3clFbH" id="2wSq35xLO3I" role="3cqZAp" />
+        <node concept="3clFbJ" id="2wSq35xLHjt" role="3cqZAp">
+          <node concept="3clFbS" id="2wSq35xLHjv" role="3clFbx">
+            <node concept="3clFbF" id="2wSq35xLT9S" role="3cqZAp">
+              <node concept="2OqwBi" id="2wSq35xLTba" role="3clFbG">
+                <node concept="37vLTw" id="2wSq35xLT9Q" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2wSq35xLDRL" resolve="toExec" />
+                </node>
+                <node concept="liA8E" id="2wSq35xLTjO" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~Runnable.run():void" resolve="run" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="2wSq35xLRVL" role="3clFbw">
+            <ref role="3cqZAo" node="2wSq35xLPjr" resolve="execQuitCode" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5_bDd1dlHYH" role="3cqZAp">
+          <node concept="37vLTw" id="2wSq35xLUEk" role="3cqZAk">
+            <ref role="3cqZAo" node="2wSq35xLPjr" resolve="execQuitCode" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2wSq35xLDRL" role="3clF46">
+        <property role="TrG5h" value="toExec" />
+        <node concept="3uibUv" id="2wSq35xLDRK" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Runnable" resolve="Runnable" />
         </node>
       </node>
     </node>

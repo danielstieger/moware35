@@ -1,0 +1,19 @@
+@import "../valo/valo.scss";
+
+@mixin moware {
+  @include valo;
+
+	.mo-small-mrg.v-margin-left   {padding-left:   10px;}
+	.mo-small-mrg.v-margin-right  {padding-right:  10px;}
+	.mo-small-mrg.v-margin-top    {padding-top:    10px;}
+	.mo-small-mrg.v-margin-bottom {padding-bottom: 10px;}
+
+	.mo-bottombtnpane-mrg.v-margin-left   {padding-left:   0px;}
+	.mo-bottombtnpane-mrg.v-margin-right  {padding-right:  0px;}
+	.mo-bottombtnpane-mrg.v-margin-top    {padding-top:    40px;}
+	.mo-bottombtnpane-mrg.v-margin-bottom {padding-bottom: 0px;}
+	
+	.mo-caption { color: #197de1; font-weight: bold; }
+
+}
+
