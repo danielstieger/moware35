@@ -11788,7 +11788,7 @@
           <property role="Xl_RC" value="MoWare FX8\ndie modellwerkstatt.org Winter 2014/15" />
         </node>
         <node concept="Xl_RD" id="3zf0S8jTsbi" role="37wK5m">
-          <property role="Xl_RC" value="" />
+          <property role="Xl_RC" value="MoWare Vaadin Implementation\ndie modellwerkstatt.org Autumn 2015" />
         </node>
       </node>
       <node concept="QsSxf" id="3zf0S8jTsmW" role="Qtgdg">

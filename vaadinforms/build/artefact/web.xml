@@ -11,6 +11,22 @@
   </description>
   <display-name>APPLICATION_FQNAME</display-name>
 
+
+  <context-param>
+  	<param-name>productionMode</param-name>
+  	<param-value>false</param-value>
+  	<description>Vaadin production mode</description>
+  </context-param>
+
+  <context-param>
+	<param-name>heartbeatInterval</param-name>
+  	<param-value>60</param-value>
+  </context-param>
+
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+
   <servlet>
     <servlet-name>loaderservlet</servlet-name>
     <servlet-class>
@@ -19,8 +35,14 @@
 
     <init-param>
       <param-name>UI</param-name>
-      <param-value>org.modellwerkstatt.vaadinforms.windows.TestUi</param-value>
+      <param-value>org.modellwerkstatt.vaadinforms.windows.VFormsApplicationUi</param-value>
     </init-param>
+
+    <init-param>
+      <param-name>closeIdleSessions</param-name>
+      <param-value>true</param-value>
+    </init-param>
+
 
 	<init-param>
         <param-name>xmlConfigFile</param-name>
