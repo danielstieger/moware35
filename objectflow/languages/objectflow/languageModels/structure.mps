@@ -747,6 +747,11 @@
       <property role="20kJfa" value="documentation" />
       <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
     </node>
+    <node concept="1TJgyj" id="5$D5hh$hd0e" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tecDocumentation" />
+      <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
+    </node>
     <node concept="1TJgyj" id="5Ee0EjqXsBw" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="enabledWhen" />

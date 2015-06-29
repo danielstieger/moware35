@@ -38,7 +38,7 @@
     <import index="ls8u" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.management.remote.rmi(JDK/javax.management.remote.rmi@java_stub)" />
     <import index="tsi3" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#javax.servlet(org.modellwerkstatt.sandbox/javax.servlet@java_stub)" />
     <import index="vksr" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#javax.servlet.http(org.modellwerkstatt.sandbox/javax.servlet.http@java_stub)" />
-    <import index="livf" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/org.apache.avalon.framework.configuration@java_stub)" implicit="true" />
+    <import index="livf" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/org.apache.avalon.framework.configuration@java_stub)" implicit="true" />
     <import index="45gm" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" implicit="true" />
     <import index="6izi" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.management.remote(JDK/javax.management.remote@java_stub)" implicit="true" />
     <import index="sarm" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.xmlgraphics.util(org.modellwerkstatt.sandbox/org.apache.xmlgraphics.util@java_stub)" implicit="true" />
@@ -16235,6 +16235,15 @@
         <ref role="3uigEE" to="soh9:~FopFactory" resolve="FopFactory" />
       </node>
     </node>
+    <node concept="Wx3nA" id="5$D5hh$fdJe" role="jymVt">
+      <property role="TrG5h" value="onUnix" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="5$D5hh$fdJf" role="1B3o_S" />
+      <node concept="10P_77" id="5$D5hh$ferJ" role="1tU5fm" />
+      <node concept="3clFbT" id="5$D5hh$feuF" role="33vP2m">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="43LwaCslnAG" role="jymVt" />
     <node concept="3clFbW" id="71gz8lEdDZu" role="jymVt">
       <node concept="3cqZAl" id="71gz8lEdDZv" role="3clF45" />
@@ -16243,6 +16252,54 @@
     </node>
     <node concept="2tJIrI" id="43LwaCslnQj" role="jymVt" />
     <node concept="2tJIrI" id="43LwaCslo5V" role="jymVt" />
+    <node concept="2YIFZL" id="4NGGhrnwGh5" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <property role="TrG5h" value="gcClean" />
+      <node concept="3clFbS" id="4NGGhrnwFvp" role="3clF47">
+        <node concept="3clFbF" id="4NGGhrnwHMR" role="3cqZAp">
+          <node concept="37vLTI" id="4NGGhrnwIfx" role="3clFbG">
+            <node concept="10Nm6u" id="4NGGhrnwIhp" role="37vLTx" />
+            <node concept="37vLTw" id="4NGGhrnwHMQ" role="37vLTJ">
+              <ref role="3cqZAo" node="7fkJcal8z8P" resolve="transFactory" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4NGGhrnwItu" role="3cqZAp">
+          <node concept="37vLTI" id="4NGGhrnwIDU" role="3clFbG">
+            <node concept="10Nm6u" id="4NGGhrnwIR8" role="37vLTx" />
+            <node concept="37vLTw" id="4NGGhrnwIts" role="37vLTJ">
+              <ref role="3cqZAo" node="7fkJcal9qcb" resolve="fopFactory" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4NGGhrnwFvn" role="3clF45" />
+      <node concept="3Tm1VV" id="4NGGhrnwFvo" role="1B3o_S" />
+    </node>
+    <node concept="2YIFZL" id="5$D5hh$fgsd" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <property role="TrG5h" value="useUnixConfig" />
+      <node concept="3clFbS" id="5$D5hh$fgse" role="3clF47">
+        <node concept="3clFbF" id="5$D5hh$fgsj" role="3cqZAp">
+          <node concept="37vLTI" id="5$D5hh$fgsk" role="3clFbG">
+            <node concept="3clFbT" id="5$D5hh$fhv8" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="5$D5hh$fhls" role="37vLTJ">
+              <ref role="3cqZAo" node="5$D5hh$fdJe" resolve="onUnix" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5$D5hh$fgsn" role="3clF45" />
+      <node concept="3Tm1VV" id="5$D5hh$fgso" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="43LwaCsltMB" role="jymVt" />
+    <node concept="2tJIrI" id="5$D5hh$gCCI" role="jymVt" />
     <node concept="2YIFZL" id="7fkJcal7fEf" role="jymVt">
       <property role="TrG5h" value="initUtility" />
       <property role="od$2w" value="false" />
@@ -16254,7 +16311,7 @@
             <node concept="3clFbJ" id="71gz8lEdDZy" role="3cqZAp">
               <node concept="3clFbC" id="71gz8lEdDZz" role="3clFbw">
                 <node concept="10Nm6u" id="71gz8lEdDZ$" role="3uHU7w" />
-                <node concept="37vLTw" id="7fkJcalaNbQ" role="3uHU7B">
+                <node concept="37vLTw" id="5$D5hh$gDaW" role="3uHU7B">
                   <ref role="3cqZAo" node="7fkJcal9qcb" resolve="fopFactory" />
                 </node>
               </node>
@@ -16344,14 +16401,14 @@
                       <ref role="1Pybhc" to="soh9:~FopFactory" resolve="FopFactory" />
                       <ref role="37wK5l" to="soh9:~FopFactory.newInstance():org.apache.fop.apps.FopFactory" resolve="newInstance" />
                     </node>
-                    <node concept="37vLTw" id="7fkJcalaNbT" role="37vLTJ">
+                    <node concept="37vLTw" id="5$D5hh$gDb6" role="37vLTJ">
                       <ref role="3cqZAo" node="7fkJcal9qcb" resolve="fopFactory" />
                     </node>
                   </node>
                 </node>
                 <node concept="3clFbF" id="6W0arkaxHbn" role="3cqZAp">
                   <node concept="2OqwBi" id="6W0arkaxOZ5" role="3clFbG">
-                    <node concept="37vLTw" id="6W0arkaBAqj" role="2Oq$k0">
+                    <node concept="37vLTw" id="5$D5hh$gDbg" role="2Oq$k0">
                       <ref role="3cqZAo" node="7fkJcal9qcb" resolve="fopFactory" />
                     </node>
                     <node concept="liA8E" id="6W0arkayFKu" role="2OqNvi">
@@ -16370,10 +16427,10 @@
                 <node concept="3clFbF" id="71gz8lEdDZH" role="3cqZAp">
                   <node concept="37vLTI" id="71gz8lEdDZI" role="3clFbG">
                     <node concept="2YIFZM" id="71gz8lEdDZJ" role="37vLTx">
-                      <ref role="1Pybhc" to="bmea:~TransformerFactory" resolve="TransformerFactory" />
                       <ref role="37wK5l" to="bmea:~TransformerFactory.newInstance():javax.xml.transform.TransformerFactory" resolve="newInstance" />
+                      <ref role="1Pybhc" to="bmea:~TransformerFactory" resolve="TransformerFactory" />
                     </node>
-                    <node concept="37vLTw" id="7fkJcalaNbW" role="37vLTJ">
+                    <node concept="37vLTw" id="5$D5hh$gDbq" role="37vLTJ">
                       <ref role="3cqZAo" node="7fkJcal8z8P" resolve="transFactory" />
                     </node>
                   </node>
@@ -16381,7 +16438,7 @@
               </node>
               <node concept="3clFbC" id="71gz8lEdDZL" role="3clFbw">
                 <node concept="10Nm6u" id="71gz8lEdDZM" role="3uHU7w" />
-                <node concept="37vLTw" id="7fkJcalaNbZ" role="3uHU7B">
+                <node concept="37vLTw" id="5$D5hh$gDb$" role="3uHU7B">
                   <ref role="3cqZAo" node="7fkJcal8z8P" resolve="transFactory" />
                 </node>
               </node>
@@ -16442,34 +16499,7 @@
       <node concept="3Tm6S6" id="7fkJcal7fzA" role="1B3o_S" />
       <node concept="3cqZAl" id="7fkJcal7fDl" role="3clF45" />
     </node>
-    <node concept="2tJIrI" id="43LwaCsltyT" role="jymVt" />
-    <node concept="2YIFZL" id="4NGGhrnwGh5" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <property role="TrG5h" value="gcClean" />
-      <node concept="3clFbS" id="4NGGhrnwFvp" role="3clF47">
-        <node concept="3clFbF" id="4NGGhrnwHMR" role="3cqZAp">
-          <node concept="37vLTI" id="4NGGhrnwIfx" role="3clFbG">
-            <node concept="10Nm6u" id="4NGGhrnwIhp" role="37vLTx" />
-            <node concept="37vLTw" id="4NGGhrnwHMQ" role="37vLTJ">
-              <ref role="3cqZAo" node="7fkJcal8z8P" resolve="transFactory" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4NGGhrnwItu" role="3cqZAp">
-          <node concept="37vLTI" id="4NGGhrnwIDU" role="3clFbG">
-            <node concept="10Nm6u" id="4NGGhrnwIR8" role="37vLTx" />
-            <node concept="37vLTw" id="4NGGhrnwIts" role="37vLTJ">
-              <ref role="3cqZAo" node="7fkJcal9qcb" resolve="fopFactory" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3cqZAl" id="4NGGhrnwFvn" role="3clF45" />
-      <node concept="3Tm1VV" id="4NGGhrnwFvo" role="1B3o_S" />
-    </node>
-    <node concept="2tJIrI" id="43LwaCsltMB" role="jymVt" />
+    <node concept="2tJIrI" id="5$D5hh$gCR_" role="jymVt" />
     <node concept="2YIFZL" id="6W0arkaGsJx" role="jymVt">
       <property role="TrG5h" value="getConfigurationString" />
       <property role="od$2w" value="false" />
@@ -16581,19 +16611,49 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6W0arkaIfiA" role="3cqZAp">
-          <node concept="2OqwBi" id="6W0arkaIfiB" role="3clFbG">
-            <node concept="37vLTw" id="6W0arkaIfiC" role="2Oq$k0">
-              <ref role="3cqZAo" node="6W0arkaGTkl" resolve="sb" />
-            </node>
-            <node concept="liA8E" id="6W0arkaIfiD" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-              <node concept="Xl_RD" id="6W0arkaIfiE" role="37wK5m">
-                <property role="Xl_RC" value="&lt;directory&gt;C:/windows/fonts&lt;/directory&gt;" />
+        <node concept="3clFbH" id="5$D5hh$f5f_" role="3cqZAp" />
+        <node concept="3clFbJ" id="5$D5hh$f7hi" role="3cqZAp">
+          <node concept="3clFbS" id="5$D5hh$f7hk" role="3clFbx">
+            <node concept="3clFbF" id="6W0arkaIfiA" role="3cqZAp">
+              <node concept="2OqwBi" id="6W0arkaIfiB" role="3clFbG">
+                <node concept="37vLTw" id="6W0arkaIfiC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6W0arkaGTkl" resolve="sb" />
+                </node>
+                <node concept="liA8E" id="6W0arkaIfiD" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="Xl_RD" id="6W0arkaIfiE" role="37wK5m">
+                    <property role="Xl_RC" value="&lt;directory&gt;C:/windows/fonts&lt;/directory&gt;" />
+                  </node>
+                </node>
               </node>
+            </node>
+            <node concept="3clFbH" id="5$D5hh$f7hj" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="5$D5hh$f7rd" role="3clFbw">
+            <node concept="37vLTw" id="5$D5hh$fgfr" role="3fr31v">
+              <ref role="3cqZAo" node="5$D5hh$fdJe" resolve="onUnix" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="5$D5hh$f7Zs" role="9aQIa">
+            <node concept="3clFbS" id="5$D5hh$f7Zt" role="9aQI4">
+              <node concept="3clFbF" id="5$D5hh$f5Cl" role="3cqZAp">
+                <node concept="2OqwBi" id="5$D5hh$f5Cm" role="3clFbG">
+                  <node concept="37vLTw" id="5$D5hh$f5Cn" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6W0arkaGTkl" resolve="sb" />
+                  </node>
+                  <node concept="liA8E" id="5$D5hh$f5Co" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                    <node concept="Xl_RD" id="5$D5hh$f5Cp" role="37wK5m">
+                      <property role="Xl_RC" value="&lt;directory&gt;/usr/share/fonts&lt;/directory&gt;" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="5$D5hh$f8xG" role="3cqZAp" />
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="5$D5hh$f6ho" role="3cqZAp" />
         <node concept="3clFbF" id="6W0arkaIfjn" role="3cqZAp">
           <node concept="2OqwBi" id="6W0arkaIfjo" role="3clFbG">
             <node concept="37vLTw" id="6W0arkaIfjp" role="2Oq$k0">
