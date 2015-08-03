@@ -1,7 +1,7 @@
 <!--
 
 
- Build.xml for tomcat environment
+ Build.xml for tomcat environment, vaadin applications
  daniel stieger, spring 2015, brighton
 
  
@@ -26,10 +26,10 @@
   <!-- **** project specific definitions **************************************************************** -->
   <!-- ************************************************************************************************** -->
  
-  <property name="appName" value="VaadinApp" />
-  <property name="appMainClass" value="at.hafina.fwws.fwwsAPP.smartFWWS" />
-  <property name="appConfiguration" value="at/hafina/fwws/fwwsAPP/TomcatSmartFWWS_Configuration.xml" />
-  <property name="appClassesGen" value="/Users/danielstieger/javaware/eFWWS/solutions/at.hafina.fwws/classes_gen" /> 
+  <property name="appName" value="SimpleApplication" />
+  <property name="appMainClass" value="Simple.baseApp.SimpleApplication" />
+  <property name="appConfiguration" value="Simple/baseApp/VaadinConfig.xml" />
+  <property name="appClassesGen" value="/Users/danielstieger/javaware/simpleone/solutions/Simple/classes_gen" /> 
 
   <property name="appClassesGen2" value="/Users/danielstieger/moware/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen" /> 
   

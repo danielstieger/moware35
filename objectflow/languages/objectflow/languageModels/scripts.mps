@@ -143,6 +143,7 @@
       </concept>
       <concept id="1177457850499" name="jetbrains.mps.lang.script.structure.MigrationScriptPart_Instance" flags="lg" index="_XfAh">
         <property id="1177457972041" name="description" index="_XH9r" />
+        <property id="1225457189692" name="showAsIntention" index="1iWc8x" />
         <reference id="1177457957477" name="affectedInstanceConcept" index="_XDHR" />
         <child id="1177457957478" name="affectedInstancePredicate" index="_XDHO" />
         <child id="1177458005323" name="affectedInstanceUpdater" index="_XPhp" />
@@ -2066,6 +2067,7 @@
     <property role="_Wzho" value="(0) Convert Key Options ... " />
     <node concept="_XfAh" id="hm5BQD$Aq9" role="_YvDr">
       <property role="_XH9r" value="BusinessProperty Updater" />
+      <property role="1iWc8x" value="true" />
       <ref role="_XDHR" to="un0u:7i5NrsZlxZT" resolve="BusinessProperty" />
       <node concept="_ZGcI" id="hm5BQD$Aqb" role="_XPhp">
         <node concept="3clFbS" id="hm5BQD$Aqd" role="2VODD2">

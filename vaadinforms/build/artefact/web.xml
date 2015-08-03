@@ -30,12 +30,12 @@
   <servlet>
     <servlet-name>loaderservlet</servlet-name>
     <servlet-class>
-        org.modellwerkstatt.vaadinforms.windows.VFormsLoaderServlet
+        org.modellwerkstatt.vaadinforms.windows.VServlet
     </servlet-class>
 
     <init-param>
       <param-name>UI</param-name>
-      <param-value>org.modellwerkstatt.vaadinforms.windows.VFormsApplicationUi</param-value>
+      <param-value>org.modellwerkstatt.vaadinforms.windows.VApplicationInstance</param-value>
     </init-param>
 
     <init-param>
