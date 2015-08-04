@@ -19,7 +19,7 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">3ffa979d-a559-4372-8a77-69ebb3d02788(org.modellwerkstatt.forms.sandbox)</dependency>
+    <dependency reexport="true">3ffa979d-a559-4372-8a77-69ebb3d02788(org.modellwerkstatt.forms.sandbox)</dependency>
     <dependency reexport="false">5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.sandbox)</dependency>
     <dependency reexport="false">37fdf88a-1025-4d01-864a-0bf987f72e6f(org.modellwerkstatt.manmap.solution)</dependency>
     <dependency reexport="false">4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)</dependency>
