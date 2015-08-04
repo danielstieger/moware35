@@ -4641,7 +4641,7 @@
     <node concept="3clFb_" id="20ohnkbAfva" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="userConfirmsApplicationQuit" />
-      <node concept="10P_77" id="20ohnkbAfvb" role="3clF45" />
+      <node concept="3cqZAl" id="6go2MrsqYNY" role="3clF45" />
       <node concept="3Tm1VV" id="20ohnkbAfvc" role="1B3o_S" />
       <node concept="3clFbS" id="20ohnkbAfvf" role="3clF47">
         <node concept="3cpWs8" id="5_bDd1djESY" role="3cqZAp">
@@ -4713,11 +4713,6 @@
             </node>
           </node>
           <node concept="37vLTw" id="2wSq35xLRVL" role="3clFbw">
-            <ref role="3cqZAo" node="2wSq35xLPjr" resolve="execQuitCode" />
-          </node>
-        </node>
-        <node concept="3cpWs6" id="5_bDd1dlHYH" role="3cqZAp">
-          <node concept="37vLTw" id="2wSq35xLUEk" role="3cqZAk">
             <ref role="3cqZAo" node="2wSq35xLPjr" resolve="execQuitCode" />
           </node>
         </node>
