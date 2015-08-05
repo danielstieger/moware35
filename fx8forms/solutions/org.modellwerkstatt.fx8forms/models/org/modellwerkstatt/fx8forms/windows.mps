@@ -3103,17 +3103,8 @@
                                         <node concept="Xl_RD" id="3zf0S8jUL3b" role="3uHU7w">
                                           <property role="Xl_RC" value="\nJAVA Version:   " />
                                         </node>
-                                        <node concept="2OqwBi" id="20ohnkbHKMU" role="3uHU7B">
-                                          <node concept="37vLTw" id="20ohnkbHK$E" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                                          </node>
-                                          <node concept="liA8E" id="20ohnkbHL6d" role="2OqNvi">
-                                            <ref role="37wK5l" node="20ohnkbA3TC" resolve="getTranslation" />
-                                            <node concept="Rm8GO" id="20ohnkbHLpG" role="37wK5m">
-                                              <ref role="Rm8GQ" to="quhv:3zf0S8jTsbg" resolve="MOWARE_ABOUT" />
-                                              <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
-                                            </node>
-                                          </node>
+                                        <node concept="Xl_RD" id="5XHFlROSEHB" role="3uHU7B">
+                                          <property role="Xl_RC" value="MoWare App Framework, die modellwerkstatt.org\nFX8 fat client, 2nd rev. summer 2015" />
                                         </node>
                                       </node>
                                       <node concept="2YIFZM" id="3zf0S8jULJf" role="3uHU7w">
@@ -10732,6 +10723,24 @@
                         </node>
                       </node>
                       <node concept="3clFbS" id="5_bDd1d9M8l" role="3clF47">
+                        <node concept="3SKdUt" id="5XHFlROTVzj" role="3cqZAp">
+                          <node concept="3SKWN0" id="5XHFlROTVzk" role="3SKWNk">
+                            <node concept="3clFbF" id="5XHFlROTGCl" role="3SKWNf">
+                              <node concept="2OqwBi" id="5XHFlROTGCi" role="3clFbG">
+                                <node concept="10M0yZ" id="5XHFlROTGCj" role="2Oq$k0">
+                                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                                  <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                                </node>
+                                <node concept="liA8E" id="5XHFlROTGCk" role="2OqNvi">
+                                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                  <node concept="Xl_RD" id="5XHFlROTGER" role="37wK5m">
+                                    <property role="Xl_RC" value="FX8CmdUiBasis - sending cancel request." />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                         <node concept="3clFbF" id="5_bDd1d9T3b" role="3cqZAp">
                           <node concept="2OqwBi" id="5_bDd1d9T9w" role="3clFbG">
                             <node concept="37vLTw" id="5_bDd1dbwff" role="2Oq$k0">

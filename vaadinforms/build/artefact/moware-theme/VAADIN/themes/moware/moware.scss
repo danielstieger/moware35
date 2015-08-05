@@ -1,4 +1,4 @@
-@import "../valo/valo.scss";
+@import "variables";
 
 @mixin moware {
   @include valo;
@@ -14,6 +14,6 @@
 	.mo-bottombtnpane-mrg.v-margin-bottom {padding-bottom: 0px;}
 	
 	.mo-caption { color: #197de1; font-weight: bold; }
-	.mo-small-font { font-size: 0.7em; }
+	.mo-small-font { font-size: 0.8em; }
 }
 

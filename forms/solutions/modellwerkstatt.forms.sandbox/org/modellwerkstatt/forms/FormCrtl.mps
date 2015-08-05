@@ -9879,72 +9879,127 @@
             <property role="3SKdUp" value="graph edit or search command can be canceld without asking user" />
           </node>
         </node>
+        <node concept="3SKdUt" id="5XHFlROXzAz" role="3cqZAp">
+          <node concept="3SKWN0" id="5XHFlROXzA$" role="3SKWNk">
+            <node concept="3clFbF" id="5XHFlROUVHp" role="3SKWNf">
+              <node concept="2OqwBi" id="5XHFlROUVHm" role="3clFbG">
+                <node concept="10M0yZ" id="5XHFlROUVHn" role="2Oq$k0">
+                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                  <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="5XHFlROUVHo" role="2OqNvi">
+                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="5XHFlROUWTc" role="37wK5m">
+                    <node concept="37vLTw" id="5XHFlROUWVE" role="3uHU7w">
+                      <ref role="3cqZAo" node="12Eg3QJj76A" resolve="force" />
+                    </node>
+                    <node concept="Xl_RD" id="5XHFlROUW93" role="3uHU7B">
+                      <property role="Xl_RC" value="FCommandContainer.cancelRequested() force: " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="1kxCqBRaE09" role="3cqZAp">
           <node concept="3clFbS" id="1kxCqBRaE0c" role="3clFbx">
-            <node concept="3clFbH" id="vsIEjNQLeQ" role="3cqZAp" />
             <node concept="3SKdUt" id="1kxCqBRbqp_" role="3cqZAp">
               <node concept="3SKdUq" id="1kxCqBRbqpB" role="3SKWNk">
                 <property role="3SKdUp" value="search command as well as modal dialogs do not confirm close ... " />
               </node>
             </node>
-            <node concept="3clFbJ" id="1kxCqBRbxGa" role="3cqZAp">
-              <node concept="3clFbS" id="1kxCqBRbxGd" role="3clFbx">
-                <node concept="3clFbF" id="vsIEjNJdZV" role="3cqZAp">
-                  <node concept="2OqwBi" id="1kxCqBRbqPU" role="3clFbG">
-                    <node concept="37vLTw" id="1kxCqBRbqOD" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5_bDd1daoNx" resolve="userInterface" />
+            <node concept="3SKdUt" id="5XHFlROX$LN" role="3cqZAp">
+              <node concept="3SKWN0" id="5XHFlROX$LO" role="3SKWNk">
+                <node concept="3clFbF" id="5XHFlROV4zk" role="3SKWNf">
+                  <node concept="2OqwBi" id="5XHFlROV4zl" role="3clFbG">
+                    <node concept="10M0yZ" id="5XHFlROV4zm" role="2Oq$k0">
+                      <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                      <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
                     </node>
-                    <node concept="liA8E" id="1kxCqBRbrxY" role="2OqNvi">
-                      <ref role="37wK5l" node="2DwOiMAxqvf" resolve="isUserConfirmsQuestion" />
-                      <node concept="2OqwBi" id="1kxCqBRbrBl" role="37wK5m">
-                        <node concept="1rXfSq" id="1kxCqBRbrzR" role="2Oq$k0">
-                          <ref role="37wK5l" node="7aUgYCzr6vC" resolve="getUiFactory" />
-                        </node>
-                        <node concept="liA8E" id="1kxCqBRbrML" role="2OqNvi">
-                          <ref role="37wK5l" node="20ohnkbA2Ln" resolve="getTranslation" />
-                          <node concept="Rm8GO" id="1kxCqBRbrUo" role="37wK5m">
-                            <ref role="1Px2BO" node="2zlZ_in69hm" resolve="FDefaultTrans.Key" />
-                            <ref role="Rm8GQ" node="4vUcH_0hKSO" resolve="SESSION_DIRTY" />
-                          </node>
-                        </node>
+                    <node concept="liA8E" id="5XHFlROV4zn" role="2OqNvi">
+                      <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <node concept="Xl_RD" id="5XHFlROV4zo" role="37wK5m">
+                        <property role="Xl_RC" value="FComandContainer.cancelRequested() ask user regarding DIRTY_SESSION" />
                       </node>
-                      <node concept="2ShNRf" id="vsIEjNJccK" role="37wK5m">
-                        <node concept="YeOm9" id="vsIEjNJcva" role="2ShVmc">
-                          <node concept="1Y3b0j" id="vsIEjNJcvd" role="YeSDq">
-                            <property role="2bfB8j" value="true" />
-                            <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
-                            <ref role="1Y3XeK" node="vsIEjNJ5$m" resolve="IToolkit_CommandContainerUI.UserQuestionRunner" />
-                            <node concept="3Tm1VV" id="vsIEjNJcve" role="1B3o_S" />
-                            <node concept="3clFb_" id="vsIEjNJcvf" role="jymVt">
-                              <property role="1EzhhJ" value="false" />
-                              <property role="TrG5h" value="run" />
-                              <node concept="37vLTG" id="vsIEjNJcvg" role="3clF46">
-                                <property role="TrG5h" value="confirmed" />
-                                <node concept="10P_77" id="vsIEjNJcvh" role="1tU5fm" />
-                              </node>
-                              <node concept="3cqZAl" id="vsIEjNJcvi" role="3clF45" />
-                              <node concept="3Tm1VV" id="vsIEjNJcvj" role="1B3o_S" />
-                              <node concept="3clFbS" id="vsIEjNJcvl" role="3clF47">
-                                <node concept="3clFbJ" id="vsIEjNJfDV" role="3cqZAp">
-                                  <node concept="3clFbS" id="vsIEjNJfDW" role="3clFbx">
-                                    <node concept="3SKdUt" id="vsIEjNQLkg" role="3cqZAp">
-                                      <node concept="3SKdUq" id="vsIEjNQLkM" role="3SKWNk">
-                                        <property role="3SKdUp" value="okay, then do the same but forced." />
-                                      </node>
-                                    </node>
-                                    <node concept="3clFbF" id="vsIEjNJyVY" role="3cqZAp">
-                                      <node concept="1rXfSq" id="vsIEjNJyVX" role="3clFbG">
-                                        <ref role="37wK5l" node="5_bDd1d9U8$" resolve="cancelRequested" />
-                                        <node concept="3clFbT" id="vsIEjNJz0M" role="37wK5m">
-                                          <property role="3clFbU" value="true" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="5XHFlROV4wr" role="3cqZAp" />
+            <node concept="3clFbF" id="vsIEjNJdZV" role="3cqZAp">
+              <node concept="2OqwBi" id="1kxCqBRbqPU" role="3clFbG">
+                <node concept="37vLTw" id="1kxCqBRbqOD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5_bDd1daoNx" resolve="userInterface" />
+                </node>
+                <node concept="liA8E" id="1kxCqBRbrxY" role="2OqNvi">
+                  <ref role="37wK5l" node="2DwOiMAxqvf" resolve="isUserConfirmsQuestion" />
+                  <node concept="2OqwBi" id="1kxCqBRbrBl" role="37wK5m">
+                    <node concept="1rXfSq" id="1kxCqBRbrzR" role="2Oq$k0">
+                      <ref role="37wK5l" node="7aUgYCzr6vC" resolve="getUiFactory" />
+                    </node>
+                    <node concept="liA8E" id="1kxCqBRbrML" role="2OqNvi">
+                      <ref role="37wK5l" node="20ohnkbA2Ln" resolve="getTranslation" />
+                      <node concept="Rm8GO" id="1kxCqBRbrUo" role="37wK5m">
+                        <ref role="1Px2BO" node="2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                        <ref role="Rm8GQ" node="4vUcH_0hKSO" resolve="SESSION_DIRTY" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2ShNRf" id="vsIEjNJccK" role="37wK5m">
+                    <node concept="YeOm9" id="vsIEjNJcva" role="2ShVmc">
+                      <node concept="1Y3b0j" id="vsIEjNJcvd" role="YeSDq">
+                        <property role="2bfB8j" value="true" />
+                        <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
+                        <ref role="1Y3XeK" node="vsIEjNJ5$m" resolve="IToolkit_CommandContainerUI.UserQuestionRunner" />
+                        <node concept="3Tm1VV" id="vsIEjNJcve" role="1B3o_S" />
+                        <node concept="3clFb_" id="vsIEjNJcvf" role="jymVt">
+                          <property role="1EzhhJ" value="false" />
+                          <property role="TrG5h" value="run" />
+                          <node concept="37vLTG" id="vsIEjNJcvg" role="3clF46">
+                            <property role="TrG5h" value="confirmed" />
+                            <node concept="10P_77" id="vsIEjNJcvh" role="1tU5fm" />
+                          </node>
+                          <node concept="3cqZAl" id="vsIEjNJcvi" role="3clF45" />
+                          <node concept="3Tm1VV" id="vsIEjNJcvj" role="1B3o_S" />
+                          <node concept="3clFbS" id="vsIEjNJcvl" role="3clF47">
+                            <node concept="3clFbJ" id="vsIEjNJfDV" role="3cqZAp">
+                              <node concept="3clFbS" id="vsIEjNJfDW" role="3clFbx">
+                                <node concept="3SKdUt" id="5XHFlROX_h$" role="3cqZAp">
+                                  <node concept="3SKWN0" id="5XHFlROX_h_" role="3SKWNk">
+                                    <node concept="3clFbF" id="5XHFlROV5a0" role="3SKWNf">
+                                      <node concept="2OqwBi" id="5XHFlROV5a1" role="3clFbG">
+                                        <node concept="10M0yZ" id="5XHFlROV5a2" role="2Oq$k0">
+                                          <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                                          <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                                        </node>
+                                        <node concept="liA8E" id="5XHFlROV5a3" role="2OqNvi">
+                                          <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                          <node concept="Xl_RD" id="5XHFlROV5a4" role="37wK5m">
+                                            <property role="Xl_RC" value="FComandContainer.cancelRequested() do the reqursive cancelRequested(true)" />
+                                          </node>
                                         </node>
                                       </node>
                                     </node>
                                   </node>
-                                  <node concept="37vLTw" id="vsIEjNJfFp" role="3clFbw">
-                                    <ref role="3cqZAo" node="vsIEjNJcvg" resolve="confirmed" />
+                                </node>
+                                <node concept="3SKdUt" id="vsIEjNQLkg" role="3cqZAp">
+                                  <node concept="3SKdUq" id="vsIEjNQLkM" role="3SKWNk">
+                                    <property role="3SKdUp" value="okay, then do the same but forced." />
                                   </node>
                                 </node>
+                                <node concept="3clFbF" id="vsIEjNJyVY" role="3cqZAp">
+                                  <node concept="1rXfSq" id="vsIEjNJyVX" role="3clFbG">
+                                    <ref role="37wK5l" node="5_bDd1d9U8$" resolve="cancelRequested" />
+                                    <node concept="3clFbT" id="vsIEjNJz0M" role="37wK5m">
+                                      <property role="3clFbU" value="true" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="37vLTw" id="vsIEjNJfFp" role="3clFbw">
+                                <ref role="3cqZAo" node="vsIEjNJcvg" resolve="confirmed" />
                               </node>
                             </node>
                           </node>
@@ -9954,57 +10009,80 @@
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="1kxCqBRbytY" role="3clFbw">
-                <node concept="2OqwBi" id="1kxCqBRbxK7" role="2Oq$k0">
-                  <node concept="37vLTw" id="1kxCqBRbxJf" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                  </node>
-                  <node concept="liA8E" id="1kxCqBRbyrY" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:4C7UZKDAoDO" resolve="getCommandSession" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="1kxCqBRbzcA" role="2OqNvi">
-                  <ref role="37wK5l" to="w7gk:6ovpBeWDqiv" resolve="isDirty" />
-                </node>
-              </node>
             </node>
+            <node concept="3clFbH" id="vsIEjNQLeQ" role="3cqZAp" />
+            <node concept="3clFbH" id="5XHFlROTN76" role="3cqZAp" />
           </node>
-          <node concept="1Wc70l" id="1kxCqBRbpc1" role="3clFbw">
-            <node concept="1Wc70l" id="vsIEjNQHGv" role="3uHU7B">
-              <node concept="3fqX7Q" id="vsIEjNQIgc" role="3uHU7B">
-                <node concept="37vLTw" id="vsIEjNQIik" role="3fr31v">
-                  <ref role="3cqZAo" node="12Eg3QJj76A" resolve="force" />
-                </node>
-              </node>
-              <node concept="3fqX7Q" id="1kxCqBRbpc6" role="3uHU7w">
-                <node concept="2OqwBi" id="1kxCqBRbpc7" role="3fr31v">
-                  <node concept="37vLTw" id="1kxCqBRbpc8" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                  </node>
-                  <node concept="liA8E" id="1kxCqBRbpc9" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3fqX7Q" id="1kxCqBRbpNa" role="3uHU7w">
-              <node concept="2OqwBi" id="1kxCqBRbpNc" role="3fr31v">
-                <node concept="37vLTw" id="1kxCqBRbpNd" role="2Oq$k0">
+          <node concept="1Wc70l" id="5XHFlROTNgM" role="3clFbw">
+            <node concept="2OqwBi" id="5XHFlROTOXf" role="3uHU7w">
+              <node concept="2OqwBi" id="5XHFlROTOe_" role="2Oq$k0">
+                <node concept="37vLTw" id="5XHFlROTOch" role="2Oq$k0">
                   <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                 </node>
-                <node concept="liA8E" id="1kxCqBRbpNe" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:6Rdz00$VfMV" resolve="needsSubWindow" />
+                <node concept="liA8E" id="5XHFlROTOUK" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:4C7UZKDAoDO" resolve="getCommandSession" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5XHFlROTPC6" role="2OqNvi">
+                <ref role="37wK5l" to="w7gk:6ovpBeWDqiv" resolve="isDirty" />
+              </node>
+            </node>
+            <node concept="1Wc70l" id="1kxCqBRbpc1" role="3uHU7B">
+              <node concept="1Wc70l" id="vsIEjNQHGv" role="3uHU7B">
+                <node concept="3fqX7Q" id="vsIEjNQIgc" role="3uHU7B">
+                  <node concept="37vLTw" id="vsIEjNQIik" role="3fr31v">
+                    <ref role="3cqZAo" node="12Eg3QJj76A" resolve="force" />
+                  </node>
+                </node>
+                <node concept="3fqX7Q" id="1kxCqBRbpc6" role="3uHU7w">
+                  <node concept="2OqwBi" id="1kxCqBRbpc7" role="3fr31v">
+                    <node concept="37vLTw" id="1kxCqBRbpc8" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                    </node>
+                    <node concept="liA8E" id="1kxCqBRbpc9" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="1kxCqBRbpNa" role="3uHU7w">
+                <node concept="2OqwBi" id="1kxCqBRbpNc" role="3fr31v">
+                  <node concept="37vLTw" id="1kxCqBRbpNd" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                  </node>
+                  <node concept="liA8E" id="1kxCqBRbpNe" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:6Rdz00$VfMV" resolve="needsSubWindow" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
           <node concept="9aQIb" id="vsIEjNQLmC" role="9aQIa">
             <node concept="3clFbS" id="vsIEjNQLmD" role="9aQI4">
+              <node concept="3SKdUt" id="5XHFlROX_JW" role="3cqZAp">
+                <node concept="3SKWN0" id="5XHFlROX_JX" role="3SKWNk">
+                  <node concept="3clFbF" id="5XHFlROUXgN" role="3SKWNf">
+                    <node concept="2OqwBi" id="5XHFlROUXgK" role="3clFbG">
+                      <node concept="10M0yZ" id="5XHFlROUXgL" role="2Oq$k0">
+                        <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                        <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                      </node>
+                      <node concept="liA8E" id="5XHFlROUXgM" role="2OqNvi">
+                        <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="Xl_RD" id="5XHFlROUY5z" role="37wK5m">
+                          <property role="Xl_RC" value="FComandContainer.cancelRequested() call externalAbortNow()" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3SKdUt" id="vsIEjNQMhh" role="3cqZAp">
                 <node concept="3SKdUq" id="vsIEjNQMhj" role="3SKWNk">
                   <property role="3SKdUp" value="this is a forced shutdown now. ---------------------------------------------" />
                 </node>
               </node>
+              <node concept="3clFbH" id="5XHFlROUYW4" role="3cqZAp" />
               <node concept="2GUZhq" id="vsIEjNR38X" role="3cqZAp">
                 <node concept="3clFbS" id="1kxCqBRbW$i" role="2GV8ay">
                   <node concept="3clFbF" id="1kxCqBRbJLR" role="3cqZAp">
@@ -10025,6 +10103,35 @@
                 </node>
                 <node concept="TDmWw" id="1kxCqBRbW$o" role="TEXxN">
                   <node concept="3clFbS" id="1kxCqBRbW$r" role="TDEfX">
+                    <node concept="3SKdUt" id="5XHFlROXAHs" role="3cqZAp">
+                      <node concept="3SKWN0" id="5XHFlROXAHt" role="3SKWNk">
+                        <node concept="3clFbF" id="5XHFlROV2iS" role="3SKWNf">
+                          <node concept="2OqwBi" id="5XHFlROV2iT" role="3clFbG">
+                            <node concept="10M0yZ" id="5XHFlROV2iU" role="2Oq$k0">
+                              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                            </node>
+                            <node concept="liA8E" id="5XHFlROV2iV" role="2OqNvi">
+                              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                              <node concept="3cpWs3" id="5XHFlROV3gi" role="37wK5m">
+                                <node concept="2OqwBi" id="5XHFlROV3jZ" role="3uHU7w">
+                                  <node concept="37vLTw" id="5XHFlROV3gJ" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="1kxCqBRbW$s" resolve="e" />
+                                  </node>
+                                  <node concept="liA8E" id="5XHFlROV3rq" role="2OqNvi">
+                                    <ref role="37wK5l" to="e2lb:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                                  </node>
+                                </node>
+                                <node concept="Xl_RD" id="5XHFlROV2iW" role="3uHU7B">
+                                  <property role="Xl_RC" value="FComandContainer.cancelRequested() Exception " />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="5XHFlROUZMU" role="3cqZAp" />
                     <node concept="3SKdUt" id="1kxCqBRc3ob" role="3cqZAp">
                       <node concept="3SKdUq" id="1kxCqBRqx6G" role="3SKWNk">
                         <property role="3SKdUp" value="Window will be closed imediatelly ... show information on parent." />
@@ -10073,6 +10180,25 @@
                   </node>
                 </node>
                 <node concept="3clFbS" id="vsIEjNR390" role="2GVbov">
+                  <node concept="3SKdUt" id="5XHFlROXBKZ" role="3cqZAp">
+                    <node concept="3SKWN0" id="5XHFlROXBL0" role="3SKWNk">
+                      <node concept="3clFbF" id="5XHFlROV41c" role="3SKWNf">
+                        <node concept="2OqwBi" id="5XHFlROV41d" role="3clFbG">
+                          <node concept="10M0yZ" id="5XHFlROV41e" role="2Oq$k0">
+                            <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                            <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                          </node>
+                          <node concept="liA8E" id="5XHFlROV41f" role="2OqNvi">
+                            <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                            <node concept="Xl_RD" id="5XHFlROV41g" role="37wK5m">
+                              <property role="Xl_RC" value="FComandContainer.cancelRequested() closeContainer()" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="5XHFlROV40A" role="3cqZAp" />
                   <node concept="3clFbF" id="vsIEjNAYVP" role="3cqZAp">
                     <node concept="1rXfSq" id="vsIEjNAYVQ" role="3clFbG">
                       <ref role="37wK5l" node="5_bDd1dEyit" resolve="closeContainer" />
@@ -10083,13 +10209,9 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="vsIEjNQMhL" role="3cqZAp" />
-              <node concept="3clFbH" id="vsIEjNQMhP" role="3cqZAp" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="vsIEjNQIYZ" role="3cqZAp" />
-        <node concept="3clFbH" id="vsIEjNQJgW" role="3cqZAp" />
       </node>
       <node concept="37vLTG" id="12Eg3QJj76A" role="3clF46">
         <property role="TrG5h" value="force" />
@@ -12093,10 +12215,10 @@
         <property role="TrG5h" value="MOWARE_ABOUT" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
         <node concept="Xl_RD" id="3zf0S8jTsbh" role="37wK5m">
-          <property role="Xl_RC" value="MoWare FX8\ndie modellwerkstatt.org Winter 2014/15" />
+          <property role="Xl_RC" value="die modellwerkstatt" />
         </node>
         <node concept="Xl_RD" id="3zf0S8jTsbi" role="37wK5m">
-          <property role="Xl_RC" value="MoWare Vaadin Implementation\ndie modellwerkstatt.org Autumn 2015" />
+          <property role="Xl_RC" value="die modellwerkstatt" />
         </node>
       </node>
       <node concept="QsSxf" id="3zf0S8jTsmW" role="Qtgdg">
