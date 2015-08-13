@@ -39,6 +39,15 @@
     </init-param>
 
     <init-param>
+    	<description>Widget Set to Use</description>
+    	<param-name>widgetset</param-name>
+    	<param-value>org.modellwerkstatt.MyAppWidgetset</param-value>
+  	</init-param>
+
+
+
+
+    <init-param>
       <param-name>closeIdleSessions</param-name>
       <param-value>true</param-value>
     </init-param>
@@ -54,6 +63,7 @@
     	<param-value>APPLICATION_FQNAME</param-value>
     </init-param>
 
+	
 
   </servlet>
 

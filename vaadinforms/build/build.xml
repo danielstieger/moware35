@@ -13,6 +13,8 @@
  
  export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home
  export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
+ export PATH=$PATH:/Users/danielstieger/javaexe/maven/bin
+ 
  
 -->
  

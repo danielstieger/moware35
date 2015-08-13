@@ -1,6 +1,11 @@
+/* Provided by contextmenu-4.4.0.jar */
+@import "../contextmenu/contextmenu.scss";
 @import "moware.scss";
 
 .moware{
+   
+   @include contextmenu;
+   
    @include moware;
 
  }
