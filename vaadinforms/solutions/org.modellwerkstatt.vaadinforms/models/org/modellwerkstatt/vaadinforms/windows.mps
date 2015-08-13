@@ -9927,7 +9927,15 @@
         <ref role="3uigEE" to="o2tm:~TextField" resolve="TextField" />
       </node>
     </node>
-    <node concept="2tJIrI" id="5tLhDsedi$m" role="jymVt" />
+    <node concept="312cEg" id="7wrkReHxZd2" role="jymVt">
+      <property role="TrG5h" value="summaryLineLabel" />
+      <node concept="3Tm6S6" id="7wrkReHxZd3" role="1B3o_S" />
+      <node concept="3uibUv" id="7wrkReHy3ld" role="1tU5fm">
+        <ref role="3uigEE" to="o2tm:~Label" resolve="Label" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7wrkReHxEXQ" role="jymVt" />
+    <node concept="2tJIrI" id="7wrkReHxVeJ" role="jymVt" />
     <node concept="312cEg" id="15Q050iE19A" role="jymVt">
       <property role="TrG5h" value="selectionListener" />
       <node concept="3Tm6S6" id="15Q050iE19B" role="1B3o_S" />
@@ -10694,7 +10702,8 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5tLhDsexsCy" role="jymVt" />
-    <node concept="2tJIrI" id="5tLhDsexsVd" role="jymVt" />
+    <node concept="2tJIrI" id="7wrkReHyqLa" role="jymVt" />
+    <node concept="2tJIrI" id="7wrkReHy4fL" role="jymVt" />
     <node concept="3clFb_" id="5XHFlRODqOz" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setElementClass" />
@@ -10977,7 +10986,99 @@
       </node>
       <node concept="3cqZAl" id="5XHFlRODqPa" role="3clF45" />
       <node concept="3Tm1VV" id="5XHFlRODqPb" role="1B3o_S" />
-      <node concept="3clFbS" id="5XHFlRODqPd" role="3clF47" />
+      <node concept="3clFbS" id="5XHFlRODqPd" role="3clF47">
+        <node concept="3SKdUt" id="7wrkReH_BpW" role="3cqZAp">
+          <node concept="3SKdUq" id="7wrkReH_BDo" role="3SKWNk">
+            <property role="3SKdUp" value="this method is not called in case there is not summary line at all. " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7wrkReHyzh3" role="3cqZAp">
+          <node concept="3clFbS" id="7wrkReHyzh4" role="3clFbx">
+            <node concept="3clFbF" id="7wrkReHydaf" role="3cqZAp">
+              <node concept="37vLTI" id="7wrkReHydyj" role="3clFbG">
+                <node concept="2ShNRf" id="7wrkReHyeLK" role="37vLTx">
+                  <node concept="1pGfFk" id="7wrkReHyiiH" role="2ShVmc">
+                    <ref role="37wK5l" to="o2tm:~Label.&lt;init&gt;(java.lang.String)" resolve="Label" />
+                    <node concept="Xl_RD" id="7wrkReHz6D1" role="37wK5m">
+                      <property role="Xl_RC" value="-" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="7wrkReHydae" role="37vLTJ">
+                  <ref role="3cqZAo" node="7wrkReHxZd2" resolve="summaryLineLabel" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7wrkReHykRm" role="3cqZAp">
+              <node concept="2OqwBi" id="7wrkReHykRn" role="3clFbG">
+                <node concept="37vLTw" id="7wrkReHz5Rs" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7wrkReHxZd2" resolve="summaryLineLabel" />
+                </node>
+                <node concept="liA8E" id="7wrkReHykRp" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+                  <node concept="Xl_RD" id="7wrkReHykRq" role="37wK5m">
+                    <property role="Xl_RC" value="align-right" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7wrkReHym1$" role="3cqZAp">
+              <node concept="2OqwBi" id="7wrkReHyms2" role="3clFbG">
+                <node concept="37vLTw" id="7wrkReHym1y" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7wrkReHxZd2" resolve="summaryLineLabel" />
+                </node>
+                <node concept="liA8E" id="7wrkReHynsq" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7wrkReH$bgK" role="3cqZAp">
+              <node concept="2OqwBi" id="7wrkReH$bMN" role="3clFbG">
+                <node concept="37vLTw" id="7wrkReH$bgI" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7wrkReHxZd2" resolve="summaryLineLabel" />
+                </node>
+                <node concept="liA8E" id="7wrkReH$dyO" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~AbstractComponent.setHeight(java.lang.String):void" resolve="setHeight" />
+                  <node concept="Xl_RD" id="7wrkReH$dRT" role="37wK5m">
+                    <property role="Xl_RC" value="2em" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7wrkReHyo2S" role="3cqZAp">
+              <node concept="2OqwBi" id="7wrkReHyonN" role="3clFbG">
+                <node concept="Xjq3P" id="7wrkReHyo2Q" role="2Oq$k0" />
+                <node concept="liA8E" id="7wrkReHyprq" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
+                  <node concept="37vLTw" id="7wrkReH$ffG" role="37wK5m">
+                    <ref role="3cqZAo" node="7wrkReHxZd2" resolve="summaryLineLabel" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7wrkReH$GSX" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="7wrkReHy$Xj" role="3clFbw">
+            <node concept="10Nm6u" id="7wrkReHy_n4" role="3uHU7w" />
+            <node concept="37vLTw" id="7wrkReHy$rD" role="3uHU7B">
+              <ref role="3cqZAo" node="7wrkReHxZd2" resolve="summaryLineLabel" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7wrkReHyAiy" role="3cqZAp">
+          <node concept="2OqwBi" id="7wrkReHyB2b" role="3clFbG">
+            <node concept="37vLTw" id="7wrkReHyAiw" role="2Oq$k0">
+              <ref role="3cqZAo" node="7wrkReHxZd2" resolve="summaryLineLabel" />
+            </node>
+            <node concept="liA8E" id="7wrkReHyC5t" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~Label.setValue(java.lang.String):void" resolve="setValue" />
+              <node concept="37vLTw" id="7wrkReHyCqK" role="37wK5m">
+                <ref role="3cqZAo" node="5XHFlRODqP8" resolve="text" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="5XHFlRODqPe" role="jymVt">
       <property role="1EzhhJ" value="false" />
