@@ -7248,6 +7248,36 @@
     <property role="TrG5h" value="check_BusinessProperty" />
     <property role="3GE5qa" value="BusinessObject" />
     <node concept="3clFbS" id="34EwMoQBtwg" role="18ibNy">
+      <node concept="3clFbH" id="5qQ_y4nID7p" role="3cqZAp" />
+      <node concept="3clFbJ" id="5qQ_y4nIO2u" role="3cqZAp">
+        <node concept="3clFbS" id="5qQ_y4nIO2w" role="3clFbx">
+          <node concept="2MkqsV" id="5qQ_y4nITr4" role="3cqZAp">
+            <node concept="Xl_RD" id="5qQ_y4nITrj" role="2MkJ7o">
+              <property role="Xl_RC" value="BusinessProperties can not be named as 'value'." />
+            </node>
+            <node concept="1YBJjd" id="5qQ_y4nITts" role="2OEOjV">
+              <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="5qQ_y4nIOZn" role="3clFbw">
+          <node concept="liA8E" id="5qQ_y4nITcP" role="2OqNvi">
+            <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+            <node concept="2OqwBi" id="5qQ_y4nIO96" role="37wK5m">
+              <node concept="1YBJjd" id="5qQ_y4nIO4K" role="2Oq$k0">
+                <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
+              </node>
+              <node concept="3TrcHB" id="5qQ_y4nIOx6" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="Xl_RD" id="5qQ_y4nITdf" role="2Oq$k0">
+            <property role="Xl_RC" value="value" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="5qQ_y4nID8x" role="3cqZAp" />
       <node concept="3clFbJ" id="34EwMoQBA3_" role="3cqZAp">
         <node concept="3clFbS" id="34EwMoQBA3A" role="3clFbx">
           <node concept="3cpWs8" id="34EwMoQBWir" role="3cqZAp">
