@@ -28482,12 +28482,9 @@
       <property role="2bfB8j" value="true" />
       <property role="TrG5h" value="Answer" />
       <node concept="3Tm1VV" id="5I8HAEt8vQh" role="1B3o_S" />
-      <node concept="3clFb_" id="5I8HAEt8vQi" role="jymVt">
-        <property role="1EzhhJ" value="true" />
-        <property role="TrG5h" value="run" />
-        <node concept="3cqZAl" id="5I8HAEt8vWU" role="3clF45" />
-        <node concept="3Tm1VV" id="5I8HAEt8vQk" role="1B3o_S" />
-        <node concept="3clFbS" id="5I8HAEt8vQl" role="3clF47" />
+      <node concept="2tJIrI" id="69LCikA8_Mf" role="jymVt" />
+      <node concept="3uibUv" id="69LCikA8_u8" role="3HQHJm">
+        <ref role="3uigEE" to="e2lb:~Runnable" resolve="Runnable" />
       </node>
     </node>
     <node concept="3Tm1VV" id="5_bDd1d79MN" role="1B3o_S" />
