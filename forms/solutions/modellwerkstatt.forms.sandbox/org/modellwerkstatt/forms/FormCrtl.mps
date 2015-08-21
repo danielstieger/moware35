@@ -35177,21 +35177,14 @@
         <property role="Xl_RC" value="dd.MM.yy" />
       </node>
     </node>
-    <node concept="Wx3nA" id="3sEA$PIyWlp" role="jymVt">
+    <node concept="312cEg" id="61KpyPwOYSW" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="format" />
-      <property role="3TUv4t" value="true" />
+      <property role="3TUv4t" value="false" />
       <node concept="3uibUv" id="3sEA$PIyWlq" role="1tU5fm">
         <ref role="3uigEE" to="vt2g:~DateTimeFormatter" resolve="DateTimeFormatter" />
       </node>
       <node concept="3Tm6S6" id="3sEA$PIyWlr" role="1B3o_S" />
-      <node concept="2YIFZM" id="3sEA$PIyWls" role="33vP2m">
-        <ref role="37wK5l" to="vt2g:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
-        <ref role="1Pybhc" to="vt2g:~DateTimeFormat" resolve="DateTimeFormat" />
-        <node concept="Xl_RD" id="3sEA$PIyWlt" role="37wK5m">
-          <property role="Xl_RC" value="dd.MM.yy" />
-        </node>
-      </node>
     </node>
     <node concept="2tJIrI" id="3sEA$PIy_e8" role="jymVt" />
     <node concept="2tJIrI" id="3sEA$PIy_i1" role="jymVt" />
@@ -35204,6 +35197,20 @@
           <ref role="37wK5l" node="5Y1b9tR40nM" resolve="FDelegate" />
           <node concept="37vLTw" id="3sEA$PIygHe" role="37wK5m">
             <ref role="3cqZAo" node="3sEA$PIygHq" resolve="factory" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="61KpyPwP0Tk" role="3cqZAp">
+          <node concept="37vLTI" id="61KpyPwP12Z" role="3clFbG">
+            <node concept="37vLTw" id="61KpyPwP0Ti" role="37vLTJ">
+              <ref role="3cqZAo" node="61KpyPwOYSW" resolve="format" />
+            </node>
+            <node concept="2YIFZM" id="3sEA$PIyWls" role="37vLTx">
+              <ref role="37wK5l" to="vt2g:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
+              <ref role="1Pybhc" to="vt2g:~DateTimeFormat" resolve="DateTimeFormat" />
+              <node concept="37vLTw" id="61KpyPwP1fD" role="37wK5m">
+                <ref role="3cqZAo" node="3sEA$PIy_Zy" resolve="formatString" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="3clFbF" id="3sEA$PIygHf" role="3cqZAp">
@@ -35264,7 +35271,7 @@
             <node concept="3cpWs6" id="3sEA$PIyD2C" role="3cqZAp">
               <node concept="2OqwBi" id="3sEA$PIyG4d" role="3cqZAk">
                 <node concept="37vLTw" id="3sEA$PIyWoQ" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3sEA$PIyWlp" resolve="format" />
+                  <ref role="3cqZAo" node="61KpyPwOYSW" resolve="format" />
                 </node>
                 <node concept="liA8E" id="3sEA$PIyGEu" role="2OqNvi">
                   <ref role="37wK5l" to="vt2g:~DateTimeFormatter.parseDateTime(java.lang.String):org.joda.time.DateTime" resolve="parseDateTime" />
@@ -35326,7 +35333,7 @@
                   <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
                   <node concept="2OqwBi" id="3sEA$PIyLsu" role="37wK5m">
                     <node concept="37vLTw" id="3sEA$PIyWGk" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3sEA$PIyWlp" resolve="format" />
+                      <ref role="3cqZAo" node="61KpyPwOYSW" resolve="format" />
                     </node>
                     <node concept="liA8E" id="3sEA$PIyLwY" role="2OqNvi">
                       <ref role="37wK5l" to="vt2g:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -35424,7 +35431,7 @@
             <node concept="3clFbF" id="3sEA$PIz04F" role="3cqZAp">
               <node concept="2OqwBi" id="3sEA$PIz06m" role="3clFbG">
                 <node concept="37vLTw" id="3sEA$PIz04D" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3sEA$PIyWlp" resolve="format" />
+                  <ref role="3cqZAo" node="61KpyPwOYSW" resolve="format" />
                 </node>
                 <node concept="liA8E" id="3sEA$PIz0eu" role="2OqNvi">
                   <ref role="37wK5l" to="vt2g:~DateTimeFormatter.parseDateTime(java.lang.String):org.joda.time.DateTime" resolve="parseDateTime" />
@@ -35533,6 +35540,85 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3sEA$PIygKQ" role="jymVt" />
+    <node concept="2tJIrI" id="61KpyPwPIEy" role="jymVt" />
+    <node concept="3clFb_" id="61KpyPwPJ3k" role="jymVt">
+      <property role="TrG5h" value="setFormat" />
+      <property role="1EzhhJ" value="false" />
+      <node concept="37vLTG" id="61KpyPwPJ3l" role="3clF46">
+        <property role="TrG5h" value="frmt" />
+        <node concept="17QB3L" id="61KpyPwPJ3m" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="61KpyPwPJ3n" role="3clF45" />
+      <node concept="3Tm1VV" id="61KpyPwPJ3o" role="1B3o_S" />
+      <node concept="3clFbS" id="61KpyPwPJ3U" role="3clF47">
+        <node concept="3SKdUt" id="61KpyPwPLnu" role="3cqZAp">
+          <node concept="3SKdUq" id="61KpyPwPLnv" role="3SKWNk">
+            <property role="3SKdUp" value="overwrite that .. if necessary ??.. " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="61KpyPwPLnw" role="3cqZAp">
+          <node concept="3clFbS" id="61KpyPwPLnx" role="3clFbx">
+            <node concept="3SKdUt" id="61KpyPwPLny" role="3cqZAp">
+              <node concept="3SKdUq" id="61KpyPwPLnz" role="3SKWNk">
+                <property role="3SKdUp" value="nothing .. skip it .." />
+              </node>
+            </node>
+            <node concept="3clFbH" id="61KpyPwPLn$" role="3cqZAp" />
+          </node>
+          <node concept="22lmx$" id="61KpyPwPLn_" role="3clFbw">
+            <node concept="2OqwBi" id="61KpyPwPLnA" role="3uHU7w">
+              <node concept="Xl_RD" id="61KpyPwPLnB" role="2Oq$k0" />
+              <node concept="liA8E" id="61KpyPwPLnC" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="2OqwBi" id="61KpyPwPLnD" role="37wK5m">
+                  <node concept="37vLTw" id="61KpyPwPLnE" role="2Oq$k0">
+                    <ref role="3cqZAo" node="61KpyPwPJ3l" resolve="frmt" />
+                  </node>
+                  <node concept="liA8E" id="61KpyPwPLnF" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~String.trim():java.lang.String" resolve="trim" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="61KpyPwPLnG" role="3uHU7B">
+              <node concept="37vLTw" id="61KpyPwPLnH" role="3uHU7B">
+                <ref role="3cqZAo" node="61KpyPwPJ3l" resolve="frmt" />
+              </node>
+              <node concept="10Nm6u" id="61KpyPwPLnI" role="3uHU7w" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="61KpyPwPLnJ" role="9aQIa">
+            <node concept="3clFbS" id="61KpyPwPLnK" role="9aQI4">
+              <node concept="3clFbF" id="61KpyPwPLXP" role="3cqZAp">
+                <node concept="37vLTI" id="61KpyPwPLZJ" role="3clFbG">
+                  <node concept="2YIFZM" id="61KpyPwPN6i" role="37vLTx">
+                    <ref role="37wK5l" to="vt2g:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
+                    <ref role="1Pybhc" to="vt2g:~DateTimeFormat" resolve="DateTimeFormat" />
+                    <node concept="37vLTw" id="61KpyPwPN8k" role="37wK5m">
+                      <ref role="3cqZAo" node="61KpyPwPJ3l" resolve="frmt" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="61KpyPwPLXO" role="37vLTJ">
+                    <ref role="3cqZAo" node="61KpyPwOYSW" resolve="format" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="61KpyPwPNvS" role="3cqZAp">
+                <node concept="1rXfSq" id="61KpyPwPNvQ" role="3clFbG">
+                  <ref role="37wK5l" node="5Y1b9tQYocc" resolve="setEnabled" />
+                  <node concept="3clFbT" id="61KpyPwPNIt" role="37wK5m">
+                    <property role="3clFbU" value="false" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="61KpyPwPJ3V" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="3sEA$PIygKR" role="jymVt" />
     <node concept="2tJIrI" id="3sEA$PIygKS" role="jymVt" />
     <node concept="2tJIrI" id="3sEA$PIygKT" role="jymVt" />

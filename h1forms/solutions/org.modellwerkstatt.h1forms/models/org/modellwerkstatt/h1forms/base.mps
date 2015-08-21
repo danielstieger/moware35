@@ -5922,7 +5922,7 @@
               <ref role="3cqZAo" node="5I8HAEtcGku" resolve="ans" />
             </node>
             <node concept="liA8E" id="5I8HAEtcGPq" role="2OqNvi">
-              <ref role="37wK5l" to="quhv:5I8HAEt8vQi" resolve="run" />
+              <ref role="37wK5l" to="e2lb:~Runnable.run():void" resolve="run" />
             </node>
           </node>
         </node>
@@ -5970,7 +5970,7 @@
               <ref role="3cqZAo" node="6QRLe84uCM8" resolve="ans" />
             </node>
             <node concept="liA8E" id="6QRLe84uCMj" role="2OqNvi">
-              <ref role="37wK5l" to="quhv:5I8HAEt8vQi" resolve="run" />
+              <ref role="37wK5l" to="e2lb:~Runnable.run():void" resolve="run" />
             </node>
           </node>
         </node>
@@ -5995,7 +5995,7 @@
               <ref role="3cqZAo" node="6QRLe84qa2S" resolve="answer" />
             </node>
             <node concept="liA8E" id="6QRLe84uCOa" role="2OqNvi">
-              <ref role="37wK5l" to="quhv:5I8HAEt8vQi" resolve="run" />
+              <ref role="37wK5l" to="e2lb:~Runnable.run():void" resolve="run" />
             </node>
           </node>
         </node>
