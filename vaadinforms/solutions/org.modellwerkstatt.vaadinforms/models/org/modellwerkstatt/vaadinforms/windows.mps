@@ -5175,13 +5175,12 @@
       </node>
       <node concept="3Tm1VV" id="41UdyNB_Bgp" role="1B3o_S" />
       <node concept="3clFbS" id="41UdyNB_Bgs" role="3clF47">
-        <node concept="3SKdUt" id="xFWXJRXAa$" role="3cqZAp">
-          <node concept="3SKdUq" id="xFWXJRXAaN" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: TAB FORM missing ... " />
+        <node concept="3clFbF" id="HsWD0ns$Em" role="3cqZAp">
+          <node concept="2ShNRf" id="HsWD0ns$Ek" role="3clFbG">
+            <node concept="1pGfFk" id="HsWD0nv0ag" role="2ShVmc">
+              <ref role="37wK5l" node="HsWD0nuuIc" resolve="VTabForm" />
+            </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="41UdyNB_Bgu" role="3cqZAp">
-          <node concept="10Nm6u" id="41UdyNB_Bgt" role="3clFbG" />
         </node>
       </node>
     </node>
@@ -16904,7 +16903,9 @@
                   <ref role="37wK5l" node="6go2MrsBkZd" resolve="getBrowserWidht" />
                 </node>
               </node>
-              <node concept="3clFbT" id="HsWD0nmlvA" role="37wK5m" />
+              <node concept="37vLTw" id="2lJF67HDRI6" role="37wK5m">
+                <ref role="3cqZAo" node="HsWD0njXf7" resolve="fullScreen" />
+              </node>
               <node concept="37vLTw" id="HsWD0nl4Vn" role="37wK5m">
                 <ref role="3cqZAo" node="HsWD0njXf5" resolve="windowTitle" />
               </node>
@@ -17289,6 +17290,235 @@
     </node>
     <node concept="3uibUv" id="HsWD0nlMoG" role="EKbjA">
       <ref role="3uigEE" to="quhv:5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
+    </node>
+  </node>
+  <node concept="312cEu" id="HsWD0ns$7A">
+    <property role="TrG5h" value="VTabForm" />
+    <node concept="2tJIrI" id="HsWD0ns_wk" role="jymVt" />
+    <node concept="2tJIrI" id="HsWD0nuuvi" role="jymVt" />
+    <node concept="3clFbW" id="HsWD0nuuIc" role="jymVt">
+      <node concept="3cqZAl" id="HsWD0nuuIe" role="3clF45" />
+      <node concept="3Tm1VV" id="HsWD0nuuIf" role="1B3o_S" />
+      <node concept="3clFbS" id="HsWD0nuuIg" role="3clF47">
+        <node concept="XkiVB" id="HsWD0nuZ9k" role="3cqZAp">
+          <ref role="37wK5l" to="o2tm:~TabSheet.&lt;init&gt;()" resolve="TabSheet" />
+        </node>
+        <node concept="3clFbF" id="HsWD0nvxqB" role="3cqZAp">
+          <node concept="2OqwBi" id="HsWD0nvxvZ" role="3clFbG">
+            <node concept="Xjq3P" id="HsWD0nvxq_" role="2Oq$k0" />
+            <node concept="liA8E" id="HsWD0nvyya" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="HsWD0ns_wm" role="jymVt" />
+    <node concept="3clFb_" id="HsWD0ns_wv" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="addTab" />
+      <node concept="37vLTG" id="HsWD0ns_ww" role="3clF46">
+        <property role="TrG5h" value="form" />
+        <node concept="3uibUv" id="HsWD0ns_wx" role="1tU5fm">
+          <ref role="3uigEE" to="quhv:3VIcZtBcFQd" resolve="IToolkit_Form" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="HsWD0ns_wy" role="3clF46">
+        <property role="TrG5h" value="label" />
+        <node concept="17QB3L" id="HsWD0ns_wz" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="HsWD0ns_w$" role="3clF45" />
+      <node concept="3Tm1VV" id="HsWD0ns_w_" role="1B3o_S" />
+      <node concept="3clFbS" id="HsWD0ns_wB" role="3clF47">
+        <node concept="3cpWs8" id="HsWD0nu$SY" role="3cqZAp">
+          <node concept="3cpWsn" id="HsWD0nu$T1" role="3cpWs9">
+            <property role="TrG5h" value="tab" />
+            <node concept="3uibUv" id="HsWD0nu$Xd" role="1tU5fm">
+              <ref role="3uigEE" to="o2tm:~TabSheet$Tab" resolve="TabSheet.Tab" />
+            </node>
+            <node concept="2OqwBi" id="HsWD0nuwQP" role="33vP2m">
+              <node concept="Xjq3P" id="HsWD0nuBvs" role="2Oq$k0" />
+              <node concept="liA8E" id="HsWD0nux_C" role="2OqNvi">
+                <ref role="37wK5l" to="o2tm:~TabSheet.addTab(com.vaadin.ui.Component,java.lang.String):com.vaadin.ui.TabSheet$Tab" resolve="addTab" />
+                <node concept="1eOMI4" id="HsWD0nu$0b" role="37wK5m">
+                  <node concept="10QFUN" id="HsWD0nu$08" role="1eOMHV">
+                    <node concept="3uibUv" id="HsWD0nu$c3" role="10QFUM">
+                      <ref role="3uigEE" to="o2tm:~Component" resolve="Component" />
+                    </node>
+                    <node concept="37vLTw" id="HsWD0nu$0d" role="10QFUP">
+                      <ref role="3cqZAo" node="HsWD0ns_ww" resolve="form" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="HsWD0nu$kP" role="37wK5m">
+                  <ref role="3cqZAo" node="HsWD0ns_wy" resolve="label" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="HsWD0nu_yG" role="3cqZAp">
+          <node concept="2OqwBi" id="HsWD0nu_$S" role="3clFbG">
+            <node concept="37vLTw" id="HsWD0nu_yE" role="2Oq$k0">
+              <ref role="3cqZAo" node="HsWD0nu$T1" resolve="tab" />
+            </node>
+            <node concept="liA8E" id="HsWD0nu_Df" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~TabSheet$Tab.setClosable(boolean):void" resolve="setClosable" />
+              <node concept="3clFbT" id="HsWD0nu_Fe" role="37wK5m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="HsWD0ns_wC" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getToolkitImplementation" />
+      <node concept="3uibUv" id="HsWD0ns_wD" role="3clF45">
+        <ref role="3uigEE" to="quhv:3VIcZtBc7at" resolve="IToolkit_TabForm" />
+        <node concept="16syzq" id="HsWD0nur9_" role="11_B2D">
+          <ref role="16sUi3" node="HsWD0nuqOY" resolve="T" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="HsWD0ns_wF" role="1B3o_S" />
+      <node concept="3clFbS" id="HsWD0ns_wI" role="3clF47">
+        <node concept="3clFbF" id="HsWD0nury$" role="3cqZAp">
+          <node concept="Xjq3P" id="HsWD0nuryz" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="HsWD0ns_wL" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="selectionChanged" />
+      <node concept="37vLTG" id="HsWD0ns_wM" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="HsWD0ns_wN" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
+      <node concept="10P_77" id="HsWD0ns_wO" role="3clF45" />
+      <node concept="3Tm1VV" id="HsWD0ns_wP" role="1B3o_S" />
+      <node concept="3clFbS" id="HsWD0ns_wU" role="3clF47">
+        <node concept="3clFbF" id="HsWD0ns_wW" role="3cqZAp">
+          <node concept="3clFbT" id="HsWD0ns_wV" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="HsWD0ns_wX" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="loadList" />
+      <node concept="37vLTG" id="HsWD0ns_wY" role="3clF46">
+        <property role="TrG5h" value="objects" />
+        <node concept="3uibUv" id="HsWD0ns_Tr" role="1tU5fm">
+          <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+          <node concept="16syzq" id="HsWD0nurjF" role="11_B2D">
+            <ref role="16sUi3" node="HsWD0nuqOY" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="HsWD0ns_x1" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="HsWD0ns_x2" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="HsWD0ns_x3" role="3clF45" />
+      <node concept="3Tm1VV" id="HsWD0ns_x4" role="1B3o_S" />
+      <node concept="3clFbS" id="HsWD0ns_xa" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="HsWD0ns_xb" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="gcClear" />
+      <node concept="3cqZAl" id="HsWD0ns_xc" role="3clF45" />
+      <node concept="3Tm1VV" id="HsWD0ns_xd" role="1B3o_S" />
+      <node concept="3clFbS" id="HsWD0ns_xi" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="HsWD0ns_xj" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setTitleText" />
+      <node concept="3cqZAl" id="HsWD0ns_xk" role="3clF45" />
+      <node concept="3Tm1VV" id="HsWD0ns_xl" role="1B3o_S" />
+      <node concept="37vLTG" id="HsWD0ns_xn" role="3clF46">
+        <property role="TrG5h" value="text" />
+        <node concept="17QB3L" id="HsWD0ns_xo" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="HsWD0ns_xs" role="3clF47">
+        <node concept="YS8fn" id="75iQIE9laOX" role="3cqZAp">
+          <node concept="2ShNRf" id="75iQIE9laU4" role="YScLw">
+            <node concept="1pGfFk" id="75iQIE9lgP_" role="2ShVmc">
+              <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="75iQIE9lgWa" role="37wK5m">
+                <property role="Xl_RC" value="not implemented for VTabForm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="HsWD0ns_xt" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setFlagText" />
+      <node concept="37vLTG" id="HsWD0ns_xu" role="3clF46">
+        <property role="TrG5h" value="text" />
+        <node concept="17QB3L" id="HsWD0ns_xv" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="HsWD0ns_xw" role="3clF45" />
+      <node concept="3Tm1VV" id="HsWD0ns_xx" role="1B3o_S" />
+      <node concept="3clFbS" id="HsWD0ns_xA" role="3clF47">
+        <node concept="YS8fn" id="HsWD0nuoY4" role="3cqZAp">
+          <node concept="2ShNRf" id="HsWD0nuoY5" role="YScLw">
+            <node concept="1pGfFk" id="HsWD0nuoY6" role="2ShVmc">
+              <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="HsWD0nuoY7" role="37wK5m">
+                <property role="Xl_RC" value="not implemented for VTabForm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="HsWD0ns_xB" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="myRequestFocus" />
+      <node concept="10P_77" id="HsWD0ns_xC" role="3clF45" />
+      <node concept="3Tm1VV" id="HsWD0ns_xD" role="1B3o_S" />
+      <node concept="3clFbS" id="HsWD0ns_xI" role="3clF47">
+        <node concept="3SKdUt" id="HsWD0nuqO$" role="3cqZAp">
+          <node concept="3SKdUq" id="HsWD0nuqOM" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: focus controller missing" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="HsWD0ns_xK" role="3cqZAp">
+          <node concept="3clFbT" id="HsWD0ns_xJ" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="HsWD0ns_xL" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="afterFullUiInitialized" />
+      <node concept="3cqZAl" id="HsWD0ns_xM" role="3clF45" />
+      <node concept="3Tm1VV" id="HsWD0ns_xN" role="1B3o_S" />
+      <node concept="3clFbS" id="HsWD0ns_xS" role="3clF47">
+        <node concept="3SKdUt" id="HsWD0nuqNa" role="3cqZAp">
+          <node concept="3SKdUq" id="HsWD0nuqNc" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: Focus Controller missing" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="HsWD0ns$7B" role="1B3o_S" />
+    <node concept="3uibUv" id="HsWD0ns_u_" role="EKbjA">
+      <ref role="3uigEE" to="quhv:3VIcZtBc7at" resolve="IToolkit_TabForm" />
+      <node concept="16syzq" id="HsWD0nuqZa" role="11_B2D">
+        <ref role="16sUi3" node="HsWD0nuqOY" resolve="T" />
+      </node>
+    </node>
+    <node concept="16euLQ" id="HsWD0nuqOY" role="16eVyc">
+      <property role="TrG5h" value="T" />
+    </node>
+    <node concept="3uibUv" id="HsWD0nuAbv" role="1zkMxy">
+      <ref role="3uigEE" to="o2tm:~TabSheet" resolve="TabSheet" />
     </node>
   </node>
 </model>

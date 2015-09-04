@@ -1208,9 +1208,15 @@
       <node concept="3F0ifn" id="4RxyAPtdOlb" role="3EZMnx">
         <property role="3F0ifm" value="type:" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+        <node concept="3nxI2P" id="HsWD0nt5U1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="4RxyAPtdOld" role="3EZMnx">
         <ref role="1NtTu8" to="sgb:4RxyAPtdOl9" resolve="type" />
+        <node concept="3nxI2P" id="HsWD0nt5Vj" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="714k_BsThQE" role="2iSdaV" />
       <node concept="3F2HdR" id="714k_BsTE5i" role="3EZMnx">

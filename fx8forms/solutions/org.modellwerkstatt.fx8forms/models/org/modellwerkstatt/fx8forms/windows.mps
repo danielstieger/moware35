@@ -14595,7 +14595,6 @@
   </node>
   <node concept="312cEu" id="1e8699aCJb7">
     <property role="TrG5h" value="FX8TableForm" />
-    <node concept="3Tm1VV" id="1e8699aCJea" role="1B3o_S" />
     <node concept="3uibUv" id="1e8699aCJoz" role="1zkMxy">
       <ref role="3uigEE" to="4i1a:~BorderPane" resolve="BorderPane" />
     </node>
