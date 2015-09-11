@@ -4946,7 +4946,7 @@
         <ref role="1Pybhc" to="vt2g:~DateTimeFormat" resolve="DateTimeFormat" />
         <ref role="37wK5l" to="vt2g:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
         <node concept="Xl_RD" id="1MuBDjlMeNu" role="37wK5m">
-          <property role="Xl_RC" value="yyyy'-'MM'-'dd'T'hh':'mm':'ss" />
+          <property role="Xl_RC" value="yyyy'-'MM'-'dd'T'HH':'mm':'ss" />
         </node>
       </node>
     </node>
