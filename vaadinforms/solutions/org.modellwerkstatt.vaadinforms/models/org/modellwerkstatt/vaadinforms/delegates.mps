@@ -315,7 +315,7 @@
         <node concept="3clFbH" id="5GiT4fwKc9c" role="3cqZAp" />
         <node concept="3SKdUt" id="xFWXJS7bIB" role="3cqZAp">
           <node concept="3SKdUq" id="xFWXJS7bYB" role="3SKWNk">
-            <property role="3SKdUp" value="replace Euro " />
+            <property role="3SKdUp" value=" - replace Euro " />
           </node>
         </node>
         <node concept="3clFbF" id="5tLhDsehjGY" role="3cqZAp">
@@ -740,7 +740,7 @@
             </node>
             <node concept="3SKdUt" id="xFWXJS7Olb" role="3cqZAp">
               <node concept="3SKdUq" id="xFWXJS7Ov_" role="3SKWNk">
-                <property role="3SKdUp" value="textField.setValidationVisible(false)" />
+                <property role="3SKdUp" value=" - textField.setValidationVisible(false)" />
               </node>
             </node>
           </node>
@@ -800,7 +800,7 @@
               </node>
               <node concept="3SKdUt" id="xFWXJS7OBs" role="3cqZAp">
                 <node concept="3SKdUq" id="xFWXJS7OBt" role="3SKWNk">
-                  <property role="3SKdUp" value="textField.setValidationVisible(ture)" />
+                  <property role="3SKdUp" value=" - textField.setValidationVisible(ture)" />
                 </node>
               </node>
             </node>
@@ -978,18 +978,18 @@
       <node concept="3clFbS" id="2agx4jTP$$3" role="3clF47">
         <node concept="3SKdUt" id="5GiT4fwKsz8" role="3cqZAp">
           <node concept="3SKdUq" id="5GiT4fwKt5R" role="3SKWNk">
-            <property role="3SKdUp" value="different to common implementation in other frontends " />
+            <property role="3SKdUp" value=" - different to common implementation in other frontends " />
           </node>
         </node>
         <node concept="3SKdUt" id="5GiT4fwKtUx" role="3cqZAp">
           <node concept="3SKdUq" id="5GiT4fwKut8" role="3SKWNk">
-            <property role="3SKdUp" value="since vaadin employs a lazy notification system on text changes .. " />
+            <property role="3SKdUp" value=" - since vaadin employs a lazy notification system on text changes .. " />
           </node>
         </node>
         <node concept="3clFbH" id="5GiT4fwKuIF" role="3cqZAp" />
         <node concept="3SKdUt" id="5GiT4fwK_JA" role="3cqZAp">
           <node concept="3SKdUq" id="5GiT4fwK_P6" role="3SKWNk">
-            <property role="3SKdUp" value="check text .. and adjust .. " />
+            <property role="3SKdUp" value=" - check text .. and adjust .. " />
           </node>
         </node>
         <node concept="3clFbJ" id="5GiT4fwKzEH" role="3cqZAp">
@@ -1019,7 +1019,7 @@
               <node concept="3clFbS" id="qt7uMLanSg" role="3clFbx">
                 <node concept="3SKdUt" id="qt7uMLaorq" role="3cqZAp">
                   <node concept="3SKdUq" id="qt7uMLaort" role="3SKWNk">
-                    <property role="3SKdUp" value="insert 0 ... " />
+                    <property role="3SKdUp" value=" - insert 0 ... " />
                   </node>
                 </node>
                 <node concept="3clFbF" id="qt7uMLaosp" role="3cqZAp">
@@ -1239,7 +1239,7 @@
             <node concept="3clFbS" id="qt7uMLb9DB" role="3eOfB_">
               <node concept="3SKdUt" id="qt7uMLbbxy" role="3cqZAp">
                 <node concept="3SKdUq" id="qt7uMLbbGZ" role="3SKWNk">
-                  <property role="3SKdUp" value="even we have errors ... cut it" />
+                  <property role="3SKdUp" value=" - even we have errors ... cut it" />
                 </node>
               </node>
               <node concept="3clFbF" id="qt7uMLbasy" role="3cqZAp">
@@ -1281,25 +1281,25 @@
         </node>
         <node concept="3SKdUt" id="5GiT4fwKxfm" role="3cqZAp">
           <node concept="3SKdUq" id="5GiT4fwKxgj" role="3SKWNk">
-            <property role="3SKdUp" value="text has to start with two digits " />
+            <property role="3SKdUp" value=" - text has to start with two digits " />
           </node>
         </node>
         <node concept="3clFbH" id="5GiT4fwKxgF" role="3cqZAp" />
         <node concept="3SKdUt" id="5GiT4fwKxjD" role="3cqZAp">
           <node concept="3SKdUq" id="5GiT4fwKxkE" role="3SKWNk">
-            <property role="3SKdUp" value="then a dot has to follow, if one is missing, add it " />
+            <property role="3SKdUp" value=" - then a dot has to follow, if one is missing, add it " />
           </node>
         </node>
         <node concept="3SKdUt" id="5GiT4fwKxoc" role="3cqZAp">
           <node concept="3SKdUq" id="5GiT4fwKxph" role="3SKWNk">
-            <property role="3SKdUp" value="adjust caret?" />
+            <property role="3SKdUp" value=" - adjust caret?" />
           </node>
         </node>
         <node concept="3clFbH" id="5GiT4fwKxl2" role="3cqZAp" />
         <node concept="3clFbH" id="5GiT4fwKxcP" role="3cqZAp" />
         <node concept="3SKdUt" id="5GiT4fwKA07" role="3cqZAp">
           <node concept="3SKdUq" id="5GiT4fwKA53" role="3SKWNk">
-            <property role="3SKdUp" value="should surely be available, te delegate ?" />
+            <property role="3SKdUp" value=" - should surely be available, te delegate ?" />
           </node>
         </node>
         <node concept="3clFbJ" id="3sEA$PIAXmH" role="3cqZAp">
@@ -1843,12 +1843,12 @@
         <node concept="3clFbH" id="6KBCmIOJCNa" role="3cqZAp" />
         <node concept="3SKdUt" id="6KBCmIOJIrv" role="3cqZAp">
           <node concept="3SKdUq" id="6KBCmIOJIHK" role="3SKWNk">
-            <property role="3SKdUp" value="No listener for keyPressEventes .. " />
+            <property role="3SKdUp" value=" - No listener for keyPressEventes .. " />
           </node>
         </node>
         <node concept="3SKdUt" id="6KBCmIOJJaT" role="3cqZAp">
           <node concept="3SKdUq" id="6KBCmIOJJtb" role="3SKWNk">
-            <property role="3SKdUp" value="no longer supported." />
+            <property role="3SKdUp" value=" - no longer supported." />
           </node>
         </node>
         <node concept="3clFbF" id="6KBCmIOMEjm" role="3cqZAp">
@@ -2087,7 +2087,7 @@
             </node>
             <node concept="3SKdUt" id="6KBCmIOJLlK" role="3cqZAp">
               <node concept="3SKdUq" id="6KBCmIOJLlL" role="3SKWNk">
-                <property role="3SKdUp" value="textField.setValidationVisible(false)" />
+                <property role="3SKdUp" value=" - textField.setValidationVisible(false)" />
               </node>
             </node>
           </node>
@@ -2488,12 +2488,12 @@
         <node concept="3clFbH" id="6KBCmIONF8Q" role="3cqZAp" />
         <node concept="3SKdUt" id="6KBCmIOMpSy" role="3cqZAp">
           <node concept="3SKdUq" id="6KBCmIOMpSz" role="3SKWNk">
-            <property role="3SKdUp" value="No listener for keyPressEventes .. " />
+            <property role="3SKdUp" value=" - No listener for keyPressEventes .. " />
           </node>
         </node>
         <node concept="3SKdUt" id="6KBCmIOMpS$" role="3cqZAp">
           <node concept="3SKdUq" id="6KBCmIOMpS_" role="3SKWNk">
-            <property role="3SKdUp" value="no longer supported." />
+            <property role="3SKdUp" value=" - no longer supported." />
           </node>
         </node>
         <node concept="3clFbF" id="6KBCmIOMD98" role="3cqZAp">
@@ -2714,7 +2714,7 @@
             </node>
             <node concept="3SKdUt" id="6KBCmIOMIVa" role="3cqZAp">
               <node concept="3SKdUq" id="6KBCmIOMIVb" role="3SKWNk">
-                <property role="3SKdUp" value="textField.setValidationVisible(false)" />
+                <property role="3SKdUp" value=" - textField.setValidationVisible(false)" />
               </node>
             </node>
           </node>
@@ -2774,7 +2774,7 @@
               </node>
               <node concept="3SKdUt" id="6KBCmIOMIVz" role="3cqZAp">
                 <node concept="3SKdUq" id="6KBCmIOMIV$" role="3SKWNk">
-                  <property role="3SKdUp" value="textField.setValidationVisible(ture)" />
+                  <property role="3SKdUp" value=" - textField.setValidationVisible(ture)" />
                 </node>
               </node>
             </node>
@@ -3036,7 +3036,7 @@
         <node concept="3clFbH" id="6KBCmIOR_fc" role="3cqZAp" />
         <node concept="3SKdUt" id="6KBCmIORgv6" role="3cqZAp">
           <node concept="3SKdUq" id="6KBCmIORgv7" role="3SKWNk">
-            <property role="3SKdUp" value="replace Euro " />
+            <property role="3SKdUp" value=" - replace Euro " />
           </node>
         </node>
         <node concept="3clFbF" id="6KBCmIORgv8" role="3cqZAp">
@@ -3411,7 +3411,7 @@
             </node>
             <node concept="3SKdUt" id="6KBCmIORgxV" role="3cqZAp">
               <node concept="3SKdUq" id="6KBCmIORgxW" role="3SKWNk">
-                <property role="3SKdUp" value="textField.setValidationVisible(false)" />
+                <property role="3SKdUp" value=" - textField.setValidationVisible(false)" />
               </node>
             </node>
           </node>
@@ -3471,7 +3471,7 @@
               </node>
               <node concept="3SKdUt" id="6KBCmIORgyk" role="3cqZAp">
                 <node concept="3SKdUq" id="6KBCmIORgyl" role="3SKWNk">
-                  <property role="3SKdUp" value="textField.setValidationVisible(ture)" />
+                  <property role="3SKdUp" value=" - textField.setValidationVisible(ture)" />
                 </node>
               </node>
             </node>

@@ -408,7 +408,7 @@
       <node concept="3clFbS" id="6MOvunDm2Ug" role="3clF47">
         <node concept="3SKdUt" id="vsIEjNtVrU" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNtV$U" role="3SKWNk">
-            <property role="3SKdUp" value="setup user environment" />
+            <property role="3SKdUp" value=" - setup user environment" />
           </node>
         </node>
         <node concept="3cpWs8" id="45e9mS9Bk4a" role="3cqZAp">
@@ -456,7 +456,7 @@
         <node concept="3clFbH" id="45e9mS9BkF2" role="3cqZAp" />
         <node concept="3SKdUt" id="vsIEjNuol7" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNuovL" role="3SKWNk">
-            <property role="3SKdUp" value="setup application controller and UI factory. " />
+            <property role="3SKdUp" value=" - setup application controller and UI factory. " />
           </node>
         </node>
         <node concept="3clFbF" id="45e9mS9_gqG" role="3cqZAp">
@@ -520,7 +520,7 @@
         <node concept="3clFbH" id="vsIEjNtV3D" role="3cqZAp" />
         <node concept="3SKdUt" id="vsIEjNuxoG" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNuxI7" role="3SKWNk">
-            <property role="3SKdUp" value="setup vaadin window .." />
+            <property role="3SKdUp" value=" - setup vaadin window .." />
           </node>
         </node>
         <node concept="3clFbF" id="41UdyNBAps0" role="3cqZAp">
@@ -650,7 +650,7 @@
         <node concept="3clFbH" id="vsIEjNuxZo" role="3cqZAp" />
         <node concept="3SKdUt" id="vsIEjNuGND" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNuGZZ" role="3SKWNk">
-            <property role="3SKdUp" value="let it run." />
+            <property role="3SKdUp" value=" - let it run." />
           </node>
         </node>
         <node concept="3clFbF" id="vsIEjNuzQu" role="3cqZAp">
@@ -667,7 +667,7 @@
         </node>
         <node concept="3SKdUt" id="vsIEjNWdTN" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNWe8z" role="3SKWNk">
-            <property role="3SKdUp" value="userenv could be changed on a per user level.. " />
+            <property role="3SKdUp" value=" - userenv could be changed on a per user level.. " />
           </node>
         </node>
         <node concept="3clFbF" id="vsIEjNVVGo" role="3cqZAp">
@@ -707,7 +707,7 @@
         <node concept="3clFbH" id="5tLhDseyw$V" role="3cqZAp" />
         <node concept="3SKdUt" id="6KBCmIOSvPz" role="3cqZAp">
           <node concept="3SKdUq" id="6KBCmIOSw6o" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: external expection etc. ? strange FX8Stuff?" />
+            <property role="3SKdUp" value=" - TODO: external expection etc. ? strange FX8Stuff?" />
           </node>
         </node>
         <node concept="3SKdUt" id="5tLhDse$q4M" role="3cqZAp">
@@ -790,12 +790,12 @@
         </node>
         <node concept="3SKdUt" id="vsIEjNqkTQ" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNqkVt" role="3SKWNk">
-            <property role="3SKdUp" value="User Interface is detached from session" />
+            <property role="3SKdUp" value=" - User Interface is detached from session" />
           </node>
         </node>
         <node concept="3SKdUt" id="vsIEjNql_Q" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNqlBv" role="3SKWNk">
-            <property role="3SKdUp" value="when 3 consecutive heartbeats are missed. #" />
+            <property role="3SKdUp" value=" - when 3 consecutive heartbeats are missed. #" />
           </node>
         </node>
         <node concept="3clFbF" id="vsIEjNqojL" role="3cqZAp">
@@ -957,7 +957,7 @@
         <node concept="3clFbH" id="6go2MrsCuEE" role="3cqZAp" />
         <node concept="3SKdUt" id="HsWD0nh$Lz" role="3cqZAp">
           <node concept="3SKdUq" id="HsWD0nh_4v" role="3SKWNk">
-            <property role="3SKdUp" value="just to be sure we are visible!!" />
+            <property role="3SKdUp" value=" - just to be sure we are visible!!" />
           </node>
         </node>
         <node concept="3clFbJ" id="HsWD0nhx6Q" role="3cqZAp">
@@ -1131,7 +1131,7 @@
       <node concept="3clFbS" id="vsIEjNt$_u" role="3clF47">
         <node concept="3SKdUt" id="41UdyNB$nX$" role="3cqZAp">
           <node concept="3SKdUq" id="41UdyNB$oqt" role="3SKWNk">
-            <property role="3SKdUp" value="set current Page title" />
+            <property role="3SKdUp" value=" - set current Page title" />
           </node>
         </node>
         <node concept="3clFbF" id="41UdyNB$lNZ" role="3cqZAp">
@@ -1517,7 +1517,7 @@
           <node concept="3clFbS" id="5XHFlROHSJK" role="3clFbx">
             <node concept="3SKdUt" id="5XHFlROHTx3" role="3cqZAp">
               <node concept="3SKdUq" id="5XHFlROHTx6" role="3SKWNk">
-                <property role="3SKdUp" value="tab is open .... " />
+                <property role="3SKdUp" value=" - tab is open .... " />
               </node>
             </node>
             <node concept="3clFbF" id="1kxCqBRdwvT" role="3cqZAp">
@@ -1545,7 +1545,7 @@
             </node>
             <node concept="3SKdUt" id="2U6PE9krLhB" role="3cqZAp">
               <node concept="3SKdUq" id="2U6PE9krLqm" role="3SKWNk">
-                <property role="3SKdUp" value="if there are some tabs left, select the one before .. " />
+                <property role="3SKdUp" value=" - if there are some tabs left, select the one before .. " />
               </node>
             </node>
             <node concept="3cpWs8" id="2U6PE9krMH_" role="3cqZAp">
@@ -1571,7 +1571,7 @@
               <node concept="3clFbS" id="2U6PE9krPVj" role="3clFbx">
                 <node concept="3SKdUt" id="2U6PE9krR7G" role="3cqZAp">
                   <node concept="3SKdUq" id="2U6PE9krR7I" role="3SKWNk">
-                    <property role="3SKdUp" value="there is some other tab to mark .. " />
+                    <property role="3SKdUp" value=" - there is some other tab to mark .. " />
                   </node>
                 </node>
                 <node concept="3clFbF" id="2U6PE9krR83" role="3cqZAp">
@@ -1668,7 +1668,7 @@
         </node>
         <node concept="3SKdUt" id="5XHFlROHUn8" role="3cqZAp">
           <node concept="3SKdUq" id="5XHFlROHUu7" role="3SKWNk">
-            <property role="3SKdUp" value="Todo: Call GC Clear on VCmdUiTab" />
+            <property role="3SKdUp" value=" - Todo: Call GC Clear on VCmdUiTab" />
           </node>
         </node>
         <node concept="3clFbH" id="5XHFlROHUxe" role="3cqZAp" />
@@ -1868,7 +1868,7 @@
         <node concept="3clFbH" id="4QTIUTBQpgj" role="3cqZAp" />
         <node concept="3SKdUt" id="4QTIUTBQpKO" role="3cqZAp">
           <node concept="3SKdUq" id="4QTIUTBQpLi" role="3SKWNk">
-            <property role="3SKdUp" value="init moware here ... " />
+            <property role="3SKdUp" value=" - init moware here ... " />
           </node>
         </node>
         <node concept="3clFbF" id="6QRLe84jIQ4" role="3cqZAp">
@@ -1892,7 +1892,7 @@
         <node concept="3clFbH" id="6QRLe84jIId" role="3cqZAp" />
         <node concept="3SKdUt" id="5HhpRjTulSb" role="3cqZAp">
           <node concept="3SKdUq" id="5HhpRjTulSz" role="3SKWNk">
-            <property role="3SKdUp" value="main app behavior class will be given via servlet confg" />
+            <property role="3SKdUp" value=" - main app behavior class will be given via servlet confg" />
           </node>
         </node>
         <node concept="3clFbF" id="5HhpRjTupdf" role="3cqZAp">
@@ -1924,14 +1924,14 @@
         <node concept="3clFbH" id="5HhpRjTulUB" role="3cqZAp" />
         <node concept="3SKdUt" id="3ODNmtc2hSK" role="3cqZAp">
           <node concept="3SKdUq" id="3ODNmtc2hXK" role="3SKWNk">
-            <property role="3SKdUp" value="calculate jmx names . " />
+            <property role="3SKdUp" value=" - calculate jmx names . " />
           </node>
         </node>
         <node concept="3clFbJ" id="3ODNmtc0XV2" role="3cqZAp">
           <node concept="3clFbS" id="3ODNmtc0XV5" role="3clFbx">
             <node concept="3SKdUt" id="4DLu_4go0gN" role="3cqZAp">
               <node concept="3SKdUq" id="4DLu_4go0jB" role="3SKWNk">
-                <property role="3SKdUp" value="use servletPath insted of app name" />
+                <property role="3SKdUp" value=" - use servletPath insted of app name" />
               </node>
             </node>
             <node concept="3clFbF" id="3ODNmtc10FH" role="3cqZAp">
@@ -2060,7 +2060,7 @@
         <node concept="3clFbH" id="3ODNmtc2i20" role="3cqZAp" />
         <node concept="3SKdUt" id="5HhpRjTuqnm" role="3cqZAp">
           <node concept="3SKdUq" id="5HhpRjTuqnB" role="3SKWNk">
-            <property role="3SKdUp" value="okay, wire up everything " />
+            <property role="3SKdUp" value=" - okay, wire up everything " />
           </node>
         </node>
         <node concept="3clFbF" id="5HhpRjTuAWC" role="3cqZAp">
@@ -2296,12 +2296,12 @@
             <node concept="3clFbH" id="4x14MABrqsh" role="3cqZAp" />
             <node concept="3SKdUt" id="HsWD0noDxQ" role="3cqZAp">
               <node concept="3SKdUq" id="HsWD0noFQs" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: Same user already a session? Double Window feature??? " />
+                <property role="3SKdUp" value=" - TODO: Same user already a session? Double Window feature??? " />
               </node>
             </node>
             <node concept="3SKdUt" id="4QTIUTCqbaf" role="3cqZAp">
               <node concept="3SKdUq" id="4QTIUTCqbPz" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: remove hardlog " />
+                <property role="3SKdUp" value=" - TODO: remove hardlog " />
               </node>
             </node>
             <node concept="3clFbF" id="4QTIUTCqdGT" role="3cqZAp">
@@ -2970,7 +2970,7 @@
         <node concept="3clFbH" id="41UdyNBz6M1" role="3cqZAp" />
         <node concept="3SKdUt" id="41UdyNByGun" role="3cqZAp">
           <node concept="3SKdUq" id="41UdyNByGEZ" role="3SKWNk">
-            <property role="3SKdUp" value="menuBar" />
+            <property role="3SKdUp" value=" - menuBar" />
           </node>
         </node>
         <node concept="3clFbF" id="41UdyNByDL0" role="3cqZAp">
@@ -3237,7 +3237,7 @@
         <node concept="3clFbH" id="41UdyNBDnlY" role="3cqZAp" />
         <node concept="3SKdUt" id="41UdyNByFQv" role="3cqZAp">
           <node concept="3SKdUq" id="41UdyNByG35" role="3SKWNk">
-            <property role="3SKdUp" value="content" />
+            <property role="3SKdUp" value=" - content" />
           </node>
         </node>
         <node concept="3cpWs8" id="41UdyNByqGR" role="3cqZAp">
@@ -3511,7 +3511,7 @@
       <node concept="3clFbS" id="vsIEjNuNuO" role="3clF47">
         <node concept="3SKdUt" id="vsIEjNqAtm" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNqAtv" role="3SKWNk">
-            <property role="3SKdUp" value="TODO QUIT test here" />
+            <property role="3SKdUp" value=" - TODO QUIT test here" />
           </node>
         </node>
         <node concept="3clFbF" id="vsIEjNqACv" role="3cqZAp">
@@ -3782,7 +3782,7 @@
               <node concept="3clFbS" id="7D8bwfxisVm" role="3clFbx">
                 <node concept="3SKdUt" id="6go2MrstUC0" role="3cqZAp">
                   <node concept="3SKdUq" id="6go2MrstUJA" role="3SKWNk">
-                    <property role="3SKdUp" value="add clickable item... a bit complex in vaadin .. " />
+                    <property role="3SKdUp" value=" - add clickable item... a bit complex in vaadin .. " />
                   </node>
                 </node>
                 <node concept="3cpWs8" id="6go2Mrsvews" role="3cqZAp">
@@ -3895,7 +3895,7 @@
                 <node concept="3clFbS" id="7D8bwfxiwnE" role="9aQI4">
                   <node concept="3SKdUt" id="16HdUMP0Ogu" role="3cqZAp">
                     <node concept="3SKdUq" id="16HdUMP0Ov4" role="3SKWNk">
-                      <property role="3SKdUp" value="null is a seperator" />
+                      <property role="3SKdUp" value=" - null is a seperator" />
                     </node>
                   </node>
                   <node concept="3clFbJ" id="4lRaCigUMlN" role="3cqZAp">
@@ -3927,7 +3927,7 @@
                       <node concept="3clFbS" id="4lRaCigUMmy" role="9aQI4">
                         <node concept="3SKdUt" id="16HdUMP0OCv" role="3cqZAp">
                           <node concept="3SKdUq" id="16HdUMP0OL_" role="3SKWNk">
-                            <property role="3SKdUp" value="obviously a folder .. " />
+                            <property role="3SKdUp" value=" - obviously a folder .. " />
                           </node>
                         </node>
                         <node concept="3cpWs8" id="6go2MrstW6J" role="3cqZAp">
@@ -4549,7 +4549,7 @@
       <node concept="3clFbS" id="7nDJo_bvnew" role="3clF47">
         <node concept="3SKdUt" id="7nDJo_bvnkZ" role="3cqZAp">
           <node concept="3SKdUq" id="7nDJo_bvnl4" role="3SKWNk">
-            <property role="3SKdUp" value="since we are not working with injection in User-Interface" />
+            <property role="3SKdUp" value=" - since we are not working with injection in User-Interface" />
           </node>
         </node>
         <node concept="3clFbF" id="7nDJo_bvnkE" role="3cqZAp">
@@ -5498,7 +5498,7 @@
             </node>
             <node concept="3SKdUt" id="67JYOu0gW7D" role="3cqZAp">
               <node concept="3SKdUq" id="67JYOu0gWC7" role="3SKWNk">
-                <property role="3SKdUp" value="some other hotkey ??" />
+                <property role="3SKdUp" value=" - some other hotkey ??" />
               </node>
             </node>
             <node concept="3clFbJ" id="7Zets5dbYgQ" role="3cqZAp">
@@ -5602,12 +5602,12 @@
       <node concept="3clFbS" id="67JYOtZ$YvC" role="3clF47">
         <node concept="3SKdUt" id="67JYOtZ$YvD" role="3cqZAp">
           <node concept="3SKdUq" id="67JYOtZ$YvE" role="3SKWNk">
-            <property role="3SKdUp" value="Definition - Yes. No Hotkey stands for " />
+            <property role="3SKdUp" value=" - Definition - Yes. No Hotkey stands for " />
           </node>
         </node>
         <node concept="3SKdUt" id="67JYOtZ$YvF" role="3cqZAp">
           <node concept="3SKdUq" id="67JYOtZ$YvG" role="3SKWNk">
-            <property role="3SKdUp" value="null" />
+            <property role="3SKdUp" value=" - null" />
           </node>
         </node>
         <node concept="3clFbJ" id="67JYOtZ$YvH" role="3cqZAp">
@@ -6266,7 +6266,7 @@
         <node concept="3clFbH" id="45e9mS9v9kt" role="3cqZAp" />
         <node concept="3SKdUt" id="45e9mS9v9ku" role="3cqZAp">
           <node concept="3SKdUq" id="45e9mS9v9kv" role="3SKWNk">
-            <property role="3SKdUp" value="configure content and open window" />
+            <property role="3SKdUp" value=" - configure content and open window" />
           </node>
         </node>
         <node concept="3clFbF" id="45e9mS9zO7B" role="3cqZAp">
@@ -6326,7 +6326,7 @@
         <node concept="3clFbH" id="45e9mS9v9kN" role="3cqZAp" />
         <node concept="3SKdUt" id="45e9mS9voQD" role="3cqZAp">
           <node concept="3SKdUq" id="45e9mS9vpqG" role="3SKWNk">
-            <property role="3SKdUp" value="still ESC and F12 should work." />
+            <property role="3SKdUp" value=" - still ESC and F12 should work." />
           </node>
         </node>
         <node concept="3clFbF" id="45e9mS9v9kO" role="3cqZAp">
@@ -6518,7 +6518,7 @@
         <node concept="3clFbH" id="45e9mS9wXZW" role="3cqZAp" />
         <node concept="3SKdUt" id="45e9mS9vuko" role="3cqZAp">
           <node concept="3SKdUq" id="45e9mS9vukp" role="3SKWNk">
-            <property role="3SKdUp" value="configure content and open window" />
+            <property role="3SKdUp" value=" - configure content and open window" />
           </node>
         </node>
         <node concept="3cpWs8" id="45e9mS9wnqc" role="3cqZAp">
@@ -6605,7 +6605,7 @@
         <node concept="3clFbH" id="45e9mS9vukH" role="3cqZAp" />
         <node concept="3SKdUt" id="45e9mS9vukI" role="3cqZAp">
           <node concept="3SKdUq" id="45e9mS9vukJ" role="3SKWNk">
-            <property role="3SKdUp" value="still ESC and F12 should work." />
+            <property role="3SKdUp" value=" - still ESC and F12 should work." />
           </node>
         </node>
         <node concept="3clFbF" id="45e9mS9vukK" role="3cqZAp">
@@ -6669,7 +6669,7 @@
         <node concept="3clFbH" id="2wSq35xVBYJ" role="3cqZAp" />
         <node concept="3SKdUt" id="2wSq35xFBav" role="3cqZAp">
           <node concept="3SKdUq" id="2wSq35xFBax" role="3SKWNk">
-            <property role="3SKdUp" value="configure buttons" />
+            <property role="3SKdUp" value=" - configure buttons" />
           </node>
         </node>
         <node concept="3clFbF" id="2wSq35xVHN$" role="3cqZAp">
@@ -6922,7 +6922,7 @@
         <node concept="3clFbH" id="2wSq35xFU0a" role="3cqZAp" />
         <node concept="3SKdUt" id="2wSq35xFBij" role="3cqZAp">
           <node concept="3SKdUq" id="2wSq35xFBiq" role="3SKWNk">
-            <property role="3SKdUp" value="configure content and open window" />
+            <property role="3SKdUp" value=" - configure content and open window" />
           </node>
         </node>
         <node concept="3clFbF" id="45e9mS9zSZ7" role="3cqZAp">
@@ -7013,7 +7013,7 @@
         <node concept="3clFbH" id="2wSq35xU8VT" role="3cqZAp" />
         <node concept="3SKdUt" id="2wSq35xU8ti" role="3cqZAp">
           <node concept="3SKdUq" id="2wSq35xU8M7" role="3SKWNk">
-            <property role="3SKdUp" value="open window from caller .. " />
+            <property role="3SKdUp" value=" - open window from caller .. " />
           </node>
         </node>
         <node concept="3cpWs6" id="2wSq35xG0iM" role="3cqZAp">
@@ -8231,7 +8231,7 @@
       <node concept="3clFbS" id="6go2Mrsw3YD" role="3clF47">
         <node concept="3SKdUt" id="HsWD0niGU7" role="3cqZAp">
           <node concept="3SKdUq" id="HsWD0niH0B" role="3SKWNk">
-            <property role="3SKdUp" value="User Interface bleibt hängen?" />
+            <property role="3SKdUp" value=" - User Interface bleibt hängen?" />
           </node>
         </node>
         <node concept="3clFbH" id="HsWD0niH2h" role="3cqZAp" />
@@ -8299,12 +8299,12 @@
         <node concept="3clFbH" id="69LCikAcSjr" role="3cqZAp" />
         <node concept="3SKdUt" id="69LCikAcTFn" role="3cqZAp">
           <node concept="3SKdUq" id="69LCikAcTLP" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: also nice, since vaadin comes with a progress indicator? " />
+            <property role="3SKdUp" value=" - TODO: also nice, since vaadin comes with a progress indicator? " />
           </node>
         </node>
         <node concept="3SKdUt" id="69LCikAcTY5" role="3cqZAp">
           <node concept="3SKdUq" id="69LCikAcU4_" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: question is - bad for tomcat ?" />
+            <property role="3SKdUp" value=" - TODO: question is - bad for tomcat ?" />
           </node>
         </node>
         <node concept="3cpWs8" id="69LCikAcSBy" role="3cqZAp">
@@ -8468,7 +8468,7 @@
         <node concept="3clFbH" id="6go2MrswbE1" role="3cqZAp" />
         <node concept="3SKdUt" id="6go2MrswIZy" role="3cqZAp">
           <node concept="3SKdUq" id="6go2MrswJm_" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: cancel Button escape action" />
+            <property role="3SKdUp" value=" - TODO: cancel Button escape action" />
           </node>
         </node>
         <node concept="3clFbF" id="6go2Mrswl7I" role="3cqZAp">
@@ -8929,12 +8929,12 @@
       <node concept="3clFbS" id="6go2Mrsw4Vu" role="3clF47">
         <node concept="3SKdUt" id="5XHFlROFCau" role="3cqZAp">
           <node concept="3SKdUq" id="5XHFlROFCaw" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Use Vaadin Warning Notification s " />
+            <property role="3SKdUp" value=" - TODO: Use Vaadin Warning Notification s " />
           </node>
         </node>
         <node concept="3SKdUt" id="5XHFlROFD6p" role="3cqZAp">
           <node concept="3SKdUq" id="5XHFlROFD6u" role="3SKWNk">
-            <property role="3SKdUp" value="also a very nice showcase .. !!" />
+            <property role="3SKdUp" value=" - also a very nice showcase .. !!" />
           </node>
         </node>
       </node>
@@ -9729,7 +9729,7 @@
       <node concept="3clFbS" id="6go2Mrsw5Of" role="3clF47">
         <node concept="3SKdUt" id="HsWD0nllHk" role="3cqZAp">
           <node concept="3SKdUq" id="HsWD0nllHm" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Notification missing. " />
+            <property role="3SKdUp" value=" - TODO: Notification missing. " />
           </node>
         </node>
       </node>
@@ -9857,7 +9857,7 @@
       <node concept="3clFbS" id="6go2Mrsw5OP" role="3clF47">
         <node concept="3SKdUt" id="6go2MrsxFfS" role="3cqZAp">
           <node concept="3SKdUq" id="6go2MrsxFfU" role="3SKWNk">
-            <property role="3SKdUp" value="TODO ??? " />
+            <property role="3SKdUp" value=" - TODO ??? " />
           </node>
         </node>
       </node>
@@ -10176,12 +10176,12 @@
       <node concept="3clFbS" id="5XHFlRODeoZ" role="3clF47">
         <node concept="3SKdUt" id="5XHFlROFIl7" role="3cqZAp">
           <node concept="3SKdUq" id="5XHFlROFIlG" role="3SKWNk">
-            <property role="3SKdUp" value="will get colConstrains and row Constraints in the form" />
+            <property role="3SKdUp" value=" - will get colConstrains and row Constraints in the form" />
           </node>
         </node>
         <node concept="3SKdUt" id="5XHFlROFI$W" role="3cqZAp">
           <node concept="3SKdUq" id="5XHFlROFI_1" role="3SKWNk">
-            <property role="3SKdUp" value="&quot;1*&quot;, &quot;2*&quot;, &quot;3*&quot; or &quot;-1&quot;, &quot;*1&quot;" />
+            <property role="3SKdUp" value=" - &quot;1*&quot;, &quot;2*&quot;, &quot;3*&quot; or &quot;-1&quot;, &quot;*1&quot;" />
           </node>
         </node>
         <node concept="3clFbF" id="15Q050iuqEX" role="3cqZAp">
@@ -10249,7 +10249,7 @@
         <node concept="3clFbH" id="15Q050iwt3K" role="3cqZAp" />
         <node concept="3SKdUt" id="15Q050izjyd" role="3cqZAp">
           <node concept="3SKdUq" id="15Q050izkbq" role="3SKWNk">
-            <property role="3SKdUp" value="round down integer arithmetic applied .. " />
+            <property role="3SKdUp" value=" - round down integer arithmetic applied .. " />
           </node>
         </node>
         <node concept="3cpWs8" id="15Q050ivNay" role="3cqZAp">
@@ -10420,7 +10420,7 @@
         <node concept="3clFbH" id="15Q050iwsA8" role="3cqZAp" />
         <node concept="3SKdUt" id="15Q050ivU19" role="3cqZAp">
           <node concept="3SKdUq" id="15Q050ivUnx" role="3SKWNk">
-            <property role="3SKdUp" value="new horizontal layout needed?" />
+            <property role="3SKdUp" value=" - new horizontal layout needed?" />
           </node>
         </node>
         <node concept="3clFbJ" id="15Q050ivVcg" role="3cqZAp">
@@ -10498,7 +10498,7 @@
               <node concept="3clFbS" id="15Q050iuKoX" role="3clFbx">
                 <node concept="3SKdUt" id="15Q050iwstI" role="3cqZAp">
                   <node concept="3SKdUq" id="15Q050iws_I" role="3SKWNk">
-                    <property role="3SKdUp" value="TODO: this might not be correct, use setSizeUndefined() ?" />
+                    <property role="3SKdUp" value=" - TODO: this might not be correct, use setSizeUndefined() ?" />
                   </node>
                 </node>
                 <node concept="3SKdUt" id="xFWXJS5frU" role="3cqZAp">
@@ -10685,7 +10685,7 @@
             <node concept="3clFbS" id="15Q050iwxGi" role="3eOfB_">
               <node concept="3SKdUt" id="15Q050iw_Bq" role="3cqZAp">
                 <node concept="3SKdUq" id="15Q050iw_Bs" role="3SKWNk">
-                  <property role="3SKdUp" value="we are using horizontalLayouts, but the layout should already exist" />
+                  <property role="3SKdUp" value=" - we are using horizontalLayouts, but the layout should already exist" />
                 </node>
               </node>
               <node concept="3clFbF" id="15Q050iwA47" role="3cqZAp">
@@ -10723,7 +10723,7 @@
             <node concept="3clFbS" id="15Q050iwDwz" role="9aQI4">
               <node concept="3SKdUt" id="15Q050iwEav" role="3cqZAp">
                 <node concept="3SKdUq" id="15Q050iwEax" role="3SKWNk">
-                  <property role="3SKdUp" value="we are not using horizontalLayouts at all" />
+                  <property role="3SKdUp" value=" - we are not using horizontalLayouts at all" />
                 </node>
               </node>
               <node concept="3clFbH" id="15Q050iwEaz" role="3cqZAp" />
@@ -10734,7 +10734,7 @@
         <node concept="3clFbH" id="15Q050iwFWU" role="3cqZAp" />
         <node concept="3SKdUt" id="15Q050iwHac" role="3cqZAp">
           <node concept="3SKdUq" id="15Q050iwHKH" role="3SKWNk">
-            <property role="3SKdUp" value="add child ... " />
+            <property role="3SKdUp" value=" - add child ... " />
           </node>
         </node>
         <node concept="3clFbF" id="15Q050ixbST" role="3cqZAp">
@@ -10754,7 +10754,7 @@
           <node concept="3clFbS" id="15Q050iwEJn" role="3clFbx">
             <node concept="3SKdUt" id="15Q050iwEJo" role="3cqZAp">
               <node concept="3SKdUq" id="15Q050iwEJp" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: this might not be correct, use setSizeUndefined() ?" />
+                <property role="3SKdUp" value=" - TODO: this might not be correct, use setSizeUndefined() ?" />
               </node>
             </node>
             <node concept="3SKdUt" id="xFWXJS5iuS" role="3cqZAp">
@@ -11061,7 +11061,7 @@
           <node concept="3clFbS" id="75iQIE9q2RS" role="3clFbx">
             <node concept="3SKdUt" id="75iQIE9q2RT" role="3cqZAp">
               <node concept="3SKdUq" id="75iQIE9q2RU" role="3SKWNk">
-                <property role="3SKdUp" value="clear flag action" />
+                <property role="3SKdUp" value=" - clear flag action" />
               </node>
             </node>
             <node concept="3clFbF" id="75iQIE9q2RV" role="3cqZAp">
@@ -11079,7 +11079,7 @@
             </node>
             <node concept="3SKdUt" id="15Q050iBRRz" role="3cqZAp">
               <node concept="3SKdUq" id="15Q050iBRUv" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: set red border" />
+                <property role="3SKdUp" value=" - TODO: set red border" />
               </node>
             </node>
           </node>
@@ -11106,7 +11106,7 @@
             <node concept="3clFbS" id="75iQIE9q2Se" role="9aQI4">
               <node concept="3SKdUt" id="15Q050iBSb3" role="3cqZAp">
                 <node concept="3SKdUq" id="15Q050iBSck" role="3SKWNk">
-                  <property role="3SKdUp" value="TODO: clear red border" />
+                  <property role="3SKdUp" value=" - TODO: clear red border" />
                 </node>
               </node>
               <node concept="3clFbF" id="75iQIE9q2Sk" role="3cqZAp">
@@ -11179,7 +11179,7 @@
       <node concept="3clFbS" id="5XHFlRODepw" role="3clF47">
         <node concept="3SKdUt" id="5XHFlROGtO4" role="3cqZAp">
           <node concept="3SKdUq" id="5XHFlROGtOb" role="3SKWNk">
-            <property role="3SKdUp" value="needs no implementation for VFormContainer" />
+            <property role="3SKdUp" value=" - needs no implementation for VFormContainer" />
           </node>
         </node>
         <node concept="3clFbF" id="5XHFlRODepy" role="3cqZAp">
@@ -11210,7 +11210,7 @@
       <node concept="3clFbS" id="5XHFlRODepK" role="3clF47">
         <node concept="3SKdUt" id="5XHFlROGu3v" role="3cqZAp">
           <node concept="3SKdUq" id="5XHFlROGu3x" role="3SKWNk">
-            <property role="3SKdUp" value="needs not implementation for VFormContainer" />
+            <property role="3SKdUp" value=" - needs not implementation for VFormContainer" />
           </node>
         </node>
       </node>
@@ -11783,7 +11783,7 @@
                     <node concept="3clFbS" id="5tLhDsehmQ_" role="3clF47">
                       <node concept="3SKdUt" id="5tLhDsehnti" role="3cqZAp">
                         <node concept="3SKdUq" id="5tLhDsehntk" role="3SKWNk">
-                          <property role="3SKdUp" value="apply filters to bean container" />
+                          <property role="3SKdUp" value=" - apply filters to bean container" />
                         </node>
                       </node>
                       <node concept="3clFbF" id="5tLhDsemqpe" role="3cqZAp">
@@ -11982,7 +11982,7 @@
                               <node concept="3clFbS" id="1e8699aCJlt" role="9aQI4">
                                 <node concept="3SKdUt" id="7GdPsV3G0Jj" role="3cqZAp">
                                   <node concept="3SKdUq" id="7GdPsV3G0S7" role="3SKWNk">
-                                    <property role="3SKdUp" value="Changed from anonymous to Object - Dan Migration to MPS3.1" />
+                                    <property role="3SKdUp" value=" - Changed from anonymous to Object - Dan Migration to MPS3.1" />
                                   </node>
                                 </node>
                                 <node concept="3clFbF" id="1e8699aCJlu" role="3cqZAp">
@@ -12212,7 +12212,7 @@
                             <node concept="3clFbH" id="6cymb1cJcPc" role="3cqZAp" />
                             <node concept="3SKdUt" id="6cymb1cINZI" role="3cqZAp">
                               <node concept="3SKdUq" id="6cymb1cINZZ" role="3SKWNk">
-                                <property role="3SKdUp" value="select current " />
+                                <property role="3SKdUp" value=" - select current " />
                               </node>
                             </node>
                             <node concept="3clFbF" id="6cymb1cJfv0" role="3cqZAp">
@@ -13014,7 +13014,7 @@
       <node concept="3clFbS" id="5XHFlRODqPd" role="3clF47">
         <node concept="3SKdUt" id="7wrkReH_BpW" role="3cqZAp">
           <node concept="3SKdUq" id="7wrkReH_BDo" role="3SKWNk">
-            <property role="3SKdUp" value="this method is not called in case there is not summary line at all. " />
+            <property role="3SKdUp" value=" - this method is not called in case there is not summary line at all. " />
           </node>
         </node>
         <node concept="3clFbJ" id="7wrkReHyzh3" role="3cqZAp">
@@ -13219,7 +13219,7 @@
           <node concept="3clFbS" id="1e8699aCJtH" role="3clFbx">
             <node concept="3SKdUt" id="1aQdtFgttuS" role="3cqZAp">
               <node concept="3SKdUq" id="1aQdtFgttuT" role="3SKWNk">
-                <property role="3SKdUp" value="selection changed needed?" />
+                <property role="3SKdUp" value=" - selection changed needed?" />
               </node>
             </node>
             <node concept="3cpWs8" id="1aQdtFgtulG" role="3cqZAp">
@@ -13233,17 +13233,17 @@
             </node>
             <node concept="3SKdUt" id="1aQdtFgtPrT" role="3cqZAp">
               <node concept="3SKdUq" id="1aQdtFgtPrU" role="3SKWNk">
-                <property role="3SKdUp" value="-----------------------------------------------------------" />
+                <property role="3SKdUp" value=" - -----------------------------------------------------------" />
               </node>
             </node>
             <node concept="3SKdUt" id="2JhkuvET2eU" role="3cqZAp">
               <node concept="3SKdUq" id="2JhkuvET2eV" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: SelectionChangeNeeded set to true, since we have some problems on " />
+                <property role="3SKdUp" value=" - TODO: SelectionChangeNeeded set to true, since we have some problems on " />
               </node>
             </node>
             <node concept="3SKdUt" id="2JhkuvET2eX" role="3cqZAp">
               <node concept="3SKdUq" id="2JhkuvET2eY" role="3SKWNk">
-                <property role="3SKdUp" value="searchView with Arrow-Keys handling. when forcing selectionChange.. everthings fine. " />
+                <property role="3SKdUp" value=" - searchView with Arrow-Keys handling. when forcing selectionChange.. everthings fine. " />
               </node>
             </node>
             <node concept="3clFbF" id="2JhkuvET1mn" role="3cqZAp">
@@ -13401,7 +13401,7 @@
                         </node>
                         <node concept="3SKdUt" id="1e8699aCJuI" role="3cqZAp">
                           <node concept="3SKdUq" id="1e8699aCJuJ" role="3SKWNk">
-                            <property role="3SKdUp" value="!! return here ... " />
+                            <property role="3SKdUp" value=" - !! return here ... " />
                           </node>
                         </node>
                       </node>
@@ -13442,7 +13442,7 @@
                 <node concept="3clFbH" id="1e8699aCJv2" role="3cqZAp" />
                 <node concept="3SKdUt" id="1e8699aCJv3" role="3cqZAp">
                   <node concept="3SKdUq" id="1e8699aCJv4" role="3SKWNk">
-                    <property role="3SKdUp" value="now check, if the right items are already selected .. " />
+                    <property role="3SKdUp" value=" - now check, if the right items are already selected .. " />
                   </node>
                 </node>
                 <node concept="3clFbF" id="5tLhDseuqDj" role="3cqZAp">
@@ -13708,7 +13708,7 @@
           <node concept="3clFbS" id="5ng$mPCFLDC" role="3clFbx">
             <node concept="3SKdUt" id="5ng$mPCFLDD" role="3cqZAp">
               <node concept="3SKdUq" id="5ng$mPCFLDE" role="3SKWNk">
-                <property role="3SKdUp" value="clear flag action" />
+                <property role="3SKdUp" value=" - clear flag action" />
               </node>
             </node>
             <node concept="3clFbF" id="5ng$mPCFLDF" role="3cqZAp">
@@ -13726,7 +13726,7 @@
             </node>
             <node concept="3SKdUt" id="15Q050iDS3M" role="3cqZAp">
               <node concept="3SKdUq" id="15Q050iDS6I" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: clear Red Border" />
+                <property role="3SKdUp" value=" - TODO: clear Red Border" />
               </node>
             </node>
           </node>
@@ -13753,7 +13753,7 @@
             <node concept="3clFbS" id="5ng$mPCFLDZ" role="9aQI4">
               <node concept="3SKdUt" id="15Q050iDLE6" role="3cqZAp">
                 <node concept="3SKdUq" id="15Q050iDLWw" role="3SKWNk">
-                  <property role="3SKdUp" value="TODO: set Red Border" />
+                  <property role="3SKdUp" value=" - TODO: set Red Border" />
                 </node>
               </node>
               <node concept="3clFbF" id="5ng$mPCFLE6" role="3cqZAp">
@@ -13856,7 +13856,7 @@
         <node concept="3clFbH" id="1qyrOJ9yzMY" role="3cqZAp" />
         <node concept="3SKdUt" id="1qyrOJ9y_ji" role="3cqZAp">
           <node concept="3SKdUq" id="1qyrOJ9yA23" role="3SKWNk">
-            <property role="3SKdUp" value="Dan, new container handling, 14.sep 2015" />
+            <property role="3SKdUp" value=" - Dan, new container handling, 14.sep 2015" />
           </node>
         </node>
         <node concept="3SKdUt" id="18291WBJ5Vr" role="3cqZAp">
@@ -13900,7 +13900,7 @@
         </node>
         <node concept="3SKdUt" id="5tLhDsenkur" role="3cqZAp">
           <node concept="3SKdUq" id="5tLhDsenkNa" role="3SKWNk">
-            <property role="3SKdUp" value="Vaadin bug? have to set visible columns again? " />
+            <property role="3SKdUp" value=" - Vaadin bug? have to set visible columns again? " />
           </node>
         </node>
         <node concept="3SKdUt" id="18291WBIqvU" role="3cqZAp">
@@ -14270,7 +14270,7 @@
             <node concept="3clFbH" id="1e8699aCJpW" role="3cqZAp" />
             <node concept="3SKdUt" id="1e8699aCJpX" role="3cqZAp">
               <node concept="3SKdUq" id="1e8699aCJpY" role="3SKWNk">
-                <property role="3SKdUp" value="if selected item is not in availbe items clear selection ... " />
+                <property role="3SKdUp" value=" - if selected item is not in availbe items clear selection ... " />
               </node>
             </node>
             <node concept="3clFbJ" id="1e8699aCJpZ" role="3cqZAp">
@@ -15055,7 +15055,7 @@
         <node concept="3clFbH" id="7wrkReHuVle" role="3cqZAp" />
         <node concept="3SKdUt" id="5XHFlROGPAc" role="3cqZAp">
           <node concept="3SKdUq" id="5XHFlROGPB6" role="3SKWNk">
-            <property role="3SKdUp" value="top level buttons are part of the menu bar itself. " />
+            <property role="3SKdUp" value=" - top level buttons are part of the menu bar itself. " />
           </node>
         </node>
         <node concept="3cpWs8" id="5XHFlROGPGV" role="3cqZAp">
@@ -15084,7 +15084,7 @@
               <node concept="3clFbS" id="5XHFlROGQp_" role="3clFbx">
                 <node concept="3SKdUt" id="5XHFlROGT7P" role="3cqZAp">
                   <node concept="3SKdUq" id="5XHFlROGT7Q" role="3SKWNk">
-                    <property role="3SKdUp" value="add clickable item... a bit complex in vaadin .. " />
+                    <property role="3SKdUp" value=" - add clickable item... a bit complex in vaadin .. " />
                   </node>
                 </node>
                 <node concept="3cpWs8" id="5XHFlROHa$0" role="3cqZAp">
@@ -15167,7 +15167,7 @@
                 <node concept="3clFbH" id="5XHFlROGUgA" role="3cqZAp" />
                 <node concept="3SKdUt" id="7wrkReHvY0R" role="3cqZAp">
                   <node concept="3SKdUq" id="7wrkReHvY96" role="3SKWNk">
-                    <property role="3SKdUp" value="skip &quot;top level menu for context menu" />
+                    <property role="3SKdUp" value=" - skip &quot;top level menu for context menu" />
                   </node>
                 </node>
                 <node concept="3SKdUt" id="7wrkReHvY9b" role="3cqZAp">
@@ -15250,12 +15250,12 @@
                 <node concept="3clFbS" id="5XHFlROGUpI" role="9aQI4">
                   <node concept="3SKdUt" id="5XHFlROGV0C" role="3cqZAp">
                     <node concept="3SKdUq" id="5XHFlROGV0D" role="3SKWNk">
-                      <property role="3SKdUp" value="null is a seperator" />
+                      <property role="3SKdUp" value=" - null is a seperator" />
                     </node>
                   </node>
                   <node concept="3SKdUt" id="5XHFlROH0zF" role="3cqZAp">
                     <node concept="3SKdUq" id="5XHFlROH0zG" role="3SKWNk">
-                      <property role="3SKdUp" value="obviously a folder .. " />
+                      <property role="3SKdUp" value=" - obviously a folder .. " />
                     </node>
                   </node>
                   <node concept="3cpWs8" id="5XHFlROH0zH" role="3cqZAp">
@@ -15292,7 +15292,7 @@
                   <node concept="u8gfJ" id="7wrkReHw0ax" role="3cqZAp">
                     <node concept="3SKdUt" id="7wrkReHw0rl" role="u8lrQ">
                       <node concept="3SKdUq" id="7wrkReHw0sS" role="3SKWNk">
-                        <property role="3SKdUp" value="skip &quot;top level menu for context menu" />
+                        <property role="3SKdUp" value=" - skip &quot;top level menu for context menu" />
                       </node>
                     </node>
                     <node concept="3cpWs8" id="7wrkReHv9Pl" role="u8lrQ">
@@ -15457,7 +15457,7 @@
               <node concept="3clFbS" id="5XHFlROGX3A" role="3clFbx">
                 <node concept="3SKdUt" id="5XHFlROGX3B" role="3cqZAp">
                   <node concept="3SKdUq" id="5XHFlROGX3C" role="3SKWNk">
-                    <property role="3SKdUp" value="add clickable item... a bit complex in vaadin .. " />
+                    <property role="3SKdUp" value=" - add clickable item... a bit complex in vaadin .. " />
                   </node>
                 </node>
                 <node concept="3cpWs8" id="5XHFlROGX3D" role="3cqZAp">
@@ -15688,7 +15688,7 @@
                 <node concept="3clFbS" id="5XHFlROGX4k" role="9aQI4">
                   <node concept="3SKdUt" id="5XHFlROGX4l" role="3cqZAp">
                     <node concept="3SKdUq" id="5XHFlROGX4m" role="3SKWNk">
-                      <property role="3SKdUp" value="null is a seperator" />
+                      <property role="3SKdUp" value=" - null is a seperator" />
                     </node>
                   </node>
                   <node concept="3clFbJ" id="5XHFlROGV0E" role="3cqZAp">
@@ -15743,7 +15743,7 @@
                       <node concept="3clFbS" id="5XHFlROGV0R" role="9aQI4">
                         <node concept="3SKdUt" id="5XHFlROGV0S" role="3cqZAp">
                           <node concept="3SKdUq" id="5XHFlROGV0T" role="3SKWNk">
-                            <property role="3SKdUp" value="obviously a folder .. " />
+                            <property role="3SKdUp" value=" - obviously a folder .. " />
                           </node>
                         </node>
                         <node concept="3cpWs8" id="5XHFlROGV0U" role="3cqZAp">
@@ -16079,7 +16079,7 @@
       <node concept="3clFbS" id="6cymb1cMtxj" role="3clF47">
         <node concept="3SKdUt" id="4vr6dCDMxwK" role="3cqZAp">
           <node concept="3SKdUq" id="4vr6dCDMxwL" role="3SKWNk">
-            <property role="3SKdUp" value="trg hotkey can be null" />
+            <property role="3SKdUp" value=" - trg hotkey can be null" />
           </node>
         </node>
         <node concept="1DcWWT" id="4vr6dCDMxwM" role="3cqZAp">
@@ -16287,7 +16287,7 @@
           <node concept="3clFbS" id="5ng$mPCBWRf" role="3clFbx">
             <node concept="3SKdUt" id="5ng$mPCBXCB" role="3cqZAp">
               <node concept="3SKdUq" id="5ng$mPCBXCD" role="3SKWNk">
-                <property role="3SKdUp" value="stop flagging" />
+                <property role="3SKdUp" value=" - stop flagging" />
               </node>
             </node>
             <node concept="3clFbF" id="5ng$mPCBXD8" role="3cqZAp">
@@ -16302,7 +16302,7 @@
             </node>
             <node concept="3SKdUt" id="15Q050iBPu4" role="3cqZAp">
               <node concept="3SKdUq" id="15Q050iBPvC" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: set Style" />
+                <property role="3SKdUp" value=" - TODO: set Style" />
               </node>
             </node>
             <node concept="3clFbF" id="5ng$mPCCfwO" role="3cqZAp">
@@ -16350,7 +16350,7 @@
               </node>
               <node concept="3SKdUt" id="15Q050iBP_U" role="3cqZAp">
                 <node concept="3SKdUq" id="15Q050iBPBg" role="3SKWNk">
-                  <property role="3SKdUp" value="TODO: clear Style" />
+                  <property role="3SKdUp" value=" - TODO: clear Style" />
                 </node>
               </node>
               <node concept="3clFbF" id="5ng$mPCCeJx" role="3cqZAp">
@@ -16860,7 +16860,7 @@
         </node>
         <node concept="3SKdUt" id="2ylNKzLzgHx" role="3cqZAp">
           <node concept="3SKdUq" id="2ylNKzLzoP_" role="3SKWNk">
-            <property role="3SKdUp" value="focussedOnError is already pre set from method " />
+            <property role="3SKdUp" value=" - focussedOnError is already pre set from method " />
           </node>
           <node concept="3SKdUq" id="2ylNKzLzJC8" role="3SKWNk">
             <property role="3SKdUp" value="    " />
@@ -16868,7 +16868,7 @@
         </node>
         <node concept="3SKdUt" id="2ylNKzLzS2I" role="3cqZAp">
           <node concept="3SKdUq" id="2ylNKzL$0Ol" role="3SKWNk">
-            <property role="3SKdUp" value="above" />
+            <property role="3SKdUp" value=" - above" />
           </node>
         </node>
         <node concept="1Dw8fO" id="2ylNKzL$jSt" role="3cqZAp">
@@ -16961,7 +16961,7 @@
         <node concept="3clFbH" id="2ylNKzLANxO" role="3cqZAp" />
         <node concept="3SKdUt" id="2ylNKzL_M9n" role="3cqZAp">
           <node concept="3SKdUq" id="2ylNKzL_Qvy" role="3SKWNk">
-            <property role="3SKdUp" value="set focus on error." />
+            <property role="3SKdUp" value=" - set focus on error." />
           </node>
         </node>
         <node concept="3clFbJ" id="2ylNKzL$F$o" role="3cqZAp">
@@ -17158,13 +17158,13 @@
       <node concept="3clFbS" id="xFWXJRXzYH" role="3clF47">
         <node concept="3SKdUt" id="6KBCmIORdYP" role="3cqZAp">
           <node concept="3SKdUq" id="6KBCmIORdZB" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Install enter key ? " />
+            <property role="3SKdUp" value=" - TODO: Install enter key ? " />
           </node>
         </node>
         <node concept="3clFbH" id="6KBCmIORdqV" role="3cqZAp" />
         <node concept="3SKdUt" id="xFWXJRYlye" role="3cqZAp">
           <node concept="3SKdUq" id="xFWXJRYlyo" role="3SKWNk">
-            <property role="3SKdUp" value="first index should start with 0 - so index is to be drawn before adding the delegate" />
+            <property role="3SKdUp" value=" - first index should start with 0 - so index is to be drawn before adding the delegate" />
           </node>
         </node>
         <node concept="3cpWs8" id="xFWXJRYlKe" role="3cqZAp">
@@ -17203,12 +17203,12 @@
         <node concept="3clFbH" id="xFWXJRYqB9" role="3cqZAp" />
         <node concept="3SKdUt" id="xFWXJRYw_5" role="3cqZAp">
           <node concept="3SKdUq" id="xFWXJRYwLI" role="3SKWNk">
-            <property role="3SKdUp" value="getLabel() is not used here, since label is already attached to the vaadin" />
+            <property role="3SKdUp" value=" - getLabel() is not used here, since label is already attached to the vaadin" />
           </node>
         </node>
         <node concept="3SKdUt" id="xFWXJRYxaR" role="3cqZAp">
           <node concept="3SKdUq" id="xFWXJRYxim" role="3SKWNk">
-            <property role="3SKdUp" value="textfields." />
+            <property role="3SKdUp" value=" - textfields." />
           </node>
         </node>
         <node concept="3cpWs8" id="xFWXJRYrK5" role="3cqZAp">
@@ -17290,7 +17290,7 @@
       <node concept="3clFbS" id="xFWXJRXzYR" role="3clF47">
         <node concept="3SKdUt" id="6KBCmIOPGeb" role="3cqZAp">
           <node concept="3SKdUq" id="6KBCmIOPGei" role="3SKWNk">
-            <property role="3SKdUp" value="no implementation needed." />
+            <property role="3SKdUp" value=" - no implementation needed." />
           </node>
         </node>
         <node concept="3clFbF" id="xFWXJRXzYT" role="3cqZAp">
@@ -17321,7 +17321,7 @@
       <node concept="3clFbS" id="xFWXJRXzZ7" role="3clF47">
         <node concept="3SKdUt" id="6KBCmIOPG08" role="3cqZAp">
           <node concept="3SKdUq" id="6KBCmIOPG0D" role="3SKWNk">
-            <property role="3SKdUp" value="no implementation needed" />
+            <property role="3SKdUp" value=" - no implementation needed" />
           </node>
         </node>
       </node>
@@ -17444,7 +17444,7 @@
           <node concept="3clFbS" id="5ng$mPCDmT4" role="3clFbx">
             <node concept="3SKdUt" id="5ng$mPCDmT5" role="3cqZAp">
               <node concept="3SKdUq" id="5ng$mPCDmT6" role="3SKWNk">
-                <property role="3SKdUp" value="clear flag action" />
+                <property role="3SKdUp" value=" - clear flag action" />
               </node>
             </node>
             <node concept="3clFbF" id="5ng$mPCDmT7" role="3cqZAp">
@@ -17462,7 +17462,7 @@
             </node>
             <node concept="3SKdUt" id="6KBCmIOPBOr" role="3cqZAp">
               <node concept="3SKdUq" id="6KBCmIOPBO_" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: Border?" />
+                <property role="3SKdUp" value=" - TODO: Border?" />
               </node>
             </node>
           </node>
@@ -17489,7 +17489,7 @@
             <node concept="3clFbS" id="5ng$mPCDmTr" role="9aQI4">
               <node concept="3SKdUt" id="6KBCmIOPC7s" role="3cqZAp">
                 <node concept="3SKdUq" id="6KBCmIOPCal" role="3SKWNk">
-                  <property role="3SKdUp" value="Todo: Border?" />
+                  <property role="3SKdUp" value=" - Todo: Border?" />
                 </node>
               </node>
               <node concept="3clFbF" id="5ng$mPCDmTy" role="3cqZAp">
@@ -17518,7 +17518,7 @@
       <node concept="3clFbS" id="xFWXJRXzZF" role="3clF47">
         <node concept="3SKdUt" id="1U$SEulsjsv" role="3cqZAp">
           <node concept="3SKdUq" id="1U$SEulskHx" role="3SKWNk">
-            <property role="3SKdUp" value="check for readOnly? " />
+            <property role="3SKdUp" value=" - check for readOnly? " />
           </node>
         </node>
         <node concept="3SKdUt" id="MdbUSGTS7Q" role="3cqZAp">
@@ -18177,7 +18177,7 @@
         <node concept="3clFbH" id="HsWD0nkzeY" role="3cqZAp" />
         <node concept="3SKdUt" id="HsWD0nl0U9" role="3cqZAp">
           <node concept="3SKdUq" id="HsWD0nl14J" role="3SKWNk">
-            <property role="3SKdUp" value="adjust layout" />
+            <property role="3SKdUp" value=" - adjust layout" />
           </node>
         </node>
         <node concept="3clFbF" id="HsWD0nl1t4" role="3cqZAp">
@@ -18456,7 +18456,7 @@
       <node concept="3clFbS" id="HsWD0njXjE" role="3clF47">
         <node concept="3SKdUt" id="HsWD0nlkU2" role="3cqZAp">
           <node concept="3SKdUq" id="HsWD0nlkU4" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Notification missing" />
+            <property role="3SKdUp" value=" - TODO: Notification missing" />
           </node>
         </node>
       </node>
@@ -18570,7 +18570,7 @@
       <node concept="3clFbS" id="HsWD0njXks" role="3clF47">
         <node concept="3SKdUt" id="HsWD0njXkt" role="3cqZAp">
           <node concept="3SKdUq" id="HsWD0njXku" role="3SKWNk">
-            <property role="3SKdUp" value="TODO ??? " />
+            <property role="3SKdUp" value=" - TODO ??? " />
           </node>
         </node>
       </node>
@@ -18778,7 +18778,7 @@
       <node concept="3clFbS" id="HsWD0ns_xI" role="3clF47">
         <node concept="3SKdUt" id="HsWD0nuqO$" role="3cqZAp">
           <node concept="3SKdUq" id="HsWD0nuqOM" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: focus controller missing" />
+            <property role="3SKdUp" value=" - TODO: focus controller missing" />
           </node>
         </node>
         <node concept="3clFbF" id="HsWD0ns_xK" role="3cqZAp">
@@ -18794,7 +18794,7 @@
       <node concept="3clFbS" id="HsWD0ns_xS" role="3clF47">
         <node concept="3SKdUt" id="HsWD0nuqNa" role="3cqZAp">
           <node concept="3SKdUq" id="HsWD0nuqNc" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Focus Controller missing" />
+            <property role="3SKdUp" value=" - TODO: Focus Controller missing" />
           </node>
         </node>
       </node>

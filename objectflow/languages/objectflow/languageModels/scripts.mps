@@ -3270,12 +3270,12 @@
     </node>
   </node>
   <node concept="_UgoZ" id="6E7D98JJWoK">
-    <property role="2BwPSy" value="migration" />
-    <property role="TrG5h" value="InsertionTest" />
+    <property role="2BwPSy" value="enhancement" />
+    <property role="TrG5h" value="DEP_mps30_instest" />
     <property role="2BwPS$" value="MoWare BOND" />
-    <property role="_Wzho" value="InsertionTest" />
+    <property role="_Wzho" value="DEP_mps30_instest" />
     <node concept="_XfAh" id="6E7D98JJWoL" role="_YvDr">
-      <property role="_XH9r" value="Spacer" />
+      <property role="_XH9r" value="manuipulate text prop." />
       <ref role="_XDHR" to="tpee:5vlcUuJ5uOU" resolve="SingleLineComment" />
       <node concept="_ZGcI" id="6E7D98JJWoM" role="_XPhp">
         <node concept="3clFbS" id="6E7D98JJWoN" role="2VODD2">
