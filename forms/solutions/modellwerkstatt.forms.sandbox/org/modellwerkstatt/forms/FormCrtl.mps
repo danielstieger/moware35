@@ -5736,8 +5736,8 @@
         <node concept="3clFbH" id="5ng$mPCS4F2" role="3cqZAp" />
         <node concept="3clFbJ" id="12Eg3QJQoz7" role="3cqZAp">
           <node concept="3clFbS" id="12Eg3QJQoza" role="3clFbx">
-            <node concept="3SKdUt" id="4ZThPOXKZxh" role="3cqZAp">
-              <node concept="3SKWN0" id="4ZThPOXKZxi" role="3SKWNk">
+            <node concept="3SKdUt" id="3lzuRM8c0m1" role="3cqZAp">
+              <node concept="3SKWN0" id="3lzuRM8c0m2" role="3SKWNk">
                 <node concept="3clFbF" id="2_Agt$kDeep" role="3SKWNf">
                   <node concept="2OqwBi" id="2_Agt$kDeel" role="3clFbG">
                     <node concept="10M0yZ" id="2_Agt$kDeem" role="2Oq$k0">
@@ -12421,6 +12421,7 @@
     <node concept="16euLQ" id="7aUgYCzA7uH" role="16eVyc">
       <property role="TrG5h" value="BoundElementType" />
     </node>
+    <node concept="2tJIrI" id="3lzuRM8dDqQ" role="jymVt" />
   </node>
   <node concept="3HP615" id="3VIcZtBc7at">
     <property role="TrG5h" value="IToolkit_TabForm" />
@@ -13005,6 +13006,17 @@
       <node concept="3clFbS" id="75iQIE9aUvE" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="1U$SEukhd2X" role="jymVt" />
+    <node concept="3clFb_" id="3lzuRM8pxlN" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getHotKeysToRegister" />
+      <node concept="10Q1$e" id="3lzuRM8pxP0" role="3clF45">
+        <node concept="17QB3L" id="3lzuRM8pxMh" role="10Q1$1" />
+      </node>
+      <node concept="3Tm1VV" id="3lzuRM8pxlQ" role="1B3o_S" />
+      <node concept="3clFbS" id="3lzuRM8pxlR" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="3lzuRM8px8U" role="jymVt" />
+    <node concept="2tJIrI" id="3lzuRM8pxbg" role="jymVt" />
     <node concept="3clFb_" id="4RDimilqv5Z" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="gcClear" />
