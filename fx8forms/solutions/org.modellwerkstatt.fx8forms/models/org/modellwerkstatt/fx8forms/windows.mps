@@ -2744,6 +2744,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="20ohnkbzK73" role="3cqZAp" />
+        <node concept="3clFbH" id="yc6MyE3z2d" role="3cqZAp" />
         <node concept="3clFbH" id="75iQIE94hFX" role="3cqZAp" />
         <node concept="3SKdUt" id="75iQIE94k43" role="3cqZAp">
           <node concept="3SKdUq" id="75iQIE94l3X" role="3SKWNk">
@@ -2871,7 +2872,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="37NE$XSNq5D" role="3cqZAp" />
-        <node concept="3clFbH" id="37NE$XSNqf6" role="3cqZAp" />
         <node concept="3cpWs8" id="2WNQGzSHNjP" role="3cqZAp">
           <node concept="3cpWsn" id="2WNQGzSHNjQ" role="3cpWs9">
             <property role="TrG5h" value="pos" />
@@ -4893,8 +4893,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6qxhjMMadSo" role="jymVt" />
-    <node concept="2tJIrI" id="5_bDd1db4xq" role="jymVt" />
-    <node concept="2tJIrI" id="5_bDd1db4DL" role="jymVt" />
     <node concept="3clFb_" id="WpszhTXimj" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getUserInterfaceHandle" />
@@ -4911,6 +4909,26 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5_bDd1db4M9" role="jymVt" />
+    <node concept="3clFb_" id="yc6MyEbUAO" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="ensureHotkeyAvailable" />
+      <node concept="37vLTG" id="yc6MyEbUAP" role="3clF46">
+        <property role="TrG5h" value="hotkeys" />
+        <node concept="3uibUv" id="yc6MyEbUAQ" role="1tU5fm">
+          <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+          <node concept="17QB3L" id="yc6MyEbUAR" role="11_B2D" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="yc6MyEbUAS" role="3clF45" />
+      <node concept="3Tm1VV" id="yc6MyEbUAT" role="1B3o_S" />
+      <node concept="3clFbS" id="yc6MyEbUAW" role="3clF47">
+        <node concept="3SKdUt" id="yc6MyEoXFO" role="3cqZAp">
+          <node concept="3SKdUq" id="yc6MyEoXFX" role="3SKWNk">
+            <property role="3SKdUp" value="Dummy, not needed in Fx8" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="5_bDd1db4Uy" role="jymVt" />
     <node concept="2tJIrI" id="5_bDd1db6_o" role="jymVt" />
     <node concept="2tJIrI" id="5_bDd1db6HN" role="jymVt" />
@@ -11346,6 +11364,20 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5_bDd1d8Ase" role="jymVt" />
+    <node concept="3clFb_" id="yc6MyEoIFg" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="ensureHotkeysAvailable" />
+      <node concept="37vLTG" id="yc6MyEoIFh" role="3clF46">
+        <property role="TrG5h" value="hotkeys" />
+        <node concept="3uibUv" id="yc6MyEoIFi" role="1tU5fm">
+          <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+          <node concept="17QB3L" id="yc6MyEoIFj" role="11_B2D" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="yc6MyEoIFk" role="3clF45" />
+      <node concept="3Tm1VV" id="yc6MyEoIFl" role="1B3o_S" />
+      <node concept="3clFbS" id="yc6MyEoIFo" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="4hTkCaL9g7_" role="jymVt" />
     <node concept="2tJIrI" id="4hTkCaL9gg_" role="jymVt" />
     <node concept="3Tm1VV" id="5_bDd1d5SsE" role="1B3o_S" />
@@ -11879,7 +11911,6 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="2tJIrI" id="WpszhTXlkm" role="jymVt" />
     <node concept="3Tm1VV" id="5_bDd1dbfMz" role="1B3o_S" />
     <node concept="3uibUv" id="5_bDd1dKIxy" role="1zkMxy">
       <ref role="3uigEE" node="5_bDd1d5SsD" resolve="FX8CmdUiBasis" />

@@ -9212,6 +9212,21 @@
     </node>
     <node concept="2tJIrI" id="6QRLe84rjay" role="jymVt" />
     <node concept="2tJIrI" id="77nEBgbql3t" role="jymVt" />
+    <node concept="3clFb_" id="yc6MyEs8BQ" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="ensureHotkeysAvailable" />
+      <node concept="37vLTG" id="yc6MyEs8BR" role="3clF46">
+        <property role="TrG5h" value="hotkeys" />
+        <node concept="3uibUv" id="yc6MyEs8BS" role="1tU5fm">
+          <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+          <node concept="17QB3L" id="yc6MyEs8BT" role="11_B2D" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="yc6MyEs8BU" role="3clF45" />
+      <node concept="3Tm1VV" id="yc6MyEs8BV" role="1B3o_S" />
+      <node concept="3clFbS" id="yc6MyEs8BX" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="yc6MyEs5_l" role="jymVt" />
     <node concept="3clFb_" id="4ZThPOYBafR" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getUserInfo" />
