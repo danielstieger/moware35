@@ -5828,6 +5828,32 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="77jtz2zQr5w" role="3cqZAp">
+          <node concept="2OqwBi" id="77jtz2zQrsl" role="3clFbG">
+            <node concept="37vLTw" id="77jtz2zQr5u" role="2Oq$k0">
+              <ref role="3cqZAo" node="7$A8r6g3qoj" resolve="st" />
+            </node>
+            <node concept="liA8E" id="77jtz2zQs0W" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <node concept="3cpWs3" id="77jtz2zRf3O" role="37wK5m">
+                <node concept="Xl_RD" id="77jtz2zRfWS" role="3uHU7w">
+                  <property role="Xl_RC" value="\n" />
+                </node>
+                <node concept="3cpWs3" id="77jtz2zQsRL" role="3uHU7B">
+                  <node concept="Xl_RD" id="77jtz2zQs3$" role="3uHU7B">
+                    <property role="Xl_RC" value="Read only session: " />
+                  </node>
+                  <node concept="2OqwBi" id="77jtz2zQt0P" role="3uHU7w">
+                    <node concept="Xjq3P" id="77jtz2zQsUt" role="2Oq$k0" />
+                    <node concept="liA8E" id="77jtz2zQtkL" role="2OqNvi">
+                      <ref role="37wK5l" to="w7gk:3_5k9VmQvtj" resolve="isReadOnly" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5sHRklWZnHT" role="3cqZAp">
           <node concept="2OqwBi" id="5sHRklWZnHX" role="3clFbG">
             <node concept="37vLTw" id="6svR_JBENIQ" role="2Oq$k0">
