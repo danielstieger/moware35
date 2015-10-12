@@ -17,7 +17,6 @@
     <import index="3cy2" ref="f:java_stub#86b5ca77-71d4-452d-8c64-76f13a80aab6#javafx.scene(org.modellwerkstatt.fx8forms/javafx.scene@java_stub)" />
     <import index="8bsn" ref="f:java_stub#86b5ca77-71d4-452d-8c64-76f13a80aab6#javafx.scene.image(org.modellwerkstatt.fx8forms/javafx.scene.image@java_stub)" />
     <import index="22fg" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.net(JDK/java.net@java_stub)" />
-    <import index="l8ns" ref="f:java_stub#86b5ca77-71d4-452d-8c64-76f13a80aab6#inputRuntimeTest(org.modellwerkstatt.fx8forms/inputRuntimeTest@java_stub)" />
     <import index="qdeg" ref="f:java_stub#86b5ca77-71d4-452d-8c64-76f13a80aab6#javafx.event(org.modellwerkstatt.fx8forms/javafx.event@java_stub)" />
     <import index="7jid" ref="f:java_stub#86b5ca77-71d4-452d-8c64-76f13a80aab6#com.sun.javafx.runtime(org.modellwerkstatt.fx8forms/com.sun.javafx.runtime@java_stub)" />
     <import index="quhv" ref="r:61b0a109-1890-4337-8528-5abbac987866(org.modellwerkstatt.forms.FormCrtl)" />
@@ -40,6 +39,7 @@
     <import index="dbrf" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.swing(JDK/javax.swing@java_stub)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="epq1" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
+    <import index="l8ns" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/f:java_stub#86b5ca77-71d4-452d-8c64-76f13a80aab6#inputRuntimeTest(org.modellwerkstatt.fx8forms/inputRuntimeTest@java_stub)" />
     <import index="45gm" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" implicit="true" />
     <import index="47m2" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.config@java_stub)" implicit="true" />
     <import index="h2e" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.springframework.context(org.modellwerkstatt.sandbox/org.springframework.context@java_stub)" implicit="true" />
@@ -2947,46 +2947,46 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="75iQIE94BrT" role="3cqZAp">
-          <node concept="2OqwBi" id="75iQIE94FI9" role="3clFbG">
-            <node concept="2YIFZM" id="75iQIE94F09" role="2Oq$k0">
-              <ref role="37wK5l" to="tr8w:~StyleManager.getInstance():com.sun.javafx.css.StyleManager" resolve="getInstance" />
-              <ref role="1Pybhc" to="tr8w:~StyleManager" resolve="StyleManager" />
-            </node>
-            <node concept="liA8E" id="75iQIE94Gzs" role="2OqNvi">
-              <ref role="37wK5l" to="tr8w:~StyleManager.addUserAgentStylesheet(java.lang.String):void" resolve="addUserAgentStylesheet" />
-              <node concept="Xl_RD" id="75iQIE94IqV" role="37wK5m">
-                <property role="Xl_RC" value="file:/Users/danielstieger/moware/fx8forms/solutions/jars/fx8flatter/inputRuntimeTest/fx8flatter.css" />
+        <node concept="3SKdUt" id="4m17Tnq_Gap" role="3cqZAp">
+          <node concept="3SKWN0" id="4m17Tnq_Gaq" role="3SKWNk">
+            <node concept="3clFbF" id="75iQIE94BrT" role="3SKWNf">
+              <node concept="2OqwBi" id="75iQIE94FI9" role="3clFbG">
+                <node concept="2YIFZM" id="75iQIE94F09" role="2Oq$k0">
+                  <ref role="37wK5l" to="tr8w:~StyleManager.getInstance():com.sun.javafx.css.StyleManager" resolve="getInstance" />
+                  <ref role="1Pybhc" to="tr8w:~StyleManager" resolve="StyleManager" />
+                </node>
+                <node concept="liA8E" id="75iQIE94Gzs" role="2OqNvi">
+                  <ref role="37wK5l" to="tr8w:~StyleManager.addUserAgentStylesheet(java.lang.String):void" resolve="addUserAgentStylesheet" />
+                  <node concept="Xl_RD" id="75iQIE94IqV" role="37wK5m">
+                    <property role="Xl_RC" value="file:/Users/danielstieger/moware/fx8forms/solutions/jars/fx8flatter/inputRuntimeTest/fx8flatter.css" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="6_NrkOiMQPC" role="3cqZAp">
-          <node concept="3SKWN0" id="6_NrkOiMQPD" role="3SKWNk">
-            <node concept="3clFbF" id="7lHVZRaF9q6" role="3SKWNf">
-              <node concept="2OqwBi" id="7lHVZRaF9q7" role="3clFbG">
-                <node concept="2YIFZM" id="7lHVZRaF9q8" role="2Oq$k0">
-                  <ref role="37wK5l" to="tr8w:~StyleManager.getInstance():com.sun.javafx.css.StyleManager" resolve="getInstance" />
-                  <ref role="1Pybhc" to="tr8w:~StyleManager" resolve="StyleManager" />
-                </node>
-                <node concept="liA8E" id="7lHVZRaF9q9" role="2OqNvi">
-                  <ref role="37wK5l" to="tr8w:~StyleManager.addUserAgentStylesheet(java.lang.String):void" resolve="addUserAgentStylesheet" />
-                  <node concept="2OqwBi" id="7bJvTYRhvwv" role="37wK5m">
-                    <node concept="2OqwBi" id="7bJvTYRhu9b" role="2Oq$k0">
-                      <node concept="3VsKOn" id="7bJvTYRhtSn" role="2Oq$k0">
-                        <ref role="3VsUkX" to="l8ns:~IConsLoader" resolve="IConsLoader" />
-                      </node>
-                      <node concept="liA8E" id="7bJvTYRhuBC" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~Class.getResource(java.lang.String):java.net.URL" resolve="getResource" />
-                        <node concept="Xl_RD" id="7bJvTYRhuHr" role="37wK5m">
-                          <property role="Xl_RC" value="/inputRuntimeTest/fx8flatter.css" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="7bJvTYRhvFP" role="2OqNvi">
-                      <ref role="37wK5l" to="22fg:~URL.toExternalForm():java.lang.String" resolve="toExternalForm" />
+        <node concept="3clFbF" id="7lHVZRaF9q6" role="3cqZAp">
+          <node concept="2OqwBi" id="7lHVZRaF9q7" role="3clFbG">
+            <node concept="2YIFZM" id="7lHVZRaF9q8" role="2Oq$k0">
+              <ref role="37wK5l" to="tr8w:~StyleManager.getInstance():com.sun.javafx.css.StyleManager" resolve="getInstance" />
+              <ref role="1Pybhc" to="tr8w:~StyleManager" resolve="StyleManager" />
+            </node>
+            <node concept="liA8E" id="7lHVZRaF9q9" role="2OqNvi">
+              <ref role="37wK5l" to="tr8w:~StyleManager.addUserAgentStylesheet(java.lang.String):void" resolve="addUserAgentStylesheet" />
+              <node concept="2OqwBi" id="7bJvTYRhvwv" role="37wK5m">
+                <node concept="2OqwBi" id="7bJvTYRhu9b" role="2Oq$k0">
+                  <node concept="3VsKOn" id="7bJvTYRhtSn" role="2Oq$k0">
+                    <ref role="3VsUkX" to="l8ns:~IConsLoader" resolve="IConsLoader" />
+                  </node>
+                  <node concept="liA8E" id="7bJvTYRhuBC" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~Class.getResource(java.lang.String):java.net.URL" resolve="getResource" />
+                    <node concept="Xl_RD" id="7bJvTYRhuHr" role="37wK5m">
+                      <property role="Xl_RC" value="/inputRuntimeTest/fx8flatter.css" />
                     </node>
                   </node>
+                </node>
+                <node concept="liA8E" id="7bJvTYRhvFP" role="2OqNvi">
+                  <ref role="37wK5l" to="22fg:~URL.toExternalForm():java.lang.String" resolve="toExternalForm" />
                 </node>
               </node>
             </node>
@@ -9210,7 +9210,7 @@
                             <node concept="3clFbS" id="7Mah_ahFzEg" role="3clFbx">
                               <node concept="3clFbF" id="7Mah_ahJ$Ys" role="3cqZAp">
                                 <node concept="1rXfSq" id="7Mah_ahJ$Yq" role="3clFbG">
-                                  <ref role="37wK5l" node="20ZvV_nyixQ" resolve="runRealyLater" />
+                                  <ref role="37wK5l" node="3YbyKXcLwYH" resolve="runRealyLater" />
                                   <node concept="2ShNRf" id="7Mah_ahHvkd" role="37wK5m">
                                     <node concept="YeOm9" id="7Mah_ahHwe6" role="2ShVmc">
                                       <node concept="1Y3b0j" id="7Mah_ahHwe9" role="YeSDq">
@@ -9497,17 +9497,11 @@
     </node>
     <node concept="2tJIrI" id="20ZvV_ny5Fz" role="jymVt" />
     <node concept="2tJIrI" id="20ZvV_ny8wv" role="jymVt" />
-    <node concept="3clFb_" id="20ZvV_nyixQ" role="jymVt">
+    <node concept="2YIFZL" id="3YbyKXcLwYH" role="jymVt">
       <property role="TrG5h" value="runRealyLater" />
-      <node concept="37vLTG" id="20ZvV_nyNFz" role="3clF46">
-        <property role="TrG5h" value="r" />
-        <property role="3TUv4t" value="true" />
-        <node concept="3uibUv" id="20ZvV_nySUj" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~Runnable" resolve="Runnable" />
-        </node>
-      </node>
-      <node concept="3cqZAl" id="20ZvV_nyixS" role="3clF45" />
-      <node concept="3Tm1VV" id="20ZvV_nyixT" role="1B3o_S" />
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
       <node concept="3clFbS" id="20ZvV_nyixU" role="3clF47">
         <node concept="3cpWs8" id="20ZvV_nyWCj" role="3cqZAp">
           <node concept="3cpWsn" id="20ZvV_nyWCk" role="3cpWs9">
@@ -9599,6 +9593,15 @@
           </node>
         </node>
       </node>
+      <node concept="37vLTG" id="20ZvV_nyNFz" role="3clF46">
+        <property role="TrG5h" value="r" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="20ZvV_nySUj" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Runnable" resolve="Runnable" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="20ZvV_nyixS" role="3clF45" />
+      <node concept="3Tm1VV" id="20ZvV_nyixT" role="1B3o_S" />
     </node>
   </node>
   <node concept="312cEu" id="7aUgYCzwzmK">
@@ -15761,10 +15764,15 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="3YbyKXcUlxJ" role="3cqZAp">
+          <node concept="3SKdUq" id="3YbyKXcUo1z" role="3SKWNk">
+            <property role="3SKdUp" value="changed by dan 15.Oct 2015, editEnabled was default true? for sure not correct." />
+          </node>
+        </node>
         <node concept="3clFbF" id="1c8XvQq5SVO" role="3cqZAp">
           <node concept="37vLTI" id="1c8XvQq5Y8a" role="3clFbG">
-            <node concept="3clFbT" id="1c8XvQq5ZLx" role="37vLTx">
-              <property role="3clFbU" value="true" />
+            <node concept="3clFbT" id="3YbyKXcUiKN" role="37vLTx">
+              <property role="3clFbU" value="false" />
             </node>
             <node concept="37vLTw" id="1c8XvQq5SVM" role="37vLTJ">
               <ref role="3cqZAo" node="1c8XvQq5S6H" resolve="editEnabled" />
@@ -18646,6 +18654,60 @@
       <node concept="10P_77" id="1e8699aCJtm" role="3clF45" />
       <node concept="3Tm1VV" id="1e8699aCJtn" role="1B3o_S" />
       <node concept="3clFbS" id="1e8699aCJto" role="3clF47">
+        <node concept="3SKdUt" id="3YbyKXcS3Y_" role="3cqZAp">
+          <node concept="3SKWN0" id="3YbyKXcS3YA" role="3SKWNk">
+            <node concept="3clFbF" id="3YbyKXcPCz4" role="3SKWNf">
+              <node concept="2OqwBi" id="3YbyKXcPCz1" role="3clFbG">
+                <node concept="10M0yZ" id="3YbyKXcPCz2" role="2Oq$k0">
+                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                  <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="3YbyKXcPCz3" role="2OqNvi">
+                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="3YbyKXcQRPq" role="37wK5m">
+                    <node concept="2OqwBi" id="3YbyKXcQSNa" role="3uHU7w">
+                      <node concept="37vLTw" id="3YbyKXcQSs8" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1e8699aCJtk" resolve="sel" />
+                      </node>
+                      <node concept="liA8E" id="3YbyKXcQTja" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:6ffh1MXuemT" resolve="getObjectOrNull" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="3YbyKXcQQHE" role="3uHU7B">
+                      <node concept="3cpWs3" id="3YbyKXcPIYE" role="3uHU7B">
+                        <node concept="3cpWs3" id="3YbyKXcQOwr" role="3uHU7B">
+                          <node concept="Xl_RD" id="3YbyKXcQPhl" role="3uHU7w">
+                            <property role="Xl_RC" value=" - selectionChanged() " />
+                          </node>
+                          <node concept="3cpWs3" id="3YbyKXcQMj6" role="3uHU7B">
+                            <node concept="Xl_RD" id="3YbyKXcPH7K" role="3uHU7B">
+                              <property role="Xl_RC" value="Fx8TableForm for " />
+                            </node>
+                            <node concept="2OqwBi" id="3YbyKXcQNHL" role="3uHU7w">
+                              <node concept="37vLTw" id="3YbyKXcQNiK" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1e8699aCJdh" resolve="genParent" />
+                              </node>
+                              <node concept="liA8E" id="3YbyKXcQOeU" role="2OqNvi">
+                                <ref role="37wK5l" to="quhv:2zlKbqjrMvV" resolve="getName" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="3YbyKXcPJy4" role="3uHU7w">
+                          <ref role="3cqZAo" node="1e8699aCJtk" resolve="sel" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="3YbyKXcQRw_" role="3uHU7w">
+                        <property role="Xl_RC" value=" " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3YbyKXcRVHi" role="3cqZAp" />
         <node concept="3clFbJ" id="1e8699aCJtp" role="3cqZAp">
           <node concept="3clFbS" id="1e8699aCJtq" role="3clFbx">
             <node concept="3cpWs6" id="1e8699aCJtr" role="3cqZAp">
@@ -18980,6 +19042,82 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="3YbyKXcSwI0" role="3cqZAp" />
+                <node concept="3SKdUt" id="3YbyKXcTbzy" role="3cqZAp">
+                  <node concept="3SKdUq" id="3YbyKXcTfUt" role="3SKWNk">
+                    <property role="3SKdUp" value="Added by Dan 12.Oct 2015" />
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="3YbyKXcSm6d" role="3cqZAp">
+                  <node concept="3clFbS" id="3YbyKXcSm6f" role="3clFbx">
+                    <node concept="3cpWs8" id="3YbyKXcT6cn" role="3cqZAp">
+                      <node concept="3cpWsn" id="3YbyKXcT6cq" role="3cpWs9">
+                        <property role="TrG5h" value="i" />
+                        <node concept="10Oyi0" id="3YbyKXcT6cl" role="1tU5fm" />
+                        <node concept="2OqwBi" id="3YbyKXcSZQe" role="33vP2m">
+                          <node concept="2OqwBi" id="3YbyKXcSXlW" role="2Oq$k0">
+                            <node concept="37vLTw" id="3YbyKXcSX4H" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                            </node>
+                            <node concept="liA8E" id="3YbyKXcSZzg" role="2OqNvi">
+                              <ref role="37wK5l" to="vik9:~TableView.getItems():javafx.collections.ObservableList" resolve="getItems" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="3YbyKXcT4gc" role="2OqNvi">
+                            <ref role="37wK5l" to="k7g3:~List.indexOf(java.lang.Object):int" resolve="indexOf" />
+                            <node concept="2OqwBi" id="3YbyKXcT5bD" role="37wK5m">
+                              <node concept="37vLTw" id="3YbyKXcT4K9" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1e8699aCJtQ" resolve="selection" />
+                              </node>
+                              <node concept="1yVyf7" id="3YbyKXcT5Qi" role="2OqNvi" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbJ" id="3YbyKXcT9ck" role="3cqZAp">
+                      <node concept="3clFbS" id="3YbyKXcT9cm" role="3clFbx">
+                        <node concept="3clFbF" id="3YbyKXcSLWT" role="3cqZAp">
+                          <node concept="2OqwBi" id="3YbyKXcSMi3" role="3clFbG">
+                            <node concept="37vLTw" id="3YbyKXcSLWR" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                            </node>
+                            <node concept="liA8E" id="3YbyKXcSOoB" role="2OqNvi">
+                              <ref role="37wK5l" to="vik9:~TableView.scrollTo(int):void" resolve="scrollTo" />
+                              <node concept="37vLTw" id="3YbyKXcT8xb" role="37wK5m">
+                                <ref role="3cqZAo" node="3YbyKXcT6cq" resolve="i" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2d3UOw" id="3YbyKXcTa8k" role="3clFbw">
+                        <node concept="37vLTw" id="3YbyKXcT9_l" role="3uHU7B">
+                          <ref role="3cqZAo" node="3YbyKXcT6cq" resolve="i" />
+                        </node>
+                        <node concept="3cmrfG" id="3YbyKXcTa1Q" role="3uHU7w">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="3YbyKXcSJ0N" role="3clFbw">
+                    <node concept="3eOSWO" id="3YbyKXcSLdC" role="3uHU7w">
+                      <node concept="3cmrfG" id="3YbyKXcSLqN" role="3uHU7w">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="2OqwBi" id="3YbyKXcSKh2" role="3uHU7B">
+                        <node concept="37vLTw" id="3YbyKXcSJMA" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1e8699aCJtQ" resolve="selection" />
+                        </node>
+                        <node concept="34oBXx" id="3YbyKXcSKGJ" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="3YbyKXcSrqQ" role="3uHU7B">
+                      <ref role="3cqZAo" node="1c8XvQq5S6H" resolve="editEnabled" />
+                    </node>
+                  </node>
+                </node>
               </node>
               <node concept="37vLTw" id="fdGRoMYQIg" role="3clFbw">
                 <ref role="3cqZAo" node="1aQdtFgtulH" resolve="selectionChangeNeeded" />
@@ -19002,6 +19140,8 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3YbyKXcS8UJ" role="3cqZAp" />
+        <node concept="3clFbH" id="3YbyKXcScX2" role="3cqZAp" />
         <node concept="3clFbF" id="1e8699aCJvq" role="3cqZAp">
           <node concept="37vLTI" id="1e8699aCJvr" role="3clFbG">
             <node concept="3clFbT" id="1e8699aCJvs" role="37vLTx">
@@ -19278,9 +19418,11 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3YbyKXcWAb6" role="3cqZAp" />
+        <node concept="3clFbH" id="3YbyKXcWAWr" role="3cqZAp" />
         <node concept="3SKdUt" id="1e8699aCJwO" role="3cqZAp">
           <node concept="3SKdUq" id="1e8699aCJwP" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: workaground to refresh table... (removed 5.Oct 15 dan)" />
+            <property role="3SKdUp" value="workaground to refresh table... (removed 5.Oct 15 dan)" />
           </node>
         </node>
         <node concept="u8gfJ" id="6_NrkOiGV6N" role="3cqZAp">
@@ -19464,6 +19606,22 @@
           </node>
           <node concept="37vLTw" id="77jtz2zBnW9" role="1DdaDG">
             <ref role="3cqZAo" node="1e8699aCJwF" resolve="sortOrders" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3YbyKXcVrzU" role="3cqZAp" />
+        <node concept="3SKdUt" id="3YbyKXcW$OS" role="3cqZAp">
+          <node concept="3SKdUq" id="3YbyKXcW_FI" role="3SKWNk">
+            <property role="3SKdUp" value="replacing the visible workaround above! " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3YbyKXcVttG" role="3cqZAp">
+          <node concept="2OqwBi" id="3YbyKXcVu6F" role="3clFbG">
+            <node concept="37vLTw" id="3YbyKXcVttE" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+            </node>
+            <node concept="liA8E" id="3YbyKXcVwVX" role="2OqNvi">
+              <ref role="37wK5l" to="vik9:~TableView.refresh():void" resolve="refresh" />
+            </node>
           </node>
         </node>
       </node>
@@ -21276,7 +21434,12 @@
       </node>
       <node concept="3Tm6S6" id="1U$SEulqgq6" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="1U$SEulqcBi" role="jymVt" />
+    <node concept="312cEg" id="3YbyKXcNVHE" role="jymVt">
+      <property role="TrG5h" value="uiInitialized" />
+      <node concept="3Tm6S6" id="3YbyKXcNVHF" role="1B3o_S" />
+      <node concept="10P_77" id="3YbyKXcNWMi" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="3YbyKXcNUDh" role="jymVt" />
     <node concept="3clFbW" id="3u6rNybdaVt" role="jymVt">
       <node concept="3cqZAl" id="3u6rNybdaVu" role="3clF45" />
       <node concept="3Tm1VV" id="3u6rNybdaVv" role="1B3o_S" />
@@ -21312,7 +21475,17 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1U$SEulqgMy" role="3cqZAp" />
+        <node concept="3clFbF" id="3YbyKXcNYv0" role="3cqZAp">
+          <node concept="37vLTI" id="3YbyKXcNZrZ" role="3clFbG">
+            <node concept="3clFbT" id="3YbyKXcNZQI" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="3YbyKXcNYuY" role="37vLTJ">
+              <ref role="3cqZAo" node="3YbyKXcNVHE" resolve="uiInitialized" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3YbyKXcNXwz" role="3cqZAp" />
         <node concept="3clFbF" id="7QbqkVW4mvx" role="3cqZAp">
           <node concept="2OqwBi" id="7QbqkVW4mvz" role="3clFbG">
             <node concept="2OqwBi" id="7QbqkVW4mv$" role="2Oq$k0">
@@ -21399,70 +21572,280 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="3cpWs8" id="7QbqkVW4p2_" role="3cqZAp">
-                          <node concept="3cpWsn" id="7QbqkVW4p2A" role="3cpWs9">
-                            <property role="TrG5h" value="i" />
-                            <node concept="10Oyi0" id="7QbqkVW4p2B" role="1tU5fm" />
-                            <node concept="2OqwBi" id="7QbqkVW4p2C" role="33vP2m">
-                              <node concept="2OqwBi" id="7QbqkVW4p2D" role="2Oq$k0">
-                                <node concept="Xjq3P" id="7QbqkVW4p2E" role="2Oq$k0">
-                                  <ref role="1HBi2w" node="3u6rNybdaVr" resolve="FX8TabForm" />
+                        <node concept="3clFbH" id="3YbyKXcKxw_" role="3cqZAp" />
+                        <node concept="3clFbJ" id="3YbyKXcO0l8" role="3cqZAp">
+                          <node concept="3clFbS" id="3YbyKXcO0la" role="3clFbx">
+                            <node concept="3clFbF" id="3YbyKXcL_Kz" role="3cqZAp">
+                              <node concept="2YIFZM" id="3YbyKXcL_K$" role="3clFbG">
+                                <ref role="37wK5l" to="l2mm:~Platform.runLater(java.lang.Runnable):void" resolve="runLater" />
+                                <ref role="1Pybhc" to="l2mm:~Platform" resolve="Platform" />
+                                <node concept="2ShNRf" id="3YbyKXcL_K_" role="37wK5m">
+                                  <node concept="YeOm9" id="3YbyKXcL_KA" role="2ShVmc">
+                                    <node concept="1Y3b0j" id="3YbyKXcL_KB" role="YeSDq">
+                                      <property role="2bfB8j" value="true" />
+                                      <ref role="1Y3XeK" to="e2lb:~Runnable" resolve="Runnable" />
+                                      <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
+                                      <node concept="3Tm1VV" id="3YbyKXcL_KC" role="1B3o_S" />
+                                      <node concept="3clFb_" id="3YbyKXcL_KD" role="jymVt">
+                                        <property role="1EzhhJ" value="false" />
+                                        <property role="TrG5h" value="run" />
+                                        <property role="DiZV1" value="false" />
+                                        <property role="IEkAT" value="false" />
+                                        <node concept="3Tm1VV" id="3YbyKXcL_KE" role="1B3o_S" />
+                                        <node concept="3cqZAl" id="3YbyKXcL_KF" role="3clF45" />
+                                        <node concept="3clFbS" id="3YbyKXcL_KG" role="3clF47">
+                                          <node concept="3clFbH" id="3YbyKXcLEXv" role="3cqZAp" />
+                                          <node concept="3SKdUt" id="3YbyKXcKyn4" role="3cqZAp">
+                                            <node concept="3SKdUq" id="3YbyKXcKy_z" role="3SKWNk">
+                                              <property role="3SKdUp" value="Also changed due to focus request handling in Oct 2015, Dan" />
+                                            </node>
+                                          </node>
+                                          <node concept="3cpWs8" id="7QbqkVW4p2_" role="3cqZAp">
+                                            <node concept="3cpWsn" id="7QbqkVW4p2A" role="3cpWs9">
+                                              <property role="TrG5h" value="i" />
+                                              <property role="3TUv4t" value="true" />
+                                              <node concept="10Oyi0" id="7QbqkVW4p2B" role="1tU5fm" />
+                                              <node concept="2OqwBi" id="7QbqkVW4p2C" role="33vP2m">
+                                                <node concept="2OqwBi" id="7QbqkVW4p2D" role="2Oq$k0">
+                                                  <node concept="Xjq3P" id="7QbqkVW4p2E" role="2Oq$k0">
+                                                    <ref role="1HBi2w" node="3u6rNybdaVr" resolve="FX8TabForm" />
+                                                  </node>
+                                                  <node concept="liA8E" id="7QbqkVW4p2F" role="2OqNvi">
+                                                    <ref role="37wK5l" to="vik9:~TabPane.getSelectionModel():javafx.scene.control.SingleSelectionModel" resolve="getSelectionModel" />
+                                                  </node>
+                                                </node>
+                                                <node concept="liA8E" id="7QbqkVW4p2G" role="2OqNvi">
+                                                  <ref role="37wK5l" to="vik9:~SelectionModel.getSelectedIndex():int" resolve="getSelectedIndex" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="3clFbJ" id="7QbqkVW4ERB" role="3cqZAp">
+                                            <node concept="3clFbS" id="7QbqkVW4ERE" role="3clFbx">
+                                              <node concept="3cpWs8" id="3YbyKXcLFJx" role="3cqZAp">
+                                                <node concept="3cpWsn" id="3YbyKXcLFJy" role="3cpWs9">
+                                                  <property role="TrG5h" value="toFocus" />
+                                                  <node concept="3uibUv" id="3YbyKXcLFJz" role="1tU5fm">
+                                                    <ref role="3uigEE" to="3cy2:~Node" resolve="Node" />
+                                                  </node>
+                                                  <node concept="1eOMI4" id="3YbyKXcLG7F" role="33vP2m">
+                                                    <node concept="10QFUN" id="3YbyKXcLG7C" role="1eOMHV">
+                                                      <node concept="3uibUv" id="3YbyKXcLG83" role="10QFUM">
+                                                        <ref role="3uigEE" to="3cy2:~Node" resolve="Node" />
+                                                      </node>
+                                                      <node concept="2OqwBi" id="3YbyKXcLH0F" role="10QFUP">
+                                                        <node concept="37vLTw" id="3YbyKXcLGIb" role="2Oq$k0">
+                                                          <ref role="3cqZAo" node="1U$SEulqeSB" resolve="focusController" />
+                                                        </node>
+                                                        <node concept="liA8E" id="3YbyKXcLHzd" role="2OqNvi">
+                                                          <ref role="37wK5l" to="quhv:1U$SEulqx1o" resolve="myRequestFocusOnChild" />
+                                                          <node concept="37vLTw" id="3YbyKXcLHPn" role="37wK5m">
+                                                            <ref role="3cqZAo" node="7QbqkVW4p2A" resolve="i" />
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                              <node concept="3clFbF" id="7QbqkVW4Coq" role="3cqZAp">
+                                                <node concept="2OqwBi" id="7QbqkVW4p2I" role="3clFbG">
+                                                  <node concept="37vLTw" id="7QbqkVW4p2J" role="2Oq$k0">
+                                                    <ref role="3cqZAo" node="1U$SEulqeSB" resolve="focusController" />
+                                                  </node>
+                                                  <node concept="liA8E" id="7QbqkVW4p2K" role="2OqNvi">
+                                                    <ref role="37wK5l" to="quhv:1U$SEulqx1o" resolve="myRequestFocusOnChild" />
+                                                    <node concept="37vLTw" id="7QbqkVW4p2L" role="37wK5m">
+                                                      <ref role="3cqZAo" node="7QbqkVW4p2A" resolve="i" />
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                              <node concept="3clFbH" id="3YbyKXcLJl$" role="3cqZAp" />
+                                              <node concept="3cpWs8" id="3YbyKXcL_L1" role="3cqZAp">
+                                                <node concept="3cpWsn" id="3YbyKXcL_L2" role="3cpWs9">
+                                                  <property role="TrG5h" value="currentlyFocussed" />
+                                                  <node concept="3uibUv" id="3YbyKXcL_L3" role="1tU5fm">
+                                                    <ref role="3uigEE" to="3cy2:~Node" resolve="Node" />
+                                                  </node>
+                                                  <node concept="2OqwBi" id="3YbyKXcL_L4" role="33vP2m">
+                                                    <node concept="2OqwBi" id="3YbyKXcL_L5" role="2Oq$k0">
+                                                      <node concept="Xjq3P" id="3YbyKXcL_L6" role="2Oq$k0">
+                                                        <ref role="1HBi2w" node="3u6rNybdaVr" resolve="FX8TabForm" />
+                                                      </node>
+                                                      <node concept="liA8E" id="3YbyKXcL_L7" role="2OqNvi">
+                                                        <ref role="37wK5l" to="3cy2:~Node.getScene():javafx.scene.Scene" resolve="getScene" />
+                                                      </node>
+                                                    </node>
+                                                    <node concept="liA8E" id="3YbyKXcL_L8" role="2OqNvi">
+                                                      <ref role="37wK5l" to="3cy2:~Scene.getFocusOwner():javafx.scene.Node" resolve="getFocusOwner" />
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                              <node concept="3SKdUt" id="3YbyKXcL_L9" role="3cqZAp">
+                                                <node concept="3SKWN0" id="3YbyKXcL_La" role="3SKWNk">
+                                                  <node concept="3clFbF" id="3YbyKXcL_Lb" role="3SKWNf">
+                                                    <node concept="2OqwBi" id="3YbyKXcL_Lc" role="3clFbG">
+                                                      <node concept="10M0yZ" id="3YbyKXcL_Ld" role="2Oq$k0">
+                                                        <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                                                        <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                                                      </node>
+                                                      <node concept="liA8E" id="3YbyKXcL_Le" role="2OqNvi">
+                                                        <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                                        <node concept="3cpWs3" id="3YbyKXcL_Lf" role="37wK5m">
+                                                          <node concept="3cpWs3" id="3YbyKXcL_Lg" role="3uHU7B">
+                                                            <node concept="3cpWs3" id="3YbyKXcL_Lh" role="3uHU7B">
+                                                              <node concept="Xl_RD" id="3YbyKXcL_Li" role="3uHU7B">
+                                                                <property role="Xl_RC" value="Fx8FormContainer .. FocusOwner: " />
+                                                              </node>
+                                                              <node concept="37vLTw" id="3YbyKXcL_Lj" role="3uHU7w">
+                                                                <ref role="3cqZAo" node="3YbyKXcL_L2" resolve="currentlyFocussed" />
+                                                              </node>
+                                                            </node>
+                                                            <node concept="Xl_RD" id="3YbyKXcL_Lk" role="3uHU7w">
+                                                              <property role="Xl_RC" value=" / " />
+                                                            </node>
+                                                          </node>
+                                                          <node concept="1eOMI4" id="3YbyKXcL_Ll" role="3uHU7w">
+                                                            <node concept="3clFbC" id="3YbyKXcL_Lm" role="1eOMHV">
+                                                              <node concept="37vLTw" id="3YbyKXcL_Ln" role="3uHU7w">
+                                                                <ref role="3cqZAo" node="3YbyKXcLFJy" resolve="toFocus" />
+                                                              </node>
+                                                              <node concept="37vLTw" id="3YbyKXcL_Lo" role="3uHU7B">
+                                                                <ref role="3cqZAo" node="3YbyKXcL_L2" resolve="currentlyFocussed" />
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                              <node concept="3clFbJ" id="3YbyKXcL_Lp" role="3cqZAp">
+                                                <node concept="3clFbS" id="3YbyKXcL_Lq" role="3clFbx">
+                                                  <node concept="3clFbF" id="3YbyKXcL_Lr" role="3cqZAp">
+                                                    <node concept="2YIFZM" id="3YbyKXcLB61" role="3clFbG">
+                                                      <ref role="1Pybhc" node="6hacA6tQU0v" resolve="FX8FormContainer" />
+                                                      <ref role="37wK5l" node="3YbyKXcLwYH" resolve="runRealyLater" />
+                                                      <node concept="2ShNRf" id="3YbyKXcL_Lt" role="37wK5m">
+                                                        <node concept="YeOm9" id="3YbyKXcL_Lu" role="2ShVmc">
+                                                          <node concept="1Y3b0j" id="3YbyKXcL_Lv" role="YeSDq">
+                                                            <property role="2bfB8j" value="true" />
+                                                            <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
+                                                            <ref role="1Y3XeK" to="e2lb:~Runnable" resolve="Runnable" />
+                                                            <node concept="3Tm1VV" id="3YbyKXcL_Lw" role="1B3o_S" />
+                                                            <node concept="3clFb_" id="3YbyKXcL_Lx" role="jymVt">
+                                                              <property role="1EzhhJ" value="false" />
+                                                              <property role="TrG5h" value="run" />
+                                                              <property role="DiZV1" value="false" />
+                                                              <property role="IEkAT" value="false" />
+                                                              <node concept="3Tm1VV" id="3YbyKXcL_Ly" role="1B3o_S" />
+                                                              <node concept="3cqZAl" id="3YbyKXcL_Lz" role="3clF45" />
+                                                              <node concept="3clFbS" id="3YbyKXcL_L$" role="3clF47">
+                                                                <node concept="3clFbF" id="3YbyKXcL_L_" role="3cqZAp">
+                                                                  <node concept="2OqwBi" id="3YbyKXcL_LA" role="3clFbG">
+                                                                    <node concept="37vLTw" id="3YbyKXcL_LB" role="2Oq$k0">
+                                                                      <ref role="3cqZAo" node="1U$SEulqeSB" resolve="focusController" />
+                                                                    </node>
+                                                                    <node concept="liA8E" id="3YbyKXcL_LC" role="2OqNvi">
+                                                                      <ref role="37wK5l" to="quhv:1U$SEulqx1o" resolve="myRequestFocusOnChild" />
+                                                                      <node concept="37vLTw" id="3YbyKXcLM1w" role="37wK5m">
+                                                                        <ref role="3cqZAo" node="7QbqkVW4p2A" resolve="i" />
+                                                                      </node>
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                                <node concept="3SKdUt" id="3YbyKXcL_LD" role="3cqZAp">
+                                                                  <node concept="3SKWN0" id="3YbyKXcL_LE" role="3SKWNk">
+                                                                    <node concept="3clFbF" id="3YbyKXcL_LF" role="3SKWNf">
+                                                                      <node concept="2OqwBi" id="3YbyKXcL_LG" role="3clFbG">
+                                                                        <node concept="10M0yZ" id="3YbyKXcL_LH" role="2Oq$k0">
+                                                                          <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                                                                          <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                                                                        </node>
+                                                                        <node concept="liA8E" id="3YbyKXcL_LI" role="2OqNvi">
+                                                                          <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                                                          <node concept="3cpWs3" id="3YbyKXcL_LJ" role="37wK5m">
+                                                                            <node concept="Xl_RD" id="3YbyKXcL_LK" role="3uHU7w">
+                                                                              <property role="Xl_RC" value=" Fx8FormContainer .. manual 200ms readjust focus delivered." />
+                                                                            </node>
+                                                                            <node concept="2OqwBi" id="3YbyKXcL_LL" role="3uHU7B">
+                                                                              <node concept="2YIFZM" id="3YbyKXcL_LM" role="2Oq$k0">
+                                                                                <ref role="1Pybhc" to="e2lb:~Thread" resolve="Thread" />
+                                                                                <ref role="37wK5l" to="e2lb:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+                                                                              </node>
+                                                                              <node concept="liA8E" id="3YbyKXcL_LN" role="2OqNvi">
+                                                                                <ref role="37wK5l" to="e2lb:~Thread.getName():java.lang.String" resolve="getName" />
+                                                                              </node>
+                                                                            </node>
+                                                                          </node>
+                                                                        </node>
+                                                                      </node>
+                                                                    </node>
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                                <node concept="3y3z36" id="3YbyKXcL_LO" role="3clFbw">
+                                                  <node concept="37vLTw" id="3YbyKXcL_LP" role="3uHU7B">
+                                                    <ref role="3cqZAo" node="3YbyKXcL_L2" resolve="currentlyFocussed" />
+                                                  </node>
+                                                  <node concept="37vLTw" id="3YbyKXcL_LQ" role="3uHU7w">
+                                                    <ref role="3cqZAo" node="3YbyKXcLFJy" resolve="toFocus" />
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                            <node concept="1Wc70l" id="7QbqkVW4KwL" role="3clFbw">
+                                              <node concept="3eOVzh" id="7QbqkVW4LhD" role="3uHU7w">
+                                                <node concept="2OqwBi" id="7QbqkVW4RCe" role="3uHU7w">
+                                                  <node concept="2OqwBi" id="7QbqkVW4MES" role="2Oq$k0">
+                                                    <node concept="Xjq3P" id="7QbqkVW4LvX" role="2Oq$k0">
+                                                      <ref role="1HBi2w" node="3u6rNybdaVr" resolve="FX8TabForm" />
+                                                    </node>
+                                                    <node concept="liA8E" id="7QbqkVW4QfL" role="2OqNvi">
+                                                      <ref role="37wK5l" to="vik9:~TabPane.getTabs():javafx.collections.ObservableList" resolve="getTabs" />
+                                                    </node>
+                                                  </node>
+                                                  <node concept="liA8E" id="7QbqkVW4WKX" role="2OqNvi">
+                                                    <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                                                  </node>
+                                                </node>
+                                                <node concept="37vLTw" id="7QbqkVW4KUa" role="3uHU7B">
+                                                  <ref role="3cqZAo" node="7QbqkVW4p2A" resolve="i" />
+                                                </node>
+                                              </node>
+                                              <node concept="2d3UOw" id="7QbqkVW4FYF" role="3uHU7B">
+                                                <node concept="37vLTw" id="7QbqkVW4Fm9" role="3uHU7B">
+                                                  <ref role="3cqZAo" node="7QbqkVW4p2A" resolve="i" />
+                                                </node>
+                                                <node concept="3cmrfG" id="7QbqkVW4Ggm" role="3uHU7w">
+                                                  <property role="3cmrfH" value="0" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
                                 </node>
-                                <node concept="liA8E" id="7QbqkVW4p2F" role="2OqNvi">
-                                  <ref role="37wK5l" to="vik9:~TabPane.getSelectionModel():javafx.scene.control.SingleSelectionModel" resolve="getSelectionModel" />
-                                </node>
-                              </node>
-                              <node concept="liA8E" id="7QbqkVW4p2G" role="2OqNvi">
-                                <ref role="37wK5l" to="vik9:~SelectionModel.getSelectedIndex():int" resolve="getSelectedIndex" />
                               </node>
                             </node>
+                          </node>
+                          <node concept="37vLTw" id="3YbyKXcO0YZ" role="3clFbw">
+                            <ref role="3cqZAo" node="3YbyKXcNVHE" resolve="uiInitialized" />
                           </node>
                         </node>
-                        <node concept="3clFbJ" id="7QbqkVW4ERB" role="3cqZAp">
-                          <node concept="3clFbS" id="7QbqkVW4ERE" role="3clFbx">
-                            <node concept="3clFbF" id="7QbqkVW4Coq" role="3cqZAp">
-                              <node concept="2OqwBi" id="7QbqkVW4p2I" role="3clFbG">
-                                <node concept="37vLTw" id="7QbqkVW4p2J" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="1U$SEulqeSB" resolve="focusController" />
-                                </node>
-                                <node concept="liA8E" id="7QbqkVW4p2K" role="2OqNvi">
-                                  <ref role="37wK5l" to="quhv:1U$SEulqx1o" resolve="myRequestFocusOnChild" />
-                                  <node concept="37vLTw" id="7QbqkVW4p2L" role="37wK5m">
-                                    <ref role="3cqZAo" node="7QbqkVW4p2A" resolve="i" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="1Wc70l" id="7QbqkVW4KwL" role="3clFbw">
-                            <node concept="3eOVzh" id="7QbqkVW4LhD" role="3uHU7w">
-                              <node concept="2OqwBi" id="7QbqkVW4RCe" role="3uHU7w">
-                                <node concept="2OqwBi" id="7QbqkVW4MES" role="2Oq$k0">
-                                  <node concept="Xjq3P" id="7QbqkVW4LvX" role="2Oq$k0">
-                                    <ref role="1HBi2w" node="3u6rNybdaVr" resolve="FX8TabForm" />
-                                  </node>
-                                  <node concept="liA8E" id="7QbqkVW4QfL" role="2OqNvi">
-                                    <ref role="37wK5l" to="vik9:~TabPane.getTabs():javafx.collections.ObservableList" resolve="getTabs" />
-                                  </node>
-                                </node>
-                                <node concept="liA8E" id="7QbqkVW4WKX" role="2OqNvi">
-                                  <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
-                                </node>
-                              </node>
-                              <node concept="37vLTw" id="7QbqkVW4KUa" role="3uHU7B">
-                                <ref role="3cqZAo" node="7QbqkVW4p2A" resolve="i" />
-                              </node>
-                            </node>
-                            <node concept="2d3UOw" id="7QbqkVW4FYF" role="3uHU7B">
-                              <node concept="37vLTw" id="7QbqkVW4Fm9" role="3uHU7B">
-                                <ref role="3cqZAo" node="7QbqkVW4p2A" resolve="i" />
-                              </node>
-                              <node concept="3cmrfG" id="7QbqkVW4Ggm" role="3uHU7w">
-                                <property role="3cmrfH" value="0" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
+                        <node concept="3clFbH" id="3YbyKXcL_u$" role="3cqZAp" />
                       </node>
                     </node>
                     <node concept="3uibUv" id="7QbqkVW4mwq" role="2Ghqu4">
@@ -21778,6 +22161,16 @@
             </node>
             <node concept="liA8E" id="5p1CQfO49j9" role="2OqNvi">
               <ref role="37wK5l" to="quhv:5p1CQfNZmAC" resolve="afterFullUiInitialized" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3YbyKXcO4rv" role="3cqZAp">
+          <node concept="37vLTI" id="3YbyKXcO4Te" role="3clFbG">
+            <node concept="3clFbT" id="3YbyKXcO5qg" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="3YbyKXcO4rt" role="37vLTJ">
+              <ref role="3cqZAo" node="3YbyKXcNVHE" resolve="uiInitialized" />
             </node>
           </node>
         </node>
@@ -27486,53 +27879,55 @@
               </node>
             </node>
             <node concept="3clFbH" id="2uKrRHVBLn1" role="3cqZAp" />
-            <node concept="3cpWs8" id="7fo5K04yEar" role="3cqZAp">
-              <node concept="3cpWsn" id="7fo5K04yEas" role="3cpWs9">
-                <property role="TrG5h" value="v" />
-                <property role="3TUv4t" value="false" />
-                <node concept="3uibUv" id="7fo5K04yEat" role="1tU5fm">
-                  <ref role="3uigEE" to="vik9:~TableView" resolve="TableView" />
-                </node>
-                <node concept="2OqwBi" id="7fo5K04yERk" role="33vP2m">
-                  <node concept="Xjq3P" id="7fo5K04yEl5" role="2Oq$k0">
-                    <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
-                  </node>
-                  <node concept="liA8E" id="7fo5K04yFMo" role="2OqNvi">
-                    <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
-                  </node>
-                </node>
+            <node concept="3SKdUt" id="3YbyKXcCABF" role="3cqZAp">
+              <node concept="3SKdUq" id="3YbyKXcCBh0" role="3SKWNk">
+                <property role="3SKdUp" value="posdiff is -1 or 1 " />
               </node>
             </node>
-            <node concept="3clFbH" id="7fo5K04yDar" role="3cqZAp" />
-            <node concept="3clFbH" id="twu79o6CUl" role="3cqZAp" />
-            <node concept="3cpWs8" id="7fo5K04yDr1" role="3cqZAp">
-              <node concept="3cpWsn" id="7fo5K04yDr4" role="3cpWs9">
-                <property role="TrG5h" value="requested" />
-                <property role="3TUv4t" value="false" />
-                <node concept="10Oyi0" id="7fo5K04yDqZ" role="1tU5fm" />
-                <node concept="3cpWs3" id="7fo5K04yDPg" role="33vP2m">
-                  <node concept="37vLTw" id="1c8XvQqtjr$" role="3uHU7w">
+            <node concept="3cpWs8" id="3YbyKXcJltp" role="3cqZAp">
+              <node concept="3cpWsn" id="3YbyKXcJltq" role="3cpWs9">
+                <property role="TrG5h" value="requestedIndex" />
+                <property role="3TUv4t" value="true" />
+                <node concept="10Oyi0" id="3YbyKXcJltr" role="1tU5fm" />
+                <node concept="3cpWs3" id="3YbyKXcJlts" role="33vP2m">
+                  <node concept="37vLTw" id="3YbyKXcJltt" role="3uHU7w">
                     <ref role="3cqZAo" node="1c8XvQqth3b" resolve="posdiff" />
                   </node>
-                  <node concept="2OqwBi" id="7fo5K04zoju" role="3uHU7B">
-                    <node concept="37vLTw" id="7fo5K04yDwC" role="2Oq$k0">
+                  <node concept="2OqwBi" id="3YbyKXcJltu" role="3uHU7B">
+                    <node concept="37vLTw" id="3YbyKXcJltv" role="2Oq$k0">
                       <ref role="3cqZAo" node="7fo5K04xXNp" resolve="pos" />
                     </node>
-                    <node concept="liA8E" id="7fo5K04zoxj" role="2OqNvi">
+                    <node concept="liA8E" id="3YbyKXcJltw" role="2OqNvi">
                       <ref role="37wK5l" to="vik9:~TablePositionBase.getRow():int" resolve="getRow" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="3YbyKXcJltx" role="3cqZAp">
+              <node concept="3cpWsn" id="3YbyKXcJlty" role="3cpWs9">
+                <property role="3TUv4t" value="true" />
+                <property role="TrG5h" value="colIndex" />
+                <node concept="10Oyi0" id="3YbyKXcJltz" role="1tU5fm" />
+                <node concept="2OqwBi" id="3YbyKXcJlt$" role="33vP2m">
+                  <node concept="37vLTw" id="3YbyKXcJlt_" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7fo5K04xXNp" resolve="pos" />
+                  </node>
+                  <node concept="liA8E" id="3YbyKXcJltA" role="2OqNvi">
+                    <ref role="37wK5l" to="vik9:~TablePosition.getColumn():int" resolve="getColumn" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3YbyKXcJkN2" role="3cqZAp" />
             <node concept="3cpWs8" id="3g5a6HapwM4" role="3cqZAp">
               <node concept="3cpWsn" id="3g5a6HapwM7" role="3cpWs9">
                 <property role="TrG5h" value="total" />
                 <node concept="10Oyi0" id="3g5a6HapwM2" role="1tU5fm" />
                 <node concept="2OqwBi" id="3g5a6HapyG8" role="33vP2m">
                   <node concept="2OqwBi" id="3g5a6Hapy8u" role="2Oq$k0">
-                    <node concept="37vLTw" id="3g5a6Hapy46" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7fo5K04yEas" resolve="v" />
+                    <node concept="1rXfSq" id="3YbyKXcJdHG" role="2Oq$k0">
+                      <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
                     </node>
                     <node concept="liA8E" id="3g5a6Hapys9" role="2OqNvi">
                       <ref role="37wK5l" to="vik9:~TableView.getItems():javafx.collections.ObservableList" resolve="getItems" />
@@ -27601,13 +27996,13 @@
                   <node concept="3cmrfG" id="Q4X4xPCGPw" role="3uHU7w">
                     <property role="3cmrfH" value="0" />
                   </node>
-                  <node concept="37vLTw" id="Q4X4xPCGhJ" role="3uHU7B">
-                    <ref role="3cqZAo" node="7fo5K04yDr4" resolve="requested" />
+                  <node concept="37vLTw" id="3YbyKXcJo3_" role="3uHU7B">
+                    <ref role="3cqZAo" node="3YbyKXcJltq" resolve="requestedIndex" />
                   </node>
                 </node>
                 <node concept="2d3UOw" id="7fo5K04yDUD" role="3uHU7B">
-                  <node concept="37vLTw" id="7fo5K04yDZv" role="3uHU7B">
-                    <ref role="3cqZAo" node="7fo5K04yDr4" resolve="requested" />
+                  <node concept="37vLTw" id="3YbyKXcJnqj" role="3uHU7B">
+                    <ref role="3cqZAo" node="3YbyKXcJltq" resolve="requestedIndex" />
                   </node>
                   <node concept="37vLTw" id="3g5a6Hapzrs" role="3uHU7w">
                     <ref role="3cqZAo" node="3g5a6HapwM7" resolve="total" />
@@ -27621,56 +28016,60 @@
                       <property role="3SKdUp" value="okay adjust .. " />
                     </node>
                   </node>
-                  <node concept="3clFbJ" id="3g5a6Haqh1L" role="3cqZAp">
-                    <node concept="3clFbS" id="3g5a6Haqh1O" role="3clFbx">
-                      <node concept="3clFbF" id="7QbqkVWFEnS" role="3cqZAp">
-                        <node concept="2OqwBi" id="7QbqkVWFEnT" role="3clFbG">
-                          <node concept="2OqwBi" id="7QbqkVWFEnU" role="2Oq$k0">
-                            <node concept="Xjq3P" id="7QbqkVWFEnV" role="2Oq$k0">
-                              <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
-                            </node>
-                            <node concept="liA8E" id="7QbqkVWFEnW" role="2OqNvi">
-                              <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
-                            </node>
-                          </node>
-                          <node concept="liA8E" id="7QbqkVWFGfy" role="2OqNvi">
-                            <ref role="37wK5l" to="vik9:~TableView.scrollTo(int):void" resolve="scrollTo" />
-                            <node concept="3cpWsd" id="3g5a6HaqjLX" role="37wK5m">
-                              <node concept="3cmrfG" id="3g5a6HaqjQq" role="3uHU7w">
-                                <property role="3cmrfH" value="5" />
+                  <node concept="3SKdUt" id="3YbyKXcJe1a" role="3cqZAp">
+                    <node concept="3SKWN0" id="3YbyKXcJe1b" role="3SKWNk">
+                      <node concept="3clFbJ" id="3g5a6Haqh1L" role="3SKWNf">
+                        <node concept="3clFbS" id="3g5a6Haqh1O" role="3clFbx">
+                          <node concept="3clFbF" id="7QbqkVWFEnS" role="3cqZAp">
+                            <node concept="2OqwBi" id="7QbqkVWFEnT" role="3clFbG">
+                              <node concept="2OqwBi" id="7QbqkVWFEnU" role="2Oq$k0">
+                                <node concept="Xjq3P" id="7QbqkVWFEnV" role="2Oq$k0">
+                                  <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
+                                </node>
+                                <node concept="liA8E" id="7QbqkVWFEnW" role="2OqNvi">
+                                  <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                </node>
                               </node>
-                              <node concept="37vLTw" id="7QbqkVWFGuj" role="3uHU7B">
-                                <ref role="3cqZAo" node="7fo5K04yDr4" resolve="requested" />
+                              <node concept="liA8E" id="7QbqkVWFGfy" role="2OqNvi">
+                                <ref role="37wK5l" to="vik9:~TableView.scrollTo(int):void" resolve="scrollTo" />
+                                <node concept="3cpWsd" id="3g5a6HaqjLX" role="37wK5m">
+                                  <node concept="3cmrfG" id="3g5a6HaqjQq" role="3uHU7w">
+                                    <property role="3cmrfH" value="5" />
+                                  </node>
+                                  <node concept="37vLTw" id="3YbyKXcJpg0" role="3uHU7B">
+                                    <ref role="3cqZAo" node="3YbyKXcJltq" resolve="requestedIndex" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
-                      </node>
-                    </node>
-                    <node concept="2d3UOw" id="3g5a6HaszPa" role="3clFbw">
-                      <node concept="37vLTw" id="3g5a6HaszPd" role="3uHU7B">
-                        <ref role="3cqZAo" node="7fo5K04yDr4" resolve="requested" />
-                      </node>
-                      <node concept="3cmrfG" id="3g5a6HaszPc" role="3uHU7w">
-                        <property role="3cmrfH" value="5" />
-                      </node>
-                    </node>
-                    <node concept="9aQIb" id="3g5a6HarJsx" role="9aQIa">
-                      <node concept="3clFbS" id="3g5a6HarJsy" role="9aQI4">
-                        <node concept="3clFbF" id="3g5a6HarJE1" role="3cqZAp">
-                          <node concept="2OqwBi" id="3g5a6HarJE2" role="3clFbG">
-                            <node concept="2OqwBi" id="3g5a6HarJE3" role="2Oq$k0">
-                              <node concept="Xjq3P" id="3g5a6HarJE4" role="2Oq$k0">
-                                <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
-                              </node>
-                              <node concept="liA8E" id="3g5a6HarJE5" role="2OqNvi">
-                                <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
-                              </node>
-                            </node>
-                            <node concept="liA8E" id="3g5a6HarJE6" role="2OqNvi">
-                              <ref role="37wK5l" to="vik9:~TableView.scrollTo(int):void" resolve="scrollTo" />
-                              <node concept="3cmrfG" id="3g5a6HarKml" role="37wK5m">
-                                <property role="3cmrfH" value="0" />
+                        <node concept="2d3UOw" id="3g5a6HaszPa" role="3clFbw">
+                          <node concept="37vLTw" id="3YbyKXcJot1" role="3uHU7B">
+                            <ref role="3cqZAo" node="3YbyKXcJltq" resolve="requestedIndex" />
+                          </node>
+                          <node concept="3cmrfG" id="3g5a6HaszPc" role="3uHU7w">
+                            <property role="3cmrfH" value="5" />
+                          </node>
+                        </node>
+                        <node concept="9aQIb" id="3g5a6HarJsx" role="9aQIa">
+                          <node concept="3clFbS" id="3g5a6HarJsy" role="9aQI4">
+                            <node concept="3clFbF" id="3g5a6HarJE1" role="3cqZAp">
+                              <node concept="2OqwBi" id="3g5a6HarJE2" role="3clFbG">
+                                <node concept="2OqwBi" id="3g5a6HarJE3" role="2Oq$k0">
+                                  <node concept="Xjq3P" id="3g5a6HarJE4" role="2Oq$k0">
+                                    <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
+                                  </node>
+                                  <node concept="liA8E" id="3g5a6HarJE5" role="2OqNvi">
+                                    <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="3g5a6HarJE6" role="2OqNvi">
+                                  <ref role="37wK5l" to="vik9:~TableView.scrollTo(int):void" resolve="scrollTo" />
+                                  <node concept="3cmrfG" id="3g5a6HarKml" role="37wK5m">
+                                    <property role="3cmrfH" value="0" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -27678,63 +28077,240 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="3g5a6HapzIB" role="3cqZAp" />
-                  <node concept="3clFbF" id="7fo5K04yIyY" role="3cqZAp">
-                    <node concept="2OqwBi" id="7fo5K04yJbR" role="3clFbG">
-                      <node concept="2OqwBi" id="7fo5K04yIOm" role="2Oq$k0">
-                        <node concept="37vLTw" id="7fo5K04yIyW" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7fo5K04yEas" resolve="v" />
-                        </node>
-                        <node concept="liA8E" id="7fo5K04yJ89" role="2OqNvi">
-                          <ref role="37wK5l" to="vik9:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="7fo5K04yJZ5" role="2OqNvi">
-                        <ref role="37wK5l" to="vik9:~MultipleSelectionModelBase.clearAndSelect(int):void" resolve="clearAndSelect" />
-                        <node concept="37vLTw" id="7fo5K04_pn8" role="37wK5m">
-                          <ref role="3cqZAo" node="7fo5K04yDr4" resolve="requested" />
+                  <node concept="3SKdUt" id="3YbyKXcJfve" role="3cqZAp">
+                    <node concept="3SKWN0" id="3YbyKXcJfvf" role="3SKWNk">
+                      <node concept="3clFbF" id="7fo5K04yIyY" role="3SKWNf">
+                        <node concept="2OqwBi" id="7fo5K04yJbR" role="3clFbG">
+                          <node concept="2OqwBi" id="7fo5K04yIOm" role="2Oq$k0">
+                            <node concept="1rXfSq" id="3YbyKXcJfcM" role="2Oq$k0">
+                              <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                            </node>
+                            <node concept="liA8E" id="7fo5K04yJ89" role="2OqNvi">
+                              <ref role="37wK5l" to="vik9:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="7fo5K04yJZ5" role="2OqNvi">
+                            <ref role="37wK5l" to="vik9:~MultipleSelectionModelBase.clearAndSelect(int):void" resolve="clearAndSelect" />
+                            <node concept="37vLTw" id="3YbyKXcJpKI" role="37wK5m">
+                              <ref role="3cqZAo" node="3YbyKXcJltq" resolve="requestedIndex" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
                   </node>
                   <node concept="3clFbH" id="3g5a6HarQL5" role="3cqZAp" />
-                  <node concept="3clFbF" id="7fo5K04x84X" role="3cqZAp">
-                    <node concept="2OqwBi" id="7fo5K04wcu_" role="3clFbG">
-                      <node concept="2OqwBi" id="7fo5K04u5Z5" role="2Oq$k0">
-                        <node concept="Xjq3P" id="7fo5K04u5Rq" role="2Oq$k0">
-                          <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
-                        </node>
-                        <node concept="liA8E" id="7fo5K04u7_K" role="2OqNvi">
-                          <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="7fo5K04wcQ0" role="2OqNvi">
-                        <ref role="37wK5l" to="vik9:~TableView.edit(int,javafx.scene.control.TableColumn):void" resolve="edit" />
-                        <node concept="37vLTw" id="7fo5K04yKki" role="37wK5m">
-                          <ref role="3cqZAo" node="7fo5K04yDr4" resolve="requested" />
-                        </node>
-                        <node concept="2OqwBi" id="7fo5K04wqAr" role="37wK5m">
-                          <node concept="2OqwBi" id="7fo5K04wpm_" role="2Oq$k0">
-                            <node concept="2OqwBi" id="7fo5K04wo9Y" role="2Oq$k0">
-                              <node concept="Xjq3P" id="7fo5K04wnQ_" role="2Oq$k0">
-                                <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
+                  <node concept="3clFbH" id="3YbyKXcJxEu" role="3cqZAp" />
+                  <node concept="3SKdUt" id="3YbyKXcJuXO" role="3cqZAp">
+                    <node concept="3SKdUq" id="3YbyKXcJuXP" role="3SKWNk">
+                      <property role="3SKdUp" value="Changed 12 Oct 15 Dan" />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="3YbyKXcJuXQ" role="3cqZAp">
+                    <node concept="3SKdUq" id="3YbyKXcJuXR" role="3SKWNk">
+                      <property role="3SKdUp" value="struggeling with javaFX fore some time now and came to a new solution. " />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="3YbyKXcJuXS" role="3cqZAp">
+                    <node concept="3SKdUq" id="3YbyKXcJuXT" role="3SKWNk">
+                      <property role="3SKdUp" value="adjust table selection by faking a UP / DOWN key event " />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="3YbyKXcJuXU" role="3cqZAp">
+                    <node concept="3SKdUq" id="3YbyKXcJuXV" role="3SKWNk">
+                      <property role="3SKdUp" value="which will end up in scrolling behaviour. " />
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="3YbyKXcJuXW" role="3cqZAp">
+                    <node concept="3clFbS" id="3YbyKXcJuXX" role="3clFbx">
+                      <node concept="3clFbF" id="3YbyKXcJuXY" role="3cqZAp">
+                        <node concept="2OqwBi" id="3YbyKXcJuXZ" role="3clFbG">
+                          <node concept="1rXfSq" id="3YbyKXcJuY0" role="2Oq$k0">
+                            <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                          </node>
+                          <node concept="liA8E" id="3YbyKXcJuY1" role="2OqNvi">
+                            <ref role="37wK5l" to="3cy2:~Node.fireEvent(javafx.event.Event):void" resolve="fireEvent" />
+                            <node concept="2ShNRf" id="3YbyKXcJuY2" role="37wK5m">
+                              <node concept="1pGfFk" id="3YbyKXcJuY3" role="2ShVmc">
+                                <ref role="37wK5l" to="9a92:~KeyEvent.&lt;init&gt;(java.lang.Object,javafx.event.EventTarget,javafx.event.EventType,java.lang.String,java.lang.String,javafx.scene.input.KeyCode,boolean,boolean,boolean,boolean)" resolve="KeyEvent" />
+                                <node concept="Xjq3P" id="3YbyKXcJuY4" role="37wK5m" />
+                                <node concept="1rXfSq" id="3YbyKXcJuY5" role="37wK5m">
+                                  <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                </node>
+                                <node concept="10M0yZ" id="3YbyKXcJuY6" role="37wK5m">
+                                  <ref role="1PxDUh" to="9a92:~KeyEvent" resolve="KeyEvent" />
+                                  <ref role="3cqZAo" to="9a92:~KeyEvent.KEY_PRESSED" resolve="KEY_PRESSED" />
+                                </node>
+                                <node concept="Xl_RD" id="3YbyKXcJuY7" role="37wK5m">
+                                  <property role="Xl_RC" value="DOWN" />
+                                </node>
+                                <node concept="Xl_RD" id="3YbyKXcJuY8" role="37wK5m">
+                                  <property role="Xl_RC" value="DOWN" />
+                                </node>
+                                <node concept="Rm8GO" id="3YbyKXcJuY9" role="37wK5m">
+                                  <ref role="Rm8GQ" to="9a92:~KeyCode.DOWN" resolve="DOWN" />
+                                  <ref role="1Px2BO" to="9a92:~KeyCode" resolve="KeyCode" />
+                                </node>
+                                <node concept="3clFbT" id="3YbyKXcJuYa" role="37wK5m">
+                                  <property role="3clFbU" value="false" />
+                                </node>
+                                <node concept="3clFbT" id="3YbyKXcJuYb" role="37wK5m">
+                                  <property role="3clFbU" value="false" />
+                                </node>
+                                <node concept="3clFbT" id="3YbyKXcJuYc" role="37wK5m">
+                                  <property role="3clFbU" value="false" />
+                                </node>
+                                <node concept="3clFbT" id="3YbyKXcJuYd" role="37wK5m">
+                                  <property role="3clFbU" value="false" />
+                                </node>
                               </node>
-                              <node concept="liA8E" id="7fo5K04wpbM" role="2OqNvi">
-                                <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
-                              </node>
-                            </node>
-                            <node concept="liA8E" id="7fo5K04wq27" role="2OqNvi">
-                              <ref role="37wK5l" to="vik9:~TableView.getColumns():javafx.collections.ObservableList" resolve="getColumns" />
                             </node>
                           </node>
-                          <node concept="liA8E" id="7fo5K04wrmd" role="2OqNvi">
-                            <ref role="37wK5l" to="k7g3:~List.get(int):java.lang.Object" resolve="get" />
-                            <node concept="2OqwBi" id="7fo5K04xZAe" role="37wK5m">
-                              <node concept="37vLTw" id="7fo5K04xZk_" role="2Oq$k0">
-                                <ref role="3cqZAo" node="7fo5K04xXNp" resolve="pos" />
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="3YbyKXcJuYe" role="3cqZAp" />
+                    </node>
+                    <node concept="3clFbC" id="3YbyKXcJuYf" role="3clFbw">
+                      <node concept="3cmrfG" id="3YbyKXcJuYg" role="3uHU7w">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                      <node concept="37vLTw" id="3YbyKXcJuYh" role="3uHU7B">
+                        <ref role="3cqZAo" node="1c8XvQqth3b" resolve="posdiff" />
+                      </node>
+                    </node>
+                    <node concept="3eNFk2" id="3YbyKXcJuYi" role="3eNLev">
+                      <node concept="3clFbC" id="3YbyKXcJuYj" role="3eO9$A">
+                        <node concept="37vLTw" id="3YbyKXcJuYk" role="3uHU7B">
+                          <ref role="3cqZAo" node="1c8XvQqth3b" resolve="posdiff" />
+                        </node>
+                        <node concept="3cmrfG" id="3YbyKXcJuYl" role="3uHU7w">
+                          <property role="3cmrfH" value="-1" />
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="3YbyKXcJuYm" role="3eOfB_">
+                        <node concept="3clFbF" id="3YbyKXcJuYn" role="3cqZAp">
+                          <node concept="2OqwBi" id="3YbyKXcJuYo" role="3clFbG">
+                            <node concept="1rXfSq" id="3YbyKXcJuYp" role="2Oq$k0">
+                              <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                            </node>
+                            <node concept="liA8E" id="3YbyKXcJuYq" role="2OqNvi">
+                              <ref role="37wK5l" to="3cy2:~Node.fireEvent(javafx.event.Event):void" resolve="fireEvent" />
+                              <node concept="2ShNRf" id="3YbyKXcJuYr" role="37wK5m">
+                                <node concept="1pGfFk" id="3YbyKXcJuYs" role="2ShVmc">
+                                  <ref role="37wK5l" to="9a92:~KeyEvent.&lt;init&gt;(java.lang.Object,javafx.event.EventTarget,javafx.event.EventType,java.lang.String,java.lang.String,javafx.scene.input.KeyCode,boolean,boolean,boolean,boolean)" resolve="KeyEvent" />
+                                  <node concept="Xjq3P" id="3YbyKXcJuYt" role="37wK5m" />
+                                  <node concept="1rXfSq" id="3YbyKXcJuYu" role="37wK5m">
+                                    <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                  </node>
+                                  <node concept="10M0yZ" id="3YbyKXcJuYv" role="37wK5m">
+                                    <ref role="1PxDUh" to="9a92:~KeyEvent" resolve="KeyEvent" />
+                                    <ref role="3cqZAo" to="9a92:~KeyEvent.KEY_PRESSED" resolve="KEY_PRESSED" />
+                                  </node>
+                                  <node concept="Xl_RD" id="3YbyKXcJuYw" role="37wK5m">
+                                    <property role="Xl_RC" value="UP" />
+                                  </node>
+                                  <node concept="Xl_RD" id="3YbyKXcJuYx" role="37wK5m">
+                                    <property role="Xl_RC" value="UP" />
+                                  </node>
+                                  <node concept="Rm8GO" id="3YbyKXcJuYy" role="37wK5m">
+                                    <ref role="1Px2BO" to="9a92:~KeyCode" resolve="KeyCode" />
+                                    <ref role="Rm8GQ" to="9a92:~KeyCode.UP" resolve="UP" />
+                                  </node>
+                                  <node concept="3clFbT" id="3YbyKXcJuYz" role="37wK5m">
+                                    <property role="3clFbU" value="false" />
+                                  </node>
+                                  <node concept="3clFbT" id="3YbyKXcJuY$" role="37wK5m">
+                                    <property role="3clFbU" value="false" />
+                                  </node>
+                                  <node concept="3clFbT" id="3YbyKXcJuY_" role="37wK5m">
+                                    <property role="3clFbU" value="false" />
+                                  </node>
+                                  <node concept="3clFbT" id="3YbyKXcJuYA" role="37wK5m">
+                                    <property role="3clFbU" value="false" />
+                                  </node>
+                                </node>
                               </node>
-                              <node concept="liA8E" id="7fo5K04y03u" role="2OqNvi">
-                                <ref role="37wK5l" to="vik9:~TablePosition.getColumn():int" resolve="getColumn" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="3YbyKXcJuYB" role="3cqZAp" />
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="3YbyKXcJuYC" role="9aQIa">
+                      <node concept="3clFbS" id="3YbyKXcJuYD" role="9aQI4">
+                        <node concept="YS8fn" id="3YbyKXcJuYE" role="3cqZAp">
+                          <node concept="2ShNRf" id="3YbyKXcJuYF" role="YScLw">
+                            <node concept="1pGfFk" id="3YbyKXcJuYG" role="2ShVmc">
+                              <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                              <node concept="Xl_RD" id="3YbyKXcJuYH" role="37wK5m">
+                                <property role="Xl_RC" value="This can not be true." />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="3YbyKXcJuYI" role="3cqZAp" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="3YbyKXcJv8j" role="3cqZAp" />
+                  <node concept="3clFbF" id="3YbyKXcJv8k" role="3cqZAp">
+                    <node concept="2YIFZM" id="3YbyKXcJv8l" role="3clFbG">
+                      <ref role="1Pybhc" to="l2mm:~Platform" resolve="Platform" />
+                      <ref role="37wK5l" to="l2mm:~Platform.runLater(java.lang.Runnable):void" resolve="runLater" />
+                      <node concept="2ShNRf" id="3YbyKXcJv8m" role="37wK5m">
+                        <node concept="YeOm9" id="3YbyKXcJv8n" role="2ShVmc">
+                          <node concept="1Y3b0j" id="3YbyKXcJv8o" role="YeSDq">
+                            <property role="2bfB8j" value="true" />
+                            <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
+                            <ref role="1Y3XeK" to="e2lb:~Runnable" resolve="Runnable" />
+                            <node concept="3Tm1VV" id="3YbyKXcJv8p" role="1B3o_S" />
+                            <node concept="3clFb_" id="3YbyKXcJv8q" role="jymVt">
+                              <property role="1EzhhJ" value="false" />
+                              <property role="TrG5h" value="run" />
+                              <property role="DiZV1" value="false" />
+                              <property role="IEkAT" value="false" />
+                              <node concept="3Tm1VV" id="3YbyKXcJv8r" role="1B3o_S" />
+                              <node concept="3cqZAl" id="3YbyKXcJv8s" role="3clF45" />
+                              <node concept="3clFbS" id="3YbyKXcJv8t" role="3clF47">
+                                <node concept="3clFbF" id="3YbyKXcJv8u" role="3cqZAp">
+                                  <node concept="2OqwBi" id="3YbyKXcJv8v" role="3clFbG">
+                                    <node concept="2OqwBi" id="3YbyKXcJv8w" role="2Oq$k0">
+                                      <node concept="Xjq3P" id="3YbyKXcJv8x" role="2Oq$k0">
+                                        <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
+                                      </node>
+                                      <node concept="liA8E" id="3YbyKXcJv8y" role="2OqNvi">
+                                        <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                      </node>
+                                    </node>
+                                    <node concept="liA8E" id="3YbyKXcJv8z" role="2OqNvi">
+                                      <ref role="37wK5l" to="vik9:~TableView.edit(int,javafx.scene.control.TableColumn):void" resolve="edit" />
+                                      <node concept="37vLTw" id="3YbyKXcJv8$" role="37wK5m">
+                                        <ref role="3cqZAo" node="3YbyKXcJltq" resolve="requestedIndex" />
+                                      </node>
+                                      <node concept="2OqwBi" id="3YbyKXcJv8_" role="37wK5m">
+                                        <node concept="2OqwBi" id="3YbyKXcJv8A" role="2Oq$k0">
+                                          <node concept="2OqwBi" id="3YbyKXcJv8B" role="2Oq$k0">
+                                            <node concept="Xjq3P" id="3YbyKXcJv8C" role="2Oq$k0">
+                                              <ref role="1HBi2w" node="7fo5K04hhQd" resolve="FX8EditCellBigdeci" />
+                                            </node>
+                                            <node concept="liA8E" id="3YbyKXcJv8D" role="2OqNvi">
+                                              <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                            </node>
+                                          </node>
+                                          <node concept="liA8E" id="3YbyKXcJv8E" role="2OqNvi">
+                                            <ref role="37wK5l" to="vik9:~TableView.getColumns():javafx.collections.ObservableList" resolve="getColumns" />
+                                          </node>
+                                        </node>
+                                        <node concept="liA8E" id="3YbyKXcJv8F" role="2OqNvi">
+                                          <ref role="37wK5l" to="k7g3:~List.get(int):java.lang.Object" resolve="get" />
+                                          <node concept="37vLTw" id="3YbyKXcJv8G" role="37wK5m">
+                                            <ref role="3cqZAo" node="3YbyKXcJlty" resolve="colIndex" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -30634,6 +31210,25 @@
                                 </node>
                               </node>
                             </node>
+                            <node concept="3clFbF" id="3YbyKXcExo4" role="3cqZAp">
+                              <node concept="2OqwBi" id="3YbyKXcExo1" role="3clFbG">
+                                <node concept="10M0yZ" id="3YbyKXcExo2" role="2Oq$k0">
+                                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                                  <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                                </node>
+                                <node concept="liA8E" id="3YbyKXcExo3" role="2OqNvi">
+                                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                  <node concept="3cpWs3" id="3YbyKXcExMP" role="37wK5m">
+                                    <node concept="37vLTw" id="3YbyKXcEy95" role="3uHU7w">
+                                      <ref role="3cqZAo" node="2QOegXSYTCh" resolve="keyEvent" />
+                                    </node>
+                                    <node concept="Xl_RD" id="3YbyKXcExCY" role="3uHU7B">
+                                      <property role="Xl_RC" value=" KEYEVENT: " />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                             <node concept="3clFbF" id="2QOegXSYTDi" role="3cqZAp">
                               <node concept="1rXfSq" id="2QOegXSYTDj" role="3clFbG">
                                 <ref role="37wK5l" node="2QOegXSYTDT" resolve="adjustPosition" />
@@ -30645,6 +31240,7 @@
                                 </node>
                               </node>
                             </node>
+                            <node concept="3clFbH" id="3YbyKXcEx0N" role="3cqZAp" />
                           </node>
                           <node concept="2OqwBi" id="2QOegXSYTDm" role="3clFbw">
                             <node concept="2OqwBi" id="2QOegXSYTDn" role="2Oq$k0">
@@ -30657,8 +31253,8 @@
                             </node>
                             <node concept="liA8E" id="2QOegXSYTDq" role="2OqNvi">
                               <ref role="37wK5l" to="e2lb:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
-                              <node concept="Rm8GO" id="6a7yW3CvwMj" role="37wK5m">
-                                <ref role="Rm8GQ" to="9a92:~KeyCode.F3" resolve="F3" />
+                              <node concept="Rm8GO" id="3YbyKXcCEXd" role="37wK5m">
+                                <ref role="Rm8GQ" to="9a92:~KeyCode.DOWN" resolve="DOWN" />
                                 <ref role="1Px2BO" to="9a92:~KeyCode" resolve="KeyCode" />
                               </node>
                             </node>
@@ -30700,8 +31296,8 @@
                             </node>
                             <node concept="liA8E" id="2QOegXSYTDF" role="2OqNvi">
                               <ref role="37wK5l" to="e2lb:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
-                              <node concept="Rm8GO" id="6a7yW3CvwQK" role="37wK5m">
-                                <ref role="Rm8GQ" to="9a92:~KeyCode.F4" resolve="F4" />
+                              <node concept="Rm8GO" id="3YbyKXcCEV9" role="37wK5m">
+                                <ref role="Rm8GQ" to="9a92:~KeyCode.UP" resolve="UP" />
                                 <ref role="1Px2BO" to="9a92:~KeyCode" resolve="KeyCode" />
                               </node>
                             </node>
@@ -31659,6 +32255,7 @@
       </node>
       <node concept="3Tm1VV" id="9DTpeq$pAY" role="1B3o_S" />
     </node>
+    <node concept="2tJIrI" id="3YbyKXcIEm7" role="jymVt" />
     <node concept="3clFb_" id="9DTpeq$pAZ" role="jymVt">
       <property role="TrG5h" value="startEdit" />
       <property role="DiZV1" value="false" />
@@ -32373,7 +32970,8 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="9DTpeq$pGk" role="3cqZAp" />
+        <node concept="3clFbH" id="3YbyKXcIyKS" role="3cqZAp" />
+        <node concept="3clFbH" id="3YbyKXcIzDr" role="3cqZAp" />
         <node concept="3clFbJ" id="9DTpeq$pGl" role="3cqZAp">
           <node concept="3clFbS" id="9DTpeq$pGm" role="3clFbx">
             <node concept="3clFbF" id="9DTpeq$pGn" role="3cqZAp">
@@ -32427,29 +33025,11 @@
               </node>
             </node>
             <node concept="3clFbH" id="9DTpeq$pGD" role="3cqZAp" />
-            <node concept="3cpWs8" id="9DTpeq$pGE" role="3cqZAp">
-              <node concept="3cpWsn" id="9DTpeq$pGF" role="3cpWs9">
-                <property role="TrG5h" value="v" />
-                <property role="3TUv4t" value="false" />
-                <node concept="3uibUv" id="9DTpeq$pGG" role="1tU5fm">
-                  <ref role="3uigEE" to="vik9:~TableView" resolve="TableView" />
-                </node>
-                <node concept="2OqwBi" id="9DTpeq$pGH" role="33vP2m">
-                  <node concept="Xjq3P" id="9DTpeq$pGI" role="2Oq$k0">
-                    <ref role="1HBi2w" node="9DTpeq$pAy" resolve="FX8EditCellStatus" />
-                  </node>
-                  <node concept="liA8E" id="9DTpeq$pGJ" role="2OqNvi">
-                    <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbH" id="9DTpeq$pGK" role="3cqZAp" />
-            <node concept="3clFbH" id="9DTpeq$pGL" role="3cqZAp" />
             <node concept="3cpWs8" id="9DTpeq$pGM" role="3cqZAp">
               <node concept="3cpWsn" id="9DTpeq$pGN" role="3cpWs9">
-                <property role="TrG5h" value="requested" />
-                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="requestedIndex" />
+                <property role="3TUv4t" value="true" />
                 <node concept="10Oyi0" id="9DTpeq$pGO" role="1tU5fm" />
                 <node concept="3cpWs3" id="9DTpeq$pGP" role="33vP2m">
                   <node concept="37vLTw" id="9DTpeq$pGQ" role="3uHU7w">
@@ -32466,14 +33046,30 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="3YbyKXcIMp6" role="3cqZAp">
+              <node concept="3cpWsn" id="3YbyKXcIMp9" role="3cpWs9">
+                <property role="3TUv4t" value="true" />
+                <property role="TrG5h" value="colIndex" />
+                <node concept="10Oyi0" id="3YbyKXcIMp4" role="1tU5fm" />
+                <node concept="2OqwBi" id="3YbyKXcINY$" role="33vP2m">
+                  <node concept="37vLTw" id="3YbyKXcINVr" role="2Oq$k0">
+                    <ref role="3cqZAo" node="9DTpeq$pGd" resolve="pos" />
+                  </node>
+                  <node concept="liA8E" id="3YbyKXcIOc7" role="2OqNvi">
+                    <ref role="37wK5l" to="vik9:~TablePosition.getColumn():int" resolve="getColumn" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3YbyKXcIOiw" role="3cqZAp" />
             <node concept="3cpWs8" id="9DTpeq$pGU" role="3cqZAp">
               <node concept="3cpWsn" id="9DTpeq$pGV" role="3cpWs9">
                 <property role="TrG5h" value="total" />
                 <node concept="10Oyi0" id="9DTpeq$pGW" role="1tU5fm" />
                 <node concept="2OqwBi" id="9DTpeq$pGX" role="33vP2m">
                   <node concept="2OqwBi" id="9DTpeq$pGY" role="2Oq$k0">
-                    <node concept="37vLTw" id="9DTpeq$pGZ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="9DTpeq$pGF" resolve="v" />
+                    <node concept="1rXfSq" id="3YbyKXcIUoU" role="2Oq$k0">
+                      <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
                     </node>
                     <node concept="liA8E" id="9DTpeq$pH0" role="2OqNvi">
                       <ref role="37wK5l" to="vik9:~TableView.getItems():javafx.collections.ObservableList" resolve="getItems" />
@@ -32485,7 +33081,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="9DTpeq$pH2" role="3cqZAp" />
             <node concept="3clFbJ" id="9DTpeq$pH3" role="3cqZAp">
               <node concept="3clFbS" id="9DTpeq$pH4" role="3clFbx">
                 <node concept="3SKdUt" id="9DTpeq$pH5" role="3cqZAp">
@@ -32543,12 +33138,12 @@
                     <property role="3cmrfH" value="0" />
                   </node>
                   <node concept="37vLTw" id="9DTpeq$pHs" role="3uHU7B">
-                    <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requested" />
+                    <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requestedIndex" />
                   </node>
                 </node>
                 <node concept="2d3UOw" id="9DTpeq$pHt" role="3uHU7B">
                   <node concept="37vLTw" id="9DTpeq$pHu" role="3uHU7B">
-                    <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requested" />
+                    <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requestedIndex" />
                   </node>
                   <node concept="37vLTw" id="9DTpeq$pHv" role="3uHU7w">
                     <ref role="3cqZAo" node="9DTpeq$pGV" resolve="total" />
@@ -32562,56 +33157,60 @@
                       <property role="3SKdUp" value="okay adjust .. " />
                     </node>
                   </node>
-                  <node concept="3clFbJ" id="9DTpeq$pH$" role="3cqZAp">
-                    <node concept="3clFbS" id="9DTpeq$pH_" role="3clFbx">
-                      <node concept="3clFbF" id="9DTpeq$pHA" role="3cqZAp">
-                        <node concept="2OqwBi" id="9DTpeq$pHB" role="3clFbG">
-                          <node concept="2OqwBi" id="9DTpeq$pHC" role="2Oq$k0">
-                            <node concept="Xjq3P" id="9DTpeq$pHD" role="2Oq$k0">
-                              <ref role="1HBi2w" node="9DTpeq$pAy" resolve="FX8EditCellStatus" />
-                            </node>
-                            <node concept="liA8E" id="9DTpeq$pHE" role="2OqNvi">
-                              <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
-                            </node>
-                          </node>
-                          <node concept="liA8E" id="9DTpeq$pHF" role="2OqNvi">
-                            <ref role="37wK5l" to="vik9:~TableView.scrollTo(int):void" resolve="scrollTo" />
-                            <node concept="3cpWsd" id="9DTpeq$pHG" role="37wK5m">
-                              <node concept="3cmrfG" id="9DTpeq$pHH" role="3uHU7w">
-                                <property role="3cmrfH" value="5" />
+                  <node concept="3SKdUt" id="3YbyKXcH$6r" role="3cqZAp">
+                    <node concept="3SKWN0" id="3YbyKXcH$6s" role="3SKWNk">
+                      <node concept="3clFbJ" id="9DTpeq$pH$" role="3SKWNf">
+                        <node concept="3clFbS" id="9DTpeq$pH_" role="3clFbx">
+                          <node concept="3clFbF" id="9DTpeq$pHA" role="3cqZAp">
+                            <node concept="2OqwBi" id="9DTpeq$pHB" role="3clFbG">
+                              <node concept="2OqwBi" id="9DTpeq$pHC" role="2Oq$k0">
+                                <node concept="Xjq3P" id="9DTpeq$pHD" role="2Oq$k0">
+                                  <ref role="1HBi2w" node="9DTpeq$pAy" resolve="FX8EditCellStatus" />
+                                </node>
+                                <node concept="liA8E" id="9DTpeq$pHE" role="2OqNvi">
+                                  <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                </node>
                               </node>
-                              <node concept="37vLTw" id="9DTpeq$pHI" role="3uHU7B">
-                                <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requested" />
+                              <node concept="liA8E" id="9DTpeq$pHF" role="2OqNvi">
+                                <ref role="37wK5l" to="vik9:~TableView.scrollTo(int):void" resolve="scrollTo" />
+                                <node concept="3cpWsd" id="9DTpeq$pHG" role="37wK5m">
+                                  <node concept="3cmrfG" id="9DTpeq$pHH" role="3uHU7w">
+                                    <property role="3cmrfH" value="5" />
+                                  </node>
+                                  <node concept="37vLTw" id="9DTpeq$pHI" role="3uHU7B">
+                                    <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requestedIndex" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
-                      </node>
-                    </node>
-                    <node concept="2d3UOw" id="9DTpeq$pHJ" role="3clFbw">
-                      <node concept="37vLTw" id="9DTpeq$pHK" role="3uHU7B">
-                        <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requested" />
-                      </node>
-                      <node concept="3cmrfG" id="9DTpeq$pHL" role="3uHU7w">
-                        <property role="3cmrfH" value="5" />
-                      </node>
-                    </node>
-                    <node concept="9aQIb" id="9DTpeq$pHM" role="9aQIa">
-                      <node concept="3clFbS" id="9DTpeq$pHN" role="9aQI4">
-                        <node concept="3clFbF" id="9DTpeq$pHO" role="3cqZAp">
-                          <node concept="2OqwBi" id="9DTpeq$pHP" role="3clFbG">
-                            <node concept="2OqwBi" id="9DTpeq$pHQ" role="2Oq$k0">
-                              <node concept="Xjq3P" id="9DTpeq$pHR" role="2Oq$k0">
-                                <ref role="1HBi2w" node="9DTpeq$pAy" resolve="FX8EditCellStatus" />
-                              </node>
-                              <node concept="liA8E" id="9DTpeq$pHS" role="2OqNvi">
-                                <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
-                              </node>
-                            </node>
-                            <node concept="liA8E" id="9DTpeq$pHT" role="2OqNvi">
-                              <ref role="37wK5l" to="vik9:~TableView.scrollTo(int):void" resolve="scrollTo" />
-                              <node concept="3cmrfG" id="9DTpeq$pHU" role="37wK5m">
-                                <property role="3cmrfH" value="0" />
+                        <node concept="2d3UOw" id="9DTpeq$pHJ" role="3clFbw">
+                          <node concept="37vLTw" id="9DTpeq$pHK" role="3uHU7B">
+                            <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requestedIndex" />
+                          </node>
+                          <node concept="3cmrfG" id="9DTpeq$pHL" role="3uHU7w">
+                            <property role="3cmrfH" value="5" />
+                          </node>
+                        </node>
+                        <node concept="9aQIb" id="9DTpeq$pHM" role="9aQIa">
+                          <node concept="3clFbS" id="9DTpeq$pHN" role="9aQI4">
+                            <node concept="3clFbF" id="9DTpeq$pHO" role="3cqZAp">
+                              <node concept="2OqwBi" id="9DTpeq$pHP" role="3clFbG">
+                                <node concept="2OqwBi" id="9DTpeq$pHQ" role="2Oq$k0">
+                                  <node concept="Xjq3P" id="9DTpeq$pHR" role="2Oq$k0">
+                                    <ref role="1HBi2w" node="9DTpeq$pAy" resolve="FX8EditCellStatus" />
+                                  </node>
+                                  <node concept="liA8E" id="9DTpeq$pHS" role="2OqNvi">
+                                    <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="9DTpeq$pHT" role="2OqNvi">
+                                  <ref role="37wK5l" to="vik9:~TableView.scrollTo(int):void" resolve="scrollTo" />
+                                  <node concept="3cmrfG" id="9DTpeq$pHU" role="37wK5m">
+                                    <property role="3cmrfH" value="0" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -32619,63 +33218,242 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="9DTpeq$pHV" role="3cqZAp" />
-                  <node concept="3clFbF" id="9DTpeq$pHW" role="3cqZAp">
-                    <node concept="2OqwBi" id="9DTpeq$pHX" role="3clFbG">
-                      <node concept="2OqwBi" id="9DTpeq$pHY" role="2Oq$k0">
-                        <node concept="37vLTw" id="9DTpeq$pHZ" role="2Oq$k0">
-                          <ref role="3cqZAo" node="9DTpeq$pGF" resolve="v" />
-                        </node>
-                        <node concept="liA8E" id="9DTpeq$pI0" role="2OqNvi">
-                          <ref role="37wK5l" to="vik9:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="9DTpeq$pI1" role="2OqNvi">
-                        <ref role="37wK5l" to="vik9:~MultipleSelectionModelBase.clearAndSelect(int):void" resolve="clearAndSelect" />
-                        <node concept="37vLTw" id="9DTpeq$pI2" role="37wK5m">
-                          <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requested" />
+                  <node concept="3SKdUt" id="3YbyKXcHAND" role="3cqZAp">
+                    <node concept="3SKWN0" id="3YbyKXcHANE" role="3SKWNk">
+                      <node concept="3clFbF" id="9DTpeq$pHW" role="3SKWNf">
+                        <node concept="2OqwBi" id="9DTpeq$pHX" role="3clFbG">
+                          <node concept="2OqwBi" id="9DTpeq$pHY" role="2Oq$k0">
+                            <node concept="2OqwBi" id="3YbyKXcISSd" role="2Oq$k0">
+                              <node concept="Xjq3P" id="3YbyKXcISnH" role="2Oq$k0" />
+                              <node concept="liA8E" id="3YbyKXcITSi" role="2OqNvi">
+                                <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="9DTpeq$pI0" role="2OqNvi">
+                              <ref role="37wK5l" to="vik9:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="9DTpeq$pI1" role="2OqNvi">
+                            <ref role="37wK5l" to="vik9:~MultipleSelectionModelBase.clearAndSelect(int):void" resolve="clearAndSelect" />
+                            <node concept="37vLTw" id="9DTpeq$pI2" role="37wK5m">
+                              <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requestedIndex" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
                   </node>
                   <node concept="3clFbH" id="9DTpeq$pI3" role="3cqZAp" />
-                  <node concept="3clFbF" id="9DTpeq$pI4" role="3cqZAp">
-                    <node concept="2OqwBi" id="9DTpeq$pI5" role="3clFbG">
-                      <node concept="2OqwBi" id="9DTpeq$pI6" role="2Oq$k0">
-                        <node concept="Xjq3P" id="9DTpeq$pI7" role="2Oq$k0">
-                          <ref role="1HBi2w" node="9DTpeq$pAy" resolve="FX8EditCellStatus" />
-                        </node>
-                        <node concept="liA8E" id="9DTpeq$pI8" role="2OqNvi">
-                          <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="9DTpeq$pI9" role="2OqNvi">
-                        <ref role="37wK5l" to="vik9:~TableView.edit(int,javafx.scene.control.TableColumn):void" resolve="edit" />
-                        <node concept="37vLTw" id="9DTpeq$pIa" role="37wK5m">
-                          <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requested" />
-                        </node>
-                        <node concept="2OqwBi" id="9DTpeq$pIb" role="37wK5m">
-                          <node concept="2OqwBi" id="9DTpeq$pIc" role="2Oq$k0">
-                            <node concept="2OqwBi" id="9DTpeq$pId" role="2Oq$k0">
-                              <node concept="Xjq3P" id="9DTpeq$pIe" role="2Oq$k0">
-                                <ref role="1HBi2w" node="9DTpeq$pAy" resolve="FX8EditCellStatus" />
+                  <node concept="3SKdUt" id="3YbyKXcHD1I" role="3cqZAp">
+                    <node concept="3SKdUq" id="3YbyKXcHD_t" role="3SKWNk">
+                      <property role="3SKdUp" value="Changed 12 Oct 15 Dan" />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="3YbyKXcHEtD" role="3cqZAp">
+                    <node concept="3SKdUq" id="3YbyKXcHF2g" role="3SKWNk">
+                      <property role="3SKdUp" value="struggeling with javaFX fore some time now and came to a new solution. " />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="3YbyKXcHFZy" role="3cqZAp">
+                    <node concept="3SKdUq" id="3YbyKXcHGzl" role="3SKWNk">
+                      <property role="3SKdUp" value="adjust table selection by faking a UP / DOWN key event " />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="3YbyKXcHJcP" role="3cqZAp">
+                    <node concept="3SKdUq" id="3YbyKXcHJKD" role="3SKWNk">
+                      <property role="3SKdUp" value="which will end up in scrolling behaviour. " />
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="3YbyKXcHLiF" role="3cqZAp">
+                    <node concept="3clFbS" id="3YbyKXcHLiH" role="3clFbx">
+                      <node concept="3clFbF" id="3YbyKXcJ9la" role="3cqZAp">
+                        <node concept="2OqwBi" id="3YbyKXcJ9lb" role="3clFbG">
+                          <node concept="1rXfSq" id="3YbyKXcJ9lc" role="2Oq$k0">
+                            <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                          </node>
+                          <node concept="liA8E" id="3YbyKXcJ9ld" role="2OqNvi">
+                            <ref role="37wK5l" to="3cy2:~Node.fireEvent(javafx.event.Event):void" resolve="fireEvent" />
+                            <node concept="2ShNRf" id="3YbyKXcJ9le" role="37wK5m">
+                              <node concept="1pGfFk" id="3YbyKXcJ9lf" role="2ShVmc">
+                                <ref role="37wK5l" to="9a92:~KeyEvent.&lt;init&gt;(java.lang.Object,javafx.event.EventTarget,javafx.event.EventType,java.lang.String,java.lang.String,javafx.scene.input.KeyCode,boolean,boolean,boolean,boolean)" resolve="KeyEvent" />
+                                <node concept="Xjq3P" id="3YbyKXcJ9lg" role="37wK5m" />
+                                <node concept="1rXfSq" id="3YbyKXcJ9lh" role="37wK5m">
+                                  <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                </node>
+                                <node concept="10M0yZ" id="3YbyKXcJ9li" role="37wK5m">
+                                  <ref role="1PxDUh" to="9a92:~KeyEvent" resolve="KeyEvent" />
+                                  <ref role="3cqZAo" to="9a92:~KeyEvent.KEY_PRESSED" resolve="KEY_PRESSED" />
+                                </node>
+                                <node concept="Xl_RD" id="3YbyKXcJ9lj" role="37wK5m">
+                                  <property role="Xl_RC" value="DOWN" />
+                                </node>
+                                <node concept="Xl_RD" id="3YbyKXcJ9lk" role="37wK5m">
+                                  <property role="Xl_RC" value="DOWN" />
+                                </node>
+                                <node concept="Rm8GO" id="3YbyKXcJaqp" role="37wK5m">
+                                  <ref role="Rm8GQ" to="9a92:~KeyCode.DOWN" resolve="DOWN" />
+                                  <ref role="1Px2BO" to="9a92:~KeyCode" resolve="KeyCode" />
+                                </node>
+                                <node concept="3clFbT" id="3YbyKXcJ9lm" role="37wK5m">
+                                  <property role="3clFbU" value="false" />
+                                </node>
+                                <node concept="3clFbT" id="3YbyKXcJ9ln" role="37wK5m">
+                                  <property role="3clFbU" value="false" />
+                                </node>
+                                <node concept="3clFbT" id="3YbyKXcJ9lo" role="37wK5m">
+                                  <property role="3clFbU" value="false" />
+                                </node>
+                                <node concept="3clFbT" id="3YbyKXcJ9lp" role="37wK5m">
+                                  <property role="3clFbU" value="false" />
+                                </node>
                               </node>
-                              <node concept="liA8E" id="9DTpeq$pIf" role="2OqNvi">
-                                <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
-                              </node>
-                            </node>
-                            <node concept="liA8E" id="9DTpeq$pIg" role="2OqNvi">
-                              <ref role="37wK5l" to="vik9:~TableView.getColumns():javafx.collections.ObservableList" resolve="getColumns" />
                             </node>
                           </node>
-                          <node concept="liA8E" id="9DTpeq$pIh" role="2OqNvi">
-                            <ref role="37wK5l" to="k7g3:~List.get(int):java.lang.Object" resolve="get" />
-                            <node concept="2OqwBi" id="9DTpeq$pIi" role="37wK5m">
-                              <node concept="37vLTw" id="9DTpeq$pIj" role="2Oq$k0">
-                                <ref role="3cqZAo" node="9DTpeq$pGd" resolve="pos" />
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="3YbyKXcHLiG" role="3cqZAp" />
+                    </node>
+                    <node concept="3clFbC" id="3YbyKXcHN0q" role="3clFbw">
+                      <node concept="3cmrfG" id="3YbyKXcHNhH" role="3uHU7w">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                      <node concept="37vLTw" id="3YbyKXcHMpC" role="3uHU7B">
+                        <ref role="3cqZAo" node="9DTpeq$pG3" resolve="posdiff" />
+                      </node>
+                    </node>
+                    <node concept="3eNFk2" id="3YbyKXcHNqi" role="3eNLev">
+                      <node concept="3clFbC" id="3YbyKXcHOyF" role="3eO9$A">
+                        <node concept="37vLTw" id="3YbyKXcHNX_" role="3uHU7B">
+                          <ref role="3cqZAo" node="9DTpeq$pG3" resolve="posdiff" />
+                        </node>
+                        <node concept="3cmrfG" id="3YbyKXcHP6h" role="3uHU7w">
+                          <property role="3cmrfH" value="-1" />
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="3YbyKXcHNqk" role="3eOfB_">
+                        <node concept="3clFbF" id="3YbyKXcJ6XN" role="3cqZAp">
+                          <node concept="2OqwBi" id="3YbyKXcJ6XP" role="3clFbG">
+                            <node concept="1rXfSq" id="3YbyKXcJ87g" role="2Oq$k0">
+                              <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                            </node>
+                            <node concept="liA8E" id="3YbyKXcJ6XR" role="2OqNvi">
+                              <ref role="37wK5l" to="3cy2:~Node.fireEvent(javafx.event.Event):void" resolve="fireEvent" />
+                              <node concept="2ShNRf" id="3YbyKXcJ6XS" role="37wK5m">
+                                <node concept="1pGfFk" id="3YbyKXcJ6XT" role="2ShVmc">
+                                  <ref role="37wK5l" to="9a92:~KeyEvent.&lt;init&gt;(java.lang.Object,javafx.event.EventTarget,javafx.event.EventType,java.lang.String,java.lang.String,javafx.scene.input.KeyCode,boolean,boolean,boolean,boolean)" resolve="KeyEvent" />
+                                  <node concept="Xjq3P" id="3YbyKXcJ6XU" role="37wK5m" />
+                                  <node concept="1rXfSq" id="3YbyKXcJ8V9" role="37wK5m">
+                                    <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                  </node>
+                                  <node concept="10M0yZ" id="3YbyKXcJ6XW" role="37wK5m">
+                                    <ref role="3cqZAo" to="9a92:~KeyEvent.KEY_PRESSED" resolve="KEY_PRESSED" />
+                                    <ref role="1PxDUh" to="9a92:~KeyEvent" resolve="KeyEvent" />
+                                  </node>
+                                  <node concept="Xl_RD" id="3YbyKXcJ6XX" role="37wK5m">
+                                    <property role="Xl_RC" value="UP" />
+                                  </node>
+                                  <node concept="Xl_RD" id="3YbyKXcJ6XY" role="37wK5m">
+                                    <property role="Xl_RC" value="UP" />
+                                  </node>
+                                  <node concept="Rm8GO" id="3YbyKXcJ6XZ" role="37wK5m">
+                                    <ref role="Rm8GQ" to="9a92:~KeyCode.UP" resolve="UP" />
+                                    <ref role="1Px2BO" to="9a92:~KeyCode" resolve="KeyCode" />
+                                  </node>
+                                  <node concept="3clFbT" id="3YbyKXcJ6Y0" role="37wK5m">
+                                    <property role="3clFbU" value="false" />
+                                  </node>
+                                  <node concept="3clFbT" id="3YbyKXcJ6Y1" role="37wK5m">
+                                    <property role="3clFbU" value="false" />
+                                  </node>
+                                  <node concept="3clFbT" id="3YbyKXcJ6Y2" role="37wK5m">
+                                    <property role="3clFbU" value="false" />
+                                  </node>
+                                  <node concept="3clFbT" id="3YbyKXcJ6Y3" role="37wK5m">
+                                    <property role="3clFbU" value="false" />
+                                  </node>
+                                </node>
                               </node>
-                              <node concept="liA8E" id="9DTpeq$pIk" role="2OqNvi">
-                                <ref role="37wK5l" to="vik9:~TablePosition.getColumn():int" resolve="getColumn" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="3YbyKXcJ9Pq" role="3cqZAp" />
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="3YbyKXcHPe0" role="9aQIa">
+                      <node concept="3clFbS" id="3YbyKXcHPe1" role="9aQI4">
+                        <node concept="YS8fn" id="3YbyKXcHPwm" role="3cqZAp">
+                          <node concept="2ShNRf" id="3YbyKXcHPLy" role="YScLw">
+                            <node concept="1pGfFk" id="3YbyKXcI7Qa" role="2ShVmc">
+                              <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                              <node concept="Xl_RD" id="3YbyKXcI89W" role="37wK5m">
+                                <property role="Xl_RC" value="This can not be true." />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="3YbyKXcJa57" role="3cqZAp" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="3YbyKXcHKsW" role="3cqZAp" />
+                  <node concept="3clFbF" id="3YbyKXcI8xs" role="3cqZAp">
+                    <node concept="2YIFZM" id="3YbyKXcI976" role="3clFbG">
+                      <ref role="37wK5l" to="l2mm:~Platform.runLater(java.lang.Runnable):void" resolve="runLater" />
+                      <ref role="1Pybhc" to="l2mm:~Platform" resolve="Platform" />
+                      <node concept="2ShNRf" id="3YbyKXcI9pa" role="37wK5m">
+                        <node concept="YeOm9" id="3YbyKXcIadN" role="2ShVmc">
+                          <node concept="1Y3b0j" id="3YbyKXcIadQ" role="YeSDq">
+                            <property role="2bfB8j" value="true" />
+                            <ref role="1Y3XeK" to="e2lb:~Runnable" resolve="Runnable" />
+                            <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
+                            <node concept="3Tm1VV" id="3YbyKXcIadR" role="1B3o_S" />
+                            <node concept="3clFb_" id="3YbyKXcIadS" role="jymVt">
+                              <property role="1EzhhJ" value="false" />
+                              <property role="TrG5h" value="run" />
+                              <property role="DiZV1" value="false" />
+                              <property role="IEkAT" value="false" />
+                              <node concept="3Tm1VV" id="3YbyKXcIadT" role="1B3o_S" />
+                              <node concept="3cqZAl" id="3YbyKXcIadV" role="3clF45" />
+                              <node concept="3clFbS" id="3YbyKXcIadW" role="3clF47">
+                                <node concept="3clFbF" id="9DTpeq$pI4" role="3cqZAp">
+                                  <node concept="2OqwBi" id="9DTpeq$pI5" role="3clFbG">
+                                    <node concept="2OqwBi" id="9DTpeq$pI6" role="2Oq$k0">
+                                      <node concept="Xjq3P" id="9DTpeq$pI7" role="2Oq$k0">
+                                        <ref role="1HBi2w" node="9DTpeq$pAy" resolve="FX8EditCellStatus" />
+                                      </node>
+                                      <node concept="liA8E" id="9DTpeq$pI8" role="2OqNvi">
+                                        <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                      </node>
+                                    </node>
+                                    <node concept="liA8E" id="9DTpeq$pI9" role="2OqNvi">
+                                      <ref role="37wK5l" to="vik9:~TableView.edit(int,javafx.scene.control.TableColumn):void" resolve="edit" />
+                                      <node concept="37vLTw" id="9DTpeq$pIa" role="37wK5m">
+                                        <ref role="3cqZAo" node="9DTpeq$pGN" resolve="requestedIndex" />
+                                      </node>
+                                      <node concept="2OqwBi" id="9DTpeq$pIb" role="37wK5m">
+                                        <node concept="2OqwBi" id="9DTpeq$pIc" role="2Oq$k0">
+                                          <node concept="2OqwBi" id="9DTpeq$pId" role="2Oq$k0">
+                                            <node concept="Xjq3P" id="9DTpeq$pIe" role="2Oq$k0">
+                                              <ref role="1HBi2w" node="9DTpeq$pAy" resolve="FX8EditCellStatus" />
+                                            </node>
+                                            <node concept="liA8E" id="9DTpeq$pIf" role="2OqNvi">
+                                              <ref role="37wK5l" to="vik9:~TableCell.getTableView():javafx.scene.control.TableView" resolve="getTableView" />
+                                            </node>
+                                          </node>
+                                          <node concept="liA8E" id="9DTpeq$pIg" role="2OqNvi">
+                                            <ref role="37wK5l" to="vik9:~TableView.getColumns():javafx.collections.ObservableList" resolve="getColumns" />
+                                          </node>
+                                        </node>
+                                        <node concept="liA8E" id="9DTpeq$pIh" role="2OqNvi">
+                                          <ref role="37wK5l" to="k7g3:~List.get(int):java.lang.Object" resolve="get" />
+                                          <node concept="37vLTw" id="3YbyKXcIPNQ" role="37wK5m">
+                                            <ref role="3cqZAo" node="3YbyKXcIMp9" resolve="colIndex" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
