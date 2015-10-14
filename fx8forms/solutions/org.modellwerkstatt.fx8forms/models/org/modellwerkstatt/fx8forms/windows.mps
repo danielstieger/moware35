@@ -43,6 +43,7 @@
     <import index="45gm" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" implicit="true" />
     <import index="47m2" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.config@java_stub)" implicit="true" />
     <import index="h2e" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.springframework.context(org.modellwerkstatt.sandbox/org.springframework.context@java_stub)" implicit="true" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2561,6 +2562,13 @@
       <node concept="3Tm6S6" id="7Mah_ahZprB" role="1B3o_S" />
       <node concept="10P_77" id="7Mah_ahZryK" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="2yuEF6qmaQ1" role="jymVt">
+      <property role="TrG5h" value="jmxRegistration" />
+      <node concept="3Tm6S6" id="2yuEF6qmaQ2" role="1B3o_S" />
+      <node concept="3uibUv" id="2yuEF6qm_1R" role="1tU5fm">
+        <ref role="3uigEE" to="quhv:2yuEF6q8DRM" resolve="FJmxRegistration" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="6qxhjMM9D2n" role="jymVt" />
     <node concept="312cEg" id="6qxhjMMa$Eg" role="jymVt">
       <property role="TrG5h" value="mainStage" />
@@ -2885,6 +2893,100 @@
           </node>
         </node>
         <node concept="3clFbH" id="20ohnkbzVi9" role="3cqZAp" />
+        <node concept="3clFbH" id="2yuEF6qmdgb" role="3cqZAp" />
+        <node concept="3clFbF" id="2yuEF6qmglm" role="3cqZAp">
+          <node concept="37vLTI" id="2yuEF6qmjBz" role="3clFbG">
+            <node concept="2ShNRf" id="2yuEF6qmkEB" role="37vLTx">
+              <node concept="1pGfFk" id="2yuEF6qmkpd" role="2ShVmc">
+                <ref role="37wK5l" to="quhv:2yuEF6q8ESR" resolve="FJmxRegistration" />
+                <node concept="2OqwBi" id="2yuEF6qml9I" role="37wK5m">
+                  <node concept="2OqwBi" id="2yuEF6qmkLS" role="2Oq$k0">
+                    <node concept="37vLTw" id="2yuEF6qmkKe" role="2Oq$k0">
+                      <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
+                    </node>
+                    <node concept="liA8E" id="2yuEF6qml3L" role="2OqNvi">
+                      <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2yuEF6qmlGs" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~Class.getName():java.lang.String" resolve="getName" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="2yuEF6qmpuD" role="37wK5m">
+                  <property role="Xl_RC" value="/localInstance" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="2yuEF6qmglk" role="37vLTJ">
+              <ref role="3cqZAo" node="2yuEF6qmaQ1" resolve="jmxRegistration" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2yuEF6qoM4E" role="3cqZAp">
+          <node concept="2OqwBi" id="2yuEF6qoN7v" role="3clFbG">
+            <node concept="37vLTw" id="2yuEF6qoM4C" role="2Oq$k0">
+              <ref role="3cqZAo" node="2yuEF6qmaQ1" resolve="jmxRegistration" />
+            </node>
+            <node concept="liA8E" id="2yuEF6qoOxd" role="2OqNvi">
+              <ref role="37wK5l" to="quhv:2yuEF6qaG8a" resolve="registerAppTelemetrics" />
+              <node concept="2OqwBi" id="2yuEF6qoP98" role="37wK5m">
+                <node concept="2OqwBi" id="2yuEF6qoOHt" role="2Oq$k0">
+                  <node concept="37vLTw" id="2yuEF6qoO$w" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
+                  </node>
+                  <node concept="liA8E" id="2yuEF6qoOQN" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2yuEF6qoPKf" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~Class.getName():java.lang.String" resolve="getName" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2yuEF6qoQ9v" role="37wK5m">
+                <node concept="37vLTw" id="2yuEF6qoQt7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                </node>
+                <node concept="liA8E" id="2yuEF6qoQHZ" role="2OqNvi">
+                  <ref role="37wK5l" node="7RHNXGyWirP" resolve="getVariant" />
+                </node>
+              </node>
+              <node concept="3cpWs3" id="2yuEF6qoRMp" role="37wK5m">
+                <node concept="2OqwBi" id="2yuEF6qoS6X" role="3uHU7w">
+                  <node concept="37vLTw" id="2yuEF6qoS0Y" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
+                  </node>
+                  <node concept="liA8E" id="2yuEF6qoSrM" role="2OqNvi">
+                    <ref role="37wK5l" to="quhv:3sx4Hz319k9" resolve="getApplicationVersion" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="2yuEF6qoRmd" role="3uHU7B">
+                  <node concept="2OqwBi" id="2yuEF6qoQSo" role="3uHU7B">
+                    <node concept="37vLTw" id="2yuEF6qoQOZ" role="2Oq$k0">
+                      <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
+                    </node>
+                    <node concept="liA8E" id="2yuEF6qoRav" role="2OqNvi">
+                      <ref role="37wK5l" to="quhv:6CVJxS8gcow" resolve="getApplicationName" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="2yuEF6qoRx0" role="3uHU7w">
+                    <property role="Xl_RC" value=" / " />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2yuEF6qqkou" role="37wK5m">
+                <node concept="37vLTw" id="2yuEF6qqkhy" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                </node>
+                <node concept="liA8E" id="2yuEF6qqkHi" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:4T6wObo7r$N" resolve="getConnectionUrl" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="2yuEF6qoSCl" role="37wK5m">
+                <property role="Xl_RC" value="FX8 Implementation (no version given)" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3SKdUt" id="20ohnkb$vmc" role="3cqZAp">
           <node concept="3SKdUq" id="20ohnkb$wJa" role="3SKWNk">
             <property role="3SKdUp" value="we need almost everywhere the factory, so hand it over to appCrtl" />
@@ -2907,6 +3009,9 @@
                 <node concept="37vLTw" id="20ohnkbKv__" role="37wK5m">
                   <ref role="3cqZAo" node="Y3fiVL5DwK" resolve="appBehaviour" />
                 </node>
+                <node concept="37vLTw" id="2yuEF6qnlIe" role="37wK5m">
+                  <ref role="3cqZAo" node="2yuEF6qmaQ1" resolve="jmxRegistration" />
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="20ohnkbzLDb" role="37vLTJ">
@@ -2915,8 +3020,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="20ohnkbzK73" role="3cqZAp" />
-        <node concept="3clFbH" id="yc6MyE3z2d" role="3cqZAp" />
-        <node concept="3clFbH" id="75iQIE94hFX" role="3cqZAp" />
         <node concept="3SKdUt" id="75iQIE94k43" role="3cqZAp">
           <node concept="3SKdUq" id="75iQIE94l3X" role="3SKWNk">
             <property role="3SKdUp" value="css styling .. " />
@@ -4910,6 +5013,16 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="2yuEF6qmHxD" role="3cqZAp">
+          <node concept="2OqwBi" id="2yuEF6qmHH8" role="3clFbG">
+            <node concept="37vLTw" id="2yuEF6qmHxB" role="2Oq$k0">
+              <ref role="3cqZAo" node="2yuEF6qmaQ1" resolve="jmxRegistration" />
+            </node>
+            <node concept="liA8E" id="2yuEF6qmI3f" role="2OqNvi">
+              <ref role="37wK5l" to="quhv:2yuEF6qa7Ze" resolve="gcClean" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3WglyEYguEG" role="3cqZAp">
           <node concept="2OqwBi" id="3WglyEYguIR" role="3clFbG">
             <node concept="37vLTw" id="3WglyEYguEE" role="2Oq$k0">
@@ -6613,13 +6726,19 @@
       <node concept="17QB3L" id="7RHNXGyWirQ" role="3clF45" />
       <node concept="3Tm1VV" id="7RHNXGyWirR" role="1B3o_S" />
       <node concept="3clFbS" id="7RHNXGyWirU" role="3clF47">
-        <node concept="YS8fn" id="7RHNXGyWi$T" role="3cqZAp">
-          <node concept="2ShNRf" id="7RHNXGyWiA1" role="YScLw">
-            <node concept="1pGfFk" id="7RHNXGyWjrq" role="2ShVmc">
-              <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="7RHNXGyWjrF" role="37wK5m">
-                <property role="Xl_RC" value="getVariant() not impelemented for FX8UiFactory." />
-              </node>
+        <node concept="3SKdUt" id="2yuEF6qv4TQ" role="3cqZAp">
+          <node concept="3SKdUq" id="2yuEF6qv4Uj" role="3SKWNk">
+            <property role="3SKdUp" value="is okay to get variant from here - even if user is not logged in. " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2yuEF6qv4Vz" role="3cqZAp" />
+        <node concept="3clFbF" id="2yuEF6qv40V" role="3cqZAp">
+          <node concept="2OqwBi" id="2yuEF6qv4a5" role="3clFbG">
+            <node concept="37vLTw" id="2yuEF6qv40T" role="2Oq$k0">
+              <ref role="3cqZAo" to="28jr:3J6KGB__ZuJ" resolve="userEnvironement" />
+            </node>
+            <node concept="liA8E" id="2yuEF6qv4nc" role="2OqNvi">
+              <ref role="37wK5l" to="w7gk:5xcCl6qcmXE" resolve="getVariant" />
             </node>
           </node>
         </node>

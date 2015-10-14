@@ -327,28 +327,7 @@
       <node concept="17QB3L" id="4QTIUTBZruW" role="1tU5fm" />
       <node concept="3Tm6S6" id="4QTIUTBZruX" role="1B3o_S" />
       <node concept="Xl_RD" id="4QTIUTBZruY" role="33vP2m">
-        <property role="Xl_RC" value="H1Forms 0.9.0 (moware Fx8 Summer 2015)" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="2eK$oa41_CN" role="jymVt" />
-    <node concept="312cEg" id="3ODNmtc2dWJ" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="TrG5h" value="notificationServiceName" />
-      <property role="3TUv4t" value="false" />
-      <node concept="17QB3L" id="4x14MABrB03" role="1tU5fm" />
-      <node concept="3Tm6S6" id="4x14MABrAJZ" role="1B3o_S" />
-      <node concept="Xl_RD" id="4x14MABryIV" role="33vP2m">
-        <property role="Xl_RC" value=":type=H1JmxLiveDebugLogger" />
-      </node>
-    </node>
-    <node concept="312cEg" id="3ODNmtc2dA1" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="TrG5h" value="telemetricsServiceName" />
-      <property role="3TUv4t" value="false" />
-      <node concept="17QB3L" id="6QX7KB4RUK_" role="1tU5fm" />
-      <node concept="3Tm6S6" id="6QX7KB4RUKA" role="1B3o_S" />
-      <node concept="Xl_RD" id="6QX7KB4RUKB" role="33vP2m">
-        <property role="Xl_RC" value=":type=H1JmxTelemetrics" />
+        <property role="Xl_RC" value="H1Forms 0.9.1 (moware60 Winter 2015)" />
       </node>
     </node>
     <node concept="2tJIrI" id="2eK$oa41v2a" role="jymVt" />
@@ -404,10 +383,10 @@
       </node>
     </node>
     <node concept="312cEg" id="4ZThPOYBKXm" role="jymVt">
-      <property role="TrG5h" value="beanServer" />
+      <property role="TrG5h" value="jmxRegistration" />
       <node concept="3Tm6S6" id="4ZThPOYBKXn" role="1B3o_S" />
-      <node concept="3uibUv" id="4ZThPOYBLig" role="1tU5fm">
-        <ref role="3uigEE" to="77h2:~MBeanServer" resolve="MBeanServer" />
+      <node concept="3uibUv" id="2yuEF6qbSH0" role="1tU5fm">
+        <ref role="3uigEE" to="quhv:2yuEF6q8DRM" resolve="FJmxRegistration" />
       </node>
     </node>
     <node concept="2tJIrI" id="75445jvZmTr" role="jymVt" />
@@ -480,142 +459,25 @@
           </node>
         </node>
         <node concept="3clFbH" id="5HhpRjTulUB" role="3cqZAp" />
-        <node concept="3SKdUt" id="3ODNmtc2hSK" role="3cqZAp">
-          <node concept="3SKdUq" id="3ODNmtc2hXK" role="3SKWNk">
-            <property role="3SKdUp" value="calculate jmx names . " />
-          </node>
-        </node>
-        <node concept="3clFbJ" id="3ODNmtc0XV2" role="3cqZAp">
-          <node concept="3clFbS" id="3ODNmtc0XV5" role="3clFbx">
-            <node concept="3SKdUt" id="4DLu_4go0gN" role="3cqZAp">
-              <node concept="3SKdUq" id="4DLu_4go0jB" role="3SKWNk">
-                <property role="3SKdUp" value="use servletPath insted of app name" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="3ODNmtc10FH" role="3cqZAp">
-              <node concept="37vLTI" id="3ODNmtc113M" role="3clFbG">
-                <node concept="37vLTw" id="3ODNmtc117c" role="37vLTJ">
-                  <ref role="3cqZAo" node="3ODNmtc0XsZ" resolve="appPackageFqName" />
+        <node concept="3clFbF" id="2yuEF6qc4rx" role="3cqZAp">
+          <node concept="37vLTI" id="2yuEF6qc4WC" role="3clFbG">
+            <node concept="2ShNRf" id="2yuEF6qc7Rl" role="37vLTx">
+              <node concept="1pGfFk" id="2yuEF6qc5cf" role="2ShVmc">
+                <ref role="37wK5l" to="quhv:2yuEF6q8ESR" resolve="FJmxRegistration" />
+                <node concept="37vLTw" id="2yuEF6qcat0" role="37wK5m">
+                  <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
                 </node>
-                <node concept="3cpWs3" id="4DLu_4gnWt8" role="37vLTx">
-                  <node concept="2OqwBi" id="4DLu_4golCf" role="3uHU7w">
-                    <node concept="37vLTw" id="4DLu_4gnZ_h" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6QRLe84jItq" resolve="servletPath" />
-                    </node>
-                    <node concept="liA8E" id="4DLu_4golZL" role="2OqNvi">
-                      <ref role="37wK5l" to="e2lb:~String.substring(int):java.lang.String" resolve="substring" />
-                      <node concept="3cmrfG" id="4DLu_4golZW" role="37wK5m">
-                        <property role="3cmrfH" value="1" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3cpWs3" id="4DLu_4gnW5D" role="3uHU7B">
-                    <node concept="2OqwBi" id="3ODNmtbZslS" role="3uHU7B">
-                      <node concept="37vLTw" id="3ODNmtc11dw" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
-                      </node>
-                      <node concept="liA8E" id="3ODNmtbZwvi" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~String.substring(int,int):java.lang.String" resolve="substring" />
-                        <node concept="3cmrfG" id="3ODNmtc0mIr" role="37wK5m">
-                          <property role="3cmrfH" value="0" />
-                        </node>
-                        <node concept="2OqwBi" id="3ODNmtbZwDw" role="37wK5m">
-                          <node concept="37vLTw" id="3ODNmtc11m_" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
-                          </node>
-                          <node concept="liA8E" id="3ODNmtbZx1T" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~String.lastIndexOf(java.lang.String):int" resolve="lastIndexOf" />
-                            <node concept="Xl_RD" id="3ODNmtbZx49" role="37wK5m">
-                              <property role="Xl_RC" value="." />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="4DLu_4gnWk8" role="3uHU7w">
-                      <property role="Xl_RC" value="." />
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="2yuEF6qcd$3" role="37wK5m">
+                  <ref role="3cqZAo" node="6QRLe84jItq" resolve="servletPath" />
                 </node>
               </node>
             </node>
-          </node>
-          <node concept="3eOSWO" id="3ODNmtc10B_" role="3clFbw">
-            <node concept="3cmrfG" id="3ODNmtc10BL" role="3uHU7w">
-              <property role="3cmrfH" value="0" />
-            </node>
-            <node concept="2OqwBi" id="3ODNmtc0ZfJ" role="3uHU7B">
-              <node concept="37vLTw" id="3ODNmtc0XZQ" role="2Oq$k0">
-                <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
-              </node>
-              <node concept="liA8E" id="3ODNmtc0ZN0" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~String.indexOf(java.lang.String):int" resolve="indexOf" />
-                <node concept="Xl_RD" id="3ODNmtc0ZO2" role="37wK5m">
-                  <property role="Xl_RC" value="." />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="9aQIb" id="3ODNmtc1eD8" role="9aQIa">
-            <node concept="3clFbS" id="3ODNmtc1eD9" role="9aQI4">
-              <node concept="3clFbF" id="3ODNmtc1eEc" role="3cqZAp">
-                <node concept="37vLTI" id="3ODNmtc1f1q" role="3clFbG">
-                  <node concept="3cpWs3" id="4DLu_4gnZLX" role="37vLTx">
-                    <node concept="2OqwBi" id="4DLu_4goDSh" role="3uHU7w">
-                      <node concept="37vLTw" id="4DLu_4gnZQI" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6QRLe84jItq" resolve="servletPath" />
-                      </node>
-                      <node concept="liA8E" id="4DLu_4goE20" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~String.substring(int):java.lang.String" resolve="substring" />
-                        <node concept="3cmrfG" id="4DLu_4goE31" role="37wK5m">
-                          <property role="3cmrfH" value="1" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="3ODNmtc1f2F" role="3uHU7B">
-                      <property role="Xl_RC" value="unknown.unknown" />
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="3ODNmtc1eEb" role="37vLTJ">
-                    <ref role="3cqZAo" node="3ODNmtc0XsZ" resolve="appPackageFqName" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3ODNmtc2eRq" role="3cqZAp">
-          <node concept="37vLTI" id="3ODNmtc2gcw" role="3clFbG">
-            <node concept="3cpWs3" id="3ODNmtc2gDA" role="37vLTx">
-              <node concept="37vLTw" id="3ODNmtc2gIB" role="3uHU7w">
-                <ref role="3cqZAo" node="3ODNmtc2dWJ" resolve="notificationServiceName" />
-              </node>
-              <node concept="37vLTw" id="3ODNmtc2g$V" role="3uHU7B">
-                <ref role="3cqZAo" node="3ODNmtc0XsZ" resolve="appPackageFqName" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="3ODNmtc2eRo" role="37vLTJ">
-              <ref role="3cqZAo" node="3ODNmtc2dWJ" resolve="notificationServiceName" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3ODNmtc2gJw" role="3cqZAp">
-          <node concept="37vLTI" id="3ODNmtc2gJx" role="3clFbG">
-            <node concept="3cpWs3" id="3ODNmtc2gJy" role="37vLTx">
-              <node concept="37vLTw" id="3ODNmtc2hAs" role="3uHU7w">
-                <ref role="3cqZAo" node="3ODNmtc2dA1" resolve="telemetricsServiceName" />
-              </node>
-              <node concept="37vLTw" id="3ODNmtc2gJ$" role="3uHU7B">
-                <ref role="3cqZAo" node="3ODNmtc0XsZ" resolve="appPackageFqName" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="3ODNmtc2hs2" role="37vLTJ">
-              <ref role="3cqZAo" node="3ODNmtc2dA1" resolve="telemetricsServiceName" />
+            <node concept="37vLTw" id="2yuEF6qc4rv" role="37vLTJ">
+              <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
             </node>
           </node>
         </node>
         <node concept="3clFbH" id="3ODNmtc2eKA" role="3cqZAp" />
-        <node concept="3clFbH" id="3ODNmtc2i20" role="3cqZAp" />
         <node concept="3SKdUt" id="5HhpRjTuqnm" role="3cqZAp">
           <node concept="3SKdUq" id="5HhpRjTuqnB" role="3SKWNk">
             <property role="3SKdUp" value="okay, wire up everything " />
@@ -795,111 +657,62 @@
               </node>
             </node>
             <node concept="3clFbH" id="49rIjELrVrI" role="3cqZAp" />
-            <node concept="3clFbF" id="4ZThPOYBLmT" role="3cqZAp">
-              <node concept="37vLTI" id="4ZThPOYBLmV" role="3clFbG">
-                <node concept="2YIFZM" id="4x14MABrwDC" role="37vLTx">
-                  <ref role="37wK5l" to="y50y:~ManagementFactory.getPlatformMBeanServer():javax.management.MBeanServer" resolve="getPlatformMBeanServer" />
-                  <ref role="1Pybhc" to="y50y:~ManagementFactory" resolve="ManagementFactory" />
+            <node concept="3clFbF" id="2yuEF6qcoq$" role="3cqZAp">
+              <node concept="2OqwBi" id="2yuEF6qcoDH" role="3clFbG">
+                <node concept="37vLTw" id="2yuEF6qcoqy" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
                 </node>
-                <node concept="37vLTw" id="4ZThPOYBNgr" role="37vLTJ">
-                  <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="beanServer" />
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="6QX7KB4S0bv" role="3cqZAp">
-              <node concept="3cpWsn" id="6QX7KB4S0bw" role="3cpWs9">
-                <property role="TrG5h" value="telemetricService" />
-                <node concept="3uibUv" id="4QTIUTBV43Y" role="1tU5fm">
-                  <ref role="3uigEE" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
-                </node>
-                <node concept="2ShNRf" id="6QX7KB4S0dj" role="33vP2m">
-                  <node concept="1pGfFk" id="6QX7KB4S0di" role="2ShVmc">
-                    <ref role="37wK5l" to="gyq6:4x14MABr4xm" resolve="JmxTelemetrics" />
-                    <node concept="37vLTw" id="4ZThPOYIPQA" role="37wK5m">
-                      <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="beanServer" />
+                <node concept="liA8E" id="2yuEF6qcra$" role="2OqNvi">
+                  <ref role="37wK5l" to="quhv:2yuEF6qaG8a" resolve="registerAppTelemetrics" />
+                  <node concept="37vLTw" id="2yuEF6qctva" role="37wK5m">
+                    <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
+                  </node>
+                  <node concept="2OqwBi" id="2yuEF6qcvYI" role="37wK5m">
+                    <node concept="37vLTw" id="2yuEF6qcvU9" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
                     </node>
-                    <node concept="2OqwBi" id="4NOhjsrDElK" role="37wK5m">
-                      <node concept="37vLTw" id="4NOhjsrDEin" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+                    <node concept="liA8E" id="2yuEF6qcyKA" role="2OqNvi">
+                      <ref role="37wK5l" to="quhv:7RHNXGyTwOY" resolve="getVariant" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs3" id="2yuEF6qd4Oa" role="37wK5m">
+                    <node concept="3cpWs3" id="2yuEF6qd99I" role="3uHU7B">
+                      <node concept="Xl_RD" id="2yuEF6qd9wi" role="3uHU7w">
+                        <property role="Xl_RC" value=" / " />
                       </node>
-                      <node concept="liA8E" id="4NOhjsrDEsF" role="2OqNvi">
-                        <ref role="37wK5l" to="quhv:7RHNXGyTwOY" resolve="getVariant" />
+                      <node concept="2OqwBi" id="2yuEF6qd6mC" role="3uHU7B">
+                        <node concept="37vLTw" id="2yuEF6qd52i" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                        </node>
+                        <node concept="liA8E" id="2yuEF6qd7MA" role="2OqNvi">
+                          <ref role="37wK5l" to="quhv:6CVJxS8gcow" resolve="getApplicationName" />
+                        </node>
                       </node>
                     </node>
-                    <node concept="37vLTw" id="4DLu_4gpLod" role="37wK5m">
-                      <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
-                    </node>
-                    <node concept="2OqwBi" id="4DLu_4gpLvm" role="37wK5m">
-                      <node concept="37vLTw" id="4DLu_4gpLPs" role="2Oq$k0">
+                    <node concept="2OqwBi" id="2yuEF6qc_hj" role="3uHU7w">
+                      <node concept="37vLTw" id="2yuEF6qc_eo" role="2Oq$k0">
                         <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
                       </node>
-                      <node concept="liA8E" id="4DLu_4gpLHY" role="2OqNvi">
+                      <node concept="liA8E" id="2yuEF6qcC91" role="2OqNvi">
                         <ref role="37wK5l" to="quhv:3sx4Hz319k9" resolve="getApplicationVersion" />
                       </node>
                     </node>
-                    <node concept="37vLTw" id="4QTIUTBZXQT" role="37wK5m">
-                      <ref role="3cqZAo" node="4QTIUTBZruV" resolve="frameworkVersion" />
+                  </node>
+                  <node concept="2OqwBi" id="2yuEF6quSDa" role="37wK5m">
+                    <node concept="37vLTw" id="2yuEF6quSwH" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+                    </node>
+                    <node concept="liA8E" id="2yuEF6quU7N" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:4T6wObo62Pu" resolve="getConnectionUrl" />
                     </node>
                   </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWs8" id="6QX7KB4S0gD" role="3cqZAp">
-              <node concept="3cpWsn" id="6QX7KB4S0gE" role="3cpWs9">
-                <property role="TrG5h" value="notificationService" />
-                <node concept="3uibUv" id="4QTIUTBV6xe" role="1tU5fm">
-                  <ref role="3uigEE" to="gyq6:6QX7KB4Q4_P" resolve="JmxLiveDebugLogger" />
-                </node>
-                <node concept="2ShNRf" id="6QX7KB4S0iy" role="33vP2m">
-                  <node concept="1pGfFk" id="6QX7KB4S0ix" role="2ShVmc">
-                    <ref role="37wK5l" to="gyq6:6QX7KB4QvVf" resolve="JmxLiveDebugLogger" />
+                  <node concept="37vLTw" id="2yuEF6qcH5Q" role="37wK5m">
+                    <ref role="3cqZAo" node="4QTIUTBZruV" resolve="frameworkVersion" />
                   </node>
                 </node>
               </node>
             </node>
             <node concept="3clFbH" id="6QX7KB4S08n" role="3cqZAp" />
-            <node concept="3clFbF" id="4x14MABrBNC" role="3cqZAp">
-              <node concept="2OqwBi" id="4x14MABrDpD" role="3clFbG">
-                <node concept="37vLTw" id="4ZThPOYBNji" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="beanServer" />
-                </node>
-                <node concept="liA8E" id="4x14MABrDyK" role="2OqNvi">
-                  <ref role="37wK5l" to="77h2:~MBeanServer.registerMBean(java.lang.Object,javax.management.ObjectName):javax.management.ObjectInstance" resolve="registerMBean" />
-                  <node concept="37vLTw" id="6QX7KB4S0H2" role="37wK5m">
-                    <ref role="3cqZAo" node="6QX7KB4S0bw" resolve="telemetricService" />
-                  </node>
-                  <node concept="2ShNRf" id="6QX7KB4RWQS" role="37wK5m">
-                    <node concept="1pGfFk" id="6QX7KB4S03a" role="2ShVmc">
-                      <ref role="37wK5l" to="77h2:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="37vLTw" id="6QX7KB4SlQ0" role="37wK5m">
-                        <ref role="3cqZAo" node="3ODNmtc2dA1" resolve="telemetricsServiceName" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="6QX7KB4S0IB" role="3cqZAp">
-              <node concept="2OqwBi" id="6QX7KB4S0IC" role="3clFbG">
-                <node concept="37vLTw" id="4ZThPOYBNlY" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="beanServer" />
-                </node>
-                <node concept="liA8E" id="6QX7KB4S0IE" role="2OqNvi">
-                  <ref role="37wK5l" to="77h2:~MBeanServer.registerMBean(java.lang.Object,javax.management.ObjectName):javax.management.ObjectInstance" resolve="registerMBean" />
-                  <node concept="37vLTw" id="6QX7KB4S0Wq" role="37wK5m">
-                    <ref role="3cqZAo" node="6QX7KB4S0gE" resolve="notificationService" />
-                  </node>
-                  <node concept="2ShNRf" id="6QX7KB4S05e" role="37wK5m">
-                    <node concept="1pGfFk" id="6QX7KB4S05f" role="2ShVmc">
-                      <ref role="37wK5l" to="77h2:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="37vLTw" id="6QX7KB4SlQm" role="37wK5m">
-                        <ref role="3cqZAo" node="3ODNmtc2dWJ" resolve="notificationServiceName" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbH" id="4x14MABrqsh" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="5HhpRjTvm6G" role="TEbGg">
@@ -1039,86 +852,6 @@
               <property role="TrG5h" value="e" />
               <node concept="3uibUv" id="5HhpRjTvm7l" role="1tU5fm">
                 <ref role="3uigEE" to="e2lb:~NoSuchMethodException" resolve="NoSuchMethodException" />
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="4x14MABsfTk" role="TEbGg">
-            <node concept="3clFbS" id="4x14MABsfTl" role="TDEfX">
-              <node concept="YS8fn" id="4x14MABszBY" role="3cqZAp">
-                <node concept="2ShNRf" id="4x14MABszBZ" role="YScLw">
-                  <node concept="1pGfFk" id="4x14MABszC0" role="2ShVmc">
-                    <ref role="37wK5l" to="tsi3:~ServletException.&lt;init&gt;(java.lang.Throwable)" resolve="ServletException" />
-                    <node concept="37vLTw" id="4x14MABszC1" role="37wK5m">
-                      <ref role="3cqZAo" node="4x14MABsfTm" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="4x14MABsfTm" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="4x14MABsfTn" role="1tU5fm">
-                <ref role="3uigEE" to="77h2:~NotCompliantMBeanException" resolve="NotCompliantMBeanException" />
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="4x14MABsfTo" role="TEbGg">
-            <node concept="3clFbS" id="4x14MABsfTp" role="TDEfX">
-              <node concept="YS8fn" id="4x14MABszCi" role="3cqZAp">
-                <node concept="2ShNRf" id="4x14MABszCj" role="YScLw">
-                  <node concept="1pGfFk" id="4x14MABszCk" role="2ShVmc">
-                    <ref role="37wK5l" to="tsi3:~ServletException.&lt;init&gt;(java.lang.Throwable)" resolve="ServletException" />
-                    <node concept="37vLTw" id="4x14MABszCl" role="37wK5m">
-                      <ref role="3cqZAo" node="4x14MABsfTq" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="4x14MABsfTq" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="4x14MABsfTr" role="1tU5fm">
-                <ref role="3uigEE" to="77h2:~MBeanRegistrationException" resolve="MBeanRegistrationException" />
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="4x14MABsfTs" role="TEbGg">
-            <node concept="3clFbS" id="4x14MABsfTt" role="TDEfX">
-              <node concept="YS8fn" id="4x14MABszCA" role="3cqZAp">
-                <node concept="2ShNRf" id="4x14MABszCB" role="YScLw">
-                  <node concept="1pGfFk" id="4x14MABszCC" role="2ShVmc">
-                    <ref role="37wK5l" to="tsi3:~ServletException.&lt;init&gt;(java.lang.Throwable)" resolve="ServletException" />
-                    <node concept="37vLTw" id="4x14MABszCD" role="37wK5m">
-                      <ref role="3cqZAo" node="4x14MABsfTu" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="4x14MABsfTu" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="4x14MABsfTv" role="1tU5fm">
-                <ref role="3uigEE" to="77h2:~InstanceAlreadyExistsException" resolve="InstanceAlreadyExistsException" />
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="4x14MABsgfm" role="TEbGg">
-            <node concept="3clFbS" id="4x14MABsgfn" role="TDEfX">
-              <node concept="YS8fn" id="4x14MABszCU" role="3cqZAp">
-                <node concept="2ShNRf" id="4x14MABszCV" role="YScLw">
-                  <node concept="1pGfFk" id="4x14MABszCW" role="2ShVmc">
-                    <ref role="37wK5l" to="tsi3:~ServletException.&lt;init&gt;(java.lang.Throwable)" resolve="ServletException" />
-                    <node concept="37vLTw" id="4x14MABszCX" role="37wK5m">
-                      <ref role="3cqZAo" node="4x14MABsgfo" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="4x14MABsgfo" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="4x14MABsgfp" role="1tU5fm">
-                <ref role="3uigEE" to="77h2:~MalformedObjectNameException" resolve="MalformedObjectNameException" />
               </node>
             </node>
           </node>
@@ -2276,6 +2009,9 @@
                 <node concept="37vLTw" id="1XvfUlypqM9" role="37wK5m">
                   <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
                 </node>
+                <node concept="37vLTw" id="2yuEF6qy1eV" role="37wK5m">
+                  <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
+                </node>
               </node>
             </node>
           </node>
@@ -2318,77 +2054,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="4ZThPOYKRff" role="3cqZAp" />
-        <node concept="3clFbJ" id="4ZThPOYJ8bB" role="3cqZAp">
-          <node concept="3clFbS" id="4ZThPOYJ8bE" role="3clFbx">
-            <node concept="3cpWs8" id="4QTIUTBVr7A" role="3cqZAp">
-              <node concept="3cpWsn" id="4QTIUTBVr7D" role="3cpWs9">
-                <property role="TrG5h" value="regString" />
-                <node concept="17QB3L" id="4QTIUTBVr7$" role="1tU5fm" />
-                <node concept="3cpWs3" id="4QTIUTBVMdd" role="33vP2m">
-                  <node concept="2OqwBi" id="4QTIUTBVN1B" role="3uHU7w">
-                    <node concept="37vLTw" id="4QTIUTBVMWL" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1XvfUlypqM5" resolve="containerWithUserInterface" />
-                    </node>
-                    <node concept="liA8E" id="4QTIUTBVOGK" role="2OqNvi">
-                      <ref role="37wK5l" node="4ZThPOYBafR" resolve="getUserInfo" />
-                    </node>
-                  </node>
-                  <node concept="3cpWs3" id="4QTIUTBVKwz" role="3uHU7B">
-                    <node concept="3cpWs3" id="4QTIUTBVGuh" role="3uHU7B">
-                      <node concept="3cpWs3" id="4QTIUTBV$dK" role="3uHU7B">
-                        <node concept="Xl_RD" id="4QTIUTBVsVH" role="3uHU7B">
-                          <property role="Xl_RC" value="org.modellwerkstatt" />
-                        </node>
-                        <node concept="Xl_RD" id="4QTIUTBV$eP" role="3uHU7w">
-                          <property role="Xl_RC" value=":type=H1CommandContainerUI,name=" />
-                        </node>
-                      </node>
-                      <node concept="2OqwBi" id="4QTIUTBVHmM" role="3uHU7w">
-                        <node concept="37vLTw" id="4QTIUTBVHiw" role="2Oq$k0">
-                          <ref role="3cqZAo" node="1XvfUlypqM5" resolve="containerWithUserInterface" />
-                        </node>
-                        <node concept="liA8E" id="4QTIUTBVIHG" role="2OqNvi">
-                          <ref role="37wK5l" to="e2lb:~Object.hashCode():int" resolve="hashCode" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="4QTIUTBVKxu" role="3uHU7w">
-                      <property role="Xl_RC" value="_" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="4ZThPOYJ9n3" role="3cqZAp">
-              <node concept="2OqwBi" id="4ZThPOYJ9pA" role="3clFbG">
-                <node concept="2YIFZM" id="4QTIUTBVkvZ" role="2Oq$k0">
-                  <ref role="37wK5l" to="gyq6:4x14MABr44J" resolve="getInstance" />
-                  <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
-                </node>
-                <node concept="liA8E" id="4ZThPOYJ9$g" role="2OqNvi">
-                  <ref role="37wK5l" to="gyq6:4ZThPOYHA$c" resolve="reportJmxSession" />
-                  <node concept="37vLTw" id="4ZThPOYJ9Af" role="37wK5m">
-                    <ref role="3cqZAo" node="1XvfUlypqM5" resolve="containerWithUserInterface" />
-                  </node>
-                  <node concept="37vLTw" id="4QTIUTBVQkh" role="37wK5m">
-                    <ref role="3cqZAo" node="4QTIUTBVr7D" resolve="regString" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="4ZThPOYJ8Je" role="3clFbw">
-            <node concept="2YIFZM" id="4QTIUTBVh0T" role="2Oq$k0">
-              <ref role="37wK5l" to="gyq6:4x14MABr44J" resolve="getInstance" />
-              <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
-            </node>
-            <node concept="liA8E" id="4ZThPOYJ9hF" role="2OqNvi">
-              <ref role="37wK5l" to="gyq6:4ZThPOYBJa8" resolve="jmxSessionReporting" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="1XvfUlyr9U9" role="3cqZAp" />
-        <node concept="3clFbH" id="4ZThPOYKR4$" role="3cqZAp" />
         <node concept="3SKdUt" id="1XvfUlypqMQ" role="3cqZAp">
           <node concept="3SKdUq" id="1XvfUlypqMR" role="3SKWNk">
             <property role="3SKdUp" value="or terminated with cancel message. " />
@@ -2594,13 +2259,12 @@
           <node concept="3cpWsn" id="5OZ8iimALF4" role="3cpWs9">
             <property role="TrG5h" value="redirect" />
             <node concept="17QB3L" id="5OZ8iimALEZ" role="1tU5fm" />
-            <node concept="2OqwBi" id="5OZ8iimAMBi" role="33vP2m">
-              <node concept="2YIFZM" id="4QTIUTBVV8w" role="2Oq$k0">
-                <ref role="37wK5l" to="gyq6:4x14MABr44J" resolve="getInstance" />
-                <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
+            <node concept="2OqwBi" id="2yuEF6qer8m" role="33vP2m">
+              <node concept="37vLTw" id="2yuEF6qeqYo" role="2Oq$k0">
+                <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
               </node>
-              <node concept="liA8E" id="5OZ8iimAMSH" role="2OqNvi">
-                <ref role="37wK5l" to="gyq6:5OZ8iimAub_" resolve="getRedirectAddr" />
+              <node concept="liA8E" id="2yuEF6qesAN" role="2OqNvi">
+                <ref role="37wK5l" to="quhv:2yuEF6qeiM5" resolve="getRedirectAddr" />
               </node>
             </node>
           </node>
@@ -2829,13 +2493,12 @@
                 </node>
                 <node concept="3clFbH" id="1XvfUlyontI" role="3cqZAp" />
               </node>
-              <node concept="2OqwBi" id="1XvfUlyoiRI" role="3clFbw">
-                <node concept="2YIFZM" id="1XvfUlyoio4" role="2Oq$k0">
-                  <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
-                  <ref role="37wK5l" to="gyq6:4x14MABr44J" resolve="getInstance" />
+              <node concept="2OqwBi" id="2yuEF6qex2C" role="3clFbw">
+                <node concept="37vLTw" id="2yuEF6qeveA" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
                 </node>
-                <node concept="liA8E" id="1XvfUlyoj2L" role="2OqNvi">
-                  <ref role="37wK5l" to="gyq6:1XvfUlyofoe" resolve="locked" />
+                <node concept="liA8E" id="2yuEF6qeyZW" role="2OqNvi">
+                  <ref role="37wK5l" to="quhv:2yuEF6qekef" resolve="isLocked" />
                 </node>
               </node>
               <node concept="3eNFk2" id="1XvfUlyonjW" role="3eNLev">
@@ -4220,13 +3883,17 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="7G_6kzK5PWC" role="3cqZAp">
-                <node concept="2YIFZM" id="7G_6kzK6j5f" role="3clFbG">
-                  <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
-                  <ref role="37wK5l" to="gyq6:7G_6kzK5S5C" resolve="incException" />
+              <node concept="3clFbF" id="2yuEF6qfpsf" role="3cqZAp">
+                <node concept="2OqwBi" id="2yuEF6qfpH1" role="3clFbG">
+                  <node concept="37vLTw" id="2yuEF6qfpsd" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
+                  </node>
+                  <node concept="liA8E" id="2yuEF6qfr2G" role="2OqNvi">
+                    <ref role="37wK5l" to="quhv:2yuEF6qfeQe" resolve="incException" />
+                  </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="3yfWYM0MbUJ" role="3cqZAp" />
+              <node concept="3clFbH" id="2yuEF6qfof7" role="3cqZAp" />
               <node concept="3SKdUt" id="3yfWYM0Mq1q" role="3cqZAp">
                 <node concept="3SKdUq" id="3yfWYM0MrR2" role="3SKWNk">
                   <property role="3SKdUp" value="Log Exception here ... Exception was also displayed to user. " />
@@ -4252,25 +3919,28 @@
             <property role="3SKdUp" value="okay, do some telemetrics stuff. thanks." />
           </node>
         </node>
-        <node concept="3clFbF" id="7G_6kzK6j8Q" role="3cqZAp">
-          <node concept="2YIFZM" id="7G_6kzK6jzX" role="3clFbG">
-            <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
-            <ref role="37wK5l" to="gyq6:7G_6kzK5UpC" resolve="servedRequest" />
-            <node concept="37vLTw" id="5OZ8iimxS5w" role="37wK5m">
-              <ref role="3cqZAo" node="5OZ8iimwT9R" resolve="remoteAddr" />
+        <node concept="3clFbF" id="2yuEF6qeNqR" role="3cqZAp">
+          <node concept="2OqwBi" id="2yuEF6qeOqK" role="3clFbG">
+            <node concept="37vLTw" id="2yuEF6qeNqP" role="2Oq$k0">
+              <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
             </node>
-            <node concept="37vLTw" id="5OZ8iimxFFk" role="37wK5m">
-              <ref role="3cqZAo" node="5OZ8iimxk_z" resolve="userName" />
-            </node>
-            <node concept="37vLTw" id="5OZ8iimxSCl" role="37wK5m">
-              <ref role="3cqZAo" node="5OZ8iimxkWW" resolve="execCommandDesc" />
-            </node>
-            <node concept="37vLTw" id="7G_6kzK6lm9" role="37wK5m">
-              <ref role="3cqZAo" node="1XvfUlyonLL" resolve="startOfRequest" />
+            <node concept="liA8E" id="2yuEF6qeQkp" role="2OqNvi">
+              <ref role="37wK5l" to="quhv:2yuEF6qeEkn" resolve="servedRequest" />
+              <node concept="37vLTw" id="2yuEF6qeRjy" role="37wK5m">
+                <ref role="3cqZAo" node="5OZ8iimwT9R" resolve="remoteAddr" />
+              </node>
+              <node concept="37vLTw" id="2yuEF6qeSsz" role="37wK5m">
+                <ref role="3cqZAo" node="5OZ8iimxk_z" resolve="userName" />
+              </node>
+              <node concept="37vLTw" id="2yuEF6qeSCz" role="37wK5m">
+                <ref role="3cqZAo" node="5OZ8iimxkWW" resolve="execCommandDesc" />
+              </node>
+              <node concept="37vLTw" id="2yuEF6qeU_M" role="37wK5m">
+                <ref role="3cqZAo" node="1XvfUlyonLL" resolve="startOfRequest" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1XvfUlytPa9" role="3cqZAp" />
       </node>
       <node concept="3Tmbuc" id="3h3MBx3irbT" role="1B3o_S" />
       <node concept="3cqZAl" id="3h3MBx3irbU" role="3clF45" />
@@ -4331,149 +4001,20 @@
       <node concept="3Tm1VV" id="4x14MABsdTt" role="1B3o_S" />
       <node concept="3cqZAl" id="4x14MABsdTv" role="3clF45" />
       <node concept="3clFbS" id="4x14MABsdTx" role="3clF47">
-        <node concept="SfApY" id="4x14MABsffw" role="3cqZAp">
-          <node concept="3clFbS" id="4x14MABsffx" role="SfCbr">
-            <node concept="3clFbF" id="4x14MABsf4A" role="3cqZAp">
-              <node concept="2OqwBi" id="4x14MABsf5s" role="3clFbG">
-                <node concept="37vLTw" id="4ZThPOYBNy1" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="beanServer" />
-                </node>
-                <node concept="liA8E" id="4x14MABsfee" role="2OqNvi">
-                  <ref role="37wK5l" to="77h2:~MBeanServer.unregisterMBean(javax.management.ObjectName):void" resolve="unregisterMBean" />
-                  <node concept="2ShNRf" id="6QX7KB4Sl7e" role="37wK5m">
-                    <node concept="1pGfFk" id="6QX7KB4SlCm" role="2ShVmc">
-                      <ref role="37wK5l" to="77h2:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="37vLTw" id="6QX7KB4SlC_" role="37wK5m">
-                        <ref role="3cqZAo" node="3ODNmtc2dWJ" resolve="notificationServiceName" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+        <node concept="3clFbF" id="2yuEF6qde0D" role="3cqZAp">
+          <node concept="2OqwBi" id="2yuEF6qde28" role="3clFbG">
+            <node concept="37vLTw" id="2yuEF6qde0B" role="2Oq$k0">
+              <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
             </node>
-            <node concept="3clFbH" id="4ZThPOYMMYm" role="3cqZAp" />
-            <node concept="3clFbF" id="4ZThPOYMN54" role="3cqZAp">
-              <node concept="2OqwBi" id="4ZThPOYMOXE" role="3clFbG">
-                <node concept="2YIFZM" id="4ZThPOYMOX8" role="2Oq$k0">
-                  <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
-                  <ref role="37wK5l" to="gyq6:4x14MABr44J" resolve="getInstance" />
-                </node>
-                <node concept="liA8E" id="4ZThPOYMP8P" role="2OqNvi">
-                  <ref role="37wK5l" to="gyq6:4ZThPOYBHN3" resolve="jmxSessions" />
-                  <node concept="3clFbT" id="4ZThPOYMP90" role="37wK5m">
-                    <property role="3clFbU" value="false" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="6QX7KB4SlCB" role="3cqZAp">
-              <node concept="2OqwBi" id="6QX7KB4SlCC" role="3clFbG">
-                <node concept="37vLTw" id="4ZThPOYBN$O" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="beanServer" />
-                </node>
-                <node concept="liA8E" id="6QX7KB4SlCE" role="2OqNvi">
-                  <ref role="37wK5l" to="77h2:~MBeanServer.unregisterMBean(javax.management.ObjectName):void" resolve="unregisterMBean" />
-                  <node concept="2ShNRf" id="6QX7KB4SlCF" role="37wK5m">
-                    <node concept="1pGfFk" id="6QX7KB4SlCG" role="2ShVmc">
-                      <ref role="37wK5l" to="77h2:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="37vLTw" id="6QX7KB4SlFk" role="37wK5m">
-                        <ref role="3cqZAo" node="3ODNmtc2dA1" resolve="telemetricsServiceName" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="6QX7KB4SlFV" role="3cqZAp" />
-            <node concept="3clFbF" id="6rMtHgbDG61" role="3cqZAp">
-              <node concept="2OqwBi" id="6rMtHgbDGga" role="3clFbG">
-                <node concept="2YIFZM" id="6rMtHgbDG7q" role="2Oq$k0">
-                  <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
-                  <ref role="37wK5l" to="gyq6:4x14MABr44J" resolve="getInstance" />
-                </node>
-                <node concept="liA8E" id="6rMtHgbDGmt" role="2OqNvi">
-                  <ref role="37wK5l" to="gyq6:6rMtHgbDDVu" resolve="gcClean" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="6rMtHgbDGoX" role="3cqZAp">
-              <node concept="2OqwBi" id="6rMtHgbDGx5" role="3clFbG">
-                <node concept="2YIFZM" id="6rMtHgbDGqG" role="2Oq$k0">
-                  <ref role="1Pybhc" to="gyq6:6QX7KB4Q4_P" resolve="JmxLiveDebugLogger" />
-                  <ref role="37wK5l" to="gyq6:6QX7KB4Quy0" resolve="getInstance" />
-                </node>
-                <node concept="liA8E" id="6rMtHgbDGFc" role="2OqNvi">
-                  <ref role="37wK5l" to="gyq6:6rMtHgbDF$O" resolve="gcClean" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="6rMtHgbD_DW" role="3cqZAp">
-              <node concept="2YIFZM" id="6rMtHgbDD0Z" role="3clFbG">
-                <ref role="37wK5l" to="28jr:1fGCQmfQhcV" resolve="shutdownAndGcClean" />
-                <ref role="1Pybhc" to="28jr:3$bhckDx2Vv" resolve="DeprecatedServerDateProvider" />
-              </node>
-            </node>
-            <node concept="3clFbH" id="6rMtHgbD$AO" role="3cqZAp" />
-          </node>
-          <node concept="TDmWw" id="6QX7KB4TSml" role="TEbGg">
-            <node concept="3cpWsn" id="6QX7KB4TSmm" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="6QX7KB4TSoO" role="1tU5fm">
-                <ref role="3uigEE" to="77h2:~MalformedObjectNameException" resolve="MalformedObjectNameException" />
-              </node>
-            </node>
-            <node concept="3clFbS" id="6QX7KB4TSmo" role="TDEfX">
-              <node concept="YS8fn" id="6QX7KB4TSp7" role="3cqZAp">
-                <node concept="2ShNRf" id="6QX7KB4TSp8" role="YScLw">
-                  <node concept="1pGfFk" id="6QX7KB4TSp9" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="6QX7KB4TSpa" role="37wK5m">
-                      <ref role="3cqZAo" node="6QX7KB4TSmm" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node concept="liA8E" id="2yuEF6qdf7j" role="2OqNvi">
+              <ref role="37wK5l" to="quhv:2yuEF6qa7Ze" resolve="gcClean" />
             </node>
           </node>
-          <node concept="TDmWw" id="4x14MABsffB" role="TEbGg">
-            <node concept="3clFbS" id="4x14MABsffE" role="TDEfX">
-              <node concept="YS8fn" id="4x14MABsfgw" role="3cqZAp">
-                <node concept="2ShNRf" id="4x14MABsfgG" role="YScLw">
-                  <node concept="1pGfFk" id="4x14MABsfL0" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="4x14MABsfP3" role="37wK5m">
-                      <ref role="3cqZAo" node="4x14MABsffF" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="4x14MABsffF" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="4x14MABsffA" role="1tU5fm">
-                <ref role="3uigEE" to="77h2:~InstanceNotFoundException" resolve="InstanceNotFoundException" />
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="4x14MABsffI" role="TEbGg">
-            <node concept="3clFbS" id="4x14MABsffL" role="TDEfX">
-              <node concept="YS8fn" id="4x14MABsfPM" role="3cqZAp">
-                <node concept="2ShNRf" id="4x14MABsfPN" role="YScLw">
-                  <node concept="1pGfFk" id="4x14MABsfPO" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="4x14MABsfPP" role="37wK5m">
-                      <ref role="3cqZAo" node="4x14MABsffM" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="4x14MABsffM" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="4x14MABsffH" role="1tU5fm">
-                <ref role="3uigEE" to="77h2:~MBeanRegistrationException" resolve="MBeanRegistrationException" />
-              </node>
-            </node>
+        </node>
+        <node concept="3clFbF" id="6rMtHgbD_DW" role="3cqZAp">
+          <node concept="2YIFZM" id="6rMtHgbDD0Z" role="3clFbG">
+            <ref role="37wK5l" to="28jr:1fGCQmfQhcV" resolve="shutdownAndGcClean" />
+            <ref role="1Pybhc" to="28jr:3$bhckDx2Vv" resolve="DeprecatedServerDateProvider" />
           </node>
         </node>
       </node>
@@ -5052,7 +4593,14 @@
       <node concept="3Tm6S6" id="75445jwa9CU" role="1B3o_S" />
       <node concept="17QB3L" id="75445jwa9CV" role="1tU5fm" />
     </node>
-    <node concept="2tJIrI" id="4ZThPOYC_GD" role="jymVt" />
+    <node concept="312cEg" id="2yuEF6qxzfK" role="jymVt">
+      <property role="TrG5h" value="jmxRegistration" />
+      <node concept="3Tm6S6" id="2yuEF6qxzfL" role="1B3o_S" />
+      <node concept="3uibUv" id="2yuEF6qxD9e" role="1tU5fm">
+        <ref role="3uigEE" to="quhv:2yuEF6q8DRM" resolve="FJmxRegistration" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2yuEF6qxtrB" role="jymVt" />
     <node concept="312cEg" id="77nEBgbqTPl" role="jymVt">
       <property role="TrG5h" value="cmds" />
       <node concept="3Tm6S6" id="77nEBgbqTPm" role="1B3o_S" />
@@ -5080,6 +4628,12 @@
         <property role="TrG5h" value="factory" />
         <node concept="3uibUv" id="49rIjELtcCe" role="1tU5fm">
           <ref role="3uigEE" node="49rIjELrzXK" resolve="IToolkit_H1AppFactory" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2yuEF6qxDHC" role="3clF46">
+        <property role="TrG5h" value="jmxReg" />
+        <node concept="3uibUv" id="2yuEF6qxFzU" role="1tU5fm">
+          <ref role="3uigEE" to="quhv:2yuEF6q8DRM" resolve="FJmxRegistration" />
         </node>
       </node>
       <node concept="3cqZAl" id="6QRLe84qdY5" role="3clF45" />
@@ -5122,6 +4676,16 @@
             </node>
             <node concept="37vLTw" id="77nEBgbqV9v" role="37vLTJ">
               <ref role="3cqZAo" node="77nEBgbqUOl" resolve="current" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2yuEF6qxPDh" role="3cqZAp">
+          <node concept="37vLTI" id="2yuEF6qxPHT" role="3clFbG">
+            <node concept="37vLTw" id="2yuEF6qxYvR" role="37vLTx">
+              <ref role="3cqZAo" node="2yuEF6qxDHC" resolve="jmxReg" />
+            </node>
+            <node concept="37vLTw" id="2yuEF6qxY9N" role="37vLTJ">
+              <ref role="3cqZAo" node="2yuEF6qxzfK" resolve="jmxRegistration" />
             </node>
           </node>
         </node>
@@ -8728,13 +8292,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="4QTIUTBV21r" role="3cqZAp">
-          <node concept="2YIFZM" id="4QTIUTBV2lc" role="3clFbG">
-            <ref role="37wK5l" to="gyq6:6EsTBrVcvyo" resolve="incCommands" />
-            <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="1rrvF1jDihS" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="1rrvF1jDijr" role="jymVt" />
@@ -9150,12 +8707,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="4QTIUTBV31S" role="3cqZAp">
-          <node concept="2YIFZM" id="4QTIUTBV3o7" role="3clFbG">
-            <ref role="37wK5l" to="gyq6:6EsTBrVcvyo" resolve="incCommands" />
-            <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
-          </node>
-        </node>
       </node>
     </node>
     <node concept="3clFb_" id="1rrvF1jBJpm" role="jymVt">
@@ -9202,16 +8753,24 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="4QTIUTBV3QX" role="3cqZAp">
-          <node concept="2YIFZM" id="4QTIUTBV3Wm" role="3clFbG">
-            <ref role="37wK5l" to="gyq6:6EsTBrVcxiA" resolve="decCommand" />
-            <ref role="1Pybhc" to="gyq6:4x14MABr2ep" resolve="JmxTelemetrics" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6QRLe84rjay" role="jymVt" />
+    <node concept="3clFb_" id="2yuEF6qxntE" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getFJmxRegistration" />
+      <node concept="3uibUv" id="2yuEF6qxntF" role="3clF45">
+        <ref role="3uigEE" to="quhv:2yuEF6q8DRM" resolve="FJmxRegistration" />
+      </node>
+      <node concept="3Tm1VV" id="2yuEF6qxntG" role="1B3o_S" />
+      <node concept="3clFbS" id="2yuEF6qxntI" role="3clF47">
+        <node concept="3clFbF" id="2yuEF6qxYzD" role="3cqZAp">
+          <node concept="37vLTw" id="2yuEF6qxYzC" role="3clFbG">
+            <ref role="3cqZAo" node="2yuEF6qxzfK" resolve="jmxRegistration" />
           </node>
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="6QRLe84rjay" role="jymVt" />
-    <node concept="2tJIrI" id="77nEBgbql3t" role="jymVt" />
     <node concept="3clFb_" id="yc6MyEs8BQ" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="ensureHotkeysAvailable" />
