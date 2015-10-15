@@ -2913,7 +2913,7 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="2yuEF6qmpuD" role="37wK5m">
-                  <property role="Xl_RC" value="/localInstance" />
+                  <property role="Xl_RC" value="/localinstance" />
                 </node>
               </node>
             </node>
@@ -2982,7 +2982,7 @@
                 </node>
               </node>
               <node concept="Xl_RD" id="2yuEF6qoSCl" role="37wK5m">
-                <property role="Xl_RC" value="FX8 Implementation (no version given)" />
+                <property role="Xl_RC" value="FX8 (not fully implemented!)" />
               </node>
             </node>
           </node>
