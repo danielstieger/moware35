@@ -2816,22 +2816,163 @@
                                       <node concept="3Tm1VV" id="1rrvF1jyVDk" role="1B3o_S" />
                                       <node concept="3cqZAl" id="1rrvF1jyVDm" role="3clF45" />
                                       <node concept="3clFbS" id="1rrvF1jyVDn" role="3clF47">
+                                        <node concept="3cpWs8" id="1Kh5rzHUFdh" role="3cqZAp">
+                                          <node concept="3cpWsn" id="1Kh5rzHUFdk" role="3cpWs9">
+                                            <property role="TrG5h" value="relayToCommandContainer" />
+                                            <node concept="10P_77" id="1Kh5rzHUFdf" role="1tU5fm" />
+                                            <node concept="3clFbT" id="1Kh5rzHUGAN" role="33vP2m">
+                                              <property role="3clFbU" value="true" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="3SKdUt" id="1Kh5rzHUBwq" role="3cqZAp">
+                                          <node concept="3SKdUq" id="1Kh5rzHUBBq" role="3SKWNk">
+                                            <property role="3SKdUp" value="known exceptions that are not relayed forward. " />
+                                          </node>
+                                        </node>
+                                        <node concept="3SKdUt" id="1Kh5rzHUBP0" role="3cqZAp">
+                                          <node concept="3SKdUq" id="1Kh5rzHUBWz" role="3SKWNk">
+                                            <property role="3SKdUp" value="problems with combo box: " />
+                                          </node>
+                                        </node>
+                                        <node concept="3SKdUt" id="1Kh5rzHUChp" role="3cqZAp">
+                                          <node concept="3SKdUq" id="1Kh5rzHUCoE" role="3SKWNk">
+                                            <property role="3SKdUp" value="com.sun.javafx.scene.control.skin.ComboBoxPopupControl.positionAndShowPopup(ComboBoxPopupControl.java:193)" />
+                                          </node>
+                                        </node>
+                                        <node concept="3clFbJ" id="1Kh5rzHUC_G" role="3cqZAp">
+                                          <node concept="3clFbS" id="1Kh5rzHUC_I" role="3clFbx">
+                                            <node concept="3clFbJ" id="1Kh5rzHUFb4" role="3cqZAp">
+                                              <node concept="3clFbS" id="1Kh5rzHUFb6" role="3clFbx">
+                                                <node concept="3clFbF" id="1Kh5rzHULT5" role="3cqZAp">
+                                                  <node concept="37vLTI" id="1Kh5rzHULYS" role="3clFbG">
+                                                    <node concept="3clFbT" id="1Kh5rzHUM00" role="37vLTx">
+                                                      <property role="3clFbU" value="false" />
+                                                    </node>
+                                                    <node concept="37vLTw" id="1Kh5rzHULT3" role="37vLTJ">
+                                                      <ref role="3cqZAo" node="1Kh5rzHUFdk" resolve="relayToCommandContainer" />
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                                <node concept="3SKdUt" id="1Kh5rzHVM7y" role="3cqZAp">
+                                                  <node concept="3SKWN0" id="1Kh5rzHVM7z" role="3SKWNk">
+                                                    <node concept="3clFbF" id="1Kh5rzHQS7P" role="3SKWNf">
+                                                      <node concept="2OqwBi" id="1Kh5rzHQS7M" role="3clFbG">
+                                                        <node concept="10M0yZ" id="1Kh5rzHQS7N" role="2Oq$k0">
+                                                          <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                                                          <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                                                        </node>
+                                                        <node concept="liA8E" id="1Kh5rzHQS7O" role="2OqNvi">
+                                                          <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                                          <node concept="3cpWs3" id="1Kh5rzHQSpv" role="37wK5m">
+                                                            <node concept="37vLTw" id="1Kh5rzHQSsS" role="3uHU7w">
+                                                              <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
+                                                            </node>
+                                                            <node concept="Xl_RD" id="1Kh5rzHQSb0" role="3uHU7B">
+                                                              <property role="Xl_RC" value="THIS WAS AN UnCaught Exception + " />
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                                <node concept="3SKdUt" id="1Kh5rzHVMuK" role="3cqZAp">
+                                                  <node concept="3SKWN0" id="1Kh5rzHVMuL" role="3SKWNk">
+                                                    <node concept="3clFbF" id="1Kh5rzHTAKz" role="3SKWNf">
+                                                      <node concept="2OqwBi" id="1Kh5rzHTAK$" role="3clFbG">
+                                                        <node concept="10M0yZ" id="1Kh5rzHTAK_" role="2Oq$k0">
+                                                          <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                                                          <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                                                        </node>
+                                                        <node concept="liA8E" id="1Kh5rzHTAKA" role="2OqNvi">
+                                                          <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                                          <node concept="3cpWs3" id="1Kh5rzHTAKB" role="37wK5m">
+                                                            <node concept="AH0OO" id="1Kh5rzHTBvZ" role="3uHU7w">
+                                                              <node concept="3cmrfG" id="1Kh5rzHTBGE" role="AHEQo">
+                                                                <property role="3cmrfH" value="0" />
+                                                              </node>
+                                                              <node concept="2OqwBi" id="1Kh5rzHTBbe" role="AHHXb">
+                                                                <node concept="37vLTw" id="1Kh5rzHTAKC" role="2Oq$k0">
+                                                                  <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
+                                                                </node>
+                                                                <node concept="liA8E" id="1Kh5rzHTBqi" role="2OqNvi">
+                                                                  <ref role="37wK5l" to="e2lb:~Throwable.getStackTrace():java.lang.StackTraceElement[]" resolve="getStackTrace" />
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                            <node concept="Xl_RD" id="1Kh5rzHTAKD" role="3uHU7B">
+                                                              <property role="Xl_RC" value=" " />
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                </node>
+                                              </node>
+                                              <node concept="2OqwBi" id="1Kh5rzHUHN3" role="3clFbw">
+                                                <node concept="2OqwBi" id="1Kh5rzHUHd_" role="2Oq$k0">
+                                                  <node concept="AH0OO" id="1Kh5rzHUH2h" role="2Oq$k0">
+                                                    <node concept="3cmrfG" id="1Kh5rzHUHbW" role="AHEQo">
+                                                      <property role="3cmrfH" value="0" />
+                                                    </node>
+                                                    <node concept="2OqwBi" id="1Kh5rzHUGEW" role="AHHXb">
+                                                      <node concept="37vLTw" id="1Kh5rzHUGD9" role="2Oq$k0">
+                                                        <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
+                                                      </node>
+                                                      <node concept="liA8E" id="1Kh5rzHUGZU" role="2OqNvi">
+                                                        <ref role="37wK5l" to="e2lb:~Throwable.getStackTrace():java.lang.StackTraceElement[]" resolve="getStackTrace" />
+                                                      </node>
+                                                    </node>
+                                                  </node>
+                                                  <node concept="liA8E" id="1Kh5rzHUHGp" role="2OqNvi">
+                                                    <ref role="37wK5l" to="e2lb:~StackTraceElement.toString():java.lang.String" resolve="toString" />
+                                                  </node>
+                                                </node>
+                                                <node concept="liA8E" id="1Kh5rzHULCJ" role="2OqNvi">
+                                                  <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                                  <node concept="Xl_RD" id="1Kh5rzHULGb" role="37wK5m">
+                                                    <property role="Xl_RC" value="ComboBoxPopupControl.positionAndShowPopup" />
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="2ZW3vV" id="1Kh5rzHUEW7" role="3clFbw">
+                                            <node concept="3uibUv" id="1Kh5rzHUF9i" role="2ZW6by">
+                                              <ref role="3uigEE" to="e2lb:~NullPointerException" resolve="NullPointerException" />
+                                            </node>
+                                            <node concept="37vLTw" id="1Kh5rzHUEhS" role="2ZW6bz">
+                                              <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="3clFbH" id="1Kh5rzHUCtJ" role="3cqZAp" />
+                                        <node concept="3clFbH" id="1Kh5rzHTAEU" role="3cqZAp" />
                                         <node concept="3SKdUt" id="1rrvF1jyVEe" role="3cqZAp">
                                           <node concept="3SKdUq" id="1rrvF1jyVEn" role="3SKWNk">
                                             <property role="3SKdUp" value="report expetions. but only one. and then close container if necessary." />
                                           </node>
                                         </node>
-                                        <node concept="3clFbF" id="1rrvF1jx4px" role="3cqZAp">
-                                          <node concept="2OqwBi" id="1rrvF1jx5xw" role="3clFbG">
-                                            <node concept="37vLTw" id="1rrvF1jx4pw" role="2Oq$k0">
-                                              <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
-                                            </node>
-                                            <node concept="liA8E" id="1rrvF1jx5IQ" role="2OqNvi">
-                                              <ref role="37wK5l" to="quhv:1rrvF1jvtJq" resolve="outsideExceptionForCurrentCommandContainer" />
-                                              <node concept="37vLTw" id="1rrvF1jyWOV" role="37wK5m">
-                                                <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
+                                        <node concept="3clFbJ" id="1Kh5rzHUGav" role="3cqZAp">
+                                          <node concept="3clFbS" id="1Kh5rzHUGax" role="3clFbx">
+                                            <node concept="3clFbF" id="1rrvF1jx4px" role="3cqZAp">
+                                              <node concept="2OqwBi" id="1rrvF1jx5xw" role="3clFbG">
+                                                <node concept="37vLTw" id="1rrvF1jx4pw" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
+                                                </node>
+                                                <node concept="liA8E" id="1rrvF1jx5IQ" role="2OqNvi">
+                                                  <ref role="37wK5l" to="quhv:1rrvF1jvtJq" resolve="outsideExceptionForCurrentCommandContainer" />
+                                                  <node concept="37vLTw" id="1rrvF1jyWOV" role="37wK5m">
+                                                    <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
+                                                  </node>
+                                                </node>
                                               </node>
                                             </node>
+                                          </node>
+                                          <node concept="37vLTw" id="1Kh5rzHUGiH" role="3clFbw">
+                                            <ref role="3cqZAo" node="1Kh5rzHUFdk" resolve="relayToCommandContainer" />
                                           </node>
                                         </node>
                                         <node concept="3clFbF" id="1rrvF1jyWQA" role="3cqZAp">
