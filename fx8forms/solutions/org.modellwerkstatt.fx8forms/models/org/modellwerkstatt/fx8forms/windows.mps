@@ -4217,6 +4217,9 @@
                   <property role="Xl_RC" value="USERNAME" />
                 </node>
               </node>
+              <node concept="Xl_RD" id="3NyMOIySE5p" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
               <node concept="37vLTw" id="7aUgYCzsu1U" role="37wK5m">
                 <ref role="3cqZAo" node="7aUgYCzss6K" resolve="userEnv" />
               </node>
@@ -5152,6 +5155,22 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1EBV9L$zkCx" role="3cqZAp">
+          <node concept="2OqwBi" id="1EBV9L$zkQ_" role="3clFbG">
+            <node concept="37vLTw" id="1EBV9L$zkCv" role="2Oq$k0">
+              <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
+            </node>
+            <node concept="liA8E" id="1EBV9L$zlmn" role="2OqNvi">
+              <ref role="37wK5l" to="quhv:3nLGOmWrOyj" resolve="shutdown" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1EBV9L$$nwi" role="3cqZAp" />
+        <node concept="3SKdUt" id="1EBV9L$$o_0" role="3cqZAp">
+          <node concept="3SKdUq" id="1EBV9L$$oMh" role="3SKWNk">
+            <property role="3SKdUp" value="then remove jmx things. " />
           </node>
         </node>
         <node concept="3clFbF" id="2yuEF6qmHxD" role="3cqZAp">

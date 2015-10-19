@@ -30,7 +30,7 @@
   <servlet>
     <servlet-name>loaderservlet</servlet-name>
     <servlet-class>
-        org.modellwerkstatt.vaadinforms.windows.VServlet
+        org.modellwerkstatt.vaadinforms.windows.VApplicationLoader
     </servlet-class>
 
     <init-param>
