@@ -3123,6 +3123,23 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1xatIIVaI$U" role="3cqZAp" />
+        <node concept="3clFbF" id="1xatIIVaFEZ" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVaGpx" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVaFEX" role="2Oq$k0">
+              <ref role="3cqZAo" node="41UdyNByDeO" resolve="menuBar" />
+            </node>
+            <node concept="liA8E" id="1xatIIVaHHV" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="10M0yZ" id="1xatIIVaHQe" role="37wK5m">
+                <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+                <ref role="3cqZAo" to="xgxa:~ValoTheme.MENUBAR_BORDERLESS" resolve="MENUBAR_BORDERLESS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xatIIVaHTU" role="3cqZAp" />
+        <node concept="3clFbH" id="1xatIIVaprj" role="3cqZAp" />
         <node concept="3clFbF" id="41UdyNB_ND3" role="3cqZAp">
           <node concept="37vLTI" id="41UdyNB_O9X" role="3clFbG">
             <node concept="2OqwBi" id="41UdyNB_OGD" role="37vLTx">
@@ -6919,7 +6936,7 @@
               <ref role="3cqZAo" node="2wSq35xVefX" resolve="okayButton" />
             </node>
             <node concept="liA8E" id="45e9mS9v9dO" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractComponent.setStyleName(java.lang.String):void" resolve="setStyleName" />
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
               <node concept="10M0yZ" id="45e9mS9v9dP" role="37wK5m">
                 <ref role="3cqZAo" to="xgxa:~ValoTheme.BUTTON_SMALL" resolve="BUTTON_SMALL" />
                 <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
@@ -6927,7 +6944,22 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1xatIIVoHAJ" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVoHAK" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVoHAL" role="2Oq$k0">
+              <ref role="3cqZAo" node="2wSq35xVefX" resolve="okayButton" />
+            </node>
+            <node concept="liA8E" id="1xatIIVoHAM" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setStyleName(java.lang.String):void" resolve="setStyleName" />
+              <node concept="10M0yZ" id="1xatIIVoHAN" role="37wK5m">
+                <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+                <ref role="3cqZAo" to="xgxa:~ValoTheme.BUTTON_FRIENDLY" resolve="BUTTON_FRIENDLY" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="45e9mS9v9fV" role="3cqZAp" />
+        <node concept="3clFbH" id="1xatIIVoH8t" role="3cqZAp" />
         <node concept="3clFbF" id="45e9mS9v9g1" role="3cqZAp">
           <node concept="2OqwBi" id="45e9mS9v9g2" role="3clFbG">
             <node concept="37vLTw" id="45e9mS9v9g3" role="2Oq$k0">
@@ -7001,9 +7033,22 @@
               <ref role="3cqZAo" node="45e9mS9zNdc" resolve="contentLabel" />
             </node>
             <node concept="liA8E" id="45e9mS9v9kI" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractComponent.setStyleName(java.lang.String):void" resolve="setStyleName" />
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
               <node concept="Xl_RD" id="45e9mS9v9kJ" role="37wK5m">
                 <property role="Xl_RC" value="mo-caption" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xatIIVg6KC" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVg7nM" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVg6KA" role="2Oq$k0">
+              <ref role="3cqZAo" node="45e9mS9zNdc" resolve="contentLabel" />
+            </node>
+            <node concept="liA8E" id="1xatIIVg8r3" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="Xl_RD" id="1xatIIVg8CQ" role="37wK5m">
+                <property role="Xl_RC" value="mo-msgboxtext" />
               </node>
             </node>
           </node>
@@ -7172,7 +7217,7 @@
               <ref role="3cqZAo" node="2wSq35xVefX" resolve="okayButton" />
             </node>
             <node concept="liA8E" id="45e9mS9vufY" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractComponent.setStyleName(java.lang.String):void" resolve="setStyleName" />
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
               <node concept="10M0yZ" id="45e9mS9vufZ" role="37wK5m">
                 <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
                 <ref role="3cqZAo" to="xgxa:~ValoTheme.BUTTON_SMALL" resolve="BUTTON_SMALL" />
@@ -7180,6 +7225,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1xatIIVoG_k" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVoG_l" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVoG_m" role="2Oq$k0">
+              <ref role="3cqZAo" node="2wSq35xVefX" resolve="okayButton" />
+            </node>
+            <node concept="liA8E" id="1xatIIVoG_n" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="10M0yZ" id="1xatIIVoG_o" role="37wK5m">
+                <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+                <ref role="3cqZAo" to="xgxa:~ValoTheme.BUTTON_FRIENDLY" resolve="BUTTON_FRIENDLY" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xatIIVoG7v" role="3cqZAp" />
         <node concept="3clFbF" id="45e9mS9vui6" role="3cqZAp">
           <node concept="2OqwBi" id="45e9mS9vui7" role="3clFbG">
             <node concept="37vLTw" id="45e9mS9vui8" role="2Oq$k0">
@@ -7545,7 +7605,7 @@
               <ref role="3cqZAo" node="2wSq35xVefX" resolve="okayButton" />
             </node>
             <node concept="liA8E" id="2wSq35xW0wF" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractComponent.setStyleName(java.lang.String):void" resolve="setStyleName" />
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
               <node concept="10M0yZ" id="2wSq35xW0Ht" role="37wK5m">
                 <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
                 <ref role="3cqZAo" to="xgxa:~ValoTheme.BUTTON_SMALL" resolve="BUTTON_SMALL" />
@@ -7553,7 +7613,21 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2wSq35xW0KW" role="3cqZAp" />
+        <node concept="3clFbF" id="1xatIIVoCPI" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVoDUM" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVoCPG" role="2Oq$k0">
+              <ref role="3cqZAo" node="2wSq35xVefX" resolve="okayButton" />
+            </node>
+            <node concept="liA8E" id="1xatIIVoFla" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="10M0yZ" id="1xatIIVoFNS" role="37wK5m">
+                <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+                <ref role="3cqZAo" to="xgxa:~ValoTheme.BUTTON_FRIENDLY" resolve="BUTTON_FRIENDLY" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xatIIVoB$J" role="3cqZAp" />
         <node concept="3clFbF" id="2wSq35xFOW$" role="3cqZAp">
           <node concept="2OqwBi" id="2wSq35xFPhg" role="3clFbG">
             <node concept="37vLTw" id="2wSq35xFOWy" role="2Oq$k0">
@@ -7664,6 +7738,20 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1xatIIVoAwJ" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVoAwK" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVoAwL" role="2Oq$k0">
+              <ref role="3cqZAo" node="45e9mS9zNdc" resolve="contentLabel" />
+            </node>
+            <node concept="liA8E" id="1xatIIVoAwM" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="Xl_RD" id="1xatIIVoAwN" role="37wK5m">
+                <property role="Xl_RC" value="mo-msgboxtext" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xatIIVo__h" role="3cqZAp" />
         <node concept="3clFbF" id="2wSq35xG146" role="3cqZAp">
           <node concept="1rXfSq" id="2wSq35xG144" role="3clFbG">
             <ref role="37wK5l" node="2wSq35xEIkT" resolve="setContentAndButtonPane" />
@@ -8032,6 +8120,17 @@
               <ref role="37wK5l" to="o2tm:~Window.setDraggable(boolean):void" resolve="setDraggable" />
               <node concept="3clFbT" id="4QTIUTCn_cQ" role="37wK5m">
                 <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xatIIVjSky" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVjSq0" role="3clFbG">
+            <node concept="Xjq3P" id="1xatIIVjSkw" role="2Oq$k0" />
+            <node concept="liA8E" id="1xatIIVjTqz" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="Xl_RD" id="1xatIIVjT$E" role="37wK5m">
+                <property role="Xl_RC" value="mo-promptwindow" />
               </node>
             </node>
           </node>
@@ -8492,6 +8591,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="45e9mS9xU4H" role="3cqZAp" />
+        <node concept="3clFbH" id="1xatIIVjRLu" role="3cqZAp" />
         <node concept="3clFbJ" id="45e9mS9xUK7" role="3cqZAp">
           <node concept="3clFbS" id="45e9mS9xUK9" role="3clFbx">
             <node concept="3clFbF" id="45e9mS9zaGh" role="3cqZAp">
@@ -9131,22 +9231,9 @@
               <ref role="3cqZAo" node="6go2MrswaAj" resolve="buttonPane" />
             </node>
             <node concept="liA8E" id="6go2Mrswb14" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractComponent.setStyleName(java.lang.String):void" resolve="setStyleName" />
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
               <node concept="Xl_RD" id="6go2Mrswb15" role="37wK5m">
                 <property role="Xl_RC" value="mo-bottombtnpane-mrg" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6go2Mrswb16" role="3cqZAp">
-          <node concept="2OqwBi" id="6go2Mrswb17" role="3clFbG">
-            <node concept="37vLTw" id="6go2Mrswb18" role="2Oq$k0">
-              <ref role="3cqZAo" node="6go2MrswaAj" resolve="buttonPane" />
-            </node>
-            <node concept="liA8E" id="6go2Mrswb19" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.setMargin(boolean):void" resolve="setMargin" />
-              <node concept="3clFbT" id="6go2Mrswb1a" role="37wK5m">
-                <property role="3clFbU" value="true" />
               </node>
             </node>
           </node>
@@ -9250,6 +9337,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1xatIIVcMEV" role="3cqZAp" />
         <node concept="3SKdUt" id="6uMhsmMWQkB" role="3cqZAp">
           <node concept="3SKdUq" id="6uMhsmMWQIP" role="3SKWNk">
             <property role="3SKdUp" value="handled by VGlobalActionHandler, " />
@@ -10623,6 +10711,15 @@
           </node>
           <node concept="37vLTw" id="6go2MrswUq1" role="37wK5m">
             <ref role="3cqZAo" node="6go2MrswUf3" resolve="clickListener" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xatIIVdqkc" role="3cqZAp">
+          <node concept="1rXfSq" id="1xatIIVdqka" role="3clFbG">
+            <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+            <node concept="10M0yZ" id="1xatIIVdqnZ" role="37wK5m">
+              <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+              <ref role="3cqZAo" to="xgxa:~ValoTheme.BUTTON_FRIENDLY" resolve="BUTTON_FRIENDLY" />
+            </node>
           </node>
         </node>
       </node>
@@ -12216,7 +12313,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1xatIIVgIoK" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVgJNi" role="3clFbG">
+            <node concept="Xjq3P" id="1xatIIVhDRD" role="2Oq$k0" />
+            <node concept="liA8E" id="1xatIIVgRV6" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="Xl_RD" id="1xatIIVgSHf" role="37wK5m">
+                <property role="Xl_RC" value="mo-table" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="5XHFlROPdGN" role="3cqZAp" />
+        <node concept="3clFbH" id="1xatIIVhKor" role="3cqZAp" />
         <node concept="3clFbF" id="5XHFlROKhig" role="3cqZAp">
           <node concept="37vLTI" id="5XHFlROKipD" role="3clFbG">
             <node concept="2ShNRf" id="5XHFlROKj8f" role="37vLTx">
@@ -12304,7 +12413,22 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5tLhDsdX9l0" role="3cqZAp" />
+        <node concept="3clFbF" id="1xatIIVcztB" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVc$QI" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVczt_" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
+            </node>
+            <node concept="liA8E" id="1xatIIVcHhS" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="10M0yZ" id="1xatIIVcIlf" role="37wK5m">
+                <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+                <ref role="3cqZAo" to="xgxa:~ValoTheme.TABLE_SMALL" resolve="TABLE_SMALL" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xatIIVcxi3" role="3cqZAp" />
+        <node concept="3clFbH" id="1xatIIVcxoW" role="3cqZAp" />
         <node concept="3clFbF" id="5XHFlRONdXL" role="3cqZAp">
           <node concept="37vLTI" id="5XHFlRONeH7" role="3clFbG">
             <node concept="2ShNRf" id="5XHFlRONfw2" role="37vLTx">
@@ -12317,27 +12441,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3WgKQm_P2Ik" role="3cqZAp">
-          <node concept="2OqwBi" id="3WgKQm_P3nW" role="3clFbG">
-            <node concept="37vLTw" id="3WgKQm_P2Ii" role="2Oq$k0">
-              <ref role="3cqZAo" node="5XHFlRON8a$" resolve="topPane" />
-            </node>
-            <node concept="liA8E" id="3WgKQm_P52e" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3WgKQm_QSRS" role="3cqZAp">
-          <node concept="2OqwBi" id="3WgKQm_QTyo" role="3clFbG">
-            <node concept="37vLTw" id="3WgKQm_QSRQ" role="2Oq$k0">
-              <ref role="3cqZAo" node="5XHFlRON8a$" resolve="topPane" />
-            </node>
-            <node concept="liA8E" id="3WgKQm_QUC3" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractComponent.setHeightUndefined():void" resolve="setHeightUndefined" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3WgKQm_P1Va" role="3cqZAp" />
+        <node concept="3clFbH" id="1xatIIVnWnE" role="3cqZAp" />
         <node concept="3clFbF" id="5XHFlRONj5_" role="3cqZAp">
           <node concept="37vLTI" id="5XHFlRONkpN" role="3clFbG">
             <node concept="2ShNRf" id="5XHFlRONlic" role="37vLTx">
@@ -12414,14 +12518,29 @@
             <node concept="37vLTw" id="5tLhDsed_dx" role="2Oq$k0">
               <ref role="3cqZAo" node="5tLhDsedpKy" resolve="textField" />
             </node>
-            <node concept="liA8E" id="5tLhDsedESG" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractComponent.setWidth(java.lang.String):void" resolve="setWidth" />
-              <node concept="Xl_RD" id="5tLhDsedFyy" role="37wK5m">
-                <property role="Xl_RC" value="150px" />
+            <node concept="liA8E" id="1xatIIVirbj" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="Xl_RD" id="1xatIIVirPp" role="37wK5m">
+                <property role="Xl_RC" value="mo-searchfield" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1xatIIVj9sd" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVjb8C" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVj9sb" role="2Oq$k0">
+              <ref role="3cqZAo" node="5tLhDsedpKy" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="1xatIIVjeaX" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="10M0yZ" id="1xatIIVjfgr" role="37wK5m">
+                <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+                <ref role="3cqZAo" to="xgxa:~ValoTheme.TEXTFIELD_BORDERLESS" resolve="TEXTFIELD_BORDERLESS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xatIIVjfAH" role="3cqZAp" />
         <node concept="3clFbF" id="5tLhDsedy8r" role="3cqZAp">
           <node concept="2OqwBi" id="5tLhDsedy8s" role="3clFbG">
             <node concept="37vLTw" id="5tLhDsedy8t" role="2Oq$k0">
@@ -12453,6 +12572,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="5tLhDsedx9J" role="3cqZAp" />
+        <node concept="3clFbH" id="1xatIIVkxe2" role="3cqZAp" />
         <node concept="3clFbF" id="5tLhDse9c0N" role="3cqZAp">
           <node concept="37vLTI" id="5tLhDse9dbB" role="3clFbG">
             <node concept="2ShNRf" id="5tLhDse9et5" role="37vLTx">
@@ -12465,16 +12585,17 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5tLhDsedbe_" role="3cqZAp">
-          <node concept="2OqwBi" id="5tLhDsedc7B" role="3clFbG">
-            <node concept="37vLTw" id="5tLhDsedbez" role="2Oq$k0">
+        <node concept="3clFbF" id="1xatIIVrD2E" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVrFgm" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVrD2C" role="2Oq$k0">
               <ref role="3cqZAo" node="5tLhDse8TJJ" resolve="selectedPosition" />
             </node>
-            <node concept="liA8E" id="5tLhDsedexA" role="2OqNvi">
+            <node concept="liA8E" id="1xatIIVrHtg" role="2OqNvi">
               <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeUndefined():void" resolve="setSizeUndefined" />
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1xatIIVrHN0" role="3cqZAp" />
         <node concept="3clFbF" id="5tLhDsev8YZ" role="3cqZAp">
           <node concept="2OqwBi" id="5tLhDseva_8" role="3clFbG">
             <node concept="37vLTw" id="5tLhDsev8YX" role="2Oq$k0">
@@ -12488,7 +12609,34 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5tLhDsev7e4" role="3cqZAp" />
+        <node concept="3clFbF" id="1xatIIVgVNl" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVgXrX" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVgVNj" role="2Oq$k0">
+              <ref role="3cqZAo" node="5tLhDse8TJJ" resolve="selectedPosition" />
+            </node>
+            <node concept="liA8E" id="1xatIIVh0Iq" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="Xl_RD" id="1xatIIVh13K" role="37wK5m">
+                <property role="Xl_RC" value="mo-linecounter" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xatIIVsXIG" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVsXIH" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVsXII" role="2Oq$k0">
+              <ref role="3cqZAo" node="5tLhDse8TJJ" resolve="selectedPosition" />
+            </node>
+            <node concept="liA8E" id="1xatIIVsXIJ" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="Xl_RD" id="1xatIIVsXIK" role="37wK5m">
+                <property role="Xl_RC" value="mo-linecounter-margin" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xatIIVgTpK" role="3cqZAp" />
+        <node concept="3clFbH" id="1xatIIVqZRt" role="3cqZAp" />
         <node concept="3clFbF" id="5tLhDse903H" role="3cqZAp">
           <node concept="2OqwBi" id="5tLhDse91a0" role="3clFbG">
             <node concept="37vLTw" id="5tLhDse903F" role="2Oq$k0">
@@ -12520,6 +12668,27 @@
           </node>
         </node>
         <node concept="3clFbH" id="5tLhDseeqZM" role="3cqZAp" />
+        <node concept="3clFbF" id="3WgKQm_P2Ik" role="3cqZAp">
+          <node concept="2OqwBi" id="3WgKQm_P3nW" role="3clFbG">
+            <node concept="37vLTw" id="3WgKQm_P2Ii" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XHFlRON8a$" resolve="topPane" />
+            </node>
+            <node concept="liA8E" id="3WgKQm_P52e" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xatIIVkV59" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVkXka" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVkV57" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XHFlRON8a$" resolve="topPane" />
+            </node>
+            <node concept="liA8E" id="1xatIIVkZi_" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setHeightUndefined():void" resolve="setHeightUndefined" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xatIIVnYnn" role="3cqZAp" />
         <node concept="3clFbF" id="5XHFlRONanR" role="3cqZAp">
           <node concept="2OqwBi" id="5XHFlRONawR" role="3clFbG">
             <node concept="Xjq3P" id="5XHFlRONanP" role="2Oq$k0" />
@@ -13936,6 +14105,19 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="1xatIIVittR" role="3cqZAp">
+              <node concept="2OqwBi" id="1xatIIVitWc" role="3clFbG">
+                <node concept="37vLTw" id="1xatIIVittP" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7wrkReHxZd2" resolve="summaryLineLabel" />
+                </node>
+                <node concept="liA8E" id="1xatIIVizHb" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+                  <node concept="Xl_RD" id="1xatIIVi$2C" role="37wK5m">
+                    <property role="Xl_RC" value="mo-summaryline" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="7wrkReHym1$" role="3cqZAp">
               <node concept="2OqwBi" id="7wrkReHyms2" role="3clFbG">
                 <node concept="37vLTw" id="7wrkReHym1y" role="2Oq$k0">
@@ -13943,19 +14125,6 @@
                 </node>
                 <node concept="liA8E" id="7wrkReHynsq" role="2OqNvi">
                   <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7wrkReH$bgK" role="3cqZAp">
-              <node concept="2OqwBi" id="7wrkReH$bMN" role="3clFbG">
-                <node concept="37vLTw" id="7wrkReH$bgI" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7wrkReHxZd2" resolve="summaryLineLabel" />
-                </node>
-                <node concept="liA8E" id="7wrkReH$dyO" role="2OqNvi">
-                  <ref role="37wK5l" to="o2tm:~AbstractComponent.setHeight(java.lang.String):void" resolve="setHeight" />
-                  <node concept="Xl_RD" id="7wrkReH$dRT" role="37wK5m">
-                    <property role="Xl_RC" value="2em" />
-                  </node>
                 </node>
               </node>
             </node>
@@ -15382,7 +15551,7 @@
                           </node>
                         </node>
                         <node concept="Xl_RD" id="5tLhDsebqog" role="3uHU7w">
-                          <property role="Xl_RC" value="/" />
+                          <property role="Xl_RC" value=" / " />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="5tLhDsebtw4" role="3uHU7w">
@@ -15444,7 +15613,7 @@
                             <ref role="3cqZAo" node="5tLhDse8NHd" resolve="pre" />
                           </node>
                           <node concept="Xl_RD" id="5tLhDseb$U7" role="3uHU7w">
-                            <property role="Xl_RC" value=" M/" />
+                            <property role="Xl_RC" value=" M/ " />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="5tLhDseb$U8" role="3uHU7w">
@@ -15481,7 +15650,7 @@
                             <ref role="3cqZAo" node="5tLhDse8NHd" resolve="pre" />
                           </node>
                           <node concept="Xl_RD" id="5tLhDsebEZb" role="3uHU7w">
-                            <property role="Xl_RC" value="  /" />
+                            <property role="Xl_RC" value="  / " />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="5tLhDsebGrA" role="3uHU7w">
@@ -15931,6 +16100,20 @@
             </node>
             <node concept="37vLTw" id="5XHFlROGK$9" role="37vLTJ">
               <ref role="3cqZAo" node="5XHFlROGKuq" resolve="bar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1xatIIVfzWz" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVf$io" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVfzWx" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XHFlROGKuq" resolve="bar" />
+            </node>
+            <node concept="liA8E" id="1xatIIVf$Vr" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="10M0yZ" id="1xatIIVf$XJ" role="37wK5m">
+                <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+                <ref role="3cqZAo" to="xgxa:~ValoTheme.MENUBAR_BORDERLESS" resolve="MENUBAR_BORDERLESS" />
+              </node>
             </node>
           </node>
         </node>
@@ -20964,7 +21147,21 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1EBV9L$FKZ_" role="3cqZAp" />
+        <node concept="3clFbF" id="1xatIIVet7j" role="3cqZAp">
+          <node concept="2OqwBi" id="1xatIIVeubF" role="3clFbG">
+            <node concept="37vLTw" id="1xatIIVet7h" role="2Oq$k0">
+              <ref role="3cqZAo" node="1EBV9L$FvTv" resolve="loginButton" />
+            </node>
+            <node concept="liA8E" id="1xatIIVevez" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="10M0yZ" id="1xatIIVevsA" role="37wK5m">
+                <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+                <ref role="3cqZAo" to="xgxa:~ValoTheme.BUTTON_FRIENDLY" resolve="BUTTON_FRIENDLY" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1xatIIVerYW" role="3cqZAp" />
         <node concept="3clFbF" id="3NyMOIyZ4rh" role="3cqZAp">
           <node concept="37vLTI" id="3NyMOIyZ5rc" role="3clFbG">
             <node concept="2ShNRf" id="3NyMOIyZ6bw" role="37vLTx">

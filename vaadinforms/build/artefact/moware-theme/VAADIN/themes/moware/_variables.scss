@@ -1,16 +1,39 @@
-$v-app-loading-text: "Migrate Reindeer Theme";
+$v-app-loading-text: "Light Valo";
+
+$v-background-color: hsl(0, 0, 99.5%);
+$v-app-background-color: #fff;
+$v-focus-color: hsl(218, 80%, 60%);
+$v-border: 1px solid (v-shade 0.6);
+$v-border-radius: 2px;
+$v-bevel: inset 0 1px 0 v-tint;
+$v-textfield-bevel: false;
+$v-gradient: v-linear 3%;
+$v-shadow: false;
+$valo-menu-background-color: hsl(218, 20%, 98%);
+$v-friendly-color: hsl(163, 61%, 41%);
+$v-error-indicator-color: hsl(349, 66%, 56%);
+
 
 $v-font-size: 14px;
+$v-line-height: 1;
 
-$v-unit-size: 28px;
+$v-unit-size: 26px;
 $v-unit-size--small: 24px;
 $v-unit-size--tiny: 22px;
 
-$v-layout-margin-top: 18px;
-$v-layout-margin-right: 18px;
-$v-layout-margin-bottom: 18px;
-$v-layout-margin-left: 18px;
-$v-layout-spacing-vertical: 7px;
-$v-layout-spacing-horizontal: 6px;
-
 @import "../valo/valo";
+
+
+
+/* .v-button-primary {
+	.v-button-caption {
+		font-weight: normal;
+	}
+} */
+
+.tests-valo-light .valo-menu .valo-menu-title {
+  background: $v-app-background-color;
+  color: $v-selection-color;
+  text-shadow: none;
+  border-color: first-color(valo-border($color: $v-app-background-color, $strength: 0.5));
+}
