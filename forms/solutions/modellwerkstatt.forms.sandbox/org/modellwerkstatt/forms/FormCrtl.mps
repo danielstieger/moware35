@@ -1791,6 +1791,14 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7KIS3I4JDRe" role="3cqZAp">
+          <node concept="37vLTI" id="7KIS3I4JDZE" role="3clFbG">
+            <node concept="10Nm6u" id="7KIS3I4JE1Q" role="37vLTx" />
+            <node concept="37vLTw" id="7KIS3I4JDRc" role="37vLTJ">
+              <ref role="3cqZAo" node="1EBV9L$AVof" resolve="userTelemetrics" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="20ohnkbzG$K" role="3clF46">
         <property role="TrG5h" value="factory" />
@@ -4589,19 +4597,34 @@
       <node concept="3cqZAl" id="3nLGOmWrOzJ" role="3clF45" />
       <node concept="3Tm1VV" id="3nLGOmWrOyl" role="1B3o_S" />
       <node concept="3clFbS" id="3nLGOmWrOym" role="3clF47">
-        <node concept="3clFbF" id="1EBV9L$_soy" role="3cqZAp">
-          <node concept="2OqwBi" id="1EBV9L$_stv" role="3clFbG">
-            <node concept="37vLTw" id="1EBV9L$_sox" role="2Oq$k0">
-              <ref role="3cqZAo" node="2yuEF6qjnHZ" resolve="jmxRegistration" />
+        <node concept="3clFbJ" id="7KIS3I4JE7h" role="3cqZAp">
+          <node concept="3clFbS" id="7KIS3I4JE7j" role="3clFbx">
+            <node concept="3SKdUt" id="7KIS3I4JFeu" role="3cqZAp">
+              <node concept="3SKdUq" id="7KIS3I4JFfO" role="3SKWNk">
+                <property role="3SKdUp" value="might be that the user was not logged on. " />
+              </node>
             </node>
-            <node concept="liA8E" id="1EBV9L$B3VM" role="2OqNvi">
-              <ref role="37wK5l" node="1EBV9L$_AM3" resolve="unregisterUser" />
-              <node concept="37vLTw" id="1EBV9L$B4bB" role="37wK5m">
-                <ref role="3cqZAo" node="3BCllXoLPzx" resolve="userEnvironment" />
+            <node concept="3clFbF" id="1EBV9L$_soy" role="3cqZAp">
+              <node concept="2OqwBi" id="1EBV9L$_stv" role="3clFbG">
+                <node concept="37vLTw" id="1EBV9L$_sox" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2yuEF6qjnHZ" resolve="jmxRegistration" />
+                </node>
+                <node concept="liA8E" id="1EBV9L$B3VM" role="2OqNvi">
+                  <ref role="37wK5l" node="1EBV9L$_AM3" resolve="unregisterUser" />
+                  <node concept="37vLTw" id="1EBV9L$B4bB" role="37wK5m">
+                    <ref role="3cqZAo" node="3BCllXoLPzx" resolve="userEnvironment" />
+                  </node>
+                  <node concept="37vLTw" id="1EBV9L$B44s" role="37wK5m">
+                    <ref role="3cqZAo" node="1EBV9L$AVof" resolve="userTelemetrics" />
+                  </node>
+                </node>
               </node>
-              <node concept="37vLTw" id="1EBV9L$B44s" role="37wK5m">
-                <ref role="3cqZAo" node="1EBV9L$AVof" resolve="userTelemetrics" />
-              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="7KIS3I4JF1t" role="3clFbw">
+            <node concept="10Nm6u" id="7KIS3I4JF4C" role="3uHU7w" />
+            <node concept="37vLTw" id="7KIS3I4JExe" role="3uHU7B">
+              <ref role="3cqZAo" node="1EBV9L$AVof" resolve="userTelemetrics" />
             </node>
           </node>
         </node>
@@ -30393,9 +30416,7 @@
         <node concept="3clFbJ" id="4vlJhW$dGpz" role="3cqZAp">
           <node concept="3clFbS" id="4vlJhW$dGpA" role="3clFbx">
             <node concept="3cpWs6" id="4vlJhW$dGCz" role="3cqZAp">
-              <node concept="Xl_RD" id="4vlJhW$dGCL" role="3cqZAk">
-                <property role="Xl_RC" value="(null)" />
-              </node>
+              <node concept="Xl_RD" id="4vlJhW$dGCL" role="3cqZAk" />
             </node>
           </node>
           <node concept="3clFbC" id="4vlJhW$dGAp" role="3clFbw">
@@ -30709,6 +30730,21 @@
       <node concept="17QB3L" id="3PmCowOXzpe" role="3clF45" />
       <node concept="3Tm1VV" id="3PmCowOXzpf" role="1B3o_S" />
       <node concept="3clFbS" id="3PmCowOXzpg" role="3clF47">
+        <node concept="3clFbJ" id="7KIS3I4$qNJ" role="3cqZAp">
+          <node concept="3clFbS" id="7KIS3I4$qNL" role="3clFbx">
+            <node concept="3cpWs6" id="7KIS3I4$raV" role="3cqZAp">
+              <node concept="Xl_RD" id="7KIS3I4$rby" role="3cqZAk">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="7KIS3I4$r7K" role="3clFbw">
+            <node concept="10Nm6u" id="7KIS3I4$ra9" role="3uHU7w" />
+            <node concept="37vLTw" id="7KIS3I4$r0e" role="3uHU7B">
+              <ref role="3cqZAo" node="3PmCowOXzpc" resolve="obj" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="5OLgD$VngO" role="3cqZAp">
           <node concept="3EllGN" id="5OLgD$VngP" role="3cqZAk">
             <node concept="37vLTw" id="5hc8PGHPz_H" role="3ElVtu">
@@ -40087,6 +40123,21 @@
       <node concept="17QB3L" id="7fo5K05sHSr" role="3clF45" />
       <node concept="3Tm1VV" id="7fo5K05sHSs" role="1B3o_S" />
       <node concept="3clFbS" id="7fo5K05sHSt" role="3clF47">
+        <node concept="3clFbJ" id="7KIS3I4$pjv" role="3cqZAp">
+          <node concept="3clFbS" id="7KIS3I4$pjx" role="3clFbx">
+            <node concept="3cpWs6" id="7KIS3I4$p_w" role="3cqZAp">
+              <node concept="Xl_RD" id="7KIS3I4$pAc" role="3cqZAk">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="7KIS3I4$pzS" role="3clFbw">
+            <node concept="10Nm6u" id="7KIS3I4$p$D" role="3uHU7w" />
+            <node concept="37vLTw" id="7KIS3I4$poH" role="3uHU7B">
+              <ref role="3cqZAo" node="7fo5K05sHSp" resolve="obj" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="7fo5K05sJhy" role="3cqZAp">
           <node concept="3clFbS" id="7fo5K05sJh_" role="3clFbx">
             <node concept="3cpWs6" id="7fo5K05sISp" role="3cqZAp">

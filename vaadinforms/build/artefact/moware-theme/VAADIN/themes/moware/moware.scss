@@ -2,6 +2,7 @@
 
 @mixin moware {
   @include valo;
+   
   
 	.mo-small-mrg {
 		.v-margin-left   {padding-left:   10px;}
@@ -18,17 +19,22 @@
 	}
 	
 	.mo-caption { color: $v-friendly-color; font-weight: bold; }
+	.mo-errorflag { color: $v-error-indicator-color; }
 	.mo-small-font { font-size: 0.9em; }
 	.mo-msgboxtext { line-height: $v-unit-size * 0.75; }
 
-	
 	.mo-promptwindow {
 		.v-window-header { font-weight: bold; }
 
 
 	}
+
+
+    $mo-inputbg: rgb(210, 244, 243);
 	
 	.mo-table {
+		/* check table settings in _variables.scss */
+	
 		.mo-linecounter {
 			width: 2 * $v-unit-size;
 			height: $v-unit-size;
@@ -36,14 +42,13 @@
 		}
 
 		.mo-linecounter-margin {
-			padding-right: 100px;
+			margin-right: 2 * $v-unit-size;
 		}
 
 		.v-slot-mo-searchfield { height: $v-unit-size; }
 		.mo-searchfield {
 			width: 5 * $v-unit-size;
-			background-color: rgb(210, 244, 243);
-		
+			background-color: $mo-inputbg;
 			height: 0.8 * $v-unit-size;
 		}
 		.mo-summaryline {

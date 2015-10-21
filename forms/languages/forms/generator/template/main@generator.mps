@@ -6499,22 +6499,26 @@
               </node>
             </node>
             <node concept="3clFbH" id="f3jkc1ZaQE" role="3cqZAp" />
-            <node concept="3clFbF" id="f3jkc1XP5K" role="3cqZAp">
-              <node concept="2OqwBi" id="f3jkc1XP5O" role="3clFbG">
-                <node concept="Xjq3P" id="f3jkc1XP5L" role="2Oq$k0" />
-                <node concept="liA8E" id="f3jkc1XP6m" role="2OqNvi">
-                  <ref role="37wK5l" node="1kThbup1GzT" resolve="pushSelection" />
-                  <node concept="2ShNRf" id="f3jkc1XP6P" role="37wK5m">
-                    <node concept="1pGfFk" id="f3jkc1XP7m" role="2ShVmc">
-                      <ref role="37wK5l" to="quhv:3r$bzmx4dUq" resolve="FSelection" />
-                      <node concept="2OqwBi" id="f3jkc1XP7R" role="37wK5m">
-                        <node concept="37vLTw" id="fdGRoMYR7d" role="2Oq$k0">
-                          <ref role="3cqZAo" node="1kThbup1$Mn" resolve="objects" />
-                        </node>
-                        <node concept="34jXtK" id="f3jkc1XP8p" role="2OqNvi">
-                          <node concept="3cmrfG" id="f3jkc1XP8S" role="25WWJ7">
-                            <property role="3cmrfH" value="0" />
-                          </node>
+            <node concept="3SKdUt" id="7KIS3I4Q1ct" role="3cqZAp">
+              <node concept="3SKdUq" id="7KIS3I4Q1yD" role="3SKWNk">
+                <property role="3SKdUp" value="in order to allow for appropriate summary line calc." />
+              </node>
+            </node>
+            <node concept="3clFbF" id="7KIS3I4PXG5" role="3cqZAp">
+              <node concept="37vLTI" id="7KIS3I4PYAf" role="3clFbG">
+                <node concept="37vLTw" id="7KIS3I4PXG3" role="37vLTJ">
+                  <ref role="3cqZAo" node="1kThbup1$Mq" resolve="selection" />
+                </node>
+                <node concept="2ShNRf" id="f3jkc1XP6P" role="37vLTx">
+                  <node concept="1pGfFk" id="f3jkc1XP7m" role="2ShVmc">
+                    <ref role="37wK5l" to="quhv:3r$bzmx4dUq" resolve="FSelection" />
+                    <node concept="2OqwBi" id="f3jkc1XP7R" role="37wK5m">
+                      <node concept="37vLTw" id="fdGRoMYR7d" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1kThbup1$Mn" resolve="objects" />
+                      </node>
+                      <node concept="34jXtK" id="f3jkc1XP8p" role="2OqNvi">
+                        <node concept="3cmrfG" id="f3jkc1XP8S" role="25WWJ7">
+                          <property role="3cmrfH" value="0" />
                         </node>
                       </node>
                     </node>
@@ -6522,6 +6526,18 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="f3jkc1XP5K" role="3cqZAp">
+              <node concept="2OqwBi" id="f3jkc1XP5O" role="3clFbG">
+                <node concept="Xjq3P" id="f3jkc1XP5L" role="2Oq$k0" />
+                <node concept="liA8E" id="f3jkc1XP6m" role="2OqNvi">
+                  <ref role="37wK5l" node="1kThbup1GzT" resolve="pushSelection" />
+                  <node concept="37vLTw" id="7KIS3I4PZUk" role="37wK5m">
+                    <ref role="3cqZAo" node="1kThbup1$Mq" resolve="selection" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7KIS3I4Ngdj" role="3cqZAp" />
             <node concept="3SKdUt" id="7p6LBMoNUPy" role="3cqZAp">
               <node concept="3SKdUq" id="7p6LBMoNUPz" role="3SKWNk">
                 <property role="3SKdUp" value="used to debug selctrl 5.3.2013" />
@@ -6655,6 +6671,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="7KIS3I4NeOT" role="3cqZAp" />
         <node concept="SfApY" id="4b1YMTNr9dR" role="3cqZAp">
           <node concept="3clFbS" id="4b1YMTNr9dS" role="SfCbr">
             <node concept="3clFbJ" id="4b1YMTNr9dT" role="3cqZAp">
