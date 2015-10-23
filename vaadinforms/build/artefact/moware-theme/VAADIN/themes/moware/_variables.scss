@@ -5,20 +5,29 @@
  * Daniel Stieger, Winter 2015, Brighton
  */ 
  
-$v-app-loading-text: "modellwerktatt.org";
+$mo-inputbg: rgb(210, 244, 243);
+$mo-min-margin: 2px;
+$mo-min-borderclr: #ddd;
+$mo-max-borderclr: #aaa;
+$mo-flag-label-color: #808080;
 
+$v-app-loading-text: "modellwerktatt.org";
 $v-background-color: #f3f3f3;
-$v-focus-color: hsl(218, 80%, 60%);
+$v-focus-color: #000000;
+$v-selection-color: #4b8df8;
+
 
 $v-panel-background-color: $v-background-color;
+/* necessary to set this colors ? .......................... */
 /* $v-overlay-background-color: $v-background-color;
 $valo-menu-background-color: $v-background-color;
 $v-overlay-shadow: 0 0 0 1px rgba(#fff, .5);
 $v-window-shadow: $v-overlay-shadow;
 $v-window-modality-curtain-background-color: $v-background-color; */
 
+/* (v-shade 0.6); */
 
-$v-border: 1px solid (v-shade 0.6);
+$v-border: 1px solid $mo-max-borderclr; 
 $v-border-radius: 2px;
 $v-bevel: inset 0 1px 0 v-tint;
 
@@ -27,8 +36,9 @@ $v-gradient: v-linear 3%;
 $v-shadow: false;
 
 $valo-menu-background-color: hsl(218, 20%, 98%);
+
 $v-friendly-color: hsl(163, 61%, 41%);
-$v-error-indicator-color: hsl(349, 66%, 56%);
+$v-error-indicator-color: #d54937;
 
 $v-font-size: 14px;
 $v-line-height: 1;
@@ -38,6 +48,7 @@ $v-unit-size--small: 24px;
 $v-unit-size--tiny: 22px;
 
 $v-table-row-height: 18px !default;
+
 
 
 
