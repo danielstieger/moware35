@@ -177,6 +177,7 @@
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
+      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581242869" name="jetbrains.mps.baseLanguage.structure.MinusExpression" flags="nn" index="3cpWsd" />
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
@@ -3480,6 +3481,10 @@
         <property role="TrG5h" value="user" />
         <node concept="17QB3L" id="7RHNXGyQCRO" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="1zNXRu8IiPK" role="3clF46">
+        <property role="TrG5h" value="id" />
+        <node concept="3cpWsb" id="1zNXRu8IjVc" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="7RHNXGyQCRP" role="3clF45" />
       <node concept="3Tm1VV" id="7RHNXGyQCRQ" role="1B3o_S" />
       <node concept="3clFbS" id="7RHNXGyQCRR" role="3clF47">
@@ -3777,6 +3782,30 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1zNXRu8GVV8" role="3cqZAp">
+          <node concept="2OqwBi" id="1zNXRu8GVV9" role="3clFbG">
+            <node concept="37vLTw" id="1zNXRu8GVVa" role="2Oq$k0">
+              <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+            </node>
+            <node concept="liA8E" id="1zNXRu8GVVb" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <node concept="3cpWs3" id="1zNXRu8HkTU" role="37wK5m">
+                <node concept="Xl_RD" id="1zNXRu8Hl3j" role="3uHU7w">
+                  <property role="Xl_RC" value="\&quot;/&gt;\n" />
+                </node>
+                <node concept="3cpWs3" id="1zNXRu8Hk38" role="3uHU7B">
+                  <node concept="Xl_RD" id="1zNXRu8GVVc" role="3uHU7B">
+                    <property role="Xl_RC" value="&lt;input type=\&quot;hidden\&quot; name=\&quot;SequenceId\&quot; value=\&quot;" />
+                  </node>
+                  <node concept="37vLTw" id="1zNXRu8Hkfa" role="3uHU7w">
+                    <ref role="3cqZAo" node="1zNXRu8IiPK" resolve="id" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1zNXRu8IhGD" role="3cqZAp" />
         <node concept="3clFbF" id="7RHNXGyQCTs" role="3cqZAp">
           <node concept="2OqwBi" id="7RHNXGyQCTt" role="3clFbG">
             <node concept="37vLTw" id="7RHNXGyQCTu" role="2Oq$k0">
