@@ -2489,7 +2489,7 @@
             <node concept="liA8E" id="7RHNXGyQCVT" role="2OqNvi">
               <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
               <node concept="Xl_RD" id="7RHNXGyQCVU" role="37wK5m">
-                <property role="Xl_RC" value="&lt;/header&gt; &lt;div class=\&quot;scrollMask\&quot;&gt;&lt;/div&gt;&lt;div class=\&quot;scrollWrap\&quot;&gt;&lt;div class=\&quot;scroll\&quot;&gt;&lt;div class=\&quot;content\&quot;&gt;" />
+                <property role="Xl_RC" value="&lt;/header&gt; &lt;div class=\&quot;scrollMask\&quot;&gt;&lt;/div&gt;&lt;div class=\&quot;scrollWrap\&quot;&gt;&lt;div class=\&quot;scroll\&quot;&gt;&lt;div class=\&quot;content\&quot;&gt;&lt;div class=\&quot;contentTop\&quot;  editorIndex=\&quot;-1\&quot;&gt; &lt;/div&gt;" />
               </node>
             </node>
           </node>
