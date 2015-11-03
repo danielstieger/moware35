@@ -270,7 +270,7 @@
   <node concept="312cEu" id="2agx4jTP$zD">
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
-    <property role="TrG5h" value="DateField" />
+    <property role="TrG5h" value="Fx8DateField" />
     <node concept="Wx3nA" id="3sEA$PI_I9W" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="pattern" />
@@ -360,7 +360,7 @@
                         <node concept="3clFbF" id="3sEA$PIAb7k" role="3cqZAp">
                           <node concept="2OqwBi" id="3sEA$PIAb7l" role="3clFbG">
                             <node concept="Xjq3P" id="3sEA$PIAe2i" role="2Oq$k0">
-                              <ref role="1HBi2w" node="2agx4jTP$zD" resolve="DateField" />
+                              <ref role="1HBi2w" node="2agx4jTP$zD" resolve="Fx8DateField" />
                             </node>
                             <node concept="liA8E" id="3sEA$PIAb7n" role="2OqNvi">
                               <ref role="37wK5l" to="vik9:~TextInputControl.selectAll():void" resolve="selectAll" />
@@ -416,46 +416,48 @@
         </node>
       </node>
       <node concept="3clFbS" id="2agx4jTP$$3" role="3clF47">
-        <node concept="3clFbH" id="bkZbw2Wg4n" role="3cqZAp" />
-        <node concept="3clFbJ" id="bkZbw2Wfx6" role="3cqZAp">
-          <node concept="3clFbS" id="bkZbw2Wfx7" role="3clFbx">
-            <node concept="3clFbF" id="bkZbw2Wfxm" role="3cqZAp">
-              <node concept="37vLTI" id="bkZbw2Wfxr" role="3clFbG">
-                <node concept="Xl_RD" id="bkZbw2Wfxu" role="37vLTx">
-                  <property role="Xl_RC" value="." />
+        <node concept="3SKdUt" id="31dwTLEwPdt" role="3cqZAp">
+          <node concept="3SKdUq" id="31dwTLEwPCi" role="3SKWNk">
+            <property role="3SKdUp" value="also for copy paste, not just for single char." />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="31dwTLEwM9v" role="3cqZAp">
+          <node concept="3clFbS" id="31dwTLEwM9x" role="3clFbx">
+            <node concept="3clFbF" id="31dwTLEwND6" role="3cqZAp">
+              <node concept="37vLTI" id="31dwTLEwNEg" role="3clFbG">
+                <node concept="2OqwBi" id="31dwTLEwNIj" role="37vLTx">
+                  <node concept="37vLTw" id="31dwTLEwNH5" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
+                  </node>
+                  <node concept="liA8E" id="31dwTLEwO0i" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                    <node concept="Xl_RD" id="31dwTLEwO3u" role="37wK5m">
+                      <property role="Xl_RC" value="," />
+                    </node>
+                    <node concept="Xl_RD" id="31dwTLEwOgC" role="37wK5m">
+                      <property role="Xl_RC" value="." />
+                    </node>
+                  </node>
                 </node>
-                <node concept="37vLTw" id="fdGRoMYR0O" role="37vLTJ">
+                <node concept="37vLTw" id="31dwTLEwND4" role="37vLTJ">
                   <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="22lmx$" id="6_IgSPu9nal" role="3clFbw">
-            <node concept="2OqwBi" id="6_IgSPu9nat" role="3uHU7w">
-              <node concept="37vLTw" id="fdGRoMYQKe" role="2Oq$k0">
-                <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
-              </node>
-              <node concept="liA8E" id="6_IgSPu9nlm" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                <node concept="Xl_RD" id="6_IgSPu9nlo" role="37wK5m">
-                  <property role="Xl_RC" value="." />
-                </node>
-              </node>
+          <node concept="2OqwBi" id="31dwTLEwMWT" role="3clFbw">
+            <node concept="37vLTw" id="31dwTLEwMBg" role="2Oq$k0">
+              <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
             </node>
-            <node concept="2OqwBi" id="bkZbw2Wfxd" role="3uHU7B">
-              <node concept="37vLTw" id="fdGRoMYQKr" role="2Oq$k0">
-                <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
-              </node>
-              <node concept="liA8E" id="bkZbw2Wfxj" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                <node concept="Xl_RD" id="bkZbw2Wfxl" role="37wK5m">
-                  <property role="Xl_RC" value="," />
-                </node>
+            <node concept="liA8E" id="31dwTLEwNxB" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="31dwTLEwN$_" role="37wK5m">
+                <property role="Xl_RC" value="," />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6_IgSPu9re1" role="3cqZAp" />
+        <node concept="3clFbH" id="31dwTLEvpP5" role="3cqZAp" />
         <node concept="3clFbF" id="2agx4jTP$$4" role="3cqZAp">
           <node concept="3nyPlj" id="2agx4jTP$$5" role="3clFbG">
             <ref role="37wK5l" to="vik9:~TextInputControl.replaceText(int,int,java.lang.String):void" resolve="replaceText" />
@@ -470,14 +472,19 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="6_IgSPu9re4" role="3cqZAp">
-          <node concept="3clFbS" id="6_IgSPu9re5" role="3clFbx">
+        <node concept="3clFbH" id="31dwTLEvw60" role="3cqZAp" />
+        <node concept="3clFbJ" id="31dwTLExjz_" role="3cqZAp">
+          <node concept="3clFbS" id="31dwTLExjzB" role="3clFbx">
+            <node concept="3SKdUt" id="31dwTLExn0g" role="3cqZAp">
+              <node concept="3SKdUq" id="31dwTLExn0j" role="3SKWNk">
+                <property role="3SKdUp" value="single key, user just entring date" />
+              </node>
+            </node>
             <node concept="3SKdUt" id="6_IgSPu9rea" role="3cqZAp">
               <node concept="3SKdUq" id="6_IgSPu9reb" role="3SKWNk">
                 <property role="3SKdUp" value="ok, adjust cursor. a number or . was used .. " />
               </node>
             </node>
-            <node concept="3clFbH" id="6_IgSPu9red" role="3cqZAp" />
             <node concept="3clFbF" id="bkZbw2WeGb" role="3cqZAp">
               <node concept="37vLTI" id="bkZbw2WeGf" role="3clFbG">
                 <node concept="3cpWs3" id="bkZbw2WeGn" role="37vLTx">
@@ -493,12 +500,12 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="31dwTLEvaUM" role="3cqZAp" />
             <node concept="3SKdUt" id="bkZbw2WeG7" role="3cqZAp">
               <node concept="3SKdUq" id="bkZbw2WeG8" role="3SKWNk">
                 <property role="3SKdUp" value="let start alone, but replace end .. " />
               </node>
             </node>
-            <node concept="3clFbH" id="6_IgSPu9ree" role="3cqZAp" />
             <node concept="3clFbJ" id="bkZbw2WeYy" role="3cqZAp">
               <node concept="3clFbS" id="bkZbw2WeYz" role="3clFbx">
                 <node concept="3clFbJ" id="6_IgSPu9GCk" role="3cqZAp">
@@ -533,13 +540,12 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="6_IgSPu9GCY" role="3cqZAp" />
                 <node concept="3clFbF" id="bkZbw2WeGs" role="3cqZAp">
                   <node concept="1rXfSq" id="fdGRoMYQ91" role="3clFbG">
                     <ref role="37wK5l" to="vik9:~TextInputControl.setText(java.lang.String):void" resolve="setText" />
                     <node concept="3cpWs3" id="bkZbw2WeGV" role="37wK5m">
                       <node concept="2OqwBi" id="bkZbw2WeH5" role="3uHU7w">
-                        <node concept="37vLTw" id="3sEA$PI_Ppz" role="2Oq$k0">
+                        <node concept="37vLTw" id="31dwTLExn8W" role="2Oq$k0">
                           <ref role="3cqZAo" node="3sEA$PI_I9W" resolve="pattern" />
                         </node>
                         <node concept="liA8E" id="bkZbw2WeHb" role="2OqNvi">
@@ -566,6 +572,7 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="31dwTLEvoqW" role="3cqZAp" />
                 <node concept="3clFbJ" id="bkZbw2Wfxx" role="3cqZAp">
                   <node concept="3clFbS" id="bkZbw2Wfxy" role="3clFbx">
                     <node concept="3clFbF" id="bkZbw2WfxQ" role="3cqZAp">
@@ -607,7 +614,7 @@
                 <node concept="3clFbH" id="bkZbw2WeYW" role="3cqZAp" />
               </node>
               <node concept="3eOVzh" id="bkZbw2WeYD" role="3clFbw">
-                <node concept="37vLTw" id="3sEA$PIAar7" role="3uHU7w">
+                <node concept="37vLTw" id="31dwTLExn90" role="3uHU7w">
                   <ref role="3cqZAo" node="3sEA$PI_T1f" resolve="patternLength" />
                 </node>
                 <node concept="37vLTw" id="fdGRoMYQOw" role="3uHU7B">
@@ -616,6 +623,11 @@
               </node>
               <node concept="9aQIb" id="bkZbw2WeYU" role="9aQIa">
                 <node concept="3clFbS" id="bkZbw2WeYV" role="9aQI4">
+                  <node concept="3SKdUt" id="31dwTLEvbMU" role="3cqZAp">
+                    <node concept="3SKdUq" id="31dwTLEvbOK" role="3SKWNk">
+                      <property role="3SKdUp" value="okay, clear field and put pattern into place" />
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="bkZbw2Wfg7" role="3cqZAp">
                     <node concept="37vLTI" id="bkZbw2Wfgb" role="3clFbG">
                       <node concept="2OqwBi" id="6_IgSPu9xiv" role="37vLTx">
@@ -635,7 +647,7 @@
                     <node concept="3clFbS" id="6_IgSPu9xiC" role="3clFbx">
                       <node concept="3clFbF" id="6_IgSPu9xj4" role="3cqZAp">
                         <node concept="37vLTI" id="6_IgSPu9xj9" role="3clFbG">
-                          <node concept="37vLTw" id="3sEA$PIAatq" role="37vLTx">
+                          <node concept="37vLTw" id="31dwTLExn94" role="37vLTx">
                             <ref role="3cqZAo" node="3sEA$PI_T1f" resolve="patternLength" />
                           </node>
                           <node concept="37vLTw" id="fdGRoMYR8k" role="37vLTJ">
@@ -648,12 +660,11 @@
                       <node concept="37vLTw" id="fdGRoMYQPU" role="3uHU7B">
                         <ref role="3cqZAo" node="2agx4jTP$zX" resolve="start" />
                       </node>
-                      <node concept="37vLTw" id="3sEA$PIAark" role="3uHU7w">
+                      <node concept="37vLTw" id="31dwTLExn98" role="3uHU7w">
                         <ref role="3cqZAo" node="3sEA$PI_T1f" resolve="patternLength" />
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="6_IgSPu9GCZ" role="3cqZAp" />
                   <node concept="3clFbF" id="bkZbw2WffM" role="3cqZAp">
                     <node concept="1rXfSq" id="fdGRoMYQ8m" role="3clFbG">
                       <ref role="37wK5l" to="vik9:~TextInputControl.setText(java.lang.String):void" resolve="setText" />
@@ -678,62 +689,82 @@
                       <ref role="37wK5l" to="vik9:~TextInputControl.selectAll():void" resolve="selectAll" />
                     </node>
                   </node>
-                  <node concept="3clFbH" id="bkZbw2WeYZ" role="3cqZAp" />
+                  <node concept="3clFbH" id="31dwTLEvbT3" role="3cqZAp" />
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="6_IgSPu9re9" role="3cqZAp" />
-            <node concept="3clFbH" id="6_IgSPu9rec" role="3cqZAp" />
+            <node concept="3clFbH" id="31dwTLExn0Z" role="3cqZAp" />
           </node>
-          <node concept="2OqwBi" id="6_IgSPu9rdI" role="3clFbw">
-            <node concept="Xjq3P" id="6_IgSPu9rdF" role="2Oq$k0" />
-            <node concept="liA8E" id="6_IgSPu9rdP" role="2OqNvi">
-              <ref role="37wK5l" node="6_IgSPu9om5" resolve="isOnlyDateChars" />
-              <node concept="37vLTw" id="fdGRoMYQX7" role="37wK5m">
-                <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
+          <node concept="1Wc70l" id="31dwTLExlK2" role="3clFbw">
+            <node concept="2OqwBi" id="31dwTLExme6" role="3uHU7w">
+              <node concept="Xjq3P" id="31dwTLExm7f" role="2Oq$k0" />
+              <node concept="liA8E" id="31dwTLExmQG" role="2OqNvi">
+                <ref role="37wK5l" node="6_IgSPu9om5" resolve="isOnlyDateChars" />
+                <node concept="37vLTw" id="31dwTLExmV5" role="37wK5m">
+                  <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="31dwTLExlc1" role="3uHU7B">
+              <node concept="2OqwBi" id="31dwTLExko8" role="3uHU7B">
+                <node concept="37vLTw" id="31dwTLExk2k" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
+                </node>
+                <node concept="liA8E" id="31dwTLExkVd" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
+                </node>
+              </node>
+              <node concept="3cmrfG" id="31dwTLExly_" role="3uHU7w">
+                <property role="3cmrfH" value="1" />
               </node>
             </node>
           </node>
-          <node concept="9aQIb" id="6_IgSPu9x0t" role="9aQIa">
-            <node concept="3clFbS" id="6_IgSPu9x0u" role="9aQI4">
-              <node concept="3SKdUt" id="6_IgSPu9x0w" role="3cqZAp">
-                <node concept="3SKdUq" id="6_IgSPu9x0x" role="3SKWNk">
-                  <property role="3SKdUp" value="this is not a printable character ... " />
+          <node concept="3eNFk2" id="31dwTLExoSM" role="3eNLev">
+            <node concept="3clFbS" id="31dwTLExoSO" role="3eOfB_">
+              <node concept="3SKdUt" id="31dwTLExpIe" role="3cqZAp">
+                <node concept="3SKdUq" id="31dwTLExpIn" role="3SKWNk">
+                  <property role="3SKdUp" value="backspace or entf key. presumably?" />
                 </node>
               </node>
-              <node concept="3SKdUt" id="6_IgSPu9x0_" role="3cqZAp">
-                <node concept="3SKdUq" id="6_IgSPu9x0A" role="3SKWNk">
-                  <property role="3SKdUp" value="start is ok - but do not increase anything .. " />
+              <node concept="3cpWs8" id="31dwTLEwQP4" role="3cqZAp">
+                <node concept="3cpWsn" id="31dwTLEwQP7" role="3cpWs9">
+                  <property role="TrG5h" value="currentCaretPosition" />
+                  <node concept="10Oyi0" id="31dwTLEwQP2" role="1tU5fm" />
+                  <node concept="2OqwBi" id="31dwTLEwR8c" role="33vP2m">
+                    <node concept="Xjq3P" id="31dwTLEwR1L" role="2Oq$k0" />
+                    <node concept="liA8E" id="31dwTLEwRKx" role="2OqNvi">
+                      <ref role="37wK5l" to="vik9:~TextInputControl.getCaretPosition():int" resolve="getCaretPosition" />
+                    </node>
+                  </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="6_IgSPu9x0J" role="3cqZAp" />
-              <node concept="3clFbJ" id="6_IgSPu9x0K" role="3cqZAp">
-                <node concept="3clFbS" id="6_IgSPu9x0L" role="3clFbx">
-                  <node concept="3clFbF" id="6_IgSPu9x0M" role="3cqZAp">
-                    <node concept="1rXfSq" id="fdGRoMYQ9H" role="3clFbG">
+              <node concept="3clFbJ" id="31dwTLEw0eS" role="3cqZAp">
+                <node concept="3clFbS" id="31dwTLEw0eT" role="3clFbx">
+                  <node concept="3clFbF" id="31dwTLEw0eU" role="3cqZAp">
+                    <node concept="1rXfSq" id="31dwTLEw0eV" role="3clFbG">
                       <ref role="37wK5l" to="vik9:~TextInputControl.setText(java.lang.String):void" resolve="setText" />
-                      <node concept="3cpWs3" id="6_IgSPu9x0O" role="37wK5m">
-                        <node concept="2OqwBi" id="6_IgSPu9x0P" role="3uHU7w">
-                          <node concept="37vLTw" id="3sEA$PI_Pzx" role="2Oq$k0">
+                      <node concept="3cpWs3" id="31dwTLEw0eW" role="37wK5m">
+                        <node concept="2OqwBi" id="31dwTLEw0eX" role="3uHU7w">
+                          <node concept="37vLTw" id="31dwTLExpOg" role="2Oq$k0">
                             <ref role="3cqZAo" node="3sEA$PI_I9W" resolve="pattern" />
                           </node>
-                          <node concept="liA8E" id="6_IgSPu9x0R" role="2OqNvi">
+                          <node concept="liA8E" id="31dwTLEw0eY" role="2OqNvi">
                             <ref role="37wK5l" to="e2lb:~String.substring(int):java.lang.String" resolve="substring" />
-                            <node concept="37vLTw" id="fdGRoMYR5U" role="37wK5m">
+                            <node concept="37vLTw" id="31dwTLEw0eZ" role="37wK5m">
                               <ref role="3cqZAo" node="2agx4jTP$zX" resolve="start" />
                             </node>
                           </node>
                         </node>
-                        <node concept="2OqwBi" id="6_IgSPu9x0T" role="3uHU7B">
-                          <node concept="3P9mCS" id="6_IgSPu9x0U" role="2Oq$k0">
+                        <node concept="2OqwBi" id="31dwTLEw0f0" role="3uHU7B">
+                          <node concept="3P9mCS" id="31dwTLEw0f1" role="2Oq$k0">
                             <ref role="37wK5l" to="vik9:~TextInputControl.getText():java.lang.String" resolve="getText" />
                           </node>
-                          <node concept="liA8E" id="6_IgSPu9x0V" role="2OqNvi">
+                          <node concept="liA8E" id="31dwTLEw0f2" role="2OqNvi">
                             <ref role="37wK5l" to="e2lb:~String.substring(int,int):java.lang.String" resolve="substring" />
-                            <node concept="3cmrfG" id="6_IgSPu9x0W" role="37wK5m">
+                            <node concept="3cmrfG" id="31dwTLEw0f3" role="37wK5m">
                               <property role="3cmrfH" value="0" />
                             </node>
-                            <node concept="37vLTw" id="fdGRoMYR2a" role="37wK5m">
+                            <node concept="37vLTw" id="31dwTLEw0f4" role="37wK5m">
                               <ref role="3cqZAo" node="2agx4jTP$zX" resolve="start" />
                             </node>
                           </node>
@@ -741,67 +772,175 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbF" id="6_IgSPu9x1a" role="3cqZAp">
-                    <node concept="1rXfSq" id="fdGRoMYQgM" role="3clFbG">
+                  <node concept="3clFbF" id="31dwTLEw0f5" role="3cqZAp">
+                    <node concept="1rXfSq" id="31dwTLEw0f6" role="3clFbG">
                       <ref role="37wK5l" to="vik9:~TextInputControl.positionCaret(int):void" resolve="positionCaret" />
-                      <node concept="37vLTw" id="fdGRoMYQTD" role="37wK5m">
-                        <ref role="3cqZAo" node="2agx4jTP$zX" resolve="start" />
+                      <node concept="37vLTw" id="31dwTLEwT8f" role="37wK5m">
+                        <ref role="3cqZAo" node="31dwTLEwQP7" resolve="currentCaretPosition" />
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="6_IgSPu9x1d" role="3cqZAp" />
+                  <node concept="3clFbH" id="31dwTLEw0fn" role="3cqZAp" />
                 </node>
-                <node concept="3eOVzh" id="6_IgSPu9x1e" role="3clFbw">
-                  <node concept="37vLTw" id="3sEA$PIAayR" role="3uHU7w">
+                <node concept="3eOVzh" id="31dwTLEw0fo" role="3clFbw">
+                  <node concept="37vLTw" id="31dwTLExpOk" role="3uHU7w">
                     <ref role="3cqZAo" node="3sEA$PI_T1f" resolve="patternLength" />
                   </node>
-                  <node concept="37vLTw" id="fdGRoMYQYy" role="3uHU7B">
+                  <node concept="37vLTw" id="31dwTLEw0fp" role="3uHU7B">
                     <ref role="3cqZAo" node="2agx4jTP$zX" resolve="start" />
                   </node>
                 </node>
-                <node concept="9aQIb" id="6_IgSPu9x1j" role="9aQIa">
-                  <node concept="3clFbS" id="6_IgSPu9x1k" role="9aQI4">
-                    <node concept="3clFbF" id="6_IgSPu9x1l" role="3cqZAp">
-                      <node concept="37vLTI" id="6_IgSPu9x1m" role="3clFbG">
-                        <node concept="37vLTw" id="3sEA$PIA83Y" role="37vLTx">
+                <node concept="9aQIb" id="31dwTLEw0fq" role="9aQIa">
+                  <node concept="3clFbS" id="31dwTLEw0fr" role="9aQI4">
+                    <node concept="3clFbF" id="31dwTLEw0fs" role="3cqZAp">
+                      <node concept="37vLTI" id="31dwTLEw0ft" role="3clFbG">
+                        <node concept="37vLTw" id="31dwTLExpOo" role="37vLTx">
                           <ref role="3cqZAo" node="3sEA$PI_T1f" resolve="patternLength" />
                         </node>
-                        <node concept="37vLTw" id="fdGRoMYQMV" role="37vLTJ">
+                        <node concept="37vLTw" id="31dwTLEw0fu" role="37vLTJ">
                           <ref role="3cqZAo" node="2agx4jTP$zX" resolve="start" />
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbF" id="6_IgSPu9x1p" role="3cqZAp">
-                      <node concept="1rXfSq" id="fdGRoMYQcl" role="3clFbG">
+                    <node concept="3clFbF" id="31dwTLEw0fv" role="3cqZAp">
+                      <node concept="1rXfSq" id="31dwTLEw0fw" role="3clFbG">
                         <ref role="37wK5l" to="vik9:~TextInputControl.setText(java.lang.String):void" resolve="setText" />
-                        <node concept="2OqwBi" id="6_IgSPu9x1r" role="37wK5m">
-                          <node concept="1rXfSq" id="fdGRoMYQaB" role="2Oq$k0">
+                        <node concept="2OqwBi" id="31dwTLEw0fx" role="37wK5m">
+                          <node concept="1rXfSq" id="31dwTLEw0fy" role="2Oq$k0">
                             <ref role="37wK5l" to="vik9:~TextInputControl.getText():java.lang.String" resolve="getText" />
                           </node>
-                          <node concept="liA8E" id="6_IgSPu9x1t" role="2OqNvi">
+                          <node concept="liA8E" id="31dwTLEw0fz" role="2OqNvi">
                             <ref role="37wK5l" to="e2lb:~String.substring(int,int):java.lang.String" resolve="substring" />
-                            <node concept="3cmrfG" id="6_IgSPu9x1u" role="37wK5m">
+                            <node concept="3cmrfG" id="31dwTLEw0f$" role="37wK5m">
                               <property role="3cmrfH" value="0" />
                             </node>
-                            <node concept="37vLTw" id="fdGRoMYR9z" role="37wK5m">
+                            <node concept="37vLTw" id="31dwTLEw0f_" role="37wK5m">
                               <ref role="3cqZAo" node="2agx4jTP$zX" resolve="start" />
                             </node>
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbF" id="6_IgSPu9x1w" role="3cqZAp">
-                      <node concept="1rXfSq" id="fdGRoMYQaD" role="3clFbG">
+                    <node concept="3clFbF" id="31dwTLEw0fA" role="3cqZAp">
+                      <node concept="1rXfSq" id="31dwTLEw0fB" role="3clFbG">
                         <ref role="37wK5l" to="vik9:~TextInputControl.selectAll():void" resolve="selectAll" />
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="6_IgSPu9x0z" role="3cqZAp" />
+              <node concept="3clFbH" id="31dwTLExpLs" role="3cqZAp" />
+            </node>
+            <node concept="2OqwBi" id="31dwTLEvYl2" role="3eO9$A">
+              <node concept="Xl_RD" id="31dwTLEvXYU" role="2Oq$k0">
+                <property role="Xl_RC" value="" />
+              </node>
+              <node concept="liA8E" id="31dwTLEvYQf" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="37vLTw" id="31dwTLEvYXM" role="37wK5m">
+                  <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="31dwTLExsoa" role="9aQIa">
+            <node concept="3clFbS" id="31dwTLExsob" role="9aQI4">
+              <node concept="3SKdUt" id="31dwTLExsFO" role="3cqZAp">
+                <node concept="3SKdUq" id="31dwTLExsFQ" role="3SKWNk">
+                  <property role="3SKdUp" value="copy paste activity. " />
+                </node>
+              </node>
+              <node concept="3clFbJ" id="31dwTLExt4H" role="3cqZAp">
+                <node concept="3clFbS" id="31dwTLExt4J" role="3clFbx">
+                  <node concept="3clFbF" id="31dwTLExux3" role="3cqZAp">
+                    <node concept="1rXfSq" id="31dwTLExux1" role="3clFbG">
+                      <ref role="37wK5l" to="vik9:~TextInputControl.setText(java.lang.String):void" resolve="setText" />
+                      <node concept="2OqwBi" id="31dwTLExu_1" role="37wK5m">
+                        <node concept="37vLTw" id="31dwTLExuzN" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
+                        </node>
+                        <node concept="liA8E" id="31dwTLExuRj" role="2OqNvi">
+                          <ref role="37wK5l" to="e2lb:~String.substring(int,int):java.lang.String" resolve="substring" />
+                          <node concept="3cmrfG" id="31dwTLExuUs" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                          <node concept="37vLTw" id="31dwTLExvcG" role="37wK5m">
+                            <ref role="3cqZAo" node="3sEA$PI_T1f" resolve="patternLength" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="31dwTLExvkl" role="3cqZAp">
+                    <node concept="1rXfSq" id="31dwTLExvkj" role="3clFbG">
+                      <ref role="37wK5l" to="vik9:~TextInputControl.selectAll():void" resolve="selectAll" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2d3UOw" id="31dwTLExup4" role="3clFbw">
+                  <node concept="2OqwBi" id="31dwTLExtaV" role="3uHU7B">
+                    <node concept="37vLTw" id="31dwTLExt7r" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
+                    </node>
+                    <node concept="liA8E" id="31dwTLExtsP" role="2OqNvi">
+                      <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="31dwTLExtNT" role="3uHU7w">
+                    <ref role="3cqZAo" node="3sEA$PI_T1f" resolve="patternLength" />
+                  </node>
+                </node>
+                <node concept="9aQIb" id="31dwTLExvmu" role="9aQIa">
+                  <node concept="3clFbS" id="31dwTLExvmv" role="9aQI4">
+                    <node concept="3clFbF" id="31dwTLExvtO" role="3cqZAp">
+                      <node concept="1rXfSq" id="31dwTLExvtN" role="3clFbG">
+                        <ref role="37wK5l" to="vik9:~TextInputControl.setText(java.lang.String):void" resolve="setText" />
+                        <node concept="3cpWs3" id="31dwTLExvIt" role="37wK5m">
+                          <node concept="2OqwBi" id="31dwTLExvZF" role="3uHU7w">
+                            <node concept="37vLTw" id="31dwTLExvQb" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3sEA$PI_I9W" resolve="pattern" />
+                            </node>
+                            <node concept="liA8E" id="31dwTLExwh0" role="2OqNvi">
+                              <ref role="37wK5l" to="e2lb:~String.substring(int):java.lang.String" resolve="substring" />
+                              <node concept="2OqwBi" id="31dwTLExwud" role="37wK5m">
+                                <node concept="37vLTw" id="31dwTLExwnv" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
+                                </node>
+                                <node concept="liA8E" id="31dwTLExwNI" role="2OqNvi">
+                                  <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="31dwTLExvx$" role="3uHU7B">
+                            <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="31dwTLExx1K" role="3cqZAp">
+                      <node concept="1rXfSq" id="31dwTLExx1I" role="3clFbG">
+                        <ref role="37wK5l" to="vik9:~TextInputControl.positionCaret(int):void" resolve="positionCaret" />
+                        <node concept="2OqwBi" id="31dwTLExxcR" role="37wK5m">
+                          <node concept="37vLTw" id="31dwTLExx9j" role="2Oq$k0">
+                            <ref role="3cqZAo" node="2agx4jTP$$1" resolve="text" />
+                          </node>
+                          <node concept="liA8E" id="31dwTLExxv0" role="2OqNvi">
+                            <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="31dwTLExj59" role="3cqZAp" />
+        <node concept="3clFbH" id="31dwTLEx6H6" role="3cqZAp" />
+        <node concept="3clFbH" id="31dwTLEx4Iy" role="3cqZAp" />
+        <node concept="3clFbH" id="31dwTLEulbY" role="3cqZAp" />
         <node concept="3clFbJ" id="3sEA$PIAXmH" role="3cqZAp">
           <node concept="3clFbS" id="3sEA$PIAXmK" role="3clFbx">
             <node concept="3clFbF" id="3sEA$PIA_i_" role="3cqZAp">
@@ -827,6 +966,8 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="31dwTLEu4My" role="jymVt" />
+    <node concept="2tJIrI" id="31dwTLEu57h" role="jymVt" />
     <node concept="3clFb_" id="6_IgSPu9om5" role="jymVt">
       <property role="TrG5h" value="isOnlyDateChars" />
       <node concept="37vLTG" id="6_IgSPu9om9" role="3clF46">
@@ -3121,7 +3262,7 @@
                 <node concept="37vLTI" id="3sEA$PIASaX" role="3clFbG">
                   <node concept="2ShNRf" id="3sEA$PIASeo" role="37vLTx">
                     <node concept="1pGfFk" id="3sEA$PIASMz" role="2ShVmc">
-                      <ref role="37wK5l" node="2agx4jTP$zI" resolve="DateField" />
+                      <ref role="37wK5l" node="2agx4jTP$zI" resolve="Fx8DateField" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="3sEA$PIAR_g" role="37vLTJ">
@@ -3516,7 +3657,7 @@
                 <node concept="1eOMI4" id="3sEA$PIAYlY" role="2Oq$k0">
                   <node concept="10QFUN" id="3sEA$PIAYlV" role="1eOMHV">
                     <node concept="3uibUv" id="3sEA$PIAYm0" role="10QFUM">
-                      <ref role="3uigEE" node="2agx4jTP$zD" resolve="DateField" />
+                      <ref role="3uigEE" node="2agx4jTP$zD" resolve="Fx8DateField" />
                     </node>
                     <node concept="37vLTw" id="3sEA$PIAYm2" role="10QFUP">
                       <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
@@ -3534,7 +3675,7 @@
           </node>
           <node concept="2ZW3vV" id="3sEA$PIAXKL" role="3clFbw">
             <node concept="3uibUv" id="3sEA$PIAXLj" role="2ZW6by">
-              <ref role="3uigEE" node="2agx4jTP$zD" resolve="DateField" />
+              <ref role="3uigEE" node="2agx4jTP$zD" resolve="Fx8DateField" />
             </node>
             <node concept="37vLTw" id="3sEA$PIAXF5" role="2ZW6bz">
               <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
