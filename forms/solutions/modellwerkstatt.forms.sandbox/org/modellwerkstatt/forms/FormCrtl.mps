@@ -7391,6 +7391,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="67D5vCCUvuc" role="3cqZAp" />
         <node concept="3SKdUt" id="4mX9XggesRg" role="3cqZAp">
           <node concept="3SKdUq" id="4mX9Xggewgf" role="3SKWNk">
             <property role="3SKdUp" value="check for user environment" />
@@ -11881,7 +11882,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="1KgqQuBg_9Z" role="jymVt" />
     <node concept="2tJIrI" id="64d_SurxJqQ" role="jymVt" />
     <node concept="2tJIrI" id="64d_SurxLDM" role="jymVt" />
     <node concept="2tJIrI" id="64d_SurxQ$A" role="jymVt" />
@@ -44914,6 +44914,9 @@
   <node concept="312cEu" id="1EBV9L$__ru">
     <property role="3GE5qa" value="Telemetrics" />
     <property role="TrG5h" value="FUserTelemetrics" />
+    <node concept="3uibUv" id="67D5vCCRP8_" role="EKbjA">
+      <ref role="3uigEE" to="28jr:67D5vCCQkbw" resolve="IOFXUserServices" />
+    </node>
     <node concept="312cEg" id="31dwTLEzAqU" role="jymVt">
       <property role="TrG5h" value="telemetricsInitialized" />
       <node concept="3Tmbuc" id="31dwTLEzDxJ" role="1B3o_S" />
@@ -45031,6 +45034,58 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="67D5vCCVSxi" role="3cqZAp" />
+        <node concept="3SKdUt" id="67D5vCCVSEA" role="3cqZAp">
+          <node concept="3SKdUq" id="67D5vCCVSHu" role="3SKWNk">
+            <property role="3SKdUp" value="Todo: one has to refactor this feature at some point in time" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="67D5vCCVSLR" role="3cqZAp">
+          <node concept="3SKdUq" id="67D5vCCVSOL" role="3SKWNk">
+            <property role="3SKdUp" value="we provide log functionality in IM3UserEnvironment. That should be mapper independent. " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="67D5vCCVSUo" role="3cqZAp">
+          <node concept="3SKdUq" id="67D5vCCVSXr" role="3SKWNk">
+            <property role="3SKdUp" value="however, since IM3 Interface is used everywhere, we provide it in IM3, but should actually be " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="67D5vCCVT2K" role="3cqZAp">
+          <node concept="3SKdUq" id="67D5vCCVT5I" role="3SKWNk">
+            <property role="3SKdUp" value="part of forms. " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="67D5vCCVTcZ" role="3cqZAp">
+          <node concept="3clFbS" id="67D5vCCVTd1" role="3clFbx">
+            <node concept="3clFbF" id="67D5vCCWcCA" role="3cqZAp">
+              <node concept="2OqwBi" id="67D5vCCWcDk" role="3clFbG">
+                <node concept="1eOMI4" id="67D5vCCWcCy" role="2Oq$k0">
+                  <node concept="10QFUN" id="67D5vCCWcCv" role="1eOMHV">
+                    <node concept="3uibUv" id="67D5vCCWcC$" role="10QFUM">
+                      <ref role="3uigEE" to="28jr:3tZ99yEJcyg" resolve="UserEnvironmentInformation" />
+                    </node>
+                    <node concept="37vLTw" id="67D5vCCWcC_" role="10QFUP">
+                      <ref role="3cqZAo" node="31dwTLEzI_o" resolve="usr" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="67D5vCCWcJk" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:67D5vCCWbdv" resolve="setUserServicesIfAvailable" />
+                  <node concept="Xjq3P" id="67D5vCCWcKT" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ZW3vV" id="67D5vCCVThP" role="3clFbw">
+            <node concept="3uibUv" id="67D5vCCVTiK" role="2ZW6by">
+              <ref role="3uigEE" to="28jr:3tZ99yEJcyg" resolve="UserEnvironmentInformation" />
+            </node>
+            <node concept="37vLTw" id="67D5vCCVTgL" role="2ZW6bz">
+              <ref role="3cqZAo" node="31dwTLEzI_o" resolve="usr" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="67D5vCCVSAV" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="1EBV9L$__ED" role="jymVt" />
@@ -45303,6 +45358,29 @@
     </node>
     <node concept="2tJIrI" id="6TYnK1btLVQ" role="jymVt" />
     <node concept="2tJIrI" id="6TYnK1bA9qE" role="jymVt" />
+    <node concept="3clFb_" id="67D5vCCRQlV" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="logInfo" />
+      <node concept="37vLTG" id="67D5vCCRQlW" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="67D5vCCRQlX" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="67D5vCCRQlY" role="3clF45" />
+      <node concept="3Tm1VV" id="67D5vCCRQlZ" role="1B3o_S" />
+      <node concept="3clFbS" id="67D5vCCRQm3" role="3clF47">
+        <node concept="3clFbF" id="67D5vCCRQGu" role="3cqZAp">
+          <node concept="1rXfSq" id="67D5vCCRQGt" role="3clFbG">
+            <ref role="37wK5l" node="6TYnK1btLXX" resolve="log" />
+            <node concept="Xl_RD" id="67D5vCCRQJF" role="37wK5m">
+              <property role="Xl_RC" value="Info" />
+            </node>
+            <node concept="37vLTw" id="67D5vCCRQMg" role="37wK5m">
+              <ref role="3cqZAo" node="67D5vCCRQlW" resolve="msg" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="1EBV9L$__rv" role="1B3o_S" />
     <node concept="3uibUv" id="1EBV9L$__Eb" role="EKbjA">
       <ref role="3uigEE" node="1EBV9L$__sD" resolve="FUserTelemetricsMBean" />
