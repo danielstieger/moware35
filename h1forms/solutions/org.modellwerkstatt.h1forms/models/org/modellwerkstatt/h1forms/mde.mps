@@ -35,9 +35,6 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-      <concept id="1177326519037" name="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" flags="nn" index="u8gfJ">
-        <child id="1177326540772" name="statement" index="u8lrQ" />
-      </concept>
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -1454,15 +1451,19 @@
         </node>
         <node concept="3clFbH" id="2eK$oa49hYz" role="3cqZAp" />
         <node concept="3clFbH" id="5EKAYtcudAu" role="3cqZAp" />
-        <node concept="3clFbF" id="5EKAYtcuflH" role="3cqZAp">
-          <node concept="2OqwBi" id="5EKAYtcufIa" role="3clFbG">
-            <node concept="37vLTw" id="5EKAYtcuflF" role="2Oq$k0">
-              <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-            </node>
-            <node concept="liA8E" id="5EKAYtcug3N" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-              <node concept="Xl_RD" id="5EKAYtcugdz" role="37wK5m">
-                <property role="Xl_RC" value="&lt;script&gt;console.log('AFTER HTML TITLE ...'); &lt;/script&gt;" />
+        <node concept="3SKdUt" id="71TBsdH6Dwo" role="3cqZAp">
+          <node concept="3SKWN0" id="71TBsdH6Dwp" role="3SKWNk">
+            <node concept="3clFbF" id="5EKAYtcuflH" role="3SKWNf">
+              <node concept="2OqwBi" id="5EKAYtcufIa" role="3clFbG">
+                <node concept="37vLTw" id="5EKAYtcuflF" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="5EKAYtcug3N" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="Xl_RD" id="5EKAYtcugdz" role="37wK5m">
+                    <property role="Xl_RC" value="&lt;script&gt;console.log('AFTER HTML TITLE ...'); &lt;/script&gt;" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -1514,25 +1515,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7RHNXGyQCSB" role="3cqZAp" />
-        <node concept="3SKdUt" id="XguH5QHcoA" role="3cqZAp">
-          <node concept="3SKWN0" id="XguH5QHcoB" role="3SKWNk">
-            <node concept="3clFbF" id="3YiRJwjiZBQ" role="3SKWNf">
-              <node concept="2OqwBi" id="3YiRJwjiZXB" role="3clFbG">
-                <node concept="37vLTw" id="3YiRJwjiZBO" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-                </node>
-                <node concept="liA8E" id="3YiRJwjj0kU" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                  <node concept="Xl_RD" id="3YiRJwjj0nJ" role="37wK5m">
-                    <property role="Xl_RC" value="&lt;script src=\&quot;http://modwerk1:8080/target/target-script-min.js#anonymous\&quot;&gt;&lt;/script&gt;" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="4gNfXb87_B9" role="3cqZAp" />
+        <node concept="3clFbH" id="71TBsdH6Cvn" role="3cqZAp" />
         <node concept="3clFbF" id="7RHNXGyQCSU" role="3cqZAp">
           <node concept="2OqwBi" id="7RHNXGyQCSV" role="3clFbG">
             <node concept="37vLTw" id="7RHNXGyQCSW" role="2Oq$k0">
@@ -1649,136 +1632,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="4gNfXb87_DF" role="3cqZAp" />
-        <node concept="3clFbH" id="4gNfXb87_UH" role="3cqZAp" />
-        <node concept="u8gfJ" id="7zfUA3jUdhh" role="3cqZAp">
-          <node concept="3cpWs8" id="7zfUA3jWZ9J" role="u8lrQ">
-            <node concept="3cpWsn" id="7zfUA3jWZ9M" role="3cpWs9">
-              <property role="TrG5h" value="fileAdr" />
-              <node concept="17QB3L" id="7zfUA3jWZ9H" role="1tU5fm" />
-              <node concept="Xl_RD" id="7zfUA3jWZGo" role="33vP2m">
-                <property role="Xl_RC" value="file://jstest" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="7zfUA3jWXs1" role="u8lrQ">
-            <node concept="2OqwBi" id="7zfUA3jWXs2" role="3clFbG">
-              <node concept="37vLTw" id="7zfUA3jWXs3" role="2Oq$k0">
-                <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-              </node>
-              <node concept="liA8E" id="7zfUA3jWXs4" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                <node concept="3cpWs3" id="7zfUA3jWXs5" role="37wK5m">
-                  <node concept="Xl_RD" id="7zfUA3jWXs6" role="3uHU7w">
-                    <property role="Xl_RC" value="/static/enterprise/ebapi-modules.js\&quot;&gt;&lt;/script&gt;\n" />
-                  </node>
-                  <node concept="3cpWs3" id="7zfUA3jWXs7" role="3uHU7B">
-                    <node concept="Xl_RD" id="7zfUA3jWXs8" role="3uHU7B">
-                      <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                    </node>
-                    <node concept="37vLTw" id="7zfUA3jX0q9" role="3uHU7w">
-                      <ref role="3cqZAo" node="7zfUA3jWZ9M" resolve="fileAdr" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="7zfUA3jWXsa" role="u8lrQ">
-            <node concept="2OqwBi" id="7zfUA3jWXsb" role="3clFbG">
-              <node concept="37vLTw" id="7zfUA3jWXsc" role="2Oq$k0">
-                <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-              </node>
-              <node concept="liA8E" id="7zfUA3jWXsd" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                <node concept="3cpWs3" id="7zfUA3jWXse" role="37wK5m">
-                  <node concept="Xl_RD" id="7zfUA3jWXsf" role="3uHU7w">
-                    <property role="Xl_RC" value="/static/enterprise/ebapi.js\&quot;&gt;&lt;/script&gt;\n" />
-                  </node>
-                  <node concept="3cpWs3" id="7zfUA3jWXsg" role="3uHU7B">
-                    <node concept="Xl_RD" id="7zfUA3jWXsh" role="3uHU7B">
-                      <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                    </node>
-                    <node concept="37vLTw" id="7zfUA3jX10F" role="3uHU7w">
-                      <ref role="3cqZAo" node="7zfUA3jWZ9M" resolve="fileAdr" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="7zfUA3jWXsj" role="u8lrQ">
-            <node concept="2OqwBi" id="7zfUA3jWXsk" role="3clFbG">
-              <node concept="37vLTw" id="7zfUA3jWXsl" role="2Oq$k0">
-                <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-              </node>
-              <node concept="liA8E" id="7zfUA3jWXsm" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                <node concept="3cpWs3" id="7zfUA3jWXsn" role="37wK5m">
-                  <node concept="Xl_RD" id="7zfUA3jWXso" role="3uHU7w">
-                    <property role="Xl_RC" value="/static/enterprise/eb.notification.js\&quot;&gt;&lt;/script&gt;\n" />
-                  </node>
-                  <node concept="3cpWs3" id="7zfUA3jWXsp" role="3uHU7B">
-                    <node concept="Xl_RD" id="7zfUA3jWXsq" role="3uHU7B">
-                      <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                    </node>
-                    <node concept="37vLTw" id="7zfUA3jX1Bd" role="3uHU7w">
-                      <ref role="3cqZAo" node="7zfUA3jWZ9M" resolve="fileAdr" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="7zfUA3jWXss" role="u8lrQ">
-            <node concept="2OqwBi" id="7zfUA3jWXst" role="3clFbG">
-              <node concept="37vLTw" id="7zfUA3jWXsu" role="2Oq$k0">
-                <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-              </node>
-              <node concept="liA8E" id="7zfUA3jWXsv" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                <node concept="3cpWs3" id="7zfUA3jWXsw" role="37wK5m">
-                  <node concept="Xl_RD" id="7zfUA3jWXsx" role="3uHU7w">
-                    <property role="Xl_RC" value="/static/enterprise/eb.keycapture.js\&quot;&gt;&lt;/script&gt;\n" />
-                  </node>
-                  <node concept="3cpWs3" id="7zfUA3jWXsy" role="3uHU7B">
-                    <node concept="Xl_RD" id="7zfUA3jWXsz" role="3uHU7B">
-                      <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                    </node>
-                    <node concept="37vLTw" id="7zfUA3jX2dJ" role="3uHU7w">
-                      <ref role="3cqZAo" node="7zfUA3jWZ9M" resolve="fileAdr" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="7zfUA3jWXs_" role="u8lrQ">
-            <node concept="2OqwBi" id="7zfUA3jWXsA" role="3clFbG">
-              <node concept="37vLTw" id="7zfUA3jWXsB" role="2Oq$k0">
-                <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-              </node>
-              <node concept="liA8E" id="7zfUA3jWXsC" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                <node concept="3cpWs3" id="7zfUA3jWXsD" role="37wK5m">
-                  <node concept="Xl_RD" id="7zfUA3jWXsE" role="3uHU7w">
-                    <property role="Xl_RC" value="/static/enterprise/elements.js\&quot;&gt;&lt;/script&gt;\n" />
-                  </node>
-                  <node concept="3cpWs3" id="7zfUA3jWXsF" role="3uHU7B">
-                    <node concept="Xl_RD" id="7zfUA3jWXsG" role="3uHU7B">
-                      <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                    </node>
-                    <node concept="37vLTw" id="7zfUA3jX2Oh" role="3uHU7w">
-                      <ref role="3cqZAo" node="7zfUA3jWZ9M" resolve="fileAdr" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="5EKAYtcujo1" role="3cqZAp" />
-        <node concept="3clFbH" id="7zfUA3jWWRk" role="3cqZAp" />
-        <node concept="3clFbH" id="7zfUA3jWX8z" role="3cqZAp" />
         <node concept="3clFbF" id="3YiRJwjgVA5" role="3cqZAp">
           <node concept="2OqwBi" id="3YiRJwjgVA6" role="3clFbG">
             <node concept="37vLTw" id="3YiRJwjgVA7" role="2Oq$k0">
@@ -1803,15 +1656,19 @@
           </node>
         </node>
         <node concept="3clFbH" id="7zfUA3jVkX6" role="3cqZAp" />
-        <node concept="3clFbF" id="5EKAYtcujTG" role="3cqZAp">
-          <node concept="2OqwBi" id="5EKAYtcujTH" role="3clFbG">
-            <node concept="37vLTw" id="5EKAYtcujTI" role="2Oq$k0">
-              <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-            </node>
-            <node concept="liA8E" id="5EKAYtcujTJ" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-              <node concept="Xl_RD" id="5EKAYtcujTK" role="37wK5m">
-                <property role="Xl_RC" value="&lt;script&gt;console.log('AFTER SCRIPT LOADING ...'); &lt;/script&gt;" />
+        <node concept="3SKdUt" id="71TBsdH6EcS" role="3cqZAp">
+          <node concept="3SKWN0" id="71TBsdH6EcT" role="3SKWNk">
+            <node concept="3clFbF" id="5EKAYtcujTG" role="3SKWNf">
+              <node concept="2OqwBi" id="5EKAYtcujTH" role="3clFbG">
+                <node concept="37vLTw" id="5EKAYtcujTI" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="5EKAYtcujTJ" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="Xl_RD" id="5EKAYtcujTK" role="37wK5m">
+                    <property role="Xl_RC" value="&lt;script&gt;console.log('AFTER SCRIPT LOADING ...'); &lt;/script&gt;" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
