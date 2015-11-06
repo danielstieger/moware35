@@ -3633,23 +3633,6 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="XguH5QHcoA" role="3cqZAp">
-          <node concept="3SKWN0" id="XguH5QHcoB" role="3SKWNk">
-            <node concept="3clFbF" id="3YiRJwjiZBQ" role="3SKWNf">
-              <node concept="2OqwBi" id="3YiRJwjiZXB" role="3clFbG">
-                <node concept="37vLTw" id="3YiRJwjiZBO" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-                </node>
-                <node concept="liA8E" id="3YiRJwjj0kU" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                  <node concept="Xl_RD" id="3YiRJwjj0nJ" role="37wK5m">
-                    <property role="Xl_RC" value="&lt;script src=\&quot;http://modwerk1:8080/target/target-script-min.js#anonymous\&quot;&gt;&lt;/script&gt;" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="7RHNXGyQCSL" role="3cqZAp">
           <node concept="2OqwBi" id="7RHNXGyQCSM" role="3clFbG">
             <node concept="37vLTw" id="7RHNXGyQCSN" role="2Oq$k0">
@@ -5063,8 +5046,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7RHNXGyQD3w" role="jymVt" />
-    <node concept="2tJIrI" id="7RHNXGyQD3x" role="jymVt" />
-    <node concept="2tJIrI" id="7RHNXGyQD3y" role="jymVt" />
     <node concept="3clFb_" id="7RHNXGyQD3z" role="jymVt">
       <property role="TrG5h" value="endPage" />
       <node concept="37vLTG" id="7RHNXGyQD3$" role="3clF46">
@@ -5092,12 +5073,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7RHNXGyQD3I" role="jymVt" />
-    <node concept="2tJIrI" id="7RHNXGyQD3J" role="jymVt" />
-    <node concept="2tJIrI" id="7RHNXGyQD3K" role="jymVt" />
-    <node concept="2tJIrI" id="7RHNXGyQD3L" role="jymVt" />
-    <node concept="2tJIrI" id="7RHNXGyQD3M" role="jymVt" />
-    <node concept="2tJIrI" id="7RHNXGyQD3N" role="jymVt" />
-    <node concept="2tJIrI" id="7RHNXGyQD3O" role="jymVt" />
     <node concept="3clFb_" id="7RHNXGyQD3P" role="jymVt">
       <property role="TrG5h" value="writeMenuButton" />
       <node concept="37vLTG" id="7RHNXGyQD3Q" role="3clF46">
