@@ -13012,6 +13012,55 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="5FFbMjzog_m" role="3cqZAp" />
+            <node concept="3SKdUt" id="5FFbMjzogLk" role="3cqZAp">
+              <node concept="3SKdUq" id="5FFbMjzogPj" role="3SKWNk">
+                <property role="3SKdUp" value="now it depends .. if Fullscreen is request but window is smaller than 200, we have a problem!" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="5FFbMjzogW1" role="3cqZAp">
+              <node concept="3SKdUq" id="5FFbMjzoh02" role="3SKWNk">
+                <property role="3SKdUp" value="then use min height" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="5FFbMjzplI5" role="3cqZAp">
+              <node concept="3clFbS" id="5FFbMjzplI7" role="3clFbx">
+                <node concept="3clFbF" id="5FFbMjzpn$B" role="3cqZAp">
+                  <node concept="37vLTI" id="5FFbMjzpnDH" role="3clFbG">
+                    <node concept="3cpWsd" id="5FFbMjzpo84" role="37vLTx">
+                      <node concept="2OqwBi" id="5FFbMjzpnKo" role="3uHU7B">
+                        <node concept="37vLTw" id="5FFbMjzrzIc" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7D8bwfxiEwQ" resolve="parentStage" />
+                        </node>
+                        <node concept="liA8E" id="5FFbMjzpnVX" role="2OqNvi">
+                          <ref role="37wK5l" to="e4l8:~Window.getHeight():double" resolve="getHeight" />
+                        </node>
+                      </node>
+                      <node concept="3cmrfG" id="5FFbMjzpoda" role="3uHU7w">
+                        <property role="3cmrfH" value="10" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="5FFbMjzpn$_" role="37vLTJ">
+                      <ref role="3cqZAo" node="WpszhUjjeF" resolve="height" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2dkUwp" id="5FFbMjzpnhF" role="3clFbw">
+                <node concept="3cmrfG" id="5FFbMjzpniH" role="3uHU7w">
+                  <property role="3cmrfH" value="400" />
+                </node>
+                <node concept="2OqwBi" id="5FFbMjzpm3u" role="3uHU7B">
+                  <node concept="37vLTw" id="5FFbMjzpm06" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7D8bwfxiEwQ" resolve="parentStage" />
+                  </node>
+                  <node concept="liA8E" id="5FFbMjzpn4R" role="2OqNvi">
+                    <ref role="37wK5l" to="e4l8:~Window.getHeight():double" resolve="getHeight" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="5FFbMjzogCT" role="3cqZAp" />
             <node concept="3clFbF" id="WpszhUjZMJ" role="3cqZAp">
               <node concept="2OqwBi" id="WpszhUjZMK" role="3clFbG">
                 <node concept="37vLTw" id="WpszhUjZML" role="2Oq$k0">
@@ -25989,6 +26038,11 @@
         </node>
         <node concept="3clFbJ" id="77jtz2zM33J" role="3cqZAp">
           <node concept="3clFbS" id="77jtz2zM33L" role="3clFbx">
+            <node concept="3SKdUt" id="5FFbMjznfvv" role="3cqZAp">
+              <node concept="3SKdUq" id="5FFbMjznfw5" role="3SKWNk">
+                <property role="3SKdUp" value="due to flag things " />
+              </node>
+            </node>
             <node concept="3clFbF" id="77jtz2zM6sc" role="3cqZAp">
               <node concept="37vLTI" id="77jtz2zM6De" role="3clFbG">
                 <node concept="37vLTw" id="77jtz2zM6On" role="37vLTx">
@@ -25999,6 +26053,17 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="5FFbMjzm6m4" role="3cqZAp">
+              <node concept="37vLTI" id="5FFbMjzm6_l" role="3clFbG">
+                <node concept="3cmrfG" id="5FFbMjzm6Jj" role="37vLTx">
+                  <property role="3cmrfH" value="5" />
+                </node>
+                <node concept="37vLTw" id="5FFbMjzm6m2" role="37vLTJ">
+                  <ref role="3cqZAo" node="77jtz2zM5Tx" resolve="addPxls" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="5FFbMjznfqj" role="3cqZAp" />
           </node>
           <node concept="3clFbC" id="77jtz2zM3ZY" role="3clFbw">
             <node concept="10Nm6u" id="77jtz2zM4m8" role="3uHU7w" />
@@ -26018,22 +26083,33 @@
             <node concept="3clFbS" id="77jtz2zM6R_" role="3eOfB_">
               <node concept="3SKdUt" id="77jtz2zM7It" role="3cqZAp">
                 <node concept="3SKdUq" id="77jtz2zM7Iv" role="3SKWNk">
-                  <property role="3SKdUp" value="do not add any pixls" />
+                  <property role="3SKdUp" value="still 5 to add due to flag .. " />
                 </node>
               </node>
+              <node concept="3clFbF" id="5FFbMjznfpd" role="3cqZAp">
+                <node concept="37vLTI" id="5FFbMjznfpe" role="3clFbG">
+                  <node concept="3cmrfG" id="5FFbMjznfpf" role="37vLTx">
+                    <property role="3cmrfH" value="5" />
+                  </node>
+                  <node concept="37vLTw" id="5FFbMjznfpg" role="37vLTJ">
+                    <ref role="3cqZAo" node="77jtz2zM5Tx" resolve="addPxls" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="5FFbMjznfoX" role="3cqZAp" />
             </node>
           </node>
           <node concept="9aQIb" id="77jtz2zM7JK" role="9aQIa">
             <node concept="3clFbS" id="77jtz2zM7JL" role="9aQI4">
               <node concept="3SKdUt" id="77jtz2zM8Bv" role="3cqZAp">
                 <node concept="3SKdUq" id="77jtz2zM8BI" role="3SKWNk">
-                  <property role="3SKdUp" value="else add 10 pxls. " />
+                  <property role="3SKdUp" value="else add 15 pxls. " />
                 </node>
               </node>
               <node concept="3clFbF" id="77jtz2zM8aB" role="3cqZAp">
                 <node concept="37vLTI" id="77jtz2zM8un" role="3clFbG">
                   <node concept="3cmrfG" id="77jtz2zM8yx" role="37vLTx">
-                    <property role="3cmrfH" value="10" />
+                    <property role="3cmrfH" value="15" />
                   </node>
                   <node concept="37vLTw" id="77jtz2zM8aA" role="37vLTJ">
                     <ref role="3cqZAo" node="77jtz2zM5Tx" resolve="addPxls" />
