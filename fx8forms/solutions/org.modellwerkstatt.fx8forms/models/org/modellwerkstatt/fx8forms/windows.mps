@@ -3518,8 +3518,22 @@
                                         <node concept="Xl_RD" id="3zf0S8jUL3b" role="3uHU7w">
                                           <property role="Xl_RC" value="\nJAVA Version:   " />
                                         </node>
-                                        <node concept="Xl_RD" id="5XHFlROSEHB" role="3uHU7B">
-                                          <property role="Xl_RC" value="MoWare App Framework, die modellwerkstatt.org\nFX8 fat client, 2nd rev. summer 2015" />
+                                        <node concept="3cpWs3" id="7708TIHGLJU" role="3uHU7B">
+                                          <node concept="2OqwBi" id="7708TIHJ33B" role="3uHU7B">
+                                            <node concept="37vLTw" id="7708TIHJ2Wv" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                                            </node>
+                                            <node concept="liA8E" id="7708TIHJ3lL" role="2OqNvi">
+                                              <ref role="37wK5l" node="20ohnkbA3TC" resolve="getTranslation" />
+                                              <node concept="Rm8GO" id="7708TIHJ3$u" role="37wK5m">
+                                                <ref role="Rm8GQ" to="quhv:7708TIHHbb2" resolve="MOWARE_VERSION" />
+                                                <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="Xl_RD" id="5XHFlROSEHB" role="3uHU7w">
+                                            <property role="Xl_RC" value="\nFX8 fat client, 2nd rev. autumn 2015" />
+                                          </node>
                                         </node>
                                       </node>
                                       <node concept="2YIFZM" id="3zf0S8jULJf" role="3uHU7w">

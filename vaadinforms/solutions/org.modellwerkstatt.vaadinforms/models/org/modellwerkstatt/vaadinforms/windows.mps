@@ -2150,13 +2150,14 @@
   </node>
   <node concept="312cEu" id="6MOvunDm3sG">
     <property role="TrG5h" value="VApplicationLoader" />
-    <node concept="312cEg" id="4QTIUTC1PYS" role="jymVt">
-      <property role="3TUv4t" value="true" />
+    <node concept="Wx3nA" id="7708TIHL749" role="jymVt">
+      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="frameworkVersion" />
-      <node concept="3Tm1VV" id="vsIEjNpph7" role="1B3o_S" />
+      <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="4QTIUTC1Wnd" role="1tU5fm" />
+      <node concept="3Tm1VV" id="vsIEjNpph7" role="1B3o_S" />
       <node concept="Xl_RD" id="4QTIUTC1Z1Y" role="33vP2m">
-        <property role="Xl_RC" value="initial VaadinForms (moware Winter 2015)" />
+        <property role="Xl_RC" value="initial VaadinForms 0.9 winter 2015" />
       </node>
     </node>
     <node concept="2tJIrI" id="5XHFlROIt$U" role="jymVt" />
@@ -2547,8 +2548,27 @@
                       <ref role="37wK5l" to="28jr:4T6wObo62Pu" resolve="getConnectionUrl" />
                     </node>
                   </node>
-                  <node concept="37vLTw" id="1EBV9L$xCtR" role="37wK5m">
-                    <ref role="3cqZAo" node="4QTIUTC1PYS" resolve="frameworkVersion" />
+                  <node concept="3cpWs3" id="7708TIHKTKV" role="37wK5m">
+                    <node concept="3cpWs3" id="7708TIHL0_Z" role="3uHU7B">
+                      <node concept="Xl_RD" id="7708TIHL0BO" role="3uHU7w">
+                        <property role="Xl_RC" value=" / " />
+                      </node>
+                      <node concept="2OqwBi" id="7708TIHKULt" role="3uHU7B">
+                        <node concept="37vLTw" id="7708TIHKUE3" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4QTIUTBQA3g" resolve="appFactory" />
+                        </node>
+                        <node concept="liA8E" id="7708TIHKVEU" role="2OqNvi">
+                          <ref role="37wK5l" to="quhv:20ohnkbA2Ln" resolve="getTranslation" />
+                          <node concept="Rm8GO" id="7708TIHKZK_" role="37wK5m">
+                            <ref role="Rm8GQ" to="quhv:7708TIHHbb2" resolve="MOWARE_VERSION" />
+                            <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="1EBV9L$xCtR" role="3uHU7w">
+                      <ref role="3cqZAo" node="7708TIHL749" resolve="frameworkVersion" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3334,8 +3354,33 @@
                                       <property role="Xl_RC" value=")\n\n" />
                                     </node>
                                     <node concept="3cpWs3" id="6go2Mrsu5b4" role="3uHU7B">
-                                      <node concept="Xl_RD" id="vsIEjNWFvC" role="3uHU7B">
-                                        <property role="Xl_RC" value="MoWare App Framework, die modellwerkstatt.org\nVaadin web client, 1st rev. summer 2015\n(Vaadin framework version " />
+                                      <node concept="3cpWs3" id="7708TIHL47P" role="3uHU7B">
+                                        <node concept="3cpWs3" id="7708TIHL5FR" role="3uHU7B">
+                                          <node concept="10M0yZ" id="7708TIHL5RO" role="3uHU7w">
+                                            <ref role="1PxDUh" node="6MOvunDm3sG" resolve="VApplicationLoader" />
+                                            <ref role="3cqZAo" node="7708TIHL749" resolve="frameworkVersion" />
+                                          </node>
+                                          <node concept="3cpWs3" id="7708TIHL5jG" role="3uHU7B">
+                                            <node concept="2OqwBi" id="7708TIHL4vX" role="3uHU7B">
+                                              <node concept="37vLTw" id="7708TIHL4nv" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="6go2MrsuUX7" resolve="factory" />
+                                              </node>
+                                              <node concept="liA8E" id="7708TIHL4AF" role="2OqNvi">
+                                                <ref role="37wK5l" to="quhv:20ohnkbA2Ln" resolve="getTranslation" />
+                                                <node concept="Rm8GO" id="7708TIHL50w" role="37wK5m">
+                                                  <ref role="Rm8GQ" to="quhv:7708TIHHbb2" resolve="MOWARE_VERSION" />
+                                                  <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                            <node concept="Xl_RD" id="7708TIHL5qf" role="3uHU7w">
+                                              <property role="Xl_RC" value="\n" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="Xl_RD" id="vsIEjNWFvC" role="3uHU7w">
+                                          <property role="Xl_RC" value="\n(Vaadin framework version " />
+                                        </node>
                                       </node>
                                       <node concept="2YIFZM" id="6go2Mrsu7Ge" role="3uHU7w">
                                         <ref role="37wK5l" to="kemz:~Version.getFullVersion():java.lang.String" resolve="getFullVersion" />

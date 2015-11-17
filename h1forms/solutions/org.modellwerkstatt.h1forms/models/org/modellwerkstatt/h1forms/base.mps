@@ -329,7 +329,7 @@
       <node concept="17QB3L" id="4QTIUTBZruW" role="1tU5fm" />
       <node concept="3Tm6S6" id="4QTIUTBZruX" role="1B3o_S" />
       <node concept="Xl_RD" id="4QTIUTBZruY" role="33vP2m">
-        <property role="Xl_RC" value="H1Forms 0.9.1 (moware60 Winter 2015)" />
+        <property role="Xl_RC" value="H1Forms 0.9 winter 2015" />
       </node>
     </node>
     <node concept="Wx3nA" id="4QTIUTCpDrJ" role="jymVt">
@@ -731,8 +731,27 @@
                       <ref role="37wK5l" to="28jr:4T6wObo62Pu" resolve="getConnectionUrl" />
                     </node>
                   </node>
-                  <node concept="37vLTw" id="2yuEF6qcH5Q" role="37wK5m">
-                    <ref role="3cqZAo" node="4QTIUTBZruV" resolve="frameworkVersion" />
+                  <node concept="3cpWs3" id="7708TIHKkCo" role="37wK5m">
+                    <node concept="3cpWs3" id="7708TIHKqkl" role="3uHU7B">
+                      <node concept="Xl_RD" id="7708TIHKqld" role="3uHU7w">
+                        <property role="Xl_RC" value=" / " />
+                      </node>
+                      <node concept="2OqwBi" id="7708TIHKl3N" role="3uHU7B">
+                        <node concept="37vLTw" id="7708TIHKkTT" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+                        </node>
+                        <node concept="liA8E" id="7708TIHKm$n" role="2OqNvi">
+                          <ref role="37wK5l" to="quhv:20ohnkbA2Ln" resolve="getTranslation" />
+                          <node concept="Rm8GO" id="7708TIHKp8H" role="37wK5m">
+                            <ref role="Rm8GQ" to="quhv:7708TIHHbb2" resolve="MOWARE_VERSION" />
+                            <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="2yuEF6qcH5Q" role="3uHU7w">
+                      <ref role="3cqZAo" node="4QTIUTBZruV" resolve="frameworkVersion" />
+                    </node>
                   </node>
                 </node>
               </node>

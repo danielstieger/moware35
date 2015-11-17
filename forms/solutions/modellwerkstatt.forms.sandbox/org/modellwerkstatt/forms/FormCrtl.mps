@@ -12942,6 +12942,16 @@
   <node concept="312cEu" id="2zlZ_in5Vzm">
     <property role="TrG5h" value="FDefaultTrans" />
     <node concept="3Tm1VV" id="2zlZ_in5Vzn" role="1B3o_S" />
+    <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="MOWARE_PLUGIN_VERSION" />
+      <node concept="3Tm6S6" id="7708TIHG3jF" role="1B3o_S" />
+      <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
+      <node concept="Xl_RD" id="7708TIHG4ay" role="33vP2m">
+        <property role="Xl_RC" value="moware60 R3" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7708TIHFKmX" role="jymVt" />
     <node concept="312cEg" id="41UdyNBAD2h" role="jymVt">
       <property role="TrG5h" value="vaadin" />
       <node concept="3Tm6S6" id="41UdyNBAD2i" role="1B3o_S" />
@@ -13605,6 +13615,21 @@
           <property role="Xl_RC" value="Ihe letztes Kommando wurde abgebrochen. Sie sind nun im Start-Menü." />
         </node>
         <node concept="Xl_RD" id="7DInbKyry1L" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="7708TIHHbb2" role="Qtgdg">
+        <property role="TrG5h" value="MOWARE_VERSION" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="3cpWs3" id="7708TIHHbx3" role="37wK5m">
+          <node concept="37vLTw" id="7708TIHHbyL" role="3uHU7w">
+            <ref role="3cqZAo" node="7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
+          </node>
+          <node concept="Xl_RD" id="7708TIHHbqU" role="3uHU7B">
+            <property role="Xl_RC" value="die modellwerkstatt.org App Framework " />
+          </node>
+        </node>
+        <node concept="Xl_RD" id="7708TIHHbrV" role="37wK5m">
           <property role="Xl_RC" value="" />
         </node>
       </node>
