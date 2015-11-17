@@ -2,9 +2,7 @@
 
 @mixin moware {
   @include valo;
-   
-  
-	 
+   	 
 	.mo-small-mrg.v-margin-left   {padding-left:   10px;}
 	.mo-small-mrg.v-margin-right  {padding-right:  10px;}
 	.mo-small-mrg.v-margin-top    {padding-top:    10px;}
@@ -29,7 +27,7 @@
 	.mo-form.v-margin-right  {padding-right:  $mo-min-margin;}
 	.mo-form.v-margin-top    {padding-top:    $mo-min-margin;}
 	.mo-form.v-margin-bottom {padding-bottom: $mo-min-margin;}
-	
+
 	.mo-form {
 			
 	}
@@ -38,15 +36,24 @@
 		border: 1px solid $mo-min-borderclr;	
 	}
 	
-	
+
 	.mo-flagborder-error {
 		border: 1px solid $v-error-indicator-color !important;
 	}
+
+	.mo-flagborder-noerror {
+		border: 1px solid transparent;
+	}
 	
+	.mo-flagborder-noerror-table {
+	    border-left: 1px solid transparent;
+	    border-right: 1px solid transparent;
+	    border-bottom: 1px solid transparent;
+	}
 	
 	.mo-flaglabel {
 		line-height: 1.8em;
-		padding-left: ($v-unit-size / 4);
+		padding-left: ($v-unit-size / 9);
 		font-weight: bold;
 		/* no bit darker please 
 		color: $mo-max-borderclr; */
@@ -66,6 +73,7 @@
 	
 	.v-slot .mo-table {
 		border-top: 1px solid $mo-min-borderclr;
+		// flag is managed by flagborder-noerror-table
 	}
 	
 	.v-table-body {
@@ -95,16 +103,41 @@
 			width: 5 * $v-unit-size;
 			background-color: $mo-inputbg;
 			height: 0.8 * $v-unit-size;
+			
+			border: 1px solid transparent;
 		}
 		.mo-summaryline {
 			line-height: 1em;
 			padding-right: ($v-unit-size / 4);
 		}
 	
-		.v-textfield-focus {
+		/* .v-textfield-focus {
 			border: 1px solid $v-focus-color;
+		} */
+	
+	}
+	
+	/* delegate form special adoptions ----------------------- */
+	.mo-delegate {
+		.v-formlayout-captioncell {
+			padding-left: 2px;
 		}
 	
+		.v-formlayout-contentcell  {
+			padding-right: 2px;
+		}
+	
+		.mo-delegate-editor, .mo-delegate-editor input {
+			background-color: $mo-inputbg !important;
+			border: 1px solid transparent;
+			background-image: none !important;
+			box-shadow: none !important;
+			-webkit-box-shadow: none !important;	
+		}
+	
+		.v-filterselect {
+			border: 1px solid transparent;
+		}
 	}
 	
 }
