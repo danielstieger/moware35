@@ -293,21 +293,27 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="7708TIHWtpO" role="3cqZAp">
-          <node concept="3SKWN0" id="7708TIHWtpT" role="3SKWNk">
-            <node concept="3clFbF" id="xFWXJS0Zik" role="3SKWNf">
-              <node concept="2OqwBi" id="xFWXJS0Zuu" role="3clFbG">
-                <node concept="37vLTw" id="xFWXJS0Zii" role="2Oq$k0">
-                  <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
-                </node>
-                <node concept="liA8E" id="xFWXJS11UW" role="2OqNvi">
-                  <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
-                </node>
-              </node>
+        <node concept="3clFbF" id="xFWXJS0Zik" role="3cqZAp">
+          <node concept="2OqwBi" id="xFWXJS0Zuu" role="3clFbG">
+            <node concept="37vLTw" id="xFWXJS0Zii" role="2Oq$k0">
+              <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="xFWXJS11UW" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7708TIHTOOH" role="3cqZAp" />
+        <node concept="3clFbF" id="7SiTcfwByfq" role="3cqZAp">
+          <node concept="2OqwBi" id="7SiTcfwByXB" role="3clFbG">
+            <node concept="37vLTw" id="7SiTcfwByfo" role="2Oq$k0">
+              <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="7SiTcfwB_Ch" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setHeightUndefined():void" resolve="setHeightUndefined" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7SiTcfwBx_w" role="3cqZAp" />
         <node concept="3SKdUt" id="7708TIHU4r5" role="3cqZAp">
           <node concept="3SKWN0" id="7708TIHU4r6" role="3SKWNk">
             <node concept="3clFbF" id="1xatIIVj9sd" role="3SKWNf">
@@ -1860,21 +1866,27 @@
           </node>
         </node>
         <node concept="3clFbH" id="7708TIHWuFC" role="3cqZAp" />
-        <node concept="3SKdUt" id="7708TIHWv4K" role="3cqZAp">
-          <node concept="3SKWN0" id="7708TIHWv4P" role="3SKWNk">
-            <node concept="3clFbF" id="xFWXJS1o$_" role="3SKWNf">
-              <node concept="2OqwBi" id="xFWXJS1oU2" role="3clFbG">
-                <node concept="37vLTw" id="xFWXJS1o$z" role="2Oq$k0">
-                  <ref role="3cqZAo" node="xFWXJRZwyx" resolve="comboBox" />
-                </node>
-                <node concept="liA8E" id="xFWXJS1qEk" role="2OqNvi">
-                  <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
-                </node>
-              </node>
+        <node concept="3clFbF" id="xFWXJS1o$_" role="3cqZAp">
+          <node concept="2OqwBi" id="xFWXJS1oU2" role="3clFbG">
+            <node concept="37vLTw" id="xFWXJS1o$z" role="2Oq$k0">
+              <ref role="3cqZAo" node="xFWXJRZwyx" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="xFWXJS1qEk" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7708TIHTPQD" role="3cqZAp" />
+        <node concept="3clFbF" id="7SiTcfwBr7p" role="3cqZAp">
+          <node concept="2OqwBi" id="7SiTcfwBrAw" role="3clFbG">
+            <node concept="37vLTw" id="7SiTcfwBr7n" role="2Oq$k0">
+              <ref role="3cqZAo" node="xFWXJRZwyx" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="7SiTcfwBv5Q" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setHeightUndefined():void" resolve="setHeightUndefined" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7SiTcfwBqIu" role="3cqZAp" />
         <node concept="3SKdUt" id="7708TIHUhXF" role="3cqZAp">
           <node concept="3SKWN0" id="7708TIHUhXG" role="3SKWNk">
             <node concept="3clFbF" id="7708TIHTpPV" role="3SKWNf">
@@ -2544,21 +2556,27 @@
           </node>
         </node>
         <node concept="3clFbH" id="7708TIHWwBK" role="3cqZAp" />
-        <node concept="3SKdUt" id="7708TIHWw6F" role="3cqZAp">
-          <node concept="3SKWN0" id="7708TIHWw6K" role="3SKWNk">
-            <node concept="3clFbF" id="6KBCmIOMpSt" role="3SKWNf">
-              <node concept="2OqwBi" id="6KBCmIOMpSu" role="3clFbG">
-                <node concept="37vLTw" id="6KBCmIOMpSv" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
-                </node>
-                <node concept="liA8E" id="6KBCmIOMpSw" role="2OqNvi">
-                  <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
-                </node>
-              </node>
+        <node concept="3clFbF" id="6KBCmIOMpSt" role="3cqZAp">
+          <node concept="2OqwBi" id="6KBCmIOMpSu" role="3clFbG">
+            <node concept="37vLTw" id="6KBCmIOMpSv" role="2Oq$k0">
+              <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="6KBCmIOMpSw" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7708TIHTuAu" role="3cqZAp" />
+        <node concept="3clFbF" id="7SiTcfwBkTd" role="3cqZAp">
+          <node concept="2OqwBi" id="7SiTcfwBlq4" role="3clFbG">
+            <node concept="37vLTw" id="7SiTcfwBkTb" role="2Oq$k0">
+              <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="7SiTcfwBoUx" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setHeightUndefined():void" resolve="setHeightUndefined" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7SiTcfwBkug" role="3cqZAp" />
         <node concept="3SKdUt" id="7708TIHUiW6" role="3cqZAp">
           <node concept="3SKWN0" id="7708TIHUiW7" role="3SKWNk">
             <node concept="3clFbF" id="7708TIHTrYj" role="3SKWNf">
@@ -3123,7 +3141,7 @@
               <ref role="3cqZAo" node="6KBCmIORgus" resolve="textArea" />
             </node>
             <node concept="liA8E" id="6KBCmIORxfD" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractTextField.setColumns(int):void" resolve="setColumns" />
+              <ref role="37wK5l" to="o2tm:~TextArea.setRows(int):void" resolve="setRows" />
               <node concept="37vLTw" id="6KBCmIORPSC" role="37wK5m">
                 <ref role="3cqZAo" node="6KBCmIORguH" resolve="numOfLines" />
               </node>
@@ -3131,24 +3149,29 @@
           </node>
         </node>
         <node concept="3clFbH" id="7708TIHWlZj" role="3cqZAp" />
-        <node concept="3SKdUt" id="7708TIHWlfX" role="3cqZAp">
-          <node concept="3SKWN0" id="7708TIHWlfY" role="3SKWNk">
-            <node concept="3clFbF" id="7708TIHTxpq" role="3SKWNf">
-              <node concept="2OqwBi" id="7708TIHTydD" role="3clFbG">
-                <node concept="37vLTw" id="7708TIHTxpo" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6KBCmIORgus" resolve="textArea" />
-                </node>
-                <node concept="liA8E" id="7708TIHTzIh" role="2OqNvi">
-                  <ref role="37wK5l" to="o2tm:~AbstractComponent.setWidth(java.lang.String):void" resolve="setWidth" />
-                  <node concept="Xl_RD" id="7708TIHTzTK" role="37wK5m">
-                    <property role="Xl_RC" value="100%" />
-                  </node>
-                </node>
-              </node>
+        <node concept="3clFbH" id="7708TIHTvfT" role="3cqZAp" />
+        <node concept="3clFbF" id="7SiTcfwBCf4" role="3cqZAp">
+          <node concept="2OqwBi" id="7SiTcfwBCXW" role="3clFbG">
+            <node concept="37vLTw" id="7SiTcfwBCf2" role="2Oq$k0">
+              <ref role="3cqZAo" node="6KBCmIORgus" resolve="textArea" />
+            </node>
+            <node concept="liA8E" id="7SiTcfwBEtE" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7708TIHTvfT" role="3cqZAp" />
+        <node concept="3clFbF" id="7SiTcfwBFj_" role="3cqZAp">
+          <node concept="2OqwBi" id="7SiTcfwBG3$" role="3clFbG">
+            <node concept="37vLTw" id="7SiTcfwBFjz" role="2Oq$k0">
+              <ref role="3cqZAo" node="6KBCmIORgus" resolve="textArea" />
+            </node>
+            <node concept="liA8E" id="7SiTcfwBHyP" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setHeightUndefined():void" resolve="setHeightUndefined" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7SiTcfwBHIJ" role="3cqZAp" />
+        <node concept="3clFbH" id="7SiTcfwBHL3" role="3cqZAp" />
         <node concept="3SKdUt" id="7708TIHUe69" role="3cqZAp">
           <node concept="3SKWN0" id="7708TIHUe6a" role="3SKWNk">
             <node concept="3clFbF" id="7708TIHTwki" role="3SKWNf">
