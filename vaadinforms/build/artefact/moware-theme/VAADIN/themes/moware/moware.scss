@@ -131,13 +131,13 @@
 			background-color: $mo-inputbg !important;
 			border: 1px solid transparent;
 			background-image: none !important;
-			box-shadow: none !important;
-			-webkit-box-shadow: none !important;	
+			/* box-shadow: none !important;
+			-webkit-box-shadow: none !important; */		
 		}
 	
-		.v-filterselect {
+		/* .v-filterselect {
 			border: 1px solid transparent;
-		}
+		} */
 	}
 	
 }
