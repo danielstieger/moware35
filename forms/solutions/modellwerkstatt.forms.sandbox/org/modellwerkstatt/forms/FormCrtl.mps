@@ -1517,7 +1517,13 @@
       <node concept="3Tm6S6" id="7Mah_ahoYa8" role="1B3o_S" />
       <node concept="10P_77" id="7Mah_ahp0fr" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="7nxGN1HKFqV" role="jymVt">
+      <property role="TrG5h" value="lockMessageShown" />
+      <node concept="3Tm6S6" id="7nxGN1HKFqW" role="1B3o_S" />
+      <node concept="10P_77" id="7nxGN1HKFqX" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="12Eg3QJmvAt" role="jymVt" />
+    <node concept="2tJIrI" id="7nxGN1HKC_r" role="jymVt" />
     <node concept="2tJIrI" id="20ohnkbK$3U" role="jymVt" />
     <node concept="312cEg" id="4XXgpAAg3lt" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -1778,6 +1784,16 @@
             </node>
             <node concept="37vLTw" id="2yuEF6qjr4P" role="37vLTJ">
               <ref role="3cqZAo" node="2yuEF6qjnHZ" resolve="jmxRegistration" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7nxGN1HKIzt" role="3cqZAp">
+          <node concept="37vLTI" id="7nxGN1HKIOq" role="3clFbG">
+            <node concept="3clFbT" id="7nxGN1HKIQu" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="7nxGN1HKIzr" role="37vLTJ">
+              <ref role="3cqZAo" node="7nxGN1HKFqV" resolve="lockMessageShown" />
             </node>
           </node>
         </node>
@@ -2965,6 +2981,59 @@
             <ref role="37wK5l" node="31dwTLEy23K" resolve="telemetricsTouch" />
           </node>
         </node>
+        <node concept="3clFbH" id="7nxGN1HIyqt" role="3cqZAp" />
+        <node concept="3clFbJ" id="7nxGN1HIFjY" role="3cqZAp">
+          <node concept="3clFbS" id="7nxGN1HIFk0" role="3clFbx">
+            <node concept="3clFbF" id="7nxGN1HKJJy" role="3cqZAp">
+              <node concept="37vLTI" id="7nxGN1HKK2e" role="3clFbG">
+                <node concept="3clFbT" id="7nxGN1HKK4i" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="7nxGN1HKJJw" role="37vLTJ">
+                  <ref role="3cqZAo" node="7nxGN1HKFqV" resolve="lockMessageShown" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nxGN1HIGmF" role="3cqZAp">
+              <node concept="1rXfSq" id="7nxGN1HIGBp" role="3clFbG">
+                <ref role="37wK5l" node="5_bDd1dON5p" resolve="showInfoDialog" />
+                <node concept="Rm8GO" id="7nxGN1HIGQx" role="37wK5m">
+                  <ref role="Rm8GQ" node="4Ucpg8z6mvn" resolve="INFO" />
+                  <ref role="1Px2BO" node="4Ucpg8z6mu9" resolve="IToolkit_AppWindow.MsgType" />
+                </node>
+                <node concept="2OqwBi" id="7nxGN1HIH5c" role="37wK5m">
+                  <node concept="37vLTw" id="7nxGN1HIH0k" role="2Oq$k0">
+                    <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                  </node>
+                  <node concept="liA8E" id="7nxGN1HIHoE" role="2OqNvi">
+                    <ref role="37wK5l" node="20ohnkbA2Ln" resolve="getTranslation" />
+                    <node concept="Rm8GO" id="7nxGN1HKCw2" role="37wK5m">
+                      <ref role="Rm8GQ" node="7nxGN1HIKgU" resolve="APPLICATION_LOCKED" />
+                      <ref role="1Px2BO" node="2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="10Nm6u" id="7nxGN1HIHT8" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="7nxGN1HKJ4g" role="3clFbw">
+            <node concept="3fqX7Q" id="7nxGN1HKJs8" role="3uHU7w">
+              <node concept="37vLTw" id="7nxGN1HKJx3" role="3fr31v">
+                <ref role="3cqZAo" node="7nxGN1HKFqV" resolve="lockMessageShown" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="7nxGN1HIFKX" role="3uHU7B">
+              <node concept="37vLTw" id="7nxGN1HIF$_" role="2Oq$k0">
+                <ref role="3cqZAo" node="2yuEF6qjnHZ" resolve="jmxRegistration" />
+              </node>
+              <node concept="liA8E" id="7nxGN1HIG6_" role="2OqNvi">
+                <ref role="37wK5l" node="2yuEF6qekef" resolve="isLocked" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7nxGN1HIyCA" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="3y7CfyfoHuH" role="jymVt" />
@@ -13605,6 +13674,16 @@
           <property role="Xl_RC" value="Dieser Dienst steht gegenwärtig nicht zu Verfügung. Wartungsarbeiten werden durchgeführt." />
         </node>
         <node concept="Xl_RD" id="7DInbKypNec" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="7nxGN1HIKgU" role="Qtgdg">
+        <property role="TrG5h" value="APPLICATION_LOCKED" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="7nxGN1HIKwE" role="37wK5m">
+          <property role="Xl_RC" value="Die Anwendung wird durch eine neue Version ersetzt. Bitte speichern \nSie ihre Aenderungen und starten Sie die Applikation erneut!" />
+        </node>
+        <node concept="Xl_RD" id="7nxGN1HIKxC" role="37wK5m">
           <property role="Xl_RC" value="" />
         </node>
       </node>

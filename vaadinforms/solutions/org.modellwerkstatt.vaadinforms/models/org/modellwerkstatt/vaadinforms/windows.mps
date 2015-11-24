@@ -422,6 +422,85 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6MOvunDm3rR" role="jymVt" />
+    <node concept="2tJIrI" id="7nxGN1HPsOl" role="jymVt" />
+    <node concept="3clFb_" id="7nxGN1HPwNx" role="jymVt">
+      <property role="TrG5h" value="checkJmxRedirect" />
+      <node concept="10P_77" id="7nxGN1HPP0Z" role="3clF45" />
+      <node concept="3Tm1VV" id="7nxGN1HPwN$" role="1B3o_S" />
+      <node concept="3clFbS" id="7nxGN1HPwN_" role="3clF47">
+        <node concept="3cpWs8" id="7nxGN1HPJSZ" role="3cqZAp">
+          <node concept="3cpWsn" id="7nxGN1HPJT0" role="3cpWs9">
+            <property role="TrG5h" value="redirect" />
+            <node concept="17QB3L" id="7nxGN1HPJT1" role="1tU5fm" />
+            <node concept="2OqwBi" id="7nxGN1HPJT2" role="33vP2m">
+              <node concept="2OqwBi" id="7nxGN1HPJT3" role="2Oq$k0">
+                <node concept="37vLTw" id="7nxGN1HPJT4" role="2Oq$k0">
+                  <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                </node>
+                <node concept="liA8E" id="7nxGN1HPJT5" role="2OqNvi">
+                  <ref role="37wK5l" node="1EBV9L$v8Vd" resolve="getJmxRegistration" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7nxGN1HPJT6" role="2OqNvi">
+                <ref role="37wK5l" to="quhv:2yuEF6qeiM5" resolve="getRedirectAddr" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7nxGN1HPJT7" role="3cqZAp">
+          <node concept="3clFbS" id="7nxGN1HPJT8" role="3clFbx">
+            <node concept="3SKdUt" id="7nxGN1HPJT9" role="3cqZAp">
+              <node concept="3SKdUq" id="7nxGN1HPJTa" role="3SKWNk">
+                <property role="3SKdUp" value="redirect to different app" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nxGN1HPJTb" role="3cqZAp">
+              <node concept="2OqwBi" id="7nxGN1HPJTc" role="3clFbG">
+                <node concept="2OqwBi" id="7nxGN1HPJTd" role="2Oq$k0">
+                  <node concept="Xjq3P" id="7nxGN1HPJTe" role="2Oq$k0" />
+                  <node concept="liA8E" id="7nxGN1HPJTf" role="2OqNvi">
+                    <ref role="37wK5l" to="o2tm:~UI.getPage():com.vaadin.server.Page" resolve="getPage" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7nxGN1HPJTg" role="2OqNvi">
+                  <ref role="37wK5l" to="7ym1:~Page.setLocation(java.lang.String):void" resolve="setLocation" />
+                  <node concept="37vLTw" id="7nxGN1HPJTh" role="37wK5m">
+                    <ref role="3cqZAo" node="7nxGN1HPJT0" resolve="redirect" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7nxGN1HPJTi" role="3cqZAp">
+              <node concept="2OqwBi" id="7nxGN1HPJTj" role="3clFbG">
+                <node concept="1rXfSq" id="7nxGN1HPJTk" role="2Oq$k0">
+                  <ref role="37wK5l" to="o2tm:~UI.getSession():com.vaadin.server.VaadinSession" resolve="getSession" />
+                </node>
+                <node concept="liA8E" id="7nxGN1HPJTl" role="2OqNvi">
+                  <ref role="37wK5l" to="7ym1:~VaadinSession.close():void" resolve="close" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="7nxGN1HPNsL" role="3cqZAp">
+              <node concept="3clFbT" id="7nxGN1HPN_e" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="7nxGN1HPJTn" role="3clFbw">
+            <node concept="10Nm6u" id="7nxGN1HPJTo" role="3uHU7w" />
+            <node concept="37vLTw" id="7nxGN1HPJTp" role="3uHU7B">
+              <ref role="3cqZAo" node="7nxGN1HPJT0" resolve="redirect" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7nxGN1HPRHp" role="3cqZAp">
+          <node concept="3clFbT" id="7nxGN1HPRHo" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7nxGN1HPuLJ" role="jymVt" />
     <node concept="3clFb_" id="6MOvunDm2Ua" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="init" />
@@ -507,7 +586,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="45e9mS9BkF2" role="3cqZAp" />
-        <node concept="3clFbH" id="1EBV9L$sdMv" role="3cqZAp" />
         <node concept="3SKdUt" id="vsIEjNuol7" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNuovL" role="3SKWNk">
             <property role="3SKdUp" value=" - setup application controller and UI factory. " />
@@ -521,8 +599,8 @@
                   <ref role="3uigEE" node="6MOvunDm3sG" resolve="VApplicationLoader" />
                 </node>
                 <node concept="2YIFZM" id="45e9mS9_hhY" role="10QFUP">
-                  <ref role="1Pybhc" to="7ym1:~VaadinServlet" resolve="VaadinServlet" />
                   <ref role="37wK5l" to="7ym1:~VaadinServlet.getCurrent():com.vaadin.server.VaadinServlet" resolve="getCurrent" />
+                  <ref role="1Pybhc" to="7ym1:~VaadinServlet" resolve="VaadinServlet" />
                 </node>
               </node>
             </node>
@@ -546,6 +624,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="7nxGN1HO4yT" role="3cqZAp" />
+        <node concept="3SKdUt" id="7nxGN1HOGOa" role="3cqZAp">
+          <node concept="3SKdUq" id="7nxGN1HOHMg" role="3SKWNk">
+            <property role="3SKdUp" value="- on init app ... " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7nxGN1HPUfg" role="3cqZAp">
+          <node concept="3clFbS" id="7nxGN1HPUfi" role="3clFbx">
+            <node concept="3cpWs6" id="7nxGN1HPWnU" role="3cqZAp" />
+          </node>
+          <node concept="1rXfSq" id="7nxGN1HPVvx" role="3clFbw">
+            <ref role="37wK5l" node="7nxGN1HPwNx" resolve="checkJmxRedirect" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7nxGN1HM2i_" role="3cqZAp" />
         <node concept="3clFbF" id="vsIEjNtVRC" role="3cqZAp">
           <node concept="37vLTI" id="vsIEjNtW8r" role="3clFbG">
             <node concept="2ShNRf" id="vsIEjNtWAA" role="37vLTx">
@@ -899,6 +992,18 @@
           </node>
         </node>
         <node concept="3clFbH" id="3NyMOIyYjZ3" role="3cqZAp" />
+        <node concept="3clFbH" id="7nxGN1HQBlW" role="3cqZAp" />
+        <node concept="3SKdUt" id="7nxGN1HQCul" role="3cqZAp">
+          <node concept="3SKdUq" id="7nxGN1HQDoo" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: if not employing the login view" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7nxGN1HQETq" role="3cqZAp">
+          <node concept="3SKdUq" id="7nxGN1HQFNG" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: be aware of not registering userjmx if we redirect etc..." />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7nxGN1HQGoM" role="3cqZAp" />
         <node concept="3clFbF" id="3NyMOIyTS_n" role="3cqZAp">
           <node concept="37vLTI" id="3NyMOIyTS_p" role="3clFbG">
             <node concept="2ShNRf" id="1EBV9L$Hj2x" role="37vLTx">
@@ -951,6 +1056,7 @@
                             </node>
                           </node>
                         </node>
+                        <node concept="3clFbH" id="7nxGN1HOTFm" role="3cqZAp" />
                         <node concept="3clFbF" id="3NyMOIyUZ3C" role="3cqZAp">
                           <node concept="2OqwBi" id="3NyMOIyUZsC" role="3clFbG">
                             <node concept="Xjq3P" id="3NyMOIyUZ3B" role="2Oq$k0">
@@ -964,6 +1070,35 @@
                             </node>
                           </node>
                         </node>
+                        <node concept="3clFbH" id="7nxGN1HOMzV" role="3cqZAp" />
+                        <node concept="3SKdUt" id="7nxGN1HOLxg" role="3cqZAp">
+                          <node concept="3SKdUq" id="7nxGN1HOLxh" role="3SKWNk">
+                            <property role="3SKdUp" value="if user is stuck with login view ... " />
+                          </node>
+                        </node>
+                        <node concept="3SKdUt" id="7nxGN1HPYdQ" role="3cqZAp">
+                          <node concept="3SKdUq" id="7nxGN1HPYdR" role="3SKWNk">
+                            <property role="3SKdUp" value="- on init app ... " />
+                          </node>
+                        </node>
+                        <node concept="3clFbJ" id="7nxGN1HPYdS" role="3cqZAp">
+                          <node concept="3clFbS" id="7nxGN1HPYdT" role="3clFbx">
+                            <node concept="3SKdUt" id="7nxGN1HQ4dE" role="3cqZAp">
+                              <node concept="3SKdUq" id="7nxGN1HQ4nD" role="3SKWNk">
+                                <property role="3SKdUp" value="close this simple login view" />
+                              </node>
+                            </node>
+                            <node concept="3cpWs6" id="7nxGN1HPYdU" role="3cqZAp">
+                              <node concept="3clFbT" id="7nxGN1HQ4rT" role="3cqZAk">
+                                <property role="3clFbU" value="true" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="1rXfSq" id="7nxGN1HPYdV" role="3clFbw">
+                            <ref role="37wK5l" node="7nxGN1HPwNx" resolve="checkJmxRedirect" />
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="7nxGN1HPXZg" role="3cqZAp" />
                         <node concept="3clFbH" id="3NyMOIyZQuK" role="3cqZAp" />
                         <node concept="3SKdUt" id="3NyMOIyZYQ0" role="3cqZAp">
                           <node concept="3SKdUq" id="3NyMOIyZZ2N" role="3SKWNk">
@@ -1049,6 +1184,12 @@
                             </node>
                           </node>
                         </node>
+                        <node concept="3SKdUt" id="7nxGN1HQ3jD" role="3cqZAp">
+                          <node concept="3SKdUq" id="7nxGN1HQ3yx" role="3SKWNk">
+                            <property role="3SKdUp" value="allways return true, since initApp will take control over the ui" />
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="7nxGN1HQ3HZ" role="3cqZAp" />
                         <node concept="3cpWs6" id="3NyMOIyUVRf" role="3cqZAp">
                           <node concept="3clFbT" id="3NyMOIyUVVb" role="3cqZAk">
                             <property role="3clFbU" value="true" />
@@ -2786,6 +2927,12 @@
             <node concept="37vLTw" id="1EBV9L$wK$y" role="37wK5m">
               <ref role="3cqZAo" node="1EBV9L$wK$r" resolve="response" />
             </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7nxGN1HIdfr" role="3cqZAp" />
+        <node concept="3SKdUt" id="7nxGN1HIsMP" role="3cqZAp">
+          <node concept="3SKdUq" id="7nxGN1HIsPq" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: Remove that at some time? " />
           </node>
         </node>
         <node concept="3clFbF" id="1EBV9L$xDUB" role="3cqZAp">
@@ -20618,11 +20765,7 @@
       <node concept="3cqZAl" id="HsWD0njXkq" role="3clF45" />
       <node concept="3Tm1VV" id="HsWD0njXkr" role="1B3o_S" />
       <node concept="3clFbS" id="HsWD0njXks" role="3clF47">
-        <node concept="3SKdUt" id="HsWD0njXkt" role="3cqZAp">
-          <node concept="3SKdUq" id="HsWD0njXku" role="3SKWNk">
-            <property role="3SKdUp" value=" - TODO ??? " />
-          </node>
-        </node>
+        <node concept="3clFbH" id="7nxGN1HRh7Q" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="HsWD0niQ9T" role="jymVt" />
