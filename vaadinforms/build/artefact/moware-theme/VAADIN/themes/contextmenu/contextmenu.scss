@@ -3,10 +3,12 @@
 	.v-context-menu {
 		float: left;
 		
-		font-family: Arial;
-		font-size: 12px;
+		font-family: "Open Sans", sans-serif;;
+		font-size: 14px;
+		font-weight: 400;
 		
-		background-color: #f0f0f0;
+		background-color: #ffffff;
+		border-radius: 2px;
 
 		box-shadow: 5px 5px 10px #999;
 	}
@@ -22,7 +24,10 @@
 		
 		cursor: pointer;
 		
-		background-color: #f0f0f0;
+		background-color: #ffffff;
+		border-radius: 2px;
+		
+		/* background-color: #f0f0f0; */
 	}
 	
 	.v-context-menu .v-context-menu-item-basic.v-context-menu-item-separator,
@@ -37,7 +42,8 @@
 	.v-context-menu .v-context-menu-item-basic:focus,
 	.v-context-menu .v-context-menu-item-basic-submenu:focus,
 	.v-context-menu .v-context-menu-item-basic-open {
-		background-color: #e0e0e0;
+		background-color: #4b8df8;
+		color: #fff;
 		outline: none;
 	}
 	
@@ -49,7 +55,8 @@
 	
 	.v-context-menu .v-context-menu-item-basic.v-context-menu-item-disabled:hover,
 	.v-context-menu .v-context-menu-item-basic-submenu.v-context-menu-item-disabled:hover {
-		background-color: #f0f0f0;
+		background-color: #4b8df8;
+	
 	}
 	
 	.v-context-menu .v-context-menu-item-basic-icon-container {
