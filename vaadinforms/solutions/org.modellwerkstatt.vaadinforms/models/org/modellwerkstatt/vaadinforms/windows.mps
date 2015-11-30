@@ -1355,6 +1355,28 @@
             <property role="3SKdUp" value=" - when 3 consecutive heartbeats are missed. #" />
           </node>
         </node>
+        <node concept="3clFbH" id="50$EOT97vsQ" role="3cqZAp" />
+        <node concept="3SKdUt" id="50$EOT97vl5" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT97vo7" role="3SKWNk">
+            <property role="3SKdUp" value="close sessions here, free locks etc. " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="50$EOT9akUJ" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT9akYI" role="3SKWNk">
+            <property role="3SKdUp" value="double check ressource release. " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="50$EOT9ajFv" role="3cqZAp">
+          <node concept="2OqwBi" id="50$EOT9ak73" role="3clFbG">
+            <node concept="37vLTw" id="50$EOT9ajFt" role="2Oq$k0">
+              <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
+            </node>
+            <node concept="liA8E" id="50$EOT9akyG" role="2OqNvi">
+              <ref role="37wK5l" to="quhv:3nLGOmWrOyj" resolve="shutdown" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="50$EOT97vp$" role="3cqZAp" />
         <node concept="3clFbF" id="vsIEjNqojL" role="3cqZAp">
           <node concept="2YIFZM" id="vsIEjNqoqY" role="3clFbG">
             <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
@@ -10396,22 +10418,70 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setNotification" />
       <node concept="37vLTG" id="HsWD0njXjA" role="3clF46">
-        <property role="TrG5h" value="notificat" />
+        <property role="TrG5h" value="notificatMsg" />
         <node concept="17QB3L" id="HsWD0njXjB" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="HsWD0njXjC" role="3clF45" />
       <node concept="3Tm1VV" id="HsWD0njXjD" role="1B3o_S" />
       <node concept="3clFbS" id="HsWD0njXjE" role="3clF47">
-        <node concept="3clFbF" id="uIdudhRVQm" role="3cqZAp">
-          <node concept="2YIFZM" id="uIdudhRVQH" role="3clFbG">
-            <ref role="37wK5l" to="o2tm:~Notification.show(java.lang.String,com.vaadin.ui.Notification$Type):void" resolve="show" />
-            <ref role="1Pybhc" to="o2tm:~Notification" resolve="Notification" />
-            <node concept="37vLTw" id="uIdudhRVZw" role="37wK5m">
-              <ref role="3cqZAo" node="HsWD0njXjA" resolve="notificat" />
+        <node concept="3cpWs8" id="50$EOT96B$w" role="3cqZAp">
+          <node concept="3cpWsn" id="50$EOT96B$x" role="3cpWs9">
+            <property role="TrG5h" value="notif" />
+            <node concept="3uibUv" id="50$EOT96B$y" role="1tU5fm">
+              <ref role="3uigEE" to="o2tm:~Notification" resolve="Notification" />
             </node>
-            <node concept="Rm8GO" id="uIdudhRWvj" role="37wK5m">
-              <ref role="Rm8GQ" to="o2tm:~Notification$Type.WARNING_MESSAGE" resolve="WARNING_MESSAGE" />
-              <ref role="1Px2BO" to="o2tm:~Notification$Type" resolve="Notification.Type" />
+            <node concept="2ShNRf" id="50$EOT96BKK" role="33vP2m">
+              <node concept="1pGfFk" id="50$EOT96BKC" role="2ShVmc">
+                <ref role="37wK5l" to="o2tm:~Notification.&lt;init&gt;(java.lang.String,java.lang.String,com.vaadin.ui.Notification$Type)" resolve="Notification" />
+                <node concept="Xl_RD" id="50$EOT96BPg" role="37wK5m">
+                  <property role="Xl_RC" value="Information" />
+                </node>
+                <node concept="37vLTw" id="50$EOT96BZG" role="37wK5m">
+                  <ref role="3cqZAo" node="HsWD0njXjA" resolve="notificatMsg" />
+                </node>
+                <node concept="10M0yZ" id="50$EOT96D3y" role="37wK5m">
+                  <ref role="1PxDUh" to="o2tm:~Notification" resolve="Notification" />
+                  <ref role="3cqZAo" to="o2tm:~Notification.TYPE_WARNING_MESSAGE" resolve="TYPE_WARNING_MESSAGE" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="50$EOT96Axv" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT96Axu" role="3SKWNk">
+            <property role="3SKdUp" value="Customize it" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="50$EOT96Axh" role="3cqZAp">
+          <node concept="2OqwBi" id="50$EOT96A$P" role="3clFbG">
+            <node concept="37vLTw" id="50$EOT96A$O" role="2Oq$k0">
+              <ref role="3cqZAo" node="50$EOT96B$x" resolve="notif" />
+            </node>
+            <node concept="liA8E" id="50$EOT96A$Q" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~Notification.setPosition(com.vaadin.shared.Position):void" resolve="setPosition" />
+              <node concept="Rm8GO" id="50$EOT96HsI" role="37wK5m">
+                <ref role="Rm8GQ" to="kemz:~Position.TOP_CENTER" resolve="TOP_CENTER" />
+                <ref role="1Px2BO" to="kemz:~Position" resolve="Position" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="50$EOT96Axx" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT96Axw" role="3SKWNk">
+            <property role="3SKdUp" value="Show it in the page" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="50$EOT96Axr" role="3cqZAp">
+          <node concept="2OqwBi" id="50$EOT96ADl" role="3clFbG">
+            <node concept="37vLTw" id="50$EOT96ADk" role="2Oq$k0">
+              <ref role="3cqZAo" node="50$EOT96B$x" resolve="notif" />
+            </node>
+            <node concept="liA8E" id="50$EOT96ADm" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~Notification.show(com.vaadin.server.Page):void" resolve="show" />
+              <node concept="2YIFZM" id="50$EOT96AEs" role="37wK5m">
+                <ref role="1Pybhc" to="7ym1:~Page" resolve="Page" />
+                <ref role="37wK5l" to="7ym1:~Page.getCurrent():com.vaadin.server.Page" resolve="getCurrent" />
+              </node>
             </node>
           </node>
         </node>
@@ -21634,6 +21704,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="2a_rc81dOW$" role="3cqZAp" />
+        <node concept="3clFbH" id="50$EOT9aWfl" role="3cqZAp" />
         <node concept="3clFbH" id="2a_rc81dPgb" role="3cqZAp" />
         <node concept="3SKdUt" id="2a_rc81dQ0x" role="3cqZAp">
           <node concept="3SKdUq" id="2a_rc81dQkb" role="3SKWNk">
@@ -21801,6 +21872,28 @@
       <node concept="3cqZAl" id="HsWD0njXhF" role="3clF45" />
       <node concept="3Tm1VV" id="HsWD0njXhG" role="1B3o_S" />
       <node concept="3clFbS" id="HsWD0njXhH" role="3clF47">
+        <node concept="3clFbH" id="50$EOT9aWEt" role="3cqZAp" />
+        <node concept="3SKdUt" id="50$EOT9aWOT" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT9aWQT" role="3SKWNk">
+            <property role="3SKdUp" value="TODO:" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="50$EOT9aX0G" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT9aX2I" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: What happens if a prompt window is open, but " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="50$EOT9aXcZ" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT9aXfm" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: session is killed, are locks from a GRAPH_SUBWINDOW also released? Right now, i guess " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="50$EOT9aXt6" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT9aXvc" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: not. " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="50$EOT9aXwF" role="3cqZAp" />
         <node concept="3clFbJ" id="HsWD0nl8XX" role="3cqZAp">
           <node concept="3clFbS" id="HsWD0nl8XZ" role="3clFbx">
             <node concept="3clFbF" id="HsWD0nl5Ud" role="3cqZAp">
