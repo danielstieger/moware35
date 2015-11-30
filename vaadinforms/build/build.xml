@@ -81,6 +81,9 @@
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-collections.jar" />
       <fileset dir="${mowarePluginDir}/jars/" includes="joda-time*.jar" />
       <fileset dir="${mowarePluginDir}/jars/zoo/" includes="zookeeper*.jar" />
+      <fileset dir="${mowarePluginDir}/jars/printing/" includes="*.jar" />
+      
+      
     
       <fileset dir="../jars/" includes="*.jar" />
       

@@ -41,6 +41,15 @@
     <import index="qd6v" ref="0460caee-4107-44cf-b689-af78c260c48e/f:java_stub#0460caee-4107-44cf-b689-af78c260c48e#com.vaadin.shared.ui(org.modellwerkstatt.vaadinforms/com.vaadin.shared.ui@java_stub)" />
     <import index="hkf6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#sun.security.provider(JDK/sun.security.provider@java_stub)" />
     <import index="ixkh" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.security(JDK/java.security@java_stub)" />
+    <import index="soh9" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.fop.apps(org.modellwerkstatt.sandbox/org.apache.fop.apps@java_stub)" />
+    <import index="vt2g" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time.format(org.modellwerkstatt.manmap.solution/org.joda.time.format@java_stub)" />
+    <import index="fmpa" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#org.xml.sax(JDK/org.xml.sax@java_stub)" />
+    <import index="9m8c" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.xml.transform.stream(JDK/javax.xml.transform.stream@java_stub)" />
+    <import index="bmea" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.xml.transform(JDK/javax.xml.transform@java_stub)" />
+    <import index="pwym" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.xml.transform.sax(JDK/javax.xml.transform.sax@java_stub)" />
+    <import index="sarm" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.xmlgraphics.util(org.modellwerkstatt.sandbox/org.apache.xmlgraphics.util@java_stub)" />
+    <import index="livf" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/org.apache.avalon.framework.configuration@java_stub)" />
+    <import index="e5on" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.nio.file(JDK/java.nio.file@java_stub)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -3604,7 +3613,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="41UdyNBDnlY" role="3cqZAp" />
+        <node concept="3clFbH" id="50$EOT8YbWP" role="3cqZAp" />
         <node concept="3SKdUt" id="41UdyNByFQv" role="3cqZAp">
           <node concept="3SKdUq" id="41UdyNByG35" role="3SKWNk">
             <property role="3SKdUp" value=" - content" />
@@ -7462,7 +7471,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="45e9mS9v9fV" role="3cqZAp" />
-        <node concept="3clFbH" id="1xatIIVoH8t" role="3cqZAp" />
         <node concept="3clFbF" id="45e9mS9v9g1" role="3cqZAp">
           <node concept="2OqwBi" id="45e9mS9v9g2" role="3clFbG">
             <node concept="37vLTw" id="45e9mS9v9g3" role="2Oq$k0">
@@ -23773,6 +23781,251 @@
             <property role="3SKdUp" value="Add both to a panel" />
           </node>
         </node>
+        <node concept="3clFbH" id="50$EOT8Yrnt" role="3cqZAp" />
+        <node concept="3cpWs8" id="50$EOT90Bew" role="3cqZAp">
+          <node concept="3cpWsn" id="50$EOT90Bex" role="3cpWs9">
+            <property role="TrG5h" value="printButton" />
+            <property role="3TUv4t" value="true" />
+            <node concept="3uibUv" id="50$EOT90Bey" role="1tU5fm">
+              <ref role="3uigEE" to="o2tm:~Button" resolve="Button" />
+            </node>
+            <node concept="2ShNRf" id="50$EOT90DmI" role="33vP2m">
+              <node concept="1pGfFk" id="50$EOT90Dic" role="2ShVmc">
+                <ref role="37wK5l" to="o2tm:~Button.&lt;init&gt;(java.lang.String)" resolve="Button" />
+                <node concept="Xl_RD" id="50$EOT90Dwo" role="37wK5m">
+                  <property role="Xl_RC" value="Open" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="50$EOT8YwgK" role="3cqZAp">
+          <node concept="3cpWsn" id="50$EOT8YwgL" role="3cpWs9">
+            <property role="TrG5h" value="createButton" />
+            <node concept="3uibUv" id="50$EOT8YwgM" role="1tU5fm">
+              <ref role="3uigEE" to="o2tm:~Button" resolve="Button" />
+            </node>
+            <node concept="2ShNRf" id="50$EOT8Yxrr" role="33vP2m">
+              <node concept="1pGfFk" id="50$EOT8Yxrj" role="2ShVmc">
+                <ref role="37wK5l" to="o2tm:~Button.&lt;init&gt;(java.lang.String,com.vaadin.ui.Button$ClickListener)" resolve="Button" />
+                <node concept="Xl_RD" id="50$EOT8Yxw3" role="37wK5m">
+                  <property role="Xl_RC" value="Create" />
+                </node>
+                <node concept="2ShNRf" id="50$EOT90HMQ" role="37wK5m">
+                  <node concept="YeOm9" id="50$EOT90Jcc" role="2ShVmc">
+                    <node concept="1Y3b0j" id="50$EOT90Jcf" role="YeSDq">
+                      <property role="2bfB8j" value="true" />
+                      <ref role="1Y3XeK" to="o2tm:~Button$ClickListener" resolve="Button.ClickListener" />
+                      <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
+                      <node concept="3Tm1VV" id="50$EOT90Jcg" role="1B3o_S" />
+                      <node concept="3clFb_" id="50$EOT90Jch" role="jymVt">
+                        <property role="1EzhhJ" value="false" />
+                        <property role="TrG5h" value="buttonClick" />
+                        <property role="DiZV1" value="false" />
+                        <property role="IEkAT" value="false" />
+                        <node concept="3Tm1VV" id="50$EOT90Jci" role="1B3o_S" />
+                        <node concept="3cqZAl" id="50$EOT90Jck" role="3clF45" />
+                        <node concept="37vLTG" id="50$EOT90Jcl" role="3clF46">
+                          <property role="TrG5h" value="p0" />
+                          <node concept="3uibUv" id="50$EOT90Jcm" role="1tU5fm">
+                            <ref role="3uigEE" to="o2tm:~Button$ClickEvent" resolve="Button.ClickEvent" />
+                          </node>
+                        </node>
+                        <node concept="3clFbS" id="50$EOT90Jcn" role="3clF47">
+                          <node concept="SfApY" id="50$EOT8KI3o" role="3cqZAp">
+                            <node concept="3clFbS" id="50$EOT8KI3q" role="SfCbr">
+                              <node concept="3SKdUt" id="50$EOT8KiBt" role="3cqZAp">
+                                <node concept="3SKdUq" id="50$EOT8KiNL" role="3SKWNk">
+                                  <property role="3SKdUp" value="TODO: remove that printing stuff here ........ " />
+                                </node>
+                              </node>
+                              <node concept="3cpWs8" id="50$EOT8KmGn" role="3cqZAp">
+                                <node concept="3cpWsn" id="50$EOT8KmGm" role="3cpWs9">
+                                  <property role="3TUv4t" value="false" />
+                                  <property role="TrG5h" value="source" />
+                                  <node concept="3uibUv" id="50$EOT8KBhQ" role="1tU5fm">
+                                    <ref role="3uigEE" to="7ym1:~StreamResource$StreamSource" resolve="StreamResource.StreamSource" />
+                                  </node>
+                                  <node concept="2ShNRf" id="50$EOT8Knu_" role="33vP2m">
+                                    <node concept="1pGfFk" id="50$EOT8PIa0" role="2ShVmc">
+                                      <ref role="37wK5l" node="50$EOT8Gwou" resolve="MoPdfStreamResource" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbH" id="50$EOT8OYpi" role="3cqZAp" />
+                              <node concept="3SKdUt" id="50$EOT8KmGV" role="3cqZAp">
+                                <node concept="3SKdUq" id="50$EOT8KmGU" role="3SKWNk">
+                                  <property role="3SKdUp" value="Create the stream resource and give it a file name" />
+                                </node>
+                              </node>
+                              <node concept="3cpWs8" id="50$EOT8KmGu" role="3cqZAp">
+                                <node concept="3cpWsn" id="50$EOT8KmGt" role="3cpWs9">
+                                  <property role="3TUv4t" value="false" />
+                                  <property role="TrG5h" value="filename" />
+                                  <node concept="3uibUv" id="50$EOT8KmGv" role="1tU5fm">
+                                    <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+                                  </node>
+                                  <node concept="Xl_RD" id="50$EOT8KmGw" role="33vP2m">
+                                    <property role="Xl_RC" value="thepdf_printing_example.pdf" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3cpWs8" id="50$EOT8KmGy" role="3cqZAp">
+                                <node concept="3cpWsn" id="50$EOT8KmGx" role="3cpWs9">
+                                  <property role="3TUv4t" value="false" />
+                                  <property role="TrG5h" value="resource" />
+                                  <node concept="3uibUv" id="50$EOT8KmGz" role="1tU5fm">
+                                    <ref role="3uigEE" to="7ym1:~StreamResource" resolve="StreamResource" />
+                                  </node>
+                                  <node concept="2ShNRf" id="50$EOT8KmIi" role="33vP2m">
+                                    <node concept="1pGfFk" id="50$EOT8KmIj" role="2ShVmc">
+                                      <ref role="37wK5l" to="7ym1:~StreamResource.&lt;init&gt;(com.vaadin.server.StreamResource$StreamSource,java.lang.String)" resolve="StreamResource" />
+                                      <node concept="37vLTw" id="50$EOT8KmG_" role="37wK5m">
+                                        <ref role="3cqZAo" node="50$EOT8KmGm" resolve="source" />
+                                      </node>
+                                      <node concept="37vLTw" id="50$EOT8KmGA" role="37wK5m">
+                                        <ref role="3cqZAo" node="50$EOT8KmGt" resolve="filename" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3SKdUt" id="50$EOT8KmGX" role="3cqZAp">
+                                <node concept="3SKdUq" id="50$EOT8KmGW" role="3SKWNk">
+                                  <property role="3SKdUp" value="These settings are not usually necessary. MIME type" />
+                                </node>
+                              </node>
+                              <node concept="3SKdUt" id="50$EOT8KmGZ" role="3cqZAp">
+                                <node concept="3SKdUq" id="50$EOT8KmGY" role="3SKWNk">
+                                  <property role="3SKdUp" value="is detected automatically from the file name, but" />
+                                </node>
+                              </node>
+                              <node concept="3SKdUt" id="50$EOT8KmH1" role="3cqZAp">
+                                <node concept="3SKdUq" id="50$EOT8KmH0" role="3SKWNk">
+                                  <property role="3SKdUp" value="setting it explicitly may be necessary if the file" />
+                                </node>
+                              </node>
+                              <node concept="3SKdUt" id="50$EOT8KmH3" role="3cqZAp">
+                                <node concept="3SKdUq" id="50$EOT8KmH2" role="3SKWNk">
+                                  <property role="3SKdUp" value="suffix is not &quot;.pdf&quot;." />
+                                </node>
+                              </node>
+                              <node concept="3clFbF" id="50$EOT8KmGB" role="3cqZAp">
+                                <node concept="2OqwBi" id="50$EOT8KmJv" role="3clFbG">
+                                  <node concept="37vLTw" id="50$EOT8KmJu" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="50$EOT8KmGx" resolve="resource" />
+                                  </node>
+                                  <node concept="liA8E" id="50$EOT8KmJw" role="2OqNvi">
+                                    <ref role="37wK5l" to="7ym1:~StreamResource.setMIMEType(java.lang.String):void" resolve="setMIMEType" />
+                                    <node concept="Xl_RD" id="50$EOT8KmGD" role="37wK5m">
+                                      <property role="Xl_RC" value="application/pdf" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbF" id="50$EOT8KmGE" role="3cqZAp">
+                                <node concept="2OqwBi" id="50$EOT8KmGF" role="3clFbG">
+                                  <node concept="2OqwBi" id="50$EOT8KmKG" role="2Oq$k0">
+                                    <node concept="37vLTw" id="50$EOT8KmKF" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="50$EOT8KmGx" resolve="resource" />
+                                    </node>
+                                    <node concept="liA8E" id="50$EOT8KmKH" role="2OqNvi">
+                                      <ref role="37wK5l" to="7ym1:~StreamResource.getStream():com.vaadin.server.DownloadStream" resolve="getStream" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="50$EOT8KmGH" role="2OqNvi">
+                                    <ref role="37wK5l" to="7ym1:~DownloadStream.setParameter(java.lang.String,java.lang.String):void" resolve="setParameter" />
+                                    <node concept="Xl_RD" id="50$EOT8KmGI" role="37wK5m">
+                                      <property role="Xl_RC" value="Content-Disposition" />
+                                    </node>
+                                    <node concept="3cpWs3" id="50$EOT8KmGJ" role="37wK5m">
+                                      <node concept="Xl_RD" id="50$EOT8KmGK" role="3uHU7B">
+                                        <property role="Xl_RC" value="attachment; filename=" />
+                                      </node>
+                                      <node concept="37vLTw" id="50$EOT8KmGL" role="3uHU7w">
+                                        <ref role="3cqZAo" node="50$EOT8KmGt" resolve="filename" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3SKdUt" id="50$EOT8KmH5" role="3cqZAp">
+                                <node concept="3SKdUq" id="50$EOT8KmH4" role="3SKWNk">
+                                  <property role="3SKdUp" value="Extend the print button with an opener" />
+                                </node>
+                              </node>
+                              <node concept="3SKdUt" id="50$EOT8KmH7" role="3cqZAp">
+                                <node concept="3SKdUq" id="50$EOT8KmH6" role="3SKWNk">
+                                  <property role="3SKdUp" value="for the PDF resource" />
+                                </node>
+                              </node>
+                              <node concept="3clFbH" id="50$EOT95pl6" role="3cqZAp" />
+                              <node concept="3cpWs8" id="50$EOT8KmGN" role="3cqZAp">
+                                <node concept="3cpWsn" id="50$EOT8KmGM" role="3cpWs9">
+                                  <property role="3TUv4t" value="false" />
+                                  <property role="TrG5h" value="opener" />
+                                  <node concept="3uibUv" id="50$EOT8KmGO" role="1tU5fm">
+                                    <ref role="3uigEE" to="7ym1:~BrowserWindowOpener" resolve="BrowserWindowOpener" />
+                                  </node>
+                                  <node concept="2ShNRf" id="50$EOT8KmKI" role="33vP2m">
+                                    <node concept="1pGfFk" id="50$EOT8KmKW" role="2ShVmc">
+                                      <ref role="37wK5l" to="7ym1:~BrowserWindowOpener.&lt;init&gt;(com.vaadin.server.Resource)" resolve="BrowserWindowOpener" />
+                                      <node concept="37vLTw" id="50$EOT8KmGQ" role="37wK5m">
+                                        <ref role="3cqZAo" node="50$EOT8KmGx" resolve="resource" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbF" id="50$EOT8KmGR" role="3cqZAp">
+                                <node concept="2OqwBi" id="50$EOT8KmM8" role="3clFbG">
+                                  <node concept="37vLTw" id="50$EOT8KmM7" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="50$EOT8KmGM" resolve="opener" />
+                                  </node>
+                                  <node concept="liA8E" id="50$EOT8KmM9" role="2OqNvi">
+                                    <ref role="37wK5l" to="7ym1:~BrowserWindowOpener.extend(com.vaadin.ui.AbstractComponent):void" resolve="extend" />
+                                    <node concept="37vLTw" id="50$EOT90PUi" role="37wK5m">
+                                      <ref role="3cqZAo" node="50$EOT90Bex" resolve="printButton" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbH" id="50$EOT8KI3p" role="3cqZAp" />
+                            </node>
+                            <node concept="TDmWw" id="50$EOT8KI3r" role="TEbGg">
+                              <node concept="3cpWsn" id="50$EOT8KI3t" role="TDEfY">
+                                <property role="TrG5h" value="ex" />
+                                <node concept="3uibUv" id="50$EOT8KJ3V" role="1tU5fm">
+                                  <ref role="3uigEE" to="e2lb:~Throwable" resolve="Throwable" />
+                                </node>
+                              </node>
+                              <node concept="3clFbS" id="50$EOT8KI3x" role="TDEfX">
+                                <node concept="3clFbF" id="50$EOT8KJcS" role="3cqZAp">
+                                  <node concept="2OqwBi" id="50$EOT8KJda" role="3clFbG">
+                                    <node concept="37vLTw" id="50$EOT8KJcR" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="50$EOT8KI3t" resolve="ex" />
+                                    </node>
+                                    <node concept="liA8E" id="50$EOT8KJkV" role="2OqNvi">
+                                      <ref role="37wK5l" to="e2lb:~Throwable.printStackTrace():void" resolve="printStackTrace" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbH" id="50$EOT8KJmx" role="3cqZAp" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="50$EOT8Yt6U" role="3cqZAp" />
+        <node concept="3clFbH" id="50$EOT8Yu8g" role="3cqZAp" />
         <node concept="3cpWs8" id="1EBV9L$FvUo" role="3cqZAp">
           <node concept="3cpWsn" id="1EBV9L$FvUn" role="3cpWs9">
             <property role="3TUv4t" value="false" />
@@ -23800,6 +24053,12 @@
                 </node>
                 <node concept="37vLTw" id="1EBV9L$FvUt" role="37wK5m">
                   <ref role="3cqZAo" node="1EBV9L$FvTv" resolve="loginButton" />
+                </node>
+                <node concept="37vLTw" id="50$EOT8Yy4n" role="37wK5m">
+                  <ref role="3cqZAo" node="50$EOT8YwgL" resolve="createButton" />
+                </node>
+                <node concept="37vLTw" id="50$EOT90QrH" role="37wK5m">
+                  <ref role="3cqZAo" node="50$EOT90Bex" resolve="printButton" />
                 </node>
               </node>
             </node>
@@ -24182,6 +24441,635 @@
     </node>
     <node concept="3uibUv" id="3NyMOIyWWBQ" role="EKbjA">
       <ref role="3uigEE" to="rsx0:~Action$Handler" resolve="Action.Handler" />
+    </node>
+  </node>
+  <node concept="312cEu" id="50$EOT8Ewvs">
+    <property role="TrG5h" value="MoPdfStreamResource" />
+    <node concept="Wx3nA" id="50$EOT8H2I7" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="fopFactory" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="50$EOT8G$IG" role="1tU5fm">
+        <ref role="3uigEE" to="soh9:~FopFactory" resolve="FopFactory" />
+      </node>
+      <node concept="3Tmbuc" id="50$EOT8Gwpz" role="1B3o_S" />
+    </node>
+    <node concept="Wx3nA" id="7fkJcal8z8P" role="jymVt">
+      <property role="TrG5h" value="transFactory" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="7fkJcal8yZZ" role="1B3o_S" />
+      <node concept="3uibUv" id="7fkJcal9q32" role="1tU5fm">
+        <ref role="3uigEE" to="bmea:~TransformerFactory" resolve="TransformerFactory" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="50$EOT8GwkG" role="jymVt" />
+    <node concept="3clFbW" id="50$EOT8Gwou" role="jymVt">
+      <node concept="3cqZAl" id="50$EOT8Gwow" role="3clF45" />
+      <node concept="3Tm1VV" id="50$EOT8Gwox" role="1B3o_S" />
+      <node concept="3clFbS" id="50$EOT8Gwoy" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="50$EOT8G$Rm" role="jymVt" />
+    <node concept="3clFb_" id="50$EOT8GYd_" role="jymVt">
+      <property role="TrG5h" value="initUtility" />
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="7fkJcal7fEi" role="3clF47">
+        <node concept="SfApY" id="6W0arkay0gp" role="3cqZAp">
+          <node concept="3clFbS" id="6W0arkay0gq" role="SfCbr">
+            <node concept="3clFbJ" id="71gz8lEdDZy" role="3cqZAp">
+              <node concept="3clFbC" id="71gz8lEdDZz" role="3clFbw">
+                <node concept="10Nm6u" id="71gz8lEdDZ$" role="3uHU7w" />
+                <node concept="37vLTw" id="50$EOT8GYZJ" role="3uHU7B">
+                  <ref role="3cqZAo" node="50$EOT8H2I7" resolve="fopFactory" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="71gz8lEdDZA" role="3clFbx">
+                <node concept="3clFbF" id="71gz8lEdDZB" role="3cqZAp">
+                  <node concept="37vLTI" id="71gz8lEdDZC" role="3clFbG">
+                    <node concept="2YIFZM" id="71gz8lEdDZD" role="37vLTx">
+                      <ref role="1Pybhc" to="soh9:~FopFactory" resolve="FopFactory" />
+                      <ref role="37wK5l" to="soh9:~FopFactory.newInstance():org.apache.fop.apps.FopFactory" resolve="newInstance" />
+                    </node>
+                    <node concept="37vLTw" id="50$EOT8GZqg" role="37vLTJ">
+                      <ref role="3cqZAo" node="50$EOT8H2I7" resolve="fopFactory" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="6W0arkaBzYx" role="3cqZAp" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="71gz8lEdDZF" role="3cqZAp">
+              <node concept="3clFbS" id="71gz8lEdDZG" role="3clFbx">
+                <node concept="3clFbF" id="71gz8lEdDZH" role="3cqZAp">
+                  <node concept="37vLTI" id="71gz8lEdDZI" role="3clFbG">
+                    <node concept="2YIFZM" id="71gz8lEdDZJ" role="37vLTx">
+                      <ref role="37wK5l" to="bmea:~TransformerFactory.newInstance():javax.xml.transform.TransformerFactory" resolve="newInstance" />
+                      <ref role="1Pybhc" to="bmea:~TransformerFactory" resolve="TransformerFactory" />
+                    </node>
+                    <node concept="37vLTw" id="50$EOT8H1kq" role="37vLTJ">
+                      <ref role="3cqZAo" node="7fkJcal8z8P" resolve="transFactory" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="71gz8lEdDZL" role="3clFbw">
+                <node concept="10Nm6u" id="71gz8lEdDZM" role="3uHU7w" />
+                <node concept="37vLTw" id="50$EOT8H1d$" role="3uHU7B">
+                  <ref role="3cqZAo" node="7fkJcal8z8P" resolve="transFactory" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6W0arkaz$uo" role="3cqZAp" />
+            <node concept="3clFbH" id="6W0arkaz$vD" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="6W0arkay0gr" role="TEbGg">
+            <node concept="3cpWsn" id="6W0arkay0gs" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="6W0arkayech" role="1tU5fm">
+                <ref role="3uigEE" to="e2lb:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="6W0arkay0gu" role="TDEfX">
+              <node concept="YS8fn" id="6W0arka$oHt" role="3cqZAp">
+                <node concept="2ShNRf" id="6W0arka$oHu" role="YScLw">
+                  <node concept="1pGfFk" id="6W0arka$oHv" role="2ShVmc">
+                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="Xl_RD" id="6W0arka$oHw" role="37wK5m">
+                      <property role="Xl_RC" value="Exception while initializing printing utility: " />
+                    </node>
+                    <node concept="37vLTw" id="6W0arka$oHx" role="37wK5m">
+                      <ref role="3cqZAo" node="6W0arkay0gs" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="15s5l7" id="6W0arka_ESx" role="lGtFl" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7fkJcal7fDl" role="3clF45" />
+      <node concept="3Tm6S6" id="7fkJcal7fzA" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="50$EOT8GW7g" role="jymVt" />
+    <node concept="3clFb_" id="50$EOT8EQmW" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getStream" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="50$EOT8EQmX" role="1B3o_S" />
+      <node concept="3uibUv" id="50$EOT8EQmZ" role="3clF45">
+        <ref role="3uigEE" to="fxg7:~InputStream" resolve="InputStream" />
+      </node>
+      <node concept="3clFbS" id="50$EOT8EQn0" role="3clF47">
+        <node concept="3clFbF" id="50$EOT8H4EW" role="3cqZAp">
+          <node concept="1rXfSq" id="50$EOT8H4EU" role="3clFbG">
+            <ref role="37wK5l" node="50$EOT8GYd_" resolve="initUtility" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="50$EOT8UWh0" role="3cqZAp" />
+        <node concept="SfApY" id="6W0arkaTW7$" role="3cqZAp">
+          <node concept="3clFbS" id="6W0arkaTW7_" role="SfCbr">
+            <node concept="3SKdUt" id="6W0arkaTW7A" role="3cqZAp">
+              <node concept="3SKdUq" id="6W0arkaTW7B" role="3SKWNk">
+                <property role="3SKdUp" value="Object xml information add on ... " />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="50$EOT8PUx9" role="3cqZAp">
+              <node concept="3cpWsn" id="50$EOT8PUx8" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="fo" />
+                <node concept="3uibUv" id="50$EOT8PUxa" role="1tU5fm">
+                  <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+                </node>
+                <node concept="3cpWs3" id="50$EOT8PUxb" role="33vP2m">
+                  <node concept="3cpWs3" id="50$EOT8PUxc" role="3uHU7B">
+                    <node concept="3cpWs3" id="50$EOT8PUxd" role="3uHU7B">
+                      <node concept="3cpWs3" id="50$EOT8PUxe" role="3uHU7B">
+                        <node concept="3cpWs3" id="50$EOT8PUxf" role="3uHU7B">
+                          <node concept="Xl_RD" id="50$EOT8PUxg" role="3uHU7B">
+                            <property role="Xl_RC" value="&lt;?xml version='1.0' encoding='ISO-8859-1'?&gt;\n&lt;fo:root xmlns:fo='http://www.w3.org/1999/XSL/Format'&gt;\n&lt;fo:layout-master-set&gt;  &lt;fo:simple-page-master master-name='A4' margin='2cm'&gt;    &lt;fo:region-body /&gt;  &lt;/fo:simple-page-master&gt;&lt;/fo:layout-master-set&gt;&lt;fo:page-sequence master-reference='A4'&gt;    &lt;fo:flow flow-name='xsl-region-body'&gt;    &lt;fo:block text-align='center'&gt;Hello There, " />
+                          </node>
+                          <node concept="Xl_RD" id="50$EOT8PVa4" role="3uHU7w">
+                            <property role="Xl_RC" value="Daniel " />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="50$EOT8PUxi" role="3uHU7w">
+                          <property role="Xl_RC" value="!&lt;/fo:block&gt;" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="50$EOT8PUxj" role="3uHU7w">
+                        <property role="Xl_RC" value="  &lt;/fo:flow&gt;" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="50$EOT8PUxk" role="3uHU7w">
+                      <property role="Xl_RC" value="&lt;/fo:page-sequence&gt;" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="50$EOT8PUxl" role="3uHU7w">
+                    <property role="Xl_RC" value="&lt;/fo:root&gt;\n" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="50$EOT8PUxn" role="3cqZAp">
+              <node concept="3cpWsn" id="50$EOT8PUxm" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="foStream" />
+                <node concept="3uibUv" id="50$EOT8PUxo" role="1tU5fm">
+                  <ref role="3uigEE" to="fxg7:~ByteArrayInputStream" resolve="ByteArrayInputStream" />
+                </node>
+                <node concept="2ShNRf" id="50$EOT8PUxr" role="33vP2m">
+                  <node concept="1pGfFk" id="50$EOT8PUxs" role="2ShVmc">
+                    <ref role="37wK5l" to="fxg7:~ByteArrayInputStream.&lt;init&gt;(byte[])" resolve="ByteArrayInputStream" />
+                    <node concept="2OqwBi" id="50$EOT8PUxw" role="37wK5m">
+                      <node concept="37vLTw" id="50$EOT8PUxv" role="2Oq$k0">
+                        <ref role="3cqZAo" node="50$EOT8PUx8" resolve="fo" />
+                      </node>
+                      <node concept="liA8E" id="50$EOT8PUxx" role="2OqNvi">
+                        <ref role="37wK5l" to="e2lb:~String.getBytes():byte[]" resolve="getBytes" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6W0arkaTW7L" role="3cqZAp" />
+            <node concept="3clFbH" id="50$EOT92bL8" role="3cqZAp" />
+            <node concept="3clFbH" id="50$EOT92bQS" role="3cqZAp" />
+            <node concept="3cpWs8" id="50$EOT92cjA" role="3cqZAp">
+              <node concept="3cpWsn" id="50$EOT92cj_" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="userAgent" />
+                <node concept="3uibUv" id="50$EOT92cjB" role="1tU5fm">
+                  <ref role="3uigEE" to="soh9:~FOUserAgent" resolve="FOUserAgent" />
+                </node>
+                <node concept="2OqwBi" id="50$EOT92ck5" role="33vP2m">
+                  <node concept="37vLTw" id="50$EOT92ck4" role="2Oq$k0">
+                    <ref role="3cqZAo" node="50$EOT8H2I7" resolve="fopFactory" />
+                  </node>
+                  <node concept="liA8E" id="50$EOT92ck6" role="2OqNvi">
+                    <ref role="37wK5l" to="soh9:~FopFactory.newFOUserAgent():org.apache.fop.apps.FOUserAgent" resolve="newFOUserAgent" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="50$EOT92cjD" role="3cqZAp">
+              <node concept="2OqwBi" id="50$EOT92cka" role="3clFbG">
+                <node concept="37vLTw" id="50$EOT92ck9" role="2Oq$k0">
+                  <ref role="3cqZAo" node="50$EOT92cj_" resolve="userAgent" />
+                </node>
+                <node concept="liA8E" id="50$EOT92ckb" role="2OqNvi">
+                  <ref role="37wK5l" to="soh9:~FOUserAgent.setProducer(java.lang.String):void" resolve="setProducer" />
+                  <node concept="Xl_RD" id="50$EOT92cjF" role="37wK5m">
+                    <property role="Xl_RC" value="My Vaadin Application" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="50$EOT92cjG" role="3cqZAp">
+              <node concept="2OqwBi" id="50$EOT92ckf" role="3clFbG">
+                <node concept="37vLTw" id="50$EOT92cke" role="2Oq$k0">
+                  <ref role="3cqZAo" node="50$EOT92cj_" resolve="userAgent" />
+                </node>
+                <node concept="liA8E" id="50$EOT92ckg" role="2OqNvi">
+                  <ref role="37wK5l" to="soh9:~FOUserAgent.setCreator(java.lang.String):void" resolve="setCreator" />
+                  <node concept="Xl_RD" id="50$EOT92cjI" role="37wK5m">
+                    <property role="Xl_RC" value="Me, Myself and I" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="50$EOT92cjJ" role="3cqZAp">
+              <node concept="2OqwBi" id="50$EOT92ckk" role="3clFbG">
+                <node concept="37vLTw" id="50$EOT92ckj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="50$EOT92cj_" resolve="userAgent" />
+                </node>
+                <node concept="liA8E" id="50$EOT92ckl" role="2OqNvi">
+                  <ref role="37wK5l" to="soh9:~FOUserAgent.setAuthor(java.lang.String):void" resolve="setAuthor" />
+                  <node concept="Xl_RD" id="50$EOT92cjL" role="37wK5m">
+                    <property role="Xl_RC" value="Da Author" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="50$EOT92cjM" role="3cqZAp">
+              <node concept="2OqwBi" id="50$EOT92ckp" role="3clFbG">
+                <node concept="37vLTw" id="50$EOT92cko" role="2Oq$k0">
+                  <ref role="3cqZAo" node="50$EOT92cj_" resolve="userAgent" />
+                </node>
+                <node concept="liA8E" id="50$EOT92ckq" role="2OqNvi">
+                  <ref role="37wK5l" to="soh9:~FOUserAgent.setCreationDate(java.util.Date):void" resolve="setCreationDate" />
+                  <node concept="2ShNRf" id="50$EOT92XtA" role="37wK5m">
+                    <node concept="1pGfFk" id="50$EOT92Y8Z" role="2ShVmc">
+                      <ref role="37wK5l" to="k7g3:~Date.&lt;init&gt;()" resolve="Date" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="50$EOT92cjP" role="3cqZAp">
+              <node concept="2OqwBi" id="50$EOT92cku" role="3clFbG">
+                <node concept="37vLTw" id="50$EOT92ckt" role="2Oq$k0">
+                  <ref role="3cqZAo" node="50$EOT92cj_" resolve="userAgent" />
+                </node>
+                <node concept="liA8E" id="50$EOT92ckv" role="2OqNvi">
+                  <ref role="37wK5l" to="soh9:~FOUserAgent.setTitle(java.lang.String):void" resolve="setTitle" />
+                  <node concept="3cpWs3" id="50$EOT92cjR" role="37wK5m">
+                    <node concept="Xl_RD" id="50$EOT92cjS" role="3uHU7B">
+                      <property role="Xl_RC" value="Hello to " />
+                    </node>
+                    <node concept="Xl_RD" id="50$EOT92cPm" role="3uHU7w">
+                      <property role="Xl_RC" value="DAN" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="50$EOT92cjU" role="3cqZAp">
+              <node concept="2OqwBi" id="50$EOT92ckz" role="3clFbG">
+                <node concept="37vLTw" id="50$EOT92cky" role="2Oq$k0">
+                  <ref role="3cqZAo" node="50$EOT92cj_" resolve="userAgent" />
+                </node>
+                <node concept="liA8E" id="50$EOT92ck$" role="2OqNvi">
+                  <ref role="37wK5l" to="soh9:~FOUserAgent.setKeywords(java.lang.String):void" resolve="setKeywords" />
+                  <node concept="Xl_RD" id="50$EOT92cjW" role="37wK5m">
+                    <property role="Xl_RC" value="PDF Vaadin example" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="50$EOT92cjX" role="3cqZAp">
+              <node concept="2OqwBi" id="50$EOT92ckC" role="3clFbG">
+                <node concept="37vLTw" id="50$EOT92ckB" role="2Oq$k0">
+                  <ref role="3cqZAo" node="50$EOT92cj_" resolve="userAgent" />
+                </node>
+                <node concept="liA8E" id="50$EOT92ckD" role="2OqNvi">
+                  <ref role="37wK5l" to="soh9:~FOUserAgent.setTargetResolution(int):void" resolve="setTargetResolution" />
+                  <node concept="3cmrfG" id="50$EOT92cjZ" role="37wK5m">
+                    <property role="3cmrfH" value="300" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="50$EOT92ck1" role="3cqZAp">
+              <node concept="3SKdUq" id="50$EOT92ck0" role="3SKWNk">
+                <property role="3SKdUp" value="DPI" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="50$EOT92bWK" role="3cqZAp" />
+            <node concept="3clFbH" id="50$EOT92c2y" role="3cqZAp" />
+            <node concept="3SKdUt" id="6W0arkaTW9c" role="3cqZAp">
+              <node concept="3SKdUq" id="6W0arkaTW9d" role="3SKWNk">
+                <property role="3SKdUp" value="okay. render it now " />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7fkJcaliEYq" role="3cqZAp">
+              <node concept="3cpWsn" id="7fkJcaliEYr" role="3cpWs9">
+                <property role="TrG5h" value="xsltStreamSource" />
+                <node concept="3uibUv" id="7fkJcaliEYs" role="1tU5fm">
+                  <ref role="3uigEE" to="bmea:~Source" resolve="Source" />
+                </node>
+                <node concept="2ShNRf" id="7fkJcaliEYt" role="33vP2m">
+                  <node concept="1pGfFk" id="7fkJcaliEYu" role="2ShVmc">
+                    <ref role="37wK5l" to="9m8c:~StreamSource.&lt;init&gt;(java.io.InputStream)" resolve="StreamSource" />
+                    <node concept="37vLTw" id="50$EOT8Q1ke" role="37wK5m">
+                      <ref role="3cqZAo" node="50$EOT8PUxm" resolve="foStream" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7fkJcaliEYw" role="3cqZAp" />
+            <node concept="3cpWs8" id="50$EOT8HhyT" role="3cqZAp">
+              <node concept="3cpWsn" id="50$EOT8HhyS" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="fopOut" />
+                <node concept="3uibUv" id="50$EOT8HhyU" role="1tU5fm">
+                  <ref role="3uigEE" to="fxg7:~ByteArrayOutputStream" resolve="ByteArrayOutputStream" />
+                </node>
+                <node concept="2ShNRf" id="50$EOT8HhyW" role="33vP2m">
+                  <node concept="1pGfFk" id="50$EOT8HhyX" role="2ShVmc">
+                    <ref role="37wK5l" to="fxg7:~ByteArrayOutputStream.&lt;init&gt;()" resolve="ByteArrayOutputStream" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="50$EOT8Hhgo" role="3cqZAp" />
+            <node concept="3cpWs8" id="7fkJcaliEYH" role="3cqZAp">
+              <node concept="3cpWsn" id="7fkJcaliEYI" role="3cpWs9">
+                <property role="TrG5h" value="fop" />
+                <node concept="3uibUv" id="7fkJcaliEYJ" role="1tU5fm">
+                  <ref role="3uigEE" to="soh9:~Fop" resolve="Fop" />
+                </node>
+                <node concept="2OqwBi" id="7fkJcaliEYK" role="33vP2m">
+                  <node concept="37vLTw" id="50$EOT8HuQq" role="2Oq$k0">
+                    <ref role="3cqZAo" node="50$EOT8H2I7" resolve="fopFactory" />
+                  </node>
+                  <node concept="liA8E" id="7fkJcaliEYO" role="2OqNvi">
+                    <ref role="37wK5l" to="soh9:~FopFactory.newFop(java.lang.String,org.apache.fop.apps.FOUserAgent,java.io.OutputStream):org.apache.fop.apps.Fop" resolve="newFop" />
+                    <node concept="10M0yZ" id="7fkJcaliEYP" role="37wK5m">
+                      <ref role="1PxDUh" to="sarm:~MimeConstants" resolve="MimeConstants" />
+                      <ref role="3cqZAo" to="sarm:~MimeConstants.MIME_PDF" resolve="MIME_PDF" />
+                    </node>
+                    <node concept="37vLTw" id="50$EOT92dsd" role="37wK5m">
+                      <ref role="3cqZAo" node="50$EOT92cj_" resolve="userAgent" />
+                    </node>
+                    <node concept="37vLTw" id="50$EOT8HhQB" role="37wK5m">
+                      <ref role="3cqZAo" node="50$EOT8HhyS" resolve="fopOut" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="7fkJcaliEYY" role="3cqZAp">
+              <node concept="3SKdUq" id="7fkJcaliEYZ" role="3SKWNk">
+                <property role="3SKdUp" value="new StreamSource(xsltFile)" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7fkJcaliEZ0" role="3cqZAp">
+              <node concept="3cpWsn" id="7fkJcaliEZ1" role="3cpWs9">
+                <property role="TrG5h" value="transformer" />
+                <node concept="3uibUv" id="7fkJcaliEZ2" role="1tU5fm">
+                  <ref role="3uigEE" to="bmea:~Transformer" resolve="Transformer" />
+                </node>
+                <node concept="2OqwBi" id="7fkJcaliEZ3" role="33vP2m">
+                  <node concept="37vLTw" id="50$EOT8HuQy" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7fkJcal8z8P" resolve="transFactory" />
+                  </node>
+                  <node concept="liA8E" id="7fkJcaliEZ5" role="2OqNvi">
+                    <ref role="37wK5l" to="bmea:~TransformerFactory.newTransformer():javax.xml.transform.Transformer" resolve="newTransformer" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7fkJcaliEZk" role="3cqZAp">
+              <node concept="3cpWsn" id="7fkJcaliEZl" role="3cpWs9">
+                <property role="TrG5h" value="result" />
+                <node concept="3uibUv" id="7fkJcaliEZm" role="1tU5fm">
+                  <ref role="3uigEE" to="bmea:~Result" resolve="Result" />
+                </node>
+                <node concept="2ShNRf" id="7fkJcaliEZn" role="33vP2m">
+                  <node concept="1pGfFk" id="7fkJcaliEZo" role="2ShVmc">
+                    <ref role="37wK5l" to="pwym:~SAXResult.&lt;init&gt;(org.xml.sax.ContentHandler)" resolve="SAXResult" />
+                    <node concept="2OqwBi" id="7fkJcaliEZr" role="37wK5m">
+                      <node concept="37vLTw" id="7fkJcaliEZs" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7fkJcaliEYI" resolve="fop" />
+                      </node>
+                      <node concept="liA8E" id="7fkJcaliEZt" role="2OqNvi">
+                        <ref role="37wK5l" to="soh9:~Fop.getDefaultHandler():org.xml.sax.helpers.DefaultHandler" resolve="getDefaultHandler" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7fkJcaliEZu" role="3cqZAp">
+              <node concept="2OqwBi" id="7fkJcaliEZv" role="3clFbG">
+                <node concept="37vLTw" id="7fkJcaliEZw" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7fkJcaliEZ1" resolve="transformer" />
+                </node>
+                <node concept="liA8E" id="7fkJcaliEZx" role="2OqNvi">
+                  <ref role="37wK5l" to="bmea:~Transformer.transform(javax.xml.transform.Source,javax.xml.transform.Result):void" resolve="transform" />
+                  <node concept="37vLTw" id="50$EOT8Tajj" role="37wK5m">
+                    <ref role="3cqZAo" node="7fkJcaliEYr" resolve="xsltStreamSource" />
+                  </node>
+                  <node concept="37vLTw" id="7fkJcaliEZz" role="37wK5m">
+                    <ref role="3cqZAo" node="7fkJcaliEZl" resolve="result" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7fkJcalrgyn" role="3cqZAp" />
+            <node concept="3SKdUt" id="7fkJcalrrBP" role="3cqZAp">
+              <node concept="3SKdUq" id="7fkJcalrsE3" role="3SKWNk">
+                <property role="3SKdUp" value="do not forget to close outstream .." />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="50$EOT8HnAE" role="3cqZAp">
+              <node concept="3SKdUq" id="50$EOT8HnKK" role="3SKWNk">
+                <property role="3SKdUp" value="TODO: what else to close? " />
+              </node>
+            </node>
+            <node concept="3clFbF" id="50$EOT8HmKb" role="3cqZAp">
+              <node concept="2OqwBi" id="50$EOT8HmVM" role="3clFbG">
+                <node concept="37vLTw" id="50$EOT8HmK9" role="2Oq$k0">
+                  <ref role="3cqZAo" node="50$EOT8HhyS" resolve="fopOut" />
+                </node>
+                <node concept="liA8E" id="50$EOT8Hn0k" role="2OqNvi">
+                  <ref role="37wK5l" to="fxg7:~ByteArrayOutputStream.close():void" resolve="close" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="50$EOT8Gcj3" role="3cqZAp">
+              <node concept="2ShNRf" id="50$EOT8GeMi" role="3cqZAk">
+                <node concept="1pGfFk" id="50$EOT8GtPa" role="2ShVmc">
+                  <ref role="37wK5l" to="fxg7:~ByteArrayInputStream.&lt;init&gt;(byte[])" resolve="ByteArrayInputStream" />
+                  <node concept="2OqwBi" id="50$EOT8Hqxx" role="37wK5m">
+                    <node concept="37vLTw" id="50$EOT8HqlW" role="2Oq$k0">
+                      <ref role="3cqZAo" node="50$EOT8HhyS" resolve="fopOut" />
+                    </node>
+                    <node concept="liA8E" id="50$EOT8Hra2" role="2OqNvi">
+                      <ref role="37wK5l" to="fxg7:~ByteArrayOutputStream.toByteArray():byte[]" resolve="toByteArray" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="50$EOT8HuE3" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="6W0arkaTW9w" role="TEbGg">
+            <node concept="3cpWsn" id="6W0arkaTW9x" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="6W0arkaTW9y" role="1tU5fm">
+                <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="6W0arkaTW9z" role="TDEfX">
+              <node concept="YS8fn" id="6W0arkaTW9$" role="3cqZAp">
+                <node concept="2ShNRf" id="6W0arkaTW9_" role="YScLw">
+                  <node concept="1pGfFk" id="6W0arkaTW9A" role="2ShVmc">
+                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="Xl_RD" id="6W0arkaTW9B" role="37wK5m">
+                      <property role="Xl_RC" value="IOException: " />
+                    </node>
+                    <node concept="37vLTw" id="6W0arkaTW9C" role="37wK5m">
+                      <ref role="3cqZAo" node="6W0arkaTW9x" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="50$EOT8Hzxz" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="TDmWw" id="7fkJcalmjPJ" role="TEbGg">
+            <node concept="3cpWsn" id="7fkJcalmjPK" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="7fkJcalmjPL" role="1tU5fm">
+                <ref role="3uigEE" to="bmea:~TransformerConfigurationException" resolve="TransformerConfigurationException" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="7fkJcalmjPM" role="TDEfX">
+              <node concept="YS8fn" id="7fkJcalmjPN" role="3cqZAp">
+                <node concept="2ShNRf" id="7fkJcalmjPO" role="YScLw">
+                  <node concept="1pGfFk" id="7fkJcalmjPP" role="2ShVmc">
+                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="Xl_RD" id="7fkJcalmjPQ" role="37wK5m">
+                      <property role="Xl_RC" value="TransformerConfigurationException: " />
+                    </node>
+                    <node concept="37vLTw" id="7fkJcalmjPR" role="37wK5m">
+                      <ref role="3cqZAo" node="7fkJcalmjPK" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="50$EOT8HzP0" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="TDmWw" id="7fkJcalmjQ1" role="TEbGg">
+            <node concept="3cpWsn" id="7fkJcalmjQ2" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="7fkJcalmjQ3" role="1tU5fm">
+                <ref role="3uigEE" to="bmea:~TransformerException" resolve="TransformerException" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="7fkJcalmjQ4" role="TDEfX">
+              <node concept="YS8fn" id="7fkJcalmjQ5" role="3cqZAp">
+                <node concept="2ShNRf" id="7fkJcalmjQ6" role="YScLw">
+                  <node concept="1pGfFk" id="7fkJcalmjQ7" role="2ShVmc">
+                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="Xl_RD" id="7fkJcalmjQ8" role="37wK5m">
+                      <property role="Xl_RC" value="TransformerException: " />
+                    </node>
+                    <node concept="37vLTw" id="7fkJcalmjQ9" role="37wK5m">
+                      <ref role="3cqZAo" node="7fkJcalmjQ2" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="50$EOT8H$KL" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="TDmWw" id="50$EOT8HGW0" role="TEbGg">
+            <node concept="3clFbS" id="50$EOT8HGW1" role="TDEfX">
+              <node concept="YS8fn" id="50$EOT8HHx2" role="3cqZAp">
+                <node concept="2ShNRf" id="50$EOT8HHxw" role="YScLw">
+                  <node concept="1pGfFk" id="50$EOT8HIrY" role="2ShVmc">
+                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="Xl_RD" id="50$EOT8HIsD" role="37wK5m">
+                      <property role="Xl_RC" value="FOPException :" />
+                    </node>
+                    <node concept="37vLTw" id="50$EOT8HIx$" role="37wK5m">
+                      <ref role="3cqZAo" node="50$EOT8HGW2" resolve="e" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="50$EOT8HGW2" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="50$EOT8HGW3" role="1tU5fm">
+                <ref role="3uigEE" to="soh9:~FOPException" resolve="FOPException" />
+              </node>
+            </node>
+          </node>
+          <node concept="15s5l7" id="50$EOT8HIT$" role="lGtFl" />
+        </node>
+        <node concept="3clFbH" id="50$EOT8Gc5V" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="50$EOT8EQos" role="jymVt" />
+    <node concept="2tJIrI" id="50$EOT8EQoE" role="jymVt" />
+    <node concept="3Tm1VV" id="50$EOT8Ewvt" role="1B3o_S" />
+    <node concept="3uibUv" id="50$EOT8EQmr" role="EKbjA">
+      <ref role="3uigEE" to="7ym1:~StreamResource$StreamSource" resolve="StreamResource.StreamSource" />
+    </node>
+  </node>
+  <node concept="312cEu" id="50$EOT8OfnF">
+    <property role="TrG5h" value="MoTxtFile" />
+    <node concept="2tJIrI" id="50$EOT8Og1p" role="jymVt" />
+    <node concept="3clFb_" id="50$EOT8Og1$" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getStream" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="50$EOT8Og1_" role="1B3o_S" />
+      <node concept="3uibUv" id="50$EOT8Og1B" role="3clF45">
+        <ref role="3uigEE" to="fxg7:~InputStream" resolve="InputStream" />
+      </node>
+      <node concept="3clFbS" id="50$EOT8Og1C" role="3clF47">
+        <node concept="3cpWs8" id="50$EOT8Og4Q" role="3cqZAp">
+          <node concept="3cpWsn" id="50$EOT8Og4T" role="3cpWs9">
+            <property role="TrG5h" value="txt" />
+            <node concept="17QB3L" id="50$EOT8Og4O" role="1tU5fm" />
+            <node concept="Xl_RD" id="50$EOT8Og6k" role="33vP2m">
+              <property role="Xl_RC" value="Hello World!" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="50$EOT8Ogzo" role="3cqZAp">
+          <node concept="2ShNRf" id="50$EOT8Ogzp" role="3cqZAk">
+            <node concept="1pGfFk" id="50$EOT8Ogzq" role="2ShVmc">
+              <ref role="37wK5l" to="fxg7:~ByteArrayInputStream.&lt;init&gt;(byte[])" resolve="ByteArrayInputStream" />
+              <node concept="2OqwBi" id="50$EOT8OgG5" role="37wK5m">
+                <node concept="37vLTw" id="50$EOT8OgAD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="50$EOT8Og4T" resolve="txt" />
+                </node>
+                <node concept="liA8E" id="50$EOT8Okbr" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~String.getBytes():byte[]" resolve="getBytes" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="50$EOT8Ogz0" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="50$EOT8Og1r" role="jymVt" />
+    <node concept="3Tm1VV" id="50$EOT8OfnG" role="1B3o_S" />
+    <node concept="3uibUv" id="50$EOT8Og1a" role="EKbjA">
+      <ref role="3uigEE" to="7ym1:~StreamResource$StreamSource" resolve="StreamResource.StreamSource" />
     </node>
   </node>
 </model>
