@@ -267,6 +267,9 @@
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
       <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
+      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
+        <property id="8355037393041754995" name="isNative" index="2aFKle" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -3199,6 +3202,36 @@
       <node concept="3clFbS" id="3$bhckF1T5Y" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="3$bhckF1Vms" role="jymVt" />
+    <node concept="3clFb_" id="4d3Pnf44_kV" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getUserServices" />
+      <node concept="3clFbS" id="4d3Pnf44_kY" role="3clF47" />
+      <node concept="3Tm1VV" id="4d3Pnf44_kZ" role="1B3o_S" />
+      <node concept="3uibUv" id="4d3Pnf44_hb" role="3clF45">
+        <ref role="3uigEE" node="67D5vCCQkbw" resolve="IOFXUserServices" />
+      </node>
+      <node concept="P$JXv" id="4d3Pnf44_qE" role="lGtFl">
+        <node concept="TZ5HA" id="4d3Pnf44_qF" role="TZ5H$">
+          <node concept="1dT_AC" id="4d3Pnf44_qG" role="1dT_Ay">
+            <property role="1dT_AB" value="logging, user specific printing " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="4d3Pnf44_wG" role="TZ5H$">
+          <node concept="1dT_AC" id="4d3Pnf44_wH" role="1dT_Ay">
+            <property role="1dT_AB" value="might relay to userenvironment, if ui implements IOFXUserServices?" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="4d3Pnf44__7" role="TZ5H$">
+          <node concept="1dT_AC" id="4d3Pnf44__8" role="1dT_Ay">
+            <property role="1dT_AB" value="so then? return IM3UserEnvironment here? yes... why not? " />
+          </node>
+        </node>
+        <node concept="x79VA" id="4d3Pnf44_qH" role="x79VK">
+          <property role="x79VB" value="logging, user specific printing " />
+        </node>
+      </node>
+    </node>
     <node concept="3UR2Jj" id="3$bhckF1LZJ" role="lGtFl">
       <node concept="TZ5HA" id="3$bhckF1LZK" role="TZ5H$">
         <node concept="1dT_AC" id="3$bhckF1LZL" role="1dT_Ay">
@@ -28663,11 +28696,40 @@
     <node concept="3clFb_" id="3J6KGB_wcms" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createNewSession" />
+      <node concept="37vLTG" id="4d3Pnf451i3" role="3clF46">
+        <property role="TrG5h" value="userEnvironment" />
+        <node concept="3uibUv" id="4d3Pnf451m5" role="1tU5fm">
+          <ref role="3uigEE" node="67D5vCCQkbw" resolve="IOFXUserServices" />
+        </node>
+      </node>
       <node concept="3uibUv" id="3J6KGB_wcoi" role="3clF45">
         <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
       </node>
       <node concept="3Tm1VV" id="3J6KGB_wcmv" role="1B3o_S" />
       <node concept="3clFbS" id="3J6KGB_wcmw" role="3clF47" />
+      <node concept="P$JXv" id="4d3Pnf451qm" role="lGtFl">
+        <node concept="TZ5HA" id="4d3Pnf451qn" role="TZ5H$">
+          <node concept="1dT_AC" id="4d3Pnf451qo" role="1dT_Ay">
+            <property role="1dT_AB" value="OFX Architecture change. UserEnvironmentInfo also provides UserServices. " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="4d3Pnf451tQ" role="TZ5H$">
+          <node concept="1dT_AC" id="4d3Pnf451tR" role="1dT_Ay">
+            <property role="1dT_AB" value="Therefore IOFXUserEnvironment extends IM3 Manmap userenv. And that is needed for " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="4d3Pnf451vu" role="TZ5H$">
+          <node concept="1dT_AC" id="4d3Pnf451vv" role="1dT_Ay">
+            <property role="1dT_AB" value="session creation here! " />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="4d3Pnf451qp" role="TUOzN">
+          <node concept="zr_55" id="4d3Pnf451qr" role="zr_5Q">
+            <ref role="zr_51" node="4d3Pnf451i3" resolve="userEnvironment" />
+          </node>
+        </node>
+        <node concept="x79VA" id="4d3Pnf451qs" role="x79VK" />
+      </node>
     </node>
     <node concept="2tJIrI" id="7nDJo_bv2p7" role="jymVt" />
     <node concept="3clFb_" id="xRnvdd0IS$" role="jymVt">

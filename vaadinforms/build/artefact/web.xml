@@ -62,9 +62,6 @@
         <param-name>applicationFqName</param-name>
     	<param-value>APPLICATION_FQNAME</param-value>
     </init-param>
-
-	
-
   </servlet>
 
   <servlet-mapping>
