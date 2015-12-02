@@ -2086,17 +2086,17 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3BCllXoLROX" role="3cqZAp">
-          <node concept="37vLTI" id="3BCllXoLSux" role="3clFbG">
-            <node concept="37vLTw" id="3BCllXoLSRr" role="37vLTx">
+        <node concept="3clFbF" id="6UG$gXA995J" role="3cqZAp">
+          <node concept="37vLTI" id="6UG$gXA99Lw" role="3clFbG">
+            <node concept="37vLTw" id="6UG$gXA9aqf" role="37vLTx">
               <ref role="3cqZAo" node="7aUgYCzs8js" resolve="userEnv" />
             </node>
-            <node concept="37vLTw" id="31dwTLEAeAC" role="37vLTJ">
+            <node concept="37vLTw" id="6UG$gXA995H" role="37vLTJ">
               <ref role="3cqZAo" node="1EBV9L$__Gy" resolve="userEnvironment" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="75iQIE8YCSy" role="3cqZAp" />
+        <node concept="3clFbH" id="6UG$gXA9as_" role="3cqZAp" />
         <node concept="3SKdUt" id="75iQIE8YEKw" role="3cqZAp">
           <node concept="3SKdUq" id="75iQIE8YFCW" role="3SKWNk">
             <property role="3SKdUp" value="check app startup method first .. " />
@@ -2849,6 +2849,23 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="6UG$gXA9duV" role="3cqZAp">
+          <node concept="3SKdUq" id="6UG$gXA9e7B" role="3SKWNk">
+            <property role="3SKdUp" value="okay, finaly now userenv is ready" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6UG$gXA9ieo" role="3cqZAp">
+          <node concept="2OqwBi" id="6UG$gXA9j2C" role="3clFbG">
+            <node concept="37vLTw" id="6UG$gXA9iem" role="2Oq$k0">
+              <ref role="3cqZAo" node="1EBV9L$__Gy" resolve="userEnvironment" />
+            </node>
+            <node concept="liA8E" id="6UG$gXA9jH8" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:6UG$gXA72YJ" resolve="setUserJmxService" />
+              <node concept="Xjq3P" id="6UG$gXA9jL_" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6UG$gXA9k_D" role="3cqZAp" />
         <node concept="3clFbF" id="1EBV9L$ARwT" role="3cqZAp">
           <node concept="2OqwBi" id="1EBV9L$ASi9" role="3clFbG">
             <node concept="37vLTw" id="1EBV9L$ARwR" role="2Oq$k0">
@@ -2861,6 +2878,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="1EBV9L$EcP_" role="3cqZAp" />
+        <node concept="3clFbH" id="6UG$gXA90Bz" role="3cqZAp" />
         <node concept="3clFbF" id="1EBV9L$Ee8M" role="3cqZAp">
           <node concept="2OqwBi" id="1EBV9L$Ee8N" role="3clFbG">
             <node concept="37vLTw" id="1EBV9L$Ee8O" role="2Oq$k0">
@@ -4967,6 +4985,16 @@
                 <node concept="liA8E" id="1EBV9L$B3VM" role="2OqNvi">
                   <ref role="37wK5l" node="1EBV9L$_AM3" resolve="unregisterUser" />
                   <node concept="Xjq3P" id="31dwTLEAbcp" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6UG$gXA9lum" role="3cqZAp">
+              <node concept="2OqwBi" id="6UG$gXA9lza" role="3clFbG">
+                <node concept="37vLTw" id="6UG$gXA9luk" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1EBV9L$__Gy" resolve="userEnvironment" />
+                </node>
+                <node concept="liA8E" id="6UG$gXA9lPU" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:6UG$gXA7cXj" resolve="gcClean" />
                 </node>
               </node>
             </node>
@@ -45459,39 +45487,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="67D5vCCVSxi" role="3cqZAp" />
-        <node concept="3SKdUt" id="67D5vCCVSEA" role="3cqZAp">
-          <node concept="3SKdUq" id="67D5vCCVSHu" role="3SKWNk">
-            <property role="3SKdUp" value="Todo: one has to refactor this feature at some point in time" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="67D5vCCVSLR" role="3cqZAp">
-          <node concept="3SKdUq" id="67D5vCCVSOL" role="3SKWNk">
-            <property role="3SKdUp" value="we provide log functionality in IM3UserEnvironment. That should be mapper independent. " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="67D5vCCVSUo" role="3cqZAp">
-          <node concept="3SKdUq" id="67D5vCCVSXr" role="3SKWNk">
-            <property role="3SKdUp" value="however, since IM3 Interface is used everywhere, we provide it in IM3, but should actually be " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="67D5vCCVT2K" role="3cqZAp">
-          <node concept="3SKdUq" id="67D5vCCVT5I" role="3SKWNk">
-            <property role="3SKdUp" value="part of forms. " />
-          </node>
-        </node>
-        <node concept="3clFbJ" id="67D5vCCVTcZ" role="3cqZAp">
-          <node concept="3clFbS" id="67D5vCCVTd1" role="3clFbx" />
-          <node concept="2ZW3vV" id="67D5vCCVThP" role="3clFbw">
-            <node concept="3uibUv" id="67D5vCCVTiK" role="2ZW6by">
-              <ref role="3uigEE" to="28jr:3tZ99yEJcyg" resolve="UserEnvironmentInformation" />
-            </node>
-            <node concept="37vLTw" id="67D5vCCVTgL" role="2ZW6bz">
-              <ref role="3cqZAo" node="31dwTLEzI_o" resolve="usr" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="67D5vCCVSAV" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="1EBV9L$__ED" role="jymVt" />

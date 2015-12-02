@@ -5282,6 +5282,16 @@
             </node>
             <node concept="3clFbJ" id="6TYnK1bPpCU" role="3cqZAp">
               <node concept="3clFbS" id="6TYnK1bPpCW" role="3clFbx">
+                <node concept="3clFbF" id="6UG$gXAcntZ" role="3cqZAp">
+                  <node concept="2OqwBi" id="6UG$gXAcn$b" role="3clFbG">
+                    <node concept="37vLTw" id="6UG$gXAcntX" role="2Oq$k0">
+                      <ref role="3cqZAo" to="quhv:1EBV9L$__Gy" resolve="userEnvironment" />
+                    </node>
+                    <node concept="liA8E" id="6UG$gXAcnW8" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:6UG$gXA7cXj" resolve="gcClean" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="6TYnK1b_Ub5" role="3cqZAp">
                   <node concept="2OqwBi" id="6TYnK1b_UsM" role="3clFbG">
                     <node concept="37vLTw" id="6TYnK1b_Ub3" role="2Oq$k0">
@@ -8372,6 +8382,17 @@
               <node concept="37vLTw" id="31dwTLE$8Rm" role="37wK5m">
                 <ref role="3cqZAo" node="6TYnK1bEwng" resolve="connectionInfo" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6UG$gXAclkN" role="3cqZAp">
+          <node concept="2OqwBi" id="6UG$gXAcm68" role="3clFbG">
+            <node concept="37vLTw" id="6UG$gXAclkL" role="2Oq$k0">
+              <ref role="3cqZAo" to="quhv:1EBV9L$__Gy" resolve="userEnvironment" />
+            </node>
+            <node concept="liA8E" id="6UG$gXAcmvp" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:6UG$gXA72YJ" resolve="setUserJmxService" />
+              <node concept="Xjq3P" id="6UG$gXAcm$i" role="37wK5m" />
             </node>
           </node>
         </node>
