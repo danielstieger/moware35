@@ -3190,15 +3190,6 @@
     <property role="TrG5h" value="IM3ManMapSession" />
     <node concept="3Tm1VV" id="2P7gGuyliug" role="1B3o_S" />
     <node concept="2tJIrI" id="4TGg0kwohaK" role="jymVt" />
-    <node concept="3clFb_" id="4fBSqdHE32k" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getUserEnvironment" />
-      <node concept="3uibUv" id="4fBSqdHE3OR" role="3clF45">
-        <ref role="3uigEE" node="47yM9mP3xmE" resolve="IM3UserEnvironment" />
-      </node>
-      <node concept="3Tm1VV" id="4fBSqdHE32n" role="1B3o_S" />
-      <node concept="3clFbS" id="4fBSqdHE32o" role="3clF47" />
-    </node>
     <node concept="3clFb_" id="4fBSqdHEdTo" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getCurrentTransactionTimestamp" />
@@ -3217,7 +3208,16 @@
       <node concept="3Tm1VV" id="5Krc8zjydQ1" role="1B3o_S" />
       <node concept="3clFbS" id="5Krc8zjydQ2" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="4fBSqdHE2S5" role="jymVt" />
+    <node concept="3clFb_" id="2$LKw9UPf7W" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getIM3UserEnvironment" />
+      <node concept="3uibUv" id="2$LKw9UPffx" role="3clF45">
+        <ref role="3uigEE" node="47yM9mP3xmE" resolve="IM3UserEnvironment" />
+      </node>
+      <node concept="3Tm1VV" id="2$LKw9UPf7Z" role="1B3o_S" />
+      <node concept="3clFbS" id="2$LKw9UPf80" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="2$LKw9UPf2R" role="jymVt" />
     <node concept="3clFb_" id="2P7gGuylNHQ" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getOrCreateKeyStore" />
@@ -4746,19 +4746,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2BF5kUGSJSc" role="jymVt" />
-    <node concept="3clFb_" id="67D5vCCVzeh" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="userSpecificLogInfo" />
-      <node concept="37vLTG" id="67D5vCCV$a8" role="3clF46">
-        <property role="TrG5h" value="msg" />
-        <node concept="17QB3L" id="67D5vCCV$f1" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="67D5vCCVzej" role="3clF45" />
-      <node concept="3Tm1VV" id="67D5vCCVzek" role="1B3o_S" />
-      <node concept="3clFbS" id="67D5vCCVzel" role="3clF47" />
-    </node>
-    <node concept="2tJIrI" id="67D5vCCVxzx" role="jymVt" />
-    <node concept="2tJIrI" id="67D5vCCV$jc" role="jymVt" />
     <node concept="3clFb_" id="5xcCl6qcmXE" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getVariant" />

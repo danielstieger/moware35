@@ -357,8 +357,8 @@
     <node concept="312cEg" id="vsIEjNtQyP" role="jymVt">
       <property role="TrG5h" value="userEnvironment" />
       <node concept="3Tm6S6" id="vsIEjNtQyQ" role="1B3o_S" />
-      <node concept="3uibUv" id="vsIEjNtTgx" role="1tU5fm">
-        <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
+      <node concept="3uibUv" id="2$LKw9URgPN" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
       </node>
     </node>
     <node concept="312cEg" id="Y3fiVJRDr3" role="jymVt">
@@ -5168,6 +5168,12 @@
     <node concept="3clFb_" id="7RHNXGyQGe7" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createNewSession" />
+      <node concept="37vLTG" id="2$LKw9VfiNS" role="3clF46">
+        <property role="TrG5h" value="env" />
+        <node concept="3uibUv" id="2$LKw9Vfjgx" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+        </node>
+      </node>
       <node concept="3uibUv" id="7RHNXGyQGe8" role="3clF45">
         <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
       </node>
@@ -5193,6 +5199,19 @@
                 <node concept="3VsKOn" id="7RHNXGyQGej" role="37wK5m">
                   <ref role="3VsUkX" to="28jr:7$A8r6g3qlE" resolve="OFXSimpleManMapSession" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2$LKw9VfjDf" role="3cqZAp">
+          <node concept="2OqwBi" id="2$LKw9VfjFC" role="3clFbG">
+            <node concept="37vLTw" id="2$LKw9VfjDd" role="2Oq$k0">
+              <ref role="3cqZAo" node="7RHNXGyQGec" resolve="session" />
+            </node>
+            <node concept="liA8E" id="2$LKw9VfjNM" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:3$bhckF1T5U" resolve="setUserEnvironment" />
+              <node concept="37vLTw" id="2$LKw9VfjP6" role="37wK5m">
+                <ref role="3cqZAo" node="2$LKw9VfiNS" resolve="env" />
               </node>
             </node>
           </node>

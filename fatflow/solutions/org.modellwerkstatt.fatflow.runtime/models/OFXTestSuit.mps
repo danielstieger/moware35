@@ -26,7 +26,6 @@
     <import index="26n1" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time(org.modellwerkstatt.manmap.solution/org.joda.time@java_stub)" />
     <import index="m41l" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.jdbc.core(org.modellwerkstatt.manmap.solution/org.springframework.jdbc.core@java_stub)" />
     <import index="8553" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.springframework.jmx.export.annotation(org.modellwerkstatt.sandbox/org.springframework.jmx.export.annotation@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
     <import index="epq1" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" implicit="true" />
   </imports>
@@ -780,8 +779,8 @@
     <node concept="312cEg" id="6xpSWdTuH0F" role="jymVt">
       <property role="TrG5h" value="userEnvironment" />
       <node concept="3Tm6S6" id="6xpSWdTuH0G" role="1B3o_S" />
-      <node concept="3uibUv" id="6xpSWdTuH2x" role="1tU5fm">
-        <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
+      <node concept="3uibUv" id="2$LKw9VkU15" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
       </node>
       <node concept="2AHcQZ" id="6xpSWdTuH2$" role="2AJF6D">
         <ref role="2AI5Lk" to="oi9j:~Autowired" resolve="Autowired" />
@@ -2305,6 +2304,7 @@
               </node>
               <node concept="liA8E" id="77cIZAV36ED" role="2OqNvi">
                 <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                <node concept="10Nm6u" id="2$LKw9Vgqpg" role="37wK5m" />
               </node>
             </node>
           </node>
@@ -2353,6 +2353,7 @@
                   </node>
                   <node concept="liA8E" id="77cIZAV3a3z" role="2OqNvi">
                     <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                    <node concept="10Nm6u" id="2$LKw9Vgqns" role="37wK5m" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="4$qgDG0BZp" role="37wK5m">

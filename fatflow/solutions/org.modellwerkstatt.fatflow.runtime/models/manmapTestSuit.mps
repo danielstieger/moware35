@@ -11838,6 +11838,16 @@
         <ref role="2AI5Lk" to="oi9j:~Autowired" resolve="Autowired" />
       </node>
     </node>
+    <node concept="312cEg" id="2$LKw9VgwtC" role="jymVt">
+      <property role="TrG5h" value="userEnvironment" />
+      <node concept="3Tm6S6" id="2$LKw9VgwtD" role="1B3o_S" />
+      <node concept="3uibUv" id="2$LKw9VgA1d" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+      </node>
+      <node concept="2AHcQZ" id="2$LKw9VgwtF" role="2AJF6D">
+        <ref role="2AI5Lk" to="oi9j:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
     <node concept="312cEg" id="2P7gGuyszmx" role="jymVt">
       <property role="TrG5h" value="session" />
       <node concept="3Tm6S6" id="2P7gGuyszmy" role="1B3o_S" />
@@ -11865,6 +11875,9 @@
               </node>
               <node concept="liA8E" id="6Rdz00zNhm0" role="2OqNvi">
                 <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                <node concept="37vLTw" id="2$LKw9VgA2_" role="37wK5m">
+                  <ref role="3cqZAo" node="2$LKw9VgwtC" resolve="userEnvironment" />
+                </node>
               </node>
             </node>
           </node>
@@ -15644,6 +15657,9 @@
               </node>
               <node concept="liA8E" id="6Rdz00zQbKk" role="2OqNvi">
                 <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                <node concept="37vLTw" id="2$LKw9VgA4J" role="37wK5m">
+                  <ref role="3cqZAo" node="2$LKw9VgwtC" resolve="userEnvironment" />
+                </node>
               </node>
             </node>
           </node>
@@ -15661,7 +15677,7 @@
                     <ref role="3cqZAo" node="4r0DqI1Q7V0" resolve="session" />
                   </node>
                   <node concept="liA8E" id="4r0DqI1S5iS" role="2OqNvi">
-                    <ref role="37wK5l" to="w7gk:4fBSqdHE32k" resolve="getUserEnvironment" />
+                    <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
                   </node>
                 </node>
               </node>
@@ -15705,7 +15721,7 @@
                     <ref role="3cqZAo" node="4r0DqI1Q7V0" resolve="session" />
                   </node>
                   <node concept="liA8E" id="4r0DqI1S5ED" role="2OqNvi">
-                    <ref role="37wK5l" to="w7gk:4fBSqdHE32k" resolve="getUserEnvironment" />
+                    <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
                   </node>
                 </node>
               </node>
@@ -15753,6 +15769,9 @@
               </node>
               <node concept="liA8E" id="3sx4Hz392SD" role="2OqNvi">
                 <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                <node concept="37vLTw" id="2$LKw9VgA8_" role="37wK5m">
+                  <ref role="3cqZAo" node="2$LKw9VgwtC" resolve="userEnvironment" />
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="3sx4Hz39006" role="37vLTJ">
@@ -26043,6 +26062,9 @@
               </node>
               <node concept="liA8E" id="6Rdz00zQE0y" role="2OqNvi">
                 <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                <node concept="37vLTw" id="2$LKw9VgrxG" role="37wK5m">
+                  <ref role="3cqZAo" node="47yM9mP4Waw" resolve="uei" />
+                </node>
               </node>
             </node>
           </node>
@@ -26057,7 +26079,7 @@
                 <ref role="3cqZAo" node="2CaVrGA_wXN" resolve="session" />
               </node>
               <node concept="liA8E" id="2CaVrGABfNl" role="2OqNvi">
-                <ref role="37wK5l" to="w7gk:4fBSqdHE32k" resolve="getUserEnvironment" />
+                <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
               </node>
             </node>
           </node>

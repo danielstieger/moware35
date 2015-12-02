@@ -2065,8 +2065,8 @@
       </node>
       <node concept="37vLTG" id="7aUgYCzs8js" role="3clF46">
         <property role="TrG5h" value="userEnv" />
-        <node concept="3uibUv" id="3BCllXoLRNK" role="1tU5fm">
-          <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
+        <node concept="3uibUv" id="2$LKw9UPRcl" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
         </node>
       </node>
       <node concept="37vLTG" id="6TYnK1bwyNW" role="3clF46">
@@ -2116,6 +2116,9 @@
                   </node>
                   <node concept="liA8E" id="66GoTZ78oo8" role="2OqNvi">
                     <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                    <node concept="37vLTw" id="2$LKw9UPRrE" role="37wK5m">
+                      <ref role="3cqZAo" node="1EBV9L$__Gy" resolve="userEnvironment" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -2123,19 +2126,6 @@
             <node concept="3SKdUt" id="4d3Pnf44EF1" role="3cqZAp">
               <node concept="3SKdUq" id="4d3Pnf44EKu" role="3SKWNk">
                 <property role="3SKdUp" value="uiFactory might put in the wrong userEnvironment here. " />
-              </node>
-            </node>
-            <node concept="3clFbF" id="66GoTZ78otB" role="3cqZAp">
-              <node concept="2OqwBi" id="66GoTZ78oxM" role="3clFbG">
-                <node concept="37vLTw" id="66GoTZ78ot_" role="2Oq$k0">
-                  <ref role="3cqZAo" node="66GoTZ78nTd" resolve="session" />
-                </node>
-                <node concept="liA8E" id="66GoTZ78oCX" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:3$bhckF1T5U" resolve="setUserEnvironment" />
-                  <node concept="37vLTw" id="31dwTLEAeHS" role="37wK5m">
-                    <ref role="3cqZAo" node="1EBV9L$__Gy" resolve="userEnvironment" />
-                  </node>
-                </node>
               </node>
             </node>
             <node concept="3clFbF" id="1EA1lDXekUm" role="3cqZAp">
@@ -2608,6 +2598,9 @@
               </node>
               <node concept="liA8E" id="1w5LdyhU_GV" role="2OqNvi">
                 <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
+                <node concept="37vLTw" id="2$LKw9V4q9C" role="37wK5m">
+                  <ref role="3cqZAo" node="1EBV9L$__Gy" resolve="userEnvironment" />
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="1w5LdyhUzfq" role="37vLTJ">
@@ -5100,8 +5093,8 @@
     <node concept="312cEg" id="4mX9Xggd8W_" role="jymVt">
       <property role="TrG5h" value="userEnvironment" />
       <node concept="3Tm6S6" id="4mX9Xggd8WA" role="1B3o_S" />
-      <node concept="3uibUv" id="4mX9XggdfEk" role="1tU5fm">
-        <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
+      <node concept="3uibUv" id="2$LKw9UQeGV" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
       </node>
     </node>
     <node concept="312cEg" id="4mX9XggjWRg" role="jymVt">
@@ -7775,7 +7768,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4mX9Xggdh8Z" role="2OqNvi">
-                <ref role="37wK5l" to="w7gk:4fBSqdHE32k" resolve="getUserEnvironment" />
+                <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
               </node>
             </node>
             <node concept="37vLTw" id="4mX9Xggdgd$" role="37vLTJ">
@@ -12665,8 +12658,8 @@
         </node>
         <node concept="37vLTG" id="75iQIE8U8jD" role="3clF46">
           <property role="TrG5h" value="userEnvironment" />
-          <node concept="3uibUv" id="75iQIE8U8kl" role="1tU5fm">
-            <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
+          <node concept="3uibUv" id="2$LKw9UQf6W" role="1tU5fm">
+            <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
           </node>
         </node>
         <node concept="37vLTG" id="66GoTZ77imT" role="3clF46">
@@ -45346,8 +45339,8 @@
   <node concept="312cEu" id="1EBV9L$__ru">
     <property role="3GE5qa" value="Telemetrics" />
     <property role="TrG5h" value="FUserTelemetrics" />
-    <node concept="3uibUv" id="67D5vCCRP8_" role="EKbjA">
-      <ref role="3uigEE" to="28jr:67D5vCCQkbw" resolve="IOFXUserServices" />
+    <node concept="3uibUv" id="2$LKw9UWoND" role="EKbjA">
+      <ref role="3uigEE" to="28jr:2$LKw9UWnvq" resolve="IOFXUserJmxServices" />
     </node>
     <node concept="312cEg" id="31dwTLEzAqU" role="jymVt">
       <property role="TrG5h" value="telemetricsInitialized" />
@@ -45357,8 +45350,8 @@
     <node concept="312cEg" id="1EBV9L$__Gy" role="jymVt">
       <property role="TrG5h" value="userEnvironment" />
       <node concept="3Tmbuc" id="31dwTLExNxl" role="1B3o_S" />
-      <node concept="3uibUv" id="6TYnK1bCzCK" role="1tU5fm">
-        <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
+      <node concept="3uibUv" id="2$LKw9UQ7qe" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
       </node>
     </node>
     <node concept="312cEg" id="6TYnK1bu0j5" role="jymVt">
@@ -45403,8 +45396,8 @@
       <property role="TrG5h" value="initializeTelemetrics" />
       <node concept="37vLTG" id="31dwTLEzI_o" role="3clF46">
         <property role="TrG5h" value="usr" />
-        <node concept="3uibUv" id="31dwTLEzIAz" role="1tU5fm">
-          <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
+        <node concept="3uibUv" id="2$LKw9UQf02" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
         </node>
       </node>
       <node concept="37vLTG" id="31dwTLEzJUm" role="3clF46">
@@ -45488,26 +45481,7 @@
           </node>
         </node>
         <node concept="3clFbJ" id="67D5vCCVTcZ" role="3cqZAp">
-          <node concept="3clFbS" id="67D5vCCVTd1" role="3clFbx">
-            <node concept="3clFbF" id="67D5vCCWcCA" role="3cqZAp">
-              <node concept="2OqwBi" id="67D5vCCWcDk" role="3clFbG">
-                <node concept="1eOMI4" id="67D5vCCWcCy" role="2Oq$k0">
-                  <node concept="10QFUN" id="67D5vCCWcCv" role="1eOMHV">
-                    <node concept="3uibUv" id="67D5vCCWcC$" role="10QFUM">
-                      <ref role="3uigEE" to="28jr:3tZ99yEJcyg" resolve="UserEnvironmentInformation" />
-                    </node>
-                    <node concept="37vLTw" id="67D5vCCWcC_" role="10QFUP">
-                      <ref role="3cqZAo" node="31dwTLEzI_o" resolve="usr" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="liA8E" id="67D5vCCWcJk" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:67D5vCCWbdv" resolve="setUserServicesIfAvailable" />
-                  <node concept="Xjq3P" id="67D5vCCWcKT" role="37wK5m" />
-                </node>
-              </node>
-            </node>
-          </node>
+          <node concept="3clFbS" id="67D5vCCVTd1" role="3clFbx" />
           <node concept="2ZW3vV" id="67D5vCCVThP" role="3clFbw">
             <node concept="3uibUv" id="67D5vCCVTiK" role="2ZW6by">
               <ref role="3uigEE" to="28jr:3tZ99yEJcyg" resolve="UserEnvironmentInformation" />
@@ -45789,7 +45763,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6TYnK1btLVQ" role="jymVt" />
-    <node concept="2tJIrI" id="uIdudhLYFK" role="jymVt" />
     <node concept="3clFb_" id="uIdudhLYZD" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="informationOnCommands" />
@@ -45806,7 +45779,7 @@
     <node concept="2tJIrI" id="6TYnK1bA9qE" role="jymVt" />
     <node concept="3clFb_" id="67D5vCCRQlV" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="logInfo" />
+      <property role="TrG5h" value="log" />
       <node concept="37vLTG" id="67D5vCCRQlW" role="3clF46">
         <property role="TrG5h" value="msg" />
         <node concept="17QB3L" id="67D5vCCRQlX" role="1tU5fm" />

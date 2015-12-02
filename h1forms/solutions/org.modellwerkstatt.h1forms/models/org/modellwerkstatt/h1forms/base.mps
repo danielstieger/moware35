@@ -1788,19 +1788,9 @@
               </node>
               <node concept="liA8E" id="66GoTZ7cUqL" role="2OqNvi">
                 <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="66GoTZ7d4RX" role="3cqZAp">
-          <node concept="2OqwBi" id="66GoTZ7dai7" role="3clFbG">
-            <node concept="37vLTw" id="66GoTZ7d4RV" role="2Oq$k0">
-              <ref role="3cqZAo" node="66GoTZ7cO1E" resolve="localSession" />
-            </node>
-            <node concept="liA8E" id="66GoTZ7dc_D" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:3$bhckF1T5U" resolve="setUserEnvironment" />
-              <node concept="37vLTw" id="66GoTZ7dcBY" role="37wK5m">
-                <ref role="3cqZAo" node="1XvfUlypqL4" resolve="env" />
+                <node concept="37vLTw" id="2$LKw9Ve4LZ" role="37wK5m">
+                  <ref role="3cqZAo" node="1XvfUlypqL4" resolve="env" />
+                </node>
               </node>
             </node>
           </node>
