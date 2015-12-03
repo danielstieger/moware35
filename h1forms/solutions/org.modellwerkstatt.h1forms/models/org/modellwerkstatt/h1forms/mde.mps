@@ -203,6 +203,9 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
+        <property id="8355037393041754995" name="isNative" index="2aFKle" />
+      </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -610,6 +613,45 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="2vHEu_NLlLT" role="jymVt" />
+    <node concept="3clFb_" id="2vHEu_NLmET" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="createConfiguredUserPrintService" />
+      <node concept="37vLTG" id="2vHEu_NLmEU" role="3clF46">
+        <property role="TrG5h" value="tecHandle" />
+        <node concept="3uibUv" id="2vHEu_NLmEV" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2vHEu_NLmEX" role="1B3o_S" />
+      <node concept="3uibUv" id="2vHEu_NLmEY" role="3clF45">
+        <ref role="3uigEE" to="28jr:2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+      </node>
+      <node concept="3clFbS" id="2vHEu_NLmF0" role="3clF47">
+        <node concept="3SKdUt" id="2vHEu_NLnnl" role="3cqZAp">
+          <node concept="3SKdUq" id="2vHEu_NLnnv" role="3SKWNk">
+            <property role="3SKdUp" value="since we do not use FApplicationCrtl in H1Forms, and" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2vHEu_NLno4" role="3cqZAp">
+          <node concept="3SKdUq" id="2vHEu_NLno9" role="3SKWNk">
+            <property role="3SKdUp" value="printing is not supported, raise Exception" />
+          </node>
+        </node>
+        <node concept="YS8fn" id="2vHEu_NLnoK" role="3cqZAp">
+          <node concept="2ShNRf" id="2vHEu_NLnpD" role="YScLw">
+            <node concept="1pGfFk" id="2vHEu_NLnQa" role="2ShVmc">
+              <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="2vHEu_NLnQU" role="37wK5m">
+                <property role="Xl_RC" value="Not Supported." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2vHEu_NLm3W" role="jymVt" />
     <node concept="3clFb_" id="7RHNXGyQGem" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="initialize" />

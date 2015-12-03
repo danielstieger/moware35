@@ -2865,7 +2865,44 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6UG$gXA9k_D" role="3cqZAp" />
+        <node concept="3clFbH" id="2vHEu_NHmmL" role="3cqZAp" />
+        <node concept="3SKdUt" id="2vHEu_NHpoK" role="3cqZAp">
+          <node concept="3SKdUq" id="2vHEu_NHq4G" role="3SKWNk">
+            <property role="3SKdUp" value="should be fine, as long as userInterfaceHandle is what is expected" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2vHEu_NHra8" role="3cqZAp">
+          <node concept="3SKdUq" id="2vHEu_NHrXo" role="3SKWNk">
+            <property role="3SKdUp" value="as tecHandle in the printService" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2vHEu_NGzwO" role="3cqZAp">
+          <node concept="2OqwBi" id="2vHEu_NG$qh" role="3clFbG">
+            <node concept="37vLTw" id="2vHEu_NGzwM" role="2Oq$k0">
+              <ref role="3cqZAo" node="1EBV9L$__Gy" resolve="userEnvironment" />
+            </node>
+            <node concept="liA8E" id="2vHEu_NG_a4" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:2vHEu_N$F8P" resolve="setUserPrintService" />
+              <node concept="2OqwBi" id="2vHEu_NG_jy" role="37wK5m">
+                <node concept="37vLTw" id="2vHEu_NG_gh" role="2Oq$k0">
+                  <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                </node>
+                <node concept="liA8E" id="2vHEu_NG_Dz" role="2OqNvi">
+                  <ref role="37wK5l" node="2vHEu_NBRze" resolve="createConfiguredUserPrintService" />
+                  <node concept="2OqwBi" id="2vHEu_NHlW9" role="37wK5m">
+                    <node concept="37vLTw" id="2vHEu_NHlHa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4XXgpA_xcy_" resolve="appWindow" />
+                    </node>
+                    <node concept="liA8E" id="2vHEu_NHme9" role="2OqNvi">
+                      <ref role="37wK5l" node="WpszhTUvNB" resolve="getUserInterfaceHandle" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2vHEu_NGyFs" role="3cqZAp" />
         <node concept="3clFbF" id="1EBV9L$ARwT" role="3cqZAp">
           <node concept="2OqwBi" id="1EBV9L$ASi9" role="3clFbG">
             <node concept="37vLTw" id="1EBV9L$ARwR" role="2Oq$k0">
@@ -12787,6 +12824,23 @@
       <node concept="3Tm1VV" id="7nDJo_bvoHt" role="1B3o_S" />
       <node concept="3clFbS" id="7nDJo_bvoHu" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="2vHEu_NBRze" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="createConfiguredUserPrintService" />
+      <node concept="37vLTG" id="2vHEu_NBRz_" role="3clF46">
+        <property role="TrG5h" value="tecHandle" />
+        <node concept="3uibUv" id="2vHEu_NBRzF" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2vHEu_NBRzh" role="3clF47" />
+      <node concept="3Tm1VV" id="2vHEu_NBRzi" role="1B3o_S" />
+      <node concept="3uibUv" id="2vHEu_NBRz3" role="3clF45">
+        <ref role="3uigEE" to="28jr:2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2vHEu_NDAbG" role="jymVt" />
     <node concept="3clFb_" id="7RHNXGyTwOY" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getVariant" />
@@ -45887,38 +45941,6 @@
     </node>
     <node concept="2tJIrI" id="uIdudhLYfM" role="jymVt" />
     <node concept="3Tm1VV" id="1EBV9L$__sE" role="1B3o_S" />
-  </node>
-  <node concept="3HP615" id="4d3Pnf3Ubpd">
-    <property role="3GE5qa" value="Toolkit" />
-    <property role="TrG5h" value="IToolkit_PrintService" />
-    <node concept="2tJIrI" id="4d3Pnf3Ubqa" role="jymVt" />
-    <node concept="3clFb_" id="4d3Pnf3Ufhu" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="print" />
-      <node concept="37vLTG" id="4d3Pnf3WPsA" role="3clF46">
-        <property role="TrG5h" value="tecHandle" />
-        <node concept="3uibUv" id="4d3Pnf3WPtn" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="4d3Pnf3UfhF" role="3clF46">
-        <property role="TrG5h" value="fileName" />
-        <node concept="17QB3L" id="4d3Pnf3Ufiy" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4d3Pnf3UfiM" role="3clF46">
-        <property role="TrG5h" value="xsltName" />
-        <node concept="17QB3L" id="4d3Pnf3Ufjk" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4d3Pnf3Ufk_" role="3clF46">
-        <property role="TrG5h" value="xmlData" />
-        <node concept="17QB3L" id="4d3Pnf3Ufl6" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="4d3Pnf3Ufhw" role="3clF45" />
-      <node concept="3Tm1VV" id="4d3Pnf3Ufhx" role="1B3o_S" />
-      <node concept="3clFbS" id="4d3Pnf3Ufhy" role="3clF47" />
-    </node>
-    <node concept="2tJIrI" id="4d3Pnf3Ubqm" role="jymVt" />
-    <node concept="3Tm1VV" id="4d3Pnf3Ubpe" role="1B3o_S" />
   </node>
 </model>
 

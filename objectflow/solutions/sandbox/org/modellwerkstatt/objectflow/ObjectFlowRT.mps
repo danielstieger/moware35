@@ -375,6 +375,7 @@
         <reference id="6832197706140518108" name="param" index="zr_51" />
       </concept>
       <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="8465538089690331499" name="deprecated" index="TZ5Hx" />
         <child id="8465538089690331502" name="body" index="TZ5H$" />
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv">
@@ -388,6 +389,9 @@
       </concept>
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
       </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
@@ -483,6 +487,7 @@
     <node concept="2tJIrI" id="4NOhjsrASBC" role="jymVt" />
     <node concept="Wx3nA" id="jEineQEUHl" role="jymVt">
       <property role="TrG5h" value="delegateDateOnlyFormatter" />
+      <property role="IEkAT" value="true" />
       <node concept="3Tm1VV" id="jEineQEUHm" role="1B3o_S" />
       <node concept="3uibUv" id="jEineQEUHn" role="1tU5fm">
         <ref role="3uigEE" to="vt2g:~DateTimeFormatter" resolve="DateTimeFormatter" />
@@ -515,10 +520,17 @@
             <property role="1dT_AB" value="" />
           </node>
         </node>
+        <node concept="TZ5HI" id="2vHEu_N_kEP" role="TZ5Hx">
+          <node concept="TZ5HA" id="2vHEu_N_kEQ" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2vHEu_N_kER" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="Wx3nA" id="3tZ99yEJcyn" role="jymVt">
       <property role="TrG5h" value="uiDateOnlyFormatter" />
+      <property role="IEkAT" value="true" />
       <node concept="3Tm1VV" id="5OLgD$IG5w" role="1B3o_S" />
       <node concept="3uibUv" id="3tZ99yEJcyp" role="1tU5fm">
         <ref role="3uigEE" to="vt2g:~DateTimeFormatter" resolve="DateTimeFormatter" />
@@ -530,9 +542,18 @@
           <property role="Xl_RC" value="EEE dd.MM.yyyy" />
         </node>
       </node>
+      <node concept="z59LJ" id="2vHEu_N_kKY" role="lGtFl">
+        <node concept="TZ5HI" id="2vHEu_N_kKZ" role="TZ5Hx">
+          <node concept="TZ5HA" id="2vHEu_N_kL0" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2vHEu_N_kL1" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
     </node>
     <node concept="Wx3nA" id="ncJg$H916E" role="jymVt">
       <property role="TrG5h" value="dateOnlyFormatter" />
+      <property role="IEkAT" value="true" />
       <node concept="3Tm1VV" id="ncJg$H916F" role="1B3o_S" />
       <node concept="3uibUv" id="ncJg$H916G" role="1tU5fm">
         <ref role="3uigEE" to="vt2g:~DateTimeFormatter" resolve="DateTimeFormatter" />
@@ -544,9 +565,18 @@
           <property role="Xl_RC" value="dd.MM.yyyy" />
         </node>
       </node>
+      <node concept="z59LJ" id="2vHEu_N_kRb" role="lGtFl">
+        <node concept="TZ5HI" id="2vHEu_N_kRc" role="TZ5Hx">
+          <node concept="TZ5HA" id="2vHEu_N_kRd" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2vHEu_N_kRe" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
     </node>
     <node concept="Wx3nA" id="2T5SnS24sO4" role="jymVt">
       <property role="TrG5h" value="timeOnlyFormatter" />
+      <property role="IEkAT" value="true" />
       <node concept="3Tm1VV" id="2T5SnS24sO5" role="1B3o_S" />
       <node concept="3uibUv" id="2T5SnS24sO6" role="1tU5fm">
         <ref role="3uigEE" to="vt2g:~DateTimeFormatter" resolve="DateTimeFormatter" />
@@ -558,9 +588,18 @@
           <property role="Xl_RC" value="hh:mm:ss" />
         </node>
       </node>
+      <node concept="z59LJ" id="2vHEu_N_kXo" role="lGtFl">
+        <node concept="TZ5HI" id="2vHEu_N_kXp" role="TZ5Hx">
+          <node concept="TZ5HA" id="2vHEu_N_kXq" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2vHEu_N_kXr" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
     </node>
     <node concept="Wx3nA" id="2T5SnS24sOh" role="jymVt">
       <property role="TrG5h" value="dateTimeFormatter" />
+      <property role="IEkAT" value="true" />
       <node concept="3Tm1VV" id="2T5SnS24sOi" role="1B3o_S" />
       <node concept="3uibUv" id="2T5SnS24sOj" role="1tU5fm">
         <ref role="3uigEE" to="vt2g:~DateTimeFormatter" resolve="DateTimeFormatter" />
@@ -572,9 +611,18 @@
           <property role="Xl_RC" value="dd.MM.yyyy hh:mm:ss" />
         </node>
       </node>
+      <node concept="z59LJ" id="2vHEu_N_l3_" role="lGtFl">
+        <node concept="TZ5HI" id="2vHEu_N_l3A" role="TZ5Hx">
+          <node concept="TZ5HA" id="2vHEu_N_l3B" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2vHEu_N_l3C" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
     </node>
     <node concept="Wx3nA" id="1MuBDjlMeNq" role="jymVt">
       <property role="TrG5h" value="xfoDesignerFormatterTime" />
+      <property role="IEkAT" value="true" />
       <node concept="3Tm1VV" id="1MuBDjlMeNr" role="1B3o_S" />
       <node concept="3uibUv" id="1MuBDjlMeNs" role="1tU5fm">
         <ref role="3uigEE" to="vt2g:~DateTimeFormatter" resolve="DateTimeFormatter" />
@@ -586,9 +634,18 @@
           <property role="Xl_RC" value="yyyy'-'MM'-'dd'T'hh':'mm':'ss" />
         </node>
       </node>
+      <node concept="z59LJ" id="2vHEu_N_l9M" role="lGtFl">
+        <node concept="TZ5HI" id="2vHEu_N_l9N" role="TZ5Hx">
+          <node concept="TZ5HA" id="2vHEu_N_l9O" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2vHEu_N_l9P" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
     </node>
     <node concept="Wx3nA" id="1MuBDjmqd9R" role="jymVt">
       <property role="TrG5h" value="xfoDesignerFormatterDate" />
+      <property role="IEkAT" value="true" />
       <node concept="3Tm1VV" id="1MuBDjmqd9S" role="1B3o_S" />
       <node concept="3uibUv" id="1MuBDjmqd9T" role="1tU5fm">
         <ref role="3uigEE" to="vt2g:~DateTimeFormatter" resolve="DateTimeFormatter" />
@@ -600,9 +657,18 @@
           <property role="Xl_RC" value="yyyy'-'MM'-'dd" />
         </node>
       </node>
+      <node concept="z59LJ" id="2vHEu_N_lfZ" role="lGtFl">
+        <node concept="TZ5HI" id="2vHEu_N_lg0" role="TZ5Hx">
+          <node concept="TZ5HA" id="2vHEu_N_lg1" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2vHEu_N_lg2" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
     </node>
     <node concept="Wx3nA" id="6SpXvDdatsX" role="jymVt">
       <property role="TrG5h" value="decimalFormat" />
+      <property role="IEkAT" value="true" />
       <node concept="3Tm1VV" id="6SpXvDdatsY" role="1B3o_S" />
       <node concept="3uibUv" id="6SpXvDdbVJq" role="1tU5fm">
         <ref role="3uigEE" to="j9pa:~DecimalFormat" resolve="DecimalFormat" />
@@ -614,6 +680,14 @@
             <property role="Xl_RC" value="#,##0.00" />
           </node>
         </node>
+      </node>
+      <node concept="z59LJ" id="2vHEu_N_lmc" role="lGtFl">
+        <node concept="TZ5HI" id="2vHEu_N_lmd" role="TZ5Hx">
+          <node concept="TZ5HA" id="2vHEu_N_lme" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2vHEu_N_lmf" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="2tJIrI" id="67D5vCCW9VC" role="jymVt" />
@@ -675,6 +749,13 @@
       <node concept="3Tm6S6" id="2$LKw9UWm_y" role="1B3o_S" />
       <node concept="3uibUv" id="2$LKw9UWnOp" role="1tU5fm">
         <ref role="3uigEE" node="2$LKw9UWnvq" resolve="IOFXUserJmxServices" />
+      </node>
+    </node>
+    <node concept="312cEg" id="2vHEu_N_lYR" role="jymVt">
+      <property role="TrG5h" value="userPrintService" />
+      <node concept="3Tm6S6" id="2vHEu_N_lYS" role="1B3o_S" />
+      <node concept="3uibUv" id="2vHEu_N_mxi" role="1tU5fm">
+        <ref role="3uigEE" node="2vHEu_N_3sh" resolve="IOFXUserPrintService" />
       </node>
     </node>
     <node concept="2tJIrI" id="2$LKw9UWm6E" role="jymVt" />
@@ -1230,6 +1311,51 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="2vHEu_N_mH4" role="jymVt" />
+    <node concept="3clFb_" id="2vHEu_N_nfr" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setUserPrintService" />
+      <node concept="37vLTG" id="2vHEu_N_nfs" role="3clF46">
+        <property role="TrG5h" value="service" />
+        <node concept="3uibUv" id="2vHEu_N_nft" role="1tU5fm">
+          <ref role="3uigEE" node="2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="2vHEu_N_nfu" role="3clF45" />
+      <node concept="3Tm1VV" id="2vHEu_N_nfv" role="1B3o_S" />
+      <node concept="3clFbS" id="2vHEu_N_nfx" role="3clF47">
+        <node concept="3clFbF" id="2vHEu_N_ozC" role="3cqZAp">
+          <node concept="37vLTI" id="2vHEu_N_oAV" role="3clFbG">
+            <node concept="37vLTw" id="2vHEu_N_oLh" role="37vLTx">
+              <ref role="3cqZAo" node="2vHEu_N_nfs" resolve="service" />
+            </node>
+            <node concept="37vLTw" id="2vHEu_N_ozB" role="37vLTJ">
+              <ref role="3cqZAo" node="2vHEu_N_lYR" resolve="userPrintService" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="2vHEu_N_tvp" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getUserPrintService" />
+      <node concept="3uibUv" id="2vHEu_N_tvq" role="3clF45">
+        <ref role="3uigEE" node="2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+      </node>
+      <node concept="3Tm1VV" id="2vHEu_N_tvr" role="1B3o_S" />
+      <node concept="3clFbS" id="2vHEu_N_tvv" role="3clF47">
+        <node concept="3SKdUt" id="2vHEu_N_ugv" role="3cqZAp">
+          <node concept="3SKdUq" id="2vHEu_N_uh5" role="3SKWNk">
+            <property role="3SKdUp" value="might lead to an NPE if not initialized. " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2vHEu_N_u7T" role="3cqZAp">
+          <node concept="37vLTw" id="2vHEu_N_u7R" role="3clFbG">
+            <ref role="3cqZAo" node="2vHEu_N_lYR" resolve="userPrintService" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="2$LKw9UWijv" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="logInfo" />
@@ -1282,6 +1408,14 @@
             <node concept="10Nm6u" id="6UG$gXA7f8G" role="37vLTx" />
             <node concept="37vLTw" id="6UG$gXA7eYz" role="37vLTJ">
               <ref role="3cqZAo" node="2$LKw9UWnTR" resolve="userJmxService" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2vHEu_N_oWb" role="3cqZAp">
+          <node concept="37vLTI" id="2vHEu_N_p1Z" role="3clFbG">
+            <node concept="10Nm6u" id="2vHEu_N_p4y" role="37vLTx" />
+            <node concept="37vLTw" id="2vHEu_N_oW9" role="37vLTJ">
+              <ref role="3cqZAo" node="2vHEu_N_lYR" resolve="userPrintService" />
             </node>
           </node>
         </node>
@@ -30293,6 +30427,27 @@
       <node concept="3cqZAl" id="67D5vCCQls1" role="3clF45" />
       <node concept="3Tm1VV" id="67D5vCCQls2" role="1B3o_S" />
       <node concept="3clFbS" id="67D5vCCQls3" role="3clF47" />
+      <node concept="P$JXv" id="2vHEu_N_sQz" role="lGtFl">
+        <node concept="TZ5HA" id="2vHEu_N_sQ$" role="TZ5H$">
+          <node concept="1dT_AC" id="2vHEu_N_sQ_" role="1dT_Ay">
+            <property role="1dT_AB" value="Most basic. Just log some Information, JMX or elsewhere ... " />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2vHEu_N_sQA" role="TUOzN">
+          <node concept="zr_55" id="2vHEu_N_sQC" role="zr_5Q">
+            <ref role="zr_51" node="67D5vCCQl$q" resolve="msg" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="2vHEu_N_sTu" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getUserPrintService" />
+      <node concept="3uibUv" id="2vHEu_N_sVv" role="3clF45">
+        <ref role="3uigEE" node="2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+      </node>
+      <node concept="3Tm1VV" id="2vHEu_N_sTx" role="1B3o_S" />
+      <node concept="3clFbS" id="2vHEu_N_sTy" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="67D5vCCQkbx" role="1B3o_S" />
   </node>
@@ -30312,6 +30467,19 @@
       <node concept="3cqZAl" id="6UG$gXA72YL" role="3clF45" />
       <node concept="3Tm1VV" id="6UG$gXA72YM" role="1B3o_S" />
       <node concept="3clFbS" id="6UG$gXA72YN" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="2vHEu_N$F8P" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setUserPrintService" />
+      <node concept="37vLTG" id="2vHEu_N$Fag" role="3clF46">
+        <property role="TrG5h" value="service" />
+        <node concept="3uibUv" id="2vHEu_N_4Ew" role="1tU5fm">
+          <ref role="3uigEE" node="2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="2vHEu_N$F8R" role="3clF45" />
+      <node concept="3Tm1VV" id="2vHEu_N$F8S" role="1B3o_S" />
+      <node concept="3clFbS" id="2vHEu_N$F8T" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6UG$gXA7cXj" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -30343,6 +30511,37 @@
       <node concept="3clFbS" id="2$LKw9UWnxj" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="2$LKw9UWnvr" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="2vHEu_N_3sh">
+    <property role="3GE5qa" value="OFXArchitecture" />
+    <property role="TrG5h" value="IOFXUserPrintService" />
+    <node concept="2tJIrI" id="2vHEu_N_3sp" role="jymVt" />
+    <node concept="3clFb_" id="2vHEu_N_4Dh" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="print" />
+      <node concept="37vLTG" id="2vHEu_N_4DA" role="3clF46">
+        <property role="TrG5h" value="documentFilename" />
+        <node concept="17QB3L" id="2vHEu_N_jQn" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2vHEu_N_jQA" role="3clF46">
+        <property role="TrG5h" value="xsltTemplateName" />
+        <node concept="17QB3L" id="2vHEu_N_jQK" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2vHEu_N_jRx" role="3clF46">
+        <property role="TrG5h" value="xmlGraphData" />
+        <node concept="17QB3L" id="2vHEu_N_jRF" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2vHEu_N_jRQ" role="3clF46">
+        <property role="TrG5h" value="barcode" />
+        <node concept="3uibUv" id="2vHEu_N_jSk" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="2vHEu_N_4Dj" role="3clF45" />
+      <node concept="3Tm1VV" id="2vHEu_N_4Dk" role="1B3o_S" />
+      <node concept="3clFbS" id="2vHEu_N_4Dl" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="2vHEu_N_3si" role="1B3o_S" />
   </node>
 </model>
 
