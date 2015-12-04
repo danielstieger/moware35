@@ -259,9 +259,6 @@
       <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
         <child id="1171903916107" name="bound" index="3qUE_r" />
       </concept>
-      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
-        <property id="8355037393041754995" name="isNative" index="2aFKle" />
-      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -5988,28 +5985,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3VIcZtBvAxC" role="jymVt" />
-    <node concept="2tJIrI" id="2vHEu_NNXK6" role="jymVt" />
-    <node concept="3clFb_" id="2vHEu_NNYgx" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="createConfiguredUserPrintService" />
-      <node concept="37vLTG" id="2vHEu_NNYgy" role="3clF46">
-        <property role="TrG5h" value="tecHandle" />
-        <node concept="3uibUv" id="2vHEu_NNYgz" role="1tU5fm">
-          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="2vHEu_NNYg_" role="1B3o_S" />
-      <node concept="3uibUv" id="2vHEu_NNYgA" role="3clF45">
-        <ref role="3uigEE" to="28jr:2vHEu_N_3sh" resolve="IOFXUserPrintService" />
-      </node>
-      <node concept="3clFbS" id="2vHEu_NNYgC" role="3clF47">
-        <node concept="3clFbF" id="2vHEu_NNYgE" role="3cqZAp">
-          <node concept="10Nm6u" id="2vHEu_NNYgD" role="3clFbG" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="1T5PU5cimQu" role="jymVt" />
     <node concept="2YIFZL" id="1T5PU5cink$" role="jymVt">
       <property role="TrG5h" value="getImage" />
       <property role="IEkAT" value="false" />
