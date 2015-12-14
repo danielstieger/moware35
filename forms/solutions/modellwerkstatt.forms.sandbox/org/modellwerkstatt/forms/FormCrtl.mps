@@ -11542,6 +11542,31 @@
       <node concept="10P_77" id="5_bDd1dE1ze" role="3clF45" />
       <node concept="3Tmbuc" id="5_bDd1dD$Tw" role="1B3o_S" />
       <node concept="3clFbS" id="5_bDd1dDxL3" role="3clF47">
+        <node concept="3SKdUt" id="3wIL11I7Xvq" role="3cqZAp">
+          <node concept="3SKdUq" id="3wIL11I8aj5" role="3SKWNk">
+            <property role="3SKdUp" value="in case userEnvironment is no longer available" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3wIL11I85J8" role="3cqZAp">
+          <node concept="3SKdUq" id="3wIL11I8ak_" role="3SKWNk">
+            <property role="3SKdUp" value="show error message on screen, it will be logged anyway" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3wIL11I7JuR" role="3cqZAp">
+          <node concept="3clFbS" id="3wIL11I7JuT" role="3clFbx">
+            <node concept="3cpWs6" id="3wIL11I7Oen" role="3cqZAp">
+              <node concept="3clFbT" id="3wIL11I7Ofd" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="3wIL11I7O8h" role="3clFbw">
+            <node concept="10Nm6u" id="3wIL11I7Oaj" role="3uHU7w" />
+            <node concept="37vLTw" id="3wIL11I7O33" role="3uHU7B">
+              <ref role="3cqZAo" node="4mX9Xggd8W_" resolve="userEnvironment" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="5_bDd1dDR8z" role="3cqZAp">
           <node concept="3clFbS" id="5_bDd1dDR8A" role="3clFbx">
             <node concept="3cpWs6" id="5_bDd1dDVE$" role="3cqZAp">
@@ -11602,6 +11627,97 @@
               </node>
               <node concept="liA8E" id="3DTEcmNHMtU" role="2OqNvi">
                 <ref role="37wK5l" to="e2lb:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3wIL11I8fFq" role="3cqZAp" />
+        <node concept="3SKdUt" id="3wIL11I8aS2" role="3cqZAp">
+          <node concept="3SKdUq" id="3wIL11I8aS1" role="3SKWNk">
+            <property role="3SKdUp" value="we have encountered cases where userenv is null " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3wIL11I8aS4" role="3cqZAp">
+          <node concept="3SKdUq" id="3wIL11I8aS3" role="3SKWNk">
+            <property role="3SKdUp" value="basically, this can only happen when the container was already closed.  " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3wIL11I8aS6" role="3cqZAp">
+          <node concept="3SKdUq" id="3wIL11I8aS5" role="3SKWNk">
+            <property role="3SKdUp" value="make sure we do get the original error " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3wIL11I8aRz" role="3cqZAp">
+          <node concept="22lmx$" id="3wIL11I8aR$" role="3clFbw">
+            <node concept="3clFbC" id="3wIL11I8aR_" role="3uHU7B">
+              <node concept="37vLTw" id="3wIL11I8aRA" role="3uHU7B">
+                <ref role="3cqZAo" node="4mX9Xggd8W_" resolve="userEnvironment" />
+              </node>
+              <node concept="10Nm6u" id="3wIL11I8aRB" role="3uHU7w" />
+            </node>
+            <node concept="37vLTw" id="3wIL11I8aRC" role="3uHU7w">
+              <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="3wIL11I8aRE" role="3clFbx">
+            <node concept="3clFbF" id="3wIL11I8aRF" role="3cqZAp">
+              <node concept="2OqwBi" id="3wIL11I8aRG" role="3clFbG">
+                <node concept="2YIFZM" id="3wIL11I8aSe" role="2Oq$k0">
+                  <ref role="1Pybhc" to="rmiu:~Logger" resolve="Logger" />
+                  <ref role="37wK5l" to="rmiu:~Logger.getLogger(java.lang.String):org.apache.log4j.Logger" resolve="getLogger" />
+                  <node concept="Xl_RD" id="3wIL11I8aRI" role="37wK5m">
+                    <property role="Xl_RC" value="org.modellwerkstatt.fxforms.runtime.windows" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3wIL11I8aRJ" role="2OqNvi">
+                  <ref role="37wK5l" to="rmiu:~Category.error(java.lang.Object):void" resolve="error" />
+                  <node concept="3cpWs3" id="3wIL11I8aRK" role="37wK5m">
+                    <node concept="3cpWs3" id="3wIL11I8aRL" role="3uHU7B">
+                      <node concept="3cpWs3" id="3wIL11I8aRM" role="3uHU7B">
+                        <node concept="3cpWs3" id="3wIL11I8aRN" role="3uHU7B">
+                          <node concept="3cpWs3" id="3wIL11I8aRO" role="3uHU7B">
+                            <node concept="Xl_RD" id="3wIL11I8aRP" role="3uHU7B">
+                              <property role="Xl_RC" value="[UserEnvironmentInformation= " />
+                            </node>
+                            <node concept="37vLTw" id="3wIL11I8aRQ" role="3uHU7w">
+                              <ref role="3cqZAo" node="4mX9Xggd8W_" resolve="userEnvironment" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="3wIL11I8aRR" role="3uHU7w">
+                            <property role="Xl_RC" value=" , containerClosed=" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="3wIL11I8aRS" role="3uHU7w">
+                          <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="3wIL11I8aRT" role="3uHU7w">
+                        <property role="Xl_RC" value="]   FATAL AppFramework Problem \n\n" />
+                      </node>
+                    </node>
+                    <node concept="2YIFZM" id="3wIL11I8aSm" role="3uHU7w">
+                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                      <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                      <node concept="37vLTw" id="3wIL11I8aRV" role="37wK5m">
+                        <ref role="3cqZAo" node="4Zj1V_wFQxk" resolve="ex" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="3wIL11I8aRW" role="3cqZAp">
+              <node concept="3cpWs3" id="3wIL11I8aRX" role="3cqZAk">
+                <node concept="Xl_RD" id="3wIL11I8aRY" role="3uHU7B">
+                  <property role="Xl_RC" value="Serious Problem while handling this command:\n\n " />
+                </node>
+                <node concept="2YIFZM" id="3wIL11I8aSu" role="3uHU7w">
+                  <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                  <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                  <node concept="37vLTw" id="3wIL11I8aS0" role="37wK5m">
+                    <ref role="3cqZAo" node="4Zj1V_wFQxk" resolve="ex" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
