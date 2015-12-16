@@ -6921,6 +6921,44 @@
               <node concept="3clFbH" id="5LL59WQFNAt" role="3cqZAp" />
             </node>
           </node>
+          <node concept="3eNFk2" id="6LLJlpJYJkT" role="3eNLev">
+            <node concept="2OqwBi" id="6LLJlpJYJkU" role="3eO9$A">
+              <node concept="37vLTw" id="6LLJlpJYJkV" role="2Oq$k0">
+                <ref role="3cqZAo" node="7QITxIiTth_" resolve="key" />
+              </node>
+              <node concept="liA8E" id="6LLJlpJYJkW" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="Xl_RD" id="6LLJlpJYJkX" role="37wK5m">
+                  <property role="Xl_RC" value="ADD" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="6LLJlpJYJkY" role="3eOfB_">
+              <node concept="3SKdUt" id="6LLJlpJYXkX" role="3cqZAp">
+                <node concept="3SKdUq" id="6LLJlpJYXzh" role="3SKWNk">
+                  <property role="3SKdUp" value="TODO: HOTKEYS are not handled correctly. " />
+                </node>
+              </node>
+              <node concept="3cpWs6" id="6LLJlpJYJkZ" role="3cqZAp">
+                <node concept="2ShNRf" id="6LLJlpJYJl0" role="3cqZAk">
+                  <node concept="1pGfFk" id="6LLJlpJYJl1" role="2ShVmc">
+                    <ref role="37wK5l" node="7QITxIiTq3t" resolve="VHotKeyTranslator.VMyHk" />
+                    <node concept="10M0yZ" id="6LLJlpJYJl2" role="37wK5m">
+                      <ref role="1PxDUh" to="rsx0:~ShortcutAction$KeyCode" resolve="ShortcutAction.KeyCode" />
+                      <ref role="3cqZAo" to="rsx0:~ShortcutAction$KeyCode.A" resolve="A" />
+                    </node>
+                    <node concept="3clFbT" id="6LLJlpJYJl3" role="37wK5m">
+                      <property role="3clFbU" value="false" />
+                    </node>
+                    <node concept="Xl_RD" id="6LLJlpJYJl4" role="37wK5m">
+                      <property role="Xl_RC" value="A" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="6LLJlpJYJl5" role="3cqZAp" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="37vLTG" id="7QITxIiTth_" role="3clF46">
