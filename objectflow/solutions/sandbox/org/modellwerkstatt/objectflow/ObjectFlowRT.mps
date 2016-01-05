@@ -33875,5 +33875,34 @@
       <ref role="3uigEE" node="5XtsZSXKP9F" resolve="IOFXPrintFactory" />
     </node>
   </node>
+  <node concept="312cEu" id="4u029Jv3nt9">
+    <property role="3GE5qa" value="OFXImpl" />
+    <property role="TrG5h" value="OFXFakePrintService" />
+    <node concept="2tJIrI" id="4u029Jv3ntP" role="jymVt" />
+    <node concept="3clFb_" id="4u029Jv3nu0" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="createConfiguredUserPrintService" />
+      <node concept="37vLTG" id="4u029Jv3nu1" role="3clF46">
+        <property role="TrG5h" value="tecHandle" />
+        <node concept="3uibUv" id="4u029Jv3nu2" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4u029Jv3nu4" role="1B3o_S" />
+      <node concept="3uibUv" id="4u029Jv3nu5" role="3clF45">
+        <ref role="3uigEE" node="2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+      </node>
+      <node concept="3clFbS" id="4u029Jv3nug" role="3clF47">
+        <node concept="3clFbF" id="4u029Jv3nui" role="3cqZAp">
+          <node concept="10Nm6u" id="4u029Jv3nuh" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="4u029Jv3nta" role="1B3o_S" />
+    <node concept="3uibUv" id="4u029Jv3ntG" role="EKbjA">
+      <ref role="3uigEE" node="5XtsZSXKP9F" resolve="IOFXPrintFactory" />
+    </node>
+  </node>
 </model>
 

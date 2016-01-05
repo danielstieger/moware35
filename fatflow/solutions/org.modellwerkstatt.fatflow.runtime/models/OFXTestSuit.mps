@@ -9841,6 +9841,13 @@
     <node concept="2CJ4_Q" id="33KhHQRXcHL" role="2CGBMS">
       <ref role="2CJ4_N" to="ofql:4LC0Y0L2pbw" resolve="DEP_UserEnvironmentInformation" />
     </node>
+    <node concept="2CPvp3" id="4u029Jv7uip" role="2CGBMS" />
+    <node concept="2CJf3v" id="4u029Jv3Zn8" role="2CGBMS">
+      <property role="TrG5h" value="fakePrintService" />
+      <node concept="Xl_RD" id="4u029Jv3Zna" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFakePrintService" />
+      </node>
+    </node>
     <node concept="2CPvp3" id="33KhHQReTh9" role="2CGBMS" />
     <node concept="2CJf3v" id="6Rdz00zW6jD" role="2CGBMS">
       <property role="TrG5h" value="consoleAppFactory" />

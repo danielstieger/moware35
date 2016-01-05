@@ -10023,6 +10023,11 @@
                 <property role="3SKdUp" value="isTerminatedCancel() or isTerminatedException() is not possible here" />
               </node>
             </node>
+            <node concept="3SKdUt" id="6mVuvq$4OZe" role="3cqZAp">
+              <node concept="3SKdUq" id="6mVuvq$4Phl" role="3SKWNk">
+                <property role="3SKdUp" value="4th Jan. 2016 - wrong: isTerminatedCancel can be without excpt, when message is empty." />
+              </node>
+            </node>
             <node concept="3clFbJ" id="2U6PE9kCUkf" role="3cqZAp">
               <node concept="3clFbS" id="2U6PE9kCUki" role="3clFbx">
                 <node concept="3clFbF" id="2U6PE9kE8cv" role="3cqZAp">
@@ -10034,12 +10039,22 @@
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="2U6PE9kCVw8" role="3clFbw">
-                <node concept="37vLTw" id="2U6PE9kCVvg" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+              <node concept="22lmx$" id="6mVuvq$4PC3" role="3clFbw">
+                <node concept="2OqwBi" id="6mVuvq$4Qgz" role="3uHU7w">
+                  <node concept="37vLTw" id="6mVuvq$4QeY" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                  </node>
+                  <node concept="liA8E" id="6mVuvq$4QUS" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="2U6PE9kCWdH" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:6dnXV8mIGtD" resolve="isTerminatedOk" />
+                <node concept="2OqwBi" id="2U6PE9kCVw8" role="3uHU7B">
+                  <node concept="37vLTw" id="2U6PE9kCVvg" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                  </node>
+                  <node concept="liA8E" id="2U6PE9kCWdH" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:6dnXV8mIGtD" resolve="isTerminatedOk" />
+                  </node>
                 </node>
               </node>
             </node>
