@@ -2382,6 +2382,10 @@
         <property role="TrG5h" value="scanConclusionPostcode" />
         <node concept="10Oyi0" id="3L0rgZdIvTY" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="4XOQNRZpPQ_" role="3clF46">
+        <property role="TrG5h" value="scanConclusionEnabled" />
+        <node concept="10P_77" id="4XOQNRZpQv1" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="3L0rgZdHuLi" role="3clF46">
         <property role="TrG5h" value="okConclusionTitle" />
         <node concept="17QB3L" id="3L0rgZdHvQz" role="1tU5fm" />
@@ -2506,7 +2510,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="3L0rgZdK$rg" role="3cqZAp" />
-        <node concept="3clFbH" id="3L0rgZdK$BI" role="3cqZAp" />
         <node concept="3clFbF" id="3L0rgZdIEDi" role="3cqZAp">
           <node concept="2OqwBi" id="3L0rgZdIEDj" role="3clFbG">
             <node concept="37vLTw" id="3L0rgZdIEDk" role="2Oq$k0">
@@ -2530,36 +2533,43 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3L0rgZdIEtf" role="3cqZAp" />
-        <node concept="3clFbF" id="3L0rgZdFCY9" role="3cqZAp">
-          <node concept="2OqwBi" id="3L0rgZdFDdK" role="3clFbG">
-            <node concept="37vLTw" id="3L0rgZdFCY7" role="2Oq$k0">
-              <ref role="3cqZAo" node="3L0rgZd$bsD" resolve="builder" />
-            </node>
-            <node concept="liA8E" id="3L0rgZdFDHb" role="2OqNvi">
-              <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-              <node concept="3cpWs3" id="3L0rgZdFFLn" role="37wK5m">
-                <node concept="Xl_RD" id="3L0rgZdFG$8" role="3uHU7w">
-                  <property role="Xl_RC" value="&lt;/div&gt;&lt;/button&gt;" />
+        <node concept="3clFbH" id="4XOQNRZpUEJ" role="3cqZAp" />
+        <node concept="3clFbJ" id="4XOQNRZp9qg" role="3cqZAp">
+          <node concept="3clFbS" id="4XOQNRZp9qi" role="3clFbx">
+            <node concept="3clFbF" id="3L0rgZdFCY9" role="3cqZAp">
+              <node concept="2OqwBi" id="3L0rgZdFDdK" role="3clFbG">
+                <node concept="37vLTw" id="3L0rgZdFCY7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3L0rgZd$bsD" resolve="builder" />
                 </node>
-                <node concept="3cpWs3" id="3L0rgZdFE4f" role="3uHU7B">
-                  <node concept="3cpWs3" id="3L0rgZdGXuF" role="3uHU7B">
-                    <node concept="Xl_RD" id="3L0rgZdGXCR" role="3uHU7w">
-                      <property role="Xl_RC" value=" class=\&quot;myscanbutton\&quot; onClick=\&quot;javascript:ScanSubmit();return false;\&quot; disabled&gt;&lt;div class=\&quot;label\&quot;&gt;" />
+                <node concept="liA8E" id="3L0rgZdFDHb" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="3cpWs3" id="3L0rgZdFFLn" role="37wK5m">
+                    <node concept="Xl_RD" id="3L0rgZdFG$8" role="3uHU7w">
+                      <property role="Xl_RC" value="&lt;/div&gt;&lt;/button&gt;" />
                     </node>
-                    <node concept="Xl_RD" id="3L0rgZdFDQO" role="3uHU7B">
-                      <property role="Xl_RC" value="&lt;div&gt; &lt;button id=\&quot;scanSoftButton\&quot; " />
+                    <node concept="3cpWs3" id="3L0rgZdFE4f" role="3uHU7B">
+                      <node concept="3cpWs3" id="3L0rgZdGXuF" role="3uHU7B">
+                        <node concept="Xl_RD" id="3L0rgZdGXCR" role="3uHU7w">
+                          <property role="Xl_RC" value=" class=\&quot;myscanbutton\&quot; onClick=\&quot;javascript:ScanSubmit();return false;\&quot; disabled&gt;&lt;div class=\&quot;label\&quot;&gt;" />
+                        </node>
+                        <node concept="Xl_RD" id="3L0rgZdFDQO" role="3uHU7B">
+                          <property role="Xl_RC" value="&lt;div&gt; &lt;button id=\&quot;scanSoftButton\&quot; " />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="3L0rgZdH18w" role="3uHU7w">
+                        <ref role="3cqZAo" node="3L0rgZdGVH4" resolve="scanConclusionTitle" />
+                      </node>
                     </node>
-                  </node>
-                  <node concept="37vLTw" id="3L0rgZdH18w" role="3uHU7w">
-                    <ref role="3cqZAo" node="3L0rgZdGVH4" resolve="scanConclusionTitle" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
+          <node concept="37vLTw" id="4XOQNRZpQKk" role="3clFbw">
+            <ref role="3cqZAo" node="4XOQNRZpPQ_" resolve="scanConclusionEnabled" />
+          </node>
         </node>
-        <node concept="3clFbH" id="3L0rgZdFHsO" role="3cqZAp" />
+        <node concept="3clFbH" id="3L0rgZdIEtf" role="3cqZAp" />
         <node concept="3clFbH" id="3L0rgZdIEem" role="3cqZAp" />
         <node concept="1Dw8fO" id="3L0rgZd$p1L" role="3cqZAp">
           <node concept="3clFbS" id="3L0rgZd$p1N" role="2LFqv$">
