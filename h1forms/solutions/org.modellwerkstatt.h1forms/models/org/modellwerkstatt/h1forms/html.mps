@@ -1721,7 +1721,7 @@
                 <node concept="liA8E" id="6nF$iZDKBBz" role="2OqNvi">
                   <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="6nF$iZDKBC6" role="37wK5m">
-                    <property role="Xl_RC" value="\&quot; data-native-menu=\&quot;false\&quot; data-mini=\&quot;true\&quot; diabled&gt;" />
+                    <property role="Xl_RC" value="\&quot; data-native-menu=\&quot;false\&quot; data-mini=\&quot;true\&quot; disabled&gt;" />
                   </node>
                 </node>
               </node>
