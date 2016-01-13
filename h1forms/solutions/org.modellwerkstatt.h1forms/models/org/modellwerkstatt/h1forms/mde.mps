@@ -1356,6 +1356,9 @@
       </node>
       <node concept="3Tm1VV" id="3L0rgZd_Scj" role="1B3o_S" />
       <node concept="2BsdOp" id="3L0rgZd_Sck" role="33vP2m">
+        <node concept="Xl_RD" id="3L0rgZdA9XA" role="2BsfMF">
+          <property role="Xl_RC" value="+" />
+        </node>
         <node concept="Xl_RD" id="3L0rgZdA0mr" role="2BsfMF">
           <property role="Xl_RC" value="7" />
         </node>
@@ -1365,8 +1368,8 @@
         <node concept="Xl_RD" id="3L0rgZdA9bN" role="2BsfMF">
           <property role="Xl_RC" value="9" />
         </node>
-        <node concept="Xl_RD" id="3L0rgZdA9XA" role="2BsfMF">
-          <property role="Xl_RC" value="+" />
+        <node concept="Xl_RD" id="3L0rgZdAdIG" role="2BsfMF">
+          <property role="Xl_RC" value="-" />
         </node>
         <node concept="Xl_RD" id="3L0rgZdAb2S" role="2BsfMF">
           <property role="Xl_RC" value="4" />
@@ -1377,8 +1380,8 @@
         <node concept="Xl_RD" id="3L0rgZdAcVD" role="2BsfMF">
           <property role="Xl_RC" value="6" />
         </node>
-        <node concept="Xl_RD" id="3L0rgZdAdIG" role="2BsfMF">
-          <property role="Xl_RC" value="-" />
+        <node concept="Xl_RD" id="3L0rgZdAm$V" role="2BsfMF">
+          <property role="Xl_RC" value="&lt;&lt;" />
         </node>
         <node concept="Xl_RD" id="3L0rgZdAey3" role="2BsfMF">
           <property role="Xl_RC" value="1" />
@@ -1389,17 +1392,14 @@
         <node concept="Xl_RD" id="3L0rgZdAlt5" role="2BsfMF">
           <property role="Xl_RC" value="3" />
         </node>
-        <node concept="Xl_RD" id="3L0rgZdAm$V" role="2BsfMF">
-          <property role="Xl_RC" value="&lt;&lt;" />
-        </node>
         <node concept="Xl_RD" id="3L0rgZdAp2J" role="2BsfMF">
           <property role="Xl_RC" value="ESC_CON" />
         </node>
-        <node concept="Xl_RD" id="3L0rgZdArde" role="2BsfMF">
-          <property role="Xl_RC" value="0" />
-        </node>
         <node concept="Xl_RD" id="3L0rgZdAsm0" role="2BsfMF">
           <property role="Xl_RC" value="." />
+        </node>
+        <node concept="Xl_RD" id="3L0rgZdArde" role="2BsfMF">
+          <property role="Xl_RC" value="0" />
         </node>
         <node concept="Xl_RD" id="3L0rgZdAtbO" role="2BsfMF">
           <property role="Xl_RC" value="OK_CON" />

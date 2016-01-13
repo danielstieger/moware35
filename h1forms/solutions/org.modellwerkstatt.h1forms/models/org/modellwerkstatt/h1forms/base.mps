@@ -308,6 +308,7 @@
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
+      <concept id="1175845471038" name="jetbrains.mps.baseLanguage.collections.structure.ReverseOperation" flags="nn" index="35Qw8J" />
     </language>
   </registry>
   <node concept="312cEu" id="3h3MBx3irbo">
@@ -11980,6 +11981,24 @@
             </node>
             <node concept="liA8E" id="7RHNXGyZ47T" role="2OqNvi">
               <ref role="37wK5l" to="quhv:3nLGOmWsxPy" resolve="getAllCommandTriggers" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4$2JWatc0ps" role="3cqZAp">
+          <node concept="3SKdUq" id="4$2JWatc0Hu" role="3SKWNk">
+            <property role="3SKdUp" value="Fx8 positions triggers the other way round... " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4$2JWatbXCy" role="3cqZAp">
+          <node concept="37vLTI" id="4$2JWatbZiv" role="3clFbG">
+            <node concept="37vLTw" id="4$2JWatbZDD" role="37vLTJ">
+              <ref role="3cqZAo" node="7RHNXGyZ46K" resolve="triggers" />
+            </node>
+            <node concept="2OqwBi" id="4$2JWatbYaw" role="37vLTx">
+              <node concept="37vLTw" id="4$2JWatbXCw" role="2Oq$k0">
+                <ref role="3cqZAo" node="7RHNXGyZ46K" resolve="triggers" />
+              </node>
+              <node concept="35Qw8J" id="4$2JWatbYYZ" role="2OqNvi" />
             </node>
           </node>
         </node>
