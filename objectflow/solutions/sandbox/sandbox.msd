@@ -7,17 +7,6 @@
     <modelRoot contentPath="${mowareHome}/objectflow/languages/objectflow/jars" type="java_classes">
       <sourceRoot location="mail/mailapi.jar" />
       <sourceRoot location="mail/smtp.jar" />
-      <sourceRoot location="printing/avalon-framework-4.2.0.jar" />
-      <sourceRoot location="printing/barcode4j-fop-ext-complete.jar" />
-      <sourceRoot location="printing/batik-all-1.7.jar" />
-      <sourceRoot location="printing/commons-io-1.3.1.jar" />
-      <sourceRoot location="printing/fop.jar" />
-      <sourceRoot location="printing/serializer-2.7.0.jar" />
-      <sourceRoot location="printing/xalan-2.7.0.jar" />
-      <sourceRoot location="printing/xercesImpl-2.7.1.jar" />
-      <sourceRoot location="printing/xml-apis-1.3.04.jar" />
-      <sourceRoot location="printing/xml-apis-ext-1.3.04.jar" />
-      <sourceRoot location="printing/xmlgraphics-commons-1.4.jar" />
       <sourceRoot location="zoo/zookeeper-3.4.5.jar" />
       <sourceRoot location="org.springframework.aop-3.0.5.RELEASE.jar" />
       <sourceRoot location="org.springframework.asm-3.0.5.RELEASE.jar" />
@@ -25,22 +14,25 @@
       <sourceRoot location="org.springframework.expression-3.0.5.RELEASE.jar" />
       <sourceRoot location="log4j.jar" />
       <sourceRoot location="servlet-api.jar" />
+      <sourceRoot location="printing21/avalon-framework-api-4.3.1.jar" />
+      <sourceRoot location="printing21/avalon-framework-impl-4.3.1.jar" />
+      <sourceRoot location="printing21/barcode4j-fop-ext-complete.jar" />
+      <sourceRoot location="printing21/batik-all-1.8.jar" />
+      <sourceRoot location="printing21/commons-io-1.3.1.jar" />
+      <sourceRoot location="printing21/commons-logging-1.0.4.jar" />
+      <sourceRoot location="printing21/fontbox-1.8.5.jar" />
+      <sourceRoot location="printing21/fop.jar" />
+      <sourceRoot location="printing21/serializer-2.7.0.jar" />
+      <sourceRoot location="printing21/xalan-2.7.2.jar" />
+      <sourceRoot location="printing21/xercesImpl-2.9.1.jar" />
+      <sourceRoot location="printing21/xml-apis-1.3.04.jar" />
+      <sourceRoot location="printing21/xml-apis-ext-1.3.04.jar" />
+      <sourceRoot location="printing21/xmlgraphics-commons-2.1.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/mail/mailapi.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/mail/smtp.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/avalon-framework-4.2.0.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/barcode4j-fop-ext-complete.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/batik-all-1.7.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/commons-io-1.3.1.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/fop.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/serializer-2.7.0.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/xalan-2.7.0.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/xercesImpl-2.7.1.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/xml-apis-1.3.04.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/xml-apis-ext-1.3.04.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing/xmlgraphics-commons-1.4.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/slf4j-api-1.6.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/slf4j-log4j12-1.6.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/zookeeper-3.4.5.jar" />
@@ -52,6 +44,20 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.context-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.expression-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/servlet-api.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/avalon-framework-api-4.3.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/avalon-framework-impl-4.3.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/barcode4j-fop-ext-complete.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/batik-all-1.8.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/commons-io-1.3.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/commons-logging-1.0.4.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/fontbox-1.8.5.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/fop.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/serializer-2.7.0.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xalan-2.7.2.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xercesImpl-2.9.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xml-apis-1.3.04.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xml-apis-ext-1.3.04.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xmlgraphics-commons-2.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

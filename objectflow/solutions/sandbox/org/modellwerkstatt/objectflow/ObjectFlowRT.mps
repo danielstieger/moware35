@@ -38,6 +38,7 @@
     <import index="ls8u" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.management.remote.rmi(JDK/javax.management.remote.rmi@java_stub)" />
     <import index="tsi3" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#javax.servlet(org.modellwerkstatt.sandbox/javax.servlet@java_stub)" />
     <import index="vksr" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#javax.servlet.http(org.modellwerkstatt.sandbox/javax.servlet.http@java_stub)" />
+    <import index="yxeb" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.fop(org.modellwerkstatt.sandbox/org.apache.fop@java_stub)" />
     <import index="livf" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/org.apache.avalon.framework.configuration@java_stub)" implicit="true" />
     <import index="45gm" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" implicit="true" />
     <import index="6izi" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.management.remote(JDK/javax.management.remote@java_stub)" implicit="true" />
@@ -16806,28 +16807,14 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="6W0arkaL1de" role="3cqZAp" />
-                <node concept="3clFbF" id="71gz8lEdDZB" role="3cqZAp">
-                  <node concept="37vLTI" id="71gz8lEdDZC" role="3clFbG">
-                    <node concept="2YIFZM" id="71gz8lEdDZD" role="37vLTx">
-                      <ref role="1Pybhc" to="soh9:~FopFactory" resolve="FopFactory" />
-                      <ref role="37wK5l" to="soh9:~FopFactory.newInstance():org.apache.fop.apps.FopFactory" resolve="newInstance" />
-                    </node>
-                    <node concept="37vLTw" id="5$D5hh$gDb6" role="37vLTJ">
-                      <ref role="3cqZAo" node="7fkJcal9qcb" resolve="fopFactory" />
-                    </node>
+                <node concept="3SKdUt" id="1cDMcpHmgbk" role="3cqZAp">
+                  <node concept="3SKdUq" id="1cDMcpHmgig" role="3SKWNk">
+                    <property role="3SKdUp" value="fopFactory = FopFactory.newInstance()" />
                   </node>
                 </node>
-                <node concept="3clFbF" id="6W0arkaxHbn" role="3cqZAp">
-                  <node concept="2OqwBi" id="6W0arkaxOZ5" role="3clFbG">
-                    <node concept="37vLTw" id="5$D5hh$gDbg" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7fkJcal9qcb" resolve="fopFactory" />
-                    </node>
-                    <node concept="liA8E" id="6W0arkayFKu" role="2OqNvi">
-                      <ref role="37wK5l" to="soh9:~FopFactory.setUserConfig(org.apache.avalon.framework.configuration.Configuration):void" resolve="setUserConfig" />
-                      <node concept="37vLTw" id="6W0arkayL_d" role="37wK5m">
-                        <ref role="3cqZAo" node="6W0arkaxBtu" resolve="cfg" />
-                      </node>
-                    </node>
+                <node concept="3SKdUt" id="1cDMcpHkKLl" role="3cqZAp">
+                  <node concept="3SKdUq" id="1cDMcpHkKOH" role="3SKWNk">
+                    <property role="3SKdUp" value="fopFactory.setUserConfig(cfg)" />
                   </node>
                 </node>
                 <node concept="3clFbH" id="6W0arkaBzYx" role="3cqZAp" />
@@ -24572,6 +24559,71 @@
       <property role="od$2w" value="false" />
       <property role="DiZV1" value="false" />
       <node concept="3clFbS" id="5dZoziQwypf" role="3clF47">
+        <node concept="3SKdUt" id="7TFdhRDQBCo" role="3cqZAp">
+          <node concept="3SKWN0" id="7TFdhRDQBCp" role="3SKWNk">
+            <node concept="3clFbF" id="7TFdhRDLXKi" role="3SKWNf">
+              <node concept="2OqwBi" id="7TFdhRDLXKf" role="3clFbG">
+                <node concept="10M0yZ" id="7TFdhRDLXKg" role="2Oq$k0">
+                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                  <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="7TFdhRDLXKh" role="2OqNvi">
+                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="7TFdhRDLZmi" role="37wK5m">
+                    <node concept="37vLTw" id="7TFdhRDLZqq" role="3uHU7w">
+                      <ref role="3cqZAo" node="5dZoziQwyq8" resolve="val" />
+                    </node>
+                    <node concept="Xl_RD" id="7TFdhRDLZbx" role="3uHU7B">
+                      <property role="Xl_RC" value="Setting value to " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7TFdhRDQDha" role="3cqZAp">
+          <node concept="3SKWN0" id="7TFdhRDQDhb" role="3SKWNk">
+            <node concept="3clFbF" id="7TFdhRDM0Vn" role="3SKWNf">
+              <node concept="2OqwBi" id="7TFdhRDM0Vk" role="3clFbG">
+                <node concept="10M0yZ" id="7TFdhRDM0Vl" role="2Oq$k0">
+                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                  <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="7TFdhRDM0Vm" role="2OqNvi">
+                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="7TFdhRDM5yu" role="37wK5m">
+                    <node concept="2OqwBi" id="7TFdhRDM63C" role="3uHU7w">
+                      <node concept="37vLTw" id="7TFdhRDM5XC" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5dZoziQwyq8" resolve="val" />
+                      </node>
+                      <node concept="liA8E" id="7TFdhRDM6ig" role="2OqNvi">
+                        <ref role="37wK5l" to="w7gk:5dZoziQsIK$" resolve="getIM3Key" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="7TFdhRDM4Bt" role="3uHU7B">
+                      <node concept="3cpWs3" id="7TFdhRDM3jF" role="3uHU7B">
+                        <node concept="Xl_RD" id="7TFdhRDM2ps" role="3uHU7B">
+                          <property role="Xl_RC" value="Own key " />
+                        </node>
+                        <node concept="2OqwBi" id="7TFdhRDM3sW" role="3uHU7w">
+                          <node concept="Xjq3P" id="7TFdhRDM3l7" role="2Oq$k0" />
+                          <node concept="2OwXpG" id="7TFdhRDM3Sa" role="2OqNvi">
+                            <ref role="2Oxat5" node="5dZoziQwyok" resolve="key" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="7TFdhRDM4S4" role="3uHU7w">
+                        <property role="Xl_RC" value=" other key " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7TFdhRDQEXt" role="3cqZAp" />
         <node concept="3clFbJ" id="5dZoziQwypg" role="3cqZAp">
           <node concept="3clFbS" id="5dZoziQwyph" role="3clFbx">
             <node concept="3SKdUt" id="5dZoziQwypi" role="3cqZAp">
@@ -31062,7 +31114,7 @@
                 <node concept="liA8E" id="6j4XqQEtad0" role="2OqNvi">
                   <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="6j4XqQEtad1" role="37wK5m">
-                    <property role="Xl_RC" value="&lt;fop version=\&quot;1.0\&quot;&gt;" />
+                    <property role="Xl_RC" value="&lt;fop version=\&quot;2.1\&quot;&gt;" />
                   </node>
                 </node>
               </node>
@@ -31165,7 +31217,31 @@
                       <node concept="liA8E" id="6j4XqQEtadE" role="2OqNvi">
                         <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                         <node concept="Xl_RD" id="6j4XqQEtadF" role="37wK5m">
-                          <property role="Xl_RC" value="&lt;directory&gt;/usr/share/fonts&lt;/directory&gt;" />
+                          <property role="Xl_RC" value="&lt;directory&gt;/Library/fonts&lt;/directory&gt;" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="1cDMcpHt4$j" role="3cqZAp">
+                    <node concept="2OqwBi" id="1cDMcpHt4$l" role="3clFbG">
+                      <node concept="10M0yZ" id="1cDMcpHt4$m" role="2Oq$k0">
+                        <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                        <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                      </node>
+                      <node concept="liA8E" id="1cDMcpHt4$n" role="2OqNvi">
+                        <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="3cpWs3" id="1cDMcpHt5kQ" role="37wK5m">
+                          <node concept="2OqwBi" id="1cDMcpHt5HD" role="3uHU7w">
+                            <node concept="37vLTw" id="1cDMcpHt5vL" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6j4XqQEtacT" resolve="configString" />
+                            </node>
+                            <node concept="liA8E" id="1cDMcpHt9qc" role="2OqNvi">
+                              <ref role="37wK5l" to="e2lb:~StringBuilder.toString():java.lang.String" resolve="toString" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="1cDMcpHt4$o" role="3uHU7B">
+                            <property role="Xl_RC" value="Using directory " />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -31334,31 +31410,82 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="6j4XqQEtac6" role="3cqZAp" />
+                <node concept="3cpWs8" id="1cDMcpHnZHa" role="3cqZAp">
+                  <node concept="3cpWsn" id="1cDMcpHnZHb" role="3cpWs9">
+                    <property role="TrG5h" value="factoryBuilder" />
+                    <node concept="3uibUv" id="1cDMcpHnZHc" role="1tU5fm">
+                      <ref role="3uigEE" to="soh9:~FopFactoryBuilder" resolve="FopFactoryBuilder" />
+                    </node>
+                    <node concept="2OqwBi" id="1cDMcpHoR65" role="33vP2m">
+                      <node concept="2ShNRf" id="1cDMcpHoQhC" role="2Oq$k0">
+                        <node concept="1pGfFk" id="1cDMcpHoQa5" role="2ShVmc">
+                          <ref role="37wK5l" to="soh9:~FopFactoryBuilder.&lt;init&gt;(java.net.URI)" resolve="FopFactoryBuilder" />
+                          <node concept="2OqwBi" id="1cDMcpHpxEJ" role="37wK5m">
+                            <node concept="2ShNRf" id="1cDMcpHpwg_" role="2Oq$k0">
+                              <node concept="1pGfFk" id="1cDMcpHpwV3" role="2ShVmc">
+                                <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                                <node concept="Xl_RD" id="1cDMcpHpwWR" role="37wK5m">
+                                  <property role="Xl_RC" value="." />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="1cDMcpHpyCt" role="2OqNvi">
+                              <ref role="37wK5l" to="fxg7:~File.toURI():java.net.URI" resolve="toURI" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1cDMcpHoRrC" role="2OqNvi">
+                        <ref role="37wK5l" to="soh9:~FopFactoryBuilder.setConfiguration(org.apache.avalon.framework.configuration.Configuration):org.apache.fop.apps.FopFactoryBuilder" resolve="setConfiguration" />
+                        <node concept="37vLTw" id="1cDMcpHoRCx" role="37wK5m">
+                          <ref role="3cqZAo" node="6j4XqQEtabI" resolve="cfg" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="1cDMcpHo0ll" role="3cqZAp" />
                 <node concept="3clFbF" id="6j4XqQEtac7" role="3cqZAp">
                   <node concept="37vLTI" id="6j4XqQEtac8" role="3clFbG">
-                    <node concept="2YIFZM" id="6j4XqQEtac9" role="37vLTx">
-                      <ref role="1Pybhc" to="soh9:~FopFactory" resolve="FopFactory" />
-                      <ref role="37wK5l" to="soh9:~FopFactory.newInstance():org.apache.fop.apps.FopFactory" resolve="newInstance" />
+                    <node concept="2OqwBi" id="1cDMcpHob84" role="37vLTx">
+                      <node concept="37vLTw" id="1cDMcpHob6J" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1cDMcpHnZHb" resolve="factoryBuilder" />
+                      </node>
+                      <node concept="liA8E" id="1cDMcpHobkX" role="2OqNvi">
+                        <ref role="37wK5l" to="soh9:~FopFactoryBuilder.build():org.apache.fop.apps.FopFactory" resolve="build" />
+                      </node>
                     </node>
                     <node concept="37vLTw" id="6j4XqQEzD7G" role="37vLTJ">
                       <ref role="3cqZAo" node="6j4XqQEtaaY" resolve="fopFactory" />
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="6j4XqQEtaca" role="3cqZAp">
-                  <node concept="2OqwBi" id="6j4XqQEtacb" role="3clFbG">
-                    <node concept="37vLTw" id="6j4XqQEzDJX" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6j4XqQEtaaY" resolve="fopFactory" />
+                <node concept="3clFbH" id="1cDMcpHobtJ" role="3cqZAp" />
+                <node concept="3SKdUt" id="1cDMcpHjPef" role="3cqZAp">
+                  <node concept="3SKdUq" id="1cDMcpHjPoD" role="3SKWNk">
+                    <property role="3SKdUp" value="fopFactory.setUserConfig(cfg)" />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1cDMcpHrbYy" role="3cqZAp">
+                  <node concept="2OqwBi" id="1cDMcpHrbYv" role="3clFbG">
+                    <node concept="10M0yZ" id="1cDMcpHrbYw" role="2Oq$k0">
+                      <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                      <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
                     </node>
-                    <node concept="liA8E" id="6j4XqQEtacc" role="2OqNvi">
-                      <ref role="37wK5l" to="soh9:~FopFactory.setUserConfig(org.apache.avalon.framework.configuration.Configuration):void" resolve="setUserConfig" />
-                      <node concept="37vLTw" id="6j4XqQEtacd" role="37wK5m">
-                        <ref role="3cqZAo" node="6j4XqQEtabI" resolve="cfg" />
+                    <node concept="liA8E" id="1cDMcpHrbYx" role="2OqNvi">
+                      <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <node concept="3cpWs3" id="1cDMcpHre8U" role="37wK5m">
+                        <node concept="Xl_RD" id="1cDMcpHrcH4" role="3uHU7B">
+                          <property role="Xl_RC" value="FopFactory Version: " />
+                        </node>
+                        <node concept="2YIFZM" id="1cDMcpHsnZH" role="3uHU7w">
+                          <ref role="37wK5l" to="yxeb:~Version.getVersion():java.lang.String" resolve="getVersion" />
+                          <ref role="1Pybhc" to="yxeb:~Version" resolve="Version" />
+                        </node>
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="6j4XqQEtace" role="3cqZAp" />
               </node>
             </node>
             <node concept="3clFbJ" id="6j4XqQEtacf" role="3cqZAp">

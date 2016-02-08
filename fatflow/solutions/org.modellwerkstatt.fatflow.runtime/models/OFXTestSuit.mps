@@ -42,6 +42,9 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1177326519037" name="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" flags="nn" index="u8gfJ">
+        <child id="1177326540772" name="statement" index="u8lrQ" />
+      </concept>
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -213,6 +216,7 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
       </concept>
@@ -390,6 +394,7 @@
       <concept id="1881524139088778970" name="org.modellwerkstatt.objectflow.structure.ProcessDocumentReference" flags="ng" index="10EhbA">
         <reference id="1881524139088778971" name="processDocument" index="10EhbB" />
       </concept>
+      <concept id="2277748321858151924" name="org.modellwerkstatt.objectflow.structure.Containmentoption" flags="ng" index="33xdnN" />
       <concept id="4313579457188683399" name="org.modellwerkstatt.objectflow.structure.IOFXObject" flags="ng" index="13YVsI">
         <child id="3207218222495905601" name="businessProperties" index="TxmiU" />
       </concept>
@@ -410,6 +415,8 @@
       </concept>
       <concept id="8396343267227475961" name="org.modellwerkstatt.objectflow.structure.BusinessProperty" flags="ig" index="1bOX9e">
         <child id="3674496190757459099" name="propertyOption" index="0orDa" />
+        <child id="5770301300929026308" name="longDesc" index="2CNmdL" />
+        <child id="5770301300929026304" name="shortDesc" index="2CNmdP" />
       </concept>
       <concept id="7303581843789659047" name="org.modellwerkstatt.objectflow.structure.FakeViewConceptParam" flags="ng" index="3eibdq" />
       <concept id="4152417163566536218" name="org.modellwerkstatt.objectflow.structure.IViewForPage" flags="ng" index="3gfwXM">
@@ -495,7 +502,59 @@
       <concept id="2665553595289276900" name="org.modellwerkstatt.objectflow.structure.PermissionHasReference" flags="ng" index="1G1AcV" />
     </language>
     <language id="5aaa957f-3447-4783-b1f7-b301fa3e0394" name="org.modellwerkstatt.manmap">
+      <concept id="774207833082734171" name="org.modellwerkstatt.manmap.structure.WhereQuery" flags="ng" index="jxyYR">
+        <child id="774207833082734172" name="filter" index="jxyYK" />
+      </concept>
+      <concept id="774207833082573402" name="org.modellwerkstatt.manmap.structure.QueryFromMap" flags="ng" index="jybIQ">
+        <property id="3572493221071471725" name="readOnly" index="HScZ5" />
+        <property id="8660793628824932667" name="debugMe" index="1v8G3g" />
+        <child id="774207833082779687" name="queryOperation" index="jxX7b" />
+      </concept>
       <concept id="774207833082557389" name="org.modellwerkstatt.manmap.structure.KeyOption" flags="ng" index="jyRCx" />
+      <concept id="774207833082557394" name="org.modellwerkstatt.manmap.structure.AutoidOption" flags="ng" index="jyRCY">
+        <child id="774207833082557396" name="sequenceName" index="jyRCS" />
+      </concept>
+      <concept id="8172309840348950202" name="org.modellwerkstatt.manmap.structure.INeedsClassMapper" flags="ng" index="P14SU">
+        <reference id="8172309840348950203" name="entityMapping" index="P14SV" />
+      </concept>
+      <concept id="8172309840348863378" name="org.modellwerkstatt.manmap.structure.SaveWithMap" flags="ng" index="P1rGi">
+        <child id="8172309840348863385" name="expression" index="P1rGp" />
+      </concept>
+      <concept id="871579071900331994" name="org.modellwerkstatt.manmap.structure.ListMapping" flags="ng" index="12kdtm">
+        <reference id="871579071900331999" name="property" index="12kdtj" />
+        <child id="7754962537266881395" name="mappedfieldRef" index="1VRwC$" />
+      </concept>
+      <concept id="871579071900124823" name="org.modellwerkstatt.manmap.structure.PersistenceDescription" flags="ng" index="12nvSr">
+        <child id="871579071900209323" name="entityReference" index="12nEwB" />
+        <child id="871579071900209328" name="persistenceMapping" index="12nEwW" />
+      </concept>
+      <concept id="871579071900209258" name="org.modellwerkstatt.manmap.structure.EntityMapping" flags="ng" index="12nEzA">
+        <reference id="871579071900233967" name="classConcept" index="12nOxz" />
+        <child id="871579071901472001" name="tableName" index="12gAQd" />
+      </concept>
+      <concept id="871579071900209251" name="org.modellwerkstatt.manmap.structure.FieldMapping" flags="ng" index="12nEzJ">
+        <reference id="871579071900248751" name="property" index="12nL8z" />
+        <child id="774207833082375248" name="mappingOption" index="jzqmW" />
+        <child id="871579071900290535" name="fieldName" index="12k7lF" />
+      </concept>
+      <concept id="871579071900209276" name="org.modellwerkstatt.manmap.structure.EntityReference" flags="ng" index="12nEzK">
+        <reference id="871579071900209277" name="classConcept" index="12nEzL" />
+      </concept>
+      <concept id="871579071900248872" name="org.modellwerkstatt.manmap.structure.IMapsClassConcept" flags="ng" index="12nLe$">
+        <child id="4557816287827057767" name="mapping" index="3caO6$" />
+      </concept>
+      <concept id="8440420766105723374" name="org.modellwerkstatt.manmap.structure.ReferenceMapping" flags="ng" index="3rFogp">
+        <reference id="8440420766105723376" name="property" index="3rFog7" />
+        <child id="8440420766105755066" name="keyMapping" index="3rGzxd" />
+      </concept>
+      <concept id="1974135804380344167" name="org.modellwerkstatt.manmap.structure.MappingReference" flags="ng" index="3_7ulE">
+        <reference id="5159282717680535116" name="fieldMapping" index="2OG787" />
+        <reference id="1974135804380645439" name="mappingSource" index="3_688M" />
+      </concept>
+      <concept id="7754962537266810665" name="org.modellwerkstatt.manmap.structure.MappedFieldRef" flags="ng" index="1VRMpY">
+        <reference id="7754962537266810667" name="refMapping" index="1VRMpW" />
+        <reference id="7754962537266810666" name="entityMapping" index="1VRMpX" />
+      </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -517,6 +576,9 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
+      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
+        <child id="540871147943773366" name="argument" index="25WWJ7" />
+      </concept>
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
@@ -535,6 +597,7 @@
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
+      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
@@ -9798,7 +9861,7 @@
   <node concept="2CG7Z0" id="33KhHQReT6s">
     <property role="3GE5qa" value="" />
     <property role="TrG5h" value="LolaTestConfig" />
-    <property role="2320hu" value="2014-09-16T17:50:56.196+01:00" />
+    <property role="2320hu" value="2016-02-04T09:24:21.590Z" />
     <node concept="2CPvp3" id="7ubUX52OCZu" role="2CGBMS" />
     <node concept="2CJf3v" id="7ubUX52OD1L" role="2CGBMS">
       <property role="TrG5h" value="inbox" />
@@ -9866,148 +9929,1361 @@
     <node concept="2CPvp3" id="O0URhPoQud" role="2CGBMS" />
     <node concept="2CJoq6" id="33KhHQReThu" role="2CGBMS">
       <property role="TrG5h" value="AUTO_CALC" />
-      <node concept="2CJf3v" id="7ubUX52Oict" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZ4" role="2CJdiS">
+        <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.MapXbuch" />
+        <node concept="Xl_RD" id="7TFdhRDiHZ5" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.MapXbuch" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="7TFdhRDiHZ6" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProfZeile" />
-        <node concept="Xl_RD" id="7ubUX52Oicu" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZ7" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProfZeile" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52Oicv" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZ8" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProforma" />
-        <node concept="Xl_RD" id="7ubUX52Oicw" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZ9" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProforma" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52Oicx" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZa" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapExtendedProforma" />
-        <node concept="Xl_RD" id="7ubUX52Oicy" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZb" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapExtendedProforma" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52Oicz" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZc" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject_VARIANTS" />
-        <node concept="Xl_RD" id="7ubUX52Oic$" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZd" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject_VARIANTS" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52Oic_" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZe" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject" />
-        <node concept="Xl_RD" id="7ubUX52OicA" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZf" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicB" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZg" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObjectREF" />
-        <node concept="Xl_RD" id="7ubUX52OicC" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZh" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObjectREF" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicD" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZi" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapStringKeyObject" />
-        <node concept="Xl_RD" id="7ubUX52OicE" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZj" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapStringKeyObject" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicF" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZk" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStand" />
-        <node concept="Xl_RD" id="7ubUX52OicG" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZl" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStand" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicH" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZm" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObject" />
-        <node concept="Xl_RD" id="7ubUX52OicI" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZn" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObject" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicJ" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZo" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectKontoStand" />
-        <node concept="Xl_RD" id="7ubUX52OicK" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZp" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectKontoStand" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicL" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZq" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStandChild" />
-        <node concept="Xl_RD" id="7ubUX52OicM" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZr" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStandChild" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicN" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZs" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectParent" />
-        <node concept="Xl_RD" id="7ubUX52OicO" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZt" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectParent" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicP" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZu" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectDouble" />
-        <node concept="Xl_RD" id="7ubUX52OicQ" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZv" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectDouble" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicR" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZw" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapMyEntity" />
-        <node concept="Xl_RD" id="7ubUX52OicS" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZx" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapMyEntity" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicT" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZy" role="2CJdiS">
         <property role="TrG5h" value="__testProcess" />
-        <node concept="Xl_RD" id="7ubUX52OicU" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZz" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.TestProcess" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicV" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZ$" role="2CJdiS">
         <property role="TrG5h" value="__simpleService" />
-        <node concept="Xl_RD" id="7ubUX52OicW" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZ_" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.SimpleService" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicX" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZA" role="2CJdiS">
         <property role="TrG5h" value="__serverTimeService" />
-        <node concept="Xl_RD" id="7ubUX52OicY" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZB" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.ServerTimeService" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52OicZ" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZC" role="2CJdiS">
         <property role="TrG5h" value="__aktTestDaten" />
-        <node concept="Xl_RD" id="7ubUX52Oid0" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZD" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.AktTestDaten" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52Oid1" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZE" role="2CJdiS">
         <property role="TrG5h" value="__aktRepository" />
-        <node concept="Xl_RD" id="7ubUX52Oid2" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZF" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.AktRepository" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52Oid3" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZG" role="2CJdiS">
         <property role="TrG5h" value="__t1_AktProzess" />
-        <node concept="Xl_RD" id="7ubUX52Oid4" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZH" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.T1_AktProzess" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52Oid5" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZI" role="2CJdiS">
         <property role="TrG5h" value="__testRoles" />
-        <node concept="Xl_RD" id="7ubUX52Oid6" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZJ" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.TestRoles" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52Oid7" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZK" role="2CJdiS">
+        <property role="TrG5h" value="__xBUCHRepo" />
+        <node concept="Xl_RD" id="7TFdhRDiHZL" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.XBUCHRepo" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="7TFdhRDiHZM" role="2CJdiS">
         <property role="TrG5h" value="__testModelRepo" />
-        <node concept="Xl_RD" id="7ubUX52Oid8" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZN" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.TestModelRepo" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52Oid9" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZO" role="2CJdiS">
         <property role="TrG5h" value="__complexQueries" />
-        <node concept="Xl_RD" id="7ubUX52Oida" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZP" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.ComplexQueries" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7ubUX52Oidb" role="2CJdiS">
+      <node concept="2CJf3v" id="7TFdhRDiHZQ" role="2CJdiS">
         <property role="TrG5h" value="__basicData" />
-        <node concept="Xl_RD" id="7ubUX52Oidc" role="2CJf0U">
+        <node concept="Xl_RD" id="7TFdhRDiHZR" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.BasicData" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="12nvSr" id="3qCH$MeatPd">
+    <property role="3GE5qa" value="TestBuch" />
+    <node concept="12nEzK" id="3qCH$MeatPf" role="12nEwB">
+      <ref role="12nEzL" node="3qCH$MeapJc" resolve="Xbuch" />
+    </node>
+    <node concept="12nEzA" id="3qCH$MeatPi" role="12nEwW">
+      <property role="TrG5h" value="MapXbuch" />
+      <ref role="12nOxz" node="3qCH$MeapJc" resolve="Xbuch" />
+      <node concept="Xl_RD" id="3qCH$MeatPj" role="12gAQd">
+        <property role="Xl_RC" value="XBUCH" />
+      </node>
+      <node concept="12nEzJ" id="3qCH$MeatPO" role="3caO6$">
+        <ref role="12nL8z" node="3qCH$Meaqq9" resolve="id" />
+        <node concept="Xl_RD" id="3qCH$MeatPP" role="12k7lF">
+          <property role="Xl_RC" value="ID" />
+        </node>
+        <node concept="jyRCY" id="3qCH$MecsJ3" role="jzqmW">
+          <node concept="Xl_RD" id="3qCH$MecsJ4" role="jyRCS">
+            <property role="Xl_RC" value="S_XBUCH" />
+          </node>
+        </node>
+      </node>
+      <node concept="12nEzJ" id="3qCH$MeatPQ" role="3caO6$">
+        <ref role="12nL8z" node="3qCH$MeaqsT" resolve="typ" />
+        <node concept="Xl_RD" id="3qCH$MeatPR" role="12k7lF">
+          <property role="Xl_RC" value="TYP" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="Ue_lmNq0Sc" role="3caO6$">
+        <ref role="12nL8z" node="Ue_lmNpUJW" resolve="nrBuch" />
+        <node concept="Xl_RD" id="Ue_lmNq0Se" role="12k7lF">
+          <property role="Xl_RC" value="NUM_BUCH" />
+        </node>
+      </node>
+      <node concept="3rFogp" id="3qCH$MeatTe" role="3caO6$">
+        <ref role="3rFog7" node="3qCH$Meaqup" resolve="sammelBuch" />
+        <node concept="12nEzJ" id="3qCH$MeatTR" role="3rGzxd">
+          <ref role="12nL8z" node="3qCH$Meaqq9" resolve="id" />
+          <node concept="Xl_RD" id="3qCH$MeatTT" role="12k7lF">
+            <property role="Xl_RC" value="REF_XBUCH" />
+          </node>
+        </node>
+      </node>
+      <node concept="12kdtm" id="3qCH$MeatXF" role="3caO6$">
+        <ref role="12kdtj" node="3qCH$Meaqwn" resolve="teilBuchungen" />
+        <node concept="1VRMpY" id="3qCH$MeatZV" role="1VRwC$">
+          <ref role="1VRMpX" node="3qCH$MeatPi" resolve="MapXbuch" />
+          <ref role="1VRMpW" node="3qCH$MeatTe" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2fsTSP" id="3qCH$Meb5wc">
+    <property role="3GE5qa" value="TestBuch" />
+    <property role="TrG5h" value="TestXBUCH" />
+    <ref role="2f14OA" node="33KhHQReT6s" resolve="LolaTestConfig" />
+    <node concept="3Tm1VV" id="3qCH$Meb5wd" role="1B3o_S" />
+    <node concept="2fsTSr" id="3qCH$Meb5we" role="2fsTST">
+      <property role="TrG5h" value="TEST_0" />
+      <property role="1gD0iH" value="EXECUTE" />
+      <node concept="3cqZAl" id="3qCH$Meb5wg" role="3clF45" />
+      <node concept="3Tm1VV" id="3qCH$Meb5wh" role="1B3o_S" />
+      <node concept="Xl_RD" id="3qCH$Meb5wj" role="2fsTSx">
+        <property role="Xl_RC" value="Sammelbuchung einchecken" />
+      </node>
+      <node concept="3clFbS" id="3qCH$Meb5wk" role="3clF47">
+        <node concept="3cpWs8" id="3qCH$Meb5A2" role="3cqZAp">
+          <node concept="3cpWsn" id="3qCH$Meb5A5" role="3cpWs9">
+            <property role="TrG5h" value="teilBuchungen" />
+            <node concept="_YKpA" id="3qCH$Meb5_Y" role="1tU5fm">
+              <node concept="3uibUv" id="3qCH$Meb5AL" role="_ZDj9">
+                <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="Ue_lmNqa0$" role="3cqZAp">
+          <node concept="3cpWsn" id="Ue_lmNqa0B" role="3cpWs9">
+            <property role="TrG5h" value="sammelBuchungen" />
+            <node concept="_YKpA" id="Ue_lmNqa0w" role="1tU5fm">
+              <node concept="3uibUv" id="Ue_lmNqa3_" role="_ZDj9">
+                <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNqpLI" role="3cqZAp" />
+        <node concept="3cpWs8" id="Ue_lmNqach" role="3cqZAp">
+          <node concept="3cpWsn" id="Ue_lmNqack" role="3cpWs9">
+            <property role="TrG5h" value="nrBuch" />
+            <node concept="10Oyi0" id="Ue_lmNqacf" role="1tU5fm" />
+            <node concept="3cmrfG" id="Ue_lmNqagt" role="33vP2m">
+              <property role="3cmrfH" value="1" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3qCH$Med301" role="3cqZAp">
+          <node concept="37vLTI" id="3qCH$Med303" role="3clFbG">
+            <node concept="2ShNRf" id="3qCH$Meb5M3" role="37vLTx">
+              <node concept="Tc6Ow" id="3qCH$Meb5LT" role="2ShVmc">
+                <node concept="3uibUv" id="3qCH$Meb5LU" role="HW$YZ">
+                  <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+                </node>
+                <node concept="2ShNRf" id="3qCH$Meb5NH" role="HW$Y0">
+                  <node concept="1pGfFk" id="3qCH$Meb5NI" role="2ShVmc">
+                    <ref role="37wK5l" node="Ue_lmNq7EL" resolve="Xbuch" />
+                    <node concept="37vLTw" id="Ue_lmNqahn" role="37wK5m">
+                      <ref role="3cqZAo" node="Ue_lmNqack" resolve="nrBuch" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="3qCH$Meb5P9" role="HW$Y0">
+                  <node concept="1pGfFk" id="3qCH$Meb5Pa" role="2ShVmc">
+                    <ref role="37wK5l" node="Ue_lmNq7EL" resolve="Xbuch" />
+                    <node concept="37vLTw" id="Ue_lmNqajG" role="37wK5m">
+                      <ref role="3cqZAo" node="Ue_lmNqack" resolve="nrBuch" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="3qCH$Meb5QG" role="HW$Y0">
+                  <node concept="1pGfFk" id="3qCH$Meb5QH" role="2ShVmc">
+                    <ref role="37wK5l" node="Ue_lmNq7EL" resolve="Xbuch" />
+                    <node concept="37vLTw" id="Ue_lmNqalZ" role="37wK5m">
+                      <ref role="3cqZAo" node="Ue_lmNqack" resolve="nrBuch" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="3qCH$Meb5SI" role="HW$Y0">
+                  <node concept="1pGfFk" id="3qCH$Meb5SJ" role="2ShVmc">
+                    <ref role="37wK5l" node="Ue_lmNq7EL" resolve="Xbuch" />
+                    <node concept="37vLTw" id="Ue_lmNqb8_" role="37wK5m">
+                      <ref role="3cqZAo" node="Ue_lmNqack" resolve="nrBuch" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="3qCH$Med307" role="37vLTJ">
+              <ref role="3cqZAo" node="3qCH$Meb5A5" resolve="teilBuchungen" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNq8xH" role="3cqZAp">
+          <node concept="2OqwBi" id="Ue_lmNq8HI" role="3clFbG">
+            <node concept="37vLTw" id="Ue_lmNq8xF" role="2Oq$k0">
+              <ref role="3cqZAo" node="3qCH$Meb5A5" resolve="teilBuchungen" />
+            </node>
+            <node concept="2es0OD" id="Ue_lmNq9jJ" role="2OqNvi">
+              <node concept="1bVj0M" id="Ue_lmNq9jL" role="23t8la">
+                <node concept="3clFbS" id="Ue_lmNq9jM" role="1bW5cS">
+                  <node concept="3clFbF" id="Ue_lmNq9lR" role="3cqZAp">
+                    <node concept="1odsa" id="Ue_lmNq9lQ" role="3clFbG">
+                      <ref role="37wK5l" node="3qCH$Meau4S" resolve="checkinXBUCH" />
+                      <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+                      <node concept="37vLTw" id="Ue_lmNq9qU" role="37wK5m">
+                        <ref role="3cqZAo" node="Ue_lmNq9jN" resolve="it" />
+                      </node>
+                      <node concept="10Nm6u" id="Ue_lmNq9t3" role="2f8TIa" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="Ue_lmNq9jN" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="Ue_lmNq9jO" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNq8ke" role="3cqZAp" />
+        <node concept="3clFbF" id="3qCH$Med3hW" role="3cqZAp">
+          <node concept="37vLTI" id="3qCH$Med3v_" role="3clFbG">
+            <node concept="1odsa" id="3qCH$Med3ww" role="37vLTx">
+              <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+              <ref role="37wK5l" node="3qCH$Med3$t" resolve="checkoutTeilbuchungen" />
+              <node concept="10Nm6u" id="3qCH$MedEQh" role="2f8TIa" />
+              <node concept="37vLTw" id="Ue_lmNqbaP" role="37wK5m">
+                <ref role="3cqZAo" node="Ue_lmNqack" resolve="nrBuch" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3qCH$Med3hU" role="37vLTJ">
+              <ref role="3cqZAo" node="3qCH$Meb5A5" resolve="teilBuchungen" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNq9Eo" role="3cqZAp" />
+        <node concept="3cpWs8" id="3qCH$Meb5Vd" role="3cqZAp">
+          <node concept="3cpWsn" id="3qCH$Meb5Ve" role="3cpWs9">
+            <property role="TrG5h" value="sammelBuch" />
+            <node concept="3uibUv" id="3qCH$Meb5Vf" role="1tU5fm">
+              <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+            </node>
+            <node concept="GOFnM" id="3qCH$Meb5Wk" role="33vP2m">
+              <node concept="3uibUv" id="3qCH$Meb5Wm" role="115eGp">
+                <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+              </node>
+              <node concept="GOFnK" id="Ue_lmNq9Tu" role="GOFnN">
+                <ref role="1bDdzG" node="Ue_lmNpUJW" resolve="nrBuch" />
+                <node concept="37vLTw" id="Ue_lmNqbc9" role="1bDdzI">
+                  <ref role="3cqZAo" node="Ue_lmNqack" resolve="nrBuch" />
+                </node>
+              </node>
+              <node concept="GOFnK" id="3qCH$Meb5WW" role="GOFnN">
+                <ref role="1bDdzG" node="3qCH$MeaqsT" resolve="typ" />
+                <node concept="2XvMaL" id="3qCH$Meb610" role="1bDdzI">
+                  <ref role="2XvMaQ" node="3qCH$MeaqsG" resolve="TypXBuch" />
+                  <ref role="1Vchh_" node="3qCH$MeaqsQ" resolve="S" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7TFdhRDjSU5" role="3cqZAp" />
+        <node concept="3clFbF" id="Ue_lmNqjFd" role="3cqZAp">
+          <node concept="1odsa" id="Ue_lmNqjFe" role="3clFbG">
+            <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+            <ref role="37wK5l" node="3qCH$Meau4S" resolve="checkinXBUCH" />
+            <node concept="37vLTw" id="Ue_lmNqjFf" role="37wK5m">
+              <ref role="3cqZAo" node="3qCH$Meb5Ve" resolve="sammelBuch" />
+            </node>
+            <node concept="10Nm6u" id="Ue_lmNqjFg" role="2f8TIa" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNqqPl" role="3cqZAp">
+          <node concept="37vLTI" id="Ue_lmNqrqE" role="3clFbG">
+            <node concept="37vLTw" id="Ue_lmNqqPj" role="37vLTJ">
+              <ref role="3cqZAo" node="Ue_lmNqa0B" resolve="sammelBuchungen" />
+            </node>
+            <node concept="1odsa" id="Ue_lmNqrs7" role="37vLTx">
+              <ref role="37wK5l" node="Ue_lmNq32X" resolve="checkoutSammelbuchungen" />
+              <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+              <node concept="37vLTw" id="Ue_lmNqrs8" role="37wK5m">
+                <ref role="3cqZAo" node="Ue_lmNqack" resolve="nrBuch" />
+              </node>
+              <node concept="10Nm6u" id="Ue_lmNqrs9" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7TFdhRDjSNN" role="3cqZAp" />
+        <node concept="3clFbF" id="7TFdhRDkXVC" role="3cqZAp">
+          <node concept="2OqwBi" id="7TFdhRDkXV_" role="3clFbG">
+            <node concept="10M0yZ" id="7TFdhRDkXVA" role="2Oq$k0">
+              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="7TFdhRDkXVB" role="2OqNvi">
+              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="7TFdhRDkYgj" role="37wK5m">
+                <node concept="2OqwBi" id="7TFdhRDkYuD" role="3uHU7w">
+                  <node concept="37vLTw" id="7TFdhRDkYi3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Ue_lmNqa0B" resolve="sammelBuchungen" />
+                  </node>
+                  <node concept="34oBXx" id="7TFdhRDkYMk" role="2OqNvi" />
+                </node>
+                <node concept="Xl_RD" id="7TFdhRDkY2J" role="3uHU7B">
+                  <property role="Xl_RC" value="Sammelbuchungen size " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="Ue_lmNqrK3" role="3cqZAp">
+          <node concept="3clFbC" id="Ue_lmNqrK4" role="1gVkn0">
+            <node concept="3cmrfG" id="Ue_lmNqrK5" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2OqwBi" id="Ue_lmNqrK6" role="3uHU7B">
+              <node concept="37vLTw" id="Ue_lmNqrK7" role="2Oq$k0">
+                <ref role="3cqZAo" node="Ue_lmNqa0B" resolve="sammelBuchungen" />
+              </node>
+              <node concept="34oBXx" id="Ue_lmNqrK8" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="Xl_RD" id="Ue_lmNs4VQ" role="1gVpfI">
+            <property role="Xl_RC" value="Es wirg geneau eineSammelbuchung erwaretet" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNqs48" role="3cqZAp">
+          <node concept="37vLTI" id="Ue_lmNqs49" role="3clFbG">
+            <node concept="2OqwBi" id="Ue_lmNqs4a" role="37vLTx">
+              <node concept="37vLTw" id="Ue_lmNqs4b" role="2Oq$k0">
+                <ref role="3cqZAo" node="Ue_lmNqa0B" resolve="sammelBuchungen" />
+              </node>
+              <node concept="1uHKPH" id="Ue_lmNqs4c" role="2OqNvi" />
+            </node>
+            <node concept="37vLTw" id="Ue_lmNqs4d" role="37vLTJ">
+              <ref role="3cqZAo" node="3qCH$Meb5Ve" resolve="sammelBuch" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNqtaW" role="3cqZAp" />
+        <node concept="3clFbF" id="3qCH$Meb673" role="3cqZAp">
+          <node concept="2OqwBi" id="3qCH$Meb6hd" role="3clFbG">
+            <node concept="37vLTw" id="3qCH$Meb671" role="2Oq$k0">
+              <ref role="3cqZAo" node="3qCH$Meb5A5" resolve="teilBuchungen" />
+            </node>
+            <node concept="2es0OD" id="3qCH$Meb6R8" role="2OqNvi">
+              <node concept="1bVj0M" id="3qCH$Meb6Ra" role="23t8la">
+                <node concept="3clFbS" id="3qCH$Meb6Rb" role="1bW5cS">
+                  <node concept="3clFbF" id="3qCH$Meb6Tq" role="3cqZAp">
+                    <node concept="2OqwBi" id="3qCH$Meb6W2" role="3clFbG">
+                      <node concept="37vLTw" id="3qCH$Meb6Tp" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3qCH$Meb5Ve" resolve="sammelBuch" />
+                      </node>
+                      <node concept="liA8E" id="3qCH$Meb77G" role="2OqNvi">
+                        <ref role="37wK5l" node="3qCH$Meb7h7" resolve="addTeilBuchung" />
+                        <node concept="37vLTw" id="3qCH$MebfHW" role="37wK5m">
+                          <ref role="3cqZAo" node="3qCH$Meb6Rc" resolve="it" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="3qCH$Meb6Rc" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="3qCH$Meb6Rd" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3qCH$MebfOo" role="3cqZAp">
+          <node concept="1odsa" id="3qCH$MebfOm" role="3clFbG">
+            <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+            <ref role="37wK5l" node="3qCH$Meau4S" resolve="checkinXBUCH" />
+            <node concept="37vLTw" id="3qCH$MebfSa" role="37wK5m">
+              <ref role="3cqZAo" node="3qCH$Meb5Ve" resolve="sammelBuch" />
+            </node>
+            <node concept="10Nm6u" id="3qCH$MebfSz" role="2f8TIa" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNqlc1" role="3cqZAp">
+          <node concept="37vLTI" id="Ue_lmNqlc3" role="3clFbG">
+            <node concept="1odsa" id="Ue_lmNqa5f" role="37vLTx">
+              <ref role="37wK5l" node="Ue_lmNq32X" resolve="checkoutSammelbuchungen" />
+              <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+              <node concept="37vLTw" id="Ue_lmNqbcH" role="37wK5m">
+                <ref role="3cqZAo" node="Ue_lmNqack" resolve="nrBuch" />
+              </node>
+              <node concept="10Nm6u" id="Ue_lmNqa7_" role="2f8TIa" />
+            </node>
+            <node concept="37vLTw" id="Ue_lmNqlc7" role="37vLTJ">
+              <ref role="3cqZAo" node="Ue_lmNqa0B" resolve="sammelBuchungen" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNqtS6" role="3cqZAp" />
+        <node concept="1gVbGN" id="Ue_lmNqbhA" role="3cqZAp">
+          <node concept="3clFbC" id="Ue_lmNqcGQ" role="1gVkn0">
+            <node concept="3cmrfG" id="Ue_lmNqcIm" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2OqwBi" id="Ue_lmNqb$a" role="3uHU7B">
+              <node concept="37vLTw" id="Ue_lmNqblR" role="2Oq$k0">
+                <ref role="3cqZAo" node="Ue_lmNqa0B" resolve="sammelBuchungen" />
+              </node>
+              <node concept="34oBXx" id="Ue_lmNqca9" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="Xl_RD" id="Ue_lmNs4Uj" role="1gVpfI">
+            <property role="Xl_RC" value="Es wirg geneau eineSammelbuchung erwaretet" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNqh11" role="3cqZAp">
+          <node concept="37vLTI" id="Ue_lmNqha7" role="3clFbG">
+            <node concept="2OqwBi" id="Ue_lmNqhpj" role="37vLTx">
+              <node concept="37vLTw" id="Ue_lmNqhb8" role="2Oq$k0">
+                <ref role="3cqZAo" node="Ue_lmNqa0B" resolve="sammelBuchungen" />
+              </node>
+              <node concept="1uHKPH" id="Ue_lmNqhGx" role="2OqNvi" />
+            </node>
+            <node concept="37vLTw" id="Ue_lmNqh0Z" role="37vLTJ">
+              <ref role="3cqZAo" node="3qCH$Meb5Ve" resolve="sammelBuch" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNqgS7" role="3cqZAp" />
+        <node concept="1gVbGN" id="Ue_lmNqcOa" role="3cqZAp">
+          <node concept="3clFbC" id="Ue_lmNqfWu" role="1gVkn0">
+            <node concept="3cmrfG" id="Ue_lmNqfZO" role="3uHU7w">
+              <property role="3cmrfH" value="4" />
+            </node>
+            <node concept="2OqwBi" id="Ue_lmNqeKI" role="3uHU7B">
+              <node concept="2OqwBi" id="Ue_lmNqe1y" role="2Oq$k0">
+                <node concept="37vLTw" id="Ue_lmNqhLp" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3qCH$Meb5Ve" resolve="sammelBuch" />
+                </node>
+                <node concept="2S8uIT" id="Ue_lmNqenA" role="2OqNvi">
+                  <ref role="2S8YL0" node="3qCH$Meaqwn" resolve="teilBuchungen" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="Ue_lmNqfp1" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3cpWs3" id="Ue_lmNs3EF" role="1gVpfI">
+            <node concept="Xl_RD" id="Ue_lmNs3ES" role="3uHU7w">
+              <property role="Xl_RC" value=" ( 4 Erwartet)" />
+            </node>
+            <node concept="3cpWs3" id="Ue_lmNs1ql" role="3uHU7B">
+              <node concept="Xl_RD" id="Ue_lmNs1fw" role="3uHU7B">
+                <property role="Xl_RC" value="Anzahl Teilbuchunen: " />
+              </node>
+              <node concept="2OqwBi" id="Ue_lmNs2vh" role="3uHU7w">
+                <node concept="2OqwBi" id="Ue_lmNs23k" role="2Oq$k0">
+                  <node concept="37vLTw" id="Ue_lmNs20q" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3qCH$Meb5Ve" resolve="sammelBuch" />
+                  </node>
+                  <node concept="2S8uIT" id="Ue_lmNs2dN" role="2OqNvi">
+                    <ref role="2S8YL0" node="3qCH$Meaqwn" resolve="teilBuchungen" />
+                  </node>
+                </node>
+                <node concept="34oBXx" id="Ue_lmNs37U" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNq9MX" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="2fsTSr" id="Ue_lmNpUyn" role="2fsTST">
+      <property role="TrG5h" value="TEST_0" />
+      <property role="1gD0iH" value="EXECUTE" />
+      <node concept="3cqZAl" id="Ue_lmNpUyo" role="3clF45" />
+      <node concept="3Tm1VV" id="Ue_lmNpUyp" role="1B3o_S" />
+      <node concept="Xl_RD" id="Ue_lmNpUyq" role="2fsTSx">
+        <property role="Xl_RC" value="Sammelbuchung nicht einchecken" />
+      </node>
+      <node concept="3clFbS" id="Ue_lmNpUyr" role="3clF47">
+        <node concept="3cpWs8" id="Ue_lmNquha" role="3cqZAp">
+          <node concept="3cpWsn" id="Ue_lmNquhb" role="3cpWs9">
+            <property role="TrG5h" value="teilBuchungen" />
+            <node concept="_YKpA" id="Ue_lmNquhc" role="1tU5fm">
+              <node concept="3uibUv" id="Ue_lmNquhd" role="_ZDj9">
+                <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="Ue_lmNquhe" role="3cqZAp">
+          <node concept="3cpWsn" id="Ue_lmNquhf" role="3cpWs9">
+            <property role="TrG5h" value="sammelBuchungen" />
+            <node concept="_YKpA" id="Ue_lmNquhg" role="1tU5fm">
+              <node concept="3uibUv" id="Ue_lmNquhh" role="_ZDj9">
+                <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNquhi" role="3cqZAp" />
+        <node concept="3cpWs8" id="Ue_lmNquhj" role="3cqZAp">
+          <node concept="3cpWsn" id="Ue_lmNquhk" role="3cpWs9">
+            <property role="TrG5h" value="nrBuch" />
+            <node concept="10Oyi0" id="Ue_lmNquhl" role="1tU5fm" />
+            <node concept="3cmrfG" id="Ue_lmNsKAF" role="33vP2m">
+              <property role="3cmrfH" value="2" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNquhn" role="3cqZAp">
+          <node concept="37vLTI" id="Ue_lmNquho" role="3clFbG">
+            <node concept="2ShNRf" id="Ue_lmNquhp" role="37vLTx">
+              <node concept="Tc6Ow" id="Ue_lmNquhq" role="2ShVmc">
+                <node concept="3uibUv" id="Ue_lmNquhr" role="HW$YZ">
+                  <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+                </node>
+                <node concept="2ShNRf" id="Ue_lmNquhs" role="HW$Y0">
+                  <node concept="1pGfFk" id="Ue_lmNquht" role="2ShVmc">
+                    <ref role="37wK5l" node="Ue_lmNq7EL" resolve="Xbuch" />
+                    <node concept="37vLTw" id="Ue_lmNquhu" role="37wK5m">
+                      <ref role="3cqZAo" node="Ue_lmNquhk" resolve="nrBuch" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="Ue_lmNquhv" role="HW$Y0">
+                  <node concept="1pGfFk" id="Ue_lmNquhw" role="2ShVmc">
+                    <ref role="37wK5l" node="Ue_lmNq7EL" resolve="Xbuch" />
+                    <node concept="37vLTw" id="Ue_lmNquhx" role="37wK5m">
+                      <ref role="3cqZAo" node="Ue_lmNquhk" resolve="nrBuch" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="Ue_lmNquhy" role="HW$Y0">
+                  <node concept="1pGfFk" id="Ue_lmNquhz" role="2ShVmc">
+                    <ref role="37wK5l" node="Ue_lmNq7EL" resolve="Xbuch" />
+                    <node concept="37vLTw" id="Ue_lmNquh$" role="37wK5m">
+                      <ref role="3cqZAo" node="Ue_lmNquhk" resolve="nrBuch" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="Ue_lmNquh_" role="HW$Y0">
+                  <node concept="1pGfFk" id="Ue_lmNquhA" role="2ShVmc">
+                    <ref role="37wK5l" node="Ue_lmNq7EL" resolve="Xbuch" />
+                    <node concept="37vLTw" id="Ue_lmNquhB" role="37wK5m">
+                      <ref role="3cqZAo" node="Ue_lmNquhk" resolve="nrBuch" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="Ue_lmNquhC" role="37vLTJ">
+              <ref role="3cqZAo" node="Ue_lmNquhb" resolve="teilBuchungen" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNquhD" role="3cqZAp">
+          <node concept="2OqwBi" id="Ue_lmNquhE" role="3clFbG">
+            <node concept="37vLTw" id="Ue_lmNquhF" role="2Oq$k0">
+              <ref role="3cqZAo" node="Ue_lmNquhb" resolve="teilBuchungen" />
+            </node>
+            <node concept="2es0OD" id="Ue_lmNquhG" role="2OqNvi">
+              <node concept="1bVj0M" id="Ue_lmNquhH" role="23t8la">
+                <node concept="3clFbS" id="Ue_lmNquhI" role="1bW5cS">
+                  <node concept="3clFbF" id="Ue_lmNquhJ" role="3cqZAp">
+                    <node concept="1odsa" id="Ue_lmNquhK" role="3clFbG">
+                      <ref role="37wK5l" node="3qCH$Meau4S" resolve="checkinXBUCH" />
+                      <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+                      <node concept="37vLTw" id="Ue_lmNquhL" role="37wK5m">
+                        <ref role="3cqZAo" node="Ue_lmNquhN" resolve="it" />
+                      </node>
+                      <node concept="10Nm6u" id="Ue_lmNquhM" role="2f8TIa" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="Ue_lmNquhN" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="Ue_lmNquhO" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNquhP" role="3cqZAp" />
+        <node concept="3clFbF" id="Ue_lmNquhQ" role="3cqZAp">
+          <node concept="37vLTI" id="Ue_lmNquhR" role="3clFbG">
+            <node concept="1odsa" id="Ue_lmNquhS" role="37vLTx">
+              <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+              <ref role="37wK5l" node="3qCH$Med3$t" resolve="checkoutTeilbuchungen" />
+              <node concept="10Nm6u" id="Ue_lmNquhT" role="2f8TIa" />
+              <node concept="37vLTw" id="Ue_lmNquhU" role="37wK5m">
+                <ref role="3cqZAo" node="Ue_lmNquhk" resolve="nrBuch" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="Ue_lmNquhV" role="37vLTJ">
+              <ref role="3cqZAo" node="Ue_lmNquhb" resolve="teilBuchungen" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNquhW" role="3cqZAp" />
+        <node concept="3cpWs8" id="Ue_lmNquhX" role="3cqZAp">
+          <node concept="3cpWsn" id="Ue_lmNquhY" role="3cpWs9">
+            <property role="TrG5h" value="sammelBuch" />
+            <node concept="3uibUv" id="Ue_lmNquhZ" role="1tU5fm">
+              <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+            </node>
+            <node concept="GOFnM" id="Ue_lmNqui0" role="33vP2m">
+              <node concept="3uibUv" id="Ue_lmNqui1" role="115eGp">
+                <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+              </node>
+              <node concept="GOFnK" id="Ue_lmNqui2" role="GOFnN">
+                <ref role="1bDdzG" node="Ue_lmNpUJW" resolve="nrBuch" />
+                <node concept="37vLTw" id="Ue_lmNqui3" role="1bDdzI">
+                  <ref role="3cqZAo" node="Ue_lmNquhk" resolve="nrBuch" />
+                </node>
+              </node>
+              <node concept="GOFnK" id="Ue_lmNqui4" role="GOFnN">
+                <ref role="1bDdzG" node="3qCH$MeaqsT" resolve="typ" />
+                <node concept="2XvMaL" id="Ue_lmNqui5" role="1bDdzI">
+                  <ref role="2XvMaQ" node="3qCH$MeaqsG" resolve="TypXBuch" />
+                  <ref role="1Vchh_" node="3qCH$MeaqsQ" resolve="S" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNqu_E" role="3cqZAp" />
+        <node concept="u8gfJ" id="Ue_lmNquHE" role="3cqZAp">
+          <node concept="3clFbF" id="Ue_lmNqui6" role="u8lrQ">
+            <node concept="1odsa" id="Ue_lmNqui7" role="3clFbG">
+              <ref role="37wK5l" node="3qCH$Meau4S" resolve="checkinXBUCH" />
+              <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+              <node concept="37vLTw" id="Ue_lmNqui8" role="37wK5m">
+                <ref role="3cqZAo" node="Ue_lmNquhY" resolve="sammelBuch" />
+              </node>
+              <node concept="10Nm6u" id="Ue_lmNqui9" role="2f8TIa" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="Ue_lmNquia" role="u8lrQ">
+            <node concept="37vLTI" id="Ue_lmNquib" role="3clFbG">
+              <node concept="37vLTw" id="Ue_lmNquic" role="37vLTJ">
+                <ref role="3cqZAo" node="Ue_lmNquhf" resolve="sammelBuchungen" />
+              </node>
+              <node concept="1odsa" id="Ue_lmNquid" role="37vLTx">
+                <ref role="37wK5l" node="Ue_lmNq32X" resolve="checkoutSammelbuchungen" />
+                <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+                <node concept="37vLTw" id="Ue_lmNquie" role="37wK5m">
+                  <ref role="3cqZAo" node="Ue_lmNquhk" resolve="nrBuch" />
+                </node>
+                <node concept="10Nm6u" id="Ue_lmNquif" role="2f8TIa" />
+              </node>
+            </node>
+          </node>
+          <node concept="1gVbGN" id="Ue_lmNquig" role="u8lrQ">
+            <node concept="3clFbC" id="Ue_lmNquih" role="1gVkn0">
+              <node concept="3cmrfG" id="Ue_lmNquii" role="3uHU7w">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="2OqwBi" id="Ue_lmNquij" role="3uHU7B">
+                <node concept="37vLTw" id="Ue_lmNquik" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Ue_lmNquhf" resolve="sammelBuchungen" />
+                </node>
+                <node concept="34oBXx" id="Ue_lmNquil" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="Ue_lmNquim" role="u8lrQ">
+            <node concept="37vLTI" id="Ue_lmNquin" role="3clFbG">
+              <node concept="2OqwBi" id="Ue_lmNquio" role="37vLTx">
+                <node concept="37vLTw" id="Ue_lmNquip" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Ue_lmNquhf" resolve="sammelBuchungen" />
+                </node>
+                <node concept="1uHKPH" id="Ue_lmNquiq" role="2OqNvi" />
+              </node>
+              <node concept="37vLTw" id="Ue_lmNquir" role="37vLTJ">
+                <ref role="3cqZAo" node="Ue_lmNquhY" resolve="sammelBuch" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNquis" role="3cqZAp" />
+        <node concept="3clFbF" id="Ue_lmNquit" role="3cqZAp">
+          <node concept="2OqwBi" id="Ue_lmNquiu" role="3clFbG">
+            <node concept="37vLTw" id="Ue_lmNquiv" role="2Oq$k0">
+              <ref role="3cqZAo" node="Ue_lmNquhb" resolve="teilBuchungen" />
+            </node>
+            <node concept="2es0OD" id="Ue_lmNquiw" role="2OqNvi">
+              <node concept="1bVj0M" id="Ue_lmNquix" role="23t8la">
+                <node concept="3clFbS" id="Ue_lmNquiy" role="1bW5cS">
+                  <node concept="3clFbF" id="Ue_lmNquiz" role="3cqZAp">
+                    <node concept="2OqwBi" id="Ue_lmNqui$" role="3clFbG">
+                      <node concept="37vLTw" id="Ue_lmNqui_" role="2Oq$k0">
+                        <ref role="3cqZAo" node="Ue_lmNquhY" resolve="sammelBuch" />
+                      </node>
+                      <node concept="liA8E" id="Ue_lmNquiA" role="2OqNvi">
+                        <ref role="37wK5l" node="3qCH$Meb7h7" resolve="addTeilBuchung" />
+                        <node concept="37vLTw" id="Ue_lmNquiB" role="37wK5m">
+                          <ref role="3cqZAo" node="Ue_lmNquiC" resolve="it" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="Ue_lmNquiC" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="Ue_lmNquiD" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNquiE" role="3cqZAp">
+          <node concept="1odsa" id="Ue_lmNquiF" role="3clFbG">
+            <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+            <ref role="37wK5l" node="3qCH$Meau4S" resolve="checkinXBUCH" />
+            <node concept="37vLTw" id="Ue_lmNquiG" role="37wK5m">
+              <ref role="3cqZAo" node="Ue_lmNquhY" resolve="sammelBuch" />
+            </node>
+            <node concept="10Nm6u" id="Ue_lmNquiH" role="2f8TIa" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNquiI" role="3cqZAp">
+          <node concept="37vLTI" id="Ue_lmNquiJ" role="3clFbG">
+            <node concept="1odsa" id="Ue_lmNquiK" role="37vLTx">
+              <ref role="37wK5l" node="Ue_lmNq32X" resolve="checkoutSammelbuchungen" />
+              <ref role="1ods_" node="3qCH$Meau4y" resolve="XBUCHRepo" />
+              <node concept="37vLTw" id="Ue_lmNquiL" role="37wK5m">
+                <ref role="3cqZAo" node="Ue_lmNquhk" resolve="nrBuch" />
+              </node>
+              <node concept="10Nm6u" id="Ue_lmNquiM" role="2f8TIa" />
+            </node>
+            <node concept="37vLTw" id="Ue_lmNquiN" role="37vLTJ">
+              <ref role="3cqZAo" node="Ue_lmNquhf" resolve="sammelBuchungen" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNquiO" role="3cqZAp" />
+        <node concept="1gVbGN" id="Ue_lmNquiP" role="3cqZAp">
+          <node concept="3clFbC" id="Ue_lmNquiQ" role="1gVkn0">
+            <node concept="3cmrfG" id="Ue_lmNquiR" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="2OqwBi" id="Ue_lmNquiS" role="3uHU7B">
+              <node concept="37vLTw" id="Ue_lmNquiT" role="2Oq$k0">
+                <ref role="3cqZAo" node="Ue_lmNquhf" resolve="sammelBuchungen" />
+              </node>
+              <node concept="34oBXx" id="Ue_lmNquiU" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="Xl_RD" id="Ue_lmNs4QU" role="1gVpfI">
+            <property role="Xl_RC" value="Es wirg geneau eineSammelbuchung erwaretet" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNquiV" role="3cqZAp">
+          <node concept="37vLTI" id="Ue_lmNquiW" role="3clFbG">
+            <node concept="2OqwBi" id="Ue_lmNquiX" role="37vLTx">
+              <node concept="37vLTw" id="Ue_lmNquiY" role="2Oq$k0">
+                <ref role="3cqZAo" node="Ue_lmNquhf" resolve="sammelBuchungen" />
+              </node>
+              <node concept="1uHKPH" id="Ue_lmNquiZ" role="2OqNvi" />
+            </node>
+            <node concept="37vLTw" id="Ue_lmNquj0" role="37vLTJ">
+              <ref role="3cqZAo" node="Ue_lmNquhY" resolve="sammelBuch" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="Ue_lmNquj1" role="3cqZAp" />
+        <node concept="1gVbGN" id="Ue_lmNquj2" role="3cqZAp">
+          <node concept="3clFbC" id="Ue_lmNquj3" role="1gVkn0">
+            <node concept="3cmrfG" id="Ue_lmNquj4" role="3uHU7w">
+              <property role="3cmrfH" value="4" />
+            </node>
+            <node concept="2OqwBi" id="Ue_lmNquj5" role="3uHU7B">
+              <node concept="2OqwBi" id="Ue_lmNquj6" role="2Oq$k0">
+                <node concept="37vLTw" id="Ue_lmNquj7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Ue_lmNquhY" resolve="sammelBuch" />
+                </node>
+                <node concept="2S8uIT" id="Ue_lmNquj8" role="2OqNvi">
+                  <ref role="2S8YL0" node="3qCH$Meaqwn" resolve="teilBuchungen" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="Ue_lmNquj9" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3cpWs3" id="Ue_lmNs4In" role="1gVpfI">
+            <node concept="Xl_RD" id="Ue_lmNs4Io" role="3uHU7w">
+              <property role="Xl_RC" value=" ( 4 Erwartet)" />
+            </node>
+            <node concept="3cpWs3" id="Ue_lmNs4Ip" role="3uHU7B">
+              <node concept="Xl_RD" id="Ue_lmNs4Iq" role="3uHU7B">
+                <property role="Xl_RC" value="Anzahl Teilbuchunen: " />
+              </node>
+              <node concept="2OqwBi" id="Ue_lmNs4Ir" role="3uHU7w">
+                <node concept="2OqwBi" id="Ue_lmNs4Is" role="2Oq$k0">
+                  <node concept="37vLTw" id="Ue_lmNs4It" role="2Oq$k0">
+                    <ref role="3cqZAo" node="Ue_lmNquhY" resolve="sammelBuch" />
+                  </node>
+                  <node concept="2S8uIT" id="Ue_lmNs4Iu" role="2OqNvi">
+                    <ref role="2S8YL0" node="3qCH$Meaqwn" resolve="teilBuchungen" />
+                  </node>
+                </node>
+                <node concept="34oBXx" id="Ue_lmNs4Iv" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="wbJL_" id="3qCH$Meau4y">
+    <property role="3GE5qa" value="TestBuch" />
+    <property role="TrG5h" value="XBUCHRepo" />
+    <node concept="wbJLE" id="3qCH$Meau4S" role="jymVt">
+      <property role="TrG5h" value="checkinXBUCH" />
+      <property role="wbJLN" value="CHECKIN" />
+      <node concept="3cqZAl" id="3qCH$Meau4T" role="3clF45" />
+      <node concept="3Tm1VV" id="3qCH$Meau4U" role="1B3o_S" />
+      <node concept="3clFbS" id="3qCH$Meau4V" role="3clF47">
+        <node concept="P1rGi" id="3qCH$Meau5L" role="3cqZAp">
+          <ref role="P14SV" node="3qCH$MeatPi" resolve="MapXbuch" />
+          <node concept="37vLTw" id="3qCH$Meau6f" role="P1rGp">
+            <ref role="3cqZAo" node="3qCH$Meau5l" resolve="xBuch" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3qCH$Meau6L" role="3cqZAp">
+          <node concept="2OqwBi" id="3qCH$MeauvM" role="3clFbG">
+            <node concept="2OqwBi" id="3qCH$Meau7i" role="2Oq$k0">
+              <node concept="37vLTw" id="3qCH$Meau6J" role="2Oq$k0">
+                <ref role="3cqZAo" node="3qCH$Meau5l" resolve="xBuch" />
+              </node>
+              <node concept="2S8uIT" id="3qCH$Meauha" role="2OqNvi">
+                <ref role="2S8YL0" node="3qCH$Meaqwn" resolve="teilBuchungen" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="3qCH$Meav65" role="2OqNvi">
+              <node concept="1bVj0M" id="3qCH$Meav67" role="23t8la">
+                <node concept="3clFbS" id="3qCH$Meav68" role="1bW5cS">
+                  <node concept="P1rGi" id="3qCH$MeavfX" role="3cqZAp">
+                    <ref role="P14SV" node="3qCH$MeatPi" resolve="MapXbuch" />
+                    <node concept="37vLTw" id="3qCH$Meavk7" role="P1rGp">
+                      <ref role="3cqZAo" node="3qCH$Meav69" resolve="it" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="3qCH$Meav69" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="3qCH$Meav6a" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3qCH$Meau5l" role="3clF46">
+        <property role="TrG5h" value="xBuch" />
+        <node concept="3uibUv" id="3qCH$Meau5k" role="1tU5fm">
+          <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+        </node>
+      </node>
+    </node>
+    <node concept="wbJLE" id="3qCH$Med3$t" role="jymVt">
+      <property role="wbJLN" value="CHECKOUT" />
+      <property role="TrG5h" value="checkoutTeilbuchungen" />
+      <node concept="_YKpA" id="3qCH$Med3_r" role="3clF45">
+        <node concept="3uibUv" id="3qCH$Med3_I" role="_ZDj9">
+          <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="3qCH$Med3$v" role="1B3o_S" />
+      <node concept="3clFbS" id="3qCH$Med3$w" role="3clF47">
+        <node concept="3clFbF" id="3qCH$Med3Az" role="3cqZAp">
+          <node concept="jybIQ" id="3qCH$Med3Ay" role="3clFbG">
+            <property role="1v8G3g" value="false" />
+            <property role="HScZ5" value="false" />
+            <ref role="P14SV" node="3qCH$MeatPi" resolve="MapXbuch" />
+            <node concept="jxyYR" id="3qCH$Med3AQ" role="jxX7b">
+              <node concept="1Wc70l" id="Ue_lmNq2E6" role="jxyYK">
+                <node concept="3clFbC" id="Ue_lmNq2Wt" role="3uHU7w">
+                  <node concept="37vLTw" id="Ue_lmNq2XN" role="3uHU7w">
+                    <ref role="3cqZAo" node="Ue_lmNq2vo" resolve="nrBuch" />
+                  </node>
+                  <node concept="3_7ulE" id="Ue_lmNq2FH" role="3uHU7B">
+                    <ref role="2OG787" node="Ue_lmNq0Sc" />
+                    <ref role="3_688M" node="3qCH$Med3Ay" />
+                  </node>
+                </node>
+                <node concept="1Wc70l" id="3qCH$Med3E1" role="3uHU7B">
+                  <node concept="3clFbC" id="3qCH$Med3Cm" role="3uHU7B">
+                    <node concept="3_7ulE" id="3qCH$Med3Bt" role="3uHU7B">
+                      <ref role="3_688M" node="3qCH$Med3Ay" />
+                      <ref role="2OG787" node="3qCH$MeatPQ" />
+                    </node>
+                    <node concept="2XvMaL" id="3qCH$Med3D9" role="3uHU7w">
+                      <ref role="2XvMaQ" node="3qCH$MeaqsG" resolve="TypXBuch" />
+                      <ref role="1Vchh_" node="3qCH$MeaqsO" resolve="E" />
+                    </node>
+                  </node>
+                  <node concept="3clFbC" id="3qCH$Med3Ve" role="3uHU7w">
+                    <node concept="3_7ulE" id="3qCH$Med3F8" role="3uHU7B">
+                      <ref role="2OG787" node="3qCH$MeatTR" />
+                      <ref role="3_688M" node="3qCH$Med3Ay" />
+                    </node>
+                    <node concept="3cmrfG" id="3qCH$Med3W5" role="3uHU7w">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="Ue_lmNq2vo" role="3clF46">
+        <property role="TrG5h" value="nrBuch" />
+        <node concept="10Oyi0" id="Ue_lmNq2vn" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="wbJLE" id="Ue_lmNq32X" role="jymVt">
+      <property role="wbJLN" value="CHECKOUT" />
+      <property role="TrG5h" value="checkoutSammelbuchungen" />
+      <node concept="_YKpA" id="Ue_lmNq3Sh" role="3clF45">
+        <node concept="3uibUv" id="Ue_lmNq3YO" role="_ZDj9">
+          <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="Ue_lmNq330" role="1B3o_S" />
+      <node concept="3clFbS" id="Ue_lmNq331" role="3clF47">
+        <node concept="3cpWs8" id="Ue_lmNq3ZT" role="3cqZAp">
+          <node concept="3cpWsn" id="Ue_lmNq3ZW" role="3cpWs9">
+            <property role="TrG5h" value="result" />
+            <node concept="_YKpA" id="Ue_lmNq3ZP" role="1tU5fm">
+              <node concept="3uibUv" id="Ue_lmNq40A" role="_ZDj9">
+                <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+              </node>
+            </node>
+            <node concept="jybIQ" id="Ue_lmNq4me" role="33vP2m">
+              <property role="1v8G3g" value="false" />
+              <property role="HScZ5" value="false" />
+              <ref role="P14SV" node="3qCH$MeatPi" resolve="MapXbuch" />
+              <node concept="jxyYR" id="Ue_lmNq4mf" role="jxX7b">
+                <node concept="1Wc70l" id="Ue_lmNq4mg" role="jxyYK">
+                  <node concept="3clFbC" id="Ue_lmNq4mh" role="3uHU7w">
+                    <node concept="37vLTw" id="Ue_lmNq4mi" role="3uHU7w">
+                      <ref role="3cqZAo" node="Ue_lmNq33g" resolve="nrBuch" />
+                    </node>
+                    <node concept="3_7ulE" id="Ue_lmNq4mj" role="3uHU7B">
+                      <ref role="3_688M" node="Ue_lmNq4me" />
+                      <ref role="2OG787" node="Ue_lmNq0Sc" />
+                    </node>
+                  </node>
+                  <node concept="3clFbC" id="Ue_lmNq4ml" role="3uHU7B">
+                    <node concept="3_7ulE" id="Ue_lmNq4mm" role="3uHU7B">
+                      <ref role="2OG787" node="3qCH$MeatPQ" />
+                      <ref role="3_688M" node="Ue_lmNq4me" />
+                    </node>
+                    <node concept="2XvMaL" id="Ue_lmNq4mn" role="3uHU7w">
+                      <ref role="2XvMaQ" node="3qCH$MeaqsG" resolve="TypXBuch" />
+                      <ref role="1Vchh_" node="3qCH$MeaqsQ" resolve="S" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNq4yl" role="3cqZAp">
+          <node concept="2OqwBi" id="Ue_lmNq4Ga" role="3clFbG">
+            <node concept="37vLTw" id="Ue_lmNq4yj" role="2Oq$k0">
+              <ref role="3cqZAo" node="Ue_lmNq3ZW" resolve="result" />
+            </node>
+            <node concept="2es0OD" id="Ue_lmNq5hT" role="2OqNvi">
+              <node concept="1bVj0M" id="Ue_lmNq5hV" role="23t8la">
+                <node concept="3clFbS" id="Ue_lmNq5hW" role="1bW5cS">
+                  <node concept="3clFbF" id="Ue_lmNq5k9" role="3cqZAp">
+                    <node concept="37vLTI" id="Ue_lmNq66t" role="3clFbG">
+                      <node concept="jybIQ" id="Ue_lmNq6df" role="37vLTx">
+                        <property role="1v8G3g" value="false" />
+                        <property role="HScZ5" value="true" />
+                        <ref role="P14SV" node="3qCH$MeatPi" resolve="MapXbuch" />
+                        <node concept="jxyYR" id="Ue_lmNq6j_" role="jxX7b">
+                          <node concept="3clFbC" id="Ue_lmNq6Is" role="jxyYK">
+                            <node concept="2OqwBi" id="Ue_lmNq725" role="3uHU7w">
+                              <node concept="37vLTw" id="Ue_lmNq6PE" role="2Oq$k0">
+                                <ref role="3cqZAo" node="Ue_lmNq5hX" resolve="it" />
+                              </node>
+                              <node concept="2S8uIT" id="Ue_lmNq7jK" role="2OqNvi">
+                                <ref role="2S8YL0" node="3qCH$Meaqq9" resolve="id" />
+                              </node>
+                            </node>
+                            <node concept="3_7ulE" id="Ue_lmNq6pq" role="3uHU7B">
+                              <ref role="2OG787" node="3qCH$MeatTR" />
+                              <ref role="3_688M" node="Ue_lmNq6df" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="Ue_lmNq5m$" role="37vLTJ">
+                        <node concept="37vLTw" id="Ue_lmNq5k8" role="2Oq$k0">
+                          <ref role="3cqZAo" node="Ue_lmNq5hX" resolve="it" />
+                        </node>
+                        <node concept="2S8uIT" id="Ue_lmNq5Hn" role="2OqNvi">
+                          <ref role="2S8YL0" node="3qCH$Meaqwn" resolve="teilBuchungen" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="Ue_lmNq5hX" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="Ue_lmNq5hY" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="Ue_lmNq4xe" role="3cqZAp">
+          <node concept="37vLTw" id="Ue_lmNq4xc" role="3clFbG">
+            <ref role="3cqZAo" node="Ue_lmNq3ZW" resolve="result" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="Ue_lmNq33g" role="3clF46">
+        <property role="TrG5h" value="nrBuch" />
+        <node concept="10Oyi0" id="Ue_lmNq33h" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="3qCH$Meau4z" role="1B3o_S" />
+  </node>
+  <node concept="34Athd" id="3qCH$MeapJc">
+    <property role="TrG5h" value="Xbuch" />
+    <property role="3GE5qa" value="TestBuch" />
+    <node concept="3Tm1VV" id="3qCH$MeapJe" role="1B3o_S" />
+    <node concept="1bOX9e" id="3qCH$Meaqq9" role="TxmiU">
+      <property role="2RkwnN" value="id" />
+      <node concept="3Tm1VV" id="3qCH$Meaqqf" role="1B3o_S" />
+      <node concept="2RoN1w" id="3qCH$Meaqqg" role="2RnVtd">
+        <node concept="3wEZqW" id="3qCH$Meaqqh" role="3wFrgM" />
+        <node concept="3xqBd$" id="3qCH$Meaqqi" role="3xrYvX">
+          <node concept="3Tm1VV" id="3qCH$Meaqqk" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="3qCH$Meaqq_" role="2RkE6I" />
+      <node concept="Xl_RD" id="3qCH$Meaqrk" role="2CNmdP">
+        <property role="Xl_RC" value="id" />
+      </node>
+      <node concept="Xl_RD" id="3qCH$Meaqru" role="2CNmdL">
+        <property role="Xl_RC" value="id" />
+      </node>
+      <node concept="jyRCx" id="3qCH$MeaqrI" role="0orDa" />
+    </node>
+    <node concept="1bOX9e" id="3qCH$MeaqsT" role="TxmiU">
+      <property role="2RkwnN" value="typ" />
+      <node concept="3Tm1VV" id="3qCH$MeaqsZ" role="1B3o_S" />
+      <node concept="2RoN1w" id="3qCH$Meaqt0" role="2RnVtd">
+        <node concept="3wEZqW" id="3qCH$Meaqt1" role="3wFrgM" />
+        <node concept="3xqBd$" id="3qCH$Meaqt2" role="3xrYvX">
+          <node concept="3Tm1VV" id="3qCH$Meaqt4" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="2XvVpB" id="3qCH$Meaqtw" role="2RkE6I">
+        <ref role="3$lB4D" node="3qCH$MeaqsG" resolve="TypXBuch" />
+      </node>
+      <node concept="Xl_RD" id="3qCH$MeaqtQ" role="2CNmdP">
+        <property role="Xl_RC" value="typ" />
+      </node>
+      <node concept="Xl_RD" id="3qCH$Meaqu9" role="2CNmdL">
+        <property role="Xl_RC" value="Typ" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="Ue_lmNpUJW" role="TxmiU">
+      <property role="2RkwnN" value="nrBuch" />
+      <node concept="3Tm1VV" id="Ue_lmNpUK2" role="1B3o_S" />
+      <node concept="2RoN1w" id="Ue_lmNpUK3" role="2RnVtd">
+        <node concept="3wEZqW" id="Ue_lmNpUK4" role="3wFrgM" />
+        <node concept="3xqBd$" id="Ue_lmNpUK5" role="3xrYvX">
+          <node concept="3Tm1VV" id="Ue_lmNpUK7" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10Oyi0" id="Ue_lmNpZTO" role="2RkE6I" />
+      <node concept="Xl_RD" id="Ue_lmNq0Py" role="2CNmdP">
+        <property role="Xl_RC" value="nr" />
+      </node>
+      <node concept="Xl_RD" id="Ue_lmNq0Qc" role="2CNmdL">
+        <property role="Xl_RC" value="nr" />
+      </node>
+    </node>
+    <node concept="1bOX9e" id="3qCH$Meaqup" role="TxmiU">
+      <property role="2RkwnN" value="sammelBuch" />
+      <node concept="3Tm1VV" id="3qCH$Meaquv" role="1B3o_S" />
+      <node concept="2RoN1w" id="3qCH$Meaquw" role="2RnVtd">
+        <node concept="3wEZqW" id="3qCH$Meaqux" role="3wFrgM" />
+        <node concept="3xqBd$" id="3qCH$Meaquy" role="3xrYvX">
+          <node concept="3Tm1VV" id="3qCH$Meaqu$" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="3qCH$Meaqva" role="2RkE6I">
+        <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+      </node>
+      <node concept="Xl_RD" id="3qCH$MeaqvN" role="2CNmdP">
+        <property role="Xl_RC" value="SB" />
+      </node>
+      <node concept="Xl_RD" id="3qCH$Meaqw3" role="2CNmdL">
+        <property role="Xl_RC" value="SB" />
+      </node>
+      <node concept="2fr8A1" id="3qCH$MeeSsH" role="0orDa" />
+    </node>
+    <node concept="1bOX9e" id="3qCH$Meaqwn" role="TxmiU">
+      <property role="2RkwnN" value="teilBuchungen" />
+      <node concept="3Tm1VV" id="3qCH$Meaqwt" role="1B3o_S" />
+      <node concept="2RoN1w" id="3qCH$Meaqwu" role="2RnVtd">
+        <node concept="3wEZqW" id="3qCH$Meaqwv" role="3wFrgM" />
+        <node concept="3xqBd$" id="3qCH$Meaqww" role="3xrYvX">
+          <node concept="3Tm1VV" id="3qCH$Meaqwy" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="_YKpA" id="3qCH$Meaqxn" role="2RkE6I">
+        <node concept="3uibUv" id="3qCH$Meaqx_" role="_ZDj9">
+          <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+        </node>
+      </node>
+      <node concept="33xdnN" id="3qCH$Mefvi9" role="0orDa" />
+    </node>
+    <node concept="1bOX9e" id="Ue_lmNIFKn" role="TxmiU">
+      <property role="2RkwnN" value="test" />
+      <node concept="3Tm1VV" id="Ue_lmNIFKt" role="1B3o_S" />
+      <node concept="2RoN1w" id="Ue_lmNIFKu" role="2RnVtd">
+        <node concept="3wEZqW" id="Ue_lmNIFKv" role="3wFrgM" />
+        <node concept="3xqBd$" id="Ue_lmNIFKw" role="3xrYvX">
+          <node concept="3Tm1VV" id="Ue_lmNIFKy" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="Ue_lmNIFPK" role="2RkE6I" />
+    </node>
+    <node concept="2XvgOf" id="3qCH$MeaqsG" role="2XvChp">
+      <property role="TrG5h" value="TypXBuch" />
+      <node concept="2XvgOc" id="3qCH$MeaqsO" role="2XvgO2">
+        <property role="TrG5h" value="E" />
+        <property role="2XvgOS" value="E" />
+        <property role="1YKsg0" value="E" />
+        <property role="1YKsg1" value="E" />
+      </node>
+      <node concept="2XvgOc" id="3qCH$MeaqsQ" role="2XvgO2">
+        <property role="TrG5h" value="S" />
+        <property role="2XvgOS" value="S" />
+        <property role="1YKsg0" value="S" />
+        <property role="1YKsg1" value="S" />
+      </node>
+    </node>
+    <node concept="3clFbW" id="3qCH$Meaqzh" role="jymVt">
+      <node concept="3cqZAl" id="3qCH$Meaqzi" role="3clF45" />
+      <node concept="3Tm1VV" id="3qCH$Meaqzj" role="1B3o_S" />
+      <node concept="3clFbS" id="3qCH$Meaqzk" role="3clF47" />
+    </node>
+    <node concept="3clFbW" id="Ue_lmNq7EL" role="jymVt">
+      <node concept="37vLTG" id="Ue_lmNq7Kg" role="3clF46">
+        <property role="TrG5h" value="i" />
+        <node concept="10Oyi0" id="Ue_lmNq7Ku" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="Ue_lmNq7EM" role="3clF45" />
+      <node concept="3Tm1VV" id="Ue_lmNq7EN" role="1B3o_S" />
+      <node concept="3clFbS" id="Ue_lmNq7EO" role="3clF47">
+        <node concept="3clFbF" id="Ue_lmNq7Me" role="3cqZAp">
+          <node concept="37vLTI" id="Ue_lmNq7Xv" role="3clFbG">
+            <node concept="37vLTw" id="Ue_lmNq7Yo" role="37vLTx">
+              <ref role="3cqZAo" node="Ue_lmNq7Kg" resolve="i" />
+            </node>
+            <node concept="338YkY" id="Ue_lmNq7Md" role="37vLTJ">
+              <ref role="338YkT" node="Ue_lmNpUJW" resolve="nrBuch" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="Ue_lmNq7_d" role="jymVt" />
+    <node concept="3clFb_" id="3qCH$MeaqW0" role="jymVt">
+      <property role="TrG5h" value="addTeilBuchungen" />
+      <node concept="3cqZAl" id="3qCH$MeaqW2" role="3clF45" />
+      <node concept="3Tm1VV" id="3qCH$MeaqW3" role="1B3o_S" />
+      <node concept="3clFbS" id="3qCH$MeaqW4" role="3clF47">
+        <node concept="3clFbF" id="3qCH$Mear0v" role="3cqZAp">
+          <node concept="2OqwBi" id="3qCH$Mearau" role="3clFbG">
+            <node concept="37vLTw" id="3qCH$Mear0u" role="2Oq$k0">
+              <ref role="3cqZAo" node="3qCH$MeaqXR" resolve="buchungen" />
+            </node>
+            <node concept="2es0OD" id="3qCH$MearKf" role="2OqNvi">
+              <node concept="1bVj0M" id="3qCH$MearKh" role="23t8la">
+                <node concept="3clFbS" id="3qCH$MearKi" role="1bW5cS">
+                  <node concept="3clFbF" id="3qCH$Meb8J2" role="3cqZAp">
+                    <node concept="1rXfSq" id="3qCH$Meb8J1" role="3clFbG">
+                      <ref role="37wK5l" node="3qCH$Meb7h7" resolve="addTeilBuchung" />
+                      <node concept="37vLTw" id="3qCH$Meb8Nw" role="37wK5m">
+                        <ref role="3cqZAo" node="3qCH$MearKj" resolve="it" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="3qCH$MearKj" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="3qCH$MearKk" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3qCH$MeaqXR" role="3clF46">
+        <property role="TrG5h" value="buchungen" />
+        <node concept="_YKpA" id="3qCH$MeaqXP" role="1tU5fm">
+          <node concept="3uibUv" id="3qCH$MeaqYu" role="_ZDj9">
+            <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3qCH$Meb7h7" role="jymVt">
+      <property role="TrG5h" value="addTeilBuchung" />
+      <node concept="3cqZAl" id="3qCH$Meb7h8" role="3clF45" />
+      <node concept="3Tm1VV" id="3qCH$Meb7h9" role="1B3o_S" />
+      <node concept="3clFbS" id="3qCH$Meb7ha" role="3clF47">
+        <node concept="3clFbF" id="3qCH$Meb7hh" role="3cqZAp">
+          <node concept="37vLTI" id="3qCH$Meb7hi" role="3clFbG">
+            <node concept="Xjq3P" id="3qCH$Meb7hj" role="37vLTx" />
+            <node concept="2OqwBi" id="3qCH$Meb7hk" role="37vLTJ">
+              <node concept="37vLTw" id="3qCH$Meb8mH" role="2Oq$k0">
+                <ref role="3cqZAo" node="3qCH$Meb7hu" resolve="aBuchung" />
+              </node>
+              <node concept="2S8uIT" id="3qCH$Meb7hm" role="2OqNvi">
+                <ref role="2S8YL0" node="3qCH$Meaqup" resolve="sammelBuch" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3qCH$Meb7hn" role="3cqZAp">
+          <node concept="2OqwBi" id="3qCH$Meb7ho" role="3clFbG">
+            <node concept="338YkY" id="3qCH$Meb7hp" role="2Oq$k0">
+              <ref role="338YkT" node="3qCH$Meaqwn" resolve="teilBuchungen" />
+            </node>
+            <node concept="TSZUe" id="3qCH$Meb7hq" role="2OqNvi">
+              <node concept="37vLTw" id="3qCH$Meb8s8" role="25WWJ7">
+                <ref role="3cqZAo" node="3qCH$Meb7hu" resolve="aBuchung" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="3qCH$Meb7hu" role="3clF46">
+        <property role="TrG5h" value="aBuchung" />
+        <node concept="3uibUv" id="3qCH$Meb7N7" role="1tU5fm">
+          <ref role="3uigEE" node="3qCH$MeapJc" resolve="Xbuch" />
         </node>
       </node>
     </node>
