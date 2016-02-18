@@ -24809,8 +24809,25 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="2owej2VLfmB" role="3cqZAp" />
+              <node concept="3clFbH" id="2owej2VLfnA" role="3cqZAp" />
+              <node concept="3SKdUt" id="2owej2VKIJY" role="3cqZAp">
+                <node concept="3SKdUq" id="2owej2VKKbY" role="3SKWNk">
+                  <property role="3SKdUp" value="Bug 17. Feb 2016, if object is set as ref but objects key is still 0" />
+                </node>
+              </node>
+              <node concept="3SKdUt" id="2owej2VKL_W" role="3cqZAp">
+                <node concept="3SKdUq" id="2owej2VKN1R" role="3SKWNk">
+                  <property role="3SKdUp" value="ref should trigger a dirty. moware60 R4" />
+                </node>
+              </node>
               <node concept="3clFbJ" id="5dZoziQwypM" role="3cqZAp">
                 <node concept="3clFbS" id="5dZoziQwypN" role="3clFbx">
+                  <node concept="3SKdUt" id="2owej2VNR5D" role="3cqZAp">
+                    <node concept="3SKdUq" id="2owej2VNSff" role="3SKWNk">
+                      <property role="3SKdUp" value="okay, clearly this results in a dirty" />
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="5dZoziQwypO" role="3cqZAp">
                     <node concept="37vLTI" id="5dZoziQwypP" role="3clFbG">
                       <node concept="2OqwBi" id="5dZoziQwypQ" role="37vLTx">
@@ -24853,6 +24870,54 @@
                           <ref role="2Oxat5" node="5dZoziQwyok" resolve="key" />
                         </node>
                       </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3SKdUt" id="2owej2VO1ca" role="3cqZAp">
+                <node concept="3SKdUq" id="2owej2VO2lZ" role="3SKWNk">
+                  <property role="3SKdUp" value="okay, keys are the same. are we null and object's key is null?" />
+                </node>
+              </node>
+              <node concept="3clFbJ" id="2owej2VKXF0" role="3cqZAp">
+                <node concept="3clFbS" id="2owej2VKXF2" role="3clFbx">
+                  <node concept="3SKdUt" id="2owej2VOmxv" role="3cqZAp">
+                    <node concept="3SKdUq" id="2owej2VOnEd" role="3SKWNk">
+                      <property role="3SKdUp" value="just to be save, then we are dirty! " />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="2owej2VL7H1" role="3cqZAp">
+                    <node concept="37vLTI" id="2owej2VLaJp" role="3clFbG">
+                      <node concept="2OqwBi" id="2owej2VLaZR" role="37vLTx">
+                        <node concept="37vLTw" id="2owej2VLaWT" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5dZoziQwyq8" resolve="val" />
+                        </node>
+                        <node concept="liA8E" id="2owej2VLbkD" role="2OqNvi">
+                          <ref role="37wK5l" to="w7gk:5dZoziQsIK$" resolve="getIM3Key" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="2owej2VL8Uu" role="37vLTJ">
+                        <node concept="Xjq3P" id="2owej2VL7GZ" role="2Oq$k0" />
+                        <node concept="2OwXpG" id="2owej2VL9B5" role="2OqNvi">
+                          <ref role="2Oxat5" node="5dZoziQwyok" resolve="key" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cpWs6" id="2owej2VLcGw" role="3cqZAp">
+                    <node concept="3clFbT" id="2owej2VLdSO" role="3cqZAk">
+                      <property role="3clFbU" value="true" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="1rXfSq" id="2owej2VO943" role="3clFbw">
+                  <ref role="37wK5l" node="4vBE4eLSd2e" resolve="isNullKey" />
+                  <node concept="2OqwBi" id="2owej2VOa$v" role="37wK5m">
+                    <node concept="37vLTw" id="2owej2VOay3" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5dZoziQwyq8" resolve="val" />
+                    </node>
+                    <node concept="liA8E" id="2owej2VOaJC" role="2OqNvi">
+                      <ref role="37wK5l" to="w7gk:5dZoziQsIK$" resolve="getIM3Key" />
                     </node>
                   </node>
                 </node>
@@ -24967,6 +25032,52 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2mU4kly4mR9" role="jymVt" />
+    <node concept="3clFb_" id="6nb2rfW5SAL" role="jymVt">
+      <property role="TrG5h" value="checkReferenceBeforeSave" />
+      <node concept="3cqZAl" id="6nb2rfW5SAN" role="3clF45" />
+      <node concept="3Tm1VV" id="6nb2rfW5SAO" role="1B3o_S" />
+      <node concept="3clFbS" id="6nb2rfW5SAP" role="3clF47">
+        <node concept="3clFbJ" id="6nb2rfW61kh" role="3cqZAp">
+          <node concept="3clFbS" id="6nb2rfW61ki" role="3clFbx">
+            <node concept="YS8fn" id="6nb2rfW64Jn" role="3cqZAp">
+              <node concept="2ShNRf" id="6nb2rfW64KQ" role="YScLw">
+                <node concept="1pGfFk" id="6nb2rfW6mAX" role="2ShVmc">
+                  <ref role="37wK5l" to="e2lb:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="Xl_RD" id="6nb2rfW6mCN" role="37wK5m">
+                    <property role="Xl_RC" value="Saving a reference without saving the referred entity first." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="6nb2rfW62Os" role="3clFbw">
+            <node concept="1rXfSq" id="6nb2rfW633N" role="3uHU7w">
+              <ref role="37wK5l" node="4vBE4eLSd2e" resolve="isNullKey" />
+              <node concept="2OqwBi" id="6nb2rfW64fc" role="37wK5m">
+                <node concept="2OqwBi" id="6nb2rfW63o_" role="2Oq$k0">
+                  <node concept="Xjq3P" id="6nb2rfW63h8" role="2Oq$k0" />
+                  <node concept="2OwXpG" id="6nb2rfW63ME" role="2OqNvi">
+                    <ref role="2Oxat5" node="5dZoziQwyoh" resolve="value" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6nb2rfW64Ek" role="2OqNvi">
+                  <ref role="37wK5l" to="w7gk:5dZoziQsIK$" resolve="getIM3Key" />
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="6nb2rfW62$5" role="3uHU7B">
+              <node concept="2OqwBi" id="6nb2rfW61r7" role="3uHU7B">
+                <node concept="Xjq3P" id="6nb2rfW61lM" role="2Oq$k0" />
+                <node concept="2OwXpG" id="6nb2rfW61N7" role="2OqNvi">
+                  <ref role="2Oxat5" node="5dZoziQwyoh" resolve="value" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="6nb2rfW62BT" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="2mU4kly4pXQ" role="jymVt" />
     <node concept="3clFb_" id="5dZoziQwyqz" role="jymVt">
       <property role="TrG5h" value="getKey" />

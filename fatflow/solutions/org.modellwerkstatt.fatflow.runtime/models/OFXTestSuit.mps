@@ -640,7 +640,7 @@
             <node concept="3clFbF" id="x0kurEm9y2" role="3cqZAp">
               <node concept="37vLTI" id="x0kurEm9y4" role="3clFbG">
                 <node concept="1odsa" id="x0kurEm9y7" role="37vLTx">
-                  <ref role="37wK5l" to="ofql:66mO_QB9Foo" resolve="checkoutTestObject" />
+                  <ref role="37wK5l" to="ofql:66mO_QB9Foo" resolve="checkoutIntKeyObject" />
                   <ref role="1ods_" to="ofql:36k2Uwstchd" resolve="TestModelRepo" />
                   <node concept="3urNQE" id="x0kurEm9y8" role="37wK5m">
                     <ref role="3cqZAo" node="x0kurEm9xU" resolve="id" />
@@ -2072,6 +2072,14 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="6nb2rfWz64v" role="jymVt" />
+    <node concept="3clFb_" id="6nb2rfWz6oa" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="beforeSave" />
+      <node concept="3cqZAl" id="6nb2rfWz6ob" role="3clF45" />
+      <node concept="3Tm1VV" id="6nb2rfWz6oc" role="1B3o_S" />
+      <node concept="3clFbS" id="6nb2rfWz6oj" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="6b4wRovOCef" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="toString" />
@@ -2213,7 +2221,7 @@
           <node concept="37vLTI" id="x0kurEmgIF" role="3clFbG">
             <node concept="1odsa" id="x0kurEmgII" role="37vLTx">
               <ref role="1ods_" to="ofql:36k2Uwstchd" resolve="TestModelRepo" />
-              <ref role="37wK5l" to="ofql:66mO_QB9Foo" resolve="checkoutTestObject" />
+              <ref role="37wK5l" to="ofql:66mO_QB9Foo" resolve="checkoutIntKeyObject" />
               <node concept="2OqwBi" id="x0kurEmgJ3" role="37wK5m">
                 <node concept="2OqwBi" id="x0kurEmgIQ" role="2Oq$k0">
                   <node concept="37vLTw" id="4$qgDG0CiZ" role="2Oq$k0">
