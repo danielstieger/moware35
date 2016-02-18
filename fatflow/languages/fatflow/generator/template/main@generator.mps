@@ -17312,6 +17312,13 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="6bN8khMJqSM" role="3cqZAp" />
+            <node concept="3SKdUt" id="6bN8khMJCZX" role="3cqZAp">
+              <node concept="3SKdUq" id="6bN8khMJCZY" role="3SKWNk">
+                <property role="3SKdUp" value="lockservice for batchjobs not supported!" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="6bN8khMJCrl" role="3cqZAp" />
             <node concept="3SKdUt" id="5T_hheWk9Ji" role="3cqZAp">
               <node concept="3SKdUq" id="5T_hheWk9KU" role="3SKWNk">
                 <property role="3SKdUp" value="previous call was blocking. " />
@@ -17326,7 +17333,7 @@
             <node concept="3clFbH" id="61KpyPwMgqH" role="3cqZAp" />
             <node concept="3SKdUt" id="61KpyPwMtND" role="3cqZAp">
               <node concept="3SKdUq" id="61KpyPwMtNY" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: removed, since that leads to classNotFoundException ApacheFop, in case lib not used..." />
+                <property role="3SKdUp" value="removed, since that leads to classNotFoundException ApacheFop, in case lib not used..." />
               </node>
             </node>
             <node concept="3SKdUt" id="61KpyPwMgsZ" role="3cqZAp">
@@ -18234,6 +18241,12 @@
                 </node>
               </node>
               <node concept="3clFbH" id="58sbo6SgaAP" role="3cqZAp" />
+              <node concept="3SKdUt" id="6bN8khMJ$AI" role="3cqZAp">
+                <node concept="3SKdUq" id="6bN8khMJAo9" role="3SKWNk">
+                  <property role="3SKdUp" value="lockservice for batchjobs not supported!" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="6bN8khMJAs3" role="3cqZAp" />
               <node concept="3VdxhY" id="7ubUX52ewVm" role="3cqZAp">
                 <property role="Rda9K" value="INFO" />
                 <node concept="Xl_RD" id="7ubUX52eCw0" role="3VcgQn">

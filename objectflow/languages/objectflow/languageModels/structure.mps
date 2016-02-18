@@ -800,6 +800,11 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6Rdz00$u0vd" resolve="IRevertableReference" />
     </node>
+    <node concept="1TJgyj" id="1ZUVpFmntkV" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="maxCommandInitSecs" />
+      <ref role="20lvS9" to="tpee:fzcmrck" resolve="IntegerConstant" />
+    </node>
     <node concept="1TJgyj" id="1IEa9ReVfmD" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="process" />

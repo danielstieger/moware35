@@ -3038,7 +3038,7 @@
         <node concept="3clFbH" id="7nxGN1HIyqt" role="3cqZAp" />
         <node concept="3SKdUt" id="6bN8khMwFtR" role="3cqZAp">
           <node concept="3SKdUq" id="6bN8khMwFM9" role="3SKWNk">
-            <property role="3SKdUp" value="JMX lock on server environments" />
+            <property role="3SKdUp" value="JMX lock on rich / server environments" />
           </node>
         </node>
         <node concept="3clFbJ" id="7nxGN1HIFjY" role="3cqZAp">
@@ -3075,6 +3075,7 @@
                 <node concept="10Nm6u" id="7nxGN1HIHT8" role="37wK5m" />
               </node>
             </node>
+            <node concept="3clFbH" id="6bN8khMJeBa" role="3cqZAp" />
           </node>
           <node concept="1Wc70l" id="6bN8khMy2Gn" role="3clFbw">
             <node concept="3fqX7Q" id="6bN8khMy2Qy" role="3uHU7B">
@@ -3093,7 +3094,6 @@
           </node>
           <node concept="3eNFk2" id="6bN8khMwG12" role="3eNLev">
             <node concept="3clFbS" id="6bN8khMwG14" role="3eOfB_">
-              <node concept="3clFbH" id="6bN8khMEg61" role="3cqZAp" />
               <node concept="3clFbJ" id="6bN8khMEeMd" role="3cqZAp">
                 <node concept="3clFbS" id="6bN8khMEeMf" role="3clFbx">
                   <node concept="3SKdUt" id="6bN8khMxv0G" role="3cqZAp">
