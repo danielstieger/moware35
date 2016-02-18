@@ -20342,6 +20342,22 @@
       <node concept="3Tm1VV" id="R5cwR_QkWU" role="1B3o_S" />
       <node concept="3clFbS" id="R5cwR_QkWV" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="6bN8khMyB5$" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isAppLocked" />
+      <node concept="3clFbS" id="6bN8khMyB5B" role="3clF47" />
+      <node concept="3Tm1VV" id="6bN8khMyB5C" role="1B3o_S" />
+      <node concept="10P_77" id="6bN8khMyB42" role="3clF45" />
+      <node concept="37vLTG" id="6bN8khMyBbg" role="3clF46">
+        <property role="TrG5h" value="appName" />
+        <node concept="17QB3L" id="6bN8khMyBbf" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6bN8khMyBdh" role="3clF46">
+        <property role="TrG5h" value="appVersion" />
+        <node concept="17QB3L" id="6bN8khMyBfa" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="3clFb_" id="7nDJo_bvnly" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getDebugInformation" />

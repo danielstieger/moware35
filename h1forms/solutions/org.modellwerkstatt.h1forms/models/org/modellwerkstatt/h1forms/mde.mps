@@ -512,6 +512,18 @@
     </node>
     <node concept="2tJIrI" id="7RHNXGyQGdE" role="jymVt" />
     <node concept="2tJIrI" id="6rMtHgbBVw1" role="jymVt" />
+    <node concept="3clFb_" id="6bN8khMFiEO" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isRichClientToolkit" />
+      <node concept="3Tm1VV" id="6bN8khMFiEQ" role="1B3o_S" />
+      <node concept="10P_77" id="6bN8khMFiER" role="3clF45" />
+      <node concept="3clFbS" id="6bN8khMFiET" role="3clF47">
+        <node concept="3clFbF" id="6bN8khMFiEV" role="3cqZAp">
+          <node concept="3clFbT" id="6bN8khMFiEU" role="3clFbG" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="6rMtHgbBVHt" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getPageProvider" />

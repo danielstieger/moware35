@@ -259,6 +259,9 @@
       <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
         <child id="1171903916107" name="bound" index="3qUE_r" />
       </concept>
+      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
+        <property id="8355037393041754995" name="isNative" index="2aFKle" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -5867,6 +5870,20 @@
     <node concept="2tJIrI" id="12Eg3QJGoYl" role="jymVt" />
     <node concept="2tJIrI" id="12Eg3QJGtv3" role="jymVt" />
     <node concept="2tJIrI" id="7aUgYCzIRzl" role="jymVt" />
+    <node concept="3clFb_" id="6bN8khMGXTK" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isRichClientToolkit" />
+      <node concept="3Tm1VV" id="6bN8khMGXTM" role="1B3o_S" />
+      <node concept="10P_77" id="6bN8khMGXTN" role="3clF45" />
+      <node concept="3clFbS" id="6bN8khMGXTP" role="3clF47">
+        <node concept="3clFbF" id="6bN8khMGYuj" role="3cqZAp">
+          <node concept="3clFbT" id="6bN8khMGYui" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="Y3fiVL8Sej" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getClassFqName2Run" />

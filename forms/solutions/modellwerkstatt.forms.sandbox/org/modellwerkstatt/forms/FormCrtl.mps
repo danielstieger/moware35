@@ -3036,6 +3036,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="7nxGN1HIyqt" role="3cqZAp" />
+        <node concept="3SKdUt" id="6bN8khMwFtR" role="3cqZAp">
+          <node concept="3SKdUq" id="6bN8khMwFM9" role="3SKWNk">
+            <property role="3SKdUp" value="JMX lock on server environments" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="7nxGN1HIFjY" role="3cqZAp">
           <node concept="3clFbS" id="7nxGN1HIFk0" role="3clFbx">
             <node concept="3clFbF" id="7nxGN1HKJJy" role="3cqZAp">
@@ -3071,18 +3076,110 @@
               </node>
             </node>
           </node>
-          <node concept="1Wc70l" id="7nxGN1HKJ4g" role="3clFbw">
-            <node concept="3fqX7Q" id="7nxGN1HKJs8" role="3uHU7w">
-              <node concept="37vLTw" id="7nxGN1HKJx3" role="3fr31v">
+          <node concept="1Wc70l" id="6bN8khMy2Gn" role="3clFbw">
+            <node concept="3fqX7Q" id="6bN8khMy2Qy" role="3uHU7B">
+              <node concept="37vLTw" id="6bN8khMy2UU" role="3fr31v">
                 <ref role="3cqZAo" node="7nxGN1HKFqV" resolve="lockMessageShown" />
               </node>
             </node>
-            <node concept="2OqwBi" id="7nxGN1HIFKX" role="3uHU7B">
+            <node concept="2OqwBi" id="7nxGN1HIFKX" role="3uHU7w">
               <node concept="37vLTw" id="7nxGN1HIF$_" role="2Oq$k0">
                 <ref role="3cqZAo" node="2yuEF6qjnHZ" resolve="jmxRegistration" />
               </node>
               <node concept="liA8E" id="7nxGN1HIG6_" role="2OqNvi">
                 <ref role="37wK5l" node="2yuEF6qekef" resolve="isLocked" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="6bN8khMwG12" role="3eNLev">
+            <node concept="3clFbS" id="6bN8khMwG14" role="3eOfB_">
+              <node concept="3clFbH" id="6bN8khMEg61" role="3cqZAp" />
+              <node concept="3clFbJ" id="6bN8khMEeMd" role="3cqZAp">
+                <node concept="3clFbS" id="6bN8khMEeMf" role="3clFbx">
+                  <node concept="3SKdUt" id="6bN8khMxv0G" role="3cqZAp">
+                    <node concept="3SKdUq" id="6bN8khMxv71" role="3SKWNk">
+                      <property role="3SKdUp" value="use a lockMsg from Zookeeper on fatclient RTs" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="6bN8khMwRVv" role="3cqZAp">
+                    <node concept="37vLTI" id="6bN8khMwS85" role="3clFbG">
+                      <node concept="3clFbT" id="6bN8khMwSa9" role="37vLTx">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="37vLTw" id="6bN8khMwRVu" role="37vLTJ">
+                        <ref role="3cqZAo" node="7nxGN1HKFqV" resolve="lockMessageShown" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="6bN8khMwVwN" role="3cqZAp">
+                    <node concept="1rXfSq" id="6bN8khMwVwO" role="3clFbG">
+                      <ref role="37wK5l" node="5_bDd1dON5p" resolve="showInfoDialog" />
+                      <node concept="Rm8GO" id="6bN8khMwVwP" role="37wK5m">
+                        <ref role="1Px2BO" node="4Ucpg8z6mu9" resolve="IToolkit_AppWindow.MsgType" />
+                        <ref role="Rm8GQ" node="4Ucpg8z6mvn" resolve="INFO" />
+                      </node>
+                      <node concept="2OqwBi" id="6bN8khMwVwQ" role="37wK5m">
+                        <node concept="37vLTw" id="6bN8khMwVwR" role="2Oq$k0">
+                          <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                        </node>
+                        <node concept="liA8E" id="6bN8khMwVwS" role="2OqNvi">
+                          <ref role="37wK5l" node="20ohnkbA2Ln" resolve="getTranslation" />
+                          <node concept="Rm8GO" id="6bN8khMwVwT" role="37wK5m">
+                            <ref role="1Px2BO" node="2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                            <ref role="Rm8GQ" node="7nxGN1HIKgU" resolve="APPLICATION_LOCKED" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="10Nm6u" id="6bN8khMwVwU" role="37wK5m" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="1Wc70l" id="6bN8khMy3yl" role="3clFbw">
+                  <node concept="3fqX7Q" id="6bN8khMy3PN" role="3uHU7B">
+                    <node concept="37vLTw" id="6bN8khMy3UW" role="3fr31v">
+                      <ref role="3cqZAo" node="7nxGN1HKFqV" resolve="lockMessageShown" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="6bN8khMwGDC" role="3uHU7w">
+                    <node concept="2OqwBi" id="6bN8khMwGnA" role="2Oq$k0">
+                      <node concept="37vLTw" id="6bN8khMwGkW" role="2Oq$k0">
+                        <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                      </node>
+                      <node concept="liA8E" id="6bN8khMwGCc" role="2OqNvi">
+                        <ref role="37wK5l" node="7nDJo_bvoHq" resolve="getLockService" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="6bN8khMwLTo" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:6bN8khMyB5$" resolve="isAppLocked" />
+                      <node concept="2OqwBi" id="6bN8khMwO6d" role="37wK5m">
+                        <node concept="37vLTw" id="6bN8khMwP6z" role="2Oq$k0">
+                          <ref role="3cqZAo" node="20ohnkbK$XP" resolve="applicationBehaviour" />
+                        </node>
+                        <node concept="liA8E" id="6bN8khMwPqI" role="2OqNvi">
+                          <ref role="37wK5l" node="6CVJxS8gcow" resolve="getApplicationName" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="6bN8khM_cM2" role="37wK5m">
+                        <node concept="37vLTw" id="6bN8khM_cFe" role="2Oq$k0">
+                          <ref role="3cqZAo" node="20ohnkbK$XP" resolve="applicationBehaviour" />
+                        </node>
+                        <node concept="liA8E" id="6bN8khM_d5W" role="2OqNvi">
+                          <ref role="37wK5l" node="3sx4Hz319k9" resolve="getApplicationVersion" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="6bN8khMzNHo" role="3cqZAp" />
+              <node concept="3clFbH" id="6bN8khMwSfW" role="3cqZAp" />
+            </node>
+            <node concept="2OqwBi" id="6bN8khMEfCS" role="3eO9$A">
+              <node concept="37vLTw" id="6bN8khMEfwH" role="2Oq$k0">
+                <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+              </node>
+              <node concept="liA8E" id="6bN8khMEg4k" role="2OqNvi">
+                <ref role="37wK5l" node="6bN8khMDDXR" resolve="isRichClientToolkit" />
               </node>
             </node>
           </node>
@@ -5007,6 +5104,17 @@
           </node>
         </node>
         <node concept="3clFbH" id="50$EOT994aG" role="3cqZAp" />
+        <node concept="3SKdUt" id="6bN8khMADl0" role="3cqZAp">
+          <node concept="3SKdUq" id="6bN8khMADw5" role="3SKWNk">
+            <property role="3SKdUp" value="other things to shut down? " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6bN8khMADzt" role="3cqZAp">
+          <node concept="3SKdUq" id="6bN8khMADGS" role="3SKWNk">
+            <property role="3SKdUp" value="do NOT shutdown zookeeper here, since this is a shared service. " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6bN8khMAD8m" role="3cqZAp" />
         <node concept="3clFbJ" id="7KIS3I4JE7h" role="3cqZAp">
           <node concept="3clFbS" id="7KIS3I4JE7j" role="3clFbx">
             <node concept="3SKdUt" id="7KIS3I4JFeu" role="3cqZAp">
@@ -12920,7 +13028,15 @@
       <node concept="3Tm1VV" id="12Eg3QJFzp9" role="1B3o_S" />
       <node concept="3clFbS" id="12Eg3QJFzpa" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="20ohnkbJfmG" role="jymVt" />
+    <node concept="3clFb_" id="6bN8khMDDXR" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isRichClientToolkit" />
+      <node concept="3clFbS" id="6bN8khMDDXU" role="3clF47" />
+      <node concept="3Tm1VV" id="6bN8khMDDXV" role="1B3o_S" />
+      <node concept="10P_77" id="6bN8khMDDRy" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="6bN8khMDDO0" role="jymVt" />
     <node concept="3clFb_" id="4XXgpA_yFXU" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getProcessByFqName" />
@@ -13130,6 +13246,7 @@
       <node concept="3clFbS" id="3sEA$PI$eTs" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="5Y1b9tR4bzl" role="jymVt" />
+    <node concept="2tJIrI" id="6bN8khMDDKo" role="jymVt" />
     <node concept="3Tm1VV" id="20ohnkbzF0e" role="1B3o_S" />
     <node concept="3uibUv" id="20ohnkbJcos" role="3HQHJm">
       <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />

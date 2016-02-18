@@ -203,6 +203,9 @@
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
       <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
+      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
+        <property id="8355037393041754995" name="isNative" index="2aFKle" />
+      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -288,6 +291,16 @@
         <property role="Xl_RC" value="/MOLOCK" />
       </node>
     </node>
+    <node concept="Wx3nA" id="6bN8khMzZxD" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="APPLICATIONGROUPE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="6bN8khMzZxE" role="1tU5fm" />
+      <node concept="3Tm6S6" id="6bN8khMzZxF" role="1B3o_S" />
+      <node concept="Xl_RD" id="6bN8khMzZxG" role="33vP2m">
+        <property role="Xl_RC" value="/APPLICMOLOCK" />
+      </node>
+    </node>
     <node concept="Wx3nA" id="2$47O4J0kFC" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="CHARSET" />
@@ -326,7 +339,49 @@
       <node concept="17QB3L" id="7nDJo_byCKR" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="R5cwR_Q1$0" role="jymVt" />
-    <node concept="2tJIrI" id="2$47O4IZYYC" role="jymVt" />
+    <node concept="312cEg" id="6bN8khM$vbD" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="lastAppLockCheck" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="6bN8khM$tX0" role="1B3o_S" />
+      <node concept="10P_77" id="6bN8khM$zWW" role="1tU5fm" />
+      <node concept="3clFbT" id="6bN8khM$AGl" role="33vP2m">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="312cEg" id="6bN8khM$yKJ" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="lastAppLockCheckWasAt" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="6bN8khM$xxp" role="1B3o_S" />
+      <node concept="3cpWsb" id="6bN8khM$$2m" role="1tU5fm" />
+      <node concept="3cmrfG" id="6bN8khM$AP7" role="33vP2m">
+        <property role="3cmrfH" value="0" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="6bN8khM$$8s" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="CHECK_APPLOCK_INTERVAL" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3cpWsb" id="6bN8khM$Azp" role="1tU5fm" />
+      <node concept="3Tm6S6" id="6bN8khM$$8u" role="1B3o_S" />
+      <node concept="3cmrfG" id="6bN8khM$$8v" role="33vP2m">
+        <property role="3cmrfH" value="30000" />
+      </node>
+    </node>
+    <node concept="312cEg" id="6bN8khMBH7e" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="lastAppLockCheckPath" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="6bN8khMBFB2" role="1B3o_S" />
+      <node concept="17QB3L" id="6bN8khMBGYC" role="1tU5fm" />
+      <node concept="Xl_RD" id="6bN8khMBIwa" role="33vP2m">
+        <property role="Xl_RC" value="(none?)" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="2$47O4IZYqK" role="jymVt" />
     <node concept="3clFbW" id="2$47O4IZXTL" role="jymVt">
       <node concept="3cqZAl" id="2$47O4IZXTN" role="3clF45" />
@@ -467,7 +522,42 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="7nDJo_bJyRE" role="3cqZAp" />
+            <node concept="3clFbF" id="6bN8khMBTwT" role="3cqZAp">
+              <node concept="2OqwBi" id="6bN8khMBTHI" role="3clFbG">
+                <node concept="37vLTw" id="6bN8khMBTwR" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7nDJo_byAiz" resolve="b" />
+                </node>
+                <node concept="liA8E" id="6bN8khMBTT3" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="3cpWs3" id="6bN8khMBX72" role="37wK5m">
+                    <node concept="Xl_RD" id="6bN8khMBXli" role="3uHU7w">
+                      <property role="Xl_RC" value="\&quot;." />
+                    </node>
+                    <node concept="3cpWs3" id="6bN8khMBWtq" role="3uHU7B">
+                      <node concept="Xl_RD" id="6bN8khMBTV_" role="3uHU7B">
+                        <property role="Xl_RC" value="Last app lock check path was \&quot;" />
+                      </node>
+                      <node concept="37vLTw" id="6bN8khMBWYi" role="3uHU7w">
+                        <ref role="3cqZAo" node="6bN8khMBH7e" resolve="lastAppLockCheckPath" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6bN8khMBV_1" role="3cqZAp">
+              <node concept="2OqwBi" id="6bN8khMBVM9" role="3clFbG">
+                <node concept="37vLTw" id="6bN8khMBV$Z" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7nDJo_byAiz" resolve="b" />
+                </node>
+                <node concept="liA8E" id="6bN8khMBVX_" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="Xl_RD" id="6bN8khMBVYV" role="37wK5m">
+                    <property role="Xl_RC" value="\n" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3SKdUt" id="7nDJo_bJyTA" role="3cqZAp">
               <node concept="3SKdUq" id="7nDJo_bJyUd" role="3SKWNk">
                 <property role="3SKdUp" value="read directory .. " />
@@ -556,7 +646,6 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="7nDJo_bJzKA" role="3cqZAp" />
-                <node concept="3clFbH" id="7nDJo_bJzKD" role="3cqZAp" />
               </node>
               <node concept="TDmWw" id="7nDJo_bJzJM" role="TEbGg">
                 <node concept="3cpWsn" id="7nDJo_bJzJO" role="TDEfY">
@@ -705,6 +794,250 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7nDJo_by_Ww" role="jymVt" />
+    <node concept="3clFb_" id="6bN8khMzAP5" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isAppLocked" />
+      <node concept="3Tm1VV" id="6bN8khMzAP7" role="1B3o_S" />
+      <node concept="10P_77" id="6bN8khMzAP8" role="3clF45" />
+      <node concept="37vLTG" id="6bN8khMzAP9" role="3clF46">
+        <property role="TrG5h" value="appName" />
+        <node concept="17QB3L" id="6bN8khMzAPa" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6bN8khMzAPb" role="3clF46">
+        <property role="TrG5h" value="appVersion" />
+        <node concept="17QB3L" id="6bN8khMzAPc" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="6bN8khMzAPd" role="3clF47">
+        <node concept="3clFbJ" id="6bN8khMzHR3" role="3cqZAp">
+          <node concept="3clFbS" id="6bN8khMzHR4" role="3clFbx">
+            <node concept="3cpWs6" id="6bN8khMzHR5" role="3cqZAp">
+              <node concept="3clFbT" id="6bN8khMzI8N" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="6bN8khMzHR7" role="3clFbw">
+            <node concept="37vLTw" id="6bN8khMzHR8" role="3fr31v">
+              <ref role="3cqZAo" node="R5cwR_Q2kb" resolve="online" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6bN8khM$gDj" role="3cqZAp" />
+        <node concept="3cpWs8" id="6bN8khM$Oci" role="3cqZAp">
+          <node concept="3cpWsn" id="6bN8khM$Ocl" role="3cpWs9">
+            <property role="TrG5h" value="currentMillis" />
+            <node concept="3cpWsb" id="6bN8khM$Ocg" role="1tU5fm" />
+            <node concept="2YIFZM" id="6bN8khM$P4x" role="33vP2m">
+              <ref role="37wK5l" to="e2lb:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+              <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6bN8khMA8vD" role="3cqZAp" />
+        <node concept="3clFbH" id="6bN8khMAk4U" role="3cqZAp" />
+        <node concept="3clFbJ" id="6bN8khM$PYI" role="3cqZAp">
+          <node concept="3clFbS" id="6bN8khM$PYK" role="3clFbx">
+            <node concept="3cpWs6" id="6bN8khM$TNI" role="3cqZAp">
+              <node concept="37vLTw" id="6bN8khM$TV6" role="3cqZAk">
+                <ref role="3cqZAo" node="6bN8khM$vbD" resolve="lastAppLockCheck" />
+              </node>
+            </node>
+          </node>
+          <node concept="3eOVzh" id="6bN8khMAsQQ" role="3clFbw">
+            <node concept="3cpWsd" id="6bN8khM$Rj6" role="3uHU7B">
+              <node concept="37vLTw" id="6bN8khM$R0H" role="3uHU7B">
+                <ref role="3cqZAo" node="6bN8khM$Ocl" resolve="currentMillis" />
+              </node>
+              <node concept="37vLTw" id="6bN8khM$Rq7" role="3uHU7w">
+                <ref role="3cqZAo" node="6bN8khM$yKJ" resolve="lastAppLockCheckWasAt" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6bN8khM$RW6" role="3uHU7w">
+              <ref role="3cqZAo" node="6bN8khM$$8s" resolve="CHECK_APPLOCK_INTERVAL" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6bN8khM$S7q" role="3cqZAp" />
+        <node concept="3SKdUt" id="6bN8khM_2J$" role="3cqZAp">
+          <node concept="3SKdUq" id="6bN8khM_3Od" role="3SKWNk">
+            <property role="3SKdUp" value="okay, then do the check" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6bN8khM_4Xy" role="3cqZAp">
+          <node concept="37vLTI" id="6bN8khM_6pn" role="3clFbG">
+            <node concept="37vLTw" id="6bN8khM_6G9" role="37vLTx">
+              <ref role="3cqZAo" node="6bN8khM$Ocl" resolve="currentMillis" />
+            </node>
+            <node concept="37vLTw" id="6bN8khM_63C" role="37vLTJ">
+              <ref role="3cqZAo" node="6bN8khM$yKJ" resolve="lastAppLockCheckWasAt" />
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6bN8khMBLVR" role="3cqZAp">
+          <node concept="3SKdUq" id="6bN8khMBN19" role="3SKWNk">
+            <property role="3SKdUp" value="applockCheckPath" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6bN8khMBOb4" role="3cqZAp">
+          <node concept="37vLTI" id="6bN8khMBPlC" role="3clFbG">
+            <node concept="37vLTw" id="6bN8khMBOb2" role="37vLTJ">
+              <ref role="3cqZAo" node="6bN8khMBH7e" resolve="lastAppLockCheckPath" />
+            </node>
+            <node concept="3cpWs3" id="6bN8khM$2Wg" role="37vLTx">
+              <node concept="2OqwBi" id="6bN8khMDpvM" role="3uHU7w">
+                <node concept="2OqwBi" id="6bN8khMDoeT" role="2Oq$k0">
+                  <node concept="37vLTw" id="6bN8khM$39d" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6bN8khMzAPb" resolve="appVersion" />
+                  </node>
+                  <node concept="liA8E" id="6bN8khMDoFT" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                    <node concept="Xl_RD" id="6bN8khMDoLw" role="37wK5m">
+                      <property role="Xl_RC" value="." />
+                    </node>
+                    <node concept="Xl_RD" id="6bN8khMDpbO" role="37wK5m">
+                      <property role="Xl_RC" value="_" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="6bN8khMDq37" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <node concept="Xl_RD" id="6bN8khMDq9_" role="37wK5m">
+                    <property role="Xl_RC" value=" " />
+                  </node>
+                  <node concept="Xl_RD" id="6bN8khMDq$4" role="37wK5m">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs3" id="6bN8khM$3nu" role="3uHU7B">
+                <node concept="Xl_RD" id="6bN8khM$3JI" role="3uHU7w">
+                  <property role="Xl_RC" value="_" />
+                </node>
+                <node concept="3cpWs3" id="6bN8khMzTzJ" role="3uHU7B">
+                  <node concept="3cpWs3" id="6bN8khMzTzL" role="3uHU7B">
+                    <node concept="Xl_RD" id="6bN8khMzTzM" role="3uHU7w">
+                      <property role="Xl_RC" value="/" />
+                    </node>
+                    <node concept="37vLTw" id="6bN8khMBPNM" role="3uHU7B">
+                      <ref role="3cqZAo" node="6bN8khMzZxD" resolve="APPLICATIONGROUPE" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="6bN8khM$2CR" role="3uHU7w">
+                    <ref role="3cqZAo" node="6bN8khMzAP9" resolve="appName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6bN8khMBKPq" role="3cqZAp" />
+        <node concept="SfApY" id="6bN8khM$CTS" role="3cqZAp">
+          <node concept="3clFbS" id="6bN8khM$CTU" role="SfCbr">
+            <node concept="3cpWs8" id="6bN8khM$gFw" role="3cqZAp">
+              <node concept="3cpWsn" id="6bN8khM$gFx" role="3cpWs9">
+                <property role="TrG5h" value="stat" />
+                <node concept="3uibUv" id="6bN8khM$gFy" role="1tU5fm">
+                  <ref role="3uigEE" to="79hc:~Stat" resolve="Stat" />
+                </node>
+                <node concept="2OqwBi" id="6bN8khM$gFz" role="33vP2m">
+                  <node concept="37vLTw" id="6bN8khM$gF$" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2$47O4IZYtA" resolve="zooKeeper" />
+                  </node>
+                  <node concept="liA8E" id="6bN8khM$gF_" role="2OqNvi">
+                    <ref role="37wK5l" to="5m3c:~ZooKeeper.exists(java.lang.String,boolean):org.apache.zookeeper.data.Stat" resolve="exists" />
+                    <node concept="37vLTw" id="6bN8khMBQo$" role="37wK5m">
+                      <ref role="3cqZAo" node="6bN8khMBH7e" resolve="lastAppLockCheckPath" />
+                    </node>
+                    <node concept="3clFbT" id="6bN8khM$gFB" role="37wK5m">
+                      <property role="3clFbU" value="false" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6bN8khM$jQm" role="3cqZAp">
+              <node concept="3clFbS" id="6bN8khM$jQo" role="3clFbx">
+                <node concept="3SKdUt" id="6bN8khM$lpJ" role="3cqZAp">
+                  <node concept="3SKdUq" id="6bN8khM$lxU" role="3SKWNk">
+                    <property role="3SKdUp" value="does exist" />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="6bN8khM$XKg" role="3cqZAp">
+                  <node concept="37vLTI" id="6bN8khM$YTh" role="3clFbG">
+                    <node concept="3clFbT" id="6bN8khM$Z8H" role="37vLTx">
+                      <property role="3clFbU" value="true" />
+                    </node>
+                    <node concept="37vLTw" id="6bN8khM$XKe" role="37vLTJ">
+                      <ref role="3cqZAo" node="6bN8khM$vbD" resolve="lastAppLockCheck" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="6bN8khM$o4s" role="3cqZAp">
+                  <node concept="37vLTw" id="6bN8khM$WFr" role="3cqZAk">
+                    <ref role="3cqZAo" node="6bN8khM$vbD" resolve="lastAppLockCheck" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="6bN8khM$o1C" role="3clFbw">
+                <node concept="37vLTw" id="6bN8khM$kCr" role="3uHU7B">
+                  <ref role="3cqZAo" node="6bN8khM$gFx" resolve="stat" />
+                </node>
+                <node concept="10Nm6u" id="6bN8khM$lfS" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="6bN8khM$CTT" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="6bN8khM$CTV" role="TEbGg">
+            <node concept="3cpWsn" id="6bN8khM$CTX" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="6bN8khM$FeD" role="1tU5fm">
+                <ref role="3uigEE" to="e2lb:~InterruptedException" resolve="InterruptedException" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="6bN8khM$CU1" role="TDEfX">
+              <node concept="3SKdUt" id="6bN8khM$Fwh" role="3cqZAp">
+                <node concept="3SKdUq" id="6bN8khM$Fyx" role="3SKWNk">
+                  <property role="3SKdUp" value="do nothing..... " />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="6bN8khM$M7K" role="TEbGg">
+            <node concept="3clFbS" id="6bN8khM$M7L" role="TDEfX">
+              <node concept="3SKdUt" id="6bN8khM$N7m" role="3cqZAp">
+                <node concept="3SKdUq" id="6bN8khM$NaW" role="3SKWNk">
+                  <property role="3SKdUp" value="do nothing.. " />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="6bN8khM$M7M" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="6bN8khM$M7N" role="1tU5fm">
+                <ref role="3uigEE" to="5m3c:~KeeperException" resolve="KeeperException" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6bN8khM$Hvl" role="3cqZAp" />
+        <node concept="3clFbF" id="6bN8khM_0oO" role="3cqZAp">
+          <node concept="37vLTI" id="6bN8khM_18o" role="3clFbG">
+            <node concept="3clFbT" id="6bN8khM_1aG" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="6bN8khM_0oM" role="37vLTJ">
+              <ref role="3cqZAo" node="6bN8khM$vbD" resolve="lastAppLockCheck" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="6bN8khM$o8V" role="3cqZAp">
+          <node concept="37vLTw" id="6bN8khM_1Ci" role="3cqZAk">
+            <ref role="3cqZAo" node="6bN8khM$vbD" resolve="lastAppLockCheck" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6bN8khM$qAM" role="jymVt" />
     <node concept="3clFb_" id="2$47O4J02sH" role="jymVt">
       <property role="TrG5h" value="connect" />
       <node concept="3cqZAl" id="2$47O4J02sJ" role="3clF45" />
@@ -800,29 +1133,8 @@
                   </node>
                   <node concept="liA8E" id="R5cwRAnomG" role="2OqNvi">
                     <ref role="37wK5l" to="5m3c:~ZooKeeper.exists(java.lang.String,boolean):org.apache.zookeeper.data.Stat" resolve="exists" />
-                    <node concept="2OqwBi" id="R5cwRAn_Vn" role="37wK5m">
-                      <node concept="37vLTw" id="R5cwRAnth9" role="2Oq$k0">
-                        <ref role="3cqZAo" node="R5cwRAlQaU" resolve="GROUPE" />
-                      </node>
-                      <node concept="liA8E" id="R5cwRAnAoG" role="2OqNvi">
-                        <ref role="37wK5l" to="e2lb:~String.substring(int,int):java.lang.String" resolve="substring" />
-                        <node concept="3cmrfG" id="R5cwRAnAAj" role="37wK5m">
-                          <property role="3cmrfH" value="0" />
-                        </node>
-                        <node concept="3cpWsd" id="R5cwRAnCgl" role="37wK5m">
-                          <node concept="3cmrfG" id="R5cwRAnCgL" role="3uHU7w">
-                            <property role="3cmrfH" value="1" />
-                          </node>
-                          <node concept="2OqwBi" id="R5cwRAnBnn" role="3uHU7B">
-                            <node concept="37vLTw" id="R5cwRAnBcE" role="2Oq$k0">
-                              <ref role="3cqZAo" node="R5cwRAlQaU" resolve="GROUPE" />
-                            </node>
-                            <node concept="liA8E" id="R5cwRAnBRA" role="2OqNvi">
-                              <ref role="37wK5l" to="e2lb:~String.length():int" resolve="length" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="R5cwRAnth9" role="37wK5m">
+                      <ref role="3cqZAo" node="R5cwRAlQaU" resolve="GROUPE" />
                     </node>
                     <node concept="3clFbT" id="R5cwRAnomI" role="37wK5m">
                       <property role="3clFbU" value="false" />
@@ -833,14 +1145,14 @@
             </node>
             <node concept="3clFbJ" id="R5cwRAnomJ" role="3cqZAp">
               <node concept="3clFbS" id="R5cwRAnomK" role="3clFbx">
-                <node concept="3clFbF" id="R5cwRAnomL" role="3cqZAp">
+                <node concept="3clFbF" id="6bN8khMJ5YJ" role="3cqZAp">
                   <node concept="2OqwBi" id="R5cwRAnomM" role="3clFbG">
                     <node concept="37vLTw" id="R5cwRAnomN" role="2Oq$k0">
                       <ref role="3cqZAo" node="2$47O4IZYtA" resolve="zooKeeper" />
                     </node>
                     <node concept="liA8E" id="R5cwRAnomO" role="2OqNvi">
                       <ref role="37wK5l" to="5m3c:~ZooKeeper.create(java.lang.String,byte[],java.util.List,org.apache.zookeeper.CreateMode):java.lang.String" resolve="create" />
-                      <node concept="37vLTw" id="R5cwRAntO4" role="37wK5m">
+                      <node concept="37vLTw" id="6bN8khMJ5Z7" role="37wK5m">
                         <ref role="3cqZAo" node="R5cwRAlQaU" resolve="GROUPE" />
                       </node>
                       <node concept="10Nm6u" id="R5cwRAnuMd" role="37wK5m" />
@@ -863,6 +1175,67 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="6bN8khMIbDo" role="3cqZAp" />
+            <node concept="3SKdUt" id="6bN8khMIcih" role="3cqZAp">
+              <node concept="3SKdUq" id="6bN8khMIcop" role="3SKWNk">
+                <property role="3SKdUp" value="create Applock dir" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6bN8khMIdVH" role="3cqZAp">
+              <node concept="37vLTI" id="6bN8khMIdVJ" role="3clFbG">
+                <node concept="2OqwBi" id="6bN8khMIcyq" role="37vLTx">
+                  <node concept="37vLTw" id="6bN8khMIcyr" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2$47O4IZYtA" resolve="zooKeeper" />
+                  </node>
+                  <node concept="liA8E" id="6bN8khMIcys" role="2OqNvi">
+                    <ref role="37wK5l" to="5m3c:~ZooKeeper.exists(java.lang.String,boolean):org.apache.zookeeper.data.Stat" resolve="exists" />
+                    <node concept="37vLTw" id="6bN8khMIdaH" role="37wK5m">
+                      <ref role="3cqZAo" node="6bN8khMzZxD" resolve="APPLICATIONGROUPE" />
+                    </node>
+                    <node concept="3clFbT" id="6bN8khMIcy$" role="37wK5m">
+                      <property role="3clFbU" value="false" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="6bN8khMIexz" role="37vLTJ">
+                  <ref role="3cqZAo" node="R5cwRAnomC" resolve="stat" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6bN8khMIczl" role="3cqZAp">
+              <node concept="3clFbS" id="6bN8khMIczm" role="3clFbx">
+                <node concept="3clFbF" id="6bN8khMIczn" role="3cqZAp">
+                  <node concept="2OqwBi" id="6bN8khMIczo" role="3clFbG">
+                    <node concept="37vLTw" id="6bN8khMIczp" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2$47O4IZYtA" resolve="zooKeeper" />
+                    </node>
+                    <node concept="liA8E" id="6bN8khMIczq" role="2OqNvi">
+                      <ref role="37wK5l" to="5m3c:~ZooKeeper.create(java.lang.String,byte[],java.util.List,org.apache.zookeeper.CreateMode):java.lang.String" resolve="create" />
+                      <node concept="37vLTw" id="6bN8khMIePD" role="37wK5m">
+                        <ref role="3cqZAo" node="6bN8khMzZxD" resolve="APPLICATIONGROUPE" />
+                      </node>
+                      <node concept="10Nm6u" id="6bN8khMIczr" role="37wK5m" />
+                      <node concept="10M0yZ" id="6bN8khMIczs" role="37wK5m">
+                        <ref role="1PxDUh" to="5m3c:~ZooDefs$Ids" resolve="ZooDefs.Ids" />
+                        <ref role="3cqZAo" to="5m3c:~ZooDefs$Ids.OPEN_ACL_UNSAFE" resolve="OPEN_ACL_UNSAFE" />
+                      </node>
+                      <node concept="Rm8GO" id="6bN8khMIczt" role="37wK5m">
+                        <ref role="Rm8GQ" to="5m3c:~CreateMode.PERSISTENT" resolve="PERSISTENT" />
+                        <ref role="1Px2BO" to="5m3c:~CreateMode" resolve="CreateMode" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="6bN8khMIczu" role="3clFbw">
+                <node concept="10Nm6u" id="6bN8khMIczv" role="3uHU7w" />
+                <node concept="37vLTw" id="6bN8khMIeDL" role="3uHU7B">
+                  <ref role="3cqZAo" node="R5cwRAnomC" resolve="stat" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6bN8khMIcqY" role="3cqZAp" />
+            <node concept="3clFbH" id="6bN8khMIbDT" role="3cqZAp" />
           </node>
           <node concept="3y3z36" id="R5cwRAnon0" role="3clFbw">
             <node concept="10Nm6u" id="R5cwRAnon1" role="3uHU7w" />
@@ -6491,6 +6864,27 @@
           <node concept="Xl_RD" id="7nDJo_by_M2" role="3clFbG">
             <property role="Xl_RC" value="This is MoFakeLockService: no locking service provided, just a dummy impl." />
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6bN8khMzzdB" role="jymVt" />
+    <node concept="3clFb_" id="6bN8khMzzh7" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isAppLocked" />
+      <node concept="3Tm1VV" id="6bN8khMzzh9" role="1B3o_S" />
+      <node concept="10P_77" id="6bN8khMzzha" role="3clF45" />
+      <node concept="37vLTG" id="6bN8khMzzhb" role="3clF46">
+        <property role="TrG5h" value="appName" />
+        <node concept="17QB3L" id="6bN8khMzzhc" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6bN8khMzzhd" role="3clF46">
+        <property role="TrG5h" value="appVersion" />
+        <node concept="17QB3L" id="6bN8khMzzhe" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="6bN8khMzzhf" role="3clF47">
+        <node concept="3clFbF" id="6bN8khMzzhh" role="3cqZAp">
+          <node concept="3clFbT" id="6bN8khMzzhg" role="3clFbG" />
         </node>
       </node>
     </node>

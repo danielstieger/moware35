@@ -2196,10 +2196,15 @@
               <node concept="3zFVjK" id="3sx4Hz30Z5D" role="3zH0cK">
                 <node concept="3clFbS" id="3sx4Hz30Z5E" role="2VODD2">
                   <node concept="3clFbF" id="3sx4Hz30Zdy" role="3cqZAp">
-                    <node concept="2OqwBi" id="3sx4Hz30Zog" role="3clFbG">
-                      <node concept="30H73N" id="3sx4Hz30Zdx" role="2Oq$k0" />
-                      <node concept="3TrcHB" id="3sx4Hz3193U" role="2OqNvi">
-                        <ref role="3TsBF5" to="sgb:gjLwfPq0wl" resolve="versionInformation" />
+                    <node concept="2OqwBi" id="6bN8khMC74A" role="3clFbG">
+                      <node concept="2OqwBi" id="3sx4Hz30Zog" role="2Oq$k0">
+                        <node concept="30H73N" id="3sx4Hz30Zdx" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="3sx4Hz3193U" role="2OqNvi">
+                          <ref role="3TsBF5" to="sgb:gjLwfPq0wl" resolve="versionInformation" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6bN8khMCaYy" role="2OqNvi">
+                        <ref role="37wK5l" to="e2lb:~String.trim():java.lang.String" resolve="trim" />
                       </node>
                     </node>
                   </node>
@@ -2224,10 +2229,15 @@
               <node concept="3zFVjK" id="6CVJxS8hdNu" role="3zH0cK">
                 <node concept="3clFbS" id="6CVJxS8hdNv" role="2VODD2">
                   <node concept="3clFbF" id="6CVJxS8hdNw" role="3cqZAp">
-                    <node concept="2OqwBi" id="6CVJxS8hdNx" role="3clFbG">
-                      <node concept="30H73N" id="6CVJxS8hdNy" role="2Oq$k0" />
-                      <node concept="3TrcHB" id="6CVJxS8ht2O" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    <node concept="2OqwBi" id="6bN8khMCbVp" role="3clFbG">
+                      <node concept="2OqwBi" id="6CVJxS8hdNx" role="2Oq$k0">
+                        <node concept="30H73N" id="6CVJxS8hdNy" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="6CVJxS8ht2O" role="2OqNvi">
+                          <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6bN8khMCcK5" role="2OqNvi">
+                        <ref role="37wK5l" to="e2lb:~String.trim():java.lang.String" resolve="trim" />
                       </node>
                     </node>
                   </node>

@@ -3042,6 +3042,22 @@
           </node>
         </node>
         <node concept="3clFbH" id="1EBV9L$umVi" role="3cqZAp" />
+        <node concept="3clFbF" id="6bN8khMBesH" role="3cqZAp">
+          <node concept="2OqwBi" id="6bN8khMBfkx" role="3clFbG">
+            <node concept="2OqwBi" id="6bN8khMBevx" role="2Oq$k0">
+              <node concept="37vLTw" id="6bN8khMBesF" role="2Oq$k0">
+                <ref role="3cqZAo" node="4QTIUTBQA3g" resolve="appFactory" />
+              </node>
+              <node concept="liA8E" id="6bN8khMBfjF" role="2OqNvi">
+                <ref role="37wK5l" to="quhv:7nDJo_bvoHq" resolve="getLockService" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6bN8khMBfoS" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:R5cwRAn552" resolve="close" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6bN8khMBgbo" role="3cqZAp" />
         <node concept="3clFbF" id="1EBV9L$up98" role="3cqZAp">
           <node concept="2OqwBi" id="1EBV9L$upbx" role="3clFbG">
             <node concept="37vLTw" id="1EBV9L$up96" role="2Oq$k0">
@@ -3058,6 +3074,12 @@
             <ref role="37wK5l" to="28jr:1fGCQmfQhcV" resolve="shutdownAndGcClean" />
           </node>
         </node>
+        <node concept="3SKdUt" id="6bN8khMwuid" role="3cqZAp">
+          <node concept="3SKdUq" id="6bN8khMwuip" role="3SKWNk">
+            <property role="3SKdUp" value="wait for 30 secs? " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6bN8khMwujd" role="3cqZAp" />
       </node>
       <node concept="2AHcQZ" id="4QTIUTCl8Jt" role="2AJF6D">
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
@@ -5004,6 +5026,19 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7aUgYCzIRzl" role="jymVt" />
+    <node concept="2tJIrI" id="6bN8khMG2r$" role="jymVt" />
+    <node concept="3clFb_" id="6bN8khMG34Y" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isRichClientToolkit" />
+      <node concept="3Tm1VV" id="6bN8khMG350" role="1B3o_S" />
+      <node concept="10P_77" id="6bN8khMG351" role="3clF45" />
+      <node concept="3clFbS" id="6bN8khMG352" role="3clF47">
+        <node concept="3clFbF" id="6bN8khMG354" role="3cqZAp">
+          <node concept="3clFbT" id="6bN8khMG353" role="3clFbG" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="Y3fiVL8Sej" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getClassFqName2Run" />
