@@ -2720,7 +2720,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1ZUVpFmnXfk" role="3EZMnx">
-          <property role="3F0ifm" value="max command init duration (in sec):" />
+          <property role="3F0ifm" value="max init duration (in sec):" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1ZUVpFmo34p" role="3F10Kt">
             <property role="VOm3f" value="true" />

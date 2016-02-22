@@ -2940,6 +2940,14 @@
         <node concept="17QB3L" id="1sUmI9z7sRg" role="_ZDj9" />
       </node>
     </node>
+    <node concept="3clFb_" id="vOp1weU5oA" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getMaxInitDurationSecs" />
+      <node concept="3clFbS" id="vOp1weU5oD" role="3clF47" />
+      <node concept="3Tm1VV" id="vOp1weU5oE" role="1B3o_S" />
+      <node concept="10Oyi0" id="vOp1weU5iV" role="3clF45" />
+    </node>
   </node>
   <node concept="3HP615" id="7rqBz8B3EmX">
     <property role="3GE5qa" value="OFXArchitecture" />
