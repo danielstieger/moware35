@@ -34254,7 +34254,7 @@
   </node>
   <node concept="312cEu" id="4u029Jv3nt9">
     <property role="3GE5qa" value="OFXImpl" />
-    <property role="TrG5h" value="OFXFakePrintService" />
+    <property role="TrG5h" value="OFXFakePrintFactory" />
     <node concept="2tJIrI" id="4u029Jv3ntP" role="jymVt" />
     <node concept="3clFb_" id="4u029Jv3nu0" role="jymVt">
       <property role="1EzhhJ" value="false" />

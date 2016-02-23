@@ -4781,7 +4781,6 @@
         <ref role="2AI5Lk" to="oi9j:~Autowired" resolve="Autowired" />
       </node>
     </node>
-    <node concept="2tJIrI" id="4QTIUTCmLu0" role="jymVt" />
     <node concept="312cEg" id="12Eg3QJGlzB" role="jymVt">
       <property role="TrG5h" value="hotkeyTranslator" />
       <node concept="3Tm6S6" id="12Eg3QJGlzC" role="1B3o_S" />
@@ -4799,6 +4798,19 @@
         <ref role="3uigEE" to="28jr:R5cwR_QkjL" resolve="IMoLockService" />
       </node>
       <node concept="2AHcQZ" id="7nDJo_bv4FC" role="2AJF6D">
+        <ref role="2AI5Lk" to="oi9j:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
+    <node concept="312cEg" id="5XtsZSXLQ2Q" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="printFactory" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="5XtsZSXLQ2R" role="1B3o_S" />
+      <node concept="3uibUv" id="5XtsZSXLQjr" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:5XtsZSXKP9F" resolve="IOFXPrintFactory" />
+      </node>
+      <node concept="2AHcQZ" id="5XtsZSXLQ2T" role="2AJF6D">
         <ref role="2AI5Lk" to="oi9j:~Autowired" resolve="Autowired" />
       </node>
     </node>
