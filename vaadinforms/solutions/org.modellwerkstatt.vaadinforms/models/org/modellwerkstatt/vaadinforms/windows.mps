@@ -2354,7 +2354,7 @@
       <node concept="17QB3L" id="4QTIUTC1Wnd" role="1tU5fm" />
       <node concept="3Tm1VV" id="vsIEjNpph7" role="1B3o_S" />
       <node concept="Xl_RD" id="4QTIUTC1Z1Y" role="33vP2m">
-        <property role="Xl_RC" value="initial VaadinForms 0.9 winter 2015" />
+        <property role="Xl_RC" value="VaadinForms 1.0 spring 2016" />
       </node>
     </node>
     <node concept="2tJIrI" id="5XHFlROIt$U" role="jymVt" />
@@ -2368,8 +2368,6 @@
       <node concept="3Tm6S6" id="3ODNmtc0Xt0" role="1B3o_S" />
       <node concept="17QB3L" id="3ODNmtc0Xt1" role="1tU5fm" />
     </node>
-    <node concept="2tJIrI" id="7DInbKynprS" role="jymVt" />
-    <node concept="2tJIrI" id="3ODNmtc2ekj" role="jymVt" />
     <node concept="312cEg" id="5HhpRjTuDWh" role="jymVt">
       <property role="TrG5h" value="xmlConfigFile" />
       <node concept="3Tm6S6" id="5HhpRjTuDWi" role="1B3o_S" />
@@ -13279,6 +13277,7 @@
   </node>
   <node concept="312cEu" id="5XHFlRODqE4">
     <property role="TrG5h" value="VTableForm" />
+    <node concept="2tJIrI" id="3c4zI83R5wU" role="jymVt" />
     <node concept="312cEg" id="5XHFlROJ9j3" role="jymVt">
       <property role="TrG5h" value="table" />
       <node concept="3Tm6S6" id="5XHFlROJ9j4" role="1B3o_S" />
@@ -13343,7 +13342,16 @@
         <ref role="3uigEE" to="o2tm:~Label" resolve="Label" />
       </node>
     </node>
-    <node concept="2tJIrI" id="7wrkReHxEXQ" role="jymVt" />
+    <node concept="312cEg" id="3c4zI83So7Z" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="verticalLayout" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="3c4zI83Sf4w" role="1B3o_S" />
+      <node concept="3uibUv" id="3c4zI83SmrV" role="1tU5fm">
+        <ref role="3uigEE" to="o2tm:~VerticalLayout" resolve="VerticalLayout" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7wrkReHxVeJ" role="jymVt" />
     <node concept="312cEg" id="15Q050iE19A" role="jymVt">
       <property role="TrG5h" value="selectionListener" />
@@ -13472,7 +13480,7 @@
       <node concept="3Tm1VV" id="5XHFlROE8Gq" role="1B3o_S" />
       <node concept="3clFbS" id="5XHFlROE8Gr" role="3clF47">
         <node concept="XkiVB" id="5XHFlROE9et" role="3cqZAp">
-          <ref role="37wK5l" to="o2tm:~VerticalLayout.&lt;init&gt;()" resolve="VerticalLayout" />
+          <ref role="37wK5l" to="o2tm:~Panel.&lt;init&gt;()" resolve="Panel" />
         </node>
         <node concept="3clFbF" id="7UeBQrPHJh7" role="3cqZAp">
           <node concept="37vLTI" id="7UeBQrPHODB" role="3clFbG">
@@ -13511,10 +13519,46 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7708TIHQmoa" role="3cqZAp" />
+        <node concept="3clFbF" id="3c4zI83Ufth" role="3cqZAp">
+          <node concept="2OqwBi" id="3c4zI83UgUC" role="3clFbG">
+            <node concept="Xjq3P" id="3c4zI83Uftf" role="2Oq$k0" />
+            <node concept="liA8E" id="3c4zI83UAer" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="10M0yZ" id="3c4zI83UB1l" role="37wK5m">
+                <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+                <ref role="3cqZAo" to="xgxa:~ValoTheme.PANEL_BORDERLESS" resolve="PANEL_BORDERLESS" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3c4zI83Ud3y" role="3cqZAp" />
+        <node concept="3clFbF" id="3c4zI83SzMq" role="3cqZAp">
+          <node concept="37vLTI" id="3c4zI83SA6T" role="3clFbG">
+            <node concept="2ShNRf" id="3c4zI83SFsN" role="37vLTx">
+              <node concept="1pGfFk" id="3c4zI83SDhg" role="2ShVmc">
+                <ref role="37wK5l" to="o2tm:~VerticalLayout.&lt;init&gt;()" resolve="VerticalLayout" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3c4zI83SzMo" role="37vLTJ">
+              <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3c4zI83STUU" role="3cqZAp">
+          <node concept="2OqwBi" id="3c4zI83SVEY" role="3clFbG">
+            <node concept="37vLTw" id="3c4zI83STUS" role="2Oq$k0">
+              <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+            </node>
+            <node concept="liA8E" id="3c4zI83T0IM" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1xatIIVgIoK" role="3cqZAp">
           <node concept="2OqwBi" id="1xatIIVgJNi" role="3clFbG">
-            <node concept="Xjq3P" id="1xatIIVhDRD" role="2Oq$k0" />
+            <node concept="37vLTw" id="3c4zI83T3fj" role="2Oq$k0">
+              <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+            </node>
             <node concept="liA8E" id="1xatIIVgRV6" role="2OqNvi">
               <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
               <node concept="Xl_RD" id="1xatIIVgSHf" role="37wK5m">
@@ -13525,7 +13569,9 @@
         </node>
         <node concept="3clFbF" id="7708TIHQyVu" role="3cqZAp">
           <node concept="2OqwBi" id="7708TIHQ$h1" role="3clFbG">
-            <node concept="Xjq3P" id="7708TIHQyVs" role="2Oq$k0" />
+            <node concept="37vLTw" id="3c4zI83T5Jf" role="2Oq$k0">
+              <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+            </node>
             <node concept="liA8E" id="7708TIHQC7F" role="2OqNvi">
               <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
               <node concept="Xl_RD" id="7708TIHQCs0" role="37wK5m">
@@ -13927,7 +13973,9 @@
         <node concept="3clFbH" id="1xatIIVnYnn" role="3cqZAp" />
         <node concept="3clFbF" id="5XHFlRONanR" role="3cqZAp">
           <node concept="2OqwBi" id="5XHFlRONawR" role="3clFbG">
-            <node concept="Xjq3P" id="5XHFlRONanP" role="2Oq$k0" />
+            <node concept="37vLTw" id="3c4zI83T8kk" role="2Oq$k0">
+              <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+            </node>
             <node concept="liA8E" id="5XHFlRONcF0" role="2OqNvi">
               <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
               <node concept="37vLTw" id="5XHFlRONg0o" role="37wK5m">
@@ -13938,7 +13986,9 @@
         </node>
         <node concept="3clFbF" id="5XHFlROLno3" role="3cqZAp">
           <node concept="2OqwBi" id="5XHFlROLntG" role="3clFbG">
-            <node concept="Xjq3P" id="5XHFlROLno1" role="2Oq$k0" />
+            <node concept="37vLTw" id="3c4zI83TavM" role="2Oq$k0">
+              <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+            </node>
             <node concept="liA8E" id="5XHFlROLotO" role="2OqNvi">
               <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
               <node concept="37vLTw" id="5XHFlROLoYs" role="37wK5m">
@@ -13949,7 +13999,9 @@
         </node>
         <node concept="3clFbF" id="5XHFlROM57v" role="3cqZAp">
           <node concept="2OqwBi" id="5XHFlROM5xD" role="3clFbG">
-            <node concept="Xjq3P" id="5XHFlROM57t" role="2Oq$k0" />
+            <node concept="37vLTw" id="3c4zI83Tcrx" role="2Oq$k0">
+              <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+            </node>
             <node concept="liA8E" id="5XHFlROM6$9" role="2OqNvi">
               <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.setExpandRatio(com.vaadin.ui.Component,float):void" resolve="setExpandRatio" />
               <node concept="37vLTw" id="5XHFlROM74L" role="37wK5m">
@@ -13961,7 +14013,17 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5tLhDsegO0t" role="3cqZAp" />
+        <node concept="3clFbF" id="3c4zI83TdO0" role="3cqZAp">
+          <node concept="2OqwBi" id="3c4zI83Tffs" role="3clFbG">
+            <node concept="Xjq3P" id="3c4zI83TdNY" role="2Oq$k0" />
+            <node concept="liA8E" id="3c4zI83TjRH" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractSingleComponentContainer.setContent(com.vaadin.ui.Component):void" resolve="setContent" />
+              <node concept="37vLTw" id="3c4zI83Tlqw" role="37wK5m">
+                <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="5tLhDsegO2J" role="3cqZAp" />
         <node concept="3clFbF" id="5tLhDsehjGY" role="3cqZAp">
           <node concept="37vLTI" id="5tLhDsehldK" role="3clFbG">
@@ -15534,7 +15596,9 @@
             <node concept="3clFbH" id="6sMkw7KowTK" role="3cqZAp" />
             <node concept="3clFbF" id="7wrkReHyo2S" role="3cqZAp">
               <node concept="2OqwBi" id="7wrkReHyonN" role="3clFbG">
-                <node concept="Xjq3P" id="7wrkReHyo2Q" role="2Oq$k0" />
+                <node concept="37vLTw" id="3c4zI83TmZM" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+                </node>
                 <node concept="liA8E" id="7wrkReHyprq" role="2OqNvi">
                   <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
                   <node concept="37vLTw" id="7wrkReH$ffG" role="37wK5m">
@@ -15545,7 +15609,9 @@
             </node>
             <node concept="3clFbF" id="6sMkw7Kmcxx" role="3cqZAp">
               <node concept="2OqwBi" id="6sMkw7KmcUQ" role="3clFbG">
-                <node concept="Xjq3P" id="6sMkw7Kmcxv" role="2Oq$k0" />
+                <node concept="37vLTw" id="3c4zI83Tobn" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+                </node>
                 <node concept="liA8E" id="6sMkw7Kmf2C" role="2OqNvi">
                   <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.setComponentAlignment(com.vaadin.ui.Component,com.vaadin.ui.Alignment):void" resolve="setComponentAlignment" />
                   <node concept="37vLTw" id="6sMkw7KmfRR" role="37wK5m">
@@ -15676,10 +15742,8 @@
               <ref role="3cqZAo" node="3WgKQm_OuXs" resolve="triggerBox" />
             </node>
             <node concept="liA8E" id="7QITxIiU5NR" role="2OqNvi">
-              <ref role="37wK5l" node="7QITxIiROHn" resolve="installTriggerOnTable" />
-              <node concept="37vLTw" id="7QITxIiU68c" role="37wK5m">
-                <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
-              </node>
+              <ref role="37wK5l" node="7QITxIiROHn" resolve="installTriggerOnPanelOfTable" />
+              <node concept="Xjq3P" id="3c4zI83TFAd" role="37wK5m" />
             </node>
           </node>
         </node>
@@ -16228,7 +16292,9 @@
             </node>
             <node concept="3clFbF" id="6sMkw7Kuvg$" role="3cqZAp">
               <node concept="2OqwBi" id="6sMkw7Kuvg_" role="3clFbG">
-                <node concept="Xjq3P" id="6sMkw7KuvgA" role="2Oq$k0" />
+                <node concept="37vLTw" id="3c4zI83Tp2s" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+                </node>
                 <node concept="liA8E" id="6sMkw7KuvgB" role="2OqNvi">
                   <ref role="37wK5l" to="o2tm:~AbstractComponent.removeStyleName(java.lang.String):void" resolve="removeStyleName" />
                   <node concept="Xl_RD" id="6sMkw7KuvgC" role="37wK5m">
@@ -16239,7 +16305,9 @@
             </node>
             <node concept="3clFbF" id="7708TIHQcF4" role="3cqZAp">
               <node concept="2OqwBi" id="7708TIHQcZK" role="3clFbG">
-                <node concept="Xjq3P" id="7708TIHQcF2" role="2Oq$k0" />
+                <node concept="37vLTw" id="3c4zI83TpQ$" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+                </node>
                 <node concept="liA8E" id="7708TIHQfoE" role="2OqNvi">
                   <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
                   <node concept="Xl_RD" id="7708TIHQfGS" role="37wK5m">
@@ -16285,7 +16353,9 @@
               </node>
               <node concept="3clFbF" id="7708TIHQh9G" role="3cqZAp">
                 <node concept="2OqwBi" id="7708TIHQhun" role="3clFbG">
-                  <node concept="Xjq3P" id="7708TIHQh9E" role="2Oq$k0" />
+                  <node concept="37vLTw" id="3c4zI83TqEG" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+                  </node>
                   <node concept="liA8E" id="7708TIHQj$U" role="2OqNvi">
                     <ref role="37wK5l" to="o2tm:~AbstractComponent.removeStyleName(java.lang.String):void" resolve="removeStyleName" />
                     <node concept="Xl_RD" id="7708TIHQk6j" role="37wK5m">
@@ -16296,7 +16366,9 @@
               </node>
               <node concept="3clFbF" id="6sMkw7KuwN7" role="3cqZAp">
                 <node concept="2OqwBi" id="6sMkw7KuwN8" role="3clFbG">
-                  <node concept="Xjq3P" id="6sMkw7KuwN9" role="2Oq$k0" />
+                  <node concept="37vLTw" id="3c4zI83TruJ" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3c4zI83So7Z" resolve="verticalLayout" />
+                  </node>
                   <node concept="liA8E" id="6sMkw7KuwNa" role="2OqNvi">
                     <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
                     <node concept="Xl_RD" id="6sMkw7KuwNb" role="37wK5m">
@@ -17528,8 +17600,8 @@
         <ref role="16sUi3" node="5XHFlRODqHv" resolve="T" />
       </node>
     </node>
-    <node concept="3uibUv" id="5XHFlROE80J" role="1zkMxy">
-      <ref role="3uigEE" to="o2tm:~VerticalLayout" resolve="VerticalLayout" />
+    <node concept="3uibUv" id="3c4zI83Rk8p" role="1zkMxy">
+      <ref role="3uigEE" to="o2tm:~Panel" resolve="Panel" />
     </node>
   </node>
   <node concept="312cEu" id="5XHFlROFEog">
@@ -19333,11 +19405,11 @@
     <node concept="2tJIrI" id="7QITxIiRN7e" role="jymVt" />
     <node concept="2tJIrI" id="7QITxIiRNiQ" role="jymVt" />
     <node concept="3clFb_" id="7QITxIiROHn" role="jymVt">
-      <property role="TrG5h" value="installTriggerOnTable" />
+      <property role="TrG5h" value="installTriggerOnPanelOfTable" />
       <node concept="37vLTG" id="7QITxIiRVxI" role="3clF46">
-        <property role="TrG5h" value="contextTabel" />
-        <node concept="3uibUv" id="7QITxIiRW9g" role="1tU5fm">
-          <ref role="3uigEE" to="o2tm:~Table" resolve="Table" />
+        <property role="TrG5h" value="panelOfTable" />
+        <node concept="3uibUv" id="3c4zI83TGnv" role="1tU5fm">
+          <ref role="3uigEE" to="o2tm:~Panel" resolve="Panel" />
         </node>
       </node>
       <node concept="3cqZAl" id="7QITxIiROHp" role="3clF45" />
@@ -19684,7 +19756,7 @@
                 <node concept="3clFbF" id="7QITxIiRZEp" role="3cqZAp">
                   <node concept="2OqwBi" id="7QITxIiRZEq" role="3clFbG">
                     <node concept="37vLTw" id="7QITxIiS7JP" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7QITxIiRVxI" resolve="contextTabel" />
+                      <ref role="3cqZAo" node="7QITxIiRVxI" resolve="panelOfTable" />
                     </node>
                     <node concept="liA8E" id="7QITxIiRZEs" role="2OqNvi">
                       <ref role="37wK5l" to="o2tm:~AbstractComponent.addShortcutListener(com.vaadin.event.ShortcutListener):void" resolve="addShortcutListener" />

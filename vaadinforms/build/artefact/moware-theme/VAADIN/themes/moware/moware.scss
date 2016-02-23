@@ -140,5 +140,9 @@
 		} */
 	}
 	
+	.v-textfield:disabled, .v-filterselect-input:disabled {
+		color: #000000 !important;
+	}
+	
 }
 
