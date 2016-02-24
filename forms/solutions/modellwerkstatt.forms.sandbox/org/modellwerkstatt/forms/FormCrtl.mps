@@ -4722,23 +4722,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1KgqQuBkIn$" role="jymVt" />
-    <node concept="3clFb_" id="Y3fiVJRmea" role="jymVt">
-      <property role="TrG5h" value="isViewQuitConfirmation" />
-      <node concept="10P_77" id="Y3fiVJRmg4" role="3clF45" />
-      <node concept="3Tm1VV" id="Y3fiVJRmed" role="1B3o_S" />
-      <node concept="3clFbS" id="Y3fiVJRmee" role="3clF47">
-        <node concept="3SKdUt" id="2U6PE9kSR6P" role="3cqZAp">
-          <node concept="3SKdUq" id="2U6PE9kSR6R" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: How many commands are executed right now? " />
-          </node>
-        </node>
-        <node concept="3clFbF" id="3bZh4Q5LxP8" role="3cqZAp">
-          <node concept="3clFbT" id="3bZh4Q5LxP7" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="16HdUMP1mMD" role="jymVt" />
     <node concept="3clFb_" id="16HdUMP1mNT" role="jymVt">
       <property role="TrG5h" value="getSelectionCtrlFromCurrentTab" />
@@ -4996,6 +4979,20 @@
         <node concept="3SKdUt" id="50$EOT994j3" role="3cqZAp">
           <node concept="3SKdUq" id="50$EOT994lE" role="3SKWNk">
             <property role="3SKdUp" value="tabs are closed" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4XCrhc0WA91" role="3cqZAp" />
+        <node concept="3SKdUt" id="4XCrhc0WBCA" role="3cqZAp">
+          <node concept="3SKdUq" id="4XCrhc0WEhu" role="3SKWNk">
+            <property role="3SKdUp" value="-----------------" />
+          </node>
+          <node concept="3SKdUq" id="4XCrhc0WEeK" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: ------------------------------------------------" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4XCrhc0WBdU" role="3cqZAp">
+          <node concept="3SKdUq" id="4XCrhc0WBnP" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: Also close prompt windows? " />
           </node>
         </node>
         <node concept="3clFbJ" id="50$EOT995ba" role="3cqZAp">
