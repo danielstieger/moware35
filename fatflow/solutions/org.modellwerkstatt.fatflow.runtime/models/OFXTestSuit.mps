@@ -9869,7 +9869,7 @@
   <node concept="2CG7Z0" id="33KhHQReT6s">
     <property role="3GE5qa" value="" />
     <property role="TrG5h" value="LolaTestConfig" />
-    <property role="2320hu" value="2016-02-04T09:24:21.590Z" />
+    <property role="2320hu" value="2016-02-25T10:13:45.320Z" />
     <node concept="2CPvp3" id="7ubUX52OCZu" role="2CGBMS" />
     <node concept="2CJf3v" id="7ubUX52OD1L" role="2CGBMS">
       <property role="TrG5h" value="inbox" />
@@ -9885,10 +9885,6 @@
         </node>
       </node>
     </node>
-    <node concept="2CPvp3" id="7ubUX52OD4T" role="2CGBMS" />
-    <node concept="2CPvp3" id="7ubUX52OD68" role="2CGBMS" />
-    <node concept="2CPvp3" id="7ubUX52OD7o" role="2CGBMS" />
-    <node concept="2CPvp3" id="7ubUX52OD8D" role="2CGBMS" />
     <node concept="2CJ4_Q" id="7ubUX52OhZz" role="2CGBMS">
       <ref role="2CJ4_N" to="ofql:4LC0Y0L2p9e" resolve="MPREIS_WWWS_LockingService" />
     </node>
@@ -9913,13 +9909,6 @@
       <ref role="2CJ4_N" to="ofql:4LC0Y0L2pbw" resolve="DEP_UserEnvironmentInformation" />
     </node>
     <node concept="2CPvp3" id="4u029Jv7uip" role="2CGBMS" />
-    <node concept="2CJf3v" id="4u029Jv3Zn8" role="2CGBMS">
-      <property role="TrG5h" value="fakePrintService" />
-      <node concept="Xl_RD" id="4u029Jv3Zna" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFakePrintService" />
-      </node>
-    </node>
-    <node concept="2CPvp3" id="33KhHQReTh9" role="2CGBMS" />
     <node concept="2CJf3v" id="6Rdz00zW6jD" role="2CGBMS">
       <property role="TrG5h" value="consoleAppFactory" />
       <node concept="Xl_RD" id="6Rdz00zW6jE" role="2CJf0U">
@@ -9937,159 +9926,159 @@
     <node concept="2CPvp3" id="O0URhPoQud" role="2CGBMS" />
     <node concept="2CJoq6" id="33KhHQReThu" role="2CGBMS">
       <property role="TrG5h" value="AUTO_CALC" />
-      <node concept="2CJf3v" id="7TFdhRDiHZ4" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$l" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.MapXbuch" />
-        <node concept="Xl_RD" id="7TFdhRDiHZ5" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$m" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.MapXbuch" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZ6" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$n" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProfZeile" />
-        <node concept="Xl_RD" id="7TFdhRDiHZ7" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$o" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProfZeile" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZ8" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$p" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProforma" />
-        <node concept="Xl_RD" id="7TFdhRDiHZ9" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$q" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapProforma" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZa" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$r" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapExtendedProforma" />
-        <node concept="Xl_RD" id="7TFdhRDiHZb" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$s" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapExtendedProforma" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZc" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$t" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject_VARIANTS" />
-        <node concept="Xl_RD" id="7TFdhRDiHZd" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$u" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject_VARIANTS" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZe" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$v" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject" />
-        <node concept="Xl_RD" id="7TFdhRDiHZf" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$w" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObject" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZg" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$x" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObjectREF" />
-        <node concept="Xl_RD" id="7TFdhRDiHZh" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$y" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapIntKeyObjectREF" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZi" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$z" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapStringKeyObject" />
-        <node concept="Xl_RD" id="7TFdhRDiHZj" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$$" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapStringKeyObject" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZk" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$_" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStand" />
-        <node concept="Xl_RD" id="7TFdhRDiHZl" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$A" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStand" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZm" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$B" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObject" />
-        <node concept="Xl_RD" id="7TFdhRDiHZn" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$C" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObject" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZo" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$D" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectKontoStand" />
-        <node concept="Xl_RD" id="7TFdhRDiHZp" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$E" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectKontoStand" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZq" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$F" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStandChild" />
-        <node concept="Xl_RD" id="7TFdhRDiHZr" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$G" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapKontoStandChild" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZs" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$H" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectParent" />
-        <node concept="Xl_RD" id="7TFdhRDiHZt" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$I" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectParent" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZu" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$J" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectDouble" />
-        <node concept="Xl_RD" id="7TFdhRDiHZv" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$K" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapLinkObjectDouble" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZw" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$L" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapMyEntity" />
-        <node concept="Xl_RD" id="7TFdhRDiHZx" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$M" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.MapMyEntity" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZy" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$N" role="2CJdiS">
         <property role="TrG5h" value="__testProcess" />
-        <node concept="Xl_RD" id="7TFdhRDiHZz" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$O" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.TestProcess" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZ$" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$P" role="2CJdiS">
         <property role="TrG5h" value="__simpleService" />
-        <node concept="Xl_RD" id="7TFdhRDiHZ_" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$Q" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.SimpleService" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZA" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$R" role="2CJdiS">
         <property role="TrG5h" value="__serverTimeService" />
-        <node concept="Xl_RD" id="7TFdhRDiHZB" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$S" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.ServerTimeService" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZC" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$T" role="2CJdiS">
         <property role="TrG5h" value="__aktTestDaten" />
-        <node concept="Xl_RD" id="7TFdhRDiHZD" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$U" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.AktTestDaten" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZE" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$V" role="2CJdiS">
         <property role="TrG5h" value="__aktRepository" />
-        <node concept="Xl_RD" id="7TFdhRDiHZF" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$W" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.AktRepository" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZG" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$X" role="2CJdiS">
         <property role="TrG5h" value="__t1_AktProzess" />
-        <node concept="Xl_RD" id="7TFdhRDiHZH" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv_$Y" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.T1_AktProzess" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZI" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv_$Z" role="2CJdiS">
         <property role="TrG5h" value="__testRoles" />
-        <node concept="Xl_RD" id="7TFdhRDiHZJ" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv__0" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.TestRoles" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZK" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv__1" role="2CJdiS">
         <property role="TrG5h" value="__xBUCHRepo" />
-        <node concept="Xl_RD" id="7TFdhRDiHZL" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv__2" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.OFXTestSuit.XBUCHRepo" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZM" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv__3" role="2CJdiS">
         <property role="TrG5h" value="__testModelRepo" />
-        <node concept="Xl_RD" id="7TFdhRDiHZN" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv__4" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.TestModelRepo" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZO" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv__5" role="2CJdiS">
         <property role="TrG5h" value="__complexQueries" />
-        <node concept="Xl_RD" id="7TFdhRDiHZP" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv__6" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.ComplexQueries" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7TFdhRDiHZQ" role="2CJdiS">
+      <node concept="2CJf3v" id="3spXEPYv__7" role="2CJdiS">
         <property role="TrG5h" value="__basicData" />
-        <node concept="Xl_RD" id="7TFdhRDiHZR" role="2CJf0U">
+        <node concept="Xl_RD" id="3spXEPYv__8" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit.BasicData" />
         </node>
       </node>

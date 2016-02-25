@@ -447,8 +447,20 @@
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1167380149909" name="jetbrains.mps.baseLanguage.collections.structure.RemoveElementOperation" flags="nn" index="3dhRuq" />
+      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
+        <child id="1197683466920" name="keyType" index="3rvQeY" />
+        <child id="1197683475734" name="valueType" index="3rvSg0" />
+      </concept>
+      <concept id="1197686869805" name="jetbrains.mps.baseLanguage.collections.structure.HashMapCreator" flags="nn" index="3rGOSV">
+        <child id="1197687026896" name="keyType" index="3rHrn6" />
+        <child id="1197687035757" name="valueType" index="3rHtpV" />
+      </concept>
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
+      <concept id="1197932370469" name="jetbrains.mps.baseLanguage.collections.structure.MapElement" flags="nn" index="3EllGN">
+        <child id="1197932505799" name="map" index="3ElQJh" />
+        <child id="1197932525128" name="key" index="3ElVtu" />
+      </concept>
     </language>
   </registry>
   <node concept="312cEu" id="3tZ99yEJcyg">
@@ -8549,7 +8561,32 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="3aesqnvcEZR" role="jymVt" />
+    <node concept="312cEg" id="3spXEPXZvPy" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="selectionsStored" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3rvAFt" id="3spXEPXZvqs" role="1tU5fm">
+        <node concept="3uibUv" id="3spXEPXZvGc" role="3rvSg0">
+          <ref role="3uigEE" node="7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+        <node concept="3uibUv" id="3spXEPXZxHr" role="3rvQeY">
+          <ref role="3uigEE" to="e2lb:~Class" resolve="Class" />
+        </node>
+      </node>
+      <node concept="2ShNRf" id="3spXEPXZw8C" role="33vP2m">
+        <node concept="3rGOSV" id="3spXEPXZw7Q" role="2ShVmc">
+          <node concept="3uibUv" id="3spXEPXZxZi" role="3rHrn6">
+            <ref role="3uigEE" to="e2lb:~Class" resolve="Class" />
+          </node>
+          <node concept="3uibUv" id="3spXEPXZw7S" role="3rHtpV">
+            <ref role="3uigEE" node="7rqBz8B3JOM" resolve="IOFXSelection" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="3spXEPXZwiC" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="3spXEPXZv98" role="jymVt" />
     <node concept="3clFbW" id="3aesqnvcEZk" role="jymVt">
       <node concept="3cqZAl" id="3aesqnvcEZl" role="3clF45" />
       <node concept="3clFbS" id="3aesqnvcEZn" role="3clF47" />
@@ -8570,6 +8607,47 @@
       </node>
       <node concept="3Tm1VV" id="3aesqnvcOE0" role="1B3o_S" />
       <node concept="3clFbS" id="3aesqnvcOE1" role="3clF47">
+        <node concept="3clFbJ" id="3spXEPXZzvx" role="3cqZAp">
+          <node concept="3clFbS" id="3spXEPXZzvz" role="3clFbx">
+            <node concept="3cpWs6" id="3spXEPXZ$l5" role="3cqZAp">
+              <node concept="3EllGN" id="3spXEPXZ$WB" role="3cqZAk">
+                <node concept="37vLTw" id="3spXEPXZ_fo" role="3ElVtu">
+                  <ref role="3cqZAo" node="3aesqnvcODX" resolve="clazz" />
+                </node>
+                <node concept="37vLTw" id="3spXEPXZ$oi" role="3ElQJh">
+                  <ref role="3cqZAo" node="3spXEPXZvPy" resolve="selectionsStored" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="3spXEPXZ$cV" role="3clFbw">
+            <node concept="10Nm6u" id="3spXEPXZ$fY" role="3uHU7w" />
+            <node concept="3EllGN" id="3spXEPXZ$2r" role="3uHU7B">
+              <node concept="37vLTw" id="3spXEPXZ$8_" role="3ElVtu">
+                <ref role="3cqZAo" node="3aesqnvcODX" resolve="clazz" />
+              </node>
+              <node concept="37vLTw" id="3spXEPXZzN0" role="3ElQJh">
+                <ref role="3cqZAo" node="3spXEPXZvPy" resolve="selectionsStored" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3spXEPXZA8o" role="3cqZAp" />
+        <node concept="3SKdUt" id="3spXEPXZ_OR" role="3cqZAp">
+          <node concept="3SKdUq" id="3spXEPXZA7v" role="3SKWNk">
+            <property role="3SKdUp" value="else return boundList selection... " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3spXEPXZAJR" role="3cqZAp">
+          <node concept="3SKdUq" id="3spXEPXZB2J" role="3SKWNk">
+            <property role="3SKdUp" value="for backward compatibility ... " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3spXEPXZPOs" role="3cqZAp">
+          <node concept="3SKdUq" id="3spXEPXZPXD" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: unclear yet, but can't we reduce the sel=new IOFXSelection&lt;Document&gt;() ??" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="3aesqnvcOE2" role="3cqZAp">
           <node concept="3cpWsn" id="3aesqnvcOE3" role="3cpWs9">
             <property role="TrG5h" value="sel" />
@@ -8753,12 +8831,22 @@
       <node concept="3cqZAl" id="3aesqnvcJWJ" role="3clF45" />
       <node concept="3Tm1VV" id="3aesqnvcJWK" role="1B3o_S" />
       <node concept="3clFbS" id="3aesqnvcJWL" role="3clF47">
-        <node concept="YS8fn" id="3aesqnvcJWM" role="3cqZAp">
-          <node concept="2ShNRf" id="3aesqnvcJWN" role="YScLw">
-            <node concept="1pGfFk" id="3aesqnvcJWO" role="2ShVmc">
-              <ref role="37wK5l" to="e2lb:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-              <node concept="Xl_RD" id="3aesqnvcJWP" role="37wK5m">
-                <property role="Xl_RC" value="Not implemented for fake view." />
+        <node concept="3clFbF" id="3spXEPXZwoh" role="3cqZAp">
+          <node concept="37vLTI" id="3spXEPXZx6v" role="3clFbG">
+            <node concept="37vLTw" id="3spXEPXZxy$" role="37vLTx">
+              <ref role="3cqZAo" node="3aesqnvcJWH" resolve="selection" />
+            </node>
+            <node concept="3EllGN" id="3spXEPXZx0N" role="37vLTJ">
+              <node concept="2OqwBi" id="3spXEPXZxfx" role="3ElVtu">
+                <node concept="37vLTw" id="3spXEPXZxcB" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3aesqnvcJWH" resolve="selection" />
+                </node>
+                <node concept="liA8E" id="3spXEPXZxod" role="2OqNvi">
+                  <ref role="37wK5l" node="3VIcZtBnc0O" resolve="getType" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="3spXEPXZwof" role="3ElQJh">
+                <ref role="3cqZAo" node="3spXEPXZvPy" resolve="selectionsStored" />
               </node>
             </node>
           </node>
