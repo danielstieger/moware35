@@ -4063,7 +4063,7 @@
                           <node concept="liA8E" id="7RHNXGyQD5P" role="2OqNvi">
                             <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                             <node concept="Xl_RD" id="7RHNXGyQD5Q" role="37wK5m">
-                              <property role="Xl_RC" value="class=\&quot;rightFCButtonDisabled\&quot;" />
+                              <property role="Xl_RC" value="class=\&quot;rightFCButtonDisabled\&quot; disabled " />
                             </node>
                           </node>
                         </node>
@@ -4846,6 +4846,7 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="3spXEPYKTap" role="3cqZAp" />
                 </node>
               </node>
               <node concept="37vLTw" id="5j5asfbJZmQ" role="3clFbw">

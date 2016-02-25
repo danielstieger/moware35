@@ -10907,7 +10907,7 @@
       </node>
     </node>
     <node concept="312cEg" id="5_bDd1dxT12" role="jymVt">
-      <property role="TrG5h" value="application" />
+      <property role="TrG5h" value="applicationController" />
       <node concept="3Tmbuc" id="1KgqQuBkFBk" role="1B3o_S" />
       <node concept="3uibUv" id="5_bDd1dOmpH" role="1tU5fm">
         <ref role="3uigEE" to="quhv:Y3fiVJRmaH" resolve="FApplicationCrtl" />
@@ -10957,7 +10957,7 @@
               <ref role="3cqZAo" node="1KgqQuBkCQ$" resolve="app" />
             </node>
             <node concept="37vLTw" id="1KgqQuBkDEV" role="37vLTJ">
-              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
             </node>
           </node>
         </node>
@@ -11007,7 +11007,7 @@
           <node concept="37vLTI" id="4vr6dCEjiKG" role="3clFbG">
             <node concept="10Nm6u" id="4vr6dCEjiLY" role="37vLTx" />
             <node concept="37vLTw" id="4vr6dCEjiFE" role="37vLTJ">
-              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
             </node>
           </node>
         </node>
@@ -11228,7 +11228,7 @@
                                         <node concept="3clFbF" id="1KgqQuBnvzb" role="3cqZAp">
                                           <node concept="2OqwBi" id="1KgqQuBnvF4" role="3clFbG">
                                             <node concept="37vLTw" id="1KgqQuBnvz9" role="2Oq$k0">
-                                              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+                                              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
                                             </node>
                                             <node concept="liA8E" id="1KgqQuBnvWv" role="2OqNvi">
                                               <ref role="37wK5l" to="quhv:1KgqQuBkLXF" resolve="lockInterface" />
@@ -11390,7 +11390,7 @@
         <node concept="3clFbF" id="1KgqQuBnuMq" role="3cqZAp">
           <node concept="2OqwBi" id="1KgqQuBnv9e" role="3clFbG">
             <node concept="37vLTw" id="1KgqQuBnuMo" role="2Oq$k0">
-              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
             </node>
             <node concept="liA8E" id="1KgqQuBnvs5" role="2OqNvi">
               <ref role="37wK5l" to="quhv:1KgqQuBkLXF" resolve="lockInterface" />
@@ -12460,7 +12460,7 @@
         <node concept="3clFbF" id="1KgqQuBTJvK" role="3cqZAp">
           <node concept="2OqwBi" id="1KgqQuBTJDJ" role="3clFbG">
             <node concept="37vLTw" id="1KgqQuBTJvI" role="2Oq$k0">
-              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
             </node>
             <node concept="liA8E" id="1KgqQuBTWmO" role="2OqNvi">
               <ref role="37wK5l" to="quhv:1KgqQuBTQ_S" resolve="addTab" />
@@ -12572,7 +12572,7 @@
         <node concept="3clFbF" id="5_bDd1dL4lb" role="3cqZAp">
           <node concept="2OqwBi" id="5_bDd1dL4oI" role="3clFbG">
             <node concept="37vLTw" id="5_bDd1dL4la" role="2Oq$k0">
-              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
             </node>
             <node concept="liA8E" id="5_bDd1dL4Id" role="2OqNvi">
               <ref role="37wK5l" to="quhv:5_bDd1dPe_P" resolve="addStatusInformation" />
@@ -12610,7 +12610,7 @@
         <node concept="3clFbF" id="5_bDd1dyPKB" role="3cqZAp">
           <node concept="2OqwBi" id="5_bDd1dyPO6" role="3clFbG">
             <node concept="37vLTw" id="5_bDd1dyPKA" role="2Oq$k0">
-              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
             </node>
             <node concept="liA8E" id="5_bDd1dyQbF" role="2OqNvi">
               <ref role="37wK5l" to="quhv:5_bDd1dON5p" resolve="showInfoDialog" />
@@ -12653,7 +12653,7 @@
         <node concept="3clFbF" id="5_bDd1dyQrs" role="3cqZAp">
           <node concept="2OqwBi" id="5_bDd1dyQrt" role="3clFbG">
             <node concept="37vLTw" id="5_bDd1dyQru" role="2Oq$k0">
-              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
             </node>
             <node concept="liA8E" id="5_bDd1dyQrv" role="2OqNvi">
               <ref role="37wK5l" to="quhv:5_bDd1dON5p" resolve="showInfoDialog" />
@@ -12699,7 +12699,7 @@
                 <ref role="37wK5l" node="5_bDd1dcBIV" resolve="FX8MsgBox" />
                 <node concept="2OqwBi" id="1kxCqBRcjwU" role="37wK5m">
                   <node concept="37vLTw" id="1kxCqBRcjmo" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+                    <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
                   </node>
                   <node concept="liA8E" id="1kxCqBRcjNv" role="2OqNvi">
                     <ref role="37wK5l" to="quhv:4XXgpAAgN$Z" resolve="getUiFactory" />
@@ -12758,7 +12758,7 @@
         <node concept="3clFbF" id="1kxCqBRcqSC" role="3cqZAp">
           <node concept="2OqwBi" id="1kxCqBRcrxJ" role="3clFbG">
             <node concept="37vLTw" id="1kxCqBRcqSB" role="2Oq$k0">
-              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
             </node>
             <node concept="liA8E" id="1kxCqBRcOR$" role="2OqNvi">
               <ref role="37wK5l" to="quhv:1kxCqBRcysd" resolve="ensureTabClosed" />
@@ -25349,6 +25349,7 @@
         <ref role="3uigEE" to="4i1a:~BorderPane" resolve="BorderPane" />
       </node>
     </node>
+    <node concept="2tJIrI" id="3spXEPYD5ro" role="jymVt" />
     <node concept="3clFbW" id="6B_cXxOc6XJ" role="jymVt">
       <node concept="37vLTG" id="6B_cXxOc7tP" role="3clF46">
         <property role="TrG5h" value="app" />
@@ -25507,7 +25508,29 @@
             <ref role="37wK5l" node="5p1CQfO$Ln4" resolve="adjustCenterAndPromptHight" />
           </node>
         </node>
-        <node concept="3clFbH" id="5p1CQfOySgf" role="3cqZAp" />
+        <node concept="3clFbH" id="3spXEPYEAB7" role="3cqZAp" />
+        <node concept="3SKdUt" id="3spXEPYEAcr" role="3cqZAp">
+          <node concept="3SKdUq" id="3spXEPYEAs5" role="3SKWNk">
+            <property role="3SKdUp" value="inform app controller... " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3spXEPYDe7P" role="3cqZAp">
+          <node concept="2OqwBi" id="3spXEPYDetr" role="3clFbG">
+            <node concept="37vLTw" id="3spXEPYDe7N" role="2Oq$k0">
+              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
+            </node>
+            <node concept="liA8E" id="3spXEPYEyOS" role="2OqNvi">
+              <ref role="37wK5l" to="quhv:3spXEPYDrtP" resolve="openedPromptWindow" />
+              <node concept="2OqwBi" id="3spXEPYE$pV" role="37wK5m">
+                <node concept="Xjq3P" id="3spXEPYE$j4" role="2Oq$k0" />
+                <node concept="2OwXpG" id="3spXEPYE_CQ" role="2OqNvi">
+                  <ref role="2Oxat5" node="5_bDd1d9OZK" resolve="commandContainer" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3spXEPYDdNh" role="3cqZAp" />
         <node concept="3clFbF" id="4vr6dCDR_ii" role="3cqZAp">
           <node concept="2OqwBi" id="4vr6dCDR_ij" role="3clFbG">
             <node concept="2OqwBi" id="4vr6dCDRCrx" role="2Oq$k0">
@@ -25760,6 +25783,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="4vr6dCDR_6Y" role="3cqZAp" />
+        <node concept="3clFbH" id="3spXEPYD1FL" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="6B_cXxOd8jl" role="jymVt" />
@@ -26325,6 +26349,7 @@
       <node concept="3clFbS" id="6B_cXxOc7w_" role="3clF47">
         <node concept="3clFbJ" id="6B_cXxOcTeW" role="3cqZAp">
           <node concept="3clFbS" id="6B_cXxOcTeZ" role="3clFbx">
+            <node concept="3clFbH" id="3spXEPYEBsk" role="3cqZAp" />
             <node concept="3clFbF" id="6B_cXxOcSYm" role="3cqZAp">
               <node concept="2OqwBi" id="6B_cXxOcT03" role="3clFbG">
                 <node concept="37vLTw" id="6B_cXxOcSYl" role="2Oq$k0">
@@ -26332,6 +26357,22 @@
                 </node>
                 <node concept="liA8E" id="6B_cXxOcTcy" role="2OqNvi">
                   <ref role="37wK5l" node="5_bDd1ddu7n" resolve="close" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3spXEPYEB_P" role="3cqZAp">
+              <node concept="2OqwBi" id="3spXEPYEBIm" role="3clFbG">
+                <node concept="37vLTw" id="3spXEPYEB_N" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
+                </node>
+                <node concept="liA8E" id="3spXEPYECr6" role="2OqNvi">
+                  <ref role="37wK5l" to="quhv:3spXEPYDV06" resolve="closedPromptWindow" />
+                  <node concept="2OqwBi" id="3spXEPYECBT" role="37wK5m">
+                    <node concept="Xjq3P" id="3spXEPYECx2" role="2Oq$k0" />
+                    <node concept="2OwXpG" id="3spXEPYEDg9" role="2OqNvi">
+                      <ref role="2Oxat5" node="5_bDd1d9OZK" resolve="commandContainer" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -26401,7 +26442,7 @@
                 <ref role="37wK5l" node="5_bDd1dcBIV" resolve="FX8MsgBox" />
                 <node concept="2OqwBi" id="6B_cXxOcNmY" role="37wK5m">
                   <node concept="37vLTw" id="6B_cXxOcNmZ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+                    <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
                   </node>
                   <node concept="liA8E" id="6B_cXxOcNn0" role="2OqNvi">
                     <ref role="37wK5l" to="quhv:4XXgpAAgN$Z" resolve="getUiFactory" />
@@ -26454,7 +26495,7 @@
         <node concept="3clFbF" id="6B_cXxOcMe6" role="3cqZAp">
           <node concept="2OqwBi" id="6B_cXxOcMe7" role="3clFbG">
             <node concept="37vLTw" id="6B_cXxOcMe8" role="2Oq$k0">
-              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+              <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
             </node>
             <node concept="liA8E" id="6B_cXxOcMe9" role="2OqNvi">
               <ref role="37wK5l" to="quhv:5_bDd1dPe_P" resolve="addStatusInformation" />
@@ -26493,7 +26534,7 @@
             <node concept="3clFbF" id="WpszhTTk$s" role="3cqZAp">
               <node concept="2OqwBi" id="WpszhTTkCz" role="3clFbG">
                 <node concept="37vLTw" id="WpszhTTk$r" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+                  <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
                 </node>
                 <node concept="liA8E" id="WpszhTTkZg" role="2OqNvi">
                   <ref role="37wK5l" to="quhv:5_bDd1dON5p" resolve="showInfoDialog" />
@@ -26575,7 +26616,7 @@
                 <ref role="37wK5l" node="5_bDd1dcBIV" resolve="FX8MsgBox" />
                 <node concept="2OqwBi" id="6B_cXxOcneS" role="37wK5m">
                   <node concept="37vLTw" id="6B_cXxOcn2B" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5_bDd1dxT12" resolve="application" />
+                    <ref role="3cqZAo" node="5_bDd1dxT12" resolve="applicationController" />
                   </node>
                   <node concept="liA8E" id="6B_cXxOcnCd" role="2OqNvi">
                     <ref role="37wK5l" to="quhv:4XXgpAAgN$Z" resolve="getUiFactory" />
