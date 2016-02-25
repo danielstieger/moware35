@@ -5560,15 +5560,16 @@
       </node>
     </node>
     <node concept="Wx3nA" id="ncJg$H916E" role="jymVt">
-      <property role="TrG5h" value="dateOnlyFormatter" />
+      <property role="TrG5h" value="tableDateOnlyFormatter" />
+      <property role="3TUv4t" value="true" />
       <node concept="3Tm1VV" id="ncJg$H916F" role="1B3o_S" />
       <node concept="3uibUv" id="ncJg$H916G" role="1tU5fm">
         <ref role="3uigEE" to="vt2g:~DateTimeFormatter" resolve="DateTimeFormatter" />
       </node>
-      <node concept="2YIFZM" id="ncJg$H916H" role="33vP2m">
-        <ref role="37wK5l" to="vt2g:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
-        <ref role="1Pybhc" to="vt2g:~DateTimeFormat" resolve="DateTimeFormat" />
-        <node concept="Xl_RD" id="ncJg$H916I" role="37wK5m">
+      <node concept="2YIFZM" id="3spXEPXIGSR" role="33vP2m">
+        <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forPattern" />
+        <ref role="1Pybhc" to="28jr:3spXEPXIsOe" resolve="MoDateTimeFormatters" />
+        <node concept="Xl_RD" id="3spXEPXI7Pm" role="37wK5m">
           <property role="Xl_RC" value="dd.MM.yy" />
         </node>
       </node>
@@ -7149,7 +7150,7 @@
         </node>
       </node>
       <node concept="3clFbS" id="4RxyAPtezHU" role="3clF47">
-        <node concept="3clFbH" id="1KgqQuB$smo" role="3cqZAp" />
+        <node concept="3clFbH" id="3spXEPXILO$" role="3cqZAp" />
         <node concept="3clFbF" id="1kThbup1HEW" role="3cqZAp">
           <node concept="37vLTI" id="1kThbup1HEY" role="3clFbG">
             <node concept="2OqwBi" id="1kThbup1HFA" role="37vLTx">
@@ -7170,6 +7171,8 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3spXEPXIaZd" role="3cqZAp" />
+        <node concept="3clFbH" id="3spXEPXHXux" role="3cqZAp" />
         <node concept="9aQIb" id="3PmCowOXHa6" role="3cqZAp">
           <node concept="3clFbS" id="3PmCowOXHa7" role="9aQI4">
             <node concept="3clFbF" id="3PmCowOXQEO" role="3cqZAp">
@@ -7624,7 +7627,7 @@
                     <node concept="1pGfFk" id="3PmCowOXQzG" role="2ShVmc">
                       <ref role="37wK5l" to="quhv:3PmCowOXxdA" resolve="DateTimeConverter_TWO" />
                       <node concept="37vLTw" id="1KgqQuBBF7v" role="37wK5m">
-                        <ref role="3cqZAo" node="ncJg$H916E" resolve="dateOnlyFormatter" />
+                        <ref role="3cqZAo" node="ncJg$H916E" resolve="tableDateOnlyFormatter" />
                       </node>
                     </node>
                   </node>
