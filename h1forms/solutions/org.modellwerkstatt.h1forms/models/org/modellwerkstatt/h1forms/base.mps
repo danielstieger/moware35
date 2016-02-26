@@ -2081,7 +2081,7 @@
         </node>
         <node concept="3SKdUt" id="58$$edtuVQL" role="3cqZAp">
           <node concept="3SKdUq" id="58$$edtuX_D" role="3SKWNk">
-            <property role="3SKdUp" value="lazy inject processes." />
+            <property role="3SKdUp" value="lazy inject processes, if not alreay injected in triggers ..." />
           </node>
         </node>
         <node concept="3clFbJ" id="58$$edtuDAI" role="3cqZAp">

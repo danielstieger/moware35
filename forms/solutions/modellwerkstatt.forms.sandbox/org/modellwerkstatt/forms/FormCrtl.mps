@@ -1975,15 +1975,23 @@
             </node>
             <node concept="3clFbH" id="12Eg3QJjooH" role="3cqZAp" />
           </node>
-          <node concept="3clFbC" id="20ohnkbA8mV" role="3clFbw">
-            <node concept="3cmrfG" id="20ohnkbA8yF" role="3uHU7w">
-              <property role="3cmrfH" value="0" />
-            </node>
-            <node concept="2OqwBi" id="20ohnkbA774" role="3uHU7B">
-              <node concept="37vLTw" id="12Eg3QJiYc9" role="2Oq$k0">
-                <ref role="3cqZAo" node="12Eg3QJiJka" resolve="runningTabCommandContainers" />
+          <node concept="1Wc70l" id="B5H4bc0dXC" role="3clFbw">
+            <node concept="3clFbC" id="B5H4bc0eyZ" role="3uHU7w">
+              <node concept="10Nm6u" id="B5H4bc0eBD" role="3uHU7w" />
+              <node concept="37vLTw" id="B5H4bc0el9" role="3uHU7B">
+                <ref role="3cqZAo" node="3spXEPYDjcl" resolve="promptWindowCommandContainer" />
               </node>
-              <node concept="34oBXx" id="20ohnkbA7$r" role="2OqNvi" />
+            </node>
+            <node concept="3clFbC" id="20ohnkbA8mV" role="3uHU7B">
+              <node concept="2OqwBi" id="20ohnkbA774" role="3uHU7B">
+                <node concept="37vLTw" id="12Eg3QJiYc9" role="2Oq$k0">
+                  <ref role="3cqZAo" node="12Eg3QJiJka" resolve="runningTabCommandContainers" />
+                </node>
+                <node concept="34oBXx" id="20ohnkbA7$r" role="2OqNvi" />
+              </node>
+              <node concept="3cmrfG" id="20ohnkbA8yF" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
             </node>
           </node>
           <node concept="9aQIb" id="2wSq35xIXLh" role="9aQIa">
@@ -4174,7 +4182,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="4vBE4eLQyVk" role="3cqZAp" />
-        <node concept="3clFbH" id="4vBE4eLQbbi" role="3cqZAp" />
         <node concept="3clFbH" id="4vBE4eLPPvS" role="3cqZAp" />
         <node concept="3SKdUt" id="3oBdEpT9UkS" role="3cqZAp">
           <node concept="3SKdUq" id="3oBdEpT9UOO" role="3SKWNk">
@@ -5043,6 +5050,11 @@
           <node concept="3clFbS" id="3spXEPYHnPa" role="3clFbx">
             <node concept="3clFbJ" id="3spXEPYHoaU" role="3cqZAp">
               <node concept="3clFbS" id="3spXEPYHoaW" role="3clFbx">
+                <node concept="3SKdUt" id="B5H4bbXN10" role="3cqZAp">
+                  <node concept="3SKdUq" id="B5H4bbXN6j" role="3SKWNk">
+                    <property role="3SKdUp" value="promptWindowCommandContainer is not null, so use shortInfo" />
+                  </node>
+                </node>
                 <node concept="3clFbF" id="3spXEPYHxw6" role="3cqZAp">
                   <node concept="2OqwBi" id="3spXEPYHxw7" role="3clFbG">
                     <node concept="2YIFZM" id="3spXEPYHxw8" role="2Oq$k0">
@@ -5115,30 +5127,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="3spXEPYFT4R" role="3cqZAp">
-          <node concept="2OqwBi" id="3spXEPYFT4O" role="3clFbG">
-            <node concept="10M0yZ" id="3spXEPYFT4P" role="2Oq$k0">
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="3spXEPYFT4Q" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="3spXEPYFTll" role="37wK5m">
-                <node concept="2OqwBi" id="3spXEPYFTvW" role="3uHU7w">
-                  <node concept="37vLTw" id="3spXEPYFTqO" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3spXEPYDNm4" resolve="cmdContainer" />
-                  </node>
-                  <node concept="liA8E" id="3spXEPYFTAW" role="2OqNvi">
-                    <ref role="37wK5l" node="5OZ8iimHbgl" resolve="shortInformation" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="3spXEPYFT7T" role="3uHU7B">
-                  <property role="Xl_RC" value="FApplicationController: opening prompt Window " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="3spXEPYDQpO" role="3cqZAp">
           <node concept="37vLTI" id="3spXEPYDQsx" role="3clFbG">
             <node concept="37vLTw" id="3spXEPYDRLW" role="37vLTx">
@@ -5164,6 +5152,7 @@
       <node concept="3clFbS" id="3spXEPYDV0a" role="3clF47">
         <node concept="3clFbJ" id="3spXEPYHGMd" role="3cqZAp">
           <node concept="3clFbS" id="3spXEPYHGMf" role="3clFbx">
+            <node concept="3clFbH" id="B5H4bbYZwN" role="3cqZAp" />
             <node concept="3clFbJ" id="3spXEPYHGjm" role="3cqZAp">
               <node concept="3clFbS" id="3spXEPYHGjn" role="3clFbx">
                 <node concept="3clFbF" id="3spXEPYHGjo" role="3cqZAp">
@@ -5177,26 +5166,21 @@
                     </node>
                     <node concept="liA8E" id="3spXEPYHGjs" role="2OqNvi">
                       <ref role="37wK5l" to="rmiu:~Category.error(java.lang.Object):void" resolve="error" />
-                      <node concept="3cpWs3" id="3spXEPYHGju" role="37wK5m">
-                        <node concept="3cpWs3" id="3spXEPYHGjv" role="3uHU7B">
-                          <node concept="2OqwBi" id="3spXEPYHGjw" role="3uHU7B">
-                            <node concept="37vLTw" id="3spXEPYHI45" role="2Oq$k0">
+                      <node concept="3cpWs3" id="B5H4bc0bJa" role="37wK5m">
+                        <node concept="Xl_RD" id="B5H4bc0bPm" role="3uHU7w">
+                          <property role="Xl_RC" value=" (opened two prompt windows stacked? not compatible with moware 2016 server convention!" />
+                        </node>
+                        <node concept="3cpWs3" id="3spXEPYHGju" role="3uHU7B">
+                          <node concept="3cpWs3" id="3spXEPYHGjv" role="3uHU7B">
+                            <node concept="37vLTw" id="3spXEPYHI45" role="3uHU7B">
                               <ref role="3cqZAo" node="3spXEPYDjcl" resolve="promptWindowCommandContainer" />
                             </node>
-                            <node concept="liA8E" id="3spXEPYHGjy" role="2OqNvi">
-                              <ref role="37wK5l" node="5OZ8iimHbgl" resolve="shortInformation" />
+                            <node concept="Xl_RD" id="3spXEPYHGjz" role="3uHU7w">
+                              <property role="Xl_RC" value=" opened as prompt, but trying to close " />
                             </node>
                           </node>
-                          <node concept="Xl_RD" id="3spXEPYHGjz" role="3uHU7w">
-                            <property role="Xl_RC" value=" opened as prompt, but trying to close " />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="3spXEPYHGj$" role="3uHU7w">
-                          <node concept="37vLTw" id="3spXEPYHPe9" role="2Oq$k0">
+                          <node concept="37vLTw" id="3spXEPYHPe9" role="3uHU7w">
                             <ref role="3cqZAo" node="3spXEPYEq0Z" resolve="cmdContainer" />
-                          </node>
-                          <node concept="liA8E" id="3spXEPYHGjA" role="2OqNvi">
-                            <ref role="37wK5l" node="5OZ8iimHbgl" resolve="shortInformation" />
                           </node>
                         </node>
                       </node>
@@ -5246,31 +5230,6 @@
                 </node>
               </node>
               <node concept="3clFbH" id="3spXEPYHQ4E" role="3cqZAp" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3spXEPYHGdI" role="3cqZAp" />
-        <node concept="3clFbF" id="3spXEPYFTFU" role="3cqZAp">
-          <node concept="2OqwBi" id="3spXEPYFTFV" role="3clFbG">
-            <node concept="10M0yZ" id="3spXEPYFTFW" role="2Oq$k0">
-              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-            </node>
-            <node concept="liA8E" id="3spXEPYFTFX" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="3spXEPYFTFY" role="37wK5m">
-                <node concept="2OqwBi" id="3spXEPYFTFZ" role="3uHU7w">
-                  <node concept="37vLTw" id="3spXEPYFTG0" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3spXEPYEq0Z" resolve="cmdContainer" />
-                  </node>
-                  <node concept="liA8E" id="3spXEPYFTG1" role="2OqNvi">
-                    <ref role="37wK5l" node="5OZ8iimHbgl" resolve="shortInformation" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="3spXEPYFTG2" role="3uHU7B">
-                  <property role="Xl_RC" value="FApplicationController: CLOSING prompt Window " />
-                </node>
-              </node>
             </node>
           </node>
         </node>
@@ -5392,7 +5351,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3spXEPYHXla" role="3cqZAp" />
         <node concept="3clFbH" id="3spXEPYHZaa" role="3cqZAp" />
         <node concept="3clFbJ" id="50$EOT995ba" role="3cqZAp">
           <node concept="3clFbS" id="50$EOT995bc" role="3clFbx">

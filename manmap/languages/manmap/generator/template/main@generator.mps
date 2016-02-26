@@ -474,6 +474,9 @@
         <reference id="1171323947160" name="concept" index="2SmgA8" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -18129,11 +18132,19 @@
             <node concept="29HgVG" id="6LKPMZLE7iB" role="lGtFl">
               <node concept="3NFfHV" id="6LKPMZLE7iD" role="3NFExx">
                 <node concept="3clFbS" id="6LKPMZLE7iF" role="2VODD2">
-                  <node concept="3clFbF" id="6LKPMZLE7o5" role="3cqZAp">
-                    <node concept="2OqwBi" id="6LKPMZLE7s_" role="3clFbG">
-                      <node concept="30H73N" id="6LKPMZLE7o4" role="2Oq$k0" />
-                      <node concept="2qgKlT" id="6LKPMZLE7H1" role="2OqNvi">
-                        <ref role="37wK5l" to="lfe3:6LKPMZJloI3" resolve="getElementType" />
+                  <node concept="3clFbF" id="1p3X1uHJ8hk" role="3cqZAp">
+                    <node concept="2OqwBi" id="1p3X1uHJ8hl" role="3clFbG">
+                      <node concept="35c_gC" id="1p3X1uHJ8hm" role="2Oq$k0">
+                        <ref role="35c_gD" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+                      </node>
+                      <node concept="2qgKlT" id="1p3X1uHJ8hn" role="2OqNvi">
+                        <ref role="37wK5l" to="lfe3:1HOHq98JxYQ" resolve="getIntegerForIntType" />
+                        <node concept="2OqwBi" id="1p3X1uHJ8ho" role="37wK5m">
+                          <node concept="30H73N" id="1p3X1uHJ8hp" role="2Oq$k0" />
+                          <node concept="2qgKlT" id="1p3X1uHJ8hq" role="2OqNvi">
+                            <ref role="37wK5l" to="lfe3:6LKPMZJloI3" resolve="getElementType" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -18549,11 +18560,19 @@
                           <node concept="29HgVG" id="6LKPMZJm2rd" role="lGtFl">
                             <node concept="3NFfHV" id="6LKPMZJm2rf" role="3NFExx">
                               <node concept="3clFbS" id="6LKPMZJm2rh" role="2VODD2">
-                                <node concept="3clFbF" id="6LKPMZJm4ih" role="3cqZAp">
-                                  <node concept="2OqwBi" id="6LKPMZJm4z$" role="3clFbG">
-                                    <node concept="30H73N" id="6LKPMZJm4ig" role="2Oq$k0" />
-                                    <node concept="2qgKlT" id="6LKPMZJm5VW" role="2OqNvi">
-                                      <ref role="37wK5l" to="lfe3:6LKPMZJloI3" resolve="getElementType" />
+                                <node concept="3clFbF" id="1p3X1uHOx93" role="3cqZAp">
+                                  <node concept="2OqwBi" id="1p3X1uHOx94" role="3clFbG">
+                                    <node concept="35c_gC" id="1p3X1uHOx95" role="2Oq$k0">
+                                      <ref role="35c_gD" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+                                    </node>
+                                    <node concept="2qgKlT" id="1p3X1uHOx96" role="2OqNvi">
+                                      <ref role="37wK5l" to="lfe3:1HOHq98JxYQ" resolve="getIntegerForIntType" />
+                                      <node concept="2OqwBi" id="1p3X1uHOx97" role="37wK5m">
+                                        <node concept="30H73N" id="1p3X1uHOx98" role="2Oq$k0" />
+                                        <node concept="2qgKlT" id="1p3X1uHOx99" role="2OqNvi">
+                                          <ref role="37wK5l" to="lfe3:6LKPMZJloI3" resolve="getElementType" />
+                                        </node>
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
@@ -18624,11 +18643,19 @@
                         <node concept="29HgVG" id="6LKPMZJlVoJ" role="lGtFl">
                           <node concept="3NFfHV" id="6LKPMZJlVoL" role="3NFExx">
                             <node concept="3clFbS" id="6LKPMZJlVoN" role="2VODD2">
-                              <node concept="3clFbF" id="6LKPMZJlWs1" role="3cqZAp">
-                                <node concept="2OqwBi" id="6LKPMZJlWD6" role="3clFbG">
-                                  <node concept="30H73N" id="6LKPMZJlWs0" role="2Oq$k0" />
-                                  <node concept="2qgKlT" id="6LKPMZJlYJ8" role="2OqNvi">
-                                    <ref role="37wK5l" to="lfe3:6LKPMZJloI3" resolve="getElementType" />
+                              <node concept="3clFbF" id="1p3X1uHIpFw" role="3cqZAp">
+                                <node concept="2OqwBi" id="1p3X1uHIsJV" role="3clFbG">
+                                  <node concept="35c_gC" id="1p3X1uHIpFu" role="2Oq$k0">
+                                    <ref role="35c_gD" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+                                  </node>
+                                  <node concept="2qgKlT" id="1p3X1uHItXu" role="2OqNvi">
+                                    <ref role="37wK5l" to="lfe3:1HOHq98JxYQ" resolve="getIntegerForIntType" />
+                                    <node concept="2OqwBi" id="1p3X1uHIvUg" role="37wK5m">
+                                      <node concept="30H73N" id="1p3X1uHIv18" role="2Oq$k0" />
+                                      <node concept="2qgKlT" id="1p3X1uHIxgr" role="2OqNvi">
+                                        <ref role="37wK5l" to="lfe3:6LKPMZJloI3" resolve="getElementType" />
+                                      </node>
+                                    </node>
                                   </node>
                                 </node>
                               </node>
