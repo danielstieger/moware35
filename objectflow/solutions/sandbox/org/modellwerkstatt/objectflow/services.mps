@@ -2300,6 +2300,30 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="3cwHg4BSW_N" role="3cqZAp" />
+                <node concept="3SKdUt" id="3cwHg4BT6Xg" role="3cqZAp">
+                  <node concept="3SKdUq" id="3cwHg4BT71i" role="3SKWNk">
+                    <property role="3SKdUp" value="wait a bit to let zookeeper close that connection ... " />
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="3cwHg4BT7ou" role="3cqZAp">
+                  <node concept="3SKWN0" id="3cwHg4BT7ov" role="3SKWNk">
+                    <node concept="3clFbF" id="3cwHg4BT7do" role="3SKWNf">
+                      <node concept="2YIFZM" id="3cwHg4BT7ig" role="3clFbG">
+                        <ref role="37wK5l" to="e2lb:~Thread.sleep(long):void" resolve="sleep" />
+                        <ref role="1Pybhc" to="e2lb:~Thread" resolve="Thread" />
+                        <node concept="3cmrfG" id="3cwHg4BT7n9" role="37wK5m">
+                          <property role="3cmrfH" value="5000" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="3cwHg4BT7z7" role="3cqZAp">
+                  <node concept="3SKdUq" id="3cwHg4BT7zQ" role="3SKWNk">
+                    <property role="3SKdUp" value="done by the caller! not here" />
+                  </node>
+                </node>
               </node>
               <node concept="TDmWw" id="R5cwRAn8Zx" role="TEbGg">
                 <node concept="3cpWsn" id="R5cwRAn8Zy" role="TDEfY">

@@ -4655,7 +4655,36 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6bN8khMBj09" role="3cqZAp" />
+        <node concept="3clFbH" id="3cwHg4BULQF" role="3cqZAp" />
+        <node concept="3SKdUt" id="3cwHg4BUMFs" role="3cqZAp">
+          <node concept="3SKdUq" id="3cwHg4BUMHV" role="3SKWNk">
+            <property role="3SKdUp" value="some time for zookeper to close connection. " />
+          </node>
+        </node>
+        <node concept="SfApY" id="3cwHg4BUEJz" role="3cqZAp">
+          <node concept="3clFbS" id="3cwHg4BUEJ_" role="SfCbr">
+            <node concept="3clFbF" id="3cwHg4BUCdf" role="3cqZAp">
+              <node concept="2YIFZM" id="3cwHg4BUCoQ" role="3clFbG">
+                <ref role="1Pybhc" to="e2lb:~Thread" resolve="Thread" />
+                <ref role="37wK5l" to="e2lb:~Thread.sleep(long):void" resolve="sleep" />
+                <node concept="3cmrfG" id="3cwHg4BUC$9" role="37wK5m">
+                  <property role="3cmrfH" value="5000" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="3cwHg4BUEJA" role="TEbGg">
+            <node concept="3cpWsn" id="3cwHg4BUEJC" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="3cwHg4BUKmB" role="1tU5fm">
+                <ref role="3uigEE" to="e2lb:~InterruptedException" resolve="InterruptedException" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="3cwHg4BUEJG" role="TDEfX" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3cwHg4BUDc4" role="3cqZAp" />
+        <node concept="3clFbH" id="3cwHg4BUBqv" role="3cqZAp" />
         <node concept="3clFbF" id="2yuEF6qde0D" role="3cqZAp">
           <node concept="2OqwBi" id="2yuEF6qde28" role="3clFbG">
             <node concept="37vLTw" id="2yuEF6qde0B" role="2Oq$k0">
