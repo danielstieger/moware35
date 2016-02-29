@@ -16851,49 +16851,23 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3SKdUt" id="6W0arkaIVWF" role="3cqZAp">
-                  <node concept="3SKWN0" id="6W0arkaIVWG" role="3SKWNk">
-                    <node concept="3clFbF" id="6W0arkaISko" role="3SKWNf">
-                      <node concept="37vLTI" id="6W0arkaISkq" role="3clFbG">
-                        <node concept="2OqwBi" id="6W0arkaxBtO" role="37vLTx">
-                          <node concept="37vLTw" id="6W0arkaxBtN" role="2Oq$k0">
-                            <ref role="3cqZAo" node="6W0arkaxBtq" resolve="cfgBuilder" />
-                          </node>
-                          <node concept="liA8E" id="6W0arkaxBtP" role="2OqNvi">
-                            <ref role="37wK5l" to="livf:~DefaultConfigurationBuilder.buildFromFile(java.io.File):org.apache.avalon.framework.configuration.Configuration" resolve="buildFromFile" />
-                            <node concept="2ShNRf" id="6W0arkaxBtQ" role="37wK5m">
-                              <node concept="1pGfFk" id="6W0arkaxBtR" role="2ShVmc">
-                                <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
-                                <node concept="Xl_RD" id="6W0arkaxBtz" role="37wK5m">
-                                  <property role="Xl_RC" value="c:\\temp\\fopcfg.xml" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="37vLTw" id="6W0arkaISku" role="37vLTJ">
-                          <ref role="3cqZAo" node="6W0arkaxBtu" resolve="cfg" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbF" id="6W0arkaIYBn" role="3cqZAp">
-                  <node concept="37vLTI" id="6W0arkaJ60A" role="3clFbG">
-                    <node concept="2OqwBi" id="6W0arkaJ8Z1" role="37vLTx">
-                      <node concept="37vLTw" id="6W0arkaJ82M" role="2Oq$k0">
+                <node concept="3clFbH" id="5RrG8XpMsmP" role="3cqZAp" />
+                <node concept="3clFbF" id="5RrG8XpMmoV" role="3cqZAp">
+                  <node concept="37vLTI" id="5RrG8XpMmoW" role="3clFbG">
+                    <node concept="2OqwBi" id="5RrG8XpMmoX" role="37vLTx">
+                      <node concept="37vLTw" id="5RrG8XpMmoY" role="2Oq$k0">
                         <ref role="3cqZAo" node="6W0arkaxBtq" resolve="cfgBuilder" />
                       </node>
-                      <node concept="liA8E" id="6W0arkaJfAY" role="2OqNvi">
+                      <node concept="liA8E" id="5RrG8XpMmoZ" role="2OqNvi">
                         <ref role="37wK5l" to="livf:~DefaultConfigurationBuilder.build(java.io.InputStream):org.apache.avalon.framework.configuration.Configuration" resolve="build" />
-                        <node concept="2ShNRf" id="6W0arkaMryD" role="37wK5m">
-                          <node concept="1pGfFk" id="6W0arkaMxq0" role="2ShVmc">
+                        <node concept="2ShNRf" id="5RrG8XpMmp0" role="37wK5m">
+                          <node concept="1pGfFk" id="5RrG8XpMmp1" role="2ShVmc">
                             <ref role="37wK5l" to="fxg7:~ByteArrayInputStream.&lt;init&gt;(byte[])" resolve="ByteArrayInputStream" />
-                            <node concept="2OqwBi" id="6W0arkaSaJs" role="37wK5m">
-                              <node concept="1rXfSq" id="6W0arkaMIun" role="2Oq$k0">
+                            <node concept="2OqwBi" id="5RrG8XpMmp2" role="37wK5m">
+                              <node concept="1rXfSq" id="5RrG8XpMtia" role="2Oq$k0">
                                 <ref role="37wK5l" node="6W0arkaGsJx" resolve="getConfigurationString" />
                               </node>
-                              <node concept="liA8E" id="6W0arkaSfDD" role="2OqNvi">
+                              <node concept="liA8E" id="5RrG8XpMmp6" role="2OqNvi">
                                 <ref role="37wK5l" to="e2lb:~String.getBytes():byte[]" resolve="getBytes" />
                               </node>
                             </node>
@@ -16901,22 +16875,63 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="37vLTw" id="6W0arkaIYBm" role="37vLTJ">
+                    <node concept="37vLTw" id="5RrG8XpMmp7" role="37vLTJ">
                       <ref role="3cqZAo" node="6W0arkaxBtu" resolve="cfg" />
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="5RrG8XpMmp8" role="3cqZAp" />
+                <node concept="3cpWs8" id="5RrG8XpMmp9" role="3cqZAp">
+                  <node concept="3cpWsn" id="5RrG8XpMmpa" role="3cpWs9">
+                    <property role="TrG5h" value="factoryBuilder" />
+                    <node concept="3uibUv" id="5RrG8XpMmpb" role="1tU5fm">
+                      <ref role="3uigEE" to="soh9:~FopFactoryBuilder" resolve="FopFactoryBuilder" />
+                    </node>
+                    <node concept="2OqwBi" id="5RrG8XpMmpc" role="33vP2m">
+                      <node concept="2ShNRf" id="5RrG8XpMmpd" role="2Oq$k0">
+                        <node concept="1pGfFk" id="5RrG8XpMmpe" role="2ShVmc">
+                          <ref role="37wK5l" to="soh9:~FopFactoryBuilder.&lt;init&gt;(java.net.URI)" resolve="FopFactoryBuilder" />
+                          <node concept="2OqwBi" id="5RrG8XpMmpf" role="37wK5m">
+                            <node concept="2ShNRf" id="5RrG8XpMmpg" role="2Oq$k0">
+                              <node concept="1pGfFk" id="5RrG8XpMmph" role="2ShVmc">
+                                <ref role="37wK5l" to="fxg7:~File.&lt;init&gt;(java.lang.String)" resolve="File" />
+                                <node concept="Xl_RD" id="5RrG8XpMmpi" role="37wK5m">
+                                  <property role="Xl_RC" value="." />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="5RrG8XpMmpj" role="2OqNvi">
+                              <ref role="37wK5l" to="fxg7:~File.toURI():java.net.URI" resolve="toURI" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5RrG8XpMmpk" role="2OqNvi">
+                        <ref role="37wK5l" to="soh9:~FopFactoryBuilder.setConfiguration(org.apache.avalon.framework.configuration.Configuration):org.apache.fop.apps.FopFactoryBuilder" resolve="setConfiguration" />
+                        <node concept="37vLTw" id="5RrG8XpMmpl" role="37wK5m">
+                          <ref role="3cqZAo" node="6W0arkaxBtu" resolve="cfg" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="5RrG8XpMmpm" role="3cqZAp" />
+                <node concept="3clFbF" id="5RrG8XpMmpn" role="3cqZAp">
+                  <node concept="37vLTI" id="5RrG8XpMmpo" role="3clFbG">
+                    <node concept="2OqwBi" id="5RrG8XpMmpp" role="37vLTx">
+                      <node concept="37vLTw" id="5RrG8XpMmpq" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5RrG8XpMmpa" resolve="factoryBuilder" />
+                      </node>
+                      <node concept="liA8E" id="5RrG8XpMmpr" role="2OqNvi">
+                        <ref role="37wK5l" to="soh9:~FopFactoryBuilder.build():org.apache.fop.apps.FopFactory" resolve="build" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="5RrG8XpMJV4" role="37vLTJ">
+                      <ref role="3cqZAo" node="7fkJcal9qcb" resolve="fopFactory" />
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbH" id="6W0arkaL1de" role="3cqZAp" />
-                <node concept="3SKdUt" id="1cDMcpHmgbk" role="3cqZAp">
-                  <node concept="3SKdUq" id="1cDMcpHmgig" role="3SKWNk">
-                    <property role="3SKdUp" value="fopFactory = FopFactory.newInstance()" />
-                  </node>
-                </node>
-                <node concept="3SKdUt" id="1cDMcpHkKLl" role="3cqZAp">
-                  <node concept="3SKdUq" id="1cDMcpHkKOH" role="3SKWNk">
-                    <property role="3SKdUp" value="fopFactory.setUserConfig(cfg)" />
-                  </node>
-                </node>
                 <node concept="3clFbH" id="6W0arkaBzYx" role="3cqZAp" />
               </node>
             </node>
@@ -17039,7 +17054,7 @@
             <node concept="liA8E" id="6W0arkaH_Mi" role="2OqNvi">
               <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
               <node concept="Xl_RD" id="6W0arkaHGp3" role="37wK5m">
-                <property role="Xl_RC" value="&lt;fop version=\&quot;1.0\&quot;&gt;" />
+                <property role="Xl_RC" value="&lt;fop version=\&quot;2.1\&quot;&gt;" />
               </node>
             </node>
           </node>
@@ -17270,7 +17285,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7fkJcaliEYw" role="3cqZAp" />
+        <node concept="3clFbH" id="5RrG8XpM6oK" role="3cqZAp" />
         <node concept="SfApY" id="7fkJcallwwo" role="3cqZAp">
           <node concept="3clFbS" id="7fkJcallwwp" role="SfCbr">
             <node concept="3cpWs8" id="7fkJcaliEYH" role="3cqZAp">
@@ -17643,6 +17658,7 @@
         </node>
       </node>
       <node concept="3clFbS" id="7fkJcal6nhW" role="3clF47">
+        <node concept="3clFbH" id="5RrG8XpMtFE" role="3cqZAp" />
         <node concept="3clFbF" id="7fkJcalaNsH" role="3cqZAp">
           <node concept="1rXfSq" id="7fkJcalaNsG" role="3clFbG">
             <ref role="37wK5l" node="7fkJcal7fEf" resolve="initUtility" />
@@ -18213,6 +18229,7 @@
             <ref role="37wK5l" node="7fkJcal7fEf" resolve="initUtility" />
           </node>
         </node>
+        <node concept="3clFbH" id="5RrG8XpMtVm" role="3cqZAp" />
         <node concept="SfApY" id="6W0arkaTW7$" role="3cqZAp">
           <node concept="3clFbS" id="6W0arkaTW7_" role="SfCbr">
             <node concept="3SKdUt" id="6W0arkaTW7A" role="3cqZAp">
