@@ -15358,6 +15358,56 @@
         <node concept="3clFbH" id="7ApkBIQBbLb" role="3cqZAp" />
         <node concept="3clFbJ" id="7ApkBIQBeSb" role="3cqZAp">
           <node concept="3clFbS" id="7ApkBIQBeSd" role="3clFbx">
+            <node concept="3SKdUt" id="7ApkBIQS$RQ" role="3cqZAp">
+              <node concept="3SKdUq" id="7ApkBIQSNmy" role="3SKWNk">
+                <property role="3SKdUp" value="does merly support one col. " />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7ApkBIQSBgO" role="3cqZAp">
+              <node concept="3cpWsn" id="7ApkBIQSBgP" role="3cpWs9">
+                <property role="TrG5h" value="firstEditColumn" />
+                <node concept="3uibUv" id="7ApkBIQSBgQ" role="1tU5fm">
+                  <ref role="3uigEE" node="5XHFlROKCNh" resolve="VTableForm.VaadinColumn" />
+                </node>
+                <node concept="10Nm6u" id="7ApkBIQSCv0" role="33vP2m" />
+              </node>
+            </node>
+            <node concept="1DcWWT" id="7ApkBIQSEpL" role="3cqZAp">
+              <node concept="3clFbS" id="7ApkBIQSEpN" role="2LFqv$">
+                <node concept="3clFbJ" id="7ApkBIQSG_0" role="3cqZAp">
+                  <node concept="3clFbS" id="7ApkBIQSG_2" role="3clFbx">
+                    <node concept="3clFbF" id="7ApkBIQSM3r" role="3cqZAp">
+                      <node concept="37vLTI" id="7ApkBIQSMhv" role="3clFbG">
+                        <node concept="37vLTw" id="7ApkBIQSMvr" role="37vLTx">
+                          <ref role="3cqZAo" node="7ApkBIQSEpO" resolve="col" />
+                        </node>
+                        <node concept="37vLTw" id="7ApkBIQSM3p" role="37vLTJ">
+                          <ref role="3cqZAo" node="7ApkBIQSBgP" resolve="firstEditColumn" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3zACq4" id="7ApkBIQSMHi" role="3cqZAp" />
+                  </node>
+                  <node concept="2OqwBi" id="7ApkBIQSH1h" role="3clFbw">
+                    <node concept="37vLTw" id="7ApkBIQSGMU" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7ApkBIQSEpO" resolve="col" />
+                    </node>
+                    <node concept="2OwXpG" id="7ApkBIQSL$h" role="2OqNvi">
+                      <ref role="2Oxat5" node="7ApkBIQSHem" resolve="editable" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWsn" id="7ApkBIQSEpO" role="1Duv9x">
+                <property role="TrG5h" value="col" />
+                <node concept="3uibUv" id="7ApkBIQSEQ8" role="1tU5fm">
+                  <ref role="3uigEE" node="5XHFlROKCNh" resolve="VTableForm.VaadinColumn" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="7ApkBIQSFWd" role="1DdaDG">
+                <ref role="3cqZAo" node="5tLhDse44bA" resolve="visibleColumns" />
+              </node>
+            </node>
             <node concept="3clFbF" id="7ApkBIQBhB9" role="3cqZAp">
               <node concept="2OqwBi" id="7ApkBIQBhQl" role="3clFbG">
                 <node concept="37vLTw" id="7ApkBIQBhB7" role="2Oq$k0">
@@ -15368,8 +15418,8 @@
                   <node concept="2ShNRf" id="7ApkBIQBuQ4" role="37wK5m">
                     <node concept="1pGfFk" id="7ApkBIQDbVm" role="2ShVmc">
                       <ref role="37wK5l" node="7ApkBIQCToU" resolve="VTableFieldFactory" />
-                      <node concept="37vLTw" id="7ApkBIQDcPg" role="37wK5m">
-                        <ref role="3cqZAo" node="5tLhDse44bA" resolve="visibleColumns" />
+                      <node concept="37vLTw" id="7ApkBIQSDN1" role="37wK5m">
+                        <ref role="3cqZAo" node="7ApkBIQSBgP" resolve="firstEditColumn" />
                       </node>
                     </node>
                   </node>
@@ -16156,6 +16206,9 @@
                 </node>
                 <node concept="37vLTw" id="18291WBFium" role="37wK5m">
                   <ref role="3cqZAo" node="5XHFlRODqOZ" resolve="width" />
+                </node>
+                <node concept="37vLTw" id="7ApkBIQSL7p" role="37wK5m">
+                  <ref role="3cqZAo" node="5XHFlRODqP1" resolve="editable" />
                 </node>
               </node>
             </node>
@@ -18154,7 +18207,11 @@
         <node concept="3Tm1VV" id="18291WBFwl8" role="1B3o_S" />
         <node concept="10Oyi0" id="18291WBFwGJ" role="1tU5fm" />
       </node>
-      <node concept="2tJIrI" id="18291WBFkot" role="jymVt" />
+      <node concept="312cEg" id="7ApkBIQSHem" role="jymVt">
+        <property role="TrG5h" value="editable" />
+        <node concept="3Tm1VV" id="7ApkBIQSIGI" role="1B3o_S" />
+        <node concept="10P_77" id="7ApkBIQSIJH" role="1tU5fm" />
+      </node>
       <node concept="2tJIrI" id="5tLhDsel1EP" role="jymVt" />
       <node concept="3clFbW" id="5XHFlROLdyk" role="jymVt">
         <node concept="3cqZAl" id="5XHFlROLdym" role="3clF45" />
@@ -18200,6 +18257,16 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbF" id="7ApkBIQSK1e" role="3cqZAp">
+            <node concept="37vLTI" id="7ApkBIQSKjD" role="3clFbG">
+              <node concept="37vLTw" id="7ApkBIQSKve" role="37vLTx">
+                <ref role="3cqZAo" node="7ApkBIQSIMV" resolve="edt" />
+              </node>
+              <node concept="37vLTw" id="7ApkBIQSK1c" role="37vLTJ">
+                <ref role="3cqZAo" node="7ApkBIQSHem" resolve="editable" />
+              </node>
+            </node>
+          </node>
           <node concept="3clFbH" id="18291WBFsyU" role="3cqZAp" />
         </node>
         <node concept="37vLTG" id="5tLhDsel3Rt" role="3clF46">
@@ -18219,6 +18286,10 @@
         <node concept="37vLTG" id="18291WBFxQO" role="3clF46">
           <property role="TrG5h" value="wid" />
           <node concept="10Oyi0" id="18291WBFyyF" role="1tU5fm" />
+        </node>
+        <node concept="37vLTG" id="7ApkBIQSIMV" role="3clF46">
+          <property role="TrG5h" value="edt" />
+          <node concept="10P_77" id="7ApkBIQSJ5T" role="1tU5fm" />
         </node>
       </node>
       <node concept="2tJIrI" id="5XHFlROLbyJ" role="jymVt" />
@@ -26436,13 +26507,10 @@
     <node concept="312cEg" id="7ApkBIQCT7_" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="columns" />
+      <property role="TrG5h" value="column" />
       <property role="3TUv4t" value="false" />
-      <node concept="3uibUv" id="7ApkBIQCTA9" role="1tU5fm">
-        <ref role="3uigEE" to="k7g3:~List" resolve="List" />
-        <node concept="3uibUv" id="7ApkBIQDdoe" role="11_B2D">
-          <ref role="3uigEE" node="5XHFlROKCNh" resolve="VTableForm.VaadinColumn" />
-        </node>
+      <node concept="3uibUv" id="7ApkBIQSmZk" role="1tU5fm">
+        <ref role="3uigEE" node="5XHFlROKCNh" resolve="VTableForm.VaadinColumn" />
       </node>
       <node concept="3Tm6S6" id="7ApkBIQCTdj" role="1B3o_S" />
     </node>
@@ -26455,21 +26523,18 @@
         <node concept="3clFbF" id="7ApkBIQCTz2" role="3cqZAp">
           <node concept="37vLTI" id="7ApkBIQCTzz" role="3clFbG">
             <node concept="37vLTw" id="7ApkBIQCT_q" role="37vLTx">
-              <ref role="3cqZAo" node="7ApkBIQCTvb" resolve="cols" />
+              <ref role="3cqZAo" node="7ApkBIQCTvb" resolve="col" />
             </node>
             <node concept="37vLTw" id="7ApkBIQCTz1" role="37vLTJ">
-              <ref role="3cqZAo" node="7ApkBIQCT7_" resolve="columns" />
+              <ref role="3cqZAo" node="7ApkBIQCT7_" resolve="column" />
             </node>
           </node>
         </node>
       </node>
       <node concept="37vLTG" id="7ApkBIQCTvb" role="3clF46">
-        <property role="TrG5h" value="cols" />
-        <node concept="3uibUv" id="7ApkBIQCTva" role="1tU5fm">
-          <ref role="3uigEE" to="k7g3:~List" resolve="List" />
-          <node concept="3uibUv" id="7ApkBIQDdt3" role="11_B2D">
-            <ref role="3uigEE" node="5XHFlROKCNh" resolve="VTableForm.VaadinColumn" />
-          </node>
+        <property role="TrG5h" value="col" />
+        <node concept="3uibUv" id="7ApkBIQSmNw" role="1tU5fm">
+          <ref role="3uigEE" node="5XHFlROKCNh" resolve="VTableForm.VaadinColumn" />
         </node>
       </node>
     </node>
@@ -26598,12 +26663,11 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7ApkBIQCUpD" role="3cqZAp" />
-        <node concept="3clFbH" id="7ApkBIQCUKg" role="3cqZAp" />
-        <node concept="3SKdUt" id="7ApkBIQCXNV" role="3cqZAp">
-          <node concept="3SKWN0" id="7ApkBIQCXNW" role="3SKWNk">
-            <node concept="3clFbF" id="7ApkBIQB2Ht" role="3SKWNf">
-              <node concept="3nyPlj" id="7ApkBIQB2Hs" role="3clFbG">
+        <node concept="3clFbH" id="7ApkBIQSscQ" role="3cqZAp" />
+        <node concept="3clFbJ" id="7ApkBIQSn1O" role="3cqZAp">
+          <node concept="3clFbS" id="7ApkBIQSn1Q" role="3clFbx">
+            <node concept="3cpWs6" id="7ApkBIQSrtN" role="3cqZAp">
+              <node concept="3nyPlj" id="7ApkBIQB2Hs" role="3cqZAk">
                 <ref role="37wK5l" to="o2tm:~DefaultFieldFactory.createField(com.vaadin.data.Container,java.lang.Object,java.lang.Object,com.vaadin.ui.Component):com.vaadin.ui.Field" resolve="createField" />
                 <node concept="37vLTw" id="7ApkBIQB2Ho" role="37wK5m">
                   <ref role="3cqZAo" node="7ApkBIQB2He" resolve="container" />
@@ -26617,6 +26681,22 @@
                 <node concept="37vLTw" id="7ApkBIQB2Hr" role="37wK5m">
                   <ref role="3cqZAo" node="7ApkBIQB2Hk" resolve="component" />
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7ApkBIQSnDd" role="3clFbw">
+            <node concept="2OqwBi" id="7ApkBIQSnqj" role="2Oq$k0">
+              <node concept="37vLTw" id="7ApkBIQSnon" role="2Oq$k0">
+                <ref role="3cqZAo" node="7ApkBIQCT7_" resolve="column" />
+              </node>
+              <node concept="2OwXpG" id="7ApkBIQSnx6" role="2OqNvi">
+                <ref role="2Oxat5" node="5tLhDsel3m_" resolve="propertyName" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7ApkBIQSrgE" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="37vLTw" id="7ApkBIQSrpZ" role="37wK5m">
+                <ref role="3cqZAo" node="7ApkBIQB2Hi" resolve="propertyId" />
               </node>
             </node>
           </node>
