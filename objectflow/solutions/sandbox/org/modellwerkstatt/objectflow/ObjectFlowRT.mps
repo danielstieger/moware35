@@ -45,6 +45,7 @@
     <import index="7zqk" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.print(JDK/java.awt.print@java_stub)" />
     <import index="nn6w" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.print.attribute(JDK/javax.print.attribute@java_stub)" />
     <import index="5qms" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.pdfbox.pdmodel(org.modellwerkstatt.sandbox/org.apache.pdfbox.pdmodel@java_stub)" />
+    <import index="xdp2" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.pdfbox.printing(org.modellwerkstatt.sandbox/org.apache.pdfbox.printing@java_stub)" />
     <import index="livf" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/org.apache.avalon.framework.configuration@java_stub)" implicit="true" />
     <import index="45gm" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" implicit="true" />
     <import index="6izi" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.management.remote(JDK/javax.management.remote@java_stub)" implicit="true" />
@@ -33608,11 +33609,11 @@
                 </node>
                 <node concept="liA8E" id="18xonQm3m1E" role="2OqNvi">
                   <ref role="37wK5l" to="1t7x:~Desktop.browse(java.net.URI):void" resolve="browse" />
-                  <node concept="2OqwBi" id="18xonQmdFnA" role="37wK5m">
-                    <node concept="37vLTw" id="75cZYRv0R5U" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7ApkBIQUP2P" role="37wK5m">
+                    <node concept="37vLTw" id="7ApkBIQUOVL" role="2Oq$k0">
                       <ref role="3cqZAo" node="75cZYRv0KR_" resolve="pdfFile" />
                     </node>
-                    <node concept="liA8E" id="18xonQmdFP5" role="2OqNvi">
+                    <node concept="liA8E" id="7ApkBIQUPpN" role="2OqNvi">
                       <ref role="37wK5l" to="fxg7:~File.toURI():java.net.URI" resolve="toURI" />
                     </node>
                   </node>
@@ -33673,13 +33674,44 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="75cZYRuXF$P" role="3cqZAp">
-              <node concept="2OqwBi" id="75cZYRuXFUj" role="3clFbG">
-                <node concept="37vLTw" id="75cZYRuXF$N" role="2Oq$k0">
-                  <ref role="3cqZAo" node="75cZYRuXCHA" resolve="document" />
+            <node concept="3cpWs8" id="7ApkBIQVPIP" role="3cqZAp">
+              <node concept="3cpWsn" id="7ApkBIQVPIO" role="3cpWs9">
+                <property role="3TUv4t" value="false" />
+                <property role="TrG5h" value="job" />
+                <node concept="3uibUv" id="7ApkBIQVPIQ" role="1tU5fm">
+                  <ref role="3uigEE" to="7zqk:~PrinterJob" resolve="PrinterJob" />
                 </node>
-                <node concept="liA8E" id="75cZYRuXH0G" role="2OqNvi">
-                  <ref role="37wK5l" to="5qms:~PDDocument.silentPrint():void" resolve="silentPrint" />
+                <node concept="2YIFZM" id="7ApkBIQVPJn" role="33vP2m">
+                  <ref role="1Pybhc" to="7zqk:~PrinterJob" resolve="PrinterJob" />
+                  <ref role="37wK5l" to="7zqk:~PrinterJob.getPrinterJob():java.awt.print.PrinterJob" resolve="getPrinterJob" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7ApkBIQVPIS" role="3cqZAp">
+              <node concept="2OqwBi" id="7ApkBIQVPJM" role="3clFbG">
+                <node concept="37vLTw" id="7ApkBIQVPJL" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7ApkBIQVPIO" resolve="job" />
+                </node>
+                <node concept="liA8E" id="7ApkBIQVPJN" role="2OqNvi">
+                  <ref role="37wK5l" to="7zqk:~PrinterJob.setPageable(java.awt.print.Pageable):void" resolve="setPageable" />
+                  <node concept="2ShNRf" id="7ApkBIQVQSY" role="37wK5m">
+                    <node concept="1pGfFk" id="7ApkBIQVQSZ" role="2ShVmc">
+                      <ref role="37wK5l" to="xdp2:~PDFPageable.&lt;init&gt;(org.apache.pdfbox.pdmodel.PDDocument)" resolve="PDFPageable" />
+                      <node concept="37vLTw" id="7ApkBIQVPIV" role="37wK5m">
+                        <ref role="3cqZAo" node="75cZYRuXCHA" resolve="document" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7ApkBIQVPIW" role="3cqZAp">
+              <node concept="2OqwBi" id="7ApkBIQVPKe" role="3clFbG">
+                <node concept="37vLTw" id="7ApkBIQVPKd" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7ApkBIQVPIO" resolve="job" />
+                </node>
+                <node concept="liA8E" id="7ApkBIQVPKf" role="2OqNvi">
+                  <ref role="37wK5l" to="7zqk:~PrinterJob.print():void" resolve="print" />
                 </node>
               </node>
             </node>
@@ -33693,6 +33725,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="7ApkBIQV9TE" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="75cZYRuXNqI" role="TEbGg">
             <node concept="3clFbS" id="75cZYRuXNqJ" role="TDEfX">

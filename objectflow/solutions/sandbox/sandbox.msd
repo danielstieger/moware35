@@ -27,7 +27,8 @@
       <sourceRoot location="printing21/xml-apis-1.3.04.jar" />
       <sourceRoot location="printing21/xml-apis-ext-1.3.04.jar" />
       <sourceRoot location="printing21/xmlgraphics-commons-2.1.jar" />
-      <sourceRoot location="printing21/pdfbox-app-1.8.11.jar" />
+      <sourceRoot location="printing21/fontbox-1.8.11.jar" />
+      <sourceRoot location="printing21/pdfbox-2.0.0-RC3.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -57,7 +58,8 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xml-apis-1.3.04.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xml-apis-ext-1.3.04.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xmlgraphics-commons-2.1.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/pdfbox-app-1.8.11.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/fontbox-1.8.11.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/pdfbox-2.0.0-RC3.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
