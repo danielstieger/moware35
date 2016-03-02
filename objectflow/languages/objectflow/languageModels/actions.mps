@@ -374,6 +374,68 @@
         </node>
       </node>
     </node>
+    <node concept="3FOIzC" id="7ApkBIQEnn2" role="3FOPby">
+      <ref role="3FOWKa" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+      <node concept="tYCnQ" id="7ApkBIQEnn3" role="tZc4B">
+        <ref role="uz4UX" to="un0u:f6irPlxvr4" resolve="DezimalLiteral" />
+        <node concept="ucClh" id="7ApkBIQEnn4" role="uz6Si">
+          <node concept="uaGSO" id="7ApkBIQEnn5" role="ucKa5">
+            <node concept="3clFbS" id="7ApkBIQEnn6" role="2VODD2">
+              <node concept="3clFbF" id="7ApkBIQK5E$" role="3cqZAp">
+                <node concept="3clFbT" id="7ApkBIQK5Ez" role="3clFbG">
+                  <property role="3clFbU" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="ucgPf" id="7ApkBIQEnnp" role="ucMEw">
+            <node concept="3clFbS" id="7ApkBIQEnnq" role="2VODD2">
+              <node concept="3cpWs8" id="7ApkBIQEnnr" role="3cqZAp">
+                <node concept="3cpWsn" id="7ApkBIQEnns" role="3cpWs9">
+                  <property role="TrG5h" value="constant" />
+                  <node concept="3Tqbb2" id="7ApkBIQEnnt" role="1tU5fm">
+                    <ref role="ehGHo" to="un0u:f6irPlxvr4" resolve="DezimalLiteral" />
+                  </node>
+                  <node concept="2OqwBi" id="7ApkBIQEnnu" role="33vP2m">
+                    <node concept="1Q6Npb" id="7ApkBIQEnnv" role="2Oq$k0" />
+                    <node concept="15TzpJ" id="7ApkBIQEnnw" role="2OqNvi">
+                      <ref role="I8UWU" to="un0u:f6irPlxvr4" resolve="DezimalLiteral" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7ApkBIQEnnx" role="3cqZAp">
+                <node concept="2OqwBi" id="7ApkBIQEnny" role="3clFbG">
+                  <node concept="2OqwBi" id="7ApkBIQEnnz" role="2Oq$k0">
+                    <node concept="37vLTw" id="7ApkBIQEnn$" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7ApkBIQEnns" resolve="constant" />
+                    </node>
+                    <node concept="3TrcHB" id="7ApkBIQEnn_" role="2OqNvi">
+                      <ref role="3TsBF5" to="un0u:f6irPlxvr5" resolve="value" />
+                    </node>
+                  </node>
+                  <node concept="tyxLq" id="7ApkBIQEnnA" role="2OqNvi">
+                    <node concept="ub8z3" id="7ApkBIQEnnB" role="tz02z" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="7ApkBIQEnnC" role="3cqZAp">
+                <node concept="37vLTw" id="7ApkBIQEnnD" role="3cqZAk">
+                  <ref role="3cqZAo" node="7ApkBIQEnns" resolve="constant" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="uGdhv" id="7ApkBIQEnnE" role="uGu3D">
+            <node concept="3clFbS" id="7ApkBIQEnnF" role="2VODD2">
+              <node concept="3clFbF" id="7ApkBIQEnnG" role="3cqZAp">
+                <node concept="ub8z3" id="7ApkBIQEnnH" role="3clFbG" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="37WguZ" id="4iszJshM$qn">
     <property role="TrG5h" value="ObjectFlowNodeFactory" />
@@ -1427,6 +1489,140 @@
             <property role="2h1i$Z" value="d" />
           </node>
           <node concept="2h1dTh" id="1y3D6gQl6aK" role="Cn6ar">
+            <property role="2h1i$Z" value="decimal literal" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UNGvq" id="7ApkBIQEmfu" role="3UOs0v">
+      <property role="3mWRNi" value="Transform to DezimalLiteral" />
+      <property role="2uHTBK" value="default_RTransform" />
+      <ref role="3UNGvu" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+      <node concept="tYCnQ" id="7ApkBIQEmfv" role="_1QTJ">
+        <ref role="uz4UX" to="un0u:f6irPlxvr4" resolve="DezimalLiteral" />
+        <node concept="Cmt7Y" id="7ApkBIQEmfw" role="uz6Si">
+          <node concept="Cnhdc" id="7ApkBIQEmfx" role="Cncma">
+            <node concept="3clFbS" id="7ApkBIQEmfy" role="2VODD2">
+              <node concept="3cpWs8" id="7ApkBIQEmfz" role="3cqZAp">
+                <node concept="3cpWsn" id="7ApkBIQEmf$" role="3cpWs9">
+                  <property role="TrG5h" value="literal" />
+                  <node concept="3Tqbb2" id="7ApkBIQEmf_" role="1tU5fm">
+                    <ref role="ehGHo" to="un0u:f6irPlxvr4" resolve="DezimalLiteral" />
+                  </node>
+                  <node concept="2OqwBi" id="7ApkBIQEmfA" role="33vP2m">
+                    <node concept="Cj7Ep" id="7ApkBIQEmfB" role="2Oq$k0" />
+                    <node concept="1P9Npp" id="7ApkBIQEmfC" role="2OqNvi">
+                      <node concept="2OqwBi" id="7ApkBIQEmfD" role="1P9ThW">
+                        <node concept="1Q6Npb" id="7ApkBIQEmfE" role="2Oq$k0" />
+                        <node concept="15TzpJ" id="7ApkBIQEmfF" role="2OqNvi">
+                          <ref role="I8UWU" to="un0u:f6irPlxvr4" resolve="DezimalLiteral" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7ApkBIQEmfG" role="3cqZAp">
+                <node concept="37vLTI" id="7ApkBIQEmfH" role="3clFbG">
+                  <node concept="3cpWs3" id="7ApkBIQEmfI" role="37vLTx">
+                    <node concept="Xl_RD" id="7ApkBIQEmfJ" role="3uHU7w">
+                      <property role="Xl_RC" value="d" />
+                    </node>
+                    <node concept="2OqwBi" id="7ApkBIQEmfK" role="3uHU7B">
+                      <node concept="Cj7Ep" id="7ApkBIQEmfL" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="7ApkBIQEmfM" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpee:gc$nh$Z" resolve="value" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7ApkBIQEmfN" role="37vLTJ">
+                    <node concept="37vLTw" id="7ApkBIQEmfO" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7ApkBIQEmf$" resolve="literal" />
+                    </node>
+                    <node concept="3TrcHB" id="7ApkBIQEmfP" role="2OqNvi">
+                      <ref role="3TsBF5" to="un0u:f6irPlxvr5" resolve="value" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="7ApkBIQEmfQ" role="3cqZAp">
+                <node concept="37vLTw" id="7ApkBIQEmfR" role="3cqZAk">
+                  <ref role="3cqZAo" node="7ApkBIQEmf$" resolve="literal" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="7ApkBIQEmfS" role="Cn2iK">
+            <property role="2h1i$Z" value="z" />
+          </node>
+          <node concept="2h1dTh" id="7ApkBIQEmfT" role="Cn6ar">
+            <property role="2h1i$Z" value="decimal literal" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3UNGvq" id="7ApkBIQEmfU" role="3UOs0v">
+      <property role="7I3sp" value="left" />
+      <property role="3mWRNi" value="transform expression into Lvalue of assignment" />
+      <ref role="3UNGvu" to="tpee:gbb6qgO" resolve="FloatingPointConstant" />
+      <node concept="tYCnQ" id="7ApkBIQEmfV" role="_1QTJ">
+        <ref role="uz4UX" to="un0u:f6irPlxvr4" resolve="DezimalLiteral" />
+        <node concept="Cmt7Y" id="7ApkBIQEmfW" role="uz6Si">
+          <node concept="Cnhdc" id="7ApkBIQEmfX" role="Cncma">
+            <node concept="3clFbS" id="7ApkBIQEmfY" role="2VODD2">
+              <node concept="3cpWs8" id="7ApkBIQEmfZ" role="3cqZAp">
+                <node concept="3cpWsn" id="7ApkBIQEmg0" role="3cpWs9">
+                  <property role="TrG5h" value="literal" />
+                  <node concept="3Tqbb2" id="7ApkBIQEmg1" role="1tU5fm">
+                    <ref role="ehGHo" to="un0u:f6irPlxvr4" resolve="DezimalLiteral" />
+                  </node>
+                  <node concept="2OqwBi" id="7ApkBIQEmg2" role="33vP2m">
+                    <node concept="Cj7Ep" id="7ApkBIQEmg3" role="2Oq$k0" />
+                    <node concept="1P9Npp" id="7ApkBIQEmg4" role="2OqNvi">
+                      <node concept="2OqwBi" id="7ApkBIQEmg5" role="1P9ThW">
+                        <node concept="1Q6Npb" id="7ApkBIQEmg6" role="2Oq$k0" />
+                        <node concept="15TzpJ" id="7ApkBIQEmg7" role="2OqNvi">
+                          <ref role="I8UWU" to="un0u:f6irPlxvr4" resolve="DezimalLiteral" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="7ApkBIQEmg8" role="3cqZAp">
+                <node concept="37vLTI" id="7ApkBIQEmg9" role="3clFbG">
+                  <node concept="3cpWs3" id="7ApkBIQEmga" role="37vLTx">
+                    <node concept="Xl_RD" id="7ApkBIQEmgb" role="3uHU7w">
+                      <property role="Xl_RC" value="d" />
+                    </node>
+                    <node concept="2OqwBi" id="7ApkBIQEmgc" role="3uHU7B">
+                      <node concept="Cj7Ep" id="7ApkBIQEmgd" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="7ApkBIQEmge" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpee:gc$nh$Z" resolve="value" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7ApkBIQEmgf" role="37vLTJ">
+                    <node concept="37vLTw" id="7ApkBIQEmgg" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7ApkBIQEmg0" resolve="literal" />
+                    </node>
+                    <node concept="3TrcHB" id="7ApkBIQEmgh" role="2OqNvi">
+                      <ref role="3TsBF5" to="un0u:f6irPlxvr5" resolve="value" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="7ApkBIQEmgi" role="3cqZAp">
+                <node concept="37vLTw" id="7ApkBIQEmgj" role="3cqZAk">
+                  <ref role="3cqZAo" node="7ApkBIQEmg0" resolve="literal" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="7ApkBIQEmgk" role="Cn2iK">
+            <property role="2h1i$Z" value="z" />
+          </node>
+          <node concept="2h1dTh" id="7ApkBIQEmgl" role="Cn6ar">
             <property role="2h1i$Z" value="decimal literal" />
           </node>
         </node>

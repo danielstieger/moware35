@@ -258,6 +258,7 @@
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
+      <concept id="1171903607971" name="jetbrains.mps.baseLanguage.structure.WildCardType" flags="in" index="3qTvmN" />
       <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
         <child id="1171903916107" name="bound" index="3qUE_r" />
       </concept>
@@ -13941,6 +13942,11 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5tLhDsegaCL" role="jymVt" />
+    <node concept="312cEg" id="7ApkBIQAEFw" role="jymVt">
+      <property role="TrG5h" value="isTableEditable" />
+      <node concept="3Tm6S6" id="7ApkBIQAEFx" role="1B3o_S" />
+      <node concept="10P_77" id="7ApkBIQAKxN" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="5tLhDsdWKay" role="jymVt" />
     <node concept="3clFbW" id="5XHFlROE8Gn" role="jymVt">
       <node concept="37vLTG" id="7UeBQrPHA6z" role="3clF46">
@@ -13968,7 +13974,17 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7QITxIiQLP_" role="3cqZAp" />
+        <node concept="3clFbF" id="7ApkBIQAP01" role="3cqZAp">
+          <node concept="37vLTI" id="7ApkBIQARsU" role="3clFbG">
+            <node concept="3clFbT" id="7ApkBIQASEV" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="7ApkBIQAOZZ" role="37vLTJ">
+              <ref role="3cqZAo" node="7ApkBIQAEFw" resolve="isTableEditable" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ApkBIQAMqf" role="3cqZAp" />
         <node concept="3clFbF" id="5XHFlROOTYZ" role="3cqZAp">
           <node concept="2OqwBi" id="5XHFlROOUgb" role="3clFbG">
             <node concept="Xjq3P" id="5XHFlROOTYX" role="2Oq$k0" />
@@ -15339,6 +15355,46 @@
       <node concept="3cqZAl" id="5XHFlRODqOA" role="3clF45" />
       <node concept="3Tm1VV" id="5XHFlRODqOB" role="1B3o_S" />
       <node concept="3clFbS" id="5XHFlRODqOK" role="3clF47">
+        <node concept="3clFbH" id="7ApkBIQBbLb" role="3cqZAp" />
+        <node concept="3clFbJ" id="7ApkBIQBeSb" role="3cqZAp">
+          <node concept="3clFbS" id="7ApkBIQBeSd" role="3clFbx">
+            <node concept="3clFbF" id="7ApkBIQBhB9" role="3cqZAp">
+              <node concept="2OqwBi" id="7ApkBIQBhQl" role="3clFbG">
+                <node concept="37vLTw" id="7ApkBIQBhB7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
+                </node>
+                <node concept="liA8E" id="7ApkBIQBum2" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~Table.setTableFieldFactory(com.vaadin.ui.TableFieldFactory):void" resolve="setTableFieldFactory" />
+                  <node concept="2ShNRf" id="7ApkBIQBuQ4" role="37wK5m">
+                    <node concept="1pGfFk" id="7ApkBIQDbVm" role="2ShVmc">
+                      <ref role="37wK5l" node="7ApkBIQCToU" resolve="VTableFieldFactory" />
+                      <node concept="37vLTw" id="7ApkBIQDcPg" role="37wK5m">
+                        <ref role="3cqZAo" node="5tLhDse44bA" resolve="visibleColumns" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7ApkBIQC2BR" role="3cqZAp">
+              <node concept="2OqwBi" id="7ApkBIQC2SH" role="3clFbG">
+                <node concept="37vLTw" id="7ApkBIQC2BP" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
+                </node>
+                <node concept="liA8E" id="7ApkBIQC6zm" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~Table.setEditable(boolean):void" resolve="setEditable" />
+                  <node concept="3clFbT" id="7ApkBIQC73o" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="7ApkBIQBgrK" role="3clFbw">
+            <ref role="3cqZAo" node="7ApkBIQAEFw" resolve="isTableEditable" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ApkBIQBdym" role="3cqZAp" />
         <node concept="3clFbF" id="5XHFlROKlVj" role="3cqZAp">
           <node concept="37vLTI" id="5XHFlROKmfL" role="3clFbG">
             <node concept="37vLTw" id="5XHFlROKmtr" role="37vLTx">
@@ -15869,10 +15925,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5tLhDselLHS" role="jymVt" />
-    <node concept="2tJIrI" id="5tLhDselIgA" role="jymVt" />
-    <node concept="2tJIrI" id="5tLhDselEoE" role="jymVt" />
-    <node concept="2tJIrI" id="5tLhDselE_Z" role="jymVt" />
-    <node concept="2tJIrI" id="5tLhDselENl" role="jymVt" />
     <node concept="3clFb_" id="5XHFlRODqOL" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setFormController" />
@@ -15965,6 +16017,11 @@
         </node>
         <node concept="3clFbJ" id="VjQfKRV76b" role="3cqZAp">
           <node concept="3clFbS" id="VjQfKRV76d" role="3clFbx">
+            <node concept="3SKdUt" id="7ApkBIQySSr" role="3cqZAp">
+              <node concept="3SKdUq" id="7ApkBIQySSU" role="3SKWNk">
+                <property role="3SKdUp" value="work witz zZiel, ZZiel and zzZiel, java property naming problem?" />
+              </node>
+            </node>
             <node concept="3clFbJ" id="VjQfKRVdrv" role="3cqZAp">
               <node concept="3clFbS" id="VjQfKRVdrx" role="3clFbx">
                 <node concept="3clFbF" id="VjQfKRVkqY" role="3cqZAp">
@@ -16055,6 +16112,30 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="7ApkBIQAYFR" role="3cqZAp" />
+        <node concept="3SKdUt" id="7ApkBIQAZFu" role="3cqZAp">
+          <node concept="3SKdUq" id="7ApkBIQB06V" role="3SKWNk">
+            <property role="3SKdUp" value="does that column lead to editable table?" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7ApkBIQAUcF" role="3cqZAp">
+          <node concept="3clFbS" id="7ApkBIQAUcH" role="3clFbx">
+            <node concept="3clFbF" id="7ApkBIQAXpU" role="3cqZAp">
+              <node concept="37vLTI" id="7ApkBIQAY2l" role="3clFbG">
+                <node concept="3clFbT" id="7ApkBIQAYlr" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="7ApkBIQAXpS" role="37vLTJ">
+                  <ref role="3cqZAo" node="7ApkBIQAEFw" resolve="isTableEditable" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="7ApkBIQAVdq" role="3clFbw">
+            <ref role="3cqZAo" node="5XHFlRODqP1" resolve="editable" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ApkBIQAT$j" role="3cqZAp" />
         <node concept="3cpWs8" id="5tLhDsel93y" role="3cqZAp">
           <node concept="3cpWsn" id="5tLhDsel93z" role="3cpWs9">
             <property role="TrG5h" value="co" />
@@ -26111,7 +26192,9 @@
           <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
         </node>
       </node>
-      <node concept="17QB3L" id="5LL59WQAkd1" role="3clF45" />
+      <node concept="3uibUv" id="7ApkBIQDMme" role="3clF45">
+        <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+      </node>
       <node concept="3Tm1VV" id="2vHEu_NBQfx" role="1B3o_S" />
       <node concept="3clFbS" id="2vHEu_NBQfz" role="3clF47">
         <node concept="SfApY" id="4d3Pnf3Wzg5" role="3cqZAp">
@@ -26253,7 +26336,9 @@
           <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
         </node>
       </node>
-      <node concept="17QB3L" id="5XtsZSXP0Pb" role="3clF45" />
+      <node concept="3uibUv" id="7ApkBIQDN6m" role="3clF45">
+        <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+      </node>
       <node concept="3Tm1VV" id="5XtsZSXP0Pc" role="1B3o_S" />
       <node concept="3clFbS" id="5XtsZSXP0Pe" role="3clF47">
         <node concept="YS8fn" id="5XtsZSXP5K$" role="3cqZAp">
@@ -26289,7 +26374,9 @@
           <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
         </node>
       </node>
-      <node concept="17QB3L" id="3spXEPXFmC_" role="3clF45" />
+      <node concept="3uibUv" id="7ApkBIQDNll" role="3clF45">
+        <ref role="3uigEE" to="fxg7:~File" resolve="File" />
+      </node>
       <node concept="3Tm1VV" id="3spXEPXFmCA" role="1B3o_S" />
       <node concept="3clFbS" id="3spXEPXFmCB" role="3clF47">
         <node concept="YS8fn" id="3spXEPXFmCC" role="3cqZAp">
@@ -26342,6 +26429,210 @@
     <node concept="3Tm1VV" id="4d3Pnf3Ubm4" role="1B3o_S" />
     <node concept="3uibUv" id="2vHEu_NBPOI" role="EKbjA">
       <ref role="3uigEE" to="28jr:2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+    </node>
+  </node>
+  <node concept="312cEu" id="7ApkBIQB2F1">
+    <property role="TrG5h" value="VTableFieldFactory" />
+    <node concept="312cEg" id="7ApkBIQCT7_" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="columns" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="7ApkBIQCTA9" role="1tU5fm">
+        <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+        <node concept="3uibUv" id="7ApkBIQDdoe" role="11_B2D">
+          <ref role="3uigEE" node="5XHFlROKCNh" resolve="VTableForm.VaadinColumn" />
+        </node>
+      </node>
+      <node concept="3Tm6S6" id="7ApkBIQCTdj" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="7ApkBIQCSW9" role="jymVt" />
+    <node concept="2tJIrI" id="7ApkBIQCTeH" role="jymVt" />
+    <node concept="3clFbW" id="7ApkBIQCToU" role="jymVt">
+      <node concept="3cqZAl" id="7ApkBIQCToW" role="3clF45" />
+      <node concept="3Tm1VV" id="7ApkBIQCToX" role="1B3o_S" />
+      <node concept="3clFbS" id="7ApkBIQCToY" role="3clF47">
+        <node concept="3clFbF" id="7ApkBIQCTz2" role="3cqZAp">
+          <node concept="37vLTI" id="7ApkBIQCTzz" role="3clFbG">
+            <node concept="37vLTw" id="7ApkBIQCT_q" role="37vLTx">
+              <ref role="3cqZAo" node="7ApkBIQCTvb" resolve="cols" />
+            </node>
+            <node concept="37vLTw" id="7ApkBIQCTz1" role="37vLTJ">
+              <ref role="3cqZAo" node="7ApkBIQCT7_" resolve="columns" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7ApkBIQCTvb" role="3clF46">
+        <property role="TrG5h" value="cols" />
+        <node concept="3uibUv" id="7ApkBIQCTva" role="1tU5fm">
+          <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+          <node concept="3uibUv" id="7ApkBIQDdt3" role="11_B2D">
+            <ref role="3uigEE" node="5XHFlROKCNh" resolve="VTableForm.VaadinColumn" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="7ApkBIQB2GS" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="createField" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="7ApkBIQB2GT" role="1B3o_S" />
+      <node concept="3uibUv" id="7ApkBIQB2GV" role="3clF45">
+        <ref role="3uigEE" to="o2tm:~Field" resolve="Field" />
+        <node concept="3qTvmN" id="7ApkBIQB2GW" role="11_B2D" />
+      </node>
+      <node concept="37vLTG" id="7ApkBIQB2GX" role="3clF46">
+        <property role="TrG5h" value="item" />
+        <node concept="3uibUv" id="7ApkBIQB2GY" role="1tU5fm">
+          <ref role="3uigEE" to="buu8:~Item" resolve="Item" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7ApkBIQB2GZ" role="3clF46">
+        <property role="TrG5h" value="object" />
+        <node concept="3uibUv" id="7ApkBIQB2H0" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7ApkBIQB2H1" role="3clF46">
+        <property role="TrG5h" value="component" />
+        <node concept="3uibUv" id="7ApkBIQB2H2" role="1tU5fm">
+          <ref role="3uigEE" to="o2tm:~Component" resolve="Component" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7ApkBIQB2H3" role="3clF47">
+        <node concept="3clFbH" id="7ApkBIQCTPy" role="3cqZAp" />
+        <node concept="3SKdUt" id="7ApkBIQCTNa" role="3cqZAp">
+          <node concept="3SKdUq" id="7ApkBIQCTO5" role="3SKWNk">
+            <property role="3SKdUp" value="that one is obviously not used. " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="7ApkBIQB2H9" role="3cqZAp">
+          <node concept="3nyPlj" id="7ApkBIQB2H8" role="3clFbG">
+            <ref role="37wK5l" to="o2tm:~DefaultFieldFactory.createField(com.vaadin.data.Item,java.lang.Object,com.vaadin.ui.Component):com.vaadin.ui.Field" resolve="createField" />
+            <node concept="37vLTw" id="7ApkBIQB2H5" role="37wK5m">
+              <ref role="3cqZAo" node="7ApkBIQB2GX" resolve="item" />
+            </node>
+            <node concept="37vLTw" id="7ApkBIQB2H6" role="37wK5m">
+              <ref role="3cqZAo" node="7ApkBIQB2GZ" resolve="object" />
+            </node>
+            <node concept="37vLTw" id="7ApkBIQB2H7" role="37wK5m">
+              <ref role="3cqZAo" node="7ApkBIQB2H1" resolve="component" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7ApkBIQB2H4" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7ApkBIQCTQ_" role="jymVt" />
+    <node concept="2tJIrI" id="7ApkBIQCTYc" role="jymVt" />
+    <node concept="3clFb_" id="7ApkBIQB2Ha" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="createField" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="7ApkBIQB2Hb" role="1B3o_S" />
+      <node concept="3uibUv" id="7ApkBIQB2Hd" role="3clF45">
+        <ref role="3uigEE" to="o2tm:~Field" resolve="Field" />
+      </node>
+      <node concept="37vLTG" id="7ApkBIQB2He" role="3clF46">
+        <property role="TrG5h" value="container" />
+        <node concept="3uibUv" id="7ApkBIQB2Hf" role="1tU5fm">
+          <ref role="3uigEE" to="buu8:~Container" resolve="Container" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7ApkBIQB2Hg" role="3clF46">
+        <property role="TrG5h" value="itemId" />
+        <node concept="3uibUv" id="7ApkBIQB2Hh" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7ApkBIQB2Hi" role="3clF46">
+        <property role="TrG5h" value="propertyId" />
+        <node concept="3uibUv" id="7ApkBIQB2Hj" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7ApkBIQB2Hk" role="3clF46">
+        <property role="TrG5h" value="component" />
+        <node concept="3uibUv" id="7ApkBIQB2Hl" role="1tU5fm">
+          <ref role="3uigEE" to="o2tm:~Component" resolve="Component" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7ApkBIQB2Hm" role="3clF47">
+        <node concept="3SKdUt" id="7ApkBIQCUbg" role="3cqZAp">
+          <node concept="3SKdUq" id="7ApkBIQCUgv" role="3SKWNk">
+            <property role="3SKdUp" value="however, that one is. " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ApkBIQCUuN" role="3cqZAp" />
+        <node concept="3clFbF" id="7ApkBIQB89$" role="3cqZAp">
+          <node concept="2YIFZM" id="7ApkBIQB89_" role="3clFbG">
+            <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+            <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+            <node concept="3cpWs3" id="7ApkBIQB89A" role="37wK5m">
+              <node concept="Xl_RD" id="7ApkBIQB89B" role="3uHU7w">
+                <property role="Xl_RC" value=")" />
+              </node>
+              <node concept="3cpWs3" id="7ApkBIQB89C" role="3uHU7B">
+                <node concept="3cpWs3" id="7ApkBIQB89D" role="3uHU7B">
+                  <node concept="3cpWs3" id="7ApkBIQB89E" role="3uHU7B">
+                    <node concept="Xl_RD" id="7ApkBIQB89F" role="3uHU7B">
+                      <property role="Xl_RC" value="VTableFieldFactory.createField(Object " />
+                    </node>
+                    <node concept="37vLTw" id="7ApkBIQB8tp" role="3uHU7w">
+                      <ref role="3cqZAo" node="7ApkBIQB2Hg" resolve="itemId" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="7ApkBIQB89H" role="3uHU7w">
+                    <property role="Xl_RC" value=", Object " />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="7ApkBIQB8zV" role="3uHU7w">
+                  <ref role="3cqZAo" node="7ApkBIQB2Hi" resolve="propertyId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7ApkBIQCUpD" role="3cqZAp" />
+        <node concept="3clFbH" id="7ApkBIQCUKg" role="3cqZAp" />
+        <node concept="3SKdUt" id="7ApkBIQCXNV" role="3cqZAp">
+          <node concept="3SKWN0" id="7ApkBIQCXNW" role="3SKWNk">
+            <node concept="3clFbF" id="7ApkBIQB2Ht" role="3SKWNf">
+              <node concept="3nyPlj" id="7ApkBIQB2Hs" role="3clFbG">
+                <ref role="37wK5l" to="o2tm:~DefaultFieldFactory.createField(com.vaadin.data.Container,java.lang.Object,java.lang.Object,com.vaadin.ui.Component):com.vaadin.ui.Field" resolve="createField" />
+                <node concept="37vLTw" id="7ApkBIQB2Ho" role="37wK5m">
+                  <ref role="3cqZAo" node="7ApkBIQB2He" resolve="container" />
+                </node>
+                <node concept="37vLTw" id="7ApkBIQB2Hp" role="37wK5m">
+                  <ref role="3cqZAo" node="7ApkBIQB2Hg" resolve="itemId" />
+                </node>
+                <node concept="37vLTw" id="7ApkBIQB2Hq" role="37wK5m">
+                  <ref role="3cqZAo" node="7ApkBIQB2Hi" resolve="propertyId" />
+                </node>
+                <node concept="37vLTw" id="7ApkBIQB2Hr" role="37wK5m">
+                  <ref role="3cqZAo" node="7ApkBIQB2Hk" resolve="component" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7ApkBIQCXVn" role="3cqZAp">
+          <node concept="10Nm6u" id="7ApkBIQCY0O" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7ApkBIQB2Hn" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7ApkBIQB2GE" role="jymVt" />
+    <node concept="3Tm1VV" id="7ApkBIQB2F2" role="1B3o_S" />
+    <node concept="3uibUv" id="7ApkBIQB2Ge" role="1zkMxy">
+      <ref role="3uigEE" to="o2tm:~DefaultFieldFactory" resolve="DefaultFieldFactory" />
     </node>
   </node>
 </model>
