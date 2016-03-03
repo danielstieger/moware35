@@ -115,6 +115,14 @@
 			border: 1px solid $v-focus-color;
 		} */
 	
+		/* editable table */
+		
+		input {
+			margin: 0px !important;
+			padding: 0px !important;
+			font-weight: 100 !important;
+			height: 20px !important;
+		}		
 	}
 	
 	/* delegate form special adoptions ----------------------- */
