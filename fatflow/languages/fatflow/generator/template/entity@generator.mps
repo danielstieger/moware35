@@ -7629,14 +7629,31 @@
       </node>
       <node concept="30G5F_" id="5Nz3KrP25Ye" role="30HLyM">
         <node concept="3clFbS" id="5Nz3KrP25Yf" role="2VODD2">
+          <node concept="3SKdUt" id="2qkRdAoMxiJ" role="3cqZAp">
+            <node concept="3SKdUq" id="2qkRdAoMxpX" role="3SKWNk">
+              <property role="3SKdUp" value="Embedd View objects like value objects. " />
+            </node>
+          </node>
           <node concept="3clFbF" id="5Nz3KrP25Yg" role="3cqZAp">
-            <node concept="2YIFZM" id="5Nz3KrP298A" role="3clFbG">
-              <ref role="37wK5l" to="3ojc:4w2C_Vbl_W6" resolve="isValueObject" />
-              <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
-              <node concept="2OqwBi" id="5Nz3KrP298B" role="37wK5m">
-                <node concept="30H73N" id="5Nz3KrP298C" role="2Oq$k0" />
-                <node concept="3TrEf2" id="5Nz3KrP298D" role="2OqNvi">
-                  <ref role="3Tt5mk" to="tpee:huRkE2T" />
+            <node concept="22lmx$" id="2qkRdAoMjvE" role="3clFbG">
+              <node concept="2YIFZM" id="2qkRdAoMkyn" role="3uHU7w">
+                <ref role="37wK5l" to="3ojc:2qkRdAoM23n" resolve="isViewObject" />
+                <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
+                <node concept="2OqwBi" id="2qkRdAoMkKE" role="37wK5m">
+                  <node concept="30H73N" id="2qkRdAoMkDT" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2qkRdAoMx7i" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:huRkE2T" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="5Nz3KrP298A" role="3uHU7B">
+                <ref role="37wK5l" to="3ojc:4w2C_Vbl_W6" resolve="isValueObject" />
+                <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
+                <node concept="2OqwBi" id="5Nz3KrP298B" role="37wK5m">
+                  <node concept="30H73N" id="5Nz3KrP298C" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="5Nz3KrP298D" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:huRkE2T" />
+                  </node>
                 </node>
               </node>
             </node>
