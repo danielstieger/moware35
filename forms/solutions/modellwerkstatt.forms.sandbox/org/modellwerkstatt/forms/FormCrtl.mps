@@ -46787,7 +46787,7 @@
           <node concept="1rXfSq" id="67D5vCCRQGt" role="3clFbG">
             <ref role="37wK5l" node="6TYnK1btLXX" resolve="log" />
             <node concept="Xl_RD" id="67D5vCCRQJF" role="37wK5m">
-              <property role="Xl_RC" value="Info" />
+              <property role="Xl_RC" value="UserTelemetrics Info" />
             </node>
             <node concept="37vLTw" id="67D5vCCRQMg" role="37wK5m">
               <ref role="3cqZAo" node="67D5vCCRQlW" resolve="msg" />

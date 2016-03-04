@@ -5673,35 +5673,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6QRLe84qey4" role="jymVt" />
-    <node concept="3clFb_" id="2JP_IULRqIW" role="jymVt">
-      <property role="TrG5h" value="log" />
-      <node concept="37vLTG" id="2JP_IULRqNs" role="3clF46">
-        <property role="TrG5h" value="s" />
-        <node concept="17QB3L" id="2JP_IULRqNw" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="2JP_IULRqIY" role="3clF45" />
-      <node concept="3Tm1VV" id="2JP_IULRqIZ" role="1B3o_S" />
-      <node concept="3clFbS" id="2JP_IULRqJ0" role="3clF47">
-        <node concept="3clFbF" id="7TQCK4xxvVp" role="3cqZAp">
-          <node concept="2OqwBi" id="7TQCK4xxvY$" role="3clFbG">
-            <node concept="37vLTw" id="7TQCK4xxvVn" role="2Oq$k0">
-              <ref role="3cqZAo" node="2yuEF6qxzfK" resolve="jmxRegistration" />
-            </node>
-            <node concept="liA8E" id="7TQCK4xxwhP" role="2OqNvi">
-              <ref role="37wK5l" to="quhv:2yuEF6qaFsL" resolve="log" />
-              <node concept="Xl_RD" id="7TQCK4xxwlF" role="37wK5m">
-                <property role="Xl_RC" value="H1CommandContainer " />
-              </node>
-              <node concept="37vLTw" id="7TQCK4xxwuN" role="37wK5m">
-                <ref role="3cqZAo" node="2JP_IULRqNs" resolve="s" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="2JP_IULRqAm" role="jymVt" />
-    <node concept="2tJIrI" id="1S$LnezHLZD" role="jymVt" />
     <node concept="3clFb_" id="1S$LnezHOrp" role="jymVt">
       <property role="TrG5h" value="shutdown" />
       <property role="od$2w" value="true" />
