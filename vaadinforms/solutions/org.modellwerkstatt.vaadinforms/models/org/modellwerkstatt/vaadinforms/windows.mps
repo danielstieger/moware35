@@ -14571,6 +14571,7 @@
                               <ref role="37wK5l" to="e2lb:~String.trim():java.lang.String" resolve="trim" />
                             </node>
                           </node>
+                          <node concept="10Nm6u" id="18loLX26Qah" role="37wK5m" />
                         </node>
                       </node>
                     </node>
@@ -17302,6 +17303,9 @@
                   <node concept="37vLTw" id="5tLhDsesxKH" role="37wK5m">
                     <ref role="3cqZAo" node="5tLhDseskW2" resolve="searchString" />
                   </node>
+                  <node concept="37vLTw" id="18loLX25H35" role="37wK5m">
+                    <ref role="3cqZAo" node="5XHFlRODqP_" resolve="selection" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -17846,9 +17850,25 @@
         <property role="TrG5h" value="searchString" />
         <node concept="17QB3L" id="5tLhDsekOzP" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="18loLX25HGO" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="18loLX25ScJ" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="1e8699aCJoB" role="3clF45" />
       <node concept="3Tm1VV" id="1e8699aCJoC" role="1B3o_S" />
       <node concept="3clFbS" id="1e8699aCJoD" role="3clF47">
+        <node concept="3SKdUt" id="18loLX1Yj9i" role="3cqZAp">
+          <node concept="3SKdUq" id="18loLX1YjZe" role="3SKWNk">
+            <property role="3SKdUp" value="if IOFXSelection is given, then applyFilter is called from loadlist()" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="18loLX1Ylza" role="3cqZAp">
+          <node concept="3SKdUq" id="18loLX1YlAN" role="3SKWNk">
+            <property role="3SKdUp" value="that is, applyFilter and check selection ... " />
+          </node>
+        </node>
         <node concept="3clFbH" id="57zGu7$sV9p" role="3cqZAp" />
         <node concept="3clFbJ" id="1e8699aCJoE" role="3cqZAp">
           <node concept="3clFbS" id="1e8699aCJoF" role="3clFbx">
@@ -18077,24 +18097,71 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="1AyJSLe1pLb" role="3cqZAp" />
+            <node concept="3clFbH" id="18loLX26JFG" role="3cqZAp" />
             <node concept="3cpWs8" id="1AyJSLe1rR4" role="3cqZAp">
               <node concept="3cpWsn" id="1AyJSLe1rR7" role="3cpWs9">
                 <property role="TrG5h" value="foundSelection" />
                 <node concept="10P_77" id="1AyJSLe1rR2" role="1tU5fm" />
-                <node concept="2OqwBi" id="1e8699aCJqf" role="33vP2m">
-                  <node concept="37vLTw" id="5tLhDseluyd" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5tLhDsekISW" resolve="filterPassedObjects" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="18loLX26Kte" role="3cqZAp" />
+            <node concept="3clFbJ" id="18loLX1YnCr" role="3cqZAp">
+              <node concept="3clFbS" id="18loLX1YnCt" role="3clFbx">
+                <node concept="3clFbF" id="18loLX26M9E" role="3cqZAp">
+                  <node concept="37vLTI" id="18loLX26Mvx" role="3clFbG">
+                    <node concept="2OqwBi" id="18loLX26Nps" role="37vLTx">
+                      <node concept="37vLTw" id="18loLX26N2v" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5tLhDsekISW" resolve="filterPassedObjects" />
+                      </node>
+                      <node concept="liA8E" id="18loLX26NQv" role="2OqNvi">
+                        <ref role="37wK5l" to="k7g3:~List.containsAll(java.util.Collection):boolean" resolve="containsAll" />
+                        <node concept="2OqwBi" id="18loLX26O8c" role="37wK5m">
+                          <node concept="37vLTw" id="18loLX26O70" role="2Oq$k0">
+                            <ref role="3cqZAo" node="18loLX25HGO" resolve="selection" />
+                          </node>
+                          <node concept="liA8E" id="18loLX26OkR" role="2OqNvi">
+                            <ref role="37wK5l" to="28jr:6ffh1MXuemN" resolve="getObjects" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="18loLX26M9C" role="37vLTJ">
+                      <ref role="3cqZAo" node="1AyJSLe1rR7" resolve="foundSelection" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="1e8699aCJqh" role="2OqNvi">
-                    <ref role="37wK5l" to="k7g3:~List.containsAll(java.util.Collection):boolean" resolve="containsAll" />
-                    <node concept="37vLTw" id="5tLhDseluRa" role="37wK5m">
-                      <ref role="3cqZAo" node="5tLhDsekFlg" resolve="selectedObjects" />
+                </node>
+              </node>
+              <node concept="3y3z36" id="18loLX1Ypa$" role="3clFbw">
+                <node concept="10Nm6u" id="18loLX1YpnZ" role="3uHU7w" />
+                <node concept="37vLTw" id="18loLX1YoRz" role="3uHU7B">
+                  <ref role="3cqZAo" node="18loLX25HGO" resolve="selection" />
+                </node>
+              </node>
+              <node concept="9aQIb" id="18loLX26OAI" role="9aQIa">
+                <node concept="3clFbS" id="18loLX26OAJ" role="9aQI4">
+                  <node concept="3clFbF" id="18loLX26HOE" role="3cqZAp">
+                    <node concept="37vLTI" id="18loLX26HOG" role="3clFbG">
+                      <node concept="2OqwBi" id="1e8699aCJqf" role="37vLTx">
+                        <node concept="37vLTw" id="5tLhDseluyd" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5tLhDsekISW" resolve="filterPassedObjects" />
+                        </node>
+                        <node concept="liA8E" id="1e8699aCJqh" role="2OqNvi">
+                          <ref role="37wK5l" to="k7g3:~List.containsAll(java.util.Collection):boolean" resolve="containsAll" />
+                          <node concept="37vLTw" id="5tLhDseluRa" role="37wK5m">
+                            <ref role="3cqZAo" node="5tLhDsekFlg" resolve="selectedObjects" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="18loLX26HOK" role="37vLTJ">
+                        <ref role="3cqZAo" node="1AyJSLe1rR7" resolve="foundSelection" />
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="1AyJSLe1pLb" role="3cqZAp" />
+            <node concept="3clFbH" id="18loLX2601J" role="3cqZAp" />
             <node concept="3clFbH" id="1AyJSLe1pNk" role="3cqZAp" />
             <node concept="3clFbF" id="1e8699aCJpU" role="3cqZAp">
               <node concept="1rXfSq" id="fdGRoMYQbZ" role="3clFbG">
@@ -27313,29 +27380,33 @@
         <node concept="3clFbH" id="7ApkBIQSscQ" role="3cqZAp" />
         <node concept="3clFbJ" id="7ApkBIQSn1O" role="3cqZAp">
           <node concept="3clFbS" id="7ApkBIQSn1Q" role="3clFbx">
-            <node concept="3cpWs8" id="7ApkBIQYWto" role="3cqZAp">
-              <node concept="3cpWsn" id="7ApkBIQYWtp" role="3cpWs9">
+            <node concept="3SKdUt" id="18loLX1$ukQ" role="3cqZAp">
+              <node concept="3SKdUq" id="18loLX1$uJm" role="3SKWNk">
+                <property role="3SKdUp" value="Create TextField " />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="18loLX1$yqK" role="3cqZAp">
+              <node concept="3cpWsn" id="18loLX1$yqL" role="3cpWs9">
                 <property role="TrG5h" value="field" />
-                <node concept="3uibUv" id="7ApkBIQYYdt" role="1tU5fm">
-                  <ref role="3uigEE" to="o2tm:~Field" resolve="Field" />
+                <node concept="3uibUv" id="18loLX1$yqM" role="1tU5fm">
+                  <ref role="3uigEE" to="o2tm:~TextField" resolve="TextField" />
                 </node>
-                <node concept="3nyPlj" id="7ApkBIQB2Hs" role="33vP2m">
-                  <ref role="37wK5l" to="o2tm:~DefaultFieldFactory.createField(com.vaadin.data.Container,java.lang.Object,java.lang.Object,com.vaadin.ui.Component):com.vaadin.ui.Field" resolve="createField" />
-                  <node concept="37vLTw" id="7ApkBIQB2Ho" role="37wK5m">
-                    <ref role="3cqZAo" node="7ApkBIQB2He" resolve="container" />
-                  </node>
-                  <node concept="37vLTw" id="7ApkBIQB2Hp" role="37wK5m">
-                    <ref role="3cqZAo" node="7ApkBIQB2Hg" resolve="itemId" />
-                  </node>
-                  <node concept="37vLTw" id="7ApkBIQB2Hq" role="37wK5m">
-                    <ref role="3cqZAo" node="7ApkBIQB2Hi" resolve="propertyId" />
-                  </node>
-                  <node concept="37vLTw" id="7ApkBIQB2Hr" role="37wK5m">
-                    <ref role="3cqZAo" node="7ApkBIQB2Hk" resolve="component" />
+                <node concept="2ShNRf" id="18loLX1$yNA" role="33vP2m">
+                  <node concept="1pGfFk" id="18loLX1_0aE" role="2ShVmc">
+                    <ref role="37wK5l" to="o2tm:~TextField.&lt;init&gt;(java.lang.String)" resolve="TextField" />
+                    <node concept="2OqwBi" id="18loLX1_0kb" role="37wK5m">
+                      <node concept="37vLTw" id="18loLX1_0h7" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7ApkBIQCT7_" resolve="column" />
+                      </node>
+                      <node concept="2OwXpG" id="18loLX1_0vZ" role="2OqNvi">
+                        <ref role="2Oxat5" node="5tLhDsel3m_" resolve="propertyName" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="18loLX1_2Ao" role="3cqZAp" />
             <node concept="3clFbF" id="7ApkBIQZ1Bb" role="3cqZAp">
               <node concept="2OqwBi" id="7ApkBIQZ1Z8" role="3clFbG">
                 <node concept="37vLTw" id="7ApkBIQZ1B9" role="2Oq$k0">
@@ -27347,14 +27418,14 @@
                     <ref role="3cqZAo" node="7ApkBIQB2Hg" resolve="itemId" />
                   </node>
                   <node concept="37vLTw" id="7ApkBIQZ3SQ" role="37wK5m">
-                    <ref role="3cqZAo" node="7ApkBIQYWtp" resolve="field" />
+                    <ref role="3cqZAo" node="18loLX1$yqL" resolve="field" />
                   </node>
                 </node>
               </node>
             </node>
             <node concept="3cpWs6" id="7ApkBIQSrtN" role="3cqZAp">
               <node concept="37vLTw" id="7ApkBIQYX$X" role="3cqZAk">
-                <ref role="3cqZAo" node="7ApkBIQYWtp" resolve="field" />
+                <ref role="3cqZAo" node="18loLX1$yqL" resolve="field" />
               </node>
             </node>
           </node>

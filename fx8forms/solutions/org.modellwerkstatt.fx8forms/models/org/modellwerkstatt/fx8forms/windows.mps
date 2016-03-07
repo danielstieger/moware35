@@ -17205,7 +17205,61 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1e8699aCJiV" role="3cqZAp" />
+        <node concept="3clFbF" id="18loLX21Zq9" role="3cqZAp">
+          <node concept="2OqwBi" id="18loLX2226T" role="3clFbG">
+            <node concept="37vLTw" id="18loLX21Zq7" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e8699aCJdw" resolve="selectionPosition" />
+            </node>
+            <node concept="liA8E" id="18loLX2242t" role="2OqNvi">
+              <ref role="37wK5l" to="4i1a:~Region.setPrefWidth(double):void" resolve="setPrefWidth" />
+              <node concept="3cmrfG" id="18loLX224RT" role="37wK5m">
+                <property role="3cmrfH" value="80" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="18loLX21fym" role="3cqZAp">
+          <node concept="2OqwBi" id="18loLX21huw" role="3clFbG">
+            <node concept="37vLTw" id="18loLX21fyk" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e8699aCJdw" resolve="selectionPosition" />
+            </node>
+            <node concept="liA8E" id="18loLX21k9A" role="2OqNvi">
+              <ref role="37wK5l" to="4i1a:~Region.minWidth(double):double" resolve="minWidth" />
+              <node concept="3cmrfG" id="18loLX21wE3" role="37wK5m">
+                <property role="3cmrfH" value="80" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="18loLX23z2$" role="3cqZAp">
+          <node concept="2OqwBi" id="18loLX23_K7" role="3clFbG">
+            <node concept="37vLTw" id="18loLX23z2y" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e8699aCJdw" resolve="selectionPosition" />
+            </node>
+            <node concept="liA8E" id="18loLX23BGd" role="2OqNvi">
+              <ref role="37wK5l" to="vik9:~Labeled.setTextAlignment(javafx.scene.text.TextAlignment):void" resolve="setTextAlignment" />
+              <node concept="Rm8GO" id="18loLX24uaL" role="37wK5m">
+                <ref role="Rm8GQ" to="wbwx:~TextAlignment.RIGHT" resolve="RIGHT" />
+                <ref role="1Px2BO" to="wbwx:~TextAlignment" resolve="TextAlignment" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="18loLX24x85" role="3cqZAp">
+          <node concept="2OqwBi" id="18loLX24zRS" role="3clFbG">
+            <node concept="37vLTw" id="18loLX24x83" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e8699aCJdw" resolve="selectionPosition" />
+            </node>
+            <node concept="liA8E" id="18loLX24_O_" role="2OqNvi">
+              <ref role="37wK5l" to="vik9:~Labeled.setAlignment(javafx.geometry.Pos):void" resolve="setAlignment" />
+              <node concept="Rm8GO" id="18loLX24Ac1" role="37wK5m">
+                <ref role="Rm8GQ" to="78c4:~Pos.BASELINE_RIGHT" resolve="BASELINE_RIGHT" />
+                <ref role="1Px2BO" to="78c4:~Pos" resolve="Pos" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="18loLX23weG" role="3cqZAp" />
         <node concept="3clFbF" id="1e8699aCJiW" role="3cqZAp">
           <node concept="37vLTI" id="1e8699aCJiX" role="3clFbG">
             <node concept="2ShNRf" id="1e8699aCJiY" role="37vLTx">
@@ -17309,6 +17363,7 @@
                                       <node concept="3clFbF" id="1e8699aCJjm" role="3cqZAp">
                                         <node concept="1rXfSq" id="fdGRoMYQaT" role="3clFbG">
                                           <ref role="37wK5l" node="1e8699aCJoA" resolve="applyFilter" />
+                                          <node concept="10Nm6u" id="18loLX1YhmF" role="37wK5m" />
                                         </node>
                                       </node>
                                     </node>
@@ -17952,9 +18007,26 @@
     </node>
     <node concept="3clFb_" id="1e8699aCJoA" role="jymVt">
       <property role="TrG5h" value="applyFilter" />
+      <node concept="37vLTG" id="18loLX1Ybqw" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="18loLX1Ygp6" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="1e8699aCJoB" role="3clF45" />
       <node concept="3Tm1VV" id="1e8699aCJoC" role="1B3o_S" />
       <node concept="3clFbS" id="1e8699aCJoD" role="3clF47">
+        <node concept="3SKdUt" id="18loLX1Yj9i" role="3cqZAp">
+          <node concept="3SKdUq" id="18loLX1YjZe" role="3SKWNk">
+            <property role="3SKdUp" value="if IOFXSelection is given, then applyFilter is called from loadlist()" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="18loLX1Ylza" role="3cqZAp">
+          <node concept="3SKdUq" id="18loLX1YlAN" role="3SKWNk">
+            <property role="3SKdUp" value="that is, applyFilter and check selection ... " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="18loLX1Yi5X" role="3cqZAp" />
         <node concept="3SKdUt" id="4ov51BXFIU" role="3cqZAp">
           <node concept="3SKdUq" id="4ov51BXGz8" role="3SKWNk">
             <property role="3SKdUp" value="is on platform.runlater() exec only, if table is not null" />
@@ -17962,14 +18034,47 @@
         </node>
         <node concept="3clFbJ" id="1e8699aCJoE" role="3cqZAp">
           <node concept="3clFbS" id="1e8699aCJoF" role="3clFbx">
+            <node concept="3SKdUt" id="18loLX211oc" role="3cqZAp">
+              <node concept="3SKWN0" id="18loLX211od" role="3SKWNk">
+                <node concept="3clFbF" id="18loLX1TFFm" role="3SKWNf">
+                  <node concept="1rXfSq" id="18loLX1TFFk" role="3clFbG">
+                    <ref role="37wK5l" node="1e8699aCJrT" resolve="debug" />
+                    <node concept="Xl_RD" id="18loLX1TGK_" role="37wK5m">
+                      <property role="Xl_RC" value="applyFilter" />
+                    </node>
+                    <node concept="3cpWs3" id="18loLX1TIu$" role="37wK5m">
+                      <node concept="2OqwBi" id="18loLX1TNrs" role="3uHU7w">
+                        <node concept="2OqwBi" id="18loLX1TLyJ" role="2Oq$k0">
+                          <node concept="2OqwBi" id="18loLX1TJ9C" role="2Oq$k0">
+                            <node concept="37vLTw" id="18loLX1TILA" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                            </node>
+                            <node concept="liA8E" id="18loLX1TLgv" role="2OqNvi">
+                              <ref role="37wK5l" to="vik9:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="18loLX1TNdH" role="2OqNvi">
+                            <ref role="37wK5l" to="vik9:~MultipleSelectionModelBase.getSelectedIndices():javafx.collections.ObservableList" resolve="getSelectedIndices" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="18loLX1TOeo" role="2OqNvi">
+                          <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="18loLX1THJs" role="3uHU7B">
+                        <property role="Xl_RC" value="now selected " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="1e8699aCJoG" role="3cqZAp">
               <node concept="3cpWsn" id="1e8699aCJoH" role="3cpWs9">
                 <property role="TrG5h" value="remainingSelections" />
                 <node concept="3uibUv" id="1e8699aCJoI" role="1tU5fm">
-                  <ref role="3uigEE" to="zdg3:~ObservableList" resolve="ObservableList" />
-                  <node concept="16syzq" id="4ZKoY0yqbGf" role="11_B2D">
-                    <ref role="16sUi3" node="1e8699aCJ$c" resolve="T" />
-                  </node>
+                  <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+                  <node concept="3qTvmN" id="18loLX1ZRF4" role="11_B2D" />
                 </node>
                 <node concept="2OqwBi" id="1e8699aCJoK" role="33vP2m">
                   <node concept="2OqwBi" id="1e8699aCJoL" role="2Oq$k0">
@@ -18167,30 +18272,94 @@
               </node>
             </node>
             <node concept="3clFbH" id="1AyJSLe1pLb" role="3cqZAp" />
-            <node concept="3cpWs8" id="1AyJSLe1rR4" role="3cqZAp">
-              <node concept="3cpWsn" id="1AyJSLe1rR7" role="3cpWs9">
-                <property role="TrG5h" value="foundSelection" />
-                <node concept="10P_77" id="1AyJSLe1rR2" role="1tU5fm" />
-                <node concept="2OqwBi" id="1e8699aCJqf" role="33vP2m">
-                  <node concept="37vLTw" id="fdGRoMYPXE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1e8699aCJdY" resolve="currentItems" />
-                  </node>
-                  <node concept="liA8E" id="1e8699aCJqh" role="2OqNvi">
-                    <ref role="37wK5l" to="k7g3:~List.containsAll(java.util.Collection):boolean" resolve="containsAll" />
-                    <node concept="37vLTw" id="fdGRoMYQAk" role="37wK5m">
+            <node concept="3SKdUt" id="18loLX1Y$Tw" role="3cqZAp">
+              <node concept="3SKdUq" id="18loLX1Y_G2" role="3SKWNk">
+                <property role="3SKdUp" value="use updated selection and not current table items. " />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="18loLX1YADQ" role="3cqZAp">
+              <node concept="3SKdUq" id="18loLX1YBsq" role="3SKWNk">
+                <property role="3SKdUp" value="in a search command, entities might even be exchanged. " />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="18loLX1YnCr" role="3cqZAp">
+              <node concept="3clFbS" id="18loLX1YnCt" role="3clFbx">
+                <node concept="3clFbF" id="18loLX1YpSe" role="3cqZAp">
+                  <node concept="37vLTI" id="18loLX1Yqhc" role="3clFbG">
+                    <node concept="37vLTw" id="18loLX1YpSc" role="37vLTJ">
                       <ref role="3cqZAo" node="1e8699aCJoH" resolve="remainingSelections" />
+                    </node>
+                    <node concept="2OqwBi" id="18loLX1Yz7L" role="37vLTx">
+                      <node concept="37vLTw" id="18loLX1YyTQ" role="2Oq$k0">
+                        <ref role="3cqZAo" node="18loLX1Ybqw" resolve="selection" />
+                      </node>
+                      <node concept="liA8E" id="18loLX1YzjE" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:6ffh1MXuemN" resolve="getObjects" />
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
+              <node concept="3y3z36" id="18loLX1Ypa$" role="3clFbw">
+                <node concept="10Nm6u" id="18loLX1YpnZ" role="3uHU7w" />
+                <node concept="37vLTw" id="18loLX1YoRz" role="3uHU7B">
+                  <ref role="3cqZAo" node="18loLX1Ybqw" resolve="selection" />
+                </node>
+              </node>
             </node>
-            <node concept="3clFbH" id="1AyJSLe1pNk" role="3cqZAp" />
+            <node concept="3clFbH" id="18loLX1W72b" role="3cqZAp" />
+            <node concept="3clFbH" id="18loLX1YzTI" role="3cqZAp" />
+            <node concept="3cpWs8" id="1AyJSLe1rR4" role="3cqZAp">
+              <node concept="3cpWsn" id="1AyJSLe1rR7" role="3cpWs9">
+                <property role="TrG5h" value="foundSelection" />
+                <node concept="10P_77" id="1AyJSLe1rR2" role="1tU5fm" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="18loLX26BRr" role="3cqZAp">
+              <node concept="37vLTI" id="18loLX26BRt" role="3clFbG">
+                <node concept="2OqwBi" id="18loLX1ZOST" role="37vLTx">
+                  <node concept="37vLTw" id="18loLX1ZOna" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1e8699aCJdY" resolve="currentItems" />
+                  </node>
+                  <node concept="liA8E" id="18loLX1ZPDY" role="2OqNvi">
+                    <ref role="37wK5l" to="k7g3:~List.containsAll(java.util.Collection):boolean" resolve="containsAll" />
+                    <node concept="37vLTw" id="18loLX1ZQhC" role="37wK5m">
+                      <ref role="3cqZAo" node="1e8699aCJoH" resolve="remainingSelections" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="18loLX26BRx" role="37vLTJ">
+                  <ref role="3cqZAo" node="1AyJSLe1rR7" resolve="foundSelection" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="1e8699aCJpU" role="3cqZAp">
               <node concept="1rXfSq" id="fdGRoMYQbZ" role="3clFbG">
                 <ref role="37wK5l" node="1e8699aCJw$" resolve="updateTableToCurrentItems" />
               </node>
             </node>
-            <node concept="3clFbH" id="1e8699aCJpW" role="3cqZAp" />
+            <node concept="3clFbH" id="18loLX1ZUVd" role="3cqZAp" />
+            <node concept="3SKdUt" id="18loLX212tL" role="3cqZAp">
+              <node concept="3SKWN0" id="18loLX212tM" role="3SKWNk">
+                <node concept="3clFbF" id="18loLX1QMBa" role="3SKWNf">
+                  <node concept="1rXfSq" id="18loLX1QMB8" role="3clFbG">
+                    <ref role="37wK5l" node="1e8699aCJrT" resolve="debug" />
+                    <node concept="Xl_RD" id="18loLX1QOo4" role="37wK5m">
+                      <property role="Xl_RC" value="applyFilter" />
+                    </node>
+                    <node concept="3cpWs3" id="18loLX1QPkc" role="37wK5m">
+                      <node concept="37vLTw" id="18loLX1QPOr" role="3uHU7w">
+                        <ref role="3cqZAo" node="1AyJSLe1rR7" resolve="foundSelection" />
+                      </node>
+                      <node concept="Xl_RD" id="18loLX1QNDs" role="3uHU7B">
+                        <property role="Xl_RC" value=" foundSelection = " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="18loLX1QLL_" role="3cqZAp" />
             <node concept="3SKdUt" id="1e8699aCJpX" role="3cqZAp">
               <node concept="3SKdUq" id="1e8699aCJpY" role="3SKWNk">
                 <property role="3SKdUp" value="if selected item is not in availbe items clear selection ... " />
@@ -18254,6 +18423,42 @@
               </node>
             </node>
             <node concept="3clFbH" id="1e8699aCJqj" role="3cqZAp" />
+            <node concept="3SKdUt" id="18loLX213mi" role="3cqZAp">
+              <node concept="3SKWN0" id="18loLX213mj" role="3SKWNk">
+                <node concept="3clFbF" id="18loLX1QRpB" role="3SKWNf">
+                  <node concept="1rXfSq" id="18loLX1QRp_" role="3clFbG">
+                    <ref role="37wK5l" node="1e8699aCJrT" resolve="debug" />
+                    <node concept="Xl_RD" id="18loLX1QSqG" role="37wK5m">
+                      <property role="Xl_RC" value="selecton on table now " />
+                    </node>
+                    <node concept="3cpWs3" id="18loLX1RpbJ" role="37wK5m">
+                      <node concept="Xl_RD" id="18loLX1RpUS" role="3uHU7B">
+                        <property role="Xl_RC" value="" />
+                      </node>
+                      <node concept="2OqwBi" id="18loLX1QXvZ" role="3uHU7w">
+                        <node concept="2OqwBi" id="18loLX1QWeG" role="2Oq$k0">
+                          <node concept="2OqwBi" id="18loLX1QTPC" role="2Oq$k0">
+                            <node concept="37vLTw" id="18loLX1QTyU" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                            </node>
+                            <node concept="liA8E" id="18loLX1QVWx" role="2OqNvi">
+                              <ref role="37wK5l" to="vik9:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="18loLX1QXhm" role="2OqNvi">
+                            <ref role="37wK5l" to="vik9:~MultipleSelectionModelBase.getSelectedIndices():javafx.collections.ObservableList" resolve="getSelectedIndices" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="18loLX1R22J" role="2OqNvi">
+                          <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="18loLX1QPWL" role="3cqZAp" />
             <node concept="3SKdUt" id="6_NrkOiMBOd" role="3cqZAp">
               <node concept="3SKdUq" id="6_NrkOiMClc" role="3SKWNk">
                 <property role="3SKdUp" value="finally update count" />
@@ -19092,8 +19297,8 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="67JYOu0Aldp" role="3cqZAp">
-          <node concept="3SKWN0" id="67JYOu0Aldq" role="3SKWNk">
+        <node concept="3SKdUt" id="18loLX214sm" role="3cqZAp">
+          <node concept="3SKWN0" id="18loLX214sn" role="3SKWNk">
             <node concept="3clFbF" id="1e8699aCJt_" role="3SKWNf">
               <node concept="1rXfSq" id="fdGRoMYQ6Q" role="3clFbG">
                 <ref role="37wK5l" node="1e8699aCJrT" resolve="debug" />
@@ -19560,8 +19765,8 @@
           </node>
         </node>
         <node concept="3clFbH" id="3NREcwTx00" role="3cqZAp" />
-        <node concept="3SKdUt" id="67JYOu0Axjw" role="3cqZAp">
-          <node concept="3SKWN0" id="67JYOu0Axjx" role="3SKWNk">
+        <node concept="3SKdUt" id="18loLX219yB" role="3cqZAp">
+          <node concept="3SKWN0" id="18loLX219yC" role="3SKWNk">
             <node concept="3clFbF" id="1e8699aCJvJ" role="3SKWNf">
               <node concept="1rXfSq" id="fdGRoMYQab" role="3clFbG">
                 <ref role="37wK5l" node="1e8699aCJrT" resolve="debug" />
@@ -19647,6 +19852,7 @@
                 <ref role="37wK5l" node="1e8699aCJw$" resolve="updateTableToCurrentItems" />
               </node>
             </node>
+            <node concept="3clFbH" id="18loLX1RP0t" role="3cqZAp" />
           </node>
           <node concept="2OqwBi" id="3NREcwTxQo" role="3clFbw">
             <node concept="2OqwBi" id="3NREcwTx0s" role="2Oq$k0">
@@ -19684,13 +19890,17 @@
               <node concept="3clFbF" id="3NREcwTxQy" role="3cqZAp">
                 <node concept="1rXfSq" id="fdGRoMYQ8C" role="3clFbG">
                   <ref role="37wK5l" node="1e8699aCJoA" resolve="applyFilter" />
+                  <node concept="37vLTw" id="18loLX1Yb7B" role="37wK5m">
+                    <ref role="3cqZAo" node="1e8699aCJv$" resolve="selection" />
+                  </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="18loLX1XkiQ" role="3cqZAp" />
             </node>
           </node>
         </node>
         <node concept="3clFbH" id="3NREcwTx07" role="3cqZAp" />
-        <node concept="3clFbH" id="3NREcwTx02" role="3cqZAp" />
+        <node concept="3clFbH" id="18loLX1Tecd" role="3cqZAp" />
         <node concept="3clFbF" id="1e8699aCJwq" role="3cqZAp">
           <node concept="1rXfSq" id="fdGRoMYQ82" role="3clFbG">
             <ref role="37wK5l" node="1e8699aCJtj" resolve="selectionChanged" />
@@ -19699,7 +19909,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1aQdtFgtsA8" role="3cqZAp" />
         <node concept="3clFbF" id="1e8699aCJwt" role="3cqZAp">
           <node concept="1rXfSq" id="fdGRoMYQ7y" role="3clFbG">
             <ref role="37wK5l" node="1e8699aCJqp" resolve="setCounterText" />
@@ -19728,21 +19937,6 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="1aQdtFgs6Ua" role="3cqZAp">
-          <node concept="3SKWN0" id="1aQdtFgs6Ub" role="3SKWNk">
-            <node concept="3clFbF" id="1aQdtFgrGaw" role="3SKWNf">
-              <node concept="1rXfSq" id="fdGRoMYQd5" role="3clFbG">
-                <ref role="37wK5l" node="1e8699aCJrT" resolve="debug" />
-                <node concept="Xl_RD" id="1aQdtFgrGay" role="37wK5m">
-                  <property role="Xl_RC" value="loadList" />
-                </node>
-                <node concept="Xl_RD" id="1aQdtFgrGaF" role="37wK5m">
-                  <property role="Xl_RC" value="done" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
     <node concept="3clFb_" id="1e8699aCJw$" role="jymVt">
@@ -19750,6 +19944,42 @@
       <node concept="3cqZAl" id="1e8699aCJw_" role="3clF45" />
       <node concept="3Tm1VV" id="1e8699aCJwA" role="1B3o_S" />
       <node concept="3clFbS" id="1e8699aCJwB" role="3clF47">
+        <node concept="3SKdUt" id="18loLX21a56" role="3cqZAp">
+          <node concept="3SKWN0" id="18loLX21a57" role="3SKWNk">
+            <node concept="3clFbF" id="18loLX1S_Pk" role="3SKWNf">
+              <node concept="1rXfSq" id="18loLX1S_Pi" role="3clFbG">
+                <ref role="37wK5l" node="1e8699aCJrT" resolve="debug" />
+                <node concept="Xl_RD" id="18loLX1SAT7" role="37wK5m">
+                  <property role="Xl_RC" value="updateTableToCurrentItems" />
+                </node>
+                <node concept="3cpWs3" id="18loLX1SCG$" role="37wK5m">
+                  <node concept="2OqwBi" id="18loLX1SH_Y" role="3uHU7w">
+                    <node concept="2OqwBi" id="18loLX1SFG1" role="2Oq$k0">
+                      <node concept="2OqwBi" id="18loLX1SDin" role="2Oq$k0">
+                        <node concept="37vLTw" id="18loLX1SCZ$" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                        </node>
+                        <node concept="liA8E" id="18loLX1SFpL" role="2OqNvi">
+                          <ref role="37wK5l" to="vik9:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="18loLX1SHng" role="2OqNvi">
+                        <ref role="37wK5l" to="vik9:~MultipleSelectionModelBase.getSelectedIndices():javafx.collections.ObservableList" resolve="getSelectedIndices" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="18loLX1SIp1" role="2OqNvi">
+                      <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="18loLX1SCdS" role="3uHU7B">
+                    <property role="Xl_RC" value="now selected " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="18loLX1S$QM" role="3cqZAp" />
         <node concept="3SKdUt" id="1e8699aCJwC" role="3cqZAp">
           <node concept="3SKdUq" id="1e8699aCJwD" role="3SKWNk">
             <property role="3SKdUp" value="temporary get sort orders .. " />
@@ -19778,8 +20008,8 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3YbyKXcWAb6" role="3cqZAp" />
-        <node concept="3clFbH" id="3YbyKXcWAWr" role="3cqZAp" />
+        <node concept="3clFbH" id="18loLX1Sz7w" role="3cqZAp" />
+        <node concept="3clFbH" id="18loLX1SzYn" role="3cqZAp" />
         <node concept="3SKdUt" id="1e8699aCJwO" role="3cqZAp">
           <node concept="3SKdUq" id="1e8699aCJwP" role="3SKWNk">
             <property role="3SKdUp" value="workaground to refresh table... (removed 5.Oct 15 dan)" />
@@ -19984,6 +20214,42 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="18loLX21boI" role="3cqZAp">
+          <node concept="3SKWN0" id="18loLX21boJ" role="3SKWNk">
+            <node concept="3clFbF" id="18loLX1SKch" role="3SKWNf">
+              <node concept="1rXfSq" id="18loLX1SKci" role="3clFbG">
+                <ref role="37wK5l" node="1e8699aCJrT" resolve="debug" />
+                <node concept="Xl_RD" id="18loLX1SKcj" role="37wK5m">
+                  <property role="Xl_RC" value="updateTableToCurrentItems POST" />
+                </node>
+                <node concept="3cpWs3" id="18loLX1SKck" role="37wK5m">
+                  <node concept="2OqwBi" id="18loLX1SKcl" role="3uHU7w">
+                    <node concept="2OqwBi" id="18loLX1SKcm" role="2Oq$k0">
+                      <node concept="2OqwBi" id="18loLX1SKcn" role="2Oq$k0">
+                        <node concept="37vLTw" id="18loLX1SKco" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                        </node>
+                        <node concept="liA8E" id="18loLX1SKcp" role="2OqNvi">
+                          <ref role="37wK5l" to="vik9:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="18loLX1SKcq" role="2OqNvi">
+                        <ref role="37wK5l" to="vik9:~MultipleSelectionModelBase.getSelectedIndices():javafx.collections.ObservableList" resolve="getSelectedIndices" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="18loLX1SKcr" role="2OqNvi">
+                      <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="18loLX1SKcs" role="3uHU7B">
+                    <property role="Xl_RC" value="now selected " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="18loLX1SJfr" role="3cqZAp" />
       </node>
     </node>
     <node concept="3clFb_" id="1e8699aCJxQ" role="jymVt">

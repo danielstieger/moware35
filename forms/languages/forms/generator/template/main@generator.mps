@@ -7061,23 +7061,25 @@
       <node concept="3cqZAl" id="1kThbup1$N1" role="3clF45" />
       <node concept="3Tm1VV" id="1kThbup1$N2" role="1B3o_S" />
       <node concept="3clFbS" id="1kThbup1$Nq" role="3clF47">
-        <node concept="3SKdUt" id="4vr6dCDKxUV" role="3cqZAp">
-          <node concept="3SKWN0" id="4vr6dCDKxUW" role="3SKWNk">
-            <node concept="3clFbF" id="3oBdEpT8wdO" role="3SKWNf">
-              <node concept="2OqwBi" id="3oBdEpT8wdK" role="3clFbG">
-                <node concept="10M0yZ" id="3oBdEpT8wdL" role="2Oq$k0">
-                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                  <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="3oBdEpT8wdM" role="2OqNvi">
-                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-                  <node concept="3cpWs3" id="3oBdEpTa4t$" role="37wK5m">
-                    <node concept="37vLTw" id="3oBdEpTa4vL" role="3uHU7w">
-                      <ref role="3cqZAo" node="1KgqQuBD0ye" resolve="triggers" />
+        <node concept="3VdxhY" id="18loLX1G4xG" role="3cqZAp">
+          <property role="Rda9K" value="DEBUG" />
+          <node concept="3cpWs3" id="3oBdEpTa4t$" role="3VcgQn">
+            <node concept="37vLTw" id="3oBdEpTa4vL" role="3uHU7w">
+              <ref role="3cqZAo" node="1KgqQuBD0ye" resolve="triggers" />
+            </node>
+            <node concept="Xl_RD" id="3oBdEpT8wdN" role="3uHU7B">
+              <property role="Xl_RC" value="TableForm: reevalTriggers ... count: " />
+            </node>
+          </node>
+          <node concept="1W57fq" id="18loLX1G8h4" role="lGtFl">
+            <node concept="3IZrLx" id="18loLX1G8h7" role="3IZSJc">
+              <node concept="3clFbS" id="18loLX1G8h8" role="2VODD2">
+                <node concept="3clFbF" id="18loLX1G8he" role="3cqZAp">
+                  <node concept="2OqwBi" id="18loLX1G8h9" role="3clFbG">
+                    <node concept="3TrcHB" id="18loLX1G8hc" role="2OqNvi">
+                      <ref role="3TsBF5" to="sgb:1$TSOLeJG3o" resolve="debugIObjectView" />
                     </node>
-                    <node concept="Xl_RD" id="3oBdEpT8wdN" role="3uHU7B">
-                      <property role="Xl_RC" value="TableForm: reevalTriggers ... count: " />
-                    </node>
+                    <node concept="30H73N" id="18loLX1G8hd" role="2Oq$k0" />
                   </node>
                 </node>
               </node>

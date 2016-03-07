@@ -25174,14 +25174,24 @@
       <node concept="3cqZAl" id="6nb2rfW5SAN" role="3clF45" />
       <node concept="3Tm1VV" id="6nb2rfW5SAO" role="1B3o_S" />
       <node concept="3clFbS" id="6nb2rfW5SAP" role="3clF47">
+        <node concept="3clFbH" id="18loLX1_xvi" role="3cqZAp" />
+        <node concept="3clFbH" id="18loLX1_xJ6" role="3cqZAp" />
         <node concept="3clFbJ" id="6nb2rfW61kh" role="3cqZAp">
           <node concept="3clFbS" id="6nb2rfW61ki" role="3clFbx">
             <node concept="YS8fn" id="6nb2rfW64Jn" role="3cqZAp">
               <node concept="2ShNRf" id="6nb2rfW64KQ" role="YScLw">
                 <node concept="1pGfFk" id="6nb2rfW6mAX" role="2ShVmc">
                   <ref role="37wK5l" to="e2lb:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="Xl_RD" id="6nb2rfW6mCN" role="37wK5m">
-                    <property role="Xl_RC" value="Saving a reference without saving the referred entity first." />
+                  <node concept="3cpWs3" id="18loLX1_LQ2" role="37wK5m">
+                    <node concept="2OqwBi" id="18loLX1_LZG" role="3uHU7w">
+                      <node concept="Xjq3P" id="18loLX1_LSu" role="2Oq$k0" />
+                      <node concept="2OwXpG" id="18loLX1_Mo6" role="2OqNvi">
+                        <ref role="2Oxat5" node="5dZoziQwyoh" resolve="value" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="6nb2rfW6mCN" role="3uHU7B">
+                      <property role="Xl_RC" value="Saving a reference without saving the referred entity first. value = " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -25213,6 +25223,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="18loLX1_xF8" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="2mU4kly4pXQ" role="jymVt" />
