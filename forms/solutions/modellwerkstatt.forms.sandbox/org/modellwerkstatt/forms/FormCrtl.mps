@@ -9172,36 +9172,46 @@
                                       </node>
                                       <node concept="liA8E" id="vOp1wf7QZF" role="2OqNvi">
                                         <ref role="37wK5l" to="rmiu:~Category.error(java.lang.Object):void" resolve="error" />
-                                        <node concept="3cpWs3" id="vOp1wfoOOP" role="37wK5m">
-                                          <node concept="Xl_RD" id="vOp1wfoOPN" role="3uHU7w">
-                                            <property role="Xl_RC" value="ms" />
+                                        <node concept="3cpWs3" id="Z1sD2yp63r" role="37wK5m">
+                                          <node concept="2OqwBi" id="Z1sD2yp7RS" role="3uHU7w">
+                                            <node concept="37vLTw" id="Z1sD2yp7Mi" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                                            </node>
+                                            <node concept="liA8E" id="Z1sD2yp8J0" role="2OqNvi">
+                                              <ref role="37wK5l" to="28jr:Z1sD2yfqqI" resolve="getMaxInitCommandDescription" />
+                                            </node>
                                           </node>
-                                          <node concept="3cpWs3" id="vOp1wfoOy$" role="3uHU7B">
-                                            <node concept="3cpWs3" id="vOp1wfkG_s" role="3uHU7B">
-                                              <node concept="3cpWs3" id="vOp1wfkEJk" role="3uHU7B">
-                                                <node concept="3cpWs3" id="vOp1wfkBPO" role="3uHU7B">
-                                                  <node concept="1rXfSq" id="vOp1wfkBl3" role="3uHU7B">
-                                                    <ref role="37wK5l" node="6QRLe84tv3W" resolve="longInformation" />
+                                          <node concept="3cpWs3" id="vOp1wfoOOP" role="3uHU7B">
+                                            <node concept="3cpWs3" id="vOp1wfoOy$" role="3uHU7B">
+                                              <node concept="3cpWs3" id="vOp1wfkG_s" role="3uHU7B">
+                                                <node concept="3cpWs3" id="vOp1wfkEJk" role="3uHU7B">
+                                                  <node concept="3cpWs3" id="vOp1wfkBPO" role="3uHU7B">
+                                                    <node concept="1rXfSq" id="vOp1wfkBl3" role="3uHU7B">
+                                                      <ref role="37wK5l" node="6QRLe84tv3W" resolve="longInformation" />
+                                                    </node>
+                                                    <node concept="Xl_RD" id="vOp1wfkBQt" role="3uHU7w">
+                                                      <property role="Xl_RC" value=" - hit " />
+                                                    </node>
                                                   </node>
-                                                  <node concept="Xl_RD" id="vOp1wfkBQt" role="3uHU7w">
-                                                    <property role="Xl_RC" value=" - hit time limit of " />
+                                                  <node concept="2OqwBi" id="vOp1wfkFlX" role="3uHU7w">
+                                                    <node concept="37vLTw" id="vOp1wfkFgE" role="2Oq$k0">
+                                                      <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                                                    </node>
+                                                    <node concept="liA8E" id="vOp1wfkF$z" role="2OqNvi">
+                                                      <ref role="37wK5l" to="28jr:vOp1weU5oA" resolve="getMaxInitDurationSecs" />
+                                                    </node>
                                                   </node>
                                                 </node>
-                                                <node concept="2OqwBi" id="vOp1wfkFlX" role="3uHU7w">
-                                                  <node concept="37vLTw" id="vOp1wfkFgE" role="2Oq$k0">
-                                                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                                                  </node>
-                                                  <node concept="liA8E" id="vOp1wfkF$z" role="2OqNvi">
-                                                    <ref role="37wK5l" to="28jr:vOp1weU5oA" resolve="getMaxInitDurationSecs" />
-                                                  </node>
+                                                <node concept="Xl_RD" id="vOp1wfkGA1" role="3uHU7w">
+                                                  <property role="Xl_RC" value=" sec limit (cmd + 1st page / " />
                                                 </node>
                                               </node>
-                                              <node concept="Xl_RD" id="vOp1wfkGA1" role="3uHU7w">
-                                                <property role="Xl_RC" value=" secs in cmd init() + first page init() with " />
+                                              <node concept="37vLTw" id="vOp1wfoOzu" role="3uHU7w">
+                                                <ref role="3cqZAo" node="vOp1wf6owp" resolve="diff" />
                                               </node>
                                             </node>
-                                            <node concept="37vLTw" id="vOp1wfoOzu" role="3uHU7w">
-                                              <ref role="3cqZAo" node="vOp1wf6owp" resolve="diff" />
+                                            <node concept="Xl_RD" id="vOp1wfoOPN" role="3uHU7w">
+                                              <property role="Xl_RC" value="ms) - " />
                                             </node>
                                           </node>
                                         </node>
@@ -11078,46 +11088,56 @@
                                       </node>
                                       <node concept="liA8E" id="vOp1wfluNx" role="2OqNvi">
                                         <ref role="37wK5l" to="rmiu:~Category.error(java.lang.Object):void" resolve="error" />
-                                        <node concept="3cpWs3" id="vOp1wfoMYG" role="37wK5m">
-                                          <node concept="Xl_RD" id="vOp1wfoMZM" role="3uHU7w">
-                                            <property role="Xl_RC" value="ms" />
+                                        <node concept="3cpWs3" id="Z1sD2ypat8" role="37wK5m">
+                                          <node concept="2OqwBi" id="Z1sD2ypbrG" role="3uHU7w">
+                                            <node concept="37vLTw" id="Z1sD2ypbhI" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                                            </node>
+                                            <node concept="liA8E" id="Z1sD2ypcja" role="2OqNvi">
+                                              <ref role="37wK5l" to="28jr:Z1sD2yfqqI" resolve="getMaxInitCommandDescription" />
+                                            </node>
                                           </node>
-                                          <node concept="3cpWs3" id="vOp1wfoLXa" role="3uHU7B">
-                                            <node concept="3cpWs3" id="vOp1wflLzc" role="3uHU7B">
-                                              <node concept="3cpWs3" id="vOp1wflKk9" role="3uHU7B">
-                                                <node concept="3cpWs3" id="vOp1wfluNy" role="3uHU7B">
-                                                  <node concept="3cpWs3" id="vOp1wfluN$" role="3uHU7B">
-                                                    <node concept="3cpWs3" id="vOp1wfluN_" role="3uHU7B">
-                                                      <node concept="1rXfSq" id="vOp1wfluNA" role="3uHU7B">
-                                                        <ref role="37wK5l" node="6QRLe84tv3W" resolve="longInformation" />
+                                          <node concept="3cpWs3" id="vOp1wfoMYG" role="3uHU7B">
+                                            <node concept="3cpWs3" id="vOp1wfoLXa" role="3uHU7B">
+                                              <node concept="3cpWs3" id="vOp1wflLzc" role="3uHU7B">
+                                                <node concept="3cpWs3" id="vOp1wflKk9" role="3uHU7B">
+                                                  <node concept="3cpWs3" id="vOp1wfluNy" role="3uHU7B">
+                                                    <node concept="3cpWs3" id="vOp1wfluN$" role="3uHU7B">
+                                                      <node concept="3cpWs3" id="vOp1wfluN_" role="3uHU7B">
+                                                        <node concept="1rXfSq" id="vOp1wfluNA" role="3uHU7B">
+                                                          <ref role="37wK5l" node="6QRLe84tv3W" resolve="longInformation" />
+                                                        </node>
+                                                        <node concept="Xl_RD" id="vOp1wfluNB" role="3uHU7w">
+                                                          <property role="Xl_RC" value=" - hit " />
+                                                        </node>
                                                       </node>
-                                                      <node concept="Xl_RD" id="vOp1wfluNB" role="3uHU7w">
-                                                        <property role="Xl_RC" value=" - hit limit of " />
+                                                      <node concept="2OqwBi" id="vOp1wfluNC" role="3uHU7w">
+                                                        <node concept="37vLTw" id="vOp1wfluND" role="2Oq$k0">
+                                                          <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                                                        </node>
+                                                        <node concept="liA8E" id="vOp1wfluNE" role="2OqNvi">
+                                                          <ref role="37wK5l" to="28jr:vOp1weU5oA" resolve="getMaxInitDurationSecs" />
+                                                        </node>
                                                       </node>
                                                     </node>
-                                                    <node concept="2OqwBi" id="vOp1wfluNC" role="3uHU7w">
-                                                      <node concept="37vLTw" id="vOp1wfluND" role="2Oq$k0">
-                                                        <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                                                      </node>
-                                                      <node concept="liA8E" id="vOp1wfluNE" role="2OqNvi">
-                                                        <ref role="37wK5l" to="28jr:vOp1weU5oA" resolve="getMaxInitDurationSecs" />
-                                                      </node>
+                                                    <node concept="Xl_RD" id="vOp1wfluNz" role="3uHU7w">
+                                                      <property role="Xl_RC" value=" sec limit (page " />
                                                     </node>
                                                   </node>
-                                                  <node concept="Xl_RD" id="vOp1wfluNz" role="3uHU7w">
-                                                    <property role="Xl_RC" value=" secs in page " />
+                                                  <node concept="37vLTw" id="vOp1wflMNc" role="3uHU7w">
+                                                    <ref role="3cqZAo" node="5_bDd1d_b4A" resolve="currentPageIndex" />
                                                   </node>
                                                 </node>
-                                                <node concept="37vLTw" id="vOp1wflMNc" role="3uHU7w">
-                                                  <ref role="3cqZAo" node="5_bDd1d_b4A" resolve="currentPageIndex" />
+                                                <node concept="Xl_RD" id="vOp1wflMkg" role="3uHU7w">
+                                                  <property role="Xl_RC" value=" / " />
                                                 </node>
                                               </node>
-                                              <node concept="Xl_RD" id="vOp1wflMkg" role="3uHU7w">
-                                                <property role="Xl_RC" value=" init() with " />
+                                              <node concept="37vLTw" id="vOp1wfoM7m" role="3uHU7w">
+                                                <ref role="3cqZAo" node="vOp1wfluNj" resolve="diff" />
                                               </node>
                                             </node>
-                                            <node concept="37vLTw" id="vOp1wfoM7m" role="3uHU7w">
-                                              <ref role="3cqZAo" node="vOp1wfluNj" resolve="diff" />
+                                            <node concept="Xl_RD" id="vOp1wfoMZM" role="3uHU7w">
+                                              <property role="Xl_RC" value="ms) - " />
                                             </node>
                                           </node>
                                         </node>
@@ -13214,12 +13234,32 @@
           </node>
         </node>
         <node concept="3clFbF" id="5OZ8iimHbWy" role="3cqZAp">
-          <node concept="2OqwBi" id="5OZ8iimHgfM" role="3clFbG">
-            <node concept="37vLTw" id="5OZ8iimHbWw" role="2Oq$k0">
-              <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+          <node concept="3cpWs3" id="Z1sD2yCMjP" role="3clFbG">
+            <node concept="Xl_RD" id="Z1sD2yCMkI" role="3uHU7w">
+              <property role="Xl_RC" value="]" />
             </node>
-            <node concept="liA8E" id="5OZ8iimHgnG" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:7rqBz8B3JNr" resolve="getCommandTitleShort" />
+            <node concept="3cpWs3" id="Z1sD2yCK8i" role="3uHU7B">
+              <node concept="3cpWs3" id="Z1sD2yCJ2O" role="3uHU7B">
+                <node concept="2OqwBi" id="5OZ8iimHgfM" role="3uHU7B">
+                  <node concept="37vLTw" id="5OZ8iimHbWw" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                  </node>
+                  <node concept="liA8E" id="5OZ8iimHgnG" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:7rqBz8B3JNr" resolve="getCommandTitleShort" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="Z1sD2yCJNu" role="3uHU7w">
+                  <property role="Xl_RC" value="[" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="Z1sD2yCKWI" role="3uHU7w">
+                <node concept="37vLTw" id="Z1sD2yCKSN" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                </node>
+                <node concept="liA8E" id="Z1sD2yCLKG" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:Z1sD2yfqqI" resolve="getMaxInitCommandDescription" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -44141,7 +44181,7 @@
               <ref role="37wK5l" node="4O5lEKxGPdI" resolve="log" />
               <node concept="3cpWs3" id="uIdudhP3gC" role="37wK5m">
                 <node concept="Xl_RD" id="uIdudhP3l9" role="3uHU7w">
-                  <property role="Xl_RC" value="ms" />
+                  <property role="Xl_RC" value="ms)" />
                 </node>
                 <node concept="3cpWs3" id="5IG_xFhRp8A" role="3uHU7B">
                   <node concept="3cpWs3" id="5IG_xFhRp10" role="3uHU7B">
@@ -44149,7 +44189,7 @@
                       <ref role="3cqZAo" node="5OZ8iimxSPm" resolve="remoteAddr" />
                     </node>
                     <node concept="Xl_RD" id="5IG_xFhRp1o" role="3uHU7w">
-                      <property role="Xl_RC" value="  took  " />
+                      <property role="Xl_RC" value=" (" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="5IG_xFhRpdi" role="3uHU7w">
@@ -44166,7 +44206,7 @@
                     <ref role="3cqZAo" node="3qpfNRwKY4f" resolve="userName" />
                   </node>
                   <node concept="Xl_RD" id="5OZ8iim$OIz" role="3uHU7w">
-                    <property role="Xl_RC" value="  did:  " />
+                    <property role="Xl_RC" value=": " />
                   </node>
                 </node>
               </node>

@@ -805,6 +805,11 @@
       <property role="20kJfa" value="maxInitDuration" />
       <ref role="20lvS9" to="tpee:fzcmrck" resolve="IntegerConstant" />
     </node>
+    <node concept="1TJgyj" id="Z1sD2y5lRb" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="maxInitCmdDescription" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="1IEa9ReVfmD" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="process" />
