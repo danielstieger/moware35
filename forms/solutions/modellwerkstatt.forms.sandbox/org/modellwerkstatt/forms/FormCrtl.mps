@@ -14700,7 +14700,7 @@
         <property role="TrG5h" value="SESSION_DIRTY" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
         <node concept="Xl_RD" id="4vUcH_0hKSP" role="37wK5m">
-          <property role="Xl_RC" value="Es wurden mit diesem Kommando Daten verändert,\ndie NICHT gespeichert wurden!\n\n" />
+          <property role="Xl_RC" value="Es wurden mit diesem Kommando Daten verändert,\ndie NICHT gespeichert wurden! Kommando dennoch\nbeenden?\n" />
         </node>
         <node concept="Xl_RD" id="4vUcH_0hKSQ" role="37wK5m">
           <property role="Xl_RC" value="" />
@@ -14850,7 +14850,7 @@
         <property role="TrG5h" value="SERVLET_BASE_ADR" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
         <node concept="Xl_RD" id="7DInbKyry1K" role="37wK5m">
-          <property role="Xl_RC" value="Ihe letztes Kommando wurde abgebrochen. Sie sind nun im Start-Menü." />
+          <property role="Xl_RC" value="Ihr letztes Kommando wurde abgebrochen. Sie sind nun im Start-Menü." />
         </node>
         <node concept="Xl_RD" id="7DInbKyry1L" role="37wK5m">
           <property role="Xl_RC" value="" />

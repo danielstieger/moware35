@@ -44,8 +44,6 @@
     <import index="1t7x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" />
     <import index="7zqk" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.print(JDK/java.awt.print@java_stub)" />
     <import index="nn6w" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.print.attribute(JDK/javax.print.attribute@java_stub)" />
-    <import index="5qms" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.pdfbox.pdmodel(org.modellwerkstatt.sandbox/org.apache.pdfbox.pdmodel@java_stub)" />
-    <import index="xdp2" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.pdfbox.printing(org.modellwerkstatt.sandbox/org.apache.pdfbox.printing@java_stub)" />
     <import index="livf" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/org.apache.avalon.framework.configuration@java_stub)" implicit="true" />
     <import index="45gm" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" implicit="true" />
     <import index="6izi" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.management.remote(JDK/javax.management.remote@java_stub)" implicit="true" />
@@ -33675,113 +33673,40 @@
         </node>
       </node>
       <node concept="3clFbS" id="75cZYRv0KRL" role="3clF47">
-        <node concept="SfApY" id="75cZYRuXI5Y" role="3cqZAp">
-          <node concept="3clFbS" id="75cZYRuXI60" role="SfCbr">
-            <node concept="3cpWs8" id="75cZYRuXCH_" role="3cqZAp">
-              <node concept="3cpWsn" id="75cZYRuXCHA" role="3cpWs9">
-                <property role="TrG5h" value="document" />
-                <node concept="3uibUv" id="75cZYRuXCHB" role="1tU5fm">
-                  <ref role="3uigEE" to="5qms:~PDDocument" resolve="PDDocument" />
+        <node concept="SfApY" id="69mamiNdNDM" role="3cqZAp">
+          <node concept="3clFbS" id="69mamiNdNDR" role="SfCbr">
+            <node concept="3clFbF" id="69mamiNdJkt" role="3cqZAp">
+              <node concept="2OqwBi" id="69mamiNdKmR" role="3clFbG">
+                <node concept="2YIFZM" id="69mamiNdKmg" role="2Oq$k0">
+                  <ref role="37wK5l" to="1t7x:~Desktop.getDesktop():java.awt.Desktop" resolve="getDesktop" />
+                  <ref role="1Pybhc" to="1t7x:~Desktop" resolve="Desktop" />
                 </node>
-                <node concept="2YIFZM" id="75cZYRuXEJU" role="33vP2m">
-                  <ref role="37wK5l" to="5qms:~PDDocument.load(java.io.File):org.apache.pdfbox.pdmodel.PDDocument" resolve="load" />
-                  <ref role="1Pybhc" to="5qms:~PDDocument" resolve="PDDocument" />
-                  <node concept="37vLTw" id="75cZYRv0O8z" role="37wK5m">
+                <node concept="liA8E" id="69mamiNdKsg" role="2OqNvi">
+                  <ref role="37wK5l" to="1t7x:~Desktop.print(java.io.File):void" resolve="print" />
+                  <node concept="37vLTw" id="69mamiNf8u$" role="37wK5m">
                     <ref role="3cqZAo" node="75cZYRv0KRJ" resolve="pdfFile" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="7ApkBIQVPIP" role="3cqZAp">
-              <node concept="3cpWsn" id="7ApkBIQVPIO" role="3cpWs9">
-                <property role="3TUv4t" value="false" />
-                <property role="TrG5h" value="job" />
-                <node concept="3uibUv" id="7ApkBIQVPIQ" role="1tU5fm">
-                  <ref role="3uigEE" to="7zqk:~PrinterJob" resolve="PrinterJob" />
-                </node>
-                <node concept="2YIFZM" id="7ApkBIQVPJn" role="33vP2m">
-                  <ref role="1Pybhc" to="7zqk:~PrinterJob" resolve="PrinterJob" />
-                  <ref role="37wK5l" to="7zqk:~PrinterJob.getPrinterJob():java.awt.print.PrinterJob" resolve="getPrinterJob" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7ApkBIQVPIS" role="3cqZAp">
-              <node concept="2OqwBi" id="7ApkBIQVPJM" role="3clFbG">
-                <node concept="37vLTw" id="7ApkBIQVPJL" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7ApkBIQVPIO" resolve="job" />
-                </node>
-                <node concept="liA8E" id="7ApkBIQVPJN" role="2OqNvi">
-                  <ref role="37wK5l" to="7zqk:~PrinterJob.setPageable(java.awt.print.Pageable):void" resolve="setPageable" />
-                  <node concept="2ShNRf" id="7ApkBIQVQSY" role="37wK5m">
-                    <node concept="1pGfFk" id="7ApkBIQVQSZ" role="2ShVmc">
-                      <ref role="37wK5l" to="xdp2:~PDFPageable.&lt;init&gt;(org.apache.pdfbox.pdmodel.PDDocument)" resolve="PDFPageable" />
-                      <node concept="37vLTw" id="7ApkBIQVPIV" role="37wK5m">
-                        <ref role="3cqZAo" node="75cZYRuXCHA" resolve="document" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="7ApkBIQVPIW" role="3cqZAp">
-              <node concept="2OqwBi" id="7ApkBIQVPKe" role="3clFbG">
-                <node concept="37vLTw" id="7ApkBIQVPKd" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7ApkBIQVPIO" resolve="job" />
-                </node>
-                <node concept="liA8E" id="7ApkBIQVPKf" role="2OqNvi">
-                  <ref role="37wK5l" to="7zqk:~PrinterJob.print():void" resolve="print" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="75cZYRuY1QH" role="3cqZAp">
-              <node concept="2OqwBi" id="75cZYRuY1TA" role="3clFbG">
-                <node concept="37vLTw" id="75cZYRuY1QF" role="2Oq$k0">
-                  <ref role="3cqZAo" node="75cZYRuXCHA" resolve="document" />
-                </node>
-                <node concept="liA8E" id="75cZYRuY21B" role="2OqNvi">
-                  <ref role="37wK5l" to="5qms:~PDDocument.close():void" resolve="close" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="7ApkBIQV9TE" role="3cqZAp" />
           </node>
-          <node concept="TDmWw" id="75cZYRuXNqI" role="TEbGg">
-            <node concept="3clFbS" id="75cZYRuXNqJ" role="TDEfX">
-              <node concept="YS8fn" id="75cZYRuXOcJ" role="3cqZAp">
-                <node concept="2ShNRf" id="75cZYRuXOf8" role="YScLw">
-                  <node concept="1pGfFk" id="75cZYRuY1F2" role="2ShVmc">
+          <node concept="TDmWw" id="69mamiNdNDT" role="TEbGg">
+            <node concept="3clFbS" id="69mamiNdNDW" role="TDEfX">
+              <node concept="YS8fn" id="69mamiNdOIP" role="3cqZAp">
+                <node concept="2ShNRf" id="69mamiNdOKt" role="YScLw">
+                  <node concept="1pGfFk" id="69mamiNdXUv" role="2ShVmc">
                     <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="75cZYRuY1H6" role="37wK5m">
-                      <ref role="3cqZAo" node="75cZYRuXNqK" resolve="e" />
+                    <node concept="37vLTw" id="69mamiNdXWi" role="37wK5m">
+                      <ref role="3cqZAo" node="69mamiNdNDX" resolve="e" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3cpWsn" id="75cZYRuXNqK" role="TDEfY">
+            <node concept="3cpWsn" id="69mamiNdNDX" role="TDEfY">
               <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="75cZYRuXNqL" role="1tU5fm">
+              <node concept="3uibUv" id="69mamiNdNDS" role="1tU5fm">
                 <ref role="3uigEE" to="fxg7:~IOException" resolve="IOException" />
-              </node>
-            </node>
-          </node>
-          <node concept="TDmWw" id="75cZYRuXO5b" role="TEbGg">
-            <node concept="3clFbS" id="75cZYRuXO5c" role="TDEfX">
-              <node concept="YS8fn" id="75cZYRuY1L_" role="3cqZAp">
-                <node concept="2ShNRf" id="75cZYRuY1LA" role="YScLw">
-                  <node concept="1pGfFk" id="75cZYRuY1LB" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="75cZYRuY1LC" role="37wK5m">
-                      <ref role="3cqZAo" node="75cZYRuXO5d" resolve="e" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3cpWsn" id="75cZYRuXO5d" role="TDEfY">
-              <property role="TrG5h" value="e" />
-              <node concept="3uibUv" id="75cZYRuXO5e" role="1tU5fm">
-                <ref role="3uigEE" to="7zqk:~PrinterException" resolve="PrinterException" />
               </node>
             </node>
           </node>
