@@ -116,13 +116,18 @@
 		} */
 	
 		/* editable table */
-		
 		input {
 			margin: 0px !important;
-			padding: 0px !important;
+			padding: 0px 5px 0px 5px !important;
 			font-weight: 100 !important;
 			height: 20px !important;
 		}		
+		
+		.mo-right-input {
+			text-align: right;
+		
+		}
+		
 	}
 	
 	/* delegate form special adoptions ----------------------- */

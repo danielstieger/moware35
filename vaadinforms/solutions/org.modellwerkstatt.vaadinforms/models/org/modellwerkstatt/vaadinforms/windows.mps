@@ -50,6 +50,7 @@
     <import index="sarm" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.xmlgraphics.util(org.modellwerkstatt.sandbox/org.apache.xmlgraphics.util@java_stub)" />
     <import index="livf" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/org.apache.avalon.framework.configuration@java_stub)" />
     <import index="e5on" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.nio.file(JDK/java.nio.file@java_stub)" />
+    <import index="78ry" ref="0460caee-4107-44cf-b689-af78c260c48e/f:java_stub#0460caee-4107-44cf-b689-af78c260c48e#com.vaadin.annotations(org.modellwerkstatt.vaadinforms/com.vaadin.annotations@java_stub)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2564,6 +2565,9 @@
     </node>
     <node concept="3uibUv" id="vsIEjNtyC0" role="EKbjA">
       <ref role="3uigEE" to="quhv:20ohnkbzYYy" resolve="IToolkit_AppWindow" />
+    </node>
+    <node concept="2AHcQZ" id="4TjwvsKoHgS" role="2AJF6D">
+      <ref role="2AI5Lk" to="78ry:~PreserveOnRefresh" resolve="PreserveOnRefresh" />
     </node>
   </node>
   <node concept="312cEu" id="6MOvunDm3sG">
@@ -13957,7 +13961,14 @@
       <property role="TrG5h" value="tableFieldFactory" />
       <node concept="3Tm6S6" id="7ApkBIQY_FO" role="1B3o_S" />
       <node concept="3uibUv" id="7ApkBIQYFZI" role="1tU5fm">
-        <ref role="3uigEE" node="7ApkBIQB2F1" resolve="VTableFieldFactory" />
+        <ref role="3uigEE" node="7ApkBIQB2F1" resolve="VEditableTableFieldFactory" />
+      </node>
+    </node>
+    <node concept="312cEg" id="4TjwvsKpR_Z" role="jymVt">
+      <property role="TrG5h" value="editKeybdHandler" />
+      <node concept="3Tm6S6" id="4TjwvsKpRA0" role="1B3o_S" />
+      <node concept="3uibUv" id="4TjwvsKpYmt" role="1tU5fm">
+        <ref role="3uigEE" node="7ApkBIQWQKl" resolve="VEditableTableKbdHandler" />
       </node>
     </node>
     <node concept="2tJIrI" id="7ApkBIQXJ5b" role="jymVt" />
@@ -15624,7 +15635,7 @@
                 </node>
                 <node concept="2ShNRf" id="7ApkBIQBuQ4" role="37vLTx">
                   <node concept="1pGfFk" id="7ApkBIQDbVm" role="2ShVmc">
-                    <ref role="37wK5l" node="7ApkBIQCToU" resolve="VTableFieldFactory" />
+                    <ref role="37wK5l" node="7ApkBIQCToU" resolve="VEditableTableFieldFactory" />
                     <node concept="37vLTw" id="Z1sD2y32wt" role="37wK5m">
                       <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
                     </node>
@@ -15649,21 +15660,31 @@
               </node>
             </node>
             <node concept="3clFbH" id="57zGu7$nFFx" role="3cqZAp" />
+            <node concept="3clFbF" id="4TjwvsKq0aV" role="3cqZAp">
+              <node concept="37vLTI" id="4TjwvsKq1n3" role="3clFbG">
+                <node concept="37vLTw" id="4TjwvsKq0aT" role="37vLTJ">
+                  <ref role="3cqZAo" node="4TjwvsKpR_Z" resolve="editKeybdHandler" />
+                </node>
+                <node concept="2ShNRf" id="57zGu7$njS6" role="37vLTx">
+                  <node concept="1pGfFk" id="57zGu7$nCvv" role="2ShVmc">
+                    <ref role="37wK5l" node="7ApkBIQWZ9j" resolve="VEditableTableKbdHandler" />
+                    <node concept="37vLTw" id="57zGu7$nCO1" role="37wK5m">
+                      <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
+                    </node>
+                    <node concept="37vLTw" id="57zGu7$nE1B" role="37wK5m">
+                      <ref role="3cqZAo" node="7ApkBIQY_FN" resolve="tableFieldFactory" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="57zGu7$ng$i" role="3cqZAp">
               <node concept="2OqwBi" id="57zGu7$nh3M" role="3clFbG">
                 <node concept="Xjq3P" id="57zGu7$ng$g" role="2Oq$k0" />
                 <node concept="liA8E" id="57zGu7$njjv" role="2OqNvi">
                   <ref role="37wK5l" to="o2tm:~Panel.addActionHandler(com.vaadin.event.Action$Handler):void" resolve="addActionHandler" />
-                  <node concept="2ShNRf" id="57zGu7$njS6" role="37wK5m">
-                    <node concept="1pGfFk" id="57zGu7$nCvv" role="2ShVmc">
-                      <ref role="37wK5l" node="7ApkBIQWZ9j" resolve="VEditableTableKbdHandler" />
-                      <node concept="37vLTw" id="57zGu7$nCO1" role="37wK5m">
-                        <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
-                      </node>
-                      <node concept="37vLTw" id="57zGu7$nE1B" role="37wK5m">
-                        <ref role="3cqZAo" node="7ApkBIQY_FN" resolve="tableFieldFactory" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="4TjwvsKq7qT" role="37wK5m">
+                    <ref role="3cqZAo" node="4TjwvsKpR_Z" resolve="editKeybdHandler" />
                   </node>
                 </node>
               </node>
@@ -16022,6 +16043,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="4TjwvsKqYq7" role="3cqZAp" />
             <node concept="3clFbF" id="6sMkw7Kv8$r" role="3cqZAp">
               <node concept="2OqwBi" id="6sMkw7Kv963" role="3clFbG">
                 <node concept="37vLTw" id="6sMkw7Kv8$p" role="2Oq$k0">
@@ -18640,6 +18662,32 @@
         <node concept="3clFbH" id="7ApkBIQYKID" role="3cqZAp" />
         <node concept="3clFbJ" id="7ApkBIQYNny" role="3cqZAp">
           <node concept="3clFbS" id="7ApkBIQYNn$" role="3clFbx">
+            <node concept="3clFbF" id="4TjwvsKq81$" role="3cqZAp">
+              <node concept="2OqwBi" id="4TjwvsKq8jQ" role="3clFbG">
+                <node concept="Xjq3P" id="4TjwvsKq81y" role="2Oq$k0" />
+                <node concept="liA8E" id="4TjwvsKq9ll" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~Panel.removeActionHandler(com.vaadin.event.Action$Handler):void" resolve="removeActionHandler" />
+                  <node concept="37vLTw" id="4TjwvsKqa7G" role="37wK5m">
+                    <ref role="3cqZAo" node="4TjwvsKpR_Z" resolve="editKeybdHandler" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4TjwvsKqb1R" role="3cqZAp">
+              <node concept="2OqwBi" id="4TjwvsKqbnw" role="3clFbG">
+                <node concept="37vLTw" id="4TjwvsKqb1P" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4TjwvsKpR_Z" resolve="editKeybdHandler" />
+                </node>
+                <node concept="liA8E" id="4TjwvsKqbLn" role="2OqNvi">
+                  <ref role="37wK5l" node="4TjwvsKprgE" resolve="gcClean" />
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="4TjwvsKpFK4" role="3cqZAp">
+              <node concept="3SKdUq" id="4TjwvsKpFL1" role="3SKWNk">
+                <property role="3SKdUp" value="ohh.. " />
+              </node>
+            </node>
             <node concept="3clFbF" id="7ApkBIQYPCz" role="3cqZAp">
               <node concept="2OqwBi" id="7ApkBIQYQ0G" role="3clFbG">
                 <node concept="37vLTw" id="7ApkBIQYPCx" role="2Oq$k0">
@@ -18650,6 +18698,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="4TjwvsKpFM1" role="3cqZAp" />
           </node>
           <node concept="37vLTw" id="7ApkBIQYOED" role="3clFbw">
             <ref role="3cqZAo" node="7ApkBIQAEFw" resolve="isTableEditable" />
@@ -19013,12 +19062,15 @@
           <ref role="3uigEE" to="rds2:~Converter$ConversionException" resolve="Converter.ConversionException" />
         </node>
         <node concept="3clFbS" id="5XHFlROLb5z" role="3clF47">
-          <node concept="YS8fn" id="5XHFlROLfbv" role="3cqZAp">
-            <node concept="2ShNRf" id="5XHFlROLfmM" role="YScLw">
-              <node concept="1pGfFk" id="5XHFlROLg61" role="2ShVmc">
-                <ref role="37wK5l" to="rds2:~Converter$ConversionException.&lt;init&gt;(java.lang.String)" resolve="Converter.ConversionException" />
-                <node concept="Xl_RD" id="5XHFlROLghM" role="37wK5m">
-                  <property role="Xl_RC" value="not implemented!" />
+          <node concept="3clFbF" id="4TjwvsKtrIT" role="3cqZAp">
+            <node concept="2OqwBi" id="4TjwvsKtrXL" role="3clFbG">
+              <node concept="37vLTw" id="4TjwvsKtrIR" role="2Oq$k0">
+                <ref role="3cqZAo" node="5XHFlROLbOY" resolve="mowareConverter" />
+              </node>
+              <node concept="liA8E" id="4TjwvsKts5D" role="2OqNvi">
+                <ref role="37wK5l" to="quhv:7fo5K04UYDH" resolve="convertBack" />
+                <node concept="37vLTw" id="4TjwvsKtsjm" role="37wK5m">
+                  <ref role="3cqZAo" node="5XHFlROLb5n" resolve="string" />
                 </node>
               </node>
             </node>
@@ -27187,7 +27239,7 @@
     </node>
   </node>
   <node concept="312cEu" id="7ApkBIQB2F1">
-    <property role="TrG5h" value="VTableFieldFactory" />
+    <property role="TrG5h" value="VEditableTableFieldFactory" />
     <node concept="312cEg" id="7ApkBIQCT7_" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -27428,6 +27480,76 @@
                         <ref role="2Oxat5" node="5tLhDsel3m_" resolve="propertyName" />
                       </node>
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="4TjwvsKrR$i" role="3cqZAp">
+              <node concept="3clFbS" id="4TjwvsKrR$k" role="3clFbx">
+                <node concept="3clFbF" id="4TjwvsKrzMK" role="3cqZAp">
+                  <node concept="2OqwBi" id="4TjwvsKr$uo" role="3clFbG">
+                    <node concept="37vLTw" id="4TjwvsKrzMI" role="2Oq$k0">
+                      <ref role="3cqZAo" node="18loLX1$yqL" resolve="field" />
+                    </node>
+                    <node concept="liA8E" id="4TjwvsKrDqT" role="2OqNvi">
+                      <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+                      <node concept="Xl_RD" id="4TjwvsKrDzb" role="37wK5m">
+                        <property role="Xl_RC" value="mo-right-input" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4TjwvsKrSNl" role="3clFbw">
+                <node concept="2OqwBi" id="4TjwvsKrStc" role="2Oq$k0">
+                  <node concept="37vLTw" id="4TjwvsKrSps" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7ApkBIQCT7_" resolve="column" />
+                  </node>
+                  <node concept="2OwXpG" id="4TjwvsKrSF3" role="2OqNvi">
+                    <ref role="2Oxat5" node="5XHFlROLbOY" resolve="mowareConverter" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="4TjwvsKrSYH" role="2OqNvi">
+                  <ref role="37wK5l" to="quhv:1oA5m_ZtoBS" resolve="isRightAligned" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4TjwvsKr7Zb" role="3cqZAp">
+              <node concept="2OqwBi" id="4TjwvsKr8CN" role="3clFbG">
+                <node concept="37vLTw" id="4TjwvsKr7Z9" role="2Oq$k0">
+                  <ref role="3cqZAo" node="18loLX1$yqL" resolve="field" />
+                </node>
+                <node concept="liA8E" id="4TjwvsKr9wg" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~AbstractField.setConverter(com.vaadin.data.util.converter.Converter):void" resolve="setConverter" />
+                  <node concept="37vLTw" id="4TjwvsKr9CZ" role="37wK5m">
+                    <ref role="3cqZAo" node="7ApkBIQCT7_" resolve="column" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4TjwvsKqmPY" role="3cqZAp">
+              <node concept="2OqwBi" id="4TjwvsKqn_B" role="3clFbG">
+                <node concept="37vLTw" id="4TjwvsKqmPW" role="2Oq$k0">
+                  <ref role="3cqZAo" node="18loLX1$yqL" resolve="field" />
+                </node>
+                <node concept="liA8E" id="4TjwvsKqojf" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~AbstractComponent.setWidth(float,com.vaadin.server.Sizeable$Unit):void" resolve="setWidth" />
+                  <node concept="3cpWsd" id="4TjwvsKqpo8" role="37wK5m">
+                    <node concept="3cmrfG" id="4TjwvsKqpoi" role="3uHU7w">
+                      <property role="3cmrfH" value="10" />
+                    </node>
+                    <node concept="2OqwBi" id="4TjwvsKqoF3" role="3uHU7B">
+                      <node concept="37vLTw" id="4TjwvsKqos0" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7ApkBIQCT7_" resolve="column" />
+                      </node>
+                      <node concept="2OwXpG" id="4TjwvsKqoT$" role="2OqNvi">
+                        <ref role="2Oxat5" node="18291WBFuWZ" resolve="widht" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rm8GO" id="4TjwvsKqqtm" role="37wK5m">
+                    <ref role="Rm8GQ" to="7ym1:~Sizeable$Unit.PIXELS" resolve="PIXELS" />
+                    <ref role="1Px2BO" to="7ym1:~Sizeable$Unit" resolve="Sizeable.Unit" />
                   </node>
                 </node>
               </node>
@@ -27720,7 +27842,7 @@
       <property role="TrG5h" value="fieldFact" />
       <node concept="3Tm6S6" id="7ApkBIQZkIq" role="1B3o_S" />
       <node concept="3uibUv" id="7ApkBIQZl5w" role="1tU5fm">
-        <ref role="3uigEE" node="7ApkBIQB2F1" resolve="VTableFieldFactory" />
+        <ref role="3uigEE" node="7ApkBIQB2F1" resolve="VEditableTableFieldFactory" />
       </node>
     </node>
     <node concept="2tJIrI" id="7ApkBIQXq0q" role="jymVt" />
@@ -27734,7 +27856,7 @@
       <node concept="37vLTG" id="7ApkBIQZkfP" role="3clF46">
         <property role="TrG5h" value="fldFact" />
         <node concept="3uibUv" id="7ApkBIQZkmD" role="1tU5fm">
-          <ref role="3uigEE" node="7ApkBIQB2F1" resolve="VTableFieldFactory" />
+          <ref role="3uigEE" node="7ApkBIQB2F1" resolve="VEditableTableFieldFactory" />
         </node>
       </node>
       <node concept="3cqZAl" id="7ApkBIQWZ9l" role="3clF45" />
@@ -28067,6 +28189,30 @@
       </node>
       <node concept="3Tm1VV" id="7ApkBIQWQMn" role="1B3o_S" />
       <node concept="3cqZAl" id="7ApkBIQWQMo" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="4TjwvsKphi$" role="jymVt" />
+    <node concept="3clFb_" id="4TjwvsKprgE" role="jymVt">
+      <property role="TrG5h" value="gcClean" />
+      <node concept="3cqZAl" id="4TjwvsKprgG" role="3clF45" />
+      <node concept="3Tm1VV" id="4TjwvsKprgH" role="1B3o_S" />
+      <node concept="3clFbS" id="4TjwvsKprgI" role="3clF47">
+        <node concept="3clFbF" id="4TjwvsKpu$T" role="3cqZAp">
+          <node concept="37vLTI" id="4TjwvsKpuOi" role="3clFbG">
+            <node concept="10Nm6u" id="4TjwvsKpuTL" role="37vLTx" />
+            <node concept="37vLTw" id="4TjwvsKpu$S" role="37vLTJ">
+              <ref role="3cqZAo" node="7ApkBIQXqlW" resolve="table" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4TjwvsKpv5B" role="3cqZAp">
+          <node concept="37vLTI" id="4TjwvsKpvnA" role="3clFbG">
+            <node concept="10Nm6u" id="4TjwvsKpvoh" role="37vLTx" />
+            <node concept="37vLTw" id="4TjwvsKpv5_" role="37vLTJ">
+              <ref role="3cqZAo" node="7ApkBIQZkIp" resolve="fieldFact" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="7ApkBIQWSPG" role="1B3o_S" />
   </node>
