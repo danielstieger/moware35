@@ -2995,6 +2995,9 @@
                       <ref role="37wK5l" node="WpszhTUvNB" resolve="getUserInterfaceHandle" />
                     </node>
                   </node>
+                  <node concept="37vLTw" id="omQbG9SSiH" role="37wK5m">
+                    <ref role="3cqZAo" node="7aUgYCzs8js" resolve="userEnv" />
+                  </node>
                 </node>
               </node>
             </node>
