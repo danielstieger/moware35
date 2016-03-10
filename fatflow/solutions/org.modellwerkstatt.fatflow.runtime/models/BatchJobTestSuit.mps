@@ -559,10 +559,10 @@
       </node>
     </node>
     <node concept="312cEg" id="5E5qL$GvuJw" role="jymVt">
-      <property role="TrG5h" value="printFactory" />
+      <property role="TrG5h" value="applicationFactory" />
       <node concept="3Tm6S6" id="5E5qL$GvuJx" role="1B3o_S" />
-      <node concept="3uibUv" id="5E5qL$GvuNN" role="1tU5fm">
-        <ref role="3uigEE" to="28jr:5XtsZSXKP9F" resolve="IOFXPrintFactory" />
+      <node concept="3uibUv" id="NaP_iXfWVM" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
       </node>
       <node concept="2AHcQZ" id="5E5qL$GvuL_" role="2AJF6D">
         <ref role="2AI5Lk" to="oi9j:~Autowired" resolve="Autowired" />
@@ -853,11 +853,12 @@
               <ref role="37wK5l" to="28jr:2vHEu_N$F8P" resolve="setUserPrintService" />
               <node concept="2OqwBi" id="5E5qL$GvuST" role="37wK5m">
                 <node concept="37vLTw" id="5E5qL$GvuPX" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5E5qL$GvuJw" resolve="printFactory" />
+                  <ref role="3cqZAo" node="5E5qL$GvuJw" resolve="applicationFactory" />
                 </node>
                 <node concept="liA8E" id="5E5qL$Gvv0b" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:5XtsZSXLp8v" resolve="createConfiguredUserPrintService" />
+                  <ref role="37wK5l" to="28jr:2vHEu_NBRze" resolve="createConfiguredUserPrintService" />
                   <node concept="10Nm6u" id="5E5qL$Gvv26" role="37wK5m" />
+                  <node concept="10Nm6u" id="NaP_iXfXvl" role="37wK5m" />
                 </node>
               </node>
             </node>
@@ -897,16 +898,6 @@
             </node>
             <node concept="liA8E" id="5HEFy8JQly$" role="2OqNvi">
               <ref role="37wK5l" to="28jr:6j4XqQEzQUR" resolve="gcClean" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5HEFy8JQlF4" role="3cqZAp">
-          <node concept="2OqwBi" id="5HEFy8JQlHI" role="3clFbG">
-            <node concept="37vLTw" id="5HEFy8JQlF2" role="2Oq$k0">
-              <ref role="3cqZAo" node="5E5qL$GvuJw" resolve="printFactory" />
-            </node>
-            <node concept="liA8E" id="5HEFy8JQqa8" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:5HEFy8JQp86" resolve="gcClean" />
             </node>
           </node>
         </node>
@@ -999,7 +990,7 @@
             <node concept="3clFbF" id="5nND$KgEAda" role="3SKWNf">
               <node concept="1odsa" id="5nND$KgEAd9" role="3clFbG">
                 <ref role="1ods_" to="ofql:36k2Uwstchd" resolve="TestModelRepo" />
-                <ref role="37wK5l" to="ofql:66mO_QB97rJ" resolve="checkinTestObject" />
+                <ref role="37wK5l" to="ofql:66mO_QB97rJ" resolve="checkinIntKeyObject" />
                 <node concept="10EhbA" id="5nND$KgJEhv" role="37wK5m">
                   <ref role="10EhbB" node="5nND$KgDDK3" resolve="intkey" />
                 </node>
@@ -1391,7 +1382,7 @@
               </node>
             </node>
             <node concept="liA8E" id="5E5qL$Gvj40" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:2vHEu_N_4Dh" resolve="print" />
+              <ref role="37wK5l" to="28jr:2vHEu_N_4Dh" resolve="renderPrint" />
               <node concept="Xl_RD" id="5E5qL$Gvj6w" role="37wK5m">
                 <property role="Xl_RC" value="TestDoc.pdf" />
               </node>
