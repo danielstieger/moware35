@@ -17822,7 +17822,7 @@
       <node concept="2tJIrI" id="3BCllXpRws0" role="jymVt" />
       <node concept="2tJIrI" id="3BCllXpRwH5" role="jymVt" />
       <node concept="312cEg" id="3BCllXpRw1u" role="jymVt">
-        <property role="TrG5h" value="userEnvironment" />
+        <property role="TrG5h" value="thisBatchJobUserEnvironment" />
         <node concept="3Tm6S6" id="3BCllXpRw1v" role="1B3o_S" />
         <node concept="3uibUv" id="2$LKw9Vpf33" role="1tU5fm">
           <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
@@ -17833,7 +17833,7 @@
       </node>
       <node concept="2tJIrI" id="3LLLt34vpf0" role="jymVt" />
       <node concept="312cEg" id="7ubUX4ZKXmz" role="jymVt">
-        <property role="TrG5h" value="appFactory" />
+        <property role="TrG5h" value="thisBatchJobAppFactory" />
         <node concept="3Tm6S6" id="7ubUX4ZKXm$" role="1B3o_S" />
         <node concept="3uibUv" id="7ubUX4ZL2RB" role="1tU5fm">
           <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
@@ -18169,7 +18169,7 @@
                   <node concept="3clFbF" id="7ubUX4ZL5iI" role="3SKWNf">
                     <node concept="2OqwBi" id="7ubUX4ZLarf" role="3clFbG">
                       <node concept="37vLTw" id="7ubUX4ZL5iG" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7ubUX4ZKXmz" resolve="appFactory" />
+                        <ref role="3cqZAo" node="7ubUX4ZKXmz" resolve="thisBatchJobAppFactory" />
                       </node>
                       <node concept="liA8E" id="7ubUX4ZLcOc" role="2OqNvi">
                         <ref role="37wK5l" to="28jr:xRnvdd0M17" resolve="shutdown" />
@@ -18648,7 +18648,7 @@
                         </node>
                       </node>
                       <node concept="37vLTw" id="3BCllXpRwpB" role="37wK5m">
-                        <ref role="3cqZAo" node="3BCllXpRw1u" resolve="userEnvironment" />
+                        <ref role="3cqZAo" node="3BCllXpRw1u" resolve="thisBatchJobUserEnvironment" />
                       </node>
                     </node>
                   </node>
@@ -18920,7 +18920,7 @@
                 </node>
                 <node concept="2OqwBi" id="4T6wObo8xra" role="37wK5m">
                   <node concept="37vLTw" id="4T6wObo8xol" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7ubUX4ZKXmz" resolve="appFactory" />
+                    <ref role="3cqZAo" node="7ubUX4ZKXmz" resolve="thisBatchJobAppFactory" />
                   </node>
                   <node concept="liA8E" id="4T6wObo8xH6" role="2OqNvi">
                     <ref role="37wK5l" to="28jr:4T6wObo62Pu" resolve="getConnectionUrl" />
