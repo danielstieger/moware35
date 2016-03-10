@@ -14674,6 +14674,51 @@
           </node>
         </node>
         <node concept="3clFbH" id="5_bDd1dmJar" role="3cqZAp" />
+        <node concept="3clFbF" id="4vHQZKCdGW$" role="3cqZAp">
+          <node concept="2OqwBi" id="4vHQZKCdHCS" role="3clFbG">
+            <node concept="37vLTw" id="4vHQZKCdGWy" role="2Oq$k0">
+              <ref role="3cqZAo" node="5_bDd1dpk4v" resolve="cancelButton" />
+            </node>
+            <node concept="liA8E" id="4vHQZKCdUCj" role="2OqNvi">
+              <ref role="37wK5l" to="vik9:~Labeled.setText(java.lang.String):void" resolve="setText" />
+              <node concept="2OqwBi" id="4vHQZKCdUH0" role="37wK5m">
+                <node concept="37vLTw" id="4vHQZKCdUEM" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5_bDd1dqaF0" resolve="factory" />
+                </node>
+                <node concept="liA8E" id="4vHQZKCdUNp" role="2OqNvi">
+                  <ref role="37wK5l" to="quhv:20ohnkbA2Ln" resolve="getTranslation" />
+                  <node concept="Rm8GO" id="4vHQZKCe1Pa" role="37wK5m">
+                    <ref role="Rm8GQ" to="quhv:4vHQZKCcRpU" resolve="NO_BUTTON" />
+                    <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4vHQZKCe2Mz" role="3cqZAp">
+          <node concept="2OqwBi" id="4vHQZKCe3vK" role="3clFbG">
+            <node concept="37vLTw" id="4vHQZKCe2Mx" role="2Oq$k0">
+              <ref role="3cqZAo" node="5_bDd1dpiCM" resolve="okButton" />
+            </node>
+            <node concept="liA8E" id="4vHQZKCe50N" role="2OqNvi">
+              <ref role="37wK5l" to="vik9:~Labeled.setText(java.lang.String):void" resolve="setText" />
+              <node concept="2OqwBi" id="4vHQZKCe54_" role="37wK5m">
+                <node concept="37vLTw" id="4vHQZKCe52H" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5_bDd1dqaF0" resolve="factory" />
+                </node>
+                <node concept="liA8E" id="4vHQZKCe5f7" role="2OqNvi">
+                  <ref role="37wK5l" to="quhv:20ohnkbA2Ln" resolve="getTranslation" />
+                  <node concept="Rm8GO" id="4vHQZKCe5km" role="37wK5m">
+                    <ref role="Rm8GQ" to="quhv:4vHQZKCcE0A" resolve="YES_BUTTON" />
+                    <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4vHQZKCe5m8" role="3cqZAp" />
         <node concept="3clFbF" id="75iQIE97BOk" role="3cqZAp">
           <node concept="2OqwBi" id="75iQIE97DgA" role="3clFbG">
             <node concept="37vLTw" id="75iQIE97BOi" role="2Oq$k0">

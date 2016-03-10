@@ -8482,8 +8482,8 @@
                   </node>
                   <node concept="liA8E" id="2wSq35xFH4B" role="2OqNvi">
                     <ref role="37wK5l" to="quhv:20ohnkbA2Ln" resolve="getTranslation" />
-                    <node concept="Rm8GO" id="2wSq35xFHiR" role="37wK5m">
-                      <ref role="Rm8GQ" to="quhv:4Zj1V_wFQvQ" resolve="ESC_BUTTON" />
+                    <node concept="Rm8GO" id="4vHQZKCgg$e" role="37wK5m">
+                      <ref role="Rm8GQ" to="quhv:4vHQZKCcRpU" resolve="NO_BUTTON" />
                       <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
                     </node>
                   </node>
@@ -8560,8 +8560,8 @@
                   </node>
                   <node concept="liA8E" id="2wSq35xFMQD" role="2OqNvi">
                     <ref role="37wK5l" to="quhv:20ohnkbA2Ln" resolve="getTranslation" />
-                    <node concept="Rm8GO" id="2wSq35xFN4M" role="37wK5m">
-                      <ref role="Rm8GQ" to="quhv:4Zj1V_wFQvN" resolve="OK_BUTTON" />
+                    <node concept="Rm8GO" id="4vHQZKCggDX" role="37wK5m">
+                      <ref role="Rm8GQ" to="quhv:4vHQZKCcE0A" resolve="YES_BUTTON" />
                       <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
                     </node>
                   </node>

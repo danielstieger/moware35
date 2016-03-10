@@ -14459,6 +14459,26 @@
           <property role="Xl_RC" value="" />
         </node>
       </node>
+      <node concept="QsSxf" id="4vHQZKCcE0A" role="Qtgdg">
+        <property role="TrG5h" value="YES_BUTTON" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="4vHQZKCcRns" role="37wK5m">
+          <property role="Xl_RC" value="Ja (F12)" />
+        </node>
+        <node concept="Xl_RD" id="4vHQZKCcRpu" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="4vHQZKCcRpU" role="Qtgdg">
+        <property role="TrG5h" value="NO_BUTTON" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="4vHQZKCcREd" role="37wK5m">
+          <property role="Xl_RC" value="Nein (ESC)" />
+        </node>
+        <node concept="Xl_RD" id="4vHQZKCcRFB" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
       <node concept="QsSxf" id="2FClOw1VSS5" role="Qtgdg">
         <property role="TrG5h" value="CLOSE_BUTTON" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
