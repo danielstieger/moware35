@@ -34215,6 +34215,16 @@
   <node concept="312cEu" id="5XtsZSXLpsp">
     <property role="3GE5qa" value="OFXImpl" />
     <property role="TrG5h" value="OFXFatClientPrintFactory" />
+    <node concept="Wx3nA" id="4dHUEEx6$F8" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="WINDOWS_FONT_PATH" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="4dHUEEx6$$j" role="1tU5fm" />
+      <node concept="3Tm6S6" id="4dHUEEx6$hK" role="1B3o_S" />
+      <node concept="Xl_RD" id="4dHUEEx6$Ao" role="33vP2m">
+        <property role="Xl_RC" value="C:/windows/fonts" />
+      </node>
+    </node>
     <node concept="312cEg" id="5XtsZSXLSnn" role="jymVt">
       <property role="TrG5h" value="printService" />
       <node concept="3Tmbuc" id="5XtsZSXLUFX" role="1B3o_S" />
@@ -34371,15 +34381,71 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5XtsZSXNW5k" role="3cqZAp">
-          <node concept="37vLTI" id="5XtsZSXNWul" role="3clFbG">
-            <node concept="37vLTw" id="5XtsZSXNWzv" role="37vLTx">
-              <ref role="3cqZAo" node="5XtsZSXNVYc" resolve="fontPath" />
+        <node concept="3clFbH" id="4dHUEEx66Da" role="3cqZAp" />
+        <node concept="3clFbJ" id="4dHUEEx6un0" role="3cqZAp">
+          <node concept="3clFbS" id="4dHUEEx6un2" role="3clFbx">
+            <node concept="3clFbF" id="4dHUEEx6zH9" role="3cqZAp">
+              <node concept="37vLTI" id="4dHUEEx6zU$" role="3clFbG">
+                <node concept="37vLTw" id="4dHUEEx6_bi" role="37vLTx">
+                  <ref role="3cqZAo" node="4dHUEEx6$F8" resolve="WINDOWS_FONT_PATH" />
+                </node>
+                <node concept="2OqwBi" id="4dHUEEx6zHx" role="37vLTJ">
+                  <node concept="Xjq3P" id="4dHUEEx6zH7" role="2Oq$k0" />
+                  <node concept="2OwXpG" id="4dHUEEx6zMv" role="2OqNvi">
+                    <ref role="2Oxat5" node="5XtsZSXNVMz" resolve="fontPath" />
+                  </node>
+                </node>
+              </node>
             </node>
-            <node concept="2OqwBi" id="5XtsZSXNWaw" role="37vLTJ">
-              <node concept="Xjq3P" id="5XtsZSXNW5i" role="2Oq$k0" />
-              <node concept="2OwXpG" id="5XtsZSXNWiu" role="2OqNvi">
-                <ref role="2Oxat5" node="5XtsZSXNVMz" resolve="fontPath" />
+          </node>
+          <node concept="22lmx$" id="4dHUEEx6vrZ" role="3clFbw">
+            <node concept="2OqwBi" id="4dHUEEx6v_l" role="3uHU7w">
+              <node concept="Xl_RD" id="4dHUEEx6vuJ" role="2Oq$k0">
+                <property role="Xl_RC" value="false" />
+              </node>
+              <node concept="liA8E" id="4dHUEEx6ziq" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="2OqwBi" id="4dHUEEx6zpv" role="37wK5m">
+                  <node concept="37vLTw" id="4dHUEEx6zkx" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5XtsZSXNVYc" resolve="fontPath" />
+                  </node>
+                  <node concept="liA8E" id="4dHUEEx6zEY" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4dHUEEx6uzc" role="3uHU7B">
+              <node concept="liA8E" id="4dHUEEx6uNY" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="2OqwBi" id="4dHUEEx6uVK" role="37wK5m">
+                  <node concept="37vLTw" id="4dHUEEx6usT" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5XtsZSXNVYc" resolve="fontPath" />
+                  </node>
+                  <node concept="liA8E" id="4dHUEEx6vco" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                  </node>
+                </node>
+              </node>
+              <node concept="Xl_RD" id="4dHUEEx6uOR" role="2Oq$k0">
+                <property role="Xl_RC" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="4dHUEEx6_dk" role="9aQIa">
+            <node concept="3clFbS" id="4dHUEEx6_dl" role="9aQI4">
+              <node concept="3clFbF" id="5XtsZSXNW5k" role="3cqZAp">
+                <node concept="37vLTI" id="5XtsZSXNWul" role="3clFbG">
+                  <node concept="37vLTw" id="5XtsZSXNWzv" role="37vLTx">
+                    <ref role="3cqZAo" node="5XtsZSXNVYc" resolve="fontPath" />
+                  </node>
+                  <node concept="2OqwBi" id="5XtsZSXNWaw" role="37vLTJ">
+                    <node concept="Xjq3P" id="5XtsZSXNW5i" role="2Oq$k0" />
+                    <node concept="2OwXpG" id="5XtsZSXNWiu" role="2OqNvi">
+                      <ref role="2Oxat5" node="5XtsZSXNVMz" resolve="fontPath" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -34540,8 +34606,8 @@
         </node>
         <node concept="3clFbF" id="5rUNOpLWUUC" role="3cqZAp">
           <node concept="37vLTI" id="5rUNOpLWUUD" role="3clFbG">
-            <node concept="Xl_RD" id="5rUNOpLYqzq" role="37vLTx">
-              <property role="Xl_RC" value="C:/windows/fonts" />
+            <node concept="37vLTw" id="4dHUEEx6_44" role="37vLTx">
+              <ref role="3cqZAo" node="4dHUEEx6$F8" resolve="WINDOWS_FONT_PATH" />
             </node>
             <node concept="2OqwBi" id="5rUNOpLWUUF" role="37vLTJ">
               <node concept="Xjq3P" id="5rUNOpLWUUG" role="2Oq$k0" />
