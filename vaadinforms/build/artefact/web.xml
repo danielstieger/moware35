@@ -19,11 +19,30 @@
   </context-param>
 
   <context-param>
+    <!-- Server will close Session after 3 missed heartbeats. heartbeat
+         interval is in secs. HOWEVER, heartbeat is solely checked when
+         doing request (multiple UI per session etc.). Thus, when closing
+         the browser window we won t run in a hearbeat missing detach :/
+         If needed, that behaviour has to be implemented manually... 
+        -->
 	<param-name>heartbeatInterval</param-name>
-  	<param-value>60</param-value>
+  	<param-value>100</param-value>
   </context-param>
 
+  <context-param> 
+      <!-- non-heartbeat request (true UI interaction) is 
+           used as last session interaction. Thus, when 
+           user is not doing anything for sesstion-time
+           out we close the session -->
+           
+    <param-name>closeIdleSessions</param-name>
+    <param-value>true</param-value>
+  </context-param>
+	
+
   <session-config>
+        <!-- When user is not doing anything for sesstion-timeout min.
+             we close the session -->
     <session-timeout>30</session-timeout>
   </session-config>
 
@@ -43,15 +62,6 @@
     	<param-name>widgetset</param-name>
     	<param-value>org.modellwerkstatt.MyAppWidgetset</param-value>
   	</init-param>
-
-
-
-
-    <init-param>
-      <param-name>closeIdleSessions</param-name>
-      <param-value>true</param-value>
-    </init-param>
-
 
 	<init-param>
         <param-name>xmlConfigFile</param-name>

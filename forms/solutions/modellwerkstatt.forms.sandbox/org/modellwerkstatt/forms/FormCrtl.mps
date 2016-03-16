@@ -8702,6 +8702,17 @@
                                       <node concept="17QB3L" id="1sUmI9zhmc7" role="1tU5fm" />
                                     </node>
                                     <node concept="3clFbS" id="1sUmI9zhmbS" role="2LFqv$">
+                                      <node concept="3clFbH" id="de4UglRsKB" role="3cqZAp" />
+                                      <node concept="3SKdUt" id="de4UglRiVe" role="3cqZAp">
+                                        <node concept="3SKdUq" id="de4UglRjqo" role="3SKWNk">
+                                          <property role="3SKdUp" value="LOCKING: locks are requested via session, thus they are also released by the session" />
+                                        </node>
+                                      </node>
+                                      <node concept="3SKdUt" id="de4UglRrKc" role="3cqZAp">
+                                        <node concept="3SKdUq" id="de4UglRrKB" role="3SKWNk">
+                                          <property role="3SKdUp" value="itself, command ensure that sessions are closed in final conclusions." />
+                                        </node>
+                                      </node>
                                       <node concept="3clFbF" id="1sUmI9zhmcN" role="3cqZAp">
                                         <node concept="37vLTI" id="1sUmI9zhmq9" role="3clFbG">
                                           <node concept="2OqwBi" id="1sUmI9zhmHa" role="37vLTx">
@@ -14169,7 +14180,7 @@
       <node concept="3Tm6S6" id="7708TIHG3jF" role="1B3o_S" />
       <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
       <node concept="Xl_RD" id="7708TIHG4ay" role="33vP2m">
-        <property role="Xl_RC" value="moware60 R4 (mu1)" />
+        <property role="Xl_RC" value="moware60 R4 R1" />
       </node>
     </node>
     <node concept="2tJIrI" id="7708TIHFKmX" role="jymVt" />
@@ -14866,6 +14877,16 @@
           <property role="Xl_RC" value="Die Anwendung wird durch eine neue Version ersetzt. Bitte speichern \nSie ihre Aenderungen und starten Sie die Applikation erneut!" />
         </node>
         <node concept="Xl_RD" id="7nxGN1HIKxC" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="6OyHsl_0Q4P" role="Qtgdg">
+        <property role="TrG5h" value="APPLICATION_RUNNING_IN_BROWSER" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="6OyHsl_0SuI" role="37wK5m">
+          <property role="Xl_RC" value="Die Applikation wird in einem anderen Browser-Tab bereits ausgeführt. Eine weitere Anmeldung sollte nicht durchgeführt werden! (clicken Sie auf die Meldung, um zu bestätigen)" />
+        </node>
+        <node concept="Xl_RD" id="6OyHsl_0SvT" role="37wK5m">
           <property role="Xl_RC" value="" />
         </node>
       </node>
@@ -45686,35 +45707,40 @@
                   <node concept="2ShNRf" id="1EBV9L$_BFY" role="37wK5m">
                     <node concept="1pGfFk" id="1EBV9L$_BFZ" role="2ShVmc">
                       <ref role="37wK5l" to="77h2:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="3cpWs3" id="1EBV9L$_BG0" role="37wK5m">
-                        <node concept="2OqwBi" id="1EBV9L$_BG1" role="3uHU7w">
-                          <node concept="37vLTw" id="1EBV9L$_BG2" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="userTelemetrics" />
-                          </node>
-                          <node concept="liA8E" id="1EBV9L$_BG3" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~Object.hashCode():int" resolve="hashCode" />
-                          </node>
+                      <node concept="3cpWs3" id="6OyHsl_1ANV" role="37wK5m">
+                        <node concept="Xl_RD" id="6OyHsl_1AP5" role="3uHU7w">
+                          <property role="Xl_RC" value=")" />
                         </node>
-                        <node concept="3cpWs3" id="6TYnK1bIE2S" role="3uHU7B">
-                          <node concept="Xl_RD" id="6TYnK1bIE_3" role="3uHU7w">
-                            <property role="Xl_RC" value="___" />
-                          </node>
-                          <node concept="3cpWs3" id="6TYnK1bIDex" role="3uHU7B">
-                            <node concept="3cpWs3" id="1EBV9L$_BG4" role="3uHU7B">
-                              <node concept="37vLTw" id="1EBV9L$_BG7" role="3uHU7B">
-                                <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
+                        <node concept="3cpWs3" id="1EBV9L$_BG0" role="3uHU7B">
+                          <node concept="3cpWs3" id="6TYnK1bIE2S" role="3uHU7B">
+                            <node concept="Xl_RD" id="6TYnK1bIE_3" role="3uHU7w">
+                              <property role="Xl_RC" value="    (" />
+                            </node>
+                            <node concept="3cpWs3" id="6TYnK1bIDex" role="3uHU7B">
+                              <node concept="3cpWs3" id="1EBV9L$_BG4" role="3uHU7B">
+                                <node concept="37vLTw" id="1EBV9L$_BG7" role="3uHU7B">
+                                  <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
+                                </node>
+                                <node concept="37vLTw" id="1EBV9L$_FOq" role="3uHU7w">
+                                  <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="userServiceName" />
+                                </node>
                               </node>
-                              <node concept="37vLTw" id="1EBV9L$_FOq" role="3uHU7w">
-                                <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="userServiceName" />
+                              <node concept="2OqwBi" id="31dwTLE$jWF" role="3uHU7w">
+                                <node concept="37vLTw" id="31dwTLE$jPW" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="userTelemetrics" />
+                                </node>
+                                <node concept="liA8E" id="31dwTLE$kfd" role="2OqNvi">
+                                  <ref role="37wK5l" node="31dwTLExOsz" resolve="getJmxRegistrationName" />
+                                </node>
                               </node>
                             </node>
-                            <node concept="2OqwBi" id="31dwTLE$jWF" role="3uHU7w">
-                              <node concept="37vLTw" id="31dwTLE$jPW" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="userTelemetrics" />
-                              </node>
-                              <node concept="liA8E" id="31dwTLE$kfd" role="2OqNvi">
-                                <ref role="37wK5l" node="31dwTLExOsz" resolve="getJmxRegistrationName" />
-                              </node>
+                          </node>
+                          <node concept="2OqwBi" id="1EBV9L$_BG1" role="3uHU7w">
+                            <node concept="37vLTw" id="1EBV9L$_BG2" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="userTelemetrics" />
+                            </node>
+                            <node concept="liA8E" id="1EBV9L$_BG3" role="2OqNvi">
+                              <ref role="37wK5l" to="e2lb:~Object.hashCode():int" resolve="hashCode" />
                             </node>
                           </node>
                         </node>
@@ -45895,35 +45921,40 @@
                   <node concept="2ShNRf" id="1EBV9L$_AMl" role="37wK5m">
                     <node concept="1pGfFk" id="1EBV9L$_AMm" role="2ShVmc">
                       <ref role="37wK5l" to="77h2:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="3cpWs3" id="6TYnK1bIJ0C" role="37wK5m">
-                        <node concept="2OqwBi" id="6TYnK1bIJ0D" role="3uHU7w">
-                          <node concept="37vLTw" id="6TYnK1bIJ0E" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="userTelemetrics" />
-                          </node>
-                          <node concept="liA8E" id="6TYnK1bIJ0F" role="2OqNvi">
-                            <ref role="37wK5l" to="e2lb:~Object.hashCode():int" resolve="hashCode" />
-                          </node>
+                      <node concept="3cpWs3" id="6OyHsl_1B_X" role="37wK5m">
+                        <node concept="Xl_RD" id="6OyHsl_1BB7" role="3uHU7w">
+                          <property role="Xl_RC" value=")" />
                         </node>
-                        <node concept="3cpWs3" id="6TYnK1bIJ0G" role="3uHU7B">
-                          <node concept="Xl_RD" id="6TYnK1bIJ0H" role="3uHU7w">
-                            <property role="Xl_RC" value="___" />
-                          </node>
-                          <node concept="3cpWs3" id="6TYnK1bIJ0I" role="3uHU7B">
-                            <node concept="3cpWs3" id="6TYnK1bIJ0J" role="3uHU7B">
-                              <node concept="37vLTw" id="6TYnK1bIJ0K" role="3uHU7B">
-                                <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
+                        <node concept="3cpWs3" id="6TYnK1bIJ0C" role="3uHU7B">
+                          <node concept="3cpWs3" id="6TYnK1bIJ0G" role="3uHU7B">
+                            <node concept="Xl_RD" id="6TYnK1bIJ0H" role="3uHU7w">
+                              <property role="Xl_RC" value="    (" />
+                            </node>
+                            <node concept="3cpWs3" id="6TYnK1bIJ0I" role="3uHU7B">
+                              <node concept="3cpWs3" id="6TYnK1bIJ0J" role="3uHU7B">
+                                <node concept="37vLTw" id="6TYnK1bIJ0K" role="3uHU7B">
+                                  <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
+                                </node>
+                                <node concept="37vLTw" id="6TYnK1bIJ0Z" role="3uHU7w">
+                                  <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="userServiceName" />
+                                </node>
                               </node>
-                              <node concept="37vLTw" id="6TYnK1bIJ0Z" role="3uHU7w">
-                                <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="userServiceName" />
+                              <node concept="2OqwBi" id="31dwTLE$kDU" role="3uHU7w">
+                                <node concept="37vLTw" id="31dwTLE$kzo" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="userTelemetrics" />
+                                </node>
+                                <node concept="liA8E" id="31dwTLE$kTr" role="2OqNvi">
+                                  <ref role="37wK5l" node="31dwTLExOsz" resolve="getJmxRegistrationName" />
+                                </node>
                               </node>
                             </node>
-                            <node concept="2OqwBi" id="31dwTLE$kDU" role="3uHU7w">
-                              <node concept="37vLTw" id="31dwTLE$kzo" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="userTelemetrics" />
-                              </node>
-                              <node concept="liA8E" id="31dwTLE$kTr" role="2OqNvi">
-                                <ref role="37wK5l" node="31dwTLExOsz" resolve="getJmxRegistrationName" />
-                              </node>
+                          </node>
+                          <node concept="2OqwBi" id="6TYnK1bIJ0D" role="3uHU7w">
+                            <node concept="37vLTw" id="6TYnK1bIJ0E" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="userTelemetrics" />
+                            </node>
+                            <node concept="liA8E" id="6TYnK1bIJ0F" role="2OqNvi">
+                              <ref role="37wK5l" to="e2lb:~Object.hashCode():int" resolve="hashCode" />
                             </node>
                           </node>
                         </node>
@@ -46649,7 +46680,7 @@
                 </node>
               </node>
               <node concept="Xl_RD" id="31dwTLExXpR" role="3uHU7w">
-                <property role="Xl_RC" value="_" />
+                <property role="Xl_RC" value=" / " />
               </node>
             </node>
             <node concept="2OqwBi" id="31dwTLExYqN" role="3uHU7w">
