@@ -42,7 +42,8 @@
 
   <session-config>
         <!-- When user is not doing anything for sesstion-timeout min.
-             we close the session -->
+             we close the session. VaadinForms handles those timeouts in 
+             VApplicationLoader, not here. -->
     <session-timeout>30</session-timeout>
   </session-config>
 
