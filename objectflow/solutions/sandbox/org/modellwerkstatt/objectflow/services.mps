@@ -8406,7 +8406,7 @@
         <ref role="1Pybhc" to="28jr:3spXEPXIsOe" resolve="MoDateTimeFormatters" />
         <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forPattern" />
         <node concept="Xl_RD" id="2T5SnS24sOl" role="37wK5m">
-          <property role="Xl_RC" value="EEE hh:mm:ss" />
+          <property role="Xl_RC" value="EEE HH:mm:ss" />
         </node>
       </node>
     </node>

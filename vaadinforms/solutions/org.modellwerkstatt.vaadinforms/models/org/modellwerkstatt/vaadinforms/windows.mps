@@ -632,6 +632,22 @@
           </node>
         </node>
         <node concept="3clFbH" id="6OyHsl_0yS4" role="3cqZAp" />
+        <node concept="3SKdUt" id="vsIEjNuxoG" role="3cqZAp">
+          <node concept="3SKdUq" id="vsIEjNuxI7" role="3SKWNk">
+            <property role="3SKdUp" value=" - setup vaadin window .. " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="41UdyNBAps0" role="3cqZAp">
+          <node concept="2OqwBi" id="41UdyNBApCS" role="3clFbG">
+            <node concept="Xjq3P" id="41UdyNBAprY" role="2Oq$k0" />
+            <node concept="liA8E" id="41UdyNBAq7d" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~UI.setTheme(java.lang.String):void" resolve="setTheme" />
+              <node concept="Xl_RD" id="41UdyNBAqeF" role="37wK5m">
+                <property role="Xl_RC" value="moware" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="6OyHsl_0zSl" role="3cqZAp" />
         <node concept="3SKdUt" id="vsIEjNtVrU" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNtV$U" role="3SKWNk">
@@ -766,24 +782,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="vsIEjNtUUO" role="3cqZAp" />
-        <node concept="3SKdUt" id="vsIEjNuxoG" role="3cqZAp">
-          <node concept="3SKdUq" id="vsIEjNuxI7" role="3SKWNk">
-            <property role="3SKdUp" value=" - setup vaadin window .. " />
-          </node>
-        </node>
-        <node concept="3clFbF" id="41UdyNBAps0" role="3cqZAp">
-          <node concept="2OqwBi" id="41UdyNBApCS" role="3clFbG">
-            <node concept="Xjq3P" id="41UdyNBAprY" role="2Oq$k0" />
-            <node concept="liA8E" id="41UdyNBAq7d" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~UI.setTheme(java.lang.String):void" resolve="setTheme" />
-              <node concept="Xl_RD" id="41UdyNBAqeF" role="37wK5m">
-                <property role="Xl_RC" value="moware" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="6KBCmIOTTdD" role="3cqZAp" />
+        <node concept="3clFbH" id="64iyuJIoybi" role="3cqZAp" />
         <node concept="3SKdUt" id="4XCrhc0QZ10" role="3cqZAp">
           <node concept="3SKdUq" id="4XCrhc0QZVI" role="3SKWNk">
             <property role="3SKdUp" value="Todo: remove progressbar? " />
@@ -4830,8 +4829,17 @@
             </node>
             <node concept="liA8E" id="6go2MrsvxyU" role="2OqNvi">
               <ref role="37wK5l" to="o2tm:~MenuBar$MenuItem.addItem(java.lang.String,com.vaadin.server.Resource,com.vaadin.ui.MenuBar$Command):com.vaadin.ui.MenuBar$MenuItem" resolve="addItem" />
-              <node concept="Xl_RD" id="6go2MrsvxDb" role="37wK5m">
-                <property role="Xl_RC" value="Quit" />
+              <node concept="2OqwBi" id="64iyuJIo3dE" role="37wK5m">
+                <node concept="37vLTw" id="64iyuJIo36t" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6go2MrsuUX7" resolve="factory" />
+                </node>
+                <node concept="liA8E" id="64iyuJIo3jy" role="2OqNvi">
+                  <ref role="37wK5l" to="quhv:20ohnkbA2Ln" resolve="getTranslation" />
+                  <node concept="Rm8GO" id="64iyuJIo70_" role="37wK5m">
+                    <ref role="Rm8GQ" to="quhv:4Zj1V_wFQtL" resolve="QUIT" />
+                    <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                  </node>
+                </node>
               </node>
               <node concept="2ShNRf" id="7SiTcfwJC9i" role="37wK5m">
                 <node concept="1pGfFk" id="7SiTcfwJD2p" role="2ShVmc">

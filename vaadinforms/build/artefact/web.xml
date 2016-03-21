@@ -13,6 +13,9 @@
 
 
   <context-param>
+    <!-- in productiopn mode, on the fly sass compile will 
+         not be available.... -->
+    
   	<param-name>productionMode</param-name>
   	<param-value>false</param-value>
   	<description>Vaadin production mode</description>
@@ -26,7 +29,7 @@
          If needed, that behaviour has to be implemented manually... 
         -->
 	<param-name>heartbeatInterval</param-name>
-  	<param-value>100</param-value>
+  	<param-value>30</param-value>
   </context-param>
 
   <context-param> 
