@@ -59,6 +59,12 @@
 		color: $mo-max-borderclr; */
 		color: $mo-flag-label-color;
 	}
+	
+	.mo-lablespace {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	
 	/* also for prompt window */
 	.v-window-header {
 		color: $mo-flag-label-color !important;
@@ -156,6 +162,7 @@
 	.v-textfield:disabled, .v-filterselect-input:disabled {
 		color: #000000 !important;
 	}
+	
 	
 }
 

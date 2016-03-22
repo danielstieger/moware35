@@ -12565,6 +12565,11 @@ div.v-layout.v-horizontal.v-widget {
 	color: #6B7D99;
 }
 
+.moware .mo-lablespace {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
 .moware .v-window-header {
 	color: #6B7D99 !important;
 }

@@ -4436,7 +4436,6 @@
                         <property role="3SKdUp" value="in case this prompt is requested immediately from main window" />
                       </node>
                     </node>
-                    <node concept="3clFbH" id="WpszhTVtoH" role="3cqZAp" />
                     <node concept="3clFbF" id="5_bDd1dPxzU" role="3cqZAp">
                       <node concept="37vLTI" id="5_bDd1dPx$m" role="3clFbG">
                         <node concept="2OqwBi" id="5_bDd1dPxBH" role="37vLTx">
@@ -4462,6 +4461,7 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="60WgQRQFx3r" role="3cqZAp" />
                   </node>
                   <node concept="3clFbC" id="WpszhTUvnB" role="3clFbw">
                     <node concept="10Nm6u" id="WpszhTUvoe" role="3uHU7w" />
@@ -14734,7 +14734,7 @@
         <property role="TrG5h" value="SESSION_DIRTY" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
         <node concept="Xl_RD" id="4vUcH_0hKSP" role="37wK5m">
-          <property role="Xl_RC" value="Es wurden mit diesem Kommando Daten verändert,\ndie NICHT gespeichert wurden! Kommando dennoch\nbeenden?\n" />
+          <property role="Xl_RC" value="Es wurden mit diesem Kommando Daten verändert, die NICHT gespeichert wurden!\n Kommando dennoch beenden?\n" />
         </node>
         <node concept="Xl_RD" id="4vUcH_0hKSQ" role="37wK5m">
           <property role="Xl_RC" value="" />
@@ -14912,6 +14912,26 @@
           </node>
         </node>
         <node concept="Xl_RD" id="7708TIHHbrV" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="5JJsFAvp84Y" role="Qtgdg">
+        <property role="TrG5h" value="CMD_OPENED_IN_OTHER_TAB" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="5JJsFAvpd2h" role="37wK5m">
+          <property role="Xl_RC" value="Das Kommando wird in einem weiteren Browser-Tab ausgeführt." />
+        </node>
+        <node concept="Xl_RD" id="5JJsFAvpd5i" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="5JJsFAvpd5y" role="Qtgdg">
+        <property role="TrG5h" value="CMD_CLOSED_IN_TAB" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="5JJsFAvpdml" role="37wK5m">
+          <property role="Xl_RC" value="Das Kommando in diesem Browser-Tab wurde beendet." />
+        </node>
+        <node concept="Xl_RD" id="5JJsFAvpdoE" role="37wK5m">
           <property role="Xl_RC" value="" />
         </node>
       </node>

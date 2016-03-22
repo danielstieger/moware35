@@ -58,7 +58,7 @@
 
     <init-param>
       <param-name>UI</param-name>
-      <param-value>org.modellwerkstatt.vaadinforms.windows.VApplicationInstance</param-value>
+      <param-value>org.modellwerkstatt.vaadinforms.windows.VBrowserTabUI</param-value>
     </init-param>
 
     <init-param>
