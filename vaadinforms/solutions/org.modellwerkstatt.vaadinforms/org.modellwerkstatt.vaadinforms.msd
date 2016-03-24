@@ -5,17 +5,17 @@
       <sourceRoot location="models" />
     </modelRoot>
     <modelRoot contentPath="${mowareHome}/vaadinforms/jars" type="java_classes">
-      <sourceRoot location="vaadin-server-7.4.7.jar" />
-      <sourceRoot location="vaadin-shared-7.4.7.jar" />
       <sourceRoot location="contextmenu-4.5.jar" />
+      <sourceRoot location="vaadin-server-7.6.4.jar" />
+      <sourceRoot location="vaadin-shared-7.6.4.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${mowareHome}/vaadinforms/jars/vaadin-server-7.4.7.jar" />
-    <stubModelEntry path="${mowareHome}/vaadinforms/jars/vaadin-shared-7.4.7.jar" />
-    <stubModelEntry path="${mowareHome}/vaadinforms/jars/vaadin-themes-7.4.7.jar" />
     <stubModelEntry path="${mowareHome}/vaadinforms/jars/jsoup-1.8.1.jar" />
     <stubModelEntry path="${mowareHome}/vaadinforms/jars/contextmenu-4.5.jar" />
+    <stubModelEntry path="${mowareHome}/vaadinforms/jars/vaadin-server-7.6.4.jar" />
+    <stubModelEntry path="${mowareHome}/vaadinforms/jars/vaadin-shared-7.6.4.jar" />
+    <stubModelEntry path="${mowareHome}/vaadinforms/jars/vaadin-themes-7.6.4.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

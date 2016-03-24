@@ -14884,7 +14884,7 @@
         <property role="TrG5h" value="APPLICATION_RUNNING_IN_BROWSER" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
         <node concept="Xl_RD" id="6OyHsl_0SuI" role="37wK5m">
-          <property role="Xl_RC" value="Die Applikation wird in einem anderen Browser-Tab bereits ausgeführt. Eine weitere Anmeldung sollte nicht durchgeführt werden! (clicken Sie auf die Meldung, um zu bestätigen)" />
+          <property role="Xl_RC" value="Die Applikation wird in einem anderen Browser-Tab bereits ausgeführt. Eine weitere Anmeldung sollte nicht durchgeführt werden! (clicken Sie auf diese Meldung, um zu bestätigen)" />
         </node>
         <node concept="Xl_RD" id="6OyHsl_0SvT" role="37wK5m">
           <property role="Xl_RC" value="" />

@@ -16,7 +16,7 @@
          not be available.... -->
     
   	<param-name>productionMode</param-name>
-  	<param-value>false</param-value>
+  	<param-value>true</param-value>
   	<description>Vaadin production mode</description>
   </context-param>
 
@@ -76,12 +76,12 @@
     	<param-value>APPLICATION_FQNAME</param-value>
     </init-param>
     
-    <!-- Enable server push -->
+    <!-- DO NOT Enable server push
     <init-param>
       <param-name>pushmode</param-name>
       <param-value>automatic</param-value>
     </init-param>
-    <async-supported>true</async-supported>
+    <async-supported>true</async-supported> -->
     
   </servlet>
 
