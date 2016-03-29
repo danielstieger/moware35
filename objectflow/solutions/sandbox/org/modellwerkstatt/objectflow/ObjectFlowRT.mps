@@ -31691,7 +31691,7 @@
                 <node concept="liA8E" id="6eUMu2ep3uc" role="2OqNvi">
                   <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="6eUMu2ep3ud" role="37wK5m">
-                    <property role="Xl_RC" value="&lt;to font-family=&quot;Courier" />
+                    <property role="Xl_RC" value="&lt;to font-family=&quot;Courier&quot;/&gt;" />
                   </node>
                 </node>
               </node>
