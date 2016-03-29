@@ -14180,7 +14180,7 @@
       <node concept="3Tm6S6" id="7708TIHG3jF" role="1B3o_S" />
       <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
       <node concept="Xl_RD" id="7708TIHG4ay" role="33vP2m">
-        <property role="Xl_RC" value="moware60 R4 02" />
+        <property role="Xl_RC" value="moware60 R4 03" />
       </node>
     </node>
     <node concept="2tJIrI" id="7708TIHFKmX" role="jymVt" />
@@ -14932,6 +14932,16 @@
           <property role="Xl_RC" value="Das Kommando in diesem Browser-Tab wurde beendet." />
         </node>
         <node concept="Xl_RD" id="5JJsFAvpdoE" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="6eUMu2ekBdf" role="Qtgdg">
+        <property role="TrG5h" value="NETWORK_PROBLEMS" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="6eUMu2el1Tb" role="37wK5m">
+          <property role="Xl_RC" value="Die Netzwerkverbindung / Empfang wurde unterbrochen oder schwer beeinträchtigt. (Verbindung sicherstellen!)" />
+        </node>
+        <node concept="Xl_RD" id="6eUMu2el1Yz" role="37wK5m">
           <property role="Xl_RC" value="" />
         </node>
       </node>

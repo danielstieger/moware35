@@ -24,108 +24,105 @@
     Java Home : ${java.home}
   </echo>
 
-  <!-- ************************************************************************************************** -->
-  <!-- **** project specific definitions **************************************************************** -->
-  <!-- ************************************************************************************************** -->
+   <!-- **** build specific definitions ************************************************************** -->
+  <property name="javawareHome"       value="/Users/danielstieger/javaware" /> 
+  <property name="mpsHome"            value="/Users/danielstieger/javaexe/MPS323" /> 
+  <property name="mowarePluginHome"   value="/Users/danielstieger/javaexe/MoPluginFake" />
+  <property name="tomcatHome"         value="/Users/danielstieger/stuff/apache-tomcat-8.0.8" />
+      
+  <!-- **** app specific definitions **************************************************************** -->
+  <property name="appName"            value="SimpleApplication" />
+  <property name="appMainclass"       value="Simple.baseApp.SimpleApplication" />
+  <property name="appConfiguration"   value="Simple/baseApp/VaadinConfig.xml" /> 
  
-  <property name="appName" value="SimpleApplication" />
-  <property name="appMainClass" value="Simple.baseApp.SimpleApplication" />
-  <property name="appConfiguration" value="Simple/baseApp/VaadinConfig.xml" />
-  <property name="appClassesGen" value="/Users/danielstieger/javaware/simpleone/solutions/Simple/classes_gen" /> 
+  <!-- **** solutions to incorporate in this build ************************************************** -->
+  <property name="solSimpleGen"        value="${javawareHome}/simpleone/solutions/Simple/classes_gen" />
 
-  <property name="appClassesGen2" value="/Users/danielstieger/moware/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen" /> 
-  
-  <property name="tomcatDeployDir" value="/Users/danielstieger/stuff/apache-tomcat-8.0.8/webapps/${appName}" />
-  <property name="mowarePluginDir" value="/Users/danielstieger/javaexe/MoPluginFake" />
-  <property name="mpsHomeDir" value="/Users/danielstieger/javaexe/MPS32" />
-  
 
-  <!-- ******************************** TOMCAT Application ********************************** -->
 
-  <target name="default">
-    
-    <!-- REMOVE REMOVE REMOVE           in order to get runtime packaged while developping -->
-    
-    <jar destfile="${mowarePluginDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.sandbox.jar"
-    	 basedir="/Users/danielstieger/moware/objectflow/solutions/sandbox/classes_gen"/>
+  <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
+  <target name="mowarePluginAdoption">
+	<property name="mowareHome"    value="/Users/danielstieger/moware" />
+
+    <jar destfile="${mowarePluginHome}/languages/MoWareLangAndSolutions/org.modellwerkstatt.sandbox.jar"
+    	 basedir="${mowareHome}/objectflow/solutions/sandbox/classes_gen"/>
          
-    <jar destfile="${mowarePluginDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.solution.jar" 
-         basedir="/Users/danielstieger/moware/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
+    <jar destfile="${mowarePluginHome}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.solution.jar" 
+         basedir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
     
-    <jar destfile="${mowarePluginDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.forms.jar" 
-         basedir="/Users/danielstieger/moware/forms/solutions/modellwerkstatt.forms.sandbox/classes_gen"/>
-	
-	
-	<!-- REMOVE REMOVE REMOVE           in order to get runtime packaged while developping -->
-    
+    <jar destfile="${mowarePluginHome}/languages/MoWareLangAndSolutions/org.modellwerkstatt.forms.jar" 
+         basedir="${mowareHome}/forms/solutions/modellwerkstatt.forms.sandbox/classes_gen"/>
+         
+    <jar destfile="${mowarePluginHome}/languages/MoWareLangAndSolutions/org.modellwerkstatt.vaadinforms.jar" 
+         basedir="${mowareHome}/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen"/>
+
+    <jar destfile="${mowarePluginHome}/languages/MoWareLangAndSolutions/moware-vaadin-theme-1.0.jar" 
+         basedir="${mowareHome}/vaadinforms/build/artefact/moware-theme"/>
+         
+    <copy file="${mowareHome}/vaadinforms/build/artefact/web.xml"
+    	tofile="${mowarePluginHome}/artefacts/vaadin/web.xml" overwrite="yes">
+    </copy>
+         
+  </target>
+  <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  
+
+
+  <target name="default" depends="mowarePluginAdoption">
 
     <mkdir dir="work"/>
     <mkdir dir="work/WEB-INF/lib"/>
-    
-    <!-- <jar destfile="work/WEB-INF/lib/moware-theme-1.0.jar" basedir="artefact/moware-theme" update="false">
-    </jar> -->
-    
-    <copy todir="work">
-      <fileset dir="artefact/moware-theme" />
-    </copy>
-    
     <copy todir="work/WEB-INF/lib">
+	  <fileset dir="${mowarePluginHome}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.sandbox.jar" />
+	  <fileset dir="${mowarePluginHome}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
+	  <fileset dir="${mowarePluginHome}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.forms.jar" />
+	  <fileset dir="${mowarePluginHome}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.vaadinforms.jar" />
+	  <fileset dir="${mowarePluginHome}/languages/MoWareLangAndSolutions/" includes="moware-vaadin-theme-1.0.jar" />
     
-      <fileset dir="${mowarePluginDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.sandbox.jar" />
-      <fileset dir="${mowarePluginDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
-      <fileset dir="${mowarePluginDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.forms.jar" />
-    
       
-      <fileset dir="${mowarePluginDir}/jars/" includes="org.springframework*.jar" />
-      <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />
-      <fileset dir="${mpsHomeDir}/lib/" includes="mps-collections.jar" />
-      <fileset dir="${mowarePluginDir}/jars/" includes="joda-time*.jar" />
-      <fileset dir="${mowarePluginDir}/jars/zoo/" includes="zookeeper*.jar" />
-      <fileset dir="${mowarePluginDir}/jars/printing21/" includes="*.jar" />
-      
-      
-    
-      <fileset dir="../jars/" includes="*.jar" />
-      
+      <fileset dir="${javawareHome}/HafinaBasis/jars" includes="*.jar" />
+      <fileset dir="${mowarePluginHome}/jars/" includes="org.springframework*.jar" />
+      <fileset dir="${mpsHome}/lib/" includes="mps-closures.jar" />
+      <fileset dir="${mpsHome}/lib/" includes="mps-collections.jar" />
+      <fileset dir="${mowarePluginHome}/jars/" includes="joda-time*.jar" />
+      <fileset dir="${mowarePluginHome}/jars/zoo/" includes="zookeeper*.jar" />
+      <fileset dir="${mowarePluginHome}/jars/printing21/" includes="*.jar" />
+      <fileset dir="${mowarePluginHome}/jars/vaadin/" includes="*.jar" />
     </copy>
     
     
     
     <mkdir dir="work/WEB-INF/classes"/>
     <copy todir="work/WEB-INF/classes">
-      <fileset dir="${appClassesGen}" />
-      <fileset dir="${appClassesGen2}" />
+      <fileset dir="${solSimpleGen}" />
     </copy>
     
-    <copy file="artefact/web.xml" tofile="work/WEB-INF/web.xml" filtering="yes" overwrite="yes">
+    <copy file="${mowarePluginHome}/artefacts/vaadin/web.xml" tofile="work/WEB-INF/web.xml" filtering="yes" overwrite="yes">
       <filterchain>
           <tokenfilter>
-              <replaceregex pattern="APPLICATION_FQNAME" replace="${appMainClass}"/>
+              <replaceregex pattern="APPLICATION_FQNAME" replace="${appMainclass}"/>
               <replaceregex pattern="APPLICATION_CONFIG" replace="${appConfiguration}"/>
-          
           </tokenfilter>
       </filterchain>
     </copy>
-    
+  
+    <mkdir dir="dist"/>  
     <jar destfile="dist/${appName}.war" basedir="work" update="false">
       <manifest>
-        <attribute name="Main-Class" value="${appMainClass}" />
-        <attribute name="Version" value="${versionString}" />
+        <attribute name="Main-Class" value="${appMainclass}" />
+        <attribute name="Version" value="99.99.99" />
       </manifest>
     </jar>
 
   </target>
   
-  <target name="clean"
-          description="Delete old work and dist directories">
-    <delete dir="work"/>
+  <target name="clean" description="Delete old work and dist directories">
+	<delete dir="work"/>
   </target>
   
   <target name="redeploy" depends="default">
-  	<copy todir="${tomcatDeployDir}">
+  	<copy todir="${tomcatHome}/webapps/${appName}">
   		<fileset dir="work" />
   	</copy>
-  
   </target>
   
 </project>
