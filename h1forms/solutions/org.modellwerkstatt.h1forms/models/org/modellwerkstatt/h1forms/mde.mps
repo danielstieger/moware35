@@ -499,8 +499,20 @@
         <node concept="3clFbF" id="49rIjELqTyq" role="3cqZAp">
           <node concept="37vLTI" id="49rIjELqTRz" role="3clFbG">
             <node concept="2ShNRf" id="49rIjELqTXt" role="37vLTx">
-              <node concept="HV5vD" id="1e11ScWKinL" role="2ShVmc">
-                <ref role="HV5vE" node="7RHNXGyQCR2" resolve="H1MDEPage" />
+              <node concept="1pGfFk" id="6eUMu2endP9" role="2ShVmc">
+                <ref role="37wK5l" node="6eUMu2emZkY" resolve="H1MDEPage" />
+                <node concept="2OqwBi" id="6eUMu2eneHr" role="37wK5m">
+                  <node concept="37vLTw" id="6eUMu2eneFN" role="2Oq$k0">
+                    <ref role="3cqZAo" node="49rIjELFPIK" resolve="defaultTrans" />
+                  </node>
+                  <node concept="liA8E" id="6eUMu2enf1S" role="2OqNvi">
+                    <ref role="37wK5l" node="49rIjELFD_p" resolve="t" />
+                    <node concept="Rm8GO" id="6eUMu2enf_J" role="37wK5m">
+                      <ref role="Rm8GQ" to="quhv:6eUMu2ekBdf" resolve="NETWORK_PROBLEMS" />
+                      <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="49rIjELqTyo" role="37vLTJ">
@@ -508,6 +520,9 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6eUMu2endSz" role="3cqZAp" />
+        <node concept="3clFbH" id="6eUMu2endPy" role="3cqZAp" />
+        <node concept="3clFbH" id="6eUMu2enaOL" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="7RHNXGyQGdE" role="jymVt" />
@@ -1440,8 +1455,34 @@
       <node concept="3Tm6S6" id="7RHNXGyQCRb" role="1B3o_S" />
       <node concept="17QB3L" id="7RHNXGyQCRc" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="6eUMu2emmzh" role="jymVt">
+      <property role="TrG5h" value="networkProblemString" />
+      <node concept="3Tm6S6" id="6eUMu2emmzi" role="1B3o_S" />
+      <node concept="17QB3L" id="6eUMu2emo9G" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="7RHNXGyQCRe" role="jymVt" />
     <node concept="2tJIrI" id="7RHNXGyQCR_" role="jymVt" />
+    <node concept="3clFbW" id="6eUMu2emZkY" role="jymVt">
+      <node concept="37vLTG" id="6eUMu2empa4" role="3clF46">
+        <property role="TrG5h" value="netProblems" />
+        <node concept="17QB3L" id="6eUMu2empAZ" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6eUMu2emZl0" role="3clF45" />
+      <node concept="3Tm1VV" id="6eUMu2emZl1" role="1B3o_S" />
+      <node concept="3clFbS" id="6eUMu2emZl2" role="3clF47">
+        <node concept="3clFbF" id="6eUMu2emqoQ" role="3cqZAp">
+          <node concept="37vLTI" id="6eUMu2emqDA" role="3clFbG">
+            <node concept="37vLTw" id="6eUMu2emrm3" role="37vLTx">
+              <ref role="3cqZAo" node="6eUMu2empa4" resolve="netProblems" />
+            </node>
+            <node concept="37vLTw" id="6eUMu2emqoO" role="37vLTJ">
+              <ref role="3cqZAo" node="6eUMu2emmzh" resolve="networkProblemString" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6eUMu2emXFD" role="jymVt" />
     <node concept="3clFb_" id="49rIjELqYLr" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="initialize" />
@@ -1826,8 +1867,18 @@
             </node>
             <node concept="liA8E" id="7RHNXGyQCTf" role="2OqNvi">
               <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-              <node concept="Xl_RD" id="7RHNXGyQCTg" role="37wK5m">
-                <property role="Xl_RC" value="&lt;/head&gt;\n\n\n&lt;body class=\&quot;ios7\&quot;&gt;\n\n&lt;form method=\&quot;POST\&quot; name=\&quot;baseform\&quot; id=\&quot;baseform\&quot;&gt;\n" />
+              <node concept="3cpWs3" id="6eUMu2en7vR" role="37wK5m">
+                <node concept="Xl_RD" id="6eUMu2en7SO" role="3uHU7w">
+                  <property role="Xl_RC" value="\&quot;&gt;\n\n&lt;form method=\&quot;POST\&quot; name=\&quot;baseform\&quot; id=\&quot;baseform\&quot;&gt;\n" />
+                </node>
+                <node concept="3cpWs3" id="6eUMu2en6xw" role="3uHU7B">
+                  <node concept="Xl_RD" id="7RHNXGyQCTg" role="3uHU7B">
+                    <property role="Xl_RC" value="&lt;/head&gt;\n\n\n&lt;body class=\&quot;ios7\&quot; networkproblemstring=\&quot;" />
+                  </node>
+                  <node concept="37vLTw" id="6eUMu2en6Rx" role="3uHU7w">
+                    <ref role="3cqZAo" node="6eUMu2emmzh" resolve="networkProblemString" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
