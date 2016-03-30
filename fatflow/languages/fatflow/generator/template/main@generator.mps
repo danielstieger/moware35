@@ -3720,10 +3720,10 @@
             </node>
             <node concept="3clFbF" id="5cU7ygsTW4K" role="3cqZAp">
               <node concept="2OqwBi" id="5cU7ygsTW4L" role="3clFbG">
-                <node concept="2YIFZM" id="5cU7ygsTW4M" role="2Oq$k0">
+                <node concept="2YIFZM" id="4KZ25Di$mXc" role="2Oq$k0">
+                  <ref role="37wK5l" to="3ojc:4KZ25DhgXTx" resolve="calcO2RuntimeRequirementsForProcess" />
                   <ref role="1Pybhc" to="3ojc:q_zDmLcP_h" resolve="OFXRuntimeDefinitions" />
-                  <ref role="37wK5l" to="3ojc:oHsXc94d1q" resolve="calcO2RuntimeRequirementsInComponent" />
-                  <node concept="30H73N" id="5cU7ygsTW4N" role="37wK5m" />
+                  <node concept="30H73N" id="4KZ25Di$mXd" role="37wK5m" />
                 </node>
                 <node concept="2es0OD" id="5cU7ygsTW4O" role="2OqNvi">
                   <node concept="1bVj0M" id="5cU7ygsTW4P" role="23t8la">

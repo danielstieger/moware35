@@ -14,6 +14,7 @@
     <import index="q13i" ref="r:9fc6570b-687f-43e8-a83d-7a99f464f174(org.modellwerkstatt.forms.behavior)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2860,6 +2861,67 @@
       <node concept="3Tm1VV" id="1v_FtXQdfoS" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="1v_FtXQdfoT" role="1B3o_S" />
+  </node>
+  <node concept="_UgoZ" id="4KZ25DhcN9M">
+    <property role="TrG5h" value="CheckStaticUsage" />
+    <property role="_Wzho" value="CheckForStaticFields" />
+    <property role="2BwPSy" value="migration" />
+    <property role="2BwPS$" value="MoWare60" />
+    <node concept="_XfAh" id="4KZ25DhcN9N" role="_YvDr">
+      <property role="_XH9r" value="Services" />
+      <ref role="_XDHR" to="un0u:3UJHRuk6Ycv" resolve="Service" />
+      <node concept="_ZGcI" id="4KZ25DhcN9O" role="_XPhp">
+        <node concept="3clFbS" id="4KZ25DhcN9P" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="4KZ25DhcN9Q" role="_XDHO">
+        <node concept="3clFbS" id="4KZ25DhcN9R" role="2VODD2">
+          <node concept="3clFbF" id="4KZ25Dhd1PX" role="3cqZAp">
+            <node concept="3y3z36" id="4KZ25Dhdheo" role="3clFbG">
+              <node concept="3cmrfG" id="4KZ25DhdhoF" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="4KZ25DhdfMs" role="3uHU7B">
+                <node concept="2OqwBi" id="4KZ25Dhd2ng" role="2Oq$k0">
+                  <node concept="_YI3z" id="4KZ25Dhd1PW" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="4KZ25Dhdfyn" role="2OqNvi">
+                    <ref role="37wK5l" to="tpek:4_LVZ3pC27C" resolve="fields" />
+                  </node>
+                </node>
+                <node concept="34oBXx" id="4KZ25Dhdgmr" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="4KZ25DhcNau" role="_YvDr">
+      <property role="_XH9r" value="Repositories" />
+      <ref role="_XDHR" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
+      <node concept="_ZGcI" id="4KZ25DhcNav" role="_XPhp">
+        <node concept="3clFbS" id="4KZ25DhcNaw" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="4KZ25DhcNax" role="_XDHO">
+        <node concept="3clFbS" id="4KZ25DhcNay" role="2VODD2">
+          <node concept="3clFbF" id="4KZ25DhdhOn" role="3cqZAp">
+            <node concept="3y3z36" id="4KZ25DhdlvD" role="3clFbG">
+              <node concept="3cmrfG" id="4KZ25DhdlDT" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="4KZ25Dhdk3e" role="3uHU7B">
+                <node concept="2OqwBi" id="4KZ25Dhdi1$" role="2Oq$k0">
+                  <node concept="_YI3z" id="4KZ25DhdhOm" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="4KZ25Dhdjxv" role="2OqNvi">
+                    <ref role="37wK5l" to="tpek:4_LVZ3pC27C" resolve="fields" />
+                  </node>
+                </node>
+                <node concept="34oBXx" id="4KZ25DhdkBx" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1opIMY" id="4KZ25DhcNb2" role="_YvDr" />
   </node>
 </model>
 
