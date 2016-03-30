@@ -448,6 +448,7 @@
         <reference id="5156615240064015278" name="listMapping" index="GVA6j" />
       </concept>
       <concept id="8510097166251501634" name="org.modellwerkstatt.manmap.structure.UpdateFormSql" flags="ng" index="2KoPwa">
+        <property id="8510097166251501827" name="debugMe" index="2KoP_b" />
         <child id="8510097166251501837" name="sqlString" index="2KoP_5" />
         <child id="8510097166251501838" name="arguments" index="2KoP_6" />
       </concept>
@@ -507,6 +508,7 @@
         <child id="2277748321858517387" name="argument" index="33w$Ac" />
       </concept>
       <concept id="4381394697191783829" name="org.modellwerkstatt.manmap.structure.QueryFromSql" flags="ng" index="1eaaFm">
+        <property id="4381394697191785949" name="debugMe" index="1ea5au" />
         <child id="4658368375971480334" name="packaging" index="q55Dl" />
         <child id="4381394697219937324" name="arguments" index="18nGdJ" />
         <child id="4381394697191789858" name="sqlString" index="1ea49x" />
@@ -2504,7 +2506,6 @@
         <node concept="3clFbF" id="2P7gGuynmTw" role="3cqZAp">
           <node concept="jybIQ" id="2P7gGuynmTx" role="3clFbG">
             <property role="HScZ5" value="true" />
-            <property role="1v8G3g" value="false" />
             <ref role="P14SV" node="66mO_QBe4QP" resolve="MapIntKeyObject" />
             <node concept="TUlRj" id="2P7gGuynmTy" role="jxX7b">
               <node concept="37vLTw" id="4$qgDG0CMA" role="TUlRy">
@@ -2954,7 +2955,7 @@
         <node concept="3clFbF" id="5LYSiLAChui" role="3cqZAp">
           <node concept="jybIQ" id="5LYSiLAChuj" role="3clFbG">
             <property role="HScZ5" value="true" />
-            <property role="1v8G3g" value="false" />
+            <property role="1v8G3g" value="true" />
             <ref role="P14SV" node="5LYSiLACd1N" resolve="MapStringKeyObject" />
             <node concept="jxyYR" id="5LYSiLAChuk" role="jxX7b">
               <node concept="3clFbC" id="5LYSiLAChup" role="jxyYK">
@@ -4402,6 +4403,7 @@
         </node>
         <node concept="3clFbF" id="7opW4z6$gzp" role="3cqZAp">
           <node concept="2KoPwa" id="7opW4z6$gzm" role="3clFbG">
+            <property role="2KoP_b" value="true" />
             <node concept="2OqwBi" id="7opW4z6$hC7" role="2KoP_6">
               <node concept="37vLTw" id="7opW4z6$hAs" role="2Oq$k0">
                 <ref role="3cqZAo" node="1vKpqtucGNf" resolve="edited" />
@@ -4461,6 +4463,7 @@
       <node concept="3clFbS" id="1Mr6ahDfj2N" role="3clF47">
         <node concept="3cpWs6" id="1Mr6ahDgShP" role="3cqZAp">
           <node concept="1eaaFm" id="1Mr6ahDgSlL" role="3cqZAk">
+            <property role="1ea5au" value="true" />
             <node concept="37vLTw" id="1Mr6ahDgV8d" role="18nGdJ">
               <ref role="3cqZAo" node="1Mr6ahDfjL7" resolve="id" />
             </node>
@@ -19394,6 +19397,7 @@
     <ref role="2f14OA" node="33KhHQReT6s" resolve="LolaTestConfig" />
     <node concept="2fsTSr" id="1vKpqttU6dX" role="2fsTST">
       <property role="TrG5h" value="TEST_1" />
+      <property role="1gD0iH" value="EXECUTE" />
       <node concept="3cqZAl" id="1vKpqttU6dY" role="3clF45" />
       <node concept="3Tm1VV" id="1vKpqttU6e0" role="1B3o_S" />
       <node concept="Xl_RD" id="1vKpqttU6e1" role="2fsTSx">
@@ -19445,6 +19449,7 @@
     </node>
     <node concept="2fsTSr" id="4r0DqI0QztC" role="2fsTST">
       <property role="TrG5h" value="TEST_5" />
+      <property role="1gD0iH" value="EXECUTE" />
       <node concept="3cqZAl" id="4r0DqI0QztD" role="3clF45" />
       <node concept="3Tm1VV" id="4r0DqI0QztF" role="1B3o_S" />
       <node concept="Xl_RD" id="4r0DqI0QztG" role="2fsTSx">
@@ -19550,6 +19555,7 @@
     <node concept="3Tm1VV" id="6LKPMZKllIq" role="1B3o_S" />
     <node concept="2fsTSr" id="6LKPMZKllIr" role="2fsTST">
       <property role="TrG5h" value="TEST_0" />
+      <property role="1gD0iH" value="EXECUTE" />
       <node concept="3cqZAl" id="6LKPMZKllIs" role="3clF45" />
       <node concept="3Tm1VV" id="6LKPMZKllIu" role="1B3o_S" />
       <node concept="Xl_RD" id="6LKPMZKllIv" role="2fsTSx">
@@ -19639,6 +19645,7 @@
     </node>
     <node concept="2fsTSr" id="1vKpqtywMbe" role="2fsTST">
       <property role="TrG5h" value="TEST_0" />
+      <property role="1gD0iH" value="EXECUTE" />
       <node concept="3cqZAl" id="1vKpqtywMbf" role="3clF45" />
       <node concept="3Tm1VV" id="1vKpqtywMbg" role="1B3o_S" />
       <node concept="Xl_RD" id="1vKpqtywMbh" role="2fsTSx">
@@ -19710,6 +19717,7 @@
     </node>
     <node concept="2fsTSr" id="1vKpqtuoydc" role="2fsTST">
       <property role="TrG5h" value="TEST_2" />
+      <property role="1gD0iH" value="EXECUTE" />
       <node concept="3cqZAl" id="1vKpqtuoydd" role="3clF45" />
       <node concept="3Tm1VV" id="1vKpqtuoydf" role="1B3o_S" />
       <node concept="Xl_RD" id="1vKpqtuoydg" role="2fsTSx">
@@ -19801,6 +19809,7 @@
     </node>
     <node concept="2fsTSr" id="1Mr6ahDhAjl" role="2fsTST">
       <property role="TrG5h" value="TEST_4" />
+      <property role="1gD0iH" value="EXECUTE" />
       <node concept="3cqZAl" id="1Mr6ahDhAjm" role="3clF45" />
       <node concept="3Tm1VV" id="1Mr6ahDhAjo" role="1B3o_S" />
       <node concept="Xl_RD" id="1Mr6ahDhAjp" role="2fsTSx">
@@ -19971,6 +19980,7 @@
     </node>
     <node concept="2fsTSr" id="5leyo0ZbE1$" role="2fsTST">
       <property role="TrG5h" value="TEST_6" />
+      <property role="1gD0iH" value="EXECUTE" />
       <node concept="3cqZAl" id="5leyo0ZbE1A" role="3clF45" />
       <node concept="3Tm1VV" id="5leyo0ZbE1B" role="1B3o_S" />
       <node concept="Xl_RD" id="5leyo0ZbE1C" role="2fsTSx">
@@ -19985,6 +19995,35 @@
           </node>
           <node concept="Xl_RD" id="5leyo0ZbHFs" role="1gVpfI">
             <property role="Xl_RC" value="SQL string does not match" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2fsTSr" id="1E1ovvF4DfW" role="2fsTST">
+      <property role="TrG5h" value="TEST_7" />
+      <property role="1gD0iH" value="EXECUTE" />
+      <node concept="3cqZAl" id="1E1ovvF4DfY" role="3clF45" />
+      <node concept="3Tm1VV" id="1E1ovvF4DfZ" role="1B3o_S" />
+      <node concept="Xl_RD" id="1E1ovvF4Dg0" role="2fsTSx">
+        <property role="Xl_RC" value="Debug logging test." />
+      </node>
+      <node concept="3clFbS" id="1E1ovvF4Dg1" role="3clF47">
+        <node concept="3cpWs8" id="1E1ovvF4OgR" role="3cqZAp">
+          <node concept="3cpWsn" id="1E1ovvF4OgS" role="3cpWs9">
+            <property role="TrG5h" value="ko" />
+            <node concept="_YKpA" id="1E1ovvFhR0c" role="1tU5fm">
+              <node concept="3uibUv" id="1E1ovvFhR5p" role="_ZDj9">
+                <ref role="3uigEE" node="5LYSiLACcZj" resolve="StringKeyObject" />
+              </node>
+            </node>
+            <node concept="1odsa" id="1E1ovvF4Ojw" role="33vP2m">
+              <ref role="1ods_" node="36k2Uwstchd" resolve="TestModelRepo" />
+              <ref role="37wK5l" node="5LYSiLAChu9" resolve="findStringKeyObject" />
+              <node concept="Xl_RD" id="1E1ovvFhP72" role="37wK5m">
+                <property role="Xl_RC" value="T1" />
+              </node>
+              <node concept="10Nm6u" id="1E1ovvF4Ywp" role="2f8TIa" />
+            </node>
           </node>
         </node>
       </node>
