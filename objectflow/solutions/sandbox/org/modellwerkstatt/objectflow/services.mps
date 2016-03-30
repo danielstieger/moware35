@@ -1785,7 +1785,7 @@
         <node concept="3clFbF" id="5gNkuakj33Z" role="3cqZAp">
           <node concept="37vLTI" id="5gNkuakj51s" role="3clFbG">
             <node concept="2YIFZM" id="5gNkuakj5ZH" role="37vLTx">
-              <ref role="1Pybhc" node="5gNkuakiU0h" resolve="Util" />
+              <ref role="1Pybhc" node="5gNkuakiU0h" resolve="MoZooUtil" />
               <ref role="37wK5l" node="5gNkuakiUsA" resolve="shortDescToZooPath" />
               <node concept="37vLTw" id="5gNkuakj6gL" role="37wK5m">
                 <ref role="3cqZAo" node="R5cwR_OPo4" resolve="objectname" />
@@ -2057,7 +2057,7 @@
           <node concept="37vLTI" id="5gNkuakjcuq" role="3clFbG">
             <node concept="2YIFZM" id="5gNkuakjcur" role="37vLTx">
               <ref role="37wK5l" node="5gNkuakiUsA" resolve="shortDescToZooPath" />
-              <ref role="1Pybhc" node="5gNkuakiU0h" resolve="Util" />
+              <ref role="1Pybhc" node="5gNkuakiU0h" resolve="MoZooUtil" />
               <node concept="37vLTw" id="5gNkuakjcus" role="37wK5m">
                 <ref role="3cqZAo" node="R5cwR_Pvt1" resolve="objectname" />
               </node>
@@ -2477,7 +2477,7 @@
     </node>
   </node>
   <node concept="312cEu" id="5gNkuakiU0h">
-    <property role="TrG5h" value="Util" />
+    <property role="TrG5h" value="MoZooUtil" />
     <node concept="2YIFZL" id="5gNkuakiUsA" role="jymVt">
       <property role="TrG5h" value="shortDescToZooPath" />
       <node concept="37vLTG" id="5gNkuakiUsL" role="3clF46">
@@ -2541,7 +2541,7 @@
     <node concept="3Tm1VV" id="5gNkuakiU0i" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="wDSRHNJpdr">
-    <property role="TrG5h" value="MoStringPrintService" />
+    <property role="TrG5h" value="MoStringIntroPrinter" />
     <node concept="Wx3nA" id="wDSRHNMUQH" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="INDENT" />
@@ -5317,7 +5317,7 @@
     <node concept="3Tm1VV" id="wDSRHNK4aN" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="2kdFTcLKG8f">
-    <property role="TrG5h" value="MoXmlFOPrintService" />
+    <property role="TrG5h" value="MoXmlForFOpIntroPrinter" />
     <node concept="Wx3nA" id="2kdFTcLKG8g" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="INDENT" />
@@ -6942,7 +6942,7 @@
           <node concept="2OqwBi" id="43LwaCskBYw" role="3cqZAk">
             <node concept="2ShNRf" id="43LwaCskARk" role="2Oq$k0">
               <node concept="1pGfFk" id="43LwaCskBcO" role="2ShVmc">
-                <ref role="37wK5l" node="wDSRHNJWzX" resolve="MoStringPrintService" />
+                <ref role="37wK5l" node="wDSRHNJWzX" resolve="MoStringIntroPrinter" />
                 <node concept="37vLTw" id="43LwaCskBfA" role="37wK5m">
                   <ref role="3cqZAo" node="43LwaCskANZ" resolve="obj" />
                 </node>
@@ -6977,7 +6977,7 @@
           <node concept="2OqwBi" id="43LwaCskBNo" role="3cqZAk">
             <node concept="2ShNRf" id="43LwaCskBlK" role="2Oq$k0">
               <node concept="1pGfFk" id="43LwaCskBG2" role="2ShVmc">
-                <ref role="37wK5l" node="2kdFTcLKG8x" resolve="MoXmlFOPrintService" />
+                <ref role="37wK5l" node="2kdFTcLKG8x" resolve="MoXmlForFOpIntroPrinter" />
                 <node concept="37vLTw" id="43LwaCskBJA" role="37wK5m">
                   <ref role="3cqZAo" node="43LwaCskAO6" resolve="obj" />
                 </node>
@@ -9657,14 +9657,14 @@
     </node>
   </node>
   <node concept="312cEu" id="6QX7KB4Q4_P">
-    <property role="TrG5h" value="JmxLiveDebugLogger" />
+    <property role="TrG5h" value="DEP_JmxLiveDebugLogger" />
     <property role="3GE5qa" value="Telemetrics" />
     <node concept="Wx3nA" id="6QX7KB4Qux0" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="instance" />
       <property role="3TUv4t" value="false" />
       <node concept="3uibUv" id="6QX7KB4QuwJ" role="1tU5fm">
-        <ref role="3uigEE" node="6QX7KB4Q4_P" resolve="JmxLiveDebugLogger" />
+        <ref role="3uigEE" node="6QX7KB4Q4_P" resolve="DEP_JmxLiveDebugLogger" />
       </node>
       <node concept="3Tm6S6" id="6QX7KB4Quw_" role="1B3o_S" />
     </node>
@@ -9683,7 +9683,7 @@
           <node concept="37vLTI" id="6QX7KB4QUlY" role="3clFbG">
             <node concept="Xjq3P" id="6QX7KB4QUnW" role="37vLTx" />
             <node concept="10M0yZ" id="4QTIUTBR4mC" role="37vLTJ">
-              <ref role="1PxDUh" node="6QX7KB4Q4_P" resolve="JmxLiveDebugLogger" />
+              <ref role="1PxDUh" node="6QX7KB4Q4_P" resolve="DEP_JmxLiveDebugLogger" />
               <ref role="3cqZAo" node="6QX7KB4Qux0" resolve="instance" />
             </node>
           </node>
@@ -9899,13 +9899,13 @@
       <node concept="3clFbS" id="6QX7KB4Quxn" role="3clF47">
         <node concept="3clFbF" id="6QX7KB4QuxI" role="3cqZAp">
           <node concept="10M0yZ" id="4QTIUTBR4mD" role="3clFbG">
-            <ref role="1PxDUh" node="6QX7KB4Q4_P" resolve="JmxLiveDebugLogger" />
+            <ref role="1PxDUh" node="6QX7KB4Q4_P" resolve="DEP_JmxLiveDebugLogger" />
             <ref role="3cqZAo" node="6QX7KB4Qux0" resolve="instance" />
           </node>
         </node>
       </node>
       <node concept="3uibUv" id="6QX7KB4QvTa" role="3clF45">
-        <ref role="3uigEE" node="6QX7KB4Q4_P" resolve="JmxLiveDebugLogger" />
+        <ref role="3uigEE" node="6QX7KB4Q4_P" resolve="DEP_JmxLiveDebugLogger" />
       </node>
       <node concept="3Tm1VV" id="6QX7KB4Quxm" role="1B3o_S" />
     </node>
@@ -9920,7 +9920,7 @@
             <node concept="10Nm6u" id="6rMtHgbDFUj" role="37vLTx" />
             <node concept="10M0yZ" id="4QTIUTBR4mE" role="37vLTJ">
               <ref role="3cqZAo" node="6QX7KB4Qux0" resolve="instance" />
-              <ref role="1PxDUh" node="6QX7KB4Q4_P" resolve="JmxLiveDebugLogger" />
+              <ref role="1PxDUh" node="6QX7KB4Q4_P" resolve="DEP_JmxLiveDebugLogger" />
             </node>
           </node>
         </node>
@@ -9931,11 +9931,14 @@
       <ref role="3uigEE" to="77h2:~NotificationBroadcasterSupport" resolve="NotificationBroadcasterSupport" />
     </node>
     <node concept="3uibUv" id="6QX7KB4R3bE" role="EKbjA">
-      <ref role="3uigEE" node="6QX7KB4R1CT" resolve="JmxLiveDebugLoggerMBean" />
+      <ref role="3uigEE" node="6QX7KB4R1CT" resolve="DEP_JmxLiveDebugLoggerMBean" />
+    </node>
+    <node concept="2AHcQZ" id="4KZ25DjlOat" role="2AJF6D">
+      <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
     </node>
   </node>
   <node concept="3HP615" id="6QX7KB4R1CT">
-    <property role="TrG5h" value="JmxLiveDebugLoggerMBean" />
+    <property role="TrG5h" value="DEP_JmxLiveDebugLoggerMBean" />
     <property role="3GE5qa" value="Telemetrics" />
     <node concept="2tJIrI" id="6QX7KB4R1CU" role="jymVt" />
     <node concept="3clFb_" id="6QX7KB4R1CV" role="jymVt">
