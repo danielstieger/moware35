@@ -1704,7 +1704,7 @@
     <property role="TrG5h" value="IsNull" />
     <property role="R4oN_" value="ValueObject equals null" />
     <property role="34LRSv" value="isNull" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2QJz1_oOqtD" role="PzmwI">
       <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
     </node>

@@ -3239,6 +3239,10 @@
           </node>
         </node>
       </node>
+      <node concept="37vLTG" id="2PHQwuQ1JEa" role="3clF46">
+        <property role="TrG5h" value="parentWasKey" />
+        <node concept="10P_77" id="2PHQwuQ1JTV" role="1tU5fm" />
+      </node>
       <node concept="_YKpA" id="4EMiYCo3lLD" role="3clF45">
         <node concept="10Oyi0" id="4EMiYCo3lLE" role="_ZDj9" />
       </node>
@@ -3295,6 +3299,16 @@
               </node>
             </node>
             <node concept="3clFbH" id="4EMiYCo3lM4" role="3cqZAp" />
+            <node concept="3SKdUt" id="2PHQwuQbcTz" role="3cqZAp">
+              <node concept="3SKdUq" id="2PHQwuQbdbJ" role="3SKWNk">
+                <property role="3SKdUp" value="Dan: 31. March 2016 - only parentWasKey was introduced (and rule check IKeyMapping was changed)" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="2PHQwuQ1NHz" role="3cqZAp">
+              <node concept="3SKdUq" id="2PHQwuQ1O0b" role="3SKWNk">
+                <property role="3SKdUp" value="parentWasKey: true for a fieldmapping inside a embeddemapping used as key." />
+              </node>
+            </node>
             <node concept="3clFbJ" id="4EMiYCo3lM5" role="3cqZAp">
               <node concept="3clFbS" id="4EMiYCo3lM6" role="3clFbx">
                 <node concept="3clFbJ" id="FaoLX6g3es" role="3cqZAp">
@@ -3349,9 +3363,10 @@
                     <node concept="3clFbS" id="FaoLX6g3eK" role="3eOfB_">
                       <node concept="3SKdUt" id="FaoLX6g3fy" role="3cqZAp">
                         <node concept="3SKdUq" id="FaoLX6g3fz" role="3SKWNk">
-                          <property role="3SKdUp" value="recursiveley add " />
+                          <property role="3SKdUp" value="recursiveley add ... " />
                         </node>
                       </node>
+                      <node concept="3clFbH" id="2PHQwuQ1I9Z" role="3cqZAp" />
                       <node concept="3clFbF" id="FaoLX6g3fj" role="3cqZAp">
                         <node concept="2OqwBi" id="FaoLX6g3fk" role="3clFbG">
                           <node concept="37vLTw" id="KVbXdPfetb" role="2Oq$k0">
@@ -3375,6 +3390,9 @@
                                   <ref role="3TtcxE" to="r5tz:Kou8LehQES" />
                                 </node>
                               </node>
+                              <node concept="3clFbT" id="2PHQwuQ1KZ0" role="37wK5m">
+                                <property role="3clFbU" value="true" />
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -3384,28 +3402,33 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="FaoLX6g3eG" role="3cqZAp" />
-                <node concept="3clFbH" id="FaoLX6g3eH" role="3cqZAp" />
-                <node concept="3clFbH" id="4EMiYCo3lMD" role="3cqZAp" />
               </node>
-              <node concept="1Wc70l" id="4EMiYCo3lOW" role="3clFbw">
-                <node concept="2OqwBi" id="4EMiYCo3lP6" role="3uHU7w">
-                  <node concept="1PxgMI" id="4EMiYCo3lP2" role="2Oq$k0">
-                    <ref role="1PxNhF" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
-                    <node concept="37vLTw" id="KVbXdPfeD$" role="1PxMeX">
-                      <ref role="3cqZAo" node="4EMiYCo3lOQ" resolve="mapping" />
-                    </node>
-                  </node>
-                  <node concept="2qgKlT" id="FaoLX6g3eq" role="2OqNvi">
-                    <ref role="37wK5l" to="lfe3:3JsUq_Sf9lm" resolve="isKeyMapping" />
-                  </node>
+              <node concept="22lmx$" id="2PHQwuQ1MX8" role="3clFbw">
+                <node concept="37vLTw" id="2PHQwuQ1NmB" role="3uHU7w">
+                  <ref role="3cqZAo" node="2PHQwuQ1JEa" resolve="parentWasKey" />
                 </node>
-                <node concept="2OqwBi" id="4EMiYCo3lME" role="3uHU7B">
-                  <node concept="37vLTw" id="KVbXdPfeOa" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4EMiYCo3lOQ" resolve="mapping" />
-                  </node>
-                  <node concept="1mIQ4w" id="4EMiYCo3lMG" role="2OqNvi">
-                    <node concept="chp4Y" id="FaoLX6g3eo" role="cj9EA">
-                      <ref role="cht4Q" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+                <node concept="1eOMI4" id="2PHQwuQ1Mnm" role="3uHU7B">
+                  <node concept="1Wc70l" id="2PHQwuQ1Mnn" role="1eOMHV">
+                    <node concept="2OqwBi" id="2PHQwuQ1Mno" role="3uHU7w">
+                      <node concept="1PxgMI" id="2PHQwuQ1Mnp" role="2Oq$k0">
+                        <ref role="1PxNhF" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+                        <node concept="37vLTw" id="2PHQwuQ1Mnq" role="1PxMeX">
+                          <ref role="3cqZAo" node="4EMiYCo3lOQ" resolve="mapping" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="2PHQwuQ1Mnr" role="2OqNvi">
+                        <ref role="37wK5l" to="lfe3:3JsUq_Sf9lm" resolve="isKeyMapping" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="2PHQwuQ1Mns" role="3uHU7B">
+                      <node concept="37vLTw" id="2PHQwuQ1Mnt" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4EMiYCo3lOQ" resolve="mapping" />
+                      </node>
+                      <node concept="1mIQ4w" id="2PHQwuQ1Mnu" role="2OqNvi">
+                        <node concept="chp4Y" id="2PHQwuQ1Mnv" role="cj9EA">
+                          <ref role="cht4Q" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -3511,6 +3534,9 @@
                             <node concept="3Tsc0h" id="4EMiYCo3lQz" role="2OqNvi">
                               <ref role="3TtcxE" to="r5tz:Kou8LehPyV" />
                             </node>
+                          </node>
+                          <node concept="37vLTw" id="2PHQwuQ1LKp" role="37wK5m">
+                            <ref role="3cqZAo" node="2PHQwuQ1JEa" resolve="parentWasKey" />
                           </node>
                         </node>
                       </node>

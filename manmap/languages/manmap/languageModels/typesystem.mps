@@ -2096,62 +2096,175 @@
     <property role="TrG5h" value="check_IKeyMapping" />
     <property role="3GE5qa" value="mapping" />
     <node concept="3clFbS" id="3JsUq_Sf9uK" role="18ibNy">
-      <node concept="3clFbJ" id="3JsUq_Sf9uM" role="3cqZAp">
-        <node concept="2OqwBi" id="3JsUq_Sf9uS" role="3clFbw">
-          <node concept="1YBJjd" id="3JsUq_Sf9uP" role="2Oq$k0">
-            <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
+      <node concept="3clFbJ" id="2PHQwuQbeeE" role="3cqZAp">
+        <node concept="3clFbS" id="2PHQwuQbeeG" role="3clFbx">
+          <node concept="3clFbH" id="2PHQwuQc2_6" role="3cqZAp" />
+          <node concept="3SKdUt" id="2PHQwuQbfS1" role="3cqZAp">
+            <node concept="3SKdUq" id="2PHQwuQbfS4" role="3SKWNk">
+              <property role="3SKdUp" value="used in a reference? than it should be key also ... " />
+            </node>
           </node>
-          <node concept="2qgKlT" id="3JsUq_Sf9uY" role="2OqNvi">
-            <ref role="37wK5l" to="lfe3:3JsUq_Sf9lm" resolve="isKeyMapping" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="3JsUq_Sf9uO" role="3clFbx">
-          <node concept="3clFbJ" id="3JsUq_Sf9uZ" role="3cqZAp">
-            <node concept="2OqwBi" id="3JsUq_Sf9ve" role="3clFbw">
-              <node concept="2OqwBi" id="3JsUq_Sf9v5" role="2Oq$k0">
-                <node concept="1YBJjd" id="3JsUq_Sf9v2" role="2Oq$k0">
+          <node concept="3clFbJ" id="2PHQwuQbfSg" role="3cqZAp">
+            <node concept="3clFbS" id="2PHQwuQbfSi" role="3clFbx">
+              <node concept="2MkqsV" id="2PHQwuQbhex" role="3cqZAp">
+                <node concept="Xl_RD" id="2PHQwuQbheK" role="2MkJ7o">
+                  <property role="Xl_RC" value="An property mapped embedded inside a ref is propably a key mapping? map prop as key?" />
+                </node>
+                <node concept="1YBJjd" id="2PHQwuQbijX" role="2OEOjV">
                   <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
                 </node>
-                <node concept="2qgKlT" id="3JsUq_Sf9vb" role="2OqNvi">
-                  <ref role="37wK5l" to="lfe3:3JsUq_Sf9k2" resolve="getKeyFieldMappings" />
+              </node>
+            </node>
+            <node concept="1Wc70l" id="2PHQwuQbgC0" role="3clFbw">
+              <node concept="3fqX7Q" id="2PHQwuQbh76" role="3uHU7w">
+                <node concept="2OqwBi" id="2PHQwuQbh78" role="3fr31v">
+                  <node concept="1YBJjd" id="2PHQwuQbh79" role="2Oq$k0">
+                    <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
+                  </node>
+                  <node concept="2qgKlT" id="2PHQwuQbh7a" role="2OqNvi">
+                    <ref role="37wK5l" to="lfe3:3JsUq_Sf9lm" resolve="isKeyMapping" />
+                  </node>
                 </node>
               </node>
-              <node concept="2HwmR7" id="3JsUq_Sf9vj" role="2OqNvi">
-                <node concept="1bVj0M" id="3JsUq_Sf9vk" role="23t8la">
-                  <node concept="3clFbS" id="3JsUq_Sf9vl" role="1bW5cS">
-                    <node concept="3clFbF" id="3JsUq_Sf9vo" role="3cqZAp">
-                      <node concept="3fqX7Q" id="3JsUq_Sf9v_" role="3clFbG">
-                        <node concept="2OqwBi" id="3JsUq_Sf9vs" role="3fr31v">
-                          <node concept="37vLTw" id="KVbXdPffdE" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3JsUq_Sf9vm" resolve="it" />
+              <node concept="2OqwBi" id="2PHQwuQbgei" role="3uHU7B">
+                <node concept="2OqwBi" id="2PHQwuQbfTP" role="2Oq$k0">
+                  <node concept="1YBJjd" id="2PHQwuQbfSy" role="2Oq$k0">
+                    <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
+                  </node>
+                  <node concept="1mfA1w" id="2PHQwuQbg6u" role="2OqNvi" />
+                </node>
+                <node concept="1mIQ4w" id="2PHQwuQbgvk" role="2OqNvi">
+                  <node concept="chp4Y" id="2PHQwuQbgvP" role="cj9EA">
+                    <ref role="cht4Q" to="r5tz:7kypvuIzY7I" resolve="ReferenceMapping" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="2PHQwuQbfSa" role="3cqZAp" />
+          <node concept="3clFbJ" id="3JsUq_Sf9uM" role="3cqZAp">
+            <node concept="2OqwBi" id="3JsUq_Sf9uS" role="3clFbw">
+              <node concept="1YBJjd" id="3JsUq_Sf9uP" role="2Oq$k0">
+                <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
+              </node>
+              <node concept="2qgKlT" id="3JsUq_Sf9uY" role="2OqNvi">
+                <ref role="37wK5l" to="lfe3:3JsUq_Sf9lm" resolve="isKeyMapping" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="3JsUq_Sf9uO" role="3clFbx">
+              <node concept="3SKdUt" id="2PHQwuQbj5O" role="3cqZAp">
+                <node concept="3SKdUq" id="2PHQwuQbjcn" role="3SKWNk">
+                  <property role="3SKdUp" value="Dan 31. March 2016" />
+                </node>
+              </node>
+              <node concept="3SKdUt" id="2PHQwuQbiKA" role="3cqZAp">
+                <node concept="3SKWN0" id="2PHQwuQbiKB" role="3SKWNk">
+                  <node concept="3clFbJ" id="3JsUq_Sf9uZ" role="3SKWNf">
+                    <node concept="2OqwBi" id="3JsUq_Sf9ve" role="3clFbw">
+                      <node concept="2OqwBi" id="3JsUq_Sf9v5" role="2Oq$k0">
+                        <node concept="1YBJjd" id="3JsUq_Sf9v2" role="2Oq$k0">
+                          <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
+                        </node>
+                        <node concept="2qgKlT" id="3JsUq_Sf9vb" role="2OqNvi">
+                          <ref role="37wK5l" to="lfe3:3JsUq_Sf9k2" resolve="getKeyFieldMappings" />
+                        </node>
+                      </node>
+                      <node concept="2HwmR7" id="3JsUq_Sf9vj" role="2OqNvi">
+                        <node concept="1bVj0M" id="3JsUq_Sf9vk" role="23t8la">
+                          <node concept="3clFbS" id="3JsUq_Sf9vl" role="1bW5cS">
+                            <node concept="3clFbF" id="3JsUq_Sf9vo" role="3cqZAp">
+                              <node concept="3fqX7Q" id="3JsUq_Sf9v_" role="3clFbG">
+                                <node concept="2OqwBi" id="3JsUq_Sf9vs" role="3fr31v">
+                                  <node concept="37vLTw" id="KVbXdPffdE" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="3JsUq_Sf9vm" resolve="it" />
+                                  </node>
+                                  <node concept="2qgKlT" id="3JsUq_Sf9vy" role="2OqNvi">
+                                    <ref role="37wK5l" to="lfe3:17uSheOyv7O" resolve="isKey" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                           </node>
-                          <node concept="2qgKlT" id="3JsUq_Sf9vy" role="2OqNvi">
-                            <ref role="37wK5l" to="lfe3:17uSheOyv7O" resolve="isKey" />
+                          <node concept="Rh6nW" id="3JsUq_Sf9vm" role="1bW2Oz">
+                            <property role="TrG5h" value="it" />
+                            <node concept="2jxLKc" id="3JsUq_Sf9vn" role="1tU5fm" />
                           </node>
                         </node>
                       </node>
                     </node>
-                  </node>
-                  <node concept="Rh6nW" id="3JsUq_Sf9vm" role="1bW2Oz">
-                    <property role="TrG5h" value="it" />
-                    <node concept="2jxLKc" id="3JsUq_Sf9vn" role="1tU5fm" />
+                    <node concept="3clFbS" id="3JsUq_Sf9v1" role="3clFbx">
+                      <node concept="2MkqsV" id="3JsUq_Sf9vB" role="3cqZAp">
+                        <node concept="Xl_RD" id="3JsUq_Sf9vE" role="2MkJ7o">
+                          <property role="Xl_RC" value="All mappings have to be declared as a key." />
+                        </node>
+                        <node concept="1YBJjd" id="3JsUq_Sf9vF" role="2OEOjV">
+                          <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="2PHQwuQbivi" role="3cqZAp" />
+              <node concept="3clFbJ" id="2PHQwuQbiAG" role="3cqZAp">
+                <node concept="2OqwBi" id="2PHQwuQbiAH" role="3clFbw">
+                  <node concept="2OqwBi" id="2PHQwuQbiAI" role="2Oq$k0">
+                    <node concept="1YBJjd" id="2PHQwuQbiAJ" role="2Oq$k0">
+                      <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
+                    </node>
+                    <node concept="2qgKlT" id="2PHQwuQbiAK" role="2OqNvi">
+                      <ref role="37wK5l" to="lfe3:3JsUq_Sf9k2" resolve="getKeyFieldMappings" />
+                    </node>
+                  </node>
+                  <node concept="2HwmR7" id="2PHQwuQbiAL" role="2OqNvi">
+                    <node concept="1bVj0M" id="2PHQwuQbiAM" role="23t8la">
+                      <node concept="3clFbS" id="2PHQwuQbiAN" role="1bW5cS">
+                        <node concept="3clFbF" id="2PHQwuQbiAO" role="3cqZAp">
+                          <node concept="2OqwBi" id="2PHQwuQbiAQ" role="3clFbG">
+                            <node concept="37vLTw" id="2PHQwuQbiAR" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2PHQwuQbiAT" resolve="it" />
+                            </node>
+                            <node concept="2qgKlT" id="2PHQwuQbiAS" role="2OqNvi">
+                              <ref role="37wK5l" to="lfe3:17uSheOyv7O" resolve="isKey" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="2PHQwuQbiAT" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="2PHQwuQbiAU" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbS" id="2PHQwuQbiAV" role="3clFbx">
+                  <node concept="2MkqsV" id="2PHQwuQbiAW" role="3cqZAp">
+                    <node concept="Xl_RD" id="2PHQwuQbiAX" role="2MkJ7o">
+                      <property role="Xl_RC" value="If the embedded Prop is marked as key, do not mark props inside the value ojbs. as keys." />
+                    </node>
+                    <node concept="1YBJjd" id="2PHQwuQbiAY" role="2OEOjV">
+                      <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="2PHQwuQbiyy" role="3cqZAp" />
             </node>
-            <node concept="3clFbS" id="3JsUq_Sf9v1" role="3clFbx">
-              <node concept="2MkqsV" id="3JsUq_Sf9vB" role="3cqZAp">
-                <node concept="Xl_RD" id="3JsUq_Sf9vE" role="2MkJ7o">
-                  <property role="Xl_RC" value="All mappings have to be declared as a key." />
-                </node>
-                <node concept="1YBJjd" id="3JsUq_Sf9vF" role="2OEOjV">
-                  <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
-                </node>
-              </node>
+          </node>
+          <node concept="3clFbH" id="2PHQwuQcaml" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="2PHQwuQbelf" role="3clFbw">
+          <node concept="1YBJjd" id="2PHQwuQbejW" role="2Oq$k0">
+            <ref role="1YBMHb" node="3JsUq_Sf9uL" resolve="ikm" />
+          </node>
+          <node concept="1mIQ4w" id="2PHQwuQbfQs" role="2OqNvi">
+            <node concept="chp4Y" id="2PHQwuQbfR7" role="cj9EA">
+              <ref role="cht4Q" to="r5tz:Kou8LehQEQ" resolve="EmbeddedMapping" />
             </node>
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="2PHQwuQbe9$" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="3JsUq_Sf9uL" role="1YuTPh">
       <property role="TrG5h" value="ikm" />
