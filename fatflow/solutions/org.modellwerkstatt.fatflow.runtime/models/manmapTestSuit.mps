@@ -11665,6 +11665,17 @@
         <property role="Xl_RC" value="Save a  LinkObject, where the ValueObject Reference is null and retrive" />
       </node>
       <node concept="3clFbS" id="2soeM2yg3av" role="3clF47">
+        <node concept="3SKdUt" id="EvFEN6$Xoy" role="3cqZAp">
+          <node concept="3SKdUq" id="EvFEN6$XXz" role="3SKWNk">
+            <property role="3SKdUp" value="This test can not work, since" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="EvFEN6$YyK" role="3cqZAp">
+          <node concept="3SKdUq" id="EvFEN6$Z7N" role="3SKWNk">
+            <property role="3SKdUp" value="valueObject on Refs can not be null! " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="EvFEN6$NyC" role="3cqZAp" />
         <node concept="3cpWs8" id="2soeM2yg3ay" role="3cqZAp">
           <node concept="3cpWsn" id="2soeM2yg3az" role="3cpWs9">
             <property role="TrG5h" value="obj" />
