@@ -14180,7 +14180,7 @@
       <node concept="3Tm6S6" id="7708TIHG3jF" role="1B3o_S" />
       <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
       <node concept="Xl_RD" id="7708TIHG4ay" role="33vP2m">
-        <property role="Xl_RC" value="moware60 R4 02 (fop auto)" />
+        <property role="Xl_RC" value="moware60 RC5 (VO test)" />
       </node>
     </node>
     <node concept="2tJIrI" id="7708TIHFKmX" role="jymVt" />
@@ -17868,7 +17868,7 @@
                             <node concept="2OqwBi" id="4Ucpg8ytxnw" role="3uHU7w">
                               <node concept="2ShNRf" id="4Ucpg8ytt_e" role="2Oq$k0">
                                 <node concept="1pGfFk" id="4Ucpg8ytuic" role="2ShVmc">
-                                  <ref role="37wK5l" to="gyq6:wDSRHNJWzX" resolve="MoStringPrintService" />
+                                  <ref role="37wK5l" to="gyq6:wDSRHNJWzX" resolve="MoStringIntroPrinter" />
                                   <node concept="1y4W85" id="4Ucpg8ytxgW" role="37wK5m">
                                     <node concept="37vLTw" id="4Ucpg8zNPdt" role="1y58nS">
                                       <ref role="3cqZAo" node="4Ucpg8zNMfF" resolve="i" />
