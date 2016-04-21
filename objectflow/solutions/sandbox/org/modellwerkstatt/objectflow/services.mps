@@ -9,18 +9,16 @@
   <imports>
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
     <import index="595t" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.nio.charset(JDK/java.nio.charset@java_stub)" />
-    <import index="53gy" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.concurrent(JDK/java.util.concurrent@java_stub)" />
     <import index="79hc" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.zookeeper.data(org.modellwerkstatt.sandbox/org.apache.zookeeper.data@java_stub)" />
     <import index="5m3c" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.zookeeper(org.modellwerkstatt.sandbox/org.apache.zookeeper@java_stub)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
-    <import index="rmiu" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.log4j(org.modellwerkstatt.sandbox/org.apache.log4j@java_stub)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
     <import index="xqpa" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.reflect(JDK/java.lang.reflect@java_stub)" />
     <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <import index="vt2g" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time.format(org.modellwerkstatt.manmap.solution/org.joda.time.format@java_stub)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
     <import index="77h2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.management(JDK/javax.management@java_stub)" />
-    <import index="vft3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.concurrent.atomic(JDK/java.util.concurrent.atomic@java_stub)" />
+    <import index="agbp" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.commons.logging(org.modellwerkstatt.sandbox/org.apache.commons.logging@java_stub)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -440,17 +438,17 @@
       <node concept="3cqZAl" id="R5cwR_PWS$" role="3clF45" />
       <node concept="3Tm1VV" id="R5cwR_PWS_" role="1B3o_S" />
       <node concept="3clFbS" id="R5cwR_PWSA" role="3clF47">
-        <node concept="3clFbF" id="I5W9GWDbSX" role="3cqZAp">
-          <node concept="2OqwBi" id="2UFgF_mgDAl" role="3clFbG">
-            <node concept="2YIFZM" id="I5W9GWDbT5" role="2Oq$k0">
-              <ref role="1Pybhc" to="rmiu:~Logger" resolve="Logger" />
-              <ref role="37wK5l" to="rmiu:~Logger.getLogger(java.lang.String):org.apache.log4j.Logger" resolve="getLogger" />
-              <node concept="Xl_RD" id="2UFgF_mgEzl" role="37wK5m">
-                <property role="Xl_RC" value="org.modellwerkstatt.sandbox.services" />
+        <node concept="3clFbF" id="1i79Hb8rYPb" role="3cqZAp">
+          <node concept="2OqwBi" id="1i79Hb8rZKl" role="3clFbG">
+            <node concept="2YIFZM" id="1i79Hb8rYT_" role="2Oq$k0">
+              <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+              <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+              <node concept="3VsKOn" id="1i79Hb8rZoa" role="37wK5m">
+                <ref role="3VsUkX" node="R5cwR_fILw" resolve="MoZooLockService" />
               </node>
             </node>
-            <node concept="liA8E" id="2UFgF_mgDTQ" role="2OqNvi">
-              <ref role="37wK5l" to="rmiu:~Category.debug(java.lang.Object):void" resolve="debug" />
+            <node concept="liA8E" id="1i79Hb8s0fy" role="2OqNvi">
+              <ref role="37wK5l" to="agbp:~Log.debug(java.lang.Object):void" resolve="debug" />
               <node concept="3cpWs3" id="5gNkuajUE0Q" role="37wK5m">
                 <node concept="Xl_RD" id="5gNkuajUE9v" role="3uHU7B">
                   <property role="Xl_RC" value="MoZooLockServer: " />

@@ -12,7 +12,6 @@
       <sourceRoot location="org.springframework.asm-3.0.5.RELEASE.jar" />
       <sourceRoot location="org.springframework.context-3.0.5.RELEASE.jar" />
       <sourceRoot location="org.springframework.expression-3.0.5.RELEASE.jar" />
-      <sourceRoot location="log4j.jar" />
       <sourceRoot location="servlet-api.jar" />
       <sourceRoot location="printing21/avalon-framework-api-4.3.1.jar" />
       <sourceRoot location="printing21/avalon-framework-impl-4.3.1.jar" />
@@ -38,7 +37,6 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/slf4j-log4j12-1.6.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/zookeeper-3.4.5.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/commons-logging-1.0.4.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/log4j.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/ojdbc14.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.aop-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.asm-3.0.5.RELEASE.jar" />
@@ -59,6 +57,7 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xmlgraphics-commons-2.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/pdfbox-1.8.11.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/fontbox-1.8.5.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/log4j.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

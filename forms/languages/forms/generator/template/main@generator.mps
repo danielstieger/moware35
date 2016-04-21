@@ -27,7 +27,6 @@
     <import index="h2e" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.springframework.context(org.modellwerkstatt.sandbox/org.springframework.context@java_stub)" />
     <import index="q9mv" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.springframework.context.support(org.modellwerkstatt.sandbox/org.springframework.context.support@java_stub)" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" />
-    <import index="rmiu" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.log4j(org.modellwerkstatt.sandbox/org.apache.log4j@java_stub)" />
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="q13i" ref="r:9fc6570b-687f-43e8-a83d-7a99f464f174(org.modellwerkstatt.forms.behavior)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
@@ -36,14 +35,14 @@
     <import index="oi9j" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.annotation@java_stub)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="ajxo" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#org.apache.log4j(MPS.Core/org.apache.log4j@java_stub)" />
-    <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" implicit="true" />
-    <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
-    <import index="45gm" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" implicit="true" />
-    <import index="47m2" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.config@java_stub)" implicit="true" />
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" implicit="true" />
+    <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
+    <import index="45gm" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="47m2" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.config@java_stub)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -2544,27 +2543,6 @@
             <node concept="3SKdUt" id="Y3fiVKZqqR" role="3cqZAp">
               <node concept="3SKdUq" id="Y3fiVKZrcf" role="3SKWNk">
                 <property role="3SKdUp" value="init spring ioc first : )" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="688_CuLchiY" role="3cqZAp">
-              <node concept="2YIFZM" id="688_CuLchnl" role="3clFbG">
-                <ref role="1Pybhc" to="ajxo:~BasicConfigurator" resolve="BasicConfigurator" />
-                <ref role="37wK5l" to="ajxo:~BasicConfigurator.configure():void" resolve="configure" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="I5W9GWEHyI" role="3cqZAp">
-              <node concept="2OqwBi" id="I5W9GWEHyN" role="3clFbG">
-                <node concept="2YIFZM" id="2BCid69EdEr" role="2Oq$k0">
-                  <ref role="37wK5l" to="rmiu:~Logger.getRootLogger():org.apache.log4j.Logger" resolve="getRootLogger" />
-                  <ref role="1Pybhc" to="rmiu:~Logger" resolve="Logger" />
-                </node>
-                <node concept="liA8E" id="I5W9GWEHyT" role="2OqNvi">
-                  <ref role="37wK5l" to="rmiu:~Category.setLevel(org.apache.log4j.Level):void" resolve="setLevel" />
-                  <node concept="10M0yZ" id="I5W9GWEHyU" role="37wK5m">
-                    <ref role="1PxDUh" to="rmiu:~Level" resolve="Level" />
-                    <ref role="3cqZAo" to="rmiu:~Level.ERROR" resolve="ERROR" />
-                  </node>
-                </node>
               </node>
             </node>
             <node concept="3clFbH" id="16HdUMOYb2o" role="3cqZAp" />

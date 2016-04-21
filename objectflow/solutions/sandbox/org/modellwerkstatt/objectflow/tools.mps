@@ -7,8 +7,8 @@
   <imports>
     <import index="vksr" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#javax.servlet.http(org.modellwerkstatt.sandbox/javax.servlet.http@java_stub)" />
     <import index="tsi3" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#javax.servlet(org.modellwerkstatt.sandbox/javax.servlet@java_stub)" />
-    <import index="rmiu" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.log4j(org.modellwerkstatt.sandbox/org.apache.log4j@java_stub)" />
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
+    <import index="agbp" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.commons.logging(org.modellwerkstatt.sandbox/org.apache.commons.logging@java_stub)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -129,6 +129,9 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
+      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
+        <reference id="1116615189566" name="classifier" index="3VsUkX" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -305,17 +308,17 @@
             <node concept="SfApY" id="5nND$KhiE2D" role="3cqZAp">
               <node concept="TDmWw" id="5nND$KhiE2E" role="TEbGg">
                 <node concept="3clFbS" id="5nND$KhiE2C" role="TDEfX">
-                  <node concept="3clFbF" id="5nND$KhTK2S" role="3cqZAp">
-                    <node concept="2OqwBi" id="5nND$KhTK2T" role="3clFbG">
-                      <node concept="2YIFZM" id="5nND$KhTK2U" role="2Oq$k0">
-                        <ref role="37wK5l" to="rmiu:~Logger.getLogger(java.lang.String):org.apache.log4j.Logger" resolve="getLogger" />
-                        <ref role="1Pybhc" to="rmiu:~Logger" resolve="Logger" />
-                        <node concept="Xl_RD" id="5nND$KhTK2V" role="37wK5m">
-                          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tools.OJDBC6_LoaderServlet" />
+                  <node concept="3clFbF" id="1i79Hb8s1al" role="3cqZAp">
+                    <node concept="2OqwBi" id="1i79Hb8s1rs" role="3clFbG">
+                      <node concept="2YIFZM" id="1i79Hb8s1eX" role="2Oq$k0">
+                        <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                        <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+                        <node concept="3VsKOn" id="1i79Hb8s1mB" role="37wK5m">
+                          <ref role="3VsUkX" node="5nND$KhT9yA" resolve="OJDBC6_LoaderServlet" />
                         </node>
                       </node>
-                      <node concept="liA8E" id="5nND$KhTK2W" role="2OqNvi">
-                        <ref role="37wK5l" to="rmiu:~Category.error(java.lang.Object):void" resolve="error" />
+                      <node concept="liA8E" id="1i79Hb8s1$Z" role="2OqNvi">
+                        <ref role="37wK5l" to="agbp:~Log.error(java.lang.Object):void" resolve="error" />
                         <node concept="3cpWs3" id="5nND$KhTK2X" role="37wK5m">
                           <node concept="1rXfSq" id="5nND$KhTK2Y" role="3uHU7w">
                             <ref role="37wK5l" node="5T_hheUJWLq" resolve="stackTrace2String" />
@@ -371,17 +374,17 @@
               </node>
             </node>
             <node concept="3clFbS" id="5nND$KhioI0" role="TDEfX">
-              <node concept="3clFbF" id="5nND$KhTFbh" role="3cqZAp">
-                <node concept="2OqwBi" id="5nND$KhTFGw" role="3clFbG">
-                  <node concept="2YIFZM" id="5nND$KhTFyG" role="2Oq$k0">
-                    <ref role="37wK5l" to="rmiu:~Logger.getLogger(java.lang.String):org.apache.log4j.Logger" resolve="getLogger" />
-                    <ref role="1Pybhc" to="rmiu:~Logger" resolve="Logger" />
-                    <node concept="Xl_RD" id="5nND$KhTF_S" role="37wK5m">
-                      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tools.OJDBC6_LoaderServlet" />
+              <node concept="3clFbF" id="1i79Hb8s1Tx" role="3cqZAp">
+                <node concept="2OqwBi" id="1i79Hb8s1Ty" role="3clFbG">
+                  <node concept="2YIFZM" id="1i79Hb8s1Tz" role="2Oq$k0">
+                    <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+                    <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                    <node concept="3VsKOn" id="1i79Hb8s1T$" role="37wK5m">
+                      <ref role="3VsUkX" node="5nND$KhT9yA" resolve="OJDBC6_LoaderServlet" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="5nND$KhTFOI" role="2OqNvi">
-                    <ref role="37wK5l" to="rmiu:~Category.error(java.lang.Object):void" resolve="error" />
+                  <node concept="liA8E" id="1i79Hb8s1T_" role="2OqNvi">
+                    <ref role="37wK5l" to="agbp:~Log.error(java.lang.Object):void" resolve="error" />
                     <node concept="3cpWs3" id="5nND$KhTJBZ" role="37wK5m">
                       <node concept="1rXfSq" id="5nND$KhTJGM" role="3uHU7w">
                         <ref role="37wK5l" node="5T_hheUJWLq" resolve="stackTrace2String" />
@@ -396,6 +399,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="1i79Hb8s1Q2" role="3cqZAp" />
             </node>
           </node>
           <node concept="3clFbS" id="5nND$Khit5F" role="2GVbov">
