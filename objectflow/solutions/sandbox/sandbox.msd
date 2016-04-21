@@ -19,7 +19,6 @@
       <sourceRoot location="printing21/barcode4j-fop-ext-complete.jar" />
       <sourceRoot location="printing21/batik-all-1.8.jar" />
       <sourceRoot location="printing21/commons-io-1.3.1.jar" />
-      <sourceRoot location="printing21/commons-logging-1.0.4.jar" />
       <sourceRoot location="printing21/fop.jar" />
       <sourceRoot location="printing21/serializer-2.7.0.jar" />
       <sourceRoot location="printing21/xalan-2.7.2.jar" />
@@ -29,6 +28,7 @@
       <sourceRoot location="printing21/xmlgraphics-commons-2.1.jar" />
       <sourceRoot location="printing21/fontbox-1.8.5.jar" />
       <sourceRoot location="printing21/pdfbox-1.8.11.jar" />
+      <sourceRoot location="commons-logging-1.0.4.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -50,7 +50,6 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/barcode4j-fop-ext-complete.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/batik-all-1.8.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/commons-io-1.3.1.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/commons-logging-1.0.4.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/fop.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/serializer-2.7.0.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xalan-2.7.2.jar" />
