@@ -7554,7 +7554,7 @@
     <ref role="1XX52x" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
     <node concept="3EZMnI" id="q_zDmI5$a4" role="2wV5jI">
       <node concept="3F0ifn" id="q_zDmI5$a5" role="3EZMnx">
-        <property role="3F0ifm" value="Configuration" />
+        <property role="3F0ifm" value="OFXConfiguration" />
         <ref role="1k5W1q" node="12ldMQAKJpH" resolve="O2Header" />
       </node>
       <node concept="3F0A7n" id="q_zDmI5$a7" role="3EZMnx">

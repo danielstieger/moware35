@@ -2545,7 +2545,13 @@
                 <property role="3SKdUp" value="init spring ioc first : )" />
               </node>
             </node>
-            <node concept="3clFbH" id="16HdUMOYb2o" role="3cqZAp" />
+            <node concept="3clFbF" id="2h5WDoUZN6h" role="3cqZAp">
+              <node concept="2YIFZM" id="2h5WDoUZNRH" role="3clFbG">
+                <ref role="37wK5l" to="28jr:2h5WDoUYWm9" resolve="initRichClientSetup" />
+                <ref role="1Pybhc" to="28jr:2UFgF_pdJvB" resolve="Log4JProperties" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="2h5WDoUYKPI" role="3cqZAp" />
             <node concept="3cpWs8" id="16HdUMOWEHz" role="3cqZAp">
               <node concept="3cpWsn" id="16HdUMOWEH$" role="3cpWs9">
                 <property role="TrG5h" value="context" />
