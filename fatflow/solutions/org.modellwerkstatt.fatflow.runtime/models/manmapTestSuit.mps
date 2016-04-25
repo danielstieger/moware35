@@ -29596,12 +29596,6 @@
           <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoSimplePrintService" />
         </node>
       </node>
-      <node concept="2CJf3v" id="3spXEPYch5H" role="2CJdiS">
-        <property role="TrG5h" value="fakePrintService" />
-        <node concept="Xl_RD" id="3spXEPYch5I" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFakePrintFactory" />
-        </node>
-      </node>
     </node>
     <node concept="2CPvp3" id="4LC0Y0L2pbt" role="2CGBMS" />
     <node concept="2CPvp3" id="4LC0Y0L2pbu" role="2CGBMS" />

@@ -163,6 +163,11 @@
         <child id="478945708937917662" name="name" index="2DlbDb" />
         <child id="478945708937917664" name="value" index="2DlbDP" />
       </concept>
+      <concept id="4419932786254844465" name="org.modellwerkstatt.objectflow.structure.RunCommand" flags="ng" index="2Ux5d2">
+        <reference id="4419932786254844467" name="command" index="2Ux5d0" />
+        <reference id="4419932786254844466" name="process" index="2Ux5d1" />
+        <child id="4419932786254844498" name="actualArgument" index="2Ux5cx" />
+      </concept>
       <concept id="4533072425307838443" name="org.modellwerkstatt.objectflow.structure.StatusConstReference" flags="ng" index="2XvMaL">
         <reference id="4533072425307838444" name="status" index="2XvMaQ" />
         <reference id="1707329006119989962" name="element" index="1Vchh_" />
@@ -276,29 +281,45 @@
     <property role="3GE5qa" value="" />
     <property role="TrG5h" value="LolaTestConfigTomcat" />
     <property role="2320hu" value="2016-04-19T11:17:37.421+02:00" />
-    <node concept="2CJf3v" id="6pSmLDqqFs5" role="2CGBMS">
-      <property role="TrG5h" value="setupFileLogging" />
-      <node concept="2DlbD8" id="6pSmLDqqFs6" role="2DlbIj">
-        <node concept="Xl_RD" id="6pSmLDqqFs7" role="2DlbDb">
-          <property role="Xl_RC" value="factory-method" />
+    <node concept="2CJf3v" id="7Tmb8cxHwWJ" role="2CGBMS">
+      <property role="TrG5h" value="printFactory" />
+      <node concept="Xl_RD" id="7Tmb8cxHwWK" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFatClientPrintFactory" />
+      </node>
+      <node concept="2CJf1O" id="7Tmb8cxHwWL" role="2CJ4_l">
+        <node concept="Xl_RD" id="7Tmb8cxHwWM" role="2DqwMp">
+          <property role="Xl_RC" value="noTemplateClassLoaderHere" />
         </node>
-        <node concept="Xl_RD" id="6pSmLDqqFs8" role="2DlbDP">
-          <property role="Xl_RC" value="configFile" />
+        <node concept="Xl_RD" id="7Tmb8cxHwWN" role="2DqwMv">
+          <property role="Xl_RC" value="0" />
         </node>
       </node>
-      <node concept="Xl_RD" id="6pSmLDqqFs9" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.Log4JProperties" />
-      </node>
-      <node concept="2CJf1O" id="6pSmLDqqFsa" role="2CJ4_l">
-        <node concept="Xl_RD" id="6pSmLDqqFsb" role="2DqwMv">
-          <property role="Xl_RC" value="String" />
+      <node concept="2CJf1O" id="7Tmb8cxHwWO" role="2CJ4_l">
+        <node concept="Xl_RD" id="7Tmb8cxHwWP" role="2DqwMp">
+          <property role="Xl_RC" value="/Users/danielstieger/moware/fatflow/solutions/org.modellwerkstatt.fatflow.runtime/source_gen/org/modellwerkstatt/fatflow/runtime/BatchJobTestSuit" />
         </node>
-        <node concept="Xl_RD" id="6pSmLDqqFsc" role="2DqwMp">
-          <property role="Xl_RC" value="/Users/danielstieger/logingfile.log" />
+        <node concept="Xl_RD" id="7Tmb8cxHwWQ" role="2DqwMv">
+          <property role="Xl_RC" value="1" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="7Tmb8cxHwWR" role="2CJ4_l">
+        <node concept="Xl_RD" id="7Tmb8cxHwWS" role="2DqwMp">
+          <property role="Xl_RC" value="/Users/danielstieger" />
+        </node>
+        <node concept="Xl_RD" id="7Tmb8cxHwWT" role="2DqwMv">
+          <property role="Xl_RC" value="2" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="7Tmb8cxHwWU" role="2CJ4_l">
+        <node concept="Xl_RD" id="7Tmb8cxHwWV" role="2DqwMp">
+          <property role="Xl_RC" value="true" />
+        </node>
+        <node concept="Xl_RD" id="7Tmb8cxHwWW" role="2DqwMv">
+          <property role="Xl_RC" value="3" />
         </node>
       </node>
     </node>
-    <node concept="2CPvp3" id="7su1OqASBGx" role="2CGBMS" />
+    <node concept="2CPvp3" id="7Tmb8cxHwUM" role="2CGBMS" />
     <node concept="2CJf3v" id="3k90eqerT00" role="2CGBMS">
       <property role="TrG5h" value="setting" />
       <node concept="2DlbD8" id="3k90eqerTbV" role="2DlbIj">
@@ -339,45 +360,6 @@
       <ref role="2CJ4_N" to="ofql:4LC0Y0L2pbw" resolve="DEP_UserEnvironmentInformation" />
     </node>
     <node concept="2CPvp3" id="5HEFy8JOGCj" role="2CGBMS" />
-    <node concept="2CJf3v" id="5HEFy8JOG_R" role="2CGBMS">
-      <property role="TrG5h" value="printFactory" />
-      <node concept="Xl_RD" id="5HEFy8JOG_S" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFatClientPrintFactory" />
-      </node>
-      <node concept="2CJf1O" id="5HEFy8JOG_T" role="2CJ4_l">
-        <node concept="Xl_RD" id="5HEFy8JOG_U" role="2DqwMp">
-          <property role="Xl_RC" value="noTemplateClassLoaderHere" />
-        </node>
-        <node concept="Xl_RD" id="5HEFy8JOG_V" role="2DqwMv">
-          <property role="Xl_RC" value="0" />
-        </node>
-      </node>
-      <node concept="2CJf1O" id="5HEFy8JOG_W" role="2CJ4_l">
-        <node concept="Xl_RD" id="5HEFy8JOG_X" role="2DqwMp">
-          <property role="Xl_RC" value="/Users/danielstieger/moware/fatflow/solutions/org.modellwerkstatt.fatflow.runtime/source_gen/org/modellwerkstatt/fatflow/runtime/BatchJobTestSuit" />
-        </node>
-        <node concept="Xl_RD" id="5HEFy8JOG_Y" role="2DqwMv">
-          <property role="Xl_RC" value="1" />
-        </node>
-      </node>
-      <node concept="2CJf1O" id="5HEFy8JOG_Z" role="2CJ4_l">
-        <node concept="Xl_RD" id="5HEFy8JOGA0" role="2DqwMp">
-          <property role="Xl_RC" value="/Users/danielstieger" />
-        </node>
-        <node concept="Xl_RD" id="5HEFy8JOGA1" role="2DqwMv">
-          <property role="Xl_RC" value="2" />
-        </node>
-      </node>
-      <node concept="2CJf1O" id="5HEFy8JOGA2" role="2CJ4_l">
-        <node concept="Xl_RD" id="5HEFy8JOGA3" role="2DqwMp">
-          <property role="Xl_RC" value="true" />
-        </node>
-        <node concept="Xl_RD" id="5HEFy8JOGA4" role="2DqwMv">
-          <property role="Xl_RC" value="3" />
-        </node>
-      </node>
-    </node>
-    <node concept="2CPvp3" id="33KhHQReTh9" role="2CGBMS" />
     <node concept="2CJf3v" id="77cIZASxKuH" role="2CGBMS">
       <property role="TrG5h" value="lockService" />
       <node concept="Xl_RD" id="77cIZASxKuJ" role="2CJf0U">
@@ -657,6 +639,12 @@
             </node>
           </node>
           <node concept="3clFbH" id="1tsGGAI68WR" role="3cqZAp" />
+          <node concept="2Ux5d2" id="7Tmb8cxHoX2" role="3cqZAp">
+            <ref role="2Ux5d1" node="5nND$KgDDK2" resolve="IntkeyWriter" />
+            <ref role="2Ux5d0" node="5E5qL$GsnKa" resolve="Print Test Doc" />
+            <node concept="10Nm6u" id="7Tmb8cxHpcu" role="2Ux5cx" />
+          </node>
+          <node concept="3clFbH" id="7Tmb8cxHoNn" role="3cqZAp" />
           <node concept="3VdxhY" id="7I9la4VEzy4" role="3cqZAp">
             <property role="Rda9K" value="ERROR" />
             <node concept="3cpWs3" id="7I9la4VEzR1" role="3VcgQn">
@@ -939,31 +927,8 @@
           </node>
         </node>
       </node>
-      <node concept="2CJf3v" id="7Tmb8cxGi$n" role="2CJdiS">
-        <property role="TrG5h" value="setupFileLogging" />
-        <node concept="2DlbD8" id="7Tmb8cxGi$o" role="2DlbIj">
-          <node concept="Xl_RD" id="7Tmb8cxGi$p" role="2DlbDb">
-            <property role="Xl_RC" value="factory-method" />
-          </node>
-          <node concept="Xl_RD" id="7Tmb8cxGi$q" role="2DlbDP">
-            <property role="Xl_RC" value="configFile" />
-          </node>
-        </node>
-        <node concept="Xl_RD" id="7Tmb8cxGi$r" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.Log4JProperties" />
-        </node>
-        <node concept="2CJf1O" id="7Tmb8cxGi$s" role="2CJ4_l">
-          <node concept="Xl_RD" id="7Tmb8cxGi$t" role="2DqwMv">
-            <property role="Xl_RC" value="String" />
-          </node>
-          <node concept="Xl_RD" id="7Tmb8cxGi$u" role="2DqwMp">
-            <property role="Xl_RC" value="/home/idontnow/logingfile.log" />
-          </node>
-        </node>
-      </node>
       <node concept="2CPvp3" id="2h5WDoVdfDB" role="2CJdiS" />
     </node>
-    <node concept="2CPvp3" id="5_hYnMu6fYv" role="2CGBMS" />
     <node concept="2CJf3v" id="5_hYnMu6fYw" role="2CGBMS">
       <property role="TrG5h" value="setting" />
       <node concept="2DlbD8" id="5_hYnMu6fYx" role="2DlbIj">
@@ -1003,49 +968,41 @@
     <node concept="2CJ4_Q" id="5_hYnMu6fYI" role="2CGBMS">
       <ref role="2CJ4_N" to="ofql:4LC0Y0L2pbw" resolve="DEP_UserEnvironmentInformation" />
     </node>
-    <node concept="2CJf3v" id="5E5qL$GvL6A" role="2CGBMS">
+    <node concept="2CJf3v" id="5HEFy8JOG_R" role="2CGBMS">
       <property role="TrG5h" value="printFactory" />
-      <node concept="Xl_RD" id="5E5qL$GvL6C" role="2CJf0U">
+      <node concept="Xl_RD" id="5HEFy8JOG_S" role="2CJf0U">
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFatClientPrintFactory" />
       </node>
-      <node concept="2CJf1O" id="5E5qL$GwFq$" role="2CJ4_l">
-        <node concept="Xl_RD" id="5E5qL$GwFq_" role="2DqwMp">
+      <node concept="2CJf1O" id="5HEFy8JOG_T" role="2CJ4_l">
+        <node concept="Xl_RD" id="5HEFy8JOG_U" role="2DqwMp">
           <property role="Xl_RC" value="noTemplateClassLoaderHere" />
         </node>
-        <node concept="Xl_RD" id="5E5qL$GwFqF" role="2DqwMv">
+        <node concept="Xl_RD" id="5HEFy8JOG_V" role="2DqwMv">
           <property role="Xl_RC" value="0" />
         </node>
       </node>
-      <node concept="2CJf1O" id="5E5qL$GwFso" role="2CJ4_l">
-        <node concept="Xl_RD" id="5E5qL$GwFsp" role="2DqwMp">
+      <node concept="2CJf1O" id="5HEFy8JOG_W" role="2CJ4_l">
+        <node concept="Xl_RD" id="5HEFy8JOG_X" role="2DqwMp">
           <property role="Xl_RC" value="/Users/danielstieger/moware/fatflow/solutions/org.modellwerkstatt.fatflow.runtime/source_gen/org/modellwerkstatt/fatflow/runtime/BatchJobTestSuit" />
         </node>
-        <node concept="Xl_RD" id="5E5qL$GwFsq" role="2DqwMv">
+        <node concept="Xl_RD" id="5HEFy8JOG_Y" role="2DqwMv">
           <property role="Xl_RC" value="1" />
         </node>
       </node>
-      <node concept="2CJf1O" id="5E5qL$GwFt8" role="2CJ4_l">
-        <node concept="Xl_RD" id="5E5qL$GwFt9" role="2DqwMp">
+      <node concept="2CJf1O" id="5HEFy8JOG_Z" role="2CJ4_l">
+        <node concept="Xl_RD" id="5HEFy8JOGA0" role="2DqwMp">
           <property role="Xl_RC" value="/Users/danielstieger" />
         </node>
-        <node concept="Xl_RD" id="5E5qL$GwFta" role="2DqwMv">
+        <node concept="Xl_RD" id="5HEFy8JOGA1" role="2DqwMv">
           <property role="Xl_RC" value="2" />
         </node>
       </node>
-      <node concept="2CJf1O" id="5E5qL$GwFtM" role="2CJ4_l">
-        <node concept="Xl_RD" id="5E5qL$GwFtN" role="2DqwMp">
+      <node concept="2CJf1O" id="5HEFy8JOGA2" role="2CJ4_l">
+        <node concept="Xl_RD" id="5HEFy8JOGA3" role="2DqwMp">
           <property role="Xl_RC" value="true" />
         </node>
-        <node concept="Xl_RD" id="5E5qL$GwFtO" role="2DqwMv">
+        <node concept="Xl_RD" id="5HEFy8JOGA4" role="2DqwMv">
           <property role="Xl_RC" value="3" />
-        </node>
-      </node>
-      <node concept="2CJf1O" id="5E5qL$GwFu$" role="2CJ4_l">
-        <node concept="Xl_RD" id="5E5qL$GwFu_" role="2DqwMp">
-          <property role="Xl_RC" value="true" />
-        </node>
-        <node concept="Xl_RD" id="5E5qL$GwFuA" role="2DqwMv">
-          <property role="Xl_RC" value="4" />
         </node>
       </node>
     </node>

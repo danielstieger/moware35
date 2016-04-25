@@ -10,7 +10,7 @@
       <sourceRoot location="org.springframework.core-3.0.5.RELEASE.jar" />
       <sourceRoot location="org.springframework.jdbc-3.0.5.RELEASE.jar" />
       <sourceRoot location="org.springframework.transaction-3.0.5.RELEASE.jar" />
-      <sourceRoot location="commons-logging-1.0.4.jar" />
+      <sourceRoot location="commons-logging-1.2.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -19,7 +19,7 @@
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.core-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.jdbc-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.transaction-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/commons-logging-1.0.4.jar" />
+    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/commons-logging-1.2.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
