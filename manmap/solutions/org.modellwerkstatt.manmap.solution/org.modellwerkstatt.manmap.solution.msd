@@ -5,23 +5,21 @@
       <sourceRoot location="." />
     </modelRoot>
     <modelRoot contentPath="${mowareHome}/manmap/languages/manmap/jars" type="java_classes">
-      <sourceRoot location="c3p0-0.9.2-pre6.jar" />
       <sourceRoot location="joda-time-2.1.jar" />
-      <sourceRoot location="mchange-commons-java-0.2.3.1.jar" />
       <sourceRoot location="org.springframework.beans-3.0.5.RELEASE.jar" />
       <sourceRoot location="org.springframework.core-3.0.5.RELEASE.jar" />
       <sourceRoot location="org.springframework.jdbc-3.0.5.RELEASE.jar" />
       <sourceRoot location="org.springframework.transaction-3.0.5.RELEASE.jar" />
+      <sourceRoot location="commons-logging-1.0.4.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/c3p0-0.9.2-pre6.jar" />
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/joda-time-2.1.jar" />
-    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/mchange-commons-java-0.2.3.1.jar" />
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.beans-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.core-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.jdbc-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.transaction-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/commons-logging-1.0.4.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

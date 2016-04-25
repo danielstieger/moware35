@@ -25,7 +25,7 @@
     <import index="77h2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.management(JDK/javax.management@java_stub)" />
     <import index="vft3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.concurrent.atomic(JDK/java.util.concurrent.atomic@java_stub)" />
     <import index="y50y" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.management(JDK/java.lang.management@java_stub)" />
-    <import index="agbp" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.commons.logging(org.modellwerkstatt.sandbox/org.apache.commons.logging@java_stub)" />
+    <import index="5cyd" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.apache.commons.logging(org.modellwerkstatt.manmap.solution/org.apache.commons.logging@java_stub)" />
     <import index="ybr6" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time.base(org.modellwerkstatt.manmap.solution/org.joda.time.base@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -1920,14 +1920,14 @@
         <node concept="3clFbF" id="1i79Hb8rMh5" role="3cqZAp">
           <node concept="2OqwBi" id="1i79Hb8rMh6" role="3clFbG">
             <node concept="2YIFZM" id="1i79Hb8rMh7" role="2Oq$k0">
-              <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
-              <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+              <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+              <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
               <node concept="3VsKOn" id="1i79Hb8rMh8" role="37wK5m">
                 <ref role="3VsUkX" node="Y3fiVJRmaH" resolve="FApplicationCrtl" />
               </node>
             </node>
             <node concept="liA8E" id="1i79Hb8rMh9" role="2OqNvi">
-              <ref role="37wK5l" to="agbp:~Log.error(java.lang.Object):void" resolve="error" />
+              <ref role="37wK5l" to="5cyd:~Log.error(java.lang.Object):void" resolve="error" />
               <node concept="37vLTw" id="1i79Hb8rMha" role="37wK5m">
                 <ref role="3cqZAo" node="1i79Hb8rMhb" resolve="s" />
               </node>
@@ -5883,14 +5883,14 @@
         <node concept="3clFbF" id="1i79Hb8r4Hh" role="3cqZAp">
           <node concept="2OqwBi" id="1i79Hb8r4Nz" role="3clFbG">
             <node concept="2YIFZM" id="1i79Hb8r4J0" role="2Oq$k0">
-              <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
-              <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+              <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+              <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
               <node concept="3VsKOn" id="1i79Hb8r4Lq" role="37wK5m">
                 <ref role="3VsUkX" node="Y3fiVKxA03" resolve="FCommandContainer" />
               </node>
             </node>
             <node concept="liA8E" id="1i79Hb8r5LA" role="2OqNvi">
-              <ref role="37wK5l" to="agbp:~Log.error(java.lang.Object):void" resolve="error" />
+              <ref role="37wK5l" to="5cyd:~Log.error(java.lang.Object):void" resolve="error" />
               <node concept="37vLTw" id="1i79Hb8rbpH" role="37wK5m">
                 <ref role="3cqZAo" node="1i79Hb8r6q2" resolve="s" />
               </node>

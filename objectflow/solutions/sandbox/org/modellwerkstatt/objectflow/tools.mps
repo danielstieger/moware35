@@ -8,7 +8,7 @@
     <import index="vksr" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#javax.servlet.http(org.modellwerkstatt.sandbox/javax.servlet.http@java_stub)" />
     <import index="tsi3" ref="f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#javax.servlet(org.modellwerkstatt.sandbox/javax.servlet@java_stub)" />
     <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="agbp" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.commons.logging(org.modellwerkstatt.sandbox/org.apache.commons.logging@java_stub)" />
+    <import index="5cyd" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.apache.commons.logging(org.modellwerkstatt.manmap.solution/org.apache.commons.logging@java_stub)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
   </imports>
   <registry>
@@ -311,14 +311,14 @@
                   <node concept="3clFbF" id="1i79Hb8s1al" role="3cqZAp">
                     <node concept="2OqwBi" id="1i79Hb8s1rs" role="3clFbG">
                       <node concept="2YIFZM" id="1i79Hb8s1eX" role="2Oq$k0">
-                        <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
-                        <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+                        <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                        <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
                         <node concept="3VsKOn" id="1i79Hb8s1mB" role="37wK5m">
                           <ref role="3VsUkX" node="5nND$KhT9yA" resolve="OJDBC6_LoaderServlet" />
                         </node>
                       </node>
                       <node concept="liA8E" id="1i79Hb8s1$Z" role="2OqNvi">
-                        <ref role="37wK5l" to="agbp:~Log.error(java.lang.Object):void" resolve="error" />
+                        <ref role="37wK5l" to="5cyd:~Log.error(java.lang.Object):void" resolve="error" />
                         <node concept="3cpWs3" id="5nND$KhTK2X" role="37wK5m">
                           <node concept="1rXfSq" id="5nND$KhTK2Y" role="3uHU7w">
                             <ref role="37wK5l" node="5T_hheUJWLq" resolve="stackTrace2String" />
@@ -377,14 +377,14 @@
               <node concept="3clFbF" id="1i79Hb8s1Tx" role="3cqZAp">
                 <node concept="2OqwBi" id="1i79Hb8s1Ty" role="3clFbG">
                   <node concept="2YIFZM" id="1i79Hb8s1Tz" role="2Oq$k0">
-                    <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
-                    <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                    <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                    <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
                     <node concept="3VsKOn" id="1i79Hb8s1T$" role="37wK5m">
                       <ref role="3VsUkX" node="5nND$KhT9yA" resolve="OJDBC6_LoaderServlet" />
                     </node>
                   </node>
                   <node concept="liA8E" id="1i79Hb8s1T_" role="2OqNvi">
-                    <ref role="37wK5l" to="agbp:~Log.error(java.lang.Object):void" resolve="error" />
+                    <ref role="37wK5l" to="5cyd:~Log.error(java.lang.Object):void" resolve="error" />
                     <node concept="3cpWs3" id="5nND$KhTJBZ" role="37wK5m">
                       <node concept="1rXfSq" id="5nND$KhTJGM" role="3uHU7w">
                         <ref role="37wK5l" node="5T_hheUJWLq" resolve="stackTrace2String" />

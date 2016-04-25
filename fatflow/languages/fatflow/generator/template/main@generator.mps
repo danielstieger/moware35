@@ -44,7 +44,7 @@
     <import index="47m2" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.config@java_stub)" />
     <import index="53gy" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util.concurrent(JDK/java.util.concurrent@java_stub)" />
     <import index="k7g3" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
-    <import index="agbp" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.commons.logging(org.modellwerkstatt.sandbox/org.apache.commons.logging@java_stub)" />
+    <import index="5cyd" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.apache.commons.logging(org.modellwerkstatt.manmap.solution/org.apache.commons.logging@java_stub)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -3510,11 +3510,11 @@
       <property role="TrG5h" value="__packageLogger" />
       <node concept="3Tm6S6" id="I5W9GWH16P" role="1B3o_S" />
       <node concept="3uibUv" id="1i79Hb8Hcjy" role="1tU5fm">
-        <ref role="3uigEE" to="agbp:~Log" resolve="Log" />
+        <ref role="3uigEE" to="5cyd:~Log" resolve="Log" />
       </node>
       <node concept="2YIFZM" id="1i79Hb8HcWD" role="33vP2m">
-        <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
-        <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+        <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+        <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
         <node concept="Xl_RD" id="1i79Hb8HcWE" role="37wK5m">
           <property role="Xl_RC" value="packageLogger" />
           <node concept="17Uvod" id="1i79Hb8HcWF" role="lGtFl">
@@ -16272,6 +16272,13 @@
       <node concept="3clFbS" id="2P7gGuyhB60" role="3clF47">
         <node concept="2GUZhq" id="6Rdz00$6Qjn" role="3cqZAp">
           <node concept="3clFbS" id="6Rdz00$6Qjo" role="2GV8ay">
+            <node concept="3clFbF" id="7Tmb8cxBTN0" role="3cqZAp">
+              <node concept="2YIFZM" id="7Tmb8cxBTZ3" role="3clFbG">
+                <ref role="37wK5l" to="28jr:2h5WDoUYWm9" resolve="initRichClientSetup" />
+                <ref role="1Pybhc" to="28jr:2UFgF_pdJvB" resolve="Log4JProperties" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="7Tmb8cxBU0N" role="3cqZAp" />
             <node concept="3cpWs8" id="2P7gGuyhB5p" role="3cqZAp">
               <node concept="3cpWsn" id="2P7gGuyhB5q" role="3cpWs9">
                 <property role="TrG5h" value="test" />
@@ -17549,6 +17556,13 @@
         </node>
         <node concept="SfApY" id="1fGCQmfH3oc" role="3cqZAp">
           <node concept="3clFbS" id="56psMmAhEHK" role="SfCbr">
+            <node concept="3clFbF" id="7Tmb8cxC02I" role="3cqZAp">
+              <node concept="2YIFZM" id="7Tmb8cxC06N" role="3clFbG">
+                <ref role="37wK5l" to="28jr:2h5WDoUYWm9" resolve="initRichClientSetup" />
+                <ref role="1Pybhc" to="28jr:2UFgF_pdJvB" resolve="Log4JProperties" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="7Tmb8cxC08w" role="3cqZAp" />
             <node concept="3clFbF" id="7ubUX4Z_tet" role="3cqZAp">
               <node concept="37vLTI" id="7ubUX4Z_tjw" role="3clFbG">
                 <node concept="2ShNRf" id="7ubUX4Z_tmX" role="37vLTx">
@@ -20555,7 +20569,7 @@
         <property role="TrG5h" value="__packageLogger" />
         <node concept="3Tm6S6" id="I5W9GWH17h" role="1B3o_S" />
         <node concept="3uibUv" id="1i79Hb8Hm3C" role="1tU5fm">
-          <ref role="3uigEE" to="agbp:~Log" resolve="Log" />
+          <ref role="3uigEE" to="5cyd:~Log" resolve="Log" />
         </node>
       </node>
       <node concept="3clFbW" id="22Psgbrx7ND" role="jymVt">
@@ -20619,8 +20633,8 @@
           <node concept="3clFbF" id="1i79Hb8HvjY" role="3cqZAp">
             <node concept="2OqwBi" id="1i79Hb8HvjZ" role="3clFbG">
               <node concept="2YIFZM" id="1i79Hb8Hvk0" role="2Oq$k0">
-                <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
-                <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+                <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
                 <node concept="Xl_RD" id="1i79Hb8Hvk1" role="37wK5m">
                   <property role="Xl_RC" value="packageName" />
                   <node concept="17Uvod" id="1i79Hb8Hvk2" role="lGtFl">
@@ -20642,7 +20656,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="1i79Hb8Hvk9" role="2OqNvi">
-                <ref role="37wK5l" to="agbp:~Log.trace(java.lang.Object):void" resolve="trace" />
+                <ref role="37wK5l" to="5cyd:~Log.trace(java.lang.Object):void" resolve="trace" />
                 <node concept="37vLTw" id="1i79Hb8Hvkk" role="37wK5m">
                   <ref role="3cqZAo" node="PHlXUjGv8m" resolve="msg" />
                 </node>
@@ -20689,8 +20703,8 @@
           <node concept="3clFbF" id="1i79Hb8HvLj" role="3cqZAp">
             <node concept="2OqwBi" id="1i79Hb8HvLk" role="3clFbG">
               <node concept="2YIFZM" id="1i79Hb8HvLl" role="2Oq$k0">
-                <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
-                <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+                <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
                 <node concept="Xl_RD" id="1i79Hb8HvLm" role="37wK5m">
                   <property role="Xl_RC" value="packageName" />
                   <node concept="17Uvod" id="1i79Hb8HvLn" role="lGtFl">
@@ -20712,7 +20726,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="1i79Hb8HvLu" role="2OqNvi">
-                <ref role="37wK5l" to="agbp:~Log.debug(java.lang.Object):void" resolve="debug" />
+                <ref role="37wK5l" to="5cyd:~Log.debug(java.lang.Object):void" resolve="debug" />
                 <node concept="37vLTw" id="1i79Hb8HvLD" role="37wK5m">
                   <ref role="3cqZAo" node="PHlXUjGv8m" resolve="msg" />
                 </node>
@@ -20744,8 +20758,8 @@
           <node concept="3clFbF" id="1i79Hb8Hw7D" role="3cqZAp">
             <node concept="2OqwBi" id="1i79Hb8Hw7E" role="3clFbG">
               <node concept="2YIFZM" id="1i79Hb8Hw7F" role="2Oq$k0">
-                <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
-                <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+                <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
                 <node concept="Xl_RD" id="1i79Hb8Hw7G" role="37wK5m">
                   <property role="Xl_RC" value="packageName" />
                   <node concept="17Uvod" id="1i79Hb8Hw7H" role="lGtFl">
@@ -20767,7 +20781,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="1i79Hb8Hw7O" role="2OqNvi">
-                <ref role="37wK5l" to="agbp:~Log.info(java.lang.Object):void" resolve="info" />
+                <ref role="37wK5l" to="5cyd:~Log.info(java.lang.Object):void" resolve="info" />
                 <node concept="37vLTw" id="1i79Hb8Hw7Z" role="37wK5m">
                   <ref role="3cqZAo" node="PHlXUjGv8m" resolve="msg" />
                 </node>
@@ -20799,8 +20813,8 @@
           <node concept="3clFbF" id="1i79Hb8Hwwe" role="3cqZAp">
             <node concept="2OqwBi" id="1i79Hb8Hwwf" role="3clFbG">
               <node concept="2YIFZM" id="1i79Hb8Hwwg" role="2Oq$k0">
-                <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
-                <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+                <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
                 <node concept="Xl_RD" id="1i79Hb8Hwwh" role="37wK5m">
                   <property role="Xl_RC" value="packageName" />
                   <node concept="17Uvod" id="1i79Hb8Hwwi" role="lGtFl">
@@ -20822,7 +20836,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="1i79Hb8Hwwp" role="2OqNvi">
-                <ref role="37wK5l" to="agbp:~Log.warn(java.lang.Object):void" resolve="warn" />
+                <ref role="37wK5l" to="5cyd:~Log.warn(java.lang.Object):void" resolve="warn" />
                 <node concept="37vLTw" id="1i79Hb8Hww$" role="37wK5m">
                   <ref role="3cqZAo" node="PHlXUjGv8m" resolve="msg" />
                 </node>
@@ -20854,8 +20868,8 @@
           <node concept="3clFbF" id="1i79Hb8Hx64" role="3cqZAp">
             <node concept="2OqwBi" id="1i79Hb8Hx65" role="3clFbG">
               <node concept="2YIFZM" id="1i79Hb8Hx66" role="2Oq$k0">
-                <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
-                <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+                <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
                 <node concept="Xl_RD" id="1i79Hb8Hx67" role="37wK5m">
                   <property role="Xl_RC" value="packageName" />
                   <node concept="17Uvod" id="1i79Hb8Hx68" role="lGtFl">
@@ -20877,7 +20891,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="1i79Hb8Hx6f" role="2OqNvi">
-                <ref role="37wK5l" to="agbp:~Log.error(java.lang.Object):void" resolve="error" />
+                <ref role="37wK5l" to="5cyd:~Log.error(java.lang.Object):void" resolve="error" />
                 <node concept="37vLTw" id="1i79Hb8Hx6q" role="37wK5m">
                   <ref role="3cqZAo" node="PHlXUjGv8m" resolve="msg" />
                 </node>
@@ -21017,8 +21031,8 @@
           <node concept="3clFbF" id="1i79Hb8HxII" role="3cqZAp">
             <node concept="2OqwBi" id="1i79Hb8HxIJ" role="3clFbG">
               <node concept="2YIFZM" id="1i79Hb8HxIK" role="2Oq$k0">
-                <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
-                <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+                <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
                 <node concept="Xl_RD" id="1i79Hb8HxIL" role="37wK5m">
                   <property role="Xl_RC" value="packageName" />
                   <node concept="17Uvod" id="1i79Hb8HxIM" role="lGtFl">
@@ -21040,7 +21054,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="1i79Hb8HxIT" role="2OqNvi">
-                <ref role="37wK5l" to="agbp:~Log.fatal(java.lang.Object):void" resolve="fatal" />
+                <ref role="37wK5l" to="5cyd:~Log.fatal(java.lang.Object):void" resolve="fatal" />
                 <node concept="37vLTw" id="1i79Hb8HxJ4" role="37wK5m">
                   <ref role="3cqZAo" node="PHlXUjGv8m" resolve="msg" />
                 </node>
@@ -21177,11 +21191,11 @@
         <property role="TrG5h" value="__packageLogger" />
         <node concept="3Tm6S6" id="2ExzLzC1ioJ" role="1B3o_S" />
         <node concept="3uibUv" id="1i79Hb8Hnz8" role="1tU5fm">
-          <ref role="3uigEE" to="agbp:~Log" resolve="Log" />
+          <ref role="3uigEE" to="5cyd:~Log" resolve="Log" />
         </node>
         <node concept="2YIFZM" id="1i79Hb8HnQf" role="33vP2m">
-          <ref role="37wK5l" to="agbp:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
-          <ref role="1Pybhc" to="agbp:~LogFactory" resolve="LogFactory" />
+          <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+          <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
           <node concept="Xl_RD" id="1i79Hb8HnQg" role="37wK5m">
             <property role="Xl_RC" value="packageLogger" />
             <node concept="17Uvod" id="1i79Hb8HnQh" role="lGtFl">

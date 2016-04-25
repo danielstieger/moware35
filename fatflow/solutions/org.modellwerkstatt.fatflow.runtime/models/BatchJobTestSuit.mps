@@ -915,6 +915,54 @@
     <property role="2320hu" value="2016-04-19T10:51:13.168+02:00" />
     <node concept="2CPvp3" id="5_hYnMu6fYn" role="2CGBMS" />
     <node concept="2CPvp3" id="5_hYnMu6fYu" role="2CGBMS" />
+    <node concept="2CJoq6" id="2n3p7A96F5O" role="2CGBMS">
+      <property role="TrG5h" value="SetupLog4j_4_Console___Set_Level_Simple" />
+      <node concept="2CJf3v" id="2n3p7A96F9Z" role="2CJdiS">
+        <property role="TrG5h" value="logConfig_1" />
+        <node concept="Xl_RD" id="2n3p7A96Fa0" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.Log4JLogLevel" />
+        </node>
+        <node concept="2CJf1O" id="2n3p7A96Fa1" role="2CJ4_l">
+          <node concept="Xl_RD" id="2n3p7A96Fa2" role="2DqwMv">
+            <property role="Xl_RC" value="String" />
+          </node>
+          <node concept="Xl_RD" id="2n3p7A96Fa3" role="2DqwMp">
+            <property role="Xl_RC" value="Simple" />
+          </node>
+        </node>
+        <node concept="2CJf1O" id="2n3p7A96Fa4" role="2CJ4_l">
+          <node concept="Xl_RD" id="2n3p7A96Fa5" role="2DqwMv">
+            <property role="Xl_RC" value="String" />
+          </node>
+          <node concept="Xl_RD" id="2n3p7A96Fa6" role="2DqwMp">
+            <property role="Xl_RC" value="INFO" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CJf3v" id="7Tmb8cxGi$n" role="2CJdiS">
+        <property role="TrG5h" value="setupFileLogging" />
+        <node concept="2DlbD8" id="7Tmb8cxGi$o" role="2DlbIj">
+          <node concept="Xl_RD" id="7Tmb8cxGi$p" role="2DlbDb">
+            <property role="Xl_RC" value="factory-method" />
+          </node>
+          <node concept="Xl_RD" id="7Tmb8cxGi$q" role="2DlbDP">
+            <property role="Xl_RC" value="configFile" />
+          </node>
+        </node>
+        <node concept="Xl_RD" id="7Tmb8cxGi$r" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.Log4JProperties" />
+        </node>
+        <node concept="2CJf1O" id="7Tmb8cxGi$s" role="2CJ4_l">
+          <node concept="Xl_RD" id="7Tmb8cxGi$t" role="2DqwMv">
+            <property role="Xl_RC" value="String" />
+          </node>
+          <node concept="Xl_RD" id="7Tmb8cxGi$u" role="2DqwMp">
+            <property role="Xl_RC" value="/home/idontnow/logingfile.log" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CPvp3" id="2h5WDoVdfDB" role="2CJdiS" />
+    </node>
     <node concept="2CPvp3" id="5_hYnMu6fYv" role="2CGBMS" />
     <node concept="2CJf3v" id="5_hYnMu6fYw" role="2CGBMS">
       <property role="TrG5h" value="setting" />

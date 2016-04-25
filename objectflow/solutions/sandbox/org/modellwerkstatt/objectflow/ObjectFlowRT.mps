@@ -44,6 +44,7 @@
     <import index="7zqk" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.print(JDK/java.awt.print@java_stub)" />
     <import index="nn6w" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.print.attribute(JDK/javax.print.attribute@java_stub)" />
     <import index="xqpa" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.reflect(JDK/java.lang.reflect@java_stub)" />
+    <import index="5cyd" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.apache.commons.logging(org.modellwerkstatt.manmap.solution/org.apache.commons.logging@java_stub)" />
     <import index="livf" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/org.apache.avalon.framework.configuration@java_stub)" implicit="true" />
     <import index="45gm" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory@java_stub)" implicit="true" />
     <import index="6izi" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.management.remote(JDK/javax.management.remote@java_stub)" implicit="true" />
@@ -2013,16 +2014,29 @@
           </node>
           <node concept="TDmWw" id="1i79Hb8s_Nz" role="TEbGg">
             <node concept="3clFbS" id="1i79Hb8s_N$" role="TDEfX">
-              <node concept="YS8fn" id="1i79Hb8s_N_" role="3cqZAp">
-                <node concept="2ShNRf" id="1i79Hb8s_NA" role="YScLw">
-                  <node concept="1pGfFk" id="1i79Hb8s_NB" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="1i79Hb8s_NC" role="37wK5m">
-                      <ref role="3cqZAo" node="1i79Hb8s_ND" resolve="e" />
+              <node concept="3clFbF" id="7Tmb8cxEM6b" role="3cqZAp">
+                <node concept="2OqwBi" id="7Tmb8cxEM6c" role="3clFbG">
+                  <node concept="2YIFZM" id="7Tmb8cxEM6d" role="2Oq$k0">
+                    <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
+                    <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                    <node concept="Xl_RD" id="7Tmb8cxEM6e" role="37wK5m">
+                      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.Log4JLogLevel" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7Tmb8cxEM6f" role="2OqNvi">
+                    <ref role="37wK5l" to="5cyd:~Log.warn(java.lang.Object):void" resolve="warn" />
+                    <node concept="Xl_RD" id="7Tmb8cxEM6g" role="37wK5m">
+                      <property role="Xl_RC" value="setLevelOnLogger() resulted in a ClassNotFoundException. Probably log4j is not present in classpath, but this log4j config is used." />
                     </node>
                   </node>
                 </node>
               </node>
+              <node concept="3SKdUt" id="7Tmb8cxEM6h" role="3cqZAp">
+                <node concept="3SKdUq" id="7Tmb8cxEM6i" role="3SKWNk">
+                  <property role="3SKdUp" value="only log4j classes is used above. Do not throw an ex" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="7Tmb8cxELRI" role="3cqZAp" />
             </node>
             <node concept="3cpWsn" id="1i79Hb8s_ND" role="TDEfY">
               <property role="TrG5h" value="e" />
@@ -2296,16 +2310,30 @@
           </node>
           <node concept="TDmWw" id="2h5WDoUZkSA" role="TEbGg">
             <node concept="3clFbS" id="2h5WDoUZkSB" role="TDEfX">
-              <node concept="YS8fn" id="2h5WDoUZkSC" role="3cqZAp">
-                <node concept="2ShNRf" id="2h5WDoUZkSD" role="YScLw">
-                  <node concept="1pGfFk" id="2h5WDoUZkSE" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="2h5WDoUZkSF" role="37wK5m">
-                      <ref role="3cqZAo" node="2h5WDoUZkSG" resolve="e" />
+              <node concept="3clFbF" id="7Tmb8cxEJkj" role="3cqZAp">
+                <node concept="2OqwBi" id="7Tmb8cxEJkk" role="3clFbG">
+                  <node concept="2YIFZM" id="7Tmb8cxEJkl" role="2Oq$k0">
+                    <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                    <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
+                    <node concept="Xl_RD" id="7Tmb8cxEJkm" role="37wK5m">
+                      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.Log4JLogLevel" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7Tmb8cxEJkn" role="2OqNvi">
+                    <ref role="37wK5l" to="5cyd:~Log.warn(java.lang.Object):void" resolve="warn" />
+                    <node concept="Xl_RD" id="7Tmb8cxEJko" role="37wK5m">
+                      <property role="Xl_RC" value="setLevelOnRootLogger() resulted in a ClassNotFoundException. Probably log4j is not present in classpath, but this log4j config is used." />
                     </node>
                   </node>
                 </node>
               </node>
+              <node concept="3SKdUt" id="7Tmb8cxEJkp" role="3cqZAp">
+                <node concept="3SKdUq" id="7Tmb8cxEJkq" role="3SKWNk">
+                  <property role="3SKdUp" value="only log4j classes is used above. Do not throw an ex" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="7Tmb8cxEJzj" role="3cqZAp" />
+              <node concept="3clFbH" id="7Tmb8cxEIYj" role="3cqZAp" />
             </node>
             <node concept="3cpWsn" id="2h5WDoUZkSG" role="TDEfY">
               <property role="TrG5h" value="e" />
@@ -20749,16 +20777,30 @@
           </node>
           <node concept="TDmWw" id="7su1OqB87LK" role="TEbGg">
             <node concept="3clFbS" id="7su1OqB87LL" role="TDEfX">
-              <node concept="YS8fn" id="7su1OqB9a1W" role="3cqZAp">
-                <node concept="2ShNRf" id="7su1OqB9a7d" role="YScLw">
-                  <node concept="1pGfFk" id="7su1OqB9svQ" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="7su1OqB9sx9" role="37wK5m">
-                      <ref role="3cqZAo" node="7su1OqB87LM" resolve="e" />
+              <node concept="3clFbF" id="7Tmb8cxEFEf" role="3cqZAp">
+                <node concept="2OqwBi" id="7Tmb8cxEFEg" role="3clFbG">
+                  <node concept="2YIFZM" id="7Tmb8cxEFEh" role="2Oq$k0">
+                    <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
+                    <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                    <node concept="Xl_RD" id="7Tmb8cxEFEi" role="37wK5m">
+                      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.Log4JProperties" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7Tmb8cxEFEj" role="2OqNvi">
+                    <ref role="37wK5l" to="5cyd:~Log.warn(java.lang.Object):void" resolve="warn" />
+                    <node concept="Xl_RD" id="7Tmb8cxEFEk" role="37wK5m">
+                      <property role="Xl_RC" value="Log4JPropertyConfiguratorconfigure() resulted in a ClassNotFoundException. Probably log4j is not present in classpath, but this log4j config is used." />
                     </node>
                   </node>
                 </node>
               </node>
+              <node concept="3SKdUt" id="7Tmb8cxEFMb" role="3cqZAp">
+                <node concept="3SKdUq" id="7Tmb8cxEFMc" role="3SKWNk">
+                  <property role="3SKdUp" value="only log4j.PropertyConfigurator is used above. Do not throw an ex" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="7Tmb8cxEDhN" role="3cqZAp" />
+              <node concept="3clFbH" id="7Tmb8cxEDoM" role="3cqZAp" />
             </node>
             <node concept="3cpWsn" id="7su1OqB87LM" role="TDEfY">
               <property role="TrG5h" value="e" />
@@ -21076,6 +21118,11 @@
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="initRichClientSetup" />
       <node concept="3clFbS" id="2h5WDoUYW15" role="3clF47">
+        <node concept="3SKdUt" id="7Tmb8cxd0Gg" role="3cqZAp">
+          <node concept="3SKdUq" id="7Tmb8cxd0Hp" role="3SKWNk">
+            <property role="3SKdUp" value="/" />
+          </node>
+        </node>
         <node concept="3SKdUt" id="2h5WDoUZ5UI" role="3cqZAp">
           <node concept="3SKdUq" id="2h5WDoUZ5VC" role="3SKWNk">
             <property role="3SKdUp" value="BasicConfigurator.configure()" />
@@ -21161,16 +21208,40 @@
           </node>
           <node concept="TDmWw" id="2h5WDoUZe7Q" role="TEbGg">
             <node concept="3clFbS" id="2h5WDoUZe7R" role="TDEfX">
-              <node concept="YS8fn" id="2h5WDoUZe7S" role="3cqZAp">
-                <node concept="2ShNRf" id="2h5WDoUZe7T" role="YScLw">
-                  <node concept="1pGfFk" id="2h5WDoUZe7U" role="2ShVmc">
-                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="2h5WDoUZe7V" role="37wK5m">
-                      <ref role="3cqZAo" node="2h5WDoUZe7W" resolve="e" />
+              <node concept="3SKdUt" id="7Tmb8cxDPk9" role="3cqZAp">
+                <node concept="3SKdUq" id="7Tmb8cxDPnC" role="3SKWNk">
+                  <property role="3SKdUp" value="Log4j not found, but configuring using log4j. " />
+                </node>
+              </node>
+              <node concept="3SKdUt" id="7Tmb8cxDPwC" role="3cqZAp">
+                <node concept="3SKdUq" id="7Tmb8cxDP$a" role="3SKWNk">
+                  <property role="3SKdUp" value="Just warn. " />
+                </node>
+              </node>
+              <node concept="3clFbF" id="7Tmb8cxDQ85" role="3cqZAp">
+                <node concept="2OqwBi" id="7Tmb8cxDQDI" role="3clFbG">
+                  <node concept="2YIFZM" id="7Tmb8cxDQc3" role="2Oq$k0">
+                    <ref role="1Pybhc" to="5cyd:~LogFactory" resolve="LogFactory" />
+                    <ref role="37wK5l" to="5cyd:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
+                    <node concept="Xl_RD" id="7Tmb8cxDQgB" role="37wK5m">
+                      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.Log4JProperties" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7Tmb8cxDQNM" role="2OqNvi">
+                    <ref role="37wK5l" to="5cyd:~Log.warn(java.lang.Object):void" resolve="warn" />
+                    <node concept="Xl_RD" id="7Tmb8cxDQPw" role="37wK5m">
+                      <property role="Xl_RC" value="initRichClientSetup() resulted in a ClassNotFoundException. Probably log4j is not present in classpath, but this log4j config is used." />
                     </node>
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="7Tmb8cxDPsg" role="3cqZAp" />
+              <node concept="3SKdUt" id="7Tmb8cxEbbL" role="3cqZAp">
+                <node concept="3SKdUq" id="7Tmb8cxEbgn" role="3SKWNk">
+                  <property role="3SKdUp" value="only log4j.BasicConfigurator is used above. Do not throw an ex" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="7Tmb8cxEb5b" role="3cqZAp" />
             </node>
             <node concept="3cpWsn" id="2h5WDoUZe7W" role="TDEfY">
               <property role="TrG5h" value="e" />
@@ -26873,6 +26944,7 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="4vBE4eLScRF" role="3clF47">
+        <node concept="3clFbH" id="3fP_aO5yuUL" role="3cqZAp" />
         <node concept="3clFbJ" id="4vBE4eLSddo" role="3cqZAp">
           <node concept="3clFbS" id="4vBE4eLSddp" role="3clFbx">
             <node concept="3cpWs6" id="4vBE4eLSddq" role="3cqZAp">
@@ -26914,6 +26986,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3fP_aO5yuBR" role="3cqZAp" />
         <node concept="3cpWs6" id="4vBE4eLSdhD" role="3cqZAp">
           <node concept="3clFbT" id="4eGuBkFsIt" role="3cqZAk">
             <property role="3clFbU" value="false" />
