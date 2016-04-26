@@ -7901,9 +7901,7 @@
   <node concept="24kQdi" id="q_zDmIs7zu">
     <property role="3GE5qa" value="Configuration" />
     <ref role="1XX52x" to="un0u:q_zDmIs7zm" resolve="OFXConfigEmpty" />
-    <node concept="3F0ifn" id="q_zDmIs7zw" role="2wV5jI">
-      <property role="3F0ifm" value="" />
-    </node>
+    <node concept="3F0ifn" id="q_zDmIs7zw" role="2wV5jI" />
   </node>
   <node concept="24kQdi" id="q_zDmI$3sy">
     <property role="3GE5qa" value="Configuration" />

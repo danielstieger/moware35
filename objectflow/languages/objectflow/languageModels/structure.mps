@@ -2463,6 +2463,9 @@
     <node concept="PrWs8" id="q_zDmI5wCk" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="7mQLbAcn1Mv" role="PzmwI">
+      <ref role="PrY4T" node="7mQLbAcmHTS" resolve="IOFXConfigScope" />
+    </node>
   </node>
   <node concept="PlHQZ" id="q_zDmI5Z8G">
     <property role="3GE5qa" value="Configuration" />
@@ -2481,6 +2484,9 @@
     </node>
     <node concept="PrWs8" id="q_zDmI6CE0" role="PzmwI">
       <ref role="PrY4T" node="q_zDmI6CDL" resolve="IOFXConfigNamedElement" />
+    </node>
+    <node concept="PrWs8" id="7mQLbAcn6or" role="PzmwI">
+      <ref role="PrY4T" node="7mQLbAcmHTS" resolve="IOFXConfigScope" />
     </node>
   </node>
   <node concept="1TIwiD" id="q_zDmI6nTa">
@@ -2698,6 +2704,10 @@
   <node concept="PlHQZ" id="6xpSWdTCm5i">
     <property role="3GE5qa" value="OFXCore.process" />
     <property role="TrG5h" value="ICanRunCommands" />
+  </node>
+  <node concept="PlHQZ" id="7mQLbAcmHTS">
+    <property role="3GE5qa" value="Configuration" />
+    <property role="TrG5h" value="IOFXConfigScope" />
   </node>
 </model>
 

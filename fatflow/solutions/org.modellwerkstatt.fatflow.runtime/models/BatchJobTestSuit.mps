@@ -284,39 +284,7 @@
     <node concept="2CJf3v" id="7Tmb8cxHwWJ" role="2CGBMS">
       <property role="TrG5h" value="printFactory" />
       <node concept="Xl_RD" id="7Tmb8cxHwWK" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFatClientPrintFactory" />
-      </node>
-      <node concept="2CJf1O" id="7Tmb8cxHwWL" role="2CJ4_l">
-        <node concept="Xl_RD" id="7Tmb8cxHwWM" role="2DqwMp">
-          <property role="Xl_RC" value="noTemplateClassLoaderHere" />
-        </node>
-        <node concept="Xl_RD" id="7Tmb8cxHwWN" role="2DqwMv">
-          <property role="Xl_RC" value="0" />
-        </node>
-      </node>
-      <node concept="2CJf1O" id="7Tmb8cxHwWO" role="2CJ4_l">
-        <node concept="Xl_RD" id="7Tmb8cxHwWP" role="2DqwMp">
-          <property role="Xl_RC" value="/Users/danielstieger/moware/fatflow/solutions/org.modellwerkstatt.fatflow.runtime/source_gen/org/modellwerkstatt/fatflow/runtime/BatchJobTestSuit" />
-        </node>
-        <node concept="Xl_RD" id="7Tmb8cxHwWQ" role="2DqwMv">
-          <property role="Xl_RC" value="1" />
-        </node>
-      </node>
-      <node concept="2CJf1O" id="7Tmb8cxHwWR" role="2CJ4_l">
-        <node concept="Xl_RD" id="7Tmb8cxHwWS" role="2DqwMp">
-          <property role="Xl_RC" value="/Users/danielstieger" />
-        </node>
-        <node concept="Xl_RD" id="7Tmb8cxHwWT" role="2DqwMv">
-          <property role="Xl_RC" value="2" />
-        </node>
-      </node>
-      <node concept="2CJf1O" id="7Tmb8cxHwWU" role="2CJ4_l">
-        <node concept="Xl_RD" id="7Tmb8cxHwWV" role="2DqwMp">
-          <property role="Xl_RC" value="true" />
-        </node>
-        <node concept="Xl_RD" id="7Tmb8cxHwWW" role="2DqwMv">
-          <property role="Xl_RC" value="3" />
-        </node>
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFakePrintFactory" />
       </node>
     </node>
     <node concept="2CPvp3" id="7Tmb8cxHwUM" role="2CGBMS" />
@@ -639,10 +607,14 @@
             </node>
           </node>
           <node concept="3clFbH" id="1tsGGAI68WR" role="3cqZAp" />
-          <node concept="2Ux5d2" id="7Tmb8cxHoX2" role="3cqZAp">
-            <ref role="2Ux5d1" node="5nND$KgDDK2" resolve="IntkeyWriter" />
-            <ref role="2Ux5d0" node="5E5qL$GsnKa" resolve="Print Test Doc" />
-            <node concept="10Nm6u" id="7Tmb8cxHpcu" role="2Ux5cx" />
+          <node concept="3SKdUt" id="7mQLbAcBrgb" role="3cqZAp">
+            <node concept="3SKWN0" id="7mQLbAcBrgc" role="3SKWNk">
+              <node concept="2Ux5d2" id="7Tmb8cxHoX2" role="3SKWNf">
+                <ref role="2Ux5d1" node="5nND$KgDDK2" resolve="IntkeyWriter" />
+                <ref role="2Ux5d0" node="5E5qL$GsnKa" resolve="Print Test Doc" />
+                <node concept="10Nm6u" id="7Tmb8cxHpcu" role="2Ux5cx" />
+              </node>
+            </node>
           </node>
           <node concept="3clFbH" id="7Tmb8cxHoNn" role="3cqZAp" />
           <node concept="3VdxhY" id="7I9la4VEzy4" role="3cqZAp">

@@ -28,7 +28,7 @@
   <property name="javawareHome"       value="/Users/danielstieger/javaware" /> 
   <property name="mpsHome"            value="/Users/danielstieger/javaexe/MPS323" /> 
   <property name="mowarePluginHome"   value="/Users/danielstieger/javaexe/MoPluginFake" />
-  <property name="tomcatHome"         value="/Users/danielstieger/stuff/apache-tomcat-8.0.8" />
+  <property name="tomcatHome"         value="/Users/danielstieger/stuff/apache-tomcat-8.0.33" />
       
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appName"            value="SimpleApplication" />
@@ -81,10 +81,14 @@
       
       <fileset dir="${javawareHome}/HafinaBasis/jars" includes="*.jar" />
       <fileset dir="${mowarePluginHome}/jars/" includes="org.springframework*.jar" />
+      <fileset dir="${mowarePluginHome}/jars/" includes="commons-logging*.jar" />
+      
       <fileset dir="${mpsHome}/lib/" includes="mps-closures.jar" />
       <fileset dir="${mpsHome}/lib/" includes="mps-collections.jar" />
       <fileset dir="${mowarePluginHome}/jars/" includes="joda-time*.jar" />
       <fileset dir="${mowarePluginHome}/jars/zoo/" includes="zookeeper*.jar" />
+      <fileset dir="${mowarePluginHome}/jars/zoo/" includes="slf4j-api*.jar" />
+      
       <fileset dir="${mowarePluginHome}/jars/printing21/" includes="*.jar" />
       <fileset dir="${mowarePluginHome}/jars/vaadin/" includes="*.jar" />
     </copy>
