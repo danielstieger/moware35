@@ -281,10 +281,18 @@
     <property role="3GE5qa" value="" />
     <property role="TrG5h" value="LolaTestConfigTomcat" />
     <property role="2320hu" value="2016-04-19T11:17:37.421+02:00" />
-    <node concept="2CJf3v" id="7Tmb8cxHwWJ" role="2CGBMS">
-      <property role="TrG5h" value="printFactory" />
-      <node concept="Xl_RD" id="7Tmb8cxHwWK" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFakePrintFactory" />
+    <node concept="2CJf3v" id="1$$A7zM8BZM" role="2CGBMS">
+      <property role="TrG5h" value="lockService" />
+      <node concept="Xl_RD" id="1$$A7zM8BZO" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoZooLockService" />
+      </node>
+      <node concept="2CJf1O" id="2n3p7A947Om" role="2CJ4_l">
+        <node concept="Xl_RD" id="2n3p7A947On" role="2DqwMp">
+          <property role="Xl_RC" value="10.1.22.16:2128" />
+        </node>
+        <node concept="Xl_RD" id="2n3p7A94a80" role="2DqwMv">
+          <property role="Xl_RC" value="String" />
+        </node>
       </node>
     </node>
     <node concept="2CPvp3" id="7Tmb8cxHwUM" role="2CGBMS" />
@@ -328,13 +336,6 @@
       <ref role="2CJ4_N" to="ofql:4LC0Y0L2pbw" resolve="DEP_UserEnvironmentInformation" />
     </node>
     <node concept="2CPvp3" id="5HEFy8JOGCj" role="2CGBMS" />
-    <node concept="2CJf3v" id="77cIZASxKuH" role="2CGBMS">
-      <property role="TrG5h" value="lockService" />
-      <node concept="Xl_RD" id="77cIZASxKuJ" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoFakeLockService" />
-      </node>
-    </node>
-    <node concept="2CPvp3" id="77cIZASxKs5" role="2CGBMS" />
     <node concept="2CJf3v" id="6Rdz00zW6jD" role="2CGBMS">
       <property role="TrG5h" value="tomcatAppFactory" />
       <node concept="Xl_RD" id="6Rdz00zW6jE" role="2CJf0U">
