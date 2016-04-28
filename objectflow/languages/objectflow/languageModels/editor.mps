@@ -7778,6 +7778,7 @@
     <property role="3GE5qa" value="Configuration" />
     <ref role="1XX52x" to="un0u:q_zDmI60wj" resolve="OFXConfigSection" />
     <node concept="3EZMnI" id="q_zDmI6lCo" role="2wV5jI">
+      <property role="S$Qs1" value="true" />
       <node concept="3F0ifn" id="q_zDmI6lCv" role="3EZMnx">
         <property role="3F0ifm" value="section" />
         <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
@@ -7816,6 +7817,22 @@
         </node>
       </node>
       <node concept="l2Vlx" id="q_zDmI6lCr" role="2iSdaV" />
+      <node concept="3EZMnI" id="UkrMfQEICQ" role="AHCbl">
+        <node concept="3F0ifn" id="UkrMfQEIDa" role="3EZMnx">
+          <property role="3F0ifm" value="section" />
+          <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
+        </node>
+        <node concept="3F0A7n" id="UkrMfQEIDb" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0ifn" id="UkrMfQEIDY" role="3EZMnx">
+          <property role="3F0ifm" value="..." />
+        </node>
+        <node concept="l2Vlx" id="UkrMfQEICR" role="2iSdaV" />
+        <node concept="VPM3Z" id="UkrMfQEICS" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="q_zDmI6nTy">
