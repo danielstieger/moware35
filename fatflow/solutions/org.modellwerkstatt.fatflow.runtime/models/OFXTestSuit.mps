@@ -12226,7 +12226,7 @@
       <node concept="2CPvp3" id="6pSmLDqqFsw" role="2CJdiS" />
       <node concept="2CPvp3" id="6pSmLDqqFsx" role="2CJdiS" />
       <node concept="2CJf3v" id="6pSmLDqqFsy" role="2CJdiS">
-        <property role="TrG5h" value="setupMailLogging" />
+        <property role="TrG5h" value="setupMailFileLogging" />
         <node concept="2DlbD8" id="6pSmLDqqFsz" role="2DlbIj">
           <node concept="Xl_RD" id="6pSmLDqqFs$" role="2DlbDb">
             <property role="Xl_RC" value="factory-method" />
