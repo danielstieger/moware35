@@ -6,9 +6,9 @@
   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
 
   <description>
-     moware VaadinForms application APPLICATION_FQNAME
+     moware VaadinForms application APPLICATION_FQNAME - APPLICATION_BUILDVERSION
   </description>
-  <display-name>APPLICATION_FQNAME</display-name>
+  <display-name>APPLICATION_FQNAME - APPLICATION_BUILDVERSION</display-name>
 
 
   <context-param>

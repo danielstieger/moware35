@@ -37,9 +37,8 @@
   <property name="solultionSimpleGen"   value="/Users/danielstieger/moware/fatflow/solutions/org.modellwerkstatt.fatflow.runtime/classes_gen" />
 
 
-  
-  <!--     H1 forms settings      -->
-  <property name="h1formsAppLoader"     value="org.modellwerkstatt.h1forms.base.H1ApplicationLoader" /> 
+
+
 
 
   <echo>

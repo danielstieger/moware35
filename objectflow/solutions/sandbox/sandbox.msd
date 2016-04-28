@@ -39,7 +39,6 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xmlgraphics-commons-2.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/pdfbox-1.8.11.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/fontbox-1.8.5.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/slf4j-log4j12-1.6.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/richclient/c3p0-0.9.2-pre6.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/richclient/mailapi.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/richclient/mchange-commons-java-0.2.3.1.jar" />
@@ -49,6 +48,7 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.asm-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.context-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.expression-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/slf4j-log4j12-1.6.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

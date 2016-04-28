@@ -19,10 +19,14 @@
 -->
  
 <project name="VaadinApplication" default="default">      
-  <echo>
-    Run by : ${user.name}
-    Java Home : ${java.home}
-  </echo>
+
+  <!-- **** app specific definitions **************************************************************** -->
+  <property name="appBuildVersion"      value="BUILD V0.0.0" />
+  <property name="appName"              value="SimpleApplication" />
+  <property name="appMainclass"         value="Simple.baseApp.SimpleApplication" />
+  <property name="appConfiguration"     value="Simple/baseApp/VaadinConfig.xml" /> 
+  
+  
 
    <!-- **** build specific definitions ************************************************************** -->
   <property name="javawareHomeDir"       value="/Users/danielstieger/javaware" /> 
@@ -30,14 +34,16 @@
   <property name="mowarePluginHomeDir"   value="/Users/danielstieger/javaexe/MoPluginFake" />
   <property name="tomcatHomeDir"         value="/Users/danielstieger/stuff/apache-tomcat-8.0.33" />
       
-  <!-- **** app specific definitions **************************************************************** -->
-  <property name="appName"              value="SimpleApplication" />
-  <property name="appMainclass"         value="Simple.baseApp.SimpleApplication" />
-  <property name="appConfiguration"     value="Simple/baseApp/VaadinConfig.xml" /> 
+
  
   <!-- **** solutions to incorporate in this build ************************************************** -->
-  <property name="solSimpleGen"        value="${javawareHomeDir}/simpleone/solutions/Simple/classes_gen" />
+  <property name="solutionSimpleGen"     value="${javawareHomeDir}/simpleone/solutions/Simple/classes_gen" />
 
+  <echo>
+    Run by ${user.name} on Java Home : ${java.home}
+    Building VERSION ${appBuildVersion} of ${appMainclass}
+    
+  </echo>
 
 
   <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
@@ -57,12 +63,11 @@
          basedir="${mowareHome}/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen"/>
 
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/moware-vaadin-theme-1.0.jar" 
-         basedir="${mowareHome}/vaadinforms/build/artefact/moware-theme"/>
+         basedir="${mowareHome}/vaadinforms/assembly/artefact/moware-theme"/>
          
-    <copy file="${mowareHome}/vaadinforms/build/artefact/web.xml"
-    	tofile="${mowarePluginHomeDir}/artefacts/vaadin/web.xml" overwrite="yes">
-    </copy>
-         
+    <copy todir="${mowarePluginHomeDir}/vaadinassembly/artefact/" overwrite="true" >
+    	<fileset dir="${mowareHome}/vaadinforms/assembly/artefact/"/>
+  	</copy>  
   </target>
   <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  
 
@@ -80,31 +85,29 @@
     
       
       <fileset dir="${javawareHomeDir}/HafinaBasis/jars" includes="*.jar" />
-      <fileset dir="${mowarePluginHomeDir}/jars/" includes="org.springframework*.jar" />
-      <fileset dir="${mowarePluginHomeDir}/jars/" includes="commons-logging*.jar" />
-      
+      <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />      
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-collections.jar" />
-      <fileset dir="${mowarePluginHomeDir}/jars/" includes="joda-time*.jar" />
-      <fileset dir="${mowarePluginHomeDir}/jars/zoo/" includes="zookeeper*.jar" />
-      <fileset dir="${mowarePluginHomeDir}/jars/zoo/" includes="slf4j-api*.jar" />
-      
+     
       <fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />
-      <fileset dir="${mowarePluginHomeDir}/jars/vaadin/" includes="*.jar" />
+      <fileset dir="${mowarePluginHomeDir}/jars/zoo/" includes="*.jar" />
+      
+      <fileset dir="${mowarePluginHomeDir}/jars/vaadinclient/" includes="*.jar" />
     </copy>
     
     
     
     <mkdir dir="work/WEB-INF/classes"/>
     <copy todir="work/WEB-INF/classes">
-      <fileset dir="${solSimpleGen}" />
+      <fileset dir="${solutionSimpleGen}" />
     </copy>
     
-    <copy file="${mowarePluginHomeDir}/artefacts/vaadin/web.xml" tofile="work/WEB-INF/web.xml" filtering="yes" overwrite="yes">
+    <copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/web.xml" tofile="work/WEB-INF/web.xml" filtering="yes" overwrite="yes">
       <filterchain>
           <tokenfilter>
               <replaceregex pattern="APPLICATION_FQNAME" replace="${appMainclass}"/>
               <replaceregex pattern="APPLICATION_CONFIG" replace="${appConfiguration}"/>
+              <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
           </tokenfilter>
       </filterchain>
     </copy>
@@ -113,7 +116,7 @@
     <jar destfile="dist/${appName}.war" basedir="work" update="false">
       <manifest>
         <attribute name="Main-Class" value="${appMainclass}" />
-        <attribute name="Version" value="99.99.99" />
+        <attribute name="Version" value="${appBuildVersion}" />
       </manifest>
     </jar>
 
