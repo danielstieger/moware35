@@ -1,0 +1,49 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1"
+  metadata-complete="true">
+
+  <description>
+      moware Batch application APPLICATION_FQNAME - APPLICATION_BUILDVERSION
+  </description>
+
+  <display-name>APPLICATION_FQNAME - APPLICATION_BUILDVERSION</display-name>
+   
+  <servlet>
+    <servlet-name>APPLICATION_FQNAME</servlet-name>
+    <servlet-class>LOADER_FQNAME</servlet-class>
+    
+    <init-param>
+        <param-name>applicationFqName</param-name>
+    	<param-value>APPLICATION_FQNAME</param-value>
+    </init-param>
+    
+  </servlet>
+  
+   <listener>
+      <listener-class>LOADER_FQNAME</listener-class>
+   </listener>
+  
+  <servlet-mapping>
+    <servlet-name>APPLICATION_FQNAME</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/static/*</url-pattern>
+  </servlet-mapping>
+  	
+  <context-param>
+    <param-name>reloadable</param-name>
+    <param-value>true</param-value>
+  </context-param>    
+
+  <context-param>
+    <param-name>xmlConfigFile</param-name>
+    <param-value>APPLICATION_CONFIG</param-value>
+  </context-param>
+  
+</web-app> 

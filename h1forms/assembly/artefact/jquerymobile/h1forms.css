@@ -1,0 +1,27 @@
+/*  h1forms custom CSS */
+
+.error {
+	color: #E82C0C;
+}
+
+label.error {
+    color: red;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin-top: 0.5em;
+    width: 100%;
+    float: none;
+    margin-left: 42%;
+}
+.ui-field-contain > label {
+	width: 40% !important;	
+}
+
+.ui-field-contain > label ~ [class*="ui-"] {
+	width: 58% !important;
+}
+
+label {
+	text-align: right;
+}

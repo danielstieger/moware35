@@ -17001,6 +17001,22 @@
         </node>
       </node>
       <node concept="3clFbS" id="7ubUX4ZzGlK" role="3clF47">
+        <node concept="3SKdUt" id="4VkluLSqq8$" role="3cqZAp">
+          <node concept="3SKdUq" id="4VkluLSqqDG" role="3SKWNk">
+            <property role="3SKdUp" value="Batchjob get s started immediately not " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4VkluLSqrEp" role="3cqZAp">
+          <node concept="3SKdUq" id="4VkluLSqrH$" role="3SKWNk">
+            <property role="3SKdUp" value="with the first call to get. Therefore, the batchjob" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4VkluLSqsOJ" role="3cqZAp">
+          <node concept="3SKdUq" id="4VkluLSqsRq" role="3SKWNk">
+            <property role="3SKdUp" value="itself is started va context initialized. " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4VkluLSqdWs" role="3cqZAp" />
         <node concept="3cpWs8" id="1fGCQmfGKiQ" role="3cqZAp">
           <node concept="3cpWsn" id="1fGCQmfGKiR" role="3cpWs9">
             <property role="TrG5h" value="context" />
@@ -17200,6 +17216,7 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="J99ho0ick2" role="3cqZAp" />
+                  <node concept="3clFbH" id="4VkluLSpEaW" role="3cqZAp" />
                   <node concept="YS8fn" id="J99ho0iaId" role="3cqZAp">
                     <node concept="2ShNRf" id="J99ho0iaIX" role="YScLw">
                       <node concept="1pGfFk" id="J99ho0ibfa" role="2ShVmc">
