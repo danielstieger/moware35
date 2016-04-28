@@ -6,12 +6,12 @@
     </modelRoot>
     <modelRoot contentPath="${mowareHome}/fx8forms/solutions/jars" type="java_classes">
       <sourceRoot location="jfxrt.jar" />
-      <sourceRoot location="fx8flatter.jar" />
+      <sourceRoot location="richclient/fx8flatter.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${mowareHome}/fx8forms/solutions/jars/jfxrt.jar" />
-    <stubModelEntry path="${mowareHome}/fx8forms/solutions/jars/fx8flatter.jar" />
+    <stubModelEntry path="${mowareHome}/fx8forms/solutions/jars/richclient/fx8flatter.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

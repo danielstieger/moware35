@@ -6,28 +6,24 @@
     </modelRoot>
     <modelRoot contentPath="${mowareHome}/objectflow/languages/objectflow/jars" type="java_classes">
       <sourceRoot location="zoo/zookeeper-3.4.5.jar" />
-      <sourceRoot location="org.springframework.aop-3.0.5.RELEASE.jar" />
-      <sourceRoot location="org.springframework.asm-3.0.5.RELEASE.jar" />
-      <sourceRoot location="org.springframework.context-3.0.5.RELEASE.jar" />
-      <sourceRoot location="org.springframework.expression-3.0.5.RELEASE.jar" />
       <sourceRoot location="servlet-api.jar" />
       <sourceRoot location="printing21/batik-all-1.8.jar" />
       <sourceRoot location="printing21/fop.jar" />
       <sourceRoot location="printing21/xml-apis-1.3.04.jar" />
       <sourceRoot location="printing21/xml-apis-ext-1.3.04.jar" />
       <sourceRoot location="printing21/pdfbox-1.8.11.jar" />
+      <sourceRoot location="basis/org.springframework.aop-3.0.5.RELEASE.jar" />
+      <sourceRoot location="basis/org.springframework.asm-3.0.5.RELEASE.jar" />
+      <sourceRoot location="basis/org.springframework.context-3.0.5.RELEASE.jar" />
+      <sourceRoot location="basis/org.springframework.expression-3.0.5.RELEASE.jar" />
+      <sourceRoot location="printing21/avalon-framework-api-4.3.1.jar" />
+      <sourceRoot location="printing21/avalon-framework-impl-4.3.1.jar" />
+      <sourceRoot location="printing21/xmlgraphics-commons-2.1.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/mail/mailapi.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/mail/smtp.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/slf4j-api-1.6.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/zookeeper-3.4.5.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/ojdbc14.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.aop-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.asm-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.context-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/org.springframework.expression-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/servlet-api.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/avalon-framework-api-4.3.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/avalon-framework-impl-4.3.1.jar" />
@@ -43,9 +39,16 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/xmlgraphics-commons-2.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/pdfbox-1.8.11.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/fontbox-1.8.5.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/c3p0-0.9.2-pre6.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/mchange-commons-java-0.2.3.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/slf4j-log4j12-1.6.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/richclient/c3p0-0.9.2-pre6.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/richclient/mailapi.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/richclient/mchange-commons-java-0.2.3.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/richclient/ojdbc14.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/richclient/smtp.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.aop-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.asm-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.context-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.expression-3.0.5.RELEASE.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
