@@ -4223,20 +4223,14 @@
             <node concept="2ShNRf" id="41UdyNBDg6Y" role="37vLTx">
               <node concept="1pGfFk" id="41UdyNBDg6X" role="2ShVmc">
                 <ref role="37wK5l" to="quhv:2zlZ_in5Vzo" resolve="FDefaultTrans" />
+                <node concept="Rm8GO" id="4Rlyz3EsmIf" role="37wK5m">
+                  <ref role="Rm8GQ" to="quhv:4Rlyz3EoD4a" resolve="V" />
+                  <ref role="1Px2BO" to="quhv:4Rlyz3EoCHr" resolve="FDefaultTrans.UISystem" />
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="41UdyNBDfOA" role="37vLTJ">
               <ref role="3cqZAo" node="41UdyNB_DV7" resolve="defaulTrans" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="41UdyNBDg9d" role="3cqZAp">
-          <node concept="2OqwBi" id="41UdyNBDgaH" role="3clFbG">
-            <node concept="37vLTw" id="41UdyNBDg9b" role="2Oq$k0">
-              <ref role="3cqZAo" node="41UdyNB_DV7" resolve="defaulTrans" />
-            </node>
-            <node concept="liA8E" id="41UdyNBDgep" role="2OqNvi">
-              <ref role="37wK5l" to="quhv:41UdyNBAEmK" resolve="setVaadin" />
             </node>
           </node>
         </node>
