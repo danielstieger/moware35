@@ -3472,6 +3472,12 @@
     <node concept="2tJIrI" id="7RHNXGyQCRH" role="jymVt" />
     <node concept="3clFb_" id="7RHNXGyQCRI" role="jymVt">
       <property role="TrG5h" value="startPage" />
+      <node concept="37vLTG" id="4Rlyz3E8tWA" role="3clF46">
+        <property role="TrG5h" value="client" />
+        <node concept="3uibUv" id="4Rlyz3E8v4I" role="1tU5fm">
+          <ref role="3uigEE" to="9zr:4Rlyz3E5ijA" resolve="H1ApplicationLoader.HttpClient" />
+        </node>
+      </node>
       <node concept="37vLTG" id="7RHNXGyQCRJ" role="3clF46">
         <property role="TrG5h" value="builder" />
         <node concept="3uibUv" id="7RHNXGyQCRK" role="1tU5fm">
