@@ -50,19 +50,22 @@
 
   <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
   <target name="mowarePluginAdoption">
-	<property name="mowareHome"    value="/Users/danielstieger/moware" />
-
+	<property name="mowareHome" value="/Users/danielstieger/moware" />
+    <delete includeemptydirs="false">
+    	<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions" includes="*.jar"/>
+  	</delete>
+    
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.sandbox.jar"
-    	 basedir="${mowareHome}/objectflow/solutions/sandbox/classes_gen"/>
+    	 basedir="${mowareHome}/objectflow/solutions/sandbox/classes_gen" />
          
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.solution.jar" 
-         basedir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
+         basedir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen" />
     
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.forms.jar" 
-         basedir="${mowareHome}/forms/solutions/modellwerkstatt.forms.sandbox/classes_gen"/>
+         basedir="${mowareHome}/forms/solutions/modellwerkstatt.forms.sandbox/classes_gen" />
     
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.h1forms.jar" 
-         basedir="${mowareHome}/h1forms/solutions/org.modellwerkstatt.h1forms/classes_gen"/>
+         basedir="${mowareHome}/h1forms/solutions/org.modellwerkstatt.h1forms/classes_gen" />
     
     <copy todir="${mowarePluginHomeDir}/h1assembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/h1forms/assembly/artefact/"/>
