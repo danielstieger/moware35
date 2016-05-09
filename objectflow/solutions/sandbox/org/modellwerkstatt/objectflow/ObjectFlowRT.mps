@@ -156,6 +156,10 @@
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
+      <concept id="1081256982272" name="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" flags="nn" index="2ZW3vV">
+        <child id="1081256993305" name="classType" index="2ZW6by" />
+        <child id="1081256993304" name="leftExpression" index="2ZW6bz" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -26075,15 +26079,38 @@
               <node concept="2ShNRf" id="6nb2rfW64KQ" role="YScLw">
                 <node concept="1pGfFk" id="6nb2rfW6mAX" role="2ShVmc">
                   <ref role="37wK5l" to="e2lb:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="3cpWs3" id="18loLX1_LQ2" role="37wK5m">
-                    <node concept="2OqwBi" id="18loLX1_LZG" role="3uHU7w">
-                      <node concept="Xjq3P" id="18loLX1_LSu" role="2Oq$k0" />
-                      <node concept="2OwXpG" id="18loLX1_Mo6" role="2OqNvi">
-                        <ref role="2Oxat5" node="5dZoziQwyoh" resolve="value" />
-                      </node>
+                  <node concept="3cpWs3" id="1eE7WYa4CtT" role="37wK5m">
+                    <node concept="Xl_RD" id="1eE7WYa4CvM" role="3uHU7w">
+                      <property role="Xl_RC" value=")" />
                     </node>
-                    <node concept="Xl_RD" id="6nb2rfW6mCN" role="3uHU7B">
-                      <property role="Xl_RC" value="Saving a reference without saving the referred entity first. value = " />
+                    <node concept="3cpWs3" id="1eE7WYa4xFa" role="3uHU7B">
+                      <node concept="3cpWs3" id="1eE7WYa4jNP" role="3uHU7B">
+                        <node concept="3cpWs3" id="18loLX1_LQ2" role="3uHU7B">
+                          <node concept="Xl_RD" id="6nb2rfW6mCN" role="3uHU7B">
+                            <property role="Xl_RC" value="Saving a reference without saving the referred entity first. (value = " />
+                          </node>
+                          <node concept="2OqwBi" id="18loLX1_LZG" role="3uHU7w">
+                            <node concept="Xjq3P" id="18loLX1_LSu" role="2Oq$k0" />
+                            <node concept="2OwXpG" id="18loLX1_Mo6" role="2OqNvi">
+                              <ref role="2Oxat5" node="5dZoziQwyoh" resolve="value" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="1eE7WYa4uVV" role="3uHU7w">
+                          <property role="Xl_RC" value=" / key = " />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="1eE7WYa4yJi" role="3uHU7w">
+                        <node concept="2OqwBi" id="1eE7WYa4xPk" role="2Oq$k0">
+                          <node concept="Xjq3P" id="1eE7WYa4xGN" role="2Oq$k0" />
+                          <node concept="2OwXpG" id="1eE7WYa4yho" role="2OqNvi">
+                            <ref role="2Oxat5" node="5dZoziQwyoh" resolve="value" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1eE7WYa4$fd" role="2OqNvi">
+                          <ref role="37wK5l" to="w7gk:5dZoziQsIK$" resolve="getIM3Key" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -26986,7 +27013,41 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3fP_aO5yuBR" role="3cqZAp" />
+        <node concept="3clFbJ" id="1eE7WYa4D0i" role="3cqZAp">
+          <node concept="3clFbS" id="1eE7WYa4D0k" role="3clFbx">
+            <node concept="3cpWs6" id="1eE7WYa4DZM" role="3cqZAp">
+              <node concept="3clFbT" id="1eE7WYa4E1n" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="1eE7WYa4DDj" role="3clFbw">
+            <node concept="2OqwBi" id="1eE7WYa4DMU" role="3uHU7w">
+              <node concept="1eOMI4" id="1eE7WYa4DKz" role="2Oq$k0">
+                <node concept="10QFUN" id="1eE7WYa4DKw" role="1eOMHV">
+                  <node concept="3uibUv" id="1eE7WYa4DLR" role="10QFUM">
+                    <ref role="3uigEE" node="FaoLX6gP4u" resolve="IOFXValueObject" />
+                  </node>
+                  <node concept="37vLTw" id="1eE7WYa4DK_" role="10QFUP">
+                    <ref role="3cqZAo" node="4vBE4eLSd1o" resolve="key" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="1eE7WYa4DX4" role="2OqNvi">
+                <ref role="37wK5l" node="FaoLX6iqWv" resolve="isNullasKey" />
+              </node>
+            </node>
+            <node concept="2ZW3vV" id="1eE7WYa4Dnd" role="3uHU7B">
+              <node concept="3uibUv" id="1eE7WYa4DqM" role="2ZW6by">
+                <ref role="3uigEE" node="FaoLX6gP4u" resolve="IOFXValueObject" />
+              </node>
+              <node concept="37vLTw" id="1eE7WYa4DjD" role="2ZW6bz">
+                <ref role="3cqZAo" node="4vBE4eLSd1o" resolve="key" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1eE7WYa4Ejn" role="3cqZAp" />
         <node concept="3cpWs6" id="4vBE4eLSdhD" role="3cqZAp">
           <node concept="3clFbT" id="4eGuBkFsIt" role="3cqZAk">
             <property role="3clFbU" value="false" />
