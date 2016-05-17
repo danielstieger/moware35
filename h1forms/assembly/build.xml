@@ -61,7 +61,7 @@
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.solution.jar" 
          basedir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen" />
     
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.forms.jar" 
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.forms.sandbox.jar" 
          basedir="${mowareHome}/forms/solutions/modellwerkstatt.forms.sandbox/classes_gen" />
     
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.h1forms.jar" 
@@ -81,7 +81,7 @@
     <copy todir="work/WEB-INF/lib">
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.sandbox.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.forms.jar" />
+	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.forms.sandbox.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.h1forms.jar" />
 	  
       <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />      
