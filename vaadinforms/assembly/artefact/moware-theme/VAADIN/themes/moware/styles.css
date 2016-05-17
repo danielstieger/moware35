@@ -70,6 +70,9 @@
 @keyframes valo-animate-in-slide-down {
 		0% {
 		-webkit-transform: translateY(-100%);
+		-moz-transform: translateY(-100%);
+		-ms-transform: translateY(-100%);
+		-o-transform: translateY(-100%);
 		transform: translateY(-100%);
 	}
 	}
@@ -89,6 +92,9 @@
 @keyframes valo-animate-in-slide-up {
 		0% {
 		-webkit-transform: translateY(100%);
+		-moz-transform: translateY(100%);
+		-ms-transform: translateY(100%);
+		-o-transform: translateY(100%);
 		transform: translateY(100%);
 	}
 	}
@@ -108,6 +114,9 @@
 @keyframes valo-animate-in-slide-left {
 		0% {
 		-webkit-transform: translateX(100%);
+		-moz-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-o-transform: translateX(100%);
 		transform: translateX(100%);
 	}
 	}
@@ -127,6 +136,9 @@
 @keyframes valo-animate-in-slide-right {
 		0% {
 		-webkit-transform: translateX(-100%);
+		-moz-transform: translateX(-100%);
+		-ms-transform: translateX(-100%);
+		-o-transform: translateX(-100%);
 		transform: translateX(-100%);
 	}
 	}
@@ -146,6 +158,9 @@
 @keyframes valo-animate-out-slide-down {
 		100% {
 		-webkit-transform: translateY(100%);
+		-moz-transform: translateY(100%);
+		-ms-transform: translateY(100%);
+		-o-transform: translateY(100%);
 		transform: translateY(100%);
 	}
 	}
@@ -165,6 +180,9 @@
 @keyframes valo-animate-out-slide-up {
 		100% {
 		-webkit-transform: translateY(-100%);
+		-moz-transform: translateY(-100%);
+		-ms-transform: translateY(-100%);
+		-o-transform: translateY(-100%);
 		transform: translateY(-100%);
 	}
 	}
@@ -184,6 +202,9 @@
 @keyframes valo-animate-out-slide-left {
 		100% {
 		-webkit-transform: translateX(-100%);
+		-moz-transform: translateX(-100%);
+		-ms-transform: translateX(-100%);
+		-o-transform: translateX(-100%);
 		transform: translateX(-100%);
 	}
 	}
@@ -203,6 +224,9 @@
 @keyframes valo-animate-out-slide-right {
 		100% {
 		-webkit-transform: translateX(100%);
+		-moz-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-o-transform: translateX(100%);
 		transform: translateX(100%);
 	}
 	}
@@ -224,6 +248,9 @@
 @keyframes valo-overlay-animate-in {
 		0% {
 		-webkit-transform: translatey(-4px);
+		-moz-transform: translatey(-4px);
+		-ms-transform: translatey(-4px);
+		-o-transform: translatey(-4px);
 		transform: translatey(-4px);
 		opacity: 0;
 	}
@@ -247,6 +274,9 @@
 		100% {
 		opacity: 0;
 		-webkit-transform: translatey(30%);
+		-moz-transform: translatey(30%);
+		-ms-transform: translatey(30%);
+		-o-transform: translatey(30%);
 		transform: translatey(30%);
 	}
 	}
@@ -284,6 +314,24 @@
  * 
  * @group util
  */
+
+@font-face {
+	font-family: ThemeIcons;
+	font-weight: normal;
+	font-style: normal;
+	src: url(../valo/util/bourbon/css3/../../../../base/fonts/themeicons-webfont.eot);
+	src: url(../valo/util/bourbon/css3/../../../../base/fonts/themeicons-webfont.eot?#iefix) format("embedded-opentype"), url(../valo/util/bourbon/css3/../../../../base/fonts/themeicons-webfont.woff) format("woff"), url(../valo/util/bourbon/css3/../../../../base/fonts/themeicons-webfont.ttf) format("truetype"), url(../valo/util/bourbon/css3/../../../../base/fonts/themeicons-webfont.svg#ThemeIcons) format("svg");
+}
+
+.ThemeIcons {
+	font-family: ThemeIcons;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: inline-block;
+	text-align: center;
+}
 
 @font-face {
 	font-family: FontAwesome;
@@ -801,6 +849,9 @@
 @keyframes v-popupview-animate-in {
 		0% {
 		-webkit-transform: scale(0);
+		-moz-transform: scale(0);
+		-ms-transform: scale(0);
+		-o-transform: scale(0);
 		transform: scale(0);
 	}
 	}
@@ -935,6 +986,9 @@
 @keyframes valo-animate-out-scale-down-fade {
 		100% {
 		-webkit-transform: scale(0.8);
+		-moz-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		-o-transform: scale(0.8);
 		transform: scale(0.8);
 		opacity: 0;
 	}
@@ -945,7 +999,7 @@
  */
 
 .v-vaadin-version:after {
-	content: "7.4.7";
+	content: "7.6.4";
 }
 
 .v-widget {
@@ -1902,6 +1956,60 @@ div.v-layout.v-horizontal.v-widget {
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
 }
 
+.moware .v-reconnect-dialog {
+	color: white;
+	top: 9px;
+	right: 9px;
+	max-width: 100%;
+	border-radius: 0;
+	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+	padding: 9px 10px;
+	background-color: #444;
+	background-color: rgba(68, 68, 68, 0.9);
+	line-height: 20px;
+	text-align: center;
+}
+
+.moware .v-reconnect-dialog .text {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.moware .v-reconnect-dialog .spinner {
+	height: 24px !important;
+	width: 24px !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 2px solid rgba(65, 75, 86, 0.2);
+	border-top-color: #414b56;
+	border-right-color: #414b56;
+	border-radius: 100%;
+	-webkit-animation: v-rotate-360 500ms infinite linear;
+	-moz-animation: v-rotate-360 500ms infinite linear;
+	animation: v-rotate-360 500ms infinite linear;
+	pointer-events: none;
+	display: none;
+	vertical-align: middle;
+}
+
+.v-ie8 .moware .v-reconnect-dialog .spinner, .v-ie9 .moware .v-reconnect-dialog .spinner {
+	border: none;
+	border-radius: 2px;
+	background: #fff url(../valo/shared/img/spinner.gif) no-repeat 50% 50%;
+	background-size: 80%;
+}
+
+.v-ie8 .moware .v-reconnect-dialog .spinner {
+	min-width: 30px;
+	min-height: 30px;
+}
+
+.moware .v-reconnect-dialog.active .spinner {
+	display: inline-block;
+}
+
 .moware .v-absolutelayout-wrapper {
 	position: absolute;
 }
@@ -2546,7 +2654,7 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-checkbox > input ~ label:after {
 	content: "\f00c";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	color: transparent;
 	-webkit-transition: color 100ms;
 	-moz-transition: color 100ms;
@@ -2579,6 +2687,23 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-checkbox.v-disabled > input:active ~ label:after {
 	background: transparent;
+}
+
+.moware .v-checkbox.v-readonly  > label, .moware .v-checkbox.v-readonly  > .v-icon {
+	cursor: default;
+}
+
+.moware .v-checkbox.v-readonly  > label > .v-icon {
+	cursor: default;
+}
+
+:root .moware .v-checkbox.v-readonly > input:active ~ label:after {
+	background: transparent;
+}
+
+:root .moware .v-checkbox.v-readonly > input ~ label:after {
+	opacity: 0.5;
+	filter: alpha(opacity=50) ;
 }
 
 .moware .v-checkbox-small {
@@ -2659,7 +2784,7 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-checkbox-small > input ~ label:after {
 	content: "\f00c";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	color: transparent;
 	-webkit-transition: color 100ms;
 	-moz-transition: color 100ms;
@@ -2692,6 +2817,23 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-checkbox-small.v-disabled > input:active ~ label:after {
 	background: transparent;
+}
+
+.moware .v-checkbox-small.v-readonly  > label, .moware .v-checkbox-small.v-readonly  > .v-icon {
+	cursor: default;
+}
+
+.moware .v-checkbox-small.v-readonly  > label > .v-icon {
+	cursor: default;
+}
+
+:root .moware .v-checkbox-small.v-readonly > input:active ~ label:after {
+	background: transparent;
+}
+
+:root .moware .v-checkbox-small.v-readonly > input ~ label:after {
+	opacity: 0.5;
+	filter: alpha(opacity=50) ;
 }
 
 .moware .v-checkbox-large {
@@ -2772,7 +2914,7 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-checkbox-large > input ~ label:after {
 	content: "\f00c";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	color: transparent;
 	-webkit-transition: color 100ms;
 	-moz-transition: color 100ms;
@@ -2805,6 +2947,23 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-checkbox-large.v-disabled > input:active ~ label:after {
 	background: transparent;
+}
+
+.moware .v-checkbox-large.v-readonly  > label, .moware .v-checkbox-large.v-readonly  > .v-icon {
+	cursor: default;
+}
+
+.moware .v-checkbox-large.v-readonly  > label > .v-icon {
+	cursor: default;
+}
+
+:root .moware .v-checkbox-large.v-readonly > input:active ~ label:after {
+	background: transparent;
+}
+
+:root .moware .v-checkbox-large.v-readonly > input ~ label:after {
+	opacity: 0.5;
+	filter: alpha(opacity=50) ;
 }
 
 .moware .v-filterselect {
@@ -2846,7 +3005,7 @@ div.v-layout.v-horizontal.v-widget {
 	transition: box-shadow 180ms, border 180ms;
 	width: 100% !important;
 	height: 100%;
-	padding-right: 31px;
+	padding-right: 27px;
 	border-radius: inherit;
 }
 
@@ -2916,7 +3075,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect [class$="button"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f078";
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -3109,7 +3268,7 @@ div.v-layout.v-horizontal.v-widget {
 	height: 18px;
 	line-height: 18px;
 	text-align: center;
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	-webkit-transform: scale(0.8);
 	-moz-transform: scale(0.8);
 	-ms-transform: scale(0.8);
@@ -3301,7 +3460,7 @@ div.v-layout.v-horizontal.v-widget {
 	transition: box-shadow 180ms, border 180ms;
 	width: 100% !important;
 	height: 100%;
-	padding-right: 26px;
+	padding-right: 23px;
 	border-radius: inherit;
 }
 
@@ -3337,7 +3496,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-tiny [class$="button"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f078";
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -3428,7 +3587,7 @@ div.v-layout.v-horizontal.v-widget {
 	transition: box-shadow 180ms, border 180ms;
 	width: 100% !important;
 	height: 100%;
-	padding-right: 29px;
+	padding-right: 25px;
 	border-radius: inherit;
 }
 
@@ -3464,7 +3623,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-compact [class$="button"]:before, .moware .v-filterselect-small [class$="button"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f078";
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -3560,7 +3719,7 @@ div.v-layout.v-horizontal.v-widget {
 	transition: box-shadow 180ms, border 180ms;
 	width: 100% !important;
 	height: 100%;
-	padding-right: 37px;
+	padding-right: 32px;
 	border-radius: inherit;
 }
 
@@ -3596,7 +3755,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-large [class$="button"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f078";
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -3688,7 +3847,7 @@ div.v-layout.v-horizontal.v-widget {
 	transition: box-shadow 180ms, border 180ms;
 	width: 100% !important;
 	height: 100%;
-	padding-right: 50px;
+	padding-right: 43px;
 	border-radius: inherit;
 }
 
@@ -3724,7 +3883,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-huge [class$="button"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f078";
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -4212,6 +4371,24 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: 1;
 }
 
+.moware .v-grid-spacer {
+	position: absolute;
+	display: block;
+	background-color: #f8f8f8;
+}
+
+.moware .v-grid-spacer  > td {
+	width: 100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.v-ie8 .moware .v-grid-spacer, .v-ie9 .moware .v-grid-spacer {
+	margin-top: 0;
+}
+
 .moware .v-grid {
 	outline: none;
 }
@@ -4232,9 +4409,109 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 }
 
+.moware .v-grid .header-drag-table {
+	border-spacing: 0;
+	position: relative;
+	table-layout: fixed;
+	width: inherit;
+}
+
+.moware .v-grid .header-drag-table .v-grid-header {
+	position: absolute;
+}
+
+.moware .v-grid .header-drag-table .v-grid-header  > .v-grid-cell {
+	border: 1px solid #aaa;
+	margin-top: -10px;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	z-index: 30000;
+}
+
+.moware .v-grid .header-drag-table .v-grid-header  > .v-grid-drop-marker {
+	background-color: #4b8df8;
+	position: absolute;
+	width: 3px;
+}
+
+.moware .v-grid-sidebar.v-contextmenu {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-radius: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: #f3f3f3;
+	border: 1px solid #aaa;
+	padding: 0;
+	z-index: 5;
+}
+
+.moware .v-grid-sidebar.v-contextmenu.v-grid-sidebar-popup {
+	right: auto;
+}
+
+.moware .v-grid-sidebar.v-contextmenu .v-grid-sidebar-button {
+	background: transparent;
+	border: none;
+	color: inherit;
+	cursor: pointer;
+	outline: none;
+	padding: 0 4px;
+	text-align: right;
+	line-height: 1;
+}
+
+.moware .v-grid-sidebar.v-contextmenu .v-grid-sidebar-button[disabled] {
+	cursor: default;
+}
+
+.moware .v-grid-sidebar.v-contextmenu .v-grid-sidebar-button::-moz-focus-inner {
+	border: 0;
+}
+
+.moware .v-grid-sidebar.v-contextmenu .v-grid-sidebar-button:after {
+	content: "\f0c9";
+	display: block;
+	font-family: ThemeIcons, sans-serif;
+	font-size: 12px;
+}
+
+.moware .v-grid-sidebar.v-contextmenu.closed {
+	border-radius: 0;
+}
+
+.moware .v-grid-sidebar.v-contextmenu.open .v-grid-sidebar-button {
+	width: 100%;
+}
+
+.moware .v-grid-sidebar.v-contextmenu.open .v-grid-sidebar-button:after {
+	content: "\f0c9";
+	font-size: 12px;
+	line-height: 1;
+}
+
+.v-ie .moware .v-grid-sidebar.v-contextmenu.open .v-grid-sidebar-button {
+	vertical-align: middle;
+}
+
+.v-ie8 .moware .v-grid-sidebar.v-contextmenu.open .v-grid-sidebar-button:after {
+	vertical-align: middle;
+	text-align: center;
+	display: inline;
+}
+
+.moware .v-grid-sidebar.v-contextmenu .v-grid-sidebar-content {
+	padding: 4px 0;
+}
+
+.moware .v-grid-sidebar.v-contextmenu .v-grid-sidebar-content .gwt-MenuBar .gwt-MenuItem .column-hiding-toggle {
+	text-shadow: none;
+}
+
 .moware .v-grid-cell {
 	background-color: #f8f8f8;
-	padding: 0 9px;
+	padding: 0 13.5px;
 	line-height: 18px;
 	text-overflow: ellipsis;
 }
@@ -4267,6 +4544,13 @@ div.v-layout.v-horizontal.v-widget {
 	border-left: none;
 }
 
+.moware .v-grid-editor-cells.frozen > div {
+	-webkit-box-shadow: 1px 0 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 1px 0 2px rgba(0, 0, 0, 0.1);
+	border-right: 1px solid #aaa;
+	border-left: none;
+}
+
 .moware .v-grid-row-stripe > td {
 	background-color: #eeeeee;
 }
@@ -4295,19 +4579,34 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-header .sort-asc, .moware .v-grid-header .sort-desc {
-	padding-right: 23px;
+	padding-right: 27.5px;
 }
 
 .moware .v-grid-header .sort-asc:after, .moware .v-grid-header .sort-desc:after {
-	font-family: FontAwesome, sans-serif;
+	font-family: ThemeIcons, sans-serif;
 	content: "\f0de" " " attr(sort-order);
 	position: absolute;
-	right: 9px;
+	right: 13.5px;
 	font-size: 10px;
 }
 
 .moware .v-grid-header .sort-desc:after {
 	content: "\f0dd" " " attr(sort-order);
+}
+
+.moware .v-grid-column-resize-handle {
+	position: absolute;
+	width: 27px;
+	right: -13.5px;
+	top: 0px;
+	bottom: 0px;
+	cursor: col-resize;
+	z-index: 10;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .moware .v-grid-footer td {
@@ -4322,6 +4621,18 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-grid-footer td:first-child {
 	border-left: none;
+}
+
+.moware .v-grid-header .v-grid-cell, .moware .v-grid-footer .v-grid-cell {
+	overflow: visible;
+}
+
+.moware .v-grid-column-header-content, .moware .v-grid-column-footer-content {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 18px;
+	vertical-align: baseline;
 }
 
 .moware .v-grid-header-deco {
@@ -4384,9 +4695,17 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: 0 0 9px rgba(0, 0, 0, 0.2);
 }
 
+.moware .v-grid-editor.unbuffered .v-grid-editor-footer {
+	width: 100%;
+}
+
 .moware .v-grid-editor-cells {
 	position: relative;
 	white-space: nowrap;
+}
+
+.moware .v-grid-editor-cells.frozen {
+	z-index: 2;
 }
 
 .moware .v-grid-editor-cells  > div {
@@ -4407,6 +4726,22 @@ div.v-layout.v-horizontal.v-widget {
 	display: inline-block;
 }
 
+.moware .v-grid-editor-cells  > div .v-filterselect {
+	padding-left: 0;
+}
+
+.moware .v-grid-editor-cells  > div input[type="text"], .moware .v-grid-editor-cells  > div input[type="text"].v-filterselect-input, .moware .v-grid-editor-cells  > div input[type="password"] {
+	padding-left: 13.5px;
+}
+
+.moware .v-grid-editor-cells  > div input[type="text"]:not(.v-filterselect-input), .moware .v-grid-editor-cells  > div input[type="password"] {
+	padding-right: 6.75px;
+}
+
+.moware .v-grid-editor-cells  > div input[type="checkbox"] {
+	margin-left: 13.5px;
+}
+
 .moware .v-grid-editor-cells  > div .v-textfield, .moware .v-grid-editor-cells  > div .v-datefield, .moware .v-grid-editor-cells  > div .v-filterselect {
 	min-width: 100%;
 	max-width: 100%;
@@ -4414,9 +4749,21 @@ div.v-layout.v-horizontal.v-widget {
 	max-height: 100%;
 }
 
+.v-ie8 .moware .v-grid-editor-cells  > div .v-datefield-button {
+	margin-left: -37px;
+}
+
+.v-ie8 .moware .v-grid-editor-cells  > div .v-filterselect-button {
+	margin-left: -25px;
+}
+
 .moware .v-grid-editor-cells  > div .v-select, .moware .v-grid-editor-cells  > div .v-select-select {
 	min-width: 100%;
 	max-width: 100%;
+}
+
+.moware .v-grid-editor-cells  > div.not-editable.v-grid-cell {
+	float: none;
 }
 
 .moware .v-grid-editor-cells .error::before {
@@ -4478,6 +4825,45 @@ div.v-layout.v-horizontal.v-widget {
 	margin-right: 4px;
 }
 
+.moware .v-grid-spacer {
+	padding-left: 1px;
+}
+
+.moware .v-grid-spacer > td {
+	display: block;
+	padding: 0;
+	background-color: #f8f8f8;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+
+.moware .v-grid-spacer.stripe > td {
+	background-color: #eeeeee;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+
+.moware .v-grid-spacer-deco-container {
+	border-top: 1px solid transparent;
+	position: relative;
+	top: 0;
+	z-index: 5;
+}
+
+.moware .v-grid-spacer-deco {
+	top: 0;
+	left: 0;
+	width: 2px;
+	background-color: #4b8df8;
+	position: absolute;
+	height: 100%;
+	pointer-events: none;
+}
+
+.ie8 .moware .v-grid-spacer-deco:before, .ie9 .moware .v-grid-spacer-deco:before, .ie10 .moware .v-grid-spacer-deco:before {
+	content: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==);
+}
+
 .moware .v-grid-cell > .v-progressbar {
 	width: 100%;
 }
@@ -4490,11 +4876,28 @@ div.v-layout.v-horizontal.v-widget {
 	background-color: #f3f3f3;
 }
 
+.moware .v-grid.v-disabled {
+	opacity: 0.5;
+	filter: alpha(opacity=50) ;
+}
+
 .moware .v-grid-header .v-grid-cell {
 	background-color: #f3f3f3;
 	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
 	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.moware .v-grid-header .v-grid-cell.dragged {
+	opacity: 0.5;
+	filter: alpha(opacity=50) ;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-moz-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.moware .v-grid-header .v-grid-cell.dragged-column-header {
+	margin-top: -9px;
 }
 
 .moware .v-grid-footer .v-grid-cell {
@@ -4561,6 +4964,10 @@ div.v-layout.v-horizontal.v-widget {
 	vertical-align: middle;
 }
 
+.moware .v-grid-editor-cells > div.not-editable.v-grid-cell {
+	float: none;
+}
+
 .moware .v-grid-editor-cells > div .error::before {
 	border-top: 7px solid #CC3D28;
 	border-right: 7px solid transparent;
@@ -4578,20 +4985,36 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: none;
 }
 
+.moware .v-grid-editor-cells > div input[type="text"].v-datefield-textfield {
+	padding-left: 31.2px;
+}
+
+.v-ie8 .moware .v-grid-editor-cells > div .v-datefield-button {
+	margin-left: 0px;
+}
+
+.v-ie8 .moware .v-grid-editor-cells > div .v-filterselect-button {
+	margin-left: 0px;
+}
+
 .moware .v-grid-editor-cells > div .v-textfield-focus, .moware .v-grid-editor-cells > div .v-datefield .v-textfield-focus, .moware .v-grid-editor-cells > div .v-filterselect-input:focus {
 	position: relative;
 }
 
 .moware .v-grid-editor-cells > div .v-select {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 .moware .v-grid-editor-cells > div .v-checkbox {
-	margin: 0 5px;
+	margin: 0 7px 0 13.5px;
 }
 
-.moware .v-grid-editor-cells > div .v-checkbox label {
+.moware .v-grid-editor-cells > div .v-checkbox  > input[type="checkbox"] {
+	margin-left: 0;
+}
+
+.moware .v-grid-editor-cells > div .v-checkbox  > label {
 	white-space: nowrap;
 }
 
@@ -4628,6 +5051,21 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-grid-editor-save.v-disabled, .moware .v-grid-editor-cancel.v-disabled {
 	opacity: 0.5;
 	filter: alpha(opacity=50) ;
+}
+
+.moware .v-grid-spacer {
+	margin-top: -1px;
+}
+
+.moware .v-grid-sidebar.v-contextmenu.open .v-grid-sidebar-content {
+	margin: 0 0 2px;
+	padding: 4px 4px 2px;
+}
+
+.moware .v-grid-sidebar.v-contextmenu.closed {
+	background-color: #f3f3f3;
+	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
+	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
 }
 
 .moware .v-grid-scroller::-webkit-scrollbar {
@@ -5498,7 +5936,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield [class*="button"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f073";
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -5746,22 +6184,22 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-popup .v-button-prevyear:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f100";
 }
 
 .moware .v-datefield-popup .v-button-prevmonth:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f104";
 }
 
 .moware .v-datefield-popup .v-button-nextyear:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f101";
 }
 
 .moware .v-datefield-popup .v-button-nextmonth:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f105";
 }
 
@@ -5939,22 +6377,22 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-prevyear:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f100";
 }
 
 .moware .v-button-prevmonth:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f104";
 }
 
 .moware .v-button-nextyear:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f101";
 }
 
 .moware .v-button-nextmonth:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f105";
 }
 
@@ -6103,7 +6541,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-tiny [class*="button"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f073";
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -6218,7 +6656,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-compact [class*="button"]:before, .moware .v-datefield-small [class*="button"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f073";
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -6338,7 +6776,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-large [class*="button"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f073";
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -6454,7 +6892,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-huge [class*="button"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f073";
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -6634,22 +7072,22 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-prevyear:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f100";
 }
 
 .moware .v-button-prevmonth:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f104";
 }
 
 .moware .v-button-nextyear:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f101";
 }
 
 .moware .v-button-nextmonth:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f105";
 }
 
@@ -6945,7 +7383,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-menubar .v-menubar-submenu-indicator  + .v-menubar-menuitem-caption:after {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f078";
 	font-size: 0.7em;
 	vertical-align: 0.15em;
@@ -7029,7 +7467,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-menubar-popup .v-menubar-submenu-indicator  + .v-menubar-menuitem-caption:after {
 	position: absolute;
 	right: 7px;
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f054";
 	line-height: 21px;
 }
@@ -7052,7 +7490,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-menubar-popup [class*="checked"] .v-menubar-menuitem-caption:before {
 	content: "\f00c";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	position: absolute;
 	left: 7px;
 }
@@ -7239,7 +7677,7 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-radiobutton > input ~ label:after {
 	content: "\f00c";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	color: transparent;
 	-webkit-transition: color 100ms;
 	-moz-transition: color 100ms;
@@ -7272,6 +7710,23 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-radiobutton.v-disabled > input:active ~ label:after {
 	background: transparent;
+}
+
+.moware .v-radiobutton.v-readonly  > label, .moware .v-radiobutton.v-readonly  > .v-icon {
+	cursor: default;
+}
+
+.moware .v-radiobutton.v-readonly  > label > .v-icon {
+	cursor: default;
+}
+
+:root .moware .v-radiobutton.v-readonly > input:active ~ label:after {
+	background: transparent;
+}
+
+:root .moware .v-radiobutton.v-readonly > input ~ label:after {
+	opacity: 0.5;
+	filter: alpha(opacity=50) ;
 }
 
 :root .moware .v-radiobutton > input:checked ~ label:after {
@@ -7385,7 +7840,7 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-select-optiongroup-small .v-checkbox > input ~ label:after {
 	content: "\f00c";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	color: transparent;
 	-webkit-transition: color 100ms;
 	-moz-transition: color 100ms;
@@ -7418,6 +7873,23 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-select-optiongroup-small .v-checkbox.v-disabled > input:active ~ label:after {
 	background: transparent;
+}
+
+.moware .v-select-optiongroup-small .v-checkbox.v-readonly  > label, .moware .v-select-optiongroup-small .v-checkbox.v-readonly  > .v-icon {
+	cursor: default;
+}
+
+.moware .v-select-optiongroup-small .v-checkbox.v-readonly  > label > .v-icon {
+	cursor: default;
+}
+
+:root .moware .v-select-optiongroup-small .v-checkbox.v-readonly > input:active ~ label:after {
+	background: transparent;
+}
+
+:root .moware .v-select-optiongroup-small .v-checkbox.v-readonly > input ~ label:after {
+	opacity: 0.5;
+	filter: alpha(opacity=50) ;
 }
 
 .moware .v-select-optiongroup-small .v-radiobutton {
@@ -7497,7 +7969,7 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-select-optiongroup-small .v-radiobutton > input ~ label:after {
 	content: "\f00c";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	color: transparent;
 	-webkit-transition: color 100ms;
 	-moz-transition: color 100ms;
@@ -7530,6 +8002,23 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-select-optiongroup-small .v-radiobutton.v-disabled > input:active ~ label:after {
 	background: transparent;
+}
+
+.moware .v-select-optiongroup-small .v-radiobutton.v-readonly  > label, .moware .v-select-optiongroup-small .v-radiobutton.v-readonly  > .v-icon {
+	cursor: default;
+}
+
+.moware .v-select-optiongroup-small .v-radiobutton.v-readonly  > label > .v-icon {
+	cursor: default;
+}
+
+:root .moware .v-select-optiongroup-small .v-radiobutton.v-readonly > input:active ~ label:after {
+	background: transparent;
+}
+
+:root .moware .v-select-optiongroup-small .v-radiobutton.v-readonly > input ~ label:after {
+	opacity: 0.5;
+	filter: alpha(opacity=50) ;
 }
 
 :root .moware .v-select-optiongroup-small .v-radiobutton > input:checked ~ label:after {
@@ -7643,7 +8132,7 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-select-optiongroup-large .v-checkbox > input ~ label:after {
 	content: "\f00c";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	color: transparent;
 	-webkit-transition: color 100ms;
 	-moz-transition: color 100ms;
@@ -7676,6 +8165,23 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-select-optiongroup-large .v-checkbox.v-disabled > input:active ~ label:after {
 	background: transparent;
+}
+
+.moware .v-select-optiongroup-large .v-checkbox.v-readonly  > label, .moware .v-select-optiongroup-large .v-checkbox.v-readonly  > .v-icon {
+	cursor: default;
+}
+
+.moware .v-select-optiongroup-large .v-checkbox.v-readonly  > label > .v-icon {
+	cursor: default;
+}
+
+:root .moware .v-select-optiongroup-large .v-checkbox.v-readonly > input:active ~ label:after {
+	background: transparent;
+}
+
+:root .moware .v-select-optiongroup-large .v-checkbox.v-readonly > input ~ label:after {
+	opacity: 0.5;
+	filter: alpha(opacity=50) ;
 }
 
 .moware .v-select-optiongroup-large .v-radiobutton {
@@ -7755,7 +8261,7 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-select-optiongroup-large .v-radiobutton > input ~ label:after {
 	content: "\f00c";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	color: transparent;
 	-webkit-transition: color 100ms;
 	-moz-transition: color 100ms;
@@ -7788,6 +8294,23 @@ div.v-layout.v-horizontal.v-widget {
 
 :root .moware .v-select-optiongroup-large .v-radiobutton.v-disabled > input:active ~ label:after {
 	background: transparent;
+}
+
+.moware .v-select-optiongroup-large .v-radiobutton.v-readonly  > label, .moware .v-select-optiongroup-large .v-radiobutton.v-readonly  > .v-icon {
+	cursor: default;
+}
+
+.moware .v-select-optiongroup-large .v-radiobutton.v-readonly  > label > .v-icon {
+	cursor: default;
+}
+
+:root .moware .v-select-optiongroup-large .v-radiobutton.v-readonly > input:active ~ label:after {
+	background: transparent;
+}
+
+:root .moware .v-select-optiongroup-large .v-radiobutton.v-readonly > input ~ label:after {
+	opacity: 0.5;
+	filter: alpha(opacity=50) ;
 }
 
 :root .moware .v-select-optiongroup-large .v-radiobutton > input:checked ~ label:after {
@@ -7928,9 +8451,9 @@ div.v-layout.v-horizontal.v-widget {
 	background-image: radial-gradient(  circle at 50% 50%, #222, #1a1a1a);
 	opacity: 0.77;
 	filter: alpha(opacity=77.00001) ;
-	-webkit-animation: valo-animate-in-fade 400ms 100ms;
-	-moz-animation: valo-animate-in-fade 400ms 100ms;
-	animation: valo-animate-in-fade 400ms 100ms;
+	-webkit-animation: valo-animate-in-fade 400ms 100ms backwards;
+	-moz-animation: valo-animate-in-fade 400ms 100ms backwards;
+	animation: valo-animate-in-fade 400ms 100ms backwards;
 }
 
 .v-op12 .moware .v-window-modalitycurtain {
@@ -8261,7 +8784,7 @@ div.v-layout.v-horizontal.v-widget {
 	margin-left: -1.9em;
 	vertical-align: top;
 	content: "\f0da";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	text-align: center;
 	background: transparent;
 }
@@ -8287,7 +8810,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-tree-node-caption > div:before {
 	content: "\f0da";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	display: inline-block;
 	width: 0.5em;
 	text-align: center;
@@ -8350,12 +8873,12 @@ div.v-layout.v-horizontal.v-widget {
 	-o-transform: rotate(90deg);
 	transform: rotate(90deg);
 	content: "\f0da";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 }
 
 .v-ie8 .moware .v-tree-node-expanded:before {
 	content: "\f0d7";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 }
 
 .moware .v-tree-node-leaf:before, .moware .v-tree-node-leaf > .v-tree-node-caption > div:before {
@@ -8573,7 +9096,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-top: 1px solid #aaa;
 }
 
-.moware .v-table-table tr:first-child td {
+.moware .v-table-table tr:first-child > td {
 	border-top: none;
 }
 
@@ -8633,12 +9156,12 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-table-header-cell-asc .v-table-sort-indicator:before {
 	content: "\f0de";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 }
 
 .moware .v-table-header-cell-desc .v-table-sort-indicator:before {
 	content: "\f0dd";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 }
 
 .moware [class*="rowheader"] span.v-icon {
@@ -8752,7 +9275,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-column-selector:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f013";
 }
 
@@ -8766,7 +9289,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-on:before, .moware .v-off:before {
 	content: "\f00c";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	font-size: 0.9em;
 	margin-right: 4px;
 }
@@ -9030,12 +9553,12 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-treetable-node-closed:before {
 	content: "\f0da";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 }
 
 .moware .v-treetable-node-open:before {
 	content: "\f0d7";
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 }
 
 .moware .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter {
@@ -9812,7 +10335,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-scroller [class*="Next"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f054";
 }
 
@@ -9821,7 +10344,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-scroller [class*="Prev"]:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f053";
 }
 
@@ -9833,9 +10356,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-tabsheetpanel > .v-scrollable > .v-widget {
-	-webkit-animation: valo-animate-in-fade 300ms;
-	-moz-animation: valo-animate-in-fade 300ms;
-	animation: valo-animate-in-fade 300ms;
+	-webkit-animation: valo-animate-in-fade 300ms backwards;
+	-moz-animation: valo-animate-in-fade 300ms backwards;
+	animation: valo-animate-in-fade 300ms backwards;
 }
 
 .moware .v-tabsheet-deco {
@@ -10079,8 +10602,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-colorpicker-popup .resize-button:before {
-	font-family: FontAwesome;
-	content: "\F141";
+	font-family: ThemeIcons;
+	content: "\f141";
 }
 
 .moware .v-colorpicker-popup .resize-button-caption {
@@ -10483,12 +11006,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-select-twincol-buttons .v-button-wrap:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f053";
 }
 
 .moware .v-select-twincol-buttons .v-button:first-child .v-button-wrap:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f054";
 }
 
@@ -10558,12 +11081,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-header-week .v-calendar-back:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f053";
 }
 
 .moware .v-calendar-header-week .v-calendar-next:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f054";
 }
 
@@ -11013,6 +11536,10 @@ div.v-layout.v-horizontal.v-widget {
 	margin-top: 14px;
 }
 
+.moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell h1, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell .v-label-h1, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell h2, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell .v-label-h2, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell h3, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell .v-label-h3, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell h4, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell .v-label-h4, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell h1, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell .v-label-h1, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell h2, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell .v-label-h2, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell h3, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell .v-label-h3, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell h4, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell .v-label-h4 {
+	margin-top: -0.5em;
+}
+
 .moware h1.no-margin, .moware .v-label-h1.no-margin, .moware h2.no-margin, .moware .v-label-h2.no-margin, .moware h3.no-margin, .moware .v-label-h3.no-margin, .moware h4.no-margin, .moware .v-label-h4.no-margin {
 	margin: 0 !important;
 }
@@ -11093,7 +11620,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-label-success:before, .moware .v-label-failure:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 	content: "\f00c";
 	margin-right: 0.5em;
 	margin-left: -13px;
@@ -11400,7 +11927,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-richtextarea .gwt-RichTextToolbar-top div:before {
-	font-family: FontAwesome;
+	font-family: ThemeIcons;
 }
 
 .moware .v-richtextarea .gwt-RichTextToolbar-top div[title="Toggle Bold"]:before {
@@ -11586,7 +12113,17 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 13px 15px;
 }
 
-.moware .v-Notification h1 {
+.moware .v-Notification .v-Notification-caption {
+	color: #414b56;
+	font-size: 17px;
+	line-height: 1;
+}
+
+.moware .v-Notification .v-Notification-description {
+	line-height: 1.4;
+}
+
+.moware .v-Notification-caption {
 	margin: 0;
 	display: inline-block;
 	text-align: left;
@@ -11596,7 +12133,7 @@ div.v-layout.v-horizontal.v-widget {
 	letter-spacing: 0;
 }
 
-.moware .v-Notification p {
+.moware .v-Notification-description, .moware .v-Notification-details {
 	margin: 0;
 	display: inline-block;
 	vertical-align: middle;
@@ -11606,22 +12143,12 @@ div.v-layout.v-horizontal.v-widget {
 	overflow: auto;
 }
 
-.moware .v-Notification h1 ~ p {
+.moware .v-Notification-caption ~ .v-Notification-description, .moware .v-Notification-caption ~ .v-Notification-details {
 	margin-left: 21px;
 }
 
-.moware .v-Notification .v-icon + h1 {
+.moware .v-icon + .v-Notification-caption {
 	margin-left: 14px;
-}
-
-.moware .v-Notification h1 {
-	color: #414b56;
-	font-size: 17px;
-	line-height: 1;
-}
-
-.moware .v-Notification p {
-	line-height: 1.4;
 }
 
 .moware .v-Notification-system {
@@ -11639,7 +12166,7 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 20px;
 }
 
-.moware .v-Notification-system p {
+.moware .v-Notification-system .v-Notification-description, .moware .v-Notification-system .v-Notification-details {
 	max-width: 50em;
 }
 
@@ -11675,12 +12202,12 @@ div.v-layout.v-horizontal.v-widget {
 	animation: valo-animate-out-slide-down 200ms;
 }
 
-.moware .v-Notification-system h1 {
+.moware .v-Notification-system .v-Notification-caption {
 	color: #fff;
 	vertical-align: middle;
 }
 
-.moware .v-Notification-system p {
+.moware .v-Notification-system .v-Notification-description, .moware .v-Notification-system .v-Notification-details {
 	color: #e6e6e6;
 }
 
@@ -11692,7 +12219,7 @@ div.v-layout.v-horizontal.v-widget {
 	text-align: left;
 }
 
-.moware .v-Notification.tray h1 + p {
+.moware .v-Notification.tray .v-Notification-caption + .v-Notification-description {
 	display: block;
 	margin: 0.5em 0 0;
 }
@@ -11701,11 +12228,11 @@ div.v-layout.v-horizontal.v-widget {
 	background: #FFF3D2;
 }
 
-.moware .v-Notification.warning h1 {
+.moware .v-Notification.warning .v-Notification-caption {
 	color: #AC7C00;
 }
 
-.moware .v-Notification.warning p {
+.moware .v-Notification.warning .v-Notification-description {
 	color: #9D874D;
 }
 
@@ -11716,11 +12243,11 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
 }
 
-.moware .v-Notification.error h1 {
+.moware .v-Notification.error .v-Notification-caption {
 	color: white;
 }
 
-.moware .v-Notification.error p {
+.moware .v-Notification.error .v-Notification-description {
 	color: #efdcda;
 }
 
@@ -11731,12 +12258,12 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 20px;
 }
 
-.moware .v-Notification.dark h1 {
+.moware .v-Notification.dark .v-Notification-caption {
 	color: #fff;
 	vertical-align: middle;
 }
 
-.moware .v-Notification.dark p {
+.moware .v-Notification.dark .v-Notification-description, .moware .v-Notification.dark .v-Notification-details {
 	color: #e6e6e6;
 }
 
@@ -11751,7 +12278,7 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 9px 10px;
 }
 
-.moware .v-Notification.bar p {
+.moware .v-Notification.bar .v-Notification-description, .moware .v-Notification.bar .v-Notification-details {
 	max-width: 50em;
 }
 
@@ -11791,11 +12318,11 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 8px 9px;
 }
 
-.moware .v-Notification.small h1 {
+.moware .v-Notification.small .v-Notification-caption {
 	font-size: 14px;
 }
 
-.moware .v-Notification.small p {
+.moware .v-Notification.small .v-Notification-description {
 	font-size: 12px;
 }
 
@@ -11865,13 +12392,13 @@ div.v-layout.v-horizontal.v-widget {
 	border: 2px solid #4b8df8;
 }
 
-.moware .v-Notification.success h1, .moware .v-Notification.failure h1 {
+.moware .v-Notification.success .v-Notification-caption, .moware .v-Notification.failure .v-Notification-caption {
 	color: #4b8df8;
 	font-weight: 400;
 }
 
-.moware .v-Notification.success h1:before, .moware .v-Notification.failure h1:before {
-	font-family: FontAwesome;
+.moware .v-Notification.success .v-Notification-caption:before, .moware .v-Notification.failure .v-Notification-caption:before {
+	font-family: ThemeIcons;
 	content: "\f00c";
 	margin-right: 0.5em;
 }
@@ -11884,11 +12411,11 @@ div.v-layout.v-horizontal.v-widget {
 	border-color: #CC3D28;
 }
 
-.moware .v-Notification.failure h1 {
+.moware .v-Notification.failure .v-Notification-caption {
 	color: #CC3D28;
 }
 
-.moware .v-Notification.failure h1:before {
+.moware .v-Notification.failure .v-Notification-caption:before {
 	content: "\f05e";
 }
 
@@ -12278,32 +12805,32 @@ div.v-layout.v-horizontal.v-widget {
 	outline: none;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part {
 	background-color: #f9fafb;
 	min-width: 52px;
 	max-width: 78px;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-title {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-title {
 	font-size: 11px;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-title .v-label-undef-w {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-title .v-label-undef-w {
 	white-space: normal;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .v-menubar-user-menu {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .v-menubar-user-menu {
 	margin-left: 0;
 	margin-right: 0;
 	font-size: 10px;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .v-menubar-user-menu img.v-icon {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .v-menubar-user-menu img.v-icon {
 	width: 20px;
 	height: 20px;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part [class*="subtitle"] {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part [class*="subtitle"] {
 	margin: 7px 0 0;
 	padding: 5px 17px 5px 7px;
 	line-height: 1;
@@ -12315,15 +12842,15 @@ div.v-layout.v-horizontal.v-widget {
 	
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part [class*="subtitle"] [class*="badge"] {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part [class*="subtitle"] [class*="badge"] {
 	right: 7px;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part [class*="subtitle"]  + .valo-menu-item {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part [class*="subtitle"]  + .valo-menu-item {
 	border-top: none;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item {
 	display: block;
 	font-size: 22px;
 	line-height: 1;
@@ -12332,11 +12859,11 @@ div.v-layout.v-horizontal.v-widget {
 	border-top: 1px solid #eaebeb;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item:first-child {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item:first-child {
 	border-top: none;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item [class*="caption"] {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item [class*="caption"] {
 	display: block;
 	width: auto;
 	margin: 0.3em 0 0;
@@ -12345,27 +12872,27 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 1.3;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item .v-icon {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item .v-icon {
 	margin: 0;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item span.v-icon {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item span.v-icon {
 	opacity: 0.8;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item.selected {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item.selected {
 	background: white;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item.selected .v-icon {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item.selected .v-icon {
 	opacity: 1;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item.selected [class*="badge"] {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item.selected [class*="badge"] {
 	border-color: #f0f2f5;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item [class*="badge"] {
+.moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item [class*="badge"] {
 	padding-left: 3px;
 	padding-right: 3px;
 	top: 5px;
@@ -12373,33 +12900,33 @@ div.v-layout.v-horizontal.v-widget {
 	border: 2px solid #f9fafb;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] {
+.moware .valo-menu-responsive[width-range~="0-800px"] {
 	padding-top: 26px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] .v-loading-indicator {
+.moware .valo-menu-responsive[width-range~="0-800px"] .v-loading-indicator {
 	top: 26px;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"]  > .v-widget {
+.moware .valo-menu-responsive[width-range~="0-800px"]  > .v-widget {
 	position: relative !important;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] .valo-menu {
+.moware .valo-menu-responsive[width-range~="0-800px"] .valo-menu {
 	border-right: none;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] .valo-menu-part {
+.moware .valo-menu-responsive[width-range~="0-800px"] .valo-menu-part {
 	overflow: visible;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] .valo-menu-toggle {
+.moware .valo-menu-responsive[width-range~="0-800px"] .valo-menu-toggle {
 	display: inline-block;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] .valo-menu-title {
+.moware .valo-menu-responsive[width-range~="0-800px"] .valo-menu-title {
 	position: fixed;
 	z-index: 100;
 	top: 0;
@@ -12411,7 +12938,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-backface-visibility: hidden;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] .valo-menu .v-menubar-user-menu {
+.moware .valo-menu-responsive[width-range~="0-800px"] .valo-menu .v-menubar-user-menu {
 	position: fixed;
 	z-index: 100;
 	top: 0;
@@ -12424,12 +12951,12 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-backface-visibility: hidden;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] .valo-menu .v-menubar-user-menu .v-menubar-menuitem {
+.moware .valo-menu-responsive[width-range~="0-800px"] .valo-menu .v-menubar-user-menu .v-menubar-menuitem {
 	line-height: 25px;
 	white-space: nowrap;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] .valo-menu .v-menubar-user-menu img.v-icon {
+.moware .valo-menu-responsive[width-range~="0-800px"] .valo-menu .v-menubar-user-menu img.v-icon {
 	display: inline-block;
 	margin: 0 4px 0 0;
 	width: 13px;
@@ -12438,7 +12965,7 @@ div.v-layout.v-horizontal.v-widget {
 	border: none;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] .valo-menuitems {
+.moware .valo-menu-responsive[width-range~="0-800px"] .valo-menuitems {
 	height: 100%;
 	background-color: #f9fafb;
 	background-image: -webkit-linear-gradient(right, #f4f6f8 0%, #f9fafb 7px);
@@ -12449,7 +12976,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-right: 1px solid #aaa;
 	white-space: nowrap;
 	position: fixed;
-	z-index: 200;
+	z-index: 9000;
 	top: 26px;
 	bottom: 0;
 	height: auto;
@@ -12466,7 +12993,7 @@ div.v-layout.v-horizontal.v-widget {
 	transition: all 300ms;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-800px"] .valo-menu-visible .valo-menuitems {
+.moware .valo-menu-responsive[width-range~="0-800px"] .valo-menu-visible .valo-menuitems {
 	-webkit-transform: translatex(0%);
 	-moz-transform: translatex(0%);
 	-ms-transform: translatex(0%);
@@ -12474,11 +13001,11 @@ div.v-layout.v-horizontal.v-widget {
 	transform: translatex(0%);
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-500px"] .valo-menu-toggle .v-button-caption {
+.moware .valo-menu-responsive[width-range~="0-500px"] .valo-menu-toggle .v-button-caption {
 	display: none;
 }
 
-.moware .v-ui.valo-menu-responsive[width-range~="0-500px"] .valo-menu .v-menubar-user-menu .v-menubar-menuitem-caption {
+.moware .valo-menu-responsive[width-range~="0-500px"] .valo-menu .v-menubar-user-menu .v-menubar-menuitem-caption {
 	display: inline-block;
 	width: 13px;
 	overflow: hidden;
