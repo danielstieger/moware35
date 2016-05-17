@@ -4958,16 +4958,120 @@
       <node concept="3cqZAl" id="3sEA$PIzUNg" role="3clF45" />
       <node concept="3Tm1VV" id="3sEA$PIzUNh" role="1B3o_S" />
       <node concept="3clFbS" id="3sEA$PIzUNi" role="3clF47">
-        <node concept="3clFbF" id="3sEA$PIzUNj" role="3cqZAp">
-          <node concept="2OqwBi" id="3sEA$PIzUNk" role="3clFbG">
-            <node concept="37vLTw" id="3sEA$PIzUNl" role="2Oq$k0">
+        <node concept="3clFbH" id="3WKbkFUV_UE" role="3cqZAp" />
+        <node concept="3SKdUt" id="3WKbkFUVAbX" role="3cqZAp">
+          <node concept="3SKdUq" id="3WKbkFUVAen" role="3SKWNk">
+            <property role="3SKdUp" value="workaround for disabled scrollbar when using setDisabled" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3WKbkFUXH55" role="3cqZAp">
+          <node concept="3SKWN0" id="3WKbkFUXH56" role="3SKWNk">
+            <node concept="3clFbF" id="3WKbkFUXiB_" role="3SKWNf">
+              <node concept="2OqwBi" id="3WKbkFUXiBy" role="3clFbG">
+                <node concept="10M0yZ" id="3WKbkFUXiBz" role="2Oq$k0">
+                  <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                  <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="3WKbkFUXiB$" role="2OqNvi">
+                  <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="3WKbkFUXk0T" role="37wK5m">
+                    <node concept="37vLTw" id="3WKbkFUXkki" role="3uHU7w">
+                      <ref role="3cqZAo" node="3sEA$PIzUNe" resolve="enabled" />
+                    </node>
+                    <node concept="3cpWs3" id="3WKbkFUXjtI" role="3uHU7B">
+                      <node concept="3cpWs3" id="3WKbkFUXiNF" role="3uHU7B">
+                        <node concept="Xl_RD" id="3WKbkFUXiFP" role="3uHU7B">
+                          <property role="Xl_RC" value="Property: " />
+                        </node>
+                        <node concept="2OqwBi" id="3WKbkFUXj7q" role="3uHU7w">
+                          <node concept="2OqwBi" id="3WKbkFUXiSb" role="2Oq$k0">
+                            <node concept="Xjq3P" id="3WKbkFUXiOn" role="2Oq$k0" />
+                            <node concept="2OwXpG" id="3WKbkFUXiYT" role="2OqNvi">
+                              <ref role="2Oxat5" node="3sEA$PIzUI6" resolve="delegate" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="3WKbkFUXjpz" role="2OqNvi">
+                            <ref role="37wK5l" to="quhv:5Y1b9tQYkr$" resolve="getValue" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="3WKbkFUXjFM" role="3uHU7w">
+                        <property role="Xl_RC" value=" / " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3WKbkFUUCWr" role="3cqZAp">
+          <node concept="2OqwBi" id="3WKbkFUUD0A" role="3clFbG">
+            <node concept="37vLTw" id="3WKbkFUUCWp" role="2Oq$k0">
               <ref role="3cqZAo" node="3sEA$PIzUI0" resolve="textArea" />
             </node>
-            <node concept="liA8E" id="3sEA$PIzUNm" role="2OqNvi">
-              <ref role="37wK5l" to="3cy2:~Node.setDisable(boolean):void" resolve="setDisable" />
-              <node concept="3fqX7Q" id="3sEA$PIzUNn" role="37wK5m">
-                <node concept="37vLTw" id="3sEA$PIzUNo" role="3fr31v">
-                  <ref role="3cqZAo" node="3sEA$PIzUNe" resolve="enabled" />
+            <node concept="liA8E" id="3WKbkFUUIb5" role="2OqNvi">
+              <ref role="37wK5l" to="vik9:~TextInputControl.setEditable(boolean):void" resolve="setEditable" />
+              <node concept="37vLTw" id="3WKbkFUUIfc" role="37wK5m">
+                <ref role="3cqZAo" node="3sEA$PIzUNe" resolve="enabled" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3WKbkFUUPH0" role="3cqZAp">
+          <node concept="3clFbS" id="3WKbkFUUPH2" role="3clFbx">
+            <node concept="3clFbF" id="3WKbkFUUPSS" role="3cqZAp">
+              <node concept="2OqwBi" id="3WKbkFUUPWc" role="3clFbG">
+                <node concept="37vLTw" id="3WKbkFUUPSQ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3sEA$PIzUI0" resolve="textArea" />
+                </node>
+                <node concept="liA8E" id="3WKbkFUURcz" role="2OqNvi">
+                  <ref role="37wK5l" to="3cy2:~Node.setStyle(java.lang.String):void" resolve="setStyle" />
+                  <node concept="Xl_RD" id="3WKbkFUURep" role="37wK5m">
+                    <property role="Xl_RC" value="-fx-text-fill: -lightdark;" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="3WKbkFUUPKv" role="3clFbw">
+            <node concept="37vLTw" id="3WKbkFUUPN8" role="3fr31v">
+              <ref role="3cqZAo" node="3sEA$PIzUNe" resolve="enabled" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="3WKbkFUVAkj" role="9aQIa">
+            <node concept="3clFbS" id="3WKbkFUVAkk" role="9aQI4">
+              <node concept="3clFbF" id="3WKbkFUVAnE" role="3cqZAp">
+                <node concept="2OqwBi" id="3WKbkFUVAqY" role="3clFbG">
+                  <node concept="37vLTw" id="3WKbkFUVAnD" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3sEA$PIzUI0" resolve="textArea" />
+                  </node>
+                  <node concept="liA8E" id="3WKbkFUVBE1" role="2OqNvi">
+                    <ref role="37wK5l" to="3cy2:~Node.setStyle(java.lang.String):void" resolve="setStyle" />
+                    <node concept="Xl_RD" id="3WKbkFUVBFC" role="37wK5m">
+                      <property role="Xl_RC" value="-fx-text-fill:  -fx-accent;" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3WKbkFUUXNJ" role="3cqZAp" />
+        <node concept="3SKdUt" id="3WKbkFUUIpt" role="3cqZAp">
+          <node concept="3SKWN0" id="3WKbkFUUIpu" role="3SKWNk">
+            <node concept="3clFbF" id="3sEA$PIzUNj" role="3SKWNf">
+              <node concept="2OqwBi" id="3sEA$PIzUNk" role="3clFbG">
+                <node concept="37vLTw" id="3sEA$PIzUNl" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3sEA$PIzUI0" resolve="textArea" />
+                </node>
+                <node concept="liA8E" id="3sEA$PIzUNm" role="2OqNvi">
+                  <ref role="37wK5l" to="3cy2:~Node.setDisable(boolean):void" resolve="setDisable" />
+                  <node concept="3fqX7Q" id="3sEA$PIzUNn" role="37wK5m">
+                    <node concept="37vLTw" id="3sEA$PIzUNo" role="3fr31v">
+                      <ref role="3cqZAo" node="3sEA$PIzUNe" resolve="enabled" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
