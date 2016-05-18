@@ -14,7 +14,7 @@ $mo-flag-label-color: #6B7D99;
 
 $v-app-loading-text: "modellwerktatt.org";
 $v-background-color: #f3f3f3;
-$v-focus-color: #414b56;
+$v-focus-color: #4b8df8;
 $v-selection-color: #4b8df8;
 
 
@@ -50,17 +50,4 @@ $v-unit-size--tiny: 22px;
 
 $v-table-row-height: 18px !default;
 
-
-
-
-
 @import "../valo/valo";
-
-
-/* .tests-valo-light .valo-menu .valo-menu-title {
-  background: $v-app-background-color;
-  color: $v-selection-color;
-  text-shadow: none;
-  border-color: first-color(valo-border($color: $v-app-background-color, $strength: 0.5));
-} */
-

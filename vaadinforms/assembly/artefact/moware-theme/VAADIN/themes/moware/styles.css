@@ -1672,7 +1672,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: 50%;
 	opacity: 1;
 	height: 3px;
-	background-color: #414b56;
+	background-color: #4b8df8;
 	pointer-events: none;
 	-webkit-transition: none;
 	-moz-transition: none;
@@ -1796,8 +1796,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware select:focus {
 	outline: none;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware button {
@@ -1808,7 +1808,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware a {
 	cursor: pointer;
-	color: #414b56;
+	color: #4b8df8;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -1817,7 +1817,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware a:hover {
-	color: #576473;
+	color: #7cacfa;
 }
 
 .moware a.v-disabled {
@@ -1982,9 +1982,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(65, 75, 86, 0.2);
-	border-top-color: #414b56;
-	border-right-color: #414b56;
+	border: 2px solid rgba(75, 141, 248, 0.2);
+	border-top-color: #4b8df8;
+	border-right-color: #4b8df8;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -2208,9 +2208,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button:focus:after {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-button:active:after {
@@ -2252,9 +2252,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-primary:focus:after {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border: inherit;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-button-primary:active:after {
@@ -2297,9 +2297,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-friendly:focus:after {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border: inherit;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-button-friendly:active:after {
@@ -2339,8 +2339,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-button-danger:focus:after {
 	border: inherit;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-button-danger:active:after {
@@ -2416,7 +2416,7 @@ div.v-layout.v-horizontal.v-widget {
 	background: transparent;
 	color: inherit;
 	cursor: pointer;
-	color: #414b56;
+	color: #4b8df8;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -2438,7 +2438,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-link:hover {
-	color: #576473;
+	color: #7cacfa;
 }
 
 .moware .v-button-link.v-disabled {
@@ -2608,11 +2608,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox > input:focus ~ label:before {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
 }
 
 :root .moware .v-checkbox > input ~ label:before, :root .moware .v-checkbox > input ~ label:after {
@@ -2738,11 +2738,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox-small > input:focus ~ label:before {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
 }
 
 :root .moware .v-checkbox-small > input ~ label:before, :root .moware .v-checkbox-small > input ~ label:after {
@@ -2868,11 +2868,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox-large > input:focus ~ label:before {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
 }
 
 :root .moware .v-checkbox-large > input ~ label:before, :root .moware .v-checkbox-large > input ~ label:after {
@@ -3025,11 +3025,11 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-filterselect [class*="input"][class*="prompt"] {
@@ -3370,11 +3370,11 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-filterselect-no-input [class$="button"] {
@@ -4198,11 +4198,11 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), none;
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), none;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), none;
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), none;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-textfield:focus, .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-textarea:focus, .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-filterselect input:focus, .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-datefield input:focus, .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-richtextarea:focus {
@@ -4933,9 +4933,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-editor {
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	border-color: #414b56;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	border-color: #4b8df8;
 }
 
 .moware .v-grid-editor-footer {
@@ -5029,7 +5029,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-grid-editor-save, .moware .v-grid-editor-cancel {
 	cursor: pointer;
-	color: #414b56;
+	color: #4b8df8;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -5045,7 +5045,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-editor-save:hover, .moware .v-grid-editor-cancel:hover {
-	color: #576473;
+	color: #7cacfa;
 }
 
 .moware .v-grid-editor-save.v-disabled, .moware .v-grid-editor-cancel.v-disabled {
@@ -5133,11 +5133,11 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-textfield[class*="prompt"] {
@@ -5603,11 +5603,11 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-textarea[class*="prompt"] {
@@ -5892,11 +5892,11 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), 0 1px 0 rgba(255, 255, 255, 0.1);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-datefield [class*="textfield"][class*="prompt"] {
@@ -6112,13 +6112,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-focused {
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 	position: relative;
 }
 
 .v-ie8 .moware .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-focused {
-	border-color: #414b56;
+	border-color: #4b8df8;
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-outside-range, .moware .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-outside-range:hover {
@@ -6170,7 +6170,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-popup td[class*="year"] button:hover:before, .moware .v-datefield-popup td[class*="month"] button:hover:before {
-	color: #414b56;
+	color: #4b8df8;
 }
 
 .moware .v-datefield-popup td[class*="year"] button.outside-range, .moware .v-datefield-popup td[class*="month"] button.outside-range {
@@ -6305,13 +6305,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-focused {
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 	position: relative;
 }
 
 .v-ie8 .moware .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-focused {
-	border-color: #414b56;
+	border-color: #4b8df8;
 }
 
 .moware .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-outside-range, .moware .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-outside-range:hover {
@@ -6363,7 +6363,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware td[class*="year"] button:hover:before, .moware td[class*="month"] button:hover:before {
-	color: #414b56;
+	color: #4b8df8;
 }
 
 .moware td[class*="year"] button.outside-range, .moware td[class*="month"] button.outside-range {
@@ -7000,13 +7000,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-focused {
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 	position: relative;
 }
 
 .v-ie8 .moware .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-focused {
-	border-color: #414b56;
+	border-color: #4b8df8;
 }
 
 .moware .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-outside-range, .moware .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-outside-range:hover {
@@ -7058,7 +7058,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware td[class*="year"] button:hover:before, .moware td[class*="month"] button:hover:before {
-	color: #414b56;
+	color: #4b8df8;
 }
 
 .moware td[class*="year"] button.outside-range, .moware td[class*="month"] button.outside-range {
@@ -7230,9 +7230,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-menubar:focus:after {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-menubar  > .v-menubar-menuitem {
@@ -7631,11 +7631,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-radiobutton > input:focus ~ label:before {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
 }
 
 :root .moware .v-radiobutton > input ~ label:before, :root .moware .v-radiobutton > input ~ label:after {
@@ -7794,11 +7794,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-small .v-checkbox > input:focus ~ label:before {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
 }
 
 :root .moware .v-select-optiongroup-small .v-checkbox > input ~ label:before, :root .moware .v-select-optiongroup-small .v-checkbox > input ~ label:after {
@@ -7923,11 +7923,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-small .v-radiobutton > input:focus ~ label:before {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
 }
 
 :root .moware .v-select-optiongroup-small .v-radiobutton > input ~ label:before, :root .moware .v-select-optiongroup-small .v-radiobutton > input ~ label:after {
@@ -8086,11 +8086,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-large .v-checkbox > input:focus ~ label:before {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
 }
 
 :root .moware .v-select-optiongroup-large .v-checkbox > input ~ label:before, :root .moware .v-select-optiongroup-large .v-checkbox > input ~ label:after {
@@ -8215,11 +8215,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-large .v-radiobutton > input:focus ~ label:before {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5), inset 0 1px 0 white;
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5), inset 0 1px 0 white;
 }
 
 :root .moware .v-select-optiongroup-large .v-radiobutton > input ~ label:before, :root .moware .v-select-optiongroup-large .v-radiobutton > input ~ label:after {
@@ -8361,7 +8361,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-link {
 	cursor: pointer;
-	color: #414b56;
+	color: #4b8df8;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -8370,7 +8370,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-link:hover {
-	color: #576473;
+	color: #7cacfa;
 }
 
 .moware .v-link.v-disabled {
@@ -8887,11 +8887,11 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-tree-node-focused:after {
 	opacity: 1;
-	border: 1px solid #414b56;
+	border: 1px solid #4b8df8;
 }
 
 .v-ie8 .moware .v-tree-node-focused {
-	outline: 1px dotted #414b56;
+	outline: 1px dotted #4b8df8;
 }
 
 .moware .v-tree-node-selected {
@@ -8927,10 +8927,10 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	height: 2px;
 	width: 100%;
-	background: #414b56;
+	background: #4b8df8;
 	font-size: 28px;
 	line-height: 2px;
-	color: #414b56;
+	color: #4b8df8;
 	text-indent: -4px;
 	text-shadow: 0 0 1px #f3f3f3, 0 0 1px #f3f3f3;
 	opacity: 1;
@@ -8942,14 +8942,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tree-node-caption-drag-center {
-	-webkit-box-shadow: 0 0 0 2px #414b56;
-	box-shadow: 0 0 0 2px #414b56;
+	-webkit-box-shadow: 0 0 0 2px #4b8df8;
+	box-shadow: 0 0 0 2px #4b8df8;
 	position: relative;
 	border-radius: 2px;
 }
 
 .v-ie8 .moware .v-tree-node-caption-drag-center {
-	outline: 2px solid #414b56;
+	outline: 2px solid #4b8df8;
 }
 
 .v-ff .moware .v-tree-node-drag-top:before, .v-ff .moware .v-tree-node-drag-bottom:after {
@@ -9169,7 +9169,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-focus {
-	outline: 1px solid #414b56;
+	outline: 1px solid #4b8df8;
 	outline-offset: -1px;
 }
 
@@ -9187,14 +9187,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-focus-slot-right {
-	border-right: 3px solid #414b56;
+	border-right: 3px solid #4b8df8;
 	right: -2px;
 	margin-left: -9px !important;
 }
 
 .moware .v-table-focus-slot-left {
 	float: left;
-	border-left: 3px solid #414b56;
+	border-left: 3px solid #4b8df8;
 	left: -1px;
 	right: auto;
 	margin-left: 0 !important;
@@ -9251,9 +9251,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-column-selector:focus:after {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-table-column-selector:active:after {
@@ -9345,13 +9345,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-drag .v-table-body {
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	border-color: #414b56;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	border-color: #4b8df8;
 }
 
 .v-ie8 .moware .v-table-drag .v-table-body {
-	border-color: #414b56;
+	border-color: #4b8df8;
 }
 
 .moware .v-table-drag .v-table-body .v-table-focus {
@@ -9359,12 +9359,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-row-drag-middle .v-table-cell-content {
-	background-color: #d3d5d7;
-	color: #3a3c3d;
+	background-color: #d5e2f8;
+	color: #23395e;
 }
 
 .moware .v-table-row-drag-bottom td.v-table-cell-content {
-	border-bottom: 2px solid #414b56;
+	border-bottom: 2px solid #4b8df8;
 	height: 16px;
 }
 
@@ -9373,7 +9373,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-row-drag-top td.v-table-cell-content {
-	border-top: 2px solid #414b56;
+	border-top: 2px solid #4b8df8;
 	height: 17px;
 }
 
@@ -9608,9 +9608,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before:focus:after {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before:active:after {
@@ -9665,9 +9665,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before:focus:after {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before:active:after {
@@ -9721,9 +9721,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before:focus:after {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before:active:after {
@@ -9792,9 +9792,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:before:focus:after {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:before:active:after {
@@ -9880,9 +9880,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(65, 75, 86, 0.2);
-	border-top-color: #414b56;
-	border-right-color: #414b56;
+	border: 2px solid rgba(75, 141, 248, 0.2);
+	border-top-color: #4b8df8;
+	border-right-color: #4b8df8;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -10023,9 +10023,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-slider-handle:before:focus:after {
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-slider-handle:before:active:after {
@@ -10034,9 +10034,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-slider-handle:after {
 	border: 1px solid #aaa;
-	border-color: #414b56;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	border-color: #4b8df8;
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 	opacity: 0;
 	-webkit-transition: opacity 200ms;
 	-moz-transition: opacity 200ms;
@@ -10367,9 +10367,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(65, 75, 86, 0.2);
-	border-top-color: #414b56;
-	border-right-color: #414b56;
+	border: 2px solid rgba(75, 141, 248, 0.2);
+	border-top-color: #4b8df8;
+	border-right-color: #4b8df8;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -10941,8 +10941,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-twincol select:focus {
 	outline: none;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-select-twincol .v-textfield, .moware .v-select-twincol .v-nativebutton {
@@ -11025,8 +11025,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select select:focus {
 	outline: none;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-select-select {
@@ -11133,7 +11133,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-bottom-spacer:hover {
-	color: #414b56;
+	color: #4b8df8;
 }
 
 .moware .v-calendar-day-number {
@@ -11147,17 +11147,17 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-day-number:hover {
-	color: #414b56;
+	color: #4b8df8;
 }
 
 .moware .v-calendar-month-day-today {
-	background: #eaeaeb;
+	background: #eaedf3;
 }
 
 .moware .v-calendar-month-day-today .v-calendar-day-number {
 	font-weight: 400;
-	color: #414b56;
-	border-top: 2px solid #414b56;
+	color: #4b8df8;
+	border-top: 2px solid #4b8df8;
 	line-height: 16px;
 	margin: 0;
 	padding: 0 3px;
@@ -11234,7 +11234,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-current-time {
-	background: #414b56;
+	background: #4b8df8;
 	line-height: 1px;
 	pointer-events: none;
 	opacity: 0.5;
@@ -11243,7 +11243,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-calendar-current-time:before {
 	content: "\2022";
-	color: #414b56;
+	color: #4b8df8;
 	font-size: 22px;
 	margin-left: -0.07em;
 }
@@ -11587,9 +11587,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(65, 75, 86, 0.2);
-	border-top-color: #414b56;
-	border-right-color: #414b56;
+	border: 2px solid rgba(75, 141, 248, 0.2);
+	border-top-color: #4b8df8;
+	border-right-color: #4b8df8;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -11653,7 +11653,7 @@ div.v-layout.v-horizontal.v-widget {
 	right: -1px;
 	bottom: -1px;
 	left: -1px;
-	border: 0 solid #414b56;
+	border: 0 solid #4b8df8;
 }
 
 .moware .v-ddwrapper-over-top:before {
@@ -11681,7 +11681,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 2px;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #99a5b2;
+	background: #a5c6fc;
 }
 
 .moware .no-vertical-drag-hints .v-ddwrapper-over-bottom:before, .moware .no-vertical-drag-hints.v-ddwrapper-over-bottom:before {
@@ -11693,7 +11693,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 2px;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #99a5b2;
+	background: #a5c6fc;
 }
 
 .moware .no-horizontal-drag-hints.v-ddwrapper-over-left:before, .moware .no-horizontal-drag-hints .v-ddwrapper-over-left:before {
@@ -11705,7 +11705,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 2px;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #99a5b2;
+	background: #a5c6fc;
 }
 
 .moware .no-horizontal-drag-hints.v-ddwrapper-over-right:before, .moware .no-horizontal-drag-hints .v-ddwrapper-over-right:before {
@@ -11717,7 +11717,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 2px;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #99a5b2;
+	background: #a5c6fc;
 }
 
 .moware .v-ddwrapper-over-middle:after, .moware .v-ddwrapper-over-center:after {
@@ -11725,7 +11725,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 2px;
 	opacity: 0.3;
 	filter: alpha(opacity=30.0) ;
-	background: #99a5b2;
+	background: #a5c6fc;
 }
 
 .moware .no-box-drag-hints.v-ddwrapper:after, .moware .no-box-drag-hints .v-ddwrapper:after {
@@ -11747,8 +11747,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select select:focus {
 	outline: none;
-	-webkit-box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
-	box-shadow: 0 0 0 2px rgba(65, 75, 86, 0.5);
+	-webkit-box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
+	box-shadow: 0 0 0 2px rgba(75, 141, 248, 0.5);
 }
 
 .moware .v-select-select {
@@ -11767,7 +11767,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-popupview {
 	cursor: pointer;
-	color: #414b56;
+	color: #4b8df8;
 	text-decoration: underline;
 	font-weight: inherit;
 	-webkit-transition: color 140ms;
@@ -11776,7 +11776,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-popupview:hover {
-	color: #576473;
+	color: #7cacfa;
 }
 
 .moware .v-popupview.v-disabled {
@@ -11832,9 +11832,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	border: 2px solid rgba(65, 75, 86, 0.2);
-	border-top-color: #414b56;
-	border-right-color: #414b56;
+	border: 2px solid rgba(75, 141, 248, 0.2);
+	border-top-color: #4b8df8;
+	border-right-color: #4b8df8;
 	border-radius: 100%;
 	-webkit-animation: v-rotate-360 500ms infinite linear;
 	-moz-animation: v-rotate-360 500ms infinite linear;
@@ -12114,7 +12114,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-Notification .v-Notification-caption {
-	color: #414b56;
+	color: #4b8df8;
 	font-size: 17px;
 	line-height: 1;
 }
@@ -13120,6 +13120,14 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-table-header-wrap {
 	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #B8B8B8 98%);
+}
+
+.moware .v-table-table td {
+	border-top: none !important;
+}
+
+.moware .v-table-cell-content {
+	border-left: 1px solid #dddddd !important;
 }
 
 .moware .mo-table .mo-linecounter {
