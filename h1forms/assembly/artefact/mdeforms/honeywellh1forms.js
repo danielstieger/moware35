@@ -1,8 +1,8 @@
 /*
  *	mde forms implementation
- *	daniel stieger, Spring 2016
+ *	daniel stieger, Summer 2016
  * 
- *	Motorola TC55 Edition 
+ *	Honeywell CT50 Edition 
  *
  *	modellwerkstatt.org
  *
@@ -10,65 +10,100 @@
 
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
-var GLOBAL_IS_EB_BROWSER = true;
+var defaultReader = null;
 
 /*
-   (1) ist das disableScan notwendig? Warum piepst es doppel?
-   (2) muessen wir die 200ms warten oder anderes event verwenden? Enable Scan funktioniert nicht immer? 
-   (3) Weshalb ist die rote Box bei Main-Menu zu kurz? 
-		  
-*/
+ *
+ *
+ *		  
+ */
 
 
-function isNoNetwork(){
-	if (GLOBAL_IS_EB_BROWSER && !EB.Network.hasNetwork()) {
- 		alert($('body').getAttribute('networkproblemstring'));
- 		return true;
- 	}
- 	 
-	return false;
+function onBarcodeReaderComplete (result){
+	
+	if (result.status === 0) {        
+    	// Configure the symbologies needed. Buffer the settings and commit them at once.
+        defaultReader.setBuffered("Symbology", "Code39", "Enable", "true", onSetBufferedComplete);
+        defaultReader.setBuffered("Symbology", "Code128", "EnableCode128", "true", onSetBufferedComplete);
+        defaultReader.commitBuffer(onCommitComplete);
+
+        // Add an event handler for the barcodedataready event
+        defaultReader.addEventListener("barcodedataready", onBarcodeDataReady, false);
+        
+                
+    } else {
+        defaultReader = null;
+    	alert('Failed to create BarcodeReader, ' + result.message);
+        
+    }
+
+// Verify the symbology configuration
+function onSetBufferedComplete (result) {
+	if (result.status !== 0) {
+    	alert("setBuffered failed, status: " + result.status + ", message: " + result.message);
+		alert("Family=" + result.family + " Key=" + result.key + " Option=" + result.option);
+    }
 }
- 	
 
 
-/* Scan stuff ******************************************************* */
-function disableScan(){
-	if ($('input[name="scanconclusion"]') != null) {
-		try {	
-			EB.Barcode.disable();
-			$('#scanSoftButton').disabled = true;
-			
-		} catch(err) {
-		} 
+function onCommitComplete (resultArray){
+	if (resultArray.length > 0) {
+    	for (var i = 0; i < resultArray.length; i++) {
+        	var result = resultArray[i];
+            if (result.status !== 0) {
+            	alert("CommitBuffer failed, status: " + result.status + ", message: " + result.message);
+                        
+                if(result.method === "getBuffered" || result.method === "setBuffered") {
+                	alert("Method=" + result.method + " Family=" + result.family + " Key=" + result.key + " Option=" + result.option);
+                }
+            }
+             
+                
+        } //endfor
 	}
 }
 
-function scanReceived(params){	
-	if(params['data']== "" || params['time']==""){	
-		return;	 
-	}  
+// Handle barcode data when available
+function onBarcodeDataReady (data, type, time) {	
 	
-	$('input[scanable="true"]').value = params['data'];
+	$('input[scanable="true"]').value = data;
 	
 	var conclusion = $('input[name="scanconclusion"]').value;
 
 	disableScan();
 	myfocusOnElement(null);
-	
-	// do not submit conclusion, if no notwork available
-	if (isNoNetwork()) { return; }
-	
+
 	var f = $('form');
 	f.NaviCrtl.value = conclusion;
 	//alert('SCAN CONCLUSION SUBMIT.');
 	f.submit();
-}  
+}
+
+
+
+/* Scan stuff ******************************************************* */
+function disableScan(){
+	if ($('input[name="scanconclusion"]') != null) {
+	
+		defaultReader.close(function(result) {
+        	if (result.status === 0) {
+            	console.log("BarcodeReader successfully closed.");
+            
+            } else {
+                alert("Error while closing BarcodeReader: status: " + result.status + ", message: " + result.message);
+        
+            }    
+        });	
+		
+		$('#scanSoftButton').disabled = true;	 
+	}
+}
 
 function enableScan(){
 	if ($('input[name="scanconclusion"]') != null) {
 		try {
-			EB.Barcode.enable({allDecoders:true, upcEanSupplemental5:true, upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO}, scanReceived);
-			$('#scanSoftButton').disabled = false;
+			defaultReader = new BarcodeReader(null, onBarcodeReaderComplete);
+			/* $('#scanSoftButton').disabled = false; */
 			
 			/* alert('Scan enabled: ok!'); */ 
 		} catch(err) {
@@ -132,28 +167,12 @@ function SaveSubmit(valstr){
 
 /* Hotkey stuff ******************************************************* */
 function internVibrate(t) {
-	if (! GLOBAL_IS_EB_BROWSER) {
-		return;
-	}
-
-	try {
-		EB.Notification.vibrate(t);
-	} catch(err) {
-	}
 }
 
 function flagBeep(t) {
-  /* alert("BEEP"); */
-  try {
-	EB.Notification.beep({frequency :1200, volume :5.0, duration: t});
-	EB.Notification.vibrate(t);
-	
-  } catch(err) {
-  }
 }
 
 function nextEnabledOrDefaultButton(currentIndex) {
-	// console.log('nextEnabledOrDefaultButton(' + currentIndex + ')');
 
 	var elemEditorIndex = parseInt(currentIndex) + 1;
 	var elem = $('*[editorIndex="' + elemEditorIndex + '"]');
@@ -193,49 +212,6 @@ function nextEnabledOrDefaultButton(currentIndex) {
 	  }
 	}
 }
-
-function capturekeyCallback(params){
-  var key = params['keyValue'];
-  // alert('HOTEKY=' + key + ' / ' + new Date().getMilliseconds());
-  
-  if (key == '4') {
-    SaveSubmit($('#cancelbutton').getAttribute('navicrtl'));
-
-  } else if (key == '38') {
-	SaveSubmit($('#cancelbutton').getAttribute('navicrtl'));
-	
-  } else if (key == '40') {
-	SaveSubmit($('#R_button').getAttribute('navicrtl'));
-	
-  } else if (key == '13') {
-	/* enter so what? Change focus ? */
-	var elem = document.activeElement;
-	var elemtype = elem.tagName.toLowerCase();
-	var elemEditorIndex = -1;
-	
-	/* check if we are on a button, simply exec conclusion 
-	 *	of related button 
-	 */
-	if ("button" == elemtype) {
-		var selectionid = elem.getAttribute('selectionid');
-		if (selectionid == null) {
-			SaveSubmit(elem.getAttribute('navicrtl'));
-		} else {
-			SelectAndExec(selectionid, elem.getAttribute('navicrtl'));
-		}
-	
-	} else {
-	
-		if ("input" == elemtype || "select" == elemtype) {
-			elemEditorIndex = elem.getAttribute('editorindex');
-		}
-	
-		/* alert('ElemEditorIndex is ' + elemEditorIndex + ' type is ' + elemtype); */
-		nextEnabledOrDefaultButton(elemEditorIndex);
-	}
-  }	 
-}
-
 
 
 function mykeyboardKeypress(key){
@@ -305,6 +281,7 @@ function myfocusOnElement(elem) {
 /* On Load Stuff ------------------------------------------------------------- */
 
 document.addEventListener('DOMContentLoaded', function() {
+    
 	/* backbutton browser handler - last resort 
 	 * per default, backbutton should be handled by key capture
 	 */
@@ -314,31 +291,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	} else {
 	   SaveSubmit('conclusion_0');
 	}
-  
-  
-    /* setup enterprise browser stuff */
-	try {	
-		/* 
-		* Old, windowsCE keys *
-		EB.KeyCapture.captureKey(false, '0x0D', capturekeyCallback);
-		EB.KeyCapture.captureKey(false, '0x26', capturekeyCallback);
-		EB.KeyCapture.captureKey(false, '0x28', capturekeyCallback); */
-		
-		/* back button on android tc55 */
-		EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
-			
-		/* enable scan and register it for power on */
-		wake.wakeLock = 'enabled';
-		powerOn.powerOnEvent = "url('JavaScript:enableScan();')";	
-	
-	} catch(err) {
-	    // TODO: change and replace that with browser detection
-	    // used to issues with hasNetwork() 
-		GLOBAL_IS_EB_BROWSER = false;
-		console.log('UUUUUPPPPSSS: ' + err.message);
-	
-	}
-	
+  	
 	/* var myInputs = $$('input[jumpable], select[jumpable]');
 	var editorIndex = 0;
 	for (i = 0; i < myInputs.length; ++i) {

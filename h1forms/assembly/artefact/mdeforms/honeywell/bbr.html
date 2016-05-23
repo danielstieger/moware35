@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--
+Title: Basic BarcodeReader API Sample
+Purpose: Walk through of the basic steps needed to use this API
+Description:
+        1. Create a BarcodeReader object with a completion callback function
+           (onBarcodeReaderComplete in this sample).
+        2. In the onBarcodeReaderComplete function, check for the status.
+        3. If the BarcodeReader object is successfully created, set symbology
+           settings add a listener for the barcodedataready event.
+        4. Implement the "barcodedataready" event listener.
+        5. You may read barcodes until the BarcodeReader object is closed.
+Notes:
+    It is recommended that you close the BarcodeReader object before closing
+    the web page. This sample has logic to detect web page visibility which
+    is subject to browser support. It attempts to close the BarcodeReader
+    when the web page becomes hidden and create a new BarcodeReader object
+    when the web page becomes visible. Some platforms only allow one
+    application to access the barcode reader. The intention is to re-claim
+    the reader in case another application has claimed it while the web page
+    is hidden.
+ -->
+
+<html>
+    <head>
+        <title>Basic BarcodeReader API Sample</title>
+        <style>
+        input[type="button"] {
+            /* top right bottom left */
+            margin: 5px 25px 15px 0px;
+        }
+        input[type="text"] {
+            margin: 5px 10px;
+        }
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="BarcodeReader.js"></script>
+        <script type="text/javascript">
+        var defaultReader, readerAutoClosed = false;
+        var logMsgElement, openButton, closeButton;
+        var barcodeDataText, symbTypeText, readTimeText;
+        var hidden, visibilityChange;
+
+        function setup ()
+        {
+            openButton = document.getElementById("openButton");
+            closeButton = document.getElementById("closeButton");
+            logMsgElement = document.getElementById("logMsg");
+            barcodeDataText = document.getElementById("BarcodeData");
+            symbTypeText = document.getElementById("SymbType");
+            readTimeText = document.getElementById("ReadTime");
+
+            // Check whether the browser supports detection of the web page visibility.
+            if (typeof document.webkitHidden !== "undefined") { // Android 4.4 Chrome
+              hidden = "webkitHidden";
+              visibilityChange = "webkitvisibilitychange";
+            }
+            else if (typeof document.hidden !== "undefined") { // Standard HTML5 attribute
+              hidden = "hidden";
+              visibilityChange = "visibilitychange";
+            }
+
+            if (hidden && typeof document.addEventListener !== "undefined" &&
+                typeof document[hidden] !== "undefined")
+            {
+                // Add an event listener for the visibility change of the web page.
+                document.addEventListener(visibilityChange, handleVisibilityChange, false);
+            }
+        }
+
+        // After BarcodeReader object is created we can configure our symbologies and add our event listener
+        function onBarcodeReaderComplete ( result )
+        {
+            if (result.status === 0)
+            {
+                // BarcodeReader object was successfully created
+                logMsgElement.innerHTML = "<b>Log:</b><br>BarcodeReader object successfully created";
+                updateUI(true, true);
+
+                // Configure the symbologies needed. Buffer the settings and commit them at once.
+                defaultReader.setBuffered("Symbology", "Code39", "Enable", "true", onSetBufferedComplete);
+                defaultReader.setBuffered("Symbology", "Code128", "EnableCode128", "true", onSetBufferedComplete);
+                defaultReader.commitBuffer(onCommitComplete);
+
+                // Add an event handler for the barcodedataready event
+                defaultReader.addEventListener("barcodedataready", onBarcodeDataReady, false);
+                
+                / Add an event handler for the window's beforeunload event
+                window.addEventListener("beforeunload", onBeforeUnload);
+            }
+            else
+            {
+                defaultReader = null;
+                logMsgElement.innerHTML += "<p style=\"color:red\">Failed to create BarcodeReader, status: " +
+                    result.status + ", message: " + result.message + "</p>";
+                alert('Failed to create BarcodeReader, ' + result.message);
+            }
+        }
+
+        // Verify the symbology configuration
+        function onSetBufferedComplete ( result )
+        {
+            if (result.status !== 0)
+            {
+                logMsgElement.innerHTML += "<p style=\"color:red\">setBuffered failed, status: " +
+                    result.status + ", message: " + result.message + "</p>";
+                logMsgElement.innerHTML += "<p>Family=" + result.family + " Key=" + result.key +
+                    " Option=" + result.option + "</p>";
+            }
+        }
+
+        function onCommitComplete ( resultArray )
+        {
+            if (resultArray.length > 0)
+            {
+                for (var i = 0; i < resultArray.length; i++)
+                {
+                    var result = resultArray[i];
+                    if (result.status !== 0)
+                    {
+                        logMsgElement.innerHTML += "<p style=\"color:red\">commitBuffer failed, status: " +
+                            result.status + ", message: " + result.message + "</p>";
+                        if(result.method === "getBuffered" || result.method === "setBuffered")
+                        {
+                            logMsgElement.innerHTML += "<p>Method=" + result.method +
+                                " Family=" + result.family + " Key=" + result.key +
+                                " Option=" + result.option + "</p>";
+                        }
+                    }
+                } //endfor
+            }
+        }
+
+        // Handle barcode data when available
+        function onBarcodeDataReady (data, type, time)
+        {
+            barcodeDataText.value = data;
+            symbTypeText.value = type;
+            readTimeText.value = time;
+        }
+
+        function updateUI (readerOpened, clearData)
+        {
+            openButton.disabled = readerOpened;
+            closeButton.disabled = !readerOpened;
+            if (clearData)
+            {
+                barcodeDataText.value = "";
+                symbTypeText.value = "";
+                readTimeText.value = "";
+            }
+        }
+
+        /**
+         * If the browser supports visibility change event, we can close the
+         * BarcodeReader object when the web page is hidden and create a new
+         * instance of the BarcodeReader object when the page is visible. This
+         * logic is used to re-claim the barcode reader in case another
+         * application has claimed it when this page becomes hidden.
+         */
+        function handleVisibilityChange()
+        {
+            if (document[hidden]) // The web page is hidden
+            {
+                closeBarcodeReader(true);
+            }
+            else // The web page is visible
+            {
+                if (readerAutoClosed)
+                {
+                    // Note: If you switch to another tab and quickly switch back
+                    // to the current tab, the following call may have no effect
+                    // because the BarcodeReader may not be completely closed yet.
+                    // Once the BarcodeReader is closed, you may use the Open Reader
+                    // button to create a new BarcodeReader object.
+                    openBarcodeReader();
+                }
+            }
+        }
+
+        function openBarcodeReader()
+        {
+            if (!defaultReader)
+            {
+                defaultReader = new BarcodeReader(null, onBarcodeReaderComplete);
+            }
+        }
+
+        function closeBarcodeReader(isAutoClose)
+        {
+            if (defaultReader)
+            {
+                readerAutoClosed = isAutoClose;
+                defaultReader.close(function(result) {
+                    if (result.status === 0)
+                    {
+                        logMsgElement.innerHTML += "<p style=\"color:blue\">BarcodeReader successfully closed.</p>";
+                        defaultReader = null;
+                        updateUI(false, false);
+                        window.removeEventListener("beforeunload", onBeforeUnload);
+                    }
+                    else
+                    {
+                        logMsgElement.innerHTML += "<p style=\"color:red\">Failed to close BarcodeReader, status: " +
+                            result.status + ", message: " + result.message + "</p>";
+                    }
+                });
+            }
+        }
+
+        function openButtonClicked()
+        {
+            openBarcodeReader();
+        }
+
+        function closeButtonClicked()
+        {
+            closeBarcodeReader(false);
+        }
+
+        function onBeforeUnload (e)
+        {
+            var message = "Please close BarcodeReader before leaving this page.";
+            (e || window.event).returnValue = message;
+            return message;
+        }
+        </script>
+    </head>
+    <body onload="setup();">
+        <h3>Basic BarcodeReader API Sample</h3>
+        <input type="button" value="Open Reader" id="openButton" onclick="openButtonClicked()">
+        <input type="button" value="Close Reader" id="closeButton" onclick="closeButtonClicked()" disabled>
+        <br>
+        <div>
+            <b>Barcode Data Read</b><br>
+            <label for="BarcodeData">Data:</label><input type="text" id="BarcodeData" size=20/><br>
+            <label for="SymbType">Symbology:</label><input type="text" id="SymbType" size=16/><br>
+            <label for="ReadTime">Time:</label><input type="text" id="ReadTime" size=24/><br>
+        </div>
+        <br>
+        <div id="logMsg">
+            <b>Log:</b>
+        </div>
+    </body>
+</html>

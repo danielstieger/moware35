@@ -10,7 +10,7 @@
 
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
-var GLOBAL_IS_EB_BROWSER = true;
+
 
 /*
    (1) ist das disableScan notwendig? Warum piepst es doppel?
@@ -21,7 +21,7 @@ var GLOBAL_IS_EB_BROWSER = true;
 
 
 function isNoNetwork(){
-	if (GLOBAL_IS_EB_BROWSER && !EB.Network.hasNetwork()) {
+	if (!EB.Network.hasNetwork()) {
  		alert($('body').getAttribute('networkproblemstring'));
  		return true;
  	}
@@ -132,10 +132,6 @@ function SaveSubmit(valstr){
 
 /* Hotkey stuff ******************************************************* */
 function internVibrate(t) {
-	if (! GLOBAL_IS_EB_BROWSER) {
-		return;
-	}
-
 	try {
 		EB.Notification.vibrate(t);
 	} catch(err) {
@@ -334,7 +330,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	} catch(err) {
 	    // TODO: change and replace that with browser detection
 	    // used to issues with hasNetwork() 
-		GLOBAL_IS_EB_BROWSER = false;
 		console.log('UUUUUPPPPSSS: ' + err.message);
 	
 	}

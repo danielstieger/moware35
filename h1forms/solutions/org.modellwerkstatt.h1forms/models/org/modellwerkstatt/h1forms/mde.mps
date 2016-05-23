@@ -1892,6 +1892,29 @@
               </node>
             </node>
             <node concept="3clFbS" id="4Rlyz3E8S4L" role="3eOfB_">
+              <node concept="3clFbF" id="3Sgll4LNHj6" role="3cqZAp">
+                <node concept="2OqwBi" id="3Sgll4LNHj7" role="3clFbG">
+                  <node concept="37vLTw" id="3Sgll4LNHj8" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+                  </node>
+                  <node concept="liA8E" id="3Sgll4LNHj9" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                    <node concept="3cpWs3" id="3Sgll4LNHja" role="37wK5m">
+                      <node concept="Xl_RD" id="3Sgll4LNHjb" role="3uHU7w">
+                        <property role="Xl_RC" value="/static/honeywell/BarcodeReader.js\&quot;&gt;&lt;/script&gt;\n" />
+                      </node>
+                      <node concept="3cpWs3" id="3Sgll4LNHjc" role="3uHU7B">
+                        <node concept="Xl_RD" id="3Sgll4LNHjd" role="3uHU7B">
+                          <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                        </node>
+                        <node concept="37vLTw" id="3Sgll4LNHje" role="3uHU7w">
+                          <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="4Rlyz3E8VVf" role="3cqZAp">
                 <node concept="2OqwBi" id="4Rlyz3E8VVg" role="3clFbG">
                   <node concept="37vLTw" id="4Rlyz3E8VVh" role="2Oq$k0">
@@ -1915,7 +1938,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="4Rlyz3E8UcL" role="3cqZAp" />
+              <node concept="3clFbH" id="3Sgll4LN$WA" role="3cqZAp" />
             </node>
           </node>
           <node concept="9aQIb" id="4Rlyz3E8TYo" role="9aQIa">
@@ -6807,6 +6830,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="7_EVKO09b2o" role="3cqZAp" />
             </node>
           </node>
         </node>

@@ -347,7 +347,7 @@
       <node concept="17QB3L" id="4QTIUTCpC24" role="1tU5fm" />
       <node concept="3Tm6S6" id="4QTIUTCpBjC" role="1B3o_S" />
       <node concept="Xl_RD" id="4QTIUTCpC73" role="33vP2m">
-        <property role="Xl_RC" value="/Users/danielstieger/h1forms.txt" />
+        <property role="Xl_RC" value="/Users/danielstieger/h1hardlog.txt" />
       </node>
     </node>
     <node concept="Wx3nA" id="Gy0DA$Zk4e" role="jymVt">
@@ -366,8 +366,8 @@
       <property role="3TUv4t" value="true" />
       <node concept="10P_77" id="c79$i9kZqQ" role="1tU5fm" />
       <node concept="3Tm6S6" id="c79$i9kZqR" role="1B3o_S" />
-      <node concept="3clFbT" id="BZv1I7j2$e" role="33vP2m">
-        <property role="3clFbU" value="false" />
+      <node concept="3clFbT" id="3Sgll4LMfB6" role="33vP2m">
+        <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="2tJIrI" id="6TYnK1bNDFW" role="jymVt" />
@@ -2659,7 +2659,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="4Rlyz3E7fUI" role="3cqZAp" />
-        <node concept="u8gfJ" id="c79$i9ll$t" role="3cqZAp">
+        <node concept="u8gfJ" id="3Sgll4LN1FT" role="3cqZAp">
           <node concept="3cpWs8" id="4Rlyz3E4a2G" role="u8lrQ">
             <node concept="3cpWsn" id="4Rlyz3E4a2F" role="3cpWs9">
               <property role="3TUv4t" value="false" />
@@ -2800,7 +2800,51 @@
             <property role="3SKdUp" value="Zebra Enterprise Browser? " />
           </node>
         </node>
+        <node concept="3cpWs8" id="3Sgll4LMSoI" role="3cqZAp">
+          <node concept="3cpWsn" id="3Sgll4LMSoL" role="3cpWs9">
+            <property role="TrG5h" value="requestedWith" />
+            <node concept="17QB3L" id="3Sgll4LMSoG" role="1tU5fm" />
+            <node concept="2OqwBi" id="3Sgll4LMUy1" role="33vP2m">
+              <node concept="37vLTw" id="3Sgll4LMUy2" role="2Oq$k0">
+                <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
+              </node>
+              <node concept="liA8E" id="3Sgll4LMUy3" role="2OqNvi">
+                <ref role="37wK5l" to="vksr:~HttpServletRequest.getHeader(java.lang.String):java.lang.String" resolve="getHeader" />
+                <node concept="Xl_RD" id="3Sgll4LMUy4" role="37wK5m">
+                  <property role="Xl_RC" value="x-requested-with" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="4Rlyz3E5SmV" role="3cqZAp">
+          <node concept="3eNFk2" id="3Sgll4LMNrp" role="3eNLev">
+            <node concept="2OqwBi" id="3Sgll4LMPCq" role="3eO9$A">
+              <node concept="Xl_RD" id="3Sgll4LMOyF" role="2Oq$k0">
+                <property role="Xl_RC" value="com.honeywell.enterprisebrowser" />
+              </node>
+              <node concept="liA8E" id="3Sgll4LMPSI" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="37vLTw" id="3Sgll4LMXx5" role="37wK5m">
+                  <ref role="3cqZAo" node="3Sgll4LMSoL" resolve="requestedWith" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="3Sgll4LMNrr" role="3eOfB_">
+              <node concept="3clFbF" id="3Sgll4LMYxl" role="3cqZAp">
+                <node concept="37vLTI" id="3Sgll4LMY_z" role="3clFbG">
+                  <node concept="Rm8GO" id="3Sgll4LN0Ew" role="37vLTx">
+                    <ref role="Rm8GQ" node="4Rlyz3E5v_q" resolve="HONEYWELL_EB" />
+                    <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H1ApplicationLoader.HttpClient" />
+                  </node>
+                  <node concept="37vLTw" id="3Sgll4LMYxj" role="37vLTJ">
+                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="detectedClient" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="3Sgll4LMYvE" role="3cqZAp" />
+            </node>
+          </node>
           <node concept="3clFbS" id="4Rlyz3E5SmX" role="3clFbx">
             <node concept="3clFbF" id="4Rlyz3E777z" role="3cqZAp">
               <node concept="37vLTI" id="4Rlyz3E788Q" role="3clFbG">
@@ -2813,20 +2857,13 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="3Sgll4LLbjM" role="3cqZAp" />
           </node>
           <node concept="2OqwBi" id="4Rlyz3E6qUf" role="3clFbw">
             <node concept="liA8E" id="4Rlyz3E6s5t" role="2OqNvi">
               <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
-              <node concept="2OqwBi" id="4Rlyz3E63XO" role="37wK5m">
-                <node concept="37vLTw" id="4Rlyz3E636D" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
-                </node>
-                <node concept="liA8E" id="4Rlyz3E66fS" role="2OqNvi">
-                  <ref role="37wK5l" to="vksr:~HttpServletRequest.getHeader(java.lang.String):java.lang.String" resolve="getHeader" />
-                  <node concept="Xl_RD" id="4Rlyz3E5Yi7" role="37wK5m">
-                    <property role="Xl_RC" value="x-requested-with" />
-                  </node>
-                </node>
+              <node concept="37vLTw" id="3Sgll4LMWwU" role="37wK5m">
+                <ref role="3cqZAo" node="3Sgll4LMSoL" resolve="requestedWith" />
               </node>
             </node>
             <node concept="Xl_RD" id="4Rlyz3E6s7y" role="2Oq$k0">
@@ -2846,6 +2883,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="3Sgll4LLchG" role="3cqZAp" />
             </node>
             <node concept="22lmx$" id="4Rlyz3E7Bl2" role="3eO9$A">
               <node concept="2OqwBi" id="4Rlyz3E7CDe" role="3uHU7w">
@@ -2881,6 +2919,33 @@
                       <property role="Xl_RC" value="TC70" />
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eNFk2" id="3Sgll4LMu4Y" role="3eNLev">
+            <node concept="3clFbS" id="3Sgll4LMu50" role="3eOfB_">
+              <node concept="3clFbF" id="3Sgll4LM_EW" role="3cqZAp">
+                <node concept="37vLTI" id="3Sgll4LMA4u" role="3clFbG">
+                  <node concept="Rm8GO" id="3Sgll4LMC9q" role="37vLTx">
+                    <ref role="Rm8GQ" node="4Rlyz3E5v_q" resolve="HONEYWELL_EB" />
+                    <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H1ApplicationLoader.HttpClient" />
+                  </node>
+                  <node concept="37vLTw" id="3Sgll4LM_EV" role="37vLTJ">
+                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="detectedClient" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="3Sgll4LMD9v" role="3cqZAp" />
+            </node>
+            <node concept="2OqwBi" id="3Sgll4LMyEW" role="3eO9$A">
+              <node concept="37vLTw" id="3Sgll4LMyEX" role="2Oq$k0">
+                <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
+              </node>
+              <node concept="liA8E" id="3Sgll4LMyEY" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <node concept="Xl_RD" id="3Sgll4LMyEZ" role="37wK5m">
+                  <property role="Xl_RC" value="CT50" />
                 </node>
               </node>
             </node>
