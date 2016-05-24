@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+  id="WebApp_ID" version="3.0"
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+
+  <description>
+     moware VaadinForms textbox application APPLICATION_FQNAME - APPLICATION_BUILDVERSION
+  </description>
+  <display-name>APPLICATION_FQNAME - APPLICATION_BUILDVERSION</display-name>
+
+
+  <context-param>
+    <!-- in productiopn mode, on the fly sass compile will 
+         not be available.... -->
+    
+  	<param-name>productionMode</param-name>
+  	<param-value>false</param-value>
+  	<description>Vaadin production mode</description>
+  </context-param>
+
+  <context-param>
+    <!-- Server will close Session after 3 missed heartbeats. heartbeat
+         interval is in secs. HOWEVER, heartbeat is solely checked when
+         doing request (multiple UI per session etc.). Thus, when closing
+         the browser window we won t run in a hearbeat missing detach :/
+         If needed, that behaviour has to be implemented manually... 
+        -->
+	<param-name>heartbeatInterval</param-name>
+  	<param-value>30</param-value>
+  </context-param>
+
+  <context-param> 
+      <!-- non-heartbeat request (true UI interaction) is 
+           used as last session interaction. Thus, when 
+           user is not doing anything for sesstion-time
+           out we close the session -->
+           
+    <param-name>closeIdleSessions</param-name>
+    <param-value>true</param-value>
+  </context-param>
+	
+
+  <session-config>
+        <!-- When user is not doing anything for sesstion-timeout min.
+             we close the session. VaadinForms handles those timeouts in 
+             VApplicationLoader, not here. -->
+    <session-timeout>30</session-timeout>
+  </session-config>
+
+  <servlet>
+    <servlet-name>loaderservlet</servlet-name>
+    <servlet-class>
+        org.modellwerkstatt.vaadinforms.testbox.VTestappLoader
+    </servlet-class>
+
+    <init-param>
+      <param-name>UI</param-name>
+      <param-value>org.modellwerkstatt.vaadinforms.testbox.VTestUI</param-value>
+    </init-param>
+ 
+    <init-param>
+        <param-name>applicationFqName</param-name>
+    	<param-value>APPLICATION_FQNAME</param-value>
+    </init-param>
+    
+    <!-- DO NOT Enable server push
+    <init-param>
+      <param-name>pushmode</param-name>
+      <param-value>automatic</param-value>
+    </init-param>
+    <async-supported>true</async-supported> -->
+    
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>loaderservlet</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+</web-app>
