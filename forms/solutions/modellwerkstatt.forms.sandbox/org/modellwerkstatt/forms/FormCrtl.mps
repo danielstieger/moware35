@@ -14586,7 +14586,7 @@
           <property role="Xl_RC" value="Beenden (ALT-F4)" />
         </node>
         <node concept="Xl_RD" id="4Zj1V_wFQtN" role="37wK5m">
-          <property role="Xl_RC" value="" />
+          <property role="Xl_RC" value="Beenden" />
         </node>
         <node concept="Xl_RD" id="4Rlyz3EmQHc" role="37wK5m">
           <property role="Xl_RC" value="" />
@@ -15155,7 +15155,7 @@
         <property role="TrG5h" value="APPLICATION_RUNNING_IN_BROWSER" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
         <node concept="Xl_RD" id="7S_QNZ7slv0" role="37wK5m">
-          <property role="Xl_RC" value="Die Applikation wird in einem anderen Browser-Tab bereits ausgeführt oder Sie haben\n \nsich mit der Applikation nicht abgemeldet (Menu 'START' - 'BEENDEN'). (clicken Sie\n \nauf diese Meldung, um zu bestätigen)" />
+          <property role="Xl_RC" value="Die Applikation wird in einem anderen Browser-Tab bereits ausgeführt oder Sie haben sich mit der Applikation nicht abgemeldet (Menu 'START' - 'BEENDEN'). (clicken Sie auf diese Meldung, um zu bestätigen)" />
         </node>
         <node concept="Xl_RD" id="6OyHsl_0SvT" role="37wK5m">
           <property role="Xl_RC" value="" />
@@ -35313,6 +35313,21 @@
       </node>
       <node concept="3Tm1VV" id="5Y1b9tRd2lA" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tRd2lB" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="2rVYvNSe4d8" role="jymVt" />
+    <node concept="3clFb_" id="2rVYvNSe3xN" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="gcClear" />
+      <node concept="3cqZAl" id="2rVYvNSe3xP" role="3clF45" />
+      <node concept="3Tm1VV" id="2rVYvNSe3xQ" role="1B3o_S" />
+      <node concept="3clFbS" id="2rVYvNSe3xR" role="3clF47" />
+      <node concept="P$JXv" id="2rVYvNShbGl" role="lGtFl">
+        <node concept="TZ5HA" id="2rVYvNShbGm" role="TZ5H$">
+          <node concept="1dT_AC" id="2rVYvNShbGn" role="1dT_Ay">
+            <property role="1dT_AB" value="Called by map_DelegateForm" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="5Y1b9tR20Js" role="1B3o_S" />
   </node>
