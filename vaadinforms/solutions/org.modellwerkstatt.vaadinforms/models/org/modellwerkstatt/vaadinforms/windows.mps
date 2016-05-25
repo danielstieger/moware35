@@ -669,7 +669,19 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6OyHsl_0zSl" role="3cqZAp" />
+        <node concept="3SKdUt" id="B01fqRQerP" role="3cqZAp">
+          <node concept="3SKWN0" id="B01fqRQerQ" role="3SKWNk">
+            <node concept="3clFbF" id="B01fqRQ2El" role="3SKWNf">
+              <node concept="1rXfSq" id="B01fqRQ2Ej" role="3clFbG">
+                <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+                <node concept="10M0yZ" id="B01fqRQ3Vy" role="37wK5m">
+                  <ref role="1PxDUh" to="xgxa:~ValoTheme" resolve="ValoTheme" />
+                  <ref role="3cqZAo" to="xgxa:~ValoTheme.UI_WITH_MENU" resolve="UI_WITH_MENU" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="7S_QNZ7twZW" role="3cqZAp" />
         <node concept="u8gfJ" id="flhRSw5jPh" role="3cqZAp">
           <node concept="3cpWs8" id="4Rlyz3E4a2G" role="u8lrQ">

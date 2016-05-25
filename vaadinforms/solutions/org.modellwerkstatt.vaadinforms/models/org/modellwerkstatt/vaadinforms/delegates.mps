@@ -3325,54 +3325,6 @@
                         </node>
                       </node>
                       <node concept="3clFbH" id="2rVYvNSokNd" role="3cqZAp" />
-                      <node concept="3SKdUt" id="2rVYvNSol65" role="3cqZAp">
-                        <node concept="3SKWN0" id="2rVYvNSol66" role="3SKWNk">
-                          <node concept="3clFbF" id="2rVYvNSnk5u" role="3SKWNf">
-                            <node concept="2OqwBi" id="2rVYvNSnkBH" role="3clFbG">
-                              <node concept="2YIFZM" id="2rVYvNSnkpf" role="2Oq$k0">
-                                <ref role="37wK5l" to="o2tm:~UI.getCurrent():com.vaadin.ui.UI" resolve="getCurrent" />
-                                <ref role="1Pybhc" to="o2tm:~UI" resolve="UI" />
-                              </node>
-                              <node concept="liA8E" id="2rVYvNSnmah" role="2OqNvi">
-                                <ref role="37wK5l" to="o2tm:~UI.access(java.lang.Runnable):java.util.concurrent.Future" resolve="access" />
-                                <node concept="2ShNRf" id="2rVYvNSnmdN" role="37wK5m">
-                                  <node concept="YeOm9" id="2rVYvNSnmG_" role="2ShVmc">
-                                    <node concept="1Y3b0j" id="2rVYvNSnmGC" role="YeSDq">
-                                      <property role="2bfB8j" value="true" />
-                                      <ref role="1Y3XeK" to="e2lb:~Runnable" resolve="Runnable" />
-                                      <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
-                                      <node concept="3Tm1VV" id="2rVYvNSnmGD" role="1B3o_S" />
-                                      <node concept="3clFb_" id="2rVYvNSnmGE" role="jymVt">
-                                        <property role="1EzhhJ" value="false" />
-                                        <property role="TrG5h" value="run" />
-                                        <property role="DiZV1" value="false" />
-                                        <property role="IEkAT" value="false" />
-                                        <node concept="3Tm1VV" id="2rVYvNSnmGF" role="1B3o_S" />
-                                        <node concept="3cqZAl" id="2rVYvNSnmGH" role="3clF45" />
-                                        <node concept="3clFbS" id="2rVYvNSnmGI" role="3clF47">
-                                          <node concept="3clFbF" id="2rVYvNSa__q" role="3cqZAp">
-                                            <node concept="2OqwBi" id="2rVYvNSa_MQ" role="3clFbG">
-                                              <node concept="37vLTw" id="2rVYvNSa__o" role="2Oq$k0">
-                                                <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
-                                              </node>
-                                              <node concept="liA8E" id="2rVYvNSaC2D" role="2OqNvi">
-                                                <ref role="37wK5l" to="o2tm:~AbstractSelect.setValue(java.lang.Object):void" resolve="setValue" />
-                                                <node concept="Xl_RD" id="2rVYvNSoc8K" role="37wK5m">
-                                                  <property role="Xl_RC" value="" />
-                                                </node>
-                                              </node>
-                                            </node>
-                                          </node>
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
                     </node>
                   </node>
                   <node concept="Xl_RD" id="2rVYvNS9HhY" role="37wK5m">
