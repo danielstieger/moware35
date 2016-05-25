@@ -3,6 +3,10 @@
 @mixin moware {
   @include valo;
    	 
+   	.mo-sidebar {
+   		background-color: #414B56;
+   	}
+   	 
 	.mo-small-mrg.v-margin-left   {padding-left:   10px;}
 	.mo-small-mrg.v-margin-right  {padding-right:  10px;}
 	.mo-small-mrg.v-margin-top    {padding-top:    10px;}

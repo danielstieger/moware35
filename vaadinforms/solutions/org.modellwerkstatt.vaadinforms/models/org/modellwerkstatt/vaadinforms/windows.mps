@@ -2878,7 +2878,7 @@
       <node concept="3Tm1VV" id="41UdyNBynKv" role="1B3o_S" />
       <node concept="3clFbS" id="41UdyNBynKw" role="3clF47">
         <node concept="XkiVB" id="41UdyNBz2mU" role="3cqZAp">
-          <ref role="37wK5l" to="o2tm:~VerticalLayout.&lt;init&gt;()" resolve="VerticalLayout" />
+          <ref role="37wK5l" to="o2tm:~HorizontalLayout.&lt;init&gt;()" resolve="HorizontalLayout" />
         </node>
         <node concept="3clFbF" id="6go2MrsuYYn" role="3cqZAp">
           <node concept="37vLTI" id="6go2Mrsv060" role="3clFbG">
@@ -2896,6 +2896,36 @@
           </node>
         </node>
         <node concept="3clFbH" id="41UdyNBz6M1" role="3cqZAp" />
+        <node concept="3SKdUt" id="41UdyNByFQv" role="3cqZAp">
+          <node concept="3SKdUq" id="41UdyNByG35" role="3SKWNk">
+            <property role="3SKdUp" value=" - content" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="41UdyNByqGR" role="3cqZAp">
+          <node concept="3cpWsn" id="41UdyNByqGS" role="3cpWs9">
+            <property role="TrG5h" value="vl" />
+            <node concept="3uibUv" id="41UdyNByqGT" role="1tU5fm">
+              <ref role="3uigEE" to="o2tm:~VerticalLayout" resolve="VerticalLayout" />
+            </node>
+            <node concept="2ShNRf" id="41UdyNByqUY" role="33vP2m">
+              <node concept="1pGfFk" id="41UdyNByqTU" role="2ShVmc">
+                <ref role="37wK5l" to="o2tm:~VerticalLayout.&lt;init&gt;()" resolve="VerticalLayout" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="41UdyNByW8q" role="3cqZAp">
+          <node concept="2OqwBi" id="41UdyNByWxW" role="3clFbG">
+            <node concept="37vLTw" id="41UdyNByW8o" role="2Oq$k0">
+              <ref role="3cqZAo" node="41UdyNByqGS" resolve="vl" />
+            </node>
+            <node concept="liA8E" id="41UdyNByXv6" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="B01fqRQxSJ" role="3cqZAp" />
+        <node concept="3clFbH" id="B01fqRQyED" role="3cqZAp" />
         <node concept="3SKdUt" id="41UdyNByGun" role="3cqZAp">
           <node concept="3SKdUq" id="41UdyNByGEZ" role="3SKWNk">
             <property role="3SKdUp" value=" - menuBar" />
@@ -2914,10 +2944,15 @@
           </node>
         </node>
         <node concept="3clFbF" id="41UdyNByEH5" role="3cqZAp">
-          <node concept="1rXfSq" id="41UdyNByEH3" role="3clFbG">
-            <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
-            <node concept="37vLTw" id="41UdyNByEYR" role="37wK5m">
-              <ref role="3cqZAo" node="41UdyNByDeO" resolve="menuBar" />
+          <node concept="2OqwBi" id="B01fqRQA5b" role="3clFbG">
+            <node concept="37vLTw" id="B01fqRQAH8" role="2Oq$k0">
+              <ref role="3cqZAo" node="41UdyNByqGS" resolve="vl" />
+            </node>
+            <node concept="liA8E" id="B01fqRQA5e" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
+              <node concept="37vLTw" id="41UdyNByEYR" role="37wK5m">
+                <ref role="3cqZAo" node="41UdyNByDeO" resolve="menuBar" />
+              </node>
             </node>
           </node>
         </node>
@@ -3206,34 +3241,6 @@
         </node>
         <node concept="3clFbH" id="50$EOT8YbWP" role="3cqZAp" />
         <node concept="3clFbH" id="4d3Pnf42pvp" role="3cqZAp" />
-        <node concept="3SKdUt" id="41UdyNByFQv" role="3cqZAp">
-          <node concept="3SKdUq" id="41UdyNByG35" role="3SKWNk">
-            <property role="3SKdUp" value=" - content" />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="41UdyNByqGR" role="3cqZAp">
-          <node concept="3cpWsn" id="41UdyNByqGS" role="3cpWs9">
-            <property role="TrG5h" value="vl" />
-            <node concept="3uibUv" id="41UdyNByqGT" role="1tU5fm">
-              <ref role="3uigEE" to="o2tm:~VerticalLayout" resolve="VerticalLayout" />
-            </node>
-            <node concept="2ShNRf" id="41UdyNByqUY" role="33vP2m">
-              <node concept="1pGfFk" id="41UdyNByqTU" role="2ShVmc">
-                <ref role="37wK5l" to="o2tm:~VerticalLayout.&lt;init&gt;()" resolve="VerticalLayout" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="41UdyNByW8q" role="3cqZAp">
-          <node concept="2OqwBi" id="41UdyNByWxW" role="3clFbG">
-            <node concept="37vLTw" id="41UdyNByW8o" role="2Oq$k0">
-              <ref role="3cqZAo" node="41UdyNByqGS" resolve="vl" />
-            </node>
-            <node concept="liA8E" id="41UdyNByXv6" role="2OqNvi">
-              <ref role="37wK5l" to="o2tm:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="41UdyNByVM5" role="3cqZAp" />
         <node concept="3clFbF" id="41UdyNByoeL" role="3cqZAp">
           <node concept="37vLTI" id="41UdyNByosM" role="3clFbG">
@@ -3528,6 +3535,96 @@
           </node>
         </node>
         <node concept="3clFbH" id="41UdyNByzlD" role="3cqZAp" />
+        <node concept="3cpWs8" id="B01fqRQRsB" role="3cqZAp">
+          <node concept="3cpWsn" id="B01fqRQRsA" role="3cpWs9">
+            <property role="3TUv4t" value="true" />
+            <property role="TrG5h" value="sidebar" />
+            <node concept="3uibUv" id="B01fqRQRsC" role="1tU5fm">
+              <ref role="3uigEE" to="o2tm:~CssLayout" resolve="CssLayout" />
+            </node>
+            <node concept="2ShNRf" id="B01fqRQRsW" role="33vP2m">
+              <node concept="1pGfFk" id="B01fqRQRsX" role="2ShVmc">
+                <ref role="37wK5l" to="o2tm:~CssLayout.&lt;init&gt;()" resolve="CssLayout" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="B01fqRQRsE" role="3cqZAp">
+          <node concept="2OqwBi" id="B01fqRQRu6" role="3clFbG">
+            <node concept="37vLTw" id="B01fqRQRu5" role="2Oq$k0">
+              <ref role="3cqZAo" node="B01fqRQRsA" resolve="sidebar" />
+            </node>
+            <node concept="liA8E" id="B01fqRQRu7" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="Xl_RD" id="B01fqRQRsG" role="37wK5m">
+                <property role="Xl_RC" value="moware mo-sidebar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="B01fqRQRsK" role="3cqZAp">
+          <node concept="2OqwBi" id="B01fqRQRxy" role="3clFbG">
+            <node concept="37vLTw" id="B01fqRQRxx" role="2Oq$k0">
+              <ref role="3cqZAo" node="B01fqRQRsA" resolve="sidebar" />
+            </node>
+            <node concept="liA8E" id="B01fqRQRxz" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="Xl_RD" id="B01fqRQRsM" role="37wK5m">
+                <property role="Xl_RC" value="no-vertical-drag-hints" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="B01fqRQRsN" role="3cqZAp">
+          <node concept="2OqwBi" id="B01fqRQRyG" role="3clFbG">
+            <node concept="37vLTw" id="B01fqRQRyF" role="2Oq$k0">
+              <ref role="3cqZAo" node="B01fqRQRsA" resolve="sidebar" />
+            </node>
+            <node concept="liA8E" id="B01fqRQRyH" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.addStyleName(java.lang.String):void" resolve="addStyleName" />
+              <node concept="Xl_RD" id="B01fqRQRsP" role="37wK5m">
+                <property role="Xl_RC" value="no-horizontal-drag-hints" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="B01fqRQRsQ" role="3cqZAp">
+          <node concept="2OqwBi" id="B01fqRQRzQ" role="3clFbG">
+            <node concept="37vLTw" id="B01fqRQRzP" role="2Oq$k0">
+              <ref role="3cqZAo" node="B01fqRQRsA" resolve="sidebar" />
+            </node>
+            <node concept="liA8E" id="B01fqRQRzR" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setWidth(java.lang.String):void" resolve="setWidth" />
+              <node concept="Xl_RD" id="B01fqRQYlf" role="37wK5m">
+                <property role="Xl_RC" value="5px" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="B01fqRQRsT" role="3cqZAp">
+          <node concept="2OqwBi" id="B01fqRQR_0" role="3clFbG">
+            <node concept="37vLTw" id="B01fqRQR$Z" role="2Oq$k0">
+              <ref role="3cqZAo" node="B01fqRQRsA" resolve="sidebar" />
+            </node>
+            <node concept="liA8E" id="B01fqRQR_1" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractComponent.setHeight(java.lang.String):void" resolve="setHeight" />
+              <node concept="Xl_RD" id="B01fqRQRsV" role="37wK5m">
+                <property role="Xl_RC" value="100%" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="B01fqRRoha" role="3cqZAp" />
+        <node concept="3clFbF" id="B01fqRQTPS" role="3cqZAp">
+          <node concept="1rXfSq" id="B01fqRQTPQ" role="3clFbG">
+            <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
+            <node concept="37vLTw" id="B01fqRQURG" role="37wK5m">
+              <ref role="3cqZAo" node="B01fqRQRsA" resolve="sidebar" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="B01fqRQMuW" role="3cqZAp" />
+        <node concept="3clFbH" id="B01fqRQNcs" role="3cqZAp" />
         <node concept="3clFbF" id="41UdyNByzbo" role="3cqZAp">
           <node concept="1rXfSq" id="41UdyNByzbm" role="3clFbG">
             <ref role="37wK5l" to="o2tm:~AbstractOrderedLayout.addComponent(com.vaadin.ui.Component):void" resolve="addComponent" />
@@ -4401,8 +4498,8 @@
     </node>
     <node concept="2tJIrI" id="4QTIUTCpFQL" role="jymVt" />
     <node concept="3Tm1VV" id="41UdyNBynGM" role="1B3o_S" />
-    <node concept="3uibUv" id="41UdyNByTzO" role="1zkMxy">
-      <ref role="3uigEE" to="o2tm:~VerticalLayout" resolve="VerticalLayout" />
+    <node concept="3uibUv" id="B01fqRQL6v" role="1zkMxy">
+      <ref role="3uigEE" to="o2tm:~HorizontalLayout" resolve="HorizontalLayout" />
     </node>
   </node>
   <node concept="312cEu" id="41UdyNB$u$Z">

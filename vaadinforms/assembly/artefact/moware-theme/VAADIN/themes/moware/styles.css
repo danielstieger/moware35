@@ -13011,6 +13011,10 @@ div.v-layout.v-horizontal.v-widget {
 	overflow: hidden;
 }
 
+.moware .mo-sidebar {
+	background-color: #414B56;
+}
+
 .moware .mo-small-mrg.v-margin-left {
 	padding-left: 10px;
 }
