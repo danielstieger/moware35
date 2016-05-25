@@ -3656,6 +3656,31 @@
       <ref role="3uigEE" node="5GiT4fwFoe2" resolve="IVClickableEditor" />
     </node>
     <node concept="2tJIrI" id="6KBCmIOKPAl" role="jymVt" />
+    <node concept="3clFb_" id="64CWN5QLZo" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setOptionalAfterLoad" />
+      <node concept="37vLTG" id="64CWN5QLZp" role="3clF46">
+        <property role="TrG5h" value="optional" />
+        <node concept="10P_77" id="64CWN5QLZq" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="64CWN5QLZr" role="3clF45" />
+      <node concept="3Tm1VV" id="64CWN5QLZs" role="1B3o_S" />
+      <node concept="3clFbS" id="64CWN5QLZu" role="3clF47">
+        <node concept="3clFbF" id="64CWN5QSbK" role="3cqZAp">
+          <node concept="2OqwBi" id="64CWN5QSbL" role="3clFbG">
+            <node concept="37vLTw" id="64CWN5QSbM" role="2Oq$k0">
+              <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="64CWN5QSbN" role="2OqNvi">
+              <ref role="37wK5l" to="o2tm:~AbstractSelect.setNullSelectionAllowed(boolean):void" resolve="setNullSelectionAllowed" />
+              <node concept="37vLTw" id="64CWN5QSQ1" role="37wK5m">
+                <ref role="3cqZAo" node="64CWN5QLZp" resolve="optional" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="6KBCmIOKPAx" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setItems" />

@@ -33822,7 +33822,7 @@
     <node concept="312cEg" id="5Y1b9tR2t8c" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="textEditor" />
+      <property role="TrG5h" value="toolkitEditor" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="5Y1b9tR2t81" role="1B3o_S" />
       <node concept="3uibUv" id="5Y1b9tR2t8o" role="1tU5fm">
@@ -34092,7 +34092,7 @@
             <node concept="3clFbF" id="6fh3YTMpc5v" role="3cqZAp">
               <node concept="2OqwBi" id="6fh3YTMpcgD" role="3clFbG">
                 <node concept="37vLTw" id="6fh3YTMpc5t" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="6fh3YTMpcJl" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2ddK" resolve="setEnabled" />
@@ -34199,7 +34199,7 @@
         <node concept="3clFbF" id="5Y1b9tR4FtJ" role="3cqZAp">
           <node concept="2OqwBi" id="5Y1b9tR4Fvj" role="3clFbG">
             <node concept="37vLTw" id="5Y1b9tR4FtH" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="5Y1b9tR4FBX" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR2aLV" resolve="setLabel" />
@@ -34223,7 +34223,7 @@
         <node concept="3clFbF" id="5Y1b9tRm6dJ" role="3cqZAp">
           <node concept="2OqwBi" id="5Y1b9tRm6dK" role="3clFbG">
             <node concept="37vLTw" id="5Y1b9tRm6dL" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="5Y1b9tRm6dM" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR274f" resolve="setLabelTooltip" />
@@ -34353,7 +34353,7 @@
         <node concept="3clFbF" id="5Y1b9tR4G4J" role="3cqZAp">
           <node concept="2OqwBi" id="5Y1b9tR4Gaw" role="3clFbG">
             <node concept="37vLTw" id="5Y1b9tR4G4H" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="5Y1b9tR4GmB" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR2ddK" resolve="setEnabled" />
@@ -34408,7 +34408,7 @@
             <node concept="3clFbF" id="1sUmI9ygUeo" role="3cqZAp">
               <node concept="2OqwBi" id="1sUmI9ygUep" role="3clFbG">
                 <node concept="37vLTw" id="1sUmI9ygUeq" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="1sUmI9ygUer" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2ddK" resolve="setEnabled" />
@@ -34569,7 +34569,7 @@
       <node concept="3clFbS" id="5Y1b9tRd8n4" role="3clF47">
         <node concept="3clFbF" id="5Y1b9tRd9l2" role="3cqZAp">
           <node concept="37vLTw" id="5Y1b9tRd9l1" role="3clFbG">
-            <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+            <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
           </node>
         </node>
       </node>
@@ -34617,7 +34617,7 @@
         <node concept="3clFbF" id="5Y1b9tRfcNq" role="3cqZAp">
           <node concept="2OqwBi" id="5Y1b9tRfdaI" role="3clFbG">
             <node concept="37vLTw" id="5Y1b9tRfdaJ" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="5Y1b9tRfdaK" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tRfbL9" resolve="isValidationErrorText" />
@@ -34644,7 +34644,7 @@
                   <node concept="10Nm6u" id="6Ag5kTzi2g0" role="3uHU7w" />
                   <node concept="2OqwBi" id="6Ag5kTzi1Zk" role="3uHU7B">
                     <node concept="37vLTw" id="6Ag5kTzi1Vr" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="6Ag5kTzi26_" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -34656,7 +34656,7 @@
                     <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
                     <node concept="2OqwBi" id="6Ag5kTzi1lP" role="37wK5m">
                       <node concept="37vLTw" id="6Ag5kTzi1lQ" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                        <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                       </node>
                       <node concept="liA8E" id="6Ag5kTzi1lR" role="2OqNvi">
                         <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -34736,7 +34736,7 @@
         <node concept="3clFbF" id="3sEA$PIqqqt" role="3cqZAp">
           <node concept="2OqwBi" id="3sEA$PIqqsh" role="3clFbG">
             <node concept="37vLTw" id="3sEA$PIqqqr" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3sEA$PIqq$j" role="2OqNvi">
               <ref role="37wK5l" node="3sEA$PIq7Vt" resolve="enableKeyReleaseEvents" />
@@ -35450,14 +35450,14 @@
               </node>
             </node>
             <node concept="37vLTw" id="5Y1b9tR4Ldz" role="37vLTJ">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="3sEA$PIqrpa" role="3cqZAp">
           <node concept="2OqwBi" id="3sEA$PIqrqW" role="3clFbG">
             <node concept="37vLTw" id="3sEA$PIqrp8" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3sEA$PIqrz7" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR25O1" resolve="setDelegate" />
@@ -35500,7 +35500,7 @@
             <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
             <node concept="2OqwBi" id="5Y1b9tR32MS" role="37wK5m">
               <node concept="37vLTw" id="5Y1b9tR32Ls" role="2Oq$k0">
-                <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
               </node>
               <node concept="liA8E" id="5Y1b9tR32Se" role="2OqNvi">
                 <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -35527,7 +35527,7 @@
             <node concept="3clFbF" id="5Y1b9tR2ZoJ" role="3cqZAp">
               <node concept="2OqwBi" id="5Y1b9tR2Zzd" role="3clFbG">
                 <node concept="37vLTw" id="5Y1b9tR2ZoH" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="5Y1b9tR2ZC4" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -35554,7 +35554,7 @@
               <node concept="3clFbF" id="5Y1b9tR30km" role="3cqZAp">
                 <node concept="2OqwBi" id="5Y1b9tR30ml" role="3clFbG">
                   <node concept="37vLTw" id="5Y1b9tR30kk" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="5Y1b9tR30ys" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -35699,7 +35699,7 @@
             <node concept="3clFbF" id="5Y1b9tR3EFd" role="3cqZAp">
               <node concept="2OqwBi" id="5Y1b9tR3FSz" role="3clFbG">
                 <node concept="37vLTw" id="5Y1b9tR3EFb" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="5Y1b9tR3G86" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -35740,7 +35740,7 @@
                   <ref role="1Pybhc" to="e2lb:~Integer" resolve="Integer" />
                   <node concept="2OqwBi" id="5Y1b9tR3L1v" role="37wK5m">
                     <node concept="37vLTw" id="5Y1b9tR3KUU" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="5Y1b9tR3L_5" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -35762,7 +35762,7 @@
                     <node concept="3clFbF" id="4ZIUv21QvXB" role="3cqZAp">
                       <node concept="2OqwBi" id="4ZIUv21QvXC" role="3clFbG">
                         <node concept="37vLTw" id="5Y1b9tR3W9X" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                          <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                         </node>
                         <node concept="liA8E" id="4ZIUv21QvXE" role="2OqNvi">
                           <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -35880,7 +35880,7 @@
                       <node concept="3clFbF" id="4ZIUv21QvYl" role="3cqZAp">
                         <node concept="2OqwBi" id="4ZIUv21QvYm" role="3clFbG">
                           <node concept="37vLTw" id="5Y1b9tR4nut" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                            <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                           </node>
                           <node concept="liA8E" id="4ZIUv21QvYo" role="2OqNvi">
                             <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -35966,7 +35966,7 @@
                       <node concept="3clFbF" id="4ZIUv21QvYP" role="3cqZAp">
                         <node concept="2OqwBi" id="4ZIUv21QvYQ" role="3clFbG">
                           <node concept="37vLTw" id="5Y1b9tR4o15" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                            <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                           </node>
                           <node concept="liA8E" id="4ZIUv21QvYS" role="2OqNvi">
                             <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -36039,7 +36039,7 @@
               <node concept="3clFbF" id="3DTEcmNHQFL" role="3cqZAp">
                 <node concept="2OqwBi" id="3DTEcmNHQFP" role="3clFbG">
                   <node concept="37vLTw" id="5Y1b9tR4sxU" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="3DTEcmNHQFV" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -36402,14 +36402,14 @@
               </node>
             </node>
             <node concept="37vLTw" id="3sEA$PIstNY" role="37vLTJ">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="3sEA$PIstNZ" role="3cqZAp">
           <node concept="2OqwBi" id="3sEA$PIstO0" role="3clFbG">
             <node concept="37vLTw" id="3sEA$PIstO1" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3sEA$PIstO2" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR25O1" resolve="setDelegate" />
@@ -36461,7 +36461,7 @@
                         <ref role="37wK5l" to="j9pa:~NumberFormat.parse(java.lang.String):java.lang.Number" resolve="parse" />
                         <node concept="2OqwBi" id="3sEA$PItDNu" role="37wK5m">
                           <node concept="37vLTw" id="3sEA$PItDNv" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                            <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                           </node>
                           <node concept="liA8E" id="3sEA$PItDNw" role="2OqNvi">
                             <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -36520,7 +36520,7 @@
             <node concept="3clFbF" id="3sEA$PIstOt" role="3cqZAp">
               <node concept="2OqwBi" id="3sEA$PIstOu" role="3clFbG">
                 <node concept="37vLTw" id="3sEA$PIstOv" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="3sEA$PIstOw" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -36558,7 +36558,7 @@
               <node concept="3clFbF" id="3sEA$PIstOD" role="3cqZAp">
                 <node concept="2OqwBi" id="3sEA$PIstOE" role="3clFbG">
                   <node concept="37vLTw" id="3sEA$PIstOF" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="3sEA$PIstOG" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -36727,7 +36727,7 @@
             <node concept="3clFbF" id="3sEA$PIstPA" role="3cqZAp">
               <node concept="2OqwBi" id="3sEA$PIstPB" role="3clFbG">
                 <node concept="37vLTw" id="3sEA$PIstPC" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="3sEA$PIstPD" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -36770,7 +36770,7 @@
                       <ref role="37wK5l" to="j9pa:~NumberFormat.parse(java.lang.String):java.lang.Number" resolve="parse" />
                       <node concept="2OqwBi" id="3sEA$PIu$Ck" role="37wK5m">
                         <node concept="37vLTw" id="3sEA$PIu$fx" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                          <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                         </node>
                         <node concept="liA8E" id="3sEA$PIu$I4" role="2OqNvi">
                           <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -36824,7 +36824,7 @@
               <node concept="3clFbF" id="3sEA$PIuHFt" role="3cqZAp">
                 <node concept="2OqwBi" id="3sEA$PIuI7Y" role="3clFbG">
                   <node concept="37vLTw" id="3sEA$PIuHFr" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="3sEA$PIuIcC" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -36869,7 +36869,7 @@
                 <node concept="3clFbF" id="3DTEcmNJo8$" role="3cqZAp">
                   <node concept="2OqwBi" id="3DTEcmNJo8C" role="3clFbG">
                     <node concept="37vLTw" id="3sEA$PIwkcn" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="3DTEcmNJo8I" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -37019,7 +37019,7 @@
                   <node concept="3clFbF" id="3DTEcmNJoan" role="3cqZAp">
                     <node concept="2OqwBi" id="3DTEcmNJoar" role="3clFbG">
                       <node concept="37vLTw" id="3sEA$PIwkkG" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                        <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                       </node>
                       <node concept="liA8E" id="3DTEcmNJoax" role="2OqNvi">
                         <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -37129,7 +37129,7 @@
                   <node concept="3clFbF" id="3DTEcmNJobJ" role="3cqZAp">
                     <node concept="2OqwBi" id="3DTEcmNJobN" role="3clFbG">
                       <node concept="37vLTw" id="3sEA$PIwkrw" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                        <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                       </node>
                       <node concept="liA8E" id="3DTEcmNJobT" role="2OqNvi">
                         <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -37201,7 +37201,7 @@
                 <node concept="3clFbF" id="4sMOTLiJL9u" role="3cqZAp">
                   <node concept="2OqwBi" id="4sMOTLiJL9I" role="3clFbG">
                     <node concept="37vLTw" id="3sEA$PIwkyk" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="4sMOTLiJL9O" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -37644,7 +37644,7 @@
                   </node>
                 </node>
                 <node concept="37vLTw" id="3sEA$PIwJyR" role="37vLTJ">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
               </node>
             </node>
@@ -37673,7 +37673,7 @@
                     </node>
                   </node>
                   <node concept="37vLTw" id="3sEA$PI$eVI" role="37vLTJ">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                 </node>
               </node>
@@ -37683,7 +37683,7 @@
         <node concept="3clFbF" id="3sEA$PIwJyS" role="3cqZAp">
           <node concept="2OqwBi" id="3sEA$PIwJyT" role="3clFbG">
             <node concept="37vLTw" id="3sEA$PIwJyU" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3sEA$PIwJyV" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR25O1" resolve="setDelegate" />
@@ -37725,7 +37725,7 @@
         <node concept="3clFbF" id="3sEA$PIxb1B" role="3cqZAp">
           <node concept="2OqwBi" id="3sEA$PIxbPZ" role="3clFbG">
             <node concept="37vLTw" id="3sEA$PIxb1_" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3sEA$PIxc9R" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -37751,7 +37751,7 @@
             <node concept="3clFbF" id="3sEA$PIwJzm" role="3cqZAp">
               <node concept="2OqwBi" id="3sEA$PIwJzn" role="3clFbG">
                 <node concept="37vLTw" id="3sEA$PIwJzo" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="3sEA$PIwJzp" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -37773,7 +37773,7 @@
               <node concept="3clFbF" id="3sEA$PIwJzy" role="3cqZAp">
                 <node concept="2OqwBi" id="3sEA$PIwJzz" role="3clFbG">
                   <node concept="37vLTw" id="3sEA$PIwJz$" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="3sEA$PIwJz_" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -37913,7 +37913,7 @@
         <node concept="3clFbF" id="3DTEcmNHVJ5" role="3cqZAp">
           <node concept="2OqwBi" id="3DTEcmNHVJ6" role="3clFbG">
             <node concept="37vLTw" id="3sEA$PIxdPL" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3DTEcmNHVJ8" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -37950,7 +37950,7 @@
                 <node concept="3clFbF" id="4ZIUv21Rrw3" role="3cqZAp">
                   <node concept="2OqwBi" id="4ZIUv21Rrw7" role="3clFbG">
                     <node concept="37vLTw" id="3sEA$PIxDCp" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="4ZIUv21Rrwd" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -38048,7 +38048,7 @@
                 <node concept="3clFbF" id="2Y1bBTkqdvs" role="3cqZAp">
                   <node concept="2OqwBi" id="2Y1bBTkqdvt" role="3clFbG">
                     <node concept="37vLTw" id="3sEA$PIxDyi" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="2Y1bBTkqdvv" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -38251,7 +38251,7 @@
         <node concept="3clFbF" id="3yfWYM0WPXR" role="3cqZAp">
           <node concept="2OqwBi" id="3yfWYM0WPZG" role="3clFbG">
             <node concept="37vLTw" id="3yfWYM0WPXQ" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3yfWYM0WTrv" role="2OqNvi">
               <ref role="37wK5l" node="3yfWYM0WS3B" resolve="setScanable" />
@@ -38407,14 +38407,14 @@
               </node>
             </node>
             <node concept="37vLTw" id="3sEA$PIygHk" role="37vLTJ">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="3sEA$PIygHl" role="3cqZAp">
           <node concept="2OqwBi" id="3sEA$PIygHm" role="3clFbG">
             <node concept="37vLTw" id="3sEA$PIygHn" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3sEA$PIygHo" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR25O1" resolve="setDelegate" />
@@ -38460,7 +38460,7 @@
                   <ref role="37wK5l" to="vt2g:~DateTimeFormatter.parseDateTime(java.lang.String):org.joda.time.DateTime" resolve="parseDateTime" />
                   <node concept="2OqwBi" id="3sEA$PIyHbl" role="37wK5m">
                     <node concept="37vLTw" id="3sEA$PIyGFj" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="3sEA$PIyHMa" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -38510,7 +38510,7 @@
             <node concept="3clFbF" id="3sEA$PIygHM" role="3cqZAp">
               <node concept="2OqwBi" id="3sEA$PIygHN" role="3clFbG">
                 <node concept="37vLTw" id="3sEA$PIygHO" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="3sEA$PIygHP" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -38540,7 +38540,7 @@
               <node concept="3clFbF" id="3sEA$PIygHW" role="3cqZAp">
                 <node concept="2OqwBi" id="3sEA$PIygHX" role="3clFbG">
                   <node concept="37vLTw" id="3sEA$PIygHY" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="3sEA$PIygHZ" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -38584,7 +38584,7 @@
         <node concept="3clFbF" id="3sEA$PIygIQ" role="3cqZAp">
           <node concept="2OqwBi" id="3sEA$PIygIR" role="3clFbG">
             <node concept="37vLTw" id="3sEA$PIygIS" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3sEA$PIygIT" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -38620,7 +38620,7 @@
                   <ref role="37wK5l" to="vt2g:~DateTimeFormatter.parseDateTime(java.lang.String):org.joda.time.DateTime" resolve="parseDateTime" />
                   <node concept="2OqwBi" id="3sEA$PIz0h2" role="37wK5m">
                     <node concept="37vLTw" id="3sEA$PIz0fj" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="3sEA$PIz0lT" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -38656,7 +38656,7 @@
               <node concept="3clFbF" id="7PVxNQmSVuq" role="3cqZAp">
                 <node concept="2OqwBi" id="7PVxNQmSVur" role="3clFbG">
                   <node concept="37vLTw" id="3sEA$PIyS5C" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="7PVxNQmSVut" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -38950,14 +38950,14 @@
               </node>
             </node>
             <node concept="37vLTw" id="3sEA$PIEHty" role="37vLTJ">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="3sEA$PIEHtz" role="3cqZAp">
           <node concept="2OqwBi" id="3sEA$PIEHt$" role="3clFbG">
             <node concept="37vLTw" id="3sEA$PIEHt_" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3sEA$PIEHtA" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR25O1" resolve="setDelegate" />
@@ -39003,7 +39003,7 @@
                   <ref role="37wK5l" to="vt2g:~DateTimeFormatter.parseLocalDate(java.lang.String):org.joda.time.LocalDate" resolve="parseLocalDate" />
                   <node concept="2OqwBi" id="3sEA$PIEHtU" role="37wK5m">
                     <node concept="37vLTw" id="3sEA$PIEHtV" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="3sEA$PIEHtW" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -39053,7 +39053,7 @@
             <node concept="3clFbF" id="3sEA$PIEHud" role="3cqZAp">
               <node concept="2OqwBi" id="3sEA$PIEHue" role="3clFbG">
                 <node concept="37vLTw" id="3sEA$PIEHuf" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="3sEA$PIEHug" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -39083,7 +39083,7 @@
               <node concept="3clFbF" id="3sEA$PIEHuq" role="3cqZAp">
                 <node concept="2OqwBi" id="3sEA$PIEHur" role="3clFbG">
                   <node concept="37vLTw" id="3sEA$PIEHus" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="3sEA$PIEHut" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -39127,7 +39127,7 @@
         <node concept="3clFbF" id="3sEA$PIEHuH" role="3cqZAp">
           <node concept="2OqwBi" id="3sEA$PIEHuI" role="3clFbG">
             <node concept="37vLTw" id="3sEA$PIEHuJ" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="3sEA$PIEHuK" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -39163,7 +39163,7 @@
                   <ref role="37wK5l" to="vt2g:~DateTimeFormatter.parseLocalDate(java.lang.String):org.joda.time.LocalDate" resolve="parseLocalDate" />
                   <node concept="2OqwBi" id="3sEA$PIEHuZ" role="37wK5m">
                     <node concept="37vLTw" id="3sEA$PIEHv0" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="3sEA$PIEHv1" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -39199,7 +39199,7 @@
               <node concept="3clFbF" id="3sEA$PIEHvd" role="3cqZAp">
                 <node concept="2OqwBi" id="3sEA$PIEHve" role="3clFbG">
                   <node concept="37vLTw" id="3sEA$PIEHvf" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="3sEA$PIEHvg" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -39430,7 +39430,7 @@
         <node concept="3clFbF" id="1kaU3pLSZoK" role="3cqZAp">
           <node concept="37vLTI" id="1kaU3pLSZoL" role="3clFbG">
             <node concept="37vLTw" id="1kaU3pLSZoP" role="37vLTJ">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="37vLTw" id="1kaU3pLV2TM" role="37vLTx">
               <ref role="3cqZAo" node="1kaU3pLV2tb" resolve="statusEditor" />
@@ -40020,7 +40020,7 @@
             <node concept="3clFbF" id="1kaU3pLVkx8" role="3cqZAp">
               <node concept="2OqwBi" id="1kaU3pLVkx9" role="3clFbG">
                 <node concept="37vLTw" id="1kaU3pLVkxa" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="1kaU3pLVkxb" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2ddK" resolve="setEnabled" />
@@ -40102,7 +40102,7 @@
         <node concept="3clFbF" id="1kaU3pLSZqn" role="3cqZAp">
           <node concept="2OqwBi" id="1kaU3pLSZqo" role="3clFbG">
             <node concept="37vLTw" id="1kaU3pLSZqp" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="1kaU3pLSZqq" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -40560,14 +40560,14 @@
               </node>
             </node>
             <node concept="37vLTw" id="1YFjUjHUbuA" role="37vLTJ">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="1YFjUjHUbuB" role="3cqZAp">
           <node concept="2OqwBi" id="1YFjUjHUbuC" role="3clFbG">
             <node concept="37vLTw" id="1YFjUjHUbuD" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="1YFjUjHUbuE" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR25O1" resolve="setDelegate" />
@@ -40583,7 +40583,7 @@
                   <ref role="3uigEE" node="1YFjUjHUi1V" resolve="IToolkit_ReferenceEditor" />
                 </node>
                 <node concept="37vLTw" id="1YFjUjI0CrD" role="10QFUP">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
               </node>
             </node>
@@ -40658,7 +40658,7 @@
               <node concept="2WmjW8" id="3KDG5JVyI87" role="2OqNvi">
                 <node concept="2OqwBi" id="3KDG5JVyI8c" role="25WWJ7">
                   <node concept="37vLTw" id="1YFjUjHW565" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="3KDG5JVyI8h" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -40684,7 +40684,7 @@
                       </node>
                       <node concept="2OqwBi" id="6nF$iZDN3zv" role="3uHU7w">
                         <node concept="37vLTw" id="6nF$iZDN3uP" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                          <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                         </node>
                         <node concept="liA8E" id="6nF$iZDN3CE" role="2OqNvi">
                           <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -40753,7 +40753,7 @@
                 <node concept="3clFbF" id="1YFjUjHWn0B" role="3cqZAp">
                   <node concept="2OqwBi" id="1YFjUjHWn7o" role="3clFbG">
                     <node concept="37vLTw" id="1YFjUjHWn0_" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                     </node>
                     <node concept="liA8E" id="1YFjUjHWnfr" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -40787,7 +40787,7 @@
                   <node concept="3clFbF" id="1YFjUjHWnk4" role="3cqZAp">
                     <node concept="2OqwBi" id="1YFjUjHWnt7" role="3clFbG">
                       <node concept="37vLTw" id="1YFjUjHWnk2" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                        <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                       </node>
                       <node concept="liA8E" id="1YFjUjHWnxy" role="2OqNvi">
                         <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -40815,7 +40815,7 @@
               <node concept="3clFbF" id="1YFjUjHWnzi" role="3cqZAp">
                 <node concept="2OqwBi" id="1YFjUjHWn_s" role="3clFbG">
                   <node concept="37vLTw" id="1YFjUjHWnzg" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                   </node>
                   <node concept="liA8E" id="1YFjUjHWnHv" role="2OqNvi">
                     <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -40997,7 +40997,7 @@
             <node concept="3clFbF" id="1YFjUjHWv0i" role="3cqZAp">
               <node concept="2OqwBi" id="1YFjUjHWv0j" role="3clFbG">
                 <node concept="37vLTw" id="1YFjUjHWv0k" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="1YFjUjHWv0l" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2ddK" resolve="setEnabled" />
@@ -41006,6 +41006,31 @@
                       <ref role="3cqZAo" node="5Y1b9tQYCpV" resolve="enabled" />
                     </node>
                     <node concept="liA8E" id="1YFjUjHWv0o" role="2OqNvi">
+                      <ref role="37wK5l" node="5Y1b9tQZbC9" resolve="getValue" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="64CWN5PnIx" role="3cqZAp">
+              <node concept="2OqwBi" id="64CWN5PohR" role="3clFbG">
+                <node concept="1eOMI4" id="64CWN5PnIz" role="2Oq$k0">
+                  <node concept="10QFUN" id="64CWN5PnI$" role="1eOMHV">
+                    <node concept="3uibUv" id="64CWN5PnI_" role="10QFUM">
+                      <ref role="3uigEE" node="1YFjUjHUi1V" resolve="IToolkit_ReferenceEditor" />
+                    </node>
+                    <node concept="37vLTw" id="64CWN5PnIA" role="10QFUP">
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="64CWN5PoJj" role="2OqNvi">
+                  <ref role="37wK5l" node="64CWN5OQpn" resolve="setOptionalAfterLoad" />
+                  <node concept="2OqwBi" id="64CWN5PoUq" role="37wK5m">
+                    <node concept="37vLTw" id="64CWN5PoPh" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5Y1b9tR2$lm" resolve="optional" />
+                    </node>
+                    <node concept="liA8E" id="64CWN5Ppz0" role="2OqNvi">
                       <ref role="37wK5l" node="5Y1b9tQZbC9" resolve="getValue" />
                     </node>
                   </node>
@@ -41064,7 +41089,7 @@
         <node concept="3clFbF" id="1YFjUjHUbw8" role="3cqZAp">
           <node concept="2OqwBi" id="1YFjUjHUbw9" role="3clFbG">
             <node concept="37vLTw" id="1YFjUjHUbwa" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="1YFjUjHUbwb" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -41092,7 +41117,7 @@
             <node concept="3clFbF" id="1YFjUjHVFo7" role="3cqZAp">
               <node concept="2OqwBi" id="1YFjUjHVFCU" role="3clFbG">
                 <node concept="37vLTw" id="1YFjUjHVFo5" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="1YFjUjHVFNA" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
@@ -41122,7 +41147,7 @@
               <node concept="10Nm6u" id="1YFjUjHVIcn" role="3uHU7w" />
               <node concept="2OqwBi" id="1YFjUjHVHY0" role="3uHU7B">
                 <node concept="37vLTw" id="1YFjUjHVHKB" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="1YFjUjHVI3W" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -41132,7 +41157,7 @@
             <node concept="2OqwBi" id="4EvUyFTFKh7" role="3uHU7w">
               <node concept="2OqwBi" id="4EvUyFTFKh8" role="2Oq$k0">
                 <node concept="37vLTw" id="1YFjUjHVFmY" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
                 <node concept="liA8E" id="4EvUyFTFKha" role="2OqNvi">
                   <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
@@ -41280,7 +41305,7 @@
                   <ref role="3uigEE" node="1YFjUjHUi1V" resolve="IToolkit_ReferenceEditor" />
                 </node>
                 <node concept="37vLTw" id="1YFjUjHW4km" role="10QFUP">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
               </node>
             </node>
@@ -41634,6 +41659,17 @@
   <node concept="3HP615" id="1YFjUjHUi1V">
     <property role="3GE5qa" value="Toolkit" />
     <property role="TrG5h" value="IToolkit_ReferenceEditor" />
+    <node concept="3clFb_" id="64CWN5OQpn" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setOptionalAfterLoad" />
+      <node concept="37vLTG" id="64CWN5OQYP" role="3clF46">
+        <property role="TrG5h" value="optional" />
+        <node concept="10P_77" id="64CWN5OR2d" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="64CWN5OQpp" role="3clF45" />
+      <node concept="3Tm1VV" id="64CWN5OQpq" role="1B3o_S" />
+      <node concept="3clFbS" id="64CWN5OQpr" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="1YFjUjHW3At" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setItems" />
@@ -41694,14 +41730,14 @@
               </node>
             </node>
             <node concept="37vLTw" id="6Ag5kTzI7ca" role="37vLTJ">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="6Ag5kTzI7cb" role="3cqZAp">
           <node concept="2OqwBi" id="6Ag5kTzI7cc" role="3clFbG">
             <node concept="37vLTw" id="6Ag5kTzI7cd" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="6Ag5kTzI7ce" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR25O1" resolve="setDelegate" />
@@ -41753,7 +41789,7 @@
         <node concept="3clFbF" id="6Ag5kTzI9G0" role="3cqZAp">
           <node concept="2OqwBi" id="6Ag5kTzI9JZ" role="3clFbG">
             <node concept="37vLTw" id="6Ag5kTzI9FZ" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
             </node>
             <node concept="liA8E" id="6Ag5kTzI9Sp" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
@@ -41796,7 +41832,7 @@
                   <ref role="3uigEE" node="6Ag5kTzI9VO" resolve="IToolkit_ImageEditor" />
                 </node>
                 <node concept="37vLTw" id="6Ag5kTzIkUW" role="10QFUP">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
               </node>
             </node>
@@ -41828,7 +41864,7 @@
                   <ref role="3uigEE" node="6Ag5kTzI9VO" resolve="IToolkit_ImageEditor" />
                 </node>
                 <node concept="37vLTw" id="6Ag5kTzIl7h" role="10QFUP">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="textEditor" />
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
                 </node>
               </node>
             </node>
