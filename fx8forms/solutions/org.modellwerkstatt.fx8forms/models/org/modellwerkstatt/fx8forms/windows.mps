@@ -17262,7 +17262,7 @@
             <node concept="liA8E" id="18loLX2242t" role="2OqNvi">
               <ref role="37wK5l" to="4i1a:~Region.setPrefWidth(double):void" resolve="setPrefWidth" />
               <node concept="3cmrfG" id="18loLX224RT" role="37wK5m">
-                <property role="3cmrfH" value="80" />
+                <property role="3cmrfH" value="90" />
               </node>
             </node>
           </node>
@@ -17275,7 +17275,7 @@
             <node concept="liA8E" id="18loLX21k9A" role="2OqNvi">
               <ref role="37wK5l" to="4i1a:~Region.minWidth(double):double" resolve="minWidth" />
               <node concept="3cmrfG" id="18loLX21wE3" role="37wK5m">
-                <property role="3cmrfH" value="80" />
+                <property role="3cmrfH" value="90" />
               </node>
             </node>
           </node>
