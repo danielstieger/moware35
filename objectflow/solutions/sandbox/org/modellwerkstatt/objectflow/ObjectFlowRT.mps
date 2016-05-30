@@ -7450,17 +7450,30 @@
       <node concept="37vLTG" id="5T_hheWfF5M" role="3clF46">
         <property role="TrG5h" value="provider" />
         <node concept="3uibUv" id="5T_hheWfF8s" role="1tU5fm">
-          <ref role="3uigEE" node="5T_hheWfEqM" resolve="IOFXBatchTask.IMonitoringProvider" />
+          <ref role="3uigEE" node="5T_hheWfEqM" resolve="IOFXBatchTask.IMonitoringSettingsProvider" />
         </node>
       </node>
       <node concept="3cqZAl" id="5T_hheWfEvw" role="3clF45" />
       <node concept="3Tm1VV" id="5T_hheWfEvx" role="1B3o_S" />
       <node concept="3clFbS" id="5T_hheWfEvy" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="5T_hheWfEs6" role="jymVt" />
+    <node concept="3clFb_" id="U7p_lEno9g" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="updateSettings" />
+      <node concept="37vLTG" id="U7p_lEnokz" role="3clF46">
+        <property role="TrG5h" value="provider" />
+        <node concept="3uibUv" id="U7p_lEnoni" role="1tU5fm">
+          <ref role="3uigEE" node="5T_hheWfEqM" resolve="IOFXBatchTask.IMonitoringSettingsProvider" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="U7p_lEno9i" role="3clF45" />
+      <node concept="3Tm1VV" id="U7p_lEno9j" role="1B3o_S" />
+      <node concept="3clFbS" id="U7p_lEno9k" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="U7p_lEno6k" role="jymVt" />
     <node concept="3HP615" id="5T_hheWfEqM" role="jymVt">
       <property role="2bfB8j" value="true" />
-      <property role="TrG5h" value="IMonitoringProvider" />
+      <property role="TrG5h" value="IMonitoringSettingsProvider" />
       <node concept="3clFb_" id="5T_hheWgw9Q" role="jymVt">
         <property role="1EzhhJ" value="true" />
         <property role="TrG5h" value="addSection" />
@@ -7488,6 +7501,39 @@
         <node concept="3clFbS" id="5T_hheWfER3" role="3clF47" />
       </node>
       <node concept="3Tm1VV" id="5T_hheWfEqN" role="1B3o_S" />
+      <node concept="2tJIrI" id="U7p_lElv66" role="jymVt" />
+      <node concept="3clFb_" id="U7p_lElDlz" role="jymVt">
+        <property role="1EzhhJ" value="true" />
+        <property role="2aFKle" value="false" />
+        <property role="TrG5h" value="hasChanged" />
+        <node concept="3clFbS" id="U7p_lElDlA" role="3clF47" />
+        <node concept="3Tm1VV" id="U7p_lElDlB" role="1B3o_S" />
+        <node concept="10P_77" id="U7p_lElDjP" role="3clF45" />
+        <node concept="37vLTG" id="U7p_lElDo_" role="3clF46">
+          <property role="TrG5h" value="module" />
+          <node concept="17QB3L" id="U7p_lElDo$" role="1tU5fm" />
+        </node>
+        <node concept="37vLTG" id="U7p_lElDqC" role="3clF46">
+          <property role="TrG5h" value="varName" />
+          <node concept="17QB3L" id="U7p_lElDsI" role="1tU5fm" />
+        </node>
+      </node>
+      <node concept="3clFb_" id="U7p_lElDyk" role="jymVt">
+        <property role="1EzhhJ" value="true" />
+        <property role="2aFKle" value="false" />
+        <property role="TrG5h" value="getValue" />
+        <node concept="3clFbS" id="U7p_lElDyn" role="3clF47" />
+        <node concept="3Tm1VV" id="U7p_lElDyo" role="1B3o_S" />
+        <node concept="17QB3L" id="U7p_lElDww" role="3clF45" />
+        <node concept="37vLTG" id="U7p_lElD_z" role="3clF46">
+          <property role="TrG5h" value="module" />
+          <node concept="17QB3L" id="U7p_lElD_y" role="1tU5fm" />
+        </node>
+        <node concept="37vLTG" id="U7p_lElDBI" role="3clF46">
+          <property role="TrG5h" value="varName" />
+          <node concept="17QB3L" id="U7p_lElDDT" role="1tU5fm" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="3HP615" id="1ejJFIu_S8s">

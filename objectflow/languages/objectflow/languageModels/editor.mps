@@ -5078,6 +5078,7 @@
     <property role="3GE5qa" value="OFXCore.batch" />
     <ref role="1XX52x" to="un0u:7ii5IAYvBh0" resolve="BatchTask" />
     <node concept="3EZMnI" id="7ii5IAYvBh3" role="2wV5jI">
+      <property role="S$Qs1" value="true" />
       <node concept="l2Vlx" id="7ii5IAYvBh5" role="2iSdaV" />
       <node concept="3F0ifn" id="QBgmOqJeYo" role="3EZMnx">
         <property role="3F0ifm" value="" />
@@ -5205,9 +5206,49 @@
         <node concept="3F0A7n" id="lqf$An_zzo" role="3EZMnx">
           <ref role="1NtTu8" to="un0u:lqf$An_xHF" resolve="numberOfInstances" />
         </node>
+        <node concept="3F0ifn" id="U7p_lEoTzy" role="3EZMnx">
+          <property role="3F0ifm" value="" />
+          <node concept="pVoyu" id="U7p_lEoTzz" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="U7p_lEoTz$" role="3EZMnx">
+          <property role="3F0ifm" value="setting variables:" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="pVoyu" id="U7p_lEoTz_" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="U7p_lEoTzA" role="3EZMnx">
+          <ref role="1NtTu8" to="un0u:6ffh1MXA9UH" />
+          <node concept="l2Vlx" id="U7p_lEoTzB" role="2czzBx" />
+          <node concept="pVoyu" id="U7p_lEoTzC" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="ljvvj" id="U7p_lEoTzD" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="pj6Ft" id="U7p_lEoTzE" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F0ifn" id="U7p_lEoTzF" role="2czzBI">
+            <property role="3F0ifm" value="" />
+            <property role="ilYzB" value="&lt;setting variables&gt;" />
+          </node>
+          <node concept="lj46D" id="U7p_lEoTzG" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
         <node concept="3F0ifn" id="QBgmOqLGuV" role="3EZMnx">
           <property role="3F0ifm" value="" />
           <node concept="pVoyu" id="QBgmOqLGuW" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="U7p_lEoTu1" role="3EZMnx">
+          <property role="3F0ifm" value="monitoring variables:" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="pVoyu" id="U7p_lEoTuK" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
@@ -5238,9 +5279,6 @@
       </node>
       <node concept="3F1sOY" id="lqf$AnpOBa" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:lqf$AnpO8g" />
-        <node concept="lj46D" id="lqf$An_xGr" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
         <node concept="pVoyu" id="lqf$AnJ7ED" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -5255,6 +5293,27 @@
         <property role="3F0ifm" value="" />
         <node concept="pVoyu" id="QBgmOqJeYr" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1HlG4h" id="U7p_lEvnaj" role="AHCbl">
+        <node concept="1HfYo3" id="U7p_lEvnak" role="1HlULh">
+          <node concept="3TQlhw" id="U7p_lEvnal" role="1Hhtcw">
+            <node concept="3clFbS" id="U7p_lEvnam" role="2VODD2">
+              <node concept="3clFbF" id="U7p_lEvnSy" role="3cqZAp">
+                <node concept="3cpWs3" id="U7p_lEvolg" role="3clFbG">
+                  <node concept="2OqwBi" id="U7p_lEvoOX" role="3uHU7w">
+                    <node concept="pncrf" id="U7p_lEvoGn" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="U7p_lEvpew" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="U7p_lEvo5a" role="3uHU7B">
+                    <property role="Xl_RC" value="task " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>

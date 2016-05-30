@@ -163,11 +163,6 @@
         <child id="478945708937917662" name="name" index="2DlbDb" />
         <child id="478945708937917664" name="value" index="2DlbDP" />
       </concept>
-      <concept id="4419932786254844465" name="org.modellwerkstatt.objectflow.structure.RunCommand" flags="ng" index="2Ux5d2">
-        <reference id="4419932786254844467" name="command" index="2Ux5d0" />
-        <reference id="4419932786254844466" name="process" index="2Ux5d1" />
-        <child id="4419932786254844498" name="actualArgument" index="2Ux5cx" />
-      </concept>
       <concept id="4533072425307838443" name="org.modellwerkstatt.objectflow.structure.StatusConstReference" flags="ng" index="2XvMaL">
         <reference id="4533072425307838444" name="status" index="2XvMaQ" />
         <reference id="1707329006119989962" name="element" index="1Vchh_" />
@@ -511,6 +506,12 @@
       <property role="n6UEB" value="*" />
       <property role="2iN2ky" value="1" />
       <property role="TrG5h" value="This is a simple Task" />
+      <node concept="3ulXEN" id="U7p_lEwFNp" role="3ulXEL">
+        <property role="TrG5h" value="setting" />
+        <node concept="3uibUv" id="U7p_lEwFOQ" role="1tU5fm">
+          <ref role="3uigEE" node="3k90eqevVSR" resolve="SimpleJobSetting" />
+        </node>
+      </node>
       <node concept="3ulXEM" id="5T_hheWcaEw" role="3ulXEG">
         <property role="TrG5h" value="iNum" />
         <node concept="10Oyi0" id="5T_hheWcvw8" role="1tU5fm" />
@@ -605,17 +606,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="1tsGGAI68WR" role="3cqZAp" />
-          <node concept="3SKdUt" id="7mQLbAcBrgb" role="3cqZAp">
-            <node concept="3SKWN0" id="7mQLbAcBrgc" role="3SKWNk">
-              <node concept="2Ux5d2" id="7Tmb8cxHoX2" role="3SKWNf">
-                <ref role="2Ux5d1" node="5nND$KgDDK2" resolve="IntkeyWriter" />
-                <ref role="2Ux5d0" node="5E5qL$GsnKa" resolve="Print Test Doc" />
-                <node concept="10Nm6u" id="7Tmb8cxHpcu" role="2Ux5cx" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="7Tmb8cxHoNn" role="3cqZAp" />
           <node concept="3VdxhY" id="7I9la4VEzy4" role="3cqZAp">
             <property role="Rda9K" value="ERROR" />
             <node concept="3cpWs3" id="7I9la4VEzR1" role="3VcgQn">
