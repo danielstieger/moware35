@@ -6285,6 +6285,42 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="5h2cUqQkyWC" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="isInitializable" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwJfMK" resolve="isInitializable" />
+      <node concept="3Tm1VV" id="5h2cUqQkyWH" role="1B3o_S" />
+      <node concept="3clFbS" id="5h2cUqQkyWI" role="3clF47">
+        <node concept="3clFbJ" id="5h2cUqQkzhk" role="3cqZAp">
+          <node concept="3clFbS" id="5h2cUqQkzhl" role="3clFbx">
+            <node concept="3cpWs6" id="5h2cUqQk$Lg" role="3cqZAp">
+              <node concept="3clFbT" id="5h2cUqQk$Ls" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5h2cUqQk$x5" role="3clFbw">
+            <node concept="2OqwBi" id="5h2cUqQkzFx" role="2Oq$k0">
+              <node concept="13iPFW" id="5h2cUqQkzhB" role="2Oq$k0" />
+              <node concept="1mfA1w" id="5h2cUqQk$60" role="2OqNvi" />
+            </node>
+            <node concept="1mIQ4w" id="5h2cUqQk$Id" role="2OqNvi">
+              <node concept="chp4Y" id="5h2cUqQk$Jn" role="cj9EA">
+                <ref role="cht4Q" to="un0u:7ii5IAYvBh0" resolve="BatchTask" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5h2cUqQk$NX" role="3cqZAp">
+          <node concept="3clFbT" id="5h2cUqQk$NW" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="5h2cUqQkyWJ" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="3PmKne7Jtj8">
     <property role="3GE5qa" value="OFXCore.process" />

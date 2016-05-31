@@ -7501,7 +7501,32 @@
         <node concept="3clFbS" id="5T_hheWfER3" role="3clF47" />
       </node>
       <node concept="3Tm1VV" id="5T_hheWfEqN" role="1B3o_S" />
-      <node concept="2tJIrI" id="U7p_lElv66" role="jymVt" />
+      <node concept="3clFb_" id="5h2cUqQp2nD" role="jymVt">
+        <property role="1EzhhJ" value="true" />
+        <property role="TrG5h" value="addSettingVariable" />
+        <node concept="37vLTG" id="U7p_lEj$$D" role="3clF46">
+          <property role="TrG5h" value="moduleName" />
+          <node concept="17QB3L" id="5h2cUqQp6q9" role="1tU5fm" />
+        </node>
+        <node concept="37vLTG" id="U7p_lEjzGt" role="3clF46">
+          <property role="TrG5h" value="name" />
+          <node concept="17QB3L" id="5h2cUqQp6uf" role="1tU5fm" />
+        </node>
+        <node concept="37vLTG" id="U7p_lEjzYk" role="3clF46">
+          <property role="TrG5h" value="value" />
+          <node concept="17QB3L" id="5h2cUqQp6yg" role="1tU5fm" />
+        </node>
+        <node concept="37vLTG" id="U7p_lEj$gy" role="3clF46">
+          <property role="TrG5h" value="options" />
+          <node concept="_YKpA" id="U7p_lEj$wI" role="1tU5fm">
+            <node concept="17QB3L" id="5h2cUqQp6Aj" role="_ZDj9" />
+          </node>
+        </node>
+        <node concept="3cqZAl" id="5h2cUqQp2nF" role="3clF45" />
+        <node concept="3Tm1VV" id="5h2cUqQp2nG" role="1B3o_S" />
+        <node concept="3clFbS" id="5h2cUqQp2nH" role="3clF47" />
+      </node>
+      <node concept="2tJIrI" id="5h2cUqQoVpy" role="jymVt" />
       <node concept="3clFb_" id="U7p_lElDlz" role="jymVt">
         <property role="1EzhhJ" value="true" />
         <property role="2aFKle" value="false" />

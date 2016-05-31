@@ -44,6 +44,10 @@
         <child id="1083245396908" name="enumConstant" index="Qtgdg" />
       </concept>
       <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
+      <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
+        <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
+        <reference id="1144432896254" name="enumClass" index="1Px2BO" />
+      </concept>
       <concept id="1201385106094" name="jetbrains.mps.baseLanguage.structure.PropertyReference" flags="nn" index="2S8uIT">
         <reference id="1201385237847" name="property" index="2S8YL0" />
       </concept>
@@ -213,6 +217,7 @@
         <child id="7192042020164640432" name="variable" index="3ulXEG" />
         <child id="7192042020164640429" name="parameter" index="3ulXEL" />
       </concept>
+      <concept id="7192042020165155254" name="org.modellwerkstatt.objectflow.structure.ContainerParamReference" flags="ng" index="3urNQE" />
       <concept id="7192042020165155288" name="org.modellwerkstatt.objectflow.structure.ContainerVariableReference" flags="ng" index="3urNR4" />
       <concept id="594565203027877250" name="org.modellwerkstatt.objectflow.structure.Session" flags="ng" index="3y28L$" />
       <concept id="569389511234497392" name="org.modellwerkstatt.objectflow.structure.DateTimeLiteral" flags="ng" index="1$4sJe">
@@ -466,7 +471,7 @@
     <property role="TrG5h" value="SimpleJob" />
     <ref role="3ad4MQ" node="5_hYnMu6fYm" resolve="LolaTestConfigStandalone" />
     <node concept="312cEg" id="3k90eqeKh5_" role="jymVt">
-      <property role="TrG5h" value="setting" />
+      <property role="TrG5h" value="setting2" />
       <node concept="3Tm1VV" id="3k90eqeO5Th" role="1B3o_S" />
       <node concept="3uibUv" id="3k90eqeKh5Z" role="1tU5fm">
         <ref role="3uigEE" node="3k90eqevVSR" resolve="SimpleJobSetting" />
@@ -504,12 +509,26 @@
       <property role="n6UE_" value="*" />
       <property role="n6UE$" value="*" />
       <property role="n6UEB" value="*" />
-      <property role="2iN2ky" value="1" />
+      <property role="2iN2ky" value="2" />
       <property role="TrG5h" value="This is a simple Task" />
       <node concept="3ulXEN" id="U7p_lEwFNp" role="3ulXEL">
         <property role="TrG5h" value="setting" />
         <node concept="3uibUv" id="U7p_lEwFOQ" role="1tU5fm">
           <ref role="3uigEE" node="3k90eqevVSR" resolve="SimpleJobSetting" />
+        </node>
+        <node concept="Rm8GO" id="5h2cUqQosjj" role="33vP2m">
+          <ref role="Rm8GQ" node="3k90eqevVTA" resolve="ACTIVE" />
+          <ref role="1Px2BO" node="3k90eqevVSR" resolve="SimpleJobSetting" />
+        </node>
+      </node>
+      <node concept="3ulXEN" id="5h2cUqQIqQu" role="3ulXEL">
+        <property role="TrG5h" value="setting2" />
+        <node concept="3uibUv" id="5h2cUqQIqQv" role="1tU5fm">
+          <ref role="3uigEE" node="3k90eqevVSR" resolve="SimpleJobSetting" />
+        </node>
+        <node concept="Rm8GO" id="5h2cUqQIqQw" role="33vP2m">
+          <ref role="Rm8GQ" node="3k90eqevVTA" resolve="ACTIVE" />
+          <ref role="1Px2BO" node="3k90eqevVSR" resolve="SimpleJobSetting" />
         </node>
       </node>
       <node concept="3ulXEM" id="5T_hheWcaEw" role="3ulXEG">
@@ -624,8 +643,23 @@
               </node>
               <node concept="liA8E" id="7I9la4VJ$tm" role="2OqNvi">
                 <ref role="37wK5l" to="gyq6:4vEuOjMy_dV" resolve="add" />
-                <node concept="Xl_RD" id="7I9la4VJ$uq" role="37wK5m">
-                  <property role="Xl_RC" value="Mail versendet .... " />
+                <node concept="3cpWs3" id="5h2cUqQIrji" role="37wK5m">
+                  <node concept="37vLTw" id="5h2cUqQIrnd" role="3uHU7w">
+                    <ref role="3cqZAo" node="3k90eqeKh5_" resolve="setting2" />
+                  </node>
+                  <node concept="3cpWs3" id="5h2cUqQIr3E" role="3uHU7B">
+                    <node concept="3cpWs3" id="5h2cUqQHAHg" role="3uHU7B">
+                      <node concept="Xl_RD" id="7I9la4VJ$uq" role="3uHU7B">
+                        <property role="Xl_RC" value="Mail versendet .... setting ist " />
+                      </node>
+                      <node concept="3urNQE" id="5h2cUqQHAQn" role="3uHU7w">
+                        <ref role="3cqZAo" node="U7p_lEwFNp" resolve="setting" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="5h2cUqQIr71" role="3uHU7w">
+                      <property role="Xl_RC" value=" setting2 is " />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
