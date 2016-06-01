@@ -18,9 +18,11 @@ var defaultReader = null;
  *		  
  */
 
+function l(s){
+	alert(s);
+}
 
 function onBarcodeReaderComplete (result){
-	
 	if (result.status === 0) {        
     	// Configure the symbologies needed. Buffer the settings and commit them at once.
         defaultReader.setBuffered("Symbology", "Code39", "Enable", "true", onSetBufferedComplete);
@@ -36,9 +38,10 @@ function onBarcodeReaderComplete (result){
     	alert('Failed to create BarcodeReader, ' + result.message);
         
     }
+}
 
 // Verify the symbology configuration
-function onSetBufferedComplete (result) {
+function onSetBufferedComplete (result) {	
 	if (result.status !== 0) {
     	alert("setBuffered failed, status: " + result.status + ", message: " + result.message);
 		alert("Family=" + result.family + " Key=" + result.key + " Option=" + result.option);
@@ -61,22 +64,35 @@ function onCommitComplete (resultArray){
                 
         } //endfor
 	}
+	l('Commit complete');
 }
 
 // Handle barcode data when available
 function onBarcodeDataReady (data, type, time) {	
-	
 	$('input[scanable="true"]').value = data;
 	
 	var conclusion = $('input[name="scanconclusion"]').value;
 
-	disableScan();
+	// disableScan();
 	myfocusOnElement(null);
 
-	var f = $('form');
-	f.NaviCrtl.value = conclusion;
-	//alert('SCAN CONCLUSION SUBMIT.');
-	f.submit();
+	defaultReader.close(function(result) {
+        	if (result.status === 0) {
+            	var f = $('form');
+				f.NaviCrtl.value = conclusion;
+				f.submit();	
+            	console.log("BarcodeReader successfully closed.");
+            
+            } else {
+                alert("Error while closing BarcodeReader: status: " + result.status + ", message: " + result.message);
+
+				var f = $('form');
+				f.NaviCrtl.value = conclusion;
+				f.submit();			
+	        }    
+        });
+    
+
 }
 
 
@@ -104,10 +120,10 @@ function enableScan(){
 		try {
 			defaultReader = new BarcodeReader(null, onBarcodeReaderComplete);
 			/* $('#scanSoftButton').disabled = false; */
+			/* alert('Scan enabled:'); */ 
 			
-			/* alert('Scan enabled: ok!'); */ 
 		} catch(err) {
-			/* alert('ERR: ' + err); */
+			alert('ERR: ' + err);
 		} 
 	} else {
 		/* alert('Scan not enabled'); */
@@ -132,9 +148,6 @@ function SelectAndExec(selectionstr, valstr){
 
 	disableScan();
 	
-  	// do not submit conclusion, if no notwork available
-	if (isNoNetwork()) { return; }
-	
 	myfocusOnElement(null);
 	var f = $('form');
 	f.NaviCrtl.value=valstr;
@@ -147,9 +160,6 @@ function SaveSubmit(valstr){
 	internVibrate(100);
 
  	disableScan();
- 	
- 	// do not submit conclusion, if no notwork available
-	if (isNoNetwork()) { return; }
  	
 	myfocusOnElement(null);
 	if (valstr.indexOf('/') >= 0) {

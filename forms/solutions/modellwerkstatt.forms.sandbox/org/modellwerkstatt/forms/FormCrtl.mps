@@ -14719,7 +14719,7 @@
           <property role="Xl_RC" value="" />
         </node>
         <node concept="Xl_RD" id="c79$i9pMMr" role="37wK5m">
-          <property role="Xl_RC" value="Ein Problem / Fehler ist aufgetreten. Das Kommando wurde beendet!" />
+          <property role="Xl_RC" value="Ein Problem ist aufgetreten. Das Kommando wurde beendet!" />
         </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQxQ" role="Qtgdg">
