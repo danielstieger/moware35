@@ -2923,5 +2923,33 @@
     </node>
     <node concept="1opIMY" id="4KZ25DhcNb2" role="_YvDr" />
   </node>
+  <node concept="_UgoZ" id="7Mnig$xBqGE">
+    <property role="TrG5h" value="CheckOnUpdateUsage" />
+    <property role="_Wzho" value="CheckForOnUpdateUsage" />
+    <property role="2BwPSy" value="migration" />
+    <property role="2BwPS$" value="MoWare60" />
+    <node concept="_XfAh" id="7Mnig$xBqGF" role="_YvDr">
+      <property role="_XH9r" value="OnUpdate Usage" />
+      <ref role="_XDHR" to="sgb:6asTO4X6FTz" resolve="InputDelegateDeclaration" />
+      <node concept="_ZGcI" id="7Mnig$xBqGG" role="_XPhp">
+        <node concept="3clFbS" id="7Mnig$xBqGH" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="7Mnig$xBqGI" role="_XDHO">
+        <node concept="3clFbS" id="7Mnig$xBqGJ" role="2VODD2">
+          <node concept="3clFbF" id="7Mnig$xBC$G" role="3cqZAp">
+            <node concept="2OqwBi" id="7Mnig$xBOwz" role="3clFbG">
+              <node concept="2OqwBi" id="7Mnig$xBDGf" role="2Oq$k0">
+                <node concept="_YI3z" id="7Mnig$xBC$F" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7Mnig$xBOg9" role="2OqNvi">
+                  <ref role="3Tt5mk" to="sgb:6asTO4XiBeu" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="7Mnig$xBQFd" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
