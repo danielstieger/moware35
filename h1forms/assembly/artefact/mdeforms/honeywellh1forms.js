@@ -76,7 +76,7 @@ function onBarcodeDataReady (data, type, time) {
 	// disableScan();
 	myfocusOnElement(null);
 
-	defaultReader.close(function(result) {
+	/* defaultReader.close(function(result) {
         	if (result.status === 0) {
             	var f = $('form');
 				f.NaviCrtl.value = conclusion;
@@ -90,8 +90,11 @@ function onBarcodeDataReady (data, type, time) {
 				f.NaviCrtl.value = conclusion;
 				f.submit();			
 	        }    
-        });
+        }); */
     
+    var f = $('form');
+	f.NaviCrtl.value = conclusion;
+	f.submit();
 
 }
 
