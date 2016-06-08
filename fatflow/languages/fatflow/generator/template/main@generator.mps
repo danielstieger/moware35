@@ -21227,6 +21227,19 @@
         <node concept="3clFbS" id="6$50Ud$mve8" role="3clF47" />
       </node>
       <node concept="2tJIrI" id="7ubUX4ZTsX0" role="jymVt" />
+      <node concept="3clFb_" id="77sCLQCBnuO" role="jymVt">
+        <property role="1EzhhJ" value="false" />
+        <property role="TrG5h" value="updateSettings" />
+        <node concept="37vLTG" id="77sCLQCBnuP" role="3clF46">
+          <property role="TrG5h" value="provider" />
+          <node concept="3uibUv" id="77sCLQCBnuQ" role="1tU5fm">
+            <ref role="3uigEE" to="28jr:5T_hheWfEqM" resolve="IOFXBatchTask.IMonitoringSettingsProvider" />
+          </node>
+        </node>
+        <node concept="3cqZAl" id="77sCLQCBnuR" role="3clF45" />
+        <node concept="3Tm1VV" id="77sCLQCBnuS" role="1B3o_S" />
+        <node concept="3clFbS" id="77sCLQCBnuU" role="3clF47" />
+      </node>
       <node concept="2tJIrI" id="7ubUX4ZTsXG" role="jymVt" />
       <node concept="3clFb_" id="7ubUX52knoq" role="jymVt">
         <property role="1EzhhJ" value="false" />

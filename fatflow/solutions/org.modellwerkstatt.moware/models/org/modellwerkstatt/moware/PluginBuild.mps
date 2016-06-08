@@ -28,7 +28,7 @@
       </node>
       <node role="version" roleId="kdzh.6592112598314498931" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2013642546067902601" nodeInfo="ng">
         <node role="parts" roleId="3ior.4903714810883783243" type="3ior.BuildTextStringPart" typeId="3ior.4903714810883702019" id="2013642546067902615" nodeInfo="ng">
-          <property name="text" nameId="3ior.4903714810883755350" value="MPS 3.2 / moware60 Release RC5 (jar reorg)" />
+          <property name="text" nameId="3ior.4903714810883755350" value="MPS 3.2 / moware60 Release RC5 (pre1)" />
         </node>
       </node>
       <node role="description" roleId="kdzh.2172791612906637490" type="3ior.BuildStringNotEmpty" typeId="3ior.841011766566059607" id="2013642546067902611" nodeInfo="ng">
