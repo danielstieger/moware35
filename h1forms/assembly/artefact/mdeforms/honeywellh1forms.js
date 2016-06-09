@@ -25,8 +25,8 @@ function l(s){
 function onBarcodeReaderComplete (result){
 	if (result.status === 0) {        
     	// Configure the symbologies needed. Buffer the settings and commit them at once.
-        defaultReader.setBuffered("Symbology", "Code39", "Enable", "true", onSetBufferedComplete);
-        defaultReader.setBuffered("Symbology", "Code128", "EnableCode128", "true", onSetBufferedComplete);
+        defaultReader.setBuffered("Symbology", "EANUPC", "EnableEAN13", "true", onSetBufferedComplete);
+        defaultReader.setBuffered("Symbology", "EANUPC", "EAN13CheckDigit", "true", onSetBufferedComplete);
         defaultReader.commitBuffer(onCommitComplete);
 
         // Add an event handler for the barcodedataready event
@@ -64,7 +64,7 @@ function onCommitComplete (resultArray){
                 
         } //endfor
 	}
-	l('Commit complete');
+	/* l('Commit complete'); */
 }
 
 // Handle barcode data when available
