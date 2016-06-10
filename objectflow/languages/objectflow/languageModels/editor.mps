@@ -4326,6 +4326,16 @@
         <ref role="1NtTu8" to="un0u:54AO9SbtAec" />
       </node>
       <node concept="3F0ifn" id="54AO9SbvqfU" role="3EZMnx" />
+      <node concept="3F0ifn" id="1Rx6rUSsRnV" role="3EZMnx" />
+      <node concept="3F2HdR" id="1Rx6rUSsRpm" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1Rx6rUSsRmJ" />
+        <node concept="2iRkQZ" id="1Rx6rUSsRpo" role="2czzBx" />
+        <node concept="3F0ifn" id="1Rx6rUSsRqW" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;sqlstring / rowmapper&gt;" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1Rx6rUSsRnW" role="3EZMnx" />
       <node concept="3F0ifn" id="54AO9SbvqfK" role="3EZMnx" />
       <node concept="3F2HdR" id="fD38WLr" role="3EZMnx">
         <property role="2czwfN" value="false" />

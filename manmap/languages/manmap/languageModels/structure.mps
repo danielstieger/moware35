@@ -926,9 +926,6 @@
     <node concept="PrWs8" id="6TB1IkoA2ji" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
-    <node concept="PrWs8" id="1y3D6gOVujb" role="PzmwI">
-      <ref role="PrY4T" node="7opW4z3To$c" resolve="IDataBaseOperation" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6TB1IkohxSX">
     <property role="TrG5h" value="SqlStringEntityRef" />
@@ -967,6 +964,38 @@
     <node concept="M4N5e" id="3sx4Hz3QNts" role="M5hS2">
       <property role="1uS6qo" value="Checkout" />
       <property role="1uS6qv" value="false" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1Rx6rUSp3_E">
+    <property role="TrG5h" value="IRepositoryField" />
+    <node concept="PrWs8" id="1Rx6rUSp3_F" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1Rx6rUSp3_H">
+    <property role="TrG5h" value="SqlStringField" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1Rx6rUSp3_K" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="sqlString" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6TB1IkohjIs" resolve="SqlString" />
+    </node>
+    <node concept="PrWs8" id="1Rx6rUSp3_I" role="PzmwI">
+      <ref role="PrY4T" node="1Rx6rUSp3_E" resolve="IRepositoryField" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1Rx6rUSp5XL">
+    <property role="TrG5h" value="RowMapperField" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1Rx6rUSp5XO" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rowMapper" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
+    </node>
+    <node concept="PrWs8" id="1Rx6rUSp5XM" role="PzmwI">
+      <ref role="PrY4T" node="1Rx6rUSp3_E" resolve="IRepositoryField" />
     </node>
   </node>
 </model>

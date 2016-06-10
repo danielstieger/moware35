@@ -1522,6 +1522,12 @@
       <property role="20kJfa" value="documentation2" />
       <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
     </node>
+    <node concept="1TJgyj" id="1Rx6rUSsRmJ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="repoFields" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="r5tz:1Rx6rUSp3_E" resolve="IRepositoryField" />
+    </node>
     <node concept="PrWs8" id="6W_Qo9f2MnD" role="PzmwI">
       <ref role="PrY4T" to="r5tz:EYyuKpdQjB" resolve="IRepository" />
     </node>

@@ -1872,5 +1872,43 @@
       <node concept="l2Vlx" id="6TB1IkooBRz" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="1Rx6rUSp3_R">
+    <ref role="1XX52x" to="r5tz:1Rx6rUSp3_H" resolve="SqlStringField" />
+    <node concept="3EZMnI" id="1Rx6rUSp5Xc" role="2wV5jI">
+      <node concept="3F0ifn" id="1Rx6rUSp5Xj" role="3EZMnx">
+        <property role="3F0ifm" value="SqlString" />
+        <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
+      </node>
+      <node concept="3F0A7n" id="1Rx6rUSp5Xp" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F1sOY" id="1Rx6rUSp5Xx" role="3EZMnx">
+        <ref role="1NtTu8" to="r5tz:1Rx6rUSp3_K" />
+      </node>
+      <node concept="3F0ifn" id="1Rx6rUSp5XF" role="3EZMnx">
+        <property role="3F0ifm" value=" ;" />
+      </node>
+      <node concept="l2Vlx" id="1Rx6rUSp5Xf" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1Rx6rUSp5XV">
+    <ref role="1XX52x" to="r5tz:1Rx6rUSp5XL" resolve="RowMapperField" />
+    <node concept="3EZMnI" id="1Rx6rUSp7VP" role="2wV5jI">
+      <node concept="3F0ifn" id="1Rx6rUSp7VQ" role="3EZMnx">
+        <property role="3F0ifm" value="SqlString" />
+        <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
+      </node>
+      <node concept="3F0A7n" id="1Rx6rUSp7VR" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F1sOY" id="1Rx6rUSp7VS" role="3EZMnx">
+        <ref role="1NtTu8" to="r5tz:1Rx6rUSp5XO" />
+      </node>
+      <node concept="3F0ifn" id="1Rx6rUSp7VT" role="3EZMnx">
+        <property role="3F0ifm" value=" ;" />
+      </node>
+      <node concept="l2Vlx" id="1Rx6rUSp7VU" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
