@@ -10571,6 +10571,83 @@
       </node>
       <node concept="17QB3L" id="6g3SR2CPip0" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="qHvcCB4MKB" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="TrG5h" value="getScope" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="tpcu:3fifI_xCJOQ" resolve="getScope" />
+      <node concept="3Tm1VV" id="qHvcCB4MKC" role="1B3o_S" />
+      <node concept="3clFbS" id="qHvcCB4MLn" role="3clF47">
+        <node concept="3clFbH" id="qHvcCB4N5t" role="3cqZAp" />
+        <node concept="3clFbJ" id="qHvcCB4NbC" role="3cqZAp">
+          <node concept="3clFbS" id="qHvcCB4NbD" role="3clFbx">
+            <node concept="3cpWs8" id="qHvcCB4NbF" role="3cqZAp">
+              <node concept="3cpWsn" id="qHvcCB4NbG" role="3cpWs9">
+                <property role="TrG5h" value="repofiled" />
+                <node concept="_YKpA" id="qHvcCB4NbH" role="1tU5fm">
+                  <node concept="3Tqbb2" id="qHvcCB4NbI" role="_ZDj9">
+                    <ref role="ehGHo" to="r5tz:1Rx6rUSp3_E" resolve="IRepositoryField" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="qHvcCB4NbK" role="33vP2m">
+                  <node concept="13iPFW" id="qHvcCB4NbL" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="qHvcCB4OUn" role="2OqNvi">
+                    <ref role="3TtcxE" to="un0u:1Rx6rUSsRmJ" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="qHvcCB4NbR" role="3cqZAp">
+              <node concept="2YIFZM" id="qHvcCB4NbS" role="3cqZAk">
+                <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                <node concept="37vLTw" id="qHvcCB4NbT" role="37wK5m">
+                  <ref role="3cqZAo" node="qHvcCB4NbG" resolve="repofiled" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="qHvcCB4NbU" role="3clFbw">
+            <node concept="37vLTw" id="qHvcCB4NbV" role="2Oq$k0">
+              <ref role="3cqZAo" node="qHvcCB4MLo" resolve="kind" />
+            </node>
+            <node concept="2Zo12i" id="qHvcCB4NbW" role="2OqNvi">
+              <node concept="chp4Y" id="qHvcCB4Pp3" role="2Zo12j">
+                <ref role="cht4Q" to="r5tz:1Rx6rUSp3_E" resolve="IRepositoryField" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="qHvcCB4Nx8" role="3cqZAp" />
+        <node concept="3clFbF" id="qHvcCB4NbY" role="3cqZAp">
+          <node concept="2OqwBi" id="qHvcCB4NbZ" role="3clFbG">
+            <node concept="13iAh5" id="qHvcCB4Nc0" role="2Oq$k0">
+              <ref role="3eA5LN" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+            </node>
+            <node concept="2qgKlT" id="qHvcCB4Nc1" role="2OqNvi">
+              <ref role="37wK5l" to="tpcu:3fifI_xCJOQ" resolve="getScope" />
+              <node concept="37vLTw" id="qHvcCB4Nc2" role="37wK5m">
+                <ref role="3cqZAo" node="qHvcCB4MLo" resolve="kind" />
+              </node>
+              <node concept="37vLTw" id="qHvcCB4Nc3" role="37wK5m">
+                <ref role="3cqZAo" node="qHvcCB4MLq" resolve="child" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="qHvcCB4MLo" role="3clF46">
+        <property role="TrG5h" value="kind" />
+        <node concept="3THzug" id="qHvcCB4MLp" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="qHvcCB4MLq" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3Tqbb2" id="qHvcCB4MLr" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="qHvcCB4MLs" role="3clF45">
+        <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+    </node>
   </node>
   <node concept="13h7C7" id="5cU7ygpBCJd">
     <property role="3GE5qa" value="BusinessObject" />

@@ -974,6 +974,7 @@
   </node>
   <node concept="1TIwiD" id="1Rx6rUSp3_H">
     <property role="TrG5h" value="SqlStringField" />
+    <property role="3GE5qa" value="repofields" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1Rx6rUSp3_K" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -987,6 +988,7 @@
   </node>
   <node concept="1TIwiD" id="1Rx6rUSp5XL">
     <property role="TrG5h" value="RowMapperField" />
+    <property role="3GE5qa" value="repofields" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1Rx6rUSp5XO" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -996,6 +998,17 @@
     </node>
     <node concept="PrWs8" id="1Rx6rUSp5XM" role="PzmwI">
       <ref role="PrY4T" node="1Rx6rUSp3_E" resolve="IRepositoryField" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="qHvcCAVs5N">
+    <property role="3GE5qa" value="repofields" />
+    <property role="TrG5h" value="SqlStringFieldRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="qHvcCAVs71" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="sqlstringField" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1Rx6rUSp3_H" resolve="SqlStringField" />
     </node>
   </node>
 </model>

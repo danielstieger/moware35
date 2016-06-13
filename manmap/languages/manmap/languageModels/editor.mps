@@ -1873,6 +1873,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1Rx6rUSp3_R">
+    <property role="3GE5qa" value="repofields" />
     <ref role="1XX52x" to="r5tz:1Rx6rUSp3_H" resolve="SqlStringField" />
     <node concept="3EZMnI" id="1Rx6rUSp5Xc" role="2wV5jI">
       <node concept="3F0ifn" id="1Rx6rUSp5Xj" role="3EZMnx">
@@ -1892,10 +1893,11 @@
     </node>
   </node>
   <node concept="24kQdi" id="1Rx6rUSp5XV">
+    <property role="3GE5qa" value="repofields" />
     <ref role="1XX52x" to="r5tz:1Rx6rUSp5XL" resolve="RowMapperField" />
     <node concept="3EZMnI" id="1Rx6rUSp7VP" role="2wV5jI">
       <node concept="3F0ifn" id="1Rx6rUSp7VQ" role="3EZMnx">
-        <property role="3F0ifm" value="SqlString" />
+        <property role="3F0ifm" value="RowMapper" />
         <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
       </node>
       <node concept="3F0A7n" id="1Rx6rUSp7VR" role="3EZMnx">
@@ -1908,6 +1910,20 @@
         <property role="3F0ifm" value=" ;" />
       </node>
       <node concept="l2Vlx" id="1Rx6rUSp7VU" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="qHvcCAVs8l">
+    <property role="3GE5qa" value="repofields" />
+    <ref role="1XX52x" to="r5tz:qHvcCAVs5N" resolve="SqlStringFieldRef" />
+    <node concept="1iCGBv" id="qHvcCAVsxW" role="2wV5jI">
+      <ref role="1NtTu8" to="r5tz:qHvcCAVs71" />
+      <node concept="1sVBvm" id="qHvcCAVsxY" role="1sWHZn">
+        <node concept="3F0A7n" id="qHvcCAVsyj" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

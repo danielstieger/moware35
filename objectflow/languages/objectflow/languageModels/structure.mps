@@ -1534,6 +1534,9 @@
     <node concept="PrWs8" id="6g3SR2CPioI" role="PzmwI">
       <ref role="PrY4T" node="2jXWHXa_nYK" resolve="IO2RTComponent" />
     </node>
+    <node concept="PrWs8" id="qHvcCAYMxs" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6W_Qo9f2MnC">
     <property role="3GE5qa" value="OFXCore.repository" />

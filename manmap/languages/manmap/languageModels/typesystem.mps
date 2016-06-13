@@ -3139,5 +3139,29 @@
       <ref role="1YaFvo" to="r5tz:4ufYzPFopIG" resolve="ListJoinOption" />
     </node>
   </node>
+  <node concept="1YbPZF" id="qHvcCAXgv4">
+    <property role="TrG5h" value="typeof_SqlStringFieldRef" />
+    <property role="3GE5qa" value="repofields" />
+    <node concept="3clFbS" id="qHvcCAXgv5" role="18ibNy">
+      <node concept="1Z5TYs" id="qHvcCAXh84" role="3cqZAp">
+        <node concept="mw_s8" id="qHvcCAXh8M" role="1ZfhKB">
+          <node concept="2c44tf" id="qHvcCAXh9Q" role="mwGJk">
+            <node concept="17QB3L" id="qHvcCAXhbo" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="qHvcCAXh87" role="1ZfhK$">
+          <node concept="1Z2H0r" id="qHvcCAXgIo" role="mwGJk">
+            <node concept="1YBJjd" id="qHvcCAXgJ2" role="1Z2MuG">
+              <ref role="1YBMHb" node="qHvcCAXgv7" resolve="sqlStringFieldRef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="qHvcCAXgv7" role="1YuTPh">
+      <property role="TrG5h" value="sqlStringFieldRef" />
+      <ref role="1YaFvo" to="r5tz:qHvcCAVs5N" resolve="SqlStringFieldRef" />
+    </node>
+  </node>
 </model>
 

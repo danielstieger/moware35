@@ -278,9 +278,7 @@
       <concept id="3262649880241050695" name="org.modellwerkstatt.objectflow.structure.TestInfo" flags="ng" index="2fu_q0">
         <child id="3262649880241050696" name="exp" index="2fu_qf" />
       </concept>
-      <concept id="8009046666043401703" name="org.modellwerkstatt.objectflow.structure.ModelRepository" flags="ig" index="wbJL_">
-        <child id="2153030403788862895" name="repoFields" index="2_$AKh" />
-      </concept>
+      <concept id="8009046666043401703" name="org.modellwerkstatt.objectflow.structure.ModelRepository" flags="ig" index="wbJL_" />
       <concept id="8009046666043401704" name="org.modellwerkstatt.objectflow.structure.ModelRepositoryMethod" flags="ig" index="wbJLE">
         <property id="8009046666043401713" name="methodType" index="wbJLN" />
       </concept>
@@ -440,9 +438,6 @@
       <concept id="8915366638470223859" name="org.modellwerkstatt.manmap.structure.InOperation" flags="ng" index="2zQQ_b">
         <child id="8915366638470223860" name="operand" index="2zQQ_c" />
         <child id="8915366638470223861" name="targetList" index="2zQQ_d" />
-      </concept>
-      <concept id="2153030403787864429" name="org.modellwerkstatt.manmap.structure.SqlStringField" flags="ng" index="2_xi3j">
-        <child id="2153030403787864432" name="sqlString" index="2_xi3e" />
       </concept>
       <concept id="4388680175614537753" name="org.modellwerkstatt.manmap.structure.AlternativeTableName" flags="ng" index="CEw_7">
         <property id="4388680175614543797" name="variant" index="CEBVF" />
@@ -1705,28 +1700,6 @@
   </node>
   <node concept="wbJL_" id="36k2Uwstchd">
     <property role="TrG5h" value="TestModelRepo" />
-    <node concept="2_xi3j" id="1Rx6rUS_jqK" role="2_$AKh">
-      <property role="TrG5h" value="testSTring" />
-      <node concept="1Q8zPT" id="1Rx6rUS_jqM" role="2_xi3e">
-        <node concept="19SGf9" id="1Rx6rUS_jqO" role="1Q8hHE">
-          <node concept="19SUe$" id="1Rx6rUS_jFq" role="19SJt6">
-            <property role="19SUeA" value="SELECT " />
-          </node>
-          <node concept="1Q8hyx" id="1Rx6rUS_jFv" role="19SJt6">
-            <ref role="1Q8sVa" node="36k2UwssLqV" />
-          </node>
-          <node concept="19SUe$" id="1Rx6rUS_jFw" role="19SJt6">
-            <property role="19SUeA" value=" FROM " />
-          </node>
-          <node concept="1Q8hzo" id="1Rx6rUS_jFp" role="19SJt6">
-            <ref role="1Q8qb1" node="2xB8IJbMbEB" resolve="MapExtendedProforma" />
-          </node>
-          <node concept="19SUe$" id="1Rx6rUS_jFr" role="19SJt6">
-            <property role="19SUeA" value="\n" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3Tm1VV" id="36k2Uwstche" role="1B3o_S" />
     <node concept="wbJLE" id="36k2Uwstchj" role="jymVt">
       <property role="TrG5h" value="checkoutPerformaToDateWithPositions" />
