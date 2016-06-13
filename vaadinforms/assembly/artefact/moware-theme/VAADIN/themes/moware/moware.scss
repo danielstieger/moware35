@@ -7,10 +7,10 @@
    		background-color: #414B56;
    	}
    	 
-	.mo-small-mrg.v-margin-left   {padding-left:   10px;}
-	.mo-small-mrg.v-margin-right  {padding-right:  10px;}
-	.mo-small-mrg.v-margin-top    {padding-top:    10px;}
-	.mo-small-mrg.v-margin-bottom {padding-bottom: 10px;}
+	.mo-small-mrg.v-margin-left   {padding-left:   9px;}
+	.mo-small-mrg.v-margin-right  {padding-right:  9px;}
+	.mo-small-mrg.v-margin-top    {padding-top:    9px;}
+	.mo-small-mrg.v-margin-bottom {padding-bottom: 9px;}
 
 	.mo-bottombtnpane-mrg {
 		padding-left:   0px;
@@ -86,10 +86,10 @@
 		// flag is managed by flagborder-noerror-table
 	}
 	
-	.v-table-body {
+	/* .v-table-body {
 		background-image: url("tblback3.png");
     	background-repeat: repeat;
-	}
+	} */
 	
 	.v-table-header-wrap {
 		background-image: -webkit-linear-gradient(top, $v-background-color 2%, #B8B8B8 98%);
@@ -134,7 +134,7 @@
 			margin: 0px !important;
 			padding: 0px 5px 0px 5px !important;
 			font-weight: 100 !important;
-			height: 20px !important;
+			height: 18px !important;
 		}		
 		
 		.mo-right-input {

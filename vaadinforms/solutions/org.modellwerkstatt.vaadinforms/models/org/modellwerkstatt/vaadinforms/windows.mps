@@ -490,26 +490,46 @@
               </node>
             </node>
             <node concept="3clFbH" id="61_QXqSfLPb" role="3cqZAp" />
-            <node concept="3SKdUt" id="61_QXqSf0ku" role="3cqZAp">
-              <node concept="3SKdUq" id="61_QXqSf0xQ" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: close vaadin session here? " />
-              </node>
-            </node>
             <node concept="3SKdUt" id="61_QXqSf0Rv" role="3cqZAp">
               <node concept="3SKdUq" id="61_QXqSf170" role="3SKWNk">
-                <property role="3SKdUp" value="what about other browser tabs? " />
+                <property role="3SKdUp" value="what about other browser tabs? .... " />
               </node>
             </node>
-            <node concept="3clFbF" id="61_QXqSeDLg" role="3cqZAp">
-              <node concept="2OqwBi" id="61_QXqSeGIP" role="3clFbG">
-                <node concept="2OqwBi" id="61_QXqSeFjb" role="2Oq$k0">
-                  <node concept="Xjq3P" id="61_QXqSeZX$" role="2Oq$k0" />
-                  <node concept="liA8E" id="61_QXqSeGF8" role="2OqNvi">
-                    <ref role="37wK5l" to="o2tm:~UI.getSession():com.vaadin.server.VaadinSession" resolve="getSession" />
+            <node concept="3clFbJ" id="qHvcCATHK_" role="3cqZAp">
+              <node concept="3clFbS" id="qHvcCATHKB" role="3clFbx">
+                <node concept="3clFbF" id="61_QXqSeDLg" role="3cqZAp">
+                  <node concept="2OqwBi" id="61_QXqSeGIP" role="3clFbG">
+                    <node concept="2OqwBi" id="61_QXqSeFjb" role="2Oq$k0">
+                      <node concept="Xjq3P" id="61_QXqSeZX$" role="2Oq$k0" />
+                      <node concept="liA8E" id="61_QXqSeGF8" role="2OqNvi">
+                        <ref role="37wK5l" to="o2tm:~UI.getSession():com.vaadin.server.VaadinSession" resolve="getSession" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="61_QXqSeGTY" role="2OqNvi">
+                      <ref role="37wK5l" to="7ym1:~VaadinSession.close():void" resolve="close" />
+                    </node>
                   </node>
                 </node>
-                <node concept="liA8E" id="61_QXqSeGTY" role="2OqNvi">
-                  <ref role="37wK5l" to="7ym1:~VaadinSession.close():void" resolve="close" />
+              </node>
+              <node concept="3clFbC" id="qHvcCATMIF" role="3clFbw">
+                <node concept="3cmrfG" id="qHvcCATMWr" role="3uHU7w">
+                  <property role="3cmrfH" value="1" />
+                </node>
+                <node concept="2OqwBi" id="qHvcCATM6m" role="3uHU7B">
+                  <node concept="2OqwBi" id="qHvcCATKXX" role="2Oq$k0">
+                    <node concept="2OqwBi" id="qHvcCATINV" role="2Oq$k0">
+                      <node concept="Xjq3P" id="qHvcCATIym" role="2Oq$k0" />
+                      <node concept="liA8E" id="qHvcCATKVf" role="2OqNvi">
+                        <ref role="37wK5l" to="o2tm:~UI.getSession():com.vaadin.server.VaadinSession" resolve="getSession" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="qHvcCATLrt" role="2OqNvi">
+                      <ref role="37wK5l" to="7ym1:~VaadinSession.getUIs():java.util.Collection" resolve="getUIs" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="qHvcCATMrS" role="2OqNvi">
+                    <ref role="37wK5l" to="k7g3:~Collection.size():int" resolve="size" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -6225,11 +6245,6 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="7QITxIiTrPa" role="3clF47">
-        <node concept="3SKdUt" id="7QITxIiTFnc" role="3cqZAp">
-          <node concept="3SKdUq" id="7QITxIiTFAJ" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: remove static method " />
-          </node>
-        </node>
         <node concept="3clFbH" id="7QITxIiTFEO" role="3cqZAp" />
         <node concept="3clFbJ" id="7QITxIiTtD8" role="3cqZAp">
           <node concept="3clFbS" id="7QITxIiTtD9" role="3clFbx">
@@ -6662,11 +6677,6 @@
               </node>
             </node>
             <node concept="3clFbS" id="6LLJlpJYJkY" role="3eOfB_">
-              <node concept="3SKdUt" id="6LLJlpJYXkX" role="3cqZAp">
-                <node concept="3SKdUq" id="6LLJlpJYXzh" role="3SKWNk">
-                  <property role="3SKdUp" value="TODO: HOTKEYS are not handled correctly. " />
-                </node>
-              </node>
               <node concept="3cpWs6" id="6LLJlpJYJkZ" role="3cqZAp">
                 <node concept="2ShNRf" id="6LLJlpJYJl0" role="3cqZAk">
                   <node concept="1pGfFk" id="6LLJlpJYJl1" role="2ShVmc">
@@ -6705,11 +6715,6 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="1CcHeoVL2tr" role="3clF47">
-        <node concept="3SKdUt" id="7QITxIiTG6b" role="3cqZAp">
-          <node concept="3SKdUq" id="7QITxIiTG6c" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: remove static method " />
-          </node>
-        </node>
         <node concept="3clFbH" id="7QITxIiTFX6" role="3cqZAp" />
         <node concept="3SKdUt" id="1CcHeoVL2ts" role="3cqZAp">
           <node concept="3SKdUq" id="1CcHeoVL2tt" role="3SKWNk">
@@ -15406,6 +15411,46 @@
           </node>
         </node>
         <node concept="3clFbH" id="18291WBEKcb" role="3cqZAp" />
+        <node concept="3cpWs8" id="qHvcCAUkq9" role="3cqZAp">
+          <node concept="3cpWsn" id="qHvcCAUkqc" role="3cpWs9">
+            <property role="TrG5h" value="pixlsum" />
+            <node concept="10Oyi0" id="qHvcCAUkq7" role="1tU5fm" />
+            <node concept="3cmrfG" id="qHvcCAUrOf" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="1DcWWT" id="qHvcCAUv32" role="3cqZAp">
+          <node concept="3clFbS" id="qHvcCAUv33" role="2LFqv$">
+            <node concept="3clFbF" id="qHvcCAUzkV" role="3cqZAp">
+              <node concept="d57v9" id="qHvcCAU$KV" role="3clFbG">
+                <node concept="37vLTw" id="qHvcCAU$L0" role="37vLTJ">
+                  <ref role="3cqZAo" node="qHvcCAUkqc" resolve="pixlsum" />
+                </node>
+                <node concept="2OqwBi" id="qHvcCAU$KX" role="37vLTx">
+                  <node concept="37vLTw" id="qHvcCAU$KY" role="2Oq$k0">
+                    <ref role="3cqZAo" node="qHvcCAUv4W" resolve="col" />
+                  </node>
+                  <node concept="2OwXpG" id="qHvcCAU$KZ" role="2OqNvi">
+                    <ref role="2Oxat5" node="18291WBFuWZ" resolve="widht" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="qHvcCAUv4W" role="1Duv9x">
+            <property role="TrG5h" value="col" />
+            <node concept="3uibUv" id="qHvcCAUv4X" role="1tU5fm">
+              <ref role="3uigEE" node="5XHFlROKCNh" resolve="VTableForm.VaadinColumn" />
+            </node>
+          </node>
+          <node concept="37vLTw" id="qHvcCAUv4Y" role="1DdaDG">
+            <ref role="3cqZAo" node="5tLhDse44bA" resolve="visibleColumns" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="qHvcCAUsaq" role="3cqZAp" />
+        <node concept="3clFbH" id="qHvcCAUth5" role="3cqZAp" />
+        <node concept="3clFbH" id="qHvcCAU_0T" role="3cqZAp" />
         <node concept="1DcWWT" id="18291WBELnS" role="3cqZAp">
           <node concept="3clFbS" id="18291WBELnU" role="2LFqv$">
             <node concept="3clFbH" id="VjQfKRTACj" role="3cqZAp" />
@@ -15577,32 +15622,74 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="5tLhDsdXxVb" role="3cqZAp">
-              <node concept="2OqwBi" id="5tLhDsdXyhy" role="3clFbG">
-                <node concept="37vLTw" id="5tLhDsdXxV9" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
-                </node>
-                <node concept="liA8E" id="5tLhDsdXA8$" role="2OqNvi">
-                  <ref role="37wK5l" to="o2tm:~Table.setColumnWidth(java.lang.Object,int):void" resolve="setColumnWidth" />
-                  <node concept="2OqwBi" id="18291WBFaRi" role="37wK5m">
-                    <node concept="37vLTw" id="18291WBF9wo" role="2Oq$k0">
-                      <ref role="3cqZAo" node="18291WBELnV" resolve="col" />
+            <node concept="3clFbH" id="qHvcCAUdH3" role="3cqZAp" />
+            <node concept="3SKdUt" id="qHvcCAUAO1" role="3cqZAp">
+              <node concept="3SKWN0" id="qHvcCAUAO2" role="3SKWNk">
+                <node concept="3clFbF" id="5tLhDsdXxVb" role="3SKWNf">
+                  <node concept="2OqwBi" id="5tLhDsdXyhy" role="3clFbG">
+                    <node concept="37vLTw" id="5tLhDsdXxV9" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
                     </node>
-                    <node concept="2OwXpG" id="18291WBFclG" role="2OqNvi">
-                      <ref role="2Oxat5" node="5tLhDsel3m_" resolve="propertyName" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="18291WBFeV8" role="37wK5m">
-                    <node concept="37vLTw" id="18291WBFe0A" role="2Oq$k0">
-                      <ref role="3cqZAo" node="18291WBELnV" resolve="col" />
-                    </node>
-                    <node concept="2OwXpG" id="18291WBFE__" role="2OqNvi">
-                      <ref role="2Oxat5" node="18291WBFuWZ" resolve="widht" />
+                    <node concept="liA8E" id="5tLhDsdXA8$" role="2OqNvi">
+                      <ref role="37wK5l" to="o2tm:~Table.setColumnWidth(java.lang.Object,int):void" resolve="setColumnWidth" />
+                      <node concept="2OqwBi" id="18291WBFaRi" role="37wK5m">
+                        <node concept="37vLTw" id="18291WBF9wo" role="2Oq$k0">
+                          <ref role="3cqZAo" node="18291WBELnV" resolve="col" />
+                        </node>
+                        <node concept="2OwXpG" id="18291WBFclG" role="2OqNvi">
+                          <ref role="2Oxat5" node="5tLhDsel3m_" resolve="propertyName" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="18291WBFeV8" role="37wK5m">
+                        <node concept="37vLTw" id="18291WBFe0A" role="2Oq$k0">
+                          <ref role="3cqZAo" node="18291WBELnV" resolve="col" />
+                        </node>
+                        <node concept="2OwXpG" id="18291WBFE__" role="2OqNvi">
+                          <ref role="2Oxat5" node="18291WBFuWZ" resolve="widht" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="qHvcCAI1na" role="3cqZAp">
+              <node concept="2OqwBi" id="qHvcCAI2xr" role="3clFbG">
+                <node concept="37vLTw" id="qHvcCAI1n8" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
+                </node>
+                <node concept="liA8E" id="qHvcCAI6$W" role="2OqNvi">
+                  <ref role="37wK5l" to="o2tm:~Table.setColumnExpandRatio(java.lang.Object,float):void" resolve="setColumnExpandRatio" />
+                  <node concept="2OqwBi" id="qHvcCAI7rH" role="37wK5m">
+                    <node concept="37vLTw" id="qHvcCAI77b" role="2Oq$k0">
+                      <ref role="3cqZAo" node="18291WBELnV" resolve="col" />
+                    </node>
+                    <node concept="2OwXpG" id="qHvcCAI7Wg" role="2OqNvi">
+                      <ref role="2Oxat5" node="5tLhDsel3m_" resolve="propertyName" />
+                    </node>
+                  </node>
+                  <node concept="FJ1c_" id="qHvcCAUGtr" role="37wK5m">
+                    <node concept="37vLTw" id="qHvcCAUHi$" role="3uHU7w">
+                      <ref role="3cqZAo" node="qHvcCAUkqc" resolve="pixlsum" />
+                    </node>
+                    <node concept="17qRlL" id="qHvcCAUEVT" role="3uHU7B">
+                      <node concept="2$xPTn" id="qHvcCAUEgu" role="3uHU7B">
+                        <property role="2$xPTl" value="1.0f" />
+                      </node>
+                      <node concept="2OqwBi" id="qHvcCAUFIg" role="3uHU7w">
+                        <node concept="37vLTw" id="qHvcCAUFoH" role="2Oq$k0">
+                          <ref role="3cqZAo" node="18291WBELnV" resolve="col" />
+                        </node>
+                        <node concept="2OwXpG" id="qHvcCAUG51" role="2OqNvi">
+                          <ref role="2Oxat5" node="18291WBFuWZ" resolve="widht" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="qHvcCAI9x8" role="3cqZAp" />
             <node concept="3clFbJ" id="17Bod1iXTA3" role="3cqZAp">
               <node concept="3clFbS" id="17Bod1iXTA5" role="3clFbx">
                 <node concept="3clFbF" id="17Bod1iX4Tp" role="3cqZAp">
@@ -28675,11 +28762,7 @@
             <property role="3SKdUp" value="remove output path from file " />
           </node>
         </node>
-        <node concept="3SKdUt" id="omQbG9QAbl" role="3cqZAp">
-          <node concept="3SKdUq" id="omQbG9QAgf" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: temp will not work! " />
-          </node>
-        </node>
+        <node concept="3clFbH" id="qHvcCATS9K" role="3cqZAp" />
         <node concept="3cpWs8" id="omQbG9QABB" role="3cqZAp">
           <node concept="3cpWsn" id="omQbG9QABE" role="3cpWs9">
             <property role="TrG5h" value="filePath" />

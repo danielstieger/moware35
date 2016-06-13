@@ -41,13 +41,13 @@ $valo-menu-background-color: hsl(218, 20%, 98%);
 $v-friendly-color: #4b8df8;
 $v-error-indicator-color: #CC3D28;
 
-$v-font-size: 14px;
+$v-font-size: 13px;
 $v-line-height: 1;
 
-$v-unit-size: 26px;
-$v-unit-size--small: 24px;
-$v-unit-size--tiny: 22px;
+$v-unit-size: 24px;           // orig 26, 24, 22
+$v-unit-size--small: 22px;
+$v-unit-size--tiny: 20px;
 
-$v-table-row-height: 18px !default;
+$v-table-row-height: 16px !default;
 
 @import "../valo/valo";

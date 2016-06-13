@@ -460,11 +460,11 @@
 	}
 		3% {
 		width: 91%;
-		height: 5px;
+		height: 4px;
 	}
 		100% {
 		width: 96%;
-		height: 5px;
+		height: 4px;
 	}
 	}
 
@@ -475,11 +475,11 @@
 	}
 		3% {
 		width: 91%;
-		height: 5px;
+		height: 4px;
 	}
 		100% {
 		width: 96%;
-		height: 5px;
+		height: 4px;
 	}
 	}
 
@@ -490,11 +490,11 @@
 	}
 		3% {
 		width: 91%;
-		height: 5px;
+		height: 4px;
 	}
 		100% {
 		width: 96%;
-		height: 5px;
+		height: 4px;
 	}
 	}
 
@@ -713,25 +713,25 @@
 
 @-webkit-keyframes valo-grid-editor-footer-animate-in {
 		0% {
-		margin-top: -18px;
+		margin-top: -16px;
 	}
 	}
 
 @-moz-keyframes valo-grid-editor-footer-animate-in {
 		0% {
-		margin-top: -18px;
+		margin-top: -16px;
 	}
 	}
 
 @keyframes valo-grid-editor-footer-animate-in {
 		0% {
-		margin-top: -18px;
+		margin-top: -16px;
 	}
 	}
 
 @-webkit-keyframes valo-grid-editor-footer-animate-in-alt {
 		0% {
-		margin-bottom: -19px;
+		margin-bottom: -17px;
 	}
 		100% {
 		margin-bottom: -1px;
@@ -740,7 +740,7 @@
 
 @-moz-keyframes valo-grid-editor-footer-animate-in-alt {
 		0% {
-		margin-bottom: -19px;
+		margin-bottom: -17px;
 	}
 		100% {
 		margin-bottom: -1px;
@@ -749,7 +749,7 @@
 
 @keyframes valo-grid-editor-footer-animate-in-alt {
 		0% {
-		margin-bottom: -19px;
+		margin-bottom: -17px;
 	}
 		100% {
 		margin-bottom: -1px;
@@ -1478,19 +1478,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-tabsheet-content  > div > .v-scrollable  > .v-margin-top {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .v-tabsheet-content  > div > .v-scrollable  > .v-margin-right {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .v-tabsheet-content  > div > .v-scrollable  > .v-margin-bottom {
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 
 .v-tabsheet-content  > div > .v-scrollable  > .v-margin-left {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .v-splitpanel-vertical, .v-splitpanel-horizontal {
@@ -1625,7 +1625,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware.v-app, .moware.v-app-loading {
-	font: 300 14px/1 "Open Sans", sans-serif;
+	font: 300 13px/1 "Open Sans", sans-serif;
 	color: #444444;
 	background-color: #f3f3f3;
 	cursor: default;
@@ -1645,9 +1645,9 @@ div.v-layout.v-horizontal.v-widget {
 	left: 50%;
 	width: 28px;
 	height: 28px;
-	padding: 7px;
-	margin-top: -21px;
-	margin-left: -21px;
+	padding: 6px;
+	margin-top: -20px;
+	margin-left: -20px;
 	background: #fff url(../valo/shared/img/spinner.gif) no-repeat 50%;
 	border-radius: 2px;
 }
@@ -1656,7 +1656,7 @@ div.v-layout.v-horizontal.v-widget {
 	position: fixed;
 	z-index: 100;
 	top: 45%;
-	padding-top: 41px;
+	padding-top: 40px;
 	text-align: center;
 	left: 0;
 	right: 0;
@@ -1719,11 +1719,11 @@ div.v-layout.v-horizontal.v-widget {
 .v-ie8 .moware .v-loading-indicator, .v-ie8 .moware .v-loading-indicator-delay, .v-ie8 .moware .v-loading-indicator-wait, .v-ie9 .moware .v-loading-indicator, .v-ie9 .moware .v-loading-indicator-delay, .v-ie9 .moware .v-loading-indicator-wait {
 	width: 28px !important;
 	height: 28px;
-	padding: 7px;
+	padding: 6px;
 	background: #fff url(../valo/shared/img/spinner.gif) no-repeat 50%;
 	border-radius: 2px;
-	top: 7px;
-	right: 7px;
+	top: 6px;
+	right: 6px;
 	left: auto;
 	filter: alpha(opacity=50);
 }
@@ -1745,7 +1745,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-caption {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 	padding-bottom: 0.3em;
 	padding-left: 1px;
@@ -1767,7 +1767,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-errorindicator {
 	color: #CC3D28;
 	font-weight: 600;
-	width: 13px;
+	width: 12px;
 	text-align: center;
 }
 
@@ -1846,7 +1846,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 	color: white;
-	padding: 3px 7px;
+	padding: 3px 6px;
 	border-radius: 1px;
 	max-width: 35em;
 	overflow: hidden !important;
@@ -1861,8 +1861,8 @@ div.v-layout.v-horizontal.v-widget {
 	background-color: white;
 	background-color: #fff;
 	color: #CC3D28;
-	margin: -3px -7px;
-	padding: 3px 7px;
+	margin: -3px -6px;
+	padding: 3px 6px;
 	max-height: 10em;
 	overflow: auto;
 	font-weight: 400;
@@ -1919,8 +1919,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-contextmenu .gwt-MenuItem {
 	cursor: pointer;
-	line-height: 19px;
-	padding: 0 14px 0 7px;
+	line-height: 18px;
+	padding: 0 12px 0 6px;
 	border-radius: 1px;
 	font-weight: 400;
 	white-space: nowrap;
@@ -1943,8 +1943,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-contextmenu .gwt-MenuItem .v-icon {
-	max-height: 19px;
-	margin-right: 4px;
+	max-height: 18px;
+	margin-right: 3px;
 	min-width: 1em;
 }
 
@@ -1958,16 +1958,16 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-reconnect-dialog {
 	color: white;
-	top: 9px;
-	right: 9px;
+	top: 8px;
+	right: 8px;
 	max-width: 100%;
 	border-radius: 0;
 	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
-	padding: 9px 10px;
+	padding: 8px 10px;
 	background-color: #444;
 	background-color: rgba(68, 68, 68, 0.9);
-	line-height: 20px;
+	line-height: 18px;
 	text-align: center;
 }
 
@@ -2029,24 +2029,24 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-margin-top {
-	padding-top: 26px;
+	padding-top: 24px;
 }
 
 .moware .v-margin-right {
-	padding-right: 26px;
+	padding-right: 24px;
 }
 
 .moware .v-margin-bottom {
-	padding-bottom: 26px;
+	padding-bottom: 24px;
 }
 
 .moware .v-margin-left {
-	padding-left: 26px;
+	padding-left: 24px;
 }
 
 .moware .v-spacing {
-	width: 9px;
-	height: 9px;
+	width: 8px;
+	height: 8px;
 }
 
 .moware .v-verticallayout-well, .moware .v-horizontallayout-well {
@@ -2065,19 +2065,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-verticallayout-well  > .v-margin-top, .moware .v-horizontallayout-well  > .v-margin-top {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .moware .v-verticallayout-well  > .v-margin-right, .moware .v-horizontallayout-well  > .v-margin-right {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-verticallayout-well  > .v-margin-bottom, .moware .v-horizontallayout-well  > .v-margin-bottom {
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 
 .moware .v-verticallayout-well  > .v-margin-left, .moware .v-horizontallayout-well  > .v-margin-left {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .moware .v-verticallayout-card, .moware .v-horizontallayout-card {
@@ -2090,19 +2090,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-verticallayout-card  > .v-margin-top, .moware .v-horizontallayout-card  > .v-margin-top {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .moware .v-verticallayout-card  > .v-margin-right, .moware .v-horizontallayout-card  > .v-margin-right {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-verticallayout-card  > .v-margin-bottom, .moware .v-horizontallayout-card  > .v-margin-bottom {
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 
 .moware .v-verticallayout-card  > .v-margin-left, .moware .v-horizontallayout-card  > .v-margin-left {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .moware .v-horizontallayout-wrapping {
@@ -2110,7 +2110,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-horizontallayout-wrapping > .v-spacing + .v-slot, .moware .v-horizontallayout-wrapping > .v-slot:first-child {
-	margin-bottom: 9px;
+	margin-bottom: 8px;
 }
 
 .moware .v-horizontallayout-wrapping > .v-slot:first-child:last-child {
@@ -2125,8 +2125,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;
 	cursor: pointer;
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #181818;
 	font-weight: 400;
 	
@@ -2218,8 +2218,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-primary {
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #f1f5fa;
 	font-weight: 400;
 	
@@ -2234,9 +2234,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: inset 0 1px 0 #7da9f9;
 	box-shadow: inset 0 1px 0 #7da9f9;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
-	padding: 0 13px;
+	padding: 0 12px;
 	font-weight: bold;
-	min-width: 57px;
+	min-width: 53px;
 }
 
 .moware .v-button-primary:after {
@@ -2262,12 +2262,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .moware .v-button-primary {
-	min-width: 31px;
+	min-width: 29px;
 }
 
 .moware .v-button-friendly {
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #f1f5fa;
 	font-weight: 400;
 	
@@ -2307,8 +2307,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-danger {
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #f7eeed;
 	font-weight: 400;
 	
@@ -2447,11 +2447,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-tiny {
-	height: 22px;
-	padding: 0 10px;
+	height: 20px;
+	padding: 0 9px;
 	
 	
-	font-size: 11px;
+	font-size: 10px;
 	
 	border-radius: 2px;
 }
@@ -2465,8 +2465,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-small {
-	height: 24px;
-	padding: 0 11px;
+	height: 22px;
+	padding: 0 10px;
 	
 	
 	font-size: 12px;
@@ -2483,11 +2483,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-large {
-	height: 31px;
-	padding: 0 14px;
+	height: 29px;
+	padding: 0 13px;
 	
 	
-	font-size: 17px;
+	font-size: 16px;
 	
 	border-radius: 2px;
 }
@@ -2501,11 +2501,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-huge {
-	height: 42px;
-	padding: 0 19px;
+	height: 38px;
+	padding: 0 17px;
 	
 	
-	font-size: 23px;
+	font-size: 21px;
 	
 	border-radius: 2px;
 }
@@ -2524,7 +2524,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-button-icon-align-right .v-icon {
 	float: right;
-	margin-left: 9px;
+	margin-left: 8px;
 }
 
 .moware .v-button-icon-align-right .v-icon  + span:not(:empty) {
@@ -2548,29 +2548,29 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button-icon-align-top .v-icon  + span:not(:empty) {
-	margin-top: 5px;
+	margin-top: 4px;
 	margin-left: 0;
 }
 
 .moware .v-button-icon-only {
-	width: 26px;
+	width: 24px;
 	padding: 0;
 }
 
 .moware .v-button-icon-only.v-button-tiny {
-	width: 22px;
+	width: 20px;
 }
 
 .moware .v-button-icon-only.v-button-small {
-	width: 24px;
+	width: 22px;
 }
 
 .moware .v-button-icon-only.v-button-large {
-	width: 31px;
+	width: 29px;
 }
 
 .moware .v-button-icon-only.v-button-huge {
-	width: 42px;
+	width: 38px;
 }
 
 .moware .v-button-icon-only .v-button-caption {
@@ -2579,7 +2579,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-checkbox {
 	position: relative;
-	line-height: 13px;
+	line-height: 12px;
 	white-space: nowrap;
 }
 
@@ -2588,7 +2588,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox {
-	padding-left: 17px;
+	padding-left: 16px;
 }
 
 :root .moware .v-checkbox label {
@@ -2621,18 +2621,18 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 13px;
-	height: 13px;
+	width: 12px;
+	height: 12px;
 	position: absolute;
 	top: 0;
 	left: 0;
 	border-radius: 2px;
-	font-size: 11px;
+	font-size: 10px;
 	text-align: center;
 }
 
 :root .moware .v-checkbox > input ~ label:before {
-	height: 13px;
+	height: 12px;
 	padding: 0 6px;
 	color: #181818;
 	font-weight: 400;
@@ -2649,7 +2649,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	padding: 0;
-	height: 13px;
+	height: 12px;
 }
 
 :root .moware .v-checkbox > input ~ label:after {
@@ -2708,7 +2708,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-checkbox-small {
 	position: relative;
-	line-height: 12px;
+	line-height: 11px;
 	white-space: nowrap;
 	font-size: 12px;
 }
@@ -2718,7 +2718,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox-small {
-	padding-left: 16px;
+	padding-left: 15px;
 }
 
 :root .moware .v-checkbox-small label {
@@ -2751,8 +2751,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 12px;
-	height: 12px;
+	width: 11px;
+	height: 11px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2762,7 +2762,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox-small > input ~ label:before {
-	height: 12px;
+	height: 11px;
 	padding: 0 6px;
 	color: #181818;
 	font-weight: 400;
@@ -2779,7 +2779,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	padding: 0;
-	height: 12px;
+	height: 11px;
 }
 
 :root .moware .v-checkbox-small > input ~ label:after {
@@ -2838,9 +2838,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-checkbox-large {
 	position: relative;
-	line-height: 16px;
+	line-height: 15px;
 	white-space: nowrap;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .moware .v-checkbox-large.v-has-width label {
@@ -2848,7 +2848,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox-large {
-	padding-left: 21px;
+	padding-left: 19px;
 }
 
 :root .moware .v-checkbox-large label {
@@ -2881,8 +2881,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 16px;
-	height: 16px;
+	width: 15px;
+	height: 15px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2892,7 +2892,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox-large > input ~ label:before {
-	height: 15.5px;
+	height: 14.5px;
 	padding: 0 7px;
 	color: #181818;
 	font-weight: 400;
@@ -2909,7 +2909,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	padding: 0;
-	height: 16px;
+	height: 15px;
 }
 
 :root .moware .v-checkbox-large > input ~ label:after {
@@ -2930,7 +2930,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-checkbox-large > .v-icon, .moware .v-checkbox-large > label .v-icon {
-	margin: 0 5px 0 3px;
+	margin: 0 5px 0 2px;
 	min-width: 1em;
 	cursor: pointer;
 }
@@ -2968,8 +2968,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-filterselect {
 	position: relative;
-	width: 130px;
-	height: 26px;
+	width: 120px;
+	height: 24px;
 	border-radius: 2px;
 	white-space: nowrap;
 }
@@ -2992,9 +2992,9 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 26px;
+	height: 24px;
 	border-radius: 2px;
-	padding: 3px 6px;
+	padding: 3px 5px;
 	border: 1px solid #aaa;
 	background: white;
 	color: #474747;
@@ -3005,12 +3005,12 @@ div.v-layout.v-horizontal.v-widget {
 	transition: box-shadow 180ms, border 180ms;
 	width: 100% !important;
 	height: 100%;
-	padding-right: 27px;
+	padding-right: 25px;
 	border-radius: inherit;
 }
 
 .v-ie8 .moware .v-filterselect [class*="input"], .v-ie9 .moware .v-filterselect [class*="input"] {
-	line-height: 26px;
+	line-height: 24px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -3037,17 +3037,17 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect .v-icon + [class*="input"] {
-	padding-left: 26px;
+	padding-left: 24px;
 }
 
 .moware .v-filterselect img.v-icon {
-	max-height: 26px;
-	margin-left: 6px;
+	max-height: 24px;
+	margin-left: 5px;
 }
 
 .moware .v-filterselect span.v-icon {
 	color: #474747;
-	width: 26px;
+	width: 24px;
 	line-height: 1;
 	padding-top: 0.12em;
 }
@@ -3061,7 +3061,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	position: absolute;
-	width: 26px;
+	width: 24px;
 	top: 1px;
 	right: 1px;
 	bottom: 1px;
@@ -3081,7 +3081,7 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-transition: color 140ms;
 	transition: color 140ms;
 	position: absolute;
-	width: 26px;
+	width: 24px;
 	text-align: center;
 	top: 50%;
 	line-height: 1;
@@ -3155,7 +3155,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-suggestpopup {
-	margin-top: 4px !important;
+	margin-top: 3px !important;
 }
 
 .moware .v-filterselect-suggestpopup[class*="animate-in"] {
@@ -3195,8 +3195,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-filterselect-suggestpopup .gwt-MenuItem {
 	cursor: pointer;
-	line-height: 19px;
-	padding: 0 14px 0 7px;
+	line-height: 18px;
+	padding: 0 12px 0 6px;
 	border-radius: 1px;
 	font-weight: 400;
 	white-space: nowrap;
@@ -3218,8 +3218,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-suggestpopup .gwt-MenuItem .v-icon {
-	max-height: 19px;
-	margin-right: 4px;
+	max-height: 18px;
+	margin-right: 3px;
 	min-width: 1em;
 }
 
@@ -3237,10 +3237,10 @@ div.v-layout.v-horizontal.v-widget {
 	background: rgba(207, 207, 207, 0.9);
 	color: #3a3a3a;
 	border-radius: 0 0 2px 2px;
-	height: 16px;
-	bottom: -16px;
-	font-size: 11px;
-	line-height: 16px;
+	height: 15px;
+	bottom: -15px;
+	font-size: 10px;
+	line-height: 15px;
 	padding: 0 4px;
 	cursor: default;
 	pointer-events: none;
@@ -3264,9 +3264,9 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: all 200ms;
 	-moz-transition: all 200ms;
 	transition: all 200ms;
-	width: 18px;
-	height: 18px;
-	line-height: 18px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
 	text-align: center;
 	font-family: ThemeIcons;
 	-webkit-transform: scale(0.8);
@@ -3427,9 +3427,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-tiny {
-	height: 22px;
+	height: 20px;
 	
-	font-size: 11px;
+	font-size: 10px;
 }
 
 .moware .v-filterselect-tiny [class*="input"] {
@@ -3450,7 +3450,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 22px;
+	height: 20px;
 	
 	padding: 2px 4px;
 	
@@ -3460,28 +3460,28 @@ div.v-layout.v-horizontal.v-widget {
 	transition: box-shadow 180ms, border 180ms;
 	width: 100% !important;
 	height: 100%;
-	padding-right: 23px;
+	padding-right: 21px;
 	border-radius: inherit;
 }
 
 .v-ie8 .moware .v-filterselect-tiny [class*="input"], .v-ie9 .moware .v-filterselect-tiny [class*="input"] {
-	line-height: 22px;
+	line-height: 20px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
 .moware .v-filterselect-tiny .v-icon + [class*="input"] {
-	padding-left: 22px;
+	padding-left: 20px;
 }
 
 .moware .v-filterselect-tiny img.v-icon {
-	max-height: 22px;
+	max-height: 20px;
 	margin-left: 4px;
 }
 
 .moware .v-filterselect-tiny span.v-icon {
 	
-	width: 22px;
+	width: 20px;
 	line-height: 1;
 	padding-top: 0.12em;
 }
@@ -3491,7 +3491,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	position: absolute;
-	width: 22px;
+	width: 20px;
 	border-radius: 0 2px 2px 0;
 }
 
@@ -3502,7 +3502,7 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-transition: color 140ms;
 	transition: color 140ms;
 	position: absolute;
-	width: 22px;
+	width: 20px;
 	text-align: center;
 	top: 50%;
 	line-height: 1;
@@ -3555,7 +3555,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-compact, .moware .v-filterselect-small {
-	height: 24px;
+	height: 22px;
 	
 }
 
@@ -3577,9 +3577,9 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 24px;
+	height: 22px;
 	
-	padding: 3px 4px;
+	padding: 2px 4px;
 	
 	
 	-webkit-transition: box-shadow 180ms, border 180ms;
@@ -3587,28 +3587,28 @@ div.v-layout.v-horizontal.v-widget {
 	transition: box-shadow 180ms, border 180ms;
 	width: 100% !important;
 	height: 100%;
-	padding-right: 25px;
+	padding-right: 23px;
 	border-radius: inherit;
 }
 
 .v-ie8 .moware .v-filterselect-compact [class*="input"], .v-ie9 .moware .v-filterselect-compact [class*="input"], .v-ie8 .moware .v-filterselect-small [class*="input"], .v-ie9 .moware .v-filterselect-small [class*="input"] {
-	line-height: 24px;
+	line-height: 22px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
 .moware .v-filterselect-compact .v-icon + [class*="input"], .moware .v-filterselect-small .v-icon + [class*="input"] {
-	padding-left: 24px;
+	padding-left: 22px;
 }
 
 .moware .v-filterselect-compact img.v-icon, .moware .v-filterselect-small img.v-icon {
-	max-height: 24px;
+	max-height: 22px;
 	margin-left: 4px;
 }
 
 .moware .v-filterselect-compact span.v-icon, .moware .v-filterselect-small span.v-icon {
 	
-	width: 24px;
+	width: 22px;
 	line-height: 1;
 	padding-top: 0.12em;
 }
@@ -3618,7 +3618,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	position: absolute;
-	width: 24px;
+	width: 22px;
 	border-radius: 0 2px 2px 0;
 }
 
@@ -3629,7 +3629,7 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-transition: color 140ms;
 	transition: color 140ms;
 	position: absolute;
-	width: 24px;
+	width: 22px;
 	text-align: center;
 	top: 50%;
 	line-height: 1;
@@ -3686,9 +3686,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-large {
-	height: 31px;
+	height: 29px;
 	
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .moware .v-filterselect-large [class*="input"] {
@@ -3709,9 +3709,9 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 31px;
+	height: 29px;
 	
-	padding: 3px 6px;
+	padding: 3px 5px;
 	
 	
 	-webkit-transition: box-shadow 180ms, border 180ms;
@@ -3719,28 +3719,28 @@ div.v-layout.v-horizontal.v-widget {
 	transition: box-shadow 180ms, border 180ms;
 	width: 100% !important;
 	height: 100%;
-	padding-right: 32px;
+	padding-right: 30px;
 	border-radius: inherit;
 }
 
 .v-ie8 .moware .v-filterselect-large [class*="input"], .v-ie9 .moware .v-filterselect-large [class*="input"] {
-	line-height: 31px;
+	line-height: 29px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
 .moware .v-filterselect-large .v-icon + [class*="input"] {
-	padding-left: 31px;
+	padding-left: 29px;
 }
 
 .moware .v-filterselect-large img.v-icon {
-	max-height: 31px;
-	margin-left: 6px;
+	max-height: 29px;
+	margin-left: 5px;
 }
 
 .moware .v-filterselect-large span.v-icon {
 	
-	width: 31px;
+	width: 29px;
 	line-height: 1;
 	padding-top: 0.12em;
 }
@@ -3750,7 +3750,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	position: absolute;
-	width: 31px;
+	width: 29px;
 	border-radius: 0 2px 2px 0;
 }
 
@@ -3761,7 +3761,7 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-transition: color 140ms;
 	transition: color 140ms;
 	position: absolute;
-	width: 31px;
+	width: 29px;
 	text-align: center;
 	top: 50%;
 	line-height: 1;
@@ -3814,9 +3814,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-huge {
-	height: 42px;
+	height: 38px;
 	
-	font-size: 23px;
+	font-size: 21px;
 }
 
 .moware .v-filterselect-huge [class*="input"] {
@@ -3837,9 +3837,9 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 42px;
+	height: 38px;
 	
-	padding: 5px 7px;
+	padding: 4px 7px;
 	
 	
 	-webkit-transition: box-shadow 180ms, border 180ms;
@@ -3847,28 +3847,28 @@ div.v-layout.v-horizontal.v-widget {
 	transition: box-shadow 180ms, border 180ms;
 	width: 100% !important;
 	height: 100%;
-	padding-right: 43px;
+	padding-right: 39px;
 	border-radius: inherit;
 }
 
 .v-ie8 .moware .v-filterselect-huge [class*="input"], .v-ie9 .moware .v-filterselect-huge [class*="input"] {
-	line-height: 42px;
+	line-height: 38px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
 .moware .v-filterselect-huge .v-icon + [class*="input"] {
-	padding-left: 42px;
+	padding-left: 38px;
 }
 
 .moware .v-filterselect-huge img.v-icon {
-	max-height: 42px;
+	max-height: 38px;
 	margin-left: 7px;
 }
 
 .moware .v-filterselect-huge span.v-icon {
 	
-	width: 42px;
+	width: 38px;
 	line-height: 1;
 	padding-top: 0.12em;
 }
@@ -3878,7 +3878,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	position: absolute;
-	width: 42px;
+	width: 38px;
 	border-radius: 0 2px 2px 0;
 }
 
@@ -3889,7 +3889,7 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-transition: color 140ms;
 	transition: color 140ms;
 	position: absolute;
-	width: 42px;
+	width: 38px;
 	text-align: center;
 	top: 50%;
 	line-height: 1;
@@ -3957,19 +3957,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-csslayout-well  > .v-margin-top {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .moware .v-csslayout-well  > .v-margin-right {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-csslayout-well  > .v-margin-bottom {
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 
 .moware .v-csslayout-well  > .v-margin-left {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .moware .v-csslayout-card {
@@ -3982,19 +3982,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-csslayout-card  > .v-margin-top {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .moware .v-csslayout-card  > .v-margin-right {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-csslayout-card  > .v-margin-bottom {
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 
 .moware .v-csslayout-card  > .v-margin-left {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .moware .v-csslayout-v-component-group {
@@ -4053,7 +4053,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware [class*="spacing"] > tbody > [class*="row"] > td {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .moware [class*="spacing"] > tbody > [class*="firstrow"] > td {
@@ -4061,27 +4061,27 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware [class*="margin-top"] > tbody > [class*="firstrow"] > td {
-	padding-top: 26px;
+	padding-top: 24px;
 }
 
 .moware [class*="margin-bottom"] > tbody > [class*="lastrow"] > td {
-	padding-bottom: 26px;
+	padding-bottom: 24px;
 }
 
 .moware [class*="margin-left"] > tbody > [class*="row"] > [class*="captioncell"] {
-	padding-left: 26px;
+	padding-left: 24px;
 }
 
 .moware [class*="margin-left"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h2, .moware [class*="margin-left"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h3, .moware [class*="margin-left"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h4 {
-	left: 26px;
+	left: 24px;
 }
 
 .moware [class*="margin-right"] > tbody > [class*="row"] > [class*="contentcell"] {
-	padding-right: 26px;
+	padding-right: 24px;
 }
 
 .moware [class*="margin-right"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h2, .moware [class*="margin-right"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h3, .moware [class*="margin-right"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h4 {
-	right: 26px;
+	right: 24px;
 }
 
 .moware .v-formlayout > table {
@@ -4094,12 +4094,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-formlayout-error-indicator {
-	width: 13px;
+	width: 12px;
 }
 
 .moware .v-formlayout-captioncell {
 	vertical-align: top;
-	line-height: 25px;
+	line-height: 23px;
 }
 
 .moware .v-formlayout-captioncell .v-caption {
@@ -4130,7 +4130,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-formlayout.light  > table > tbody > tr > td {
 	padding-top: 0;
-	height: 26px;
+	height: 24px;
 	border-bottom: 1px solid #aaa;
 }
 
@@ -4141,8 +4141,8 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-formlayout.light  > table > tbody > tr > [class*="captioncell"] {
 	color: #7a7a7a;
 	text-align: right;
-	padding-left: 9px;
-	line-height: 26px;
+	padding-left: 8px;
+	line-height: 24px;
 }
 
 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"] {
@@ -4168,9 +4168,9 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 26px;
+	height: 24px;
 	border-radius: 0;
-	padding: 3px 5px;
+	padding: 3px 4px;
 	
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -4183,7 +4183,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-textfield, .v-ie9 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-textfield, .v-ie8 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-textarea, .v-ie9 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-textarea, .v-ie8 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-filterselect input, .v-ie9 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-filterselect input, .v-ie8 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-datefield input, .v-ie9 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-datefield input, .v-ie8 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-richtextarea, .v-ie9 .moware .v-formlayout.light  > table > tbody > [class*="row"] > [class*="contentcell"]  > .v-richtextarea {
-	line-height: 26px;
+	line-height: 24px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -4245,7 +4245,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-formlayout.light .v-checkbox {
-	margin-left: 5px;
+	margin-left: 4px;
 }
 
 .moware .v-grid {
@@ -4363,7 +4363,7 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	overflow: hidden;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .moware .v-grid-cell.frozen {
@@ -4474,7 +4474,7 @@ div.v-layout.v-horizontal.v-widget {
 	content: "\f0c9";
 	display: block;
 	font-family: ThemeIcons, sans-serif;
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .moware .v-grid-sidebar.v-contextmenu.closed {
@@ -4487,7 +4487,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-grid-sidebar.v-contextmenu.open .v-grid-sidebar-button:after {
 	content: "\f0c9";
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 1;
 }
 
@@ -4511,8 +4511,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-grid-cell {
 	background-color: #f8f8f8;
-	padding: 0 13.5px;
-	line-height: 18px;
+	padding: 0 12px;
+	line-height: 16px;
 	text-overflow: ellipsis;
 }
 
@@ -4566,7 +4566,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-grid-header th {
 	position: relative;
 	background-color: #f3f3f3;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: inherit;
 	border-left: 1px solid #aaa;
 	border-bottom: 1px solid #aaa;
@@ -4579,15 +4579,15 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-header .sort-asc, .moware .v-grid-header .sort-desc {
-	padding-right: 27.5px;
+	padding-right: 25px;
 }
 
 .moware .v-grid-header .sort-asc:after, .moware .v-grid-header .sort-desc:after {
 	font-family: ThemeIcons, sans-serif;
 	content: "\f0de" " " attr(sort-order);
 	position: absolute;
-	right: 13.5px;
-	font-size: 10px;
+	right: 12px;
+	font-size: 9px;
 }
 
 .moware .v-grid-header .sort-desc:after {
@@ -4596,8 +4596,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-grid-column-resize-handle {
 	position: absolute;
-	width: 27px;
-	right: -13.5px;
+	width: 24px;
+	right: -12px;
 	top: 0px;
 	bottom: 0px;
 	cursor: col-resize;
@@ -4611,7 +4611,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-grid-footer td {
 	background-color: #f3f3f3;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: inherit;
 	border-left: 1px solid #aaa;
 	border-top: 1px solid #aaa;
@@ -4631,7 +4631,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: 100%;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	line-height: 18px;
+	line-height: 16px;
 	vertical-align: baseline;
 }
 
@@ -4731,15 +4731,15 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-editor-cells  > div input[type="text"], .moware .v-grid-editor-cells  > div input[type="text"].v-filterselect-input, .moware .v-grid-editor-cells  > div input[type="password"] {
-	padding-left: 13.5px;
+	padding-left: 12px;
 }
 
 .moware .v-grid-editor-cells  > div input[type="text"]:not(.v-filterselect-input), .moware .v-grid-editor-cells  > div input[type="password"] {
-	padding-right: 6.75px;
+	padding-right: 6px;
 }
 
 .moware .v-grid-editor-cells  > div input[type="checkbox"] {
-	margin-left: 13.5px;
+	margin-left: 12px;
 }
 
 .moware .v-grid-editor-cells  > div .v-textfield, .moware .v-grid-editor-cells  > div .v-datefield, .moware .v-grid-editor-cells  > div .v-filterselect {
@@ -4782,7 +4782,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-grid-editor-footer {
 	display: table;
-	height: 18px;
+	height: 16px;
 	border-top: 1px solid #aaa;
 	margin-top: -1px;
 	background: #f8f8f8;
@@ -4817,7 +4817,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: 100%;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	line-height: 18px;
+	line-height: 16px;
 	top: 0;
 }
 
@@ -4897,7 +4897,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-header .v-grid-cell.dragged-column-header {
-	margin-top: -9px;
+	margin-top: -8px;
 }
 
 .moware .v-grid-footer .v-grid-cell {
@@ -4940,7 +4940,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-grid-editor-footer {
 	font-size: 12px;
-	padding: 0 5px;
+	padding: 0 4px;
 	background: #f3f3f3;
 	-webkit-animation: valo-grid-editor-footer-animate-in 200ms 120ms backwards;
 	-moz-animation: valo-grid-editor-footer-animate-in 200ms 120ms backwards;
@@ -4969,8 +4969,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-editor-cells > div .error::before {
-	border-top: 7px solid #CC3D28;
-	border-right: 7px solid transparent;
+	border-top: 6px solid #CC3D28;
+	border-right: 6px solid transparent;
 }
 
 .moware .v-grid-editor-cells > div .error, .moware .v-grid-editor-cells > div .error > input {
@@ -4986,7 +4986,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-editor-cells > div input[type="text"].v-datefield-textfield {
-	padding-left: 31.2px;
+	padding-left: 28.8px;
 }
 
 .v-ie8 .moware .v-grid-editor-cells > div .v-datefield-button {
@@ -5002,12 +5002,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-editor-cells > div .v-select {
-	padding-left: 7px;
-	padding-right: 7px;
+	padding-left: 6px;
+	padding-right: 6px;
 }
 
 .moware .v-grid-editor-cells > div .v-checkbox {
-	margin: 0 7px 0 13.5px;
+	margin: 0 6px 0 12px;
 }
 
 .moware .v-grid-editor-cells > div .v-checkbox  > input[type="checkbox"] {
@@ -5022,7 +5022,7 @@ div.v-layout.v-horizontal.v-widget {
 	display: inline-block;
 	color: #CC3D28;
 	font-weight: 600;
-	width: 13px;
+	width: 12px;
 	text-align: center;
 	content: "!";
 }
@@ -5039,7 +5039,7 @@ div.v-layout.v-horizontal.v-widget {
 	text-decoration: none;
 	border: none;
 	background: transparent;
-	padding: 5px 5px;
+	padding: 4px 4px;
 	margin: 0;
 	outline: none;
 }
@@ -5103,9 +5103,9 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 26px;
+	height: 24px;
 	border-radius: 2px;
-	padding: 3px 6px;
+	padding: 3px 5px;
 	border: 1px solid #aaa;
 	background: white;
 	color: #474747;
@@ -5114,11 +5114,11 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: box-shadow 180ms, border 180ms;
 	-moz-transition: box-shadow 180ms, border 180ms;
 	transition: box-shadow 180ms, border 180ms;
-	width: 130px;
+	width: 120px;
 }
 
 .v-ie8 .moware .v-textfield, .v-ie9 .moware .v-textfield {
-	line-height: 26px;
+	line-height: 24px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -5197,7 +5197,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 22px;
+	height: 20px;
 	border-radius: 2px;
 	padding: 2px 5px;
 	
@@ -5205,11 +5205,11 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: box-shadow 180ms, border 180ms;
 	-moz-transition: box-shadow 180ms, border 180ms;
 	transition: box-shadow 180ms, border 180ms;
-	font-size: 11px;
+	font-size: 10px;
 }
 
 .v-ie8 .moware .v-textfield-tiny, .v-ie9 .moware .v-textfield-tiny {
-	line-height: 22px;
+	line-height: 20px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -5229,9 +5229,9 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 24px;
+	height: 22px;
 	border-radius: 2px;
-	padding: 3px 5px;
+	padding: 2px 5px;
 	
 	
 	-webkit-transition: box-shadow 180ms, border 180ms;
@@ -5240,7 +5240,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .moware .v-textfield-compact, .v-ie9 .moware .v-textfield-compact, .v-ie8 .moware .v-textfield-small, .v-ie9 .moware .v-textfield-small {
-	line-height: 24px;
+	line-height: 22px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -5264,19 +5264,19 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 31px;
+	height: 29px;
 	border-radius: 2px;
-	padding: 3px 7px;
+	padding: 3px 6px;
 	
 	
 	-webkit-transition: box-shadow 180ms, border 180ms;
 	-moz-transition: box-shadow 180ms, border 180ms;
 	transition: box-shadow 180ms, border 180ms;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .v-ie8 .moware .v-textfield-large, .v-ie9 .moware .v-textfield-large {
-	line-height: 31px;
+	line-height: 29px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -5296,19 +5296,19 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 42px;
+	height: 38px;
 	border-radius: 2px;
-	padding: 5px 8px;
+	padding: 4px 8px;
 	
 	
 	-webkit-transition: box-shadow 180ms, border 180ms;
 	-moz-transition: box-shadow 180ms, border 180ms;
 	transition: box-shadow 180ms, border 180ms;
-	font-size: 23px;
+	font-size: 21px;
 }
 
 .v-ie8 .moware .v-textfield-huge, .v-ie9 .moware .v-textfield-huge {
-	line-height: 42px;
+	line-height: 38px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -5322,7 +5322,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-caption-inline-icon .v-captiontext {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 	padding-bottom: 0.3em;
 	padding-left: 1px;
@@ -5337,19 +5337,19 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-caption-inline-icon span.v-icon {
 	left: 1px;
 	bottom: 1px;
-	width: 26px;
-	line-height: 24px;
+	width: 24px;
+	line-height: 22px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .moware .v-caption-inline-icon img.v-icon {
-	left: 5px;
-	bottom: 5px;
+	left: 4px;
+	bottom: 4px;
 }
 
 .moware .v-textfield-inline-icon  {
-	padding-left: 26px;
+	padding-left: 24px;
 }
 
 .moware .v-slot-inline-icon.v-slot-tiny {
@@ -5361,7 +5361,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-caption-inline-icon.v-caption-tiny .v-captiontext {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 	padding-bottom: 0.3em;
 	padding-left: 1px;
@@ -5376,19 +5376,19 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-caption-inline-icon.v-caption-tiny span.v-icon {
 	left: 1px;
 	bottom: 1px;
-	width: 22px;
-	line-height: 20px;
+	width: 20px;
+	line-height: 18px;
 	text-align: center;
-	font-size: 11px;
+	font-size: 10px;
 }
 
 .moware .v-caption-inline-icon.v-caption-tiny img.v-icon {
-	left: 3px;
-	bottom: 3px;
+	left: 2px;
+	bottom: 2px;
 }
 
 .moware .v-textfield-inline-icon.v-textfield-tiny  {
-	padding-left: 22px;
+	padding-left: 20px;
 }
 
 .moware .v-slot-inline-icon.v-slot-compact {
@@ -5400,7 +5400,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-caption-inline-icon.v-caption-compact .v-captiontext {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 	padding-bottom: 0.3em;
 	padding-left: 1px;
@@ -5415,19 +5415,19 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-caption-inline-icon.v-caption-compact span.v-icon {
 	left: 1px;
 	bottom: 1px;
-	width: 24px;
-	line-height: 22px;
+	width: 22px;
+	line-height: 20px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .moware .v-caption-inline-icon.v-caption-compact img.v-icon {
-	left: 4px;
-	bottom: 4px;
+	left: 3px;
+	bottom: 3px;
 }
 
 .moware .v-textfield-inline-icon.v-textfield-compact  {
-	padding-left: 24px;
+	padding-left: 22px;
 }
 
 .moware .v-slot-inline-icon.v-slot-small {
@@ -5439,7 +5439,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-caption-inline-icon.v-caption-small .v-captiontext {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 	padding-bottom: 0.3em;
 	padding-left: 1px;
@@ -5454,19 +5454,19 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-caption-inline-icon.v-caption-small span.v-icon {
 	left: 1px;
 	bottom: 1px;
-	width: 24px;
-	line-height: 22px;
+	width: 22px;
+	line-height: 20px;
 	text-align: center;
 	font-size: 12px;
 }
 
 .moware .v-caption-inline-icon.v-caption-small img.v-icon {
-	left: 4px;
-	bottom: 4px;
+	left: 3px;
+	bottom: 3px;
 }
 
 .moware .v-textfield-inline-icon.v-textfield-small  {
-	padding-left: 24px;
+	padding-left: 22px;
 }
 
 .moware .v-slot-inline-icon.v-slot-large {
@@ -5478,7 +5478,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-caption-inline-icon.v-caption-large .v-captiontext {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 	padding-bottom: 0.3em;
 	padding-left: 1px;
@@ -5493,19 +5493,19 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-caption-inline-icon.v-caption-large span.v-icon {
 	left: 1px;
 	bottom: 1px;
-	width: 31px;
-	line-height: 29px;
+	width: 29px;
+	line-height: 27px;
 	text-align: center;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .moware .v-caption-inline-icon.v-caption-large img.v-icon {
-	left: 8px;
-	bottom: 8px;
+	left: 7px;
+	bottom: 7px;
 }
 
 .moware .v-textfield-inline-icon.v-textfield-large  {
-	padding-left: 31px;
+	padding-left: 29px;
 }
 
 .moware .v-slot-inline-icon.v-slot-huge {
@@ -5517,7 +5517,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-caption-inline-icon.v-caption-huge .v-captiontext {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 	padding-bottom: 0.3em;
 	padding-left: 1px;
@@ -5532,19 +5532,19 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-caption-inline-icon.v-caption-huge span.v-icon {
 	left: 1px;
 	bottom: 1px;
-	width: 42px;
-	line-height: 40px;
+	width: 38px;
+	line-height: 36px;
 	text-align: center;
-	font-size: 23px;
+	font-size: 21px;
 }
 
 .moware .v-caption-inline-icon.v-caption-huge img.v-icon {
-	left: 13px;
-	bottom: 13px;
+	left: 11px;
+	bottom: 11px;
 }
 
 .moware .v-textfield-inline-icon.v-textfield-huge  {
-	padding-left: 42px;
+	padding-left: 38px;
 }
 
 .moware .v-textfield-align-right {
@@ -5570,7 +5570,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 26px;
+	height: 24px;
 	border-radius: 2px;
 	padding: 4px;
 	border: 1px solid #aaa;
@@ -5584,11 +5584,11 @@ div.v-layout.v-horizontal.v-widget {
 	height: auto;
 	resize: none;
 	white-space: pre-wrap;
-	width: 130px;
+	width: 120px;
 }
 
 .v-ie8 .moware .v-textarea, .v-ie9 .moware .v-textarea {
-	line-height: 26px;
+	line-height: 24px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -5673,7 +5673,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 22px;
+	height: 20px;
 	border-radius: 2px;
 	padding: 4px;
 	
@@ -5685,11 +5685,11 @@ div.v-layout.v-horizontal.v-widget {
 	height: auto;
 	resize: none;
 	white-space: pre-wrap;
-	font-size: 11px;
+	font-size: 10px;
 }
 
 .v-ie8 .moware .v-textarea-tiny, .v-ie9 .moware .v-textarea-tiny {
-	line-height: 22px;
+	line-height: 20px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -5715,7 +5715,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 24px;
+	height: 22px;
 	border-radius: 2px;
 	padding: 4px;
 	
@@ -5731,15 +5731,15 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .moware .v-textarea-small, .v-ie9 .moware .v-textarea-small {
-	line-height: 24px;
+	line-height: 22px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
 .v-ie8 .moware .v-textarea-small, .v-ie9 .moware .v-textarea-small {
 	line-height: inherit;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 .moware .v-textarea-large {
@@ -5757,7 +5757,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 31px;
+	height: 29px;
 	border-radius: 2px;
 	padding: 4px;
 	
@@ -5769,11 +5769,11 @@ div.v-layout.v-horizontal.v-widget {
 	height: auto;
 	resize: none;
 	white-space: pre-wrap;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .v-ie8 .moware .v-textarea-large, .v-ie9 .moware .v-textarea-large {
-	line-height: 31px;
+	line-height: 29px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -5799,7 +5799,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 42px;
+	height: 38px;
 	border-radius: 2px;
 	padding: 4px;
 	
@@ -5811,19 +5811,19 @@ div.v-layout.v-horizontal.v-widget {
 	height: auto;
 	resize: none;
 	white-space: pre-wrap;
-	font-size: 23px;
+	font-size: 21px;
 }
 
 .v-ie8 .moware .v-textarea-huge, .v-ie9 .moware .v-textarea-huge {
-	line-height: 42px;
+	line-height: 38px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
 .v-ie8 .moware .v-textarea-huge, .v-ie9 .moware .v-textarea-huge {
 	line-height: inherit;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 .moware .v-textarea-align-right {
@@ -5836,8 +5836,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-datefield {
 	position: relative;
-	width: 130px;
-	height: 26px;
+	width: 120px;
+	height: 24px;
 	border-radius: 2px;
 }
 
@@ -5859,9 +5859,9 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 26px;
+	height: 24px;
 	border-radius: 2px;
-	padding: 3px 6px;
+	padding: 3px 5px;
 	border: 1px solid #aaa;
 	background: white;
 	color: #474747;
@@ -5870,14 +5870,14 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: box-shadow 180ms, border 180ms;
 	-moz-transition: box-shadow 180ms, border 180ms;
 	transition: box-shadow 180ms, border 180ms;
-	padding-left: 31.2px;
+	padding-left: 28.8px;
 	width: 100%;
 	height: 100%;
 	border-radius: inherit;
 }
 
 .v-ie8 .moware .v-datefield [class*="textfield"], .v-ie9 .moware .v-datefield [class*="textfield"] {
-	line-height: 26px;
+	line-height: 24px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -5916,8 +5916,8 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 0;
 	position: absolute;
 	z-index: 10;
-	width: 26px;
-	line-height: 24px;
+	width: 24px;
+	line-height: 22px;
 	text-align: center;
 	font: inherit;
 	outline: none;
@@ -6001,19 +6001,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-full {
-	width: 210px;
+	width: 195px;
 }
 
 .moware .v-datefield-day {
-	width: 130px;
+	width: 120px;
 }
 
 .moware .v-datefield-month {
-	width: 105px;
+	width: 98px;
 }
 
 .moware .v-datefield-year {
-	width: 91px;
+	width: 85px;
 }
 
 .moware .v-datefield-popup {
@@ -6027,9 +6027,9 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
-	margin-top: 4px !important;
-	margin-bottom: 4px !important;
-	margin-right: 4px !important;
+	margin-top: 3px !important;
+	margin-bottom: 3px !important;
+	margin-right: 3px !important;
 	cursor: default;
 	width: auto;
 }
@@ -6057,7 +6057,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel {
-	font-size: 14px;
+	font-size: 13px;
 	text-align: center;
 }
 
@@ -6069,12 +6069,12 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 21px;
-	height: 18px;
+	width: 19px;
+	height: 17px;
 	border: 1px solid transparent;
-	line-height: 18px;
+	line-height: 17px;
 	text-align: center;
-	font-size: 13px;
+	font-size: 12px;
 	background: #f3f3f3;
 	border-radius: 1px;
 	-webkit-transition: color 200ms;
@@ -6127,13 +6127,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-weekdays {
-	height: 18px;
+	height: 17px;
 	color: rgba(129, 129, 129, 0.85);
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-weekdays strong {
 	font: inherit;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-header {
@@ -6153,8 +6153,8 @@ div.v-layout.v-horizontal.v-widget {
 	cursor: pointer;
 	color: transparent;
 	font-size: 0;
-	width: 13px;
-	height: 17px;
+	width: 12px;
+	height: 16px;
 	outline: none;
 	position: relative;
 	vertical-align: middle;
@@ -6162,8 +6162,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-datefield-popup td[class*="year"] button:before, .moware .v-datefield-popup td[class*="month"] button:before {
 	color: #9b9b9b;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 17px;
+	line-height: 20px;
 	-webkit-transition: color 200ms;
 	-moz-transition: color 200ms;
 	transition: color 200ms;
@@ -6204,18 +6204,18 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-popup td.v-datefield-calendarpanel-month {
-	width: 104px;
+	width: 96px;
 	color: #4b8df8;
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-year td.v-datefield-calendarpanel-month {
-	width: 52px;
+	width: 48px;
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-weeknumber, .moware .v-datefield-popup .v-datefield-calendarpanel-weekdays.v-datefield-calendarpanel-weeknumbers td:first-child {
-	width: 21px;
+	width: 19px;
 	color: rgba(129, 129, 129, 0.85);
-	font-size: 13px;
+	font-size: 12px;
 	display: inline-block;
 	text-align: left;
 }
@@ -6227,10 +6227,10 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-datefield-popup .v-datefield-calendarpanel-weeknumbers .v-first:before {
 	content: "";
 	position: absolute;
-	top: 27px;
+	top: 24px;
 	bottom: 0;
 	left: 0;
-	width: 24px;
+	width: 23px;
 	border-top: 1px solid #aaa;
 	border-right: 1px solid #aaa;
 	border-top-right-radius: 2px;
@@ -6240,7 +6240,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-datefield-popup td.v-datefield-calendarpanel-time {
 	width: 100%;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .moware .v-datefield-popup td.v-datefield-calendarpanel-time .v-label {
@@ -6250,7 +6250,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-calendarpanel {
-	font-size: 14px;
+	font-size: 13px;
 	text-align: center;
 }
 
@@ -6262,12 +6262,12 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 21px;
-	height: 18px;
+	width: 19px;
+	height: 17px;
 	border: 1px solid transparent;
-	line-height: 18px;
+	line-height: 17px;
 	text-align: center;
-	font-size: 13px;
+	font-size: 12px;
 	background: #f3f3f3;
 	border-radius: 1px;
 	-webkit-transition: color 200ms;
@@ -6320,13 +6320,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-calendarpanel-weekdays {
-	height: 18px;
+	height: 17px;
 	color: rgba(129, 129, 129, 0.85);
 }
 
 .moware .v-datefield-calendarpanel-weekdays strong {
 	font: inherit;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .moware .v-datefield-calendarpanel-header {
@@ -6346,8 +6346,8 @@ div.v-layout.v-horizontal.v-widget {
 	cursor: pointer;
 	color: transparent;
 	font-size: 0;
-	width: 13px;
-	height: 17px;
+	width: 12px;
+	height: 16px;
 	outline: none;
 	position: relative;
 	vertical-align: middle;
@@ -6355,8 +6355,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware td[class*="year"] button:before, .moware td[class*="month"] button:before {
 	color: #9b9b9b;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 17px;
+	line-height: 20px;
 	-webkit-transition: color 200ms;
 	-moz-transition: color 200ms;
 	transition: color 200ms;
@@ -6397,18 +6397,18 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware td.v-datefield-calendarpanel-month {
-	width: 104px;
+	width: 96px;
 	color: #4b8df8;
 }
 
 .moware .v-datefield-calendarpanel-year td.v-datefield-calendarpanel-month {
-	width: 52px;
+	width: 48px;
 }
 
 .moware .v-datefield-calendarpanel-weeknumber, .moware .v-datefield-calendarpanel-weekdays.v-datefield-calendarpanel-weeknumbers td:first-child {
-	width: 21px;
+	width: 19px;
 	color: rgba(129, 129, 129, 0.85);
-	font-size: 13px;
+	font-size: 12px;
 	display: inline-block;
 	text-align: left;
 }
@@ -6420,10 +6420,10 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-datefield-calendarpanel-weeknumbers .v-first:before {
 	content: "";
 	position: absolute;
-	top: 27px;
+	top: 24px;
 	bottom: 0;
 	left: 0;
-	width: 24px;
+	width: 23px;
 	border-top: 1px solid #aaa;
 	border-right: 1px solid #aaa;
 	border-top-right-radius: 2px;
@@ -6433,7 +6433,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware td.v-datefield-calendarpanel-time {
 	width: 100%;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .moware td.v-datefield-calendarpanel-time .v-label {
@@ -6478,9 +6478,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-tiny {
-	height: 22px;
+	height: 20px;
 	border-radius: 2px;
-	font-size: 11px;
+	font-size: 10px;
 }
 
 .moware .v-datefield-tiny [class*="textfield"] {
@@ -6501,7 +6501,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 22px;
+	height: 20px;
 	border-radius: 2px;
 	padding: 2px 5px;
 	
@@ -6510,14 +6510,14 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-transition: box-shadow 180ms, border 180ms;
 	-moz-transition: box-shadow 180ms, border 180ms;
 	transition: box-shadow 180ms, border 180ms;
-	padding-left: 26.4px;
+	padding-left: 24px;
 	width: 100%;
 	height: 100%;
 	border-radius: inherit;
 }
 
 .v-ie8 .moware .v-datefield-tiny [class*="textfield"], .v-ie9 .moware .v-datefield-tiny [class*="textfield"] {
-	line-height: 22px;
+	line-height: 20px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -6531,8 +6531,8 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 0;
 	position: absolute;
 	z-index: 10;
-	width: 22px;
-	line-height: 22px;
+	width: 20px;
+	line-height: 20px;
 	text-align: center;
 	font: inherit;
 	outline: none;
@@ -6594,7 +6594,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-compact, .moware .v-datefield-small {
-	height: 24px;
+	height: 22px;
 	border-radius: 2px;
 }
 
@@ -6616,23 +6616,23 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 24px;
+	height: 22px;
 	border-radius: 2px;
-	padding: 3px 5px;
+	padding: 2px 5px;
 	
 	
 	
 	-webkit-transition: box-shadow 180ms, border 180ms;
 	-moz-transition: box-shadow 180ms, border 180ms;
 	transition: box-shadow 180ms, border 180ms;
-	padding-left: 28.8px;
+	padding-left: 26.4px;
 	width: 100%;
 	height: 100%;
 	border-radius: inherit;
 }
 
 .v-ie8 .moware .v-datefield-compact [class*="textfield"], .v-ie9 .moware .v-datefield-compact [class*="textfield"], .v-ie8 .moware .v-datefield-small [class*="textfield"], .v-ie9 .moware .v-datefield-small [class*="textfield"] {
-	line-height: 24px;
+	line-height: 22px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -6646,8 +6646,8 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 0;
 	position: absolute;
 	z-index: 10;
-	width: 24px;
-	line-height: 24px;
+	width: 22px;
+	line-height: 22px;
 	text-align: center;
 	font: inherit;
 	outline: none;
@@ -6713,9 +6713,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-large {
-	height: 31px;
+	height: 29px;
 	border-radius: 2px;
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .moware .v-datefield-large [class*="textfield"] {
@@ -6736,23 +6736,23 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 31px;
+	height: 29px;
 	border-radius: 2px;
-	padding: 3px 7px;
+	padding: 3px 6px;
 	
 	
 	
 	-webkit-transition: box-shadow 180ms, border 180ms;
 	-moz-transition: box-shadow 180ms, border 180ms;
 	transition: box-shadow 180ms, border 180ms;
-	padding-left: 37.2px;
+	padding-left: 34.8px;
 	width: 100%;
 	height: 100%;
 	border-radius: inherit;
 }
 
 .v-ie8 .moware .v-datefield-large [class*="textfield"], .v-ie9 .moware .v-datefield-large [class*="textfield"] {
-	line-height: 31px;
+	line-height: 29px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -6766,8 +6766,8 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 0;
 	position: absolute;
 	z-index: 10;
-	width: 31px;
-	line-height: 31px;
+	width: 29px;
+	line-height: 29px;
 	text-align: center;
 	font: inherit;
 	outline: none;
@@ -6829,9 +6829,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-huge {
-	height: 42px;
+	height: 38px;
 	border-radius: 2px;
-	font-size: 23px;
+	font-size: 21px;
 }
 
 .moware .v-datefield-huge [class*="textfield"] {
@@ -6852,23 +6852,23 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 42px;
+	height: 38px;
 	border-radius: 2px;
-	padding: 5px 8px;
+	padding: 4px 8px;
 	
 	
 	
 	-webkit-transition: box-shadow 180ms, border 180ms;
 	-moz-transition: box-shadow 180ms, border 180ms;
 	transition: box-shadow 180ms, border 180ms;
-	padding-left: 50.4px;
+	padding-left: 45.6px;
 	width: 100%;
 	height: 100%;
 	border-radius: inherit;
 }
 
 .v-ie8 .moware .v-datefield-huge [class*="textfield"], .v-ie9 .moware .v-datefield-huge [class*="textfield"] {
-	line-height: 42px;
+	line-height: 38px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -6882,8 +6882,8 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 0;
 	position: absolute;
 	z-index: 10;
-	width: 42px;
-	line-height: 42px;
+	width: 38px;
+	line-height: 38px;
 	text-align: center;
 	font: inherit;
 	outline: none;
@@ -6945,7 +6945,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-inline-datefield-calendarpanel {
-	font-size: 14px;
+	font-size: 13px;
 	text-align: center;
 }
 
@@ -6957,12 +6957,12 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 21px;
-	height: 18px;
+	width: 19px;
+	height: 17px;
 	border: 1px solid transparent;
-	line-height: 18px;
+	line-height: 17px;
 	text-align: center;
-	font-size: 13px;
+	font-size: 12px;
 	background: #f3f3f3;
 	border-radius: 1px;
 	-webkit-transition: color 200ms;
@@ -7015,13 +7015,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-inline-datefield-calendarpanel-weekdays {
-	height: 18px;
+	height: 17px;
 	color: rgba(129, 129, 129, 0.85);
 }
 
 .moware .v-inline-datefield-calendarpanel-weekdays strong {
 	font: inherit;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .moware .v-inline-datefield-calendarpanel-header {
@@ -7041,8 +7041,8 @@ div.v-layout.v-horizontal.v-widget {
 	cursor: pointer;
 	color: transparent;
 	font-size: 0;
-	width: 13px;
-	height: 17px;
+	width: 12px;
+	height: 16px;
 	outline: none;
 	position: relative;
 	vertical-align: middle;
@@ -7050,8 +7050,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware td[class*="year"] button:before, .moware td[class*="month"] button:before {
 	color: #9b9b9b;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 17px;
+	line-height: 20px;
 	-webkit-transition: color 200ms;
 	-moz-transition: color 200ms;
 	transition: color 200ms;
@@ -7092,18 +7092,18 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware td.v-inline-datefield-calendarpanel-month {
-	width: 104px;
+	width: 96px;
 	color: #4b8df8;
 }
 
 .moware .v-inline-datefield-calendarpanel-year td.v-inline-datefield-calendarpanel-month {
-	width: 52px;
+	width: 48px;
 }
 
 .moware .v-inline-datefield-calendarpanel-weeknumber, .moware .v-inline-datefield-calendarpanel-weekdays.v-inline-datefield-calendarpanel-weeknumbers td:first-child {
-	width: 21px;
+	width: 19px;
 	color: rgba(129, 129, 129, 0.85);
-	font-size: 13px;
+	font-size: 12px;
 	display: inline-block;
 	text-align: left;
 }
@@ -7115,10 +7115,10 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-inline-datefield-calendarpanel-weeknumbers .v-first:before {
 	content: "";
 	position: absolute;
-	top: 27px;
+	top: 24px;
 	bottom: 0;
 	left: 0;
-	width: 24px;
+	width: 23px;
 	border-top: 1px solid #aaa;
 	border-right: 1px solid #aaa;
 	border-top-right-radius: 2px;
@@ -7128,7 +7128,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware td.v-inline-datefield-calendarpanel-time {
 	width: 100%;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .moware td.v-inline-datefield-calendarpanel-time .v-label {
@@ -7144,24 +7144,24 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-gridlayout-margin-top {
-	padding-top: 26px;
+	padding-top: 24px;
 }
 
 .moware .v-gridlayout-margin-bottom {
-	padding-bottom: 26px;
+	padding-bottom: 24px;
 }
 
 .moware .v-gridlayout-margin-left {
-	padding-left: 26px;
+	padding-left: 24px;
 }
 
 .moware .v-gridlayout-margin-right {
-	padding-right: 26px;
+	padding-right: 24px;
 }
 
 .moware .v-gridlayout-spacing-on {
-	padding-left: 9px;
-	padding-top: 9px;
+	padding-left: 8px;
+	padding-top: 8px;
 }
 
 .moware .v-menubar {
@@ -7172,8 +7172,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-tap-highlight-color: transparent;
 	-webkit-touch-callout: none;
 	cursor: pointer;
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #181818;
 	font-weight: 400;
 	
@@ -7190,7 +7190,7 @@ div.v-layout.v-horizontal.v-widget {
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	padding: 0;
 	text-align: left;
-	line-height: 24px;
+	line-height: 22px;
 }
 
 .moware .v-menubar:after {
@@ -7236,11 +7236,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-menubar  > .v-menubar-menuitem {
-	padding: 0 10px;
+	padding: 0 9px;
 }
 
 .moware .v-menubar  > .v-menubar-menuitem[class*="-icon-only"] {
-	width: 26px;
+	width: 24px;
 }
 
 .moware .v-menubar:active:after {
@@ -7254,8 +7254,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	height: 26px;
-	padding: 0 11px;
+	height: 24px;
+	padding: 0 10px;
 	color: inherit;
 	font-weight: 400;
 	
@@ -7318,12 +7318,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-menubar > .v-menubar-menuitem .v-icon {
-	margin: 0 3px 0 -3px;
+	margin: 0 2px 0 -2px;
 	cursor: inherit;
 }
 
 .moware .v-menubar > .v-menubar-menuitem[class*="-icon-only"] {
-	width: 26px;
+	width: 24px;
 	padding: 0;
 }
 
@@ -7407,7 +7407,7 @@ div.v-layout.v-horizontal.v-widget {
 	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
 	padding: 3px 3px;
-	margin: 4px 0 0 1px !important;
+	margin: 3px 0 0 1px !important;
 }
 
 .moware .v-menubar-popup[class*="animate-in"] {
@@ -7429,14 +7429,14 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-menubar-popup .v-menubar-menuitem {
 	display: block;
 	cursor: pointer;
-	line-height: 19px;
-	padding: 0 14px 0 7px;
+	line-height: 18px;
+	padding: 0 12px 0 6px;
 	border-radius: 1px;
 	font-weight: 400;
 	white-space: nowrap;
 	position: relative;
-	padding-left: 23px;
-	padding-right: 26px;
+	padding-left: 21px;
+	padding-right: 24px;
 	position: relative;
 }
 
@@ -7455,8 +7455,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-menubar-popup .v-menubar-menuitem .v-icon {
-	max-height: 19px;
-	margin-right: 4px;
+	max-height: 18px;
+	margin-right: 3px;
 	min-width: 1em;
 }
 
@@ -7466,10 +7466,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-menubar-popup .v-menubar-submenu-indicator  + .v-menubar-menuitem-caption:after {
 	position: absolute;
-	right: 7px;
+	right: 6px;
 	font-family: ThemeIcons;
 	content: "\f054";
-	line-height: 21px;
+	line-height: 20px;
 }
 
 .moware .v-menubar-popup .v-menubar-menuitem-selected {
@@ -7492,7 +7492,7 @@ div.v-layout.v-horizontal.v-widget {
 	content: "\f00c";
 	font-family: ThemeIcons;
 	position: absolute;
-	left: 7px;
+	left: 6px;
 }
 
 .moware .v-menubar-popup [class*="unchecked"] .v-menubar-menuitem-caption:before {
@@ -7504,8 +7504,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-menubar-small {
-	height: 24px;
-	padding: 0 11px;
+	height: 22px;
+	padding: 0 10px;
 	
 	font-weight: 400;
 	
@@ -7513,7 +7513,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 2px;
 	padding: 0;
 	text-align: left;
-	line-height: 22px;
+	line-height: 20px;
 	font-size: 12px;
 }
 
@@ -7526,11 +7526,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-menubar-small  > .v-menubar-menuitem {
-	padding: 0 9px;
+	padding: 0 8px;
 }
 
 .moware .v-menubar-small  > .v-menubar-menuitem[class*="-icon-only"] {
-	width: 24px;
+	width: 22px;
 }
 
 .moware .v-menubar-borderless {
@@ -7555,7 +7555,7 @@ div.v-layout.v-horizontal.v-widget {
 	margin-right: 1px;
 	border-radius: 2px;
 	color: #4b8df8;
-	padding: 0 9px;
+	padding: 0 8px;
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
 	transition: color 140ms;
@@ -7602,7 +7602,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-radiobutton {
 	position: relative;
-	line-height: 13px;
+	line-height: 12px;
 	white-space: nowrap;
 }
 
@@ -7611,7 +7611,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-radiobutton {
-	padding-left: 17px;
+	padding-left: 16px;
 }
 
 :root .moware .v-radiobutton label {
@@ -7644,18 +7644,18 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 13px;
-	height: 13px;
+	width: 12px;
+	height: 12px;
 	position: absolute;
 	top: 0;
 	left: 0;
 	border-radius: 2px;
-	font-size: 11px;
+	font-size: 10px;
 	text-align: center;
 }
 
 :root .moware .v-radiobutton > input ~ label:before {
-	height: 13px;
+	height: 12px;
 	padding: 0 6px;
 	color: #181818;
 	font-weight: 400;
@@ -7672,7 +7672,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	padding: 0;
-	height: 13px;
+	height: 12px;
 }
 
 :root .moware .v-radiobutton > input ~ label:after {
@@ -7730,8 +7730,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-radiobutton > input:checked ~ label:after {
-	width: 5px;
-	height: 5px;
+	width: 4px;
+	height: 4px;
 	top: 4px;
 	left: 4px;
 	background: #4b8df8;
@@ -7744,7 +7744,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-optiongroup .v-radiobutton, .moware .v-select-optiongroup .v-checkbox {
 	display: block;
-	margin: 7px 14px 0 0;
+	margin: 6px 13px 0 0;
 }
 
 .moware .v-select-optiongroup .v-radiobutton:first-child, .moware .v-select-optiongroup .v-checkbox:first-child {
@@ -7765,7 +7765,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-optiongroup-small .v-checkbox {
 	position: relative;
-	line-height: 12px;
+	line-height: 11px;
 	white-space: nowrap;
 }
 
@@ -7774,7 +7774,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-small .v-checkbox {
-	padding-left: 16px;
+	padding-left: 15px;
 }
 
 :root .moware .v-select-optiongroup-small .v-checkbox label {
@@ -7807,8 +7807,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 12px;
-	height: 12px;
+	width: 11px;
+	height: 11px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -7818,7 +7818,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-small .v-checkbox > input ~ label:before {
-	height: 12px;
+	height: 11px;
 	padding: 0 6px;
 	color: #181818;
 	font-weight: 400;
@@ -7835,7 +7835,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	padding: 0;
-	height: 12px;
+	height: 11px;
 }
 
 :root .moware .v-select-optiongroup-small .v-checkbox > input ~ label:after {
@@ -7894,7 +7894,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-optiongroup-small .v-radiobutton {
 	position: relative;
-	line-height: 12px;
+	line-height: 11px;
 	white-space: nowrap;
 }
 
@@ -7903,7 +7903,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-small .v-radiobutton {
-	padding-left: 16px;
+	padding-left: 15px;
 }
 
 :root .moware .v-select-optiongroup-small .v-radiobutton label {
@@ -7936,8 +7936,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 12px;
-	height: 12px;
+	width: 11px;
+	height: 11px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -7947,7 +7947,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-small .v-radiobutton > input ~ label:before {
-	height: 12px;
+	height: 11px;
 	padding: 0 6px;
 	color: #181818;
 	font-weight: 400;
@@ -7964,7 +7964,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	padding: 0;
-	height: 12px;
+	height: 11px;
 }
 
 :root .moware .v-select-optiongroup-small .v-radiobutton > input ~ label:after {
@@ -8036,7 +8036,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-optiongroup-small .v-radiobutton, .moware .v-select-optiongroup-small .v-checkbox {
 	display: block;
-	margin: 6px 14px 0 0;
+	margin: 6px 13px 0 0;
 }
 
 .moware .v-select-optiongroup-small .v-radiobutton:first-child, .moware .v-select-optiongroup-small .v-checkbox:first-child {
@@ -8052,12 +8052,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-select-optiongroup-large {
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .moware .v-select-optiongroup-large .v-checkbox {
 	position: relative;
-	line-height: 16px;
+	line-height: 15px;
 	white-space: nowrap;
 }
 
@@ -8066,7 +8066,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-large .v-checkbox {
-	padding-left: 21px;
+	padding-left: 19px;
 }
 
 :root .moware .v-select-optiongroup-large .v-checkbox label {
@@ -8099,8 +8099,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 16px;
-	height: 16px;
+	width: 15px;
+	height: 15px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -8110,7 +8110,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-large .v-checkbox > input ~ label:before {
-	height: 15.5px;
+	height: 14.5px;
 	padding: 0 7px;
 	color: #181818;
 	font-weight: 400;
@@ -8127,7 +8127,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	padding: 0;
-	height: 16px;
+	height: 15px;
 }
 
 :root .moware .v-select-optiongroup-large .v-checkbox > input ~ label:after {
@@ -8148,7 +8148,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-select-optiongroup-large .v-checkbox > .v-icon, .moware .v-select-optiongroup-large .v-checkbox > label .v-icon {
-	margin: 0 5px 0 3px;
+	margin: 0 5px 0 2px;
 	min-width: 1em;
 	cursor: pointer;
 }
@@ -8186,7 +8186,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-optiongroup-large .v-radiobutton {
 	position: relative;
-	line-height: 16px;
+	line-height: 15px;
 	white-space: nowrap;
 }
 
@@ -8195,7 +8195,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-large .v-radiobutton {
-	padding-left: 21px;
+	padding-left: 19px;
 }
 
 :root .moware .v-select-optiongroup-large .v-radiobutton label {
@@ -8228,8 +8228,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 16px;
-	height: 16px;
+	width: 15px;
+	height: 15px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -8239,7 +8239,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-large .v-radiobutton > input ~ label:before {
-	height: 15.5px;
+	height: 14.5px;
 	padding: 0 7px;
 	color: #181818;
 	font-weight: 400;
@@ -8256,7 +8256,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	padding: 0;
-	height: 16px;
+	height: 15px;
 }
 
 :root .moware .v-select-optiongroup-large .v-radiobutton > input ~ label:after {
@@ -8277,7 +8277,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-select-optiongroup-large .v-radiobutton > .v-icon, .moware .v-select-optiongroup-large .v-radiobutton > label .v-icon {
-	margin: 0 5px 0 3px;
+	margin: 0 5px 0 2px;
 	min-width: 1em;
 	cursor: pointer;
 }
@@ -8314,8 +8314,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-large .v-radiobutton > input:checked ~ label:after {
-	width: 6px;
-	height: 6px;
+	width: 5px;
+	height: 5px;
 	top: 5px;
 	left: 5px;
 	background: #4b8df8;
@@ -8328,7 +8328,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-optiongroup-large .v-radiobutton, .moware .v-select-optiongroup-large .v-checkbox {
 	display: block;
-	margin: 8px 14px 0 0;
+	margin: 7px 13px 0 0;
 }
 
 .moware .v-select-optiongroup-large .v-radiobutton:first-child, .moware .v-select-optiongroup-large .v-checkbox:first-child {
@@ -8396,7 +8396,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-link-large {
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .moware .v-window {
@@ -8413,8 +8413,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 16px 80px -6px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.09235);
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 16px 80px -6px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.09235);
 	padding: 0;
-	min-width: 104px !important;
-	min-height: 26px !important;
+	min-width: 96px !important;
+	min-height: 24px !important;
 	white-space: nowrap;
 	overflow: hidden !important;
 	-webkit-transition: width 200ms, height 200ms, top 200ms, left 200ms;
@@ -8498,9 +8498,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-window-header {
-	line-height: 25px;
-	padding-left: 9px;
-	margin-right: 52px;
+	line-height: 23px;
+	padding-left: 8px;
+	margin-right: 48px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -8508,11 +8508,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-window-restorebox-disabled  ~ .v-window-closebox ~ .v-window-header, .moware .v-window-maximizebox-disabled  ~ .v-window-closebox ~ .v-window-header {
-	margin-right: 26px;
+	margin-right: 24px;
 }
 
 .moware .v-window-restorebox-disabled  ~ .v-window-closebox-disabled ~ .v-window-header, .moware .v-window-maximizebox-disabled  ~ .v-window-closebox-disabled ~ .v-window-header {
-	margin-right: 9px;
+	margin-right: 8px;
 }
 
 .moware .v-window-closebox, .moware .v-window-maximizebox, .moware .v-window-restorebox {
@@ -8523,13 +8523,13 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	width: 23px;
-	height: 25px;
+	width: 21px;
+	height: 23px;
 	background-color: #f3f3f3;
-	line-height: 23px;
+	line-height: 21px;
 	text-align: center;
 	cursor: pointer;
-	font-size: 18px;
+	font-size: 17px;
 	color: #929292;
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
@@ -8560,7 +8560,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-window-maximizebox, .moware .v-window-restorebox {
-	right: 23px;
+	right: 21px;
 	padding-left: 3px;
 	border-radius: 0 0 0 2px;
 }
@@ -8574,7 +8574,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-window-closebox-disabled  + .v-window-closebox, .moware .v-window-resizebox-disabled  + .v-window-closebox, .moware .v-window-restorebox-disabled  + .v-window-closebox, .moware .v-window-maximizebox-disabled  + .v-window-closebox {
-	width: 26px;
+	width: 24px;
 	padding-right: 0;
 	border-bottom-left-radius: 2px;
 }
@@ -8604,43 +8604,43 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-window-contents  > .v-scrollable  > .v-margin-top {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .moware .v-window-contents  > .v-scrollable  > .v-margin-right {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-window-contents  > .v-scrollable  > .v-margin-bottom {
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 
 .moware .v-window-contents  > .v-scrollable  > .v-margin-left {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .moware .v-window-contents  > .v-scrollable  > .v-formlayout [class*="margin-top"] > tbody > [class*="firstrow"] > td {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .moware .v-window-contents  > .v-scrollable  > .v-formlayout [class*="margin-bottom"] > tbody > [class*="lastrow"] > td {
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 
 .moware .v-window-contents  > .v-scrollable  > .v-formlayout [class*="margin-left"] > tbody > [class*="row"] > [class*="captioncell"] {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .moware .v-window-contents  > .v-scrollable  > .v-formlayout [class*="margin-left"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h2, .moware .v-window-contents  > .v-scrollable  > .v-formlayout [class*="margin-left"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h3, .moware .v-window-contents  > .v-scrollable  > .v-formlayout [class*="margin-left"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h4 {
-	left: 9px;
+	left: 8px;
 }
 
 .moware .v-window-contents  > .v-scrollable  > .v-formlayout [class*="margin-right"] > tbody > [class*="row"] > [class*="contentcell"] {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-window-contents  > .v-scrollable  > .v-formlayout [class*="margin-right"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h2, .moware .v-window-contents  > .v-scrollable  > .v-formlayout [class*="margin-right"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h3, .moware .v-window-contents  > .v-scrollable  > .v-formlayout [class*="margin-right"] > tbody > [class*="row"] > [class*="contentcell"]  > .v-label-h4 {
-	right: 9px;
+	right: 8px;
 }
 
 .moware .v-window-contents  > .v-scrollable:focus {
@@ -8675,8 +8675,8 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: 1000;
 	right: 0;
 	bottom: 0;
-	width: 13px;
-	height: 13px;
+	width: 12px;
+	height: 12px;
 	cursor: nwse-resize;
 }
 
@@ -8700,15 +8700,15 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-window-top-toolbar .v-label, .moware .v-window-bottom-toolbar .v-label {
-	line-height: 25px;
+	line-height: 23px;
 }
 
 .moware .v-window-top-toolbar .v-spacing, .moware .v-window-bottom-toolbar .v-spacing {
-	width: 5px;
+	width: 4px;
 }
 
 .moware .v-window-top-toolbar.v-layout {
-	padding: 5px 9px;
+	padding: 5px 8px;
 	position: relative;
 	z-index: 2;
 	border-top: 1px solid #aaa;
@@ -8717,7 +8717,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-window-top-toolbar.v-menubar {
-	margin: 9px 9px 4px;
+	margin: 8px 8px 4px;
 }
 
 .moware .v-window-top-toolbar.v-menubar-borderless {
@@ -8727,10 +8727,10 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-window-bottom-toolbar.v-layout {
-	padding: 5px 9px;
+	padding: 5px 8px;
 	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #efefef 0, #f3f3f3 3px);
-	background-image: linear-gradient(to bottom,#efefef 0, #f3f3f3 3px);
+	background-image: -webkit-linear-gradient(top, #efefef 0, #f3f3f3 2px);
+	background-image: linear-gradient(to bottom,#efefef 0, #f3f3f3 2px);
 	border-top: 1px solid #aaa;
 	border-radius: 0 0 2px 2px;
 }
@@ -8739,7 +8739,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
-	margin: -9px -9px 0;
+	margin: -8px -8px 0;
 }
 
 .moware .v-margin-left.v-margin-right.v-margin-top .v-window-top-toolbar.v-menubar {
@@ -8747,7 +8747,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-margin-left.v-margin-right.v-margin-top .v-window-top-toolbar.v-menubar-borderless {
-	margin: -5px -5px 0;
+	margin: -4px -4px 0;
 	padding: 0;
 }
 
@@ -8755,7 +8755,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
-	margin: 0 -9px -9px;
+	margin: 0 -8px -8px;
 }
 
 .moware .v-tree {
@@ -8773,7 +8773,7 @@ div.v-layout.v-horizontal.v-widget {
 	display: inline-block;
 	z-index: 3;
 	width: 1.9em;
-	height: 20px;
+	height: 18px;
 	cursor: pointer;
 	background: red;
 	opacity: 0;
@@ -8794,8 +8794,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tree-node-caption {
-	height: 20px;
-	line-height: 19px;
+	height: 18px;
+	line-height: 17px;
 	overflow: hidden;
 	white-space: nowrap;
 	vertical-align: top;
@@ -8825,7 +8825,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tree-node-caption span {
-	padding-right: 20px;
+	padding-right: 18px;
 	cursor: pointer;
 	display: inline-block;
 	width: 100%;
@@ -8848,9 +8848,9 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	z-index: 1;
 	left: 0;
-	margin-top: -20px;
+	margin-top: -18px;
 	width: 100%;
-	height: 20px;
+	height: 18px;
 	border-radius: 2px;
 	opacity: 0;
 	-webkit-transition: opacity 120ms;
@@ -8914,7 +8914,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tree-node-children {
-	padding-left: 13px;
+	padding-left: 12px;
 }
 
 .v-ie8 .moware .v-tree-node-children {
@@ -8928,10 +8928,10 @@ div.v-layout.v-horizontal.v-widget {
 	height: 2px;
 	width: 100%;
 	background: #4b8df8;
-	font-size: 28px;
+	font-size: 26px;
 	line-height: 2px;
 	color: #4b8df8;
-	text-indent: -4px;
+	text-indent: -3px;
 	text-shadow: 0 0 1px #f3f3f3, 0 0 1px #f3f3f3;
 	opacity: 1;
 	visibility: visible;
@@ -8982,7 +8982,7 @@ div.v-layout.v-horizontal.v-widget {
 	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
 	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
 	white-space: nowrap;
-	font-size: 12px;
+	font-size: 11px;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
@@ -9002,18 +9002,18 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-table-footer-container, .moware .v-table-caption-container {
 	overflow: hidden;
 	line-height: 1;
-	min-height: 18px;
+	min-height: 16px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
 .v-ie8 .moware .v-table-footer-container, .v-ie8 .moware .v-table-caption-container {
-	min-height: 13px;
+	min-height: 11px;
 }
 
 .moware .v-table-footer-container {
-	padding: 2px 9px 3px;
+	padding: 2px 8px 3px;
 	float: right;
 }
 
@@ -9022,7 +9022,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-caption-container, .moware .v-table-header-drag {
-	padding: 3px 9px 2px;
+	padding: 3px 8px 2px;
 	border-left: 1px solid #aaa;
 }
 
@@ -9031,20 +9031,20 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-resizer {
-	height: 18px;
-	width: 6px;
+	height: 16px;
+	width: 5px;
 	cursor: e-resize;
 	cursor: col-resize;
 	position: relative;
 	right: -3px;
 	z-index: 1;
-	margin-left: -6px;
+	margin-left: -5px;
 }
 
 .moware .v-table-cell-content {
 	border-left: 1px solid #aaa;
 	overflow: hidden;
-	height: 18px;
+	height: 16px;
 	vertical-align: middle;
 }
 
@@ -9059,7 +9059,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-table-cell-wrapper {
 	line-height: 1;
-	padding: 0 9px;
+	padding: 0 8px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -9067,7 +9067,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-cell-wrapper  > .v-widget {
-	margin: 2px -5px;
+	margin: 2px -4px;
 }
 
 .moware .v-table-cell-wrapper  > .v-widget.v-label, .moware .v-table-cell-wrapper  > .v-widget.v-checkbox, .moware .v-table-cell-wrapper  > .v-widget.v-select-optiongroup {
@@ -9142,10 +9142,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-table-header-cell-asc .v-table-sort-indicator, .moware .v-table-header-cell-desc .v-table-sort-indicator {
 	background: transparent;
-	width: 13px;
-	height: 18px;
-	line-height: 18px;
-	margin-left: -13px;
+	width: 12px;
+	height: 16px;
+	line-height: 16px;
+	margin-left: -12px;
 }
 
 .moware .v-table-header-cell-asc .v-table-sort-indicator:before, .moware .v-table-header-cell-desc .v-table-sort-indicator:before {
@@ -9181,7 +9181,7 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	opacity: 0.9;
 	filter: alpha(opacity=90) ;
-	margin-top: -9px;
+	margin-top: -8px;
 	z-index: 30000;
 	line-height: 1;
 }
@@ -9189,7 +9189,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-table-focus-slot-right {
 	border-right: 3px solid #4b8df8;
 	right: -2px;
-	margin-left: -9px !important;
+	margin-left: -8px !important;
 }
 
 .moware .v-table-focus-slot-left {
@@ -9198,12 +9198,12 @@ div.v-layout.v-horizontal.v-widget {
 	left: -1px;
 	right: auto;
 	margin-left: 0 !important;
-	margin-right: -9px;
+	margin-right: -8px;
 }
 
 .moware .v-table-column-selector {
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #181818;
 	font-weight: 400;
 	
@@ -9222,9 +9222,9 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: 2;
 	top: 0;
 	right: 0;
-	width: 13px;
-	height: 13px;
-	line-height: 13px;
+	width: 12px;
+	height: 12px;
+	line-height: 12px;
 	padding: 0;
 	border-top-width: 0;
 	border-right-width: 0;
@@ -9334,9 +9334,9 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	top: 50%;
 	width: 100%;
-	height: 26px;
-	line-height: 26px;
-	margin: -13px 0 0 !important;
+	height: 24px;
+	line-height: 24px;
+	margin: -12px 0 0 !important;
 	text-align: center;
 }
 
@@ -9365,7 +9365,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-table-row-drag-bottom td.v-table-cell-content {
 	border-bottom: 2px solid #4b8df8;
-	height: 16px;
+	height: 14px;
 }
 
 .moware .v-table-row-drag-bottom .v-table-cell-wrapper {
@@ -9374,7 +9374,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-table-row-drag-top td.v-table-cell-content {
 	border-top: 2px solid #4b8df8;
-	height: 17px;
+	height: 15px;
 }
 
 .moware .v-table-row-drag-top .v-table-cell-wrapper {
@@ -9391,7 +9391,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-no-vertical-lines.v-treetable .v-table-cell-content {
-	padding-left: 10px;
+	padding-left: 9px;
 }
 
 .moware .v-table-no-horizontal-lines .v-table-cell-content {
@@ -9400,7 +9400,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-no-horizontal-lines .v-table-row-drag-top .v-table-cell-content, .moware .v-table-no-horizontal-lines .v-table-row-drag-bottom .v-table-cell-content {
-	height: 17px;
+	height: 15px;
 }
 
 .moware .v-table-no-header .v-table-header-wrap {
@@ -9420,18 +9420,18 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-compact .v-table-header-wrap, .moware .v-table-compact .v-table-footer-wrap, .moware .v-table-compact .v-table-header-drag, .moware .v-table-small .v-table-header-wrap, .moware .v-table-small .v-table-footer-wrap, .moware .v-table-small .v-table-header-drag {
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .moware .v-table-compact .v-table-footer-container, .moware .v-table-small .v-table-footer-container {
-	padding: 5px 6px 6px;
+	padding: 5px 5px 6px;
 }
 
 .moware .v-table-compact .v-table-caption-container, .moware .v-table-compact .v-table-header-drag, .moware .v-table-small .v-table-caption-container, .moware .v-table-small .v-table-header-drag {
 	padding-top: 6px;
 	padding-bottom: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 .moware .v-table-compact .v-table-caption-container-align-right, .moware .v-table-small .v-table-caption-container-align-right {
@@ -9439,20 +9439,20 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-compact .v-table-resizer, .moware .v-table-small .v-table-resizer {
-	height: 24px;
+	height: 22px;
 }
 
 .moware .v-table-compact .v-table-cell-content, .moware .v-table-small .v-table-cell-content {
-	height: 24px;
+	height: 22px;
 }
 
 .moware .v-table-compact .v-table-cell-wrapper, .moware .v-table-small .v-table-cell-wrapper {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 .moware .v-table-compact .v-table-cell-wrapper  > .v-widget, .moware .v-table-small .v-table-cell-wrapper  > .v-widget {
-	margin: 1px -3px;
+	margin: 1px -2px;
 }
 
 .moware .v-table-compact .v-table-cell-wrapper  > .v-widget.v-label, .moware .v-table-compact .v-table-cell-wrapper  > .v-widget.v-checkbox, .moware .v-table-compact .v-table-cell-wrapper  > .v-widget.v-select-optiongroup, .moware .v-table-small .v-table-cell-wrapper  > .v-widget.v-label, .moware .v-table-small .v-table-cell-wrapper  > .v-widget.v-checkbox, .moware .v-table-small .v-table-cell-wrapper  > .v-widget.v-select-optiongroup {
@@ -9465,36 +9465,36 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-compact .v-table-header-cell-asc .v-table-sort-indicator, .moware .v-table-compact .v-table-header-cell-desc .v-table-sort-indicator, .moware .v-table-small .v-table-header-cell-asc .v-table-sort-indicator, .moware .v-table-small .v-table-header-cell-desc .v-table-sort-indicator {
-	height: 24px;
-	line-height: 24px;
+	height: 22px;
+	line-height: 22px;
 }
 
 .moware .v-table-compact .v-table-header-drag, .moware .v-table-small .v-table-header-drag {
-	margin-top: -12px;
+	margin-top: -11px;
 }
 
 .moware .v-table-compact.v-treetable .v-table-cell-wrapper, .moware .v-table-small.v-treetable .v-table-cell-wrapper {
 	padding-left: 0;
 	padding-right: 0;
-	min-height: 14px;
+	min-height: 13px;
 }
 
 .moware .v-table-compact.v-treetable .v-table-cell-content, .moware .v-table-small.v-treetable .v-table-cell-content {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 .moware .v-table-compact.v-treetable .v-table-cell-content:first-child, .moware .v-table-small.v-treetable .v-table-cell-content:first-child {
-	padding-left: 6px;
+	padding-left: 5px;
 }
 
 .moware .v-table-compact.v-treetable .v-table-footer-container, .moware .v-table-small.v-treetable .v-table-footer-container {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 .moware .v-table-compact .v-table-row-drag-top .v-table-cell-content, .moware .v-table-compact .v-table-row-drag-bottom .v-table-cell-content, .moware .v-table-small .v-table-row-drag-top .v-table-cell-content, .moware .v-table-small .v-table-row-drag-bottom .v-table-cell-content {
-	height: 23px;
+	height: 21px;
 }
 
 .moware .v-table-small {
@@ -9514,39 +9514,39 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-treetable [class*="caption-container"], .moware .v-treetable [class*="footer-container"] {
-	min-height: 13px;
+	min-height: 11px;
 }
 
 .moware .v-treetable [class*="cell-wrapper"] {
-	min-height: 14px;
+	min-height: 13px;
 }
 
 .moware .v-treetable [class*="caption-container"] {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .moware .v-treetable [class*="caption-container-align-right"] {
-	padding-left: 15px;
+	padding-left: 13px;
 }
 
 .moware .v-treetable [class*="footer-container"] {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-treetable [class*="cell-content"] {
-	padding-left: 9px;
-	padding-right: 9px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 .moware .v-treetable [class*="cell-content"]:first-child {
-	padding-left: 10px;
+	padding-left: 9px;
 }
 
 .moware .v-treetable-treespacer {
 	display: inline-block;
 	position: absolute;
-	width: 13px !important;
-	margin-left: -18px;
+	width: 12px !important;
+	margin-left: -16px;
 	text-align: center;
 	cursor: pointer;
 }
@@ -9571,8 +9571,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before {
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #181818;
 	font-weight: 400;
 	
@@ -9631,8 +9631,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before {
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #181818;
 	font-weight: 400;
 	
@@ -9675,7 +9675,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter {
-	width: 9px;
+	width: 8px;
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter:after {
@@ -9684,8 +9684,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before {
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #181818;
 	font-weight: 400;
 	
@@ -9739,17 +9739,17 @@ div.v-layout.v-horizontal.v-widget {
 	top: 50%;
 	left: 50%;
 	width: 0;
-	height: 26px;
+	height: 24px;
 	margin-left: -1px;
-	margin-top: -13px;
+	margin-top: -12px;
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-second-container {
-	margin-left: 9px;
+	margin-left: 8px;
 }
 
 .moware .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter {
-	height: 9px;
+	height: 8px;
 }
 
 .moware .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter:after {
@@ -9758,8 +9758,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:before {
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #181818;
 	font-weight: 400;
 	
@@ -9809,22 +9809,22 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 26px;
+	width: 24px;
 	height: 0;
-	margin-left: -13px;
+	margin-left: -12px;
 	margin-top: -1px;
 }
 
 .moware .v-progressbar-wrapper {
 	border-radius: 2px;
-	height: 7px;
+	height: 6px;
 	background-color: #cfcfcf;
 	background-image: -webkit-linear-gradient(bottom, #d0d0d0 2%, #c9c9c9 98%);
 	background-image: linear-gradient(to top,#d0d0d0 2%, #c9c9c9 98%);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	min-width: 52px;
+	min-width: 48px;
 }
 
 .moware .v-progressbar-indicator {
@@ -9870,7 +9870,7 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	max-width: 100%;
-	width: 7px;
+	width: 6px;
 	vertical-align: top;
 }
 
@@ -9929,16 +9929,16 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-slider-base {
 	border-radius: 2px;
-	height: 7px;
+	height: 6px;
 	background-color: #cfcfcf;
 	background-image: -webkit-linear-gradient(bottom, #d0d0d0 2%, #c9c9c9 98%);
 	background-image: linear-gradient(to top,#d0d0d0 2%, #c9c9c9 98%);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	min-width: 52px;
+	min-width: 48px;
 	height: 4px;
-	margin: 12px 7px;
+	margin: 11px 7px;
 	white-space: nowrap;
 	overflow: hidden;
 	
@@ -9947,8 +9947,8 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-slider-base:before {
 	content: "";
 	position: absolute;
-	top: 12px;
-	bottom: 12px;
+	top: 11px;
+	bottom: 11px;
 	left: 7px;
 	width: 4px;
 	border-radius: 2px;
@@ -9985,15 +9985,15 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-slider-handle {
-	margin-top: -11px;
+	margin-top: -10px;
 	width: 0.1px;
 	display: inline-block;
 	vertical-align: top;
 }
 
 .moware .v-slider-handle:before {
-	height: 26px;
-	padding: 0 12px;
+	height: 24px;
+	padding: 0 11px;
 	color: #181818;
 	font-weight: 400;
 	
@@ -10058,7 +10058,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 7px;
 	position: absolute;
 	z-index: 1;
-	margin-top: 6px;
+	margin-top: 5px;
 	margin-left: -7px;
 }
 
@@ -10068,7 +10068,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 	color: white;
-	padding: 3px 7px;
+	padding: 3px 6px;
 	border-radius: 1px;
 	max-width: 35em;
 	overflow: hidden !important;
@@ -10077,7 +10077,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-slider-vertical {
 	padding: 7px 0;
-	height: 66px;
+	height: 62px;
 }
 
 .moware .v-slider-vertical .v-slider-base {
@@ -10087,14 +10087,14 @@ div.v-layout.v-horizontal.v-widget {
 	width: 4px;
 	height: 100% !important;
 	min-width: 0;
-	margin: 0 11px;
+	margin: 0 10px;
 }
 
 .moware .v-slider-vertical .v-slider-base:before {
 	top: auto;
 	bottom: 7px;
-	left: 12px;
-	right: 12px;
+	left: 11px;
+	right: 11px;
 	width: auto;
 	height: 4px;
 	border-left: none;
@@ -10118,7 +10118,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-slider-vertical .v-slider-handle {
 	width: 0;
 	height: 0.1px;
-	width: 26px;
+	width: 24px;
 	display: block;
 }
 
@@ -10172,15 +10172,15 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-tabitemcell .v-caption {
-	margin-left: 13px;
-	padding: 0 3px;
+	margin-left: 12px;
+	padding: 0 2px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	cursor: pointer;
 	text-align: center;
-	line-height: 26px;
-	font-size: 13px;
+	line-height: 24px;
+	font-size: 12px;
 	font-weight: 300;
 	color: #666666;
 	width: auto !important;
@@ -10198,7 +10198,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-tabitemcell .v-caption .v-icon + .v-captiontext {
-	margin-left: 7px;
+	margin-left: 6px;
 }
 
 .moware .v-tabsheet-tabitemcell .v-caption:hover {
@@ -10230,11 +10230,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-tabitemcell .v-caption-closable {
-	padding-right: 18px;
+	padding-right: 16px;
 }
 
 .moware .v-tabsheet-tabitemcell.icons-on-top .v-caption-closable {
-	padding-right: 3px;
+	padding-right: 2px;
 }
 
 .moware .v-tabsheet-tabitemcell .v-tabsheet-caption-close {
@@ -10242,9 +10242,9 @@ div.v-layout.v-horizontal.v-widget {
 	right: 0;
 	top: 50%;
 	margin: -7px 0 0;
-	font-size: 15px;
-	line-height: 15px;
-	width: 15px;
+	font-size: 14px;
+	line-height: 14px;
+	width: 14px;
 	text-align: center;
 	border-radius: 1px;
 	color: #929292;
@@ -10265,7 +10265,7 @@ div.v-layout.v-horizontal.v-widget {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	padding-left: 13px;
+	padding-left: 12px;
 	background-color: transparent;
 	background-image: -webkit-linear-gradient(right, #f3f3f3 70%, rgba(243, 243, 243, 0) 100%);
 	background-image: linear-gradient(to left,#f3f3f3 70%, rgba(243, 243, 243, 0) 100%);
@@ -10305,7 +10305,7 @@ div.v-layout.v-horizontal.v-widget {
 	color: inherit;
 	height: 100%;
 	margin: 0;
-	padding: 0 7px;
+	padding: 0 6px;
 	outline: none;
 	cursor: pointer;
 	pointer-events: auto;
@@ -10362,8 +10362,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-deco {
-	height: 14px !important;
-	width: 14px !important;
+	height: 12px !important;
+	width: 12px !important;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -10379,9 +10379,9 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	z-index: 1;
 	bottom: 50%;
-	margin-bottom: -20px;
+	margin-bottom: -18px;
 	left: 50%;
-	margin-left: -7px;
+	margin-left: -6px;
 }
 
 .v-ie8 .moware .v-tabsheet-deco, .v-ie9 .moware .v-tabsheet-deco {
@@ -10419,11 +10419,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-framed  > .v-tabsheet-tabcontainer .v-caption {
-	margin-left: 3px;
-	padding: 0 9px;
+	margin-left: 2px;
+	padding: 0 8px;
 	background-color: #f3f3f3;
 	border: 1px solid transparent;
-	line-height: 25px;
+	line-height: 23px;
 	border-radius: 2px 2px 0 0;
 	font-weight: 400;
 	-webkit-transition: background-color 160ms;
@@ -10441,12 +10441,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-framed  > .v-tabsheet-tabcontainer .v-caption-closable {
-	padding-right: 24px;
+	padding-right: 22px;
 }
 
 .moware .v-tabsheet-framed  > .v-tabsheet-tabcontainer .v-tabsheet-caption-close {
-	top: 4px;
-	right: 4px;
+	top: 3px;
+	right: 3px;
 	margin-top: 0;
 }
 
@@ -10494,7 +10494,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-padded-tabbar  > .v-tabsheet-tabcontainer .v-tabsheet-tabs {
-	padding: 0 7px;
+	padding: 0 6px;
 }
 
 .moware .v-tabsheet-icons-on-top  > .v-tabsheet-tabcontainer .v-caption {
@@ -10512,11 +10512,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-icons-on-top  > .v-tabsheet-tabcontainer .v-caption-closable {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-tabsheet-icons-on-top  > .v-tabsheet-tabcontainer .v-tabsheet-caption-close {
-	top: 4px;
+	top: 3px;
 	margin-top: 0;
 }
 
@@ -10537,11 +10537,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-colorpicker-popup .v-tabsheet-tabs {
-	padding: 0 7px;
+	padding: 0 6px;
 }
 
 .moware .v-colorpicker-popup [class$="sliders"] {
-	padding: 9px;
+	padding: 8px;
 }
 
 .moware .v-colorpicker-popup [class$="sliders"] .v-widget {
@@ -10551,22 +10551,22 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-colorpicker-popup [class$="sliders"] .v-has-caption {
 	white-space: nowrap;
-	padding-left: 42px;
+	padding-left: 39px;
 }
 
 .moware .v-colorpicker-popup [class$="sliders"] .v-caption {
 	display: inline-block;
-	margin-left: -42px;
-	width: 42px;
+	margin-left: -39px;
+	width: 39px;
 }
 
 .moware .v-colorpicker-popup [class$="sliders"] .v-slot-hue-slider + .v-slot .v-has-caption {
-	padding-left: 70px;
+	padding-left: 65px;
 }
 
 .moware .v-colorpicker-popup [class$="sliders"] .v-slot-hue-slider + .v-slot .v-caption {
-	margin-left: -70px;
-	width: 70px;
+	margin-left: -65px;
+	width: 65px;
 }
 
 .moware .v-colorpicker-popup .v-slider-red .v-slider-base:after {
@@ -10612,7 +10612,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-colorpicker-popup .v-horizontallayout {
 	height: auto !important;
-	padding: 7px 0;
+	padding: 6px 0;
 	background-color: #f3f3f3;
 	border-top: 1px solid #e7e7e7;
 }
@@ -10628,7 +10628,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-colorpicker-preview {
 	width: 100% !important;
 	height: auto !important;
-	padding: 7px;
+	padding: 6px;
 }
 
 .moware .v-colorpicker-preview-textfield {
@@ -10649,11 +10649,11 @@ div.v-layout.v-horizontal.v-widget {
 	left: 4px;
 	border-radius: 1px;
 	border: 1px solid rgba(0, 0, 0, 0.5);
-	max-width: 15px;
+	max-width: 14px;
 }
 
 .moware .v-colorpicker-button-color  + .v-button-caption:not(:empty) {
-	margin-left: 13px;
+	margin-left: 12px;
 }
 
 .v-ie8 .moware .v-colorpicker-button-color {
@@ -10662,15 +10662,15 @@ div.v-layout.v-horizontal.v-widget {
 	right: auto;
 	bottom: auto;
 	left: auto;
-	width: 14px;
-	height: 14px;
+	width: 13px;
+	height: 13px;
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 -7px;
 }
 
 .v-ie8 .moware .v-colorpicker-button-color  + .v-button-caption {
-	margin-left: 13px;
+	margin-left: 12px;
 }
 
 .moware .v-panel {
@@ -10687,15 +10687,15 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 0 9px;
-	line-height: 25px;
+	padding: 0 8px;
+	line-height: 23px;
 	border-bottom: 1px solid #aaa;
 	background-color: #f3f3f3;
 	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #f1f1f1 98%);
 	background-image: linear-gradient(to bottom,#f3f3f3 2%, #f1f1f1 98%);
 	color: #444444;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 12px;
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -10711,19 +10711,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-panel-content  > .v-margin-top {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .moware .v-panel-content  > .v-margin-right {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-panel-content  > .v-margin-bottom {
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 
 .moware .v-panel-content  > .v-margin-left {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .moware .v-panel-borderless {
@@ -10741,7 +10741,7 @@ div.v-layout.v-horizontal.v-widget {
 	box-shadow: none;
 	color: inherit;
 	padding: 0;
-	margin: 0 9px;
+	margin: 0 8px;
 	border-bottom: none;
 }
 
@@ -10797,7 +10797,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-panel-caption.v-horizontallayout .v-label {
-	line-height: 26px;
+	line-height: 24px;
 }
 
 .moware .v-accordion {
@@ -10852,15 +10852,15 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 0 9px;
-	line-height: 25px;
+	padding: 0 8px;
+	line-height: 23px;
 	border-bottom: 1px solid #aaa;
 	background-color: #f3f3f3;
 	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #f1f1f1 98%);
 	background-image: linear-gradient(to bottom,#f3f3f3 2%, #f1f1f1 98%);
 	color: #444444;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 12px;
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -10901,19 +10901,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-accordion-item-content  > .v-margin-top {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .moware .v-accordion-item-content  > .v-margin-right {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-accordion-item-content  > .v-margin-bottom {
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 
 .moware .v-accordion-item-content  > .v-margin-left {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .moware .v-accordion-borderless {
@@ -10947,15 +10947,15 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-twincol .v-textfield, .moware .v-select-twincol .v-nativebutton {
 	width: auto !important;
-	margin-top: 7px;
+	margin-top: 6px;
 }
 
 .moware .v-select-twincol .v-nativebutton {
-	margin-left: 7px;
+	margin-left: 6px;
 }
 
 .moware .v-select-twincol-caption-left, .moware .v-select-twincol-caption-right {
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: 400;
 	padding-bottom: 0.3em;
 	padding-left: 1px;
@@ -10978,9 +10978,9 @@ div.v-layout.v-horizontal.v-widget {
 	text-align: left;
 	white-space: normal;
 	position: absolute;
-	left: 7px;
-	right: 7px;
-	top: 25px;
+	left: 6px;
+	right: 6px;
+	top: 23px;
 	padding: 0;
 	text-align: center;
 }
@@ -11035,12 +11035,12 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-select  + .v-textfield {
 	width: auto !important;
-	margin-top: 7px;
+	margin-top: 6px;
 }
 
 .moware .v-select-select  + .v-textfield  + .v-nativebutton {
-	margin-top: 7px;
-	margin-left: 7px;
+	margin-top: 6px;
+	margin-left: 6px;
 }
 
 .moware .v-calendar-header-day {
@@ -11122,7 +11122,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-bottom-spacer, .moware .v-calendar-spacer, .moware .v-calendar-bottom-spacer-empty {
-	height: 17px;
+	height: 16px;
 	margin-bottom: 2px;
 }
 
@@ -11137,8 +11137,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-day-number {
-	line-height: 17px;
-	font-size: 14px;
+	line-height: 16px;
+	font-size: 13px;
 	text-align: right;
 	margin: 0 3px;
 	white-space: nowrap;
@@ -11158,7 +11158,7 @@ div.v-layout.v-horizontal.v-widget {
 	font-weight: 400;
 	color: #4b8df8;
 	border-top: 2px solid #4b8df8;
-	line-height: 16px;
+	line-height: 15px;
 	margin: 0;
 	padding: 0 3px;
 }
@@ -11181,7 +11181,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-weekly-longevents .v-calendar-event-all-day {
-	height: 19px;
+	height: 18px;
 	line-height: 1.6;
 	margin-bottom: 2px;
 }
@@ -11203,9 +11203,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-calendar-time {
 	text-align: right;
-	padding-right: 7px;
-	margin-top: -6px;
-	padding-bottom: 6px;
+	padding-right: 6px;
+	margin-top: -5px;
+	padding-bottom: 5px;
 }
 
 .moware .v-calendar-day-times, .moware .v-calendar-day-times-today {
@@ -11293,14 +11293,14 @@ div.v-layout.v-horizontal.v-widget {
 	margin-bottom: 2px;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	height: 17px;
-	line-height: 17px;
+	height: 16px;
+	line-height: 16px;
 }
 
 .moware .v-calendar-event-month .v-calendar-event-time {
 	float: right;
 	font-size: 0.9em;
-	line-height: 17px;
+	line-height: 16px;
 	opacity: 0.5;
 	filter: alpha(opacity=50) ;
 }
@@ -11315,8 +11315,8 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	height: 17px;
-	line-height: 17px;
+	height: 16px;
+	line-height: 16px;
 	border-radius: 0;
 	margin-left: -1px;
 	white-space: nowrap;
@@ -11354,7 +11354,7 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 3px 0;
 	position: absolute;
 	overflow: hidden;
-	right: 7px;
+	right: 6px;
 	left: 3px;
 	bottom: 0;
 	top: 0;
@@ -11529,11 +11529,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-csslayout  > h1:first-child, .moware .v-csslayout  > h2:first-child, .moware .v-csslayout  > h3:first-child, .moware .v-csslayout  > h4 > .v-label-h1:first-child, .moware .v-csslayout  > .v-label-h2:first-child, .moware .v-csslayout  > .v-label-h3:first-child, .moware .v-csslayout  > .v-label-h4:first-child {
-	margin-top: 14px;
+	margin-top: 13px;
 }
 
 .moware .v-verticallayout > .v-slot:first-child h1, .moware .v-verticallayout > .v-slot:first-child .v-label-h1, .moware .v-verticallayout > .v-slot:first-child h2, .moware .v-verticallayout > .v-slot:first-child .v-label-h2, .moware .v-verticallayout > .v-slot:first-child h3, .moware .v-verticallayout > .v-slot:first-child .v-label-h3, .moware .v-verticallayout > .v-slot:first-child h4, .moware .v-verticallayout > .v-slot:first-child .v-label-h4, .moware .v-verticallayout > div > .v-slot:first-child h1, .moware .v-verticallayout > div > .v-slot:first-child .v-label-h1, .moware .v-verticallayout > div > .v-slot:first-child h2, .moware .v-verticallayout > div > .v-slot:first-child .v-label-h2, .moware .v-verticallayout > div > .v-slot:first-child h3, .moware .v-verticallayout > div > .v-slot:first-child .v-label-h3, .moware .v-verticallayout > div > .v-slot:first-child h4, .moware .v-verticallayout > div > .v-slot:first-child .v-label-h4 {
-	margin-top: 14px;
+	margin-top: 13px;
 }
 
 .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell h1, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell .v-label-h1, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell h2, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell .v-label-h2, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell h3, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell .v-label-h3, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell h4, .moware .v-verticallayout > .v-slot:first-child .v-formlayout-contentcell .v-label-h4, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell h1, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell .v-label-h1, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell h2, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell .v-label-h2, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell h3, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell .v-label-h3, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell h4, .moware .v-verticallayout > div > .v-slot:first-child .v-formlayout-contentcell .v-label-h4 {
@@ -11549,7 +11549,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-label-large {
-	font-size: 17px;
+	font-size: 16px;
 }
 
 .moware .v-label-small {
@@ -11557,11 +11557,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-label-tiny {
-	font-size: 11px;
+	font-size: 10px;
 }
 
 .moware .v-label-huge {
-	font-size: 23px;
+	font-size: 21px;
 }
 
 .moware .v-label-bold {
@@ -11614,16 +11614,16 @@ div.v-layout.v-horizontal.v-widget {
 	color: #474747;
 	border: 2px solid #4b8df8;
 	border-radius: 2px;
-	padding: 5px 13px 5px 26px;
+	padding: 5px 12px 5px 24px;
 	font-weight: 400;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .moware .v-label-success:before, .moware .v-label-failure:before {
 	font-family: ThemeIcons;
 	content: "\f00c";
 	margin-right: 0.5em;
-	margin-left: -13px;
+	margin-left: -12px;
 	color: #4b8df8;
 }
 
@@ -11757,12 +11757,12 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-select  + .v-textfield {
 	width: auto !important;
-	margin-top: 7px;
+	margin-top: 6px;
 }
 
 .moware .v-select-select  + .v-textfield  + .v-nativebutton {
-	margin-top: 7px;
-	margin-left: 7px;
+	margin-top: 6px;
+	margin-left: 6px;
 }
 
 .moware .v-popupview {
@@ -11810,23 +11810,23 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-popupview-popup .popupContent  > .v-margin-top {
-	padding-top: 9px;
+	padding-top: 8px;
 }
 
 .moware .v-popupview-popup .popupContent  > .v-margin-right {
-	padding-right: 9px;
+	padding-right: 8px;
 }
 
 .moware .v-popupview-popup .popupContent  > .v-margin-bottom {
-	padding-bottom: 9px;
+	padding-bottom: 8px;
 }
 
 .moware .v-popupview-popup .popupContent  > .v-margin-left {
-	padding-left: 9px;
+	padding-left: 8px;
 }
 
 .moware .v-popupview-loading {
-	margin: 9px 9px;
+	margin: 8px 8px;
 	height: 24px !important;
 	width: 24px !important;
 	-webkit-box-sizing: border-box;
@@ -11869,7 +11869,7 @@ div.v-layout.v-horizontal.v-widget {
 	
 	font-weight: 400;
 	line-height: normal;
-	height: 26px;
+	height: 24px;
 	border-radius: 2px;
 	padding: 0;
 	border: 1px solid #aaa;
@@ -11885,7 +11885,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .moware .v-richtextarea, .v-ie9 .moware .v-richtextarea {
-	line-height: 26px;
+	line-height: 24px;
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -11906,8 +11906,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-richtextarea .gwt-ToggleButton, .moware .v-richtextarea .gwt-PushButton {
 	display: inline-block;
-	line-height: 26px;
-	width: 26px;
+	line-height: 24px;
+	width: 24px;
 	text-align: center;
 	outline: none;
 }
@@ -12003,12 +12003,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-richtextarea .gwt-RichTextToolbar-bottom {
-	font-size: 11px;
-	padding: 0 7px 7px 0;
+	font-size: 10px;
+	padding: 0 6px 6px 0;
 }
 
 .moware .v-richtextarea .gwt-RichTextToolbar-bottom select {
-	margin: 7px 0 0 7px;
+	margin: 6px 0 0 6px;
 }
 
 .moware .v-richtextarea .gwt-RichTextArea {
@@ -12018,7 +12018,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-richtextarea-readonly {
-	padding: 3px 5px;
+	padding: 3px 4px;
 	background: transparent;
 }
 
@@ -12042,26 +12042,26 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: -1;
 	position: absolute;
 	right: 0;
-	height: 26px;
+	height: 24px;
 	text-align: right;
 	border: none;
 	background: transparent;
 }
 
 .moware .v-Notification.v-position-top {
-	top: 9px;
+	top: 8px;
 }
 
 .moware .v-Notification.v-position-right {
-	right: 9px;
+	right: 8px;
 }
 
 .moware .v-Notification.v-position-bottom {
-	bottom: 9px;
+	bottom: 8px;
 }
 
 .moware .v-Notification.v-position-left {
-	left: 9px;
+	left: 8px;
 }
 
 .moware .v-Notification.v-position-assistive {
@@ -12110,12 +12110,12 @@ div.v-layout.v-horizontal.v-widget {
 	background: #f8f8f8;
 	-webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
 	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
-	padding: 13px 15px;
+	padding: 12px 14px;
 }
 
 .moware .v-Notification .v-Notification-caption {
 	color: #4b8df8;
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1;
 }
 
@@ -12144,11 +12144,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-Notification-caption ~ .v-Notification-description, .moware .v-Notification-caption ~ .v-Notification-details {
-	margin-left: 21px;
+	margin-left: 20px;
 }
 
 .moware .v-icon + .v-Notification-caption {
-	margin-left: 14px;
+	margin-left: 13px;
 }
 
 .moware .v-Notification-system {
@@ -12159,11 +12159,11 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
-	padding: 9px 10px;
+	padding: 8px 10px;
 	background-color: #444;
 	background-color: rgba(68, 68, 68, 0.9);
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 18px;
 }
 
 .moware .v-Notification-system .v-Notification-description, .moware .v-Notification-system .v-Notification-details {
@@ -12255,7 +12255,7 @@ div.v-layout.v-horizontal.v-widget {
 	background-color: #444;
 	background-color: rgba(68, 68, 68, 0.9);
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 18px;
 }
 
 .moware .v-Notification.dark .v-Notification-caption {
@@ -12275,7 +12275,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-radius: 0;
 	-webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
-	padding: 9px 10px;
+	padding: 8px 10px;
 }
 
 .moware .v-Notification.bar .v-Notification-description, .moware .v-Notification.bar .v-Notification-details {
@@ -12315,19 +12315,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-Notification.small {
-	padding: 8px 9px;
+	padding: 7px 9px;
 }
 
 .moware .v-Notification.small .v-Notification-caption {
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .moware .v-Notification.small .v-Notification-description {
-	font-size: 12px;
+	font-size: 11px;
 }
 
 .moware .v-Notification.closable {
-	padding-right: 41px;
+	padding-right: 38px;
 	overflow: hidden !important;
 	cursor: pointer;
 }
@@ -12337,11 +12337,11 @@ div.v-layout.v-horizontal.v-widget {
 	font-size: 1.5em;
 	position: absolute;
 	top: 50%;
-	margin-top: -9px;
-	right: 9px;
-	width: 17px;
-	height: 17px;
-	line-height: 16px;
+	margin-top: -8px;
+	right: 8px;
+	width: 16px;
+	height: 16px;
+	line-height: 15px;
 	cursor: pointer;
 	color: #000;
 	opacity: 0.5;
@@ -12382,7 +12382,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-Notification.closable.tray:after {
-	top: 11px;
+	top: 10px;
 	margin-top: 0;
 }
 
@@ -12422,11 +12422,11 @@ div.v-layout.v-horizontal.v-widget {
 .moware .valo-menu {
 	height: 100%;
 	background-color: #f9fafb;
-	background-image: -webkit-linear-gradient(right, #f4f6f8 0%, #f9fafb 7px);
-	background-image: linear-gradient(to left,#f4f6f8 0%, #f9fafb 7px);
+	background-image: -webkit-linear-gradient(right, #f4f6f8 0%, #f9fafb 6px);
+	background-image: linear-gradient(to left,#f4f6f8 0%, #f9fafb 6px);
 	color: #6a7890;
-	font-size: 13px;
-	line-height: 21px;
+	font-size: 12px;
+	line-height: 19px;
 	border-right: 1px solid #aaa;
 	white-space: nowrap;
 }
@@ -12443,7 +12443,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .valo-menu-part {
 	border-left: 1px solid #aaa;
 	height: 100%;
-	padding-bottom: 26px;
+	padding-bottom: 24px;
 	overflow: auto;
 }
 
@@ -12460,7 +12460,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .valo-menu-title .valo-menu-badge, .moware .valo-menu-subtitle .valo-menu-badge, .moware .valo-menu-item .valo-menu-badge {
 	position: absolute;
-	right: 13px;
+	right: 12px;
 }
 
 .moware .valo-menu-title {
@@ -12470,8 +12470,8 @@ div.v-layout.v-horizontal.v-widget {
 	background-image: linear-gradient(to bottom,#4d90f8 2%, #4686f3 98%);
 	color: white;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05);
-	padding: 9px 13px;
-	font-size: 13px;
+	padding: 8px 12px;
+	font-size: 12px;
 	border-bottom: 1px solid #aaa;
 	
 	
@@ -12492,7 +12492,7 @@ div.v-layout.v-horizontal.v-widget {
 	-webkit-box-shadow: inset 0 1px 0 #7da9f9;
 	box-shadow: inset 0 1px 0 #7da9f9;
 	text-shadow: inherit;
-	font-size: 14px;
+	font-size: 13px;
 	border-color: inherit;
 }
 
@@ -12511,7 +12511,7 @@ div.v-layout.v-horizontal.v-widget {
 	text-shadow: none;
 	background: transparent;
 	color: inherit;
-	margin: 13px 5px;
+	margin: 12px 5px;
 	display: block;
 	overflow: hidden;
 	text-align: center;
@@ -12530,7 +12530,7 @@ div.v-layout.v-horizontal.v-widget {
 	margin-right: 1px;
 	border-radius: 2px;
 	color: #4b8df8;
-	padding: 0 9px;
+	padding: 0 8px;
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
 	transition: color 140ms;
@@ -12583,9 +12583,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-menubar-user-menu  > .v-menubar-menuitem img.v-icon {
-	width: 39px;
-	height: 39px;
-	border-radius: 21px;
+	width: 36px;
+	height: 36px;
+	border-radius: 19px;
 	
 	display: block;
 	margin: 0 auto 0.3em;
@@ -12605,7 +12605,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .valo-menu-subtitle {
 	color: #99a4b6;
-	margin: 5px 0 5px 13px;
+	margin: 5px 0 5px 12px;
 	border-bottom: 1px solid #d3d4d5;
 }
 
@@ -12620,7 +12620,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .valo-menu-item {
 	outline: none;
 	font-weight: 400;
-	padding: 0 26px 0 13px;
+	padding: 0 24px 0 12px;
 	cursor: pointer;
 	position: relative;
 	overflow: hidden;
@@ -12635,7 +12635,7 @@ div.v-layout.v-horizontal.v-widget {
 	display: inline-block;
 	width: 90%;
 	max-width: 15em;
-	padding-right: 13px;
+	padding-right: 12px;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
@@ -12665,7 +12665,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .valo-menu-item span.v-icon {
 	min-width: 1em;
-	margin-right: 13px;
+	margin-right: 12px;
 	text-align: center;
 	vertical-align: middle;
 	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0.75)));
@@ -12684,18 +12684,18 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 3px 4px;
 	min-width: 9px;
 	text-align: center;
-	top: 1px;
+	top: 0.5px;
 	border-radius: 2px;
 }
 
 .moware .valo-menu-part.large-icons {
 	background-color: #f9fafb;
-	min-width: 52px;
-	max-width: 78px;
+	min-width: 48px;
+	max-width: 72px;
 }
 
 .moware .valo-menu-part.large-icons .valo-menu-title {
-	font-size: 11px;
+	font-size: 10px;
 }
 
 .moware .valo-menu-part.large-icons .valo-menu-title .v-label-undef-w {
@@ -12705,28 +12705,28 @@ div.v-layout.v-horizontal.v-widget {
 .moware .valo-menu-part.large-icons .v-menubar-user-menu {
 	margin-left: 0;
 	margin-right: 0;
-	font-size: 10px;
+	font-size: 9px;
 }
 
 .moware .valo-menu-part.large-icons .v-menubar-user-menu img.v-icon {
-	width: 20px;
-	height: 20px;
+	width: 18px;
+	height: 18px;
 }
 
 .moware .valo-menu-part.large-icons [class*="subtitle"] {
-	margin: 7px 0 0;
-	padding: 5px 17px 5px 7px;
+	margin: 6px 0 0;
+	padding: 5px 16px 5px 6px;
 	line-height: 1;
 	border: none;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	background: #e7eaef;
-	font-size: 11px;
+	font-size: 10px;
 	
 }
 
 .moware .valo-menu-part.large-icons [class*="subtitle"] [class*="badge"] {
-	right: 7px;
+	right: 6px;
 }
 
 .moware .valo-menu-part.large-icons [class*="subtitle"]  + .valo-menu-item {
@@ -12735,9 +12735,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .valo-menu-part.large-icons .valo-menu-item {
 	display: block;
-	font-size: 22px;
+	font-size: 21px;
 	line-height: 1;
-	padding: 9px;
+	padding: 8px;
 	text-align: center;
 	border-top: 1px solid #eaebeb;
 }
@@ -12751,7 +12751,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: auto;
 	margin: 0.3em 0 0;
 	padding: 0;
-	font-size: 10px;
+	font-size: 9px;
 	line-height: 1.3;
 }
 
@@ -12786,17 +12786,17 @@ div.v-layout.v-horizontal.v-widget {
 .moware .valo-menu-logo {
 	display: block;
 	overflow: hidden;
-	width: 31px !important;
-	height: 31px;
+	width: 29px !important;
+	height: 29px;
 	border-radius: 2px;
 	text-align: center;
 	background-color: #4b8df8;
 	background-image: -webkit-linear-gradient(top, #4d90f8 2%, #4686f3 98%);
 	background-image: linear-gradient(to bottom,#4d90f8 2%, #4686f3 98%);
 	color: white;
-	font-size: 17px;
-	line-height: 31px;
-	margin: 13px auto;
+	font-size: 16px;
+	line-height: 29px;
+	margin: 12px auto;
 	
 	
 }
@@ -12807,12 +12807,12 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part {
 	background-color: #f9fafb;
-	min-width: 52px;
-	max-width: 78px;
+	min-width: 48px;
+	max-width: 72px;
 }
 
 .moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-title {
-	font-size: 11px;
+	font-size: 10px;
 }
 
 .moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-title .v-label-undef-w {
@@ -12822,28 +12822,28 @@ div.v-layout.v-horizontal.v-widget {
 .moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .v-menubar-user-menu {
 	margin-left: 0;
 	margin-right: 0;
-	font-size: 10px;
+	font-size: 9px;
 }
 
 .moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .v-menubar-user-menu img.v-icon {
-	width: 20px;
-	height: 20px;
+	width: 18px;
+	height: 18px;
 }
 
 .moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part [class*="subtitle"] {
-	margin: 7px 0 0;
-	padding: 5px 17px 5px 7px;
+	margin: 6px 0 0;
+	padding: 5px 16px 5px 6px;
 	line-height: 1;
 	border: none;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	background: #e7eaef;
-	font-size: 11px;
+	font-size: 10px;
 	
 }
 
 .moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part [class*="subtitle"] [class*="badge"] {
-	right: 7px;
+	right: 6px;
 }
 
 .moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part [class*="subtitle"]  + .valo-menu-item {
@@ -12852,9 +12852,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .valo-menu-responsive[width-range~="801px-1100px"] .valo-menu-part .valo-menu-item {
 	display: block;
-	font-size: 22px;
+	font-size: 21px;
 	line-height: 1;
-	padding: 9px;
+	padding: 8px;
 	text-align: center;
 	border-top: 1px solid #eaebeb;
 }
@@ -12868,7 +12868,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: auto;
 	margin: 0.3em 0 0;
 	padding: 0;
-	font-size: 10px;
+	font-size: 9px;
 	line-height: 1.3;
 }
 
@@ -12901,13 +12901,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .valo-menu-responsive[width-range~="0-800px"] {
-	padding-top: 26px;
+	padding-top: 24px;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
 .moware .valo-menu-responsive[width-range~="0-800px"] .v-loading-indicator {
-	top: 26px;
+	top: 24px;
 }
 
 .moware .valo-menu-responsive[width-range~="0-800px"]  > .v-widget {
@@ -12932,7 +12932,7 @@ div.v-layout.v-horizontal.v-widget {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 26px !important;
+	height: 24px !important;
 	padding-top: 0;
 	padding-bottom: 0;
 	-webkit-backface-visibility: hidden;
@@ -12945,44 +12945,44 @@ div.v-layout.v-horizontal.v-widget {
 	right: 0;
 	margin: 0;
 	padding: 0;
-	height: 26px;
+	height: 24px;
 	color: #b0c9f1;
 	max-width: 30%;
 	-webkit-backface-visibility: hidden;
 }
 
 .moware .valo-menu-responsive[width-range~="0-800px"] .valo-menu .v-menubar-user-menu .v-menubar-menuitem {
-	line-height: 25px;
+	line-height: 23px;
 	white-space: nowrap;
 }
 
 .moware .valo-menu-responsive[width-range~="0-800px"] .valo-menu .v-menubar-user-menu img.v-icon {
 	display: inline-block;
 	margin: 0 4px 0 0;
-	width: 13px;
-	height: 13px;
-	border-radius: 7px;
+	width: 12px;
+	height: 12px;
+	border-radius: 6px;
 	border: none;
 }
 
 .moware .valo-menu-responsive[width-range~="0-800px"] .valo-menuitems {
 	height: 100%;
 	background-color: #f9fafb;
-	background-image: -webkit-linear-gradient(right, #f4f6f8 0%, #f9fafb 7px);
-	background-image: linear-gradient(to left,#f4f6f8 0%, #f9fafb 7px);
+	background-image: -webkit-linear-gradient(right, #f4f6f8 0%, #f9fafb 6px);
+	background-image: linear-gradient(to left,#f4f6f8 0%, #f9fafb 6px);
 	color: #6a7890;
-	font-size: 13px;
-	line-height: 21px;
+	font-size: 12px;
+	line-height: 19px;
 	border-right: 1px solid #aaa;
 	white-space: nowrap;
 	position: fixed;
 	z-index: 9000;
-	top: 26px;
+	top: 24px;
 	bottom: 0;
 	height: auto;
 	max-width: 100%;
 	overflow: auto;
-	padding: 13px 0;
+	padding: 12px 0;
 	-webkit-transform: translatex(-100%);
 	-moz-transform: translatex(-100%);
 	-ms-transform: translatex(-100%);
@@ -13007,7 +13007,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .valo-menu-responsive[width-range~="0-500px"] .valo-menu .v-menubar-user-menu .v-menubar-menuitem-caption {
 	display: inline-block;
-	width: 13px;
+	width: 12px;
 	overflow: hidden;
 }
 
@@ -13034,7 +13034,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .mo-bottombtnpane-mrg {
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-top: 6.5px;
+	padding-top: 6px;
 	padding-bottom: 0px;
 }
 
@@ -13048,7 +13048,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .mo-msgboxtext {
-	line-height: 19.5px;
+	line-height: 18px;
 }
 
 .moware .mo-promptwindow .v-window-header {
@@ -13091,7 +13091,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .mo-flaglabel {
 	line-height: 1.8em;
-	padding-left: 2.88889px;
+	padding-left: 2.66667px;
 	font-weight: bold;
 	color: #6B7D99;
 }
@@ -13117,11 +13117,6 @@ div.v-layout.v-horizontal.v-widget {
 	border-top: 1px solid #ddd;
 }
 
-.moware .v-table-body {
-	background-image: url("tblback3.png");
-	background-repeat: repeat;
-}
-
 .moware .v-table-header-wrap {
 	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #B8B8B8 98%);
 }
@@ -13135,36 +13130,36 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .mo-table .mo-linecounter {
-	width: 91px;
-	height: 26px;
-	line-height: 26px;
+	width: 84px;
+	height: 24px;
+	line-height: 24px;
 }
 
 .moware .mo-table .mo-linecounter-margin {
-	margin-right: 52px;
+	margin-right: 48px;
 }
 
 .moware .mo-table .v-slot-mo-searchfield {
-	height: 26px;
+	height: 24px;
 }
 
 .moware .mo-table .mo-searchfield {
-	width: 130px;
+	width: 120px;
 	background-color: #fff9e6;
-	height: 20.8px;
+	height: 19.2px;
 	border: 1px solid transparent;
 }
 
 .moware .mo-table .mo-summaryline {
 	line-height: 1em;
-	padding-right: 6.5px;
+	padding-right: 6px;
 }
 
 .moware .mo-table input {
 	margin: 0px !important;
 	padding: 0px 5px 0px 5px !important;
 	font-weight: 100 !important;
-	height: 20px !important;
+	height: 18px !important;
 }
 
 .moware .mo-table .mo-right-input {
