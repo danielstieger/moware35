@@ -784,7 +784,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="packaging" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyi" id="3NdPOdMTont" role="1TKVEl">
       <property role="TrG5h" value="debugMe" />
@@ -807,7 +807,7 @@
     <node concept="1TJgyj" id="7opW4z6uE$d" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="sqlString" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="7opW4z6uE$e" role="1TKVEi">
@@ -1009,6 +1009,17 @@
       <property role="20kJfa" value="sqlstringField" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1Rx6rUSp3_H" resolve="SqlStringField" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ng6PyCaQV0">
+    <property role="3GE5qa" value="repofields" />
+    <property role="TrG5h" value="RowMapperFieldRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="7ng6PyCaS_c" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="rowMapperField" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1Rx6rUSp5XL" resolve="RowMapperField" />
     </node>
   </node>
 </model>

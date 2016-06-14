@@ -92,6 +92,7 @@
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1219226236603" name="jetbrains.mps.lang.editor.structure.DrawBracketsStyleClassItem" flags="ln" index="3vyZuw" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -1680,6 +1681,7 @@
         <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
       </node>
       <node concept="3F1sOY" id="42_QlHqGqZy" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;no rowMapper&gt;" />
         <ref role="1NtTu8" to="r5tz:42_QlHqGoce" />
       </node>
       <node concept="3F0ifn" id="1vKpqttJmFW" role="3EZMnx">
@@ -1919,6 +1921,20 @@
       <ref role="1NtTu8" to="r5tz:qHvcCAVs71" />
       <node concept="1sVBvm" id="qHvcCAVsxY" role="1sWHZn">
         <node concept="3F0A7n" id="qHvcCAVsyj" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7ng6PyCaSAB">
+    <property role="3GE5qa" value="repofields" />
+    <ref role="1XX52x" to="r5tz:7ng6PyCaQV0" resolve="RowMapperFieldRef" />
+    <node concept="1iCGBv" id="7ng6PyCaSZV" role="2wV5jI">
+      <ref role="1NtTu8" to="r5tz:7ng6PyCaS_c" />
+      <node concept="1sVBvm" id="7ng6PyCaSZX" role="1sWHZn">
+        <node concept="3F0A7n" id="7ng6PyCaT0I" role="2wV5jI">
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />

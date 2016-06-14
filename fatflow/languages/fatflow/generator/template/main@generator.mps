@@ -15202,7 +15202,7 @@
                                 <ref role="3cqZAo" node="1y3D6gPhjk9" resolve="it" />
                               </node>
                               <node concept="2qgKlT" id="1y3D6gPhsG8" role="2OqNvi">
-                                <ref role="37wK5l" to="lfe3:6TB1IkoDpNB" resolve="getEntityMappings" />
+                                <ref role="37wK5l" to="lfe3:6TB1IkoDpNB" resolve="getEntityMappingsScope" />
                               </node>
                             </node>
                           </node>

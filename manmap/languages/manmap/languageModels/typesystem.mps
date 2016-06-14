@@ -169,6 +169,7 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
+      <concept id="1179832490862" name="jetbrains.mps.lang.typesystem.structure.CreateStrongLessThanInequationStatement" flags="nn" index="2NvLDW" />
       <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
         <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
       </concept>
@@ -2678,37 +2679,40 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="7ng6PyCdMhf" role="3cqZAp" />
+      <node concept="3clFbH" id="7ng6PyCdMkT" role="3cqZAp" />
       <node concept="1ZxtTE" id="42_QlHrvF8O" role="3cqZAp">
         <property role="TrG5h" value="paramType" />
       </node>
-      <node concept="1Z5TYs" id="42_QlHrHwG9" role="3cqZAp">
-        <node concept="mw_s8" id="42_QlHrHzOF" role="1ZfhKB">
-          <node concept="2c44tf" id="42_QlHrHzOB" role="mwGJk">
-            <node concept="1ajhzC" id="42_QlHrvOAw" role="2c44tc">
-              <node concept="1ajhzC" id="42_QlHrvIay" role="1ajl9A">
-                <node concept="3uibUv" id="42_QlHrvIaz" role="1ajw0F">
-                  <ref role="3uigEE" to="w7gk:3NdPOdNGJW0" resolve="IQueryFromSqlRowRef" />
-                </node>
-                <node concept="2c44te" id="42_QlHrvNBW" role="lGtFl">
-                  <node concept="1Z$b5t" id="42_QlHrvNCG" role="2c44t1">
-                    <ref role="1Z$eMM" node="42_QlHrvF8O" resolve="paramType" />
-                  </node>
-                </node>
+      <node concept="2NvLDW" id="7ng6PyCeo8V" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="7ng6PyCeo8X" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7ng6PyCeo8Y" role="mwGJk">
+            <node concept="2OqwBi" id="7ng6PyCeo8Z" role="1Z2MuG">
+              <node concept="1YBJjd" id="7ng6PyCeo90" role="2Oq$k0">
+                <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
               </node>
-              <node concept="3uibUv" id="42_QlHrvPnU" role="1ajw0F">
-                <ref role="3uigEE" to="w7gk:3NdPOdNGJW0" resolve="IQueryFromSqlRowRef" />
+              <node concept="3TrEf2" id="7ng6PyCeo91" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:42_QlHqGoce" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="42_QlHrHwGc" role="1ZfhK$">
-          <node concept="1Z2H0r" id="42_QlHrHtYk" role="mwGJk">
-            <node concept="2OqwBi" id="42_QlHrHvel" role="1Z2MuG">
-              <node concept="1YBJjd" id="42_QlHrHuMO" role="2Oq$k0">
-                <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
+        <node concept="mw_s8" id="7ng6PyCeo92" role="1ZfhKB">
+          <node concept="2c44tf" id="7ng6PyCeo93" role="mwGJk">
+            <node concept="1ajhzC" id="7ng6PyCeo94" role="2c44tc">
+              <node concept="1ajhzC" id="7ng6PyCeo95" role="1ajl9A">
+                <node concept="3uibUv" id="7ng6PyCeo96" role="1ajw0F">
+                  <ref role="3uigEE" to="w7gk:3NdPOdNGJW0" resolve="IQueryFromSqlRowRef" />
+                </node>
+                <node concept="2c44te" id="7ng6PyCeo97" role="lGtFl">
+                  <node concept="1Z$b5t" id="7ng6PyCeo98" role="2c44t1">
+                    <ref role="1Z$eMM" node="42_QlHrvF8O" resolve="paramType" />
+                  </node>
+                </node>
               </node>
-              <node concept="3TrEf2" id="42_QlHrHwdJ" role="2OqNvi">
-                <ref role="3Tt5mk" to="r5tz:42_QlHqGoce" />
+              <node concept="3uibUv" id="7ng6PyCeo99" role="1ajw0F">
+                <ref role="3uigEE" to="w7gk:3NdPOdNGJW0" resolve="IQueryFromSqlRowRef" />
               </node>
             </node>
           </node>
@@ -3161,6 +3165,42 @@
     <node concept="1YaCAy" id="qHvcCAXgv7" role="1YuTPh">
       <property role="TrG5h" value="sqlStringFieldRef" />
       <ref role="1YaFvo" to="r5tz:qHvcCAVs5N" resolve="SqlStringFieldRef" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="7ng6PyCaTzq">
+    <property role="TrG5h" value="typeof_RowMapperFieldRef" />
+    <property role="3GE5qa" value="repofields" />
+    <node concept="3clFbS" id="7ng6PyCaTzr" role="18ibNy">
+      <node concept="1Z5TYs" id="7ng6PyCaTA$" role="3cqZAp">
+        <node concept="mw_s8" id="7ng6PyCaTB6" role="1ZfhKB">
+          <node concept="1Z2H0r" id="7ng6PyCaTB2" role="mwGJk">
+            <node concept="2OqwBi" id="7ng6PyCdysY" role="1Z2MuG">
+              <node concept="2OqwBi" id="7ng6PyCaTDq" role="2Oq$k0">
+                <node concept="1YBJjd" id="7ng6PyCaTB_" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7ng6PyCaTzt" resolve="rowMapperFieldRef" />
+                </node>
+                <node concept="3TrEf2" id="7ng6PyCaU5I" role="2OqNvi">
+                  <ref role="3Tt5mk" to="r5tz:7ng6PyCaS_c" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="7ng6PyCdyDi" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:1Rx6rUSp5XO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="7ng6PyCaTAB" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7ng6PyCaT$b" role="mwGJk">
+            <node concept="1YBJjd" id="7ng6PyCaT$P" role="1Z2MuG">
+              <ref role="1YBMHb" node="7ng6PyCaTzt" resolve="rowMapperFieldRef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7ng6PyCaTzt" role="1YuTPh">
+      <property role="TrG5h" value="rowMapperFieldRef" />
+      <ref role="1YaFvo" to="r5tz:7ng6PyCaQV0" resolve="RowMapperFieldRef" />
     </node>
   </node>
 </model>
