@@ -18662,7 +18662,7 @@
                                 <node concept="liA8E" id="1E1ovvFlyNE" role="2OqNvi">
                                   <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                                   <node concept="Xl_RD" id="1E1ovvFlyNF" role="37wK5m">
-                                    <property role="Xl_RC" value=" .. the MapSELECT SQL PARAMS follows:\n\n" />
+                                    <property role="Xl_RC" value=" .. the MapSELECT SQL PARAMS follow:\n\n" />
                                   </node>
                                 </node>
                               </node>
@@ -19651,7 +19651,7 @@
                                 <node concept="liA8E" id="1E1ovvFvDzO" role="2OqNvi">
                                   <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                                   <node concept="Xl_RD" id="1E1ovvFvDzP" role="37wK5m">
-                                    <property role="Xl_RC" value=" .. the MapUPDATE SQL PARAMS follows:\n\n" />
+                                    <property role="Xl_RC" value=" .. the MapUPDATE SQL PARAMS follow:\n\n" />
                                   </node>
                                 </node>
                               </node>
