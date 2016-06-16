@@ -777,4 +777,22 @@ var HowneywellBarcodeReaderSwiftSettings =
         "valueRange" : [{"min" : 1}, {"max" : 60}],
         "command" : "DEC_TELEPEN_MAX_LENGTH"
     }
+    /* ------------------------------ Adoped by dan ---------------------------- */
+    ,
+    {
+        "family" : "Symbology",
+        "key" : "EANUPC",
+        "option" : "EAN13TWOCHARADDENDA",
+        "valueType" : "map",
+        "valueMap" : [{"true" : true}, {"false" : false}],
+        "command" : "DEC_EAN13_2CHAR_ADDENDA_ENABLED"
+    },
+               {
+        "family" : "Symbology",
+        "key" : "EANUPC",
+        "option" : "EAN13FIVECHARADDENDA",
+        "valueType" : "map",
+        "valueMap" : [{"true" : true}, {"false" : false}],
+        "command" : "DEC_EAN13_5CHAR_ADDENDA_ENABLED"
+    }
 ];

@@ -17,16 +17,14 @@ var defaultReader = null;
  *
  *		  
  */
-
-function l(s){
-	alert(s);
-}
-
 function onBarcodeReaderComplete (result){
 	if (result.status === 0) {        
     	// Configure the symbologies needed. Buffer the settings and commit them at once.
         defaultReader.setBuffered("Symbology", "EANUPC", "EnableEAN13", "true", onSetBufferedComplete);
         defaultReader.setBuffered("Symbology", "EANUPC", "EAN13CheckDigit", "true", onSetBufferedComplete);
+        defaultReader.setBuffered("Symbology", "EANUPC", "EAN13TWOCHARADDENDA", "true", onSetBufferedComplete)
+		defaultReader.setBuffered("Symbology", "EANUPC", "EAN13FIVECHARADDENDA", "true", onSetBufferedComplete);
+        
         defaultReader.commitBuffer(onCommitComplete);
 
         // Add an event handler for the barcodedataready event
@@ -64,7 +62,6 @@ function onCommitComplete (resultArray){
                 
         } //endfor
 	}
-	/* l('Commit complete'); */
 }
 
 // Handle barcode data when available
@@ -73,60 +70,60 @@ function onBarcodeDataReady (data, type, time) {
 	
 	var conclusion = $('input[name="scanconclusion"]').value;
 
-	// disableScan();
 	myfocusOnElement(null);
-
-	/* defaultReader.close(function(result) {
-        	if (result.status === 0) {
-            	var f = $('form');
-				f.NaviCrtl.value = conclusion;
-				f.submit();	
-            	console.log("BarcodeReader successfully closed.");
-            
-            } else {
-                alert("Error while closing BarcodeReader: status: " + result.status + ", message: " + result.message);
-
-				var f = $('form');
-				f.NaviCrtl.value = conclusion;
-				f.submit();			
-	        }    
-        }); */
-    
-    var f = $('form');
-	f.NaviCrtl.value = conclusion;
-	f.submit();
-
+	disableScanSubmit(conclusion);
 }
 
 
 
 /* Scan stuff ******************************************************* */
-function disableScan(){
-	if ($('input[name="scanconclusion"]') != null) {
-	
-		defaultReader.close(function(result) {
-        	if (result.status === 0) {
-            	console.log("BarcodeReader successfully closed.");
-            
-            } else {
-                alert("Error while closing BarcodeReader: status: " + result.status + ", message: " + result.message);
-        
-            }    
-        });	
+function submitHelper(valstr){
+	if (valstr.indexOf('/') >= 0) {
+		window.location = valstr;
 		
-		$('#scanSoftButton').disabled = true;	 
+	} else {
+		var f = $('form');
+		f.NaviCrtl.value=valstr;
+		// alert('SUBMIT SaveSubmit()'); 
+		f.submit();
 	}
 }
 
+function disableScanSubmit(conclusion){
+	// independent of $('input[name="scanconclusion"]') != null
+	if (defaultReader != null) {
+		defaultReader.close(function(result) {
+        	if (result.status === 0) {
+        		defaultReader = null;
+        		submitHelper(conclusion);
+        		            
+            } else {
+                alert("Error while closing BarcodeReader: status: " + result.status + ", message: " + result.message);
+				defaultReader = null;
+        		submitHelper(conclusion);			
+	        }    
+        });
+    
+    } else {
+    	submitHelper(conclusion);
+    
+    }
+    
+}
+
+
 function enableScan(){
+
 	if ($('input[name="scanconclusion"]') != null) {
 		try {
 			defaultReader = new BarcodeReader(null, onBarcodeReaderComplete);
+		
 			/* $('#scanSoftButton').disabled = false; */
 			/* alert('Scan enabled:'); */ 
 			
 		} catch(err) {
 			alert('ERR: ' + err);
+
 		} 
 	} else {
 		/* alert('Scan not enabled'); */
@@ -140,8 +137,6 @@ function ScanSubmit(){
     // the scan conclusion then ... and submit
 
 	//alert('ScanSubmit() issuing scan');
-	EB.Barcode.stop();
-	EB.Barcode.start();
 }
 
 /* Form stuff ******************************************************* */
@@ -149,31 +144,18 @@ function ScanSubmit(){
 function SelectAndExec(selectionstr, valstr){
 	internVibrate(100);
 
-	disableScan();
-	
 	myfocusOnElement(null);
 	var f = $('form');
-	f.NaviCrtl.value=valstr;
 	f.SelectionId.value=selectionstr;
-	// console.log('SUBMIT SelectAndExec()'); 
-	f.submit();
+	
+	disableScanSubmit(valstr);	
 }
 
 function SaveSubmit(valstr){
 	internVibrate(100);
 
- 	disableScan();
- 	
 	myfocusOnElement(null);
-	if (valstr.indexOf('/') >= 0) {
-		window.location = valstr;
-		
-	} else {
-		var f = $('form');
-		f.NaviCrtl.value=valstr;
-		// alert('SUBMIT SaveSubmit()'); 
-		f.submit();
-	}
+	disableScanSubmit(valstr);	
 }
 
 
@@ -294,6 +276,8 @@ function myfocusOnElement(elem) {
 /* On Load Stuff ------------------------------------------------------------- */
 
 document.addEventListener('DOMContentLoaded', function() {
+    
+    defaultReader = null;
     
 	/* backbutton browser handler - last resort 
 	 * per default, backbutton should be handled by key capture
