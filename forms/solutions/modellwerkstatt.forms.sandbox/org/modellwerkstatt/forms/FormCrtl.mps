@@ -14174,7 +14174,7 @@
       <node concept="3Tm6S6" id="7708TIHG3jF" role="1B3o_S" />
       <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
       <node concept="Xl_RD" id="7708TIHG4ay" role="33vP2m">
-        <property role="Xl_RC" value="moware60 RC5C (pre1)" />
+        <property role="Xl_RC" value="moware60 RC5D (vaadin pre)" />
       </node>
     </node>
     <node concept="312cEg" id="4Rlyz3EoDyi" role="jymVt">
