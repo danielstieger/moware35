@@ -10606,6 +10606,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="6beFyo3r5LL" role="3cqZAp" />
           </node>
           <node concept="2OqwBi" id="qHvcCB4NbU" role="3clFbw">
             <node concept="37vLTw" id="qHvcCB4NbV" role="2Oq$k0">
@@ -10617,10 +10618,39 @@
               </node>
             </node>
           </node>
+          <node concept="3eNFk2" id="6beFyo3naZT" role="3eNLev">
+            <node concept="2OqwBi" id="6beFyo3nb9V" role="3eO9$A">
+              <node concept="37vLTw" id="6beFyo3nb7h" role="2Oq$k0">
+                <ref role="3cqZAo" node="qHvcCB4MLo" resolve="kind" />
+              </node>
+              <node concept="2Zo12i" id="6beFyo3nblo" role="2OqNvi">
+                <node concept="chp4Y" id="6beFyo3nbnw" role="2Zo12j">
+                  <ref role="cht4Q" to="tpee:6LFqxSRBTg8" resolve="MethodDeclaration" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="6beFyo3naZV" role="3eOfB_">
+              <node concept="3cpWs6" id="6beFyo3nbqh" role="3cqZAp">
+                <node concept="2YIFZM" id="6beFyo3nbxu" role="3cqZAk">
+                  <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                  <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                  <node concept="2OqwBi" id="6beFyo3nbR1" role="37wK5m">
+                    <node concept="13iPFW" id="6beFyo3nbCT" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="6beFyo3ncMm" role="2OqNvi">
+                      <ref role="37wK5l" to="tpek:4_LVZ3pBKCn" resolve="methods" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="6beFyo3r5Ww" role="3cqZAp" />
+            </node>
+          </node>
         </node>
         <node concept="3clFbH" id="qHvcCB4Nx8" role="3cqZAp" />
-        <node concept="3clFbF" id="qHvcCB4NbY" role="3cqZAp">
-          <node concept="2OqwBi" id="qHvcCB4NbZ" role="3clFbG">
+        <node concept="3clFbH" id="6beFyo3naJY" role="3cqZAp" />
+        <node concept="3clFbH" id="6beFyo3naO0" role="3cqZAp" />
+        <node concept="3cpWs6" id="6beFyo3jE5s" role="3cqZAp">
+          <node concept="2OqwBi" id="qHvcCB4NbZ" role="3cqZAk">
             <node concept="13iAh5" id="qHvcCB4Nc0" role="2Oq$k0">
               <ref role="3eA5LN" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
             </node>
