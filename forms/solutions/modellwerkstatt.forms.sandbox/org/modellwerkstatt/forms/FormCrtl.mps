@@ -3055,16 +3055,36 @@
               <node concept="Xl_RD" id="1EBV9L$Ee8Q" role="37wK5m">
                 <property role="Xl_RC" value="authentication" />
               </node>
-              <node concept="3cpWs3" id="1EBV9L$Ee8R" role="37wK5m">
-                <node concept="Xl_RD" id="1EBV9L$Ee8S" role="3uHU7w">
-                  <property role="Xl_RC" value=" successfully logged on." />
+              <node concept="3cpWs3" id="4UpVxfjIE78" role="37wK5m">
+                <node concept="Xl_RD" id="4UpVxfjIE9i" role="3uHU7w">
+                  <property role="Xl_RC" value=")" />
                 </node>
-                <node concept="3cpWs3" id="1EBV9L$Ee8T" role="3uHU7B">
-                  <node concept="Xl_RD" id="1EBV9L$Ee8U" role="3uHU7B">
-                    <property role="Xl_RC" value="User " />
+                <node concept="3cpWs3" id="4UpVxfjICQW" role="3uHU7B">
+                  <node concept="3cpWs3" id="1EBV9L$Ee8R" role="3uHU7B">
+                    <node concept="3cpWs3" id="1EBV9L$Ee8T" role="3uHU7B">
+                      <node concept="Xl_RD" id="1EBV9L$Ee8U" role="3uHU7B">
+                        <property role="Xl_RC" value="User " />
+                      </node>
+                      <node concept="37vLTw" id="1EBV9L$Ee8V" role="3uHU7w">
+                        <ref role="3cqZAo" node="vsIEjNuDgI" resolve="username" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="1EBV9L$Ee8S" role="3uHU7w">
+                      <property role="Xl_RC" value=" successfully logged on. (printService is " />
+                    </node>
                   </node>
-                  <node concept="37vLTw" id="1EBV9L$Ee8V" role="3uHU7w">
-                    <ref role="3cqZAo" node="vsIEjNuDgI" resolve="username" />
+                  <node concept="2OqwBi" id="4UpVxfjIDwT" role="3uHU7w">
+                    <node concept="2OqwBi" id="4UpVxfjID6w" role="2Oq$k0">
+                      <node concept="37vLTw" id="4UpVxfjID09" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1EBV9L$__Gy" resolve="userEnvironment" />
+                      </node>
+                      <node concept="liA8E" id="4UpVxfjIDsc" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:2vHEu_N_sTu" resolve="getUserPrintService" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4UpVxfjIDRg" role="2OqNvi">
+                      <ref role="37wK5l" to="e2lb:~Object.toString():java.lang.String" resolve="toString" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -47353,6 +47373,30 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="4UpVxfjHHEh" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="informationOnUserPrintService" />
+      <node concept="3Tm1VV" id="4UpVxfjHHEj" role="1B3o_S" />
+      <node concept="17QB3L" id="4UpVxfjHHEk" role="3clF45" />
+      <node concept="3clFbS" id="4UpVxfjHHEn" role="3clF47">
+        <node concept="3cpWs6" id="4UpVxfjHHZX" role="3cqZAp">
+          <node concept="2OqwBi" id="4UpVxfjHIRc" role="3cqZAk">
+            <node concept="2OqwBi" id="4UpVxfjHIfk" role="2Oq$k0">
+              <node concept="37vLTw" id="4UpVxfjHI1l" role="2Oq$k0">
+                <ref role="3cqZAo" node="1EBV9L$__Gy" resolve="userEnvironment" />
+              </node>
+              <node concept="liA8E" id="4UpVxfjHI_v" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2vHEu_N_sTu" resolve="getUserPrintService" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4UpVxfjHJfT" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~Object.toString():java.lang.String" resolve="toString" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="6TYnK1bA9qE" role="jymVt" />
     <node concept="3clFb_" id="67D5vCCRQlV" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -47466,6 +47510,14 @@
       <node concept="17QB3L" id="uIdudhLYlU" role="3clF45" />
       <node concept="3Tm1VV" id="uIdudhLYhj" role="1B3o_S" />
       <node concept="3clFbS" id="uIdudhLYhk" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="4UpVxfjHHjb" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="informationOnUserPrintService" />
+      <node concept="3clFbS" id="4UpVxfjHHje" role="3clF47" />
+      <node concept="3Tm1VV" id="4UpVxfjHHjf" role="1B3o_S" />
+      <node concept="17QB3L" id="4UpVxfjHHhX" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="uIdudhLYfM" role="jymVt" />
     <node concept="3Tm1VV" id="1EBV9L$__sE" role="1B3o_S" />

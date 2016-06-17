@@ -19,6 +19,8 @@
       <sourceRoot location="printing21/avalon-framework-api-4.3.1.jar" />
       <sourceRoot location="printing21/avalon-framework-impl-4.3.1.jar" />
       <sourceRoot location="printing21/xmlgraphics-commons-2.1.jar" />
+      <sourceRoot location="richclient/mailapi.jar" />
+      <sourceRoot location="richclient/smtp.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
