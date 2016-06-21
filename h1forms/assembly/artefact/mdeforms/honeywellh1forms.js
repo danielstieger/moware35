@@ -92,7 +92,7 @@ function submitHelper(valstr){
 function disableScanSubmit(conclusion){
 	// independent of $('input[name="scanconclusion"]') != null
 	if (defaultReader != null) {
-		defaultReader.close(function(result) {
+		/* defaultReader.close(function(result) {
         	if (result.status === 0) {
         		defaultReader = null;
         		submitHelper(conclusion);
@@ -102,7 +102,12 @@ function disableScanSubmit(conclusion){
 				defaultReader = null;
         		submitHelper(conclusion);			
 	        }    
-        });
+        }); */
+        
+        // TODO: Do not close the reader, otherwise we do have to press
+        // the trigger twice... (Dan 21. Jun)
+        defaultReader = null;
+        submitHelper(conclusion);
     
     } else {
     	submitHelper(conclusion);
