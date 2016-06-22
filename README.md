@@ -12,7 +12,7 @@ Before starting with further developments, the R5 is brought into a LTS scheme,
 to cut ties with future experimental and development versions. The R5 will provide
 a stable platform for application development which still provides important bug fixes 
 on demand. MoWare 2.0 with a focus on mobile development and user task handling will 
-be independent but still provide upgrade model refactoring’s for this RC5 going forward.   
+be independent but still provide upgrade model refactoring’s for this R5 going forward.   
 
 
 More information is provided at http://www.modellwerkstatt.org
