@@ -14191,12 +14191,20 @@
     <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="MOWARE_PLUGIN_VERSION" />
-      <node concept="3Tm6S6" id="7708TIHG3jF" role="1B3o_S" />
+      <node concept="3Tm1VV" id="79n7_omqfJV" role="1B3o_S" />
       <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
       <node concept="Xl_RD" id="7708TIHG4ay" role="33vP2m">
-        <property role="Xl_RC" value="moware60 RC5D (vaadin pre)" />
+        <property role="Xl_RC" value="moware60 R5 (custom sql)" />
       </node>
     </node>
+    <node concept="Wx3nA" id="79n7_omq6WT" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="DEVELOPMENT_SETTING" />
+      <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
+      <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
+      <node concept="3clFbT" id="79n7_omq89$" role="33vP2m" />
+    </node>
+    <node concept="2tJIrI" id="79n7_omq3qX" role="jymVt" />
     <node concept="312cEg" id="4Rlyz3EoDyi" role="jymVt">
       <property role="TrG5h" value="uiSystem" />
       <node concept="3Tm6S6" id="4Rlyz3EoDyj" role="1B3o_S" />
