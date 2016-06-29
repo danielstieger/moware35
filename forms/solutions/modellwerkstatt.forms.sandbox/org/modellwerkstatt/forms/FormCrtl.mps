@@ -3323,12 +3323,21 @@
               <node concept="3clFbH" id="6bN8khMzNHo" role="3cqZAp" />
               <node concept="3clFbH" id="6bN8khMwSfW" role="3cqZAp" />
             </node>
-            <node concept="2OqwBi" id="6bN8khMEfCS" role="3eO9$A">
-              <node concept="37vLTw" id="6bN8khMEfwH" role="2Oq$k0">
-                <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+            <node concept="2OqwBi" id="7iXVPHaYbkk" role="3eO9$A">
+              <node concept="liA8E" id="7iXVPHaYbQl" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="2OqwBi" id="6bN8khMEfCS" role="37wK5m">
+                  <node concept="37vLTw" id="6bN8khMEfwH" role="2Oq$k0">
+                    <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                  </node>
+                  <node concept="liA8E" id="6bN8khMEg4k" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:7iXVPHaWscv" resolve="getToolkitType" />
+                  </node>
+                </node>
               </node>
-              <node concept="liA8E" id="6bN8khMEg4k" role="2OqNvi">
-                <ref role="37wK5l" node="6bN8khMDDXR" resolve="isRichClientToolkit" />
+              <node concept="Rm8GO" id="7iXVPHaYc93" role="2Oq$k0">
+                <ref role="Rm8GQ" to="28jr:7iXVPHaW1ki" resolve="FX8" />
+                <ref role="1Px2BO" to="28jr:7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
               </node>
             </node>
           </node>
@@ -9972,7 +9981,7 @@
                                                   <ref role="1Px2BO" node="4Ucpg8z6mu9" resolve="IToolkit_AppWindow.MsgType" />
                                                 </node>
                                                 <node concept="1rXfSq" id="4Ucpg8z9ZUs" role="3K4Cdx">
-                                                  <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="isShowExceptionOnScreen" />
+                                                  <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="showExceptionOnScreen" />
                                                 </node>
                                               </node>
                                               <node concept="1rXfSq" id="2U6PE9kGlLZ" role="37wK5m">
@@ -10095,7 +10104,7 @@
                                                   <ref role="1Px2BO" node="4Ucpg8z6mu9" resolve="IToolkit_AppWindow.MsgType" />
                                                 </node>
                                                 <node concept="1rXfSq" id="4Ucpg8za3hm" role="3K4Cdx">
-                                                  <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="isShowExceptionOnScreen" />
+                                                  <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="showExceptionOnScreen" />
                                                 </node>
                                               </node>
                                               <node concept="1rXfSq" id="2U6PE9kGZxR" role="37wK5m">
@@ -10346,7 +10355,7 @@
                   <ref role="1Px2BO" node="4Ucpg8z6mu9" resolve="IToolkit_AppWindow.MsgType" />
                 </node>
                 <node concept="1rXfSq" id="1rrvF1jgHLR" role="3K4Cdx">
-                  <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="isShowExceptionOnScreen" />
+                  <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="showExceptionOnScreen" />
                 </node>
               </node>
               <node concept="1rXfSq" id="1rrvF1jgHLS" role="37wK5m">
@@ -10862,7 +10871,7 @@
                         <ref role="Rm8GQ" node="4Ucpg8z6mvq" resolve="ERROR" />
                       </node>
                       <node concept="1rXfSq" id="4Ucpg8zaLmO" role="3K4Cdx">
-                        <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="isShowExceptionOnScreen" />
+                        <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="showExceptionOnScreen" />
                       </node>
                     </node>
                     <node concept="1rXfSq" id="2U6PE9kIbH6" role="37wK5m">
@@ -10953,7 +10962,7 @@
                         <ref role="1Px2BO" node="4Ucpg8z6mu9" resolve="IToolkit_AppWindow.MsgType" />
                       </node>
                       <node concept="1rXfSq" id="4Ucpg8zaM69" role="3K4Cdx">
-                        <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="isShowExceptionOnScreen" />
+                        <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="showExceptionOnScreen" />
                       </node>
                     </node>
                     <node concept="1rXfSq" id="2U6PE9kIjs2" role="37wK5m">
@@ -11671,7 +11680,7 @@
                                                       <ref role="1Px2BO" node="4Ucpg8z6mu9" resolve="IToolkit_AppWindow.MsgType" />
                                                     </node>
                                                     <node concept="1rXfSq" id="4Ucpg8zaNiE" role="3K4Cdx">
-                                                      <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="isShowExceptionOnScreen" />
+                                                      <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="showExceptionOnScreen" />
                                                     </node>
                                                   </node>
                                                   <node concept="1rXfSq" id="4Ucpg8zaNiF" role="37wK5m">
@@ -11783,7 +11792,7 @@
                                                       <ref role="Rm8GQ" node="4Ucpg8z6mvq" resolve="ERROR" />
                                                     </node>
                                                     <node concept="1rXfSq" id="4Ucpg8zaNxU" role="3K4Cdx">
-                                                      <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="isShowExceptionOnScreen" />
+                                                      <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="showExceptionOnScreen" />
                                                     </node>
                                                   </node>
                                                   <node concept="1rXfSq" id="2U6PE9kNmje" role="37wK5m">
@@ -12181,7 +12190,7 @@
                               <ref role="Rm8GQ" node="4Ucpg8z6mvq" resolve="ERROR" />
                             </node>
                             <node concept="1rXfSq" id="4Ucpg8zb79a" role="3K4Cdx">
-                              <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="isShowExceptionOnScreen" />
+                              <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="showExceptionOnScreen" />
                             </node>
                           </node>
                           <node concept="1rXfSq" id="1kxCqBRbYA9" role="37wK5m">
@@ -12382,7 +12391,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="5_bDd1dDxKZ" role="jymVt">
-      <property role="TrG5h" value="isShowExceptionOnScreen" />
+      <property role="TrG5h" value="showExceptionOnScreen" />
       <node concept="10P_77" id="5_bDd1dE1ze" role="3clF45" />
       <node concept="3Tmbuc" id="5_bDd1dD$Tw" role="1B3o_S" />
       <node concept="3clFbS" id="5_bDd1dDxL3" role="3clF47">
@@ -12704,6 +12713,7 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="7iXVPHb5QoD" role="3cqZAp" />
                 <node concept="3clFbF" id="2UFgF_m05zw" role="3cqZAp">
                   <node concept="37vLTI" id="2UFgF_m05zx" role="3clFbG">
                     <node concept="37vLTw" id="2UFgF_m05zy" role="37vLTJ">
@@ -13167,7 +13177,7 @@
           </node>
           <node concept="3fqX7Q" id="5_bDd1dE5F2" role="3clFbw">
             <node concept="1rXfSq" id="5_bDd1dE7Li" role="3fr31v">
-              <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="isShowExceptionOnScreen" />
+              <ref role="37wK5l" node="5_bDd1dDxKZ" resolve="showExceptionOnScreen" />
             </node>
           </node>
           <node concept="9aQIb" id="2UFgF_lNais" role="9aQIa">
@@ -13778,15 +13788,8 @@
       <node concept="3Tm1VV" id="12Eg3QJFzp9" role="1B3o_S" />
       <node concept="3clFbS" id="12Eg3QJFzpa" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="6bN8khMDDXR" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isRichClientToolkit" />
-      <node concept="3clFbS" id="6bN8khMDDXU" role="3clF47" />
-      <node concept="3Tm1VV" id="6bN8khMDDXV" role="1B3o_S" />
-      <node concept="10P_77" id="6bN8khMDDRy" role="3clF45" />
-    </node>
     <node concept="2tJIrI" id="6bN8khMDDO0" role="jymVt" />
+    <node concept="2tJIrI" id="7iXVPHaVNzq" role="jymVt" />
     <node concept="3clFb_" id="4XXgpA_yFXU" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getProcessByFqName" />
@@ -13996,7 +13999,7 @@
       <node concept="3clFbS" id="3sEA$PI$eTs" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="5Y1b9tR4bzl" role="jymVt" />
-    <node concept="2tJIrI" id="6bN8khMDDKo" role="jymVt" />
+    <node concept="2tJIrI" id="7iXVPHaVNBI" role="jymVt" />
     <node concept="3Tm1VV" id="20ohnkbzF0e" role="1B3o_S" />
     <node concept="3uibUv" id="20ohnkbJcos" role="3HQHJm">
       <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
@@ -14235,10 +14238,10 @@
     </node>
     <node concept="2tJIrI" id="79n7_omq3qX" role="jymVt" />
     <node concept="312cEg" id="4Rlyz3EoDyi" role="jymVt">
-      <property role="TrG5h" value="uiSystem" />
+      <property role="TrG5h" value="translationSelection" />
       <node concept="3Tm6S6" id="4Rlyz3EoDyj" role="1B3o_S" />
       <node concept="3uibUv" id="4Rlyz3EoDKe" role="1tU5fm">
-        <ref role="3uigEE" node="4Rlyz3EoCHr" resolve="FDefaultTrans.UISystem" />
+        <ref role="3uigEE" node="4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
       </node>
     </node>
     <node concept="2tJIrI" id="4Rlyz3EoDl7" role="jymVt" />
@@ -14246,7 +14249,7 @@
       <node concept="37vLTG" id="4Rlyz3EoDi9" role="3clF46">
         <property role="TrG5h" value="sys" />
         <node concept="3uibUv" id="4Rlyz3EoDjC" role="1tU5fm">
-          <ref role="3uigEE" node="4Rlyz3EoCHr" resolve="FDefaultTrans.UISystem" />
+          <ref role="3uigEE" node="4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
         </node>
       </node>
       <node concept="3cqZAl" id="2zlZ_in5Vzp" role="3clF45" />
@@ -14258,7 +14261,7 @@
               <ref role="3cqZAo" node="4Rlyz3EoDi9" resolve="sys" />
             </node>
             <node concept="37vLTw" id="4Rlyz3EoDLh" role="37vLTJ">
-              <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="uiSystem" />
+              <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="translationSelection" />
             </node>
           </node>
         </node>
@@ -14293,21 +14296,21 @@
           </node>
           <node concept="3clFbC" id="4Rlyz3EoIeq" role="3clFbw">
             <node concept="Rm8GO" id="4Rlyz3EoIi6" role="3uHU7w">
-              <ref role="Rm8GQ" node="4Rlyz3EoCZM" resolve="FX8" />
-              <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="FDefaultTrans.UISystem" />
+              <ref role="Rm8GQ" node="4Rlyz3EoCZM" resolve="MAIN_TRANSLATIONS" />
+              <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
             </node>
             <node concept="37vLTw" id="4Rlyz3EoI7s" role="3uHU7B">
-              <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="uiSystem" />
+              <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="translationSelection" />
             </node>
           </node>
           <node concept="3eNFk2" id="4Rlyz3EoIqU" role="3eNLev">
             <node concept="3clFbC" id="4Rlyz3EoIDd" role="3eO9$A">
               <node concept="Rm8GO" id="4Rlyz3EoIGX" role="3uHU7w">
-                <ref role="Rm8GQ" node="4Rlyz3EoD4a" resolve="V" />
-                <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="FDefaultTrans.UISystem" />
+                <ref role="Rm8GQ" node="4Rlyz3EoD4a" resolve="V_TRANSLATIONS" />
+                <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
               </node>
               <node concept="37vLTw" id="4Rlyz3EoIyI" role="3uHU7B">
-                <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="uiSystem" />
+                <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="translationSelection" />
               </node>
             </node>
             <node concept="3clFbS" id="4Rlyz3EoIqW" role="3eOfB_">
@@ -14361,11 +14364,11 @@
           <node concept="3eNFk2" id="4Rlyz3EoKR0" role="3eNLev">
             <node concept="3clFbC" id="4Rlyz3EoL5S" role="3eO9$A">
               <node concept="Rm8GO" id="4Rlyz3EoL7U" role="3uHU7w">
-                <ref role="Rm8GQ" node="4Rlyz3EoCZ5" resolve="H1" />
-                <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="FDefaultTrans.UISystem" />
+                <ref role="Rm8GQ" node="4Rlyz3EoCZ5" resolve="H1_TRANSLATIONS" />
+                <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
               </node>
               <node concept="37vLTw" id="4Rlyz3EoKZi" role="3uHU7B">
-                <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="uiSystem" />
+                <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="translationSelection" />
               </node>
             </node>
             <node concept="3clFbS" id="4Rlyz3EoKR2" role="3eOfB_">
@@ -14444,18 +14447,18 @@
     <node concept="2tJIrI" id="20ohnkbA2wb" role="jymVt" />
     <node concept="Qs71p" id="4Rlyz3EoCHr" role="jymVt">
       <property role="2bfB8j" value="true" />
-      <property role="TrG5h" value="UISystem" />
+      <property role="TrG5h" value="TranslationSelection" />
       <node concept="QsSxf" id="4Rlyz3EoCZM" role="Qtgdg">
-        <property role="TrG5h" value="FX8" />
-        <ref role="37wK5l" node="4Rlyz3EoD1Y" resolve="FDefaultTrans.UISystem" />
+        <property role="TrG5h" value="MAIN_TRANSLATIONS" />
+        <ref role="37wK5l" node="4Rlyz3EoD1Y" resolve="FDefaultTrans.TranslationSelection" />
       </node>
       <node concept="QsSxf" id="4Rlyz3EoCZ5" role="Qtgdg">
-        <property role="TrG5h" value="H1" />
-        <ref role="37wK5l" node="4Rlyz3EoD1Y" resolve="FDefaultTrans.UISystem" />
+        <property role="TrG5h" value="H1_TRANSLATIONS" />
+        <ref role="37wK5l" node="4Rlyz3EoD1Y" resolve="FDefaultTrans.TranslationSelection" />
       </node>
       <node concept="QsSxf" id="4Rlyz3EoD4a" role="Qtgdg">
-        <property role="TrG5h" value="V" />
-        <ref role="37wK5l" node="4Rlyz3EoD1Y" resolve="FDefaultTrans.UISystem" />
+        <property role="TrG5h" value="V_TRANSLATIONS" />
+        <ref role="37wK5l" node="4Rlyz3EoD1Y" resolve="FDefaultTrans.TranslationSelection" />
       </node>
       <node concept="3Tm1VV" id="4Rlyz3EoCHs" role="1B3o_S" />
       <node concept="2tJIrI" id="4Rlyz3EoD36" role="jymVt" />
@@ -14770,13 +14773,26 @@
         <property role="TrG5h" value="TEC_USER_ERROR" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
         <node concept="Xl_RD" id="2UFgF_lRC6u" role="37wK5m">
-          <property role="Xl_RC" value="Dieses Kommando konnte am System nicht erfolgreich ausgeführt werden.\nEin Fehler ist aufgetreten. Das Kommando wurde beendet." />
+          <property role="Xl_RC" value="Das Kommando konnte am System nicht erfolgreich ausgeführt werden.\nEin Fehler ist aufgetreten. Das Kommando wurde beendet." />
         </node>
         <node concept="Xl_RD" id="2UFgF_lRC5U" role="37wK5m">
           <property role="Xl_RC" value="" />
         </node>
         <node concept="Xl_RD" id="c79$i9pMMr" role="37wK5m">
-          <property role="Xl_RC" value="Ein Problem ist aufgetreten. Das Kommando wurde beendet!" />
+          <property role="Xl_RC" value="Ein technisches Problem ist aufgetreten. Das Kommando wurde beendet!" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="7iXVPHb52Pu" role="Qtgdg">
+        <property role="TrG5h" value="SF_TEC_USER_ERROR_" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="7iXVPHb53fz" role="37wK5m">
+          <property role="Xl_RC" value="Das Kommando '%s' konnte am System nicht erfolgreich ausgeführt werden.\nEin Fehler ist aufgetreten. Das Kommando wurde beendet." />
+        </node>
+        <node concept="Xl_RD" id="7iXVPHb53f$" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+        <node concept="Xl_RD" id="7iXVPHb53f_" role="37wK5m">
+          <property role="Xl_RC" value="Ein technisches Problem ist aufgetreten. Das Kommando '%s' wurde beendet!" />
         </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQxQ" role="Qtgdg">

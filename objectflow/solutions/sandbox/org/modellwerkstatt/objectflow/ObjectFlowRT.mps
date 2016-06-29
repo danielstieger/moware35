@@ -30457,6 +30457,47 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="7iXVPHaVX77" role="jymVt" />
+    <node concept="3clFb_" id="7iXVPHaWscv" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getToolkitType" />
+      <node concept="3uibUv" id="7iXVPHaWtXT" role="3clF45">
+        <ref role="3uigEE" node="7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="3Tm1VV" id="7iXVPHaWscy" role="1B3o_S" />
+      <node concept="3clFbS" id="7iXVPHaWscz" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="7iXVPHaWs5q" role="jymVt" />
+    <node concept="Qs71p" id="7iXVPHaW15z" role="jymVt">
+      <property role="TrG5h" value="ToolkitType" />
+      <node concept="QsSxf" id="7iXVPHaW1hv" role="Qtgdg">
+        <property role="TrG5h" value="NONE" />
+        <ref role="37wK5l" node="7iXVPHaWrgx" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="QsSxf" id="7iXVPHaW1ki" role="Qtgdg">
+        <property role="TrG5h" value="FX8" />
+        <ref role="37wK5l" node="7iXVPHaWrgx" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="QsSxf" id="7iXVPHaW1qF" role="Qtgdg">
+        <property role="TrG5h" value="H1_GENERAL" />
+        <ref role="37wK5l" node="7iXVPHaWrgx" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="QsSxf" id="7iXVPHaW1nm" role="Qtgdg">
+        <property role="TrG5h" value="H1_MDE" />
+        <ref role="37wK5l" node="7iXVPHaWrgx" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="QsSxf" id="7iXVPHaWrjL" role="Qtgdg">
+        <property role="TrG5h" value="VAADIN" />
+        <ref role="37wK5l" node="7iXVPHaWrgx" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="3Tm1VV" id="7iXVPHaW15$" role="1B3o_S" />
+      <node concept="3clFbW" id="7iXVPHaWrgx" role="jymVt">
+        <node concept="3cqZAl" id="7iXVPHaWrgy" role="3clF45" />
+        <node concept="3Tm1VV" id="7iXVPHaWrgz" role="1B3o_S" />
+        <node concept="3clFbS" id="7iXVPHaWrg$" role="3clF47" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7iXVPHaVX9G" role="jymVt" />
     <node concept="3Tm1VV" id="3J6KGB_vWbS" role="1B3o_S" />
     <node concept="3UR2Jj" id="3J6KGB_wcov" role="lGtFl">
       <node concept="TZ5HA" id="3J6KGB_wcow" role="TZ5H$">
@@ -30746,7 +30787,22 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3spXEPXEvTl" role="jymVt" />
-    <node concept="2tJIrI" id="3spXEPXEvEa" role="jymVt" />
+    <node concept="3clFb_" id="7iXVPHaXuXo" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getToolkitType" />
+      <node concept="3uibUv" id="7iXVPHaXuXp" role="3clF45">
+        <ref role="3uigEE" node="7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="3Tm1VV" id="7iXVPHaXuXq" role="1B3o_S" />
+      <node concept="3clFbS" id="7iXVPHaXuXs" role="3clF47">
+        <node concept="3cpWs6" id="7iXVPHaXvuO" role="3cqZAp">
+          <node concept="Rm8GO" id="7iXVPHaXvGF" role="3cqZAk">
+            <ref role="Rm8GQ" node="7iXVPHaW1hv" resolve="NONE" />
+            <ref role="1Px2BO" node="7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="3J6KGB_wgL6" role="jymVt" />
     <node concept="3clFb_" id="7ubUX4ZpiWD" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -31322,6 +31378,22 @@
       </node>
     </node>
     <node concept="2tJIrI" id="xRnvdcXTVe" role="jymVt" />
+    <node concept="3clFb_" id="7iXVPHaXx7r" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getToolkitType" />
+      <node concept="3uibUv" id="7iXVPHaXx7s" role="3clF45">
+        <ref role="3uigEE" node="7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="3Tm1VV" id="7iXVPHaXx7t" role="1B3o_S" />
+      <node concept="3clFbS" id="7iXVPHaXx7v" role="3clF47">
+        <node concept="3cpWs6" id="7iXVPHaXxyu" role="3cqZAp">
+          <node concept="Rm8GO" id="7iXVPHaXxSD" role="3cqZAk">
+            <ref role="Rm8GQ" node="7iXVPHaW1hv" resolve="NONE" />
+            <ref role="1Px2BO" node="7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="xRnvdcXTVf" role="1B3o_S" />
     <node concept="3uibUv" id="xRnvdcXTVg" role="EKbjA">
       <ref role="3uigEE" node="3J6KGB_vWbR" resolve="IOFXApplicationFactory" />

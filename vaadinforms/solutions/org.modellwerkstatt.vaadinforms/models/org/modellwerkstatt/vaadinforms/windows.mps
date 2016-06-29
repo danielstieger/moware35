@@ -4703,8 +4703,8 @@
               <node concept="1pGfFk" id="41UdyNBDg6X" role="2ShVmc">
                 <ref role="37wK5l" to="quhv:2zlZ_in5Vzo" resolve="FDefaultTrans" />
                 <node concept="Rm8GO" id="4Rlyz3EsmIf" role="37wK5m">
-                  <ref role="1Px2BO" to="quhv:4Rlyz3EoCHr" resolve="FDefaultTrans.UISystem" />
-                  <ref role="Rm8GQ" to="quhv:4Rlyz3EoD4a" resolve="V" />
+                  <ref role="1Px2BO" to="quhv:4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
+                  <ref role="Rm8GQ" to="quhv:4Rlyz3EoD4a" resolve="V_TRANSLATIONS" />
                 </node>
               </node>
             </node>
@@ -4863,15 +4863,20 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1lpzdTlMaaU" role="jymVt" />
-    <node concept="3clFb_" id="6bN8khMG34Y" role="jymVt">
+    <node concept="2tJIrI" id="7iXVPHaYz83" role="jymVt" />
+    <node concept="3clFb_" id="7iXVPHaZk6B" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isRichClientToolkit" />
-      <node concept="3Tm1VV" id="6bN8khMG350" role="1B3o_S" />
-      <node concept="10P_77" id="6bN8khMG351" role="3clF45" />
-      <node concept="3clFbS" id="6bN8khMG352" role="3clF47">
-        <node concept="3clFbF" id="6bN8khMG354" role="3cqZAp">
-          <node concept="3clFbT" id="6bN8khMG353" role="3clFbG" />
+      <property role="TrG5h" value="getToolkitType" />
+      <node concept="3uibUv" id="7iXVPHaZk6C" role="3clF45">
+        <ref role="3uigEE" to="28jr:7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="3Tm1VV" id="7iXVPHaZk6D" role="1B3o_S" />
+      <node concept="3clFbS" id="7iXVPHaZk6G" role="3clF47">
+        <node concept="3clFbF" id="7iXVPHaZmqh" role="3cqZAp">
+          <node concept="Rm8GO" id="7iXVPHaZmBk" role="3clFbG">
+            <ref role="Rm8GQ" to="28jr:7iXVPHaWrjL" resolve="VAADIN" />
+            <ref role="1Px2BO" to="28jr:7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+          </node>
         </node>
       </node>
     </node>

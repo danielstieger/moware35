@@ -366,8 +366,8 @@
               <node concept="1pGfFk" id="4Rlyz3EsFJl" role="2ShVmc">
                 <ref role="37wK5l" to="quhv:2zlZ_in5Vzo" resolve="FDefaultTrans" />
                 <node concept="Rm8GO" id="4Rlyz3EsFMy" role="37wK5m">
-                  <ref role="Rm8GQ" to="quhv:4Rlyz3EoCZ5" resolve="H1" />
-                  <ref role="1Px2BO" to="quhv:4Rlyz3EoCHr" resolve="FDefaultTrans.UISystem" />
+                  <ref role="Rm8GQ" to="quhv:4Rlyz3EoCZ5" resolve="H1_TRANSLATIONS" />
+                  <ref role="1Px2BO" to="quhv:4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
                 </node>
               </node>
             </node>
@@ -549,18 +549,7 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="6bN8khMFiEO" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isRichClientToolkit" />
-      <node concept="3Tm1VV" id="6bN8khMFiEQ" role="1B3o_S" />
-      <node concept="10P_77" id="6bN8khMFiER" role="3clF45" />
-      <node concept="3clFbS" id="6bN8khMFiET" role="3clF47">
-        <node concept="3clFbF" id="6bN8khMFiEV" role="3cqZAp">
-          <node concept="3clFbT" id="6bN8khMFiEU" role="3clFbG" />
-        </node>
-      </node>
-    </node>
+    <node concept="2tJIrI" id="7iXVPHaYxDB" role="jymVt" />
     <node concept="3clFb_" id="6rMtHgbBVHt" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getPageProvider" />
@@ -1361,8 +1350,22 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="49rIjELryqq" role="jymVt" />
-    <node concept="2tJIrI" id="49rIjELrywB" role="jymVt" />
+    <node concept="3clFb_" id="7iXVPHaZQ72" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getToolkitType" />
+      <node concept="3uibUv" id="7iXVPHaZQ73" role="3clF45">
+        <ref role="3uigEE" to="28jr:7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="3Tm1VV" id="7iXVPHaZQ74" role="1B3o_S" />
+      <node concept="3clFbS" id="7iXVPHaZQ78" role="3clF47">
+        <node concept="3clFbF" id="7iXVPHaZSe9" role="3cqZAp">
+          <node concept="Rm8GO" id="7iXVPHaZSvi" role="3clFbG">
+            <ref role="Rm8GQ" to="28jr:7iXVPHaW1nm" resolve="H1_MDE" />
+            <ref role="1Px2BO" to="28jr:7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="7RHNXGyQGiy" role="1B3o_S" />
     <node concept="3uibUv" id="6rMtHgbBHka" role="EKbjA">
       <ref role="3uigEE" to="9zr:49rIjELrzXK" resolve="IToolkit_H1AppFactory" />

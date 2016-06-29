@@ -259,9 +259,6 @@
       <concept id="1171903916106" name="jetbrains.mps.baseLanguage.structure.UpperBoundType" flags="in" index="3qUE_q">
         <child id="1171903916107" name="bound" index="3qUE_r" />
       </concept>
-      <concept id="7812454656619025416" name="jetbrains.mps.baseLanguage.structure.MethodDeclaration" flags="ng" index="1rXfSm">
-        <property id="8355037393041754995" name="isNative" index="2aFKle" />
-      </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -5842,8 +5839,8 @@
         <node concept="1pGfFk" id="20ohnkbA3Fu" role="2ShVmc">
           <ref role="37wK5l" to="quhv:2zlZ_in5Vzo" resolve="FDefaultTrans" />
           <node concept="Rm8GO" id="4Rlyz3ErCFD" role="37wK5m">
-            <ref role="Rm8GQ" to="quhv:4Rlyz3EoCZM" resolve="FX8" />
-            <ref role="1Px2BO" to="quhv:4Rlyz3EoCHr" resolve="FDefaultTrans.UISystem" />
+            <ref role="Rm8GQ" to="quhv:4Rlyz3EoCZM" resolve="MAIN_TRANSLATIONS" />
+            <ref role="1Px2BO" to="quhv:4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
           </node>
         </node>
       </node>
@@ -5874,20 +5871,6 @@
     <node concept="2tJIrI" id="12Eg3QJGoYl" role="jymVt" />
     <node concept="2tJIrI" id="12Eg3QJGtv3" role="jymVt" />
     <node concept="2tJIrI" id="7aUgYCzIRzl" role="jymVt" />
-    <node concept="3clFb_" id="6bN8khMGXTK" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isRichClientToolkit" />
-      <node concept="3Tm1VV" id="6bN8khMGXTM" role="1B3o_S" />
-      <node concept="10P_77" id="6bN8khMGXTN" role="3clF45" />
-      <node concept="3clFbS" id="6bN8khMGXTP" role="3clF47">
-        <node concept="3clFbF" id="6bN8khMGYuj" role="3cqZAp">
-          <node concept="3clFbT" id="6bN8khMGYui" role="3clFbG">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="Y3fiVL8Sej" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getClassFqName2Run" />
@@ -6929,6 +6912,26 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7iXVPHb0YuT" role="jymVt" />
+    <node concept="3clFb_" id="7iXVPHb0YZj" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getToolkitType" />
+      <node concept="3uibUv" id="7iXVPHb0YZk" role="3clF45">
+        <ref role="3uigEE" to="28jr:7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+      </node>
+      <node concept="3Tm1VV" id="7iXVPHb0YZl" role="1B3o_S" />
+      <node concept="3clFbS" id="7iXVPHb0YZp" role="3clF47">
+        <node concept="3clFbF" id="7iXVPHb0ZHm" role="3cqZAp">
+          <node concept="Rm8GO" id="7iXVPHb0ZSh" role="3clFbG">
+            <ref role="Rm8GQ" to="28jr:7iXVPHaW1ki" resolve="FX8" />
+            <ref role="1Px2BO" to="28jr:7iXVPHaW15z" resolve="IOFXApplicationFactory.ToolkitType" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7iXVPHb0YZq" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3Tm1VV" id="Y3fiVKZyun" role="1B3o_S" />
