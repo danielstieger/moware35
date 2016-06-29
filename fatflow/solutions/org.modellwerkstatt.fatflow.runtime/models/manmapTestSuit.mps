@@ -15949,7 +15949,7 @@
             <node concept="2OqwBi" id="14a9Cv1GaQ1" role="2Oq$k0">
               <node concept="1odsa" id="4r0DqI1Q6sO" role="2Oq$k0">
                 <ref role="37wK5l" node="4r0DqI1Q1nQ" resolve="findTableNameForIntKeyObject" />
-                <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+                <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
                 <node concept="37vLTw" id="4r0DqI2rAUX" role="2f8TIa">
                   <ref role="3cqZAo" node="4r0DqI1Q7V0" resolve="session" />
                 </node>
@@ -15998,7 +15998,7 @@
             <node concept="2OqwBi" id="14a9Cv1Ggg4" role="2Oq$k0">
               <node concept="1odsa" id="4r0DqI1Q7$S" role="2Oq$k0">
                 <ref role="37wK5l" node="4r0DqI1Q1nQ" resolve="findTableNameForIntKeyObject" />
-                <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+                <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
                 <node concept="37vLTw" id="4r0DqI2rAY0" role="2f8TIa">
                   <ref role="3cqZAo" node="4r0DqI1Q7V0" resolve="session" />
                 </node>
@@ -19200,7 +19200,7 @@
           <node concept="37vLTI" id="1vKpqttUC6P" role="3clFbG">
             <node concept="1odsa" id="1vKpqttUCh6" role="37vLTx">
               <ref role="37wK5l" node="1vKpqttU8lO" resolve="findPlainSqlIntValue" />
-              <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+              <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
               <node concept="10Nm6u" id="1vKpqttUCvA" role="2f8TIa" />
             </node>
             <node concept="37vLTw" id="1vKpqttUBR$" role="37vLTJ">
@@ -19345,7 +19345,7 @@
             </node>
             <node concept="1odsa" id="1vKpqttU1Ix" role="33vP2m">
               <ref role="37wK5l" node="42_QlHqGdpQ" resolve="findPlainSqlTest" />
-              <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+              <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
               <node concept="10Nm6u" id="1vKpqttU1Uw" role="2f8TIa" />
             </node>
           </node>
@@ -19433,7 +19433,7 @@
             </node>
             <node concept="1odsa" id="1vKpqtywMbn" role="33vP2m">
               <ref role="37wK5l" node="1vKpqtywBFE" resolve="findIntKeyObjectById" />
-              <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+              <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
               <node concept="10Nm6u" id="1vKpqtywMbo" role="2f8TIa" />
               <node concept="2OqwBi" id="1vKpqtywPRi" role="37wK5m">
                 <node concept="37vLTw" id="1vKpqtywPuJ" role="2Oq$k0">
@@ -19560,7 +19560,7 @@
             <node concept="10Oyi0" id="1vKpqtvEqgr" role="1tU5fm" />
             <node concept="1odsa" id="1vKpqtuozhw" role="33vP2m">
               <ref role="37wK5l" node="1vKpqtucDVb" resolve="checkinPlainSQLObj" />
-              <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+              <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
               <node concept="10Nm6u" id="1vKpqtuoBQ9" role="2f8TIa" />
               <node concept="37vLTw" id="1vKpqtuoGLK" role="37wK5m">
                 <ref role="3cqZAo" node="1vKpqtuoCSe" resolve="testObject" />
@@ -19655,7 +19655,7 @@
             </node>
             <node concept="1odsa" id="1Mr6ahDhBCb" role="33vP2m">
               <ref role="37wK5l" node="1Mr6ahDfj2K" resolve="findPlainFullSqlWithParams" />
-              <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+              <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
               <node concept="10Nm6u" id="1Mr6ahDhQy0" role="2f8TIa" />
               <node concept="2OqwBi" id="1Mr6ahDhQZV" role="37wK5m">
                 <node concept="37vLTw" id="1Mr6ahDhQYP" role="2Oq$k0">
@@ -19763,7 +19763,7 @@
         <node concept="1gVbGN" id="5leyo0ZbHDe" role="3cqZAp">
           <node concept="1odsa" id="5leyo0ZbHDD" role="1gVkn0">
             <ref role="37wK5l" node="5leyo0ZbyOR" resolve="find_checkSQLExpression" />
-            <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+            <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
             <node concept="10Nm6u" id="5leyo0ZbHEO" role="2f8TIa" />
           </node>
           <node concept="Xl_RD" id="5leyo0ZbHFs" role="1gVpfI">
@@ -19818,7 +19818,7 @@
               </node>
             </node>
             <node concept="1odsa" id="1lpzdTmyygQ" role="33vP2m">
-              <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+              <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
               <ref role="37wK5l" node="1lpzdTmvfZ6" resolve="findAllIntKeyObjects" />
               <node concept="10Nm6u" id="1lpzdTmyyEc" role="2f8TIa" />
             </node>
@@ -19869,7 +19869,7 @@
               <ref role="3uigEE" node="66mO_QBe4P4" resolve="IntKeyObject" />
             </node>
             <node concept="1odsa" id="1lpzdTmyJd3" role="33vP2m">
-              <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+              <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
               <ref role="37wK5l" node="1lpzdTmy_BP" resolve="findIntkeyObjectById_combinedsql" />
               <node concept="37vLTw" id="1lpzdTmyMLR" role="37wK5m">
                 <ref role="3cqZAo" node="1lpzdTmyzgF" resolve="lastId" />
@@ -19966,7 +19966,7 @@
             </node>
             <node concept="1odsa" id="1lpzdTmSCt8" role="33vP2m">
               <ref role="37wK5l" node="1lpzdTmy_BP" resolve="findIntkeyObjectById_combinedsql" />
-              <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+              <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
               <node concept="37vLTw" id="1lpzdTmSCt9" role="37wK5m">
                 <ref role="3cqZAo" node="1lpzdTmSCsT" resolve="lastId" />
               </node>
@@ -19981,7 +19981,7 @@
               <ref role="3uigEE" node="66mO_QBe4P4" resolve="IntKeyObject" />
             </node>
             <node concept="1odsa" id="1lpzdTmSLvk" role="33vP2m">
-              <ref role="1ods_" node="1lpzdTlNdbG" resolve="ManualSqlRepo" />
+              <ref role="1ods_" node="1lpzdTlNdbG" resolve="CustomSqlRepo" />
               <ref role="37wK5l" node="1lpzdTmS_0z" resolve="findIntkeyObjectById_combinedsqlAlternative" />
               <node concept="37vLTw" id="1lpzdTmSLwN" role="37wK5m">
                 <ref role="3cqZAo" node="1lpzdTmSCsT" resolve="lastId" />
@@ -29251,7 +29251,7 @@
     </node>
   </node>
   <node concept="wbJL_" id="1lpzdTlNdbG">
-    <property role="TrG5h" value="ManualSqlRepo" />
+    <property role="TrG5h" value="CustomSqlRepo" />
     <node concept="wbJLE" id="1lpzdTmvfZ6" role="jymVt">
       <property role="TrG5h" value="findAllIntKeyObjects" />
       <node concept="_YKpA" id="1lpzdTmvgtx" role="3clF45">

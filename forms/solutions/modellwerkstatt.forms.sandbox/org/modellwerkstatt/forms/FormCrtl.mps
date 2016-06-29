@@ -9047,6 +9047,35 @@
                                   </node>
                                 </node>
                               </node>
+                              <node concept="3clFbF" id="7r076fpCIMt" role="3cqZAp">
+                                <node concept="2OqwBi" id="7r076fpCIMq" role="3clFbG">
+                                  <node concept="10M0yZ" id="7r076fpCIMr" role="2Oq$k0">
+                                    <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                                    <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+                                  </node>
+                                  <node concept="liA8E" id="7r076fpCIMs" role="2OqNvi">
+                                    <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                    <node concept="3cpWs3" id="7r076fpCNAg" role="37wK5m">
+                                      <node concept="37vLTw" id="7r076fpCOhB" role="3uHU7w">
+                                        <ref role="3cqZAo" node="5_bDd1dGHjj" resolve="addOnTitle" />
+                                      </node>
+                                      <node concept="3cpWs3" id="7r076fpCLGH" role="3uHU7B">
+                                        <node concept="3cpWs3" id="7r076fpCLy0" role="3uHU7B">
+                                          <node concept="Xl_RD" id="7r076fpCK8M" role="3uHU7B">
+                                            <property role="Xl_RC" value="CTS: " />
+                                          </node>
+                                          <node concept="37vLTw" id="7r076fpCL_8" role="3uHU7w">
+                                            <ref role="3cqZAo" node="5_bDd1dGbFt" resolve="windowTitle" />
+                                          </node>
+                                        </node>
+                                        <node concept="Xl_RD" id="7r076fpCLHt" role="3uHU7w">
+                                          <property role="Xl_RC" value=" CTA: " />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                               <node concept="3clFbJ" id="5_bDd1dGEPT" role="3cqZAp">
                                 <node concept="3clFbS" id="5_bDd1dGEPW" role="3clFbx">
                                   <node concept="3clFbF" id="5_bDd1dGL5Y" role="3cqZAp">
@@ -14936,7 +14965,7 @@
         <property role="TrG5h" value="TCN_PROBLEM" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
         <node concept="Xl_RD" id="2k02KvYsQna" role="37wK5m">
-          <property role="Xl_RC" value="Ein anderer Benutzer hat (einen Teil) ihres Datensatz bearbeitet und bereits gespeichert. Sie müssen\nihren Datensatz daher verwerfen und den aktuellsten Datensatz von der Datenbank laden." />
+          <property role="Xl_RC" value="Ein anderer Benutzer hat ihren Datensatz bearbeitet und bereits gespeichert. Sie müssen\nihren Datensatz daher verwerfen und den aktuellsten Datensatz laden." />
         </node>
         <node concept="Xl_RD" id="2k02KvYsQnb" role="37wK5m">
           <property role="Xl_RC" value="" />
