@@ -1480,6 +1480,11 @@
       <node concept="3Tm6S6" id="7RHNXGyQCRb" role="1B3o_S" />
       <node concept="17QB3L" id="7RHNXGyQCRc" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="3VF1NMV4J$j" role="jymVt">
+      <property role="TrG5h" value="guessedServerName" />
+      <node concept="3Tm6S6" id="3VF1NMV4J$k" role="1B3o_S" />
+      <node concept="17QB3L" id="3VF1NMV4J$l" role="1tU5fm" />
+    </node>
     <node concept="312cEg" id="6eUMu2emmzh" role="jymVt">
       <property role="TrG5h" value="networkProblemString" />
       <node concept="3Tm6S6" id="6eUMu2emmzi" role="1B3o_S" />
@@ -1523,6 +1528,10 @@
         <property role="TrG5h" value="conName" />
         <node concept="17QB3L" id="49rIjELqYLx" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="3VF1NMV3NKk" role="3clF46">
+        <property role="TrG5h" value="guesSrvName" />
+        <node concept="17QB3L" id="3VF1NMV3RyR" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="49rIjELqYLy" role="3clF45" />
       <node concept="3Tm1VV" id="49rIjELqYLz" role="1B3o_S" />
       <node concept="3clFbS" id="49rIjELqYL_" role="3clF47">
@@ -1556,11 +1565,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3VF1NMV4NpE" role="3cqZAp">
+          <node concept="37vLTI" id="3VF1NMV4NEq" role="3clFbG">
+            <node concept="37vLTw" id="3VF1NMV4On2" role="37vLTx">
+              <ref role="3cqZAo" node="3VF1NMV3NKk" resolve="guesSrvName" />
+            </node>
+            <node concept="37vLTw" id="3VF1NMV4NpC" role="37vLTJ">
+              <ref role="3cqZAo" node="3VF1NMV4J$j" resolve="guessedServerName" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="7RHNXGyQCRA" role="jymVt" />
     <node concept="3clFb_" id="7RHNXGyQCRB" role="jymVt">
-      <property role="TrG5h" value="servletBaseAdr" />
+      <property role="TrG5h" value="servletBaseUrl" />
       <node concept="17QB3L" id="7RHNXGyQCRC" role="3clF45" />
       <node concept="3Tm1VV" id="7RHNXGyQCRD" role="1B3o_S" />
       <node concept="3clFbS" id="7RHNXGyQCRE" role="3clF47">
@@ -1579,6 +1598,10 @@
         <node concept="3uibUv" id="4Rlyz3E7WeM" role="1tU5fm">
           <ref role="3uigEE" to="9zr:4Rlyz3E5ijA" resolve="H1ApplicationLoader.HttpClient" />
         </node>
+      </node>
+      <node concept="37vLTG" id="3VF1NMV7Skr" role="3clF46">
+        <property role="TrG5h" value="hostName" />
+        <node concept="17QB3L" id="3VF1NMV7Tvp" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="7RHNXGyQCRJ" role="3clF46">
         <property role="TrG5h" value="builder" />
@@ -2130,7 +2153,41 @@
             <node concept="liA8E" id="7RHNXGyQCTv" role="2OqNvi">
               <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
               <node concept="Xl_RD" id="7RHNXGyQCTw" role="37wK5m">
-                <property role="Xl_RC" value="&lt;section id=\&quot;view-home\&quot; class=\&quot;active\&quot;&gt; &lt;header&gt; &lt;h1&gt;" />
+                <property role="Xl_RC" value="&lt;section id=\&quot;view-home\&quot; class=\&quot;active\&quot;&gt; &lt;header&gt;" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3VF1NMVb9pO" role="3cqZAp" />
+        <node concept="3clFbF" id="3VF1NMV8CjM" role="3cqZAp">
+          <node concept="2OqwBi" id="3VF1NMV8CMb" role="3clFbG">
+            <node concept="37vLTw" id="3VF1NMV8CjK" role="2Oq$k0">
+              <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+            </node>
+            <node concept="liA8E" id="3VF1NMV8DcN" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <node concept="3cpWs3" id="3VF1NMV8GOe" role="37wK5m">
+                <node concept="Xl_RD" id="3VF1NMV8Hev" role="3uHU7w">
+                  <property role="Xl_RC" value="&lt;/div&gt;  &lt;h1&gt;" />
+                </node>
+                <node concept="3cpWs3" id="3VF1NMV8Fkj" role="3uHU7B">
+                  <node concept="3cpWs3" id="3VF1NMV8Ewx" role="3uHU7B">
+                    <node concept="3cpWs3" id="3VF1NMV8DU9" role="3uHU7B">
+                      <node concept="Xl_RD" id="3VF1NMV8DFU" role="3uHU7B">
+                        <property role="Xl_RC" value="&lt;div class=\&quot;rightCustomHeaderDiv\&quot;&gt;" />
+                      </node>
+                      <node concept="37vLTw" id="3VF1NMV8EgK" role="3uHU7w">
+                        <ref role="3cqZAo" node="3VF1NMV7Skr" resolve="hostName" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="3VF1NMV8EQd" role="3uHU7w">
+                      <property role="Xl_RC" value="/" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="3VF1NMV8Gas" role="3uHU7w">
+                    <ref role="3cqZAo" node="3VF1NMV4J$j" resolve="guessedServerName" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -2148,6 +2205,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3VF1NMVb9LH" role="3cqZAp" />
         <node concept="3clFbF" id="7RHNXGyQCTB" role="3cqZAp">
           <node concept="2OqwBi" id="7RHNXGyQCTC" role="3clFbG">
             <node concept="37vLTw" id="7RHNXGyQCTD" role="2Oq$k0">

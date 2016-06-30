@@ -93,6 +93,18 @@ body {
 	
 }
 
+.rightCustomHeaderDiv {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-right: 5px;
+	font-size: 60%;
+	line-height: normal;
+}
+
+
+
+
 .fcButtonsDiv {
 	/* border: red 1px solid; */
 	clear: both;
@@ -128,9 +140,6 @@ body {
 	cursor: default;
 }
 
-
-
-
 .activeLabel {
 	/* color: rgb(21, 125, 251); */
 	color: rgb(0, 0, 0);
@@ -160,9 +169,6 @@ input[focusme="true"][useMyKeyboard="true"] {
 input:disabled, textarea:disabled, select:disabled {
 	border-bottom: 2px solid rgb(200, 199, 204);
 }
-
-
-
 
 table {
     border-collapse: collapse;
