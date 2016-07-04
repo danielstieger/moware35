@@ -1578,18 +1578,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7RHNXGyQCRA" role="jymVt" />
-    <node concept="3clFb_" id="7RHNXGyQCRB" role="jymVt">
-      <property role="TrG5h" value="servletBaseUrl" />
-      <node concept="17QB3L" id="7RHNXGyQCRC" role="3clF45" />
-      <node concept="3Tm1VV" id="7RHNXGyQCRD" role="1B3o_S" />
-      <node concept="3clFbS" id="7RHNXGyQCRE" role="3clF47">
-        <node concept="3clFbF" id="7RHNXGyQCRF" role="3cqZAp">
-          <node concept="37vLTw" id="7RHNXGyQCRG" role="3clFbG">
-            <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="7RHNXGyQCRH" role="jymVt" />
     <node concept="3clFb_" id="7RHNXGyQCRI" role="jymVt">
       <property role="TrG5h" value="startPage" />

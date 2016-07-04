@@ -18,6 +18,11 @@
         <param-name>xmlConfigFile</param-name>
     	<param-value>APPLICATION_CONFIG</param-value>
     </init-param>
+
+    <init-param>
+        <param-name>homeScreenPath</param-name>
+    	<param-value>APPLICATION_HOMESCREEN</param-value>
+    </init-param>
     
     <init-param>
         <param-name>applicationFqName</param-name>
