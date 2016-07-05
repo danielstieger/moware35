@@ -1470,15 +1470,16 @@
       <node concept="3Tm6S6" id="7RHNXGyQCR5" role="1B3o_S" />
       <node concept="17QB3L" id="7RHNXGyQCR6" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="1rNqA18Q4zo" role="jymVt">
+      <property role="TrG5h" value="homeScreenAdr" />
+      <node concept="3Tm6S6" id="1rNqA18Q4zp" role="1B3o_S" />
+      <node concept="17QB3L" id="1rNqA18Q4zq" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="1rNqA18Q2Pw" role="jymVt" />
     <node concept="312cEg" id="7RHNXGyQCR7" role="jymVt">
       <property role="TrG5h" value="applicationName" />
       <node concept="3Tm6S6" id="7RHNXGyQCR8" role="1B3o_S" />
       <node concept="17QB3L" id="7RHNXGyQCR9" role="1tU5fm" />
-    </node>
-    <node concept="312cEg" id="7RHNXGyQCRa" role="jymVt">
-      <property role="TrG5h" value="connectionName" />
-      <node concept="3Tm6S6" id="7RHNXGyQCRb" role="1B3o_S" />
-      <node concept="17QB3L" id="7RHNXGyQCRc" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="3VF1NMV4J$j" role="jymVt">
       <property role="TrG5h" value="guessedServerName" />
@@ -1524,9 +1525,9 @@
         <property role="TrG5h" value="servletBase" />
         <node concept="17QB3L" id="49rIjELqYLv" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="49rIjELqYLw" role="3clF46">
-        <property role="TrG5h" value="conName" />
-        <node concept="17QB3L" id="49rIjELqYLx" role="1tU5fm" />
+      <node concept="37vLTG" id="1rNqA18Q6V7" role="3clF46">
+        <property role="TrG5h" value="homeAdr" />
+        <node concept="17QB3L" id="1rNqA18Qj5y" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="3VF1NMV3NKk" role="3clF46">
         <property role="TrG5h" value="guesSrvName" />
@@ -1555,13 +1556,13 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7RHNXGyQCRr" role="3cqZAp">
-          <node concept="37vLTI" id="7RHNXGyQCRs" role="3clFbG">
-            <node concept="37vLTw" id="49rIjELrouP" role="37vLTx">
-              <ref role="3cqZAo" node="49rIjELqYLw" resolve="conName" />
+        <node concept="3clFbF" id="1rNqA18QmmM" role="3cqZAp">
+          <node concept="37vLTI" id="1rNqA18QmC4" role="3clFbG">
+            <node concept="37vLTw" id="1rNqA18QnoB" role="37vLTx">
+              <ref role="3cqZAo" node="1rNqA18Q6V7" resolve="homeAdr" />
             </node>
-            <node concept="37vLTw" id="49rIjELqZCP" role="37vLTJ">
-              <ref role="3cqZAo" node="7RHNXGyQCRa" resolve="connectionName" />
+            <node concept="37vLTw" id="1rNqA18QmmK" role="37vLTJ">
+              <ref role="3cqZAo" node="1rNqA18Q4zo" resolve="homeScreenAdr" />
             </node>
           </node>
         </node>
@@ -3870,8 +3871,8 @@
                                           <node concept="Xl_RD" id="NYYlQe2_HF" role="3uHU7B">
                                             <property role="Xl_RC" value=" onClick=\&quot;javascript:SaveSubmit('" />
                                           </node>
-                                          <node concept="37vLTw" id="NYYlQe2_HG" role="3uHU7w">
-                                            <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                                          <node concept="37vLTw" id="1rNqA18TSon" role="3uHU7w">
+                                            <ref role="3cqZAo" node="1rNqA18Q4zo" resolve="homeScreenAdr" />
                                           </node>
                                         </node>
                                         <node concept="Xl_RD" id="NYYlQe2_HH" role="3uHU7w">
@@ -3891,8 +3892,8 @@
                                       <property role="Xl_RC" value="');\&quot; navicrtl=\&quot;" />
                                     </node>
                                   </node>
-                                  <node concept="37vLTw" id="NYYlQe2_HM" role="3uHU7w">
-                                    <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                                  <node concept="37vLTw" id="1rNqA18TTa8" role="3uHU7w">
+                                    <ref role="3cqZAo" node="1rNqA18Q4zo" resolve="homeScreenAdr" />
                                   </node>
                                 </node>
                                 <node concept="Xl_RD" id="NYYlQe2_HN" role="3uHU7w">
@@ -4081,8 +4082,8 @@
                                           <node concept="Xl_RD" id="5j5asfbI5ab" role="3uHU7B">
                                             <property role="Xl_RC" value=" onClick=\&quot;javascript:SaveSubmit('" />
                                           </node>
-                                          <node concept="37vLTw" id="5j5asfbI5ac" role="3uHU7w">
-                                            <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                                          <node concept="37vLTw" id="1rNqA18TTW7" role="3uHU7w">
+                                            <ref role="3cqZAo" node="1rNqA18Q4zo" resolve="homeScreenAdr" />
                                           </node>
                                         </node>
                                         <node concept="Xl_RD" id="5j5asfbI5ad" role="3uHU7w">
@@ -4102,8 +4103,8 @@
                                       <property role="Xl_RC" value="');\&quot; navicrtl=\&quot;" />
                                     </node>
                                   </node>
-                                  <node concept="37vLTw" id="NYYlQe2toZ" role="3uHU7w">
-                                    <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                                  <node concept="37vLTw" id="1rNqA18TUHL" role="3uHU7w">
+                                    <ref role="3cqZAo" node="1rNqA18Q4zo" resolve="homeScreenAdr" />
                                   </node>
                                 </node>
                                 <node concept="Xl_RD" id="NYYlQe2uny" role="3uHU7w">

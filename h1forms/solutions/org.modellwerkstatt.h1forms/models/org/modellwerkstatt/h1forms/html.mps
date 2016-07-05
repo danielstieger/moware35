@@ -3430,11 +3430,6 @@
       <node concept="3Tm6S6" id="7RHNXGyQCR8" role="1B3o_S" />
       <node concept="17QB3L" id="7RHNXGyQCR9" role="1tU5fm" />
     </node>
-    <node concept="312cEg" id="7RHNXGyQCRa" role="jymVt">
-      <property role="TrG5h" value="connectionName" />
-      <node concept="3Tm6S6" id="7RHNXGyQCRb" role="1B3o_S" />
-      <node concept="17QB3L" id="7RHNXGyQCRc" role="1tU5fm" />
-    </node>
     <node concept="312cEg" id="3VF1NMV4J$j" role="jymVt">
       <property role="TrG5h" value="guessedServerName" />
       <node concept="3Tm6S6" id="3VF1NMV4J$k" role="1B3o_S" />
@@ -3460,9 +3455,9 @@
         <property role="TrG5h" value="servletBase" />
         <node concept="17QB3L" id="49rIjELqYLv" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="49rIjELqYLw" role="3clF46">
-        <property role="TrG5h" value="conName" />
-        <node concept="17QB3L" id="49rIjELqYLx" role="1tU5fm" />
+      <node concept="37vLTG" id="1rNqA18QX20" role="3clF46">
+        <property role="TrG5h" value="homeScr" />
+        <node concept="17QB3L" id="1rNqA18QXwz" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="3VF1NMV5DWO" role="3clF46">
         <property role="TrG5h" value="guesSrvName" />
@@ -3488,16 +3483,6 @@
             </node>
             <node concept="37vLTw" id="7RHNXGyQCRq" role="37vLTJ">
               <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7RHNXGyQCRr" role="3cqZAp">
-          <node concept="37vLTI" id="7RHNXGyQCRs" role="3clFbG">
-            <node concept="37vLTw" id="49rIjELrouP" role="37vLTx">
-              <ref role="3cqZAo" node="49rIjELqYLw" resolve="conName" />
-            </node>
-            <node concept="37vLTw" id="49rIjELqZCP" role="37vLTJ">
-              <ref role="3cqZAo" node="7RHNXGyQCRa" resolve="connectionName" />
             </node>
           </node>
         </node>
@@ -3890,73 +3875,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="7RHNXGyQCTG" role="3cqZAp" />
-        <node concept="3clFbJ" id="7RHNXGyQCTH" role="3cqZAp">
-          <node concept="3clFbS" id="7RHNXGyQCTI" role="3clFbx">
-            <node concept="3clFbF" id="7RHNXGyQCTJ" role="3cqZAp">
-              <node concept="2OqwBi" id="7RHNXGyQCTK" role="3clFbG">
-                <node concept="37vLTw" id="7RHNXGyQCTL" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-                </node>
-                <node concept="liA8E" id="7RHNXGyQCTM" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                  <node concept="37vLTw" id="7RHNXGyQCTN" role="37wK5m">
-                    <ref role="3cqZAo" node="7RHNXGyQCRa" resolve="connectionName" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbC" id="7RHNXGyQCTO" role="3clFbw">
-            <node concept="10Nm6u" id="7RHNXGyQCTP" role="3uHU7w" />
-            <node concept="37vLTw" id="7RHNXGyQCTQ" role="3uHU7B">
-              <ref role="3cqZAo" node="7RHNXGyQCRN" resolve="user" />
-            </node>
-          </node>
-          <node concept="9aQIb" id="7RHNXGyQCTR" role="9aQIa">
-            <node concept="3clFbS" id="7RHNXGyQCTS" role="9aQI4">
-              <node concept="3clFbF" id="7RHNXGyQCTT" role="3cqZAp">
-                <node concept="2OqwBi" id="7RHNXGyQCTU" role="3clFbG">
-                  <node concept="37vLTw" id="7RHNXGyQCTV" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-                  </node>
-                  <node concept="liA8E" id="7RHNXGyQCTW" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                    <node concept="37vLTw" id="7RHNXGyQCTX" role="37wK5m">
-                      <ref role="3cqZAo" node="7RHNXGyQCRN" resolve="user" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="7RHNXGyQCTY" role="3cqZAp">
-                <node concept="2OqwBi" id="7RHNXGyQCTZ" role="3clFbG">
-                  <node concept="37vLTw" id="7RHNXGyQCU0" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-                  </node>
-                  <node concept="liA8E" id="7RHNXGyQCU1" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                    <node concept="Xl_RD" id="7RHNXGyQCU2" role="37wK5m">
-                      <property role="Xl_RC" value=" @ " />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="7RHNXGyQCU3" role="3cqZAp">
-                <node concept="2OqwBi" id="7RHNXGyQCU4" role="3clFbG">
-                  <node concept="37vLTw" id="7RHNXGyQCU5" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-                  </node>
-                  <node concept="liA8E" id="7RHNXGyQCU6" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                    <node concept="37vLTw" id="7RHNXGyQCU7" role="37wK5m">
-                      <ref role="3cqZAo" node="7RHNXGyQCRa" resolve="connectionName" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7RHNXGyQCU8" role="3cqZAp" />
         <node concept="3clFbF" id="7RHNXGyQCU9" role="3cqZAp">
           <node concept="2OqwBi" id="7RHNXGyQCUa" role="3clFbG">
             <node concept="37vLTw" id="7RHNXGyQCUb" role="2Oq$k0">
