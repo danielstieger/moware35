@@ -1912,6 +1912,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="6syaKFasRlA" role="jymVt" />
     <node concept="3clFb_" id="1i79Hb8rMh1" role="jymVt">
       <property role="TrG5h" value="logError" />
       <node concept="3cqZAl" id="1i79Hb8rMh2" role="3clF45" />
@@ -2306,6 +2307,48 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="6syaKFasWBG" role="3cqZAp">
+                <node concept="1rXfSq" id="6syaKFasWBE" role="3clFbG">
+                  <ref role="37wK5l" node="1i79Hb8rMh1" resolve="logError" />
+                  <node concept="3cpWs3" id="6syaKFasWVg" role="37wK5m">
+                    <node concept="2YIFZM" id="6syaKFasWVh" role="3uHU7w">
+                      <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                      <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                      <node concept="37vLTw" id="6syaKFasWVi" role="37wK5m">
+                        <ref role="3cqZAo" node="1EA1lDXekGI" resolve="t" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="6syaKFasWVj" role="3uHU7B">
+                      <node concept="Xl_RD" id="6syaKFasWVk" role="3uHU7w">
+                        <property role="Xl_RC" value="] \n\n" />
+                      </node>
+                      <node concept="3cpWs3" id="6syaKFat3Rm" role="3uHU7B">
+                        <node concept="37vLTw" id="6syaKFat4i9" role="3uHU7w">
+                          <ref role="3cqZAo" node="vsIEjNuDgI" resolve="username" />
+                        </node>
+                        <node concept="3cpWs3" id="6syaKFasY2r" role="3uHU7B">
+                          <node concept="2OqwBi" id="6syaKFasWVl" role="3uHU7B">
+                            <node concept="1rXfSq" id="6syaKFasWVm" role="2Oq$k0">
+                              <ref role="37wK5l" node="4XXgpAAgN$Z" resolve="getUiFactory" />
+                            </node>
+                            <node concept="liA8E" id="6syaKFasWVn" role="2OqNvi">
+                              <ref role="37wK5l" node="20ohnkbA2Ln" resolve="getTranslation" />
+                              <node concept="Rm8GO" id="6syaKFasWVo" role="37wK5m">
+                                <ref role="1Px2BO" node="2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                                <ref role="Rm8GQ" node="1Q0KaWuHuYZ" resolve="LOGIN_FAILED" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="6syaKFat3xs" role="3uHU7w">
+                            <property role="Xl_RC" value=" [username: " />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="6syaKFasXaY" role="3cqZAp" />
               <node concept="3clFbF" id="1EA1lDXemVG" role="3cqZAp">
                 <node concept="2OqwBi" id="1EA1lDXemWO" role="3clFbG">
                   <node concept="37vLTw" id="1EA1lDXemVE" role="2Oq$k0">
