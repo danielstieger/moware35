@@ -14023,6 +14023,17 @@
       <node concept="3Tm1VV" id="3sEA$PIARpW" role="1B3o_S" />
       <node concept="3clFbS" id="3sEA$PIARpX" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="1l2SXGvBqc4" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="createDateAndTimeEditor" />
+      <node concept="3clFbS" id="1l2SXGvBqc7" role="3clF47" />
+      <node concept="3Tm1VV" id="1l2SXGvBqc8" role="1B3o_S" />
+      <node concept="3uibUv" id="1l2SXGvBq6G" role="3clF45">
+        <ref role="3uigEE" node="1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1l2SXGvBq1w" role="jymVt" />
     <node concept="3clFb_" id="6Ag5kTzI7ll" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createImageEditor" />
@@ -14906,6 +14917,17 @@
           <property role="Xl_RC" value="" />
         </node>
         <node concept="Xl_RD" id="4Rlyz3EmQHr" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="1l2SXGvJjp8" role="Qtgdg">
+        <property role="TrG5h" value="DATETIME_VALIDATION_ERR" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <node concept="Xl_RD" id="1l2SXGvJjKb" role="37wK5m">
+          <property role="Xl_RC" value="Ungültiges Datum / Uhrzeit. Muss im Format %s eingegeben werden." />
+        </node>
+        <node concept="Xl_RD" id="1l2SXGvJjP0" role="37wK5m" />
+        <node concept="Xl_RD" id="1l2SXGvJjQd" role="37wK5m">
           <property role="Xl_RC" value="" />
         </node>
       </node>
@@ -38591,6 +38613,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="1l2SXGvBqVD" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="3sEA$PIyD1R" role="TEbGg">
             <node concept="3cpWsn" id="3sEA$PIyD1T" role="TDEfY">
@@ -38650,6 +38673,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="1l2SXGvBrkr" role="3cqZAp" />
           </node>
           <node concept="3y3z36" id="3sEA$PIygHR" role="3clFbw">
             <node concept="10Nm6u" id="3sEA$PIygHS" role="3uHU7w" />
@@ -38894,25 +38918,17 @@
           </node>
           <node concept="9aQIb" id="61KpyPwPLnJ" role="9aQIa">
             <node concept="3clFbS" id="61KpyPwPLnK" role="9aQI4">
-              <node concept="3clFbF" id="61KpyPwPLXP" role="3cqZAp">
-                <node concept="37vLTI" id="61KpyPwPLZJ" role="3clFbG">
-                  <node concept="2OqwBi" id="AN_117k1um" role="37vLTx">
-                    <node concept="2YIFZM" id="61KpyPwPN6i" role="2Oq$k0">
-                      <ref role="37wK5l" to="vt2g:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
-                      <ref role="1Pybhc" to="vt2g:~DateTimeFormat" resolve="DateTimeFormat" />
-                      <node concept="37vLTw" id="61KpyPwPN8k" role="37wK5m">
-                        <ref role="3cqZAo" node="61KpyPwPJ3l" resolve="frmt" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="AN_117k1Ns" role="2OqNvi">
-                      <ref role="37wK5l" to="vt2g:~DateTimeFormatter.withPivotYear(int):org.joda.time.format.DateTimeFormatter" resolve="withPivotYear" />
-                      <node concept="3cmrfG" id="AN_117k1Px" role="37wK5m">
-                        <property role="3cmrfH" value="2000" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="37vLTw" id="61KpyPwPLXO" role="37vLTJ">
+              <node concept="3clFbF" id="1l2SXGvJa2k" role="3cqZAp">
+                <node concept="37vLTI" id="1l2SXGvJa2l" role="3clFbG">
+                  <node concept="37vLTw" id="1l2SXGvJa2m" role="37vLTJ">
                     <ref role="3cqZAo" node="61KpyPwOYSW" resolve="format" />
+                  </node>
+                  <node concept="2YIFZM" id="1l2SXGvJa2n" role="37vLTx">
+                    <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forPattern" />
+                    <ref role="1Pybhc" to="28jr:3spXEPXIsOe" resolve="MoDateTimeFormatters" />
+                    <node concept="37vLTw" id="1l2SXGvJazV" role="37wK5m">
+                      <ref role="3cqZAo" node="61KpyPwPJ3l" resolve="frmt" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -47724,6 +47740,598 @@
     </node>
     <node concept="2tJIrI" id="uIdudhLYfM" role="jymVt" />
     <node concept="3Tm1VV" id="1EBV9L$__sE" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="1l2SXGvB6qp">
+    <property role="3GE5qa" value="Delegates" />
+    <property role="TrG5h" value="FDateTimeDelegate" />
+    <node concept="Wx3nA" id="1l2SXGvB6qq" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="formatStringDateTime" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="1l2SXGvB6qr" role="1tU5fm" />
+      <node concept="3Tm6S6" id="1l2SXGvB6qs" role="1B3o_S" />
+      <node concept="Xl_RD" id="1l2SXGvB6qt" role="33vP2m">
+        <property role="Xl_RC" value="dd.MM.yy HH:mm" />
+      </node>
+    </node>
+    <node concept="312cEg" id="1l2SXGvB6qu" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="format" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="1l2SXGvB6qv" role="1tU5fm">
+        <ref role="3uigEE" to="vt2g:~DateTimeFormatter" resolve="DateTimeFormatter" />
+      </node>
+      <node concept="3Tm6S6" id="1l2SXGvB6qw" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="1l2SXGvB6qx" role="jymVt" />
+    <node concept="2tJIrI" id="1l2SXGvB6qy" role="jymVt" />
+    <node concept="2tJIrI" id="1l2SXGvB6qz" role="jymVt" />
+    <node concept="3clFbW" id="1l2SXGvB6q$" role="jymVt">
+      <node concept="3cqZAl" id="1l2SXGvB6q_" role="3clF45" />
+      <node concept="3Tm1VV" id="1l2SXGvB6qA" role="1B3o_S" />
+      <node concept="3clFbS" id="1l2SXGvB6qB" role="3clF47">
+        <node concept="XkiVB" id="1l2SXGvB6qC" role="3cqZAp">
+          <ref role="37wK5l" node="5Y1b9tR40nM" resolve="FDelegate" />
+          <node concept="37vLTw" id="1l2SXGvB6qD" role="37wK5m">
+            <ref role="3cqZAo" node="1l2SXGvB6qU" resolve="factory" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="1l2SXGvJUdz" role="3cqZAp">
+          <node concept="3SKdUq" id="1l2SXGvJUg0" role="3SKWNk">
+            <property role="3SKdUp" value="space in between is necessary...   dd.MM.yy SPACE HH:mm" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="1l2SXGvB6qE" role="3cqZAp">
+          <node concept="37vLTI" id="1l2SXGvB6qF" role="3clFbG">
+            <node concept="37vLTw" id="1l2SXGvB6qG" role="37vLTJ">
+              <ref role="3cqZAo" node="1l2SXGvB6qu" resolve="format" />
+            </node>
+            <node concept="2YIFZM" id="1l2SXGvB6qH" role="37vLTx">
+              <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forPattern" />
+              <ref role="1Pybhc" to="28jr:3spXEPXIsOe" resolve="MoDateTimeFormatters" />
+              <node concept="37vLTw" id="1l2SXGvB6qI" role="37wK5m">
+                <ref role="3cqZAo" node="1l2SXGvB6qq" resolve="formatStringDateTime" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1l2SXGvB6qJ" role="3cqZAp">
+          <node concept="37vLTI" id="1l2SXGvB6qK" role="3clFbG">
+            <node concept="2OqwBi" id="1l2SXGvB6qL" role="37vLTx">
+              <node concept="37vLTw" id="1l2SXGvB6qM" role="2Oq$k0">
+                <ref role="3cqZAo" node="1l2SXGvB6qU" resolve="factory" />
+              </node>
+              <node concept="liA8E" id="1l2SXGvB6qN" role="2OqNvi">
+                <ref role="37wK5l" node="1l2SXGvBqc4" resolve="createDateAndTimeEditor" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="1l2SXGvB6qO" role="37vLTJ">
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1l2SXGvB6qP" role="3cqZAp">
+          <node concept="2OqwBi" id="1l2SXGvB6qQ" role="3clFbG">
+            <node concept="37vLTw" id="1l2SXGvB6qR" role="2Oq$k0">
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+            </node>
+            <node concept="liA8E" id="1l2SXGvB6qS" role="2OqNvi">
+              <ref role="37wK5l" node="5Y1b9tR25O1" resolve="setDelegate" />
+              <node concept="Xjq3P" id="1l2SXGvB6qT" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1l2SXGvB6qU" role="3clF46">
+        <property role="TrG5h" value="factory" />
+        <node concept="3uibUv" id="1l2SXGvB6qV" role="1tU5fm">
+          <ref role="3uigEE" node="20ohnkbzF0d" resolve="IToolkit_UiFactory" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1l2SXGvB6qW" role="jymVt" />
+    <node concept="3clFb_" id="1l2SXGvB6qX" role="jymVt">
+      <property role="TrG5h" value="getValue" />
+      <property role="1EzhhJ" value="false" />
+      <node concept="3uibUv" id="1l2SXGvB6qY" role="3clF45">
+        <ref role="3uigEE" to="26n1:~DateTime" resolve="DateTime" />
+      </node>
+      <node concept="3Tm1VV" id="1l2SXGvB6qZ" role="1B3o_S" />
+      <node concept="3clFbS" id="1l2SXGvB6r0" role="3clF47">
+        <node concept="3clFbJ" id="1l2SXGvB6r1" role="3cqZAp">
+          <node concept="3clFbS" id="1l2SXGvB6r2" role="3clFbx">
+            <node concept="3cpWs6" id="1l2SXGvB6r3" role="3cqZAp">
+              <node concept="10Nm6u" id="1l2SXGvB6r4" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="1rXfSq" id="1l2SXGvB6r5" role="3clFbw">
+            <ref role="37wK5l" node="5Y1b9tR39_q" resolve="isCurrentlyInOptionalState" />
+          </node>
+        </node>
+        <node concept="SfApY" id="1l2SXGvB6r6" role="3cqZAp">
+          <node concept="3clFbS" id="1l2SXGvB6r7" role="SfCbr">
+            <node concept="3cpWs6" id="1l2SXGvB6r8" role="3cqZAp">
+              <node concept="2OqwBi" id="1l2SXGvB6r9" role="3cqZAk">
+                <node concept="37vLTw" id="1l2SXGvB6ra" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1l2SXGvB6qu" resolve="format" />
+                </node>
+                <node concept="liA8E" id="1l2SXGvB6rb" role="2OqNvi">
+                  <ref role="37wK5l" to="vt2g:~DateTimeFormatter.parseDateTime(java.lang.String):org.joda.time.DateTime" resolve="parseDateTime" />
+                  <node concept="2OqwBi" id="1l2SXGvB6rc" role="37wK5m">
+                    <node concept="37vLTw" id="1l2SXGvB6rd" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+                    </node>
+                    <node concept="liA8E" id="1l2SXGvB6re" role="2OqNvi">
+                      <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1l2SXGvJdh0" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="1l2SXGvB6rf" role="TEbGg">
+            <node concept="3cpWsn" id="1l2SXGvB6rg" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="1l2SXGvB6rh" role="1tU5fm">
+                <ref role="3uigEE" to="e2lb:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="1l2SXGvB6ri" role="TDEfX">
+              <node concept="YS8fn" id="1l2SXGvB6rj" role="3cqZAp">
+                <node concept="2ShNRf" id="1l2SXGvB6rk" role="YScLw">
+                  <node concept="1pGfFk" id="1l2SXGvB6rl" role="2ShVmc">
+                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="1l2SXGvB6rm" role="37wK5m">
+                      <ref role="3cqZAo" node="1l2SXGvB6rg" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="1l2SXGvJiYY" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1l2SXGvB6rn" role="jymVt">
+      <property role="TrG5h" value="setValue" />
+      <property role="1EzhhJ" value="false" />
+      <node concept="37vLTG" id="1l2SXGvB6ro" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="3uibUv" id="1l2SXGvB6rp" role="1tU5fm">
+          <ref role="3uigEE" to="26n1:~DateTime" resolve="DateTime" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1l2SXGvB6rq" role="3clF45" />
+      <node concept="3Tm1VV" id="1l2SXGvB6rr" role="1B3o_S" />
+      <node concept="3clFbS" id="1l2SXGvB6rs" role="3clF47">
+        <node concept="3clFbJ" id="1l2SXGvB6rt" role="3cqZAp">
+          <node concept="3clFbS" id="1l2SXGvB6ru" role="3clFbx">
+            <node concept="3clFbF" id="1l2SXGvB6rv" role="3cqZAp">
+              <node concept="2OqwBi" id="1l2SXGvB6rw" role="3clFbG">
+                <node concept="37vLTw" id="1l2SXGvB6rx" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+                </node>
+                <node concept="liA8E" id="1l2SXGvB6ry" role="2OqNvi">
+                  <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
+                  <node concept="2OqwBi" id="1l2SXGvB6rz" role="37wK5m">
+                    <node concept="37vLTw" id="1l2SXGvB6r$" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1l2SXGvB6qu" resolve="format" />
+                    </node>
+                    <node concept="liA8E" id="1l2SXGvB6r_" role="2OqNvi">
+                      <ref role="37wK5l" to="vt2g:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
+                      <node concept="37vLTw" id="1l2SXGvB6rA" role="37wK5m">
+                        <ref role="3cqZAo" node="1l2SXGvB6ro" resolve="value" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1l2SXGvJiP8" role="3cqZAp" />
+          </node>
+          <node concept="3y3z36" id="1l2SXGvB6rB" role="3clFbw">
+            <node concept="10Nm6u" id="1l2SXGvB6rC" role="3uHU7w" />
+            <node concept="37vLTw" id="1l2SXGvB6rD" role="3uHU7B">
+              <ref role="3cqZAo" node="1l2SXGvB6ro" resolve="value" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="1l2SXGvB6rE" role="9aQIa">
+            <node concept="3clFbS" id="1l2SXGvB6rF" role="9aQI4">
+              <node concept="3clFbF" id="1l2SXGvB6rG" role="3cqZAp">
+                <node concept="2OqwBi" id="1l2SXGvB6rH" role="3clFbG">
+                  <node concept="37vLTw" id="1l2SXGvB6rI" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+                  </node>
+                  <node concept="liA8E" id="1l2SXGvB6rJ" role="2OqNvi">
+                    <ref role="37wK5l" node="5Y1b9tR2isn" resolve="setText" />
+                    <node concept="Xl_RD" id="1l2SXGvB6rK" role="37wK5m">
+                      <property role="Xl_RC" value="" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="1l2SXGvJiXN" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1l2SXGvB6rL" role="jymVt" />
+    <node concept="2tJIrI" id="1l2SXGvB6rM" role="jymVt" />
+    <node concept="3clFb_" id="1l2SXGvB6rN" role="jymVt">
+      <property role="TrG5h" value="isInputValid" />
+      <node concept="10P_77" id="1l2SXGvB6rO" role="3clF45" />
+      <node concept="3Tm1VV" id="1l2SXGvB6rP" role="1B3o_S" />
+      <node concept="3clFbS" id="1l2SXGvB6rQ" role="3clF47">
+        <node concept="3clFbJ" id="1l2SXGvB6rR" role="3cqZAp">
+          <node concept="3clFbS" id="1l2SXGvB6rS" role="3clFbx">
+            <node concept="3cpWs6" id="1l2SXGvB6rT" role="3cqZAp">
+              <node concept="3clFbT" id="1l2SXGvB6rU" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="1l2SXGvB6rV" role="3clFbw">
+            <node concept="2OqwBi" id="1l2SXGvB6rW" role="3fr31v">
+              <node concept="37vLTw" id="1l2SXGvB6rX" role="2Oq$k0">
+                <ref role="3cqZAo" node="5Y1b9tQYCpV" resolve="enabled" />
+              </node>
+              <node concept="liA8E" id="1l2SXGvB6rY" role="2OqNvi">
+                <ref role="37wK5l" node="5Y1b9tQZbC9" resolve="getValue" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1l2SXGvB6rZ" role="3cqZAp">
+          <node concept="2OqwBi" id="1l2SXGvB6s0" role="3clFbG">
+            <node concept="37vLTw" id="1l2SXGvB6s1" role="2Oq$k0">
+              <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+            </node>
+            <node concept="liA8E" id="1l2SXGvB6s2" role="2OqNvi">
+              <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
+              <node concept="Xl_RD" id="1l2SXGvB6s3" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="SfApY" id="1l2SXGvB6s4" role="3cqZAp">
+          <node concept="3clFbS" id="1l2SXGvB6s5" role="SfCbr">
+            <node concept="3clFbJ" id="1l2SXGvB6s6" role="3cqZAp">
+              <node concept="3clFbS" id="1l2SXGvB6s7" role="3clFbx">
+                <node concept="3cpWs6" id="1l2SXGvB6s8" role="3cqZAp">
+                  <node concept="3clFbT" id="1l2SXGvB6s9" role="3cqZAk">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1l2SXGvB6sa" role="3clFbw">
+                <node concept="Xjq3P" id="1l2SXGvB6sb" role="2Oq$k0" />
+                <node concept="liA8E" id="1l2SXGvB6sc" role="2OqNvi">
+                  <ref role="37wK5l" node="5Y1b9tR39_q" resolve="isCurrentlyInOptionalState" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1l2SXGvB6sd" role="3cqZAp">
+              <node concept="2OqwBi" id="1l2SXGvB6se" role="3clFbG">
+                <node concept="37vLTw" id="1l2SXGvB6sf" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1l2SXGvB6qu" resolve="format" />
+                </node>
+                <node concept="liA8E" id="1l2SXGvB6sg" role="2OqNvi">
+                  <ref role="37wK5l" to="vt2g:~DateTimeFormatter.parseDateTime(java.lang.String):org.joda.time.DateTime" resolve="parseDateTime" />
+                  <node concept="2OqwBi" id="1l2SXGvB6sh" role="37wK5m">
+                    <node concept="37vLTw" id="1l2SXGvB6si" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+                    </node>
+                    <node concept="liA8E" id="1l2SXGvB6sj" role="2OqNvi">
+                      <ref role="37wK5l" node="5Y1b9tR2iZp" resolve="getText" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="1l2SXGvB6sk" role="TEbGg">
+            <node concept="3cpWsn" id="1l2SXGvB6sl" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="1l2SXGvB6sm" role="1tU5fm">
+                <ref role="3uigEE" to="e2lb:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="1l2SXGvB6sn" role="TDEfX">
+              <node concept="3clFbJ" id="1l2SXGvB6so" role="3cqZAp">
+                <node concept="3clFbS" id="1l2SXGvB6sp" role="3clFbx">
+                  <node concept="3cpWs6" id="1l2SXGvB6sq" role="3cqZAp">
+                    <node concept="3clFbT" id="1l2SXGvB6sr" role="3cqZAk">
+                      <property role="3clFbU" value="true" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1l2SXGvB6ss" role="3clFbw">
+                  <node concept="Xjq3P" id="1l2SXGvB6st" role="2Oq$k0" />
+                  <node concept="liA8E" id="1l2SXGvB6su" role="2OqNvi">
+                    <ref role="37wK5l" node="5Y1b9tR39_q" resolve="isCurrentlyInOptionalState" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="1l2SXGvB6sv" role="3cqZAp">
+                <node concept="2OqwBi" id="1l2SXGvB6sw" role="3clFbG">
+                  <node concept="37vLTw" id="1l2SXGvB6sx" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+                  </node>
+                  <node concept="liA8E" id="1l2SXGvB6sy" role="2OqNvi">
+                    <ref role="37wK5l" node="5Y1b9tR28Wg" resolve="setValidationErrorText" />
+                    <node concept="2YIFZM" id="1l2SXGvB6sz" role="37wK5m">
+                      <ref role="1Pybhc" to="e2lb:~String" resolve="String" />
+                      <ref role="37wK5l" to="e2lb:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+                      <node concept="2OqwBi" id="1l2SXGvB6s$" role="37wK5m">
+                        <node concept="37vLTw" id="1l2SXGvB6s_" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5Y1b9tR3Z9j" resolve="uiFactory" />
+                        </node>
+                        <node concept="liA8E" id="1l2SXGvB6sA" role="2OqNvi">
+                          <ref role="37wK5l" node="20ohnkbA2Ln" resolve="getTranslation" />
+                          <node concept="Rm8GO" id="1l2SXGvJk3P" role="37wK5m">
+                            <ref role="Rm8GQ" node="1l2SXGvJjp8" resolve="DATETIME_VALIDATION_ERR" />
+                            <ref role="1Px2BO" node="2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="1l2SXGvB6sC" role="37wK5m">
+                        <ref role="3cqZAo" node="1l2SXGvB6qq" resolve="formatStringDateTime" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="1l2SXGvB6sD" role="3cqZAp">
+                <node concept="3clFbT" id="1l2SXGvB6sE" role="3cqZAk">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="1l2SXGvB6sF" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1l2SXGvB6sG" role="3cqZAp" />
+        <node concept="3cpWs6" id="1l2SXGvB6sH" role="3cqZAp">
+          <node concept="3clFbT" id="1l2SXGvB6sI" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1l2SXGvB6sJ" role="jymVt" />
+    <node concept="3clFb_" id="1l2SXGvB6sK" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setScanable" />
+      <node concept="3cqZAl" id="1l2SXGvB6sL" role="3clF45" />
+      <node concept="3Tm1VV" id="1l2SXGvB6sM" role="1B3o_S" />
+      <node concept="37vLTG" id="1l2SXGvB6sN" role="3clF46">
+        <property role="TrG5h" value="scanable" />
+        <node concept="10P_77" id="1l2SXGvB6sO" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="1l2SXGvB6sP" role="3clF47">
+        <node concept="YS8fn" id="1l2SXGvB6sQ" role="3cqZAp">
+          <node concept="2ShNRf" id="1l2SXGvB6sR" role="YScLw">
+            <node concept="1pGfFk" id="1l2SXGvB6sS" role="2ShVmc">
+              <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="1l2SXGvB6sT" role="37wK5m">
+                <property role="Xl_RC" value="Scanable not implemented." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1l2SXGvB6sU" role="jymVt" />
+    <node concept="2tJIrI" id="1l2SXGvB6sV" role="jymVt" />
+    <node concept="3clFb_" id="1l2SXGvB6sW" role="jymVt">
+      <property role="TrG5h" value="setFormat" />
+      <property role="1EzhhJ" value="false" />
+      <node concept="37vLTG" id="1l2SXGvB6sX" role="3clF46">
+        <property role="TrG5h" value="frmt" />
+        <node concept="17QB3L" id="1l2SXGvB6sY" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1l2SXGvB6sZ" role="3clF45" />
+      <node concept="3Tm1VV" id="1l2SXGvB6t0" role="1B3o_S" />
+      <node concept="3clFbS" id="1l2SXGvB6t1" role="3clF47">
+        <node concept="3SKdUt" id="1l2SXGvB6t2" role="3cqZAp">
+          <node concept="3SKdUq" id="1l2SXGvB6t3" role="3SKWNk">
+            <property role="3SKdUp" value="overwrite that .. if necessary ??.. " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1l2SXGvB6t4" role="3cqZAp">
+          <node concept="3clFbS" id="1l2SXGvB6t5" role="3clFbx">
+            <node concept="3SKdUt" id="1l2SXGvB6t6" role="3cqZAp">
+              <node concept="3SKdUq" id="1l2SXGvB6t7" role="3SKWNk">
+                <property role="3SKdUp" value="nothing .. skip it .." />
+              </node>
+            </node>
+            <node concept="3clFbH" id="1l2SXGvB6t8" role="3cqZAp" />
+          </node>
+          <node concept="22lmx$" id="1l2SXGvB6t9" role="3clFbw">
+            <node concept="2OqwBi" id="1l2SXGvB6ta" role="3uHU7w">
+              <node concept="Xl_RD" id="1l2SXGvB6tb" role="2Oq$k0" />
+              <node concept="liA8E" id="1l2SXGvB6tc" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="2OqwBi" id="1l2SXGvB6td" role="37wK5m">
+                  <node concept="37vLTw" id="1l2SXGvB6te" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1l2SXGvB6sX" resolve="frmt" />
+                  </node>
+                  <node concept="liA8E" id="1l2SXGvB6tf" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~String.trim():java.lang.String" resolve="trim" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="1l2SXGvB6tg" role="3uHU7B">
+              <node concept="37vLTw" id="1l2SXGvB6th" role="3uHU7B">
+                <ref role="3cqZAo" node="1l2SXGvB6sX" resolve="frmt" />
+              </node>
+              <node concept="10Nm6u" id="1l2SXGvB6ti" role="3uHU7w" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="1l2SXGvB6tj" role="9aQIa">
+            <node concept="3clFbS" id="1l2SXGvB6tk" role="9aQI4">
+              <node concept="3clFbJ" id="1l2SXGvJWyw" role="3cqZAp">
+                <node concept="3clFbS" id="1l2SXGvJWyy" role="3clFbx">
+                  <node concept="YS8fn" id="1l2SXGvK0Nc" role="3cqZAp">
+                    <node concept="2ShNRf" id="1l2SXGvK0OB" role="YScLw">
+                      <node concept="1pGfFk" id="1l2SXGvK1i$" role="2ShVmc">
+                        <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                        <node concept="Xl_RD" id="1l2SXGvK1ka" role="37wK5m">
+                          <property role="Xl_RC" value="Format has to contain one space to devide date from time format. Eg. dd.MM.yy[SPACE]HH:mm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eOVzh" id="1l2SXGvK1y0" role="3clFbw">
+                  <node concept="2OqwBi" id="1l2SXGvJWFW" role="3uHU7B">
+                    <node concept="37vLTw" id="1l2SXGvJW_t" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1l2SXGvB6sX" resolve="frmt" />
+                    </node>
+                    <node concept="liA8E" id="1l2SXGvJWXI" role="2OqNvi">
+                      <ref role="37wK5l" to="e2lb:~String.lastIndexOf(java.lang.String):int" resolve="lastIndexOf" />
+                      <node concept="Xl_RD" id="1l2SXGvJX4t" role="37wK5m">
+                        <property role="Xl_RC" value=" " />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3cmrfG" id="1l2SXGvJXIB" role="3uHU7w">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="1l2SXGvK1YJ" role="3cqZAp" />
+              <node concept="3clFbF" id="1l2SXGvJ7Sw" role="3cqZAp">
+                <node concept="37vLTI" id="1l2SXGvJ7VL" role="3clFbG">
+                  <node concept="2YIFZM" id="1l2SXGvJ91o" role="37vLTx">
+                    <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forPattern" />
+                    <ref role="1Pybhc" to="28jr:3spXEPXIsOe" resolve="MoDateTimeFormatters" />
+                    <node concept="37vLTw" id="1l2SXGvJ93p" role="37wK5m">
+                      <ref role="3cqZAo" node="1l2SXGvB6sX" resolve="frmt" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="1l2SXGvJ7Su" role="37vLTJ">
+                    <ref role="3cqZAo" node="1l2SXGvB6qu" resolve="format" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="1l2SXGvB6tt" role="3cqZAp">
+                <node concept="1rXfSq" id="1l2SXGvB6tu" role="3clFbG">
+                  <ref role="37wK5l" node="5Y1b9tQYocc" resolve="setEnabled" />
+                  <node concept="3clFbT" id="1l2SXGvB6tv" role="37wK5m">
+                    <property role="3clFbU" value="false" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1l2SXGvB6tw" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1l2SXGvB6tx" role="jymVt" />
+    <node concept="2tJIrI" id="1l2SXGvB6ty" role="jymVt" />
+    <node concept="2tJIrI" id="1l2SXGvB6tz" role="jymVt" />
+    <node concept="3clFb_" id="1l2SXGvB6t$" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getUiLabel" />
+      <node concept="3uibUv" id="1l2SXGvB6t_" role="3clF45">
+        <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="1l2SXGvB6tA" role="1B3o_S" />
+      <node concept="2AHcQZ" id="1l2SXGvB6tB" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
+      <node concept="3clFbS" id="1l2SXGvB6tC" role="3clF47">
+        <node concept="3clFbF" id="1l2SXGvB6tD" role="3cqZAp">
+          <node concept="10Nm6u" id="1l2SXGvB6tE" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1l2SXGvB6tF" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getUiEditor" />
+      <node concept="3uibUv" id="1l2SXGvB6tG" role="3clF45">
+        <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="1l2SXGvB6tH" role="1B3o_S" />
+      <node concept="2AHcQZ" id="1l2SXGvB6tI" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
+      <node concept="3clFbS" id="1l2SXGvB6tJ" role="3clF47">
+        <node concept="3clFbF" id="1l2SXGvB6tK" role="3cqZAp">
+          <node concept="10Nm6u" id="1l2SXGvB6tL" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1l2SXGvB6tM" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setLoadOnly" />
+      <node concept="37vLTG" id="1l2SXGvB6tN" role="3clF46">
+        <property role="TrG5h" value="loadOnly" />
+        <node concept="10P_77" id="1l2SXGvB6tO" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1l2SXGvB6tP" role="3clF45" />
+      <node concept="3Tm1VV" id="1l2SXGvB6tQ" role="1B3o_S" />
+      <node concept="2AHcQZ" id="1l2SXGvB6tR" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
+      <node concept="3clFbS" id="1l2SXGvB6tS" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1l2SXGvB6tT" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setValidationErrorText" />
+      <node concept="37vLTG" id="1l2SXGvB6tU" role="3clF46">
+        <property role="TrG5h" value="text" />
+        <node concept="17QB3L" id="1l2SXGvB6tV" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1l2SXGvB6tW" role="3clF45" />
+      <node concept="3Tm1VV" id="1l2SXGvB6tX" role="1B3o_S" />
+      <node concept="2AHcQZ" id="1l2SXGvB6tY" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
+      <node concept="3clFbS" id="1l2SXGvB6tZ" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1l2SXGvB6u0" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="clearRequestFirstFocus" />
+      <node concept="3cqZAl" id="1l2SXGvB6u1" role="3clF45" />
+      <node concept="3Tm1VV" id="1l2SXGvB6u2" role="1B3o_S" />
+      <node concept="2AHcQZ" id="1l2SXGvB6u3" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Deprecated" resolve="Deprecated" />
+      </node>
+      <node concept="3clFbS" id="1l2SXGvB6u4" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1l2SXGvKZYI" role="jymVt" />
+    <node concept="3Tm1VV" id="1l2SXGvB6u5" role="1B3o_S" />
+    <node concept="3uibUv" id="1l2SXGvB6u6" role="1zkMxy">
+      <ref role="3uigEE" node="5Y1b9tQY3zB" resolve="FDelegate" />
+      <node concept="3uibUv" id="1l2SXGvB6u7" role="11_B2D">
+        <ref role="3uigEE" to="26n1:~DateTime" resolve="DateTime" />
+      </node>
+    </node>
+    <node concept="3uibUv" id="1l2SXGvB6u8" role="EKbjA">
+      <ref role="3uigEE" to="c9yi:42mVti4YotL" resolve="IDelegate" />
+      <node concept="3uibUv" id="1l2SXGvB6u9" role="11_B2D">
+        <ref role="3uigEE" to="26n1:~DateTime" resolve="DateTime" />
+      </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="1l2SXGvBp5q">
+    <property role="3GE5qa" value="Toolkit" />
+    <property role="TrG5h" value="IToolkit_DateAndTimeEditor" />
+    <node concept="2tJIrI" id="1l2SXGvBp6E" role="jymVt" />
+    <node concept="3Tm1VV" id="1l2SXGvBp5r" role="1B3o_S" />
+    <node concept="3uibUv" id="1l2SXGvBpCR" role="3HQHJm">
+      <ref role="3uigEE" node="5Y1b9tR20Jr" resolve="IToolkit_TextEditor" />
+    </node>
   </node>
 </model>
 

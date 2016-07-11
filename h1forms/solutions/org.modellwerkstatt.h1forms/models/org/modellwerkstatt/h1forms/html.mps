@@ -7446,6 +7446,28 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="1l2SXGvSpCz" role="jymVt" />
+    <node concept="3clFb_" id="1l2SXGvSqj0" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="createDateAndTimeEditor" />
+      <node concept="3Tm1VV" id="1l2SXGvSqj2" role="1B3o_S" />
+      <node concept="3uibUv" id="1l2SXGvSqj3" role="3clF45">
+        <ref role="3uigEE" to="quhv:1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
+      </node>
+      <node concept="3clFbS" id="1l2SXGvSqj5" role="3clF47">
+        <node concept="YS8fn" id="1l2SXGvSr4h" role="3cqZAp">
+          <node concept="2ShNRf" id="1l2SXGvSr4i" role="YScLw">
+            <node concept="1pGfFk" id="1l2SXGvSr4j" role="2ShVmc">
+              <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="1l2SXGvSr4k" role="37wK5m">
+                <property role="Xl_RC" value="createDateAndTimeEditor() Time and Date Editor currently not supported in H1Forms" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="7RHNXGyQGio" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createTextAreaEditor" />

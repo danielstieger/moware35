@@ -1165,6 +1165,10 @@
       <property role="1uS6qv" value="ImageDelegate" />
       <property role="1uS6qo" value="ImageDelegate" />
     </node>
+    <node concept="M4N5e" id="1l2SXGvxmQU" role="M5hS2">
+      <property role="1uS6qv" value="DateTimeDelegate" />
+      <property role="1uS6qo" value="DateTimeDelegate" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4lRaCigW9UY">
     <property role="3GE5qa" value="DelegateForm" />
