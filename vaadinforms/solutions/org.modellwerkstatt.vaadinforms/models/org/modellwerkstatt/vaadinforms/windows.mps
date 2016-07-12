@@ -5882,9 +5882,6 @@
           <node concept="2ShNRf" id="xFWXJRYXod" role="3clFbG">
             <node concept="1pGfFk" id="xFWXJRZ1vC" role="2ShVmc">
               <ref role="37wK5l" to="8ers:xFWXJRYHoj" resolve="VStringEditor" />
-              <node concept="3clFbT" id="xFWXJS9X1A" role="37wK5m">
-                <property role="3clFbU" value="false" />
-              </node>
             </node>
           </node>
         </node>
@@ -5935,7 +5932,7 @@
         <node concept="3clFbF" id="xFWXJRZs00" role="3cqZAp">
           <node concept="2ShNRf" id="xFWXJRZrZU" role="3clFbG">
             <node concept="1pGfFk" id="xFWXJRZsLN" role="2ShVmc">
-              <ref role="37wK5l" to="8ers:xFWXJRYHoj" resolve="VStringEditor" />
+              <ref role="37wK5l" to="8ers:1l2SXGvX1BU" resolve="VDateOrTimeEditor" />
               <node concept="3clFbT" id="xFWXJS9X3i" role="37wK5m">
                 <property role="3clFbU" value="true" />
               </node>
@@ -5953,8 +5950,12 @@
         <ref role="3uigEE" to="quhv:1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
       </node>
       <node concept="3clFbS" id="1l2SXGvSqj5" role="3clF47">
-        <node concept="3clFbF" id="1l2SXGvTZyS" role="3cqZAp">
-          <node concept="10Nm6u" id="1l2SXGvTZyR" role="3clFbG" />
+        <node concept="3clFbF" id="hObkZkG6z3" role="3cqZAp">
+          <node concept="2ShNRf" id="hObkZkG6z1" role="3clFbG">
+            <node concept="1pGfFk" id="hObkZkG731" role="2ShVmc">
+              <ref role="37wK5l" to="8ers:hObkZkFaBZ" resolve="VDateAndTimeEditor" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

@@ -339,6 +339,7 @@
       <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
         <property id="5858074156537516431" name="text" index="x79VB" />
       </concept>
+      <concept id="6832197706140896242" name="jetbrains.mps.baseLanguage.javadoc.structure.FieldDocComment" flags="ng" index="z59LJ" />
       <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
       <concept id="6832197706140518107" name="jetbrains.mps.baseLanguage.javadoc.structure.DocTypeParameterReference" flags="ng" index="zr_56" />
       <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
@@ -14292,7 +14293,7 @@
       <property role="TrG5h" value="DEVELOPMENT_SETTING" />
       <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
       <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
-      <node concept="3clFbT" id="79n7_omq89$" role="33vP2m">
+      <node concept="3clFbT" id="hObkZkQcaN" role="33vP2m">
         <property role="3clFbU" value="true" />
       </node>
     </node>
@@ -47749,9 +47750,16 @@
       <property role="TrG5h" value="formatStringDateTime" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="1l2SXGvB6qr" role="1tU5fm" />
-      <node concept="3Tm6S6" id="1l2SXGvB6qs" role="1B3o_S" />
+      <node concept="3Tm1VV" id="hObkZkHhDA" role="1B3o_S" />
       <node concept="Xl_RD" id="1l2SXGvB6qt" role="33vP2m">
         <property role="Xl_RC" value="dd.MM.yy HH:mm" />
+      </node>
+      <node concept="z59LJ" id="hObkZkHiQg" role="lGtFl">
+        <node concept="TZ5HA" id="hObkZkHiQh" role="TZ5H$">
+          <node concept="1dT_AC" id="hObkZkHiQi" role="1dT_Ay">
+            <property role="1dT_AB" value="MoWare 2.0  - single point of config for dateTime formatters." />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="312cEg" id="1l2SXGvB6qu" role="jymVt">
