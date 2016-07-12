@@ -1,6 +1,6 @@
 # Master Branch: moware35 - R5 2016 LTS
 MoWare Release 35, Summer 2016 - Long Term Support Version
-
+[Compatible with MPS 3.3.5] 
 
 The moware35 software stack consists of three domain specific languages (DSL’s) 
 to model the different aspects of business applications. The languages are tightly 
