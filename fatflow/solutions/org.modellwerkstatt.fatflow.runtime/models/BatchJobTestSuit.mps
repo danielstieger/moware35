@@ -61,9 +61,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
-        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
-      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
@@ -1282,15 +1279,14 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="5E5qL$GtAGT" role="3cqZAp">
-          <node concept="2YIFZM" id="5E5qL$GtAKG" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
-            <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
-            <node concept="3cmrfG" id="5E5qL$GtAMF" role="37wK5m">
-              <property role="3cmrfH" value="2000" />
-            </node>
+        <node concept="3clFbH" id="2vDvL9DleCJ" role="3cqZAp" />
+        <node concept="3SKdUt" id="2vDvL9DleJ6" role="3cqZAp">
+          <node concept="3SKdUq" id="2vDvL9DleJa" role="3SKWNk">
+            <property role="3SKdUp" value="Thread.sleep(2000)" />
           </node>
         </node>
+        <node concept="3clFbH" id="2vDvL9DleyC" role="3cqZAp" />
+        <node concept="3clFbH" id="2vDvL9Dle_5" role="3cqZAp" />
       </node>
     </node>
     <node concept="20vkWO" id="5E5qL$GvkjJ" role="Xrskq">

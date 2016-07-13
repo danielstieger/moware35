@@ -111,6 +111,7 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1046929382682558545" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteralType" flags="ig" index="9cv3F" />
       <concept id="1199542442495" name="jetbrains.mps.baseLanguage.closures.structure.FunctionType" flags="in" index="1ajhzC">
         <child id="1199542457201" name="resultType" index="1ajl9A" />
       </concept>
@@ -365,9 +366,9 @@
         <node concept="3clFbS" id="6asTO4XiDV5" role="3clFbx">
           <node concept="1Z5TYs" id="6asTO4XiDVs" role="3cqZAp">
             <node concept="mw_s8" id="6asTO4XiDVw" role="1ZfhKB">
-              <node concept="2c44tf" id="6asTO4XiDVx" role="mwGJk">
-                <node concept="1ajhzC" id="6asTO4XiDVz" role="2c44tc">
-                  <node concept="3cqZAl" id="6asTO4XiDV_" role="1ajl9A" />
+              <node concept="2c44tf" id="2vDvL9Dr_PT" role="mwGJk">
+                <node concept="9cv3F" id="2vDvL9Dr_Qx" role="2c44tc">
+                  <node concept="3cqZAl" id="2vDvL9Dr_QP" role="1ajl9A" />
                 </node>
               </node>
             </node>
