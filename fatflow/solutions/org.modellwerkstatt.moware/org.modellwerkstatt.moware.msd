@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="org.modellwerkstatt.moware" uuid="89962b41-edd2-410d-b9b2-c525c5d553eb" compileInMPS="true">
+<solution name="org.modellwerkstatt.moware" uuid="89962b41-edd2-410d-b9b2-c525c5d553eb" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -23,5 +23,9 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="0" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
+  <dependencyVersions>
+    <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
+    <module reference="89962b41-edd2-410d-b9b2-c525c5d553eb(org.modellwerkstatt.moware)" version="0" />
+  </dependencyVersions>
 </solution>
 

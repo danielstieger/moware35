@@ -3,12 +3,24 @@
   <component name="DependencyValidationManager">
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+  <component name="MPSFavoritesManager">
+    <option name="keepMe" value="true" />
+  </component>
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/FopLand/FopLand.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/modellwerkstatt.FopLand.sandbox/modellwerkstatt.FopLand.sandbox.msd" folder="" />
     </projectModules>
+  </component>
+  <component name="MigrationProperties">
+    <entry key="jetbrains.mps.cleanSrc_3.3" value="executed" />
+    <entry key="jetbrains.mps.fixLangVersions" value="executed" />
+    <entry key="jetbrains.mps.fixMig_33_331" value="executed" />
+    <entry key="jetbrains.mps.ide.mpsmigration.v33.UpdateModuleUsedLang" value="executed" />
+    <entry key="jetbrains.mps.v8_elimination" value="executed" />
   </component>
   <component name="MigrationState">
     <option name="myState" value="DONE" />
@@ -16,15 +28,10 @@
   <component name="ProjectModuleManager">
     <modules />
   </component>
-  <component name="ProjectRootManager" version="2" />
   <component name="ProjectVersion">
     <option name="version" value="3.1" />
   </component>
   <component name="SvnBranchConfigurationManager">
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
-  <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
-  </component>
 </project>
-

@@ -2,7 +2,7 @@
 <model ref="r:b6ba209a-aaff-4d10-935d-114abc07102b(modellwerkstatt.FopLand.sandbox.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="1e645434-f066-4246-95c3-c768bd8f6bee" name="org.modellwerkstatt.FopLand" version="-1" />
+    <use id="1e645434-f066-4246-95c3-c768bd8f6bee" name="org.modellwerkstatt.FopLand" version="0" />
   </languages>
   <imports />
   <registry>

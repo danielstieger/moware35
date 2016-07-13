@@ -2,23 +2,24 @@
 <model ref="r:318f9154-0c15-4e79-8be0-bbd805338031(org.modellwerkstatt.fatflow.runtime.BatchJobTestSuit)">
   <persistence version="9" />
   <languages>
-    <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
-    <use id="1e645434-f066-4246-95c3-c768bd8f6bee" name="org.modellwerkstatt.FopLand" version="-1" />
+    <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
+    <use id="1e645434-f066-4246-95c3-c768bd8f6bee" name="org.modellwerkstatt.FopLand" version="0" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <generationPart ref="77d14628-0cd9-4192-8ee6-d86cbfeb4819(org.modellwerkstatt.fatflow)" />
   </languages>
   <imports>
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
-    <import index="26n1" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time(org.modellwerkstatt.manmap.solution/org.joda.time@java_stub)" />
-    <import index="cuok" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.jdbc(org.modellwerkstatt.manmap.solution/org.springframework.jdbc@java_stub)" />
-    <import index="ybr6" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.joda.time.base(org.modellwerkstatt.manmap.solution/org.joda.time.base@java_stub)" />
-    <import index="fxg7" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" />
-    <import index="oi9j" ref="f:java_stub#37fdf88a-1025-4d01-864a-0bf987f72e6f#org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/org.springframework.beans.factory.annotation@java_stub)" />
+    <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
+    <import index="rapu" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jdbc(org.modellwerkstatt.manmap.solution/)" />
+    <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/)" />
     <import index="ofql" ref="r:d19ed509-ef31-4387-a63e-ca2090eb6503(org.modellwerkstatt.fatflow.runtime.manmapTestSuit)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
-    <import index="tsi3" ref="5a857198-951d-4874-b213-66fc66e0ee10/f:java_stub#5a857198-951d-4874-b213-66fc66e0ee10#javax.servlet(org.modellwerkstatt.sandbox/javax.servlet@java_stub)" />
-    <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
+    <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.sandbox/)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -118,9 +119,6 @@
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
-      </concept>
-      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
-        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -271,9 +269,17 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -477,7 +483,7 @@
         <ref role="3uigEE" node="3k90eqevVSR" resolve="SimpleJobSetting" />
       </node>
       <node concept="2AHcQZ" id="3k90eqeKh6u" role="2AJF6D">
-        <ref role="2AI5Lk" to="oi9j:~Autowired" resolve="Autowired" />
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
     <node concept="312cEg" id="5E5qL$GvuvK" role="jymVt">
@@ -487,7 +493,7 @@
         <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
       </node>
       <node concept="2AHcQZ" id="5E5qL$GvuyY" role="2AJF6D">
-        <ref role="2AI5Lk" to="oi9j:~Autowired" resolve="Autowired" />
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
     <node concept="312cEg" id="5E5qL$GvuJw" role="jymVt">
@@ -497,7 +503,7 @@
         <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
       </node>
       <node concept="2AHcQZ" id="5E5qL$GvuL_" role="2AJF6D">
-        <ref role="2AI5Lk" to="oi9j:~Autowired" resolve="Autowired" />
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
     <node concept="3Tm1VV" id="7ubUX521YHL" role="1B3o_S" />
@@ -538,7 +544,7 @@
       <node concept="3ulXEM" id="5T_hheWcaF8" role="3ulXEG">
         <property role="TrG5h" value="dt" />
         <node concept="3uibUv" id="5T_hheWcaI9" role="1tU5fm">
-          <ref role="3uigEE" to="26n1:~DateTime" resolve="DateTime" />
+          <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
         </node>
       </node>
       <node concept="3ulXEM" id="5T_hheW_bjk" role="3ulXEG">
@@ -765,11 +771,11 @@
     <property role="TrG5h" value="SimpleJobSetting" />
     <node concept="QsSxf" id="3k90eqevVTA" role="Qtgdg">
       <property role="TrG5h" value="ACTIVE" />
-      <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="QsSxf" id="3k90eqevVTU" role="Qtgdg">
       <property role="TrG5h" value="INACTIVE" />
-      <ref role="37wK5l" to="e2lb:~Object.&lt;init&gt;()" resolve="Object" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="3Tm1VV" id="3k90eqevVSS" role="1B3o_S" />
   </node>
@@ -831,26 +837,26 @@
         <node concept="3clFbF" id="5_hYnMtxmZQ" role="3cqZAp">
           <node concept="2OqwBi" id="5_hYnMtxmZM" role="3clFbG">
             <node concept="10M0yZ" id="5_hYnMtxmZN" role="2Oq$k0">
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
             </node>
             <node concept="liA8E" id="5_hYnMtxmZO" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="5_hYnMtxmZP" role="37wK5m">
                 <property role="Xl_RC" value="Okay, saving to db here ... " />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="5_hYnMtxmXH" role="3cqZAp">
-          <node concept="3SKWN0" id="5_hYnMtxmXI" role="3SKWNk">
-            <node concept="3clFbF" id="5nND$KgEAda" role="3SKWNf">
-              <node concept="1odsa" id="5nND$KgEAd9" role="3clFbG">
-                <ref role="1ods_" to="ofql:36k2Uwstchd" resolve="TestModelRepo" />
-                <ref role="37wK5l" to="ofql:66mO_QB97rJ" resolve="checkinIntKeyObject" />
-                <node concept="10EhbA" id="5nND$KgJEhv" role="37wK5m">
-                  <ref role="10EhbB" node="5nND$KgDDK3" resolve="intkey" />
-                </node>
+        <node concept="1X3_iC" id="4xVSf7cUu4N" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="5nND$KgEAda" role="8Wnug">
+            <node concept="1odsa" id="5nND$KgEAd9" role="3clFbG">
+              <ref role="1ods_" to="ofql:36k2Uwstchd" resolve="QueryFromMapsRepo" />
+              <ref role="37wK5l" to="ofql:66mO_QB97rJ" resolve="checkinIntKeyObject" />
+              <node concept="10EhbA" id="5nND$KgJEhv" role="37wK5m">
+                <ref role="10EhbB" node="5nND$KgDDK3" resolve="intkey" />
               </node>
             </node>
           </node>
@@ -1185,11 +1191,11 @@
         <node concept="3clFbF" id="5E5qL$GrxCh" role="3cqZAp">
           <node concept="2OqwBi" id="5E5qL$GrxCe" role="3clFbG">
             <node concept="10M0yZ" id="5E5qL$GrxCf" role="2Oq$k0">
-              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="5E5qL$GrxCg" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="5E5qL$GrxDf" role="37wK5m">
                 <property role="Xl_RC" value="drucke ...... " />
               </node>
@@ -1265,11 +1271,11 @@
         <node concept="3clFbF" id="5E5qL$GsO_k" role="3cqZAp">
           <node concept="2OqwBi" id="5E5qL$GsO_h" role="3clFbG">
             <node concept="10M0yZ" id="5E5qL$GsO_i" role="2Oq$k0">
-              <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-              <ref role="3cqZAo" to="e2lb:~System.err" resolve="err" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
             </node>
             <node concept="liA8E" id="5E5qL$GsO_j" role="2OqNvi">
-              <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
               <node concept="Xl_RD" id="5E5qL$GsOFd" role="37wK5m">
                 <property role="Xl_RC" value="done ... " />
               </node>
@@ -1278,8 +1284,8 @@
         </node>
         <node concept="3clFbF" id="5E5qL$GtAGT" role="3cqZAp">
           <node concept="2YIFZM" id="5E5qL$GtAKG" role="3clFbG">
-            <ref role="37wK5l" to="e2lb:~Thread.sleep(long):void" resolve="sleep" />
-            <ref role="1Pybhc" to="e2lb:~Thread" resolve="Thread" />
+            <ref role="37wK5l" to="wyt6:~Thread.sleep(long):void" resolve="sleep" />
+            <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
             <node concept="3cmrfG" id="5E5qL$GtAMF" role="37wK5m">
               <property role="3cmrfH" value="2000" />
             </node>

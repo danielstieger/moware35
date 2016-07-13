@@ -2,17 +2,17 @@
 <model ref="r:4255c42d-aebc-4a31-9fe6-067e7474b61b(org.modellwerkstatt.objectflow.generator.template.util)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
-    <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="-1" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="-1" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
+    <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="2" />
+    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="0" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
-    <import index="epq1" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" implicit="true" />
+    <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -202,7 +202,7 @@
               </node>
               <node concept="2c44tf" id="2JL8W6DqC8R" role="3JuZjQ">
                 <node concept="3uibUv" id="2JL8W6DqC8S" role="2c44tc">
-                  <ref role="3uigEE" to="epq1:~BigDecimal" resolve="BigDecimal" />
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
                 </node>
               </node>
             </node>
@@ -212,7 +212,7 @@
               </node>
               <node concept="2c44tf" id="f6irPlxtuO" role="3JuZjQ">
                 <node concept="3uibUv" id="f6irPlxtuQ" role="2c44tc">
-                  <ref role="3uigEE" to="epq1:~BigDecimal" resolve="BigDecimal" />
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
                 </node>
               </node>
             </node>
@@ -285,7 +285,7 @@
               </node>
               <node concept="2c44tf" id="2JL8W6DqC8T" role="3JuZjQ">
                 <node concept="3uibUv" id="2JL8W6DqC8U" role="2c44tc">
-                  <ref role="3uigEE" to="epq1:~BigDecimal" resolve="BigDecimal" />
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
                 </node>
               </node>
             </node>
@@ -295,7 +295,7 @@
               </node>
               <node concept="2c44tf" id="2JL8W6DqC8V" role="3JuZjQ">
                 <node concept="3uibUv" id="2JL8W6DqC8W" role="2c44tc">
-                  <ref role="3uigEE" to="epq1:~BigDecimal" resolve="BigDecimal" />
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
                 </node>
               </node>
             </node>
@@ -486,7 +486,7 @@
               </node>
               <node concept="2c44tf" id="2JL8W6DqC8X" role="3JuZjQ">
                 <node concept="3uibUv" id="2JL8W6DqC8Y" role="2c44tc">
-                  <ref role="3uigEE" to="epq1:~BigDecimal" resolve="BigDecimal" />
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
                 </node>
               </node>
             </node>
@@ -559,7 +559,7 @@
               </node>
               <node concept="2c44tf" id="2JL8W6DqC93" role="3JuZjQ">
                 <node concept="3uibUv" id="2JL8W6DqC94" role="2c44tc">
-                  <ref role="3uigEE" to="epq1:~BigDecimal" resolve="BigDecimal" />
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
                 </node>
               </node>
             </node>
@@ -569,7 +569,7 @@
               </node>
               <node concept="2c44tf" id="2JL8W6DqC8Z" role="3JuZjQ">
                 <node concept="3uibUv" id="2JL8W6DqC90" role="2c44tc">
-                  <ref role="3uigEE" to="epq1:~BigDecimal" resolve="BigDecimal" />
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
                 </node>
               </node>
             </node>
@@ -590,7 +590,7 @@
               </node>
               <node concept="2c44tf" id="2JL8W6DqC95" role="3JuZjQ">
                 <node concept="3uibUv" id="2JL8W6DqC96" role="2c44tc">
-                  <ref role="3uigEE" to="epq1:~BigDecimal" resolve="BigDecimal" />
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
                 </node>
               </node>
             </node>
@@ -627,7 +627,7 @@
               </node>
               <node concept="2c44tf" id="2JL8W6DqC91" role="3JuZjQ">
                 <node concept="3uibUv" id="2JL8W6DqC92" role="2c44tc">
-                  <ref role="3uigEE" to="epq1:~BigDecimal" resolve="BigDecimal" />
+                  <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
                 </node>
               </node>
             </node>
