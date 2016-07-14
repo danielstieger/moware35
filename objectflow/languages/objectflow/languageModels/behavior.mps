@@ -36,7 +36,7 @@
     <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" />
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -8741,6 +8741,32 @@
       </node>
       <node concept="3Tqbb2" id="3PfNTq90NAg" role="3clF45" />
     </node>
+    <node concept="13i0hz" id="4Xi5$64UzFj" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="TrG5h" value="implicitThrows" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="tpek:4kX30tnJ9kz" resolve="implicitThrows" />
+      <node concept="3Tm1VV" id="4Xi5$64UzFk" role="1B3o_S" />
+      <node concept="3clFbS" id="4Xi5$64UzFp" role="3clF47">
+        <node concept="3SKdUt" id="4Xi5$658uhi" role="3cqZAp">
+          <node concept="3SKdUq" id="4Xi5$658uhj" role="3SKWNk">
+            <property role="3SKdUp" value="since concept function is put inside a try/catch in the generator" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4Xi5$658uhk" role="3cqZAp">
+          <node concept="3SKdUq" id="4Xi5$658uhl" role="3SKWNk">
+            <property role="3SKdUp" value="we disable not marked exception error msgs in mps" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4Xi5$658uhc" role="3cqZAp" />
+        <node concept="3clFbF" id="4Xi5$64U$Sh" role="3cqZAp">
+          <node concept="3clFbT" id="4Xi5$64U$Sg" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="4Xi5$64UzFq" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="6svR_JBHsYw">
     <ref role="13h7C2" to="un0u:1Clc7wPShHo" resolve="PageScopeConceptFunc" />
@@ -10043,6 +10069,32 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="13i0hz" id="4Xi5$658u8C" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="TrG5h" value="implicitThrows" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="tpek:4kX30tnJ9kz" resolve="implicitThrows" />
+      <node concept="3Tm1VV" id="4Xi5$658u8D" role="1B3o_S" />
+      <node concept="3clFbS" id="4Xi5$658u8I" role="3clF47">
+        <node concept="3clFbH" id="4Xi5$658uc8" role="3cqZAp" />
+        <node concept="3SKdUt" id="4Xi5$658ubS" role="3cqZAp">
+          <node concept="3SKdUq" id="4Xi5$658ubU" role="3SKWNk">
+            <property role="3SKdUp" value="since concept function is put inside a try/catch in the generator" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4Xi5$658ueg" role="3cqZAp">
+          <node concept="3SKdUq" id="4Xi5$658uei" role="3SKWNk">
+            <property role="3SKdUp" value="we disable not marked exception error msgs in mps" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="4Xi5$658ub8" role="3cqZAp">
+          <node concept="3clFbT" id="4Xi5$658ub7" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="4Xi5$658u8J" role="3clF45" />
     </node>
     <node concept="13hLZK" id="lqf$Anpqbj" role="13h7CW">
       <node concept="3clFbS" id="lqf$Anpqbk" role="2VODD2" />
