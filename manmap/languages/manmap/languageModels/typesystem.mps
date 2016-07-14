@@ -168,7 +168,6 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1179832490862" name="jetbrains.mps.lang.typesystem.structure.CreateStrongLessThanInequationStatement" flags="nn" index="2NvLDW" />
       <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
         <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
       </concept>
@@ -211,10 +210,10 @@
       <concept id="1174658326157" name="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" flags="nn" index="1Z5TYs" />
       <concept id="1174660718586" name="jetbrains.mps.lang.typesystem.structure.AbstractEquationStatement" flags="nn" index="1Zf1VF">
         <property id="1206359757216" name="checkOnly" index="3wDh2S" />
-        <child id="1180447237840" name="errorString" index="3o8Qv2" />
         <child id="1174660783413" name="leftExpression" index="1ZfhK$" />
         <child id="1174660783414" name="rightExpression" index="1ZfhKB" />
       </concept>
+      <concept id="1174663118805" name="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" flags="nn" index="1ZobV4" />
       <concept id="1174665551739" name="jetbrains.mps.lang.typesystem.structure.TypeVarDeclaration" flags="ng" index="1ZxtTE" />
       <concept id="1174666260556" name="jetbrains.mps.lang.typesystem.structure.TypeVarReference" flags="nn" index="1Z$b5t">
         <reference id="1174666276259" name="typeVarDeclaration" index="1Z$eMM" />
@@ -2724,34 +2723,28 @@
             </node>
           </node>
         </node>
-        <node concept="Xl_RD" id="2vDvL9DncBr" role="3o8Qv2">
-          <property role="Xl_RC" value="ERROR 2" />
-        </node>
       </node>
-      <node concept="2NvLDW" id="2vDvL9DnW6w" role="3cqZAp">
+      <node concept="1ZobV4" id="4Xi5$63Y9vc" role="3cqZAp">
         <property role="3wDh2S" value="false" />
-        <node concept="mw_s8" id="2vDvL9DnW6y" role="1ZfhK$">
-          <node concept="1Z2H0r" id="2vDvL9DnW6z" role="mwGJk">
-            <node concept="1YBJjd" id="2vDvL9DnW6$" role="1Z2MuG">
+        <node concept="mw_s8" id="4Xi5$63Y9ve" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4Xi5$63Y9vf" role="mwGJk">
+            <node concept="1YBJjd" id="4Xi5$63Y9vg" role="1Z2MuG">
               <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="2vDvL9DnW6_" role="1ZfhKB">
-          <node concept="2c44tf" id="2vDvL9DnW6A" role="mwGJk">
-            <node concept="_YKpA" id="2vDvL9DnW6B" role="2c44tc">
-              <node concept="33vP2l" id="2vDvL9DnW6C" role="_ZDj9">
-                <node concept="2c44te" id="2vDvL9DnW6D" role="lGtFl">
-                  <node concept="1Z$b5t" id="2vDvL9DnW6E" role="2c44t1">
+        <node concept="mw_s8" id="4Xi5$63Y9vh" role="1ZfhKB">
+          <node concept="2c44tf" id="4Xi5$63Y9vi" role="mwGJk">
+            <node concept="_YKpA" id="4Xi5$63Y9vj" role="2c44tc">
+              <node concept="33vP2l" id="4Xi5$63Y9vk" role="_ZDj9">
+                <node concept="2c44te" id="4Xi5$63Y9vl" role="lGtFl">
+                  <node concept="1Z$b5t" id="4Xi5$63Y9vm" role="2c44t1">
                     <ref role="1Z$eMM" node="42_QlHrvF8O" resolve="paramType" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
-        </node>
-        <node concept="Xl_RD" id="2vDvL9DnW6F" role="3o8Qv2">
-          <property role="Xl_RC" value="ERROR 1" />
         </node>
       </node>
       <node concept="3clFbH" id="2vDvL9DnNfi" role="3cqZAp" />
