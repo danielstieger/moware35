@@ -215,6 +215,7 @@
         <child id="1174660783413" name="leftExpression" index="1ZfhK$" />
         <child id="1174660783414" name="rightExpression" index="1ZfhKB" />
       </concept>
+      <concept id="1174663118805" name="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" flags="nn" index="1ZobV4" />
       <concept id="1174665551739" name="jetbrains.mps.lang.typesystem.structure.TypeVarDeclaration" flags="ng" index="1ZxtTE" />
       <concept id="1174666260556" name="jetbrains.mps.lang.typesystem.structure.TypeVarReference" flags="nn" index="1Z$b5t">
         <reference id="1174666276259" name="typeVarDeclaration" index="1Z$eMM" />
@@ -2783,20 +2784,21 @@
           </node>
         </node>
       </node>
-      <node concept="2NvLDW" id="1lpzdTmo5Pa" role="3cqZAp">
-        <node concept="mw_s8" id="1lpzdTmo5Pi" role="1ZfhK$">
-          <node concept="1Z2H0r" id="1lpzdTmo5Pj" role="mwGJk">
-            <node concept="1YBJjd" id="1lpzdTmo5Pk" role="1Z2MuG">
+      <node concept="1ZobV4" id="6r0e03s2sxM" role="3cqZAp">
+        <property role="3wDh2S" value="false" />
+        <node concept="mw_s8" id="6r0e03s2sxO" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6r0e03s2sxP" role="mwGJk">
+            <node concept="1YBJjd" id="6r0e03s2sxQ" role="1Z2MuG">
               <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="1lpzdTmo5Pc" role="1ZfhKB">
-          <node concept="2c44tf" id="1lpzdTmo5Pd" role="mwGJk">
-            <node concept="_YKpA" id="1lpzdTmo5Pe" role="2c44tc">
-              <node concept="33vP2l" id="1lpzdTmo5Pf" role="_ZDj9">
-                <node concept="2c44te" id="1lpzdTmo5Pg" role="lGtFl">
-                  <node concept="1Z$b5t" id="1lpzdTmo5Ph" role="2c44t1">
+        <node concept="mw_s8" id="6r0e03s2sxR" role="1ZfhKB">
+          <node concept="2c44tf" id="6r0e03s2sxS" role="mwGJk">
+            <node concept="_YKpA" id="6r0e03s2sxT" role="2c44tc">
+              <node concept="33vP2l" id="6r0e03s2sxU" role="_ZDj9">
+                <node concept="2c44te" id="6r0e03s2sxV" role="lGtFl">
+                  <node concept="1Z$b5t" id="6r0e03s2sxW" role="2c44t1">
                     <ref role="1Z$eMM" node="42_QlHrvF8O" resolve="paramType" />
                   </node>
                 </node>
