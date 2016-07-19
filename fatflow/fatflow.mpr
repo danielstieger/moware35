@@ -13,6 +13,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/fatflow/fatflow.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/org.modellwerkstatt.fatflow.runtime/org.modellwerkstatt.fatflow.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/org.modellwerkstatt.moware/org.modellwerkstatt.moware.msd" folder="" />
     </projectModules>
   </component>
   <component name="MigrationProperties">

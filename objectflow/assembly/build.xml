@@ -114,6 +114,8 @@
   
   <target name="clean" description="Delete old work and dist directories">
 	<delete dir="work"/>
+	<delete dir="dist"/>
+	
   </target>
   
   <target name="redeploy" depends="default">
