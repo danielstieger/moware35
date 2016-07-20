@@ -875,7 +875,7 @@
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/hat.png" />
     <property role="1pbfSe" value="1350095429" />
-    <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="298thMDDmCH" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
@@ -907,6 +907,9 @@
       <property role="20kJfa" value="appStartupFunction" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1hImSMr7f8_" resolve="AppStartupFunction" />
+    </node>
+    <node concept="PrWs8" id="3VeIDPmwvLs" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="6sucGAoib27" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
