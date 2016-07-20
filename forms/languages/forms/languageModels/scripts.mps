@@ -82,6 +82,7 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
+      <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -92,9 +93,11 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
@@ -115,6 +118,12 @@
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
@@ -150,11 +159,27 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
+        <child id="1144104376918" name="parameter" index="1xVPHs" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
+        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
+      </concept>
+      <concept id="1143226024141" name="jetbrains.mps.lang.smodel.structure.SModelType" flags="in" index="H_c77" />
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="6995935425733782641" name="jetbrains.mps.lang.smodel.structure.Model_GetModule" flags="nn" index="13u695" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
+      <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
+        <child id="1146171026732" name="value" index="3t7uKA" />
+      </concept>
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
+        <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
       </concept>
@@ -191,6 +216,7 @@
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
+      <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
     </language>
   </registry>
   <node concept="_UgoZ" id="2vvVhmrPiB$">
@@ -828,6 +854,421 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="_UgoZ" id="3yBOEAiHZqU">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="Invest_ProcDocUsage" />
+    <property role="2BwPS$" value="moware investigation" />
+    <property role="_Wzho" value="Command types and ProcDoc Usage." />
+    <node concept="1opIMY" id="3yBOEAiHZqV" role="_YvDr" />
+    <node concept="_XfAh" id="3yBOEAiHZr0" role="_YvDr">
+      <property role="_XH9r" value="Commands accessing the procDoc" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="3yBOEAiHZr2" role="_XPhp">
+        <node concept="3clFbS" id="3yBOEAiHZr4" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3yBOEAiHZra" role="_XDHO">
+        <node concept="3clFbS" id="3yBOEAiHZrb" role="2VODD2">
+          <node concept="3clFbF" id="3yBOEAiHZsg" role="3cqZAp">
+            <node concept="3eOSWO" id="3yBOEAiI2Xa" role="3clFbG">
+              <node concept="3cmrfG" id="3yBOEAiI2Xg" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="3yBOEAiI0JF" role="3uHU7B">
+                <node concept="2OqwBi" id="3yBOEAiHZP1" role="2Oq$k0">
+                  <node concept="_YI3z" id="3yBOEAiHZsf" role="2Oq$k0" />
+                  <node concept="2Rf3mk" id="3yBOEAiHZWH" role="2OqNvi">
+                    <node concept="1xMEDy" id="3yBOEAiHZWJ" role="1xVPHs">
+                      <node concept="chp4Y" id="3yBOEAiI02K" role="ri$Ld">
+                        <ref role="cht4Q" to="un0u:1Csx3LqHprq" resolve="ProcessDocumentReference" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="34oBXx" id="3yBOEAiI1No" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="3yBOEAiI31T" role="_YvDr">
+      <property role="_XH9r" value="Commands not accessing the procDoc" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="3yBOEAiI31U" role="_XPhp">
+        <node concept="3clFbS" id="3yBOEAiI31V" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3yBOEAiI31W" role="_XDHO">
+        <node concept="3clFbS" id="3yBOEAiI31X" role="2VODD2">
+          <node concept="3clFbF" id="3yBOEAiI31Y" role="3cqZAp">
+            <node concept="3clFbC" id="3yBOEAiI4sN" role="3clFbG">
+              <node concept="3cmrfG" id="3yBOEAiI4wy" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="3yBOEAiI321" role="3uHU7B">
+                <node concept="2OqwBi" id="3yBOEAiI322" role="2Oq$k0">
+                  <node concept="_YI3z" id="3yBOEAiI323" role="2Oq$k0" />
+                  <node concept="2Rf3mk" id="3yBOEAiI324" role="2OqNvi">
+                    <node concept="1xMEDy" id="3yBOEAiI325" role="1xVPHs">
+                      <node concept="chp4Y" id="3yBOEAiI326" role="ri$Ld">
+                        <ref role="cht4Q" to="un0u:1Csx3LqHprq" resolve="ProcessDocumentReference" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="34oBXx" id="3yBOEAiI327" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1opIMY" id="3yBOEAiIbdO" role="_YvDr" />
+    <node concept="_XfAh" id="3yBOEAiIbdP" role="_YvDr">
+      <property role="_XH9r" value="GRAPH_EDIT Commands accessing the procDoc" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="3yBOEAiIbdQ" role="_XPhp">
+        <node concept="3clFbS" id="3yBOEAiIbdR" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3yBOEAiIbdS" role="_XDHO">
+        <node concept="3clFbS" id="3yBOEAiIbdT" role="2VODD2">
+          <node concept="3clFbF" id="3yBOEAiIbdU" role="3cqZAp">
+            <node concept="1Wc70l" id="3yBOEAiIbvP" role="3clFbG">
+              <node concept="2OqwBi" id="3yBOEAiIbZ2" role="3uHU7B">
+                <node concept="2OqwBi" id="3yBOEAiIbDH" role="2Oq$k0">
+                  <node concept="_YI3z" id="3yBOEAiIb$k" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="3yBOEAiIbO8" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                  </node>
+                </node>
+                <node concept="3t7uKx" id="3yBOEAiIcdH" role="2OqNvi">
+                  <node concept="uoxfO" id="3yBOEAiIcdJ" role="3t7uKA">
+                    <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3eOSWO" id="3yBOEAiIbdV" role="3uHU7w">
+                <node concept="3cmrfG" id="3yBOEAiIbdW" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="3yBOEAiIbdX" role="3uHU7B">
+                  <node concept="2OqwBi" id="3yBOEAiIbdY" role="2Oq$k0">
+                    <node concept="_YI3z" id="3yBOEAiIbdZ" role="2Oq$k0" />
+                    <node concept="2Rf3mk" id="3yBOEAiIbe0" role="2OqNvi">
+                      <node concept="1xMEDy" id="3yBOEAiIbe1" role="1xVPHs">
+                        <node concept="chp4Y" id="3yBOEAiIbe2" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:1Csx3LqHprq" resolve="ProcessDocumentReference" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="3yBOEAiIbe3" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="3yBOEAiIbe4" role="_YvDr">
+      <property role="_XH9r" value="GRAPH_EDIT Commands not accessing the procDoc" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="3yBOEAiIbe5" role="_XPhp">
+        <node concept="3clFbS" id="3yBOEAiIbe6" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3yBOEAiIbe7" role="_XDHO">
+        <node concept="3clFbS" id="3yBOEAiIbe8" role="2VODD2">
+          <node concept="3clFbF" id="3yBOEAiIbe9" role="3cqZAp">
+            <node concept="1Wc70l" id="3yBOEAiIcnc" role="3clFbG">
+              <node concept="3clFbC" id="3yBOEAiIbea" role="3uHU7w">
+                <node concept="3cmrfG" id="3yBOEAiIbeb" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="3yBOEAiIbec" role="3uHU7B">
+                  <node concept="2OqwBi" id="3yBOEAiIbed" role="2Oq$k0">
+                    <node concept="_YI3z" id="3yBOEAiIbee" role="2Oq$k0" />
+                    <node concept="2Rf3mk" id="3yBOEAiIbef" role="2OqNvi">
+                      <node concept="1xMEDy" id="3yBOEAiIbeg" role="1xVPHs">
+                        <node concept="chp4Y" id="3yBOEAiIbeh" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:1Csx3LqHprq" resolve="ProcessDocumentReference" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="3yBOEAiIbei" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3yBOEAiIcqN" role="3uHU7B">
+                <node concept="2OqwBi" id="3yBOEAiIcqO" role="2Oq$k0">
+                  <node concept="_YI3z" id="3yBOEAiIcqP" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="3yBOEAiIcqQ" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                  </node>
+                </node>
+                <node concept="3t7uKx" id="3yBOEAiIcqR" role="2OqNvi">
+                  <node concept="uoxfO" id="3yBOEAiIcqS" role="3t7uKA">
+                    <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="3yBOEAiIhqW" role="_YvDr">
+      <property role="_XH9r" value="Command type: SEARCH_CMD" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="3yBOEAiIhqX" role="_XPhp">
+        <node concept="3clFbS" id="3yBOEAiIhqY" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3yBOEAiIhqZ" role="_XDHO">
+        <node concept="3clFbS" id="3yBOEAiIhr0" role="2VODD2">
+          <node concept="3clFbF" id="3yBOEAiIhr1" role="3cqZAp">
+            <node concept="2OqwBi" id="3yBOEAiIhrc" role="3clFbG">
+              <node concept="2OqwBi" id="3yBOEAiIhrd" role="2Oq$k0">
+                <node concept="_YI3z" id="3yBOEAiIhre" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3yBOEAiIhrf" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                </node>
+              </node>
+              <node concept="3t7uKx" id="3yBOEAiIhrg" role="2OqNvi">
+                <node concept="uoxfO" id="3yBOEAiIhrh" role="3t7uKA">
+                  <ref role="uo_Cq" to="un0u:6Rdz00$tuDj" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="3yBOEAiIhwS" role="_YvDr">
+      <property role="_XH9r" value="Command type: SUB_GRAPH_OWNER" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="3yBOEAiIhwT" role="_XPhp">
+        <node concept="3clFbS" id="3yBOEAiIhwU" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3yBOEAiIhwV" role="_XDHO">
+        <node concept="3clFbS" id="3yBOEAiIhwW" role="2VODD2">
+          <node concept="3clFbF" id="3yBOEAiIhwX" role="3cqZAp">
+            <node concept="2OqwBi" id="3yBOEAiIhx8" role="3clFbG">
+              <node concept="2OqwBi" id="3yBOEAiIhx9" role="2Oq$k0">
+                <node concept="_YI3z" id="3yBOEAiIhxa" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3yBOEAiIhxb" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                </node>
+              </node>
+              <node concept="3t7uKx" id="3yBOEAiIhxc" role="2OqNvi">
+                <node concept="uoxfO" id="3yBOEAiIhxd" role="3t7uKA">
+                  <ref role="uo_Cq" to="un0u:6Rdz00$tTLT" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="3yBOEAiIh_g" role="_YvDr">
+      <property role="_XH9r" value="Command type: GRAPH_OWNER" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="3yBOEAiIh_h" role="_XPhp">
+        <node concept="3clFbS" id="3yBOEAiIh_i" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3yBOEAiIh_j" role="_XDHO">
+        <node concept="3clFbS" id="3yBOEAiIh_k" role="2VODD2">
+          <node concept="3clFbF" id="3yBOEAiIh_l" role="3cqZAp">
+            <node concept="2OqwBi" id="3yBOEAiIh_w" role="3clFbG">
+              <node concept="2OqwBi" id="3yBOEAiIh_x" role="2Oq$k0">
+                <node concept="_YI3z" id="3yBOEAiIh_y" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3yBOEAiIh_z" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                </node>
+              </node>
+              <node concept="3t7uKx" id="3yBOEAiIh_$" role="2OqNvi">
+                <node concept="uoxfO" id="3yBOEAiIh__" role="3t7uKA">
+                  <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="3yBOEAiIhDY" role="_YvDr">
+      <property role="_XH9r" value="Command type: GRAPH_EDIT" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="3yBOEAiIhDZ" role="_XPhp">
+        <node concept="3clFbS" id="3yBOEAiIhE0" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3yBOEAiIhE1" role="_XDHO">
+        <node concept="3clFbS" id="3yBOEAiIhE2" role="2VODD2">
+          <node concept="3clFbF" id="3yBOEAiIhE3" role="3cqZAp">
+            <node concept="2OqwBi" id="3yBOEAiIhEe" role="3clFbG">
+              <node concept="2OqwBi" id="3yBOEAiIhEf" role="2Oq$k0">
+                <node concept="_YI3z" id="3yBOEAiIhEg" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3yBOEAiIhEh" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                </node>
+              </node>
+              <node concept="3t7uKx" id="3yBOEAiIhEi" role="2OqNvi">
+                <node concept="uoxfO" id="3yBOEAiIhEj" role="3t7uKA">
+                  <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="_UgoZ" id="3yBOEAiIheR">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="Invest_CommandUsedTwice" />
+    <property role="2BwPS$" value="moware investigation" />
+    <property role="_Wzho" value="Command used within multiple other commands. " />
+    <node concept="1opIMY" id="3yBOEAiIheS" role="_YvDr" />
+    <node concept="_XfAh" id="3yBOEAiIheT" role="_YvDr">
+      <property role="_XH9r" value="GRAPH_EDIT used in more the one trigger" />
+      <ref role="_XDHR" to="sgb:3PmKne7OD8G" resolve="CommandTrigger" />
+      <node concept="_ZGcI" id="3yBOEAiIheU" role="_XPhp">
+        <node concept="3clFbS" id="3yBOEAiIheV" role="2VODD2">
+          <node concept="3SKdUt" id="3yBOEAiJpfZ" role="3cqZAp">
+            <node concept="3SKdUq" id="3yBOEAiJpg0" role="3SKWNk">
+              <property role="3SKdUp" value="Wie viele GRAPH_EDIT werden in mehreren GRAPH_OWNER verwendet? " />
+            </node>
+          </node>
+          <node concept="3clFbH" id="3yBOEAiJpg3" role="3cqZAp" />
+          <node concept="3SKdUt" id="3yBOEAiJpgi" role="3cqZAp">
+            <node concept="3SKdUq" id="3yBOEAiJpgk" role="3SKWNk">
+              <property role="3SKdUp" value="(1) get command triggers with Graph_Edit" />
+            </node>
+          </node>
+          <node concept="3SKdUt" id="3yBOEAiJpgz" role="3cqZAp">
+            <node concept="3SKdUq" id="3yBOEAiJpg_" role="3SKWNk">
+              <property role="3SKdUp" value="(2) Check where the ui is used?" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="3yBOEAiIheW" role="_XDHO">
+        <node concept="3clFbS" id="3yBOEAiIheX" role="2VODD2">
+          <node concept="3clFbF" id="3yBOEAiJr8g" role="3cqZAp">
+            <node concept="1Wc70l" id="3yBOEAiJB6J" role="3clFbG">
+              <node concept="2OqwBi" id="3yBOEAiJsaW" role="3uHU7B">
+                <node concept="2OqwBi" id="3yBOEAiJrIP" role="2Oq$k0">
+                  <node concept="2OqwBi" id="3yBOEAiJrrT" role="2Oq$k0">
+                    <node concept="2OqwBi" id="3yBOEAiJrbm" role="2Oq$k0">
+                      <node concept="_YI3z" id="3yBOEAiJr8e" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3yBOEAiJrj3" role="2OqNvi">
+                        <ref role="3Tt5mk" to="sgb:3PmKne7Q01I" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="3yBOEAiJr$N" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:3PmKne7OD8N" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3yBOEAiJrZ3" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                  </node>
+                </node>
+                <node concept="3t7uKx" id="3yBOEAiJsph" role="2OqNvi">
+                  <node concept="uoxfO" id="3yBOEAiJspj" role="3t7uKA">
+                    <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3eOSWO" id="3yBOEAiJPLr" role="3uHU7w">
+                <node concept="3cmrfG" id="3yBOEAiJPLx" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="3yBOEAiJCaL" role="3uHU7B">
+                  <node concept="2OqwBi" id="3yBOEAiJGBG" role="2Oq$k0">
+                    <node concept="2OqwBi" id="3yBOEAiJABa" role="2Oq$k0">
+                      <node concept="2OqwBi" id="3yBOEAiJy_Q" role="2Oq$k0">
+                        <node concept="2OqwBi" id="3yBOEAiJyfz" role="2Oq$k0">
+                          <node concept="_YI3z" id="3yBOEAiJybu" role="2Oq$k0" />
+                          <node concept="I4A8Y" id="3yBOEAiJyua" role="2OqNvi" />
+                        </node>
+                        <node concept="13u695" id="3yBOEAiJyEA" role="2OqNvi" />
+                      </node>
+                      <node concept="2Rf3mk" id="3yBOEAiJAJ5" role="2OqNvi">
+                        <node concept="1xMEDy" id="3yBOEAiJAJ7" role="1xVPHs">
+                          <node concept="chp4Y" id="3yBOEAiJAO1" role="ri$Ld">
+                            <ref role="cht4Q" to="sgb:3PmKne7OD8G" resolve="CommandTrigger" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3zZkjj" id="3yBOEAiJHT5" role="2OqNvi">
+                      <node concept="1bVj0M" id="3yBOEAiJHT7" role="23t8la">
+                        <node concept="3clFbS" id="3yBOEAiJHT8" role="1bW5cS">
+                          <node concept="3clFbF" id="3yBOEAiJI14" role="3cqZAp">
+                            <node concept="3clFbC" id="3yBOEAiJJbI" role="3clFbG">
+                              <node concept="2OqwBi" id="3yBOEAiJJRo" role="3uHU7w">
+                                <node concept="2OqwBi" id="3yBOEAiJJn_" role="2Oq$k0">
+                                  <node concept="_YI3z" id="3yBOEAiJJg7" role="2Oq$k0" />
+                                  <node concept="3TrEf2" id="3yBOEAiJJAw" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="sgb:3PmKne7Q01I" />
+                                  </node>
+                                </node>
+                                <node concept="3TrEf2" id="3yBOEAiJK2n" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="un0u:3PmKne7OD8N" />
+                                </node>
+                              </node>
+                              <node concept="2OqwBi" id="3yBOEAiJIDH" role="3uHU7B">
+                                <node concept="2OqwBi" id="3yBOEAiJI7S" role="2Oq$k0">
+                                  <node concept="37vLTw" id="3yBOEAiJI13" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="3yBOEAiJHT9" resolve="it" />
+                                  </node>
+                                  <node concept="3TrEf2" id="3yBOEAiJIp$" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="sgb:3PmKne7Q01I" />
+                                  </node>
+                                </node>
+                                <node concept="3TrEf2" id="3yBOEAiJIXS" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="un0u:3PmKne7OD8N" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="3yBOEAiJHT9" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="3yBOEAiJHTa" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="3yBOEAiJKI1" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="3yBOEAiJAYx" role="3cqZAp" />
+          <node concept="3clFbH" id="3yBOEAiJAZ1" role="3cqZAp" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="3yBOEAiJw$B">
+    <property role="TrG5h" value="CommandResolver" />
+    <node concept="2tJIrI" id="3yBOEAiJw$V" role="jymVt" />
+    <node concept="3clFbW" id="3yBOEAiJw_a" role="jymVt">
+      <node concept="37vLTG" id="3yBOEAiJw_H" role="3clF46">
+        <property role="TrG5h" value="currentProject" />
+        <node concept="H_c77" id="3yBOEAiJwAT" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3yBOEAiJw_q" role="3clF46">
+        <property role="TrG5h" value="cmd" />
+        <node concept="3Tqbb2" id="3yBOEAiJw_y" role="1tU5fm">
+          <ref role="ehGHo" to="un0u:6ffh1MXzHna" resolve="Command" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3yBOEAiJw_c" role="3clF45" />
+      <node concept="3Tm1VV" id="3yBOEAiJw_d" role="1B3o_S" />
+      <node concept="3clFbS" id="3yBOEAiJw_e" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="3yBOEAiJw_0" role="jymVt" />
+    <node concept="3Tm1VV" id="3yBOEAiJw$C" role="1B3o_S" />
   </node>
 </model>
 
