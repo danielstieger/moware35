@@ -145,7 +145,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 3.2 / moware60 Release R5? (test plugin?)" />
+          <property role="3MwjfP" value="MPS 3.3 / moware60 RC6 (MPS335 test)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -1258,10 +1258,39 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
-        <node concept="1SiIV0" id="4lWBY$2Wn3v" role="3bR37C">
-          <node concept="3bR9La" id="4lWBY$2Wn3w" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6LaO" resolve="jetbrains.mps.lang.structure" />
+        <node concept="1yeLz9" id="7MDGWTniUu1" role="1TViLv">
+          <property role="TrG5h" value="org.modellwerkstatt.objectflow#271985905034872643" />
+          <property role="3LESm3" value="ea0a61ee-f622-4ba3-98cb-da85ddcdead1" />
+          <property role="2GAjPV" value="false" />
+          <node concept="1SiIV0" id="7MDGWTniUu2" role="3bR37C">
+            <node concept="3bR9La" id="7MDGWTniUu3" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7MDGWTniUu4" role="3bR37C">
+            <node concept="3bR9La" id="7MDGWTniUu5" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="1JLTjCmZpiM" resolve="org.modellwerkstatt.sandbox" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7MDGWTniUu6" role="3bR37C">
+            <node concept="3bR9La" id="7MDGWTniUu7" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7MDGWTniUu8" role="3bR37C">
+            <node concept="3bR9La" id="7MDGWTniUu9" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="7MDGWTniUua" role="3bR37C">
+            <node concept="3bR9La" id="7MDGWTniUub" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="1JLTjCmZpP8" resolve="org.modellwerkstatt.objectflow" />
+            </node>
           </node>
         </node>
       </node>
