@@ -25,7 +25,7 @@
   <property name="appName"              value="SimpleMDEApp" />
   <property name="appMainclass"         value="Simple.baseApp.SimpleApplicationMDE" />
   <property name="appConfiguration"     value="Simple/baseApp/MdeConfig.xml" /> 
-  <property name="appHomeScreen"        value="/simple" />
+  <property name="appHomeScreen"        value="SimpleMDEApp" />
   
    <!-- **** build specific definitions ************************************************************** -->
   <property name="javawareHomeDir"       value="/Users/danielstieger/javaware" /> 

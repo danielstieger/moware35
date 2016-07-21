@@ -14280,21 +14280,28 @@
   <node concept="312cEu" id="2zlZ_in5Vzm">
     <property role="TrG5h" value="FDefaultTrans" />
     <node concept="3Tm1VV" id="2zlZ_in5Vzn" role="1B3o_S" />
-    <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
-      <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="MOWARE_PLUGIN_VERSION" />
-      <node concept="3Tm1VV" id="79n7_omqfJV" role="1B3o_S" />
-      <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
-      <node concept="Xl_RD" id="7708TIHG4ay" role="33vP2m">
-        <property role="Xl_RC" value="moware60 RC6 (MPS335 test)" />
-      </node>
-    </node>
     <node concept="Wx3nA" id="79n7_omq6WT" role="jymVt">
       <property role="3TUv4t" value="true" />
       <property role="TrG5h" value="DEVELOPMENT_SETTING" />
       <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
       <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
-      <node concept="3clFbT" id="hObkZkQcaN" role="33vP2m" />
+      <node concept="3clFbT" id="2$gclwwm1NH" role="33vP2m">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="MOWARE_PLUGIN_VERSION" />
+      <node concept="3Tm1VV" id="79n7_omqfJV" role="1B3o_S" />
+      <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
+      <node concept="3cpWs3" id="2$gclwwfVsB" role="33vP2m">
+        <node concept="37vLTw" id="2$gclwwfVu1" role="3uHU7w">
+          <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+        </node>
+        <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
+          <property role="Xl_RC" value="moware60 RC6 (MPS335 test), dev: " />
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="79n7_omq3qX" role="jymVt" />
     <node concept="312cEg" id="4Rlyz3EoDyi" role="jymVt">
