@@ -30,7 +30,7 @@
 
    <!-- **** build specific definitions ************************************************************** -->
   <property name="javawareHomeDir"       value="/Users/danielstieger/javaware" /> 
-  <property name="mpsHomeDir"            value="/Users/danielstieger/javaexe/MPS323" /> 
+  <property name="mpsHomeDir"            value="/Users/danielstieger/javaexe/MPS335" /> 
   <property name="mowarePluginHomeDir"   value="/Users/danielstieger/javaexe/MoPluginFake" />
   <property name="tomcatHomeDir"         value="/Users/danielstieger/stuff/green" />
       

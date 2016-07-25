@@ -76,6 +76,11 @@
     	<param-value>APPLICATION_FQNAME</param-value>
     </init-param>
     
+    <init-param>
+    	<param-name> useRemoteIpAddressforAuthentication </param-name>
+    	<param-value> true </param-value>
+    </init-param>
+    
     <!-- DO NOT Enable server push
     <init-param>
       <param-name>pushmode</param-name>
