@@ -2860,5 +2860,97 @@
     <property role="TrG5h" value="IOFXConfigScope" />
     <property role="1pbfSe" value="34710321" />
   </node>
+  <node concept="1TIwiD" id="1aaqwMInGiU">
+    <property role="1pbfSe" value="1058459962" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestSuit" />
+    <property role="19KtqR" value="true" />
+    <property role="MwhBj" value="${module}/icons/testsuit.png" />
+    <ref role="1TJDcQ" node="6ffh1MXA9UE" resolve="Container" />
+    <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="configuration" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="q_zDmI5v5l" resolve="OFXConfig" />
+    </node>
+    <node concept="1TJgyj" id="1aaqwMInUIi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="documentation" />
+      <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
+    </node>
+    <node concept="1TJgyj" id="61VVfi2BbQl" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="onStartup" />
+      <ref role="20lvS9" node="5Ee0EjqTeD5" resolve="VoidStatementList" />
+    </node>
+    <node concept="1TJgyj" id="61VVfi2BbRa" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="onShutdown" />
+      <ref role="20lvS9" node="5Ee0EjqTeD5" resolve="VoidStatementList" />
+    </node>
+    <node concept="1TJgyj" id="61VVfi2Gw2l" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tests" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+    </node>
+    <node concept="PrWs8" id="1aaqwMInGle" role="PzmwI">
+      <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="61VVfi2FlUv">
+    <property role="1pbfSe" value="483832941" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestMethod" />
+    <property role="34LRSv" value="test" />
+    <property role="R4oN_" value="single test to execute" />
+    <ref role="1TJDcQ" to="tpee:fzclF7W" resolve="BaseMethodDeclaration" />
+    <node concept="1TJgyj" id="61VVfi2MoK2" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="dependentMethods" />
+      <ref role="20lvS9" node="61VVfi2SpDA" resolve="OFXTestMethodCall" />
+    </node>
+    <node concept="PrWs8" id="61VVfi2ZEVD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="61VVfi2SpDA">
+    <property role="1pbfSe" value="480409766" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestMethodCall" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="61VVfi2SpNo" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="testMethod" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+      <ref role="20ksaX" to="tpee:fz7wK6H" />
+    </node>
+    <node concept="PrWs8" id="61VVfi2SqlN" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hxndl_i" resolve="IMethodCall" />
+    </node>
+    <node concept="PrWs8" id="61VVfi361UN" role="PzmwI">
+      <ref role="PrY4T" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
+    </node>
+    <node concept="PrWs8" id="61VVfi36Gko" role="PzmwI">
+      <ref role="PrY4T" to="tpee:2P5W1FWMUys" resolve="ILocalDeclaration" />
+    </node>
+    <node concept="PrWs8" id="61VVfi3euEH" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="61VVfi3awTR">
+    <property role="1pbfSe" value="475661461" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestVarRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="61VVfi3awVc" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="varReference" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
+    </node>
+  </node>
 </model>
 

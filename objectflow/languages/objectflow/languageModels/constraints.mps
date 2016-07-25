@@ -125,7 +125,12 @@
       <concept id="8966504967485224688" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_contextNode" flags="nn" index="2rP1CM" />
       <concept id="3906442776579556545" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Presentation" flags="in" index="Bn3R3" />
       <concept id="3906442776579549644" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parameterNode" flags="nn" index="Bn53e" />
+      <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
+        <reference id="1147467295099" name="applicableProperty" index="EomxK" />
+        <child id="1212097481299" name="propertyValidator" index="QCWH9" />
+      </concept>
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
+      <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
       <concept id="5676632058862809931" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Scope" flags="in" index="13QW63" />
       <concept id="8401916545537438642" name="jetbrains.mps.lang.constraints.structure.InheritedNodeScopeFactory" flags="ng" index="1dDu$B">
         <reference id="8401916545537438643" name="kind" index="1dDu$A" />
@@ -133,6 +138,7 @@
       <concept id="1163200647017" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" flags="nn" index="3kakTB" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
+        <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213100494875" name="referent" index="1Mr941" />
         <child id="1213106463729" name="canBeChild" index="1MLUbF" />
         <child id="1213106478122" name="canBeParent" index="1MLXOK" />
@@ -4056,6 +4062,62 @@
               <ref role="28GBKb" to="un0u:6ffh1MXzHna" resolve="Command" />
               <ref role="28H3Ia" to="un0u:6ffh1MX_V6r" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="61VVfi2KJd6">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1M2myG" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+    <node concept="EnEH3" id="61VVfi2KJdl" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="QB0g5" id="61VVfi2KJdG" role="QCWH9">
+        <node concept="3clFbS" id="61VVfi2KJdH" role="2VODD2">
+          <node concept="3clFbF" id="61VVfi2KJek" role="3cqZAp">
+            <node concept="3clFbT" id="61VVfi2KJej" role="3clFbG">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="61VVfi2ZET7">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1M2myG" to="un0u:61VVfi2SpDA" resolve="OFXTestMethodCall" />
+    <node concept="1N5Pfh" id="61VVfi2ZETm" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:61VVfi2SpNo" />
+      <node concept="1dDu$B" id="61VVfi2ZETC" role="1N6uqs">
+        <ref role="1dDu$A" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="61VVfi3awXh">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1M2myG" to="un0u:61VVfi3awTR" resolve="OFXTestVarRef" />
+    <node concept="1N5Pfh" id="61VVfi3awXw" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:61VVfi3awVc" />
+      <node concept="1dDu$B" id="61VVfi3awY7" role="1N6uqs">
+        <ref role="1dDu$A" to="un0u:61VVfi3awTR" resolve="OFXTestVarRef" />
+      </node>
+    </node>
+    <node concept="nKS2y" id="61VVfi3ax0$" role="1MLUbF">
+      <node concept="3clFbS" id="61VVfi3ax0_" role="2VODD2">
+        <node concept="3clFbF" id="61VVfi3ax1S" role="3cqZAp">
+          <node concept="2OqwBi" id="61VVfi3axlk" role="3clFbG">
+            <node concept="2OqwBi" id="61VVfi3ax3D" role="2Oq$k0">
+              <node concept="nLn13" id="61VVfi3ax1R" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="61VVfi3ax7W" role="2OqNvi">
+                <node concept="1xMEDy" id="61VVfi3ax7Y" role="1xVPHs">
+                  <node concept="chp4Y" id="61VVfi3ax9O" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="61VVfi3axOf" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="61VVfi3axG7" role="2OqNvi" />
           </node>
         </node>
       </node>
