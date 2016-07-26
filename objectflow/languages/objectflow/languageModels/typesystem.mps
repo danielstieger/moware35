@@ -9002,5 +9002,73 @@
       <ref role="1YaFvo" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
     </node>
   </node>
+  <node concept="1YbPZF" id="7ECLRBgewLW">
+    <property role="TrG5h" value="typeof_OFXTestVarRef" />
+    <property role="3GE5qa" value="OFXTest" />
+    <node concept="3clFbS" id="7ECLRBgewLX" role="18ibNy">
+      <node concept="1Z5TYs" id="7ECLRBgewOl" role="3cqZAp">
+        <node concept="mw_s8" id="7ECLRBgewOR" role="1ZfhKB">
+          <node concept="1Z2H0r" id="7ECLRBgewON" role="mwGJk">
+            <node concept="2OqwBi" id="7ECLRBgewRd" role="1Z2MuG">
+              <node concept="1YBJjd" id="7ECLRBgewPm" role="2Oq$k0">
+                <ref role="1YBMHb" node="7ECLRBgewLZ" resolve="ofxTestVarRef" />
+              </node>
+              <node concept="3TrEf2" id="7ECLRBgewVo" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:61VVfi3awVc" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="7ECLRBgewOo" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7ECLRBgewMh" role="mwGJk">
+            <node concept="1YBJjd" id="7ECLRBgewMO" role="1Z2MuG">
+              <ref role="1YBMHb" node="7ECLRBgewLZ" resolve="ofxTestVarRef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7ECLRBgewLZ" role="1YuTPh">
+      <property role="TrG5h" value="ofxTestVarRef" />
+      <ref role="1YaFvo" to="un0u:61VVfi3awTR" resolve="OFXTestVarRef" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="7ECLRBgeY$v">
+    <property role="TrG5h" value="typeof_OFXTestMethodCall" />
+    <property role="3GE5qa" value="OFXTest" />
+    <node concept="3clFbS" id="7ECLRBgeY$w" role="18ibNy">
+      <node concept="1Z5TYs" id="7ECLRBgeYB2" role="3cqZAp">
+        <node concept="mw_s8" id="7ECLRBgeYBr" role="1ZfhKB">
+          <node concept="2OqwBi" id="7ECLRBgf0bX" role="mwGJk">
+            <node concept="2OqwBi" id="7ECLRBgeZ86" role="2Oq$k0">
+              <node concept="2OqwBi" id="7ECLRBgeYFH" role="2Oq$k0">
+                <node concept="1YBJjd" id="7ECLRBgeYBp" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7ECLRBgeY$y" resolve="ofxTestMethodCall" />
+                </node>
+                <node concept="3TrEf2" id="7ECLRBgeYQv" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:61VVfi2SpNo" />
+                </node>
+              </node>
+              <node concept="3TrEf2" id="7ECLRBgeZOH" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpee:fzclF7X" />
+              </node>
+            </node>
+            <node concept="1$rogu" id="7ECLRBgf0hU" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="7ECLRBgeYB5" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7ECLRBgeY$O" role="mwGJk">
+            <node concept="1YBJjd" id="7ECLRBgeY_u" role="1Z2MuG">
+              <ref role="1YBMHb" node="7ECLRBgeY$y" resolve="ofxTestMethodCall" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7ECLRBgeY$y" role="1YuTPh">
+      <property role="TrG5h" value="ofxTestMethodCall" />
+      <ref role="1YaFvo" to="un0u:61VVfi2SpDA" resolve="OFXTestMethodCall" />
+    </node>
+  </node>
 </model>
 
