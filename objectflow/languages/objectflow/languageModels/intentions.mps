@@ -28,6 +28,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
+    <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -3282,9 +3283,9 @@
       <node concept="3clFbS" id="2w93nZwOhAv" role="2VODD2">
         <node concept="3cpWs8" id="2w93nZwV1hc" role="3cqZAp">
           <node concept="3cpWsn" id="2w93nZwV1hd" role="3cpWs9">
-            <property role="TrG5h" value="node" />
-            <node concept="3uibUv" id="2w93nZwV2xN" role="1tU5fm">
-              <ref role="3uigEE" to="w1kc:~SNode" resolve="SNode" />
+            <property role="TrG5h" value="editorNode" />
+            <node concept="3uibUv" id="2w93nZwVizA" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
             </node>
             <node concept="2OqwBi" id="2w93nZwV1o0" role="33vP2m">
               <node concept="1XNTG" id="2w93nZwV1no" role="2Oq$k0" />
@@ -3359,7 +3360,7 @@
             <node concept="liA8E" id="2w93nZwV2l9" role="2OqNvi">
               <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
               <node concept="37vLTw" id="2w93nZwV2q4" role="37wK5m">
-                <ref role="3cqZAo" node="2w93nZwV1hd" resolve="node" />
+                <ref role="3cqZAo" node="2w93nZwV1hd" resolve="editorNode" />
               </node>
             </node>
           </node>
