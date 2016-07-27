@@ -36320,5 +36320,32 @@
     </node>
     <node concept="3Tm1VV" id="3spXEPXIsOf" role="1B3o_S" />
   </node>
+  <node concept="312cEu" id="2w93nZwoX6M">
+    <property role="TrG5h" value="OFXTestSuitException" />
+    <property role="3GE5qa" value="OFXImpl" />
+    <node concept="3Tm1VV" id="2w93nZwoX6N" role="1B3o_S" />
+    <node concept="3uibUv" id="2w93nZwq5pQ" role="1zkMxy">
+      <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+    </node>
+    <node concept="2tJIrI" id="2w93nZwpC4Q" role="jymVt" />
+    <node concept="2tJIrI" id="2w93nZwpC4S" role="jymVt" />
+    <node concept="2tJIrI" id="2w93nZwpC4V" role="jymVt" />
+    <node concept="3clFbW" id="2w93nZwpCZg" role="jymVt">
+      <node concept="37vLTG" id="2w93nZwpD1F" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="2w93nZwpD2l" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="2w93nZwpCZi" role="3clF45" />
+      <node concept="3Tm1VV" id="2w93nZwpCZj" role="1B3o_S" />
+      <node concept="3clFbS" id="2w93nZwpCZk" role="3clF47">
+        <node concept="XkiVB" id="2w93nZwpD1u" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="2w93nZwpD34" role="37wK5m">
+            <ref role="3cqZAo" node="2w93nZwpD1F" resolve="msg" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

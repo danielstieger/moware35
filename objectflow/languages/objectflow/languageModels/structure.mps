@@ -2870,7 +2870,7 @@
     <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="q_zDmI5v5l" resolve="OFXConfig" />
     </node>
     <node concept="1TJgyj" id="1aaqwMInUIi" role="1TKVEi">
@@ -2888,6 +2888,12 @@
       <property role="20kJfa" value="onShutdown" />
       <ref role="20lvS9" node="5Ee0EjqTeD5" resolve="VoidStatementList" />
     </node>
+    <node concept="1TJgyj" id="2w93nZwKx1H" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
+    </node>
     <node concept="1TJgyj" id="61VVfi2Gw2l" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="tests" />
@@ -2896,6 +2902,9 @@
     </node>
     <node concept="PrWs8" id="1aaqwMInGle" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
+    </node>
+    <node concept="PrWs8" id="2w93nZwHmKL" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="61VVfi2FlUv">
@@ -2956,6 +2965,42 @@
       <property role="20kJfa" value="varReference" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2w93nZwA5N_">
+    <property role="1pbfSe" value="144796260" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestSuitPrintStatement" />
+    <property role="34LRSv" value="print" />
+    <property role="R4oN_" value="debug message" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyj" id="2w93nZwA5NA" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2w93nZwHmJr">
+    <property role="1pbfSe" value="146700634" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="IOFXTestSuitOption" />
+  </node>
+  <node concept="1TIwiD" id="2w93nZwHmJs">
+    <property role="1pbfSe" value="146700635" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestSuitDebugOption" />
+    <property role="34LRSv" value="DEUBG_TEST" />
+    <property role="R4oN_" value="print debug infos for test" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2w93nZwHmJv" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="test" />
+      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+    </node>
+    <node concept="PrWs8" id="2w93nZwHmJt" role="PzmwI">
+      <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
     </node>
   </node>
 </model>

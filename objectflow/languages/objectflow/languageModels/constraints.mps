@@ -4123,5 +4123,38 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="2w93nZwA60n">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1M2myG" to="un0u:2w93nZwA5N_" resolve="OFXTestSuitPrintStatement" />
+    <node concept="nKS2y" id="2w93nZwA60o" role="1MLUbF">
+      <node concept="3clFbS" id="2w93nZwA60p" role="2VODD2">
+        <node concept="3clFbF" id="2w93nZwA61u" role="3cqZAp">
+          <node concept="2OqwBi" id="2w93nZwA6ew" role="3clFbG">
+            <node concept="2OqwBi" id="2w93nZwA63f" role="2Oq$k0">
+              <node concept="nLn13" id="2w93nZwA61t" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="2w93nZwA67r" role="2OqNvi">
+                <node concept="1xMEDy" id="2w93nZwA67t" role="1xVPHs">
+                  <node concept="chp4Y" id="2w93nZwA695" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="2w93nZwA6t1" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="2w93nZwHmK2">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1M2myG" to="un0u:2w93nZwHmJs" resolve="OFXTestSuitDebugOption" />
+    <node concept="1N5Pfh" id="2w93nZwHmK5" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:2w93nZwHmJv" />
+      <node concept="1dDu$B" id="2w93nZwHmKF" role="1N6uqs">
+        <ref role="1dDu$A" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+      </node>
+    </node>
+  </node>
 </model>
 

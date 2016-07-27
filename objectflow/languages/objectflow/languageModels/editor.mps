@@ -8596,10 +8596,22 @@
         <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="61VVfi2BbGH" role="3EZMnx">
-        <property role="3F0ifm" value="settings for this suit:" />
+        <property role="3F0ifm" value="options for this suit:" />
         <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
       </node>
-      <node concept="3F0ifn" id="61VVfi2BbIc" role="3EZMnx" />
+      <node concept="3F2HdR" id="2w93nZwKx2v" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:2w93nZwKx1H" />
+        <node concept="2iRkQZ" id="2w93nZwKx2y" role="2czzBx" />
+        <node concept="VPM3Z" id="2w93nZwKx2z" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="2w93nZwKx3g" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;options&gt;" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2w93nZwKx1O" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2BbJI" role="3EZMnx" />
       <node concept="3F1sOY" id="1aaqwMInUiF" role="3EZMnx">
         <property role="1$x2rV" value="&lt;user docu&gt;" />
@@ -9010,6 +9022,45 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2w93nZwA98f">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1XX52x" to="un0u:2w93nZwA5N_" resolve="OFXTestSuitPrintStatement" />
+    <node concept="3EZMnI" id="2w93nZwA98h" role="2wV5jI">
+      <node concept="3F0ifn" id="2w93nZwA98o" role="3EZMnx">
+        <property role="3F0ifm" value="print" />
+        <node concept="VechU" id="hEZR8BA" role="3F10Kt">
+          <property role="Vb096" value="DARK_BLUE" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="2w93nZwA98u" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:2w93nZwA5NA" />
+      </node>
+      <node concept="3F0ifn" id="2w93nZwA98A" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
+      <node concept="l2Vlx" id="2w93nZwA98k" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2w93nZwHmJA">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1XX52x" to="un0u:2w93nZwHmJs" resolve="OFXTestSuitDebugOption" />
+    <node concept="3EZMnI" id="2w93nZwHmJC" role="2wV5jI">
+      <node concept="PMmxH" id="2w93nZwNFxw" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+      </node>
+      <node concept="1iCGBv" id="2w93nZwHmJP" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:2w93nZwHmJv" />
+        <node concept="1sVBvm" id="2w93nZwHmJR" role="1sWHZn">
+          <node concept="3F0A7n" id="2w93nZwHmJZ" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2w93nZwHmJF" role="2iSdaV" />
     </node>
   </node>
 </model>
