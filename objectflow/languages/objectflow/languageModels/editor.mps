@@ -3438,7 +3438,7 @@
       </node>
       <node concept="l2Vlx" id="3g5RX4qSfEq" role="2iSdaV" />
       <node concept="3F0ifn" id="3g5RX4qSfEr" role="3EZMnx">
-        <property role="3F0ifm" value="(do not conclude)" />
+        <property role="3F0ifm" value=" //do not conclude" />
         <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
       </node>
     </node>
@@ -3454,7 +3454,7 @@
       </node>
       <node concept="l2Vlx" id="3g5RX4qSfDO" role="2iSdaV" />
       <node concept="3F0ifn" id="3g5RX4qSfDQ" role="3EZMnx">
-        <property role="3F0ifm" value="(run FINAL_OK_CONCLUSION)" />
+        <property role="3F0ifm" value=" //run FINAL_OK_CONCLUSION" />
         <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
       </node>
     </node>
@@ -3479,7 +3479,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="3g5RX4qSv3Q" role="3EZMnx">
-        <property role="3F0ifm" value="(run page init)" />
+        <property role="3F0ifm" value=" //run page init" />
         <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
       </node>
     </node>
@@ -4087,7 +4087,7 @@
       </node>
       <node concept="l2Vlx" id="3g5RX4qSfEf" role="2iSdaV" />
       <node concept="3F0ifn" id="3g5RX4qSfEh" role="3EZMnx">
-        <property role="3F0ifm" value="(run FINAL_CANCEL_CONCLUSION)" />
+        <property role="3F0ifm" value=" //run FINAL_CANCEL_CONCLUSION" />
         <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
       </node>
     </node>
@@ -8613,12 +8613,6 @@
       </node>
       <node concept="3F0ifn" id="2w93nZwKx1O" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2BbJI" role="3EZMnx" />
-      <node concept="3F1sOY" id="1aaqwMInUiF" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;user docu&gt;" />
-        <ref role="1NtTu8" to="un0u:1aaqwMInUIi" />
-      </node>
-      <node concept="3F0ifn" id="61VVfi2FlOt" role="3EZMnx" />
-      <node concept="3F0ifn" id="61VVfi2FlPd" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2Bsww" role="3EZMnx">
         <property role="3F0ifm" value="onStartup:" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
@@ -8628,7 +8622,7 @@
       </node>
       <node concept="3F0ifn" id="61VVfi2FUFt" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2BbUk" role="3EZMnx">
-        <property role="3F0ifm" value="onShutdown:" />
+        <property role="3F0ifm" value="finally - onShutdown:" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F1sOY" id="61VVfi2BssA" role="3EZMnx">
@@ -8637,7 +8631,7 @@
       <node concept="3F0ifn" id="1aaqwMInUiG" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2BstE" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2Bsub" role="3EZMnx">
-        <property role="3F0ifm" value="tests to execute:" />
+        <property role="3F0ifm" value="docu and tests:" />
         <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
       </node>
       <node concept="3F0ifn" id="61VVfi2BsuH" role="3EZMnx" />
@@ -9061,6 +9055,50 @@
         </node>
       </node>
       <node concept="l2Vlx" id="2w93nZwHmJF" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3iT39CYUk1">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1XX52x" to="un0u:3iT39CYUjR" resolve="OFXTestSuitNoExecOption" />
+    <node concept="3EZMnI" id="3iT39CYUk3" role="2wV5jI">
+      <node concept="PMmxH" id="3iT39CYUk4" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+      </node>
+      <node concept="1iCGBv" id="3iT39CYUk5" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:3iT39CYUjU" />
+        <node concept="1sVBvm" id="3iT39CYUk6" role="1sWHZn">
+          <node concept="3F0A7n" id="3iT39CYUk7" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3iT39CYUk8" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3iT39Dbiqt">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1XX52x" to="un0u:3iT39DbhYV" resolve="IOFXTestSuitRunSuit" />
+    <node concept="3EZMnI" id="3iT39Dbiqv" role="2wV5jI">
+      <node concept="PMmxH" id="3iT39Dbiqw" role="3EZMnx">
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="1iCGBv" id="3iT39Dbiqx" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:3iT39DbhYY" />
+        <node concept="1sVBvm" id="3iT39Dbiqy" role="1sWHZn">
+          <node concept="3F0A7n" id="3iT39Dbiqz" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3iT39Dbiq$" role="2iSdaV" />
+      <node concept="3F0ifn" id="3iT39DrjLy" role="3EZMnx">
+        <property role="3F0ifm" value=" //with this config" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+      </node>
     </node>
   </node>
 </model>

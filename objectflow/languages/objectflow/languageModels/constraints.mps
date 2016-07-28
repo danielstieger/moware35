@@ -4156,5 +4156,79 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="3iT39CYUkf">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1M2myG" to="un0u:3iT39CYUjR" resolve="OFXTestSuitNoExecOption" />
+    <node concept="1N5Pfh" id="3iT39CYUkg" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:3iT39CYUjU" />
+      <node concept="1dDu$B" id="3iT39CYUkh" role="1N6uqs">
+        <ref role="1dDu$A" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3iT39DeyDb">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1M2myG" to="un0u:3iT39DbhYV" resolve="IOFXTestSuitRunSuit" />
+    <node concept="1N5Pfh" id="3iT39DeyDc" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:3iT39DbhYY" />
+      <node concept="13QW63" id="3iT39DeyDg" role="1N6uqs">
+        <node concept="3clFbS" id="3iT39DeyDi" role="2VODD2">
+          <node concept="3cpWs8" id="3iT39DeAz5" role="3cqZAp">
+            <node concept="3cpWsn" id="3iT39DeAz8" role="3cpWs9">
+              <property role="TrG5h" value="testsuit" />
+              <node concept="3Tqbb2" id="3iT39DeAz3" role="1tU5fm">
+                <ref role="ehGHo" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+              </node>
+              <node concept="2OqwBi" id="3iT39DeAVx" role="33vP2m">
+                <node concept="21POm0" id="3iT39DeARN" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="3iT39DeB0F" role="2OqNvi">
+                  <node concept="1xMEDy" id="3iT39DeB0H" role="1xVPHs">
+                    <node concept="chp4Y" id="3iT39DeB4q" role="ri$Ld">
+                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+                    </node>
+                  </node>
+                  <node concept="1xIGOp" id="3iT39DeBb1" role="1xVPHs" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="3iT39DeCMq" role="3cqZAp">
+            <node concept="2YIFZM" id="3iT39DeCYd" role="3cqZAk">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="3iT39DezAB" role="37wK5m">
+                <node concept="2OqwBi" id="3iT39DeyFP" role="2Oq$k0">
+                  <node concept="1Q6Npb" id="3iT39DeyEP" role="2Oq$k0" />
+                  <node concept="3lApI0" id="3iT39DeyGU" role="2OqNvi">
+                    <ref role="3lApI3" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+                  </node>
+                </node>
+                <node concept="3zZkjj" id="3iT39DeArW" role="2OqNvi">
+                  <node concept="1bVj0M" id="3iT39DeArY" role="23t8la">
+                    <node concept="3clFbS" id="3iT39DeArZ" role="1bW5cS">
+                      <node concept="3clFbF" id="3iT39DeBin" role="3cqZAp">
+                        <node concept="3y3z36" id="3iT39Df1Nj" role="3clFbG">
+                          <node concept="37vLTw" id="3iT39DeBim" role="3uHU7B">
+                            <ref role="3cqZAo" node="3iT39DeAs0" resolve="it" />
+                          </node>
+                          <node concept="37vLTw" id="3iT39DeBsH" role="3uHU7w">
+                            <ref role="3cqZAo" node="3iT39DeAz8" resolve="testsuit" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Rh6nW" id="3iT39DeAs0" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="3iT39DeAs1" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

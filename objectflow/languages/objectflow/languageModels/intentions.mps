@@ -66,6 +66,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -125,6 +126,7 @@
       <concept id="1202077725299" name="jetbrains.mps.baseLanguage.structure.DefaultSetAccessor" flags="ng" index="3xqBd$">
         <child id="1202077744034" name="visibility" index="3xqFEP" />
       </concept>
+      <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -3232,24 +3234,6 @@
       </node>
     </node>
   </node>
-  <node concept="2S6QgY" id="7ECLRBgX9gk">
-    <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="ToggleTestExecution" />
-    <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
-    <node concept="2S6ZIM" id="7ECLRBgX9gl" role="2ZfVej">
-      <node concept="3clFbS" id="7ECLRBgX9gm" role="2VODD2">
-        <node concept="3clFbF" id="7ECLRBgX9pn" role="3cqZAp">
-          <node concept="Xl_RD" id="7ECLRBgX9pm" role="3clFbG">
-            <property role="Xl_RC" value="TOGGLE TEST EXECUTION" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="7ECLRBgX9gn" role="2ZfgGD">
-      <node concept="3clFbS" id="7ECLRBgX9go" role="2VODD2" />
-    </node>
-  </node>
   <node concept="2S6QgY" id="2w93nZwOhAr">
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="ToggleTestDebug" />
@@ -3296,14 +3280,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="2w93nZwV1qN" role="3cqZAp" />
-        <node concept="3clFbF" id="2w93nZwV0Vq" role="3cqZAp">
-          <node concept="2OqwBi" id="2w93nZwV0X4" role="3clFbG">
-            <node concept="1XNTG" id="2w93nZwV0Vo" role="2Oq$k0" />
-            <node concept="liA8E" id="2w93nZwV13e" role="2OqNvi">
-              <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedCell():jetbrains.mps.openapi.editor.cells.EditorCell" resolve="getSelectedCell" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="2w93nZwOuxp" role="3cqZAp">
           <node concept="2OqwBi" id="2w93nZwOuFp" role="3clFbw">
             <node concept="2Sf5sV" id="2w93nZwOuxC" role="2Oq$k0" />
@@ -3361,6 +3337,503 @@
               <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
               <node concept="37vLTw" id="2w93nZwV2q4" role="37wK5m">
                 <ref role="3cqZAo" node="2w93nZwV1hd" resolve="editorNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="3iT39CZixG">
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="ToggleDoNotExec" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+    <node concept="2S6ZIM" id="3iT39CZixH" role="2ZfVej">
+      <node concept="3clFbS" id="3iT39CZixI" role="2VODD2">
+        <node concept="3SKdUt" id="3iT39CZlCm" role="3cqZAp">
+          <node concept="3SKdUq" id="3iT39CZlCo" role="3SKWNk">
+            <property role="3SKdUp" value="You can always remove do not exec ... " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3iT39CZixJ" role="3cqZAp">
+          <node concept="3y3z36" id="3iT39CZnbr" role="3clFbw">
+            <node concept="10Nm6u" id="3iT39CZncN" role="3uHU7w" />
+            <node concept="2OqwBi" id="3iT39CZixK" role="3uHU7B">
+              <node concept="2Sf5sV" id="3iT39CZixL" role="2Oq$k0" />
+              <node concept="2qgKlT" id="3iT39CZn4g" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3iT39CYXhK" resolve="getDontExecOption" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="3iT39CZixN" role="3clFbx">
+            <node concept="3cpWs6" id="3iT39CZixO" role="3cqZAp">
+              <node concept="Xl_RD" id="3iT39CZixP" role="3cqZAk">
+                <property role="Xl_RC" value="Remove dont_exec for this test." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3iT39CZixQ" role="3cqZAp">
+          <node concept="Xl_RD" id="3iT39CZixR" role="3cqZAk">
+            <property role="Xl_RC" value="Add dont_exec for this test." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3iT39CZixS" role="2ZfgGD">
+      <node concept="3clFbS" id="3iT39CZixT" role="2VODD2">
+        <node concept="3cpWs8" id="3iT39CZixU" role="3cqZAp">
+          <node concept="3cpWsn" id="3iT39CZixV" role="3cpWs9">
+            <property role="TrG5h" value="editorNode" />
+            <node concept="3uibUv" id="3iT39CZixW" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+            </node>
+            <node concept="2OqwBi" id="3iT39CZixX" role="33vP2m">
+              <node concept="1XNTG" id="3iT39CZixY" role="2Oq$k0" />
+              <node concept="liA8E" id="3iT39CZixZ" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSelectedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3iT39CZiy0" role="3cqZAp" />
+        <node concept="3clFbH" id="3iT39D4gBn" role="3cqZAp" />
+        <node concept="3cpWs8" id="3iT39CZiya" role="3cqZAp">
+          <node concept="3cpWsn" id="3iT39CZiyb" role="3cpWs9">
+            <property role="TrG5h" value="dontExecOption" />
+            <node concept="3Tqbb2" id="3iT39CZiyc" role="1tU5fm">
+              <ref role="ehGHo" to="un0u:3iT39CYUjR" resolve="OFXTestSuitNoExecOption" />
+            </node>
+            <node concept="2OqwBi" id="3iT39CZiyd" role="33vP2m">
+              <node concept="2Sf5sV" id="3iT39CZiye" role="2Oq$k0" />
+              <node concept="2qgKlT" id="3iT39CZrJa" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3iT39CYXhK" resolve="getDontExecOption" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3iT39CZiy5" role="3cqZAp">
+          <node concept="3y3z36" id="3iT39D41qN" role="3clFbw">
+            <node concept="10Nm6u" id="3iT39D41s0" role="3uHU7w" />
+            <node concept="37vLTw" id="3iT39D41nQ" role="3uHU7B">
+              <ref role="3cqZAo" node="3iT39CZiyb" resolve="dontExecOption" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="3iT39CZiy9" role="3clFbx">
+            <node concept="3clFbF" id="3iT39CZiyg" role="3cqZAp">
+              <node concept="2OqwBi" id="3iT39CZiyh" role="3clFbG">
+                <node concept="37vLTw" id="3iT39CZiyi" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3iT39CZiyb" resolve="dontExecOption" />
+                </node>
+                <node concept="1PgB_6" id="3iT39CZiyj" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="3iT39CZiyk" role="9aQIa">
+            <node concept="3clFbS" id="3iT39CZiyl" role="9aQI4">
+              <node concept="3SKdUt" id="3iT39CZiym" role="3cqZAp">
+                <node concept="3SKdUq" id="3iT39CZiyn" role="3SKWNk">
+                  <property role="3SKdUp" value="create Debug Option" />
+                </node>
+              </node>
+              <node concept="3clFbF" id="3iT39CZiyo" role="3cqZAp">
+                <node concept="2OqwBi" id="3iT39CZiyp" role="3clFbG">
+                  <node concept="2Sf5sV" id="3iT39CZiyq" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="3iT39CZsgD" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:3iT39CYXir" resolve="addDontExecOption" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3iT39CZiys" role="3cqZAp" />
+        <node concept="3clFbF" id="3iT39CZiyt" role="3cqZAp">
+          <node concept="2OqwBi" id="3iT39CZiyu" role="3clFbG">
+            <node concept="1XNTG" id="3iT39CZiyv" role="2Oq$k0" />
+            <node concept="liA8E" id="3iT39CZiyw" role="2OqNvi">
+              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
+              <node concept="37vLTw" id="3iT39CZiyx" role="37wK5m">
+                <ref role="3cqZAo" node="3iT39CZixV" resolve="editorNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="3iT39CZnCr" role="2ZfVeh">
+      <node concept="3clFbS" id="3iT39CZnCs" role="2VODD2">
+        <node concept="3clFbJ" id="3iT39CZnJP" role="3cqZAp">
+          <node concept="22lmx$" id="3iT39CZpcB" role="3clFbw">
+            <node concept="2OqwBi" id="3iT39CZpsG" role="3uHU7w">
+              <node concept="2Sf5sV" id="3iT39CZpi0" role="2Oq$k0" />
+              <node concept="2qgKlT" id="3iT39CZpQC" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3iT39CYUne" resolve="isPotentiallyToExecute" />
+              </node>
+            </node>
+            <node concept="3y3z36" id="3iT39CZoGw" role="3uHU7B">
+              <node concept="2OqwBi" id="3iT39CZnVj" role="3uHU7B">
+                <node concept="2Sf5sV" id="3iT39CZnL2" role="2Oq$k0" />
+                <node concept="2qgKlT" id="3iT39CZo_J" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:3iT39CYXhK" resolve="getDontExecOption" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="3iT39CZoL_" role="3uHU7w" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="3iT39CZnJR" role="3clFbx">
+            <node concept="3cpWs6" id="3iT39CZpVY" role="3cqZAp">
+              <node concept="3clFbT" id="3iT39CZpWa" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3iT39CZq3i" role="3cqZAp">
+          <node concept="3clFbT" id="3iT39CZq9C" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="3iT39D7v68">
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="TurnOffTestDebugAll" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <node concept="2S6ZIM" id="3iT39D7v69" role="2ZfVej">
+      <node concept="3clFbS" id="3iT39D7v6a" role="2VODD2">
+        <node concept="3cpWs6" id="3iT39D7v6g" role="3cqZAp">
+          <node concept="Xl_RD" id="3iT39D7v6h" role="3cqZAk">
+            <property role="Xl_RC" value="Yeah, turn ALL debug OFF." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3iT39D7v6k" role="2ZfgGD">
+      <node concept="3clFbS" id="3iT39D7v6l" role="2VODD2">
+        <node concept="3cpWs8" id="3iT39D7v6m" role="3cqZAp">
+          <node concept="3cpWsn" id="3iT39D7v6n" role="3cpWs9">
+            <property role="TrG5h" value="editorNode" />
+            <node concept="3uibUv" id="3iT39D7v6o" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+            </node>
+            <node concept="2OqwBi" id="3iT39D7v6p" role="33vP2m">
+              <node concept="1XNTG" id="3iT39D7v6q" role="2Oq$k0" />
+              <node concept="liA8E" id="3iT39D7v6r" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSelectedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3iT39D7CJf" role="3cqZAp" />
+        <node concept="3clFbF" id="3iT39D7wqd" role="3cqZAp">
+          <node concept="2OqwBi" id="3iT39D7yi6" role="3clFbG">
+            <node concept="2OqwBi" id="3iT39D7wuD" role="2Oq$k0">
+              <node concept="2Sf5sV" id="3iT39D7wqb" role="2Oq$k0" />
+              <node concept="2qgKlT" id="3iT39Dwb_$" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3iT39Dw7Yu" resolve="getTestMethods" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="3iT39D7C06" role="2OqNvi">
+              <node concept="1bVj0M" id="3iT39D7C08" role="23t8la">
+                <node concept="3clFbS" id="3iT39D7C09" role="1bW5cS">
+                  <node concept="3cpWs8" id="3iT39D7v6A" role="3cqZAp">
+                    <node concept="3cpWsn" id="3iT39D7v6B" role="3cpWs9">
+                      <property role="TrG5h" value="dbgOption" />
+                      <node concept="3Tqbb2" id="3iT39D7v6C" role="1tU5fm">
+                        <ref role="ehGHo" to="un0u:2w93nZwHmJs" resolve="OFXTestSuitDebugOption" />
+                      </node>
+                      <node concept="2OqwBi" id="3iT39D7v6D" role="33vP2m">
+                        <node concept="37vLTw" id="3iT39D7CXK" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3iT39D7C0a" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="3iT39D7v6F" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:2w93nZwOptV" resolve="getDebugOption" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="3iT39D7v6G" role="3cqZAp">
+                    <node concept="2OqwBi" id="3iT39D7v6H" role="3clFbG">
+                      <node concept="37vLTw" id="3iT39D7v6I" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3iT39D7v6B" resolve="dbgOption" />
+                      </node>
+                      <node concept="1PgB_6" id="3iT39D7v6J" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="3iT39D7C3A" role="3cqZAp" />
+                </node>
+                <node concept="Rh6nW" id="3iT39D7C0a" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="3iT39D7C0b" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3iT39D7v6s" role="3cqZAp" />
+        <node concept="3clFbF" id="3iT39D7v6T" role="3cqZAp">
+          <node concept="2OqwBi" id="3iT39D7v6U" role="3clFbG">
+            <node concept="1XNTG" id="3iT39D7v6V" role="2Oq$k0" />
+            <node concept="liA8E" id="3iT39D7v6W" role="2OqNvi">
+              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
+              <node concept="37vLTw" id="3iT39D7v6X" role="37wK5m">
+                <ref role="3cqZAo" node="3iT39D7v6n" resolve="editorNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="3iT39D7DfK">
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="TurnOnTestDebugAll" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <node concept="2S6ZIM" id="3iT39D7DfL" role="2ZfVej">
+      <node concept="3clFbS" id="3iT39D7DfM" role="2VODD2">
+        <node concept="3cpWs6" id="3iT39D7DfN" role="3cqZAp">
+          <node concept="Xl_RD" id="3iT39D7DfO" role="3cqZAk">
+            <property role="Xl_RC" value="Yeah, turn ALL debug ON." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3iT39D7DfP" role="2ZfgGD">
+      <node concept="3clFbS" id="3iT39D7DfQ" role="2VODD2">
+        <node concept="3cpWs8" id="3iT39D7DfR" role="3cqZAp">
+          <node concept="3cpWsn" id="3iT39D7DfS" role="3cpWs9">
+            <property role="TrG5h" value="editorNode" />
+            <node concept="3uibUv" id="3iT39D7DfT" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+            </node>
+            <node concept="2OqwBi" id="3iT39D7DfU" role="33vP2m">
+              <node concept="1XNTG" id="3iT39D7DfV" role="2Oq$k0" />
+              <node concept="liA8E" id="3iT39D7DfW" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSelectedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3iT39D7DfX" role="3cqZAp" />
+        <node concept="3clFbF" id="3iT39D7DfY" role="3cqZAp">
+          <node concept="2OqwBi" id="3iT39D7DfZ" role="3clFbG">
+            <node concept="2OqwBi" id="3iT39D7Dg0" role="2Oq$k0">
+              <node concept="2Sf5sV" id="3iT39D7Dg1" role="2Oq$k0" />
+              <node concept="2qgKlT" id="3iT39DwbTb" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3iT39Dw7Yu" resolve="getTestMethods" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="3iT39D7Dg3" role="2OqNvi">
+              <node concept="1bVj0M" id="3iT39D7Dg4" role="23t8la">
+                <node concept="3clFbS" id="3iT39D7Dg5" role="1bW5cS">
+                  <node concept="3clFbF" id="3iT39D7Ehv" role="3cqZAp">
+                    <node concept="2OqwBi" id="3iT39D7Dg9" role="3clFbG">
+                      <node concept="37vLTw" id="3iT39D7Dga" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3iT39D7Dgh" resolve="it" />
+                      </node>
+                      <node concept="2qgKlT" id="3iT39D7DWJ" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:2w93nZwOwCl" resolve="addDebugOption" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="3iT39D7Dgh" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="3iT39D7Dgi" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3iT39D7Dgj" role="3cqZAp" />
+        <node concept="3clFbF" id="3iT39D7Dgk" role="3cqZAp">
+          <node concept="2OqwBi" id="3iT39D7Dgl" role="3clFbG">
+            <node concept="1XNTG" id="3iT39D7Dgm" role="2Oq$k0" />
+            <node concept="liA8E" id="3iT39D7Dgn" role="2OqNvi">
+              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
+              <node concept="37vLTw" id="3iT39D7Dgo" role="37wK5m">
+                <ref role="3cqZAo" node="3iT39D7DfS" resolve="editorNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="3iT39D7Evy">
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="AddDontExecAll" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <node concept="2S6ZIM" id="3iT39D7Evz" role="2ZfVej">
+      <node concept="3clFbS" id="3iT39D7Ev$" role="2VODD2">
+        <node concept="3cpWs6" id="3iT39D7Ev_" role="3cqZAp">
+          <node concept="Xl_RD" id="3iT39D7EvA" role="3cqZAk">
+            <property role="Xl_RC" value="Yeah, add dont_exec to all executable tests." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3iT39D7EvB" role="2ZfgGD">
+      <node concept="3clFbS" id="3iT39D7EvC" role="2VODD2">
+        <node concept="3cpWs8" id="3iT39D7EvD" role="3cqZAp">
+          <node concept="3cpWsn" id="3iT39D7EvE" role="3cpWs9">
+            <property role="TrG5h" value="editorNode" />
+            <node concept="3uibUv" id="3iT39D7EvF" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+            </node>
+            <node concept="2OqwBi" id="3iT39D7EvG" role="33vP2m">
+              <node concept="1XNTG" id="3iT39D7EvH" role="2Oq$k0" />
+              <node concept="liA8E" id="3iT39D7EvI" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSelectedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3iT39D7EvJ" role="3cqZAp" />
+        <node concept="3clFbF" id="3iT39D7EvK" role="3cqZAp">
+          <node concept="2OqwBi" id="3iT39D7EvL" role="3clFbG">
+            <node concept="2OqwBi" id="3iT39D7EvM" role="2Oq$k0">
+              <node concept="2Sf5sV" id="3iT39D7EvN" role="2Oq$k0" />
+              <node concept="2qgKlT" id="3iT39DwaY$" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3iT39Dw7Yu" resolve="getTestMethods" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="3iT39D7EvP" role="2OqNvi">
+              <node concept="1bVj0M" id="3iT39D7EvQ" role="23t8la">
+                <node concept="3clFbS" id="3iT39D7EvR" role="1bW5cS">
+                  <node concept="3clFbF" id="3iT39D7Get" role="3cqZAp">
+                    <node concept="2OqwBi" id="3iT39D7EvV" role="3clFbG">
+                      <node concept="37vLTw" id="3iT39D7EvW" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3iT39D7Ew3" resolve="it" />
+                      </node>
+                      <node concept="2qgKlT" id="3iT39D7FZG" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:3iT39CYXir" resolve="addDontExecOption" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="3iT39D7Ew3" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="3iT39D7Ew4" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3iT39D7Ew5" role="3cqZAp" />
+        <node concept="3clFbF" id="3iT39D7Ew6" role="3cqZAp">
+          <node concept="2OqwBi" id="3iT39D7Ew7" role="3clFbG">
+            <node concept="1XNTG" id="3iT39D7Ew8" role="2Oq$k0" />
+            <node concept="liA8E" id="3iT39D7Ew9" role="2OqNvi">
+              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
+              <node concept="37vLTw" id="3iT39D7Ewa" role="37wK5m">
+                <ref role="3cqZAo" node="3iT39D7EvE" resolve="editorNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="3iT39D7HSc">
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="RemoveDontExecAll" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <node concept="2S6ZIM" id="3iT39D7HSd" role="2ZfVej">
+      <node concept="3clFbS" id="3iT39D7HSe" role="2VODD2">
+        <node concept="3cpWs6" id="3iT39D7HSf" role="3cqZAp">
+          <node concept="Xl_RD" id="3iT39D7HSg" role="3cqZAk">
+            <property role="Xl_RC" value="Yeah, remove dont_exec from all executable tests." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3iT39D7HSh" role="2ZfgGD">
+      <node concept="3clFbS" id="3iT39D7HSi" role="2VODD2">
+        <node concept="3cpWs8" id="3iT39D7HSj" role="3cqZAp">
+          <node concept="3cpWsn" id="3iT39D7HSk" role="3cpWs9">
+            <property role="TrG5h" value="editorNode" />
+            <node concept="3uibUv" id="3iT39D7HSl" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+            </node>
+            <node concept="2OqwBi" id="3iT39D7HSm" role="33vP2m">
+              <node concept="1XNTG" id="3iT39D7HSn" role="2Oq$k0" />
+              <node concept="liA8E" id="3iT39D7HSo" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSelectedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3iT39D7HSp" role="3cqZAp" />
+        <node concept="3clFbF" id="3iT39D7HSq" role="3cqZAp">
+          <node concept="2OqwBi" id="3iT39D7HSr" role="3clFbG">
+            <node concept="2OqwBi" id="3iT39D7HSs" role="2Oq$k0">
+              <node concept="2Sf5sV" id="3iT39D7HSt" role="2Oq$k0" />
+              <node concept="2qgKlT" id="3iT39DwbhF" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3iT39Dw7Yu" resolve="getTestMethods" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="3iT39D7HSv" role="2OqNvi">
+              <node concept="1bVj0M" id="3iT39D7HSw" role="23t8la">
+                <node concept="3clFbS" id="3iT39D7HSx" role="1bW5cS">
+                  <node concept="3cpWs8" id="3iT39D7JaR" role="3cqZAp">
+                    <node concept="3cpWsn" id="3iT39D7JaU" role="3cpWs9">
+                      <property role="TrG5h" value="dontExec" />
+                      <node concept="3Tqbb2" id="3iT39D7JaP" role="1tU5fm">
+                        <ref role="ehGHo" to="un0u:3iT39CYUjR" resolve="OFXTestSuitNoExecOption" />
+                      </node>
+                      <node concept="2OqwBi" id="3iT39D7JAi" role="33vP2m">
+                        <node concept="37vLTw" id="3iT39D7JqS" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3iT39D7HSA" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="3iT39D7K27" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:3iT39CYXhK" resolve="getDontExecOption" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="3iT39D7KuU" role="3cqZAp">
+                    <node concept="3clFbS" id="3iT39D7KuW" role="3clFbx">
+                      <node concept="3clFbF" id="3iT39D7KS9" role="3cqZAp">
+                        <node concept="2OqwBi" id="3iT39D7KV_" role="3clFbG">
+                          <node concept="37vLTw" id="3iT39D7KS7" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3iT39D7JaU" resolve="dontExec" />
+                          </node>
+                          <node concept="1PgB_6" id="3iT39D7L12" role="2OqNvi" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3y3z36" id="3iT39D7KJ5" role="3clFbw">
+                      <node concept="10Nm6u" id="3iT39D7KKX" role="3uHU7w" />
+                      <node concept="37vLTw" id="3iT39D7KAa" role="3uHU7B">
+                        <ref role="3cqZAo" node="3iT39D7JaU" resolve="dontExec" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="3iT39D7HSA" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="3iT39D7HSB" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3iT39D7HSC" role="3cqZAp" />
+        <node concept="3clFbF" id="3iT39D7HSD" role="3cqZAp">
+          <node concept="2OqwBi" id="3iT39D7HSE" role="3clFbG">
+            <node concept="1XNTG" id="3iT39D7HSF" role="2Oq$k0" />
+            <node concept="liA8E" id="3iT39D7HSG" role="2OqNvi">
+              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
+              <node concept="37vLTw" id="3iT39D7HSH" role="37wK5m">
+                <ref role="3cqZAo" node="3iT39D7HSk" resolve="editorNode" />
               </node>
             </node>
           </node>

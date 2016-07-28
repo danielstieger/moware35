@@ -1278,6 +1278,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5Ee0EjqWOQh" resolve="OFXDocumentationLine" />
     </node>
+    <node concept="PrWs8" id="3iT39DvblG" role="PzmwI">
+      <ref role="PrY4T" node="3iT39Dvbl$" resolve="IOFXTestSuitContent" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5Ee0EjqWOQh">
     <property role="3GE5qa" value="OFXCore.infra" />
@@ -2873,11 +2876,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="q_zDmI5v5l" resolve="OFXConfig" />
     </node>
-    <node concept="1TJgyj" id="1aaqwMInUIi" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="documentation" />
-      <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
-    </node>
     <node concept="1TJgyj" id="61VVfi2BbQl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="onStartup" />
@@ -2896,9 +2894,9 @@
     </node>
     <node concept="1TJgyj" id="61VVfi2Gw2l" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="tests" />
+      <property role="20kJfa" value="content" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+      <ref role="20lvS9" node="3iT39Dvbl$" resolve="IOFXTestSuitContent" />
     </node>
     <node concept="PrWs8" id="1aaqwMInGle" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
@@ -2925,6 +2923,9 @@
       <property role="20lbJX" value="0..n" />
       <property role="20kJfa" value="finallyMethods" />
       <ref role="20lvS9" node="61VVfi2SpDA" resolve="OFXTestMethodCall" />
+    </node>
+    <node concept="PrWs8" id="3iT39DvblC" role="PzmwI">
+      <ref role="PrY4T" node="3iT39Dvbl$" resolve="IOFXTestSuitContent" />
     </node>
     <node concept="PrWs8" id="61VVfi2ZEVD" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -3002,6 +3003,45 @@
     <node concept="PrWs8" id="2w93nZwHmJt" role="PzmwI">
       <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="3iT39CYUjR">
+    <property role="1pbfSe" value="1775143209" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestSuitNoExecOption" />
+    <property role="34LRSv" value="DONT_EXEC" />
+    <property role="R4oN_" value="do not exec test" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3iT39CYUjU" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="test" />
+      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+    </node>
+    <node concept="PrWs8" id="3iT39CYUjS" role="PzmwI">
+      <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3iT39DbhYV">
+    <property role="1pbfSe" value="1778385901" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="IOFXTestSuitRunSuit" />
+    <property role="34LRSv" value="RUN_SUIT" />
+    <property role="R4oN_" value="run other test suit first" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3iT39DbhYY" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="testsuit" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1aaqwMInGiU" resolve="OFXTestSuit" />
+    </node>
+    <node concept="PrWs8" id="3iT39DbhYW" role="PzmwI">
+      <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3iT39Dvbl$">
+    <property role="1pbfSe" value="1783601558" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="IOFXTestSuitContent" />
   </node>
 </model>
 

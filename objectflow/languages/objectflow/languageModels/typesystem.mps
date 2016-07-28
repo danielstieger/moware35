@@ -9158,23 +9158,23 @@
                       <node concept="3clFbS" id="2w93nZvVAE$" role="1bW5cS">
                         <node concept="3clFbF" id="2w93nZvVAMo" role="3cqZAp">
                           <node concept="2OqwBi" id="2w93nZvVBpG" role="3clFbG">
-                            <node concept="2OqwBi" id="2w93nZvVATM" role="2Oq$k0">
-                              <node concept="37vLTw" id="2w93nZvVAMn" role="2Oq$k0">
-                                <ref role="3cqZAo" node="2w93nZvVAE_" resolve="it" />
-                              </node>
-                              <node concept="3TrcHB" id="2w93nZvVBbb" role="2OqNvi">
-                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                              </node>
-                            </node>
                             <node concept="liA8E" id="2w93nZvVBB$" role="2OqNvi">
                               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                              <node concept="2OqwBi" id="2w93nZvVBUY" role="37wK5m">
-                                <node concept="1YBJjd" id="2w93nZvVBNq" role="2Oq$k0">
-                                  <ref role="1YBMHb" node="2w93nZvVkPX" resolve="ofxTestMethodCall" />
+                              <node concept="2OqwBi" id="2w93nZvVATM" role="37wK5m">
+                                <node concept="37vLTw" id="2w93nZvVAMn" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="2w93nZvVAE_" resolve="it" />
                                 </node>
-                                <node concept="3TrcHB" id="2w93nZvVCeT" role="2OqNvi">
+                                <node concept="3TrcHB" id="2w93nZvVBbb" role="2OqNvi">
                                   <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                                 </node>
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="2w93nZvVBUY" role="2Oq$k0">
+                              <node concept="1YBJjd" id="2w93nZvVBNq" role="2Oq$k0">
+                                <ref role="1YBMHb" node="2w93nZvVkPX" resolve="ofxTestMethodCall" />
+                              </node>
+                              <node concept="3TrcHB" id="2w93nZvVCeT" role="2OqNvi">
+                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                               </node>
                             </node>
                           </node>
@@ -9228,6 +9228,43 @@
     <node concept="1YaCAy" id="2w93nZwA5NL" role="1YuTPh">
       <property role="TrG5h" value="ofxTestSuitPrint" />
       <ref role="1YaFvo" to="un0u:2w93nZwA5N_" resolve="OFXTestSuitPrintStatement" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3iT39CZlUE">
+    <property role="TrG5h" value="check_OFXTestSuitNoExecOption" />
+    <property role="3GE5qa" value="OFXTest" />
+    <node concept="3clFbS" id="3iT39CZlUF" role="18ibNy">
+      <node concept="3clFbJ" id="3iT39CZlUL" role="3cqZAp">
+        <node concept="3fqX7Q" id="3iT39CZmC7" role="3clFbw">
+          <node concept="2OqwBi" id="3iT39CZmC9" role="3fr31v">
+            <node concept="2OqwBi" id="3iT39CZmCa" role="2Oq$k0">
+              <node concept="1YBJjd" id="3iT39CZmCb" role="2Oq$k0">
+                <ref role="1YBMHb" node="3iT39CZlUH" resolve="ofxTestSuitNoExecOption" />
+              </node>
+              <node concept="3TrEf2" id="3iT39CZmCc" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:3iT39CYUjU" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="3iT39CZmCd" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:3iT39CYUne" resolve="isPotentiallyToExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="3iT39CZlUN" role="3clFbx">
+          <node concept="2MkqsV" id="3iT39CZmGP" role="3cqZAp">
+            <node concept="Xl_RD" id="3iT39CZmH1" role="2MkJ7o">
+              <property role="Xl_RC" value="This option is not necessary, since this test is not potentially executeable." />
+            </node>
+            <node concept="1YBJjd" id="3iT39CZmJh" role="2OEOjV">
+              <ref role="1YBMHb" node="3iT39CZlUH" resolve="ofxTestSuitNoExecOption" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3iT39CZlUH" role="1YuTPh">
+      <property role="TrG5h" value="ofxTestSuitNoExecOption" />
+      <ref role="1YaFvo" to="un0u:3iT39CYUjR" resolve="OFXTestSuitNoExecOption" />
     </node>
   </node>
 </model>
