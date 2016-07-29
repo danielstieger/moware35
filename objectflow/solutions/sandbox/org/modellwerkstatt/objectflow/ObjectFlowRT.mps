@@ -2839,6 +2839,42 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3J6KGB__Yti" role="jymVt" />
+    <node concept="2YIFZL" id="4AdkG1USRGd" role="jymVt">
+      <property role="TrG5h" value="createBean" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="4AdkG1USR7O" role="3clF47">
+        <node concept="3cpWs6" id="4AdkG1USRlJ" role="3cqZAp">
+          <node concept="2OqwBi" id="4AdkG1USRlK" role="3cqZAk">
+            <node concept="2OqwBi" id="4AdkG1USRlL" role="2Oq$k0">
+              <node concept="37vLTw" id="4AdkG1USRlT" role="2Oq$k0">
+                <ref role="3cqZAo" node="5OLgD$_0B3" resolve="applicationContext" />
+              </node>
+              <node concept="liA8E" id="4AdkG1USRlM" role="2OqNvi">
+                <ref role="37wK5l" to="a820:~ApplicationContext.getAutowireCapableBeanFactory():org.springframework.beans.factory.config.AutowireCapableBeanFactory" resolve="getAutowireCapableBeanFactory" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4AdkG1USRlN" role="2OqNvi">
+              <ref role="37wK5l" to="oawo:~AutowireCapableBeanFactory.createBean(java.lang.Class):java.lang.Object" resolve="createBean" />
+              <node concept="37vLTw" id="4AdkG1USRwy" role="37wK5m">
+                <ref role="3cqZAo" node="4AdkG1USRqa" resolve="classWeNeed" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="4AdkG1USRqa" role="3clF46">
+        <property role="TrG5h" value="classWeNeed" />
+        <node concept="3uibUv" id="4AdkG1USRrm" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="4AdkG1USRCo" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="4AdkG1USR7N" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="4AdkG1USN2n" role="jymVt" />
     <node concept="2YIFZL" id="3J6KGB_CpT2" role="jymVt">
       <property role="TrG5h" value="unbindJmxRmiNamingAndExit_0" />
       <property role="IEkAT" value="false" />

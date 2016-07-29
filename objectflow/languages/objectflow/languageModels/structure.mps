@@ -2870,6 +2870,10 @@
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/testsuit.png" />
     <ref role="1TJDcQ" node="6ffh1MXA9UE" resolve="Container" />
+    <node concept="1TJgyi" id="4AdkG1VaEN5" role="1TKVEl">
+      <property role="TrG5h" value="dataDir" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
@@ -3024,9 +3028,9 @@
   <node concept="1TIwiD" id="3iT39DbhYV">
     <property role="1pbfSe" value="1778385901" />
     <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="IOFXTestSuitRunSuit" />
-    <property role="34LRSv" value="RUN_SUIT" />
-    <property role="R4oN_" value="run other test suit first" />
+    <property role="TrG5h" value="IOFXTestSuitIncludeSuit" />
+    <property role="34LRSv" value="INCLUDE_SUIT" />
+    <property role="R4oN_" value="queue onstartup/shutdown and run" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3iT39DbhYY" role="1TKVEi">
       <property role="20lmBu" value="reference" />
