@@ -5558,9 +5558,15 @@
             <node concept="Xjq3P" id="7kI3k5AXyCU" role="3uHU7B" />
           </node>
         </node>
+        <node concept="3clFbH" id="7JpicW91HX3" role="3cqZAp" />
         <node concept="3SKdUt" id="2lNjt7g$z$o" role="3cqZAp">
           <node concept="3SKdUq" id="2lNjt7g$AlQ" role="3SKWNk">
             <property role="3SKdUp" value="comparing ValueObject with &quot;&quot; results in a null key check" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7JpicW91NaK" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW91NaM" role="3SKWNk">
+            <property role="3SKdUp" value="used in map_entityMapping " />
           </node>
         </node>
         <node concept="3clFbJ" id="2lNjt7gxEOM" role="3cqZAp">
@@ -7328,102 +7334,30 @@
                   </node>
                 </node>
               </node>
-              <node concept="2ShNRf" id="3hU1PLNx0kD" role="37wK5m">
-                <node concept="1pGfFk" id="3hU1PLNx0ZY" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~Integer.&lt;init&gt;(int)" resolve="Integer" />
-                  <node concept="3cmrfG" id="3hU1PLNx1mL" role="37wK5m">
-                    <property role="3cmrfH" value="0" />
-                  </node>
-                </node>
-                <node concept="1W57fq" id="2GZONtJx$ms" role="lGtFl">
-                  <node concept="3IZrLx" id="2GZONtJx$mu" role="3IZSJc">
-                    <node concept="3clFbS" id="2GZONtJx$mw" role="2VODD2">
-                      <node concept="3clFbF" id="2GZONtJx$PS" role="3cqZAp">
-                        <node concept="2YIFZM" id="2GZONtJx$PU" role="3clFbG">
-                          <ref role="37wK5l" to="3ojc:1GxgwjBwEqb" resolve="isIntKeyAtBusinessObjectProperty" />
-                          <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
-                          <node concept="30H73N" id="2GZONtJx$PV" role="37wK5m" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="3hU1PLNx4uO" role="37wK5m">
-                <node concept="2ShNRf" id="3hU1PLNx3_W" role="2Oq$k0">
-                  <node concept="1pGfFk" id="3hU1PLNx45L" role="2ShVmc">
-                    <ref role="37wK5l" node="4Wr6DTBy_qg" resolve="map_ValueObject" />
-                    <node concept="1ZhdrF" id="3hU1PLNx6Wc" role="lGtFl">
-                      <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1204053956946/1068499141037" />
-                      <property role="2qtEX8" value="baseMethodDeclaration" />
-                      <node concept="3$xsQk" id="3hU1PLNx6Wd" role="3$ytzL">
-                        <node concept="3clFbS" id="3hU1PLNx6We" role="2VODD2">
-                          <node concept="3clFbF" id="3hU1PLNx864" role="3cqZAp">
-                            <node concept="2OqwBi" id="3hU1PLNxeXn" role="3clFbG">
-                              <node concept="2OqwBi" id="3hU1PLNxevl" role="2Oq$k0">
-                                <node concept="1PxgMI" id="3hU1PLNxenX" role="2Oq$k0">
-                                  <ref role="1PxNhF" to="tpee:g7uibYu" resolve="ClassifierType" />
-                                  <node concept="2YIFZM" id="3hU1PLNx9qS" role="1PxMeX">
-                                    <ref role="37wK5l" to="3ojc:5dZoziR2286" resolve="getKeyPropertyFromReferenceBP" />
-                                    <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
-                                    <node concept="30H73N" id="3hU1PLNxek5" role="37wK5m" />
-                                  </node>
-                                </node>
-                                <node concept="3TrEf2" id="3hU1PLNxeJj" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="tpee:g7uigIF" />
-                                </node>
-                              </node>
-                              <node concept="2qgKlT" id="3hU1PLNxfrt" role="2OqNvi">
-                                <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+              <node concept="3VsKOn" id="7JpicW7Hnro" role="37wK5m">
+                <ref role="3VsUkX" to="wyt6:~Object" resolve="Object" />
+                <node concept="1ZhdrF" id="7JpicW7HnMB" role="lGtFl">
+                  <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1116615150612/1116615189566" />
+                  <property role="2qtEX8" value="classifier" />
+                  <node concept="3$xsQk" id="7JpicW7HnMC" role="3$ytzL">
+                    <node concept="3clFbS" id="7JpicW7HnMD" role="2VODD2">
+                      <node concept="3clFbF" id="7JpicW7Hpgn" role="3cqZAp">
+                        <node concept="2OqwBi" id="7JpicW7Hrr4" role="3clFbG">
+                          <node concept="2OqwBi" id="7JpicW7Hr4O" role="2Oq$k0">
+                            <node concept="1PxgMI" id="7JpicW7HqXk" role="2Oq$k0">
+                              <ref role="1PxNhF" to="tpee:g7uibYu" resolve="ClassifierType" />
+                              <node concept="2YIFZM" id="7JpicW7Hpgo" role="1PxMeX">
+                                <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
+                                <ref role="37wK5l" to="3ojc:5dZoziR2286" resolve="getKeyPropertyFromReferenceBP" />
+                                <node concept="30H73N" id="7JpicW7Hpgp" role="37wK5m" />
                               </node>
                             </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="liA8E" id="3hU1PLNx4Xb" role="2OqNvi">
-                  <ref role="37wK5l" node="3hU1PLN96Xg" resolve="getNullKey" />
-                </node>
-                <node concept="1W57fq" id="3hU1PLNx5Gm" role="lGtFl">
-                  <node concept="3IZrLx" id="3hU1PLNx5Go" role="3IZSJc">
-                    <node concept="3clFbS" id="3hU1PLNx5Gq" role="2VODD2">
-                      <node concept="3clFbF" id="3hU1PLNx6Oe" role="3cqZAp">
-                        <node concept="2YIFZM" id="3hU1PLNx6SW" role="3clFbG">
-                          <ref role="37wK5l" to="3ojc:3MA_3da9qFf" resolve="isValueObjKeyAtBusinessObjectProperty" />
-                          <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
-                          <node concept="30H73N" id="3hU1PLNx6SX" role="37wK5m" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="10Nm6u" id="3hU1PLNxfyG" role="37wK5m">
-                <node concept="1W57fq" id="3hU1PLNxguf" role="lGtFl">
-                  <node concept="3IZrLx" id="3hU1PLNxguh" role="3IZSJc">
-                    <node concept="3clFbS" id="3hU1PLNxguj" role="2VODD2">
-                      <node concept="3SKdUt" id="3hU1PLNxgVT" role="3cqZAp">
-                        <node concept="3SKdUq" id="3hU1PLNxgVU" role="3SKWNk">
-                          <property role="3SKdUp" value="is it a common integer key reference" />
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="3hU1PLNxgVV" role="3cqZAp">
-                        <node concept="1Wc70l" id="3hU1PLNxh2w" role="3clFbG">
-                          <node concept="3fqX7Q" id="3hU1PLNxh5d" role="3uHU7w">
-                            <node concept="2YIFZM" id="3hU1PLNxhqM" role="3fr31v">
-                              <ref role="37wK5l" to="3ojc:3MA_3da9qFf" resolve="isValueObjKeyAtBusinessObjectProperty" />
-                              <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
-                              <node concept="30H73N" id="3hU1PLNxhqN" role="37wK5m" />
+                            <node concept="3TrEf2" id="7JpicW7Hre8" role="2OqNvi">
+                              <ref role="3Tt5mk" to="tpee:g7uigIF" />
                             </node>
                           </node>
-                          <node concept="3fqX7Q" id="3hU1PLNxgYM" role="3uHU7B">
-                            <node concept="2YIFZM" id="3hU1PLNxgYO" role="3fr31v">
-                              <ref role="37wK5l" to="3ojc:1GxgwjBwEqb" resolve="isIntKeyAtBusinessObjectProperty" />
-                              <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
-                              <node concept="30H73N" id="3hU1PLNxgYP" role="37wK5m" />
-                            </node>
+                          <node concept="2qgKlT" id="7JpicW7HrGR" role="2OqNvi">
+                            <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
                           </node>
                         </node>
                       </node>

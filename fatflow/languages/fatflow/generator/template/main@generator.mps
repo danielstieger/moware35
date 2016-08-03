@@ -2339,11 +2339,8 @@
       <ref role="30HIoZ" to="un0u:2QJz1_oNCw0" resolve="IsNull" />
       <node concept="gft3U" id="2QJz1_oOx5X" role="1lVwrX">
         <node concept="1DoJHT" id="2QJz1_oOx60" role="gfFT$">
-          <property role="1Dpdpm" value="equals" />
+          <property role="1Dpdpm" value="isNullasKey" />
           <node concept="10P_77" id="2QJz1_oOx62" role="1Ez5kq" />
-          <node concept="Xl_RD" id="6RVk_zvsZMx" role="1EOqxR">
-            <property role="Xl_RC" value="" />
-          </node>
         </node>
       </node>
     </node>

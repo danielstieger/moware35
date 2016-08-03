@@ -4302,7 +4302,7 @@
     </node>
     <node concept="wbJLE" id="2PHQwuQRHhI" role="jymVt">
       <property role="wbJLN" value="CHECKIN" />
-      <property role="TrG5h" value="checkinLinkObjectRef" />
+      <property role="TrG5h" value="checkinLinkObjectRefKontoStand" />
       <node concept="37vLTG" id="2PHQwuQRHhJ" role="3clF46">
         <property role="TrG5h" value="obj" />
         <node concept="3uibUv" id="2PHQwuQRHhK" role="1tU5fm">
@@ -4316,6 +4316,32 @@
           <ref role="P14SV" node="4CKmHM2U5iX" resolve="MapLinkObjectKontoStand" />
           <node concept="37vLTw" id="2PHQwuQRHhP" role="P1rGp">
             <ref role="3cqZAo" node="2PHQwuQRHhJ" resolve="obj" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="wbJLE" id="7JpicW9kZ_t" role="jymVt">
+      <property role="TrG5h" value="checkoutLinkObjectRefKontoStand" />
+      <property role="wbJLN" value="CHECKOUT" />
+      <node concept="37vLTG" id="7JpicW9kZUP" role="3clF46">
+        <property role="TrG5h" value="objID" />
+        <node concept="10Oyi0" id="7JpicW9l0dC" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="7JpicW9kZYv" role="3clF45">
+        <ref role="3uigEE" node="1GxgwjBw9w8" resolve="LinkObject" />
+      </node>
+      <node concept="3Tm1VV" id="7JpicW9kZ_v" role="1B3o_S" />
+      <node concept="3clFbS" id="7JpicW9kZ_w" role="3clF47">
+        <node concept="3cpWs6" id="7JpicW9l05j" role="3cqZAp">
+          <node concept="jybIQ" id="7JpicW9l07L" role="3cqZAk">
+            <property role="1v8G3g" value="false" />
+            <property role="HScZ5" value="false" />
+            <ref role="P14SV" node="4CKmHM2U5iX" resolve="MapLinkObjectKontoStand" />
+            <node concept="TUlRj" id="7JpicW9l0b5" role="jxX7b">
+              <node concept="37vLTw" id="7JpicW9l0fx" role="TUlRy">
+                <ref role="3cqZAo" node="7JpicW9kZUP" resolve="objID" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -11652,7 +11678,7 @@
         <node concept="3clFbF" id="2PHQwuR5q$u" role="3cqZAp">
           <node concept="1odsa" id="2PHQwuR5q$v" role="3clFbG">
             <ref role="1ods_" node="36k2Uwstchd" resolve="QueryFromMapsRepo" />
-            <ref role="37wK5l" node="2PHQwuQRHhI" resolve="checkinLinkObjectRef" />
+            <ref role="37wK5l" node="2PHQwuQRHhI" resolve="checkinLinkObjectRefKontoStand" />
             <node concept="37vLTw" id="2PHQwuR5q$w" role="37wK5m">
               <ref role="3cqZAo" node="2PHQwuQVx70" resolve="directRefTestLnkObj" />
             </node>
@@ -19227,6 +19253,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="7JpicW9Bbak" role="3cqZAp" />
         <node concept="1gVbGN" id="1vKpqttUCOf" role="3cqZAp">
           <node concept="3eOSWO" id="1vKpqttUDje" role="1gVkn0">
             <node concept="3cmrfG" id="1vKpqttUDjo" role="3uHU7w">
@@ -26393,6 +26420,34 @@
           </node>
         </node>
         <node concept="3clFbH" id="3hU1PLNisRo" role="3cqZAp" />
+        <node concept="1gVbGN" id="7JpicW8Dc_J" role="3cqZAp">
+          <node concept="2OqwBi" id="7JpicW8DcCy" role="1gVkn0">
+            <node concept="37vLTw" id="7JpicW8DcBX" role="2Oq$k0">
+              <ref role="3cqZAo" node="3hU1PLNisQp" resolve="k" />
+            </node>
+            <node concept="liA8E" id="7JpicW8DcE4" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="2OqwBi" id="7JpicW8DcIi" role="37wK5m">
+                <node concept="1eOMI4" id="7JpicW8DcIj" role="2Oq$k0">
+                  <node concept="10QFUN" id="7JpicW8DcIk" role="1eOMHV">
+                    <node concept="3uibUv" id="7JpicW8DcIl" role="10QFUM">
+                      <ref role="3uigEE" to="28jr:FaoLX6gP4u" resolve="IOFXValueObject" />
+                      <node concept="3uibUv" id="7JpicW8DcIm" role="11_B2D">
+                        <ref role="3uigEE" node="5LYSiLACQh1" resolve="Konto" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="7JpicW8DcIn" role="10QFUP">
+                      <ref role="3cqZAo" node="3hU1PLNisQp" resolve="k" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="7JpicW8DcIo" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:3hU1PLN8evI" resolve="getNullKey" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="3hU1PLNisQ4" role="3cqZAp" />
       </node>
     </node>
@@ -30698,6 +30753,333 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1lpzdTlNdbH" role="1B3o_S" />
+  </node>
+  <node concept="2fsTSP" id="7JpicW8LLdw">
+    <property role="TrG5h" value="Test15_ValueObjectKeyTests" />
+    <ref role="2f14OA" node="33KhHQReT6s" resolve="LolaTestConfig" />
+    <node concept="2fsTSr" id="7JpicW8Owub" role="2fsTST">
+      <property role="TrG5h" value="TEST_1" />
+      <node concept="3cqZAl" id="7JpicW8Owud" role="3clF45" />
+      <node concept="3Tm1VV" id="7JpicW8Owue" role="1B3o_S" />
+      <node concept="Xl_RD" id="7JpicW8Owuf" role="2fsTSx">
+        <property role="Xl_RC" value="API Kompatibility when using Integer, String or ValueObject References." />
+      </node>
+      <node concept="3clFbS" id="7JpicW8Owug" role="3clF47">
+        <node concept="3clFbH" id="7JpicW927Q6" role="3cqZAp" />
+        <node concept="3cpWs8" id="7JpicW8OwvC" role="3cqZAp">
+          <node concept="3cpWsn" id="7JpicW8OwvD" role="3cpWs9">
+            <property role="TrG5h" value="intkeyObject" />
+            <node concept="3uibUv" id="7JpicW8OwvE" role="1tU5fm">
+              <ref role="3uigEE" node="66mO_QBe4P4" resolve="IntKeyObject" />
+            </node>
+            <node concept="2ShNRf" id="7JpicW8Owwe" role="33vP2m">
+              <node concept="1pGfFk" id="7JpicW8Owwb" role="2ShVmc">
+                <ref role="37wK5l" node="66mO_QBe4P6" resolve="IntKeyObject" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7JpicW927Sn" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW927Sp" role="3SKWNk">
+            <property role="3SKdUp" value="Set in map_Entity getKeyRef# from null to 0 " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7JpicW94WOh" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW94WOj" role="3SKWNk">
+            <property role="3SKdUp" value="thus, the OFXKeyReference is not set to 0 right now!" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7JpicW94WQ0" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW94WQ2" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: OFXKeyReference is not initialized properly! That should be changed. " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7JpicW94WRU" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW94WRW" role="3SKWNk">
+            <property role="3SKdUp" value="Not set references should be 0, &quot;&quot; or new ValueObject.getNullAsKey()" />
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JpicW8OwEa" role="3cqZAp">
+          <node concept="3clFbC" id="7JpicW8OwB1" role="1gVkn0">
+            <node concept="3cmrfG" id="7JpicW8OwHm" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="7JpicW8Owxz" role="3uHU7B">
+              <node concept="37vLTw" id="7JpicW8OwwX" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8OwvD" resolve="intkeyObject" />
+              </node>
+              <node concept="WNRgn" id="7JpicW8Owyu" role="2OqNvi">
+                <ref role="WNRgg" node="5LYSiLAD_$S" resolve="refToIntKey" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JpicW8YtS4" role="3cqZAp" />
+        <node concept="3cpWs8" id="7JpicW8YtQF" role="3cqZAp">
+          <node concept="3cpWsn" id="7JpicW8YtQG" role="3cpWs9">
+            <property role="TrG5h" value="linkObject" />
+            <node concept="3uibUv" id="7JpicW8Yu52" role="1tU5fm">
+              <ref role="3uigEE" node="1GxgwjBw9w8" resolve="LinkObject" />
+            </node>
+            <node concept="2ShNRf" id="7JpicW8YtRN" role="33vP2m">
+              <node concept="1pGfFk" id="7JpicW8YtRK" role="2ShVmc">
+                <ref role="37wK5l" node="1GxgwjBw9wa" resolve="LinkObject" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7JpicW929z8" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW929za" role="3SKWNk">
+            <property role="3SKdUp" value="Not set in map_Entity, therefore it is null" />
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JpicW8YtSB" role="3cqZAp">
+          <node concept="3clFbC" id="7JpicW929AC" role="1gVkn0">
+            <node concept="10Nm6u" id="7JpicW929Bc" role="3uHU7w" />
+            <node concept="2OqwBi" id="7JpicW8YtU3" role="3uHU7B">
+              <node concept="37vLTw" id="7JpicW8YtTu" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8YtQG" resolve="linkObject" />
+              </node>
+              <node concept="WNRgn" id="7JpicW8Yu8p" role="2OqNvi">
+                <ref role="WNRgg" node="1GxgwjBw9wm" resolve="stringKeyObject" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JpicW8Yuhb" role="3cqZAp" />
+        <node concept="3cpWs8" id="7JpicW929EX" role="3cqZAp">
+          <node concept="3cpWsn" id="7JpicW929EY" role="3cpWs9">
+            <property role="TrG5h" value="linkObj" />
+            <node concept="3uibUv" id="7JpicW929EZ" role="1tU5fm">
+              <ref role="3uigEE" node="1GxgwjBw9w8" resolve="LinkObject" />
+            </node>
+            <node concept="2ShNRf" id="7JpicW929F0" role="33vP2m">
+              <node concept="1pGfFk" id="7JpicW929F1" role="2ShVmc">
+                <ref role="37wK5l" node="1GxgwjBw9wa" resolve="LinkObject" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7JpicW929GO" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW929GQ" role="3SKWNk">
+            <property role="3SKdUp" value="Not Set in map_Entity, therefore it is null also" />
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JpicW929F3" role="3cqZAp">
+          <node concept="3clFbC" id="7JpicW94OxV" role="1gVkn0">
+            <node concept="10Nm6u" id="7JpicW94Oy$" role="3uHU7w" />
+            <node concept="2OqwBi" id="7JpicW929F5" role="3uHU7B">
+              <node concept="37vLTw" id="7JpicW929F6" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW929EY" resolve="linkObj" />
+              </node>
+              <node concept="WNRgn" id="7JpicW929F7" role="2OqNvi">
+                <ref role="WNRgg" node="4CKmHM2U5iE" resolve="kontoStandRef" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JpicW929Ep" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="7JpicW8LLdx" role="1B3o_S" />
+    <node concept="2fsTSr" id="7JpicW8LuTe" role="2fsTST">
+      <property role="TrG5h" value="TEST_57" />
+      <property role="1gD0iH" value="EXECUTE" />
+      <node concept="3cqZAl" id="7JpicW8LuTg" role="3clF45" />
+      <node concept="3Tm1VV" id="7JpicW8LuTh" role="1B3o_S" />
+      <node concept="Xl_RD" id="7JpicW8LuTi" role="2fsTSx">
+        <property role="Xl_RC" value="Save an Entity with a not set ValueObject Key Reference." />
+      </node>
+      <node concept="3clFbS" id="7JpicW8LuTj" role="3clF47">
+        <node concept="3SKdUt" id="7JpicW8L_WD" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW8L_WF" role="3SKWNk">
+            <property role="3SKdUp" value="Link Key Object, set Reference to KontoStand to null" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JpicW8LCIw" role="3cqZAp" />
+        <node concept="3SKdUt" id="7JpicW8LDJj" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW8LDJl" role="3SKWNk">
+            <property role="3SKdUp" value="is a reference null initialized when creating it? " />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7JpicW8LPml" role="3cqZAp">
+          <node concept="3cpWsn" id="7JpicW8LPmm" role="3cpWs9">
+            <property role="TrG5h" value="linkObj" />
+            <node concept="3uibUv" id="7JpicW8LPmn" role="1tU5fm">
+              <ref role="3uigEE" node="1GxgwjBw9w8" resolve="LinkObject" />
+            </node>
+            <node concept="2ShNRf" id="7JpicW8LPpE" role="33vP2m">
+              <node concept="1pGfFk" id="7JpicW8LPyr" role="2ShVmc">
+                <ref role="37wK5l" node="1GxgwjBw9wa" resolve="LinkObject" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JpicW8LKbr" role="3cqZAp" />
+        <node concept="3SKdUt" id="7JpicW94WDx" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW94WDz" role="3SKWNk">
+            <property role="3SKdUp" value="api compatibility" />
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JpicW94WzB" role="3cqZAp">
+          <node concept="3clFbC" id="7JpicW94WBR" role="1gVkn0">
+            <node concept="10Nm6u" id="7JpicW94WCr" role="3uHU7w" />
+            <node concept="2OqwBi" id="7JpicW94W_d" role="3uHU7B">
+              <node concept="37vLTw" id="7JpicW94W$C" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+              </node>
+              <node concept="WNRgn" id="7JpicW94WAM" role="2OqNvi">
+                <ref role="WNRgg" node="4CKmHM2U5iE" resolve="kontoStandRef" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7JpicW94Wyn" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW94Wyp" role="3SKWNk">
+            <property role="3SKdUp" value="value should not be set" />
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JpicW8LIRl" role="3cqZAp">
+          <node concept="3clFbC" id="7JpicW94WwA" role="1gVkn0">
+            <node concept="2OqwBi" id="7JpicW94Ws0" role="3uHU7B">
+              <node concept="37vLTw" id="7JpicW94Wrr" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+              </node>
+              <node concept="2S8uIT" id="7JpicW94WsZ" role="2OqNvi">
+                <ref role="2S8YL0" node="4CKmHM2U5iE" resolve="kontoStandRef" />
+              </node>
+            </node>
+            <node concept="10Nm6u" id="7JpicW94Wvd" role="3uHU7w" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JpicW94Ww0" role="3cqZAp" />
+        <node concept="3SKdUt" id="7JpicW94WEk" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW94WEm" role="3SKWNk">
+            <property role="3SKdUp" value="set it explicitly to null" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="7JpicW94WG3" role="3cqZAp">
+          <node concept="37vLTI" id="7JpicW94WJK" role="3clFbG">
+            <node concept="10Nm6u" id="7JpicW94WLh" role="37vLTx" />
+            <node concept="2OqwBi" id="7JpicW94WH9" role="37vLTJ">
+              <node concept="37vLTw" id="7JpicW94WG1" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+              </node>
+              <node concept="2S8uIT" id="7JpicW94WIE" role="2OqNvi">
+                <ref role="2S8YL0" node="4CKmHM2U5iE" resolve="kontoStandRef" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JpicW94WSV" role="3cqZAp">
+          <node concept="2OqwBi" id="7JpicW94WWT" role="1gVkn0">
+            <node concept="2OqwBi" id="7JpicW94WUQ" role="2Oq$k0">
+              <node concept="37vLTw" id="7JpicW94WUh" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+              </node>
+              <node concept="WNRgn" id="7JpicW94WVP" role="2OqNvi">
+                <ref role="WNRgg" node="4CKmHM2U5iE" resolve="kontoStandRef" />
+              </node>
+            </node>
+            <node concept="1Poggp" id="7JpicW94WY5" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JpicW8OwlA" role="3cqZAp" />
+        <node concept="3SKdUt" id="7JpicW94WYq" role="3cqZAp">
+          <node concept="3SKdUq" id="7JpicW94WYs" role="3SKWNk">
+            <property role="3SKdUp" value="now the object can be saved without an exception. " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JpicW8LCdN" role="3cqZAp" />
+        <node concept="3clFbH" id="7JpicW8LyEw" role="3cqZAp" />
+        <node concept="3clFbF" id="7JpicW8LyEx" role="3cqZAp">
+          <node concept="1odsa" id="7JpicW8LyEy" role="3clFbG">
+            <ref role="37wK5l" node="2PHQwuQRHhI" resolve="checkinLinkObjectRefKontoStand" />
+            <ref role="1ods_" node="36k2Uwstchd" resolve="QueryFromMapsRepo" />
+            <node concept="37vLTw" id="7JpicW8LPBg" role="37wK5m">
+              <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+            </node>
+            <node concept="10Nm6u" id="7JpicW8LyE$" role="2f8TIa" />
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JpicW8LyE_" role="3cqZAp">
+          <node concept="3y3z36" id="7JpicW8LyEA" role="1gVkn0">
+            <node concept="3cmrfG" id="7JpicW8LyEB" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="7JpicW8LyEC" role="3uHU7B">
+              <node concept="37vLTw" id="7JpicW94X2$" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+              </node>
+              <node concept="2S8uIT" id="7JpicW8LyEE" role="2OqNvi">
+                <ref role="2S8YL0" node="1GxgwjBw9wf" resolve="id" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JpicW94X34" role="3cqZAp" />
+        <node concept="3clFbF" id="7JpicW94X6E" role="3cqZAp">
+          <node concept="37vLTI" id="7JpicW94X8J" role="3clFbG">
+            <node concept="1odsa" id="7JpicW94XlO" role="37vLTx">
+              <ref role="1ods_" node="36k2Uwstchd" resolve="QueryFromMapsRepo" />
+              <ref role="37wK5l" node="7JpicW9kZ_t" resolve="checkoutLinkObjectRefKontoStand" />
+              <node concept="2OqwBi" id="7JpicW94Xow" role="37wK5m">
+                <node concept="37vLTw" id="7JpicW94XnC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+                </node>
+                <node concept="2S8uIT" id="7JpicW94XpM" role="2OqNvi">
+                  <ref role="2S8YL0" node="1GxgwjBw9wf" resolve="id" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="7JpicW94Xmu" role="2f8TIa" />
+            </node>
+            <node concept="37vLTw" id="7JpicW94X6C" role="37vLTJ">
+              <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JpicW94Yun" role="3cqZAp">
+          <node concept="3clFbC" id="7JpicW94Y$i" role="1gVkn0">
+            <node concept="10Nm6u" id="7JpicW94YAv" role="3uHU7w" />
+            <node concept="2OqwBi" id="7JpicW94YxU" role="3uHU7B">
+              <node concept="37vLTw" id="7JpicW94Yx5" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+              </node>
+              <node concept="2S8uIT" id="7JpicW94Yz9" role="2OqNvi">
+                <ref role="2S8YL0" node="4CKmHM2U5iE" resolve="kontoStandRef" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JpicW9kYqn" role="3cqZAp" />
+        <node concept="1gVbGN" id="7JpicW94YEB" role="3cqZAp">
+          <node concept="3y3z36" id="7JpicW94YNF" role="1gVkn0">
+            <node concept="10Nm6u" id="7JpicW94YQ5" role="3uHU7w" />
+            <node concept="2OqwBi" id="7JpicW94YIg" role="3uHU7B">
+              <node concept="37vLTw" id="7JpicW94YHr" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+              </node>
+              <node concept="WNRgn" id="7JpicW94YKY" role="2OqNvi">
+                <ref role="WNRgg" node="4CKmHM2U5iE" resolve="kontoStandRef" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JpicW94YUA" role="3cqZAp">
+          <node concept="2OqwBi" id="7JpicW94Z0_" role="1gVkn0">
+            <node concept="2OqwBi" id="7JpicW94YYi" role="2Oq$k0">
+              <node concept="37vLTw" id="7JpicW94YXt" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+              </node>
+              <node concept="WNRgn" id="7JpicW94YZx" role="2OqNvi">
+                <ref role="WNRgg" node="4CKmHM2U5iE" resolve="kontoStandRef" />
+              </node>
+            </node>
+            <node concept="1Poggp" id="7JpicW94Z2$" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
