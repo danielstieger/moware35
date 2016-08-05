@@ -3674,7 +3674,7 @@
       <node concept="3clFbS" id="3iT39D7Ev$" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7Ev_" role="3cqZAp">
           <node concept="Xl_RD" id="3iT39D7EvA" role="3cqZAk">
-            <property role="Xl_RC" value="Yeah, add dont_exec to all executable tests." />
+            <property role="Xl_RC" value="Yeah, add dont_exec to ALL executable tests." />
           </node>
         </node>
       </node>
@@ -3750,7 +3750,7 @@
       <node concept="3clFbS" id="3iT39D7HSe" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7HSf" role="3cqZAp">
           <node concept="Xl_RD" id="3iT39D7HSg" role="3cqZAk">
-            <property role="Xl_RC" value="Yeah, remove dont_exec from all executable tests." />
+            <property role="Xl_RC" value="Yeah, remove dont_exec from ALL executable tests." />
           </node>
         </node>
       </node>

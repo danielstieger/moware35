@@ -75,7 +75,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -4090,7 +4090,7 @@
   </node>
   <node concept="1M2fIO" id="3iT39DeyDb">
     <property role="3GE5qa" value="OFXTest" />
-    <ref role="1M2myG" to="un0u:3iT39DbhYV" resolve="IOFXTestSuitRunSuit" />
+    <ref role="1M2myG" to="un0u:3iT39DbhYV" resolve="IOFXTestSuitIncludeSuit" />
     <node concept="1N5Pfh" id="3iT39DeyDc" role="1Mr941">
       <ref role="1N5Vy1" to="un0u:3iT39DbhYY" />
       <node concept="13QW63" id="3iT39DeyDg" role="1N6uqs">
@@ -4298,6 +4298,54 @@
               </node>
               <node concept="1Wqviy" id="2GZONtJsGd0" role="3uHU7B" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="3n7eUMgsD5E">
+    <property role="3GE5qa" value="OFXCore.OFXNew" />
+    <ref role="1M2myG" to="un0u:3n7eUMgsANq" resolve="CommandCallBasis" />
+    <node concept="1N5Pfh" id="3n7eUMgsDFe" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:3n7eUMgsCe$" />
+      <node concept="13QW63" id="3n7eUMgsDLj" role="1N6uqs">
+        <node concept="3clFbS" id="3n7eUMgsDLl" role="2VODD2">
+          <node concept="3clFbF" id="3n7eUMgsFWI" role="3cqZAp">
+            <node concept="2YIFZM" id="3n7eUMgsGcd" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2OqwBi" id="3n7eUMgsDNr" role="37wK5m">
+                <node concept="2OqwBi" id="3n7eUMgsDNs" role="2Oq$k0">
+                  <node concept="3kakTB" id="3n7eUMgsE3V" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="3n7eUMgsEjN" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:3n7eUMgsCez" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="3n7eUMgsEBN" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:1Csx3LqENaC" resolve="getAssociatedCommands" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="nKS2y" id="3n7eUMgsD6x" role="1MLUbF">
+      <node concept="3clFbS" id="3n7eUMgsD6y" role="2VODD2">
+        <node concept="3clFbF" id="3n7eUMgsD8s" role="3cqZAp">
+          <node concept="2OqwBi" id="3n7eUMgsD8t" role="3clFbG">
+            <node concept="2OqwBi" id="3n7eUMgsD8u" role="2Oq$k0">
+              <node concept="nLn13" id="3n7eUMgsD8v" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="3n7eUMgsD8w" role="2OqNvi">
+                <node concept="1xMEDy" id="3n7eUMgsD8x" role="1xVPHs">
+                  <node concept="chp4Y" id="3n7eUMgsD8y" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:6xpSWdTCm5i" resolve="ICanRunCommands" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="3n7eUMgsD8z" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="3n7eUMgsD8$" role="2OqNvi" />
           </node>
         </node>
       </node>

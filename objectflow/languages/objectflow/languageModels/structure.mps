@@ -1271,6 +1271,8 @@
     <property role="3GE5qa" value="OFXCore.infra" />
     <property role="TrG5h" value="OFXDocumentation" />
     <property role="1pbfSe" value="897667124" />
+    <property role="34LRSv" value="Documentation/Comment" />
+    <property role="R4oN_" value="some space for writing" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5Ee0EjqWOQt" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -2913,8 +2915,8 @@
     <property role="1pbfSe" value="483832941" />
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="OFXTestMethod" />
-    <property role="34LRSv" value="test" />
-    <property role="R4oN_" value="single test to execute" />
+    <property role="34LRSv" value="Simple Test" />
+    <property role="R4oN_" value="without session handling" />
     <ref role="1TJDcQ" to="tpee:fzclF7W" resolve="BaseMethodDeclaration" />
     <node concept="1TJgyj" id="61VVfi2MoK2" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -2927,6 +2929,9 @@
       <property role="20lbJX" value="0..n" />
       <property role="20kJfa" value="finallyMethods" />
       <ref role="20lvS9" node="61VVfi2SpDA" resolve="OFXTestMethodCall" />
+    </node>
+    <node concept="PrWs8" id="3n7eUMgpGRH" role="PzmwI">
+      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
     <node concept="PrWs8" id="3iT39DvblC" role="PzmwI">
       <ref role="PrY4T" node="3iT39Dvbl$" resolve="IOFXTestSuitContent" />
@@ -3046,6 +3051,70 @@
     <property role="1pbfSe" value="1783601558" />
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="IOFXTestSuitContent" />
+  </node>
+  <node concept="1TIwiD" id="3n7eUMgqbJy">
+    <property role="1pbfSe" value="969934962" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXGraphOwnerTestMethod" />
+    <property role="34LRSv" value="Graph Owner based Test" />
+    <property role="R4oN_" value="session handled" />
+    <ref role="1TJDcQ" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+    <node concept="1TJgyi" id="6OEsYvXxhfE" role="1TKVEl">
+      <property role="TrG5h" value="boundObjectsType" />
+      <ref role="AX2Wp" node="6OEsYvXyCG6" resolve="OFXTestSuitBoundObjectType" />
+    </node>
+    <node concept="1TJgyj" id="3n7eUMgten$" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="graphOwnerCommandCall" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3n7eUMgsANq" resolve="CommandCallBasis" />
+    </node>
+    <node concept="1TJgyj" id="3n7eUMgxFBB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="testMethodInsideGraphOwner" />
+      <ref role="20lvS9" node="61VVfi2SpDA" resolve="OFXTestMethodCall" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3n7eUMgsANq">
+    <property role="1pbfSe" value="969299834" />
+    <property role="3GE5qa" value="OFXCore.OFXNew" />
+    <property role="TrG5h" value="CommandCallBasis" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3n7eUMgsCiP" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="actualArgument" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3n7eUMgsCez" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="process" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6ffh1MXzHnh" resolve="Process" />
+    </node>
+    <node concept="1TJgyj" id="3n7eUMgsCe$" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="command" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6ffh1MXzHna" resolve="Command" />
+    </node>
+    <node concept="PrWs8" id="3n7eUMgsDnD" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="6OEsYvXyCG6">
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestSuitBoundObjectType" />
+    <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="M4N5e" id="6OEsYvXyCG7" role="M5hS2">
+      <property role="1uS6qv" value="0" />
+      <property role="1uS6qo" value="boundObject" />
+    </node>
+    <node concept="M4N5e" id="6OEsYvXyCSM" role="M5hS2">
+      <property role="1uS6qo" value="boundList" />
+      <property role="1uS6qv" value="1" />
+    </node>
   </node>
 </model>
 
