@@ -5289,6 +5289,24 @@
       <node concept="10Oyi0" id="5LYSiLACQhl" role="2RkE6I" />
       <node concept="3Tm1VV" id="5qThkEND6nl" role="1B3o_S" />
     </node>
+    <node concept="3clFb_" id="7lZXsD9QLvW" role="jymVt">
+      <property role="TrG5h" value="withMyStatus" />
+      <node concept="3Tm1VV" id="7lZXsD9QLvX" role="1B3o_S" />
+      <node concept="3clFbS" id="7lZXsD9QLvY" role="3clF47">
+        <node concept="3clFbF" id="7lZXsD9QL_v" role="3cqZAp">
+          <node concept="10Nm6u" id="7lZXsD9QL_u" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="7lZXsD9QLvZ" role="3clF45">
+        <ref role="3uigEE" node="5LYSiLACQh1" resolve="Konto" />
+      </node>
+      <node concept="37vLTG" id="7lZXsD9QLw0" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="2XvVpB" id="7lZXsD9QLw1" role="1tU5fm">
+          <ref role="3$lB4D" node="5LYSiLABM5g" resolve="OnOff" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2fsTSP" id="2P7gGuyeYYw">
     <property role="TrG5h" value="Test14_NoSessionManMap" />
@@ -30971,6 +30989,21 @@
             </node>
           </node>
         </node>
+        <node concept="2fu_q0" id="7lZXsD95oGk" role="3cqZAp">
+          <node concept="3cpWs3" id="7lZXsD95oML" role="2fu_qf">
+            <node concept="Xl_RD" id="7lZXsD95oNy" role="3uHU7B">
+              <property role="Xl_RC" value="KontoStandRef#Key before saving " />
+            </node>
+            <node concept="2OqwBi" id="7lZXsD95oL0" role="3uHU7w">
+              <node concept="37vLTw" id="7lZXsD95oJx" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+              </node>
+              <node concept="WNRgn" id="7lZXsD95oMc" role="2OqNvi">
+                <ref role="WNRgg" node="4CKmHM2U5iE" resolve="kontoStandRef" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="1gVbGN" id="7JpicW94WSV" role="3cqZAp">
           <node concept="2OqwBi" id="7JpicW94WWT" role="1gVkn0">
             <node concept="2OqwBi" id="7JpicW94WUQ" role="2Oq$k0">
@@ -30984,7 +31017,7 @@
             <node concept="1Poggp" id="7JpicW94WY5" role="2OqNvi" />
           </node>
         </node>
-        <node concept="3clFbH" id="7JpicW8OwlA" role="3cqZAp" />
+        <node concept="3clFbH" id="7lZXsD8WSv1" role="3cqZAp" />
         <node concept="3SKdUt" id="7JpicW94WYq" role="3cqZAp">
           <node concept="3SKdUq" id="7JpicW94WYs" role="3SKWNk">
             <property role="3SKdUp" value="now the object can be saved without an exception. " />
@@ -31038,6 +31071,11 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="7lZXsD9YWKv" role="3cqZAp">
+          <node concept="3SKdUq" id="7lZXsD9YWKx" role="3SKWNk">
+            <property role="3SKdUp" value="we can access the ref, since it should be null anyway" />
+          </node>
+        </node>
         <node concept="1gVbGN" id="7JpicW94Yun" role="3cqZAp">
           <node concept="3clFbC" id="7JpicW94Y$i" role="1gVkn0">
             <node concept="10Nm6u" id="7JpicW94YAv" role="3uHU7w" />
@@ -31051,7 +31089,8 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7JpicW9kYqn" role="3cqZAp" />
+        <node concept="3clFbH" id="7lZXsD9YWBP" role="3cqZAp" />
+        <node concept="3clFbH" id="7lZXsD9wqAz" role="3cqZAp" />
         <node concept="1gVbGN" id="7JpicW94YEB" role="3cqZAp">
           <node concept="3y3z36" id="7JpicW94YNF" role="1gVkn0">
             <node concept="10Nm6u" id="7JpicW94YQ5" role="3uHU7w" />
@@ -31060,6 +31099,21 @@
                 <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
               </node>
               <node concept="WNRgn" id="7JpicW94YKY" role="2OqNvi">
+                <ref role="WNRgg" node="4CKmHM2U5iE" resolve="kontoStandRef" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2fu_q0" id="7lZXsD9yS3o" role="3cqZAp">
+          <node concept="3cpWs3" id="7lZXsD9ySb8" role="2fu_qf">
+            <node concept="Xl_RD" id="7lZXsD9ySbT" role="3uHU7B">
+              <property role="Xl_RC" value="KontoStandRef#Key after loading" />
+            </node>
+            <node concept="2OqwBi" id="7lZXsD9yS8D" role="3uHU7w">
+              <node concept="37vLTw" id="7lZXsD9yS7a" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JpicW8LPmm" resolve="linkObj" />
+              </node>
+              <node concept="WNRgn" id="7lZXsD9ySaB" role="2OqNvi">
                 <ref role="WNRgg" node="4CKmHM2U5iE" resolve="kontoStandRef" />
               </node>
             </node>
@@ -31078,6 +31132,7 @@
             <node concept="1Poggp" id="7JpicW94Z2$" role="2OqNvi" />
           </node>
         </node>
+        <node concept="3clFbH" id="7lZXsD8ZIZh" role="3cqZAp" />
       </node>
     </node>
   </node>
