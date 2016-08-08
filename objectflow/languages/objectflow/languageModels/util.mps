@@ -4665,6 +4665,39 @@
       <node concept="17QB3L" id="5cU7ygpXJkt" role="3clF45" />
       <node concept="3Tm1VV" id="5cU7ygpXJku" role="1B3o_S" />
     </node>
+    <node concept="2YIFZL" id="3LVh91x9oSm" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <property role="TrG5h" value="getInstanceNameFromFQNameWithoutUnderscrores" />
+      <node concept="37vLTG" id="3LVh91x9oSn" role="3clF46">
+        <property role="TrG5h" value="fqName" />
+        <node concept="17QB3L" id="3LVh91x9oSo" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3LVh91x9oSp" role="3clF47">
+        <node concept="3clFbF" id="3LVh91x9qxA" role="3cqZAp">
+          <node concept="2OqwBi" id="3LVh91x9qBX" role="3clFbG">
+            <node concept="1rXfSq" id="3LVh91x9qx$" role="2Oq$k0">
+              <ref role="37wK5l" node="5cU7ygpXJkf" resolve="getInstanceNameFromFQName" />
+              <node concept="37vLTw" id="3LVh91x9q_E" role="37wK5m">
+                <ref role="3cqZAo" node="3LVh91x9oSn" resolve="fqName" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3LVh91x9qPX" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+              <node concept="Xl_RD" id="3LVh91x9qRn" role="37wK5m">
+                <property role="Xl_RC" value="_" />
+              </node>
+              <node concept="Xl_RD" id="3LVh91x9qXn" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="3LVh91x9oSQ" role="3clF45" />
+      <node concept="3Tm1VV" id="3LVh91x9oSR" role="1B3o_S" />
+    </node>
     <node concept="2tJIrI" id="5cU7ygpXL1U" role="jymVt" />
     <node concept="2tJIrI" id="5cU7ygpXLCD" role="jymVt" />
     <node concept="2tJIrI" id="oHsXc94cxC" role="jymVt" />
