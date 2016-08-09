@@ -87,6 +87,7 @@
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
       <concept id="4323500428121233431" name="jetbrains.mps.lang.editor.structure.EditorCellId" flags="ng" index="2SqB2G" />
+      <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
         <child id="1186402402630" name="styleClass" index="V601i" />
       </concept>
@@ -103,6 +104,7 @@
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
+      <concept id="1186413799158" name="jetbrains.mps.lang.editor.structure.BracketColorStyleClassItem" flags="ln" index="VLuvy" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
         <child id="1223387335081" name="query" index="3n$kyP" />
@@ -153,6 +155,7 @@
       <concept id="1223386653097" name="jetbrains.mps.lang.editor.structure.StrikeOutStyleSheet" flags="ln" index="3nxI2P" />
       <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="1219226236603" name="jetbrains.mps.lang.editor.structure.DrawBracketsStyleClassItem" flags="ln" index="3vyZuw" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
@@ -720,6 +723,15 @@
       </node>
       <node concept="VPxyj" id="1Csx3LqGvau" role="3F10Kt">
         <property role="VOm3f" value="false" />
+      </node>
+    </node>
+    <node concept="14StLt" id="72pStkQl$xi" role="V601i">
+      <property role="TrG5h" value="O2FailIn" />
+      <node concept="VechU" id="72pStkQl$xj" role="3F10Kt">
+        <property role="Vb096" value="red" />
+      </node>
+      <node concept="Vb9p2" id="72pStkQl$xk" role="3F10Kt">
+        <property role="Vbekb" value="ITALIC" />
       </node>
     </node>
     <node concept="14StLt" id="WwSagswj7o" role="V601i">
@@ -8941,26 +8953,12 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="PMmxH" id="61VVfi2Gvdq" role="3EZMnx">
-        <ref role="PMmxG" to="tpen:5UYpxeVafB6" resolve="BaseMethodDeclaration_BodyComponent" />
-        <node concept="pkWqt" id="61VVfi2Gvdr" role="pqm2j">
-          <node concept="3clFbS" id="61VVfi2Gvds" role="2VODD2">
-            <node concept="3cpWs6" id="61VVfi2Gvdt" role="3cqZAp">
-              <node concept="3fqX7Q" id="61VVfi2Gvdu" role="3cqZAk">
-                <node concept="2OqwBi" id="7fnnP3fG0In" role="3fr31v">
-                  <node concept="pncrf" id="7fnnP3fG0vY" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="7fnnP3fG2$X" role="2OqNvi">
-                    <ref role="37wK5l" to="tpek:hWjv7RO" resolve="isAbstract" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="pVoyu" id="61VVfi2Mp5U" role="3F10Kt">
+      <node concept="PMmxH" id="72pStkQd8dt" role="3EZMnx">
+        <ref role="PMmxG" node="72pStkQd86t" resolve="OFXTestMethodBase" />
+        <node concept="pVoyu" id="72pStkQd8e0" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="lj46D" id="7ECLRBguVE9" role="3F10Kt">
+        <node concept="lj46D" id="72pStkQd8eg" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -9391,6 +9389,26 @@
       <node concept="PMmxH" id="3n7eUMgszYe" role="3EZMnx">
         <ref role="PMmxG" node="3n7eUMgqc2v" resolve="OFXTestMethodHeader" />
       </node>
+      <node concept="3F0ifn" id="72pStkQj78Y" role="3EZMnx">
+        <property role="3F0ifm" value="// der test ist documentation zugleich. er soll eine geschichte erzaehlen." />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pVoyu" id="72pStkQj7bV" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="72pStkQj7ci" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="72pStkQj7dT" role="3EZMnx">
+        <property role="3F0ifm" value="// wie machen wir das? woher kommen daten, etc. " />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="lj46D" id="72pStkQj7f2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="72pStkQj7fb" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="3n7eUMgszYf" role="3EZMnx">
         <property role="3F0ifm" value="depends on" />
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
@@ -9455,21 +9473,7 @@
         </node>
       </node>
       <node concept="PMmxH" id="3n7eUMgszYn" role="3EZMnx">
-        <ref role="PMmxG" to="tpen:5UYpxeVafB6" resolve="BaseMethodDeclaration_BodyComponent" />
-        <node concept="pkWqt" id="3n7eUMgszYo" role="pqm2j">
-          <node concept="3clFbS" id="3n7eUMgszYp" role="2VODD2">
-            <node concept="3cpWs6" id="3n7eUMgszYq" role="3cqZAp">
-              <node concept="3fqX7Q" id="3n7eUMgszYr" role="3cqZAk">
-                <node concept="2OqwBi" id="3n7eUMgszYs" role="3fr31v">
-                  <node concept="pncrf" id="3n7eUMgszYt" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="3n7eUMgszYu" role="2OqNvi">
-                    <ref role="37wK5l" to="tpek:hWjv7RO" resolve="isAbstract" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
+        <ref role="PMmxG" node="72pStkQd86t" resolve="OFXTestMethodBase" />
         <node concept="pVoyu" id="3n7eUMgszYv" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -9481,6 +9485,26 @@
       <node concept="3F0ifn" id="3n7eUMgszYy" role="3EZMnx">
         <property role="3F0ifm" value="" />
         <node concept="pVoyu" id="3n7eUMgszYz" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="72pStkQ$rXQ" role="3EZMnx">
+        <property role="3F0ifm" value="// richtig aufräumen und alles erzeugte entfernen, auch " />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pVoyu" id="72pStkQ$rXR" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="72pStkQ$rXS" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="72pStkQ$rXT" role="3EZMnx">
+        <property role="3F0ifm" value="// wenn der test nicht volständig ausgeführt werden konnte." />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="lj46D" id="72pStkQ$rXU" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="72pStkQ$rXV" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -9630,8 +9654,9 @@
         </node>
       </node>
       <node concept="3F1sOY" id="3LVh91wYZsg" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;asserts before conclude&gt;" />
+        <property role="1$x2rV" value="&lt;before conclude&gt;" />
         <ref role="1NtTu8" to="un0u:3LVh91wT6ZF" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="pVoyu" id="3LVh91wYZGt" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -9668,6 +9693,82 @@
         </node>
       </node>
       <node concept="l2Vlx" id="3LVh91wT9jy" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="72pStkQaH62">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1XX52x" to="un0u:72pStkQaFl2" resolve="OFXTestFailIn" />
+    <node concept="3EZMnI" id="72pStkQaH6B" role="2wV5jI">
+      <node concept="PMmxH" id="72pStkQj9Id" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" node="72pStkQl$xi" resolve="O2FailIn" />
+      </node>
+      <node concept="1iCGBv" id="72pStkQj9Iy" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:72pStkQj9GH" />
+        <node concept="1sVBvm" id="72pStkQj9I$" role="1sWHZn">
+          <node concept="3F0A7n" id="72pStkQj9IV" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F1sOY" id="72pStkQl$BH" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;contains&gt;" />
+        <ref role="1NtTu8" to="un0u:72pStkQl$_y" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="2SsqMj" id="72pStkQaH7n" role="3EZMnx">
+        <node concept="3vyZuw" id="72pStkQpLUG" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VLuvy" id="72pStkQpLWQ" role="3F10Kt">
+          <property role="Vb096" value="red" />
+        </node>
+        <node concept="pVoyu" id="72pStkQtlvT" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="72pStkQj9Jt" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="72pStkQd86t">
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestMethodBase" />
+    <ref role="1XX52x" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+    <node concept="3EZMnI" id="72pStkQd86V" role="2wV5jI">
+      <node concept="1HlG4h" id="72pStkQd88T" role="3EZMnx">
+        <ref role="1k5W1q" to="tpen:hFD2Y0y" resolve="MethodName" />
+        <node concept="VPM3Z" id="hQ6p3Q0" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPxyj" id="hQ6p4ZM" role="3F10Kt" />
+        <node concept="VechU" id="hQ6p9Zf" role="3F10Kt">
+          <property role="Vb096" value="DARK_BLUE" />
+        </node>
+        <node concept="1HfYo3" id="72pStkQd88V" role="1HlULh">
+          <node concept="3TQlhw" id="72pStkQd88X" role="1Hhtcw">
+            <node concept="3clFbS" id="72pStkQd88Z" role="2VODD2">
+              <node concept="3clFbF" id="72pStkQd8gn" role="3cqZAp">
+                <node concept="3cpWs3" id="72pStkQd8ov" role="3clFbG">
+                  <node concept="Xl_RD" id="72pStkQd8gm" role="3uHU7B">
+                    <property role="Xl_RC" value="func()-&gt;" />
+                  </node>
+                  <node concept="2OqwBi" id="72pStkQd8zM" role="3uHU7w">
+                    <node concept="pncrf" id="72pStkQd8pP" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="72pStkQd90n" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:fzclF7X" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="PMmxH" id="72pStkQd8aL" role="3EZMnx">
+        <ref role="PMmxG" to="tpen:5UYpxeVafB6" resolve="BaseMethodDeclaration_BodyComponent" />
+      </node>
+      <node concept="l2Vlx" id="72pStkQd86Y" role="2iSdaV" />
     </node>
   </node>
 </model>

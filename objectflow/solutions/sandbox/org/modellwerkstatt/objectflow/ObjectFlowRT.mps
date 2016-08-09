@@ -2488,7 +2488,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5T_hheUIgOo" role="3cqZAp" />
         <node concept="3cpWs8" id="3c_aOQpO1gP" role="3cqZAp">
           <node concept="3cpWsn" id="3c_aOQpO1gQ" role="3cpWs9">
             <property role="TrG5h" value="sw" />
