@@ -3156,7 +3156,7 @@
     <node concept="1TJgyj" id="3LVh91wT6o$" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="conclusion" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="1Csx3LqtqVF" resolve="PageConclusion" />
     </node>
     <node concept="PrWs8" id="3LVh91x6Wfr" role="PzmwI">
