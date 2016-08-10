@@ -36460,6 +36460,31 @@
         </node>
       </node>
     </node>
+    <node concept="3clFbW" id="5buytp$eqAo" role="jymVt">
+      <node concept="37vLTG" id="5buytp$exwv" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="5buytp$exxQ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5buytp$eqAp" role="3clF46">
+        <property role="TrG5h" value="ex" />
+        <node concept="3uibUv" id="5buytp$eutI" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5buytp$eqAr" role="3clF45" />
+      <node concept="3Tm1VV" id="5buytp$eqAs" role="1B3o_S" />
+      <node concept="3clFbS" id="5buytp$eqAt" role="3clF47">
+        <node concept="XkiVB" id="5buytp$eqAu" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="5buytp$exzG" role="37wK5m">
+            <ref role="3cqZAo" node="5buytp$exwv" resolve="msg" />
+          </node>
+          <node concept="37vLTw" id="5buytp$eqAv" role="37wK5m">
+            <ref role="3cqZAo" node="5buytp$eqAp" resolve="ex" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
