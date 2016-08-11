@@ -3203,5 +3203,43 @@
       </node>
     </node>
   </node>
+  <node concept="1TIwiD" id="6WBZVtQO2TS">
+    <property role="1pbfSe" value="436720081" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestCompareStatement" />
+    <property role="34LRSv" value="compare" />
+    <property role="R4oN_" value="compare / store graphs" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyi" id="6WBZVtQO3K3" role="1TKVEl">
+      <property role="TrG5h" value="graphName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="6WBZVtQO3Hv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="6WBZVtR0LH0" role="PzmwI">
+      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6WBZVtQRBVm">
+    <property role="1pbfSe" value="1775143209" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestSuitWriteNoCompareOption" />
+    <property role="R4oN_" value="cmp statement writes graph" />
+    <property role="34LRSv" value="WRITE_DONT_COMPARE" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6WBZVtQRBVn" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="test" />
+      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+    </node>
+    <node concept="PrWs8" id="6WBZVtQRBVo" role="PzmwI">
+      <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
+    </node>
+  </node>
 </model>
 

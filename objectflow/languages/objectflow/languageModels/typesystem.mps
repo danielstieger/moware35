@@ -9616,5 +9616,117 @@
       <ref role="1YaFvo" to="un0u:72pStkQaFl2" resolve="OFXTestFailIn" />
     </node>
   </node>
+  <node concept="1YbPZF" id="6WBZVtQOm9O">
+    <property role="TrG5h" value="typeof_OFXTestCompareStatement" />
+    <property role="3GE5qa" value="OFXTest" />
+    <node concept="3clFbS" id="6WBZVtQOm9P" role="18ibNy">
+      <node concept="nvevp" id="6WBZVtQOmbB" role="3cqZAp">
+        <node concept="3clFbS" id="6WBZVtQOmbC" role="nvhr_">
+          <node concept="3cpWs8" id="6WBZVtQOmMq" role="3cqZAp">
+            <node concept="3cpWsn" id="6WBZVtQOmMt" role="3cpWs9">
+              <property role="TrG5h" value="okay" />
+              <node concept="10P_77" id="6WBZVtQOmMo" role="1tU5fm" />
+              <node concept="3clFbT" id="6WBZVtQOmOx" role="33vP2m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="6WBZVtQOm$M" role="3cqZAp">
+            <node concept="2OqwBi" id="6WBZVtQOmBJ" role="3clFbw">
+              <node concept="2X3wrD" id="6WBZVtQOmAE" role="2Oq$k0">
+                <ref role="2X3Bk0" node="6WBZVtQOmbE" resolve="expType" />
+              </node>
+              <node concept="1mIQ4w" id="6WBZVtQOmFL" role="2OqNvi">
+                <node concept="chp4Y" id="6WBZVtQOmGU" role="cj9EA">
+                  <ref role="cht4Q" to="tpee:g7uibYu" resolve="ClassifierType" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="6WBZVtQOm$O" role="3clFbx">
+              <node concept="3cpWs8" id="6WBZVtQOmXo" role="3cqZAp">
+                <node concept="3cpWsn" id="6WBZVtQOmXr" role="3cpWs9">
+                  <property role="TrG5h" value="cl" />
+                  <node concept="3Tqbb2" id="6WBZVtQOmXm" role="1tU5fm">
+                    <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
+                  </node>
+                  <node concept="2OqwBi" id="6WBZVtQOnaG" role="33vP2m">
+                    <node concept="1PxgMI" id="6WBZVtQOn4a" role="2Oq$k0">
+                      <ref role="1PxNhF" to="tpee:g7uibYu" resolve="ClassifierType" />
+                      <node concept="2X3wrD" id="6WBZVtQOn30" role="1PxMeX">
+                        <ref role="2X3Bk0" node="6WBZVtQOmbE" resolve="expType" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="6WBZVtQOnr1" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:g7uigIF" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbJ" id="6WBZVtQOmQm" role="3cqZAp">
+                <node concept="3clFbS" id="6WBZVtQOmQo" role="3clFbx">
+                  <node concept="3clFbF" id="6WBZVtQOpyC" role="3cqZAp">
+                    <node concept="37vLTI" id="6WBZVtQOp$s" role="3clFbG">
+                      <node concept="3clFbT" id="6WBZVtQOp$G" role="37vLTx">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="37vLTw" id="6WBZVtQOpyB" role="37vLTJ">
+                        <ref role="3cqZAo" node="6WBZVtQOmMt" resolve="okay" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="6WBZVtQOnBs" role="3clFbw">
+                  <node concept="37vLTw" id="6WBZVtQOnwp" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6WBZVtQOmXr" resolve="cl" />
+                  </node>
+                  <node concept="1mIQ4w" id="6WBZVtQOnSc" role="2OqNvi">
+                    <node concept="chp4Y" id="6WBZVtQOnVR" role="cj9EA">
+                      <ref role="cht4Q" to="un0u:1caoEBn$Vr$" resolve="BusinessObject" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="6WBZVtQOpA_" role="3cqZAp" />
+          <node concept="3clFbJ" id="6WBZVtQOpDd" role="3cqZAp">
+            <node concept="3clFbS" id="6WBZVtQOpDf" role="3clFbx">
+              <node concept="2MkqsV" id="6WBZVtQOpHN" role="3cqZAp">
+                <node concept="Xl_RD" id="6WBZVtQOpI2" role="2MkJ7o">
+                  <property role="Xl_RC" value="Only entities could be compared as graphs." />
+                </node>
+                <node concept="1YBJjd" id="6WBZVtQOpZS" role="2OEOjV">
+                  <ref role="1YBMHb" node="6WBZVtQOm9R" resolve="ofxTestCompareStatement" />
+                </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="6WBZVtQOpGH" role="3clFbw">
+              <node concept="37vLTw" id="6WBZVtQOpGJ" role="3fr31v">
+                <ref role="3cqZAo" node="6WBZVtQOmMt" resolve="okay" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Z2H0r" id="6WBZVtQOmeV" role="nvjzm">
+          <node concept="2OqwBi" id="6WBZVtQOmjs" role="1Z2MuG">
+            <node concept="1YBJjd" id="6WBZVtQOmgd" role="2Oq$k0">
+              <ref role="1YBMHb" node="6WBZVtQOm9R" resolve="ofxTestCompareStatement" />
+            </node>
+            <node concept="3TrEf2" id="6WBZVtQOmyl" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:6WBZVtQO3Hv" />
+            </node>
+          </node>
+        </node>
+        <node concept="2X1qdy" id="6WBZVtQOmbE" role="2X0Ygz">
+          <property role="TrG5h" value="expType" />
+          <node concept="2jxLKc" id="6WBZVtQOmbF" role="1tU5fm" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6WBZVtQOm9R" role="1YuTPh">
+      <property role="TrG5h" value="ofxTestCompareStatement" />
+      <ref role="1YaFvo" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
+    </node>
+  </node>
 </model>
 

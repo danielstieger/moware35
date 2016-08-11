@@ -974,5 +974,21 @@
       </node>
     </node>
   </node>
+  <node concept="3_zdsH" id="6WBZVtR0L7Y">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="3_znuS" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
+    <node concept="3__wT9" id="6WBZVtR0L7Z" role="3_A6iZ">
+      <node concept="3clFbS" id="6WBZVtR0L80" role="2VODD2">
+        <node concept="3AgYrR" id="6WBZVtR0Lbz" role="3cqZAp">
+          <node concept="2OqwBi" id="6WBZVtR0Lgx" role="3Ah4Yx">
+            <node concept="3__QtB" id="6WBZVtR0LcE" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6WBZVtR0LnP" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:6WBZVtQO3Hv" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

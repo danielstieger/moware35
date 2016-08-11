@@ -22,6 +22,7 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -35,6 +36,7 @@
       </concept>
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -4226,8 +4228,8 @@
               <node concept="nLn13" id="2w93nZwA61t" role="2Oq$k0" />
               <node concept="2Xjw5R" id="2w93nZwA67r" role="2OqNvi">
                 <node concept="1xMEDy" id="2w93nZwA67t" role="1xVPHs">
-                  <node concept="chp4Y" id="2w93nZwA695" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+                  <node concept="chp4Y" id="6WBZVtQX2_m" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
                   </node>
                 </node>
               </node>
@@ -4379,11 +4381,26 @@
           <node concept="3cpWsn" id="5buytpzRhNB" role="3cpWs9">
             <property role="TrG5h" value="ok" />
             <node concept="10P_77" id="5buytpzRhNy" role="1tU5fm" />
-            <node concept="2OqwBi" id="7Z3mGVdEIIu" role="33vP2m">
-              <node concept="nLn13" id="7Z3mGVdEIG_" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="7Z3mGVdEIKR" role="2OqNvi">
-                <node concept="chp4Y" id="7Z3mGVdEIMm" role="cj9EA">
-                  <ref role="cht4Q" to="tpee:fzclF8l" resolve="Statement" />
+            <node concept="1Wc70l" id="6WBZVtR3DoQ" role="33vP2m">
+              <node concept="2OqwBi" id="6WBZVtR3DTz" role="3uHU7w">
+                <node concept="2OqwBi" id="6WBZVtR3Dxs" role="2Oq$k0">
+                  <node concept="nLn13" id="6WBZVtR3Duq" role="2Oq$k0" />
+                  <node concept="2Xjw5R" id="6WBZVtR3DCe" role="2OqNvi">
+                    <node concept="1xMEDy" id="6WBZVtR3DCg" role="1xVPHs">
+                      <node concept="chp4Y" id="6WBZVtR3DF_" role="ri$Ld">
+                        <ref role="cht4Q" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="6WBZVtR3EEt" role="2OqNvi" />
+              </node>
+              <node concept="2OqwBi" id="7Z3mGVdEIIu" role="3uHU7B">
+                <node concept="nLn13" id="7Z3mGVdEIG_" role="2Oq$k0" />
+                <node concept="1mIQ4w" id="7Z3mGVdEIKR" role="2OqNvi">
+                  <node concept="chp4Y" id="7Z3mGVdEIMm" role="cj9EA">
+                    <ref role="cht4Q" to="tpee:fzclF8l" resolve="Statement" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -4394,6 +4411,57 @@
             <ref role="3cqZAo" node="5buytpzRhNB" resolve="ok" />
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6WBZVtQO495">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1M2myG" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
+    <node concept="EnEH3" id="6WBZVtQO4D1" role="1MhHOB">
+      <ref role="EomxK" to="un0u:6WBZVtQO3K3" resolve="graphName" />
+      <node concept="QB0g5" id="6WBZVtQO4EJ" role="QCWH9">
+        <node concept="3clFbS" id="6WBZVtQO4EK" role="2VODD2">
+          <node concept="3clFbF" id="6WBZVtQO4H3" role="3cqZAp">
+            <node concept="3clFbC" id="6WBZVtQO4Na" role="3clFbG">
+              <node concept="2OqwBi" id="6WBZVtQO4SW" role="3uHU7w">
+                <node concept="1Wqviy" id="6WBZVtQO4Qa" role="2Oq$k0" />
+                <node concept="liA8E" id="6WBZVtQO54X" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.toUpperCase():java.lang.String" resolve="toUpperCase" />
+                </node>
+              </node>
+              <node concept="1Wqviy" id="6WBZVtQO4H2" role="3uHU7B" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="nKS2y" id="6WBZVtQO4_j" role="1MLUbF">
+      <node concept="3clFbS" id="6WBZVtQO4_k" role="2VODD2">
+        <node concept="3clFbF" id="6WBZVtQO4_U" role="3cqZAp">
+          <node concept="2OqwBi" id="6WBZVtQO4_V" role="3clFbG">
+            <node concept="2OqwBi" id="6WBZVtQO4_W" role="2Oq$k0">
+              <node concept="nLn13" id="6WBZVtQO4_X" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="6WBZVtQO4_Y" role="2OqNvi">
+                <node concept="1xMEDy" id="6WBZVtQO4_Z" role="1xVPHs">
+                  <node concept="chp4Y" id="6WBZVtQX2lD" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="6WBZVtQO4A1" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6WBZVtQRC_a">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1M2myG" to="un0u:6WBZVtQRBVm" resolve="OFXTestSuitWriteNoCompareOption" />
+    <node concept="1N5Pfh" id="6WBZVtQRCC_" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:6WBZVtQRBVn" />
+      <node concept="1dDu$B" id="6WBZVtQRCCA" role="1N6uqs">
+        <ref role="1dDu$A" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
       </node>
     </node>
   </node>
