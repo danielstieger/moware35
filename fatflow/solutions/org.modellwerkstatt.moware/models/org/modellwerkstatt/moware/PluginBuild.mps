@@ -145,7 +145,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 3.3 / moware60 RC6 (MPS335 test 2)" />
+          <property role="3MwjfP" value="MPS 3.3 / moware60 RC6D (mde keyboard)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -1624,6 +1624,12 @@
             <node concept="3bR9La" id="2fUMPwLiuo4" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="1aOWs5uQu77" role="3bR37C">
+            <node concept="3bR9La" id="1aOWs5uQu78" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="1JLTjCmZu2U" resolve="org.modellwerkstatt.fatflow" />
             </node>
           </node>
         </node>
