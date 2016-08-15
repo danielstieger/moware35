@@ -20,6 +20,7 @@
         <child id="4129895186893471026" name="artifacts" index="2JcizS" />
       </concept>
       <concept id="927724900262033858" name="jetbrains.mps.build.structure.BuildSource_JavaOptions" flags="ng" index="2_Ic$z">
+        <property id="927724900262033861" name="generateDebugInfo" index="2_Ic$$" />
         <property id="6998860900671147996" name="javaLevel" index="TZNOO" />
       </concept>
       <concept id="2750015747481074431" name="jetbrains.mps.build.structure.BuildLayout_Files" flags="ng" index="2HvfSZ">
@@ -2192,7 +2193,8 @@
       <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="mps-sl-all" />
     </node>
     <node concept="2_Ic$z" id="4lWBY$2WmIx" role="3989C9">
-      <property role="TZNOO" value="1.6" />
+      <property role="TZNOO" value="1.8" />
+      <property role="2_Ic$$" value="true" />
     </node>
     <node concept="2igEWh" id="6BdVpD_m9XM" role="1hWBAP">
       <property role="2igJW4" value="true" />
