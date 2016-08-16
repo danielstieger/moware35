@@ -29865,6 +29865,15 @@
   <node concept="3HP615" id="4LCWVp02JQP">
     <property role="3GE5qa" value="OFXArchitecture" />
     <property role="TrG5h" value="IOFXEntity" />
+    <node concept="3clFb_" id="5wMObCiZ5mk" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getKeyProperty" />
+      <node concept="3uibUv" id="5wMObCiZ5om" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="5wMObCiZ5mn" role="1B3o_S" />
+      <node concept="3clFbS" id="5wMObCiZ5mo" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="4LCWVp02JQQ" role="1B3o_S" />
     <node concept="16euLQ" id="4LCWVp02JSd" role="16eVyc">
       <property role="TrG5h" value="Key" />
@@ -29922,6 +29931,15 @@
       </node>
       <node concept="3Tm6S6" id="3$bhckDx2XI" role="1B3o_S" />
       <node concept="10Nm6u" id="3$bhckDx2XK" role="33vP2m" />
+    </node>
+    <node concept="Wx3nA" id="26x4y$0nm3B" role="jymVt">
+      <property role="TrG5h" value="fixedDateTime" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="26x4y$0nm0W" role="1tU5fm">
+        <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+      </node>
+      <node concept="3Tm6S6" id="26x4y$0nlQY" role="1B3o_S" />
+      <node concept="10Nm6u" id="26x4y$0nm36" role="33vP2m" />
     </node>
     <node concept="2tJIrI" id="3$bhckDxlkY" role="jymVt" />
     <node concept="2tJIrI" id="3$bhckDxmsw" role="jymVt" />
@@ -30085,6 +30103,32 @@
             <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
           </node>
         </node>
+        <node concept="3clFbH" id="26x4y$0nntC" role="3cqZAp" />
+        <node concept="3SKdUt" id="26x4y$0nnpv" role="3cqZAp">
+          <node concept="3SKdUq" id="26x4y$0nnpw" role="3SKWNk">
+            <property role="3SKdUp" value="Oh, DateProvider was patched for tests" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="26x4y$0nnpx" role="3cqZAp">
+          <node concept="3clFbS" id="26x4y$0nnpy" role="3clFbx">
+            <node concept="3cpWs6" id="26x4y$0nnpz" role="3cqZAp">
+              <node concept="2OqwBi" id="26x4y$0nnzJ" role="3cqZAk">
+                <node concept="37vLTw" id="26x4y$0nnpC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="26x4y$0nm3B" resolve="fixedDateTime" />
+                </node>
+                <node concept="liA8E" id="26x4y$0nnFs" role="2OqNvi">
+                  <ref role="37wK5l" to="w08f:~DateTime.toLocalDate():org.joda.time.LocalDate" resolve="toLocalDate" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="26x4y$0nnp$" role="3clFbw">
+            <node concept="10Nm6u" id="26x4y$0nnp_" role="3uHU7w" />
+            <node concept="37vLTw" id="26x4y$0nnpG" role="3uHU7B">
+              <ref role="3cqZAo" node="26x4y$0nm3B" resolve="fixedDateTime" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="5T_hheTOZO4" role="3cqZAp" />
         <node concept="3cpWs6" id="3$bhckDx316" role="3cqZAp">
           <node concept="10QFUN" id="3$bhckDx317" role="3cqZAk">
@@ -30194,7 +30238,28 @@
             <ref role="37wK5l" to="wyt6:~Thread.interrupted():boolean" resolve="interrupted" />
           </node>
         </node>
-        <node concept="3clFbH" id="5T_hheTP5EN" role="3cqZAp" />
+        <node concept="3clFbH" id="26x4y$0nniG" role="3cqZAp" />
+        <node concept="3SKdUt" id="26x4y$0nne_" role="3cqZAp">
+          <node concept="3SKdUq" id="26x4y$0nneB" role="3SKWNk">
+            <property role="3SKdUp" value="Oh, DateProvider was patched for tests" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="26x4y$0nmuF" role="3cqZAp">
+          <node concept="3clFbS" id="26x4y$0nmuH" role="3clFbx">
+            <node concept="3cpWs6" id="26x4y$0nmS$" role="3cqZAp">
+              <node concept="37vLTw" id="26x4y$0nn0E" role="3cqZAk">
+                <ref role="3cqZAo" node="26x4y$0nm3B" resolve="fixedDateTime" />
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="26x4y$0nmJb" role="3clFbw">
+            <node concept="10Nm6u" id="26x4y$0nmNc" role="3uHU7w" />
+            <node concept="37vLTw" id="26x4y$0nmAv" role="3uHU7B">
+              <ref role="3cqZAo" node="26x4y$0nm3B" resolve="fixedDateTime" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="26x4y$0nmlX" role="3cqZAp" />
         <node concept="3cpWs6" id="3$bhckDx31B" role="3cqZAp">
           <node concept="10QFUN" id="3$bhckDx31C" role="3cqZAk">
             <node concept="3uibUv" id="3$bhckDx31D" role="10QFUM">
@@ -30298,6 +30363,38 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3$bhckDyuRs" role="jymVt" />
+    <node concept="2YIFZL" id="26x4y$0nqoj" role="jymVt">
+      <property role="TrG5h" value="fixServerDatetimeToConstant" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="26x4y$0nku4" role="3clF47">
+        <node concept="3SKdUt" id="26x4y$0nnO1" role="3cqZAp">
+          <node concept="3SKdUq" id="26x4y$0nnO3" role="3SKWNk">
+            <property role="3SKdUp" value="method called in tests to change runtime to a constant datetime. " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="26x4y$0nmgT" role="3cqZAp">
+          <node concept="37vLTI" id="26x4y$0nmjB" role="3clFbG">
+            <node concept="37vLTw" id="26x4y$0nml2" role="37vLTx">
+              <ref role="3cqZAo" node="26x4y$0nl_S" resolve="dt" />
+            </node>
+            <node concept="37vLTw" id="26x4y$0nmgS" role="37vLTJ">
+              <ref role="3cqZAo" node="26x4y$0nm3B" resolve="fixedDateTime" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="26x4y$0nl_S" role="3clF46">
+        <property role="TrG5h" value="dt" />
+        <node concept="3uibUv" id="26x4y$0nlGN" role="1tU5fm">
+          <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="26x4y$0nku2" role="3clF45" />
+      <node concept="3Tm1VV" id="26x4y$0nku3" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="26x4y$0nj75" role="jymVt" />
+    <node concept="2tJIrI" id="26x4y$0niYK" role="jymVt" />
     <node concept="2YIFZL" id="1fGCQmfQhcV" role="jymVt">
       <property role="TrG5h" value="shutdownAndGcClean" />
       <property role="IEkAT" value="false" />

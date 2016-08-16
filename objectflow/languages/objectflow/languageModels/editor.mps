@@ -9836,5 +9836,50 @@
       <node concept="l2Vlx" id="6WBZVtQRCwP" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="26x4y$0krAN">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="1XX52x" to="un0u:26x4y$0krvH" resolve="OFXTestSuitDateTimeOption" />
+    <node concept="3EZMnI" id="26x4y$0krBV" role="2wV5jI">
+      <node concept="PMmxH" id="26x4y$0krBW" role="3EZMnx">
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F0A7n" id="26x4y$0krDY" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:26x4y$0krAm" resolve="day" />
+      </node>
+      <node concept="3F0ifn" id="26x4y$0krDZ" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+        <ref role="1k5W1q" to="tpen:hFDnyG9" resolve="Dot" />
+      </node>
+      <node concept="3F0A7n" id="26x4y$0krE0" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:26x4y$0krAl" resolve="month" />
+      </node>
+      <node concept="3F0ifn" id="26x4y$0krE1" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+        <ref role="1k5W1q" to="tpen:hFDnyG9" resolve="Dot" />
+      </node>
+      <node concept="3F0A7n" id="26x4y$0krE2" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:26x4y$0krAk" resolve="year" />
+      </node>
+      <node concept="3F0A7n" id="26x4y$0krE3" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:26x4y$0krAn" resolve="hour" />
+      </node>
+      <node concept="3F0ifn" id="26x4y$0krE4" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <ref role="1k5W1q" to="tpen:hFDnyG9" resolve="Dot" />
+      </node>
+      <node concept="3F0A7n" id="26x4y$0krE5" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:26x4y$0krAo" resolve="minute" />
+      </node>
+      <node concept="3F0ifn" id="26x4y$0krE6" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <ref role="1k5W1q" to="tpen:hFDnyG9" resolve="Dot" />
+      </node>
+      <node concept="3F0A7n" id="26x4y$0krE7" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:26x4y$0krAp" resolve="second" />
+      </node>
+      <node concept="l2Vlx" id="26x4y$0krC0" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

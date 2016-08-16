@@ -258,6 +258,7 @@
       <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="3562215692195599741" name="jetbrains.mps.lang.smodel.structure.SLinkImplicitSelect" flags="nn" index="13MTOL">
@@ -265,6 +266,9 @@
       </concept>
       <concept id="1154546950173" name="jetbrains.mps.lang.smodel.structure.ConceptReference" flags="ng" index="3gn64h">
         <reference id="1154546997487" name="concept" index="3gnhBz" />
+      </concept>
+      <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f">
+        <reference id="1182511038750" name="concept" index="1j9C0d" />
       </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -9724,6 +9728,113 @@
       </node>
     </node>
     <node concept="1YaCAy" id="6WBZVtQOm9R" role="1YuTPh">
+      <property role="TrG5h" value="ofxTestCompareStatement" />
+      <ref role="1YaFvo" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="26x4y$0hjsE">
+    <property role="TrG5h" value="check_OFXTestCompareStatement" />
+    <property role="3GE5qa" value="OFXTest" />
+    <node concept="3clFbS" id="26x4y$0hjsF" role="18ibNy">
+      <node concept="3clFbJ" id="26x4y$0hmoo" role="3cqZAp">
+        <node concept="3clFbS" id="26x4y$0hmoq" role="3clFbx">
+          <node concept="3clFbJ" id="26x4y$0hs3i" role="3cqZAp">
+            <node concept="3clFbS" id="26x4y$0hs3k" role="3clFbx">
+              <node concept="a7r0C" id="26x4y$0hs$1" role="3cqZAp">
+                <node concept="3cpWs3" id="26x4y$0ht6n" role="a7wSD">
+                  <node concept="Xl_RD" id="26x4y$0htch" role="3uHU7w">
+                    <property role="Xl_RC" value="' is used twice." />
+                  </node>
+                  <node concept="3cpWs3" id="26x4y$0hsB3" role="3uHU7B">
+                    <node concept="Xl_RD" id="26x4y$0hs$m" role="3uHU7B">
+                      <property role="Xl_RC" value="The name '" />
+                    </node>
+                    <node concept="2OqwBi" id="26x4y$0hsFe" role="3uHU7w">
+                      <node concept="1YBJjd" id="26x4y$0hsBy" role="2Oq$k0">
+                        <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+                      </node>
+                      <node concept="3TrcHB" id="26x4y$0hsRH" role="2OqNvi">
+                        <ref role="3TsBF5" to="un0u:6WBZVtQO3K3" resolve="graphName" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="1YBJjd" id="26x4y$0htEZ" role="2OEOjV">
+                  <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="26x4y$0hsrv" role="3clFbw">
+              <node concept="3cmrfG" id="26x4y$0hsvn" role="3uHU7w">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="2OqwBi" id="26x4y$0hsao" role="3uHU7B">
+                <node concept="2OqwBi" id="26x4y$0hkVe" role="2Oq$k0">
+                  <node concept="2OqwBi" id="26x4y$0hjQV" role="2Oq$k0">
+                    <node concept="2OqwBi" id="26x4y$0hjwf" role="2Oq$k0">
+                      <node concept="1YBJjd" id="26x4y$0hjtd" role="2Oq$k0">
+                        <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+                      </node>
+                      <node concept="I4A8Y" id="26x4y$0hjJ9" role="2OqNvi" />
+                    </node>
+                    <node concept="1j9C0f" id="26x4y$0hkbf" role="2OqNvi">
+                      <ref role="1j9C0d" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
+                    </node>
+                  </node>
+                  <node concept="3zZkjj" id="26x4y$0hojx" role="2OqNvi">
+                    <node concept="1bVj0M" id="26x4y$0hojz" role="23t8la">
+                      <node concept="3clFbS" id="26x4y$0hoj$" role="1bW5cS">
+                        <node concept="3clFbF" id="26x4y$0holV" role="3cqZAp">
+                          <node concept="2OqwBi" id="26x4y$0hoLo" role="3clFbG">
+                            <node concept="liA8E" id="26x4y$0hoTw" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                              <node concept="2OqwBi" id="26x4y$0horb" role="37wK5m">
+                                <node concept="37vLTw" id="26x4y$0holU" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="26x4y$0hoj_" resolve="it" />
+                                </node>
+                                <node concept="3TrcHB" id="26x4y$0ho$q" role="2OqNvi">
+                                  <ref role="3TsBF5" to="un0u:6WBZVtQO3K3" resolve="graphName" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="26x4y$0hp2M" role="2Oq$k0">
+                              <node concept="1YBJjd" id="26x4y$0hoXd" role="2Oq$k0">
+                                <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+                              </node>
+                              <node concept="3TrcHB" id="26x4y$0hpeB" role="2OqNvi">
+                                <ref role="3TsBF5" to="un0u:6WBZVtQO3K3" resolve="graphName" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="26x4y$0hoj_" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="26x4y$0hojA" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="34oBXx" id="26x4y$0hshM" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="26x4y$0hmJe" role="3clFbw">
+          <node concept="2OqwBi" id="26x4y$0hmsB" role="2Oq$k0">
+            <node concept="1YBJjd" id="26x4y$0hmoU" role="2Oq$k0">
+              <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+            </node>
+            <node concept="3TrcHB" id="26x4y$0hm_q" role="2OqNvi">
+              <ref role="3TsBF5" to="un0u:6WBZVtQO3K3" resolve="graphName" />
+            </node>
+          </node>
+          <node concept="17RvpY" id="26x4y$0hmQ5" role="2OqNvi" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="26x4y$0hmn0" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="26x4y$0hjsH" role="1YuTPh">
       <property role="TrG5h" value="ofxTestCompareStatement" />
       <ref role="1YaFvo" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
     </node>

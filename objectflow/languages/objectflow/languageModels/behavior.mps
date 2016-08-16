@@ -14192,5 +14192,91 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="26x4y$0krRx">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="13h7C2" to="un0u:26x4y$0krvH" resolve="OFXTestSuitDateTimeOption" />
+    <node concept="13hLZK" id="26x4y$0krRy" role="13h7CW">
+      <node concept="3clFbS" id="26x4y$0krRz" role="2VODD2">
+        <node concept="3clFbF" id="26x4y$0krRF" role="3cqZAp">
+          <node concept="37vLTI" id="26x4y$0krRG" role="3clFbG">
+            <node concept="3cmrfG" id="26x4y$0krRH" role="37vLTx">
+              <property role="3cmrfH" value="27" />
+            </node>
+            <node concept="2OqwBi" id="26x4y$0krRI" role="37vLTJ">
+              <node concept="13iPFW" id="26x4y$0krRJ" role="2Oq$k0" />
+              <node concept="3TrcHB" id="26x4y$0krRK" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:26x4y$0krAm" resolve="day" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="26x4y$0krRL" role="3cqZAp">
+          <node concept="37vLTI" id="26x4y$0krRM" role="3clFbG">
+            <node concept="3cmrfG" id="26x4y$0krRN" role="37vLTx">
+              <property role="3cmrfH" value="01" />
+            </node>
+            <node concept="2OqwBi" id="26x4y$0krRO" role="37vLTJ">
+              <node concept="13iPFW" id="26x4y$0krRP" role="2Oq$k0" />
+              <node concept="3TrcHB" id="26x4y$0krRQ" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:26x4y$0krAl" resolve="month" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="26x4y$0krRR" role="3cqZAp">
+          <node concept="37vLTI" id="26x4y$0krRS" role="3clFbG">
+            <node concept="3cmrfG" id="26x4y$0krRT" role="37vLTx">
+              <property role="3cmrfH" value="1980" />
+            </node>
+            <node concept="2OqwBi" id="26x4y$0krRU" role="37vLTJ">
+              <node concept="13iPFW" id="26x4y$0krRV" role="2Oq$k0" />
+              <node concept="3TrcHB" id="26x4y$0krRW" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:26x4y$0krAk" resolve="year" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="26x4y$0krRX" role="3cqZAp">
+          <node concept="37vLTI" id="26x4y$0krRY" role="3clFbG">
+            <node concept="3cmrfG" id="26x4y$0krRZ" role="37vLTx">
+              <property role="3cmrfH" value="04" />
+            </node>
+            <node concept="2OqwBi" id="26x4y$0krS0" role="37vLTJ">
+              <node concept="13iPFW" id="26x4y$0krS1" role="2Oq$k0" />
+              <node concept="3TrcHB" id="26x4y$0krS2" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:26x4y$0krAn" resolve="hour" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="26x4y$0krS3" role="3cqZAp">
+          <node concept="37vLTI" id="26x4y$0krS4" role="3clFbG">
+            <node concept="3cmrfG" id="26x4y$0krS5" role="37vLTx">
+              <property role="3cmrfH" value="30" />
+            </node>
+            <node concept="2OqwBi" id="26x4y$0krS6" role="37vLTJ">
+              <node concept="13iPFW" id="26x4y$0krS7" role="2Oq$k0" />
+              <node concept="3TrcHB" id="26x4y$0krS8" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:26x4y$0krAo" resolve="minute" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="26x4y$0krS9" role="3cqZAp">
+          <node concept="37vLTI" id="26x4y$0krSa" role="3clFbG">
+            <node concept="3cmrfG" id="26x4y$0krSb" role="37vLTx">
+              <property role="3cmrfH" value="00" />
+            </node>
+            <node concept="2OqwBi" id="26x4y$0krSc" role="37vLTJ">
+              <node concept="13iPFW" id="26x4y$0krSd" role="2Oq$k0" />
+              <node concept="3TrcHB" id="26x4y$0krSe" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:26x4y$0krAp" resolve="second" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

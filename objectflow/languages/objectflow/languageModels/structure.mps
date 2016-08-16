@@ -3241,5 +3241,40 @@
       <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
     </node>
   </node>
+  <node concept="1TIwiD" id="26x4y$0krvH">
+    <property role="1pbfSe" value="146700635" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestSuitDateTimeOption" />
+    <property role="34LRSv" value="SET_DATETIME" />
+    <property role="R4oN_" value="specify date/time for suit" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="26x4y$0krAk" role="1TKVEl">
+      <property role="TrG5h" value="year" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="26x4y$0krAl" role="1TKVEl">
+      <property role="TrG5h" value="month" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="26x4y$0krAm" role="1TKVEl">
+      <property role="TrG5h" value="day" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="26x4y$0krAn" role="1TKVEl">
+      <property role="TrG5h" value="hour" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="26x4y$0krAo" role="1TKVEl">
+      <property role="TrG5h" value="minute" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyi" id="26x4y$0krAp" role="1TKVEl">
+      <property role="TrG5h" value="second" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="26x4y$0krvJ" role="PzmwI">
+      <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
+    </node>
+  </node>
 </model>
 
