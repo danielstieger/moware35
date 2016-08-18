@@ -49,6 +49,9 @@
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
+      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
+        <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
@@ -141,6 +144,7 @@
       <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="6525155817176754757" name="org.modellwerkstatt.objectflow.structure.VoidStatementList" flags="ig" index="20qIzx" />
       <concept id="8614254524338490549" name="org.modellwerkstatt.objectflow.structure.LengthOption" flags="ng" index="8tbpG">
         <property id="8614254524338490551" name="max" index="8tbpI" />
         <property id="8614254524338490550" name="min" index="8tbpJ" />
@@ -148,9 +152,6 @@
       <concept id="8009651625739169400" name="org.modellwerkstatt.objectflow.structure.OFXTestCompareStatement" flags="ng" index="pXX7f">
         <property id="8009651625739172867" name="graphName" index="pXWeO" />
         <child id="8009651625739172703" name="expression" index="pXWjC" />
-      </concept>
-      <concept id="8009651625740107478" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitWriteNoCompareOption" flags="ng" index="pYo5x">
-        <reference id="8009651625740107479" name="test" index="pYo5w" />
       </concept>
       <concept id="8009046666042261418" name="org.modellwerkstatt.objectflow.structure.ValueObject" flags="ig" index="xR6oC">
         <child id="8009046666042261535" name="equalProperties" index="xR1At" />
@@ -165,6 +166,8 @@
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
         <child id="6952410984685371541" name="content" index="3yMuLx" />
+        <child id="6952410984683978186" name="onShutdown" index="3yTP4Y" />
+        <child id="6952410984683978133" name="onStartup" index="3yTP5x" />
       </concept>
       <concept id="4533072425307715670" name="org.modellwerkstatt.objectflow.structure.StatusElement" flags="ng" index="2XvgOc">
         <property id="4533072425307715682" name="value" index="2XvgOS" />
@@ -198,11 +201,19 @@
         <child id="5770301300929026308" name="longDesc" index="2CNmdL" />
         <child id="5770301300929026304" name="shortDesc" index="2CNmdP" />
       </concept>
+      <concept id="3179794825387428127" name="org.modellwerkstatt.objectflow.structure.OFXTestRunFileStatement" flags="ng" index="3dXMYk">
+        <property id="3179794825389013774" name="fileName" index="3dNLQ5" />
+      </concept>
+      <concept id="3179794825395091428" name="org.modellwerkstatt.objectflow.structure.OFXTestNewSessionExpression" flags="ng" index="3er55J" />
       <concept id="836579671456120410" name="org.modellwerkstatt.objectflow.structure.EqualPropertyReference" flags="ng" index="1kU5Ut">
         <reference id="836579671456120411" name="property" index="1kU5Us" />
       </concept>
       <concept id="271985905034983108" name="org.modellwerkstatt.objectflow.structure.DezimalLiteral" flags="ng" index="1mgVXT">
         <property id="271985905034983109" name="value" index="1mgVXS" />
+      </concept>
+      <concept id="7192042020164640430" name="org.modellwerkstatt.objectflow.structure.ContainerVariable" flags="ng" index="3ulXEM" />
+      <concept id="7192042020164640426" name="org.modellwerkstatt.objectflow.structure.Container" flags="ng" index="3ulXEQ">
+        <child id="7192042020164640432" name="variable" index="3ulXEG" />
       </concept>
       <concept id="6952410984688491110" name="org.modellwerkstatt.objectflow.structure.OFXTestMethodCall" flags="ng" index="3yABqi" />
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F">
@@ -228,8 +239,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -914,8 +935,15 @@
   </node>
   <node concept="2WPaUQ" id="4szYp3XojuM">
     <property role="TrG5h" value="Einfaches Beispiel mit Rechnung" />
-    <property role="MDZS5" value="/Users/danielstieger/moware" />
+    <property role="MDZS5" value="/Users/danielstieger/tmp" />
     <ref role="2WPtWl" to="ofql:33KhHQReT6s" resolve="LolaTestConfig" />
+    <node concept="3ulXEM" id="2KwTCJyokvf" role="3ulXEG">
+      <property role="TrG5h" value="s" />
+      <node concept="3uibUv" id="2KwTCJyokvp" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+      </node>
+      <node concept="3er55J" id="2KwTCJyokvG" role="33vP2m" />
+    </node>
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">
       <property role="TrG5h" value="Rechnung erzeugen" />
       <node concept="3uibUv" id="4szYp3Xojyf" role="3clF45">
@@ -1073,6 +1101,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="2KwTCJyok4z" role="3cqZAp" />
         <node concept="3cpWs6" id="4uY3JoqCtNW" role="3cqZAp">
           <node concept="37vLTw" id="4szYp3XoqZl" role="3cqZAk">
             <ref role="3cqZAo" node="4szYp3Xojze" resolve="r" />
@@ -1089,7 +1118,7 @@
       </node>
       <node concept="3cqZAl" id="4szYp3XolpO" role="3clF45" />
       <node concept="3clFbS" id="4szYp3Xoloz" role="3clF47">
-        <node concept="3clFbH" id="4szYp3Xol_8" role="3cqZAp" />
+        <node concept="3clFbH" id="2KwTCJyoHWl" role="3cqZAp" />
         <node concept="38$l6q" id="4szYp3XolBy" role="3cqZAp">
           <node concept="3cpWs3" id="4szYp3XolHL" role="38$l6p">
             <node concept="2OqwBi" id="4szYp3XolLc" role="3uHU7w">
@@ -1122,10 +1151,14 @@
           </node>
         </node>
         <node concept="3clFbH" id="4szYp3XolZU" role="3cqZAp" />
-        <node concept="pXX7f" id="4szYp3XolS$" role="3cqZAp">
-          <property role="pXWeO" value="RECHNUNG_GESAMT" />
-          <node concept="3zkua3" id="4szYp3XolUu" role="pXWjC">
-            <ref role="3zku8S" node="4szYp3Xolsz" resolve="rechnung" />
+        <node concept="1X3_iC" id="2KwTCJyfu57" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="pXX7f" id="4szYp3XolS$" role="8Wnug">
+            <property role="pXWeO" value="RECHNUNG_GESAMT" />
+            <node concept="3zkua3" id="4szYp3XolUu" role="pXWjC">
+              <ref role="3zku8S" node="4szYp3Xolsz" resolve="rechnung" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="4szYp3XolPp" role="3cqZAp" />
@@ -1134,8 +1167,17 @@
     <node concept="38J6qz" id="4szYp3XolNm" role="38MLOi">
       <ref role="38J6qw" node="4szYp3Xolov" resolve="Rechnung prüfen" />
     </node>
-    <node concept="pYo5x" id="4szYp3XosOg" role="38MLOi">
-      <ref role="pYo5w" node="4szYp3Xolov" resolve="Rechnung prüfen" />
+    <node concept="20qIzx" id="2KwTCJy1zy9" role="3yTP5x">
+      <node concept="3clFbS" id="2KwTCJy1zya" role="2VODD2">
+        <node concept="3clFbH" id="2KwTCJy3VBW" role="3cqZAp" />
+        <node concept="3dXMYk" id="2KwTCJy1zyD" role="3cqZAp">
+          <property role="3dNLQ5" value="testme.sql" />
+        </node>
+        <node concept="3clFbH" id="2KwTCJy3VCK" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="20qIzx" id="2KwTCJyfW8Q" role="3yTP4Y">
+      <node concept="3clFbS" id="2KwTCJyfW8R" role="2VODD2" />
     </node>
   </node>
 </model>

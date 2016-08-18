@@ -9832,11 +9832,153 @@
           <node concept="17RvpY" id="26x4y$0hmQ5" role="2OqNvi" />
         </node>
       </node>
+      <node concept="3clFbH" id="2KwTCJy6JUb" role="3cqZAp" />
+      <node concept="3clFbJ" id="2KwTCJy6FPM" role="3cqZAp">
+        <node concept="3clFbS" id="2KwTCJy6FPO" role="3clFbx">
+          <node concept="2MkqsV" id="2KwTCJy6K15" role="3cqZAp">
+            <node concept="3cpWs3" id="2KwTCJy9iIo" role="2MkJ7o">
+              <node concept="Xl_RD" id="2KwTCJy9iIr" role="3uHU7w">
+                <property role="Xl_RC" value=")" />
+              </node>
+              <node concept="3cpWs3" id="2KwTCJy9i4q" role="3uHU7B">
+                <node concept="3cpWs3" id="2KwTCJy6K16" role="3uHU7B">
+                  <node concept="3cpWs3" id="2KwTCJy6K18" role="3uHU7B">
+                    <node concept="Xl_RD" id="2KwTCJy6K19" role="3uHU7B">
+                      <property role="Xl_RC" value="The file " />
+                    </node>
+                    <node concept="2OqwBi" id="2KwTCJy6K1a" role="3uHU7w">
+                      <node concept="1YBJjd" id="2KwTCJy6K3M" role="2Oq$k0">
+                        <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+                      </node>
+                      <node concept="3TrcHB" id="2KwTCJy6Kx_" role="2OqNvi">
+                        <ref role="3TsBF5" to="un0u:6WBZVtQO3K3" resolve="graphName" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="2KwTCJy6K17" role="3uHU7w">
+                    <property role="Xl_RC" value=".txt does not exist in the data directory. (" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="2KwTCJy9igU" role="3uHU7w">
+                  <node concept="1YBJjd" id="2KwTCJy9icI" role="2Oq$k0">
+                    <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+                  </node>
+                  <node concept="2qgKlT" id="2KwTCJy9i$K" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:2KwTCJy6HcL" resolve="getFullFilname" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1YBJjd" id="2KwTCJy6K$a" role="2OEOjV">
+              <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="2KwTCJy6FPN" role="3cqZAp" />
+        </node>
+        <node concept="3fqX7Q" id="2KwTCJy6JML" role="3clFbw">
+          <node concept="2OqwBi" id="2KwTCJy6JMN" role="3fr31v">
+            <node concept="1YBJjd" id="2KwTCJy6JMO" role="2Oq$k0">
+              <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+            </node>
+            <node concept="2qgKlT" id="2KwTCJy6JMP" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:2KwTCJy6GpH" resolve="exists" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3clFbH" id="26x4y$0hmn0" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="26x4y$0hjsH" role="1YuTPh">
       <property role="TrG5h" value="ofxTestCompareStatement" />
       <ref role="1YaFvo" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2KwTCJy3XlG">
+    <property role="TrG5h" value="check_OFXTestRunFileStatement" />
+    <property role="3GE5qa" value="OFXTest" />
+    <node concept="3clFbS" id="2KwTCJy3XlH" role="18ibNy">
+      <node concept="3clFbJ" id="2KwTCJy3Xyv" role="3cqZAp">
+        <node concept="3fqX7Q" id="2KwTCJy3Yw7" role="3clFbw">
+          <node concept="2OqwBi" id="2KwTCJy3Yw9" role="3fr31v">
+            <node concept="1YBJjd" id="2KwTCJy3Ywa" role="2Oq$k0">
+              <ref role="1YBMHb" node="2KwTCJy3XlJ" resolve="rfs" />
+            </node>
+            <node concept="2qgKlT" id="2KwTCJy3Ywb" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:2KwTCJxVZO4" resolve="exists" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="2KwTCJy3Xyx" role="3clFbx">
+          <node concept="2MkqsV" id="2KwTCJy3Yyl" role="3cqZAp">
+            <node concept="3cpWs3" id="2KwTCJy9jsp" role="2MkJ7o">
+              <node concept="Xl_RD" id="2KwTCJy9jsR" role="3uHU7w">
+                <property role="Xl_RC" value=")" />
+              </node>
+              <node concept="3cpWs3" id="2KwTCJy9j76" role="3uHU7B">
+                <node concept="3cpWs3" id="2KwTCJy3YWa" role="3uHU7B">
+                  <node concept="3cpWs3" id="2KwTCJy3Y_e" role="3uHU7B">
+                    <node concept="Xl_RD" id="2KwTCJy3Yyx" role="3uHU7B">
+                      <property role="Xl_RC" value="The file " />
+                    </node>
+                    <node concept="2OqwBi" id="2KwTCJy3YDf" role="3uHU7w">
+                      <node concept="1YBJjd" id="2KwTCJy3Y_I" role="2Oq$k0">
+                        <ref role="1YBMHb" node="2KwTCJy3XlJ" resolve="rfs" />
+                      </node>
+                      <node concept="3TrcHB" id="2KwTCJy3YLy" role="2OqNvi">
+                        <ref role="3TsBF5" to="un0u:2KwTCJxVZGe" resolve="fileName" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="2KwTCJy3YXO" role="3uHU7w">
+                    <property role="Xl_RC" value=" does not exist in the data directory. (" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="2KwTCJy9jfd" role="3uHU7w">
+                  <node concept="1YBJjd" id="2KwTCJy9jat" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2KwTCJy3XlJ" resolve="rfs" />
+                  </node>
+                  <node concept="2qgKlT" id="2KwTCJy9joL" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:2KwTCJy6IpJ" resolve="getFullFileName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1YBJjd" id="2KwTCJy3Zdw" role="2OEOjV">
+              <ref role="1YBMHb" node="2KwTCJy3XlJ" resolve="rfs" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2KwTCJy3XlJ" role="1YuTPh">
+      <property role="TrG5h" value="rfs" />
+      <ref role="1YaFvo" to="un0u:2KwTCJxPW$v" resolve="OFXTestRunFileStatement" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="2KwTCJyjcga">
+    <property role="TrG5h" value="typeof_OFXTestNewSessionExpression" />
+    <property role="3GE5qa" value="OFXTest" />
+    <node concept="3clFbS" id="2KwTCJyjcgb" role="18ibNy">
+      <node concept="1Z5TYs" id="2KwTCJyjcjJ" role="3cqZAp">
+        <node concept="mw_s8" id="2KwTCJyjck3" role="1ZfhKB">
+          <node concept="2c44tf" id="2KwTCJyjcjZ" role="mwGJk">
+            <node concept="3uibUv" id="2KwTCJyjckJ" role="2c44tc">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="2KwTCJyjcjM" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2KwTCJyjcgh" role="mwGJk">
+            <node concept="1YBJjd" id="2KwTCJyjcgH" role="1Z2MuG">
+              <ref role="1YBMHb" node="2KwTCJyjcgd" resolve="nsExp" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2KwTCJyjcgd" role="1YuTPh">
+      <property role="TrG5h" value="nsExp" />
+      <ref role="1YaFvo" to="un0u:2KwTCJyjbv$" resolve="OFXTestNewSessionExpression" />
     </node>
   </node>
 </model>

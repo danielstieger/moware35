@@ -603,6 +603,7 @@
     <property role="TrG5h" value="DateLiteral" />
     <property role="34LRSv" value="new_LocalDateFromServer" />
     <property role="1pbfSe" value="1809714221" />
+    <property role="R4oN_" value="query current date" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyi" id="vASbTzXMI0" role="1TKVEl">
       <property role="TrG5h" value="year" />
@@ -626,6 +627,7 @@
     <property role="TrG5h" value="DateTimeLiteral" />
     <property role="34LRSv" value="new_DateTimeFromServer" />
     <property role="1pbfSe" value="1809714222" />
+    <property role="R4oN_" value="query current date/time" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyi" id="vASbTzXMI4" role="1TKVEl">
       <property role="TrG5h" value="year" />
@@ -3275,6 +3277,26 @@
     <node concept="PrWs8" id="26x4y$0krvJ" role="PzmwI">
       <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="2KwTCJxPW$v">
+    <property role="1pbfSe" value="234401706" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestRunFileStatement" />
+    <property role="34LRSv" value="run file" />
+    <property role="R4oN_" value="execute sql file" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
+    <node concept="1TJgyi" id="2KwTCJxVZGe" role="1TKVEl">
+      <property role="TrG5h" value="fileName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2KwTCJyjbv$">
+    <property role="1pbfSe" value="242065007" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestNewSessionExpression" />
+    <property role="34LRSv" value="new_Session" />
+    <property role="R4oN_" value="create new session" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>
 
