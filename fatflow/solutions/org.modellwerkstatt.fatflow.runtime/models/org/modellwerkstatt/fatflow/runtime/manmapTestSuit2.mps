@@ -156,6 +156,14 @@
       <concept id="8009046666042261418" name="org.modellwerkstatt.objectflow.structure.ValueObject" flags="ig" index="xR6oC">
         <child id="8009046666042261535" name="equalProperties" index="xR1At" />
       </concept>
+      <concept id="2423238041810352109" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDefaultDateTimeOption" flags="ng" index="xWan4">
+        <property id="2423238041810352537" name="second" index="xWaIK" />
+        <property id="2423238041810352536" name="minute" index="xWaIL" />
+        <property id="2423238041810352533" name="month" index="xWaIW" />
+        <property id="2423238041810352532" name="year" index="xWaIX" />
+        <property id="2423238041810352535" name="hour" index="xWaIY" />
+        <property id="2423238041810352534" name="day" index="xWaIZ" />
+      </concept>
       <concept id="3517052249651130105" name="org.modellwerkstatt.objectflow.structure.RangeOption" flags="ng" index="WfFEq">
         <property id="3517052249651130109" name="stop" index="WfFEu" />
         <property id="3517052249651130108" name="start" index="WfFEv" />
@@ -203,6 +211,9 @@
       </concept>
       <concept id="3179794825387428127" name="org.modellwerkstatt.objectflow.structure.OFXTestRunFileStatement" flags="ng" index="3dXMYk">
         <property id="3179794825389013774" name="fileName" index="3dNLQ5" />
+      </concept>
+      <concept id="3179794825396545338" name="org.modellwerkstatt.objectflow.structure.OFXTestDateTimeOption" flags="ng" index="3egw6L">
+        <reference id="3179794825396546138" name="test" index="3egwNh" />
       </concept>
       <concept id="3179794825395091428" name="org.modellwerkstatt.objectflow.structure.OFXTestNewSessionExpression" flags="ng" index="3er55J" />
       <concept id="836579671456120410" name="org.modellwerkstatt.objectflow.structure.EqualPropertyReference" flags="ng" index="1kU5Ut">
@@ -1163,6 +1174,23 @@
         </node>
         <node concept="3clFbH" id="4szYp3XolPp" role="3cqZAp" />
       </node>
+    </node>
+    <node concept="xWan4" id="2KwTCJyoIAD" role="38MLOi">
+      <property role="xWaIZ" value="07" />
+      <property role="xWaIW" value="1" />
+      <property role="xWaIX" value="1985" />
+      <property role="xWaIY" value="4" />
+      <property role="xWaIL" value="30" />
+      <property role="xWaIK" value="0" />
+    </node>
+    <node concept="3egw6L" id="2KwTCJywth5" role="38MLOi">
+      <property role="xWaIZ" value="27" />
+      <property role="xWaIW" value="1" />
+      <property role="xWaIX" value="1980" />
+      <property role="xWaIY" value="4" />
+      <property role="xWaIL" value="30" />
+      <property role="xWaIK" value="0" />
+      <ref role="3egwNh" node="4szYp3XojxL" resolve="Rechnung erzeugen" />
     </node>
     <node concept="38J6qz" id="4szYp3XolNm" role="38MLOi">
       <ref role="38J6qw" node="4szYp3Xolov" resolve="Rechnung prüfen" />

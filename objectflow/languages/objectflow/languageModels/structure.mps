@@ -3244,11 +3244,11 @@
     </node>
   </node>
   <node concept="1TIwiD" id="26x4y$0krvH">
-    <property role="1pbfSe" value="146700635" />
+    <property role="1pbfSe" value="569559574" />
     <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="OFXTestSuitDateTimeOption" />
-    <property role="34LRSv" value="SET_DATETIME" />
-    <property role="R4oN_" value="specify date/time for suit" />
+    <property role="TrG5h" value="OFXTestSuitDefaultDateTimeOption" />
+    <property role="34LRSv" value="DEFAULT_DATETIME" />
+    <property role="R4oN_" value="specify default date/time" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="26x4y$0krAk" role="1TKVEl">
       <property role="TrG5h" value="year" />
@@ -3297,6 +3297,20 @@
     <property role="34LRSv" value="new_Session" />
     <property role="R4oN_" value="create new session" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="2KwTCJyoIsU">
+    <property role="1pbfSe" value="243518917" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestDateTimeOption" />
+    <property role="34LRSv" value="SET_DATETIME" />
+    <property role="R4oN_" value="date/time for specific test" />
+    <ref role="1TJDcQ" node="26x4y$0krvH" resolve="OFXTestSuitDefaultDateTimeOption" />
+    <node concept="1TJgyj" id="2KwTCJyoIDq" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="test" />
+      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+    </node>
   </node>
 </model>
 
