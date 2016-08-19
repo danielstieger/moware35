@@ -2886,7 +2886,7 @@
     <property role="MwhBj" value="${module}/icons/testsuit.png" />
     <ref role="1TJDcQ" node="6ffh1MXA9UE" resolve="Container" />
     <node concept="1TJgyi" id="4AdkG1VaEN5" role="1TKVEl">
-      <property role="TrG5h" value="dataDir" />
+      <property role="TrG5h" value="baseDir" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">

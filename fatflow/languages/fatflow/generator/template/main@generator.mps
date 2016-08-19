@@ -2,13 +2,13 @@
 <model ref="r:545879b4-0281-4acc-8223-ba14d3dd508c(org.modellwerkstatt.fatflow.generator.template.main@generator)">
   <persistence version="9" />
   <languages>
-    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="-1" />
-    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="-1" />
-    <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="-1" />
-    <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="-1" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
-    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="-1" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
+    <use id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator" version="0" />
+    <use id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext" version="0" />
+    <use id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal" version="0" />
+    <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
+    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -27894,25 +27894,6 @@
             <node concept="2ShNRf" id="7ECLRBgDQRS" role="33vP2m">
               <node concept="1pGfFk" id="7ECLRBgDQR0" role="2ShVmc">
                 <ref role="37wK5l" to="gyq6:7ECLRBgCWHP" resolve="MoTestSuitReport" />
-                <node concept="Xl_RD" id="4oM1iWRAMPi" role="37wK5m">
-                  <property role="Xl_RC" value="/pathTo/" />
-                  <node concept="17Uvod" id="4oM1iWRAMSK" role="lGtFl">
-                    <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-                    <property role="2qtEX9" value="value" />
-                    <node concept="3zFVjK" id="4oM1iWRAMSN" role="3zH0cK">
-                      <node concept="3clFbS" id="4oM1iWRAMSO" role="2VODD2">
-                        <node concept="3clFbF" id="4oM1iWRAMSU" role="3cqZAp">
-                          <node concept="2OqwBi" id="4oM1iWRAMSP" role="3clFbG">
-                            <node concept="3TrcHB" id="4oM1iWRAMSS" role="2OqNvi">
-                              <ref role="3TsBF5" to="un0u:4AdkG1VaEN5" resolve="dataDir" />
-                            </node>
-                            <node concept="30H73N" id="4oM1iWRAMST" role="2Oq$k0" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
               </node>
             </node>
           </node>
@@ -28283,20 +28264,6 @@
         <property role="TrG5h" value="args" />
         <node concept="10Q1$e" id="7ECLRBgCPsd" role="1tU5fm">
           <node concept="17QB3L" id="7ECLRBgCPse" role="10Q1$1" />
-        </node>
-      </node>
-      <node concept="1W57fq" id="7ECLRBgCPsf" role="lGtFl">
-        <node concept="3IZrLx" id="7ECLRBgCPsg" role="3IZSJc">
-          <node concept="3clFbS" id="7ECLRBgCPsh" role="2VODD2">
-            <node concept="3clFbF" id="7ECLRBgCPsi" role="3cqZAp">
-              <node concept="2OqwBi" id="7ECLRBgCPsj" role="3clFbG">
-                <node concept="30H73N" id="7ECLRBgCPsk" role="2Oq$k0" />
-                <node concept="2qgKlT" id="7ECLRBgCPsl" role="2OqNvi">
-                  <ref role="37wK5l" to="nlf1:431DWIovi3C" resolve="isNodeRunnable" />
-                </node>
-              </node>
-            </node>
-          </node>
         </node>
       </node>
     </node>

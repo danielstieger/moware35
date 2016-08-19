@@ -4563,194 +4563,6 @@
       <ref role="1YaFvo" to="r5tz:Kou8LehH1E" resolve="EntityMapping" />
     </node>
   </node>
-  <node concept="18kY7G" id="6W_Qo9f2MnP">
-    <property role="TrG5h" value="check_ModelRepositoryMethod" />
-    <property role="3GE5qa" value="OFXCore.repository" />
-    <node concept="3clFbS" id="6W_Qo9f2MnQ" role="18ibNy">
-      <node concept="3clFbJ" id="6RQ_77quy1p" role="3cqZAp">
-        <node concept="2OqwBi" id="6RQ_77quy1D" role="3clFbw">
-          <node concept="2OqwBi" id="6RQ_77quy1v" role="2Oq$k0">
-            <node concept="1YBJjd" id="6W_Qo9f2Mo2" role="2Oq$k0">
-              <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-            </node>
-            <node concept="3TrcHB" id="6RQ_77quy1_" role="2OqNvi">
-              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-          <node concept="17RvpY" id="6RQ_77quy1I" role="2OqNvi" />
-        </node>
-        <node concept="3clFbS" id="6RQ_77quy1r" role="3clFbx">
-          <node concept="3clFbJ" id="6RQ_77quy1J" role="3cqZAp">
-            <node concept="2OqwBi" id="6RQ_77quy1Z" role="3clFbw">
-              <node concept="2OqwBi" id="6RQ_77quy1P" role="2Oq$k0">
-                <node concept="1YBJjd" id="6W_Qo9f2Mo7" role="2Oq$k0">
-                  <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-                </node>
-                <node concept="3TrcHB" id="6RQ_77quy1V" role="2OqNvi">
-                  <ref role="3TsBF5" to="un0u:6W_Qo9f2MnL" resolve="methodType" />
-                </node>
-              </node>
-              <node concept="3t7uKx" id="6RQ_77quycS" role="2OqNvi">
-                <node concept="uoxfO" id="6RQ_77quycT" role="3t7uKA">
-                  <ref role="uo_Cq" to="un0u:6RQ_77qtOVE" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbS" id="6RQ_77quy1L" role="3clFbx">
-              <node concept="3clFbJ" id="5nND$KgHfbW" role="3cqZAp">
-                <node concept="3clFbS" id="5nND$KgHfbZ" role="3clFbx">
-                  <node concept="2MkqsV" id="6RQ_77quydD" role="3cqZAp">
-                    <node concept="Xl_RD" id="6RQ_77quydG" role="2MkJ7o">
-                      <property role="Xl_RC" value="Method name has to start with 'find' or 'get'" />
-                    </node>
-                    <node concept="1YBJjd" id="6W_Qo9f2Mod" role="2OEOjV">
-                      <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3fqX7Q" id="5nND$KgHtdl" role="3clFbw">
-                  <node concept="1eOMI4" id="4JdxVp$IvAm" role="3fr31v">
-                    <node concept="22lmx$" id="4JdxVp$IvAn" role="1eOMHV">
-                      <node concept="2OqwBi" id="4JdxVp$IvAo" role="3uHU7w">
-                        <node concept="2OqwBi" id="4JdxVp$IvAp" role="2Oq$k0">
-                          <node concept="1YBJjd" id="4JdxVp$IvAq" role="2Oq$k0">
-                            <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-                          </node>
-                          <node concept="3TrcHB" id="4JdxVp$IvAr" role="2OqNvi">
-                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="4JdxVp$IvAs" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
-                          <node concept="Xl_RD" id="4JdxVp$IvAt" role="37wK5m">
-                            <property role="Xl_RC" value="find" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="2OqwBi" id="4JdxVp$IvAu" role="3uHU7B">
-                        <node concept="2OqwBi" id="4JdxVp$IvAv" role="2Oq$k0">
-                          <node concept="1YBJjd" id="4JdxVp$IvAw" role="2Oq$k0">
-                            <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-                          </node>
-                          <node concept="3TrcHB" id="4JdxVp$IvAx" role="2OqNvi">
-                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="4JdxVp$IvAy" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
-                          <node concept="Xl_RD" id="4JdxVp$IvAz" role="37wK5m">
-                            <property role="Xl_RC" value="get" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3eNFk2" id="6RQ_77quye9" role="3eNLev">
-              <node concept="3clFbS" id="6RQ_77quyeb" role="3eOfB_">
-                <node concept="2MkqsV" id="6RQ_77quyee" role="3cqZAp">
-                  <node concept="Xl_RD" id="6RQ_77quyef" role="2MkJ7o">
-                    <property role="Xl_RC" value="Method name has to start with 'checkout'" />
-                  </node>
-                  <node concept="1YBJjd" id="6W_Qo9f2Mof" role="2OEOjV">
-                    <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-                  </node>
-                </node>
-              </node>
-              <node concept="1Wc70l" id="6RQ_77quydR" role="3eO9$A">
-                <node concept="3fqX7Q" id="6RQ_77quydS" role="3uHU7w">
-                  <node concept="2OqwBi" id="6RQ_77quydT" role="3fr31v">
-                    <node concept="2OqwBi" id="6RQ_77quydU" role="2Oq$k0">
-                      <node concept="1YBJjd" id="6W_Qo9f2Moe" role="2Oq$k0">
-                        <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-                      </node>
-                      <node concept="3TrcHB" id="6RQ_77quydW" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="6RQ_77quydX" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
-                      <node concept="Xl_RD" id="6RQ_77quydY" role="37wK5m">
-                        <property role="Xl_RC" value="checkout" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="6RQ_77quydZ" role="3uHU7B">
-                  <node concept="2OqwBi" id="6RQ_77quye0" role="2Oq$k0">
-                    <node concept="1YBJjd" id="6W_Qo9f2Mo8" role="2Oq$k0">
-                      <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-                    </node>
-                    <node concept="3TrcHB" id="6RQ_77quye2" role="2OqNvi">
-                      <ref role="3TsBF5" to="un0u:6W_Qo9f2MnL" resolve="methodType" />
-                    </node>
-                  </node>
-                  <node concept="3t7uKx" id="6RQ_77quye3" role="2OqNvi">
-                    <node concept="uoxfO" id="6RQ_77quye4" role="3t7uKA">
-                      <ref role="uo_Cq" to="un0u:6RQ_77qtOVF" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3eNFk2" id="75DS814sa26" role="3eNLev">
-              <node concept="3clFbS" id="75DS814sa27" role="3eOfB_">
-                <node concept="2MkqsV" id="75DS814sa28" role="3cqZAp">
-                  <node concept="Xl_RD" id="75DS814sa29" role="2MkJ7o">
-                    <property role="Xl_RC" value="Method name has to start with 'checkin'" />
-                  </node>
-                  <node concept="1YBJjd" id="6W_Qo9f2Moh" role="2OEOjV">
-                    <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-                  </node>
-                </node>
-              </node>
-              <node concept="1Wc70l" id="75DS814sa2b" role="3eO9$A">
-                <node concept="3fqX7Q" id="75DS814sa2c" role="3uHU7w">
-                  <node concept="2OqwBi" id="75DS814sa2d" role="3fr31v">
-                    <node concept="2OqwBi" id="75DS814sa2e" role="2Oq$k0">
-                      <node concept="1YBJjd" id="6W_Qo9f2Mog" role="2Oq$k0">
-                        <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-                      </node>
-                      <node concept="3TrcHB" id="75DS814sa2g" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="75DS814sa2h" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
-                      <node concept="Xl_RD" id="75DS814sa2i" role="37wK5m">
-                        <property role="Xl_RC" value="checkin" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="75DS814sa2j" role="3uHU7B">
-                  <node concept="2OqwBi" id="75DS814sa2k" role="2Oq$k0">
-                    <node concept="1YBJjd" id="6W_Qo9f2Moa" role="2Oq$k0">
-                      <ref role="1YBMHb" node="6W_Qo9f2MnR" resolve="mr" />
-                    </node>
-                    <node concept="3TrcHB" id="75DS814sa2m" role="2OqNvi">
-                      <ref role="3TsBF5" to="un0u:6W_Qo9f2MnL" resolve="methodType" />
-                    </node>
-                  </node>
-                  <node concept="3t7uKx" id="75DS814sa2n" role="2OqNvi">
-                    <node concept="uoxfO" id="75DS814sa2o" role="3t7uKA">
-                      <ref role="uo_Cq" to="un0u:75DS814r42t" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="6W_Qo9f2MnR" role="1YuTPh">
-      <property role="TrG5h" value="mr" />
-      <ref role="1YaFvo" to="un0u:6W_Qo9f2MnC" resolve="ModelRepositoryMethod" />
-    </node>
-  </node>
   <node concept="18kY7G" id="7kI3k5AXyTr">
     <property role="TrG5h" value="check_ValueObject" />
     <property role="3GE5qa" value="BusinessObject" />
@@ -9875,13 +9687,25 @@
           </node>
           <node concept="3clFbH" id="2KwTCJy6FPN" role="3cqZAp" />
         </node>
-        <node concept="3fqX7Q" id="2KwTCJy6JML" role="3clFbw">
-          <node concept="2OqwBi" id="2KwTCJy6JMN" role="3fr31v">
-            <node concept="1YBJjd" id="2KwTCJy6JMO" role="2Oq$k0">
-              <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+        <node concept="1Wc70l" id="7shQO0QAfXb" role="3clFbw">
+          <node concept="3fqX7Q" id="7shQO0QAgxQ" role="3uHU7B">
+            <node concept="2OqwBi" id="7shQO0QAgxS" role="3fr31v">
+              <node concept="1YBJjd" id="7shQO0QAgxT" role="2Oq$k0">
+                <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+              </node>
+              <node concept="2qgKlT" id="7shQO0QAgxU" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:6WBZVtQX2Qd" resolve="isWriteDontCompare" />
+              </node>
             </node>
-            <node concept="2qgKlT" id="2KwTCJy6JMP" role="2OqNvi">
-              <ref role="37wK5l" to="70o0:2KwTCJy6GpH" resolve="exists" />
+          </node>
+          <node concept="3fqX7Q" id="2KwTCJy6JML" role="3uHU7w">
+            <node concept="2OqwBi" id="2KwTCJy6JMN" role="3fr31v">
+              <node concept="1YBJjd" id="2KwTCJy6JMO" role="2Oq$k0">
+                <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
+              </node>
+              <node concept="2qgKlT" id="2KwTCJy6JMP" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:2KwTCJy6GpH" resolve="exists" />
+              </node>
             </node>
           </node>
         </node>
