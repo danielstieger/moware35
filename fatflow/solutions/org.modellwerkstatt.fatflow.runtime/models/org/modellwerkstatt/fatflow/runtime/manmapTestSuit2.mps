@@ -47,6 +47,9 @@
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
+      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
+        <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
@@ -131,6 +134,7 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
+      <concept id="6525155817176754757" name="org.modellwerkstatt.objectflow.structure.VoidStatementList" flags="ig" index="20qIzx" />
       <concept id="3526396426289727497" name="org.modellwerkstatt.objectflow.structure.OFXConfigPropOverwrite" flags="ng" index="26L8Vk">
         <reference id="3526396426289727551" name="property" index="26L8Vy" />
         <child id="3526396426289727549" name="value" index="26L8Vw" />
@@ -140,8 +144,8 @@
         <property id="8614254524338490550" name="min" index="8tbpJ" />
       </concept>
       <concept id="8009651625739169400" name="org.modellwerkstatt.objectflow.structure.OFXTestCompareStatement" flags="ng" index="pXX7f">
-        <property id="8009651625739172867" name="graphName" index="pXWeO" />
         <child id="8009651625739172703" name="expression" index="pXWjC" />
+        <child id="8484523473171385444" name="pathRef" index="JpL_1" />
       </concept>
       <concept id="8009651625740107478" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitWriteNoCompareOption" flags="ng" index="pYo5x">
         <reference id="8009651625740107479" name="test" index="pYo5w" />
@@ -187,16 +191,22 @@
         <child id="478945708937917662" name="name" index="2DlbDb" />
         <child id="478945708937917664" name="value" index="2DlbDP" />
       </concept>
+      <concept id="8484523473169034615" name="org.modellwerkstatt.objectflow.structure.OFXTestPathOption" flags="ng" index="J2Nxi">
+        <property id="8484523473169034618" name="fullFSPathName" index="J2Nxv" />
+      </concept>
+      <concept id="8484523473171384910" name="org.modellwerkstatt.objectflow.structure.OFXTestPathReference" flags="ng" index="JpLXF">
+        <reference id="8484523473171384911" name="path" index="JpLXE" />
+      </concept>
       <concept id="3517052249651130105" name="org.modellwerkstatt.objectflow.structure.RangeOption" flags="ng" index="WfFEq">
         <property id="3517052249651130109" name="stop" index="WfFEu" />
         <property id="3517052249651130108" name="start" index="WfFEv" />
         <property id="5903203825074373802" name="scale" index="1BDm0K" />
       </concept>
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
-        <property id="5299983323138534597" name="baseDir" index="MDZS5" />
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
         <child id="6952410984685371541" name="content" index="3yMuLx" />
+        <child id="6952410984683978133" name="onStartup" index="3yTP5x" />
       </concept>
       <concept id="4533072425307715670" name="org.modellwerkstatt.objectflow.structure.StatusElement" flags="ng" index="2XvgOc">
         <property id="4533072425307715682" name="value" index="2XvgOS" />
@@ -851,7 +861,6 @@
   </node>
   <node concept="2WPaUQ" id="4szYp3XojuM">
     <property role="TrG5h" value="Invoice Tests (simple load/store)" />
-    <property role="MDZS5" value="/Users/danielstieger/moware/fatflow/testdata" />
     <ref role="2WPtWl" node="7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">
       <property role="TrG5h" value="Create Invoice Graph with 4 Positions" />
@@ -1135,9 +1144,12 @@
           </node>
         </node>
         <node concept="pXX7f" id="7shQO0QAcw3" role="3cqZAp">
-          <property role="pXWeO" value="INVOICE4POSITIONS" />
           <node concept="37vLTw" id="7shQO0QAcyH" role="pXWjC">
             <ref role="3cqZAo" node="4szYp3Xojze" resolve="r" />
+          </node>
+          <node concept="JpLXF" id="7mZ5ilqSHFt" role="JpL_1">
+            <property role="TrG5h" value="INVOICE4POSITIONS" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="PATHDEF" />
           </node>
         </node>
         <node concept="3clFbH" id="7shQO0QAfHp" role="3cqZAp" />
@@ -1158,6 +1170,13 @@
       <property role="xWaIY" value="4" />
       <property role="xWaIL" value="30" />
       <property role="xWaIK" value="0" />
+    </node>
+    <node concept="J2Nxi" id="7mZ5ilqNXRI" role="38MLOi">
+      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
+      <property role="TrG5h" value="PATHDEF" />
+    </node>
+    <node concept="20qIzx" id="7mZ5ilqVP2G" role="3yTP5x">
+      <node concept="3clFbS" id="7mZ5ilqVP2H" role="2VODD2" />
     </node>
   </node>
   <node concept="2CG7Z0" id="7shQO0QvvlW">

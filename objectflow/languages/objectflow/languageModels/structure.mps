@@ -2885,10 +2885,6 @@
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/testsuit.png" />
     <ref role="1TJDcQ" node="6ffh1MXA9UE" resolve="Container" />
-    <node concept="1TJgyi" id="4AdkG1VaEN5" role="1TKVEl">
-      <property role="TrG5h" value="baseDir" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
@@ -2992,7 +2988,7 @@
   </node>
   <node concept="1TIwiD" id="2w93nZwA5N_">
     <property role="1pbfSe" value="144796260" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.statements" />
     <property role="TrG5h" value="OFXTestPrintStatement" />
     <property role="34LRSv" value="print" />
     <property role="R4oN_" value="debug message" />
@@ -3006,12 +3002,12 @@
   </node>
   <node concept="PlHQZ" id="2w93nZwHmJr">
     <property role="1pbfSe" value="146700634" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.options" />
     <property role="TrG5h" value="IOFXTestSuitOption" />
   </node>
   <node concept="1TIwiD" id="2w93nZwHmJs">
     <property role="1pbfSe" value="146700635" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.options" />
     <property role="TrG5h" value="OFXTestSuitDebugOption" />
     <property role="34LRSv" value="DEUBG_TEST" />
     <property role="R4oN_" value="print debug infos for test" />
@@ -3028,7 +3024,7 @@
   </node>
   <node concept="1TIwiD" id="3iT39CYUjR">
     <property role="1pbfSe" value="1775143209" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.options" />
     <property role="TrG5h" value="OFXTestSuitNoExecOption" />
     <property role="34LRSv" value="DONT_EXEC" />
     <property role="R4oN_" value="do not exec test" />
@@ -3045,7 +3041,7 @@
   </node>
   <node concept="1TIwiD" id="3iT39DbhYV">
     <property role="1pbfSe" value="1778385901" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.options" />
     <property role="TrG5h" value="IOFXTestSuitIncludeSuit" />
     <property role="34LRSv" value="INCLUDE_SUIT" />
     <property role="R4oN_" value="queue onstartup/shutdown and run" />
@@ -3207,20 +3203,22 @@
   </node>
   <node concept="1TIwiD" id="6WBZVtQO2TS">
     <property role="1pbfSe" value="436720081" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.statements" />
     <property role="TrG5h" value="OFXTestCompareStatement" />
     <property role="34LRSv" value="compare" />
     <property role="R4oN_" value="compare / store graphs" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyi" id="6WBZVtQO3K3" role="1TKVEl">
-      <property role="TrG5h" value="graphName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyj" id="6WBZVtQO3Hv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="7mZ5ilqQ0L$" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pathRef" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7mZ5ilqQ0De" resolve="OFXTestPathReference" />
     </node>
     <node concept="PrWs8" id="6WBZVtR0LH0" role="PzmwI">
       <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
@@ -3228,7 +3226,7 @@
   </node>
   <node concept="1TIwiD" id="6WBZVtQRBVm">
     <property role="1pbfSe" value="435782003" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.options" />
     <property role="TrG5h" value="OFXTestSuitWriteNoCompareOption" />
     <property role="R4oN_" value="cmp statement writes graph" />
     <property role="34LRSv" value="WRITE_DONT_COMPARE" />
@@ -3245,7 +3243,7 @@
   </node>
   <node concept="1TIwiD" id="26x4y$0krvH">
     <property role="1pbfSe" value="569559574" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.options" />
     <property role="TrG5h" value="OFXTestSuitDefaultDateTimeOption" />
     <property role="34LRSv" value="DEFAULT_DATETIME" />
     <property role="R4oN_" value="specify default date/time" />
@@ -3280,19 +3278,21 @@
   </node>
   <node concept="1TIwiD" id="2KwTCJxPW$v">
     <property role="1pbfSe" value="234401706" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.statements" />
     <property role="TrG5h" value="OFXTestRunFileStatement" />
     <property role="34LRSv" value="run file" />
     <property role="R4oN_" value="execute sql file" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyi" id="2KwTCJxVZGe" role="1TKVEl">
-      <property role="TrG5h" value="fileName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="7mZ5ilqTjor" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pathRef" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7mZ5ilqQ0De" resolve="OFXTestPathReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="2KwTCJyjbv$">
     <property role="1pbfSe" value="242065007" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.statements" />
     <property role="TrG5h" value="OFXTestNewSessionExpression" />
     <property role="34LRSv" value="new_Session" />
     <property role="R4oN_" value="create new session" />
@@ -3300,7 +3300,7 @@
   </node>
   <node concept="1TIwiD" id="2KwTCJyoIsU">
     <property role="1pbfSe" value="243518917" />
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.options" />
     <property role="TrG5h" value="OFXTestDateTimeOption" />
     <property role="34LRSv" value="SET_DATETIME" />
     <property role="R4oN_" value="date/time for specific test" />
@@ -3310,6 +3310,38 @@
       <property role="20lbJX" value="1" />
       <property role="20kJfa" value="test" />
       <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7mZ5ilqH2PR">
+    <property role="1pbfSe" value="797752676" />
+    <property role="3GE5qa" value="OFXTest.options" />
+    <property role="TrG5h" value="OFXTestPathOption" />
+    <property role="34LRSv" value="PATH" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7mZ5ilqH2PU" role="1TKVEl">
+      <property role="TrG5h" value="fullFSPathName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="7mZ5ilqH2PS" role="PzmwI">
+      <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
+    </node>
+    <node concept="PrWs8" id="7mZ5ilqQ0D$" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7mZ5ilqQ0De">
+    <property role="1pbfSe" value="795402381" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestPathReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7mZ5ilqQ0Df" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="path" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7mZ5ilqH2PR" resolve="OFXTestPathOption" />
+    </node>
+    <node concept="PrWs8" id="7mZ5ilqQ0Dj" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
 </model>

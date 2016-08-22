@@ -926,7 +926,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="5buytp$obSB">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.statements" />
     <ref role="3_znuS" to="un0u:2w93nZwA5N_" resolve="OFXTestPrintStatement" />
     <node concept="3__wT9" id="5buytp$obSC" role="3_A6iZ">
       <node concept="3clFbS" id="5buytp$obSD" role="2VODD2">
@@ -975,7 +975,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="6WBZVtR0L7Y">
-    <property role="3GE5qa" value="OFXTest" />
+    <property role="3GE5qa" value="OFXTest.statements" />
     <ref role="3_znuS" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
     <node concept="3__wT9" id="6WBZVtR0L7Z" role="3_A6iZ">
       <node concept="3clFbS" id="6WBZVtR0L80" role="2VODD2">
