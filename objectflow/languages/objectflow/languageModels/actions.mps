@@ -144,6 +144,8 @@
         <child id="1177498207384" name="handler" index="Cncma" />
       </concept>
       <concept id="1177498227294" name="jetbrains.mps.lang.actions.structure.QueryFunction_SideTransform_Handler" flags="in" index="Cnhdc" />
+      <concept id="767145758118872833" name="jetbrains.mps.lang.actions.structure.NF_LinkList_AddNewChildOperation" flags="nn" index="2DeJg1" />
+      <concept id="767145758118872830" name="jetbrains.mps.lang.actions.structure.NF_Link_SetNewChildOperation" flags="nn" index="2DeJnY" />
       <concept id="5480835971642155304" name="jetbrains.mps.lang.actions.structure.NF_Model_CreateNewNodeOperation" flags="nn" index="15TzpJ" />
       <concept id="1158700664498" name="jetbrains.mps.lang.actions.structure.NodeFactories" flags="ng" index="37WguZ">
         <child id="1158700779049" name="nodeFactory" index="37WGs$" />
@@ -1730,6 +1732,46 @@
               <node concept="10Nm6u" id="3LVh91x4x0h" role="3uHU7w" />
               <node concept="37vLTw" id="3LVh91x4wHg" role="3uHU7B">
                 <ref role="3cqZAo" node="3LVh91x4psz" resolve="defaultPage" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="37WvkG" id="70qPrkCCgKb" role="37WGs$">
+      <ref role="37XkoT" to="un0u:7mZ5ilqQ0De" resolve="OFXTestPathReference" />
+      <node concept="37Y9Zx" id="70qPrkCCgKc" role="37ZfLb">
+        <node concept="3clFbS" id="70qPrkCCgKd" role="2VODD2">
+          <node concept="3clFbF" id="70qPrkCCgSj" role="3cqZAp">
+            <node concept="2OqwBi" id="70qPrkCCgZY" role="3clFbG">
+              <node concept="2OqwBi" id="70qPrkCCgT$" role="2Oq$k0">
+                <node concept="1r4Lsj" id="70qPrkCCgSi" role="2Oq$k0" />
+                <node concept="3TrEf2" id="70qPrkCCgWg" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:70qPrkCyidI" />
+                </node>
+              </node>
+              <node concept="2DeJnY" id="70qPrkCCh2Z" role="2OqNvi">
+                <ref role="1A9B2P" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="37WvkG" id="70qPrkD7XLG" role="37WGs$">
+      <ref role="37XkoT" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
+      <node concept="37Y9Zx" id="70qPrkD7XLH" role="37ZfLb">
+        <node concept="3clFbS" id="70qPrkD7XLI" role="2VODD2">
+          <node concept="3clFbF" id="70qPrkD7XNg" role="3cqZAp">
+            <node concept="2OqwBi" id="70qPrkD7Ylj" role="3clFbG">
+              <node concept="2OqwBi" id="70qPrkD7XQk" role="2Oq$k0">
+                <node concept="1r4Lsj" id="70qPrkD7XNf" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="70qPrkD7XXQ" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:70qPrkCWMKd" />
+                </node>
+              </node>
+              <node concept="2DeJg1" id="70qPrkD7YVo" role="2OqNvi">
+                <ref role="1A0vxQ" to="un0u:70qPrkCWMK0" resolve="OFXTestCompareOptionIgnoreKeys" />
               </node>
             </node>
           </node>

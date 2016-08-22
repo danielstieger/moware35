@@ -3220,6 +3220,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7mZ5ilqQ0De" resolve="OFXTestPathReference" />
     </node>
+    <node concept="1TJgyj" id="70qPrkCWMKd" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="70qPrkD166$" resolve="IOFXTestCompareOption" />
+    </node>
     <node concept="PrWs8" id="6WBZVtR0LH0" role="PzmwI">
       <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
     </node>
@@ -3334,14 +3340,44 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="OFXTestPathReference" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="70qPrkCyidI" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expName" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="7mZ5ilqQ0Df" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="path" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7mZ5ilqH2PR" resolve="OFXTestPathOption" />
     </node>
-    <node concept="PrWs8" id="7mZ5ilqQ0Dj" role="PzmwI">
-      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+  </node>
+  <node concept="1TIwiD" id="70qPrkCWMK0">
+    <property role="1pbfSe" value="1727135307" />
+    <property role="3GE5qa" value="OFXTest.statements" />
+    <property role="TrG5h" value="OFXTestCompareOptionIgnoreKeys" />
+    <property role="34LRSv" value="IGNORE_KEYS" />
+    <property role="R4oN_" value="when comparing graphs" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="70qPrkD6HgY" role="PzmwI">
+      <ref role="PrY4T" node="70qPrkD166$" resolve="IOFXTestCompareOption" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="70qPrkD166$">
+    <property role="1pbfSe" value="1726007463" />
+    <property role="3GE5qa" value="OFXTest.statements" />
+    <property role="TrG5h" value="IOFXTestCompareOption" />
+  </node>
+  <node concept="1TIwiD" id="70qPrkD166I">
+    <property role="1pbfSe" value="1726007453" />
+    <property role="3GE5qa" value="OFXTest.statements" />
+    <property role="TrG5h" value="OFXTestCompareOptionIgnoreDirty" />
+    <property role="34LRSv" value="IGNORE_DIRTY" />
+    <property role="R4oN_" value="when comparing graphs" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="70qPrkD6Hh0" role="PzmwI">
+      <ref role="PrY4T" node="70qPrkD166$" resolve="IOFXTestCompareOption" />
     </node>
   </node>
 </model>

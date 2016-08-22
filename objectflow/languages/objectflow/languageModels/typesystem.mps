@@ -9544,88 +9544,6 @@
       <ref role="1YaFvo" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
     </node>
   </node>
-  <node concept="18kY7G" id="26x4y$0hjsE">
-    <property role="TrG5h" value="check_OFXTestCompareStatement" />
-    <property role="3GE5qa" value="OFXTest.statements" />
-    <node concept="3clFbS" id="26x4y$0hjsF" role="18ibNy">
-      <node concept="3clFbH" id="2KwTCJy6JUb" role="3cqZAp" />
-      <node concept="3clFbJ" id="2KwTCJy6FPM" role="3cqZAp">
-        <node concept="3clFbS" id="2KwTCJy6FPO" role="3clFbx">
-          <node concept="2MkqsV" id="2KwTCJy6K15" role="3cqZAp">
-            <node concept="3cpWs3" id="2KwTCJy9iIo" role="2MkJ7o">
-              <node concept="Xl_RD" id="2KwTCJy9iIr" role="3uHU7w">
-                <property role="Xl_RC" value=")" />
-              </node>
-              <node concept="3cpWs3" id="2KwTCJy9i4q" role="3uHU7B">
-                <node concept="3cpWs3" id="2KwTCJy6K16" role="3uHU7B">
-                  <node concept="3cpWs3" id="2KwTCJy6K18" role="3uHU7B">
-                    <node concept="Xl_RD" id="2KwTCJy6K19" role="3uHU7B">
-                      <property role="Xl_RC" value="The file " />
-                    </node>
-                    <node concept="2OqwBi" id="7mZ5ilqQbsy" role="3uHU7w">
-                      <node concept="2OqwBi" id="7mZ5ilqQaHL" role="2Oq$k0">
-                        <node concept="1YBJjd" id="7mZ5ilqQaDQ" role="2Oq$k0">
-                          <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
-                        </node>
-                        <node concept="3TrEf2" id="7mZ5ilqQbhh" role="2OqNvi">
-                          <ref role="3Tt5mk" to="un0u:7mZ5ilqQ0L$" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="7mZ5ilqQbyK" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="2KwTCJy6K17" role="3uHU7w">
-                    <property role="Xl_RC" value="does not exist in the specified directory. (" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="2KwTCJy9igU" role="3uHU7w">
-                  <node concept="1YBJjd" id="2KwTCJy9icI" role="2Oq$k0">
-                    <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
-                  </node>
-                  <node concept="2qgKlT" id="7mZ5ilqQb6f" role="2OqNvi">
-                    <ref role="37wK5l" to="70o0:7mZ5ilqQ7$U" resolve="getFullRefName" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1YBJjd" id="2KwTCJy6K$a" role="2OEOjV">
-              <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
-            </node>
-          </node>
-          <node concept="3clFbH" id="2KwTCJy6FPN" role="3cqZAp" />
-        </node>
-        <node concept="1Wc70l" id="7shQO0QAfXb" role="3clFbw">
-          <node concept="3fqX7Q" id="7shQO0QAgxQ" role="3uHU7B">
-            <node concept="2OqwBi" id="7shQO0QAgxS" role="3fr31v">
-              <node concept="1YBJjd" id="7shQO0QAgxT" role="2Oq$k0">
-                <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
-              </node>
-              <node concept="2qgKlT" id="7shQO0QAgxU" role="2OqNvi">
-                <ref role="37wK5l" to="70o0:6WBZVtQX2Qd" resolve="isWriteDontCompare" />
-              </node>
-            </node>
-          </node>
-          <node concept="3fqX7Q" id="2KwTCJy6JML" role="3uHU7w">
-            <node concept="2OqwBi" id="2KwTCJy6JMN" role="3fr31v">
-              <node concept="1YBJjd" id="2KwTCJy6JMO" role="2Oq$k0">
-                <ref role="1YBMHb" node="26x4y$0hjsH" resolve="ofxTestCompareStatement" />
-              </node>
-              <node concept="2qgKlT" id="7mZ5ilqQatL" role="2OqNvi">
-                <ref role="37wK5l" to="70o0:7mZ5ilqQ7pj" resolve="exists" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="26x4y$0hmn0" role="3cqZAp" />
-    </node>
-    <node concept="1YaCAy" id="26x4y$0hjsH" role="1YuTPh">
-      <property role="TrG5h" value="ofxTestCompareStatement" />
-      <ref role="1YaFvo" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
-    </node>
-  </node>
   <node concept="18kY7G" id="2KwTCJy3XlG">
     <property role="TrG5h" value="check_OFXTestRunFileStatement" />
     <property role="3GE5qa" value="OFXTest.statements" />
@@ -9643,42 +9561,22 @@
         </node>
         <node concept="3clFbS" id="2KwTCJy3Xyx" role="3clFbx">
           <node concept="2MkqsV" id="2KwTCJy3Yyl" role="3cqZAp">
-            <node concept="3cpWs3" id="2KwTCJy9jsp" role="2MkJ7o">
-              <node concept="Xl_RD" id="2KwTCJy9jsR" role="3uHU7w">
-                <property role="Xl_RC" value=")" />
-              </node>
-              <node concept="3cpWs3" id="2KwTCJy9j76" role="3uHU7B">
-                <node concept="3cpWs3" id="2KwTCJy3YWa" role="3uHU7B">
-                  <node concept="3cpWs3" id="2KwTCJy3Y_e" role="3uHU7B">
-                    <node concept="Xl_RD" id="2KwTCJy3Yyx" role="3uHU7B">
-                      <property role="Xl_RC" value="The file " />
-                    </node>
-                    <node concept="2OqwBi" id="7mZ5ilqTkXS" role="3uHU7w">
-                      <node concept="2OqwBi" id="2KwTCJy3YDf" role="2Oq$k0">
-                        <node concept="1YBJjd" id="2KwTCJy3Y_I" role="2Oq$k0">
-                          <ref role="1YBMHb" node="2KwTCJy3XlJ" resolve="rfs" />
-                        </node>
-                        <node concept="3TrEf2" id="7mZ5ilqTkN6" role="2OqNvi">
-                          <ref role="3Tt5mk" to="un0u:7mZ5ilqTjor" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="7mZ5ilqTl53" role="2OqNvi">
-                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="2KwTCJy3YXO" role="3uHU7w">
-                    <property role="Xl_RC" value=" does not exist in the specified directory. (" />
-                  </node>
+            <node concept="3cpWs3" id="2KwTCJy3YWa" role="2MkJ7o">
+              <node concept="3cpWs3" id="2KwTCJy3Y_e" role="3uHU7B">
+                <node concept="Xl_RD" id="2KwTCJy3Yyx" role="3uHU7B">
+                  <property role="Xl_RC" value="The file " />
                 </node>
-                <node concept="2OqwBi" id="2KwTCJy9jfd" role="3uHU7w">
-                  <node concept="1YBJjd" id="2KwTCJy9jat" role="2Oq$k0">
+                <node concept="2OqwBi" id="2KwTCJy3YDf" role="3uHU7w">
+                  <node concept="1YBJjd" id="2KwTCJy3Y_I" role="2Oq$k0">
                     <ref role="1YBMHb" node="2KwTCJy3XlJ" resolve="rfs" />
                   </node>
-                  <node concept="2qgKlT" id="2KwTCJy9joL" role="2OqNvi">
+                  <node concept="2qgKlT" id="70qPrkCChq5" role="2OqNvi">
                     <ref role="37wK5l" to="70o0:2KwTCJy6IpJ" resolve="getFullFileName" />
                   </node>
                 </node>
+              </node>
+              <node concept="Xl_RD" id="2KwTCJy3YXO" role="3uHU7w">
+                <property role="Xl_RC" value=" does not exist in the specified directory." />
               </node>
             </node>
             <node concept="1YBJjd" id="2KwTCJy3Zdw" role="2OEOjV">
@@ -9811,95 +9709,33 @@
       <ref role="1YaFvo" to="un0u:7mZ5ilqH2PR" resolve="OFXTestPathOption" />
     </node>
   </node>
-  <node concept="18kY7G" id="7mZ5ilqQ6Zt">
-    <property role="TrG5h" value="check_OFXTestPathReference" />
+  <node concept="1YbPZF" id="70qPrkCyify">
+    <property role="TrG5h" value="typeof_OFXTestPathReference" />
     <property role="3GE5qa" value="OFXTest" />
-    <node concept="3clFbS" id="7mZ5ilqQ6Zu" role="18ibNy">
-      <node concept="3clFbJ" id="7mZ5ilqQ9$N" role="3cqZAp">
-        <node concept="3clFbS" id="7mZ5ilqQ9$O" role="3clFbx">
-          <node concept="3clFbJ" id="7mZ5ilqQ9$P" role="3cqZAp">
-            <node concept="3clFbS" id="7mZ5ilqQ9$Q" role="3clFbx">
-              <node concept="2MkqsV" id="7mZ5ilqQ9$R" role="3cqZAp">
-                <node concept="Xl_RD" id="7mZ5ilqQ9$S" role="2MkJ7o">
-                  <property role="Xl_RC" value="Identifier name is already used." />
-                </node>
-                <node concept="1YBJjd" id="7mZ5ilqQ9YB" role="2OEOjV">
-                  <ref role="1YBMHb" node="7mZ5ilqQ6Zw" resolve="pathRef" />
-                </node>
-              </node>
-            </node>
-            <node concept="3eOSWO" id="7mZ5ilqQ9$U" role="3clFbw">
-              <node concept="2OqwBi" id="7mZ5ilqQ9$V" role="3uHU7B">
-                <node concept="2OqwBi" id="7mZ5ilqQ9$W" role="2Oq$k0">
-                  <node concept="2OqwBi" id="7mZ5ilqQ9$X" role="2Oq$k0">
-                    <node concept="2OqwBi" id="7mZ5ilqQ9$Y" role="2Oq$k0">
-                      <node concept="1YBJjd" id="7mZ5ilqQ9M$" role="2Oq$k0">
-                        <ref role="1YBMHb" node="7mZ5ilqQ6Zw" resolve="pathRef" />
-                      </node>
-                      <node concept="I4A8Y" id="7mZ5ilqQ9_0" role="2OqNvi" />
-                    </node>
-                    <node concept="1j9C0f" id="7mZ5ilqQ9_1" role="2OqNvi">
-                      <ref role="1j9C0d" to="un0u:7mZ5ilqQ0De" resolve="OFXTestPathReference" />
-                    </node>
-                  </node>
-                  <node concept="3zZkjj" id="7mZ5ilqQ9_2" role="2OqNvi">
-                    <node concept="1bVj0M" id="7mZ5ilqQ9_3" role="23t8la">
-                      <node concept="3clFbS" id="7mZ5ilqQ9_4" role="1bW5cS">
-                        <node concept="3clFbF" id="7mZ5ilqQ9_5" role="3cqZAp">
-                          <node concept="2OqwBi" id="7mZ5ilqQ9_6" role="3clFbG">
-                            <node concept="2OqwBi" id="7mZ5ilqQ9_7" role="2Oq$k0">
-                              <node concept="1YBJjd" id="7mZ5ilqQ9Sp" role="2Oq$k0">
-                                <ref role="1YBMHb" node="7mZ5ilqQ6Zw" resolve="pathRef" />
-                              </node>
-                              <node concept="3TrcHB" id="7mZ5ilqQ9_9" role="2OqNvi">
-                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                              </node>
-                            </node>
-                            <node concept="liA8E" id="7mZ5ilqQ9_a" role="2OqNvi">
-                              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                              <node concept="2OqwBi" id="7mZ5ilqQ9_b" role="37wK5m">
-                                <node concept="37vLTw" id="7mZ5ilqQ9_c" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="7mZ5ilqQ9_e" resolve="it" />
-                                </node>
-                                <node concept="3TrcHB" id="7mZ5ilqQ9_d" role="2OqNvi">
-                                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Rh6nW" id="7mZ5ilqQ9_e" role="1bW2Oz">
-                        <property role="TrG5h" value="it" />
-                        <node concept="2jxLKc" id="7mZ5ilqQ9_f" role="1tU5fm" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="34oBXx" id="7mZ5ilqQ9_g" role="2OqNvi" />
-              </node>
-              <node concept="3cmrfG" id="7mZ5ilqQ9_h" role="3uHU7w">
-                <property role="3cmrfH" value="1" />
-              </node>
-            </node>
+    <node concept="3clFbS" id="70qPrkCyifz" role="18ibNy">
+      <node concept="1Z5TYs" id="70qPrkCyiFd" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="70qPrkCyiF_" role="1ZfhKB">
+          <node concept="2c44tf" id="70qPrkCyiFx" role="mwGJk">
+            <node concept="17QB3L" id="70qPrkCyiGu" role="2c44tc" />
           </node>
-          <node concept="3clFbH" id="7mZ5ilqQ9_i" role="3cqZAp" />
         </node>
-        <node concept="2OqwBi" id="7mZ5ilqQ9_j" role="3clFbw">
-          <node concept="2OqwBi" id="7mZ5ilqQ9_k" role="2Oq$k0">
-            <node concept="1YBJjd" id="7mZ5ilqQ9GH" role="2Oq$k0">
-              <ref role="1YBMHb" node="7mZ5ilqQ6Zw" resolve="pathRef" />
-            </node>
-            <node concept="3TrcHB" id="7mZ5ilqQ9_m" role="2OqNvi">
-              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+        <node concept="mw_s8" id="70qPrkCyiFg" role="1ZfhK$">
+          <node concept="1Z2H0r" id="70qPrkCyifD" role="mwGJk">
+            <node concept="2OqwBi" id="70qPrkCyiAv" role="1Z2MuG">
+              <node concept="1YBJjd" id="70qPrkCyi$V" role="2Oq$k0">
+                <ref role="1YBMHb" node="70qPrkCyif_" resolve="ofxTestPathReference" />
+              </node>
+              <node concept="3TrEf2" id="70qPrkCyiDw" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:70qPrkCyidI" />
+              </node>
             </node>
           </node>
-          <node concept="17RvpY" id="7mZ5ilqQ9_n" role="2OqNvi" />
         </node>
       </node>
     </node>
-    <node concept="1YaCAy" id="7mZ5ilqQ6Zw" role="1YuTPh">
-      <property role="TrG5h" value="pathRef" />
+    <node concept="1YaCAy" id="70qPrkCyif_" role="1YuTPh">
+      <property role="TrG5h" value="ofxTestPathReference" />
       <ref role="1YaFvo" to="un0u:7mZ5ilqQ0De" resolve="OFXTestPathReference" />
     </node>
   </node>

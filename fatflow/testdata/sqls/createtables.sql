@@ -1,0 +1,27 @@
+CREATE TABLE MMT_INVOICE (/* for entity org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.Invoice*/ 
+ KEY_ID NUMBER  (9) /* id */,
+ NUM_INTAL NUMBER  (9) /* nameLen */,
+ NUM_TOTALAMNT NUMBER  (13, 4) /* totalAmount */,
+ NUM_RESTRICTEDMNT NUMBER  (13, 4) /* nameLen2 */,
+ TXT_TEXT VARCHAR2  (50) /* text */,
+ TXT_TEXT2 VARCHAR2  (50) /* name */,
+ DAT_LOCALDATE DATE /* localDate */,
+ DATE_DATETIME DATE /* dateTime */,
+ COD_HEAD VARCHAR2  (5) /* headState */,
+ KEY_MAINPOS NUMBER  (9) /* id */,
+ NUM_INTVAL NUMBER  (9) /* val */,
+ COD_CURRENCY VARCHAR2  (50) /* currency */
+); 
+CREATE UNIQUE INDEX I_MMT_INVOICE_KEY_ID ON MMT_INVOICE (KEY_ID);
+CREATE SEQUENCE S_MMT_INVOICE START WITH 1 MINVALUE 1 MAXVALUE 999999999 NOCYCLE CACHE 20 ORDER;
+
+
+CREATE TABLE MMT_INVOICEPOS (/* for entity org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.InvoicePosition*/ 
+ KEY_ID NUMBER  (9) /* id */,
+ NUM_VALUE NUMBER  (13, 4) /* posAvalue */,
+ TXT_POSTXT VARCHAR2  (50) /* posText */,
+ DAT_LOCALDATE DATE /* date */,
+ KEY_INVOICE NUMBER  (9) /* id */
+); 
+CREATE UNIQUE INDEX I_MMT_INVOICEPOS_KEY_ID ON MMT_INVOICEPOS (KEY_ID);
+CREATE SEQUENCE S_MMT_INVOICEPOS START WITH 1 MINVALUE 1 MAXVALUE 999999999 NOCYCLE CACHE 20 ORDER;

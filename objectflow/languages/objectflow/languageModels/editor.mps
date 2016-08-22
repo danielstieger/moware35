@@ -8755,6 +8755,13 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F0ifn" id="70qPrkDh3x1" role="3EZMnx">
+        <property role="3F0ifm" value="// remove finally, or replace with exp instead of tests?" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pVoyu" id="70qPrkDh3xu" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="7ECLRBgnoxX" role="3EZMnx">
         <property role="3F0ifm" value="finally" />
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
@@ -9608,9 +9615,14 @@
       <node concept="3F0ifn" id="6WBZVtQO41Y" role="3EZMnx">
         <property role="3F0ifm" value=";" />
       </node>
-      <node concept="3F0ifn" id="2KwTCJyjbkw" role="3EZMnx">
-        <property role="3F0ifm" value="// ignore particular properties or something else ??" />
-        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+      <node concept="3F2HdR" id="70qPrkCWMQc" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="un0u:70qPrkCWMKd" />
+        <node concept="l2Vlx" id="70qPrkCWMQe" role="2czzBx" />
+        <node concept="3F0ifn" id="70qPrkCWMVN" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;opts&gt;" />
+        </node>
       </node>
       <node concept="l2Vlx" id="6WBZVtQO41Z" role="2iSdaV" />
     </node>
@@ -10083,11 +10095,18 @@
         <property role="3F0ifm" value="/" />
         <ref role="1k5W1q" to="tpen:hFDnyG9" resolve="Dot" />
       </node>
-      <node concept="3F0A7n" id="7mZ5ilqQ0F$" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+      <node concept="3F1sOY" id="70qPrkCyif3" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:70qPrkCyidI" />
       </node>
       <node concept="l2Vlx" id="7mZ5ilqQ0DM" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="70qPrkD166E">
+    <property role="3GE5qa" value="OFXTest.statements" />
+    <ref role="1XX52x" to="un0u:70qPrkD166$" resolve="IOFXTestCompareOption" />
+    <node concept="PMmxH" id="70qPrkD166G" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
     </node>
   </node>
 </model>

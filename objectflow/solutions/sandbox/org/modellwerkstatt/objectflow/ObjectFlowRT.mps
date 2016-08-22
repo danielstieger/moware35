@@ -26050,7 +26050,6 @@
       <node concept="3cqZAl" id="6nb2rfW5SAN" role="3clF45" />
       <node concept="3Tm1VV" id="6nb2rfW5SAO" role="1B3o_S" />
       <node concept="3clFbS" id="6nb2rfW5SAP" role="3clF47">
-        <node concept="3clFbH" id="18loLX1_xvi" role="3cqZAp" />
         <node concept="3clFbJ" id="6nb2rfW61kh" role="3cqZAp">
           <node concept="3clFbS" id="6nb2rfW61ki" role="3clFbx">
             <node concept="YS8fn" id="6nb2rfW64Jn" role="3cqZAp">
@@ -30461,6 +30460,14 @@
           <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
         </node>
       </node>
+      <node concept="37vLTG" id="70qPrkCWn5L" role="3clF46">
+        <property role="TrG5h" value="options" />
+        <node concept="10Q1$e" id="70qPrkCWn8Q" role="1tU5fm">
+          <node concept="3uibUv" id="70qPrkCWnaM" role="10Q1$1">
+            <ref role="3uigEE" node="70qPrkCWmX8" resolve="IMoPrintService.CompareOptions" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="43LwaCskxWZ" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -30501,6 +30508,18 @@
       <node concept="3clFbS" id="43LwaCsky0D" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="43LwaCsky00" role="jymVt" />
+    <node concept="Qs71p" id="70qPrkCWmX8" role="jymVt">
+      <property role="TrG5h" value="CompareOptions" />
+      <node concept="QsSxf" id="70qPrkCWn1J" role="Qtgdg">
+        <property role="TrG5h" value="IGNORE_KEYS" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="70qPrkCWn3j" role="Qtgdg">
+        <property role="TrG5h" value="IGNORE_DIRTY" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="70qPrkCWmX9" role="1B3o_S" />
+    </node>
     <node concept="3Tm1VV" id="43LwaCskxVU" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="3J6KGB_vWbR">
