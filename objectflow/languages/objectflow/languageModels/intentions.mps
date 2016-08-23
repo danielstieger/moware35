@@ -3215,14 +3215,14 @@
           <node concept="3clFbS" id="2w93nZwOsUo" role="3clFbx">
             <node concept="3cpWs6" id="2w93nZwOt_X" role="3cqZAp">
               <node concept="Xl_RD" id="2w93nZwOt_Z" role="3cqZAk">
-                <property role="Xl_RC" value="Turn debug OFF for this test." />
+                <property role="Xl_RC" value="debug off: Turn debug off for this test." />
               </node>
             </node>
           </node>
         </node>
         <node concept="3cpWs6" id="2w93nZwOudr" role="3cqZAp">
           <node concept="Xl_RD" id="2w93nZwOujb" role="3cqZAk">
-            <property role="Xl_RC" value="Turn debug ON for this test." />
+            <property role="Xl_RC" value="debug on: Turn debug on for this test." />
           </node>
         </node>
       </node>
@@ -3333,14 +3333,14 @@
           <node concept="3clFbS" id="3iT39CZixN" role="3clFbx">
             <node concept="3cpWs6" id="3iT39CZixO" role="3cqZAp">
               <node concept="Xl_RD" id="3iT39CZixP" role="3cqZAk">
-                <property role="Xl_RC" value="Remove dont_exec for this test." />
+                <property role="Xl_RC" value="dont_exec: Remove from this test." />
               </node>
             </node>
           </node>
         </node>
         <node concept="3cpWs6" id="3iT39CZixQ" role="3cqZAp">
           <node concept="Xl_RD" id="3iT39CZixR" role="3cqZAk">
-            <property role="Xl_RC" value="Add dont_exec for this test." />
+            <property role="Xl_RC" value="dont_exec: Add to this test." />
           </node>
         </node>
       </node>
@@ -3471,7 +3471,7 @@
       <node concept="3clFbS" id="3iT39D7v6a" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7v6g" role="3cqZAp">
           <node concept="Xl_RD" id="3iT39D7v6h" role="3cqZAk">
-            <property role="Xl_RC" value="Yeah, turn ALL debug OFF." />
+            <property role="Xl_RC" value="debug off: Turn debug off for ALL tests." />
           </node>
         </node>
       </node>
@@ -3562,7 +3562,7 @@
       <node concept="3clFbS" id="3iT39D7DfM" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7DfN" role="3cqZAp">
           <node concept="Xl_RD" id="3iT39D7DfO" role="3cqZAk">
-            <property role="Xl_RC" value="Yeah, turn ALL debug ON." />
+            <property role="Xl_RC" value="debug on: Turn debug on for ALL tests." />
           </node>
         </node>
       </node>
@@ -3638,7 +3638,7 @@
       <node concept="3clFbS" id="3iT39D7Ev$" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7Ev_" role="3cqZAp">
           <node concept="Xl_RD" id="3iT39D7EvA" role="3cqZAk">
-            <property role="Xl_RC" value="Yeah, add dont_exec to ALL executable tests." />
+            <property role="Xl_RC" value="dont_exec: Add to ALL executable tests." />
           </node>
         </node>
       </node>
@@ -3714,7 +3714,7 @@
       <node concept="3clFbS" id="3iT39D7HSe" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7HSf" role="3cqZAp">
           <node concept="Xl_RD" id="3iT39D7HSg" role="3cqZAk">
-            <property role="Xl_RC" value="Yeah, remove dont_exec from ALL executable tests." />
+            <property role="Xl_RC" value="dont_exec: Remove from ALL executable tests." />
           </node>
         </node>
       </node>
@@ -3815,7 +3815,7 @@
           <node concept="3clFbS" id="72pStkQxNUG" role="3clFbx">
             <node concept="3cpWs6" id="72pStkQxOaA" role="3cqZAp">
               <node concept="Xl_RD" id="72pStkQxOe2" role="3cqZAk">
-                <property role="Xl_RC" value="Remove Fail In, Exception expected." />
+                <property role="Xl_RC" value="Fail In: Remove 'Exception expected'." />
               </node>
             </node>
             <node concept="3clFbH" id="72pStkQxP7M" role="3cqZAp" />
@@ -3838,7 +3838,7 @@
             <node concept="3clFbS" id="72pStkQxOXL" role="3eOfB_">
               <node concept="3cpWs6" id="72pStkQtUW4" role="3cqZAp">
                 <node concept="Xl_RD" id="72pStkQtUZy" role="3cqZAk">
-                  <property role="Xl_RC" value="Remove Fail In, Exception expected." />
+                  <property role="Xl_RC" value="Fail In: Remove 'Exception expected'." />
                 </node>
               </node>
               <node concept="3clFbH" id="72pStkQxPNr" role="3cqZAp" />
@@ -3859,7 +3859,7 @@
             <node concept="3clFbS" id="72pStkQxPEV" role="9aQI4">
               <node concept="3cpWs6" id="72pStkQtUMf" role="3cqZAp">
                 <node concept="Xl_RD" id="72pStkQaCsr" role="3cqZAk">
-                  <property role="Xl_RC" value="Exception expected, mark as Fail In." />
+                  <property role="Xl_RC" value="Fail In: Mark as 'Exception expected'." />
                 </node>
               </node>
               <node concept="3clFbH" id="72pStkQxPQm" role="3cqZAp" />
@@ -4063,14 +4063,14 @@
           <node concept="3clFbS" id="6WBZVtQWXZ1" role="3clFbx">
             <node concept="3cpWs6" id="6WBZVtQWXZ2" role="3cqZAp">
               <node concept="Xl_RD" id="6WBZVtQWXZ3" role="3cqZAk">
-                <property role="Xl_RC" value="REMOVE Write Dont Compare for this test." />
+                <property role="Xl_RC" value="write dont compare: Remove from this test." />
               </node>
             </node>
           </node>
         </node>
         <node concept="3cpWs6" id="6WBZVtQWXZ4" role="3cqZAp">
           <node concept="Xl_RD" id="6WBZVtQWXZ5" role="3cqZAk">
-            <property role="Xl_RC" value="Add Write Dont Compare for this test." />
+            <property role="Xl_RC" value="write dont compare: Add to this test." />
           </node>
         </node>
       </node>
@@ -4165,7 +4165,7 @@
       <node concept="3clFbS" id="6WBZVtQXiTq" role="2VODD2">
         <node concept="3cpWs6" id="6WBZVtQXiTr" role="3cqZAp">
           <node concept="Xl_RD" id="6WBZVtQXiTs" role="3cqZAk">
-            <property role="Xl_RC" value="Yeah, remove ALL Write Dont Compare." />
+            <property role="Xl_RC" value="write dont compare: Remove from ALL tests." />
           </node>
         </node>
       </node>
@@ -4256,7 +4256,7 @@
       <node concept="3clFbS" id="6WBZVtQXj5$" role="2VODD2">
         <node concept="3cpWs6" id="6WBZVtQXj5_" role="3cqZAp">
           <node concept="Xl_RD" id="6WBZVtQXj5A" role="3cqZAk">
-            <property role="Xl_RC" value="Yeah, Write Dont Compare for ALL." />
+            <property role="Xl_RC" value="write dont compare: Add to ALL tests." />
           </node>
         </node>
       </node>

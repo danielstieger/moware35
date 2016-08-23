@@ -28111,6 +28111,9 @@
                 </node>
                 <node concept="liA8E" id="4AdkG1USqmH" role="2OqNvi">
                   <ref role="37wK5l" node="2w93nZwjL5L" resolve="onStartup" />
+                  <node concept="37vLTw" id="4ksEJbWv$sO" role="37wK5m">
+                    <ref role="3cqZAo" node="7ECLRBgDQ_r" resolve="__testSuitReport" />
+                  </node>
                 </node>
               </node>
               <node concept="1WS0z7" id="4AdkG1UTwhY" role="lGtFl">
@@ -28218,18 +28221,67 @@
                 <property role="3SKdUp" value="ensure that we can run the shutdown methods... " />
               </node>
             </node>
-            <node concept="3clFbF" id="4AdkG1USquy" role="3cqZAp">
-              <node concept="2OqwBi" id="4AdkG1USqyv" role="3clFbG">
-                <node concept="37vLTw" id="4AdkG1USquw" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4AdkG1UR2bG" resolve="___includedTestsuit" />
-                </node>
-                <node concept="liA8E" id="4AdkG1USqB2" role="2OqNvi">
-                  <ref role="37wK5l" node="7ECLRBgEagt" resolve="onShutdown" />
+            <node concept="SfApY" id="4ksEJbWtP15" role="3cqZAp">
+              <node concept="3clFbS" id="4ksEJbWtP17" role="SfCbr">
+                <node concept="3clFbF" id="4AdkG1USquy" role="3cqZAp">
+                  <node concept="2OqwBi" id="4AdkG1USqyv" role="3clFbG">
+                    <node concept="37vLTw" id="4AdkG1USquw" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4AdkG1UR2bG" resolve="___includedTestsuit" />
+                    </node>
+                    <node concept="liA8E" id="4AdkG1USqB2" role="2OqNvi">
+                      <ref role="37wK5l" node="7ECLRBgEagt" resolve="onShutdown" />
+                      <node concept="37vLTw" id="4ksEJbWv$Bh" role="37wK5m">
+                        <ref role="3cqZAo" node="7ECLRBgDQ_r" resolve="__testSuitReport" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
-              <node concept="1WS0z7" id="4AdkG1UTw$l" role="lGtFl">
-                <node concept="3JmXsc" id="4AdkG1UTw$o" role="3Jn$fo">
-                  <node concept="3clFbS" id="4AdkG1UTw$p" role="2VODD2">
+              <node concept="TDmWw" id="4ksEJbWtP18" role="TEbGg">
+                <node concept="3cpWsn" id="4ksEJbWtP1a" role="TDEfY">
+                  <property role="TrG5h" value="t" />
+                  <node concept="3uibUv" id="4ksEJbWtP$U" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="4ksEJbWtP1e" role="TDEfX">
+                  <node concept="3clFbF" id="4ksEJbWtP_X" role="3cqZAp">
+                    <node concept="2OqwBi" id="4ksEJbWtP_Y" role="3clFbG">
+                      <node concept="10M0yZ" id="4ksEJbWtP_Z" role="2Oq$k0">
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                      </node>
+                      <node concept="liA8E" id="4ksEJbWtPA0" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="Xl_RD" id="4ksEJbWtPA1" role="37wK5m">
+                          <property role="Xl_RC" value="---- TestSuit setup problems while shutdown ----" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="4ksEJbWtPA5" role="3cqZAp">
+                    <node concept="2OqwBi" id="4ksEJbWtPA6" role="3clFbG">
+                      <node concept="10M0yZ" id="4ksEJbWtPA7" role="2Oq$k0">
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      </node>
+                      <node concept="liA8E" id="4ksEJbWtPA8" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="2YIFZM" id="4ksEJbWtPA9" role="37wK5m">
+                          <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                          <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                          <node concept="37vLTw" id="4ksEJbWtPAa" role="37wK5m">
+                            <ref role="3cqZAo" node="4ksEJbWtP1a" resolve="t" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1WS0z7" id="4ksEJbWtPkG" role="lGtFl">
+                <node concept="3JmXsc" id="4ksEJbWtPkJ" role="3Jn$fo">
+                  <node concept="3clFbS" id="4ksEJbWtPkK" role="2VODD2">
                     <node concept="3clFbF" id="4AdkG1UTw$v" role="3cqZAp">
                       <node concept="2OqwBi" id="4AdkG1UTw$q" role="3clFbG">
                         <node concept="2qgKlT" id="4AdkG1UTx4e" role="2OqNvi">
@@ -28242,13 +28294,59 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="4AdkG1USqNg" role="3cqZAp">
-              <node concept="2OqwBi" id="4AdkG1USqSc" role="3clFbG">
-                <node concept="Xjq3P" id="4AdkG1USqNe" role="2Oq$k0" />
-                <node concept="liA8E" id="4AdkG1USqUt" role="2OqNvi">
-                  <ref role="37wK5l" node="7ECLRBgEagt" resolve="onShutdown" />
-                  <node concept="37vLTw" id="70qPrkCUd$z" role="37wK5m">
-                    <ref role="3cqZAo" node="7ECLRBgDQ_r" resolve="__testSuitReport" />
+            <node concept="SfApY" id="4ksEJbWtPFb" role="3cqZAp">
+              <node concept="3clFbS" id="4ksEJbWtPFd" role="SfCbr">
+                <node concept="3clFbF" id="4AdkG1USqNg" role="3cqZAp">
+                  <node concept="2OqwBi" id="4AdkG1USqSc" role="3clFbG">
+                    <node concept="Xjq3P" id="4AdkG1USqNe" role="2Oq$k0" />
+                    <node concept="liA8E" id="4AdkG1USqUt" role="2OqNvi">
+                      <ref role="37wK5l" node="7ECLRBgEagt" resolve="onShutdown" />
+                      <node concept="37vLTw" id="70qPrkCUd$z" role="37wK5m">
+                        <ref role="3cqZAo" node="7ECLRBgDQ_r" resolve="__testSuitReport" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="TDmWw" id="4ksEJbWtPFe" role="TEbGg">
+                <node concept="3cpWsn" id="4ksEJbWtPFg" role="TDEfY">
+                  <property role="TrG5h" value="t" />
+                  <node concept="3uibUv" id="4ksEJbWtPVA" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="4ksEJbWtPFk" role="TDEfX">
+                  <node concept="3clFbF" id="4ksEJbWtPWD" role="3cqZAp">
+                    <node concept="2OqwBi" id="4ksEJbWtPWE" role="3clFbG">
+                      <node concept="10M0yZ" id="4ksEJbWtPWF" role="2Oq$k0">
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      </node>
+                      <node concept="liA8E" id="4ksEJbWtPWG" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="Xl_RD" id="4ksEJbWtPWH" role="37wK5m">
+                          <property role="Xl_RC" value="---- TestSuit setup problems while shutdown ----" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="4ksEJbWtPWL" role="3cqZAp">
+                    <node concept="2OqwBi" id="4ksEJbWtPWM" role="3clFbG">
+                      <node concept="10M0yZ" id="4ksEJbWtPWN" role="2Oq$k0">
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      </node>
+                      <node concept="liA8E" id="4ksEJbWtPWO" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="2YIFZM" id="4ksEJbWtPWP" role="37wK5m">
+                          <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                          <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                          <node concept="37vLTw" id="4ksEJbWtPWQ" role="37wK5m">
+                            <ref role="3cqZAo" node="4ksEJbWtPFg" resolve="t" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -28292,6 +28390,46 @@
               </node>
             </node>
             <node concept="3clFbH" id="7ECLRBgCPrD" role="3cqZAp" />
+            <node concept="3clFbJ" id="4ksEJbWwAVj" role="3cqZAp">
+              <node concept="3clFbS" id="4ksEJbWwAVl" role="3clFbx">
+                <node concept="3clFbF" id="4ksEJbWwBy7" role="3cqZAp">
+                  <node concept="2OqwBi" id="4ksEJbWwBy4" role="3clFbG">
+                    <node concept="10M0yZ" id="4ksEJbWwBy5" role="2Oq$k0">
+                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                    </node>
+                    <node concept="liA8E" id="4ksEJbWwBy6" role="2OqNvi">
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <node concept="3cpWs3" id="4ksEJbWwBHL" role="37wK5m">
+                        <node concept="37vLTw" id="4ksEJbWwBKm" role="3uHU7w">
+                          <ref role="3cqZAo" node="4AdkG1USjsl" resolve="CONFIGFILE_PATH" />
+                        </node>
+                        <node concept="Xl_RD" id="4ksEJbWwBzB" role="3uHU7B">
+                          <property role="Xl_RC" value="Uups, no Configuration given: ??" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="4ksEJbWwBat" role="3clFbw">
+                <node concept="2OqwBi" id="4ksEJbWwB1c" role="2Oq$k0">
+                  <node concept="37vLTw" id="4ksEJbWwAY0" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4AdkG1USjsl" resolve="CONFIGFILE_PATH" />
+                  </node>
+                  <node concept="liA8E" id="4ksEJbWwB7d" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="4ksEJbWwBmF" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="Xl_RD" id="4ksEJbWwBnZ" role="37wK5m">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="4ksEJbWwkdJ" role="3cqZAp" />
             <node concept="3cpWs8" id="7ECLRBgCPrE" role="3cqZAp">
               <node concept="3cpWsn" id="7ECLRBgCPrF" role="3cpWs9">
                 <property role="TrG5h" value="thisTestSuit" />

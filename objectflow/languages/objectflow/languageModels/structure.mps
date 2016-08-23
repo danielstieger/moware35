@@ -2888,7 +2888,7 @@
     <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="q_zDmI5v5l" resolve="OFXConfig" />
     </node>
     <node concept="1TJgyj" id="61VVfi2BbQl" role="1TKVEi">
