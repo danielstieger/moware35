@@ -1,5 +1,5 @@
 Invoice  (_readOnly: false  _TCN: 0  _enabled: true)
-id: - 
+id: #*#*
 nameLen: 5
 totalAmount: 60
 nameLen2: 5
@@ -10,34 +10,34 @@ dateTime: 27.01.1980 04:30:00
 headState: Status 1
 positions (List): 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
-   id: - 
+   id: #*#*
    posAvalue: 0
    posText: first_0
    date: Sun 27.01.1980
-   invoice (Reference): Key:1
+   invoice (Reference): Key: #*#*
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
-   id: - 
+   id: #*#*
    posAvalue: 10
    posText: first_1
    date: Sun 27.01.1980
-   invoice (Reference): Key:1
+   invoice (Reference): Key: #*#*
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
-   id: - 
+   id: #*#*
    posAvalue: 20
    posText: first_2
    date: Sun 27.01.1980
-   invoice (Reference): Key:1
+   invoice (Reference): Key: #*#*
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
-   id: - 
+   id: #*#*
    posAvalue: 30
    posText: first_3
    date: Sun 27.01.1980
-   invoice (Reference): Key:1
+   invoice (Reference): Key: #*#*
 
-mainPosRef (Reference): Key:(null-key)
+mainPosRef (Reference): Key: (null-key)
 moneyAmount (ValueObject): 
    MoneyAmount  (_enabled: true  )
    val: 100

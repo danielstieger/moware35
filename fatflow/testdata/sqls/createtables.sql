@@ -11,6 +11,7 @@ CREATE TABLE MMT_INVOICE (/* for entity org.modellwerkstatt.fatflow.runtime.manm
  KEY_MAINPOS NUMBER  (9) /* id */,
  NUM_INTVAL NUMBER  (9) /* val */,
  COD_CURRENCY VARCHAR2  (50) /* currency */
+ , TCN NUMBER (9) NOT NULL
 ); 
 CREATE UNIQUE INDEX I_MMT_INVOICE_KEY_ID ON MMT_INVOICE (KEY_ID);
 CREATE SEQUENCE S_MMT_INVOICE START WITH 1 MINVALUE 1 MAXVALUE 999999999 NOCYCLE CACHE 20 ORDER;
@@ -44,3 +45,19 @@ CREATE TABLE MMT_EXTINVOICE (/* for entity org.modellwerkstatt.fatflow.runtime.m
  TXT_EXTENDEDSTR VARCHAR2  (50) /* extendedString */
 ); 
 CREATE UNIQUE INDEX I_MMT_EXTINVOICE_KEY_ID ON MMT_EXTINVOICE (KEY_ID);
+
+
+CREATE TABLE MMT_KONTOAUDIT (/* for entity org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.AccoundAudit*/ 
+ KEY_NUMBER NUMBER  (9) /* number */,
+ KEY_MANDANT VARCHAR2  (50) /* mandant */,
+ KEY_STATUS VARCHAR2  (5) /* active */,
+ NUM_TOTALVAL NUMBER  (13, 4) /* totalValue */,
+ REF_NUMBER NUMBER  (9) /* number */,
+ REF_MANDANT VARCHAR2  (50) /* mandant */,
+ REF_STATUS VARCHAR2  (5) /* active */,
+ DAT_CREATEDAT DATE /* createdAt */,
+ DAT_MODIFIEDAT DATE /* modifiedAt */,
+ NUM_CREATEDATUID NUMBER  (9) /* createAtUid */,
+ NUM_MODIFIEDATUID NUMBER  (9) /* modifiedAtUid */
+); 
+

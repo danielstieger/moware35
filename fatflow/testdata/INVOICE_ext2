@@ -1,10 +1,12 @@
-Invoice  (_readOnly: false  _TCN: 0  _enabled: true)
+ExtendedInvoice  (_readOnly: false  _TCN: 0  _enabled: true)
+extendedInt: 10
+extendedString: EXT
 id: #*#*
-nameLen: 6
-totalAmount: 60
-nameLen2: 6
-text: Invoice
-name: second
+nameLen: 4
+totalAmount: 10
+nameLen2: 4
+text: Extended Invoice
+name: ext2
 localDate: Sun 27.01.1980
 dateTime: 27.01.1980 04:30:00
 headState: Status 1
@@ -12,28 +14,14 @@ positions (List):
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id: #*#*
    posAvalue: 0
-   posText: second_0
+   posText: ext2_0
    date: Sun 27.01.1980
    invoice (Reference): Key: #*#*
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id: #*#*
    posAvalue: 10
-   posText: second_1
-   date: Sun 27.01.1980
-   invoice (Reference): Key: #*#*
-
-   InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
-   id: #*#*
-   posAvalue: 20
-   posText: second_2
-   date: Sun 27.01.1980
-   invoice (Reference): Key: #*#*
-
-   InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
-   id: #*#*
-   posAvalue: 30
-   posText: second_3
+   posText: ext2_1
    date: Sun 27.01.1980
    invoice (Reference): Key: #*#*
 
