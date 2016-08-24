@@ -37,6 +37,7 @@
     <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -8611,6 +8612,35 @@
           <ref role="PMmxG" node="6ffh1MXB2lM" resolve="ISpaceNamedEditor" />
         </node>
         <node concept="2iRfu4" id="1aaqwMInUiu" role="2iSdaV" />
+        <node concept="1HlG4h" id="RffU3zmCbp" role="3EZMnx">
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+          <node concept="1HfYo3" id="RffU3zmCbr" role="1HlULh">
+            <node concept="3TQlhw" id="RffU3zmCbt" role="1Hhtcw">
+              <node concept="3clFbS" id="RffU3zmCbv" role="2VODD2">
+                <node concept="3clFbJ" id="RffU3zmCcj" role="3cqZAp">
+                  <node concept="2OqwBi" id="RffU3zmChp" role="3clFbw">
+                    <node concept="pncrf" id="RffU3zmCd4" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="RffU3zmCqT" role="2OqNvi">
+                      <ref role="37wK5l" to="nlf1:431DWIovi3C" resolve="isNodeRunnable" />
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="RffU3zmCcl" role="3clFbx">
+                    <node concept="3cpWs6" id="RffU3zmCsP" role="3cqZAp">
+                      <node concept="Xl_RD" id="RffU3zmCsR" role="3cqZAk">
+                        <property role="Xl_RC" value="executable" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="RffU3zmCBn" role="3cqZAp">
+                  <node concept="Xl_RD" id="RffU3zmCBm" role="3clFbG">
+                    <property role="Xl_RC" value="NOT executable" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="1aaqwMInUiv" role="3EZMnx" />
       <node concept="3EZMnI" id="1aaqwMIpaq8" role="3EZMnx">

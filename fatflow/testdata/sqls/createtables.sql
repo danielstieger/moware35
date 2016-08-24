@@ -61,3 +61,16 @@ CREATE TABLE MMT_KONTOAUDIT (/* for entity org.modellwerkstatt.fatflow.runtime.m
  NUM_MODIFIEDATUID NUMBER  (9) /* modifiedAtUid */
 ); 
 
+CREATE TABLE MMT_REFERER (/* for entity org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.Referer*/ 
+ KEY_TXTID VARCHAR2  (50) /* key */,
+ NUM_TOTALVALUE NUMBER  (13, 4) /* totalValue */,
+ TXT_NAME VARCHAR2  (50) /* name */,
+ REF_REFERER VARCHAR2  (50) /* key */,
+ REF_ACCOUNTNUM NUMBER  (9) /* number */,
+ REF_ACCOUNTMNDT VARCHAR2  (50) /* mandant */,
+ REF_ACCOUNTACT VARCHAR2  (5) /* active */,
+ REF_AKNUM NUMBER  (9) /* number */,
+ REF_AKMNDT VARCHAR2  (50) /* mandant */,
+ REF_AKACT VARCHAR2  (5) /* active */
+, TCN NUMBER (9) NOT NULL
+); 

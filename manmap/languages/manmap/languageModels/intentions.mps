@@ -8,12 +8,13 @@
   </languages>
   <imports>
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="n4mo" ref="r:6c3f0e13-fdba-40b6-8f82-fee20ffbba77(org.modellwerkstatt.manmap.conventions)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
     <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
     <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -145,8 +146,21 @@
     <node concept="2S6ZIM" id="33USv3LV9Bi" role="2ZfVej">
       <node concept="3clFbS" id="33USv3LV9Bj" role="2VODD2">
         <node concept="3clFbF" id="33USv3LV9Bm" role="3cqZAp">
-          <node concept="Xl_RD" id="33USv3LV9Bn" role="3clFbG">
-            <property role="Xl_RC" value="Create all fields per default." />
+          <node concept="3cpWs3" id="RffU3z0oVN" role="3clFbG">
+            <node concept="Xl_RD" id="RffU3z0oXs" role="3uHU7w">
+              <property role="Xl_RC" value="." />
+            </node>
+            <node concept="3cpWs3" id="RffU3z0oEi" role="3uHU7B">
+              <node concept="Xl_RD" id="33USv3LV9Bn" role="3uHU7B">
+                <property role="Xl_RC" value="Create all fields per default for " />
+              </node>
+              <node concept="2OqwBi" id="RffU3z0oIm" role="3uHU7w">
+                <node concept="2Sf5sV" id="RffU3z0oF6" role="2Oq$k0" />
+                <node concept="3TrcHB" id="RffU3z0oND" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -193,8 +207,26 @@
     <node concept="2S6ZIM" id="6W_Qo9f1Hti" role="2ZfVej">
       <node concept="3clFbS" id="6W_Qo9f1Htj" role="2VODD2">
         <node concept="3clFbF" id="6W_Qo9f1Htm" role="3cqZAp">
-          <node concept="Xl_RD" id="6W_Qo9f1Htn" role="3clFbG">
-            <property role="Xl_RC" value="Create all fields per default." />
+          <node concept="3cpWs3" id="RffU3z0uFq" role="3clFbG">
+            <node concept="Xl_RD" id="RffU3z0uH3" role="3uHU7w">
+              <property role="Xl_RC" value="." />
+            </node>
+            <node concept="3cpWs3" id="RffU3z0u9t" role="3uHU7B">
+              <node concept="Xl_RD" id="6W_Qo9f1Htn" role="3uHU7B">
+                <property role="Xl_RC" value="Create all fields per default for " />
+              </node>
+              <node concept="2OqwBi" id="RffU3z0weX" role="3uHU7w">
+                <node concept="2OqwBi" id="RffU3z0udR" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="RffU3z0uag" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="RffU3z0xWo" role="2OqNvi">
+                    <ref role="3Tt5mk" to="r5tz:Kou8LehQER" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="RffU3z0ykc" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpee:huRkwj$" resolve="propertyName" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

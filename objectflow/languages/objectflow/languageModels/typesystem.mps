@@ -9739,5 +9739,188 @@
       <ref role="1YaFvo" to="un0u:7mZ5ilqQ0De" resolve="OFXTestPathReference" />
     </node>
   </node>
+  <node concept="18kY7G" id="RffU3zdLq4">
+    <property role="TrG5h" value="check_ModelRepositoryMethod" />
+    <property role="3GE5qa" value="OFXCore.repository" />
+    <node concept="3clFbS" id="RffU3zdLq5" role="18ibNy">
+      <node concept="3clFbJ" id="RffU3zdM_0" role="3cqZAp">
+        <node concept="3clFbS" id="RffU3zdM_2" role="3clFbx">
+          <node concept="2MkqsV" id="RffU3zdSBS" role="3cqZAp">
+            <node concept="Xl_RD" id="RffU3zdSCg" role="2MkJ7o">
+              <property role="Xl_RC" value="When using 'save with map' in a repo method, mark method as checkin method." />
+            </node>
+            <node concept="1YBJjd" id="RffU3zdSEW" role="2OEOjV">
+              <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="RffU3zdTXO" role="3cqZAp" />
+        </node>
+        <node concept="1Wc70l" id="RffU3zdQOt" role="3clFbw">
+          <node concept="3fqX7Q" id="RffU3zdSxf" role="3uHU7w">
+            <node concept="2OqwBi" id="RffU3zdSxh" role="3fr31v">
+              <node concept="2OqwBi" id="RffU3zdSxi" role="2Oq$k0">
+                <node concept="1YBJjd" id="RffU3zdSxj" role="2Oq$k0">
+                  <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+                </node>
+                <node concept="3TrcHB" id="RffU3zdSxk" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:6W_Qo9f2MnL" resolve="methodType" />
+                </node>
+              </node>
+              <node concept="3t7uKx" id="RffU3zdSxl" role="2OqNvi">
+                <node concept="uoxfO" id="RffU3zdSxm" role="3t7uKA">
+                  <ref role="uo_Cq" to="un0u:75DS814r42t" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eOSWO" id="RffU3zdQFL" role="3uHU7B">
+            <node concept="2OqwBi" id="RffU3zdNu9" role="3uHU7B">
+              <node concept="2OqwBi" id="RffU3zdLD4" role="2Oq$k0">
+                <node concept="1YBJjd" id="RffU3zdLrG" role="2Oq$k0">
+                  <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+                </node>
+                <node concept="2Rf3mk" id="RffU3zdMyk" role="2OqNvi">
+                  <node concept="1xMEDy" id="RffU3zdMym" role="1xVPHs">
+                    <node concept="chp4Y" id="RffU3zdMzf" role="ri$Ld">
+                      <ref role="cht4Q" to="r5tz:75DS814r5Ii" resolve="SaveWithMap" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="34oBXx" id="RffU3zdP2_" role="2OqNvi" />
+            </node>
+            <node concept="3cmrfG" id="RffU3zdQFO" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eNFk2" id="RffU3zdSFE" role="3eNLev">
+          <node concept="1Wc70l" id="RffU3ze0_x" role="3eO9$A">
+            <node concept="3fqX7Q" id="RffU3ze0HQ" role="3uHU7w">
+              <node concept="2OqwBi" id="RffU3ze2x7" role="3fr31v">
+                <node concept="2OqwBi" id="RffU3ze0Zl" role="2Oq$k0">
+                  <node concept="1YBJjd" id="RffU3ze0K_" role="2Oq$k0">
+                    <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+                  </node>
+                  <node concept="3TrcHB" id="RffU3ze1Zl" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:6W_Qo9f2MnL" resolve="methodType" />
+                  </node>
+                </node>
+                <node concept="3t7uKx" id="RffU3ze2MU" role="2OqNvi">
+                  <node concept="uoxfO" id="RffU3ze2MW" role="3t7uKA">
+                    <ref role="uo_Cq" to="un0u:66mO_QB9Jj$" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3eOSWO" id="RffU3ze0op" role="3uHU7B">
+              <node concept="2OqwBi" id="RffU3zdVyQ" role="3uHU7B">
+                <node concept="2OqwBi" id="RffU3zdSYE" role="2Oq$k0">
+                  <node concept="1YBJjd" id="RffU3zdSLv" role="2Oq$k0">
+                    <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+                  </node>
+                  <node concept="2Rf3mk" id="RffU3zdUqb" role="2OqNvi">
+                    <node concept="1xMEDy" id="RffU3zdUqd" role="1xVPHs">
+                      <node concept="chp4Y" id="RffU3zdUuy" role="ri$Ld">
+                        <ref role="cht4Q" to="r5tz:75DS814sa2p" resolve="DeleteWithMap" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="34oBXx" id="RffU3zdYJd" role="2OqNvi" />
+              </node>
+              <node concept="3cmrfG" id="RffU3ze0os" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="RffU3zdSFG" role="3eOfB_">
+            <node concept="2MkqsV" id="RffU3ze33A" role="3cqZAp">
+              <node concept="Xl_RD" id="RffU3ze33M" role="2MkJ7o">
+                <property role="Xl_RC" value="When using 'delete with map' in a repo method, mark method as delete method." />
+              </node>
+              <node concept="1YBJjd" id="RffU3ze34W" role="2OEOjV">
+                <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="RffU3ze7RM" role="3cqZAp" />
+          </node>
+        </node>
+        <node concept="3eNFk2" id="RffU3ze37u" role="3eNLev">
+          <node concept="1Wc70l" id="RffU3zeqYH" role="3eO9$A">
+            <node concept="3fqX7Q" id="RffU3zerbX" role="3uHU7w">
+              <node concept="2OqwBi" id="RffU3zet8o" role="3fr31v">
+                <node concept="2OqwBi" id="RffU3zervD" role="2Oq$k0">
+                  <node concept="1YBJjd" id="RffU3zergB" role="2Oq$k0">
+                    <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+                  </node>
+                  <node concept="3TrcHB" id="RffU3zes$k" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:6W_Qo9f2MnL" resolve="methodType" />
+                  </node>
+                </node>
+                <node concept="3t7uKx" id="RffU3zetpM" role="2OqNvi">
+                  <node concept="uoxfO" id="RffU3zetpO" role="3t7uKA">
+                    <ref role="uo_Cq" to="un0u:6RQ_77qtOVF" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="RffU3ze5fV" role="3uHU7B">
+              <node concept="2OqwBi" id="RffU3ze3s$" role="2Oq$k0">
+                <node concept="1YBJjd" id="RffU3ze3fp" role="2Oq$k0">
+                  <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+                </node>
+                <node concept="2Rf3mk" id="RffU3ze4sR" role="2OqNvi">
+                  <node concept="1xMEDy" id="RffU3ze4sT" role="1xVPHs">
+                    <node concept="chp4Y" id="RffU3ze4xe" role="ri$Ld">
+                      <ref role="cht4Q" to="r5tz:EYyuKpdz9q" resolve="QueryFromMap" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2HwmR7" id="RffU3ze6F_" role="2OqNvi">
+                <node concept="1bVj0M" id="RffU3ze6FB" role="23t8la">
+                  <node concept="3clFbS" id="RffU3ze6FC" role="1bW5cS">
+                    <node concept="3clFbF" id="RffU3ze6Hd" role="3cqZAp">
+                      <node concept="3fqX7Q" id="RffU3ze7qZ" role="3clFbG">
+                        <node concept="2OqwBi" id="RffU3ze7r1" role="3fr31v">
+                          <node concept="37vLTw" id="RffU3ze7r2" role="2Oq$k0">
+                            <ref role="3cqZAo" node="RffU3ze6FD" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="RffU3ze7r3" role="2OqNvi">
+                            <ref role="37wK5l" to="lfe3:4vUcH_0cRPy" resolve="isReadOnly" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="RffU3ze6FD" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="RffU3ze6FE" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="RffU3ze37w" role="3eOfB_">
+            <node concept="2MkqsV" id="RffU3ze7RR" role="3cqZAp">
+              <node concept="Xl_RD" id="RffU3ze7RS" role="2MkJ7o">
+                <property role="Xl_RC" value="When using 'checkout queries' in a repo method, mark method as checkout method." />
+              </node>
+              <node concept="1YBJjd" id="RffU3ze7RT" role="2OEOjV">
+                <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="RffU3ze7Wm" role="3cqZAp" />
+      <node concept="3clFbH" id="RffU3ze7Xr" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="RffU3zdLq7" role="1YuTPh">
+      <property role="TrG5h" value="modelRepositoryMethod" />
+      <ref role="1YaFvo" to="un0u:6W_Qo9f2MnC" resolve="ModelRepositoryMethod" />
+    </node>
+  </node>
 </model>
 
