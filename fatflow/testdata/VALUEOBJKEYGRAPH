@@ -1,0 +1,10 @@
+AccoundAudit  (_readOnly: false  _TCN: 0  _enabled: true)
+key (ValueObject)
+   AccountKey  (_enabled: true  )
+   number  1
+   mandant  graph1
+   active  ON
+totalValue  0
+relatedAccountAudit (Reference) Key  (null-key)
+aDateDirtyIrrelevant  null
+parent (Reference) Key  (null-key)

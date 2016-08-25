@@ -1,18 +1,18 @@
 ExtendedInvoice  (_readOnly: true  _TCN: 0  _enabled: true)
-extendedInt: 0
-extendedString: 
-id: #*#*
-nameLen: 11
-totalAmount: 60
-nameLen2: 11
-text: Invoice
-name: ext1_tblinv
-localDate: Sun 27.01.1980
-dateTime: 27.01.1980 04:30:00
-headState: Status 1
-positions (List): 
-mainPosRef (Reference): Key: (null-key)
-moneyAmount (ValueObject): 
+extendedInt  0
+extendedString  
+id  #*#*
+nameLen  11
+totalAmount  60
+nameLen2  11
+text  Invoice
+name  ext1_tblinv
+localDate  Sun 27.01.1980
+dateTime  27.01.1980 04:30:00
+headState  Status 1
+positions (List)
+mainPosRef (Reference) Key  (null-key)
+moneyAmount (ValueObject)
    MoneyAmount  (_enabled: true  )
-   val: 100
-   currency: EUR
+   val  100
+   currency  EUR

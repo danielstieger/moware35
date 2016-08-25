@@ -55,10 +55,7 @@ CREATE TABLE MMT_KONTOAUDIT (/* for entity org.modellwerkstatt.fatflow.runtime.m
  REF_NUMBER NUMBER  (9) /* number */,
  REF_MANDANT VARCHAR2  (50) /* mandant */,
  REF_STATUS VARCHAR2  (5) /* active */,
- DAT_CREATEDAT DATE /* createdAt */,
- DAT_MODIFIEDAT DATE /* modifiedAt */,
- NUM_CREATEDATUID NUMBER  (9) /* createAtUid */,
- NUM_MODIFIEDATUID NUMBER  (9) /* modifiedAtUid */
+ REF_REFERER VARCHAR2  (50) /* key */
 ); 
 
 CREATE TABLE MMT_REFERER (/* for entity org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.Referer*/ 
