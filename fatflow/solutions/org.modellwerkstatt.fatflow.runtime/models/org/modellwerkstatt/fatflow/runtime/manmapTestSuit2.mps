@@ -11362,7 +11362,24 @@
     </node>
     <node concept="1DF_5m" id="2i3o0hdVwMq" role="3yMuLx" />
     <node concept="20qIzx" id="2i3o0hdVwRW" role="3yTP5x">
-      <node concept="3clFbS" id="2i3o0hdVwRX" role="2VODD2" />
+      <node concept="3clFbS" id="2i3o0hdVwRX" role="2VODD2">
+        <node concept="3dXMYk" id="70qPrkCTlTn" role="3cqZAp">
+          <node concept="JpLXF" id="70qPrkCTlTo" role="JmycY">
+            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
+            <node concept="Xl_RD" id="70qPrkCTlTp" role="1o$Zrr">
+              <property role="Xl_RC" value="deletetables.sql" />
+            </node>
+          </node>
+        </node>
+        <node concept="3dXMYk" id="70qPrkCTlRZ" role="3cqZAp">
+          <node concept="JpLXF" id="70qPrkCTlS0" role="JmycY">
+            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
+            <node concept="Xl_RD" id="70qPrkCTlS1" role="1o$Zrr">
+              <property role="Xl_RC" value="createtables.sql" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="34Athd" id="2i3o0he2k$7">
@@ -12659,24 +12676,7 @@
       <ref role="1DZZIc" node="2i3o0hdSzFX" resolve="References (no session)" />
     </node>
     <node concept="20qIzx" id="1oH_MJfh8Vw" role="3yTP5x">
-      <node concept="3clFbS" id="1oH_MJfh8Vx" role="2VODD2">
-        <node concept="3dXMYk" id="70qPrkCTlTn" role="3cqZAp">
-          <node concept="JpLXF" id="70qPrkCTlTo" role="JmycY">
-            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
-            <node concept="Xl_RD" id="70qPrkCTlTp" role="1o$Zrr">
-              <property role="Xl_RC" value="deletetables.sql" />
-            </node>
-          </node>
-        </node>
-        <node concept="3dXMYk" id="70qPrkCTlRZ" role="3cqZAp">
-          <node concept="JpLXF" id="70qPrkCTlS0" role="JmycY">
-            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
-            <node concept="Xl_RD" id="70qPrkCTlS1" role="1o$Zrr">
-              <property role="Xl_RC" value="createtables.sql" />
-            </node>
-          </node>
-        </node>
-      </node>
+      <node concept="3clFbS" id="1oH_MJfh8Vx" role="2VODD2" />
     </node>
   </node>
 </model>
