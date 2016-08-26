@@ -5,7 +5,7 @@ name  refvalobj-join
 parent (Reference) Key  (null-key)
 childs (List)
 account (Reference) Key  Konto (1 / refvalobj-join / 1)
-   AccoundAudit  (_readOnly: false  _TCN: 0  _enabled: true)
+   Account  (_readOnly: false  _TCN: 0  _enabled: true)
    key (ValueObject)
       AccountKey  (_enabled: true  )
       number  1

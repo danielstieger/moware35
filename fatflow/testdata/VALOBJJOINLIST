@@ -6,7 +6,7 @@ parent (Reference) Key  (null-key)
 childs (List)
 account (Reference) Key  (null-key)
 accountList (List)
-   AccoundAudit  (_readOnly: false  _TCN: 0  _enabled: true)
+   Account  (_readOnly: false  _TCN: 0  _enabled: true)
    key (ValueObject)
       AccountKey  (_enabled: true  )
       number  1
@@ -17,7 +17,7 @@ accountList (List)
    aDateDirtyIrrelevant  null
    parent (Reference) Key  valobj-joinlist
 
-   AccoundAudit  (_readOnly: false  _TCN: 0  _enabled: true)
+   Account  (_readOnly: false  _TCN: 0  _enabled: true)
    key (ValueObject)
       AccountKey  (_enabled: true  )
       number  2
@@ -28,7 +28,7 @@ accountList (List)
    aDateDirtyIrrelevant  null
    parent (Reference) Key  valobj-joinlist
 
-   AccoundAudit  (_readOnly: false  _TCN: 0  _enabled: true)
+   Account  (_readOnly: false  _TCN: 0  _enabled: true)
    key (ValueObject)
       AccountKey  (_enabled: true  )
       number  3
