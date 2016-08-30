@@ -3276,6 +3276,9 @@
     <property role="3GE5qa" value="OFXCore.infra" />
     <ref role="1XX52x" to="un0u:6ffh1MXA9UI" resolve="ContainerVariable" />
     <node concept="3EZMnI" id="6ffh1MXBJS7" role="2wV5jI">
+      <node concept="PMmxH" id="7FDT6FiKb7g" role="3EZMnx">
+        <ref role="PMmxG" to="tpen:6aS1KHf_xVK" resolve="HasAnnotation_AnnotationComponent" />
+      </node>
       <node concept="3F1sOY" id="6ffh1MXBJSa" role="3EZMnx">
         <ref role="1NtTu8" to="tpee:4VkOLwjf83e" />
       </node>
