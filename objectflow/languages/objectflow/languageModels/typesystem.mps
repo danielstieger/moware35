@@ -9273,7 +9273,7 @@
       </node>
       <node concept="3cpWs8" id="33fNNpe9kC8" role="3cqZAp">
         <node concept="3cpWsn" id="33fNNpe9kCb" role="3cpWs9">
-          <property role="TrG5h" value="vars" />
+          <property role="TrG5h" value="testMethods" />
           <node concept="_YKpA" id="33fNNpe9kC4" role="1tU5fm">
             <node concept="3Tqbb2" id="33fNNpe9kE6" role="_ZDj9">
               <ref role="ehGHo" to="un0u:3LVh91x9Ida" resolve="IOFXTestMethodVarDecl" />
@@ -9293,10 +9293,35 @@
           </node>
         </node>
       </node>
+      <node concept="3cpWs8" id="W1NYBg5byv" role="3cqZAp">
+        <node concept="3cpWsn" id="W1NYBg5byy" role="3cpWs9">
+          <property role="TrG5h" value="varDeclaration" />
+          <node concept="_YKpA" id="W1NYBg5byr" role="1tU5fm">
+            <node concept="3Tqbb2" id="W1NYBg5b$3" role="_ZDj9">
+              <ref role="ehGHo" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="W1NYBg5bK5" role="33vP2m">
+            <node concept="1YBJjd" id="W1NYBg5b_l" role="2Oq$k0">
+              <ref role="1YBMHb" node="33fNNpe9k6d" resolve="ofxTestMethod" />
+            </node>
+            <node concept="2Rf3mk" id="W1NYBg5cPK" role="2OqNvi">
+              <node concept="1xMEDy" id="W1NYBg5cPM" role="1xVPHs">
+                <node concept="chp4Y" id="W1NYBg5cQu" role="ri$Ld">
+                  <ref role="cht4Q" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="W1NYBg5bxu" role="3cqZAp" />
       <node concept="1DcWWT" id="33fNNpe9l_n" role="3cqZAp">
         <node concept="3clFbS" id="33fNNpe9l_p" role="2LFqv$">
+          <node concept="3clFbH" id="W1NYBg5bwQ" role="3cqZAp" />
           <node concept="3clFbJ" id="33fNNpe9mgW" role="3cqZAp">
             <node concept="3clFbS" id="33fNNpe9mgY" role="3clFbx">
+              <node concept="3clFbH" id="W1NYBg5e8z" role="3cqZAp" />
               <node concept="3clFbJ" id="33fNNpe9mG0" role="3cqZAp">
                 <node concept="3clFbS" id="33fNNpe9mG2" role="3clFbx">
                   <node concept="2MkqsV" id="33fNNpe9p_B" role="3cqZAp">
@@ -9329,8 +9354,8 @@
                   </node>
                   <node concept="2OqwBi" id="33fNNpe9p8S" role="3uHU7B">
                     <node concept="2OqwBi" id="33fNNpe9ndA" role="2Oq$k0">
-                      <node concept="37vLTw" id="33fNNpe9mIL" role="2Oq$k0">
-                        <ref role="3cqZAo" node="33fNNpe9kCb" resolve="vars" />
+                      <node concept="37vLTw" id="W1NYBg5e94" role="2Oq$k0">
+                        <ref role="3cqZAo" node="W1NYBg5byy" resolve="varDeclaration" />
                       </node>
                       <node concept="3zZkjj" id="33fNNpe9o8t" role="2OqNvi">
                         <node concept="1bVj0M" id="33fNNpe9o8v" role="23t8la">
@@ -9390,8 +9415,8 @@
             <ref role="ehGHo" to="un0u:3LVh91x9Ida" resolve="IOFXTestMethodVarDecl" />
           </node>
         </node>
-        <node concept="37vLTw" id="33fNNpe9lV5" role="1DdaDG">
-          <ref role="3cqZAo" node="33fNNpe9kCb" resolve="vars" />
+        <node concept="37vLTw" id="W1NYBg5cZp" role="1DdaDG">
+          <ref role="3cqZAo" node="33fNNpe9kCb" resolve="testMethods" />
         </node>
       </node>
       <node concept="3clFbH" id="33fNNpe9ls2" role="3cqZAp" />
