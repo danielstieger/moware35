@@ -171,7 +171,7 @@
   </node>
   <node concept="1TIwiD" id="3UJHRuk6Ycv">
     <property role="TrG5h" value="Service" />
-    <property role="MwhBj" value="${module}/icons/gear.png" />
+    <property role="MwhBj" value="${module}/icons/service.png" />
     <property role="19KtqR" value="true" />
     <property role="3GE5qa" value="Service" />
     <property role="1pbfSe" value="758408554" />
@@ -2604,7 +2604,7 @@
     <property role="3GE5qa" value="Configuration" />
     <property role="TrG5h" value="OFXConfig" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/config.png" />
+    <property role="MwhBj" value="${module}/icons/configuration.png" />
     <property role="1pbfSe" value="1262780438" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="33KhHQNY4a3" role="1TKVEl">

@@ -1,0 +1,50 @@
+Invoice  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true)
+id  #*#*
+nameLen  6
+totalAmount  60
+nameLen2  6
+text  Invoice
+name  g2-ref
+localDate  Sun 27.01.1980
+dateTime  27.01.1980 04:30:00
+headState  Status 1
+positions (List)
+   InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true)
+   id  #*#*
+   posAvalue  0
+   posText  g2-ref_0
+   date  Sun 27.01.1980
+   invoice (Reference) Key  #*#*
+
+   InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true)
+   id  #*#*
+   posAvalue  10
+   posText  g2-ref_1
+   date  Sun 27.01.1980
+   invoice (Reference) Key  #*#*
+
+   InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true)
+   id  #*#*
+   posAvalue  20
+   posText  g2-ref_2
+   date  Sun 27.01.1980
+   invoice (Reference) Key  #*#*
+
+   InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true)
+   id  #*#*
+   posAvalue  30
+   posText  g2-ref_3
+   date  Sun 27.01.1980
+   invoice (Reference) Key  #*#*
+
+mainPosRef (Reference) Key  #*#*
+   InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true)
+   id  #*#*
+   posAvalue  0
+   posText  ref2
+   date  null
+   invoice (Reference) Key  (null-key)
+moneyAmount (ValueObject)
+   MoneyAmount  (_enabled: true  )
+   val  100
+   currency  EUR
