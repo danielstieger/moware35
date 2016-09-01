@@ -38,7 +38,6 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -152,9 +151,6 @@
         <reference id="1881524139087020879" name="command" index="10x$tN" />
       </concept>
       <concept id="1881524139087047680" name="org.modellwerkstatt.objectflow.structure.OnTriggerTransition" flags="ng" index="10xUwW" />
-      <concept id="1881524139085549729" name="org.modellwerkstatt.objectflow.structure.FlagCommand" flags="ng" index="10Adit">
-        <child id="1881524139085549730" name="msgExpression" index="10Adiu" />
-      </concept>
       <concept id="1881524139085552751" name="org.modellwerkstatt.objectflow.structure.DoneCommand" flags="ng" index="10Adxj" />
       <concept id="1881524139088778970" name="org.modellwerkstatt.objectflow.structure.ProcessDocumentReference" flags="ng" index="10EhbA">
         <reference id="1881524139088778971" name="processDocument" index="10EhbB" />
@@ -171,6 +167,7 @@
         <reference id="4358152451302645278" name="page" index="1sBLEe" />
         <reference id="4358152451302647332" name="conclusion" index="1sBMaO" />
         <child id="3875131616720763367" name="testMethodInsideGraphOwner" index="2_go9b" />
+        <child id="4358152451302649835" name="beforeConclude" index="1sBMHV" />
       </concept>
       <concept id="7192042020163999185" name="org.modellwerkstatt.objectflow.structure.Process" flags="ng" index="3ugp7d">
         <reference id="1881524139087681829" name="statusField" index="10I5Op" />
@@ -202,6 +199,7 @@
       <concept id="6952410984693239415" name="org.modellwerkstatt.objectflow.structure.OFXTestVarRef" flags="ng" index="3zkua3">
         <reference id="6952410984693239500" name="varReference" index="3zku8S" />
       </concept>
+      <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
       </concept>
@@ -268,9 +266,6 @@
       <node concept="3Tm1VV" id="5MCXLSo6s5l" role="1B3o_S" />
       <node concept="3clFbS" id="5MCXLSo6s5m" role="3clF47">
         <node concept="3clFbH" id="5MCXLSo6s8E" role="3cqZAp" />
-        <node concept="10Adit" id="5MCXLSo6s9g" role="3cqZAp">
-          <node concept="33vP2n" id="5MCXLSo9hPm" role="10Adiu" />
-        </node>
         <node concept="3clFbH" id="5MCXLSo6s8G" role="3cqZAp" />
         <node concept="3clFbH" id="5MCXLSo6s8Q" role="3cqZAp" />
       </node>
@@ -425,6 +420,7 @@
       </node>
       <node concept="3cqZAl" id="5MCXLSnMi3Z" role="3clF45" />
       <node concept="3clFbS" id="5MCXLSnMi3Q" role="3clF47">
+        <node concept="3clFbH" id="2UugmUDAyMc" role="3cqZAp" />
         <node concept="2Ux5d2" id="5MCXLSnMi4_" role="3cqZAp">
           <ref role="2Ux5d1" node="Joc9_LZQLM" resolve="Invoice Process" />
           <ref role="2Ux5d0" node="5MCXLSnMhzd" resolve="Edit Invoice Pos" />
@@ -467,6 +463,7 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="2UugmUDAzfK" role="3cqZAp" />
               </node>
             </node>
           </node>
@@ -501,6 +498,7 @@
         </node>
       </node>
     </node>
+    <node concept="1DF_5m" id="2UugmUDA$4$" role="3yMuLx" />
     <node concept="2_FS1e" id="5MCXLSnMi3x" role="3yMuLx">
       <property role="TrG5h" value="Edit Invoice and check graph." />
       <node concept="1sBLa9" id="5MCXLSnMjLh" role="1sBNec">
@@ -556,6 +554,18 @@
             <property role="1mgVXS" value="14.0d" />
           </node>
         </node>
+        <node concept="20qIzx" id="2UugmUDANND" role="1sBMHV">
+          <node concept="3clFbS" id="2UugmUDANNE" role="2VODD2">
+            <node concept="3clFbH" id="2UugmUDANR0" role="3cqZAp" />
+            <node concept="3clFbF" id="2UugmUDANPA" role="3cqZAp">
+              <node concept="3zkua3" id="2UugmUDANP_" role="3clFbG">
+                <ref role="3zku8S" node="5MCXLSnMjLh" resolve="invoice" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="2UugmUDANQD" role="3cqZAp" />
+            <node concept="3clFbH" id="2UugmUDANQK" role="3cqZAp" />
+          </node>
+        </node>
       </node>
       <node concept="2_HltQ" id="5MCXLSnMi3y" role="2_GXT8">
         <ref role="2_Hrwf" node="Joc9_LZQLM" resolve="Invoice Process" />
@@ -572,6 +582,10 @@
       </node>
       <node concept="3cqZAl" id="5MCXLSnMi3D" role="3clF45" />
       <node concept="3clFbS" id="5MCXLSnMi3$" role="3clF47">
+        <node concept="3clFbH" id="2UugmUDAN1s" role="3cqZAp" />
+        <node concept="3clFbH" id="2UugmUDANus" role="3cqZAp" />
+        <node concept="3clFbH" id="2UugmUDANuI" role="3cqZAp" />
+        <node concept="3clFbH" id="2UugmUDANv1" role="3cqZAp" />
         <node concept="3cpWs8" id="5MCXLSnMk9i" role="3cqZAp">
           <node concept="3cpWsn" id="5MCXLSnMk9j" role="3cpWs9">
             <property role="TrG5h" value="reload" />

@@ -3073,7 +3073,7 @@
     <ref role="1TJDcQ" node="61VVfi2FlUv" resolve="OFXTestMethod" />
     <node concept="1TJgyj" id="3n7eUMgten$" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="graphOwnerCommandCall" />
+      <property role="20kJfa" value="commandCall" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3n7eUMgsANq" resolve="CommandCallBasis" />
     </node>
