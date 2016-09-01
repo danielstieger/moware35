@@ -378,7 +378,7 @@
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F">
         <child id="6952410984686914562" name="dependentMethods" index="3yGA3Q" />
       </concept>
-      <concept id="6952410984693239415" name="org.modellwerkstatt.objectflow.structure.OFXTestVarRef" flags="ng" index="3zkua3">
+      <concept id="6952410984693239415" name="org.modellwerkstatt.objectflow.structure.OFXTestMethocCallVarRef" flags="ng" index="3zkua3">
         <reference id="6952410984693239500" name="varReference" index="3zku8S" />
       </concept>
       <concept id="569389511234497392" name="org.modellwerkstatt.objectflow.structure.DateTimeLiteral" flags="ng" index="1$4sJe">
@@ -1377,6 +1377,7 @@
         </node>
       </node>
     </node>
+    <node concept="1DF_5m" id="6Hh99C_r0e$" role="3yMuLx" />
     <node concept="3yPF9F" id="2i3o0he1AQi" role="3yMuLx">
       <property role="TrG5h" value="Update an Invoice and reload it again." />
       <node concept="3yABqi" id="2i3o0he1AWE" role="3yGA3Q">

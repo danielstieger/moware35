@@ -11674,7 +11674,69 @@
               </node>
             </node>
           </node>
+          <node concept="3eNFk2" id="5yIRyBH2qps" role="3eNLev">
+            <node concept="2OqwBi" id="5yIRyBH2ror" role="3eO9$A">
+              <node concept="37vLTw" id="5yIRyBH2rlt" role="2Oq$k0">
+                <ref role="3cqZAo" node="61VVfi3euQM" resolve="kind" />
+              </node>
+              <node concept="3O6GUB" id="5yIRyBH2rqX" role="2OqNvi">
+                <node concept="chp4Y" id="5yIRyBH2rsx" role="3QVz_e">
+                  <ref role="cht4Q" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="5yIRyBH2qpu" role="3eOfB_">
+              <node concept="3clFbH" id="5yIRyBH3cXT" role="3cqZAp" />
+              <node concept="3clFbF" id="5yIRyBH2sav" role="3cqZAp">
+                <node concept="2OqwBi" id="5yIRyBH2sas" role="3clFbG">
+                  <node concept="10M0yZ" id="5yIRyBH2sat" role="2Oq$k0">
+                    <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                    <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                  </node>
+                  <node concept="liA8E" id="5yIRyBH2sau" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                    <node concept="3cpWs3" id="5yIRyBH2sDj" role="37wK5m">
+                      <node concept="Xl_RD" id="5yIRyBH2seI" role="3uHU7B">
+                        <property role="Xl_RC" value="OFXTestMethodCall: VariableDeclaration. " />
+                      </node>
+                      <node concept="2OqwBi" id="5yIRyBH2sES" role="3uHU7w">
+                        <node concept="13iAh5" id="5yIRyBH2sET" role="2Oq$k0">
+                          <ref role="3eA5LN" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+                        </node>
+                        <node concept="2qgKlT" id="5yIRyBH2sEU" role="2OqNvi">
+                          <ref role="37wK5l" to="tpcu:3fifI_xCJOQ" resolve="getScope" />
+                          <node concept="37vLTw" id="5yIRyBH2sEV" role="37wK5m">
+                            <ref role="3cqZAo" node="61VVfi3euQM" resolve="kind" />
+                          </node>
+                          <node concept="37vLTw" id="5yIRyBH2sEW" role="37wK5m">
+                            <ref role="3cqZAo" node="61VVfi3euQO" resolve="child" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="5yIRyBH2rvO" role="3cqZAp">
+                <node concept="2OqwBi" id="5yIRyBH2rvP" role="3cqZAk">
+                  <node concept="13iAh5" id="5yIRyBH2rvQ" role="2Oq$k0">
+                    <ref role="3eA5LN" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+                  </node>
+                  <node concept="2qgKlT" id="5yIRyBH2rvR" role="2OqNvi">
+                    <ref role="37wK5l" to="tpcu:3fifI_xCJOQ" resolve="getScope" />
+                    <node concept="37vLTw" id="5yIRyBH2rvS" role="37wK5m">
+                      <ref role="3cqZAo" node="61VVfi3euQM" resolve="kind" />
+                    </node>
+                    <node concept="37vLTw" id="5yIRyBH2rvT" role="37wK5m">
+                      <ref role="3cqZAo" node="61VVfi3euQO" resolve="child" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
+        <node concept="3clFbH" id="5yIRyBH2pD2" role="3cqZAp" />
         <node concept="3clFbH" id="33fNNpe0NQE" role="3cqZAp" />
         <node concept="3cpWs6" id="7J0ixfcZ06I" role="3cqZAp">
           <node concept="2OqwBi" id="61VVfi3euQT" role="3cqZAk">
@@ -13997,7 +14059,7 @@
   </node>
   <node concept="13h7C7" id="6OEsYvX_hQT">
     <property role="3GE5qa" value="OFXTest" />
-    <ref role="13h7C2" to="un0u:3n7eUMgqbJy" resolve="OFXGraphOwnerTestMethod" />
+    <ref role="13h7C2" to="un0u:3n7eUMgqbJy" resolve="OFXCommandTestMethod" />
     <node concept="13i0hz" id="3LVh91x4bYy" role="13h7CS">
       <property role="TrG5h" value="getCommand" />
       <node concept="3Tm1VV" id="3LVh91x4bYz" role="1B3o_S" />
@@ -14211,7 +14273,7 @@
               <node concept="2Xjw5R" id="3LVh91wWA3Y" role="2OqNvi">
                 <node concept="1xMEDy" id="3LVh91wWA3Z" role="1xVPHs">
                   <node concept="chp4Y" id="3LVh91wWA40" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:3n7eUMgqbJy" resolve="OFXGraphOwnerTestMethod" />
+                    <ref role="cht4Q" to="un0u:3n7eUMgqbJy" resolve="OFXCommandTestMethod" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="3LVh91wWA41" role="1xVPHs" />
