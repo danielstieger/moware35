@@ -2897,12 +2897,12 @@
     <node concept="1TJgyj" id="61VVfi2BbQl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="onStartup" />
-      <ref role="20lvS9" node="5Ee0EjqTeD5" resolve="VoidStatementList" />
+      <ref role="20lvS9" node="7cOyB3YfVuh" resolve="OFXTestStatementList" />
     </node>
     <node concept="1TJgyj" id="61VVfi2BbRa" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="onShutdown" />
-      <ref role="20lvS9" node="5Ee0EjqTeD5" resolve="VoidStatementList" />
+      <ref role="20lvS9" node="7cOyB3YfVuh" resolve="OFXTestStatementList" />
     </node>
     <node concept="1TJgyj" id="2w93nZwKx1H" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3145,7 +3145,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="beforeConclude" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="5Ee0EjqTeD5" resolve="VoidStatementList" />
+      <ref role="20lvS9" node="7cOyB3YfVuh" resolve="OFXTestStatementList" />
     </node>
     <node concept="1TJgyj" id="3LVh91wT5Su" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -3177,7 +3177,7 @@
   <node concept="1TIwiD" id="72pStkQaFl2">
     <property role="1pbfSe" value="1497065705" />
     <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="OFXTestFailIn" />
+    <property role="TrG5h" value="OFXTestFailInAttribue" />
     <property role="19KtqR" value="false" />
     <property role="34LRSv" value="FAIL IN" />
     <property role="R4oN_" value="results in exception" />
@@ -3197,6 +3197,9 @@
       <property role="Hh88m" value="failin" />
       <node concept="trNpa" id="72pStkQEFE5" role="EQaZv">
         <ref role="trN6q" to="tpee:fzclF8l" resolve="Statement" />
+      </node>
+      <node concept="trNpa" id="7cOyB3Yqc0q" role="EQaZv">
+        <ref role="trN6q" node="61VVfi2SpDA" resolve="OFXTestMethodCall" />
       </node>
       <node concept="tn0Fv" id="72pStkQaH4p" role="HhnKV">
         <property role="tnX3d" value="false" />
@@ -3411,6 +3414,14 @@
       <ref role="20lvS9" to="tpee:fz7vLUk" resolve="ParameterDeclaration" />
       <ref role="20ksaX" to="tpee:fzcqZ_w" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7cOyB3YfVuh">
+    <property role="1pbfSe" value="1903444481" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestStatementList" />
+    <property role="34LRSv" value="func" />
+    <property role="R4oN_" value="some statement" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

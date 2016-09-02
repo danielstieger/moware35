@@ -222,6 +222,9 @@
         <child id="1199569916463" name="body" index="1bW5cS" />
       </concept>
     </language>
+    <language id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes">
+      <concept id="8077936094962911282" name="jetbrains.mps.lang.scopes.structure.ParentScope" flags="nn" index="iy90A" />
+    </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
         <child id="1196350785114" name="quotedNode" index="2c44tc" />
@@ -11497,7 +11500,7 @@
           <node concept="3cpWsn" id="4pH_TM_RZqG" role="3cpWs9">
             <property role="TrG5h" value="references" />
             <node concept="2I9FWS" id="4pH_TM_RZqB" role="1tU5fm">
-              <ref role="2I9WkF" to="un0u:61VVfi3awTR" resolve="OFXTestVarRef" />
+              <ref role="2I9WkF" to="un0u:61VVfi3awTR" resolve="OFXTestMethocCallVarRef" />
             </node>
             <node concept="2OqwBi" id="4pH_TM_S1jR" role="33vP2m">
               <node concept="2OqwBi" id="4pH_TM_RZTF" role="2Oq$k0">
@@ -11508,7 +11511,7 @@
                   <node concept="2Rf3mk" id="4pH_TM_RZw4" role="2OqNvi">
                     <node concept="1xMEDy" id="4pH_TM_RZw6" role="1xVPHs">
                       <node concept="chp4Y" id="4pH_TM_RZwF" role="ri$Ld">
-                        <ref role="cht4Q" to="un0u:61VVfi3awTR" resolve="OFXTestVarRef" />
+                        <ref role="cht4Q" to="un0u:61VVfi3awTR" resolve="OFXTestMethocCallVarRef" />
                       </node>
                     </node>
                   </node>
@@ -11588,7 +11591,7 @@
           <node concept="3cpWsn" id="4pH_TM_S1Nl" role="1Duv9x">
             <property role="TrG5h" value="ref" />
             <node concept="3Tqbb2" id="4pH_TM_S1VL" role="1tU5fm">
-              <ref role="ehGHo" to="un0u:61VVfi3awTR" resolve="OFXTestVarRef" />
+              <ref role="ehGHo" to="un0u:61VVfi3awTR" resolve="OFXTestMethocCallVarRef" />
             </node>
           </node>
           <node concept="37vLTw" id="4pH_TM_S24Z" role="1DdaDG">
@@ -13138,6 +13141,43 @@
                       <ref role="37wK5l" node="33fNNpedGHj" resolve="getAllDependenTestVarDelarations" />
                     </node>
                   </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="7cOyB3Y4OTf" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="3eNFk2" id="7cOyB3Y4RZz" role="3eNLev">
+            <node concept="2OqwBi" id="7cOyB3Y4VIm" role="3eO9$A">
+              <node concept="37vLTw" id="7cOyB3Y4VFm" role="2Oq$k0">
+                <ref role="3cqZAo" node="61VVfi2ZEXe" resolve="kind" />
+              </node>
+              <node concept="3O6GUB" id="7cOyB3Y4VKU" role="2OqNvi">
+                <node concept="chp4Y" id="7cOyB3Y4VM4" role="3QVz_e">
+                  <ref role="cht4Q" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="7cOyB3Y4RZ_" role="3eOfB_">
+              <node concept="3SKdUt" id="7cOyB3Y52kh" role="3cqZAp">
+                <node concept="3SKdUq" id="7cOyB3Y52kj" role="3SKWNk">
+                  <property role="3SKdUp" value="not only for come from body (see BaseMethodDeclaration scope)" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="7cOyB3Y613E" role="3cqZAp" />
+              <node concept="3cpWs6" id="3A2qfoxXvYK" role="3cqZAp">
+                <node concept="2YIFZM" id="3A2qfoxXvYN" role="3cqZAk">
+                  <ref role="1Pybhc" to="fnmy:3A2qfoxVUBF" resolve="Scopes" />
+                  <ref role="37wK5l" to="fnmy:3A2qfoxVU7a" resolve="forVariables" />
+                  <node concept="37vLTw" id="2BHiRxglyJY" role="37wK5m">
+                    <ref role="3cqZAo" node="61VVfi2ZEXe" resolve="kind" />
+                  </node>
+                  <node concept="2OqwBi" id="3A2qfoxXvZ7" role="37wK5m">
+                    <node concept="13iPFW" id="3A2qfoxXvYQ" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="3A2qfoxXvZd" role="2OqNvi">
+                      <ref role="3TtcxE" to="tpee:fzclF7Y" />
+                    </node>
+                  </node>
+                  <node concept="iy90A" id="3A2qfoxXvZt" role="37wK5m" />
                 </node>
               </node>
             </node>
@@ -15462,6 +15502,71 @@
     </node>
     <node concept="13hLZK" id="70qPrkCyRDD" role="13h7CW">
       <node concept="3clFbS" id="70qPrkCyRDE" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7cOyB3YfVyE">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="13h7C2" to="un0u:7cOyB3YfVuh" resolve="OFXTestStatementList" />
+    <node concept="13i0hz" id="7cOyB3YfVCm" role="13h7CS">
+      <property role="TrG5h" value="showName" />
+      <property role="2Ki8OM" value="true" />
+      <property role="13i0it" value="false" />
+      <property role="13i0is" value="false" />
+      <ref role="13i0hy" to="tpek:1653mnvAgry" resolve="showName" />
+      <node concept="3Tm1VV" id="7cOyB3YfVCn" role="1B3o_S" />
+      <node concept="10P_77" id="7cOyB3YfVCo" role="3clF45" />
+      <node concept="3clFbS" id="7cOyB3YfVCp" role="3clF47">
+        <node concept="3cpWs6" id="7cOyB3YfVCq" role="3cqZAp">
+          <node concept="3clFbT" id="7cOyB3YfVCr" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="7cOyB3YfVyO" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="7cOyB3YfVyP" role="1B3o_S" />
+      <node concept="3clFbS" id="7cOyB3YfVyQ" role="3clF47">
+        <node concept="3cpWs6" id="7cOyB3YfVyR" role="3cqZAp">
+          <node concept="2c44tf" id="7cOyB3YfVyS" role="3cqZAk">
+            <node concept="3cqZAl" id="7cOyB3YfVyT" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="7cOyB3YfVyU" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="7cOyB3YfVAd" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="TrG5h" value="implicitThrows" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="tpek:4kX30tnJ9kz" resolve="implicitThrows" />
+      <node concept="3Tm1VV" id="7cOyB3YfVAe" role="1B3o_S" />
+      <node concept="3clFbS" id="7cOyB3YfVAf" role="3clF47">
+        <node concept="3SKdUt" id="7cOyB3YfVAg" role="3cqZAp">
+          <node concept="3SKdUq" id="7cOyB3YfVAh" role="3SKWNk">
+            <property role="3SKdUp" value="since concept function is put inside a try/catch in the generator" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7cOyB3YfVAi" role="3cqZAp">
+          <node concept="3SKdUq" id="7cOyB3YfVAj" role="3SKWNk">
+            <property role="3SKdUp" value="we disable not marked exception error msgs in mps" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="7cOyB3YfVAk" role="3cqZAp" />
+        <node concept="3clFbF" id="7cOyB3YfVAl" role="3cqZAp">
+          <node concept="3clFbT" id="7cOyB3YfVAm" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="7cOyB3YfVAn" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="7cOyB3YfVyF" role="13h7CW">
+      <node concept="3clFbS" id="7cOyB3YfVyG" role="2VODD2" />
     </node>
   </node>
 </model>
