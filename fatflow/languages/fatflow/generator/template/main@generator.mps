@@ -27971,6 +27971,138 @@
                   <node concept="3clFbH" id="6_VKg6ldW43" role="3cqZAp" />
                 </node>
               </node>
+              <node concept="TDmWw" id="6_VKg6lsuS3" role="TEbGg">
+                <node concept="3cpWsn" id="6_VKg6lsuS4" role="TDEfY">
+                  <property role="TrG5h" value="flagException" />
+                  <node concept="3uibUv" id="6_VKg6lswQ2" role="1tU5fm">
+                    <ref role="3uigEE" to="28jr:ncJg$HbYpH" resolve="OFXPageFlagException" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="6_VKg6lsuS6" role="TDEfX">
+                  <node concept="3clFbF" id="6_VKg6lsx27" role="3cqZAp">
+                    <node concept="2OqwBi" id="6_VKg6lsx28" role="3clFbG">
+                      <node concept="2YIFZM" id="6_VKg6lsx29" role="2Oq$k0">
+                        <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
+                        <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                        <node concept="Xl_RD" id="6_VKg6lsx2a" role="37wK5m">
+                          <property role="Xl_RC" value="this.class.fq.name" />
+                          <node concept="17Uvod" id="6_VKg6lsx2b" role="lGtFl">
+                            <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                            <property role="2qtEX9" value="value" />
+                            <node concept="3zFVjK" id="6_VKg6lsx2c" role="3zH0cK">
+                              <node concept="3clFbS" id="6_VKg6lsx2d" role="2VODD2">
+                                <node concept="3clFbF" id="6_VKg6lsx2e" role="3cqZAp">
+                                  <node concept="2OqwBi" id="6_VKg6lsx2f" role="3clFbG">
+                                    <node concept="2OqwBi" id="6_VKg6lsx2g" role="2Oq$k0">
+                                      <node concept="30H73N" id="6_VKg6lsx2h" role="2Oq$k0" />
+                                      <node concept="2Xjw5R" id="6_VKg6lsx2i" role="2OqNvi">
+                                        <node concept="1xMEDy" id="6_VKg6lsx2j" role="1xVPHs">
+                                          <node concept="chp4Y" id="6_VKg6lsx2k" role="ri$Ld">
+                                            <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="2qgKlT" id="6_VKg6lsx2l" role="2OqNvi">
+                                      <ref role="37wK5l" to="70o0:6ffh1MX_A66" resolve="getEscapedFqName" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="6_VKg6lsx2m" role="2OqNvi">
+                        <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                        <node concept="3cpWs3" id="6_VKg6ltqBj" role="37wK5m">
+                          <node concept="Xl_RD" id="6_VKg6ltqCm" role="3uHU7w">
+                            <property role="Xl_RC" value=")" />
+                          </node>
+                          <node concept="3cpWs3" id="6_VKg6lsx2n" role="3uHU7B">
+                            <node concept="Xl_RD" id="6_VKg6lsx2r" role="3uHU7B">
+                              <property role="Xl_RC" value="Command OFX_CMD_CCC was canceled on purpose: " />
+                              <node concept="17Uvod" id="6_VKg6lsx2s" role="lGtFl">
+                                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                                <property role="2qtEX9" value="value" />
+                                <node concept="3zFVjK" id="6_VKg6lsx2t" role="3zH0cK">
+                                  <node concept="3clFbS" id="6_VKg6lsx2u" role="2VODD2">
+                                    <node concept="3clFbF" id="6_VKg6lsx2v" role="3cqZAp">
+                                      <node concept="3cpWs3" id="6_VKg6lsx2w" role="3clFbG">
+                                        <node concept="3cpWs3" id="6_VKg6lsx2y" role="3uHU7B">
+                                          <node concept="Xl_RD" id="6_VKg6lsx2z" role="3uHU7B">
+                                            <property role="Xl_RC" value="Command " />
+                                          </node>
+                                          <node concept="2OqwBi" id="6_VKg6lsx2$" role="3uHU7w">
+                                            <node concept="2OqwBi" id="6_VKg6lsx2_" role="2Oq$k0">
+                                              <node concept="2OqwBi" id="6_VKg6lsx2A" role="2Oq$k0">
+                                                <node concept="30H73N" id="6_VKg6lsx2B" role="2Oq$k0" />
+                                                <node concept="3TrEf2" id="6_VKg6lsx2C" role="2OqNvi">
+                                                  <ref role="3Tt5mk" to="un0u:3n7eUMgten$" />
+                                                </node>
+                                              </node>
+                                              <node concept="3TrEf2" id="6_VKg6lsx2D" role="2OqNvi">
+                                                <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                                              </node>
+                                            </node>
+                                            <node concept="3TrcHB" id="6_VKg6lsx2E" role="2OqNvi">
+                                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="Xl_RD" id="6_VKg6ltme6" role="3uHU7w">
+                                          <property role="Xl_RC" value=" issued a flag stamtent. Flags' are not applicable in non UI apps. This is a programming error. (Flag messge: " />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="6_VKg6lsx2o" role="3uHU7w">
+                              <node concept="37vLTw" id="6_VKg6ls$2I" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6_VKg6lsuS4" resolve="flagException" />
+                              </node>
+                              <node concept="liA8E" id="6_VKg6lsx2q" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="6_VKg6ls$en" role="3cqZAp">
+                    <node concept="2OqwBi" id="6_VKg6ls$oW" role="3clFbG">
+                      <node concept="37vLTw" id="6_VKg6ls$el" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
+                      </node>
+                      <node concept="liA8E" id="6_VKg6ls$BH" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:2znuo4gdpmh" resolve="externalAbortDueToOutsideException" />
+                        <node concept="37vLTw" id="6_VKg6ls$JY" role="37wK5m">
+                          <ref role="3cqZAo" node="6_VKg6lsuS4" resolve="flagException" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="6_VKg6lsG9K" role="3cqZAp">
+                    <node concept="3SKdUq" id="6_VKg6lsG9M" role="3SKWNk">
+                      <property role="3SKdUp" value="and terminated parent command also. i.e. re throw ex" />
+                    </node>
+                  </node>
+                  <node concept="YS8fn" id="6_VKg6ltr9d" role="3cqZAp">
+                    <node concept="2ShNRf" id="6_VKg6ltrlK" role="YScLw">
+                      <node concept="1pGfFk" id="6_VKg6ltx4x" role="2ShVmc">
+                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                        <node concept="37vLTw" id="6_VKg6ltx8L" role="37wK5m">
+                          <ref role="3cqZAo" node="6_VKg6lsuS4" resolve="flagException" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="6_VKg6lsFXv" role="3cqZAp" />
+                </node>
+              </node>
               <node concept="TDmWw" id="6U6qQMZD$lT" role="TEbGg">
                 <node concept="3cpWsn" id="6U6qQMZD$lU" role="TDEfY">
                   <property role="TrG5h" value="t" />
