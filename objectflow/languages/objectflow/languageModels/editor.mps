@@ -9524,7 +9524,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="3n7eUMgxGAP" role="3EZMnx">
-        <property role="3F0ifm" value="conclude" />
+        <property role="3F0ifm" value="force conclusion" />
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
         <node concept="pVoyu" id="3n7eUMgxGEd" role="3F10Kt">
           <property role="VOm3f" value="true" />

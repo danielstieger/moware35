@@ -192,6 +192,7 @@
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -208,6 +209,7 @@
       <concept id="1206482823744" name="jetbrains.mps.lang.smodel.structure.Model_AddRootOperation" flags="nn" index="3BYIHo">
         <child id="1206482823746" name="nodeArgument" index="3BYIHq" />
       </concept>
+      <concept id="6407023681583040688" name="jetbrains.mps.lang.smodel.structure.AllAttributeQualifier" flags="ng" index="3CFTEB" />
       <concept id="6407023681583036853" name="jetbrains.mps.lang.smodel.structure.NodeAttributeQualifier" flags="ng" index="3CFYIy">
         <reference id="6407023681583036854" name="attributeConcept" index="3CFYIx" />
       </concept>
@@ -4799,6 +4801,59 @@
               </node>
               <node concept="34oBXx" id="7pudXbEL_YI" role="2OqNvi" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="6_VKg6llPEH">
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestFailInAttribRemove" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="un0u:72pStkQaFl2" resolve="OFXTestFailInAttribue" />
+    <node concept="2S6ZIM" id="6_VKg6llPEI" role="2ZfVej">
+      <node concept="3clFbS" id="6_VKg6llPEJ" role="2VODD2">
+        <node concept="3clFbF" id="6_VKg6llPYe" role="3cqZAp">
+          <node concept="Xl_RD" id="6_VKg6llPYd" role="3clFbG">
+            <property role="Xl_RC" value="Fail In: Remove 'Exception expected'." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="6_VKg6llPEK" role="2ZfgGD">
+      <node concept="3clFbS" id="6_VKg6llPEL" role="2VODD2">
+        <node concept="3clFbF" id="6_VKg6loZzM" role="3cqZAp">
+          <node concept="2OqwBi" id="6_VKg6lp1Va" role="3clFbG">
+            <node concept="2OqwBi" id="6_VKg6lp0f5" role="2Oq$k0">
+              <node concept="2OqwBi" id="6_VKg6loZR4" role="2Oq$k0">
+                <node concept="2OqwBi" id="6_VKg6loZBl" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="6_VKg6loZzK" role="2Oq$k0" />
+                  <node concept="1mfA1w" id="6_VKg6loZLH" role="2OqNvi" />
+                </node>
+                <node concept="3CFZ6_" id="6_VKg6loZTl" role="2OqNvi">
+                  <node concept="3CFTEB" id="6_VKg6loZUy" role="3CFYIz" />
+                </node>
+              </node>
+              <node concept="1z4cxt" id="6_VKg6lp1DK" role="2OqNvi">
+                <node concept="1bVj0M" id="6_VKg6lp1DM" role="23t8la">
+                  <node concept="3clFbS" id="6_VKg6lp1DN" role="1bW5cS">
+                    <node concept="3clFbF" id="6_VKg6lp1Gr" role="3cqZAp">
+                      <node concept="3clFbC" id="6_VKg6lp1OR" role="3clFbG">
+                        <node concept="2Sf5sV" id="6_VKg6lp1QG" role="3uHU7w" />
+                        <node concept="37vLTw" id="6_VKg6lp1Gq" role="3uHU7B">
+                          <ref role="3cqZAo" node="6_VKg6lp1DO" resolve="it" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="6_VKg6lp1DO" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="6_VKg6lp1DP" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1PgB_6" id="6_VKg6lp21Y" role="2OqNvi" />
           </node>
         </node>
       </node>
