@@ -1541,6 +1541,7 @@
     <node concept="PrWs8" id="4H7K4Wq6tCR" role="PzmwI">
       <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
     </node>
+    <node concept="asaX9" id="26QcchVSBLt" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6W_Qo9eYrYE">
     <property role="3GE5qa" value="BusinessObject" />
