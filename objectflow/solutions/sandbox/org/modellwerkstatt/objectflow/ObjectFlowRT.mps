@@ -36622,5 +36622,58 @@
       </node>
     </node>
   </node>
+  <node concept="312cEu" id="4Ta2XmWj_gq">
+    <property role="3GE5qa" value="OFXImpl" />
+    <property role="TrG5h" value="OFXCommandErrorException" />
+    <node concept="3clFbW" id="4Ta2XmWj_hd" role="jymVt">
+      <node concept="37vLTG" id="4Ta2XmWj_he" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="4Ta2XmWj_hf" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4Ta2XmWj_hg" role="3clF45" />
+      <node concept="3Tm1VV" id="4Ta2XmWj_hh" role="1B3o_S" />
+      <node concept="3clFbS" id="4Ta2XmWj_hi" role="3clF47">
+        <node concept="XkiVB" id="4Ta2XmWj_hj" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="4Ta2XmWj_hk" role="37wK5m">
+            <ref role="3cqZAo" node="4Ta2XmWj_he" resolve="msg" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="4Ta2XmWjF7j" role="jymVt">
+      <node concept="37vLTG" id="4Ta2XmWjF7k" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="4Ta2XmWjF7l" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4Ta2XmWjF8z" role="3clF46">
+        <property role="TrG5h" value="p1" />
+        <node concept="3uibUv" id="4Ta2XmWjFbF" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4Ta2XmWjF7m" role="3clF45" />
+      <node concept="3Tm1VV" id="4Ta2XmWjF7n" role="1B3o_S" />
+      <node concept="3clFbS" id="4Ta2XmWjF7o" role="3clF47">
+        <node concept="XkiVB" id="4Ta2XmWjF7p" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="4Ta2XmWjF7q" role="37wK5m">
+            <ref role="3cqZAo" node="4Ta2XmWjF7k" resolve="msg" />
+          </node>
+          <node concept="37vLTw" id="4Ta2XmWjFc$" role="37wK5m">
+            <ref role="3cqZAo" node="4Ta2XmWjF8z" resolve="p1" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4Ta2XmWjF9O" role="3cqZAp" />
+        <node concept="3clFbH" id="4Ta2XmWjF9_" role="3cqZAp" />
+        <node concept="3clFbH" id="4Ta2XmWjF9n" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4Ta2XmWj_hb" role="jymVt" />
+    <node concept="3Tm1VV" id="4Ta2XmWj_gr" role="1B3o_S" />
+    <node concept="3uibUv" id="4Ta2XmWjDHA" role="1zkMxy">
+      <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+    </node>
+  </node>
 </model>
 

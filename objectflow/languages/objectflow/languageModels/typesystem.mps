@@ -1355,6 +1355,7 @@
     <property role="3GE5qa" value="OFXCore.command" />
     <node concept="3clFbS" id="1Csx3Lqx52T" role="18ibNy">
       <node concept="1Z5TYs" id="1Csx3Lqx5Lb" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
         <node concept="mw_s8" id="1Csx3Lqx5Lf" role="1ZfhKB">
           <node concept="2c44tf" id="1Csx3Lqx5Lg" role="mwGJk">
             <node concept="17QB3L" id="1Csx3Lqx5Li" role="2c44tc" />
@@ -1374,6 +1375,7 @@
         </node>
       </node>
       <node concept="1Z5TYs" id="1Csx3Lqx5L_" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
         <node concept="mw_s8" id="1Csx3Lqx5LD" role="1ZfhKB">
           <node concept="2c44tf" id="1Csx3Lqx5LE" role="mwGJk">
             <node concept="10P_77" id="1Csx3Lqx5LG" role="2c44tc" />
@@ -9498,7 +9500,7 @@
     </node>
     <node concept="1YaCAy" id="5buytpzR0dW" role="1YuTPh">
       <property role="TrG5h" value="ofxTestFailIn" />
-      <ref role="1YaFvo" to="un0u:72pStkQaFl2" resolve="OFXTestFailIn" />
+      <ref role="1YaFvo" to="un0u:72pStkQaFl2" resolve="OFXTestFailInAttribue" />
     </node>
   </node>
   <node concept="1YbPZF" id="6WBZVtQOm9O">
@@ -10121,6 +10123,38 @@
     <node concept="1YaCAy" id="5yIRyBHttcs" role="1YuTPh">
       <property role="TrG5h" value="ofxCommandTestMethod" />
       <ref role="1YaFvo" to="un0u:3n7eUMgqbJy" resolve="OFXCommandTestMethod" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4Ta2XmWdNvZ">
+    <property role="TrG5h" value="typeof_ErrorInCommand" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <node concept="3clFbS" id="4Ta2XmWdNw0" role="18ibNy">
+      <node concept="1ZobV4" id="4Ta2XmWdOAk" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="4Ta2XmWdOAp" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4Ta2XmWdOAq" role="mwGJk">
+            <node concept="2OqwBi" id="4Ta2XmWdOAr" role="1Z2MuG">
+              <node concept="1YBJjd" id="4Ta2XmWdOAs" role="2Oq$k0">
+                <ref role="1YBMHb" node="4Ta2XmWdNw2" resolve="errorInCommand" />
+              </node>
+              <node concept="3TrEf2" id="4Ta2XmWdOAt" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:4Ta2XmWaDfq" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="4Ta2XmWdOAm" role="1ZfhKB">
+          <node concept="2c44tf" id="4Ta2XmWdOAn" role="mwGJk">
+            <node concept="3uibUv" id="4Ta2XmWdOAo" role="2c44tc">
+              <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4Ta2XmWdNw2" role="1YuTPh">
+      <property role="TrG5h" value="errorInCommand" />
+      <ref role="1YaFvo" to="un0u:4Ta2XmWaDfo" resolve="ErrorInCommand" />
     </node>
   </node>
 </model>

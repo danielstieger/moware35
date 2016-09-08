@@ -351,6 +351,7 @@
       <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
         <child id="2884851879187602662" name="expression" index="38$l6p" />
       </concept>
+      <concept id="2884851879189507035" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitOption" flags="ng" index="38J6q$" />
       <concept id="8396343267227475961" name="org.modellwerkstatt.objectflow.structure.BusinessProperty" flags="ig" index="1bOX9e">
         <child id="3674496190757459099" name="propertyOption" index="0orDa" />
         <child id="5770301300929026308" name="longDesc" index="2CNmdL" />
@@ -395,9 +396,6 @@
         <property id="569389511234497411" name="fromServer" index="1$4sGX" />
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
-      </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
       </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
@@ -3904,78 +3902,6 @@
     </node>
     <node concept="1DZZI9" id="2i3o0hdVzfT" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="Creators" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IM" role="38MLOi">
-      <ref role="1Cak38" node="70qPrkCyg_r" resolve="Store and Load Invoices by Graph get/where" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IN" role="38MLOi">
-      <ref role="1Cak38" node="2i3o0he1AQi" resolve="Update an Invoice and reload it again." />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IO" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWj6Vb" resolve="Use join to load two different invoice graphs" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IP" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWjV3t" resolve="Use join to load two different invoice graphs, REVERSE" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IQ" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWkPk2" resolve="Dirty flag should not be set when loading a graph" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IR" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWlDwB" resolve="Dirty flag should not be set when loading a graph, REVERSE" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IS" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeNKKb" resolve="Multiple saves should be easily possible (legacy?)" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IT" role="38MLOi">
-      <ref role="1Cak38" node="2i3o0hedaHD" resolve="Delete and Insert changes object count by one." />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IU" role="38MLOi">
-      <ref role="1Cak38" node="4ksEJbWs3Wd" resolve="Store and Load Extended Invoices by Graph get/where" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IV" role="38MLOi">
-      <ref role="1Cak38" node="2i3o0hdZJez" resolve="Use Extended Invoice to load from Invoice table" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IW" role="38MLOi">
-      <ref role="1Cak38" node="RffU3ztq7U" resolve="Reload Invoice again changes object." />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IX" role="38MLOi">
-      <ref role="1Cak38" node="221r9bOXWIe" resolve="Deleting a readonly object results in an exception" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IY" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zrz6V" resolve="Changing a readonly object results in an exception" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5IZ" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zv8kn" resolve="Reloading an Invoice read only object results in an exception" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5J0" role="38MLOi">
-      <ref role="1Cak38" node="221r9bOZPAq" resolve="Deleting an non existing object should result in an exception" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5J2" role="38MLOi">
-      <ref role="1Cak38" node="221r9bP2aYa" resolve="Double write with optimistic locking should result in an exception" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5J3" role="38MLOi">
-      <ref role="1Cak38" node="RffU3z7Ydn" resolve="Store and reload a string key object." />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5J4" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zdIdp" resolve="Create, load save an entity with ValueObject Key." />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5J5" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zfP_D" resolve="Delete an entity with ValueObject Key." />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5J6" role="38MLOi">
-      <ref role="1Cak38" node="RffU3ziqj9" resolve="Create multiple account objects with same key and checkaut as list." />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5J7" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeR3Kk" resolve="Setting a BigDecimal Number to null should not lead to an exception." />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5J8" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeTegH" resolve="Setting a string to null should not lead to an exception." />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5J9" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeWwZ4" resolve="Saving an entity refering to unseaved entity leads to an exception" />
-    </node>
-    <node concept="1Cak35" id="do9ouEk5Ja" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeZEk$" resolve="Dirty on Reference if object not saved." />
     </node>
   </node>
   <node concept="2CG7Z0" id="7shQO0QvvlW">
@@ -14175,9 +14101,19 @@
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="ALL ALL ManMap Testsuits" />
     <ref role="2WPtWl" node="7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
+    <node concept="1DZZI9" id="67iuXo6Bskn" role="38MLOi">
+      <ref role="1DZZIc" node="W1NYBghgSL" resolve="Audit" />
+    </node>
     <node concept="1DF_5m" id="1oH_MJfbPWl" role="3yMuLx" />
+    <node concept="1DZZI9" id="67iuXo6BskB" role="38MLOi">
+      <ref role="1DZZIc" node="67iuXo6Bp7A" resolve="CustomSQL" />
+    </node>
     <node concept="1DZZI9" id="1oH_MJfbPWm" role="38MLOi">
       <ref role="1DZZIc" node="4szYp3XojuM" resolve="Graph load/save (no session)" />
+    </node>
+    <node concept="38J6q$" id="4Ta2XmW4J90" role="38MLOi" />
+    <node concept="1DZZI9" id="6pbeIz$AA$y" role="38MLOi">
+      <ref role="1DZZIc" node="6pbeIz$kE$1" resolve="M3 Object Infrastructure" />
     </node>
     <node concept="1DZZI9" id="1oH_MJfbPWr" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdSzFV" resolve="Query and Operators (no session)" />
@@ -14185,17 +14121,8 @@
     <node concept="1DZZI9" id="1oH_MJfbPWz" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdSzFX" resolve="References (no session)" />
     </node>
-    <node concept="1DZZI9" id="6pbeIz$AA$y" role="38MLOi">
-      <ref role="1DZZIc" node="6pbeIz$kE$1" resolve="M3 Object Infrastructure" />
-    </node>
     <node concept="1DZZI9" id="4eJAcMm23k_" role="38MLOi">
       <ref role="1DZZIc" node="4pH_TM_J4sD" resolve="Session tests" />
-    </node>
-    <node concept="1DZZI9" id="67iuXo6Bskn" role="38MLOi">
-      <ref role="1DZZIc" node="W1NYBghgSL" resolve="Audit" />
-    </node>
-    <node concept="1DZZI9" id="67iuXo6BskB" role="38MLOi">
-      <ref role="1DZZIc" node="67iuXo6Bp7A" resolve="CustomSQL" />
     </node>
   </node>
   <node concept="2WPaUQ" id="6pbeIz$kE$1">

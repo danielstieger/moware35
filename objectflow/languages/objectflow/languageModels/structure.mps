@@ -1062,7 +1062,7 @@
   <node concept="1TIwiD" id="1Csx3Lqx523">
     <property role="3GE5qa" value="OFXCore.infra" />
     <property role="TrG5h" value="PageConclusionCommand" />
-    <property role="MwhBj" value="${module}/icons/references.png" />
+    <property role="MwhBj" value="${module}/icons/cmdcrtl.png" />
     <property role="1pbfSe" value="1956697279" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
   </node>
@@ -3423,6 +3423,19 @@
     <property role="34LRSv" value="func" />
     <property role="R4oN_" value="some statement" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="4Ta2XmWaDfo">
+    <property role="1pbfSe" value="175415213" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="ErrorInCommand" />
+    <property role="34LRSv" value="error" />
+    <property role="R4oN_" value="abort current command stack" />
+    <ref role="1TJDcQ" node="1Csx3Lqx52x" resolve="FlagCommand" />
+    <node concept="1TJgyj" id="4Ta2XmWaDfq" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="exception" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
   </node>
 </model>
 
