@@ -838,12 +838,15 @@
             <property role="TrG5h" value="st" />
             <node concept="17QB3L" id="371pDBO$P7V" role="1tU5fm" />
             <node concept="35AVbj" id="371pDBOxxLB" role="33vP2m">
-              <property role="35AVef" value="This is an  error message %d %d " />
-              <node concept="3cmrfG" id="371pDBOxyGr" role="35Gt3$">
-                <property role="3cmrfH" value="10" />
+              <property role="35AVef" value="This is an  error message %d %s %st %d" />
+              <node concept="Xl_RD" id="1w6ekH_ICD3" role="35Gt3$">
+                <property role="Xl_RC" value="hallo dan" />
               </node>
               <node concept="Xl_RD" id="1w6ekH_unqd" role="35Gt3$">
                 <property role="Xl_RC" value="dan" />
+              </node>
+              <node concept="1mgVXT" id="1w6ekH_ICCx" role="35Gt3$">
+                <property role="1mgVXS" value="1.0d" />
               </node>
             </node>
           </node>
