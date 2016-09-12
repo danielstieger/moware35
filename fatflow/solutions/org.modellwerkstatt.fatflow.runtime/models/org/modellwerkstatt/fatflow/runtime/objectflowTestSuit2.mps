@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow" version="0" />
-    <use id="5aaa957f-3447-4783-b1f7-b301fa3e0394" name="org.modellwerkstatt.manmap" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
@@ -231,6 +230,10 @@
       <concept id="1881524139088778970" name="org.modellwerkstatt.objectflow.structure.ProcessDocumentReference" flags="ng" index="10EhbA">
         <reference id="1881524139088778971" name="processDocument" index="10EhbB" />
       </concept>
+      <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
+        <property id="3585259589779248406" name="text" index="35AVef" />
+        <child id="3585259589780682365" name="arguments" index="35Gt3$" />
+      </concept>
       <concept id="8113764509537711426" name="org.modellwerkstatt.objectflow.structure.OFXTestFailInAttribue" flags="ng" index="16GPin">
         <reference id="8113764509539932973" name="classifier" index="16PnFS" />
         <child id="8113764509540567394" name="contains" index="16NUyR" />
@@ -450,14 +453,9 @@
         <node concept="3clFbH" id="4Ta2XmWuWaB" role="3cqZAp" />
         <node concept="3clFbJ" id="6_VKg6llfpm" role="3cqZAp">
           <node concept="3clFbS" id="6_VKg6llfpo" role="3clFbx">
-            <node concept="YS8fn" id="6_VKg6llfyi" role="3cqZAp">
-              <node concept="2ShNRf" id="6_VKg6llfyQ" role="YScLw">
-                <node concept="1pGfFk" id="6_VKg6llfHI" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="6_VKg6llfIl" role="37wK5m">
-                    <property role="Xl_RC" value="Exception in Service" />
-                  </node>
-                </node>
+            <node concept="3Mo9wd" id="371pDBOrLt5" role="3cqZAp">
+              <node concept="Xl_RD" id="371pDBOrLt7" role="10Adiu">
+                <property role="Xl_RC" value="Exception in Service" />
               </node>
             </node>
           </node>
@@ -596,14 +594,9 @@
             <node concept="3clFbH" id="4Ta2XmWuWLW" role="3cqZAp" />
             <node concept="3clFbJ" id="26QcchVZHph" role="3cqZAp">
               <node concept="3clFbS" id="26QcchVZHpi" role="3clFbx">
-                <node concept="YS8fn" id="26QcchVZHpj" role="3cqZAp">
-                  <node concept="2ShNRf" id="26QcchVZHpk" role="YScLw">
-                    <node concept="1pGfFk" id="26QcchVZHpl" role="2ShVmc">
-                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                      <node concept="Xl_RD" id="26QcchVZHpm" role="37wK5m">
-                        <property role="Xl_RC" value="Exception in Service" />
-                      </node>
-                    </node>
+                <node concept="3Mo9wd" id="371pDBOrLsW" role="3cqZAp">
+                  <node concept="Xl_RD" id="371pDBOrLsY" role="10Adiu">
+                    <property role="Xl_RC" value="Exception in Service" />
                   </node>
                 </node>
               </node>
@@ -712,14 +705,9 @@
                 </node>
                 <node concept="3clFbJ" id="26QcchVZGKh" role="3cqZAp">
                   <node concept="3clFbS" id="26QcchVZGKi" role="3clFbx">
-                    <node concept="YS8fn" id="26QcchVZGKj" role="3cqZAp">
-                      <node concept="2ShNRf" id="26QcchVZGKk" role="YScLw">
-                        <node concept="1pGfFk" id="26QcchVZGKl" role="2ShVmc">
-                          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                          <node concept="Xl_RD" id="26QcchVZGKm" role="37wK5m">
-                            <property role="Xl_RC" value="Exception in Command Conclusion" />
-                          </node>
-                        </node>
+                    <node concept="3Mo9wd" id="371pDBOrLsu" role="3cqZAp">
+                      <node concept="Xl_RD" id="371pDBOrLsw" role="10Adiu">
+                        <property role="Xl_RC" value="Exception in Command Conclusion" />
                       </node>
                     </node>
                   </node>
@@ -776,14 +764,9 @@
               </node>
               <node concept="3clFbJ" id="26QcchVZGyE" role="3cqZAp">
                 <node concept="3clFbS" id="26QcchVZGyF" role="3clFbx">
-                  <node concept="YS8fn" id="26QcchVZGyG" role="3cqZAp">
-                    <node concept="2ShNRf" id="26QcchVZGyH" role="YScLw">
-                      <node concept="1pGfFk" id="26QcchVZGyI" role="2ShVmc">
-                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                        <node concept="Xl_RD" id="26QcchVZGyJ" role="37wK5m">
-                          <property role="Xl_RC" value="Exception in Command Page" />
-                        </node>
-                      </node>
+                  <node concept="3Mo9wd" id="371pDBOrLs$" role="3cqZAp">
+                    <node concept="Xl_RD" id="371pDBOrLsA" role="10Adiu">
+                      <property role="Xl_RC" value="Exception in Command Page" />
                     </node>
                   </node>
                 </node>
@@ -848,7 +831,25 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5MCXLSnMhJL" role="3cqZAp" />
+        <node concept="3clFbH" id="371pDBOxx4l" role="3cqZAp" />
+        <node concept="3clFbH" id="1w6ekH_unC6" role="3cqZAp" />
+        <node concept="3cpWs8" id="371pDBO$P7X" role="3cqZAp">
+          <node concept="3cpWsn" id="371pDBO$P80" role="3cpWs9">
+            <property role="TrG5h" value="st" />
+            <node concept="17QB3L" id="371pDBO$P7V" role="1tU5fm" />
+            <node concept="35AVbj" id="371pDBOxxLB" role="33vP2m">
+              <property role="35AVef" value="This is an  error message %d %d " />
+              <node concept="3cmrfG" id="371pDBOxyGr" role="35Gt3$">
+                <property role="3cmrfH" value="10" />
+              </node>
+              <node concept="Xl_RD" id="1w6ekH_unqd" role="35Gt3$">
+                <property role="Xl_RC" value="dan" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="371pDBOxxXJ" role="3cqZAp" />
+        <node concept="3clFbH" id="371pDBOxxYF" role="3cqZAp" />
         <node concept="3clFbJ" id="26QcchVZE1O" role="3cqZAp">
           <node concept="3clFbS" id="26QcchVZE1Q" role="3clFbx">
             <node concept="10Adxh" id="26QcchW0j$e" role="3cqZAp">
@@ -892,14 +893,9 @@
             </node>
             <node concept="3clFbJ" id="26QcchVZEmu" role="3cqZAp">
               <node concept="3clFbS" id="26QcchVZEmw" role="3clFbx">
-                <node concept="YS8fn" id="26QcchVZEvA" role="3cqZAp">
-                  <node concept="2ShNRf" id="26QcchVZEvV" role="YScLw">
-                    <node concept="1pGfFk" id="26QcchVZEEW" role="2ShVmc">
-                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                      <node concept="Xl_RD" id="26QcchVZEFv" role="37wK5m">
-                        <property role="Xl_RC" value="Exception in Command Init" />
-                      </node>
-                    </node>
+                <node concept="3Mo9wd" id="371pDBOrLsT" role="3cqZAp">
+                  <node concept="Xl_RD" id="371pDBOrLsV" role="10Adiu">
+                    <property role="Xl_RC" value="Exception in Command Init" />
                   </node>
                 </node>
               </node>
@@ -1037,14 +1033,9 @@
           <node concept="3clFbS" id="26QcchVZHcg" role="3clFbx">
             <node concept="3clFbJ" id="26QcchVZHch" role="3cqZAp">
               <node concept="3clFbS" id="26QcchVZHci" role="3clFbx">
-                <node concept="YS8fn" id="26QcchVZHcj" role="3cqZAp">
-                  <node concept="2ShNRf" id="26QcchVZHck" role="YScLw">
-                    <node concept="1pGfFk" id="26QcchVZHcl" role="2ShVmc">
-                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                      <node concept="Xl_RD" id="26QcchVZHcm" role="37wK5m">
-                        <property role="Xl_RC" value="Exception in Final Cancel" />
-                      </node>
-                    </node>
+                <node concept="3Mo9wd" id="371pDBOrLsZ" role="3cqZAp">
+                  <node concept="Xl_RD" id="371pDBOrLt1" role="10Adiu">
+                    <property role="Xl_RC" value="Exception in Final Cancel" />
                   </node>
                 </node>
               </node>
@@ -1105,14 +1096,9 @@
           <node concept="3clFbS" id="26QcchVZGYp" role="3clFbx">
             <node concept="3clFbJ" id="26QcchVZGYx" role="3cqZAp">
               <node concept="3clFbS" id="26QcchVZGYy" role="3clFbx">
-                <node concept="YS8fn" id="26QcchVZGYz" role="3cqZAp">
-                  <node concept="2ShNRf" id="26QcchVZGY$" role="YScLw">
-                    <node concept="1pGfFk" id="26QcchVZGY_" role="2ShVmc">
-                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                      <node concept="Xl_RD" id="26QcchVZGYA" role="37wK5m">
-                        <property role="Xl_RC" value="Exception in Final Cancel" />
-                      </node>
-                    </node>
+                <node concept="3Mo9wd" id="371pDBOrLtn" role="3cqZAp">
+                  <node concept="Xl_RD" id="371pDBOrLtp" role="10Adiu">
+                    <property role="Xl_RC" value="Exception in Final Cancel" />
                   </node>
                 </node>
               </node>
@@ -1321,14 +1307,9 @@
             <node concept="3clFbH" id="248r5L2vcfG" role="3cqZAp" />
             <node concept="3clFbJ" id="248r5L2vaXK" role="3cqZAp">
               <node concept="3clFbS" id="248r5L2vaXM" role="3clFbx">
-                <node concept="YS8fn" id="248r5L2vb2p" role="3cqZAp">
-                  <node concept="2ShNRf" id="248r5L2vb2I" role="YScLw">
-                    <node concept="1pGfFk" id="248r5L2vccK" role="2ShVmc">
-                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                      <node concept="Xl_RD" id="248r5L2vcdp" role="37wK5m">
-                        <property role="Xl_RC" value="Ex" />
-                      </node>
-                    </node>
+                <node concept="3Mo9wd" id="371pDBOrLsN" role="3cqZAp">
+                  <node concept="Xl_RD" id="371pDBOrLsP" role="10Adiu">
+                    <property role="Xl_RC" value="Ex" />
                   </node>
                 </node>
               </node>
@@ -3267,14 +3248,9 @@
               </node>
               <node concept="9aQIb" id="7pudXbEHwxC" role="9aQIa">
                 <node concept="3clFbS" id="7pudXbEHwxD" role="9aQI4">
-                  <node concept="YS8fn" id="7pudXbEHwxE" role="3cqZAp">
-                    <node concept="2ShNRf" id="7pudXbEHwxF" role="YScLw">
-                      <node concept="1pGfFk" id="7pudXbEHwxG" role="2ShVmc">
-                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                        <node concept="Xl_RD" id="7pudXbEHwxH" role="37wK5m">
-                          <property role="Xl_RC" value="Please specify the crtl intention." />
-                        </node>
-                      </node>
+                  <node concept="3Mo9wd" id="371pDBOrLsf" role="3cqZAp">
+                    <node concept="Xl_RD" id="371pDBOrLsh" role="10Adiu">
+                      <property role="Xl_RC" value="Please specify the crtl intention." />
                     </node>
                   </node>
                 </node>
@@ -3318,14 +3294,9 @@
                   </node>
                 </node>
                 <node concept="3clFbS" id="7pudXbEHxdB" role="3eOfB_">
-                  <node concept="YS8fn" id="7pudXbEHxiW" role="3cqZAp">
-                    <node concept="2ShNRf" id="7pudXbEHxj9" role="YScLw">
-                      <node concept="1pGfFk" id="7pudXbEHxtO" role="2ShVmc">
-                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                        <node concept="Xl_RD" id="7pudXbEHxuV" role="37wK5m">
-                          <property role="Xl_RC" value="Exeption in Page Conclusion" />
-                        </node>
-                      </node>
+                  <node concept="3Mo9wd" id="371pDBOrLsi" role="3cqZAp">
+                    <node concept="Xl_RD" id="371pDBOrLsk" role="10Adiu">
+                      <property role="Xl_RC" value="Exeption in Page Conclusion" />
                     </node>
                   </node>
                 </node>
@@ -3447,14 +3418,9 @@
               </node>
               <node concept="9aQIb" id="7pudXbEH$$x" role="9aQIa">
                 <node concept="3clFbS" id="7pudXbEH$$y" role="9aQI4">
-                  <node concept="YS8fn" id="7pudXbEH$$z" role="3cqZAp">
-                    <node concept="2ShNRf" id="7pudXbEH$$$" role="YScLw">
-                      <node concept="1pGfFk" id="7pudXbEH$$_" role="2ShVmc">
-                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                        <node concept="Xl_RD" id="7pudXbEH$$A" role="37wK5m">
-                          <property role="Xl_RC" value="Please specify the crtl intention." />
-                        </node>
-                      </node>
+                  <node concept="3Mo9wd" id="371pDBOrLsl" role="3cqZAp">
+                    <node concept="Xl_RD" id="371pDBOrLsn" role="10Adiu">
+                      <property role="Xl_RC" value="Please specify the crtl intention." />
                     </node>
                   </node>
                 </node>
@@ -3498,14 +3464,9 @@
                   </node>
                 </node>
                 <node concept="3clFbS" id="7pudXbEH$$M" role="3eOfB_">
-                  <node concept="YS8fn" id="7pudXbEH$$N" role="3cqZAp">
-                    <node concept="2ShNRf" id="7pudXbEH$$O" role="YScLw">
-                      <node concept="1pGfFk" id="7pudXbEH$$P" role="2ShVmc">
-                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                        <node concept="Xl_RD" id="7pudXbEH$$Q" role="37wK5m">
-                          <property role="Xl_RC" value="Exeption in Page Conclusion" />
-                        </node>
-                      </node>
+                  <node concept="3Mo9wd" id="371pDBOrLtt" role="3cqZAp">
+                    <node concept="Xl_RD" id="371pDBOrLtv" role="10Adiu">
+                      <property role="Xl_RC" value="Exeption in Page Conclusion" />
                     </node>
                   </node>
                 </node>
@@ -3617,14 +3578,9 @@
           </node>
           <node concept="3clFbJ" id="7pudXbEHztP" role="3cqZAp">
             <node concept="3clFbS" id="7pudXbEHztQ" role="3clFbx">
-              <node concept="YS8fn" id="7pudXbEHztR" role="3cqZAp">
-                <node concept="2ShNRf" id="7pudXbEHztS" role="YScLw">
-                  <node concept="1pGfFk" id="7pudXbEHztT" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                    <node concept="Xl_RD" id="7pudXbEHztU" role="37wK5m">
-                      <property role="Xl_RC" value="Exception in Page Init." />
-                    </node>
-                  </node>
+              <node concept="3Mo9wd" id="371pDBOrLsK" role="3cqZAp">
+                <node concept="Xl_RD" id="371pDBOrLsM" role="10Adiu">
+                  <property role="Xl_RC" value="Exception in Page Init." />
                 </node>
               </node>
             </node>
@@ -3717,14 +3673,9 @@
               </node>
               <node concept="9aQIb" id="7pudXbEK2m4" role="9aQIa">
                 <node concept="3clFbS" id="7pudXbEK2m5" role="9aQI4">
-                  <node concept="YS8fn" id="7pudXbEK2m6" role="3cqZAp">
-                    <node concept="2ShNRf" id="7pudXbEK2m7" role="YScLw">
-                      <node concept="1pGfFk" id="7pudXbEK2m8" role="2ShVmc">
-                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                        <node concept="Xl_RD" id="7pudXbEK2m9" role="37wK5m">
-                          <property role="Xl_RC" value="Please specify the crtl intention." />
-                        </node>
-                      </node>
+                  <node concept="3Mo9wd" id="371pDBOrLsx" role="3cqZAp">
+                    <node concept="Xl_RD" id="371pDBOrLsz" role="10Adiu">
+                      <property role="Xl_RC" value="Please specify the crtl intention." />
                     </node>
                   </node>
                 </node>
@@ -3768,14 +3719,9 @@
                   </node>
                 </node>
                 <node concept="3clFbS" id="7pudXbEK2mp" role="3eOfB_">
-                  <node concept="YS8fn" id="7pudXbEK2mq" role="3cqZAp">
-                    <node concept="2ShNRf" id="7pudXbEK2mr" role="YScLw">
-                      <node concept="1pGfFk" id="7pudXbEK2ms" role="2ShVmc">
-                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                        <node concept="Xl_RD" id="7pudXbEK2mt" role="37wK5m">
-                          <property role="Xl_RC" value="Exeption in Page Conclusion" />
-                        </node>
-                      </node>
+                  <node concept="3Mo9wd" id="371pDBOrLsH" role="3cqZAp">
+                    <node concept="Xl_RD" id="371pDBOrLsJ" role="10Adiu">
+                      <property role="Xl_RC" value="Exeption in Page Conclusion" />
                     </node>
                   </node>
                 </node>
@@ -3865,14 +3811,9 @@
           </node>
           <node concept="3clFbJ" id="7pudXbEH$ox" role="3cqZAp">
             <node concept="3clFbS" id="7pudXbEH$oy" role="3clFbx">
-              <node concept="YS8fn" id="7pudXbEH$oz" role="3cqZAp">
-                <node concept="2ShNRf" id="7pudXbEH$o$" role="YScLw">
-                  <node concept="1pGfFk" id="7pudXbEH$o_" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                    <node concept="Xl_RD" id="7pudXbEH$oA" role="37wK5m">
-                      <property role="Xl_RC" value="Exception in page init." />
-                    </node>
-                  </node>
+              <node concept="3Mo9wd" id="371pDBOrLtw" role="3cqZAp">
+                <node concept="Xl_RD" id="371pDBOrLty" role="10Adiu">
+                  <property role="Xl_RC" value="Exception in page init." />
                 </node>
               </node>
             </node>
@@ -3983,14 +3924,9 @@
         </node>
         <node concept="3clFbJ" id="7pudXbEHz1c" role="3cqZAp">
           <node concept="3clFbS" id="7pudXbEHz1e" role="3clFbx">
-            <node concept="YS8fn" id="7pudXbEHz5K" role="3cqZAp">
-              <node concept="2ShNRf" id="7pudXbEHz5Z" role="YScLw">
-                <node concept="1pGfFk" id="7pudXbEHzgE" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="7pudXbEHzhd" role="37wK5m">
-                    <property role="Xl_RC" value="Exception in Command Init. " />
-                  </node>
-                </node>
+            <node concept="3Mo9wd" id="371pDBOrLtb" role="3cqZAp">
+              <node concept="Xl_RD" id="371pDBOrLtd" role="10Adiu">
+                <property role="Xl_RC" value="Exception in Command Init. " />
               </node>
             </node>
           </node>
@@ -4045,14 +3981,9 @@
             </node>
           </node>
           <node concept="3clFbS" id="7pudXbEHxJw" role="3clFbx">
-            <node concept="YS8fn" id="7pudXbEHxND" role="3cqZAp">
-              <node concept="2ShNRf" id="7pudXbEHxNQ" role="YScLw">
-                <node concept="1pGfFk" id="7pudXbEHxYx" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="7pudXbEHxZ4" role="37wK5m">
-                    <property role="Xl_RC" value="Exception in Final Ok" />
-                  </node>
-                </node>
+            <node concept="3Mo9wd" id="371pDBOrLth" role="3cqZAp">
+              <node concept="Xl_RD" id="371pDBOrLtj" role="10Adiu">
+                <property role="Xl_RC" value="Exception in Final Ok" />
               </node>
             </node>
           </node>
@@ -4093,14 +4024,9 @@
             </node>
           </node>
           <node concept="3clFbS" id="7pudXbEHyl3" role="3clFbx">
-            <node concept="YS8fn" id="7pudXbEHyl4" role="3cqZAp">
-              <node concept="2ShNRf" id="7pudXbEHyl5" role="YScLw">
-                <node concept="1pGfFk" id="7pudXbEHyl6" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="7pudXbEHyl7" role="37wK5m">
-                    <property role="Xl_RC" value="Exception in Final Cancel" />
-                  </node>
-                </node>
+            <node concept="3Mo9wd" id="371pDBOrLtq" role="3cqZAp">
+              <node concept="Xl_RD" id="371pDBOrLts" role="10Adiu">
+                <property role="Xl_RC" value="Exception in Final Cancel" />
               </node>
             </node>
           </node>

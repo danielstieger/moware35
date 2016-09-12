@@ -502,6 +502,7 @@
         <reference id="9111456360764195864" name="permission" index="1BCa5h" />
       </concept>
       <concept id="2665553595289276900" name="org.modellwerkstatt.objectflow.structure.PermissionHasReference" flags="ng" index="1G1AcV" />
+      <concept id="5641334495847814104" name="org.modellwerkstatt.objectflow.structure.ErrorInCommand" flags="ng" index="3Mo9wd" />
     </language>
     <language id="5aaa957f-3447-4783-b1f7-b301fa3e0394" name="org.modellwerkstatt.manmap">
       <concept id="774207833082734171" name="org.modellwerkstatt.manmap.structure.WhereQuery" flags="ng" index="jxyYR">
@@ -4187,14 +4188,9 @@
         </node>
         <node concept="3clFbJ" id="25XZDiFb_Dx" role="3cqZAp">
           <node concept="3clFbS" id="25XZDiFb_Dy" role="3clFbx">
-            <node concept="YS8fn" id="25XZDiFb_D_" role="3cqZAp">
-              <node concept="2ShNRf" id="25XZDiFb_DB" role="YScLw">
-                <node concept="1pGfFk" id="25XZDiFb_Os" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="Xl_RD" id="25XZDiFb_Ov" role="37wK5m">
-                    <property role="Xl_RC" value="Sach" />
-                  </node>
-                </node>
+            <node concept="3Mo9wd" id="371pDBOrLt2" role="3cqZAp">
+              <node concept="Xl_RD" id="371pDBOrLt4" role="10Adiu">
+                <property role="Xl_RC" value="Sach" />
               </node>
             </node>
           </node>
@@ -4244,14 +4240,9 @@
         </node>
         <node concept="3clFbJ" id="4$XA7IU7KiU" role="3cqZAp">
           <node concept="3clFbS" id="4$XA7IU7KiX" role="3clFbx">
-            <node concept="YS8fn" id="4$XA7IU7LNa" role="3cqZAp">
-              <node concept="2ShNRf" id="4$XA7IU7LOK" role="YScLw">
-                <node concept="1pGfFk" id="4$XA7IU7QtF" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="Xl_RD" id="4$XA7IU7Qwg" role="37wK5m">
-                    <property role="Xl_RC" value="ReadOnly" />
-                  </node>
-                </node>
+            <node concept="3Mo9wd" id="371pDBOrLtk" role="3cqZAp">
+              <node concept="Xl_RD" id="371pDBOrLtm" role="10Adiu">
+                <property role="Xl_RC" value="ReadOnly" />
               </node>
             </node>
           </node>
@@ -5794,14 +5785,9 @@
         <node concept="3clFbH" id="2znuo4fPfPI" role="3cqZAp" />
         <node concept="3clFbJ" id="2znuo4fPfUQ" role="3cqZAp">
           <node concept="3clFbS" id="2znuo4fPfUT" role="3clFbx">
-            <node concept="YS8fn" id="2znuo4fPipL" role="3cqZAp">
-              <node concept="2ShNRf" id="2znuo4fPiru" role="YScLw">
-                <node concept="1pGfFk" id="2znuo4fPjuu" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="2znuo4fPjyF" role="37wK5m">
-                    <property role="Xl_RC" value="Some Fatal Exception" />
-                  </node>
-                </node>
+            <node concept="3Mo9wd" id="371pDBOrLsQ" role="3cqZAp">
+              <node concept="Xl_RD" id="371pDBOrLsS" role="10Adiu">
+                <property role="Xl_RC" value="Some Fatal Exception" />
               </node>
             </node>
           </node>
@@ -5918,14 +5904,9 @@
       <node concept="3clFbS" id="1ndUGhcrutO" role="2VODD2">
         <node concept="3clFbJ" id="1ndUGhcruuP" role="3cqZAp">
           <node concept="3clFbS" id="1ndUGhcruuQ" role="3clFbx">
-            <node concept="YS8fn" id="1ndUGhcruuR" role="3cqZAp">
-              <node concept="2ShNRf" id="1ndUGhcruuS" role="YScLw">
-                <node concept="1pGfFk" id="1ndUGhcruuT" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="1ndUGhcruuU" role="37wK5m">
-                    <property role="Xl_RC" value="Some Fatal Exception" />
-                  </node>
-                </node>
+            <node concept="3Mo9wd" id="371pDBOrLsr" role="3cqZAp">
+              <node concept="Xl_RD" id="371pDBOrLst" role="10Adiu">
+                <property role="Xl_RC" value="Some Fatal Exception" />
               </node>
             </node>
           </node>
@@ -7580,14 +7561,9 @@
         <property role="TrG5h" value="Throw Exception" />
         <node concept="20qIzx" id="21u4Af5r67W" role="10ot2L">
           <node concept="3clFbS" id="21u4Af5r67X" role="2VODD2">
-            <node concept="YS8fn" id="21u4Af5r686" role="3cqZAp">
-              <node concept="2ShNRf" id="21u4Af5r68m" role="YScLw">
-                <node concept="1pGfFk" id="21u4Af5r6UM" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="21u4Af5r74t" role="37wK5m">
-                    <property role="Xl_RC" value="Fatal technical problem" />
-                  </node>
-                </node>
+            <node concept="3Mo9wd" id="371pDBOrLso" role="3cqZAp">
+              <node concept="Xl_RD" id="371pDBOrLsq" role="10Adiu">
+                <property role="Xl_RC" value="Fatal technical problem" />
               </node>
             </node>
           </node>
@@ -11190,14 +11166,9 @@
             </node>
             <node concept="3clFbJ" id="6b4wRovOEZ1" role="3cqZAp">
               <node concept="3clFbS" id="6b4wRovOEZ2" role="3clFbx">
-                <node concept="YS8fn" id="6b4wRovOEZ3" role="3cqZAp">
-                  <node concept="2ShNRf" id="6b4wRovOEZ4" role="YScLw">
-                    <node concept="1pGfFk" id="6b4wRovOEZ5" role="2ShVmc">
-                      <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                      <node concept="Xl_RD" id="6b4wRovOEZ6" role="37wK5m">
-                        <property role="Xl_RC" value="Technical Problem" />
-                      </node>
-                    </node>
+                <node concept="3Mo9wd" id="371pDBOrLsB" role="3cqZAp">
+                  <node concept="Xl_RD" id="371pDBOrLsD" role="10Adiu">
+                    <property role="Xl_RC" value="Technical Problem" />
                   </node>
                 </node>
               </node>
@@ -11295,14 +11266,9 @@
         </node>
         <node concept="3clFbJ" id="6b4wRovOEYH" role="3cqZAp">
           <node concept="3clFbS" id="6b4wRovOEYI" role="3clFbx">
-            <node concept="YS8fn" id="6b4wRovOEYS" role="3cqZAp">
-              <node concept="2ShNRf" id="6b4wRovOEYU" role="YScLw">
-                <node concept="1pGfFk" id="6b4wRovOEYW" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                  <node concept="Xl_RD" id="6b4wRovOEYZ" role="37wK5m">
-                    <property role="Xl_RC" value="Technical Problem" />
-                  </node>
-                </node>
+            <node concept="3Mo9wd" id="371pDBOrLte" role="3cqZAp">
+              <node concept="Xl_RD" id="371pDBOrLtg" role="10Adiu">
+                <property role="Xl_RC" value="Technical Problem" />
               </node>
             </node>
           </node>
