@@ -3451,8 +3451,11 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyi" id="371pDBOmHkm" role="1TKVEl">
-      <property role="TrG5h" value="text" />
+      <property role="TrG5h" value="formatString" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="5zF9hZsxt2p" role="PzmwI">
+      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
     </node>
   </node>
 </model>

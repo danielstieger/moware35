@@ -11,6 +11,7 @@
   <imports>
     <import index="goi" ref="r:f681a544-e71b-468b-a164-0e64bb63a5d9(org.modellwerkstatt.fatflow.runtime.manmapTestSuit2)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
   </imports>
@@ -173,6 +174,14 @@
         <child id="3262649880243657037" name="sessionExpression" index="2f8TIa" />
       </concept>
       <concept id="8301412231057225617" name="org.modellwerkstatt.objectflow.structure.OFXTestStatementList" flags="ig" index="2d2NRx" />
+      <concept id="2423238041810352109" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDefaultDateTimeOption" flags="ng" index="xWan4">
+        <property id="2423238041810352537" name="second" index="xWaIK" />
+        <property id="2423238041810352536" name="minute" index="xWaIL" />
+        <property id="2423238041810352533" name="month" index="xWaIW" />
+        <property id="2423238041810352532" name="year" index="xWaIX" />
+        <property id="2423238041810352535" name="hour" index="xWaIY" />
+        <property id="2423238041810352534" name="day" index="xWaIZ" />
+      </concept>
       <concept id="3875131616718797794" name="org.modellwerkstatt.objectflow.structure.OFXCommandTestMethod" flags="ng" index="2_FS1e">
         <child id="3875131616719594980" name="commandCall" index="2_GXT8" />
         <child id="4358152451302651676" name="pagesUnderTest" index="1sBNec" />
@@ -231,12 +240,15 @@
         <reference id="1881524139088778971" name="processDocument" index="10EhbB" />
       </concept>
       <concept id="3585259589779248202" name="org.modellwerkstatt.objectflow.structure.MultiString" flags="ng" index="35AVbj">
-        <property id="3585259589779248406" name="text" index="35AVef" />
+        <property id="3585259589779248406" name="formatString" index="35AVef" />
         <child id="3585259589780682365" name="arguments" index="35Gt3$" />
       </concept>
       <concept id="8113764509537711426" name="org.modellwerkstatt.objectflow.structure.OFXTestFailInAttribue" flags="ng" index="16GPin">
         <reference id="8113764509539932973" name="classifier" index="16PnFS" />
         <child id="8113764509540567394" name="contains" index="16NUyR" />
+      </concept>
+      <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
+        <child id="2884851879187602662" name="expression" index="38$l6p" />
       </concept>
       <concept id="271985905034983108" name="org.modellwerkstatt.objectflow.structure.DezimalLiteral" flags="ng" index="1mgVXT">
         <property id="271985905034983109" name="value" index="1mgVXS" />
@@ -285,6 +297,21 @@
       <concept id="6952410984693239415" name="org.modellwerkstatt.objectflow.structure.OFXTestMethocCallVarRef" flags="ng" index="3zkua3">
         <reference id="6952410984693239500" name="varReference" index="3zku8S" />
       </concept>
+      <concept id="569389511234497392" name="org.modellwerkstatt.objectflow.structure.DateTimeLiteral" flags="ng" index="1$4sJe">
+        <property id="569389511234497418" name="fromServer" index="1$4sGO" />
+        <property id="569389511234497416" name="minute" index="1$4sGQ" />
+        <property id="569389511234497417" name="second" index="1$4sGR" />
+        <property id="569389511234497414" name="day" index="1$4sGS" />
+        <property id="569389511234497415" name="hour" index="1$4sGT" />
+        <property id="569389511234497412" name="year" index="1$4sGU" />
+        <property id="569389511234497413" name="month" index="1$4sGV" />
+      </concept>
+      <concept id="569389511234497391" name="org.modellwerkstatt.objectflow.structure.DateLiteral" flags="ng" index="1$4sJh">
+        <property id="569389511234497410" name="day" index="1$4sGW" />
+        <property id="569389511234497411" name="fromServer" index="1$4sGX" />
+        <property id="569389511234497408" name="year" index="1$4sGY" />
+        <property id="569389511234497409" name="month" index="1$4sGZ" />
+      </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -318,6 +345,7 @@
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
+      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
   </registry>
   <node concept="3ugp7d" id="Joc9_LZQLM">
@@ -646,6 +674,156 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="5zF9hZsF5T1" role="jymVt" />
+    <node concept="2tJIrI" id="5zF9hZsF5V0" role="jymVt" />
+    <node concept="3clFb_" id="5zF9hZsC_ce" role="jymVt">
+      <property role="TrG5h" value="testInteger_String_BigDeci" />
+      <node concept="37vLTG" id="5zF9hZsF5X8" role="3clF46">
+        <property role="TrG5h" value="i" />
+        <node concept="10Oyi0" id="5zF9hZsF6cn" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5zF9hZsF6cw" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="5zF9hZsF6cZ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5zF9hZsF6d6" role="3clF46">
+        <property role="TrG5h" value="d" />
+        <node concept="3uibUv" id="5zF9hZsF6dC" role="1tU5fm">
+          <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="5zF9hZsC_oP" role="3clF45" />
+      <node concept="3Tm1VV" id="5zF9hZsC_ch" role="1B3o_S" />
+      <node concept="3clFbS" id="5zF9hZsC_ci" role="3clF47">
+        <node concept="3SKdUt" id="5zF9hZsF6SO" role="3cqZAp">
+          <node concept="3SKdUq" id="5zF9hZsF6SQ" role="3SKWNk">
+            <property role="3SKdUp" value="three spaces" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6Irl3jv6QeB" role="3cqZAp" />
+        <node concept="3clFbF" id="5zF9hZsC_pZ" role="3cqZAp">
+          <node concept="35AVbj" id="5zF9hZsC_pX" role="3clFbG">
+            <property role="35AVef" value="   %d   %s   %bd   " />
+            <node concept="37vLTw" id="5zF9hZsF6tM" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF5X8" resolve="i" />
+            </node>
+            <node concept="37vLTw" id="5zF9hZsF6x8" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF6cw" resolve="s" />
+            </node>
+            <node concept="37vLTw" id="5zF9hZsF6xG" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF6d6" resolve="d" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5zF9hZsF6$x" role="jymVt">
+      <property role="TrG5h" value="testInteger_String_BigDeci_LocalDate_DateTime" />
+      <node concept="37vLTG" id="5zF9hZsF6$y" role="3clF46">
+        <property role="TrG5h" value="i" />
+        <node concept="10Oyi0" id="5zF9hZsF6$z" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5zF9hZsF6$$" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="5zF9hZsF6$_" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5zF9hZsF6$A" role="3clF46">
+        <property role="TrG5h" value="d" />
+        <node concept="3uibUv" id="5zF9hZsF6$B" role="1tU5fm">
+          <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5zF9hZsF6Jz" role="3clF46">
+        <property role="TrG5h" value="ld" />
+        <node concept="3uibUv" id="5zF9hZsF6PN" role="1tU5fm">
+          <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5zF9hZsF6PV" role="3clF46">
+        <property role="TrG5h" value="dt" />
+        <node concept="3uibUv" id="5zF9hZsF6QG" role="1tU5fm">
+          <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="5zF9hZsF6$C" role="3clF45" />
+      <node concept="3Tm1VV" id="5zF9hZsF6$D" role="1B3o_S" />
+      <node concept="3clFbS" id="5zF9hZsF6$E" role="3clF47">
+        <node concept="3clFbF" id="5zF9hZsF6$F" role="3cqZAp">
+          <node concept="35AVbj" id="5zF9hZsF6$G" role="3clFbG">
+            <property role="35AVef" value="   %d   %s   %bd   %ld   %dt   " />
+            <node concept="37vLTw" id="5zF9hZsF6$H" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF6$y" resolve="i" />
+            </node>
+            <node concept="37vLTw" id="5zF9hZsF6$I" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF6$$" resolve="s" />
+            </node>
+            <node concept="37vLTw" id="5zF9hZsF6$J" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF6$A" resolve="d" />
+            </node>
+            <node concept="37vLTw" id="5zF9hZsF744" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF6Jz" resolve="ld" />
+            </node>
+            <node concept="37vLTw" id="5zF9hZsF75m" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF6PV" resolve="dt" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5zF9hZsF7aW" role="jymVt">
+      <property role="TrG5h" value="testInteger_String_BigDeci_LocalDate_Localdate" />
+      <node concept="37vLTG" id="5zF9hZsF7aX" role="3clF46">
+        <property role="TrG5h" value="i" />
+        <node concept="10Oyi0" id="5zF9hZsF7aY" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5zF9hZsF7aZ" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="5zF9hZsF7b0" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5zF9hZsF7b1" role="3clF46">
+        <property role="TrG5h" value="d" />
+        <node concept="3uibUv" id="5zF9hZsF7b2" role="1tU5fm">
+          <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5zF9hZsF7b3" role="3clF46">
+        <property role="TrG5h" value="ld" />
+        <node concept="3uibUv" id="5zF9hZsF7b4" role="1tU5fm">
+          <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5zF9hZsF7b5" role="3clF46">
+        <property role="TrG5h" value="dt" />
+        <node concept="3uibUv" id="5zF9hZsF7b6" role="1tU5fm">
+          <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="5zF9hZsF7b7" role="3clF45" />
+      <node concept="3Tm1VV" id="5zF9hZsF7b8" role="1B3o_S" />
+      <node concept="3clFbS" id="5zF9hZsF7b9" role="3clF47">
+        <node concept="3clFbF" id="5zF9hZsF7ba" role="3cqZAp">
+          <node concept="35AVbj" id="5zF9hZsF7bb" role="3clFbG">
+            <property role="35AVef" value="   %d   %s   %bd   %ld   %ld   " />
+            <node concept="37vLTw" id="5zF9hZsF7bc" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF7aX" resolve="i" />
+            </node>
+            <node concept="37vLTw" id="5zF9hZsF7bd" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF7aZ" resolve="s" />
+            </node>
+            <node concept="37vLTw" id="5zF9hZsF7be" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF7b1" resolve="d" />
+            </node>
+            <node concept="37vLTw" id="5zF9hZsF7bf" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF7b3" resolve="ld" />
+            </node>
+            <node concept="37vLTw" id="5zF9hZsF7me" role="35Gt3$">
+              <ref role="3cqZAo" node="5zF9hZsF7b5" resolve="dt" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5zF9hZsF5QV" role="jymVt" />
     <node concept="3Tm1VV" id="Joc9_LZQMh" role="1B3o_S" />
   </node>
   <node concept="3ugp7m" id="5MCXLSnMhvZ">
@@ -832,29 +1010,58 @@
           </node>
         </node>
         <node concept="3clFbH" id="371pDBOxx4l" role="3cqZAp" />
-        <node concept="3clFbH" id="1w6ekH_unC6" role="3cqZAp" />
-        <node concept="3cpWs8" id="371pDBO$P7X" role="3cqZAp">
-          <node concept="3cpWsn" id="371pDBO$P80" role="3cpWs9">
-            <property role="TrG5h" value="st" />
-            <node concept="17QB3L" id="371pDBO$P7V" role="1tU5fm" />
-            <node concept="35AVbj" id="371pDBOxxLB" role="33vP2m">
-              <property role="35AVef" value="This is an  error message %d %s %st %d" />
-              <node concept="Xl_RD" id="1w6ekH_ICD3" role="35Gt3$">
-                <property role="Xl_RC" value="hallo dan" />
-              </node>
-              <node concept="Xl_RD" id="1w6ekH_unqd" role="35Gt3$">
-                <property role="Xl_RC" value="dan" />
-              </node>
-              <node concept="1mgVXT" id="1w6ekH_ICCx" role="35Gt3$">
-                <property role="1mgVXS" value="1.0d" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="371pDBOxxXJ" role="3cqZAp" />
-        <node concept="3clFbH" id="371pDBOxxYF" role="3cqZAp" />
         <node concept="3clFbJ" id="26QcchVZE1O" role="3cqZAp">
           <node concept="3clFbS" id="26QcchVZE1Q" role="3clFbx">
+            <node concept="3clFbJ" id="6Irl3jv9pK0" role="3cqZAp">
+              <node concept="3clFbS" id="6Irl3jv9pK2" role="3clFbx">
+                <node concept="3clFbF" id="6Irl3jv9pXd" role="3cqZAp">
+                  <node concept="37vLTI" id="6Irl3jv9pZU" role="3clFbG">
+                    <node concept="2OqwBi" id="6Irl3jv9pXD" role="37vLTJ">
+                      <node concept="10EhbA" id="6Irl3jv9pXb" role="2Oq$k0">
+                        <ref role="10EhbB" node="Joc9_LZQLN" resolve="inv" />
+                      </node>
+                      <node concept="2S8uIT" id="6Irl3jv9pYy" role="2OqNvi">
+                        <ref role="2S8YL0" to="goi:612_n8HbEYW" resolve="text" />
+                      </node>
+                    </node>
+                    <node concept="35AVbj" id="6Irl3jv9q2J" role="37vLTx">
+                      <property role="35AVef" value="Hello format %d / %s %dt" />
+                      <node concept="3cmrfG" id="6Irl3jv9qa1" role="35Gt3$">
+                        <property role="3cmrfH" value="10" />
+                      </node>
+                      <node concept="Xl_RD" id="6Irl3jv9qbb" role="35Gt3$">
+                        <property role="Xl_RC" value="Dan" />
+                      </node>
+                      <node concept="1$4sJe" id="6Irl3jv9qfL" role="35Gt3$">
+                        <property role="1$4sGS" value="0" />
+                        <property role="1$4sGV" value="0" />
+                        <property role="1$4sGU" value="0" />
+                        <property role="1$4sGT" value="0" />
+                        <property role="1$4sGQ" value="0" />
+                        <property role="1$4sGR" value="0" />
+                        <property role="1$4sGO" value="true" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="10Adxj" id="6Irl3jv9pSH" role="3cqZAp" />
+              </node>
+              <node concept="3clFbC" id="6Irl3jv9pPH" role="3clFbw">
+                <node concept="Rm8GO" id="6Irl3jv9pRS" role="3uHU7w">
+                  <ref role="Rm8GQ" node="6Irl3jv9pwj" resolve="DONE_CHECK_FORMATSTRING" />
+                  <ref role="1Px2BO" node="7pudXbEHue3" resolve="CMDS_CRTL" />
+                </node>
+                <node concept="2OqwBi" id="6Irl3jv9pLg" role="3uHU7B">
+                  <node concept="3urNQE" id="6Irl3jv9pKJ" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6_VKg6ltWsT" resolve="info" />
+                  </node>
+                  <node concept="2OwXpG" id="6Irl3jv9pMp" role="2OqNvi">
+                    <ref role="2Oxat5" node="7pudXbEJWPj" resolve="crtl" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6Irl3jv9pJt" role="3cqZAp" />
             <node concept="10Adxh" id="26QcchW0j$e" role="3cqZAp">
               <node concept="Xl_RD" id="26QcchW0j$P" role="10Adiu">
                 <property role="Xl_RC" value="Cancel in Command for ex in Final Cancel" />
@@ -3039,101 +3246,107 @@
   </node>
   <node concept="2CG7Z0" id="5MCXLSo4_z9">
     <property role="TrG5h" value="MPreisOFXTests" />
-    <property role="2320hu" value="2016-09-08T13:20:38.421+02:00" />
+    <property role="2320hu" value="2016-09-13T09:51:12.759+02:00" />
     <node concept="2CPvp3" id="5MCXLSo6ndK" role="2CGBMS" />
     <node concept="2CJ4_Q" id="5MCXLSo6ndP" role="2CGBMS">
       <ref role="2CJ4_N" to="goi:5MCXLSo4_Bs" resolve="TetsSuitBasics" />
     </node>
-    <node concept="2CPvp3" id="5MCXLSo9cSk" role="2CGBMS" />
+    <node concept="2CJf3v" id="5zF9hZsEnqh" role="2CGBMS">
+      <property role="TrG5h" value="stringFormatter" />
+      <node concept="Xl_RD" id="5zF9hZsEnqj" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXStringFormatter" />
+      </node>
+    </node>
+    <node concept="2CPvp3" id="5zF9hZsEnpG" role="2CGBMS" />
     <node concept="2CJoq6" id="5MCXLSo6ndT" role="2CGBMS">
       <property role="TrG5h" value="AUTO_CALC" />
-      <node concept="2CJf3v" id="4Ta2XmW4raU" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwD" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoice" />
-        <node concept="Xl_RD" id="4Ta2XmW4raV" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwE" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4raW" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwF" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoice" />
-        <node concept="Xl_RD" id="4Ta2XmW4raX" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwG" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4raY" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwH" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoiceTblInvoice" />
-        <node concept="Xl_RD" id="4Ta2XmW4raZ" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwI" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoiceTblInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rb0" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwJ" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoicePosition" />
-        <node concept="Xl_RD" id="4Ta2XmW4rb1" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwK" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoicePosition" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rb2" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwL" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAccountAudit" />
-        <node concept="Xl_RD" id="4Ta2XmW4rb3" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwM" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAccountAudit" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rb4" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwN" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapReferer" />
-        <node concept="Xl_RD" id="4Ta2XmW4rb5" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwO" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapReferer" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rb6" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwP" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity" />
-        <node concept="Xl_RD" id="4Ta2XmW4rb7" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwQ" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rb8" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwR" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity_VARIANTS" />
-        <node concept="Xl_RD" id="4Ta2XmW4rb9" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwS" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity_VARIANTS" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rba" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwT" role="2CJdiS">
         <property role="TrG5h" value="__invoice_Process" />
-        <node concept="Xl_RD" id="4Ta2XmW4rbb" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwU" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.Invoice_Process" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rbc" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwV" role="2CJdiS">
         <property role="TrG5h" value="__simpleService" />
-        <node concept="Xl_RD" id="4Ta2XmW4rbd" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwW" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.SimpleService" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rbe" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwX" role="2CJdiS">
         <property role="TrG5h" value="__repoInvoice" />
-        <node concept="Xl_RD" id="4Ta2XmW4rbf" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQwY" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rbg" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQwZ" role="2CJdiS">
         <property role="TrG5h" value="__repoAccountAudit" />
-        <node concept="Xl_RD" id="4Ta2XmW4rbh" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQx0" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoAccountAudit" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rbi" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQx1" role="2CJdiS">
         <property role="TrG5h" value="__repoReferer" />
-        <node concept="Xl_RD" id="4Ta2XmW4rbj" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQx2" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoReferer" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rbk" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQx3" role="2CJdiS">
         <property role="TrG5h" value="__repoCustomSql" />
-        <node concept="Xl_RD" id="4Ta2XmW4rbl" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQx4" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoCustomSql" />
         </node>
       </node>
-      <node concept="2CJf3v" id="4Ta2XmW4rbm" role="2CJdiS">
+      <node concept="2CJf3v" id="5zF9hZsDQx5" role="2CJdiS">
         <property role="TrG5h" value="__repoAuditEntity" />
-        <node concept="Xl_RD" id="4Ta2XmW4rbn" role="2CJf0U">
+        <node concept="Xl_RD" id="5zF9hZsDQx6" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoAuditEntity" />
         </node>
       </node>
@@ -4175,6 +4388,10 @@
     </node>
     <node concept="QsSxf" id="26QcchVZDKR" role="Qtgdg">
       <property role="TrG5h" value="GO_EX_IN_SERVICE" />
+      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+    </node>
+    <node concept="QsSxf" id="6Irl3jv9pwj" role="Qtgdg">
+      <property role="TrG5h" value="DONE_CHECK_FORMATSTRING" />
       <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
     </node>
     <node concept="3Tm1VV" id="7pudXbEHue4" role="1B3o_S" />
@@ -7047,6 +7264,351 @@
       <ref role="1DZZIc" node="7pudXbEJVMv" resolve="Test Wizzard" />
     </node>
     <node concept="1DF_5m" id="4Ta2XmW47C7" role="3yMuLx" />
+  </node>
+  <node concept="2WPaUQ" id="5zF9hZsDuXt">
+    <property role="TrG5h" value="Test Service" />
+    <ref role="2WPtWl" node="5MCXLSo4_z9" resolve="MPreisOFXTests" />
+    <node concept="1DF_5m" id="5zF9hZsDuXu" role="3yMuLx" />
+    <node concept="3yPF9F" id="5zF9hZsDv9m" role="3yMuLx">
+      <property role="TrG5h" value="MultiString - Print BigDecimal." />
+      <node concept="3cqZAl" id="5zF9hZsDvbc" role="3clF45" />
+      <node concept="3clFbS" id="5zF9hZsDv9q" role="3clF47">
+        <node concept="3cpWs8" id="6Irl3jv6PTS" role="3cqZAp">
+          <node concept="3cpWsn" id="6Irl3jv6PTV" role="3cpWs9">
+            <property role="TrG5h" value="s" />
+            <node concept="17QB3L" id="6Irl3jv6PTQ" role="1tU5fm" />
+            <node concept="1odsa" id="5zF9hZsDvnT" role="33vP2m">
+              <ref role="37wK5l" node="5zF9hZsC_ce" resolve="testInteger_String_BigDeci" />
+              <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
+              <node concept="3cmrfG" id="6Irl3jv6PP4" role="37wK5m">
+                <property role="3cmrfH" value="10" />
+              </node>
+              <node concept="Xl_RD" id="6Irl3jv6PPw" role="37wK5m">
+                <property role="Xl_RC" value="dan" />
+              </node>
+              <node concept="1mgVXT" id="6Irl3jv6PSE" role="37wK5m">
+                <property role="1mgVXS" value="10.0d" />
+              </node>
+              <node concept="10Nm6u" id="5zF9hZsDvBc" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="6Irl3jv6PWK" role="3cqZAp">
+          <node concept="2OqwBi" id="6Irl3jv6Q08" role="1gVkn0">
+            <node concept="37vLTw" id="6Irl3jv6PX$" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Irl3jv6PTV" resolve="s" />
+            </node>
+            <node concept="liA8E" id="6Irl3jv6Q50" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="6Irl3jv6Q5r" role="37wK5m">
+                <property role="Xl_RC" value="   10   dan   10.00   " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="6Irl3jv7iez" role="3yMuLx">
+      <property role="TrG5h" value="MultiString - Print LocalDate and DateTime." />
+      <node concept="3cqZAl" id="6Irl3jv7ie$" role="3clF45" />
+      <node concept="3clFbS" id="6Irl3jv7ie_" role="3clF47">
+        <node concept="3cpWs8" id="6Irl3jv7ieA" role="3cqZAp">
+          <node concept="3cpWsn" id="6Irl3jv7ieB" role="3cpWs9">
+            <property role="TrG5h" value="s" />
+            <node concept="17QB3L" id="6Irl3jv7ieC" role="1tU5fm" />
+            <node concept="1odsa" id="6Irl3jv7ieD" role="33vP2m">
+              <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
+              <ref role="37wK5l" node="5zF9hZsF6$x" resolve="testInteger_String_BigDeci_LocalDate_DateTime" />
+              <node concept="3cmrfG" id="6Irl3jv7ieE" role="37wK5m">
+                <property role="3cmrfH" value="10" />
+              </node>
+              <node concept="Xl_RD" id="6Irl3jv7ieF" role="37wK5m">
+                <property role="Xl_RC" value="dan" />
+              </node>
+              <node concept="1mgVXT" id="6Irl3jv7ieG" role="37wK5m">
+                <property role="1mgVXS" value="10.0d" />
+              </node>
+              <node concept="1$4sJh" id="6Irl3jv7iBN" role="37wK5m">
+                <property role="1$4sGW" value="0" />
+                <property role="1$4sGZ" value="0" />
+                <property role="1$4sGY" value="0" />
+                <property role="1$4sGX" value="true" />
+              </node>
+              <node concept="1$4sJe" id="6Irl3jv7iAq" role="37wK5m">
+                <property role="1$4sGS" value="0" />
+                <property role="1$4sGV" value="0" />
+                <property role="1$4sGU" value="0" />
+                <property role="1$4sGT" value="0" />
+                <property role="1$4sGQ" value="0" />
+                <property role="1$4sGR" value="0" />
+                <property role="1$4sGO" value="true" />
+              </node>
+              <node concept="10Nm6u" id="6Irl3jv7ieH" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="38$l6q" id="6Irl3jv7D4r" role="3cqZAp">
+          <node concept="37vLTw" id="6Irl3jv7D63" role="38$l6p">
+            <ref role="3cqZAo" node="6Irl3jv7ieB" resolve="s" />
+          </node>
+        </node>
+        <node concept="1gVbGN" id="6Irl3jv7ieI" role="3cqZAp">
+          <node concept="2OqwBi" id="6Irl3jv7ieJ" role="1gVkn0">
+            <node concept="37vLTw" id="6Irl3jv7ieK" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Irl3jv7ieB" resolve="s" />
+            </node>
+            <node concept="liA8E" id="6Irl3jv7ieL" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="6Irl3jv7ieM" role="37wK5m">
+                <property role="Xl_RC" value="   10   dan   10.00   27.01.80   27.01.1980 04:30:00   " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="6Irl3jv7igu" role="3yMuLx">
+      <property role="TrG5h" value="MultiString - Print LocalDate and LocalDate." />
+      <node concept="3cqZAl" id="6Irl3jv7igv" role="3clF45" />
+      <node concept="3clFbS" id="6Irl3jv7igw" role="3clF47">
+        <node concept="3cpWs8" id="6Irl3jv7igx" role="3cqZAp">
+          <node concept="3cpWsn" id="6Irl3jv7igy" role="3cpWs9">
+            <property role="TrG5h" value="s" />
+            <node concept="17QB3L" id="6Irl3jv7igz" role="1tU5fm" />
+            <node concept="1odsa" id="6Irl3jv7ig$" role="33vP2m">
+              <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
+              <ref role="37wK5l" node="5zF9hZsF7aW" resolve="testInteger_String_BigDeci_LocalDate_Localdate" />
+              <node concept="3cmrfG" id="6Irl3jv7ig_" role="37wK5m">
+                <property role="3cmrfH" value="10" />
+              </node>
+              <node concept="Xl_RD" id="6Irl3jv7igA" role="37wK5m">
+                <property role="Xl_RC" value="dan" />
+              </node>
+              <node concept="1mgVXT" id="6Irl3jv7igB" role="37wK5m">
+                <property role="1mgVXS" value="10.0d" />
+              </node>
+              <node concept="1$4sJh" id="6Irl3jv7iEp" role="37wK5m">
+                <property role="1$4sGW" value="0" />
+                <property role="1$4sGZ" value="0" />
+                <property role="1$4sGY" value="0" />
+                <property role="1$4sGX" value="true" />
+              </node>
+              <node concept="1$4sJe" id="6Irl3jv7iGX" role="37wK5m">
+                <property role="1$4sGS" value="0" />
+                <property role="1$4sGV" value="0" />
+                <property role="1$4sGU" value="0" />
+                <property role="1$4sGT" value="0" />
+                <property role="1$4sGQ" value="0" />
+                <property role="1$4sGR" value="0" />
+                <property role="1$4sGO" value="true" />
+              </node>
+              <node concept="10Nm6u" id="6Irl3jv7igC" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="38$l6q" id="6Irl3jv7D8e" role="3cqZAp">
+          <node concept="37vLTw" id="6Irl3jv7D9Q" role="38$l6p">
+            <ref role="3cqZAo" node="6Irl3jv7igy" resolve="s" />
+          </node>
+        </node>
+        <node concept="1gVbGN" id="6Irl3jv7igD" role="3cqZAp">
+          <node concept="2OqwBi" id="6Irl3jv7igE" role="1gVkn0">
+            <node concept="37vLTw" id="6Irl3jv7igF" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Irl3jv7igy" resolve="s" />
+            </node>
+            <node concept="liA8E" id="6Irl3jv7igG" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="6Irl3jv7igH" role="37wK5m">
+                <property role="Xl_RC" value="   10   dan   10.00   27.01.80   27.01.80   " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="6Irl3jv9mPZ" role="3yMuLx">
+      <property role="TrG5h" value="MultiString - Used in OFXTestSuit itself." />
+      <node concept="3yABqi" id="6Irl3jv9mRa" role="3yGA3Q">
+        <property role="TrG5h" value="inv1" />
+        <ref role="37wK5l" to="goi:4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
+        <node concept="35AVbj" id="6Irl3jv9mRh" role="37wK5m">
+          <property role="35AVef" value="Hello %s %d" />
+          <node concept="Xl_RD" id="6Irl3jv9mUs" role="35Gt3$">
+            <property role="Xl_RC" value="Dan" />
+          </node>
+          <node concept="3cmrfG" id="6Irl3jv9mV$" role="35Gt3$">
+            <property role="3cmrfH" value="10" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6Irl3jv9mR7" role="3clF45" />
+      <node concept="3clFbS" id="6Irl3jv9mQ3" role="3clF47">
+        <node concept="1gVbGN" id="6Irl3jv9mX9" role="3cqZAp">
+          <node concept="2OqwBi" id="6Irl3jv9n1R" role="1gVkn0">
+            <node concept="2OqwBi" id="6Irl3jv9mYq" role="2Oq$k0">
+              <node concept="2OqwBi" id="6Irl3jvb2dR" role="2Oq$k0">
+                <node concept="2OqwBi" id="6Irl3jvb22l" role="2Oq$k0">
+                  <node concept="3zkua3" id="6Irl3jv9mXD" role="2Oq$k0">
+                    <ref role="3zku8S" node="6Irl3jv9mRa" resolve="inv1" />
+                  </node>
+                  <node concept="2S8uIT" id="6Irl3jvb267" role="2OqNvi">
+                    <ref role="2S8YL0" to="goi:612_n8Hc$wy" resolve="positions" />
+                  </node>
+                </node>
+                <node concept="1uHKPH" id="6Irl3jvb2pF" role="2OqNvi" />
+              </node>
+              <node concept="2S8uIT" id="6Irl3jvb2tS" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HcC5n" resolve="posText" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6Irl3jv9n7n" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="35AVbj" id="6Irl3jv9naK" role="37wK5m">
+                <property role="35AVef" value="Hello Dan 10_0" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6Irl3jv9nl0" role="3cqZAp">
+          <node concept="37vLTI" id="6Irl3jv9npx" role="3clFbG">
+            <node concept="35AVbj" id="6Irl3jv9nr0" role="37vLTx">
+              <property role="35AVef" value="Hello Wolfgang it is %dt" />
+              <node concept="1$4sJe" id="6Irl3jv9ocW" role="35Gt3$">
+                <property role="1$4sGS" value="0" />
+                <property role="1$4sGV" value="0" />
+                <property role="1$4sGU" value="0" />
+                <property role="1$4sGT" value="0" />
+                <property role="1$4sGQ" value="0" />
+                <property role="1$4sGR" value="0" />
+                <property role="1$4sGO" value="true" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6Irl3jv9nmv" role="37vLTJ">
+              <node concept="3zkua3" id="6Irl3jv9nkY" role="2Oq$k0">
+                <ref role="3zku8S" node="6Irl3jv9mRa" resolve="inv1" />
+              </node>
+              <node concept="2S8uIT" id="6Irl3jv9nol" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbEYW" resolve="text" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6Irl3jva9is" role="3cqZAp" />
+        <node concept="1gVbGN" id="6Irl3jv9nHG" role="3cqZAp">
+          <node concept="2OqwBi" id="6Irl3jv9ozQ" role="1gVkn0">
+            <node concept="2OqwBi" id="6Irl3jv9nLo" role="2Oq$k0">
+              <node concept="3zkua3" id="6Irl3jv9nJy" role="2Oq$k0">
+                <ref role="3zku8S" node="6Irl3jv9mRa" resolve="inv1" />
+              </node>
+              <node concept="2S8uIT" id="6Irl3jv9nND" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbEYW" resolve="text" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6Irl3jv9oEp" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="6Irl3jv9oeM" role="37wK5m">
+                <property role="Xl_RC" value="Hello Wolfgang it is 27.01.1980 04:30:00" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Ovgq9" id="6Irl3jv9mJq" role="3yMuLx">
+      <property role="TrG5h" value="MultiString - Used in Command to edit a text." />
+      <node concept="3yABqi" id="6Irl3jv9mOg" role="3yGA3Q">
+        <property role="TrG5h" value="inv1" />
+        <ref role="37wK5l" to="goi:4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
+        <node concept="Xl_RD" id="6Irl3jv9mOu" role="37wK5m">
+          <property role="Xl_RC" value="formatString" />
+        </node>
+      </node>
+      <node concept="2_HltQ" id="6Irl3jv9mJs" role="2_GXT8">
+        <ref role="2_Hrwf" node="Joc9_LZQLM" resolve="Invoice Process" />
+        <ref role="2_Hrw8" node="5MCXLSnMhvZ" resolve="Checkout Invoice" />
+        <node concept="10Nm6u" id="6Irl3jv9oGT" role="2_HrWp" />
+        <node concept="2OqwBi" id="6Irl3jv9oHF" role="2_HrWp">
+          <node concept="3zkua3" id="6Irl3jv9oHb" role="2Oq$k0">
+            <ref role="3zku8S" node="6Irl3jv9mOg" resolve="inv1" />
+          </node>
+          <node concept="2S8uIT" id="6Irl3jv9oIz" role="2OqNvi">
+            <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+          </node>
+        </node>
+        <node concept="2ShNRf" id="6Irl3jvb3vE" role="2_HrWp">
+          <node concept="1pGfFk" id="6Irl3jvb5vs" role="2ShVmc">
+            <ref role="37wK5l" node="7pudXbEK2Pq" resolve="CommandInfo" />
+            <node concept="Rm8GO" id="6Irl3jvb5xf" role="37wK5m">
+              <ref role="Rm8GQ" node="6Irl3jv9pwj" resolve="DONE_CHECK_FORMATSTRING" />
+              <ref role="1Px2BO" node="7pudXbEHue3" resolve="CMDS_CRTL" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6Irl3jv9mKv" role="3clF45" />
+      <node concept="3clFbS" id="6Irl3jv9mJw" role="3clF47">
+        <node concept="3cpWs8" id="6Irl3jv9qim" role="3cqZAp">
+          <node concept="3cpWsn" id="6Irl3jv9qin" role="3cpWs9">
+            <property role="TrG5h" value="reloaded" />
+            <node concept="3uibUv" id="6Irl3jv9qio" role="1tU5fm">
+              <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="1odsa" id="6Irl3jv9qjd" role="33vP2m">
+              <ref role="1ods_" to="goi:70qPrkCy95v" resolve="RepoInvoice" />
+              <ref role="37wK5l" to="goi:70qPrkCyfoY" resolve="checkoutInvoiceByIdWithoutRefs" />
+              <node concept="10Nm6u" id="6Irl3jv9qkj" role="2f8TIa" />
+              <node concept="2OqwBi" id="6Irl3jv9qld" role="37wK5m">
+                <node concept="3zkua3" id="6Irl3jv9qk$" role="2Oq$k0">
+                  <ref role="3zku8S" node="6Irl3jv9mOg" resolve="inv1" />
+                </node>
+                <node concept="2S8uIT" id="6Irl3jv9qme" role="2OqNvi">
+                  <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="38$l6q" id="6Irl3jv9LD6" role="3cqZAp">
+          <node concept="2OqwBi" id="6Irl3jv9LJU" role="38$l6p">
+            <node concept="37vLTw" id="6Irl3jv9LGB" role="2Oq$k0">
+              <ref role="3cqZAo" node="6Irl3jv9qin" resolve="reloaded" />
+            </node>
+            <node concept="2S8uIT" id="6Irl3jv9LNP" role="2OqNvi">
+              <ref role="2S8YL0" to="goi:612_n8HbEYW" resolve="text" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="6Irl3jv9qnH" role="3cqZAp">
+          <node concept="2OqwBi" id="6Irl3jv9qtq" role="1gVkn0">
+            <node concept="2OqwBi" id="6Irl3jv9qq8" role="2Oq$k0">
+              <node concept="37vLTw" id="6Irl3jv9qoS" role="2Oq$k0">
+                <ref role="3cqZAo" node="6Irl3jv9qin" resolve="reloaded" />
+              </node>
+              <node concept="2S8uIT" id="6Irl3jv9qrN" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbEYW" resolve="text" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6Irl3jv9q$X" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="6Irl3jv9q_p" role="37wK5m">
+                <property role="Xl_RC" value="Hello format 10 / Dan 27.01.1980 04:30:00" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="xWan4" id="6Irl3jv7iIn" role="38MLOi">
+      <property role="xWaIZ" value="27" />
+      <property role="xWaIW" value="1" />
+      <property role="xWaIX" value="1980" />
+      <property role="xWaIY" value="4" />
+      <property role="xWaIL" value="30" />
+      <property role="xWaIK" value="0" />
+    </node>
+    <node concept="1DZZI9" id="6Irl3jv9mOl" role="38MLOi">
+      <ref role="1DZZIc" to="goi:2i3o0hdVwMp" resolve="Creators" />
+    </node>
   </node>
 </model>
 
