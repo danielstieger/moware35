@@ -35692,20 +35692,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="78E3KqmODV0" role="3cqZAp">
-          <node concept="2OqwBi" id="78E3KqmODV1" role="3clFbG">
-            <node concept="2YIFZM" id="78E3KqmODV2" role="2Oq$k0">
-              <ref role="37wK5l" to="j62g:~StyleManager.getInstance():com.sun.javafx.css.StyleManager" resolve="getInstance" />
-              <ref role="1Pybhc" to="j62g:~StyleManager" resolve="StyleManager" />
-            </node>
-            <node concept="liA8E" id="78E3KqmODV3" role="2OqNvi">
-              <ref role="37wK5l" to="j62g:~StyleManager.addUserAgentStylesheet(java.lang.String):void" resolve="addUserAgentStylesheet" />
-              <node concept="Xl_RD" id="78E3KqmODV4" role="37wK5m">
-                <property role="Xl_RC" value="file:/Users/danielstieger/moware/fx8forms/solutions/jars/richclient/fx8flatter/inputRuntimeTest/fx8flatter.css" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="248r5L2BMBv" role="3cqZAp" />
         <node concept="3clFbF" id="248r5L2AIZz" role="3cqZAp">
           <node concept="2OqwBi" id="248r5L2AIZ$" role="3clFbG">
@@ -36123,7 +36109,7 @@
                       </node>
                     </node>
                     <node concept="3b6qkQ" id="78E3KqmRIEM" role="37wK5m">
-                      <property role="$nhwW" value="0.4" />
+                      <property role="$nhwW" value="0.0" />
                     </node>
                   </node>
                 </node>
