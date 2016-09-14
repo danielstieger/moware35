@@ -861,6 +861,12 @@
       <node concept="3Tm1VV" id="6QRLe84kvrF" role="1B3o_S" />
       <node concept="17QB3L" id="6QRLe84kvrG" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="I$l6zlL1Pe" role="jymVt">
+      <property role="TrG5h" value="uriIdentifier" />
+      <node concept="3Tm1VV" id="I$l6zlL1Pf" role="1B3o_S" />
+      <node concept="17QB3L" id="I$l6zlL1Pg" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="I$l6zlL1qp" role="jymVt" />
     <node concept="312cEg" id="Y3fiVJPWx7" role="jymVt">
       <property role="TrG5h" value="hotKey" />
       <node concept="3Tm1VV" id="Y3fiVJPWx8" role="1B3o_S" />
@@ -876,6 +882,7 @@
         <node concept="17QB3L" id="5$YtY8hpk3u" role="10Q1$1" />
       </node>
     </node>
+    <node concept="2tJIrI" id="I$l6zlL0Zg" role="jymVt" />
     <node concept="2tJIrI" id="Y3fiVJOkPS" role="jymVt" />
     <node concept="3clFbW" id="Y3fiVJOfqb" role="jymVt">
       <node concept="3cqZAl" id="Y3fiVJOfqd" role="3clF45" />
@@ -963,6 +970,32 @@
             </node>
             <node concept="37vLTw" id="6QRLe84kwnD" role="37vLTJ">
               <ref role="3cqZAo" node="6QRLe84kvrE" resolve="shortName" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="I$l6zlL37l" role="3cqZAp">
+          <node concept="37vLTI" id="I$l6zlL3g4" role="3clFbG">
+            <node concept="2OqwBi" id="I$l6zlN76F" role="37vLTx">
+              <node concept="2OqwBi" id="I$l6zlN6O7" role="2Oq$k0">
+                <node concept="37vLTw" id="I$l6zlL3m4" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Y3fiVJOfqF" resolve="lab" />
+                </node>
+                <node concept="liA8E" id="I$l6zlN6U1" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                </node>
+              </node>
+              <node concept="liA8E" id="I$l6zlN7fr" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replaceAll(java.lang.String,java.lang.String):java.lang.String" resolve="replaceAll" />
+                <node concept="Xl_RD" id="I$l6zlN7gW" role="37wK5m">
+                  <property role="Xl_RC" value="\\W" />
+                </node>
+                <node concept="Xl_RD" id="I$l6zlN7m_" role="37wK5m">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="I$l6zlL37j" role="37vLTJ">
+              <ref role="3cqZAo" node="I$l6zlL1Pe" resolve="uriIdentifier" />
             </node>
           </node>
         </node>
@@ -1458,7 +1491,6 @@
     </node>
     <node concept="2tJIrI" id="4vr6dCEl9it" role="jymVt" />
     <node concept="2tJIrI" id="4vr6dCEl9lW" role="jymVt" />
-    <node concept="2tJIrI" id="4vr6dCEl9ps" role="jymVt" />
     <node concept="3clFb_" id="4vr6dCElabG" role="jymVt">
       <property role="TrG5h" value="gcClear" />
       <node concept="3cqZAl" id="4vr6dCElabI" role="3clF45" />
@@ -14310,9 +14342,7 @@
       <property role="TrG5h" value="DEVELOPMENT_SETTING" />
       <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
       <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
-      <node concept="3clFbT" id="2$gclwwm1NH" role="33vP2m">
-        <property role="3clFbU" value="false" />
-      </node>
+      <node concept="3clFbT" id="I$l6zlLJWp" role="33vP2m" />
     </node>
     <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
       <property role="3TUv4t" value="true" />
@@ -14324,7 +14354,7 @@
           <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
         </node>
         <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-          <property role="Xl_RC" value="moware60 RC6D (mde keyboard), dev: " />
+          <property role="Xl_RC" value="moware60 RC6E (mde keyboard), dev: " />
         </node>
       </node>
     </node>
