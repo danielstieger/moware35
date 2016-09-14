@@ -146,7 +146,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 3.3 / moware60 RC6D (mde keyboard)" />
+          <property role="3MwjfP" value="MPS 3.3 / moware60 RC6E (uriLabel testsuit)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -1559,11 +1559,6 @@
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
           </node>
         </node>
-        <node concept="1SiIV0" id="1JLTjCmZvV6" role="3bR37C">
-          <node concept="1Busua" id="1JLTjCmZvV7" role="1SiIV1">
-            <ref role="1Busuk" node="1JLTjCmZpP8" resolve="org.modellwerkstatt.objectflow" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="1JLTjCmZvV8" role="3bR37C">
           <node concept="1Busua" id="1JLTjCmZvV9" role="1SiIV1">
             <ref role="1Busuk" node="1JLTjCmZp6M" resolve="org.modellwerkstatt.manmap" />
@@ -1632,6 +1627,18 @@
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="1JLTjCmZu2U" resolve="org.modellwerkstatt.fatflow" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7JvGPIW6O5G" role="3bR37C">
+          <node concept="3bR9La" id="7JvGPIW6O5H" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="7JvGPIW6O5I" role="3bR37C">
+          <node concept="3bR9La" id="7JvGPIW6O5J" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="1JLTjCmZpP8" resolve="org.modellwerkstatt.objectflow" />
           </node>
         </node>
       </node>

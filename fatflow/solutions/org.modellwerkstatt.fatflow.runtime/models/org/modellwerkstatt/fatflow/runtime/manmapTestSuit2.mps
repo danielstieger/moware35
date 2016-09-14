@@ -397,6 +397,9 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
+      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
+        <reference id="59360650270057722" name="test" index="1Cak38" />
+      </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -1378,7 +1381,6 @@
         </node>
       </node>
     </node>
-    <node concept="1DF_5m" id="6Hh99C_r0e$" role="3yMuLx" />
     <node concept="3yPF9F" id="2i3o0he1AQi" role="3yMuLx">
       <property role="TrG5h" value="Update an Invoice and reload it again." />
       <node concept="3yABqi" id="2i3o0he1AWE" role="3yGA3Q">
@@ -3902,6 +3904,78 @@
     </node>
     <node concept="1DZZI9" id="2i3o0hdVzfT" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="Creators" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1U1" role="38MLOi">
+      <ref role="1Cak38" node="2i3o0he1AQi" resolve="Update an Invoice and reload it again." />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1U2" role="38MLOi">
+      <ref role="1Cak38" node="4ksEJbWj6Vb" resolve="Use join to load two different invoice graphs" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1U3" role="38MLOi">
+      <ref role="1Cak38" node="4ksEJbWjV3t" resolve="Use join to load two different invoice graphs, REVERSE" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1U4" role="38MLOi">
+      <ref role="1Cak38" node="4ksEJbWkPk2" resolve="Dirty flag should not be set when loading a graph" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1U5" role="38MLOi">
+      <ref role="1Cak38" node="4ksEJbWlDwB" resolve="Dirty flag should not be set when loading a graph, REVERSE" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1U6" role="38MLOi">
+      <ref role="1Cak38" node="1oH_MJeNKKb" resolve="Multiple saves should be easily possible (legacy?)" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1U7" role="38MLOi">
+      <ref role="1Cak38" node="2i3o0hedaHD" resolve="Delete and Insert changes object count by one." />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1U8" role="38MLOi">
+      <ref role="1Cak38" node="4ksEJbWs3Wd" resolve="Store and Load Extended Invoices by Graph get/where" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1U9" role="38MLOi">
+      <ref role="1Cak38" node="2i3o0hdZJez" resolve="Use Extended Invoice to load from Invoice table" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Ua" role="38MLOi">
+      <ref role="1Cak38" node="RffU3ztq7U" resolve="Reload Invoice again changes object." />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Ub" role="38MLOi">
+      <ref role="1Cak38" node="221r9bOXWIe" resolve="Deleting a readonly object results in an exception" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Uc" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zrz6V" resolve="Changing a readonly object results in an exception" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Ud" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zv8kn" resolve="Reloading an Invoice read only object results in an exception" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Ue" role="38MLOi">
+      <ref role="1Cak38" node="221r9bOZPAq" resolve="Deleting an non existing object should result in an exception" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Uf" role="38MLOi">
+      <ref role="1Cak38" node="221r9bP1uw9" resolve="Get() an object with unknown id should result in an exception" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Ug" role="38MLOi">
+      <ref role="1Cak38" node="221r9bP2aYa" resolve="Double write with optimistic locking should result in an exception" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Uh" role="38MLOi">
+      <ref role="1Cak38" node="RffU3z7Ydn" resolve="Store and reload a string key object." />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Ui" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zdIdp" resolve="Create, load save an entity with ValueObject Key." />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Uj" role="38MLOi">
+      <ref role="1Cak38" node="RffU3zfP_D" resolve="Delete an entity with ValueObject Key." />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Uk" role="38MLOi">
+      <ref role="1Cak38" node="RffU3ziqj9" resolve="Create multiple account objects with same key and checkaut as list." />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Ul" role="38MLOi">
+      <ref role="1Cak38" node="1oH_MJeR3Kk" resolve="Setting a BigDecimal Number to null should not lead to an exception." />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Um" role="38MLOi">
+      <ref role="1Cak38" node="1oH_MJeTegH" resolve="Setting a string to null should not lead to an exception." />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Un" role="38MLOi">
+      <ref role="1Cak38" node="1oH_MJeWwZ4" resolve="Saving an entity refering to unseaved entity leads to an exception" />
+    </node>
+    <node concept="1Cak35" id="7JvGPIWG1Uo" role="38MLOi">
+      <ref role="1Cak38" node="1oH_MJeZEk$" resolve="Dirty on Reference if object not saved." />
     </node>
   </node>
   <node concept="2CG7Z0" id="7shQO0QvvlW">
@@ -11308,11 +11382,11 @@
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="Creators" />
     <node concept="J2Nxi" id="7mZ5ilqNXRI" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
+      <property role="J2Nxv" value="C:/moware/fatflow/testdata/" />
       <property role="TrG5h" value="GRAPHS" />
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/sqls" />
+      <property role="J2Nxv" value="C:/moware/fatflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">

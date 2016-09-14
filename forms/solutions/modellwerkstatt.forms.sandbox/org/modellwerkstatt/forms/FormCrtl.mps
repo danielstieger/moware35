@@ -14354,7 +14354,7 @@
           <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
         </node>
         <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-          <property role="Xl_RC" value="moware60 RC6E (mde keyboard), dev: " />
+          <property role="Xl_RC" value="moware60 RC6E (uriLabel testsuit), dev: " />
         </node>
       </node>
     </node>
