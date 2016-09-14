@@ -40,7 +40,7 @@ text  <ID>0</ID>
 </MONEYAMOUNT>
 
 name  XML CONVERSION
-localDate  Sun 27.01.1980
+localDate  27.01.1980
 dateTime  27.01.1980 04:30:00
 headState  Status 1
 positions (List)
@@ -48,28 +48,28 @@ positions (List)
    id  #*#*
    posAvalue  0
    posText  conversion_0
-   date  Sun 27.01.1980
+   date  27.01.1980
    invoice (Reference) Key  (null-key)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  10
    posText  conversion_1
-   date  Sun 27.01.1980
+   date  27.01.1980
    invoice (Reference) Key  (null-key)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  20
    posText  conversion_2
-   date  Sun 27.01.1980
+   date  27.01.1980
    invoice (Reference) Key  (null-key)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  30
    posText  conversion_3
-   date  Sun 27.01.1980
+   date  27.01.1980
    invoice (Reference) Key  (null-key)
 
 mainPosRef (Reference) Key  (null-key)

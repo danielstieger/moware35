@@ -5,7 +5,7 @@ totalAmount  60
 nameLen2  5
 text  Invoice
 name  third
-localDate  Sun 27.01.1980
+localDate  27.01.1980
 dateTime  27.01.1980 04:30:00
 headState  Status 1
 positions (List)
@@ -13,28 +13,28 @@ positions (List)
    id  #*#*
    posAvalue  0
    posText  third_0
-   date  Sun 27.01.1980
+   date  27.01.1980
    invoice (Reference) Key  #*#*
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  10
    posText  third_1
-   date  Sun 27.01.1980
+   date  27.01.1980
    invoice (Reference) Key  #*#*
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  20
    posText  third_2
-   date  Sun 27.01.1980
+   date  27.01.1980
    invoice (Reference) Key  #*#*
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  30
    posText  third_3
-   date  Sun 27.01.1980
+   date  27.01.1980
    invoice (Reference) Key  #*#*
 
 mainPosRef (Reference) Key  (null-key)
