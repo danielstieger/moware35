@@ -272,6 +272,7 @@
       <concept id="7192042020163999178" name="org.modellwerkstatt.objectflow.structure.Command" flags="ng" index="3ugp7m">
         <property id="7912134052599426179" name="newCommandType" index="19I623" />
         <reference id="1993450443311478185" name="process" index="3lhHOO" />
+        <child id="3748648354049763742" name="titleAddOn" index="IYfpf" />
         <child id="1881524139086021953" name="exceptionConclusionStatements" index="10_K5X" />
         <child id="1881524139085993257" name="okConclusionStatements" index="10_T4l" />
         <child id="1881524139085993258" name="cancelConclusionStatements" index="10_T4m" />
@@ -1586,6 +1587,29 @@
           </node>
         </node>
         <node concept="3clFbH" id="248r5L2vd1d" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="35AVbj" id="2lXddab2dmk" role="IYfpf">
+      <property role="35AVef" value="Article %d - %dt %s" />
+      <node concept="2OqwBi" id="2lXddab2dss" role="35Gt3$">
+        <node concept="3urNQE" id="2lXddab2drO" role="2Oq$k0">
+          <ref role="3cqZAo" node="5MCXLSnMi8h" resolve="pos" />
+        </node>
+        <node concept="2S8uIT" id="2lXddab2dtB" role="2OqNvi">
+          <ref role="2S8YL0" to="goi:612_n8HcBYv" resolve="id" />
+        </node>
+      </node>
+      <node concept="1$4sJe" id="2lXddab2duK" role="35Gt3$">
+        <property role="1$4sGS" value="0" />
+        <property role="1$4sGV" value="0" />
+        <property role="1$4sGU" value="0" />
+        <property role="1$4sGT" value="0" />
+        <property role="1$4sGQ" value="0" />
+        <property role="1$4sGR" value="0" />
+        <property role="1$4sGO" value="true" />
+      </node>
+      <node concept="Xl_RD" id="4EGFN2$Oete" role="35Gt3$">
+        <property role="Xl_RC" value="now" />
       </node>
     </node>
   </node>
