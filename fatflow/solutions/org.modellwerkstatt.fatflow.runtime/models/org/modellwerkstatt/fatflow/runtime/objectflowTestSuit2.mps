@@ -12,6 +12,7 @@
     <import index="goi" ref="r:f681a544-e71b-468b-a164-0e64bb63a5d9(org.modellwerkstatt.fatflow.runtime.manmapTestSuit2)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
+    <import index="25x5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.text(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
   </imports>
@@ -249,6 +250,9 @@
       </concept>
       <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
         <child id="2884851879187602662" name="expression" index="38$l6p" />
+      </concept>
+      <concept id="2884851879189507036" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDebugOption" flags="ng" index="38J6qz">
+        <reference id="2884851879189507039" name="test" index="38J6qw" />
       </concept>
       <concept id="271985905034983108" name="org.modellwerkstatt.objectflow.structure.DezimalLiteral" flags="ng" index="1mgVXT">
         <property id="271985905034983109" name="value" index="1mgVXS" />
@@ -7271,6 +7275,35 @@
   <node concept="2WPaUQ" id="5zF9hZsDuXt">
     <property role="TrG5h" value="Test Service" />
     <ref role="2WPtWl" node="5MCXLSo4_z9" resolve="MPreisOFXTests" />
+    <node concept="3ulXEM" id="76AKxlfAB20" role="3ulXEG">
+      <property role="TrG5h" value="deziFormat" />
+      <node concept="3uibUv" id="76AKxlfACN6" role="1tU5fm">
+        <ref role="3uigEE" to="25x5:~DecimalFormat" resolve="DecimalFormat" />
+      </node>
+      <node concept="2ShNRf" id="1w6ekH_NSk_" role="33vP2m">
+        <node concept="1pGfFk" id="1w6ekH_NSkA" role="2ShVmc">
+          <ref role="37wK5l" to="25x5:~DecimalFormat.&lt;init&gt;(java.lang.String)" resolve="DecimalFormat" />
+          <node concept="Xl_RD" id="1w6ekH_NSkB" role="37wK5m">
+            <property role="Xl_RC" value="#,##0.00" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3ulXEM" id="76AKxlfACNW" role="3ulXEG">
+      <property role="TrG5h" value="bigDeci10" />
+      <node concept="17QB3L" id="76AKxlfACOb" role="1tU5fm" />
+      <node concept="2OqwBi" id="76AKxlfACP_" role="33vP2m">
+        <node concept="3urNR4" id="76AKxlfACOC" role="2Oq$k0">
+          <ref role="3cqZAo" node="76AKxlfAB20" resolve="deziFormat" />
+        </node>
+        <node concept="liA8E" id="76AKxlfACR9" role="2OqNvi">
+          <ref role="37wK5l" to="25x5:~Format.format(java.lang.Object):java.lang.String" resolve="format" />
+          <node concept="1mgVXT" id="76AKxlfADg9" role="37wK5m">
+            <property role="1mgVXS" value="10.0d" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1DF_5m" id="5zF9hZsDuXu" role="3yMuLx" />
     <node concept="3yPF9F" id="5zF9hZsDv9m" role="3yMuLx">
       <property role="TrG5h" value="MultiString - Print BigDecimal." />
@@ -7303,8 +7336,18 @@
             </node>
             <node concept="liA8E" id="6Irl3jv6Q50" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-              <node concept="Xl_RD" id="6Irl3jv6Q5r" role="37wK5m">
-                <property role="Xl_RC" value="   10   dan   10.00   " />
+              <node concept="3cpWs3" id="76AKxlfB2o9" role="37wK5m">
+                <node concept="Xl_RD" id="76AKxlfB2ol" role="3uHU7w">
+                  <property role="Xl_RC" value="   " />
+                </node>
+                <node concept="3cpWs3" id="76AKxlfB2lj" role="3uHU7B">
+                  <node concept="Xl_RD" id="6Irl3jv6Q5r" role="3uHU7B">
+                    <property role="Xl_RC" value="   10   dan   " />
+                  </node>
+                  <node concept="3urNR4" id="76AKxlfB2lV" role="3uHU7w">
+                    <ref role="3cqZAo" node="76AKxlfACNW" resolve="bigDeci10" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -7350,11 +7393,37 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="76AKxlfCUi9" role="3cqZAp" />
+        <node concept="3cpWs8" id="76AKxlfCU$Z" role="3cqZAp">
+          <node concept="3cpWsn" id="76AKxlfCU_2" role="3cpWs9">
+            <property role="TrG5h" value="shouldBe" />
+            <node concept="17QB3L" id="76AKxlfCU$X" role="1tU5fm" />
+            <node concept="3cpWs3" id="76AKxlfB2$V" role="33vP2m">
+              <node concept="Xl_RD" id="76AKxlfB2Af" role="3uHU7w">
+                <property role="Xl_RC" value="   27.01.80   27.01.1980 04:30:00   " />
+              </node>
+              <node concept="3cpWs3" id="76AKxlfB2y5" role="3uHU7B">
+                <node concept="Xl_RD" id="6Irl3jv7ieM" role="3uHU7B">
+                  <property role="Xl_RC" value="   10   dan   " />
+                </node>
+                <node concept="3urNR4" id="76AKxlfB2yH" role="3uHU7w">
+                  <ref role="3cqZAo" node="76AKxlfACNW" resolve="bigDeci10" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="38$l6q" id="76AKxlfCUJF" role="3cqZAp">
+          <node concept="37vLTw" id="76AKxlfCULj" role="38$l6p">
+            <ref role="3cqZAo" node="76AKxlfCU_2" resolve="shouldBe" />
+          </node>
+        </node>
         <node concept="38$l6q" id="6Irl3jv7D4r" role="3cqZAp">
           <node concept="37vLTw" id="6Irl3jv7D63" role="38$l6p">
             <ref role="3cqZAo" node="6Irl3jv7ieB" resolve="s" />
           </node>
         </node>
+        <node concept="3clFbH" id="76AKxlfCUfI" role="3cqZAp" />
         <node concept="1gVbGN" id="6Irl3jv7ieI" role="3cqZAp">
           <node concept="2OqwBi" id="6Irl3jv7ieJ" role="1gVkn0">
             <node concept="37vLTw" id="6Irl3jv7ieK" role="2Oq$k0">
@@ -7362,8 +7431,8 @@
             </node>
             <node concept="liA8E" id="6Irl3jv7ieL" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-              <node concept="Xl_RD" id="6Irl3jv7ieM" role="37wK5m">
-                <property role="Xl_RC" value="   10   dan   10.00   27.01.80   27.01.1980 04:30:00   " />
+              <node concept="37vLTw" id="76AKxlfCUMf" role="37wK5m">
+                <ref role="3cqZAo" node="76AKxlfCU_2" resolve="shouldBe" />
               </node>
             </node>
           </node>
@@ -7421,8 +7490,18 @@
             </node>
             <node concept="liA8E" id="6Irl3jv7igG" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-              <node concept="Xl_RD" id="6Irl3jv7igH" role="37wK5m">
-                <property role="Xl_RC" value="   10   dan   10.00   27.01.80   27.01.80   " />
+              <node concept="3cpWs3" id="76AKxlfB2Kv" role="37wK5m">
+                <node concept="Xl_RD" id="76AKxlfB2LN" role="3uHU7w">
+                  <property role="Xl_RC" value="   27.01.80   27.01.80   " />
+                </node>
+                <node concept="3cpWs3" id="76AKxlfB2HD" role="3uHU7B">
+                  <node concept="Xl_RD" id="6Irl3jv7igH" role="3uHU7B">
+                    <property role="Xl_RC" value="   10   dan   " />
+                  </node>
+                  <node concept="3urNR4" id="76AKxlfB2Ih" role="3uHU7w">
+                    <ref role="3cqZAo" node="76AKxlfACNW" resolve="bigDeci10" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -7496,7 +7575,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6Irl3jva9is" role="3cqZAp" />
         <node concept="1gVbGN" id="6Irl3jv9nHG" role="3cqZAp">
           <node concept="2OqwBi" id="6Irl3jv9ozQ" role="1gVkn0">
             <node concept="2OqwBi" id="6Irl3jv9nLo" role="2Oq$k0">
@@ -7611,6 +7689,9 @@
     </node>
     <node concept="1DZZI9" id="6Irl3jv9mOl" role="38MLOi">
       <ref role="1DZZIc" to="goi:2i3o0hdVwMp" resolve="Creators" />
+    </node>
+    <node concept="38J6qz" id="76AKxlfBP5d" role="38MLOi">
+      <ref role="38J6qw" node="6Irl3jv7iez" resolve="MultiString - Print LocalDate and DateTime." />
     </node>
   </node>
 </model>
