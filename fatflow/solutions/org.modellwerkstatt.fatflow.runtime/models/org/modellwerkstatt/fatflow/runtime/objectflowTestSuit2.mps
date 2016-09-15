@@ -251,9 +251,6 @@
       <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
         <child id="2884851879187602662" name="expression" index="38$l6p" />
       </concept>
-      <concept id="2884851879189507036" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDebugOption" flags="ng" index="38J6qz">
-        <reference id="2884851879189507039" name="test" index="38J6qw" />
-      </concept>
       <concept id="271985905034983108" name="org.modellwerkstatt.objectflow.structure.DezimalLiteral" flags="ng" index="1mgVXT">
         <property id="271985905034983109" name="value" index="1mgVXS" />
       </concept>
@@ -7713,9 +7710,6 @@
     </node>
     <node concept="1DZZI9" id="6Irl3jv9mOl" role="38MLOi">
       <ref role="1DZZIc" to="goi:2i3o0hdVwMp" resolve="Creators" />
-    </node>
-    <node concept="38J6qz" id="76AKxlfBP5d" role="38MLOi">
-      <ref role="38J6qw" node="6Irl3jv7iez" resolve="MultiString - Print LocalDate and DateTime." />
     </node>
   </node>
 </model>
