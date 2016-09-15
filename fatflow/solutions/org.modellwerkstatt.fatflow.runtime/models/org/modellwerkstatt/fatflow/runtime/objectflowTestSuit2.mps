@@ -4664,6 +4664,11 @@
       <node concept="10P_77" id="6_VKg6lgyYW" role="3clF45" />
       <node concept="3Tm1VV" id="6_VKg6lgyRt" role="1B3o_S" />
       <node concept="3clFbS" id="6_VKg6lgyRu" role="3clF47">
+        <node concept="3SKdUt" id="55Q1Keu2660" role="3cqZAp">
+          <node concept="3SKdUq" id="55Q1Keu2662" role="3SKWNk">
+            <property role="3SKdUp" value="complex condition, also call theroy in junit" />
+          </node>
+        </node>
         <node concept="3clFbF" id="6_VKg6lgz1M" role="3cqZAp">
           <node concept="1Wc70l" id="6_VKg6lgz8M" role="3clFbG">
             <node concept="3fqX7Q" id="6_VKg6lgzaa" role="3uHU7w">
