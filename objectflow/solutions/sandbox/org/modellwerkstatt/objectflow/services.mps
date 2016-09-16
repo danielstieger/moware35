@@ -39948,8 +39948,8 @@
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="53tKgUPRnNl" role="1tU5fm" />
       <node concept="3Tm1VV" id="53tKgUPRnNm" role="1B3o_S" />
-      <node concept="Xl_RD" id="53tKgUPRnNn" role="33vP2m">
-        <property role="Xl_RC" value="CN=NP_moware-auth,OU=04SPEZIAL,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
+      <node concept="Xl_RD" id="53tKgUPS_OY" role="33vP2m">
+        <property role="Xl_RC" value="OU=01BENUTZER,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
       </node>
     </node>
     <node concept="Wx3nA" id="53tKgUPS4fo" role="jymVt">
