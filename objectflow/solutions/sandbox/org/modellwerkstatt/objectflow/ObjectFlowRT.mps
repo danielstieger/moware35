@@ -37763,5 +37763,26 @@
     <node concept="2tJIrI" id="1w6ekH_IR2v" role="jymVt" />
     <node concept="3Tm1VV" id="1w6ekH_IR2d" role="1B3o_S" />
   </node>
+  <node concept="3HP615" id="53tKgUPT7lx">
+    <property role="TrG5h" value="IMoLdapService" />
+    <node concept="2tJIrI" id="53tKgUPTbrb" role="jymVt" />
+    <node concept="3clFb_" id="53tKgUPT9Q5" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="authenticateUser" />
+      <node concept="37vLTG" id="53tKgUPTbpt" role="3clF46">
+        <property role="TrG5h" value="user" />
+        <node concept="17QB3L" id="53tKgUPTbqa" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="53tKgUPTbqp" role="3clF46">
+        <property role="TrG5h" value="password" />
+        <node concept="17QB3L" id="53tKgUPTbr0" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="53tKgUPTbpk" role="3clF45" />
+      <node concept="3Tm1VV" id="53tKgUPT9Q8" role="1B3o_S" />
+      <node concept="3clFbS" id="53tKgUPT9Q9" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="53tKgUPT7lP" role="jymVt" />
+    <node concept="3Tm1VV" id="53tKgUPT7ly" role="1B3o_S" />
+  </node>
 </model>
 
