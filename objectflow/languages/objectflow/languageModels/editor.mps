@@ -276,7 +276,6 @@
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
@@ -366,6 +365,9 @@
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
+      </concept>
+      <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
+        <child id="1144226360166" name="iterable" index="1DdaDG" />
       </concept>
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
@@ -11187,294 +11189,48 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3yttyAVzlWR" role="3cqZAp" />
+        <node concept="1DcWWT" id="3yttyAVzlvK" role="3cqZAp">
+          <node concept="3clFbS" id="3yttyAVzlvM" role="2LFqv$">
+            <node concept="3cpWs8" id="3yttyAVzmrP" role="3cqZAp">
+              <node concept="3cpWsn" id="3yttyAVzmrQ" role="3cpWs9">
+                <property role="TrG5h" value="node" />
+                <node concept="3uibUv" id="3yttyAVzmrR" role="1tU5fm">
+                  <ref role="3uigEE" to="rgfa:~DefaultMutableTreeNode" resolve="DefaultMutableTreeNode" />
+                </node>
+                <node concept="2ShNRf" id="3yttyAVzm$E" role="33vP2m">
+                  <node concept="1pGfFk" id="3yttyAVzm$$" role="2ShVmc">
+                    <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.&lt;init&gt;(java.lang.Object)" resolve="DefaultMutableTreeNode" />
+                    <node concept="37vLTw" id="3yttyAVzmD1" role="37wK5m">
+                      <ref role="3cqZAo" node="3yttyAVzlvN" resolve="line" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3yttyAVzmLt" role="3cqZAp">
+              <node concept="2OqwBi" id="3yttyAVzmR4" role="3clFbG">
+                <node concept="37vLTw" id="3yttyAVzmLr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3yttyAVwrmt" resolve="top" />
+                </node>
+                <node concept="liA8E" id="3yttyAVzmVx" role="2OqNvi">
+                  <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode):void" resolve="add" />
+                  <node concept="37vLTw" id="3yttyAVzn05" role="37wK5m">
+                    <ref role="3cqZAo" node="3yttyAVzmrQ" resolve="node" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="3yttyAVzlvN" role="1Duv9x">
+            <property role="TrG5h" value="line" />
+            <node concept="17QB3L" id="3yttyAVzlDS" role="1tU5fm" />
+          </node>
+          <node concept="37vLTw" id="3yttyAVzlJX" role="1DdaDG">
+            <ref role="3cqZAo" node="3yttyAVzkuG" resolve="lines" />
+          </node>
+        </node>
         <node concept="3clFbH" id="3yttyAVzday" role="3cqZAp" />
-        <node concept="3cpWs8" id="3yttyAVwpYX" role="3cqZAp">
-          <node concept="3cpWsn" id="3yttyAVwpYW" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="category" />
-            <node concept="3uibUv" id="3yttyAVwqbB" role="1tU5fm">
-              <ref role="3uigEE" to="rgfa:~DefaultMutableTreeNode" resolve="DefaultMutableTreeNode" />
-            </node>
-            <node concept="10Nm6u" id="3yttyAVwpYZ" role="33vP2m" />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="3yttyAVwpZ1" role="3cqZAp">
-          <node concept="3cpWsn" id="3yttyAVwpZ0" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="book" />
-            <node concept="3uibUv" id="3yttyAVwpZ2" role="1tU5fm">
-              <ref role="3uigEE" to="rgfa:~DefaultMutableTreeNode" resolve="DefaultMutableTreeNode" />
-            </node>
-            <node concept="10Nm6u" id="3yttyAVwpZ3" role="33vP2m" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZ4" role="3cqZAp">
-          <node concept="37vLTI" id="3yttyAVwpZ5" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwpZ6" role="37vLTJ">
-              <ref role="3cqZAo" node="3yttyAVwpYW" resolve="category" />
-            </node>
-            <node concept="2ShNRf" id="3yttyAVwql9" role="37vLTx">
-              <node concept="1pGfFk" id="3yttyAVwqla" role="2ShVmc">
-                <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.&lt;init&gt;(java.lang.Object)" resolve="DefaultMutableTreeNode" />
-                <node concept="Xl_RD" id="3yttyAVwpZ8" role="37wK5m">
-                  <property role="Xl_RC" value="Books for Java Programmers" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZ9" role="3cqZAp">
-          <node concept="2OqwBi" id="3yttyAVwqDu" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwqDt" role="2Oq$k0">
-              <ref role="3cqZAo" node="3yttyAVwrmt" resolve="top" />
-            </node>
-            <node concept="liA8E" id="3yttyAVwqDv" role="2OqNvi">
-              <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode):void" resolve="add" />
-              <node concept="37vLTw" id="3yttyAVwpZb" role="37wK5m">
-                <ref role="3cqZAo" node="3yttyAVwpYW" resolve="category" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3yttyAVwq07" role="3cqZAp">
-          <node concept="3SKdUq" id="3yttyAVwq06" role="3SKWNk">
-            <property role="3SKdUp" value="original Tutorial" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZc" role="3cqZAp">
-          <node concept="37vLTI" id="3yttyAVwpZd" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwpZe" role="37vLTJ">
-              <ref role="3cqZAo" node="3yttyAVwpZ0" resolve="book" />
-            </node>
-            <node concept="2ShNRf" id="3yttyAVwqkX" role="37vLTx">
-              <node concept="1pGfFk" id="3yttyAVwqkY" role="2ShVmc">
-                <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.&lt;init&gt;(java.lang.Object)" resolve="DefaultMutableTreeNode" />
-                <node concept="2ShNRf" id="3yttyAVwv2e" role="37wK5m">
-                  <node concept="1pGfFk" id="3yttyAVwv2f" role="2ShVmc">
-                    <ref role="37wK5l" node="3yttyAVwszr" resolve="OFXGraphVisualizer.BookInfo" />
-                    <node concept="Xl_RD" id="3yttyAVwpZh" role="37wK5m">
-                      <property role="Xl_RC" value="The Java Tutorial: A Short Course on the Basics" />
-                    </node>
-                    <node concept="Xl_RD" id="3yttyAVwpZi" role="37wK5m">
-                      <property role="Xl_RC" value="tutorial.html" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZj" role="3cqZAp">
-          <node concept="2OqwBi" id="3yttyAVwq0n" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwq0m" role="2Oq$k0">
-              <ref role="3cqZAo" node="3yttyAVwpYW" resolve="category" />
-            </node>
-            <node concept="liA8E" id="3yttyAVwq0o" role="2OqNvi">
-              <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode):void" resolve="add" />
-              <node concept="37vLTw" id="3yttyAVwpZl" role="37wK5m">
-                <ref role="3cqZAo" node="3yttyAVwpZ0" resolve="book" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3yttyAVwq09" role="3cqZAp">
-          <node concept="3SKdUq" id="3yttyAVwq08" role="3SKWNk">
-            <property role="3SKdUp" value="Tutorial Continued" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZm" role="3cqZAp">
-          <node concept="37vLTI" id="3yttyAVwpZn" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwpZo" role="37vLTJ">
-              <ref role="3cqZAo" node="3yttyAVwpZ0" resolve="book" />
-            </node>
-            <node concept="2ShNRf" id="3yttyAVwqlw" role="37vLTx">
-              <node concept="1pGfFk" id="3yttyAVwqlx" role="2ShVmc">
-                <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.&lt;init&gt;(java.lang.Object)" resolve="DefaultMutableTreeNode" />
-                <node concept="2ShNRf" id="3yttyAVwv28" role="37wK5m">
-                  <node concept="1pGfFk" id="3yttyAVwv29" role="2ShVmc">
-                    <ref role="37wK5l" node="3yttyAVwszr" resolve="OFXGraphVisualizer.BookInfo" />
-                    <node concept="Xl_RD" id="3yttyAVwpZr" role="37wK5m">
-                      <property role="Xl_RC" value="The Java Tutorial Continued: The Rest of the JDK" />
-                    </node>
-                    <node concept="Xl_RD" id="3yttyAVwpZs" role="37wK5m">
-                      <property role="Xl_RC" value="tutorialcont.html" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZt" role="3cqZAp">
-          <node concept="2OqwBi" id="3yttyAVwq0s" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwq0r" role="2Oq$k0">
-              <ref role="3cqZAo" node="3yttyAVwpYW" resolve="category" />
-            </node>
-            <node concept="liA8E" id="3yttyAVwq0t" role="2OqNvi">
-              <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode):void" resolve="add" />
-              <node concept="37vLTw" id="3yttyAVwpZv" role="37wK5m">
-                <ref role="3cqZAo" node="3yttyAVwpZ0" resolve="book" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3yttyAVwq0b" role="3cqZAp">
-          <node concept="3SKdUq" id="3yttyAVwq0a" role="3SKWNk">
-            <property role="3SKdUp" value="Swing Tutorial" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZw" role="3cqZAp">
-          <node concept="37vLTI" id="3yttyAVwpZx" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwpZy" role="37vLTJ">
-              <ref role="3cqZAo" node="3yttyAVwpZ0" resolve="book" />
-            </node>
-            <node concept="2ShNRf" id="3yttyAVwqmi" role="37vLTx">
-              <node concept="1pGfFk" id="3yttyAVwqmj" role="2ShVmc">
-                <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.&lt;init&gt;(java.lang.Object)" resolve="DefaultMutableTreeNode" />
-                <node concept="2ShNRf" id="3yttyAVwuZu" role="37wK5m">
-                  <node concept="1pGfFk" id="3yttyAVwuZv" role="2ShVmc">
-                    <ref role="37wK5l" node="3yttyAVwszr" resolve="OFXGraphVisualizer.BookInfo" />
-                    <node concept="Xl_RD" id="3yttyAVwpZ_" role="37wK5m">
-                      <property role="Xl_RC" value="The Swing Tutorial: A Guide to Constructing GUIs" />
-                    </node>
-                    <node concept="Xl_RD" id="3yttyAVwpZA" role="37wK5m">
-                      <property role="Xl_RC" value="swingtutorial.html" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZB" role="3cqZAp">
-          <node concept="2OqwBi" id="3yttyAVwq0x" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwq0w" role="2Oq$k0">
-              <ref role="3cqZAo" node="3yttyAVwpYW" resolve="category" />
-            </node>
-            <node concept="liA8E" id="3yttyAVwq0y" role="2OqNvi">
-              <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode):void" resolve="add" />
-              <node concept="37vLTw" id="3yttyAVwpZD" role="37wK5m">
-                <ref role="3cqZAo" node="3yttyAVwpZ0" resolve="book" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3yttyAVwq0d" role="3cqZAp">
-          <node concept="3SKdUq" id="3yttyAVwq0c" role="3SKWNk">
-            <property role="3SKdUp" value="...add more books for programmers..." />
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZE" role="3cqZAp">
-          <node concept="37vLTI" id="3yttyAVwpZF" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwpZG" role="37vLTJ">
-              <ref role="3cqZAo" node="3yttyAVwpYW" resolve="category" />
-            </node>
-            <node concept="2ShNRf" id="3yttyAVwql4" role="37vLTx">
-              <node concept="1pGfFk" id="3yttyAVwql5" role="2ShVmc">
-                <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.&lt;init&gt;(java.lang.Object)" resolve="DefaultMutableTreeNode" />
-                <node concept="Xl_RD" id="3yttyAVwpZI" role="37wK5m">
-                  <property role="Xl_RC" value="Books for Java Implementers" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZJ" role="3cqZAp">
-          <node concept="2OqwBi" id="3yttyAVwqGb" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwqGa" role="2Oq$k0">
-              <ref role="3cqZAo" node="3yttyAVwrmt" resolve="top" />
-            </node>
-            <node concept="liA8E" id="3yttyAVwqGc" role="2OqNvi">
-              <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode):void" resolve="add" />
-              <node concept="37vLTw" id="3yttyAVwpZL" role="37wK5m">
-                <ref role="3cqZAo" node="3yttyAVwpYW" resolve="category" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3yttyAVwq0f" role="3cqZAp">
-          <node concept="3SKdUq" id="3yttyAVwq0e" role="3SKWNk">
-            <property role="3SKdUp" value="VM" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZM" role="3cqZAp">
-          <node concept="37vLTI" id="3yttyAVwpZN" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwpZO" role="37vLTJ">
-              <ref role="3cqZAo" node="3yttyAVwpZ0" resolve="book" />
-            </node>
-            <node concept="2ShNRf" id="3yttyAVwqmb" role="37vLTx">
-              <node concept="1pGfFk" id="3yttyAVwqmc" role="2ShVmc">
-                <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.&lt;init&gt;(java.lang.Object)" resolve="DefaultMutableTreeNode" />
-                <node concept="2ShNRf" id="3yttyAVwv22" role="37wK5m">
-                  <node concept="1pGfFk" id="3yttyAVwv23" role="2ShVmc">
-                    <ref role="37wK5l" node="3yttyAVwszr" resolve="OFXGraphVisualizer.BookInfo" />
-                    <node concept="Xl_RD" id="3yttyAVwpZR" role="37wK5m">
-                      <property role="Xl_RC" value="The Java Virtual Machine Specification" />
-                    </node>
-                    <node concept="Xl_RD" id="3yttyAVwpZS" role="37wK5m">
-                      <property role="Xl_RC" value="vm.html" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZT" role="3cqZAp">
-          <node concept="2OqwBi" id="3yttyAVwq0C" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwq0B" role="2Oq$k0">
-              <ref role="3cqZAo" node="3yttyAVwpYW" resolve="category" />
-            </node>
-            <node concept="liA8E" id="3yttyAVwq0D" role="2OqNvi">
-              <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode):void" resolve="add" />
-              <node concept="37vLTw" id="3yttyAVwpZV" role="37wK5m">
-                <ref role="3cqZAo" node="3yttyAVwpZ0" resolve="book" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3yttyAVwq0h" role="3cqZAp">
-          <node concept="3SKdUq" id="3yttyAVwq0g" role="3SKWNk">
-            <property role="3SKdUp" value="Language Spec" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwpZW" role="3cqZAp">
-          <node concept="37vLTI" id="3yttyAVwpZX" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwpZY" role="37vLTJ">
-              <ref role="3cqZAo" node="3yttyAVwpZ0" resolve="book" />
-            </node>
-            <node concept="2ShNRf" id="3yttyAVwqkQ" role="37vLTx">
-              <node concept="1pGfFk" id="3yttyAVwqkR" role="2ShVmc">
-                <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.&lt;init&gt;(java.lang.Object)" resolve="DefaultMutableTreeNode" />
-                <node concept="2ShNRf" id="3yttyAVwv2k" role="37wK5m">
-                  <node concept="1pGfFk" id="3yttyAVwv2l" role="2ShVmc">
-                    <ref role="37wK5l" node="3yttyAVwszr" resolve="OFXGraphVisualizer.BookInfo" />
-                    <node concept="Xl_RD" id="3yttyAVwq01" role="37wK5m">
-                      <property role="Xl_RC" value="The Java Language Specification" />
-                    </node>
-                    <node concept="Xl_RD" id="3yttyAVwq02" role="37wK5m">
-                      <property role="Xl_RC" value="jls.html" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3yttyAVwq03" role="3cqZAp">
-          <node concept="2OqwBi" id="3yttyAVwq0H" role="3clFbG">
-            <node concept="37vLTw" id="3yttyAVwq0G" role="2Oq$k0">
-              <ref role="3cqZAo" node="3yttyAVwpYW" resolve="category" />
-            </node>
-            <node concept="liA8E" id="3yttyAVwq0I" role="2OqNvi">
-              <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode):void" resolve="add" />
-              <node concept="37vLTw" id="3yttyAVwq05" role="37wK5m">
-                <ref role="3cqZAo" node="3yttyAVwpZ0" resolve="book" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3yttyAVzeyo" role="3cqZAp" />
         <node concept="3clFbF" id="3yttyAVzf3W" role="3cqZAp">
           <node concept="37vLTw" id="3yttyAVzf3U" role="3clFbG">
             <ref role="3cqZAo" node="3yttyAVwrmt" resolve="top" />
