@@ -974,9 +974,6 @@
     <node concept="PrWs8" id="6ffh1MXE5gH" role="PzmwI">
       <ref role="PrY4T" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
     </node>
-    <node concept="PrWs8" id="67iuXo6yyvE" role="PzmwI">
-      <ref role="PrY4T" to="tpee:hiAJDhU" resolve="HasAnnotation" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6ffh1MXA9UJ">
     <property role="3GE5qa" value="OFXCore.infra" />
@@ -2889,6 +2886,12 @@
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/testsuit.png" />
     <ref role="1TJDcQ" node="6ffh1MXA9UE" resolve="Container" />
+    <node concept="1TJgyj" id="3yttyAVb68W" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="configuredComponents" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6ffh1MXA9UI" resolve="ContainerVariable" />
+    </node>
     <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />

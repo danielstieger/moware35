@@ -10740,5 +10740,60 @@
       <ref role="1YaFvo" to="un0u:371pDBOmHha" resolve="MultiString" />
     </node>
   </node>
+  <node concept="18kY7G" id="3yttyAVj0NB">
+    <property role="TrG5h" value="check_OFXTestSuit" />
+    <property role="3GE5qa" value="OFXTest" />
+    <node concept="3clFbS" id="3yttyAVj0NC" role="18ibNy">
+      <node concept="3clFbF" id="3yttyAVj0NJ" role="3cqZAp">
+        <node concept="2OqwBi" id="3yttyAVj1Zs" role="3clFbG">
+          <node concept="2OqwBi" id="3yttyAVj0QK" role="2Oq$k0">
+            <node concept="1YBJjd" id="3yttyAVj0NI" role="2Oq$k0">
+              <ref role="1YBMHb" node="3yttyAVj0NE" resolve="ofxTestSuit" />
+            </node>
+            <node concept="3Tsc0h" id="3yttyAVj0Yk" role="2OqNvi">
+              <ref role="3TtcxE" to="un0u:3yttyAVb68W" />
+            </node>
+          </node>
+          <node concept="2es0OD" id="3yttyAVj3MR" role="2OqNvi">
+            <node concept="1bVj0M" id="3yttyAVj3MT" role="23t8la">
+              <node concept="3clFbS" id="3yttyAVj3MU" role="1bW5cS">
+                <node concept="3clFbJ" id="3yttyAVj3YL" role="3cqZAp">
+                  <node concept="2OqwBi" id="3yttyAVj4Ag" role="3clFbw">
+                    <node concept="2OqwBi" id="3yttyAVj48S" role="2Oq$k0">
+                      <node concept="37vLTw" id="3yttyAVj41V" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3yttyAVj3MV" resolve="it" />
+                      </node>
+                      <node concept="3TrEf2" id="3yttyAVj4nL" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:fz3vP1I" />
+                      </node>
+                    </node>
+                    <node concept="3x8VRR" id="3yttyAVj4HD" role="2OqNvi" />
+                  </node>
+                  <node concept="3clFbS" id="3yttyAVj3YN" role="3clFbx">
+                    <node concept="2MkqsV" id="3yttyAVj4MB" role="3cqZAp">
+                      <node concept="Xl_RD" id="3yttyAVj4Og" role="2MkJ7o">
+                        <property role="Xl_RC" value="Configured components are injected, do not initialize them." />
+                      </node>
+                      <node concept="37vLTw" id="3yttyAVj5M4" role="2OEOjV">
+                        <ref role="3cqZAo" node="3yttyAVj3MV" resolve="it" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="3yttyAVj3MV" role="1bW2Oz">
+                <property role="TrG5h" value="it" />
+                <node concept="2jxLKc" id="3yttyAVj3MW" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3yttyAVj0NE" role="1YuTPh">
+      <property role="TrG5h" value="ofxTestSuit" />
+      <ref role="1YaFvo" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    </node>
+  </node>
 </model>
 

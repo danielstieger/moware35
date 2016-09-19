@@ -14927,8 +14927,8 @@
             </node>
             <node concept="2qgKlT" id="7mZ5ilqQ9mh" role="2OqNvi">
               <ref role="37wK5l" node="70qPrkCyXJL" resolve="refExists" />
-              <node concept="Xl_RD" id="7mZ5ilqQdIB" role="37wK5m">
-                <property role="Xl_RC" value=".txt" />
+              <node concept="Xl_RD" id="3yttyAVuRCT" role="37wK5m">
+                <property role="Xl_RC" value="" />
               </node>
             </node>
           </node>
@@ -14950,8 +14950,8 @@
             </node>
             <node concept="2qgKlT" id="7mZ5ilqQ8Lz" role="2OqNvi">
               <ref role="37wK5l" node="70qPrkCywS2" resolve="getRefNameInCaseOfStringLiteral" />
-              <node concept="Xl_RD" id="7mZ5ilqQdNA" role="37wK5m">
-                <property role="Xl_RC" value=".txt" />
+              <node concept="Xl_RD" id="3yttyAVuRAS" role="37wK5m">
+                <property role="Xl_RC" value="" />
               </node>
             </node>
           </node>
