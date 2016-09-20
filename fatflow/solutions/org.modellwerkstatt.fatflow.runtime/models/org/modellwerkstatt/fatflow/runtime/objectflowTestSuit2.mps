@@ -175,9 +175,6 @@
         <child id="3262649880243657037" name="sessionExpression" index="2f8TIa" />
       </concept>
       <concept id="8301412231057225617" name="org.modellwerkstatt.objectflow.structure.OFXTestStatementList" flags="ig" index="2d2NRx" />
-      <concept id="8009651625740107478" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitWriteNoCompareOption" flags="ng" index="pYo5x">
-        <reference id="8009651625740107479" name="test" index="pYo5w" />
-      </concept>
       <concept id="2423238041810352109" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDefaultDateTimeOption" flags="ng" index="xWan4">
         <property id="2423238041810352537" name="second" index="xWaIK" />
         <property id="2423238041810352536" name="minute" index="xWaIL" />
@@ -3272,60 +3269,6 @@
       <node concept="3clFbS" id="248r5L2_fy2" role="3clF47" />
     </node>
     <node concept="1DF_5m" id="5yIRyBGX856" role="3yMuLx" />
-    <node concept="pYo5x" id="5n6hJfHeERF" role="38MLOi">
-      <ref role="pYo5w" node="26QcchVSzkz" resolve="Edit Invoice and conclude with done should run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERG" role="38MLOi">
-      <ref role="pYo5w" node="26QcchVZAtK" resolve="Edit Invoice and conclude with cancel should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERH" role="38MLOi">
-      <ref role="pYo5w" node="26QcchW0msz" resolve="Edit Invoice and conclude with cancel in command init should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERI" role="38MLOi">
-      <ref role="pYo5w" node="26QcchW05yC" resolve="Edit Invoice and conclude with cancel in page init should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERJ" role="38MLOi">
-      <ref role="pYo5w" node="26QcchW05Og" resolve="Edit Invoice and conclude with cancel in page conclusion should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERK" role="38MLOi">
-      <ref role="pYo5w" node="26QcchW06fK" resolve="Edit Invoice and conclude with cancel in service should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERL" role="38MLOi">
-      <ref role="pYo5w" node="4Ta2XmW3g76" resolve="Edit Invoice and provoke exception in command init should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERM" role="38MLOi">
-      <ref role="pYo5w" node="4Ta2XmW3hEL" resolve="Edit Invoice and provoke exception in page init should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERN" role="38MLOi">
-      <ref role="pYo5w" node="4Ta2XmW3hUv" resolve="Edit Invoice and provoke exception in page conclusion should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERO" role="38MLOi">
-      <ref role="pYo5w" node="4Ta2XmW3iCX" resolve="Edit Invoice and provoke exception in service should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERP" role="38MLOi">
-      <ref role="pYo5w" node="4Ta2XmW3jEg" resolve="Edit Invoice and provoke exception in FINAL_OK should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERQ" role="38MLOi">
-      <ref role="pYo5w" node="4Ta2XmW3l57" resolve="Edit Invoice and provoke exception in FINAL_CANCEL should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERR" role="38MLOi">
-      <ref role="pYo5w" node="4Ta2XmWuYIY" resolve="Edit Invoice and call error statement should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERS" role="38MLOi">
-      <ref role="pYo5w" node="7pudXbEHA07" resolve="Edit Invoice with GE and check total sum of all positions." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERT" role="38MLOi">
-      <ref role="pYo5w" node="MdwaqkFb9j" resolve="Edit Invoice with GE (no page) and check total sum of all positions." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERU" role="38MLOi">
-      <ref role="pYo5w" node="6Hh99C_ny8L" resolve="Edit Invoice and provoke a cancel of graph edit - revert entity." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERV" role="38MLOi">
-      <ref role="pYo5w" node="248r5L2_bTb" resolve="Edit Invoice and provoke an exception in graph edit - revert entity." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeERW" role="38MLOi">
-      <ref role="pYo5w" node="248r5L2_fxl" resolve="Edit Invoice and provoke an error in graph edit - revert entity." />
-    </node>
   </node>
   <node concept="2CG7Z0" id="5MCXLSo4_z9">
     <property role="TrG5h" value="MPreisOFXTests" />
@@ -7338,60 +7281,6 @@
     </node>
     <node concept="1DF_5m" id="6_VKg6llMD1" role="3yMuLx" />
     <node concept="1DF_5m" id="7pudXbEUtFc" role="3yMuLx" />
-    <node concept="pYo5x" id="5n6hJfHeFAM" role="38MLOi">
-      <ref role="pYo5w" node="7pudXbEM149" resolve="Page Statement should move Wizzard forward and result in OK Conclusion." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAN" role="38MLOi">
-      <ref role="pYo5w" node="7pudXbEO$QQ" resolve="Page Statement should move Wizzard forward and result in OK Conclusion. (c2, c2)" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAO" role="38MLOi">
-      <ref role="pYo5w" node="7pudXbEUtHn" resolve="Cancel Graph Edit in command init should result in no problems" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAP" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6liqRq" resolve="Cancel Graph Edit in page init should result in no problems" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAQ" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6lirGa" resolve="Cancel Graph Edit in page conclusion should result in no problems" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAR" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6lldSh" resolve="Cancel in Service should result in no problems" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAS" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6liKNY" resolve="Done in Page1 should leave Wizzard in final ok." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAT" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6liPf9" resolve="Exception in command init should lead to final ex exclusively." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAU" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6ljzuv" resolve="Exception in page init should lead to final ex exclusively." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAV" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6lj$Ac" resolve="Exception in page conclusion should lead to final ex exclusively." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAW" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6ljAe5" resolve="Exception in final cancel should lead to final ex exclusively." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAX" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6ljZs4" resolve="Exception in final ok should lead to final ex exclusively." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAY" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6lliPF" resolve="Exception in service should lead to final ex exclusively" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFAZ" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6lvcWd" resolve="Flag in Command Init will shutdown graph owner and wizzard." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFB0" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6lvsRy" resolve="Flag in Page Init will shutdown graph owner and wizzard." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFB1" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6lvurV" resolve="Flag in Page Conclusion will shutdown graph owner and wizzard." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFB2" role="38MLOi">
-      <ref role="pYo5w" node="6_VKg6lvvR8" resolve="Flag in Service will shutdown graph owner and wizzard." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFB3" role="38MLOi">
-      <ref role="pYo5w" node="4Ta2XmWuZbR" resolve="Error in Service will shutdown graph owner and wizzard." />
-    </node>
   </node>
   <node concept="2WPaUQ" id="5zF9hZsDuXt">
     <property role="TrG5h" value="Test Service" />
@@ -7810,21 +7699,6 @@
     </node>
     <node concept="1DZZI9" id="6Irl3jv9mOl" role="38MLOi">
       <ref role="1DZZIc" to="goi:2i3o0hdVwMp" resolve="Creators" />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFOl" role="38MLOi">
-      <ref role="pYo5w" node="5zF9hZsDv9m" resolve="MultiString - Print BigDecimal." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFOm" role="38MLOi">
-      <ref role="pYo5w" node="6Irl3jv7iez" resolve="MultiString - Print LocalDate and DateTime." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFOn" role="38MLOi">
-      <ref role="pYo5w" node="6Irl3jv7igu" resolve="MultiString - Print LocalDate and LocalDate." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFOo" role="38MLOi">
-      <ref role="pYo5w" node="6Irl3jv9mPZ" resolve="MultiString - Used in OFXTestSuit itself." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeFOp" role="38MLOi">
-      <ref role="pYo5w" node="6Irl3jv9mJq" resolve="MultiString - Used in Command to edit a text." />
     </node>
   </node>
 </model>

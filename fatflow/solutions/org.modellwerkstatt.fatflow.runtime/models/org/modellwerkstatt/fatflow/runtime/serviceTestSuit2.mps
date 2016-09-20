@@ -128,9 +128,6 @@
         <child id="3262649880243657037" name="sessionExpression" index="2f8TIa" />
       </concept>
       <concept id="8301412231057225617" name="org.modellwerkstatt.objectflow.structure.OFXTestStatementList" flags="ig" index="2d2NRx" />
-      <concept id="8009651625740107478" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitWriteNoCompareOption" flags="ng" index="pYo5x">
-        <reference id="8009651625740107479" name="test" index="pYo5w" />
-      </concept>
       <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
         <child id="478945708906902061" name="elements" index="2CGBMS" />
@@ -572,18 +569,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeGdE" role="38MLOi">
-      <ref role="pYo5w" node="7$uuZ_GXgrV" resolve="Can we login a user with password." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeGdF" role="38MLOi">
-      <ref role="pYo5w" node="7$uuZ_GYDIr" resolve="Can not login with a wrong user." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeGdG" role="38MLOi">
-      <ref role="pYo5w" node="7$uuZ_GYDWY" resolve="Can not login with a wrong password." />
-    </node>
-    <node concept="pYo5x" id="5n6hJfHeGdH" role="38MLOi">
-      <ref role="pYo5w" node="7$uuZ_GYEd7" resolve="Can retrieve groups of user." />
     </node>
   </node>
   <node concept="2CG7Z0" id="5MCXLSo4_z9">

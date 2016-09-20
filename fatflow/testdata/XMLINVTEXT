@@ -9,30 +9,30 @@ text  <ID>0</ID>
 <NAMELEN2  nameLen2 = "10.00">10.00</NAMELEN2>
 <TEXT>Invoice</TEXT>
 <NAME>conversion</NAME>
-<LOCALDATE  localDate = "1980-01-27">Sun 27.01.1980</LOCALDATE>
-<DATETIME  dateTime = "1980-01-27T04:30:00">Sun 27.01.1980</DATETIME>
+<LOCALDATE  localDate = "1980-01-27">So 27.01.1980</LOCALDATE>
+<DATETIME  dateTime = "1980-01-27T04:30:00">So 27.01.1980</DATETIME>
 <HEADSTATE>S1</HEADSTATE>
 <POSITIONSSET>
 <POSITIONS num="0">
    <ID>0</ID>
    <POSAVALUE  posAvalue = "0.0">0.0</POSAVALUE>
    <POSTEXT>conversion_0</POSTEXT>
-   <DATE  date = "1980-01-27">Sun 27.01.1980</DATE>
+   <DATE  date = "1980-01-27">So 27.01.1980</DATE>
 </POSITIONS><POSITIONS num="1">
    <ID>0</ID>
    <POSAVALUE  posAvalue = "10.0">10.0</POSAVALUE>
    <POSTEXT>conversion_1</POSTEXT>
-   <DATE  date = "1980-01-27">Sun 27.01.1980</DATE>
+   <DATE  date = "1980-01-27">So 27.01.1980</DATE>
 </POSITIONS><POSITIONS num="2">
    <ID>0</ID>
    <POSAVALUE  posAvalue = "20.0">20.0</POSAVALUE>
    <POSTEXT>conversion_2</POSTEXT>
-   <DATE  date = "1980-01-27">Sun 27.01.1980</DATE>
+   <DATE  date = "1980-01-27">So 27.01.1980</DATE>
 </POSITIONS><POSITIONS num="3">
    <ID>0</ID>
    <POSAVALUE  posAvalue = "30.0">30.0</POSAVALUE>
    <POSTEXT>conversion_3</POSTEXT>
-   <DATE  date = "1980-01-27">Sun 27.01.1980</DATE>
+   <DATE  date = "1980-01-27">So 27.01.1980</DATE>
 </POSITIONS></POSITIONSSET>
 <MONEYAMOUNT>
    <VAL>100</VAL>

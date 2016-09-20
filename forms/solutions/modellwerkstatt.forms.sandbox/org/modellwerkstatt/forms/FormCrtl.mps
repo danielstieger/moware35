@@ -14349,12 +14349,17 @@
       <property role="TrG5h" value="MOWARE_PLUGIN_VERSION" />
       <node concept="3Tm1VV" id="79n7_omqfJV" role="1B3o_S" />
       <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
-      <node concept="3cpWs3" id="2$gclwwfVsB" role="33vP2m">
-        <node concept="37vLTw" id="2$gclwwfVu1" role="3uHU7w">
-          <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+      <node concept="3cpWs3" id="3Ig$6jfKDGH" role="33vP2m">
+        <node concept="Xl_RD" id="3Ig$6jfKDIf" role="3uHU7w">
+          <property role="Xl_RC" value=")" />
         </node>
-        <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-          <property role="Xl_RC" value="moware60 RC6E (uriLabel testsuit), dev: " />
+        <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
+          <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
+            <property role="Xl_RC" value="moware60 RC6F (testsuit 1.0, dev " />
+          </node>
+          <node concept="37vLTw" id="2$gclwwfVu1" role="3uHU7w">
+            <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+          </node>
         </node>
       </node>
     </node>
