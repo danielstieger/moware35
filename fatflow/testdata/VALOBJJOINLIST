@@ -2,7 +2,7 @@ Referer  (_readOnly: false  _TCN: 0  _enabled: true)
 key  valobj-joinlist
 totalValue  0
 name  valobj-joinlist
-parent (Reference) Key  (null-key)
+parent (Reference) Key  (null-key) (OPP)
 childs (List)
 account (Reference) Key  (null-key)
 accountList (List)
@@ -15,7 +15,7 @@ accountList (List)
    totalValue  0
    relatedAccountAudit (Reference) Key  (null-key)
    aDateDirtyIrrelevant  null
-   parent (Reference) Key  valobj-joinlist
+   parent (Reference) Key  valobj-joinlist (OPP)
 
    Account  (_readOnly: false  _TCN: 0  _enabled: true)
    key (ValueObject)
@@ -26,7 +26,7 @@ accountList (List)
    totalValue  0
    relatedAccountAudit (Reference) Key  (null-key)
    aDateDirtyIrrelevant  null
-   parent (Reference) Key  valobj-joinlist
+   parent (Reference) Key  valobj-joinlist (OPP)
 
    Account  (_readOnly: false  _TCN: 0  _enabled: true)
    key (ValueObject)
@@ -37,7 +37,7 @@ accountList (List)
    totalValue  0
    relatedAccountAudit (Reference) Key  (null-key)
    aDateDirtyIrrelevant  null
-   parent (Reference) Key  valobj-joinlist
+   parent (Reference) Key  valobj-joinlist (OPP)
 
 accountKey (ValueObject)
    AccountKey  (_enabled: true  )

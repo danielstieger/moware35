@@ -252,6 +252,9 @@
         <child id="8484523473171385444" name="pathRef" index="JpL_1" />
         <child id="8078003855695227917" name="options" index="1oUvAS" />
       </concept>
+      <concept id="8009651625740107478" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitWriteNoCompareOption" flags="ng" index="pYo5x">
+        <reference id="8009651625740107479" name="test" index="pYo5w" />
+      </concept>
       <concept id="8009046666043401703" name="org.modellwerkstatt.objectflow.structure.ModelRepository" flags="ig" index="wbJL_">
         <child id="2153030403788862895" name="repoFields" index="2_$AKh" />
       </concept>
@@ -3901,6 +3904,81 @@
     </node>
     <node concept="1DZZI9" id="2i3o0hdVzfT" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="Creators" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZp" role="38MLOi">
+      <ref role="pYo5w" node="70qPrkCyg_r" resolve="Store and Load Invoices by Graph get/where" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZq" role="38MLOi">
+      <ref role="pYo5w" node="2i3o0he1AQi" resolve="Update an Invoice and reload it again." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZr" role="38MLOi">
+      <ref role="pYo5w" node="4ksEJbWj6Vb" resolve="Use join to load two different invoice graphs" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZs" role="38MLOi">
+      <ref role="pYo5w" node="4ksEJbWjV3t" resolve="Use join to load two different invoice graphs, REVERSE" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZt" role="38MLOi">
+      <ref role="pYo5w" node="4ksEJbWkPk2" resolve="Dirty flag should not be set when loading a graph" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZu" role="38MLOi">
+      <ref role="pYo5w" node="4ksEJbWlDwB" resolve="Dirty flag should not be set when loading a graph, REVERSE" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZv" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJeNKKb" resolve="Multiple saves should be easily possible (legacy?)" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZw" role="38MLOi">
+      <ref role="pYo5w" node="2i3o0hedaHD" resolve="Delete and Insert changes object count by one." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZx" role="38MLOi">
+      <ref role="pYo5w" node="4ksEJbWs3Wd" resolve="Store and Load Extended Invoices by Graph get/where" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZy" role="38MLOi">
+      <ref role="pYo5w" node="2i3o0hdZJez" resolve="Use Extended Invoice to load from Invoice table" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZz" role="38MLOi">
+      <ref role="pYo5w" node="RffU3ztq7U" resolve="Reload Invoice again changes object." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZ$" role="38MLOi">
+      <ref role="pYo5w" node="221r9bOXWIe" resolve="Deleting a readonly object results in an exception" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZ_" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zrz6V" resolve="Changing a readonly object results in an exception" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZA" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zv8kn" resolve="Reloading an Invoice read only object results in an exception" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZB" role="38MLOi">
+      <ref role="pYo5w" node="221r9bOZPAq" resolve="Deleting an non existing object should result in an exception" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZC" role="38MLOi">
+      <ref role="pYo5w" node="221r9bP1uw9" resolve="Get() an object with unknown id should result in an exception" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZD" role="38MLOi">
+      <ref role="pYo5w" node="221r9bP2aYa" resolve="Double write with optimistic locking should result in an exception" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZE" role="38MLOi">
+      <ref role="pYo5w" node="RffU3z7Ydn" resolve="Store and reload a string key object." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZF" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zdIdp" resolve="Create, load save an entity with ValueObject Key." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZG" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zfP_D" resolve="Delete an entity with ValueObject Key." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZH" role="38MLOi">
+      <ref role="pYo5w" node="RffU3ziqj9" resolve="Create multiple account objects with same key and checkaut as list." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZI" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJeR3Kk" resolve="Setting a BigDecimal Number to null should not lead to an exception." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZJ" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJeTegH" resolve="Setting a string to null should not lead to an exception." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZK" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJeWwZ4" resolve="Saving an entity refering to unseaved entity leads to an exception" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeyZL" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJeZEk$" resolve="Dirty on Reference if object not saved." />
     </node>
   </node>
   <node concept="2CG7Z0" id="7shQO0QvvlW">
@@ -8719,6 +8797,51 @@
         </node>
       </node>
     </node>
+    <node concept="pYo5x" id="5n6hJfHeASz" role="38MLOi">
+      <ref role="pYo5w" node="70qPrkDhV2Z" resolve="Datetime to Date conversion in db query." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeAS$" role="38MLOi">
+      <ref role="pYo5w" node="4ksEJbWrSz6" resolve="Use &lt;in&gt; operator in query." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeAS_" role="38MLOi">
+      <ref role="pYo5w" node="2i3o0hdWa_j" resolve="Use the optional operator in query." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASA" role="38MLOi">
+      <ref role="pYo5w" node="2i3o0hdZ3o_" resolve="Load with sortBy in query (sortby id reverse)" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASB" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zcMZJ" resolve="Query on simple string key." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASC" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zcPF4" resolve="Query on simple string name to upercase." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASD" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zcPNj" resolve="Query on simple string name to lowercase." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASE" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zxMYk" resolve="Use Parenthesis and not operation." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASF" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zyKe$" resolve="Query invoices by status." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASG" role="38MLOi">
+      <ref role="pYo5w" node="7$7FdxQMgJY" resolve="Query invoices by status with &lt;in&gt; operator." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASH" role="38MLOi">
+      <ref role="pYo5w" node="RffU3z$Zh3" resolve="Query invoices by string with &lt;in&gt; operator." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASI" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zAtoo" resolve="Query invoices by string with like operator." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASJ" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJeOZ5S" resolve="Query and use sortBy() without any restriction." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASK" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJeUk4H" resolve="Check loding with get(0) does not lead to exception but returns null" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeASL" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJeVnQD" resolve="Use BigDecimal constant in query." />
+    </node>
   </node>
   <node concept="2WPaUQ" id="2i3o0hdSzFX">
     <property role="TrG5h" value="References (no session)" />
@@ -11302,6 +11425,45 @@
     </node>
     <node concept="1DF_5m" id="RffU3zCJYs" role="3yMuLx" />
     <node concept="1DF_5m" id="2i3o0hdSzFY" role="3yMuLx" />
+    <node concept="pYo5x" id="5n6hJfHeBXM" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zlI6g" resolve="Save and load an integer-key reference." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXN" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zpIxX" resolve="Save and load an integer-key reference (set 0)" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXO" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zV_Ij" resolve="Save and load an integer-key reference via join" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXP" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zCK1o" resolve="Save and load an string-key reference." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXQ" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zDIa$" resolve="Save and load an string-key reference. (set null)" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXR" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zIGLQ" resolve="Save and load a list of string-key references with join." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXS" role="38MLOi">
+      <ref role="pYo5w" node="RffU3$03uw" resolve="Save and load a string-key references with join." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXT" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zMFoX" resolve="Save and load an ValueObject-key reference." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXU" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zOEd2" resolve="Save and load an ValueObject-key reference. (set null)" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXV" role="38MLOi">
+      <ref role="pYo5w" node="RffU3zSBx2" resolve="Save and load an ValueObject-key reference with join." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXW" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJeHQk4" resolve="Save and load an ValueObject-key references with join." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXX" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJf20h$" resolve="Load entity with ValueObject-key reference and key directly embedded in entity." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeBXY" role="38MLOi">
+      <ref role="pYo5w" node="1oH_MJf4wNF" resolve="Assigne ValueObj-Key, reload and assign different one." />
+    </node>
   </node>
   <node concept="2WPaUQ" id="2i3o0hdVwMp">
     <property role="3GE5qa" value="tests" />
@@ -20109,6 +20271,93 @@
     <node concept="1DZZI9" id="6pbeIz$kGLA" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="Creators" />
     </node>
+    <node concept="pYo5x" id="5n6hJfHe_r1" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$kF6R" resolve="Setting defafults should not lead to a Dirty entity." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_r2" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$kF$J" resolve="Setting values and setting them again should not lead to a dirty entity. " />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_r3" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$kGm3" resolve="Setting ValueObject/Datetime/Bigdecimal and setting again should not mark dirty." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_r4" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$kKo4" resolve="Setting int - dirty." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_r5" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$kL5m" resolve="Setting string - dirty." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_r6" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$kLQL" resolve="Setting DateTime - dirty." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_r7" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$kN_U" resolve="Setting status - dirty." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_r8" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$kOYL" resolve="Setting BigDecimal - dirty." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_r9" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$kRjy" resolve="Setting ValueObject - dirty." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_ra" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$lXQS" resolve="Setting LocalDate - dirty." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rb" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$m0Gg" resolve="Setting Localdate (dirty irrelevant) - not dirty." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rc" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$m1TR" resolve="Setting reference leads to dirty." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rd" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$ojgg" resolve="Reverting - Get a copy of an object and check." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_re" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$on3$" resolve="Reverting - Get a copy of an object, revert and check." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rf" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$oswJ" resolve="Reverting - no reference copy on readonly." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rg" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$oxrO" resolve="Reverting - no reference copy on opposite" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rh" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$oCxH" resolve="Reverting - list copy leads to new objects." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_ri" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$oIKX" resolve="Reverting - change list and revert." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rj" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$tx4F" resolve="Reverting - do not deepcopy when we are working on readonly entities." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rk" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$tJyR" resolve="Reverting - restore correctly, even in presence of readonly list." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rl" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$tXEy" resolve="XML conversion - full check." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rm" role="38MLOi">
+      <ref role="pYo5w" node="6pbeIz$verI" resolve="STRING conversion - full check." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rn" role="38MLOi">
+      <ref role="pYo5w" node="1DAwFrisknc" resolve="Retrieve Status Meta Information and change it." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_ro" role="38MLOi">
+      <ref role="pYo5w" node="1DAwFrisu1h" resolve="Retrieve Reference Meta Information and change it." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rp" role="38MLOi">
+      <ref role="pYo5w" node="1DAwFrisDYU" resolve="Retrieve String Meta Information and change it." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rq" role="38MLOi">
+      <ref role="pYo5w" node="1DAwFrisKjg" resolve="Retrieve BigDecimal Meta Information and change it." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rr" role="38MLOi">
+      <ref role="pYo5w" node="1DAwFrisNm3" resolve="Retrieve DateTime Meta Information and change it." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rs" role="38MLOi">
+      <ref role="pYo5w" node="1DAwFrisOLl" resolve="Retrieve LocalDate Meta Information and change it." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHe_rt" role="38MLOi">
+      <ref role="pYo5w" node="1DAwFrisQg8" resolve="Default Value of Status" />
+    </node>
   </node>
   <node concept="34Athd" id="66mO_QBe4P4">
     <property role="TrG5h" value="AuditEntity" />
@@ -24532,6 +24781,87 @@
     <node concept="1DF_5m" id="4eJAcMlJXhh" role="3yMuLx" />
     <node concept="1DF_5m" id="4eJAcMlj9hy" role="3yMuLx" />
     <node concept="1DF_5m" id="4eJAcMlh$$r" role="3yMuLx" />
+    <node concept="pYo5x" id="5n6hJfHeDR4" role="38MLOi">
+      <ref role="pYo5w" node="4pH_TM_J4sF" resolve="Load same object read-only twice (with get)." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDR5" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlkGaD" resolve="Load same object read-only twice (with where)." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDR6" role="38MLOi">
+      <ref role="pYo5w" node="4pH_TM_Jn$t" resolve="Queue an checkin operation and commit" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDR7" role="38MLOi">
+      <ref role="pYo5w" node="4pH_TMA1K_g" resolve="Queue a checkin operation and rollback." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDR8" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlkvHZ" resolve="Checkin and delete in same transaction." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDR9" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlkAw8" resolve="Session marked dirty when changing checked out entity." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRa" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlkOpX" resolve="Checkout of entity already checked out leads to exception (with get)." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRb" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlmbJN" resolve="Checkout of entity already checked out leads to exception (with where)." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRc" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlmeOP" resolve="Checkout of entity already loaded in ReadOnly leads to an exception (with get)." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRd" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlnIR8" resolve="Checkout of entity already loaded in ReadOnly leads to an exception (with where)." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRe" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMln__j" resolve="Query entity ready only when already checked out leads to an exception (wtih get)." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRf" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlnLEX" resolve="Query entity ready only when already checked out leads to an exception (with where)." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRg" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlnRDY" resolve="Deleting a readonly entity leads to an exception." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRh" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlwa3p" resolve="Saving a new entity adds entity to session, checkout leads to error." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRi" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMl$KQH" resolve="Saving a new entity adds entity to session, radonly find leads to error." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRj" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlwhET" resolve="Deleting an entity removes entity from session." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRk" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlBqNr" resolve="Using setTransactionExceptionException() with savepoint." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRl" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlBGBt" resolve="Using Session multiple times to store an entity." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRm" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlC7KM" resolve="Check for table variant logic. " />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRn" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlC2b_" resolve="Load same list twice (readonly where)" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRo" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlJXPO" resolve="Load two graphs in session with join on childs" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRp" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlK8Rh" resolve="Load two graphs in session with join on childs reverse" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRq" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlQoDW" resolve="One query - Load two graphs in session with join on childs" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRr" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlQoE_" resolve="One query - Load two graphs in session with join on childs reverse" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRs" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlSm_0" resolve="One query - Load two graphs in session with join on childs, pos readonly" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRt" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlSm_I" resolve="One query - Load two graphs in session with join on childs, pos readonly reverse" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeDRu" role="38MLOi">
+      <ref role="pYo5w" node="4eJAcMlZRDc" resolve="One query - load 2 invoices, joins pos and join reference" />
+    </node>
   </node>
   <node concept="wbJL_" id="1lpzdTlNdbG">
     <property role="TrG5h" value="RepoCustomSql" />
@@ -27766,6 +28096,21 @@
         </node>
       </node>
     </node>
+    <node concept="pYo5x" id="5n6hJfHewPx" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6x8gv" resolve="Insert an AuditEntity with complete auditing (created / modified) - LocalDate and DateTime." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHewPy" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6$Rar" resolve="Update the AuditEntity should change modified Stamps. - LocalDate and DateTime." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHewPz" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6_qtY" resolve="Update the AuditEntity should NOT change modified Stamps when not dirty. - LocalDate and DateTime." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHewP$" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6SRvi" resolve="Update the AuditEntity should change modified Stamps when not dirty (forced) - LocalDate and DateTime." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHewP_" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6T2yG" resolve="Update the AuditEntity should NOT change modified Stamps (skiped) - LocalDate and DateTime." />
+    </node>
   </node>
   <node concept="2WPaUQ" id="67iuXo6Bp7A">
     <property role="3GE5qa" value="tests" />
@@ -28314,6 +28659,27 @@
       </node>
     </node>
     <node concept="1DF_5m" id="67iuXo6BpgS" role="3yMuLx" />
+    <node concept="pYo5x" id="5n6hJfHexTA" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6Bpdy" resolve="Simply query for int with plain sql." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHexTB" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6BpdO" resolve="Using Custom SQL to load an AuditEntity." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHexTC" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6Bpe8" resolve="Use new mapper interface to load entity." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHexTD" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6Bpeu" resolve="Use new mapper interface to load entity - combined sql." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHexTE" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6BpeO" resolve="Use numeric interface to load a list of AuditEntities" />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHexTF" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6BpfB" resolve="Issue an update call in plain sql." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHexTG" role="38MLOi">
+      <ref role="pYo5w" node="67iuXo6Bpgk" resolve="Find AuditEntity plain sql with some params." />
+    </node>
   </node>
 </model>
 

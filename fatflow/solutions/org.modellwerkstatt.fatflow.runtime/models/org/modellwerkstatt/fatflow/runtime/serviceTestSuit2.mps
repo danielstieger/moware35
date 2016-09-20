@@ -128,6 +128,9 @@
         <child id="3262649880243657037" name="sessionExpression" index="2f8TIa" />
       </concept>
       <concept id="8301412231057225617" name="org.modellwerkstatt.objectflow.structure.OFXTestStatementList" flags="ig" index="2d2NRx" />
+      <concept id="8009651625740107478" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitWriteNoCompareOption" flags="ng" index="pYo5x">
+        <reference id="8009651625740107479" name="test" index="pYo5w" />
+      </concept>
       <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
         <child id="478945708906902061" name="elements" index="2CGBMS" />
@@ -570,10 +573,22 @@
         </node>
       </node>
     </node>
+    <node concept="pYo5x" id="5n6hJfHeGdE" role="38MLOi">
+      <ref role="pYo5w" node="7$uuZ_GXgrV" resolve="Can we login a user with password." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeGdF" role="38MLOi">
+      <ref role="pYo5w" node="7$uuZ_GYDIr" resolve="Can not login with a wrong user." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeGdG" role="38MLOi">
+      <ref role="pYo5w" node="7$uuZ_GYDWY" resolve="Can not login with a wrong password." />
+    </node>
+    <node concept="pYo5x" id="5n6hJfHeGdH" role="38MLOi">
+      <ref role="pYo5w" node="7$uuZ_GYEd7" resolve="Can retrieve groups of user." />
+    </node>
   </node>
   <node concept="2CG7Z0" id="5MCXLSo4_z9">
     <property role="TrG5h" value="MPreisOFXLdapConfig" />
-    <property role="2320hu" value="2016-09-19T11:51:52.718+02:00" />
+    <property role="2320hu" value="2016-09-20T12:39:21.653+02:00" />
     <node concept="2CJf3v" id="7$uuZ_GYI$i" role="2CGBMS">
       <property role="TrG5h" value="ldapService" />
       <node concept="Xl_RD" id="7$uuZ_GYI$k" role="2CJf0U">
@@ -626,88 +641,100 @@
     </node>
     <node concept="2CJoq6" id="5MCXLSo6ndT" role="2CGBMS">
       <property role="TrG5h" value="AUTO_CALC" />
-      <node concept="2CJf3v" id="7$uuZ_GYPsW" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwTO" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoice" />
-        <node concept="Xl_RD" id="7$uuZ_GYPsX" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwTP" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPsY" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwTQ" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoice" />
-        <node concept="Xl_RD" id="7$uuZ_GYPsZ" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwTR" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPt0" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwTS" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoiceTblInvoice" />
-        <node concept="Xl_RD" id="7$uuZ_GYPt1" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwTT" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoiceTblInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPt2" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwTU" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoicePosition" />
-        <node concept="Xl_RD" id="7$uuZ_GYPt3" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwTV" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoicePosition" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPt4" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwTW" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAccountAudit" />
-        <node concept="Xl_RD" id="7$uuZ_GYPt5" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwTX" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAccountAudit" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPt6" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwTY" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapReferer" />
-        <node concept="Xl_RD" id="7$uuZ_GYPt7" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwTZ" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapReferer" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPt8" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwU0" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity" />
-        <node concept="Xl_RD" id="7$uuZ_GYPt9" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwU1" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPta" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwU2" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity_VARIANTS" />
-        <node concept="Xl_RD" id="7$uuZ_GYPtb" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwU3" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity_VARIANTS" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPtc" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwU4" role="2CJdiS">
         <property role="TrG5h" value="__ldapService" />
-        <node concept="Xl_RD" id="7$uuZ_GYPtd" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwU5" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.serviceTestSuit2.LdapService" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPte" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwU6" role="2CJdiS">
         <property role="TrG5h" value="__repoInvoice" />
-        <node concept="Xl_RD" id="7$uuZ_GYPtf" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwU7" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPtg" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwU8" role="2CJdiS">
         <property role="TrG5h" value="__repoAccountAudit" />
-        <node concept="Xl_RD" id="7$uuZ_GYPth" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwU9" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoAccountAudit" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPti" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwUa" role="2CJdiS">
         <property role="TrG5h" value="__repoReferer" />
-        <node concept="Xl_RD" id="7$uuZ_GYPtj" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwUb" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoReferer" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPtk" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwUc" role="2CJdiS">
         <property role="TrG5h" value="__repoCustomSql" />
-        <node concept="Xl_RD" id="7$uuZ_GYPtl" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwUd" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoCustomSql" />
         </node>
       </node>
-      <node concept="2CJf3v" id="7$uuZ_GYPtm" role="2CJdiS">
+      <node concept="2CJf3v" id="5n6hJfHkwUe" role="2CJdiS">
         <property role="TrG5h" value="__repoAuditEntity" />
-        <node concept="Xl_RD" id="7$uuZ_GYPtn" role="2CJf0U">
+        <node concept="Xl_RD" id="5n6hJfHkwUf" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoAuditEntity" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5n6hJfHkwUg" role="2CJdiS">
+        <property role="TrG5h" value="__invoice_Process" />
+        <node concept="Xl_RD" id="5n6hJfHkwUh" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.Invoice_Process" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="5n6hJfHkwUi" role="2CJdiS">
+        <property role="TrG5h" value="__simpleService" />
+        <node concept="Xl_RD" id="5n6hJfHkwUj" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.SimpleService" />
         </node>
       </node>
     </node>

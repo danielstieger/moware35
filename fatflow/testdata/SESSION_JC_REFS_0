@@ -14,28 +14,28 @@ positions (List)
    posAvalue  0
    posText  g1-ref_0
    date  27.01.1980
-   invoice (Reference) Key  #*#*
+   invoice (Reference) Key  #*#* (OPP)
 
    InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  10
    posText  g1-ref_1
    date  27.01.1980
-   invoice (Reference) Key  #*#*
+   invoice (Reference) Key  #*#* (OPP)
 
    InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  20
    posText  g1-ref_2
    date  27.01.1980
-   invoice (Reference) Key  #*#*
+   invoice (Reference) Key  #*#* (OPP)
 
    InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  30
    posText  g1-ref_3
    date  27.01.1980
-   invoice (Reference) Key  #*#*
+   invoice (Reference) Key  #*#* (OPP)
 
 mainPosRef (Reference) Key  #*#*
    InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true)
@@ -43,7 +43,7 @@ mainPosRef (Reference) Key  #*#*
    posAvalue  0
    posText  ref1
    date  null
-   invoice (Reference) Key  (null-key)
+   invoice (Reference) Key  (null-key) (OPP)
 moneyAmount (ValueObject)
    MoneyAmount  (_enabled: true  )
    val  100

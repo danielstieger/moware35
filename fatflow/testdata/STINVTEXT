@@ -25,28 +25,28 @@ positions (List)
    posAvalue  0
    posText  conversion_0
    date  27.01.1980
-   invoice (Reference) Key  (null-key)
+   invoice (Reference) Key  (null-key) (OPP)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  10
    posText  conversion_1
    date  27.01.1980
-   invoice (Reference) Key  (null-key)
+   invoice (Reference) Key  (null-key) (OPP)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  20
    posText  conversion_2
    date  27.01.1980
-   invoice (Reference) Key  (null-key)
+   invoice (Reference) Key  (null-key) (OPP)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
    posAvalue  30
    posText  conversion_3
    date  27.01.1980
-   invoice (Reference) Key  (null-key)
+   invoice (Reference) Key  (null-key) (OPP)
 
 mainPosRef (Reference) Key  (null-key)
 moneyAmount (ValueObject)
