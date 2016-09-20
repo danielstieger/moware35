@@ -35,6 +35,7 @@
     <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="rgfa" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.tree(JDK/)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
+    <import index="zf81" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net(JDK/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" implicit="true" />
@@ -11026,8 +11027,25 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3yttyAVwrfR" role="3cqZAp" />
-        <node concept="3clFbH" id="5n6hJfGT_qG" role="3cqZAp" />
+        <node concept="3clFbH" id="1PiyY_FMpds" role="3cqZAp" />
+        <node concept="3clFbH" id="1PiyY_FMppa" role="3cqZAp" />
+        <node concept="3clFbF" id="1PiyY_FM78h" role="3cqZAp">
+          <node concept="2YIFZM" id="1PiyY_FM7s0" role="3clFbG">
+            <ref role="37wK5l" to="dxuu:~UIManager.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+            <ref role="1Pybhc" to="dxuu:~UIManager" resolve="UIManager" />
+            <node concept="Xl_RD" id="1PiyY_FM7AU" role="37wK5m">
+              <property role="Xl_RC" value="Tree.leafIcon" />
+            </node>
+            <node concept="2YIFZM" id="1PiyY_FMqef" role="37wK5m">
+              <ref role="37wK5l" to="dxuu:~UIManager.get(java.lang.Object):java.lang.Object" resolve="get" />
+              <ref role="1Pybhc" to="dxuu:~UIManager" resolve="UIManager" />
+              <node concept="Xl_RD" id="1PiyY_FMqiU" role="37wK5m">
+                <property role="Xl_RC" value="CheckBoxMenuItem.arrowIcon" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1PiyY_FMlja" role="3cqZAp" />
         <node concept="3cpWs8" id="3yttyAVwrmu" role="3cqZAp">
           <node concept="3cpWsn" id="3yttyAVwrmt" role="3cpWs9">
             <property role="3TUv4t" value="false" />
@@ -11081,11 +11099,11 @@
               <node concept="3cpWsn" id="5n6hJfGTCzD" role="3cpWs9">
                 <property role="TrG5h" value="parser" />
                 <node concept="3uibUv" id="5n6hJfGTCzE" role="1tU5fm">
-                  <ref role="3uigEE" to="3ojc:5n6hJfGTwSr" resolve="SimpleCompareableGraphParser" />
+                  <ref role="3uigEE" to="3ojc:5n6hJfGTwSr" resolve="CompareableStringParser" />
                 </node>
                 <node concept="2ShNRf" id="5n6hJfGTCCW" role="33vP2m">
                   <node concept="1pGfFk" id="5n6hJfGTCCV" role="2ShVmc">
-                    <ref role="37wK5l" to="3ojc:5n6hJfGTx_s" resolve="SimpleCompareableGraphParser" />
+                    <ref role="37wK5l" to="3ojc:5n6hJfGTx_s" resolve="CompareableStringParser" />
                   </node>
                 </node>
               </node>
