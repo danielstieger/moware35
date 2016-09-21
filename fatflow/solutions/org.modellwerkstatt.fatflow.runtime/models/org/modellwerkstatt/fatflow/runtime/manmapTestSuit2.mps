@@ -566,6 +566,13 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -11306,11 +11313,11 @@
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="Creators" />
     <node concept="J2Nxi" id="7mZ5ilqNXRI" role="38MLOi">
-      <property role="J2Nxv" value="c:/moware/fatflow/testdata/" />
+      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
       <property role="TrG5h" value="GRAPHS" />
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="c:/moware/fatflow/testdata/sqls/" />
+      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">
@@ -12906,6 +12913,18 @@
             </node>
           </node>
         </node>
+        <node concept="1X3_iC" id="3ZVRjXSLS2h" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3dXMYk" id="3ZVRjXSLS1d" role="8Wnug">
+            <node concept="JpLXF" id="3ZVRjXSLS1f" role="JmycY">
+              <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
+              <node concept="Xl_RD" id="3ZVRjXSLS1h" role="1o$Zrr">
+                <property role="Xl_RC" value="inserttest.sql" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -14100,6 +14119,9 @@
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="ALL ALL ManMap Testsuits" />
     <ref role="2WPtWl" node="7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
+    <node concept="1DZZI9" id="3ZVRjXT6b$f" role="38MLOi">
+      <ref role="1DZZIc" node="3ZVRjXSLS2A" resolve="TestSuit Test" />
+    </node>
     <node concept="1DZZI9" id="67iuXo6Bskn" role="38MLOi">
       <ref role="1DZZIc" node="W1NYBghgSL" resolve="Audit" />
     </node>
@@ -28312,6 +28334,49 @@
       </node>
     </node>
     <node concept="1DF_5m" id="67iuXo6BpgS" role="3yMuLx" />
+  </node>
+  <node concept="2WPaUQ" id="3ZVRjXSLS2A">
+    <property role="3GE5qa" value="tests" />
+    <property role="TrG5h" value="TestSuit Test" />
+    <ref role="2WPtWl" node="7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
+    <node concept="1DZZI9" id="3ZVRjXSLS2R" role="38MLOi">
+      <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="Creators" />
+    </node>
+    <node concept="3yPF9F" id="3ZVRjXSLS2F" role="3yMuLx">
+      <property role="TrG5h" value="Inserting an Invoice should not lead to any problem in Testsuit" />
+      <node concept="3cqZAl" id="3ZVRjXSLS2U" role="3clF45" />
+      <node concept="3clFbS" id="3ZVRjXSLS2J" role="3clF47">
+        <node concept="3cpWs8" id="3ZVRjXSNPrc" role="3cqZAp">
+          <node concept="3cpWsn" id="3ZVRjXSNPrd" role="3cpWs9">
+            <property role="TrG5h" value="inv" />
+            <node concept="3uibUv" id="3ZVRjXSNPre" role="1tU5fm">
+              <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="1odsa" id="3ZVRjXSNPrG" role="33vP2m">
+              <ref role="1ods_" node="70qPrkCy95v" resolve="RepoInvoice" />
+              <ref role="37wK5l" node="4eJAcMlmaf0" resolve="checkoutInvoiceHeadGet" />
+              <node concept="10Nm6u" id="3ZVRjXSZUZd" role="2f8TIa" />
+              <node concept="3cmrfG" id="3ZVRjXT4gqi" role="37wK5m">
+                <property role="3cmrfH" value="47000000" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1DF_5m" id="3ZVRjXSLS2B" role="3yMuLx" />
+    <node concept="2d2NRx" id="3ZVRjXSNOqc" role="3yTP5x">
+      <node concept="3clFbS" id="3ZVRjXSNOqd" role="2VODD2">
+        <node concept="3dXMYk" id="3ZVRjXSNPpB" role="3cqZAp">
+          <node concept="JpLXF" id="3ZVRjXSNPpC" role="JmycY">
+            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
+            <node concept="Xl_RD" id="3ZVRjXSNPpD" role="1o$Zrr">
+              <property role="Xl_RC" value="inserttest.sql" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -4474,6 +4474,22 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3cpWs8" id="3ZVRjXSTFTr" role="3cqZAp">
+                    <node concept="3cpWsn" id="3ZVRjXSTFTs" role="3cpWs9">
+                      <property role="TrG5h" value="c" />
+                      <node concept="3uibUv" id="3ZVRjXSTFTt" role="1tU5fm">
+                        <ref role="3uigEE" to="zj7m:~Connection" resolve="Connection" />
+                      </node>
+                      <node concept="2OqwBi" id="3ZVRjXSTG7P" role="33vP2m">
+                        <node concept="37vLTw" id="3ZVRjXSTG6y" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2KwTCJxQ58z" resolve="__localDataSource" />
+                        </node>
+                        <node concept="liA8E" id="3ZVRjXSTGdQ" role="2OqNvi">
+                          <ref role="37wK5l" to="iiye:~DataSource.getConnection():java.sql.Connection" resolve="getConnection" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="2KwTCJxKvh7" role="3cqZAp">
                     <node concept="2OqwBi" id="2KwTCJxKviX" role="3clFbG">
                       <node concept="37vLTw" id="2KwTCJxKvh5" role="2Oq$k0">
@@ -4481,14 +4497,19 @@
                       </node>
                       <node concept="liA8E" id="2KwTCJxKvnz" role="2OqNvi">
                         <ref role="37wK5l" to="bsbx:~ResourceDatabasePopulator.populate(java.sql.Connection):void" resolve="populate" />
-                        <node concept="2OqwBi" id="2KwTCJxKvvm" role="37wK5m">
-                          <node concept="37vLTw" id="2KwTCJxQ5Wm" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2KwTCJxQ58z" resolve="__localDataSource" />
-                          </node>
-                          <node concept="liA8E" id="2KwTCJxKvAS" role="2OqNvi">
-                            <ref role="37wK5l" to="iiye:~DataSource.getConnection():java.sql.Connection" resolve="getConnection" />
-                          </node>
+                        <node concept="37vLTw" id="3ZVRjXSTGg$" role="37wK5m">
+                          <ref role="3cqZAo" node="3ZVRjXSTFTs" resolve="c" />
                         </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="3ZVRjXSTGhk" role="3cqZAp">
+                    <node concept="2OqwBi" id="3ZVRjXSTGnx" role="3clFbG">
+                      <node concept="37vLTw" id="3ZVRjXSTGhi" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3ZVRjXSTFTs" resolve="c" />
+                      </node>
+                      <node concept="liA8E" id="3ZVRjXSTGwU" role="2OqNvi">
+                        <ref role="37wK5l" to="zj7m:~Connection.close():void" resolve="close" />
                       </node>
                     </node>
                   </node>
