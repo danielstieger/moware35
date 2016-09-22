@@ -1530,8 +1530,17 @@
       <node concept="l2Vlx" id="75DS814r5Iu" role="2iSdaV" />
     </node>
     <node concept="3EZMnI" id="6RVk_zvI13e" role="6VMZX">
+      <node concept="3F0ifn" id="S3k7ajzUeh" role="3EZMnx">
+        <property role="3F0ifm" value="debug:" />
+      </node>
+      <node concept="3F0A7n" id="S3k7ajzUer" role="3EZMnx">
+        <ref role="1NtTu8" to="r5tz:S3k7ajzUe9" resolve="debugMe" />
+      </node>
       <node concept="3F0ifn" id="6RVk_zvI14b" role="3EZMnx">
         <property role="3F0ifm" value="DEPRECATED save type:" />
+        <node concept="pVoyu" id="S3k7ajzUex" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F0A7n" id="6RVk_zvI1b1" role="3EZMnx">
         <ref role="1NtTu8" to="r5tz:75DS814r5In" resolve="savetype" />
@@ -1578,6 +1587,15 @@
         </node>
       </node>
       <node concept="l2Vlx" id="75DS814sa2O" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="S3k7ajzTzu" role="6VMZX">
+      <node concept="l2Vlx" id="S3k7ajzTzv" role="2iSdaV" />
+      <node concept="3F0ifn" id="S3k7ajzTzy" role="3EZMnx">
+        <property role="3F0ifm" value="debug:" />
+      </node>
+      <node concept="3F0A7n" id="S3k7ajzTzB" role="3EZMnx">
+        <ref role="1NtTu8" to="r5tz:S3k7ajzTzs" resolve="debugMe" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="1Ysc0vs7BAf">

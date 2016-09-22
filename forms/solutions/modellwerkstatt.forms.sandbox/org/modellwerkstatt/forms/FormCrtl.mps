@@ -14893,8 +14893,8 @@
       <node concept="QsSxf" id="2UFgF_lRBS0" role="Qtgdg">
         <property role="TrG5h" value="TEC_USER_ERROR" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
-        <node concept="Xl_RD" id="2UFgF_lRC6u" role="37wK5m">
-          <property role="Xl_RC" value="Das Kommando konnte am System nicht erfolgreich ausgeführt werden.\nEin Fehler ist aufgetreten. Das Kommando wurde beendet." />
+        <node concept="Xl_RD" id="S3k7aiQRB6" role="37wK5m">
+          <property role="Xl_RC" value="Ein Fehler ist aufgetreten. Ihre Bearbeitung wurde abgebrochen\nund beendet." />
         </node>
         <node concept="Xl_RD" id="2UFgF_lRC5U" role="37wK5m">
           <property role="Xl_RC" value="" />
