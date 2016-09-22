@@ -17,6 +17,7 @@
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
     <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -28,6 +29,7 @@
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -72,12 +74,14 @@
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="0eddeefa-c2d6-4437-bc2c-de50fd4ce470" name="jetbrains.mps.lang.script">
       <concept id="1177457067821" name="jetbrains.mps.lang.script.structure.MigrationScript" flags="ig" index="_UgoZ">
@@ -470,6 +474,65 @@
                     </node>
                   </node>
                   <node concept="3x8VRR" id="371pDBOqAyj" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="_UgoZ" id="1fEQmUlaOxD">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="SearchForStringFormatUsage" />
+    <property role="2BwPS$" value="moware to MPS335" />
+    <property role="_Wzho" value="(2) Replace String Format with new String Handling" />
+    <node concept="_XfAh" id="1fEQmUlaOxE" role="_YvDr">
+      <property role="_XH9r" value="Methods marking exceptions" />
+      <ref role="_XDHR" to="tpee:fIYIFW9" resolve="StaticMethodCall" />
+      <node concept="_ZGcI" id="1fEQmUlaOxF" role="_XPhp">
+        <node concept="3clFbS" id="1fEQmUlaOxG" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="1fEQmUlaOz4" role="_XDHO">
+        <node concept="3clFbS" id="1fEQmUlaOz5" role="2VODD2">
+          <node concept="3clFbF" id="1fEQmUlaOTG" role="3cqZAp">
+            <node concept="1Wc70l" id="1fEQmUlaQn3" role="3clFbG">
+              <node concept="2OqwBi" id="1fEQmUlaSal" role="3uHU7w">
+                <node concept="liA8E" id="1fEQmUlaSnB" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="2OqwBi" id="1fEQmUlaRdd" role="37wK5m">
+                    <node concept="2OqwBi" id="1fEQmUlaQBa" role="2Oq$k0">
+                      <node concept="_YI3z" id="1fEQmUlaQy1" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="1fEQmUlaQNX" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:fIYIWN3" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="1fEQmUlaREK" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1fEQmUlaSxg" role="2Oq$k0">
+                  <property role="Xl_RC" value="format" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1fEQmUlaPWK" role="3uHU7B">
+                <node concept="liA8E" id="1fEQmUlaQbw" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="2OqwBi" id="1fEQmUlaPlJ" role="37wK5m">
+                    <node concept="2OqwBi" id="1fEQmUlaOY3" role="2Oq$k0">
+                      <node concept="_YI3z" id="1fEQmUlaOTF" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="1fEQmUlaP6H" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:gDPybl6" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="1fEQmUlaPB9" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1fEQmUlaQcD" role="2Oq$k0">
+                  <property role="Xl_RC" value="String" />
                 </node>
               </node>
             </node>
