@@ -15,6 +15,8 @@
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
     <import index="rapu" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jdbc(org.modellwerkstatt.manmap.solution/)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" implicit="true" />
   </imports>
@@ -95,6 +97,9 @@
       </concept>
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -1263,7 +1268,7 @@
             <ref role="3zku8S" node="70qPrkCygBG" resolve="inv1" />
           </node>
           <node concept="JpLXF" id="70qPrkDi5zz" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="70qPrkDi5z$" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_first" />
             </node>
@@ -1276,7 +1281,7 @@
             <ref role="3zku8S" node="70qPrkCygEF" resolve="inv2" />
           </node>
           <node concept="JpLXF" id="70qPrkDi5zM" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="70qPrkDi5zN" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_second" />
             </node>
@@ -1289,7 +1294,7 @@
             <ref role="3zku8S" node="70qPrkCygF9" resolve="inv3" />
           </node>
           <node concept="JpLXF" id="70qPrkDi5$1" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="70qPrkDi5$2" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_third" />
             </node>
@@ -1330,7 +1335,7 @@
             <ref role="3cqZAo" node="70qPrkCSM20" resolve="reloaded1" />
           </node>
           <node concept="JpLXF" id="70qPrkCSMr6" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="70qPrkCSMr8" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_first" />
             </node>
@@ -1365,7 +1370,7 @@
             <ref role="3cqZAo" node="70qPrkCTcGy" resolve="reloaded2" />
           </node>
           <node concept="JpLXF" id="70qPrkCTcGF" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="70qPrkCTcGG" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_second" />
             </node>
@@ -1400,7 +1405,7 @@
             <ref role="3cqZAo" node="70qPrkCTcLQ" resolve="reloaded3" />
           </node>
           <node concept="JpLXF" id="70qPrkCTcLZ" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="70qPrkCTcM0" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_third" />
             </node>
@@ -1448,7 +1453,7 @@
             <ref role="3zku8S" node="2i3o0he1AWE" resolve="inv1" />
           </node>
           <node concept="JpLXF" id="2i3o0he1AXg" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="2i3o0he1AXh" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_first" />
             </node>
@@ -1658,7 +1663,7 @@
             <ref role="3cqZAo" node="4ksEJbWj8xB" resolve="reload1" />
           </node>
           <node concept="JpLXF" id="4ksEJbWj8Qg" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4ksEJbWj8Qh" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_first" />
             </node>
@@ -1693,7 +1698,7 @@
             <ref role="3cqZAo" node="4ksEJbWj8AL" resolve="reload2" />
           </node>
           <node concept="JpLXF" id="4ksEJbWj8Tu" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4ksEJbWj8Tv" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_second" />
             </node>
@@ -1749,7 +1754,7 @@
             <ref role="3cqZAo" node="4ksEJbWjV3A" resolve="reload1" />
           </node>
           <node concept="JpLXF" id="4ksEJbWjV3L" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4ksEJbWjV3M" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_first" />
             </node>
@@ -1784,7 +1789,7 @@
             <ref role="3cqZAo" node="4ksEJbWjV3P" resolve="reload2" />
           </node>
           <node concept="JpLXF" id="4ksEJbWjV40" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4ksEJbWjV41" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_second" />
             </node>
@@ -2524,7 +2529,7 @@
             <ref role="3zku8S" node="4ksEJbWsZNl" resolve="extInv1" />
           </node>
           <node concept="JpLXF" id="4ksEJbWt1wy" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4ksEJbWt1wz" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_ext1" />
             </node>
@@ -2537,7 +2542,7 @@
             <ref role="3zku8S" node="4ksEJbWsZOg" resolve="extInv2" />
           </node>
           <node concept="JpLXF" id="4ksEJbWt1wC" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4ksEJbWt1wD" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_ext2" />
             </node>
@@ -2550,7 +2555,7 @@
             <ref role="3zku8S" node="4ksEJbWsZOE" resolve="extInv3" />
           </node>
           <node concept="JpLXF" id="4ksEJbWt1wI" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4ksEJbWt1wJ" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_ext3" />
             </node>
@@ -2586,7 +2591,7 @@
             <ref role="3cqZAo" node="4ksEJbWt1wP" resolve="reloaded1" />
           </node>
           <node concept="JpLXF" id="4ksEJbWt1x0" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4ksEJbWt1x1" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_ext1" />
             </node>
@@ -2621,7 +2626,7 @@
             <ref role="3cqZAo" node="4ksEJbWt1x4" resolve="reloaded2" />
           </node>
           <node concept="JpLXF" id="4ksEJbWt1xf" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4ksEJbWt1xg" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_ext2" />
             </node>
@@ -2656,7 +2661,7 @@
             <ref role="3cqZAo" node="4ksEJbWt1xj" resolve="reloaded3" />
           </node>
           <node concept="JpLXF" id="4ksEJbWt1xu" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4ksEJbWt1xv" role="1o$Zrr">
               <property role="Xl_RC" value="INVOICE_ext3" />
             </node>
@@ -2704,7 +2709,7 @@
             <ref role="3cqZAo" node="2i3o0hdZNa4" resolve="extInvoice" />
           </node>
           <node concept="JpLXF" id="2i3o0hdZJeR" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="2i3o0hdZJeS" role="1o$Zrr">
               <property role="Xl_RC" value="EXTINVOICE_FROM_INVOICE" />
             </node>
@@ -3202,7 +3207,7 @@
             <ref role="3zku8S" node="RffU3z7ZHT" resolve="ref1" />
           </node>
           <node concept="JpLXF" id="RffU3z80vl" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="RffU3z80vn" role="1o$Zrr">
               <property role="Xl_RC" value="SIMPLESTRINGKEYRELOAD" />
             </node>
@@ -3247,7 +3252,7 @@
             <ref role="3cqZAo" node="RffU3z80Bm" resolve="reloaded1" />
           </node>
           <node concept="JpLXF" id="RffU3z80H6" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="RffU3z80H7" role="1o$Zrr">
               <property role="Xl_RC" value="SIMPLESTRINGKEYRELOAD" />
             </node>
@@ -3321,7 +3326,7 @@
             <ref role="3cqZAo" node="RffU3zdIdB" resolve="reloaded" />
           </node>
           <node concept="JpLXF" id="RffU3zdIdM" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="RffU3zdIdN" role="1o$Zrr">
               <property role="Xl_RC" value="VALUEOBJKEYGRAPH" />
             </node>
@@ -3961,30 +3966,6 @@
     <property role="3GE5qa" value="config" />
     <node concept="2CJoq6" id="5MCXLSo4_Bs" role="2CGBMS">
       <property role="TrG5h" value="TetsSuitBasics" />
-      <node concept="2CJf3v" id="3KPvoWv627u" role="2CJdiS">
-        <property role="TrG5h" value="setLocalHere" />
-        <node concept="Xl_RD" id="3KPvoWv627w" role="2CJf0U">
-          <property role="Xl_RC" value="org.springframework.beans.factory.config.MethodInvokingFactoryBean" />
-        </node>
-        <node concept="2CJ4$C" id="3KPvoWv6an1" role="2CJ4_l">
-          <property role="TrG5h" value="targetClass" />
-          <node concept="Xl_RD" id="3KPvoWv6anA" role="2CaGCA">
-            <property role="Xl_RC" value="java.util.Locale" />
-          </node>
-        </node>
-        <node concept="2CJ4$C" id="3KPvoWv6apL" role="2CJ4_l">
-          <property role="TrG5h" value="targetMethod" />
-          <node concept="Xl_RD" id="3KPvoWv6aqh" role="2CaGCA">
-            <property role="Xl_RC" value="setDefault" />
-          </node>
-        </node>
-        <node concept="2CJ4$C" id="3KPvoWv6as6" role="2CJ4_l">
-          <property role="TrG5h" value="arguments" />
-          <node concept="Xl_RD" id="3KPvoWv62q6" role="2CaGCA">
-            <property role="Xl_RC" value="Locale.GERMAN" />
-          </node>
-        </node>
-      </node>
       <node concept="2CPvp3" id="3KPvoWve2JD" role="2CJdiS" />
       <node concept="2CJ4_Q" id="33KhHQReT6t" role="2CJdiS">
         <ref role="2CJ4_N" node="4LC0Y0L2pa6" resolve="MPREIS_Winter2014_FatClient_TestConfig" />
@@ -4115,6 +4096,11 @@
     <property role="TrG5h" value="Defaults" />
     <property role="2320hu" value="2016-06-15T12:09:28.651+02:00" />
     <property role="3GE5qa" value="config" />
+    <node concept="2CJoq6" id="3KPvoWvLIql" role="2CGBMS">
+      <property role="TrG5h" value="SET_LOCAL_IN_CONFIG" />
+      <node concept="2CPvp3" id="3KPvoWvLIs7" role="2CJdiS" />
+    </node>
+    <node concept="2CPvp3" id="3KPvoWwdUQC" role="2CGBMS" />
     <node concept="2CJoq6" id="4LC0Y0L2p9e" role="2CGBMS">
       <property role="TrG5h" value="MPREIS_WWWS_LockingService" />
       <node concept="2CJf3v" id="4LC0Y0L2p9f" role="2CJdiS">
@@ -4136,6 +4122,55 @@
     <node concept="2CPvp3" id="4LC0Y0L2p9s" role="2CGBMS" />
     <node concept="2CJoq6" id="4LC0Y0L2pa6" role="2CGBMS">
       <property role="TrG5h" value="MPREIS_Winter2014_FatClient_TestConfig" />
+      <node concept="2CJf3v" id="3KPvoWwtJU_" role="2CJdiS">
+        <property role="TrG5h" value="germanLocal" />
+        <node concept="2CJf1O" id="3KPvoWwtJVy" role="2CJ4_l">
+          <node concept="Xl_RD" id="3KPvoWwtJV$" role="2DqwMp">
+            <property role="Xl_RC" value="de" />
+          </node>
+          <node concept="Xl_RD" id="3KPvoWwtJVF" role="2DqwMv">
+            <property role="Xl_RC" value="0" />
+          </node>
+        </node>
+        <node concept="2CJf1O" id="3KPvoWwtJW_" role="2CJ4_l">
+          <node concept="Xl_RD" id="3KPvoWwtJWA" role="2DqwMp">
+            <property role="Xl_RC" value="DE" />
+          </node>
+          <node concept="Xl_RD" id="3KPvoWwtJWB" role="2DqwMv">
+            <property role="Xl_RC" value="1" />
+          </node>
+        </node>
+        <node concept="Xl_RD" id="3KPvoWwtJUB" role="2CJf0U">
+          <property role="Xl_RC" value="java.util.Locale" />
+        </node>
+      </node>
+      <node concept="2CPvp3" id="3KPvoWwAXWa" role="2CJdiS" />
+      <node concept="2CJf3v" id="3KPvoWv627u" role="2CJdiS">
+        <property role="TrG5h" value="setLocalHere" />
+        <node concept="Xl_RD" id="3KPvoWv627w" role="2CJf0U">
+          <property role="Xl_RC" value="org.springframework.beans.factory.config.MethodInvokingFactoryBean" />
+        </node>
+        <node concept="2CJ4$C" id="3KPvoWv6an1" role="2CJ4_l">
+          <property role="TrG5h" value="targetClass" />
+          <node concept="Xl_RD" id="3KPvoWv6anA" role="2CaGCA">
+            <property role="Xl_RC" value="java.util.Locale" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3KPvoWv6apL" role="2CJ4_l">
+          <property role="TrG5h" value="targetMethod" />
+          <node concept="Xl_RD" id="3KPvoWv6aqh" role="2CaGCA">
+            <property role="Xl_RC" value="setDefault" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3KPvoWwtJVX" role="2CJ4_l">
+          <property role="TrG5h" value="arguments" />
+          <property role="2DlMY1" value="true" />
+          <node concept="Xl_RD" id="3KPvoWwtJWd" role="2CaGCA">
+            <property role="Xl_RC" value="germanLocal" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CPvp3" id="3KPvoWwmYZJ" role="2CJdiS" />
       <node concept="2CJf3v" id="4LC0Y0L2pa7" role="2CJdiS">
         <property role="TrG5h" value="transactionDefinition" />
         <node concept="2CJ4$C" id="4LC0Y0L2pa8" role="2CJ4_l">
@@ -10442,7 +10477,7 @@
             <ref role="3cqZAo" node="RffU3zIJhw" resolve="relodedMain" />
           </node>
           <node concept="JpLXF" id="RffU3zJH2T" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="RffU3zJH2V" role="1o$Zrr">
               <property role="Xl_RC" value="STRINGKEYGRAPH" />
             </node>
@@ -10671,7 +10706,7 @@
             <ref role="3cqZAo" node="RffU3zMGhT" resolve="reloaded" />
           </node>
           <node concept="JpLXF" id="RffU3zMGD9" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="RffU3zMGDb" role="1o$Zrr">
               <property role="Xl_RC" value="VALUEOBJREFGRAPH" />
             </node>
@@ -11048,7 +11083,7 @@
             <ref role="3cqZAo" node="RffU3zSBxr" resolve="reloaded" />
           </node>
           <node concept="JpLXF" id="RffU3zSF7_" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="RffU3zSF7B" role="1o$Zrr">
               <property role="Xl_RC" value="REFVALOBJOIN" />
             </node>
@@ -11293,7 +11328,7 @@
             <ref role="3cqZAo" node="1oH_MJeHYfw" resolve="reloaded" />
           </node>
           <node concept="JpLXF" id="1oH_MJeIt8J" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="1oH_MJeIt8L" role="1o$Zrr">
               <property role="Xl_RC" value="VALOBJJOINLIST" />
             </node>
@@ -11856,20 +11891,12 @@
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="Creators" />
     <node concept="J2Nxi" id="7mZ5ilqNXRI" role="38MLOi">
-      <property role="J2Nxv" value="C:/moware/fatflow/testdata/" />
-      <property role="TrG5h" value="GRAPHS_WIN" />
+      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
+      <property role="TrG5h" value="GRAPHS" />
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="C:/moware/fatflow/testdata/sqls/" />
-      <property role="TrG5h" value="SQLS_WIN" />
-    </node>
-    <node concept="J2Nxi" id="S3k7aiTvRB" role="38MLOi">
-      <property role="TrG5h" value="GRAPHS" />
-      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
-    </node>
-    <node concept="J2Nxi" id="S3k7aiTvTK" role="38MLOi">
-      <property role="TrG5h" value="SQLS" />
       <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/sqls/" />
+      <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">
       <property role="TrG5h" value="Create Invoice Graph with 4 Positions on DB" />
@@ -13448,9 +13475,30 @@
     </node>
     <node concept="2d2NRx" id="7cOyB3YiydU" role="3yTP5x">
       <node concept="3clFbS" id="7cOyB3YiydV" role="2VODD2">
+        <node concept="3clFbF" id="3KPvoWvBXKU" role="3cqZAp">
+          <node concept="2OqwBi" id="3KPvoWvBXKR" role="3clFbG">
+            <node concept="10M0yZ" id="3KPvoWvBXKS" role="2Oq$k0">
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="3KPvoWvBXKT" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="3KPvoWvBXRB" role="37wK5m">
+                <node concept="2YIFZM" id="3KPvoWvBXXt" role="3uHU7w">
+                  <ref role="37wK5l" to="33ny:~Locale.getDefault():java.util.Locale" resolve="getDefault" />
+                  <ref role="1Pybhc" to="33ny:~Locale" resolve="Locale" />
+                </node>
+                <node concept="Xl_RD" id="3KPvoWvBXLP" role="3uHU7B">
+                  <property role="Xl_RC" value="Your current locale is: " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3KPvoWvJqOe" role="3cqZAp" />
         <node concept="3dXMYk" id="70qPrkCTlTn" role="3cqZAp">
           <node concept="JpLXF" id="70qPrkCTlTo" role="JmycY">
-            <ref role="JpLXE" node="S3k7aiTvTK" resolve="SQLS" />
+            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
             <node concept="Xl_RD" id="70qPrkCTlTp" role="1o$Zrr">
               <property role="Xl_RC" value="deletetables.sql" />
             </node>
@@ -13458,7 +13506,7 @@
         </node>
         <node concept="3dXMYk" id="70qPrkCTlRZ" role="3cqZAp">
           <node concept="JpLXF" id="70qPrkCTlS0" role="JmycY">
-            <ref role="JpLXE" node="S3k7aiTvTK" resolve="SQLS" />
+            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
             <node concept="Xl_RD" id="70qPrkCTlS1" role="1o$Zrr">
               <property role="Xl_RC" value="createtables.sql" />
             </node>
@@ -13466,7 +13514,7 @@
         </node>
         <node concept="3dXMYk" id="3ZVRjXSLS1d" role="3cqZAp">
           <node concept="JpLXF" id="3ZVRjXSLS1f" role="JmycY">
-            <ref role="JpLXE" node="S3k7aiTvTK" resolve="SQLS" />
+            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
             <node concept="Xl_RD" id="3ZVRjXSLS1h" role="1o$Zrr">
               <property role="Xl_RC" value="inserttest.sql" />
             </node>
@@ -18883,7 +18931,7 @@
             <ref role="3zku8S" node="6pbeIz$oIKY" resolve="inv" />
           </node>
           <node concept="JpLXF" id="6pbeIz$pZKt" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="6pbeIz$pZKv" role="1o$Zrr">
               <property role="Xl_RC" value="REVERTLIST" />
             </node>
@@ -18977,7 +19025,7 @@
             <ref role="3zku8S" node="6pbeIz$oIKY" resolve="inv" />
           </node>
           <node concept="JpLXF" id="6pbeIz$q2gJ" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="6pbeIz$q2gL" role="1o$Zrr">
               <property role="Xl_RC" value="REVERTLIST" />
             </node>
@@ -19005,7 +19053,7 @@
             <ref role="3zku8S" node="6pbeIz$tx4G" resolve="inv" />
           </node>
           <node concept="JpLXF" id="6pbeIz$tx51" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="6pbeIz$tx52" role="1o$Zrr">
               <property role="Xl_RC" value="REVERTLIST" />
             </node>
@@ -19241,7 +19289,7 @@
             <ref role="3zku8S" node="6pbeIz$tJyS" resolve="inv" />
           </node>
           <node concept="JpLXF" id="6pbeIz$tJz1" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="6pbeIz$tJz2" role="1o$Zrr">
               <property role="Xl_RC" value="REVERTLIST" />
             </node>
@@ -19372,7 +19420,7 @@
             <ref role="3zku8S" node="6pbeIz$tJyS" resolve="inv" />
           </node>
           <node concept="JpLXF" id="6pbeIz$tWnu" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="6pbeIz$tWnv" role="1o$Zrr">
               <property role="Xl_RC" value="REVERTLISTRDONLY" />
             </node>
@@ -19443,7 +19491,7 @@
             <ref role="3zku8S" node="6pbeIz$tY9r" resolve="inv" />
           </node>
           <node concept="JpLXF" id="6pbeIz$tYUJ" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="6pbeIz$tYUL" role="1o$Zrr">
               <property role="Xl_RC" value="XMLINVTEXT" />
             </node>
@@ -19639,7 +19687,7 @@
             <ref role="3zku8S" node="6pbeIz$verJ" resolve="inv" />
           </node>
           <node concept="JpLXF" id="6pbeIz$ves8" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="6pbeIz$ves9" role="1o$Zrr">
               <property role="Xl_RC" value="STINVTEXT" />
             </node>
@@ -23968,7 +24016,7 @@
             <ref role="3cqZAo" node="4eJAcMlK26T" resolve="reload1" />
           </node>
           <node concept="JpLXF" id="4eJAcMlK5gj" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4eJAcMlK5gl" role="1o$Zrr">
               <property role="Xl_RC" value="SESSION_JC_G1" />
             </node>
@@ -23981,7 +24029,7 @@
             <ref role="3cqZAo" node="4eJAcMlK3uo" resolve="reload2" />
           </node>
           <node concept="JpLXF" id="4eJAcMlK7wp" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4eJAcMlK7wq" role="1o$Zrr">
               <property role="Xl_RC" value="SESSION_JC_G2" />
             </node>
@@ -24071,7 +24119,7 @@
             <ref role="3cqZAo" node="4eJAcMlK8Ru" resolve="reload1" />
           </node>
           <node concept="JpLXF" id="4eJAcMlK8RM" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4eJAcMlK8RN" role="1o$Zrr">
               <property role="Xl_RC" value="SESSION_JC_G1" />
             </node>
@@ -24084,7 +24132,7 @@
             <ref role="3cqZAo" node="4eJAcMlK8RA" resolve="reload2" />
           </node>
           <node concept="JpLXF" id="4eJAcMlK8RS" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4eJAcMlK8RT" role="1o$Zrr">
               <property role="Xl_RC" value="SESSION_JC_G2" />
             </node>
@@ -24173,7 +24221,7 @@
             </node>
           </node>
           <node concept="JpLXF" id="4eJAcMlQoEt" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4eJAcMlQoEu" role="1o$Zrr">
               <property role="Xl_RC" value="SESSION_JC_G1" />
             </node>
@@ -24193,7 +24241,7 @@
             </node>
           </node>
           <node concept="JpLXF" id="4eJAcMlQoEz" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4eJAcMlQoE$" role="1o$Zrr">
               <property role="Xl_RC" value="SESSION_JC_G2" />
             </node>
@@ -24282,7 +24330,7 @@
             </node>
           </node>
           <node concept="JpLXF" id="4eJAcMlQEZ7" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4eJAcMlQEZ8" role="1o$Zrr">
               <property role="Xl_RC" value="SESSION_JC_G1" />
             </node>
@@ -24302,7 +24350,7 @@
             </node>
           </node>
           <node concept="JpLXF" id="4eJAcMlQEZg" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4eJAcMlQEZh" role="1o$Zrr">
               <property role="Xl_RC" value="SESSION_JC_G2" />
             </node>
@@ -25054,7 +25102,7 @@
             </node>
           </node>
           <node concept="JpLXF" id="4eJAcMm0atY" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4eJAcMm0au0" role="1o$Zrr">
               <property role="Xl_RC" value="SESSION_JC_REFS_0" />
             </node>
@@ -25073,7 +25121,7 @@
             </node>
           </node>
           <node concept="JpLXF" id="4eJAcMm0mSi" role="JpL_1">
-            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS_WIN" />
+            <ref role="JpLXE" node="7mZ5ilqNXRI" resolve="GRAPHS" />
             <node concept="Xl_RD" id="4eJAcMm0mSj" role="1o$Zrr">
               <property role="Xl_RC" value="SESSION_JC_REFS_1" />
             </node>

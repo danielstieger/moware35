@@ -11830,18 +11830,8 @@
               <property role="Xl_RC" value="'" />
             </node>
             <node concept="3cpWs3" id="33fNNpeEZMT" role="3uHU7B">
-              <node concept="3cpWs3" id="S3k7aiVXXV" role="3uHU7B">
-                <node concept="3cpWs3" id="S3k7aiVY5H" role="3uHU7B">
-                  <node concept="Xl_RD" id="S3k7aiVY6l" role="3uHU7B">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="BsUDl" id="S3k7aiVY0w" role="3uHU7w">
-                    <ref role="37wK5l" node="S3k7aiVNsK" resolve="getTestNum" />
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="33fNNpeEZKH" role="3uHU7w">
-                  <property role="Xl_RC" value="-'" />
-                </node>
+              <node concept="Xl_RD" id="33fNNpeEZKH" role="3uHU7B">
+                <property role="Xl_RC" value="'" />
               </node>
               <node concept="2OqwBi" id="33fNNpeEZWw" role="3uHU7w">
                 <node concept="13iPFW" id="33fNNpeEZNb" role="2Oq$k0" />
