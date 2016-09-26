@@ -13,6 +13,7 @@
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
+      <concept id="6496299201655527393" name="jetbrains.mps.lang.behavior.structure.LocalBehaviorMethodCall" flags="nn" index="BsUDl" />
       <concept id="1225194240794" name="jetbrains.mps.lang.behavior.structure.ConceptBehavior" flags="ng" index="13h7C7">
         <reference id="1225194240799" name="concept" index="13h7C2" />
         <child id="1225194240805" name="method" index="13h7CS" />
@@ -41,6 +42,9 @@
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
+      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
+        <child id="1145553007750" name="creator" index="2ShVmc" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
@@ -140,6 +144,9 @@
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
+        <child id="1145567471833" name="createdType" index="2T96Bj" />
+      </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -147,6 +154,9 @@
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
+      </concept>
+      <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
+        <child id="1180636770616" name="createdType" index="3zrR0E" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
         <reference id="1140138128738" name="concept" index="1PxNhF" />
@@ -179,6 +189,7 @@
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
+      <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1171391069720" name="jetbrains.mps.baseLanguage.collections.structure.GetIndexOfOperation" flags="nn" index="2WmjW8" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
     </language>
@@ -589,6 +600,407 @@
         </node>
       </node>
       <node concept="17QB3L" id="7Cs1IG3jY_5" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="2zZnBEDxDjk">
+    <property role="3GE5qa" value="internalInfra" />
+    <ref role="13h7C2" to="1btx:2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+    <node concept="13i0hz" id="2zZnBEDxDjn" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getRowLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxDjo" role="1B3o_S" />
+      <node concept="2I9FWS" id="2zZnBEDxFyQ" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+      <node concept="3clFbS" id="2zZnBEDxDjq" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxFyU" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getColLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxFyV" role="1B3o_S" />
+      <node concept="2I9FWS" id="2zZnBEDxFyW" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+      <node concept="3clFbS" id="2zZnBEDxFyX" role="3clF47" />
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxN_d" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="createDefaultWeightList" />
+      <node concept="37vLTG" id="2zZnBEDxN_w" role="3clF46">
+        <property role="TrG5h" value="weight" />
+        <node concept="3Tqbb2" id="2zZnBEDxN_A" role="1tU5fm">
+          <ref role="ehGHo" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="2zZnBEDxN_e" role="1B3o_S" />
+      <node concept="2I9FWS" id="2zZnBEDxN_t" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+      <node concept="3clFbS" id="2zZnBEDxN_g" role="3clF47">
+        <node concept="3cpWs8" id="2zZnBEDxN_K" role="3cqZAp">
+          <node concept="3cpWsn" id="2zZnBEDxN_N" role="3cpWs9">
+            <property role="TrG5h" value="weights" />
+            <node concept="2I9FWS" id="2zZnBEDxN_J" role="1tU5fm">
+              <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+            </node>
+            <node concept="2ShNRf" id="2zZnBEDxNAc" role="33vP2m">
+              <node concept="2T8Vx0" id="2zZnBEDxNA3" role="2ShVmc">
+                <node concept="2I9FWS" id="2zZnBEDxNA4" role="2T96Bj">
+                  <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2zZnBEDxNAz" role="3cqZAp">
+          <node concept="2OqwBi" id="2zZnBEDxNV9" role="3clFbG">
+            <node concept="37vLTw" id="2zZnBEDxNAx" role="2Oq$k0">
+              <ref role="3cqZAo" node="2zZnBEDxN_N" resolve="weights" />
+            </node>
+            <node concept="TSZUe" id="2zZnBEDxPrP" role="2OqNvi">
+              <node concept="37vLTw" id="2zZnBEDxPx9" role="25WWJ7">
+                <ref role="3cqZAo" node="2zZnBEDxN_w" resolve="weight" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2zZnBEDxPAN" role="3cqZAp">
+          <node concept="37vLTw" id="2zZnBEDxPAL" role="3clFbG">
+            <ref role="3cqZAo" node="2zZnBEDxN_N" resolve="weights" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="2zZnBEDxDjl" role="13h7CW">
+      <node concept="3clFbS" id="2zZnBEDxDjm" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="2zZnBEDxMd0">
+    <ref role="13h7C2" to="1btx:7OqgUbFQvfd" resolve="CustomElement" />
+    <node concept="13hLZK" id="2zZnBEDxMd1" role="13h7CW">
+      <node concept="3clFbS" id="2zZnBEDxMd2" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxMd3" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRowLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxDjn" resolve="getRowLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxMd4" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDxMd7" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDxQ14" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDxQ13" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDxQ1l" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDxQ73" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDxQ75" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDxMd8" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxMd9" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getColLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxFyU" resolve="getColLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxMda" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDxMdd" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDxQao" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDxQap" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDxQaq" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDxQar" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDxQas" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDxMde" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2zZnBEDxQb4">
+    <ref role="13h7C2" to="1btx:6MSPLZmFnKF" resolve="DelegateForm" />
+    <node concept="13hLZK" id="2zZnBEDxQb5" role="13h7CW">
+      <node concept="3clFbS" id="2zZnBEDxQb6" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxQb7" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRowLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxDjn" resolve="getRowLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxQb8" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDxQbb" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDxQbs" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDxQbr" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDxQbH" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDxQko" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDxQkq" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdA" resolve="MinWeight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDxQbc" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxQbd" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getColLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxFyU" resolve="getColLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxQbe" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDxQbh" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDxQli" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDxQlh" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDxQlz" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDxQue" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDxQug" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDxQbi" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2zZnBEDxQv7">
+    <ref role="13h7C2" to="1btx:6MSPLZmFnKE" resolve="Tab" />
+    <node concept="13hLZK" id="2zZnBEDxQv8" role="13h7CW">
+      <node concept="3clFbS" id="2zZnBEDxQv9" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxQva" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRowLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxDjn" resolve="getRowLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxQvb" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDxQve" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDxQvv" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDxQvu" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDxQvK" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDxQCr" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDxQCt" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDxQvf" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxQvg" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getColLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxFyU" resolve="getColLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxQvh" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDxQvk" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDxQFK" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDxQFL" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDxQFM" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDxQFN" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDxQFO" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDxQvl" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2zZnBEDxQGs">
+    <ref role="13h7C2" to="1btx:6MSPLZmFnKD" resolve="Table" />
+    <node concept="13hLZK" id="2zZnBEDxQGt" role="13h7CW">
+      <node concept="3clFbS" id="2zZnBEDxQGu" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxQGB" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRowLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxDjn" resolve="getRowLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxQGC" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDxQGF" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDxQGV" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDxQGW" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDxQGX" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDxQGY" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDxQGZ" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDxQGG" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxQGH" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getColLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxFyU" resolve="getColLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxQGI" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDxQGL" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDxQHB" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDxQHC" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDxQHD" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDxQHE" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDxQHF" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDxQGM" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2zZnBEDxRkK">
+    <property role="3GE5qa" value="layout" />
+    <ref role="13h7C2" to="1btx:6MSPLZmFnKG" resolve="GridLayout" />
+    <node concept="13hLZK" id="2zZnBEDxRkL" role="13h7CW">
+      <node concept="3clFbS" id="2zZnBEDxRkM" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxRkN" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRowLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxDjn" resolve="getRowLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxRkO" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDxRkR" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDxRl7" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDxRl8" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDxRl9" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDxRla" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDxRlb" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDxRkS" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="2zZnBEDxRkT" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getColLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxFyU" resolve="getColLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDxRkU" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDxRkX" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDxRlN" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDxRlO" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDxRlP" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDxRlQ" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDxRlR" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDxRkY" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2zZnBEDyXxZ">
+    <ref role="13h7C2" to="1btx:2zZnBEDyOcE" resolve="Include" />
+    <node concept="13hLZK" id="2zZnBEDyXy0" role="13h7CW">
+      <node concept="3clFbS" id="2zZnBEDyXy1" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2zZnBEDyXy2" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRowLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxDjn" resolve="getRowLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDyXy3" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDyXyb" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDyX$C" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDyX$B" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDyX$T" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDyXH$" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDyXHA" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDyXyc" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="2zZnBEDyXyh" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getColLayoutWeight" />
+      <ref role="13i0hy" node="2zZnBEDxFyU" resolve="getColLayoutWeight" />
+      <node concept="3Tm1VV" id="2zZnBEDyXyi" role="1B3o_S" />
+      <node concept="3clFbS" id="2zZnBEDyXyq" role="3clF47">
+        <node concept="3clFbF" id="2zZnBEDyXNl" role="3cqZAp">
+          <node concept="BsUDl" id="2zZnBEDyXNm" role="3clFbG">
+            <ref role="37wK5l" node="2zZnBEDxN_d" resolve="createDefaultWeightList" />
+            <node concept="2ShNRf" id="2zZnBEDyXNn" role="37wK5m">
+              <node concept="3zrR0B" id="2zZnBEDyXNo" role="2ShVmc">
+                <node concept="3Tqbb2" id="2zZnBEDyXNp" role="3zrR0E">
+                  <ref role="ehGHo" to="1btx:6MSPLZmFqdN" resolve="OneWight" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2I9FWS" id="2zZnBEDyXyr" role="3clF45">
+        <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
+      </node>
     </node>
   </node>
 </model>

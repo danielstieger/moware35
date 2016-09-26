@@ -11227,5 +11227,25 @@
       <ref role="3uigEE" to="jkm4:~DialogBuilder" resolve="DialogBuilder" />
     </node>
   </node>
+  <node concept="24kQdi" id="3KPvoWv6Cq6">
+    <property role="3GE5qa" value="OFXTest.options" />
+    <ref role="1XX52x" to="un0u:3KPvoWv6Cnk" resolve="OFXTestSuitDependentOption" />
+    <node concept="3EZMnI" id="3KPvoWv6Cq$" role="2wV5jI">
+      <node concept="PMmxH" id="3KPvoWv6Cq_" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+      </node>
+      <node concept="1iCGBv" id="3KPvoWv6CqA" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:3KPvoWv6Cpl" />
+        <node concept="1sVBvm" id="3KPvoWv6CqB" role="1sWHZn">
+          <node concept="3F0A7n" id="3KPvoWv6CqC" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3KPvoWv6CqD" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

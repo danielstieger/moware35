@@ -3961,6 +3961,31 @@
     <property role="3GE5qa" value="config" />
     <node concept="2CJoq6" id="5MCXLSo4_Bs" role="2CGBMS">
       <property role="TrG5h" value="TetsSuitBasics" />
+      <node concept="2CJf3v" id="3KPvoWv627u" role="2CJdiS">
+        <property role="TrG5h" value="setLocalHere" />
+        <node concept="Xl_RD" id="3KPvoWv627w" role="2CJf0U">
+          <property role="Xl_RC" value="org.springframework.beans.factory.config.MethodInvokingFactoryBean" />
+        </node>
+        <node concept="2CJ4$C" id="3KPvoWv6an1" role="2CJ4_l">
+          <property role="TrG5h" value="targetClass" />
+          <node concept="Xl_RD" id="3KPvoWv6anA" role="2CaGCA">
+            <property role="Xl_RC" value="java.util.Locale" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3KPvoWv6apL" role="2CJ4_l">
+          <property role="TrG5h" value="targetMethod" />
+          <node concept="Xl_RD" id="3KPvoWv6aqh" role="2CaGCA">
+            <property role="Xl_RC" value="setDefault" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3KPvoWv6as6" role="2CJ4_l">
+          <property role="TrG5h" value="arguments" />
+          <node concept="Xl_RD" id="3KPvoWv62q6" role="2CaGCA">
+            <property role="Xl_RC" value="Locale.GERMAN" />
+          </node>
+        </node>
+      </node>
+      <node concept="2CPvp3" id="3KPvoWve2JD" role="2CJdiS" />
       <node concept="2CJ4_Q" id="33KhHQReT6t" role="2CJdiS">
         <ref role="2CJ4_N" node="4LC0Y0L2pa6" resolve="MPREIS_Winter2014_FatClient_TestConfig" />
         <node concept="26L8Vk" id="33KhHQReTg2" role="2CPvpQ">

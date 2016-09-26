@@ -4816,5 +4816,15 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="3KPvoWv6Crx">
+    <property role="3GE5qa" value="OFXTest.options" />
+    <ref role="1M2myG" to="un0u:3KPvoWv6Cnk" resolve="OFXTestSuitDependentOption" />
+    <node concept="1N5Pfh" id="3KPvoWv6CrR" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:3KPvoWv6Cpl" />
+      <node concept="1dDu$B" id="3KPvoWv6CrS" role="1N6uqs">
+        <ref role="1dDu$A" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+      </node>
+    </node>
+  </node>
 </model>
 

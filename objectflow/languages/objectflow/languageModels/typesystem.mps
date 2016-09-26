@@ -9276,17 +9276,15 @@
     <node concept="3clFbS" id="3n7eUMgteN2" role="18ibNy">
       <node concept="3clFbJ" id="3n7eUMgtgKP" role="3cqZAp">
         <node concept="3clFbS" id="3n7eUMgtgKR" role="3clFbx">
-          <node concept="2MkqsV" id="3n7eUMgthgq" role="3cqZAp">
-            <node concept="Xl_RD" id="3n7eUMgthhv" role="2MkJ7o">
-              <property role="Xl_RC" value="Only graph owner commands can be referenced here." />
-            </node>
-            <node concept="1YBJjd" id="3n7eUMgthrc" role="2OEOjV">
-              <ref role="1YBMHb" node="3n7eUMgteN4" resolve="ofxGraphOwnerTestMethod" />
+          <node concept="3SKdUt" id="3KPvoWv15MD" role="3cqZAp">
+            <node concept="3SKdUq" id="3KPvoWv15ME" role="3SKWNk">
+              <property role="3SKdUp" value="graph owner / search cmd provide session" />
             </node>
           </node>
+          <node concept="3clFbH" id="3KPvoWv15NU" role="3cqZAp" />
         </node>
-        <node concept="3fqX7Q" id="3n7eUMgtgPp" role="3clFbw">
-          <node concept="2OqwBi" id="3n7eUMgtgVL" role="3fr31v">
+        <node concept="22lmx$" id="3KPvoWv15zZ" role="3clFbw">
+          <node concept="2OqwBi" id="3n7eUMgtgVL" role="3uHU7B">
             <node concept="2OqwBi" id="3n7eUMgtgVM" role="2Oq$k0">
               <node concept="2OqwBi" id="3n7eUMgtgVN" role="2Oq$k0">
                 <node concept="2OqwBi" id="3n7eUMgtgVO" role="2Oq$k0">
@@ -9310,6 +9308,44 @@
                 <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
               </node>
             </node>
+          </node>
+          <node concept="2OqwBi" id="3KPvoWv15CI" role="3uHU7w">
+            <node concept="2OqwBi" id="3KPvoWv15CJ" role="2Oq$k0">
+              <node concept="2OqwBi" id="3KPvoWv15CK" role="2Oq$k0">
+                <node concept="2OqwBi" id="3KPvoWv15CL" role="2Oq$k0">
+                  <node concept="1YBJjd" id="3KPvoWv15CM" role="2Oq$k0">
+                    <ref role="1YBMHb" node="3n7eUMgteN4" resolve="ofxGraphOwnerTestMethod" />
+                  </node>
+                  <node concept="3TrEf2" id="3KPvoWv15CN" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:3n7eUMgten$" />
+                  </node>
+                </node>
+                <node concept="3TrEf2" id="3KPvoWv15CO" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="3KPvoWv15CP" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+              </node>
+            </node>
+            <node concept="3t7uKx" id="3KPvoWv15CQ" role="2OqNvi">
+              <node concept="uoxfO" id="3KPvoWv15CR" role="3t7uKA">
+                <ref role="uo_Cq" to="un0u:6Rdz00$tuDj" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="9aQIb" id="3KPvoWv15LV" role="9aQIa">
+          <node concept="3clFbS" id="3KPvoWv15LW" role="9aQI4">
+            <node concept="2MkqsV" id="3n7eUMgthgq" role="3cqZAp">
+              <node concept="Xl_RD" id="3n7eUMgthhv" role="2MkJ7o">
+                <property role="Xl_RC" value="Only graph owner commands can be referenced here." />
+              </node>
+              <node concept="1YBJjd" id="3n7eUMgthrc" role="2OEOjV">
+                <ref role="1YBMHb" node="3n7eUMgteN4" resolve="ofxGraphOwnerTestMethod" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="3KPvoWv15Oc" role="3cqZAp" />
           </node>
         </node>
       </node>
@@ -10793,6 +10829,43 @@
     <node concept="1YaCAy" id="3yttyAVj0NE" role="1YuTPh">
       <property role="TrG5h" value="ofxTestSuit" />
       <ref role="1YaFvo" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3KPvoWv6CsF">
+    <property role="TrG5h" value="check_OFXTestSuitDependentOption" />
+    <property role="3GE5qa" value="OFXTest.options" />
+    <node concept="3clFbS" id="3KPvoWv6CsG" role="18ibNy">
+      <node concept="3clFbJ" id="3KPvoWv6CtM" role="3cqZAp">
+        <node concept="3fqX7Q" id="3KPvoWv6CtN" role="3clFbw">
+          <node concept="2OqwBi" id="3KPvoWv6CtO" role="3fr31v">
+            <node concept="2OqwBi" id="3KPvoWv6CtP" role="2Oq$k0">
+              <node concept="1YBJjd" id="3KPvoWv6Czh" role="2Oq$k0">
+                <ref role="1YBMHb" node="3KPvoWv6CsI" resolve="ofxTestSuitDependentOption" />
+              </node>
+              <node concept="3TrEf2" id="3KPvoWv6CFP" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:3KPvoWv6Cpl" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="3KPvoWv6CtS" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:3iT39CYUne" resolve="isPotentiallyToExecute" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="3KPvoWv6CtT" role="3clFbx">
+          <node concept="2MkqsV" id="3KPvoWv6CtU" role="3cqZAp">
+            <node concept="Xl_RD" id="3KPvoWv6CtV" role="2MkJ7o">
+              <property role="Xl_RC" value="This option is not necessary, since this test is not executeable anyway." />
+            </node>
+            <node concept="1YBJjd" id="3KPvoWv6CNg" role="2OEOjV">
+              <ref role="1YBMHb" node="3KPvoWv6CsI" resolve="ofxTestSuitDependentOption" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3KPvoWv6CsI" role="1YuTPh">
+      <property role="TrG5h" value="ofxTestSuitDependentOption" />
+      <ref role="1YaFvo" to="un0u:3KPvoWv6Cnk" resolve="OFXTestSuitDependentOption" />
     </node>
   </node>
 </model>

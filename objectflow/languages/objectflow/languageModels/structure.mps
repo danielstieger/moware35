@@ -2917,7 +2917,7 @@
     <node concept="1TJgyj" id="61VVfi2Gw2l" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="content" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3iT39Dvbl$" resolve="IOFXTestSuitContent" />
     </node>
     <node concept="PrWs8" id="1aaqwMInGle" role="PzmwI">
@@ -3459,6 +3459,23 @@
     </node>
     <node concept="PrWs8" id="5zF9hZsxt2p" role="PzmwI">
       <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3KPvoWv6Cnk">
+    <property role="1pbfSe" value="1531970403" />
+    <property role="3GE5qa" value="OFXTest.options" />
+    <property role="TrG5h" value="OFXTestSuitDependentOption" />
+    <property role="34LRSv" value="DEPENDENT_TEST" />
+    <property role="R4oN_" value="do not exec test" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3KPvoWv6Cok" role="PzmwI">
+      <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
+    </node>
+    <node concept="1TJgyj" id="3KPvoWv6Cpl" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="test" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
     </node>
   </node>
 </model>
