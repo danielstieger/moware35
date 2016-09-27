@@ -6,8 +6,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -65,12 +65,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
     </node>
-    <node concept="1TJgyj" id="6MSPLZmEVQB" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="classifier" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:g7pOWCK" resolve="Classifier" />
-    </node>
   </node>
   <node concept="1TIwiD" id="7OqgUbFQvfd">
     <property role="1pbfSe" value="1760835439" />
@@ -82,9 +76,6 @@
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
     <node concept="PrWs8" id="2zZnBEDxFzz" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
-    </node>
-    <node concept="PrWs8" id="7rG0OCcHkvk" role="PzmwI">
-      <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
     </node>
   </node>
   <node concept="PlHQZ" id="4ChSTKTfUEX">
@@ -124,9 +115,11 @@
     <property role="1pbfSe" value="2104225760" />
     <property role="3GE5qa" value="internalInfra" />
     <property role="TrG5h" value="DataUxRoot" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="7Cs1IG3jYzQ" role="PzmwI">
-      <ref role="PrY4T" node="4ChSTKTfUEX" resolve="IOptionallyNamed" />
+    <node concept="PrWs8" id="7rG0OCdiIpf" role="PzmwI">
+      <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
     </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKD">
@@ -140,9 +133,6 @@
     <node concept="PrWs8" id="2zZnBEDxFzE" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
     </node>
-    <node concept="PrWs8" id="7rG0OCcHbQI" role="PzmwI">
-      <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKE">
     <property role="1pbfSe" value="1130779465" />
@@ -151,7 +141,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Tab" />
     <property role="R4oN_" value="with multiple tab panes" />
-    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2zZnBEDxS0A" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="tabPanes" />
@@ -172,9 +162,6 @@
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
     <node concept="PrWs8" id="2zZnBEDxFzB" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
-    </node>
-    <node concept="PrWs8" id="7rG0OCcHbMi" role="PzmwI">
-      <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
     </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKG">
@@ -303,10 +290,16 @@
     <property role="R4oN_" value="another declared ux element" />
     <property role="MwhBj" value="${module}/icons/include.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7rG0OCdj5GO" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="uxElement" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="4ChSTKTge26" resolve="IBindable" />
+    </node>
     <node concept="PrWs8" id="2zZnBEDyOcF" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
     </node>
-    <node concept="PrWs8" id="7rG0OCcHbOF" role="PzmwI">
+    <node concept="PrWs8" id="7rG0OCdiLbY" role="PzmwI">
       <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
     </node>
   </node>

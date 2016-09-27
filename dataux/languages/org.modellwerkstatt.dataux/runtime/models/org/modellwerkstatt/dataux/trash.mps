@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
+      <concept id="2954183761501831978" name="org.modellwerkstatt.dataux.structure.Include" flags="ng" index="21t1Pg">
+        <reference id="8569227807564782388" name="uxElement" index="1VC5xY" />
+      </concept>
       <concept id="9014591971156139020" name="org.modellwerkstatt.dataux.structure.PagePane" flags="ng" index="2mKXYI">
         <child id="2954183761501582907" name="uxChild" index="21u2x1" />
       </concept>
@@ -21,7 +24,6 @@
         <child id="7834248083556639662" name="rowWeights" index="2U5niL" />
       </concept>
       <concept id="7834248083556629547" name="org.modellwerkstatt.dataux.structure.DelegateForm" flags="ng" index="2U5qGO" />
-      <concept id="7834248083556629545" name="org.modellwerkstatt.dataux.structure.Table" flags="ng" index="2U5qGQ" />
       <concept id="5337297293525625533" name="org.modellwerkstatt.dataux.structure.IOptionallyNamed" flags="ng" index="1Nb$$x">
         <property id="5337297293525625539" name="named" index="1Nb$_v" />
         <property id="8798915378417884602" name="name" index="1TjtHh" />
@@ -32,27 +34,34 @@
       </concept>
     </language>
   </registry>
-  <node concept="2mKXYI" id="2zZnBEDycKH">
+  <node concept="2mKXYI" id="7rG0OCdi3v9">
     <property role="1Nb$_v" value="true" />
-    <property role="1TjtHh" value="Hauptseite 1" />
-    <node concept="2U5qGN" id="7rG0OCcGISt" role="21u2x1">
+    <property role="1TjtHh" value="Hauptseite für Rechnungen" />
+    <ref role="1Tjo7l" to="goi:612_n8HbweS" resolve="Invoice" />
+    <node concept="2U5qGN" id="7rG0OCdi3vb" role="21u2x1">
       <property role="1Nb$_v" value="false" />
-      <node concept="2U5nhG" id="7rG0OCcGISv" role="2U5niJ" />
-      <node concept="2U5nhT" id="7rG0OCcGISA" role="2U5niL" />
-      <node concept="2U5nhG" id="7rG0OCd8B1Y" role="2U5niL" />
-      <node concept="2U5qGO" id="7rG0OCd8B25" role="21u2wS">
-        <property role="1Nb$_v" value="true" />
-        <property role="1TjtHh" value="Dan" />
-        <ref role="1Tjo7l" to="goi:612_n8HbweS" resolve="Invoice" />
-        <ref role="1Tjo6F" to="goi:18291WBBzYd" resolve="moneyAmount" />
-      </node>
-      <node concept="2U5qGQ" id="7rG0OCd8EQd" role="21u2wS">
+      <ref role="1Tjo7l" to="goi:612_n8HbweS" resolve="Invoice" />
+      <ref role="1Tjo6F" to="goi:18291WBBzYd" resolve="moneyAmount" />
+      <node concept="2U5nhG" id="7rG0OCdi3vd" role="2U5niJ" />
+      <node concept="2U5nhG" id="7rG0OCdiF4r" role="2U5niL" />
+      <node concept="21t1Pg" id="7rG0OCdjdWV" role="21u2wS">
         <property role="1Nb$_v" value="false" />
-        <property role="1TjtHh" value="Dan" />
-        <ref role="1Tjo7l" to="goi:612_n8HbweS" resolve="Invoice" />
-        <ref role="1Tjo6F" to="goi:612_n8Hc$wy" resolve="positions" />
+        <ref role="1Tjo7l" to="goi:18291WB_jj6" resolve="MoneyAmount" />
+        <ref role="1VC5xY" node="7rG0OCdiEUI" />
       </node>
+      <node concept="2U5nhG" id="7rG0OCdk8JM" role="2U5niL" />
     </node>
+  </node>
+  <node concept="2U5qGN" id="7rG0OCdiEUI">
+    <property role="1Nb$_v" value="true" />
+    <property role="1TjtHh" value="My gird to do something" />
+    <ref role="1Tjo7l" to="goi:18291WB_jj6" resolve="MoneyAmount" />
+    <node concept="2U5nhG" id="7rG0OCdiEUJ" role="2U5niJ" />
+    <node concept="2U5qGO" id="7rG0OCdiEUL" role="21u2wS">
+      <property role="1Nb$_v" value="false" />
+      <ref role="1Tjo7l" to="goi:18291WB_jj6" resolve="MoneyAmount" />
+    </node>
+    <node concept="2U5nhT" id="7rG0OCdiEUN" role="2U5niL" />
   </node>
 </model>
 
