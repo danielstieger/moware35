@@ -269,6 +269,7 @@
       </concept>
       <concept id="7192042020163999178" name="org.modellwerkstatt.objectflow.structure.Command" flags="ng" index="3ugp7m">
         <property id="7912134052599426179" name="newCommandType" index="19I623" />
+        <property id="8569227807555216336" name="overWriteWindowTitle" index="1UlA2q" />
         <reference id="1993450443311478185" name="process" index="3lhHOO" />
         <child id="3748648354049763742" name="titleAddOn" index="IYfpf" />
         <child id="1881524139086021953" name="exceptionConclusionStatements" index="10_K5X" />
@@ -1480,6 +1481,7 @@
   </node>
   <node concept="3ugp7m" id="5MCXLSnMhzd">
     <property role="TrG5h" value="Edit Invoice Pos (+ Revert)" />
+    <property role="1UlA2q" value="false" />
     <ref role="3lhHOO" node="Joc9_LZQLM" resolve="Invoice Process" />
     <node concept="3urNQE" id="7cOyB3YpLtl" role="19Ho0k">
       <ref role="3cqZAo" node="5MCXLSnMi8h" resolve="pos" />
