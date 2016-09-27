@@ -3218,10 +3218,18 @@
     </node>
     <node concept="3clFb_" id="6_IgSPu9Qg0" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getCommandTitleAddOn" />
+      <property role="TrG5h" value="getWindowTitle" />
       <node concept="17QB3L" id="6_IgSPua1xX" role="3clF45" />
       <node concept="3Tm1VV" id="6_IgSPu9Qg2" role="1B3o_S" />
       <node concept="3clFbS" id="6_IgSPu9Qg3" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="7rG0OCcMLxp" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isWindowTitleOverWrite" />
+      <node concept="3clFbS" id="7rG0OCcMLxs" role="3clF47" />
+      <node concept="3Tm1VV" id="7rG0OCcMLxt" role="1B3o_S" />
+      <node concept="10P_77" id="7rG0OCcMLrB" role="3clF45" />
     </node>
     <node concept="3clFb_" id="7rqBz8B3JNw" role="jymVt">
       <property role="1EzhhJ" value="true" />

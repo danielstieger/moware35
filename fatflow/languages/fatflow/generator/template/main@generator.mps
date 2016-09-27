@@ -12154,7 +12154,7 @@
     </node>
     <node concept="3clFb_" id="6_IgSPua29s" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getCommandTitleAddOn" />
+      <property role="TrG5h" value="getWindowTitle" />
       <node concept="17QB3L" id="6_IgSPua29t" role="3clF45" />
       <node concept="3Tm1VV" id="6_IgSPua29u" role="1B3o_S" />
       <node concept="3clFbS" id="6_IgSPua29v" role="3clF47">
@@ -12218,6 +12218,35 @@
                       <node concept="30H73N" id="6_IgSPuajyY" role="2Oq$k0" />
                       <node concept="3TrEf2" id="6_IgSPuajz6" role="2OqNvi">
                         <ref role="3Tt5mk" to="un0u:3g5RX4qZiAu" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="7rG0OCcN5Qg" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isWindowTitleOverWrite" />
+      <node concept="3Tm1VV" id="7rG0OCcN5Qi" role="1B3o_S" />
+      <node concept="10P_77" id="7rG0OCcN5Qj" role="3clF45" />
+      <node concept="3clFbS" id="7rG0OCcN5Qk" role="3clF47">
+        <node concept="3clFbF" id="7rG0OCcN5Qm" role="3cqZAp">
+          <node concept="3clFbT" id="7rG0OCcN5Ql" role="3clFbG">
+            <node concept="17Uvod" id="7rG0OCcNcd4" role="lGtFl">
+              <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+              <property role="2qtEX9" value="value" />
+              <node concept="3zFVjK" id="7rG0OCcNcd5" role="3zH0cK">
+                <node concept="3clFbS" id="7rG0OCcNcd6" role="2VODD2">
+                  <node concept="3clFbF" id="7rG0OCcNf52" role="3cqZAp">
+                    <node concept="2OqwBi" id="7rG0OCcNf8Z" role="3clFbG">
+                      <node concept="30H73N" id="7rG0OCcNf51" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="7rG0OCcNfgG" role="2OqNvi">
+                        <ref role="3TsBF5" to="un0u:7rG0OCcIAfg" resolve="overWriteWindowTitle" />
                       </node>
                     </node>
                   </node>

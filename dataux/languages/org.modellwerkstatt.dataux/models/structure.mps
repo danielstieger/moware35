@@ -83,6 +83,9 @@
     <node concept="PrWs8" id="2zZnBEDxFzz" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
     </node>
+    <node concept="PrWs8" id="7rG0OCcHkvk" role="PzmwI">
+      <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
+    </node>
   </node>
   <node concept="PlHQZ" id="4ChSTKTfUEX">
     <property role="1pbfSe" value="2091807143" />
@@ -100,7 +103,7 @@
   <node concept="PlHQZ" id="4ChSTKTge26">
     <property role="1pbfSe" value="2091727838" />
     <property role="3GE5qa" value="internalInfra" />
-    <property role="TrG5h" value="IBindsObject" />
+    <property role="TrG5h" value="IBindable" />
     <node concept="1TJgyj" id="7Cs1IG3kosY" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="selectionIdentifier" />
@@ -116,11 +119,6 @@
     <node concept="PrWs8" id="4ChSTKTgh0j" role="PrDN$">
       <ref role="PrY4T" node="4ChSTKTfUEX" resolve="IOptionallyNamed" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="7Cs1IG3jYuQ">
-    <property role="1pbfSe" value="2104225441" />
-    <property role="3GE5qa" value="internalInfra" />
-    <property role="TrG5h" value="IBindsList" />
   </node>
   <node concept="1TIwiD" id="7Cs1IG3jYzP">
     <property role="1pbfSe" value="2104225760" />
@@ -141,6 +139,9 @@
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
     <node concept="PrWs8" id="2zZnBEDxFzE" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+    </node>
+    <node concept="PrWs8" id="7rG0OCcHbQI" role="PzmwI">
+      <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
     </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKE">
@@ -171,6 +172,9 @@
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
     <node concept="PrWs8" id="2zZnBEDxFzB" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+    </node>
+    <node concept="PrWs8" id="7rG0OCcHbMi" role="PzmwI">
+      <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
     </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKG">
@@ -301,6 +305,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2zZnBEDyOcF" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+    </node>
+    <node concept="PrWs8" id="7rG0OCcHbOF" role="PzmwI">
+      <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
     </node>
   </node>
 </model>

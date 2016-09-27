@@ -745,6 +745,10 @@
     <property role="19KtqR" value="true" />
     <property role="1pbfSe" value="559815142" />
     <ref role="1TJDcQ" node="6ffh1MXA9UE" resolve="Container" />
+    <node concept="1TJgyi" id="7rG0OCcIAfg" role="1TKVEl">
+      <property role="TrG5h" value="overWriteWindowTitle" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyi" id="OmBzHGj4UU" role="1TKVEl">
       <property role="TrG5h" value="commandType" />
       <ref role="AX2Wp" node="OmBzHGj4UR" resolve="CommandType" />
