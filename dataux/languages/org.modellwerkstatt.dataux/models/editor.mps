@@ -8,8 +8,8 @@
   <imports>
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
@@ -276,9 +276,22 @@
     <property role="TrG5h" value="BindsObjectEditorFull" />
     <ref role="1XX52x" to="1btx:4ChSTKTge26" resolve="IBindable" />
     <node concept="3EZMnI" id="7Cs1IG3kp0F" role="2wV5jI">
-      <node concept="3F0ifn" id="7rG0OCcHBt$" role="3EZMnx">
-        <property role="3F0ifm" value="loaded with selected" />
+      <node concept="1HlG4h" id="3Jaea__TpJY" role="3EZMnx">
         <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+        <node concept="1HfYo3" id="3Jaea__TpK0" role="1HlULh">
+          <node concept="3TQlhw" id="3Jaea__TpK2" role="1Hhtcw">
+            <node concept="3clFbS" id="3Jaea__TpK4" role="2VODD2">
+              <node concept="3clFbF" id="3Jaea__TqSq" role="3cqZAp">
+                <node concept="2OqwBi" id="3Jaea__TqUX" role="3clFbG">
+                  <node concept="pncrf" id="3Jaea__TqSp" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="3Jaea__TrpE" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:3Jaea__Tr4T" resolve="getReadableDescription" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1iCGBv" id="7Cs1IG3kp0M" role="3EZMnx">
         <property role="1$x2rV" value="&lt;object&gt;" />
@@ -307,35 +320,6 @@
           <node concept="3F0A7n" id="7Cs1IG3kp1s" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="1HlG4h" id="7rG0OCd8X23" role="3EZMnx">
-        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
-        <node concept="1HfYo3" id="7rG0OCd8X25" role="1HlULh">
-          <node concept="3TQlhw" id="7rG0OCd8X27" role="1Hhtcw">
-            <node concept="3clFbS" id="7rG0OCd8X29" role="2VODD2">
-              <node concept="3clFbJ" id="7rG0OCd8X8C" role="3cqZAp">
-                <node concept="2OqwBi" id="7rG0OCd8XbS" role="3clFbw">
-                  <node concept="pncrf" id="7rG0OCd8X9p" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="7rG0OCd8XJg" role="2OqNvi">
-                    <ref role="37wK5l" to="5y3p:7rG0OCd8XgL" resolve="isCurrentlyListBound" />
-                  </node>
-                </node>
-                <node concept="3clFbS" id="7rG0OCd8X8E" role="3clFbx">
-                  <node concept="3cpWs6" id="7rG0OCd94GQ" role="3cqZAp">
-                    <node concept="Xl_RD" id="7rG0OCd8XNO" role="3cqZAk">
-                      <property role="Xl_RC" value="(list&lt;&gt; passed in)" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="7rG0OCd8Y5a" role="3cqZAp">
-                <node concept="Xl_RD" id="7rG0OCd8Y59" role="3clFbG">
-                  <property role="Xl_RC" value="" />
-                </node>
-              </node>
-            </node>
           </node>
         </node>
       </node>
@@ -652,11 +636,21 @@
     <property role="TrG5h" value="BindsObjectEdtorWithoutProperty" />
     <ref role="1XX52x" to="1btx:4ChSTKTge26" resolve="IBindable" />
     <node concept="3EZMnI" id="7rG0OCdgX68" role="2wV5jI">
-      <node concept="3F0ifn" id="7rG0OCdgX69" role="3EZMnx">
-        <property role="3F0ifm" value="loaded with list&lt;" />
+      <node concept="1HlG4h" id="3Jaea__TrGS" role="3EZMnx">
         <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
-        <node concept="11LMrY" id="7rG0OCdh5gA" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="1HfYo3" id="3Jaea__TrGT" role="1HlULh">
+          <node concept="3TQlhw" id="3Jaea__TrGU" role="1Hhtcw">
+            <node concept="3clFbS" id="3Jaea__TrGV" role="2VODD2">
+              <node concept="3clFbF" id="3Jaea__TrGW" role="3cqZAp">
+                <node concept="2OqwBi" id="3Jaea__TrGX" role="3clFbG">
+                  <node concept="pncrf" id="3Jaea__TrGY" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="3Jaea__TrGZ" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:3Jaea__Tr4T" resolve="getReadableDescription" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1iCGBv" id="7rG0OCdgX6a" role="3EZMnx">
@@ -669,13 +663,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="7rG0OCdgX6d" role="3EZMnx">
-        <property role="3F0ifm" value="&gt;" />
-        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
-        <node concept="11L4FC" id="7rG0OCdgX6f" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
       <node concept="l2Vlx" id="7rG0OCdgX6X" role="2iSdaV" />
     </node>
   </node>
@@ -684,9 +671,22 @@
     <property role="TrG5h" value="BindsObjectEditorWithoutIdentifier" />
     <ref role="1XX52x" to="1btx:4ChSTKTge26" resolve="IBindable" />
     <node concept="3EZMnI" id="7rG0OCdhS4J" role="2wV5jI">
-      <node concept="3F0ifn" id="7rG0OCdhS4K" role="3EZMnx">
-        <property role="3F0ifm" value="loaded with selected" />
+      <node concept="1HlG4h" id="3Jaea__Tr_H" role="3EZMnx">
         <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+        <node concept="1HfYo3" id="3Jaea__Tr_I" role="1HlULh">
+          <node concept="3TQlhw" id="3Jaea__Tr_J" role="1Hhtcw">
+            <node concept="3clFbS" id="3Jaea__Tr_K" role="2VODD2">
+              <node concept="3clFbF" id="3Jaea__Tr_L" role="3cqZAp">
+                <node concept="2OqwBi" id="3Jaea__Tr_M" role="3clFbG">
+                  <node concept="pncrf" id="3Jaea__Tr_N" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="3Jaea__Tr_O" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:3Jaea__Tr4T" resolve="getReadableDescription" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1iCGBv" id="7rG0OCdhS4L" role="3EZMnx">
         <property role="1$x2rV" value="&lt;object&gt;" />
@@ -715,35 +715,6 @@
           <node concept="3F0A7n" id="7rG0OCdhS4T" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="1HlG4h" id="7rG0OCdhS4U" role="3EZMnx">
-        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
-        <node concept="1HfYo3" id="7rG0OCdhS4V" role="1HlULh">
-          <node concept="3TQlhw" id="7rG0OCdhS4W" role="1Hhtcw">
-            <node concept="3clFbS" id="7rG0OCdhS4X" role="2VODD2">
-              <node concept="3clFbJ" id="7rG0OCdhS4Y" role="3cqZAp">
-                <node concept="2OqwBi" id="7rG0OCdhS4Z" role="3clFbw">
-                  <node concept="pncrf" id="7rG0OCdhS50" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="7rG0OCdhS51" role="2OqNvi">
-                    <ref role="37wK5l" to="5y3p:7rG0OCd8XgL" resolve="isCurrentlyListBound" />
-                  </node>
-                </node>
-                <node concept="3clFbS" id="7rG0OCdhS52" role="3clFbx">
-                  <node concept="3cpWs6" id="7rG0OCdhS53" role="3cqZAp">
-                    <node concept="Xl_RD" id="7rG0OCdhS54" role="3cqZAk">
-                      <property role="Xl_RC" value="(list&lt;&gt; passed in)" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="7rG0OCdhS55" role="3cqZAp">
-                <node concept="Xl_RD" id="7rG0OCdhS56" role="3clFbG">
-                  <property role="Xl_RC" value="" />
-                </node>
-              </node>
-            </node>
           </node>
         </node>
       </node>
