@@ -2280,13 +2280,38 @@
         </node>
         <node concept="3clFbJ" id="7HBdlGU5mGa" role="3cqZAp">
           <node concept="3clFbS" id="7HBdlGU5mGc" role="3clFbx">
-            <node concept="3clFbF" id="7HBdlGU5oqw" role="3cqZAp">
-              <node concept="37vLTI" id="7HBdlGU5oE0" role="3clFbG">
-                <node concept="3clFbT" id="7HBdlGU5oHE" role="37vLTx">
-                  <property role="3clFbU" value="true" />
+            <node concept="3clFbJ" id="1h$q6rwsSi1" role="3cqZAp">
+              <node concept="3clFbS" id="1h$q6rwsSi3" role="3clFbx">
+                <node concept="3clFbF" id="7HBdlGU5oqw" role="3cqZAp">
+                  <node concept="37vLTI" id="7HBdlGU5oE0" role="3clFbG">
+                    <node concept="3clFbT" id="7HBdlGU5oHE" role="37vLTx">
+                      <property role="3clFbU" value="true" />
+                    </node>
+                    <node concept="37vLTw" id="7HBdlGU5oqu" role="37vLTJ">
+                      <ref role="3cqZAo" node="7HBdlGU532B" resolve="useRemoteIpAddressforAuthentication" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="37vLTw" id="7HBdlGU5oqu" role="37vLTJ">
-                  <ref role="3cqZAo" node="7HBdlGU532B" resolve="useRemoteIpAddressforAuthentication" />
+              </node>
+              <node concept="2OqwBi" id="1h$q6rwsVqK" role="3clFbw">
+                <node concept="liA8E" id="1h$q6rwsWka" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="2OqwBi" id="1h$q6rwsUvR" role="37wK5m">
+                    <node concept="2OqwBi" id="1h$q6rwsSJ8" role="2Oq$k0">
+                      <node concept="37vLTw" id="1h$q6rwsSEQ" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7HBdlGU5fhG" resolve="authViaIp" />
+                      </node>
+                      <node concept="liA8E" id="1h$q6rwsUuh" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1h$q6rwsVp0" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1h$q6rwsWoh" role="2Oq$k0">
+                  <property role="Xl_RC" value="true" />
                 </node>
               </node>
             </node>

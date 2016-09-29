@@ -160,6 +160,18 @@
     <property role="34LRSv" value="Delegate Form" />
     <property role="R4oN_" value="form with contains delegates" />
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
+    <node concept="1TJgyj" id="1h$q6rwmHiW" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="1..n" />
+      <property role="20kJfa" value="delegates" />
+      <ref role="20lvS9" node="1h$q6rwmHiT" resolve="IDelegate" />
+    </node>
+    <node concept="1TJgyj" id="3ouNayfGPCd" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="colWeights" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6MSPLZmFwYc" resolve="LayoutWeight" />
+    </node>
     <node concept="PrWs8" id="2zZnBEDxFzB" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
     </node>
@@ -302,6 +314,167 @@
     <node concept="PrWs8" id="7rG0OCdiLbY" role="PzmwI">
       <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1h$q6rwmHiS">
+    <property role="1pbfSe" value="188793570" />
+    <property role="TrG5h" value="BaseDelegate" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="MwhBj" value="${module}/icons/delegate.png" />
+    <property role="3GE5qa" value="delegates" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1h$q6rwn4iu" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="boundTo" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1h$q6rwpvzb" resolve="IPath" />
+    </node>
+    <node concept="PrWs8" id="1h$q6rwmHiU" role="PzmwI">
+      <ref role="PrY4T" node="1h$q6rwmHiT" resolve="IDelegate" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1h$q6rwmHiT">
+    <property role="1pbfSe" value="188793569" />
+    <property role="TrG5h" value="IDelegate" />
+    <property role="3GE5qa" value="delegates" />
+  </node>
+  <node concept="1TIwiD" id="1h$q6rwn4fl">
+    <property role="1pbfSe" value="188699589" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="IntegerDelegate" />
+    <property role="34LRSv" value="Integer" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+  </node>
+  <node concept="1TIwiD" id="1h$q6rwn4fL">
+    <property role="1pbfSe" value="188699561" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="BigDecimalDelegate" />
+    <property role="34LRSv" value="BigDecimal" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+  </node>
+  <node concept="1TIwiD" id="1h$q6rwn4fM">
+    <property role="1pbfSe" value="188699560" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="StringDelegate" />
+    <property role="34LRSv" value="String" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+  </node>
+  <node concept="1TIwiD" id="1h$q6rwnyZ3">
+    <property role="1pbfSe" value="188573655" />
+    <property role="3GE5qa" value="delegates.path" />
+    <property role="TrG5h" value="LocalPropertyReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1h$q6rwpvzw" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="property" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:huRhdFY" resolve="Property" />
+    </node>
+    <node concept="PrWs8" id="1h$q6rwqYQg" role="PzmwI">
+      <ref role="PrY4T" node="1h$q6rwpvzb" resolve="IPath" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1h$q6rwpvzb">
+    <property role="1pbfSe" value="188063439" />
+    <property role="3GE5qa" value="delegates.path" />
+    <property role="TrG5h" value="IPath" />
+  </node>
+  <node concept="1TIwiD" id="1h$q6rwpvDi">
+    <property role="1pbfSe" value="188063048" />
+    <property role="3GE5qa" value="delegates.path" />
+    <property role="TrG5h" value="PathDot" />
+    <property role="34LRSv" value="." />
+    <property role="R4oN_" value="Dot for Path" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1h$q6rwpvDr" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="operand" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1h$q6rwpvzb" resolve="IPath" />
+    </node>
+    <node concept="1TJgyj" id="1h$q6rwpvDt" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="operation" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1h$q6rwpvDV" resolve="IPathOperation" />
+    </node>
+    <node concept="PrWs8" id="1h$q6rwqYQa" role="PzmwI">
+      <ref role="PrY4T" node="1h$q6rwpvzb" resolve="IPath" />
+    </node>
+    <node concept="PrWs8" id="1h$q6rws0dX" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1h$q6rwpvDV">
+    <property role="1pbfSe" value="188063007" />
+    <property role="3GE5qa" value="delegates.path" />
+    <property role="TrG5h" value="IPathOperation" />
+  </node>
+  <node concept="1TIwiD" id="3ouNayfEV1F">
+    <property role="1pbfSe" value="976585453" />
+    <property role="3GE5qa" value="delegates.path" />
+    <property role="TrG5h" value="OperationPropertyReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3ouNayfEV69" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="property" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:huRhdFY" resolve="Property" />
+    </node>
+    <node concept="PrWs8" id="3ouNayfEV1G" role="PzmwI">
+      <ref role="PrY4T" node="1h$q6rwpvDV" resolve="IPathOperation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3ouNayfF_eg">
+    <property role="1pbfSe" value="976412616" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="DateTimeDateOnlyDelegate" />
+    <property role="34LRSv" value="DateTime Date Only" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+  </node>
+  <node concept="1TIwiD" id="3ouNayfF_eh">
+    <property role="1pbfSe" value="976412615" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="DateTimeDelegate" />
+    <property role="34LRSv" value="DateTime" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+  </node>
+  <node concept="1TIwiD" id="3ouNayfF_ei">
+    <property role="1pbfSe" value="976412614" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="LocalDateDelegate" />
+    <property role="34LRSv" value="LocalDate" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+  </node>
+  <node concept="1TIwiD" id="3ouNayfF_ej">
+    <property role="1pbfSe" value="976412613" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="ImageDelegate" />
+    <property role="34LRSv" value="Image" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+  </node>
+  <node concept="1TIwiD" id="3ouNayfF_ek">
+    <property role="1pbfSe" value="976412612" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="ReferenceDelegate" />
+    <property role="34LRSv" value="Reference" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+  </node>
+  <node concept="1TIwiD" id="3ouNayfF_el">
+    <property role="1pbfSe" value="976412611" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="StatusDelegate" />
+    <property role="34LRSv" value="Status" />
+    <property role="R4oN_" value="Delegate" />
+    <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
   </node>
 </model>
 
