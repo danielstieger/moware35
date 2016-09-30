@@ -822,6 +822,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="finalOkMessage" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <node concept="asaX9" id="43H1fr7tzcD" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="6IXTkEOVX_p" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -855,6 +856,12 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="maxInitCmdDescription" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="43H1fr7tvPj" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="commandCreationInformation" />
+      <ref role="20lvS9" node="43H1fr7tveF" resolve="CommandCreationInfo" />
     </node>
     <node concept="1TJgyj" id="1IEa9ReVfmD" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -3480,6 +3487,41 @@
       <property role="20kJfa" value="test" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="43H1fr7tveF">
+    <property role="1pbfSe" value="140703905" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="CommandCreationInfo" />
+    <property role="34LRSv" value="Information" />
+    <property role="R4oN_" value="on created entities" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="43H1fr7zA0y" role="1TKVEl">
+      <property role="TrG5h" value="refName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="43H1fr7tvlN" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="msg" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="43H1fr7tvn9" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="keyReference" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="43H1fr7LFvT">
+    <property role="1pbfSe" value="145997039" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestCommandCreationInfoRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="43H1fr7LFxE" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="reference" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="43H1fr7tveF" resolve="CommandCreationInfo" />
     </node>
   </node>
 </model>

@@ -27335,7 +27335,9 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="10Nm6u" id="6U6qQMZDmrO" role="37wK5m" />
+                    <node concept="37vLTw" id="43H1fr5ZQL1" role="37wK5m">
+                      <ref role="3cqZAo" node="6U6qQMZChDC" resolve="__manMapSession" />
+                    </node>
                     <node concept="37vLTw" id="6U6qQMZDo2v" role="37wK5m">
                       <ref role="3cqZAo" node="6U6qQMZCQic" resolve="userEnvironment" />
                     </node>

@@ -16,6 +16,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -61,6 +62,9 @@
       </concept>
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -175,6 +179,14 @@
         <reference id="7926373352206300596" name="runtimeHandledObject" index="1ods_" />
         <child id="3262649880243657037" name="sessionExpression" index="2f8TIa" />
       </concept>
+      <concept id="4678401045867968505" name="org.modellwerkstatt.objectflow.structure.OFXTestCommandCreationInfoRef" flags="ng" index="27aVcf">
+        <reference id="4678401045867968618" name="reference" index="27aVMs" />
+      </concept>
+      <concept id="4678401045862675371" name="org.modellwerkstatt.objectflow.structure.CommandCreationInfo" flags="ng" index="27Aftt">
+        <property id="4678401045864276002" name="refName" index="27oQjk" />
+        <child id="4678401045862675913" name="keyReference" index="27Af4Z" />
+        <child id="4678401045862675827" name="msg" index="27Af65" />
+      </concept>
       <concept id="8301412231057225617" name="org.modellwerkstatt.objectflow.structure.OFXTestStatementList" flags="ig" index="2d2NRx" />
       <concept id="2423238041810352109" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDefaultDateTimeOption" flags="ng" index="xWan4">
         <property id="2423238041810352537" name="second" index="xWaIK" />
@@ -271,6 +283,7 @@
         <property id="7912134052599426179" name="newCommandType" index="19I623" />
         <property id="8569227807555216336" name="overWriteWindowTitle" index="1UlA2q" />
         <reference id="1993450443311478185" name="process" index="3lhHOO" />
+        <child id="4678401045862677843" name="commandCreationInformation" index="27AfA_" />
         <child id="3748648354049763742" name="titleAddOn" index="IYfpf" />
         <child id="1881524139086021953" name="exceptionConclusionStatements" index="10_K5X" />
         <child id="1881524139085993257" name="okConclusionStatements" index="10_T4l" />
@@ -834,6 +847,18 @@
     <property role="TrG5h" value="Checkout Invoice" />
     <property role="19I623" value="GRAPH_OWNER_CMD" />
     <ref role="3lhHOO" node="Joc9_LZQLM" resolve="Invoice Process" />
+    <node concept="27Aftt" id="43H1fr7JwCY" role="27AfA_">
+      <property role="27oQjk" value="invoiceId" />
+      <node concept="35AVbj" id="43H1fr7JwGy" role="27Af65">
+        <property role="35AVef" value="Rechnung %d erzeugt." />
+        <node concept="3cmrfG" id="43H1fr7JwJe" role="35Gt3$">
+          <property role="3cmrfH" value="10" />
+        </node>
+      </node>
+      <node concept="3urNQE" id="43H1fr7SCPY" role="27Af4Z">
+        <ref role="3cqZAo" node="6_VKg6ltWsT" resolve="info" />
+      </node>
+    </node>
     <node concept="3ulXEN" id="5MCXLSnMhIO" role="3ulXEL">
       <property role="TrG5h" value="id" />
       <node concept="10Oyi0" id="5MCXLSnMhJc" role="1tU5fm" />
@@ -1775,6 +1800,9 @@
         <property role="TrG5h" value="invoice" />
         <ref role="1sBLEe" node="5MCXLSnMhBY" resolve="MainPage" />
         <ref role="1sBMaO" node="5MCXLSnMhKi" resolve="Save &amp; Close" />
+        <node concept="2d2NRx" id="43H1fr7LDH8" role="1sBMHV">
+          <node concept="3clFbS" id="43H1fr7LDH9" role="2VODD2" />
+        </node>
       </node>
       <node concept="3yABqi" id="26QcchW0ms_" role="3yGA3Q">
         <property role="TrG5h" value="inv1" />
@@ -1809,6 +1837,25 @@
       </node>
       <node concept="3cqZAl" id="26QcchW0msJ" role="3clF45" />
       <node concept="3clFbS" id="26QcchW0msK" role="3clF47">
+        <node concept="3clFbF" id="43H1fr7SCnW" role="3cqZAp">
+          <node concept="2OqwBi" id="43H1fr7SCnT" role="3clFbG">
+            <node concept="10M0yZ" id="43H1fr7SCnU" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="43H1fr7SCnV" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="43H1fr7SCKd" role="37wK5m">
+                <node concept="27aVcf" id="43H1fr7SCLB" role="3uHU7w">
+                  <ref role="27aVMs" node="43H1fr7JwCY" />
+                </node>
+                <node concept="Xl_RD" id="43H1fr7SCF9" role="3uHU7B">
+                  <property role="Xl_RC" value="&gt;&gt; " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="1gVbGN" id="26QcchW0msL" role="3cqZAp">
           <node concept="2OqwBi" id="26QcchW0msM" role="1gVkn0">
             <node concept="3zkua3" id="26QcchW0msN" role="2Oq$k0">
