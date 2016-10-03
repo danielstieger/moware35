@@ -2011,7 +2011,7 @@
       <node concept="17QB3L" id="4QTIUTC1Wnd" role="1tU5fm" />
       <node concept="3Tm1VV" id="vsIEjNpph7" role="1B3o_S" />
       <node concept="Xl_RD" id="4QTIUTC1Z1Y" role="33vP2m">
-        <property role="Xl_RC" value="VaadinForms 1.0 summer 2016" />
+        <property role="Xl_RC" value="VaadinForms 1.0 automne 2016" />
       </node>
     </node>
     <node concept="Wx3nA" id="1JNuSGkemv_" role="jymVt">
@@ -2559,6 +2559,15 @@
                   <node concept="2YIFZM" id="4QTIUTCqe$V" role="3clFbG">
                     <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
                     <ref role="37wK5l" node="4QTIUTCpGCs" resolve="clearHardLog" />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1BZ9wCallug" role="3cqZAp">
+                  <node concept="2YIFZM" id="1BZ9wCallTn" role="3clFbG">
+                    <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+                    <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+                    <node concept="Xl_RD" id="1BZ9wCallXT" role="37wK5m">
+                      <property role="Xl_RC" value="VApplicationLoader: Startup of application - app loaded." />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -10806,6 +10815,31 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="6go2Mrsw5O0" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="addCmdTerminationStatusMsg" />
+      <node concept="3cqZAl" id="6go2Mrsw5O1" role="3clF45" />
+      <node concept="3Tm1VV" id="6go2Mrsw5O2" role="1B3o_S" />
+      <node concept="37vLTG" id="6go2Mrsw5O4" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="6go2Mrsw5O5" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="6go2Mrsw5O7" role="3clF47">
+        <node concept="3clFbF" id="6go2MrsxDe5" role="3cqZAp">
+          <node concept="2OqwBi" id="6go2MrsxDnk" role="3clFbG">
+            <node concept="37vLTw" id="6go2MrsxDe4" role="2Oq$k0">
+              <ref role="3cqZAo" node="6go2Mrsw18s" resolve="applicationCrtl" />
+            </node>
+            <node concept="liA8E" id="6go2MrsxDym" role="2OqNvi">
+              <ref role="37wK5l" to="quhv:78E3KqmPt54" resolve="setToastInformation" />
+              <node concept="37vLTw" id="6go2MrsxDFz" role="37wK5m">
+                <ref role="3cqZAo" node="6go2Mrsw5O4" resolve="msg" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="6go2MrsvVhN" role="jymVt" />
     <node concept="3clFb_" id="HsWD0njXkd" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -11750,31 +11784,6 @@
               <ref role="37wK5l" to="waq:~UI.addWindow(com.vaadin.ui.Window):void" resolve="addWindow" />
               <node concept="37vLTw" id="7b0XfCDJlYf" role="37wK5m">
                 <ref role="3cqZAo" node="6go2MrsxGfL" resolve="box" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="6go2Mrsw5O0" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="addCmdTerminationStatusMsg" />
-      <node concept="3cqZAl" id="6go2Mrsw5O1" role="3clF45" />
-      <node concept="3Tm1VV" id="6go2Mrsw5O2" role="1B3o_S" />
-      <node concept="37vLTG" id="6go2Mrsw5O4" role="3clF46">
-        <property role="TrG5h" value="msg" />
-        <node concept="17QB3L" id="6go2Mrsw5O5" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="6go2Mrsw5O7" role="3clF47">
-        <node concept="3clFbF" id="6go2MrsxDe5" role="3cqZAp">
-          <node concept="2OqwBi" id="6go2MrsxDnk" role="3clFbG">
-            <node concept="37vLTw" id="6go2MrsxDe4" role="2Oq$k0">
-              <ref role="3cqZAo" node="6go2Mrsw18s" resolve="applicationCrtl" />
-            </node>
-            <node concept="liA8E" id="6go2MrsxDym" role="2OqNvi">
-              <ref role="37wK5l" to="quhv:5_bDd1dPe_P" resolve="addStatusInformation" />
-              <node concept="37vLTw" id="6go2MrsxDFz" role="37wK5m">
-                <ref role="3cqZAo" node="6go2Mrsw5O4" resolve="msg" />
               </node>
             </node>
           </node>
@@ -24513,31 +24522,6 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="HsWD0njXjq" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="addCmdTerminationStatusMsg" />
-      <node concept="3cqZAl" id="HsWD0njXjr" role="3clF45" />
-      <node concept="3Tm1VV" id="HsWD0njXjs" role="1B3o_S" />
-      <node concept="37vLTG" id="HsWD0njXjt" role="3clF46">
-        <property role="TrG5h" value="msg" />
-        <node concept="17QB3L" id="HsWD0njXju" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="HsWD0njXjv" role="3clF47">
-        <node concept="3clFbF" id="HsWD0njXjw" role="3cqZAp">
-          <node concept="2OqwBi" id="HsWD0njXjx" role="3clFbG">
-            <node concept="37vLTw" id="HsWD0njXjy" role="2Oq$k0">
-              <ref role="3cqZAo" node="6go2Mrsw18s" resolve="applicationCrtl" />
-            </node>
-            <node concept="liA8E" id="HsWD0njXjz" role="2OqNvi">
-              <ref role="37wK5l" to="quhv:5_bDd1dPe_P" resolve="addStatusInformation" />
-              <node concept="37vLTw" id="HsWD0njXj$" role="37wK5m">
-                <ref role="3cqZAo" node="HsWD0njXjt" resolve="msg" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="HsWD0njXjF" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="showDialogOnParent" />
@@ -30447,6 +30431,11 @@
         <node concept="17QB3L" id="61_QXqSd2mF" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="61_QXqSd2mG" role="3clF47">
+        <node concept="3SKdUt" id="1BZ9wCakJEf" role="3cqZAp">
+          <node concept="3SKdUq" id="1BZ9wCakJEh" role="3SKWNk">
+            <property role="3SKdUp" value="set to right status label and show window! " />
+          </node>
+        </node>
         <node concept="3clFbF" id="61_QXqSd2mH" role="3cqZAp">
           <node concept="2OqwBi" id="61_QXqSd2mI" role="3clFbG">
             <node concept="37vLTw" id="61_QXqSd2mJ" role="2Oq$k0">
@@ -30460,6 +30449,97 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="78E3KqmR$4Y" role="3cqZAp">
+          <node concept="3clFbS" id="78E3KqmR$50" role="3clFbx">
+            <node concept="3cpWs6" id="78E3KqmR$uz" role="3cqZAp" />
+          </node>
+          <node concept="2OqwBi" id="78E3KqmR$a2" role="3clFbw">
+            <node concept="Xl_RD" id="78E3KqmR$84" role="2Oq$k0">
+              <property role="Xl_RC" value="-" />
+            </node>
+            <node concept="liA8E" id="78E3KqmR$fE" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="37vLTw" id="78E3KqmR$hZ" role="37wK5m">
+                <ref role="3cqZAo" node="61_QXqSd2mE" resolve="info" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1BZ9wCakTnB" role="3cqZAp" />
+        <node concept="3cpWs8" id="1BZ9wCakNh3" role="3cqZAp">
+          <node concept="3cpWsn" id="1BZ9wCakNh4" role="3cpWs9">
+            <property role="TrG5h" value="notif" />
+            <node concept="3uibUv" id="1BZ9wCakNh5" role="1tU5fm">
+              <ref role="3uigEE" to="waq:~Notification" resolve="Notification" />
+            </node>
+            <node concept="2ShNRf" id="1BZ9wCakNh6" role="33vP2m">
+              <node concept="1pGfFk" id="1BZ9wCakNh7" role="2ShVmc">
+                <ref role="37wK5l" to="waq:~Notification.&lt;init&gt;(java.lang.String,java.lang.String,com.vaadin.ui.Notification$Type)" resolve="Notification" />
+                <node concept="2OqwBi" id="1BZ9wCam7FK" role="37wK5m">
+                  <node concept="37vLTw" id="1BZ9wCam7C0" role="2Oq$k0">
+                    <ref role="3cqZAo" node="61_QXqSd29C" resolve="factory" />
+                  </node>
+                  <node concept="liA8E" id="1BZ9wCam7IK" role="2OqNvi">
+                    <ref role="37wK5l" to="quhv:20ohnkbA2Ln" resolve="getTranslation" />
+                    <node concept="Rm8GO" id="1BZ9wCam8nw" role="37wK5m">
+                      <ref role="Rm8GQ" to="quhv:4Zj1V_wFQwi" resolve="INFORMATION" />
+                      <ref role="1Px2BO" to="quhv:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1BZ9wCakNDO" role="37wK5m">
+                  <ref role="3cqZAo" node="61_QXqSd2mE" resolve="info" />
+                </node>
+                <node concept="Rm8GO" id="1BZ9wCam7uf" role="37wK5m">
+                  <ref role="Rm8GQ" to="waq:~Notification$Type.HUMANIZED_MESSAGE" resolve="HUMANIZED_MESSAGE" />
+                  <ref role="1Px2BO" to="waq:~Notification$Type" resolve="Notification.Type" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1BZ9wCalU94" role="3cqZAp">
+          <node concept="2OqwBi" id="1BZ9wCalUcY" role="3clFbG">
+            <node concept="37vLTw" id="1BZ9wCalU92" role="2Oq$k0">
+              <ref role="3cqZAo" node="1BZ9wCakNh4" resolve="notif" />
+            </node>
+            <node concept="liA8E" id="1BZ9wCalUiA" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~Notification.setDelayMsec(int):void" resolve="setDelayMsec" />
+              <node concept="3cmrfG" id="1BZ9wCalUnJ" role="37wK5m">
+                <property role="3cmrfH" value="2000" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1BZ9wCakNhe" role="3cqZAp">
+          <node concept="2OqwBi" id="1BZ9wCakNhf" role="3clFbG">
+            <node concept="37vLTw" id="1BZ9wCakNhg" role="2Oq$k0">
+              <ref role="3cqZAo" node="1BZ9wCakNh4" resolve="notif" />
+            </node>
+            <node concept="liA8E" id="1BZ9wCakNhh" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~Notification.setPosition(com.vaadin.shared.Position):void" resolve="setPosition" />
+              <node concept="Rm8GO" id="1BZ9wCalSM$" role="37wK5m">
+                <ref role="Rm8GQ" to="605v:~Position.TOP_CENTER" resolve="TOP_CENTER" />
+                <ref role="1Px2BO" to="605v:~Position" resolve="Position" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1BZ9wCakNhj" role="3cqZAp">
+          <node concept="2OqwBi" id="1BZ9wCakNhk" role="3clFbG">
+            <node concept="37vLTw" id="1BZ9wCakNhl" role="2Oq$k0">
+              <ref role="3cqZAo" node="1BZ9wCakNh4" resolve="notif" />
+            </node>
+            <node concept="liA8E" id="1BZ9wCakNhm" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~Notification.show(com.vaadin.server.Page):void" resolve="show" />
+              <node concept="2YIFZM" id="1BZ9wCakNhn" role="37wK5m">
+                <ref role="1Pybhc" to="tk4x:~Page" resolve="Page" />
+                <ref role="37wK5l" to="tk4x:~Page.getCurrent():com.vaadin.server.Page" resolve="getCurrent" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1BZ9wCalKMC" role="3cqZAp" />
       </node>
     </node>
     <node concept="3clFb_" id="61_QXqSd2mM" role="jymVt">

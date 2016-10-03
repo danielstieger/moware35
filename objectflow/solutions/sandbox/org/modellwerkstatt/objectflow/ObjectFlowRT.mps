@@ -3431,13 +3431,6 @@
       <node concept="3Tm1VV" id="6dnXV8mIGtF" role="1B3o_S" />
       <node concept="3clFbS" id="6dnXV8mIGtG" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="mhNtP8NyI6" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getTerminateOkMessage" />
-      <node concept="17QB3L" id="mhNtP8N$G1" role="3clF45" />
-      <node concept="3Tm1VV" id="mhNtP8NyI8" role="1B3o_S" />
-      <node concept="3clFbS" id="mhNtP8NyI9" role="3clF47" />
-    </node>
     <node concept="3clFb_" id="6IXTkEOYpNX" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getTerminateOkSelections" />
@@ -3462,6 +3455,29 @@
       <node concept="3clFbS" id="6dnXV8mIGtO" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="6Rdz00$Ve_h" role="jymVt" />
+    <node concept="3clFb_" id="1BZ9wC9nVgg" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getTerminateOkCreateInformation" />
+      <node concept="3clFbS" id="1BZ9wC9nVgj" role="3clF47" />
+      <node concept="3Tm1VV" id="1BZ9wC9nVgk" role="1B3o_S" />
+      <node concept="17QB3L" id="1BZ9wC9nVw$" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="1BZ9wC9nWAi" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getTerminateOkObjectForId" />
+      <node concept="3clFbS" id="1BZ9wC9nWAl" role="3clF47" />
+      <node concept="3Tm1VV" id="1BZ9wC9nWAm" role="1B3o_S" />
+      <node concept="3uibUv" id="1BZ9wC9nWop" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="37vLTG" id="1BZ9wC9nWJE" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="1BZ9wC9nWJD" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1BZ9wC9nUWM" role="jymVt" />
     <node concept="3clFb_" id="4C7UZKDAoDO" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getCommandSession" />

@@ -36055,11 +36055,120 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1BZ9wCak2sL" role="3cqZAp">
+          <node concept="2OqwBi" id="1BZ9wCak2Po" role="3clFbG">
+            <node concept="2OqwBi" id="1BZ9wCak2sN" role="2Oq$k0">
+              <node concept="2OqwBi" id="1BZ9wCak2sO" role="2Oq$k0">
+                <node concept="liA8E" id="1BZ9wCak2sP" role="2OqNvi">
+                  <ref role="37wK5l" to="p18y:~Scene.getRoot():javafx.scene.Parent" resolve="getRoot" />
+                </node>
+                <node concept="2OqwBi" id="1BZ9wCak2sQ" role="2Oq$k0">
+                  <node concept="37vLTw" id="1BZ9wCak2sR" role="2Oq$k0">
+                    <ref role="3cqZAo" node="248r5L2AIYZ" resolve="toastStage" />
+                  </node>
+                  <node concept="liA8E" id="1BZ9wCak2sS" role="2OqNvi">
+                    <ref role="37wK5l" to="zsw4:~Window.getScene():javafx.scene.Scene" resolve="getScene" />
+                  </node>
+                </node>
+              </node>
+              <node concept="liA8E" id="1BZ9wCak2sT" role="2OqNvi">
+                <ref role="37wK5l" to="p18y:~Node.opacityProperty():javafx.beans.property.DoubleProperty" resolve="opacityProperty" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1BZ9wCak3j0" role="2OqNvi">
+              <ref role="37wK5l" to="8j64:~WritableDoubleValue.set(double):void" resolve="set" />
+              <node concept="3b6qkQ" id="1BZ9wCak3nU" role="37wK5m">
+                <property role="$nhwW" value="0.0" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="78E3KqmRqcI" role="3cqZAp" />
+        <node concept="3clFbH" id="1BZ9wCak1sX" role="3cqZAp" />
+        <node concept="3cpWs8" id="1BZ9wCak1U9" role="3cqZAp">
+          <node concept="3cpWsn" id="1BZ9wCak1Ua" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="fadeIn" />
+            <node concept="3uibUv" id="1BZ9wCak1Ub" role="1tU5fm">
+              <ref role="3uigEE" to="rami:~Timeline" resolve="Timeline" />
+            </node>
+            <node concept="2ShNRf" id="1BZ9wCak1Uc" role="33vP2m">
+              <node concept="1pGfFk" id="1BZ9wCak1Ud" role="2ShVmc">
+                <ref role="37wK5l" to="rami:~Timeline.&lt;init&gt;()" resolve="Timeline" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1BZ9wCak1Ue" role="3cqZAp">
+          <node concept="3cpWsn" id="1BZ9wCak1Uf" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="key0" />
+            <node concept="3uibUv" id="1BZ9wCak1Ug" role="1tU5fm">
+              <ref role="3uigEE" to="rami:~KeyFrame" resolve="KeyFrame" />
+            </node>
+            <node concept="2ShNRf" id="1BZ9wCak1Uh" role="33vP2m">
+              <node concept="1pGfFk" id="1BZ9wCak1Ui" role="2ShVmc">
+                <ref role="37wK5l" to="rami:~KeyFrame.&lt;init&gt;(javafx.util.Duration,javafx.animation.KeyValue...)" resolve="KeyFrame" />
+                <node concept="2YIFZM" id="1BZ9wCak1Uj" role="37wK5m">
+                  <ref role="1Pybhc" to="y62k:~Duration" resolve="Duration" />
+                  <ref role="37wK5l" to="y62k:~Duration.millis(double):javafx.util.Duration" resolve="millis" />
+                  <node concept="3cmrfG" id="1BZ9wCak1Uk" role="37wK5m">
+                    <property role="3cmrfH" value="500" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="1BZ9wCak1Ul" role="37wK5m">
+                  <node concept="1pGfFk" id="1BZ9wCak1Um" role="2ShVmc">
+                    <ref role="37wK5l" to="rami:~KeyValue.&lt;init&gt;(javafx.beans.value.WritableValue,java.lang.Object)" resolve="KeyValue" />
+                    <node concept="2OqwBi" id="1BZ9wCak1Un" role="37wK5m">
+                      <node concept="2OqwBi" id="1BZ9wCak1Uo" role="2Oq$k0">
+                        <node concept="liA8E" id="1BZ9wCak1Up" role="2OqNvi">
+                          <ref role="37wK5l" to="p18y:~Scene.getRoot():javafx.scene.Parent" resolve="getRoot" />
+                        </node>
+                        <node concept="2OqwBi" id="1BZ9wCak1Uq" role="2Oq$k0">
+                          <node concept="37vLTw" id="1BZ9wCak1Ur" role="2Oq$k0">
+                            <ref role="3cqZAo" node="248r5L2AIYZ" resolve="toastStage" />
+                          </node>
+                          <node concept="liA8E" id="1BZ9wCak1Us" role="2OqNvi">
+                            <ref role="37wK5l" to="zsw4:~Window.getScene():javafx.scene.Scene" resolve="getScene" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1BZ9wCak1Ut" role="2OqNvi">
+                        <ref role="37wK5l" to="p18y:~Node.opacityProperty():javafx.beans.property.DoubleProperty" resolve="opacityProperty" />
+                      </node>
+                    </node>
+                    <node concept="3b6qkQ" id="1BZ9wCak1Uu" role="37wK5m">
+                      <property role="$nhwW" value="1.0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1BZ9wCak1Uv" role="3cqZAp">
+          <node concept="2OqwBi" id="1BZ9wCak1Uw" role="3clFbG">
+            <node concept="2OqwBi" id="1BZ9wCak1Ux" role="2Oq$k0">
+              <node concept="37vLTw" id="1BZ9wCak1Uy" role="2Oq$k0">
+                <ref role="3cqZAo" node="1BZ9wCak1Ua" resolve="fadeIn" />
+              </node>
+              <node concept="liA8E" id="1BZ9wCak1Uz" role="2OqNvi">
+                <ref role="37wK5l" to="rami:~Timeline.getKeyFrames():javafx.collections.ObservableList" resolve="getKeyFrames" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1BZ9wCak1U$" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+              <node concept="37vLTw" id="1BZ9wCak1U_" role="37wK5m">
+                <ref role="3cqZAo" node="1BZ9wCak1Uf" resolve="key0" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1BZ9wCak1Gc" role="3cqZAp" />
         <node concept="3cpWs8" id="78E3KqmQP48" role="3cqZAp">
           <node concept="3cpWsn" id="78E3KqmQP47" role="3cpWs9">
             <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="timeline" />
+            <property role="TrG5h" value="constant" />
             <node concept="3uibUv" id="78E3KqmQP49" role="1tU5fm">
               <ref role="3uigEE" to="rami:~Timeline" resolve="Timeline" />
             </node>
@@ -36084,7 +36193,7 @@
                   <ref role="1Pybhc" to="y62k:~Duration" resolve="Duration" />
                   <ref role="37wK5l" to="y62k:~Duration.millis(double):javafx.util.Duration" resolve="millis" />
                   <node concept="3cmrfG" id="78E3KqmQP4g" role="37wK5m">
-                    <property role="3cmrfH" value="3000" />
+                    <property role="3cmrfH" value="1500" />
                   </node>
                 </node>
                 <node concept="2ShNRf" id="78E3KqmQP50" role="37wK5m">
@@ -36109,7 +36218,7 @@
                       </node>
                     </node>
                     <node concept="3b6qkQ" id="78E3KqmRIEM" role="37wK5m">
-                      <property role="$nhwW" value="0.0" />
+                      <property role="$nhwW" value="1.0" />
                     </node>
                   </node>
                 </node>
@@ -36121,7 +36230,7 @@
           <node concept="2OqwBi" id="78E3KqmQP4p" role="3clFbG">
             <node concept="2OqwBi" id="78E3KqmQP5f" role="2Oq$k0">
               <node concept="37vLTw" id="78E3KqmQP5e" role="2Oq$k0">
-                <ref role="3cqZAo" node="78E3KqmQP47" resolve="timeline" />
+                <ref role="3cqZAo" node="78E3KqmQP47" resolve="constant" />
               </node>
               <node concept="liA8E" id="78E3KqmQP5g" role="2OqNvi">
                 <ref role="37wK5l" to="rami:~Timeline.getKeyFrames():javafx.collections.ObservableList" resolve="getKeyFrames" />
@@ -36129,16 +36238,96 @@
             </node>
             <node concept="liA8E" id="78E3KqmQP4r" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
-              <node concept="37vLTw" id="78E3KqmQP4s" role="37wK5m">
+              <node concept="37vLTw" id="1BZ9wCajvfu" role="37wK5m">
                 <ref role="3cqZAo" node="78E3KqmQP4b" resolve="key" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1BZ9wCajxtm" role="3cqZAp" />
+        <node concept="3cpWs8" id="1BZ9wCajyGw" role="3cqZAp">
+          <node concept="3cpWsn" id="1BZ9wCajyGx" role="3cpWs9">
+            <property role="TrG5h" value="fadeOut" />
+            <node concept="3uibUv" id="1BZ9wCajyGy" role="1tU5fm">
+              <ref role="3uigEE" to="rami:~Timeline" resolve="Timeline" />
+            </node>
+            <node concept="2ShNRf" id="1BZ9wCajz0Q" role="33vP2m">
+              <node concept="1pGfFk" id="1BZ9wCajyZy" role="2ShVmc">
+                <ref role="37wK5l" to="rami:~Timeline.&lt;init&gt;()" resolve="Timeline" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1BZ9wCaj4gN" role="3cqZAp">
+          <node concept="3cpWsn" id="1BZ9wCaj4gO" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="key2" />
+            <node concept="3uibUv" id="1BZ9wCaj4gP" role="1tU5fm">
+              <ref role="3uigEE" to="rami:~KeyFrame" resolve="KeyFrame" />
+            </node>
+            <node concept="2ShNRf" id="1BZ9wCaj4gQ" role="33vP2m">
+              <node concept="1pGfFk" id="1BZ9wCaj4gR" role="2ShVmc">
+                <ref role="37wK5l" to="rami:~KeyFrame.&lt;init&gt;(javafx.util.Duration,javafx.animation.KeyValue...)" resolve="KeyFrame" />
+                <node concept="2YIFZM" id="1BZ9wCaj4gS" role="37wK5m">
+                  <ref role="1Pybhc" to="y62k:~Duration" resolve="Duration" />
+                  <ref role="37wK5l" to="y62k:~Duration.millis(double):javafx.util.Duration" resolve="millis" />
+                  <node concept="3cmrfG" id="1BZ9wCaj4gT" role="37wK5m">
+                    <property role="3cmrfH" value="500" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="1BZ9wCaj4gU" role="37wK5m">
+                  <node concept="1pGfFk" id="1BZ9wCaj4gV" role="2ShVmc">
+                    <ref role="37wK5l" to="rami:~KeyValue.&lt;init&gt;(javafx.beans.value.WritableValue,java.lang.Object)" resolve="KeyValue" />
+                    <node concept="2OqwBi" id="1BZ9wCaj4gW" role="37wK5m">
+                      <node concept="2OqwBi" id="1BZ9wCaj4gX" role="2Oq$k0">
+                        <node concept="liA8E" id="1BZ9wCaj4gY" role="2OqNvi">
+                          <ref role="37wK5l" to="p18y:~Scene.getRoot():javafx.scene.Parent" resolve="getRoot" />
+                        </node>
+                        <node concept="2OqwBi" id="1BZ9wCaj4gZ" role="2Oq$k0">
+                          <node concept="37vLTw" id="1BZ9wCaj4h0" role="2Oq$k0">
+                            <ref role="3cqZAo" node="248r5L2AIYZ" resolve="toastStage" />
+                          </node>
+                          <node concept="liA8E" id="1BZ9wCaj4h1" role="2OqNvi">
+                            <ref role="37wK5l" to="zsw4:~Window.getScene():javafx.scene.Scene" resolve="getScene" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="1BZ9wCaj4h2" role="2OqNvi">
+                        <ref role="37wK5l" to="p18y:~Node.opacityProperty():javafx.beans.property.DoubleProperty" resolve="opacityProperty" />
+                      </node>
+                    </node>
+                    <node concept="3b6qkQ" id="1BZ9wCaj4h3" role="37wK5m">
+                      <property role="$nhwW" value="0.0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1BZ9wCaj5bA" role="3cqZAp">
+          <node concept="2OqwBi" id="1BZ9wCaj5bB" role="3clFbG">
+            <node concept="2OqwBi" id="1BZ9wCaj5bC" role="2Oq$k0">
+              <node concept="37vLTw" id="1BZ9wCajzQI" role="2Oq$k0">
+                <ref role="3cqZAo" node="1BZ9wCajyGx" resolve="fadeOut" />
+              </node>
+              <node concept="liA8E" id="1BZ9wCaj5bE" role="2OqNvi">
+                <ref role="37wK5l" to="rami:~Timeline.getKeyFrames():javafx.collections.ObservableList" resolve="getKeyFrames" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1BZ9wCaj5bF" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+              <node concept="37vLTw" id="1BZ9wCajvm1" role="37wK5m">
+                <ref role="3cqZAo" node="1BZ9wCaj4gO" resolve="key2" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1BZ9wCaj4X_" role="3cqZAp" />
         <node concept="3clFbF" id="78E3KqmQP4t" role="3cqZAp">
           <node concept="2OqwBi" id="78E3KqmQP5o" role="3clFbG">
             <node concept="37vLTw" id="78E3KqmQP5n" role="2Oq$k0">
-              <ref role="3cqZAo" node="78E3KqmQP47" resolve="timeline" />
+              <ref role="3cqZAo" node="78E3KqmQP47" resolve="constant" />
             </node>
             <node concept="liA8E" id="78E3KqmQP5p" role="2OqNvi">
               <ref role="37wK5l" to="rami:~Animation.setOnFinished(javafx.event.EventHandler):void" resolve="setOnFinished" />
@@ -36184,10 +36373,33 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1BZ9wCajwl0" role="3cqZAp" />
+        <node concept="3cpWs8" id="1BZ9wCajx6L" role="3cqZAp">
+          <node concept="3cpWsn" id="1BZ9wCajx6M" role="3cpWs9">
+            <property role="TrG5h" value="st" />
+            <node concept="3uibUv" id="1BZ9wCajx6N" role="1tU5fm">
+              <ref role="3uigEE" to="rami:~SequentialTransition" resolve="SequentialTransition" />
+            </node>
+            <node concept="2ShNRf" id="1BZ9wCajxsh" role="33vP2m">
+              <node concept="1pGfFk" id="1BZ9wCajxqU" role="2ShVmc">
+                <ref role="37wK5l" to="rami:~SequentialTransition.&lt;init&gt;(javafx.animation.Animation...)" resolve="SequentialTransition" />
+                <node concept="37vLTw" id="1BZ9wCakcxH" role="37wK5m">
+                  <ref role="3cqZAo" node="1BZ9wCak1Ua" resolve="fadeIn" />
+                </node>
+                <node concept="37vLTw" id="1BZ9wCajzXH" role="37wK5m">
+                  <ref role="3cqZAo" node="78E3KqmQP47" resolve="constant" />
+                </node>
+                <node concept="37vLTw" id="1BZ9wCaj$43" role="37wK5m">
+                  <ref role="3cqZAo" node="1BZ9wCajyGx" resolve="fadeOut" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="78E3KqmQP4v" role="3cqZAp">
           <node concept="2OqwBi" id="78E3KqmQP5x" role="3clFbG">
-            <node concept="37vLTw" id="78E3KqmQP5w" role="2Oq$k0">
-              <ref role="3cqZAo" node="78E3KqmQP47" resolve="timeline" />
+            <node concept="37vLTw" id="1BZ9wCaj$8$" role="2Oq$k0">
+              <ref role="3cqZAo" node="1BZ9wCajx6M" resolve="st" />
             </node>
             <node concept="liA8E" id="78E3KqmQP5y" role="2OqNvi">
               <ref role="37wK5l" to="rami:~Animation.play():void" resolve="play" />
