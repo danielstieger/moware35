@@ -133,6 +133,12 @@
     <node concept="PrWs8" id="2zZnBEDxFzE" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
     </node>
+    <node concept="PrWs8" id="pQ21WN5sjA" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo7" resolve="IHasFormOptions" />
+    </node>
+    <node concept="PrWs8" id="pQ21WNcPNX" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WNcPKz" resolve="IHasDelegates" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKE">
     <property role="1pbfSe" value="1130779465" />
@@ -160,12 +166,6 @@
     <property role="34LRSv" value="Delegate Form" />
     <property role="R4oN_" value="form with contains delegates" />
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
-    <node concept="1TJgyj" id="1h$q6rwmHiW" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="1..n" />
-      <property role="20kJfa" value="delegates" />
-      <ref role="20lvS9" node="1h$q6rwmHiT" resolve="IDelegate" />
-    </node>
     <node concept="1TJgyj" id="3ouNayfGPCd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="colWeights" />
@@ -174,6 +174,12 @@
     </node>
     <node concept="PrWs8" id="2zZnBEDxFzB" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+    </node>
+    <node concept="PrWs8" id="pQ21WN5sk8" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo7" resolve="IHasFormOptions" />
+    </node>
+    <node concept="PrWs8" id="pQ21WNcPLB" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WNcPKz" resolve="IHasDelegates" />
     </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKG">
@@ -286,7 +292,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="label" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="2zZnBEDxRpb" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -336,7 +342,13 @@
   <node concept="PlHQZ" id="1h$q6rwmHiT">
     <property role="1pbfSe" value="188793569" />
     <property role="TrG5h" value="IDelegate" />
-    <property role="3GE5qa" value="delegates" />
+    <property role="3GE5qa" value="delegates.options" />
+    <node concept="1TJgyj" id="pQ21WN5qoe" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="option" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1h$q6rwn4fl">
     <property role="1pbfSe" value="188699589" />
@@ -475,6 +487,151 @@
     <property role="34LRSv" value="Status" />
     <property role="R4oN_" value="Delegate" />
     <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+  </node>
+  <node concept="PlHQZ" id="pQ21WN5qo5">
+    <property role="1pbfSe" value="965455396" />
+    <property role="TrG5h" value="IFOption" />
+    <property role="3GE5qa" value="formopt" />
+  </node>
+  <node concept="PlHQZ" id="pQ21WN5qo6">
+    <property role="1pbfSe" value="965455397" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="IDOption" />
+  </node>
+  <node concept="PlHQZ" id="pQ21WN5qo7">
+    <property role="1pbfSe" value="965455398" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="IHasFormOptions" />
+    <node concept="1TJgyj" id="pQ21WN5qo8" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WN5qog">
+    <property role="1pbfSe" value="965455407" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="LabelFOption" />
+    <property role="34LRSv" value="LABEL" />
+    <property role="R4oN_" value="set label text for form" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="pQ21WN5qoj" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="pQ21WN5qoh" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WN5qAX">
+    <property role="1pbfSe" value="965456348" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="DisabledFOption" />
+    <property role="34LRSv" value="DISABLED" />
+    <property role="R4oN_" value="disable any editing in delegates" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="pQ21WN5qAY" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WN5s6V">
+    <property role="1pbfSe" value="965462490" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="SelectFirstFOption" />
+    <property role="34LRSv" value="SELECT FIRST" />
+    <property role="R4oN_" value="element when initializing table" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="pQ21WN5s6W" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WN8wdR">
+    <property role="1pbfSe" value="966265750" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="OverwriteLabelDOption" />
+    <property role="34LRSv" value="OVERWRITE LABEL" />
+    <property role="R4oN_" value="given by property as default" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="pQ21WN8wdU" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="pQ21WN8wdS" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WN8wOF">
+    <property role="1pbfSe" value="966268234" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="OverwriteFormatDOption" />
+    <property role="34LRSv" value="OVERWRITE FORMAT" />
+    <property role="R4oN_" value="given by property as default" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="pQ21WN8wP8" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="pQ21WN93t5" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WN9_SZ">
+    <property role="1pbfSe" value="966551134" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="EditableDOption" />
+    <property role="34LRSv" value="EDITABLE" />
+    <property role="R4oN_" value="property is editable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="pQ21WN9_T0" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WN9Arj">
+    <property role="1pbfSe" value="966553330" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="ScanableDOption" />
+    <property role="34LRSv" value="SCAN DELEGATE" />
+    <property role="R4oN_" value="scan trig. writes to delegate" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="pQ21WN9Ark" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WNah3z">
+    <property role="1pbfSe" value="966727938" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="WidthDOption" />
+    <property role="34LRSv" value="WIDTH" />
+    <property role="R4oN_" value="in percent for this delegate" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="pQ21WNfb2s" role="1TKVEl">
+      <property role="TrG5h" value="percent" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="pQ21WNahcm" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="pQ21WNcPKz">
+    <property role="1pbfSe" value="967402562" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="IHasDelegates" />
+    <node concept="1TJgyj" id="1h$q6rwmHiW" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="1..n" />
+      <property role="20kJfa" value="delegates" />
+      <ref role="20lvS9" node="1h$q6rwmHiT" resolve="IDelegate" />
+    </node>
+    <node concept="PrWs8" id="pQ21WNdxiS" role="PrDN$">
+      <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
+    </node>
   </node>
 </model>
 
