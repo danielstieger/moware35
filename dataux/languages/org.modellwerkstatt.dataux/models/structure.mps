@@ -110,6 +110,9 @@
     <node concept="PrWs8" id="4ChSTKTgh0j" role="PrDN$">
       <ref role="PrY4T" node="4ChSTKTfUEX" resolve="IOptionallyNamed" />
     </node>
+    <node concept="PrWs8" id="pQ21WNlPWf" role="PrDN$">
+      <ref role="PrY4T" node="pQ21WNlPVX" resolve="IProvideLocalProperty" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7Cs1IG3jYzP">
     <property role="1pbfSe" value="2104225760" />
@@ -211,6 +214,9 @@
     </node>
     <node concept="PrWs8" id="6MSPLZmFnKI" role="PzmwI">
       <ref role="PrY4T" node="6MSPLZmFnKH" resolve="ILayout" />
+    </node>
+    <node concept="PrWs8" id="pQ21WNjEb6" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo7" resolve="IHasFormOptions" />
     </node>
   </node>
   <node concept="PlHQZ" id="6MSPLZmFnKH">
@@ -479,6 +485,12 @@
     <property role="34LRSv" value="Reference" />
     <property role="R4oN_" value="Delegate" />
     <ref role="1TJDcQ" node="1h$q6rwmHiS" resolve="BaseDelegate" />
+    <node concept="1TJgyj" id="pQ21WNlRRD" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="scopeText" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="pQ21WNlPUj" resolve="RefDelegateScopeProps" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3ouNayfF_el">
     <property role="1pbfSe" value="976412611" />
@@ -531,7 +543,7 @@
     <property role="3GE5qa" value="formopt" />
     <property role="TrG5h" value="DisabledFOption" />
     <property role="34LRSv" value="DISABLED" />
-    <property role="R4oN_" value="disable any editing in delegates" />
+    <property role="R4oN_" value="form never editable" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="pQ21WN5qAY" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
@@ -597,7 +609,7 @@
     <property role="1pbfSe" value="966553330" />
     <property role="3GE5qa" value="delegates.options" />
     <property role="TrG5h" value="ScanableDOption" />
-    <property role="34LRSv" value="SCAN DELEGATE" />
+    <property role="34LRSv" value="SCAN ENABLED" />
     <property role="R4oN_" value="scan trig. writes to delegate" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="pQ21WN9Ark" role="PzmwI">
@@ -632,6 +644,63 @@
     <node concept="PrWs8" id="pQ21WNdxiS" role="PrDN$">
       <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WNjZU8">
+    <property role="1pbfSe" value="969279143" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="DisabledDOption" />
+    <property role="34LRSv" value="DISABLED" />
+    <property role="R4oN_" value="delegate never editable" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="pQ21WNjZV1" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WNknRq">
+    <property role="1pbfSe" value="969377273" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="OptionalDOption" />
+    <property role="34LRSv" value="OPTIONAL" />
+    <property role="R4oN_" value="might return &lt;null&gt; (no value)" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="pQ21WNknSj" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WNkoUS">
+    <property role="1pbfSe" value="969381591" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="NumOfLinesDOption" />
+    <property role="34LRSv" value="NUM OF LINES" />
+    <property role="R4oN_" value="displayed at the same time" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="pQ21WNkoVN" role="1TKVEl">
+      <property role="TrG5h" value="lines" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="pQ21WNkoVl" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="pQ21WNlPUj">
+    <property role="1pbfSe" value="969762482" />
+    <property role="3GE5qa" value="delegates" />
+    <property role="TrG5h" value="RefDelegateScopeProps" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="pQ21WNlsWy" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="properties" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1h$q6rwpvzb" resolve="IPath" />
+    </node>
+    <node concept="PrWs8" id="pQ21WNlRac" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WNlPVX" resolve="IProvideLocalProperty" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="pQ21WNlPVX">
+    <property role="1pbfSe" value="969762588" />
+    <property role="3GE5qa" value="delegates.path" />
+    <property role="TrG5h" value="IProvideLocalProperty" />
   </node>
 </model>
 

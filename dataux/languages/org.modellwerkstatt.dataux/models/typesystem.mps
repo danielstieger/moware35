@@ -36,6 +36,7 @@
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
+      <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
@@ -1157,6 +1158,57 @@
         </node>
       </node>
       <node concept="3clFbH" id="pQ21WNisl$" role="3cqZAp" />
+      <node concept="3clFbJ" id="pQ21WNjbge" role="3cqZAp">
+        <node concept="3clFbS" id="pQ21WNjbgg" role="3clFbx">
+          <node concept="2MkqsV" id="pQ21WNjdRS" role="3cqZAp">
+            <node concept="Xl_RD" id="pQ21WNjdS7" role="2MkJ7o">
+              <property role="Xl_RC" value="Only one delegate can be editable (with current runtime)." />
+            </node>
+            <node concept="1YBJjd" id="pQ21WNjdV8" role="2OEOjV">
+              <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="pQ21WNjfJB" role="3cqZAp" />
+        </node>
+        <node concept="3eOSWO" id="pQ21WNjdHx" role="3clFbw">
+          <node concept="3cmrfG" id="pQ21WNjdH$" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="pQ21WNjdeh" role="3uHU7B">
+            <node concept="2OqwBi" id="pQ21WNjccT" role="2Oq$k0">
+              <node concept="2OqwBi" id="pQ21WNjboh" role="2Oq$k0">
+                <node concept="1YBJjd" id="pQ21WNjbk2" role="2Oq$k0">
+                  <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
+                </node>
+                <node concept="3Tsc0h" id="pQ21WNjbK_" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:1h$q6rwmHiW" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="pQ21WNjcOK" role="2OqNvi">
+                <node concept="1bVj0M" id="pQ21WNjcOM" role="23t8la">
+                  <node concept="3clFbS" id="pQ21WNjcON" role="1bW5cS">
+                    <node concept="3clFbF" id="pQ21WNjcQS" role="3cqZAp">
+                      <node concept="2OqwBi" id="pQ21WNjcUi" role="3clFbG">
+                        <node concept="37vLTw" id="pQ21WNjcQR" role="2Oq$k0">
+                          <ref role="3cqZAo" node="pQ21WNjcOO" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="pQ21WNjd8y" role="2OqNvi">
+                          <ref role="37wK5l" to="5y3p:pQ21WNacbc" resolve="isTableForm_Editable" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="pQ21WNjcOO" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="pQ21WNjcOP" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="pQ21WNjdrG" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="pQ21WNacvO" role="1YuTPh">
       <property role="TrG5h" value="table" />
@@ -1250,6 +1302,125 @@
     <node concept="1YaCAy" id="pQ21WNfirO" role="1YuTPh">
       <property role="TrG5h" value="idOption" />
       <ref role="1YaFvo" to="1btx:pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="pQ21WNjkSW">
+    <property role="TrG5h" value="check_DelegateForm" />
+    <node concept="3clFbS" id="pQ21WNjkSX" role="18ibNy">
+      <node concept="3clFbJ" id="pQ21WNjkT3" role="3cqZAp">
+        <node concept="3clFbS" id="pQ21WNjkT4" role="3clFbx">
+          <node concept="2MkqsV" id="pQ21WNjkT5" role="3cqZAp">
+            <node concept="Xl_RD" id="pQ21WNjkT6" role="2MkJ7o">
+              <property role="Xl_RC" value="Only one delegate can be scannable (with current runtime)." />
+            </node>
+            <node concept="1YBJjd" id="pQ21WNjle4" role="2OEOjV">
+              <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="pQ21WNjkT8" role="3cqZAp" />
+        </node>
+        <node concept="3eOSWO" id="pQ21WNjkT9" role="3clFbw">
+          <node concept="3cmrfG" id="pQ21WNjkTa" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="pQ21WNjkTb" role="3uHU7B">
+            <node concept="2OqwBi" id="pQ21WNjkTc" role="2Oq$k0">
+              <node concept="2OqwBi" id="pQ21WNjkTd" role="2Oq$k0">
+                <node concept="1YBJjd" id="pQ21WNjkZE" role="2Oq$k0">
+                  <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
+                </node>
+                <node concept="3Tsc0h" id="pQ21WNjkTf" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:1h$q6rwmHiW" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="pQ21WNjkTg" role="2OqNvi">
+                <node concept="1bVj0M" id="pQ21WNjkTh" role="23t8la">
+                  <node concept="3clFbS" id="pQ21WNjkTi" role="1bW5cS">
+                    <node concept="3clFbF" id="pQ21WNjkTj" role="3cqZAp">
+                      <node concept="2OqwBi" id="pQ21WNjkTk" role="3clFbG">
+                        <node concept="37vLTw" id="pQ21WNjkTl" role="2Oq$k0">
+                          <ref role="3cqZAo" node="pQ21WNjkTn" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="pQ21WNjl7E" role="2OqNvi">
+                          <ref role="37wK5l" to="5y3p:pQ21WNaaTp" resolve="isDelegateForm_Scannable" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="pQ21WNjkTn" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="pQ21WNjkTo" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="pQ21WNjkTp" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="pQ21WNlfoS" role="3cqZAp" />
+      <node concept="3clFbJ" id="pQ21WNlfpG" role="3cqZAp">
+        <node concept="3clFbS" id="pQ21WNlfpI" role="3clFbx">
+          <node concept="2MkqsV" id="pQ21WNllHl" role="3cqZAp">
+            <node concept="Xl_RD" id="pQ21WNllH$" role="2MkJ7o">
+              <property role="Xl_RC" value="Disable the whole DelegateForm with DISABLED form option." />
+            </node>
+            <node concept="1YBJjd" id="pQ21WNllJA" role="2OEOjV">
+              <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbC" id="pQ21WNlhDY" role="3clFbw">
+          <node concept="2OqwBi" id="pQ21WNliJY" role="3uHU7w">
+            <node concept="2OqwBi" id="pQ21WNljVI" role="2Oq$k0">
+              <node concept="2OqwBi" id="pQ21WNlhQF" role="2Oq$k0">
+                <node concept="1YBJjd" id="pQ21WNlhKS" role="2Oq$k0">
+                  <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
+                </node>
+                <node concept="3Tsc0h" id="pQ21WNlier" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:1h$q6rwmHiW" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="pQ21WNlk_r" role="2OqNvi">
+                <node concept="1bVj0M" id="pQ21WNlk_t" role="23t8la">
+                  <node concept="3clFbS" id="pQ21WNlk_u" role="1bW5cS">
+                    <node concept="3clFbF" id="pQ21WNlkIu" role="3cqZAp">
+                      <node concept="2OqwBi" id="pQ21WNlkPN" role="3clFbG">
+                        <node concept="37vLTw" id="pQ21WNlkIt" role="2Oq$k0">
+                          <ref role="3cqZAo" node="pQ21WNlk_v" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="pQ21WNll$g" role="2OqNvi">
+                          <ref role="37wK5l" to="5y3p:pQ21WNllhB" resolve="isDisabled" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="pQ21WNlk_v" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="pQ21WNlk_w" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="pQ21WNljrT" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="pQ21WNlgj2" role="3uHU7B">
+            <node concept="2OqwBi" id="pQ21WNlfuy" role="2Oq$k0">
+              <node concept="1YBJjd" id="pQ21WNlfqj" role="2Oq$k0">
+                <ref role="1YBMHb" node="pQ21WNjkSZ" resolve="delegateForm" />
+              </node>
+              <node concept="3Tsc0h" id="pQ21WNlfPz" role="2OqNvi">
+                <ref role="3TtcxE" to="1btx:1h$q6rwmHiW" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="pQ21WNlgYe" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="pQ21WNjkSZ" role="1YuTPh">
+      <property role="TrG5h" value="delegateForm" />
+      <ref role="1YaFvo" to="1btx:6MSPLZmFnKF" resolve="DelegateForm" />
     </node>
   </node>
 </model>
