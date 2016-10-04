@@ -62,6 +62,7 @@
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
     <dependency reexport="false">d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">37fdf88a-1025-4d01-864a-0bf987f72e6f(org.modellwerkstatt.manmap.solution)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
@@ -114,6 +115,7 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="64adc67c-5fcf-45f5-82db-6a6771963d93(org.modellwerkstatt.dataux)" version="0" />
     <module reference="5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)" version="0" />
+    <module reference="37fdf88a-1025-4d01-864a-0bf987f72e6f(org.modellwerkstatt.manmap.solution)" version="0" />
     <module reference="ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)" version="0" />
   </dependencyVersions>
   <runtime>

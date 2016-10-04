@@ -1499,5 +1499,26 @@
       <node concept="l2Vlx" id="pQ21WNlRS4" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="pQ21WNrmko">
+    <property role="3GE5qa" value="formopt" />
+    <ref role="1XX52x" to="1btx:pQ21WNrhSk" resolve="SummaryLineFOption" />
+    <node concept="3EZMnI" id="pQ21WNrmkq" role="2wV5jI">
+      <node concept="PMmxH" id="pQ21WNrmkx" role="3EZMnx">
+        <ref role="PMmxG" node="pQ21WN5qB5" resolve="AliasFOptionEditor" />
+      </node>
+      <node concept="3F0ifn" id="pQ21WNrmkA" role="3EZMnx">
+        <property role="3F0ifm" value="{~selectedObjects =&gt;" />
+        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+      </node>
+      <node concept="3F1sOY" id="pQ21WNrmlO" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:pQ21WNrmlG" />
+      </node>
+      <node concept="3F0ifn" id="pQ21WNrmlA" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+      </node>
+      <node concept="l2Vlx" id="pQ21WNrmkt" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

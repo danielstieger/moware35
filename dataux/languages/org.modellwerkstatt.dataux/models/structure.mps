@@ -702,5 +702,22 @@
     <property role="3GE5qa" value="delegates.path" />
     <property role="TrG5h" value="IProvideLocalProperty" />
   </node>
+  <node concept="1TIwiD" id="pQ21WNrhSk">
+    <property role="1pbfSe" value="971187763" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="SummaryLineFOption" />
+    <property role="34LRSv" value="SUMMARY LINE" />
+    <property role="R4oN_" value="for selected objects" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="pQ21WNrmlG" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="pQ21WNrhSl" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+  </node>
 </model>
 
