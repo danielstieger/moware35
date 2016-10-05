@@ -719,5 +719,28 @@
       <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7GLJ9Y9kHWf">
+    <property role="1pbfSe" value="75799470" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="SummaryLineFOptionParam" />
+    <property role="34LRSv" value="selectedObjects" />
+    <property role="R4oN_" value="for summary" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="7GLJ9Y9mpK_">
+    <property role="1pbfSe" value="76241092" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="HookFOption" />
+    <property role="34LRSv" value="HOOK IN" />
+    <property role="R4oN_" value="custom java class by FQ name" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7GLJ9Y9mpKC" role="1TKVEl">
+      <property role="TrG5h" value="className" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="7GLJ9Y9mpKA" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+  </node>
 </model>
 

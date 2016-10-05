@@ -13,14 +13,10 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
     </language>
     <language id="64adc67c-5fcf-45f5-82db-6a6771963d93" name="org.modellwerkstatt.dataux">
       <concept id="9014591971156139020" name="org.modellwerkstatt.dataux.structure.PagePane" flags="ng" index="2mKXYI">
         <child id="2954183761501582907" name="uxChild" index="21u2x1" />
-      </concept>
-      <concept id="465568541579222548" name="org.modellwerkstatt.dataux.structure.SummaryLineFOption" flags="ng" index="P6Lob">
-        <child id="465568541579240812" name="expression" index="P6QPN" />
       </concept>
       <concept id="465568541577797267" name="org.modellwerkstatt.dataux.structure.RefDelegateScopeProps" flags="ng" index="P8lqc">
         <child id="465568541577695010" name="properties" index="P8WsX" />
@@ -29,6 +25,9 @@
         <child id="1469414169489626300" name="delegates" index="3OfFNq" />
       </concept>
       <concept id="465568541574588115" name="org.modellwerkstatt.dataux.structure.ScanableDOption" flags="ng" index="Pk6Vc" />
+      <concept id="465568541574762723" name="org.modellwerkstatt.dataux.structure.WidthDOption" flags="ng" index="PnLzW">
+        <property id="465568541576048796" name="percent" index="PiFy3" />
+      </concept>
       <concept id="465568541573490192" name="org.modellwerkstatt.dataux.structure.LabelFOption" flags="ng" index="PoUSf">
         <child id="465568541573490195" name="expression" index="PoUSc" />
       </concept>
@@ -62,6 +61,7 @@
         <property id="8798915378417884602" name="name" index="1TjtHh" />
       </concept>
       <concept id="5337297293525704838" name="org.modellwerkstatt.dataux.structure.IBindable" flags="ng" index="1Nkgcq">
+        <reference id="8798915378417862464" name="selectionIdentifierMember" index="1Tjo6F" />
         <reference id="8798915378417862462" name="selectionIdentifier" index="1Tjo7l" />
       </concept>
       <concept id="1469414169490356818" name="org.modellwerkstatt.dataux.structure.PathDot" flags="ng" index="3O0p8O">
@@ -261,14 +261,60 @@
     <node concept="2U5qGQ" id="pQ21WNrl32" role="21u2wS">
       <property role="1Nb$_v" value="false" />
       <ref role="1Tjo7l" to="goi:612_n8HbweS" resolve="Invoice" />
+      <ref role="1Tjo6F" to="goi:612_n8Hc$wy" resolve="positions" />
       <node concept="PoUSf" id="pQ21WNrl36" role="PoUSn">
         <node concept="Xl_RD" id="pQ21WNrl34" role="PoUSc">
           <property role="Xl_RC" value="Invoice" />
         </node>
       </node>
       <node concept="PoWA$" id="pQ21WNrl38" role="PoUSn" />
-      <node concept="P6Lob" id="pQ21WNrKtu" role="PoUSn">
-        <node concept="33vP2n" id="pQ21WNrKtw" role="P6QPN" />
+      <node concept="3Oe2IN" id="7GLJ9Y9mpJ0" role="3OfFNq">
+        <node concept="PnLzW" id="7GLJ9Y9mpJ1" role="PoUSh">
+          <property role="PiFy3" value="20" />
+        </node>
+        <node concept="3Oe$u_" id="7GLJ9Y9mpJ2" role="3Oe2NS">
+          <ref role="3O0p26" to="goi:612_n8HcBYv" resolve="id" />
+        </node>
+      </node>
+      <node concept="3Oe2In" id="7GLJ9Y9mpJ3" role="3OfFNq">
+        <node concept="PnLzW" id="7GLJ9Y9mpJ4" role="PoUSh">
+          <property role="PiFy3" value="20" />
+        </node>
+        <node concept="3Oe$u_" id="7GLJ9Y9mpJ5" role="3Oe2NS">
+          <ref role="3O0p26" to="goi:612_n8HcC38" resolve="posAvalue" />
+        </node>
+      </node>
+      <node concept="3Oe2Ik" id="7GLJ9Y9mpJ6" role="3OfFNq">
+        <node concept="PnLzW" id="7GLJ9Y9mpJ7" role="PoUSh">
+          <property role="PiFy3" value="20" />
+        </node>
+        <node concept="3Oe$u_" id="7GLJ9Y9mpJ8" role="3Oe2NS">
+          <ref role="3O0p26" to="goi:612_n8HcC5n" resolve="posText" />
+        </node>
+      </node>
+      <node concept="2TG9WU" id="7GLJ9Y9mpJ9" role="3OfFNq">
+        <node concept="PnLzW" id="7GLJ9Y9mpJa" role="PoUSh">
+          <property role="PiFy3" value="20" />
+        </node>
+        <node concept="3Oe$u_" id="7GLJ9Y9mpJb" role="3Oe2NS">
+          <ref role="3O0p26" to="goi:612_n8HcC8f" resolve="date" />
+        </node>
+      </node>
+      <node concept="2TG9WW" id="7GLJ9Y9mpJc" role="3OfFNq">
+        <node concept="PnLzW" id="7GLJ9Y9mpJd" role="PoUSh">
+          <property role="PiFy3" value="20" />
+        </node>
+        <node concept="3Oe$u_" id="7GLJ9Y9mpJe" role="3Oe2NS">
+          <ref role="3O0p26" to="goi:70qPrkCybJa" resolve="invoice" />
+        </node>
+        <node concept="P8lqc" id="7GLJ9Y9mpJf" role="P8nnQ">
+          <node concept="3Oe$u_" id="7GLJ9Y9mpJg" role="P8WsX">
+            <ref role="3O0p26" to="goi:612_n8HbChJ" resolve="id" />
+          </node>
+          <node concept="3Oe$u_" id="7GLJ9Y9mpJh" role="P8WsX">
+            <ref role="3O0p26" to="goi:612_n8HbEYW" resolve="text" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="PoUSf" id="pQ21WNpB2y" role="PoUSn">

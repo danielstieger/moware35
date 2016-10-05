@@ -14,11 +14,13 @@
     <import index="q13i" ref="r:9fc6570b-687f-43e8-a83d-7a99f464f174(org.modellwerkstatt.forms.behavior)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
         <property id="1224848525476" name="isDeprecated" index="IEkAT" />
@@ -40,6 +42,9 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
@@ -828,27 +833,133 @@
     <node concept="1opIMY" id="4KZ25DhcNb2" role="_YvDr" />
   </node>
   <node concept="_UgoZ" id="7Mnig$xBqGE">
-    <property role="TrG5h" value="CheckOnUpdateUsage" />
-    <property role="_Wzho" value="CheckForOnUpdateUsage" />
+    <property role="TrG5h" value="CheckUsage" />
+    <property role="_Wzho" value="Check for Usage of ..." />
     <property role="2BwPSy" value="migration" />
     <property role="2BwPS$" value="motest" />
     <node concept="_XfAh" id="7Mnig$xBqGF" role="_YvDr">
-      <property role="_XH9r" value="OnUpdate Usage" />
-      <ref role="_XDHR" to="sgb:6asTO4X6FTz" resolve="InputDelegateDeclaration" />
+      <property role="_XH9r" value="setMinimum ()" />
+      <ref role="_XDHR" to="sgb:4lRaCigW9UY" resolve="InputDelegateParameter2" />
       <node concept="_ZGcI" id="7Mnig$xBqGG" role="_XPhp">
         <node concept="3clFbS" id="7Mnig$xBqGH" role="2VODD2" />
       </node>
       <node concept="_Y34e" id="7Mnig$xBqGI" role="_XDHO">
         <node concept="3clFbS" id="7Mnig$xBqGJ" role="2VODD2">
-          <node concept="3clFbF" id="7Mnig$xBC$G" role="3cqZAp">
-            <node concept="2OqwBi" id="7Mnig$xBOwz" role="3clFbG">
-              <node concept="2OqwBi" id="7Mnig$xBDGf" role="2Oq$k0">
-                <node concept="_YI3z" id="7Mnig$xBC$F" role="2Oq$k0" />
-                <node concept="3TrEf2" id="7Mnig$xBOg9" role="2OqNvi">
-                  <ref role="3Tt5mk" to="sgb:6asTO4XiBeu" />
+          <node concept="3clFbF" id="7GLJ9Y9mXxY" role="3cqZAp">
+            <node concept="2OqwBi" id="7GLJ9Y9mYM_" role="3clFbG">
+              <node concept="2OqwBi" id="7GLJ9Y9mXRw" role="2Oq$k0">
+                <node concept="2OqwBi" id="7GLJ9Y9mX$9" role="2Oq$k0">
+                  <node concept="_YI3z" id="7GLJ9Y9mXxX" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7GLJ9Y9mXC4" role="2OqNvi">
+                    <ref role="3Tt5mk" to="sgb:4lRaCigW9V0" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="7GLJ9Y9mYky" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
-              <node concept="3x8VRR" id="7Mnig$xBQFd" role="2OqNvi" />
+              <node concept="liA8E" id="7GLJ9Y9mYWv" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="Xl_RD" id="7GLJ9Y9mZ3X" role="37wK5m">
+                  <property role="Xl_RC" value="setMinimum" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="7GLJ9Y9mZax" role="_YvDr">
+      <property role="_XH9r" value="setMaximum ()" />
+      <ref role="_XDHR" to="sgb:4lRaCigW9UY" resolve="InputDelegateParameter2" />
+      <node concept="_ZGcI" id="7GLJ9Y9mZay" role="_XPhp">
+        <node concept="3clFbS" id="7GLJ9Y9mZaz" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="7GLJ9Y9mZa$" role="_XDHO">
+        <node concept="3clFbS" id="7GLJ9Y9mZa_" role="2VODD2">
+          <node concept="3clFbF" id="7GLJ9Y9mZaA" role="3cqZAp">
+            <node concept="2OqwBi" id="7GLJ9Y9mZaB" role="3clFbG">
+              <node concept="2OqwBi" id="7GLJ9Y9mZaC" role="2Oq$k0">
+                <node concept="2OqwBi" id="7GLJ9Y9mZaD" role="2Oq$k0">
+                  <node concept="_YI3z" id="7GLJ9Y9mZaE" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7GLJ9Y9mZaF" role="2OqNvi">
+                    <ref role="3Tt5mk" to="sgb:4lRaCigW9V0" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="7GLJ9Y9mZaG" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7GLJ9Y9mZaH" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="Xl_RD" id="7GLJ9Y9mZaI" role="37wK5m">
+                  <property role="Xl_RC" value="setMaximum" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="7GLJ9Y9mZAz" role="_YvDr">
+      <property role="_XH9r" value="setMultiplicationFactor ()" />
+      <ref role="_XDHR" to="sgb:4lRaCigW9UY" resolve="InputDelegateParameter2" />
+      <node concept="_ZGcI" id="7GLJ9Y9mZA$" role="_XPhp">
+        <node concept="3clFbS" id="7GLJ9Y9mZA_" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="7GLJ9Y9mZAA" role="_XDHO">
+        <node concept="3clFbS" id="7GLJ9Y9mZAB" role="2VODD2">
+          <node concept="3clFbF" id="7GLJ9Y9mZAC" role="3cqZAp">
+            <node concept="2OqwBi" id="7GLJ9Y9mZAD" role="3clFbG">
+              <node concept="2OqwBi" id="7GLJ9Y9mZAE" role="2Oq$k0">
+                <node concept="2OqwBi" id="7GLJ9Y9mZAF" role="2Oq$k0">
+                  <node concept="_YI3z" id="7GLJ9Y9mZAG" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7GLJ9Y9mZAH" role="2OqNvi">
+                    <ref role="3Tt5mk" to="sgb:4lRaCigW9V0" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="7GLJ9Y9mZAI" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7GLJ9Y9mZAJ" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="Xl_RD" id="7GLJ9Y9mZAK" role="37wK5m">
+                  <property role="Xl_RC" value="setMultiplicationFactor" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="7GLJ9Y9opoV" role="_YvDr">
+      <property role="_XH9r" value="setMultiplicationFactor ()" />
+      <ref role="_XDHR" to="sgb:4lRaCigW9UY" resolve="InputDelegateParameter2" />
+      <node concept="_ZGcI" id="7GLJ9Y9opoW" role="_XPhp">
+        <node concept="3clFbS" id="7GLJ9Y9opoX" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="7GLJ9Y9opoY" role="_XDHO">
+        <node concept="3clFbS" id="7GLJ9Y9opoZ" role="2VODD2">
+          <node concept="3clFbF" id="7GLJ9Y9opp0" role="3cqZAp">
+            <node concept="2OqwBi" id="7GLJ9Y9opp1" role="3clFbG">
+              <node concept="2OqwBi" id="7GLJ9Y9opp2" role="2Oq$k0">
+                <node concept="2OqwBi" id="7GLJ9Y9opp3" role="2Oq$k0">
+                  <node concept="_YI3z" id="7GLJ9Y9opp4" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7GLJ9Y9opp5" role="2OqNvi">
+                    <ref role="3Tt5mk" to="sgb:4lRaCigW9V0" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="7GLJ9Y9opp6" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7GLJ9Y9opp7" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="Xl_RD" id="7GLJ9Y9opp8" role="37wK5m">
+                  <property role="Xl_RC" value="setMultiplicationFactor" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
