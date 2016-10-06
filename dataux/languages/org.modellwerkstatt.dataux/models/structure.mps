@@ -6,8 +6,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -74,6 +74,12 @@
     <property role="34LRSv" value="Custom UI Element" />
     <property role="R4oN_" value="declare a custom ui element" />
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
+    <node concept="1TJgyj" id="653WpvyfcaS" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="customUxElement" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
     <node concept="PrWs8" id="2zZnBEDxFzz" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
     </node>
@@ -734,9 +740,11 @@
     <property role="34LRSv" value="HOOK IN" />
     <property role="R4oN_" value="custom java class by FQ name" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="7GLJ9Y9mpKC" role="1TKVEl">
-      <property role="TrG5h" value="className" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="653Wpvyfcm5" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="elementHook" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
     <node concept="PrWs8" id="7GLJ9Y9mpKA" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />

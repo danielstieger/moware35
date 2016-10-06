@@ -731,6 +731,19 @@
         <node concept="PMmxH" id="7rG0OCcHkvo" role="3EZMnx">
           <ref role="PMmxG" node="7Cs1IG3kp0D" resolve="BindsObjectEditorFull" />
         </node>
+        <node concept="3F0ifn" id="653WpvygwA8" role="3EZMnx">
+          <property role="3F0ifm" value="for" />
+          <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+        </node>
+        <node concept="1iCGBv" id="653Wpvyfcb9" role="3EZMnx">
+          <ref role="1NtTu8" to="1btx:653WpvyfcaS" />
+          <node concept="1sVBvm" id="653Wpvyfcbb" role="1sWHZn">
+            <node concept="3F0A7n" id="653Wpvyfcbp" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
         <node concept="l2Vlx" id="2zZnBEDxS4L" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="2zZnBEDxS4V" role="3EZMnx" />
@@ -1535,8 +1548,14 @@
       <node concept="PMmxH" id="7GLJ9Y9mpKS" role="3EZMnx">
         <ref role="PMmxG" node="pQ21WN5qB5" resolve="AliasFOptionEditor" />
       </node>
-      <node concept="3F0A7n" id="7GLJ9Y9mpKX" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:7GLJ9Y9mpKC" resolve="className" />
+      <node concept="1iCGBv" id="653Wpvyfcmh" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:653Wpvyfcm5" />
+        <node concept="1sVBvm" id="653Wpvyfcmj" role="1sWHZn">
+          <node concept="3F0A7n" id="653Wpvyfcmr" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
       <node concept="l2Vlx" id="7GLJ9Y9mpKO" role="2iSdaV" />
     </node>

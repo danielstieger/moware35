@@ -22,7 +22,6 @@
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
-      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
@@ -38,9 +37,6 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
-      </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
@@ -965,21 +961,17 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="7GLJ9Y9mpL1">
+  <node concept="1M2fIO" id="653WpvyisBE">
     <property role="3GE5qa" value="formopt" />
     <ref role="1M2myG" to="1btx:7GLJ9Y9mpK_" resolve="HookFOption" />
-    <node concept="EnEH3" id="7GLJ9Y9mpL2" role="1MhHOB">
-      <ref role="EomxK" to="1btx:7GLJ9Y9mpKC" resolve="className" />
-      <node concept="QB0g5" id="7GLJ9Y9mpL4" role="QCWH9">
-        <node concept="3clFbS" id="7GLJ9Y9mpL5" role="2VODD2">
-          <node concept="3clFbF" id="7GLJ9Y9mpMa" role="3cqZAp">
-            <node concept="2OqwBi" id="7GLJ9Y9mpPh" role="3clFbG">
-              <node concept="1Wqviy" id="7GLJ9Y9mpM9" role="2Oq$k0" />
-              <node concept="liA8E" id="7GLJ9Y9mq0J" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
-                <node concept="Xl_RD" id="7GLJ9Y9mq9W" role="37wK5m">
-                  <property role="Xl_RC" value="." />
-                </node>
+    <node concept="nKS2y" id="653WpvyisBF" role="1MLUbF">
+      <node concept="3clFbS" id="653WpvyisBG" role="2VODD2">
+        <node concept="3clFbF" id="653WpvyisGW" role="3cqZAp">
+          <node concept="2OqwBi" id="653WpvyisGX" role="3clFbG">
+            <node concept="nLn13" id="653WpvyisGY" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="653WpvyisGZ" role="2OqNvi">
+              <node concept="chp4Y" id="653WpvyisH0" role="cj9EA">
+                <ref role="cht4Q" to="1btx:6MSPLZmFnKF" resolve="DelegateForm" />
               </node>
             </node>
           </node>
