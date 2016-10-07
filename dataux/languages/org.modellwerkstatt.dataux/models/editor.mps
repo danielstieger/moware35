@@ -1489,7 +1489,7 @@
     <ref role="1XX52x" to="1btx:pQ21WNlPUj" resolve="RefDelegateScopeProps" />
     <node concept="3EZMnI" id="pQ21WNlRS1" role="2wV5jI">
       <node concept="3F0ifn" id="pQ21WNltrh" role="3EZMnx">
-        <property role="3F0ifm" value="(element desc:" />
+        <property role="3F0ifm" value="(reference description:" />
         <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
       </node>
       <node concept="3F2HdR" id="pQ21WNltrt" role="3EZMnx">
