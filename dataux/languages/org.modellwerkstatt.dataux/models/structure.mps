@@ -244,7 +244,7 @@
   <node concept="1TIwiD" id="6MSPLZmFqdN">
     <property role="1pbfSe" value="1130789522" />
     <property role="3GE5qa" value="layout" />
-    <property role="TrG5h" value="OneWight" />
+    <property role="TrG5h" value="OneWeight" />
     <property role="34LRSv" value="1*" />
     <property role="R4oN_" value="size one" />
     <ref role="1TJDcQ" node="6MSPLZmFwYc" resolve="LayoutWeight" />
@@ -252,7 +252,7 @@
   <node concept="1TIwiD" id="6MSPLZmFqdQ">
     <property role="1pbfSe" value="1130789525" />
     <property role="3GE5qa" value="layout" />
-    <property role="TrG5h" value="TwoWight" />
+    <property role="TrG5h" value="TwoWeight" />
     <property role="34LRSv" value="2*" />
     <property role="R4oN_" value="twice as big" />
     <ref role="1TJDcQ" node="6MSPLZmFwYc" resolve="LayoutWeight" />
@@ -260,7 +260,7 @@
   <node concept="1TIwiD" id="6MSPLZmFqdS">
     <property role="1pbfSe" value="1130789527" />
     <property role="3GE5qa" value="layout" />
-    <property role="TrG5h" value="ThreeWight" />
+    <property role="TrG5h" value="ThreeWeight" />
     <property role="34LRSv" value="3*" />
     <property role="R4oN_" value="three times as big" />
     <ref role="1TJDcQ" node="6MSPLZmFwYc" resolve="LayoutWeight" />
@@ -268,7 +268,7 @@
   <node concept="1TIwiD" id="6MSPLZmFqdU">
     <property role="1pbfSe" value="1130789529" />
     <property role="3GE5qa" value="layout" />
-    <property role="TrG5h" value="FourWight" />
+    <property role="TrG5h" value="FourWeight" />
     <property role="34LRSv" value="4*" />
     <property role="R4oN_" value="four times as big" />
     <ref role="1TJDcQ" node="6MSPLZmFwYc" resolve="LayoutWeight" />
@@ -276,7 +276,7 @@
   <node concept="1TIwiD" id="6MSPLZmFqdW">
     <property role="1pbfSe" value="1130789531" />
     <property role="3GE5qa" value="layout" />
-    <property role="TrG5h" value="FiveWight" />
+    <property role="TrG5h" value="FiveWeight" />
     <property role="34LRSv" value="5*" />
     <property role="R4oN_" value="five times as big" />
     <ref role="1TJDcQ" node="6MSPLZmFwYc" resolve="LayoutWeight" />
