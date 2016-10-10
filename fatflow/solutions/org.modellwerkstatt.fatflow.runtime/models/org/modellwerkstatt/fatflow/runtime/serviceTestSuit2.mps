@@ -412,7 +412,7 @@
                         <ref role="1ods_" node="7$uuZ_GYsYD" resolve="LdapService" />
                         <ref role="37wK5l" node="1uYQkaRvlSh" resolve="getGroupsToCommonName" />
                         <node concept="Xl_RD" id="1uYQkaRvlsx" role="37wK5m">
-                          <property role="Xl_RC" value="DC=mpreis,DC=co,DC=at" />
+                          <property role="Xl_RC" value="OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
                         </node>
                         <node concept="2OqwBi" id="1uYQkaRvlcA" role="37wK5m">
                           <node concept="37vLTw" id="1uYQkaRvl8f" role="2Oq$k0">
