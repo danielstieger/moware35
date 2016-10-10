@@ -320,6 +320,10 @@
     <property role="R4oN_" value="another declared ux element" />
     <property role="MwhBj" value="${module}/icons/include.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6oVlrbjSMSi" role="1TKVEl">
+      <property role="TrG5h" value="conversionInfo" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="7rG0OCdj5GO" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="uxElement" />
@@ -748,6 +752,36 @@
     </node>
     <node concept="PrWs8" id="7GLJ9Y9mpKA" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6oVlrbk4LWj">
+    <property role="1pbfSe" value="978220229" />
+    <property role="3GE5qa" value="delegates.path" />
+    <property role="TrG5h" value="LocalSpecialPropertyReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6oVlrbk4LWk" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="property" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:huRhdFY" resolve="Property" />
+    </node>
+    <node concept="PrWs8" id="6oVlrbk4LWl" role="PzmwI">
+      <ref role="PrY4T" node="1h$q6rwpvzb" resolve="IPath" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6oVlrbk5zxO">
+    <property role="1pbfSe" value="978423334" />
+    <property role="3GE5qa" value="delegates.path" />
+    <property role="TrG5h" value="OperationSpecialPropertyReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6oVlrbk5zxP" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="property" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:huRhdFY" resolve="Property" />
+    </node>
+    <node concept="PrWs8" id="6oVlrbk5zxQ" role="PzmwI">
+      <ref role="PrY4T" node="1h$q6rwpvDV" resolve="IPathOperation" />
     </node>
   </node>
 </model>
