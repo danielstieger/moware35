@@ -38905,6 +38905,26 @@
         <node concept="17QB3L" id="7$uuZ_GYxiv" role="1tU5fm" />
       </node>
     </node>
+    <node concept="3clFb_" id="1uYQkaRuIcj" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getGroupsOfCommonName" />
+      <node concept="3clFbS" id="1uYQkaRuIck" role="3clF47" />
+      <node concept="3Tm1VV" id="1uYQkaRuIcl" role="1B3o_S" />
+      <node concept="_YKpA" id="1uYQkaRuIcm" role="3clF45">
+        <node concept="3uibUv" id="1uYQkaRuIcn" role="_ZDj9">
+          <ref role="3uigEE" node="7$uuZ_GWCW6" resolve="IMoLdapService.IMoLdapGroupInfo" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1uYQkaRuIYr" role="3clF46">
+        <property role="TrG5h" value="searchBase" />
+        <node concept="17QB3L" id="1uYQkaRuXFq" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1uYQkaRuIco" role="3clF46">
+        <property role="TrG5h" value="commonName" />
+        <node concept="17QB3L" id="1uYQkaRuIcp" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7$uuZ_GWCEs" role="jymVt" />
     <node concept="3clFb_" id="7$uuZ_GYDcL" role="jymVt">
       <property role="1EzhhJ" value="true" />

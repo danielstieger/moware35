@@ -8,8 +8,8 @@
   <imports>
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
-    <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
   </imports>
@@ -247,8 +247,28 @@
           <property role="3F0ifm" value="PagePane" />
           <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="Concept" />
         </node>
-        <node concept="PMmxH" id="7Cs1IG3jZ8M" role="3EZMnx">
-          <ref role="PMmxG" node="4ChSTKTfYMb" resolve="OptinallyNamed" />
+        <node concept="3EZMnI" id="4UURZu5dNCW" role="3EZMnx">
+          <node concept="3F0ifn" id="4UURZu5dNCX" role="3EZMnx">
+            <property role="3F0ifm" value="'" />
+            <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+            <node concept="11LMrY" id="4UURZu5dNCY" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F0A7n" id="4UURZu5dNCZ" role="3EZMnx">
+            <property role="39s7Ar" value="true" />
+            <property role="1O74Pk" value="true" />
+            <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+          <node concept="3F0ifn" id="4UURZu5dND0" role="3EZMnx">
+            <property role="3F0ifm" value="'" />
+            <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+            <node concept="11L4FC" id="4UURZu5dND1" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="l2Vlx" id="4UURZu5dND2" role="2iSdaV" />
         </node>
         <node concept="PMmxH" id="7rG0OCdgXs9" role="3EZMnx">
           <ref role="PMmxG" node="7rG0OCdgX62" resolve="BindsObjectEdtorWithoutProperty" />
@@ -278,7 +298,7 @@
         <property role="39s7Ar" value="true" />
         <property role="1O74Pk" value="true" />
         <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
-        <ref role="1NtTu8" to="1btx:7Cs1IG3ktQU" resolve="name" />
+        <ref role="1NtTu8" to="1btx:7Cs1IG3ktQU" resolve="optionalName" />
       </node>
       <node concept="3F0ifn" id="3n7eUMgqclv" role="3EZMnx">
         <property role="3F0ifm" value="'" />
@@ -298,7 +318,7 @@
               <node concept="2OqwBi" id="4ChSTKTfYP1" role="3uHU7B">
                 <node concept="pncrf" id="4ChSTKTfYMV" role="2Oq$k0" />
                 <node concept="3TrcHB" id="4ChSTKTfYSX" role="2OqNvi">
-                  <ref role="3TsBF5" to="1btx:4ChSTKTfUF3" resolve="named" />
+                  <ref role="3TsBF5" to="1btx:4ChSTKTfUF3" resolve="isNamed" />
                 </node>
               </node>
             </node>
@@ -788,7 +808,7 @@
           <node concept="1sVBvm" id="7rG0OCdj3RN" role="1sWHZn">
             <node concept="3F0A7n" id="7rG0OCdj3RW" role="2wV5jI">
               <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="1btx:7Cs1IG3ktQU" resolve="name" />
+              <ref role="1NtTu8" to="1btx:7Cs1IG3ktQU" resolve="optionalName" />
             </node>
           </node>
         </node>

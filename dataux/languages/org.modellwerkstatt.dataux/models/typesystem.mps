@@ -279,7 +279,7 @@
                   <ref role="1YBMHb" node="7Cs1IG3jEWW" resolve="iOptionallyNamed" />
                 </node>
                 <node concept="3TrcHB" id="7rG0OCd9j68" role="2OqNvi">
-                  <ref role="3TsBF5" to="1btx:7Cs1IG3ktQU" resolve="name" />
+                  <ref role="3TsBF5" to="1btx:7Cs1IG3ktQU" resolve="optionalName" />
                 </node>
               </node>
               <node concept="17RlXB" id="7rG0OCd9jkg" role="2OqNvi" />
@@ -335,6 +335,11 @@
                 </node>
                 <node concept="ANE8D" id="7rG0OCd9lbc" role="2OqNvi" />
               </node>
+            </node>
+          </node>
+          <node concept="3SKdUt" id="4UURZu5dVWD" role="3cqZAp">
+            <node concept="3SKdUq" id="4UURZu5dVWF" role="3SKWNk">
+              <property role="3SKdUp" value="used escaped names, since page pane handles naming differently." />
             </node>
           </node>
           <node concept="3clFbJ" id="7rG0OCd9liV" role="3cqZAp">

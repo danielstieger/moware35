@@ -6,8 +6,8 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -65,6 +65,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
     </node>
+    <node concept="PrWs8" id="4UURZu5dJCx" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7OqgUbFQvfd">
     <property role="1pbfSe" value="1760835439" />
@@ -89,11 +92,11 @@
     <property role="TrG5h" value="IOptionallyNamed" />
     <property role="3GE5qa" value="internalInfra" />
     <node concept="1TJgyi" id="4ChSTKTfUF3" role="1TKVEl">
-      <property role="TrG5h" value="named" />
+      <property role="TrG5h" value="isNamed" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="7Cs1IG3ktQU" role="1TKVEl">
-      <property role="TrG5h" value="name" />
+      <property role="TrG5h" value="optionalName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
