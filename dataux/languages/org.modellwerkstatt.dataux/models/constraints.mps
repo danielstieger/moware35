@@ -11,6 +11,7 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang()" implicit="true" />
   </imports>
   <registry>
@@ -430,8 +431,8 @@
                             <node concept="37vLTw" id="7rG0OCdjeIW" role="2Oq$k0">
                               <ref role="3cqZAo" node="7rG0OCdjeBR" resolve="child" />
                             </node>
-                            <node concept="3TrcHB" id="7rG0OCdjeTm" role="2OqNvi">
-                              <ref role="3TsBF5" to="1btx:7Cs1IG3ktQU" resolve="name" />
+                            <node concept="3TrcHB" id="6I37UbAshoN" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                             </node>
                           </node>
                         </node>

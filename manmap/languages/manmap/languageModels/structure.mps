@@ -69,6 +69,7 @@
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/data_table.png" />
     <property role="1pbfSe" value="1516109603" />
+    <property role="34LRSv" value="Persistance Description" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="Kou8LehH2F" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

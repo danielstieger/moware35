@@ -247,28 +247,8 @@
           <property role="3F0ifm" value="PagePane" />
           <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="Concept" />
         </node>
-        <node concept="3EZMnI" id="4UURZu5dNCW" role="3EZMnx">
-          <node concept="3F0ifn" id="4UURZu5dNCX" role="3EZMnx">
-            <property role="3F0ifm" value="'" />
-            <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
-            <node concept="11LMrY" id="4UURZu5dNCY" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-          </node>
-          <node concept="3F0A7n" id="4UURZu5dNCZ" role="3EZMnx">
-            <property role="39s7Ar" value="true" />
-            <property role="1O74Pk" value="true" />
-            <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-          <node concept="3F0ifn" id="4UURZu5dND0" role="3EZMnx">
-            <property role="3F0ifm" value="'" />
-            <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
-            <node concept="11L4FC" id="4UURZu5dND1" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-          </node>
-          <node concept="l2Vlx" id="4UURZu5dND2" role="2iSdaV" />
+        <node concept="PMmxH" id="2C3bueoZFwY" role="3EZMnx">
+          <ref role="PMmxG" node="4ChSTKTfYMb" resolve="OptinallyNamed" />
         </node>
         <node concept="PMmxH" id="7rG0OCdgXs9" role="3EZMnx">
           <ref role="PMmxG" node="7rG0OCdgX62" resolve="BindsObjectEdtorWithoutProperty" />
@@ -298,7 +278,7 @@
         <property role="39s7Ar" value="true" />
         <property role="1O74Pk" value="true" />
         <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
-        <ref role="1NtTu8" to="1btx:7Cs1IG3ktQU" resolve="optionalName" />
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="3n7eUMgqclv" role="3EZMnx">
         <property role="3F0ifm" value="'" />
@@ -808,7 +788,7 @@
           <node concept="1sVBvm" id="7rG0OCdj3RN" role="1sWHZn">
             <node concept="3F0A7n" id="7rG0OCdj3RW" role="2wV5jI">
               <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="1btx:7Cs1IG3ktQU" resolve="optionalName" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
         </node>

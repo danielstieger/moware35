@@ -10,6 +10,7 @@
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.moware)" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
@@ -278,8 +279,8 @@
                 <node concept="1YBJjd" id="7rG0OCd9j1e" role="2Oq$k0">
                   <ref role="1YBMHb" node="7Cs1IG3jEWW" resolve="iOptionallyNamed" />
                 </node>
-                <node concept="3TrcHB" id="7rG0OCd9j68" role="2OqNvi">
-                  <ref role="3TsBF5" to="1btx:7Cs1IG3ktQU" resolve="optionalName" />
+                <node concept="3TrcHB" id="6I37UbAsijn" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
               <node concept="17RlXB" id="7rG0OCd9jkg" role="2OqNvi" />
@@ -335,11 +336,6 @@
                 </node>
                 <node concept="ANE8D" id="7rG0OCd9lbc" role="2OqNvi" />
               </node>
-            </node>
-          </node>
-          <node concept="3SKdUt" id="4UURZu5dVWD" role="3cqZAp">
-            <node concept="3SKdUq" id="4UURZu5dVWF" role="3SKWNk">
-              <property role="3SKdUp" value="used escaped names, since page pane handles naming differently." />
             </node>
           </node>
           <node concept="3clFbJ" id="7rG0OCd9liV" role="3cqZAp">
