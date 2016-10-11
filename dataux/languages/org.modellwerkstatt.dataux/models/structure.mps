@@ -102,13 +102,13 @@
     <property role="TrG5h" value="IBindable" />
     <node concept="1TJgyj" id="7Cs1IG3kosY" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="selectionIdentifier" />
-      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="boundClassifier" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:g7pOWCK" resolve="Classifier" />
     </node>
     <node concept="1TJgyj" id="7Cs1IG3kot0" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="selectionIdentifierMember" />
+      <property role="20kJfa" value="boundProperty" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:huRhdFY" resolve="Property" />
     </node>
@@ -650,7 +650,7 @@
       <property role="20kJfa" value="delegates" />
       <ref role="20lvS9" node="1h$q6rwmHiT" resolve="IDelegate" />
     </node>
-    <node concept="PrWs8" id="pQ21WNdxiS" role="PrDN$">
+    <node concept="PrWs8" id="6I37UbABPYG" role="PrDN$">
       <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
     </node>
   </node>

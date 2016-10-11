@@ -367,7 +367,7 @@
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="scopeForBindableMembers" />
       <node concept="37vLTG" id="7rG0OCcGS8B" role="3clF46">
-        <property role="TrG5h" value="cls" />
+        <property role="TrG5h" value="boundClassifier" />
         <node concept="3Tqbb2" id="7rG0OCcGSEr" role="1tU5fm">
           <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
         </node>
@@ -389,7 +389,7 @@
           </node>
           <node concept="2OqwBi" id="7rG0OCcGYI7" role="3clFbw">
             <node concept="37vLTw" id="7rG0OCcGYsi" role="2Oq$k0">
-              <ref role="3cqZAo" node="7rG0OCcGS8B" resolve="cls" />
+              <ref role="3cqZAo" node="7rG0OCcGS8B" resolve="boundClassifier" />
             </node>
             <node concept="3w_OXm" id="7rG0OCcGZ7B" role="2OqNvi" />
           </node>
@@ -418,7 +418,7 @@
         <node concept="3clFbF" id="7rG0OCcGTpN" role="3cqZAp">
           <node concept="37vLTI" id="7rG0OCcGU4j" role="3clFbG">
             <node concept="37vLTw" id="7rG0OCcGUct" role="37vLTx">
-              <ref role="3cqZAo" node="7rG0OCcGS8B" resolve="cls" />
+              <ref role="3cqZAo" node="7rG0OCcGS8B" resolve="boundClassifier" />
             </node>
             <node concept="2OqwBi" id="7rG0OCcGTA8" role="37vLTJ">
               <node concept="37vLTw" id="7rG0OCcGTpL" role="2Oq$k0">
