@@ -11,6 +11,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
@@ -45,6 +46,7 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -322,6 +324,7 @@
     <node concept="1TJgyi" id="6oVlrbjSMSi" role="1TKVEl">
       <property role="TrG5h" value="conversionInfo" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="asaX9" id="7vQ8h9wxWMS" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="7rG0OCdj5GO" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -781,6 +784,17 @@
     </node>
     <node concept="PrWs8" id="6oVlrbk5zxQ" role="PzmwI">
       <ref role="PrY4T" node="1h$q6rwpvDV" resolve="IPathOperation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7vQ8h9wpvTs">
+    <property role="1pbfSe" value="966551134" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="FoldDOption" />
+    <property role="34LRSv" value="FOLD" />
+    <property role="R4oN_" value="do not display property" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7vQ8h9wpvTt" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
     </node>
   </node>
 </model>
