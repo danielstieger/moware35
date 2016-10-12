@@ -223,38 +223,12 @@
       <ref role="1N5Vy1" to="1btx:7Cs1IG3kosY" />
       <node concept="13QW63" id="7rG0OCcGXLj" role="1N6uqs">
         <node concept="3clFbS" id="7rG0OCcGXLl" role="2VODD2">
-          <node concept="3SKdUt" id="7rG0OCdhgpc" role="3cqZAp">
-            <node concept="3SKdUq" id="7rG0OCdhgpe" role="3SKWNk">
-              <property role="3SKdUp" value="do we have a bindable parent? " />
-            </node>
-          </node>
-          <node concept="3cpWs8" id="7rG0OCdhgsf" role="3cqZAp">
-            <node concept="3cpWsn" id="7rG0OCdhgsi" role="3cpWs9">
-              <property role="TrG5h" value="bindable" />
-              <node concept="3Tqbb2" id="7rG0OCdhgsd" role="1tU5fm">
-                <ref role="ehGHo" to="1btx:4ChSTKTge26" resolve="IBindable" />
-              </node>
-              <node concept="2OqwBi" id="7rG0OCdhgwX" role="33vP2m">
-                <node concept="21POm0" id="7rG0OCdhgvi" role="2Oq$k0" />
-                <node concept="2Xjw5R" id="7rG0OCdhg$N" role="2OqNvi">
-                  <node concept="1xMEDy" id="7rG0OCdhg$P" role="1xVPHs">
-                    <node concept="chp4Y" id="7rG0OCdhg_N" role="ri$Ld">
-                      <ref role="cht4Q" to="1btx:4ChSTKTge26" resolve="IBindable" />
-                    </node>
-                  </node>
-                  <node concept="1xIGOp" id="7rG0OCdhgBz" role="1xVPHs" />
-                </node>
-              </node>
-            </node>
-          </node>
           <node concept="3clFbF" id="7rG0OCcGXLJ" role="3cqZAp">
             <node concept="2YIFZM" id="7rG0OCcGXMG" role="3clFbG">
               <ref role="37wK5l" to="tm9u:6MSPLZmEVSR" resolve="scopeForBindableObjects" />
               <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
               <node concept="1Q6Npb" id="7rG0OCcGXNp" role="37wK5m" />
-              <node concept="37vLTw" id="7rG0OCdhgDi" role="37wK5m">
-                <ref role="3cqZAo" node="7rG0OCdhgsi" resolve="bindable" />
-              </node>
+              <node concept="3kakTB" id="7vQ8h9w9Lh_" role="37wK5m" />
             </node>
           </node>
         </node>
