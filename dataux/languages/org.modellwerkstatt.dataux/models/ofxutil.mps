@@ -677,7 +677,12 @@
         </node>
       </node>
       <node concept="3clFbS" id="7vQ8h9wc4l1" role="3clF47">
-        <node concept="3clFbH" id="7vQ8h9wc7l0" role="3cqZAp" />
+        <node concept="3SKdUt" id="4kos0kdjoUS" role="3cqZAp">
+          <node concept="3SKdUq" id="4kos0kdjoUU" role="3SKWNk">
+            <property role="3SKdUp" value="bindable is the enclosing node in the ux factory, not the current one! " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4kos0kdjoYV" role="3cqZAp" />
         <node concept="3cpWs8" id="7vQ8h9wc5ay" role="3cqZAp">
           <node concept="3cpWsn" id="7vQ8h9wc5a_" role="3cpWs9">
             <property role="TrG5h" value="lastSibling" />

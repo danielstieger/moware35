@@ -4712,7 +4712,7 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="1WEr3iliQca" role="3clF45">
-        <ref role="ehGHo" to="1btx:6MSPLZmFnKE" resolve="Tab" />
+        <ref role="ehGHo" to="1btx:6MSPLZmFnKE" resolve="TabPane" />
       </node>
       <node concept="3Tm1VV" id="1WEr3ili7qb" role="1B3o_S" />
       <node concept="3clFbS" id="1WEr3ili7qc" role="3clF47">
@@ -4720,12 +4720,12 @@
           <node concept="3cpWsn" id="1WEr3iljG37" role="3cpWs9">
             <property role="TrG5h" value="tab" />
             <node concept="3Tqbb2" id="1WEr3iljG38" role="1tU5fm">
-              <ref role="ehGHo" to="1btx:6MSPLZmFnKE" resolve="Tab" />
+              <ref role="ehGHo" to="1btx:6MSPLZmFnKE" resolve="TabPane" />
             </node>
             <node concept="2ShNRf" id="1WEr3iljG39" role="33vP2m">
               <node concept="3zrR0B" id="1WEr3iljG3a" role="2ShVmc">
                 <node concept="3Tqbb2" id="1WEr3iljG3b" role="3zrR0E">
-                  <ref role="ehGHo" to="1btx:6MSPLZmFnKE" resolve="Tab" />
+                  <ref role="ehGHo" to="1btx:6MSPLZmFnKE" resolve="TabPane" />
                 </node>
               </node>
             </node>
@@ -4749,12 +4749,12 @@
                     <node concept="3cpWsn" id="6oVlrbjJbST" role="3cpWs9">
                       <property role="TrG5h" value="tp" />
                       <node concept="3Tqbb2" id="6oVlrbjJbSO" role="1tU5fm">
-                        <ref role="ehGHo" to="1btx:2zZnBEDxRpa" resolve="TabPane" />
+                        <ref role="ehGHo" to="1btx:2zZnBEDxRpa" resolve="Tab" />
                       </node>
                       <node concept="2ShNRf" id="6oVlrbjJcjv" role="33vP2m">
                         <node concept="3zrR0B" id="6oVlrbjJcg9" role="2ShVmc">
                           <node concept="3Tqbb2" id="6oVlrbjJcga" role="3zrR0E">
-                            <ref role="ehGHo" to="1btx:2zZnBEDxRpa" resolve="TabPane" />
+                            <ref role="ehGHo" to="1btx:2zZnBEDxRpa" resolve="Tab" />
                           </node>
                         </node>
                       </node>
@@ -7708,7 +7708,6 @@
                 </node>
               </node>
               <node concept="3clFbH" id="swLfMHQSes" role="3cqZAp" />
-              <node concept="3clFbH" id="swLfMHQSj$" role="3cqZAp" />
               <node concept="3cpWs8" id="62LYtHrZIwH" role="3cqZAp">
                 <node concept="3cpWsn" id="62LYtHrZIwI" role="3cpWs9">
                   <property role="TrG5h" value="dialog" />

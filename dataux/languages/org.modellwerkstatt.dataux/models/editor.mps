@@ -258,6 +258,10 @@
         <node concept="PMmxH" id="7rG0OCdgXs9" role="3EZMnx">
           <ref role="PMmxG" node="7rG0OCdgX62" resolve="BindsObjectEdtorWithoutProperty" />
         </node>
+        <node concept="3F0ifn" id="4kos0kdj_CC" role="3EZMnx">
+          <property role="3F0ifm" value="     &lt;main menu&gt;" />
+          <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+        </node>
         <node concept="l2Vlx" id="7Cs1IG3jZ8D" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="2zZnBEDxS1U" role="3EZMnx" />
@@ -517,6 +521,18 @@
         </node>
         <node concept="PMmxH" id="7rG0OCdhSqm" role="3EZMnx">
           <ref role="PMmxG" node="7rG0OCdhRYh" resolve="BindsObjectEditorWithoutIdentifier" />
+          <node concept="pkWqt" id="4kos0kdixyI" role="pqm2j">
+            <node concept="3clFbS" id="4kos0kdixyJ" role="2VODD2">
+              <node concept="3clFbF" id="4kos0kdixzO" role="3cqZAp">
+                <node concept="2OqwBi" id="4kos0kdixDv" role="3clFbG">
+                  <node concept="pncrf" id="4kos0kdixzN" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="4kos0kdixQz" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:7Cs1IG3kH_v" resolve="isRootWhichNeedsName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="l2Vlx" id="6MSPLZmFqeo" role="2iSdaV" />
       </node>
