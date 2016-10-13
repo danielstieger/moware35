@@ -97,7 +97,9 @@
         <child id="1164826688380" name="menuDescriptor" index="P5bDN" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <property id="1160590353935" name="usesFolding" index="S$Qs1" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
+        <child id="7723470090030138869" name="foldedCellModel" index="AHCbl" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
@@ -495,6 +497,7 @@
     <property role="3GE5qa" value="layout" />
     <ref role="1XX52x" to="1btx:6MSPLZmFnKG" resolve="GridLayout" />
     <node concept="3EZMnI" id="6MSPLZmFqe5" role="2wV5jI">
+      <property role="S$Qs1" value="true" />
       <node concept="3EZMnI" id="6MSPLZmFqej" role="3EZMnx">
         <node concept="VPM3Z" id="6MSPLZmFqel" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -574,6 +577,9 @@
         <node concept="l2Vlx" id="2zZnBEDyDFV" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="6MSPLZmFqe8" role="2iSdaV" />
+      <node concept="PMmxH" id="3ZqgbkUTkq" role="AHCbl">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6MSPLZmFwYi">
