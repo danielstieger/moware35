@@ -152,17 +152,17 @@
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKE">
     <property role="1pbfSe" value="1130779465" />
-    <property role="TrG5h" value="Tab" />
+    <property role="TrG5h" value="TabPane" />
     <property role="MwhBj" value="${module}/icons/tab.png" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="Tab" />
-    <property role="R4oN_" value="with multiple tab panes" />
+    <property role="34LRSv" value="Tab Pane" />
+    <property role="R4oN_" value="with multiple tabs" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2zZnBEDxS0A" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="tabPanes" />
+      <property role="20kJfa" value="tabs" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="2zZnBEDxRpa" resolve="TabPane" />
+      <ref role="20lvS9" node="2zZnBEDxRpa" resolve="Tab" />
     </node>
     <node concept="PrWs8" id="2zZnBEDxFzG" role="PzmwI">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
@@ -297,8 +297,8 @@
   </node>
   <node concept="1TIwiD" id="2zZnBEDxRpa">
     <property role="1pbfSe" value="762915644" />
-    <property role="TrG5h" value="TabPane" />
-    <property role="34LRSv" value="Tab Pane" />
+    <property role="TrG5h" value="Tab" />
+    <property role="34LRSv" value="Tab" />
     <property role="R4oN_" value="one of multiple tabs" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2zZnBEDxRpf" role="1TKVEi">

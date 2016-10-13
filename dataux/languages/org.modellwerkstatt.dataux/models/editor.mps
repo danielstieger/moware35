@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -50,6 +51,7 @@
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
+      <concept id="1186413799158" name="jetbrains.mps.lang.editor.structure.BracketColorStyleClassItem" flags="ln" index="VLuvy" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -83,6 +85,7 @@
       </concept>
       <concept id="1165420626554" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Group_Handler" flags="in" index="1ouSdP" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="1219226236603" name="jetbrains.mps.lang.editor.structure.DrawBracketsStyleClassItem" flags="ln" index="3vyZuw" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
@@ -311,6 +314,9 @@
   </node>
   <node concept="V5hpn" id="4ChSTKTfZ7o">
     <property role="TrG5h" value="dataux" />
+    <node concept="14StLt" id="3ZqgbkW2UV" role="V601i">
+      <property role="TrG5h" value="ActiveUxElement" />
+    </node>
     <node concept="14StLt" id="4ChSTKTfZ7r" role="V601i">
       <property role="TrG5h" value="UXIdentifier" />
       <node concept="VechU" id="4ChSTKTfZ7w" role="3F10Kt">
@@ -591,7 +597,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2zZnBEDxS0H">
-    <ref role="1XX52x" to="1btx:6MSPLZmFnKE" resolve="Tab" />
+    <ref role="1XX52x" to="1btx:6MSPLZmFnKE" resolve="TabPane" />
     <node concept="3EZMnI" id="2zZnBEDxS0J" role="2wV5jI">
       <node concept="PMmxH" id="2zZnBEDxS0Q" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -608,7 +614,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2zZnBEDxS16">
-    <ref role="1XX52x" to="1btx:2zZnBEDxRpa" resolve="TabPane" />
+    <ref role="1XX52x" to="1btx:2zZnBEDxRpa" resolve="Tab" />
     <node concept="3EZMnI" id="2zZnBEDxS18" role="2wV5jI">
       <node concept="3EZMnI" id="2zZnBEDxS1k" role="3EZMnx">
         <node concept="VPM3Z" id="2zZnBEDxS1m" role="3F10Kt">
@@ -634,11 +640,18 @@
       </node>
       <node concept="3F0ifn" id="2zZnBEDxS1M" role="3EZMnx" />
       <node concept="2iRkQZ" id="2zZnBEDxS1b" role="2iSdaV" />
+      <node concept="3vyZuw" id="3ZqgbkYaPn" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="VLuvy" id="3ZqgbkYaQj" role="3F10Kt">
+        <property role="Vb096" value="lightGray" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="2zZnBEDxS3j">
     <ref role="1XX52x" to="1btx:6MSPLZmFnKD" resolve="Table" />
     <node concept="3EZMnI" id="2zZnBEDxS3l" role="2wV5jI">
+      <ref role="1k5W1q" node="3ZqgbkW2UV" resolve="ActiveUxElement" />
       <node concept="3EZMnI" id="2zZnBEDxS3s" role="3EZMnx">
         <node concept="VPM3Z" id="2zZnBEDxS3u" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -696,6 +709,7 @@
   <node concept="24kQdi" id="2zZnBEDxS3Q">
     <ref role="1XX52x" to="1btx:6MSPLZmFnKF" resolve="DelegateForm" />
     <node concept="3EZMnI" id="2zZnBEDxS3S" role="2wV5jI">
+      <ref role="1k5W1q" node="3ZqgbkW2UV" resolve="ActiveUxElement" />
       <node concept="3EZMnI" id="2zZnBEDxS3Z" role="3EZMnx">
         <node concept="VPM3Z" id="2zZnBEDxS41" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -745,6 +759,7 @@
   <node concept="24kQdi" id="2zZnBEDxS4z">
     <ref role="1XX52x" to="1btx:7OqgUbFQvfd" resolve="CustomElement" />
     <node concept="3EZMnI" id="2zZnBEDxS4_" role="2wV5jI">
+      <ref role="1k5W1q" node="3ZqgbkW2UV" resolve="ActiveUxElement" />
       <node concept="3EZMnI" id="2zZnBEDxS4G" role="3EZMnx">
         <node concept="VPM3Z" id="2zZnBEDxS4I" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -781,6 +796,7 @@
   <node concept="24kQdi" id="2zZnBEDyOcM">
     <ref role="1XX52x" to="1btx:2zZnBEDyOcE" resolve="Include" />
     <node concept="3EZMnI" id="2zZnBEDyOcO" role="2wV5jI">
+      <ref role="1k5W1q" node="3ZqgbkW2UV" resolve="ActiveUxElement" />
       <node concept="3EZMnI" id="2zZnBEDyOcP" role="3EZMnx">
         <node concept="VPM3Z" id="2zZnBEDyOcQ" role="3F10Kt">
           <property role="VOm3f" value="false" />
