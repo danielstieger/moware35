@@ -734,8 +734,17 @@
       <property role="20kJfa" value="scopeConceptFunc" />
       <ref role="20lvS9" node="1Clc7wPShHo" resolve="PageScopeConceptFunc" />
     </node>
+    <node concept="1TJgyj" id="70RMBbulsV7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="providedActions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="70RMBbuu5_R" resolve="CommandAction" />
+    </node>
     <node concept="PrWs8" id="7AldN8RXdkW" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
+    </node>
+    <node concept="PrWs8" id="70RMBbup62E" role="PzmwI">
+      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
   </node>
   <node concept="1TIwiD" id="6ffh1MXzHna">
@@ -1447,6 +1456,7 @@
     <property role="34LRSv" value="getSelectedObjects" />
     <property role="1pbfSe" value="276409730" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="asaX9" id="70RMBbuA1W3" role="lGtFl" />
   </node>
   <node concept="AxPO7" id="4XO07uzJ7WR">
     <property role="3GE5qa" value="OFXCore.command" />
@@ -3522,6 +3532,51 @@
       <property role="20kJfa" value="reference" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="43H1fr7tveF" resolve="CommandCreationInfo" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="70RMBbuu5_R">
+    <property role="1pbfSe" value="1320166377" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="CommandAction" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="70RMBbuu5_U" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="commandCall" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3n7eUMgsANq" resolve="CommandCallBasis" />
+    </node>
+    <node concept="PrWs8" id="70RMBbuGhOu" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="70RMBbuA1T0">
+    <property role="1pbfSe" value="1322248370" />
+    <property role="3GE5qa" value="OFXCore.infra" />
+    <property role="TrG5h" value="SelectedObject" />
+    <property role="34LRSv" value="getSelected" />
+    <property role="R4oN_" value="mandatory object from UI" />
+    <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="70RMBbuA3ID" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="object" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="70RMBbuA3f1">
+    <property role="1pbfSe" value="1322253875" />
+    <property role="3GE5qa" value="OFXCore.infra" />
+    <property role="TrG5h" value="SelectedList" />
+    <property role="34LRSv" value="getSelectedList" />
+    <property role="R4oN_" value="list of objects from UI" />
+    <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="70RMBbuA3f2" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="object" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
   </node>
 </model>
