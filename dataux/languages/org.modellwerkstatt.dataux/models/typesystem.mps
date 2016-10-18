@@ -1056,7 +1056,7 @@
     </node>
     <node concept="1YaCAy" id="pQ21WN5qb$" role="1YuTPh">
       <property role="TrG5h" value="tabPane" />
-      <ref role="1YaFvo" to="1btx:2zZnBEDxRpa" resolve="TabPane" />
+      <ref role="1YaFvo" to="1btx:2zZnBEDxRpa" resolve="Tab" />
     </node>
   </node>
   <node concept="1YbPZF" id="pQ21WN5qor">
@@ -3112,6 +3112,101 @@
     <node concept="1YaCAy" id="6I37UbADcvb" role="1YuTPh">
       <property role="TrG5h" value="table" />
       <ref role="1YaFvo" to="1btx:7OqgUbFQvfd" resolve="CustomElement" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1xbJ1snAn6X">
+    <property role="TrG5h" value="check_IHasMenu" />
+    <property role="3GE5qa" value="internalInfra" />
+    <node concept="3clFbS" id="1xbJ1snAn6Y" role="18ibNy">
+      <node concept="3SKdUt" id="1xbJ1snAn74" role="3cqZAp">
+        <node concept="3SKdUq" id="1xbJ1snAn75" role="3SKWNk">
+          <property role="3SKdUp" value=" check some rules regardig menu handling..." />
+        </node>
+      </node>
+      <node concept="3clFbH" id="1xbJ1snAn78" role="3cqZAp" />
+      <node concept="3cpWs8" id="1xbJ1snAn7w" role="3cqZAp">
+        <node concept="3cpWsn" id="1xbJ1snAn7z" role="3cpWs9">
+          <property role="TrG5h" value="firstMenuFound" />
+          <node concept="10P_77" id="1xbJ1snAn7u" role="1tU5fm" />
+          <node concept="3clFbT" id="1xbJ1snAn82" role="33vP2m">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1xbJ1snAn7c" role="3cqZAp" />
+      <node concept="3clFbF" id="1xbJ1snAn91" role="3cqZAp">
+        <node concept="2OqwBi" id="1xbJ1snAnv7" role="3clFbG">
+          <node concept="2OqwBi" id="1xbJ1snAnal" role="2Oq$k0">
+            <node concept="1YBJjd" id="1xbJ1snAn8Z" role="2Oq$k0">
+              <ref role="1YBMHb" node="1xbJ1snAn70" resolve="iHasMenu" />
+            </node>
+            <node concept="3Tsc0h" id="1xbJ1snAncO" role="2OqNvi">
+              <ref role="3TtcxE" to="1btx:1xbJ1snAn6v" />
+            </node>
+          </node>
+          <node concept="2es0OD" id="1xbJ1snAoDA" role="2OqNvi">
+            <node concept="1bVj0M" id="1xbJ1snAoDC" role="23t8la">
+              <node concept="3clFbS" id="1xbJ1snAoDD" role="1bW5cS">
+                <node concept="3clFbJ" id="1xbJ1snAoFv" role="3cqZAp">
+                  <node concept="2OqwBi" id="1xbJ1snAoKq" role="3clFbw">
+                    <node concept="37vLTw" id="1xbJ1snAoHF" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1xbJ1snAoDE" resolve="it" />
+                    </node>
+                    <node concept="1mIQ4w" id="1xbJ1snApsk" role="2OqNvi">
+                      <node concept="chp4Y" id="1xbJ1snApuY" role="cj9EA">
+                        <ref role="cht4Q" to="1btx:1xbJ1snAn5p" resolve="MenuFolder" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="1xbJ1snAoFx" role="3clFbx">
+                    <node concept="3clFbF" id="1xbJ1snApxR" role="3cqZAp">
+                      <node concept="37vLTI" id="1xbJ1snApAx" role="3clFbG">
+                        <node concept="3clFbT" id="1xbJ1snApC_" role="37vLTx">
+                          <property role="3clFbU" value="true" />
+                        </node>
+                        <node concept="37vLTw" id="1xbJ1snApxQ" role="37vLTJ">
+                          <ref role="3cqZAo" node="1xbJ1snAn7z" resolve="firstMenuFound" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3eNFk2" id="1xbJ1snApFD" role="3eNLev">
+                    <node concept="37vLTw" id="1xbJ1snApIE" role="3eO9$A">
+                      <ref role="3cqZAo" node="1xbJ1snAn7z" resolve="firstMenuFound" />
+                    </node>
+                    <node concept="3clFbS" id="1xbJ1snApFF" role="3eOfB_">
+                      <node concept="3SKdUt" id="1xbJ1snApLB" role="3cqZAp">
+                        <node concept="3SKdUq" id="1xbJ1snApLC" role="3SKWNk">
+                          <property role="3SKdUp" value="after a menu is placed, do not allow further buttons but only menus" />
+                        </node>
+                      </node>
+                      <node concept="2MkqsV" id="1xbJ1snAquC" role="3cqZAp">
+                        <node concept="Xl_RD" id="1xbJ1snAqwI" role="2MkJ7o">
+                          <property role="Xl_RC" value="Actions should be placed left before folers/sub menus." />
+                        </node>
+                        <node concept="1YBJjd" id="1xbJ1snArm8" role="2OEOjV">
+                          <ref role="1YBMHb" node="1xbJ1snAn70" resolve="iHasMenu" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="1xbJ1snAoDE" role="1bW2Oz">
+                <property role="TrG5h" value="it" />
+                <node concept="2jxLKc" id="1xbJ1snAoDF" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1xbJ1snAn8M" role="3cqZAp" />
+      <node concept="3clFbH" id="1xbJ1snAn8A" role="3cqZAp" />
+      <node concept="3clFbH" id="1xbJ1snAn7h" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="1xbJ1snAn70" role="1YuTPh">
+      <property role="TrG5h" value="iHasMenu" />
+      <ref role="1YaFvo" to="1btx:1xbJ1snAn6u" resolve="IHasMenu" />
     </node>
   </node>
 </model>

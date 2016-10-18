@@ -8,6 +8,7 @@
   <imports>
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -66,6 +67,9 @@
       <property role="20kJfa" value="uxChild" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+    </node>
+    <node concept="PrWs8" id="1xbJ1snArsc" role="PzmwI">
+      <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
     </node>
   </node>
   <node concept="1TIwiD" id="7OqgUbFQvfd">
@@ -795,6 +799,57 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7vQ8h9wpvTt" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1xbJ1snAn46">
+    <property role="1pbfSe" value="803548445" />
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="MenuActionLink" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1xbJ1snAn47" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="action" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="un0u:1xbJ1snyL5X" resolve="IAction" />
+    </node>
+    <node concept="PrWs8" id="1xbJ1snAn6s" role="PzmwI">
+      <ref role="PrY4T" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1xbJ1snAn5n">
+    <property role="1pbfSe" value="803548526" />
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="IMenuItem" />
+  </node>
+  <node concept="1TIwiD" id="1xbJ1snAn5p">
+    <property role="1pbfSe" value="803548528" />
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="MenuFolder" />
+    <property role="34LRSv" value="Folder" />
+    <property role="R4oN_" value="for sub menu" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1xbJ1snAn5q" role="PzmwI">
+      <ref role="PrY4T" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    </node>
+    <node concept="PrWs8" id="1xbJ1snAn5C" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="1xbJ1snAn5s" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1xbJ1snAn6u">
+    <property role="1pbfSe" value="803548597" />
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="IHasMenu" />
+    <node concept="1TJgyj" id="1xbJ1snAn6v" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
     </node>
   </node>
 </model>

@@ -738,7 +738,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="providedActions" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="70RMBbuu5_R" resolve="CommandAction" />
+      <ref role="20lvS9" node="70RMBbuu5_R" resolve="PageAction" />
     </node>
     <node concept="PrWs8" id="7AldN8RXdkW" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
@@ -3537,7 +3537,7 @@
   <node concept="1TIwiD" id="70RMBbuu5_R">
     <property role="1pbfSe" value="1320166377" />
     <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="CommandAction" />
+    <property role="TrG5h" value="PageAction" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="70RMBbuu5_U" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3545,8 +3545,8 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3n7eUMgsANq" resolve="CommandCallBasis" />
     </node>
-    <node concept="PrWs8" id="70RMBbuGhOu" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="1xbJ1snyL60" role="PzmwI">
+      <ref role="PrY4T" node="1xbJ1snyL5X" resolve="IAction" />
     </node>
   </node>
   <node concept="1TIwiD" id="70RMBbuA1T0">
@@ -3577,6 +3577,14 @@
       <property role="20kJfa" value="object" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1xbJ1snyL5X">
+    <property role="1pbfSe" value="802606484" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="IAction" />
+    <node concept="PrWs8" id="1xbJ1snyL5Y" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

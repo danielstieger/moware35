@@ -28,6 +28,7 @@
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
+      <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
@@ -258,11 +259,10 @@
         <node concept="PMmxH" id="7rG0OCdgXs9" role="3EZMnx">
           <ref role="PMmxG" node="7rG0OCdgX62" resolve="BindsObjectEdtorWithoutProperty" />
         </node>
-        <node concept="3F0ifn" id="4kos0kdj_CC" role="3EZMnx">
-          <property role="3F0ifm" value="     &lt;main menu&gt;" />
-          <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
-        </node>
         <node concept="l2Vlx" id="7Cs1IG3jZ8D" role="2iSdaV" />
+      </node>
+      <node concept="PMmxH" id="1xbJ1snArsr" role="3EZMnx">
+        <ref role="PMmxG" node="1xbJ1snAn6A" resolve="MenuEditor" />
       </node>
       <node concept="3F0ifn" id="2zZnBEDxS1U" role="3EZMnx" />
       <node concept="3F1sOY" id="2zZnBEDxS2j" role="3EZMnx">
@@ -286,8 +286,8 @@
       <node concept="3F0A7n" id="3n7eUMgqclu" role="3EZMnx">
         <property role="39s7Ar" value="true" />
         <property role="1O74Pk" value="true" />
-        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" node="4ChSTKTfZ7r" resolve="UXIdentifier" />
       </node>
       <node concept="3F0ifn" id="3n7eUMgqclv" role="3EZMnx">
         <property role="3F0ifm" value="'" />
@@ -327,6 +327,24 @@
         <property role="Vb096" value="green" />
       </node>
       <node concept="Vb9p2" id="4ChSTKTfZ7A" role="3F10Kt">
+        <property role="Vbekb" value="PLAIN" />
+      </node>
+    </node>
+    <node concept="14StLt" id="1xbJ1snAn4N" role="V601i">
+      <property role="TrG5h" value="UXAction" />
+      <node concept="VechU" id="1xbJ1snAn5d" role="3F10Kt">
+        <property role="Vb096" value="orange" />
+      </node>
+      <node concept="Vb9p2" id="1xbJ1snAn5j" role="3F10Kt">
+        <property role="Vbekb" value="ITALIC" />
+      </node>
+    </node>
+    <node concept="14StLt" id="1xbJ1snI9Dt" role="V601i">
+      <property role="TrG5h" value="UXMenu" />
+      <node concept="VechU" id="1xbJ1snI9Du" role="3F10Kt">
+        <property role="Vb096" value="orange" />
+      </node>
+      <node concept="Vb9p2" id="1xbJ1snI9Dv" role="3F10Kt">
         <property role="Vbekb" value="PLAIN" />
       </node>
     </node>
@@ -1689,6 +1707,71 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1xbJ1snAn4e">
+    <property role="3GE5qa" value="internalInfra" />
+    <ref role="1XX52x" to="1btx:1xbJ1snAn46" resolve="MenuActionLink" />
+    <node concept="1iCGBv" id="1xbJ1snAn4g" role="2wV5jI">
+      <ref role="1NtTu8" to="1btx:1xbJ1snAn47" />
+      <node concept="1sVBvm" id="1xbJ1snAn4i" role="1sWHZn">
+        <node concept="3F0A7n" id="1xbJ1snAn4p" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1xbJ1snAn5z">
+    <property role="3GE5qa" value="internalInfra" />
+    <ref role="1XX52x" to="1btx:1xbJ1snAn5p" resolve="MenuFolder" />
+    <node concept="3EZMnI" id="1xbJ1snAn5G" role="2wV5jI">
+      <node concept="3F0ifn" id="1xbJ1snAn5N" role="3EZMnx">
+        <property role="3F0ifm" value="Folder" />
+        <ref role="1k5W1q" node="1xbJ1snI9Dt" resolve="UXMenu" />
+      </node>
+      <node concept="3F0A7n" id="1xbJ1snAn5T" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" node="4ChSTKTfZ7r" resolve="UXIdentifier" />
+      </node>
+      <node concept="3F2HdR" id="1xbJ1snAn61" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:1xbJ1snAn5s" />
+        <node concept="l2Vlx" id="1xbJ1snAn63" role="2czzBx" />
+        <node concept="pj6Ft" id="1xbJ1snAn68" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="1xbJ1snAn6b" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="1xbJ1snAn6g" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="1xbJ1snAn6n" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;items&gt;" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1xbJ1snAn5J" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="1xbJ1snAn6A">
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="MenuEditor" />
+    <ref role="1XX52x" to="1btx:1xbJ1snAn6u" resolve="IHasMenu" />
+    <node concept="3EZMnI" id="1xbJ1snAn6C" role="2wV5jI">
+      <node concept="3F2HdR" id="1xbJ1snAn6J" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:1xbJ1snAn6v" />
+        <node concept="l2Vlx" id="1xbJ1snAn6L" role="2czzBx" />
+        <node concept="pj6Ft" id="1xbJ1snAn6O" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="1xbJ1snHZwt" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;menu&gt;" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1xbJ1snAn6F" role="2iSdaV" />
     </node>
   </node>
 </model>

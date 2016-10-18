@@ -2452,56 +2452,22 @@
       <node concept="PMmxH" id="1Csx3LqsS9l" role="3EZMnx">
         <ref role="PMmxG" node="6ffh1MXB2lM" resolve="ISpaceNamedEditor" />
       </node>
+      <node concept="3F0ifn" id="1xbJ1snViyD" role="3EZMnx">
+        <property role="3F0ifm" value="bound to" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="1iCGBv" id="3AwmmzD$qrJ" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:3AwmmzD$qrI" />
+        <node concept="1sVBvm" id="3AwmmzD$qrK" role="1sWHZn">
+          <node concept="3F0A7n" id="3AwmmzD$qrM" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
       <node concept="3EZMnI" id="1Csx3LqtqVe" role="3EZMnx">
         <node concept="VPM3Z" id="1Csx3LqtqVf" role="3F10Kt">
           <property role="VOm3f" value="false" />
-        </node>
-        <node concept="3F0ifn" id="1Csx3LqtqVn" role="3EZMnx">
-          <property role="3F0ifm" value="" />
-        </node>
-        <node concept="3F0ifn" id="1Csx3LqtqUY" role="3EZMnx">
-          <property role="3F0ifm" value="form bound to list&lt;" />
-          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
-          <node concept="pVoyu" id="1Csx3LqtqUZ" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="1iCGBv" id="3AwmmzD$qrJ" role="3EZMnx">
-          <ref role="1NtTu8" to="un0u:3AwmmzD$qrI" />
-          <node concept="1sVBvm" id="3AwmmzD$qrK" role="1sWHZn">
-            <node concept="3F0A7n" id="3AwmmzD$qrM" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-        <node concept="3F0ifn" id="3AwmmzD$qrO" role="3EZMnx">
-          <property role="3F0ifm" value="&gt; as " />
-          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
-        </node>
-        <node concept="3F0ifn" id="1Csx3LqxDyZ" role="3EZMnx">
-          <property role="3F0ifm" value="form" />
-          <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-          <node concept="3nxI2P" id="6lryfQF7yi3" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F2HdR" id="70RMBbulsVQ" role="3EZMnx">
-          <ref role="1NtTu8" to="un0u:70RMBbulsV7" />
-          <node concept="l2Vlx" id="70RMBbulsVS" role="2czzBx" />
-          <node concept="pj6Ft" id="70RMBbulsWx" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="pVoyu" id="70RMBbulsWz" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="70RMBbulsWA" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="3F0ifn" id="70RMBbulsXY" role="2czzBI">
-            <property role="3F0ifm" value="" />
-            <property role="ilYzB" value="&lt;provided actions&gt;" />
-          </node>
         </node>
         <node concept="3F0ifn" id="1Csx3LqtqV0" role="3EZMnx">
           <property role="3F0ifm" value="" />
@@ -2567,6 +2533,44 @@
         <node concept="3F0ifn" id="1Csx3LqtqV$" role="3EZMnx">
           <property role="3F0ifm" value="" />
           <node concept="pVoyu" id="1Csx3LqtqV_" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="1xbJ1snViFP" role="3EZMnx">
+          <property role="3F0ifm" value="send page data to" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="pVoyu" id="1xbJ1snViFQ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="1xbJ1snXdjP" role="3EZMnx">
+          <property role="3F0ifm" value="ZaehlBelegFC" />
+          <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
+        </node>
+        <node concept="3F0ifn" id="1xbJ1snXdiq" role="3EZMnx">
+          <property role="3F0ifm" value="and provide actions:" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        </node>
+        <node concept="3F2HdR" id="70RMBbulsVQ" role="3EZMnx">
+          <ref role="1NtTu8" to="un0u:70RMBbulsV7" />
+          <node concept="l2Vlx" id="70RMBbulsVS" role="2czzBx" />
+          <node concept="pj6Ft" id="70RMBbulsWx" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="pVoyu" id="70RMBbulsWz" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="70RMBbulsWA" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F0ifn" id="70RMBbulsXY" role="2czzBI">
+            <property role="3F0ifm" value="" />
+            <property role="ilYzB" value="&lt;provided actions&gt;" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="1xbJ1snVVn9" role="3EZMnx">
+          <property role="3F0ifm" value="" />
+          <node concept="pVoyu" id="1xbJ1snVVna" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
@@ -11621,7 +11625,7 @@
   </node>
   <node concept="24kQdi" id="70RMBbuu5A1">
     <property role="3GE5qa" value="OFXCore.command" />
-    <ref role="1XX52x" to="un0u:70RMBbuu5_R" resolve="CommandAction" />
+    <ref role="1XX52x" to="un0u:70RMBbuu5_R" resolve="PageAction" />
     <node concept="3EZMnI" id="70RMBbuu5A3" role="2wV5jI">
       <node concept="3F0A7n" id="70RMBbuLKx6" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
