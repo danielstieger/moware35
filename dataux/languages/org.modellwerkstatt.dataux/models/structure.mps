@@ -68,6 +68,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
     </node>
+    <node concept="1TJgyj" id="4uvUPC1_hbE" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pageLink" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="4uvUPC1_h9C" resolve="OFXPageLink" />
+    </node>
     <node concept="PrWs8" id="1xbJ1snArsc" role="PzmwI">
       <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
     </node>
@@ -850,6 +856,31 @@
       <property role="20kJfa" value="items" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4uvUPC1_h9C">
+    <property role="1pbfSe" value="1228209602" />
+    <property role="TrG5h" value="OFXPageLink" />
+    <property role="34LRSv" value="link" />
+    <property role="R4oN_" value="an objectflow page" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4uvUPC1_h9F" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="prozess" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="un0u:6ffh1MXzHnh" resolve="Process" />
+    </node>
+    <node concept="1TJgyj" id="4uvUPC1_h9H" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="command" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="un0u:6ffh1MXzHna" resolve="Command" />
+    </node>
+    <node concept="1TJgyj" id="4uvUPC1_h9K" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="page" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="un0u:6ffh1MXzHn6" resolve="Page" />
     </node>
   </node>
 </model>
