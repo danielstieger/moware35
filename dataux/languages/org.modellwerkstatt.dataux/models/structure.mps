@@ -58,7 +58,7 @@
     <property role="1pbfSe" value="1760812974" />
     <property role="TrG5h" value="PagePane" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/pagepane.png" />
+    <property role="MwhBj" value="${module}/icons/pagepane2.png" />
     <property role="34LRSv" value="Page Pane" />
     <property role="R4oN_" value="ui element for a page" />
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
@@ -82,7 +82,7 @@
     <property role="1pbfSe" value="1760835439" />
     <property role="TrG5h" value="CustomElement" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/custom.png" />
+    <property role="MwhBj" value="${module}/icons/custom2.png" />
     <property role="34LRSv" value="Custom UI Element" />
     <property role="R4oN_" value="declare a custom ui element" />
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
@@ -145,7 +145,7 @@
   <node concept="1TIwiD" id="6MSPLZmFnKD">
     <property role="1pbfSe" value="1130779464" />
     <property role="TrG5h" value="Table" />
-    <property role="MwhBj" value="${module}/icons/table.png" />
+    <property role="MwhBj" value="${module}/icons/table2.png" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Table" />
     <property role="R4oN_" value="with row and columns" />
@@ -163,7 +163,7 @@
   <node concept="1TIwiD" id="6MSPLZmFnKE">
     <property role="1pbfSe" value="1130779465" />
     <property role="TrG5h" value="TabPane" />
-    <property role="MwhBj" value="${module}/icons/tab.png" />
+    <property role="MwhBj" value="${module}/icons/tab2.png" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Tab Pane" />
     <property role="R4oN_" value="with multiple tabs" />
@@ -181,7 +181,7 @@
   <node concept="1TIwiD" id="6MSPLZmFnKF">
     <property role="1pbfSe" value="1130779466" />
     <property role="TrG5h" value="DelegateForm" />
-    <property role="MwhBj" value="${module}/icons/delegateform.png" />
+    <property role="MwhBj" value="${module}/icons/delegateform2.png" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Delegate Form" />
     <property role="R4oN_" value="form with contains delegates" />
@@ -205,7 +205,7 @@
   <node concept="1TIwiD" id="6MSPLZmFnKG">
     <property role="1pbfSe" value="1130779467" />
     <property role="TrG5h" value="GridLayout" />
-    <property role="MwhBj" value="${module}/icons/gridlayout.png" />
+    <property role="MwhBj" value="${module}/icons/gridlayout2.png" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Grid Layout" />
     <property role="R4oN_" value="layout in rows and columns" />
@@ -329,7 +329,7 @@
     <property role="TrG5h" value="Include" />
     <property role="34LRSv" value="Include" />
     <property role="R4oN_" value="another declared ux element" />
-    <property role="MwhBj" value="${module}/icons/include.png" />
+    <property role="MwhBj" value="${module}/icons/include2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="6oVlrbjSMSi" role="1TKVEl">
       <property role="TrG5h" value="conversionInfo" />
@@ -354,7 +354,7 @@
     <property role="TrG5h" value="BaseDelegate" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <property role="MwhBj" value="${module}/icons/delegate.png" />
+    <property role="MwhBj" value="${module}/icons/delegate2.png" />
     <property role="3GE5qa" value="delegates" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1h$q6rwn4iu" role="1TKVEi">
@@ -853,7 +853,7 @@
     <property role="TrG5h" value="IHasMenu" />
     <node concept="1TJgyj" id="1xbJ1snAn6v" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="items" />
+      <property role="20kJfa" value="menuItems" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
     </node>
