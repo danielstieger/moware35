@@ -66,7 +66,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="uxChild" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="ILayoutElement" />
     </node>
     <node concept="1TJgyj" id="4uvUPC1_hbE" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -93,7 +93,7 @@
       <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
     <node concept="PrWs8" id="2zZnBEDxFzz" role="PzmwI">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
     </node>
   </node>
   <node concept="PlHQZ" id="4ChSTKTfUEX">
@@ -151,13 +151,16 @@
     <property role="R4oN_" value="with row and columns" />
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
     <node concept="PrWs8" id="2zZnBEDxFzE" role="PzmwI">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
     </node>
     <node concept="PrWs8" id="pQ21WN5sjA" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo7" resolve="IHasFormOptions" />
     </node>
     <node concept="PrWs8" id="pQ21WNcPNX" role="PzmwI">
       <ref role="PrY4T" node="pQ21WNcPKz" resolve="IHasDelegates" />
+    </node>
+    <node concept="PrWs8" id="MP9H4jxzM8" role="PzmwI">
+      <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
     </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKE">
@@ -175,7 +178,7 @@
       <ref role="20lvS9" node="2zZnBEDxRpa" resolve="Tab" />
     </node>
     <node concept="PrWs8" id="2zZnBEDxFzG" role="PzmwI">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKF">
@@ -193,7 +196,7 @@
       <ref role="20lvS9" node="6MSPLZmFwYc" resolve="LayoutWeight" />
     </node>
     <node concept="PrWs8" id="2zZnBEDxFzB" role="PzmwI">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
     </node>
     <node concept="PrWs8" id="pQ21WN5sk8" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo7" resolve="IHasFormOptions" />
@@ -227,7 +230,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="uxChild" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="ILayoutElement" />
     </node>
     <node concept="PrWs8" id="6MSPLZmFnKI" role="PzmwI">
       <ref role="PrY4T" node="6MSPLZmFnKH" resolve="ILayout" />
@@ -241,7 +244,7 @@
     <property role="3GE5qa" value="layout" />
     <property role="TrG5h" value="ILayout" />
     <node concept="PrWs8" id="2zZnBEDxFzI" role="PrDN$">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFqdA">
@@ -303,7 +306,7 @@
   <node concept="PlHQZ" id="2zZnBEDxDjf">
     <property role="1pbfSe" value="762973367" />
     <property role="3GE5qa" value="internalInfra" />
-    <property role="TrG5h" value="IDataUxLayoutElement" />
+    <property role="TrG5h" value="ILayoutElement" />
   </node>
   <node concept="1TIwiD" id="2zZnBEDxRpa">
     <property role="1pbfSe" value="762915644" />
@@ -321,7 +324,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="uxChild" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="ILayoutElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="2zZnBEDyOcE">
@@ -343,10 +346,13 @@
       <ref role="20lvS9" node="4ChSTKTge26" resolve="IBindable" />
     </node>
     <node concept="PrWs8" id="2zZnBEDyOcF" role="PzmwI">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
     </node>
     <node concept="PrWs8" id="7rG0OCdiLbY" role="PzmwI">
       <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
+    </node>
+    <node concept="PrWs8" id="MP9H4j$TXA" role="PzmwI">
+      <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
     </node>
   </node>
   <node concept="1TIwiD" id="1h$q6rwmHiS">
@@ -833,6 +839,7 @@
     <property role="TrG5h" value="MenuFolder" />
     <property role="34LRSv" value="Folder" />
     <property role="R4oN_" value="for sub menu" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1xbJ1snAn5q" role="PzmwI">
       <ref role="PrY4T" node="1xbJ1snAn5n" resolve="IMenuItem" />
@@ -840,11 +847,8 @@
     <node concept="PrWs8" id="1xbJ1snAn5C" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="1xbJ1snAn5s" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="items" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    <node concept="PrWs8" id="MP9H4jxzV$" role="PzmwI">
+      <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
     </node>
   </node>
   <node concept="PlHQZ" id="1xbJ1snAn6u">

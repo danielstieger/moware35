@@ -738,7 +738,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="providedActions" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="70RMBbuu5_R" resolve="PageAction" />
+      <ref role="20lvS9" node="70RMBbuu5_R" resolve="PageProvidedAction" />
     </node>
     <node concept="PrWs8" id="7AldN8RXdkW" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
@@ -3537,7 +3537,7 @@
   <node concept="1TIwiD" id="70RMBbuu5_R">
     <property role="1pbfSe" value="1320166377" />
     <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="PageAction" />
+    <property role="TrG5h" value="PageProvidedAction" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="70RMBbuu5_U" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

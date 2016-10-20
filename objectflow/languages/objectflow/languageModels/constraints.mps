@@ -5118,7 +5118,7 @@
               <node concept="2Xjw5R" id="70RMBbuA3oO" role="2OqNvi">
                 <node concept="1xMEDy" id="70RMBbuA3oQ" role="1xVPHs">
                   <node concept="chp4Y" id="70RMBbuA3pX" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:70RMBbuu5_R" resolve="CommandAction" />
+                    <ref role="cht4Q" to="un0u:70RMBbuu5_R" resolve="PageProvidedAction" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="70RMBbuTq43" role="1xVPHs" />
@@ -5199,7 +5199,7 @@
               <node concept="2Xjw5R" id="70RMBbuTqfs" role="2OqNvi">
                 <node concept="1xMEDy" id="70RMBbuTqfu" role="1xVPHs">
                   <node concept="chp4Y" id="70RMBbuTqhd" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:70RMBbuu5_R" resolve="CommandAction" />
+                    <ref role="cht4Q" to="un0u:70RMBbuu5_R" resolve="PageProvidedAction" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="70RMBbuTqk8" role="1xVPHs" />

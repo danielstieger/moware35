@@ -962,6 +962,54 @@
             </node>
           </node>
           <node concept="3clFbH" id="7rG0OCdjVN8" role="3cqZAp" />
+          <node concept="3clFbH" id="MP9H4jJyeB" role="3cqZAp" />
+          <node concept="3clFbJ" id="MP9H4jJyoM" role="3cqZAp">
+            <node concept="3clFbS" id="MP9H4jJyoO" role="3clFbx">
+              <node concept="2MkqsV" id="MP9H4jJAtV" role="3cqZAp">
+                <node concept="Xl_RD" id="MP9H4jJAua" role="2MkJ7o">
+                  <property role="Xl_RC" value="Adding menu items is only available when including tables." />
+                </node>
+                <node concept="1YBJjd" id="MP9H4jJAxb" role="2OEOjV">
+                  <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
+                </node>
+              </node>
+            </node>
+            <node concept="1Wc70l" id="MP9H4jJzkt" role="3clFbw">
+              <node concept="3eOSWO" id="MP9H4jJAkH" role="3uHU7B">
+                <node concept="3cmrfG" id="MP9H4jJAkK" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="MP9H4jJ$gm" role="3uHU7B">
+                  <node concept="2OqwBi" id="MP9H4jJzx1" role="2Oq$k0">
+                    <node concept="1YBJjd" id="MP9H4jJzs3" role="2Oq$k0">
+                      <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
+                    </node>
+                    <node concept="3Tsc0h" id="MP9H4jJzKI" role="2OqNvi">
+                      <ref role="3TtcxE" to="1btx:1xbJ1snAn6v" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="MP9H4jJ_xH" role="2OqNvi" />
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="MP9H4jJzc5" role="3uHU7w">
+                <node concept="2OqwBi" id="MP9H4jJzc7" role="3fr31v">
+                  <node concept="2OqwBi" id="MP9H4jJzc8" role="2Oq$k0">
+                    <node concept="1YBJjd" id="MP9H4jJzc9" role="2Oq$k0">
+                      <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
+                    </node>
+                    <node concept="3TrEf2" id="MP9H4jJzca" role="2OqNvi">
+                      <ref role="3Tt5mk" to="1btx:7rG0OCdj5GO" />
+                    </node>
+                  </node>
+                  <node concept="1mIQ4w" id="MP9H4jJzcb" role="2OqNvi">
+                    <node concept="chp4Y" id="MP9H4jJzj2" role="cj9EA">
+                      <ref role="cht4Q" to="1btx:6MSPLZmFnKD" resolve="Table" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3clFbH" id="7rG0OCdjRF1" role="3cqZAp" />
         </node>
       </node>
@@ -3326,6 +3374,71 @@
     <node concept="1YaCAy" id="4uvUPC1AB6_" role="1YuTPh">
       <property role="TrG5h" value="ofxPageLink" />
       <ref role="1YaFvo" to="1btx:4uvUPC1_h9C" resolve="OFXPageLink" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="MP9H4jz_Qk">
+    <property role="TrG5h" value="check_LabelFOption" />
+    <property role="3GE5qa" value="formopt" />
+    <node concept="3clFbS" id="MP9H4jz_Ql" role="18ibNy">
+      <node concept="3cpWs8" id="MP9H4jz_Qs" role="3cqZAp">
+        <node concept="3cpWsn" id="MP9H4jz_Qv" role="3cpWs9">
+          <property role="TrG5h" value="layout" />
+          <node concept="3Tqbb2" id="MP9H4jz_Qr" role="1tU5fm">
+            <ref role="ehGHo" to="1btx:6MSPLZmFnKH" resolve="ILayout" />
+          </node>
+          <node concept="2OqwBi" id="MP9H4jz_SQ" role="33vP2m">
+            <node concept="1YBJjd" id="MP9H4jz_QP" role="2Oq$k0">
+              <ref role="1YBMHb" node="MP9H4jz_Qn" resolve="labelFOption" />
+            </node>
+            <node concept="2Xjw5R" id="MP9H4jz_WB" role="2OqNvi">
+              <node concept="1xMEDy" id="MP9H4jz_WD" role="1xVPHs">
+                <node concept="chp4Y" id="MP9H4jz_X7" role="ri$Ld">
+                  <ref role="cht4Q" to="1btx:6MSPLZmFnKH" resolve="ILayout" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="MP9H4jz_XQ" role="3cqZAp">
+        <node concept="3clFbS" id="MP9H4jz_XS" role="3clFbx">
+          <node concept="2MkqsV" id="MP9H4jzA7j" role="3cqZAp">
+            <node concept="Xl_RD" id="MP9H4jzA7y" role="2MkJ7o">
+              <property role="Xl_RC" value="Label option can not be used here, since label will be set via page title." />
+            </node>
+            <node concept="1YBJjd" id="MP9H4jzAa7" role="2OEOjV">
+              <ref role="1YBMHb" node="MP9H4jz_Qn" resolve="labelFOption" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="MP9H4j_vRs" role="3clFbw">
+          <node concept="2OqwBi" id="MP9H4j_wkV" role="3uHU7w">
+            <node concept="2OqwBi" id="MP9H4j_vUG" role="2Oq$k0">
+              <node concept="1YBJjd" id="MP9H4j_vS$" role="2Oq$k0">
+                <ref role="1YBMHb" node="MP9H4jz_Qn" resolve="labelFOption" />
+              </node>
+              <node concept="2Xjw5R" id="MP9H4j_wd9" role="2OqNvi">
+                <node concept="1xMEDy" id="MP9H4j_wdb" role="1xVPHs">
+                  <node concept="chp4Y" id="MP9H4j_wf5" role="ri$Ld">
+                    <ref role="cht4Q" to="1btx:7OqgUbFQpKc" resolve="PagePane" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="MP9H4j_wBC" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="MP9H4jzA04" role="3uHU7B">
+            <node concept="37vLTw" id="MP9H4jz_Yd" role="2Oq$k0">
+              <ref role="3cqZAo" node="MP9H4jz_Qv" resolve="layout" />
+            </node>
+            <node concept="3w_OXm" id="MP9H4jzA6E" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="MP9H4jz_Qn" role="1YuTPh">
+      <property role="TrG5h" value="labelFOption" />
+      <ref role="1YaFvo" to="1btx:pQ21WN5qog" resolve="LabelFOption" />
     </node>
   </node>
 </model>
