@@ -734,17 +734,8 @@
       <property role="20kJfa" value="scopeConceptFunc" />
       <ref role="20lvS9" node="1Clc7wPShHo" resolve="PageScopeConceptFunc" />
     </node>
-    <node concept="1TJgyj" id="70RMBbulsV7" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="providedActions" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="70RMBbuu5_R" resolve="PageProvidedAction" />
-    </node>
     <node concept="PrWs8" id="7AldN8RXdkW" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
-    </node>
-    <node concept="PrWs8" id="70RMBbup62E" role="PzmwI">
-      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
   </node>
   <node concept="1TIwiD" id="6ffh1MXzHna">
@@ -3537,7 +3528,7 @@
   <node concept="1TIwiD" id="70RMBbuu5_R">
     <property role="1pbfSe" value="1320166377" />
     <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="PageProvidedAction" />
+    <property role="TrG5h" value="DomainProvidedAction" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="70RMBbuu5_U" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3607,12 +3598,39 @@
     </node>
     <node concept="1TJgyj" id="5vS1dgEwtSu" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="providedActions" />
+      <property role="20kJfa" value="searchActions" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="70RMBbuu5_R" resolve="PageProvidedAction" />
+      <ref role="20lvS9" node="70RMBbuu5_R" resolve="DomainProvidedAction" />
+    </node>
+    <node concept="1TJgyj" id="voZc6DCAfe" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="graphOwnerActions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="70RMBbuu5_R" resolve="DomainProvidedAction" />
+    </node>
+    <node concept="1TJgyj" id="voZc6DCAfi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="graphEditActions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="70RMBbuu5_R" resolve="DomainProvidedAction" />
     </node>
     <node concept="PrWs8" id="5vS1dgEwtSq" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="voZc6DFy$A" role="PzmwI">
+      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="voZc6EdtLu">
+    <property role="1pbfSe" value="1307649761" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="PageActionLink" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="voZc6EdtLv" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="action" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="70RMBbuu5_R" resolve="DomainProvidedAction" />
     </node>
   </node>
 </model>
