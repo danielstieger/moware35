@@ -358,10 +358,6 @@
       <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
         <child id="540871147943773366" name="argument" index="25WWJ7" />
       </concept>
-      <concept id="1172667724288" name="jetbrains.mps.baseLanguage.collections.structure.PageOperation" flags="nn" index="8snch">
-        <child id="1172667737868" name="fromElement" index="8sqot" />
-        <child id="1172667748353" name="toElement" index="8st4g" />
-      </concept>
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
@@ -5078,24 +5074,14 @@
               <ref role="2I9WkF" to="un0u:70RMBbuu5_R" resolve="DomainProvidedAction" />
             </node>
             <node concept="2OqwBi" id="voZc6ErAjW" role="33vP2m">
-              <node concept="2OqwBi" id="voZc6EmIWf" role="2Oq$k0">
-                <node concept="2OqwBi" id="voZc6ElJro" role="2Oq$k0">
-                  <node concept="2OqwBi" id="voZc6ElJhy" role="2Oq$k0">
-                    <node concept="13iPFW" id="voZc6ElJf2" role="2Oq$k0" />
-                    <node concept="I4A8Y" id="voZc6ElJmh" role="2OqNvi" />
-                  </node>
-                  <node concept="2SmgA7" id="voZc6ElJtl" role="2OqNvi">
-                    <node concept="chp4Y" id="voZc6EmDAj" role="1dBWTz">
-                      <ref role="cht4Q" to="un0u:70RMBbuu5_R" resolve="DomainProvidedAction" />
-                    </node>
-                  </node>
+              <node concept="2OqwBi" id="voZc6ElJro" role="2Oq$k0">
+                <node concept="2OqwBi" id="voZc6ElJhy" role="2Oq$k0">
+                  <node concept="13iPFW" id="voZc6ElJf2" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="voZc6ElJmh" role="2OqNvi" />
                 </node>
-                <node concept="8snch" id="voZc6ErAbB" role="2OqNvi">
-                  <node concept="3cmrfG" id="voZc6ErAdW" role="8sqot">
-                    <property role="3cmrfH" value="0" />
-                  </node>
-                  <node concept="3cmrfG" id="voZc6ErAgd" role="8st4g">
-                    <property role="3cmrfH" value="5" />
+                <node concept="2SmgA7" id="voZc6ElJtl" role="2OqNvi">
+                  <node concept="chp4Y" id="voZc6EmDAj" role="1dBWTz">
+                    <ref role="cht4Q" to="un0u:70RMBbuu5_R" resolve="DomainProvidedAction" />
                   </node>
                 </node>
               </node>
