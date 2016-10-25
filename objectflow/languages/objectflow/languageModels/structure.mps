@@ -3545,6 +3545,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3n7eUMgsANq" resolve="CommandCallBasis" />
     </node>
+    <node concept="1TJgyj" id="5vS1dgE$5lj" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="enabled" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="1xbJ1snyL60" role="PzmwI">
       <ref role="PrY4T" node="1xbJ1snyL5X" resolve="IAction" />
     </node>
@@ -3584,6 +3590,28 @@
     <property role="3GE5qa" value="OFXCore.command" />
     <property role="TrG5h" value="IAction" />
     <node concept="PrWs8" id="1xbJ1snyL5Y" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5vS1dgEwtSp">
+    <property role="1pbfSe" value="2105941267" />
+    <property role="TrG5h" value="Domain" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Domain" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5vS1dgEwtVH" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="classifier" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:g7pOWCK" resolve="Classifier" />
+    </node>
+    <node concept="1TJgyj" id="5vS1dgEwtSu" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="providedActions" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="70RMBbuu5_R" resolve="PageProvidedAction" />
+    </node>
+    <node concept="PrWs8" id="5vS1dgEwtSq" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
