@@ -183,6 +183,7 @@
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <property id="1160590353935" name="usesFolding" index="S$Qs1" />
         <property id="1139416841293" name="usesBraces" index="1ayjP4" />
+        <property id="6240706158490734113" name="collapseByDefault" index="3EXrWe" />
         <property id="1073389446425" name="vertical" index="3EZMnw" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="7723470090030138869" name="foldedCellModel" index="AHCbl" />
@@ -2556,20 +2557,39 @@
             <property role="ilYzB" value="&lt;user interfaces&gt;" />
           </node>
         </node>
-        <node concept="gc7cB" id="3nLPQZQNtWh" role="3EZMnx">
-          <node concept="3VJUX4" id="3nLPQZQNtWk" role="3YsKMw">
-            <node concept="3clFbS" id="3nLPQZQNtWn" role="2VODD2">
-              <node concept="3clFbF" id="3nLPQZQNtZo" role="3cqZAp">
-                <node concept="2YIFZM" id="3nLPQZQNu0r" role="3clFbG">
-                  <ref role="37wK5l" to="ymrz:3DPRplxTxJ2" resolve="createInverseReferenceCellProvider" />
-                  <ref role="1Pybhc" to="ymrz:3DPRplxTxI_" resolve="UIExtensionHelper" />
-                  <node concept="pncrf" id="3nLPQZQNJ79" role="37wK5m" />
+        <node concept="3EZMnI" id="7qy3lF6ONaY" role="3EZMnx">
+          <property role="S$Qs1" value="true" />
+          <property role="3EXrWe" value="true" />
+          <node concept="VPM3Z" id="7qy3lF6ONb0" role="3F10Kt">
+            <property role="VOm3f" value="false" />
+          </node>
+          <node concept="gc7cB" id="3nLPQZQNtWh" role="3EZMnx">
+            <node concept="3VJUX4" id="3nLPQZQNtWk" role="3YsKMw">
+              <node concept="3clFbS" id="3nLPQZQNtWn" role="2VODD2">
+                <node concept="3clFbF" id="3nLPQZQNtZo" role="3cqZAp">
+                  <node concept="2YIFZM" id="3nLPQZQNu0r" role="3clFbG">
+                    <ref role="1Pybhc" to="ymrz:3DPRplxTxI_" resolve="UIExtensionHelper" />
+                    <ref role="37wK5l" to="ymrz:3DPRplxTxJ2" resolve="createInverseReferenceCellProvider" />
+                    <node concept="pncrf" id="3nLPQZQNJ79" role="37wK5m" />
+                  </node>
                 </node>
               </node>
             </node>
+            <node concept="pVoyu" id="3nLPQZQNtXv" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
           </node>
-          <node concept="pVoyu" id="3nLPQZQNtXv" role="3F10Kt">
-            <property role="VOm3f" value="true" />
+          <node concept="l2Vlx" id="7qy3lF6ONb3" role="2iSdaV" />
+          <node concept="3F0ifn" id="7qy3lF6ONfC" role="AHCbl">
+            <property role="3F0ifm" value="" />
+            <property role="ilYzB" value="&lt;branching commands&gt;" />
+            <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+            <node concept="pVoyu" id="7qy3lF6Q5zD" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="lj46D" id="7qy3lF6Q5zI" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
           </node>
         </node>
         <node concept="3F0ifn" id="3nLPQZPUuOB" role="3EZMnx">
