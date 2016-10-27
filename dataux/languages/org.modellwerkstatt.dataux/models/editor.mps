@@ -263,20 +263,6 @@
         <node concept="PMmxH" id="7rG0OCdgXs9" role="3EZMnx">
           <ref role="PMmxG" node="7rG0OCdgX62" resolve="BindsObjectEdtorWithoutProperty" />
         </node>
-        <node concept="3F2HdR" id="4uvUPC1_hcL" role="3EZMnx">
-          <property role="2czwfO" value="," />
-          <ref role="1NtTu8" to="1btx:4uvUPC1_hbE" />
-          <node concept="l2Vlx" id="4uvUPC1_hcN" role="2czzBx" />
-          <node concept="3F0ifn" id="4uvUPC1_hcQ" role="2czzBI">
-            <property role="ilYzB" value="&lt;pages&gt;" />
-          </node>
-          <node concept="lj46D" id="4uvUPC1Atss" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="pVoyu" id="MP9H4j$Uek" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
         <node concept="PMmxH" id="1xbJ1snArsr" role="3EZMnx">
           <ref role="PMmxG" node="1xbJ1snAn6A" resolve="MenuEditor" />
           <node concept="pVoyu" id="MP9H4j$UdX" role="3F10Kt">
@@ -1757,20 +1743,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="1xbJ1snAn4e">
-    <property role="3GE5qa" value="internalInfra" />
-    <ref role="1XX52x" to="1btx:1xbJ1snAn46" resolve="MenuActionLink" />
-    <node concept="1iCGBv" id="1xbJ1snAn4g" role="2wV5jI">
-      <ref role="1NtTu8" to="1btx:1xbJ1snAn47" />
-      <node concept="1sVBvm" id="1xbJ1snAn4i" role="1sWHZn">
-        <node concept="3F0A7n" id="1xbJ1snAn4p" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="1xbJ1snAn5z">
     <property role="3GE5qa" value="internalInfra" />
     <ref role="1XX52x" to="1btx:1xbJ1snAn5p" resolve="MenuFolder" />
@@ -1809,51 +1781,6 @@
         <property role="3F0ifm" value="" />
         <property role="ilYzB" value="&lt;menu&gt;" />
       </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="4uvUPC1_h9T">
-    <ref role="1XX52x" to="1btx:4uvUPC1_h9C" resolve="OFXPageLink" />
-    <node concept="3EZMnI" id="4uvUPC1_ha7" role="2wV5jI">
-      <node concept="3F0ifn" id="4uvUPC1AsEo" role="3EZMnx">
-        <property role="3F0ifm" value="for Page" />
-        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
-      </node>
-      <node concept="1iCGBv" id="4uvUPC1_h9V" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:4uvUPC1_h9F" />
-        <node concept="1sVBvm" id="4uvUPC1_h9X" role="1sWHZn">
-          <node concept="3F0A7n" id="4uvUPC1_ha4" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="4uvUPC1_haj" role="3EZMnx">
-        <property role="3F0ifm" value="." />
-        <ref role="1k5W1q" to="tpen:hFDnyG9" resolve="Dot" />
-      </node>
-      <node concept="1iCGBv" id="4uvUPC1_hav" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:4uvUPC1_h9H" />
-        <node concept="1sVBvm" id="4uvUPC1_hax" role="1sWHZn">
-          <node concept="3F0A7n" id="4uvUPC1_haG" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="4uvUPC1_hb2" role="3EZMnx">
-        <property role="3F0ifm" value="." />
-        <ref role="1k5W1q" to="tpen:hFDnyG9" resolve="Dot" />
-      </node>
-      <node concept="1iCGBv" id="4uvUPC1_hbm" role="3EZMnx">
-        <ref role="1NtTu8" to="1btx:4uvUPC1_h9K" />
-        <node concept="1sVBvm" id="4uvUPC1_hbo" role="1sWHZn">
-          <node concept="3F0A7n" id="4uvUPC1_hbB" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="l2Vlx" id="4uvUPC1_ha8" role="2iSdaV" />
     </node>
   </node>
 </model>

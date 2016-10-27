@@ -444,7 +444,7 @@
     <property role="3GE5qa" value="CommandTrigger" />
     <property role="TrG5h" value="SelectedObject" />
     <property role="MwhBj" value="${module}/icons/icecube.png" />
-    <property role="34LRSv" value="getSelected" />
+    <property role="34LRSv" value="DEP_getSelected" />
     <property role="R4oN_" value="mandatory one object" />
     <property role="1pbfSe" value="1577753954" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -460,7 +460,7 @@
     <property role="TrG5h" value="SelectedList" />
     <property role="MwhBj" value="${module}/icons/icecube.png" />
     <property role="R4oN_" value="one or more objects" />
-    <property role="34LRSv" value="getSelectedList" />
+    <property role="34LRSv" value="DEP_getSelectedList" />
     <property role="1pbfSe" value="1577364847" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="6trC6wnugh" role="1TKVEi">
