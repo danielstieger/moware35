@@ -176,6 +176,7 @@
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -3202,7 +3203,7 @@
                     </node>
                     <node concept="1mIQ4w" id="1xbJ1snApsk" role="2OqNvi">
                       <node concept="chp4Y" id="1xbJ1snApuY" role="cj9EA">
-                        <ref role="cht4Q" to="1btx:1xbJ1snAn5p" resolve="MenuFolder" />
+                        <ref role="cht4Q" to="1btx:1xbJ1snAn5p" resolve="MenuSub" />
                       </node>
                     </node>
                   </node>
@@ -3320,6 +3321,143 @@
     <node concept="1YaCAy" id="MP9H4jz_Qn" role="1YuTPh">
       <property role="TrG5h" value="labelFOption" />
       <ref role="1YaFvo" to="1btx:pQ21WN5qog" resolve="LabelFOption" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="3nLPQZQHCDS">
+    <property role="TrG5h" value="check_MenuSub" />
+    <property role="3GE5qa" value="internalInfra" />
+    <node concept="3clFbS" id="3nLPQZQHCDT" role="18ibNy">
+      <node concept="3clFbJ" id="3nLPQZQHCDZ" role="3cqZAp">
+        <node concept="2OqwBi" id="3nLPQZQJ5Iv" role="3clFbw">
+          <node concept="1YBJjd" id="3nLPQZQJ5CR" role="2Oq$k0">
+            <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
+          </node>
+          <node concept="2qgKlT" id="3nLPQZQJ5U6" role="2OqNvi">
+            <ref role="37wK5l" to="5y3p:3nLPQZQHFkb" resolve="isOverflow" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="3nLPQZQHCE1" role="3clFbx">
+          <node concept="3SKdUt" id="3nLPQZQHD3q" role="3cqZAp">
+            <node concept="3SKdUq" id="3nLPQZQHD3r" role="3SKWNk">
+              <property role="3SKdUp" value="this is only okay for first submenu and when no other menues are present .. " />
+            </node>
+          </node>
+          <node concept="3clFbJ" id="3nLPQZQHD3z" role="3cqZAp">
+            <node concept="3clFbS" id="3nLPQZQHD3_" role="3clFbx">
+              <node concept="2MkqsV" id="3nLPQZQHDpg" role="3cqZAp">
+                <node concept="Xl_RD" id="3nLPQZQHDpv" role="2MkJ7o">
+                  <property role="Xl_RC" value="Action overflow (submenu) is only valid as top level menu." />
+                </node>
+                <node concept="1YBJjd" id="3nLPQZQHDsW" role="2OEOjV">
+                  <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="3nLPQZQJ5Vi" role="3cqZAp" />
+            </node>
+            <node concept="3fqX7Q" id="3nLPQZQHDmY" role="3clFbw">
+              <node concept="2OqwBi" id="3nLPQZQHDn0" role="3fr31v">
+                <node concept="2OqwBi" id="3nLPQZQHDn1" role="2Oq$k0">
+                  <node concept="1YBJjd" id="3nLPQZQHDn2" role="2Oq$k0">
+                    <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
+                  </node>
+                  <node concept="1mfA1w" id="3nLPQZQHDn3" role="2OqNvi" />
+                </node>
+                <node concept="1mIQ4w" id="3nLPQZQHDn4" role="2OqNvi">
+                  <node concept="chp4Y" id="3nLPQZQHDn5" role="cj9EA">
+                    <ref role="cht4Q" to="1btx:2zZnBEDxDjf" resolve="ILayoutElement" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="9aQIb" id="3nLPQZQHDtz" role="9aQIa">
+              <node concept="3clFbS" id="3nLPQZQHDt$" role="9aQI4">
+                <node concept="3clFbH" id="3nLPQZQHGqN" role="3cqZAp" />
+                <node concept="3SKdUt" id="3nLPQZQHDL3" role="3cqZAp">
+                  <node concept="3SKdUq" id="3nLPQZQHDL5" role="3SKWNk">
+                    <property role="3SKdUp" value="ILayoutMenu is also IHasMenu" />
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="3nLPQZQHDvQ" role="3cqZAp">
+                  <node concept="3eOSWO" id="3nLPQZQHGzO" role="3clFbw">
+                    <node concept="3cmrfG" id="3nLPQZQHGzR" role="3uHU7w">
+                      <property role="3cmrfH" value="1" />
+                    </node>
+                    <node concept="2OqwBi" id="3nLPQZQHGe3" role="3uHU7B">
+                      <node concept="2OqwBi" id="3nLPQZQHEjO" role="2Oq$k0">
+                        <node concept="2OqwBi" id="3nLPQZQHDDA" role="2Oq$k0">
+                          <node concept="1PxgMI" id="3nLPQZQHDys" role="2Oq$k0">
+                            <ref role="1PxNhF" to="1btx:1xbJ1snAn6u" resolve="IHasMenu" />
+                            <node concept="2OqwBi" id="3nLPQZQHDN4" role="1PxMeX">
+                              <node concept="1YBJjd" id="3nLPQZQHDw2" role="2Oq$k0">
+                                <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
+                              </node>
+                              <node concept="1mfA1w" id="3nLPQZQHDSG" role="2OqNvi" />
+                            </node>
+                          </node>
+                          <node concept="3Tsc0h" id="3nLPQZQHDXM" role="2OqNvi">
+                            <ref role="3TtcxE" to="1btx:1xbJ1snAn6v" />
+                          </node>
+                        </node>
+                        <node concept="3zZkjj" id="3nLPQZQHEWa" role="2OqNvi">
+                          <node concept="1bVj0M" id="3nLPQZQHEWc" role="23t8la">
+                            <node concept="3clFbS" id="3nLPQZQHEWd" role="1bW5cS">
+                              <node concept="3clFbF" id="3nLPQZQHEYD" role="3cqZAp">
+                                <node concept="1Wc70l" id="3nLPQZQHFgj" role="3clFbG">
+                                  <node concept="2OqwBi" id="3nLPQZQHFYM" role="3uHU7w">
+                                    <node concept="1PxgMI" id="3nLPQZQHFP_" role="2Oq$k0">
+                                      <ref role="1PxNhF" to="1btx:1xbJ1snAn5p" resolve="MenuSub" />
+                                      <node concept="37vLTw" id="3nLPQZQHFHV" role="1PxMeX">
+                                        <ref role="3cqZAo" node="3nLPQZQHEWe" resolve="it" />
+                                      </node>
+                                    </node>
+                                    <node concept="2qgKlT" id="3nLPQZQHG7H" role="2OqNvi">
+                                      <ref role="37wK5l" to="5y3p:3nLPQZQHFkb" resolve="isOverflow" />
+                                    </node>
+                                  </node>
+                                  <node concept="2OqwBi" id="3nLPQZQHF23" role="3uHU7B">
+                                    <node concept="37vLTw" id="3nLPQZQHEYC" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3nLPQZQHEWe" resolve="it" />
+                                    </node>
+                                    <node concept="1mIQ4w" id="3nLPQZQHF6A" role="2OqNvi">
+                                      <node concept="chp4Y" id="3nLPQZQHFah" role="cj9EA">
+                                        <ref role="cht4Q" to="1btx:1xbJ1snAn5p" resolve="MenuSub" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Rh6nW" id="3nLPQZQHEWe" role="1bW2Oz">
+                              <property role="TrG5h" value="it" />
+                              <node concept="2jxLKc" id="3nLPQZQHEWf" role="1tU5fm" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="34oBXx" id="3nLPQZQHGpe" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="3nLPQZQHDvS" role="3clFbx">
+                    <node concept="2MkqsV" id="3nLPQZQHGGm" role="3cqZAp">
+                      <node concept="Xl_RD" id="3nLPQZQHGGy" role="2MkJ7o">
+                        <property role="Xl_RC" value="Only one overflow (submenu) can be used." />
+                      </node>
+                      <node concept="1YBJjd" id="3nLPQZQHGIT" role="2OEOjV">
+                        <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="3nLPQZQHDth" role="3cqZAp" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3nLPQZQHCDV" role="1YuTPh">
+      <property role="TrG5h" value="menuSub" />
+      <ref role="1YaFvo" to="1btx:1xbJ1snAn5p" resolve="MenuSub" />
     </node>
   </node>
 </model>

@@ -731,6 +731,12 @@
       <property role="20kJfa" value="scopeConceptFunc" />
       <ref role="20lvS9" node="1Clc7wPShHo" resolve="PageScopeConceptFunc" />
     </node>
+    <node concept="1TJgyj" id="3nLPQZPUuMQ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="actionProviderLink" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3nLPQZPUuMl" resolve="ActionProviderLink" />
+    </node>
     <node concept="PrWs8" id="7AldN8RXdkW" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
     </node>
@@ -3119,9 +3125,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6ffh1MXzHna" resolve="Command" />
     </node>
-    <node concept="PrWs8" id="3n7eUMgsDnD" role="PzmwI">
-      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
-    </node>
     <node concept="PrWs8" id="33fNNpedouH" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
@@ -3524,7 +3527,7 @@
   </node>
   <node concept="1TIwiD" id="70RMBbuA1T0">
     <property role="1pbfSe" value="1322248370" />
-    <property role="3GE5qa" value="OFXCore.infra" />
+    <property role="3GE5qa" value="OFXCore.actions" />
     <property role="TrG5h" value="SelectedObject" />
     <property role="34LRSv" value="getSelected" />
     <property role="R4oN_" value="mandatory object from UI" />
@@ -3539,7 +3542,7 @@
   </node>
   <node concept="1TIwiD" id="70RMBbuA3f1">
     <property role="1pbfSe" value="1322253875" />
-    <property role="3GE5qa" value="OFXCore.infra" />
+    <property role="3GE5qa" value="OFXCore.actions" />
     <property role="TrG5h" value="SelectedList" />
     <property role="34LRSv" value="getSelectedList" />
     <property role="R4oN_" value="list of objects from UI" />
@@ -3558,6 +3561,57 @@
     <property role="TrG5h" value="IAction" />
     <node concept="PrWs8" id="1xbJ1snyL5Y" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3nLPQZPP4Ds">
+    <property role="1pbfSe" value="734405067" />
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <property role="TrG5h" value="Action" />
+    <property role="34LRSv" value="action" />
+    <property role="R4oN_" value="run a command from here" />
+    <ref role="1TJDcQ" node="3n7eUMgsANq" resolve="CommandCallBasis" />
+    <node concept="PrWs8" id="3nLPQZQBfmQ" role="PzmwI">
+      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
+    </node>
+    <node concept="PrWs8" id="3nLPQZPP4DP" role="PzmwI">
+      <ref role="PrY4T" node="3nLPQZPP4DL" resolve="ISelectionsAvailable" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3nLPQZPP4DL">
+    <property role="1pbfSe" value="734405088" />
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <property role="TrG5h" value="ISelectionsAvailable" />
+  </node>
+  <node concept="PlHQZ" id="3nLPQZPP5e9">
+    <property role="1pbfSe" value="734407416" />
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <property role="TrG5h" value="IActionProvider" />
+    <node concept="PrWs8" id="3nLPQZPUuMC" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3nLPQZPRLT2">
+    <property role="1pbfSe" value="735114673" />
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <property role="TrG5h" value="ActionDesc" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3nLPQZPRLT3" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="command" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6ffh1MXzHna" resolve="Command" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3nLPQZPUuMl">
+    <property role="1pbfSe" value="735822852" />
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <property role="TrG5h" value="ActionProviderLink" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3nLPQZPUuMm" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="actionProvider" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3nLPQZPP5e9" resolve="IActionProvider" />
     </node>
   </node>
 </model>

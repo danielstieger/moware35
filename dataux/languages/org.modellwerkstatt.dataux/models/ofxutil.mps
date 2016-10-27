@@ -168,6 +168,7 @@
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+      <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1145567426890" name="jetbrains.mps.lang.smodel.structure.SNodeListCreator" flags="nn" index="2T8Vx0">
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
@@ -185,6 +186,7 @@
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
+      <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -228,6 +230,7 @@
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1225621920911" name="jetbrains.mps.baseLanguage.collections.structure.InsertElementOperation" flags="nn" index="1sK_Qi">
         <child id="1225621943565" name="element" index="1sKFgg" />
         <child id="1225621960341" name="index" index="1sKJu8" />
@@ -2937,6 +2940,153 @@
       <node concept="3cqZAl" id="pQ21WNd5KG" role="3clF45" />
       <node concept="3Tm1VV" id="3ouNayfHhkW" role="1B3o_S" />
     </node>
+  </node>
+  <node concept="312cEu" id="3nLPQZQMc3J">
+    <property role="TrG5h" value="OFXActionsScoper" />
+    <node concept="2tJIrI" id="3nLPQZQMc4r" role="jymVt" />
+    <node concept="2YIFZL" id="3nLPQZQMc4E" role="jymVt">
+      <property role="TrG5h" value="calcActionsOfForm" />
+      <node concept="37vLTG" id="3nLPQZQMc5b" role="3clF46">
+        <property role="TrG5h" value="uxElement" />
+        <node concept="3Tqbb2" id="3nLPQZQMc5h" role="1tU5fm">
+          <ref role="ehGHo" to="1btx:4ChSTKTge26" resolve="IBindable" />
+        </node>
+      </node>
+      <node concept="2I9FWS" id="3nLPQZQMc4W" role="3clF45">
+        <ref role="2I9WkF" to="un0u:3nLPQZPP4Ds" resolve="Action" />
+      </node>
+      <node concept="3Tm1VV" id="3nLPQZQMc4H" role="1B3o_S" />
+      <node concept="3clFbS" id="3nLPQZQMc4I" role="3clF47">
+        <node concept="3cpWs8" id="3nLPQZQMd1f" role="3cqZAp">
+          <node concept="3cpWsn" id="3nLPQZQMd1i" role="3cpWs9">
+            <property role="TrG5h" value="actions" />
+            <node concept="2I9FWS" id="3nLPQZQMd1d" role="1tU5fm">
+              <ref role="2I9WkF" to="un0u:3nLPQZPP4Ds" resolve="Action" />
+            </node>
+            <node concept="2ShNRf" id="3nLPQZQMd25" role="33vP2m">
+              <node concept="2T8Vx0" id="3nLPQZQMd1Z" role="2ShVmc">
+                <node concept="2I9FWS" id="3nLPQZQMd20" role="2T96Bj">
+                  <ref role="2I9WkF" to="un0u:3nLPQZPP4Ds" resolve="Action" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3nLPQZQMd2m" role="3cqZAp" />
+        <node concept="3SKdUt" id="3nLPQZQMn4a" role="3cqZAp">
+          <node concept="3SKdUq" id="3nLPQZQMn4c" role="3SKWNk">
+            <property role="3SKdUp" value="including the Include itself, but not is form" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3nLPQZQMd40" role="3cqZAp">
+          <node concept="2OqwBi" id="3nLPQZQMdvP" role="3clFbG">
+            <node concept="2OqwBi" id="3nLPQZQMd6p" role="2Oq$k0">
+              <node concept="37vLTw" id="3nLPQZQMd3Y" role="2Oq$k0">
+                <ref role="3cqZAo" node="3nLPQZQMc5b" resolve="uxElement" />
+              </node>
+              <node concept="2Rf3mk" id="3nLPQZQMdb6" role="2OqNvi">
+                <node concept="1xMEDy" id="3nLPQZQMdb8" role="1xVPHs">
+                  <node concept="chp4Y" id="3nLPQZQMdd8" role="ri$Ld">
+                    <ref role="cht4Q" to="1btx:1xbJ1snAn6u" resolve="IHasMenu" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2es0OD" id="3nLPQZQMeK0" role="2OqNvi">
+              <node concept="1bVj0M" id="3nLPQZQMeK2" role="23t8la">
+                <node concept="3clFbS" id="3nLPQZQMeK3" role="1bW5cS">
+                  <node concept="3clFbF" id="3nLPQZQMeO7" role="3cqZAp">
+                    <node concept="2OqwBi" id="3nLPQZQMfrf" role="3clFbG">
+                      <node concept="37vLTw" id="3nLPQZQMeO5" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3nLPQZQMd1i" resolve="actions" />
+                      </node>
+                      <node concept="X8dFx" id="3nLPQZQMi5O" role="2OqNvi">
+                        <node concept="2OqwBi" id="3nLPQZQMiwP" role="25WWJ7">
+                          <node concept="37vLTw" id="3nLPQZQMilT" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3nLPQZQMeK4" resolve="it" />
+                          </node>
+                          <node concept="2Rf3mk" id="3nLPQZQMiQH" role="2OqNvi">
+                            <node concept="1xMEDy" id="3nLPQZQMiQJ" role="1xVPHs">
+                              <node concept="chp4Y" id="3nLPQZQMjHT" role="ri$Ld">
+                                <ref role="cht4Q" to="1btx:3nLPQZQ0zzY" resolve="MenuAction" />
+                              </node>
+                            </node>
+                            <node concept="1xIGOp" id="3nLPQZQMm1D" role="1xVPHs" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="3nLPQZQMeK4" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="3nLPQZQMeK5" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3nLPQZQMd2v" role="3cqZAp" />
+        <node concept="3clFbF" id="3nLPQZQMnf1" role="3cqZAp">
+          <node concept="2OqwBi" id="3nLPQZQMo3R" role="3clFbG">
+            <node concept="2OqwBi" id="3nLPQZQMnh1" role="2Oq$k0">
+              <node concept="37vLTw" id="3nLPQZQMneZ" role="2Oq$k0">
+                <ref role="3cqZAo" node="3nLPQZQMc5b" resolve="uxElement" />
+              </node>
+              <node concept="2Rf3mk" id="3nLPQZQMnj$" role="2OqNvi">
+                <node concept="1xMEDy" id="3nLPQZQMnjA" role="1xVPHs">
+                  <node concept="chp4Y" id="3nLPQZQMnl_" role="ri$Ld">
+                    <ref role="cht4Q" to="1btx:2zZnBEDyOcE" resolve="Include" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2es0OD" id="3nLPQZQMrb_" role="2OqNvi">
+              <node concept="1bVj0M" id="3nLPQZQMrbB" role="23t8la">
+                <node concept="3clFbS" id="3nLPQZQMrbC" role="1bW5cS">
+                  <node concept="3clFbF" id="3nLPQZQMrdE" role="3cqZAp">
+                    <node concept="2OqwBi" id="3nLPQZQMrOf" role="3clFbG">
+                      <node concept="37vLTw" id="3nLPQZQMrdD" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3nLPQZQMd1i" resolve="actions" />
+                      </node>
+                      <node concept="X8dFx" id="3nLPQZQMuqM" role="2OqNvi">
+                        <node concept="1rXfSq" id="3nLPQZQMuKi" role="25WWJ7">
+                          <ref role="37wK5l" node="3nLPQZQMc4E" resolve="calcActionsOfForm" />
+                          <node concept="2OqwBi" id="3nLPQZQMxm0" role="37wK5m">
+                            <node concept="37vLTw" id="3nLPQZQMw4c" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3nLPQZQMrbD" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="3nLPQZQMxGL" role="2OqNvi">
+                              <ref role="3Tt5mk" to="1btx:7rG0OCdj5GO" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="3nLPQZQMrbD" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="3nLPQZQMrbE" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3nLPQZQMnc5" role="3cqZAp" />
+        <node concept="3SKdUt" id="3nLPQZQMGeO" role="3cqZAp">
+          <node concept="3SKdUq" id="3nLPQZQMGeQ" role="3SKWNk">
+            <property role="3SKdUp" value="do not distinct - one has to do that later anyway. " />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3nLPQZQMd36" role="3cqZAp">
+          <node concept="37vLTw" id="3nLPQZQMd34" role="3clFbG">
+            <ref role="3cqZAo" node="3nLPQZQMd1i" resolve="actions" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="3nLPQZQMc3K" role="1B3o_S" />
   </node>
 </model>
 

@@ -12,6 +12,8 @@
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" implicit="true" />
+    <import index="z8tr" ref="r:bcfb927c-b184-4908-8828-52e996537df2(org.modellwerkstatt.objectflow.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -90,6 +92,9 @@
       <concept id="1165420626554" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Group_Handler" flags="in" index="1ouSdP" />
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1219226236603" name="jetbrains.mps.lang.editor.structure.DrawBracketsStyleClassItem" flags="ln" index="3vyZuw" />
+      <concept id="9122903797312246523" name="jetbrains.mps.lang.editor.structure.StyleReference" flags="ng" index="1wgc9g">
+        <reference id="9122903797312247166" name="style" index="1wgcnl" />
+      </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
@@ -129,6 +134,9 @@
         <child id="1225900141900" name="modelAccessor" index="1HlULh" />
       </concept>
       <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
+      <concept id="1950447826681509042" name="jetbrains.mps.lang.editor.structure.ApplyStyleClass" flags="lg" index="3Xmtl4">
+        <child id="1950447826683828796" name="target" index="3XvnJa" />
+      </concept>
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
@@ -360,7 +368,7 @@
         </node>
       </node>
       <node concept="Vb9p2" id="1xbJ1snI9Dv" role="3F10Kt">
-        <property role="Vbekb" value="PLAIN" />
+        <property role="Vbekb" value="ITALIC" />
       </node>
     </node>
     <node concept="14StLt" id="6ffh1MXA9UL" role="V601i">
@@ -1744,15 +1752,15 @@
   </node>
   <node concept="24kQdi" id="1xbJ1snAn5z">
     <property role="3GE5qa" value="internalInfra" />
-    <ref role="1XX52x" to="1btx:1xbJ1snAn5p" resolve="MenuFolder" />
+    <ref role="1XX52x" to="1btx:1xbJ1snAn5p" resolve="MenuSub" />
     <node concept="3EZMnI" id="1xbJ1snAn5G" role="2wV5jI">
-      <node concept="3F0ifn" id="1xbJ1snAn5N" role="3EZMnx">
-        <property role="3F0ifm" value="Folder" />
+      <node concept="PMmxH" id="3nLPQZQH1pp" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         <ref role="1k5W1q" node="1xbJ1snI9Dt" resolve="UXMenu" />
       </node>
-      <node concept="3F0A7n" id="1xbJ1snAn5T" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1k5W1q" node="4ChSTKTfZ7r" resolve="UXIdentifier" />
+      <node concept="3F1sOY" id="3nLPQZQ82kD" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;overflow&gt;" />
+        <ref role="1NtTu8" to="1btx:3nLPQZQ82kr" />
       </node>
       <node concept="PMmxH" id="MP9H4jxzVJ" role="3EZMnx">
         <ref role="PMmxG" node="1xbJ1snAn6A" resolve="MenuEditor" />
@@ -1760,6 +1768,15 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="lj46D" id="MP9H4jyVxo" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3nLPQZQJpFu" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="3nLPQZQJpFA" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="3nLPQZQJpFC" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -1780,6 +1797,75 @@
         <property role="3F0ifm" value="" />
         <property role="ilYzB" value="&lt;menu&gt;" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3nLPQZQ0z$E">
+    <property role="3GE5qa" value="internalInfra" />
+    <ref role="1XX52x" to="1btx:3nLPQZQ0zzY" resolve="MenuAction" />
+    <node concept="3EZMnI" id="3n7eUMgsCyc" role="2wV5jI">
+      <node concept="1iCGBv" id="3n7eUMgsCz9" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:3n7eUMgsCez" />
+        <node concept="1sVBvm" id="3n7eUMgsCza" role="1sWHZn">
+          <node concept="3F0A7n" id="3n7eUMgsCzb" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3n7eUMgsCzc" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+        <ref role="1k5W1q" to="z8tr:5Ee0EjqYhaR" resolve="O2Statement" />
+        <node concept="11L4FC" id="3n7eUMgsCzd" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="11LMrY" id="3n7eUMgsCze" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="3n7eUMgsCzf" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:3n7eUMgsCe$" />
+        <node concept="1sVBvm" id="3n7eUMgsCzg" role="1sWHZn">
+          <node concept="3F0A7n" id="3n7eUMgsCzh" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3n7eUMgsCzi" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
+        <node concept="3Xmtl4" id="3HPX3xRcPAH" role="3F10Kt">
+          <node concept="1wgc9g" id="3HPX3xRcPAI" role="3XvnJa">
+            <ref role="1wgcnl" to="tpen:hFCSAw$" resolve="LeftParen" />
+          </node>
+        </node>
+        <node concept="11L4FC" id="hY9fOTE" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="3n7eUMgsCzj" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="un0u:3n7eUMgsCiP" />
+        <node concept="l2Vlx" id="3n7eUMgsCzk" role="2czzBx" />
+        <node concept="3F0ifn" id="3n7eUMgsCzl" role="2czzBI">
+          <property role="3F0ifm" value="" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3n7eUMgsCzm" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
+        <node concept="3Xmtl4" id="3HPX3xRcOND" role="3F10Kt">
+          <node concept="1wgc9g" id="3HPX3xRcONE" role="3XvnJa">
+            <ref role="1wgcnl" to="tpen:hF$iCJm" resolve="Parenthesis" />
+          </node>
+        </node>
+        <node concept="11L4FC" id="hX1U7Dc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3n7eUMgsCyf" role="2iSdaV" />
     </node>
   </node>
 </model>

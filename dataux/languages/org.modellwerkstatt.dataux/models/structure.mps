@@ -6,6 +6,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
+    <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -69,6 +70,9 @@
     </node>
     <node concept="PrWs8" id="1xbJ1snArsc" role="PzmwI">
       <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
+    </node>
+    <node concept="PrWs8" id="3nLPQZQ0yc3" role="PzmwI">
+      <ref role="PrY4T" to="un0u:3nLPQZPP5e9" resolve="IActionProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="7OqgUbFQvfd">
@@ -814,16 +818,19 @@
   <node concept="1TIwiD" id="1xbJ1snAn5p">
     <property role="1pbfSe" value="803548528" />
     <property role="3GE5qa" value="internalInfra" />
-    <property role="TrG5h" value="MenuFolder" />
-    <property role="34LRSv" value="Folder" />
-    <property role="R4oN_" value="for sub menu" />
+    <property role="TrG5h" value="MenuSub" />
+    <property role="34LRSv" value="Submenu" />
+    <property role="R4oN_" value="for actions" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3nLPQZQ82kr" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="label" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
     <node concept="PrWs8" id="1xbJ1snAn5q" role="PzmwI">
       <ref role="PrY4T" node="1xbJ1snAn5n" resolve="IMenuItem" />
-    </node>
-    <node concept="PrWs8" id="1xbJ1snAn5C" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="PrWs8" id="MP9H4jxzV$" role="PzmwI">
       <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
@@ -838,6 +845,18 @@
       <property role="20kJfa" value="menuItems" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3nLPQZQ0zzY">
+    <property role="1pbfSe" value="737415277" />
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="MenuAction" />
+    <property role="34LRSv" value="Action" />
+    <property role="R4oN_" value="call a command" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="un0u:3nLPQZPP4Ds" resolve="Action" />
+    <node concept="PrWs8" id="3nLPQZQ0zzZ" role="PzmwI">
+      <ref role="PrY4T" node="1xbJ1snAn5n" resolve="IMenuItem" />
     </node>
   </node>
 </model>
