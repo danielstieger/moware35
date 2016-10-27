@@ -29,7 +29,6 @@
     <import index="yp2m" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.scene.input(org.modellwerkstatt.fx8forms/)" />
     <import index="q8a9" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.concurrent(org.modellwerkstatt.fx8forms/)" />
     <import index="qjps" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:com.sun.javafx.scene.control.behavior(org.modellwerkstatt.fx8forms/)" />
-    <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="8j64" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.beans.value(org.modellwerkstatt.fx8forms/)" />
     <import index="i1qy" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.beans.property(org.modellwerkstatt.fx8forms/)" />
     <import index="v9db" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.scene.control.cell(org.modellwerkstatt.fx8forms/)" />
@@ -37,7 +36,6 @@
     <import index="j62g" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:com.sun.javafx.css(org.modellwerkstatt.fx8forms/)" />
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/)" />
     <import index="6ruj" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:com.sun.javafx.scene.control.skin(org.modellwerkstatt.fx8forms/)" />
-    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="7wps" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:inputRuntimeTest(org.modellwerkstatt.fx8forms/)" />

@@ -5,6 +5,8 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="0" />
   </languages>
   <imports>
     <import index="waq" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.ui(org.modellwerkstatt.vaadinforms/)" />
@@ -17,11 +19,8 @@
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" />
     <import index="tj3g" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.event(org.modellwerkstatt.vaadinforms/)" />
     <import index="a820" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.context(org.modellwerkstatt.sandbox/)" />
-    <import index="9vh7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management(JDK/)" />
-    <import index="uzjr" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.management(JDK/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="qqeh" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.context.support(org.modellwerkstatt.sandbox/)" />
-    <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
     <import index="iiye" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.sql(JDK/)" />
     <import index="zj7m" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.sql(JDK/)" />
     <import index="oawo" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/)" />
@@ -34,23 +33,12 @@
     <import index="605v" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.shared(org.modellwerkstatt.vaadinforms/)" />
     <import index="o7q0" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.data.util(org.modellwerkstatt.vaadinforms/)" />
     <import index="xb9m" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.data.util.converter(org.modellwerkstatt.vaadinforms/)" />
-    <import index="e7m6" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.data.util.filter(org.modellwerkstatt.vaadinforms/)" />
     <import index="3di0" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.data(org.modellwerkstatt.vaadinforms/)" />
     <import index="mozf" ref="0460caee-4107-44cf-b689-af78c260c48e/java:org.vaadin.peter.contextmenu(org.modellwerkstatt.vaadinforms/)" />
     <import index="8ers" ref="r:fb1ef728-e497-48ef-9d61-02d7e9e3f4d8(org.modellwerkstatt.vaadinforms.delegates)" />
     <import index="nwfd" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.http(org.modellwerkstatt.sandbox/)" />
-    <import index="1zb0" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.data.validator(org.modellwerkstatt.vaadinforms/)" />
     <import index="e7tb" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.shared.ui(org.modellwerkstatt.vaadinforms/)" />
     <import index="jgjw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.security(JDK/)" />
-    <import index="44b3" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.fop.apps(org.modellwerkstatt.sandbox/)" />
-    <import index="x5li" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.format(org.modellwerkstatt.manmap.solution/)" />
-    <import index="kart" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:org.xml.sax(JDK/)" />
-    <import index="b79t" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.xml.transform.stream(JDK/)" />
-    <import index="nxml" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.xml.transform(JDK/)" />
-    <import index="t189" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.xml.transform.sax(JDK/)" />
-    <import index="21r8" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.xmlgraphics.util(org.modellwerkstatt.sandbox/)" />
-    <import index="t54d" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/)" />
-    <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
     <import index="uyuu" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.annotations(org.modellwerkstatt.vaadinforms/)" />
   </imports>
   <registry>

@@ -36,14 +36,8 @@
     <import index="jtd5" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.jmx.export.annotation(org.modellwerkstatt.sandbox/)" />
     <import index="zide" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.rmi(JDK/)" />
     <import index="4ftl" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management.remote.rmi(JDK/)" />
-    <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.sandbox/)" />
-    <import index="nwfd" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.http(org.modellwerkstatt.sandbox/)" />
     <import index="bq0h" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.fop(org.modellwerkstatt.sandbox/)" />
-    <import index="eoo2" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.nio.file(JDK/)" />
-    <import index="nd5h" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.print(JDK/)" />
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
-    <import index="h7u9" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt.print(JDK/)" />
-    <import index="en2b" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.print.attribute(JDK/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" implicit="true" />

@@ -9,7 +9,6 @@
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="tm9u" ref="r:a8cceaac-a892-4039-8ab4-edfae2590c6d(org.modellwerkstatt.dataux.ofxutil)" />
-    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -1052,7 +1051,7 @@
   </node>
   <node concept="13h7C7" id="2zZnBEDxDjk">
     <property role="3GE5qa" value="internalInfra" />
-    <ref role="13h7C2" to="1btx:2zZnBEDxDjf" resolve="IDataUxLayoutElement" />
+    <ref role="13h7C2" to="1btx:2zZnBEDxDjf" resolve="ILayoutElement" />
     <node concept="13i0hz" id="2zZnBEDxDjn" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
@@ -1287,7 +1286,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="2zZnBEDxQv7">
-    <ref role="13h7C2" to="1btx:6MSPLZmFnKE" resolve="Tab" />
+    <ref role="13h7C2" to="1btx:6MSPLZmFnKE" resolve="TabPane" />
     <node concept="13hLZK" id="2zZnBEDxQv8" role="13h7CW">
       <node concept="3clFbS" id="2zZnBEDxQv9" role="2VODD2" />
     </node>

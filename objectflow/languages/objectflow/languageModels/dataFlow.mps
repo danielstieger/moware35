@@ -13,7 +13,6 @@
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" />
-    <import index="tpem" ref="r:00000000-0000-4000-0000-011c895902c2(jetbrains.mps.baseLanguage.dataFlow)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -872,7 +871,7 @@
   </node>
   <node concept="3_zdsH" id="5buytp$o4pr">
     <property role="3GE5qa" value="OFXTest" />
-    <ref role="3_znuS" to="un0u:61VVfi3awTR" resolve="OFXTestVarRef" />
+    <ref role="3_znuS" to="un0u:61VVfi3awTR" resolve="OFXTestMethocCallVarRef" />
     <node concept="3__wT9" id="5buytp$o4ps" role="3_A6iZ">
       <node concept="3clFbS" id="5buytp$o4pt" role="2VODD2">
         <node concept="3_DX4M" id="5buytp$o4pX" role="3cqZAp">
@@ -951,7 +950,7 @@
   </node>
   <node concept="3_zdsH" id="5buytp$oc4t">
     <property role="3GE5qa" value="OFXTest" />
-    <ref role="3_znuS" to="un0u:3n7eUMgqbJy" resolve="OFXGraphOwnerTestMethod" />
+    <ref role="3_znuS" to="un0u:3n7eUMgqbJy" resolve="OFXCommandTestMethod" />
     <node concept="3__wT9" id="5buytp$oc4u" role="3_A6iZ">
       <node concept="3clFbS" id="5buytp$oc4v" role="2VODD2">
         <node concept="3clFbF" id="5buytp$oc5r" role="3cqZAp">
