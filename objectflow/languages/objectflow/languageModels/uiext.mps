@@ -295,7 +295,7 @@
                             <ref role="3cqZAo" node="3DPRplxTy_k" resolve="page" />
                           </node>
                           <node concept="2qgKlT" id="3nLPQZQNJwV" role="2OqNvi">
-                            <ref role="37wK5l" to="70o0:3nLPQZQNudV" resolve="getAllPagesActions" />
+                            <ref role="37wK5l" to="70o0:3nLPQZQNudV" resolve="getAllPagesCommands" />
                           </node>
                         </node>
                         <node concept="2es0OD" id="3nLPQZQNMOK" role="2OqNvi">
@@ -318,13 +318,8 @@
                               </node>
                               <node concept="3clFbF" id="3nLPQZQNNfv" role="3cqZAp">
                                 <node concept="37vLTI" id="3nLPQZQNNw1" role="3clFbG">
-                                  <node concept="2OqwBi" id="3nLPQZRgATO" role="37vLTx">
-                                    <node concept="37vLTw" id="3nLPQZQNNyM" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="3nLPQZQNMOO" resolve="it" />
-                                    </node>
-                                    <node concept="3TrEf2" id="3nLPQZRgB9s" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
-                                    </node>
+                                  <node concept="37vLTw" id="6K73LRvtIIg" role="37vLTx">
+                                    <ref role="3cqZAo" node="3nLPQZQNMOO" resolve="it" />
                                   </node>
                                   <node concept="2OqwBi" id="3nLPQZQNNj9" role="37vLTJ">
                                     <node concept="37vLTw" id="3nLPQZQNNft" role="2Oq$k0">

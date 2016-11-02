@@ -9,6 +9,7 @@
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -61,12 +62,12 @@
     <property role="MwhBj" value="${module}/icons/pagepane2.png" />
     <property role="34LRSv" value="Page Pane" />
     <property role="R4oN_" value="ui element for a page" />
-    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
+    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="UxRoot" />
     <node concept="1TJgyj" id="2zZnBEDxRoV" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="uxChild" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="ILayoutElement" />
+      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IUxLayoutElement" />
     </node>
     <node concept="PrWs8" id="1xbJ1snArsc" role="PzmwI">
       <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
@@ -82,7 +83,7 @@
     <property role="MwhBj" value="${module}/icons/custom2.png" />
     <property role="34LRSv" value="Custom UI Element" />
     <property role="R4oN_" value="declare a custom ui element" />
-    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
+    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="UxRoot" />
     <node concept="1TJgyj" id="653WpvyfcaS" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="customUxElement" />
@@ -90,7 +91,7 @@
       <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
     <node concept="PrWs8" id="2zZnBEDxFzz" role="PzmwI">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IUxLayoutElement" />
     </node>
   </node>
   <node concept="PlHQZ" id="4ChSTKTfUEX">
@@ -131,7 +132,7 @@
   <node concept="1TIwiD" id="7Cs1IG3jYzP">
     <property role="1pbfSe" value="2104225760" />
     <property role="3GE5qa" value="internalInfra" />
-    <property role="TrG5h" value="DataUxRoot" />
+    <property role="TrG5h" value="UxRoot" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -146,9 +147,9 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Table" />
     <property role="R4oN_" value="with row and columns" />
-    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
+    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="UxRoot" />
     <node concept="PrWs8" id="2zZnBEDxFzE" role="PzmwI">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IUxLayoutElement" />
     </node>
     <node concept="PrWs8" id="pQ21WN5sjA" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo7" resolve="IHasFormOptions" />
@@ -175,7 +176,7 @@
       <ref role="20lvS9" node="2zZnBEDxRpa" resolve="Tab" />
     </node>
     <node concept="PrWs8" id="2zZnBEDxFzG" role="PzmwI">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IUxLayoutElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFnKF">
@@ -185,7 +186,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Delegate Form" />
     <property role="R4oN_" value="form with contains delegates" />
-    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
+    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="UxRoot" />
     <node concept="1TJgyj" id="3ouNayfGPCd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="colWeights" />
@@ -193,7 +194,7 @@
       <ref role="20lvS9" node="6MSPLZmFwYc" resolve="LayoutWeight" />
     </node>
     <node concept="PrWs8" id="2zZnBEDxFzB" role="PzmwI">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IUxLayoutElement" />
     </node>
     <node concept="PrWs8" id="pQ21WN5sk8" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo7" resolve="IHasFormOptions" />
@@ -210,7 +211,7 @@
     <property role="34LRSv" value="Grid Layout" />
     <property role="R4oN_" value="layout in rows and columns" />
     <property role="3GE5qa" value="layout" />
-    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="DataUxRoot" />
+    <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="UxRoot" />
     <node concept="1TJgyj" id="6MSPLZmFqeI" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="rowWeights" />
@@ -227,7 +228,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="uxChild" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="ILayoutElement" />
+      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IUxLayoutElement" />
     </node>
     <node concept="PrWs8" id="6MSPLZmFnKI" role="PzmwI">
       <ref role="PrY4T" node="6MSPLZmFnKH" resolve="ILayout" />
@@ -241,7 +242,7 @@
     <property role="3GE5qa" value="layout" />
     <property role="TrG5h" value="ILayout" />
     <node concept="PrWs8" id="2zZnBEDxFzI" role="PrDN$">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IUxLayoutElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFqdA">
@@ -303,7 +304,7 @@
   <node concept="PlHQZ" id="2zZnBEDxDjf">
     <property role="1pbfSe" value="762973367" />
     <property role="3GE5qa" value="internalInfra" />
-    <property role="TrG5h" value="ILayoutElement" />
+    <property role="TrG5h" value="IUxLayoutElement" />
   </node>
   <node concept="1TIwiD" id="2zZnBEDxRpa">
     <property role="1pbfSe" value="762915644" />
@@ -321,7 +322,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="uxChild" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="ILayoutElement" />
+      <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IUxLayoutElement" />
     </node>
   </node>
   <node concept="1TIwiD" id="2zZnBEDyOcE">
@@ -343,7 +344,7 @@
       <ref role="20lvS9" node="4ChSTKTge26" resolve="IBindable" />
     </node>
     <node concept="PrWs8" id="2zZnBEDyOcF" role="PzmwI">
-      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="ILayoutElement" />
+      <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IUxLayoutElement" />
     </node>
     <node concept="PrWs8" id="7rG0OCdiLbY" role="PzmwI">
       <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
@@ -869,6 +870,131 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2aCEJxoChNH" role="PzmwI">
       <ref role="PrY4T" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6K73LRuUW3k">
+    <property role="1pbfSe" value="1257426929" />
+    <property role="TrG5h" value="AppUiModule" />
+    <property role="19KtqR" value="true" />
+    <property role="MwhBj" value="${module}/icons/application2.png" />
+    <property role="34LRSv" value="App UI Module" />
+    <property role="R4oN_" value="application with UI" />
+    <property role="3GE5qa" value="uimodule" />
+    <ref role="1TJDcQ" to="un0u:6ffh1MXA9UE" resolve="Container" />
+    <node concept="1TJgyj" id="3yttyAVb68W" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="configuredComponents" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="un0u:6ffh1MXA9UI" resolve="ContainerVariable" />
+    </node>
+    <node concept="1TJgyj" id="6K73LRuXmMl" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6K73LRuXmzF" resolve="IAppModuleOption" />
+    </node>
+    <node concept="1TJgyj" id="61VVfi2BbQl" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="onStartup" />
+      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXTestStatementList" />
+    </node>
+    <node concept="1TJgyj" id="61VVfi2BbRa" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="onShutdown" />
+      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXTestStatementList" />
+    </node>
+    <node concept="1TJgyj" id="6K73LRuYaWY" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="authFunction" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6K73LRuXEP_" resolve="AppAuthenticationFunction" />
+    </node>
+    <node concept="1TJgyj" id="6K73LRv6RJ$" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="mainMenu" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    </node>
+    <node concept="1TJgyj" id="6K73LRv6RJG" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="extrasMenu" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    </node>
+    <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="configuration" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
+    </node>
+    <node concept="PrWs8" id="6K73LRuVId0" role="PzmwI">
+      <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6K73LRuXmzF">
+    <property role="1pbfSe" value="1258059784" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="IAppModuleOption" />
+  </node>
+  <node concept="1TIwiD" id="6K73LRuXmzG">
+    <property role="1pbfSe" value="1258059785" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="Version" />
+    <property role="34LRSv" value="VERSION" />
+    <property role="R4oN_" value="of this module" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6K73LRuXmzJ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="exp" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="6K73LRuXmzH" role="PzmwI">
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IAppModuleOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6K73LRuXEP_">
+    <property role="1pbfSe" value="1258142850" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="AppAuthenticationFunction" />
+    <property role="34LRSv" value="isAuthenticated" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="6K73LRuXEPA">
+    <property role="1pbfSe" value="1258059785" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="UseLoginScreen" />
+    <property role="34LRSv" value="USE LOGINSCREEN" />
+    <property role="R4oN_" value="with this module" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6K73LRuXEPB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="exp" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="6K73LRuXEPC" role="PzmwI">
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IAppModuleOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6K73LRuYUa9">
+    <property role="1pbfSe" value="1258467750" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="MenuAddOn" />
+    <property role="34LRSv" value="APP MENU NAME" />
+    <property role="R4oN_" value="app modules name" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6K73LRuYUaa" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="exp" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="6K73LRv6RJv" role="PzmwI">
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IAppModuleOption" />
     </node>
   </node>
 </model>

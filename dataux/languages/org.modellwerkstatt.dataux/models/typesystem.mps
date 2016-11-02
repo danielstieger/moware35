@@ -175,6 +175,7 @@
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
+      <concept id="1145573345940" name="jetbrains.mps.lang.smodel.structure.Node_GetAllSiblingsOperation" flags="nn" index="2TvwIu" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -3163,101 +3164,6 @@
       <ref role="1YaFvo" to="1btx:7OqgUbFQvfd" resolve="CustomElement" />
     </node>
   </node>
-  <node concept="18kY7G" id="1xbJ1snAn6X">
-    <property role="TrG5h" value="check_IHasMenu" />
-    <property role="3GE5qa" value="internalInfra" />
-    <node concept="3clFbS" id="1xbJ1snAn6Y" role="18ibNy">
-      <node concept="3SKdUt" id="1xbJ1snAn74" role="3cqZAp">
-        <node concept="3SKdUq" id="1xbJ1snAn75" role="3SKWNk">
-          <property role="3SKdUp" value=" check some rules regardig menu handling..." />
-        </node>
-      </node>
-      <node concept="3clFbH" id="1xbJ1snAn78" role="3cqZAp" />
-      <node concept="3cpWs8" id="1xbJ1snAn7w" role="3cqZAp">
-        <node concept="3cpWsn" id="1xbJ1snAn7z" role="3cpWs9">
-          <property role="TrG5h" value="firstMenuFound" />
-          <node concept="10P_77" id="1xbJ1snAn7u" role="1tU5fm" />
-          <node concept="3clFbT" id="1xbJ1snAn82" role="33vP2m">
-            <property role="3clFbU" value="false" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="1xbJ1snAn7c" role="3cqZAp" />
-      <node concept="3clFbF" id="1xbJ1snAn91" role="3cqZAp">
-        <node concept="2OqwBi" id="1xbJ1snAnv7" role="3clFbG">
-          <node concept="2OqwBi" id="1xbJ1snAnal" role="2Oq$k0">
-            <node concept="1YBJjd" id="1xbJ1snAn8Z" role="2Oq$k0">
-              <ref role="1YBMHb" node="1xbJ1snAn70" resolve="iHasMenu" />
-            </node>
-            <node concept="3Tsc0h" id="1xbJ1snAncO" role="2OqNvi">
-              <ref role="3TtcxE" to="1btx:1xbJ1snAn6v" />
-            </node>
-          </node>
-          <node concept="2es0OD" id="1xbJ1snAoDA" role="2OqNvi">
-            <node concept="1bVj0M" id="1xbJ1snAoDC" role="23t8la">
-              <node concept="3clFbS" id="1xbJ1snAoDD" role="1bW5cS">
-                <node concept="3clFbJ" id="1xbJ1snAoFv" role="3cqZAp">
-                  <node concept="2OqwBi" id="1xbJ1snAoKq" role="3clFbw">
-                    <node concept="37vLTw" id="1xbJ1snAoHF" role="2Oq$k0">
-                      <ref role="3cqZAo" node="1xbJ1snAoDE" resolve="it" />
-                    </node>
-                    <node concept="1mIQ4w" id="1xbJ1snApsk" role="2OqNvi">
-                      <node concept="chp4Y" id="1xbJ1snApuY" role="cj9EA">
-                        <ref role="cht4Q" to="1btx:1xbJ1snAn5p" resolve="MenuSub" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbS" id="1xbJ1snAoFx" role="3clFbx">
-                    <node concept="3clFbF" id="1xbJ1snApxR" role="3cqZAp">
-                      <node concept="37vLTI" id="1xbJ1snApAx" role="3clFbG">
-                        <node concept="3clFbT" id="1xbJ1snApC_" role="37vLTx">
-                          <property role="3clFbU" value="true" />
-                        </node>
-                        <node concept="37vLTw" id="1xbJ1snApxQ" role="37vLTJ">
-                          <ref role="3cqZAo" node="1xbJ1snAn7z" resolve="firstMenuFound" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3eNFk2" id="1xbJ1snApFD" role="3eNLev">
-                    <node concept="37vLTw" id="1xbJ1snApIE" role="3eO9$A">
-                      <ref role="3cqZAo" node="1xbJ1snAn7z" resolve="firstMenuFound" />
-                    </node>
-                    <node concept="3clFbS" id="1xbJ1snApFF" role="3eOfB_">
-                      <node concept="3SKdUt" id="1xbJ1snApLB" role="3cqZAp">
-                        <node concept="3SKdUq" id="1xbJ1snApLC" role="3SKWNk">
-                          <property role="3SKdUp" value="after a menu is placed, do not allow further buttons but only menus" />
-                        </node>
-                      </node>
-                      <node concept="2MkqsV" id="1xbJ1snAquC" role="3cqZAp">
-                        <node concept="Xl_RD" id="1xbJ1snAqwI" role="2MkJ7o">
-                          <property role="Xl_RC" value="Actions should be placed left before folers/sub menus." />
-                        </node>
-                        <node concept="1YBJjd" id="1xbJ1snArm8" role="2OEOjV">
-                          <ref role="1YBMHb" node="1xbJ1snAn70" resolve="iHasMenu" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="Rh6nW" id="1xbJ1snAoDE" role="1bW2Oz">
-                <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="1xbJ1snAoDF" role="1tU5fm" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="1xbJ1snAn8M" role="3cqZAp" />
-      <node concept="3clFbH" id="1xbJ1snAn8A" role="3cqZAp" />
-      <node concept="3clFbH" id="1xbJ1snAn7h" role="3cqZAp" />
-    </node>
-    <node concept="1YaCAy" id="1xbJ1snAn70" role="1YuTPh">
-      <property role="TrG5h" value="iHasMenu" />
-      <ref role="1YaFvo" to="1btx:1xbJ1snAn6u" resolve="IHasMenu" />
-    </node>
-  </node>
   <node concept="18kY7G" id="MP9H4jz_Qk">
     <property role="TrG5h" value="check_LabelFOption" />
     <property role="3GE5qa" value="formopt" />
@@ -3327,56 +3233,214 @@
     <property role="TrG5h" value="check_MenuSub" />
     <property role="3GE5qa" value="internalInfra" />
     <node concept="3clFbS" id="3nLPQZQHCDT" role="18ibNy">
-      <node concept="3clFbJ" id="3nLPQZQHCDZ" role="3cqZAp">
-        <node concept="2OqwBi" id="3nLPQZQJ5Iv" role="3clFbw">
-          <node concept="1YBJjd" id="3nLPQZQJ5CR" role="2Oq$k0">
+      <node concept="3clFbJ" id="6K73LRv6WqQ" role="3cqZAp">
+        <node concept="2OqwBi" id="6K73LRv6WqR" role="3clFbw">
+          <node concept="1YBJjd" id="6K73LRv6WqS" role="2Oq$k0">
             <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
           </node>
-          <node concept="2qgKlT" id="3nLPQZQJ5U6" role="2OqNvi">
+          <node concept="2qgKlT" id="6K73LRv6WqT" role="2OqNvi">
             <ref role="37wK5l" to="5y3p:3nLPQZQHFkb" resolve="isOverflow" />
           </node>
         </node>
-        <node concept="3clFbS" id="3nLPQZQHCE1" role="3clFbx">
-          <node concept="3SKdUt" id="3nLPQZQHD3q" role="3cqZAp">
-            <node concept="3SKdUq" id="3nLPQZQHD3r" role="3SKWNk">
+        <node concept="3clFbS" id="6K73LRv6WqU" role="3clFbx">
+          <node concept="3SKdUt" id="6K73LRv6WqV" role="3cqZAp">
+            <node concept="3SKdUq" id="6K73LRv6WqW" role="3SKWNk">
               <property role="3SKdUp" value="this is only okay for first submenu and when no other menues are present .. " />
             </node>
           </node>
-          <node concept="3clFbJ" id="3nLPQZQHD3z" role="3cqZAp">
-            <node concept="3clFbS" id="3nLPQZQHD3_" role="3clFbx">
-              <node concept="2MkqsV" id="3nLPQZQHDpg" role="3cqZAp">
-                <node concept="Xl_RD" id="3nLPQZQHDpv" role="2MkJ7o">
-                  <property role="Xl_RC" value="Action overflow (submenu) is only valid as top level menu." />
+          <node concept="3clFbJ" id="6K73LRv6WqX" role="3cqZAp">
+            <node concept="3clFbS" id="6K73LRv6WqY" role="3clFbx">
+              <node concept="3SKdUt" id="6K73LRv6XxS" role="3cqZAp">
+                <node concept="3SKdUq" id="6K73LRv6XxU" role="3SKWNk">
+                  <property role="3SKdUp" value="PagePane and Table... " />
                 </node>
-                <node concept="1YBJjd" id="3nLPQZQHDsW" role="2OEOjV">
+              </node>
+              <node concept="2MkqsV" id="6K73LRv6WqZ" role="3cqZAp">
+                <node concept="Xl_RD" id="6K73LRv6Wr0" role="2MkJ7o">
+                  <property role="Xl_RC" value="Action overflow (submenu) is only valid as top level menu in ux elements." />
+                </node>
+                <node concept="1YBJjd" id="6K73LRv6Wr1" role="2OEOjV">
                   <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
                 </node>
               </node>
-              <node concept="3clFbH" id="3nLPQZQJ5Vi" role="3cqZAp" />
             </node>
-            <node concept="3fqX7Q" id="3nLPQZQHDmY" role="3clFbw">
-              <node concept="2OqwBi" id="3nLPQZQHDn0" role="3fr31v">
-                <node concept="2OqwBi" id="3nLPQZQHDn1" role="2Oq$k0">
-                  <node concept="1YBJjd" id="3nLPQZQHDn2" role="2Oq$k0">
+            <node concept="3fqX7Q" id="6K73LRv6Wr3" role="3clFbw">
+              <node concept="2OqwBi" id="6K73LRv6Wr4" role="3fr31v">
+                <node concept="2OqwBi" id="6K73LRv6WC2" role="2Oq$k0">
+                  <node concept="1YBJjd" id="6K73LRv6W_B" role="2Oq$k0">
                     <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
                   </node>
-                  <node concept="1mfA1w" id="3nLPQZQHDn3" role="2OqNvi" />
+                  <node concept="1mfA1w" id="6K73LRv6WW9" role="2OqNvi" />
                 </node>
-                <node concept="1mIQ4w" id="3nLPQZQHDn4" role="2OqNvi">
-                  <node concept="chp4Y" id="2aCEJxoCjia" role="cj9EA">
+                <node concept="1mIQ4w" id="6K73LRv6Wr6" role="2OqNvi">
+                  <node concept="chp4Y" id="6K73LRv6Wr7" role="cj9EA">
                     <ref role="cht4Q" to="1btx:4ChSTKTge26" resolve="IBindable" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="9aQIb" id="3nLPQZQHDtz" role="9aQIa">
-              <node concept="3clFbS" id="3nLPQZQHDt$" role="9aQI4">
-                <node concept="3clFbH" id="3nLPQZQHGqN" role="3cqZAp" />
-                <node concept="3SKdUt" id="3nLPQZQHDL3" role="3cqZAp">
-                  <node concept="3SKdUq" id="3nLPQZQHDL5" role="3SKWNk">
-                    <property role="3SKdUp" value="ILayoutMenu is also IHasMenu" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="6K73LRv6WiR" role="3cqZAp" />
+      <node concept="3clFbH" id="6K73LRv6WkV" role="3cqZAp" />
+      <node concept="3clFbH" id="6K73LRv6WmQ" role="3cqZAp" />
+      <node concept="3clFbJ" id="6K73LRv6Ssb" role="3cqZAp">
+        <node concept="3clFbS" id="6K73LRv6Ssd" role="3clFbx">
+          <node concept="3SKdUt" id="6K73LRv6Tft" role="3cqZAp">
+            <node concept="3SKdUq" id="6K73LRv6Tfv" role="3SKWNk">
+              <property role="3SKdUp" value="used as menu in application.. " />
+            </node>
+          </node>
+          <node concept="3clFbH" id="6K73LRv6Tfy" role="3cqZAp" />
+          <node concept="3clFbH" id="6K73LRv6Xy3" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="6K73LRv6SMz" role="3clFbw">
+          <node concept="2OqwBi" id="6K73LRv6SwQ" role="2Oq$k0">
+            <node concept="1YBJjd" id="6K73LRv6Sut" role="2Oq$k0">
+              <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
+            </node>
+            <node concept="2Xjw5R" id="6K73LRv6SGv" role="2OqNvi">
+              <node concept="1xMEDy" id="6K73LRv6SGx" role="1xVPHs">
+                <node concept="chp4Y" id="6K73LRv6SHb" role="ri$Ld">
+                  <ref role="cht4Q" to="1btx:6K73LRuUW3k" resolve="AppUiModule" />
+                </node>
+              </node>
+              <node concept="1xIGOp" id="6K73LRv6SJ5" role="1xVPHs" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="6K73LRv6TeA" role="2OqNvi" />
+        </node>
+        <node concept="9aQIb" id="6K73LRv6TfH" role="9aQIa">
+          <node concept="3clFbS" id="6K73LRv6TfI" role="9aQI4">
+            <node concept="3SKdUt" id="6K73LRv6TnZ" role="3cqZAp">
+              <node concept="3SKdUq" id="6K73LRv6To0" role="3SKWNk">
+                <property role="3SKdUp" value="* * * * * used as menu in some ux element" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="6K73LRv6To3" role="3cqZAp" />
+            <node concept="3SKdUt" id="1xbJ1snAn74" role="3cqZAp">
+              <node concept="3SKdUq" id="1xbJ1snAn75" role="3SKWNk">
+                <property role="3SKdUp" value=" check some rules regardig menu handling..." />
+              </node>
+            </node>
+            <node concept="3clFbH" id="6K73LRv6XYS" role="3cqZAp" />
+            <node concept="3SKdUt" id="6K73LRv6Y3X" role="3cqZAp">
+              <node concept="3SKdUq" id="6K73LRv6Y3Z" role="3SKWNk">
+                <property role="3SKdUp" value="menus should be to the right .. " />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="1xbJ1snAn7w" role="3cqZAp">
+              <node concept="3cpWsn" id="1xbJ1snAn7z" role="3cpWs9">
+                <property role="TrG5h" value="firstMenuFound" />
+                <node concept="10P_77" id="1xbJ1snAn7u" role="1tU5fm" />
+                <node concept="3clFbT" id="1xbJ1snAn82" role="33vP2m">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="6K73LRv6TuC" role="3cqZAp">
+              <node concept="3cpWsn" id="6K73LRv6TuF" role="3cpWs9">
+                <property role="TrG5h" value="parentMenu" />
+                <node concept="3Tqbb2" id="6K73LRv6TuA" role="1tU5fm">
+                  <ref role="ehGHo" to="1btx:1xbJ1snAn6u" resolve="IHasMenu" />
+                </node>
+                <node concept="1PxgMI" id="6K73LRv6TOC" role="33vP2m">
+                  <ref role="1PxNhF" to="1btx:1xbJ1snAn6u" resolve="IHasMenu" />
+                  <node concept="2OqwBi" id="6K73LRv6Tyf" role="1PxMeX">
+                    <node concept="1YBJjd" id="6K73LRv6TvS" role="2Oq$k0">
+                      <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
+                    </node>
+                    <node concept="1mfA1w" id="6K73LRv6TJ9" role="2OqNvi" />
                   </node>
                 </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1xbJ1snAn91" role="3cqZAp">
+              <node concept="2OqwBi" id="1xbJ1snAnv7" role="3clFbG">
+                <node concept="2OqwBi" id="1xbJ1snAnal" role="2Oq$k0">
+                  <node concept="37vLTw" id="6K73LRv6TY0" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6K73LRv6TuF" resolve="parentMenu" />
+                  </node>
+                  <node concept="3Tsc0h" id="1xbJ1snAncO" role="2OqNvi">
+                    <ref role="3TtcxE" to="1btx:1xbJ1snAn6v" />
+                  </node>
+                </node>
+                <node concept="2es0OD" id="1xbJ1snAoDA" role="2OqNvi">
+                  <node concept="1bVj0M" id="1xbJ1snAoDC" role="23t8la">
+                    <node concept="3clFbS" id="1xbJ1snAoDD" role="1bW5cS">
+                      <node concept="3clFbH" id="6K73LRv6S5t" role="3cqZAp" />
+                      <node concept="3clFbJ" id="1xbJ1snAoFv" role="3cqZAp">
+                        <node concept="2OqwBi" id="1xbJ1snAoKq" role="3clFbw">
+                          <node concept="37vLTw" id="1xbJ1snAoHF" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1xbJ1snAoDE" resolve="it" />
+                          </node>
+                          <node concept="1mIQ4w" id="1xbJ1snApsk" role="2OqNvi">
+                            <node concept="chp4Y" id="1xbJ1snApuY" role="cj9EA">
+                              <ref role="cht4Q" to="1btx:1xbJ1snAn5p" resolve="MenuSub" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbS" id="1xbJ1snAoFx" role="3clFbx">
+                          <node concept="3clFbF" id="1xbJ1snApxR" role="3cqZAp">
+                            <node concept="37vLTI" id="1xbJ1snApAx" role="3clFbG">
+                              <node concept="3clFbT" id="1xbJ1snApC_" role="37vLTx">
+                                <property role="3clFbU" value="true" />
+                              </node>
+                              <node concept="37vLTw" id="1xbJ1snApxQ" role="37vLTJ">
+                                <ref role="3cqZAo" node="1xbJ1snAn7z" resolve="firstMenuFound" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbH" id="6K73LRv6U0Y" role="3cqZAp" />
+                        </node>
+                        <node concept="3eNFk2" id="1xbJ1snApFD" role="3eNLev">
+                          <node concept="37vLTw" id="1xbJ1snApIE" role="3eO9$A">
+                            <ref role="3cqZAo" node="1xbJ1snAn7z" resolve="firstMenuFound" />
+                          </node>
+                          <node concept="3clFbS" id="1xbJ1snApFF" role="3eOfB_">
+                            <node concept="3SKdUt" id="1xbJ1snApLB" role="3cqZAp">
+                              <node concept="3SKdUq" id="1xbJ1snApLC" role="3SKWNk">
+                                <property role="3SKdUp" value="after a menu is placed, do not allow further buttons but only menus" />
+                              </node>
+                            </node>
+                            <node concept="2MkqsV" id="1xbJ1snAquC" role="3cqZAp">
+                              <node concept="Xl_RD" id="1xbJ1snAqwI" role="2MkJ7o">
+                                <property role="Xl_RC" value="Actions should be placed left before overflows/sub menus." />
+                              </node>
+                              <node concept="37vLTw" id="6K73LRv6Uix" role="2OEOjV">
+                                <ref role="3cqZAo" node="1xbJ1snAoDE" resolve="it" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="6K73LRv6Sdl" role="3cqZAp" />
+                    </node>
+                    <node concept="Rh6nW" id="1xbJ1snAoDE" role="1bW2Oz">
+                      <property role="TrG5h" value="it" />
+                      <node concept="2jxLKc" id="1xbJ1snAoDF" role="1tU5fm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1xbJ1snAn8M" role="3cqZAp" />
+            <node concept="3SKdUt" id="6K73LRv6XWl" role="3cqZAp">
+              <node concept="3SKdUq" id="6K73LRv6XWn" role="3SKWNk">
+                <property role="3SKdUp" value="num of overflows is limited .." />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="3nLPQZQHCDZ" role="3cqZAp">
+              <node concept="2OqwBi" id="3nLPQZQJ5Iv" role="3clFbw">
+                <node concept="1YBJjd" id="3nLPQZQJ5CR" role="2Oq$k0">
+                  <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
+                </node>
+                <node concept="2qgKlT" id="3nLPQZQJ5U6" role="2OqNvi">
+                  <ref role="37wK5l" to="5y3p:3nLPQZQHFkb" resolve="isOverflow" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="3nLPQZQHCE1" role="3clFbx">
                 <node concept="3clFbJ" id="3nLPQZQHDvQ" role="3cqZAp">
                   <node concept="3eOSWO" id="3nLPQZQHGzO" role="3clFbw">
                     <node concept="3cmrfG" id="3nLPQZQHGzR" role="3uHU7w">
@@ -3384,19 +3448,11 @@
                     </node>
                     <node concept="2OqwBi" id="3nLPQZQHGe3" role="3uHU7B">
                       <node concept="2OqwBi" id="3nLPQZQHEjO" role="2Oq$k0">
-                        <node concept="2OqwBi" id="3nLPQZQHDDA" role="2Oq$k0">
-                          <node concept="1PxgMI" id="3nLPQZQHDys" role="2Oq$k0">
-                            <ref role="1PxNhF" to="1btx:1xbJ1snAn6u" resolve="IHasMenu" />
-                            <node concept="2OqwBi" id="3nLPQZQHDN4" role="1PxMeX">
-                              <node concept="1YBJjd" id="3nLPQZQHDw2" role="2Oq$k0">
-                                <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
-                              </node>
-                              <node concept="1mfA1w" id="3nLPQZQHDSG" role="2OqNvi" />
-                            </node>
+                        <node concept="2OqwBi" id="6K73LRv6VyL" role="2Oq$k0">
+                          <node concept="1YBJjd" id="6K73LRv6Vtf" role="2Oq$k0">
+                            <ref role="1YBMHb" node="3nLPQZQHCDV" resolve="menuSub" />
                           </node>
-                          <node concept="3Tsc0h" id="3nLPQZQHDXM" role="2OqNvi">
-                            <ref role="3TtcxE" to="1btx:1xbJ1snAn6v" />
-                          </node>
+                          <node concept="2TvwIu" id="6K73LRv6VKy" role="2OqNvi" />
                         </node>
                         <node concept="3zZkjj" id="3nLPQZQHEWa" role="2OqNvi">
                           <node concept="1bVj0M" id="3nLPQZQHEWc" role="23t8la">
@@ -3448,16 +3504,83 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="6K73LRv6XDm" role="3cqZAp" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="6K73LRv6UVy" role="3cqZAp" />
+            <node concept="3SKdUt" id="6K73LRv6V1b" role="3cqZAp">
+              <node concept="3SKdUq" id="6K73LRv6V1d" role="3SKWNk">
+                <property role="3SKdUp" value="* * * * * " />
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="3nLPQZQHDth" role="3cqZAp" />
         </node>
       </node>
+      <node concept="3clFbH" id="6K73LRv6Sq5" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="3nLPQZQHCDV" role="1YuTPh">
       <property role="TrG5h" value="menuSub" />
       <ref role="1YaFvo" to="1btx:1xbJ1snAn5p" resolve="MenuSub" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6K73LRuXm$e">
+    <property role="TrG5h" value="typeof_Version" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="6K73LRuXm$f" role="18ibNy">
+      <node concept="1ZobV4" id="6K73LRuXmJu" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="6K73LRuXmJQ" role="1ZfhKB">
+          <node concept="2c44tf" id="6K73LRuXmJM" role="mwGJk">
+            <node concept="17QB3L" id="6K73LRuXmK9" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="6K73LRuXmJx" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6K73LRuXm$l" role="mwGJk">
+            <node concept="2OqwBi" id="6K73LRuXmAx" role="1Z2MuG">
+              <node concept="1YBJjd" id="6K73LRuXm$L" role="2Oq$k0">
+                <ref role="1YBMHb" node="6K73LRuXm$h" resolve="version" />
+              </node>
+              <node concept="3TrEf2" id="6K73LRuXmHF" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:6K73LRuXmzJ" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6K73LRuXm$h" role="1YuTPh">
+      <property role="TrG5h" value="version" />
+      <ref role="1YaFvo" to="1btx:6K73LRuXmzG" resolve="Version" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6K73LRuYUai">
+    <property role="TrG5h" value="typeof_MenuAddOn" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="6K73LRuYUaj" role="18ibNy">
+      <node concept="1ZobV4" id="6K73LRuYUkA" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="6K73LRuYUkY" role="1ZfhKB">
+          <node concept="2c44tf" id="6K73LRuYUkU" role="mwGJk">
+            <node concept="17QB3L" id="6K73LRuYUlh" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="6K73LRuYUkD" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6K73LRuYUap" role="mwGJk">
+            <node concept="2OqwBi" id="6K73LRuYUcd" role="1Z2MuG">
+              <node concept="1YBJjd" id="6K73LRuYUaP" role="2Oq$k0">
+                <ref role="1YBMHb" node="6K73LRuYUal" resolve="menuAddOn" />
+              </node>
+              <node concept="3TrEf2" id="6K73LRuYUia" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:6K73LRuYUaa" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6K73LRuYUal" role="1YuTPh">
+      <property role="TrG5h" value="menuAddOn" />
+      <ref role="1YaFvo" to="1btx:6K73LRuYUa9" resolve="MenuAddOn" />
     </node>
   </node>
 </model>

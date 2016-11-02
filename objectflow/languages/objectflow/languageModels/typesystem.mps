@@ -11671,5 +11671,79 @@
       <ref role="1YaFvo" to="un0u:3nLPQZPP4Ds" resolve="Action" />
     </node>
   </node>
+  <node concept="1YbPZF" id="6K73LRuXERI">
+    <property role="TrG5h" value="typeof_UserNameParameter" />
+    <property role="3GE5qa" value="Permission" />
+    <node concept="3clFbS" id="6K73LRuXERJ" role="18ibNy">
+      <node concept="1Z5TYs" id="6K73LRuXEU5" role="3cqZAp">
+        <node concept="mw_s8" id="6K73LRuXEUp" role="1ZfhKB">
+          <node concept="2c44tf" id="6K73LRuXEUl" role="mwGJk">
+            <node concept="17QB3L" id="6K73LRuXEUG" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="6K73LRuXEU8" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6K73LRuXERP" role="mwGJk">
+            <node concept="1YBJjd" id="6K73LRuXESR" role="1Z2MuG">
+              <ref role="1YBMHb" node="6K73LRuXERL" resolve="userNameParameter" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6K73LRuXERL" role="1YuTPh">
+      <property role="TrG5h" value="userNameParameter" />
+      <ref role="1YaFvo" to="un0u:6K73LRuXERB" resolve="UserNameParameter" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6K73LRuXEV5">
+    <property role="TrG5h" value="typeof_UserPasswordParameter" />
+    <property role="3GE5qa" value="Permission" />
+    <node concept="3clFbS" id="6K73LRuXEV6" role="18ibNy">
+      <node concept="1Z5TYs" id="6K73LRuXEYx" role="3cqZAp">
+        <node concept="mw_s8" id="6K73LRuXEYP" role="1ZfhKB">
+          <node concept="2c44tf" id="6K73LRuXEYL" role="mwGJk">
+            <node concept="17QB3L" id="6K73LRuXEZ8" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="6K73LRuXEY$" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6K73LRuXEVc" role="mwGJk">
+            <node concept="1YBJjd" id="6K73LRuXEVC" role="1Z2MuG">
+              <ref role="1YBMHb" node="6K73LRuXEV8" resolve="userPasswordParameter" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6K73LRuXEV8" role="1YuTPh">
+      <property role="TrG5h" value="userPasswordParameter" />
+      <ref role="1YaFvo" to="un0u:6K73LRuXEUY" resolve="UserPasswordParameter" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6K73LRuXEZx">
+    <property role="TrG5h" value="typeof_UserAuthSession" />
+    <property role="3GE5qa" value="Permission" />
+    <node concept="3clFbS" id="6K73LRuXEZy" role="18ibNy">
+      <node concept="1Z5TYs" id="6K73LRuXF1G" role="3cqZAp">
+        <node concept="mw_s8" id="6K73LRuXF20" role="1ZfhKB">
+          <node concept="2c44tf" id="6K73LRuXF1W" role="mwGJk">
+            <node concept="3uibUv" id="6K73LRuXF2B" role="2c44tc">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6K73LRuXF1J" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6K73LRuXEZC" role="mwGJk">
+            <node concept="1YBJjd" id="6K73LRuXF0E" role="1Z2MuG">
+              <ref role="1YBMHb" node="6K73LRuXEZ$" resolve="userAuthSession" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6K73LRuXEZ$" role="1YuTPh">
+      <property role="TrG5h" value="userAuthSession" />
+      <ref role="1YaFvo" to="un0u:6K73LRuXEZq" resolve="UserAuthSession" />
+    </node>
+  </node>
 </model>
 

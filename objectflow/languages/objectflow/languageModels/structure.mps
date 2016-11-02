@@ -3992,5 +3992,29 @@
     <property role="TrG5h" value="Platform" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
+  <node concept="1TIwiD" id="6K73LRuXERB">
+    <property role="1pbfSe" value="1258142980" />
+    <property role="3GE5qa" value="Permission" />
+    <property role="TrG5h" value="UserNameParameter" />
+    <property role="34LRSv" value="userName" />
+    <property role="R4oN_" value="name of user" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="6K73LRuXEUY">
+    <property role="1pbfSe" value="1258143195" />
+    <property role="3GE5qa" value="Permission" />
+    <property role="TrG5h" value="UserPasswordParameter" />
+    <property role="34LRSv" value="userPassword" />
+    <property role="R4oN_" value="password of user" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="6K73LRuXEZq">
+    <property role="1pbfSe" value="1258143479" />
+    <property role="3GE5qa" value="Permission" />
+    <property role="TrG5h" value="UserAuthSession" />
+    <property role="34LRSv" value="session" />
+    <property role="R4oN_" value="for this authentication" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 
