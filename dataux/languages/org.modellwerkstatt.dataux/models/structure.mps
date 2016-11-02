@@ -859,5 +859,17 @@
       <ref role="PrY4T" node="1xbJ1snAn5n" resolve="IMenuItem" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2aCEJxoChNG">
+    <property role="1pbfSe" value="2068432868" />
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="MenuSeparator" />
+    <property role="34LRSv" value="- -" />
+    <property role="R4oN_" value="menu separator" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2aCEJxoChNH" role="PzmwI">
+      <ref role="PrY4T" node="1xbJ1snAn5n" resolve="IMenuItem" />
+    </node>
+  </node>
 </model>
 

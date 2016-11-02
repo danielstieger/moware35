@@ -733,7 +733,7 @@
     </node>
     <node concept="1TJgyj" id="3nLPQZPUuMQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="actionProviderLink" />
+      <property role="20kJfa" value="uiActionProviderLink" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3nLPQZPUuMl" resolve="ActionProviderLink" />
     </node>
@@ -3570,6 +3570,15 @@
     <property role="34LRSv" value="action" />
     <property role="R4oN_" value="run a command from here" />
     <ref role="1TJDcQ" node="3n7eUMgsANq" resolve="CommandCallBasis" />
+    <node concept="1TJgyi" id="2aCEJxo$e10" role="1TKVEl">
+      <property role="TrG5h" value="hotkey" />
+      <ref role="AX2Wp" node="1hImSMr5NSl" resolve="Hotkey" />
+    </node>
+    <node concept="1TJgyj" id="2aCEJxo$e0Y" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="label" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="3nLPQZQBfmQ" role="PzmwI">
       <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
@@ -3613,6 +3622,375 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3nLPQZPP5e9" resolve="IActionProvider" />
     </node>
+  </node>
+  <node concept="AxPO7" id="1hImSMr5NSl">
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="Hotkey" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <ref role="Qgau1" node="1hImSMr5NTE" />
+    <node concept="M4N5e" id="1hImSMr5NSm" role="M5hS2">
+      <property role="1uS6qo" value="A" />
+      <property role="1uS6qv" value="A_65" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSo" role="M5hS2">
+      <property role="1uS6qo" value="B" />
+      <property role="1uS6qv" value="B_66" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSp" role="M5hS2">
+      <property role="1uS6qo" value="C" />
+      <property role="1uS6qv" value="C_67" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSq" role="M5hS2">
+      <property role="1uS6qo" value="D" />
+      <property role="1uS6qv" value="D_68" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSr" role="M5hS2">
+      <property role="1uS6qo" value="E" />
+      <property role="1uS6qv" value="E_69" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSs" role="M5hS2">
+      <property role="1uS6qo" value="F" />
+      <property role="1uS6qv" value="F_70" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSQ" role="M5hS2">
+      <property role="1uS6qo" value="G" />
+      <property role="1uS6qv" value="G_71" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSt" role="M5hS2">
+      <property role="1uS6qo" value="H" />
+      <property role="1uS6qv" value="H_72" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSu" role="M5hS2">
+      <property role="1uS6qo" value="I" />
+      <property role="1uS6qv" value="I_73" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSv" role="M5hS2">
+      <property role="1uS6qo" value="J" />
+      <property role="1uS6qv" value="J_74" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSR" role="M5hS2">
+      <property role="1uS6qo" value="K" />
+      <property role="1uS6qv" value="K_75" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSw" role="M5hS2">
+      <property role="1uS6qo" value="L" />
+      <property role="1uS6qv" value="L_76" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSx" role="M5hS2">
+      <property role="1uS6qo" value="M" />
+      <property role="1uS6qv" value="M_77" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSy" role="M5hS2">
+      <property role="1uS6qo" value="N" />
+      <property role="1uS6qv" value="N_78" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSz" role="M5hS2">
+      <property role="1uS6qo" value="O" />
+      <property role="1uS6qv" value="O_79" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NS$" role="M5hS2">
+      <property role="1uS6qo" value="P" />
+      <property role="1uS6qv" value="P_80" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NS_" role="M5hS2">
+      <property role="1uS6qo" value="Q" />
+      <property role="1uS6qv" value="Q_81" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSA" role="M5hS2">
+      <property role="1uS6qo" value="R" />
+      <property role="1uS6qv" value="R_82" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSB" role="M5hS2">
+      <property role="1uS6qo" value="S" />
+      <property role="1uS6qv" value="S_83" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSC" role="M5hS2">
+      <property role="1uS6qo" value="T" />
+      <property role="1uS6qv" value="T_84" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSD" role="M5hS2">
+      <property role="1uS6qo" value="U" />
+      <property role="1uS6qv" value="U_85" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSE" role="M5hS2">
+      <property role="1uS6qo" value="V" />
+      <property role="1uS6qv" value="V_86" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSF" role="M5hS2">
+      <property role="1uS6qo" value="W" />
+      <property role="1uS6qv" value="W_87" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSG" role="M5hS2">
+      <property role="1uS6qo" value="X" />
+      <property role="1uS6qv" value="X_88" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSH" role="M5hS2">
+      <property role="1uS6qo" value="Y" />
+      <property role="1uS6qv" value="Y_89" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSI" role="M5hS2">
+      <property role="1uS6qo" value="Z" />
+      <property role="1uS6qv" value="Z_90" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSJ" role="M5hS2">
+      <property role="1uS6qo" value="N0" />
+      <property role="1uS6qv" value="N0_48" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSK" role="M5hS2">
+      <property role="1uS6qo" value="N1" />
+      <property role="1uS6qv" value="N1_49" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSL" role="M5hS2">
+      <property role="1uS6qo" value="N2" />
+      <property role="1uS6qv" value="N2_50" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSM" role="M5hS2">
+      <property role="1uS6qo" value="N3" />
+      <property role="1uS6qv" value="N3_51" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSN" role="M5hS2">
+      <property role="1uS6qo" value="N4" />
+      <property role="1uS6qv" value="N4_52" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSO" role="M5hS2">
+      <property role="1uS6qo" value="N5" />
+      <property role="1uS6qv" value="N5_53" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSP" role="M5hS2">
+      <property role="1uS6qo" value="N6" />
+      <property role="1uS6qv" value="N6_54" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSS" role="M5hS2">
+      <property role="1uS6qo" value="N7" />
+      <property role="1uS6qv" value="N7_55" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NST" role="M5hS2">
+      <property role="1uS6qo" value="N8" />
+      <property role="1uS6qv" value="N8_56" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSU" role="M5hS2">
+      <property role="1uS6qo" value="N9" />
+      <property role="1uS6qv" value="N9_57" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSV" role="M5hS2">
+      <property role="1uS6qo" value="TAB" />
+      <property role="1uS6qv" value="TAB_9" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSW" role="M5hS2">
+      <property role="1uS6qo" value="SPACE" />
+      <property role="1uS6qv" value="SPACE_32" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSX" role="M5hS2">
+      <property role="1uS6qo" value="ENTER" />
+      <property role="1uS6qv" value="ENTER_10" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSY" role="M5hS2">
+      <property role="1uS6qo" value="ESCAPE" />
+      <property role="1uS6qv" value="ESCAPE_27" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSZ" role="M5hS2">
+      <property role="1uS6qo" value="BACKSPACE" />
+      <property role="1uS6qv" value="BACKSPACE_8" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT0" role="M5hS2">
+      <property role="1uS6qo" value="DELETE" />
+      <property role="1uS6qv" value="DELETE_127" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT1" role="M5hS2">
+      <property role="1uS6qo" value="UP" />
+      <property role="1uS6qv" value="UP_38" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT2" role="M5hS2">
+      <property role="1uS6qo" value="DOWN" />
+      <property role="1uS6qv" value="DOWN_40" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT3" role="M5hS2">
+      <property role="1uS6qo" value="LEFT" />
+      <property role="1uS6qv" value="LEFT_37" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT4" role="M5hS2">
+      <property role="1uS6qo" value="RIGHT" />
+      <property role="1uS6qv" value="RIGHT_39" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT5" role="M5hS2">
+      <property role="1uS6qo" value="PAGE_UP" />
+      <property role="1uS6qv" value="PAGE-UP_33" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT6" role="M5hS2">
+      <property role="1uS6qo" value="PAGE_DOWN" />
+      <property role="1uS6qv" value="PAGE-DOWN_34" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT7" role="M5hS2">
+      <property role="1uS6qo" value="HOME" />
+      <property role="1uS6qv" value="HOME_36" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT8" role="M5hS2">
+      <property role="1uS6qo" value="END" />
+      <property role="1uS6qv" value="END_35" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT9" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_0" />
+      <property role="1uS6qv" value="KEYPAD-0_96" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTa" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_1" />
+      <property role="1uS6qv" value="KEYPAD-1_97" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTb" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_2" />
+      <property role="1uS6qv" value="KEYPAD-2_98" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTc" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_3" />
+      <property role="1uS6qv" value="KEYPAD-3_99" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTd" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_4" />
+      <property role="1uS6qv" value="KEYPAD-4_100" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTe" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_5" />
+      <property role="1uS6qv" value="KEYPAD-5_101" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTf" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_6" />
+      <property role="1uS6qv" value="KEYPAD-6_102" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTg" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_7" />
+      <property role="1uS6qv" value="KEYPAD-7_103" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTh" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_8" />
+      <property role="1uS6qv" value="KEYPAD-8_104" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTi" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_9" />
+      <property role="1uS6qv" value="KEYPAD-9_105" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTj" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_UP" />
+      <property role="1uS6qv" value="KEYPAD-UP_224" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTk" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_DOWN" />
+      <property role="1uS6qv" value="KEYPAD-DOWN_225" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTl" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_LEFT" />
+      <property role="1uS6qv" value="KEYPAD-LEFT_226" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTm" role="M5hS2">
+      <property role="1uS6qo" value="KEYPAD_RIGHT" />
+      <property role="1uS6qv" value="KEYPAD-RIGHT_227" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTn" role="M5hS2">
+      <property role="1uS6qo" value="PLUS" />
+      <property role="1uS6qv" value="PLUS_521" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTo" role="M5hS2">
+      <property role="1uS6qo" value="MINUS" />
+      <property role="1uS6qv" value="MINUS_45" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTp" role="M5hS2">
+      <property role="1uS6qo" value="EQUALS" />
+      <property role="1uS6qv" value="EQUALS_61" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTq" role="M5hS2">
+      <property role="1uS6qo" value="ADD" />
+      <property role="1uS6qv" value="ADD_107" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTr" role="M5hS2">
+      <property role="1uS6qo" value="SUPTRACT" />
+      <property role="1uS6qv" value="SUBTRACT_109" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTs" role="M5hS2">
+      <property role="1uS6qo" value="MULTIPLY" />
+      <property role="1uS6qv" value="MULTIPLY_106" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTt" role="M5hS2">
+      <property role="1uS6qo" value="DIVIDE" />
+      <property role="1uS6qv" value="DEVIDE_111" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTu" role="M5hS2">
+      <property role="1uS6qo" value="F1" />
+      <property role="1uS6qv" value="F1_112" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTv" role="M5hS2">
+      <property role="1uS6qo" value="F2" />
+      <property role="1uS6qv" value="F2_113" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTw" role="M5hS2">
+      <property role="1uS6qo" value="F3" />
+      <property role="1uS6qv" value="F3_114" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTx" role="M5hS2">
+      <property role="1uS6qo" value="F4" />
+      <property role="1uS6qv" value="F4_115" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTy" role="M5hS2">
+      <property role="1uS6qo" value="F5" />
+      <property role="1uS6qv" value="F5_116" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTz" role="M5hS2">
+      <property role="1uS6qo" value="F6" />
+      <property role="1uS6qv" value="F6_117" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT$" role="M5hS2">
+      <property role="1uS6qo" value="F7" />
+      <property role="1uS6qv" value="F7_118" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NT_" role="M5hS2">
+      <property role="1uS6qo" value="F8" />
+      <property role="1uS6qv" value="F8_119" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTA" role="M5hS2">
+      <property role="1uS6qo" value="F9" />
+      <property role="1uS6qv" value="F9_120" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTB" role="M5hS2">
+      <property role="1uS6qo" value="F10" />
+      <property role="1uS6qv" value="F10_121" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTC" role="M5hS2">
+      <property role="1uS6qo" value="F11" />
+      <property role="1uS6qv" value="F11_122" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTD" role="M5hS2">
+      <property role="1uS6qo" value="F12" />
+      <property role="1uS6qv" value="F12_123" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NTE" role="M5hS2">
+      <property role="1uS6qo" value="?" />
+      <property role="1uS6qv" value="UNDEFINED_0" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="1hImSMr59st">
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="HotkeyModifier" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1hImSMr59su" role="M5hS2">
+      <property role="1uS6qo" value="NO_MODIFIER" />
+      <property role="1uS6qv" value="no modifier_0" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr59sv" role="M5hS2">
+      <property role="1uS6qo" value="CRTL" />
+      <property role="1uS6qv" value="CRTL_2" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr59sw" role="M5hS2">
+      <property role="1uS6qo" value="ALT" />
+      <property role="1uS6qv" value="ALT_4" />
+    </node>
+    <node concept="M4N5e" id="1hImSMr5NSn" role="M5hS2">
+      <property role="1uS6qo" value="SHIFT" />
+      <property role="1uS6qv" value="SHIFT_1" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2aCEJxo$dGu">
+    <property role="1pbfSe" value="2067367446" />
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="Platform" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 

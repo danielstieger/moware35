@@ -16350,5 +16350,26 @@
       <node concept="3clFbS" id="3nLPQZPP5ec" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="2aCEJxo$dGL">
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <ref role="13h7C2" to="un0u:2aCEJxo$dGu" resolve="Platform" />
+    <node concept="13hLZK" id="2aCEJxo$dGM" role="13h7CW">
+      <node concept="3clFbS" id="2aCEJxo$dGN" role="2VODD2">
+        <node concept="3SKdUt" id="2aCEJxo$e0w" role="3cqZAp">
+          <node concept="3SKdUq" id="2aCEJxo$e0x" role="3SKWNk">
+            <property role="3SKdUp" value="define logical hotkeys in platform concept" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2aCEJxo$e0C" role="3cqZAp">
+          <node concept="3SKdUq" id="2aCEJxo$e0E" role="3SKWNk">
+            <property role="3SKdUp" value="CRTL-N for &quot;new&quot; + label + type of platform" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2aCEJxo$e0P" role="3cqZAp">
+          <node concept="3SKdUq" id="2aCEJxo$e0R" role="3SKWNk" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
