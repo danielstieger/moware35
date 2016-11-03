@@ -8,7 +8,7 @@
   </languages>
   <imports>
     <import index="goi" ref="r:f681a544-e71b-468b-a164-0e64bb63a5d9(org.modellwerkstatt.fatflow.runtime.manmapTestSuit2)" />
-    <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.moware)" />
+    <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -59,7 +59,7 @@
       <concept id="3899779351686393963" name="org.modellwerkstatt.dataux.structure.OperationPropertyReference" flags="ng" index="2THnN3">
         <reference id="3899779351686394249" name="property" index="2THnOx" />
       </concept>
-      <concept id="7834248083556639603" name="org.modellwerkstatt.dataux.structure.OneWight" flags="ng" index="2U5nhG" />
+      <concept id="7834248083556639603" name="org.modellwerkstatt.dataux.structure.OneWeight" flags="ng" index="2U5nhG" />
       <concept id="7834248083556639590" name="org.modellwerkstatt.dataux.structure.MinWeight" flags="ng" index="2U5nhT" />
       <concept id="7834248083556629548" name="org.modellwerkstatt.dataux.structure.GridLayout" flags="ng" index="2U5qGN">
         <child id="2954183761501582914" name="uxChild" index="21u2wS" />
@@ -71,12 +71,12 @@
       </concept>
       <concept id="7834248083556629545" name="org.modellwerkstatt.dataux.structure.Table" flags="ng" index="2U5qGQ" />
       <concept id="5337297293525625533" name="org.modellwerkstatt.dataux.structure.IOptionallyNamed" flags="ng" index="1Nb$$x">
-        <property id="5337297293525625539" name="named" index="1Nb$_v" />
+        <property id="5337297293525625539" name="isNamed" index="1Nb$_v" />
         <property id="8798915378417884602" name="name" index="1TjtHh" />
       </concept>
       <concept id="5337297293525704838" name="org.modellwerkstatt.dataux.structure.IBindable" flags="ng" index="1Nkgcq">
-        <reference id="8798915378417862464" name="selectionIdentifierMember" index="1Tjo6F" />
-        <reference id="8798915378417862462" name="selectionIdentifier" index="1Tjo7l" />
+        <reference id="8798915378417862464" name="boundProperty" index="1Tjo6F" />
+        <reference id="8798915378417862462" name="boundClassifier" index="1Tjo7l" />
       </concept>
       <concept id="1469414169490356818" name="org.modellwerkstatt.dataux.structure.PathDot" flags="ng" index="3O0p8O">
         <child id="1469414169490356829" name="operation" index="3O0p8V" />
