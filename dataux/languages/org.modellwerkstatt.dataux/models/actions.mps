@@ -730,7 +730,7 @@
                   <node concept="2OqwBi" id="7vQ8h9wcbGJ" role="37vLTx">
                     <node concept="2YIFZM" id="7vQ8h9wcbrO" role="2Oq$k0">
                       <ref role="37wK5l" to="tm9u:7vQ8h9wc4y8" resolve="getProbableBoundTypeForBindable" />
-                      <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+                      <ref role="1Pybhc" to="tm9u:1uZcHZrttDL" resolve="OFXGetSelectedScoper" />
                       <node concept="2OqwBi" id="5WBphPl6OhN" role="37wK5m">
                         <node concept="37vLTw" id="5WBphPl6Od1" role="2Oq$k0">
                           <ref role="3cqZAo" node="5WBphPl6q3D" resolve="editorComponent" />
@@ -1009,6 +1009,26 @@
         </node>
       </node>
     </node>
+    <node concept="37WvkG" id="7laCgTiV$Pd" role="37WGs$">
+      <ref role="37XkoT" to="1btx:2zZnBEDxRpa" resolve="Tab" />
+      <node concept="37Y9Zx" id="7laCgTiV$Pe" role="37ZfLb">
+        <node concept="3clFbS" id="7laCgTiV$Pf" role="2VODD2">
+          <node concept="3clFbF" id="7laCgTiV$WD" role="3cqZAp">
+            <node concept="2OqwBi" id="7laCgTiV_4n" role="3clFbG">
+              <node concept="2OqwBi" id="7laCgTiV$XZ" role="2Oq$k0">
+                <node concept="1r4Lsj" id="7laCgTiV$WC" role="2Oq$k0" />
+                <node concept="3TrEf2" id="7laCgTiV_0F" role="2OqNvi">
+                  <ref role="3Tt5mk" to="1btx:2zZnBEDxRpf" />
+                </node>
+              </node>
+              <node concept="2DeJnY" id="7laCgTiV_7A" role="2OqNvi">
+                <ref role="1A9B2P" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="37WvkG" id="1h$q6rwojiY" role="37WGs$">
       <ref role="37XkoT" to="1btx:1h$q6rwmHiS" resolve="BaseDelegate" />
       <node concept="37Y9Zx" id="1h$q6rwojiZ" role="37ZfLb">
@@ -1102,8 +1122,8 @@
               <node concept="3clFbS" id="pQ21WNhtPN" role="9aQI4">
                 <node concept="3clFbF" id="pQ21WNeN1z" role="3cqZAp">
                   <node concept="2YIFZM" id="pQ21WNeN4r" role="3clFbG">
-                    <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
                     <ref role="37wK5l" to="tm9u:pQ21WNeH0A" resolve="configuredDelegate" />
+                    <ref role="1Pybhc" to="tm9u:3ouNayfHhkb" resolve="OFXDelegateAutoCompleter" />
                     <node concept="2OqwBi" id="pQ21WNeN6h" role="37wK5m">
                       <node concept="1r4N1M" id="pQ21WNeN4O" role="2Oq$k0" />
                       <node concept="2Xjw5R" id="pQ21WNeN9Q" role="2OqNvi">
@@ -1388,7 +1408,7 @@
                   </node>
                   <node concept="2YIFZM" id="pQ21WNeG7t" role="33vP2m">
                     <ref role="37wK5l" to="tm9u:pQ21WNenur" resolve="newInitializedDelegateFormType" />
-                    <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+                    <ref role="1Pybhc" to="tm9u:3ouNayfHhkb" resolve="OFXDelegateAutoCompleter" />
                     <node concept="2OqwBi" id="pQ21WNeG7u" role="37wK5m">
                       <node concept="3bvxqY" id="pQ21WNeG7v" role="2Oq$k0" />
                       <node concept="2Xjw5R" id="pQ21WNeG7w" role="2OqNvi">
@@ -1617,7 +1637,7 @@
               <node concept="3clFbF" id="6oVlrbkfXA9" role="3cqZAp">
                 <node concept="2YIFZM" id="6oVlrbkfXKq" role="3clFbG">
                   <ref role="37wK5l" to="tm9u:pQ21WNeH0A" resolve="configuredDelegate" />
-                  <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+                  <ref role="1Pybhc" to="tm9u:3ouNayfHhkb" resolve="OFXDelegateAutoCompleter" />
                   <node concept="37vLTw" id="7vQ8h9wetcr" role="37wK5m">
                     <ref role="3cqZAo" node="7vQ8h9wesTM" resolve="delegateHolder" />
                   </node>
@@ -1719,7 +1739,7 @@
               <node concept="3clFbF" id="6oVlrbkfJoe" role="3cqZAp">
                 <node concept="2YIFZM" id="6oVlrbkfJr1" role="3clFbG">
                   <ref role="37wK5l" to="tm9u:6oVlrbk4PVu" resolve="getSpecialPropertyDesc" />
-                  <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+                  <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXPropertyScoper" />
                   <node concept="uNquD" id="6oVlrbkfJsG" role="37wK5m" />
                 </node>
               </node>
@@ -1730,7 +1750,7 @@
               <node concept="3clFbF" id="6oVlrbkfNlO" role="3cqZAp">
                 <node concept="2YIFZM" id="6oVlrbkfNlP" role="3clFbG">
                   <ref role="37wK5l" to="tm9u:6oVlrbk4PVu" resolve="getSpecialPropertyDesc" />
-                  <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+                  <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXPropertyScoper" />
                   <node concept="uNquD" id="6oVlrbkfNlQ" role="37wK5m" />
                 </node>
               </node>
