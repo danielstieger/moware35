@@ -10,34 +10,17 @@
   </languages>
   <imports>
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
-    <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
-    <import index="jkm4" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.openapi.ui(MPS.IDEA/)" />
-    <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
-    <import index="dp1x" ref="r:84719e1a-99f6-4297-90ba-8ad2a947fa4a(jetbrains.mps.ide.datatransfer)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
-    <import index="lzb2" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/java:com.intellij.ui(MPS.IDEA/)" />
     <import index="qq03" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.actions(MPS.Platform/)" />
-    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
-    <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
-    <import index="z1c3" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.project(MPS.Platform/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-    <import index="z1c4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
+    <import index="z1c3" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.project(MPS.Core/)" />
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
-    <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" />
-    <import index="dxuu" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing(JDK/)" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" />
-    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
-    <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
-    <import index="r791" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.swing.text(JDK/)" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="hypd" ref="r:aa31e43e-9240-4f4d-b6db-5c1c9a86c59e(jetbrains.mps.lang.project.structure)" />
     <import index="sgb" ref="r:ff1c5781-322e-4061-ae5c-5f435235d5a8(org.modellwerkstatt.forms.structure)" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" />
     <import index="tm9u" ref="r:a8cceaac-a892-4039-8ab4-edfae2590c6d(org.modellwerkstatt.dataux.ofxutil)" />
     <import index="j0yf" ref="r:3fc0f06a-4191-4fde-93c9-62c313d8e4e0(org.modellwerkstatt.objectflow.plugin)" />
-    <import index="ot5c" ref="r:12761f5d-eec5-45d8-b679-f35434d6dd41(org.modellwerkstatt.forms.plugin)" />
-    <import index="w1kc" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel(MPS.Core/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
@@ -451,7 +434,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="5vS1dgEF8rt" role="2OqNvi">
-                      <ref role="37wK5l" to="z1c4:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
+                      <ref role="37wK5l" to="z1c3:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
                     </node>
                   </node>
                 </node>
@@ -3022,7 +3005,7 @@
                       </node>
                       <node concept="2YIFZM" id="5wtTtb3jnYU" role="33vP2m">
                         <ref role="37wK5l" to="tm9u:pQ21WNenur" resolve="newInitializedDelegateFormType" />
-                        <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+                        <ref role="1Pybhc" to="tm9u:3ouNayfHhkb" resolve="OFXDelegateAutoCompleter" />
                         <node concept="37vLTw" id="5wtTtb3jpEC" role="37wK5m">
                           <ref role="3cqZAo" node="1WEr3iljFSt" resolve="table" />
                         </node>
@@ -3762,7 +3745,7 @@
                       </node>
                       <node concept="2YIFZM" id="1WEr3ilmaVU" role="33vP2m">
                         <ref role="37wK5l" to="tm9u:pQ21WNenur" resolve="newInitializedDelegateFormType" />
-                        <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+                        <ref role="1Pybhc" to="tm9u:3ouNayfHhkb" resolve="OFXDelegateAutoCompleter" />
                         <node concept="37vLTw" id="1WEr3ilmb6b" role="37wK5m">
                           <ref role="3cqZAo" node="1WEr3iljFXM" resolve="df" />
                         </node>
@@ -6098,7 +6081,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="5vS1dgEFe2s" role="2OqNvi">
-                      <ref role="37wK5l" to="z1c4:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
+                      <ref role="37wK5l" to="z1c3:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
                     </node>
                   </node>
                 </node>
@@ -7042,7 +7025,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="5vS1dgEFadQ" role="2OqNvi">
-                      <ref role="37wK5l" to="z1c4:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
+                      <ref role="37wK5l" to="z1c3:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
                     </node>
                   </node>
                 </node>
@@ -7657,7 +7640,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="5vS1dgEFg0V" role="2OqNvi">
-                      <ref role="37wK5l" to="z1c4:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
+                      <ref role="37wK5l" to="z1c3:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
                     </node>
                   </node>
                 </node>
@@ -11779,7 +11762,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="5vS1dgEFhXC" role="2OqNvi">
-                      <ref role="37wK5l" to="z1c4:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
+                      <ref role="37wK5l" to="z1c3:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
                     </node>
                   </node>
                 </node>
@@ -12369,7 +12352,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="5vS1dgEC_W0" role="2OqNvi">
-                      <ref role="37wK5l" to="z1c4:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
+                      <ref role="37wK5l" to="z1c3:~Project.getProjectModels():java.lang.Iterable" resolve="getProjectModels" />
                     </node>
                   </node>
                 </node>
