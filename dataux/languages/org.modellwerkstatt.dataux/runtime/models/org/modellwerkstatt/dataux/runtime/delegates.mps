@@ -111,7 +111,6 @@
       </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <property id="1075300953594" name="abstractClass" index="1sVAO0" />
-        <child id="1095933932569" name="implementedInterface" index="EKbjA" />
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -581,9 +580,6 @@
         <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
       </node>
     </node>
-    <node concept="3uibUv" id="6Ag5kTzI7gE" role="EKbjA">
-      <ref role="3uigEE" to="c9yi:59G7jqrj4Ft" resolve="IImageDelegate" />
-    </node>
   </node>
   <node concept="312cEu" id="3sEA$PIEHta">
     <property role="TrG5h" value="FLocalDateDelegate" />
@@ -1030,12 +1026,6 @@
     <node concept="3uibUv" id="3sEA$PIEHw4" role="1zkMxy">
       <ref role="3uigEE" node="5Y1b9tQY3zB" resolve="FDelegate" />
       <node concept="3uibUv" id="3sEA$PIEHxp" role="11_B2D">
-        <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
-      </node>
-    </node>
-    <node concept="3uibUv" id="3sEA$PIEHw6" role="EKbjA">
-      <ref role="3uigEE" to="c9yi:42mVti4YotL" resolve="IDelegate" />
-      <node concept="3uibUv" id="3sEA$PIEHxs" role="11_B2D">
         <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
       </node>
     </node>
@@ -2181,9 +2171,6 @@
         <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
       </node>
     </node>
-    <node concept="3uibUv" id="1YFjUjHUdmK" role="EKbjA">
-      <ref role="3uigEE" to="c9yi:dX9tEwAYCj" resolve="IReferenceDelegate" />
-    </node>
   </node>
   <node concept="312cEu" id="1kaU3pLSZon">
     <property role="TrG5h" value="FStatusDelegate" />
@@ -3297,9 +3284,6 @@
         <ref role="3uigEE" to="wyt6:~String" resolve="String" />
       </node>
     </node>
-    <node concept="3uibUv" id="1kaU3pLUCS6" role="EKbjA">
-      <ref role="3uigEE" to="c9yi:dX9tEw_WUu" resolve="IStatusDelegate" />
-    </node>
   </node>
   <node concept="312cEu" id="1l2SXGvB6qp">
     <property role="TrG5h" value="FDateTimeDelegate" />
@@ -3880,12 +3864,6 @@
     <node concept="3uibUv" id="1l2SXGvB6u6" role="1zkMxy">
       <ref role="3uigEE" node="5Y1b9tQY3zB" resolve="FDelegate" />
       <node concept="3uibUv" id="1l2SXGvB6u7" role="11_B2D">
-        <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
-      </node>
-    </node>
-    <node concept="3uibUv" id="1l2SXGvB6u8" role="EKbjA">
-      <ref role="3uigEE" to="c9yi:42mVti4YotL" resolve="IDelegate" />
-      <node concept="3uibUv" id="1l2SXGvB6u9" role="11_B2D">
         <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
       </node>
     </node>
@@ -6387,9 +6365,6 @@
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
     </node>
-    <node concept="3uibUv" id="5tdM1SXrqhb" role="EKbjA">
-      <ref role="3uigEE" to="c9yi:4ZIUv21QvV7" resolve="IIntegerDelegate" />
-    </node>
   </node>
   <node concept="312cEu" id="3sEA$PIygGQ">
     <property role="TrG5h" value="FDateTimeDateDelegate" />
@@ -6924,12 +6899,6 @@
     <node concept="3uibUv" id="3sEA$PIygLs" role="1zkMxy">
       <ref role="3uigEE" node="5Y1b9tQY3zB" resolve="FDelegate" />
       <node concept="3uibUv" id="3sEA$PIykwd" role="11_B2D">
-        <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
-      </node>
-    </node>
-    <node concept="3uibUv" id="3sEA$PIyo8Z" role="EKbjA">
-      <ref role="3uigEE" to="c9yi:42mVti4YotL" resolve="IDelegate" />
-      <node concept="3uibUv" id="3sEA$PIyo93" role="11_B2D">
         <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
       </node>
     </node>
@@ -7703,9 +7672,6 @@
       <node concept="3uibUv" id="3sEA$PIwJD6" role="11_B2D">
         <ref role="3uigEE" to="wyt6:~String" resolve="String" />
       </node>
-    </node>
-    <node concept="3uibUv" id="3sEA$PIxKU_" role="EKbjA">
-      <ref role="3uigEE" to="c9yi:4ZIUv21RnFA" resolve="IStringDelegate" />
     </node>
   </node>
   <node concept="312cEu" id="3sEA$PIstNw">
@@ -9023,9 +8989,6 @@
       <node concept="3uibUv" id="3sEA$PIsuXh" role="11_B2D">
         <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
       </node>
-    </node>
-    <node concept="3uibUv" id="3sEA$PIsuWS" role="EKbjA">
-      <ref role="3uigEE" to="c9yi:dX9tEwAiK1" resolve="IDecimalDelegate" />
     </node>
     <node concept="2tJIrI" id="3sEA$PIuIes" role="jymVt" />
   </node>

@@ -165,6 +165,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1179168000618" name="jetbrains.mps.lang.smodel.structure.Node_GetIndexInParentOperation" flags="nn" index="2bSWHS" />
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -1026,7 +1027,7 @@
         <node concept="3cpWs6" id="3nLPQZQMGm2" role="3cqZAp">
           <node concept="2YIFZM" id="3nLPQZQMGmE" role="3cqZAk">
             <ref role="37wK5l" to="tm9u:3nLPQZQMc4E" resolve="calcActionsOfForm" />
-            <ref role="1Pybhc" to="tm9u:3nLPQZQMc3J" resolve="OFXActionsScoper" />
+            <ref role="1Pybhc" to="tm9u:3nLPQZQMc3J" resolve="OFXActionsCalculator" />
             <node concept="13iPFW" id="3nLPQZQMGn0" role="37wK5m" />
           </node>
         </node>
@@ -1063,7 +1064,7 @@
   </node>
   <node concept="13h7C7" id="7Cs1IG3jYzS">
     <property role="3GE5qa" value="internalInfra" />
-    <ref role="13h7C2" to="1btx:7Cs1IG3jYzP" resolve="DataUxRoot" />
+    <ref role="13h7C2" to="1btx:7Cs1IG3jYzP" resolve="UxRoot" />
     <node concept="13hLZK" id="7Cs1IG3jYzT" role="13h7CW">
       <node concept="3clFbS" id="7Cs1IG3jYzU" role="2VODD2" />
     </node>
@@ -1117,7 +1118,7 @@
   </node>
   <node concept="13h7C7" id="2zZnBEDxDjk">
     <property role="3GE5qa" value="internalInfra" />
-    <ref role="13h7C2" to="1btx:2zZnBEDxDjf" resolve="ILayoutElement" />
+    <ref role="13h7C2" to="1btx:2zZnBEDxDjf" resolve="IUxLayoutElement" />
     <node concept="13i0hz" id="2zZnBEDxDjn" role="13h7CS">
       <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
@@ -3020,6 +3021,24 @@
   <node concept="13h7C7" id="pQ21WNg_c4">
     <property role="3GE5qa" value="delegates" />
     <ref role="13h7C2" to="1btx:1h$q6rwmHiS" resolve="BaseDelegate" />
+    <node concept="13i0hz" id="61_ZUKWDC1Z" role="13h7CS">
+      <property role="TrG5h" value="getUniqueGenName" />
+      <node concept="3Tm1VV" id="61_ZUKWDC20" role="1B3o_S" />
+      <node concept="17QB3L" id="61_ZUKWDC3F" role="3clF45" />
+      <node concept="3clFbS" id="61_ZUKWDC22" role="3clF47">
+        <node concept="3clFbF" id="61_ZUKWDC3Q" role="3cqZAp">
+          <node concept="3cpWs3" id="61_ZUKWDC6y" role="3clFbG">
+            <node concept="2OqwBi" id="61_ZUKWDC8X" role="3uHU7w">
+              <node concept="13iPFW" id="61_ZUKWDC6K" role="2Oq$k0" />
+              <node concept="2bSWHS" id="61_ZUKWDCcG" role="2OqNvi" />
+            </node>
+            <node concept="Xl_RD" id="61_ZUKWDC3P" role="3uHU7B">
+              <property role="Xl_RC" value="delegate_" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13hLZK" id="pQ21WNg_c5" role="13h7CW">
       <node concept="3clFbS" id="pQ21WNg_c6" role="2VODD2" />
     </node>
@@ -3116,7 +3135,7 @@
         <node concept="3clFbF" id="6oVlrbk4Qyh" role="3cqZAp">
           <node concept="2YIFZM" id="6oVlrbk4QzQ" role="3clFbG">
             <ref role="37wK5l" to="tm9u:6oVlrbk4PVu" resolve="getSpecialPropertyDesc" />
-            <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+            <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXPropertyScoper" />
             <node concept="2OqwBi" id="6oVlrbk4QAq" role="37wK5m">
               <node concept="13iPFW" id="6oVlrbk4Q$k" role="2Oq$k0" />
               <node concept="3TrEf2" id="6oVlrbk4QEW" role="2OqNvi">
@@ -3137,7 +3156,7 @@
         <node concept="3clFbF" id="6oVlrbk50Yx" role="3cqZAp">
           <node concept="2YIFZM" id="6oVlrbk510R" role="3clFbG">
             <ref role="37wK5l" to="tm9u:6oVlrbk4XTa" resolve="getSpecialPropertyType" />
-            <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+            <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXPropertyScoper" />
             <node concept="2OqwBi" id="6oVlrbk513o" role="37wK5m">
               <node concept="13iPFW" id="6oVlrbk511k" role="2Oq$k0" />
               <node concept="3TrEf2" id="6oVlrbk51aO" role="2OqNvi">
@@ -3186,7 +3205,7 @@
         <node concept="3clFbF" id="6oVlrbk5$tI" role="3cqZAp">
           <node concept="2YIFZM" id="6oVlrbk5$vo" role="3clFbG">
             <ref role="37wK5l" to="tm9u:6oVlrbk4PVu" resolve="getSpecialPropertyDesc" />
-            <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+            <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXPropertyScoper" />
             <node concept="2OqwBi" id="6oVlrbk5$xW" role="37wK5m">
               <node concept="13iPFW" id="6oVlrbk5$vQ" role="2Oq$k0" />
               <node concept="3TrEf2" id="6oVlrbk5$Dq" role="2OqNvi">
@@ -3212,7 +3231,7 @@
         <node concept="3clFbF" id="6oVlrbk5$hp" role="3cqZAp">
           <node concept="2YIFZM" id="6oVlrbk5$j3" role="3clFbG">
             <ref role="37wK5l" to="tm9u:6oVlrbk4XTa" resolve="getSpecialPropertyType" />
-            <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXScopeBridge" />
+            <ref role="1Pybhc" to="tm9u:6MSPLZmEVQN" resolve="OFXPropertyScoper" />
             <node concept="2OqwBi" id="6oVlrbk5$lB" role="37wK5m">
               <node concept="13iPFW" id="6oVlrbk5$jx" role="2Oq$k0" />
               <node concept="3TrEf2" id="6oVlrbk5$t5" role="2OqNvi">
