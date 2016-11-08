@@ -42,6 +42,7 @@
         <property id="1071599776563" name="role" index="20kJfa" />
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -366,6 +367,7 @@
       <property role="20kJfa" value="boundTo" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1h$q6rwpvzb" resolve="IPath" />
+      <ref role="20ksaX" node="4nSJmixDyA8" />
     </node>
     <node concept="PrWs8" id="1h$q6rwmHiU" role="PzmwI">
       <ref role="PrY4T" node="1h$q6rwmHiT" resolve="IDelegate" />
@@ -380,6 +382,12 @@
       <property role="20kJfa" value="option" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+    <node concept="1TJgyj" id="4nSJmixDyA8" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="boundTo" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1h$q6rwpvzb" resolve="IPath" />
     </node>
   </node>
   <node concept="1TIwiD" id="1h$q6rwn4fl">
@@ -715,7 +723,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="pQ21WNlsWy" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="properties" />
+      <property role="20kJfa" value="paths" />
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="1h$q6rwpvzb" resolve="IPath" />
     </node>

@@ -201,6 +201,12 @@
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="767145758118872828" name="jetbrains.mps.lang.actions.structure.NF_Node_ReplaceWithNewOperation" flags="nn" index="2DeJnW" />
@@ -469,6 +475,27 @@
           <node concept="3F0A7n" id="7Cs1IG3kp1s" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4nSJmix$5KP" role="3EZMnx">
+        <property role="3F0ifm" value="// binding overwritten when used via include " />
+        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+        <node concept="pkWqt" id="4nSJmix$5Ug" role="pqm2j">
+          <node concept="3clFbS" id="4nSJmix$5Uh" role="2VODD2">
+            <node concept="3SKdUt" id="4nSJmix$6dF" role="3cqZAp">
+              <node concept="3SKdUq" id="4nSJmix$6dH" role="3SKWNk">
+                <property role="3SKdUp" value="when element is named, it might be used in an include" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="4nSJmix$5Vm" role="3cqZAp">
+              <node concept="2OqwBi" id="4nSJmix$5YJ" role="3clFbG">
+                <node concept="pncrf" id="4nSJmix$5Vl" role="2Oq$k0" />
+                <node concept="2qgKlT" id="4nSJmix$68F" role="2OqNvi">
+                  <ref role="37wK5l" to="5y3p:7Cs1IG3kzJs" resolve="isNamed" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

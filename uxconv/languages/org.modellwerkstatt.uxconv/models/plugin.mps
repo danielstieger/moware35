@@ -3137,16 +3137,15 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="6oVlrbjIQkF" role="3clFbw">
-                      <node concept="2OqwBi" id="6oVlrbjIPCn" role="2Oq$k0">
-                        <node concept="37vLTw" id="6oVlrbjIPib" role="2Oq$k0">
+                    <node concept="3fqX7Q" id="4nSJmixCeyt" role="3clFbw">
+                      <node concept="2OqwBi" id="4nSJmixCeyv" role="3fr31v">
+                        <node concept="37vLTw" id="4nSJmixCeyw" role="2Oq$k0">
                           <ref role="3cqZAo" node="5wtTtb3jjWH" resolve="row" />
                         </node>
-                        <node concept="3TrEf2" id="6oVlrbjIQ1d" role="2OqNvi">
-                          <ref role="3Tt5mk" to="sgb:21u4Af7bu4m" />
+                        <node concept="2qgKlT" id="4nSJmixCeyx" role="2OqNvi">
+                          <ref role="37wK5l" to="q13i:jEineQGm7B" resolve="hasDefaultNumberFormat" />
                         </node>
                       </node>
-                      <node concept="3x8VRR" id="6oVlrbjIQOD" role="2OqNvi" />
                     </node>
                   </node>
                   <node concept="3clFbJ" id="6oVlrbjJ3p$" role="3cqZAp">

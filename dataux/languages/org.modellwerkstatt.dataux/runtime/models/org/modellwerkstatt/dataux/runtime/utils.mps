@@ -251,6 +251,9 @@
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
       <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
+      <concept id="1221737317277" name="jetbrains.mps.baseLanguage.structure.StaticInitializer" flags="lg" index="1Pe0a1">
+        <child id="1221737317278" name="statementList" index="1Pe0a2" />
+      </concept>
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
@@ -3205,6 +3208,40 @@
   </node>
   <node concept="312cEu" id="3PmCowOXudY">
     <property role="TrG5h" value="BigDecimalConverter_TWO" />
+    <node concept="Wx3nA" id="3hDHYkqHNN5" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="defaultFormat" />
+      <node concept="3Tm6S6" id="3hDHYkqHNN7" role="1B3o_S" />
+      <node concept="3uibUv" id="3hDHYkqHNYM" role="1tU5fm">
+        <ref role="3uigEE" to="25x5:~DecimalFormat" resolve="DecimalFormat" />
+      </node>
+      <node concept="2ShNRf" id="3hDHYkqHO6l" role="33vP2m">
+        <node concept="1pGfFk" id="3hDHYkqHO6k" role="2ShVmc">
+          <ref role="37wK5l" to="25x5:~DecimalFormat.&lt;init&gt;(java.lang.String)" resolve="DecimalFormat" />
+          <node concept="Xl_RD" id="7fo5K05rYQf" role="37wK5m">
+            <property role="Xl_RC" value="#,##0.00" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1Pe0a1" id="3hDHYkqHQ4l" role="jymVt">
+      <node concept="3clFbS" id="3hDHYkqHQ4n" role="1Pe0a2">
+        <node concept="3clFbF" id="3hDHYkqHQf0" role="3cqZAp">
+          <node concept="2OqwBi" id="3hDHYkqHQgx" role="3clFbG">
+            <node concept="37vLTw" id="3hDHYkqHQeZ" role="2Oq$k0">
+              <ref role="3cqZAo" node="3hDHYkqHNN5" resolve="defaultFormat" />
+            </node>
+            <node concept="liA8E" id="3hDHYkqHQmC" role="2OqNvi">
+              <ref role="37wK5l" to="25x5:~DecimalFormat.setParseBigDecimal(boolean):void" resolve="setParseBigDecimal" />
+              <node concept="3clFbT" id="3hDHYkqHQnL" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3hDHYkqHPU0" role="jymVt" />
     <node concept="3Tm1VV" id="3PmCowOXudZ" role="1B3o_S" />
     <node concept="3uibUv" id="1KgqQuBB1vg" role="EKbjA">
       <ref role="3uigEE" node="3PmCowOXue4" resolve="I2StringConverter_TWO" />
@@ -3213,7 +3250,7 @@
       </node>
     </node>
     <node concept="312cEg" id="3PmCowOXvt5" role="jymVt">
-      <property role="TrG5h" value="formatter" />
+      <property role="TrG5h" value="privatFormatter" />
       <node concept="3Tm6S6" id="3PmCowOXvt6" role="1B3o_S" />
       <node concept="3uibUv" id="3PmCowOXxcs" role="1tU5fm">
         <ref role="3uigEE" to="25x5:~DecimalFormat" resolve="DecimalFormat" />
@@ -3227,31 +3264,69 @@
       <node concept="3cqZAl" id="3PmCowOXue1" role="3clF45" />
       <node concept="3Tm1VV" id="3PmCowOXue2" role="1B3o_S" />
       <node concept="3clFbS" id="3PmCowOXue3" role="3clF47">
-        <node concept="3clFbF" id="3PmCowOXxcw" role="3cqZAp">
-          <node concept="37vLTI" id="3PmCowOXxc_" role="3clFbG">
-            <node concept="2ShNRf" id="3PmCowOXxcC" role="37vLTx">
-              <node concept="1pGfFk" id="3PmCowOXxcD" role="2ShVmc">
-                <ref role="37wK5l" to="25x5:~DecimalFormat.&lt;init&gt;(java.lang.String)" resolve="DecimalFormat" />
-                <node concept="37vLTw" id="5hc8PGHPzAR" role="37wK5m">
+        <node concept="3clFbH" id="3hDHYkqHQoC" role="3cqZAp" />
+        <node concept="3clFbJ" id="3hDHYkqHOPV" role="3cqZAp">
+          <node concept="3clFbS" id="3hDHYkqHOPX" role="3clFbx">
+            <node concept="3clFbF" id="3hDHYkqHPec" role="3cqZAp">
+              <node concept="37vLTI" id="3hDHYkqHPfW" role="3clFbG">
+                <node concept="37vLTw" id="3hDHYkqHPka" role="37vLTx">
+                  <ref role="3cqZAo" node="3hDHYkqHNN5" resolve="defaultFormat" />
+                </node>
+                <node concept="37vLTw" id="3hDHYkqHPea" role="37vLTJ">
+                  <ref role="3cqZAo" node="3PmCowOXvt5" resolve="privatFormatter" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3hDHYkqHQrA" role="3cqZAp" />
+          </node>
+          <node concept="22lmx$" id="3hDHYkqHOXV" role="3clFbw">
+            <node concept="2OqwBi" id="3hDHYkqHP4z" role="3uHU7w">
+              <node concept="Xl_RD" id="3hDHYkqHOZM" role="2Oq$k0" />
+              <node concept="liA8E" id="3hDHYkqHPas" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="37vLTw" id="3hDHYkqHPc0" role="37wK5m">
                   <ref role="3cqZAo" node="3PmCowOXxct" resolve="format" />
                 </node>
               </node>
             </node>
-            <node concept="37vLTw" id="5hc8PGHPz6Z" role="37vLTJ">
-              <ref role="3cqZAo" node="3PmCowOXvt5" resolve="formatter" />
+            <node concept="3clFbC" id="3hDHYkqHOUR" role="3uHU7B">
+              <node concept="37vLTw" id="3hDHYkqHOS1" role="3uHU7B">
+                <ref role="3cqZAo" node="3PmCowOXxct" resolve="format" />
+              </node>
+              <node concept="10Nm6u" id="3hDHYkqHOWq" role="3uHU7w" />
             </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="7fo5K04WX2D" role="3cqZAp">
-          <node concept="2OqwBi" id="7fo5K04WX4Z" role="3clFbG">
-            <node concept="37vLTw" id="7fo5K04WX2B" role="2Oq$k0">
-              <ref role="3cqZAo" node="3PmCowOXvt5" resolve="formatter" />
-            </node>
-            <node concept="liA8E" id="7fo5K04WXiZ" role="2OqNvi">
-              <ref role="37wK5l" to="25x5:~DecimalFormat.setParseBigDecimal(boolean):void" resolve="setParseBigDecimal" />
-              <node concept="3clFbT" id="7fo5K04WXjd" role="37wK5m">
-                <property role="3clFbU" value="true" />
+          <node concept="9aQIb" id="3hDHYkqHPmX" role="9aQIa">
+            <node concept="3clFbS" id="3hDHYkqHPmY" role="9aQI4">
+              <node concept="3clFbF" id="3PmCowOXxcw" role="3cqZAp">
+                <node concept="37vLTI" id="3PmCowOXxc_" role="3clFbG">
+                  <node concept="2ShNRf" id="3PmCowOXxcC" role="37vLTx">
+                    <node concept="1pGfFk" id="3PmCowOXxcD" role="2ShVmc">
+                      <ref role="37wK5l" to="25x5:~DecimalFormat.&lt;init&gt;(java.lang.String)" resolve="DecimalFormat" />
+                      <node concept="37vLTw" id="5hc8PGHPzAR" role="37wK5m">
+                        <ref role="3cqZAo" node="3PmCowOXxct" resolve="format" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="5hc8PGHPz6Z" role="37vLTJ">
+                    <ref role="3cqZAo" node="3PmCowOXvt5" resolve="privatFormatter" />
+                  </node>
+                </node>
               </node>
+              <node concept="3clFbF" id="7fo5K04WX2D" role="3cqZAp">
+                <node concept="2OqwBi" id="7fo5K04WX4Z" role="3clFbG">
+                  <node concept="37vLTw" id="7fo5K04WX2B" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3PmCowOXvt5" resolve="privatFormatter" />
+                  </node>
+                  <node concept="liA8E" id="7fo5K04WXiZ" role="2OqNvi">
+                    <ref role="37wK5l" to="25x5:~DecimalFormat.setParseBigDecimal(boolean):void" resolve="setParseBigDecimal" />
+                    <node concept="3clFbT" id="7fo5K04WXjd" role="37wK5m">
+                      <property role="3clFbU" value="true" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="3hDHYkqHQs$" role="3cqZAp" />
             </node>
           </node>
         </node>
@@ -3287,7 +3362,7 @@
         <node concept="3clFbF" id="3PmCowOXxcF" role="3cqZAp">
           <node concept="2OqwBi" id="3PmCowOXxcJ" role="3clFbG">
             <node concept="37vLTw" id="5hc8PGHPz2B" role="2Oq$k0">
-              <ref role="3cqZAo" node="3PmCowOXvt5" resolve="formatter" />
+              <ref role="3cqZAo" node="3PmCowOXvt5" resolve="privatFormatter" />
             </node>
             <node concept="liA8E" id="3PmCowOXxcP" role="2OqNvi">
               <ref role="37wK5l" to="25x5:~Format.format(java.lang.Object):java.lang.String" resolve="format" />
@@ -3334,7 +3409,7 @@
                   </node>
                   <node concept="2OqwBi" id="7fo5K04WXxt" role="10QFUP">
                     <node concept="37vLTw" id="7fo5K04WXxu" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3PmCowOXvt5" resolve="formatter" />
+                      <ref role="3cqZAo" node="3PmCowOXvt5" resolve="privatFormatter" />
                     </node>
                     <node concept="liA8E" id="7fo5K04WXxv" role="2OqNvi">
                       <ref role="37wK5l" to="25x5:~NumberFormat.parse(java.lang.String):java.lang.Number" resolve="parse" />
@@ -10203,57 +10278,92 @@
         <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
       </node>
     </node>
+    <node concept="Wx3nA" id="ncJg$H916E" role="jymVt">
+      <property role="TrG5h" value="defaultTableDateOnlyFormatter" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="ncJg$H916F" role="1B3o_S" />
+      <node concept="3uibUv" id="ncJg$H916G" role="1tU5fm">
+        <ref role="3uigEE" to="x5li:~DateTimeFormatter" resolve="DateTimeFormatter" />
+      </node>
+      <node concept="2YIFZM" id="3spXEPXIGSR" role="33vP2m">
+        <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forPattern" />
+        <ref role="1Pybhc" to="28jr:3spXEPXIsOe" resolve="MoDateTimeFormatters" />
+        <node concept="Xl_RD" id="3spXEPXI7Pm" role="37wK5m">
+          <property role="Xl_RC" value="dd.MM.yy" />
+        </node>
+      </node>
+    </node>
     <node concept="312cEg" id="3PmCowOXxd8" role="jymVt">
-      <property role="TrG5h" value="formatter" />
+      <property role="TrG5h" value="specialFormatter" />
       <node concept="3Tm6S6" id="3PmCowOXxd9" role="1B3o_S" />
       <node concept="3uibUv" id="3PmCowOXxd_" role="1tU5fm">
         <ref role="3uigEE" to="x5li:~DateTimeFormatter" resolve="DateTimeFormatter" />
       </node>
     </node>
-    <node concept="3clFbW" id="3PmCowOXxcW" role="jymVt">
-      <node concept="37vLTG" id="3PmCowOXxdp" role="3clF46">
-        <property role="TrG5h" value="format" />
-        <node concept="17QB3L" id="3PmCowOXxdr" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="3PmCowOXxcX" role="3clF45" />
-      <node concept="3Tm1VV" id="3PmCowOXxcY" role="1B3o_S" />
-      <node concept="3clFbS" id="3PmCowOXxcZ" role="3clF47">
-        <node concept="3clFbF" id="3PmCowOXxdi" role="3cqZAp">
-          <node concept="37vLTI" id="3PmCowOXxdv" role="3clFbG">
-            <node concept="2YIFZM" id="3spXEPXIQK3" role="37vLTx">
-              <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forPattern" />
-              <ref role="1Pybhc" to="28jr:3spXEPXIsOe" resolve="MoDateTimeFormatters" />
-              <node concept="37vLTw" id="3spXEPXIQK4" role="37wK5m">
-                <ref role="3cqZAo" node="3PmCowOXxdp" resolve="format" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="5hc8PGHPz1g" role="37vLTJ">
-              <ref role="3cqZAo" node="3PmCowOXxd8" resolve="formatter" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
+    <node concept="2tJIrI" id="4nSJmixBwDW" role="jymVt" />
     <node concept="3clFbW" id="3PmCowOXxdA" role="jymVt">
       <node concept="37vLTG" id="3PmCowOXxdE" role="3clF46">
-        <property role="TrG5h" value="dtf" />
-        <node concept="3uibUv" id="3PmCowOXxdG" role="1tU5fm">
-          <ref role="3uigEE" to="x5li:~DateTimeFormatter" resolve="DateTimeFormatter" />
-        </node>
+        <property role="TrG5h" value="format" />
+        <node concept="17QB3L" id="3hDHYkqIjnY" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="3PmCowOXxdB" role="3clF45" />
       <node concept="3Tm1VV" id="3PmCowOXxdC" role="1B3o_S" />
       <node concept="3clFbS" id="3PmCowOXxdD" role="3clF47">
-        <node concept="3clFbF" id="3PmCowOXxdH" role="3cqZAp">
-          <node concept="37vLTI" id="3PmCowOXxdL" role="3clFbG">
-            <node concept="37vLTw" id="5hc8PGHPzFJ" role="37vLTx">
-              <ref role="3cqZAo" node="3PmCowOXxdE" resolve="dtf" />
+        <node concept="3clFbH" id="3hDHYkqIjW0" role="3cqZAp" />
+        <node concept="3clFbJ" id="3hDHYkqIjth" role="3cqZAp">
+          <node concept="3clFbS" id="3hDHYkqIjtj" role="3clFbx">
+            <node concept="3clFbF" id="3hDHYkqIjG_" role="3cqZAp">
+              <node concept="37vLTI" id="3hDHYkqIjHp" role="3clFbG">
+                <node concept="37vLTw" id="3hDHYkqIjKn" role="37vLTx">
+                  <ref role="3cqZAo" node="ncJg$H916E" resolve="defaultTableDateOnlyFormatter" />
+                </node>
+                <node concept="37vLTw" id="3hDHYkqIjGz" role="37vLTJ">
+                  <ref role="3cqZAo" node="3PmCowOXxd8" resolve="specialFormatter" />
+                </node>
+              </node>
             </node>
-            <node concept="37vLTw" id="5hc8PGHPz2z" role="37vLTJ">
-              <ref role="3cqZAo" node="3PmCowOXxd8" resolve="formatter" />
+            <node concept="3clFbH" id="3hDHYkqIjV_" role="3cqZAp" />
+          </node>
+          <node concept="22lmx$" id="3hDHYkqIjxC" role="3clFbw">
+            <node concept="2OqwBi" id="3hDHYkqIj$m" role="3uHU7w">
+              <node concept="Xl_RD" id="3hDHYkqIjyw" role="2Oq$k0">
+                <property role="Xl_RC" value="" />
+              </node>
+              <node concept="liA8E" id="3hDHYkqIjDO" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="37vLTw" id="3hDHYkqIjEU" role="37wK5m">
+                  <ref role="3cqZAo" node="3PmCowOXxdE" resolve="format" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="3hDHYkqIjws" role="3uHU7B">
+              <node concept="37vLTw" id="3hDHYkqIju_" role="3uHU7B">
+                <ref role="3cqZAo" node="3PmCowOXxdE" resolve="format" />
+              </node>
+              <node concept="10Nm6u" id="3hDHYkqIjx0" role="3uHU7w" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="3hDHYkqIjUl" role="9aQIa">
+            <node concept="3clFbS" id="3hDHYkqIjUm" role="9aQI4">
+              <node concept="3clFbF" id="3PmCowOXxdH" role="3cqZAp">
+                <node concept="37vLTI" id="3PmCowOXxdL" role="3clFbG">
+                  <node concept="2YIFZM" id="3hDHYkqIkVr" role="37vLTx">
+                    <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forPattern" />
+                    <ref role="1Pybhc" to="28jr:3spXEPXIsOe" resolve="MoDateTimeFormatters" />
+                    <node concept="37vLTw" id="3hDHYkqIkWj" role="37wK5m">
+                      <ref role="3cqZAo" node="3PmCowOXxdE" resolve="format" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="5hc8PGHPz2z" role="37vLTJ">
+                    <ref role="3cqZAo" node="3PmCowOXxd8" resolve="specialFormatter" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="3hDHYkqIk3o" role="3cqZAp" />
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3hDHYkqIjs8" role="3cqZAp" />
       </node>
     </node>
     <node concept="3clFb_" id="3PmCowOXxd2" role="jymVt">
@@ -10273,7 +10383,7 @@
             <node concept="3cpWs6" id="4ZIUv21SySL" role="3cqZAp">
               <node concept="2OqwBi" id="4ZIUv21SySM" role="3cqZAk">
                 <node concept="37vLTw" id="5hc8PGHPz3o" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3PmCowOXxd8" resolve="formatter" />
+                  <ref role="3cqZAo" node="3PmCowOXxd8" resolve="specialFormatter" />
                 </node>
                 <node concept="liA8E" id="4ZIUv21SySO" role="2OqNvi">
                   <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -10310,7 +10420,7 @@
               <node concept="3cpWs6" id="3PmCowOXzpv" role="3cqZAp">
                 <node concept="2OqwBi" id="3PmCowOXxdT" role="3cqZAk">
                   <node concept="37vLTw" id="5hc8PGHPz5_" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3PmCowOXxd8" resolve="formatter" />
+                    <ref role="3cqZAo" node="3PmCowOXxd8" resolve="specialFormatter" />
                   </node>
                   <node concept="liA8E" id="3PmCowOXxdZ" role="2OqNvi">
                     <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadablePartial):java.lang.String" resolve="print" />

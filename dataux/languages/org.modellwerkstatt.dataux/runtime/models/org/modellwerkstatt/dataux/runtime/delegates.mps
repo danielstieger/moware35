@@ -1713,8 +1713,16 @@
         <node concept="3clFbF" id="1YFjUjHVV42" role="3cqZAp">
           <node concept="1rXfSq" id="1YFjUjHVV41" role="3clFbG">
             <ref role="37wK5l" node="1YFjUjHVeeC" resolve="setSuggestionFieldFormat" />
-            <node concept="37vLTw" id="1YFjUjHVV58" role="37wK5m">
-              <ref role="3cqZAo" node="1YFjUjHVUnV" resolve="frmt" />
+            <node concept="2OqwBi" id="3hDHYkqGlrQ" role="37wK5m">
+              <node concept="37vLTw" id="1YFjUjHVV58" role="2Oq$k0">
+                <ref role="3cqZAo" node="1YFjUjHVUnV" resolve="frmt" />
+              </node>
+              <node concept="liA8E" id="3hDHYkqGlvn" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                <node concept="Xl_RD" id="3hDHYkqGlQ3" role="37wK5m">
+                  <property role="Xl_RC" value="," />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -1864,31 +1872,14 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setSuggestionFieldFormat" />
       <node concept="37vLTG" id="1YFjUjHVeeD" role="3clF46">
-        <property role="TrG5h" value="format" />
-        <node concept="17QB3L" id="1YFjUjHVeeE" role="1tU5fm" />
+        <property role="TrG5h" value="elements" />
+        <node concept="10Q1$e" id="3hDHYkqGkt$" role="1tU5fm">
+          <node concept="17QB3L" id="1YFjUjHVeeE" role="10Q1$1" />
+        </node>
       </node>
       <node concept="3cqZAl" id="1YFjUjHVeeF" role="3clF45" />
       <node concept="3Tm1VV" id="1YFjUjHVeeG" role="1B3o_S" />
       <node concept="3clFbS" id="1YFjUjHVeeI" role="3clF47">
-        <node concept="3cpWs8" id="3KDG5JVyeuU" role="3cqZAp">
-          <node concept="3cpWsn" id="3KDG5JVyeuV" role="3cpWs9">
-            <property role="TrG5h" value="elements" />
-            <node concept="10Q1$e" id="3KDG5JVyeva" role="1tU5fm">
-              <node concept="17QB3L" id="3KDG5JVyeuW" role="10Q1$1" />
-            </node>
-            <node concept="2OqwBi" id="3KDG5JVyev1" role="33vP2m">
-              <node concept="37vLTw" id="fdGRoMYQJ1" role="2Oq$k0">
-                <ref role="3cqZAo" node="1YFjUjHVeeD" resolve="format" />
-              </node>
-              <node concept="liA8E" id="3KDG5JVyev7" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
-                <node concept="Xl_RD" id="3KDG5JVyev9" role="37wK5m">
-                  <property role="Xl_RC" value="," />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="3KDG5JVyetq" role="3cqZAp">
           <node concept="37vLTI" id="3KDG5JVyetu" role="3clFbG">
             <node concept="37vLTw" id="fdGRoMYPSV" role="37vLTJ">
@@ -1909,8 +1900,8 @@
             <node concept="X8dFx" id="3KDG5JVyevv" role="2OqNvi">
               <node concept="2OqwBi" id="3KDG5JVyevX" role="25WWJ7">
                 <node concept="2OqwBi" id="3KDG5JVyev$" role="2Oq$k0">
-                  <node concept="37vLTw" id="fdGRoMYQqJ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3KDG5JVyeuV" resolve="elements" />
+                  <node concept="37vLTw" id="3hDHYkqGlb$" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1YFjUjHVeeD" resolve="elements" />
                   </node>
                   <node concept="39bAoz" id="3KDG5JVyevE" role="2OqNvi" />
                 </node>
