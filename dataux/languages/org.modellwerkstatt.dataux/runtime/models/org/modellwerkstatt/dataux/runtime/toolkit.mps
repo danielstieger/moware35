@@ -971,7 +971,7 @@
       <node concept="37vLTG" id="1kThbup1HGs" role="3clF46">
         <property role="TrG5h" value="converter" />
         <node concept="3uibUv" id="1KgqQuB_mrZ" role="1tU5fm">
-          <ref role="3uigEE" to="ache:3PmCowOXue4" resolve="I2StringConverter_TWO" />
+          <ref role="3uigEE" to="5wm0:3PmCowOXue4" resolve="ITableCellStringConverter" />
         </node>
       </node>
       <node concept="37vLTG" id="1kThbup1HGv" role="3clF46">
@@ -981,6 +981,10 @@
       <node concept="37vLTG" id="7fo5K04TzGZ" role="3clF46">
         <property role="TrG5h" value="editable" />
         <node concept="10P_77" id="7fo5K04TzHi" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4Sq2cvDpd$v" role="3clF46">
+        <property role="TrG5h" value="folded" />
+        <node concept="10P_77" id="4Sq2cvDpdAE" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="dX9tEwAk0E" role="3clF45" />
       <node concept="3Tm1VV" id="dX9tEwAk0F" role="1B3o_S" />

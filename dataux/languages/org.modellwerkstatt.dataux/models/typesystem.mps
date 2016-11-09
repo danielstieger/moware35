@@ -761,6 +761,42 @@
   <node concept="18kY7G" id="7rG0OCdj3vo">
     <property role="TrG5h" value="check_Include" />
     <node concept="3clFbS" id="7rG0OCdj3vp" role="18ibNy">
+      <node concept="3clFbJ" id="4Sq2cvDrYrA" role="3cqZAp">
+        <node concept="3clFbS" id="4Sq2cvDrYrB" role="3clFbx">
+          <node concept="2MkqsV" id="4Sq2cvDrYrC" role="3cqZAp">
+            <node concept="Xl_RD" id="4Sq2cvDrYrD" role="2MkJ7o">
+              <property role="Xl_RC" value="An include needs to be bound on an object." />
+            </node>
+            <node concept="1YBJjd" id="4Sq2cvDrYJl" role="2OEOjV">
+              <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="4Sq2cvDrYrF" role="3clFbw">
+          <node concept="3fqX7Q" id="4Sq2cvDrYrG" role="3uHU7w">
+            <node concept="2OqwBi" id="4Sq2cvDrYrH" role="3fr31v">
+              <node concept="1YBJjd" id="4Sq2cvDrYGy" role="2Oq$k0">
+                <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
+              </node>
+              <node concept="2qgKlT" id="4Sq2cvDrYrJ" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:7rG0OCcGP9m" resolve="isBoundOnProperty" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="4Sq2cvDrYrK" role="3uHU7B">
+            <node concept="2OqwBi" id="4Sq2cvDrYrL" role="3fr31v">
+              <node concept="1YBJjd" id="4Sq2cvDrYBJ" role="2Oq$k0">
+                <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
+              </node>
+              <node concept="2qgKlT" id="4Sq2cvDrYrN" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:6I37UbA_FUV" resolve="isClassGivenNoProperty" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="4Sq2cvDrYcu" role="3cqZAp" />
+      <node concept="3clFbH" id="4Sq2cvDrYj$" role="3cqZAp" />
       <node concept="3clFbJ" id="7rG0OCdj3vv" role="3cqZAp">
         <node concept="2OqwBi" id="7rG0OCdj3JV" role="3clFbw">
           <node concept="2OqwBi" id="7rG0OCdj3yw" role="2Oq$k0">
@@ -1264,7 +1300,7 @@
               <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
             </node>
             <node concept="2qgKlT" id="1XvF7fQ$nEd" role="2OqNvi">
-              <ref role="37wK5l" to="5y3p:6I37UbASwgA" resolve="isSingleChildOfPagePange" />
+              <ref role="37wK5l" to="5y3p:6I37UbASwgA" resolve="isSingleChildOfPagePangeOrOnFirstLevel" />
             </node>
           </node>
           <node concept="2OqwBi" id="1XvF7fQ$lAX" role="3uHU7B">
@@ -2380,7 +2416,7 @@
     </node>
     <node concept="1YaCAy" id="7GLJ9Y9kEyH" role="1YuTPh">
       <property role="TrG5h" value="summaryLineFOption" />
-      <ref role="1YaFvo" to="1btx:pQ21WNrhSk" resolve="SummaryLineFOption" />
+      <ref role="1YaFvo" to="1btx:pQ21WNrhSk" resolve="SelectionSummaryLineFOption" />
     </node>
   </node>
   <node concept="1YbPZF" id="7GLJ9Y9kJRl">
