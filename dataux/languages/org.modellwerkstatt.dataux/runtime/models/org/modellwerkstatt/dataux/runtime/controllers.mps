@@ -126,6 +126,7 @@
         <property id="1240249534625" name="isVolatile" index="34CwA1" />
       </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <property id="1075300953594" name="abstractClass" index="1sVAO0" />
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
@@ -664,13 +665,13 @@
       <node concept="3Tmbuc" id="3972coxdH7w" role="1B3o_S" />
       <node concept="_YKpA" id="3972coxdH7x" role="1tU5fm">
         <node concept="3uibUv" id="3VIcZtBjaiO" role="_ZDj9">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
         </node>
       </node>
       <node concept="2ShNRf" id="3972coxdH7z" role="33vP2m">
         <node concept="Tc6Ow" id="3972coxdH7$" role="2ShVmc">
           <node concept="3uibUv" id="3VIcZtBjcYp" role="HW$YZ">
-            <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+            <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
           </node>
         </node>
       </node>
@@ -1415,7 +1416,7 @@
       <node concept="37vLTG" id="3972coxdGU_" role="3clF46">
         <property role="TrG5h" value="uxElemToRegister" />
         <node concept="3uibUv" id="3VIcZtBjfwy" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
         </node>
       </node>
     </node>
@@ -1522,7 +1523,7 @@
       <node concept="37vLTG" id="3972coxdGVl" role="3clF46">
         <property role="TrG5h" value="view" />
         <node concept="3uibUv" id="3VIcZtBlqpy" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
         </node>
       </node>
       <node concept="2AHcQZ" id="5SSJEYs6Nbv" role="2AJF6D">
@@ -3041,7 +3042,7 @@
       <node concept="37vLTG" id="3972coxdH2P" role="3clF46">
         <property role="TrG5h" value="view" />
         <node concept="3uibUv" id="3VIcZtBjgZK" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
         </node>
       </node>
     </node>
@@ -3372,7 +3373,7 @@
       <node concept="37vLTG" id="1U$SEukzx7n" role="3clF46">
         <property role="TrG5h" value="type" />
         <node concept="3uibUv" id="1U$SEukzBEX" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:1U$SEukhb5D" resolve="ISelControlled.Type" />
+          <ref role="3uigEE" to="yg8v:1U$SEukhb5D" resolve="IGenSelControlled.Type" />
         </node>
       </node>
       <node concept="3clFbS" id="1U$SEukvTQN" role="3clF47">
@@ -3380,7 +3381,7 @@
           <node concept="3cpWsn" id="1U$SEukwM_k" role="1Duv9x">
             <property role="TrG5h" value="crtl" />
             <node concept="3uibUv" id="1U$SEukwMMv" role="1tU5fm">
-              <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+              <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
             </node>
           </node>
           <node concept="3clFbS" id="1U$SEukwM_l" role="2LFqv$">
@@ -5201,7 +5202,7 @@
       <node concept="37vLTG" id="1aW6f0OgXtI" role="3clF46">
         <property role="TrG5h" value="xuElemToRegister" />
         <node concept="3uibUv" id="3VIcZtBjEOZ" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
         </node>
       </node>
     </node>
@@ -5293,6 +5294,7 @@
   </node>
   <node concept="312cEu" id="3972coxdHhr">
     <property role="TrG5h" value="PagePaneCrtl" />
+    <property role="1sVAO0" value="true" />
     <node concept="3Tm1VV" id="3972coxdHoD" role="1B3o_S" />
     <node concept="16euLQ" id="3972coxdHp3" role="16eVyc">
       <property role="TrG5h" value="T" />
@@ -5324,7 +5326,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="4mX9Xgfx7cr" role="1B3o_S" />
       <node concept="3uibUv" id="75iQIE9aAzq" role="1tU5fm">
-        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
       </node>
     </node>
     <node concept="312cEg" id="1U$SEukfIEe" role="jymVt">
@@ -5334,7 +5336,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="1U$SEukfIEf" role="1B3o_S" />
       <node concept="3uibUv" id="1U$SEukfIEg" role="1tU5fm">
-        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
       </node>
     </node>
     <node concept="312cEg" id="1U$SEukfC4_" role="jymVt">
@@ -6222,7 +6224,7 @@
       <node concept="37vLTG" id="3972coxdHk1" role="3clF46">
         <property role="TrG5h" value="viewToRegister" />
         <node concept="3uibUv" id="6lKlDPcJJ_y" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
         </node>
       </node>
       <node concept="3clFbS" id="3972coxdHk5" role="3clF47">
@@ -6539,7 +6541,7 @@
                 <ref role="37wK5l" node="1U$SEukvTQK" resolve="containsFormCrtlOfType" />
                 <node concept="Rm8GO" id="1U$SEuk_Y3a" role="37wK5m">
                   <ref role="Rm8GQ" to="yg8v:1U$SEukhbh0" resolve="TableForm" />
-                  <ref role="1Px2BO" to="yg8v:1U$SEukhb5D" resolve="ISelControlled.Type" />
+                  <ref role="1Px2BO" to="yg8v:1U$SEukhb5D" resolve="IGenSelControlled.Type" />
                 </node>
               </node>
             </node>
@@ -7677,7 +7679,7 @@
               <node concept="37vLTG" id="5SSJEYs9IJj" role="3clF46">
                 <property role="TrG5h" value="xuElemToRegister" />
                 <node concept="3uibUv" id="5SSJEYs9IJk" role="1tU5fm">
-                  <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+                  <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
                 </node>
               </node>
               <node concept="3clFbS" id="5SSJEYs9IJm" role="3clF47">
@@ -11764,7 +11766,7 @@
       <node concept="3Tm6S6" id="4XXgpAARlKD" role="1B3o_S" />
       <node concept="_YKpA" id="4XXgpAARlPR" role="1tU5fm">
         <node concept="3uibUv" id="4XXgpAARlYo" role="_ZDj9">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
         </node>
       </node>
     </node>
@@ -11998,7 +12000,7 @@
             <node concept="2ShNRf" id="4XXgpAAVeTH" role="37vLTx">
               <node concept="Tc6Ow" id="4XXgpAAVeS9" role="2ShVmc">
                 <node concept="3uibUv" id="4XXgpAAVeSa" role="HW$YZ">
-                  <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="ISelControlled" />
+                  <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
                 </node>
               </node>
             </node>
@@ -14760,7 +14762,7 @@
                   <ref role="3cqZAo" node="4XXgpAARQjr" resolve="pagePane" />
                 </node>
                 <node concept="liA8E" id="4XXgpAAVk51" role="2OqNvi">
-                  <ref role="37wK5l" to="yg8v:2zlKbqjrMvy" resolve="initialize" />
+                  <ref role="37wK5l" to="yg8v:2zlKbqjrMvy" resolve="initializeGen" />
                   <node concept="37vLTw" id="5SSJEYsa0Ki" role="37wK5m">
                     <ref role="3cqZAo" node="4de9a6xREVA" resolve="pageController" />
                   </node>

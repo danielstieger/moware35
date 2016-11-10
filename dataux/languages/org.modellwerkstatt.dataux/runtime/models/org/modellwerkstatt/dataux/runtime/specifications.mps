@@ -346,7 +346,7 @@
     <node concept="3Tm1VV" id="Y3fiVK$o2o" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="3VIcZtBehi$">
-    <property role="TrG5h" value="ISelControlled" />
+    <property role="TrG5h" value="IGenSelControlled" />
     <node concept="2tJIrI" id="3VIcZtBeosn" role="jymVt" />
     <node concept="3clFb_" id="3VIcZtBeokR" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -407,30 +407,6 @@
     </node>
     <node concept="2tJIrI" id="3VIcZtBelFU" role="jymVt" />
     <node concept="2tJIrI" id="3VIcZtBeozF" role="jymVt" />
-    <node concept="3clFb_" id="2zlKbqjrMw9" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getElementClass" />
-      <node concept="3uibUv" id="2zlKbqjrMwa" role="3clF45">
-        <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
-      </node>
-      <node concept="3Tm1VV" id="2zlKbqjrMwb" role="1B3o_S" />
-      <node concept="3clFbS" id="2zlKbqjrMwc" role="3clF47" />
-      <node concept="P$JXv" id="2zlKbqjrMwd" role="lGtFl">
-        <node concept="TZ5HA" id="2zlKbqjrMwe" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMwf" role="1dT_Ay">
-            <property role="1dT_AB" value="Used to configure the root selection controller " />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="2zlKbqjrMwg" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMwh" role="1dT_Ay">
-            <property role="1dT_AB" value="in TabWizzard or SheetWizzard" />
-          </node>
-        </node>
-        <node concept="x79VA" id="2zlKbqjrMwi" role="3nqlJM">
-          <property role="x79VB" value="type of bound objects" />
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="2zlKbqjrMw3" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setSelectionController" />
@@ -443,40 +419,6 @@
       <node concept="3cqZAl" id="2zlKbqjrMw6" role="3clF45" />
       <node concept="3Tm1VV" id="2zlKbqjrMw7" role="1B3o_S" />
       <node concept="3clFbS" id="2zlKbqjrMw8" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="2zlKbqjrMwj" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getSelectionController" />
-      <node concept="3uibUv" id="3VIcZtBjEvc" role="3clF45">
-        <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="IFSelectionController" />
-      </node>
-      <node concept="3Tm1VV" id="2zlKbqjrMwl" role="1B3o_S" />
-      <node concept="3clFbS" id="2zlKbqjrMwm" role="3clF47" />
-      <node concept="P$JXv" id="2zlKbqjrMwn" role="lGtFl">
-        <node concept="TZ5HA" id="2zlKbqjrMwo" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMwp" role="1dT_Ay">
-            <property role="1dT_AB" value="Used to access selection controller in" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="2zlKbqjrMwq" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMwr" role="1dT_Ay">
-            <property role="1dT_AB" value="TabWizzard and SheetWizzard (trigger save and validate?)" />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="2zlKbqjrMws" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMwt" role="1dT_Ay">
-            <property role="1dT_AB" value="-&gt; Could be triggerd on RootSelectionController too since " />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="2zlKbqjrMwu" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMwv" role="1dT_Ay">
-            <property role="1dT_AB" value="   it is available in TabWizzard and SheetWizzard !!" />
-          </node>
-        </node>
-        <node concept="x79VA" id="2zlKbqjrMww" role="3nqlJM">
-          <property role="x79VB" value=" " />
-        </node>
-      </node>
     </node>
     <node concept="3clFb_" id="2zlKbqjrMwK" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -541,6 +483,61 @@
       <node concept="3clFbS" id="3lzuRM8pxlR" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="3lzuRM8px8U" role="jymVt" />
+    <node concept="3clFb_" id="2zlKbqjrMvy" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="initializeGen" />
+      <node concept="3cqZAl" id="2zlKbqjrMvz" role="3clF45" />
+      <node concept="3Tm1VV" id="2zlKbqjrMv$" role="1B3o_S" />
+      <node concept="3clFbS" id="2zlKbqjrMv_" role="3clF47" />
+      <node concept="37vLTG" id="2zlKbqjrMvA" role="3clF46">
+        <property role="TrG5h" value="pageController" />
+        <node concept="3uibUv" id="3VIcZtBjEzR" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="IFSelectionController" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2zlKbqjrMvC" role="3clF46">
+        <property role="TrG5h" value="outerBinding" />
+        <node concept="3uibUv" id="5SSJEYs8A1R" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:5SSJEYs7zNX" resolve="IFSelectionController.Binding" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3VIcZtBeC26" role="3clF46">
+        <property role="TrG5h" value="commandContainer" />
+        <node concept="3uibUv" id="7aUgYCzpRBb" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+        </node>
+      </node>
+      <node concept="P$JXv" id="2zlKbqjrMvI" role="lGtFl">
+        <node concept="TZ5HA" id="2zlKbqjrMvJ" role="TZ5H$">
+          <node concept="1dT_AC" id="2zlKbqjrMvK" role="1dT_Ay">
+            <property role="1dT_AB" value="Should not only registger binding, but also setup of selection controller and " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="2zlKbqjrMvL" role="TZ5H$">
+          <node concept="1dT_AC" id="2zlKbqjrMvM" role="1dT_Ay">
+            <property role="1dT_AB" value="instantiation of view ? " />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2zlKbqjrMvN" role="3nqlJM">
+          <property role="TUZQ4" value=" " />
+          <node concept="zr_55" id="2zlKbqjrMvO" role="zr_5Q">
+            <ref role="zr_51" node="2zlKbqjrMvA" resolve="pageController" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="2zlKbqjrMvP" role="3nqlJM">
+          <property role="TUZQ4" value=" " />
+          <node concept="zr_55" id="2zlKbqjrMvQ" role="zr_5Q">
+            <ref role="zr_51" node="2zlKbqjrMvC" resolve="outerBinding" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3VIcZtBeC9N" role="3nqlJM">
+          <property role="TUZQ4" value="reference to container and running command" />
+          <node concept="zr_55" id="3VIcZtBeCaX" role="zr_5Q">
+            <ref role="zr_51" node="3VIcZtBeC26" resolve="commandContainer" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="3lzuRM8pxbg" role="jymVt" />
     <node concept="3clFb_" id="4RDimilqv5Z" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -578,7 +575,7 @@
       <node concept="3Tm1VV" id="1U$SEukhc86" role="1B3o_S" />
       <node concept="3clFbS" id="1U$SEukhc87" role="3clF47" />
       <node concept="3uibUv" id="1U$SEukhcQk" role="3clF45">
-        <ref role="3uigEE" node="1U$SEukhb5D" resolve="ISelControlled.Type" />
+        <ref role="3uigEE" node="1U$SEukhb5D" resolve="IGenSelControlled.Type" />
       </node>
     </node>
     <node concept="2tJIrI" id="1U$SEukhbK0" role="jymVt" />
@@ -1728,92 +1725,6 @@
     <node concept="3Tm1VV" id="Y3fiVJM09K" role="1B3o_S" />
     <node concept="3uibUv" id="Y3fiVJM0ad" role="1zkMxy">
       <ref role="3uigEE" node="Y3fiVJLYpP" resolve="FMenuItem" />
-    </node>
-  </node>
-  <node concept="3HP615" id="4Sq2cvDqkwH">
-    <property role="TrG5h" value="IGen_UxElement" />
-    <node concept="2tJIrI" id="4Sq2cvDrnFV" role="jymVt" />
-    <node concept="3clFb_" id="2zlKbqjrMvy" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="initialize" />
-      <node concept="3cqZAl" id="2zlKbqjrMvz" role="3clF45" />
-      <node concept="3Tm1VV" id="2zlKbqjrMv$" role="1B3o_S" />
-      <node concept="3clFbS" id="2zlKbqjrMv_" role="3clF47" />
-      <node concept="37vLTG" id="2zlKbqjrMvA" role="3clF46">
-        <property role="TrG5h" value="pageController" />
-        <node concept="3uibUv" id="3VIcZtBjEzR" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="IFSelectionController" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="2zlKbqjrMvC" role="3clF46">
-        <property role="TrG5h" value="outerBinding" />
-        <node concept="3uibUv" id="5SSJEYs8A1R" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:5SSJEYs7zNX" resolve="IFSelectionController.Binding" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="3VIcZtBeC26" role="3clF46">
-        <property role="TrG5h" value="commandContainer" />
-        <node concept="3uibUv" id="7aUgYCzpRBb" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
-        </node>
-      </node>
-      <node concept="P$JXv" id="2zlKbqjrMvI" role="lGtFl">
-        <node concept="TZ5HA" id="2zlKbqjrMvJ" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMvK" role="1dT_Ay">
-            <property role="1dT_AB" value="Should not only registger binding, but also setup of selection controller and " />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="2zlKbqjrMvL" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMvM" role="1dT_Ay">
-            <property role="1dT_AB" value="instantiation of view ? " />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2zlKbqjrMvN" role="3nqlJM">
-          <property role="TUZQ4" value=" " />
-          <node concept="zr_55" id="2zlKbqjrMvO" role="zr_5Q">
-            <ref role="zr_51" node="2zlKbqjrMvA" resolve="pageController" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2zlKbqjrMvP" role="3nqlJM">
-          <property role="TUZQ4" value=" " />
-          <node concept="zr_55" id="2zlKbqjrMvQ" role="zr_5Q">
-            <ref role="zr_51" node="2zlKbqjrMvC" resolve="outerBinding" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="3VIcZtBeC9N" role="3nqlJM">
-          <property role="TUZQ4" value="reference to container and running command" />
-          <node concept="zr_55" id="3VIcZtBeCaX" role="zr_5Q">
-            <ref role="zr_51" node="3VIcZtBeC26" resolve="commandContainer" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="5SSJEYsnOrm" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getToolkitImplementation" />
-      <node concept="3uibUv" id="5SSJEYsnOrn" role="3clF45">
-        <ref role="3uigEE" to="250q:3VIcZtBcFQd" resolve="IToolkit_Form" />
-      </node>
-      <node concept="3Tm1VV" id="5SSJEYsnOro" role="1B3o_S" />
-      <node concept="3clFbS" id="5SSJEYsnOrp" role="3clF47" />
-    </node>
-    <node concept="3Tm1VV" id="4Sq2cvDqkwI" role="1B3o_S" />
-    <node concept="3clFb_" id="5SSJEYsoL4b" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="gcClear" />
-      <node concept="3cqZAl" id="5SSJEYsoL4c" role="3clF45" />
-      <node concept="3Tm1VV" id="5SSJEYsoL4d" role="1B3o_S" />
-      <node concept="3clFbS" id="5SSJEYsoL4e" role="3clF47" />
-    </node>
-  </node>
-  <node concept="3HP615" id="5SSJEYsa32F">
-    <property role="TrG5h" value="IGen_PagePane" />
-    <node concept="3Tm1VV" id="5SSJEYsa32G" role="1B3o_S" />
-    <node concept="3uibUv" id="5SSJEYsa3cg" role="3HQHJm">
-      <ref role="3uigEE" node="4Sq2cvDqkwH" resolve="IGen_UxElement" />
-    </node>
-    <node concept="3uibUv" id="5SSJEYsa3eX" role="3HQHJm">
-      <ref role="3uigEE" node="3VIcZtBehi$" resolve="ISelControlled" />
     </node>
   </node>
 </model>
