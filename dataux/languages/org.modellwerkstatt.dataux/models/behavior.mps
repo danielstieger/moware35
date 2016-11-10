@@ -1013,10 +1013,35 @@
     <node concept="13i0hz" id="1XvF7fQ$i10" role="13h7CS">
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="true" />
-      <property role="TrG5h" value="isDynamicallyBound" />
+      <property role="TrG5h" value="isTypedNotBound" />
       <node concept="3Tm1VV" id="1XvF7fQ$i11" role="1B3o_S" />
       <node concept="10P_77" id="1XvF7fQ$i12" role="3clF45" />
       <node concept="3clFbS" id="1XvF7fQ$i13" role="3clF47">
+        <node concept="3SKdUt" id="5SSJEYsi5oz" role="3cqZAp">
+          <node concept="3SKdUq" id="5SSJEYsi5o_" role="3SKWNk">
+            <property role="3SKdUp" value="Todo: Refactor this lang" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="5SSJEYsi5rI" role="3cqZAp">
+          <node concept="3SKdUq" id="5SSJEYsi5rK" role="3SKWNk">
+            <property role="3SKdUp" value="- check more against is typed not bound ... i.e. in checking rules" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="5SSJEYsi64k" role="3cqZAp">
+          <node concept="3SKdUq" id="5SSJEYsi64m" role="3SKWNk">
+            <property role="3SKdUp" value="- ILayout is always typed - never bound" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="5SSJEYsi6cY" role="3cqZAp">
+          <node concept="3SKdUq" id="5SSJEYsi6d0" role="3SKWNk">
+            <property role="3SKdUp" value="- Include is always bound, never typed" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="5SSJEYsi6qK" role="3cqZAp">
+          <node concept="3SKdUq" id="5SSJEYsi6qM" role="3SKWNk">
+            <property role="3SKdUp" value="- DelegeteForm / Table are typically bound, but typed in case of root elems! " />
+          </node>
+        </node>
         <node concept="3clFbF" id="1XvF7fQ$i$q" role="3cqZAp">
           <node concept="2OqwBi" id="1XvF7fQ$iBa" role="3clFbG">
             <node concept="13iPFW" id="1XvF7fQ$i$p" role="2Oq$k0" />
@@ -1493,6 +1518,52 @@
         <ref role="2I9WkF" to="1btx:6MSPLZmFwYc" resolve="LayoutWeight" />
       </node>
     </node>
+    <node concept="13i0hz" id="5SSJEYseG9_" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getReadableDescription" />
+      <ref role="13i0hy" node="3Jaea__Tr4T" resolve="getReadableDescription" />
+      <node concept="3Tm1VV" id="5SSJEYseG9A" role="1B3o_S" />
+      <node concept="3clFbS" id="5SSJEYseG9D" role="3clF47">
+        <node concept="3clFbJ" id="5SSJEYseGhH" role="3cqZAp">
+          <node concept="BsUDl" id="5SSJEYseGhI" role="3clFbw">
+            <ref role="37wK5l" node="7Cs1IG3kH_v" resolve="isRootWhichNeedsName" />
+          </node>
+          <node concept="3clFbS" id="5SSJEYseGhJ" role="3clFbx">
+            <node concept="3clFbJ" id="5SSJEYseGhK" role="3cqZAp">
+              <node concept="3clFbS" id="5SSJEYseGhL" role="3clFbx">
+                <node concept="3cpWs6" id="5SSJEYseGhM" role="3cqZAp">
+                  <node concept="Xl_RD" id="5SSJEYseGhN" role="3cqZAk">
+                    <property role="Xl_RC" value="list&lt;&gt; of" />
+                  </node>
+                </node>
+              </node>
+              <node concept="BsUDl" id="5SSJEYseGhO" role="3clFbw">
+                <ref role="37wK5l" node="6I37UbA_FUV" resolve="isClassGivenNoProperty" />
+              </node>
+              <node concept="3eNFk2" id="5SSJEYseGhP" role="3eNLev">
+                <node concept="BsUDl" id="5SSJEYseGhQ" role="3eO9$A">
+                  <ref role="37wK5l" node="7rG0OCcGP9m" resolve="isBoundOnProperty" />
+                </node>
+                <node concept="3clFbS" id="5SSJEYseGhR" role="3eOfB_">
+                  <node concept="3cpWs6" id="5SSJEYseGhS" role="3cqZAp">
+                    <node concept="Xl_RD" id="5SSJEYseGhT" role="3cqZAk">
+                      <property role="Xl_RC" value="list&lt;&gt; from selected object" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5SSJEYseGhU" role="3cqZAp">
+          <node concept="Xl_RD" id="5SSJEYseGhV" role="3cqZAk">
+            <property role="Xl_RC" value="" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="5SSJEYseG9E" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="2zZnBEDxQGs">
     <ref role="13h7C2" to="1btx:6MSPLZmFnKD" resolve="Table" />
@@ -1844,7 +1915,7 @@
       <property role="13i0iv" value="false" />
       <property role="13i0it" value="false" />
       <property role="TrG5h" value="isDynamicallyBound" />
-      <ref role="13i0hy" node="1XvF7fQ$i10" resolve="isDynamicallyBound" />
+      <ref role="13i0hy" node="1XvF7fQ$i10" resolve="isTypedNotBound" />
       <node concept="3Tm1VV" id="4nSJmixzYFX" role="1B3o_S" />
       <node concept="3clFbS" id="4nSJmixzYG4" role="3clF47">
         <node concept="3clFbF" id="4nSJmix$04_" role="3cqZAp">

@@ -245,6 +245,9 @@
     <node concept="PrWs8" id="2zZnBEDxFzI" role="PrDN$">
       <ref role="PrY4T" node="2zZnBEDxDjf" resolve="IUxElement" />
     </node>
+    <node concept="PrWs8" id="5SSJEYseETF" role="PrDN$">
+      <ref role="PrY4T" node="4ChSTKTge26" resolve="IBindable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6MSPLZmFqdA">
     <property role="1pbfSe" value="1130789509" />

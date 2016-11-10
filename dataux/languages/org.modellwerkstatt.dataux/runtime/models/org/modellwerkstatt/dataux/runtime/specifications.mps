@@ -344,7 +344,7 @@
     <node concept="3Tm1VV" id="Y3fiVK$o2o" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="3VIcZtBehi$">
-    <property role="TrG5h" value="IUxElemSelectionCrtl" />
+    <property role="TrG5h" value="ISelControlled" />
     <node concept="2tJIrI" id="3VIcZtBeosn" role="jymVt" />
     <node concept="2tJIrI" id="3VIcZtBeou0" role="jymVt" />
     <node concept="3clFb_" id="3VIcZtBeokR" role="jymVt">
@@ -406,100 +406,6 @@
     </node>
     <node concept="2tJIrI" id="3VIcZtBelFU" role="jymVt" />
     <node concept="2tJIrI" id="3VIcZtBeozF" role="jymVt" />
-    <node concept="3clFb_" id="2zlKbqjrMvy" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="registerBinding" />
-      <node concept="3cqZAl" id="2zlKbqjrMvz" role="3clF45" />
-      <node concept="3Tm1VV" id="2zlKbqjrMv$" role="1B3o_S" />
-      <node concept="3clFbS" id="2zlKbqjrMv_" role="3clF47" />
-      <node concept="37vLTG" id="2zlKbqjrMvA" role="3clF46">
-        <property role="TrG5h" value="rootController" />
-        <node concept="3uibUv" id="3VIcZtBjEzR" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="IFSelectionController" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="2zlKbqjrMvC" role="3clF46">
-        <property role="TrG5h" value="SelectedObject" />
-        <node concept="3uibUv" id="2zlKbqjrMvD" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="2zlKbqjrMvE" role="3clF46">
-        <property role="TrG5h" value="propertyName" />
-        <node concept="17QB3L" id="2zlKbqjrMvF" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="2zlKbqjrMvG" role="3clF46">
-        <property role="TrG5h" value="parent" />
-        <node concept="3uibUv" id="3VIcZtBjECs" role="1tU5fm">
-          <ref role="3uigEE" node="3VIcZtBehi$" resolve="IUxElemSelectionCrtl" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="3VIcZtBeC26" role="3clF46">
-        <property role="TrG5h" value="commandContainer" />
-        <node concept="3uibUv" id="7aUgYCzpRBb" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
-        </node>
-      </node>
-      <node concept="P$JXv" id="2zlKbqjrMvI" role="lGtFl">
-        <node concept="TZ5HA" id="2zlKbqjrMvJ" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMvK" role="1dT_Ay">
-            <property role="1dT_AB" value="Should not only registger binding, but also setup of selection controller and " />
-          </node>
-        </node>
-        <node concept="TZ5HA" id="2zlKbqjrMvL" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMvM" role="1dT_Ay">
-            <property role="1dT_AB" value="instantiation of view ? " />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2zlKbqjrMvN" role="3nqlJM">
-          <property role="TUZQ4" value=" " />
-          <node concept="zr_55" id="2zlKbqjrMvO" role="zr_5Q">
-            <ref role="zr_51" node="2zlKbqjrMvA" resolve="rootController" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2zlKbqjrMvP" role="3nqlJM">
-          <property role="TUZQ4" value=" " />
-          <node concept="zr_55" id="2zlKbqjrMvQ" role="zr_5Q">
-            <ref role="zr_51" node="2zlKbqjrMvC" resolve="SelectedObject" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2zlKbqjrMvR" role="3nqlJM">
-          <property role="TUZQ4" value=" " />
-          <node concept="zr_55" id="2zlKbqjrMvS" role="zr_5Q">
-            <ref role="zr_51" node="2zlKbqjrMvE" resolve="propertyName" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="2zlKbqjrMvT" role="3nqlJM">
-          <property role="TUZQ4" value=" " />
-          <node concept="zr_55" id="2zlKbqjrMvU" role="zr_5Q">
-            <ref role="zr_51" node="2zlKbqjrMvG" resolve="parent" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="3VIcZtBeC9N" role="3nqlJM">
-          <property role="TUZQ4" value="reference to container and running command" />
-          <node concept="zr_55" id="3VIcZtBeCaX" role="zr_5Q">
-            <ref role="zr_51" node="3VIcZtBeC26" resolve="commandContainer" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="2zlKbqjrMvV" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getName" />
-      <node concept="17QB3L" id="2zlKbqjrMvW" role="3clF45" />
-      <node concept="3Tm1VV" id="2zlKbqjrMvX" role="1B3o_S" />
-      <node concept="3clFbS" id="2zlKbqjrMvY" role="3clF47" />
-      <node concept="P$JXv" id="2zlKbqjrMvZ" role="lGtFl">
-        <node concept="TZ5HA" id="2zlKbqjrMw0" role="TZ5H$">
-          <node concept="1dT_AC" id="2zlKbqjrMw1" role="1dT_Ay">
-            <property role="1dT_AB" value="Name of form, used for debug purpose only. " />
-          </node>
-        </node>
-        <node concept="x79VA" id="2zlKbqjrMw2" role="3nqlJM">
-          <property role="x79VB" value="name" />
-        </node>
-      </node>
-    </node>
     <node concept="3clFb_" id="2zlKbqjrMw9" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getElementClass" />
@@ -658,7 +564,7 @@
       <node concept="3Tm1VV" id="1U$SEukhc86" role="1B3o_S" />
       <node concept="3clFbS" id="1U$SEukhc87" role="3clF47" />
       <node concept="3uibUv" id="1U$SEukhcQk" role="3clF45">
-        <ref role="3uigEE" node="1U$SEukhb5D" resolve="IUxElemSelectionCrtl.Type" />
+        <ref role="3uigEE" node="1U$SEukhb5D" resolve="ISelControlled.Type" />
       </node>
     </node>
     <node concept="2tJIrI" id="1U$SEukhbK0" role="jymVt" />
@@ -687,9 +593,6 @@
       <node concept="16syzq" id="3VIcZtBemfx" role="11_B2D">
         <ref role="16sUi3" node="3VIcZtBemcG" resolve="BoundObject" />
       </node>
-    </node>
-    <node concept="3uibUv" id="4Sq2cvDroqx" role="3HQHJm">
-      <ref role="3uigEE" node="4Sq2cvDqkwH" resolve="IUxElemInitializer" />
     </node>
     <node concept="16euLQ" id="3VIcZtBemcG" role="16eVyc">
       <property role="TrG5h" value="BoundObject" />
@@ -1814,81 +1717,59 @@
     </node>
   </node>
   <node concept="3HP615" id="4Sq2cvDqkwH">
-    <property role="TrG5h" value="IUxElemInitializer" />
+    <property role="TrG5h" value="IGen_UxElement" />
     <node concept="2tJIrI" id="4Sq2cvDrnFV" role="jymVt" />
-    <node concept="3clFb_" id="4Sq2cvDrnDE" role="jymVt">
+    <node concept="3clFb_" id="2zlKbqjrMvy" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="registerBinding" />
-      <node concept="3cqZAl" id="4Sq2cvDrnDF" role="3clF45" />
-      <node concept="3Tm1VV" id="4Sq2cvDrnDG" role="1B3o_S" />
-      <node concept="3clFbS" id="4Sq2cvDrnDH" role="3clF47" />
-      <node concept="37vLTG" id="4Sq2cvDrnDI" role="3clF46">
-        <property role="TrG5h" value="rootController" />
-        <node concept="3uibUv" id="4Sq2cvDrnDJ" role="1tU5fm">
+      <property role="TrG5h" value="initialize" />
+      <node concept="3cqZAl" id="2zlKbqjrMvz" role="3clF45" />
+      <node concept="3Tm1VV" id="2zlKbqjrMv$" role="1B3o_S" />
+      <node concept="3clFbS" id="2zlKbqjrMv_" role="3clF47" />
+      <node concept="37vLTG" id="2zlKbqjrMvA" role="3clF46">
+        <property role="TrG5h" value="pageController" />
+        <node concept="3uibUv" id="3VIcZtBjEzR" role="1tU5fm">
           <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="IFSelectionController" />
         </node>
       </node>
-      <node concept="37vLTG" id="4Sq2cvDrnDK" role="3clF46">
-        <property role="TrG5h" value="SelectedObject" />
-        <node concept="3uibUv" id="4Sq2cvDrnDL" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+      <node concept="37vLTG" id="2zlKbqjrMvC" role="3clF46">
+        <property role="TrG5h" value="outerBinding" />
+        <node concept="3uibUv" id="5SSJEYs8A1R" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:5SSJEYs7zNX" resolve="IFSelectionController.Binding" />
         </node>
       </node>
-      <node concept="37vLTG" id="4Sq2cvDrnDM" role="3clF46">
-        <property role="TrG5h" value="propertyName" />
-        <node concept="17QB3L" id="4Sq2cvDrnDN" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="4Sq2cvDrnDO" role="3clF46">
-        <property role="TrG5h" value="parent" />
-        <node concept="3uibUv" id="4Sq2cvDrnDP" role="1tU5fm">
-          <ref role="3uigEE" node="3VIcZtBehi$" resolve="IUxElemSelectionCrtl" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="4Sq2cvDrnDQ" role="3clF46">
+      <node concept="37vLTG" id="3VIcZtBeC26" role="3clF46">
         <property role="TrG5h" value="commandContainer" />
-        <node concept="3uibUv" id="4Sq2cvDrnDR" role="1tU5fm">
+        <node concept="3uibUv" id="7aUgYCzpRBb" role="1tU5fm">
           <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
         </node>
       </node>
-      <node concept="P$JXv" id="4Sq2cvDrnDS" role="lGtFl">
-        <node concept="TZ5HA" id="4Sq2cvDrnDT" role="TZ5H$">
-          <node concept="1dT_AC" id="4Sq2cvDrnDU" role="1dT_Ay">
+      <node concept="P$JXv" id="2zlKbqjrMvI" role="lGtFl">
+        <node concept="TZ5HA" id="2zlKbqjrMvJ" role="TZ5H$">
+          <node concept="1dT_AC" id="2zlKbqjrMvK" role="1dT_Ay">
             <property role="1dT_AB" value="Should not only registger binding, but also setup of selection controller and " />
           </node>
         </node>
-        <node concept="TZ5HA" id="4Sq2cvDrnDV" role="TZ5H$">
-          <node concept="1dT_AC" id="4Sq2cvDrnDW" role="1dT_Ay">
+        <node concept="TZ5HA" id="2zlKbqjrMvL" role="TZ5H$">
+          <node concept="1dT_AC" id="2zlKbqjrMvM" role="1dT_Ay">
             <property role="1dT_AB" value="instantiation of view ? " />
           </node>
         </node>
-        <node concept="TUZQ0" id="4Sq2cvDrnDX" role="3nqlJM">
+        <node concept="TUZQ0" id="2zlKbqjrMvN" role="3nqlJM">
           <property role="TUZQ4" value=" " />
-          <node concept="zr_55" id="4Sq2cvDrnDY" role="zr_5Q">
-            <ref role="zr_51" node="4Sq2cvDrnDI" resolve="rootController" />
+          <node concept="zr_55" id="2zlKbqjrMvO" role="zr_5Q">
+            <ref role="zr_51" node="2zlKbqjrMvA" resolve="pageController" />
           </node>
         </node>
-        <node concept="TUZQ0" id="4Sq2cvDrnDZ" role="3nqlJM">
+        <node concept="TUZQ0" id="2zlKbqjrMvP" role="3nqlJM">
           <property role="TUZQ4" value=" " />
-          <node concept="zr_55" id="4Sq2cvDrnE0" role="zr_5Q">
-            <ref role="zr_51" node="4Sq2cvDrnDK" resolve="SelectedObject" />
+          <node concept="zr_55" id="2zlKbqjrMvQ" role="zr_5Q">
+            <ref role="zr_51" node="2zlKbqjrMvC" resolve="outerBinding" />
           </node>
         </node>
-        <node concept="TUZQ0" id="4Sq2cvDrnE1" role="3nqlJM">
-          <property role="TUZQ4" value=" " />
-          <node concept="zr_55" id="4Sq2cvDrnE2" role="zr_5Q">
-            <ref role="zr_51" node="4Sq2cvDrnDM" resolve="propertyName" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="4Sq2cvDrnE3" role="3nqlJM">
-          <property role="TUZQ4" value=" " />
-          <node concept="zr_55" id="4Sq2cvDrnE4" role="zr_5Q">
-            <ref role="zr_51" node="4Sq2cvDrnDO" resolve="parent" />
-          </node>
-        </node>
-        <node concept="TUZQ0" id="4Sq2cvDrnE5" role="3nqlJM">
+        <node concept="TUZQ0" id="3VIcZtBeC9N" role="3nqlJM">
           <property role="TUZQ4" value="reference to container and running command" />
-          <node concept="zr_55" id="4Sq2cvDrnE6" role="zr_5Q">
-            <ref role="zr_51" node="4Sq2cvDrnDQ" resolve="commandContainer" />
+          <node concept="zr_55" id="3VIcZtBeCaX" role="zr_5Q">
+            <ref role="zr_51" node="3VIcZtBeC26" resolve="commandContainer" />
           </node>
         </node>
       </node>
@@ -1896,21 +1777,15 @@
     <node concept="2tJIrI" id="4Sq2cvDql8h" role="jymVt" />
     <node concept="3Tm1VV" id="4Sq2cvDqkwI" role="1B3o_S" />
   </node>
-  <node concept="312cEu" id="4Sq2cvDr4q2">
-    <property role="TrG5h" value="ExternalBinding" />
-    <node concept="312cEg" id="4Sq2cvDr4qo" role="jymVt">
-      <property role="TrG5h" value="selectedObject" />
-      <node concept="3Tm1VV" id="4Sq2cvDr4qC" role="1B3o_S" />
-      <node concept="3uibUv" id="4Sq2cvDr4qL" role="1tU5fm">
-        <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
-      </node>
+  <node concept="3HP615" id="5SSJEYsa32F">
+    <property role="TrG5h" value="IGen_PagePane" />
+    <node concept="3Tm1VV" id="5SSJEYsa32G" role="1B3o_S" />
+    <node concept="3uibUv" id="5SSJEYsa3cg" role="3HQHJm">
+      <ref role="3uigEE" node="4Sq2cvDqkwH" resolve="IGen_UxElement" />
     </node>
-    <node concept="312cEg" id="4Sq2cvDr4D_" role="jymVt">
-      <property role="TrG5h" value="property" />
-      <node concept="3Tm1VV" id="4Sq2cvDr4Eq" role="1B3o_S" />
-      <node concept="17QB3L" id="4Sq2cvDr4Ez" role="1tU5fm" />
+    <node concept="3uibUv" id="5SSJEYsa3eX" role="3HQHJm">
+      <ref role="3uigEE" node="3VIcZtBehi$" resolve="ISelControlled" />
     </node>
-    <node concept="3Tm1VV" id="4Sq2cvDr4q3" role="1B3o_S" />
   </node>
 </model>
 

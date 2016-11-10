@@ -9,7 +9,7 @@
     <model modelUID="r:a8cceaac-a892-4039-8ab4-edfae2590c6d(org.modellwerkstatt.dataux.ofxutil)" />
   </accessoryModels>
   <generators>
-    <generator generatorUID="org.modellwerkstatt.dataux#9014591971156139015" uuid="f03a7921-cd7f-46c5-a394-6f69238857f8">
+    <generator name="" generatorUID="org.modellwerkstatt.dataux#9014591971156139015" uuid="f03a7921-cd7f-46c5-a394-6f69238857f8">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
@@ -18,6 +18,7 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false">5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.sandbox)</dependency>
+        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
       </dependencies>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>

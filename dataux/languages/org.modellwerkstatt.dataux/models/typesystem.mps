@@ -446,90 +446,6 @@
     <property role="TrG5h" value="check_GridLayout" />
     <property role="3GE5qa" value="layout" />
     <node concept="3clFbS" id="2zZnBEDypb3" role="18ibNy">
-      <node concept="3clFbJ" id="6I37UbADBlR" role="3cqZAp">
-        <node concept="3clFbS" id="6I37UbADBlT" role="3clFbx">
-          <node concept="3SKdUt" id="1XvF7fQ$klf" role="3cqZAp">
-            <node concept="3SKdUq" id="1XvF7fQ$klh" role="3SKWNk">
-              <property role="3SKdUp" value="thus it is dynamically bound " />
-            </node>
-          </node>
-          <node concept="3clFbJ" id="6I37UbADC6s" role="3cqZAp">
-            <node concept="3clFbS" id="6I37UbADC6t" role="3clFbx">
-              <node concept="2MkqsV" id="6I37UbADC6u" role="3cqZAp">
-                <node concept="Xl_RD" id="6I37UbADC6v" role="2MkJ7o">
-                  <property role="Xl_RC" value="A root grid layout needs to be bound on an object." />
-                </node>
-                <node concept="1YBJjd" id="6I37UbADCju" role="2OEOjV">
-                  <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
-                </node>
-              </node>
-            </node>
-            <node concept="1Wc70l" id="6I37UbADC6x" role="3clFbw">
-              <node concept="3fqX7Q" id="6I37UbADC6y" role="3uHU7w">
-                <node concept="2OqwBi" id="6I37UbADC6z" role="3fr31v">
-                  <node concept="1YBJjd" id="6I37UbADCg3" role="2Oq$k0">
-                    <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
-                  </node>
-                  <node concept="2qgKlT" id="6I37UbADC6_" role="2OqNvi">
-                    <ref role="37wK5l" to="5y3p:7rG0OCcGP9m" resolve="isBoundOnProperty" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3fqX7Q" id="6I37UbADC6A" role="3uHU7B">
-                <node concept="2OqwBi" id="6I37UbADC6B" role="3fr31v">
-                  <node concept="1YBJjd" id="6I37UbADCas" role="2Oq$k0">
-                    <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
-                  </node>
-                  <node concept="2qgKlT" id="6I37UbADC6D" role="2OqNvi">
-                    <ref role="37wK5l" to="5y3p:6I37UbA_FUV" resolve="isClassGivenNoProperty" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbH" id="6I37UbADCsb" role="3cqZAp" />
-        </node>
-        <node concept="2OqwBi" id="6I37UbADBsG" role="3clFbw">
-          <node concept="1YBJjd" id="6I37UbADBn_" role="2Oq$k0">
-            <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
-          </node>
-          <node concept="2qgKlT" id="6I37UbADBJq" role="2OqNvi">
-            <ref role="37wK5l" to="5y3p:7Cs1IG3kH_v" resolve="isRootWhichNeedsName" />
-          </node>
-        </node>
-        <node concept="3eNFk2" id="6I37UbADCvd" role="3eNLev">
-          <node concept="22lmx$" id="6I37UbADDaz" role="3eO9$A">
-            <node concept="2OqwBi" id="6I37UbADDsE" role="3uHU7w">
-              <node concept="1YBJjd" id="6I37UbADDli" role="2Oq$k0">
-                <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
-              </node>
-              <node concept="2qgKlT" id="6I37UbADDVK" role="2OqNvi">
-                <ref role="37wK5l" to="5y3p:7rG0OCcGP9m" resolve="isBoundOnProperty" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="6I37UbADCIz" role="3uHU7B">
-              <node concept="1YBJjd" id="6I37UbADCDy" role="2Oq$k0">
-                <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
-              </node>
-              <node concept="2qgKlT" id="6I37UbADD3b" role="2OqNvi">
-                <ref role="37wK5l" to="5y3p:6I37UbA_FUV" resolve="isClassGivenNoProperty" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbS" id="6I37UbADCvf" role="3eOfB_">
-            <node concept="2MkqsV" id="6I37UbADE6w" role="3cqZAp">
-              <node concept="Xl_RD" id="6I37UbADE6G" role="2MkJ7o">
-                <property role="Xl_RC" value="A grid layout in an ui hierarchy should not be bound to any object." />
-              </node>
-              <node concept="1YBJjd" id="6I37UbADE8B" role="2OEOjV">
-                <ref role="1YBMHb" node="2zZnBEDypb5" resolve="gridLayout" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="6I37UbADBk_" role="3cqZAp" />
-      <node concept="3clFbH" id="6I37UbADBek" role="3cqZAp" />
       <node concept="3SKdUt" id="6I37UbADBjj" role="3cqZAp">
         <node concept="3SKdUq" id="6I37UbADBjl" role="3SKWNk">
           <property role="3SKdUp" value="---- check layout weights etc. ----" />
@@ -3089,6 +3005,66 @@
     <property role="TrG5h" value="check_LabelFOption" />
     <property role="3GE5qa" value="formopt" />
     <node concept="3clFbS" id="MP9H4jz_Ql" role="18ibNy">
+      <node concept="3cpWs8" id="5SSJEYshvjb" role="3cqZAp">
+        <node concept="3cpWsn" id="5SSJEYshvje" role="3cpWs9">
+          <property role="TrG5h" value="usedIn" />
+          <node concept="3Tqbb2" id="5SSJEYshvj9" role="1tU5fm">
+            <ref role="ehGHo" to="1btx:4ChSTKTge26" resolve="IBindable" />
+          </node>
+          <node concept="2OqwBi" id="5SSJEYshv2H" role="33vP2m">
+            <node concept="1YBJjd" id="5SSJEYshv0K" role="2Oq$k0">
+              <ref role="1YBMHb" node="MP9H4jz_Qn" resolve="labelFOption" />
+            </node>
+            <node concept="2Xjw5R" id="5SSJEYshveg" role="2OqNvi">
+              <node concept="1xMEDy" id="5SSJEYshvei" role="1xVPHs">
+                <node concept="chp4Y" id="5SSJEYshvfO" role="ri$Ld">
+                  <ref role="cht4Q" to="1btx:4ChSTKTge26" resolve="IBindable" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="5SSJEYshuXA" role="3cqZAp">
+        <node concept="3clFbS" id="5SSJEYshuXC" role="3clFbx">
+          <node concept="3clFbH" id="5SSJEYshuXB" role="3cqZAp" />
+        </node>
+        <node concept="22lmx$" id="5SSJEYshwas" role="3clFbw">
+          <node concept="2OqwBi" id="5SSJEYshwjC" role="3uHU7w">
+            <node concept="37vLTw" id="5SSJEYshwga" role="2Oq$k0">
+              <ref role="3cqZAo" node="5SSJEYshvje" resolve="usedIn" />
+            </node>
+            <node concept="1mIQ4w" id="5SSJEYshwwk" role="2OqNvi">
+              <node concept="chp4Y" id="5SSJEYshwyT" role="cj9EA">
+                <ref role="cht4Q" to="1btx:6MSPLZmFnKF" resolve="DelegateForm" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5SSJEYshvIb" role="3uHU7B">
+            <node concept="37vLTw" id="5SSJEYshvEv" role="2Oq$k0">
+              <ref role="3cqZAo" node="5SSJEYshvje" resolve="usedIn" />
+            </node>
+            <node concept="1mIQ4w" id="5SSJEYshvWr" role="2OqNvi">
+              <node concept="chp4Y" id="5SSJEYshvZ3" role="cj9EA">
+                <ref role="cht4Q" to="1btx:6MSPLZmFnKD" resolve="Table" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="9aQIb" id="5SSJEYshwBw" role="9aQIa">
+          <node concept="3clFbS" id="5SSJEYshwBx" role="9aQI4">
+            <node concept="2MkqsV" id="5SSJEYshwIt" role="3cqZAp">
+              <node concept="Xl_RD" id="5SSJEYshwID" role="2MkJ7o">
+                <property role="Xl_RC" value="Label option is supported only by Table / DelegateForm." />
+              </node>
+              <node concept="37vLTw" id="5SSJEYshwYI" role="2OEOjV">
+                <ref role="3cqZAo" node="5SSJEYshvje" resolve="usedIn" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="5SSJEYshuVu" role="3cqZAp" />
       <node concept="3cpWs8" id="MP9H4jz_Qs" role="3cqZAp">
         <node concept="3cpWsn" id="MP9H4jz_Qv" role="3cpWs9">
           <property role="TrG5h" value="layout" />
@@ -3522,20 +3498,15 @@
             <node concept="1YBJjd" id="1XvF7fQ$jpu" role="2Oq$k0">
               <ref role="1YBMHb" node="1XvF7fQ$iI6" resolve="iBindable" />
             </node>
-            <node concept="2qgKlT" id="1XvF7fQ$jmI" role="2OqNvi">
-              <ref role="37wK5l" to="5y3p:7Cs1IG3kH_v" resolve="isRootWhichNeedsName" />
+            <node concept="2qgKlT" id="5SSJEYsiWBz" role="2OqNvi">
+              <ref role="37wK5l" to="5y3p:1XvF7fQ$i10" resolve="isTypedNotBound" />
             </node>
           </node>
         </node>
         <node concept="3clFbS" id="1XvF7fQ$jmJ" role="3clFbx">
-          <node concept="3SKdUt" id="1XvF7fQ$jLx" role="3cqZAp">
-            <node concept="3SKdUq" id="1XvF7fQ$jLz" role="3SKWNk">
-              <property role="3SKdUp" value="i.e. isDynamicallyBound() == true !" />
-            </node>
-          </node>
           <node concept="2MkqsV" id="1XvF7fQ$jmK" role="3cqZAp">
             <node concept="Xl_RD" id="1XvF7fQ$jmL" role="2MkJ7o">
-              <property role="Xl_RC" value="Root Ux Elements can not be bound on a property, since they are loaded by an include. Just specify the content type." />
+              <property role="Xl_RC" value="Root Ux Elements get typed, not bound, since they are bound by an include. Just specify the content type here." />
             </node>
             <node concept="1YBJjd" id="4nSJmix_01t" role="2OEOjV">
               <ref role="1YBMHb" node="1XvF7fQ$iI6" resolve="iBindable" />
@@ -3547,6 +3518,98 @@
     <node concept="1YaCAy" id="1XvF7fQ$iI6" role="1YuTPh">
       <property role="TrG5h" value="iBindable" />
       <ref role="1YaFvo" to="1btx:4ChSTKTge26" resolve="IBindable" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5SSJEYsfWPE">
+    <property role="TrG5h" value="check_ILayout" />
+    <node concept="3clFbS" id="5SSJEYsfWPF" role="18ibNy">
+      <node concept="3clFbJ" id="5SSJEYsfWQB" role="3cqZAp">
+        <node concept="3clFbS" id="5SSJEYsfWQC" role="3clFbx">
+          <node concept="3SKdUt" id="5SSJEYsfWQD" role="3cqZAp">
+            <node concept="3SKdUq" id="5SSJEYsfWQE" role="3SKWNk">
+              <property role="3SKdUp" value="thus it is dynamically bound " />
+            </node>
+          </node>
+          <node concept="3clFbJ" id="5SSJEYsfWQF" role="3cqZAp">
+            <node concept="3clFbS" id="5SSJEYsfWQG" role="3clFbx">
+              <node concept="2MkqsV" id="5SSJEYsfWQH" role="3cqZAp">
+                <node concept="Xl_RD" id="5SSJEYsfWQI" role="2MkJ7o">
+                  <property role="Xl_RC" value="A layout as root needs to be bound on an object." />
+                </node>
+                <node concept="1YBJjd" id="5SSJEYsfXvK" role="2OEOjV">
+                  <ref role="1YBMHb" node="5SSJEYsfWPH" resolve="iLayout" />
+                </node>
+              </node>
+            </node>
+            <node concept="1Wc70l" id="5SSJEYsfWQK" role="3clFbw">
+              <node concept="3fqX7Q" id="5SSJEYsfWQL" role="3uHU7w">
+                <node concept="2OqwBi" id="5SSJEYsfWQM" role="3fr31v">
+                  <node concept="1YBJjd" id="5SSJEYsfXow" role="2Oq$k0">
+                    <ref role="1YBMHb" node="5SSJEYsfWPH" resolve="iLayout" />
+                  </node>
+                  <node concept="2qgKlT" id="5SSJEYsfWQO" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:7rG0OCcGP9m" resolve="isBoundOnProperty" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="5SSJEYsfWQP" role="3uHU7B">
+                <node concept="2OqwBi" id="5SSJEYsfWQQ" role="3fr31v">
+                  <node concept="1YBJjd" id="5SSJEYsfX94" role="2Oq$k0">
+                    <ref role="1YBMHb" node="5SSJEYsfWPH" resolve="iLayout" />
+                  </node>
+                  <node concept="2qgKlT" id="5SSJEYsfWQS" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:6I37UbA_FUV" resolve="isClassGivenNoProperty" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="5SSJEYsfWQT" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="5SSJEYsfWQU" role="3clFbw">
+          <node concept="1YBJjd" id="5SSJEYsfWZa" role="2Oq$k0">
+            <ref role="1YBMHb" node="5SSJEYsfWPH" resolve="iLayout" />
+          </node>
+          <node concept="2qgKlT" id="5SSJEYsfWQW" role="2OqNvi">
+            <ref role="37wK5l" to="5y3p:7Cs1IG3kH_v" resolve="isRootWhichNeedsName" />
+          </node>
+        </node>
+        <node concept="3eNFk2" id="5SSJEYsfWQX" role="3eNLev">
+          <node concept="22lmx$" id="5SSJEYsfWQY" role="3eO9$A">
+            <node concept="2OqwBi" id="5SSJEYsfWQZ" role="3uHU7w">
+              <node concept="1YBJjd" id="5SSJEYsfXBe" role="2Oq$k0">
+                <ref role="1YBMHb" node="5SSJEYsfWPH" resolve="iLayout" />
+              </node>
+              <node concept="2qgKlT" id="5SSJEYsfWR1" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:7rG0OCcGP9m" resolve="isBoundOnProperty" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5SSJEYsfWR2" role="3uHU7B">
+              <node concept="1YBJjd" id="5SSJEYsfXhe" role="2Oq$k0">
+                <ref role="1YBMHb" node="5SSJEYsfWPH" resolve="iLayout" />
+              </node>
+              <node concept="2qgKlT" id="5SSJEYsfWR4" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:6I37UbA_FUV" resolve="isClassGivenNoProperty" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="5SSJEYsfWR5" role="3eOfB_">
+            <node concept="2MkqsV" id="5SSJEYsfWR6" role="3cqZAp">
+              <node concept="Xl_RD" id="5SSJEYsfWR7" role="2MkJ7o">
+                <property role="Xl_RC" value="A layout in an ui hierarchy should not be bound to any object." />
+              </node>
+              <node concept="1YBJjd" id="5SSJEYsfXFO" role="2OEOjV">
+                <ref role="1YBMHb" node="5SSJEYsfWPH" resolve="iLayout" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="5SSJEYsfX12" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="5SSJEYsfWPH" role="1YuTPh">
+      <property role="TrG5h" value="iLayout" />
+      <ref role="1YaFvo" to="1btx:6MSPLZmFnKH" resolve="ILayout" />
     </node>
   </node>
 </model>
