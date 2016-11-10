@@ -211,7 +211,9 @@
         <child id="8465538089690331502" name="body" index="TZ5H$" />
         <child id="5383422241790532083" name="tags" index="3nqlJM" />
       </concept>
-      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv">
+        <child id="5858074156537516440" name="return" index="x79VK" />
+      </concept>
       <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
         <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
@@ -346,7 +348,6 @@
   <node concept="3HP615" id="3VIcZtBehi$">
     <property role="TrG5h" value="ISelControlled" />
     <node concept="2tJIrI" id="3VIcZtBeosn" role="jymVt" />
-    <node concept="2tJIrI" id="3VIcZtBeou0" role="jymVt" />
     <node concept="3clFb_" id="3VIcZtBeokR" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="selectionChanged" />
@@ -362,7 +363,7 @@
       <node concept="P$JXv" id="3VIcZtBeoDn" role="lGtFl">
         <node concept="TZ5HA" id="3VIcZtBeoDo" role="TZ5H$">
           <node concept="1dT_AC" id="3VIcZtBeoDp" role="1dT_Ay">
-            <property role="1dT_AB" value="Ofcourse - selectionChanged() and loadList ... " />
+            <property role="1dT_AB" value="Of course - selectionChanged() and loadList ... " />
           </node>
         </node>
         <node concept="TUZQ0" id="3VIcZtBeoDq" role="3nqlJM">
@@ -459,7 +460,7 @@
         </node>
         <node concept="TZ5HA" id="2zlKbqjrMwq" role="TZ5H$">
           <node concept="1dT_AC" id="2zlKbqjrMwr" role="1dT_Ay">
-            <property role="1dT_AB" value="TabWizzard and SheetWizzard (trigger save and validate ?)" />
+            <property role="1dT_AB" value="TabWizzard and SheetWizzard (trigger save and validate?)" />
           </node>
         </node>
         <node concept="TZ5HA" id="2zlKbqjrMws" role="TZ5H$">
@@ -557,6 +558,19 @@
       </node>
       <node concept="3Tm1VV" id="3VIcZtBgO4c" role="1B3o_S" />
       <node concept="3clFbS" id="3VIcZtBgO4d" role="3clF47" />
+      <node concept="P$JXv" id="5SSJEYsnMpf" role="lGtFl">
+        <node concept="TZ5HA" id="5SSJEYsnMpg" role="TZ5H$">
+          <node concept="1dT_AC" id="5SSJEYsnMph" role="1dT_Ay">
+            <property role="1dT_AB" value="TODO: This method should be removed here completele, since it is technically not " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="5SSJEYsnMCp" role="TZ5H$">
+          <node concept="1dT_AC" id="5SSJEYsnMCq" role="1dT_Ay">
+            <property role="1dT_AB" value="      concerned with the selection controller. " />
+          </node>
+        </node>
+        <node concept="x79VA" id="5SSJEYsnMpi" role="x79VK" />
+      </node>
     </node>
     <node concept="3clFb_" id="1U$SEukhc83" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -1774,8 +1788,23 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="4Sq2cvDql8h" role="jymVt" />
+    <node concept="3clFb_" id="5SSJEYsnOrm" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getToolkitImplementation" />
+      <node concept="3uibUv" id="5SSJEYsnOrn" role="3clF45">
+        <ref role="3uigEE" to="250q:3VIcZtBcFQd" resolve="IToolkit_Form" />
+      </node>
+      <node concept="3Tm1VV" id="5SSJEYsnOro" role="1B3o_S" />
+      <node concept="3clFbS" id="5SSJEYsnOrp" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="4Sq2cvDqkwI" role="1B3o_S" />
+    <node concept="3clFb_" id="5SSJEYsoL4b" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="gcClear" />
+      <node concept="3cqZAl" id="5SSJEYsoL4c" role="3clF45" />
+      <node concept="3Tm1VV" id="5SSJEYsoL4d" role="1B3o_S" />
+      <node concept="3clFbS" id="5SSJEYsoL4e" role="3clF47" />
+    </node>
   </node>
   <node concept="3HP615" id="5SSJEYsa32F">
     <property role="TrG5h" value="IGen_PagePane" />
