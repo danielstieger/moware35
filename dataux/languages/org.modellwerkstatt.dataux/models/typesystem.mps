@@ -1046,6 +1046,7 @@
   </node>
   <node concept="1YbPZF" id="pQ21WN5qbx">
     <property role="TrG5h" value="typeof_TabPane" />
+    <property role="3GE5qa" value="layout" />
     <node concept="3clFbS" id="pQ21WN5qby" role="18ibNy">
       <node concept="1ZobV4" id="pQ21WN5qmx" role="3cqZAp">
         <property role="3wDh2S" value="true" />

@@ -94,6 +94,7 @@
       </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <property id="1075300953594" name="abstractClass" index="1sVAO0" />
+        <child id="1095933932569" name="implementedInterface" index="EKbjA" />
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -441,36 +442,6 @@
           <property role="x79VB" value="true" />
         </node>
       </node>
-    </node>
-    <node concept="2tJIrI" id="75iQIE9aSMF" role="jymVt" />
-    <node concept="3clFb_" id="75iQIE9aITR" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="hasSpaceForHeading" />
-      <node concept="10P_77" id="75iQIE9aKa6" role="3clF45" />
-      <node concept="3Tm1VV" id="75iQIE9aITU" role="1B3o_S" />
-      <node concept="3clFbS" id="75iQIE9aITV" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="75iQIE9aT2$" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setHeadingText" />
-      <node concept="37vLTG" id="75iQIE9aV2k" role="3clF46">
-        <property role="TrG5h" value="text" />
-        <node concept="17QB3L" id="75iQIE9aV9Q" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="75iQIE9aT2A" role="3clF45" />
-      <node concept="3Tm1VV" id="75iQIE9aT2B" role="1B3o_S" />
-      <node concept="3clFbS" id="75iQIE9aT2C" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="75iQIE9aUvB" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setFlagText" />
-      <node concept="37vLTG" id="75iQIE9aVhz" role="3clF46">
-        <property role="TrG5h" value="text" />
-        <node concept="17QB3L" id="75iQIE9aVp5" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="75iQIE9aUvC" role="3clF45" />
-      <node concept="3Tm1VV" id="75iQIE9aUvD" role="1B3o_S" />
-      <node concept="3clFbS" id="75iQIE9aUvE" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="1U$SEukhd2X" role="jymVt" />
     <node concept="3clFb_" id="3lzuRM8pxlN" role="jymVt">
@@ -1725,6 +1696,166 @@
     <node concept="3Tm1VV" id="Y3fiVJM09K" role="1B3o_S" />
     <node concept="3uibUv" id="Y3fiVJM0ad" role="1zkMxy">
       <ref role="3uigEE" node="Y3fiVJLYpP" resolve="FMenuItem" />
+    </node>
+  </node>
+  <node concept="312cEu" id="5XruxTJFmlw">
+    <property role="1sVAO0" value="true" />
+    <property role="TrG5h" value="NotRegSelControlled" />
+    <node concept="3Tm1VV" id="5XruxTJFmlx" role="1B3o_S" />
+    <node concept="2tJIrI" id="5XruxTJFmuI" role="jymVt" />
+    <node concept="3clFb_" id="5XruxTJFmzL" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="selectionChanged" />
+      <node concept="37vLTG" id="5XruxTJFmzM" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="5XruxTJFmzN" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
+      <node concept="10P_77" id="5XruxTJFmzO" role="3clF45" />
+      <node concept="3Tm1VV" id="5XruxTJFmzP" role="1B3o_S" />
+      <node concept="3clFbS" id="5XruxTJFmzX" role="3clF47">
+        <node concept="3clFbF" id="5XruxTJFmzZ" role="3cqZAp">
+          <node concept="3clFbT" id="5XruxTJFmzY" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5XruxTJFm$0" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="loadList" />
+      <node concept="37vLTG" id="5XruxTJFm$1" role="3clF46">
+        <property role="TrG5h" value="objects" />
+        <node concept="_YKpA" id="5XruxTJFm$2" role="1tU5fm">
+          <node concept="16syzq" id="5XruxTJFqrI" role="_ZDj9">
+            <ref role="16sUi3" node="5XruxTJFpkM" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5XruxTJFm$4" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="5XruxTJFm$5" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5XruxTJFm$6" role="3clF45" />
+      <node concept="3Tm1VV" id="5XruxTJFm$7" role="1B3o_S" />
+      <node concept="3clFbS" id="5XruxTJFm$a" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5XruxTJFm$b" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="reevalTriggers" />
+      <node concept="3cqZAl" id="5XruxTJFm$c" role="3clF45" />
+      <node concept="3Tm1VV" id="5XruxTJFm$d" role="1B3o_S" />
+      <node concept="3clFbS" id="5XruxTJFm$f" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5XruxTJFm$g" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setSelectionController" />
+      <node concept="37vLTG" id="5XruxTJFm$h" role="3clF46">
+        <property role="TrG5h" value="bvc" />
+        <node concept="3uibUv" id="5XruxTJFm$i" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="IFSelectionController" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5XruxTJFm$j" role="3clF45" />
+      <node concept="3Tm1VV" id="5XruxTJFm$k" role="1B3o_S" />
+      <node concept="3clFbS" id="5XruxTJFm$m" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5XruxTJFm$n" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="saveAndValidate" />
+      <node concept="10P_77" id="5XruxTJFm$o" role="3clF45" />
+      <node concept="3Tm1VV" id="5XruxTJFm$p" role="1B3o_S" />
+      <node concept="3clFbS" id="5XruxTJFm$x" role="3clF47">
+        <node concept="3clFbF" id="5XruxTJFm$z" role="3cqZAp">
+          <node concept="3clFbT" id="5XruxTJFm$y" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5XruxTJFm$T" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getHotKeysToRegister" />
+      <node concept="10Q1$e" id="5XruxTJFm$U" role="3clF45">
+        <node concept="17QB3L" id="5XruxTJFm$V" role="10Q1$1" />
+      </node>
+      <node concept="3Tm1VV" id="5XruxTJFm$W" role="1B3o_S" />
+      <node concept="3clFbS" id="5XruxTJFm$Y" role="3clF47">
+        <node concept="3clFbF" id="5XruxTJFnbG" role="3cqZAp">
+          <node concept="10Nm6u" id="5XruxTJFnbF" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5XruxTJFm_B" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getType" />
+      <node concept="3Tm1VV" id="5XruxTJFm_C" role="1B3o_S" />
+      <node concept="3uibUv" id="5XruxTJFm_E" role="3clF45">
+        <ref role="3uigEE" node="1U$SEukhb5D" resolve="IGenSelControlled.Type" />
+      </node>
+      <node concept="3clFbS" id="5XruxTJFm_F" role="3clF47">
+        <node concept="3SKdUt" id="5XruxTJG2VQ" role="3cqZAp">
+          <node concept="3SKdUq" id="5XruxTJG2VS" role="3SKWNk">
+            <property role="3SKdUp" value="never called because not registered" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="5XruxTJFm_H" role="3cqZAp">
+          <node concept="10Nm6u" id="5XruxTJFm_G" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5XruxTJFm_I" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getSelection" />
+      <node concept="37vLTG" id="5XruxTJFm_J" role="3clF46">
+        <property role="TrG5h" value="clazz" />
+        <node concept="3uibUv" id="5XruxTJFm_K" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="5XruxTJFm_L" role="3clF45">
+        <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+      </node>
+      <node concept="3Tm1VV" id="5XruxTJFm_M" role="1B3o_S" />
+      <node concept="3clFbS" id="5XruxTJFm_R" role="3clF47">
+        <node concept="3clFbF" id="5XruxTJFm_T" role="3cqZAp">
+          <node concept="10Nm6u" id="5XruxTJFm_S" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5XruxTJFm_U" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="pushSelection" />
+      <node concept="37vLTG" id="5XruxTJFm_V" role="3clF46">
+        <property role="TrG5h" value="selection" />
+        <node concept="3uibUv" id="5XruxTJFm_W" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5XruxTJFm_X" role="3clF45" />
+      <node concept="3Tm1VV" id="5XruxTJFm_Y" role="1B3o_S" />
+      <node concept="3clFbS" id="5XruxTJFmA3" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5XruxTJFmA4" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnly" />
+      <node concept="3cqZAl" id="5XruxTJFmA5" role="3clF45" />
+      <node concept="3Tm1VV" id="5XruxTJFmA6" role="1B3o_S" />
+      <node concept="37vLTG" id="5XruxTJFmA8" role="3clF46">
+        <property role="TrG5h" value="ro" />
+        <node concept="10P_77" id="5XruxTJFmA9" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="5XruxTJFmAd" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="5XruxTJFmuK" role="jymVt" />
+    <node concept="2tJIrI" id="5XruxTJFmuN" role="jymVt" />
+    <node concept="3uibUv" id="5XruxTJFmyw" role="EKbjA">
+      <ref role="3uigEE" node="3VIcZtBehi$" resolve="IGenSelControlled" />
+      <node concept="16syzq" id="5XruxTJFpJE" role="11_B2D">
+        <ref role="16sUi3" node="5XruxTJFpkM" resolve="T" />
+      </node>
+    </node>
+    <node concept="16euLQ" id="5XruxTJFpkM" role="16eVyc">
+      <property role="TrG5h" value="T" />
     </node>
   </node>
 </model>

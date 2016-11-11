@@ -681,6 +681,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2zZnBEDxS0H">
+    <property role="3GE5qa" value="layout" />
     <ref role="1XX52x" to="1btx:6MSPLZmFnKE" resolve="TabLayout" />
     <node concept="3EZMnI" id="2zZnBEDxS0J" role="2wV5jI">
       <node concept="3EZMnI" id="5SSJEYseFeW" role="3EZMnx">
@@ -722,6 +723,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2zZnBEDxS16">
+    <property role="3GE5qa" value="layout" />
     <ref role="1XX52x" to="1btx:2zZnBEDxRpa" resolve="Tab" />
     <node concept="3EZMnI" id="2zZnBEDxS18" role="2wV5jI">
       <node concept="3EZMnI" id="2zZnBEDxS1k" role="3EZMnx">
@@ -891,9 +893,34 @@
         <node concept="PMmxH" id="7rG0OCcHkvo" role="3EZMnx">
           <ref role="PMmxG" node="7Cs1IG3kp0D" resolve="BindsObjectEditorFull" />
         </node>
-        <node concept="3F0ifn" id="653WpvygwA8" role="3EZMnx">
-          <property role="3F0ifm" value="for" />
+        <node concept="l2Vlx" id="2zZnBEDxS4L" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="2zZnBEDxS4V" role="3EZMnx" />
+      <node concept="3EZMnI" id="5XruxTJKcJm" role="3EZMnx">
+        <node concept="3F0ifn" id="5XruxTJKddg" role="3EZMnx">
+          <property role="3F0ifm" value="// Typing and binding rules of CustomeElement not check yet!!" />
           <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+        </node>
+        <node concept="VPM3Z" id="5XruxTJKcJo" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="5XruxTJKcJq" role="3EZMnx">
+          <property role="3F0ifm" value="Needs full size:" />
+          <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+          <node concept="pVoyu" id="5XruxTJKdnz" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="5XruxTJKcNZ" role="3EZMnx">
+          <ref role="1NtTu8" to="1btx:5XruxTJKcc7" resolve="fullSize" />
+        </node>
+        <node concept="l2Vlx" id="5XruxTJKcJr" role="2iSdaV" />
+        <node concept="3F0ifn" id="5XruxTJKcXr" role="3EZMnx">
+          <property role="3F0ifm" value="Implementation:" />
+          <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+          <node concept="pVoyu" id="5XruxTJKdax" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="1iCGBv" id="653Wpvyfcb9" role="3EZMnx">
           <ref role="1NtTu8" to="1btx:653WpvyfcaS" />
@@ -904,9 +931,7 @@
             </node>
           </node>
         </node>
-        <node concept="l2Vlx" id="2zZnBEDxS4L" role="2iSdaV" />
       </node>
-      <node concept="3F0ifn" id="2zZnBEDxS4V" role="3EZMnx" />
       <node concept="2iRkQZ" id="2zZnBEDxS4C" role="2iSdaV" />
     </node>
   </node>

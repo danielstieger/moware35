@@ -7,8 +7,8 @@
   </languages>
   <imports>
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
   </imports>
   <registry>
@@ -85,6 +85,10 @@
     <property role="34LRSv" value="Custom UI Element" />
     <property role="R4oN_" value="declare a custom ui element" />
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="UxRoot" />
+    <node concept="1TJgyi" id="5XruxTJKcc7" role="1TKVEl">
+      <property role="TrG5h" value="fullSize" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="653WpvyfcaS" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="customUxElement" />
@@ -169,6 +173,7 @@
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="Tab Layout" />
     <property role="R4oN_" value="with multiple tabs" />
+    <property role="3GE5qa" value="layout" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2zZnBEDxS0A" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -315,6 +320,7 @@
     <property role="TrG5h" value="Tab" />
     <property role="34LRSv" value="Tab" />
     <property role="R4oN_" value="one of multiple tabs" />
+    <property role="3GE5qa" value="layout" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2zZnBEDxRpf" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
