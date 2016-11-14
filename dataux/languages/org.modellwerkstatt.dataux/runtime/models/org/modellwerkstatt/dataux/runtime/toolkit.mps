@@ -288,7 +288,7 @@
         <node concept="17QB3L" id="3VIcZtBfIvr" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="3VIcZtBfIz4" role="3clF45">
-        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
       </node>
       <node concept="3Tm1VV" id="3VIcZtBfIvt" role="1B3o_S" />
       <node concept="3clFbS" id="3VIcZtBfIvu" role="3clF47" />
@@ -948,7 +948,7 @@
       <node concept="37vLTG" id="dX9tEwAly_" role="3clF46">
         <property role="TrG5h" value="crtl" />
         <node concept="3uibUv" id="1KgqQuB_bnm" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
         </node>
       </node>
       <node concept="3cqZAl" id="dX9tEwAlyy" role="3clF45" />
@@ -1056,8 +1056,8 @@
       </node>
       <node concept="37vLTG" id="5I8HAEt74cQ" role="3clF46">
         <property role="TrG5h" value="content" />
-        <node concept="3uibUv" id="5I8HAEt7mc5" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+        <node concept="3uibUv" id="21Qe5t1YlQ$" role="1tU5fm">
+          <ref role="3uigEE" node="3VIcZtBcFQd" resolve="IToolkit_Form" />
         </node>
       </node>
       <node concept="3cqZAl" id="5_bDd1dKxnp" role="3clF45" />
@@ -1069,8 +1069,8 @@
       <property role="TrG5h" value="setContent" />
       <node concept="37vLTG" id="5_bDd1dFr$Z" role="3clF46">
         <property role="TrG5h" value="content" />
-        <node concept="3uibUv" id="5I8HAEt7mdT" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+        <node concept="3uibUv" id="21Qe5t1YlZF" role="1tU5fm">
+          <ref role="3uigEE" node="3VIcZtBcFQd" resolve="IToolkit_Form" />
         </node>
       </node>
       <node concept="3cqZAl" id="5_bDd1dFr8q" role="3clF45" />

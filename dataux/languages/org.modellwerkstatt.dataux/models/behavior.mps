@@ -1183,6 +1183,24 @@
         <ref role="ehGHo" to="tpee:g7pOWCK" resolve="Classifier" />
       </node>
     </node>
+    <node concept="13i0hz" id="21Qe5t2kLJT" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getEscapedFqName" />
+      <ref role="13i0hy" to="70o0:21Qe5t2gsrC" resolve="getEscapedFqName" />
+      <node concept="3Tm1VV" id="21Qe5t2kLJU" role="1B3o_S" />
+      <node concept="3clFbS" id="21Qe5t2kLJX" role="3clF47">
+        <node concept="3clFbF" id="21Qe5t2kMFk" role="3cqZAp">
+          <node concept="2OqwBi" id="21Qe5t2kMK0" role="3clFbG">
+            <node concept="13iPFW" id="21Qe5t2kMFj" role="2Oq$k0" />
+            <node concept="2qgKlT" id="21Qe5t2kMTV" role="2OqNvi">
+              <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="21Qe5t2kLJY" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="7Cs1IG3jYzS">
     <property role="3GE5qa" value="internalInfra" />

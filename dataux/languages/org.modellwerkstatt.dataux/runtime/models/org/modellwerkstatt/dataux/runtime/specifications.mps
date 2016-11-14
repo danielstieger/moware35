@@ -263,7 +263,7 @@
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getStartMenu" />
       <node concept="3uibUv" id="Y3fiVK$o4r" role="3clF45">
-        <ref role="3uigEE" node="Y3fiVJM09J" resolve="FMenuFolder" />
+        <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
       </node>
       <node concept="3Tm1VV" id="Y3fiVK$o3Z" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVK$o40" role="3clF47" />
@@ -272,7 +272,7 @@
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getExtrasMenu" />
       <node concept="3uibUv" id="Y3fiVK$o4D" role="3clF45">
-        <ref role="3uigEE" node="Y3fiVJM09J" resolve="FMenuFolder" />
+        <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
       </node>
       <node concept="3Tm1VV" id="Y3fiVK$o4E" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVK$o4F" role="3clF47" />
@@ -401,7 +401,7 @@
     </node>
     <node concept="3clFb_" id="3VIcZtBlw07" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="reevalTriggers" />
+      <property role="TrG5h" value="reevalActions" />
       <node concept="3cqZAl" id="3VIcZtBlw09" role="3clF45" />
       <node concept="3Tm1VV" id="3VIcZtBlw0a" role="1B3o_S" />
       <node concept="3clFbS" id="3VIcZtBlw0b" role="3clF47" />
@@ -581,7 +581,7 @@
     </node>
   </node>
   <node concept="312cEu" id="Y3fiVJMvUT">
-    <property role="TrG5h" value="FCommandTrigger" />
+    <property role="TrG5h" value="MenuAction" />
     <property role="1sVAO0" value="true" />
     <node concept="312cEg" id="4XXgpA_y1$I" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -674,7 +674,7 @@
       <node concept="3Tm1VV" id="Y3fiVJOfqe" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVJOfqf" role="3clF47">
         <node concept="XkiVB" id="Y3fiVJOkV0" role="3cqZAp">
-          <ref role="37wK5l" node="Y3fiVJMQ8R" resolve="FMenuItem" />
+          <ref role="37wK5l" node="Y3fiVJMQ8R" resolve="MenuItem" />
           <node concept="37vLTw" id="Y3fiVJOkVq" role="37wK5m">
             <ref role="3cqZAo" node="Y3fiVJOfqF" resolve="lab" />
           </node>
@@ -1340,11 +1340,11 @@
     </node>
     <node concept="3Tm1VV" id="Y3fiVJMvUU" role="1B3o_S" />
     <node concept="3uibUv" id="Y3fiVJMvVg" role="1zkMxy">
-      <ref role="3uigEE" node="Y3fiVJLYpP" resolve="FMenuItem" />
+      <ref role="3uigEE" node="Y3fiVJLYpP" resolve="MenuItem" />
     </node>
   </node>
   <node concept="312cEu" id="Y3fiVJLYpP">
-    <property role="TrG5h" value="FMenuItem" />
+    <property role="TrG5h" value="MenuItem" />
     <node concept="312cEg" id="Y3fiVJM08v" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -1411,20 +1411,20 @@
     <node concept="3Tm1VV" id="Y3fiVJLYpQ" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="Y3fiVJM09J">
-    <property role="TrG5h" value="FMenuFolder" />
+    <property role="TrG5h" value="MenuSub" />
     <property role="1sVAO0" value="false" />
     <node concept="312cEg" id="Y3fiVJMvMl" role="jymVt">
       <property role="TrG5h" value="items" />
       <node concept="3Tm1VV" id="16HdUMP0hAM" role="1B3o_S" />
       <node concept="_YKpA" id="Y3fiVJMvRp" role="1tU5fm">
         <node concept="3uibUv" id="Y3fiVJMvRH" role="_ZDj9">
-          <ref role="3uigEE" node="Y3fiVJLYpP" resolve="FMenuItem" />
+          <ref role="3uigEE" node="Y3fiVJLYpP" resolve="MenuItem" />
         </node>
       </node>
       <node concept="2ShNRf" id="Y3fiVJMvTC" role="33vP2m">
         <node concept="Tc6Ow" id="Y3fiVJMvTw" role="2ShVmc">
           <node concept="3uibUv" id="Y3fiVJMvTx" role="HW$YZ">
-            <ref role="3uigEE" node="Y3fiVJLYpP" resolve="FMenuItem" />
+            <ref role="3uigEE" node="Y3fiVJLYpP" resolve="MenuItem" />
           </node>
         </node>
       </node>
@@ -1435,7 +1435,7 @@
       <node concept="3Tm1VV" id="Y3fiVJN3KR" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVJN3KS" role="3clF47">
         <node concept="XkiVB" id="Y3fiVJN3Y8" role="3cqZAp">
-          <ref role="37wK5l" node="Y3fiVJMQ8j" resolve="FMenuItem" />
+          <ref role="37wK5l" node="Y3fiVJMQ8j" resolve="MenuItem" />
         </node>
       </node>
     </node>
@@ -1443,14 +1443,14 @@
       <node concept="37vLTG" id="7aUgYCzxzCP" role="3clF46">
         <property role="TrG5h" value="helper" />
         <node concept="3uibUv" id="7aUgYCzxzCQ" role="1tU5fm">
-          <ref role="3uigEE" node="Y3fiVJMZJR" resolve="FMenuFolder.GenHelper" />
+          <ref role="3uigEE" node="Y3fiVJMZJR" resolve="MenuSub.GenHelper" />
         </node>
       </node>
       <node concept="3cqZAl" id="7aUgYCzxz0l" role="3clF45" />
       <node concept="3Tm1VV" id="7aUgYCzxz0m" role="1B3o_S" />
       <node concept="3clFbS" id="7aUgYCzxz0n" role="3clF47">
         <node concept="XkiVB" id="7aUgYCzxz0o" role="3cqZAp">
-          <ref role="37wK5l" node="Y3fiVJMQ8j" resolve="FMenuItem" />
+          <ref role="37wK5l" node="Y3fiVJMQ8j" resolve="MenuItem" />
         </node>
         <node concept="3clFbF" id="7aUgYCzxzEo" role="3cqZAp">
           <node concept="2OqwBi" id="7aUgYCzxzFT" role="3clFbG">
@@ -1470,7 +1470,7 @@
       <node concept="3Tm1VV" id="Y3fiVJN4bD" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVJN4bE" role="3clF47">
         <node concept="XkiVB" id="Y3fiVJN4tr" role="3cqZAp">
-          <ref role="37wK5l" node="Y3fiVJMQ8R" resolve="FMenuItem" />
+          <ref role="37wK5l" node="Y3fiVJMQ8R" resolve="MenuItem" />
           <node concept="37vLTw" id="Y3fiVJN4tP" role="37wK5m">
             <ref role="3cqZAo" node="Y3fiVJN4oX" resolve="lab" />
           </node>
@@ -1492,7 +1492,7 @@
     <node concept="3clFb_" id="Y3fiVJMVcP" role="jymVt">
       <property role="TrG5h" value="add" />
       <node concept="3uibUv" id="Y3fiVJMVeg" role="3clF45">
-        <ref role="3uigEE" node="Y3fiVJM09J" resolve="FMenuFolder" />
+        <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
       </node>
       <node concept="3Tm1VV" id="Y3fiVJMVcS" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVJMVcT" role="3clF47">
@@ -1518,14 +1518,14 @@
       <node concept="37vLTG" id="Y3fiVJMWur" role="3clF46">
         <property role="TrG5h" value="item" />
         <node concept="3uibUv" id="Y3fiVJMWuq" role="1tU5fm">
-          <ref role="3uigEE" node="Y3fiVJLYpP" resolve="FMenuItem" />
+          <ref role="3uigEE" node="Y3fiVJLYpP" resolve="MenuItem" />
         </node>
       </node>
     </node>
     <node concept="3clFb_" id="Y3fiVJN0_g" role="jymVt">
       <property role="TrG5h" value="add" />
       <node concept="3uibUv" id="4thPVGyOlsj" role="3clF45">
-        <ref role="3uigEE" node="Y3fiVJM09J" resolve="FMenuFolder" />
+        <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
       </node>
       <node concept="3Tm1VV" id="Y3fiVJN0_i" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVJN0_j" role="3clF47">
@@ -1547,7 +1547,7 @@
       <node concept="37vLTG" id="Y3fiVJN0_t" role="3clF46">
         <property role="TrG5h" value="helper" />
         <node concept="3uibUv" id="Y3fiVJN19J" role="1tU5fm">
-          <ref role="3uigEE" node="Y3fiVJMZJR" resolve="FMenuFolder.GenHelper" />
+          <ref role="3uigEE" node="Y3fiVJMZJR" resolve="MenuSub.GenHelper" />
         </node>
       </node>
     </node>
@@ -1561,7 +1561,7 @@
         <node concept="37vLTG" id="Y3fiVJN07W" role="3clF46">
           <property role="TrG5h" value="current" />
           <node concept="3uibUv" id="Y3fiVJN09o" role="1tU5fm">
-            <ref role="3uigEE" node="Y3fiVJM09J" resolve="FMenuFolder" />
+            <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
           </node>
         </node>
         <node concept="3cqZAl" id="Y3fiVJMZWT" role="3clF45" />
@@ -1582,13 +1582,13 @@
             <property role="TrG5h" value="triggers" />
             <node concept="_YKpA" id="3nLGOmWsygT" role="1tU5fm">
               <node concept="3uibUv" id="3nLGOmWsyhh" role="_ZDj9">
-                <ref role="3uigEE" node="Y3fiVJMvUT" resolve="FCommandTrigger" />
+                <ref role="3uigEE" node="Y3fiVJMvUT" resolve="MenuAction" />
               </node>
             </node>
             <node concept="2ShNRf" id="3nLGOmWsyAh" role="33vP2m">
               <node concept="Tc6Ow" id="3nLGOmWsyAb" role="2ShVmc">
                 <node concept="3uibUv" id="3nLGOmWsyAc" role="HW$YZ">
-                  <ref role="3uigEE" node="Y3fiVJMvUT" resolve="FCommandTrigger" />
+                  <ref role="3uigEE" node="Y3fiVJMvUT" resolve="MenuAction" />
                 </node>
               </node>
             </node>
@@ -1598,7 +1598,7 @@
           <node concept="3cpWsn" id="3nLGOmWsyE3" role="1Duv9x">
             <property role="TrG5h" value="i" />
             <node concept="3uibUv" id="3nLGOmWsyRv" role="1tU5fm">
-              <ref role="3uigEE" node="Y3fiVJLYpP" resolve="FMenuItem" />
+              <ref role="3uigEE" node="Y3fiVJLYpP" resolve="MenuItem" />
             </node>
           </node>
           <node concept="3clFbS" id="3nLGOmWsyE5" role="2LFqv$">
@@ -1613,7 +1613,7 @@
                       <node concept="1eOMI4" id="3nLGOmWs$sy" role="25WWJ7">
                         <node concept="10QFUN" id="3nLGOmWs$sv" role="1eOMHV">
                           <node concept="3uibUv" id="3nLGOmWs$wC" role="10QFUM">
-                            <ref role="3uigEE" node="Y3fiVJMvUT" resolve="FCommandTrigger" />
+                            <ref role="3uigEE" node="Y3fiVJMvUT" resolve="MenuAction" />
                           </node>
                           <node concept="37vLTw" id="3nLGOmWs$s$" role="10QFUP">
                             <ref role="3cqZAo" node="3nLGOmWsyE3" resolve="i" />
@@ -1626,7 +1626,7 @@
               </node>
               <node concept="2ZW3vV" id="3nLGOmWszTU" role="3clFbw">
                 <node concept="3uibUv" id="3nLGOmWszWc" role="2ZW6by">
-                  <ref role="3uigEE" node="Y3fiVJMvUT" resolve="FCommandTrigger" />
+                  <ref role="3uigEE" node="Y3fiVJMvUT" resolve="MenuAction" />
                 </node>
                 <node concept="37vLTw" id="3nLGOmWszRC" role="2ZW6bz">
                   <ref role="3cqZAo" node="3nLGOmWsyE3" resolve="i" />
@@ -1635,7 +1635,7 @@
               <node concept="3eNFk2" id="3nLGOmWs$zj" role="3eNLev">
                 <node concept="2ZW3vV" id="3nLGOmWs$D1" role="3eO9$A">
                   <node concept="3uibUv" id="3nLGOmWs$Fj" role="2ZW6by">
-                    <ref role="3uigEE" node="Y3fiVJM09J" resolve="FMenuFolder" />
+                    <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
                   </node>
                   <node concept="37vLTw" id="3nLGOmWs$AJ" role="2ZW6bz">
                     <ref role="3cqZAo" node="3nLGOmWsyE3" resolve="i" />
@@ -1652,7 +1652,7 @@
                           <node concept="1eOMI4" id="3nLGOmWs_P4" role="2Oq$k0">
                             <node concept="10QFUN" id="3nLGOmWs_P1" role="1eOMHV">
                               <node concept="3uibUv" id="3nLGOmWs_Tz" role="10QFUM">
-                                <ref role="3uigEE" node="Y3fiVJM09J" resolve="FMenuFolder" />
+                                <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
                               </node>
                               <node concept="37vLTw" id="3nLGOmWsA0e" role="10QFUP">
                                 <ref role="3cqZAo" node="3nLGOmWsyE3" resolve="i" />
@@ -1687,7 +1687,7 @@
       </node>
       <node concept="_YKpA" id="3nLGOmWsxAI" role="3clF45">
         <node concept="3uibUv" id="3nLGOmWsxPd" role="_ZDj9">
-          <ref role="3uigEE" node="Y3fiVJMvUT" resolve="FCommandTrigger" />
+          <ref role="3uigEE" node="Y3fiVJMvUT" resolve="MenuAction" />
         </node>
       </node>
       <node concept="3Tm1VV" id="3nLGOmWsy48" role="1B3o_S" />
@@ -1695,7 +1695,7 @@
     <node concept="2tJIrI" id="3nLGOmWsxoG" role="jymVt" />
     <node concept="3Tm1VV" id="Y3fiVJM09K" role="1B3o_S" />
     <node concept="3uibUv" id="Y3fiVJM0ad" role="1zkMxy">
-      <ref role="3uigEE" node="Y3fiVJLYpP" resolve="FMenuItem" />
+      <ref role="3uigEE" node="Y3fiVJLYpP" resolve="MenuItem" />
     </node>
   </node>
   <node concept="312cEu" id="5XruxTJFmlw">
@@ -1743,7 +1743,7 @@
     </node>
     <node concept="3clFb_" id="5XruxTJFm$b" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="reevalTriggers" />
+      <property role="TrG5h" value="reevalActions" />
       <node concept="3cqZAl" id="5XruxTJFm$c" role="3clF45" />
       <node concept="3Tm1VV" id="5XruxTJFm$d" role="1B3o_S" />
       <node concept="3clFbS" id="5XruxTJFm$f" role="3clF47" />

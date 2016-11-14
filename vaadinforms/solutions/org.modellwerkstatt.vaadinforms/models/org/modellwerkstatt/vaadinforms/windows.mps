@@ -5,6 +5,7 @@
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
   </languages>
   <imports>
     <import index="waq" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.ui(org.modellwerkstatt.vaadinforms/)" />
@@ -57,7 +58,6 @@
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1153422105332" name="jetbrains.mps.baseLanguage.structure.RemExpression" flags="nn" index="2dk9JS" />
-      <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="5279705229678483897" name="jetbrains.mps.baseLanguage.structure.FloatingPointFloatConstant" flags="nn" index="2$xPTn">
@@ -2090,7 +2090,7 @@
       <property role="TrG5h" value="genApplication" />
       <node concept="3Tm6S6" id="5HhpRjTuEwA" role="1B3o_S" />
       <node concept="3uibUv" id="5HhpRjTuECE" role="1tU5fm">
-        <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IGen_Application" />
+        <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IAppUiModuleController" />
       </node>
     </node>
     <node concept="312cEg" id="4QTIUTBQA3g" role="jymVt">
@@ -2136,7 +2136,7 @@
     <node concept="3clFb_" id="vsIEjNu6uL" role="jymVt">
       <property role="TrG5h" value="getAppBehaviour" />
       <node concept="3uibUv" id="vsIEjNujP6" role="3clF45">
-        <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IGen_Application" />
+        <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IAppUiModuleController" />
       </node>
       <node concept="3Tm1VV" id="vsIEjNu6uN" role="1B3o_S" />
       <node concept="3clFbS" id="vsIEjNu6uO" role="3clF47">
@@ -2448,7 +2448,7 @@
                 <node concept="1eOMI4" id="5HhpRjTvkek" role="37vLTx">
                   <node concept="10QFUN" id="5HhpRjTvkeh" role="1eOMHV">
                     <node concept="3uibUv" id="5HhpRjTvkh4" role="10QFUM">
-                      <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IGen_Application" />
+                      <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IAppUiModuleController" />
                     </node>
                     <node concept="2OqwBi" id="5HhpRjTvkem" role="10QFUP">
                       <node concept="37vLTw" id="5HhpRjTvken" role="2Oq$k0">
@@ -5354,7 +5354,7 @@
         <node concept="17QB3L" id="7RHNXGyQGfP" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="7RHNXGyQGfQ" role="3clF45">
-        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
       </node>
       <node concept="3Tm1VV" id="7RHNXGyQGfR" role="1B3o_S" />
       <node concept="3clFbS" id="7RHNXGyQGfS" role="3clF47">
@@ -5389,7 +5389,7 @@
           <node concept="3cpWsn" id="7RHNXGyQGg5" role="3cpWs9">
             <property role="TrG5h" value="instance" />
             <node concept="3uibUv" id="7RHNXGyQGg6" role="1tU5fm">
-              <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+              <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
             </node>
             <node concept="10Nm6u" id="7RHNXGyQGg7" role="33vP2m" />
           </node>
@@ -5418,7 +5418,7 @@
               <node concept="37vLTI" id="7RHNXGyQGgi" role="3clFbG">
                 <node concept="10QFUN" id="7RHNXGyQGgj" role="37vLTx">
                   <node concept="3uibUv" id="7RHNXGyQGgk" role="10QFUM">
-                    <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+                    <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
                   </node>
                   <node concept="2OqwBi" id="7RHNXGyQGgl" role="10QFUP">
                     <node concept="2OqwBi" id="7RHNXGyQGgm" role="2Oq$k0">
@@ -11353,9 +11353,9 @@
         <node concept="10P_77" id="6go2Mrsw5Nw" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="6go2Mrsw5Nx" role="3clF46">
-        <property role="TrG5h" value="content" />
-        <node concept="3uibUv" id="6go2Mrsw5Ny" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+        <property role="TrG5h" value="impl" />
+        <node concept="3uibUv" id="21Qe5t21n1F" role="1tU5fm">
+          <ref role="3uigEE" to="250q:3VIcZtBcFQd" resolve="IToolkit_Form" />
         </node>
       </node>
       <node concept="3cqZAl" id="6go2Mrsw5Nz" role="3clF45" />
@@ -11382,13 +11382,8 @@
                 <node concept="3uibUv" id="7b0XfCDK4Sv" role="10QFUM">
                   <ref role="3uigEE" node="5XHFlRODeeq" resolve="VFormContainer" />
                 </node>
-                <node concept="2OqwBi" id="6go2Mrsxl0d" role="10QFUP">
-                  <node concept="37vLTw" id="6go2MrsxkTo" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6go2Mrsw5Nx" resolve="content" />
-                  </node>
-                  <node concept="liA8E" id="6go2Mrsxla6" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:3VIcZtBgO49" resolve="getToolkitImplementation" />
-                  </node>
+                <node concept="37vLTw" id="6go2MrsxkTo" role="10QFUP">
+                  <ref role="3cqZAo" node="6go2Mrsw5Nx" resolve="impl" />
                 </node>
               </node>
             </node>
@@ -11427,9 +11422,9 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setContent" />
       <node concept="37vLTG" id="6go2Mrsw5ND" role="3clF46">
-        <property role="TrG5h" value="content" />
-        <node concept="3uibUv" id="6go2Mrsw5NE" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+        <property role="TrG5h" value="implementation" />
+        <node concept="3uibUv" id="21Qe5t212$B" role="1tU5fm">
+          <ref role="3uigEE" to="250q:3VIcZtBcFQd" resolve="IToolkit_Form" />
         </node>
       </node>
       <node concept="3cqZAl" id="6go2Mrsw5NF" role="3clF45" />
@@ -11446,13 +11441,8 @@
                 <node concept="3uibUv" id="6go2Mrsxq56" role="10QFUM">
                   <ref role="3uigEE" to="waq:~Component" resolve="Component" />
                 </node>
-                <node concept="2OqwBi" id="6go2Mrsxq57" role="10QFUP">
-                  <node concept="37vLTw" id="6go2Mrsxq58" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6go2Mrsw5ND" resolve="content" />
-                  </node>
-                  <node concept="liA8E" id="6go2Mrsxq59" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:3VIcZtBgO49" resolve="getToolkitImplementation" />
-                  </node>
+                <node concept="37vLTw" id="6go2Mrsxq58" role="10QFUP">
+                  <ref role="3cqZAo" node="6go2Mrsw5ND" resolve="implementation" />
                 </node>
               </node>
             </node>
@@ -13799,7 +13789,7 @@
       <property role="TrG5h" value="genFormController" />
       <node concept="3Tm6S6" id="5XHFlROKkv6" role="1B3o_S" />
       <node concept="3uibUv" id="5XHFlROKkTm" role="1tU5fm">
-        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
       </node>
     </node>
     <node concept="312cEg" id="5tLhDse44bA" role="jymVt">
@@ -16013,17 +16003,12 @@
                   </node>
                 </node>
               </node>
-              <node concept="2dkUwp" id="17Bod1iXV76" role="3clFbw">
-                <node concept="3cmrfG" id="17Bod1iXVtQ" role="3uHU7w">
-                  <property role="3cmrfH" value="5" />
+              <node concept="2OqwBi" id="17Bod1iXUDw" role="3clFbw">
+                <node concept="37vLTw" id="17Bod1iXUrr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="18291WBELnV" resolve="col" />
                 </node>
-                <node concept="2OqwBi" id="17Bod1iXUDw" role="3uHU7B">
-                  <node concept="37vLTw" id="17Bod1iXUrr" role="2Oq$k0">
-                    <ref role="3cqZAo" node="18291WBELnV" resolve="col" />
-                  </node>
-                  <node concept="2OwXpG" id="17Bod1iXULM" role="2OqNvi">
-                    <ref role="2Oxat5" node="18291WBFuWZ" resolve="widht" />
-                  </node>
+                <node concept="2OwXpG" id="21Qe5t21jK5" role="2OqNvi">
+                  <ref role="2Oxat5" node="21Qe5t21g_h" resolve="folded" />
                 </node>
               </node>
             </node>
@@ -16266,7 +16251,7 @@
       <node concept="37vLTG" id="5XHFlRODqOM" role="3clF46">
         <property role="TrG5h" value="crtl" />
         <node concept="3uibUv" id="5XHFlRODqON" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
         </node>
       </node>
       <node concept="3cqZAl" id="5XHFlRODqOO" role="3clF45" />
@@ -16308,6 +16293,10 @@
       <node concept="37vLTG" id="5XHFlRODqP1" role="3clF46">
         <property role="TrG5h" value="editable" />
         <node concept="10P_77" id="5XHFlRODqP2" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="21Qe5t219me" role="3clF46">
+        <property role="TrG5h" value="folded" />
+        <node concept="10P_77" id="21Qe5t21e9s" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="5XHFlRODqP3" role="3clF45" />
       <node concept="3Tm1VV" id="5XHFlRODqP4" role="1B3o_S" />
@@ -16494,6 +16483,9 @@
                 </node>
                 <node concept="37vLTw" id="7ApkBIQSL7p" role="37wK5m">
                   <ref role="3cqZAo" node="5XHFlRODqP1" resolve="editable" />
+                </node>
+                <node concept="37vLTw" id="21Qe5t21fvo" role="37wK5m">
+                  <ref role="3cqZAo" node="21Qe5t219me" resolve="folded" />
                 </node>
               </node>
             </node>
@@ -18929,6 +18921,11 @@
         <node concept="3Tm1VV" id="7ApkBIQSIGI" role="1B3o_S" />
         <node concept="10P_77" id="7ApkBIQSIJH" role="1tU5fm" />
       </node>
+      <node concept="312cEg" id="21Qe5t21g_h" role="jymVt">
+        <property role="TrG5h" value="folded" />
+        <node concept="3Tm1VV" id="21Qe5t21g_i" role="1B3o_S" />
+        <node concept="10P_77" id="21Qe5t21g_j" role="1tU5fm" />
+      </node>
       <node concept="2tJIrI" id="5tLhDsel1EP" role="jymVt" />
       <node concept="3clFbW" id="5XHFlROLdyk" role="jymVt">
         <node concept="3cqZAl" id="5XHFlROLdym" role="3clF45" />
@@ -18984,7 +18981,16 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="18291WBFsyU" role="3cqZAp" />
+          <node concept="3clFbF" id="21Qe5t21j6$" role="3cqZAp">
+            <node concept="37vLTI" id="21Qe5t21jnJ" role="3clFbG">
+              <node concept="37vLTw" id="21Qe5t21j_E" role="37vLTx">
+                <ref role="3cqZAo" node="21Qe5t21fU0" resolve="fld" />
+              </node>
+              <node concept="37vLTw" id="21Qe5t21j6y" role="37vLTJ">
+                <ref role="3cqZAo" node="21Qe5t21g_h" resolve="folded" />
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="37vLTG" id="5tLhDsel3Rt" role="3clF46">
           <property role="TrG5h" value="propname" />
@@ -19007,6 +19013,10 @@
         <node concept="37vLTG" id="7ApkBIQSIMV" role="3clF46">
           <property role="TrG5h" value="edt" />
           <node concept="10P_77" id="7ApkBIQSJ5T" role="1tU5fm" />
+        </node>
+        <node concept="37vLTG" id="21Qe5t21fU0" role="3clF46">
+          <property role="TrG5h" value="fld" />
+          <node concept="10P_77" id="21Qe5t21g7U" role="1tU5fm" />
         </node>
       </node>
       <node concept="2tJIrI" id="5XHFlROLbyJ" role="jymVt" />
@@ -23982,9 +23992,9 @@
         <node concept="10P_77" id="HsWD0njXf8" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="HsWD0njXf9" role="3clF46">
-        <property role="TrG5h" value="content" />
-        <node concept="3uibUv" id="HsWD0njXfa" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+        <property role="TrG5h" value="impl" />
+        <node concept="3uibUv" id="21Qe5t21kur" role="1tU5fm">
+          <ref role="3uigEE" to="250q:3VIcZtBcFQd" resolve="IToolkit_Form" />
         </node>
       </node>
       <node concept="3cqZAl" id="HsWD0njXfb" role="3clF45" />
@@ -24013,13 +24023,8 @@
                 <node concept="3uibUv" id="HsWD0njXfo" role="10QFUM">
                   <ref role="3uigEE" to="waq:~Component" resolve="Component" />
                 </node>
-                <node concept="2OqwBi" id="HsWD0njXfp" role="10QFUP">
-                  <node concept="37vLTw" id="HsWD0njXfq" role="2Oq$k0">
-                    <ref role="3cqZAo" node="HsWD0njXf9" resolve="content" />
-                  </node>
-                  <node concept="liA8E" id="HsWD0njXfr" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:3VIcZtBgO49" resolve="getToolkitImplementation" />
-                  </node>
+                <node concept="37vLTw" id="HsWD0njXfq" role="10QFUP">
+                  <ref role="3cqZAo" node="HsWD0njXf9" resolve="impl" />
                 </node>
               </node>
             </node>
@@ -24260,9 +24265,9 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setContent" />
       <node concept="37vLTG" id="HsWD0njXgI" role="3clF46">
-        <property role="TrG5h" value="content" />
-        <node concept="3uibUv" id="HsWD0njXgJ" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGen_FormCrtl" />
+        <property role="TrG5h" value="impl" />
+        <node concept="3uibUv" id="21Qe5t21lS5" role="1tU5fm">
+          <ref role="3uigEE" to="250q:3VIcZtBcFQd" resolve="IToolkit_Form" />
         </node>
       </node>
       <node concept="3cqZAl" id="HsWD0njXgK" role="3clF45" />
@@ -24279,13 +24284,8 @@
                 <node concept="3uibUv" id="HsWD0njXgS" role="10QFUM">
                   <ref role="3uigEE" to="waq:~Component" resolve="Component" />
                 </node>
-                <node concept="2OqwBi" id="HsWD0njXgT" role="10QFUP">
-                  <node concept="37vLTw" id="HsWD0njXgU" role="2Oq$k0">
-                    <ref role="3cqZAo" node="HsWD0njXgI" resolve="content" />
-                  </node>
-                  <node concept="liA8E" id="HsWD0njXgV" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:3VIcZtBgO49" resolve="getToolkitImplementation" />
-                  </node>
+                <node concept="37vLTw" id="HsWD0njXgU" role="10QFUP">
+                  <ref role="3cqZAo" node="HsWD0njXgI" resolve="impl" />
                 </node>
               </node>
             </node>
@@ -29883,7 +29883,7 @@
       <node concept="37vLTG" id="7b0XfCDIiZw" role="3clF46">
         <property role="TrG5h" value="appBehaviour" />
         <node concept="3uibUv" id="7b0XfCDIk$s" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IGen_Application" />
+          <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IAppUiModuleController" />
         </node>
       </node>
       <node concept="37vLTG" id="7b0XfCDIkJL" role="3clF46">
