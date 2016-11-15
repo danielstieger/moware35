@@ -3749,5 +3749,38 @@
       <ref role="1YaFvo" to="1btx:pQ21WN9_SZ" resolve="EditableDOption" />
     </node>
   </node>
+  <node concept="18kY7G" id="6XdB5k5Xz_3">
+    <property role="TrG5h" value="check_AppUiModule" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="6XdB5k5Xz_4" role="18ibNy">
+      <node concept="3clFbJ" id="6XdB5k5XAvZ" role="3cqZAp">
+        <node concept="2OqwBi" id="6XdB5k5XAHJ" role="3clFbw">
+          <node concept="2OqwBi" id="6XdB5k5XAzz" role="2Oq$k0">
+            <node concept="1YBJjd" id="6XdB5k5XAwi" role="2Oq$k0">
+              <ref role="1YBMHb" node="6XdB5k5Xz_6" resolve="appUiModule" />
+            </node>
+            <node concept="2qgKlT" id="6XdB5k5XAEk" role="2OqNvi">
+              <ref role="37wK5l" to="5y3p:6XdB5k5XvSa" resolve="getVersion" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="6XdB5k5XAQu" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="6XdB5k5XAw1" role="3clFbx">
+          <node concept="2MkqsV" id="6XdB5k5XASH" role="3cqZAp">
+            <node concept="Xl_RD" id="6XdB5k5XAST" role="2MkJ7o">
+              <property role="Xl_RC" value="Sepcify a version option for this app module." />
+            </node>
+            <node concept="1YBJjd" id="6XdB5k5XAVu" role="2OEOjV">
+              <ref role="1YBMHb" node="6XdB5k5Xz_6" resolve="appUiModule" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6XdB5k5Xz_6" role="1YuTPh">
+      <property role="TrG5h" value="appUiModule" />
+      <ref role="1YaFvo" to="1btx:6K73LRuUW3k" resolve="AppUiModule" />
+    </node>
+  </node>
 </model>
 

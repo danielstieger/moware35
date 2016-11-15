@@ -1240,7 +1240,7 @@
               <node concept="2ShNRf" id="7GLJ9Y9lXck" role="37vLTx">
                 <node concept="3zrR0B" id="7GLJ9Y9lXci" role="2ShVmc">
                   <node concept="3Tqbb2" id="7GLJ9Y9lXcj" role="3zrR0E">
-                    <ref role="ehGHo" to="1btx:7GLJ9Y9kHWf" resolve="SummaryLineFOptionParam" />
+                    <ref role="ehGHo" to="1btx:7GLJ9Y9kHWf" resolve="SelectionSummaryLineFOptionParam" />
                   </node>
                 </node>
               </node>
@@ -1304,6 +1304,39 @@
                     <ref role="1A9B2P" to="tpee:f$Xl_Og" resolve="StringLiteral" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="37WvkG" id="6XdB5k5XU8_" role="37WGs$">
+      <ref role="37XkoT" to="1btx:6K73LRuUW3k" resolve="AppUiModule" />
+      <node concept="37Y9Zx" id="6XdB5k5XU8A" role="37ZfLb">
+        <node concept="3clFbS" id="6XdB5k5XU8B" role="2VODD2">
+          <node concept="3clFbF" id="6XdB5k5XUg7" role="3cqZAp">
+            <node concept="2OqwBi" id="6XdB5k5XUK1" role="3clFbG">
+              <node concept="2OqwBi" id="6XdB5k5XUiT" role="2Oq$k0">
+                <node concept="1r4Lsj" id="6XdB5k5XUg6" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="6XdB5k5XUp$" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:6K73LRuXmMl" />
+                </node>
+              </node>
+              <node concept="2DeJg1" id="6XdB5k5XVm8" role="2OqNvi">
+                <ref role="1A0vxQ" to="1btx:6K73LRuXmzG" resolve="Version" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="6XdB5k5XVJe" role="3cqZAp">
+            <node concept="2OqwBi" id="6XdB5k5XWmE" role="3clFbG">
+              <node concept="2OqwBi" id="6XdB5k5XVNh" role="2Oq$k0">
+                <node concept="1r4Lsj" id="6XdB5k5XVJc" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="6XdB5k5XW0d" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:6K73LRuXmMl" />
+                </node>
+              </node>
+              <node concept="2DeJg1" id="6XdB5k5XXwL" role="2OqNvi">
+                <ref role="1A0vxQ" to="1btx:6K73LRuYUa9" resolve="OfficialAppName" />
               </node>
             </node>
           </node>

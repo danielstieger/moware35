@@ -999,10 +999,10 @@
   <node concept="1TIwiD" id="6K73LRuYUa9">
     <property role="1pbfSe" value="1258467750" />
     <property role="3GE5qa" value="uimodule" />
-    <property role="TrG5h" value="MenuAddOn" />
-    <property role="34LRSv" value="APP MENU NAME" />
-    <property role="R4oN_" value="app modules name" />
+    <property role="TrG5h" value="OfficialAppName" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <property role="34LRSv" value="OFFICIAL NAME" />
+    <property role="R4oN_" value="visible app name" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6K73LRuYUaa" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

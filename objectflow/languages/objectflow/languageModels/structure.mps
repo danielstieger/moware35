@@ -2900,6 +2900,8 @@
     <property role="TrG5h" value="OFXTestSuit" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/testsuit.png" />
+    <property role="34LRSv" value="test suit" />
+    <property role="R4oN_" value="stand alone runnable" />
     <ref role="1TJDcQ" node="6ffh1MXA9UE" resolve="Container" />
     <node concept="1TJgyj" id="3yttyAVb68W" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

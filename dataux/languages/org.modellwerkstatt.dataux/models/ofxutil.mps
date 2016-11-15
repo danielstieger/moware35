@@ -17,6 +17,7 @@
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -4925,7 +4926,45 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4nSJmixDShi" role="jymVt" />
-    <node concept="2tJIrI" id="4nSJmixDSpl" role="jymVt" />
+    <node concept="2YIFZL" id="6XdB5k682NW" role="jymVt">
+      <property role="TrG5h" value="getConfigFileName" />
+      <node concept="37vLTG" id="6XdB5k6835q" role="3clF46">
+        <property role="TrG5h" value="nc" />
+        <node concept="3Tqbb2" id="6XdB5k68389" role="1tU5fm">
+          <ref role="ehGHo" to="tpck:h0TrEE$" resolve="INamedConcept" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="6XdB5k6830K" role="3clF45" />
+      <node concept="3Tm1VV" id="6XdB5k682NZ" role="1B3o_S" />
+      <node concept="3clFbS" id="6XdB5k682O0" role="3clF47">
+        <node concept="3cpWs6" id="6XdB5k683JW" role="3cqZAp">
+          <node concept="3cpWs3" id="6XdB5k683JX" role="3cqZAk">
+            <node concept="Xl_RD" id="6XdB5k683JY" role="3uHU7w">
+              <property role="Xl_RC" value=".xml" />
+            </node>
+            <node concept="2OqwBi" id="6XdB5k683JZ" role="3uHU7B">
+              <node concept="2OqwBi" id="6XdB5k683K0" role="2Oq$k0">
+                <node concept="37vLTw" id="6XdB5k683K1" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6XdB5k6835q" resolve="nc" />
+                </node>
+                <node concept="2qgKlT" id="6XdB5k683K2" role="2OqNvi">
+                  <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                </node>
+              </node>
+              <node concept="liA8E" id="6XdB5k683K3" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                <node concept="Xl_RD" id="6XdB5k683K4" role="37wK5m">
+                  <property role="Xl_RC" value="." />
+                </node>
+                <node concept="Xl_RD" id="6XdB5k683K5" role="37wK5m">
+                  <property role="Xl_RC" value="/" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="4nSJmixDSxp" role="jymVt" />
     <node concept="3Tm1VV" id="61_ZUKWFQgv" role="1B3o_S" />
   </node>
