@@ -468,8 +468,13 @@
             <node concept="BsUDl" id="4Sq2cvDs_do" role="3uHU7w">
               <ref role="37wK5l" node="7Cs1IG3kBLh" resolve="getEscapedName" />
             </node>
-            <node concept="37vLTw" id="4Sq2cvDs_6V" role="3uHU7B">
-              <ref role="3cqZAo" node="4Sq2cvDs$h7" resolve="packageName" />
+            <node concept="3cpWs3" id="1SuqpWQW6RL" role="3uHU7B">
+              <node concept="Xl_RD" id="1SuqpWQW6X1" role="3uHU7w">
+                <property role="Xl_RC" value="." />
+              </node>
+              <node concept="37vLTw" id="4Sq2cvDs_6V" role="3uHU7B">
+                <ref role="3cqZAo" node="4Sq2cvDs$h7" resolve="packageName" />
+              </node>
             </node>
           </node>
         </node>

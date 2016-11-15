@@ -2087,7 +2087,7 @@
       <node concept="3F0ifn" id="6K73LRuXmMr" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2BbJI" role="3EZMnx" />
       <node concept="3F0ifn" id="1aaqwMInUi_" role="3EZMnx">
-        <property role="3F0ifm" value="local variables:" />
+        <property role="3F0ifm" value="local variables: (not enbld)" />
         <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
       </node>
       <node concept="3F2HdR" id="1aaqwMInUiA" role="3EZMnx">
@@ -2199,7 +2199,7 @@
   </node>
   <node concept="24kQdi" id="6K73LRuYUlC">
     <property role="3GE5qa" value="uimodule" />
-    <ref role="1XX52x" to="1btx:6K73LRuYUa9" resolve="MenuAddOn" />
+    <ref role="1XX52x" to="1btx:6K73LRuYUa9" resolve="OfficialAppName" />
     <node concept="3EZMnI" id="6K73LRuYUlE" role="2wV5jI">
       <node concept="PMmxH" id="6K73LRuYUlF" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />

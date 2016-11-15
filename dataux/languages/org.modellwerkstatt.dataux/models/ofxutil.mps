@@ -5188,22 +5188,30 @@
     </node>
     <node concept="2tJIrI" id="5XruxTJL91x" role="jymVt" />
     <node concept="2YIFZL" id="21Qe5t2igEr" role="jymVt">
-      <property role="TrG5h" value="isTableOrDelegateForFlag" />
+      <property role="TrG5h" value="isGridOrTableOrDelegateForFlag" />
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="21Qe5t2ig6P" role="3clF47">
         <node concept="3clFbF" id="21Qe5t2igbA" role="3cqZAp">
-          <node concept="22lmx$" id="21Qe5t2ighX" role="3clFbG">
-            <node concept="1rXfSq" id="21Qe5t2igjP" role="3uHU7w">
-              <ref role="37wK5l" node="5XruxTJLygP" resolve="isTableForFlag" />
-              <node concept="37vLTw" id="21Qe5t2igkV" role="37wK5m">
+          <node concept="22lmx$" id="1SuqpWR8As2" role="3clFbG">
+            <node concept="1rXfSq" id="1SuqpWR8Aut" role="3uHU7w">
+              <ref role="37wK5l" node="5XruxTJLy$J" resolve="isGridLayoutForFlag" />
+              <node concept="37vLTw" id="1SuqpWR8AvW" role="37wK5m">
                 <ref role="3cqZAo" node="21Qe5t2ig9J" resolve="elem" />
               </node>
             </node>
-            <node concept="1rXfSq" id="21Qe5t2igb_" role="3uHU7B">
-              <ref role="37wK5l" node="5XruxTJLyoq" resolve="isDelegateForFlag" />
-              <node concept="37vLTw" id="21Qe5t2igcf" role="37wK5m">
-                <ref role="3cqZAo" node="21Qe5t2ig9J" resolve="elem" />
+            <node concept="22lmx$" id="21Qe5t2ighX" role="3uHU7B">
+              <node concept="1rXfSq" id="21Qe5t2igb_" role="3uHU7B">
+                <ref role="37wK5l" node="5XruxTJLyoq" resolve="isDelegateForFlag" />
+                <node concept="37vLTw" id="21Qe5t2igcf" role="37wK5m">
+                  <ref role="3cqZAo" node="21Qe5t2ig9J" resolve="elem" />
+                </node>
+              </node>
+              <node concept="1rXfSq" id="21Qe5t2igjP" role="3uHU7w">
+                <ref role="37wK5l" node="5XruxTJLygP" resolve="isTableForFlag" />
+                <node concept="37vLTw" id="21Qe5t2igkV" role="37wK5m">
+                  <ref role="3cqZAo" node="21Qe5t2ig9J" resolve="elem" />
+                </node>
               </node>
             </node>
           </node>

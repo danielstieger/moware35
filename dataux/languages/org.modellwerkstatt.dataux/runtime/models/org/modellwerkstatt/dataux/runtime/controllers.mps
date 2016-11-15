@@ -7270,7 +7270,7 @@
       <property role="TrG5h" value="applicationBehaviour" />
       <node concept="3Tm6S6" id="20ohnkbK$XQ" role="1B3o_S" />
       <node concept="3uibUv" id="20ohnkbK_S5" role="1tU5fm">
-        <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IAppUiModuleController" />
+        <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IGenAppUiModule" />
       </node>
     </node>
     <node concept="312cEg" id="4XXgpA_xcy_" role="jymVt">
@@ -7623,7 +7623,7 @@
       <node concept="37vLTG" id="20ohnkbKxMa" role="3clF46">
         <property role="TrG5h" value="appBehavior" />
         <node concept="3uibUv" id="20ohnkbK_SK" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IAppUiModuleController" />
+          <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IGenAppUiModule" />
         </node>
       </node>
       <node concept="37vLTG" id="2yuEF6qjkPi" role="3clF46">
@@ -7979,13 +7979,8 @@
             <node concept="3clFbF" id="1EA1lDXekUm" role="3cqZAp">
               <node concept="37vLTI" id="1EA1lDXekUo" role="3clFbG">
                 <node concept="2OqwBi" id="75iQIE8YPnk" role="37vLTx">
-                  <node concept="2OqwBi" id="75iQIE8YPnl" role="2Oq$k0">
-                    <node concept="37vLTw" id="75iQIE8YPnm" role="2Oq$k0">
-                      <ref role="3cqZAo" node="20ohnkbK$XP" resolve="applicationBehaviour" />
-                    </node>
-                    <node concept="liA8E" id="75iQIE8YPnn" role="2OqNvi">
-                      <ref role="37wK5l" to="yg8v:75iQIE8VYYy" resolve="getStartupMethod" />
-                    </node>
+                  <node concept="37vLTw" id="75iQIE8YPnm" role="2Oq$k0">
+                    <ref role="3cqZAo" node="20ohnkbK$XP" resolve="applicationBehaviour" />
                   </node>
                   <node concept="liA8E" id="75iQIE8YPno" role="2OqNvi">
                     <ref role="37wK5l" to="yg8v:75iQIE8U7Sr" resolve="startup" />
@@ -14310,7 +14305,7 @@
                         <ref role="37wK5l" node="7aUgYCzr6vC" resolve="getUiFactory" />
                       </node>
                       <node concept="liA8E" id="5SSJEYsa6ip" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:3VIcZtBfIvp" resolve="createGeneratedFormByFqName" />
+                        <ref role="37wK5l" to="250q:1SuqpWQX7r3" resolve="createPagePaneSelCrtlByFqName" />
                         <node concept="37vLTw" id="5SSJEYsa6iq" role="37wK5m">
                           <ref role="3cqZAo" node="4XXgpAAV8Ll" resolve="fqName" />
                         </node>

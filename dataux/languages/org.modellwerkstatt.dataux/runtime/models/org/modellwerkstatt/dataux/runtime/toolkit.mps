@@ -147,7 +147,7 @@
       <node concept="37vLTG" id="7aUgYCzxLXV" role="3clF46">
         <property role="TrG5h" value="menu" />
         <node concept="3uibUv" id="7aUgYCzxM0K" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="FMenuFolder" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
         </node>
       </node>
       <node concept="3cqZAl" id="dX9tEwAk0o" role="3clF45" />
@@ -282,7 +282,7 @@
     </node>
     <node concept="3clFb_" id="3VIcZtBfIvp" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="createGeneratedFormByFqName" />
+      <property role="TrG5h" value="createGenSelControlledByFqName" />
       <node concept="37vLTG" id="3VIcZtBfIvq" role="3clF46">
         <property role="TrG5h" value="fqName" />
         <node concept="17QB3L" id="3VIcZtBfIvr" role="1tU5fm" />
@@ -292,6 +292,20 @@
       </node>
       <node concept="3Tm1VV" id="3VIcZtBfIvt" role="1B3o_S" />
       <node concept="3clFbS" id="3VIcZtBfIvu" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1SuqpWQX7r3" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="createPagePaneSelCrtlByFqName" />
+      <node concept="3clFbS" id="1SuqpWQX7r6" role="3clF47" />
+      <node concept="3Tm1VV" id="1SuqpWQX7r7" role="1B3o_S" />
+      <node concept="3uibUv" id="1SuqpWQX7mt" role="3clF45">
+        <ref role="3uigEE" to="1e0c:3972coxdHhr" resolve="PagePaneSelCrtl" />
+      </node>
+      <node concept="37vLTG" id="1SuqpWQX7Ai" role="3clF46">
+        <property role="TrG5h" value="fqName" />
+        <node concept="17QB3L" id="1SuqpWQX7Ah" role="1tU5fm" />
+      </node>
     </node>
     <node concept="3clFb_" id="7nDJo_bvoHq" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -317,7 +331,7 @@
       <node concept="37vLTG" id="3y7Cfyfnt1J" role="3clF46">
         <property role="TrG5h" value="trigger" />
         <node concept="3uibUv" id="3y7CfyfnwwD" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="FCommandTrigger" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
         </node>
       </node>
       <node concept="37vLTG" id="3y7CfyfnLO$" role="3clF46">
@@ -808,13 +822,13 @@
       <node concept="37vLTG" id="3y7CfyfpqOh" role="3clF46">
         <property role="TrG5h" value="startMenu" />
         <node concept="3uibUv" id="3y7Cfyfpw8V" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="FMenuFolder" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
         </node>
       </node>
       <node concept="37vLTG" id="3y7Cfyfpw9T" role="3clF46">
         <property role="TrG5h" value="extraMenu" />
         <node concept="3uibUv" id="3y7CfyfpwbW" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="FMenuFolder" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
         </node>
       </node>
       <node concept="3cqZAl" id="3y7CfyfpqE_" role="3clF45" />
@@ -1008,7 +1022,7 @@
       <node concept="37vLTG" id="1KgqQuBEsS9" role="3clF46">
         <property role="TrG5h" value="folder" />
         <node concept="3uibUv" id="1KgqQuBEsX5" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="FMenuFolder" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJM09J" resolve="MenuSub" />
         </node>
       </node>
       <node concept="3cqZAl" id="1KgqQuBEsCQ" role="3clF45" />

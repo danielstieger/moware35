@@ -280,15 +280,7 @@
       <node concept="3Tm1VV" id="Y3fiVK$o4E" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVK$o4F" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="75iQIE8VYYy" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getStartupMethod" />
-      <node concept="3uibUv" id="75iQIE8VZxn" role="3clF45">
-        <ref role="3uigEE" node="75iQIE8VdFy" resolve="IGenAppUiModule.Startup" />
-      </node>
-      <node concept="3Tm1VV" id="75iQIE8VYY_" role="1B3o_S" />
-      <node concept="3clFbS" id="75iQIE8VYYA" role="3clF47" />
-    </node>
+    <node concept="2tJIrI" id="1SuqpWQOJ92" role="jymVt" />
     <node concept="3clFb_" id="3sx4Hz319k9" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getApplicationVersion" />
@@ -320,41 +312,34 @@
       <node concept="3Tm1VV" id="3lzuRM8wax4" role="1B3o_S" />
       <node concept="3clFbS" id="3lzuRM8wax5" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="3sx4Hz319j2" role="jymVt" />
-    <node concept="3HP615" id="75iQIE8VdFy" role="jymVt">
-      <property role="2bfB8j" value="true" />
-      <property role="TrG5h" value="Startup" />
-      <node concept="3clFb_" id="75iQIE8U7Sr" role="jymVt">
-        <property role="1EzhhJ" value="true" />
-        <property role="TrG5h" value="startup" />
-        <node concept="37vLTG" id="75iQIE8U8c6" role="3clF46">
-          <property role="TrG5h" value="username" />
-          <node concept="17QB3L" id="75iQIE8U8ce" role="1tU5fm" />
-        </node>
-        <node concept="37vLTG" id="75iQIE8U8jo" role="3clF46">
-          <property role="TrG5h" value="password" />
-          <node concept="17QB3L" id="75iQIE8U8ju" role="1tU5fm" />
-        </node>
-        <node concept="37vLTG" id="75iQIE8U8jD" role="3clF46">
-          <property role="TrG5h" value="userEnvironment" />
-          <node concept="3uibUv" id="2$LKw9UQf6W" role="1tU5fm">
-            <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
-          </node>
-        </node>
-        <node concept="37vLTG" id="66GoTZ77imT" role="3clF46">
-          <property role="TrG5h" value="session" />
-          <node concept="3uibUv" id="66GoTZ77mu2" role="1tU5fm">
-            <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
-          </node>
-        </node>
-        <node concept="10P_77" id="75iQIE8U8bN" role="3clF45" />
-        <node concept="3Tm1VV" id="75iQIE8U7Su" role="1B3o_S" />
-        <node concept="3clFbS" id="75iQIE8U7Sv" role="3clF47" />
+    <node concept="3clFb_" id="75iQIE8U7Sr" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="startup" />
+      <node concept="37vLTG" id="75iQIE8U8c6" role="3clF46">
+        <property role="TrG5h" value="username" />
+        <node concept="17QB3L" id="75iQIE8U8ce" role="1tU5fm" />
       </node>
-      <node concept="2tJIrI" id="75iQIE8VdGz" role="jymVt" />
-      <node concept="3Tm1VV" id="75iQIE8VdFz" role="1B3o_S" />
+      <node concept="37vLTG" id="75iQIE8U8jo" role="3clF46">
+        <property role="TrG5h" value="password" />
+        <node concept="17QB3L" id="75iQIE8U8ju" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="75iQIE8U8jD" role="3clF46">
+        <property role="TrG5h" value="userEnvironment" />
+        <node concept="3uibUv" id="2$LKw9UQf6W" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="66GoTZ77imT" role="3clF46">
+        <property role="TrG5h" value="session" />
+        <node concept="3uibUv" id="66GoTZ77mu2" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+        </node>
+      </node>
+      <node concept="10P_77" id="75iQIE8U8bN" role="3clF45" />
+      <node concept="3Tm1VV" id="75iQIE8U7Su" role="1B3o_S" />
+      <node concept="3clFbS" id="75iQIE8U7Sv" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="Y3fiVK$o3J" role="jymVt" />
+    <node concept="2tJIrI" id="3sx4Hz319j2" role="jymVt" />
     <node concept="3Tm1VV" id="Y3fiVK$o2o" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="3VIcZtBehi$">
