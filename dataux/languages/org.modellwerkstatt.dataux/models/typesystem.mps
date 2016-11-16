@@ -1168,11 +1168,6 @@
     <property role="TrG5h" value="check_Table" />
     <node concept="3clFbS" id="pQ21WNacvM" role="18ibNy">
       <node concept="3clFbH" id="5SSJEYskER3" role="3cqZAp" />
-      <node concept="3SKdUt" id="5SSJEYskEXE" role="3cqZAp">
-        <node concept="3SKdUq" id="5SSJEYskEXG" role="3SKWNk">
-          <property role="3SKdUp" value="TODO: isTypedNotBound is not used here" />
-        </node>
-      </node>
       <node concept="3clFbJ" id="6I37UbACJdW" role="3cqZAp">
         <node concept="3clFbS" id="6I37UbACJdX" role="3clFbx">
           <node concept="2MkqsV" id="6I37UbACJdY" role="3cqZAp">
@@ -1208,7 +1203,46 @@
         </node>
       </node>
       <node concept="3clFbH" id="6I37UbACJ7Q" role="3cqZAp" />
+      <node concept="3clFbH" id="4jxrCbC5o6o" role="3cqZAp" />
       <node concept="3clFbJ" id="1XvF7fQ$lph" role="3cqZAp">
+        <node concept="3eNFk2" id="4jxrCbC5rRl" role="3eNLev">
+          <node concept="1Wc70l" id="4jxrCbC5syi" role="3eO9$A">
+            <node concept="2OqwBi" id="4jxrCbC5wng" role="3uHU7w">
+              <node concept="1YBJjd" id="4jxrCbC5w90" role="2Oq$k0">
+                <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
+              </node>
+              <node concept="2qgKlT" id="4jxrCbC5wKc" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:4jxrCbC5sKF" resolve="isTypedAndMatchesPageType" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4jxrCbC5s2h" role="3uHU7B">
+              <node concept="1YBJjd" id="4jxrCbC5rWI" role="2Oq$k0">
+                <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
+              </node>
+              <node concept="2qgKlT" id="4jxrCbC5sqS" role="2OqNvi">
+                <ref role="37wK5l" to="5y3p:4jxrCbC5pLU" resolve="isInFirstLevelLayoutInPagePane" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="4jxrCbC5rRn" role="3eOfB_">
+            <node concept="3SKdUt" id="4jxrCbC5wY1" role="3cqZAp">
+              <node concept="3SKdUq" id="4jxrCbC5wY3" role="3SKWNk">
+                <property role="3SKdUp" value="That s also okay, since this is necessary for search situations with grid like " />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="4jxrCbC5wZ4" role="3cqZAp">
+              <node concept="3SKdUq" id="4jxrCbC5wZ6" role="3SKWNk">
+                <property role="3SKdUp" value="&lt;multiple invoices&gt;" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="4jxrCbC5x1a" role="3cqZAp">
+              <node concept="3SKdUq" id="4jxrCbC5x1c" role="3SKWNk">
+                <property role="3SKdUp" value="&lt;mutliple incoiepos&gt;" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="4jxrCbC5wXR" role="3cqZAp" />
+          </node>
+        </node>
         <node concept="3clFbS" id="1XvF7fQ$lpj" role="3clFbx">
           <node concept="3SKdUt" id="1XvF7fQ$oFh" role="3cqZAp">
             <node concept="3SKdUq" id="1XvF7fQ$oFj" role="3SKWNk">
@@ -1223,15 +1257,15 @@
               <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
             </node>
             <node concept="2qgKlT" id="1XvF7fQ$nEd" role="2OqNvi">
-              <ref role="37wK5l" to="5y3p:6I37UbASwgA" resolve="isSingleChildOfPagePangeOrOnFirstLevel" />
+              <ref role="37wK5l" to="5y3p:6I37UbASwgA" resolve="isSingleChildOfPagePane" />
             </node>
           </node>
           <node concept="2OqwBi" id="1XvF7fQ$lAX" role="3uHU7B">
             <node concept="1YBJjd" id="1XvF7fQ$lxq" role="2Oq$k0">
               <ref role="1YBMHb" node="pQ21WNacvO" resolve="table" />
             </node>
-            <node concept="2qgKlT" id="1XvF7fQ$mjE" role="2OqNvi">
-              <ref role="37wK5l" to="5y3p:7Cs1IG3kH_v" resolve="isRootWhichNeedsName" />
+            <node concept="2qgKlT" id="4jxrCbC5pc8" role="2OqNvi">
+              <ref role="37wK5l" to="5y3p:1XvF7fQ$i10" resolve="shouldBeTypedNotBound" />
             </node>
           </node>
         </node>
@@ -3484,7 +3518,7 @@
     </node>
     <node concept="1YaCAy" id="6K73LRuYUal" role="1YuTPh">
       <property role="TrG5h" value="menuAddOn" />
-      <ref role="1YaFvo" to="1btx:6K73LRuYUa9" resolve="MenuAddOn" />
+      <ref role="1YaFvo" to="1btx:6K73LRuYUa9" resolve="OfficialAppName" />
     </node>
   </node>
   <node concept="18kY7G" id="1XvF7fQ$iI3">
@@ -3506,7 +3540,7 @@
               <ref role="1YBMHb" node="1XvF7fQ$iI6" resolve="iBindable" />
             </node>
             <node concept="2qgKlT" id="5SSJEYsiWBz" role="2OqNvi">
-              <ref role="37wK5l" to="5y3p:1XvF7fQ$i10" resolve="isTypedNotBound" />
+              <ref role="37wK5l" to="5y3p:1XvF7fQ$i10" resolve="shouldBeTypedNotBound" />
             </node>
           </node>
         </node>

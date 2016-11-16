@@ -3268,7 +3268,7 @@
                               </node>
                             </node>
                             <node concept="Xl_RD" id="3972coxdH3F" role="3uHU7w">
-                              <property role="Xl_RC" value=". property '" />
+                              <property role="Xl_RC" value=".'" />
                             </node>
                           </node>
                           <node concept="37vLTw" id="5hc8PGHPz1i" role="3uHU7w">
