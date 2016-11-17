@@ -143,7 +143,7 @@
       <node concept="37vLTG" id="dX9tEwAlzI" role="3clF46">
         <property role="TrG5h" value="config" />
         <node concept="3uibUv" id="dX9tEwAlzK" role="1tU5fm">
-          <ref role="3uigEE" node="42mVti4YooD" resolve="IMenuConfig" />
+          <ref role="3uigEE" node="42mVti4YooD" resolve="DEP__IMenuConfig" />
         </node>
       </node>
       <node concept="3cqZAl" id="dX9tEwAlzF" role="3clF45" />
@@ -159,7 +159,7 @@
       <node concept="37vLTG" id="6hacA6tQ3Rv" role="3clF46">
         <property role="TrG5h" value="config" />
         <node concept="3uibUv" id="6hacA6tQ3Rw" role="1tU5fm">
-          <ref role="3uigEE" node="42mVti4YooD" resolve="IMenuConfig" />
+          <ref role="3uigEE" node="42mVti4YooD" resolve="DEP__IMenuConfig" />
         </node>
       </node>
     </node>
@@ -511,17 +511,17 @@
   </node>
   <node concept="3HP615" id="42mVti4YooD">
     <property role="3GE5qa" value="config" />
-    <property role="TrG5h" value="IMenuConfig" />
+    <property role="TrG5h" value="DEP__IMenuConfig" />
     <node concept="3Tm1VV" id="42mVti4YooE" role="1B3o_S" />
     <node concept="3uibUv" id="42mVti4You6" role="3HQHJm">
-      <ref role="3uigEE" node="42mVti4YotP" resolve="IConfigObject" />
+      <ref role="3uigEE" node="42mVti4YotP" resolve="DEP__IConfigObject" />
     </node>
     <node concept="3clFb_" id="42mVti4YT_7" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getMenuConfigs" />
       <node concept="_YKpA" id="42mVti4YT_c" role="3clF45">
         <node concept="3uibUv" id="42mVti4YT_e" role="_ZDj9">
-          <ref role="3uigEE" node="42mVti4YooD" resolve="IMenuConfig" />
+          <ref role="3uigEE" node="42mVti4YooD" resolve="DEP__IMenuConfig" />
         </node>
       </node>
       <node concept="3Tm1VV" id="42mVti4YT_9" role="1B3o_S" />
@@ -547,16 +547,16 @@
   </node>
   <node concept="3HP615" id="42mVti4YooF">
     <property role="3GE5qa" value="config" />
-    <property role="TrG5h" value="IMenuCommandTriggerConfig" />
+    <property role="TrG5h" value="DEP__IMenuCommandTriggerConfig" />
     <node concept="3Tm1VV" id="42mVti4YooG" role="1B3o_S" />
     <node concept="3uibUv" id="42mVti4YooO" role="3HQHJm">
-      <ref role="3uigEE" node="42mVti4YooD" resolve="IMenuConfig" />
+      <ref role="3uigEE" node="42mVti4YooD" resolve="DEP__IMenuConfig" />
     </node>
     <node concept="3clFb_" id="42mVti4YooP" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getCommandTrigger" />
       <node concept="3uibUv" id="42mVti4YooT" role="3clF45">
-        <ref role="3uigEE" node="42mVti4YooH" resolve="ICommandTriggerConfig" />
+        <ref role="3uigEE" node="42mVti4YooH" resolve="DEP__ICommandTriggerConfig" />
       </node>
       <node concept="3Tm1VV" id="42mVti4YooR" role="1B3o_S" />
       <node concept="3clFbS" id="42mVti4YooS" role="3clF47" />
@@ -567,10 +567,10 @@
   </node>
   <node concept="3HP615" id="42mVti4YooH">
     <property role="3GE5qa" value="config" />
-    <property role="TrG5h" value="ICommandTriggerConfig" />
+    <property role="TrG5h" value="DEP__ICommandTriggerConfig" />
     <node concept="3Tm1VV" id="42mVti4YooI" role="1B3o_S" />
     <node concept="3uibUv" id="42mVti4You4" role="3HQHJm">
-      <ref role="3uigEE" node="42mVti4YotP" resolve="IConfigObject" />
+      <ref role="3uigEE" node="42mVti4YotP" resolve="DEP__IConfigObject" />
     </node>
     <node concept="3UR2Jj" id="dX9tEwAlHN" role="lGtFl">
       <node concept="TZ5HA" id="dX9tEwAlHO" role="TZ5H$">
@@ -701,7 +701,7 @@
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getHotkey" />
       <node concept="3uibUv" id="4p2LAsKWgsv" role="3clF45">
-        <ref role="3uigEE" node="4p2LAsKWgsi" resolve="IHotKeyConfig" />
+        <ref role="3uigEE" node="4p2LAsKWgsi" resolve="DEP__IHotKeyConfig" />
       </node>
       <node concept="3Tm1VV" id="dX9tEwAl$f" role="1B3o_S" />
       <node concept="3clFbS" id="dX9tEwAl$g" role="3clF47" />
@@ -1101,7 +1101,7 @@
   </node>
   <node concept="3HP615" id="42mVti4YotP">
     <property role="3GE5qa" value="config" />
-    <property role="TrG5h" value="IConfigObject" />
+    <property role="TrG5h" value="DEP__IConfigObject" />
     <node concept="3Tm1VV" id="42mVti4YotQ" role="1B3o_S" />
     <node concept="2AHcQZ" id="Y3fiVJNOeD" role="2AJF6D">
       <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
@@ -1532,7 +1532,7 @@
       <node concept="37vLTG" id="4gIakNORK9a" role="3clF46">
         <property role="TrG5h" value="config" />
         <node concept="3uibUv" id="4gIakNORK9b" role="1tU5fm">
-          <ref role="3uigEE" node="42mVti4YooD" resolve="IMenuConfig" />
+          <ref role="3uigEE" node="42mVti4YooD" resolve="DEP__IMenuConfig" />
         </node>
       </node>
       <node concept="3cqZAl" id="4gIakNORK9c" role="3clF45" />
@@ -1657,7 +1657,7 @@
       <node concept="37vLTG" id="dX9tEwAk0r" role="3clF46">
         <property role="TrG5h" value="config" />
         <node concept="3uibUv" id="4gIakNORK94" role="1tU5fm">
-          <ref role="3uigEE" node="42mVti4YooD" resolve="IMenuConfig" />
+          <ref role="3uigEE" node="42mVti4YooD" resolve="DEP__IMenuConfig" />
         </node>
       </node>
       <node concept="3cqZAl" id="dX9tEwAk0o" role="3clF45" />
@@ -1819,7 +1819,7 @@
       <property role="TrG5h" value="getCurrentlyRegisteredHotKeys" />
       <node concept="_YKpA" id="1aW6f0OfJmX" role="3clF45">
         <node concept="3uibUv" id="1aW6f0OfJmZ" role="_ZDj9">
-          <ref role="3uigEE" node="4p2LAsKWgsi" resolve="IHotKeyConfig" />
+          <ref role="3uigEE" node="4p2LAsKWgsi" resolve="DEP__IHotKeyConfig" />
         </node>
       </node>
       <node concept="3Tm1VV" id="1aW6f0OfJmT" role="1B3o_S" />
@@ -2179,7 +2179,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="3VIcZtBdpFH" role="jymVt" />
     <node concept="2tJIrI" id="3VIcZtBdpGQ" role="jymVt" />
     <node concept="3clFb_" id="d0ODixL0bX" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -2551,7 +2550,7 @@
       <property role="TrG5h" value="getHotKeysToRegister" />
       <node concept="_YKpA" id="4p2LAsKWgs5" role="3clF45">
         <node concept="3uibUv" id="4p2LAsKWgs6" role="_ZDj9">
-          <ref role="3uigEE" node="4p2LAsKWgsi" resolve="IHotKeyConfig" />
+          <ref role="3uigEE" node="4p2LAsKWgsi" resolve="DEP__IHotKeyConfig" />
         </node>
       </node>
       <node concept="3Tm1VV" id="4p2LAsKWgs7" role="1B3o_S" />
@@ -2586,7 +2585,7 @@
   </node>
   <node concept="3HP615" id="4p2LAsKWgsi">
     <property role="3GE5qa" value="config" />
-    <property role="TrG5h" value="IHotKeyConfig" />
+    <property role="TrG5h" value="DEP__IHotKeyConfig" />
     <node concept="3Tm1VV" id="4p2LAsKWgst" role="1B3o_S" />
     <node concept="16euLQ" id="4p2LAsKWgsu" role="16eVyc">
       <property role="TrG5h" value="T" />

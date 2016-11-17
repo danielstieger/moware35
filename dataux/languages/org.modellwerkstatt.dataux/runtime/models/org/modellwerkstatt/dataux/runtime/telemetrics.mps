@@ -245,7 +245,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="2yuEF6q8DRM">
-    <property role="TrG5h" value="FJmxRegistration" />
+    <property role="TrG5h" value="JmxRegistration" />
     <node concept="Wx3nA" id="2yuEF6qbh0w" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="telemetricsServiceName" />
@@ -306,7 +306,7 @@
       <property role="TrG5h" value="summaryTelemetrics" />
       <node concept="3Tm6S6" id="2yuEF6qaF3u" role="1B3o_S" />
       <node concept="3uibUv" id="2yuEF6qaFMg" role="1tU5fm">
-        <ref role="3uigEE" node="4x14MABr2ep" resolve="FSummaryTelemetrics" />
+        <ref role="3uigEE" node="4x14MABr2ep" resolve="SummaryTelemetrics" />
       </node>
     </node>
     <node concept="312cEg" id="64g0II1ygHc" role="jymVt">
@@ -489,7 +489,7 @@
           <node concept="37vLTI" id="2yuEF6qba3S" role="3clFbG">
             <node concept="2ShNRf" id="2yuEF6qba6W" role="37vLTx">
               <node concept="1pGfFk" id="2yuEF6qba6V" role="2ShVmc">
-                <ref role="37wK5l" node="4x14MABr4xm" resolve="FSummaryTelemetrics" />
+                <ref role="37wK5l" node="4x14MABr4xm" resolve="SummaryTelemetrics" />
                 <node concept="37vLTw" id="2yuEF6qba8Q" role="37wK5m">
                   <ref role="3cqZAo" node="2yuEF6qaKtG" resolve="appFqName" />
                 </node>
@@ -637,13 +637,13 @@
       <node concept="37vLTG" id="2yuEF6qaA$d" role="3clF46">
         <property role="TrG5h" value="userTelemtrics" />
         <node concept="3uibUv" id="31dwTLE$qNM" role="1tU5fm">
-          <ref role="3uigEE" node="1EBV9L$__ru" resolve="FUserTelemetrics" />
+          <ref role="3uigEE" node="1EBV9L$__ru" resolve="UserTelemetrics" />
         </node>
       </node>
       <node concept="37vLTG" id="2yuEF6qaCFs" role="3clF46">
         <property role="TrG5h" value="container" />
         <node concept="3uibUv" id="2yuEF6qaCPo" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="2yuEF6qa_Sd" role="3clF45" />
@@ -863,13 +863,13 @@
       <node concept="37vLTG" id="64d_Sur_2XW" role="3clF46">
         <property role="TrG5h" value="userTelem" />
         <node concept="3uibUv" id="31dwTLE$rjV" role="1tU5fm">
-          <ref role="3uigEE" node="1EBV9L$__ru" resolve="FUserTelemetrics" />
+          <ref role="3uigEE" node="1EBV9L$__ru" resolve="UserTelemetrics" />
         </node>
       </node>
       <node concept="37vLTG" id="2yuEF6qaCik" role="3clF46">
         <property role="TrG5h" value="container" />
         <node concept="3uibUv" id="2yuEF6qaCpV" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="2yuEF6qaAWH" role="3clF45" />
@@ -1057,7 +1057,7 @@
       <node concept="37vLTG" id="1EBV9L$_BFI" role="3clF46">
         <property role="TrG5h" value="userTelemetrics" />
         <node concept="3uibUv" id="1EBV9L$_F46" role="1tU5fm">
-          <ref role="3uigEE" node="1EBV9L$__ru" resolve="FUserTelemetrics" />
+          <ref role="3uigEE" node="1EBV9L$__ru" resolve="UserTelemetrics" />
         </node>
       </node>
       <node concept="3cqZAl" id="1EBV9L$_BFK" role="3clF45" />
@@ -1274,7 +1274,7 @@
       <node concept="37vLTG" id="1EBV9L$_AM6" role="3clF46">
         <property role="TrG5h" value="userTelemetrics" />
         <node concept="3uibUv" id="1EBV9L$_EtJ" role="1tU5fm">
-          <ref role="3uigEE" node="1EBV9L$__ru" resolve="FUserTelemetrics" />
+          <ref role="3uigEE" node="1EBV9L$__ru" resolve="UserTelemetrics" />
         </node>
       </node>
       <node concept="3cqZAl" id="1EBV9L$_AM8" role="3clF45" />
@@ -1781,7 +1781,7 @@
     <node concept="3Tm1VV" id="2yuEF6q8DRN" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="4x14MABr2ep">
-    <property role="TrG5h" value="FSummaryTelemetrics" />
+    <property role="TrG5h" value="SummaryTelemetrics" />
     <node concept="Wx3nA" id="1XvfUlyAdif" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="3TUv4t" value="true" />
@@ -1848,28 +1848,28 @@
       <property role="TrG5h" value="durationSampler" />
       <node concept="3Tm6S6" id="1XvfUly$54g" role="1B3o_S" />
       <node concept="3uibUv" id="4QTIUTBRsrN" role="1tU5fm">
-        <ref role="3uigEE" node="4QTIUTBRe6X" resolve="FTelemetricsLongSampler" />
+        <ref role="3uigEE" node="4QTIUTBRe6X" resolve="TelemetricsLongSampler" />
       </node>
     </node>
     <node concept="312cEg" id="1XvfUlyA7pu" role="jymVt">
       <property role="TrG5h" value="exceptionSampler" />
       <node concept="3Tm6S6" id="1XvfUlyA7pv" role="1B3o_S" />
       <node concept="3uibUv" id="4QTIUTBRtq1" role="1tU5fm">
-        <ref role="3uigEE" node="4QTIUTBRe6X" resolve="FTelemetricsLongSampler" />
+        <ref role="3uigEE" node="4QTIUTBRe6X" resolve="TelemetricsLongSampler" />
       </node>
     </node>
     <node concept="312cEg" id="1XvfUlyA7xb" role="jymVt">
       <property role="TrG5h" value="requestSampler" />
       <node concept="3Tm6S6" id="1XvfUlyA7xc" role="1B3o_S" />
       <node concept="3uibUv" id="4QTIUTBRtCg" role="1tU5fm">
-        <ref role="3uigEE" node="4QTIUTBRe6X" resolve="FTelemetricsLongSampler" />
+        <ref role="3uigEE" node="4QTIUTBRe6X" resolve="TelemetricsLongSampler" />
       </node>
     </node>
     <node concept="312cEg" id="1XvfUlyA7CV" role="jymVt">
       <property role="TrG5h" value="commandSampler" />
       <node concept="3Tm6S6" id="1XvfUlyA7CW" role="1B3o_S" />
       <node concept="3uibUv" id="4QTIUTBRtQs" role="1tU5fm">
-        <ref role="3uigEE" node="4QTIUTBRe6X" resolve="FTelemetricsLongSampler" />
+        <ref role="3uigEE" node="4QTIUTBRe6X" resolve="TelemetricsLongSampler" />
       </node>
     </node>
     <node concept="2tJIrI" id="1XvfUly$42R" role="jymVt" />
@@ -2142,7 +2142,7 @@
           <node concept="37vLTI" id="1XvfUly$7$6" role="3clFbG">
             <node concept="2ShNRf" id="1XvfUly$7AA" role="37vLTx">
               <node concept="1pGfFk" id="1XvfUly$7_J" role="2ShVmc">
-                <ref role="37wK5l" node="4QTIUTBRe77" resolve="FTelemetricsLongSampler" />
+                <ref role="37wK5l" node="4QTIUTBRe77" resolve="TelemetricsLongSampler" />
                 <node concept="3cmrfG" id="1XvfUly$7Dk" role="37wK5m">
                   <property role="3cmrfH" value="10000" />
                 </node>
@@ -2157,7 +2157,7 @@
           <node concept="37vLTI" id="1XvfUlyAav2" role="3clFbG">
             <node concept="2ShNRf" id="1XvfUlyAav3" role="37vLTx">
               <node concept="1pGfFk" id="1XvfUlyAav4" role="2ShVmc">
-                <ref role="37wK5l" node="4QTIUTBRe77" resolve="FTelemetricsLongSampler" />
+                <ref role="37wK5l" node="4QTIUTBRe77" resolve="TelemetricsLongSampler" />
                 <node concept="3cmrfG" id="1XvfUlyAav5" role="37wK5m">
                   <property role="3cmrfH" value="10000" />
                 </node>
@@ -2172,7 +2172,7 @@
           <node concept="37vLTI" id="1XvfUlyAavG" role="3clFbG">
             <node concept="2ShNRf" id="1XvfUlyAavH" role="37vLTx">
               <node concept="1pGfFk" id="1XvfUlyAavI" role="2ShVmc">
-                <ref role="37wK5l" node="4QTIUTBRe77" resolve="FTelemetricsLongSampler" />
+                <ref role="37wK5l" node="4QTIUTBRe77" resolve="TelemetricsLongSampler" />
                 <node concept="3cmrfG" id="1XvfUlyAavJ" role="37wK5m">
                   <property role="3cmrfH" value="10000" />
                 </node>
@@ -2187,7 +2187,7 @@
           <node concept="37vLTI" id="1XvfUlyAaRx" role="3clFbG">
             <node concept="2ShNRf" id="1XvfUlyAaRy" role="37vLTx">
               <node concept="1pGfFk" id="1XvfUlyAaRz" role="2ShVmc">
-                <ref role="37wK5l" node="4QTIUTBRe77" resolve="FTelemetricsLongSampler" />
+                <ref role="37wK5l" node="4QTIUTBRe77" resolve="TelemetricsLongSampler" />
                 <node concept="3cmrfG" id="1XvfUlyAaR$" role="37wK5m">
                   <property role="3cmrfH" value="10000" />
                 </node>
@@ -2392,7 +2392,7 @@
               <node concept="3cpWsd" id="1XvfUlyAi61" role="37wK5m">
                 <node concept="10M0yZ" id="4QTIUTBR4mG" role="3uHU7w">
                   <ref role="3cqZAo" node="1XvfUlyAdif" resolve="hour" />
-                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="FSummaryTelemetrics" />
+                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="SummaryTelemetrics" />
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAhRT" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
@@ -2420,7 +2420,7 @@
               <node concept="3cpWsd" id="1XvfUlyAiac" role="37wK5m">
                 <node concept="10M0yZ" id="4QTIUTBR4mH" role="3uHU7w">
                   <ref role="3cqZAo" node="1XvfUlyAf8N" resolve="tenMinutes" />
-                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="FSummaryTelemetrics" />
+                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="SummaryTelemetrics" />
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAiad" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
@@ -2465,7 +2465,7 @@
               <ref role="37wK5l" node="1XvfUly$e5w" resolve="getCount" />
               <node concept="3cpWsd" id="1XvfUlyAiL5" role="37wK5m">
                 <node concept="10M0yZ" id="4QTIUTBR4mI" role="3uHU7w">
-                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="FSummaryTelemetrics" />
+                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="SummaryTelemetrics" />
                   <ref role="3cqZAo" node="1XvfUlyAdif" resolve="hour" />
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAiyX" role="3uHU7B">
@@ -2493,7 +2493,7 @@
               <ref role="37wK5l" node="1XvfUly$e5w" resolve="getCount" />
               <node concept="3cpWsd" id="1XvfUlyAiQW" role="37wK5m">
                 <node concept="10M0yZ" id="4QTIUTBR4mJ" role="3uHU7w">
-                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="FSummaryTelemetrics" />
+                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="SummaryTelemetrics" />
                   <ref role="3cqZAo" node="1XvfUlyAf8N" resolve="tenMinutes" />
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAiQX" role="3uHU7B">
@@ -2558,7 +2558,7 @@
               <node concept="3cpWsd" id="1XvfUlyAj3e" role="37wK5m">
                 <node concept="10M0yZ" id="4QTIUTBR4mK" role="3uHU7w">
                   <ref role="3cqZAo" node="1XvfUlyAdif" resolve="hour" />
-                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="FSummaryTelemetrics" />
+                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="SummaryTelemetrics" />
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAj3f" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
@@ -2586,7 +2586,7 @@
               <node concept="3cpWsd" id="1XvfUlyAj5y" role="37wK5m">
                 <node concept="10M0yZ" id="4QTIUTBR4mL" role="3uHU7w">
                   <ref role="3cqZAo" node="1XvfUlyAf8N" resolve="tenMinutes" />
-                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="FSummaryTelemetrics" />
+                  <ref role="1PxDUh" node="4x14MABr2ep" resolve="SummaryTelemetrics" />
                 </node>
                 <node concept="2YIFZM" id="1XvfUlyAj5z" role="3uHU7B">
                   <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
@@ -3354,14 +3354,14 @@
     <node concept="2tJIrI" id="5OZ8iimB3kz" role="jymVt" />
     <node concept="3Tm1VV" id="4x14MABr2eq" role="1B3o_S" />
     <node concept="3uibUv" id="4x14MABr74T" role="EKbjA">
-      <ref role="3uigEE" node="4x14MABr6ZL" resolve="FSummaryTelemetricsMBean" />
+      <ref role="3uigEE" node="4x14MABr6ZL" resolve="SummaryTelemetricsMBean" />
     </node>
     <node concept="3uibUv" id="4O5lEKxGLZ$" role="1zkMxy">
       <ref role="3uigEE" to="9vh7:~NotificationBroadcasterSupport" resolve="NotificationBroadcasterSupport" />
     </node>
   </node>
   <node concept="312cEu" id="1EBV9L$__ru">
-    <property role="TrG5h" value="FUserTelemetrics" />
+    <property role="TrG5h" value="UserTelemetrics" />
     <node concept="3uibUv" id="2$LKw9UWoND" role="EKbjA">
       <ref role="3uigEE" to="28jr:2$LKw9UWnvq" resolve="IOFXUserJmxServices" />
     </node>
@@ -3816,7 +3816,7 @@
     </node>
     <node concept="3Tm1VV" id="1EBV9L$__rv" role="1B3o_S" />
     <node concept="3uibUv" id="1EBV9L$__Eb" role="EKbjA">
-      <ref role="3uigEE" node="1EBV9L$__sD" resolve="FUserTelemetricsMBean" />
+      <ref role="3uigEE" node="1EBV9L$__sD" resolve="UserTelemetricsMBean" />
     </node>
     <node concept="3uibUv" id="6TYnK1btBm7" role="1zkMxy">
       <ref role="3uigEE" to="9vh7:~NotificationBroadcasterSupport" resolve="NotificationBroadcasterSupport" />
@@ -3865,7 +3865,7 @@
     </node>
   </node>
   <node concept="312cEu" id="4QTIUTBRe6X">
-    <property role="TrG5h" value="FTelemetricsLongSampler" />
+    <property role="TrG5h" value="TelemetricsLongSampler" />
     <node concept="3Tm1VV" id="4QTIUTBRe6Y" role="1B3o_S" />
     <node concept="312cEg" id="4QTIUTBRe6Z" role="jymVt">
       <property role="TrG5h" value="max" />
@@ -5196,11 +5196,11 @@
           <node concept="3cpWsn" id="1w5Ldyj30cD" role="3cpWs9">
             <property role="TrG5h" value="m" />
             <node concept="3uibUv" id="1w5Ldyj30cE" role="1tU5fm">
-              <ref role="3uigEE" node="4QTIUTBRe6X" resolve="FTelemetricsLongSampler" />
+              <ref role="3uigEE" node="4QTIUTBRe6X" resolve="TelemetricsLongSampler" />
             </node>
             <node concept="2ShNRf" id="1w5Ldyj30eh" role="33vP2m">
               <node concept="1pGfFk" id="1w5Ldyj30eg" role="2ShVmc">
-                <ref role="37wK5l" node="4QTIUTBRe77" resolve="FTelemetricsLongSampler" />
+                <ref role="37wK5l" node="4QTIUTBRe77" resolve="TelemetricsLongSampler" />
                 <node concept="3cmrfG" id="1w5Ldyj30fi" role="37wK5m">
                   <property role="3cmrfH" value="10000" />
                 </node>
@@ -5307,7 +5307,7 @@
     </node>
   </node>
   <node concept="3HP615" id="4x14MABr6ZL">
-    <property role="TrG5h" value="FSummaryTelemetricsMBean" />
+    <property role="TrG5h" value="SummaryTelemetricsMBean" />
     <node concept="2tJIrI" id="4x14MABr6ZN" role="jymVt" />
     <node concept="3clFb_" id="1XvfUlyA6SM" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -5540,7 +5540,7 @@
     <node concept="2tJIrI" id="1w5Ldyj69CW" role="jymVt" />
   </node>
   <node concept="3HP615" id="1EBV9L$__sD">
-    <property role="TrG5h" value="FUserTelemetricsMBean" />
+    <property role="TrG5h" value="UserTelemetricsMBean" />
     <node concept="3clFb_" id="1EBV9L$__$$" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="get0_Username" />

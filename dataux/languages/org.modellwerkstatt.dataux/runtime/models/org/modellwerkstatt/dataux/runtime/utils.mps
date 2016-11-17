@@ -1781,7 +1781,7 @@
     </node>
   </node>
   <node concept="312cEu" id="2zlZ_in5Vzm">
-    <property role="TrG5h" value="FDefaultTrans" />
+    <property role="TrG5h" value="DefaultTrans" />
     <node concept="3Tm1VV" id="2zlZ_in5Vzn" role="1B3o_S" />
     <node concept="Wx3nA" id="79n7_omq6WT" role="jymVt">
       <property role="3TUv4t" value="true" />
@@ -1816,7 +1816,7 @@
       <property role="TrG5h" value="translationSelection" />
       <node concept="3Tm6S6" id="4Rlyz3EoDyj" role="1B3o_S" />
       <node concept="3uibUv" id="4Rlyz3EoDKe" role="1tU5fm">
-        <ref role="3uigEE" node="4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
+        <ref role="3uigEE" node="4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
       </node>
     </node>
     <node concept="2tJIrI" id="4Rlyz3EoDl7" role="jymVt" />
@@ -1824,7 +1824,7 @@
       <node concept="37vLTG" id="4Rlyz3EoDi9" role="3clF46">
         <property role="TrG5h" value="sys" />
         <node concept="3uibUv" id="4Rlyz3EoDjC" role="1tU5fm">
-          <ref role="3uigEE" node="4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
+          <ref role="3uigEE" node="4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
         </node>
       </node>
       <node concept="3cqZAl" id="2zlZ_in5Vzp" role="3clF45" />
@@ -1872,7 +1872,7 @@
           <node concept="3clFbC" id="4Rlyz3EoIeq" role="3clFbw">
             <node concept="Rm8GO" id="4Rlyz3EoIi6" role="3uHU7w">
               <ref role="Rm8GQ" node="4Rlyz3EoCZM" resolve="MAIN_TRANSLATIONS" />
-              <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
+              <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
             </node>
             <node concept="37vLTw" id="4Rlyz3EoI7s" role="3uHU7B">
               <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="translationSelection" />
@@ -1882,7 +1882,7 @@
             <node concept="3clFbC" id="4Rlyz3EoIDd" role="3eO9$A">
               <node concept="Rm8GO" id="4Rlyz3EoIGX" role="3uHU7w">
                 <ref role="Rm8GQ" node="4Rlyz3EoD4a" resolve="V_TRANSLATIONS" />
-                <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
+                <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
               </node>
               <node concept="37vLTw" id="4Rlyz3EoIyI" role="3uHU7B">
                 <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="translationSelection" />
@@ -1940,7 +1940,7 @@
             <node concept="3clFbC" id="4Rlyz3EoL5S" role="3eO9$A">
               <node concept="Rm8GO" id="4Rlyz3EoL7U" role="3uHU7w">
                 <ref role="Rm8GQ" node="4Rlyz3EoCZ5" resolve="H1_TRANSLATIONS" />
-                <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="FDefaultTrans.TranslationSelection" />
+                <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
               </node>
               <node concept="37vLTw" id="4Rlyz3EoKZi" role="3uHU7B">
                 <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="translationSelection" />
@@ -2010,7 +2010,7 @@
       <node concept="37vLTG" id="2zlZ_in69hi" role="3clF46">
         <property role="TrG5h" value="keyToTranslate" />
         <node concept="3uibUv" id="2zlZ_in69hx" role="1tU5fm">
-          <ref role="3uigEE" node="2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+          <ref role="3uigEE" node="2zlZ_in69hm" resolve="DefaultTrans.Key" />
         </node>
       </node>
       <node concept="17QB3L" id="2zlZ_in69hh" role="3clF45" />
@@ -2043,15 +2043,15 @@
       <property role="TrG5h" value="Problem" />
       <node concept="QsSxf" id="2UFgF_lVped" role="Qtgdg">
         <property role="TrG5h" value="TCN" />
-        <ref role="37wK5l" node="2UFgF_lVt4p" resolve="FDefaultTrans.Problem" />
+        <ref role="37wK5l" node="2UFgF_lVt4p" resolve="DefaultTrans.Problem" />
       </node>
       <node concept="QsSxf" id="2UFgF_lVpeK" role="Qtgdg">
         <property role="TrG5h" value="UNDEFINED" />
-        <ref role="37wK5l" node="2UFgF_lVt4p" resolve="FDefaultTrans.Problem" />
+        <ref role="37wK5l" node="2UFgF_lVt4p" resolve="DefaultTrans.Problem" />
       </node>
       <node concept="QsSxf" id="2UFgF_lVpfA" role="Qtgdg">
         <property role="TrG5h" value="GET" />
-        <ref role="37wK5l" node="2UFgF_lVt4p" resolve="FDefaultTrans.Problem" />
+        <ref role="37wK5l" node="2UFgF_lVt4p" resolve="DefaultTrans.Problem" />
       </node>
       <node concept="3Tm1VV" id="2UFgF_lVoWM" role="1B3o_S" />
       <node concept="3clFbW" id="2UFgF_lVt4p" role="jymVt">
@@ -2067,7 +2067,7 @@
       <property role="TrG5h" value="Key" />
       <node concept="QsSxf" id="2zlZ_in69hs" role="Qtgdg">
         <property role="TrG5h" value="CLOSE_APP" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="2zlZ_in69ht" role="37wK5m">
           <property role="Xl_RC" value="Soll die Applikation wirklich geschlossen werden?\nAlle laufenden Kommandos werden abgebrochen." />
         </node>
@@ -2080,7 +2080,7 @@
       </node>
       <node concept="QsSxf" id="3zf0S8jLMuW" role="Qtgdg">
         <property role="TrG5h" value="CLOS_APP_SHORT" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="3zf0S8jLMFA" role="37wK5m">
           <property role="Xl_RC" value="Applikation schliessen?" />
         </node>
@@ -2093,7 +2093,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtC" role="Qtgdg">
         <property role="TrG5h" value="START" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtD" role="37wK5m">
           <property role="Xl_RC" value="_START" />
         </node>
@@ -2106,7 +2106,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtF" role="Qtgdg">
         <property role="TrG5h" value="EDIT" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtG" role="37wK5m">
           <property role="Xl_RC" value="Bearbeiten" />
         </node>
@@ -2119,7 +2119,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQuC" role="Qtgdg">
         <property role="TrG5h" value="CUT" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQuD" role="37wK5m">
           <property role="Xl_RC" value="Ausschneiden" />
         </node>
@@ -2132,7 +2132,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQuF" role="Qtgdg">
         <property role="TrG5h" value="COPY" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQuG" role="37wK5m">
           <property role="Xl_RC" value="Kopieren" />
         </node>
@@ -2145,7 +2145,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQuI" role="Qtgdg">
         <property role="TrG5h" value="PASTE" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQuJ" role="37wK5m">
           <property role="Xl_RC" value="Einfügen" />
         </node>
@@ -2158,7 +2158,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtI" role="Qtgdg">
         <property role="TrG5h" value="EXTRA" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtJ" role="37wK5m">
           <property role="Xl_RC" value="_Extras" />
         </node>
@@ -2171,7 +2171,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtO" role="Qtgdg">
         <property role="TrG5h" value="HELP" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtP" role="37wK5m">
           <property role="Xl_RC" value="_Hilfe" />
         </node>
@@ -2184,7 +2184,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtR" role="Qtgdg">
         <property role="TrG5h" value="VERSION" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtS" role="37wK5m">
           <property role="Xl_RC" value="_Version" />
         </node>
@@ -2197,7 +2197,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtU" role="Qtgdg">
         <property role="TrG5h" value="ABOUT" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtV" role="37wK5m">
           <property role="Xl_RC" value="Über" />
         </node>
@@ -2210,7 +2210,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtL" role="Qtgdg">
         <property role="TrG5h" value="QUIT" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQtM" role="37wK5m">
           <property role="Xl_RC" value="Beenden (ALT-F4)" />
         </node>
@@ -2223,7 +2223,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQvN" role="Qtgdg">
         <property role="TrG5h" value="OK_BUTTON" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQvO" role="37wK5m">
           <property role="Xl_RC" value="Ok (F12)" />
         </node>
@@ -2236,7 +2236,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQvQ" role="Qtgdg">
         <property role="TrG5h" value="ESC_BUTTON" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQvR" role="37wK5m">
           <property role="Xl_RC" value="Abbrechen (ESC)" />
         </node>
@@ -2249,7 +2249,7 @@
       </node>
       <node concept="QsSxf" id="4vHQZKCcE0A" role="Qtgdg">
         <property role="TrG5h" value="YES_BUTTON" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4vHQZKCcRns" role="37wK5m">
           <property role="Xl_RC" value="Ja (F12)" />
         </node>
@@ -2262,7 +2262,7 @@
       </node>
       <node concept="QsSxf" id="4vHQZKCcRpU" role="Qtgdg">
         <property role="TrG5h" value="NO_BUTTON" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4vHQZKCcREd" role="37wK5m">
           <property role="Xl_RC" value="Nein (ESC)" />
         </node>
@@ -2275,7 +2275,7 @@
       </node>
       <node concept="QsSxf" id="2FClOw1VSS5" role="Qtgdg">
         <property role="TrG5h" value="CLOSE_BUTTON" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="2FClOw1VSS6" role="37wK5m">
           <property role="Xl_RC" value="Schliessen (ESC)" />
         </node>
@@ -2288,7 +2288,7 @@
       </node>
       <node concept="QsSxf" id="5ECQsWUk$8w" role="Qtgdg">
         <property role="TrG5h" value="HELP_BUTTON" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="5ECQsWUk$8x" role="37wK5m">
           <property role="Xl_RC" value="?" />
         </node>
@@ -2301,7 +2301,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQwf" role="Qtgdg">
         <property role="TrG5h" value="ERROR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQwg" role="37wK5m">
           <property role="Xl_RC" value="Fehler" />
         </node>
@@ -2314,7 +2314,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQwi" role="Qtgdg">
         <property role="TrG5h" value="INFORMATION" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQwj" role="37wK5m">
           <property role="Xl_RC" value="Information" />
         </node>
@@ -2327,7 +2327,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQwl" role="Qtgdg">
         <property role="TrG5h" value="QUESTION" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQwm" role="37wK5m">
           <property role="Xl_RC" value="Frage" />
         </node>
@@ -2340,7 +2340,7 @@
       </node>
       <node concept="QsSxf" id="2UFgF_lRBS0" role="Qtgdg">
         <property role="TrG5h" value="TEC_USER_ERROR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="S3k7aiQRB6" role="37wK5m">
           <property role="Xl_RC" value="Ein Fehler ist aufgetreten. Ihre Bearbeitung wurde abgebrochen\nund beendet." />
         </node>
@@ -2353,7 +2353,7 @@
       </node>
       <node concept="QsSxf" id="7iXVPHb52Pu" role="Qtgdg">
         <property role="TrG5h" value="SF_TEC_USER_ERROR_" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="7iXVPHb53fz" role="37wK5m">
           <property role="Xl_RC" value="Das Kommando '%s' konnte am System nicht erfolgreich ausgeführt werden.\nEin Fehler ist aufgetreten. Das Kommando wurde beendet." />
         </node>
@@ -2366,7 +2366,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQxQ" role="Qtgdg">
         <property role="TrG5h" value="TEC_ERROR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQxR" role="37wK5m">
           <property role="Xl_RC" value="Technischer Ausnahme-Fehler " />
         </node>
@@ -2379,7 +2379,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2UD" role="Qtgdg">
         <property role="TrG5h" value="CRTL_SPACE_PRESS" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2UE" role="37wK5m">
           <property role="Xl_RC" value="&lt;crtl-space drücken&gt;" />
         </node>
@@ -2392,7 +2392,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2UH" role="Qtgdg">
         <property role="TrG5h" value="REF_VALIDATION_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2UI" role="37wK5m">
           <property role="Xl_RC" value="Eine gültige Auswahl muss getroffen werden." />
         </node>
@@ -2405,7 +2405,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2UK" role="Qtgdg">
         <property role="TrG5h" value="REF_NO_OPTION_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2UL" role="37wK5m">
           <property role="Xl_RC" value="Sie müssen an dieser Stelle eine Auswahl treffen." />
         </node>
@@ -2418,7 +2418,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2NB" role="Qtgdg">
         <property role="TrG5h" value="DATE_VALIDATION_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2NC" role="37wK5m">
           <property role="Xl_RC" value="Ungültiges Datum bzw. Datum muss im Format %s eingegeben werden." />
         </node>
@@ -2431,7 +2431,7 @@
       </node>
       <node concept="QsSxf" id="1l2SXGvJjp8" role="Qtgdg">
         <property role="TrG5h" value="DATETIME_VALIDATION_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="1l2SXGvJjKb" role="37wK5m">
           <property role="Xl_RC" value="Ungültiges Datum / Uhrzeit. Muss im Format %s eingegeben werden." />
         </node>
@@ -2442,7 +2442,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Oi" role="Qtgdg">
         <property role="TrG5h" value="DECIMAL_VALIDATION_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2Oj" role="37wK5m">
           <property role="Xl_RC" value="Zahl muss im Format %s eingegeben werden." />
         </node>
@@ -2455,7 +2455,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2OE" role="Qtgdg">
         <property role="TrG5h" value="DECIMAL_BETWEEN_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2OF" role="37wK5m">
           <property role="Xl_RC" value="Zahl muss zwischen %s und %s eingegeben werden." />
         </node>
@@ -2468,7 +2468,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Q2" role="Qtgdg">
         <property role="TrG5h" value="DECIMAL_MINIMUM_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2Q3" role="37wK5m">
           <property role="Xl_RC" value="Zahl muss größer als %s eingegeben werden." />
         </node>
@@ -2481,7 +2481,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Qa" role="Qtgdg">
         <property role="TrG5h" value="DECIMAL_MAXIMUM_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2Qb" role="37wK5m">
           <property role="Xl_RC" value="Zahl muss kleiner als %s eingegeben werden." />
         </node>
@@ -2494,7 +2494,7 @@
       </node>
       <node concept="QsSxf" id="4sMOTLiJLba" role="Qtgdg">
         <property role="TrG5h" value="DECIMAL_SCALE_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4sMOTLiJLbb" role="37wK5m">
           <property role="Xl_RC" value="Zahl darf nur %s Nachkommastellen aufweisen." />
         </node>
@@ -2507,7 +2507,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Rk" role="Qtgdg">
         <property role="TrG5h" value="INTEGER_VALIDATION_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2Rl" role="37wK5m">
           <property role="Xl_RC" value="Eine Ganz-Zahl muss eingegeben werden." />
         </node>
@@ -2520,7 +2520,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2V9" role="Qtgdg">
         <property role="TrG5h" value="STATUS_VALIDATION_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2Va" role="37wK5m">
           <property role="Xl_RC" value="Ein Status muss gewählt werden." />
         </node>
@@ -2533,7 +2533,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Vl" role="Qtgdg">
         <property role="TrG5h" value="STRING_MAX_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2Vm" role="37wK5m">
           <property role="Xl_RC" value="Es dürfen nicht mehr als %s Zeichen eingegeben werden." />
         </node>
@@ -2546,7 +2546,7 @@
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Vo" role="Qtgdg">
         <property role="TrG5h" value="STRING_MIN_ERR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2Vp" role="37wK5m">
           <property role="Xl_RC" value="Es müssen mehr als %s Zeichen eingegeben werden." />
         </node>
@@ -2559,7 +2559,7 @@
       </node>
       <node concept="QsSxf" id="2k02KvYsQn9" role="Qtgdg">
         <property role="TrG5h" value="TCN_PROBLEM" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="2k02KvYsQna" role="37wK5m">
           <property role="Xl_RC" value="Ein anderer Benutzer hat ihren Datensatz bearbeitet und bereits gespeichert. Sie müssen\nihren Datensatz daher verwerfen und den aktuellsten Datensatz laden." />
         </node>
@@ -2572,7 +2572,7 @@
       </node>
       <node concept="QsSxf" id="76zkUWQiQps" role="Qtgdg">
         <property role="TrG5h" value="INSERT_DELETE_RELOAD_PROBLEM" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="76zkUWQiQXU" role="37wK5m">
           <property role="Xl_RC" value="Ein Teil des Datensatzes konnte nicht gespeichert, gelöscht oder neu geladen werden." />
         </node>
@@ -2585,7 +2585,7 @@
       </node>
       <node concept="QsSxf" id="2UFgF_lTjOD" role="Qtgdg">
         <property role="TrG5h" value="GET_USER_PROBLEM" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="2UFgF_lTk28" role="37wK5m">
           <property role="Xl_RC" value="Ein notwendiger Datensatz wurde auf der Datenbank nicht gefunden." />
         </node>
@@ -2598,7 +2598,7 @@
       </node>
       <node concept="QsSxf" id="33ZdaytgtNw" role="Qtgdg">
         <property role="TrG5h" value="GET_PROBLEM" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="33ZdaytgtNx" role="37wK5m">
           <property role="Xl_RC" value="Ein notwendiger Datensatz wurde auf der Datenbank nicht gefunden." />
         </node>
@@ -2611,7 +2611,7 @@
       </node>
       <node concept="QsSxf" id="4vUcH_0hKSO" role="Qtgdg">
         <property role="TrG5h" value="SESSION_DIRTY" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4vUcH_0hKSP" role="37wK5m">
           <property role="Xl_RC" value="Es wurden mit diesem Kommando Daten verändert, die NICHT gespeichert wurden!\n Kommando dennoch beenden?\n" />
         </node>
@@ -2624,7 +2624,7 @@
       </node>
       <node concept="QsSxf" id="5ECQsWUjJIu" role="Qtgdg">
         <property role="TrG5h" value="HELP_URL" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="5ECQsWUjUfg" role="37wK5m">
           <property role="Xl_RC" value="https://connections.mpreis.co.at/wikis/home#!/wiki/W8f7f2eee57a3_4dee_9303_294af9992de5/page/" />
         </node>
@@ -2637,7 +2637,7 @@
       </node>
       <node concept="QsSxf" id="1V62ZiDaX2F" role="Qtgdg">
         <property role="TrG5h" value="LOGIN_FIRST" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="1V62ZiDaXga" role="37wK5m">
           <property role="Xl_RC" value="System-Anmeldung" />
         </node>
@@ -2650,7 +2650,7 @@
       </node>
       <node concept="QsSxf" id="1V62ZiDlQYU" role="Qtgdg">
         <property role="TrG5h" value="LOGIN_BUTTON" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="1V62ZiDlQYV" role="37wK5m">
           <property role="Xl_RC" value="Anmelden (F12)" />
         </node>
@@ -2663,7 +2663,7 @@
       </node>
       <node concept="QsSxf" id="1EBV9L$IJAc" role="Qtgdg">
         <property role="TrG5h" value="LOGIN_EXTENDED_USERNAME" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="1EBV9L$IKfg" role="37wK5m">
           <property role="Xl_RC" value="Benutzername z.B. martinm" />
         </node>
@@ -2676,7 +2676,7 @@
       </node>
       <node concept="QsSxf" id="1V62ZiDaXrg" role="Qtgdg">
         <property role="TrG5h" value="USERNAME" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="1V62ZiDaXCG" role="37wK5m">
           <property role="Xl_RC" value="Benutzer" />
         </node>
@@ -2689,7 +2689,7 @@
       </node>
       <node concept="QsSxf" id="1V62ZiDaXN5" role="Qtgdg">
         <property role="TrG5h" value="PASSWORD" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="1V62ZiDaY0Q" role="37wK5m">
           <property role="Xl_RC" value="Passwort" />
         </node>
@@ -2702,7 +2702,7 @@
       </node>
       <node concept="QsSxf" id="1Q0KaWuHuYZ" role="Qtgdg">
         <property role="TrG5h" value="LOGIN_FAILED" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="1Q0KaWuHvd8" role="37wK5m">
           <property role="Xl_RC" value="Sie konnten nicht am System angemeldet werden.\n(Keine/falsche Rechte)" />
         </node>
@@ -2715,7 +2715,7 @@
       </node>
       <node concept="QsSxf" id="1Q0KaWuHvoG" role="Qtgdg">
         <property role="TrG5h" value="WRONGUSER_PWD" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="1Q0KaWuHvoH" role="37wK5m">
           <property role="Xl_RC" value="Falscher Benutzername oder falsches Passwort." />
         </node>
@@ -2728,7 +2728,7 @@
       </node>
       <node concept="QsSxf" id="58$$edtkjnA" role="Qtgdg">
         <property role="TrG5h" value="NO_PERMISSIONS_FOR_CMD" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="58$$edtkl8g" role="37wK5m">
           <property role="Xl_RC" value="Sie haben nicht die notwendige Berechtiung um dieses Kommando auszuführen" />
         </node>
@@ -2741,7 +2741,7 @@
       </node>
       <node concept="QsSxf" id="3zf0S8jTsbg" role="Qtgdg">
         <property role="TrG5h" value="MOWARE_ABOUT" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="3zf0S8jTsbh" role="37wK5m">
           <property role="Xl_RC" value="die modellwerkstatt" />
         </node>
@@ -2754,7 +2754,7 @@
       </node>
       <node concept="QsSxf" id="3zf0S8jTsmW" role="Qtgdg">
         <property role="TrG5h" value="MOWARE_HELP" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="3zf0S8jTsmX" role="37wK5m">
           <property role="Xl_RC" value="Falls sie Hilfe mit dieser Applikation benötigen, wenden Sie sich and ... ." />
         </node>
@@ -2767,7 +2767,7 @@
       </node>
       <node concept="QsSxf" id="1sUmI9zht75" role="Qtgdg">
         <property role="TrG5h" value="LOCK_NOT_GOT_READONLY" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="1sUmI9zht9C" role="37wK5m">
           <property role="Xl_RC" value="%s verwendet Ressourcen, die für die Ausführung des Kommandos notwendig sind (Kommando nur im Lesemodus)." />
         </node>
@@ -2780,7 +2780,7 @@
       </node>
       <node concept="QsSxf" id="7DInbKypMVW" role="Qtgdg">
         <property role="TrG5h" value="MAINTAINANCE_MODE" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="7DInbKypNbD" role="37wK5m">
           <property role="Xl_RC" value="Dieser Dienst steht gegenwärtig nicht zu Verfügung. Wartungsarbeiten werden durchgeführt." />
         </node>
@@ -2793,7 +2793,7 @@
       </node>
       <node concept="QsSxf" id="7nxGN1HIKgU" role="Qtgdg">
         <property role="TrG5h" value="APPLICATION_LOCKED" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="7nxGN1HIKwE" role="37wK5m">
           <property role="Xl_RC" value="Die Anwendung wird durch eine neue Version ersetzt. Bitte speichern \nSie ihre Aenderungen und starten Sie die Applikation erneut!" />
         </node>
@@ -2806,7 +2806,7 @@
       </node>
       <node concept="QsSxf" id="6OyHsl_0Q4P" role="Qtgdg">
         <property role="TrG5h" value="APPLICATION_RUNNING_IN_BROWSER" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="7S_QNZ7slv0" role="37wK5m">
           <property role="Xl_RC" value="Die Applikation wird in einem anderen Browser-Tab bereits ausgeführt oder Sie haben sich mit der Applikation nicht abgemeldet (Menu 'START' - 'BEENDEN'). (clicken Sie auf diese Meldung, um zu bestätigen)" />
         </node>
@@ -2819,7 +2819,7 @@
       </node>
       <node concept="QsSxf" id="7DInbKyry1J" role="Qtgdg">
         <property role="TrG5h" value="SERVLET_BASE_ADR" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="7DInbKyry1K" role="37wK5m">
           <property role="Xl_RC" value="Ihr letztes Kommando wurde abgebrochen. Sie sind nun im Start-Menü." />
         </node>
@@ -2832,7 +2832,7 @@
       </node>
       <node concept="QsSxf" id="7708TIHHbb2" role="Qtgdg">
         <property role="TrG5h" value="MOWARE_VERSION" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="3cpWs3" id="7708TIHHbx3" role="37wK5m">
           <node concept="37vLTw" id="7708TIHHbyL" role="3uHU7w">
             <ref role="3cqZAo" node="7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
@@ -2850,7 +2850,7 @@
       </node>
       <node concept="QsSxf" id="5JJsFAvp84Y" role="Qtgdg">
         <property role="TrG5h" value="CMD_OPENED_IN_OTHER_TAB" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="5JJsFAvpd2h" role="37wK5m">
           <property role="Xl_RC" value="Das Kommando wird in einem weiteren Browser-Tab ausgeführt." />
         </node>
@@ -2863,7 +2863,7 @@
       </node>
       <node concept="QsSxf" id="5JJsFAvpd5y" role="Qtgdg">
         <property role="TrG5h" value="CMD_CLOSED_IN_TAB" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="5JJsFAvpdml" role="37wK5m">
           <property role="Xl_RC" value="Das Kommando in diesem Browser-Tab wurde beendet." />
         </node>
@@ -2876,7 +2876,7 @@
       </node>
       <node concept="QsSxf" id="6eUMu2ekBdf" role="Qtgdg">
         <property role="TrG5h" value="NETWORK_PROBLEMS" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="FDefaultTrans.Key" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="6eUMu2el1Tb" role="37wK5m">
           <property role="Xl_RC" value="Die Netzwerkverbindung / Empfang wurde unterbrochen oder schwer beeinträchtigt. (Verbindung sicherstellen!)" />
         </node>
@@ -3012,7 +3012,7 @@
     </node>
   </node>
   <node concept="312cEu" id="3u6rNybc6RI">
-    <property role="TrG5h" value="FLayoutConstraint" />
+    <property role="TrG5h" value="LayoutConstraint" />
     <node concept="3Tm1VV" id="3u6rNybc6RJ" role="1B3o_S" />
     <node concept="312cEg" id="3u6rNybc8Mq" role="jymVt">
       <property role="TrG5h" value="pxl" />
@@ -3305,7 +3305,7 @@
         <property role="TrG5h" value="lc" />
         <node concept="_YKpA" id="3u6rNybchIf" role="1tU5fm">
           <node concept="3uibUv" id="3u6rNybchIh" role="_ZDj9">
-            <ref role="3uigEE" node="3u6rNybc6RI" resolve="FLayoutConstraint" />
+            <ref role="3uigEE" node="3u6rNybc6RI" resolve="LayoutConstraint" />
           </node>
         </node>
       </node>

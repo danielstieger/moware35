@@ -11,7 +11,7 @@
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
-    <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.specifications)" />
+    <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.genspecifications)" />
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.controllers)" />
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
   </imports>
@@ -143,7 +143,7 @@
     </node>
     <node concept="3clFb_" id="dX9tEwAk0n" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="addMenu" />
+      <property role="TrG5h" value="addMenuAndSetButtons" />
       <node concept="37vLTG" id="7aUgYCzxLXV" role="3clF46">
         <property role="TrG5h" value="menu" />
         <node concept="3uibUv" id="7aUgYCzxM0K" role="1tU5fm">
@@ -219,7 +219,7 @@
       <node concept="37vLTG" id="3bZh4Q5wD_n" role="3clF46">
         <property role="TrG5h" value="delegate" />
         <node concept="3uibUv" id="5Y1b9tRerNk" role="1tU5fm">
-          <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="FDelegate" />
+          <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
         </node>
       </node>
       <node concept="3cqZAl" id="3bZh4Q5wwZK" role="3clF45" />
@@ -247,7 +247,7 @@
       <node concept="37vLTG" id="20ohnkbA2LZ" role="3clF46">
         <property role="TrG5h" value="key" />
         <node concept="3uibUv" id="20ohnkbA2ME" role="1tU5fm">
-          <ref role="3uigEE" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+          <ref role="3uigEE" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
         </node>
       </node>
       <node concept="17QB3L" id="20ohnkbA2Nl" role="3clF45" />
@@ -388,7 +388,7 @@
       <node concept="37vLTG" id="5_bDd1dPvSZ" role="3clF46">
         <property role="TrG5h" value="appController" />
         <node concept="3uibUv" id="5_bDd1dPvWu" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
         </node>
       </node>
       <node concept="37vLTG" id="WpszhTXK94" role="3clF46">
@@ -409,7 +409,7 @@
       <node concept="37vLTG" id="5_bDd1dPvZ9" role="3clF46">
         <property role="TrG5h" value="appController" />
         <node concept="3uibUv" id="5_bDd1dPvZa" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
         </node>
       </node>
       <node concept="37vLTG" id="WpszhTTIB8" role="3clF46">
@@ -539,7 +539,7 @@
       <node concept="37vLTG" id="5Y1b9tR271e" role="3clF46">
         <property role="TrG5h" value="dlgt" />
         <node concept="3uibUv" id="5Y1b9tR272h" role="1tU5fm">
-          <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="FDelegate" />
+          <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
         </node>
       </node>
       <node concept="3cqZAl" id="5Y1b9tR25O3" role="3clF45" />
@@ -842,7 +842,7 @@
       <node concept="37vLTG" id="1KgqQuBTUoW" role="3clF46">
         <property role="TrG5h" value="tab" />
         <node concept="3uibUv" id="12Eg3QJlijz" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="1KgqQuBTUk4" role="3clF45" />
@@ -855,7 +855,7 @@
       <node concept="37vLTG" id="4vBE4eLRbt_" role="3clF46">
         <property role="TrG5h" value="tab" />
         <node concept="3uibUv" id="4vBE4eLRbtA" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="4vBE4eLRbtB" role="3clF45" />
@@ -868,7 +868,7 @@
       <node concept="37vLTG" id="1kxCqBRcJlF" role="3clF46">
         <property role="TrG5h" value="tab" />
         <node concept="3uibUv" id="12Eg3QJlilt" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="1kxCqBRcJlH" role="3clF45" />
@@ -1018,7 +1018,7 @@
     <node concept="2tJIrI" id="1KgqQuBsMLj" role="jymVt" />
     <node concept="3clFb_" id="1KgqQuBEsCO" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setMenu" />
+      <property role="TrG5h" value="addMenuAndSetButtons" />
       <node concept="37vLTG" id="1KgqQuBEsS9" role="3clF46">
         <property role="TrG5h" value="folder" />
         <node concept="3uibUv" id="1KgqQuBEsX5" role="1tU5fm">
@@ -1049,7 +1049,7 @@
       <node concept="37vLTG" id="1KgqQuBS1KC" role="3clF46">
         <property role="TrG5h" value="container" />
         <node concept="3uibUv" id="1KgqQuBS1Ne" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="1KgqQuBS1uE" role="3clF45" />

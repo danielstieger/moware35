@@ -4213,5 +4213,34 @@
       <node concept="3clFbS" id="6XdB5k5Wsm1" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="1TTN6_t2qCw">
+    <property role="3GE5qa" value="internalInfra" />
+    <ref role="13h7C2" to="1btx:3nLPQZQ0zzY" resolve="MenuAction" />
+    <node concept="13hLZK" id="1TTN6_t2qCx" role="13h7CW">
+      <node concept="3clFbS" id="1TTN6_t2qCy" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1TTN6_t2qD6" role="13h7CS">
+      <property role="TrG5h" value="isGlobalHotKey" />
+      <node concept="3Tm1VV" id="1TTN6_t2qD7" role="1B3o_S" />
+      <node concept="10P_77" id="1TTN6_t2qDl" role="3clF45" />
+      <node concept="3clFbS" id="1TTN6_t2qD9" role="3clF47">
+        <node concept="3clFbF" id="1TTN6_t2qEa" role="3cqZAp">
+          <node concept="2OqwBi" id="1TTN6_t2qYd" role="3clFbG">
+            <node concept="2OqwBi" id="1TTN6_t2qIk" role="2Oq$k0">
+              <node concept="13iPFW" id="1TTN6_t2qE9" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1TTN6_t2qR2" role="2OqNvi">
+                <node concept="1xMEDy" id="1TTN6_t2qR4" role="1xVPHs">
+                  <node concept="chp4Y" id="1TTN6_t2qRF" role="ri$Ld">
+                    <ref role="cht4Q" to="1btx:6MSPLZmFnKD" resolve="Table" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="1TTN6_t2r$U" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

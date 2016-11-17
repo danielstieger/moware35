@@ -19,7 +19,7 @@
     <import index="zj7m" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.sql(JDK/)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" />
     <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
-    <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.specifications)" />
+    <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.genspecifications)" />
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.controllers)" />
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
@@ -7432,7 +7432,7 @@
       <node concept="37vLTG" id="7RHNXGyQGhr" role="3clF46">
         <property role="TrG5h" value="appController" />
         <node concept="3uibUv" id="7RHNXGyQGhs" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
         </node>
       </node>
       <node concept="37vLTG" id="7RHNXGyQGht" role="3clF46">
@@ -7464,7 +7464,7 @@
       <node concept="37vLTG" id="7RHNXGyQGhB" role="3clF46">
         <property role="TrG5h" value="appController" />
         <node concept="3uibUv" id="7RHNXGyQGhC" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
         </node>
       </node>
       <node concept="37vLTG" id="7RHNXGyQGhD" role="3clF46">

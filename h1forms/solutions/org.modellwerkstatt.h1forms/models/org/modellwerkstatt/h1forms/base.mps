@@ -21,7 +21,7 @@
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
     <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
-    <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.specifications)" />
+    <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.genspecifications)" />
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="x37d" ref="r:72cce30f-2a64-4fe3-8e44-7617cdd42782(org.modellwerkstatt.dataux.runtime.telemetrics)" />
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.controllers)" />
@@ -5632,7 +5632,7 @@
                 <node concept="2OqwBi" id="564QxPIPG66" role="3clFbw">
                   <node concept="10M0yZ" id="564QxPIOZhK" role="2Oq$k0">
                     <ref role="3cqZAo" to="1e0c:1U$SEuk1n2B" resolve="sugarConfiguration" />
-                    <ref role="1PxDUh" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+                    <ref role="1PxDUh" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
                   </node>
                   <node concept="liA8E" id="564QxPIPKLM" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
@@ -6794,7 +6794,7 @@
       <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
     </node>
     <node concept="3uibUv" id="1rrvF1jBGv$" role="EKbjA">
-      <ref role="3uigEE" to="1e0c:4XXgpAAfITM" resolve="IFCommandContainerServices" />
+      <ref role="3uigEE" to="1e0c:4XXgpAAfITM" resolve="ICommandContainerServices" />
     </node>
     <node concept="3uibUv" id="6QRLe84rhy6" role="EKbjA">
       <ref role="3uigEE" to="nwfd:~HttpSessionBindingListener" resolve="HttpSessionBindingListener" />
@@ -7349,7 +7349,7 @@
       <node concept="37vLTG" id="6QRLe84qa1S" role="3clF46">
         <property role="TrG5h" value="container" />
         <node concept="3uibUv" id="6QRLe84qa1T" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="6QRLe84qa1U" role="3clF45" />
@@ -11719,11 +11719,11 @@
           <node concept="3cpWsn" id="6QRLe84pBc7" role="3cpWs9">
             <property role="TrG5h" value="cmdContainer" />
             <node concept="3uibUv" id="6QRLe84pBc8" role="1tU5fm">
-              <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+              <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
             </node>
             <node concept="2ShNRf" id="6QRLe84pBgV" role="33vP2m">
               <node concept="1pGfFk" id="6QRLe84pBDp" role="2ShVmc">
-                <ref role="37wK5l" to="1e0c:4XXgpAAg$NF" resolve="FCommandContainer" />
+                <ref role="37wK5l" to="1e0c:4XXgpAAg$NF" resolve="CommandContainer" />
                 <node concept="Xjq3P" id="6QRLe84pBFg" role="37wK5m" />
                 <node concept="10Nm6u" id="6QRLe84pBSa" role="37wK5m" />
                 <node concept="2OqwBi" id="6QRLe84pC7A" role="37wK5m">
@@ -11893,7 +11893,7 @@
       <node concept="37vLTG" id="1rrvF1jBJpg" role="3clF46">
         <property role="TrG5h" value="parentCommandContainer" />
         <node concept="3uibUv" id="1rrvF1jBJph" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="1rrvF1jBJpi" role="3clF45" />
@@ -12139,11 +12139,11 @@
           <node concept="3cpWsn" id="1rrvF1jCUWx" role="3cpWs9">
             <property role="TrG5h" value="cmdContainer" />
             <node concept="3uibUv" id="1rrvF1jCUWy" role="1tU5fm">
-              <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+              <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
             </node>
             <node concept="2ShNRf" id="1rrvF1jCUWz" role="33vP2m">
               <node concept="1pGfFk" id="1rrvF1jCUW$" role="2ShVmc">
-                <ref role="37wK5l" to="1e0c:4XXgpAAg$NF" resolve="FCommandContainer" />
+                <ref role="37wK5l" to="1e0c:4XXgpAAg$NF" resolve="CommandContainer" />
                 <node concept="Xjq3P" id="1rrvF1jCUW_" role="37wK5m" />
                 <node concept="2OqwBi" id="77nEBgbGk19" role="37wK5m">
                   <node concept="AH0OO" id="77nEBgbGjRd" role="2Oq$k0">
@@ -12321,7 +12321,7 @@
       <node concept="37vLTG" id="1rrvF1jBJpn" role="3clF46">
         <property role="TrG5h" value="container" />
         <node concept="3uibUv" id="1rrvF1jBJpo" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="1rrvF1jBJpp" role="3clF45" />
@@ -12423,7 +12423,7 @@
         <property role="TrG5h" value="cmdContainer" />
         <node concept="3Tm1VV" id="77nEBgbql05" role="1B3o_S" />
         <node concept="3uibUv" id="77nEBgbqkY9" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="312cEg" id="77nEBgbqkZJ" role="jymVt">
@@ -14877,7 +14877,7 @@
               <ref role="3cqZAo" node="7RHNXGyZ47y" resolve="menu" />
             </node>
             <node concept="liA8E" id="7RHNXGyZ47T" role="2OqNvi">
-              <ref role="37wK5l" to="yg8v:3nLGOmWsxPy" resolve="getAllCommandTriggers" />
+              <ref role="37wK5l" to="yg8v:3nLGOmWsxPy" resolve="getAllActionsOfMenu" />
             </node>
           </node>
         </node>
@@ -15928,7 +15928,7 @@
               <ref role="3cqZAo" node="7RHNXGyZ4kM" resolve="folder" />
             </node>
             <node concept="liA8E" id="7RHNXGyZ4l9" role="2OqNvi">
-              <ref role="37wK5l" to="yg8v:3nLGOmWsxPy" resolve="getAllCommandTriggers" />
+              <ref role="37wK5l" to="yg8v:3nLGOmWsxPy" resolve="getAllActionsOfMenu" />
             </node>
           </node>
         </node>
@@ -16152,7 +16152,7 @@
                   <ref role="37wK5l" to="28jr:3972coxdHuF" resolve="pushSelection" />
                   <node concept="2ShNRf" id="7RHNXGyZ4mI" role="37wK5m">
                     <node concept="1pGfFk" id="7RHNXGyZ4mJ" role="2ShVmc">
-                      <ref role="37wK5l" to="1e0c:3r$bzmx4dUq" resolve="FSelection" />
+                      <ref role="37wK5l" to="1e0c:3r$bzmx4dUq" resolve="Selection" />
                       <node concept="2OqwBi" id="7RHNXGyZ4mK" role="37wK5m">
                         <node concept="37vLTw" id="7RHNXGyZ4mL" role="2Oq$k0">
                           <ref role="3cqZAo" node="7RHNXGyZ4jh" resolve="currentObjects" />
@@ -16793,7 +16793,7 @@
       <node concept="37vLTG" id="21Qe5t22MD8" role="3clF46">
         <property role="TrG5h" value="binding" />
         <node concept="3uibUv" id="21Qe5t22MD9" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:5SSJEYs7zNX" resolve="IFSelectionController.Binding" />
+          <ref role="3uigEE" to="1e0c:5SSJEYs7zNX" resolve="ISelectionController.Binding" />
         </node>
       </node>
       <node concept="37vLTG" id="21Qe5t22MDa" role="3clF46">
@@ -16869,7 +16869,7 @@
     <node concept="2tJIrI" id="58$$edttTuf" role="jymVt" />
     <node concept="3Tm1VV" id="58$$edttO2u" role="1B3o_S" />
     <node concept="3uibUv" id="58$$edttTtX" role="EKbjA">
-      <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="IFSelectionController" />
+      <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="ISelectionController" />
     </node>
   </node>
   <node concept="312cEu" id="4TjwvsKuJgX">

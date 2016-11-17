@@ -39,7 +39,7 @@
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="7wps" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:inputRuntimeTest(org.modellwerkstatt.fx8forms/)" />
     <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
-    <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.specifications)" />
+    <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.genspecifications)" />
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="x37d" ref="r:72cce30f-2a64-4fe3-8e44-7617cdd42782(org.modellwerkstatt.dataux.runtime.telemetrics)" />
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.controllers)" />
@@ -2531,7 +2531,7 @@
       <property role="TrG5h" value="appController" />
       <node concept="3Tm6S6" id="Y3fiVJRDr4" role="1B3o_S" />
       <node concept="3uibUv" id="Y3fiVJRV5r" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+        <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
       </node>
     </node>
     <node concept="312cEg" id="7nDJo_boj1b" role="jymVt">
@@ -3154,7 +3154,7 @@
           <node concept="37vLTI" id="20ohnkbzNcl" role="3clFbG">
             <node concept="2ShNRf" id="20ohnkbzOh3" role="37vLTx">
               <node concept="1pGfFk" id="20ohnkbzOh2" role="2ShVmc">
-                <ref role="37wK5l" to="1e0c:20ohnkbzGjc" resolve="FApplicationCrtl" />
+                <ref role="37wK5l" to="1e0c:20ohnkbzGjc" resolve="ApplicationCrtl" />
                 <node concept="37vLTw" id="20ohnkbzOip" role="37wK5m">
                   <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
                 </node>
@@ -4696,7 +4696,7 @@
       <node concept="37vLTG" id="1KgqQuBUE5w" role="3clF46">
         <property role="TrG5h" value="cmdContainer" />
         <node concept="3uibUv" id="12Eg3QJkWTa" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="1KgqQuBUE5y" role="3clF45" />
@@ -4838,7 +4838,7 @@
       <node concept="37vLTG" id="4vBE4eLTHfT" role="3clF46">
         <property role="TrG5h" value="cmdContainer" />
         <node concept="3uibUv" id="4vBE4eLTHfU" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="4vBE4eLTHfV" role="3clF45" />
@@ -4903,7 +4903,7 @@
       <node concept="37vLTG" id="1kxCqBRduKd" role="3clF46">
         <property role="TrG5h" value="cmdContainer" />
         <node concept="3uibUv" id="12Eg3QJl1s9" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="1kxCqBRduKf" role="3clF45" />
@@ -6507,7 +6507,7 @@
       <node concept="37vLTG" id="5_bDd1dPz3J" role="3clF46">
         <property role="TrG5h" value="appController" />
         <node concept="3uibUv" id="5_bDd1dPz3K" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
         </node>
       </node>
       <node concept="37vLTG" id="WpszhTXI4i" role="3clF46">
@@ -6549,7 +6549,7 @@
       <node concept="37vLTG" id="5_bDd1dPz3T" role="3clF46">
         <property role="TrG5h" value="appController" />
         <node concept="3uibUv" id="5_bDd1dPz3U" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
         </node>
       </node>
       <node concept="37vLTG" id="WpszhTTEkp" role="3clF46">
@@ -7721,7 +7721,7 @@
       <property role="TrG5h" value="focusController" />
       <node concept="3Tm6S6" id="1U$SEuloLVQ" role="1B3o_S" />
       <node concept="3uibUv" id="1U$SEuloS8x" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:1U$SEukxJB4" resolve="FFocusController" />
+        <ref role="3uigEE" to="1e0c:1U$SEukxJB4" resolve="FocusController" />
       </node>
     </node>
     <node concept="2tJIrI" id="1U$SEulohrh" role="jymVt" />
@@ -7753,7 +7753,7 @@
           <node concept="37vLTI" id="1U$SEuloVgX" role="3clFbG">
             <node concept="2ShNRf" id="1U$SEuloVT0" role="37vLTx">
               <node concept="1pGfFk" id="1U$SEuloV_d" role="2ShVmc">
-                <ref role="37wK5l" to="1e0c:1U$SEuloxTo" resolve="FFocusController" />
+                <ref role="37wK5l" to="1e0c:1U$SEuloxTo" resolve="FocusController" />
               </node>
             </node>
             <node concept="37vLTw" id="1U$SEuloUah" role="37vLTJ">
@@ -10620,7 +10620,7 @@
                 <ref role="3cqZAo" node="7aUgYCzyv$T" resolve="folder" />
               </node>
               <node concept="liA8E" id="3oBdEpSLcRY" role="2OqNvi">
-                <ref role="37wK5l" to="yg8v:3nLGOmWsxPy" resolve="getAllCommandTriggers" />
+                <ref role="37wK5l" to="yg8v:3nLGOmWsxPy" resolve="getAllActionsOfMenu" />
               </node>
             </node>
           </node>
@@ -11097,14 +11097,14 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="5_bDd1d9Oho" role="1B3o_S" />
       <node concept="3uibUv" id="5_bDd1d9OXy" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+        <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
       </node>
     </node>
     <node concept="312cEg" id="5_bDd1dxT12" role="jymVt">
       <property role="TrG5h" value="applicationController" />
       <node concept="3Tmbuc" id="1KgqQuBkFBk" role="1B3o_S" />
       <node concept="3uibUv" id="5_bDd1dOmpH" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+        <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
       </node>
     </node>
     <node concept="312cEg" id="2U6PE9kx5EJ" role="jymVt">
@@ -11139,7 +11139,7 @@
       <node concept="37vLTG" id="1KgqQuBkCQ$" role="3clF46">
         <property role="TrG5h" value="app" />
         <node concept="3uibUv" id="1KgqQuBkDDW" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
         </node>
       </node>
       <node concept="3cqZAl" id="5_bDd1d6jxY" role="3clF45" />
@@ -11258,7 +11258,7 @@
       <node concept="37vLTG" id="5_bDd1dPEzJ" role="3clF46">
         <property role="TrG5h" value="cmdContainer" />
         <node concept="3uibUv" id="5_bDd1dPFff" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="FCommandContainer" />
+          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="5_bDd1dPCrU" role="3clF45" />
@@ -12525,7 +12525,7 @@
       <node concept="37vLTG" id="5_bDd1dyuRC" role="3clF46">
         <property role="TrG5h" value="app" />
         <node concept="3uibUv" id="5_bDd1dOmWe" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
         </node>
       </node>
       <node concept="37vLTG" id="WpszhTXAOe" role="3clF46">
@@ -17896,7 +17896,7 @@
                                   <ref role="37wK5l" node="1e8699aCJsg" resolve="pushSelection" />
                                   <node concept="2ShNRf" id="1e8699aCJlk" role="37wK5m">
                                     <node concept="1pGfFk" id="1e8699aCJll" role="2ShVmc">
-                                      <ref role="37wK5l" to="1e0c:3r$bzmx4dUL" resolve="FSelection" />
+                                      <ref role="37wK5l" to="1e0c:3r$bzmx4dUL" resolve="Selection" />
                                       <node concept="37vLTw" id="fdGRoMYPvC" role="37wK5m">
                                         <ref role="3cqZAo" node="1e8699aCJdk" resolve="elementClass" />
                                       </node>
@@ -17930,7 +17930,7 @@
                                     <ref role="37wK5l" node="1e8699aCJsg" resolve="pushSelection" />
                                     <node concept="2ShNRf" id="1e8699aCJlw" role="37wK5m">
                                       <node concept="1pGfFk" id="1e8699aCJlx" role="2ShVmc">
-                                        <ref role="37wK5l" to="1e0c:2rL8TAu4HnW" resolve="FSelection" />
+                                        <ref role="37wK5l" to="1e0c:2rL8TAu4HnW" resolve="Selection" />
                                         <node concept="37vLTw" id="fdGRoMYPUW" role="37wK5m">
                                           <ref role="3cqZAo" node="1e8699aCJdk" resolve="elementClass" />
                                         </node>
@@ -18624,7 +18624,7 @@
                     <ref role="37wK5l" node="1e8699aCJsg" resolve="pushSelection" />
                     <node concept="2ShNRf" id="1e8699aCJq7" role="37wK5m">
                       <node concept="1pGfFk" id="1e8699aCJq8" role="2ShVmc">
-                        <ref role="37wK5l" to="1e0c:3r$bzmx4dUL" resolve="FSelection" />
+                        <ref role="37wK5l" to="1e0c:3r$bzmx4dUL" resolve="Selection" />
                         <node concept="37vLTw" id="fdGRoMYPvS" role="37wK5m">
                           <ref role="3cqZAo" node="1e8699aCJdk" resolve="elementClass" />
                         </node>
@@ -22353,7 +22353,7 @@
       <property role="TrG5h" value="focusController" />
       <property role="3TUv4t" value="false" />
       <node concept="3uibUv" id="1U$SEulqdJT" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:1U$SEukxJB4" resolve="FFocusController" />
+        <ref role="3uigEE" to="1e0c:1U$SEukxJB4" resolve="FocusController" />
       </node>
       <node concept="3Tm6S6" id="1U$SEulqgq6" role="1B3o_S" />
     </node>
@@ -22374,7 +22374,7 @@
           <node concept="37vLTI" id="1U$SEulqhON" role="3clFbG">
             <node concept="2ShNRf" id="1U$SEulqi$O" role="37vLTx">
               <node concept="1pGfFk" id="1U$SEulqicn" role="2ShVmc">
-                <ref role="37wK5l" to="1e0c:1U$SEuloxTo" resolve="FFocusController" />
+                <ref role="37wK5l" to="1e0c:1U$SEuloxTo" resolve="FocusController" />
               </node>
             </node>
             <node concept="37vLTw" id="1U$SEulqhqV" role="37vLTJ">
@@ -25988,7 +25988,7 @@
       <node concept="37vLTG" id="6B_cXxOc7tP" role="3clF46">
         <property role="TrG5h" value="app" />
         <node concept="3uibUv" id="6B_cXxOc7tX" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="FApplicationCrtl" />
+          <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationCrtl" />
         </node>
       </node>
       <node concept="37vLTG" id="WpszhTTfHX" role="3clF46">

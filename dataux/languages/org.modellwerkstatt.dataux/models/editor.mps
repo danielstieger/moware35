@@ -1969,6 +1969,35 @@
       <node concept="3F0A7n" id="2aCEJxoBJsm" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:2aCEJxo$e10" resolve="hotkey" />
       </node>
+      <node concept="1HlG4h" id="1TTN6_t2pZ5" role="3EZMnx">
+        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+        <node concept="1HfYo3" id="1TTN6_t2pZ7" role="1HlULh">
+          <node concept="3TQlhw" id="1TTN6_t2pZ9" role="1Hhtcw">
+            <node concept="3clFbS" id="1TTN6_t2pZb" role="2VODD2">
+              <node concept="3clFbJ" id="1TTN6_t2q3W" role="3cqZAp">
+                <node concept="2OqwBi" id="1TTN6_t2qa5" role="3clFbw">
+                  <node concept="pncrf" id="1TTN6_t2q5k" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="1TTN6_t2rMg" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:1TTN6_t2qD6" resolve="isGlobalHotKey" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="1TTN6_t2q3Y" role="3clFbx">
+                  <node concept="3cpWs6" id="1TTN6_t2rQG" role="3cqZAp">
+                    <node concept="Xl_RD" id="1TTN6_t2rU1" role="3cqZAk">
+                      <property role="Xl_RC" value="// global" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="1TTN6_t2sb9" role="3cqZAp">
+                <node concept="Xl_RD" id="1TTN6_t2scx" role="3cqZAk">
+                  <property role="Xl_RC" value="// when focussed" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="l2Vlx" id="3n7eUMgsCyf" role="2iSdaV" />
     </node>
   </node>
