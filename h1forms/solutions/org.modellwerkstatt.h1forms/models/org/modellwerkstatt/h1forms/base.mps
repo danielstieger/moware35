@@ -378,7 +378,7 @@
       <node concept="3Tm6S6" id="c79$i9kZqR" role="1B3o_S" />
       <node concept="10M0yZ" id="79n7_omqbfw" role="33vP2m">
         <ref role="3cqZAo" to="ache:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
-        <ref role="1PxDUh" to="ache:2zlZ_in5Vzm" resolve="FDefaultTrans" />
+        <ref role="1PxDUh" to="ache:2zlZ_in5Vzm" resolve="DefaultTrans" />
       </node>
     </node>
     <node concept="2tJIrI" id="6TYnK1bNDFW" role="jymVt" />
@@ -442,7 +442,7 @@
       <property role="TrG5h" value="jmxRegistration" />
       <node concept="3Tm6S6" id="4ZThPOYBKXn" role="1B3o_S" />
       <node concept="3uibUv" id="2yuEF6qbSH0" role="1tU5fm">
-        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="FJmxRegistration" />
+        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistration" />
       </node>
     </node>
     <node concept="2tJIrI" id="75445jvZmTr" role="jymVt" />
@@ -614,7 +614,7 @@
           <node concept="37vLTI" id="2yuEF6qc4WC" role="3clFbG">
             <node concept="2ShNRf" id="2yuEF6qc7Rl" role="37vLTx">
               <node concept="1pGfFk" id="2yuEF6qc5cf" role="2ShVmc">
-                <ref role="37wK5l" to="x37d:2yuEF6q8ESR" resolve="FJmxRegistration" />
+                <ref role="37wK5l" to="x37d:2yuEF6q8ESR" resolve="JmxRegistration" />
                 <node concept="37vLTw" id="2yuEF6qcat0" role="37wK5m">
                   <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
                 </node>
@@ -832,7 +832,7 @@
                     <node concept="liA8E" id="7708TIHKm$n" role="2OqNvi">
                       <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                       <node concept="Rm8GO" id="7708TIHKp8H" role="37wK5m">
-                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                         <ref role="Rm8GQ" to="ache:7708TIHHbb2" resolve="MOWARE_VERSION" />
                       </node>
                     </node>
@@ -1990,7 +1990,7 @@
                       <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                       <node concept="Rm8GO" id="7DInbKypkFi" role="37wK5m">
                         <ref role="Rm8GQ" to="ache:1Q0KaWuHuYZ" resolve="LOGIN_FAILED" />
-                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                       </node>
                     </node>
                   </node>
@@ -2011,7 +2011,7 @@
                             <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                             <node concept="Rm8GO" id="7DInbKypF07" role="37wK5m">
                               <ref role="Rm8GQ" to="ache:1V62ZiDaXrg" resolve="USERNAME" />
-                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                             </node>
                           </node>
                         </node>
@@ -2056,7 +2056,7 @@
                       <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                       <node concept="Rm8GO" id="7DInbKyoYRt" role="37wK5m">
                         <ref role="Rm8GQ" to="ache:2FClOw1VSS5" resolve="CLOSE_BUTTON" />
-                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                       </node>
                     </node>
                   </node>
@@ -2342,7 +2342,7 @@
                     <node concept="liA8E" id="58$$edtkfIr" role="2OqNvi">
                       <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                       <node concept="Rm8GO" id="58$$edtkWKP" role="37wK5m">
-                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                         <ref role="Rm8GQ" to="ache:58$$edtkjnA" resolve="NO_PERMISSIONS_FOR_CMD" />
                       </node>
                     </node>
@@ -2364,7 +2364,7 @@
                             <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                             <node concept="Rm8GO" id="58$$edtkfI_" role="37wK5m">
                               <ref role="Rm8GQ" to="ache:1V62ZiDaXrg" resolve="USERNAME" />
-                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                             </node>
                           </node>
                         </node>
@@ -2409,7 +2409,7 @@
                       <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                       <node concept="Rm8GO" id="58$$edtkfIP" role="37wK5m">
                         <ref role="Rm8GQ" to="ache:2FClOw1VSS5" resolve="CLOSE_BUTTON" />
-                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                       </node>
                     </node>
                   </node>
@@ -3545,7 +3545,7 @@
                           <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                           <node concept="Rm8GO" id="7jRczBbKpWp" role="37wK5m">
                             <ref role="Rm8GQ" to="ache:4Zj1V_wFQwf" resolve="ERROR" />
-                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                           </node>
                         </node>
                       </node>
@@ -3557,7 +3557,7 @@
                           <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                           <node concept="Rm8GO" id="7DInbKyr3Y9" role="37wK5m">
                             <ref role="Rm8GQ" to="ache:7DInbKypMVW" resolve="MAINTAINANCE_MODE" />
-                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                           </node>
                         </node>
                       </node>
@@ -3596,7 +3596,7 @@
                           <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                           <node concept="Rm8GO" id="7DInbKyrpFq" role="37wK5m">
                             <ref role="Rm8GQ" to="ache:2FClOw1VSS5" resolve="CLOSE_BUTTON" />
-                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                           </node>
                         </node>
                       </node>
@@ -3871,7 +3871,7 @@
                                 <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                                 <node concept="Rm8GO" id="7jRczBbKtmk" role="37wK5m">
                                   <ref role="Rm8GQ" to="ache:4Zj1V_wFQwf" resolve="ERROR" />
-                                  <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                                  <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                                 </node>
                               </node>
                             </node>
@@ -3883,7 +3883,7 @@
                                 <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                                 <node concept="Rm8GO" id="7DInbKysX6s" role="37wK5m">
                                   <ref role="Rm8GQ" to="ache:7DInbKyry1J" resolve="SERVLET_BASE_ADR" />
-                                  <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                                  <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                                 </node>
                               </node>
                             </node>
@@ -4658,7 +4658,7 @@
                                         <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                                         <node concept="Rm8GO" id="3c4zI83M$zG" role="37wK5m">
                                           <ref role="Rm8GQ" to="ache:4Zj1V_wFQwf" resolve="ERROR" />
-                                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                                         </node>
                                       </node>
                                     </node>
@@ -4669,7 +4669,7 @@
                                       <node concept="liA8E" id="3c4zI83M$zJ" role="2OqNvi">
                                         <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                                         <node concept="Rm8GO" id="3c4zI83MA3j" role="37wK5m">
-                                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                                           <ref role="Rm8GQ" to="ache:2UFgF_lRBS0" resolve="TEC_USER_ERROR" />
                                         </node>
                                       </node>
@@ -5608,7 +5608,7 @@
                             <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                             <node concept="Rm8GO" id="564QxPIQ3F8" role="37wK5m">
                               <ref role="Rm8GQ" to="ache:4Zj1V_wFQxQ" resolve="TEC_ERROR" />
-                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                             </node>
                           </node>
                         </node>
@@ -5619,7 +5619,7 @@
                           <node concept="liA8E" id="564QxPIQ0Lp" role="2OqNvi">
                             <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                             <node concept="Rm8GO" id="564QxPIQ8fl" role="37wK5m">
-                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                               <ref role="Rm8GQ" to="ache:2UFgF_lRBS0" resolve="TEC_USER_ERROR" />
                             </node>
                           </node>
@@ -5666,7 +5666,7 @@
                               <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                               <node concept="Rm8GO" id="564QxPIQayp" role="37wK5m">
                                 <ref role="Rm8GQ" to="ache:4Zj1V_wFQxQ" resolve="TEC_ERROR" />
-                                <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                                <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                               </node>
                             </node>
                           </node>
@@ -5716,7 +5716,7 @@
                         <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                         <node concept="Rm8GO" id="7DInbKyo7EU" role="37wK5m">
                           <ref role="Rm8GQ" to="ache:2FClOw1VSS5" resolve="CLOSE_BUTTON" />
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                         </node>
                       </node>
                     </node>
@@ -6818,7 +6818,7 @@
       <property role="TrG5h" value="jmxRegistration" />
       <node concept="3Tm6S6" id="2yuEF6qxzfL" role="1B3o_S" />
       <node concept="3uibUv" id="2yuEF6qxD9e" role="1tU5fm">
-        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="FJmxRegistration" />
+        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistration" />
       </node>
     </node>
     <node concept="2tJIrI" id="6TYnK1b_VNR" role="jymVt" />
@@ -6879,7 +6879,7 @@
       <node concept="37vLTG" id="2yuEF6qxDHC" role="3clF46">
         <property role="TrG5h" value="jmxReg" />
         <node concept="3uibUv" id="2yuEF6qxFzU" role="1tU5fm">
-          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="FJmxRegistration" />
+          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistration" />
         </node>
       </node>
       <node concept="37vLTG" id="4Rlyz3E9U0b" role="3clF46">
@@ -6897,7 +6897,7 @@
           </node>
         </node>
         <node concept="XkiVB" id="31dwTLEyxI$" role="3cqZAp">
-          <ref role="37wK5l" to="x37d:1EBV9L$__JO" resolve="FUserTelemetrics" />
+          <ref role="37wK5l" to="x37d:1EBV9L$__JO" resolve="UserTelemetrics" />
         </node>
         <node concept="3clFbH" id="31dwTLE$2lL" role="3cqZAp" />
         <node concept="3clFbF" id="1rrvF1jBMpE" role="3cqZAp">
@@ -10110,7 +10110,7 @@
                           <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                           <node concept="Rm8GO" id="3VJ9UhBIHfr" role="37wK5m">
                             <ref role="Rm8GQ" to="ache:4Zj1V_wFQwi" resolve="INFORMATION" />
-                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                           </node>
                         </node>
                       </node>
@@ -10171,7 +10171,7 @@
                             <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                             <node concept="Rm8GO" id="3VJ9UhBIO0p" role="37wK5m">
                               <ref role="Rm8GQ" to="ache:4Zj1V_wFQwf" resolve="ERROR" />
-                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                             </node>
                           </node>
                         </node>
@@ -10212,7 +10212,7 @@
                           <node concept="liA8E" id="3VJ9UhBITkT" role="2OqNvi">
                             <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                             <node concept="Rm8GO" id="3VJ9UhBIUQT" role="37wK5m">
-                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                              <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                               <ref role="Rm8GQ" to="ache:2UFgF_lRBS0" resolve="TEC_USER_ERROR" />
                             </node>
                           </node>
@@ -10281,7 +10281,7 @@
                           <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                           <node concept="Rm8GO" id="4TjwvsKxbaZ" role="37wK5m">
                             <ref role="Rm8GQ" to="ache:4Zj1V_wFQwl" resolve="QUESTION" />
-                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                           </node>
                         </node>
                       </node>
@@ -10325,7 +10325,7 @@
                       <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                       <node concept="Rm8GO" id="4vHQZKCfVNe" role="37wK5m">
                         <ref role="Rm8GQ" to="ache:4vHQZKCcRpU" resolve="NO_BUTTON" />
-                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                       </node>
                     </node>
                   </node>
@@ -10356,7 +10356,7 @@
                     <node concept="liA8E" id="4TjwvsKx3IT" role="2OqNvi">
                       <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                       <node concept="Rm8GO" id="4vHQZKCfVSU" role="37wK5m">
-                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                         <ref role="Rm8GQ" to="ache:4vHQZKCcE0A" resolve="YES_BUTTON" />
                       </node>
                     </node>
@@ -10929,7 +10929,7 @@
                         <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
                         <node concept="Rm8GO" id="4TjwvsKwvd4" role="37wK5m">
                           <ref role="Rm8GQ" to="ache:4Zj1V_wFQvN" resolve="OK_BUTTON" />
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="FDefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
                         </node>
                       </node>
                     </node>
@@ -12366,7 +12366,7 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getFJmxRegistration" />
       <node concept="3uibUv" id="2yuEF6qxntF" role="3clF45">
-        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="FJmxRegistration" />
+        <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistration" />
       </node>
       <node concept="3Tm1VV" id="2yuEF6qxntG" role="1B3o_S" />
       <node concept="3clFbS" id="2yuEF6qxntI" role="3clF47">
@@ -12382,7 +12382,7 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getFUserTelemetrics" />
       <node concept="3uibUv" id="31dwTLEH6vs" role="3clF45">
-        <ref role="3uigEE" to="x37d:1EBV9L$__ru" resolve="FUserTelemetrics" />
+        <ref role="3uigEE" to="x37d:1EBV9L$__ru" resolve="UserTelemetrics" />
       </node>
       <node concept="3Tm1VV" id="31dwTLEH6vt" role="1B3o_S" />
       <node concept="3clFbS" id="31dwTLEH6vx" role="3clF47">
@@ -12725,7 +12725,7 @@
     </node>
     <node concept="2tJIrI" id="64g0II1LuzZ" role="jymVt" />
     <node concept="3uibUv" id="31dwTLEykTN" role="1zkMxy">
-      <ref role="3uigEE" to="x37d:1EBV9L$__ru" resolve="FUserTelemetrics" />
+      <ref role="3uigEE" to="x37d:1EBV9L$__ru" resolve="UserTelemetrics" />
     </node>
   </node>
   <node concept="312cEu" id="2JP_IULTUsl">
@@ -13208,7 +13208,7 @@
         <property role="TrG5h" value="delegateList" />
         <node concept="_YKpA" id="49rIjELxlXg" role="1tU5fm">
           <node concept="3uibUv" id="49rIjELxlYc" role="_ZDj9">
-            <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="FDelegate" />
+            <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
           </node>
         </node>
       </node>
@@ -13346,7 +13346,7 @@
       <node concept="3Tm6S6" id="7RHNXGyZ3RQ" role="1B3o_S" />
       <node concept="_YKpA" id="7RHNXGyZ3RR" role="1tU5fm">
         <node concept="3uibUv" id="7RHNXGyZ3RS" role="_ZDj9">
-          <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="FDelegate" />
+          <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
         </node>
       </node>
     </node>
@@ -13381,7 +13381,7 @@
             <node concept="2ShNRf" id="7RHNXGyZ3Sa" role="37vLTx">
               <node concept="Tc6Ow" id="7RHNXGyZ3Sb" role="2ShVmc">
                 <node concept="3uibUv" id="7RHNXGyZ3Sc" role="HW$YZ">
-                  <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="FDelegate" />
+                  <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
                 </node>
               </node>
             </node>
@@ -13819,7 +13819,7 @@
       <node concept="37vLTG" id="7RHNXGyZ3Vr" role="3clF46">
         <property role="TrG5h" value="delegate" />
         <node concept="3uibUv" id="7RHNXGyZ3Vs" role="1tU5fm">
-          <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="FDelegate" />
+          <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
         </node>
       </node>
       <node concept="3cqZAl" id="7RHNXGyZ3Vt" role="3clF45" />
@@ -14608,7 +14608,7 @@
           <node concept="3cpWsn" id="3L0rgZdDFh$" role="1Duv9x">
             <property role="TrG5h" value="delegate" />
             <node concept="3uibUv" id="3L0rgZdDFpG" role="1tU5fm">
-              <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="FDelegate" />
+              <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
             </node>
           </node>
           <node concept="37vLTw" id="3L0rgZdDG7b" role="1DdaDG">
@@ -14827,7 +14827,7 @@
     </node>
     <node concept="3clFb_" id="7RHNXGyZ47x" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="addMenu" />
+      <property role="TrG5h" value="addMenuAndSetButtons" />
       <node concept="37vLTG" id="7RHNXGyZ47y" role="3clF46">
         <property role="TrG5h" value="menu" />
         <node concept="3uibUv" id="7RHNXGyZ47z" role="1tU5fm">
@@ -15878,7 +15878,7 @@
     </node>
     <node concept="3clFb_" id="7RHNXGyZ4kL" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setMenu" />
+      <property role="TrG5h" value="addMenuAndSetButtons" />
       <node concept="37vLTG" id="7RHNXGyZ4kM" role="3clF46">
         <property role="TrG5h" value="folder" />
         <node concept="3uibUv" id="7RHNXGyZ4kN" role="1tU5fm">
@@ -16782,7 +16782,9 @@
     <node concept="3clFb_" id="21Qe5t22MD2" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="registerSelControlled" />
-      <node concept="10P_77" id="21Qe5t22MD3" role="3clF45" />
+      <node concept="3uibUv" id="6QGCiYWN97U" role="3clF45">
+        <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="ISelectionController" />
+      </node>
       <node concept="3Tm1VV" id="21Qe5t22MD4" role="1B3o_S" />
       <node concept="37vLTG" id="21Qe5t22MD6" role="3clF46">
         <property role="TrG5h" value="interestedInSelectionType" />
@@ -16803,8 +16805,8 @@
         </node>
       </node>
       <node concept="3clFbS" id="21Qe5t22MDc" role="3clF47">
-        <node concept="3clFbF" id="21Qe5t22MDe" role="3cqZAp">
-          <node concept="3clFbT" id="21Qe5t22MDd" role="3clFbG" />
+        <node concept="3clFbF" id="6QGCiYWN9cN" role="3cqZAp">
+          <node concept="10Nm6u" id="6QGCiYWN9cK" role="3clFbG" />
         </node>
       </node>
     </node>

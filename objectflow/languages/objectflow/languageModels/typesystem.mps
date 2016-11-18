@@ -1453,7 +1453,7 @@
         <node concept="mw_s8" id="5Ee0EjqStuG" role="1ZfhKB">
           <node concept="2c44tf" id="5Ee0EjqStuH" role="mwGJk">
             <node concept="3uibUv" id="5Ee0EjqStuK" role="2c44tc">
-              <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXView" />
+              <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXSelectionCapable" />
               <node concept="33vP2l" id="5Ee0EjqStuL" role="11_B2D">
                 <node concept="2c44te" id="5Ee0EjqStuM" role="lGtFl">
                   <node concept="37vLTw" id="6svR_JBENNW" role="2c44t1">
@@ -11743,6 +11743,24 @@
     <node concept="1YaCAy" id="6K73LRuXEZ$" role="1YuTPh">
       <property role="TrG5h" value="userAuthSession" />
       <ref role="1YaFvo" to="un0u:6K73LRuXEZq" resolve="UserAuthSession" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="6QGCiYX6FWW">
+    <property role="TrG5h" value="check_GetSelectedObjects" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <node concept="3clFbS" id="6QGCiYX6FWX" role="18ibNy">
+      <node concept="2MkqsV" id="6QGCiYX6FXo" role="3cqZAp">
+        <node concept="Xl_RD" id="6QGCiYX6FX$" role="2MkJ7o">
+          <property role="Xl_RC" value="This concept is deprecaterd. Use " />
+        </node>
+        <node concept="1YBJjd" id="6QGCiYX6TXi" role="2OEOjV">
+          <ref role="1YBMHb" node="6QGCiYX6FWZ" resolve="getSelectedObjects" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6QGCiYX6FWZ" role="1YuTPh">
+      <property role="TrG5h" value="getSelectedObjects" />
+      <ref role="1YaFvo" to="un0u:6lryfQF7yi5" resolve="GetSelectedObjects" />
     </node>
   </node>
 </model>

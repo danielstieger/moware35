@@ -3731,11 +3731,8 @@
     <property role="3GE5qa" value="OFXCore.command" />
     <ref role="1XX52x" to="un0u:1Csx3Lqydf8" resolve="FormVariableReference" />
     <node concept="3F0ifn" id="1Csx3Lqydfd" role="2wV5jI">
-      <property role="3F0ifm" value="form" />
+      <property role="3F0ifm" value="selectionController" />
       <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-      <node concept="3nxI2P" id="6lryfQF7yi4" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="1Csx3LqzaMW">

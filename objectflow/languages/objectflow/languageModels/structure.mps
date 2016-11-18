@@ -1054,6 +1054,9 @@
     <node concept="PrWs8" id="1Csx3LqtqVH" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
     </node>
+    <node concept="PrWs8" id="6QGCiYXuBNr" role="PzmwI">
+      <ref role="PrY4T" node="3nLPQZPP4DL" resolve="ISelectionsAvailable" />
+    </node>
   </node>
   <node concept="AxPO7" id="1Csx3LqwlRj">
     <property role="3GE5qa" value="OFXCore.command" />
@@ -1129,8 +1132,8 @@
     <property role="3GE5qa" value="OFXCore.command" />
     <property role="TrG5h" value="FormVariableReference" />
     <property role="MwhBj" value="${module}/icons/references.png" />
-    <property role="34LRSv" value="form" />
     <property role="1pbfSe" value="1956993028" />
+    <property role="34LRSv" value="selectionController" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="1Csx3LqzaMT">

@@ -3348,7 +3348,7 @@
       <node concept="37vLTG" id="7MqOxzy_yYW" role="3clF46">
         <property role="TrG5h" value="view" />
         <node concept="3uibUv" id="7MqOxzy_yYX" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXView" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelectionCapable" />
         </node>
       </node>
       <node concept="3uibUv" id="3g5RX4qTK0q" role="Sfmx6">
@@ -4129,7 +4129,7 @@
   </node>
   <node concept="3HP615" id="7rqBz8B3JOi">
     <property role="3GE5qa" value="OFXArchitecture" />
-    <property role="TrG5h" value="IOFXView" />
+    <property role="TrG5h" value="IOFXSelectionCapable" />
     <node concept="3Tm1VV" id="7rqBz8B3JOj" role="1B3o_S" />
     <node concept="16euLQ" id="7rqBz8B3JOt" role="16eVyc">
       <property role="TrG5h" value="BoundObject" />
@@ -4171,6 +4171,14 @@
       <node concept="37vLTG" id="3g5RX4r5r4v" role="3clF46">
         <property role="TrG5h" value="ro" />
         <node concept="10P_77" id="3g5RX4r5r4w" role="1tU5fm" />
+      </node>
+      <node concept="P$JXv" id="6QGCiYX6XnY" role="lGtFl">
+        <node concept="TZ5HI" id="6QGCiYX6XnZ" role="3nqlJM">
+          <node concept="TZ5HA" id="6QGCiYX6Xo0" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6QGCiYX6Xo1" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
   </node>
@@ -4415,7 +4423,7 @@
       <node concept="37vLTG" id="7rqBz8B3JOk" role="3clF46">
         <property role="TrG5h" value="view" />
         <node concept="3uibUv" id="6dnXV8mIz6L" role="1tU5fm">
-          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXView" />
+          <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelectionCapable" />
           <node concept="16syzq" id="6dnXV8mID2l" role="11_B2D">
             <ref role="16sUi3" node="6dnXV8mID2j" resolve="BoundObject" />
           </node>
@@ -4693,7 +4701,7 @@
       <property role="TrG5h" value="view" />
       <node concept="3Tm6S6" id="6lryfQF8VaD" role="1B3o_S" />
       <node concept="3uibUv" id="6lryfQF8VaF" role="1tU5fm">
-        <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXView" />
+        <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelectionCapable" />
         <node concept="3uibUv" id="6lryfQF9CW5" role="11_B2D">
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
@@ -4702,7 +4710,7 @@
         <node concept="YeOm9" id="6lryfQF8VOk" role="2ShVmc">
           <node concept="1Y3b0j" id="6lryfQF8VOl" role="YeSDq">
             <property role="2bfB8j" value="true" />
-            <ref role="1Y3XeK" node="7rqBz8B3JOi" resolve="IOFXView" />
+            <ref role="1Y3XeK" node="7rqBz8B3JOi" resolve="IOFXSelectionCapable" />
             <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
             <node concept="3Tm1VV" id="6lryfQF8VOm" role="1B3o_S" />
             <node concept="3clFb_" id="6lryfQF8VOn" role="jymVt">
@@ -9789,7 +9797,7 @@
       <property role="TrG5h" value="Document" />
     </node>
     <node concept="3uibUv" id="3aesqnvcEUP" role="EKbjA">
-      <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXView" />
+      <ref role="3uigEE" node="7rqBz8B3JOi" resolve="IOFXSelectionCapable" />
       <node concept="16syzq" id="3aesqnvcEYG" role="11_B2D">
         <ref role="16sUi3" node="3aesqnvcERF" resolve="Document" />
       </node>
