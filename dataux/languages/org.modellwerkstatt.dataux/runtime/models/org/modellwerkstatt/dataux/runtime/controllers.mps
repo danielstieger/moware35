@@ -2217,7 +2217,7 @@
         </node>
         <node concept="3SKdUt" id="7_$ySbDmY1R" role="3cqZAp">
           <node concept="3SKdUq" id="3y7Cfyfu65M" role="3SKWNk">
-            <property role="3SKdUp" value="dfa" />
+            <property role="3SKdUp" value="local selection first" />
           </node>
         </node>
         <node concept="3clFbH" id="7_$ySbDmY1T" role="3cqZAp" />
@@ -6203,20 +6203,20 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6QGCiYWEMMP" role="jymVt" />
-    <node concept="3clFb_" id="3972coxdHlm" role="jymVt">
-      <property role="TrG5h" value="getSelection" />
+    <node concept="3clFb_" id="4uyzyzV4jF0" role="jymVt">
+      <property role="TrG5h" value="getSelectionAbsolute" />
       <property role="1EzhhJ" value="false" />
-      <node concept="37vLTG" id="3972coxdHln" role="3clF46">
+      <node concept="37vLTG" id="4uyzyzV4jF1" role="3clF46">
         <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="3972coxdHlo" role="1tU5fm">
+        <node concept="3uibUv" id="4uyzyzV4jF2" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
         </node>
       </node>
-      <node concept="3uibUv" id="6lKlDPcJUm4" role="3clF45">
+      <node concept="3uibUv" id="4uyzyzV4jF3" role="3clF45">
         <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
       </node>
-      <node concept="3Tm1VV" id="3972coxdHlq" role="1B3o_S" />
-      <node concept="3clFbS" id="3972coxdHlr" role="3clF47">
+      <node concept="3Tm1VV" id="4uyzyzV4jF4" role="1B3o_S" />
+      <node concept="3clFbS" id="4uyzyzV4jFK" role="3clF47">
         <node concept="3cpWs8" id="3972coxdHls" role="3cqZAp">
           <node concept="3cpWsn" id="3972coxdHlt" role="3cpWs9">
             <property role="TrG5h" value="sel" />
@@ -6226,7 +6226,7 @@
             <node concept="3nyPlj" id="3972coxdHlv" role="33vP2m">
               <ref role="37wK5l" node="3972coxdGYr" resolve="getSelection" />
               <node concept="37vLTw" id="5hc8PGHPz_L" role="37wK5m">
-                <ref role="3cqZAo" node="3972coxdHln" resolve="type" />
+                <ref role="3cqZAo" node="4uyzyzV4jF1" resolve="type" />
               </node>
             </node>
           </node>
@@ -6240,7 +6240,7 @@
                   <node concept="3cpWs3" id="3972coxdHlB" role="37wK5m">
                     <node concept="2OqwBi" id="3972coxdHlC" role="3uHU7w">
                       <node concept="37vLTw" id="5hc8PGHPz_9" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3972coxdHln" resolve="type" />
+                        <ref role="3cqZAo" node="4uyzyzV4jF1" resolve="type" />
                       </node>
                       <node concept="liA8E" id="3972coxdHlE" role="2OqNvi">
                         <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
@@ -6267,7 +6267,7 @@
           </node>
         </node>
       </node>
-      <node concept="2AHcQZ" id="3972coxdHlL" role="2AJF6D">
+      <node concept="2AHcQZ" id="4uyzyzV4jFL" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
@@ -12226,6 +12226,11 @@
         <node concept="3SKdUt" id="4mX9XggoTi4" role="3cqZAp">
           <node concept="3SKdUq" id="4mX9XggoTlm" role="3SKWNk">
             <property role="3SKdUp" value="TODO: is that clever?" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4uyzyzV2Dnz" role="3cqZAp">
+          <node concept="3SKdUq" id="4uyzyzV2Dn_" role="3SKWNk">
+            <property role="3SKdUp" value="That needs to be refactored in CommandContainer 2.0" />
           </node>
         </node>
         <node concept="3clFbJ" id="4mX9XggoSj9" role="3cqZAp">
