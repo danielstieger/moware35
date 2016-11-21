@@ -4162,25 +4162,6 @@
       <node concept="3Tm1VV" id="3972coxdHuK" role="1B3o_S" />
       <node concept="3clFbS" id="3972coxdHuL" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="3g5RX4r5r4r" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setReadOnly" />
-      <node concept="3cqZAl" id="3g5RX4r5r4s" role="3clF45" />
-      <node concept="3Tm1VV" id="3g5RX4r5r4t" role="1B3o_S" />
-      <node concept="3clFbS" id="3g5RX4r5r4u" role="3clF47" />
-      <node concept="37vLTG" id="3g5RX4r5r4v" role="3clF46">
-        <property role="TrG5h" value="ro" />
-        <node concept="10P_77" id="3g5RX4r5r4w" role="1tU5fm" />
-      </node>
-      <node concept="P$JXv" id="6QGCiYX6XnY" role="lGtFl">
-        <node concept="TZ5HI" id="6QGCiYX6XnZ" role="3nqlJM">
-          <node concept="TZ5HA" id="6QGCiYX6Xo0" role="3HnX3l" />
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="6QGCiYX6Xo1" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-      </node>
-    </node>
   </node>
   <node concept="3HP615" id="7rqBz8B3JOM">
     <property role="3GE5qa" value="OFXArchitecture" />

@@ -2116,7 +2116,7 @@
       <node concept="3F0ifn" id="6K73LRuXmMr" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2BbJI" role="3EZMnx" />
       <node concept="3F0ifn" id="1aaqwMInUi_" role="3EZMnx">
-        <property role="3F0ifm" value="local variables: (not enbld)" />
+        <property role="3F0ifm" value="local variables: // currently not enbld" />
         <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
       </node>
       <node concept="3F2HdR" id="1aaqwMInUiA" role="3EZMnx">

@@ -18,12 +18,6 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
-      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
-        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
-      </concept>
-      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
-        <child id="1188208488637" name="annotation" index="2AJF6D" />
-      </concept>
       <concept id="1083245097125" name="jetbrains.mps.baseLanguage.structure.EnumClass" flags="ig" index="Qs71p">
         <child id="1083245396908" name="enumConstant" index="Qtgdg" />
       </concept>
@@ -92,9 +86,6 @@
       </concept>
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
-      </concept>
-      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
-        <child id="2667874559098216723" name="text" index="3HnX3l" />
       </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
@@ -287,27 +278,6 @@
       <node concept="37vLTG" id="4XXgpA_yQ1p" role="3clF46">
         <property role="TrG5h" value="fqName" />
         <node concept="17QB3L" id="4XXgpA_yQ1o" role="1tU5fm" />
-      </node>
-    </node>
-    <node concept="3clFb_" id="3VIcZtBfIvp" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="createGenSelControlledByFqName" />
-      <node concept="37vLTG" id="3VIcZtBfIvq" role="3clF46">
-        <property role="TrG5h" value="fqName" />
-        <node concept="17QB3L" id="3VIcZtBfIvr" role="1tU5fm" />
-      </node>
-      <node concept="3uibUv" id="3VIcZtBfIz4" role="3clF45">
-        <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
-      </node>
-      <node concept="3Tm1VV" id="3VIcZtBfIvt" role="1B3o_S" />
-      <node concept="3clFbS" id="3VIcZtBfIvu" role="3clF47" />
-      <node concept="P$JXv" id="6QGCiYWKJI2" role="lGtFl">
-        <node concept="TZ5HI" id="6QGCiYWKJI3" role="3nqlJM">
-          <node concept="TZ5HA" id="6QGCiYWKJI4" role="3HnX3l" />
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="6QGCiYWKJI5" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="3clFb_" id="1SuqpWQX7r3" role="jymVt">

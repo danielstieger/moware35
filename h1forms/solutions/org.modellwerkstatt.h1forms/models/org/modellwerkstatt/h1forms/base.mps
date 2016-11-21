@@ -2481,9 +2481,6 @@
               </node>
               <node concept="liA8E" id="58$$edtlGnM" role="2OqNvi">
                 <ref role="37wK5l" to="yg8v:3nLGOmWzA1v" resolve="reevalEnabled" />
-                <node concept="37vLTw" id="58$$edtumNp" role="37wK5m">
-                  <ref role="3cqZAo" node="58$$edtudnE" resolve="controller" />
-                </node>
               </node>
             </node>
           </node>
@@ -15385,14 +15382,6 @@
                         </node>
                         <node concept="liA8E" id="7RHNXGyZ4bg" role="2OqNvi">
                           <ref role="37wK5l" to="yg8v:3nLGOmWzA1v" resolve="reevalEnabled" />
-                          <node concept="2OqwBi" id="7RHNXGyZ4bh" role="37wK5m">
-                            <node concept="37vLTw" id="7RHNXGyZ4bi" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7RHNXGyZ4b3" resolve="t" />
-                            </node>
-                            <node concept="2OwXpG" id="7RHNXGyZ4bj" role="2OqNvi">
-                              <ref role="2Oxat5" to="yg8v:4XXgpAAdU7X" resolve="injected_localSelectionCrtl" />
-                            </node>
-                          </node>
                         </node>
                       </node>
                       <node concept="9aQIb" id="7RHNXGyZ4bk" role="9aQIa">
@@ -16202,14 +16191,6 @@
                         </node>
                         <node concept="liA8E" id="7RHNXGyZ4n4" role="2OqNvi">
                           <ref role="37wK5l" to="yg8v:3nLGOmWzA1v" resolve="reevalEnabled" />
-                          <node concept="2OqwBi" id="7RHNXGyZ4n5" role="37wK5m">
-                            <node concept="37vLTw" id="7RHNXGyZ4n6" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7RHNXGyZ4mR" resolve="t" />
-                            </node>
-                            <node concept="2OwXpG" id="7RHNXGyZ4n7" role="2OqNvi">
-                              <ref role="2Oxat5" to="yg8v:4XXgpAAdU7X" resolve="injected_localSelectionCrtl" />
-                            </node>
-                          </node>
                         </node>
                       </node>
                       <node concept="9aQIb" id="7RHNXGyZ4n8" role="9aQIa">
@@ -16842,33 +16823,13 @@
       </node>
       <node concept="3clFbS" id="4XXgpAAg5SX" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="4mX9XgfG803" role="jymVt">
+    <node concept="3clFb_" id="4xjkqfyFPG4" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="isReadOnlySession" />
-      <node concept="10P_77" id="4mX9XgfG804" role="3clF45" />
-      <node concept="3Tm1VV" id="4mX9XgfG805" role="1B3o_S" />
-      <node concept="3clFbS" id="4mX9XgfG808" role="3clF47">
-        <node concept="3clFbF" id="4mX9XgfG80a" role="3cqZAp">
-          <node concept="3clFbT" id="4mX9XgfG809" role="3clFbG" />
-        </node>
-      </node>
+      <property role="TrG5h" value="forceNotEditable" />
+      <node concept="3cqZAl" id="4xjkqfyFPG5" role="3clF45" />
+      <node concept="3Tm1VV" id="4xjkqfyFPG6" role="1B3o_S" />
+      <node concept="3clFbS" id="4xjkqfyFPG8" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="1w5Ldygqigk" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getCurrentSession" />
-      <node concept="3uibUv" id="1w5Ldygqigl" role="3clF45">
-        <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
-      </node>
-      <node concept="3Tm1VV" id="1w5Ldygqigm" role="1B3o_S" />
-      <node concept="3clFbS" id="1w5Ldygqigv" role="3clF47">
-        <node concept="3clFbF" id="58$$edttWiq" role="3cqZAp">
-          <node concept="37vLTw" id="58$$edttWip" role="3clFbG">
-            <ref role="3cqZAo" node="58$$edttVRe" resolve="session" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="58$$edttTuf" role="jymVt" />
     <node concept="3Tm1VV" id="58$$edttO2u" role="1B3o_S" />
     <node concept="3uibUv" id="58$$edttTtX" role="EKbjA">
       <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="ISelectionController" />
