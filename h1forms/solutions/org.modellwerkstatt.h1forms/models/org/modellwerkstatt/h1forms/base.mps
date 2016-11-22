@@ -13896,7 +13896,13 @@
       <property role="TrG5h" value="gcClear" />
       <node concept="3cqZAl" id="7RHNXGyZ3VX" role="3clF45" />
       <node concept="3Tm1VV" id="7RHNXGyZ3VY" role="1B3o_S" />
-      <node concept="3clFbS" id="7RHNXGyZ3VZ" role="3clF47" />
+      <node concept="3clFbS" id="7RHNXGyZ3VZ" role="3clF47">
+        <node concept="3SKdUt" id="52pTiJGZuEg" role="3cqZAp">
+          <node concept="3SKdUq" id="52pTiJGZuEi" role="3SKWNk">
+            <property role="3SKdUp" value="gcClear on Delegates is called by IGenControlled" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="7RHNXGyZ3W0" role="jymVt">
       <property role="1EzhhJ" value="false" />

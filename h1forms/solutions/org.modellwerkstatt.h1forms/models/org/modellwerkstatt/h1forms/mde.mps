@@ -927,18 +927,18 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="1SuqpWQXrn2" role="jymVt">
+    <node concept="3clFb_" id="52pTiJH4uCL" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="createGenPagePaneByFqName" />
-      <node concept="37vLTG" id="1SuqpWQXrn3" role="3clF46">
+      <property role="TrG5h" value="getNewClassInstanceByFQName" />
+      <node concept="37vLTG" id="52pTiJH4uCM" role="3clF46">
         <property role="TrG5h" value="fqName" />
-        <node concept="17QB3L" id="1SuqpWQXrn4" role="1tU5fm" />
+        <node concept="17QB3L" id="52pTiJH4uCN" role="1tU5fm" />
       </node>
-      <node concept="3uibUv" id="6QGCiYWKK4G" role="3clF45">
-        <ref role="3uigEE" to="yg8v:72_IH8pqxXl" resolve="IGenPagePane" />
+      <node concept="3uibUv" id="52pTiJH4uCO" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
       </node>
-      <node concept="3Tm1VV" id="1SuqpWQXrn6" role="1B3o_S" />
-      <node concept="3clFbS" id="1SuqpWQXrn7" role="3clF47">
+      <node concept="3Tm1VV" id="52pTiJH4uCP" role="1B3o_S" />
+      <node concept="3clFbS" id="52pTiJH4uCT" role="3clF47">
         <node concept="SfApY" id="1SuqpWQXrn8" role="3cqZAp">
           <node concept="3clFbS" id="1SuqpWQXrn9" role="SfCbr">
             <node concept="3cpWs8" id="1SuqpWQXrna" role="3cqZAp">
@@ -973,7 +973,7 @@
                   <node concept="liA8E" id="1SuqpWQXrnn" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~ClassLoader.loadClass(java.lang.String):java.lang.Class" resolve="loadClass" />
                     <node concept="37vLTw" id="1SuqpWQXrno" role="37wK5m">
-                      <ref role="3cqZAo" node="1SuqpWQXrn3" resolve="fqName" />
+                      <ref role="3cqZAo" node="52pTiJH4uCM" resolve="fqName" />
                     </node>
                   </node>
                 </node>
@@ -982,30 +982,25 @@
             <node concept="3cpWs8" id="1SuqpWQXrnp" role="3cqZAp">
               <node concept="3cpWsn" id="1SuqpWQXrnq" role="3cpWs9">
                 <property role="TrG5h" value="instance" />
-                <node concept="3uibUv" id="6QGCiYWKLAd" role="1tU5fm">
-                  <ref role="3uigEE" to="yg8v:72_IH8pqxXl" resolve="IGenPagePane" />
+                <node concept="3uibUv" id="52pTiJH4wcU" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                 </node>
-                <node concept="10QFUN" id="1SuqpWQXrns" role="33vP2m">
-                  <node concept="3uibUv" id="6QGCiYWKLbV" role="10QFUM">
-                    <ref role="3uigEE" to="yg8v:72_IH8pqxXl" resolve="IGenPagePane" />
-                  </node>
-                  <node concept="2OqwBi" id="1SuqpWQXrnu" role="10QFUP">
-                    <node concept="2OqwBi" id="1SuqpWQXrnv" role="2Oq$k0">
-                      <node concept="2OqwBi" id="1SuqpWQXrnw" role="2Oq$k0">
-                        <node concept="Xjq3P" id="1SuqpWQXrnx" role="2Oq$k0" />
-                        <node concept="2OwXpG" id="1SuqpWQXrny" role="2OqNvi">
-                          <ref role="2Oxat5" node="7RHNXGyQGcn" resolve="context" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="1SuqpWQXrnz" role="2OqNvi">
-                        <ref role="37wK5l" to="a820:~ApplicationContext.getAutowireCapableBeanFactory():org.springframework.beans.factory.config.AutowireCapableBeanFactory" resolve="getAutowireCapableBeanFactory" />
+                <node concept="2OqwBi" id="1SuqpWQXrnu" role="33vP2m">
+                  <node concept="2OqwBi" id="1SuqpWQXrnv" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1SuqpWQXrnw" role="2Oq$k0">
+                      <node concept="Xjq3P" id="1SuqpWQXrnx" role="2Oq$k0" />
+                      <node concept="2OwXpG" id="1SuqpWQXrny" role="2OqNvi">
+                        <ref role="2Oxat5" node="7RHNXGyQGcn" resolve="context" />
                       </node>
                     </node>
-                    <node concept="liA8E" id="1SuqpWQXrn$" role="2OqNvi">
-                      <ref role="37wK5l" to="oawo:~AutowireCapableBeanFactory.createBean(java.lang.Class):java.lang.Object" resolve="createBean" />
-                      <node concept="37vLTw" id="1SuqpWQXrn_" role="37wK5m">
-                        <ref role="3cqZAo" node="1SuqpWQXrnj" resolve="iformcrtl" />
-                      </node>
+                    <node concept="liA8E" id="1SuqpWQXrnz" role="2OqNvi">
+                      <ref role="37wK5l" to="a820:~ApplicationContext.getAutowireCapableBeanFactory():org.springframework.beans.factory.config.AutowireCapableBeanFactory" resolve="getAutowireCapableBeanFactory" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1SuqpWQXrn$" role="2OqNvi">
+                    <ref role="37wK5l" to="oawo:~AutowireCapableBeanFactory.createBean(java.lang.Class):java.lang.Object" resolve="createBean" />
+                    <node concept="37vLTw" id="1SuqpWQXrn_" role="37wK5m">
+                      <ref role="3cqZAo" node="1SuqpWQXrnj" resolve="iformcrtl" />
                     </node>
                   </node>
                 </node>
@@ -1030,16 +1025,16 @@
                 <node concept="2ShNRf" id="1SuqpWQXrnI" role="YScLw">
                   <node concept="1pGfFk" id="1SuqpWQXrnJ" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="3cpWs3" id="6QGCiYWNdVF" role="37wK5m">
-                      <node concept="Xl_RD" id="6QGCiYWNdVG" role="3uHU7w">
+                    <node concept="3cpWs3" id="6QGCiYWNbrb" role="37wK5m">
+                      <node concept="Xl_RD" id="6QGCiYWNbrc" role="3uHU7w">
                         <property role="Xl_RC" value="' not found!" />
                       </node>
-                      <node concept="3cpWs3" id="6QGCiYWNdVH" role="3uHU7B">
-                        <node concept="Xl_RD" id="6QGCiYWNdVI" role="3uHU7B">
+                      <node concept="3cpWs3" id="6QGCiYWNbrd" role="3uHU7B">
+                        <node concept="Xl_RD" id="6QGCiYWNbre" role="3uHU7B">
                           <property role="Xl_RC" value="Class '" />
                         </node>
-                        <node concept="37vLTw" id="6QGCiYWNdVJ" role="3uHU7w">
-                          <ref role="3cqZAo" node="1SuqpWQXrn3" resolve="fqName" />
+                        <node concept="37vLTw" id="6QGCiYWNbrf" role="3uHU7w">
+                          <ref role="3cqZAo" node="52pTiJH4uCM" resolve="fqName" />
                         </node>
                       </node>
                     </node>
@@ -1047,6 +1042,35 @@
                       <ref role="3cqZAo" node="1SuqpWQXrnE" resolve="cnfe" />
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1SuqpWQXrn2" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="createGenPagePaneByFqName" />
+      <node concept="37vLTG" id="1SuqpWQXrn3" role="3clF46">
+        <property role="TrG5h" value="fqName" />
+        <node concept="17QB3L" id="1SuqpWQXrn4" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="6QGCiYWKK4G" role="3clF45">
+        <ref role="3uigEE" to="yg8v:72_IH8pqxXl" resolve="IGenPagePane" />
+      </node>
+      <node concept="3Tm1VV" id="1SuqpWQXrn6" role="1B3o_S" />
+      <node concept="3clFbS" id="1SuqpWQXrn7" role="3clF47">
+        <node concept="3clFbF" id="52pTiJH4xOt" role="3cqZAp">
+          <node concept="1eOMI4" id="52pTiJH4xOr" role="3clFbG">
+            <node concept="10QFUN" id="52pTiJH4xOo" role="1eOMHV">
+              <node concept="3uibUv" id="52pTiJH4ylI" role="10QFUM">
+                <ref role="3uigEE" to="yg8v:72_IH8pqxXl" resolve="IGenPagePane" />
+              </node>
+              <node concept="1rXfSq" id="52pTiJH4yBX" role="10QFUP">
+                <ref role="37wK5l" node="52pTiJH4uCL" resolve="getNewClassInstanceByFQName" />
+                <node concept="37vLTw" id="52pTiJH4zbM" role="37wK5m">
+                  <ref role="3cqZAo" node="1SuqpWQXrn3" resolve="fqName" />
                 </node>
               </node>
             </node>
