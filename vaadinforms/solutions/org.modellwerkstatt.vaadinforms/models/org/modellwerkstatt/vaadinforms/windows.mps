@@ -15255,6 +15255,27 @@
     <node concept="2tJIrI" id="5tLhDsexsCy" role="jymVt" />
     <node concept="2tJIrI" id="7wrkReHyqLa" role="jymVt" />
     <node concept="2tJIrI" id="7wrkReHy4fL" role="jymVt" />
+    <node concept="3clFb_" id="5GCI_cUPVa0" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="forceNotEditable" />
+      <node concept="3cqZAl" id="5GCI_cUPVa1" role="3clF45" />
+      <node concept="3Tm1VV" id="5GCI_cUPVa2" role="1B3o_S" />
+      <node concept="3clFbS" id="5GCI_cUPVa9" role="3clF47">
+        <node concept="3clFbF" id="5GCI_cUQ9la" role="3cqZAp">
+          <node concept="2OqwBi" id="5GCI_cUQ9tG" role="3clFbG">
+            <node concept="37vLTw" id="5GCI_cUQ9l9" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XHFlROJ9j3" resolve="table" />
+            </node>
+            <node concept="liA8E" id="5GCI_cUQaJC" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~Table.setEditable(boolean):void" resolve="setEditable" />
+              <node concept="3clFbT" id="5GCI_cUQaYY" role="37wK5m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="5XHFlRODqOz" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setElementClass" />
@@ -15267,7 +15288,7 @@
       <node concept="3cqZAl" id="5XHFlRODqOA" role="3clF45" />
       <node concept="3Tm1VV" id="5XHFlRODqOB" role="1B3o_S" />
       <node concept="3clFbS" id="5XHFlRODqOK" role="3clF47">
-        <node concept="3clFbH" id="7ApkBIQBbLb" role="3cqZAp" />
+        <node concept="3clFbH" id="5GCI_cUOEEo" role="3cqZAp" />
         <node concept="3clFbJ" id="7ApkBIQBeSb" role="3cqZAp">
           <node concept="3clFbS" id="7ApkBIQBeSd" role="3clFbx">
             <node concept="3SKdUt" id="7ApkBIQS$RQ" role="3cqZAp">

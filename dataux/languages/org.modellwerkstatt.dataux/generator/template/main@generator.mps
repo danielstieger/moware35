@@ -1521,6 +1521,17 @@
             <property role="3SKdUp" value="TODO: Check editability? How to enable/disable Table? " />
           </node>
         </node>
+        <node concept="3clFbF" id="5GCI_cUProQ" role="3cqZAp">
+          <node concept="2OqwBi" id="5GCI_cUPru3" role="3clFbG">
+            <node concept="37vLTw" id="5GCI_cUProO" role="2Oq$k0">
+              <ref role="3cqZAo" node="1kThbup1$Oe" resolve="uiTableForm" />
+            </node>
+            <node concept="liA8E" id="5GCI_cUPrMQ" role="2OqNvi">
+              <ref role="37wK5l" to="250q:5GCI_cUPnmC" resolve="forceNotEditable" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5GCI_cUNSMf" role="3cqZAp" />
       </node>
     </node>
     <node concept="3clFb_" id="1kThbup1$LQ" role="jymVt">

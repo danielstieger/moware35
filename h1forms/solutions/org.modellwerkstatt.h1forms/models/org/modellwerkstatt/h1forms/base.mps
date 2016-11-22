@@ -16099,8 +16099,13 @@
       <node concept="3Tm1VV" id="7RHNXGyZ4mm" role="1B3o_S" />
       <node concept="3clFbS" id="7RHNXGyZ4mn" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="7RHNXGyZ4mo" role="jymVt" />
-    <node concept="2tJIrI" id="7RHNXGyZ4mp" role="jymVt" />
+    <node concept="3clFb_" id="5GCI_cUQ5ly" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="forceNotEditable" />
+      <node concept="3cqZAl" id="5GCI_cUQ5lz" role="3clF45" />
+      <node concept="3Tm1VV" id="5GCI_cUQ5l$" role="1B3o_S" />
+      <node concept="3clFbS" id="5GCI_cUQ5lA" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="7RHNXGyZ4mq" role="jymVt">
       <property role="TrG5h" value="cmdtriggerInForm" />
       <property role="1EzhhJ" value="false" />
