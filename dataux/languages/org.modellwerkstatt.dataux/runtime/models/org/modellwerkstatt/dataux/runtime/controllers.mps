@@ -1031,15 +1031,27 @@
             <node concept="3clFbH" id="3THV4aIb4N3" role="3cqZAp" />
             <node concept="3SKdUt" id="3THV4aIawfM" role="3cqZAp">
               <node concept="3SKdUq" id="3THV4aIawfO" role="3SKWNk">
-                <property role="3SKdUp" value="might be a FormDelegate or a    Table not bound via property - strangly reqBoundType is set, because" />
+                <property role="3SKdUp" value="* might be a FormDelegate" />
               </node>
             </node>
             <node concept="3SKdUt" id="3THV4aIaNS8" role="3cqZAp">
               <node concept="3SKdUq" id="3THV4aIaNSa" role="3SKWNk">
-                <property role="3SKdUp" value="                                in case of RootSelCrtl of Type Invoice and Table of Type Invoice" />
+                <property role="3SKdUp" value="* might be a Table not bound to a property" />
               </node>
             </node>
-            <node concept="3clFbH" id="3THV4aIaLoD" role="3cqZAp" />
+            <node concept="3SKdUt" id="4mZSGsbWFpY" role="3cqZAp">
+              <node concept="3SKdUq" id="4mZSGsbWFq0" role="3SKWNk">
+                <property role="3SKdUp" value="  - in case of root list, typed invoice, table not bound but just child on invoice" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="4mZSGsbWJpX" role="3cqZAp">
+              <node concept="3SKdUq" id="4mZSGsbWJpZ" role="3SKWNk">
+                <property role="3SKdUp" value="  - some strange case where table is not root list, but still not bound by a property? an error?" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="4mZSGsbWNdH" role="3cqZAp">
+              <node concept="3SKdUq" id="4mZSGsbWNdJ" role="3SKWNk" />
+            </node>
             <node concept="3SKdUt" id="3THV4aIb7jL" role="3cqZAp">
               <node concept="3SKdUq" id="3THV4aIb7jN" role="3SKWNk">
                 <property role="3SKdUp" value="this view is only interested in selection updates. that s the only thing we can provide anyway. " />
@@ -3132,15 +3144,18 @@
                                   <node concept="Xl_RD" id="72_IH8pxYqg" role="3uHU7B">
                                     <property role="Xl_RC" value="\n--- " />
                                   </node>
-                                  <node concept="2OqwBi" id="72_IH8pxXS2" role="3uHU7w">
-                                    <node concept="2OqwBi" id="72_IH8pxXGH" role="2Oq$k0">
-                                      <node concept="Xjq3P" id="72_IH8pxXBG" role="2Oq$k0" />
-                                      <node concept="liA8E" id="72_IH8pxXLl" role="2OqNvi">
-                                        <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                                  <node concept="1rXfSq" id="4mZSGsbWQZJ" role="3uHU7w">
+                                    <ref role="37wK5l" node="5SSJEYsedHn" resolve="s" />
+                                    <node concept="2OqwBi" id="72_IH8pxXS2" role="37wK5m">
+                                      <node concept="2OqwBi" id="72_IH8pxXGH" role="2Oq$k0">
+                                        <node concept="Xjq3P" id="72_IH8pxXBG" role="2Oq$k0" />
+                                        <node concept="liA8E" id="72_IH8pxXLl" role="2OqNvi">
+                                          <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                                        </node>
                                       </node>
-                                    </node>
-                                    <node concept="liA8E" id="72_IH8pxY6I" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                                      <node concept="liA8E" id="72_IH8pxY6I" role="2OqNvi">
+                                        <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                                      </node>
                                     </node>
                                   </node>
                                 </node>

@@ -422,6 +422,12 @@
       <node concept="3cqZAl" id="2zlKbqjrMvz" role="3clF45" />
       <node concept="3Tm1VV" id="2zlKbqjrMv$" role="1B3o_S" />
       <node concept="3clFbS" id="2zlKbqjrMv_" role="3clF47" />
+      <node concept="37vLTG" id="3VIcZtBeC26" role="3clF46">
+        <property role="TrG5h" value="uiFacotry" />
+        <node concept="3uibUv" id="4xjkqfyyb1L" role="1tU5fm">
+          <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
+        </node>
+      </node>
       <node concept="37vLTG" id="2zlKbqjrMvA" role="3clF46">
         <property role="TrG5h" value="pageController" />
         <node concept="3uibUv" id="72_IH8prH68" role="1tU5fm">
@@ -434,10 +440,10 @@
           <ref role="3uigEE" to="1e0c:5SSJEYs7zNX" resolve="ISelectionController.Binding" />
         </node>
       </node>
-      <node concept="37vLTG" id="3VIcZtBeC26" role="3clF46">
-        <property role="TrG5h" value="uiFacotry" />
-        <node concept="3uibUv" id="4xjkqfyyb1L" role="1tU5fm">
-          <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
+      <node concept="37vLTG" id="4mZSGsbX1bt" role="3clF46">
+        <property role="TrG5h" value="outerMenu" />
+        <node concept="3uibUv" id="4mZSGsbX1EO" role="1tU5fm">
+          <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
         </node>
       </node>
       <node concept="P$JXv" id="2zlKbqjrMvI" role="lGtFl">
