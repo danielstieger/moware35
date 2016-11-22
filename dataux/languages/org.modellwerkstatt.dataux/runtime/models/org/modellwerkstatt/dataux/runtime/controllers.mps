@@ -647,8 +647,8 @@
       <property role="3TUv4t" value="true" />
       <node concept="10P_77" id="3972coxdH7V" role="1tU5fm" />
       <node concept="3Tmbuc" id="3972coxdH7U" role="1B3o_S" />
-      <node concept="3clFbT" id="7p6LBMoL7gN" role="33vP2m">
-        <property role="3clFbU" value="true" />
+      <node concept="3clFbT" id="4mZSGsbUvdm" role="33vP2m">
+        <property role="3clFbU" value="false" />
       </node>
     </node>
     <node concept="2tJIrI" id="72_IH8pxpS1" role="jymVt" />
@@ -1045,12 +1045,13 @@
                 <property role="3SKdUp" value="this view is only interested in selection updates. that s the only thing we can provide anyway. " />
               </node>
             </node>
-            <node concept="3clFbF" id="5SSJEYs61aB" role="3cqZAp">
-              <node concept="2OqwBi" id="5SSJEYs61aC" role="3clFbG">
-                <node concept="Xjq3P" id="5SSJEYs61aD" role="2Oq$k0" />
-                <node concept="liA8E" id="5SSJEYs61aE" role="2OqNvi">
-                  <ref role="37wK5l" node="3972coxdH28" resolve="addView" />
-                  <node concept="37vLTw" id="5SSJEYs61aF" role="37wK5m">
+            <node concept="3clFbF" id="4mZSGsbU_8M" role="3cqZAp">
+              <node concept="2OqwBi" id="4mZSGsbUAZk" role="3clFbG">
+                <node concept="37vLTw" id="4mZSGsbU_8K" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3972coxdH7v" resolve="attachedUxElems" />
+                </node>
+                <node concept="TSZUe" id="4mZSGsbUBhL" role="2OqNvi">
+                  <node concept="37vLTw" id="4mZSGsbUBlP" role="25WWJ7">
                     <ref role="3cqZAo" node="3972coxdGU_" resolve="uxElemToRegister" />
                   </node>
                 </node>
@@ -1106,7 +1107,7 @@
               </node>
               <node concept="3cpWs8" id="5SSJEYs61aO" role="3cqZAp">
                 <node concept="3cpWsn" id="5SSJEYs61aP" role="3cpWs9">
-                  <property role="TrG5h" value="ctr" />
+                  <property role="TrG5h" value="newController" />
                   <node concept="3uibUv" id="5SSJEYs6mYF" role="1tU5fm">
                     <ref role="3uigEE" node="3972coxdGQG" resolve="SelectionController" />
                   </node>
@@ -1210,7 +1211,7 @@
               <node concept="3clFbH" id="7iqk9Qko5WY" role="3cqZAp" />
               <node concept="3cpWs8" id="7iqk9QknGyu" role="3cqZAp">
                 <node concept="3cpWsn" id="7iqk9QknGyx" role="3cpWs9">
-                  <property role="TrG5h" value="parentViewLogic" />
+                  <property role="TrG5h" value="DEP__parentViewLogic" />
                   <node concept="10P_77" id="7iqk9QknGys" role="1tU5fm" />
                   <node concept="3clFbT" id="7iqk9QknIRa" role="33vP2m">
                     <property role="3clFbU" value="true" />
@@ -1225,7 +1226,7 @@
               <node concept="3clFbH" id="3THV4aIcWof" role="3cqZAp" />
               <node concept="3cpWs8" id="7iqk9QkoawZ" role="3cqZAp">
                 <node concept="3cpWsn" id="7iqk9Qkoax2" role="3cpWs9">
-                  <property role="TrG5h" value="parentOVCcontainsViewLogic" />
+                  <property role="TrG5h" value="DEP__parentOVCcontainsViewLogic" />
                   <node concept="10P_77" id="7iqk9QkoawX" role="1tU5fm" />
                   <node concept="3clFbT" id="7iqk9QkocEo" role="33vP2m">
                     <property role="3clFbU" value="true" />
@@ -1240,14 +1241,18 @@
               <node concept="3clFbH" id="7iqk9Qkojku" role="3cqZAp" />
               <node concept="3clFbJ" id="5SSJEYs61bm" role="3cqZAp">
                 <node concept="3clFbS" id="5SSJEYs61bn" role="3clFbx">
-                  <node concept="3clFbF" id="5SSJEYs61bo" role="3cqZAp">
-                    <node concept="2OqwBi" id="5SSJEYs61bp" role="3clFbG">
-                      <node concept="37vLTw" id="5SSJEYs61bq" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5SSJEYs61aP" resolve="ctr" />
+                  <node concept="3clFbF" id="4mZSGsbUFQ9" role="3cqZAp">
+                    <node concept="2OqwBi" id="4mZSGsbUHV$" role="3clFbG">
+                      <node concept="2OqwBi" id="4mZSGsbUHD5" role="2Oq$k0">
+                        <node concept="37vLTw" id="4mZSGsbUFQ7" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5SSJEYs61aP" resolve="newController" />
+                        </node>
+                        <node concept="2OwXpG" id="4mZSGsbUHMz" role="2OqNvi">
+                          <ref role="2Oxat5" node="3972coxdH7v" resolve="attachedUxElems" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="5SSJEYs61br" role="2OqNvi">
-                        <ref role="37wK5l" node="3972coxdH28" resolve="addView" />
-                        <node concept="37vLTw" id="5SSJEYs61bs" role="37wK5m">
+                      <node concept="TSZUe" id="4mZSGsbUI9e" role="2OqNvi">
+                        <node concept="37vLTw" id="4mZSGsbUIbx" role="25WWJ7">
                           <ref role="3cqZAo" node="3972coxdGU_" resolve="uxElemToRegister" />
                         </node>
                       </node>
@@ -1255,31 +1260,31 @@
                   </node>
                   <node concept="3cpWs6" id="5SSJEYs61bt" role="3cqZAp">
                     <node concept="37vLTw" id="72_IH8ps$rw" role="3cqZAk">
-                      <ref role="3cqZAo" node="5SSJEYs61aP" resolve="ctr" />
+                      <ref role="3cqZAo" node="5SSJEYs61aP" resolve="newController" />
                     </node>
                   </node>
                   <node concept="3clFbH" id="5SSJEYs61bv" role="3cqZAp" />
                 </node>
                 <node concept="1Wc70l" id="3THV4aIdlLS" role="3clFbw">
                   <node concept="37vLTw" id="7iqk9QknISC" role="3uHU7w">
-                    <ref role="3cqZAo" node="7iqk9QknGyx" resolve="parentViewLogic" />
+                    <ref role="3cqZAo" node="7iqk9QknGyx" resolve="DEP__parentViewLogic" />
                   </node>
                   <node concept="3y3z36" id="5SSJEYs61bw" role="3uHU7B">
                     <node concept="37vLTw" id="5SSJEYs61bx" role="3uHU7B">
-                      <ref role="3cqZAo" node="5SSJEYs61aP" resolve="ctr" />
+                      <ref role="3cqZAo" node="5SSJEYs61aP" resolve="newController" />
                     </node>
                     <node concept="10Nm6u" id="5SSJEYs61by" role="3uHU7w" />
                   </node>
                 </node>
                 <node concept="3eNFk2" id="5SSJEYs61bz" role="3eNLev">
                   <node concept="37vLTw" id="7iqk9QkorQU" role="3eO9$A">
-                    <ref role="3cqZAo" node="7iqk9Qkoax2" resolve="parentOVCcontainsViewLogic" />
+                    <ref role="3cqZAo" node="7iqk9Qkoax2" resolve="DEP__parentOVCcontainsViewLogic" />
                   </node>
                   <node concept="3clFbS" id="5SSJEYs61b$" role="3eOfB_">
                     <node concept="3clFbF" id="5SSJEYs61b_" role="3cqZAp">
                       <node concept="37vLTI" id="5SSJEYs61bA" role="3clFbG">
                         <node concept="37vLTw" id="5SSJEYs61bB" role="37vLTJ">
-                          <ref role="3cqZAo" node="5SSJEYs61aP" resolve="ctr" />
+                          <ref role="3cqZAo" node="5SSJEYs61aP" resolve="newController" />
                         </node>
                         <node concept="2ShNRf" id="5SSJEYs61bC" role="37vLTx">
                           <node concept="1pGfFk" id="5SSJEYs61bD" role="2ShVmc">
@@ -1305,19 +1310,23 @@
                         </node>
                         <node concept="TSZUe" id="5SSJEYs61bL" role="2OqNvi">
                           <node concept="37vLTw" id="5SSJEYs61bM" role="25WWJ7">
-                            <ref role="3cqZAo" node="5SSJEYs61aP" resolve="ctr" />
+                            <ref role="3cqZAo" node="5SSJEYs61aP" resolve="newController" />
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbF" id="5SSJEYs61bN" role="3cqZAp">
-                      <node concept="2OqwBi" id="5SSJEYs61bO" role="3clFbG">
-                        <node concept="37vLTw" id="5SSJEYs61bP" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5SSJEYs61aP" resolve="ctr" />
+                    <node concept="3clFbF" id="4mZSGsbURER" role="3cqZAp">
+                      <node concept="2OqwBi" id="4mZSGsbUTMZ" role="3clFbG">
+                        <node concept="2OqwBi" id="4mZSGsbUTv7" role="2Oq$k0">
+                          <node concept="37vLTw" id="4mZSGsbUREP" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5SSJEYs61aP" resolve="newController" />
+                          </node>
+                          <node concept="2OwXpG" id="4mZSGsbUTCX" role="2OqNvi">
+                            <ref role="2Oxat5" node="3972coxdH7v" resolve="attachedUxElems" />
+                          </node>
                         </node>
-                        <node concept="liA8E" id="5SSJEYs61bQ" role="2OqNvi">
-                          <ref role="37wK5l" node="3972coxdH28" resolve="addView" />
-                          <node concept="37vLTw" id="5SSJEYs61bR" role="37wK5m">
+                        <node concept="TSZUe" id="4mZSGsbUU9i" role="2OqNvi">
+                          <node concept="37vLTw" id="4mZSGsbUUc8" role="25WWJ7">
                             <ref role="3cqZAo" node="3972coxdGU_" resolve="uxElemToRegister" />
                           </node>
                         </node>
@@ -1325,7 +1334,7 @@
                     </node>
                     <node concept="3cpWs6" id="5SSJEYs61bS" role="3cqZAp">
                       <node concept="37vLTw" id="72_IH8psAqq" role="3cqZAk">
-                        <ref role="3cqZAo" node="5SSJEYs61aP" resolve="ctr" />
+                        <ref role="3cqZAo" node="5SSJEYs61aP" resolve="newController" />
                       </node>
                     </node>
                     <node concept="3clFbH" id="5SSJEYs61bU" role="3cqZAp" />
@@ -2999,31 +3008,6 @@
         <property role="TrG5h" value="parentObject" />
         <node concept="3uibUv" id="3972coxdH27" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="3972coxdH28" role="jymVt">
-      <property role="TrG5h" value="addView" />
-      <node concept="3cqZAl" id="3972coxdH29" role="3clF45" />
-      <node concept="3Tmbuc" id="5SSJEYs75HU" role="1B3o_S" />
-      <node concept="3clFbS" id="3972coxdH2b" role="3clF47">
-        <node concept="3clFbF" id="3972coxdH2F" role="3cqZAp">
-          <node concept="2OqwBi" id="3972coxdH2G" role="3clFbG">
-            <node concept="37vLTw" id="5hc8PGHPz5v" role="2Oq$k0">
-              <ref role="3cqZAo" node="3972coxdH7v" resolve="attachedUxElems" />
-            </node>
-            <node concept="TSZUe" id="3972coxdH2I" role="2OqNvi">
-              <node concept="37vLTw" id="5hc8PGHPzC6" role="25WWJ7">
-                <ref role="3cqZAo" node="3972coxdH2P" resolve="view" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="3972coxdH2P" role="3clF46">
-        <property role="TrG5h" value="view" />
-        <node concept="3uibUv" id="3VIcZtBjgZK" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:3VIcZtBehi$" resolve="IGenSelControlled" />
         </node>
       </node>
     </node>

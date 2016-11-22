@@ -387,13 +387,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
-        <property id="709746936026609031" name="linkId" index="3V$3ak" />
-        <property id="709746936026609029" name="linkRole" index="3V$3am" />
-      </concept>
-      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
-        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
-      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -6003,60 +5996,65 @@
                       <property role="3SKdUp" value="check advanced binding! BoundType: Aufgabe / SelectedClass: Aufgabe" />
                     </node>
                   </node>
-                  <node concept="3SKdUt" id="61_ZUKWELcQ" role="3cqZAp">
-                    <node concept="3SKdUq" id="61_ZUKWELcS" role="3SKWNk">
-                      <property role="3SKdUp" value="Why is that necessary? Dan Mrs 2016?" />
+                  <node concept="3SKdUt" id="4mZSGsbVbTQ" role="3cqZAp">
+                    <node concept="3SKdUq" id="4mZSGsbVbTS" role="3SKWNk">
+                      <property role="3SKdUp" value="if we receive a list with one object but we do not have a selection right now. automatically select." />
                     </node>
                   </node>
-                  <node concept="YS8fn" id="61_ZUKWEMLj" role="3cqZAp">
-                    <node concept="2ShNRf" id="61_ZUKWENeD" role="YScLw">
-                      <node concept="1pGfFk" id="61_ZUKWENsF" role="2ShVmc">
-                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                        <node concept="Xl_RD" id="61_ZUKWENwx" role="37wK5m">
-                          <property role="Xl_RC" value="Dan Mrs 2016 - refactring. Supicious Case which should be checked. Please report!" />
+                  <node concept="3clFbJ" id="xCZnms9v8N" role="3cqZAp">
+                    <node concept="3clFbS" id="xCZnms9v8O" role="3clFbx">
+                      <node concept="3SKdUt" id="4mZSGsbVxJi" role="3cqZAp">
+                        <node concept="3SKdUq" id="4mZSGsbVxJk" role="3SKWNk">
+                          <property role="3SKdUp" value="in forms3 this features was only enables, if a type and a selectedClass was specified" />
                         </node>
                       </node>
-                    </node>
-                  </node>
-                  <node concept="1X3_iC" id="61_ZUKWEZPN" role="lGtFl">
-                    <property role="3V$3am" value="statement" />
-                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                    <node concept="3clFbJ" id="xCZnms9v8N" role="8Wnug">
-                      <node concept="3clFbS" id="xCZnms9v8O" role="3clFbx">
-                        <node concept="3SKdUt" id="61_ZUKWF0Ft" role="3cqZAp">
-                          <node concept="3SKdUq" id="61_ZUKWF0Fv" role="3SKWNk">
-                            <property role="3SKdUp" value="There was a node macro around this if: if boundClass is not null, then allow for this " />
-                          </node>
-                        </node>
-                        <node concept="3SKdUt" id="61_ZUKWF0JF" role="3cqZAp">
-                          <node concept="3SKdUq" id="61_ZUKWF0JH" role="3SKWNk">
-                            <property role="3SKdUp" value="pushSelction or clear thing ... ???" />
-                          </node>
-                        </node>
-                        <node concept="3clFbH" id="21Qe5t1O7I2" role="3cqZAp" />
-                        <node concept="3SKdUt" id="21Qe5t1O7FS" role="3cqZAp">
-                          <node concept="3SKdUq" id="21Qe5t1O7FU" role="3SKWNk">
-                            <property role="3SKdUp" value="selController.pushSelectionAbsolute(new FSelection(((Object) objects.get(0))))" />
-                          </node>
+                      <node concept="3SKdUt" id="4mZSGsbVxZo" role="3cqZAp">
+                        <node concept="3SKdUq" id="4mZSGsbVxZq" role="3SKWNk">
+                          <property role="3SKdUp" value="dataux always uses a selectedClass.. " />
                         </node>
                       </node>
-                      <node concept="3clFbC" id="xCZnms9vo9" role="3clFbw">
-                        <node concept="2OqwBi" id="xCZnms9v9T" role="3uHU7B">
-                          <node concept="37vLTw" id="fdGRoMYR9i" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4Y02LQOEnbj" resolve="objects" />
+                      <node concept="3clFbF" id="4mZSGsbVmi5" role="3cqZAp">
+                        <node concept="2OqwBi" id="4mZSGsbVmmJ" role="3clFbG">
+                          <node concept="37vLTw" id="4mZSGsbVmi3" role="2Oq$k0">
+                            <ref role="3cqZAo" node="76iu0rYVIpg" resolve="selController" />
                           </node>
-                          <node concept="34oBXx" id="xCZnms9vnK" role="2OqNvi" />
-                        </node>
-                        <node concept="3cmrfG" id="xCZnms9vox" role="3uHU7w">
-                          <property role="3cmrfH" value="1" />
-                        </node>
-                      </node>
-                      <node concept="9aQIb" id="xCZnmsbh0m" role="9aQIa">
-                        <node concept="3clFbS" id="xCZnmsbh0n" role="9aQI4">
-                          <node concept="3clFbF" id="f3jkc21iS_" role="3cqZAp">
-                            <node concept="1rXfSq" id="fdGRoMYQ8k" role="3clFbG">
-                              <ref role="37wK5l" node="f3jkc21iN$" resolve="clear" />
+                          <node concept="liA8E" id="4mZSGsbVmqo" role="2OqNvi">
+                            <ref role="37wK5l" to="1e0c:3VIcZtBaZsw" resolve="pushSelectionAbsolute" />
+                            <node concept="2ShNRf" id="4mZSGsbVmGo" role="37wK5m">
+                              <node concept="1pGfFk" id="4mZSGsbVw5i" role="2ShVmc">
+                                <ref role="37wK5l" to="1e0c:3r$bzmx4dUq" resolve="Selection" />
+                                <node concept="2OqwBi" id="4mZSGsbVwxR" role="37wK5m">
+                                  <node concept="37vLTw" id="4mZSGsbVw9s" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="4Y02LQOEnbj" resolve="objects" />
+                                  </node>
+                                  <node concept="34jXtK" id="4mZSGsbVx3A" role="2OqNvi">
+                                    <node concept="3cmrfG" id="4mZSGsbVxqW" role="25WWJ7">
+                                      <property role="3cmrfH" value="0" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                             </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbC" id="xCZnms9vo9" role="3clFbw">
+                      <node concept="2OqwBi" id="xCZnms9v9T" role="3uHU7B">
+                        <node concept="37vLTw" id="fdGRoMYR9i" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4Y02LQOEnbj" resolve="objects" />
+                        </node>
+                        <node concept="34oBXx" id="xCZnms9vnK" role="2OqNvi" />
+                      </node>
+                      <node concept="3cmrfG" id="xCZnms9vox" role="3uHU7w">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                    </node>
+                    <node concept="9aQIb" id="xCZnmsbh0m" role="9aQIa">
+                      <node concept="3clFbS" id="xCZnmsbh0n" role="9aQI4">
+                        <node concept="3clFbF" id="f3jkc21iS_" role="3cqZAp">
+                          <node concept="1rXfSq" id="fdGRoMYQ8k" role="3clFbG">
+                            <ref role="37wK5l" node="f3jkc21iN$" resolve="clear" />
                           </node>
                         </node>
                       </node>
