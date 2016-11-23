@@ -198,7 +198,6 @@
       <node concept="3clFbS" id="3bZh4Q5pJvF" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="3bZh4Q5qp3S" role="jymVt" />
-    <node concept="2tJIrI" id="3bZh4Q5uKGt" role="jymVt" />
     <node concept="3clFb_" id="3bZh4Q5tA4c" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setColLayoutConstraints" />
@@ -915,7 +914,7 @@
     <node concept="2tJIrI" id="1KgqQuB_bFJ" role="jymVt" />
     <node concept="3clFb_" id="4ZIUv21HLGf" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setElementClass" />
+      <property role="TrG5h" value="endOfInitializationForElementClass" />
       <node concept="37vLTG" id="4ZIUv21HLGj" role="3clF46">
         <property role="TrG5h" value="cls" />
         <node concept="3uibUv" id="4ZIUv21HLGl" role="1tU5fm">
@@ -957,7 +956,6 @@
       <node concept="3clFbS" id="dX9tEwAly$" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="1KgqQuBAvdf" role="jymVt" />
-    <node concept="2tJIrI" id="1KgqQuBAvjL" role="jymVt" />
     <node concept="3clFb_" id="dX9tEwAk0D" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="addColumn" />
@@ -993,7 +991,7 @@
     </node>
     <node concept="3clFb_" id="2WNQGzSDz$b" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setSummaryLineText" />
+      <property role="TrG5h" value="setSelectionSummaryLineText" />
       <node concept="37vLTG" id="2WNQGzSDz$g" role="3clF46">
         <property role="TrG5h" value="text" />
         <node concept="17QB3L" id="2WNQGzSDz$i" role="1tU5fm" />
@@ -1002,6 +1000,18 @@
       <node concept="3Tm1VV" id="2WNQGzSDz$d" role="1B3o_S" />
       <node concept="3clFbS" id="2WNQGzSDz$e" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="6rXe_0EOZEm" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setTableSummaryLineText" />
+      <node concept="37vLTG" id="6rXe_0EOZEn" role="3clF46">
+        <property role="TrG5h" value="text" />
+        <node concept="17QB3L" id="6rXe_0EOZEo" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6rXe_0EOZEp" role="3clF45" />
+      <node concept="3Tm1VV" id="6rXe_0EOZEq" role="1B3o_S" />
+      <node concept="3clFbS" id="6rXe_0EOZEr" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="6rXe_0EOZC1" role="jymVt" />
     <node concept="3clFb_" id="5GCI_cUPnmC" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="forceNotEditable" />

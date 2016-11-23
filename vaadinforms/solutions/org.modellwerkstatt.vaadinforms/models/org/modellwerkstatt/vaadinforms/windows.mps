@@ -15301,7 +15301,7 @@
     </node>
     <node concept="3clFb_" id="5XHFlRODqOz" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setElementClass" />
+      <property role="TrG5h" value="endOfInitializationForElementClass" />
       <node concept="37vLTG" id="5XHFlRODqO$" role="3clF46">
         <property role="TrG5h" value="cls" />
         <node concept="3uibUv" id="5XHFlRODqO_" role="1tU5fm">
@@ -16354,7 +16354,7 @@
     </node>
     <node concept="3clFb_" id="5XHFlRODqP7" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setSummaryLineText" />
+      <property role="TrG5h" value="setSelectionSummaryLineText" />
       <node concept="37vLTG" id="5XHFlRODqP8" role="3clF46">
         <property role="TrG5h" value="text" />
         <node concept="17QB3L" id="5XHFlRODqP9" role="1tU5fm" />
@@ -16488,6 +16488,25 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="6rXe_0F4mtL" role="jymVt" />
+    <node concept="3clFb_" id="6rXe_0F4sI$" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setTableSummaryLineText" />
+      <node concept="37vLTG" id="6rXe_0F4sI_" role="3clF46">
+        <property role="TrG5h" value="text" />
+        <node concept="17QB3L" id="6rXe_0F4sIA" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6rXe_0F4sIB" role="3clF45" />
+      <node concept="3Tm1VV" id="6rXe_0F4sIC" role="1B3o_S" />
+      <node concept="3clFbS" id="6rXe_0F4sIJ" role="3clF47">
+        <node concept="3SKdUt" id="6rXe_0F4yBJ" role="3cqZAp">
+          <node concept="3SKdUq" id="6rXe_0F4yBK" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: Not implemented yet!" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6rXe_0F4n2E" role="jymVt" />
     <node concept="3clFb_" id="5XHFlRODqPe" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="addMenuAndSetButtons" />
@@ -23331,7 +23350,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="WtvVGDmzDj" role="2OqNvi">
-                  <ref role="37wK5l" to="5wm0:5Y1b9tRdJQI" resolve="isRequestFirstFocus" />
+                  <ref role="37wK5l" to="5wm0:5Y1b9tRdJQI" resolve="isRequestFocus" />
                 </node>
               </node>
             </node>

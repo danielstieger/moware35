@@ -14176,7 +14176,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="7RHNXGyZ3Xm" role="2OqNvi">
-                  <ref role="37wK5l" to="5wm0:5Y1b9tRdJQI" resolve="isRequestFirstFocus" />
+                  <ref role="37wK5l" to="5wm0:5Y1b9tRdJQI" resolve="isRequestFocus" />
                 </node>
               </node>
             </node>
@@ -15760,7 +15760,7 @@
     <node concept="2tJIrI" id="7RHNXGyZ4k2" role="jymVt" />
     <node concept="3clFb_" id="7RHNXGyZ4k3" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setElementClass" />
+      <property role="TrG5h" value="endOfInitializationForElementClass" />
       <node concept="37vLTG" id="7RHNXGyZ4k4" role="3clF46">
         <property role="TrG5h" value="cls" />
         <node concept="3uibUv" id="7RHNXGyZ4k5" role="1tU5fm">
@@ -15862,7 +15862,7 @@
     </node>
     <node concept="3clFb_" id="7RHNXGyZ4kF" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setSummaryLineText" />
+      <property role="TrG5h" value="setSelectionSummaryLineText" />
       <node concept="37vLTG" id="7RHNXGyZ4kG" role="3clF46">
         <property role="TrG5h" value="text" />
         <node concept="17QB3L" id="7RHNXGyZ4kH" role="1tU5fm" />
@@ -15870,6 +15870,17 @@
       <node concept="3cqZAl" id="7RHNXGyZ4kI" role="3clF45" />
       <node concept="3Tm1VV" id="7RHNXGyZ4kJ" role="1B3o_S" />
       <node concept="3clFbS" id="7RHNXGyZ4kK" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6rXe_0F37xo" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setTableSummaryLineText" />
+      <node concept="37vLTG" id="6rXe_0F37xp" role="3clF46">
+        <property role="TrG5h" value="text" />
+        <node concept="17QB3L" id="6rXe_0F37xq" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6rXe_0F37xr" role="3clF45" />
+      <node concept="3Tm1VV" id="6rXe_0F37xs" role="1B3o_S" />
+      <node concept="3clFbS" id="6rXe_0F37xu" role="3clF47" />
     </node>
     <node concept="3clFb_" id="7RHNXGyZ4kL" role="jymVt">
       <property role="1EzhhJ" value="false" />

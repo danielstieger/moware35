@@ -3474,9 +3474,6 @@
       <property role="TrG5h" value="formatString" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="PrWs8" id="5zF9hZsxt2p" role="PzmwI">
-      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3KPvoWv6Cnk">
     <property role="1pbfSe" value="1531970403" />

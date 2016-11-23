@@ -2240,5 +2240,34 @@
       <node concept="l2Vlx" id="6K73LRuYUlH" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6rXe_0EMlm2">
+    <property role="3GE5qa" value="formopt" />
+    <ref role="1XX52x" to="1btx:6rXe_0EMlhw" resolve="TableSummaryLineFOption" />
+    <node concept="3EZMnI" id="6rXe_0EMlmB" role="2wV5jI">
+      <node concept="PMmxH" id="6rXe_0EMlmC" role="3EZMnx">
+        <ref role="PMmxG" node="pQ21WN5qB5" resolve="AliasFOptionEditor" />
+      </node>
+      <node concept="3F0ifn" id="6rXe_0EMlmD" role="3EZMnx">
+        <property role="3F0ifm" value="{~allObjects =&gt;" />
+        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+      </node>
+      <node concept="3F1sOY" id="6rXe_0EMlmE" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:6rXe_0EMlkW" />
+      </node>
+      <node concept="3F0ifn" id="6rXe_0EMlmF" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
+      </node>
+      <node concept="l2Vlx" id="6rXe_0EMlmG" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6rXe_0EMyC5">
+    <property role="3GE5qa" value="formopt" />
+    <ref role="1XX52x" to="1btx:6rXe_0EMyxK" resolve="TableSummaryLineFOptionParam" />
+    <node concept="3F0ifn" id="6rXe_0EMyI$" role="2wV5jI">
+      <property role="3F0ifm" value="allObjects" />
+      <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
+    </node>
+  </node>
 </model>
 

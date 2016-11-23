@@ -37980,6 +37980,15 @@
   </node>
   <node concept="312cEu" id="1w6ekH_IR2c">
     <property role="TrG5h" value="OFXStringFormatter" />
+    <node concept="Wx3nA" id="6rXe_0FbytY" role="jymVt">
+      <property role="TrG5h" value="globalInstance" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="6rXe_0Fbyoa" role="1tU5fm">
+        <ref role="3uigEE" node="1w6ekH_IR2c" resolve="OFXStringFormatter" />
+      </node>
+      <node concept="3Tm1VV" id="6rXe_0FbylP" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="6rXe_0FbyMt" role="jymVt" />
     <node concept="Wx3nA" id="1w6ekH_J3TW" role="jymVt">
       <property role="TrG5h" value="KEY" />
       <property role="3TUv4t" value="true" />
@@ -38129,7 +38138,65 @@
     <node concept="3clFbW" id="1w6ekH_Oniy" role="jymVt">
       <node concept="3cqZAl" id="1w6ekH_Oni$" role="3clF45" />
       <node concept="3Tm1VV" id="1w6ekH_Oni_" role="1B3o_S" />
-      <node concept="3clFbS" id="1w6ekH_OniA" role="3clF47" />
+      <node concept="3clFbS" id="1w6ekH_OniA" role="3clF47">
+        <node concept="3SKdUt" id="6rXe_0Fbzic" role="3cqZAp">
+          <node concept="3SKdUq" id="6rXe_0Fbzie" role="3SKWNk">
+            <property role="3SKdUp" value="get s instantiated as a spring bean. accessed via static field" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6rXe_0Fbzyv" role="3cqZAp">
+          <node concept="3SKdUq" id="6rXe_0Fbzyx" role="3SKWNk">
+            <property role="3SKdUp" value="to be available also in entities and other non RT elements." />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6rXe_0FbF0M" role="3cqZAp" />
+        <node concept="3clFbJ" id="6rXe_0Fb$xJ" role="3cqZAp">
+          <node concept="3clFbS" id="6rXe_0Fb$xL" role="3clFbx">
+            <node concept="YS8fn" id="6rXe_0Fb_SP" role="3cqZAp">
+              <node concept="2ShNRf" id="6rXe_0Fb_UQ" role="YScLw">
+                <node concept="1pGfFk" id="6rXe_0FbDD1" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="3cpWs3" id="6rXe_0FbEkm" role="37wK5m">
+                    <node concept="Xl_RD" id="6rXe_0FbEt6" role="3uHU7w">
+                      <property role="Xl_RC" value=" should be instantiated per class loader." />
+                    </node>
+                    <node concept="3cpWs3" id="6rXe_0FbDRO" role="3uHU7B">
+                      <node concept="Xl_RD" id="6rXe_0FbDFa" role="3uHU7B">
+                        <property role="Xl_RC" value="Only one class of " />
+                      </node>
+                      <node concept="2OqwBi" id="6rXe_0FbE35" role="3uHU7w">
+                        <node concept="2OqwBi" id="6rXe_0FbDYd" role="2Oq$k0">
+                          <node concept="Xjq3P" id="6rXe_0FbDTB" role="2Oq$k0" />
+                          <node concept="liA8E" id="6rXe_0FbE01" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="6rXe_0FbEff" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="6rXe_0Fb_NN" role="3clFbw">
+            <node concept="10Nm6u" id="6rXe_0Fb_PP" role="3uHU7w" />
+            <node concept="37vLTw" id="6rXe_0Fb_LA" role="3uHU7B">
+              <ref role="3cqZAo" node="6rXe_0FbytY" resolve="globalInstance" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6rXe_0Fbz9_" role="3cqZAp">
+          <node concept="37vLTI" id="6rXe_0FbzbG" role="3clFbG">
+            <node concept="Xjq3P" id="6rXe_0FbzdD" role="37vLTx" />
+            <node concept="37vLTw" id="6rXe_0Fbz9$" role="37vLTJ">
+              <ref role="3cqZAo" node="6rXe_0FbytY" resolve="globalInstance" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFbW" id="1w6ekH_OnUm" role="jymVt">
       <node concept="37vLTG" id="1w6ekH_OodT" role="3clF46">
@@ -38147,6 +38214,9 @@
       <node concept="3cqZAl" id="1w6ekH_OnUo" role="3clF45" />
       <node concept="3Tm1VV" id="1w6ekH_OnUp" role="1B3o_S" />
       <node concept="3clFbS" id="1w6ekH_OnUq" role="3clF47">
+        <node concept="1VxSAg" id="6rXe_0FbxCF" role="3cqZAp">
+          <ref role="37wK5l" node="1w6ekH_Oniy" resolve="OFXStringFormatter" />
+        </node>
         <node concept="3clFbF" id="1w6ekH_OoIm" role="3cqZAp">
           <node concept="37vLTI" id="1w6ekH_OoL8" role="3clFbG">
             <node concept="2YIFZM" id="1w6ekH_OoTy" role="37vLTx">

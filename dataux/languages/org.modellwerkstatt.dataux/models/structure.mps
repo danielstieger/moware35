@@ -1014,5 +1014,30 @@
       <ref role="PrY4T" node="6K73LRuXmzF" resolve="IAppModuleOption" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6rXe_0EMlhw">
+    <property role="1pbfSe" value="1849258320" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="TableSummaryLineFOption" />
+    <property role="34LRSv" value="TABLE SUMMARY LINE" />
+    <property role="R4oN_" value="for all objects" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6rXe_0EMljA" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+    <node concept="1TJgyj" id="6rXe_0EMlkW" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6rXe_0EMyxK">
+    <property role="1pbfSe" value="1849204032" />
+    <property role="3GE5qa" value="formopt" />
+    <property role="TrG5h" value="TableSummaryLineFOptionParam" />
+    <property role="34LRSv" value="allObjects" />
+    <property role="R4oN_" value="for summary" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
 </model>
 
