@@ -5473,42 +5473,6 @@
       </node>
       <node concept="10Nm6u" id="4y30FCQG3wK" role="33vP2m" />
     </node>
-    <node concept="312cEg" id="653Wpvy7XEr" role="jymVt">
-      <property role="TrG5h" value="lastBoundObject" />
-      <node concept="3Tm6S6" id="653Wpvy7XEs" role="1B3o_S" />
-      <node concept="3uibUv" id="653Wpvy7XEt" role="1tU5fm">
-        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-        <node concept="29HgVG" id="61_ZUKWCgZa" role="lGtFl">
-          <node concept="3NFfHV" id="61_ZUKWChwl" role="3NFExx">
-            <node concept="3clFbS" id="61_ZUKWChwm" role="2VODD2">
-              <node concept="3clFbF" id="61_ZUKWChIj" role="3cqZAp">
-                <node concept="2OqwBi" id="61_ZUKWCi4T" role="3clFbG">
-                  <node concept="30H73N" id="61_ZUKWChIi" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="61_ZUKWCiMX" role="2OqNvi">
-                    <ref role="37wK5l" to="5y3p:7rG0OCcGK61" resolve="getContentType" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="10Nm6u" id="653Wpvy7XEB" role="33vP2m" />
-      <node concept="2AHcQZ" id="3hDHYkqGc7b" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-      </node>
-    </node>
-    <node concept="312cEg" id="653Wpvy8pn_" role="jymVt">
-      <property role="TrG5h" value="lastFocussedDelegate" />
-      <node concept="3Tm6S6" id="653Wpvy8pnA" role="1B3o_S" />
-      <node concept="3uibUv" id="61_ZUKWB4MB" role="1tU5fm">
-        <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
-      </node>
-      <node concept="10Nm6u" id="653Wpvy8pnL" role="33vP2m" />
-      <node concept="2AHcQZ" id="3hDHYkqGb4W" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-      </node>
-    </node>
     <node concept="312cEg" id="1YAKtdR2aTo" role="jymVt">
       <property role="TrG5h" value="stringDelegate" />
       <node concept="3Tm6S6" id="1YAKtdR2aTp" role="1B3o_S" />
@@ -5568,13 +5532,10 @@
         <property role="3clFbU" value="false" />
       </node>
     </node>
-    <node concept="312cEg" id="1csz7z3zX0P" role="jymVt">
-      <property role="TrG5h" value="updateListenerEnabled" />
-      <node concept="3Tm6S6" id="1csz7z3zX0Q" role="1B3o_S" />
-      <node concept="10P_77" id="1csz7z3zX16" role="1tU5fm" />
-      <node concept="3clFbT" id="1csz7z3zX18" role="33vP2m">
-        <property role="3clFbU" value="true" />
-      </node>
+    <node concept="312cEg" id="6XcJi1gB366" role="jymVt">
+      <property role="TrG5h" value="sameObjectLoadedTwice" />
+      <node concept="3Tm6S6" id="6XcJi1gB367" role="1B3o_S" />
+      <node concept="10P_77" id="6XcJi1gB6Gw" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="72_IH8ptqzz" role="jymVt" />
     <node concept="2tJIrI" id="72_IH8ptqOu" role="jymVt" />
@@ -5601,7 +5562,7 @@
     </node>
     <node concept="2tJIrI" id="61_ZUKWDMuk" role="jymVt" />
     <node concept="3clFb_" id="6asTO4Xa5mB" role="jymVt">
-      <property role="TrG5h" value="loadSingleObject" />
+      <property role="TrG5h" value="loadObjectToForm" />
       <node concept="3Tm1VV" id="6asTO4Xa5mC" role="1B3o_S" />
       <node concept="3cqZAl" id="6asTO4Xa5mD" role="3clF45" />
       <node concept="37vLTG" id="6asTO4Xa5mE" role="3clF46">
@@ -5611,7 +5572,56 @@
         </node>
       </node>
       <node concept="3clFbS" id="6asTO4Xa5mG" role="3clF47">
-        <node concept="3clFbH" id="653Wpvy5e5r" role="3cqZAp" />
+        <node concept="3SKdUt" id="653Wpvy6Mnn" role="3cqZAp">
+          <node concept="3SKdUq" id="653Wpvy6Mnp" role="3SKWNk">
+            <property role="3SKdUp" value="Things is, load() is called twice due to load() / pushSelection()" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="653Wpvy6N2T" role="3cqZAp">
+          <node concept="3SKdUq" id="653Wpvy6N2V" role="3SKWNk">
+            <property role="3SKdUp" value="thus focus might be reset after first load(), no longer available in second" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6XcJi1gB8b7" role="3cqZAp">
+          <node concept="37vLTI" id="6XcJi1gB9e$" role="3clFbG">
+            <node concept="3clFbT" id="6XcJi1gB9zM" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="6XcJi1gB8b5" role="37vLTJ">
+              <ref role="3cqZAo" node="6XcJi1gB366" resolve="sameObjectLoadedTwice" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6XcJi1gACTx" role="3cqZAp">
+          <node concept="3clFbS" id="6XcJi1gACTz" role="3clFbx">
+            <node concept="3clFbF" id="6XcJi1gB9TY" role="3cqZAp">
+              <node concept="37vLTI" id="6XcJi1gBa00" role="3clFbG">
+                <node concept="3clFbT" id="6XcJi1gBa4u" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="6XcJi1gB9TW" role="37vLTJ">
+                  <ref role="3cqZAo" node="6XcJi1gB366" resolve="sameObjectLoadedTwice" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="6XcJi1gAEo6" role="3clFbw">
+            <node concept="3clFbC" id="6XcJi1gAESj" role="3uHU7w">
+              <node concept="37vLTw" id="6XcJi1gAFfH" role="3uHU7w">
+                <ref role="3cqZAo" node="6asTO4Xa5mE" resolve="objectToLoad" />
+              </node>
+              <node concept="37vLTw" id="6XcJi1gAEKw" role="3uHU7B">
+                <ref role="3cqZAo" node="6asTO4Xa5nL" resolve="boundObject" />
+              </node>
+            </node>
+            <node concept="3y3z36" id="6XcJi1gAE0f" role="3uHU7B">
+              <node concept="37vLTw" id="6XcJi1gADG0" role="3uHU7B">
+                <ref role="3cqZAo" node="6asTO4Xa5mE" resolve="objectToLoad" />
+              </node>
+              <node concept="10Nm6u" id="6XcJi1gAEkc" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="61_ZUKWElQ5" role="3cqZAp">
           <node concept="37vLTI" id="61_ZUKWEn6k" role="3clFbG">
             <node concept="1eOMI4" id="61_ZUKWEnVr" role="37vLTx">
@@ -5644,40 +5654,15 @@
           </node>
         </node>
         <node concept="3clFbH" id="61_ZUKWEi$2" role="3cqZAp" />
-        <node concept="3clFbF" id="1csz7z3zX19" role="3cqZAp">
-          <node concept="37vLTI" id="1csz7z3zX1b" role="3clFbG">
-            <node concept="3clFbT" id="1csz7z3zX1e" role="37vLTx">
-              <property role="3clFbU" value="false" />
+        <node concept="3cpWs8" id="6XcJi1gBy3H" role="3cqZAp">
+          <node concept="3cpWsn" id="6XcJi1gBy3I" role="3cpWs9">
+            <property role="TrG5h" value="lastFocussed" />
+            <node concept="3uibUv" id="6XcJi1gBy3J" role="1tU5fm">
+              <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
             </node>
-            <node concept="37vLTw" id="fdGRoMYQ32" role="37vLTJ">
-              <ref role="3cqZAo" node="1csz7z3zX0P" resolve="updateListenerEnabled" />
+            <node concept="1rXfSq" id="6XcJi1gByKk" role="33vP2m">
+              <ref role="37wK5l" node="653Wpvy8Em6" resolve="delegateWithFocus" />
             </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="4xjkqfyb4kg" role="3cqZAp">
-          <node concept="3SKdUq" id="4xjkqfyb4ki" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Check Meta Focus Handling " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="4xjkqfyb5Er" role="3cqZAp">
-          <node concept="3SKdUq" id="4xjkqfyb5Et" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: CHECK Meta Disable / Enable Handling" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="4xjkqfyf7lA" role="3cqZAp">
-          <node concept="3SKdUq" id="4xjkqfyf7lC" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Meta Enabled Disabled is handled in Delegates. Not necessary to handel it here!" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="4xjkqfyb3_X" role="3cqZAp" />
-        <node concept="3SKdUt" id="653Wpvy6Mnn" role="3cqZAp">
-          <node concept="3SKdUq" id="653Wpvy6Mnp" role="3SKWNk">
-            <property role="3SKdUp" value="Dan Mrsl 16: Things is, load() is called twice due to pushSelection legacy" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="653Wpvy6N2T" role="3cqZAp">
-          <node concept="3SKdUq" id="653Wpvy6N2V" role="3SKWNk">
-            <property role="3SKdUp" value="thus focus might be reset after first load(), no longer available in second" />
           </node>
         </node>
         <node concept="3clFbF" id="WtvVGDgJ2k" role="3cqZAp">
@@ -5703,7 +5688,10 @@
               </node>
             </node>
             <node concept="liA8E" id="WtvVGDhjie" role="2OqNvi">
-              <ref role="37wK5l" to="5wm0:5Y1b9tRn6VK" resolve="clearRequestFocus" />
+              <ref role="37wK5l" to="5wm0:5Y1b9tRdXPT" resolve="setRequestFocus" />
+              <node concept="3clFbT" id="6XcJi1gBshD" role="37wK5m">
+                <property role="3clFbU" value="false" />
+              </node>
             </node>
           </node>
           <node concept="1WS0z7" id="WtvVGDgJ2x" role="lGtFl">
@@ -5724,7 +5712,7 @@
         <node concept="3clFbH" id="WtvVGDgFFt" role="3cqZAp" />
         <node concept="3SKdUt" id="V8rch3UvZ5" role="3cqZAp">
           <node concept="3SKdUq" id="V8rch3UvZK" role="3SKWNk">
-            <property role="3SKdUp" value="then bind object to fields ... " />
+            <property role="3SKdUp" value="then bind object to fields, read meta information including focus info. " />
           </node>
         </node>
         <node concept="3clFbF" id="3DTEcmNFTSd" role="3cqZAp">
@@ -5771,10 +5759,22 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="6XcJi1gB$Dn" role="3cqZAp">
+          <node concept="3cpWsn" id="6XcJi1gB$Do" role="3cpWs9">
+            <property role="TrG5h" value="currentlyFocussed" />
+            <node concept="3uibUv" id="6XcJi1gB$Dp" role="1tU5fm">
+              <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
+            </node>
+            <node concept="1rXfSq" id="6XcJi1gB$Dq" role="33vP2m">
+              <ref role="37wK5l" node="653Wpvy8Em6" resolve="delegateWithFocus" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="3DTEcmNFCxB" role="3cqZAp" />
+        <node concept="3clFbH" id="6XcJi1gB$7A" role="3cqZAp" />
         <node concept="3SKdUt" id="653Wpvy7M3_" role="3cqZAp">
           <node concept="3SKdUq" id="653Wpvy7M3B" role="3SKWNk">
-            <property role="3SKdUp" value="Dan Mrsl 16: now check who has the focus. If no one has the focus but the object" />
+            <property role="3SKdUp" value="Now check who has the focus. If no one has the focus but the object" />
           </node>
         </node>
         <node concept="3SKdUt" id="653Wpvy7Sly" role="3cqZAp">
@@ -5788,18 +5788,21 @@
               <node concept="3clFbS" id="653WpvycrDO" role="3clFbx">
                 <node concept="3clFbF" id="653Wpvy9Kx7" role="3cqZAp">
                   <node concept="2OqwBi" id="653Wpvy9KAo" role="3clFbG">
-                    <node concept="37vLTw" id="653Wpvy9Kx5" role="2Oq$k0">
-                      <ref role="3cqZAo" node="653Wpvy8pn_" resolve="lastFocussedDelegate" />
+                    <node concept="37vLTw" id="6XcJi1gBB4j" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6XcJi1gBy3I" resolve="lastFocussed" />
                     </node>
                     <node concept="liA8E" id="653Wpvy9L5i" role="2OqNvi">
-                      <ref role="37wK5l" to="5wm0:5Y1b9tRdXPT" resolve="requestFocus" />
+                      <ref role="37wK5l" to="5wm0:5Y1b9tRdXPT" resolve="setRequestFocus" />
+                      <node concept="3clFbT" id="6XcJi1gBBmw" role="37wK5m">
+                        <property role="3clFbU" value="true" />
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
               <node concept="2OqwBi" id="653WpvycrV4" role="3clFbw">
-                <node concept="37vLTw" id="653WpvycsrS" role="2Oq$k0">
-                  <ref role="3cqZAo" node="653Wpvy8pn_" resolve="lastFocussedDelegate" />
+                <node concept="37vLTw" id="6XcJi1gBALe" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6XcJi1gBy3I" resolve="lastFocussed" />
                 </node>
                 <node concept="liA8E" id="653WpvycsR3" role="2OqNvi">
                   <ref role="37wK5l" to="5wm0:5Y1b9tRdFHC" resolve="isEnabled" />
@@ -5807,59 +5810,23 @@
               </node>
             </node>
           </node>
-          <node concept="1Wc70l" id="653Wpvy9NpM" role="3clFbw">
-            <node concept="3clFbC" id="653Wpvy9OMj" role="3uHU7w">
-              <node concept="10Nm6u" id="653Wpvy9P1p" role="3uHU7w" />
-              <node concept="1rXfSq" id="653Wpvy9Ofp" role="3uHU7B">
-                <ref role="37wK5l" node="653Wpvy8Em6" resolve="delegateWithFocus" />
+          <node concept="1Wc70l" id="6XcJi1gB_XX" role="3clFbw">
+            <node concept="3y3z36" id="6XcJi1gBA$s" role="3uHU7w">
+              <node concept="10Nm6u" id="6XcJi1gBADx" role="3uHU7w" />
+              <node concept="37vLTw" id="6XcJi1gBAuC" role="3uHU7B">
+                <ref role="3cqZAo" node="6XcJi1gBy3I" resolve="lastFocussed" />
               </node>
             </node>
-            <node concept="1Wc70l" id="653Wpvy9Lb_" role="3uHU7B">
-              <node concept="3clFbC" id="653Wpvy8gJs" role="3uHU7B">
-                <node concept="37vLTw" id="653Wpvy8g3a" role="3uHU7B">
-                  <ref role="3cqZAo" node="653Wpvy7XEr" resolve="lastBoundObject" />
-                </node>
-                <node concept="37vLTw" id="653Wpvy8hsI" role="3uHU7w">
-                  <ref role="3cqZAo" node="6asTO4Xa5nL" resolve="boundObject" />
-                </node>
+            <node concept="1Wc70l" id="653Wpvy9NpM" role="3uHU7B">
+              <node concept="37vLTw" id="6XcJi1gBbrL" role="3uHU7B">
+                <ref role="3cqZAo" node="6XcJi1gB366" resolve="sameObjectLoadedTwice" />
               </node>
-              <node concept="3y3z36" id="653Wpvy9MA7" role="3uHU7w">
-                <node concept="37vLTw" id="653Wpvy9M0H" role="3uHU7B">
-                  <ref role="3cqZAo" node="653Wpvy8pn_" resolve="lastFocussedDelegate" />
+              <node concept="3clFbC" id="653Wpvy9OMj" role="3uHU7w">
+                <node concept="37vLTw" id="6XcJi1gB_T2" role="3uHU7B">
+                  <ref role="3cqZAo" node="6XcJi1gB$Do" resolve="currentlyFocussed" />
                 </node>
-                <node concept="10Nm6u" id="653Wpvy9MOx" role="3uHU7w" />
+                <node concept="10Nm6u" id="653Wpvy9P1p" role="3uHU7w" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="653Wpvy8yAI" role="3cqZAp">
-          <node concept="37vLTI" id="653Wpvy9FGA" role="3clFbG">
-            <node concept="1rXfSq" id="653Wpvy9Gn5" role="37vLTx">
-              <ref role="37wK5l" node="653Wpvy8Em6" resolve="delegateWithFocus" />
-            </node>
-            <node concept="37vLTw" id="653Wpvy8yAG" role="37vLTJ">
-              <ref role="3cqZAo" node="653Wpvy8pn_" resolve="lastFocussedDelegate" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="653Wpvy8d3w" role="3cqZAp">
-          <node concept="37vLTI" id="653Wpvy8dCk" role="3clFbG">
-            <node concept="37vLTw" id="653Wpvy8eqv" role="37vLTx">
-              <ref role="3cqZAo" node="6asTO4Xa5nL" resolve="boundObject" />
-            </node>
-            <node concept="37vLTw" id="653Wpvy8d3u" role="37vLTJ">
-              <ref role="3cqZAo" node="653Wpvy7XEr" resolve="lastBoundObject" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="653Wpvy7K60" role="3cqZAp" />
-        <node concept="3clFbF" id="1csz7z3zX1g" role="3cqZAp">
-          <node concept="37vLTI" id="1csz7z3zX1i" role="3clFbG">
-            <node concept="3clFbT" id="1csz7z3zX1l" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="37vLTw" id="fdGRoMYPLI" role="37vLTJ">
-              <ref role="3cqZAo" node="1csz7z3zX0P" resolve="updateListenerEnabled" />
             </node>
           </node>
         </node>
@@ -5901,7 +5868,7 @@
               </node>
             </node>
             <node concept="liA8E" id="653Wpvy9cwI" role="2OqNvi">
-              <ref role="37wK5l" to="5wm0:5Y1b9tRdJQI" resolve="isRequestFirstFocus" />
+              <ref role="37wK5l" to="5wm0:5Y1b9tRdJQI" resolve="isRequestFocus" />
             </node>
           </node>
           <node concept="3clFbS" id="653Wpvy9bDJ" role="3clFbx">
@@ -5960,16 +5927,6 @@
         </node>
       </node>
       <node concept="3clFbS" id="6asTO4Xa5mA" role="3clF47">
-        <node concept="3clFbF" id="OcR9nv64BQ" role="3cqZAp">
-          <node concept="37vLTI" id="OcR9nv64Ci" role="3clFbG">
-            <node concept="3clFbT" id="OcR9nv64Cy" role="37vLTx">
-              <property role="3clFbU" value="false" />
-            </node>
-            <node concept="37vLTw" id="fdGRoMYPX0" role="37vLTJ">
-              <ref role="3cqZAo" node="1csz7z3zX0P" resolve="updateListenerEnabled" />
-            </node>
-          </node>
-        </node>
         <node concept="3SKdUt" id="1$bM0DE2ckZ" role="3cqZAp">
           <node concept="3SKdUq" id="1$bM0DE2cmt" role="3SKWNk">
             <property role="3SKdUp" value="first onStore - maybe a exception is thrown there" />
@@ -6016,17 +5973,6 @@
                   </node>
                 </node>
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="6RTjr7kbjRo" role="3cqZAp" />
-        <node concept="3clFbF" id="OcR9nv64CY" role="3cqZAp">
-          <node concept="37vLTI" id="OcR9nv64Dd" role="3clFbG">
-            <node concept="3clFbT" id="OcR9nv64Dt" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="37vLTw" id="fdGRoMYQ1O" role="37vLTJ">
-              <ref role="3cqZAo" node="1csz7z3zX0P" resolve="updateListenerEnabled" />
             </node>
           </node>
         </node>
@@ -6087,6 +6033,7 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="6XcJi1gAXkE" role="3cqZAp" />
                 <node concept="3cpWs6" id="1$bM0DE5T3o" role="3cqZAp">
                   <node concept="3clFbT" id="1$bM0DE5T3q" role="3cqZAk">
                     <property role="3clFbU" value="true" />
@@ -6220,17 +6167,9 @@
             <property role="3SKdUp" value="clear delegate form, i.e. remove all content ... " />
           </node>
         </node>
-        <node concept="3clFbF" id="f3jkc21jeW" role="3cqZAp">
-          <node concept="37vLTI" id="f3jkc21jfV" role="3clFbG">
-            <node concept="10Nm6u" id="f3jkc21jgT" role="37vLTx" />
-            <node concept="37vLTw" id="fdGRoMYPR8" role="37vLTJ">
-              <ref role="3cqZAo" node="6asTO4Xa5nL" resolve="boundObject" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="f3jkc21$7p" role="3cqZAp">
           <node concept="1rXfSq" id="fdGRoMYQf$" role="3clFbG">
-            <ref role="37wK5l" node="6asTO4Xa5mB" resolve="loadSingleObject" />
+            <ref role="37wK5l" node="6asTO4Xa5mB" resolve="loadObjectToForm" />
             <node concept="10Nm6u" id="f3jkc21$8n" role="37wK5m" />
           </node>
         </node>
@@ -6289,7 +6228,7 @@
               <node concept="3clFbS" id="fLe0L3dtoK" role="3clFbx">
                 <node concept="3clFbF" id="fLe0L3dtoL" role="3cqZAp">
                   <node concept="1rXfSq" id="fdGRoMYQcR" role="3clFbG">
-                    <ref role="37wK5l" node="6asTO4Xa5mB" resolve="loadSingleObject" />
+                    <ref role="37wK5l" node="6asTO4Xa5mB" resolve="loadObjectToForm" />
                     <node concept="2OqwBi" id="fLe0L3dtoN" role="37wK5m">
                       <node concept="37vLTw" id="fdGRoMYQPQ" role="2Oq$k0">
                         <ref role="3cqZAo" node="4Y02LQOEnbm" resolve="selection" />
@@ -6468,7 +6407,7 @@
               </node>
               <node concept="3clFbF" id="2UcCOwP6D8o" role="3cqZAp">
                 <node concept="1rXfSq" id="fdGRoMYQfk" role="3clFbG">
-                  <ref role="37wK5l" node="6asTO4Xa5mB" resolve="loadSingleObject" />
+                  <ref role="37wK5l" node="6asTO4Xa5mB" resolve="loadObjectToForm" />
                   <node concept="2OqwBi" id="2UcCOwP6D8L" role="37wK5m">
                     <node concept="37vLTw" id="fdGRoMYR9a" role="2Oq$k0">
                       <ref role="3cqZAo" node="4Y02LQOEnbR" resolve="selection" />
@@ -7862,14 +7801,6 @@
             <node concept="10Nm6u" id="653Wpvy84hT" role="37vLTx" />
             <node concept="37vLTw" id="653Wpvy83Qz" role="37vLTJ">
               <ref role="3cqZAo" node="6asTO4Xa5nL" resolve="boundObject" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="653Wpvy84Ki" role="3cqZAp">
-          <node concept="37vLTI" id="653Wpvy85tP" role="3clFbG">
-            <node concept="10Nm6u" id="653Wpvy85GU" role="37vLTx" />
-            <node concept="37vLTw" id="653Wpvy84Kg" role="37vLTJ">
-              <ref role="3cqZAo" node="653Wpvy7XEr" resolve="lastBoundObject" />
             </node>
           </node>
         </node>

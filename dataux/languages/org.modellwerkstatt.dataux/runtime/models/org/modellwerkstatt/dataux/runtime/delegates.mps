@@ -3954,13 +3954,16 @@
                       <ref role="3cqZAo" node="5Y1b9tQYK5t" resolve="metaInfo" />
                     </node>
                     <node concept="liA8E" id="653WpvxAl0p" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:653Wpvxzjnk" resolve="getAndClearFocus" />
+                      <ref role="37wK5l" to="28jr:653Wpvxzjnk" resolve="getFocusAndClearIt" />
                     </node>
                   </node>
                   <node concept="3clFbS" id="653WpvxAkVU" role="3clFbx">
                     <node concept="3clFbF" id="653WpvxAl2G" role="3cqZAp">
                       <node concept="1rXfSq" id="653WpvxAl2F" role="3clFbG">
-                        <ref role="37wK5l" node="5Y1b9tRdXPT" resolve="requestFocus" />
+                        <ref role="37wK5l" node="5Y1b9tRdXPT" resolve="setRequestFocus" />
+                        <node concept="3clFbT" id="6XcJi1gCrfd" role="37wK5m">
+                          <property role="3clFbU" value="true" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -4333,8 +4336,12 @@
       </node>
     </node>
     <node concept="3clFb_" id="5Y1b9tRdXPT" role="jymVt">
-      <property role="TrG5h" value="requestFocus" />
-      <node concept="10P_77" id="5tdM1SXupdS" role="3clF45" />
+      <property role="TrG5h" value="setRequestFocus" />
+      <node concept="37vLTG" id="6XcJi1gBlqJ" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10P_77" id="6XcJi1gBm5l" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6XcJi1gBmqa" role="3clF45" />
       <node concept="3Tm1VV" id="5Y1b9tRdXPW" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tRdXPX" role="3clF47">
         <node concept="3clFbF" id="5Y1b9tRe1Mh" role="3cqZAp">
@@ -4344,19 +4351,9 @@
             </node>
             <node concept="liA8E" id="5Y1b9tRe1W3" role="2OqNvi">
               <ref role="37wK5l" node="5Y1b9tQZbA4" resolve="setValue" />
-              <node concept="3clFbT" id="5Y1b9tRe1Z4" role="37wK5m">
-                <property role="3clFbU" value="true" />
+              <node concept="37vLTw" id="6XcJi1gBmol" role="37wK5m">
+                <ref role="3cqZAo" node="6XcJi1gBlqJ" resolve="val" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5Y1b9tRe25$" role="3cqZAp">
-          <node concept="2OqwBi" id="5Y1b9tRe2ag" role="3clFbG">
-            <node concept="37vLTw" id="5Y1b9tRe25y" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tRdVH0" resolve="requestFocus" />
-            </node>
-            <node concept="liA8E" id="5Y1b9tRe2jZ" role="2OqNvi">
-              <ref role="37wK5l" node="5Y1b9tQZbE9" resolve="setReadOnly" />
             </node>
           </node>
         </node>
@@ -4398,94 +4395,9 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="5tdM1SXuper" role="3cqZAp">
-          <node concept="3clFbT" id="5tdM1SXupeZ" role="3cqZAk">
-            <property role="3clFbU" value="true" />
-          </node>
-        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="5Y1b9tRdX8$" role="jymVt" />
-    <node concept="3clFb_" id="5Y1b9tRn6VK" role="jymVt">
-      <property role="TrG5h" value="clearRequestFocus" />
-      <node concept="3cqZAl" id="5Y1b9tRn6VM" role="3clF45" />
-      <node concept="3Tm1VV" id="5Y1b9tRn6VN" role="1B3o_S" />
-      <node concept="3clFbS" id="5Y1b9tRn6VO" role="3clF47">
-        <node concept="3clFbF" id="5Y1b9tRnbH8" role="3cqZAp">
-          <node concept="2OqwBi" id="5Y1b9tRnbJl" role="3clFbG">
-            <node concept="37vLTw" id="5Y1b9tRnbH7" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tRdVH0" resolve="requestFocus" />
-            </node>
-            <node concept="liA8E" id="5Y1b9tRnbR4" role="2OqNvi">
-              <ref role="37wK5l" node="5Y1b9tRncwM" resolve="setValueFORCE" />
-              <node concept="3clFbT" id="5Y1b9tRnbUb" role="37wK5m">
-                <property role="3clFbU" value="false" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="653Wpvy2dd2" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="653Wpvy1Wvx" role="8Wnug">
-            <node concept="2OqwBi" id="653Wpvy1Wvy" role="3clFbG">
-              <node concept="10M0yZ" id="653Wpvy1Wvz" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              </node>
-              <node concept="liA8E" id="653Wpvy1Wv$" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="3cpWs3" id="653Wpvy1Wv_" role="37wK5m">
-                  <node concept="2OqwBi" id="653Wpvy1WvA" role="3uHU7w">
-                    <node concept="37vLTw" id="653Wpvy1WvB" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5Y1b9tRdVH0" resolve="requestFocus" />
-                    </node>
-                    <node concept="liA8E" id="653Wpvy1WvC" role="2OqNvi">
-                      <ref role="37wK5l" node="5Y1b9tQZbC9" resolve="getValue" />
-                    </node>
-                  </node>
-                  <node concept="3cpWs3" id="653Wpvy1WvD" role="3uHU7B">
-                    <node concept="Xl_RD" id="653Wpvy1WvE" role="3uHU7w">
-                      <property role="Xl_RC" value=" CLEAR focus called. Is now " />
-                    </node>
-                    <node concept="3cpWs3" id="653Wpvy1WvF" role="3uHU7B">
-                      <node concept="37vLTw" id="653Wpvy1WvG" role="3uHU7w">
-                        <ref role="3cqZAo" node="5Y1b9tQYCst" resolve="propertyName" />
-                      </node>
-                      <node concept="Xl_RD" id="653Wpvy1WvH" role="3uHU7B">
-                        <property role="Xl_RC" value="FDelegate " />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="MdbUSGSzy0" role="3cqZAp" />
-        <node concept="3SKdUt" id="MdbUSGSzBh" role="3cqZAp">
-          <node concept="3SKdUq" id="MdbUSGSzD$" role="3SKWNk">
-            <property role="3SKdUp" value="That was added Dan 2014, in order to allow positioning." />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="MdbUSGSzIV" role="3cqZAp">
-          <node concept="3SKdUq" id="MdbUSGSzJa" role="3SKWNk">
-            <property role="3SKdUp" value="for delegates." />
-          </node>
-        </node>
-        <node concept="3clFbF" id="MdbUSGNKx1" role="3cqZAp">
-          <node concept="2OqwBi" id="MdbUSGNK$N" role="3clFbG">
-            <node concept="37vLTw" id="MdbUSGNKwZ" role="2Oq$k0">
-              <ref role="3cqZAo" node="5Y1b9tRdVH0" resolve="requestFocus" />
-            </node>
-            <node concept="liA8E" id="MdbUSGNKRK" role="2OqNvi">
-              <ref role="37wK5l" node="MdbUSGNFDX" resolve="clearReadOnly" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="5Y1b9tQYeKa" role="jymVt" />
     <node concept="3clFb_" id="5Y1b9tRd8n0" role="jymVt">
       <property role="TrG5h" value="getDelegateUiImpl" />
       <node concept="3uibUv" id="5Y1b9tRd9jh" role="3clF45">
@@ -4519,7 +4431,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="5Y1b9tRdJQI" role="jymVt">
-      <property role="TrG5h" value="isRequestFirstFocus" />
+      <property role="TrG5h" value="isRequestFocus" />
       <node concept="10P_77" id="5Y1b9tRe2zV" role="3clF45" />
       <node concept="3Tm1VV" id="5Y1b9tRdJQL" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tRdJQM" role="3clF47">

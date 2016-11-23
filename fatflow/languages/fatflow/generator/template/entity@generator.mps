@@ -8559,7 +8559,7 @@
         <node concept="3clFb_" id="653WpvxzmFT" role="jymVt">
           <property role="1EzhhJ" value="false" />
           <property role="2aFKle" value="false" />
-          <property role="TrG5h" value="getAndClearFocus" />
+          <property role="TrG5h" value="getFocusAndClearIt" />
           <node concept="3Tm1VV" id="653WpvxzmFV" role="1B3o_S" />
           <node concept="10P_77" id="653WpvxzmFW" role="3clF45" />
           <node concept="3clFbS" id="653WpvxzmG0" role="3clF47">

@@ -401,9 +401,6 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -21205,7 +21202,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="653WpvxXd2i" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:653Wpvxzjnk" resolve="getAndClearFocus" />
+                <ref role="37wK5l" to="28jr:653Wpvxzjnk" resolve="getFocusAndClearIt" />
               </node>
             </node>
           </node>
@@ -21240,7 +21237,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="653WpvxXjOH" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:653Wpvxzjnk" resolve="getAndClearFocus" />
+                <ref role="37wK5l" to="28jr:653Wpvxzjnk" resolve="getFocusAndClearIt" />
               </node>
             </node>
           </node>
@@ -21260,7 +21257,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="653WpvxXnCc" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:653Wpvxzjnk" resolve="getAndClearFocus" />
+                <ref role="37wK5l" to="28jr:653Wpvxzjnk" resolve="getFocusAndClearIt" />
               </node>
             </node>
           </node>
@@ -21277,93 +21274,6 @@
     </node>
     <node concept="1DZZI9" id="6pbeIz$kGLA" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="Creators" />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojm" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$kF6R" resolve="Setting defafults should not lead to a Dirty entity." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojn" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$kF$J" resolve="Setting values and setting them again should not lead to a dirty entity. " />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojo" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$kGm3" resolve="Setting ValueObject/Datetime/Bigdecimal and setting again should not mark dirty." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojp" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$kKo4" resolve="Setting int - dirty." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojq" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$kL5m" resolve="Setting string - dirty." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojr" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$kLQL" resolve="Setting DateTime - dirty." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojs" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$kN_U" resolve="Setting status - dirty." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojt" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$kOYL" resolve="Setting BigDecimal - dirty." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXoju" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$kRjy" resolve="Setting ValueObject - dirty." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojv" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$lXQS" resolve="Setting LocalDate - dirty." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojw" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$m0Gg" resolve="Setting Localdate (dirty irrelevant) - not dirty." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojx" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$m1TR" resolve="Setting reference leads to dirty." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojy" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$ojgg" resolve="Reverting - Get a copy of an object and check." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojz" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$on3$" resolve="Reverting - Get a copy of an object, revert and check." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXoj$" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$oswJ" resolve="Reverting - no reference copy on readonly." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXoj_" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$oxrO" resolve="Reverting - no reference copy on opposite" />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojA" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$oCxH" resolve="Reverting - list copy leads to new objects." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojB" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$oIKX" resolve="Reverting - change list and revert." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojC" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$tx4F" resolve="Reverting - do not deepcopy when we are working on readonly entities." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojD" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$tJyR" resolve="Reverting - restore correctly, even in presence of readonly list." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojE" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$tXEy" resolve="XML conversion - full check." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojF" role="38MLOi">
-      <ref role="1Cak38" node="6pbeIz$verI" resolve="STRING conversion - full check." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojG" role="38MLOi">
-      <ref role="1Cak38" node="1DAwFrisknc" resolve="Retrieve Status Meta Information and change it." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojH" role="38MLOi">
-      <ref role="1Cak38" node="1DAwFrisu1h" resolve="Retrieve Reference Meta Information and change it." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojI" role="38MLOi">
-      <ref role="1Cak38" node="1DAwFrisDYU" resolve="Retrieve String Meta Information and change it." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojJ" role="38MLOi">
-      <ref role="1Cak38" node="1DAwFrisKjg" resolve="Retrieve BigDecimal Meta Information and change it." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojK" role="38MLOi">
-      <ref role="1Cak38" node="1DAwFrisNm3" resolve="Retrieve DateTime Meta Information and change it." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojL" role="38MLOi">
-      <ref role="1Cak38" node="1DAwFrisOLl" resolve="Retrieve LocalDate Meta Information and change it." />
-    </node>
-    <node concept="1Cak35" id="653WpvxXojM" role="38MLOi">
-      <ref role="1Cak38" node="1DAwFrisQg8" resolve="Default Value of Status" />
     </node>
   </node>
   <node concept="34Athd" id="66mO_QBe4P4">
