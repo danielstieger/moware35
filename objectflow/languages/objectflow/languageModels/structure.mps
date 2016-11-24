@@ -81,7 +81,7 @@
   <node concept="1TIwiD" id="1caoEBn$Vr$">
     <property role="TrG5h" value="BusinessObject" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/BusinessObject.png" />
+    <property role="MwhBj" value="${module}/icons/entity.png" />
     <property role="3GE5qa" value="BusinessObject" />
     <property role="34LRSv" value="Entity" />
     <property role="1pbfSe" value="358737523" />
@@ -1562,7 +1562,7 @@
     <property role="3GE5qa" value="BusinessObject" />
     <property role="TrG5h" value="ValueObject" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/element.png" />
+    <property role="MwhBj" value="${module}/icons/valueobject.png" />
     <property role="1pbfSe" value="1105225428" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
     <node concept="1TJgyj" id="6W_Qo9eYs0w" role="1TKVEi">
@@ -1618,7 +1618,7 @@
     <property role="3GE5qa" value="OFXCore.repository" />
     <property role="TrG5h" value="ModelRepository" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/data_connection.png" />
+    <property role="MwhBj" value="${module}/icons/modelrepo.png" />
     <property role="1pbfSe" value="1104085143" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
     <node concept="1TJgyj" id="54AO9SbtAec" role="1TKVEi">
@@ -1778,7 +1778,7 @@
   <node concept="1TIwiD" id="4y30FCQIiwZ">
     <property role="3GE5qa" value="BusinessObject" />
     <property role="TrG5h" value="ViewObject" />
-    <property role="MwhBj" value="${module}/icons/view.png" />
+    <property role="MwhBj" value="${module}/icons/viewobject.png" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="ViewObject" />
     <property role="1pbfSe" value="2134649593" />
@@ -2117,7 +2117,7 @@
     <property role="3GE5qa" value="Builder" />
     <property role="TrG5h" value="TestData" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/creditcards_add.png" />
+    <property role="MwhBj" value="${module}/icons/testdata.png" />
     <property role="1pbfSe" value="972007230" />
     <node concept="1TJgyj" id="2IjElxiisXJ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

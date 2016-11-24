@@ -10208,7 +10208,7 @@
                     <node concept="1pGfFk" id="3sx4Hz30e6v" role="2ShVmc">
                       <ref role="37wK5l" to="wyt6:~ClassNotFoundException.&lt;init&gt;(java.lang.String)" resolve="ClassNotFoundException" />
                       <node concept="Xl_RD" id="3sx4Hz30eaR" role="37wK5m">
-                        <property role="Xl_RC" value="map_Application: config error - factory or userenvironment is null!" />
+                        <property role="Xl_RC" value="AppUiModule: config error - factory or userenvironment is null!" />
                       </node>
                     </node>
                   </node>
@@ -10242,7 +10242,7 @@
                     <node concept="1pGfFk" id="3sx4Hz2ZXXL" role="2ShVmc">
                       <ref role="37wK5l" to="wyt6:~ClassNotFoundException.&lt;init&gt;(java.lang.String)" resolve="ClassNotFoundException" />
                       <node concept="Xl_RD" id="3sx4Hz2ZY22" role="37wK5m">
-                        <property role="Xl_RC" value="map_Application: config error - classLoader is null! " />
+                        <property role="Xl_RC" value="AppUiModule: config error - classLoader is null! " />
                       </node>
                     </node>
                   </node>
