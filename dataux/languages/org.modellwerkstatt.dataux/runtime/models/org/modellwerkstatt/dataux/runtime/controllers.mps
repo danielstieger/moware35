@@ -3285,7 +3285,19 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="72_IH8py2oH" role="3cqZAp" />
+        <node concept="3clFbF" id="3cAl6M4xn5d" role="3cqZAp">
+          <node concept="2OqwBi" id="3cAl6M4xoQa" role="3clFbG">
+            <node concept="37vLTw" id="3cAl6M4xn5b" role="2Oq$k0">
+              <ref role="3cqZAo" node="3972coxdH3n" resolve="builder" />
+            </node>
+            <node concept="liA8E" id="3cAl6M4xoXS" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <node concept="Xl_RD" id="3cAl6M4xoYo" role="37wK5m">
+                <property role="Xl_RC" value="\n" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3972coxdH44" role="3cqZAp">
           <node concept="2OqwBi" id="3972coxdH45" role="3clFbG">
             <node concept="37vLTw" id="5hc8PGHPz18" role="2Oq$k0">
