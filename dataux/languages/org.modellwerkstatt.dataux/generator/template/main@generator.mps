@@ -5743,7 +5743,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="61_ZUKWEi$2" role="3cqZAp" />
+        <node concept="3clFbH" id="7RzRXa3Ij64" role="3cqZAp" />
         <node concept="3cpWs8" id="6XcJi1gBy3H" role="3cqZAp">
           <node concept="3cpWsn" id="6XcJi1gBy3I" role="3cpWs9">
             <property role="TrG5h" value="lastFocussed" />
@@ -5861,7 +5861,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="3DTEcmNFCxB" role="3cqZAp" />
-        <node concept="3clFbH" id="6XcJi1gB$7A" role="3cqZAp" />
         <node concept="3SKdUt" id="653Wpvy7M3_" role="3cqZAp">
           <node concept="3SKdUq" id="653Wpvy7M3B" role="3SKWNk">
             <property role="3SKdUp" value="Now check who has the focus. If no one has the focus but the object" />
@@ -5917,6 +5916,30 @@
                 </node>
                 <node concept="10Nm6u" id="653Wpvy9P1p" role="3uHU7w" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7RzRXa3InfW" role="3cqZAp" />
+        <node concept="3clFbJ" id="7RzRXa3IjDy" role="3cqZAp">
+          <node concept="3clFbS" id="7RzRXa3IjD$" role="3clFbx">
+            <node concept="3clFbF" id="7RzRXa3Ilge" role="3cqZAp">
+              <node concept="2OqwBi" id="7RzRXa3Ill1" role="3clFbG">
+                <node concept="37vLTw" id="7RzRXa3Ilgc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="52pTiJGZBk5" resolve="dataUxElementHook" />
+                </node>
+                <node concept="liA8E" id="7RzRXa3Il_F" role="2OqNvi">
+                  <ref role="37wK5l" to="zhcn:7RzRXa3Ifxn" resolve="boundObjectLoadedOrNull" />
+                  <node concept="37vLTw" id="7RzRXa3IlH$" role="37wK5m">
+                    <ref role="3cqZAo" node="6asTO4Xa5nL" resolve="boundObject" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="7RzRXa3IkGL" role="3clFbw">
+            <node concept="10Nm6u" id="7RzRXa3IkUa" role="3uHU7w" />
+            <node concept="37vLTw" id="7RzRXa3IkgO" role="3uHU7B">
+              <ref role="3cqZAo" node="52pTiJGZBk5" resolve="dataUxElementHook" />
             </node>
           </node>
         </node>
@@ -6621,11 +6644,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="52pTiJGZIxM" role="3cqZAp" />
-        <node concept="3SKdUt" id="61_ZUKWFjHu" role="3cqZAp">
-          <node concept="3SKdUq" id="61_ZUKWFjHw" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Refact Layout Weight handling." />
-          </node>
-        </node>
         <node concept="3clFbF" id="1YAKtdR020_" role="3cqZAp">
           <node concept="2OqwBi" id="1YAKtdR020D" role="3clFbG">
             <node concept="37vLTw" id="fdGRoMYPTa" role="2Oq$k0">
@@ -6644,8 +6662,8 @@
                           <node concept="3clFbF" id="61_ZUKWFgGW" role="3cqZAp">
                             <node concept="2OqwBi" id="61_ZUKWFgMR" role="3clFbG">
                               <node concept="30H73N" id="61_ZUKWFgGV" role="2Oq$k0" />
-                              <node concept="2qgKlT" id="61_ZUKWFgYF" role="2OqNvi">
-                                <ref role="37wK5l" to="5y3p:2zZnBEDxFyU" resolve="getColLayoutWeight" />
+                              <node concept="3Tsc0h" id="7RzRXa3xjV_" role="2OqNvi">
+                                <ref role="3TtcxE" to="1btx:3ouNayfGPCd" />
                               </node>
                             </node>
                           </node>
@@ -7735,6 +7753,9 @@
                 </node>
                 <node concept="liA8E" id="52pTiJH2rhr" role="2OqNvi">
                   <ref role="37wK5l" to="zhcn:52pTiJH2pEX" resolve="initialize" />
+                  <node concept="37vLTw" id="7RzRXa3Hh_j" role="37wK5m">
+                    <ref role="3cqZAo" node="76iu0rYVIpg" resolve="selController" />
+                  </node>
                   <node concept="2ShNRf" id="52pTiJH2rpr" role="37wK5m">
                     <node concept="Tc6Ow" id="52pTiJH2x3d" role="2ShVmc">
                       <node concept="3uibUv" id="52pTiJH3E11" role="HW$YZ">

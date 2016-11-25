@@ -7,6 +7,8 @@
   </languages>
   <imports>
     <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
+    <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.controllers)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -72,6 +74,12 @@
     <node concept="3clFb_" id="52pTiJH2pEX" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="initialize" />
+      <node concept="37vLTG" id="7RzRXa3Hapk" role="3clF46">
+        <property role="TrG5h" value="selController" />
+        <node concept="3uibUv" id="7RzRXa3HcsU" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="ISelectionController" />
+        </node>
+      </node>
       <node concept="37vLTG" id="52pTiJH2pFS" role="3clF46">
         <property role="TrG5h" value="delegates" />
         <node concept="_YKpA" id="52pTiJH2pHn" role="1tU5fm">
@@ -103,6 +111,19 @@
       <node concept="3cqZAl" id="52pTiJH2GEh" role="3clF45" />
       <node concept="3Tm1VV" id="52pTiJH2GEi" role="1B3o_S" />
       <node concept="3clFbS" id="52pTiJH2GEj" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="7RzRXa3Ifxn" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="boundObjectLoadedOrNull" />
+      <node concept="37vLTG" id="7RzRXa3IfGN" role="3clF46">
+        <property role="TrG5h" value="bndObject" />
+        <node concept="3uibUv" id="7RzRXa3IfLz" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7RzRXa3Ifxp" role="3clF45" />
+      <node concept="3Tm1VV" id="7RzRXa3Ifxq" role="1B3o_S" />
+      <node concept="3clFbS" id="7RzRXa3Ifxr" role="3clF47" />
     </node>
     <node concept="3clFb_" id="52pTiJGZwYd" role="jymVt">
       <property role="1EzhhJ" value="true" />
