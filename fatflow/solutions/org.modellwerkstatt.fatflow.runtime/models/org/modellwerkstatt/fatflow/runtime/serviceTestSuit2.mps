@@ -1007,9 +1007,6 @@
     <node concept="1DZZI9" id="4v9zWuRDqVu" role="38MLOi">
       <ref role="1DZZIc" to="492s:5zF9hZsDuXt" resolve="Test Service" />
     </node>
-    <node concept="1DZZI9" id="3yttyAVkN9A" role="38MLOi">
-      <ref role="1DZZIc" node="7$uuZ_GXf0k" resolve="Tests L d a p" />
-    </node>
     <node concept="1DF_5m" id="4Ta2XmW47C7" role="3yMuLx" />
   </node>
 </model>
