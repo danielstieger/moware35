@@ -1575,11 +1575,6 @@
       <node concept="3cqZAl" id="4xjkqfybmeo" role="3clF45" />
       <node concept="3Tm1VV" id="4xjkqfybmep" role="1B3o_S" />
       <node concept="3clFbS" id="4xjkqfybmer" role="3clF47">
-        <node concept="3SKdUt" id="4xjkqfyboZQ" role="3cqZAp">
-          <node concept="3SKdUq" id="4xjkqfyboZR" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Check editability? How to enable/disable Table? " />
-          </node>
-        </node>
         <node concept="3clFbF" id="5GCI_cUProQ" role="3cqZAp">
           <node concept="2OqwBi" id="5GCI_cUPru3" role="3clFbG">
             <node concept="37vLTw" id="5GCI_cUProO" role="2Oq$k0">

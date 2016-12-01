@@ -570,6 +570,7 @@
     <property role="TrG5h" value="LabelFOption" />
     <property role="34LRSv" value="LABEL" />
     <property role="R4oN_" value="set label text for form" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="pQ21WN5qoj" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -587,6 +588,7 @@
     <property role="TrG5h" value="DisabledFOption" />
     <property role="34LRSv" value="DISABLED" />
     <property role="R4oN_" value="form never editable" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="pQ21WN5qAY" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
@@ -598,6 +600,7 @@
     <property role="TrG5h" value="SelectFirstFOption" />
     <property role="34LRSv" value="SELECT FIRST" />
     <property role="R4oN_" value="element when initializing table" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="pQ21WN5s6W" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
@@ -609,6 +612,7 @@
     <property role="TrG5h" value="OverwriteLabelDOption" />
     <property role="34LRSv" value="OVERWRITE LABEL" />
     <property role="R4oN_" value="given by property as default" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="pQ21WN8wdU" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -626,6 +630,7 @@
     <property role="TrG5h" value="OverwriteFormatDOption" />
     <property role="34LRSv" value="OVERWRITE FORMAT" />
     <property role="R4oN_" value="given by property as default" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="pQ21WN8wP8" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -643,6 +648,7 @@
     <property role="TrG5h" value="EditableDOption" />
     <property role="34LRSv" value="EDITABLE" />
     <property role="R4oN_" value="property is editable" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="pQ21WN9_T0" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
@@ -654,6 +660,7 @@
     <property role="TrG5h" value="ScanableDOption" />
     <property role="34LRSv" value="SCAN ENABLED" />
     <property role="R4oN_" value="scan trig. writes to delegate" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="pQ21WN9Ark" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
@@ -665,6 +672,7 @@
     <property role="TrG5h" value="WidthDOption" />
     <property role="34LRSv" value="WIDTH" />
     <property role="R4oN_" value="in percent for this delegate" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="pQ21WNfb2s" role="1TKVEl">
       <property role="TrG5h" value="percent" />
@@ -694,6 +702,7 @@
     <property role="TrG5h" value="DisabledDOption" />
     <property role="34LRSv" value="DISABLED" />
     <property role="R4oN_" value="delegate never editable" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="pQ21WNjZV1" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
@@ -705,6 +714,7 @@
     <property role="TrG5h" value="OptionalDOption" />
     <property role="34LRSv" value="OPTIONAL" />
     <property role="R4oN_" value="might return &lt;null&gt; (no value)" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="pQ21WNknSj" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
@@ -716,6 +726,7 @@
     <property role="TrG5h" value="NumOfLinesDOption" />
     <property role="34LRSv" value="NUM OF LINES" />
     <property role="R4oN_" value="displayed at the same time" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="pQ21WNkoVN" role="1TKVEl">
       <property role="TrG5h" value="lines" />
@@ -751,6 +762,7 @@
     <property role="TrG5h" value="SelectionSummaryLineFOption" />
     <property role="34LRSv" value="SELECTION SUMMARY LINE" />
     <property role="R4oN_" value="for selected objects" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="pQ21WNrmlG" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -768,6 +780,7 @@
     <property role="TrG5h" value="SelectionSummaryLineFOptionParam" />
     <property role="34LRSv" value="selectedObjects" />
     <property role="R4oN_" value="for summary" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="7GLJ9Y9mpK_">
@@ -776,6 +789,7 @@
     <property role="TrG5h" value="HookFOption" />
     <property role="34LRSv" value="HOOK IN" />
     <property role="R4oN_" value="custom java class by FQ name" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="653Wpvyfcm5" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -823,6 +837,7 @@
     <property role="TrG5h" value="FoldDOption" />
     <property role="34LRSv" value="FOLD" />
     <property role="R4oN_" value="do not display property" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7vQ8h9wpvTt" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
@@ -1020,6 +1035,7 @@
     <property role="TrG5h" value="TableSummaryLineFOption" />
     <property role="34LRSv" value="TABLE SUMMARY LINE" />
     <property role="R4oN_" value="for all objects" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6rXe_0EMljA" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
@@ -1037,6 +1053,7 @@
     <property role="TrG5h" value="TableSummaryLineFOptionParam" />
     <property role="34LRSv" value="allObjects" />
     <property role="R4oN_" value="for summary" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
 </model>
