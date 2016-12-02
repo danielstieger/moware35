@@ -1001,12 +1001,6 @@
     <property role="R4oN_" value="with this module" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6K73LRuXEPB" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="exp" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
     <node concept="PrWs8" id="6K73LRuXEPC" role="PzmwI">
       <ref role="PrY4T" node="6K73LRuXmzF" resolve="IAppModuleOption" />
     </node>
@@ -1055,6 +1049,18 @@
     <property role="R4oN_" value="for summary" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="53acIw4jA7g">
+    <property role="1pbfSe" value="1427674296" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="UseSecondPagePanes" />
+    <property role="34LRSv" value="USE 2nd PAGE PANES" />
+    <property role="R4oN_" value="with this module" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="53acIw4jA7h" role="PzmwI">
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IAppModuleOption" />
+    </node>
   </node>
 </model>
 

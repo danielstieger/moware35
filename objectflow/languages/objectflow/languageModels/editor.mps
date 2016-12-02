@@ -2542,7 +2542,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1xbJ1snViFP" role="3EZMnx">
-          <property role="3F0ifm" value="send boundObject(s) to" />
+          <property role="3F0ifm" value="page panes:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1xbJ1snViFQ" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -2558,7 +2558,7 @@
           </node>
         </node>
         <node concept="3EZMnI" id="7qy3lF6ONaY" role="3EZMnx">
-          <property role="S$Qs1" value="true" />
+          <property role="S$Qs1" value="false" />
           <property role="3EXrWe" value="true" />
           <node concept="VPM3Z" id="7qy3lF6ONb0" role="3F10Kt">
             <property role="VOm3f" value="false" />

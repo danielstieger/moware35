@@ -16328,7 +16328,7 @@
     <node concept="2tJIrI" id="1U$SEuk3Wdn" role="jymVt" />
     <node concept="3Tm1VV" id="3VIcZtBehi_" role="1B3o_S" />
     <node concept="3uibUv" id="3VIcZtBem6T" role="3HQHJm">
-      <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXView" />
+      <ref role="3uigEE" to="28jr:7rqBz8B3JOi" resolve="IOFXSelectionCapable" />
       <node concept="16syzq" id="3VIcZtBemfx" role="11_B2D">
         <ref role="16sUi3" node="3VIcZtBemcG" resolve="BoundObject" />
       </node>
@@ -34381,7 +34381,7 @@
                       <ref role="3cqZAo" node="5Y1b9tQYK5t" resolve="metaInfo" />
                     </node>
                     <node concept="liA8E" id="653WpvxAl0p" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:653Wpvxzjnk" resolve="getAndClearFocus" />
+                      <ref role="37wK5l" to="28jr:653Wpvxzjnk" resolve="getFocusAndClearIt" />
                     </node>
                   </node>
                   <node concept="3clFbS" id="653WpvxAkVU" role="3clFbx">
