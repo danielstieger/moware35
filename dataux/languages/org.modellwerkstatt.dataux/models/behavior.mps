@@ -15,9 +15,9 @@
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" />
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
+    <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
-    <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior">
@@ -4213,6 +4213,25 @@
         </node>
       </node>
       <node concept="10P_77" id="7ECLRBgM2dx" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="5RGNApElIkZ" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getFqName" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpcu:hEwIO9y" resolve="getFqName" />
+      <node concept="3Tm1VV" id="5RGNApElIlD" role="1B3o_S" />
+      <node concept="3clFbS" id="5RGNApElIlE" role="3clF47">
+        <node concept="3clFbF" id="5RGNApElJ0W" role="3cqZAp">
+          <node concept="2OqwBi" id="5RGNApElJ4e" role="3clFbG">
+            <node concept="13iPFW" id="5RGNApElJ0V" role="2Oq$k0" />
+            <node concept="2qgKlT" id="5RGNApElJb0" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:6ffh1MX_A66" resolve="getEscapedFqName" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="5RGNApElIlF" role="3clF45" />
     </node>
     <node concept="13i0hz" id="6XdB5k5XvSa" role="13h7CS">
       <property role="TrG5h" value="getVersion" />
