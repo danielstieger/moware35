@@ -23,12 +23,10 @@
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
   <property name="appName"              value="SimpleApplication" />
-  <property name="appMainclass"         value="Simple.baseApp.SimpleApplication" />
+  <property name="appMainclass"         value="Simple.baseApp.App_Desktop_Order" />
   <property name="appConfiguration"     value="Simple/baseApp/VaadinConfig.xml" /> 
-  
-  
 
-   <!-- **** build specific definitions ************************************************************** -->
+  <!-- **** build specific definitions ************************************************************** -->
   <property name="javawareHomeDir"       value="/Users/danielstieger/javaware" /> 
   <property name="mpsHomeDir"            value="/Users/danielstieger/javaexe/MPS335" /> 
   <property name="mowarePluginHomeDir"   value="/Users/danielstieger/javaexe/MoPluginFake" />
@@ -60,9 +58,9 @@
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.solution.jar" 
          basedir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
     
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.forms.sandbox.jar" 
-         basedir="${mowareHome}/forms/solutions/modellwerkstatt.forms.sandbox/classes_gen"/>
-         
+ 	<jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.dataux.runtime.jar" 
+         basedir="${mowareHome}/dataux/languages/org.modellwerkstatt.dataux/runtime/classes_gen" />
+   
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.vaadinforms.jar" 
          basedir="${mowareHome}/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen"/>
 
@@ -83,7 +81,7 @@
     <copy todir="work/WEB-INF/lib">
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.sandbox.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.forms.sandbox.jar" />
+	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.vaadinforms.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="moware-vaadin-theme-1.0.jar" />
     

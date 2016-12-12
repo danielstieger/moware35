@@ -2257,7 +2257,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="7HBdlGU59aq" role="3cqZAp" />
-        <node concept="3clFbH" id="7HBdlGU5dNm" role="3cqZAp" />
         <node concept="3cpWs8" id="7HBdlGU5fhD" role="3cqZAp">
           <node concept="3cpWsn" id="7HBdlGU5fhG" role="3cpWs9">
             <property role="TrG5h" value="authViaIp" />
@@ -2316,8 +2315,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="7HBdlGU5akY" role="3cqZAp" />
-        <node concept="3clFbH" id="7HBdlGU59di" role="3cqZAp" />
-        <node concept="3clFbH" id="4d3Pnf3TWrc" role="3cqZAp" />
         <node concept="3clFbF" id="1EBV9L$tFei" role="3cqZAp">
           <node concept="37vLTI" id="1EBV9L$tFIP" role="3clFbG">
             <node concept="2ShNRf" id="1EBV9L$tIx$" role="37vLTx">
@@ -2387,31 +2384,100 @@
           </node>
         </node>
         <node concept="3clFbH" id="75445jw5g7m" role="3cqZAp" />
-        <node concept="3clFbF" id="1SuqpWQP4$8" role="3cqZAp">
-          <node concept="37vLTI" id="1SuqpWQP4Gf" role="3clFbG">
-            <node concept="1eOMI4" id="1SuqpWQP61I" role="37vLTx">
-              <node concept="10QFUN" id="1SuqpWQP61F" role="1eOMHV">
-                <node concept="3uibUv" id="1SuqpWQP71b" role="10QFUM">
-                  <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IGenAppUiModule" />
+        <node concept="SfApY" id="5RGNApEoxQk" role="3cqZAp">
+          <node concept="3clFbS" id="5RGNApEoxQm" role="SfCbr">
+            <node concept="3cpWs8" id="5cpEwAg78k0" role="3cqZAp">
+              <node concept="3cpWsn" id="5cpEwAg78k1" role="3cpWs9">
+                <property role="TrG5h" value="classLoader" />
+                <node concept="3uibUv" id="5cpEwAg78k2" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~ClassLoader" resolve="ClassLoader" />
                 </node>
-                <node concept="2OqwBi" id="1SuqpWQP85d" role="10QFUP">
-                  <node concept="37vLTw" id="1SuqpWQP82n" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5HhpRjTuA97" resolve="appContext" />
+                <node concept="2OqwBi" id="5cpEwAg78k3" role="33vP2m">
+                  <node concept="2OqwBi" id="5cpEwAg78k4" role="2Oq$k0">
+                    <node concept="Xjq3P" id="5cpEwAg78k5" role="2Oq$k0" />
+                    <node concept="liA8E" id="5cpEwAg78k6" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="1SuqpWQP9dZ" role="2OqNvi">
-                    <ref role="37wK5l" to="te48:~BeanFactory.getBean(java.lang.Class):java.lang.Object" resolve="getBean" />
-                    <node concept="3VsKOn" id="1SuqpWQPbsZ" role="37wK5m">
-                      <ref role="3VsUkX" to="yg8v:Y3fiVK$o2n" resolve="IGenAppUiModule" />
+                  <node concept="liA8E" id="5cpEwAg78k7" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getClassLoader():java.lang.ClassLoader" resolve="getClassLoader" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="5cpEwAg78k8" role="3cqZAp">
+              <node concept="3cpWsn" id="5cpEwAg78k9" role="3cpWs9">
+                <property role="TrG5h" value="appBehaviorClass" />
+                <node concept="3uibUv" id="5cpEwAg78ka" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+                </node>
+                <node concept="2OqwBi" id="5cpEwAg78kb" role="33vP2m">
+                  <node concept="37vLTw" id="5RGNApEoGU$" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5cpEwAg78k1" resolve="classLoader" />
+                  </node>
+                  <node concept="liA8E" id="5cpEwAg78kc" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~ClassLoader.loadClass(java.lang.String):java.lang.Class" resolve="loadClass" />
+                    <node concept="37vLTw" id="5RGNApEow5r" role="37wK5m">
+                      <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="37vLTw" id="1SuqpWQP4$6" role="37vLTJ">
-              <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+            <node concept="3clFbF" id="5cpEwAg78kd" role="3cqZAp">
+              <node concept="37vLTI" id="5cpEwAg78ke" role="3clFbG">
+                <node concept="1eOMI4" id="5cpEwAg78kf" role="37vLTx">
+                  <node concept="10QFUN" id="5cpEwAg78kg" role="1eOMHV">
+                    <node concept="3uibUv" id="5cpEwAg78kh" role="10QFUM">
+                      <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IGenAppUiModule" />
+                    </node>
+                    <node concept="2OqwBi" id="5RGNApEon9F" role="10QFUP">
+                      <node concept="2OqwBi" id="5cpEwAg78ki" role="2Oq$k0">
+                        <node concept="37vLTw" id="5cpEwAg78kj" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5HhpRjTuA97" resolve="appContext" />
+                        </node>
+                        <node concept="liA8E" id="5cpEwAg78kk" role="2OqNvi">
+                          <ref role="37wK5l" to="a820:~ApplicationContext.getAutowireCapableBeanFactory():org.springframework.beans.factory.config.AutowireCapableBeanFactory" resolve="getAutowireCapableBeanFactory" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5RGNApEotUc" role="2OqNvi">
+                        <ref role="37wK5l" to="oawo:~AutowireCapableBeanFactory.createBean(java.lang.Class):java.lang.Object" resolve="createBean" />
+                        <node concept="37vLTw" id="5RGNApEoujH" role="37wK5m">
+                          <ref role="3cqZAo" node="5cpEwAg78k9" resolve="appBehaviorClass" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="5cpEwAg78kl" role="37vLTJ">
+                  <ref role="3cqZAo" node="5HhpRjTuEw_" resolve="genApplication" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="5cpEwAg78Ik" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="5RGNApEozeO" role="TEbGg">
+            <node concept="3clFbS" id="5RGNApEozeP" role="TDEfX">
+              <node concept="YS8fn" id="5RGNApEo$oT" role="3cqZAp">
+                <node concept="2ShNRf" id="5RGNApEo$rr" role="YScLw">
+                  <node concept="1pGfFk" id="5RGNApEoAFZ" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="5RGNApEoAJr" role="37wK5m">
+                      <ref role="3cqZAo" node="5RGNApEozeQ" resolve="e" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="5RGNApEozeQ" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="5RGNApEozeR" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~ClassNotFoundException" resolve="ClassNotFoundException" />
+              </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="5cpEwAg785Z" role="3cqZAp" />
         <node concept="3clFbH" id="5HhpRjTyWHw" role="3cqZAp" />
         <node concept="3clFbF" id="1EBV9L$xlG1" role="3cqZAp">
           <node concept="2OqwBi" id="1EBV9L$xlWu" role="3clFbG">
