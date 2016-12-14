@@ -5617,11 +5617,6 @@
         <property role="3clFbU" value="false" />
       </node>
     </node>
-    <node concept="312cEg" id="6XcJi1gB366" role="jymVt">
-      <property role="TrG5h" value="sameObjectLoadedTwice" />
-      <node concept="3Tm6S6" id="6XcJi1gB367" role="1B3o_S" />
-      <node concept="10P_77" id="6XcJi1gB6Gw" role="1tU5fm" />
-    </node>
     <node concept="2tJIrI" id="72_IH8ptqzz" role="jymVt" />
     <node concept="2tJIrI" id="72_IH8ptqOu" role="jymVt" />
     <node concept="3clFbW" id="d0ODixKqYf" role="jymVt">
@@ -5657,6 +5652,15 @@
         </node>
       </node>
       <node concept="3clFbS" id="6asTO4Xa5mG" role="3clF47">
+        <node concept="3cpWs8" id="7i4jsoioqVG" role="3cqZAp">
+          <node concept="3cpWsn" id="7i4jsoioqVJ" role="3cpWs9">
+            <property role="TrG5h" value="sameObjectLoadedTwice" />
+            <node concept="10P_77" id="7i4jsoioqVE" role="1tU5fm" />
+            <node concept="3clFbT" id="7i4jsoiorwf" role="33vP2m">
+              <property role="3clFbU" value="false" />
+            </node>
+          </node>
+        </node>
         <node concept="3SKdUt" id="653Wpvy6Mnn" role="3cqZAp">
           <node concept="3SKdUq" id="653Wpvy6Mnp" role="3SKWNk">
             <property role="3SKdUp" value="Things is, load() is called twice due to load() / pushSelection()" />
@@ -5667,16 +5671,6 @@
             <property role="3SKdUp" value="thus focus might be reset after first load(), no longer available in second" />
           </node>
         </node>
-        <node concept="3clFbF" id="6XcJi1gB8b7" role="3cqZAp">
-          <node concept="37vLTI" id="6XcJi1gB9e$" role="3clFbG">
-            <node concept="3clFbT" id="6XcJi1gB9zM" role="37vLTx">
-              <property role="3clFbU" value="false" />
-            </node>
-            <node concept="37vLTw" id="6XcJi1gB8b5" role="37vLTJ">
-              <ref role="3cqZAo" node="6XcJi1gB366" resolve="sameObjectLoadedTwice" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="6XcJi1gACTx" role="3cqZAp">
           <node concept="3clFbS" id="6XcJi1gACTz" role="3clFbx">
             <node concept="3clFbF" id="6XcJi1gB9TY" role="3cqZAp">
@@ -5685,7 +5679,7 @@
                   <property role="3clFbU" value="true" />
                 </node>
                 <node concept="37vLTw" id="6XcJi1gB9TW" role="37vLTJ">
-                  <ref role="3cqZAo" node="6XcJi1gB366" resolve="sameObjectLoadedTwice" />
+                  <ref role="3cqZAo" node="7i4jsoioqVJ" resolve="sameObjectLoadedTwice" />
                 </node>
               </node>
             </node>
@@ -5903,7 +5897,7 @@
             </node>
             <node concept="1Wc70l" id="653Wpvy9NpM" role="3uHU7B">
               <node concept="37vLTw" id="6XcJi1gBbrL" role="3uHU7B">
-                <ref role="3cqZAo" node="6XcJi1gB366" resolve="sameObjectLoadedTwice" />
+                <ref role="3cqZAo" node="7i4jsoioqVJ" resolve="sameObjectLoadedTwice" />
               </node>
               <node concept="3clFbC" id="653Wpvy9OMj" role="3uHU7w">
                 <node concept="37vLTw" id="6XcJi1gB_T2" role="3uHU7B">
@@ -10091,11 +10085,11 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="startup" />
       <node concept="37vLTG" id="75iQIE8WV3t" role="3clF46">
-        <property role="TrG5h" value="userName" />
+        <property role="TrG5h" value="username" />
         <node concept="17QB3L" id="75iQIE8WV3u" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="75iQIE8WV3v" role="3clF46">
-        <property role="TrG5h" value="passWord" />
+        <property role="TrG5h" value="password" />
         <node concept="17QB3L" id="75iQIE8WV3w" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="75iQIE8WV3x" role="3clF46">

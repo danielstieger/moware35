@@ -3546,7 +3546,7 @@
     <property role="1pbfSe" value="1322253875" />
     <property role="3GE5qa" value="OFXCore.actions" />
     <property role="TrG5h" value="SelectedList" />
-    <property role="34LRSv" value="getSelectedList" />
+    <property role="34LRSv" value="getSelectedObjects" />
     <property role="R4oN_" value="list of objects from UI" />
     <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -3998,7 +3998,7 @@
     <property role="1pbfSe" value="1258142980" />
     <property role="3GE5qa" value="Permission" />
     <property role="TrG5h" value="UserNameParameter" />
-    <property role="34LRSv" value="userName" />
+    <property role="34LRSv" value="username" />
     <property role="R4oN_" value="name of user" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
@@ -4006,7 +4006,7 @@
     <property role="1pbfSe" value="1258143195" />
     <property role="3GE5qa" value="Permission" />
     <property role="TrG5h" value="UserPasswordParameter" />
-    <property role="34LRSv" value="userPassword" />
+    <property role="34LRSv" value="password" />
     <property role="R4oN_" value="password of user" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>

@@ -5365,7 +5365,7 @@
                       </node>
                     </node>
                     <node concept="Xl_RD" id="7SOU9vd3hrO" role="3uHU7B">
-                      <property role="Xl_RC" value="updateSelectionOnSearchCMD called in RootSelectionController, but current cmd is not a SEARCH_VIEW!!!\n" />
+                      <property role="Xl_RC" value="updateSelectionOnSearchCMD called in PagePaneSelCrtl, but current cmd is not a SEARCH_VIEW!!!\n" />
                     </node>
                   </node>
                 </node>
@@ -6558,7 +6558,7 @@
                 <ref role="3cqZAo" node="72_IH8pvXEW" resolve="action" />
               </node>
               <node concept="2OwXpG" id="72_IH8pwd5j" role="2OqNvi">
-                <ref role="2Oxat5" to="yg8v:4XXgpA_y1$I" resolve="injected_commandtriggerStarter" />
+                <ref role="2Oxat5" to="yg8v:4XXgpA_y1$I" resolve="injected_actionStarter" />
               </node>
             </node>
           </node>
@@ -8348,7 +8348,7 @@
                           <ref role="3cqZAo" node="3nLGOmWtx88" resolve="it" />
                         </node>
                         <node concept="2OwXpG" id="4XXgpAAfOSz" role="2OqNvi">
-                          <ref role="2Oxat5" to="yg8v:4XXgpA_y1$I" resolve="injected_commandtriggerStarter" />
+                          <ref role="2Oxat5" to="yg8v:4XXgpA_y1$I" resolve="injected_actionStarter" />
                         </node>
                       </node>
                     </node>
