@@ -191,7 +191,7 @@
   <node concept="_UgoZ" id="4Xi5$64vuhD">
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="MethodsMarkingExceptions" />
-    <property role="2BwPS$" value="moware to MPS335" />
+    <property role="2BwPS$" value="moware to mowareUX" />
     <property role="_Wzho" value="(1) Search for methods marking exceptions" />
     <node concept="_XfAh" id="4Xi5$64vuns" role="_YvDr">
       <property role="_XH9r" value="Methods marking exceptions" />
@@ -224,7 +224,7 @@
   <node concept="_UgoZ" id="371pDBOqzz5">
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="ReplaceThrowStatement" />
-    <property role="2BwPS$" value="moware to MPS335" />
+    <property role="2BwPS$" value="moware to mowareUX" />
     <property role="_Wzho" value="(0) Replace the throw statement with error" />
     <node concept="_XfAh" id="371pDBOqzz6" role="_YvDr">
       <property role="_XH9r" value="Methods marking exceptions" />
@@ -493,7 +493,7 @@
   <node concept="_UgoZ" id="1fEQmUlaOxD">
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="SearchForStringFormatUsage" />
-    <property role="2BwPS$" value="moware to MPS335" />
+    <property role="2BwPS$" value="moware to mowareUX" />
     <property role="_Wzho" value="(2) Replace String Format with new String Handling" />
     <node concept="_XfAh" id="1fEQmUlaOxE" role="_YvDr">
       <property role="_XH9r" value="Methods marking exceptions" />
@@ -552,7 +552,7 @@
   <node concept="_UgoZ" id="43H1fr7tphl">
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="ReplcaceNotifications" />
-    <property role="2BwPS$" value="moware to MPS335" />
+    <property role="2BwPS$" value="moware to mowareUX" />
     <property role="_Wzho" value="(3) Replace Notification in Commands with new Creator MSG" />
     <node concept="1opIMY" id="43H1fr7tvXU" role="_YvDr" />
     <node concept="_XfAh" id="43H1fr7tphm" role="_YvDr">
