@@ -50,12 +50,19 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
+      <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
+        <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <child id="1165602531693" name="superclass" index="1zkMxy" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -82,6 +89,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
@@ -119,6 +127,12 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
@@ -128,6 +142,9 @@
         <child id="3262649880243657037" name="sessionExpression" index="2f8TIa" />
       </concept>
       <concept id="8301412231057225617" name="org.modellwerkstatt.objectflow.structure.OFXTestStatementList" flags="ig" index="2d2NRx" />
+      <concept id="5939782625200795740" name="org.modellwerkstatt.objectflow.structure.ServiceMethodDispatchInfo" flags="ng" index="2ojMyf">
+        <child id="5939782625200795753" name="classifierTypes" index="2ojMyU" />
+      </concept>
       <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
         <child id="478945708906902061" name="elements" index="2CGBMS" />
@@ -154,6 +171,11 @@
         <child id="6952410984685371541" name="content" index="3yMuLx" />
         <child id="6952410984683978133" name="onStartup" index="3yTP5x" />
       </concept>
+      <concept id="1372017518093514468" name="org.modellwerkstatt.objectflow.structure.BusinessObject" flags="ig" index="34Athd" />
+      <concept id="8113764509537711426" name="org.modellwerkstatt.objectflow.structure.OFXTestFailInAttribue" flags="ng" index="16GPin">
+        <reference id="8113764509539932973" name="classifier" index="16PnFS" />
+        <child id="8113764509540567394" name="contains" index="16NUyR" />
+      </concept>
       <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
         <child id="2884851879187602662" name="expression" index="38$l6p" />
       </concept>
@@ -178,6 +200,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -729,7 +754,7 @@
   </node>
   <node concept="2CG7Z0" id="5MCXLSo4_z9">
     <property role="TrG5h" value="MPreisOFXLdapConfig" />
-    <property role="2320hu" value="2016-09-20T12:39:21.653+02:00" />
+    <property role="2320hu" value="2016-12-15T16:04:38.659+01:00" />
     <node concept="2CJf3v" id="7$uuZ_GYI$i" role="2CGBMS">
       <property role="TrG5h" value="ldapService" />
       <node concept="Xl_RD" id="7$uuZ_GYI$k" role="2CJf0U">
@@ -782,99 +807,105 @@
     </node>
     <node concept="2CJoq6" id="5MCXLSo6ndT" role="2CGBMS">
       <property role="TrG5h" value="AUTO_CALC" />
-      <node concept="2CJf3v" id="5n6hJfHkwTO" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfA" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoice" />
-        <node concept="Xl_RD" id="5n6hJfHkwTP" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfB" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwTQ" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfC" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoice" />
-        <node concept="Xl_RD" id="5n6hJfHkwTR" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfD" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwTS" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfE" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoiceTblInvoice" />
-        <node concept="Xl_RD" id="5n6hJfHkwTT" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfF" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoiceTblInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwTU" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfG" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoicePosition" />
-        <node concept="Xl_RD" id="5n6hJfHkwTV" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfH" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoicePosition" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwTW" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfI" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAccountAudit" />
-        <node concept="Xl_RD" id="5n6hJfHkwTX" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfJ" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAccountAudit" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwTY" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfK" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapReferer" />
-        <node concept="Xl_RD" id="5n6hJfHkwTZ" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfL" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapReferer" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwU0" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfM" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity" />
-        <node concept="Xl_RD" id="5n6hJfHkwU1" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfN" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwU2" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfO" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity_VARIANTS" />
-        <node concept="Xl_RD" id="5n6hJfHkwU3" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfP" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity_VARIANTS" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwU4" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfQ" role="2CJdiS">
         <property role="TrG5h" value="__ldapService" />
-        <node concept="Xl_RD" id="5n6hJfHkwU5" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfR" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.serviceTestSuit2.LdapService" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwU6" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfS" role="2CJdiS">
+        <property role="TrG5h" value="__dispatchableMethodService" />
+        <node concept="Xl_RD" id="59ImdfaBlfT" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.serviceTestSuit2.DispatchableMethodService" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="59ImdfaBlfU" role="2CJdiS">
         <property role="TrG5h" value="__repoInvoice" />
-        <node concept="Xl_RD" id="5n6hJfHkwU7" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfV" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwU8" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfW" role="2CJdiS">
         <property role="TrG5h" value="__repoAccountAudit" />
-        <node concept="Xl_RD" id="5n6hJfHkwU9" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfX" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoAccountAudit" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwUa" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlfY" role="2CJdiS">
         <property role="TrG5h" value="__repoReferer" />
-        <node concept="Xl_RD" id="5n6hJfHkwUb" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlfZ" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoReferer" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwUc" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlg0" role="2CJdiS">
         <property role="TrG5h" value="__repoCustomSql" />
-        <node concept="Xl_RD" id="5n6hJfHkwUd" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlg1" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoCustomSql" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwUe" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlg2" role="2CJdiS">
         <property role="TrG5h" value="__repoAuditEntity" />
-        <node concept="Xl_RD" id="5n6hJfHkwUf" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlg3" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoAuditEntity" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwUg" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlg4" role="2CJdiS">
         <property role="TrG5h" value="__invoice_Process" />
-        <node concept="Xl_RD" id="5n6hJfHkwUh" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlg5" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.Invoice_Process" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5n6hJfHkwUi" role="2CJdiS">
+      <node concept="2CJf3v" id="59ImdfaBlg6" role="2CJdiS">
         <property role="TrG5h" value="__simpleService" />
-        <node concept="Xl_RD" id="5n6hJfHkwUj" role="2CJf0U">
+        <node concept="Xl_RD" id="59ImdfaBlg7" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.SimpleService" />
         </node>
       </node>
@@ -1007,7 +1038,470 @@
     <node concept="1DZZI9" id="4v9zWuRDqVu" role="38MLOi">
       <ref role="1DZZIc" to="492s:5zF9hZsDuXt" resolve="Test Service" />
     </node>
+    <node concept="1DZZI9" id="59ImdfaBs1E" role="38MLOi">
+      <ref role="1DZZIc" node="59ImdfaBg4p" resolve="Service Method Dispatchment" />
+    </node>
     <node concept="1DF_5m" id="4Ta2XmW47C7" role="3yMuLx" />
+  </node>
+  <node concept="2EH5hC" id="59Imdfa8mXa">
+    <property role="TrG5h" value="DispatchableMethodService" />
+    <node concept="3clFb_" id="59Imdfa8mXM" role="jymVt">
+      <property role="TrG5h" value="getNameOfInv" />
+      <node concept="37vLTG" id="59ImdfahhUW" role="3clF46">
+        <property role="TrG5h" value="inv" />
+        <node concept="3uibUv" id="59ImdfahhV4" role="1tU5fm">
+          <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+        </node>
+        <node concept="2ojMyf" id="59ImdfahX2o" role="lGtFl">
+          <node concept="3uibUv" id="59ImdfalcoB" role="2ojMyU">
+            <ref role="3uigEE" to="goi:4ksEJbWs44A" resolve="ExtendedInvoice" />
+          </node>
+          <node concept="3uibUv" id="59ImdfaBf$X" role="2ojMyU">
+            <ref role="3uigEE" node="59ImdfaBew$" resolve="ExtendolinoInvoice" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="59Imdfa8mYx" role="3clF46">
+        <property role="TrG5h" value="param2" />
+        <node concept="10Oyi0" id="59Imdfa8mYL" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="59ImdfaBfnh" role="3clF45" />
+      <node concept="3Tm1VV" id="59Imdfa8mXP" role="1B3o_S" />
+      <node concept="3clFbS" id="59Imdfa8mXQ" role="3clF47">
+        <node concept="3SKdUt" id="59Imdfa8n1g" role="3cqZAp">
+          <node concept="3SKdUq" id="59Imdfa8n1i" role="3SKWNk">
+            <property role="3SKdUp" value="this is the default method" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="59ImdfaBfyW" role="3cqZAp">
+          <node concept="Xl_RD" id="59ImdfaBfzy" role="3cqZAk">
+            <property role="Xl_RC" value="Invoice" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="59Imdfa8mYU" role="jymVt">
+      <property role="TrG5h" value="getNameOfInv" />
+      <node concept="37vLTG" id="59Imdfa8mYV" role="3clF46">
+        <property role="TrG5h" value="inv" />
+        <node concept="3uibUv" id="59Imdfa8mZw" role="1tU5fm">
+          <ref role="3uigEE" to="goi:4ksEJbWs44A" resolve="ExtendedInvoice" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="59Imdfa8mYX" role="3clF46">
+        <property role="TrG5h" value="param2" />
+        <node concept="10Oyi0" id="59Imdfa8mYY" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="59ImdfaBfuu" role="3clF45" />
+      <node concept="3Tm1VV" id="59Imdfa8mZ0" role="1B3o_S" />
+      <node concept="3clFbS" id="59Imdfa8mZ1" role="3clF47">
+        <node concept="3SKdUt" id="59Imdfa8n0c" role="3cqZAp">
+          <node concept="3SKdUq" id="59Imdfa8n0d" role="3SKWNk">
+            <property role="3SKdUp" value="no additional code is needed here" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="59ImdfaBfv0" role="3cqZAp">
+          <node concept="Xl_RD" id="59ImdfaBfvo" role="3cqZAk">
+            <property role="Xl_RC" value="ExtendedInvoice" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="59ImdfaBfpb" role="jymVt">
+      <property role="TrG5h" value="getNameOfInv" />
+      <node concept="37vLTG" id="59ImdfaBfpc" role="3clF46">
+        <property role="TrG5h" value="inv" />
+        <node concept="3uibUv" id="59ImdfaBfqD" role="1tU5fm">
+          <ref role="3uigEE" node="59ImdfaBew$" resolve="ExtendolinoInvoice" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="59ImdfaBfpe" role="3clF46">
+        <property role="TrG5h" value="param2" />
+        <node concept="10Oyi0" id="59ImdfaBfpf" role="1tU5fm" />
+      </node>
+      <node concept="17QB3L" id="59ImdfaBfty" role="3clF45" />
+      <node concept="3Tm1VV" id="59ImdfaBfpj" role="1B3o_S" />
+      <node concept="3clFbS" id="59ImdfaBfpk" role="3clF47">
+        <node concept="3SKdUt" id="59ImdfaBfpl" role="3cqZAp">
+          <node concept="3SKdUq" id="59ImdfaBfpm" role="3SKWNk">
+            <property role="3SKdUp" value="no additional code is needed here" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="59ImdfaBfrb" role="3cqZAp">
+          <node concept="Xl_RD" id="59ImdfaBfrz" role="3cqZAk">
+            <property role="Xl_RC" value="ExtendolinoInvoice" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="59ImdfaBulW" role="jymVt">
+      <property role="TrG5h" value="voidMethodTest" />
+      <node concept="37vLTG" id="59ImdfaBunb" role="3clF46">
+        <property role="TrG5h" value="param1" />
+        <node concept="10Oyi0" id="59ImdfaBunn" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="59ImdfaBuny" role="3clF46">
+        <property role="TrG5h" value="inv" />
+        <node concept="3uibUv" id="59ImdfaBunM" role="1tU5fm">
+          <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+        </node>
+        <node concept="2ojMyf" id="59ImdfaButa" role="lGtFl">
+          <node concept="3uibUv" id="59ImdfaButj" role="2ojMyU">
+            <ref role="3uigEE" to="goi:4ksEJbWs44A" resolve="ExtendedInvoice" />
+          </node>
+          <node concept="3uibUv" id="59ImdfaButA" role="2ojMyU">
+            <ref role="3uigEE" node="59ImdfaBew$" resolve="ExtendolinoInvoice" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="59ImdfaBuo1" role="3clF46">
+        <property role="TrG5h" value="param2" />
+        <node concept="10Oyi0" id="59ImdfaBuoj" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="59ImdfaBulY" role="3clF45" />
+      <node concept="3Tm1VV" id="59ImdfaBulZ" role="1B3o_S" />
+      <node concept="3clFbS" id="59ImdfaBum0" role="3clF47">
+        <node concept="YS8fn" id="59ImdfaB_ti" role="3cqZAp">
+          <node concept="2ShNRf" id="59ImdfaB_tI" role="YScLw">
+            <node concept="1pGfFk" id="59ImdfaB_G6" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="59ImdfaB_GH" role="37wK5m">
+                <property role="Xl_RC" value="Invoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="59ImdfaBupB" role="jymVt">
+      <property role="TrG5h" value="voidMethodTest" />
+      <node concept="37vLTG" id="59ImdfaBupC" role="3clF46">
+        <property role="TrG5h" value="param1" />
+        <node concept="10Oyi0" id="59ImdfaBupD" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="59ImdfaBupE" role="3clF46">
+        <property role="TrG5h" value="inv" />
+        <node concept="3uibUv" id="59ImdfaBusG" role="1tU5fm">
+          <ref role="3uigEE" to="goi:4ksEJbWs44A" resolve="ExtendedInvoice" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="59ImdfaBupG" role="3clF46">
+        <property role="TrG5h" value="param2" />
+        <node concept="10Oyi0" id="59ImdfaBupH" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="59ImdfaBupI" role="3clF45" />
+      <node concept="3Tm1VV" id="59ImdfaBupJ" role="1B3o_S" />
+      <node concept="3clFbS" id="59ImdfaBupK" role="3clF47">
+        <node concept="YS8fn" id="59ImdfaB_IB" role="3cqZAp">
+          <node concept="2ShNRf" id="59ImdfaB_IC" role="YScLw">
+            <node concept="1pGfFk" id="59ImdfaB_ID" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="59ImdfaB_KE" role="37wK5m">
+                <property role="Xl_RC" value="ExtendedInvoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="59ImdfaBur3" role="jymVt">
+      <property role="TrG5h" value="voidMethodTest" />
+      <node concept="37vLTG" id="59ImdfaBur4" role="3clF46">
+        <property role="TrG5h" value="param1" />
+        <node concept="10Oyi0" id="59ImdfaBur5" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="59ImdfaBur6" role="3clF46">
+        <property role="TrG5h" value="inv" />
+        <node concept="3uibUv" id="59ImdfaBusW" role="1tU5fm">
+          <ref role="3uigEE" node="59ImdfaBew$" resolve="ExtendolinoInvoice" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="59ImdfaBur8" role="3clF46">
+        <property role="TrG5h" value="param2" />
+        <node concept="10Oyi0" id="59ImdfaBur9" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="59ImdfaBura" role="3clF45" />
+      <node concept="3Tm1VV" id="59ImdfaBurb" role="1B3o_S" />
+      <node concept="3clFbS" id="59ImdfaBurc" role="3clF47">
+        <node concept="YS8fn" id="59ImdfaB_JC" role="3cqZAp">
+          <node concept="2ShNRf" id="59ImdfaB_JD" role="YScLw">
+            <node concept="1pGfFk" id="59ImdfaB_JE" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="59ImdfaB_LC" role="37wK5m">
+                <property role="Xl_RC" value="ExtendolinoInvoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="59Imdfa8mXb" role="1B3o_S" />
+  </node>
+  <node concept="34Athd" id="59ImdfaBew$">
+    <property role="TrG5h" value="ExtendolinoInvoice" />
+    <node concept="3Tm1VV" id="59ImdfaBewA" role="1B3o_S" />
+    <node concept="3uibUv" id="59ImdfaBezb" role="1zkMxy">
+      <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+    </node>
+    <node concept="3clFbW" id="59ImdfaBe$3" role="jymVt">
+      <node concept="3cqZAl" id="59ImdfaBe$4" role="3clF45" />
+      <node concept="3Tm1VV" id="59ImdfaBe$5" role="1B3o_S" />
+      <node concept="3clFbS" id="59ImdfaBe$6" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="59ImdfaBe$T" role="jymVt" />
+  </node>
+  <node concept="2WPaUQ" id="59ImdfaBg4p">
+    <property role="TrG5h" value="Service Method Dispatchment" />
+    <ref role="2WPtWl" node="5MCXLSo4_z9" resolve="MPreisOFXLdapConfig" />
+    <node concept="3yPF9F" id="59ImdfaBgYp" role="3yMuLx">
+      <property role="TrG5h" value="Call service dispatchment method with base object." />
+      <node concept="3cqZAl" id="59ImdfaBgYD" role="3clF45" />
+      <node concept="3clFbS" id="59ImdfaBgYt" role="3clF47">
+        <node concept="3cpWs8" id="59ImdfaBh4$" role="3cqZAp">
+          <node concept="3cpWsn" id="59ImdfaBh4_" role="3cpWs9">
+            <property role="TrG5h" value="inv" />
+            <node concept="3uibUv" id="59ImdfaBh4A" role="1tU5fm">
+              <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="2ShNRf" id="59ImdfaBh5R" role="33vP2m">
+              <node concept="1pGfFk" id="59ImdfaBh5C" role="2ShVmc">
+                <ref role="37wK5l" to="goi:612_n8HbEOF" resolve="Invoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="59ImdfaBh0S" role="3cqZAp">
+          <node concept="2OqwBi" id="59ImdfaBhe_" role="1gVkn0">
+            <node concept="1odsa" id="59ImdfaBh1G" role="2Oq$k0">
+              <ref role="1ods_" node="59Imdfa8mXa" resolve="DispatchableMethodService" />
+              <ref role="37wK5l" node="59Imdfa8mXM" resolve="getNameOfInv" />
+              <node concept="37vLTw" id="59ImdfaBh7e" role="37wK5m">
+                <ref role="3cqZAo" node="59ImdfaBh4_" resolve="inv" />
+              </node>
+              <node concept="3cmrfG" id="59ImdfaBhrM" role="37wK5m">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="10Nm6u" id="59ImdfaBh83" role="2f8TIa" />
+            </node>
+            <node concept="liA8E" id="59ImdfaBhky" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="59ImdfaBhlk" role="37wK5m">
+                <property role="Xl_RC" value="Invoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="59ImdfaBhaq" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="59ImdfaBizQ" role="3yMuLx">
+      <property role="TrG5h" value="Call service dispatchment method with extended object 1." />
+      <node concept="3cqZAl" id="59ImdfaBizR" role="3clF45" />
+      <node concept="3clFbS" id="59ImdfaBizS" role="3clF47">
+        <node concept="3cpWs8" id="59ImdfaBizT" role="3cqZAp">
+          <node concept="3cpWsn" id="59ImdfaBizU" role="3cpWs9">
+            <property role="TrG5h" value="inv" />
+            <node concept="3uibUv" id="59ImdfaBizV" role="1tU5fm">
+              <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="2ShNRf" id="59ImdfaBizW" role="33vP2m">
+              <node concept="1pGfFk" id="59ImdfaBizX" role="2ShVmc">
+                <ref role="37wK5l" to="goi:4ksEJbWs489" resolve="ExtendedInvoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="59ImdfaBizY" role="3cqZAp">
+          <node concept="2OqwBi" id="59ImdfaBizZ" role="1gVkn0">
+            <node concept="1odsa" id="59ImdfaBi$0" role="2Oq$k0">
+              <ref role="1ods_" node="59Imdfa8mXa" resolve="DispatchableMethodService" />
+              <ref role="37wK5l" node="59Imdfa8mXM" resolve="getNameOfInv" />
+              <node concept="37vLTw" id="59ImdfaBi$1" role="37wK5m">
+                <ref role="3cqZAo" node="59ImdfaBizU" resolve="inv" />
+              </node>
+              <node concept="3cmrfG" id="59ImdfaBi$2" role="37wK5m">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="10Nm6u" id="59ImdfaBi$3" role="2f8TIa" />
+            </node>
+            <node concept="liA8E" id="59ImdfaBi$4" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="59ImdfaBi$5" role="37wK5m">
+                <property role="Xl_RC" value="ExtendedInvoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="59ImdfaBi$6" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="59ImdfaBiEB" role="3yMuLx">
+      <property role="TrG5h" value="Call service dispatchment method with extended object 2." />
+      <node concept="3cqZAl" id="59ImdfaBiEC" role="3clF45" />
+      <node concept="3clFbS" id="59ImdfaBiED" role="3clF47">
+        <node concept="3cpWs8" id="59ImdfaBiEE" role="3cqZAp">
+          <node concept="3cpWsn" id="59ImdfaBiEF" role="3cpWs9">
+            <property role="TrG5h" value="inv" />
+            <node concept="3uibUv" id="59ImdfaBiEG" role="1tU5fm">
+              <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="2ShNRf" id="59ImdfaBiEH" role="33vP2m">
+              <node concept="1pGfFk" id="59ImdfaBiEI" role="2ShVmc">
+                <ref role="37wK5l" node="59ImdfaBe$3" resolve="ExtendolinoInvoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="59ImdfaBiEJ" role="3cqZAp">
+          <node concept="2OqwBi" id="59ImdfaBiEK" role="1gVkn0">
+            <node concept="1odsa" id="59ImdfaBiEL" role="2Oq$k0">
+              <ref role="1ods_" node="59Imdfa8mXa" resolve="DispatchableMethodService" />
+              <ref role="37wK5l" node="59Imdfa8mXM" resolve="getNameOfInv" />
+              <node concept="37vLTw" id="59ImdfaBiEM" role="37wK5m">
+                <ref role="3cqZAo" node="59ImdfaBiEF" resolve="inv" />
+              </node>
+              <node concept="3cmrfG" id="59ImdfaBiEN" role="37wK5m">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="10Nm6u" id="59ImdfaBiEO" role="2f8TIa" />
+            </node>
+            <node concept="liA8E" id="59ImdfaBiEP" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="59ImdfaBiEQ" role="37wK5m">
+                <property role="Xl_RC" value="ExtendolinoInvoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="59ImdfaBiER" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="59ImdfaB_Pa" role="3yMuLx">
+      <property role="TrG5h" value="Call service dispatchment method 2 with base object." />
+      <node concept="3cqZAl" id="59ImdfaB_Pb" role="3clF45" />
+      <node concept="3clFbS" id="59ImdfaB_Pc" role="3clF47">
+        <node concept="3cpWs8" id="59ImdfaB_Pd" role="3cqZAp">
+          <node concept="3cpWsn" id="59ImdfaB_Pe" role="3cpWs9">
+            <property role="TrG5h" value="inv" />
+            <node concept="3uibUv" id="59ImdfaB_Pf" role="1tU5fm">
+              <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="2ShNRf" id="59ImdfaB_Pg" role="33vP2m">
+              <node concept="1pGfFk" id="59ImdfaB_Ph" role="2ShVmc">
+                <ref role="37wK5l" to="goi:612_n8HbEOF" resolve="Invoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="59ImdfaB_XR" role="3cqZAp">
+          <node concept="1odsa" id="59ImdfaB_XP" role="3clFbG">
+            <ref role="1ods_" node="59Imdfa8mXa" resolve="DispatchableMethodService" />
+            <ref role="37wK5l" node="59ImdfaBulW" resolve="voidMethodTest" />
+            <node concept="3cmrfG" id="59ImdfaBA0F" role="37wK5m">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="59ImdfaBA3M" role="37wK5m">
+              <ref role="3cqZAo" node="59ImdfaB_Pe" resolve="inv" />
+            </node>
+            <node concept="3cmrfG" id="59ImdfaBA4i" role="37wK5m">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="10Nm6u" id="59ImdfaBA4E" role="2f8TIa" />
+          </node>
+          <node concept="16GPin" id="59ImdfaBA5R" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="59ImdfaBA6Q" role="16NUyR">
+              <property role="Xl_RC" value="Invoice" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="59ImdfaB_Pq" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="59ImdfaBA8W" role="3yMuLx">
+      <property role="TrG5h" value="Call service dispatchment method 2 with extended object." />
+      <node concept="3cqZAl" id="59ImdfaBA8X" role="3clF45" />
+      <node concept="3clFbS" id="59ImdfaBA8Y" role="3clF47">
+        <node concept="3cpWs8" id="59ImdfaBA8Z" role="3cqZAp">
+          <node concept="3cpWsn" id="59ImdfaBA90" role="3cpWs9">
+            <property role="TrG5h" value="inv" />
+            <node concept="3uibUv" id="59ImdfaBA91" role="1tU5fm">
+              <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="2ShNRf" id="59ImdfaBA92" role="33vP2m">
+              <node concept="1pGfFk" id="59ImdfaBA93" role="2ShVmc">
+                <ref role="37wK5l" to="goi:4ksEJbWs489" resolve="ExtendedInvoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="59ImdfaBA94" role="3cqZAp">
+          <node concept="1odsa" id="59ImdfaBA95" role="3clFbG">
+            <ref role="1ods_" node="59Imdfa8mXa" resolve="DispatchableMethodService" />
+            <ref role="37wK5l" node="59ImdfaBulW" resolve="voidMethodTest" />
+            <node concept="3cmrfG" id="59ImdfaBA96" role="37wK5m">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="59ImdfaBA97" role="37wK5m">
+              <ref role="3cqZAo" node="59ImdfaBA90" resolve="inv" />
+            </node>
+            <node concept="3cmrfG" id="59ImdfaBA98" role="37wK5m">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="10Nm6u" id="59ImdfaBA99" role="2f8TIa" />
+          </node>
+          <node concept="16GPin" id="59ImdfaBA9a" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="59ImdfaBA9b" role="16NUyR">
+              <property role="Xl_RC" value="ExtendedInvoice" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="59ImdfaBA9c" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="59ImdfaBAbr" role="3yMuLx">
+      <property role="TrG5h" value="Call service dispatchment method 2 with extended object 2." />
+      <node concept="3cqZAl" id="59ImdfaBAbs" role="3clF45" />
+      <node concept="3clFbS" id="59ImdfaBAbt" role="3clF47">
+        <node concept="3cpWs8" id="59ImdfaBAbu" role="3cqZAp">
+          <node concept="3cpWsn" id="59ImdfaBAbv" role="3cpWs9">
+            <property role="TrG5h" value="inv" />
+            <node concept="3uibUv" id="59ImdfaBAbw" role="1tU5fm">
+              <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="2ShNRf" id="59ImdfaBAbx" role="33vP2m">
+              <node concept="1pGfFk" id="59ImdfaBAby" role="2ShVmc">
+                <ref role="37wK5l" node="59ImdfaBe$3" resolve="ExtendolinoInvoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="59ImdfaBAbz" role="3cqZAp">
+          <node concept="1odsa" id="59ImdfaBAb$" role="3clFbG">
+            <ref role="1ods_" node="59Imdfa8mXa" resolve="DispatchableMethodService" />
+            <ref role="37wK5l" node="59ImdfaBulW" resolve="voidMethodTest" />
+            <node concept="3cmrfG" id="59ImdfaBAb_" role="37wK5m">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="59ImdfaBAbA" role="37wK5m">
+              <ref role="3cqZAo" node="59ImdfaBAbv" resolve="inv" />
+            </node>
+            <node concept="3cmrfG" id="59ImdfaBAbB" role="37wK5m">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="10Nm6u" id="59ImdfaBAbC" role="2f8TIa" />
+          </node>
+          <node concept="16GPin" id="59ImdfaBAbD" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="59ImdfaBAbE" role="16NUyR">
+              <property role="Xl_RC" value="ExtendolinoInvoice" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="59ImdfaBAbF" role="3cqZAp" />
+      </node>
+    </node>
   </node>
 </model>
 

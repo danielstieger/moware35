@@ -3455,6 +3455,7 @@
           <node concept="3clFbS" id="5xcCl6o0EYQ" role="3clFbx">
             <node concept="3clFbJ" id="5xcCl6o0EYR" role="3cqZAp">
               <node concept="3clFbS" id="5xcCl6o0EYS" role="3clFbx">
+                <node concept="3clFbH" id="59Imdf9ZjDT" role="3cqZAp" />
                 <node concept="3cpWs6" id="5xcCl6o0EYT" role="3cqZAp">
                   <node concept="3clFbT" id="5xcCl6o0EYU" role="3cqZAk">
                     <property role="3clFbU" value="true" />
@@ -3462,12 +3463,6 @@
                 </node>
               </node>
               <node concept="22lmx$" id="5xcCl6o0FBD" role="3clFbw">
-                <node concept="3clFbC" id="5xcCl6o0GkC" role="3uHU7w">
-                  <node concept="3TUQnm" id="5xcCl6o0GCF" role="3uHU7w">
-                    <ref role="3TV0OU" to="tpee:fz12cDC" resolve="FieldDeclaration" />
-                  </node>
-                  <node concept="otxO1" id="5xcCl6o0FVW" role="3uHU7B" />
-                </node>
                 <node concept="22lmx$" id="5xcCl6o0EYV" role="3uHU7B">
                   <node concept="22lmx$" id="5xcCl6o0EYW" role="3uHU7B">
                     <node concept="3clFbC" id="5xcCl6o0EYX" role="3uHU7B">
@@ -3490,8 +3485,15 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbC" id="5xcCl6o0GkC" role="3uHU7w">
+                  <node concept="otxO1" id="5xcCl6o0FVW" role="3uHU7B" />
+                  <node concept="3TUQnm" id="5xcCl6o0GCF" role="3uHU7w">
+                    <ref role="3TV0OU" to="tpee:fz12cDC" resolve="FieldDeclaration" />
+                  </node>
+                </node>
               </node>
             </node>
+            <node concept="3clFbH" id="59Imdf9ZjyB" role="3cqZAp" />
             <node concept="3cpWs6" id="5xcCl6o0EZ6" role="3cqZAp">
               <node concept="3clFbT" id="5xcCl6o0EZ7" role="3cqZAk">
                 <property role="3clFbU" value="false" />
