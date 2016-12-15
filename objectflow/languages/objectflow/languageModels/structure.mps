@@ -4052,7 +4052,7 @@
     <property role="3GE5qa" value="Service" />
     <property role="TrG5h" value="ServiceMethodDispatchInfo" />
     <property role="19KtqR" value="false" />
-    <property role="34LRSv" value="DISPATCH TO" />
+    <property role="34LRSv" value="DISPATCH" />
     <property role="R4oN_" value="to other methods" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="59Imdfa8n1v" role="lGtFl">

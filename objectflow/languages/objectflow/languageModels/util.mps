@@ -9399,15 +9399,45 @@
               </node>
             </node>
           </node>
-          <node concept="3y3z36" id="59ImdfaDh6l" role="3clFbw">
-            <node concept="3cmrfG" id="59ImdfaDhaH" role="3uHU7w">
-              <property role="3cmrfH" value="1" />
-            </node>
+          <node concept="3eOSWO" id="59ImdfaJrwj" role="3clFbw">
             <node concept="2OqwBi" id="59ImdfaD8MV" role="3uHU7B">
               <node concept="37vLTw" id="59ImdfaD7wA" role="2Oq$k0">
                 <ref role="3cqZAo" node="59ImdfaCpz9" resolve="paramsNotMattching" />
               </node>
               <node concept="34oBXx" id="59ImdfaDehD" role="2OqNvi" />
+            </node>
+            <node concept="3cmrfG" id="59ImdfaDhaH" role="3uHU7w">
+              <property role="3cmrfH" value="1" />
+            </node>
+          </node>
+          <node concept="3eNFk2" id="59ImdfaJrF3" role="3eNLev">
+            <node concept="3clFbC" id="59ImdfaJs6a" role="3eO9$A">
+              <node concept="3cmrfG" id="59ImdfaJs8E" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="2OqwBi" id="59ImdfaJsmQ" role="3uHU7B">
+                <node concept="37vLTw" id="59ImdfaJrSK" role="2Oq$k0">
+                  <ref role="3cqZAo" node="59ImdfaCpz9" resolve="paramsNotMattching" />
+                </node>
+                <node concept="34oBXx" id="59ImdfaJsHE" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="59ImdfaJrF5" role="3eOfB_">
+              <node concept="3clFbF" id="59ImdfaJsMb" role="3cqZAp">
+                <node concept="d57v9" id="59ImdfaJsQm" role="3clFbG">
+                  <node concept="Xl_RD" id="59ImdfaJsSc" role="37vLTx">
+                    <property role="Xl_RC" value="At least one parameter - the dispatched one - should differ between orig. and candiate method." />
+                  </node>
+                  <node concept="37vLTw" id="59ImdfaJsMa" role="37vLTJ">
+                    <ref role="3cqZAo" node="59ImdfaBFue" resolve="feedback" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="59ImdfaJu2$" role="3cqZAp">
+                <node concept="37vLTw" id="59ImdfaJucy" role="3cqZAk">
+                  <ref role="3cqZAo" node="59ImdfaBFue" resolve="feedback" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -9703,6 +9733,38 @@
       <node concept="3Tm1VV" id="59ImdfaHltV" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="59ImdfaHloQ" role="jymVt" />
+    <node concept="2YIFZL" id="59ImdfaKLz$" role="jymVt">
+      <property role="TrG5h" value="isSubtype" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="59ImdfaKJUA" role="3clF47">
+        <node concept="3SKdUt" id="59ImdfaLjdS" role="3cqZAp">
+          <node concept="3SKdUq" id="59ImdfaLjdU" role="3SKWNk">
+            <property role="3SKdUp" value="inheritance .. given?" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="59ImdfaKMxV" role="3cqZAp">
+          <node concept="3clFbT" id="59ImdfaKMxU" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="59ImdfaKK1P" role="3clF46">
+        <property role="TrG5h" value="subType" />
+        <node concept="3Tqbb2" id="59ImdfaKK2z" role="1tU5fm">
+          <ref role="ehGHo" to="tpee:g7uibYu" resolve="ClassifierType" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="59ImdfaKK2O" role="3clF46">
+        <property role="TrG5h" value="baseType" />
+        <node concept="3Tqbb2" id="59ImdfaKK3_" role="1tU5fm">
+          <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+        </node>
+      </node>
+      <node concept="10P_77" id="59ImdfaKMvH" role="3clF45" />
+      <node concept="3Tm1VV" id="59ImdfaKJU_" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="59ImdfaKJOB" role="jymVt" />
   </node>
 </model>
 

@@ -4897,37 +4897,17 @@
       <node concept="3clFbS" id="59Imdfauk52" role="2VODD2">
         <node concept="3clFbF" id="59Imdfauk83" role="3cqZAp">
           <node concept="Xl_RD" id="59Imdfauk82" role="3clFbG">
-            <property role="Xl_RC" value="Remove dispatch info." />
+            <property role="Xl_RC" value="Remove this dispatch information from this method." />
           </node>
         </node>
       </node>
     </node>
     <node concept="2Sbjvc" id="59Imdfauk53" role="2ZfgGD">
       <node concept="3clFbS" id="59Imdfauk54" role="2VODD2">
-        <node concept="3clFbF" id="59ImdfaukhY" role="3cqZAp">
-          <node concept="2OqwBi" id="59ImdfaukhV" role="3clFbG">
-            <node concept="10M0yZ" id="59ImdfaukhW" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="59ImdfaukhX" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="59ImdfaukoF" role="37wK5m">
-                <node concept="2OqwBi" id="59ImdfaukrL" role="3uHU7w">
-                  <node concept="2Sf5sV" id="59ImdfaukoP" role="2Oq$k0" />
-                  <node concept="2Xjw5R" id="59Imdfauk_X" role="2OqNvi">
-                    <node concept="1xMEDy" id="59Imdfauk_Z" role="1xVPHs">
-                      <node concept="chp4Y" id="59ImdfaukB7" role="ri$Ld">
-                        <ref role="cht4Q" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="59Imdfaukir" role="3uHU7B">
-                  <property role="Xl_RC" value=".. " />
-                </node>
-              </node>
-            </node>
+        <node concept="3clFbF" id="59ImdfaKnUK" role="3cqZAp">
+          <node concept="2OqwBi" id="59ImdfaKnWL" role="3clFbG">
+            <node concept="2Sf5sV" id="59ImdfaKnUJ" role="2Oq$k0" />
+            <node concept="1PgB_6" id="59ImdfaKo1B" role="2OqNvi" />
           </node>
         </node>
       </node>
