@@ -1248,7 +1248,7 @@
     </node>
     <node concept="1YaCAy" id="3bYrH4MI6u0" role="1YuTPh">
       <property role="TrG5h" value="sfs" />
-      <ref role="1YaFvo" to="un0u:3bYrH4MI37T" resolve="StatusFromString" />
+      <ref role="1YaFvo" to="un0u:3bYrH4MI37T" resolve="StatusStaticAccess" />
     </node>
   </node>
   <node concept="1YbPZF" id="vASbTzXMJW">
@@ -11857,6 +11857,59 @@
     <node concept="1YaCAy" id="6QGCiYX6FWZ" role="1YuTPh">
       <property role="TrG5h" value="getSelectedObjects" />
       <ref role="1YaFvo" to="un0u:6lryfQF7yi5" resolve="GetSelectedObjects" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="2TdURcTXb8s">
+    <property role="TrG5h" value="typeof_StatusOperation" />
+    <property role="3GE5qa" value="Status" />
+    <node concept="3clFbS" id="2TdURcTXb8t" role="18ibNy">
+      <node concept="3cpWs8" id="3v2SO3nJYc1" role="3cqZAp">
+        <node concept="3cpWsn" id="3v2SO3nJYc2" role="3cpWs9">
+          <property role="TrG5h" value="mdecl" />
+          <property role="3TUv4t" value="false" />
+          <node concept="3Tqbb2" id="3v2SO3nJYc3" role="1tU5fm">
+            <ref role="ehGHo" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+          </node>
+          <node concept="2OqwBi" id="3v2SO3nJYc4" role="33vP2m">
+            <node concept="1YBJjd" id="2TdURcU3l3j" role="2Oq$k0">
+              <ref role="1YBMHb" node="2TdURcTXb8v" resolve="statusOperation" />
+            </node>
+            <node concept="3TrEf2" id="2TdURcU3l7U" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:2TdURcTX3AS" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="hxnPPLb" role="3cqZAp">
+        <node concept="3clFbS" id="hxnPPLc" role="3clFbx">
+          <node concept="3cpWs6" id="hxnQ78s" role="3cqZAp" />
+        </node>
+        <node concept="3clFbC" id="hxnQ5Dq" role="3clFbw">
+          <node concept="37vLTw" id="2TdURcU3lbY" role="3uHU7B">
+            <ref role="3cqZAo" node="3v2SO3nJYc2" resolve="mdecl" />
+          </node>
+          <node concept="10Nm6u" id="hxnQ6sY" role="3uHU7w" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="2TdURcU3kJX" role="3cqZAp" />
+      <node concept="1Z5TYs" id="2TdURcTXbgf" role="3cqZAp">
+        <node concept="mw_s8" id="2TdURcTXbid" role="1ZfhKB">
+          <node concept="2c44tf" id="2TdURcU3s4t" role="mwGJk">
+            <node concept="17QB3L" id="2TdURcU3s9I" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="2TdURcTXbgi" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2TdURcTXbbV" role="mwGJk">
+            <node concept="1YBJjd" id="2TdURcTXbdd" role="1Z2MuG">
+              <ref role="1YBMHb" node="2TdURcTXb8v" resolve="statusOperation" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2TdURcTXb8v" role="1YuTPh">
+      <property role="TrG5h" value="statusOperation" />
+      <ref role="1YaFvo" to="un0u:2TdURcTX2Bz" resolve="StatusOperation" />
     </node>
   </node>
 </model>

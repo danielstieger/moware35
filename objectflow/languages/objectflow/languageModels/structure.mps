@@ -561,7 +561,7 @@
   </node>
   <node concept="1TIwiD" id="3bYrH4MI37T">
     <property role="3GE5qa" value="Status" />
-    <property role="TrG5h" value="StatusFromString" />
+    <property role="TrG5h" value="StatusStaticAccess" />
     <property role="1pbfSe" value="1706467530" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="3bYrH4MI6tF" role="1TKVEi">
@@ -578,6 +578,10 @@
     </node>
     <node concept="PrWs8" id="6svR_JBHsXn" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+    <node concept="1TJgyi" id="2TdURcTQwjZ" role="1TKVEl">
+      <property role="TrG5h" value="method" />
+      <ref role="AX2Wp" node="2TdURcTQvfi" resolve="StatusStaticAccessMethods" />
     </node>
   </node>
   <node concept="1TIwiD" id="7ubYH_ZZOMP">
@@ -4017,6 +4021,31 @@
     <property role="34LRSv" value="session" />
     <property role="R4oN_" value="for this authentication" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="AxPO7" id="2TdURcTQvfi">
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="StatusStaticAccessMethods" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="2TdURcTQvfj" role="M5hS2">
+      <property role="1uS6qv" value="fromDbString" />
+      <property role="1uS6qo" value="fromDbString" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2TdURcTX2Bz">
+    <property role="1pbfSe" value="1749161302" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="StatusOperation" />
+    <property role="R4oN_" value="status text access" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2TdURcTX3AS" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="method" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
+    </node>
+    <node concept="PrWs8" id="2TdURcTX2No" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
+    </node>
   </node>
 </model>
 

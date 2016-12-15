@@ -960,7 +960,7 @@
     <node concept="3FOIzC" id="3bYrH4MI6v8" role="3FOPby">
       <ref role="3FOWKa" to="tpee:fz3vP1J" resolve="Expression" />
       <node concept="tYCnQ" id="3bYrH4MI6v9" role="tZc4B">
-        <ref role="uz4UX" to="un0u:3bYrH4MI37T" resolve="StatusFromString" />
+        <ref role="uz4UX" to="un0u:3bYrH4MI37T" resolve="StatusStaticAccess" />
         <node concept="uMFAO" id="3bYrH4MI6va" role="uz6Si">
           <node concept="3Tqbb2" id="3bYrH4MI6vb" role="uMOYW">
             <ref role="ehGHo" to="un0u:3VCHlE3_rxl" resolve="Status" />
@@ -983,12 +983,12 @@
                 <node concept="3cpWsn" id="3bYrH4MI6vm" role="3cpWs9">
                   <property role="TrG5h" value="result" />
                   <node concept="3Tqbb2" id="3bYrH4MI6vn" role="1tU5fm">
-                    <ref role="ehGHo" to="un0u:3bYrH4MI37T" resolve="StatusFromString" />
+                    <ref role="ehGHo" to="un0u:3bYrH4MI37T" resolve="StatusStaticAccess" />
                   </node>
                   <node concept="2OqwBi" id="3bYrH4MI6vo" role="33vP2m">
                     <node concept="1Q6Npb" id="3bYrH4MI6vp" role="2Oq$k0" />
                     <node concept="15TzpJ" id="3bYrH4MI6vq" role="2OqNvi">
-                      <ref role="I8UWU" to="un0u:3bYrH4MI37T" resolve="StatusFromString" />
+                      <ref role="I8UWU" to="un0u:3bYrH4MI37T" resolve="StatusStaticAccess" />
                     </node>
                   </node>
                 </node>
@@ -1043,7 +1043,7 @@
                     </node>
                   </node>
                   <node concept="Xl_RD" id="3bYrH4MI6vN" role="3uHU7B">
-                    <property role="Xl_RC" value="status from String ^" />
+                    <property role="Xl_RC" value="status static access ^" />
                   </node>
                 </node>
               </node>
