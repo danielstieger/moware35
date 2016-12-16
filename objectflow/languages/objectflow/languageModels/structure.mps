@@ -4071,5 +4071,58 @@
       <ref role="20lvS9" to="tpee:g7uibYu" resolve="ClassifierType" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1fYc781EAsq">
+    <property role="1pbfSe" value="363370380" />
+    <property role="TrG5h" value="Platforms" />
+    <property role="3GE5qa" value="Labels" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="Platforms" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1fYc781EAJ$" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1fYc781EA$j">
+    <property role="1pbfSe" value="363370885" />
+    <property role="3GE5qa" value="Labels" />
+    <property role="TrG5h" value="Label" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1fYc781EADr" role="1TKVEl">
+      <property role="TrG5h" value="hotkey" />
+      <ref role="AX2Wp" node="1hImSMr5NSl" resolve="Hotkey" />
+    </node>
+    <node concept="1TJgyj" id="1fYc781EA$R" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="text" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
+    <node concept="1TJgyj" id="1fYc781EA_E" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="icon" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="1fYc781EAE9" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1fYc781EAKn">
+    <property role="1pbfSe" value="363371657" />
+    <property role="3GE5qa" value="Labels" />
+    <property role="TrG5h" value="Target" />
+    <property role="34LRSv" value="Target" />
+    <property role="R4oN_" value="a specific platform" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1fYc781ER$D" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="labels" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1fYc781EA$j" resolve="Label" />
+    </node>
+    <node concept="PrWs8" id="1fYc781ERBc" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 

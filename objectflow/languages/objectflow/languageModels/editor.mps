@@ -11780,5 +11780,30 @@
       <node concept="2iRkQZ" id="59Imdfalctq" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="1fYc781EAEu">
+    <property role="3GE5qa" value="Labels" />
+    <ref role="1XX52x" to="un0u:1fYc781EA$j" resolve="Label" />
+    <node concept="3EZMnI" id="1fYc781EAEP" role="2wV5jI">
+      <node concept="3F0ifn" id="1fYc781EAF3" role="3EZMnx">
+        <property role="3F0ifm" value="lable" />
+      </node>
+      <node concept="3F0A7n" id="1fYc781EAFu" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="1fYc781EAHN" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F1sOY" id="1fYc781EAFO" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1fYc781EA$R" />
+      </node>
+      <node concept="3F1sOY" id="1fYc781EAIm" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1fYc781EA_E" />
+      </node>
+      <node concept="3F0A7n" id="1fYc781EAGX" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1fYc781EADr" resolve="hotkey" />
+      </node>
+      <node concept="l2Vlx" id="1fYc781EAES" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
