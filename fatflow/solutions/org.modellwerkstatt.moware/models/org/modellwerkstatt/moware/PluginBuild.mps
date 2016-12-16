@@ -1380,6 +1380,12 @@
               <ref role="3bR37D" node="1JLTjCmZu2U" resolve="org.modellwerkstatt.fatflow" />
             </node>
           </node>
+          <node concept="1SiIV0" id="6IzlsXtgNGl" role="3bR37C">
+            <node concept="3bR9La" id="6IzlsXtgNGm" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7YI57w6K08M" resolve="jetbrains.mps.baseLanguage.closures#1199623535494" />
+            </node>
+          </node>
         </node>
         <node concept="1SiIV0" id="7JvGPIW6O5G" role="3bR37C">
           <node concept="3bR9La" id="7JvGPIW6O5H" role="1SiIV1">
@@ -1519,6 +1525,12 @@
             <node concept="3bR9La" id="6HA5kZtQ1kH" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="1JLTjCmZpiM" resolve="org.modellwerkstatt.sandbox" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="6IzlsXtgNMw" role="3bR37C">
+            <node concept="3bR9La" id="6IzlsXtgNMx" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="1JLTjCmZvVa" resolve="org.modellwerkstatt.fatflow#6220831822432810257" />
             </node>
           </node>
         </node>
