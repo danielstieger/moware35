@@ -9120,7 +9120,7 @@
                     <node concept="3cpWs3" id="59ImdfaBJPA" role="3uHU7B">
                       <node concept="3cpWs3" id="59ImdfaBIzj" role="3uHU7B">
                         <node concept="Xl_RD" id="59ImdfaBIl9" role="3uHU7B">
-                          <property role="Xl_RC" value="Name of methods are not the same " />
+                          <property role="Xl_RC" value="Name of dispatched methods are not the same " />
                         </node>
                         <node concept="2OqwBi" id="59ImdfaBIJ5" role="3uHU7w">
                           <node concept="37vLTw" id="59ImdfaBIzQ" role="2Oq$k0">
@@ -9190,7 +9190,7 @@
                     <node concept="3cpWs3" id="59ImdfaCgLX" role="3uHU7B">
                       <node concept="3cpWs3" id="59ImdfaC634" role="3uHU7B">
                         <node concept="Xl_RD" id="59ImdfaC5Vw" role="3uHU7B">
-                          <property role="Xl_RC" value="Length of parameters of methods are not the same (orig: " />
+                          <property role="Xl_RC" value="Length of parameters of methods are not the same (base: " />
                         </node>
                         <node concept="2OqwBi" id="59ImdfaC8Qi" role="3uHU7w">
                           <node concept="2OqwBi" id="59ImdfaC6hp" role="2Oq$k0">
@@ -9383,19 +9383,111 @@
                 <node concept="37vLTw" id="59ImdfaDhhZ" role="37vLTJ">
                   <ref role="3cqZAo" node="59ImdfaBFue" resolve="feedback" />
                 </node>
-                <node concept="3cpWs3" id="59ImdfaDhQz" role="37vLTx">
-                  <node concept="37vLTw" id="59ImdfaDhRt" role="3uHU7w">
-                    <ref role="3cqZAo" node="59ImdfaCpz9" resolve="paramsNotMattching" />
-                  </node>
-                  <node concept="Xl_RD" id="59ImdfaDhi0" role="3uHU7B">
-                    <property role="Xl_RC" value="More then the dispatched parameter are not matching: parameter indices " />
-                  </node>
+                <node concept="Xl_RD" id="59ImdfaDhi0" role="37vLTx">
+                  <property role="Xl_RC" value="More then the dispatched parameter are not matching: " />
                 </node>
               </node>
             </node>
+            <node concept="1DcWWT" id="6IzlsXt4vPx" role="3cqZAp">
+              <node concept="3clFbS" id="6IzlsXt4vPz" role="2LFqv$">
+                <node concept="3clFbF" id="6IzlsXt4wlj" role="3cqZAp">
+                  <node concept="d57v9" id="6IzlsXt4wpx" role="3clFbG">
+                    <node concept="3cpWs3" id="6IzlsXt4Dbv" role="37vLTx">
+                      <node concept="Xl_RD" id="6IzlsXt4Deo" role="3uHU7w">
+                        <property role="Xl_RC" value=", " />
+                      </node>
+                      <node concept="3cpWs3" id="6IzlsXt4NNX" role="3uHU7B">
+                        <node concept="3cpWs3" id="6IzlsXt4XZ6" role="3uHU7B">
+                          <node concept="Xl_RD" id="6IzlsXt4Y2O" role="3uHU7w">
+                            <property role="Xl_RC" value=" " />
+                          </node>
+                          <node concept="3cpWs3" id="6IzlsXt4YfI" role="3uHU7B">
+                            <node concept="Xl_RD" id="6IzlsXt4YnU" role="3uHU7B">
+                              <property role="Xl_RC" value="" />
+                            </node>
+                            <node concept="2OqwBi" id="6IzlsXt4WX8" role="3uHU7w">
+                              <node concept="2OqwBi" id="6IzlsXt4Rof" role="2Oq$k0">
+                                <node concept="2OqwBi" id="6IzlsXt4Oev" role="2Oq$k0">
+                                  <node concept="37vLTw" id="6IzlsXt4NWJ" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="59ImdfaBFsu" resolve="copy" />
+                                  </node>
+                                  <node concept="3Tsc0h" id="6IzlsXt4PkV" role="2OqNvi">
+                                    <ref role="3TtcxE" to="tpee:fzclF7Y" />
+                                  </node>
+                                </node>
+                                <node concept="34jXtK" id="6IzlsXt4WzW" role="2OqNvi">
+                                  <node concept="37vLTw" id="6IzlsXt4WIe" role="25WWJ7">
+                                    <ref role="3cqZAo" node="6IzlsXt4vP$" resolve="i" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3TrEf2" id="6IzlsXt4X_a" role="2OqNvi">
+                                <ref role="3Tt5mk" to="tpee:4VkOLwjf83e" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="6IzlsXt4Ctm" role="3uHU7w">
+                          <node concept="2OqwBi" id="6IzlsXt4yUN" role="2Oq$k0">
+                            <node concept="2OqwBi" id="6IzlsXt4wEo" role="2Oq$k0">
+                              <node concept="37vLTw" id="6IzlsXt4wtt" role="2Oq$k0">
+                                <ref role="3cqZAo" node="59ImdfaBFsu" resolve="copy" />
+                              </node>
+                              <node concept="3Tsc0h" id="6IzlsXt4xbP" role="2OqNvi">
+                                <ref role="3TtcxE" to="tpee:fzclF7Y" />
+                              </node>
+                            </node>
+                            <node concept="34jXtK" id="6IzlsXt4C8z" role="2OqNvi">
+                              <node concept="37vLTw" id="6IzlsXt4Cc9" role="25WWJ7">
+                                <ref role="3cqZAo" node="6IzlsXt4vP$" resolve="i" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3TrcHB" id="6IzlsXt4CN4" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="6IzlsXt4wlh" role="37vLTJ">
+                      <ref role="3cqZAo" node="59ImdfaBFue" resolve="feedback" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWsn" id="6IzlsXt4vP$" role="1Duv9x">
+                <property role="TrG5h" value="i" />
+                <node concept="10Oyi0" id="6IzlsXt4vZ0" role="1tU5fm" />
+              </node>
+              <node concept="37vLTw" id="6IzlsXt4w7s" role="1DdaDG">
+                <ref role="3cqZAo" node="59ImdfaCpz9" resolve="paramsNotMattching" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="6IzlsXt4vHe" role="3cqZAp" />
             <node concept="3cpWs6" id="59ImdfaDhTc" role="3cqZAp">
-              <node concept="37vLTw" id="59ImdfaDhU9" role="3cqZAk">
-                <ref role="3cqZAo" node="59ImdfaBFue" resolve="feedback" />
+              <node concept="2OqwBi" id="6IzlsXt4YRN" role="3cqZAk">
+                <node concept="37vLTw" id="59ImdfaDhU9" role="2Oq$k0">
+                  <ref role="3cqZAo" node="59ImdfaBFue" resolve="feedback" />
+                </node>
+                <node concept="liA8E" id="6IzlsXt4Zbl" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.substring(int,int):java.lang.String" resolve="substring" />
+                  <node concept="3cmrfG" id="6IzlsXt4Zk1" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="3cpWsd" id="6IzlsXt50jo" role="37wK5m">
+                    <node concept="3cmrfG" id="6IzlsXt50kW" role="3uHU7w">
+                      <property role="3cmrfH" value="2" />
+                    </node>
+                    <node concept="2OqwBi" id="6IzlsXt4ZQZ" role="3uHU7B">
+                      <node concept="37vLTw" id="6IzlsXt4ZKd" role="2Oq$k0">
+                        <ref role="3cqZAo" node="59ImdfaBFue" resolve="feedback" />
+                      </node>
+                      <node concept="liA8E" id="6IzlsXt506O" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -9426,7 +9518,7 @@
               <node concept="3clFbF" id="59ImdfaJsMb" role="3cqZAp">
                 <node concept="d57v9" id="59ImdfaJsQm" role="3clFbG">
                   <node concept="Xl_RD" id="59ImdfaJsSc" role="37vLTx">
-                    <property role="Xl_RC" value="At least one parameter - the dispatched one - should differ between orig. and candiate method." />
+                    <property role="Xl_RC" value="At least one parameter - the dispatched one - should differ between orig. and candidate method." />
                   </node>
                   <node concept="37vLTw" id="59ImdfaJsMa" role="37vLTJ">
                     <ref role="3cqZAo" node="59ImdfaBFue" resolve="feedback" />
@@ -9471,7 +9563,7 @@
                     <ref role="3cqZAo" node="59ImdfaDjwr" resolve="dispParamAt" />
                   </node>
                   <node concept="Xl_RD" id="59ImdfaDvC2" role="3uHU7B">
-                    <property role="Xl_RC" value="The parameter not matching is not the to dispatch one: param " />
+                    <property role="Xl_RC" value="The parameter not matching is not the 'to dispatch' one: param " />
                   </node>
                 </node>
               </node>
@@ -9508,7 +9600,7 @@
                   <node concept="3cpWs3" id="59ImdfaDBQW" role="3uHU7B">
                     <node concept="3cpWs3" id="59ImdfaDBLo" role="3uHU7B">
                       <node concept="Xl_RD" id="59ImdfaDB_F" role="3uHU7B">
-                        <property role="Xl_RC" value="The to dispatch parameter is not " />
+                        <property role="Xl_RC" value="The 'to dispatch' parameter is not " />
                       </node>
                       <node concept="37vLTw" id="59ImdfaDBMs" role="3uHU7w">
                         <ref role="3cqZAo" node="59ImdfaBFsO" resolve="expectedCopyType" />
@@ -9732,39 +9824,6 @@
       <node concept="10P_77" id="59ImdfaHlz2" role="3clF45" />
       <node concept="3Tm1VV" id="59ImdfaHltV" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="59ImdfaHloQ" role="jymVt" />
-    <node concept="2YIFZL" id="59ImdfaKLz$" role="jymVt">
-      <property role="TrG5h" value="isSubtype" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3clFbS" id="59ImdfaKJUA" role="3clF47">
-        <node concept="3SKdUt" id="59ImdfaLjdS" role="3cqZAp">
-          <node concept="3SKdUq" id="59ImdfaLjdU" role="3SKWNk">
-            <property role="3SKdUp" value="inheritance .. given?" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="59ImdfaKMxV" role="3cqZAp">
-          <node concept="3clFbT" id="59ImdfaKMxU" role="3clFbG">
-            <property role="3clFbU" value="false" />
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="59ImdfaKK1P" role="3clF46">
-        <property role="TrG5h" value="subType" />
-        <node concept="3Tqbb2" id="59ImdfaKK2z" role="1tU5fm">
-          <ref role="ehGHo" to="tpee:g7uibYu" resolve="ClassifierType" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="59ImdfaKK2O" role="3clF46">
-        <property role="TrG5h" value="baseType" />
-        <node concept="3Tqbb2" id="59ImdfaKK3_" role="1tU5fm">
-          <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
-        </node>
-      </node>
-      <node concept="10P_77" id="59ImdfaKMvH" role="3clF45" />
-      <node concept="3Tm1VV" id="59ImdfaKJU_" role="1B3o_S" />
-    </node>
-    <node concept="2tJIrI" id="59ImdfaKJOB" role="jymVt" />
   </node>
 </model>
 
