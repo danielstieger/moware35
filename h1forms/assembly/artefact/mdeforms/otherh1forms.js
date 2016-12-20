@@ -142,17 +142,19 @@ function mykeyboardKeypress(key){
     	var text = inp.value.toString();
     	
 		if (key == '<<' && text.length > 0) {
-			inp.value = text.substring(0, text.length - 1);
-		} else if (key == '+') {
-			inp.value = (parseFloat(text) + 1).toString();
-		} else if (key == '-') {
-			inp.value = (parseFloat(text) - 1).toString();
-		} else {
-			if (mykeyboardFirstKeyAfterFocus) {
-    			text = '';
-    		}
-			inp.value = text + key;
-		}
+            inp.value = text.substring(0, text.length - 1);
+        } else if (key == '<<') {
+            inp.value = '';
+        } else if (key == '+') {
+            inp.value = (parseFloat(text) + 1).toFixed().toString();
+        } else if (key == '-') {
+            inp.value = (parseFloat(text) - 1).toFixed().toString();
+        } else {
+            if (mykeyboardFirstKeyAfterFocus) {
+                text = '';
+            }
+            inp.value = text + key;
+        }
 	}
 	
 	mykeyboardFirstKeyAfterFocus = false;

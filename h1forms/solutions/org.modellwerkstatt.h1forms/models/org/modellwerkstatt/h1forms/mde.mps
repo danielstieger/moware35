@@ -9043,7 +9043,7 @@
                 <node concept="liA8E" id="4NOhjsr_8K1" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="Xl_RD" id="4NOhjsr_8K2" role="37wK5m">
-                    <property role="Xl_RC" value="&lt;/label&gt;&lt;input type=\&quot;number\&quot; name=\&quot;" />
+                    <property role="Xl_RC" value="&lt;/label&gt;&lt;input type=\&quot;text\&quot; name=\&quot;" />
                   </node>
                 </node>
               </node>
