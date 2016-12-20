@@ -20,7 +20,6 @@
     <language id="4caf0310-491e-41f5-8a9b-2006b3a94898" fqName="jetbrains.mps.execution.util" version="0" />
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
-    <language id="1e645434-f066-4246-95c3-c768bd8f6bee" fqName="org.modellwerkstatt.FopLand" version="0" />
     <language id="5aaa957f-3447-4783-b1f7-b301fa3e0394" fqName="org.modellwerkstatt.manmap" version="0" />
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" fqName="org.modellwerkstatt.objectflow" version="0" />
   </languageVersions>
