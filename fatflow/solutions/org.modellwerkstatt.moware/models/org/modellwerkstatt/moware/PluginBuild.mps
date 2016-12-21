@@ -150,7 +150,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 3.3.5 / mowareUX RC1" />
+          <property role="3MwjfP" value="MPS 3.3.5 / mowareUX RC0" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -1531,6 +1531,12 @@
             <node concept="3bR9La" id="6IzlsXtgNMx" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="1JLTjCmZvVa" resolve="org.modellwerkstatt.fatflow#6220831822432810257" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="B4SLZ3ucS8" role="3bR37C">
+            <node concept="3bR9La" id="B4SLZ3ucS9" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
             </node>
           </node>
         </node>
