@@ -14944,17 +14944,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFb_" id="4wvbHttaE1e" role="jymVt">
-                <property role="1EzhhJ" value="false" />
-                <property role="TrG5h" value="needsCommitSession" />
-                <node concept="10P_77" id="4wvbHttaE1f" role="3clF45" />
-                <node concept="3Tm1VV" id="4wvbHttaE1g" role="1B3o_S" />
-                <node concept="3clFbS" id="4wvbHttaE1h" role="3clF47">
-                  <node concept="3clFbF" id="4wvbHttaE1i" role="3cqZAp">
-                    <node concept="3clFbT" id="4wvbHttaE1j" role="3clFbG" />
-                  </node>
-                </node>
-              </node>
               <node concept="3clFb_" id="4XO07uzJEb0" role="jymVt">
                 <property role="1EzhhJ" value="false" />
                 <property role="TrG5h" value="getHotkeyName" />
@@ -15547,7 +15536,6 @@
                   <property role="3SKdUp" value="ok, basically the conclusion is enabled .. execute it .. " />
                 </node>
               </node>
-              <node concept="3clFbH" id="6Gy9ythOZ4H" role="3cqZAp" />
               <node concept="3cpWs8" id="6Gy9ythMxLG" role="3cqZAp">
                 <node concept="3cpWsn" id="6Gy9ythMxLH" role="3cpWs9">
                   <property role="TrG5h" value="ci" />
@@ -15557,9 +15545,6 @@
                   <node concept="2ShNRf" id="6Gy9ythMxLJ" role="33vP2m">
                     <node concept="1pGfFk" id="6Gy9ythMxLK" role="2ShVmc">
                       <ref role="37wK5l" to="28jr:6dnXV8mHmm_" resolve="OFXConclusionInformation" />
-                      <node concept="Xjq3P" id="6Gy9ythOYVT" role="37wK5m">
-                        <ref role="1HBi2w" node="5Ee0EjqZ_jz" resolve="map_Command" />
-                      </node>
                       <node concept="37vLTw" id="4$qgDG0BT0" role="37wK5m">
                         <ref role="3cqZAo" node="7MqOxzynUK3" resolve="conclusion" />
                         <node concept="1ZhdrF" id="7MqOxzynVFy" role="lGtFl">
@@ -15603,8 +15588,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="6Gy9ythOZag" role="3cqZAp" />
-              <node concept="3clFbH" id="6Gy9ythOZah" role="3cqZAp" />
               <node concept="3clFbF" id="6Gy9ythOZ7p" role="3cqZAp">
                 <node concept="2OqwBi" id="6Gy9ythOZ7Z" role="3clFbG">
                   <node concept="37vLTw" id="4$qgDG0Cxv" role="2Oq$k0">
