@@ -1036,6 +1036,12 @@
     <property role="TrG5h" value="PageConclusion" />
     <property role="1pbfSe" value="1955738407" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7qQ6PJv695N" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="label" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="1fYc781EA$j" resolve="Label" />
+    </node>
     <node concept="1TJgyi" id="1Csx3LqwlRn" role="1TKVEl">
       <property role="TrG5h" value="conclusionType" />
       <ref role="AX2Wp" node="1Csx3LqwlRj" resolve="ConclusionType" />
@@ -1043,6 +1049,7 @@
     <node concept="1TJgyi" id="4XO07uzJ7WW" role="1TKVEl">
       <property role="TrG5h" value="hotkey" />
       <ref role="AX2Wp" node="4XO07uzJ7WR" resolve="CommandHotKeys" />
+      <node concept="asaX9" id="7qQ6PJv693D" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="1Csx3Lqvlid" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3622,6 +3629,12 @@
     <property role="3GE5qa" value="OFXCore.actions" />
     <property role="TrG5h" value="ActionProviderLink" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7qQ6PJuKRsQ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="enabled" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="3nLPQZPUuMm" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="actionProvider" />
@@ -4126,10 +4139,9 @@
     <property role="3GE5qa" value="OFXCore.platform" />
     <property role="TrG5h" value="LabelSpecification" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2IDWU6Z9f1W" role="1TKVEi">
+    <node concept="1TJgyj" id="7qQ6PJuJ7x7" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="platform" />
-      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
     </node>
     <node concept="1TJgyi" id="1fYc781EADr" role="1TKVEl">
@@ -4147,6 +4159,18 @@
       <property role="20kJfa" value="icon" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7qQ6PJuIQMW">
+    <property role="1pbfSe" value="1433503767" />
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="PlatformReference" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="7qQ6PJuIQMX" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="platform" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
     </node>
   </node>
 </model>

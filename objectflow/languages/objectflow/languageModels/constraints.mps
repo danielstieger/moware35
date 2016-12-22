@@ -5484,9 +5484,33 @@
     <property role="3GE5qa" value="OFXCore.platform" />
     <ref role="1M2myG" to="un0u:2IDWU6Z9eZ_" resolve="LabelSpecification" />
     <node concept="1N5Pfh" id="2IDWU6ZcKvV" role="1Mr941">
-      <ref role="1N5Vy1" to="un0u:2IDWU6Z9f1W" />
+      <ref role="1N5Vy1" to="un0u:7qQ6PJuJ7x7" />
       <node concept="1dDu$B" id="2IDWU6ZcKwr" role="1N6uqs">
         <ref role="1dDu$A" to="un0u:2IDWU6Z30fV" resolve="Platform" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7qQ6PJuPmxn">
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <ref role="1M2myG" to="un0u:7qQ6PJuIQMW" resolve="PlatformReference" />
+    <node concept="nKS2y" id="7qQ6PJuPmxo" role="1MLUbF">
+      <node concept="3clFbS" id="7qQ6PJuPmxp" role="2VODD2">
+        <node concept="3clFbF" id="7qQ6PJuXhN1" role="3cqZAp">
+          <node concept="2OqwBi" id="7qQ6PJuXi0G" role="3clFbG">
+            <node concept="2OqwBi" id="7qQ6PJuXhOM" role="2Oq$k0">
+              <node concept="nLn13" id="7qQ6PJuXhN0" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="7qQ6PJuXhSY" role="2OqNvi">
+                <node concept="1xMEDy" id="7qQ6PJuXhT0" role="1xVPHs">
+                  <node concept="chp4Y" id="7qQ6PJuXhUC" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:3nLPQZPUuMl" resolve="ActionProviderLink" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="7qQ6PJuXhXR" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="7qQ6PJuXi7s" role="2OqNvi" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
