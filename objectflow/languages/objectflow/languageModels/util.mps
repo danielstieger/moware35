@@ -9825,5 +9825,23 @@
       <node concept="3Tm1VV" id="59ImdfaHltV" role="1B3o_S" />
     </node>
   </node>
+  <node concept="312cEu" id="3Rw9V4qyVZl">
+    <property role="TrG5h" value="PlatformLabels" />
+    <node concept="312cEg" id="3Rw9V4qyW0i" role="jymVt">
+      <property role="TrG5h" value="platform" />
+      <node concept="3Tm1VV" id="3Rw9V4qyW0y" role="1B3o_S" />
+      <node concept="3Tqbb2" id="3Rw9V4qyW0F" role="1tU5fm">
+        <ref role="ehGHo" to="un0u:2IDWU6Z30fV" resolve="Platform" />
+      </node>
+    </node>
+    <node concept="312cEg" id="3Rw9V4qyW1z" role="jymVt">
+      <property role="TrG5h" value="specs" />
+      <node concept="3Tm6S6" id="3Rw9V4qyW1$" role="1B3o_S" />
+      <node concept="3Tqbb2" id="3Rw9V4qyW1Q" role="1tU5fm">
+        <ref role="ehGHo" to="un0u:2IDWU6Z9eZ_" resolve="LabelSpecification" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="3Rw9V4qyVZm" role="1B3o_S" />
+  </node>
 </model>
 

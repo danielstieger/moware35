@@ -24,6 +24,9 @@
       <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
+        <child id="1070534760952" name="componentType" index="10Q1$1" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
       </concept>
@@ -1128,8 +1131,8 @@
       </node>
       <node concept="37vLTG" id="2DwOiMAxdUg" role="3clF46">
         <property role="TrG5h" value="conclusionInformations" />
-        <node concept="_YKpA" id="2DwOiMAxehB" role="1tU5fm">
-          <node concept="3uibUv" id="2DwOiMAxeqX" role="_ZDj9">
+        <node concept="10Q1$e" id="3Rw9V4pTvwS" role="1tU5fm">
+          <node concept="3uibUv" id="3Rw9V4pTvoo" role="10Q1$1">
             <ref role="3uigEE" to="28jr:6dnXV8mHmmz" resolve="OFXConclusionInformation" />
           </node>
         </node>

@@ -10420,9 +10420,8 @@
       </node>
       <node concept="37vLTG" id="6go2Mrsw3YP" role="3clF46">
         <property role="TrG5h" value="conclusionInformations" />
-        <node concept="3uibUv" id="6go2MrswwZC" role="1tU5fm">
-          <ref role="3uigEE" to="33ny:~List" resolve="List" />
-          <node concept="3uibUv" id="6go2Mrswx2Z" role="11_B2D">
+        <node concept="10Q1$e" id="3Rw9V4pWTpd" role="1tU5fm">
+          <node concept="3uibUv" id="3Rw9V4pWTlp" role="10Q1$1">
             <ref role="3uigEE" to="28jr:6dnXV8mHmmz" resolve="OFXConclusionInformation" />
           </node>
         </node>

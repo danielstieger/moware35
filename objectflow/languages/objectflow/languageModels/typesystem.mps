@@ -11748,16 +11748,8 @@
             <node concept="Xl_RD" id="7qQ6PJuXxb_" role="2MkJ7o">
               <property role="Xl_RC" value="Typically, the last pane should be a default pane." />
             </node>
-            <node concept="2OqwBi" id="7qQ6PJuXxYS" role="2OEOjV">
-              <node concept="2OqwBi" id="7qQ6PJuXxiZ" role="2Oq$k0">
-                <node concept="1YBJjd" id="7qQ6PJuXxgP" role="2Oq$k0">
-                  <ref role="1YBMHb" node="3nLPQZQMZu0" resolve="page" />
-                </node>
-                <node concept="3Tsc0h" id="7qQ6PJuXxxe" role="2OqNvi">
-                  <ref role="3TtcxE" to="un0u:3nLPQZPUuMQ" />
-                </node>
-              </node>
-              <node concept="1yVyf7" id="7qQ6PJuXyO3" role="2OqNvi" />
+            <node concept="1YBJjd" id="3Rw9V4qgmdG" role="2OEOjV">
+              <ref role="1YBMHb" node="3nLPQZQMZu0" resolve="page" />
             </node>
           </node>
         </node>
@@ -11787,35 +11779,8 @@
             <node concept="Xl_RD" id="7qQ6PJv5CY1" role="2MkJ7o">
               <property role="Xl_RC" value="Only one pane should be specified as default pane." />
             </node>
-            <node concept="2OqwBi" id="7qQ6PJv5DTt" role="2OEOjV">
-              <node concept="2OqwBi" id="7qQ6PJv5D1z" role="2Oq$k0">
-                <node concept="1YBJjd" id="7qQ6PJv5CZp" role="2Oq$k0">
-                  <ref role="1YBMHb" node="3nLPQZQMZu0" resolve="page" />
-                </node>
-                <node concept="3Tsc0h" id="7qQ6PJv5Drh" role="2OqNvi">
-                  <ref role="3TtcxE" to="un0u:3nLPQZPUuMQ" />
-                </node>
-              </node>
-              <node concept="1z4cxt" id="7qQ6PJv5ESH" role="2OqNvi">
-                <node concept="1bVj0M" id="7qQ6PJv5ESJ" role="23t8la">
-                  <node concept="3clFbS" id="7qQ6PJv5ESK" role="1bW5cS">
-                    <node concept="3clFbF" id="7qQ6PJv5EUT" role="3cqZAp">
-                      <node concept="2OqwBi" id="7qQ6PJv5EY0" role="3clFbG">
-                        <node concept="37vLTw" id="7qQ6PJv5EUS" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7qQ6PJv5ESL" resolve="it" />
-                        </node>
-                        <node concept="2qgKlT" id="7qQ6PJv5F2P" role="2OqNvi">
-                          <ref role="37wK5l" to="70o0:7qQ6PJuXvLj" resolve="isDefault" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Rh6nW" id="7qQ6PJv5ESL" role="1bW2Oz">
-                    <property role="TrG5h" value="it" />
-                    <node concept="2jxLKc" id="7qQ6PJv5ESM" role="1tU5fm" />
-                  </node>
-                </node>
-              </node>
+            <node concept="1YBJjd" id="3Rw9V4qgmx0" role="2OEOjV">
+              <ref role="1YBMHb" node="3nLPQZQMZu0" resolve="page" />
             </node>
           </node>
         </node>

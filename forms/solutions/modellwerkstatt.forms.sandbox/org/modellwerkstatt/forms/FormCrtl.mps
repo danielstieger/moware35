@@ -7636,17 +7636,12 @@
                                 </node>
                                 <node concept="liA8E" id="12Eg3QJOYtr" role="2OqNvi">
                                   <ref role="37wK5l" node="12Eg3QJFzp6" resolve="getHotKeyTranslation" />
-                                  <node concept="2OqwBi" id="12Eg3QJBRX2" role="37wK5m">
-                                    <node concept="2OqwBi" id="12Eg3QJBRIB" role="2Oq$k0">
-                                      <node concept="37vLTw" id="12Eg3QJBRGS" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="12Eg3QJASkZ" resolve="info" />
-                                      </node>
-                                      <node concept="2OwXpG" id="12Eg3QJBRRa" role="2OqNvi">
-                                        <ref role="2Oxat5" to="28jr:6dnXV8mHmmD" resolve="conclusion" />
-                                      </node>
+                                  <node concept="2OqwBi" id="3Rw9V4qkfdO" role="37wK5m">
+                                    <node concept="37vLTw" id="3Rw9V4qkfc3" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="12Eg3QJASkZ" resolve="info" />
                                     </node>
-                                    <node concept="liA8E" id="12Eg3QJBS6H" role="2OqNvi">
-                                      <ref role="37wK5l" to="28jr:4XO07uzJx0j" resolve="getHotkeyName" />
+                                    <node concept="2OwXpG" id="3Rw9V4qkffT" role="2OqNvi">
+                                      <ref role="2Oxat5" to="28jr:3Rw9V4pLec0" resolve="hotkey" />
                                     </node>
                                   </node>
                                 </node>
@@ -7838,13 +7833,19 @@
         </node>
         <node concept="3clFbF" id="4mX9XggwgJV" role="3cqZAp">
           <node concept="37vLTI" id="4mX9Xggwhk7" role="3clFbG">
-            <node concept="2OqwBi" id="4mX9Xggwi72" role="37vLTx">
-              <node concept="37vLTw" id="4mX9Xggwi1t" role="2Oq$k0">
-                <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+            <node concept="2OqwBi" id="3Rw9V4pTnwF" role="37vLTx">
+              <node concept="2OqwBi" id="3Rw9V4pTnlb" role="2Oq$k0">
+                <node concept="2OqwBi" id="4mX9Xggwi72" role="2Oq$k0">
+                  <node concept="37vLTw" id="4mX9Xggwi1t" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                  </node>
+                  <node concept="liA8E" id="4mX9Xggwjj1" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:6ffh1MXubTO" resolve="getCurrentPageConclusions" />
+                  </node>
+                </node>
+                <node concept="39bAoz" id="3Rw9V4pTnqO" role="2OqNvi" />
               </node>
-              <node concept="liA8E" id="4mX9Xggwjj1" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:6ffh1MXubTO" resolve="getCurrentPageConclusions" />
-              </node>
+              <node concept="ANE8D" id="3Rw9V4pTnBu" role="2OqNvi" />
             </node>
             <node concept="37vLTw" id="4mX9XggwgJT" role="37vLTJ">
               <ref role="3cqZAo" node="4mX9Xggw2_w" resolve="currentConclusionInfos" />
@@ -7983,17 +7984,12 @@
                   </node>
                   <node concept="liA8E" id="3oBdEpSV5AS" role="2OqNvi">
                     <ref role="37wK5l" node="12Eg3QJFzp6" resolve="getHotKeyTranslation" />
-                    <node concept="2OqwBi" id="3oBdEpSV5AT" role="37wK5m">
-                      <node concept="2OqwBi" id="3oBdEpSV5AU" role="2Oq$k0">
-                        <node concept="37vLTw" id="3oBdEpSV5AV" role="2Oq$k0">
-                          <ref role="3cqZAo" node="3oBdEpSV5AG" resolve="info" />
-                        </node>
-                        <node concept="2OwXpG" id="3oBdEpSV5AW" role="2OqNvi">
-                          <ref role="2Oxat5" to="28jr:6dnXV8mHmmD" resolve="conclusion" />
-                        </node>
+                    <node concept="2OqwBi" id="3Rw9V4qkfkd" role="37wK5m">
+                      <node concept="37vLTw" id="3Rw9V4qkfiw" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3oBdEpSV5AG" resolve="info" />
                       </node>
-                      <node concept="liA8E" id="3oBdEpSV5AX" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:4XO07uzJx0j" resolve="getHotkeyName" />
+                      <node concept="2OwXpG" id="3Rw9V4qkfme" role="2OqNvi">
+                        <ref role="2Oxat5" to="28jr:3Rw9V4pLec0" resolve="hotkey" />
                       </node>
                     </node>
                   </node>
@@ -8028,17 +8024,12 @@
                           </node>
                           <node concept="liA8E" id="12Eg3QJOXcg" role="2OqNvi">
                             <ref role="37wK5l" node="12Eg3QJFzp6" resolve="getHotKeyTranslation" />
-                            <node concept="2OqwBi" id="12Eg3QJM_mk" role="37wK5m">
-                              <node concept="2OqwBi" id="12Eg3QJM$nD" role="2Oq$k0">
-                                <node concept="37vLTw" id="3oBdEpSVleE" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3oBdEpSV5AG" resolve="info" />
-                                </node>
-                                <node concept="2OwXpG" id="12Eg3QJM$SK" role="2OqNvi">
-                                  <ref role="2Oxat5" to="28jr:6dnXV8mHmmD" resolve="conclusion" />
-                                </node>
+                            <node concept="2OqwBi" id="3Rw9V4qkf5F" role="37wK5m">
+                              <node concept="37vLTw" id="3Rw9V4qkf30" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3oBdEpSV5AG" resolve="info" />
                               </node>
-                              <node concept="liA8E" id="12Eg3QJM_Te" role="2OqNvi">
-                                <ref role="37wK5l" to="28jr:4XO07uzJx0j" resolve="getHotkeyName" />
+                              <node concept="2OwXpG" id="3Rw9V4qkf9s" role="2OqNvi">
+                                <ref role="2Oxat5" to="28jr:3Rw9V4pLec0" resolve="hotkey" />
                               </node>
                             </node>
                           </node>
@@ -8062,17 +8053,12 @@
                       <ref role="3cqZAo" node="yc6MyE9yj$" resolve="ensuredHotkeys" />
                     </node>
                     <node concept="TSZUe" id="yc6MyE9GCM" role="2OqNvi">
-                      <node concept="2OqwBi" id="yc6MyEdzOE" role="25WWJ7">
-                        <node concept="2OqwBi" id="yc6MyE9GIf" role="2Oq$k0">
-                          <node concept="37vLTw" id="yc6MyE9GGD" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3oBdEpSV5AG" resolve="info" />
-                          </node>
-                          <node concept="2OwXpG" id="yc6MyEdzIG" role="2OqNvi">
-                            <ref role="2Oxat5" to="28jr:6dnXV8mHmmD" resolve="conclusion" />
-                          </node>
+                      <node concept="2OqwBi" id="yc6MyE9GIf" role="25WWJ7">
+                        <node concept="37vLTw" id="yc6MyE9GGD" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3oBdEpSV5AG" resolve="info" />
                         </node>
-                        <node concept="liA8E" id="yc6MyEdzXJ" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:4XO07uzJx0j" resolve="getHotkeyName" />
+                        <node concept="2OwXpG" id="3Rw9V4qkdlK" role="2OqNvi">
+                          <ref role="2Oxat5" to="28jr:3Rw9V4pLec0" resolve="hotkey" />
                         </node>
                       </node>
                     </node>

@@ -184,6 +184,18 @@
         <child id="4678401045862675827" name="msg" index="27Af65" />
       </concept>
       <concept id="8301412231057225617" name="org.modellwerkstatt.objectflow.structure.OFXTestStatementList" flags="ig" index="2d2NRx" />
+      <concept id="1440642197017487130" name="org.modellwerkstatt.objectflow.structure.StaticRessources" flags="ng" index="il5tC">
+        <child id="3146313690717155086" name="labels" index="2kzhMJ" />
+        <child id="3146313690715522546" name="platforms" index="2kDvpj" />
+      </concept>
+      <concept id="1440642197017487635" name="org.modellwerkstatt.objectflow.structure.Label" flags="ng" index="il5_x">
+        <child id="3146313690717155575" name="specification" index="2kzgdm" />
+      </concept>
+      <concept id="3146313690717155301" name="org.modellwerkstatt.objectflow.structure.LabelSpecification" flags="ng" index="2kzhL4">
+        <property id="1440642197017487963" name="hotkey" index="il5CD" />
+        <child id="1440642197017487671" name="text" index="il5_5" />
+      </concept>
+      <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.Platform" flags="ng" index="2kDv1q" />
       <concept id="2423238041810352109" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDefaultDateTimeOption" flags="ng" index="xWan4">
         <property id="2423238041810352537" name="second" index="xWaIK" />
         <property id="2423238041810352536" name="minute" index="xWaIL" />
@@ -226,6 +238,7 @@
       <concept id="1881524139084590827" name="org.modellwerkstatt.objectflow.structure.PageConclusion" flags="ng" index="10qiFn">
         <property id="1881524139085356503" name="conclusionType" index="10BtBF" />
         <property id="5725201540142890812" name="hotkey" index="3GM7Xb" />
+        <reference id="8554054623635738995" name="label" index="2DFCCC" />
         <child id="1881524139085091981" name="function" index="10ot2L" />
         <child id="7158462476985919208" name="enabledWhen" index="1PSD5q" />
       </concept>
@@ -882,6 +895,7 @@
         <property role="TrG5h" value="Save &amp; Close" />
         <property role="10BtBF" value="SAVE_CONCLUSION" />
         <property role="3GM7Xb" value="SAVE" />
+        <ref role="2DFCCC" node="3Rw9V4qhf8H" resolve="SaveClose" />
         <node concept="20qIzx" id="5MCXLSnMhKX" role="10ot2L">
           <node concept="3clFbS" id="5MCXLSnMhKY" role="2VODD2">
             <node concept="3clFbH" id="26QcchVZIjs" role="3cqZAp" />
@@ -1535,6 +1549,7 @@
       <node concept="10qiFn" id="5MCXLSnMi9m" role="10qiF9">
         <property role="TrG5h" value="Save" />
         <property role="3GM7Xb" value="SAVE" />
+        <ref role="2DFCCC" node="3Rw9V4qhf8K" resolve="Save" />
         <node concept="20qIzx" id="5MCXLSnMi9U" role="10ot2L">
           <node concept="3clFbS" id="5MCXLSnMi9V" role="2VODD2">
             <node concept="10Adxh" id="248r5L2vaSD" role="3cqZAp">
@@ -3617,6 +3632,7 @@
       <ref role="3gcvY6" to="goi:612_n8HbChx" resolve="InvoicePosition" />
       <node concept="10qiFn" id="5yIRyBHtE0q" role="10qiF9">
         <property role="TrG5h" value="CONCLUDE_1" />
+        <ref role="2DFCCC" node="3Rw9V4qhf8N" resolve="CONCLUDE_1" />
         <node concept="20qIzx" id="5yIRyBHtE1b" role="10ot2L">
           <node concept="3clFbS" id="5yIRyBHtE1c" role="2VODD2">
             <node concept="3clFbF" id="7pudXbEHzYV" role="3cqZAp">
@@ -3809,6 +3825,7 @@
       </node>
       <node concept="10qiFn" id="7pudXbEH$$5" role="10qiF9">
         <property role="TrG5h" value="CONCLUDE_2" />
+        <ref role="2DFCCC" node="3Rw9V4qhf8Q" resolve="CONCLUDE_2" />
         <node concept="20qIzx" id="7pudXbEH$$6" role="10ot2L">
           <node concept="3clFbS" id="7pudXbEH$$7" role="2VODD2">
             <node concept="3clFbF" id="7pudXbEH$$8" role="3cqZAp">
@@ -4076,6 +4093,7 @@
       <ref role="3gcvY6" to="goi:612_n8HbChx" resolve="InvoicePosition" />
       <node concept="10qiFn" id="7pudXbEK2ly" role="10qiF9">
         <property role="TrG5h" value="CONCLUDE_2" />
+        <ref role="2DFCCC" node="3Rw9V4qhf8Q" resolve="CONCLUDE_2" />
         <node concept="20qIzx" id="7pudXbEK2lz" role="10ot2L">
           <node concept="3clFbS" id="7pudXbEK2l$" role="2VODD2">
             <node concept="3clFbF" id="7pudXbEK2l_" role="3cqZAp">
@@ -7915,6 +7933,46 @@
     </node>
     <node concept="1DZZI9" id="6Irl3jv9mOl" role="38MLOi">
       <ref role="1DZZIc" to="goi:2i3o0hdVwMp" resolve="Creators" />
+    </node>
+  </node>
+  <node concept="il5tC" id="3Rw9V4qhf8E">
+    <property role="TrG5h" value="OFLables" />
+    <node concept="2kDv1q" id="3Rw9V4qhf8F" role="2kDvpj">
+      <property role="TrG5h" value="Standard" />
+    </node>
+    <node concept="il5_x" id="3Rw9V4qhf8H" role="2kzhMJ">
+      <property role="TrG5h" value="SaveClose" />
+      <node concept="2kzhL4" id="3Rw9V4qhf8I" role="2kzgdm">
+        <property role="il5CD" value="F2_113" />
+        <node concept="Xl_RD" id="3Rw9V4qhf8J" role="il5_5">
+          <property role="Xl_RC" value="Save &amp; Close" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="3Rw9V4qhf8K" role="2kzhMJ">
+      <property role="TrG5h" value="Save" />
+      <node concept="2kzhL4" id="3Rw9V4qhf8L" role="2kzgdm">
+        <property role="il5CD" value="F2_113" />
+        <node concept="Xl_RD" id="3Rw9V4qhf8M" role="il5_5">
+          <property role="Xl_RC" value="Save" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="3Rw9V4qhf8N" role="2kzhMJ">
+      <property role="TrG5h" value="CONCLUDE_1" />
+      <node concept="2kzhL4" id="3Rw9V4qhf8O" role="2kzgdm">
+        <node concept="Xl_RD" id="3Rw9V4qhf8P" role="il5_5">
+          <property role="Xl_RC" value="CONCLUDE_1" />
+        </node>
+      </node>
+    </node>
+    <node concept="il5_x" id="3Rw9V4qhf8Q" role="2kzhMJ">
+      <property role="TrG5h" value="CONCLUDE_2" />
+      <node concept="2kzhL4" id="3Rw9V4qhf8R" role="2kzgdm">
+        <node concept="Xl_RD" id="3Rw9V4qhf8S" role="il5_5">
+          <property role="Xl_RC" value="CONCLUDE_2" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
