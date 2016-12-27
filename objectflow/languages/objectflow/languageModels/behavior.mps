@@ -16603,10 +16603,11 @@
     </node>
     <node concept="13i0hz" id="3Rw9V4qy3PM" role="13h7CS">
       <property role="TrG5h" value="getPlatformLabels" />
+      <property role="2Ki8OM" value="true" />
       <node concept="37vLTG" id="70frhRZdUNS" role="3clF46">
-        <property role="TrG5h" value="conclusions" />
-        <node concept="2I9FWS" id="70frhRZdUNY" role="1tU5fm">
-          <ref role="2I9WkF" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
+        <property role="TrG5h" value="currentPlatform" />
+        <node concept="3Tqbb2" id="7RdrtrDHG6f" role="1tU5fm">
+          <ref role="ehGHo" to="un0u:2IDWU6Z30fV" resolve="Platform" />
         </node>
       </node>
       <node concept="3Tm1VV" id="3Rw9V4qy3PN" role="1B3o_S" />
@@ -16633,6 +16634,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="7RdrtrDHGE6" role="3cqZAp" />
         <node concept="3clFbF" id="70frhRZdUOa" role="3cqZAp">
           <node concept="2OqwBi" id="70frhRZdVds" role="3clFbG">
             <node concept="BsUDl" id="70frhRZdUO9" role="2Oq$k0">
@@ -16660,7 +16662,7 @@
                   <node concept="3clFbF" id="70frhRZdYdy" role="3cqZAp">
                     <node concept="2OqwBi" id="70frhRZdYL0" role="3clFbG">
                       <node concept="37vLTw" id="70frhRZdYdw" role="2Oq$k0">
-                        <ref role="3cqZAo" node="70frhRZdUNS" resolve="conclusions" />
+                        <ref role="3cqZAo" node="70frhRZdUNS" resolve="currentPlatform" />
                       </node>
                       <node concept="2es0OD" id="70frhRZdZZW" role="2OqNvi">
                         <node concept="1bVj0M" id="70frhRZdZZY" role="23t8la">
@@ -16700,6 +16702,7 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="7RdrtrDHGRO" role="3cqZAp" />
                 </node>
                 <node concept="Rh6nW" id="70frhRZdW8O" role="1bW2Oz">
                   <property role="TrG5h" value="it" />
@@ -16709,6 +16712,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="7RdrtrDHGKm" role="3cqZAp" />
         <node concept="3clFbF" id="70frhRZdWkn" role="3cqZAp">
           <node concept="37vLTw" id="70frhRZdWkl" role="3clFbG">
             <ref role="3cqZAo" node="70frhRZdWcX" resolve="pfl" />
