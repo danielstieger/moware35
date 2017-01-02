@@ -7831,25 +7831,22 @@
             <property role="3SKdUp" value="current page is already determined when calling this method" />
           </node>
         </node>
+        <node concept="3SKdUt" id="7MWNCzY4_ID" role="3cqZAp">
+          <node concept="3SKdUq" id="7MWNCzY4_IF" role="3SKWNk">
+            <property role="3SKdUp" value=" formerly, this was: command.getCurrentPageConclusions().asSequence.toList" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7MWNCzY4D9x" role="3cqZAp">
+          <node concept="3SKdUq" id="7MWNCzY4D9z" role="3SKWNk">
+            <property role="3SKdUp" value="now it s null :)" />
+          </node>
+        </node>
         <node concept="3clFbF" id="4mX9XggwgJV" role="3cqZAp">
           <node concept="37vLTI" id="4mX9Xggwhk7" role="3clFbG">
-            <node concept="2OqwBi" id="3Rw9V4pTnwF" role="37vLTx">
-              <node concept="2OqwBi" id="3Rw9V4pTnlb" role="2Oq$k0">
-                <node concept="2OqwBi" id="4mX9Xggwi72" role="2Oq$k0">
-                  <node concept="37vLTw" id="4mX9Xggwi1t" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                  </node>
-                  <node concept="liA8E" id="4mX9Xggwjj1" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:6ffh1MXubTO" resolve="getCurrentPageConclusions" />
-                  </node>
-                </node>
-                <node concept="39bAoz" id="3Rw9V4pTnqO" role="2OqNvi" />
-              </node>
-              <node concept="ANE8D" id="3Rw9V4pTnBu" role="2OqNvi" />
-            </node>
             <node concept="37vLTw" id="4mX9XggwgJT" role="37vLTJ">
               <ref role="3cqZAo" node="4mX9Xggw2_w" resolve="currentConclusionInfos" />
             </node>
+            <node concept="10Nm6u" id="7MWNCzY4BsU" role="37vLTx" />
           </node>
         </node>
         <node concept="3cpWs8" id="2DwOiMAxMG1" role="3cqZAp">

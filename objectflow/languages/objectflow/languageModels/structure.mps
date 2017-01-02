@@ -1567,7 +1567,6 @@
     <node concept="PrWs8" id="4H7K4Wq6tCR" role="PzmwI">
       <ref role="PrY4T" node="4H7K4Wq6tCQ" resolve="IHandlesSession" />
     </node>
-    <node concept="asaX9" id="26QcchVSBLt" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6W_Qo9eYrYE">
     <property role="3GE5qa" value="BusinessObject" />
@@ -3981,7 +3980,11 @@
     </node>
     <node concept="M4N5e" id="7qQ6PJwv4Q2" role="M5hS2">
       <property role="1uS6qo" value="INSERT" />
-      <property role="1uS6qv" value="INSERT_FFF" />
+      <property role="1uS6qv" value="INSERT_FF0" />
+    </node>
+    <node concept="M4N5e" id="7MWNCzXNDQp" role="M5hS2">
+      <property role="1uS6qv" value="SCAN_FF1" />
+      <property role="1uS6qo" value="SCAN" />
     </node>
     <node concept="M4N5e" id="1hImSMr5NTE" role="M5hS2">
       <property role="1uS6qo" value="?" />
@@ -4119,8 +4122,8 @@
     <property role="3GE5qa" value="OFXCore.platform" />
     <property role="TrG5h" value="Label" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1fYc781EAE9" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="7MWNCzYuiKc" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
     <node concept="1TJgyj" id="2IDWU6Z9f3R" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -4134,8 +4137,12 @@
     <property role="3GE5qa" value="OFXCore.platform" />
     <property role="TrG5h" value="Platform" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2IDWU6Z30go" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="7MWNCzXOAva" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+    <node concept="1TJgyi" id="7MWNCzXYkt9" role="1TKVEl">
+      <property role="TrG5h" value="logOption" />
+      <ref role="AX2Wp" node="7MWNCzXSMan" resolve="PlatformLoggingOption" />
     </node>
   </node>
   <node concept="1TIwiD" id="2IDWU6Z9eZ_">
@@ -4162,7 +4169,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="icon" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
     </node>
   </node>
   <node concept="1TIwiD" id="7qQ6PJuIQMW">
@@ -4175,6 +4182,19 @@
       <property role="20kJfa" value="platform" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="7MWNCzXSMan">
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="PlatformLoggingOption" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="7MWNCzXSMao" role="M5hS2">
+      <property role="1uS6qv" value="EXCPT_ON_SCREEN" />
+      <property role="1uS6qo" value="EXCPT_ON_SCREEN" />
+    </node>
+    <node concept="M4N5e" id="7MWNCzXSMdM" role="M5hS2">
+      <property role="1uS6qv" value="SILENT_LOG" />
+      <property role="1uS6qo" value="SILENT_LOG" />
     </node>
   </node>
 </model>

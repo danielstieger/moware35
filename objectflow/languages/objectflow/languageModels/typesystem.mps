@@ -11012,30 +11012,34 @@
     <property role="TrG5h" value="check_CommandCreationInfo" />
     <property role="3GE5qa" value="OFXCore.command" />
     <node concept="3clFbS" id="43H1fr7wQNi" role="18ibNy">
-      <node concept="3clFbJ" id="43H1fr7FRtT" role="3cqZAp">
-        <node concept="3clFbS" id="43H1fr7FRtV" role="3clFbx">
-          <node concept="a7r0C" id="43H1fr7FSrI" role="3cqZAp">
-            <node concept="Xl_RD" id="43H1fr7FSyo" role="a7wSD">
-              <property role="Xl_RC" value="Typically, a multi string instance is used here (e.g. 'Invoice %d created' % invoice.id)." />
-            </node>
-            <node concept="1YBJjd" id="43H1fr7FSEm" role="2OEOjV">
-              <ref role="1YBMHb" node="43H1fr7wQNk" resolve="commandCreationInfo" />
-            </node>
-          </node>
-        </node>
-        <node concept="3fqX7Q" id="43H1fr7FScf" role="3clFbw">
-          <node concept="2OqwBi" id="43H1fr7FSch" role="3fr31v">
-            <node concept="2OqwBi" id="43H1fr7FSci" role="2Oq$k0">
-              <node concept="1YBJjd" id="43H1fr7FScj" role="2Oq$k0">
+      <node concept="1X3_iC" id="7MWNCzX1Djh" role="lGtFl">
+        <property role="3V$3am" value="statement" />
+        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+        <node concept="3clFbJ" id="43H1fr7FRtT" role="8Wnug">
+          <node concept="3clFbS" id="43H1fr7FRtV" role="3clFbx">
+            <node concept="a7r0C" id="43H1fr7FSrI" role="3cqZAp">
+              <node concept="Xl_RD" id="43H1fr7FSyo" role="a7wSD">
+                <property role="Xl_RC" value="Typically, a multi string instance is used here (e.g. 'Invoice %d created' % invoice.id)." />
+              </node>
+              <node concept="1YBJjd" id="43H1fr7FSEm" role="2OEOjV">
                 <ref role="1YBMHb" node="43H1fr7wQNk" resolve="commandCreationInfo" />
               </node>
-              <node concept="3TrEf2" id="43H1fr7FSck" role="2OqNvi">
-                <ref role="3Tt5mk" to="un0u:43H1fr7tvlN" />
-              </node>
             </node>
-            <node concept="1mIQ4w" id="43H1fr7FScl" role="2OqNvi">
-              <node concept="chp4Y" id="43H1fr7FScm" role="cj9EA">
-                <ref role="cht4Q" to="un0u:371pDBOmHha" resolve="MultiString" />
+          </node>
+          <node concept="3fqX7Q" id="43H1fr7FScf" role="3clFbw">
+            <node concept="2OqwBi" id="43H1fr7FSch" role="3fr31v">
+              <node concept="2OqwBi" id="43H1fr7FSci" role="2Oq$k0">
+                <node concept="1YBJjd" id="43H1fr7FScj" role="2Oq$k0">
+                  <ref role="1YBMHb" node="43H1fr7wQNk" resolve="commandCreationInfo" />
+                </node>
+                <node concept="3TrEf2" id="43H1fr7FSck" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:43H1fr7tvlN" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="43H1fr7FScl" role="2OqNvi">
+                <node concept="chp4Y" id="43H1fr7FScm" role="cj9EA">
+                  <ref role="cht4Q" to="un0u:371pDBOmHha" resolve="MultiString" />
+                </node>
               </node>
             </node>
           </node>

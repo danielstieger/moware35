@@ -6451,6 +6451,7 @@
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
+    <node concept="2tJIrI" id="7MWNCzYbD9$" role="jymVt" />
     <node concept="312cEg" id="7RHNXGyQGcv" role="jymVt">
       <property role="TrG5h" value="hotkeyTranslator" />
       <node concept="3Tm6S6" id="7RHNXGyQGcw" role="1B3o_S" />
@@ -6461,6 +6462,17 @@
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
+    <node concept="312cEg" id="7MWNCzYbxJB" role="jymVt">
+      <property role="TrG5h" value="platform" />
+      <node concept="3Tm6S6" id="7MWNCzYbxJC" role="1B3o_S" />
+      <node concept="3uibUv" id="7MWNCzYbydy" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:7MWNCzY1Tjr" resolve="IOFXPlatform" />
+      </node>
+      <node concept="2AHcQZ" id="7MWNCzYbxJE" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7MWNCzYbB22" role="jymVt" />
     <node concept="312cEg" id="7RHNXGyQGcz" role="jymVt">
       <property role="TrG5h" value="lockService" />
       <node concept="3Tm6S6" id="7RHNXGyQGc$" role="1B3o_S" />
@@ -6679,7 +6691,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6LR$_E0dJmC" role="jymVt" />
-    <node concept="2tJIrI" id="7iXVPHaYwa1" role="jymVt" />
     <node concept="3clFb_" id="6rMtHgbBVHt" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getPageProvider" />
@@ -6691,6 +6702,23 @@
         <node concept="3clFbF" id="6rMtHgbBVRU" role="3cqZAp">
           <node concept="37vLTw" id="6rMtHgbBVRS" role="3clFbG">
             <ref role="3cqZAo" node="7RHNXGyQGcI" resolve="htmlPage" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7MWNCzYbE_g" role="jymVt" />
+    <node concept="3clFb_" id="7MWNCzYbwV9" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getPlatform" />
+      <node concept="3Tm1VV" id="7MWNCzYbwVb" role="1B3o_S" />
+      <node concept="3uibUv" id="7MWNCzYbwVc" role="3clF45">
+        <ref role="3uigEE" to="28jr:7MWNCzY1Tjr" resolve="IOFXPlatform" />
+      </node>
+      <node concept="3clFbS" id="7MWNCzYbwVe" role="3clF47">
+        <node concept="3clFbF" id="7MWNCzYb$tU" role="3cqZAp">
+          <node concept="37vLTw" id="7MWNCzYb$tT" role="3clFbG">
+            <ref role="3cqZAo" node="7MWNCzYbxJB" resolve="platform" />
           </node>
         </node>
       </node>
@@ -6980,31 +7008,6 @@
               <ref role="37wK5l" to="ache:20ohnkbA2gB" resolve="t" />
               <node concept="37vLTw" id="7RHNXGyQGfq" role="37wK5m">
                 <ref role="3cqZAo" node="7RHNXGyQGfh" resolve="key" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="7RHNXGyQGfr" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getHotKeyTranslation" />
-      <node concept="37vLTG" id="7RHNXGyQGfs" role="3clF46">
-        <property role="TrG5h" value="systemHotkeyDesc" />
-        <node concept="17QB3L" id="7RHNXGyQGft" role="1tU5fm" />
-      </node>
-      <node concept="17QB3L" id="7RHNXGyQGfu" role="3clF45" />
-      <node concept="3Tm1VV" id="7RHNXGyQGfv" role="1B3o_S" />
-      <node concept="3clFbS" id="7RHNXGyQGfw" role="3clF47">
-        <node concept="3clFbF" id="7RHNXGyQGfx" role="3cqZAp">
-          <node concept="2OqwBi" id="7RHNXGyQGfy" role="3clFbG">
-            <node concept="37vLTw" id="7RHNXGyQGfz" role="2Oq$k0">
-              <ref role="3cqZAo" node="7RHNXGyQGcv" resolve="hotkeyTranslator" />
-            </node>
-            <node concept="liA8E" id="7RHNXGyQGf$" role="2OqNvi">
-              <ref role="37wK5l" to="250q:12Eg3QJE33Q" resolve="translate" />
-              <node concept="37vLTw" id="7RHNXGyQGf_" role="37wK5m">
-                <ref role="3cqZAo" node="7RHNXGyQGfs" resolve="systemHotkeyDesc" />
               </node>
             </node>
           </node>
