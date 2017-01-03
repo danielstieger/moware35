@@ -14,8 +14,10 @@
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="25x5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.text(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -29,6 +31,15 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -163,6 +174,7 @@
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
@@ -171,6 +183,12 @@
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
       <concept id="6525155817176738379" name="org.modellwerkstatt.objectflow.structure.PageInitConceptFunc" flags="ig" index="20qEzJ" />
       <concept id="6525155817176754757" name="org.modellwerkstatt.objectflow.structure.VoidStatementList" flags="ig" index="20qIzx" />
+      <concept id="7633836622691813894" name="org.modellwerkstatt.objectflow.structure.IsVariant" flags="ng" index="16hZK">
+        <property id="7633836622692572865" name="variant" index="11oGR" />
+      </concept>
+      <concept id="7633836622691047726" name="org.modellwerkstatt.objectflow.structure.IsPlatform" flags="ng" index="1bGNo">
+        <reference id="7633836622691047972" name="platform" index="1bGZi" />
+      </concept>
       <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
         <reference id="7926373352206300596" name="runtimeHandledObject" index="1ods_" />
         <child id="3262649880243657037" name="sessionExpression" index="2f8TIa" />
@@ -195,7 +213,9 @@
         <property id="1440642197017487963" name="hotkey" index="il5CD" />
         <child id="1440642197017487671" name="text" index="il5_5" />
       </concept>
-      <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.Platform" flags="ng" index="2kDv1q" />
+      <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.Platform" flags="ng" index="2kDv1q">
+        <child id="7604036740764640824" name="variantDeclarations" index="3hNl4o" />
+      </concept>
       <concept id="2423238041810352109" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDefaultDateTimeOption" flags="ng" index="xWan4">
         <property id="2423238041810352537" name="second" index="xWaIK" />
         <property id="2423238041810352536" name="minute" index="xWaIL" />
@@ -203,6 +223,9 @@
         <property id="2423238041810352532" name="year" index="xWaIX" />
         <property id="2423238041810352535" name="hour" index="xWaIY" />
         <property id="2423238041810352534" name="day" index="xWaIZ" />
+      </concept>
+      <concept id="4338511869696968148" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDependentOption" flags="ng" index="zbZxr">
+        <reference id="4338511869696968277" name="test" index="zbZJq" />
       </concept>
       <concept id="3875131616718797794" name="org.modellwerkstatt.objectflow.structure.OFXCommandTestMethod" flags="ng" index="2_FS1e">
         <child id="3875131616719594980" name="commandCall" index="2_GXT8" />
@@ -220,7 +243,12 @@
       <concept id="478945708907022307" name="org.modellwerkstatt.objectflow.structure.OFXConfigInclude" flags="ng" index="2CJ4_Q">
         <reference id="478945708907022310" name="element" index="2CJ4_N" />
       </concept>
+      <concept id="478945708907003617" name="org.modellwerkstatt.objectflow.structure.OFXConfigConstructorArg" flags="ng" index="2CJf1O">
+        <child id="478945708935709196" name="value" index="2DqwMp" />
+        <child id="478945708935709194" name="type" index="2DqwMv" />
+      </concept>
       <concept id="478945708907003466" name="org.modellwerkstatt.objectflow.structure.OFXConfigInstance" flags="ng" index="2CJf3v">
+        <child id="478945708907022272" name="elements" index="2CJ4_l" />
         <child id="478945708907003567" name="className" index="2CJf0U" />
       </concept>
       <concept id="478945708906907667" name="org.modellwerkstatt.objectflow.structure.OFXConfigSection" flags="ng" index="2CJoq6">
@@ -272,6 +300,11 @@
       </concept>
       <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
         <child id="2884851879187602662" name="expression" index="38$l6p" />
+      </concept>
+      <concept id="3179794825395091428" name="org.modellwerkstatt.objectflow.structure.OFXTestNewSessionExpression" flags="ng" index="3er55J" />
+      <concept id="7604036740764640594" name="org.modellwerkstatt.objectflow.structure.VariantDeclaration" flags="ng" index="3hNl9M">
+        <property id="8988286044096513865" name="logOption" index="21hoB1" />
+        <property id="7604036740764640651" name="variant" index="3hNlaF" />
       </concept>
       <concept id="271985905034983108" name="org.modellwerkstatt.objectflow.structure.DezimalLiteral" flags="ng" index="1mgVXT">
         <property id="271985905034983109" name="value" index="1mgVXS" />
@@ -380,6 +413,9 @@
     <node concept="10xUwW" id="5MCXLSnMhBd" role="10HVpa">
       <ref role="10x$tN" node="5MCXLSnMhvZ" resolve="Checkout Invoice" />
     </node>
+    <node concept="10xUwW" id="6BKPvpE4PiE" role="10HVpa">
+      <ref role="10x$tN" node="6BKPvpE4eH1" resolve="Check Platform and Variant" />
+    </node>
     <node concept="10xgET" id="5MCXLSnMhvQ" role="10xgEU">
       <ref role="10xgEu" to="goi:612_n8Hc$sv" resolve="default" />
       <node concept="10xUwW" id="5MCXLSnMhB5" role="10x$tn">
@@ -426,6 +462,7 @@
   <node concept="2EH5hC" id="Joc9_LZQMg">
     <property role="TrG5h" value="SimpleService" />
     <node concept="2tJIrI" id="6_VKg6llf6Q" role="jymVt" />
+    <node concept="2tJIrI" id="6BKPvpDdBfo" role="jymVt" />
     <node concept="3clFb_" id="6_VKg6llf7d" role="jymVt">
       <property role="TrG5h" value="serviceCallFromWizzard" />
       <node concept="37vLTG" id="6_VKg6llf8N" role="3clF46">
@@ -850,6 +887,7 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5zF9hZsF5QV" role="jymVt" />
+    <node concept="2tJIrI" id="6BKPvpDdB43" role="jymVt" />
     <node concept="3Tm1VV" id="Joc9_LZQMh" role="1B3o_S" />
   </node>
   <node concept="3ugp7m" id="5MCXLSnMhvZ">
@@ -1470,6 +1508,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6BKPvpCY8GQ" role="3cqZAp" />
       </node>
     </node>
     <node concept="20qIzx" id="MdwaqkF905" role="10_T4l">
@@ -1663,6 +1702,21 @@
   <node concept="2WPaUQ" id="5MCXLSnMi3q">
     <property role="TrG5h" value="Test Commands" />
     <ref role="2WPtWl" node="5MCXLSo4_z9" resolve="MPreisOFXTests" />
+    <node concept="3yPF9F" id="6BKPvpE4xY$" role="3yMuLx">
+      <property role="TrG5h" value="Create CommandVariantInfo" />
+      <node concept="3uibUv" id="6BKPvpE4y9N" role="3clF45">
+        <ref role="3uigEE" node="6BKPvpE4x$H" resolve="CommandVariantInfo" />
+      </node>
+      <node concept="3clFbS" id="6BKPvpE4xYC" role="3clF47">
+        <node concept="3cpWs6" id="6BKPvpE4yax" role="3cqZAp">
+          <node concept="2ShNRf" id="6BKPvpE4yaG" role="3cqZAk">
+            <node concept="HV5vD" id="6BKPvpE4ziK" role="2ShVmc">
+              <ref role="HV5vE" node="6BKPvpE4x$H" resolve="CommandVariantInfo" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3yPF9F" id="26QcchVS_6L" role="3yMuLx">
       <property role="TrG5h" value="Graph owner should do" />
       <node concept="37vLTG" id="26QcchVSAsc" role="3clF46">
@@ -2502,6 +2556,9 @@
     <node concept="1DF_5m" id="26QcchVZyX8" role="3yMuLx" />
     <node concept="1DZZI9" id="5MCXLSnMjIB" role="38MLOi">
       <ref role="1DZZIc" to="goi:2i3o0hdVwMp" resolve="Creators" />
+    </node>
+    <node concept="zbZxr" id="6BKPvpE4yaj" role="38MLOi">
+      <ref role="zbZJq" node="6BKPvpE4xY$" resolve="Create CommandVariantInfo" />
     </node>
     <node concept="2Oh1co" id="6Hh99C_m7ZI" role="3yMuLx">
       <property role="TrG5h" value="Edit Invoice Position by posnumber" />
@@ -3502,13 +3559,108 @@
         </node>
       </node>
     </node>
+    <node concept="2Ovgq9" id="6BKPvpE4gnx" role="3yMuLx">
+      <property role="TrG5h" value="Check Variant Handling in Command - running on SUGAR." />
+      <node concept="3yABqi" id="6BKPvpE4zj2" role="3yGA3Q">
+        <property role="TrG5h" value="info" />
+        <ref role="37wK5l" node="6BKPvpE4xY$" resolve="Create CommandVariantInfo" />
+      </node>
+      <node concept="2_HltQ" id="6BKPvpE4gnz" role="2_GXT8">
+        <ref role="2_Hrwf" node="Joc9_LZQLM" resolve="Invoice Process" />
+        <ref role="2_Hrw8" node="6BKPvpE4eH1" resolve="Check Platform and Variant" />
+        <node concept="10Nm6u" id="6BKPvpE4gzv" role="2_HrWp" />
+        <node concept="3zkua3" id="6BKPvpE4zj9" role="2_HrWp">
+          <ref role="3zku8S" node="6BKPvpE4zj2" resolve="info" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6BKPvpE4gyH" role="3clF45" />
+      <node concept="3clFbS" id="6BKPvpE4gnB" role="3clF47">
+        <node concept="1gVbGN" id="6BKPvpE4zs5" role="3cqZAp">
+          <node concept="3clFbC" id="6BKPvpE4zs6" role="1gVkn0">
+            <node concept="3clFbT" id="6BKPvpE4zs7" role="3uHU7w">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="6BKPvpE4zs8" role="3uHU7B">
+              <node concept="3zkua3" id="6BKPvpE4zs9" role="2Oq$k0">
+                <ref role="3zku8S" node="6BKPvpE4zj2" resolve="info" />
+              </node>
+              <node concept="2OwXpG" id="6BKPvpE6dyc" role="2OqNvi">
+                <ref role="2Oxat5" node="6BKPvpE4xBC" resolve="isPlatform1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="6BKPvpE4ztN" role="3cqZAp">
+          <node concept="3clFbC" id="6BKPvpE4ztO" role="1gVkn0">
+            <node concept="3clFbT" id="6BKPvpE4zy8" role="3uHU7w">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="2OqwBi" id="6BKPvpE4ztQ" role="3uHU7B">
+              <node concept="3zkua3" id="6BKPvpE4ztR" role="2Oq$k0">
+                <ref role="3zku8S" node="6BKPvpE4zj2" resolve="info" />
+              </node>
+              <node concept="2OwXpG" id="6BKPvpE6dzh" role="2OqNvi">
+                <ref role="2Oxat5" node="6BKPvpE4xBQ" resolve="isPlatform2" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpE6ujF" role="3cqZAp" />
+        <node concept="1gVbGN" id="6BKPvpE4zo1" role="3cqZAp">
+          <node concept="3clFbC" id="6BKPvpE4zo2" role="1gVkn0">
+            <node concept="3clFbT" id="6BKPvpE4zo3" role="3uHU7w">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="6BKPvpE4zo4" role="3uHU7B">
+              <node concept="3zkua3" id="6BKPvpE4zo5" role="2Oq$k0">
+                <ref role="3zku8S" node="6BKPvpE4zj2" resolve="info" />
+              </node>
+              <node concept="2OwXpG" id="6BKPvpE6dx7" role="2OqNvi">
+                <ref role="2Oxat5" node="6BKPvpE4xBt" resolve="isSugar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="6BKPvpE4zjm" role="3cqZAp">
+          <node concept="3clFbC" id="6BKPvpE4zn9" role="1gVkn0">
+            <node concept="3clFbT" id="6BKPvpE4znk" role="3uHU7w">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="2OqwBi" id="6BKPvpE4zkh" role="3uHU7B">
+              <node concept="3zkua3" id="6BKPvpE4zjF" role="2Oq$k0">
+                <ref role="3zku8S" node="6BKPvpE4zj2" resolve="info" />
+              </node>
+              <node concept="2OwXpG" id="6BKPvpE6dw2" role="2OqNvi">
+                <ref role="2Oxat5" node="6BKPvpE4xAH" resolve="isBaby" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpE6ua_" role="3cqZAp" />
+        <node concept="3clFbH" id="6BKPvpE4zqS" role="3cqZAp" />
+      </node>
+    </node>
   </node>
   <node concept="2CG7Z0" id="5MCXLSo4_z9">
     <property role="TrG5h" value="MPreisOFXTests" />
-    <property role="2320hu" value="2016-09-13T09:51:12.759+02:00" />
+    <property role="2320hu" value="2017-01-03T16:35:26.585+01:00" />
     <node concept="2CPvp3" id="5MCXLSo6ndK" role="2CGBMS" />
+    <node concept="2CJf3v" id="6BKPvpDTdkj" role="2CGBMS">
+      <property role="TrG5h" value="currentPlatform" />
+      <node concept="Xl_RD" id="6BKPvpDTdkl" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.ExtendedStandards_Platform_1" />
+      </node>
+      <node concept="2CJf1O" id="6BKPvpDTdkx" role="2CJ4_l">
+        <node concept="Xl_RD" id="6BKPvpDTdky" role="2DqwMp">
+          <property role="Xl_RC" value="SUGAR" />
+        </node>
+        <node concept="Xl_RD" id="6BKPvpDTdkC" role="2DqwMv">
+          <property role="Xl_RC" value="0" />
+        </node>
+      </node>
+    </node>
     <node concept="2CJ4_Q" id="5MCXLSo6ndP" role="2CGBMS">
-      <ref role="2CJ4_N" to="goi:5MCXLSo4_Bs" resolve="TetsSuitBasics" />
+      <ref role="2CJ4_N" to="goi:5MCXLSo4_Bs" resolve="ManMapTestSuitBasics" />
     </node>
     <node concept="2CJf3v" id="5zF9hZsEnqh" role="2CGBMS">
       <property role="TrG5h" value="stringFormatter" />
@@ -3516,96 +3668,101 @@
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXStringFormatter" />
       </node>
     </node>
-    <node concept="2CPvp3" id="5zF9hZsEnpG" role="2CGBMS" />
     <node concept="2CJoq6" id="5MCXLSo6ndT" role="2CGBMS">
       <property role="TrG5h" value="AUTO_CALC" />
-      <node concept="2CJf3v" id="5zF9hZsDQwD" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWr" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoice" />
-        <node concept="Xl_RD" id="5zF9hZsDQwE" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWs" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwF" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWt" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoice" />
-        <node concept="Xl_RD" id="5zF9hZsDQwG" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWu" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwH" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWv" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoiceTblInvoice" />
-        <node concept="Xl_RD" id="5zF9hZsDQwI" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWw" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapExtendedInvoiceTblInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwJ" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWx" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoicePosition" />
-        <node concept="Xl_RD" id="5zF9hZsDQwK" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWy" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapInvoicePosition" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwL" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWz" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAccountAudit" />
-        <node concept="Xl_RD" id="5zF9hZsDQwM" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uW$" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAccountAudit" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwN" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uW_" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapReferer" />
-        <node concept="Xl_RD" id="5zF9hZsDQwO" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWA" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapReferer" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwP" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWB" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity" />
-        <node concept="Xl_RD" id="5zF9hZsDQwQ" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWC" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwR" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWD" role="2CJdiS">
         <property role="TrG5h" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity_VARIANTS" />
-        <node concept="Xl_RD" id="5zF9hZsDQwS" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWE" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.MapAuditEntity_VARIANTS" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwT" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWF" role="2CJdiS">
         <property role="TrG5h" value="__invoice_Process" />
-        <node concept="Xl_RD" id="5zF9hZsDQwU" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWG" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.Invoice_Process" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwV" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWH" role="2CJdiS">
         <property role="TrG5h" value="__simpleService" />
-        <node concept="Xl_RD" id="5zF9hZsDQwW" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWI" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.SimpleService" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwX" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWJ" role="2CJdiS">
+        <property role="TrG5h" value="__platformAndVariantService" />
+        <node concept="Xl_RD" id="6BKPvpE3uWK" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2.PlatformAndVariantService" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="6BKPvpE3uWL" role="2CJdiS">
         <property role="TrG5h" value="__repoInvoice" />
-        <node concept="Xl_RD" id="5zF9hZsDQwY" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWM" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoInvoice" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQwZ" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWN" role="2CJdiS">
         <property role="TrG5h" value="__repoAccountAudit" />
-        <node concept="Xl_RD" id="5zF9hZsDQx0" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWO" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoAccountAudit" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQx1" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWP" role="2CJdiS">
         <property role="TrG5h" value="__repoReferer" />
-        <node concept="Xl_RD" id="5zF9hZsDQx2" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWQ" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoReferer" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQx3" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWR" role="2CJdiS">
         <property role="TrG5h" value="__repoCustomSql" />
-        <node concept="Xl_RD" id="5zF9hZsDQx4" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWS" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoCustomSql" />
         </node>
       </node>
-      <node concept="2CJf3v" id="5zF9hZsDQx5" role="2CJdiS">
+      <node concept="2CJf3v" id="6BKPvpE3uWT" role="2CJdiS">
         <property role="TrG5h" value="__repoAuditEntity" />
-        <node concept="Xl_RD" id="5zF9hZsDQx6" role="2CJf0U">
+        <node concept="Xl_RD" id="6BKPvpE3uWU" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.RepoAuditEntity" />
         </node>
       </node>
@@ -7923,6 +8080,123 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="6BKPvpDQzd5" role="3yMuLx">
+      <property role="TrG5h" value="Check variant is handled correctly, running on BABY." />
+      <node concept="3cqZAl" id="6BKPvpDQzjv" role="3clF45" />
+      <node concept="3clFbS" id="6BKPvpDQzd9" role="3clF47">
+        <node concept="3cpWs8" id="6BKPvpDQzrt" role="3cqZAp">
+          <node concept="3cpWsn" id="6BKPvpDQzru" role="3cpWs9">
+            <property role="TrG5h" value="session" />
+            <node concept="3uibUv" id="6BKPvpDQzrv" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+            <node concept="3er55J" id="6BKPvpDQzs$" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpDQzpV" role="3cqZAp" />
+        <node concept="3clFbF" id="6BKPvpDQzl5" role="3cqZAp">
+          <node concept="1odsa" id="6BKPvpDQzl4" role="3clFbG">
+            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformAndVariantService" />
+            <ref role="37wK5l" node="6BKPvpDdBN4" resolve="setVariantBaby" />
+            <node concept="37vLTw" id="6BKPvpDQzt3" role="2f8TIa">
+              <ref role="3cqZAo" node="6BKPvpDQzru" resolve="session" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpDQzmj" role="3cqZAp" />
+        <node concept="3clFbF" id="6BKPvpDQznb" role="3cqZAp">
+          <node concept="1odsa" id="6BKPvpDQzn9" role="3clFbG">
+            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformAndVariantService" />
+            <ref role="37wK5l" node="6BKPvpDdADR" resolve="dependsOnVariant" />
+            <node concept="37vLTw" id="6BKPvpDQztx" role="2f8TIa">
+              <ref role="3cqZAo" node="6BKPvpDQzru" resolve="session" />
+            </node>
+          </node>
+          <node concept="16GPin" id="6BKPvpDQzuh" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="6BKPvpDQzvA" role="16NUyR">
+              <property role="Xl_RC" value="BABY" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpDQzmo" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="6BKPvpDQzzK" role="3yMuLx">
+      <property role="TrG5h" value="Check variant is handled correctly, running on SUGAR." />
+      <node concept="3cqZAl" id="6BKPvpDQzzL" role="3clF45" />
+      <node concept="3clFbS" id="6BKPvpDQzzM" role="3clF47">
+        <node concept="3cpWs8" id="6BKPvpDQzzN" role="3cqZAp">
+          <node concept="3cpWsn" id="6BKPvpDQzzO" role="3cpWs9">
+            <property role="TrG5h" value="session" />
+            <node concept="3uibUv" id="6BKPvpDQzzP" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+            <node concept="3er55J" id="6BKPvpDQzzQ" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpDQzzR" role="3cqZAp" />
+        <node concept="3clFbF" id="6BKPvpDQzzS" role="3cqZAp">
+          <node concept="1odsa" id="6BKPvpDQzzT" role="3clFbG">
+            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformAndVariantService" />
+            <ref role="37wK5l" node="6BKPvpDdBEN" resolve="setVariantSugar" />
+            <node concept="37vLTw" id="6BKPvpDQzzU" role="2f8TIa">
+              <ref role="3cqZAo" node="6BKPvpDQzzO" resolve="session" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpDQzzV" role="3cqZAp" />
+        <node concept="3clFbF" id="6BKPvpDQzzW" role="3cqZAp">
+          <node concept="1odsa" id="6BKPvpDQzzX" role="3clFbG">
+            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformAndVariantService" />
+            <ref role="37wK5l" node="6BKPvpDdADR" resolve="dependsOnVariant" />
+            <node concept="37vLTw" id="6BKPvpDQzzY" role="2f8TIa">
+              <ref role="3cqZAo" node="6BKPvpDQzzO" resolve="session" />
+            </node>
+          </node>
+          <node concept="16GPin" id="6BKPvpDQzzZ" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="6BKPvpDQz$0" role="16NUyR">
+              <property role="Xl_RC" value="SUGAR" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpDQz$1" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="6BKPvpE3IMf" role="3yMuLx">
+      <property role="TrG5h" value="Check platform is handled correctly, running on Platform_1." />
+      <node concept="3cqZAl" id="6BKPvpE3IMg" role="3clF45" />
+      <node concept="3clFbS" id="6BKPvpE3IMh" role="3clF47">
+        <node concept="3cpWs8" id="6BKPvpE3IMi" role="3cqZAp">
+          <node concept="3cpWsn" id="6BKPvpE3IMj" role="3cpWs9">
+            <property role="TrG5h" value="session" />
+            <node concept="3uibUv" id="6BKPvpE3IMk" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+            <node concept="3er55J" id="6BKPvpE3IMl" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpE3IMm" role="3cqZAp" />
+        <node concept="3clFbH" id="6BKPvpE3IMq" role="3cqZAp" />
+        <node concept="3clFbF" id="6BKPvpE3IMr" role="3cqZAp">
+          <node concept="1odsa" id="6BKPvpE3IMs" role="3clFbG">
+            <ref role="1ods_" node="6BKPvpDdBsW" resolve="PlatformAndVariantService" />
+            <ref role="37wK5l" node="6BKPvpDdAPm" resolve="dependsOnPlatForm" />
+            <node concept="37vLTw" id="6BKPvpE3IMt" role="2f8TIa">
+              <ref role="3cqZAo" node="6BKPvpE3IMj" resolve="session" />
+            </node>
+          </node>
+          <node concept="16GPin" id="6BKPvpE3IMu" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="6BKPvpE3IMv" role="16NUyR">
+              <property role="Xl_RC" value="Platform_1" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpE3IMw" role="3cqZAp" />
+      </node>
+    </node>
     <node concept="xWan4" id="6Irl3jv7iIn" role="38MLOi">
       <property role="xWaIZ" value="27" />
       <property role="xWaIW" value="1" />
@@ -7936,9 +8210,26 @@
     </node>
   </node>
   <node concept="il5tC" id="3Rw9V4qhf8E">
-    <property role="TrG5h" value="OFLables" />
+    <property role="TrG5h" value="ExtendedStandards" />
     <node concept="2kDv1q" id="3Rw9V4qhf8F" role="2kDvpj">
-      <property role="TrG5h" value="Standard" />
+      <property role="TrG5h" value="Platform_1" />
+      <node concept="3hNl9M" id="6BKPvpCUsoU" role="3hNl4o">
+        <property role="21hoB1" value="EXCPT_ON_SCREEN" />
+      </node>
+      <node concept="3hNl9M" id="6BKPvpDdAWt" role="3hNl4o">
+        <property role="21hoB1" value="EXCPT_ON_SCREEN" />
+        <property role="3hNlaF" value="BABY" />
+      </node>
+    </node>
+    <node concept="2kDv1q" id="6BKPvpDdAXh" role="2kDvpj">
+      <property role="TrG5h" value="Platform_2" />
+      <node concept="3hNl9M" id="6BKPvpDdAXi" role="3hNl4o">
+        <property role="21hoB1" value="EXCPT_ON_SCREEN" />
+      </node>
+      <node concept="3hNl9M" id="6BKPvpDdAXj" role="3hNl4o">
+        <property role="21hoB1" value="EXCPT_ON_SCREEN" />
+        <property role="3hNlaF" value="BABY" />
+      </node>
     </node>
     <node concept="il5_x" id="3Rw9V4qhf8H" role="2kzhMJ">
       <property role="TrG5h" value="SaveClose" />
@@ -7974,6 +8265,224 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="2EH5hC" id="6BKPvpDdBsW">
+    <property role="TrG5h" value="PlatformAndVariantService" />
+    <node concept="312cEg" id="6BKPvpDdBaX" role="jymVt">
+      <property role="TrG5h" value="userEnv" />
+      <node concept="3Tm6S6" id="6BKPvpDdBaY" role="1B3o_S" />
+      <node concept="3uibUv" id="6BKPvpDdBeH" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+      </node>
+      <node concept="2AHcQZ" id="6BKPvpDdBiW" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
+    <node concept="312cEg" id="6BKPvpDdBnp" role="jymVt">
+      <property role="TrG5h" value="platform" />
+      <node concept="3Tm6S6" id="6BKPvpDdBnq" role="1B3o_S" />
+      <node concept="3uibUv" id="6BKPvpDdBrq" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:7MWNCzY1Tjr" resolve="IOFXPlatform" />
+      </node>
+      <node concept="2AHcQZ" id="6BKPvpDdBns" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6BKPvpDdBC7" role="jymVt" />
+    <node concept="3clFb_" id="6BKPvpDdADR" role="jymVt">
+      <property role="TrG5h" value="dependsOnVariant" />
+      <node concept="3cqZAl" id="6BKPvpDdADT" role="3clF45" />
+      <node concept="3Tm1VV" id="6BKPvpDdADU" role="1B3o_S" />
+      <node concept="3clFbS" id="6BKPvpDdADV" role="3clF47">
+        <node concept="3Mo9wd" id="6BKPvpDdAJ0" role="3cqZAp">
+          <node concept="Xl_RD" id="6BKPvpDdAJ_" role="10Adiu">
+            <property role="Xl_RC" value="SUGAR" />
+          </node>
+          <node concept="16hZK" id="6BKPvpDdAL2" role="10Adiv" />
+        </node>
+        <node concept="3Mo9wd" id="6BKPvpDdALZ" role="3cqZAp">
+          <node concept="Xl_RD" id="6BKPvpDdAMK" role="10Adiu">
+            <property role="Xl_RC" value="BABY" />
+          </node>
+          <node concept="16hZK" id="6BKPvpDdAOv" role="10Adiv">
+            <property role="11oGR" value="BABY" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6BKPvpDdAPm" role="jymVt">
+      <property role="TrG5h" value="dependsOnPlatForm" />
+      <node concept="3cqZAl" id="6BKPvpDdAPn" role="3clF45" />
+      <node concept="3Tm1VV" id="6BKPvpDdAPo" role="1B3o_S" />
+      <node concept="3clFbS" id="6BKPvpDdAPp" role="3clF47">
+        <node concept="3SKdUt" id="6BKPvpDdD3I" role="3cqZAp">
+          <node concept="3SKdUq" id="6BKPvpDdD3K" role="3SKWNk">
+            <property role="3SKdUp" value="Platform is set to Platform_1 .. .so first error should not work. second one should..." />
+          </node>
+        </node>
+        <node concept="3Mo9wd" id="6BKPvpDdAPt" role="3cqZAp">
+          <node concept="Xl_RD" id="6BKPvpDdAPu" role="10Adiu">
+            <property role="Xl_RC" value="Platform_2" />
+          </node>
+          <node concept="1bGNo" id="6BKPvpDdB2G" role="10Adiv">
+            <ref role="1bGZi" node="6BKPvpDdAXh" resolve="Platform_2" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BKPvpDdD5k" role="3cqZAp" />
+        <node concept="3Mo9wd" id="6BKPvpDdAPq" role="3cqZAp">
+          <node concept="Xl_RD" id="6BKPvpDdAPr" role="10Adiu">
+            <property role="Xl_RC" value="Platform_1" />
+          </node>
+          <node concept="1bGNo" id="6BKPvpDdAV8" role="10Adiv">
+            <ref role="1bGZi" node="3Rw9V4qhf8F" resolve="Platform_1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6BKPvpDdBCh" role="jymVt" />
+    <node concept="3clFb_" id="6BKPvpDdBEN" role="jymVt">
+      <property role="TrG5h" value="setVariantSugar" />
+      <node concept="3cqZAl" id="6BKPvpDdBEP" role="3clF45" />
+      <node concept="3Tm1VV" id="6BKPvpDdBEQ" role="1B3o_S" />
+      <node concept="3clFbS" id="6BKPvpDdBER" role="3clF47">
+        <node concept="3clFbF" id="6BKPvpDdBGv" role="3cqZAp">
+          <node concept="2OqwBi" id="6BKPvpDdBHm" role="3clFbG">
+            <node concept="37vLTw" id="6BKPvpDdBGu" role="2Oq$k0">
+              <ref role="3cqZAo" node="6BKPvpDdBaX" resolve="userEnv" />
+            </node>
+            <node concept="liA8E" id="6BKPvpDdBJk" role="2OqNvi">
+              <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
+              <node concept="Xl_RD" id="6BKPvpDdBKd" role="37wK5m">
+                <property role="Xl_RC" value="SUGAR" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6BKPvpDdBN4" role="jymVt">
+      <property role="TrG5h" value="setVariantBaby" />
+      <node concept="3cqZAl" id="6BKPvpDdBN5" role="3clF45" />
+      <node concept="3Tm1VV" id="6BKPvpDdBN6" role="1B3o_S" />
+      <node concept="3clFbS" id="6BKPvpDdBN7" role="3clF47">
+        <node concept="3clFbF" id="6BKPvpDdBN8" role="3cqZAp">
+          <node concept="2OqwBi" id="6BKPvpDdBN9" role="3clFbG">
+            <node concept="37vLTw" id="6BKPvpDdBNa" role="2Oq$k0">
+              <ref role="3cqZAo" node="6BKPvpDdBaX" resolve="userEnv" />
+            </node>
+            <node concept="liA8E" id="6BKPvpDdBNb" role="2OqNvi">
+              <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
+              <node concept="Xl_RD" id="6BKPvpDdBNc" role="37wK5m">
+                <property role="Xl_RC" value="BABY" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="6BKPvpDdBsX" role="1B3o_S" />
+  </node>
+  <node concept="3ugp7m" id="6BKPvpE4eH1">
+    <property role="TrG5h" value="Check Platform and Variant" />
+    <property role="19I623" value="GRAPH_OWNER_CMD" />
+    <ref role="3lhHOO" node="Joc9_LZQLM" resolve="Invoice Process" />
+    <node concept="20qIzx" id="6BKPvpE4eJi" role="3umfm7">
+      <node concept="3clFbS" id="6BKPvpE4eJj" role="2VODD2" />
+    </node>
+    <node concept="20qIzx" id="6BKPvpE4xqT" role="10_T4l">
+      <node concept="3clFbS" id="6BKPvpE4xqU" role="2VODD2">
+        <node concept="3clFbF" id="6BKPvpE4xrm" role="3cqZAp">
+          <node concept="37vLTI" id="6BKPvpE4xsz" role="3clFbG">
+            <node concept="16hZK" id="6BKPvpE4xsX" role="37vLTx">
+              <property role="11oGR" value="BABY" />
+            </node>
+            <node concept="2OqwBi" id="6BKPvpE4xDJ" role="37vLTJ">
+              <node concept="3urNQE" id="6BKPvpE4xCM" role="2Oq$k0">
+                <ref role="3cqZAo" node="6BKPvpE4x_1" resolve="cmdVariantInfo" />
+              </node>
+              <node concept="2OwXpG" id="6BKPvpE6IYC" role="2OqNvi">
+                <ref role="2Oxat5" node="6BKPvpE4xAH" resolve="isBaby" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6BKPvpE4xtQ" role="3cqZAp">
+          <node concept="37vLTI" id="6BKPvpE4xv7" role="3clFbG">
+            <node concept="16hZK" id="6BKPvpE4xvx" role="37vLTx">
+              <property role="11oGR" value="SUGAR" />
+            </node>
+            <node concept="2OqwBi" id="6BKPvpE4xFR" role="37vLTJ">
+              <node concept="3urNQE" id="6BKPvpE4xFS" role="2Oq$k0">
+                <ref role="3cqZAo" node="6BKPvpE4x_1" resolve="cmdVariantInfo" />
+              </node>
+              <node concept="2OwXpG" id="6BKPvpE6IZO" role="2OqNvi">
+                <ref role="2Oxat5" node="6BKPvpE4xBt" resolve="isSugar" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6BKPvpE4xwd" role="3cqZAp">
+          <node concept="37vLTI" id="6BKPvpE4xxr" role="3clFbG">
+            <node concept="1bGNo" id="6BKPvpE4xxP" role="37vLTx">
+              <ref role="1bGZi" node="3Rw9V4qhf8F" resolve="Platform_1" />
+            </node>
+            <node concept="2OqwBi" id="6BKPvpE4xGD" role="37vLTJ">
+              <node concept="3urNQE" id="6BKPvpE4xGE" role="2Oq$k0">
+                <ref role="3cqZAo" node="6BKPvpE4x_1" resolve="cmdVariantInfo" />
+              </node>
+              <node concept="2OwXpG" id="6BKPvpE6J1F" role="2OqNvi">
+                <ref role="2Oxat5" node="6BKPvpE4xBC" resolve="isPlatform1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6BKPvpE4xyw" role="3cqZAp">
+          <node concept="37vLTI" id="6BKPvpE4xyx" role="3clFbG">
+            <node concept="1bGNo" id="6BKPvpE4xyy" role="37vLTx">
+              <ref role="1bGZi" node="6BKPvpDdAXh" resolve="Platform_2" />
+            </node>
+            <node concept="2OqwBi" id="6BKPvpE4xHr" role="37vLTJ">
+              <node concept="3urNQE" id="6BKPvpE4xHs" role="2Oq$k0">
+                <ref role="3cqZAo" node="6BKPvpE4x_1" resolve="cmdVariantInfo" />
+              </node>
+              <node concept="2OwXpG" id="6BKPvpE6J2L" role="2OqNvi">
+                <ref role="2Oxat5" node="6BKPvpE4xBQ" resolve="isPlatform2" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3ulXEN" id="6BKPvpE4x_1" role="3ulXEL">
+      <property role="TrG5h" value="cmdVariantInfo" />
+      <node concept="3uibUv" id="6BKPvpE4x_o" role="1tU5fm">
+        <ref role="3uigEE" node="6BKPvpE4x$H" resolve="CommandVariantInfo" />
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="6BKPvpE4x$H">
+    <property role="TrG5h" value="CommandVariantInfo" />
+    <node concept="312cEg" id="6BKPvpE4xAH" role="jymVt">
+      <property role="TrG5h" value="isBaby" />
+      <node concept="3Tm1VV" id="6BKPvpE4xAX" role="1B3o_S" />
+      <node concept="10P_77" id="6BKPvpE4xB6" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="6BKPvpE4xBt" role="jymVt">
+      <property role="TrG5h" value="isSugar" />
+      <node concept="3Tm1VV" id="6BKPvpE4xBu" role="1B3o_S" />
+      <node concept="10P_77" id="6BKPvpE4xBv" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="6BKPvpE4xBC" role="jymVt">
+      <property role="TrG5h" value="isPlatform1" />
+      <node concept="3Tm1VV" id="6BKPvpE4xBD" role="1B3o_S" />
+      <node concept="10P_77" id="6BKPvpE4xBE" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="6BKPvpE4xBQ" role="jymVt">
+      <property role="TrG5h" value="isPlatform2" />
+      <node concept="3Tm1VV" id="6BKPvpE4xBR" role="1B3o_S" />
+      <node concept="10P_77" id="6BKPvpE4xBS" role="1tU5fm" />
+    </node>
+    <node concept="3Tm1VV" id="6BKPvpE4x$I" role="1B3o_S" />
   </node>
 </model>
 

@@ -852,12 +852,17 @@
               <node concept="37vLTw" id="2yuEF6qctva" role="37wK5m">
                 <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="appBehaviorFqName" />
               </node>
-              <node concept="2OqwBi" id="2yuEF6qcvYI" role="37wK5m">
-                <node concept="37vLTw" id="2yuEF6qcvU9" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+              <node concept="2OqwBi" id="6BKPvpDl5Te" role="37wK5m">
+                <node concept="2OqwBi" id="2yuEF6qcvYI" role="2Oq$k0">
+                  <node concept="37vLTw" id="2yuEF6qcvU9" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+                  </node>
+                  <node concept="liA8E" id="2yuEF6qcyKA" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="2yuEF6qcyKA" role="2OqNvi">
-                  <ref role="37wK5l" to="250q:7RHNXGyTwOY" resolve="getVariant" />
+                <node concept="liA8E" id="6BKPvpDl6MG" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
                 </node>
               </node>
               <node concept="3cpWs3" id="2yuEF6qd4Oa" role="37wK5m">
@@ -1933,12 +1938,17 @@
             </node>
             <node concept="liA8E" id="564QxPIGLo7" role="2OqNvi">
               <ref role="37wK5l" to="28jr:4r0DqI1Rlxz" resolve="setVariant" />
-              <node concept="2OqwBi" id="564QxPIGMdG" role="37wK5m">
-                <node concept="37vLTw" id="564QxPIGM98" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+              <node concept="2OqwBi" id="6BKPvpDl7kM" role="37wK5m">
+                <node concept="2OqwBi" id="564QxPIGMdG" role="2Oq$k0">
+                  <node concept="37vLTw" id="564QxPIGM98" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+                  </node>
+                  <node concept="liA8E" id="564QxPIGNDp" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="564QxPIGNDp" role="2OqNvi">
-                  <ref role="37wK5l" to="250q:7RHNXGyTwOY" resolve="getVariant" />
+                <node concept="liA8E" id="6BKPvpDl8cs" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
                 </node>
               </node>
             </node>
@@ -5722,12 +5732,17 @@
                   </node>
                   <node concept="liA8E" id="564QxPIPKLM" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="2OqwBi" id="564QxPIPLQS" role="37wK5m">
-                      <node concept="37vLTw" id="564QxPIPLNd" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+                    <node concept="2OqwBi" id="6BKPvpDl8Gx" role="37wK5m">
+                      <node concept="2OqwBi" id="564QxPIPLQS" role="2Oq$k0">
+                        <node concept="37vLTw" id="564QxPIPLNd" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+                        </node>
+                        <node concept="liA8E" id="564QxPIPNir" role="2OqNvi">
+                          <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="564QxPIPNir" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:7RHNXGyTwOY" resolve="getVariant" />
+                      <node concept="liA8E" id="6BKPvpDl9$n" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
                       </node>
                     </node>
                   </node>

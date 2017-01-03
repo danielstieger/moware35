@@ -252,6 +252,12 @@
         <reference id="1410680821326658966" name="businessProperty" index="2dcwcH" />
       </concept>
       <concept id="3262649880239917894" name="org.modellwerkstatt.objectflow.structure.OppositeOption" flags="ng" index="2fr8A1" />
+      <concept id="1440642197017487130" name="org.modellwerkstatt.objectflow.structure.StaticRessources" flags="ng" index="il5tC">
+        <child id="3146313690715522546" name="platforms" index="2kDvpj" />
+      </concept>
+      <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.Platform" flags="ng" index="2kDv1q">
+        <child id="7604036740764640824" name="variantDeclarations" index="3hNl4o" />
+      </concept>
       <concept id="3336581779077474787" name="org.modellwerkstatt.objectflow.structure.StatusOperation" flags="ng" index="nIsag">
         <reference id="3336581779077478840" name="method" index="nItbb" />
       </concept>
@@ -368,6 +374,9 @@
         <child id="8484523473172248091" name="pathRef" index="JmycY" />
       </concept>
       <concept id="3179794825395091428" name="org.modellwerkstatt.objectflow.structure.OFXTestNewSessionExpression" flags="ng" index="3er55J" />
+      <concept id="7604036740764640594" name="org.modellwerkstatt.objectflow.structure.VariantDeclaration" flags="ng" index="3hNl9M">
+        <property id="7604036740764640651" name="variant" index="3hNlaF" />
+      </concept>
       <concept id="836579671456120410" name="org.modellwerkstatt.objectflow.structure.EqualPropertyReference" flags="ng" index="1kU5Ut">
         <reference id="836579671456120411" name="property" index="1kU5Us" />
       </concept>
@@ -3971,9 +3980,23 @@
     <property role="TrG5h" value="MPreisLolaTestSuitConfig" />
     <property role="2320hu" value="2016-08-31T16:03:10.916+02:00" />
     <property role="3GE5qa" value="config" />
+    <node concept="2CJf3v" id="6BKPvpDTdkj" role="2CGBMS">
+      <property role="TrG5h" value="currentPlatform" />
+      <node concept="Xl_RD" id="6BKPvpDTdkl" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.Standards_TestSuit" />
+      </node>
+      <node concept="2CJf1O" id="6BKPvpDTdkx" role="2CJ4_l">
+        <node concept="Xl_RD" id="6BKPvpDTdky" role="2DqwMp">
+          <property role="Xl_RC" value="SUGAR" />
+        </node>
+        <node concept="Xl_RD" id="6BKPvpDTdkC" role="2DqwMv">
+          <property role="Xl_RC" value="0" />
+        </node>
+      </node>
+    </node>
     <node concept="2CJoq6" id="5MCXLSo4_Bs" role="2CGBMS">
-      <property role="TrG5h" value="TetsSuitBasics" />
-      <node concept="2CPvp3" id="3KPvoWve2JD" role="2CJdiS" />
+      <property role="TrG5h" value="ManMapTestSuitBasics" />
+      <node concept="2CPvp3" id="6BKPvpDYn1k" role="2CJdiS" />
       <node concept="2CJ4_Q" id="33KhHQReT6t" role="2CJdiS">
         <ref role="2CJ4_N" node="4LC0Y0L2pa6" resolve="MPREIS_Winter2014_FatClient_TestConfig" />
         <node concept="26L8Vk" id="33KhHQReTg2" role="2CPvpQ">
@@ -4437,22 +4460,6 @@
         <property role="TrG5h" value="userEnviormentInformation" />
         <node concept="Xl_RD" id="4LC0Y0L2pby" role="2CJf0U">
           <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.UserEnvironmentInformation" />
-        </node>
-        <node concept="2CJf1O" id="4LC0Y0L2pbz" role="2CJ4_l">
-          <node concept="Xl_RD" id="4LC0Y0L2pb$" role="2DqwMv">
-            <property role="Xl_RC" value="0" />
-          </node>
-          <node concept="Xl_RD" id="4LC0Y0L2pb_" role="2DqwMp">
-            <property role="Xl_RC" value="Some compile information" />
-          </node>
-        </node>
-        <node concept="2CJf1O" id="4LC0Y0L2pbA" role="2CJ4_l">
-          <node concept="Xl_RD" id="4LC0Y0L2pbB" role="2DqwMv">
-            <property role="Xl_RC" value="1" />
-          </node>
-          <node concept="Xl_RD" id="4LC0Y0L2pbC" role="2DqwMp">
-            <property role="Xl_RC" value="SUGAR" />
-          </node>
         </node>
       </node>
     </node>
@@ -29877,6 +29884,16 @@
             <property role="3SKdUp" value="Insert in Creators, so that path can easily be changed." />
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="il5tC" id="6BKPvpDTcXK">
+    <property role="TrG5h" value="Standards" />
+    <node concept="2kDv1q" id="6BKPvpDTcXL" role="2kDvpj">
+      <property role="TrG5h" value="TestSuit" />
+      <node concept="3hNl9M" id="6BKPvpDTcXM" role="3hNl4o" />
+      <node concept="3hNl9M" id="6BKPvpDTcXP" role="3hNl4o">
+        <property role="3hNlaF" value="BABY" />
       </node>
     </node>
   </node>

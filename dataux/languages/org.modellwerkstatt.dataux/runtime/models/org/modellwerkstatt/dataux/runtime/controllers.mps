@@ -10712,11 +10712,16 @@
                   <node concept="liA8E" id="3spXEPYHpGF" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                     <node concept="2OqwBi" id="3spXEPYHpGG" role="37wK5m">
-                      <node concept="37vLTw" id="3spXEPYHpGH" role="2Oq$k0">
-                        <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                      <node concept="2OqwBi" id="6BKPvpDrzCs" role="2Oq$k0">
+                        <node concept="37vLTw" id="3spXEPYHpGH" role="2Oq$k0">
+                          <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                        </node>
+                        <node concept="liA8E" id="6BKPvpDrzRS" role="2OqNvi">
+                          <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
+                        </node>
                       </node>
                       <node concept="liA8E" id="3spXEPYHpGI" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:7RHNXGyTwOY" resolve="getVariant" />
+                        <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
                       </node>
                     </node>
                   </node>
@@ -10792,12 +10797,17 @@
                 <node concept="2OqwBi" id="3spXEPYHGjE" role="3fr31v">
                   <node concept="liA8E" id="3spXEPYHGjF" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="2OqwBi" id="3spXEPYHGjG" role="37wK5m">
-                      <node concept="37vLTw" id="3spXEPYHGjH" role="2Oq$k0">
-                        <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                    <node concept="2OqwBi" id="6BKPvpDr$2d" role="37wK5m">
+                      <node concept="2OqwBi" id="3spXEPYHGjG" role="2Oq$k0">
+                        <node concept="37vLTw" id="3spXEPYHGjH" role="2Oq$k0">
+                          <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                        </node>
+                        <node concept="liA8E" id="3spXEPYHGjI" role="2OqNvi">
+                          <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="3spXEPYHGjI" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:7RHNXGyTwOY" resolve="getVariant" />
+                      <node concept="liA8E" id="6BKPvpDr$kd" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
                       </node>
                     </node>
                   </node>
@@ -13058,7 +13068,7 @@
         <node concept="3clFbH" id="5ng$mPCS4F2" role="3cqZAp" />
         <node concept="3clFbJ" id="12Eg3QJQoz7" role="3cqZAp">
           <node concept="3clFbS" id="12Eg3QJQoza" role="3clFbx">
-            <node concept="1X3_iC" id="7MWNCzYYqPR" role="lGtFl">
+            <node concept="1X3_iC" id="6A6XM2S6mHT" role="lGtFl">
               <property role="3V$3am" value="statement" />
               <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
               <node concept="3clFbF" id="2_Agt$kDeep" role="8Wnug">

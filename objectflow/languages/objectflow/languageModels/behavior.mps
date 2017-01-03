@@ -17072,5 +17072,127 @@
       <node concept="3clFbS" id="7MWNCzXPish" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="6BKPvpCYM3B">
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <ref role="13h7C2" to="un0u:6BKPvpCRx$I" resolve="IsPlatform" />
+    <node concept="13hLZK" id="6BKPvpCYM3C" role="13h7CW">
+      <node concept="3clFbS" id="6BKPvpCYM3D" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6BKPvpCYM3S" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRtComponentFQName" />
+      <ref role="13i0hy" node="4Wj1gYKHbnw" resolve="getRtComponentFQName" />
+      <node concept="3Tm1VV" id="6BKPvpCYM3T" role="1B3o_S" />
+      <node concept="3clFbS" id="6BKPvpCYM3W" role="3clF47">
+        <node concept="3clFbF" id="6BKPvpCYM4T" role="3cqZAp">
+          <node concept="Xl_RD" id="6BKPvpCYM4S" role="3clFbG">
+            <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.IOFXPlatform" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6BKPvpCYM3X" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="6BKPvpCYM3Y" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRtComponentMethodName" />
+      <ref role="13i0hy" node="4Wj1gYJYFs3" resolve="getRtComponentMethodName" />
+      <node concept="3Tm1VV" id="6BKPvpCYM3Z" role="1B3o_S" />
+      <node concept="3clFbS" id="6BKPvpCYM42" role="3clF47">
+        <node concept="3clFbF" id="6BKPvpCYMfj" role="3cqZAp">
+          <node concept="Xl_RD" id="6BKPvpCYMfi" role="3clFbG">
+            <property role="Xl_RC" value="isPlatform" />
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6BKPvpCYM43" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="6BKPvpCYM44" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRtComponentMethodArgumetns" />
+      <ref role="13i0hy" node="4Wj1gYJZTVI" resolve="getRtComponentMethodArgumetns" />
+      <node concept="3Tm1VV" id="6BKPvpCYM45" role="1B3o_S" />
+      <node concept="3clFbS" id="6BKPvpCYM49" role="3clF47">
+        <node concept="3cpWs8" id="6BKPvpDepBU" role="3cqZAp">
+          <node concept="3cpWsn" id="6BKPvpDepBX" role="3cpWs9">
+            <property role="TrG5h" value="sl" />
+            <node concept="3Tqbb2" id="6BKPvpDepBS" role="1tU5fm">
+              <ref role="ehGHo" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+            </node>
+            <node concept="2ShNRf" id="6BKPvpDepDI" role="33vP2m">
+              <node concept="3zrR0B" id="6BKPvpDepD_" role="2ShVmc">
+                <node concept="3Tqbb2" id="6BKPvpDepDA" role="3zrR0E">
+                  <ref role="ehGHo" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6BKPvpDepEQ" role="3cqZAp">
+          <node concept="37vLTI" id="6BKPvpDepTZ" role="3clFbG">
+            <node concept="2OqwBi" id="6BKPvpDeqbh" role="37vLTx">
+              <node concept="2OqwBi" id="6BKPvpDepXV" role="2Oq$k0">
+                <node concept="13iPFW" id="6BKPvpDepVg" role="2Oq$k0" />
+                <node concept="3TrEf2" id="6BKPvpDeq3W" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:6BKPvpCRxC$" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="6BKPvpDeqib" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6BKPvpDepHq" role="37vLTJ">
+              <node concept="37vLTw" id="6BKPvpDepEO" role="2Oq$k0">
+                <ref role="3cqZAo" node="6BKPvpDepBX" resolve="sl" />
+              </node>
+              <node concept="3TrcHB" id="6BKPvpDepMC" role="2OqNvi">
+                <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="6BKPvpCYMgU" role="3cqZAp">
+          <node concept="2ShNRf" id="6BKPvpCYN$Q" role="3cqZAk">
+            <node concept="Tc6Ow" id="6BKPvpCYN$F" role="2ShVmc">
+              <node concept="3Tqbb2" id="6BKPvpCYN$G" role="HW$YZ">
+                <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
+              </node>
+              <node concept="37vLTw" id="6BKPvpDeql2" role="HW$Y0">
+                <ref role="3cqZAo" node="6BKPvpDepBX" resolve="sl" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="6BKPvpCYM4a" role="3clF45">
+        <node concept="3Tqbb2" id="6BKPvpCYM4b" role="_ZDj9">
+          <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6BKPvpCYM4c" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getRtComponentMethodReturnType" />
+      <ref role="13i0hy" node="4Wj1gYK0upx" resolve="getRtComponentMethodReturnType" />
+      <node concept="3Tm1VV" id="6BKPvpCYM4d" role="1B3o_S" />
+      <node concept="3clFbS" id="6BKPvpCYM4g" role="3clF47">
+        <node concept="3clFbF" id="6BKPvpCYNAh" role="3cqZAp">
+          <node concept="2ShNRf" id="6BKPvpCYNAf" role="3clFbG">
+            <node concept="3zrR0B" id="6BKPvpCYNRC" role="2ShVmc">
+              <node concept="3Tqbb2" id="6BKPvpCYNRE" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:f_0P_4Y" resolve="BooleanType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6BKPvpCYM4h" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+  </node>
 </model>
 

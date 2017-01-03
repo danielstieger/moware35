@@ -553,7 +553,7 @@
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="ReplcaceNotifications" />
     <property role="2BwPS$" value="moware to mowareUX" />
-    <property role="_Wzho" value="(3) Replace Notification in Commands with new Creator MSG" />
+    <property role="_Wzho" value="(3) Replace Notifications with ToastMessages" />
     <node concept="1opIMY" id="43H1fr7tvXU" role="_YvDr" />
     <node concept="_XfAh" id="43H1fr7tphm" role="_YvDr">
       <property role="_XH9r" value="Replcace Notificatoin" />
@@ -694,6 +694,20 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="_UgoZ" id="6BKPvpCY8S$">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="ReplaceHafinaDefault" />
+    <property role="2BwPS$" value="moware to mowareUX" />
+    <property role="_Wzho" value="(4) Replace IfVariant Statement" />
+    <node concept="1opIMY" id="6BKPvpCY8S_" role="_YvDr" />
+    <node concept="_XfAh" id="6BKPvpCY8SA" role="_YvDr">
+      <property role="_XH9r" value="Replace IfVariant Statement" />
+      <ref role="_XDHR" to="un0u:5xcCl6oWmmH" resolve="VariantStatements" />
+      <node concept="_ZGcI" id="6BKPvpCY8SB" role="_XPhp">
+        <node concept="3clFbS" id="6BKPvpCY8SC" role="2VODD2" />
       </node>
     </node>
   </node>

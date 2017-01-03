@@ -1548,8 +1548,8 @@
   <node concept="1TIwiD" id="4wvbHtt4g$4">
     <property role="3GE5qa" value="OFXCore.command" />
     <property role="TrG5h" value="SessionOperation" />
-    <property role="MwhBj" value="${module}/icons/session.png" />
-    <property role="34LRSv" value="sessionOperation" />
+    <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
+    <property role="34LRSv" value="sessionOperationAdd" />
     <property role="1pbfSe" value="1523566629" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="2UKuXobCcuj" role="1TKVEi">
@@ -1779,7 +1779,7 @@
   <node concept="1TIwiD" id="x0kurEidQ2">
     <property role="3GE5qa" value="OFXCore.command" />
     <property role="TrG5h" value="Session" />
-    <property role="MwhBj" value="${module}/icons/session.png" />
+    <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
     <property role="R4oN_" value="access current session" />
     <property role="34LRSv" value="session" />
     <property role="1pbfSe" value="225890456" />
@@ -2090,6 +2090,7 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="2IjElxgHNhO" resolve="VariantCharacteristic" />
     </node>
+    <node concept="asaX9" id="6BKPvpCRu$O" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="LKsyXaF4hD">
     <property role="3GE5qa" value="NewTest" />
@@ -2226,6 +2227,7 @@
       <property role="TrG5h" value="characteristic" />
       <ref role="AX2Wp" to="r5tz:3NBIlSkjqX8" resolve="ManMapVariant" />
     </node>
+    <node concept="asaX9" id="6BKPvpCRu$8" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3UOln1HfB5Q">
     <property role="TrG5h" value="DynamicRole" />
@@ -2610,9 +2612,9 @@
   <node concept="1TIwiD" id="5WxVUBAMhc0">
     <property role="3GE5qa" value="OFXCore.command" />
     <property role="TrG5h" value="CheckedOutEntities" />
-    <property role="34LRSv" value="session checked out" />
+    <property role="34LRSv" value="sessionCheckedOut" />
     <property role="R4oN_" value="entities checked out in session" />
-    <property role="MwhBj" value="${module}/icons/session.png" />
+    <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
     <property role="1pbfSe" value="1173029545" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="5WxVUBAMhc3" role="1TKVEi">
@@ -4137,12 +4139,14 @@
     <property role="3GE5qa" value="OFXCore.platform" />
     <property role="TrG5h" value="Platform" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6A6XM2SiUoS" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="variantDeclarations" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="6A6XM2SiUli" resolve="VariantDeclaration" />
+    </node>
     <node concept="PrWs8" id="7MWNCzXOAva" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
-    </node>
-    <node concept="1TJgyi" id="7MWNCzXYkt9" role="1TKVEl">
-      <property role="TrG5h" value="logOption" />
-      <ref role="AX2Wp" node="7MWNCzXSMan" resolve="PlatformLoggingOption" />
     </node>
   </node>
   <node concept="1TIwiD" id="2IDWU6Z9eZ_">
@@ -4195,6 +4199,51 @@
     <node concept="M4N5e" id="7MWNCzXSMdM" role="M5hS2">
       <property role="1uS6qv" value="SILENT_LOG" />
       <property role="1uS6qo" value="SILENT_LOG" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6A6XM2SiUli">
+    <property role="1pbfSe" value="567450738" />
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="VariantDeclaration" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6A6XM2SiUmb" role="1TKVEl">
+      <property role="TrG5h" value="variant" />
+      <ref role="AX2Wp" to="r5tz:3NBIlSkjqX8" resolve="ManMapVariant" />
+    </node>
+    <node concept="1TJgyi" id="7MWNCzXYkt9" role="1TKVEl">
+      <property role="TrG5h" value="logOption" />
+      <ref role="AX2Wp" node="7MWNCzXSMan" resolve="PlatformLoggingOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6BKPvpCRx$I">
+    <property role="1pbfSe" value="758190300" />
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="IsPlatform" />
+    <property role="34LRSv" value="isPlatform" />
+    <property role="R4oN_" value="current setting" />
+    <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="6BKPvpCRxC$" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="platform" />
+      <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
+    </node>
+    <node concept="PrWs8" id="6BKPvpCYM3g" role="PzmwI">
+      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6BKPvpCUsC6">
+    <property role="1pbfSe" value="757424132" />
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="IsVariant" />
+    <property role="34LRSv" value="isVariant" />
+    <property role="R4oN_" value="current variant" />
+    <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="6BKPvpCXlV1" role="1TKVEl">
+      <property role="TrG5h" value="variant" />
+      <ref role="AX2Wp" to="r5tz:3NBIlSkjqX8" resolve="ManMapVariant" />
     </node>
   </node>
 </model>
