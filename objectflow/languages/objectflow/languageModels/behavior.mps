@@ -16944,7 +16944,7 @@
   </node>
   <node concept="13h7C7" id="7qQ6PJuXvLg">
     <property role="3GE5qa" value="OFXCore.actions" />
-    <ref role="13h7C2" to="un0u:3nLPQZPUuMl" resolve="ActionProviderLink" />
+    <ref role="13h7C2" to="un0u:3nLPQZPUuMl" resolve="PagePaneActionProviderLink" />
     <node concept="13i0hz" id="7qQ6PJuXvLj" role="13h7CS">
       <property role="TrG5h" value="isDefault" />
       <node concept="3Tm1VV" id="7qQ6PJuXvLk" role="1B3o_S" />
@@ -16959,6 +16959,26 @@
               </node>
             </node>
             <node concept="3w_OXm" id="7qQ6PJuXvYs" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="5fkhsRO1L6Y" role="13h7CS">
+      <property role="TrG5h" value="getPagePaneFqName" />
+      <node concept="3Tm1VV" id="5fkhsRO1L6Z" role="1B3o_S" />
+      <node concept="17QB3L" id="5fkhsRO1L8q" role="3clF45" />
+      <node concept="3clFbS" id="5fkhsRO1L71" role="3clF47">
+        <node concept="3clFbF" id="5fkhsRO1L8N" role="3cqZAp">
+          <node concept="2OqwBi" id="5fkhsRO1LhX" role="3clFbG">
+            <node concept="2OqwBi" id="5fkhsRO1Lal" role="2Oq$k0">
+              <node concept="13iPFW" id="5fkhsRO1L8M" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5fkhsRO1Ldv" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:3nLPQZPUuMm" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="5fkhsRO1Lmy" role="2OqNvi">
+              <ref role="37wK5l" node="21Qe5t2gsrC" resolve="getEscapedFqName" />
+            </node>
           </node>
         </node>
       </node>

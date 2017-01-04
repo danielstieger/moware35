@@ -737,9 +737,9 @@
     </node>
     <node concept="1TJgyj" id="3nLPQZPUuMQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="uiActionProviderLink" />
+      <property role="20kJfa" value="pagePaneActionProviderLink" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3nLPQZPUuMl" resolve="ActionProviderLink" />
+      <ref role="20lvS9" node="3nLPQZPUuMl" resolve="PagePaneActionProviderLink" />
     </node>
     <node concept="PrWs8" id="7AldN8RXdkW" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
@@ -3628,7 +3628,7 @@
   <node concept="1TIwiD" id="3nLPQZPUuMl">
     <property role="1pbfSe" value="735822852" />
     <property role="3GE5qa" value="OFXCore.actions" />
-    <property role="TrG5h" value="ActionProviderLink" />
+    <property role="TrG5h" value="PagePaneActionProviderLink" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7qQ6PJuKRsQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3638,7 +3638,7 @@
     </node>
     <node concept="1TJgyj" id="3nLPQZPUuMm" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="actionProvider" />
+      <property role="20kJfa" value="actionProviderPagePane" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3nLPQZPP5e9" resolve="IActionProvider" />
     </node>

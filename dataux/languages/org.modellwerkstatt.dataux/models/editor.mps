@@ -2275,16 +2275,5 @@
       <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
     </node>
   </node>
-  <node concept="24kQdi" id="53acIw4sUhN">
-    <property role="3GE5qa" value="uimodule" />
-    <ref role="1XX52x" to="1btx:53acIw4jA7g" resolve="UseSecondPagePanes" />
-    <node concept="3EZMnI" id="53acIw4sUhW" role="2wV5jI">
-      <node concept="PMmxH" id="53acIw4sUhX" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <ref role="1k5W1q" to="z8tr:1Csx3LqGvar" resolve="O2SubConcept" />
-      </node>
-      <node concept="l2Vlx" id="53acIw4sUhY" role="2iSdaV" />
-    </node>
-  </node>
 </model>
 

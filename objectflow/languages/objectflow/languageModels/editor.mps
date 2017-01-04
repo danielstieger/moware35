@@ -2545,7 +2545,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1xbJ1snViFP" role="3EZMnx">
-          <property role="3F0ifm" value="page pane switch:" />
+          <property role="3F0ifm" value="page pane switch:  // right now, determined before cmd init!" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1xbJ1snViFQ" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -11741,7 +11741,7 @@
   </node>
   <node concept="24kQdi" id="3nLPQZPUuMt">
     <property role="3GE5qa" value="OFXCore.actions" />
-    <ref role="1XX52x" to="un0u:3nLPQZPUuMl" resolve="ActionProviderLink" />
+    <ref role="1XX52x" to="un0u:3nLPQZPUuMl" resolve="PagePaneActionProviderLink" />
     <node concept="3EZMnI" id="7qQ6PJuKR$z" role="2wV5jI">
       <node concept="l2Vlx" id="7qQ6PJuKR$$" role="2iSdaV" />
       <node concept="3F1sOY" id="7qQ6PJuKR$B" role="3EZMnx">

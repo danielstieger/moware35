@@ -3198,7 +3198,7 @@
     <node concept="2tJIrI" id="oHsXcaje4v" role="jymVt" />
     <node concept="3clFb_" id="3g5RX4qZRxT" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getPageTitles" />
+      <property role="TrG5h" value="getPageNames" />
       <node concept="_YKpA" id="3g5RX4qZRxU" role="3clF45">
         <node concept="17QB3L" id="3g5RX4qZRxV" role="_ZDj9" />
       </node>
@@ -3302,7 +3302,19 @@
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
     </node>
-    <node concept="2tJIrI" id="6Rdz00$VeHd" role="jymVt" />
+    <node concept="3clFb_" id="5fkhsRO0dXb" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="calcPagePaneFqName" />
+      <node concept="3clFbS" id="5fkhsRO0dXe" role="3clF47" />
+      <node concept="3Tm1VV" id="5fkhsRO0dXf" role="1B3o_S" />
+      <node concept="17QB3L" id="5fkhsRO0dPO" role="3clF45" />
+      <node concept="37vLTG" id="5fkhsRO0e6X" role="3clF46">
+        <property role="TrG5h" value="pageNum" />
+        <node concept="10Oyi0" id="5fkhsRO0e6W" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5fkhsRO0dav" role="jymVt" />
     <node concept="3clFb_" id="6dnXV8mIGtD" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isTerminatedOk" />
@@ -4319,6 +4331,15 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="5fkhsRO18fN" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="calcPagePaneFqName" />
+      <node concept="3clFbS" id="5fkhsRO18fO" role="3clF47" />
+      <node concept="3Tm1VV" id="5fkhsRO18fP" role="1B3o_S" />
+      <node concept="17QB3L" id="5fkhsRO18fQ" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="5fkhsRO185m" role="jymVt" />
     <node concept="3clFb_" id="6ffh1MXubTI" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="concludePage" />
@@ -40201,6 +40222,13 @@
     <property role="3GE5qa" value="OFXArchitecture" />
     <property role="TrG5h" value="IOFXPlatform" />
     <node concept="2tJIrI" id="6A6XM2S842B" role="jymVt" />
+    <node concept="3clFb_" id="5fkhsROxw$p" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getPlatformName" />
+      <node concept="17QB3L" id="5fkhsROxwCS" role="3clF45" />
+      <node concept="3Tm1VV" id="5fkhsROxw$s" role="1B3o_S" />
+      <node concept="3clFbS" id="5fkhsROxw$t" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="6BKPvpDdCG2" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isPlatform" />

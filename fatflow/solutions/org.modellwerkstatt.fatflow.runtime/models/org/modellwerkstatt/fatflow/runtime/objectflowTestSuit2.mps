@@ -8278,16 +8278,6 @@
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
-    <node concept="312cEg" id="6BKPvpDdBnp" role="jymVt">
-      <property role="TrG5h" value="platform" />
-      <node concept="3Tm6S6" id="6BKPvpDdBnq" role="1B3o_S" />
-      <node concept="3uibUv" id="6BKPvpDdBrq" role="1tU5fm">
-        <ref role="3uigEE" to="28jr:7MWNCzY1Tjr" resolve="IOFXPlatform" />
-      </node>
-      <node concept="2AHcQZ" id="6BKPvpDdBns" role="2AJF6D">
-        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="6BKPvpDdBC7" role="jymVt" />
     <node concept="3clFb_" id="6BKPvpDdADR" role="jymVt">
       <property role="TrG5h" value="dependsOnVariant" />
