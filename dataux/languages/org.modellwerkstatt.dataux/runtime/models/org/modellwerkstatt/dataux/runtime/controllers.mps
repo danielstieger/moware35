@@ -10707,27 +10707,18 @@
                 </node>
                 <node concept="3clFbH" id="3spXEPYHoaV" role="3cqZAp" />
               </node>
-              <node concept="3fqX7Q" id="3spXEPYHpGC" role="3clFbw">
-                <node concept="2OqwBi" id="3spXEPYHpGE" role="3fr31v">
-                  <node concept="liA8E" id="3spXEPYHpGF" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="2OqwBi" id="3spXEPYHpGG" role="37wK5m">
-                      <node concept="2OqwBi" id="6BKPvpDrzCs" role="2Oq$k0">
-                        <node concept="37vLTw" id="3spXEPYHpGH" role="2Oq$k0">
-                          <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
-                        </node>
-                        <node concept="liA8E" id="6BKPvpDrzRS" role="2OqNvi">
-                          <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="3spXEPYHpGI" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
-                      </node>
+              <node concept="3fqX7Q" id="6UVqlHNnH4p" role="3clFbw">
+                <node concept="2OqwBi" id="6UVqlHNnH4r" role="3fr31v">
+                  <node concept="2OqwBi" id="6UVqlHNnH4s" role="2Oq$k0">
+                    <node concept="37vLTw" id="6UVqlHNnH4t" role="2Oq$k0">
+                      <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                    </node>
+                    <node concept="liA8E" id="6UVqlHNnH4u" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
                     </node>
                   </node>
-                  <node concept="10M0yZ" id="3spXEPYHpGJ" role="2Oq$k0">
-                    <ref role="1PxDUh" node="Y3fiVKxA03" resolve="CommandContainer" />
-                    <ref role="3cqZAo" node="1U$SEuk1n2B" resolve="sugarConfiguration" />
+                  <node concept="liA8E" id="6UVqlHNnH4v" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:7MWNCzY1Tm5" resolve="isSilentLogging" />
                   </node>
                 </node>
               </node>
@@ -10793,27 +10784,18 @@
                 </node>
                 <node concept="3clFbH" id="3spXEPYHGjC" role="3cqZAp" />
               </node>
-              <node concept="3fqX7Q" id="3spXEPYHGjD" role="3clFbw">
-                <node concept="2OqwBi" id="3spXEPYHGjE" role="3fr31v">
-                  <node concept="liA8E" id="3spXEPYHGjF" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="2OqwBi" id="6BKPvpDr$2d" role="37wK5m">
-                      <node concept="2OqwBi" id="3spXEPYHGjG" role="2Oq$k0">
-                        <node concept="37vLTw" id="3spXEPYHGjH" role="2Oq$k0">
-                          <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
-                        </node>
-                        <node concept="liA8E" id="3spXEPYHGjI" role="2OqNvi">
-                          <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="6BKPvpDr$kd" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
-                      </node>
+              <node concept="3fqX7Q" id="6UVqlHNnHD3" role="3clFbw">
+                <node concept="2OqwBi" id="6UVqlHNnHD4" role="3fr31v">
+                  <node concept="2OqwBi" id="6UVqlHNnHD5" role="2Oq$k0">
+                    <node concept="37vLTw" id="6UVqlHNnHD6" role="2Oq$k0">
+                      <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                    </node>
+                    <node concept="liA8E" id="6UVqlHNnHD7" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
                     </node>
                   </node>
-                  <node concept="10M0yZ" id="3spXEPYHGjJ" role="2Oq$k0">
-                    <ref role="1PxDUh" node="Y3fiVKxA03" resolve="CommandContainer" />
-                    <ref role="3cqZAo" node="1U$SEuk1n2B" resolve="sugarConfiguration" />
+                  <node concept="liA8E" id="6UVqlHNnHD8" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:7MWNCzY1Tm5" resolve="isSilentLogging" />
                   </node>
                 </node>
               </node>
@@ -11212,18 +11194,6 @@
   <node concept="312cEu" id="Y3fiVKxA03">
     <property role="TrG5h" value="CommandContainer" />
     <node concept="2tJIrI" id="7MWNCzY5jZj" role="jymVt" />
-    <node concept="2tJIrI" id="7MWNCzY5o9O" role="jymVt" />
-    <node concept="Wx3nA" id="1U$SEuk1n2B" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="TrG5h" value="sugarConfiguration" />
-      <property role="3TUv4t" value="true" />
-      <node concept="17QB3L" id="1U$SEuk1mT1" role="1tU5fm" />
-      <node concept="3Tm1VV" id="564QxPIP2nH" role="1B3o_S" />
-      <node concept="Xl_RD" id="1U$SEuk1n0n" role="33vP2m">
-        <property role="Xl_RC" value="SUGAR" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="4XXgpAAfFCq" role="jymVt" />
     <node concept="312cEg" id="7aUgYCzl1hk" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -18493,15 +18463,12 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="5_bDd1dDRTa" role="3clFbw">
-            <node concept="37vLTw" id="4mX9Xggdn3i" role="2Oq$k0">
-              <ref role="3cqZAo" node="4mX9Xggd8W_" resolve="userEnvironment" />
+          <node concept="2OqwBi" id="6UVqlHNnQE6" role="3clFbw">
+            <node concept="37vLTw" id="6UVqlHNnNkC" role="2Oq$k0">
+              <ref role="3cqZAo" node="7MWNCzY5Ug8" resolve="platform" />
             </node>
-            <node concept="liA8E" id="5_bDd1dDSV6" role="2OqNvi">
-              <ref role="37wK5l" to="w7gk:3J6KGB_KEYd" resolve="isVariant" />
-              <node concept="37vLTw" id="1U$SEuk1uvW" role="37wK5m">
-                <ref role="3cqZAo" node="1U$SEuk1n2B" resolve="sugarConfiguration" />
-              </node>
+            <node concept="liA8E" id="6UVqlHNnV9m" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:7MWNCzY1Tm5" resolve="isSilentLogging" />
             </node>
           </node>
         </node>

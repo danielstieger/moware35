@@ -11750,7 +11750,7 @@
         <node concept="3clFbS" id="7qQ6PJuXuaM" role="3clFbx">
           <node concept="2MkqsV" id="7qQ6PJuXxbm" role="3cqZAp">
             <node concept="Xl_RD" id="7qQ6PJuXxb_" role="2MkJ7o">
-              <property role="Xl_RC" value="Typically, the last pane should be a default pane." />
+              <property role="Xl_RC" value="Typically, the last page pane should be the default pane." />
             </node>
             <node concept="1YBJjd" id="3Rw9V4qgmdG" role="2OEOjV">
               <ref role="1YBMHb" node="3nLPQZQMZu0" resolve="page" />
@@ -11781,7 +11781,7 @@
         <node concept="3clFbS" id="7qQ6PJv5AgG" role="3clFbx">
           <node concept="2MkqsV" id="7qQ6PJv5CXM" role="3cqZAp">
             <node concept="Xl_RD" id="7qQ6PJv5CY1" role="2MkJ7o">
-              <property role="Xl_RC" value="Only one pane should be specified as default pane." />
+              <property role="Xl_RC" value="Only one page pane can be specified as default pane. It sould be the last one." />
             </node>
             <node concept="1YBJjd" id="3Rw9V4qgmx0" role="2OEOjV">
               <ref role="1YBMHb" node="3nLPQZQMZu0" resolve="page" />
@@ -12878,30 +12878,6 @@
     <node concept="1YaCAy" id="2IDWU6ZcK8n" role="1YuTPh">
       <property role="TrG5h" value="label" />
       <ref role="1YaFvo" to="un0u:1fYc781EA$j" resolve="Label" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="7qQ6PJuJ7tN">
-    <property role="TrG5h" value="typeof_PlatformReferenc" />
-    <property role="3GE5qa" value="OFXCore.platform" />
-    <node concept="3clFbS" id="7qQ6PJuJ7tO" role="18ibNy">
-      <node concept="1Z5TYs" id="7qQ6PJuJ7w4" role="3cqZAp">
-        <node concept="mw_s8" id="7qQ6PJuJ7wo" role="1ZfhKB">
-          <node concept="2c44tf" id="7qQ6PJuJ7wk" role="mwGJk">
-            <node concept="10P_77" id="7qQ6PJuJ7wF" role="2c44tc" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="7qQ6PJuJ7w7" role="1ZfhK$">
-          <node concept="1Z2H0r" id="7qQ6PJuJ7tU" role="mwGJk">
-            <node concept="1YBJjd" id="7qQ6PJuJ7um" role="1Z2MuG">
-              <ref role="1YBMHb" node="7qQ6PJuJ7tQ" resolve="pr" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="7qQ6PJuJ7tQ" role="1YuTPh">
-      <property role="TrG5h" value="pr" />
-      <ref role="1YaFvo" to="un0u:7qQ6PJuIQMW" resolve="PlatformReference" />
     </node>
   </node>
   <node concept="1YbPZF" id="7qQ6PJuKRt0">

@@ -5725,28 +5725,6 @@
                   </node>
                   <node concept="3clFbH" id="564QxPIQd5c" role="3cqZAp" />
                 </node>
-                <node concept="2OqwBi" id="564QxPIPG66" role="3clFbw">
-                  <node concept="10M0yZ" id="564QxPIOZhK" role="2Oq$k0">
-                    <ref role="3cqZAo" to="1e0c:1U$SEuk1n2B" resolve="sugarConfiguration" />
-                    <ref role="1PxDUh" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
-                  </node>
-                  <node concept="liA8E" id="564QxPIPKLM" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="2OqwBi" id="6BKPvpDl8Gx" role="37wK5m">
-                      <node concept="2OqwBi" id="564QxPIPLQS" role="2Oq$k0">
-                        <node concept="37vLTw" id="564QxPIPLNd" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
-                        </node>
-                        <node concept="liA8E" id="564QxPIPNir" role="2OqNvi">
-                          <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
-                        </node>
-                      </node>
-                      <node concept="liA8E" id="6BKPvpDl9$n" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
                 <node concept="9aQIb" id="564QxPIQ9ob" role="9aQIa">
                   <node concept="3clFbS" id="564QxPIQ9oc" role="9aQI4">
                     <node concept="3clFbF" id="564QxPIQayh" role="3cqZAp">
@@ -5783,6 +5761,19 @@
                     </node>
                     <node concept="3clFbH" id="564QxPIQbVU" role="3cqZAp" />
                     <node concept="3clFbH" id="564QxPIQfVd" role="3cqZAp" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="6BKPvpDl8Gx" role="3clFbw">
+                  <node concept="2OqwBi" id="564QxPIPLQS" role="2Oq$k0">
+                    <node concept="37vLTw" id="564QxPIPLNd" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="appFactory" />
+                    </node>
+                    <node concept="liA8E" id="564QxPIPNir" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6BKPvpDl9$n" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:7MWNCzY1Tm5" resolve="isSilentLogging" />
                   </node>
                 </node>
               </node>

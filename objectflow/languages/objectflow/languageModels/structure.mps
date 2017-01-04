@@ -4176,18 +4176,6 @@
       <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7qQ6PJuIQMW">
-    <property role="1pbfSe" value="1433503767" />
-    <property role="3GE5qa" value="OFXCore.platform" />
-    <property role="TrG5h" value="PlatformReference" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="7qQ6PJuIQMX" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="platform" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
-    </node>
-  </node>
   <node concept="AxPO7" id="7MWNCzXSMan">
     <property role="3GE5qa" value="OFXCore.platform" />
     <property role="TrG5h" value="PlatformLoggingOption" />

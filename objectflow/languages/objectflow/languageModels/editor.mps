@@ -11731,6 +11731,10 @@
         <node concept="3F0A7n" id="3nLPQZRgADe" role="2wV5jI">
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="VQ3r3" id="6UVqlHNxDlt" role="3F10Kt">
+            <property role="2USNnj" value="2" />
+          </node>
         </node>
       </node>
     </node>
@@ -12024,20 +12028,6 @@
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="l2Vlx" id="2IDWU6Z9f6S" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="7qQ6PJuIQN4">
-    <property role="3GE5qa" value="OFXCore.platform" />
-    <ref role="1XX52x" to="un0u:7qQ6PJuIQMW" resolve="PlatformReference" />
-    <node concept="1iCGBv" id="7qQ6PJuJ7tx" role="2wV5jI">
-      <ref role="1NtTu8" to="un0u:7qQ6PJuIQMX" />
-      <node concept="1sVBvm" id="7qQ6PJuJ7tz" role="1sWHZn">
-        <node concept="3F0A7n" id="7qQ6PJuJ7tE" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-        </node>
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="6A6XM2SiUnA">
