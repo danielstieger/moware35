@@ -28,6 +28,70 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 } 
 
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	word-wrap: break-word;
+	-webkit-text-size-adjust: none;
+	        text-size-adjust: none;
+	height: 100%;
+	font-weight: 300;
+	line-height: 1;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+/* ---- Material Icons Stuff ------------------------------------------------ */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(maticonsfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(maticonsfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(maticonsfont/MaterialIcons-Regular.woff) format('woff'),
+       url(maticonsfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: bottom;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+/* ---- Material Icons Stuff ------------------------------------------------ */
+
+
+
+
+
 button {
 	background: transparent; /* Fix for Chrome and Firefox OS */
 }
@@ -58,24 +122,10 @@ html, body {
 	overflow: hidden;
 }
 
-body {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	font-size: 16px;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	position: relative;
-	word-wrap: break-word;
-	-webkit-text-size-adjust: none;
-	        text-size-adjust: none;
-	height: 100%;
-	font-weight: 300;
-	line-height: 1;
-	color: rgb(0, 0, 0);
-	background-color: rgb(255, 255, 255);
-}
+
+
+
+
 
 /* ------------------------------------------------------------------ */
 /* dan custom */
@@ -103,42 +153,58 @@ body {
 }
 
 
-
-
 .fcButtonsDiv {
 	/* border: red 1px solid; */
 	clear: both;
-	height: 50px;
+	height: 36px;
 }
 
 .rightFCButton {
 	float: right;
-	text-align: right;
-	padding: 10px 20px 10px 20px !important;
-	margin: 5px 5px 5px 5px !important;
-	
+	text-align: center;
+	padding: 5px 5px 5px 5px !important;
+	margin: 2px 4px 2px 4px !important;
+	min-width: 85px;
 	color: white;
 	cursor: pointer;
 	background: #6b9ff4;
 }
 
 .rightFCButton:focus {
-    border: 4px solid #F69384 !important;
-    padding: 6px 16px 6px 16px !important;
+    border: 3px solid #F69384 !important;
+    padding: 2px 2px 2px 2px !important;
 
 }
 
 
 .rightFCButtonDisabled {
 	float: right;
-	text-align: right;
-	padding: 10px 20px 10px 20px !important;
-	margin: 5px 5px 5px 5px !important;
+	text-align: center;
+	padding: 5px 5px 5px 5px !important;
+	margin: 2px 4px 2px 4px !important;
 	
 	background: lightgray;
 	color: white;
 	cursor: default;
 }
+
+.rightFCButton .label, .rightFCButtonDisabled .label {
+	/* background: red; */
+	line-height: 22px;
+	font-weight: 500%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .activeLabel {
 	/* color: rgb(21, 125, 251); */
@@ -251,33 +317,38 @@ nav {
 
 nav button {
 	display: inline-block;
-	width: 85px; 
-/*	width: 90px; */ 
 	
+	min-width: 85px;
 	text-align: center;
-	/* font-size: 10px; */
-	/* line-height: 1em; */
-	padding: 10px 5px 10px 5px;
-	margin: 10px;
-	color: rgb(111, 111, 116);
-/* border: 1px solid red; */
 	background: #6b9ff4;
 	font-weight: 500;
 	color: white;
 	cursor: pointer;
+	padding: 10px 3px 10px 3px;
+	margin: 2px 4px 2px 4px; 
+}
+
+nav button:focus { 
+    border: 4px solid #F69384 !important;
+    padding: 6px 0px 6px 0px !important;
+}
+
+
+
+nav .label {
+	/* background: red; */
+	line-height: 22px;
+	font-weight: 500%;
 }
 
 nav .mysmallbutton {
-/*
-	width: 65px;
-	padding: 6px 5px 6px 5px;
-	margin: 5px;
-*/
+	min-width: 20px !important;
 	width: 24%;
 	padding: 10px 2px 10px 2px;
 	margin: 1px;
 	
 }
+
 [mykeyboardKey="+"],
 [mykeyboardKey="-"],
 [mykeyboardKey="<<"]
@@ -332,33 +403,12 @@ nav .mysmallbutton:focus{
 }
 
 
-nav button:focus { 
-    border: 4px solid #F69384 !important;
-    padding: 6px 1px 6px 1px !important;
-}
-
 nav button:disabled {
 	background: lightgray;
 	color: white;
 	cursor: default;
 }
 
-
-/* nav button.active {
-	color:rgb(21, 125, 251);
-} 
-
-nav button .btn-icon {
-	display: inline-block;
-	background-color: rgb(111, 111, 116);
-	height: 24px;
-	width: 24px;
-	margin-bottom: 2px;
-}
-
-nav button.active .btn-icon {
-	background-color:rgb(21, 125, 251);
-} */
 
 
 /* Views */
@@ -408,17 +458,11 @@ header button {
 	top: 0;
 	
 	right: 0;
-	text-align: right;
-	
+	text-align: right;	
 	display: inline-block;
-	/* width: 64px; */
-	/* text-align: center; */
-	/* font-size: 10px; */
-	/* line-height: 1em; */
 	padding: 10px 10px 10px 10px;
 	margin: 10px;
 	color: rgb(111, 111, 116);
-	/* border: 1px solid red; */
 	background: #6b9ff4;
 	font-weight: 500;
 	color: white;
@@ -435,75 +479,6 @@ header button:disabled {
 	color: white;
 	cursor: default;
 }
-
-
-/* header button {
-	position: absolute;
-	top: 0;
-	display: inline-block;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	font-size: 16px;
-	color:rgb(21, 125, 251);
-	padding: 0;
-	font-weight: 300;
-	height: 44px;
-	line-height: 44px;
-	text-overflow: ellipsis !important;
-	max-width: 140px;
-}
-header button:active {
-	opacity: 0.3;
-}
-header button.bold {
-	font-weight: 500;
-}
-header button.green {
-	color:rgb(41, 197, 25);
-}
-header button.disabled {
-	color:rgb(200, 199, 204);
-}
-header button.arrow {
-	background-size: 24px 44px;
-	background-repeat: no-repeat;
-}
-
-header button.left {
-	left:0;
-	padding-left: 9px;
-}
-
-header button.left.arrow {
-	padding-left: 23px;
-	background-image: url(../img/backBtn.svg);
-	background-position: left bottom;
-}
-
-header button.right {
-	right: 0;
-	text-align: right;
-	padding-right: 9px;
-}
-
-header button.right1 {
-	right: 120px;
-	text-align: right;
-	padding-right: 9px;
-}
-
-header button.right2 {
-	right: 240px;
-	text-align: right;
-	padding-right: 9px;
-}
-
-
-header button.right.arrow {
-	padding-right: 23px;
-	background-image: url(../img/nextBtn.svg);
-	background-position: right bottom;
-} */
-
 
 h1 {
 	display: block;
