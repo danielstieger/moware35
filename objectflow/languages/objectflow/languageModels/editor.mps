@@ -2545,11 +2545,15 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1xbJ1snViFP" role="3EZMnx">
-          <property role="3F0ifm" value="page pane switch:  // right now, determined before cmd init!" />
+          <property role="3F0ifm" value="page pane switch:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1xbJ1snViFQ" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
+        </node>
+        <node concept="3F0ifn" id="30IJG6q5nbN" role="3EZMnx">
+          <property role="3F0ifm" value="// right now, determined before cmd init!" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F2HdR" id="7qQ6PJuKRCI" role="3EZMnx">
           <ref role="1NtTu8" to="un0u:3nLPQZPUuMQ" />
@@ -2880,7 +2884,7 @@
           <ref role="1NtTu8" to="un0u:3IuMOEB7hjH" />
         </node>
         <node concept="3F0ifn" id="1rbZyOx3wxC" role="3EZMnx">
-          <property role="3F0ifm" value="command icon:" />
+          <property role="3F0ifm" value="default command icon:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="4W_zHnBGWvm" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -2888,6 +2892,16 @@
         </node>
         <node concept="3F1sOY" id="5nmfkjWvs$X" role="3EZMnx">
           <ref role="1NtTu8" to="un0u:5nmfkjWvqpZ" />
+        </node>
+        <node concept="3F0ifn" id="5ol$NvLoC9" role="3EZMnx">
+          <property role="3F0ifm" value="default command hotkey:" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="pVoyu" id="5ol$NvLoNF" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0A7n" id="5ol$NvLoLx" role="3EZMnx">
+          <ref role="1NtTu8" to="un0u:5ol$NvLo2O" resolve="defaultHotkey" />
         </node>
         <node concept="3F0ifn" id="6Rdz00$u1DJ" role="3EZMnx">
           <property role="3F0ifm" value="revert on EX / FINAL_CANCEL_CONCLUSION:" />

@@ -8000,7 +8000,49 @@
         <property role="TrG5h" value="msg" />
         <node concept="17QB3L" id="6QRLe84qa33" role="1tU5fm" />
       </node>
-      <node concept="3clFbS" id="6QRLe84qa34" role="3clF47" />
+      <node concept="3clFbS" id="6QRLe84qa34" role="3clF47">
+        <node concept="3clFbF" id="5ol$NvK0tn" role="3cqZAp">
+          <node concept="37vLTI" id="5ol$NvK0to" role="3clFbG">
+            <node concept="37vLTw" id="5ol$NvK0VA" role="37vLTx">
+              <ref role="3cqZAo" node="6QRLe84qa32" resolve="msg" />
+            </node>
+            <node concept="2OqwBi" id="5ol$NvK0tq" role="37vLTJ">
+              <node concept="AH0OO" id="5ol$NvK0tr" role="2Oq$k0">
+                <node concept="37vLTw" id="5ol$NvK0ts" role="AHEQo">
+                  <ref role="3cqZAo" node="77nEBgbqUOl" resolve="current" />
+                </node>
+                <node concept="37vLTw" id="5ol$NvK0tt" role="AHHXb">
+                  <ref role="3cqZAo" node="77nEBgbqTPl" resolve="cmds" />
+                </node>
+              </node>
+              <node concept="2OwXpG" id="5ol$NvK0tu" role="2OqNvi">
+                <ref role="2Oxat5" node="77nEBgbql1S" resolve="currentMsg" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5ol$NvK0tv" role="3cqZAp">
+          <node concept="37vLTI" id="5ol$NvK0tw" role="3clFbG">
+            <node concept="Rm8GO" id="5ol$NvK0tx" role="37vLTx">
+              <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_AppWindow.MsgType" />
+              <ref role="Rm8GQ" to="250q:4Ucpg8z6mvn" resolve="INFO" />
+            </node>
+            <node concept="2OqwBi" id="5ol$NvK0ty" role="37vLTJ">
+              <node concept="AH0OO" id="5ol$NvK0tz" role="2Oq$k0">
+                <node concept="37vLTw" id="5ol$NvK0t$" role="AHEQo">
+                  <ref role="3cqZAo" node="77nEBgbqUOl" resolve="current" />
+                </node>
+                <node concept="37vLTw" id="5ol$NvK0t_" role="AHHXb">
+                  <ref role="3cqZAo" node="77nEBgbqTPl" resolve="cmds" />
+                </node>
+              </node>
+              <node concept="2OwXpG" id="5ol$NvK0tA" role="2OqNvi">
+                <ref role="2Oxat5" node="77nEBgbql1P" resolve="currentMsgType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="6QRLe84qa35" role="jymVt">
       <property role="1EzhhJ" value="false" />

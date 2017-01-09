@@ -765,6 +765,10 @@
       <property role="TrG5h" value="newCommandType" />
       <ref role="AX2Wp" node="6Rdz00$tuDi" resolve="O2CommandType" />
     </node>
+    <node concept="1TJgyi" id="5ol$NvLo2O" role="1TKVEl">
+      <property role="TrG5h" value="defaultHotkey" />
+      <ref role="AX2Wp" node="1hImSMr5NSl" resolve="Hotkey" />
+    </node>
     <node concept="1TJgyi" id="vsIEjN26kM" role="1TKVEl">
       <property role="TrG5h" value="commandCommitType" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -839,7 +843,7 @@
     </node>
     <node concept="1TJgyj" id="5nmfkjWvqpZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="icon" />
+      <property role="20kJfa" value="defaultIcon" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="6Rdz00$tXkn" role="1TKVEi">
@@ -3584,14 +3588,10 @@
     <property role="34LRSv" value="action" />
     <property role="R4oN_" value="run a command from here" />
     <ref role="1TJDcQ" node="3n7eUMgsANq" resolve="CommandCallBasis" />
-    <node concept="1TJgyi" id="2aCEJxo$e10" role="1TKVEl">
-      <property role="TrG5h" value="hotkey" />
-      <ref role="AX2Wp" node="1hImSMr5NSl" resolve="Hotkey" />
-    </node>
-    <node concept="1TJgyj" id="2aCEJxo$e0Y" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="label" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="5ol$NvP0y3" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="customLabel" />
+      <ref role="20lvS9" node="1fYc781EA$j" resolve="Label" />
     </node>
     <node concept="PrWs8" id="3nLPQZQBfmQ" role="PzmwI">
       <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
@@ -4167,13 +4167,13 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="text" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="1fYc781EA_E" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="icon" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
   <node concept="AxPO7" id="7MWNCzXSMan">

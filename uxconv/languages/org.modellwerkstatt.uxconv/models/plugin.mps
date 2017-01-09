@@ -8813,12 +8813,12 @@
                             <node concept="3cpWsn" id="3nLPQZQ27yU" role="3cpWs9">
                               <property role="TrG5h" value="apl" />
                               <node concept="3Tqbb2" id="3nLPQZQ27yP" role="1tU5fm">
-                                <ref role="ehGHo" to="un0u:3nLPQZPUuMl" resolve="ActionProviderLink" />
+                                <ref role="ehGHo" to="un0u:3nLPQZPUuMl" resolve="PagePaneActionProviderLink" />
                               </node>
                               <node concept="2ShNRf" id="3nLPQZQ28wE" role="33vP2m">
                                 <node concept="3zrR0B" id="3nLPQZQ28oF" role="2ShVmc">
                                   <node concept="3Tqbb2" id="3nLPQZQ28oG" role="3zrR0E">
-                                    <ref role="ehGHo" to="un0u:3nLPQZPUuMl" resolve="ActionProviderLink" />
+                                    <ref role="ehGHo" to="un0u:3nLPQZPUuMl" resolve="PagePaneActionProviderLink" />
                                   </node>
                                 </node>
                               </node>
@@ -9931,27 +9931,13 @@
                         </node>
                       </node>
                       <node concept="3clFbH" id="3nLPQZQ3eON" role="3cqZAp" />
-                      <node concept="3clFbF" id="2aCEJxoCwMJ" role="3cqZAp">
-                        <node concept="37vLTI" id="2aCEJxoCxZ8" role="3clFbG">
-                          <node concept="2OqwBi" id="2aCEJxoCzy5" role="37vLTx">
-                            <node concept="37vLTw" id="2aCEJxoCSYN" role="2Oq$k0">
-                              <ref role="3cqZAo" node="2aCEJxoCMws" resolve="ct" />
-                            </node>
-                            <node concept="3TrcHB" id="2aCEJxoCzQl" role="2OqNvi">
-                              <ref role="3TsBF5" to="sgb:OmBzHGl7cK" resolve="hotkey" />
-                            </node>
-                          </node>
-                          <node concept="2OqwBi" id="2aCEJxoCwZA" role="37vLTJ">
-                            <node concept="37vLTw" id="2aCEJxoCwMH" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3nLPQZQ35ZR" resolve="ma" />
-                            </node>
-                            <node concept="3TrcHB" id="2aCEJxoCxrb" role="2OqNvi">
-                              <ref role="3TsBF5" to="un0u:2aCEJxo$e10" resolve="hotkey" />
-                            </node>
-                          </node>
+                      <node concept="3SKdUt" id="5ol$NvPfep" role="3cqZAp">
+                        <node concept="3SKdUq" id="5ol$NvPfer" role="3SKWNk">
+                          <property role="3SKdUp" value="ma.hotkey = ct.hotkey" />
                         </node>
                       </node>
                       <node concept="3clFbH" id="2aCEJxoCL5K" role="3cqZAp" />
+                      <node concept="3clFbH" id="5ol$NvPd_K" role="3cqZAp" />
                       <node concept="3clFbJ" id="2aCEJxoCUiA" role="3cqZAp">
                         <node concept="3clFbS" id="2aCEJxoCUiC" role="3clFbx">
                           <node concept="3cpWs8" id="2aCEJxoD5R3" role="3cqZAp">
@@ -9992,19 +9978,9 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3clFbF" id="2aCEJxoDicN" role="3cqZAp">
-                            <node concept="37vLTI" id="2aCEJxoDk7A" role="3clFbG">
-                              <node concept="37vLTw" id="2aCEJxoDkSd" role="37vLTx">
-                                <ref role="3cqZAo" node="2aCEJxoD5R6" resolve="sl" />
-                              </node>
-                              <node concept="2OqwBi" id="2aCEJxoDiM$" role="37vLTJ">
-                                <node concept="37vLTw" id="2aCEJxoDicL" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3nLPQZQ35ZR" resolve="ma" />
-                                </node>
-                                <node concept="3TrEf2" id="2aCEJxoDj9c" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="un0u:2aCEJxo$e0Y" />
-                                </node>
-                              </node>
+                          <node concept="3SKdUt" id="5ol$NvPjQi" role="3cqZAp">
+                            <node concept="3SKdUq" id="5ol$NvPjQk" role="3SKWNk">
+                              <property role="3SKdUp" value="ma.label = sl " />
                             </node>
                           </node>
                         </node>
