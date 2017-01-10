@@ -157,6 +157,13 @@ html, body {
 	line-height: normal;
 }
 
+.narrorMin {
+	min-width: 50px;
+}
+
+.wideMin {
+	min-width: 85px;
+}
 
 .fcButtonsDiv {
 	/* border: red 1px solid; */
@@ -169,7 +176,6 @@ html, body {
 	text-align: center;
 	padding: 5px 5px 5px 5px !important;
 	margin: 2px 4px 2px 4px !important;
-	min-width: 50px;
 	
 	background: #6b9ff4;
 	color: white;
@@ -188,8 +194,7 @@ html, body {
 	text-align: center;
 	padding: 5px 5px 5px 5px !important;
 	margin: 2px 4px 2px 4px !important;
-	min-width: 50px;
-	
+
 	background: lightgray;
 	color: white;
 	cursor: default;
@@ -325,7 +330,6 @@ nav {
 nav button {
 	display: inline-block;
 	
-	min-width: 85px;
 	text-align: center;
 	background: #6b9ff4;
 	font-weight: 500;
