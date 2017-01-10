@@ -169,10 +169,11 @@ html, body {
 	text-align: center;
 	padding: 5px 5px 5px 5px !important;
 	margin: 2px 4px 2px 4px !important;
-	min-width: 85px;
+	min-width: 50px;
+	
+	background: #6b9ff4;
 	color: white;
 	cursor: pointer;
-	background: #6b9ff4;
 }
 
 .rightFCButton:focus {
@@ -187,6 +188,7 @@ html, body {
 	text-align: center;
 	padding: 5px 5px 5px 5px !important;
 	margin: 2px 4px 2px 4px !important;
+	min-width: 50px;
 	
 	background: lightgray;
 	color: white;
