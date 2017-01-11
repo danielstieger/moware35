@@ -738,7 +738,7 @@
     <node concept="1TJgyj" id="3nLPQZPUuMQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pagePaneActionProviderLink" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="3nLPQZPUuMl" resolve="PagePaneActionProviderLink" />
     </node>
     <node concept="PrWs8" id="7AldN8RXdkW" role="PzmwI">

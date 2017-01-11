@@ -10432,7 +10432,7 @@
     </node>
   </node>
   <node concept="312cEu" id="$arjoT88Li">
-    <property role="TrG5h" value="OldHafinaDefaults" />
+    <property role="TrG5h" value="Fx8IconDefaults" />
     <node concept="3Tm1VV" id="$arjoT88Lj" role="1B3o_S" />
     <node concept="Wx3nA" id="$arjoT88Lo" role="jymVt">
       <property role="TrG5h" value="ICON_NEW" />
