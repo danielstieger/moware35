@@ -4175,6 +4175,12 @@
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="1E9WFYpEShv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1E9WFYpESfw" resolve="ILabelSpecificationOption" />
+    </node>
   </node>
   <node concept="AxPO7" id="7MWNCzXSMan">
     <property role="3GE5qa" value="OFXCore.platform" />
@@ -4232,6 +4238,21 @@
     <node concept="1TJgyi" id="6BKPvpCXlV1" role="1TKVEl">
       <property role="TrG5h" value="variant" />
       <ref role="AX2Wp" to="r5tz:3NBIlSkjqX8" resolve="ManMapVariant" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1E9WFYpESfw">
+    <property role="1pbfSe" value="1271564641" />
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="ILabelSpecificationOption" />
+  </node>
+  <node concept="1TIwiD" id="1E9WFYpESlv">
+    <property role="1pbfSe" value="1271564258" />
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="HideOnDisabledLabelSpacOpt" />
+    <property role="34LRSv" value="HIDE" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1E9WFYpESmh" role="PzmwI">
+      <ref role="PrY4T" node="1E9WFYpESfw" resolve="ILabelSpecificationOption" />
     </node>
   </node>
 </model>

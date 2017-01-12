@@ -6519,12 +6519,12 @@
                   <node concept="1bVj0M" id="6QGCiYWFqDb" role="23t8la">
                     <node concept="3clFbS" id="6QGCiYWFqDc" role="1bW5cS">
                       <node concept="3clFbF" id="6QGCiYWFqNw" role="3cqZAp">
-                        <node concept="2OqwBi" id="6QGCiYWFqS8" role="3clFbG">
-                          <node concept="37vLTw" id="6QGCiYWFqNv" role="2Oq$k0">
+                        <node concept="2OqwBi" id="1E9WFYq46Tb" role="3clFbG">
+                          <node concept="37vLTw" id="1E9WFYq46Jy" role="2Oq$k0">
                             <ref role="3cqZAo" node="6QGCiYWFqDd" resolve="it" />
                           </node>
-                          <node concept="liA8E" id="6QGCiYWFqWP" role="2OqNvi">
-                            <ref role="37wK5l" to="yg8v:5ol$Nw0OjT" resolve="isGlobalHotkey" />
+                          <node concept="2OwXpG" id="1E9WFYq471j" role="2OqNvi">
+                            <ref role="2Oxat5" to="yg8v:5ol$Nw0PJO" resolve="globalHotkey" />
                           </node>
                         </node>
                       </node>
@@ -6702,6 +6702,17 @@
                     <node concept="liA8E" id="5ol$Nw1alv" role="2OqNvi">
                       <ref role="37wK5l" to="28jr:7MWNCzY1TB2" resolve="getHotKeyForLabel" />
                       <node concept="37vLTw" id="5ol$Nw1cfj" role="37wK5m">
+                        <ref role="3cqZAo" node="5ol$Nw1b2N" resolve="labelName" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="1E9WFYq478w" role="37wK5m">
+                    <node concept="37vLTw" id="1E9WFYq478x" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5ol$NvYM$D" resolve="platform" />
+                    </node>
+                    <node concept="liA8E" id="1E9WFYq478y" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:1E9WFYpMBAE" resolve="isHideOnDisabledForLabel" />
+                      <node concept="37vLTw" id="1E9WFYq478z" role="37wK5m">
                         <ref role="3cqZAo" node="5ol$Nw1b2N" resolve="labelName" />
                       </node>
                     </node>
@@ -8534,6 +8545,22 @@
                                   <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
                                 </node>
                                 <node concept="liA8E" id="5ol$Nw2mXT" role="2OqNvi">
+                                  <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="1E9WFYq40Dm" role="37wK5m">
+                              <node concept="liA8E" id="1E9WFYq40Dn" role="2OqNvi">
+                                <ref role="37wK5l" to="28jr:1E9WFYpMBAE" resolve="isHideOnDisabledForLabel" />
+                                <node concept="37vLTw" id="1E9WFYq40Do" role="37wK5m">
+                                  <ref role="3cqZAo" node="5ol$Nw26$Z" resolve="labelName" />
+                                </node>
+                              </node>
+                              <node concept="2OqwBi" id="1E9WFYq40Dp" role="2Oq$k0">
+                                <node concept="37vLTw" id="1E9WFYq40Dq" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="20ohnkbzFtw" resolve="uiFactory" />
+                                </node>
+                                <node concept="liA8E" id="1E9WFYq40Dr" role="2OqNvi">
                                   <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
                                 </node>
                               </node>
@@ -13694,6 +13721,22 @@
                             <ref role="3cqZAo" node="7MWNCzY61on" resolve="conclusion" />
                           </node>
                           <node concept="liA8E" id="7MWNCzY63h8" role="2OqNvi">
+                            <ref role="37wK5l" to="28jr:7MWNCzY27MC" resolve="getLabelName" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="1E9WFYpMBkT" role="37wK5m">
+                      <node concept="37vLTw" id="1E9WFYpMBgv" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7MWNCzY5Ug8" resolve="platform" />
+                      </node>
+                      <node concept="liA8E" id="1E9WFYpMBvC" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:1E9WFYpMBAE" resolve="isHideOnDisabledForLabel" />
+                        <node concept="2OqwBi" id="1E9WFYpMGkw" role="37wK5m">
+                          <node concept="37vLTw" id="1E9WFYpMGgd" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7MWNCzY61on" resolve="conclusion" />
+                          </node>
+                          <node concept="liA8E" id="1E9WFYpMGpk" role="2OqNvi">
                             <ref role="37wK5l" to="28jr:7MWNCzY27MC" resolve="getLabelName" />
                           </node>
                         </node>

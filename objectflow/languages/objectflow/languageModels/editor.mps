@@ -12028,15 +12028,19 @@
         <ref role="1NtTu8" to="un0u:1fYc781EA_E" />
       </node>
       <node concept="3F0ifn" id="2IDWU6Z9f6P" role="3EZMnx">
-        <property role="3F0ifm" value="(hk" />
+        <property role="3F0ifm" value="hk" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F0A7n" id="2IDWU6Z9f6Q" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:1fYc781EADr" resolve="hotkey" />
       </node>
-      <node concept="3F0ifn" id="2IDWU6Z9f6R" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      <node concept="3F2HdR" id="1E9WFYpESjV" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:1E9WFYpEShv" />
+        <node concept="l2Vlx" id="1E9WFYpESjX" role="2czzBx" />
+        <node concept="3F0ifn" id="1E9WFYpESkn" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;&gt;" />
+        </node>
       </node>
       <node concept="l2Vlx" id="2IDWU6Z9f6S" role="2iSdaV" />
     </node>
@@ -12108,6 +12112,14 @@
         <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
       </node>
       <node concept="l2Vlx" id="6BKPvpCUsI3" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1E9WFYpESot">
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <ref role="1XX52x" to="un0u:1E9WFYpESlv" resolve="HideOnDisabled" />
+    <node concept="PMmxH" id="1E9WFYpESoH" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
     </node>
   </node>
 </model>
