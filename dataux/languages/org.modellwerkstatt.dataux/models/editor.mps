@@ -1971,14 +1971,14 @@
                 <node concept="3clFbS" id="1TTN6_t2q3Y" role="3clFbx">
                   <node concept="3cpWs6" id="1TTN6_t2rQG" role="3cqZAp">
                     <node concept="Xl_RD" id="1TTN6_t2rU1" role="3cqZAk">
-                      <property role="Xl_RC" value="// global" />
+                      <property role="Xl_RC" value="// global hk" />
                     </node>
                   </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="1TTN6_t2sb9" role="3cqZAp">
                 <node concept="Xl_RD" id="1TTN6_t2scx" role="3cqZAk">
-                  <property role="Xl_RC" value="// when focussed" />
+                  <property role="Xl_RC" value="// hk when focussed" />
                 </node>
               </node>
             </node>
@@ -1992,7 +1992,7 @@
     <property role="3GE5qa" value="internalInfra" />
     <ref role="1XX52x" to="1btx:2aCEJxoChNG" resolve="MenuSeparator" />
     <node concept="3F0ifn" id="2aCEJxoCqx7" role="2wV5jI">
-      <property role="3F0ifm" value="- -" />
+      <property role="3F0ifm" value="- - - -" />
       <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
     </node>
   </node>

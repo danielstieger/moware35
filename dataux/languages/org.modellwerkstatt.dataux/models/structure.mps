@@ -896,7 +896,7 @@
     <property role="1pbfSe" value="2068432868" />
     <property role="3GE5qa" value="internalInfra" />
     <property role="TrG5h" value="MenuSeparator" />
-    <property role="34LRSv" value="- -" />
+    <property role="34LRSv" value="- - - -" />
     <property role="R4oN_" value="menu separator" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
