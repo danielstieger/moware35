@@ -3034,8 +3034,8 @@
     <property role="1pbfSe" value="144796260" />
     <property role="3GE5qa" value="OFXTest.statements" />
     <property role="TrG5h" value="OFXTestPrintStatement" />
-    <property role="34LRSv" value="print" />
-    <property role="R4oN_" value="debug message" />
+    <property role="34LRSv" value="logTest" />
+    <property role="R4oN_" value="test debug message" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="2w93nZwA5NA" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

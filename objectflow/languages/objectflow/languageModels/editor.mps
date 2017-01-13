@@ -9162,7 +9162,7 @@
     <ref role="1XX52x" to="un0u:2w93nZwA5N_" resolve="OFXTestPrintStatement" />
     <node concept="3EZMnI" id="2w93nZwA98h" role="2wV5jI">
       <node concept="3F0ifn" id="2w93nZwA98o" role="3EZMnx">
-        <property role="3F0ifm" value="print" />
+        <property role="3F0ifm" value="logTest" />
         <ref role="1k5W1q" node="5Ee0EjqYhaR" resolve="O2Statement" />
       </node>
       <node concept="3F1sOY" id="2w93nZwA98u" role="3EZMnx">
@@ -12116,7 +12116,7 @@
   </node>
   <node concept="24kQdi" id="1E9WFYpESot">
     <property role="3GE5qa" value="OFXCore.platform" />
-    <ref role="1XX52x" to="un0u:1E9WFYpESlv" resolve="HideOnDisabled" />
+    <ref role="1XX52x" to="un0u:1E9WFYpESlv" resolve="HideOnDisabledLabelSpacOpt" />
     <node concept="PMmxH" id="1E9WFYpESoH" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
