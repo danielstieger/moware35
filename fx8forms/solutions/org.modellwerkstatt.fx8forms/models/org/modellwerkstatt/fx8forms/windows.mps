@@ -27518,16 +27518,16 @@
     </node>
     <node concept="2tJIrI" id="4hTkCaL9AyU" role="jymVt" />
     <node concept="2tJIrI" id="4hTkCaL9AD2" role="jymVt" />
+    <node concept="312cEg" id="4hTkCaL9zYd" role="jymVt">
+      <property role="TrG5h" value="pane" />
+      <node concept="3Tm1VV" id="4hTkCaL9zZE" role="1B3o_S" />
+      <node concept="3uibUv" id="4hTkCaL9zYs" role="1tU5fm">
+        <ref role="3uigEE" to="l152:~BorderPane" resolve="BorderPane" />
+      </node>
+    </node>
     <node concept="312cEu" id="4hTkCaL9zJu" role="jymVt">
       <property role="2bfB8j" value="false" />
       <property role="TrG5h" value="BorderPaneAndSize" />
-      <node concept="312cEg" id="4hTkCaL9zYd" role="jymVt">
-        <property role="TrG5h" value="pane" />
-        <node concept="3Tm1VV" id="4hTkCaL9zZE" role="1B3o_S" />
-        <node concept="3uibUv" id="4hTkCaL9zYs" role="1tU5fm">
-          <ref role="3uigEE" to="l152:~BorderPane" resolve="BorderPane" />
-        </node>
-      </node>
       <node concept="312cEg" id="4hTkCaL9zYM" role="jymVt">
         <property role="TrG5h" value="initialSize" />
         <node concept="3Tm1VV" id="4hTkCaL9zZV" role="1B3o_S" />

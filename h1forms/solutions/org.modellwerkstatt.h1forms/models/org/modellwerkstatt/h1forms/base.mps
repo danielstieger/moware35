@@ -10844,6 +10844,11 @@
                         <property role="3SKdUp" value="conclusions, not virtual keyboard." />
                       </node>
                     </node>
+                    <node concept="3SKdUt" id="2kDkBbKJvgW" role="3cqZAp">
+                      <node concept="3SKdUq" id="2kDkBbKJvgY" role="3SKWNk">
+                        <property role="3SKdUp" value="do not use the text cmds[activeCmd].escButtonText" />
+                      </node>
+                    </node>
                     <node concept="3clFbF" id="75445jw7UdO" role="3cqZAp">
                       <node concept="2OqwBi" id="75445jw7UqC" role="3clFbG">
                         <node concept="37vLTw" id="75445jw7UdM" role="2Oq$k0">
@@ -10858,18 +10863,8 @@
                             <node concept="1pGfFk" id="4FeXrhEBFHi" role="2ShVmc">
                               <ref role="37wK5l" to="28jr:6dnXV8mHmm_" resolve="OFXConclusionInformation" />
                               <node concept="10Nm6u" id="4FeXrhEBFM3" role="37wK5m" />
-                              <node concept="2OqwBi" id="49rIjELHoJj" role="37wK5m">
-                                <node concept="AH0OO" id="49rIjELHoFa" role="2Oq$k0">
-                                  <node concept="37vLTw" id="49rIjELHoFb" role="AHEQo">
-                                    <ref role="3cqZAo" node="6QX7KB50ZSn" resolve="activeCmd" />
-                                  </node>
-                                  <node concept="37vLTw" id="49rIjELHoFc" role="AHHXb">
-                                    <ref role="3cqZAo" node="77nEBgbqTPl" resolve="cmds" />
-                                  </node>
-                                </node>
-                                <node concept="2OwXpG" id="49rIjELHoRb" role="2OqNvi">
-                                  <ref role="2Oxat5" node="49rIjELHle1" resolve="escButtonText" />
-                                </node>
+                              <node concept="Xl_RD" id="2kDkBbKJvq6" role="37wK5m">
+                                <property role="Xl_RC" value="" />
                               </node>
                               <node concept="Xl_RD" id="2w5UnVowVN7" role="37wK5m">
                                 <property role="Xl_RC" value="backspace" />
