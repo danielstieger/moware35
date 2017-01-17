@@ -3333,14 +3333,14 @@
           <node concept="3clFbS" id="3iT39CZixN" role="3clFbx">
             <node concept="3cpWs6" id="3iT39CZixO" role="3cqZAp">
               <node concept="Xl_RD" id="3iT39CZixP" role="3cqZAk">
-                <property role="Xl_RC" value="dont_exec: Remove from this test." />
+                <property role="Xl_RC" value="dont exec: Remove from this test." />
               </node>
             </node>
           </node>
         </node>
         <node concept="3cpWs6" id="3iT39CZixQ" role="3cqZAp">
           <node concept="Xl_RD" id="3iT39CZixR" role="3cqZAk">
-            <property role="Xl_RC" value="dont_exec: Add to this test." />
+            <property role="Xl_RC" value="dont exec: Add to this test." />
           </node>
         </node>
       </node>
@@ -3362,7 +3362,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="3iT39CZiy0" role="3cqZAp" />
-        <node concept="3clFbH" id="3iT39D4gBn" role="3cqZAp" />
         <node concept="3cpWs8" id="3iT39CZiya" role="3cqZAp">
           <node concept="3cpWsn" id="3iT39CZiyb" role="3cpWs9">
             <property role="TrG5h" value="dontExecOption" />
@@ -3638,7 +3637,7 @@
       <node concept="3clFbS" id="3iT39D7Ev$" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7Ev_" role="3cqZAp">
           <node concept="Xl_RD" id="3iT39D7EvA" role="3cqZAk">
-            <property role="Xl_RC" value="dont_exec: Add to ALL executable tests." />
+            <property role="Xl_RC" value="dont exec: Add to ALL executable tests." />
           </node>
         </node>
       </node>
@@ -3714,7 +3713,7 @@
       <node concept="3clFbS" id="3iT39D7HSe" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7HSf" role="3cqZAp">
           <node concept="Xl_RD" id="3iT39D7HSg" role="3cqZAk">
-            <property role="Xl_RC" value="dont_exec: Remove from ALL executable tests." />
+            <property role="Xl_RC" value="dont exec: Remove from ALL executable tests." />
           </node>
         </node>
       </node>
@@ -4332,7 +4331,7 @@
       <node concept="3clFbS" id="2i3o0hedmxU" role="2VODD2">
         <node concept="3cpWs6" id="2i3o0hedmy6" role="3cqZAp">
           <node concept="Xl_RD" id="2i3o0hedmy7" role="3cqZAk">
-            <property role="Xl_RC" value="dont_exec: Add to ALL OTHER tests." />
+            <property role="Xl_RC" value="dont exec: Add to ALL OTHER tests." />
           </node>
         </node>
       </node>
@@ -4908,6 +4907,160 @@
           <node concept="2OqwBi" id="59ImdfaKnWL" role="3clFbG">
             <node concept="2Sf5sV" id="59ImdfaKnUJ" role="2Oq$k0" />
             <node concept="1PgB_6" id="59ImdfaKo1B" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="4I$W9XJsjyn">
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="DependentToggel" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+    <node concept="2S6ZIM" id="4I$W9XJsjyo" role="2ZfVej">
+      <node concept="3clFbS" id="4I$W9XJsjyp" role="2VODD2">
+        <node concept="3SKdUt" id="4I$W9XJsjyq" role="3cqZAp">
+          <node concept="3SKdUq" id="4I$W9XJsjyr" role="3SKWNk">
+            <property role="3SKdUp" value="You can always remove do not exec ... " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4I$W9XJsjys" role="3cqZAp">
+          <node concept="3y3z36" id="4I$W9XJsjyt" role="3clFbw">
+            <node concept="10Nm6u" id="4I$W9XJsjyu" role="3uHU7w" />
+            <node concept="2OqwBi" id="4I$W9XJsjyv" role="3uHU7B">
+              <node concept="2Sf5sV" id="4I$W9XJsjyw" role="2Oq$k0" />
+              <node concept="2qgKlT" id="4I$W9XJskQZ" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3KPvoWv6UwU" resolve="getDependentOption" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="4I$W9XJsjyy" role="3clFbx">
+            <node concept="3cpWs6" id="4I$W9XJsjyz" role="3cqZAp">
+              <node concept="Xl_RD" id="4I$W9XJsjy$" role="3cqZAk">
+                <property role="Xl_RC" value="dependent: Remove from this test." />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="4I$W9XJsjy_" role="3cqZAp">
+          <node concept="Xl_RD" id="4I$W9XJsjyA" role="3cqZAk">
+            <property role="Xl_RC" value="dependent: Add to this test." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="4I$W9XJsjyB" role="2ZfgGD">
+      <node concept="3clFbS" id="4I$W9XJsjyC" role="2VODD2">
+        <node concept="3cpWs8" id="4I$W9XJsjyD" role="3cqZAp">
+          <node concept="3cpWsn" id="4I$W9XJsjyE" role="3cpWs9">
+            <property role="TrG5h" value="editorNode" />
+            <node concept="3uibUv" id="4I$W9XJsjyF" role="1tU5fm">
+              <ref role="3uigEE" to="mhbf:~SNode" resolve="SNode" />
+            </node>
+            <node concept="2OqwBi" id="4I$W9XJsjyG" role="33vP2m">
+              <node concept="1XNTG" id="4I$W9XJsjyH" role="2Oq$k0" />
+              <node concept="liA8E" id="4I$W9XJsjyI" role="2OqNvi">
+                <ref role="37wK5l" to="cj4x:~EditorContext.getSelectedNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSelectedNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4I$W9XJsjyJ" role="3cqZAp" />
+        <node concept="3clFbH" id="4I$W9XJsjyK" role="3cqZAp" />
+        <node concept="3cpWs8" id="4I$W9XJsjyL" role="3cqZAp">
+          <node concept="3cpWsn" id="4I$W9XJsjyM" role="3cpWs9">
+            <property role="TrG5h" value="dependentOption" />
+            <node concept="3Tqbb2" id="4I$W9XJsjyN" role="1tU5fm">
+              <ref role="ehGHo" to="un0u:3KPvoWv6Cnk" resolve="OFXTestSuitDependentOption" />
+            </node>
+            <node concept="2OqwBi" id="4I$W9XJsjyO" role="33vP2m">
+              <node concept="2Sf5sV" id="4I$W9XJsjyP" role="2Oq$k0" />
+              <node concept="2qgKlT" id="4I$W9XJswMD" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3KPvoWv6UwU" resolve="getDependentOption" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="4I$W9XJsjyR" role="3cqZAp">
+          <node concept="3y3z36" id="4I$W9XJsjyS" role="3clFbw">
+            <node concept="10Nm6u" id="4I$W9XJsjyT" role="3uHU7w" />
+            <node concept="37vLTw" id="4I$W9XJsjyU" role="3uHU7B">
+              <ref role="3cqZAo" node="4I$W9XJsjyM" resolve="dependentOption" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="4I$W9XJsjyV" role="3clFbx">
+            <node concept="3clFbF" id="4I$W9XJsjyW" role="3cqZAp">
+              <node concept="2OqwBi" id="4I$W9XJsjyX" role="3clFbG">
+                <node concept="37vLTw" id="4I$W9XJsjyY" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4I$W9XJsjyM" resolve="dependentOption" />
+                </node>
+                <node concept="1PgB_6" id="4I$W9XJsjyZ" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="4I$W9XJsjz0" role="9aQIa">
+            <node concept="3clFbS" id="4I$W9XJsjz1" role="9aQI4">
+              <node concept="3SKdUt" id="4I$W9XJsjz2" role="3cqZAp">
+                <node concept="3SKdUq" id="4I$W9XJsjz3" role="3SKWNk">
+                  <property role="3SKdUp" value="create Debug Option" />
+                </node>
+              </node>
+              <node concept="3clFbF" id="4I$W9XJsjz4" role="3cqZAp">
+                <node concept="2OqwBi" id="4I$W9XJsjz5" role="3clFbG">
+                  <node concept="2Sf5sV" id="4I$W9XJsjz6" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="4I$W9XJsCHR" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:4I$W9XJswTq" resolve="addDependentOption" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4I$W9XJsjz8" role="3cqZAp" />
+        <node concept="3clFbF" id="4I$W9XJsjz9" role="3cqZAp">
+          <node concept="2OqwBi" id="4I$W9XJsjza" role="3clFbG">
+            <node concept="1XNTG" id="4I$W9XJsjzb" role="2Oq$k0" />
+            <node concept="liA8E" id="4I$W9XJsjzc" role="2OqNvi">
+              <ref role="37wK5l" to="cj4x:~EditorContext.select(org.jetbrains.mps.openapi.model.SNode):void" resolve="select" />
+              <node concept="37vLTw" id="4I$W9XJsjzd" role="37wK5m">
+                <ref role="3cqZAo" node="4I$W9XJsjyE" resolve="editorNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="4I$W9XJsjze" role="2ZfVeh">
+      <node concept="3clFbS" id="4I$W9XJsjzf" role="2VODD2">
+        <node concept="3clFbJ" id="4I$W9XJsjzg" role="3cqZAp">
+          <node concept="22lmx$" id="4I$W9XJsjzh" role="3clFbw">
+            <node concept="2OqwBi" id="4I$W9XJsjzi" role="3uHU7w">
+              <node concept="2Sf5sV" id="4I$W9XJsjzj" role="2Oq$k0" />
+              <node concept="2qgKlT" id="4I$W9XJsjzk" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3iT39CYUne" resolve="isPotentiallyToExecute" />
+              </node>
+            </node>
+            <node concept="3y3z36" id="4I$W9XJsjzl" role="3uHU7B">
+              <node concept="2OqwBi" id="4I$W9XJsjzm" role="3uHU7B">
+                <node concept="2Sf5sV" id="4I$W9XJsjzn" role="2Oq$k0" />
+                <node concept="2qgKlT" id="4I$W9XJspRo" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:3KPvoWv6UwU" resolve="getDependentOption" />
+                </node>
+              </node>
+              <node concept="10Nm6u" id="4I$W9XJsjzp" role="3uHU7w" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="4I$W9XJsjzq" role="3clFbx">
+            <node concept="3cpWs6" id="4I$W9XJsjzr" role="3cqZAp">
+              <node concept="3clFbT" id="4I$W9XJsjzs" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4I$W9XJsjzt" role="3cqZAp">
+          <node concept="3clFbT" id="4I$W9XJsjzu" role="3clFbG">
+            <property role="3clFbU" value="false" />
           </node>
         </node>
       </node>

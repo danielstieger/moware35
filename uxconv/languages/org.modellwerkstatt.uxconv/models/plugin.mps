@@ -15892,7 +15892,7 @@
   </node>
   <node concept="sE7Ow" id="1FwnT8RkwW_">
     <property role="TrG5h" value="A8_MovePagePanes" />
-    <property role="2uzpH1" value="(8) Move Page Panes" />
+    <property role="2uzpH1" value="(8) DEP [Move Page Panes]" />
     <property role="72QZ$" value="true" />
     <property role="fJN8o" value="true" />
     <property role="1WHSii" value="ux converter" />

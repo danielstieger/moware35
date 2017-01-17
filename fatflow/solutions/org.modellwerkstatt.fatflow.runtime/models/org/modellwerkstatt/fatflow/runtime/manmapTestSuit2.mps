@@ -284,6 +284,9 @@
         <property id="2423238041810352535" name="hour" index="xWaIY" />
         <property id="2423238041810352534" name="day" index="xWaIZ" />
       </concept>
+      <concept id="4338511869696968148" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDependentOption" flags="ng" index="zbZxr">
+        <reference id="4338511869696968277" name="test" index="zbZJq" />
+      </concept>
       <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
         <child id="478945708906902061" name="elements" index="2CGBMS" />
@@ -414,7 +417,8 @@
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
-      <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
+      <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
+        <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
       </concept>
       <concept id="3292003893123123200" name="org.modellwerkstatt.objectflow.structure.IsNull" flags="ng" index="1Poggp" />
@@ -11905,11 +11909,11 @@
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="Creators" />
     <node concept="J2Nxi" id="7mZ5ilqNXRI" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
+      <property role="J2Nxv" value="C:/moware/fatflow/testdata/" />
       <property role="TrG5h" value="GRAPHS" />
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/sqls/" />
+      <property role="J2Nxv" value="C:/moware/fatflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">
@@ -15183,28 +15187,36 @@
     <property role="TrG5h" value="ALL ALL ManMap Testsuits" />
     <ref role="2WPtWl" node="7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
     <node concept="1DZZI9" id="mdK6Eyzssw" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="3ZVRjXSLS2A" resolve="TestSuit Test" />
     </node>
     <node concept="1DZZI9" id="67iuXo6Bskn" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="W1NYBghgSL" resolve="Audit" />
     </node>
     <node concept="1DF_5m" id="1oH_MJfbPWl" role="3yMuLx" />
     <node concept="1DZZI9" id="67iuXo6BskB" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="67iuXo6Bp7A" resolve="CustomSQL" />
     </node>
     <node concept="1DZZI9" id="1oH_MJfbPWm" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="4szYp3XojuM" resolve="Graph load/save (no session)" />
     </node>
     <node concept="1DZZI9" id="6pbeIz$AA$y" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="6pbeIz$kE$1" resolve="M3 Object Infrastructure" />
     </node>
     <node concept="1DZZI9" id="1oH_MJfbPWr" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="2i3o0hdSzFV" resolve="Query and Operators (no session)" />
     </node>
     <node concept="1DZZI9" id="1oH_MJfbPWz" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="2i3o0hdSzFX" resolve="References (no session)" />
     </node>
     <node concept="1DZZI9" id="4eJAcMm23k_" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="4pH_TM_J4sD" resolve="Session tests" />
     </node>
   </node>
@@ -29876,6 +29888,22 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="4I$W9XJsdln" role="3yMuLx">
+      <property role="TrG5h" value="Dependent test should not be executed." />
+      <node concept="3cqZAl" id="4I$W9XJsgiu" role="3clF45" />
+      <node concept="3clFbS" id="4I$W9XJsdlr" role="3clF47">
+        <node concept="YS8fn" id="4I$W9XJsgjw" role="3cqZAp">
+          <node concept="2ShNRf" id="4I$W9XJsgjL" role="YScLw">
+            <node concept="1pGfFk" id="4I$W9XJsjp5" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="4I$W9XJsjpt" role="37wK5m">
+                <property role="Xl_RC" value="This can not happen." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1DF_5m" id="S3k7aiRtxX" role="3yMuLx" />
     <node concept="2d2NRx" id="3ZVRjXSNOqc" role="3yTP5x">
       <node concept="3clFbS" id="3ZVRjXSNOqd" role="2VODD2">
@@ -29885,6 +29913,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="zbZxr" id="4I$W9XJHoA_" role="38MLOi">
+      <ref role="zbZJq" node="4I$W9XJsdln" resolve="Dependent test should not be executed." />
     </node>
   </node>
   <node concept="il5tC" id="6BKPvpDTcXK">

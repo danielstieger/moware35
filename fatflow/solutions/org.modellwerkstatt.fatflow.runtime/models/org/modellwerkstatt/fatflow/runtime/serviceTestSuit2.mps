@@ -189,7 +189,8 @@
       <concept id="7192042020165155288" name="org.modellwerkstatt.objectflow.structure.ContainerVariableReference" flags="ng" index="3urNR4" />
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F" />
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
-      <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
+      <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
+        <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
       </concept>
     </language>
@@ -1047,18 +1048,23 @@
     <property role="TrG5h" value="Test All All All" />
     <ref role="2WPtWl" node="5MCXLSo4_z9" resolve="MPreisOFXLdapConfig" />
     <node concept="1DZZI9" id="4Ta2XmW4r9g" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="goi:1oH_MJfbPWk" resolve="ALL ALL ManMap Testsuits" />
     </node>
     <node concept="1DZZI9" id="4Ta2XmW47D2" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="492s:5MCXLSnMi3q" resolve="Test Commands" />
     </node>
     <node concept="1DZZI9" id="4Ta2XmW47D$" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="492s:7pudXbEJVMv" resolve="Test Wizzard" />
     </node>
     <node concept="1DZZI9" id="4v9zWuRDqVu" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="492s:5zF9hZsDuXt" resolve="Test Service" />
     </node>
     <node concept="1DZZI9" id="59ImdfaBs1E" role="38MLOi">
+      <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="59ImdfaBg4p" resolve="Service Method Dispatchment" />
     </node>
     <node concept="1DF_5m" id="4Ta2XmW47C7" role="3yMuLx" />
@@ -1313,7 +1319,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="59ImdfaBhaq" role="3cqZAp" />
       </node>
     </node>
     <node concept="3yPF9F" id="59ImdfaBizQ" role="3yMuLx">
