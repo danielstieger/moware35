@@ -12285,7 +12285,20 @@
             <node concept="3clFbH" id="7U5N9VrSGzd" role="3cqZAp" />
             <node concept="3clFbJ" id="5I8HAEt49jU" role="3cqZAp">
               <node concept="3clFbS" id="5I8HAEt49jV" role="3clFbx">
-                <node concept="3clFbH" id="5I8HAEt49jW" role="3cqZAp" />
+                <node concept="3cpWs8" id="6F1Nzn_TTKj" role="3cqZAp">
+                  <node concept="3cpWsn" id="6F1Nzn_TTKm" role="3cpWs9">
+                    <property role="TrG5h" value="cmdOkMsg" />
+                    <node concept="17QB3L" id="6F1Nzn_TTKh" role="1tU5fm" />
+                    <node concept="2OqwBi" id="6F1Nzn_TTWP" role="33vP2m">
+                      <node concept="37vLTw" id="6F1Nzn_TTVF" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                      </node>
+                      <node concept="liA8E" id="6F1Nzn_TUK_" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:1BZ9wC9nVgg" resolve="getTerminateOkCreateInformation" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbJ" id="5I8HAEt49jX" role="3cqZAp">
                   <node concept="3clFbS" id="5I8HAEt49jY" role="3clFbx">
                     <node concept="3clFbF" id="5I8HAEt49jZ" role="3cqZAp">
@@ -12295,13 +12308,8 @@
                         </node>
                         <node concept="liA8E" id="5I8HAEt49k2" role="2OqNvi">
                           <ref role="37wK5l" to="250q:2DwOiMAyiwK" resolve="addCmdTerminationStatusMsg" />
-                          <node concept="2OqwBi" id="5I8HAEt49k3" role="37wK5m">
-                            <node concept="37vLTw" id="5I8HAEt49k4" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                            </node>
-                            <node concept="liA8E" id="5I8HAEt49k5" role="2OqNvi">
-                              <ref role="37wK5l" to="28jr:1BZ9wC9nVgg" resolve="getTerminateOkCreateInformation" />
-                            </node>
+                          <node concept="37vLTw" id="6F1Nzn_TVAv" role="37wK5m">
+                            <ref role="3cqZAo" node="6F1Nzn_TTKm" resolve="cmdOkMsg" />
                           </node>
                         </node>
                       </node>
@@ -12309,13 +12317,8 @@
                   </node>
                   <node concept="3y3z36" id="5I8HAEt49k6" role="3clFbw">
                     <node concept="10Nm6u" id="5I8HAEt49k7" role="3uHU7w" />
-                    <node concept="2OqwBi" id="5I8HAEt49k8" role="3uHU7B">
-                      <node concept="37vLTw" id="5I8HAEt49k9" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                      </node>
-                      <node concept="liA8E" id="5I8HAEt49ka" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:1BZ9wC9nVgg" resolve="getTerminateOkCreateInformation" />
-                      </node>
+                    <node concept="37vLTw" id="6F1Nzn_TV$5" role="3uHU7B">
+                      <ref role="3cqZAo" node="6F1Nzn_TTKm" resolve="cmdOkMsg" />
                     </node>
                   </node>
                 </node>

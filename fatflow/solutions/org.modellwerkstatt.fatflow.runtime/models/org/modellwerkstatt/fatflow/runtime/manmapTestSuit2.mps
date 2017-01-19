@@ -368,6 +368,7 @@
       <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
         <child id="2884851879187602662" name="expression" index="38$l6p" />
       </concept>
+      <concept id="2884851879189507035" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitOption" flags="ng" index="38J6q$" />
       <concept id="8396343267227475961" name="org.modellwerkstatt.objectflow.structure.BusinessProperty" flags="ig" index="1bOX9e">
         <child id="3674496190757459099" name="propertyOption" index="0orDa" />
         <child id="5770301300929026308" name="longDesc" index="2CNmdL" />
@@ -7326,7 +7327,7 @@
             </node>
             <node concept="3cpWs3" id="70qPrkDnT2p" role="3uHU7B">
               <node concept="Xl_RD" id="70qPrkDnT0r" role="3uHU7B">
-                <property role="Xl_RC" value="We wer working with " />
+                <property role="Xl_RC" value="We were working with " />
               </node>
               <node concept="2OqwBi" id="70qPrkDnT7W" role="3uHU7w">
                 <node concept="37vLTw" id="70qPrkDnT36" role="2Oq$k0">
@@ -9329,6 +9330,7 @@
     <node concept="1DZZI9" id="RffU3zlJ4D" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="Creators" />
     </node>
+    <node concept="38J6q$" id="6F1Nzn_TMs_" role="38MLOi" />
     <node concept="3yPF9F" id="RffU3zlI6g" role="3yMuLx">
       <property role="TrG5h" value="Save and load an integer-key reference." />
       <node concept="3yABqi" id="RffU3zlIr9" role="3yGA3Q">
@@ -15217,7 +15219,7 @@
     </node>
     <node concept="1DZZI9" id="4eJAcMm23k_" role="38MLOi">
       <property role="26Iqih" value="true" />
-      <ref role="1DZZIc" node="4pH_TM_J4sD" resolve="Session tests" />
+      <ref role="1DZZIc" node="4pH_TM_J4sD" resolve=" Session tests" />
     </node>
   </node>
   <node concept="2WPaUQ" id="6pbeIz$kE$1">
@@ -21844,7 +21846,7 @@
   </node>
   <node concept="2WPaUQ" id="4pH_TM_J4sD">
     <property role="3GE5qa" value="tests" />
-    <property role="TrG5h" value="Session tests" />
+    <property role="TrG5h" value=" Session tests" />
     <ref role="2WPtWl" node="7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
     <node concept="1DZZI9" id="4pH_TM_JbLn" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="Creators" />
