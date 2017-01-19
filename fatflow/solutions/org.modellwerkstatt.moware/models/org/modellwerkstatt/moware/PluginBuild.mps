@@ -1533,11 +1533,29 @@
               <ref role="3bR37D" node="1JLTjCmZvVa" resolve="org.modellwerkstatt.fatflow#6220831822432810257" />
             </node>
           </node>
-          <node concept="1SiIV0" id="B4SLZ3ucS8" role="3bR37C">
-            <node concept="3bR9La" id="B4SLZ3ucS9" role="1SiIV1">
+          <node concept="1SiIV0" id="2TAuFm4OvKl" role="3bR37C">
+            <node concept="3bR9La" id="2TAuFm4OvKm" role="1SiIV1">
               <property role="3bR36h" value="false" />
-              <ref role="3bR37D" to="ffeo:7Kfy9QB6KZ0" resolve="jetbrains.mps.baseLanguageInternal" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
             </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2TAuFm4OvKf" role="3bR37C">
+          <node concept="3bR9La" id="2TAuFm4OvKg" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1ia2VB5guYy" resolve="MPS.IDEA" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2TAuFm4OvKh" role="3bR37C">
+          <node concept="3bR9La" id="2TAuFm4OvKi" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2TAuFm4OvKj" role="3bR37C">
+          <node concept="3bR9La" id="2TAuFm4OvKk" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbJt" resolve="jetbrains.mps.ide.platform" />
           </node>
         </node>
       </node>

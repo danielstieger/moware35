@@ -22,7 +22,6 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="pz2c" ref="r:2a308ea0-c7e3-4fa5-a624-ad74ee5cfab5(jetbrains.mps.baseLanguage.util)" />
-    <import index="fnmy" ref="r:89c0fb70-0977-4113-a076-5906f9d8630f(jetbrains.mps.baseLanguage.scopes)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
@@ -4165,7 +4164,7 @@
   </node>
   <node concept="1M2fIO" id="3iT39DeyDb">
     <property role="3GE5qa" value="OFXTest.options" />
-    <ref role="1M2myG" to="un0u:3iT39DbhYV" resolve="IOFXTestSuitIncludeSuit" />
+    <ref role="1M2myG" to="un0u:3iT39DbhYV" resolve="OFXTestSuitIncludeSuit" />
     <node concept="1N5Pfh" id="3iT39DeyDc" role="1Mr941">
       <ref role="1N5Vy1" to="un0u:3iT39DbhYY" />
       <node concept="13QW63" id="3iT39DeyDg" role="1N6uqs">
