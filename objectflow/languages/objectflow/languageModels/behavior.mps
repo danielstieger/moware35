@@ -17387,18 +17387,12 @@
       </node>
     </node>
     <node concept="13i0hz" id="1lwvTLPwUf3" role="13h7CS">
-      <property role="13i0iv" value="false" />
+      <property role="13i0iv" value="true" />
       <property role="13i0it" value="true" />
       <property role="TrG5h" value="getPlatformFqClassName" />
       <node concept="3Tm1VV" id="1lwvTLPwUf4" role="1B3o_S" />
       <node concept="17QB3L" id="1lwvTLPwUfm" role="3clF45" />
-      <node concept="3clFbS" id="1lwvTLPwUf6" role="3clF47">
-        <node concept="3clFbF" id="1lwvTLPHA3c" role="3cqZAp">
-          <node concept="Xl_RD" id="1lwvTLPHA3b" role="3clFbG">
-            <property role="Xl_RC" value="?" />
-          </node>
-        </node>
-      </node>
+      <node concept="3clFbS" id="1lwvTLPwUf6" role="3clF47" />
     </node>
     <node concept="13i0hz" id="1lwvTLPyr1i" role="13h7CS">
       <property role="13i0iv" value="false" />

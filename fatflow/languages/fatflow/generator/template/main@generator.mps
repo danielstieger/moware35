@@ -538,6 +538,7 @@
       <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
+      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1154546920561" name="jetbrains.mps.lang.smodel.structure.OperationParm_ConceptList" flags="ng" index="3gmYPX">
@@ -561,6 +562,9 @@
       </concept>
       <concept id="1180636770613" name="jetbrains.mps.lang.smodel.structure.SNodeCreator" flags="nn" index="3zrR0B">
         <child id="1180636770616" name="createdType" index="3zrR0E" />
+      </concept>
+      <concept id="1172326502327" name="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" flags="nn" index="3O6GUB">
+        <child id="1206733650006" name="conceptArgument" index="3QVz_e" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
         <reference id="1140138128738" name="concept" index="1PxNhF" />
@@ -5035,6 +5039,25 @@
       <property role="36QftV" value="true" />
       <ref role="3lhOvi" node="7MWNCzXOxmx" resolve="map_Platform" />
       <ref role="30HIoZ" to="un0u:1lwvTLPwTBS" resolve="ISRPlatform" />
+      <node concept="30G5F_" id="3jHs28k3SLs" role="30HLyM">
+        <node concept="3clFbS" id="3jHs28k3SLt" role="2VODD2">
+          <node concept="3clFbF" id="3jHs28k3Tzq" role="3cqZAp">
+            <node concept="3fqX7Q" id="3jHs28k3TSU" role="3clFbG">
+              <node concept="2OqwBi" id="3jHs28k3TSW" role="3fr31v">
+                <node concept="2OqwBi" id="3jHs28k3TSX" role="2Oq$k0">
+                  <node concept="30H73N" id="3jHs28k3TSY" role="2Oq$k0" />
+                  <node concept="2yIwOk" id="3jHs28k3TSZ" role="2OqNvi" />
+                </node>
+                <node concept="3O6GUB" id="3jHs28k3TT0" role="2OqNvi">
+                  <node concept="chp4Y" id="3jHs28k3TT1" role="3QVz_e">
+                    <ref role="cht4Q" to="un0u:1lwvTLPwTBS" resolve="ISRPlatform" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="5pkPpl7zrmo">
