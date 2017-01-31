@@ -10077,7 +10077,7 @@
               <node concept="3clFbS" id="5_bDd1dL9Bv" role="3clFbx">
                 <node concept="3SKdUt" id="WpszhTUup9" role="3cqZAp">
                   <node concept="3SKdUq" id="WpszhTUuwW" role="3SKWNk">
-                    <property role="3SKdUp" value="Handle to userinterface ... in case of FX8, this is the stage " />
+                    <property role="3SKdUp" value="Handle to us_erinterface ... in case of FX8, this is the stage " />
                   </node>
                 </node>
                 <node concept="3clFbJ" id="WpszhTUv8u" role="3cqZAp">

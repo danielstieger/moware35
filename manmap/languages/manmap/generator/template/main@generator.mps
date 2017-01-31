@@ -424,6 +424,10 @@
       </concept>
     </language>
     <language id="d7706f63-9be2-479c-a3da-ae92af1e64d5" name="jetbrains.mps.lang.generator.generationContext">
+      <concept id="1217960179967" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowErrorMessage" flags="nn" index="2k5nB$" />
+      <concept id="1217960314443" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_ShowMessageBase" flags="nn" index="2k5Stg">
+        <child id="1217960314448" name="messageText" index="2k5Stb" />
+      </concept>
       <concept id="1218047638031" name="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_CreateUniqueName" flags="nn" index="2piZGk">
         <child id="1218047638032" name="baseName" index="2piZGb" />
         <child id="1218049772449" name="contextNode" index="2pr8EU" />
@@ -3791,11 +3795,11 @@
                     <node concept="3clFbH" id="1HOHq98F5tS" role="3cqZAp" />
                     <node concept="3clFbJ" id="1HOHq98F5ub" role="3cqZAp">
                       <node concept="3clFbS" id="1HOHq98F5uc" role="3clFbx">
-                        <node concept="YS8fn" id="1HOHq98F5x6" role="3cqZAp">
-                          <node concept="2ShNRf" id="1HOHq98F5xc" role="YScLw">
-                            <node concept="1pGfFk" id="1HOHq98IIaY" role="2ShVmc">
-                              <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                              <node concept="Xl_RD" id="1HOHq98IIb3" role="37wK5m">
+                        <node concept="3clFbF" id="54xAy99LSbO" role="3cqZAp">
+                          <node concept="2OqwBi" id="54xAy99LSMo" role="3clFbG">
+                            <node concept="1iwH7S" id="54xAy99LSbM" role="2Oq$k0" />
+                            <node concept="2k5nB$" id="54xAy99LTvy" role="2OqNvi">
+                              <node concept="Xl_RD" id="1HOHq98IIb3" role="2k5Stb">
                                 <property role="Xl_RC" value="manmap EntityMapping.getKey() Unsupported key-type in manmap generator. Only IntegerType / StringType are supported." />
                               </node>
                             </node>
@@ -8866,11 +8870,11 @@
                                           <node concept="3clFbH" id="FaoLX6grz9" role="3cqZAp" />
                                           <node concept="3clFbJ" id="FaoLX6grza" role="3cqZAp">
                                             <node concept="3clFbS" id="FaoLX6grzb" role="3clFbx">
-                                              <node concept="YS8fn" id="FaoLX6grzc" role="3cqZAp">
-                                                <node concept="2ShNRf" id="FaoLX6grzd" role="YScLw">
-                                                  <node concept="1pGfFk" id="FaoLX6grze" role="2ShVmc">
-                                                    <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
-                                                    <node concept="Xl_RD" id="FaoLX6grzf" role="37wK5m">
+                                              <node concept="3clFbF" id="54xAy99IjDv" role="3cqZAp">
+                                                <node concept="2OqwBi" id="54xAy99IkkM" role="3clFbG">
+                                                  <node concept="1iwH7S" id="54xAy99IjDt" role="2Oq$k0" />
+                                                  <node concept="2k5nB$" id="54xAy99IkOk" role="2OqNvi">
+                                                    <node concept="Xl_RD" id="FaoLX6grzf" role="2k5Stb">
                                                       <property role="Xl_RC" value="manmap EntityMapping.get() Unsupported key-type in manmap generator. Only IntegerType / StringType are supported." />
                                                     </node>
                                                   </node>

@@ -4102,8 +4102,8 @@
     <node concept="1TJgyj" id="2IDWU6Z30nM" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="platforms" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1lwvTLPwTBS" resolve="ISRPlatform" />
     </node>
     <node concept="1TJgyj" id="2IDWU6Z9eWe" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -4146,6 +4146,9 @@
     </node>
     <node concept="PrWs8" id="7MWNCzXOAva" role="PzmwI">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+    <node concept="PrWs8" id="1lwvTLPwUhc" role="PzmwI">
+      <ref role="PrY4T" node="1lwvTLPwTBS" resolve="ISRPlatform" />
     </node>
   </node>
   <node concept="1TIwiD" id="2IDWU6Z9eZ_">
@@ -4252,6 +4255,26 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1E9WFYpESmh" role="PzmwI">
       <ref role="PrY4T" node="1E9WFYpESfw" resolve="ILabelSpecificationOption" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1lwvTLPwTBS">
+    <property role="1pbfSe" value="1964762732" />
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="ISRPlatform" />
+  </node>
+  <node concept="1TIwiD" id="1lwvTLPwTCs">
+    <property role="1pbfSe" value="1964762696" />
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <property role="TrG5h" value="IncludePlatform" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1lwvTLPwTDG" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="platform" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2IDWU6Z30fV" resolve="Platform" />
+    </node>
+    <node concept="PrWs8" id="1lwvTLPwTDs" role="PzmwI">
+      <ref role="PrY4T" node="1lwvTLPwTBS" resolve="ISRPlatform" />
     </node>
   </node>
 </model>

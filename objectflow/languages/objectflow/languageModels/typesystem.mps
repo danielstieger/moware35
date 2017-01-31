@@ -12289,57 +12289,6 @@
       <ref role="1YaFvo" to="un0u:59Imdfa8n1s" resolve="ServiceMethodDispatchInfo" />
     </node>
   </node>
-  <node concept="18kY7G" id="2IDWU6Z6iL9">
-    <property role="TrG5h" value="check_StaticRessources" />
-    <property role="3GE5qa" value="OFXCore.platform" />
-    <node concept="3clFbS" id="2IDWU6Z6iLa" role="18ibNy">
-      <node concept="3clFbJ" id="2IDWU6Zlx_r" role="3cqZAp">
-        <node concept="3clFbS" id="2IDWU6Zlx_t" role="3clFbx">
-          <node concept="2MkqsV" id="2IDWU6Zl_xB" role="3cqZAp">
-            <node concept="1YBJjd" id="2IDWU6Zl_Do" role="2OEOjV">
-              <ref role="1YBMHb" node="2IDWU6Z6iLc" resolve="sr" />
-            </node>
-            <node concept="Xl_RD" id="2IDWU6Zl_$P" role="2MkJ7o">
-              <property role="Xl_RC" value="Platforms can not be enlarged when extending static ressources." />
-            </node>
-          </node>
-        </node>
-        <node concept="1Wc70l" id="2IDWU6Zly2r" role="3clFbw">
-          <node concept="3y3z36" id="2IDWU6Zl_sR" role="3uHU7w">
-            <node concept="3cmrfG" id="2IDWU6Zl_vp" role="3uHU7w">
-              <property role="3cmrfH" value="0" />
-            </node>
-            <node concept="2OqwBi" id="2IDWU6ZlyJL" role="3uHU7B">
-              <node concept="2OqwBi" id="2IDWU6Zly6K" role="2Oq$k0">
-                <node concept="1YBJjd" id="2IDWU6Zly4c" role="2Oq$k0">
-                  <ref role="1YBMHb" node="2IDWU6Z6iLc" resolve="sr" />
-                </node>
-                <node concept="3Tsc0h" id="2IDWU6ZlycH" role="2OqNvi">
-                  <ref role="3TtcxE" to="un0u:2IDWU6Z30nM" />
-                </node>
-              </node>
-              <node concept="34oBXx" id="2IDWU6Zl$v5" role="2OqNvi" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="2IDWU6ZlxDg" role="3uHU7B">
-            <node concept="2OqwBi" id="2IDWU6ZlxLi" role="2Oq$k0">
-              <node concept="1YBJjd" id="2IDWU6Zlx_Z" role="2Oq$k0">
-                <ref role="1YBMHb" node="2IDWU6Z6iLc" resolve="sr" />
-              </node>
-              <node concept="3TrEf2" id="2IDWU6ZlxV1" role="2OqNvi">
-                <ref role="3Tt5mk" to="un0u:4nTpl6WJ8LK" />
-              </node>
-            </node>
-            <node concept="3x8VRR" id="2IDWU6ZlxIm" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="2IDWU6Z6iLc" role="1YuTPh">
-      <property role="TrG5h" value="sr" />
-      <ref role="1YaFvo" to="un0u:1fYc781EAsq" resolve="StaticRessources" />
-    </node>
-  </node>
   <node concept="18kY7G" id="2IDWU6Z6iNa">
     <property role="TrG5h" value="check_Platform" />
     <property role="3GE5qa" value="OFXCore.platform" />
@@ -12768,8 +12717,8 @@
                         <node concept="37vLTw" id="7qQ6PJvkjHd" role="2Oq$k0">
                           <ref role="3cqZAo" node="2IDWU6Zixbe" resolve="sr" />
                         </node>
-                        <node concept="3Tsc0h" id="7qQ6PJvkjQ9" role="2OqNvi">
-                          <ref role="3TtcxE" to="un0u:2IDWU6Z9eWe" />
+                        <node concept="2qgKlT" id="1lwvTLPqpx1" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:2IDWU6Zloqs" resolve="getAllLabels" />
                         </node>
                       </node>
                       <node concept="3zZkjj" id="7qQ6PJvklgR" role="2OqNvi">

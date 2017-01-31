@@ -3585,7 +3585,7 @@
                                           </node>
                                         </node>
                                         <node concept="Xl_RD" id="5fkhsROxvpF" role="3uHU7w">
-                                          <property role="Xl_RC" value="\nPlatform " />
+                                          <property role="Xl_RC" value="\nPlatform '" />
                                         </node>
                                       </node>
                                       <node concept="2OqwBi" id="5fkhsROxweD" role="3uHU7w">
@@ -3603,7 +3603,7 @@
                                       </node>
                                     </node>
                                     <node concept="Xl_RD" id="5fkhsROx$ly" role="3uHU7w">
-                                      <property role="Xl_RC" value=", variant " />
+                                      <property role="Xl_RC" value="', variant " />
                                     </node>
                                   </node>
                                 </node>
