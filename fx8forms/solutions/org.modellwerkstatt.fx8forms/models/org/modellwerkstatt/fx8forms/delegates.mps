@@ -2762,7 +2762,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="3KDG5JVyOFj" role="jymVt">
-      <property role="TrG5h" value="search" />
+      <property role="TrG5h" value="filterItems" />
       <node concept="3uibUv" id="3KDG5JVyOFA" role="3clF45">
         <ref role="3uigEE" to="33ny:~List" resolve="List" />
         <node concept="3uibUv" id="3KDG5JVyOGo" role="11_B2D">
@@ -2915,10 +2915,15 @@
           <node concept="3cpWsn" id="3KDG5JVBbNw" role="3cpWs9">
             <property role="TrG5h" value="text" />
             <node concept="17QB3L" id="3KDG5JVBbNx" role="1tU5fm" />
-            <node concept="2OqwBi" id="3KDG5JVBbNA" role="33vP2m">
-              <node concept="Xjq3P" id="yJ4zx4aImJ" role="2Oq$k0" />
-              <node concept="liA8E" id="3KDG5JVBbNG" role="2OqNvi">
-                <ref role="37wK5l" to="rb41:~TextInputControl.getText():java.lang.String" resolve="getText" />
+            <node concept="2OqwBi" id="7H4uG2dfpD4" role="33vP2m">
+              <node concept="2OqwBi" id="3KDG5JVBbNA" role="2Oq$k0">
+                <node concept="Xjq3P" id="yJ4zx4aImJ" role="2Oq$k0" />
+                <node concept="liA8E" id="3KDG5JVBbNG" role="2OqNvi">
+                  <ref role="37wK5l" to="rb41:~TextInputControl.getText():java.lang.String" resolve="getText" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7H4uG2dfpLc" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
               </node>
             </node>
           </node>
@@ -2984,7 +2989,7 @@
               <node concept="3clFbF" id="3KDG5JVBbOK" role="3cqZAp">
                 <node concept="37vLTI" id="3KDG5JVBbOM" role="3clFbG">
                   <node concept="1rXfSq" id="fdGRoMYQ8E" role="37vLTx">
-                    <ref role="37wK5l" node="3KDG5JVyOFj" resolve="search" />
+                    <ref role="37wK5l" node="3KDG5JVyOFj" resolve="filterItems" />
                     <node concept="37vLTw" id="fdGRoMYQlP" role="37wK5m">
                       <ref role="3cqZAo" node="3KDG5JVBbNw" resolve="text" />
                     </node>
