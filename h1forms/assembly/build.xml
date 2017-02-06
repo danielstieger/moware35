@@ -46,6 +46,11 @@
   <!-- **** solutions to incorporate in this build ************************************************** -->
   <property name="solultionSimpleGen"   value="${javawareHomeDir}/simpleone/solutions/Simple/classes_gen" />
 
+  <exec executable="java" outputproperty="appBuildVersion">
+   <arg value="-cp"/>
+   <arg value="${solultionSimpleGen}" />
+   <arg value="Simple.baseApp.TestSetting" />
+  </exec>
 
   
   <!--     H1 forms settings      -->
