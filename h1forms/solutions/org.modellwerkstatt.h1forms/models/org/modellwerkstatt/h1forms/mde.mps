@@ -3087,7 +3087,7 @@
                     <node concept="liA8E" id="3L0rgZdHqGy" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                       <node concept="Xl_RD" id="3L0rgZdHqGz" role="37wK5m">
-                        <property role="Xl_RC" value="&lt;button id=\&quot;cancelbutton\&quot; type=\&quot;button\&quot; class=\&quot;mysmallbutton\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_0');\&quot; navicrtl=\&quot;conclusion_0\&quot;&gt; &lt;div class=\&quot;labeldiv\&quot;&gt;" />
+                        <property role="Xl_RC" value="&lt;button id=\&quot;cancelbutton\&quot; type=\&quot;button\&quot; class=\&quot;kbrdbutton\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_0');\&quot; navicrtl=\&quot;conclusion_0\&quot;&gt; &lt;div class=\&quot;labeldiv\&quot;&gt;" />
                       </node>
                     </node>
                   </node>
@@ -3176,7 +3176,7 @@
                             <node concept="3cpWs3" id="3L0rgZdHDjm" role="3uHU7B">
                               <node concept="3cpWs3" id="3L0rgZdHB48" role="3uHU7B">
                                 <node concept="Xl_RD" id="3L0rgZdHAua" role="3uHU7B">
-                                  <property role="Xl_RC" value="&lt;button id=\&quot;okbutton\&quot; type=\&quot;button\&quot; class=\&quot;mysmallbutton\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_" />
+                                  <property role="Xl_RC" value="&lt;button id=\&quot;okbutton\&quot; type=\&quot;button\&quot; class=\&quot;kbrdbutton\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_" />
                                 </node>
                                 <node concept="37vLTw" id="3L0rgZdHC_F" role="3uHU7w">
                                   <ref role="3cqZAo" node="3L0rgZdHwCL" resolve="okConclusionPostcode" />
@@ -3413,7 +3413,7 @@
                               <node concept="3cpWs3" id="3L0rgZdHgZV" role="3uHU7B">
                                 <node concept="3cpWs3" id="3L0rgZdHmhY" role="3uHU7B">
                                   <node concept="Xl_RD" id="3L0rgZdHmvd" role="3uHU7w">
-                                    <property role="Xl_RC" value="\&quot; class=\&quot;mysmallbutton\&quot; mykeyboardKey=\&quot;" />
+                                    <property role="Xl_RC" value="\&quot; class=\&quot;kbrdbutton\&quot; mykeyboardKey=\&quot;" />
                                   </node>
                                   <node concept="3cpWs3" id="3L0rgZdHnR1" role="3uHU7B">
                                     <node concept="Xl_RD" id="3L0rgZdA$AL" role="3uHU7B">
