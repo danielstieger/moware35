@@ -6115,22 +6115,69 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="1T5PU5cinbi" role="3clF47">
-        <node concept="3clFbF" id="7bJvTYRfUJV" role="3cqZAp">
-          <node concept="2OqwBi" id="7bJvTYRfVve" role="3clFbG">
-            <node concept="3VsKOn" id="7bJvTYRfVrJ" role="2Oq$k0">
-              <ref role="3VsUkX" to="7wps:~IConsLoader" resolve="IConsLoader" />
+        <node concept="3cpWs8" id="56t4EvFNJj8" role="3cqZAp">
+          <node concept="3cpWsn" id="56t4EvFNJj9" role="3cpWs9">
+            <property role="TrG5h" value="retStream" />
+            <node concept="3uibUv" id="56t4EvFNJja" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~InputStream" resolve="InputStream" />
             </node>
-            <node concept="liA8E" id="7bJvTYRfW3s" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Class.getResourceAsStream(java.lang.String):java.io.InputStream" resolve="getResourceAsStream" />
-              <node concept="3cpWs3" id="7bJvTYRfWV5" role="37wK5m">
-                <node concept="Xl_RD" id="7bJvTYRfWWf" role="3uHU7w">
-                  <property role="Xl_RC" value=".png" />
-                </node>
-                <node concept="37vLTw" id="7bJvTYRfWpe" role="3uHU7B">
-                  <ref role="3cqZAo" node="1T5PU5ciniy" resolve="name" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="56t4EvFNJrB" role="3cqZAp">
+          <node concept="37vLTI" id="56t4EvFNJBY" role="3clFbG">
+            <node concept="37vLTw" id="56t4EvFNJr_" role="37vLTJ">
+              <ref role="3cqZAo" node="56t4EvFNJj9" resolve="retStream" />
+            </node>
+            <node concept="2OqwBi" id="56t4EvFNu_p" role="37vLTx">
+              <node concept="3VsKOn" id="56t4EvFNu_q" role="2Oq$k0">
+                <ref role="3VsUkX" to="7wps:~IConsLoader" resolve="IConsLoader" />
+              </node>
+              <node concept="liA8E" id="56t4EvFNu_r" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Class.getResourceAsStream(java.lang.String):java.io.InputStream" resolve="getResourceAsStream" />
+                <node concept="3cpWs3" id="56t4EvFNu_s" role="37wK5m">
+                  <node concept="Xl_RD" id="56t4EvFNu_t" role="3uHU7w">
+                    <property role="Xl_RC" value=".png" />
+                  </node>
+                  <node concept="37vLTw" id="56t4EvFNu_u" role="3uHU7B">
+                    <ref role="3cqZAo" node="1T5PU5ciniy" resolve="name" />
+                  </node>
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="56t4EvFNW05" role="3cqZAp">
+          <node concept="3clFbS" id="56t4EvFNW07" role="3clFbx">
+            <node concept="3clFbF" id="56t4EvFNWpr" role="3cqZAp">
+              <node concept="37vLTI" id="56t4EvFNWrB" role="3clFbG">
+                <node concept="37vLTw" id="56t4EvFNWpp" role="37vLTJ">
+                  <ref role="3cqZAo" node="56t4EvFNJj9" resolve="retStream" />
+                </node>
+                <node concept="2OqwBi" id="56t4EvFNWtI" role="37vLTx">
+                  <node concept="3VsKOn" id="56t4EvFNWtJ" role="2Oq$k0">
+                    <ref role="3VsUkX" to="7wps:~IConsLoader" resolve="IConsLoader" />
+                  </node>
+                  <node concept="liA8E" id="56t4EvFNWtK" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getResourceAsStream(java.lang.String):java.io.InputStream" resolve="getResourceAsStream" />
+                    <node concept="Xl_RD" id="56t4EvFNWtL" role="37wK5m">
+                      <property role="Xl_RC" value="delete.png" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="56t4EvFNWlA" role="3clFbw">
+            <node concept="10Nm6u" id="56t4EvFNWmB" role="3uHU7w" />
+            <node concept="37vLTw" id="56t4EvFNWdx" role="3uHU7B">
+              <ref role="3cqZAo" node="56t4EvFNJj9" resolve="retStream" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="56t4EvFNWRN" role="3cqZAp" />
+        <node concept="3cpWs6" id="56t4EvFNLZp" role="3cqZAp">
+          <node concept="37vLTw" id="56t4EvFNM1Q" role="3cqZAk">
+            <ref role="3cqZAo" node="56t4EvFNJj9" resolve="retStream" />
           </node>
         </node>
       </node>
