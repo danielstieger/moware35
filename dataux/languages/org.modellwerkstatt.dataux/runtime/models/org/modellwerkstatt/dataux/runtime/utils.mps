@@ -2252,7 +2252,7 @@
           <property role="Xl_RC" value="Ja (F12)" />
         </node>
         <node concept="Xl_RD" id="4vHQZKCcRpu" role="37wK5m">
-          <property role="Xl_RC" value="" />
+          <property role="Xl_RC" value="Ja" />
         </node>
         <node concept="Xl_RD" id="4Rlyz3EmQHf" role="37wK5m">
           <property role="Xl_RC" value="" />
@@ -2265,7 +2265,7 @@
           <property role="Xl_RC" value="Nein (ESC)" />
         </node>
         <node concept="Xl_RD" id="4vHQZKCcRFB" role="37wK5m">
-          <property role="Xl_RC" value="" />
+          <property role="Xl_RC" value="Nein" />
         </node>
         <node concept="Xl_RD" id="4Rlyz3EmQHg" role="37wK5m">
           <property role="Xl_RC" value="" />
