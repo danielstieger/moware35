@@ -10867,7 +10867,7 @@
                                 <property role="Xl_RC" value="" />
                               </node>
                               <node concept="Xl_RD" id="2w5UnVowVN7" role="37wK5m">
-                                <property role="Xl_RC" value="exit_to_app" />
+                                <property role="Xl_RC" value="arrow_back" />
                               </node>
                               <node concept="10Nm6u" id="4FeXrhEBGkS" role="37wK5m" />
                               <node concept="3clFbT" id="1E9WFYpLOfN" role="37wK5m">

@@ -1801,7 +1801,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="mowareUx RC04 dev " />
+            <property role="Xl_RC" value="mowareUx RC06 dev " />
           </node>
           <node concept="37vLTw" id="2$gclwwfVu1" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -2251,11 +2251,9 @@
         <node concept="Xl_RD" id="4vHQZKCcRns" role="37wK5m">
           <property role="Xl_RC" value="Ja (F12)" />
         </node>
-        <node concept="Xl_RD" id="4vHQZKCcRpu" role="37wK5m">
-          <property role="Xl_RC" value="Ja" />
-        </node>
+        <node concept="Xl_RD" id="4vHQZKCcRpu" role="37wK5m" />
         <node concept="Xl_RD" id="4Rlyz3EmQHf" role="37wK5m">
-          <property role="Xl_RC" value="" />
+          <property role="Xl_RC" value="Ja" />
         </node>
       </node>
       <node concept="QsSxf" id="4vHQZKCcRpU" role="Qtgdg">
@@ -2264,11 +2262,9 @@
         <node concept="Xl_RD" id="4vHQZKCcREd" role="37wK5m">
           <property role="Xl_RC" value="Nein (ESC)" />
         </node>
-        <node concept="Xl_RD" id="4vHQZKCcRFB" role="37wK5m">
-          <property role="Xl_RC" value="Nein" />
-        </node>
+        <node concept="Xl_RD" id="4vHQZKCcRFB" role="37wK5m" />
         <node concept="Xl_RD" id="4Rlyz3EmQHg" role="37wK5m">
-          <property role="Xl_RC" value="" />
+          <property role="Xl_RC" value="Nein" />
         </node>
       </node>
       <node concept="QsSxf" id="2FClOw1VSS5" role="Qtgdg">
