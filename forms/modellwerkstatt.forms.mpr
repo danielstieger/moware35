@@ -47,4 +47,7 @@
   <component name="SvnBranchConfigurationManager">
     <option name="mySupportsUserInfoFilter" value="true" />
   </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$mowareHome$" vcs="Git" />
+  </component>
 </project>
