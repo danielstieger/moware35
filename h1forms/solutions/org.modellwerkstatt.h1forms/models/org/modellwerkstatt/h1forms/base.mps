@@ -9073,13 +9073,13 @@
                     <node concept="3clFbS" id="75445jvUQX2" role="3clFbx">
                       <node concept="3SKdUt" id="75445jvURb8" role="3cqZAp">
                         <node concept="3SKdUq" id="75445jvURba" role="3SKWNk">
-                          <property role="3SKdUp" value="okay, we founda conlcusion information" />
+                          <property role="3SKdUp" value="okay, we found a conlcusion information" />
                         </node>
                       </node>
                       <node concept="3clFbF" id="75445jvURdj" role="3cqZAp">
                         <node concept="2OqwBi" id="75445jvURgr" role="3clFbG">
                           <node concept="liA8E" id="75445jvURrb" role="2OqNvi">
-                            <ref role="37wK5l" to="1e0c:2DwOiMAqSSA" resolve="doConclusion" />
+                            <ref role="37wK5l" to="1e0c:2DwOiMAqSSA" resolve="fg_doConclusion" />
                             <node concept="2OqwBi" id="75445jvURtP" role="37wK5m">
                               <node concept="37vLTw" id="75445jvURrO" role="2Oq$k0">
                                 <ref role="3cqZAo" node="75445jvUQHg" resolve="theInfo" />
@@ -10867,7 +10867,7 @@
                                 <property role="Xl_RC" value="" />
                               </node>
                               <node concept="Xl_RD" id="2w5UnVowVN7" role="37wK5m">
-                                <property role="Xl_RC" value="exit_to_app" />
+                                <property role="Xl_RC" value="arrow_back" />
                               </node>
                               <node concept="10Nm6u" id="4FeXrhEBGkS" role="37wK5m" />
                               <node concept="3clFbT" id="1E9WFYpLOfN" role="37wK5m">
@@ -11945,7 +11945,7 @@
               <ref role="3cqZAo" node="6QRLe84pBc7" resolve="cmdContainer" />
             </node>
             <node concept="liA8E" id="6QRLe84q4_1" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:3LH0mQPo5WG" resolve="initCommandInContainer" />
+              <ref role="37wK5l" to="1e0c:3LH0mQPo5WG" resolve="bg_InitCommandInContainer" />
             </node>
           </node>
         </node>
@@ -12373,7 +12373,7 @@
               <ref role="3cqZAo" node="1rrvF1jCUWx" resolve="cmdContainer" />
             </node>
             <node concept="liA8E" id="1rrvF1jCUWP" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:3LH0mQPo5WG" resolve="initCommandInContainer" />
+              <ref role="37wK5l" to="1e0c:3LH0mQPo5WG" resolve="bg_InitCommandInContainer" />
             </node>
           </node>
         </node>
