@@ -706,20 +706,6 @@
       <node concept="3Tm1VV" id="20ohnkbA8VB" role="1B3o_S" />
       <node concept="3clFbS" id="20ohnkbA8VC" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="20ohnkbAa4z" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="userConfirmsApplicationQuit" />
-      <node concept="3cqZAl" id="6go2MrsoYb5" role="3clF45" />
-      <node concept="3Tm1VV" id="20ohnkbAa4A" role="1B3o_S" />
-      <node concept="3clFbS" id="20ohnkbAa4B" role="3clF47" />
-      <node concept="37vLTG" id="2wSq35xHaS6" role="3clF46">
-        <property role="TrG5h" value="toExec" />
-        <node concept="3uibUv" id="6go2MrsypiO" role="1tU5fm">
-          <ref role="3uigEE" node="vsIEjNJ5$m" resolve="IToolkit_CommandContainerUI.DlgRunnable" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="5_bDd1dOsTZ" role="jymVt" />
     <node concept="3clFb_" id="20ohnkbA_X$" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="showDialog" />
@@ -1207,54 +1193,6 @@
       <node concept="3clFbS" id="5_bDd1d86xj" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="2DwOiMAx34M" role="jymVt" />
-    <node concept="3clFb_" id="5_bDd1dyotn" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="showDialogOnParent" />
-      <node concept="37vLTG" id="4Ucpg8yz4Ze" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="4Ucpg8z6mGs" role="1tU5fm">
-          <ref role="3uigEE" node="4Ucpg8z6mu9" resolve="IToolkit_AppWindow.DlgType" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="5_bDd1dyoE3" role="3clF46">
-        <property role="TrG5h" value="info" />
-        <node concept="17QB3L" id="5_bDd1dyoG3" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="vsIEjN_vJs" role="3clF46">
-        <property role="TrG5h" value="run" />
-        <node concept="3uibUv" id="vsIEjN_vTh" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
-        </node>
-      </node>
-      <node concept="3cqZAl" id="5_bDd1dyotp" role="3clF45" />
-      <node concept="3Tm1VV" id="5_bDd1dyotq" role="1B3o_S" />
-      <node concept="3clFbS" id="5_bDd1dyotr" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="5_bDd1dyoHq" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="showDialog" />
-      <node concept="37vLTG" id="4Ucpg8yz4Zn" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="4Ucpg8z6mFY" role="1tU5fm">
-          <ref role="3uigEE" node="4Ucpg8z6mu9" resolve="IToolkit_AppWindow.DlgType" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="5_bDd1dyoHr" role="3clF46">
-        <property role="TrG5h" value="info" />
-        <node concept="17QB3L" id="5_bDd1dyoHs" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="vsIEjN_w7U" role="3clF46">
-        <property role="TrG5h" value="run" />
-        <node concept="3uibUv" id="vsIEjN_whA" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
-        </node>
-      </node>
-      <node concept="3cqZAl" id="5_bDd1dyoHt" role="3clF45" />
-      <node concept="3Tm1VV" id="5_bDd1dyoHu" role="1B3o_S" />
-      <node concept="3clFbS" id="5_bDd1dyoHv" role="3clF47" />
-    </node>
-    <node concept="2tJIrI" id="5_bDd1dyoqo" role="jymVt" />
-    <node concept="2tJIrI" id="1KgqQuBTWOO" role="jymVt" />
     <node concept="3clFb_" id="WpszhTVmx1" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getUserInterfaceHandle" />
