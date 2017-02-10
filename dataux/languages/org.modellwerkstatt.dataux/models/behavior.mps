@@ -1230,6 +1230,29 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="5yru0E478Pz" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="needsFullSizeWindow" />
+      <ref role="13i0hy" to="70o0:5yru0E476Gx" resolve="needsFullSizeWindow" />
+      <node concept="3Tm1VV" id="5yru0E478P$" role="1B3o_S" />
+      <node concept="3clFbS" id="5yru0E478PB" role="3clF47">
+        <node concept="3clFbF" id="5yru0E478VK" role="3cqZAp">
+          <node concept="2OqwBi" id="5yru0E479vx" role="3clFbG">
+            <node concept="2OqwBi" id="5yru0E4790s" role="2Oq$k0">
+              <node concept="13iPFW" id="5yru0E478VJ" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5yru0E479jE" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:2zZnBEDxRoV" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="5yru0E479zn" role="2OqNvi">
+              <ref role="37wK5l" node="5XruxTJJtyO" resolve="needsFullSize" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="5yru0E478PC" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="7Cs1IG3jYzS">
     <property role="3GE5qa" value="internalInfra" />

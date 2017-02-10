@@ -3140,7 +3140,7 @@
     </node>
     <node concept="3clFb_" id="3IuMOEB7eZz" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="externalAbortNow" />
+      <property role="TrG5h" value="extAbortWithCancel" />
       <node concept="3cqZAl" id="3IuMOEB7eZ$" role="3clF45" />
       <node concept="3Tm1VV" id="3IuMOEB7eZ_" role="1B3o_S" />
       <node concept="3clFbS" id="3IuMOEB7eZA" role="3clF47" />
@@ -3150,7 +3150,7 @@
     </node>
     <node concept="3clFb_" id="2znuo4gdpmh" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="externalAbortDueToOutsideException" />
+      <property role="TrG5h" value="extAbortDueToOutsideException" />
       <node concept="37vLTG" id="2znuo4gdqVc" role="3clF46">
         <property role="TrG5h" value="exceptionHappened" />
         <node concept="3uibUv" id="2znuo4gdqXI" role="1tU5fm">
@@ -3196,22 +3196,6 @@
       <node concept="3clFbS" id="6Gy9ythMxB5" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="oHsXcaje4v" role="jymVt" />
-    <node concept="3clFb_" id="3g5RX4qZRxT" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getPageNames" />
-      <node concept="_YKpA" id="3g5RX4qZRxU" role="3clF45">
-        <node concept="17QB3L" id="3g5RX4qZRxV" role="_ZDj9" />
-      </node>
-      <node concept="3Tm1VV" id="3g5RX4qZRxW" role="1B3o_S" />
-      <node concept="3clFbS" id="3g5RX4qZRxX" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="7MqOxzy_x1h" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getCurrentPageIndex" />
-      <node concept="10Oyi0" id="7MqOxzy_x1o" role="3clF45" />
-      <node concept="3Tm1VV" id="7MqOxzy_x1j" role="1B3o_S" />
-      <node concept="3clFbS" id="7MqOxzy_x1k" role="3clF47" />
-    </node>
     <node concept="3clFb_" id="ncJg$HcaY8" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="initCommand" />
@@ -3302,10 +3286,17 @@
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
     </node>
+    <node concept="3clFb_" id="7MqOxzy_x1h" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getCurrentPageIndex" />
+      <node concept="10Oyi0" id="7MqOxzy_x1o" role="3clF45" />
+      <node concept="3Tm1VV" id="7MqOxzy_x1j" role="1B3o_S" />
+      <node concept="3clFbS" id="7MqOxzy_x1k" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="5fkhsRO0dXb" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="calcPagePaneFqName" />
+      <property role="TrG5h" value="calcCurrentPagePaneFqName" />
       <node concept="3clFbS" id="5fkhsRO0dXe" role="3clF47" />
       <node concept="3Tm1VV" id="5fkhsRO0dXf" role="1B3o_S" />
       <node concept="17QB3L" id="5fkhsRO0dPO" role="3clF45" />
@@ -3406,6 +3397,14 @@
       <node concept="10P_77" id="6Rdz00$VgGt" role="3clF45" />
       <node concept="3Tm1VV" id="6Rdz00$VgGu" role="1B3o_S" />
       <node concept="3clFbS" id="6Rdz00$VgGv" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5yru0E469DT" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="needsPresuablyFullSizeWindow" />
+      <node concept="3clFbS" id="5yru0E469DW" role="3clF47" />
+      <node concept="3Tm1VV" id="5yru0E469DX" role="1B3o_S" />
+      <node concept="10P_77" id="5yru0E469yW" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="6Rdz00$Vf$h" role="jymVt" />
     <node concept="3clFb_" id="5gqYsAQlZxc" role="jymVt">

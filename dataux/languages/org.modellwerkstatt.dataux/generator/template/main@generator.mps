@@ -4593,16 +4593,11 @@
               <property role="2qtEX9" value="value" />
               <node concept="3zFVjK" id="5XruxTJKN5p" role="3zH0cK">
                 <node concept="3clFbS" id="5XruxTJKN5q" role="2VODD2">
-                  <node concept="3clFbF" id="5XruxTJKN9M" role="3cqZAp">
-                    <node concept="2OqwBi" id="5XruxTJKNAs" role="3clFbG">
-                      <node concept="2OqwBi" id="5XruxTJKNf9" role="2Oq$k0">
-                        <node concept="30H73N" id="5XruxTJKN9L" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="5XruxTJKNpZ" role="2OqNvi">
-                          <ref role="3Tt5mk" to="1btx:2zZnBEDxRoV" />
-                        </node>
-                      </node>
-                      <node concept="2qgKlT" id="5XruxTJKNFg" role="2OqNvi">
-                        <ref role="37wK5l" to="5y3p:5XruxTJJtyO" resolve="needsFullSize" />
+                  <node concept="3clFbF" id="5yru0E478h1" role="3cqZAp">
+                    <node concept="2OqwBi" id="5yru0E478lJ" role="3clFbG">
+                      <node concept="30H73N" id="5yru0E478gZ" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="5yru0E478Gn" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:5yru0E476Gx" resolve="needsFullSizeWindow" />
                       </node>
                     </node>
                   </node>
