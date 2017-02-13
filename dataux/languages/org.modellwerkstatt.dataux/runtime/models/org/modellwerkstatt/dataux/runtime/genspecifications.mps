@@ -521,7 +521,7 @@
       <property role="TrG5h" value="injected_actionStarter" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tm1VV" id="4XXgpA_y107" role="1B3o_S" />
-      <node concept="3uibUv" id="4XXgpAAeZCd" role="1tU5fm">
+      <node concept="3uibUv" id="1dzqM5xuk7w" role="1tU5fm">
         <ref role="3uigEE" to="1e0c:4XXgpAAeZ45" resolve="IActionStarter" />
       </node>
     </node>
@@ -938,6 +938,7 @@
             <node concept="liA8E" id="7aUgYCzFwjv" role="2OqNvi">
               <ref role="37wK5l" to="1e0c:4XXgpAAeZ4y" resolve="startCommand" />
               <node concept="Xjq3P" id="7aUgYCzFwkZ" role="37wK5m" />
+              <node concept="10Nm6u" id="1dzqM5xujBh" role="37wK5m" />
             </node>
           </node>
         </node>
