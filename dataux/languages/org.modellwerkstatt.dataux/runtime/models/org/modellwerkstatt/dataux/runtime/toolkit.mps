@@ -804,9 +804,9 @@
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="focusTab" />
       <node concept="37vLTG" id="4vBE4eLRbt_" role="3clF46">
-        <property role="TrG5h" value="tab" />
-        <node concept="3uibUv" id="4vBE4eLRbtA" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
+        <property role="TrG5h" value="ui" />
+        <node concept="3uibUv" id="5YG5DD8RdIl" role="1tU5fm">
+          <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
         </node>
       </node>
       <node concept="3cqZAl" id="4vBE4eLRbtB" role="3clF45" />
@@ -1104,13 +1104,6 @@
       </node>
       <node concept="3Tm1VV" id="2DwOiMAxcUQ" role="1B3o_S" />
       <node concept="3clFbS" id="2DwOiMAxcUR" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="12Eg3QJmL6o" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="myRequestFocusOnChange" />
-      <node concept="3cqZAl" id="12Eg3QJmL6q" role="3clF45" />
-      <node concept="3Tm1VV" id="12Eg3QJmL6r" role="1B3o_S" />
-      <node concept="3clFbS" id="12Eg3QJmL6s" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="yc6MyEmFNc" role="jymVt" />
     <node concept="3clFb_" id="yc6MyE7sL6" role="jymVt">
