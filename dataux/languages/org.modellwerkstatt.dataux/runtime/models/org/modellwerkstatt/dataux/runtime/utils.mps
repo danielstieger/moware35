@@ -2236,14 +2236,12 @@
         <property role="TrG5h" value="ESC_BUTTON" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wFQvR" role="37wK5m">
-          <property role="Xl_RC" value="Abbrechen (ESC)" />
+          <property role="Xl_RC" value="Abbrechen" />
         </node>
         <node concept="Xl_RD" id="4Zj1V_wFQvS" role="37wK5m">
           <property role="Xl_RC" value="" />
         </node>
-        <node concept="Xl_RD" id="4Rlyz3EmQHe" role="37wK5m">
-          <property role="Xl_RC" value="Abbr" />
-        </node>
+        <node concept="Xl_RD" id="4Rlyz3EmQHe" role="37wK5m" />
       </node>
       <node concept="QsSxf" id="4vHQZKCcE0A" role="Qtgdg">
         <property role="TrG5h" value="YES_BUTTON" />
