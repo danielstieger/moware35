@@ -1094,7 +1094,21 @@
       <node concept="3Tm1VV" id="27BPRG5LZYa" role="1B3o_S" />
       <node concept="3cqZAl" id="27BPRG5LZWW" role="3clF45" />
     </node>
-    <node concept="2tJIrI" id="yc6MyEmFNc" role="jymVt" />
+    <node concept="3clFb_" id="zBgVaCY2f8" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="delayedRequestFocus" />
+      <node concept="3cqZAl" id="zBgVaCY2fa" role="3clF45" />
+      <node concept="3Tm1VV" id="zBgVaCY2fb" role="1B3o_S" />
+      <node concept="3clFbS" id="zBgVaCY2fc" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="zBgVaCZ_92" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="delayedAfterFullUiInitialized" />
+      <node concept="3cqZAl" id="zBgVaCZ_93" role="3clF45" />
+      <node concept="3Tm1VV" id="zBgVaCZ_94" role="1B3o_S" />
+      <node concept="3clFbS" id="zBgVaCZ_95" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="zBgVaCY2d5" role="jymVt" />
     <node concept="3clFb_" id="1dzqM5xoO4$" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="close" />

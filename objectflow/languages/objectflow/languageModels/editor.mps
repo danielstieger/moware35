@@ -2545,15 +2545,11 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1xbJ1snViFP" role="3EZMnx">
-          <property role="3F0ifm" value="page pane switch:" />
+          <property role="3F0ifm" value="page pane configuration switch:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1xbJ1snViFQ" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
-        </node>
-        <node concept="3F0ifn" id="30IJG6q5nbN" role="3EZMnx">
-          <property role="3F0ifm" value="// right now, determined before cmd init!" />
-          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F2HdR" id="7qQ6PJuKRCI" role="3EZMnx">
           <ref role="1NtTu8" to="un0u:3nLPQZPUuMQ" />
