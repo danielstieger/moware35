@@ -683,7 +683,7 @@
       <node concept="37vLTG" id="vsIEjNwO4g" role="3clF46">
         <property role="TrG5h" value="callback" />
         <node concept="3uibUv" id="2ppo89mgKzJ" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IMainTabController.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="20ohnkbA_XA" role="3clF45" />
@@ -824,11 +824,17 @@
     <node concept="2tJIrI" id="yc6MyE8kHS" role="jymVt" />
     <node concept="3clFb_" id="2ppo89mbSZT" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="initCommandInBackground" />
+      <property role="TrG5h" value="execEventInBackground" />
       <node concept="37vLTG" id="2ppo89mbVhs" role="3clF46">
         <property role="TrG5h" value="cmdCntr" />
-        <node concept="3uibUv" id="2ppo89mbVmI" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
+        <node concept="3uibUv" id="2o7h3aE0HP6" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:2o7h3aDYx43" resolve="ICommandContainer" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2o7h3aE0J6c" role="3clF46">
+        <property role="TrG5h" value="ev" />
+        <node concept="3uibUv" id="2o7h3aE0J9l" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:zBgVaD671z" resolve="IEvent" />
         </node>
       </node>
       <node concept="3cqZAl" id="2ppo89mbSZV" role="3clF45" />
@@ -1004,8 +1010,8 @@
       <property role="TrG5h" value="setCommandContainer" />
       <node concept="37vLTG" id="1KgqQuBS1KC" role="3clF46">
         <property role="TrG5h" value="container" />
-        <node concept="3uibUv" id="1KgqQuBS1Ne" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:Y3fiVKxA03" resolve="CommandContainer" />
+        <node concept="3uibUv" id="2o7h3aEbyUU" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:2o7h3aDYx43" resolve="ICommandContainer" />
         </node>
       </node>
       <node concept="3cqZAl" id="1KgqQuBS1uE" role="3clF45" />
