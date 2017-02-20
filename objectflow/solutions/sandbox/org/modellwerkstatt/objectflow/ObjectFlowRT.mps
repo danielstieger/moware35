@@ -3140,7 +3140,7 @@
     </node>
     <node concept="3clFb_" id="3IuMOEB7eZz" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="extAbortWithCancel" />
+      <property role="TrG5h" value="extForceCancelConclusion" />
       <node concept="3cqZAl" id="3IuMOEB7eZ$" role="3clF45" />
       <node concept="3Tm1VV" id="3IuMOEB7eZ_" role="1B3o_S" />
       <node concept="3clFbS" id="3IuMOEB7eZA" role="3clF47" />
@@ -3150,7 +3150,7 @@
     </node>
     <node concept="3clFb_" id="2znuo4gdpmh" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="extAbortDueToOutsideException" />
+      <property role="TrG5h" value="ensureTerminatedExceptionConclusion" />
       <node concept="37vLTG" id="2znuo4gdqVc" role="3clF46">
         <property role="TrG5h" value="exceptionHappened" />
         <node concept="3uibUv" id="2znuo4gdqXI" role="1tU5fm">
