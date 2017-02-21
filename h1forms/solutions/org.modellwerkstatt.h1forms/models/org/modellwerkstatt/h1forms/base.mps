@@ -25,7 +25,7 @@
     <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.genspecifications)" />
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="x37d" ref="r:72cce30f-2a64-4fe3-8e44-7617cdd42782(org.modellwerkstatt.dataux.runtime.telemetrics)" />
-    <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.controllers)" />
+    <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
     <import index="oawo" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/)" implicit="true" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" implicit="true" />
@@ -9085,7 +9085,7 @@
                                 <ref role="3cqZAo" node="75445jvUQHg" resolve="theInfo" />
                               </node>
                               <node concept="2OwXpG" id="75445jvURHR" role="2OqNvi">
-                                <ref role="2Oxat5" to="28jr:6dnXV8mHmmD" resolve="conclusion" />
+                                <ref role="2Oxat5" to="28jr:6dnXV8mHmmD" resolve="conclusionHashCode" />
                               </node>
                             </node>
                           </node>
@@ -10681,7 +10681,7 @@
                                     <ref role="3cqZAo" node="3L0rgZdI8Vp" resolve="info" />
                                   </node>
                                   <node concept="2OwXpG" id="4XOQNRZpfq$" role="2OqNvi">
-                                    <ref role="2Oxat5" to="28jr:6dnXV8mHmmD" resolve="conclusion" />
+                                    <ref role="2Oxat5" to="28jr:6dnXV8mHmmD" resolve="conclusionHashCode" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="4XOQNRZpfFx" role="2OqNvi">
@@ -10746,7 +10746,7 @@
                                       <ref role="3cqZAo" node="3L0rgZdI8Vp" resolve="info" />
                                     </node>
                                     <node concept="2OwXpG" id="3L0rgZdIkx0" role="2OqNvi">
-                                      <ref role="2Oxat5" to="28jr:6dnXV8mHmmD" resolve="conclusion" />
+                                      <ref role="2Oxat5" to="28jr:6dnXV8mHmmD" resolve="conclusionHashCode" />
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="3L0rgZdIkMF" role="2OqNvi">
@@ -11945,7 +11945,7 @@
               <ref role="3cqZAo" node="6QRLe84pBc7" resolve="cmdContainer" />
             </node>
             <node concept="liA8E" id="6QRLe84q4_1" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:3LH0mQPo5WG" resolve="bg_InitCommandInContainer" />
+              <ref role="37wK5l" to="1e0c:3LH0mQPo5WG" resolve="bg_fg_initContainer" />
             </node>
           </node>
         </node>
@@ -12368,7 +12368,7 @@
               <ref role="3cqZAo" node="1rrvF1jCUWx" resolve="cmdContainer" />
             </node>
             <node concept="liA8E" id="1rrvF1jCUWP" role="2OqNvi">
-              <ref role="37wK5l" to="1e0c:3LH0mQPo5WG" resolve="bg_InitCommandInContainer" />
+              <ref role="37wK5l" to="1e0c:3LH0mQPo5WG" resolve="bg_fg_initContainer" />
             </node>
           </node>
         </node>

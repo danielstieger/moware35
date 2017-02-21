@@ -42,7 +42,7 @@
     <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.genspecifications)" />
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="x37d" ref="r:72cce30f-2a64-4fe3-8e44-7617cdd42782(org.modellwerkstatt.dataux.runtime.telemetrics)" />
-    <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.controllers)" />
+    <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" implicit="true" />
     <import index="a820" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.context(org.modellwerkstatt.sandbox/)" implicit="true" />
@@ -2530,7 +2530,7 @@
       <property role="TrG5h" value="appController" />
       <node concept="3Tm6S6" id="Y3fiVJRDr4" role="1B3o_S" />
       <node concept="3uibUv" id="Y3fiVJRV5r" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="MainTabController" />
+        <ref role="3uigEE" to="1e0c:Y3fiVJRmaH" resolve="ApplicationController" />
       </node>
     </node>
     <node concept="312cEg" id="7nDJo_boj1b" role="jymVt">
@@ -3145,7 +3145,7 @@
           <node concept="37vLTI" id="20ohnkbzNcl" role="3clFbG">
             <node concept="2ShNRf" id="20ohnkbzOh3" role="37vLTx">
               <node concept="1pGfFk" id="20ohnkbzOh2" role="2ShVmc">
-                <ref role="37wK5l" to="1e0c:20ohnkbzGjc" resolve="MainTabController" />
+                <ref role="37wK5l" to="1e0c:20ohnkbzGjc" resolve="ApplicationController" />
                 <node concept="37vLTw" id="20ohnkbzOip" role="37wK5m">
                   <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
                 </node>
@@ -4778,7 +4778,7 @@
       <node concept="37vLTG" id="vsIEjNCM73" role="3clF46">
         <property role="TrG5h" value="runnable" />
         <node concept="3uibUv" id="2ppo89mgQkv" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IMainTabController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="3zf0S8jSkli" role="3clF45" />
@@ -12687,7 +12687,7 @@
       <property role="TrG5h" value="runner" />
       <node concept="3Tm6S6" id="7Mah_agJaBv" role="1B3o_S" />
       <node concept="3uibUv" id="7Mah_agJc73" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IMainTabController.DlgRunnable" />
+        <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
       </node>
     </node>
     <node concept="2tJIrI" id="4Ucpg8z58vb" role="jymVt" />
@@ -13350,7 +13350,7 @@
       <node concept="37vLTG" id="vsIEjNMtBX" role="3clF46">
         <property role="TrG5h" value="runnable" />
         <node concept="3uibUv" id="vsIEjNMupY" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IMainTabController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="7Mah_agJhdy" role="3clF45" />
@@ -14631,7 +14631,7 @@
       <node concept="37vLTG" id="vsIEjNCSjH" role="3clF46">
         <property role="TrG5h" value="runnable" />
         <node concept="3uibUv" id="2ppo89mgRdx" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IMainTabController.DlgRunnable" />
+          <ref role="3uigEE" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="5_bDd1dpPqV" role="3clF45" />
