@@ -54,7 +54,7 @@
 
   
   <!--     H1 forms settings      -->
-  <property name="h1formsAppLoader"     value="org.modellwerkstatt.h1forms.base.H1ApplicationLoader" /> 
+  <property name="h2formsAppLoader"     value="org.modellwerkstatt.h2forms.runtime.core.H2ApplicationLoader" /> 
 
 
   <echo>
@@ -78,8 +78,8 @@
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.dataux.runtime.jar" 
          basedir="${mowareHome}/dataux/languages/org.modellwerkstatt.dataux/runtime/classes_gen" />
     
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.h1forms.jar" 
-         basedir="${mowareHome}/h1forms/solutions/org.modellwerkstatt.h1forms/classes_gen" />
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.h2forms.jar" 
+         basedir="${mowareHome}/h1forms/languages/org.modellwerkstatt.h2forms/runtime/classes_gen" />
     
     <copy todir="${mowarePluginHomeDir}/h1assembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/h1forms/assembly/artefact/"/>
@@ -96,7 +96,7 @@
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.sandbox.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.h1forms.jar" />
+	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.h2forms.jar" />
 	  
       <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />      
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />
@@ -121,7 +121,7 @@
           <tokenfilter>
               <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
               <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
-              <replaceregex pattern="LOADER_FQNAME"            replace="${h1formsAppLoader}"/>
+              <replaceregex pattern="LOADER_FQNAME"            replace="${h2formsAppLoader}"/>
               <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
               <replaceregex pattern="APPLICATION_HOMESCREEN"   replace="${appHomeScreen}"/>
           </tokenfilter>

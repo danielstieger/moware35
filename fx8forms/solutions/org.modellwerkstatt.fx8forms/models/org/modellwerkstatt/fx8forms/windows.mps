@@ -25277,6 +25277,11 @@
       <node concept="3cqZAl" id="6B_cXxOc7wj" role="3clF45" />
       <node concept="3Tm1VV" id="6B_cXxOc7wk" role="1B3o_S" />
       <node concept="3clFbS" id="6B_cXxOc7wn" role="3clF47">
+        <node concept="3SKdUt" id="kA5KhwnITx" role="3cqZAp">
+          <node concept="3SKdUq" id="kA5KhwnITz" role="3SKWNk">
+            <property role="3SKdUp" value="Called by ApplicationController" />
+          </node>
+        </node>
         <node concept="3SKdUt" id="uIdudhYNVL" role="3cqZAp">
           <node concept="3SKdUq" id="uIdudhYO9Q" role="3SKWNk">
             <property role="3SKdUp" value="windowTitle is ignored in Prompt Windows" />
@@ -25501,6 +25506,11 @@
       <node concept="3cqZAl" id="6B_cXxOc7wr" role="3clF45" />
       <node concept="3Tm1VV" id="6B_cXxOc7ws" role="1B3o_S" />
       <node concept="3clFbS" id="6B_cXxOc7wv" role="3clF47">
+        <node concept="3SKdUt" id="kA5KhwnJ6L" role="3cqZAp">
+          <node concept="3SKdUq" id="kA5KhwnJ6N" role="3SKWNk">
+            <property role="3SKdUp" value="Called by CommandContainer" />
+          </node>
+        </node>
         <node concept="3SKdUt" id="ce33YiH4Yw" role="3cqZAp">
           <node concept="3SKdUq" id="ce33YiH4YQ" role="3SKWNk">
             <property role="3SKdUp" value="BorderPane i guess .. " />
