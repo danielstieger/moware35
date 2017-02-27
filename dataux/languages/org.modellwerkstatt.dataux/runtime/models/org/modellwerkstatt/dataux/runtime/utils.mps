@@ -2245,6 +2245,19 @@
         </node>
         <node concept="Xl_RD" id="4Rlyz3EmQHe" role="37wK5m" />
       </node>
+      <node concept="QsSxf" id="2FClOw1VSS5" role="Qtgdg">
+        <property role="TrG5h" value="CLOSE_BUTTON" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
+        <node concept="Xl_RD" id="2FClOw1VSS6" role="37wK5m">
+          <property role="Xl_RC" value="Schliessen (ESC)" />
+        </node>
+        <node concept="Xl_RD" id="2FClOw1VSS7" role="37wK5m">
+          <property role="Xl_RC" value="" />
+        </node>
+        <node concept="Xl_RD" id="4Rlyz3EmQHh" role="37wK5m">
+          <property role="Xl_RC" value="Abbr" />
+        </node>
+      </node>
       <node concept="QsSxf" id="4vHQZKCcE0A" role="Qtgdg">
         <property role="TrG5h" value="YES_BUTTON" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
@@ -2265,19 +2278,6 @@
         <node concept="Xl_RD" id="4vHQZKCcRFB" role="37wK5m" />
         <node concept="Xl_RD" id="4Rlyz3EmQHg" role="37wK5m">
           <property role="Xl_RC" value="Nein" />
-        </node>
-      </node>
-      <node concept="QsSxf" id="2FClOw1VSS5" role="Qtgdg">
-        <property role="TrG5h" value="CLOSE_BUTTON" />
-        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
-        <node concept="Xl_RD" id="2FClOw1VSS6" role="37wK5m">
-          <property role="Xl_RC" value="Schliessen (ESC)" />
-        </node>
-        <node concept="Xl_RD" id="2FClOw1VSS7" role="37wK5m">
-          <property role="Xl_RC" value="" />
-        </node>
-        <node concept="Xl_RD" id="4Rlyz3EmQHh" role="37wK5m">
-          <property role="Xl_RC" value="Abbr" />
         </node>
       </node>
       <node concept="QsSxf" id="5ECQsWUk$8w" role="Qtgdg">
