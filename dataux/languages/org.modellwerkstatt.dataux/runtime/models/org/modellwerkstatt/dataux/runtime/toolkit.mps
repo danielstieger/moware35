@@ -712,7 +712,7 @@
     </node>
     <node concept="3clFb_" id="20ohnkbIC$p" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setStatusMessage" />
+      <property role="TrG5h" value="setToastMessage" />
       <node concept="3cqZAl" id="20ohnkbIC$q" role="3clF45" />
       <node concept="3Tm1VV" id="20ohnkbIC$r" role="1B3o_S" />
       <node concept="3clFbS" id="20ohnkbIC$s" role="3clF47" />
