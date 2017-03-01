@@ -5520,52 +5520,33 @@
             </node>
           </node>
           <node concept="3eNFk2" id="7r26jiNZJfh" role="3eNLev">
-            <node concept="22lmx$" id="7r26jiO3VVu" role="3eO9$A">
-              <node concept="2OqwBi" id="7r26jiO3Wc4" role="3uHU7w">
-                <node concept="37vLTw" id="7r26jiO3W7M" role="2Oq$k0">
+            <node concept="22lmx$" id="7r26jiNZJZn" role="3eO9$A">
+              <node concept="2OqwBi" id="7r26jiNZJl8" role="3uHU7B">
+                <node concept="37vLTw" id="7r26jiNZJi8" role="2Oq$k0">
                   <ref role="3cqZAo" node="kWPevMd7NN" resolve="type" />
                 </node>
-                <node concept="liA8E" id="7r26jiO3Wss" role="2OqNvi">
+                <node concept="liA8E" id="7r26jiNZJ$e" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
-                  <node concept="Rm8GO" id="7r26jiO3WFO" role="37wK5m">
-                    <ref role="Rm8GQ" to="250q:4Ucpg8z6mvn" resolve="INFO_SMALL" />
+                  <node concept="Rm8GO" id="7r26jiNZJLy" role="37wK5m">
+                    <ref role="Rm8GQ" to="250q:4Ucpg8z6mvl" resolve="ERROR_LARGE" />
                     <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
                   </node>
                 </node>
               </node>
-              <node concept="22lmx$" id="7r26jiNZJZn" role="3uHU7B">
-                <node concept="2OqwBi" id="7r26jiNZJl8" role="3uHU7B">
-                  <node concept="37vLTw" id="7r26jiNZJi8" role="2Oq$k0">
-                    <ref role="3cqZAo" node="kWPevMd7NN" resolve="type" />
-                  </node>
-                  <node concept="liA8E" id="7r26jiNZJ$e" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="Rm8GO" id="7r26jiNZJLy" role="37wK5m">
-                      <ref role="Rm8GQ" to="250q:4Ucpg8z6mvl" resolve="ERROR_LARGE" />
-                      <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
-                    </node>
-                  </node>
+              <node concept="2OqwBi" id="7r26jiNZKdE" role="3uHU7w">
+                <node concept="37vLTw" id="7r26jiNZK9Q" role="2Oq$k0">
+                  <ref role="3cqZAo" node="kWPevMd7NN" resolve="type" />
                 </node>
-                <node concept="2OqwBi" id="7r26jiNZKdE" role="3uHU7w">
-                  <node concept="37vLTw" id="7r26jiNZK9Q" role="2Oq$k0">
-                    <ref role="3cqZAo" node="kWPevMd7NN" resolve="type" />
-                  </node>
-                  <node concept="liA8E" id="7r26jiNZKmO" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="Rm8GO" id="7r26jiNZKF7" role="37wK5m">
-                      <ref role="Rm8GQ" to="250q:4Ucpg8z6mvq" resolve="ERROR_SMALL" />
-                      <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
-                    </node>
+                <node concept="liA8E" id="7r26jiNZKmO" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="Rm8GO" id="7r26jiNZKF7" role="37wK5m">
+                    <ref role="Rm8GQ" to="250q:4Ucpg8z6mvq" resolve="ERROR_SMALL" />
+                    <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
                   </node>
                 </node>
               </node>
             </node>
             <node concept="3clFbS" id="7r26jiNZJfj" role="3eOfB_">
-              <node concept="3SKdUt" id="7r26jiO7yiy" role="3cqZAp">
-                <node concept="3SKdUq" id="7r26jiO7yi$" role="3SKWNk">
-                  <property role="3SKdUp" value="handle small infos, e.g. cancel like error message" />
-                </node>
-              </node>
               <node concept="3clFbF" id="7r26jiNZKPN" role="3cqZAp">
                 <node concept="37vLTI" id="7r26jiNZKPO" role="3clFbG">
                   <node concept="2ShNRf" id="7r26jiNZKPP" role="37vLTx">
@@ -5663,13 +5644,18 @@
         <node concept="17QB3L" id="7r26jiO3D_P" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="7r26jiO3D_Q" role="3clF47">
+        <node concept="3SKdUt" id="4ysbFF_V2Gi" role="3cqZAp">
+          <node concept="3SKdUq" id="4ysbFF_V2Gk" role="3SKWNk">
+            <property role="3SKdUp" value="only info large will be gray - other infos handled as errors. " />
+          </node>
+        </node>
         <node concept="3clFbF" id="7r26jiO3EN$" role="3cqZAp">
           <node concept="37vLTI" id="7r26jiO3EVG" role="3clFbG">
             <node concept="2ShNRf" id="7r26jiO3F4L" role="37vLTx">
               <node concept="1pGfFk" id="7r26jiO3EXU" role="2ShVmc">
                 <ref role="37wK5l" node="5hYsHqQzfX7" resolve="Message" />
-                <node concept="Rm8GO" id="7r26jiO3FgL" role="37wK5m">
-                  <ref role="Rm8GQ" to="250q:4Ucpg8z6mvn" resolve="INFO_SMALL" />
+                <node concept="Rm8GO" id="4ysbFF_V2uk" role="37wK5m">
+                  <ref role="Rm8GQ" to="250q:2ppo89mgGiY" resolve="INFO_LARGE" />
                   <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
                 </node>
                 <node concept="2OqwBi" id="7r26jiO3F_h" role="37wK5m">
@@ -6662,7 +6648,28 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="7r26jiNZhBb" role="jymVt" />
+    <node concept="3clFb_" id="4ysbFF_UA2l" role="jymVt">
+      <property role="TrG5h" value="isInfoSmall" />
+      <node concept="10P_77" id="4ysbFF_UA2m" role="3clF45" />
+      <node concept="3Tm1VV" id="4ysbFF_UA2n" role="1B3o_S" />
+      <node concept="3clFbS" id="4ysbFF_UA2o" role="3clF47">
+        <node concept="3clFbF" id="4ysbFF_UA2p" role="3cqZAp">
+          <node concept="2OqwBi" id="4ysbFF_UA2r" role="3clFbG">
+            <node concept="37vLTw" id="4ysbFF_UA2s" role="2Oq$k0">
+              <ref role="3cqZAo" node="5hYsHqQzezG" resolve="type" />
+            </node>
+            <node concept="liA8E" id="4ysbFF_UA2t" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Rm8GO" id="4ysbFF_UA2u" role="37wK5m">
+                <ref role="Rm8GQ" to="250q:4Ucpg8z6mvn" resolve="INFO_SMALL" />
+                <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4ysbFF_U_$3" role="jymVt" />
     <node concept="3clFb_" id="7r26jiO6zXO" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="toString" />
