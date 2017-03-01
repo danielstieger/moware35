@@ -2666,9 +2666,18 @@
         <node concept="10Nm6u" id="7r26jiNRWDA" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDB" role="37wK5m" />
       </node>
+      <node concept="QsSxf" id="4ysbFF_K1ve" role="Qtgdg">
+        <property role="TrG5h" value="FATA_APPFRMWRK_PROBLEM" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
+        <node concept="Xl_RD" id="4ysbFF_K1vf" role="37wK5m">
+          <property role="Xl_RC" value="Ein schwerwiegender Systemfehler ist aufgetreten!! Das Geraet ist nicht einsatzbereit!!" />
+        </node>
+        <node concept="10Nm6u" id="4ysbFF_K1vg" role="37wK5m" />
+        <node concept="10Nm6u" id="4ysbFF_K1vh" role="37wK5m" />
+      </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
       <node concept="2tJIrI" id="3zf0S8jTrHW" role="jymVt" />
-      <node concept="2tJIrI" id="3zf0S8jTrRC" role="jymVt" />
+      <node concept="2tJIrI" id="4ysbFF_K0QT" role="jymVt" />
       <node concept="312cEg" id="2zlZ_in69hT" role="jymVt">
         <property role="TrG5h" value="langDefault" />
         <node concept="3Tm6S6" id="2zlZ_in69hU" role="1B3o_S" />
