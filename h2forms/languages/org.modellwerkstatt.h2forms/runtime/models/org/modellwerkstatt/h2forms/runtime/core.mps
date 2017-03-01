@@ -283,7 +283,7 @@
     <property role="1EXbeo" value="false" />
     <node concept="Wx3nA" id="2eK$oa4aIVV" role="jymVt">
       <property role="IEkAT" value="false" />
-      <property role="TrG5h" value="charset" />
+      <property role="TrG5h" value="CHARSET" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="2eK$oa4aNp3" role="1tU5fm" />
       <node concept="3Tm6S6" id="2eK$oa4aIVX" role="1B3o_S" />
@@ -308,7 +308,7 @@
       <node concept="17QB3L" id="4QTIUTCpC24" role="1tU5fm" />
       <node concept="3Tm6S6" id="4QTIUTCpBjC" role="1B3o_S" />
       <node concept="Xl_RD" id="4QTIUTCpC73" role="33vP2m">
-        <property role="Xl_RC" value="/Users/danielstieger/h1hardlog.txt" />
+        <property role="Xl_RC" value="/Users/danielstieger/h2hardlog.txt" />
       </node>
     </node>
     <node concept="Wx3nA" id="Gy0DA$Zk4e" role="jymVt">
@@ -318,6 +318,16 @@
       <node concept="10P_77" id="Gy0DA$ZGVm" role="1tU5fm" />
       <node concept="3Tm6S6" id="Gy0DA$Zk4g" role="1B3o_S" />
       <node concept="3clFbT" id="Gy0DA$ZG6D" role="33vP2m">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="5pFQRGEkp8I" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="REDIRECT_IN_HOMESCRN_WHEN_POSSIBLE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10P_77" id="5pFQRGEkp8J" role="1tU5fm" />
+      <node concept="3Tm6S6" id="5pFQRGEkp8K" role="1B3o_S" />
+      <node concept="3clFbT" id="5pFQRGEkp8L" role="33vP2m">
         <property role="3clFbU" value="true" />
       </node>
     </node>
@@ -1920,7 +1930,7 @@
                 <node concept="liA8E" id="7qRg8LncbPD" role="2OqNvi">
                   <ref role="37wK5l" to="opgt:~ServletResponse.setCharacterEncoding(java.lang.String):void" resolve="setCharacterEncoding" />
                   <node concept="37vLTw" id="kWPevMcC$T" role="37wK5m">
-                    <ref role="3cqZAo" node="2eK$oa4aIVV" resolve="charset" />
+                    <ref role="3cqZAo" node="2eK$oa4aIVV" resolve="CHARSET" />
                   </node>
                 </node>
               </node>
@@ -1933,12 +1943,15 @@
                 <node concept="liA8E" id="MdbUSGXyeq" role="2OqNvi">
                   <ref role="37wK5l" to="opgt:~ServletRequest.setCharacterEncoding(java.lang.String):void" resolve="setCharacterEncoding" />
                   <node concept="37vLTw" id="kWPevMcC_1" role="37wK5m">
-                    <ref role="3cqZAo" node="2eK$oa4aIVV" resolve="charset" />
+                    <ref role="3cqZAo" node="2eK$oa4aIVV" resolve="CHARSET" />
                   </node>
                 </node>
               </node>
             </node>
             <node concept="3clFbH" id="MdbUSGX_i6" role="3cqZAp" />
+            <node concept="3clFbH" id="5pFQRGEkiIb" role="3cqZAp" />
+            <node concept="3clFbH" id="5pFQRGEkiQ7" role="3cqZAp" />
+            <node concept="3clFbH" id="5pFQRGEkiU3" role="3cqZAp" />
             <node concept="3SKdUt" id="kA5Khwc2oj" role="3cqZAp">
               <node concept="3SKdUq" id="kA5Khwc2ol" role="3SKWNk">
                 <property role="3SKdUp" value="someone moved around in our network ---------------------------" />
@@ -2355,13 +2368,14 @@
                   <ref role="3cqZAo" node="2xnCXJMqI_H" resolve="app" />
                 </node>
                 <node concept="liA8E" id="kA5KhwclGX" role="2OqNvi">
-                  <ref role="37wK5l" node="5pIRrzleUlc" resolve="responseReceived" />
+                  <ref role="37wK5l" node="5pIRrzleUlc" resolve="createResponse" />
                   <node concept="37vLTw" id="kA5Khwg2Js" role="37wK5m">
                     <ref role="3cqZAo" node="3h3MBx3irbx" resolve="response" />
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="5pFQRGEku7V" role="3cqZAp" />
             <node concept="3clFbJ" id="5hYsHqQHJn0" role="3cqZAp">
               <node concept="3clFbS" id="5hYsHqQHJn2" role="3clFbx">
                 <node concept="3clFbF" id="5hYsHqQHKwp" role="3cqZAp">
@@ -2372,6 +2386,27 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbJ" id="5pFQRGEkvp5" role="3cqZAp">
+                  <node concept="3clFbS" id="5pFQRGEkvp7" role="3clFbx">
+                    <node concept="3clFbF" id="5pFQRGEkwtp" role="3cqZAp">
+                      <node concept="2OqwBi" id="5pFQRGEkwuC" role="3clFbG">
+                        <node concept="37vLTw" id="5pFQRGEkwtn" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3h3MBx3irbx" resolve="response" />
+                        </node>
+                        <node concept="liA8E" id="5pFQRGEkx3a" role="2OqNvi">
+                          <ref role="37wK5l" to="nwfd:~HttpServletResponse.sendRedirect(java.lang.String):void" resolve="sendRedirect" />
+                          <node concept="37vLTw" id="5pFQRGEkx$M" role="37wK5m">
+                            <ref role="3cqZAo" node="64g0II1yCUM" resolve="homeScreenIndirectionPath" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="5pFQRGEkvU9" role="3clFbw">
+                    <ref role="3cqZAo" node="5pFQRGEkp8I" resolve="REDIRECT_IN_HOMESCRN_WHEN_POSSIBLE" />
+                  </node>
+                </node>
+                <node concept="3clFbH" id="5pFQRGEkuSY" role="3cqZAp" />
               </node>
               <node concept="2OqwBi" id="5hYsHqQHJBD" role="3clFbw">
                 <node concept="37vLTw" id="5hYsHqQHJAF" role="2Oq$k0">
@@ -2381,7 +2416,28 @@
                   <ref role="37wK5l" node="5hYsHqQHmgz" resolve="isRemoveFromSessionAndClose" />
                 </node>
               </node>
+              <node concept="9aQIb" id="5pFQRGEky8C" role="9aQIa">
+                <node concept="3clFbS" id="5pFQRGEky8D" role="9aQI4">
+                  <node concept="3clFbJ" id="5pFQRGEkrqA" role="3cqZAp">
+                    <node concept="3clFbS" id="5pFQRGEkrqC" role="3clFbx">
+                      <node concept="3SKdUt" id="5pFQRGEl2Bf" role="3cqZAp">
+                        <node concept="3SKdUq" id="5pFQRGEl2Bg" role="3SKWNk">
+                          <property role="3SKdUp" value="TODO: How can we determine if we redirect ? " />
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="5pFQRGEl2Cb" role="3cqZAp" />
+                    </node>
+                    <node concept="37vLTw" id="5pFQRGEkzrw" role="3clFbw">
+                      <ref role="3cqZAo" node="5pFQRGEkp8I" resolve="REDIRECT_IN_HOMESCRN_WHEN_POSSIBLE" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
+            <node concept="3clFbH" id="5pFQRGEknF1" role="3cqZAp" />
+            <node concept="3clFbH" id="5pFQRGEknW1" role="3cqZAp" />
+            <node concept="3clFbH" id="5pFQRGEkod2" role="3cqZAp" />
+            <node concept="3clFbH" id="5pFQRGEkou4" role="3cqZAp" />
             <node concept="3SKdUt" id="1XvfUlytPqs" role="3cqZAp">
               <node concept="3SKdUq" id="1XvfUlytPvj" role="3SKWNk">
                 <property role="3SKdUp" value="okay, do some telemetrics stuff. thanks." />
@@ -4427,7 +4483,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7r26jiO2k0g" role="3cqZAp" />
         <node concept="3SKdUt" id="7r26jiO14F6" role="3cqZAp">
           <node concept="3SKdUq" id="7r26jiO14F8" role="3SKWNk">
             <property role="3SKdUp" value="is there a message set? " />
@@ -4555,6 +4610,12 @@
           </node>
         </node>
         <node concept="3clFbH" id="7r26jiO1D0g" role="3cqZAp" />
+        <node concept="3clFbH" id="5pFQRGEkY4r" role="3cqZAp" />
+        <node concept="3SKdUt" id="5pFQRGEkY_L" role="3cqZAp">
+          <node concept="3SKdUq" id="5pFQRGEkY_N" role="3SKWNk">
+            <property role="3SKdUp" value="start a command? ---------------------------------------------------------------------------------------" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="7r26jiNUt0G" role="3cqZAp">
           <node concept="3clFbS" id="7r26jiNUt0I" role="3clFbx">
             <node concept="3SKdUt" id="7r26jiNUWq6" role="3cqZAp">
@@ -4870,7 +4931,7 @@
     </node>
     <node concept="2tJIrI" id="5hYsHqQxORP" role="jymVt" />
     <node concept="3clFb_" id="5pIRrzleUlc" role="jymVt">
-      <property role="TrG5h" value="responseReceived" />
+      <property role="TrG5h" value="createResponse" />
       <node concept="37vLTG" id="kA5Khwg19r" role="3clF46">
         <property role="TrG5h" value="response" />
         <node concept="3uibUv" id="kA5Khwg1z2" role="1tU5fm">
@@ -6060,7 +6121,7 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="5hYsHqQHleq" role="jymVt" />
+    <node concept="2tJIrI" id="5pFQRGEkCmw" role="jymVt" />
     <node concept="3clFb_" id="5hYsHqQxAv$" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getActionFromUri" />
