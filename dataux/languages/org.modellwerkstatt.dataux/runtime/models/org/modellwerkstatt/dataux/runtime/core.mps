@@ -12341,6 +12341,72 @@
           </node>
         </node>
         <node concept="3clFbH" id="1U$SEulm4Un" role="3cqZAp" />
+        <node concept="3SKdUt" id="ao4XGSSVrH" role="3cqZAp">
+          <node concept="3SKdUq" id="ao4XGSSVrJ" role="3SKWNk">
+            <property role="3SKdUp" value="set ui color if not null, color is only set after initialization, not dynamically." />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="ao4XGSSWuj" role="3cqZAp">
+          <node concept="3cpWsn" id="ao4XGSSWum" role="3cpWs9">
+            <property role="TrG5h" value="color" />
+            <node concept="17QB3L" id="ao4XGSSWuh" role="1tU5fm" />
+            <node concept="2OqwBi" id="ao4XGSSX1A" role="33vP2m">
+              <node concept="37vLTw" id="ao4XGSSX0c" role="2Oq$k0">
+                <ref role="3cqZAo" node="5yru0E42RFI" resolve="currentGenPagePane" />
+              </node>
+              <node concept="liA8E" id="ao4XGSTXES" role="2OqNvi">
+                <ref role="37wK5l" to="yg8v:ao4XGSSXhI" resolve="calcUiColor" />
+                <node concept="2OqwBi" id="ao4XGSTYVJ" role="37wK5m">
+                  <node concept="2OqwBi" id="ao4XGSTXIr" role="2Oq$k0">
+                    <node concept="37vLTw" id="ao4XGSTXGt" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
+                    </node>
+                    <node concept="liA8E" id="ao4XGSTXUO" role="2OqNvi">
+                      <ref role="37wK5l" node="3972coxdGYr" resolve="getSelection" />
+                      <node concept="2OqwBi" id="ao4XGSTY18" role="37wK5m">
+                        <node concept="37vLTw" id="ao4XGSY6$b" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5yru0E42RFI" resolve="currentGenPagePane" />
+                        </node>
+                        <node concept="liA8E" id="ao4XGSTYeF" role="2OqNvi">
+                          <ref role="37wK5l" to="yg8v:72_IH8pvERa" resolve="getPagePaneType" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="ao4XGSTZ9e" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:6ffh1MXuemT" resolve="getObjectOrNull" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="ao4XGSTZdo" role="3cqZAp">
+          <property role="TyiWK" value="false" />
+          <property role="TyiWL" value="true" />
+          <node concept="3clFbS" id="ao4XGSTZdq" role="3clFbx">
+            <node concept="3clFbF" id="ao4XGSU0FH" role="3cqZAp">
+              <node concept="2OqwBi" id="ao4XGSU0PP" role="3clFbG">
+                <node concept="37vLTw" id="ao4XGSU0OX" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5_bDd1daoNx" resolve="commandUI" />
+                </node>
+                <node concept="liA8E" id="ao4XGSU2tW" role="2OqNvi">
+                  <ref role="37wK5l" to="250q:ao4XGSU1Ak" resolve="setColor" />
+                  <node concept="37vLTw" id="ao4XGSU2uZ" role="37wK5m">
+                    <ref role="3cqZAo" node="ao4XGSSWum" resolve="color" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="ao4XGSU0ez" role="3clFbw">
+            <node concept="10Nm6u" id="ao4XGSU0Ex" role="3uHU7w" />
+            <node concept="37vLTw" id="ao4XGSTZKU" role="3uHU7B">
+              <ref role="3cqZAo" node="ao4XGSSWum" resolve="color" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="ao4XGSXrnB" role="3cqZAp" />
         <node concept="3SKdUt" id="2DwOiMAtnBF" role="3cqZAp">
           <node concept="3SKdUq" id="2DwOiMAtnU1" role="3SKWNk">
             <property role="3SKdUp" value="request Focus, due to visibilty, view hierarchy etc -&gt; only toolkit impl. can handle that.  " />
@@ -13419,6 +13485,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="ao4XGSXrOy" role="3cqZAp" />
             <node concept="3clFbF" id="5twmJXHd2tZ" role="3cqZAp">
               <node concept="1rXfSq" id="5twmJXHd2tX" role="3clFbG">
                 <ref role="37wK5l" node="5twmJXHcVTo" resolve="fg_requestFocusAndFinalAfterEventOnCurrentForm" />

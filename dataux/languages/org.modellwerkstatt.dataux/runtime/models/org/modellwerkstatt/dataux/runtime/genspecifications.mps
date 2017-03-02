@@ -1915,6 +1915,20 @@
       <node concept="3Tm1VV" id="72_IH8pufYT" role="1B3o_S" />
       <node concept="3clFbS" id="72_IH8pufYU" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="ao4XGSSXhI" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="calcUiColor" />
+      <node concept="37vLTG" id="ao4XGSSXm9" role="3clF46">
+        <property role="TrG5h" value="selectedRootObject" />
+        <node concept="3uibUv" id="ao4XGSSXmR" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="ao4XGSSXke" role="3clF45" />
+      <node concept="3Tm1VV" id="ao4XGSSXhL" role="1B3o_S" />
+      <node concept="3clFbS" id="ao4XGSSXhM" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="ao4XGSSXfN" role="jymVt" />
     <node concept="3clFb_" id="72_IH8pull1" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setFlag" />

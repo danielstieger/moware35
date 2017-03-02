@@ -11213,6 +11213,39 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="ao4XGSVyO8" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setColor" />
+      <node concept="37vLTG" id="ao4XGSVyO9" role="3clF46">
+        <property role="TrG5h" value="color" />
+        <node concept="17QB3L" id="ao4XGSVyOa" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="ao4XGSVyOb" role="3clF45" />
+      <node concept="3Tm1VV" id="ao4XGSVyOc" role="1B3o_S" />
+      <node concept="3clFbS" id="ao4XGSVyOf" role="3clF47">
+        <node concept="3clFbF" id="ao4XGSV$ra" role="3cqZAp">
+          <node concept="2OqwBi" id="ao4XGSV$tJ" role="3clFbG">
+            <node concept="Xjq3P" id="ao4XGSV$r9" role="2Oq$k0" />
+            <node concept="liA8E" id="ao4XGSV$M8" role="2OqNvi">
+              <ref role="37wK5l" to="p18y:~Node.setStyle(java.lang.String):void" resolve="setStyle" />
+              <node concept="3cpWs3" id="ao4XGSVBRW" role="37wK5m">
+                <node concept="Xl_RD" id="ao4XGSVBTM" role="3uHU7w">
+                  <property role="Xl_RC" value="; -fx-border-insets: 2;" />
+                </node>
+                <node concept="3cpWs3" id="ao4XGSVBLT" role="3uHU7B">
+                  <node concept="Xl_RD" id="ao4XGSV$Oe" role="3uHU7B">
+                    <property role="Xl_RC" value="-fx-border-width: 2; -fx-border-color: " />
+                  </node>
+                  <node concept="37vLTw" id="ao4XGSVBOa" role="3uHU7w">
+                    <ref role="3cqZAo" node="ao4XGSVyO9" resolve="color" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="27BPRG5P2sc" role="jymVt" />
     <node concept="3clFb_" id="5_bDd1d89Fv" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -11840,6 +11873,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="ao4XGSVyEC" role="jymVt" />
     <node concept="3clFb_" id="1dzqM5xoNwM" role="jymVt">
       <property role="TrG5h" value="close" />
       <node concept="3cqZAl" id="1dzqM5xoNwO" role="3clF45" />
@@ -21438,8 +21472,53 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="ao4XGT6ZdH" role="3cqZAp" />
             </node>
           </node>
+          <node concept="3cpWs8" id="ao4XGT7W$T" role="3cqZAp">
+            <node concept="3cpWsn" id="ao4XGT7W$W" role="3cpWs9">
+              <property role="TrG5h" value="col" />
+              <node concept="17QB3L" id="ao4XGT7W$R" role="1tU5fm" />
+              <node concept="2OqwBi" id="ao4XGT7YiX" role="33vP2m">
+                <node concept="37vLTw" id="ao4XGT7XMf" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1e8699aCJc7" resolve="converter" />
+                </node>
+                <node concept="liA8E" id="ao4XGT7Yxi" role="2OqNvi">
+                  <ref role="37wK5l" to="5wm0:ao4XGT7pQe" resolve="getBgColor" />
+                  <node concept="37vLTw" id="ao4XGT7Zyx" role="37wK5m">
+                    <ref role="3cqZAo" node="1e8699aCJcd" resolve="myObject" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="ao4XGT7UH5" role="3cqZAp">
+            <node concept="3clFbS" id="ao4XGT7UH7" role="3clFbx">
+              <node concept="3clFbF" id="ao4XGT703S" role="3cqZAp">
+                <node concept="2OqwBi" id="ao4XGT70Bq" role="3clFbG">
+                  <node concept="Xjq3P" id="ao4XGT703Q" role="2Oq$k0" />
+                  <node concept="liA8E" id="ao4XGT71jA" role="2OqNvi">
+                    <ref role="37wK5l" to="p18y:~Node.setStyle(java.lang.String):void" resolve="setStyle" />
+                    <node concept="3cpWs3" id="ao4XGT75Oy" role="37wK5m">
+                      <node concept="37vLTw" id="ao4XGT82Pa" role="3uHU7w">
+                        <ref role="3cqZAo" node="ao4XGT7W$W" resolve="col" />
+                      </node>
+                      <node concept="Xl_RD" id="ao4XGT723w" role="3uHU7B">
+                        <property role="Xl_RC" value="-fx-background-color: " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="ao4XGT80M5" role="3clFbw">
+              <node concept="10Nm6u" id="ao4XGT81dt" role="3uHU7w" />
+              <node concept="37vLTw" id="ao4XGT80f7" role="3uHU7B">
+                <ref role="3cqZAo" node="ao4XGT7W$W" resolve="col" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="ao4XGT6Zti" role="3cqZAp" />
         </node>
         <node concept="2AHcQZ" id="1e8699aCJcS" role="2AJF6D">
           <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />

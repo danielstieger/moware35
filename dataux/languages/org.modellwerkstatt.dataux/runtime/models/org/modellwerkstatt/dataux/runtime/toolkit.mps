@@ -1068,6 +1068,17 @@
       <node concept="3Tm1VV" id="5_bDd1d86xi" role="1B3o_S" />
       <node concept="3clFbS" id="5_bDd1d86xj" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="ao4XGSU1Ak" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setColor" />
+      <node concept="37vLTG" id="ao4XGSU1FA" role="3clF46">
+        <property role="TrG5h" value="color" />
+        <node concept="17QB3L" id="ao4XGSU1FE" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="ao4XGSU1Am" role="3clF45" />
+      <node concept="3Tm1VV" id="ao4XGSU1An" role="1B3o_S" />
+      <node concept="3clFbS" id="ao4XGSU1Ao" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="2DwOiMAxcUN" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setConclusions" />

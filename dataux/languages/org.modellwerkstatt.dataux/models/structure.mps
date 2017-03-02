@@ -63,12 +63,19 @@
     <property role="MwhBj" value="${module}/icons/pagepane2.png" />
     <property role="34LRSv" value="Page Pane" />
     <property role="R4oN_" value="ui element for a page" />
+    <property role="3GE5qa" value="pagepane" />
     <ref role="1TJDcQ" node="7Cs1IG3jYzP" resolve="UxRoot" />
     <node concept="1TJgyj" id="2zZnBEDxRoV" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="uxChild" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2zZnBEDxDjf" resolve="IUxElement" />
+    </node>
+    <node concept="1TJgyj" id="ao4XGSvQ2r" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="ao4XGSvQ0S" resolve="IPagePaneOption" />
     </node>
     <node concept="PrWs8" id="1xbJ1snArsc" role="PzmwI">
       <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
@@ -1049,6 +1056,45 @@
     <property role="R4oN_" value="for summary" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="PlHQZ" id="ao4XGSvQ0S">
+    <property role="1pbfSe" value="991392787" />
+    <property role="3GE5qa" value="pagepane" />
+    <property role="TrG5h" value="IPagePaneOption" />
+  </node>
+  <node concept="1TIwiD" id="ao4XGSvQ8_">
+    <property role="1pbfSe" value="991393280" />
+    <property role="3GE5qa" value="pagepane" />
+    <property role="TrG5h" value="ColorPpOption" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <property role="34LRSv" value="COLOR" />
+    <property role="R4oN_" value="by constant" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="ao4XGSvQc6" role="1TKVEl">
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="ao4XGSvQed" role="PzmwI">
+      <ref role="PrY4T" node="ao4XGSvQ0S" resolve="IPagePaneOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ao4XGSxWp8">
+    <property role="1pbfSe" value="991943203" />
+    <property role="3GE5qa" value="pagepane" />
+    <property role="TrG5h" value="StatusColorPpOption" />
+    <property role="34LRSv" value="SCOLOR" />
+    <property role="R4oN_" value="by status" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ao4XGSxWre" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="path" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1h$q6rwpvzb" resolve="IPath" />
+    </node>
+    <node concept="PrWs8" id="ao4XGSxWus" role="PzmwI">
+      <ref role="PrY4T" node="ao4XGSvQ0S" resolve="IPagePaneOption" />
+    </node>
   </node>
 </model>
 
