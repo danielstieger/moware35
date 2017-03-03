@@ -6130,7 +6130,7 @@
                             <node concept="liA8E" id="7RHNXGyZ4pM" role="2OqNvi">
                               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                               <node concept="Xl_RD" id="7RHNXGyZ4pN" role="37wK5m">
-                                <property role="Xl_RC" value="&lt;tr class=\&quot;bigactive currentfg\&quot; " />
+                                <property role="Xl_RC" value="&lt;tr class=\&quot;bigactive\&quot; " />
                               </node>
                             </node>
                           </node>
@@ -6414,7 +6414,7 @@
                                   <node concept="liA8E" id="57zGu7$_uwY" role="2OqNvi">
                                     <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                                     <node concept="Xl_RD" id="57zGu7$_uGl" role="37wK5m">
-                                      <property role="Xl_RC" value="&lt;tr class=\&quot;lightactive currentfg\&quot; " />
+                                      <property role="Xl_RC" value="&lt;tr class=\&quot;lightactive\&quot; " />
                                     </node>
                                   </node>
                                 </node>
@@ -6601,7 +6601,7 @@
                                 <node concept="liA8E" id="3EfIVvtPoQF" role="2OqNvi">
                                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                                   <node concept="Xl_RD" id="3EfIVvtPoQG" role="37wK5m">
-                                    <property role="Xl_RC" value="&lt;/tr&gt; &lt;tr class=\&quot;lightactive currentfg\&quot; " />
+                                    <property role="Xl_RC" value="&lt;/tr&gt; &lt;tr class=\&quot;lightactive\&quot; " />
                                   </node>
                                 </node>
                               </node>

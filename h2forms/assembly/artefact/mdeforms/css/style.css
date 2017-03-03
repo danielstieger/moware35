@@ -241,9 +241,9 @@ table .light {
 }
 
 table .lightactive {
-	border-bottom: 4px solid white; 
+	border-bottom: 4px solid #6b9ff4;
+	border-left: 4px solid #6b9ff4; 
 	font-weight: 300;
-	color: white;
 	cursor: pointer;
 }
 
@@ -253,7 +253,8 @@ table .big {
 
 table .bigactive {
 	cursor: pointer;
-	color: white;
+	border-top: 5px solid white;
+	border-left: 4px solid #6b9ff4;
 }
 
 table .bigactive td, table .big td {
@@ -615,7 +616,6 @@ p {
 	font-weight: 500;
 	font-size: 16px;
     -webkit-tap-highlight-color: transparent;
-    color: white;
 }
 .content button:active {
 	opacity: 0.3;
