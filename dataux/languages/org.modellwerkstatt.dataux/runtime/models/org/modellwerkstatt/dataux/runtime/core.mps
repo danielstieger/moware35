@@ -10087,6 +10087,14 @@
         <node concept="3qTvmN" id="SQhsWRQzoy" role="_ZDj9" />
       </node>
     </node>
+    <node concept="312cEg" id="7TsEWieWHE5" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="currentUIColor" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="7TsEWieWEMy" role="1B3o_S" />
+      <node concept="17QB3L" id="7TsEWieWHAj" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="27BPRG5LOXI" role="jymVt" />
     <node concept="312cEg" id="4mX9Xggw2_w" role="jymVt">
       <property role="TrG5h" value="currentConclusionInfos" />
@@ -10235,6 +10243,14 @@
               <node concept="2OwXpG" id="kA5KhwhCQA" role="2OqNvi">
                 <ref role="2Oxat5" to="yg8v:I$l6zlL1Pe" resolve="uriIdentifier" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7TsEWieWKxB" role="3cqZAp">
+          <node concept="37vLTI" id="7TsEWieWK_T" role="3clFbG">
+            <node concept="10Nm6u" id="7TsEWieWKAK" role="37vLTx" />
+            <node concept="37vLTw" id="7TsEWieWKx_" role="37vLTJ">
+              <ref role="3cqZAo" node="7TsEWieWHE5" resolve="currentUIColor" />
             </node>
           </node>
         </node>
@@ -11519,6 +11535,51 @@
           </node>
         </node>
         <node concept="3clFbH" id="5YG5DD8ZsuI" role="3cqZAp" />
+        <node concept="3SKdUt" id="7TsEWieWNdA" role="3cqZAp">
+          <node concept="3SKdUq" id="7TsEWieWNdC" role="3SKWNk">
+            <property role="3SKdUp" value="graph edit takes over uicolor of parent" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7TsEWieWRTc" role="3cqZAp">
+          <node concept="3clFbS" id="7TsEWieWRTe" role="3clFbx">
+            <node concept="3clFbF" id="7TsEWieX452" role="3cqZAp">
+              <node concept="37vLTI" id="7TsEWieX47i" role="3clFbG">
+                <node concept="2OqwBi" id="7TsEWieX4fn" role="37vLTx">
+                  <node concept="37vLTw" id="7TsEWieX4ds" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4XXgpAARetX" resolve="parentCommandContainer" />
+                  </node>
+                  <node concept="2OwXpG" id="7TsEWieX4mk" role="2OqNvi">
+                    <ref role="2Oxat5" node="7TsEWieWHE5" resolve="currentUIColor" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="7TsEWieX450" role="37vLTJ">
+                  <ref role="3cqZAo" node="7TsEWieWHE5" resolve="currentUIColor" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="7TsEWieX1q1" role="3clFbw">
+            <node concept="2OqwBi" id="7TsEWieX3Os" role="3uHU7w">
+              <node concept="37vLTw" id="7TsEWieX3My" role="2Oq$k0">
+                <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+              </node>
+              <node concept="liA8E" id="7TsEWieX3Z2" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:6Rdz00$VfMV" resolve="needsSubWindow" />
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="7TsEWieWZ1F" role="3uHU7B">
+              <node concept="2OqwBi" id="7TsEWieWZ1H" role="3fr31v">
+                <node concept="37vLTw" id="7TsEWieWZ1I" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                </node>
+                <node concept="liA8E" id="7TsEWieWZ1J" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:6Rdz00$VgGs" resolve="needsNewSession" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7TsEWieWKLr" role="3cqZAp" />
         <node concept="3SKdUt" id="4mX9XggesRg" role="3cqZAp">
           <node concept="3SKdUq" id="4mX9Xggewgf" role="3SKWNk">
             <property role="3SKdUp" value="all exceptions are handled by EventcommandContainer. all methods protected :)" />
@@ -12385,6 +12446,16 @@
           <property role="TyiWK" value="false" />
           <property role="TyiWL" value="true" />
           <node concept="3clFbS" id="ao4XGSTZdq" role="3clFbx">
+            <node concept="3clFbF" id="7TsEWieX5vT" role="3cqZAp">
+              <node concept="37vLTI" id="7TsEWieX5y8" role="3clFbG">
+                <node concept="37vLTw" id="7TsEWieX5zb" role="37vLTx">
+                  <ref role="3cqZAo" node="ao4XGSSWum" resolve="color" />
+                </node>
+                <node concept="37vLTw" id="7TsEWieX5vR" role="37vLTJ">
+                  <ref role="3cqZAo" node="7TsEWieWHE5" resolve="currentUIColor" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="ao4XGSU0FH" role="3cqZAp">
               <node concept="2OqwBi" id="ao4XGSU0PP" role="3clFbG">
                 <node concept="37vLTw" id="ao4XGSU0OX" role="2Oq$k0">
@@ -12406,7 +12477,30 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="ao4XGSXrnB" role="3cqZAp" />
+        <node concept="3clFbJ" id="7TsEWieX4tB" role="3cqZAp">
+          <node concept="3clFbS" id="7TsEWieX4tD" role="3clFbx">
+            <node concept="3clFbF" id="7TsEWieX5b_" role="3cqZAp">
+              <node concept="2OqwBi" id="7TsEWieX5cu" role="3clFbG">
+                <node concept="37vLTw" id="7TsEWieX5bz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5_bDd1daoNx" resolve="commandUI" />
+                </node>
+                <node concept="liA8E" id="7TsEWieX5mr" role="2OqNvi">
+                  <ref role="37wK5l" to="250q:ao4XGSU1Ak" resolve="setColor" />
+                  <node concept="37vLTw" id="7TsEWieX5oS" role="37wK5m">
+                    <ref role="3cqZAo" node="7TsEWieWHE5" resolve="currentUIColor" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="7TsEWieX4Xu" role="3clFbw">
+            <node concept="10Nm6u" id="7TsEWieX59Z" role="3uHU7w" />
+            <node concept="37vLTw" id="7TsEWieX4Db" role="3uHU7B">
+              <ref role="3cqZAo" node="7TsEWieWHE5" resolve="currentUIColor" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7TsEWieX5BG" role="3cqZAp" />
         <node concept="3SKdUt" id="2DwOiMAtnBF" role="3cqZAp">
           <node concept="3SKdUq" id="2DwOiMAtnU1" role="3SKWNk">
             <property role="3SKdUp" value="request Focus, due to visibilty, view hierarchy etc -&gt; only toolkit impl. can handle that.  " />
