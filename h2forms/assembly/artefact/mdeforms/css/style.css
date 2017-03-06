@@ -233,20 +233,30 @@ table {
 
 }
 
-table .light {
+table .lightpassive {
 	border-bottom: 4px solid lightgray;
 	border-left: 4px solid lightgray;
 	font-weight: 300;
+	cursor: pointer;
+}
+table .lightactive {
+	/* colors set dyn in template */
+	font-weight: 300;
+	cursor: pointer;
 }
 
-table .big {
+
+table .bigactive {
+	border-left: 4px solid lightgray;
+	font-weight: 500;
+	cursor: pointer;
+}
+table .bigpassive {
 	border-left: 4px solid lightgray;
 	font-weight: 500;
 }
 
-table .tactive {
-	cursor: pointer;
-}
+
 
 
 
