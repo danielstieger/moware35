@@ -1087,5 +1087,33 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="yYLpwAeQi5">
+    <property role="3GE5qa" value="pagepane" />
+    <ref role="1M2myG" to="1btx:ao4XGSxWp8" resolve="StatusColorPpOption" />
+    <node concept="nKS2y" id="yYLpwAeQid" role="1MLUbF">
+      <node concept="3clFbS" id="yYLpwAeQie" role="2VODD2">
+        <node concept="3clFbF" id="yYLpwAeQiO" role="3cqZAp">
+          <node concept="22lmx$" id="yYLpwAeQre" role="3clFbG">
+            <node concept="2OqwBi" id="yYLpwAeQx0" role="3uHU7w">
+              <node concept="nLn13" id="yYLpwAeQtN" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="yYLpwAeQ_o" role="2OqNvi">
+                <node concept="chp4Y" id="yYLpwAeQCr" role="cj9EA">
+                  <ref role="cht4Q" to="1btx:7OqgUbFQpKc" resolve="PagePane" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="yYLpwAeQiP" role="3uHU7B">
+              <node concept="nLn13" id="yYLpwAeQiQ" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="yYLpwAeQiR" role="2OqNvi">
+                <node concept="chp4Y" id="yYLpwAeQiS" role="cj9EA">
+                  <ref role="cht4Q" to="1btx:6MSPLZmFnKD" resolve="Table" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

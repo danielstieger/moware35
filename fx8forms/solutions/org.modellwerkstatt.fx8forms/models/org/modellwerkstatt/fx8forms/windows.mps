@@ -20500,6 +20500,23 @@
       <node concept="3clFbS" id="5p1CQfO484j" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="5p1CQfO47sP" role="jymVt" />
+    <node concept="3clFb_" id="yYLpwAsynO" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="addTableItemColor" />
+      <node concept="37vLTG" id="yYLpwAsynP" role="3clF46">
+        <property role="TrG5h" value="property" />
+        <node concept="17QB3L" id="yYLpwAsynQ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="yYLpwAsynR" role="3clF46">
+        <property role="TrG5h" value="converter" />
+        <node concept="3uibUv" id="yYLpwAsynS" role="1tU5fm">
+          <ref role="3uigEE" to="5wm0:3PmCowOXue4" resolve="ITableCellStringConverter" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="yYLpwAsynT" role="3clF45" />
+      <node concept="3Tm1VV" id="yYLpwAsynU" role="1B3o_S" />
+      <node concept="3clFbS" id="yYLpwAsynX" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="6rXe_0F2eTS" role="jymVt">
       <property role="TrG5h" value="installBottomLine" />
       <node concept="3cqZAl" id="6rXe_0F2eTU" role="3clF45" />
@@ -21504,7 +21521,7 @@
                         <ref role="3cqZAo" node="ao4XGT7W$W" resolve="col" />
                       </node>
                       <node concept="Xl_RD" id="ao4XGT723w" role="3uHU7B">
-                        <property role="Xl_RC" value="-fx-background-color: " />
+                        <property role="Xl_RC" value="-fx-text-fill: " />
                       </node>
                     </node>
                   </node>

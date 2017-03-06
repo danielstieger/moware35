@@ -226,7 +226,6 @@ input:disabled, textarea:disabled, select:disabled {
 
 table {
     border-collapse: collapse;
-    border-spacing: 0;
     width: 100%;
     padding: 6px 15px 6px 0;
     margin-left: 15px;
@@ -235,31 +234,21 @@ table {
 }
 
 table .light {
-	border-bottom: 4px solid white;
+	border-bottom: 4px solid lightgray;
+	border-left: 4px solid lightgray;
 	font-weight: 300;
-	background: #d3d3d3;
-}
-
-table .lightactive {
-	border-bottom: 4px solid #6b9ff4;
-	border-left: 4px solid #6b9ff4; 
-	font-weight: 300;
-	cursor: pointer;
 }
 
 table .big {
-    background:#d3d3d3;
-}
-
-table .bigactive {
-	cursor: pointer;
-	border-top: 5px solid white;
-	border-left: 4px solid #6b9ff4;
-}
-
-table .bigactive td, table .big td {
+	border-left: 4px solid lightgray;
 	font-weight: 500;
 }
+
+table .tactive {
+	cursor: pointer;
+}
+
+
 
 tr .lastcell {
 	text-align: right;

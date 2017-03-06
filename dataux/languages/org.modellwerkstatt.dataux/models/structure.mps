@@ -1081,7 +1081,7 @@
   <node concept="1TIwiD" id="ao4XGSxWp8">
     <property role="1pbfSe" value="991943203" />
     <property role="3GE5qa" value="pagepane" />
-    <property role="TrG5h" value="StatusColorPpOption" />
+    <property role="TrG5h" value="StatusColorPpFOption" />
     <property role="34LRSv" value="SCOLOR" />
     <property role="R4oN_" value="by status" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
@@ -1094,6 +1094,9 @@
     </node>
     <node concept="PrWs8" id="ao4XGSxWus" role="PzmwI">
       <ref role="PrY4T" node="ao4XGSvQ0S" resolve="IPagePaneOption" />
+    </node>
+    <node concept="PrWs8" id="yYLpwAeQ4c" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
     </node>
   </node>
 </model>

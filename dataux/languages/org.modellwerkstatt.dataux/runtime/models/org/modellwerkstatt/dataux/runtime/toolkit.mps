@@ -922,6 +922,23 @@
       <node concept="3clFbS" id="dX9tEwAly$" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="1KgqQuBAvdf" role="jymVt" />
+    <node concept="3clFb_" id="yYLpwAhLvw" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="addTableItemColor" />
+      <node concept="37vLTG" id="yYLpwAhM4K" role="3clF46">
+        <property role="TrG5h" value="property" />
+        <node concept="17QB3L" id="yYLpwAhMad" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="yYLpwAhMeE" role="3clF46">
+        <property role="TrG5h" value="converter" />
+        <node concept="3uibUv" id="yYLpwAhMkG" role="1tU5fm">
+          <ref role="3uigEE" to="5wm0:3PmCowOXue4" resolve="ITableCellStringConverter" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="yYLpwAhLvy" role="3clF45" />
+      <node concept="3Tm1VV" id="yYLpwAhLvz" role="1B3o_S" />
+      <node concept="3clFbS" id="yYLpwAhLv$" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="dX9tEwAk0D" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="addColumn" />
