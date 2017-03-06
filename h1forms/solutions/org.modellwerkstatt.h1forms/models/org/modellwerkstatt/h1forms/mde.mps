@@ -3102,7 +3102,7 @@
                     <node concept="liA8E" id="4xFX2a14sQg" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                       <node concept="Xl_RD" id="4xFX2a14sQk" role="37wK5m">
-                        <property role="Xl_RC" value="&lt;i class=\&quot;material-icons\&quot;&gt;arrow_back&lt;/i&gt;" />
+                        <property role="Xl_RC" value="&lt;i class=\&quot;material-icons\&quot;&gt;&amp;#xE5C4;&lt;/i&gt;" />
                       </node>
                     </node>
                   </node>
