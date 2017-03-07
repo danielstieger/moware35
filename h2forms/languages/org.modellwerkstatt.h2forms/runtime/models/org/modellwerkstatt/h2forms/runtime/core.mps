@@ -3294,16 +3294,7 @@
       <node concept="3clFbS" id="4QTIUTCpEcd" role="3clF47">
         <node concept="3clFbJ" id="c79$i9lq6d" role="3cqZAp">
           <node concept="3clFbS" id="c79$i9lq6f" role="3clFbx">
-            <node concept="YS8fn" id="564QxPIGrNj" role="3cqZAp">
-              <node concept="2ShNRf" id="564QxPIGrTB" role="YScLw">
-                <node concept="1pGfFk" id="564QxPIGu3G" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="Xl_RD" id="564QxPIGuQs" role="37wK5m">
-                    <property role="Xl_RC" value="Do not use hardlog in productive environments!" />
-                  </node>
-                </node>
-              </node>
-            </node>
+            <node concept="3cpWs6" id="2uzWAsvoFL6" role="3cqZAp" />
           </node>
           <node concept="3fqX7Q" id="c79$i9lrnj" role="3clFbw">
             <node concept="37vLTw" id="kWPevMcC_h" role="3fr31v">
@@ -3489,6 +3480,17 @@
       <property role="od$2w" value="false" />
       <property role="TrG5h" value="clearHardLog" />
       <node concept="3clFbS" id="4QTIUTCpGCv" role="3clF47">
+        <node concept="3clFbJ" id="2uzWAsvoHaH" role="3cqZAp">
+          <node concept="3clFbS" id="2uzWAsvoHaJ" role="3clFbx">
+            <node concept="3cpWs6" id="2uzWAsvoI4L" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="2uzWAsvoHcn" role="3clFbw">
+            <node concept="37vLTw" id="2uzWAsvoHIx" role="3fr31v">
+              <ref role="3cqZAo" node="c79$i9kZqP" resolve="HARDLOG_AVAILABLE" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2uzWAsvoIkO" role="3cqZAp" />
         <node concept="3cpWs8" id="4QTIUTCpIz0" role="3cqZAp">
           <node concept="3cpWsn" id="4QTIUTCpIz1" role="3cpWs9">
             <property role="TrG5h" value="logFile" />
