@@ -562,6 +562,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="3CnNtH_5Sfy" role="3cqZAp" />
             <node concept="3clFbF" id="3CnNtH_1t06" role="3cqZAp">
               <node concept="2OqwBi" id="3CnNtH_1t2O" role="3clFbG">
                 <node concept="37vLTw" id="3CnNtH_1t04" role="2Oq$k0">
@@ -586,24 +587,17 @@
                   <property role="3SKdUp" value="ignore but do not use logger" />
                 </node>
               </node>
-              <node concept="3clFbF" id="1i8FajkkXHe" role="3cqZAp">
-                <node concept="2OqwBi" id="1i8FajkkXIr" role="3clFbG">
-                  <node concept="37vLTw" id="1i8FajkkXHc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1i8FajkkPPe" resolve="ex" />
-                  </node>
-                  <node concept="liA8E" id="1i8FajkkXPm" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace():void" resolve="printStackTrace" />
-                  </node>
-                </node>
-              </node>
               <node concept="3clFbF" id="1i8FajkkSbB" role="3cqZAp">
-                <node concept="37vLTI" id="1i8FajkkSc_" role="3clFbG">
-                  <node concept="10Nm6u" id="1i8FajkkSdw" role="37vLTx" />
-                  <node concept="37vLTw" id="1i8FajkkSb_" role="37vLTJ">
+                <node concept="2OqwBi" id="3CnNtH_5Qv7" role="3clFbG">
+                  <node concept="37vLTw" id="1i8FajkkSb_" role="2Oq$k0">
                     <ref role="3cqZAo" node="3CnNtH_0$H8" resolve="kafkaLogger" />
                   </node>
+                  <node concept="liA8E" id="3CnNtH_5S4Z" role="2OqNvi">
+                    <ref role="37wK5l" node="3CnNtH_5QZt" resolve="disabled" />
+                  </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="3CnNtH_5Sae" role="3cqZAp" />
             </node>
           </node>
           <node concept="TDmWw" id="2yuEF6qbsGA" role="TEbGg">
@@ -1510,8 +1504,8 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="1i8FajkkW7K" role="3cqZAp">
-          <node concept="3clFbS" id="1i8FajkkW7M" role="3clFbx">
+        <node concept="SfApY" id="3CnNtH_5SDU" role="3cqZAp">
+          <node concept="3clFbS" id="3CnNtH_5SDW" role="SfCbr">
             <node concept="3clFbF" id="3CnNtH_0FUZ" role="3cqZAp">
               <node concept="2OqwBi" id="3CnNtH_0FVU" role="3clFbG">
                 <node concept="37vLTw" id="3CnNtH_0FUY" role="2Oq$k0">
@@ -1529,10 +1523,29 @@
               </node>
             </node>
           </node>
-          <node concept="3y3z36" id="1i8FajkkWcc" role="3clFbw">
-            <node concept="10Nm6u" id="1i8FajkkWdT" role="3uHU7w" />
-            <node concept="37vLTw" id="1i8FajkkWao" role="3uHU7B">
-              <ref role="3cqZAo" node="3CnNtH_0$H8" resolve="kafkaLogger" />
+          <node concept="TDmWw" id="3CnNtH_5SDX" role="TEbGg">
+            <node concept="3cpWsn" id="3CnNtH_5SDZ" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="3CnNtH_5SPn" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="3CnNtH_5SE3" role="TDEfX">
+              <node concept="3SKdUt" id="3CnNtH_5TJq" role="3cqZAp">
+                <node concept="3SKdUq" id="3CnNtH_5TJs" role="3SKWNk">
+                  <property role="3SKdUp" value="ignore" />
+                </node>
+              </node>
+              <node concept="3clFbF" id="3CnNtH_5SZ5" role="3cqZAp">
+                <node concept="2OqwBi" id="3CnNtH_5SZR" role="3clFbG">
+                  <node concept="37vLTw" id="3CnNtH_5SZ4" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3CnNtH_5SDZ" resolve="ex" />
+                  </node>
+                  <node concept="liA8E" id="3CnNtH_5T1g" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace():void" resolve="printStackTrace" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -1546,18 +1559,7 @@
         <node concept="SfApY" id="2yuEF6qacTG" role="3cqZAp">
           <node concept="3clFbS" id="2yuEF6qacTL" role="SfCbr">
             <node concept="3clFbJ" id="3CnNtH_1w5f" role="3cqZAp">
-              <node concept="3clFbS" id="3CnNtH_1w5h" role="3clFbx">
-                <node concept="3clFbF" id="3CnNtH_0_Ej" role="3cqZAp">
-                  <node concept="2OqwBi" id="3CnNtH_0Ae7" role="3clFbG">
-                    <node concept="37vLTw" id="3CnNtH_0_Eh" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3CnNtH_0$H8" resolve="kafkaLogger" />
-                    </node>
-                    <node concept="liA8E" id="3CnNtH_0Aju" role="2OqNvi">
-                      <ref role="37wK5l" node="5ubRLyf6TxE" resolve="close" />
-                    </node>
-                  </node>
-                </node>
-              </node>
+              <node concept="3clFbS" id="3CnNtH_1w5h" role="3clFbx" />
               <node concept="3y3z36" id="3CnNtH_1wdh" role="3clFbw">
                 <node concept="10Nm6u" id="3CnNtH_1wec" role="3uHU7w" />
                 <node concept="37vLTw" id="3CnNtH_1wc8" role="3uHU7B">
@@ -1601,6 +1603,43 @@
               </node>
             </node>
             <node concept="3clFbH" id="2yuEF6qbD9r" role="3cqZAp" />
+            <node concept="3clFbF" id="3CnNtH_0_Ej" role="3cqZAp">
+              <node concept="2OqwBi" id="3CnNtH_0Ae7" role="3clFbG">
+                <node concept="37vLTw" id="3CnNtH_0_Eh" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3CnNtH_0$H8" resolve="kafkaLogger" />
+                </node>
+                <node concept="liA8E" id="3CnNtH_0Aju" role="2OqNvi">
+                  <ref role="37wK5l" node="5ubRLyf6TxE" resolve="close" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3CnNtH_5PX1" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="3CnNtH_5T4A" role="TEbGg">
+            <node concept="3cpWsn" id="3CnNtH_5T4B" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="3CnNtH_5TeG" role="1tU5fm">
+                <ref role="3uigEE" to="ymo9:~KafkaException" resolve="KafkaException" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="3CnNtH_5T4D" role="TDEfX">
+              <node concept="3SKdUt" id="3CnNtH_5TDT" role="3cqZAp">
+                <node concept="3SKdUq" id="3CnNtH_5TDV" role="3SKWNk">
+                  <property role="3SKdUp" value="ignore" />
+                </node>
+              </node>
+              <node concept="3clFbF" id="3CnNtH_5Tki" role="3cqZAp">
+                <node concept="2OqwBi" id="3CnNtH_5Tl8" role="3clFbG">
+                  <node concept="37vLTw" id="3CnNtH_5Tkh" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3CnNtH_5T4B" resolve="ex" />
+                  </node>
+                  <node concept="liA8E" id="3CnNtH_5TqS" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace():void" resolve="printStackTrace" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="3CnNtH_5Txg" role="3cqZAp" />
+            </node>
           </node>
           <node concept="TDmWw" id="2yuEF6qacTN" role="TEbGg">
             <node concept="3clFbS" id="2yuEF6qacTQ" role="TDEfX">
@@ -5537,6 +5576,23 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5ubRLyf6HoM" role="jymVt" />
+    <node concept="3clFb_" id="3CnNtH_5QZt" role="jymVt">
+      <property role="TrG5h" value="disabled" />
+      <node concept="3cqZAl" id="3CnNtH_5QZv" role="3clF45" />
+      <node concept="3Tm1VV" id="3CnNtH_5QZw" role="1B3o_S" />
+      <node concept="3clFbS" id="3CnNtH_5QZx" role="3clF47">
+        <node concept="3clFbF" id="3CnNtH_5Roi" role="3cqZAp">
+          <node concept="37vLTI" id="3CnNtH_5RqZ" role="3clFbG">
+            <node concept="3clFbT" id="3CnNtH_5Rsh" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="3CnNtH_5Roh" role="37vLTJ">
+              <ref role="3cqZAo" node="1i8FajkkZZZ" resolve="disabled" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="5ubRLyf6HoN" role="jymVt">
       <property role="TrG5h" value="send" />
       <node concept="37vLTG" id="5ubRLyf6Nyl" role="3clF46">
@@ -5549,6 +5605,15 @@
       </node>
       <node concept="3Tm1VV" id="5ubRLyf6HoR" role="1B3o_S" />
       <node concept="3clFbS" id="5ubRLyf6HoS" role="3clF47">
+        <node concept="3clFbJ" id="3CnNtH_5Gjb" role="3cqZAp">
+          <node concept="3clFbS" id="3CnNtH_5Gjd" role="3clFbx">
+            <node concept="3cpWs6" id="3CnNtH_5Gvb" role="3cqZAp" />
+          </node>
+          <node concept="37vLTw" id="3CnNtH_5GpB" role="3clFbw">
+            <ref role="3cqZAo" node="1i8FajkkZZZ" resolve="disabled" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3CnNtH_5GvT" role="3cqZAp" />
         <node concept="3cpWs8" id="1i8Fajkl0MY" role="3cqZAp">
           <node concept="3cpWsn" id="1i8Fajkl0N1" role="3cpWs9">
             <property role="TrG5h" value="t" />
@@ -5585,15 +5650,43 @@
         </node>
         <node concept="3clFbJ" id="1i8Fajkl0Yw" role="3cqZAp">
           <node concept="3clFbS" id="1i8Fajkl0Yy" role="3clFbx">
-            <node concept="3clFbH" id="1i8Fajkl0Yx" role="3cqZAp" />
-          </node>
-          <node concept="3cpWsd" id="1i8Fajkl1uX" role="3clFbw">
-            <node concept="37vLTw" id="1i8Fajkl1yu" role="3uHU7w">
-              <ref role="3cqZAo" node="1i8Fajkl0N1" resolve="t" />
+            <node concept="3clFbF" id="3CnNtH_5G6u" role="3cqZAp">
+              <node concept="37vLTI" id="3CnNtH_5G95" role="3clFbG">
+                <node concept="3clFbT" id="3CnNtH_5Gc2" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="3CnNtH_5G6s" role="37vLTJ">
+                  <ref role="3cqZAo" node="1i8FajkkZZZ" resolve="disabled" />
+                </node>
+              </node>
             </node>
-            <node concept="2YIFZM" id="1i8Fajkl15K" role="3uHU7B">
-              <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
-              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            <node concept="3clFbF" id="3CnNtH_6gfe" role="3cqZAp">
+              <node concept="2OqwBi" id="3CnNtH_6gfb" role="3clFbG">
+                <node concept="10M0yZ" id="3CnNtH_6gfc" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="3CnNtH_6gfd" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="Xl_RD" id="3CnNtH_6ggT" role="37wK5m">
+                    <property role="Xl_RC" value="Kafka event logging disabled since custom timeout was hit." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3eOSWO" id="3CnNtH_5FWx" role="3clFbw">
+            <node concept="3cmrfG" id="3CnNtH_5FX0" role="3uHU7w">
+              <property role="3cmrfH" value="1000" />
+            </node>
+            <node concept="3cpWsd" id="1i8Fajkl1uX" role="3uHU7B">
+              <node concept="2YIFZM" id="1i8Fajkl15K" role="3uHU7B">
+                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+              </node>
+              <node concept="37vLTw" id="1i8Fajkl1yu" role="3uHU7w">
+                <ref role="3cqZAo" node="1i8Fajkl0N1" resolve="t" />
+              </node>
             </node>
           </node>
         </node>
