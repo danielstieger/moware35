@@ -24,7 +24,6 @@
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/slf4j-api-1.6.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/zookeeper-3.4.5.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/servlet-api.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/avalon-framework-api-4.3.1.jar" />
@@ -51,6 +50,7 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.context-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.expression-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/slf4j-log4j12-1.6.1.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/slf4j-api-1.6.1.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

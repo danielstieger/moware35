@@ -233,53 +233,44 @@ table {
 
 }
 
+td {
+	padding: 10px 4px 4px 4px;
+}
+
 table .lightpassive {
 	border-bottom: 4px solid lightgray;
 	border-left: 4px solid lightgray;
-	font-weight: 300;
 	cursor: pointer;
 }
+
 table .lightactive {
 	/* colors set dyn in template */
-	font-weight: 300;
 	cursor: pointer;
 }
 
 
 table .bigactive {
 	border-left: 4px solid lightgray;
-	font-weight: 500;
 	cursor: pointer;
 }
+
 table .bigpassive {
 	border-left: 4px solid lightgray;
-	font-weight: 500;
 }
 
-
-
-
+table .bigpassive td, table .bigactive td {
+	font-weight: 500;	
+}
 
 tr .lastcell {
-	text-align: right;
-	
+	text-align: right;	
 	padding-right: 20px !important; 
 	/* 15px padding + 15px from table s margin left */ 
 }
 
-td {
-	padding: 10px 4px 4px 4px;
-	
-}
 
-td button {
-	padding: 0px 0px 4px 0px !important;
-}
 
-td button:focus {
-	border-bottom: 4px solid #F69384 !important;
-    padding: 0px 0px 0px 0px !important;
-}
+
 
 
 

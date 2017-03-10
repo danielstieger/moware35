@@ -39386,24 +39386,34 @@
               <node concept="2ShNRf" id="6rXe_0Fb_UQ" role="YScLw">
                 <node concept="1pGfFk" id="6rXe_0FbDD1" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="3cpWs3" id="6rXe_0FbEkm" role="37wK5m">
-                    <node concept="Xl_RD" id="6rXe_0FbEt6" role="3uHU7w">
-                      <property role="Xl_RC" value=" should be instantiated per class loader." />
+                  <node concept="3cpWs3" id="O2cDPnXxWN" role="37wK5m">
+                    <node concept="Xl_RD" id="O2cDPnXxY7" role="3uHU7w">
+                      <property role="Xl_RC" value=")" />
                     </node>
-                    <node concept="3cpWs3" id="6rXe_0FbDRO" role="3uHU7B">
-                      <node concept="Xl_RD" id="6rXe_0FbDFa" role="3uHU7B">
-                        <property role="Xl_RC" value="Only one class of " />
-                      </node>
-                      <node concept="2OqwBi" id="6rXe_0FbE35" role="3uHU7w">
-                        <node concept="2OqwBi" id="6rXe_0FbDYd" role="2Oq$k0">
-                          <node concept="Xjq3P" id="6rXe_0FbDTB" role="2Oq$k0" />
-                          <node concept="liA8E" id="6rXe_0FbE01" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    <node concept="3cpWs3" id="O2cDPnXoF9" role="3uHU7B">
+                      <node concept="3cpWs3" id="6rXe_0FbEkm" role="3uHU7B">
+                        <node concept="3cpWs3" id="6rXe_0FbDRO" role="3uHU7B">
+                          <node concept="Xl_RD" id="6rXe_0FbDFa" role="3uHU7B">
+                            <property role="Xl_RC" value="Only one class of " />
+                          </node>
+                          <node concept="2OqwBi" id="6rXe_0FbE35" role="3uHU7w">
+                            <node concept="2OqwBi" id="6rXe_0FbDYd" role="2Oq$k0">
+                              <node concept="Xjq3P" id="6rXe_0FbDTB" role="2Oq$k0" />
+                              <node concept="liA8E" id="6rXe_0FbE01" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="6rXe_0FbEff" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                            </node>
                           </node>
                         </node>
-                        <node concept="liA8E" id="6rXe_0FbEff" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                        <node concept="Xl_RD" id="6rXe_0FbEt6" role="3uHU7w">
+                          <property role="Xl_RC" value=" should be instantiated per class loader. (" />
                         </node>
+                      </node>
+                      <node concept="37vLTw" id="O2cDPnXxRW" role="3uHU7w">
+                        <ref role="3cqZAo" node="6rXe_0FbytY" resolve="globalInstance" />
                       </node>
                     </node>
                   </node>
