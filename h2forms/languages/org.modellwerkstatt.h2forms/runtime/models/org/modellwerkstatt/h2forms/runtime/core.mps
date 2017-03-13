@@ -788,7 +788,7 @@
                     <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
                   </node>
                   <node concept="liA8E" id="2yuEF6qcyKA" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
+                    <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
                   </node>
                 </node>
                 <node concept="liA8E" id="6BKPvpDl6MG" role="2OqNvi">
@@ -4440,7 +4440,7 @@
                     <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
                   </node>
                   <node concept="liA8E" id="564QxPIGNDp" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
+                    <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
                   </node>
                 </node>
                 <node concept="liA8E" id="6BKPvpDl8cs" role="2OqNvi">
@@ -4450,6 +4450,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="69JiVbyXFrj" role="3cqZAp" />
         <node concept="3cpWs8" id="7r26jiO5LXl" role="3cqZAp">
           <node concept="3cpWsn" id="7r26jiO5LXo" role="3cpWs9">
             <property role="TrG5h" value="msg" />

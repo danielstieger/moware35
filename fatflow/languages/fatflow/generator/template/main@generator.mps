@@ -20958,20 +20958,6 @@
                   <property role="3SKdUp" value="send exception via session" />
                 </node>
               </node>
-              <node concept="1X3_iC" id="4xVSf7cUuoI" role="lGtFl">
-                <property role="3V$3am" value="statement" />
-                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                <node concept="3clFbF" id="7ubUX4ZL5iI" role="8Wnug">
-                  <node concept="2OqwBi" id="7ubUX4ZLarf" role="3clFbG">
-                    <node concept="37vLTw" id="7ubUX4ZL5iG" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7ubUX4ZKXmz" resolve="thisBatchJobAppFactory" />
-                    </node>
-                    <node concept="liA8E" id="7ubUX4ZLcOc" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:xRnvdd0M17" resolve="shutdown" />
-                    </node>
-                  </node>
-                </node>
-              </node>
               <node concept="3SKdUt" id="5T_hheV9gpQ" role="3cqZAp">
                 <node concept="3SKdUq" id="5T_hheV9mTs" role="3SKWNk">
                   <property role="3SKdUp" value="not used, since we catch that with Thread.interrupted() .. " />
@@ -21211,7 +21197,29 @@
               <property role="Xl_RC" value="map_BatchJob __initialize() called." />
             </node>
           </node>
-          <node concept="3clFbH" id="7ii5IAYHzMs" role="3cqZAp" />
+          <node concept="3clFbF" id="69JiVbyXWVo" role="3cqZAp">
+            <node concept="2OqwBi" id="69JiVbyXXqU" role="3clFbG">
+              <node concept="37vLTw" id="69JiVbyXWVm" role="2Oq$k0">
+                <ref role="3cqZAo" node="3BCllXpRw1u" resolve="thisBatchJobUserEnvironment" />
+              </node>
+              <node concept="liA8E" id="69JiVbyXXJ5" role="2OqNvi">
+                <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
+                <node concept="2OqwBi" id="69JiVbyXZUj" role="37wK5m">
+                  <node concept="2OqwBi" id="69JiVbyXXN_" role="2Oq$k0">
+                    <node concept="37vLTw" id="69JiVbyXXLA" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7ubUX4ZKXmz" resolve="thisBatchJobAppFactory" />
+                    </node>
+                    <node concept="liA8E" id="69JiVbyXZSm" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="69JiVbyXZXY" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3clFbH" id="58sbo6Sgr6L" role="3cqZAp" />
           <node concept="3clFbH" id="58sbo6SgoNX" role="3cqZAp" />
           <node concept="3clFbF" id="7ii5IAYHzLt" role="3cqZAp">

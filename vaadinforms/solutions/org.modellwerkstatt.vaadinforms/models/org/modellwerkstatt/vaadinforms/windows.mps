@@ -9503,6 +9503,9 @@
     <node concept="3uibUv" id="7wrkReHv4qZ" role="EKbjA">
       <ref role="3uigEE" to="mozf:~ContextMenu$ContextMenuItemClickListener" resolve="ContextMenu.ContextMenuItemClickListener" />
     </node>
+    <node concept="2AHcQZ" id="69JiVbyVVuN" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+    </node>
   </node>
   <node concept="312cEu" id="6go2MrsvV49">
     <property role="TrG5h" value="VCmdUiBasis" />

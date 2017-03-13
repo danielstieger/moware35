@@ -89,9 +89,6 @@
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
       </concept>
-      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
-        <child id="2667874559098216723" name="text" index="3HnX3l" />
-      </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
@@ -226,8 +223,6 @@
   </node>
   <node concept="3HP615" id="20ohnkbzF0d">
     <property role="TrG5h" value="IToolkit_UiFactory" />
-    <node concept="2tJIrI" id="20ohnkbzF1o" role="jymVt" />
-    <node concept="2tJIrI" id="20ohnkbzF1B" role="jymVt" />
     <node concept="3clFb_" id="20ohnkbA2Ln" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getTranslation" />
@@ -241,16 +236,6 @@
       <node concept="3Tm1VV" id="20ohnkbA2Lq" role="1B3o_S" />
       <node concept="3clFbS" id="20ohnkbA2Lr" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="7MWNCzY5wUb" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getPlatform" />
-      <node concept="3clFbS" id="7MWNCzY5wUe" role="3clF47" />
-      <node concept="3Tm1VV" id="7MWNCzY5wUf" role="1B3o_S" />
-      <node concept="3uibUv" id="7MWNCzY5wPR" role="3clF45">
-        <ref role="3uigEE" to="28jr:7MWNCzY1Tjr" resolve="IOFXPlatform" />
-      </node>
-    </node>
     <node concept="3clFb_" id="kWPevMcyfQ" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
@@ -259,7 +244,6 @@
       <node concept="3Tm1VV" id="kWPevMcyfU" role="1B3o_S" />
       <node concept="10P_77" id="kWPevMcybS" role="3clF45" />
     </node>
-    <node concept="2tJIrI" id="kWPevMcy8w" role="jymVt" />
     <node concept="3clFb_" id="4XXgpA_yFXU" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getProcessByFqName" />
@@ -297,34 +281,7 @@
       <node concept="3clFbS" id="7nDJo_bvoHu" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="2vHEu_NDAbG" role="jymVt" />
-    <node concept="3clFb_" id="3y7CfyfnifP" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="createTriggerButton" />
-      <node concept="37vLTG" id="3y7Cfyfnt1J" role="3clF46">
-        <property role="TrG5h" value="action" />
-        <node concept="3uibUv" id="3y7CfyfnwwD" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="3y7CfyfnLO$" role="3clF46">
-        <property role="TrG5h" value="forContextMenu" />
-        <node concept="10P_77" id="3y7CfyfnLPR" role="1tU5fm" />
-      </node>
-      <node concept="3uibUv" id="3y7Cfyfnihm" role="3clF45">
-        <ref role="3uigEE" node="3nLGOmWzzlN" resolve="IToolkit_EnableItem" />
-      </node>
-      <node concept="3Tm1VV" id="3y7CfyfnifS" role="1B3o_S" />
-      <node concept="3clFbS" id="3y7CfyfnifT" role="3clF47" />
-      <node concept="P$JXv" id="1dzqM5xrvsp" role="lGtFl">
-        <node concept="TZ5HI" id="1dzqM5xrvsq" role="3nqlJM">
-          <node concept="TZ5HA" id="1dzqM5xrvsr" role="3HnX3l" />
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="1dzqM5xrvss" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="3VIcZtBdaMv" role="jymVt" />
+    <node concept="2tJIrI" id="2qrl3a2or$G" role="jymVt" />
     <node concept="3clFb_" id="3VIcZtBdaPD" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createToolkitFormContainer" />

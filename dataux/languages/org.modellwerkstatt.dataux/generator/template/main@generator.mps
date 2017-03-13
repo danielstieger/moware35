@@ -10752,13 +10752,8 @@
                   </node>
                   <node concept="liA8E" id="IAiV2OeFlN" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~ClassLoader.loadClass(java.lang.String):java.lang.Class" resolve="loadClass" />
-                    <node concept="2OqwBi" id="Y3fiVL8vSx" role="37wK5m">
-                      <node concept="37vLTw" id="Y3fiVL8vQ0" role="2Oq$k0">
-                        <ref role="3cqZAo" node="Y3fiVL6fTC" resolve="factory" />
-                      </node>
-                      <node concept="liA8E" id="Y3fiVL8wI6" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:Y3fiVL6pLh" resolve="getClassFqName2Run" />
-                      </node>
+                    <node concept="Xl_RD" id="Y3fiVL8Sos" role="37wK5m">
+                      <property role="Xl_RC" value="org.modellwerkstatt.fx8forms.windows.FX8Application" />
                     </node>
                   </node>
                 </node>
