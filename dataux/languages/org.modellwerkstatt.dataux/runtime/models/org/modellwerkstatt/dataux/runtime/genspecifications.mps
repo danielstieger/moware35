@@ -273,6 +273,18 @@
       <node concept="3Tm1VV" id="Y3fiVK$o4E" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVK$o4F" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="2qrl3a2UnwH" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getAppTiles" />
+      <node concept="3clFbS" id="2qrl3a2UnwK" role="3clF47" />
+      <node concept="3Tm1VV" id="2qrl3a2UnwL" role="1B3o_S" />
+      <node concept="_YKpA" id="2qrl3a2UnuY" role="3clF45">
+        <node concept="3uibUv" id="2qrl3a2Unwq" role="_ZDj9">
+          <ref role="3uigEE" node="2qrl3a2PTsc" resolve="IGenAppTile" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="1SuqpWQOJ92" role="jymVt" />
     <node concept="3clFb_" id="3sx4Hz319k9" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -2000,6 +2012,40 @@
         <ref role="16sUi3" node="72_IH8pqz3P" resolve="T" />
       </node>
     </node>
+  </node>
+  <node concept="3HP615" id="2qrl3a2PTsc">
+    <property role="TrG5h" value="IGenAppTile" />
+    <node concept="3clFb_" id="2qrl3a2PTtS" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="calcTileLabel" />
+      <node concept="37vLTG" id="2qrl3a2PTvh" role="3clF46">
+        <property role="TrG5h" value="__manMapSession" />
+        <node concept="3uibUv" id="2qrl3a2PTvO" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="2qrl3a2PTuH" role="3clF45" />
+      <node concept="3Tm1VV" id="2qrl3a2PTtV" role="1B3o_S" />
+      <node concept="3clFbS" id="2qrl3a2PTtW" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1Ohi5d_UL7F" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getTileColor" />
+      <node concept="3clFbS" id="1Ohi5d_UL7I" role="3clF47" />
+      <node concept="3Tm1VV" id="1Ohi5d_UL7J" role="1B3o_S" />
+      <node concept="17QB3L" id="1Ohi5d_UL6$" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="2qrl3a2PTxi" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getMenuAction" />
+      <node concept="3uibUv" id="2qrl3a2PTyj" role="3clF45">
+        <ref role="3uigEE" node="Y3fiVJMvUT" resolve="MenuAction" />
+      </node>
+      <node concept="3Tm1VV" id="2qrl3a2PTxl" role="1B3o_S" />
+      <node concept="3clFbS" id="2qrl3a2PTxm" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="2qrl3a2PTsd" role="1B3o_S" />
   </node>
 </model>
 

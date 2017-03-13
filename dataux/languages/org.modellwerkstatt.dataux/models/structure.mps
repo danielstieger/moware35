@@ -960,6 +960,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1xbJ1snAn5n" resolve="IMenuItem" />
     </node>
+    <node concept="1TJgyj" id="2qrl3a2LDec" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tiles" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2qrl3a2LC$O" resolve="AppTile" />
+    </node>
     <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
@@ -1097,6 +1103,38 @@
     </node>
     <node concept="PrWs8" id="yYLpwAeQ4c" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo5" resolve="IFOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2qrl3a2LC$O">
+    <property role="1pbfSe" value="1453204122" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="AppTile" />
+    <property role="34LRSv" value="Tile" />
+    <property role="R4oN_" value="with custom text and color" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2qrl3a2LCJp" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tileColor" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2qrl3a2LCG0" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tileLabel" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2qrl3a2LCE3" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="action" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3nLPQZQ0zzY" resolve="MenuAction" />
+    </node>
+    <node concept="PrWs8" id="2qrl3a2NyQC" role="PzmwI">
+      <ref role="PrY4T" to="un0u:6xpSWdTCm5i" resolve="ICanRunCommands" />
+    </node>
+    <node concept="PrWs8" id="2qrl3a2N$RI" role="PzmwI">
+      <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
     </node>
   </node>
 </model>

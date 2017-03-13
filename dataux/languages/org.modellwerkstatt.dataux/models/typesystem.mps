@@ -4270,7 +4270,37 @@
     </node>
     <node concept="1YaCAy" id="ao4XGSRaFl" role="1YuTPh">
       <property role="TrG5h" value="option" />
-      <ref role="1YaFvo" to="1btx:ao4XGSxWp8" resolve="StatusColorPpOption" />
+      <ref role="1YaFvo" to="1btx:ao4XGSxWp8" resolve="StatusColorPpFOption" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="2qrl3a2LD46">
+    <property role="TrG5h" value="typeof_AppTile" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="2qrl3a2LD47" role="18ibNy">
+      <node concept="1Z5TYs" id="2qrl3a2LDbx" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="2qrl3a2LDc7" role="1ZfhKB">
+          <node concept="2c44tf" id="2qrl3a2LDc3" role="mwGJk">
+            <node concept="17QB3L" id="2qrl3a2LDcC" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="2qrl3a2LDb$" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2qrl3a2LD4Q" role="mwGJk">
+            <node concept="2OqwBi" id="2qrl3a2LD6L" role="1Z2MuG">
+              <node concept="1YBJjd" id="2qrl3a2LD5i" role="2Oq$k0">
+                <ref role="1YBMHb" node="2qrl3a2LD49" resolve="appTile" />
+              </node>
+              <node concept="3TrEf2" id="2qrl3a2LD9T" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:2qrl3a2LCG0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2qrl3a2LD49" role="1YuTPh">
+      <property role="TrG5h" value="appTile" />
+      <ref role="1YaFvo" to="1btx:2qrl3a2LC$O" resolve="AppTile" />
     </node>
   </node>
 </model>

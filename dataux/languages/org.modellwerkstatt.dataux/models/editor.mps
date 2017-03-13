@@ -2119,7 +2119,7 @@
       <node concept="3F0ifn" id="6K73LRuXmMr" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2BbJI" role="3EZMnx" />
       <node concept="3F0ifn" id="1aaqwMInUi_" role="3EZMnx">
-        <property role="3F0ifm" value="local variables: // currently not enbld" />
+        <property role="3F0ifm" value="local variables (currently not enbld!):" />
         <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
       </node>
       <node concept="3F2HdR" id="1aaqwMInUiA" role="3EZMnx">
@@ -2201,6 +2201,21 @@
       </node>
       <node concept="3F0ifn" id="6K73LRvlDdy" role="3EZMnx" />
       <node concept="3F0ifn" id="6K73LRvlDdz" role="3EZMnx" />
+      <node concept="3F0ifn" id="2qrl3a2LDfe" role="3EZMnx">
+        <property role="3F0ifm" value="tiles for this module:" />
+        <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
+      </node>
+      <node concept="3F2HdR" id="2qrl3a2LDff" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:2qrl3a2LDec" />
+        <node concept="2iRkQZ" id="2qrl3a2LDfg" role="2czzBx" />
+        <node concept="3F0ifn" id="2qrl3a2LDfh" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;tiles&gt;" />
+          <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2qrl3a2LDfi" role="3EZMnx" />
+      <node concept="3F0ifn" id="2qrl3a2LDfj" role="3EZMnx" />
       <node concept="2iRkQZ" id="1aaqwMInUke" role="2iSdaV" />
     </node>
   </node>
@@ -2296,7 +2311,7 @@
   </node>
   <node concept="24kQdi" id="ao4XGSxWsK">
     <property role="3GE5qa" value="pagepane" />
-    <ref role="1XX52x" to="1btx:ao4XGSxWp8" resolve="ColorStatusPPOption" />
+    <ref role="1XX52x" to="1btx:ao4XGSxWp8" resolve="StatusColorPpFOption" />
     <node concept="3EZMnI" id="ao4XGSxWsT" role="2wV5jI">
       <node concept="PMmxH" id="ao4XGSxWsU" role="3EZMnx">
         <ref role="1k5W1q" node="pQ21WNdZAs" resolve="Option" />
@@ -2306,6 +2321,48 @@
         <ref role="1NtTu8" to="1btx:ao4XGSxWre" />
       </node>
       <node concept="l2Vlx" id="ao4XGSxWsY" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2qrl3a2LCKx">
+    <property role="3GE5qa" value="uimodule" />
+    <ref role="1XX52x" to="1btx:2qrl3a2LC$O" resolve="AppTile" />
+    <node concept="3EZMnI" id="2qrl3a2LCPV" role="2wV5jI">
+      <node concept="3F0ifn" id="2qrl3a2LCUg" role="3EZMnx">
+        <property role="3F0ifm" value="tile" />
+        <ref role="1k5W1q" to="z8tr:1Csx3LqGvar" resolve="O2SubConcept" />
+      </node>
+      <node concept="3F1sOY" id="2qrl3a2LCSL" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:2qrl3a2LCE3" />
+      </node>
+      <node concept="3F0ifn" id="1Ohi5d_Uxqr" role="3EZMnx">
+        <property role="3F0ifm" value="custom label:" />
+        <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
+        <node concept="pVoyu" id="1Ohi5d_UCza" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="2qrl3a2LCS7" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;custom label&gt;" />
+        <ref role="1NtTu8" to="1btx:2qrl3a2LCG0" />
+      </node>
+      <node concept="3F0ifn" id="1Ohi5d_UxrB" role="3EZMnx">
+        <property role="3F0ifm" value="custom color:" />
+        <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
+        <node concept="pVoyu" id="1Ohi5d_UCzr" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="1Ohi5d_Uibq" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;custom color&gt;" />
+        <ref role="1NtTu8" to="1btx:2qrl3a2LCJp" />
+      </node>
+      <node concept="3F0ifn" id="2qrl3a2LCTD" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="2qrl3a2LCTY" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2qrl3a2LCPY" role="2iSdaV" />
     </node>
   </node>
 </model>
