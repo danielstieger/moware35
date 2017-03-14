@@ -29550,7 +29550,7 @@
                     <ref role="3cqZAo" node="61_QXqSd29C" resolve="factory" />
                   </node>
                   <node concept="liA8E" id="61_QXqSd2fi" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:7MWNCzY5wUb" resolve="getPlatform" />
+                    <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
                   </node>
                 </node>
                 <node concept="liA8E" id="6BKPvpDmizl" role="2OqNvi">

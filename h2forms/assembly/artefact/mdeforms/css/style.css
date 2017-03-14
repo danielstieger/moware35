@@ -211,17 +211,17 @@ html, body {
 }
 	
 input:focus, textarea:focus, select:focus {
-	border-bottom: 4px solid #F69384;
+	border-bottom: 3px solid #F69384;
 }
 
 input[focusme="true"][useMyKeyboard="true"] {
 	background: #F69384 !important;
 	color: #000000 !important;
-	border-bottom: 4px solid rgb(200, 199, 204) !important;
+	border-bottom: 3px solid rgb(200, 199, 204) !important;
 }
 
 input:disabled, textarea:disabled, select:disabled {
-	border-bottom: 2px solid rgb(200, 199, 204);
+	border-bottom: 3px solid rgb(200, 199, 204);
 }
 
 table {
@@ -234,12 +234,12 @@ table {
 }
 
 td {
-	padding: 10px 4px 4px 4px;
+	padding: 10px 3px 3px 3px;
 }
 
 table .lightpassive {
-	border-bottom: 4px solid lightgray;
-	border-left: 4px solid lightgray;
+	border-bottom: 3px solid lightgray;
+	border-left: 3px solid lightgray;
 	cursor: pointer;
 }
 
@@ -250,12 +250,12 @@ table .lightactive {
 
 
 table .bigactive {
-	border-left: 4px solid lightgray;
+	border-left: 3px solid lightgray;
 	cursor: pointer;
 }
 
 table .bigpassive {
-	border-left: 4px solid lightgray;
+	border-left: 3px solid lightgray;
 }
 
 table .bigpassive td, table .bigactive td {
@@ -499,7 +499,7 @@ section .scroll, section .scrollMask, section h1, section,  section header butto
 
 .content {
 	line-height: 1em;
-	margin-top: 4px;
+	margin-top: 3px;
 	font-weight: 400;
 	/* Dan - hight adjustment */
 	padding-bottom: 70px;

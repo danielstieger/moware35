@@ -16014,7 +16014,7 @@
                   <node concept="3cpWs3" id="O2cDPnYYzf" role="3uHU7B">
                     <node concept="3cpWs3" id="O2cDPnYYZw" role="3uHU7B">
                       <node concept="Xl_RD" id="O2cDPnYZ0j" role="3uHU7w">
-                        <property role="Xl_RC" value=": " />
+                        <property role="Xl_RC" value=" $ " />
                       </node>
                       <node concept="2ShNRf" id="O2cDPnYYA2" role="3uHU7B">
                         <node concept="1pGfFk" id="O2cDPnYYVZ" role="2ShVmc">
@@ -16104,7 +16104,7 @@
                     <node concept="3cpWs3" id="O2cDPnYWvi" role="3uHU7B">
                       <node concept="3cpWs3" id="O2cDPnYYqO" role="3uHU7B">
                         <node concept="Xl_RD" id="O2cDPnYYrB" role="3uHU7w">
-                          <property role="Xl_RC" value=": " />
+                          <property role="Xl_RC" value=" $ " />
                         </node>
                         <node concept="2ShNRf" id="O2cDPnYWx6" role="3uHU7B">
                           <node concept="1pGfFk" id="O2cDPnYYna" role="2ShVmc">

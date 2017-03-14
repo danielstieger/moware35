@@ -17,9 +17,6 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
-        <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
-      </concept>
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -90,20 +87,12 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5b5xm$m_sUX" role="3cqZAp" />
-        <node concept="TXv29" id="5b5xm$m_oEe" role="3cqZAp">
-          <node concept="TXvP7" id="5b5xm$m_sL3" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;div class=&quot;header&quot;&gt;" />
-          </node>
-          <node concept="37vLTw" id="5b5xm$m_sPa" role="2Uj5MM">
-            <ref role="3cqZAo" node="5b5xm$m_sN6" resolve="dynamicContent" />
-          </node>
-          <node concept="TXvP7" id="5b5xm$m_sTe" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;/div&gt;" />
+        <node concept="3clFbH" id="6zVU6_jHoKs" role="3cqZAp" />
+        <node concept="TXv29" id="6zVU6_jHoqO" role="3cqZAp">
+          <node concept="TXvP7" id="6zVU6_jHoFZ" role="2Uj5MM">
+            <property role="TXvUO" value="&lt;div class=&quot;header&quot;&gt; http://localhost:8080/MDEApp/?command=searchfororders" />
           </node>
         </node>
-        <node concept="3clFbH" id="5b5xm$m_oFJ" role="3cqZAp" />
-        <node concept="3clFbH" id="5b5xm$m_Hqc" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="5b5xm$m_oCH" role="jymVt" />
