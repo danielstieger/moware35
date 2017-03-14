@@ -5213,7 +5213,7 @@
                         <ref role="3cqZAo" node="2xnCXJMlCsf" resolve="landingPage" />
                       </node>
                       <node concept="liA8E" id="7r26jiO1o6V" role="2OqNvi">
-                        <ref role="37wK5l" node="7r26jiO0BfT" resolve="handleMessage" />
+                        <ref role="37wK5l" node="7r26jiO0BfT" resolve="createSimpleMessage" />
                         <node concept="2OqwBi" id="7r26jiO1ocy" role="37wK5m">
                           <node concept="37vLTw" id="7r26jiO1o9K" role="2Oq$k0">
                             <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
@@ -5353,7 +5353,7 @@
                           <ref role="3cqZAo" node="2xnCXJMlCsf" resolve="landingPage" />
                         </node>
                         <node concept="liA8E" id="7r26jiO1sW4" role="2OqNvi">
-                          <ref role="37wK5l" node="7r26jiO0BfT" resolve="handleMessage" />
+                          <ref role="37wK5l" node="7r26jiO0BfT" resolve="createSimpleMessage" />
                           <node concept="2OqwBi" id="7r26jiO1sW5" role="37wK5m">
                             <node concept="37vLTw" id="7r26jiO1sW6" role="2Oq$k0">
                               <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
@@ -5628,7 +5628,7 @@
                       <ref role="3cqZAo" node="2xnCXJMlCsf" resolve="landingPage" />
                     </node>
                     <node concept="liA8E" id="2xnCXJMmb4h" role="2OqNvi">
-                      <ref role="37wK5l" node="2xnCXJMjQMB" resolve="handleResponse" />
+                      <ref role="37wK5l" node="2xnCXJMjQMB" resolve="createMainMenu" />
                       <node concept="37vLTw" id="6zVU6_jBGo9" role="37wK5m">
                         <ref role="3cqZAo" node="6zVU6_jBDVN" resolve="currentTiles" />
                       </node>
@@ -6575,7 +6575,7 @@
     </node>
     <node concept="3clFb_" id="2xnCXJMjQMB" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="handleResponse" />
+      <property role="TrG5h" value="createMainMenu" />
       <node concept="37vLTG" id="2xnCXJMjOCM" role="3clF46">
         <property role="TrG5h" value="tiles" />
         <node concept="_YKpA" id="6zVU6_jBCDh" role="1tU5fm">
@@ -6600,7 +6600,7 @@
     </node>
     <node concept="3clFb_" id="7r26jiO0BfT" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="handleMessage" />
+      <property role="TrG5h" value="createSimpleMessage" />
       <node concept="37vLTG" id="7r26jiO0Bmy" role="3clF46">
         <property role="TrG5h" value="breadCrumbs" />
         <node concept="17QB3L" id="7r26jiO0Bmz" role="1tU5fm" />

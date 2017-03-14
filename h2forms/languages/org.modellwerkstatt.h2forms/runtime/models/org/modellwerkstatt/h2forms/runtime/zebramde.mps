@@ -15305,7 +15305,7 @@
     </node>
     <node concept="2tJIrI" id="2xnCXJMoQrt" role="jymVt" />
     <node concept="3clFb_" id="75445jw17t1" role="jymVt">
-      <property role="TrG5h" value="handleResponse" />
+      <property role="TrG5h" value="createMainMenu" />
       <node concept="37vLTG" id="2xnCXJMjObB" role="3clF46">
         <property role="TrG5h" value="tiles" />
         <node concept="_YKpA" id="6zVU6_jDOGU" role="1tU5fm">
@@ -15529,7 +15529,7 @@
     <node concept="2tJIrI" id="2xnCXJMjCJO" role="jymVt" />
     <node concept="3clFb_" id="7r26jiO0CrC" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="handleMessage" />
+      <property role="TrG5h" value="createSimpleMessage" />
       <node concept="37vLTG" id="7r26jiO0CrF" role="3clF46">
         <property role="TrG5h" value="breadCrumbs" />
         <node concept="17QB3L" id="7r26jiO0CrG" role="1tU5fm" />
