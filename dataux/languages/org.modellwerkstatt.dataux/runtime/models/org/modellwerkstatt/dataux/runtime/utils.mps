@@ -2463,7 +2463,7 @@
         <property role="TrG5h" value="SESSION_DIRTY" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4vUcH_0hKSP" role="37wK5m">
-          <property role="Xl_RC" value="Es wurden mit diesem Kommando Daten verändert, die NICHT gespeichert wurden!\n Kommando dennoch beenden?\n" />
+          <property role="Xl_RC" value="Es wurden mit diesem Kommando Daten verändert, die NICHT gespeichert wurden!\nKommando dennoch beenden?\n" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWD0" role="37wK5m" />
         <node concept="Xl_RD" id="4Rlyz3EmQHD" role="37wK5m">

@@ -733,31 +733,18 @@
     </node>
     <node concept="3clFb_" id="2qrl3a2UCt1" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setTiles" />
+      <property role="TrG5h" value="showTiles" />
       <node concept="37vLTG" id="2qrl3a2Uel8" role="3clF46">
         <property role="TrG5h" value="tiles" />
         <node concept="_YKpA" id="2qrl3a2Ufp8" role="1tU5fm">
-          <node concept="3uibUv" id="2qrl3a2Ufvt" role="_ZDj9">
-            <ref role="3uigEE" to="yg8v:2qrl3a2PTsc" resolve="IGenAppTile" />
+          <node concept="3uibUv" id="6zVU6_joNfh" role="_ZDj9">
+            <ref role="3uigEE" to="yg8v:6zVU6_jnH8I" resolve="TileAction" />
           </node>
         </node>
       </node>
       <node concept="3cqZAl" id="2qrl3a2UCt3" role="3clF45" />
       <node concept="3Tm1VV" id="2qrl3a2UCt4" role="1B3o_S" />
       <node concept="3clFbS" id="2qrl3a2UCt5" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="2qrl3a2Uel5" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="reCalcAndShowTiles" />
-      <node concept="37vLTG" id="2qrl3a2UC5X" role="3clF46">
-        <property role="TrG5h" value="ession" />
-        <node concept="3uibUv" id="2qrl3a2UCd5" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
-        </node>
-      </node>
-      <node concept="3cqZAl" id="2qrl3a2Uela" role="3clF45" />
-      <node concept="3Tm1VV" id="2qrl3a2Uelb" role="1B3o_S" />
-      <node concept="3clFbS" id="2qrl3a2Uelc" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="3y7CfyfpqD3" role="jymVt" />
     <node concept="3clFb_" id="1KgqQuBTUk2" role="jymVt">
