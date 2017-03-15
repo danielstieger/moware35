@@ -21,7 +21,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 body {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Helvetica', Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
@@ -498,7 +498,7 @@ section .scroll, section .scrollMask, section h1, section,  section header butto
 }
 
 .content {
-	line-height: 1em;
+	line-height: 16px;
 	margin-top: 3px;
 	font-weight: 400;
 	/* Dan - hight adjustment */
@@ -588,14 +588,14 @@ li .light {
 } */
 
 h2 {
-	font-size: 2em;
-	line-height: 1.5em;
+	font-size: 24px;
+	line-height: 24px;
 	font-weight: 400;
 	text-align: center;
     padding: 6px;
 }
 p {
-	line-height: 1.5em;
+	line-height: 24px;
 	text-align: center;
     /* padding: 6px; */
 }

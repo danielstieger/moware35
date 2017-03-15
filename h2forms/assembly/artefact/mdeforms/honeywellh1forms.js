@@ -10,6 +10,12 @@
 
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
+function moLog(s) {
+	var curLog = $('#dbgFld').innerHTML;
+	curLog = curLog + '<br>' + s;
+	$('#dbgFld').innerHTML = curLog;
+}
+
 var defaultReader = null;
 
 /*
@@ -415,5 +421,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // keyboard is disabled by default 
 	mykeyboardEnabled(true);
 
-    // console.log('AFTER bodyOnLoadFunction() exec.');	 
+    // console.log('AFTER bodyOnLoadFunction() exec.');
+    moLog('Span Fontsize ' + window.getComputedStyle($('span')).getPropertyValue('font-size'));
+    moLog('Window ' + window.innerHeight + ' x ' + window.innerWidth);  
 }); 
