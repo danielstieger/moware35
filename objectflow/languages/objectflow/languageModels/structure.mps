@@ -1043,7 +1043,7 @@
     <node concept="1TJgyj" id="7qQ6PJv695N" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="label" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1fYc781EA$j" resolve="Label" />
     </node>
     <node concept="1TJgyi" id="1Csx3LqwlRn" role="1TKVEl">
