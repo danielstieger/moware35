@@ -454,10 +454,25 @@ h1 {
 	-webkit-box-flex: 1;
 	   -moz-box-flex: 1;
 	        box-flex: 1;
-	margin: 0px 5px 0px 5px;
+	margin: 0px;
 	/* font-weight: 500; */
     -webkit-tap-highlight-color: transparent;
 }
+
+#chrumbdiv0 {
+	padding-left: 10px;
+	color: white;
+}
+
+
+#chrumbdiv1 {
+	padding-left: 17px;
+}
+
+#chrumbdiv2 {
+	padding-left: 24px;
+}
+
 
 section .scroll, section .scrollMask, section header button, section h1, section,  header button .label {
 	-webkit-animation-fill-mode: forwards;

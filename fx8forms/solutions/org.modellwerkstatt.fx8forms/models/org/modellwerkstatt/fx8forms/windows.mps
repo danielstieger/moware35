@@ -3649,7 +3649,41 @@
                                                   <node concept="37vLTw" id="1dzqM5xtY$V" role="37wK5m">
                                                     <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
                                                   </node>
-                                                  <node concept="10Nm6u" id="1dzqM5xtYMT" role="37wK5m" />
+                                                  <node concept="2ShNRf" id="64PSf$EEbeo" role="37wK5m">
+                                                    <node concept="YeOm9" id="64PSf$EEf0v" role="2ShVmc">
+                                                      <node concept="1Y3b0j" id="64PSf$EEf0y" role="YeSDq">
+                                                        <property role="2bfB8j" value="true" />
+                                                        <ref role="1Y3XeK" to="1e0c:vsIEjNJ5$m" resolve="IApplicationController.DlgRunnable" />
+                                                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                                                        <node concept="3Tm1VV" id="64PSf$EEf0z" role="1B3o_S" />
+                                                        <node concept="3clFb_" id="64PSf$EEf0$" role="jymVt">
+                                                          <property role="1EzhhJ" value="false" />
+                                                          <property role="TrG5h" value="run" />
+                                                          <node concept="37vLTG" id="64PSf$EEf0_" role="3clF46">
+                                                            <property role="TrG5h" value="confirmed" />
+                                                            <node concept="10P_77" id="64PSf$EEf0A" role="1tU5fm" />
+                                                          </node>
+                                                          <node concept="3cqZAl" id="64PSf$EEf0B" role="3clF45" />
+                                                          <node concept="3Tm1VV" id="64PSf$EEf0C" role="1B3o_S" />
+                                                          <node concept="3clFbS" id="64PSf$EEf0E" role="3clF47">
+                                                            <node concept="3clFbF" id="64PSf$EEftC" role="3cqZAp">
+                                                              <node concept="2OqwBi" id="64PSf$EEfxf" role="3clFbG">
+                                                                <node concept="37vLTw" id="64PSf$EEftB" role="2Oq$k0">
+                                                                  <ref role="3cqZAo" node="Y3fiVJRDr3" resolve="appController" />
+                                                                </node>
+                                                                <node concept="liA8E" id="64PSf$EEjaY" role="2OqNvi">
+                                                                  <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequestedEvent" />
+                                                                  <node concept="3clFbT" id="64PSf$EEjeT" role="37wK5m">
+                                                                    <property role="3clFbU" value="true" />
+                                                                  </node>
+                                                                </node>
+                                                              </node>
+                                                            </node>
+                                                          </node>
+                                                        </node>
+                                                      </node>
+                                                    </node>
+                                                  </node>
                                                 </node>
                                               </node>
                                             </node>
@@ -4157,6 +4191,9 @@
                             </node>
                             <node concept="liA8E" id="20ohnkb$LYk" role="2OqNvi">
                               <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequestedEvent" />
+                              <node concept="3clFbT" id="64PSf$EEjiJ" role="37wK5m">
+                                <property role="3clFbU" value="false" />
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -4338,6 +4375,9 @@
                             </node>
                             <node concept="liA8E" id="20ohnkbHLJe" role="2OqNvi">
                               <ref role="37wK5l" to="1e0c:20ohnkb$HAQ" resolve="onExitRequestedEvent" />
+                              <node concept="3clFbT" id="64PSf$EEjmy" role="37wK5m">
+                                <property role="3clFbU" value="false" />
+                              </node>
                             </node>
                           </node>
                         </node>
