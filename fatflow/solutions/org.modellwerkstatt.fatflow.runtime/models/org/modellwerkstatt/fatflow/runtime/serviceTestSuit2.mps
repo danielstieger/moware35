@@ -13,6 +13,7 @@
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/)" />
     <import index="492s" ref="r:3e258e51-4762-4db3-afbd-9dbd7f79f8ab(org.modellwerkstatt.fatflow.runtime.objectflowTestSuit2)" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -182,6 +183,7 @@
       <concept id="2884851879189507036" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDebugOption" flags="ng" index="38J6qz">
         <reference id="2884851879189507039" name="test" index="38J6qw" />
       </concept>
+      <concept id="3179794825395091428" name="org.modellwerkstatt.objectflow.structure.OFXTestNewSessionExpression" flags="ng" index="3er55J" />
       <concept id="7192042020164640430" name="org.modellwerkstatt.objectflow.structure.ContainerVariable" flags="ng" index="3ulXEM" />
       <concept id="7192042020164640426" name="org.modellwerkstatt.objectflow.structure.Container" flags="ng" index="3ulXEQ">
         <child id="7192042020164640432" name="variable" index="3ulXEG" />
@@ -1068,6 +1070,37 @@
       <ref role="1DZZIc" node="59ImdfaBg4p" resolve="Service Method Dispatchment" />
     </node>
     <node concept="1DF_5m" id="4Ta2XmW47C7" role="3yMuLx" />
+    <node concept="2d2NRx" id="5p$R$8zooMb" role="3yTP5x">
+      <node concept="3clFbS" id="5p$R$8zooMc" role="2VODD2">
+        <node concept="3clFbF" id="5p$R$8zoqG5" role="3cqZAp">
+          <node concept="2OqwBi" id="5p$R$8zoqG2" role="3clFbG">
+            <node concept="10M0yZ" id="5p$R$8zoqG3" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="5p$R$8zoqG4" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="5p$R$8zoqLv" role="37wK5m">
+                <node concept="Xl_RD" id="5p$R$8zoqGC" role="3uHU7B">
+                  <property role="Xl_RC" value="?? VARIANT " />
+                </node>
+                <node concept="2OqwBi" id="5p$R$8zor0_" role="3uHU7w">
+                  <node concept="2OqwBi" id="5p$R$8zoqX4" role="2Oq$k0">
+                    <node concept="3er55J" id="5p$R$8zoqVr" role="2Oq$k0" />
+                    <node concept="liA8E" id="5p$R$8zoqYQ" role="2OqNvi">
+                      <ref role="37wK5l" to="w7gk:2$LKw9UPf7W" resolve="getIM3UserEnvironment" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="5p$R$8zor3b" role="2OqNvi">
+                    <ref role="37wK5l" to="w7gk:5xcCl6qcmXE" resolve="getVariant" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="2EH5hC" id="59Imdfa8mXa">
     <property role="TrG5h" value="DispatchableMethodService" />

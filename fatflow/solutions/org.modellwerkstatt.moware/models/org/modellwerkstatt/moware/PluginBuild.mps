@@ -150,7 +150,7 @@
       </node>
       <node concept="3_J27D" id="1JLTjCmZp29" role="m$_w8">
         <node concept="3Mxwew" id="1JLTjCmZp2n" role="3MwsjC">
-          <property role="3MwjfP" value="MPS 3.3.5 / mowareUX RC09A" />
+          <property role="3MwjfP" value="MPS 3.3.5 / mowareUX RC10 (h2forms)" />
         </node>
       </node>
       <node concept="3_J27D" id="1JLTjCmZp2j" role="3s6cr7">
@@ -455,31 +455,6 @@
                         <property role="2Ry0Am" value="zoo" />
                         <node concept="2Ry0Ak" id="R5cwR_fjI8" role="2Ry0An">
                           <property role="2Ry0Am" value="zookeeper-3.4.5.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="R5cwR_fjIi" role="3bR37C">
-          <node concept="1BurEX" id="R5cwR_fjIj" role="1SiIV1">
-            <node concept="398BVA" id="R5cwR_fjIb" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="R5cwR_fjIc" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="R5cwR_fjId" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="R5cwR_fjIe" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="R5cwR_fjIf" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="R5cwR_fjIg" role="2Ry0An">
-                        <property role="2Ry0Am" value="zoo" />
-                        <node concept="2Ry0Ak" id="R5cwR_fjIh" role="2Ry0An">
-                          <property role="2Ry0Am" value="slf4j-api-1.6.1.jar" />
                         </node>
                       </node>
                     </node>
@@ -1108,6 +1083,31 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="5p$R$8yX2Rw" role="3bR37C">
+          <node concept="1BurEX" id="5p$R$8yX2Rx" role="1SiIV1">
+            <node concept="398BVA" id="5p$R$8yX2Rp" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="5p$R$8yX2Rq" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="5p$R$8yX2Rr" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="5p$R$8yX2Rs" role="2Ry0An">
+                    <property role="2Ry0Am" value="objectflow" />
+                    <node concept="2Ry0Ak" id="5p$R$8yX2Rt" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="5p$R$8yX2Ru" role="2Ry0An">
+                        <property role="2Ry0Am" value="basis" />
+                        <node concept="2Ry0Ak" id="5p$R$8yX2Rv" role="2Ry0An">
+                          <property role="2Ry0Am" value="slf4j-api-1.6.1.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1JLTjCmZpP8" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -1433,6 +1433,37 @@
           <node concept="3bR9La" id="6HA5kZtRSWp" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="1JLTjCmZpiM" resolve="org.modellwerkstatt.sandbox" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5p$R$8yX2HI" role="3bR37C">
+          <node concept="3bR9La" id="5p$R$8yX2HJ" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="5p$R$8yX2HR" role="3bR37C">
+          <node concept="1BurEX" id="5p$R$8yX2HS" role="1SiIV1">
+            <node concept="398BVA" id="5p$R$8yX2HK" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="5p$R$8yX2HL" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="5p$R$8yX2HM" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="5p$R$8yX2HN" role="2Ry0An">
+                    <property role="2Ry0Am" value="objectflow" />
+                    <node concept="2Ry0Ak" id="5p$R$8yX2HO" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="5p$R$8yX2HP" role="2Ry0An">
+                        <property role="2Ry0Am" value="basis" />
+                        <node concept="2Ry0Ak" id="5p$R$8yX2HQ" role="2Ry0An">
+                          <property role="2Ry0Am" value="kafka-clients-0.10.2.0.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

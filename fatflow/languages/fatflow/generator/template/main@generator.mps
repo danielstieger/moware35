@@ -30261,7 +30261,30 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3N5uhQtQZHy" role="3cqZAp" />
+        <node concept="3clFbF" id="5p$R$8zkBit" role="3cqZAp">
+          <node concept="2OqwBi" id="5p$R$8zkBIN" role="3clFbG">
+            <node concept="37vLTw" id="5p$R$8zkBir" role="2Oq$k0">
+              <ref role="3cqZAo" node="6U6qQMZCQic" resolve="__userEnvironment" />
+            </node>
+            <node concept="liA8E" id="5p$R$8zkCgh" role="2OqNvi">
+              <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
+              <node concept="2OqwBi" id="5p$R$8zkCs2" role="37wK5m">
+                <node concept="2OqwBi" id="5p$R$8zkCmr" role="2Oq$k0">
+                  <node concept="37vLTw" id="5p$R$8zkCjb" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2KwTCJyovtB" resolve="__localAppplicationFactory" />
+                  </node>
+                  <node concept="liA8E" id="5p$R$8zkCqa" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="5p$R$8zkCxN" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5p$R$8zkC$J" role="3cqZAp" />
         <node concept="9aQIb" id="3N5uhQtR1om" role="3cqZAp">
           <node concept="3clFbS" id="3N5uhQtR1oo" role="9aQI4">
             <node concept="3cpWs8" id="3N5uhQtR24E" role="3cqZAp">

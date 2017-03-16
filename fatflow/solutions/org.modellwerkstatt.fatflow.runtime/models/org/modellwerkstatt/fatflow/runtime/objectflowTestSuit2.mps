@@ -15,9 +15,9 @@
     <import index="25x5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.text(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/)" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
-    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -301,6 +301,9 @@
       <concept id="2884851879187602661" name="org.modellwerkstatt.objectflow.structure.OFXTestPrintStatement" flags="ng" index="38$l6q">
         <child id="2884851879187602662" name="expression" index="38$l6p" />
       </concept>
+      <concept id="2884851879189507036" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDebugOption" flags="ng" index="38J6qz">
+        <reference id="2884851879189507039" name="test" index="38J6qw" />
+      </concept>
       <concept id="3179794825395091428" name="org.modellwerkstatt.objectflow.structure.OFXTestNewSessionExpression" flags="ng" index="3er55J" />
       <concept id="7604036740764640594" name="org.modellwerkstatt.objectflow.structure.VariantDeclaration" flags="ng" index="3hNl9M">
         <property id="8988286044096513865" name="logOption" index="21hoB1" />
@@ -372,7 +375,7 @@
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
-      <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
+      <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
       </concept>
       <concept id="5641334495847814104" name="org.modellwerkstatt.objectflow.structure.ErrorInCommand" flags="ng" index="3Mo9wd">
@@ -1704,10 +1707,29 @@
     <ref role="2WPtWl" node="5MCXLSo4_z9" resolve="MPreisOFXTests" />
     <node concept="3yPF9F" id="6BKPvpE4xY$" role="3yMuLx">
       <property role="TrG5h" value="Create CommandVariantInfo" />
+      <node concept="37vLTG" id="5p$R$8zoAxi" role="3clF46">
+        <property role="TrG5h" value="usr" />
+        <node concept="3uibUv" id="5p$R$8zoAIA" role="1tU5fm">
+          <ref role="3uigEE" to="w7gk:47yM9mP3xmE" resolve="IM3UserEnvironment" />
+        </node>
+      </node>
       <node concept="3uibUv" id="6BKPvpE4y9N" role="3clF45">
         <ref role="3uigEE" node="6BKPvpE4x$H" resolve="CommandVariantInfo" />
       </node>
       <node concept="3clFbS" id="6BKPvpE4xYC" role="3clF47">
+        <node concept="3clFbF" id="5p$R$8zoASG" role="3cqZAp">
+          <node concept="2OqwBi" id="5p$R$8zoAVa" role="3clFbG">
+            <node concept="37vLTw" id="5p$R$8zoASE" role="2Oq$k0">
+              <ref role="3cqZAo" node="5p$R$8zoAxi" resolve="usr" />
+            </node>
+            <node concept="liA8E" id="5p$R$8zoAW9" role="2OqNvi">
+              <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
+              <node concept="Xl_RD" id="5p$R$8zoAWv" role="37wK5m">
+                <property role="Xl_RC" value="SUGAR" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="6BKPvpE4yax" role="3cqZAp">
           <node concept="2ShNRf" id="6BKPvpE4yaG" role="3cqZAk">
             <node concept="HV5vD" id="6BKPvpE4ziK" role="2ShVmc">
@@ -3564,6 +3586,12 @@
       <node concept="3yABqi" id="6BKPvpE4zj2" role="3yGA3Q">
         <property role="TrG5h" value="info" />
         <ref role="37wK5l" node="6BKPvpE4xY$" resolve="Create CommandVariantInfo" />
+        <node concept="2OqwBi" id="5p$R$8zoAsx" role="37wK5m">
+          <node concept="3er55J" id="5p$R$8zoAqv" role="2Oq$k0" />
+          <node concept="liA8E" id="5p$R$8zoAvk" role="2OqNvi">
+            <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+          </node>
+        </node>
       </node>
       <node concept="2_HltQ" id="6BKPvpE4gnz" role="2_GXT8">
         <ref role="2_Hrwf" node="Joc9_LZQLM" resolve="Invoice Process" />
@@ -3605,7 +3633,24 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6BKPvpE6ujF" role="3cqZAp" />
+        <node concept="38$l6q" id="5p$R$8zo6_h" role="3cqZAp">
+          <node concept="3cpWs3" id="5p$R$8zo6EM" role="38$l6p">
+            <node concept="2OqwBi" id="5p$R$8zo6Kd" role="3uHU7w">
+              <node concept="2OqwBi" id="5p$R$8zo6HG" role="2Oq$k0">
+                <node concept="3er55J" id="5p$R$8zo6GE" role="2Oq$k0" />
+                <node concept="liA8E" id="5p$R$8zo6IW" role="2OqNvi">
+                  <ref role="37wK5l" to="w7gk:2$LKw9UPf7W" resolve="getIM3UserEnvironment" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5p$R$8zo6OG" role="2OqNvi">
+                <ref role="37wK5l" to="w7gk:5xcCl6qcmXE" resolve="getVariant" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="5p$R$8zo6Bt" role="3uHU7B">
+              <property role="Xl_RC" value="VARIANT is " />
+            </node>
+          </node>
+        </node>
         <node concept="1gVbGN" id="6BKPvpE4zo1" role="3cqZAp">
           <node concept="3clFbC" id="6BKPvpE4zo2" role="1gVkn0">
             <node concept="3clFbT" id="6BKPvpE4zo3" role="3uHU7w">
@@ -3639,6 +3684,9 @@
         <node concept="3clFbH" id="6BKPvpE6ua_" role="3cqZAp" />
         <node concept="3clFbH" id="6BKPvpE4zqS" role="3cqZAp" />
       </node>
+    </node>
+    <node concept="38J6qz" id="5p$R$8zo6$G" role="38MLOi">
+      <ref role="38J6qw" node="6BKPvpE4gnx" resolve="Check Variant Handling in Command - running on SUGAR." />
     </node>
   </node>
   <node concept="2CG7Z0" id="5MCXLSo4_z9">
