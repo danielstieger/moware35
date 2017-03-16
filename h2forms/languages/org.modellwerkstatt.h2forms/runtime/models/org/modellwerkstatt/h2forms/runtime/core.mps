@@ -1081,57 +1081,14 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5pIRrzlejmJ" role="3cqZAp" />
-        <node concept="3SKdUt" id="3yfWYM0MA6L" role="3cqZAp">
-          <node concept="3SKdUq" id="3yfWYM0MB$n" role="3SKWNk">
-            <property role="3SKdUp" value="calc timeout to 24:00 " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="5pIRrzlehfU" role="3cqZAp">
-          <node concept="3SKdUq" id="5pIRrzlehfW" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: optimze this? User not logged in, timeout 10 min? " />
-          </node>
-        </node>
-        <node concept="3cpWs8" id="3yfWYM0NeM1" role="3cqZAp">
-          <node concept="3cpWsn" id="3yfWYM0NeM4" role="3cpWs9">
-            <property role="TrG5h" value="secondsOfDay" />
-            <node concept="10Oyi0" id="3yfWYM0NVWn" role="1tU5fm" />
-            <node concept="FJ1c_" id="3yfWYM0NvJ3" role="33vP2m">
-              <node concept="3cmrfG" id="3yfWYM0NvKC" role="3uHU7w">
-                <property role="3cmrfH" value="1000" />
-              </node>
-              <node concept="2OqwBi" id="3yfWYM0NshD" role="3uHU7B">
-                <node concept="2ShNRf" id="3yfWYM0NpsD" role="2Oq$k0">
-                  <node concept="1pGfFk" id="3yfWYM0NrYc" role="2ShVmc">
-                    <ref role="37wK5l" to="w08f:~LocalTime.&lt;init&gt;()" resolve="LocalTime" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="3yfWYM0NucW" role="2OqNvi">
-                  <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay():int" resolve="getMillisOfDay" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1XvfUlyovhW" role="3cqZAp">
-          <node concept="2OqwBi" id="1XvfUlyovhX" role="3clFbG">
-            <node concept="37vLTw" id="1XvfUlyovhY" role="2Oq$k0">
+        <node concept="3clFbF" id="6IJC_lwogd0" role="3cqZAp">
+          <node concept="1rXfSq" id="6IJC_lwogcY" role="3clFbG">
+            <ref role="37wK5l" node="6IJC_lwnKhH" resolve="setShortSession" />
+            <node concept="37vLTw" id="6IJC_lwohhJ" role="37wK5m">
               <ref role="3cqZAo" node="1XvfUlyowno" resolve="session" />
             </node>
-            <node concept="liA8E" id="1XvfUlyovhZ" role="2OqNvi">
-              <ref role="37wK5l" to="nwfd:~HttpSession.setMaxInactiveInterval(int):void" resolve="setMaxInactiveInterval" />
-              <node concept="3cpWsd" id="3yfWYM0NKBw" role="37wK5m">
-                <node concept="37vLTw" id="3yfWYM0NM3y" role="3uHU7w">
-                  <ref role="3cqZAo" node="3yfWYM0NeM4" resolve="secondsOfDay" />
-                </node>
-                <node concept="3cmrfG" id="3yfWYM0NXpZ" role="3uHU7B">
-                  <property role="3cmrfH" value="86400" />
-                </node>
-              </node>
-            </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3yfWYM0Oax6" role="3cqZAp" />
         <node concept="3cpWs6" id="1XvfUlyoUmY" role="3cqZAp">
           <node concept="37vLTw" id="1XvfUlyoUoF" role="3cqZAk">
             <ref role="3cqZAo" node="1XvfUlyowno" resolve="session" />
@@ -1139,7 +1096,97 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="kA5KhwgwfI" role="jymVt" />
+    <node concept="2tJIrI" id="6IJC_lwo6sW" role="jymVt" />
+    <node concept="3clFb_" id="6IJC_lwnKhH" role="jymVt">
+      <property role="TrG5h" value="setShortSession" />
+      <node concept="37vLTG" id="6IJC_lwnTAs" role="3clF46">
+        <property role="TrG5h" value="session" />
+        <node concept="3uibUv" id="6IJC_lwnUD8" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpSession" resolve="HttpSession" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6IJC_lwnKhJ" role="3clF45" />
+      <node concept="3Tm1VV" id="6IJC_lwnKhK" role="1B3o_S" />
+      <node concept="3clFbS" id="6IJC_lwnKhL" role="3clF47">
+        <node concept="3SKdUt" id="3yfWYM0MA6L" role="3cqZAp">
+          <node concept="3SKdUq" id="3yfWYM0MB$n" role="3SKWNk">
+            <property role="3SKdUp" value="calc timeout to 1h = 60 * 60 in secs" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="1XvfUlyovhW" role="3cqZAp">
+          <node concept="2OqwBi" id="1XvfUlyovhX" role="3clFbG">
+            <node concept="37vLTw" id="1XvfUlyovhY" role="2Oq$k0">
+              <ref role="3cqZAo" node="6IJC_lwnTAs" resolve="session" />
+            </node>
+            <node concept="liA8E" id="1XvfUlyovhZ" role="2OqNvi">
+              <ref role="37wK5l" to="nwfd:~HttpSession.setMaxInactiveInterval(int):void" resolve="setMaxInactiveInterval" />
+              <node concept="3cmrfG" id="6IJC_lwofDI" role="37wK5m">
+                <property role="3cmrfH" value="3600" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6IJC_lwoaEg" role="jymVt">
+      <property role="TrG5h" value="setLongSession" />
+      <node concept="37vLTG" id="6IJC_lwoaEh" role="3clF46">
+        <property role="TrG5h" value="session" />
+        <node concept="3uibUv" id="6IJC_lwoaEi" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpSession" resolve="HttpSession" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6IJC_lwoaEj" role="3clF45" />
+      <node concept="3Tm1VV" id="6IJC_lwoaEk" role="1B3o_S" />
+      <node concept="3clFbS" id="6IJC_lwoaEl" role="3clF47">
+        <node concept="3SKdUt" id="6IJC_lwoaEm" role="3cqZAp">
+          <node concept="3SKdUq" id="6IJC_lwoaEn" role="3SKWNk">
+            <property role="3SKdUp" value="calc timeout to 24:00 " />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="6IJC_lwoaEo" role="3cqZAp">
+          <node concept="3cpWsn" id="6IJC_lwoaEp" role="3cpWs9">
+            <property role="TrG5h" value="secondsOfDay" />
+            <node concept="10Oyi0" id="6IJC_lwoaEq" role="1tU5fm" />
+            <node concept="FJ1c_" id="6IJC_lwoaEr" role="33vP2m">
+              <node concept="3cmrfG" id="6IJC_lwoaEs" role="3uHU7w">
+                <property role="3cmrfH" value="1000" />
+              </node>
+              <node concept="2OqwBi" id="6IJC_lwoaEt" role="3uHU7B">
+                <node concept="2ShNRf" id="6IJC_lwoaEu" role="2Oq$k0">
+                  <node concept="1pGfFk" id="6IJC_lwoaEv" role="2ShVmc">
+                    <ref role="37wK5l" to="w08f:~LocalTime.&lt;init&gt;()" resolve="LocalTime" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6IJC_lwoaEw" role="2OqNvi">
+                  <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay():int" resolve="getMillisOfDay" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6IJC_lwoaEx" role="3cqZAp">
+          <node concept="2OqwBi" id="6IJC_lwoaEy" role="3clFbG">
+            <node concept="37vLTw" id="6IJC_lwoaEz" role="2Oq$k0">
+              <ref role="3cqZAo" node="6IJC_lwoaEh" resolve="session" />
+            </node>
+            <node concept="liA8E" id="6IJC_lwoaE$" role="2OqNvi">
+              <ref role="37wK5l" to="nwfd:~HttpSession.setMaxInactiveInterval(int):void" resolve="setMaxInactiveInterval" />
+              <node concept="3cpWsd" id="6IJC_lwoaE_" role="37wK5m">
+                <node concept="37vLTw" id="6IJC_lwoaEA" role="3uHU7w">
+                  <ref role="3cqZAo" node="6IJC_lwoaEp" resolve="secondsOfDay" />
+                </node>
+                <node concept="3cmrfG" id="6IJC_lwoaEB" role="3uHU7B">
+                  <property role="3cmrfH" value="86400" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6IJC_lwo40r" role="jymVt" />
+    <node concept="2tJIrI" id="6IJC_lwnGcj" role="jymVt" />
     <node concept="3clFb_" id="3LZok6f9UgC" role="jymVt">
       <property role="TrG5h" value="getRemoteAddr" />
       <node concept="17QB3L" id="3LZok6f9Yh_" role="3clF45" />
@@ -2310,6 +2357,51 @@
               </node>
             </node>
             <node concept="3clFbH" id="kA5KhweseJ" role="3cqZAp" />
+            <node concept="3SKdUt" id="6IJC_lwnnJq" role="3cqZAp">
+              <node concept="3SKdUq" id="6IJC_lwnnJs" role="3SKWNk">
+                <property role="3SKdUp" value="no command parameter, the url was reseted, e.g.broswer resart although a command was running." />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6IJC_lwnpio" role="3cqZAp">
+              <node concept="3clFbS" id="6IJC_lwnpiq" role="3clFbx">
+                <node concept="3clFbF" id="6IJC_lwntuz" role="3cqZAp">
+                  <node concept="37vLTI" id="6IJC_lwntvJ" role="3clFbG">
+                    <node concept="1rXfSq" id="6IJC_lwnuyb" role="37vLTx">
+                      <ref role="37wK5l" node="kA5KhwfIXe" resolve="shutdownSession" />
+                      <node concept="37vLTw" id="6IJC_lwnv2u" role="37wK5m">
+                        <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="6IJC_lwntux" role="37vLTJ">
+                      <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="6IJC_lwnqSc" role="3clFbw">
+                <node concept="3clFbC" id="6IJC_lwnsUI" role="3uHU7w">
+                  <node concept="10Nm6u" id="6IJC_lwnsVz" role="3uHU7w" />
+                  <node concept="2OqwBi" id="6IJC_lwnroD" role="3uHU7B">
+                    <node concept="37vLTw" id="6IJC_lwnrmZ" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                    </node>
+                    <node concept="liA8E" id="6IJC_lwnrUc" role="2OqNvi">
+                      <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                      <node concept="Xl_RD" id="6IJC_lwnsoU" role="37wK5m">
+                        <property role="Xl_RC" value="command" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3y3z36" id="6IJC_lwnqPO" role="3uHU7B">
+                  <node concept="37vLTw" id="6IJC_lwnqOy" role="3uHU7B">
+                    <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                  </node>
+                  <node concept="10Nm6u" id="6IJC_lwnqQV" role="3uHU7w" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="6IJC_lwnmzf" role="3cqZAp" />
             <node concept="3clFbJ" id="kA5KhwbAZe" role="3cqZAp">
               <node concept="3clFbS" id="kA5KhwbAZg" role="3clFbx">
                 <node concept="3clFbF" id="kA5KhwbEqh" role="3cqZAp">
@@ -2565,7 +2657,7 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="5pFQRGEku7V" role="3cqZAp" />
+            <node concept="3clFbH" id="6IJC_lwpfCz" role="3cqZAp" />
             <node concept="3clFbJ" id="5hYsHqQHJn0" role="3cqZAp">
               <node concept="3clFbS" id="5hYsHqQHJn2" role="3clFbx">
                 <node concept="3clFbF" id="5hYsHqQHKwp" role="3cqZAp">
@@ -2585,10 +2677,39 @@
                   <ref role="37wK5l" node="5hYsHqQHmgz" resolve="isRemoveFromSessionAndClose" />
                 </node>
               </node>
+              <node concept="3eNFk2" id="6IJC_lwpj3J" role="3eNLev">
+                <node concept="2OqwBi" id="6IJC_lwpj6f" role="3eO9$A">
+                  <node concept="37vLTw" id="6IJC_lwpj5h" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2xnCXJMqI_H" resolve="app" />
+                  </node>
+                  <node concept="liA8E" id="6IJC_lwpjBu" role="2OqNvi">
+                    <ref role="37wK5l" node="6IJC_lwok4p" resolve="hasCommitableSessionRunning" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="6IJC_lwpj3L" role="3eOfB_">
+                  <node concept="3clFbF" id="6IJC_lwpk7k" role="3cqZAp">
+                    <node concept="1rXfSq" id="6IJC_lwpk7j" role="3clFbG">
+                      <ref role="37wK5l" node="6IJC_lwoaEg" resolve="setLongSession" />
+                      <node concept="37vLTw" id="6IJC_lwpkBE" role="37wK5m">
+                        <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="9aQIb" id="6IJC_lwpl65" role="9aQIa">
+                <node concept="3clFbS" id="6IJC_lwpl66" role="9aQI4">
+                  <node concept="3clFbF" id="6IJC_lwpm9j" role="3cqZAp">
+                    <node concept="1rXfSq" id="6IJC_lwpm9h" role="3clFbG">
+                      <ref role="37wK5l" node="6IJC_lwnKhH" resolve="setShortSession" />
+                      <node concept="37vLTw" id="6IJC_lwpmDO" role="37wK5m">
+                        <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
-            <node concept="3clFbH" id="5pFQRGEknF1" role="3cqZAp" />
-            <node concept="3clFbH" id="5pFQRGEknW1" role="3cqZAp" />
-            <node concept="3clFbH" id="5pFQRGEkod2" role="3cqZAp" />
             <node concept="3clFbH" id="5pFQRGEkou4" role="3cqZAp" />
             <node concept="3SKdUt" id="1XvfUlytPqs" role="3cqZAp">
               <node concept="3SKdUq" id="1XvfUlytPvj" role="3SKWNk">
@@ -6424,6 +6545,23 @@
         <node concept="3clFbF" id="5hYsHqQHuT9" role="3cqZAp">
           <node concept="37vLTw" id="5hYsHqQHuT8" role="3clFbG">
             <ref role="3cqZAo" node="5hYsHqQHilL" resolve="removeFromSessionAndClose" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6IJC_lwok4p" role="jymVt">
+      <property role="TrG5h" value="hasCommitableSessionRunning" />
+      <node concept="10P_77" id="6IJC_lwoljM" role="3clF45" />
+      <node concept="3Tm1VV" id="6IJC_lwok4s" role="1B3o_S" />
+      <node concept="3clFbS" id="6IJC_lwok4t" role="3clF47">
+        <node concept="3clFbF" id="6IJC_lworqc" role="3cqZAp">
+          <node concept="2OqwBi" id="6IJC_lwortT" role="3clFbG">
+            <node concept="37vLTw" id="6IJC_lworqb" role="2Oq$k0">
+              <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+            </node>
+            <node concept="liA8E" id="6IJC_lworGY" role="2OqNvi">
+              <ref role="37wK5l" to="1e0c:6IJC_lwovWV" resolve="hasCommitableSessionRunning" />
+            </node>
           </node>
         </node>
       </node>

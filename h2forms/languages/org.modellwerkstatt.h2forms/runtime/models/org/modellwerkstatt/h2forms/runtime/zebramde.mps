@@ -983,7 +983,7 @@
             <node concept="liA8E" id="7RHNXGyQCRV" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
               <node concept="Xl_RD" id="7RHNXGyQCRW" role="37wK5m">
-                <property role="Xl_RC" value="&lt;!DOCTYPE html&gt; \n&lt;html&gt;\n&lt;head&gt;\n&lt;title&gt;" />
+                <property role="Xl_RC" value="&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n&lt;title&gt;" />
               </node>
             </node>
           </node>
@@ -6507,6 +6507,7 @@
   </node>
   <node concept="312cEu" id="46JJF8ILz5p">
     <property role="TrG5h" value="ZMReferenceEditor" />
+    <property role="3GE5qa" value="forms" />
     <node concept="312cEg" id="6nF$iZDJ3R2" role="jymVt">
       <property role="TrG5h" value="editorId" />
       <node concept="3Tm6S6" id="6nF$iZDJ3R3" role="1B3o_S" />
@@ -7736,6 +7737,7 @@
   </node>
   <node concept="312cEu" id="46JJF8ILz6a">
     <property role="TrG5h" value="ZMStatusEditor" />
+    <property role="3GE5qa" value="forms" />
     <node concept="312cEg" id="46JJF8IQsYY" role="jymVt">
       <property role="TrG5h" value="editorId" />
       <node concept="3Tm6S6" id="46JJF8IQsYZ" role="1B3o_S" />
@@ -8833,6 +8835,7 @@
   </node>
   <node concept="312cEu" id="46JJF8ILyze">
     <property role="TrG5h" value="ZMTextEditor" />
+    <property role="3GE5qa" value="forms" />
     <node concept="312cEg" id="46JJF8IM4HV" role="jymVt">
       <property role="TrG5h" value="editorId" />
       <node concept="3Tm6S6" id="46JJF8IM4HW" role="1B3o_S" />
@@ -10282,7 +10285,18 @@
       <property role="TrG5h" value="delayedRequestFocus" />
       <node concept="3cqZAl" id="2xnCXJMgk_5" role="3clF45" />
       <node concept="3Tm1VV" id="2xnCXJMgk_6" role="1B3o_S" />
-      <node concept="3clFbS" id="2xnCXJMgk_8" role="3clF47" />
+      <node concept="3clFbS" id="2xnCXJMgk_8" role="3clF47">
+        <node concept="3clFbF" id="6IJC_lwmrlQ" role="3cqZAp">
+          <node concept="2OqwBi" id="6IJC_lwmrtS" role="3clFbG">
+            <node concept="37vLTw" id="6IJC_lwmrlP" role="2Oq$k0">
+              <ref role="3cqZAo" node="2xnCXJMh7KC" resolve="form" />
+            </node>
+            <node concept="liA8E" id="6IJC_lwmrAc" role="2OqNvi">
+              <ref role="37wK5l" node="4x14MABpuhh" resolve="myRequestFocus" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="2xnCXJMgrX8" role="jymVt" />
     <node concept="3clFb_" id="2xnCXJMgk_9" role="jymVt">
@@ -14247,16 +14261,6 @@
                 <property role="3SKdUp" value="clear others ... " />
               </node>
             </node>
-            <node concept="3SKdUt" id="7RHNXGyZ3U4" role="3cqZAp">
-              <node concept="3SKdUq" id="7RHNXGyZ3U5" role="3SKWNk">
-                <property role="3SKdUp" value="TODO: That is reset due to html implementation. right now, more than one delegate" />
-              </node>
-            </node>
-            <node concept="3SKdUt" id="7RHNXGyZ3U6" role="3cqZAp">
-              <node concept="3SKdUq" id="7RHNXGyZ3U7" role="3SKWNk">
-                <property role="3SKdUp" value="can get the focus class, maybe we can circumvent that somehow ? " />
-              </node>
-            </node>
             <node concept="1Dw8fO" id="7RHNXGyZ3U8" role="3cqZAp">
               <node concept="3clFbS" id="7RHNXGyZ3U9" role="2LFqv$">
                 <node concept="3clFbF" id="7RHNXGyZ3Ua" role="3cqZAp">
@@ -14322,8 +14326,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="7RHNXGyZ3U_" role="3cqZAp" />
-            <node concept="3clFbH" id="7RHNXGyZ3UA" role="3cqZAp" />
             <node concept="3clFbF" id="7RHNXGyZ3UB" role="3cqZAp">
               <node concept="2OqwBi" id="7RHNXGyZ3UC" role="3clFbG">
                 <node concept="1eOMI4" id="7RHNXGyZ3UD" role="2Oq$k0">
@@ -14598,7 +14600,7 @@
             <property role="3SKdUp" value="check for readOnly? " />
           </node>
         </node>
-        <node concept="1X3_iC" id="4xVSf7d9c2u" role="lGtFl">
+        <node concept="1X3_iC" id="6IJC_lwmxmn" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3clFbF" id="7RHNXGyZ3WB" role="8Wnug">
@@ -14610,7 +14612,7 @@
               <node concept="liA8E" id="7RHNXGyZ3WE" role="2OqNvi">
                 <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
                 <node concept="Xl_RD" id="7RHNXGyZ3WF" role="37wK5m">
-                  <property role="Xl_RC" value="DelegateForm: Received request Focus myRequestFocus()... " />
+                  <property role="Xl_RC" value="ZMDelegateForm: Received request Focus myRequestFocus()... " />
                 </node>
               </node>
             </node>
@@ -14706,7 +14708,24 @@
           </node>
         </node>
         <node concept="3clFbH" id="MdbUSGP4$5" role="3cqZAp" />
-        <node concept="3clFbH" id="MdbUSGP3CS" role="3cqZAp" />
+        <node concept="1X3_iC" id="6IJC_lwmyv9" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="6IJC_lwm8M8" role="8Wnug">
+            <node concept="2OqwBi" id="6IJC_lwm8M5" role="3clFbG">
+              <node concept="10M0yZ" id="6IJC_lwm8M6" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              </node>
+              <node concept="liA8E" id="6IJC_lwm8M7" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="Xl_RD" id="6IJC_lwma1v" role="37wK5m">
+                  <property role="Xl_RC" value="                focus cleared" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="1Dw8fO" id="7RHNXGyZ3WP" role="3cqZAp">
           <node concept="3clFbS" id="7RHNXGyZ3WQ" role="2LFqv$">
             <node concept="3clFbJ" id="7RHNXGyZ3WR" role="3cqZAp">
@@ -14775,6 +14794,35 @@
                     </node>
                   </node>
                 </node>
+                <node concept="1X3_iC" id="6IJC_lwmzBm" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="6IJC_lwmazH" role="8Wnug">
+                    <node concept="2OqwBi" id="6IJC_lwmazI" role="3clFbG">
+                      <node concept="10M0yZ" id="6IJC_lwmazJ" role="2Oq$k0">
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      </node>
+                      <node concept="liA8E" id="6IJC_lwmazK" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="3cpWs3" id="6IJC_lwmaQv" role="37wK5m">
+                          <node concept="Xl_RD" id="6IJC_lwmaXM" role="3uHU7w">
+                            <property role="Xl_RC" value=" element." />
+                          </node>
+                          <node concept="3cpWs3" id="6IJC_lwmaIu" role="3uHU7B">
+                            <node concept="Xl_RD" id="6IJC_lwmazL" role="3uHU7B">
+                              <property role="Xl_RC" value="                focus on " />
+                            </node>
+                            <node concept="37vLTw" id="6IJC_lwmaMN" role="3uHU7w">
+                              <ref role="3cqZAo" node="7RHNXGyZ3Xn" resolve="i" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="6IJC_lwmau$" role="3cqZAp" />
                 <node concept="3zACq4" id="7RHNXGyZ3Xg" role="3cqZAp" />
               </node>
               <node concept="2OqwBi" id="7RHNXGyZ3Xh" role="3clFbw">
@@ -14969,52 +15017,7 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="4xVSf7d9c2w" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="7RHNXGyZ3Yx" role="8Wnug">
-            <node concept="2OqwBi" id="7RHNXGyZ3Yy" role="3clFbG">
-              <node concept="10M0yZ" id="7RHNXGyZ3Yz" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-              </node>
-              <node concept="liA8E" id="7RHNXGyZ3Y$" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="Xl_RD" id="7RHNXGyZ3Y_" role="37wK5m">
-                  <property role="Xl_RC" value="DelegateForm.requestFocus() done" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="7RHNXGyZ3YA" role="3cqZAp">
-          <node concept="3SKdUq" id="7RHNXGyZ3YB" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Do not know, if this is correct .. . : ) " />
-          </node>
-        </node>
-        <node concept="1X3_iC" id="4xVSf7d9c2x" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="7RHNXGyZ3YE" role="8Wnug">
-            <node concept="2OqwBi" id="7RHNXGyZ3YF" role="3clFbG">
-              <node concept="10M0yZ" id="7RHNXGyZ3YG" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              </node>
-              <node concept="liA8E" id="7RHNXGyZ3YH" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="3cpWs3" id="7RHNXGyZ3YI" role="37wK5m">
-                  <node concept="37vLTw" id="7RHNXGyZ3YJ" role="3uHU7w">
-                    <ref role="3cqZAo" node="7RHNXGyZ3WH" resolve="focussed" />
-                  </node>
-                  <node concept="Xl_RD" id="7RHNXGyZ3YK" role="3uHU7B">
-                    <property role="Xl_RC" value="TMP_DelegateForm myRequestFocus received. taken? " />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
+        <node concept="3clFbH" id="6IJC_lwmdqi" role="3cqZAp" />
         <node concept="3cpWs6" id="7RHNXGyZ3YY" role="3cqZAp">
           <node concept="37vLTw" id="7RHNXGyZ3YZ" role="3cqZAk">
             <ref role="3cqZAo" node="7RHNXGyZ3WH" resolve="focussed" />
