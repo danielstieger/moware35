@@ -461,7 +461,10 @@ h1 {
 
 #chrumbdiv0 {
 	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	color: white;
+	
 }
 
 
