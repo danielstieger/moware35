@@ -460,6 +460,12 @@
     <node concept="3clFb_" id="kA5Khwlvg3" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createPromptContainerUi" />
+      <node concept="37vLTG" id="r$jHpEWq$k" role="3clF46">
+        <property role="TrG5h" value="app" />
+        <node concept="3uibUv" id="r$jHpEWqVB" role="1tU5fm">
+          <ref role="3uigEE" to="250q:20ohnkbzYYy" resolve="IToolkit_Application" />
+        </node>
+      </node>
       <node concept="37vLTG" id="kA5Khwlvg4" role="3clF46">
         <property role="TrG5h" value="fullSize" />
         <node concept="10P_77" id="kA5Khwlvg5" role="1tU5fm" />
