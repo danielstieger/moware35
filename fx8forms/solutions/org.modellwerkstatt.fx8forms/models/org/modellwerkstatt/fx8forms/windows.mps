@@ -6967,30 +6967,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6BKPvpDToTO" role="3cqZAp" />
-        <node concept="3clFbF" id="6BKPvpDTosq" role="3cqZAp">
-          <node concept="2OqwBi" id="6BKPvpDTotV" role="3clFbG">
-            <node concept="37vLTw" id="6BKPvpDToso" role="2Oq$k0">
-              <ref role="3cqZAo" node="7aUgYCzsuaM" resolve="env" />
-            </node>
-            <node concept="liA8E" id="6BKPvpDTowa" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:4r0DqI1Rlxz" resolve="setVariant" />
-              <node concept="2OqwBi" id="6BKPvpDToIj" role="37wK5m">
-                <node concept="2OqwBi" id="6BKPvpDToyK" role="2Oq$k0">
-                  <node concept="37vLTw" id="6BKPvpDToxd" role="2Oq$k0">
-                    <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                  </node>
-                  <node concept="liA8E" id="6BKPvpDToGY" role="2OqNvi">
-                    <ref role="37wK5l" to="1e0c:69JiVbyY2dp" resolve="getPlatform" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="6BKPvpDToSD" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="7aUgYCzsumr" role="3cqZAp">
           <node concept="37vLTI" id="7aUgYCzsunA" role="3clFbG">
             <node concept="37vLTw" id="7aUgYCzsuvP" role="37vLTx">
@@ -7001,7 +6977,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6BKPvpDToVg" role="3cqZAp" />
         <node concept="3clFbF" id="Y3fiVKy0CH" role="3cqZAp">
           <node concept="2YIFZM" id="Y3fiVKy0FW" role="3clFbG">
             <ref role="37wK5l" to="ahg6:~Application.launch(java.lang.String...):void" resolve="launch" />

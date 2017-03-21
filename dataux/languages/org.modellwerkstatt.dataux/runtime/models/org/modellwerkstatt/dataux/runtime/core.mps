@@ -7167,7 +7167,7 @@
       </node>
       <node concept="37vLTG" id="938$CrOsif" role="3clF46">
         <property role="TrG5h" value="throwable" />
-        <node concept="3uibUv" id="938$CrOsig" role="1tU5fm">
+        <node concept="3uibUv" id="1wwgtxzfnxV" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
         </node>
       </node>
@@ -16353,7 +16353,7 @@
       </node>
       <node concept="37vLTG" id="2ppo89mfiNm" role="3clF46">
         <property role="TrG5h" value="throwable" />
-        <node concept="3uibUv" id="2ppo89mg_tE" role="1tU5fm">
+        <node concept="3uibUv" id="1wwgtxzfo3x" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
         </node>
       </node>
@@ -20772,6 +20772,36 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1wwgtxziD9w" role="3cqZAp" />
+        <node concept="3SKdUt" id="1wwgtxziDxK" role="3cqZAp">
+          <node concept="3SKdUq" id="1wwgtxziDxM" role="3SKWNk">
+            <property role="3SKdUp" value="prepare environment" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="1wwgtxzgA5s" role="3cqZAp">
+          <node concept="2OqwBi" id="1wwgtxzgA5t" role="3clFbG">
+            <node concept="37vLTw" id="1wwgtxzgA5u" role="2Oq$k0">
+              <ref role="3cqZAo" node="r$jHpEYI$E" resolve="env" />
+            </node>
+            <node concept="liA8E" id="1wwgtxzgA5v" role="2OqNvi">
+              <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
+              <node concept="2OqwBi" id="1wwgtxzgA5w" role="37wK5m">
+                <node concept="2OqwBi" id="1wwgtxzgA5x" role="2Oq$k0">
+                  <node concept="37vLTw" id="1wwgtxziEeL" role="2Oq$k0">
+                    <ref role="3cqZAo" node="r$jHpF3FkK" resolve="factory" />
+                  </node>
+                  <node concept="liA8E" id="1wwgtxzgA5z" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1wwgtxzgA5$" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1wwgtxziDgS" role="3cqZAp" />
         <node concept="3cpWs8" id="66GoTZ78nTc" role="3cqZAp">
           <node concept="3cpWsn" id="66GoTZ78nTd" role="3cpWs9">
             <property role="TrG5h" value="session" />

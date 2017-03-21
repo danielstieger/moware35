@@ -24,6 +24,7 @@
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.sandbox/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="x37d" ref="r:72cce30f-2a64-4fe3-8e44-7617cdd42782(org.modellwerkstatt.dataux.runtime.telemetrics)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -316,7 +317,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tm6S6" id="2xnCXJMoA3B" role="1B3o_S" />
       <node concept="3uibUv" id="2xnCXJMoAF$" role="1tU5fm">
-        <ref role="3uigEE" node="7RHNXGyQCR2" resolve="ZMHmtlFragments" />
+        <ref role="3uigEE" node="7RHNXGyQCR2" resolve="ZMHtmlFragments" />
       </node>
     </node>
     <node concept="2tJIrI" id="7RHNXGyQGcN" role="jymVt" />
@@ -373,7 +374,7 @@
           <node concept="37vLTI" id="2xnCXJMoLAr" role="3clFbG">
             <node concept="2ShNRf" id="2xnCXJMoLSr" role="37vLTx">
               <node concept="1pGfFk" id="2xnCXJMoLCN" role="2ShVmc">
-                <ref role="37wK5l" node="6eUMu2emZkY" resolve="ZMHmtlFragments" />
+                <ref role="37wK5l" node="6eUMu2emZkY" resolve="ZMHtmlFragments" />
                 <node concept="2OqwBi" id="2xnCXJMoMz3" role="37wK5m">
                   <node concept="37vLTw" id="2qrl3a2nO2D" role="2Oq$k0">
                     <ref role="3cqZAo" to="1e0c:69JiVbyW3nO" resolve="defaulTrans" />
@@ -431,6 +432,56 @@
               <ref role="37wK5l" node="2xnCXJMoQzr" resolve="ZMLandingPage" />
               <node concept="37vLTw" id="2xnCXJMq6F_" role="37wK5m">
                 <ref role="3cqZAo" node="2xnCXJMoAVj" resolve="htmlFragments" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1wwgtxzhBqx" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="createLoginController" />
+      <node concept="37vLTG" id="1wwgtxzhBqy" role="3clF46">
+        <property role="TrG5h" value="genApp" />
+        <node concept="3uibUv" id="1wwgtxzhBqz" role="1tU5fm">
+          <ref role="3uigEE" to="yg8v:Y3fiVK$o2n" resolve="IGenAppUiModule" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1wwgtxzhBq$" role="3clF46">
+        <property role="TrG5h" value="regHelper" />
+        <node concept="3uibUv" id="1wwgtxzhBq_" role="1tU5fm">
+          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1wwgtxzhBqA" role="3clF46">
+        <property role="TrG5h" value="username" />
+        <node concept="17QB3L" id="1wwgtxzhBqB" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1wwgtxzhBqC" role="3clF46">
+        <property role="TrG5h" value="requestHostName" />
+        <node concept="17QB3L" id="1wwgtxzhBqD" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="1wwgtxzhBqE" role="3clF45">
+        <ref role="3uigEE" to="tea8:1wwgtxzdy3N" resolve="IH2Controller" />
+      </node>
+      <node concept="3Tm1VV" id="1wwgtxzhBqF" role="1B3o_S" />
+      <node concept="3clFbS" id="1wwgtxzhBqI" role="3clF47">
+        <node concept="3clFbF" id="1wwgtxzhBML" role="3cqZAp">
+          <node concept="2ShNRf" id="1wwgtxzhBMJ" role="3clFbG">
+            <node concept="1pGfFk" id="1wwgtxzhCgr" role="2ShVmc">
+              <ref role="37wK5l" to="tea8:1wwgtxzgbAC" resolve="H2ZMAuthentication" />
+              <node concept="Xjq3P" id="1wwgtxzhDKQ" role="37wK5m" />
+              <node concept="37vLTw" id="1wwgtxzhDQf" role="37wK5m">
+                <ref role="3cqZAo" node="1wwgtxzhBqy" resolve="genApp" />
+              </node>
+              <node concept="37vLTw" id="1wwgtxzhE32" role="37wK5m">
+                <ref role="3cqZAo" node="1wwgtxzhBq$" resolve="regHelper" />
+              </node>
+              <node concept="37vLTw" id="1wwgtxzhEfV" role="37wK5m">
+                <ref role="3cqZAo" node="1wwgtxzhBqA" resolve="username" />
+              </node>
+              <node concept="37vLTw" id="1wwgtxzhEsu" role="37wK5m">
+                <ref role="3cqZAo" node="1wwgtxzhBqC" resolve="requestHostName" />
               </node>
             </node>
           </node>
@@ -709,7 +760,7 @@
     </node>
   </node>
   <node concept="312cEu" id="7RHNXGyQCR2">
-    <property role="TrG5h" value="ZMHmtlFragments" />
+    <property role="TrG5h" value="ZMHtmlFragments" />
     <node concept="Wx3nA" id="yYLpwAd$gQ" role="jymVt">
       <property role="TrG5h" value="DEFAULT_COLOR" />
       <property role="3TUv4t" value="true" />
@@ -949,7 +1000,7 @@
       <node concept="37vLTG" id="4Rlyz3E7SBw" role="3clF46">
         <property role="TrG5h" value="client" />
         <node concept="3uibUv" id="5pIRrzlbW_4" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ApplicationLoader.HttpClientType" />
+          <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ZMAuthentication.HttpClientType" />
         </node>
       </node>
       <node concept="37vLTG" id="3VF1NMV7Skr" role="3clF46">
@@ -1258,7 +1309,7 @@
           </node>
           <node concept="3clFbC" id="4Rlyz3E8Oss" role="3clFbw">
             <node concept="Rm8GO" id="5pIRrzlc2fr" role="3uHU7w">
-              <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ApplicationLoader.HttpClientType" />
+              <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMAuthentication.HttpClientType" />
               <ref role="Rm8GQ" to="tea8:4Rlyz3E5tAm" resolve="ZEBRA_EB" />
             </node>
             <node concept="37vLTw" id="4Rlyz3E8I3y" role="3uHU7B">
@@ -1268,7 +1319,7 @@
           <node concept="3eNFk2" id="4Rlyz3E8S4J" role="3eNLev">
             <node concept="3clFbC" id="4Rlyz3E8SGa" role="3eO9$A">
               <node concept="Rm8GO" id="5pIRrzlc1lK" role="3uHU7w">
-                <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ApplicationLoader.HttpClientType" />
+                <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMAuthentication.HttpClientType" />
                 <ref role="Rm8GQ" to="tea8:4Rlyz3E5v_q" resolve="HONEYWELL_EB" />
               </node>
               <node concept="37vLTw" id="4Rlyz3E8SsB" role="3uHU7B">
@@ -11580,7 +11631,7 @@
       <node concept="37vLTG" id="4Rlyz3E7X8m" role="3clF46">
         <property role="TrG5h" value="client" />
         <node concept="3uibUv" id="4Rlyz3E7XrD" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ApplicationLoader.HttpClientType" />
+          <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ZMAuthentication.HttpClientType" />
         </node>
       </node>
       <node concept="37vLTG" id="3VF1NMV7ob4" role="3clF46">
@@ -15938,7 +15989,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="kA5Khwgqmx" role="1B3o_S" />
       <node concept="3uibUv" id="kA5KhwgqQd" role="1tU5fm">
-        <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ApplicationLoader.HttpClientType" />
+        <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ZMAuthentication.HttpClientType" />
       </node>
     </node>
     <node concept="312cEg" id="2xnCXJMjPgx" role="jymVt">
@@ -15987,7 +16038,7 @@
       <node concept="37vLTG" id="2xnCXJMjJlH" role="3clF46">
         <property role="TrG5h" value="type" />
         <node concept="3uibUv" id="2xnCXJMjJmN" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ApplicationLoader.HttpClientType" />
+          <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ZMAuthentication.HttpClientType" />
         </node>
       </node>
       <node concept="37vLTG" id="2xnCXJMp_vE" role="3clF46">
