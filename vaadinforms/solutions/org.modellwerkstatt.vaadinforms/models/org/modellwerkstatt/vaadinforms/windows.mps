@@ -29239,8 +29239,48 @@
   <node concept="312cEu" id="30SScok$OcR">
     <property role="TrG5h" value="VPageCssStyler" />
     <node concept="2tJIrI" id="30SScok$OdO" role="jymVt" />
-    <node concept="2tJIrI" id="30SScok$Oe6" role="jymVt" />
+    <node concept="2tJIrI" id="3q7BeajdbHO" role="jymVt" />
+    <node concept="2tJIrI" id="3q7BeajdbIs" role="jymVt" />
+    <node concept="2tJIrI" id="3q7BeajdbIW" role="jymVt" />
+    <node concept="3clFb_" id="3q7Beajd1aF" role="jymVt">
+      <property role="TrG5h" value="addTileButton" />
+      <node concept="37vLTG" id="3q7Beajd1c6" role="3clF46">
+        <property role="TrG5h" value="buttonStyleName" />
+        <node concept="17QB3L" id="3q7Beajd1gv" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="3q7Beajd1h7" role="3clF46">
+        <property role="TrG5h" value="color" />
+        <node concept="17QB3L" id="3q7Beajd1hO" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="3q7Beajd1aH" role="3clF45" />
+      <node concept="3Tm1VV" id="3q7Beajd1aI" role="1B3o_S" />
+      <node concept="3clFbS" id="3q7Beajd1aJ" role="3clF47">
+        <node concept="3clFbH" id="3q7BeajdbHC" role="3cqZAp" />
+        <node concept="3clFbH" id="3q7BeajdbHE" role="3cqZAp" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="30SScok$Oe_" role="jymVt" />
+    <node concept="3clFb_" id="3q7Beajd1eS" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="ensureCellStyleAvailable" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="37vLTG" id="3q7Beajd1fm" role="3clF46">
+        <property role="TrG5h" value="color" />
+        <node concept="17QB3L" id="3q7Beajd1fR" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="3q7Beajd1eV" role="3clF47">
+        <node concept="3SKdUt" id="3q7BeajdbGQ" role="3cqZAp">
+          <node concept="3SKdUq" id="3q7BeajdbGR" role="3SKWNk">
+            <property role="3SKdUp" value="create maps of color" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3q7BeajdbHt" role="3cqZAp" />
+      </node>
+      <node concept="3Tm1VV" id="3q7Beajd1dw" role="1B3o_S" />
+      <node concept="17QB3L" id="3q7BeajdbDQ" role="3clF45" />
+    </node>
     <node concept="2tJIrI" id="30SScok$OdQ" role="jymVt" />
     <node concept="3Tm1VV" id="30SScok$OcS" role="1B3o_S" />
   </node>
