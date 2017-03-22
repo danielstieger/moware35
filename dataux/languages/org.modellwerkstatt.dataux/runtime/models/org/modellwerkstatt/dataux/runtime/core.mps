@@ -15818,6 +15818,11 @@
       <node concept="3Tmbuc" id="2ppo89mghX$" role="1B3o_S" />
       <node concept="17QB3L" id="2ppo89mgina" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="3VmhxxuJSMY" role="jymVt">
+      <property role="TrG5h" value="kafkaInfo" />
+      <node concept="3Tmbuc" id="3VmhxxuJSMZ" role="1B3o_S" />
+      <node concept="17QB3L" id="3VmhxxuJSN0" role="1tU5fm" />
+    </node>
     <node concept="312cEg" id="5YG5DD8WVGw" role="jymVt">
       <property role="TrG5h" value="clientTelemetrics" />
       <node concept="3Tmbuc" id="5YG5DD8WW8c" role="1B3o_S" />
@@ -15898,6 +15903,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3VmhxxuJSKM" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="5YG5DD8XtN3" role="jymVt" />
@@ -15921,28 +15927,68 @@
             <node concept="37vLTw" id="2ppo89mgqTD" role="37vLTJ">
               <ref role="3cqZAo" node="2ppo89mghXz" resolve="userInfo" />
             </node>
-            <node concept="3cpWs3" id="2ppo89mgg_F" role="37vLTx">
-              <node concept="3cpWs3" id="2ppo89mggog" role="3uHU7B">
-                <node concept="2OqwBi" id="2ppo89mgggf" role="3uHU7B">
-                  <node concept="37vLTw" id="2ppo89mgr2r" role="2Oq$k0">
+            <node concept="3cpWs3" id="3VmhxxuJPna" role="37vLTx">
+              <node concept="Xl_RD" id="3VmhxxuJSHR" role="3uHU7w">
+                <property role="Xl_RC" value=")" />
+              </node>
+              <node concept="3cpWs3" id="2ppo89mgg_F" role="3uHU7B">
+                <node concept="3cpWs3" id="2ppo89mggog" role="3uHU7B">
+                  <node concept="2OqwBi" id="2ppo89mgggf" role="3uHU7B">
+                    <node concept="37vLTw" id="2ppo89mgr2r" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2ppo89mgq$1" resolve="userEnv" />
+                    </node>
+                    <node concept="liA8E" id="2ppo89mggkI" role="2OqNvi">
+                      <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="2ppo89mggvW" role="3uHU7w">
+                    <property role="Xl_RC" value=" (" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="2ppo89mggLk" role="3uHU7w">
+                  <node concept="37vLTw" id="2ppo89mgr4Y" role="2Oq$k0">
                     <ref role="3cqZAo" node="2ppo89mgq$1" resolve="userEnv" />
                   </node>
-                  <node concept="liA8E" id="2ppo89mggkI" role="2OqNvi">
-                    <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                  <node concept="liA8E" id="2ppo89mggQy" role="2OqNvi">
+                    <ref role="37wK5l" to="w7gk:47yM9mP3xmG" resolve="getUserId" />
                   </node>
                 </node>
-                <node concept="Xl_RD" id="2ppo89mggvW" role="3uHU7w">
-                  <property role="Xl_RC" value=" / " />
-                </node>
               </node>
-              <node concept="2OqwBi" id="2ppo89mggLk" role="3uHU7w">
-                <node concept="37vLTw" id="2ppo89mgr4Y" role="2Oq$k0">
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3VmhxxuJTuY" role="3cqZAp">
+          <node concept="37vLTI" id="3VmhxxuJT$1" role="3clFbG">
+            <node concept="3cpWs3" id="3VmhxxuJTWz" role="37vLTx">
+              <node concept="2OqwBi" id="3VmhxxuJU34" role="3uHU7w">
+                <node concept="37vLTw" id="3VmhxxuJU0x" role="2Oq$k0">
                   <ref role="3cqZAo" node="2ppo89mgq$1" resolve="userEnv" />
                 </node>
-                <node concept="liA8E" id="2ppo89mggQy" role="2OqNvi">
-                  <ref role="37wK5l" to="w7gk:47yM9mP3xmG" resolve="getUserId" />
+                <node concept="liA8E" id="3VmhxxuJU7g" role="2OqNvi">
+                  <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
                 </node>
               </node>
+              <node concept="3cpWs3" id="3VmhxxuJTQ1" role="3uHU7B">
+                <node concept="3cpWs3" id="3VmhxxuJTDS" role="3uHU7B">
+                  <node concept="Xl_RD" id="3VmhxxuJTBw" role="3uHU7B">
+                    <property role="Xl_RC" value="" />
+                  </node>
+                  <node concept="2OqwBi" id="3VmhxxuJTIK" role="3uHU7w">
+                    <node concept="37vLTw" id="3VmhxxuJTGF" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2ppo89mgq$1" resolve="userEnv" />
+                    </node>
+                    <node concept="liA8E" id="3VmhxxuJTM2" role="2OqNvi">
+                      <ref role="37wK5l" to="w7gk:47yM9mP3xmG" resolve="getUserId" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="3VmhxxuJTR4" role="3uHU7w">
+                  <property role="Xl_RC" value=" $ " />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="3VmhxxuJTuW" role="37vLTJ">
+              <ref role="3cqZAo" node="3VmhxxuJSMY" resolve="kafkaInfo" />
             </node>
           </node>
         </node>
