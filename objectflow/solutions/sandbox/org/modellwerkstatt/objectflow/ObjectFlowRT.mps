@@ -40395,31 +40395,6 @@
       <node concept="3clFbS" id="6BKPvpDdCG6" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="6BKPvpDdC5P" role="jymVt" />
-    <node concept="3clFb_" id="6A6XM2S8eU0" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isHotKeyToForward" />
-      <node concept="3clFbS" id="6A6XM2S8eU3" role="3clF47" />
-      <node concept="3Tm1VV" id="6A6XM2S8eU4" role="1B3o_S" />
-      <node concept="10P_77" id="6A6XM2S8eSz" role="3clF45" />
-      <node concept="37vLTG" id="6A6XM2S8kKb" role="3clF46">
-        <property role="TrG5h" value="keyName" />
-        <node concept="17QB3L" id="6A6XM2S8kKa" role="1tU5fm" />
-      </node>
-    </node>
-    <node concept="3clFb_" id="6A6XM2S8f0Q" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="needsCrtl" />
-      <node concept="37vLTG" id="6A6XM2S8kL9" role="3clF46">
-        <property role="TrG5h" value="keyName" />
-        <node concept="17QB3L" id="6A6XM2S8kMp" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="6A6XM2S8f0T" role="3clF47" />
-      <node concept="3Tm1VV" id="6A6XM2S8f0U" role="1B3o_S" />
-      <node concept="10P_77" id="6A6XM2S8eZn" role="3clF45" />
-    </node>
-    <node concept="2tJIrI" id="6A6XM2S8eWT" role="jymVt" />
     <node concept="3clFb_" id="7MWNCzY1Tm5" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isSilentLogging" />

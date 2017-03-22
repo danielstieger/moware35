@@ -123,6 +123,7 @@
 		.mo-summaryline {
 			line-height: 1em;
 			padding-right: ($v-unit-size / 4);
+			padding-left: ($v-unit-size / 4);
 		}
 	
 		/* .v-textfield-focus {
@@ -171,6 +172,8 @@
 		color: #000000 !important;
 	}
 	
-	
+	.mo-tile-layout {
+		padding: 20px;	
+	}
 }
 

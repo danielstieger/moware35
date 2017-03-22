@@ -13016,19 +13016,19 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .mo-small-mrg.v-margin-left {
-	padding-left: 10px;
+	padding-left: 9px;
 }
 
 .moware .mo-small-mrg.v-margin-right {
-	padding-right: 10px;
+	padding-right: 9px;
 }
 
 .moware .mo-small-mrg.v-margin-top {
-	padding-top: 10px;
+	padding-top: 9px;
 }
 
 .moware .mo-small-mrg.v-margin-bottom {
-	padding-bottom: 10px;
+	padding-bottom: 9px;
 }
 
 .moware .mo-bottombtnpane-mrg {
@@ -13153,6 +13153,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .mo-table .mo-summaryline {
 	line-height: 1em;
 	padding-right: 6px;
+	padding-left: 6px;
 }
 
 .moware .mo-table input {
@@ -13182,4 +13183,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-textfield:disabled, .moware .v-filterselect-input:disabled {
 	color: #000000 !important;
+}
+
+.moware .mo-tile-layout {
+	padding: 20px;
 }
