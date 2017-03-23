@@ -9019,6 +9019,21 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="40OHFM6mZYx" role="jymVt">
+      <property role="TrG5h" value="getColorMap" />
+      <node concept="3rvAFt" id="40OHFM6n1oo" role="3clF45">
+        <node concept="17QB3L" id="40OHFM6n1EA" role="3rvQeY" />
+        <node concept="17QB3L" id="40OHFM6n1EK" role="3rvSg0" />
+      </node>
+      <node concept="3Tm1VV" id="40OHFM6mZY$" role="1B3o_S" />
+      <node concept="3clFbS" id="40OHFM6mZY_" role="3clF47">
+        <node concept="3clFbF" id="40OHFM6n1FP" role="3cqZAp">
+          <node concept="37vLTw" id="40OHFM6n1FO" role="3clFbG">
+            <ref role="3cqZAo" node="ao4XGT7_sX" resolve="colorMap" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="1oA5m_ZtoDc" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="isRightAligned" />
