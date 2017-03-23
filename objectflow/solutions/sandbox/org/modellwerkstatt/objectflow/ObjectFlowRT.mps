@@ -40,6 +40,7 @@
     <import index="z60i" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.awt(JDK/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
+    <import index="zf81" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net(JDK/)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" implicit="true" />
     <import index="9n95" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management.remote(JDK/)" implicit="true" />
     <import index="t54d" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/)" implicit="true" />
@@ -34894,6 +34895,18 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="2xJao4Wp9kZ" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="openUrl" />
+      <node concept="3clFbS" id="2xJao4Wp9l2" role="3clF47" />
+      <node concept="3Tm1VV" id="2xJao4Wp9l3" role="1B3o_S" />
+      <node concept="3cqZAl" id="2xJao4Wp9iC" role="3clF45" />
+      <node concept="37vLTG" id="2xJao4Wp9ru" role="3clF46">
+        <property role="TrG5h" value="url" />
+        <node concept="17QB3L" id="2xJao4Wp9rt" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="5XtsZSXKxWA" role="jymVt" />
     <node concept="3clFb_" id="6j4XqQEzQUR" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -37181,7 +37194,7 @@
               <node concept="YS8fn" id="6j4XqQEtafv" role="3cqZAp">
                 <node concept="2ShNRf" id="6j4XqQEtafw" role="YScLw">
                   <node concept="1pGfFk" id="6j4XqQEtafx" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
                     <node concept="37vLTw" id="6j4XqQEtafz" role="37wK5m">
                       <ref role="3cqZAo" node="6j4XqQEtafs" resolve="fop" />
                     </node>
@@ -37561,6 +37574,84 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2xJao4Ws90A" role="jymVt" />
+    <node concept="3clFb_" id="2xJao4Wsakm" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="openUrl" />
+      <node concept="3Tm1VV" id="2xJao4Wsako" role="1B3o_S" />
+      <node concept="3cqZAl" id="2xJao4Wsakp" role="3clF45" />
+      <node concept="37vLTG" id="2xJao4Wsakq" role="3clF46">
+        <property role="TrG5h" value="url" />
+        <node concept="17QB3L" id="2xJao4Wsakr" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2xJao4Wsaks" role="3clF47">
+        <node concept="SfApY" id="2xJao4WscEj" role="3cqZAp">
+          <node concept="3clFbS" id="2xJao4WscEl" role="SfCbr">
+            <node concept="3clFbF" id="2xJao4WsbRg" role="3cqZAp">
+              <node concept="2OqwBi" id="2xJao4WsbSX" role="3clFbG">
+                <node concept="2YIFZM" id="2xJao4WsbS6" role="2Oq$k0">
+                  <ref role="37wK5l" to="z60i:~Desktop.getDesktop():java.awt.Desktop" resolve="getDesktop" />
+                  <ref role="1Pybhc" to="z60i:~Desktop" resolve="Desktop" />
+                </node>
+                <node concept="liA8E" id="2xJao4WsbUh" role="2OqNvi">
+                  <ref role="37wK5l" to="z60i:~Desktop.browse(java.net.URI):void" resolve="browse" />
+                  <node concept="2ShNRf" id="2xJao4WschI" role="37wK5m">
+                    <node concept="1pGfFk" id="2xJao4Wsch7" role="2ShVmc">
+                      <ref role="37wK5l" to="zf81:~URI.&lt;init&gt;(java.lang.String)" resolve="URI" />
+                      <node concept="37vLTw" id="2xJao4WscpD" role="37wK5m">
+                        <ref role="3cqZAo" node="2xJao4Wsakq" resolve="url" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="2xJao4WscSf" role="TEbGg">
+            <node concept="3clFbS" id="2xJao4WscSg" role="TDEfX">
+              <node concept="YS8fn" id="2xJao4WssPt" role="3cqZAp">
+                <node concept="2ShNRf" id="2xJao4WssSU" role="YScLw">
+                  <node concept="1pGfFk" id="2xJao4WstDe" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="2xJao4WstJm" role="37wK5m">
+                      <ref role="3cqZAo" node="2xJao4WscSh" resolve="e" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="2xJao4WscSh" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="2xJao4WscSi" role="1tU5fm">
+                <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="2xJao4Wsd_7" role="TEbGg">
+            <node concept="3clFbS" id="2xJao4Wsd_8" role="TDEfX">
+              <node concept="YS8fn" id="2xJao4WsumV" role="3cqZAp">
+                <node concept="2ShNRf" id="2xJao4Wsuq4" role="YScLw">
+                  <node concept="1pGfFk" id="2xJao4Wsva2" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="2xJao4WsvdC" role="37wK5m">
+                      <ref role="3cqZAo" node="2xJao4Wsd_9" resolve="e" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="2xJao4Wsd_9" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="2xJao4Wsd_a" role="1tU5fm">
+                <ref role="3uigEE" to="zf81:~URISyntaxException" resolve="URISyntaxException" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2xJao4WscvA" role="3cqZAp" />
       </node>
     </node>
     <node concept="3Tm1VV" id="6j4XqQEtaqc" role="1B3o_S" />
@@ -38858,6 +38949,18 @@
           </node>
         </node>
         <node concept="3clFbS" id="rOhwNxdiW2" role="3clF47" />
+      </node>
+      <node concept="3clFb_" id="2xJao4Wqw$n" role="jymVt">
+        <property role="1EzhhJ" value="false" />
+        <property role="2aFKle" value="false" />
+        <property role="TrG5h" value="openUrl" />
+        <node concept="3Tm1VV" id="2xJao4Wqw$p" role="1B3o_S" />
+        <node concept="3cqZAl" id="2xJao4Wqw$q" role="3clF45" />
+        <node concept="37vLTG" id="2xJao4Wqw$r" role="3clF46">
+          <property role="TrG5h" value="url" />
+          <node concept="17QB3L" id="2xJao4Wqw$s" role="1tU5fm" />
+        </node>
+        <node concept="3clFbS" id="2xJao4Wqw$t" role="3clF47" />
       </node>
       <node concept="3clFb_" id="rOhwNxdiW3" role="jymVt">
         <property role="1EzhhJ" value="false" />
