@@ -11835,11 +11835,11 @@
               <ref role="37wK5l" to="p18y:~Node.setStyle(java.lang.String):void" resolve="setStyle" />
               <node concept="3cpWs3" id="ao4XGSVBRW" role="37wK5m">
                 <node concept="Xl_RD" id="ao4XGSVBTM" role="3uHU7w">
-                  <property role="Xl_RC" value="; -fx-border-insets: 2;" />
+                  <property role="Xl_RC" value="; -fx-border-insets: 2 0 0 0;" />
                 </node>
                 <node concept="3cpWs3" id="ao4XGSVBLT" role="3uHU7B">
                   <node concept="Xl_RD" id="ao4XGSV$Oe" role="3uHU7B">
-                    <property role="Xl_RC" value="-fx-border-width: 2; -fx-border-color: " />
+                    <property role="Xl_RC" value="-fx-border-width: 2 0 0 0; -fx-border-color: " />
                   </node>
                   <node concept="37vLTw" id="ao4XGSVBOa" role="3uHU7w">
                     <ref role="3cqZAo" node="ao4XGSVyO9" resolve="color" />

@@ -78,7 +78,7 @@
     
     <init-param>
     	<param-name> useRemoteIpAddressforAuthentication </param-name>
-    	<param-value> true </param-value>
+    	<param-value> false </param-value>
     </init-param>
     
     <!-- DO NOT Enable server push

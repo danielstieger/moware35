@@ -2675,6 +2675,15 @@
         <node concept="10Nm6u" id="4ysbFF_K1vg" role="37wK5m" />
         <node concept="10Nm6u" id="4ysbFF_K1vh" role="37wK5m" />
       </node>
+      <node concept="QsSxf" id="gGnCBOHk0g" role="Qtgdg">
+        <property role="TrG5h" value="CMD_NOT_AVAILABLE" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
+        <node concept="Xl_RD" id="gGnCBOHkwK" role="37wK5m">
+          <property role="Xl_RC" value="Kommando nicht verfuegbar. API Fehler?" />
+        </node>
+        <node concept="10Nm6u" id="gGnCBOHkxP" role="37wK5m" />
+        <node concept="10Nm6u" id="gGnCBOHkyQ" role="37wK5m" />
+      </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
       <node concept="2tJIrI" id="3zf0S8jTrHW" role="jymVt" />
       <node concept="2tJIrI" id="4ysbFF_K0QT" role="jymVt" />

@@ -4916,16 +4916,17 @@
                               <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
                             </node>
                             <node concept="liA8E" id="4ysbFF_SbKB" role="2OqNvi">
-                              <ref role="37wK5l" to="1e0c:4ysbFF_RJ7m" resolve="startMainMenuCommandWithCustomParams" />
-                              <node concept="37vLTw" id="4ysbFF_SbNF" role="37wK5m">
-                                <ref role="3cqZAo" node="5hYsHqQ$F3e" resolve="act" />
+                              <ref role="37wK5l" to="1e0c:gGnCBOGKQO" resolve="startCommandByUriAndParam" />
+                              <node concept="37vLTw" id="gGnCBOHBUa" role="37wK5m">
+                                <ref role="3cqZAo" node="7r26jiNUtLg" resolve="toStartUri" />
                               </node>
-                              <node concept="37vLTw" id="4ysbFF_SbRq" role="37wK5m">
+                              <node concept="37vLTw" id="gGnCBOHC2G" role="37wK5m">
                                 <ref role="3cqZAo" node="4ysbFF_Sau$" resolve="customParam" />
                               </node>
                             </node>
                           </node>
                         </node>
+                        <node concept="3clFbH" id="gGnCBOHCaq" role="3cqZAp" />
                       </node>
                       <node concept="3y3z36" id="4ysbFF_SbhQ" role="3clFbw">
                         <node concept="10Nm6u" id="4ysbFF_Sbj6" role="3uHU7w" />
