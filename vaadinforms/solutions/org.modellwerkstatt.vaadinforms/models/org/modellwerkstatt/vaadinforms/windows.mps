@@ -27695,14 +27695,14 @@
       <node concept="3clFbS" id="5XtsZSXLpvo" role="3clF47">
         <node concept="3cpWs8" id="omQbG9QIVC" role="3cqZAp">
           <node concept="3cpWsn" id="omQbG9QIVD" role="3cpWs9">
-            <property role="TrG5h" value="acc" />
-            <node concept="3uibUv" id="omQbG9QIVE" role="1tU5fm">
-              <ref role="3uigEE" to="tk4x:~AbstractClientConnector" resolve="AbstractClientConnector" />
+            <property role="TrG5h" value="appInstance" />
+            <node concept="3uibUv" id="1pEW74ibDPI" role="1tU5fm">
+              <ref role="3uigEE" node="61_QXqSd29w" resolve="VApplicationInstance" />
             </node>
             <node concept="1eOMI4" id="omQbG9QIZK" role="33vP2m">
               <node concept="10QFUN" id="omQbG9QIZH" role="1eOMHV">
-                <node concept="3uibUv" id="omQbG9QJ0t" role="10QFUM">
-                  <ref role="3uigEE" to="tk4x:~AbstractClientConnector" resolve="AbstractClientConnector" />
+                <node concept="3uibUv" id="1pEW74ibDZe" role="10QFUM">
+                  <ref role="3uigEE" node="61_QXqSd29w" resolve="VApplicationInstance" />
                 </node>
                 <node concept="37vLTw" id="omQbG9QJ1q" role="10QFUP">
                   <ref role="3cqZAo" node="5XtsZSXLpv9" resolve="tecHandle" />
@@ -27711,7 +27711,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="omQbG9QJ3h" role="3cqZAp" />
         <node concept="3cpWs8" id="omQbG9QJ$e" role="3cqZAp">
           <node concept="3cpWsn" id="omQbG9QJ$f" role="3cpWs9">
             <property role="TrG5h" value="printService" />
@@ -27721,8 +27720,13 @@
             <node concept="2ShNRf" id="omQbG9QJDq" role="33vP2m">
               <node concept="1pGfFk" id="omQbG9QJDi" role="2ShVmc">
                 <ref role="37wK5l" node="omQbG9Q5Cc" resolve="VWebClientUserPrintService" />
-                <node concept="37vLTw" id="omQbG9QJEa" role="37wK5m">
-                  <ref role="3cqZAo" node="omQbG9QIVD" resolve="acc" />
+                <node concept="2OqwBi" id="1pEW74ibEmw" role="37wK5m">
+                  <node concept="37vLTw" id="omQbG9QJEa" role="2Oq$k0">
+                    <ref role="3cqZAo" node="omQbG9QIVD" resolve="appInstance" />
+                  </node>
+                  <node concept="liA8E" id="1pEW74ibVxO" role="2OqNvi">
+                    <ref role="37wK5l" node="1pEW74ibOkY" resolve="getmainUserSessionUi" />
+                  </node>
                 </node>
                 <node concept="2OqwBi" id="omQbG9QXlB" role="37wK5m">
                   <node concept="Xjq3P" id="omQbG9QXkA" role="2Oq$k0" />
@@ -27802,10 +27806,10 @@
   <node concept="312cEu" id="omQbG9Q5_u">
     <property role="TrG5h" value="VWebClientUserPrintService" />
     <node concept="312cEg" id="omQbG9Qvfy" role="jymVt">
-      <property role="TrG5h" value="acc" />
+      <property role="TrG5h" value="currentUi" />
       <node concept="3Tmbuc" id="omQbG9Qvfz" role="1B3o_S" />
-      <node concept="3uibUv" id="omQbG9Qvf$" role="1tU5fm">
-        <ref role="3uigEE" to="tk4x:~AbstractClientConnector" resolve="AbstractClientConnector" />
+      <node concept="3uibUv" id="1pEW74ibKuW" role="1tU5fm">
+        <ref role="3uigEE" to="waq:~UI" resolve="UI" />
       </node>
     </node>
     <node concept="312cEg" id="omQbG9Q$PN" role="jymVt">
@@ -27818,9 +27822,9 @@
     <node concept="2tJIrI" id="omQbG9Qtph" role="jymVt" />
     <node concept="3clFbW" id="omQbG9Q5Cc" role="jymVt">
       <node concept="37vLTG" id="omQbG9QvgP" role="3clF46">
-        <property role="TrG5h" value="acc" />
-        <node concept="3uibUv" id="omQbG9Qvme" role="1tU5fm">
-          <ref role="3uigEE" to="tk4x:~AbstractClientConnector" resolve="AbstractClientConnector" />
+        <property role="TrG5h" value="cUi" />
+        <node concept="3uibUv" id="1pEW74ibL4o" role="1tU5fm">
+          <ref role="3uigEE" to="waq:~UI" resolve="UI" />
         </node>
       </node>
       <node concept="37vLTG" id="omQbG9QzWS" role="3clF46">
@@ -27880,12 +27884,12 @@
         <node concept="3clFbF" id="NaP_iXwUH0" role="3cqZAp">
           <node concept="37vLTI" id="NaP_iXwUZ4" role="3clFbG">
             <node concept="37vLTw" id="NaP_iXwV43" role="37vLTx">
-              <ref role="3cqZAo" node="omQbG9QvgP" resolve="acc" />
+              <ref role="3cqZAo" node="omQbG9QvgP" resolve="cUi" />
             </node>
             <node concept="2OqwBi" id="NaP_iXwUIe" role="37vLTJ">
               <node concept="Xjq3P" id="NaP_iXwUGY" role="2Oq$k0" />
               <node concept="2OwXpG" id="NaP_iXwUQ4" role="2OqNvi">
-                <ref role="2Oxat5" node="omQbG9Qvfy" resolve="acc" />
+                <ref role="2Oxat5" node="omQbG9Qvfy" resolve="currentUi" />
               </node>
             </node>
           </node>
@@ -27977,13 +27981,8 @@
         <node concept="3clFbF" id="omQbG9Qw1v" role="3cqZAp">
           <node concept="2OqwBi" id="omQbG9Qw1w" role="3clFbG">
             <node concept="2OqwBi" id="omQbG9Qw1x" role="2Oq$k0">
-              <node concept="2OqwBi" id="omQbG9Qw1y" role="2Oq$k0">
-                <node concept="liA8E" id="omQbG9Qw1z" role="2OqNvi">
-                  <ref role="37wK5l" to="tk4x:~AbstractClientConnector.getUI():com.vaadin.ui.UI" resolve="getUI" />
-                </node>
-                <node concept="37vLTw" id="omQbG9Qw1$" role="2Oq$k0">
-                  <ref role="3cqZAo" node="omQbG9Qvfy" resolve="acc" />
-                </node>
+              <node concept="37vLTw" id="1pEW74ibKWb" role="2Oq$k0">
+                <ref role="3cqZAo" node="omQbG9Qvfy" resolve="currentUi" />
               </node>
               <node concept="liA8E" id="omQbG9Qw1_" role="2OqNvi">
                 <ref role="37wK5l" to="waq:~UI.getPage():com.vaadin.server.Page" resolve="getPage" />
@@ -29637,7 +29636,20 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="2xJao4Wxu1T" role="jymVt" />
+    <node concept="3clFb_" id="1pEW74ibOkY" role="jymVt">
+      <property role="TrG5h" value="getmainUserSessionUi" />
+      <node concept="3uibUv" id="1pEW74ibUvG" role="3clF45">
+        <ref role="3uigEE" node="6MOvunDkLlD" resolve="VUserSessionUI" />
+      </node>
+      <node concept="3Tm1VV" id="1pEW74ibOl1" role="1B3o_S" />
+      <node concept="3clFbS" id="1pEW74ibOl2" role="3clF47">
+        <node concept="3clFbF" id="1pEW74ibPkU" role="3cqZAp">
+          <node concept="37vLTw" id="1pEW74ibPkT" role="3clFbG">
+            <ref role="3cqZAo" node="7b0XfCDHBhY" resolve="mainUserSessionUI" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="61_QXqSd2r6" role="jymVt">
       <property role="TrG5h" value="gcClean" />
       <node concept="3cqZAl" id="61_QXqSd2r7" role="3clF45" />

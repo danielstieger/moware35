@@ -46,6 +46,12 @@
         <child id="1173175577737" name="index" index="AHEQo" />
         <child id="1173175590490" name="array" index="AHHXb" />
       </concept>
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
       <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
         <property id="1224848525476" name="isDeprecated" index="IEkAT" />
@@ -218,6 +224,9 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
+      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
+        <reference id="1116615189566" name="classifier" index="3VsUkX" />
+      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
         <property id="1200397540847" name="charConstant" index="1XhdNS" />
@@ -297,13 +306,6 @@
         <ref role="3uigEE" to="9vh7:~MBeanServer" resolve="MBeanServer" />
       </node>
     </node>
-    <node concept="312cEg" id="3CnNtH_0$H8" role="jymVt">
-      <property role="TrG5h" value="kafkaLogger" />
-      <node concept="3Tm6S6" id="3CnNtH_0$H9" role="1B3o_S" />
-      <node concept="3uibUv" id="3CnNtH_0_zf" role="1tU5fm">
-        <ref role="3uigEE" node="3CnNtH_0mBF" resolve="KafkaLogger" />
-      </node>
-    </node>
     <node concept="312cEg" id="2yuEF6qaF3t" role="jymVt">
       <property role="TrG5h" value="appTelemetrics" />
       <node concept="3Tm6S6" id="2yuEF6qaF3u" role="1B3o_S" />
@@ -322,7 +324,14 @@
       <node concept="17QB3L" id="64g0II1$LMI" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="31dwTLEo1mD" role="jymVt" />
-    <node concept="2tJIrI" id="31dwTLEo1Xl" role="jymVt" />
+    <node concept="312cEg" id="3CnNtH_0$H8" role="jymVt">
+      <property role="TrG5h" value="kafkaLogger" />
+      <node concept="3Tm6S6" id="3CnNtH_0$H9" role="1B3o_S" />
+      <node concept="3uibUv" id="3CnNtH_0_zf" role="1tU5fm">
+        <ref role="3uigEE" node="3CnNtH_0mBF" resolve="KafkaLogger" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1pEW74ibrBQ" role="jymVt" />
     <node concept="3clFbW" id="2yuEF6q8ESR" role="jymVt">
       <node concept="37vLTG" id="2yuEF6q8SwJ" role="3clF46">
         <property role="TrG5h" value="appBehaviourFqName" />
@@ -562,7 +571,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3CnNtH_5Sfy" role="3cqZAp" />
             <node concept="3clFbF" id="3CnNtH_1t06" role="3cqZAp">
               <node concept="2OqwBi" id="3CnNtH_1t2O" role="3clFbG">
                 <node concept="37vLTw" id="3CnNtH_1t04" role="2Oq$k0">
@@ -573,6 +581,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="1pEW74ibdSe" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="1i8FajkkPPd" role="TEbGg">
             <node concept="3cpWsn" id="1i8FajkkPPe" role="TDEfY">
@@ -685,7 +694,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="2yuEF6qa_Sb" role="jymVt">
-      <property role="TrG5h" value="registerContainer" />
+      <property role="TrG5h" value="DEP__registerContainer" />
       <node concept="37vLTG" id="2yuEF6qaA$d" role="3clF46">
         <property role="TrG5h" value="userTelemtrics" />
         <node concept="3uibUv" id="31dwTLE$qNM" role="1tU5fm">
@@ -909,9 +918,12 @@
           </node>
         </node>
       </node>
+      <node concept="2AHcQZ" id="1pEW74ibleE" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
     </node>
     <node concept="3clFb_" id="2yuEF6qaAWF" role="jymVt">
-      <property role="TrG5h" value="unregisterContainer" />
+      <property role="TrG5h" value="DEP__unregisterContainer" />
       <node concept="37vLTG" id="64d_Sur_2XW" role="3clF46">
         <property role="TrG5h" value="userTelem" />
         <node concept="3uibUv" id="31dwTLE$rjV" role="1tU5fm">
@@ -1098,6 +1110,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="2AHcQZ" id="1pEW74ibjGp" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="2tJIrI" id="31dwTLEoh_i" role="jymVt" />
@@ -1492,6 +1507,11 @@
       <node concept="3clFbS" id="3CnNtH_0Dda" role="3clF47">
         <node concept="SfApY" id="3CnNtH_5SDU" role="3cqZAp">
           <node concept="3clFbS" id="3CnNtH_5SDW" role="SfCbr">
+            <node concept="3SKdUt" id="1pEW74ic1v$" role="3cqZAp">
+              <node concept="3SKdUq" id="1pEW74ic1vA" role="3SKWNk">
+                <property role="3SKdUp" value="ignore exception here to allow application to run without problems. " />
+              </node>
+            </node>
             <node concept="3clFbF" id="3CnNtH_0FUZ" role="3cqZAp">
               <node concept="2OqwBi" id="3CnNtH_0FVU" role="3clFbG">
                 <node concept="37vLTw" id="3CnNtH_0FUY" role="2Oq$k0">
@@ -1508,6 +1528,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="1pEW74ic1$5" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="3CnNtH_5SDX" role="TEbGg">
             <node concept="3cpWsn" id="3CnNtH_5SDZ" role="TDEfY">
@@ -1517,18 +1538,23 @@
               </node>
             </node>
             <node concept="3clFbS" id="3CnNtH_5SE3" role="TDEfX">
-              <node concept="3SKdUt" id="3CnNtH_5TJq" role="3cqZAp">
-                <node concept="3SKdUq" id="3CnNtH_5TJs" role="3SKWNk">
-                  <property role="3SKdUp" value="ignore" />
-                </node>
-              </node>
-              <node concept="3clFbF" id="3CnNtH_5SZ5" role="3cqZAp">
-                <node concept="2OqwBi" id="3CnNtH_5SZR" role="3clFbG">
-                  <node concept="37vLTw" id="3CnNtH_5SZ4" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3CnNtH_5SDZ" resolve="ex" />
+              <node concept="3clFbF" id="1pEW74ibv$o" role="3cqZAp">
+                <node concept="2OqwBi" id="1pEW74ibweK" role="3clFbG">
+                  <node concept="2YIFZM" id="1pEW74ibvAb" role="2Oq$k0">
+                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                    <node concept="3VsKOn" id="1pEW74ibvVk" role="37wK5m">
+                      <ref role="3VsUkX" node="2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="3CnNtH_5T1g" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace():void" resolve="printStackTrace" />
+                  <node concept="liA8E" id="1pEW74ibwzJ" role="2OqNvi">
+                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object,java.lang.Throwable):void" resolve="error" />
+                    <node concept="Xl_RD" id="1pEW74ic3O4" role="37wK5m">
+                      <property role="Xl_RC" value="Error while logging on kafka Logger" />
+                    </node>
+                    <node concept="37vLTw" id="1pEW74ibw_w" role="37wK5m">
+                      <ref role="3cqZAo" node="3CnNtH_5SDZ" resolve="ex" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1544,8 +1570,20 @@
       <node concept="3clFbS" id="2yuEF6qa7Zi" role="3clF47">
         <node concept="SfApY" id="2yuEF6qacTG" role="3cqZAp">
           <node concept="3clFbS" id="2yuEF6qacTL" role="SfCbr">
+            <node concept="3clFbH" id="1pEW74ibe1v" role="3cqZAp" />
             <node concept="3clFbJ" id="3CnNtH_1w5f" role="3cqZAp">
-              <node concept="3clFbS" id="3CnNtH_1w5h" role="3clFbx" />
+              <node concept="3clFbS" id="3CnNtH_1w5h" role="3clFbx">
+                <node concept="3clFbF" id="3CnNtH_0_Ej" role="3cqZAp">
+                  <node concept="2OqwBi" id="3CnNtH_0Ae7" role="3clFbG">
+                    <node concept="37vLTw" id="3CnNtH_0_Eh" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3CnNtH_0$H8" resolve="kafkaLogger" />
+                    </node>
+                    <node concept="liA8E" id="3CnNtH_0Aju" role="2OqNvi">
+                      <ref role="37wK5l" node="5ubRLyf6TxE" resolve="close" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3y3z36" id="3CnNtH_1wdh" role="3clFbw">
                 <node concept="10Nm6u" id="3CnNtH_1wec" role="3uHU7w" />
                 <node concept="37vLTw" id="3CnNtH_1wc8" role="3uHU7B">
@@ -1554,7 +1592,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="3CnNtH_1vUG" role="3cqZAp" />
-            <node concept="3clFbH" id="3CnNtH_1vX6" role="3cqZAp" />
             <node concept="3clFbF" id="2yuEF6qa8aW" role="3cqZAp">
               <node concept="2OqwBi" id="2yuEF6qa8bD" role="3clFbG">
                 <node concept="37vLTw" id="2yuEF6qa8aV" role="2Oq$k0">
@@ -1589,16 +1626,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="2yuEF6qbD9r" role="3cqZAp" />
-            <node concept="3clFbF" id="3CnNtH_0_Ej" role="3cqZAp">
-              <node concept="2OqwBi" id="3CnNtH_0Ae7" role="3clFbG">
-                <node concept="37vLTw" id="3CnNtH_0_Eh" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3CnNtH_0$H8" resolve="kafkaLogger" />
-                </node>
-                <node concept="liA8E" id="3CnNtH_0Aju" role="2OqNvi">
-                  <ref role="37wK5l" node="5ubRLyf6TxE" resolve="close" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbH" id="3CnNtH_5PX1" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="3CnNtH_5T4A" role="TEbGg">
@@ -5644,6 +5671,11 @@
                 <node concept="37vLTw" id="3CnNtH_5G6s" role="37vLTJ">
                   <ref role="3cqZAo" node="1i8FajkkZZZ" resolve="disabled" />
                 </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1pEW74ibcS5" role="3cqZAp">
+              <node concept="1rXfSq" id="1pEW74ibcS3" role="3clFbG">
+                <ref role="37wK5l" node="5ubRLyf6TxE" resolve="close" />
               </node>
             </node>
             <node concept="3clFbF" id="3CnNtH_6gfe" role="3cqZAp">

@@ -166,6 +166,16 @@
 		/* .v-filterselect {
 			border: 1px solid transparent;
 		} */
+		
+		
+		tbody > .v-formlayout-firstrow > td {
+			padding-top: 8px;
+		}
+		tbody > .v-formlayout-lastrow > td {
+			padding-bottom: 8px;
+		}
+		
+		
 	}
 	
 	.v-textfield:disabled, .v-filterselect-input:disabled {

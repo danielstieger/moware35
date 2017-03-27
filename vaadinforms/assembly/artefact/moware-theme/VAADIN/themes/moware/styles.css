@@ -13181,6 +13181,14 @@ div.v-layout.v-horizontal.v-widget {
 	background-image: none !important;
 }
 
+.moware .mo-delegate tbody > .v-formlayout-firstrow > td {
+	padding-top: 8px;
+}
+
+.moware .mo-delegate tbody > .v-formlayout-lastrow > td {
+	padding-bottom: 8px;
+}
+
 .moware .v-textfield:disabled, .moware .v-filterselect-input:disabled {
 	color: #000000 !important;
 }
