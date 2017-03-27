@@ -45,7 +45,6 @@
     <import index="x37d" ref="r:72cce30f-2a64-4fe3-8e44-7617cdd42782(org.modellwerkstatt.dataux.runtime.telemetrics)" />
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
-    <import index="qpbw" ref="r:ff532864-1e8f-409b-8790-35952b90f6d6(org.modellwerkstatt.fx8forms.windows)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -10369,13 +10368,13 @@
         <node concept="3cpWs8" id="6go2MrsxkA3" role="3cqZAp">
           <node concept="3cpWsn" id="6go2MrsxkA4" role="3cpWs9">
             <property role="TrG5h" value="cmpt" />
-            <node concept="3uibUv" id="7b0XfCDK4J2" role="1tU5fm">
-              <ref role="3uigEE" node="5XHFlRODeeq" resolve="VFormContainer" />
+            <node concept="3uibUv" id="1pEW74ib5or" role="1tU5fm">
+              <ref role="3uigEE" to="waq:~Component" resolve="Component" />
             </node>
             <node concept="1eOMI4" id="6go2MrsxkMU" role="33vP2m">
               <node concept="10QFUN" id="6go2MrsxkMR" role="1eOMHV">
-                <node concept="3uibUv" id="7b0XfCDK4Sv" role="10QFUM">
-                  <ref role="3uigEE" node="5XHFlRODeeq" resolve="VFormContainer" />
+                <node concept="3uibUv" id="1pEW74ib5v3" role="10QFUM">
+                  <ref role="3uigEE" to="waq:~Component" resolve="Component" />
                 </node>
                 <node concept="37vLTw" id="6go2MrsxkTo" role="10QFUP">
                   <ref role="3cqZAo" node="6go2Mrsw5Nx" resolve="implementation" />
