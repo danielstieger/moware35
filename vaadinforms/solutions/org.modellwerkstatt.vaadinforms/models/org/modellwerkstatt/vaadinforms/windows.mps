@@ -1478,41 +1478,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="gGnCBOFYuH" role="3cqZAp" />
-        <node concept="3clFbJ" id="7HBdlGU5uCa" role="3cqZAp">
-          <node concept="3clFbS" id="7HBdlGU5uCc" role="3clFbx">
-            <node concept="3clFbF" id="7HBdlGU6uIX" role="3cqZAp">
-              <node concept="37vLTI" id="7HBdlGU6uQM" role="3clFbG">
-                <node concept="2OqwBi" id="7HBdlGU6vfc" role="37vLTx">
-                  <node concept="37vLTw" id="7HBdlGU6v7s" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6MOvunDm2Ue" resolve="request" />
-                  </node>
-                  <node concept="liA8E" id="7HBdlGU6vk3" role="2OqNvi">
-                    <ref role="37wK5l" to="tk4x:~VaadinRequest.getRemoteAddr():java.lang.String" resolve="getRemoteAddr" />
-                  </node>
-                </node>
-                <node concept="37vLTw" id="7HBdlGU6uIV" role="37vLTJ">
-                  <ref role="3cqZAo" node="7S_QNZ7vora" resolve="guessUsername" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="1Wc70l" id="7HBdlGU5wuP" role="3clFbw">
-            <node concept="2OqwBi" id="7HBdlGU5xka" role="3uHU7w">
-              <node concept="37vLTw" id="7HBdlGU5x90" role="2Oq$k0">
-                <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
-              </node>
-              <node concept="liA8E" id="7HBdlGU6uqM" role="2OqNvi">
-                <ref role="37wK5l" node="7HBdlGU5yMZ" resolve="isUseRemoteIpAddressforAuthentication" />
-              </node>
-            </node>
-            <node concept="3clFbC" id="7HBdlGU5vOE" role="3uHU7B">
-              <node concept="37vLTw" id="7HBdlGU5vht" role="3uHU7B">
-                <ref role="3cqZAo" node="7S_QNZ7vora" resolve="guessUsername" />
-              </node>
-              <node concept="10Nm6u" id="7HBdlGU5wlv" role="3uHU7w" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="gGnCBOG3j2" role="3cqZAp" />
         <node concept="3SKdUt" id="3bLKpg8TB0E" role="3cqZAp">
           <node concept="3SKdUq" id="3bLKpg8TB0G" role="3SKWNk">
@@ -1570,29 +1535,28 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="gGnCBOGljm" role="3cqZAp">
-          <node concept="3clFbS" id="gGnCBOGljo" role="3clFbx">
-            <node concept="3clFbF" id="gGnCBOGnP_" role="3cqZAp">
-              <node concept="2OqwBi" id="gGnCBOGo2h" role="3clFbG">
-                <node concept="37vLTw" id="gGnCBOGnPz" role="2Oq$k0">
+        <node concept="3clFbJ" id="25h1UmU8wGI" role="3cqZAp">
+          <node concept="3clFbS" id="25h1UmU8wGK" role="3clFbx">
+            <node concept="3clFbF" id="25h1UmU8yFE" role="3cqZAp">
+              <node concept="2OqwBi" id="25h1UmU8ySi" role="3clFbG">
+                <node concept="37vLTw" id="25h1UmU8yFC" role="2Oq$k0">
                   <ref role="3cqZAo" node="7b0XfCDGhco" resolve="loginView" />
                 </node>
-                <node concept="liA8E" id="gGnCBOGooI" role="2OqNvi">
+                <node concept="liA8E" id="25h1UmU8zfd" role="2OqNvi">
                   <ref role="37wK5l" node="1EBV9L$FQys" resolve="buttonClick" />
-                  <node concept="10Nm6u" id="gGnCBOGozM" role="37wK5m" />
+                  <node concept="10Nm6u" id="25h1UmU8zqd" role="37wK5m" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="gGnCBOGmCz" role="3clFbw">
-            <node concept="37vLTw" id="gGnCBOGm3M" role="2Oq$k0">
-              <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
-            </node>
-            <node concept="liA8E" id="gGnCBOGnvF" role="2OqNvi">
-              <ref role="37wK5l" node="7HBdlGU5yMZ" resolve="isUseRemoteIpAddressforAuthentication" />
+          <node concept="3y3z36" id="25h1UmU8xWx" role="3clFbw">
+            <node concept="10Nm6u" id="25h1UmU8yqL" role="3uHU7w" />
+            <node concept="37vLTw" id="25h1UmU8xqU" role="3uHU7B">
+              <ref role="3cqZAo" node="7S_QNZ7vora" resolve="guessUsername" />
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="25h1UmU8lk6" role="3cqZAp" />
         <node concept="3clFbH" id="7S_QNZ7v3cZ" role="3cqZAp" />
         <node concept="3SKdUt" id="7b0XfCDH6TB" role="3cqZAp">
           <node concept="3SKdUq" id="7b0XfCDH7iX" role="3SKWNk">
@@ -2342,19 +2306,11 @@
         <ref role="1PxDUh" to="ache:2zlZ_in5Vzm" resolve="DefaultTrans" />
       </node>
     </node>
-    <node concept="312cEg" id="7HBdlGU532B" role="jymVt">
-      <property role="TrG5h" value="useRemoteIpAddressforAuthentication" />
-      <node concept="3Tm6S6" id="7HBdlGU532C" role="1B3o_S" />
-      <node concept="10P_77" id="7HBdlGU54nH" role="1tU5fm" />
-      <node concept="3clFbT" id="7HBdlGU58$2" role="33vP2m">
-        <property role="3clFbU" value="false" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="1JNuSGkeldY" role="jymVt" />
     <node concept="Wx3nA" id="6OyHsl_2MYk" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="REDIRECT_TO_AFTER_LOGOUT" />
-      <property role="3TUv4t" value="true" />
+      <property role="3TUv4t" value="false" />
       <node concept="17QB3L" id="6OyHsl_2JMx" role="1tU5fm" />
       <node concept="3Tm1VV" id="6OyHsl_2QBg" role="1B3o_S" />
       <node concept="Xl_RD" id="3NyMOIyUzrg" role="33vP2m">
@@ -2487,18 +2443,6 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="7HBdlGU5yMZ" role="jymVt">
-      <property role="TrG5h" value="isUseRemoteIpAddressforAuthentication" />
-      <node concept="10P_77" id="7HBdlGU5Clr" role="3clF45" />
-      <node concept="3Tm1VV" id="7HBdlGU5yN2" role="1B3o_S" />
-      <node concept="3clFbS" id="7HBdlGU5yN3" role="3clF47">
-        <node concept="3cpWs6" id="7HBdlGU5DJh" role="3cqZAp">
-          <node concept="37vLTw" id="7HBdlGU5Eya" role="3cqZAk">
-            <ref role="3cqZAo" node="7HBdlGU532B" resolve="useRemoteIpAddressforAuthentication" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="2tJIrI" id="1EBV9L$v8w4" role="jymVt" />
     <node concept="3clFb_" id="4QTIUTBQp8D" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -2582,52 +2526,32 @@
           </node>
         </node>
         <node concept="3clFbH" id="7HBdlGU59aq" role="3cqZAp" />
+        <node concept="3SKdUt" id="25h1UmU8rX9" role="3cqZAp">
+          <node concept="3SKdUq" id="25h1UmU8rXb" role="3SKWNk">
+            <property role="3SKdUp" value="example of a parameter. right no, not in use." />
+          </node>
+        </node>
         <node concept="3cpWs8" id="7HBdlGU5fhD" role="3cqZAp">
           <node concept="3cpWsn" id="7HBdlGU5fhG" role="3cpWs9">
-            <property role="TrG5h" value="authViaIp" />
+            <property role="TrG5h" value="homeScreanParam" />
             <node concept="17QB3L" id="7HBdlGU5fhB" role="1tU5fm" />
             <node concept="1rXfSq" id="7HBdlGU5a_G" role="33vP2m">
               <ref role="37wK5l" to="opgt:~GenericServlet.getInitParameter(java.lang.String):java.lang.String" resolve="getInitParameter" />
               <node concept="Xl_RD" id="7HBdlGU5a_H" role="37wK5m">
-                <property role="Xl_RC" value="useRemoteIpAddressforAuthentication" />
+                <property role="Xl_RC" value="homeScreenPath" />
               </node>
             </node>
           </node>
         </node>
         <node concept="3clFbJ" id="7HBdlGU5mGa" role="3cqZAp">
           <node concept="3clFbS" id="7HBdlGU5mGc" role="3clFbx">
-            <node concept="3clFbJ" id="1h$q6rwsSi1" role="3cqZAp">
-              <node concept="3clFbS" id="1h$q6rwsSi3" role="3clFbx">
-                <node concept="3clFbF" id="7HBdlGU5oqw" role="3cqZAp">
-                  <node concept="37vLTI" id="7HBdlGU5oE0" role="3clFbG">
-                    <node concept="3clFbT" id="7HBdlGU5oHE" role="37vLTx">
-                      <property role="3clFbU" value="true" />
-                    </node>
-                    <node concept="37vLTw" id="7HBdlGU5oqu" role="37vLTJ">
-                      <ref role="3cqZAo" node="7HBdlGU532B" resolve="useRemoteIpAddressforAuthentication" />
-                    </node>
-                  </node>
+            <node concept="3clFbF" id="25h1UmU8Hrs" role="3cqZAp">
+              <node concept="37vLTI" id="25h1UmU8HvL" role="3clFbG">
+                <node concept="37vLTw" id="25h1UmU8HGz" role="37vLTx">
+                  <ref role="3cqZAo" node="7HBdlGU5fhG" resolve="homeScreanParam" />
                 </node>
-              </node>
-              <node concept="2OqwBi" id="1h$q6rwsVqK" role="3clFbw">
-                <node concept="liA8E" id="1h$q6rwsWka" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                  <node concept="2OqwBi" id="1h$q6rwsUvR" role="37wK5m">
-                    <node concept="2OqwBi" id="1h$q6rwsSJ8" role="2Oq$k0">
-                      <node concept="37vLTw" id="1h$q6rwsSEQ" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7HBdlGU5fhG" resolve="authViaIp" />
-                      </node>
-                      <node concept="liA8E" id="1h$q6rwsUuh" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="1h$q6rwsVp0" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="1h$q6rwsWoh" role="2Oq$k0">
-                  <property role="Xl_RC" value="true" />
+                <node concept="37vLTw" id="25h1UmU8Hrr" role="37vLTJ">
+                  <ref role="3cqZAo" node="6OyHsl_2MYk" resolve="REDIRECT_TO_AFTER_LOGOUT" />
                 </node>
               </node>
             </node>
@@ -2635,11 +2559,13 @@
           <node concept="3y3z36" id="7HBdlGU5o6g" role="3clFbw">
             <node concept="10Nm6u" id="7HBdlGU5ohg" role="3uHU7w" />
             <node concept="37vLTw" id="7HBdlGU5nU$" role="3uHU7B">
-              <ref role="3cqZAo" node="7HBdlGU5fhG" resolve="authViaIp" />
+              <ref role="3cqZAo" node="7HBdlGU5fhG" resolve="homeScreanParam" />
             </node>
           </node>
         </node>
         <node concept="3clFbH" id="7HBdlGU5akY" role="3cqZAp" />
+        <node concept="3clFbH" id="25h1UmU8Fb9" role="3cqZAp" />
+        <node concept="3clFbH" id="25h1UmU8FdG" role="3cqZAp" />
         <node concept="3clFbF" id="1EBV9L$tFei" role="3cqZAp">
           <node concept="37vLTI" id="1EBV9L$tFIP" role="3clFbG">
             <node concept="2ShNRf" id="1EBV9L$tIx$" role="37vLTx">
