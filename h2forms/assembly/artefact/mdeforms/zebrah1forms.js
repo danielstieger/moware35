@@ -461,7 +461,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // console.log('AFTER bodyOnLoadFunction() exec.');
     // moLog('Span Fontsize ' + window.getComputedStyle($('span')).getPropertyValue('font-size'));
-    moLog('' + window.innerHeight + ' x ' + window.innerWidth);  
-    //moLog('Document ' + document.getElementsByTagName('body')[0].clientHeight + ' x ' + document.getElementsByTagName('body')[0].clientWidth);
+    // moLog('' + window.innerHeight + ' x ' + window.innerWidth);  
+    // moLog('Document ' + document.getElementsByTagName('body')[0].clientHeight + ' x ' + document.getElementsByTagName('body')[0].clientWidth);
     
 }); 
