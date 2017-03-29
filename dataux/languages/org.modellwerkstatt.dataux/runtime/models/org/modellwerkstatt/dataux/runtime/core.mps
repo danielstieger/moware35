@@ -6188,101 +6188,87 @@
         </node>
         <node concept="3clFbJ" id="5XruxTJIaDH" role="3cqZAp">
           <node concept="3clFbS" id="5XruxTJIaDJ" role="3clFbx">
-            <node concept="3clFbF" id="3972coxdHkv" role="3cqZAp">
-              <node concept="2OqwBi" id="3972coxdHkw" role="3clFbG">
-                <node concept="10M0yZ" id="3972coxdHkx" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="3972coxdHky" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+            <node concept="YS8fn" id="3972coxdHkE" role="3cqZAp">
+              <node concept="2ShNRf" id="3972coxdHkF" role="YScLw">
+                <node concept="1pGfFk" id="3972coxdHkG" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
                   <node concept="3cpWs3" id="3972coxdHkz" role="37wK5m">
                     <node concept="Xl_RD" id="3972coxdHk$" role="3uHU7w">
                       <property role="Xl_RC" value="\n\n" />
                     </node>
                     <node concept="3cpWs3" id="3972coxdHk_" role="3uHU7B">
-                      <node concept="Xl_RD" id="3972coxdHkA" role="3uHU7B">
-                        <property role="Xl_RC" value="\n\nCURRENT GRAPH:\n" />
+                      <node concept="3cpWs3" id="3972coxdHkH" role="3uHU7B">
+                        <node concept="3cpWs3" id="3972coxdHkJ" role="3uHU7B">
+                          <node concept="3cpWs3" id="3972coxdHkK" role="3uHU7B">
+                            <node concept="Xl_RD" id="3972coxdHkL" role="3uHU7w">
+                              <property role="Xl_RC" value="." />
+                            </node>
+                            <node concept="3cpWs3" id="3972coxdHkM" role="3uHU7B">
+                              <node concept="3cpWs3" id="3972coxdHkN" role="3uHU7B">
+                                <node concept="3cpWs3" id="3972coxdHkO" role="3uHU7B">
+                                  <node concept="3cpWs3" id="3972coxdHkP" role="3uHU7B">
+                                    <node concept="3cpWs3" id="3972coxdHkV" role="3uHU7B">
+                                      <node concept="Xl_RD" id="3972coxdHkW" role="3uHU7B">
+                                        <property role="Xl_RC" value="View " />
+                                      </node>
+                                      <node concept="2OqwBi" id="5SSJEYse4yK" role="3uHU7w">
+                                        <node concept="2OqwBi" id="3972coxdHkX" role="2Oq$k0">
+                                          <node concept="37vLTw" id="5hc8PGHPzLd" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="3972coxdHk1" resolve="viewToRegister" />
+                                          </node>
+                                          <node concept="liA8E" id="3972coxdHkZ" role="2OqNvi">
+                                            <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                                          </node>
+                                        </node>
+                                        <node concept="liA8E" id="5SSJEYse4K1" role="2OqNvi">
+                                          <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="3972coxdHl1" role="3uHU7w">
+                                      <property role="Xl_RC" value=" interested in Selections of " />
+                                    </node>
+                                  </node>
+                                  <node concept="2OqwBi" id="5SSJEYs8ZvJ" role="3uHU7w">
+                                    <node concept="37vLTw" id="5SSJEYs8UxT" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3972coxdHjV" resolve="interestedInSelection" />
+                                    </node>
+                                    <node concept="liA8E" id="5SSJEYs8ZAr" role="2OqNvi">
+                                      <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="Xl_RD" id="3972coxdHl5" role="3uHU7w">
+                                  <property role="Xl_RC" value=" and binding ['" />
+                                </node>
+                              </node>
+                              <node concept="2OqwBi" id="5SSJEYs8VOi" role="3uHU7w">
+                                <node concept="37vLTw" id="5SSJEYs8VmI" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3972coxdHjX" resolve="binding" />
+                                </node>
+                                <node concept="liA8E" id="5SSJEYs8VS_" role="2OqNvi">
+                                  <ref role="37wK5l" node="5SSJEYs7zX$" resolve="getClassType" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="3972coxdHl7" role="3uHU7w">
+                            <node concept="37vLTw" id="5SSJEYs8WsU" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3972coxdHjX" resolve="binding" />
+                            </node>
+                            <node concept="liA8E" id="5SSJEYs8Xnv" role="2OqNvi">
+                              <ref role="37wK5l" node="5SSJEYs7$hq" resolve="getProperty" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="3972coxdHkI" role="3uHU7w">
+                          <property role="Xl_RC" value="] could not be registered in SelController hierarchy.\n\nCURRENT GRAPH:\n" />
+                        </node>
                       </node>
                       <node concept="2OqwBi" id="3972coxdHkB" role="3uHU7w">
                         <node concept="Xjq3P" id="3972coxdHkC" role="2Oq$k0" />
                         <node concept="liA8E" id="3972coxdHkD" role="2OqNvi">
                           <ref role="37wK5l" node="3972coxdH3i" resolve="getControllersInfo" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="YS8fn" id="3972coxdHkE" role="3cqZAp">
-              <node concept="2ShNRf" id="3972coxdHkF" role="YScLw">
-                <node concept="1pGfFk" id="3972coxdHkG" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
-                  <node concept="3cpWs3" id="3972coxdHkH" role="37wK5m">
-                    <node concept="Xl_RD" id="3972coxdHkI" role="3uHU7w">
-                      <property role="Xl_RC" value="] could not be registered in SelController hierarchy." />
-                    </node>
-                    <node concept="3cpWs3" id="3972coxdHkJ" role="3uHU7B">
-                      <node concept="3cpWs3" id="3972coxdHkK" role="3uHU7B">
-                        <node concept="Xl_RD" id="3972coxdHkL" role="3uHU7w">
-                          <property role="Xl_RC" value="." />
-                        </node>
-                        <node concept="3cpWs3" id="3972coxdHkM" role="3uHU7B">
-                          <node concept="3cpWs3" id="3972coxdHkN" role="3uHU7B">
-                            <node concept="3cpWs3" id="3972coxdHkO" role="3uHU7B">
-                              <node concept="3cpWs3" id="3972coxdHkP" role="3uHU7B">
-                                <node concept="3cpWs3" id="3972coxdHkV" role="3uHU7B">
-                                  <node concept="Xl_RD" id="3972coxdHkW" role="3uHU7B">
-                                    <property role="Xl_RC" value="View " />
-                                  </node>
-                                  <node concept="2OqwBi" id="5SSJEYse4yK" role="3uHU7w">
-                                    <node concept="2OqwBi" id="3972coxdHkX" role="2Oq$k0">
-                                      <node concept="37vLTw" id="5hc8PGHPzLd" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="3972coxdHk1" resolve="viewToRegister" />
-                                      </node>
-                                      <node concept="liA8E" id="3972coxdHkZ" role="2OqNvi">
-                                        <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
-                                      </node>
-                                    </node>
-                                    <node concept="liA8E" id="5SSJEYse4K1" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
-                                    </node>
-                                  </node>
-                                </node>
-                                <node concept="Xl_RD" id="3972coxdHl1" role="3uHU7w">
-                                  <property role="Xl_RC" value=" interested in Selections of " />
-                                </node>
-                              </node>
-                              <node concept="2OqwBi" id="5SSJEYs8ZvJ" role="3uHU7w">
-                                <node concept="37vLTw" id="5SSJEYs8UxT" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="3972coxdHjV" resolve="interestedInSelection" />
-                                </node>
-                                <node concept="liA8E" id="5SSJEYs8ZAr" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="Xl_RD" id="3972coxdHl5" role="3uHU7w">
-                              <property role="Xl_RC" value=" and binding ['" />
-                            </node>
-                          </node>
-                          <node concept="2OqwBi" id="5SSJEYs8VOi" role="3uHU7w">
-                            <node concept="37vLTw" id="5SSJEYs8VmI" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3972coxdHjX" resolve="binding" />
-                            </node>
-                            <node concept="liA8E" id="5SSJEYs8VS_" role="2OqNvi">
-                              <ref role="37wK5l" node="5SSJEYs7zX$" resolve="getClassType" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="2OqwBi" id="3972coxdHl7" role="3uHU7w">
-                        <node concept="37vLTw" id="5SSJEYs8WsU" role="2Oq$k0">
-                          <ref role="3cqZAo" node="3972coxdHjX" resolve="binding" />
-                        </node>
-                        <node concept="liA8E" id="5SSJEYs8Xnv" role="2OqNvi">
-                          <ref role="37wK5l" node="5SSJEYs7$hq" resolve="getProperty" />
                         </node>
                       </node>
                     </node>
