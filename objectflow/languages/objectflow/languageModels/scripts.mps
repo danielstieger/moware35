@@ -169,7 +169,7 @@
     <property role="TrG5h" value="MoWareTodoFinder" />
     <property role="_Wzho" value="aaa TODO TODO TODO finder" />
     <node concept="_XfAh" id="1Rx6rUS8rcC" role="_YvDr">
-      <property role="_XH9r" value="a Todo finder" />
+      <property role="_XH9r" value="Todo s in Project" />
       <ref role="_XDHR" to="tpee:5vlcUuJ5uOX" resolve="TextCommentPart" />
       <node concept="_ZGcI" id="1Rx6rUS8rcE" role="_XPhp">
         <node concept="3clFbS" id="1Rx6rUS8rcG" role="2VODD2" />
@@ -181,6 +181,38 @@
               <node concept="_YI3z" id="1Rx6rUS8wwB" role="2Oq$k0" />
               <node concept="2qgKlT" id="1Rx6rUS8T1W" role="2OqNvi">
                 <ref role="37wK5l" to="tpek:6hHyb3YSGHZ" resolve="isToDo" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="3oZR98NhmsY" role="_YvDr">
+      <property role="_XH9r" value="References to SYSTEM in Project (System.out, System.err etc.)" />
+      <ref role="_XDHR" to="tpee:f_0M0x6" resolve="StaticFieldReference" />
+      <node concept="_ZGcI" id="3oZR98NhmsZ" role="_XPhp">
+        <node concept="3clFbS" id="3oZR98Nhmt0" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="3oZR98Nhmt1" role="_XDHO">
+        <node concept="3clFbS" id="3oZR98Nhmt2" role="2VODD2">
+          <node concept="3clFbF" id="3oZR98NhndC" role="3cqZAp">
+            <node concept="2OqwBi" id="3oZR98Nhofh" role="3clFbG">
+              <node concept="liA8E" id="3oZR98Nhotv" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="2OqwBi" id="3oZR98NhnE7" role="37wK5m">
+                  <node concept="2OqwBi" id="3oZR98NhnhZ" role="2Oq$k0">
+                    <node concept="_YI3z" id="3oZR98NhndB" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3oZR98NhnqY" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:gDPxDYr" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3oZR98NhnUc" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+              <node concept="Xl_RD" id="3oZR98NhouC" role="2Oq$k0">
+                <property role="Xl_RC" value="System" />
               </node>
             </node>
           </node>
