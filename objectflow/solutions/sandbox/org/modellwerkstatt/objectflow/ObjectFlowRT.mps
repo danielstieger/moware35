@@ -33660,26 +33660,7 @@
     <node concept="3clFbW" id="6BKPvpDkQ7A" role="jymVt">
       <node concept="3cqZAl" id="6BKPvpDkQ7C" role="3clF45" />
       <node concept="3Tm1VV" id="6BKPvpDkQ7D" role="1B3o_S" />
-      <node concept="3clFbS" id="6BKPvpDkQ7E" role="3clF47">
-        <node concept="3clFbF" id="6BKPvpDkQE8" role="3cqZAp">
-          <node concept="2OqwBi" id="6BKPvpDkQGB" role="3clFbG">
-            <node concept="37vLTw" id="6BKPvpDkQE7" role="2Oq$k0">
-              <ref role="3cqZAo" node="xRnvdcXTUz" resolve="userEnvironement" />
-            </node>
-            <node concept="liA8E" id="6BKPvpDkQP0" role="2OqNvi">
-              <ref role="37wK5l" to="w7gk:2BF5kUGT7Nt" resolve="setVariant" />
-              <node concept="2OqwBi" id="6BKPvpDkQU_" role="37wK5m">
-                <node concept="37vLTw" id="6BKPvpDkQRE" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6BKPvpDkOCC" resolve="platform" />
-                </node>
-                <node concept="liA8E" id="6BKPvpDkR1L" role="2OqNvi">
-                  <ref role="37wK5l" node="6A6XM2SxGIh" resolve="getCurrentVariant" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
+      <node concept="3clFbS" id="6BKPvpDkQ7E" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="6BKPvpDkPF$" role="jymVt" />
     <node concept="3clFb_" id="xRnvdcXTUD" role="jymVt">

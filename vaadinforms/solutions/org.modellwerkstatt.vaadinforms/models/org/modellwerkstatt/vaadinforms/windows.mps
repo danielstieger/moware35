@@ -62,6 +62,9 @@
       <concept id="1153422105332" name="jetbrains.mps.baseLanguage.structure.RemExpression" flags="nn" index="2dk9JS" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
+      <concept id="1179360813171" name="jetbrains.mps.baseLanguage.structure.HexIntegerLiteral" flags="nn" index="2nou5x">
+        <property id="1179360856892" name="value" index="2noCCI" />
+      </concept>
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="5279705229678483897" name="jetbrains.mps.baseLanguage.structure.FloatingPointFloatConstant" flags="nn" index="2$xPTn">
         <property id="5279705229678483899" name="value" index="2$xPTl" />
@@ -4307,35 +4310,51 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6go2Mrsvxi2" role="3cqZAp">
-          <node concept="2OqwBi" id="6go2Mrsvxp6" role="3clFbG">
-            <node concept="37vLTw" id="6go2Mrsvxi0" role="2Oq$k0">
-              <ref role="3cqZAo" node="41UdyNB_JTE" resolve="startMenuInBar" />
+        <node concept="3cpWs8" id="3oZR98NiQLp" role="3cqZAp">
+          <node concept="3cpWsn" id="3oZR98NiQLq" role="3cpWs9">
+            <property role="TrG5h" value="men" />
+            <node concept="3uibUv" id="3oZR98NiSQr" role="1tU5fm">
+              <ref role="3uigEE" to="waq:~MenuBar$MenuItem" resolve="MenuBar.MenuItem" />
             </node>
-            <node concept="liA8E" id="6go2MrsvxyU" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~MenuBar$MenuItem.addItem(java.lang.String,com.vaadin.server.Resource,com.vaadin.ui.MenuBar$Command):com.vaadin.ui.MenuBar$MenuItem" resolve="addItem" />
-              <node concept="2OqwBi" id="64iyuJIo3dE" role="37wK5m">
-                <node concept="37vLTw" id="64iyuJIo36t" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6go2MrsuUX7" resolve="factory" />
-                </node>
-                <node concept="liA8E" id="64iyuJIo3jy" role="2OqNvi">
-                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
-                  <node concept="Rm8GO" id="64iyuJIo70_" role="37wK5m">
-                    <ref role="Rm8GQ" to="ache:4Zj1V_wFQtL" resolve="QUIT" />
-                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+            <node concept="2OqwBi" id="6go2Mrsvxp6" role="33vP2m">
+              <node concept="37vLTw" id="6go2Mrsvxi0" role="2Oq$k0">
+                <ref role="3cqZAo" node="41UdyNB_JTE" resolve="startMenuInBar" />
+              </node>
+              <node concept="liA8E" id="6go2MrsvxyU" role="2OqNvi">
+                <ref role="37wK5l" to="waq:~MenuBar$MenuItem.addItem(java.lang.String,com.vaadin.ui.MenuBar$Command):com.vaadin.ui.MenuBar$MenuItem" resolve="addItem" />
+                <node concept="2OqwBi" id="64iyuJIo3dE" role="37wK5m">
+                  <node concept="37vLTw" id="64iyuJIo36t" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6go2MrsuUX7" resolve="factory" />
+                  </node>
+                  <node concept="liA8E" id="64iyuJIo3jy" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                    <node concept="Rm8GO" id="3oZR98Nj1c6" role="37wK5m">
+                      <ref role="Rm8GQ" to="ache:4Zj1V_wFQtL" resolve="QUIT" />
+                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                    </node>
                   </node>
                 </node>
-              </node>
-              <node concept="2ShNRf" id="7SiTcfwJC9i" role="37wK5m">
-                <node concept="1pGfFk" id="7SiTcfwJD2p" role="2ShVmc">
-                  <ref role="37wK5l" to="tk4x:~ThemeResource.&lt;init&gt;(java.lang.String)" resolve="ThemeResource" />
-                  <node concept="Xl_RD" id="7SiTcfwJD80" role="37wK5m">
-                    <property role="Xl_RC" value="img/exit.png" />
-                  </node>
+                <node concept="37vLTw" id="6go2MrsvD6y" role="37wK5m">
+                  <ref role="3cqZAo" node="6go2MrsvBKO" resolve="quitCmd" />
                 </node>
               </node>
-              <node concept="37vLTw" id="6go2MrsvD6y" role="37wK5m">
-                <ref role="3cqZAo" node="6go2MrsvBKO" resolve="quitCmd" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3oZR98NiSGd" role="3cqZAp">
+          <node concept="2OqwBi" id="3oZR98NiSJ6" role="3clFbG">
+            <node concept="37vLTw" id="3oZR98NiSGb" role="2Oq$k0">
+              <ref role="3cqZAo" node="3oZR98NiQLq" resolve="men" />
+            </node>
+            <node concept="liA8E" id="3oZR98NiSVy" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~MenuBar$MenuItem.setIcon(com.vaadin.server.Resource):void" resolve="setIcon" />
+              <node concept="2ShNRf" id="3oZR98Nj3BS" role="37wK5m">
+                <node concept="1pGfFk" id="3oZR98Nj4y9" role="2ShVmc">
+                  <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
+                  <node concept="2nou5x" id="3oZR98Nj4Cp" role="37wK5m">
+                    <property role="2noCCI" value="E879" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -4739,6 +4758,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3oZR98NjnHB" role="3cqZAp" />
         <node concept="3clFbJ" id="30SScokvd43" role="3cqZAp">
           <property role="TyiWK" value="false" />
           <property role="TyiWL" value="true" />
@@ -29903,6 +29923,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3oZR98Nj91T" role="3cqZAp">
+          <node concept="1rXfSq" id="3oZR98Nj91R" role="3clFbG">
+            <ref role="37wK5l" to="waq:~AbstractComponent.setIcon(com.vaadin.server.Resource):void" resolve="setIcon" />
+            <node concept="2ShNRf" id="3oZR98Nj9bo" role="37wK5m">
+              <node concept="1pGfFk" id="3oZR98Nja5_" role="2ShVmc">
+                <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
+                <node concept="2nou5x" id="3oZR98Nja81" role="37wK5m">
+                  <property role="2noCCI" value="E879" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="gGnCBOCuiP" role="jymVt" />
@@ -37082,6 +37115,129 @@
     </node>
     <node concept="3uibUv" id="2e4siDtXIwE" role="1zkMxy">
       <ref role="3uigEE" to="waq:~Panel" resolve="Panel" />
+    </node>
+  </node>
+  <node concept="312cEu" id="3oZR98Nj21t">
+    <property role="TrG5h" value="VMaterialIconFont" />
+    <node concept="312cEg" id="3oZR98Nj2sz" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="codepoint" />
+      <property role="3TUv4t" value="false" />
+      <node concept="10Oyi0" id="3oZR98Nj2q8" role="1tU5fm" />
+      <node concept="3Tm6S6" id="3oZR98Nj2v6" role="1B3o_S" />
+    </node>
+    <node concept="3clFbW" id="3oZR98NiLLs" role="jymVt">
+      <node concept="37vLTG" id="3oZR98NiLON" role="3clF46">
+        <property role="TrG5h" value="cp" />
+        <node concept="10Oyi0" id="3oZR98NiLPO" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="3oZR98NiLLu" role="3clF45" />
+      <node concept="3Tm1VV" id="3oZR98NiLLv" role="1B3o_S" />
+      <node concept="3clFbS" id="3oZR98NiLLw" role="3clF47">
+        <node concept="3clFbF" id="3oZR98NiLVM" role="3cqZAp">
+          <node concept="37vLTI" id="3oZR98NiM0A" role="3clFbG">
+            <node concept="37vLTw" id="3oZR98NiM5m" role="37vLTx">
+              <ref role="3cqZAo" node="3oZR98NiLON" resolve="cp" />
+            </node>
+            <node concept="37vLTw" id="3oZR98Nj2x$" role="37vLTJ">
+              <ref role="3cqZAo" node="3oZR98Nj2sz" resolve="codepoint" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3oZR98NiK8B" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getFontFamily" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="3oZR98NiK8C" role="1B3o_S" />
+      <node concept="3uibUv" id="3oZR98NiK8E" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+      </node>
+      <node concept="3clFbS" id="3oZR98NiK8F" role="3clF47">
+        <node concept="3cpWs6" id="3oZR98NiLlh" role="3cqZAp">
+          <node concept="Xl_RD" id="3oZR98NiLmD" role="3cqZAk">
+            <property role="Xl_RC" value="MaterialIcons" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3oZR98NiK8I" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCodepoint" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="3oZR98NiK8J" role="1B3o_S" />
+      <node concept="10Oyi0" id="3oZR98NiK8L" role="3clF45" />
+      <node concept="3clFbS" id="3oZR98NiK8M" role="3clF47">
+        <node concept="3clFbF" id="3oZR98NiLE2" role="3cqZAp">
+          <node concept="37vLTw" id="3oZR98Nj2_b" role="3clFbG">
+            <ref role="3cqZAo" node="3oZR98Nj2sz" resolve="codepoint" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3oZR98NiK8N" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getHtml" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="3oZR98NiK8O" role="1B3o_S" />
+      <node concept="3uibUv" id="3oZR98NiK8Q" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+      </node>
+      <node concept="3clFbS" id="3oZR98NiK8R" role="3clF47">
+        <node concept="3cpWs6" id="3oZR98NiMa3" role="3cqZAp">
+          <node concept="3cpWs3" id="3oZR98NiMa4" role="3cqZAk">
+            <node concept="3cpWs3" id="3oZR98NiMa5" role="3uHU7B">
+              <node concept="Xl_RD" id="3oZR98NiMa6" role="3uHU7B">
+                <property role="Xl_RC" value="&lt;span class=\&quot;v-icon MaterialIcons\&quot;&gt;&amp;#x" />
+              </node>
+              <node concept="2YIFZM" id="3oZR98NiMac" role="3uHU7w">
+                <ref role="37wK5l" to="wyt6:~Integer.toHexString(int):java.lang.String" resolve="toHexString" />
+                <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                <node concept="37vLTw" id="3oZR98Nj2DU" role="37wK5m">
+                  <ref role="3cqZAo" node="3oZR98Nj2sz" resolve="codepoint" />
+                </node>
+              </node>
+            </node>
+            <node concept="Xl_RD" id="3oZR98NiMa9" role="3uHU7w">
+              <property role="Xl_RC" value=";&lt;/span&gt;" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3oZR98NiK8U" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getMIMEType" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="3oZR98NiK8V" role="1B3o_S" />
+      <node concept="3uibUv" id="3oZR98NiK8X" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+      </node>
+      <node concept="3clFbS" id="3oZR98NiK8Z" role="3clF47">
+        <node concept="YS8fn" id="3oZR98NiKeK" role="3cqZAp">
+          <node concept="2ShNRf" id="3oZR98NiKgc" role="YScLw">
+            <node concept="1pGfFk" id="3oZR98NiLah" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="3oZR98NiLbU" role="37wK5m">
+                <property role="Xl_RC" value="Should not be used where a MimeType is needed" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3oZR98Nj276" role="jymVt" />
+    <node concept="2tJIrI" id="3oZR98Nj27T" role="jymVt" />
+    <node concept="2tJIrI" id="3oZR98Nj22k" role="jymVt" />
+    <node concept="3Tm1VV" id="3oZR98Nj21u" role="1B3o_S" />
+    <node concept="3uibUv" id="3oZR98Nj2fS" role="EKbjA">
+      <ref role="3uigEE" to="tk4x:~FontIcon" resolve="FontIcon" />
     </node>
   </node>
 </model>

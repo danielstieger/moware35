@@ -1557,6 +1557,32 @@ div.v-layout.v-horizontal.v-widget {
 	vertical-align: top;
 }
 
+@font-face {
+	font-family: "Material Icons";
+	font-style: normal;
+	font-weight: 400;
+	src: url(./maticonsfont/MaterialIcons-Regular.eot);
+	src: local("Material Icons"), local("MaterialIcons-Regular"), url(./maticonsfont/MaterialIcons-Regular.woff2) format("woff2"), url(./maticonsfont/MaterialIcons-Regular.woff) format("woff"), url(./maticonsfont/MaterialIcons-Regular.ttf) format("truetype");
+}
+
+.MaterialIcons {
+	font-family: "Material Icons";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 15px;
+	display: inline-block;
+	line-height: 1;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: "liga";
+}
+
 .moware .v-context-menu {
 	float: left;
 	font-family: "Open Sans", sans-serif;
