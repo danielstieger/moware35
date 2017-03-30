@@ -326,8 +326,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	mykeyboardEnabled(true);
 
     // console.log('AFTER bodyOnLoadFunction() exec.');
-    moLog('Span Fontsize ' + window.getComputedStyle($('span')).getPropertyValue('font-size'));
-    moLog('Window ' + window.innerHeight + ' x ' + window.innerWidth);  
+    // moLog('Span Fontsize ' + window.getComputedStyle($('span')).getPropertyValue('font-size'));
+    // moLog('Window ' + window.innerHeight + ' x ' + window.innerWidth);  
 }); 
 
 
