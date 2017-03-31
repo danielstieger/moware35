@@ -3645,9 +3645,13 @@
             </node>
             <node concept="liA8E" id="41UdyNBDs2v" role="2OqNvi">
               <ref role="37wK5l" to="waq:~MenuBar$MenuItem.setIcon(com.vaadin.server.Resource):void" resolve="setIcon" />
-              <node concept="Rm8GO" id="6go2MrssLI5" role="37wK5m">
-                <ref role="Rm8GQ" to="tk4x:~FontAwesome.ROCKET" resolve="ROCKET" />
-                <ref role="1Px2BO" to="tk4x:~FontAwesome" resolve="FontAwesome" />
+              <node concept="2ShNRf" id="2CZV3d2SA1a" role="37wK5m">
+                <node concept="1pGfFk" id="2CZV3d2SBrg" role="2ShVmc">
+                  <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
+                  <node concept="Xl_RD" id="2CZV3d2SByr" role="37wK5m">
+                    <property role="Xl_RC" value="&amp;#xE869" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -4351,8 +4355,8 @@
               <node concept="2ShNRf" id="3oZR98Nj3BS" role="37wK5m">
                 <node concept="1pGfFk" id="3oZR98Nj4y9" role="2ShVmc">
                   <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
-                  <node concept="2nou5x" id="3oZR98Nj4Cp" role="37wK5m">
-                    <property role="2noCCI" value="E879" />
+                  <node concept="Xl_RD" id="2CZV3d2UgTE" role="37wK5m">
+                    <property role="Xl_RC" value="&amp;#xE8AC" />
                   </node>
                 </node>
               </node>
@@ -4805,8 +4809,18 @@
                         <ref role="2Oxat5" to="yg8v:Y3fiVJPWx7" resolve="hotKey" />
                       </node>
                     </node>
-                    <node concept="37vLTw" id="30SScokvsHA" role="37wK5m">
-                      <ref role="3cqZAo" node="30SScokvd40" resolve="res" />
+                    <node concept="2ShNRf" id="2CZV3d2StRY" role="37wK5m">
+                      <node concept="1pGfFk" id="2CZV3d2Sx62" role="2ShVmc">
+                        <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
+                        <node concept="2OqwBi" id="2CZV3d2Sxkh" role="37wK5m">
+                          <node concept="37vLTw" id="2CZV3d2SxcR" role="2Oq$k0">
+                            <ref role="3cqZAo" node="30SScokuEU5" resolve="action" />
+                          </node>
+                          <node concept="2OwXpG" id="2CZV3d2SxnV" role="2OqNvi">
+                            <ref role="2Oxat5" to="yg8v:Y3fiVJM08V" resolve="imageName" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -5360,8 +5374,8 @@
                 <node concept="3cpWs8" id="7SiTcfwIZc_" role="3cqZAp">
                   <node concept="3cpWsn" id="7SiTcfwIZcA" role="3cpWs9">
                     <property role="TrG5h" value="res" />
-                    <node concept="3uibUv" id="7SiTcfwIZcB" role="1tU5fm">
-                      <ref role="3uigEE" to="tk4x:~ThemeResource" resolve="ThemeResource" />
+                    <node concept="3uibUv" id="2CZV3d2Syvz" role="1tU5fm">
+                      <ref role="3uigEE" to="tk4x:~FontIcon" resolve="FontIcon" />
                     </node>
                     <node concept="10Nm6u" id="7SiTcfwIZtp" role="33vP2m" />
                   </node>
@@ -5374,7 +5388,7 @@
                       <node concept="37vLTI" id="7SiTcfwJ0v7" role="3clFbG">
                         <node concept="2ShNRf" id="7SiTcfwJ0Ek" role="37vLTx">
                           <node concept="1pGfFk" id="7SiTcfwJ0Ej" role="2ShVmc">
-                            <ref role="37wK5l" to="tk4x:~ThemeResource.&lt;init&gt;(java.lang.String)" resolve="ThemeResource" />
+                            <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
                             <node concept="2OqwBi" id="7SiTcfwJ6gL" role="37wK5m">
                               <node concept="37vLTw" id="7SiTcfwJ6a8" role="2Oq$k0">
                                 <ref role="3cqZAo" node="r$jHpEQ2kv" resolve="glue" />
@@ -9669,23 +9683,13 @@
                       <ref role="37wK5l" to="waq:~AbstractComponent.setIcon(com.vaadin.server.Resource):void" resolve="setIcon" />
                       <node concept="2ShNRf" id="r$jHpEL5Dq" role="37wK5m">
                         <node concept="1pGfFk" id="r$jHpEL5Dr" role="2ShVmc">
-                          <ref role="37wK5l" to="tk4x:~ThemeResource.&lt;init&gt;(java.lang.String)" resolve="ThemeResource" />
-                          <node concept="3cpWs3" id="r$jHpEL5Zy" role="37wK5m">
-                            <node concept="Xl_RD" id="r$jHpEL64G" role="3uHU7w">
-                              <property role="Xl_RC" value=".png" />
+                          <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
+                          <node concept="2OqwBi" id="r$jHpEL5TA" role="37wK5m">
+                            <node concept="37vLTw" id="r$jHpEL5Nd" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6go2MrswRlo" resolve="oci" />
                             </node>
-                            <node concept="3cpWs3" id="r$jHpEL5H6" role="3uHU7B">
-                              <node concept="Xl_RD" id="r$jHpEL5Ds" role="3uHU7B">
-                                <property role="Xl_RC" value="img/" />
-                              </node>
-                              <node concept="2OqwBi" id="r$jHpEL5TA" role="3uHU7w">
-                                <node concept="37vLTw" id="r$jHpEL5Nd" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="6go2MrswRlo" resolve="oci" />
-                                </node>
-                                <node concept="2OwXpG" id="r$jHpEL5VC" role="2OqNvi">
-                                  <ref role="2Oxat5" to="28jr:3Rw9V4pLedu" resolve="iconName" />
-                                </node>
-                              </node>
+                            <node concept="2OwXpG" id="r$jHpEL5VC" role="2OqNvi">
+                              <ref role="2Oxat5" to="28jr:3Rw9V4pLedu" resolve="iconName" />
                             </node>
                           </node>
                         </node>
@@ -18271,8 +18275,8 @@
                 <node concept="3cpWs8" id="7SiTcfwJHAf" role="3cqZAp">
                   <node concept="3cpWsn" id="7SiTcfwJHAg" role="3cpWs9">
                     <property role="TrG5h" value="res" />
-                    <node concept="3uibUv" id="7SiTcfwJHAh" role="1tU5fm">
-                      <ref role="3uigEE" to="tk4x:~ThemeResource" resolve="ThemeResource" />
+                    <node concept="3uibUv" id="2CZV3d2S$SJ" role="1tU5fm">
+                      <ref role="3uigEE" to="tk4x:~FontIcon" resolve="FontIcon" />
                     </node>
                     <node concept="10Nm6u" id="7SiTcfwJHAi" role="33vP2m" />
                   </node>
@@ -18285,7 +18289,7 @@
                       <node concept="37vLTI" id="7SiTcfwJHAm" role="3clFbG">
                         <node concept="2ShNRf" id="7SiTcfwJHAn" role="37vLTx">
                           <node concept="1pGfFk" id="7SiTcfwJHAo" role="2ShVmc">
-                            <ref role="37wK5l" to="tk4x:~ThemeResource.&lt;init&gt;(java.lang.String)" resolve="ThemeResource" />
+                            <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
                             <node concept="2OqwBi" id="7SiTcfwJHAp" role="37wK5m">
                               <node concept="37vLTw" id="7SiTcfwJHAq" role="2Oq$k0">
                                 <ref role="3cqZAo" node="5XHFlROHa$1" resolve="glue" />
@@ -18504,9 +18508,13 @@
                               <ref role="2Oxat5" to="yg8v:Y3fiVJM08v" resolve="labelText" />
                             </node>
                           </node>
-                          <node concept="Rm8GO" id="3WgKQm_OIN1" role="37wK5m">
-                            <ref role="Rm8GQ" to="tk4x:~FontAwesome.BARS" resolve="BARS" />
-                            <ref role="1Px2BO" to="tk4x:~FontAwesome" resolve="FontAwesome" />
+                          <node concept="2ShNRf" id="2CZV3d2SBR5" role="37wK5m">
+                            <node concept="1pGfFk" id="2CZV3d2T0zg" role="2ShVmc">
+                              <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
+                              <node concept="Xl_RD" id="2CZV3d2T0AM" role="37wK5m">
+                                <property role="Xl_RC" value="&amp;#xE5D2" />
+                              </node>
+                            </node>
                           </node>
                           <node concept="10Nm6u" id="5XHFlROH0zQ" role="37wK5m" />
                         </node>
@@ -18716,8 +18724,8 @@
                 <node concept="3cpWs8" id="7SiTcfwJIfP" role="3cqZAp">
                   <node concept="3cpWsn" id="7SiTcfwJIfQ" role="3cpWs9">
                     <property role="TrG5h" value="res" />
-                    <node concept="3uibUv" id="7SiTcfwJIfR" role="1tU5fm">
-                      <ref role="3uigEE" to="tk4x:~ThemeResource" resolve="ThemeResource" />
+                    <node concept="3uibUv" id="2CZV3d2S$HU" role="1tU5fm">
+                      <ref role="3uigEE" to="tk4x:~FontIcon" resolve="FontIcon" />
                     </node>
                     <node concept="10Nm6u" id="7SiTcfwJIfS" role="33vP2m" />
                   </node>
@@ -18730,7 +18738,7 @@
                       <node concept="37vLTI" id="7SiTcfwJIfW" role="3clFbG">
                         <node concept="2ShNRf" id="7SiTcfwJIfX" role="37vLTx">
                           <node concept="1pGfFk" id="7SiTcfwJIfY" role="2ShVmc">
-                            <ref role="37wK5l" to="tk4x:~ThemeResource.&lt;init&gt;(java.lang.String)" resolve="ThemeResource" />
+                            <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
                             <node concept="2OqwBi" id="7SiTcfwJIfZ" role="37wK5m">
                               <node concept="37vLTw" id="7SiTcfwJIg0" role="2Oq$k0">
                                 <ref role="3cqZAo" node="5XHFlROGX3E" resolve="glue" />
@@ -24849,47 +24857,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="3NyMOIyZiD4" role="3cqZAp" />
-        <node concept="1X3_iC" id="3bLKpg8T1Ok" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3cpWs8" id="7SiTcfwGMAN" role="8Wnug">
-            <node concept="3cpWsn" id="7SiTcfwGMAO" role="3cpWs9">
-              <property role="TrG5h" value="themeResource" />
-              <node concept="3uibUv" id="7SiTcfwGMAP" role="1tU5fm">
-                <ref role="3uigEE" to="tk4x:~ThemeResource" resolve="ThemeResource" />
-              </node>
-              <node concept="2ShNRf" id="7SiTcfwGNRp" role="33vP2m">
-                <node concept="1pGfFk" id="7SiTcfwGNPE" role="2ShVmc">
-                  <ref role="37wK5l" to="tk4x:~ThemeResource.&lt;init&gt;(java.lang.String)" resolve="ThemeResource" />
-                  <node concept="Xl_RD" id="7SiTcfwGNXA" role="37wK5m">
-                    <property role="Xl_RC" value="img/login_logo.png" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="3bLKpg8T2Ct" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3cpWs8" id="7SiTcfwGGrR" role="8Wnug">
-            <node concept="3cpWsn" id="7SiTcfwGGrS" role="3cpWs9">
-              <property role="TrG5h" value="img" />
-              <node concept="3uibUv" id="7SiTcfwGGrT" role="1tU5fm">
-                <ref role="3uigEE" to="waq:~Image" resolve="Image" />
-              </node>
-              <node concept="2ShNRf" id="7SiTcfwGHD3" role="33vP2m">
-                <node concept="1pGfFk" id="7SiTcfwGHCV" role="2ShVmc">
-                  <ref role="37wK5l" to="waq:~Image.&lt;init&gt;(java.lang.String,com.vaadin.server.Resource)" resolve="Image" />
-                  <node concept="Xl_RD" id="7SiTcfwGSDZ" role="37wK5m" />
-                  <node concept="37vLTw" id="7SiTcfwGVyl" role="37wK5m">
-                    <ref role="3cqZAo" node="7SiTcfwGMAO" resolve="themeResource" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="3bLKpg8T5o5" role="3cqZAp">
           <node concept="3cpWsn" id="3bLKpg8T5o6" role="3cpWs9">
             <property role="TrG5h" value="appNameVersionLabel" />
@@ -29920,19 +29887,6 @@
             <ref role="37wK5l" to="waq:~AbstractComponent.setCaption(java.lang.String):void" resolve="setCaption" />
             <node concept="37vLTw" id="gGnCBOCzqh" role="37wK5m">
               <ref role="3cqZAo" node="gGnCBOCy2M" resolve="label" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3oZR98Nj91T" role="3cqZAp">
-          <node concept="1rXfSq" id="3oZR98Nj91R" role="3clFbG">
-            <ref role="37wK5l" to="waq:~AbstractComponent.setIcon(com.vaadin.server.Resource):void" resolve="setIcon" />
-            <node concept="2ShNRf" id="3oZR98Nj9bo" role="37wK5m">
-              <node concept="1pGfFk" id="3oZR98Nja5_" role="2ShVmc">
-                <ref role="37wK5l" node="3oZR98NiLLs" resolve="VMaterialIconFont" />
-                <node concept="2nou5x" id="3oZR98Nja81" role="37wK5m">
-                  <property role="2noCCI" value="E879" />
-                </node>
-              </node>
             </node>
           </node>
         </node>
@@ -37124,27 +37078,99 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="codepoint" />
       <property role="3TUv4t" value="false" />
-      <node concept="10Oyi0" id="3oZR98Nj2q8" role="1tU5fm" />
+      <node concept="10Oyi0" id="2CZV3d2VxOp" role="1tU5fm" />
       <node concept="3Tm6S6" id="3oZR98Nj2v6" role="1B3o_S" />
     </node>
     <node concept="3clFbW" id="3oZR98NiLLs" role="jymVt">
       <node concept="37vLTG" id="3oZR98NiLON" role="3clF46">
-        <property role="TrG5h" value="cp" />
-        <node concept="10Oyi0" id="3oZR98NiLPO" role="1tU5fm" />
+        <property role="TrG5h" value="imgName" />
+        <node concept="17QB3L" id="2CZV3d2SxyB" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="3oZR98NiLLu" role="3clF45" />
       <node concept="3Tm1VV" id="3oZR98NiLLv" role="1B3o_S" />
       <node concept="3clFbS" id="3oZR98NiLLw" role="3clF47">
-        <node concept="3clFbF" id="3oZR98NiLVM" role="3cqZAp">
-          <node concept="37vLTI" id="3oZR98NiM0A" role="3clFbG">
-            <node concept="37vLTw" id="3oZR98NiM5m" role="37vLTx">
-              <ref role="3cqZAo" node="3oZR98NiLON" resolve="cp" />
+        <node concept="SfApY" id="2CZV3d2VxYN" role="3cqZAp">
+          <node concept="3clFbS" id="2CZV3d2VxYP" role="SfCbr">
+            <node concept="3clFbJ" id="2CZV3d2VDjL" role="3cqZAp">
+              <node concept="3clFbS" id="2CZV3d2VDjN" role="3clFbx">
+                <node concept="3clFbF" id="2CZV3d2VDLj" role="3cqZAp">
+                  <node concept="37vLTI" id="2CZV3d2VDOH" role="3clFbG">
+                    <node concept="Xl_RD" id="2CZV3d2VDRO" role="37vLTx">
+                      <property role="Xl_RC" value="&amp;#xE5C4" />
+                    </node>
+                    <node concept="37vLTw" id="2CZV3d2VDLh" role="37vLTJ">
+                      <ref role="3cqZAo" node="3oZR98NiLON" resolve="imgName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2CZV3d2VDt3" role="3clFbw">
+                <node concept="liA8E" id="2CZV3d2VDzg" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="37vLTw" id="2CZV3d2VDpo" role="37wK5m">
+                    <ref role="3cqZAo" node="3oZR98NiLON" resolve="imgName" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="2CZV3d2VD$T" role="2Oq$k0">
+                  <property role="Xl_RC" value="arrow_back" />
+                </node>
+              </node>
             </node>
-            <node concept="37vLTw" id="3oZR98Nj2x$" role="37vLTJ">
-              <ref role="3cqZAo" node="3oZR98Nj2sz" resolve="codepoint" />
+            <node concept="3clFbF" id="2CZV3d2Vyqx" role="3cqZAp">
+              <node concept="37vLTI" id="2CZV3d2Vyzk" role="3clFbG">
+                <node concept="2YIFZM" id="2CZV3d2VyJd" role="37vLTx">
+                  <ref role="37wK5l" to="wyt6:~Integer.decode(java.lang.String):java.lang.Integer" resolve="decode" />
+                  <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                  <node concept="3cpWs3" id="2CZV3d2Vz4W" role="37wK5m">
+                    <node concept="Xl_RD" id="2CZV3d2Vz7T" role="3uHU7B">
+                      <property role="Xl_RC" value="0X" />
+                    </node>
+                    <node concept="2OqwBi" id="2CZV3d2VyQw" role="3uHU7w">
+                      <node concept="37vLTw" id="2CZV3d2VyNa" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3oZR98NiLON" resolve="imgName" />
+                      </node>
+                      <node concept="liA8E" id="2CZV3d2VyXs" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.substring(int):java.lang.String" resolve="substring" />
+                        <node concept="3cmrfG" id="2CZV3d2Vz0S" role="37wK5m">
+                          <property role="3cmrfH" value="3" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2CZV3d2Vyqv" role="37vLTJ">
+                  <ref role="3cqZAo" node="3oZR98Nj2sz" resolve="codepoint" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="2CZV3d2VxYQ" role="TEbGg">
+            <node concept="3cpWsn" id="2CZV3d2VxYS" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="2CZV3d2Vy08" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="2CZV3d2VxYW" role="TDEfX">
+              <node concept="3clFbF" id="2CZV3d2Vy3H" role="3cqZAp">
+                <node concept="37vLTI" id="2CZV3d2Vy9p" role="3clFbG">
+                  <node concept="2nou5x" id="2CZV3d2VybA" role="37vLTx">
+                    <property role="2noCCI" value="E8E3" />
+                  </node>
+                  <node concept="37vLTw" id="2CZV3d2Vy3G" role="37vLTJ">
+                    <ref role="3cqZAo" node="3oZR98Nj2sz" resolve="codepoint" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="2CZV3d2VxM2" role="3cqZAp">
+          <node concept="3SKdUq" id="2CZV3d2VxM4" role="3SKWNk">
+            <property role="3SKdUp" value="value as hex" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2CZV3d2VxMM" role="3cqZAp" />
       </node>
     </node>
     <node concept="3clFb_" id="3oZR98NiK8B" role="jymVt">

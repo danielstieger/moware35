@@ -1581,6 +1581,7 @@ div.v-layout.v-horizontal.v-widget {
 	text-rendering: optimizeLegibility;
 	-moz-osx-font-smoothing: grayscale;
 	font-feature-settings: "liga";
+	vertical-align: sub;
 }
 
 .moware .v-context-menu {

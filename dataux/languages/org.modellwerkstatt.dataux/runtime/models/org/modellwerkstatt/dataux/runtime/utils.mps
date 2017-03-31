@@ -2670,7 +2670,7 @@
         <property role="TrG5h" value="FATA_APPFRMWRK_PROBLEM" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4ysbFF_K1vf" role="37wK5m">
-          <property role="Xl_RC" value="Ein schwerwiegender Systemfehler ist aufgetreten!! Das Geraet ist nicht einsatzbereit!!" />
+          <property role="Xl_RC" value="Ein schwerwiegender Systemfehler ist aufgetreten!! Das System ist nicht einsatzbereit!!" />
         </node>
         <node concept="10Nm6u" id="4ysbFF_K1vg" role="37wK5m" />
         <node concept="10Nm6u" id="4ysbFF_K1vh" role="37wK5m" />
