@@ -3,11 +3,9 @@
   <persistence version="9" />
   <languages>
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
-    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
   <imports>
-    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
@@ -698,7 +696,7 @@
       <node concept="37vLTG" id="2yuEF6qaA$d" role="3clF46">
         <property role="TrG5h" value="userTelemtrics" />
         <node concept="3uibUv" id="31dwTLE$qNM" role="1tU5fm">
-          <ref role="3uigEE" node="1EBV9L$__ru" resolve="ClientTelemetrics" />
+          <ref role="3uigEE" node="1EBV9L$__ru" resolve="DEP_ClientTelemetrics" />
         </node>
       </node>
       <node concept="37vLTG" id="2yuEF6qaCFs" role="3clF46">
@@ -927,7 +925,7 @@
       <node concept="37vLTG" id="64d_Sur_2XW" role="3clF46">
         <property role="TrG5h" value="userTelem" />
         <node concept="3uibUv" id="31dwTLE$rjV" role="1tU5fm">
-          <ref role="3uigEE" node="1EBV9L$__ru" resolve="ClientTelemetrics" />
+          <ref role="3uigEE" node="1EBV9L$__ru" resolve="DEP_ClientTelemetrics" />
         </node>
       </node>
       <node concept="37vLTG" id="2yuEF6qaCik" role="3clF46">
@@ -1123,8 +1121,8 @@
       <property role="TrG5h" value="registerClient" />
       <node concept="37vLTG" id="1EBV9L$_BFI" role="3clF46">
         <property role="TrG5h" value="clientTelemetrics" />
-        <node concept="3uibUv" id="1EBV9L$_F46" role="1tU5fm">
-          <ref role="3uigEE" node="1EBV9L$__ru" resolve="ClientTelemetrics" />
+        <node concept="3uibUv" id="4n24ZlExP$M" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:SQhsWRUr6_" resolve="CoreReporter" />
         </node>
       </node>
       <node concept="3cqZAl" id="1EBV9L$_BFK" role="3clF45" />
@@ -1151,21 +1149,36 @@
                   <node concept="2ShNRf" id="1EBV9L$_BFY" role="37wK5m">
                     <node concept="1pGfFk" id="1EBV9L$_BFZ" role="2ShVmc">
                       <ref role="37wK5l" to="9vh7:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="3cpWs3" id="6TYnK1bIDex" role="37wK5m">
-                        <node concept="3cpWs3" id="1EBV9L$_BG4" role="3uHU7B">
-                          <node concept="37vLTw" id="1EBV9L$_BG7" role="3uHU7B">
-                            <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
-                          </node>
-                          <node concept="37vLTw" id="1EBV9L$_FOq" role="3uHU7w">
-                            <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="clientServiceName" />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="31dwTLE$jWF" role="3uHU7w">
-                          <node concept="37vLTw" id="31dwTLE$jPW" role="2Oq$k0">
+                      <node concept="3cpWs3" id="4n24ZlExRME" role="37wK5m">
+                        <node concept="2OqwBi" id="4n24ZlExShR" role="3uHU7w">
+                          <node concept="37vLTw" id="4n24ZlExSet" role="2Oq$k0">
                             <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="clientTelemetrics" />
                           </node>
-                          <node concept="liA8E" id="31dwTLE$kfd" role="2OqNvi">
-                            <ref role="37wK5l" node="5YG5DD8Xlry" resolve="getJmxRegistrationName" />
+                          <node concept="liA8E" id="4n24ZlExStj" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                          </node>
+                        </node>
+                        <node concept="3cpWs3" id="4n24ZlExQEC" role="3uHU7B">
+                          <node concept="3cpWs3" id="6TYnK1bIDex" role="3uHU7B">
+                            <node concept="3cpWs3" id="1EBV9L$_BG4" role="3uHU7B">
+                              <node concept="37vLTw" id="1EBV9L$_BG7" role="3uHU7B">
+                                <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
+                              </node>
+                              <node concept="37vLTw" id="1EBV9L$_FOq" role="3uHU7w">
+                                <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="clientServiceName" />
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="31dwTLE$jWF" role="3uHU7w">
+                              <node concept="37vLTw" id="31dwTLE$jPW" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="clientTelemetrics" />
+                              </node>
+                              <node concept="liA8E" id="31dwTLE$kfd" role="2OqNvi">
+                                <ref role="37wK5l" to="1e0c:4n24ZlExUzM" resolve="getuser_credentials" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="4n24ZlExR5U" role="3uHU7w">
+                            <property role="Xl_RC" value=" @" />
                           </node>
                         </node>
                       </node>
@@ -1320,8 +1333,8 @@
       <property role="TrG5h" value="unregisterClient" />
       <node concept="37vLTG" id="1EBV9L$_AM6" role="3clF46">
         <property role="TrG5h" value="clientTelemetrics" />
-        <node concept="3uibUv" id="1EBV9L$_EtJ" role="1tU5fm">
-          <ref role="3uigEE" node="1EBV9L$__ru" resolve="ClientTelemetrics" />
+        <node concept="3uibUv" id="4n24ZlExPIu" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:SQhsWRUr6_" resolve="CoreReporter" />
         </node>
       </node>
       <node concept="3cqZAl" id="1EBV9L$_AM8" role="3clF45" />
@@ -1345,21 +1358,36 @@
                   <node concept="2ShNRf" id="1EBV9L$_AMl" role="37wK5m">
                     <node concept="1pGfFk" id="1EBV9L$_AMm" role="2ShVmc">
                       <ref role="37wK5l" to="9vh7:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="3cpWs3" id="6TYnK1bIJ0I" role="37wK5m">
-                        <node concept="3cpWs3" id="6TYnK1bIJ0J" role="3uHU7B">
-                          <node concept="37vLTw" id="6TYnK1bIJ0K" role="3uHU7B">
-                            <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
-                          </node>
-                          <node concept="37vLTw" id="6TYnK1bIJ0Z" role="3uHU7w">
-                            <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="clientServiceName" />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="31dwTLE$kDU" role="3uHU7w">
-                          <node concept="37vLTw" id="31dwTLE$kzo" role="2Oq$k0">
+                      <node concept="3cpWs3" id="4n24ZlExTdm" role="37wK5m">
+                        <node concept="2OqwBi" id="4n24ZlExTdn" role="3uHU7w">
+                          <node concept="37vLTw" id="4n24ZlExTdo" role="2Oq$k0">
                             <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="clientTelemetrics" />
                           </node>
-                          <node concept="liA8E" id="31dwTLE$kTr" role="2OqNvi">
-                            <ref role="37wK5l" node="5YG5DD8Xlry" resolve="getJmxRegistrationName" />
+                          <node concept="liA8E" id="4n24ZlExTdp" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                          </node>
+                        </node>
+                        <node concept="3cpWs3" id="4n24ZlExTdq" role="3uHU7B">
+                          <node concept="3cpWs3" id="4n24ZlExTdr" role="3uHU7B">
+                            <node concept="3cpWs3" id="4n24ZlExTds" role="3uHU7B">
+                              <node concept="37vLTw" id="4n24ZlExTdt" role="3uHU7B">
+                                <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
+                              </node>
+                              <node concept="37vLTw" id="4n24ZlExTdE" role="3uHU7w">
+                                <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="clientServiceName" />
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="4n24ZlExTdu" role="3uHU7w">
+                              <node concept="37vLTw" id="4n24ZlExTdv" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="clientTelemetrics" />
+                              </node>
+                              <node concept="liA8E" id="4n24ZlExTdw" role="2OqNvi">
+                                <ref role="37wK5l" to="1e0c:4n24ZlExUzM" resolve="getuser_credentials" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="4n24ZlExTdx" role="3uHU7w">
+                            <property role="Xl_RC" value=" @" />
                           </node>
                         </node>
                       </node>
@@ -3409,10 +3437,7 @@
     </node>
   </node>
   <node concept="312cEu" id="1EBV9L$__ru">
-    <property role="TrG5h" value="ClientTelemetrics" />
-    <node concept="3uibUv" id="2$LKw9UWoND" role="EKbjA">
-      <ref role="3uigEE" to="28jr:2$LKw9UWnvq" resolve="IOFXUserJmxServices" />
-    </node>
+    <property role="TrG5h" value="DEP_ClientTelemetrics" />
     <node concept="312cEg" id="6TYnK1bu0j5" role="jymVt">
       <property role="TrG5h" value="connectionInfo" />
       <node concept="3Tmbuc" id="31dwTLExNBp" role="1B3o_S" />
@@ -3515,7 +3540,7 @@
     <node concept="2tJIrI" id="31dwTLEzKmD" role="jymVt" />
     <node concept="3clFb_" id="5YG5DD8XhoV" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getuser_userCredentials" />
+      <property role="TrG5h" value="getuser_credentials" />
       <node concept="17QB3L" id="5YG5DD8XhoW" role="3clF45" />
       <node concept="3Tm1VV" id="5YG5DD8XhoX" role="1B3o_S" />
       <node concept="3clFbS" id="5YG5DD8Xhp1" role="3clF47">
@@ -3711,7 +3736,7 @@
     </node>
     <node concept="3clFb_" id="uIdudhLYZD" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="informationOnCommands" />
+      <property role="TrG5h" value="fullApplicationCrtlState" />
       <node concept="17QB3L" id="uIdudhLYZE" role="3clF45" />
       <node concept="3Tm1VV" id="uIdudhLYZF" role="1B3o_S" />
       <node concept="3clFbS" id="uIdudhLYZJ" role="3clF47">
@@ -3737,11 +3762,11 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="1EBV9L$__rv" role="1B3o_S" />
-    <node concept="3uibUv" id="1EBV9L$__Eb" role="EKbjA">
-      <ref role="3uigEE" node="1EBV9L$__sD" resolve="ClientTelemetricsMBean" />
-    </node>
     <node concept="3uibUv" id="6TYnK1btBm7" role="1zkMxy">
       <ref role="3uigEE" to="9vh7:~NotificationBroadcasterSupport" resolve="NotificationBroadcasterSupport" />
+    </node>
+    <node concept="2AHcQZ" id="4n24ZlEBMF0" role="2AJF6D">
+      <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
     </node>
   </node>
   <node concept="312cEu" id="4QTIUTBRe6X">
@@ -5375,48 +5400,6 @@
     </node>
     <node concept="2tJIrI" id="5OZ8iimA7rF" role="jymVt" />
     <node concept="2tJIrI" id="1w5Ldyj69CW" role="jymVt" />
-  </node>
-  <node concept="3HP615" id="1EBV9L$__sD">
-    <property role="TrG5h" value="ClientTelemetricsMBean" />
-    <node concept="3clFb_" id="1EBV9L$__$$" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getuser_userCredentials" />
-      <node concept="17QB3L" id="1EBV9L$__An" role="3clF45" />
-      <node concept="3Tm1VV" id="1EBV9L$__$B" role="1B3o_S" />
-      <node concept="3clFbS" id="1EBV9L$__$C" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="6TYnK1btYlo" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getuser_connectionInfo" />
-      <node concept="17QB3L" id="6TYnK1btYlp" role="3clF45" />
-      <node concept="3Tm1VV" id="6TYnK1btYlq" role="1B3o_S" />
-      <node concept="3clFbS" id="6TYnK1btYlr" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="5YG5DD8X9jK" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getuser_lastInteraction" />
-      <node concept="17QB3L" id="5YG5DD8X9jL" role="3clF45" />
-      <node concept="3Tm1VV" id="5YG5DD8X9jM" role="1B3o_S" />
-      <node concept="3clFbS" id="5YG5DD8X9jN" role="3clF47" />
-    </node>
-    <node concept="2tJIrI" id="6TYnK1btYkN" role="jymVt" />
-    <node concept="3clFb_" id="uIdudhLYhg" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="informationOnCommands" />
-      <node concept="17QB3L" id="uIdudhLYlU" role="3clF45" />
-      <node concept="3Tm1VV" id="uIdudhLYhj" role="1B3o_S" />
-      <node concept="3clFbS" id="uIdudhLYhk" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="4UpVxfjHHjb" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="informationOnUserPrintService" />
-      <node concept="3clFbS" id="4UpVxfjHHje" role="3clF47" />
-      <node concept="3Tm1VV" id="4UpVxfjHHjf" role="1B3o_S" />
-      <node concept="17QB3L" id="4UpVxfjHHhX" role="3clF45" />
-    </node>
-    <node concept="2tJIrI" id="uIdudhLYfM" role="jymVt" />
-    <node concept="3Tm1VV" id="1EBV9L$__sE" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="3CnNtH_0mBF">
     <property role="TrG5h" value="KafkaLogger" />
