@@ -2577,8 +2577,20 @@
           </node>
         </node>
         <node concept="3clFbH" id="7HBdlGU5akY" role="3cqZAp" />
+        <node concept="3cpWs8" id="3VF1NMV5RDz" role="3cqZAp">
+          <node concept="3cpWsn" id="3VF1NMV5RDA" role="3cpWs9">
+            <property role="TrG5h" value="guessedServerName" />
+            <node concept="17QB3L" id="3VF1NMV5RDx" role="1tU5fm" />
+            <node concept="2YIFZM" id="3VF1NMV5VyJ" role="33vP2m">
+              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+              <ref role="37wK5l" to="wyt6:~System.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
+              <node concept="Xl_RD" id="3VF1NMV5VzV" role="37wK5m">
+                <property role="Xl_RC" value="server.instancename" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="25h1UmU8Fb9" role="3cqZAp" />
-        <node concept="3clFbH" id="25h1UmU8FdG" role="3cqZAp" />
         <node concept="3clFbF" id="1EBV9L$tFei" role="3cqZAp">
           <node concept="37vLTI" id="1EBV9L$tFIP" role="3clFbG">
             <node concept="2ShNRf" id="1EBV9L$tIx$" role="37vLTx">
@@ -2818,6 +2830,9 @@
                 <node concept="37vLTw" id="1SuqpWQPsFu" role="3uHU7w">
                   <ref role="3cqZAo" node="7708TIHL749" resolve="frameworkVersion" />
                 </node>
+              </node>
+              <node concept="37vLTw" id="63IPdUQEiy9" role="37wK5m">
+                <ref role="3cqZAo" node="3VF1NMV5RDA" resolve="guessedServerName" />
               </node>
             </node>
           </node>
