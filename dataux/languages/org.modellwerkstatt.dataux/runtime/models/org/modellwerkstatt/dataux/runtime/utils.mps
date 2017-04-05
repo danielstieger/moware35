@@ -2298,19 +2298,28 @@
         <property role="TrG5h" value="CRTL_SPACE_PRESS" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2UE" role="37wK5m">
-          <property role="Xl_RC" value="&lt;crtl-space drücken&gt;" />
+          <property role="Xl_RC" value="&lt;crtl-space&gt; oder &lt;mouse-click&gt; " />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCt" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCu" role="37wK5m" />
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2UH" role="Qtgdg">
-        <property role="TrG5h" value="REF_VALIDATION_ERR" />
+        <property role="TrG5h" value="REF_VALIDATION_OPTIONAL_ERR" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4Zj1V_wG2UI" role="37wK5m">
-          <property role="Xl_RC" value="Eine gültige Auswahl muss getroffen werden." />
+          <property role="Xl_RC" value="Eine gültige Auswahl (oder keine Auswahl) muss getroffen werden." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCv" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCw" role="37wK5m" />
+      </node>
+      <node concept="QsSxf" id="7ecadVRps$R" role="Qtgdg">
+        <property role="TrG5h" value="REF_VALIDATION_ERR" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
+        <node concept="Xl_RD" id="7ecadVRps$S" role="37wK5m">
+          <property role="Xl_RC" value="Eine gültige Auswahl muss getroffen werden." />
+        </node>
+        <node concept="10Nm6u" id="7ecadVRps$T" role="37wK5m" />
+        <node concept="10Nm6u" id="7ecadVRps$U" role="37wK5m" />
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2UK" role="Qtgdg">
         <property role="TrG5h" value="REF_NO_OPTION_ERR" />
