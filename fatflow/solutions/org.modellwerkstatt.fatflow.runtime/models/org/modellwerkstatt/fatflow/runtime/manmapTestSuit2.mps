@@ -11911,11 +11911,11 @@
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="Creators" />
     <node concept="J2Nxi" id="7mZ5ilqNXRI" role="38MLOi">
-      <property role="J2Nxv" value="c:/moware/fatflow/testdata/" />
+      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
       <property role="TrG5h" value="GRAPHS" />
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="c:/moware/fatflow/testdata/sqls/" />
+      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">
@@ -22892,9 +22892,9 @@
               </node>
             </node>
           </node>
-          <node concept="16GPin" id="4eJAcMlm7vl" role="lGtFl">
+          <node concept="16GPin" id="5ztwEZdRP8h" role="lGtFl">
             <ref role="16PnFS" to="wyt6:~IllegalStateException" resolve="IllegalStateException" />
-            <node concept="Xl_RD" id="4eJAcMlm7QY" role="16NUyR">
+            <node concept="Xl_RD" id="5ztwEZdRR5L" role="16NUyR">
               <property role="Xl_RC" value="already checked out" />
             </node>
           </node>
@@ -27316,6 +27316,104 @@
         </node>
       </node>
     </node>
+    <node concept="wbJLE" id="5ztwEZdH5_9" role="jymVt">
+      <property role="TrG5h" value="mapSelectError" />
+      <node concept="37vLTG" id="5ztwEZdH5W_" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="17QB3L" id="5ztwEZdH60S" role="1tU5fm" />
+      </node>
+      <node concept="10Oyi0" id="5ztwEZdH5Hd" role="3clF45" />
+      <node concept="3Tm1VV" id="5ztwEZdH5_b" role="1B3o_S" />
+      <node concept="3clFbS" id="5ztwEZdH5_c" role="3clF47">
+        <node concept="3cpWs6" id="5ztwEZdH5Gj" role="3cqZAp">
+          <node concept="2OqwBi" id="5ztwEZdH6$L" role="3cqZAk">
+            <node concept="1eaaFm" id="5ztwEZdH5I8" role="2Oq$k0">
+              <node concept="37vLTw" id="5ztwEZdH64v" role="18nGdJ">
+                <ref role="3cqZAo" node="5ztwEZdH5W_" resolve="value" />
+              </node>
+              <node concept="1bVj0M" id="5ztwEZdH5Ia" role="q55Dl">
+                <node concept="3clFbS" id="5ztwEZdH5Ib" role="1bW5cS">
+                  <node concept="3clFbF" id="5ztwEZdH67Y" role="3cqZAp">
+                    <node concept="2OqwBi" id="5ztwEZdH6e_" role="3clFbG">
+                      <node concept="37vLTw" id="5ztwEZdH6bk" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5ztwEZdH5Ic" resolve="row" />
+                      </node>
+                      <node concept="liA8E" id="5ztwEZdH6gO" role="2OqNvi">
+                        <ref role="37wK5l" to="w7gk:3NdPOdNGJWi" resolve="getAsInteger" />
+                        <node concept="3cmrfG" id="5ztwEZdH6kd" role="37wK5m">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="jxRLt" id="5ztwEZdH5Ic" role="1bW2Oz">
+                  <property role="TrG5h" value="row" />
+                  <node concept="2jxLKc" id="5ztwEZdH5Id" role="1tU5fm" />
+                </node>
+              </node>
+              <node concept="1Q8zPT" id="5ztwEZdH5T1" role="1ea49x">
+                <node concept="19SGf9" id="5ztwEZdH5T2" role="1Q8hHE">
+                  <node concept="19SUe$" id="5ztwEZdH5T3" role="19SJt6">
+                    <property role="19SUeA" value="SELECT count(*) from " />
+                  </node>
+                  <node concept="1Q8hzo" id="5ztwEZdH5Wp" role="19SJt6">
+                    <ref role="1Q8qb1" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+                  </node>
+                  <node concept="19SUe$" id="5ztwEZdH5Wq" role="19SJt6">
+                    <property role="19SUeA" value=" WHERE " />
+                  </node>
+                  <node concept="1Q8hyx" id="5ztwEZdH5Wu" role="19SJt6">
+                    <ref role="1Q8sVa" node="4eJAcMlClHd" />
+                  </node>
+                  <node concept="19SUe$" id="5ztwEZdH5Wv" role="19SJt6">
+                    <property role="19SUeA" value=" == ?" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1uHKPH" id="5ztwEZdH6L9" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="wbJLE" id="5ztwEZdH6O2" role="jymVt">
+      <property role="TrG5h" value="mapUpdateError" />
+      <node concept="37vLTG" id="5ztwEZdH6O3" role="3clF46">
+        <property role="TrG5h" value="value" />
+        <node concept="17QB3L" id="5ztwEZdH6O4" role="1tU5fm" />
+      </node>
+      <node concept="10Oyi0" id="5ztwEZdH6O5" role="3clF45" />
+      <node concept="3Tm1VV" id="5ztwEZdH6O6" role="1B3o_S" />
+      <node concept="3clFbS" id="5ztwEZdH6O7" role="3clF47">
+        <node concept="3cpWs6" id="5ztwEZdH7NZ" role="3cqZAp">
+          <node concept="2KoPwa" id="5ztwEZdH7RW" role="3cqZAk">
+            <node concept="37vLTw" id="5ztwEZdH8AQ" role="2KoP_6">
+              <ref role="3cqZAo" node="5ztwEZdH6O3" resolve="value" />
+            </node>
+            <node concept="1Q8zPT" id="5ztwEZdH7Vr" role="2KoP_5">
+              <node concept="19SGf9" id="5ztwEZdH7Vs" role="1Q8hHE">
+                <node concept="19SUe$" id="5ztwEZdH7Vt" role="19SJt6">
+                  <property role="19SUeA" value="UPDATE " />
+                </node>
+                <node concept="1Q8hzo" id="5ztwEZdH7YT" role="19SJt6">
+                  <ref role="1Q8qb1" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+                </node>
+                <node concept="19SUe$" id="5ztwEZdH7YU" role="19SJt6">
+                  <property role="19SUeA" value=" WHERE " />
+                </node>
+                <node concept="1Q8hyx" id="5ztwEZdH7YV" role="19SJt6">
+                  <ref role="1Q8sVa" node="4eJAcMlClHd" />
+                </node>
+                <node concept="19SUe$" id="5ztwEZdH7YW" role="19SJt6">
+                  <property role="19SUeA" value=" == ?" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="1lpzdTlNdbH" role="1B3o_S" />
   </node>
   <node concept="wbJL_" id="W1NYBg4Nxa">
@@ -29832,6 +29930,50 @@
               <node concept="Xl_RD" id="67iuXo6BpgR" role="37wK5m">
                 <property role="Xl_RC" value="params" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="5ztwEZdH4WI" role="3yMuLx">
+      <property role="TrG5h" value="MapSELECT should report nice messages on errors." />
+      <node concept="3cqZAl" id="5ztwEZdH50f" role="3clF45" />
+      <node concept="3clFbS" id="5ztwEZdH4WM" role="3clF47">
+        <node concept="3clFbF" id="5ztwEZdH8F_" role="3cqZAp">
+          <node concept="1odsa" id="5ztwEZdH8F$" role="3clFbG">
+            <ref role="37wK5l" node="5ztwEZdH5_9" resolve="mapSelectError" />
+            <ref role="1ods_" node="1lpzdTlNdbG" resolve="RepoCustomSql" />
+            <node concept="Xl_RD" id="5ztwEZdH8FI" role="37wK5m">
+              <property role="Xl_RC" value="DAN" />
+            </node>
+            <node concept="10Nm6u" id="5ztwEZdH906" role="2f8TIa" />
+          </node>
+          <node concept="16GPin" id="5ztwEZdJAe7" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="5ztwEZdJAeH" role="16NUyR">
+              <property role="Xl_RC" value="ORA-00936" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="5ztwEZdH50i" role="3yMuLx">
+      <property role="TrG5h" value="MapUPDATE should report nice messages on errors." />
+      <node concept="3cqZAl" id="5ztwEZdH50j" role="3clF45" />
+      <node concept="3clFbS" id="5ztwEZdH50k" role="3clF47">
+        <node concept="3clFbF" id="5ztwEZdH90r" role="3cqZAp">
+          <node concept="1odsa" id="5ztwEZdH90s" role="3clFbG">
+            <ref role="37wK5l" node="5ztwEZdH6O2" resolve="mapUpdateError" />
+            <ref role="1ods_" node="1lpzdTlNdbG" resolve="RepoCustomSql" />
+            <node concept="Xl_RD" id="5ztwEZdH90t" role="37wK5m">
+              <property role="Xl_RC" value="DAN" />
+            </node>
+            <node concept="10Nm6u" id="5ztwEZdH90u" role="2f8TIa" />
+          </node>
+          <node concept="16GPin" id="5ztwEZdJAgS" role="lGtFl">
+            <ref role="16PnFS" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+            <node concept="Xl_RD" id="5ztwEZdJAhu" role="16NUyR">
+              <property role="Xl_RC" value="ORA-00971" />
             </node>
           </node>
         </node>
