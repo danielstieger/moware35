@@ -1,0 +1,204 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mom .mdl-layout__header-row {
+	// current height, min, max is 64 and 56 on smaller devices
+}
+
+.mom #add {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    z-index: 999;
+}
+
+.mom .mdl-card {
+	min-height: 10px;
+}
+.mdl-card__mom-color-bar {
+	box-sizing: border-box;
+	min-height: 10px;
+}
+
+.mom .mdl-card .mdl-card__supporting-text {
+  margin: 10px 20px 10px 20px;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 10px 0px 0px 0px;
+  color: inherit;
+  width: calc(100% - 80px);
+}
+
+.mom .mdl-layout__content section:not(:last-of-type) {
+  position: relative;
+  margin-bottom: 48px;
+}
+.mom .mdl-card__actions a {
+  color: #00BCD4;
+  margin: 0;
+}
+
+.mom div.div--center {
+  max-width: 860px;
+}
+
+.mom section.section--center {
+  max-width: 860px;
+}
+.mom #features section.section--center {
+  max-width: 620px;
+}
+.mom section > header{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.mom section > .section__play-btn {
+  min-height: 200px;
+}
+.mom section > header > .material-icons {
+  font-size: 3rem;
+}
+
+.mom section > .multiButtonRight, .mom section > button {
+  display: block;
+  position: absolute;
+  z-index: 99;
+  top: 8px;
+  right: 8px;
+}
+
+
+.mom section .section__circle {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -webkit-flex-shrink: 1;
+      -ms-flex-negative: 1;
+          flex-shrink: 1;
+}
+.mom section .section__text {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+.mom section .section__text h5 {
+  font-size: inherit;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.mom section .section__text a {
+  text-decoration: none;
+}
+.mom section .section__circle-container > .section__circle-container__circle {
+  width: 64px;
+  height: 48px;
+  border-radius: 32px;
+  margin: 8px 0;
+  padding-top: 16px;
+  text-align: center;
+  color: white;
+}
+
+
+.mom section.section--footer .section__circle--big {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 8px 32px;
+}
+.mom .is-small-screen section.section--footer .section__circle--big {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 8px 16px;
+}
+.mom section.section--footer {
+  padding: 64px 0;
+  margin: 0 -8px -8px -8px;
+}
+.mom section.section--center .section__text:not(:last-child) {
+  border-bottom: 1px solid rgba(0,0,0,.13);
+}
+.mom .mdl-card .mdl-card__supporting-text > h3:first-child {
+  margin-bottom: 24px;
+}
+.mom .mdl-layout__tab-panel:not(#overview) {
+  background-color: white;
+}
+.mom #features section {
+  margin-bottom: 72px;
+}
+.mom #features h4, #features h5 {
+  margin-bottom: 16px;
+}
+
+
+.mom--red {
+    background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
+.mom--yellow {
+    background-color: rgba(255, 255, 0, 0.2) !important;
+}
+
+.mom--green {
+    background-color: rgba(0, 255, 0, 0.2) !important;
+}
+
+
+
+/* ------------- */
+.text--right {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.text--bold {
+     font-weight: bold;
+}
+
+.delegate--background{
+    background-color: #EEEEEE;
+    padding: 10px;
+}
