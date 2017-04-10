@@ -1785,8 +1785,8 @@
       <property role="TrG5h" value="DEVELOPMENT_SETTING" />
       <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
       <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
-      <node concept="3clFbT" id="3ob8bMngp9o" role="33vP2m">
-        <property role="3clFbU" value="true" />
+      <node concept="3clFbT" id="6fG2jrQqwVC" role="33vP2m">
+        <property role="3clFbU" value="false" />
       </node>
     </node>
     <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
@@ -1800,7 +1800,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="mowareUx RC11 vaadin (dev " />
+            <property role="Xl_RC" value="mowareUx RC13C sort (dev " />
           </node>
           <node concept="37vLTw" id="2$gclwwfVu1" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />

@@ -60,6 +60,7 @@
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
       <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1153422105332" name="jetbrains.mps.baseLanguage.structure.RemExpression" flags="nn" index="2dk9JS" />
+      <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1179360813171" name="jetbrains.mps.baseLanguage.structure.HexIntegerLiteral" flags="nn" index="2nou5x">
@@ -17203,6 +17204,7 @@
             <ref role="3cqZAo" node="5tLhDsemYaq" resolve="entities" />
           </node>
         </node>
+        <node concept="3clFbH" id="6fG2jrQqoxJ" role="3cqZAp" />
         <node concept="2$JKZl" id="3ob8bMnaWfu" role="3cqZAp">
           <node concept="3clFbS" id="3ob8bMnaWfw" role="2LFqv$">
             <node concept="3clFbF" id="3ob8bMnaZ0h" role="3cqZAp">
@@ -17226,12 +17228,12 @@
               </node>
             </node>
           </node>
-          <node concept="3eOVzh" id="3ob8bMnaXEo" role="2$JKZa">
-            <node concept="37vLTw" id="3ob8bMnaYlq" role="3uHU7w">
-              <ref role="3cqZAo" node="3ob8bMnawdS" resolve="maxIndex" />
-            </node>
+          <node concept="2dkUwp" id="6fG2jrQqoZZ" role="2$JKZa">
             <node concept="37vLTw" id="3ob8bMnaXb9" role="3uHU7B">
               <ref role="3cqZAo" node="3ob8bMnaQjP" resolve="i_1indexed" />
+            </node>
+            <node concept="37vLTw" id="3ob8bMnaYlq" role="3uHU7w">
+              <ref role="3cqZAo" node="3ob8bMnawdS" resolve="maxIndex" />
             </node>
           </node>
         </node>
@@ -28405,7 +28407,7 @@
               </node>
             </node>
             <node concept="liA8E" id="omQbG9Qw1A" role="2OqNvi">
-              <ref role="37wK5l" to="tk4x:~Page.open(java.lang.String,java.lang.String):void" resolve="open" />
+              <ref role="37wK5l" to="tk4x:~Page.open(java.lang.String,java.lang.String,boolean):void" resolve="open" />
               <node concept="3cpWs3" id="omQbG9Qw1B" role="37wK5m">
                 <node concept="37vLTw" id="omQbG9QHdj" role="3uHU7w">
                   <ref role="3cqZAo" node="omQbG9QBkQ" resolve="remainder" />
@@ -28424,6 +28426,9 @@
               </node>
               <node concept="Xl_RD" id="omQbG9Qw1G" role="37wK5m">
                 <property role="Xl_RC" value="_blank" />
+              </node>
+              <node concept="3clFbT" id="6fG2jrQqtTD" role="37wK5m">
+                <property role="3clFbU" value="true" />
               </node>
             </node>
           </node>
@@ -28459,6 +28464,48 @@
         </node>
       </node>
       <node concept="2AHcQZ" id="omQbG9QvsI" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6fG2jrQpmf6" role="jymVt" />
+    <node concept="2tJIrI" id="6fG2jrQpmqd" role="jymVt" />
+    <node concept="3clFb_" id="6fG2jrQpmAv" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="openUrl" />
+      <node concept="3Tm1VV" id="6fG2jrQpmAw" role="1B3o_S" />
+      <node concept="3cqZAl" id="6fG2jrQpmAx" role="3clF45" />
+      <node concept="37vLTG" id="6fG2jrQpmAy" role="3clF46">
+        <property role="TrG5h" value="url" />
+        <node concept="17QB3L" id="6fG2jrQpmAz" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="6fG2jrQpmAZ" role="3clF47">
+        <node concept="3clFbF" id="6fG2jrQpoRn" role="3cqZAp">
+          <node concept="2OqwBi" id="6fG2jrQpoRo" role="3clFbG">
+            <node concept="2OqwBi" id="6fG2jrQpoRp" role="2Oq$k0">
+              <node concept="37vLTw" id="6fG2jrQpoRq" role="2Oq$k0">
+                <ref role="3cqZAo" node="omQbG9Qvfy" resolve="currentUi" />
+              </node>
+              <node concept="liA8E" id="6fG2jrQpoRr" role="2OqNvi">
+                <ref role="37wK5l" to="waq:~UI.getPage():com.vaadin.server.Page" resolve="getPage" />
+              </node>
+            </node>
+            <node concept="liA8E" id="6fG2jrQpoRs" role="2OqNvi">
+              <ref role="37wK5l" to="tk4x:~Page.open(java.lang.String,java.lang.String,boolean):void" resolve="open" />
+              <node concept="37vLTw" id="6fG2jrQpphF" role="37wK5m">
+                <ref role="3cqZAo" node="6fG2jrQpmAy" resolve="url" />
+              </node>
+              <node concept="Xl_RD" id="6fG2jrQpoR$" role="37wK5m">
+                <property role="Xl_RC" value="_blank" />
+              </node>
+              <node concept="3clFbT" id="6fG2jrQqu6n" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6fG2jrQpmB0" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>

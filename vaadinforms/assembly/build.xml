@@ -104,6 +104,10 @@
       <fileset dir="${solutionSimpleGen}" />
     </copy>
     
+    
+    <copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/context.xml" tofile="work/WEB-INF/context.xml" filtering="yes" overwrite="yes">
+    </copy>
+    
     <copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/web.xml" tofile="work/WEB-INF/web.xml" filtering="yes" overwrite="yes">
       <filterchain>
           <tokenfilter>
