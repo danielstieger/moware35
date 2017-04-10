@@ -3710,6 +3710,12 @@
         <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
       </node>
     </node>
+    <node concept="312cEg" id="2HibT1wTnPY" role="jymVt">
+      <property role="TrG5h" value="issuedComponent" />
+      <node concept="3Tmbuc" id="2HibT1wTp78" role="1B3o_S" />
+      <node concept="10Oyi0" id="2HibT1wToNG" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="2HibT1wTmSh" role="jymVt" />
     <node concept="3clFbW" id="3r$bzmx4dU9" role="jymVt">
       <node concept="3cqZAl" id="3r$bzmx4dUa" role="3clF45" />
       <node concept="3Tm1VV" id="3r$bzmx4dUb" role="1B3o_S" />
@@ -3734,6 +3740,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="2HibT1wTyvN" role="3cqZAp">
+          <node concept="37vLTI" id="2HibT1wTyJy" role="3clFbG">
+            <node concept="2OqwBi" id="2HibT1wTyZ3" role="37vLTx">
+              <node concept="Xjq3P" id="2HibT1wTyUB" role="2Oq$k0" />
+              <node concept="liA8E" id="2HibT1wTz6w" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="2HibT1wTyvL" role="37vLTJ">
+              <ref role="3cqZAo" node="2HibT1wTnPY" resolve="issuedComponent" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="3r$bzmx4dUl" role="3clF46">
         <property role="TrG5h" value="type" />
@@ -3751,6 +3770,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="2HibT1wTzf0" role="jymVt" />
     <node concept="3clFbW" id="2rL8TAu4HnW" role="jymVt">
       <node concept="3cqZAl" id="2rL8TAu4HnX" role="3clF45" />
       <node concept="3Tm1VV" id="2rL8TAu4HnY" role="1B3o_S" />
@@ -3884,6 +3904,49 @@
         <property role="TrG5h" value="objectType" />
         <node concept="3uibUv" id="3r$bzmx4dV0" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="2HibT1wTjji" role="jymVt">
+      <property role="TrG5h" value="setIssuer" />
+      <node concept="37vLTG" id="2HibT1wTl9Y" role="3clF46">
+        <property role="TrG5h" value="hashCode" />
+        <node concept="10Oyi0" id="2HibT1wTlSB" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="2HibT1wTjjk" role="3clF45" />
+      <node concept="3Tm1VV" id="2HibT1wTjjl" role="1B3o_S" />
+      <node concept="3clFbS" id="2HibT1wTjjm" role="3clF47">
+        <node concept="3SKdUt" id="2HibT1wTrO$" role="3cqZAp">
+          <node concept="3SKdUq" id="2HibT1wTrOA" role="3SKWNk">
+            <property role="3SKdUp" value="used if a framework want s to work with 'from' logic" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2HibT1wTpvj" role="3cqZAp">
+          <node concept="37vLTI" id="2HibT1wTp_z" role="3clFbG">
+            <node concept="37vLTw" id="2HibT1wTpGQ" role="37vLTx">
+              <ref role="3cqZAo" node="2HibT1wTl9Y" resolve="hashCode" />
+            </node>
+            <node concept="37vLTw" id="2HibT1wTpvi" role="37vLTJ">
+              <ref role="3cqZAo" node="2HibT1wTnPY" resolve="issuedComponent" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="2HibT1wTu_R" role="jymVt">
+      <property role="TrG5h" value="getIssuer" />
+      <node concept="10Oyi0" id="2HibT1wTvBb" role="3clF45" />
+      <node concept="3Tm1VV" id="2HibT1wTu_V" role="1B3o_S" />
+      <node concept="3clFbS" id="2HibT1wTu_W" role="3clF47">
+        <node concept="3SKdUt" id="2HibT1wTu_X" role="3cqZAp">
+          <node concept="3SKdUq" id="2HibT1wTu_Y" role="3SKWNk">
+            <property role="3SKdUp" value="used if a framework want s to work with 'from' logic" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2HibT1wTu_Z" role="3cqZAp">
+          <node concept="37vLTw" id="2HibT1wTuA2" role="3clFbG">
+            <ref role="3cqZAo" node="2HibT1wTnPY" resolve="issuedComponent" />
+          </node>
         </node>
       </node>
     </node>
