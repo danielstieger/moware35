@@ -246,6 +246,9 @@
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
       </concept>
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="1154546920561" name="jetbrains.mps.lang.smodel.structure.OperationParm_ConceptList" flags="ng" index="3gmYPX">
         <child id="1154546920563" name="concept" index="3gmYPZ" />
       </concept>
@@ -5100,168 +5103,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="70RMBbuA3gk">
-    <property role="3GE5qa" value="OFXCore.actions" />
-    <ref role="1M2myG" to="un0u:70RMBbuA3f1" resolve="SelectedList" />
-    <node concept="1N5Pfh" id="70RMBbuA6Cd" role="1Mr941">
-      <ref role="1N5Vy1" to="un0u:70RMBbuA3f2" />
-      <node concept="13QW63" id="70RMBbuA6Gt" role="1N6uqs">
-        <node concept="3clFbS" id="70RMBbuA6Gv" role="2VODD2">
-          <node concept="3clFbF" id="70RMBbuA6GS" role="3cqZAp">
-            <node concept="2ShNRf" id="70RMBbuA6GT" role="3clFbG">
-              <node concept="YeOm9" id="70RMBbuA6GU" role="2ShVmc">
-                <node concept="1Y3b0j" id="70RMBbuA6GV" role="YeSDq">
-                  <property role="2bfB8j" value="true" />
-                  <ref role="37wK5l" to="o8zo:4IP40Bi3e_T" resolve="ListScope" />
-                  <ref role="1Y3XeK" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                  <node concept="3Tm1VV" id="70RMBbuA6GW" role="1B3o_S" />
-                  <node concept="3clFb_" id="70RMBbuA6GX" role="jymVt">
-                    <property role="1EzhhJ" value="false" />
-                    <property role="TrG5h" value="getName" />
-                    <node concept="17QB3L" id="70RMBbuA6GY" role="3clF45" />
-                    <node concept="3Tm1VV" id="70RMBbuA6GZ" role="1B3o_S" />
-                    <node concept="37vLTG" id="70RMBbuA6H0" role="3clF46">
-                      <property role="TrG5h" value="child" />
-                      <node concept="3Tqbb2" id="70RMBbuA6H1" role="1tU5fm">
-                        <ref role="ehGHo" to="un0u:3JsUq_S9PU7" resolve="IOFXObject" />
-                      </node>
-                    </node>
-                    <node concept="3clFbS" id="70RMBbuA6H2" role="3clF47">
-                      <node concept="3SKdUt" id="70RMBbuA6H3" role="3cqZAp">
-                        <node concept="3SKdUq" id="70RMBbuA6H4" role="3SKWNk">
-                          <property role="3SKdUp" value="or getName ... " />
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="70RMBbuA6H5" role="3cqZAp">
-                        <node concept="2OqwBi" id="70RMBbuA6H6" role="3clFbG">
-                          <node concept="1PxgMI" id="70RMBbuA6H7" role="2Oq$k0">
-                            <ref role="1PxNhF" to="tpee:fz12cDA" resolve="ClassConcept" />
-                            <node concept="37vLTw" id="70RMBbuA6H8" role="1PxMeX">
-                              <ref role="3cqZAo" node="70RMBbuA6H0" resolve="child" />
-                            </node>
-                          </node>
-                          <node concept="3TrcHB" id="70RMBbuA6H9" role="2OqNvi">
-                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="70RMBbuA6Ha" role="37wK5m">
-                    <node concept="1Q6Npb" id="70RMBbuA6Hb" role="2Oq$k0" />
-                    <node concept="1j9C0f" id="70RMBbuA6Hc" role="2OqNvi">
-                      <ref role="1j9C0d" to="un0u:3JsUq_S9PU7" resolve="IOFXObject" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="nKS2y" id="3DPRplxTxtw" role="1MLUbF">
-      <node concept="3clFbS" id="3DPRplxTxtx" role="2VODD2">
-        <node concept="3clFbF" id="3nLPQZPP4Kk" role="3cqZAp">
-          <node concept="2OqwBi" id="3nLPQZPP4XO" role="3clFbG">
-            <node concept="2OqwBi" id="3nLPQZPP4M5" role="2Oq$k0">
-              <node concept="nLn13" id="3nLPQZPP4Kj" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="3nLPQZPP4Qh" role="2OqNvi">
-                <node concept="1xMEDy" id="3nLPQZPP4Qj" role="1xVPHs">
-                  <node concept="chp4Y" id="3nLPQZPP4RV" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:3nLPQZPP4DL" resolve="ISelectionsAvailable" />
-                  </node>
-                </node>
-                <node concept="1xIGOp" id="3nLPQZPP4V5" role="1xVPHs" />
-              </node>
-            </node>
-            <node concept="3x8VRR" id="3nLPQZPP544" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="70RMBbuA3J2">
-    <property role="3GE5qa" value="OFXCore.actions" />
-    <ref role="1M2myG" to="un0u:70RMBbuA1T0" resolve="SelectedObject" />
-    <node concept="1N5Pfh" id="70RMBbuA3OU" role="1Mr941">
-      <ref role="1N5Vy1" to="un0u:70RMBbuA3ID" />
-      <node concept="13QW63" id="70RMBbuA3OY" role="1N6uqs">
-        <node concept="3clFbS" id="70RMBbuA3P0" role="2VODD2">
-          <node concept="3clFbF" id="70RMBbuA4Qb" role="3cqZAp">
-            <node concept="2ShNRf" id="70RMBbuA4Q9" role="3clFbG">
-              <node concept="YeOm9" id="70RMBbuA4Ur" role="2ShVmc">
-                <node concept="1Y3b0j" id="70RMBbuA4Uu" role="YeSDq">
-                  <property role="2bfB8j" value="true" />
-                  <ref role="1Y3XeK" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                  <ref role="37wK5l" to="o8zo:4IP40Bi3e_T" resolve="ListScope" />
-                  <node concept="3Tm1VV" id="70RMBbuA4Uv" role="1B3o_S" />
-                  <node concept="3clFb_" id="70RMBbuA4UE" role="jymVt">
-                    <property role="1EzhhJ" value="false" />
-                    <property role="TrG5h" value="getName" />
-                    <node concept="17QB3L" id="70RMBbuA4UF" role="3clF45" />
-                    <node concept="3Tm1VV" id="70RMBbuA4UG" role="1B3o_S" />
-                    <node concept="37vLTG" id="70RMBbuA4UI" role="3clF46">
-                      <property role="TrG5h" value="child" />
-                      <node concept="3Tqbb2" id="70RMBbuA4UJ" role="1tU5fm">
-                        <ref role="ehGHo" to="un0u:3JsUq_S9PU7" resolve="IOFXObject" />
-                      </node>
-                    </node>
-                    <node concept="3clFbS" id="70RMBbuA4UK" role="3clF47">
-                      <node concept="3SKdUt" id="70RMBbuA6ds" role="3cqZAp">
-                        <node concept="3SKdUq" id="70RMBbuA6du" role="3SKWNk">
-                          <property role="3SKdUp" value="or getName ... " />
-                        </node>
-                      </node>
-                      <node concept="3clFbF" id="70RMBbuA50B" role="3cqZAp">
-                        <node concept="2OqwBi" id="70RMBbuA5N8" role="3clFbG">
-                          <node concept="1PxgMI" id="70RMBbuA5C3" role="2Oq$k0">
-                            <ref role="1PxNhF" to="tpee:fz12cDA" resolve="ClassConcept" />
-                            <node concept="37vLTw" id="70RMBbuA5$8" role="1PxMeX">
-                              <ref role="3cqZAo" node="70RMBbuA4UI" resolve="child" />
-                            </node>
-                          </node>
-                          <node concept="3TrcHB" id="70RMBbuA67z" role="2OqNvi">
-                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="70RMBbuA5id" role="37wK5m">
-                    <node concept="1Q6Npb" id="70RMBbuA5bM" role="2Oq$k0" />
-                    <node concept="1j9C0f" id="70RMBbuA5lz" role="2OqNvi">
-                      <ref role="1j9C0d" to="un0u:3JsUq_S9PU7" resolve="IOFXObject" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="nKS2y" id="70RMBbuA3J6" role="1MLUbF">
-      <node concept="3clFbS" id="70RMBbuA3J7" role="2VODD2">
-        <node concept="3clFbF" id="3nLPQZPP58e" role="3cqZAp">
-          <node concept="2OqwBi" id="3nLPQZPP58f" role="3clFbG">
-            <node concept="2OqwBi" id="3nLPQZPP58g" role="2Oq$k0">
-              <node concept="nLn13" id="3nLPQZPP58h" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="3nLPQZPP58i" role="2OqNvi">
-                <node concept="1xMEDy" id="3nLPQZPP58j" role="1xVPHs">
-                  <node concept="chp4Y" id="3nLPQZPP58k" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:3nLPQZPP4DL" resolve="ISelectionsAvailable" />
-                  </node>
-                </node>
-                <node concept="1xIGOp" id="3nLPQZPP58l" role="1xVPHs" />
-              </node>
-            </node>
-            <node concept="3x8VRR" id="3nLPQZPP58m" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="2U1_96gYt2X">
     <property role="3GE5qa" value="Status" />
     <ref role="1M2myG" to="un0u:3VCHlE3_rxm" resolve="StatusElement" />
@@ -5768,6 +5609,74 @@
               </node>
             </node>
             <node concept="3w_OXm" id="1lwvTLPECYc" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4YYGipfagff">
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <ref role="1M2myG" to="un0u:4YYGipfafYm" resolve="ISelected" />
+    <node concept="nKS2y" id="4YYGipfagfn" role="1MLUbF">
+      <node concept="3clFbS" id="4YYGipfagfo" role="2VODD2">
+        <node concept="3clFbF" id="3nLPQZPP58e" role="3cqZAp">
+          <node concept="2OqwBi" id="3nLPQZPP58f" role="3clFbG">
+            <node concept="2OqwBi" id="3nLPQZPP58g" role="2Oq$k0">
+              <node concept="nLn13" id="3nLPQZPP58h" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="3nLPQZPP58i" role="2OqNvi">
+                <node concept="1xMEDy" id="3nLPQZPP58j" role="1xVPHs">
+                  <node concept="chp4Y" id="3nLPQZPP58k" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:3nLPQZPP4DL" resolve="ISelectionsAvailable" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="3nLPQZPP58l" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="3nLPQZPP58m" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4YYGipfkcPN">
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <ref role="1M2myG" to="un0u:70RMBbuA3f1" resolve="SelectedList" />
+    <node concept="1N5Pfh" id="4YYGipfkcPV" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:70RMBbuA3f2" />
+      <node concept="13QW63" id="4YYGipfkcQy" role="1N6uqs">
+        <node concept="3clFbS" id="4YYGipfkcQ$" role="2VODD2">
+          <node concept="3clFbF" id="4YYGipfkcRx" role="3cqZAp">
+            <node concept="2OqwBi" id="4YYGipfkcUq" role="3clFbG">
+              <node concept="35c_gC" id="4YYGipfkcRw" role="2Oq$k0">
+                <ref role="35c_gD" to="un0u:4YYGipfafYm" resolve="ISelected" />
+              </node>
+              <node concept="2qgKlT" id="4YYGipfkcXv" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:4YYGipfkbIU" resolve="createSelectedObjectScope" />
+                <node concept="1Q6Npb" id="4YYGipfkd43" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4YYGipfkdlv">
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <ref role="1M2myG" to="un0u:70RMBbuA1T0" resolve="SelectedObject" />
+    <node concept="1N5Pfh" id="4YYGipfkdlB" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:70RMBbuA3ID" />
+      <node concept="13QW63" id="4YYGipfkdlT" role="1N6uqs">
+        <node concept="3clFbS" id="4YYGipfkdlV" role="2VODD2">
+          <node concept="3clFbF" id="4YYGipfkdn6" role="3cqZAp">
+            <node concept="2OqwBi" id="4YYGipfkdn7" role="3clFbG">
+              <node concept="35c_gC" id="4YYGipfkdn8" role="2Oq$k0">
+                <ref role="35c_gD" to="un0u:4YYGipfafYm" resolve="ISelected" />
+              </node>
+              <node concept="2qgKlT" id="4YYGipfkdn9" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:4YYGipfkbIU" resolve="createSelectedObjectScope" />
+                <node concept="1Q6Npb" id="4YYGipfkdna" role="37wK5m" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

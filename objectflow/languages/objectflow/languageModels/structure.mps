@@ -9,6 +9,7 @@
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -3556,6 +3557,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
     </node>
+    <node concept="PrWs8" id="4YYGipfagG5" role="PzmwI">
+      <ref role="PrY4T" node="4YYGipfafYm" resolve="ISelected" />
+    </node>
   </node>
   <node concept="1TIwiD" id="70RMBbuA3f1">
     <property role="1pbfSe" value="1322253875" />
@@ -3570,6 +3574,9 @@
       <property role="20kJfa" value="object" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
+    <node concept="PrWs8" id="4YYGipfagGU" role="PzmwI">
+      <ref role="PrY4T" node="4YYGipfafYm" resolve="ISelected" />
     </node>
   </node>
   <node concept="PlHQZ" id="1xbJ1snyL5X">
@@ -4276,6 +4283,11 @@
     <node concept="PrWs8" id="1lwvTLPwTDs" role="PzmwI">
       <ref role="PrY4T" node="1lwvTLPwTBS" resolve="ISRPlatform" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="4YYGipfafYm">
+    <property role="1pbfSe" value="1628983108" />
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <property role="TrG5h" value="ISelected" />
   </node>
 </model>
 

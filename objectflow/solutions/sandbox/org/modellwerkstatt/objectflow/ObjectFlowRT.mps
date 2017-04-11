@@ -3391,19 +3391,34 @@
       <node concept="3Tm1VV" id="6Rdz00$VePd" role="1B3o_S" />
       <node concept="3clFbS" id="6Rdz00$VePe" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="6Rdz00$VfMV" role="jymVt">
+    <node concept="3clFb_" id="206uhc79ppa" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="needsSubWindow" />
-      <node concept="10P_77" id="6Rdz00$VfMW" role="3clF45" />
-      <node concept="3Tm1VV" id="6Rdz00$VfMX" role="1B3o_S" />
-      <node concept="3clFbS" id="6Rdz00$VfMY" role="3clF47" />
+      <property role="TrG5h" value="isGraphOwner" />
+      <node concept="10P_77" id="206uhc79ppb" role="3clF45" />
+      <node concept="3Tm1VV" id="206uhc79ppc" role="1B3o_S" />
+      <node concept="3clFbS" id="206uhc79ppd" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="6Rdz00$VgGs" role="jymVt">
+    <node concept="3clFb_" id="206uhc79pGj" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="needsNewSession" />
-      <node concept="10P_77" id="6Rdz00$VgGt" role="3clF45" />
-      <node concept="3Tm1VV" id="6Rdz00$VgGu" role="1B3o_S" />
-      <node concept="3clFbS" id="6Rdz00$VgGv" role="3clF47" />
+      <property role="TrG5h" value="isSubGraphOwner" />
+      <node concept="10P_77" id="206uhc79pGk" role="3clF45" />
+      <node concept="3Tm1VV" id="206uhc79pGl" role="1B3o_S" />
+      <node concept="3clFbS" id="206uhc79pGm" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="206uhc79py_" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isGraphEdit" />
+      <node concept="10P_77" id="206uhc79pyA" role="3clF45" />
+      <node concept="3Tm1VV" id="206uhc79pyB" role="1B3o_S" />
+      <node concept="3clFbS" id="206uhc79pyC" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="206uhc7agNL" role="jymVt" />
+    <node concept="3clFb_" id="206uhc79quu" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="hasNoUi" />
+      <node concept="10P_77" id="206uhc79quv" role="3clF45" />
+      <node concept="3Tm1VV" id="206uhc79quw" role="1B3o_S" />
+      <node concept="3clFbS" id="206uhc79qux" role="3clF47" />
     </node>
     <node concept="3clFb_" id="5yru0E469DT" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -3515,6 +3530,10 @@
         <node concept="3uibUv" id="1w5LdygmnBF" role="1tU5fm">
           <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
         </node>
+      </node>
+      <node concept="37vLTG" id="206uhc7nwcX" role="3clF46">
+        <property role="TrG5h" value="multiSelect" />
+        <node concept="10P_77" id="206uhc7nwOK" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="11hNSr_cfvj" role="3clF45">
         <ref role="3uigEE" node="11hNSr_a7DY" resolve="IOFXProcess.CommandPermission" />
