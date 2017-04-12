@@ -3196,7 +3196,13 @@
       <node concept="3Tm1VV" id="6Gy9ythMxB4" role="1B3o_S" />
       <node concept="3clFbS" id="6Gy9ythMxB5" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="oHsXcaje4v" role="jymVt" />
+    <node concept="3clFb_" id="4z7jlGJwxR0" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="doNotCommitAndHandleTransaction" />
+      <node concept="3cqZAl" id="4z7jlGJwxR2" role="3clF45" />
+      <node concept="3Tm1VV" id="4z7jlGJwxR3" role="1B3o_S" />
+      <node concept="3clFbS" id="4z7jlGJwxR4" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="ncJg$HcaY8" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="initCommand" />
@@ -3453,6 +3459,7 @@
       <node concept="3Tm1VV" id="Z1sD2yfqqL" role="1B3o_S" />
       <node concept="3clFbS" id="Z1sD2yfqqM" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="4z7jlGJwxHi" role="jymVt" />
   </node>
   <node concept="3HP615" id="7rqBz8B3EmX">
     <property role="3GE5qa" value="OFXArchitecture" />
@@ -3507,6 +3514,12 @@
     <node concept="3clFb_" id="7rqBz8B3EmZ" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getCommandPermission" />
+      <node concept="37vLTG" id="4z7jlGJrwlT" role="3clF46">
+        <property role="TrG5h" value="stragey" />
+        <node concept="3uibUv" id="4z7jlGJrwlU" role="1tU5fm">
+          <ref role="3uigEE" node="4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
+        </node>
+      </node>
       <node concept="37vLTG" id="7rqBz8B3En7" role="3clF46">
         <property role="TrG5h" value="processDocument" />
         <node concept="16syzq" id="7rqBz8B3En9" role="1tU5fm">
@@ -3530,10 +3543,6 @@
         <node concept="3uibUv" id="1w5LdygmnBF" role="1tU5fm">
           <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
         </node>
-      </node>
-      <node concept="37vLTG" id="206uhc7nwcX" role="3clF46">
-        <property role="TrG5h" value="multiSelect" />
-        <node concept="10P_77" id="206uhc7nwOK" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="11hNSr_cfvj" role="3clF45">
         <ref role="3uigEE" node="11hNSr_a7DY" resolve="IOFXProcess.CommandPermission" />
@@ -3609,6 +3618,12 @@
     <node concept="3clFb_" id="7rqBz8B3End" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="startCommand" />
+      <node concept="37vLTG" id="4z7jlGJrwqK" role="3clF46">
+        <property role="TrG5h" value="stragey" />
+        <node concept="3uibUv" id="4z7jlGJrwqL" role="1tU5fm">
+          <ref role="3uigEE" node="4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
+        </node>
+      </node>
       <node concept="37vLTG" id="7rqBz8B3Enh" role="3clF46">
         <property role="TrG5h" value="processDocument" />
         <node concept="16syzq" id="7rqBz8B3Enj" role="1tU5fm">
@@ -3748,6 +3763,23 @@
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="11hNSr_a7E2" role="1B3o_S" />
+    </node>
+    <node concept="Qs71p" id="4z7jlGJreQ5" role="jymVt">
+      <property role="TrG5h" value="CommandExecutionStrategy" />
+      <property role="2bfB8j" value="false" />
+      <node concept="QsSxf" id="4z7jlGJreQ6" role="Qtgdg">
+        <property role="TrG5h" value="SINGLE" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="4z7jlGJreQ7" role="Qtgdg">
+        <property role="TrG5h" value="MULTI" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="4z7jlGJreQ8" role="Qtgdg">
+        <property role="TrG5h" value="COMPOUND" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="4z7jlGJreQ9" role="1B3o_S" />
     </node>
   </node>
   <node concept="3HP615" id="7rqBz8B3JAT">
@@ -5099,6 +5131,10 @@
               </node>
               <node concept="liA8E" id="7MqOxzynUfQ" role="2OqNvi">
                 <ref role="37wK5l" node="7rqBz8B3End" resolve="startCommand" />
+                <node concept="Rm8GO" id="4z7jlGJy$3N" role="37wK5m">
+                  <ref role="Rm8GQ" node="4z7jlGJreQ6" resolve="SINGLE" />
+                  <ref role="1Px2BO" node="4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
+                </node>
                 <node concept="37vLTw" id="6svR_JBEO5u" role="37wK5m">
                   <ref role="3cqZAo" node="7MqOxzynUfg" resolve="document" />
                 </node>

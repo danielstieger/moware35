@@ -1140,6 +1140,7 @@
                         </node>
                         <node concept="liA8E" id="3oBdEpTlBx1" role="2OqNvi">
                           <ref role="37wK5l" to="28jr:7rqBz8B3EmZ" resolve="getCommandPermission" />
+                          <node concept="10Nm6u" id="4z7jlGJCJaG" role="37wK5m" />
                           <node concept="AH0OO" id="3oBdEpTlGHk" role="37wK5m">
                             <node concept="3cmrfG" id="3oBdEpTlGXm" role="AHEQo">
                               <property role="3cmrfH" value="0" />
@@ -1171,9 +1172,6 @@
                             <node concept="liA8E" id="1w5LdygpAkS" role="2OqNvi">
                               <ref role="37wK5l" node="1w5LdygpAlR" resolve="getCurrentSession" />
                             </node>
-                          </node>
-                          <node concept="3clFbT" id="206uhc7nxt_" role="37wK5m">
-                            <property role="3clFbU" value="false" />
                           </node>
                         </node>
                       </node>
@@ -1211,6 +1209,7 @@
                           </node>
                           <node concept="liA8E" id="58$$edtv6C6" role="2OqNvi">
                             <ref role="37wK5l" to="28jr:7rqBz8B3EmZ" resolve="getCommandPermission" />
+                            <node concept="10Nm6u" id="4z7jlGJCJsW" role="37wK5m" />
                             <node concept="AH0OO" id="58$$edtv6C7" role="37wK5m">
                               <node concept="3cmrfG" id="58$$edtv6C8" role="AHEQo">
                                 <property role="3cmrfH" value="0" />
@@ -1242,9 +1241,6 @@
                               <node concept="liA8E" id="58$$edtv6Ci" role="2OqNvi">
                                 <ref role="37wK5l" node="1w5LdygpAlR" resolve="getCurrentSession" />
                               </node>
-                            </node>
-                            <node concept="3clFbT" id="206uhc7nxLo" role="37wK5m">
-                              <property role="3clFbU" value="false" />
                             </node>
                           </node>
                         </node>
@@ -4472,6 +4468,7 @@
                   </node>
                   <node concept="liA8E" id="4XXgpAAgqeK" role="2OqNvi">
                     <ref role="37wK5l" to="28jr:7rqBz8B3End" resolve="startCommand" />
+                    <node concept="10Nm6u" id="4z7jlGJCImO" role="37wK5m" />
                     <node concept="AH0OO" id="1KgqQuBoNcU" role="37wK5m">
                       <node concept="3cmrfG" id="1KgqQuBoNtp" role="AHEQo">
                         <property role="3cmrfH" value="0" />

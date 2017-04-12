@@ -1080,6 +1080,10 @@
                   </node>
                   <node concept="liA8E" id="206uhc7mqpQ" role="2OqNvi">
                     <ref role="37wK5l" to="28jr:7rqBz8B3EmZ" resolve="getCommandPermission" />
+                    <node concept="Rm8GO" id="4z7jlGJCF74" role="37wK5m">
+                      <ref role="Rm8GQ" to="28jr:4z7jlGJreQ7" resolve="MULTI" />
+                      <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
+                    </node>
                     <node concept="AH0OO" id="206uhc7mqpR" role="37wK5m">
                       <node concept="3cmrfG" id="206uhc7mqpS" role="AHEQo">
                         <property role="3cmrfH" value="0" />
@@ -1112,9 +1116,6 @@
                         <ref role="37wK5l" to="1e0c:4xjkqfyCvqU" resolve="getSession" />
                       </node>
                     </node>
-                    <node concept="3clFbT" id="206uhc7p8nS" role="37wK5m">
-                      <property role="3clFbU" value="true" />
-                    </node>
                   </node>
                 </node>
                 <node concept="Rm8GO" id="206uhc7mqpN" role="3uHU7w">
@@ -1143,6 +1144,26 @@
       </node>
     </node>
     <node concept="2tJIrI" id="206uhc7m6V4" role="jymVt" />
+    <node concept="3clFb_" id="4z7jlGKtOnQ" role="jymVt">
+      <property role="TrG5h" value="getSelectionForMulti" />
+      <node concept="3uibUv" id="4z7jlGKtOU1" role="3clF45">
+        <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
+      </node>
+      <node concept="3Tm1VV" id="4z7jlGKtOnT" role="1B3o_S" />
+      <node concept="3clFbS" id="4z7jlGKtOnU" role="3clF47">
+        <node concept="3clFbF" id="4z7jlGKtRi0" role="3cqZAp">
+          <node concept="2OqwBi" id="4z7jlGKtRi2" role="3clFbG">
+            <node concept="37vLTw" id="4z7jlGKtRi3" role="2Oq$k0">
+              <ref role="3cqZAo" node="4XXgpAAdU7X" resolve="injected_localSelectionCrtl" />
+            </node>
+            <node concept="liA8E" id="4z7jlGKtRi4" role="2OqNvi">
+              <ref role="37wK5l" to="1e0c:206uhc7jw1X" resolve="getLocalSelection" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4z7jlGKtNQ8" role="jymVt" />
     <node concept="3clFb_" id="3nLGOmWzA1v" role="jymVt">
       <property role="TrG5h" value="reevalEnabled" />
       <node concept="10P_77" id="5xzYmM6iJ_l" role="3clF45" />
@@ -1198,6 +1219,10 @@
                     </node>
                     <node concept="liA8E" id="3oBdEpTlBx1" role="2OqNvi">
                       <ref role="37wK5l" to="28jr:7rqBz8B3EmZ" resolve="getCommandPermission" />
+                      <node concept="Rm8GO" id="4z7jlGJCCXH" role="37wK5m">
+                        <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
+                        <ref role="Rm8GQ" to="28jr:4z7jlGJreQ6" resolve="SINGLE" />
+                      </node>
                       <node concept="AH0OO" id="3oBdEpTlGHk" role="37wK5m">
                         <node concept="3cmrfG" id="3oBdEpTlGXm" role="AHEQo">
                           <property role="3cmrfH" value="0" />
@@ -1229,9 +1254,6 @@
                         <node concept="liA8E" id="4xjkqfyDrEr" role="2OqNvi">
                           <ref role="37wK5l" to="1e0c:4xjkqfyCvqU" resolve="getSession" />
                         </node>
-                      </node>
-                      <node concept="3clFbT" id="206uhc7p8B9" role="37wK5m">
-                        <property role="3clFbU" value="false" />
                       </node>
                     </node>
                   </node>
