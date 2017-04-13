@@ -3196,13 +3196,6 @@
       <node concept="3Tm1VV" id="6Gy9ythMxB4" role="1B3o_S" />
       <node concept="3clFbS" id="6Gy9ythMxB5" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="4z7jlGJwxR0" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="doNotCommitAndHandleTransaction" />
-      <node concept="3cqZAl" id="4z7jlGJwxR2" role="3clF45" />
-      <node concept="3Tm1VV" id="4z7jlGJwxR3" role="1B3o_S" />
-      <node concept="3clFbS" id="4z7jlGJwxR4" role="3clF47" />
-    </node>
     <node concept="3clFb_" id="ncJg$HcaY8" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="initCommand" />
