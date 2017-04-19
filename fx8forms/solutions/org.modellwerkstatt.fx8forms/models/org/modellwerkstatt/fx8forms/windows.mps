@@ -300,6 +300,7 @@
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
       </concept>
+      <concept id="1082113931046" name="jetbrains.mps.baseLanguage.structure.ContinueStatement" flags="nn" index="3N13vt" />
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -17484,33 +17485,47 @@
                             </node>
                           </node>
                           <node concept="3clFbH" id="1e8699aCJl2" role="3cqZAp" />
-                          <node concept="1X3_iC" id="938$Cs2Jfl" role="lGtFl">
+                          <node concept="1X3_iC" id="1yQJrOWyfMb" role="lGtFl">
                             <property role="3V$3am" value="statement" />
                             <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
                             <node concept="3clFbF" id="938$Cs2uQf" role="8Wnug">
                               <node concept="1rXfSq" id="938$Cs2uQd" role="3clFbG">
                                 <ref role="37wK5l" node="1e8699aCJrT" resolve="debug" />
                                 <node concept="Xl_RD" id="938$Cs2vyy" role="37wK5m">
-                                  <property role="Xl_RC" value="onChange I" />
+                                  <property role="Xl_RC" value="onChange() " />
                                 </node>
                                 <node concept="3cpWs3" id="938$Cs2wMj" role="37wK5m">
-                                  <node concept="2OqwBi" id="938$Cs2yU9" role="3uHU7w">
-                                    <node concept="2OqwBi" id="938$Cs2x6$" role="2Oq$k0">
-                                      <node concept="37vLTw" id="938$Cs2x3R" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
-                                      </node>
-                                      <node concept="liA8E" id="938$Cs2yDR" role="2OqNvi">
-                                        <ref role="37wK5l" to="rb41:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
-                                      </node>
-                                    </node>
-                                    <node concept="liA8E" id="938$Cs2zLt" role="2OqNvi">
-                                      <ref role="37wK5l" to="rb41:~SelectionModel.getSelectedItem():java.lang.Object" resolve="getSelectedItem" />
-                                    </node>
-                                  </node>
                                   <node concept="Xl_RD" id="938$Cs2wvg" role="3uHU7B">
-                                    <property role="Xl_RC" value="currently selected: " />
+                                    <property role="Xl_RC" value="currently selected indices: " />
+                                  </node>
+                                  <node concept="2OqwBi" id="1yQJrOWxQl8" role="3uHU7w">
+                                    <node concept="2OqwBi" id="1yQJrOWxPAw" role="2Oq$k0">
+                                      <node concept="2OqwBi" id="1yQJrOWxNN5" role="2Oq$k0">
+                                        <node concept="37vLTw" id="1yQJrOWxNBP" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                                        </node>
+                                        <node concept="liA8E" id="1yQJrOWxPnj" role="2OqNvi">
+                                          <ref role="37wK5l" to="rb41:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
+                                        </node>
+                                      </node>
+                                      <node concept="liA8E" id="1yQJrOWxQdC" role="2OqNvi">
+                                        <ref role="37wK5l" to="rb41:~MultipleSelectionModelBase.getSelectedIndices():javafx.collections.ObservableList" resolve="getSelectedIndices" />
+                                      </node>
+                                    </node>
+                                    <node concept="liA8E" id="1yQJrOWxQYw" role="2OqNvi">
+                                      <ref role="37wK5l" to="os9n:~ObservableList.sorted():javafx.collections.transformation.SortedList" resolve="sorted" />
+                                    </node>
                                   </node>
                                 </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3cpWs8" id="1yQJrOWygJt" role="3cqZAp">
+                            <node concept="3cpWsn" id="1yQJrOWygJw" role="3cpWs9">
+                              <property role="TrG5h" value="last" />
+                              <node concept="10Oyi0" id="1yQJrOWygJr" role="1tU5fm" />
+                              <node concept="3cmrfG" id="1yQJrOWyhwO" role="33vP2m">
+                                <property role="3cmrfH" value="-4711" />
                               </node>
                             </node>
                           </node>
@@ -17518,38 +17533,103 @@
                             <node concept="3cpWsn" id="1e8699aCJl4" role="3cpWs9">
                               <property role="TrG5h" value="selectedItems" />
                               <property role="3TUv4t" value="false" />
-                              <node concept="3uibUv" id="1e8699aCJl5" role="1tU5fm">
-                                <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
-                                <node concept="16syzq" id="1e8699aCJl6" role="11_B2D">
+                              <node concept="3uibUv" id="1yQJrOWxJvR" role="1tU5fm">
+                                <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                                <node concept="16syzq" id="1yQJrOWxK49" role="11_B2D">
                                   <ref role="16sUi3" node="1e8699aCJ$c" resolve="T" />
                                 </node>
                               </node>
-                              <node concept="2ShNRf" id="1e8699aCJl7" role="33vP2m">
-                                <node concept="1pGfFk" id="1e8699aCJl8" role="2ShVmc">
-                                  <ref role="37wK5l" to="33ny:~HashSet.&lt;init&gt;(java.util.Collection)" resolve="HashSet" />
-                                  <node concept="16syzq" id="1e8699aCJl9" role="1pMfVU">
+                              <node concept="2ShNRf" id="1yQJrOWyrFD" role="33vP2m">
+                                <node concept="1pGfFk" id="1yQJrOWytLo" role="2ShVmc">
+                                  <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                                  <node concept="16syzq" id="1yQJrOWyufL" role="1pMfVU">
                                     <ref role="16sUi3" node="1e8699aCJ$c" resolve="T" />
-                                  </node>
-                                  <node concept="2OqwBi" id="1e8699aCJla" role="37wK5m">
-                                    <node concept="2OqwBi" id="1e8699aCJlb" role="2Oq$k0">
-                                      <node concept="37vLTw" id="fdGRoMYQ0E" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
-                                      </node>
-                                      <node concept="liA8E" id="1e8699aCJld" role="2OqNvi">
-                                        <ref role="37wK5l" to="rb41:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
-                                      </node>
-                                    </node>
-                                    <node concept="liA8E" id="1e8699aCJle" role="2OqNvi">
-                                      <ref role="37wK5l" to="rb41:~MultipleSelectionModelBase.getSelectedItems():javafx.collections.ObservableList" resolve="getSelectedItems" />
-                                    </node>
                                   </node>
                                 </node>
                               </node>
                             </node>
                           </node>
-                          <node concept="3SKdUt" id="938$Cs2Kyt" role="3cqZAp">
-                            <node concept="3SKdUq" id="938$Cs2Kyv" role="3SKWNk">
-                              <property role="3SKdUp" value="known fx bug - selection problem on first init?" />
+                          <node concept="3clFbH" id="1yQJrOWypH$" role="3cqZAp" />
+                          <node concept="1DcWWT" id="1yQJrOWyi4w" role="3cqZAp">
+                            <node concept="3clFbS" id="1yQJrOWyi4y" role="2LFqv$">
+                              <node concept="3SKdUt" id="938$Cs2Kyt" role="3cqZAp">
+                                <node concept="3SKdUq" id="938$Cs2Kyv" role="3SKWNk">
+                                  <property role="3SKdUp" value="known fx bug - selection problem on first init?" />
+                                </node>
+                              </node>
+                              <node concept="3clFbJ" id="1yQJrOWyn1b" role="3cqZAp">
+                                <node concept="3clFbS" id="1yQJrOWyn1d" role="3clFbx">
+                                  <node concept="3N13vt" id="1yQJrOWynBO" role="3cqZAp" />
+                                </node>
+                                <node concept="3clFbC" id="1yQJrOWynfW" role="3clFbw">
+                                  <node concept="37vLTw" id="1yQJrOWynrK" role="3uHU7w">
+                                    <ref role="3cqZAo" node="1yQJrOWygJw" resolve="last" />
+                                  </node>
+                                  <node concept="37vLTw" id="1yQJrOWyncR" role="3uHU7B">
+                                    <ref role="3cqZAo" node="1yQJrOWyi4z" resolve="i" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbF" id="1yQJrOWyoqX" role="3cqZAp">
+                                <node concept="37vLTI" id="1yQJrOWyoD8" role="3clFbG">
+                                  <node concept="37vLTw" id="1yQJrOWyoQ8" role="37vLTx">
+                                    <ref role="3cqZAo" node="1yQJrOWyi4z" resolve="i" />
+                                  </node>
+                                  <node concept="37vLTw" id="1yQJrOWyoqV" role="37vLTJ">
+                                    <ref role="3cqZAo" node="1yQJrOWygJw" resolve="last" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbF" id="1yQJrOWyv7Q" role="3cqZAp">
+                                <node concept="2OqwBi" id="1yQJrOWyvmj" role="3clFbG">
+                                  <node concept="37vLTw" id="1yQJrOWyv7O" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="1e8699aCJl4" resolve="selectedItems" />
+                                  </node>
+                                  <node concept="liA8E" id="1yQJrOWyvux" role="2OqNvi">
+                                    <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                                    <node concept="2OqwBi" id="1yQJrOWyxx4" role="37wK5m">
+                                      <node concept="2OqwBi" id="1yQJrOWyvIv" role="2Oq$k0">
+                                        <node concept="37vLTw" id="1yQJrOWyvFD" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                                        </node>
+                                        <node concept="liA8E" id="1yQJrOWyxjx" role="2OqNvi">
+                                          <ref role="37wK5l" to="rb41:~TableView.getItems():javafx.collections.ObservableList" resolve="getItems" />
+                                        </node>
+                                      </node>
+                                      <node concept="liA8E" id="1yQJrOWyywj" role="2OqNvi">
+                                        <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                                        <node concept="37vLTw" id="1yQJrOWyyMt" role="37wK5m">
+                                          <ref role="3cqZAo" node="1yQJrOWyi4z" resolve="i" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3cpWsn" id="1yQJrOWyi4z" role="1Duv9x">
+                              <property role="TrG5h" value="i" />
+                              <node concept="3uibUv" id="1yQJrOWyip3" role="1tU5fm">
+                                <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="1yQJrOWylEq" role="1DdaDG">
+                              <node concept="2OqwBi" id="1yQJrOWykAH" role="2Oq$k0">
+                                <node concept="2OqwBi" id="1yQJrOWyiKL" role="2Oq$k0">
+                                  <node concept="37vLTw" id="1yQJrOWyiI6" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                                  </node>
+                                  <node concept="liA8E" id="1yQJrOWyklI" role="2OqNvi">
+                                    <ref role="37wK5l" to="rb41:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="1yQJrOWylwa" role="2OqNvi">
+                                  <ref role="37wK5l" to="rb41:~MultipleSelectionModelBase.getSelectedIndices():javafx.collections.ObservableList" resolve="getSelectedIndices" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="1yQJrOWymrr" role="2OqNvi">
+                                <ref role="37wK5l" to="os9n:~ObservableList.sorted():javafx.collections.transformation.SortedList" resolve="sorted" />
+                              </node>
                             </node>
                           </node>
                           <node concept="1X3_iC" id="938$Cs2JKt" role="lGtFl">
@@ -17603,7 +17683,7 @@
                                   <ref role="3cqZAo" node="1e8699aCJl4" resolve="selectedItems" />
                                 </node>
                                 <node concept="liA8E" id="1e8699aCJlr" role="2OqNvi">
-                                  <ref role="37wK5l" to="33ny:~Set.size():int" resolve="size" />
+                                  <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
                                 </node>
                               </node>
                             </node>
@@ -17628,7 +17708,7 @@
                                             <ref role="3cqZAo" node="1e8699aCJl4" resolve="selectedItems" />
                                           </node>
                                           <node concept="liA8E" id="7J2tTOEda6v" role="2OqNvi">
-                                            <ref role="37wK5l" to="33ny:~Set.toArray():java.lang.Object[]" resolve="toArray" />
+                                            <ref role="37wK5l" to="33ny:~List.toArray():java.lang.Object[]" resolve="toArray" />
                                           </node>
                                         </node>
                                         <node concept="3uibUv" id="1KgqQuBvjG6" role="1pMfVU">
