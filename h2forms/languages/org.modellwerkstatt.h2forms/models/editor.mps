@@ -37,6 +37,9 @@
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
+      <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
+        <property id="1073389577007" name="text" index="3F0ifm" />
+      </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
@@ -59,6 +62,9 @@
       <node concept="3F2HdR" id="56t4EvFOkZe" role="3EZMnx">
         <ref role="1NtTu8" to="x70n:56t4EvFOkSl" />
         <node concept="l2Vlx" id="56t4EvFOkZg" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="7jm2$ecov_4" role="3EZMnx">
+        <property role="3F0ifm" value="" />
       </node>
       <node concept="l2Vlx" id="56t4EvFOkXe" role="2iSdaV" />
     </node>
