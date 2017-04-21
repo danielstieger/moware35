@@ -31,31 +31,10 @@ html, body {
     z-index: 999;
 }
 
-.mom .mdl-card {
-	min-height: 10px;
-}
-.mdl-card__mom-color-bar {
-	box-sizing: border-box;
-	min-height: 10px;
-}
-
-.mom .mdl-card .mdl-card__supporting-text {
-  margin: 10px 20px 10px 20px;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  padding: 10px 0px 0px 0px;
-  color: inherit;
-  width: calc(100% - 80px);
-}
-
 .mom .mdl-layout__content section:not(:last-of-type) {
   position: relative;
-  margin-bottom: 48px;
-}
-.mom .mdl-card__actions a {
-  color: #00BCD4;
-  margin: 0;
+  margin-bottom: 10px;
+  padding: 0px 10px 0px 10px;
 }
 
 .mom div.div--center {
@@ -64,10 +43,20 @@ html, body {
 
 .mom section.section--center {
   max-width: 860px;
+  background: white;
 }
+
+.mom .mdl-textfield {
+	width: 600px;
+} 
+.mom .mdl-textfield.is-disabled .mdl-textfield__input {
+	color: #616161 !important;
+}
+
 .mom #features section.section--center {
   max-width: 620px;
 }
+
 .mom section > header{
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -255,3 +244,26 @@ select:focus {
   pointer-events: none;
 }
 /* Style Select Field ------------------------------------------------- */
+
+.mom .mdl-card {
+	min-height: 10px;
+}
+.mdl-card__mom-color-bar {
+	box-sizing: border-box;
+	min-height: 10px;
+}
+
+.mom .mdl-card .mdl-card__supporting-text {
+  margin: 10px 20px 10px 20px;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 10px 0px 0px 0px;
+  color: inherit;
+  width: calc(100% - 80px);
+}
+
+.mom .mdl-card__actions a {
+  color: #00BCD4;
+  margin: 0;
+}
