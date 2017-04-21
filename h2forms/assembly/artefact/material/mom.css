@@ -53,6 +53,14 @@ html, body {
 	color: #616161 !important;
 }
 
+.mom .info-text {
+	padding: 10px 0px 30px 0px;
+}
+.mom .info-buttonbox {
+	padding: 10px;	
+}
+
+
 .mom #features section.section--center {
   max-width: 620px;
 }

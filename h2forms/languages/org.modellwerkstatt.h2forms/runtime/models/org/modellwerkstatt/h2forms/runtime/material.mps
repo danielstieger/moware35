@@ -817,7 +817,7 @@
         </node>
         <node concept="TXv29" id="19fE_UXtusw" role="3cqZAp">
           <node concept="TXvP7" id="19fE_UXtusx" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;section class=&quot;section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp&quot;&gt; &lt;div class=&quot;mdl-grid&quot;&gt;" />
+            <property role="TXvUO" value="&lt;section class=&quot;section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp&quot;&gt;" />
           </node>
         </node>
         <node concept="3clFbH" id="19fE_UXtuuW" role="3cqZAp" />
@@ -941,6 +941,12 @@
           </node>
         </node>
         <node concept="3clFbH" id="19fE_UXtw2N" role="3cqZAp" />
+        <node concept="TXv29" id="1WsXCVmj5Rx" role="3cqZAp">
+          <node concept="TXvP7" id="1WsXCVmj5Ry" role="2Uj5MM">
+            <property role="TXvUO" value="&lt;div class=&quot;mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone&quot;&gt;&lt;div class=&quot;info-buttonbox&quot;&gt; " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="1WsXCVmj5BK" role="3cqZAp" />
         <node concept="3SKdUt" id="15Ng79odPHr" role="3cqZAp">
           <node concept="3SKdUq" id="15Ng79odPHt" role="3SKWNk">
             <property role="3SKdUp" value="button 0 always present" />
@@ -948,7 +954,7 @@
         </node>
         <node concept="TXv29" id="15Ng79odQXM" role="3cqZAp">
           <node concept="TXvP7" id="15Ng79odR5U" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;button class=&quot;mdl-cell mdl-cell--2-col mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent&quot; type=&quot;button&quot; onClick=&quot;SaveSubmit('simfoo_0');&quot; navicrtl=&quot;simfoo_0&quot;&gt;" />
+            <property role="TXvUO" value="&lt;button class=&quot;mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent&quot; type=&quot;button&quot; onClick=&quot;SaveSubmit('simfoo_0');&quot; navicrtl=&quot;simfoo_0&quot;&gt;" />
           </node>
           <node concept="37vLTw" id="15Ng79odRu_" role="2Uj5MM">
             <ref role="3cqZAo" node="2RoKLt0oPHr" resolve="button0" />
@@ -967,7 +973,7 @@
           <node concept="3clFbS" id="15Ng79odQ9S" role="3clFbx">
             <node concept="TXv29" id="15Ng79odWBH" role="3cqZAp">
               <node concept="TXvP7" id="15Ng79odWBI" role="2Uj5MM">
-                <property role="TXvUO" value="&lt;button class=&quot;mdl-cell mdl-cell--2-col mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent&quot; type=&quot;button&quot; onClick=&quot;SaveSubmit('simfoo_1');&quot; navicrtl=&quot;simfoo_1&quot;&gt;" />
+                <property role="TXvUO" value="&amp;nbsp; &amp;nbsp; &lt;button class=&quot;mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent&quot; type=&quot;button&quot; onClick=&quot;SaveSubmit('simfoo_1');&quot; navicrtl=&quot;simfoo_1&quot;&gt;" />
               </node>
               <node concept="37vLTw" id="15Ng79odWQ_" role="2Uj5MM">
                 <ref role="3cqZAo" node="2RoKLt0oPHt" resolve="button1" />
@@ -984,10 +990,9 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="15Ng79odPTR" role="3cqZAp" />
         <node concept="TXv29" id="19fE_UXtuIG" role="3cqZAp">
           <node concept="TXvP7" id="19fE_UXtuIH" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;/div&gt; &lt;/section&gt;" />
+            <property role="TXvUO" value="&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;" />
           </node>
         </node>
         <node concept="3clFbF" id="19fE_UXtuII" role="3cqZAp">
@@ -1491,7 +1496,7 @@
       <node concept="3clFbS" id="19fE_UXtfvk" role="3clF47">
         <node concept="TXv29" id="19fE_UXtt3P" role="3cqZAp">
           <node concept="TXvP7" id="19fE_UXtt3Q" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;div class=&quot;mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp&quot;&gt;" />
+            <property role="TXvUO" value="&lt;div class=&quot;mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone&quot;&gt;" />
           </node>
         </node>
         <node concept="TXv29" id="19fE_UXtt3R" role="3cqZAp">
@@ -1505,15 +1510,9 @@
             <property role="TXvUO" value=";&quot;&gt;&lt;/div&gt;" />
           </node>
         </node>
-        <node concept="3clFbH" id="19fE_UXtt3X" role="3cqZAp" />
-        <node concept="TXv29" id="19fE_UXtt3Y" role="3cqZAp">
-          <node concept="TXvP7" id="19fE_UXtt3Z" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;div class=&quot;mdl-card__supporting-text&quot;&gt;" />
-          </node>
-        </node>
         <node concept="TXv29" id="19fE_UXtt4O" role="3cqZAp">
           <node concept="TXvP7" id="19fE_UXtt4P" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;span class=&quot;mdl-typography--font-light mdl-typography--subhead&quot;&gt; " />
+            <property role="TXvUO" value="&lt;div class=&quot;info-text&quot;&gt; " />
           </node>
           <node concept="2OqwBi" id="7jm2$ecmWPz" role="2Uj5MM">
             <node concept="37vLTw" id="19fE_UXtuch" role="2Oq$k0">
@@ -1530,11 +1529,6 @@
             </node>
           </node>
           <node concept="TXvP7" id="19fE_UXtt4R" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;/span&gt;" />
-          </node>
-        </node>
-        <node concept="TXv29" id="19fE_UXtt4T" role="3cqZAp">
-          <node concept="TXvP7" id="19fE_UXtt4U" role="2Uj5MM">
             <property role="TXvUO" value="&lt;/div&gt;" />
           </node>
         </node>
@@ -1565,7 +1559,7 @@
       <node concept="3clFbS" id="19fE_UXtfJ3" role="3clF47">
         <node concept="TXv29" id="19fE_UXtulc" role="3cqZAp">
           <node concept="TXvP7" id="19fE_UXtuld" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;div class=&quot;mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp&quot;&gt;" />
+            <property role="TXvUO" value="&lt;div class=&quot;mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-cell--4-col-phone&quot;&gt;" />
           </node>
         </node>
         <node concept="TXv29" id="19fE_UXtule" role="3cqZAp">
@@ -1579,15 +1573,9 @@
             <property role="TXvUO" value=";&quot;&gt;&lt;/div&gt;" />
           </node>
         </node>
-        <node concept="3clFbH" id="19fE_UXtuli" role="3cqZAp" />
-        <node concept="TXv29" id="19fE_UXtulj" role="3cqZAp">
-          <node concept="TXvP7" id="19fE_UXtulk" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;div class=&quot;mdl-card__supporting-text&quot;&gt;" />
-          </node>
-        </node>
         <node concept="TXv29" id="19fE_UXtull" role="3cqZAp">
           <node concept="TXvP7" id="19fE_UXtulm" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;span class=&quot;mdl-typography--font-light mdl-typography--subhead&quot;&gt; " />
+            <property role="TXvUO" value="&lt;div class=&quot;info-text&quot;&gt; " />
           </node>
           <node concept="2OqwBi" id="7jm2$ecmX6j" role="2Uj5MM">
             <node concept="37vLTw" id="19fE_UXtuln" role="2Oq$k0">
@@ -1604,11 +1592,6 @@
             </node>
           </node>
           <node concept="TXvP7" id="19fE_UXtulo" role="2Uj5MM">
-            <property role="TXvUO" value="&lt;/span&gt;" />
-          </node>
-        </node>
-        <node concept="TXv29" id="19fE_UXtulp" role="3cqZAp">
-          <node concept="TXvP7" id="19fE_UXtulq" role="2Uj5MM">
             <property role="TXvUO" value="&lt;/div&gt;" />
           </node>
         </node>
@@ -3673,7 +3656,7 @@
           <node concept="3clFbS" id="7r26jiO0zoG" role="3clFbx">
             <node concept="TXv29" id="7jm2$ecql7u" role="3cqZAp">
               <node concept="TXvP7" id="7jm2$ecqlaX" role="2Uj5MM">
-                <property role="TXvUO" value="&lt;section class=&quot;section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp&quot;&gt; &lt;div class=&quot;mdl-grid&quot;&gt;" />
+                <property role="TXvUO" value="&lt;section class=&quot;section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp&quot;&gt;" />
               </node>
             </node>
             <node concept="3clFbJ" id="4ysbFF_U_cj" role="3cqZAp">
@@ -3738,7 +3721,7 @@
             </node>
             <node concept="TXv29" id="7jm2$ecqlf_" role="3cqZAp">
               <node concept="TXvP7" id="7jm2$ecqliZ" role="2Uj5MM">
-                <property role="TXvUO" value="&lt;/div&gt; &lt;/section&gt;" />
+                <property role="TXvUO" value="&lt;/section&gt;" />
               </node>
             </node>
           </node>
