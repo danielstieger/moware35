@@ -13156,6 +13156,10 @@ div.v-layout.v-horizontal.v-widget {
 	border-left: 1px solid #dddddd !important;
 }
 
+.moware .v-selected .v-table-cell-content {
+	color: #f1f5fa !important;
+}
+
 .moware .mo-table .mo-linecounter {
 	width: 84px;
 	height: 24px;

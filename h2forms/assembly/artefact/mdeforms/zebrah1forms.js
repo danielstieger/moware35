@@ -71,7 +71,9 @@ function scanReceived(params){
 function enableScan(){
 	if ($('input[name="scanconclusion"]') != null) {
 		try {
-			EB.Barcode.enable({allDecoders:true, upcEanSupplemental5:true, upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO}, scanReceived);
+			/* EB.Barcode.enable({allDecoders:true, upcEanSupplemental5:true, upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO}, scanReceived); */
+			EB.Barcode.enable({allDecoders:true }, scanReceived);
+			
 			$('#scanSoftButton').disabled = false;
 			
 			/* alert('Scan enabled: ok!'); */ 
