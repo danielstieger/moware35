@@ -98,6 +98,7 @@
 	/* make table look leightweight */
 	.v-table-table td { border-top: none !important; }
 	.v-table-cell-content { border-left: 1px solid #dddddd !important; }
+	.v-selected .v-table-cell-content { color: #f1f5fa !important; }
 	
 	.mo-table {
 		/* check table settings in _variables.scss */
