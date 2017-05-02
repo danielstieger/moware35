@@ -71,7 +71,9 @@ function scanReceived(params){
 function enableScan(){
 	if ($('input[name="scanconclusion"]') != null) {
 		try {
-			EB.Barcode.enable({allDecoders:true, upcEanSupplemental5:true, upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO}, scanReceived);
+			/* EB.Barcode.enable({allDecoders:true, upcEanSupplemental5:true, upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO}, scanReceived); */
+			EB.Barcode.enable({allDecoders:true }, scanReceived);
+			
 			$('#scanSoftButton').disabled = false;
 			
 			/* alert('Scan enabled: ok!'); */ 
@@ -95,7 +97,6 @@ function ScanSubmit(){
 }
 
 /* Form stuff ******************************************************* */
-
 function SelectAndExec(selectionstr, valstr){
 	internVibrate(100);
 
@@ -115,8 +116,7 @@ function SelectAndExec(selectionstr, valstr){
 function SaveSubmit(valstr){
 	internVibrate(100);
 
- 	disableScan();
- 	
+ 	disableScan(); 	
  	// do not submit conclusion, if no notwork available
 	if (isNoNetwork()) { return; }
  	
@@ -131,7 +131,6 @@ function SaveSubmit(valstr){
 		f.submit();
 	}
 }
-
 
 
 /* Hotkey stuff ******************************************************* */
