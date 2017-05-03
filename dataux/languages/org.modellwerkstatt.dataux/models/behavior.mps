@@ -4613,5 +4613,34 @@
       <node concept="3clFbS" id="ao4XGTiFGX" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="50l$rcpKbIp">
+    <property role="3GE5qa" value="internalInfra" />
+    <ref role="13h7C2" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
+    <node concept="13i0hz" id="50l$rcpKbIz" role="13h7CS">
+      <property role="TrG5h" value="isBaseCommand" />
+      <node concept="3Tm1VV" id="50l$rcpKbI$" role="1B3o_S" />
+      <node concept="10P_77" id="50l$rcpKbIM" role="3clF45" />
+      <node concept="3clFbS" id="50l$rcpKbIA" role="3clF47">
+        <node concept="3clFbF" id="50l$rcpKbJW" role="3cqZAp">
+          <node concept="3fqX7Q" id="50l$rcpKceE" role="3clFbG">
+            <node concept="2OqwBi" id="50l$rcpKceG" role="3fr31v">
+              <node concept="2OqwBi" id="50l$rcpKceH" role="2Oq$k0">
+                <node concept="13iPFW" id="50l$rcpKceI" role="2Oq$k0" />
+                <node concept="1mfA1w" id="50l$rcpKceJ" role="2OqNvi" />
+              </node>
+              <node concept="1mIQ4w" id="50l$rcpKceK" role="2OqNvi">
+                <node concept="chp4Y" id="50l$rcpKceL" role="cj9EA">
+                  <ref role="cht4Q" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="50l$rcpKbIq" role="13h7CW">
+      <node concept="3clFbS" id="50l$rcpKbIr" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

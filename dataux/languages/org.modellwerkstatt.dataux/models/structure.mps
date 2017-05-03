@@ -1137,5 +1137,20 @@
       <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1K7fNI_kq$B">
+    <property role="1pbfSe" value="1051137950" />
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="MenuCompoundAction" />
+    <property role="34LRSv" value="Compound Action" />
+    <property role="R4oN_" value="fold multiple cmds" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" node="3nLPQZQ0zzY" resolve="MenuAction" />
+    <node concept="1TJgyj" id="1K7fNI_kqJZ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="innerAction" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="1K7fNI_kq$B" resolve="MenuCompoundAction" />
+    </node>
+  </node>
 </model>
 

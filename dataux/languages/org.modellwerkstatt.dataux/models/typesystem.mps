@@ -4303,5 +4303,118 @@
       <ref role="1YaFvo" to="1btx:2qrl3a2LC$O" resolve="AppTile" />
     </node>
   </node>
+  <node concept="18kY7G" id="50l$rcpIuqz">
+    <property role="TrG5h" value="check_MenuCompoundAction" />
+    <property role="3GE5qa" value="internalInfra" />
+    <node concept="3clFbS" id="50l$rcpIuq$" role="18ibNy">
+      <node concept="3cpWs8" id="50l$rcpLl8L" role="3cqZAp">
+        <node concept="3cpWsn" id="50l$rcpLl8O" role="3cpWs9">
+          <property role="TrG5h" value="isBaseCommand" />
+          <node concept="10P_77" id="50l$rcpLl8J" role="1tU5fm" />
+          <node concept="2OqwBi" id="50l$rcpLlkh" role="33vP2m">
+            <node concept="1YBJjd" id="50l$rcpLlfz" role="2Oq$k0">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+            </node>
+            <node concept="2qgKlT" id="50l$rcpLlCs" role="2OqNvi">
+              <ref role="37wK5l" to="5y3p:50l$rcpKbIz" resolve="isBaseCommand" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="50l$rcpLl4H" role="3cqZAp" />
+      <node concept="3clFbJ" id="50l$rcpIuqL" role="3cqZAp">
+        <node concept="1Wc70l" id="50l$rcpKchI" role="3clFbw">
+          <node concept="37vLTw" id="50l$rcpLlHi" role="3uHU7B">
+            <ref role="3cqZAo" node="50l$rcpLl8O" resolve="isBaseCommand" />
+          </node>
+          <node concept="2OqwBi" id="50l$rcpIuRh" role="3uHU7w">
+            <node concept="2OqwBi" id="50l$rcpIuw5" role="2Oq$k0">
+              <node concept="1YBJjd" id="50l$rcpIurw" role="2Oq$k0">
+                <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+              </node>
+              <node concept="3TrEf2" id="50l$rcpIuDY" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:5ol$NvP0y3" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="50l$rcpIuXv" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="50l$rcpIuqN" role="3clFbx">
+          <node concept="2MkqsV" id="50l$rcpIuYx" role="3cqZAp">
+            <node concept="Xl_RD" id="50l$rcpIuYH" role="2MkJ7o">
+              <property role="Xl_RC" value="One has to provide custom labels in compound actions." />
+            </node>
+            <node concept="1YBJjd" id="50l$rcpIv1w" role="2OEOjV">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="50l$rcpKcDt" role="3cqZAp" />
+        </node>
+        <node concept="3eNFk2" id="50l$rcpKcDF" role="3eNLev">
+          <node concept="1Wc70l" id="50l$rcpKdgq" role="3eO9$A">
+            <node concept="2OqwBi" id="50l$rcpKe3j" role="3uHU7w">
+              <node concept="2OqwBi" id="50l$rcpKdvL" role="2Oq$k0">
+                <node concept="1YBJjd" id="50l$rcpKdoS" role="2Oq$k0">
+                  <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                </node>
+                <node concept="3TrEf2" id="50l$rcpKdQm" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:5ol$NvP0y3" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="50l$rcpKegJ" role="2OqNvi" />
+            </node>
+            <node concept="3fqX7Q" id="50l$rcpKdaD" role="3uHU7B">
+              <node concept="37vLTw" id="50l$rcpLlLW" role="3fr31v">
+                <ref role="3cqZAo" node="50l$rcpLl8O" resolve="isBaseCommand" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="50l$rcpKcDH" role="3eOfB_">
+            <node concept="2MkqsV" id="50l$rcpKekV" role="3cqZAp">
+              <node concept="Xl_RD" id="50l$rcpKele" role="2MkJ7o">
+                <property role="Xl_RC" value="You can not provide a custmo label for inner commands." />
+              </node>
+              <node concept="1YBJjd" id="50l$rcpKepN" role="2OEOjV">
+                <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="50l$rcpLkQT" role="3cqZAp" />
+      <node concept="3clFbJ" id="50l$rcpLkZR" role="3cqZAp">
+        <node concept="3clFbS" id="50l$rcpLkZT" role="3clFbx">
+          <node concept="2MkqsV" id="50l$rcpLmL8" role="3cqZAp">
+            <node concept="Xl_RD" id="50l$rcpLmLu" role="2MkJ7o">
+              <property role="Xl_RC" value="You have to provide an inner action or use simple 'action' instead." />
+            </node>
+            <node concept="1YBJjd" id="50l$rcpLmQ1" role="2OEOjV">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="50l$rcpLlV0" role="3clFbw">
+          <node concept="2OqwBi" id="50l$rcpLmtR" role="3uHU7w">
+            <node concept="2OqwBi" id="50l$rcpLm0t" role="2Oq$k0">
+              <node concept="1YBJjd" id="50l$rcpLlVH" role="2Oq$k0">
+                <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+              </node>
+              <node concept="3TrEf2" id="50l$rcpLmeq" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:1K7fNI_kqJZ" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="50l$rcpLmGp" role="2OqNvi" />
+          </node>
+          <node concept="37vLTw" id="50l$rcpLlP9" role="3uHU7B">
+            <ref role="3cqZAo" node="50l$rcpLl8O" resolve="isBaseCommand" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="50l$rcpIuqA" role="1YuTPh">
+      <property role="TrG5h" value="menuCompoundAction" />
+      <ref role="1YaFvo" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
+    </node>
+  </node>
 </model>
 

@@ -2278,11 +2278,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="61_QXqSgUEj" role="3cqZAp">
-          <node concept="3nyPlj" id="61_QXqSgUEh" role="3clFbG">
-            <ref role="37wK5l" to="waq:~UI.detach():void" resolve="detach" />
-          </node>
-        </node>
         <node concept="3clFbH" id="61_QXqSgDmq" role="3cqZAp" />
         <node concept="3clFbJ" id="7b0XfCDHjzM" role="3cqZAp">
           <node concept="3clFbS" id="7b0XfCDHjzO" role="3clFbx">
@@ -2327,13 +2322,18 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="61_QXqSgUyW" role="3cqZAp" />
           </node>
           <node concept="3y3z36" id="61_QXqSgr2f" role="3clFbw">
             <node concept="10Nm6u" id="61_QXqSgr9n" role="3uHU7w" />
             <node concept="37vLTw" id="61_QXqSgqUP" role="3uHU7B">
               <ref role="3cqZAo" node="61_QXqSgjUn" resolve="applicationInstance" />
             </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="50l$rcpEFwt" role="3cqZAp" />
+        <node concept="3clFbF" id="61_QXqSgUEj" role="3cqZAp">
+          <node concept="3nyPlj" id="61_QXqSgUEh" role="3clFbG">
+            <ref role="37wK5l" to="waq:~UI.detach():void" resolve="detach" />
           </node>
         </node>
       </node>

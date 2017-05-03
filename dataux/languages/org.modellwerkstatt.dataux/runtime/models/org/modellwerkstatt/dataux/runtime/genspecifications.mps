@@ -583,6 +583,7 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3nLGOmWz_m7" role="jymVt" />
+    <node concept="2tJIrI" id="50l$rcpYlny" role="jymVt" />
     <node concept="312cEg" id="Y3fiVL0iol" role="jymVt">
       <property role="TrG5h" value="processFqName" />
       <node concept="3Tm1VV" id="Y3fiVL0iom" role="1B3o_S" />
@@ -625,6 +626,13 @@
       <node concept="10P_77" id="5ol$Nw00oQ" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="I$l6zlL0Zg" role="jymVt" />
+    <node concept="312cEg" id="50l$rcpYmst" role="jymVt">
+      <property role="TrG5h" value="innerAction" />
+      <node concept="3Tm1VV" id="50l$rcpYmZa" role="1B3o_S" />
+      <node concept="3uibUv" id="50l$rcpYn0h" role="1tU5fm">
+        <ref role="3uigEE" node="Y3fiVJMvUT" resolve="MenuAction" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="Y3fiVJOkPS" role="jymVt" />
     <node concept="3clFbW" id="Y3fiVJOfqb" role="jymVt">
       <node concept="3cqZAl" id="Y3fiVJOfqd" role="3clF45" />
@@ -674,6 +682,14 @@
             </node>
             <node concept="37vLTw" id="5ol$Nw0RGO" role="37vLTJ">
               <ref role="3cqZAo" node="5ol$Nw0PJO" resolve="globalHotkey" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="50l$rcpYqwl" role="3cqZAp">
+          <node concept="37vLTI" id="50l$rcpYqzK" role="3clFbG">
+            <node concept="10Nm6u" id="50l$rcpYq$$" role="37vLTx" />
+            <node concept="37vLTw" id="50l$rcpYqwj" role="37vLTJ">
+              <ref role="3cqZAo" node="50l$rcpYmst" resolve="innerAction" />
             </node>
           </node>
         </node>
@@ -1622,6 +1638,12 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4vr6dCEl9it" role="jymVt" />
+    <node concept="3clFb_" id="50l$rcpYra9" role="jymVt">
+      <property role="TrG5h" value="createAndParameterizeInnerAction" />
+      <node concept="3cqZAl" id="50l$rcpYrab" role="3clF45" />
+      <node concept="3Tm1VV" id="50l$rcpYrac" role="1B3o_S" />
+      <node concept="3clFbS" id="50l$rcpYrad" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="4vr6dCElabG" role="jymVt">
       <property role="TrG5h" value="gcClear" />
       <node concept="3cqZAl" id="4vr6dCElabI" role="3clF45" />
