@@ -633,6 +633,11 @@
         <ref role="3uigEE" node="Y3fiVJMvUT" resolve="MenuAction" />
       </node>
     </node>
+    <node concept="312cEg" id="6IYVo2hXf4p" role="jymVt">
+      <property role="TrG5h" value="conclusion" />
+      <node concept="3Tm1VV" id="6IYVo2hXfB$" role="1B3o_S" />
+      <node concept="17QB3L" id="6IYVo2hXfCg" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="Y3fiVJOkPS" role="jymVt" />
     <node concept="3clFbW" id="Y3fiVJOfqb" role="jymVt">
       <node concept="3cqZAl" id="Y3fiVJOfqd" role="3clF45" />
@@ -690,6 +695,14 @@
             <node concept="10Nm6u" id="50l$rcpYq$$" role="37vLTx" />
             <node concept="37vLTw" id="50l$rcpYqwj" role="37vLTJ">
               <ref role="3cqZAo" node="50l$rcpYmst" resolve="innerAction" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6IYVo2hXfGW" role="3cqZAp">
+          <node concept="37vLTI" id="6IYVo2hXfLk" role="3clFbG">
+            <node concept="10Nm6u" id="6IYVo2hXfMa" role="37vLTx" />
+            <node concept="37vLTw" id="6IYVo2hXfGU" role="37vLTJ">
+              <ref role="3cqZAo" node="6IYVo2hXf4p" resolve="conclusion" />
             </node>
           </node>
         </node>
@@ -932,6 +945,12 @@
             <node concept="37vLTw" id="5ol$Nw0614" role="37vLTJ">
               <ref role="3cqZAo" node="5ol$NvZZXE" resolve="useGivenConfiguration" />
             </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="53Vnir0w_BH" role="3cqZAp" />
+        <node concept="3clFbF" id="53Vnir0w_OR" role="3cqZAp">
+          <node concept="1rXfSq" id="53Vnir0w_OP" role="3clFbG">
+            <ref role="37wK5l" node="50l$rcpYra9" resolve="createAndParameterizeCompoundAction" />
           </node>
         </node>
       </node>
@@ -1639,7 +1658,7 @@
     </node>
     <node concept="2tJIrI" id="4vr6dCEl9it" role="jymVt" />
     <node concept="3clFb_" id="50l$rcpYra9" role="jymVt">
-      <property role="TrG5h" value="createAndParameterizeInnerAction" />
+      <property role="TrG5h" value="createAndParameterizeCompoundAction" />
       <node concept="3cqZAl" id="50l$rcpYrab" role="3clF45" />
       <node concept="3Tm1VV" id="50l$rcpYrac" role="1B3o_S" />
       <node concept="3clFbS" id="50l$rcpYrad" role="3clF47" />

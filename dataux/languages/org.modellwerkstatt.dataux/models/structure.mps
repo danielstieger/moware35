@@ -1145,6 +1145,11 @@
     <property role="R4oN_" value="fold multiple cmds" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" node="3nLPQZQ0zzY" resolve="MenuAction" />
+    <node concept="1TJgyj" id="6IYVo2hTQQL" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="pageConclusion" />
+      <ref role="20lvS9" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
+    </node>
     <node concept="1TJgyj" id="1K7fNI_kqJZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="innerAction" />

@@ -17,6 +17,7 @@
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" implicit="true" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
+    <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -4408,6 +4409,78 @@
           <node concept="37vLTw" id="50l$rcpLlP9" role="3uHU7B">
             <ref role="3cqZAo" node="50l$rcpLl8O" resolve="isBaseCommand" />
           </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="6IYVo2hTQRN" role="3cqZAp" />
+      <node concept="3clFbJ" id="6IYVo2hTRd6" role="3cqZAp">
+        <node concept="3clFbS" id="6IYVo2hTRd8" role="3clFbx">
+          <node concept="3clFbJ" id="6IYVo2hTS4j" role="3cqZAp">
+            <node concept="3clFbS" id="6IYVo2hTS4l" role="3clFbx">
+              <node concept="3SKdUt" id="6IYVo2hTU6e" role="3cqZAp">
+                <node concept="3SKdUq" id="6IYVo2hTU6g" role="3SKWNk">
+                  <property role="3SKdUp" value="okay" />
+                </node>
+              </node>
+            </node>
+            <node concept="22lmx$" id="6IYVo2hTT4W" role="3clFbw">
+              <node concept="2OqwBi" id="6IYVo2hTTKR" role="3uHU7w">
+                <node concept="2OqwBi" id="6IYVo2hTTi3" role="2Oq$k0">
+                  <node concept="1YBJjd" id="6IYVo2hTTbO" role="2Oq$k0">
+                    <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                  </node>
+                  <node concept="3TrEf2" id="6IYVo2hTTy4" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="6IYVo2hTTZh" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:2FiiyF3e0JS" resolve="isWithoutPage" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6IYVo2hTSHV" role="3uHU7B">
+                <node concept="2OqwBi" id="6IYVo2hTS9e" role="2Oq$k0">
+                  <node concept="1YBJjd" id="6IYVo2hTS4D" role="2Oq$k0">
+                    <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                  </node>
+                  <node concept="3TrEf2" id="6IYVo2hTSxs" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="6IYVo2hTSUA" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:1Csx3LqyLk2" resolve="isSinglePager" />
+                </node>
+              </node>
+            </node>
+            <node concept="9aQIb" id="6IYVo2hTU6z" role="9aQIa">
+              <node concept="3clFbS" id="6IYVo2hTU6$" role="9aQI4">
+                <node concept="2MkqsV" id="6IYVo2hTUdx" role="3cqZAp">
+                  <node concept="Xl_RD" id="6IYVo2hTUdH" role="2MkJ7o">
+                    <property role="Xl_RC" value="Compound action can only be used on commands with none or one page." />
+                  </node>
+                  <node concept="2OqwBi" id="6IYVo2hTUnF" role="2OEOjV">
+                    <node concept="1YBJjd" id="6IYVo2hTUjm" role="2Oq$k0">
+                      <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                    </node>
+                    <node concept="3TrEf2" id="6IYVo2hTUH1" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="6IYVo2hTUjQ" role="3cqZAp" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="6IYVo2hTW9f" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="6IYVo2hTRKW" role="3clFbw">
+          <node concept="2OqwBi" id="6IYVo2hTRmi" role="2Oq$k0">
+            <node concept="1YBJjd" id="6IYVo2hTRhA" role="2Oq$k0">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+            </node>
+            <node concept="3TrEf2" id="6IYVo2hTR$t" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="6IYVo2hTS3c" role="2OqNvi" />
         </node>
       </node>
     </node>
