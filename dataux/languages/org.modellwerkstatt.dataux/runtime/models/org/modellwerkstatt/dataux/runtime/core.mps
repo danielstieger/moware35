@@ -7290,7 +7290,7 @@
     </node>
     <node concept="3clFb_" id="3faLA0M2L_4" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="successfullyClosed" />
+      <property role="TrG5h" value="commandClosed" />
       <node concept="37vLTG" id="3faLA0M2LGP" role="3clF46">
         <property role="TrG5h" value="container" />
         <node concept="3uibUv" id="2o7h3aDYKYf" role="1tU5fm">
@@ -14869,26 +14869,69 @@
             <property role="3SKdUp" value="even, if command ui is null - inform app crtl" />
           </node>
         </node>
-        <node concept="3clFbJ" id="6IYVo2i3X4K" role="3cqZAp">
-          <node concept="3clFbS" id="6IYVo2i3X4M" role="3clFbx">
-            <node concept="3clFbF" id="1dzqM5xm4LZ" role="3cqZAp">
-              <node concept="2OqwBi" id="1dzqM5xm56v" role="3clFbG">
-                <node concept="37vLTw" id="1dzqM5xm4LX" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
-                </node>
-                <node concept="liA8E" id="1dzqM5xm5rC" role="2OqNvi">
-                  <ref role="37wK5l" node="1dzqM5xlPGy" resolve="closeCommandContainerUI" />
-                  <node concept="Xjq3P" id="1dzqM5xpT1j" role="37wK5m" />
-                  <node concept="37vLTw" id="1dzqM5xm5tL" role="37wK5m">
-                    <ref role="3cqZAo" node="5_bDd1daoNx" resolve="commandUI" />
+        <node concept="SfApY" id="u3l_GaKxPJ" role="3cqZAp">
+          <node concept="3clFbS" id="u3l_GaKxPL" role="SfCbr">
+            <node concept="3SKdUt" id="u3l_GaKyFT" role="3cqZAp">
+              <node concept="3SKdUq" id="u3l_GaKyFV" role="3SKWNk">
+                <property role="3SKdUp" value="typically this might crash on an app problem" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6IYVo2i3X4K" role="3cqZAp">
+              <node concept="3clFbS" id="6IYVo2i3X4M" role="3clFbx">
+                <node concept="3clFbF" id="1dzqM5xm4LZ" role="3cqZAp">
+                  <node concept="2OqwBi" id="1dzqM5xm56v" role="3clFbG">
+                    <node concept="37vLTw" id="1dzqM5xm4LX" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                    </node>
+                    <node concept="liA8E" id="1dzqM5xm5rC" role="2OqNvi">
+                      <ref role="37wK5l" node="1dzqM5xlPGy" resolve="closeCommandContainerUI" />
+                      <node concept="Xjq3P" id="1dzqM5xpT1j" role="37wK5m" />
+                      <node concept="37vLTw" id="1dzqM5xm5tL" role="37wK5m">
+                        <ref role="3cqZAo" node="5_bDd1daoNx" resolve="commandUI" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
+              <node concept="3fqX7Q" id="6IYVo2i3Xll" role="3clFbw">
+                <node concept="37vLTw" id="6IYVo2i3Xsd" role="3fr31v">
+                  <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="blindMode" />
+                </node>
+              </node>
             </node>
+            <node concept="3clFbH" id="u3l_GaK_kp" role="3cqZAp" />
           </node>
-          <node concept="3fqX7Q" id="6IYVo2i3Xll" role="3clFbw">
-            <node concept="37vLTw" id="6IYVo2i3Xsd" role="3fr31v">
-              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="blindMode" />
+          <node concept="TDmWw" id="u3l_GaKxPM" role="TEbGg">
+            <node concept="3cpWsn" id="u3l_GaKxPO" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="u3l_GaKyJV" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="u3l_GaKxPS" role="TDEfX">
+              <node concept="3clFbF" id="u3l_GaKyQZ" role="3cqZAp">
+                <node concept="2OqwBi" id="u3l_GaKyRT" role="3clFbG">
+                  <node concept="37vLTw" id="u3l_GaKyQY" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                  </node>
+                  <node concept="liA8E" id="u3l_GaKz2K" role="2OqNvi">
+                    <ref role="37wK5l" node="6Au2sPCLqc4" resolve="logProblem" />
+                    <node concept="3cpWs3" id="u3l_GaK_79" role="37wK5m">
+                      <node concept="2YIFZM" id="u3l_GaK_d1" role="3uHU7w">
+                        <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                        <node concept="37vLTw" id="u3l_GaK_g4" role="37wK5m">
+                          <ref role="3cqZAo" node="u3l_GaKxPO" resolve="ex" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="u3l_GaK$ID" role="3uHU7B">
+                        <property role="Xl_RC" value="CommandContainer.fg_closeUiAndContainer(): Apcrtl excpt isolated on excpt shutdown: " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="u3l_GaK_iq" role="3cqZAp" />
             </node>
           </node>
         </node>
@@ -15049,7 +15092,7 @@
               <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
             </node>
             <node concept="liA8E" id="3faLA0M2Lx8" role="2OqNvi">
-              <ref role="37wK5l" node="3faLA0M2L_4" resolve="successfullyClosed" />
+              <ref role="37wK5l" node="3faLA0M2L_4" resolve="commandClosed" />
               <node concept="Xjq3P" id="3faLA0M2Ve7" role="37wK5m" />
               <node concept="37vLTw" id="5ZV7jolgFM$" role="37wK5m">
                 <ref role="3cqZAo" node="5ZV7jolgCH7" resolve="wasOk" />
@@ -15063,20 +15106,29 @@
             <property role="3SKdUp" value="action on parent container? " />
           </node>
         </node>
-        <node concept="3clFbF" id="75Ym_uFbX8i" role="3cqZAp">
-          <node concept="2OqwBi" id="75Ym_uFbXsm" role="3clFbG">
-            <node concept="37vLTw" id="75Ym_uFbX8g" role="2Oq$k0">
-              <ref role="3cqZAo" node="4XXgpAARetX" resolve="parentCommandContainer" />
-            </node>
-            <node concept="liA8E" id="75Ym_uFcb0_" role="2OqNvi">
-              <ref role="37wK5l" node="6IYVo2hYHDh" resolve="checkAutoConclusion" />
-              <node concept="37vLTw" id="75Ym_uFcb61" role="37wK5m">
-                <ref role="3cqZAo" node="5ZV7jolgCH7" resolve="wasOk" />
+        <node concept="3clFbJ" id="298IG9dDb12" role="3cqZAp">
+          <node concept="3clFbS" id="298IG9dDb14" role="3clFbx">
+            <node concept="3clFbF" id="75Ym_uFbX8i" role="3cqZAp">
+              <node concept="2OqwBi" id="75Ym_uFbXsm" role="3clFbG">
+                <node concept="37vLTw" id="75Ym_uFbX8g" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4XXgpAARetX" resolve="parentCommandContainer" />
+                </node>
+                <node concept="liA8E" id="75Ym_uFcb0_" role="2OqNvi">
+                  <ref role="37wK5l" node="6IYVo2hYHDh" resolve="checkAutoConclusion" />
+                  <node concept="37vLTw" id="75Ym_uFcb61" role="37wK5m">
+                    <ref role="3cqZAo" node="5ZV7jolgCH7" resolve="wasOk" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
+          <node concept="3y3z36" id="298IG9dDbpm" role="3clFbw">
+            <node concept="10Nm6u" id="298IG9dDbwe" role="3uHU7w" />
+            <node concept="37vLTw" id="298IG9dDbi0" role="3uHU7B">
+              <ref role="3cqZAo" node="4XXgpAARetX" resolve="parentCommandContainer" />
+            </node>
+          </node>
         </node>
-        <node concept="3clFbH" id="75Ym_uFcdG0" role="3cqZAp" />
         <node concept="3SKdUt" id="6IYVo2hZ0V1" role="3cqZAp">
           <node concept="3SKdUq" id="6IYVo2hZ0V3" role="3SKWNk">
             <property role="3SKdUp" value="paraentCommandContainer still accessible by others while processing successfullyClosed " />
@@ -15284,15 +15336,22 @@
               </node>
             </node>
           </node>
-          <node concept="3y3z36" id="6IYVo2hYAHR" role="3clFbw">
-            <node concept="10Nm6u" id="6IYVo2hYAJe" role="3uHU7w" />
-            <node concept="2OqwBi" id="6IYVo2hYAlp" role="3uHU7B">
-              <node concept="37vLTw" id="6IYVo2hYAjW" role="2Oq$k0">
-                <ref role="3cqZAo" node="53Vnir0tdG5" resolve="action" />
+          <node concept="1Wc70l" id="u3l_GaIpls" role="3clFbw">
+            <node concept="3fqX7Q" id="u3l_GaIpCQ" role="3uHU7w">
+              <node concept="37vLTw" id="u3l_GaIpCS" role="3fr31v">
+                <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
               </node>
-              <node concept="2OwXpG" id="6IYVo2hYAxf" role="2OqNvi">
-                <ref role="2Oxat5" to="yg8v:6IYVo2hXf4p" resolve="autoConclusion" />
+            </node>
+            <node concept="3y3z36" id="6IYVo2hYAHR" role="3uHU7B">
+              <node concept="2OqwBi" id="6IYVo2hYAlp" role="3uHU7B">
+                <node concept="37vLTw" id="6IYVo2hYAjW" role="2Oq$k0">
+                  <ref role="3cqZAo" node="53Vnir0tdG5" resolve="action" />
+                </node>
+                <node concept="2OwXpG" id="6IYVo2hYAxf" role="2OqNvi">
+                  <ref role="2Oxat5" to="yg8v:6IYVo2hXf4p" resolve="autoConclusion" />
+                </node>
               </node>
+              <node concept="10Nm6u" id="6IYVo2hYAJe" role="3uHU7w" />
             </node>
           </node>
         </node>
@@ -19617,7 +19676,7 @@
     <node concept="2tJIrI" id="3nYsKhuSpwo" role="jymVt" />
     <node concept="3clFb_" id="3faLA0M353h" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="successfullyClosed" />
+      <property role="TrG5h" value="commandClosed" />
       <node concept="37vLTG" id="3faLA0M353i" role="3clF46">
         <property role="TrG5h" value="containerClosed" />
         <node concept="3uibUv" id="2o7h3aDYMFy" role="1tU5fm">
