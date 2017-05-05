@@ -2417,7 +2417,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="53Vnir0wApC" role="3EZMnx">
-          <property role="3F0ifm" value=" CONDITIONS OF CHILD NOT CHECKED!" />
+          <property role="3F0ifm" value=" CONDITIONS OF CHILD NOT CHECKED, alternative inners?" />
           <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
         </node>
         <node concept="l2Vlx" id="50l$rcpKevz" role="2iSdaV" />

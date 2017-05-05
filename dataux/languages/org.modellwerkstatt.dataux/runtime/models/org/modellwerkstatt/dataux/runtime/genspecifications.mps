@@ -634,7 +634,7 @@
       </node>
     </node>
     <node concept="312cEg" id="6IYVo2hXf4p" role="jymVt">
-      <property role="TrG5h" value="conclusion" />
+      <property role="TrG5h" value="autoConclusion" />
       <node concept="3Tm1VV" id="6IYVo2hXfB$" role="1B3o_S" />
       <node concept="17QB3L" id="6IYVo2hXfCg" role="1tU5fm" />
     </node>
@@ -702,7 +702,7 @@
           <node concept="37vLTI" id="6IYVo2hXfLk" role="3clFbG">
             <node concept="10Nm6u" id="6IYVo2hXfMa" role="37vLTx" />
             <node concept="37vLTw" id="6IYVo2hXfGU" role="37vLTJ">
-              <ref role="3cqZAo" node="6IYVo2hXf4p" resolve="conclusion" />
+              <ref role="3cqZAo" node="6IYVo2hXf4p" resolve="autoConclusion" />
             </node>
           </node>
         </node>
