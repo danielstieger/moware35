@@ -3769,7 +3769,7 @@
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="4z7jlGJreQ8" role="Qtgdg">
-        <property role="TrG5h" value="COMPOUND" />
+        <property role="TrG5h" value="AUTO_CON_MULTI" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="4z7jlGJreQ9" role="1B3o_S" />

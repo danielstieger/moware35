@@ -6656,17 +6656,15 @@
                   </node>
                 </node>
               </node>
-              <node concept="3fqX7Q" id="4z7jlGJsIx1" role="3clFbw">
-                <node concept="2OqwBi" id="4z7jlGJsIx3" role="3fr31v">
-                  <node concept="37vLTw" id="4z7jlGJsIx4" role="2Oq$k0">
-                    <ref role="3cqZAo" node="206uhc7nwcX" resolve="stragey" />
-                  </node>
-                  <node concept="liA8E" id="4z7jlGJsIx5" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="Rm8GO" id="4z7jlGJsPC5" role="37wK5m">
-                      <ref role="Rm8GQ" to="28jr:4z7jlGJreQ6" resolve="SINGLE" />
-                      <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
-                    </node>
+              <node concept="2OqwBi" id="4z7jlGJsIx3" role="3clFbw">
+                <node concept="37vLTw" id="4z7jlGJsIx4" role="2Oq$k0">
+                  <ref role="3cqZAo" node="206uhc7nwcX" resolve="stragey" />
+                </node>
+                <node concept="liA8E" id="4z7jlGJsIx5" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="Rm8GO" id="4uSs_3r6uXt" role="37wK5m">
+                    <ref role="Rm8GQ" to="28jr:4z7jlGJreQ7" resolve="MULTI" />
+                    <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
                   </node>
                 </node>
               </node>
@@ -7320,17 +7318,15 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3fqX7Q" id="3nYsKhuVs9m" role="3clFbw">
-                    <node concept="2OqwBi" id="3nYsKhuVs9n" role="3fr31v">
-                      <node concept="37vLTw" id="3nYsKhuVs9o" role="2Oq$k0">
-                        <ref role="3cqZAo" node="206uhc7nwcX" resolve="stragey" />
-                      </node>
-                      <node concept="liA8E" id="3nYsKhuVs9p" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
-                        <node concept="Rm8GO" id="3nYsKhuVs9q" role="37wK5m">
-                          <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
-                          <ref role="Rm8GQ" to="28jr:4z7jlGJreQ6" resolve="SINGLE" />
-                        </node>
+                  <node concept="2OqwBi" id="3nYsKhuVs9n" role="3clFbw">
+                    <node concept="37vLTw" id="3nYsKhuVs9o" role="2Oq$k0">
+                      <ref role="3cqZAo" node="206uhc7nwcX" resolve="stragey" />
+                    </node>
+                    <node concept="liA8E" id="3nYsKhuVs9p" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
+                      <node concept="Rm8GO" id="4uSs_3r6nKz" role="37wK5m">
+                        <ref role="Rm8GQ" to="28jr:4z7jlGJreQ7" resolve="MULTI" />
+                        <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
                       </node>
                     </node>
                   </node>
@@ -7407,7 +7403,7 @@
                         <node concept="3clFbH" id="3nYsKhuVs9W" role="3cqZAp" />
                         <node concept="3SKdUt" id="3nYsKhuVs9X" role="3cqZAp">
                           <node concept="3SKdUq" id="3nYsKhuVs9Y" role="3SKWNk">
-                            <property role="3SKdUp" value="SEARCH or SUBGRAPH can only execute in single" />
+                            <property role="3SKdUp" value="SEARCH or SUBGRAPH can only execute in single, graph owner only if no page present." />
                           </node>
                         </node>
                         <node concept="3cpWs6" id="3nYsKhuVs9Z" role="3cqZAp">
@@ -8586,39 +8582,14 @@
             <node concept="3uibUv" id="77cIZAS6w2y" role="1tU5fm">
               <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
             </node>
+            <node concept="37vLTw" id="4uSs_3r33UO" role="33vP2m">
+              <ref role="3cqZAo" node="4wvbHtt1NwH" resolve="existingSession" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="77cIZAS6IcK" role="3cqZAp" />
         <node concept="3clFbJ" id="3PmKne7RhlY" role="3cqZAp">
           <node concept="3clFbS" id="3PmKne7RhlZ" role="3clFbx">
-            <node concept="3clFbH" id="7nDMIUKOOO1" role="3cqZAp" />
-            <node concept="3clFbF" id="77cIZAS79Pd" role="3cqZAp">
-              <node concept="37vLTI" id="77cIZAS7aMP" role="3clFbG">
-                <node concept="37vLTw" id="77cIZAS7aW1" role="37vLTx">
-                  <ref role="3cqZAo" node="4wvbHtt1NwH" resolve="existingSession" />
-                </node>
-                <node concept="37vLTw" id="77cIZAS79Pb" role="37vLTJ">
-                  <ref role="3cqZAo" node="77cIZAS6w2x" resolve="session" />
-                </node>
-              </node>
-              <node concept="1W57fq" id="77cIZAS7fGg" role="lGtFl">
-                <property role="34cw8o" value="GRAPH_EDIT" />
-                <node concept="3IZrLx" id="77cIZAS7fGi" role="3IZSJc">
-                  <node concept="3clFbS" id="77cIZAS7fGk" role="2VODD2">
-                    <node concept="3clFbF" id="77cIZAS7fQs" role="3cqZAp">
-                      <node concept="3fqX7Q" id="77cIZAS7idQ" role="3clFbG">
-                        <node concept="2OqwBi" id="77cIZAS7idR" role="3fr31v">
-                          <node concept="30H73N" id="77cIZAS7idS" role="2Oq$k0" />
-                          <node concept="2qgKlT" id="77cIZAS7idT" role="2OqNvi">
-                            <ref role="37wK5l" to="70o0:77cIZAS3HwM" resolve="isSessionOwnerCommand" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="9aQIb" id="3yNAOQxsbdl" role="3cqZAp">
               <node concept="3clFbS" id="3yNAOQxsbdn" role="9aQI4">
                 <node concept="3clFbF" id="77cIZAS7bYe" role="3cqZAp">
