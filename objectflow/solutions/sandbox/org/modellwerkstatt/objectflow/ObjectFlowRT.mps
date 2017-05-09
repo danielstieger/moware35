@@ -3382,6 +3382,13 @@
       <node concept="3Tm1VV" id="11hNSr_clN_" role="1B3o_S" />
       <node concept="3clFbS" id="11hNSr_clNA" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="2e3BpjB8pqn" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="disableActiveSessionHandling" />
+      <node concept="3cqZAl" id="2e3BpjB8qV6" role="3clF45" />
+      <node concept="3Tm1VV" id="2e3BpjB8pqq" role="1B3o_S" />
+      <node concept="3clFbS" id="2e3BpjB8pqr" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="6Rdz00$VeoD" role="jymVt" />
     <node concept="3clFb_" id="6Rdz00$VePa" role="jymVt">
       <property role="1EzhhJ" value="true" />
