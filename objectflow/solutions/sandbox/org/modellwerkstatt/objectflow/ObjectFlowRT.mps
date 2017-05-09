@@ -3510,7 +3510,7 @@
       <node concept="37vLTG" id="4z7jlGJrwlT" role="3clF46">
         <property role="TrG5h" value="stragey" />
         <node concept="3uibUv" id="4z7jlGJrwlU" role="1tU5fm">
-          <ref role="3uigEE" node="4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
+          <ref role="3uigEE" node="4z7jlGJreQ5" resolve="IOFXProcess.CmdExecStrategy" />
         </node>
       </node>
       <node concept="37vLTG" id="7rqBz8B3En7" role="3clF46">
@@ -3614,7 +3614,7 @@
       <node concept="37vLTG" id="4z7jlGJrwqK" role="3clF46">
         <property role="TrG5h" value="stragey" />
         <node concept="3uibUv" id="4z7jlGJrwqL" role="1tU5fm">
-          <ref role="3uigEE" node="4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
+          <ref role="3uigEE" node="4z7jlGJreQ5" resolve="IOFXProcess.CmdExecStrategy" />
         </node>
       </node>
       <node concept="37vLTG" id="7rqBz8B3Enh" role="3clF46">
@@ -3758,7 +3758,7 @@
       <node concept="3Tm1VV" id="11hNSr_a7E2" role="1B3o_S" />
     </node>
     <node concept="Qs71p" id="4z7jlGJreQ5" role="jymVt">
-      <property role="TrG5h" value="CommandExecutionStrategy" />
+      <property role="TrG5h" value="CmdExecStrategy" />
       <property role="2bfB8j" value="false" />
       <node concept="QsSxf" id="4z7jlGJreQ6" role="Qtgdg">
         <property role="TrG5h" value="SINGLE" />
@@ -3770,6 +3770,10 @@
       </node>
       <node concept="QsSxf" id="4z7jlGJreQ8" role="Qtgdg">
         <property role="TrG5h" value="AUTO_CON_MULTI" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="6oMnH9FQhWQ" role="Qtgdg">
+        <property role="TrG5h" value="INNER_NO_NEW_SESSION" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="4z7jlGJreQ9" role="1B3o_S" />
@@ -5126,7 +5130,7 @@
                 <ref role="37wK5l" node="7rqBz8B3End" resolve="startCommand" />
                 <node concept="Rm8GO" id="4z7jlGJy$3N" role="37wK5m">
                   <ref role="Rm8GQ" node="4z7jlGJreQ6" resolve="SINGLE" />
-                  <ref role="1Px2BO" node="4z7jlGJreQ5" resolve="IOFXProcess.CommandExecutionStrategy" />
+                  <ref role="1Px2BO" node="4z7jlGJreQ5" resolve="IOFXProcess.CmdExecStrategy" />
                 </node>
                 <node concept="37vLTw" id="6svR_JBEO5u" role="37wK5m">
                   <ref role="3cqZAo" node="7MqOxzynUfg" resolve="document" />

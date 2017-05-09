@@ -169,6 +169,9 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
+        <reference id="1138676095763" name="enumMember" index="uo_Cq" />
+      </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
@@ -182,6 +185,9 @@
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
+      <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
+        <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
       <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
@@ -4323,6 +4329,70 @@
         </node>
       </node>
       <node concept="3clFbH" id="50l$rcpLl4H" role="3cqZAp" />
+      <node concept="3clFbJ" id="6oMnH9FQbIZ" role="3cqZAp">
+        <node concept="3clFbS" id="6oMnH9FQbJ1" role="3clFbx">
+          <node concept="3SKdUt" id="6oMnH9FQeVt" role="3cqZAp">
+            <node concept="3SKdUq" id="6oMnH9FQeVv" role="3SKWNk">
+              <property role="3SKdUp" value="okay" />
+            </node>
+          </node>
+        </node>
+        <node concept="22lmx$" id="6oMnH9FQdcr" role="3clFbw">
+          <node concept="2OqwBi" id="6oMnH9FQeu9" role="3uHU7w">
+            <node concept="2OqwBi" id="6oMnH9FQe3i" role="2Oq$k0">
+              <node concept="2OqwBi" id="6oMnH9FQdpm" role="2Oq$k0">
+                <node concept="1YBJjd" id="6oMnH9FQdkA" role="2Oq$k0">
+                  <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                </node>
+                <node concept="3TrEf2" id="6oMnH9FQdNA" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="6oMnH9FQehS" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+              </node>
+            </node>
+            <node concept="3t7uKx" id="6oMnH9FQeFu" role="2OqNvi">
+              <node concept="uoxfO" id="6oMnH9FQeFw" role="3t7uKA">
+                <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6oMnH9FQcTv" role="3uHU7B">
+            <node concept="2OqwBi" id="6oMnH9FQcxa" role="2Oq$k0">
+              <node concept="2OqwBi" id="6oMnH9FQbUy" role="2Oq$k0">
+                <node concept="1YBJjd" id="6oMnH9FQbLZ" role="2Oq$k0">
+                  <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                </node>
+                <node concept="3TrEf2" id="6oMnH9FQckF" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                </node>
+              </node>
+              <node concept="3TrcHB" id="6oMnH9FQcJD" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+              </node>
+            </node>
+            <node concept="3t7uKx" id="6oMnH9FQd6v" role="2OqNvi">
+              <node concept="uoxfO" id="6oMnH9FQd6x" role="3t7uKA">
+                <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="9aQIb" id="6oMnH9FQeVX" role="9aQIa">
+          <node concept="3clFbS" id="6oMnH9FQeVY" role="9aQI4">
+            <node concept="2MkqsV" id="6oMnH9FQf3X" role="3cqZAp">
+              <node concept="Xl_RD" id="6oMnH9FQf49" role="2MkJ7o">
+                <property role="Xl_RC" value="Only Graph Edit or Graph Owner commands are supported by compound actions." />
+              </node>
+              <node concept="1YBJjd" id="6oMnH9FQf8u" role="2OEOjV">
+                <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="6oMnH9FQbBQ" role="3cqZAp" />
       <node concept="3clFbJ" id="50l$rcpIuqL" role="3cqZAp">
         <node concept="1Wc70l" id="50l$rcpKchI" role="3clFbw">
           <node concept="37vLTw" id="50l$rcpLlHi" role="3uHU7B">
