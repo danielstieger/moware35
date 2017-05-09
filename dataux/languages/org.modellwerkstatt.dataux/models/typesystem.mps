@@ -4481,7 +4481,37 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbH" id="6IYVo2hTQRN" role="3cqZAp" />
+      <node concept="3clFbJ" id="2N_nDunOXuM" role="3cqZAp">
+        <node concept="3clFbS" id="2N_nDunOXuO" role="3clFbx">
+          <node concept="2MkqsV" id="2N_nDunOYKz" role="3cqZAp">
+            <node concept="Xl_RD" id="2N_nDunOYKM" role="2MkJ7o">
+              <property role="Xl_RC" value="Right now, compound actions support only one inner action!" />
+            </node>
+            <node concept="1YBJjd" id="2N_nDunOZ01" role="2OEOjV">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="2N_nDunOXC$" role="3clFbw">
+          <node concept="2OqwBi" id="2N_nDunOYlF" role="3uHU7w">
+            <node concept="2OqwBi" id="2N_nDunOXI2" role="2Oq$k0">
+              <node concept="1YBJjd" id="2N_nDunOXDc" role="2Oq$k0">
+                <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+              </node>
+              <node concept="3TrEf2" id="2N_nDunOXZJ" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:1K7fNI_kqJZ" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="2N_nDunOYBX" role="2OqNvi" />
+          </node>
+          <node concept="3fqX7Q" id="2N_nDunOXAa" role="3uHU7B">
+            <node concept="37vLTw" id="2N_nDunOXAx" role="3fr31v">
+              <ref role="3cqZAo" node="50l$rcpLl8O" resolve="isBaseCommand" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2N_nDunOXjP" role="3cqZAp" />
       <node concept="3clFbJ" id="6IYVo2hTRd6" role="3cqZAp">
         <node concept="3clFbS" id="6IYVo2hTRd8" role="3clFbx">
           <node concept="3clFbJ" id="6IYVo2hTS4j" role="3cqZAp">

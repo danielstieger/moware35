@@ -2690,6 +2690,15 @@
         <node concept="10Nm6u" id="gGnCBOHkxP" role="37wK5m" />
         <node concept="10Nm6u" id="gGnCBOHkyQ" role="37wK5m" />
       </node>
+      <node concept="QsSxf" id="2e3BpjBfPxm" role="Qtgdg">
+        <property role="TrG5h" value="INNER_CMD_NOT_ENABLED" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
+        <node concept="Xl_RD" id="2e3BpjBfQ2G" role="37wK5m">
+          <property role="Xl_RC" value="Das Kommand '%s' konnte nicht angewendet werden." />
+        </node>
+        <node concept="10Nm6u" id="2e3BpjBfQ5E" role="37wK5m" />
+        <node concept="10Nm6u" id="2e3BpjBfQ6M" role="37wK5m" />
+      </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
       <node concept="2tJIrI" id="3zf0S8jTrHW" role="jymVt" />
       <node concept="2tJIrI" id="4ysbFF_K0QT" role="jymVt" />
