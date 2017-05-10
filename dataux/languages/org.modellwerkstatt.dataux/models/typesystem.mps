@@ -4329,70 +4329,86 @@
         </node>
       </node>
       <node concept="3clFbH" id="50l$rcpLl4H" role="3cqZAp" />
-      <node concept="3clFbJ" id="6oMnH9FQbIZ" role="3cqZAp">
-        <node concept="3clFbS" id="6oMnH9FQbJ1" role="3clFbx">
-          <node concept="3SKdUt" id="6oMnH9FQeVt" role="3cqZAp">
-            <node concept="3SKdUq" id="6oMnH9FQeVv" role="3SKWNk">
-              <property role="3SKdUp" value="okay" />
+      <node concept="3clFbJ" id="3kFdJs2Wac" role="3cqZAp">
+        <node concept="3clFbS" id="3kFdJs2Wae" role="3clFbx">
+          <node concept="2MkqsV" id="3kFdJs2WnC" role="3cqZAp">
+            <node concept="Xl_RD" id="3kFdJs2WnR" role="2MkJ7o">
+              <property role="Xl_RC" value="Base command of a compound action has to be a Graph Owner command." />
+            </node>
+            <node concept="1YBJjd" id="3kFdJs2WuO" role="2OEOjV">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
             </node>
           </node>
         </node>
-        <node concept="22lmx$" id="6oMnH9FQdcr" role="3clFbw">
-          <node concept="2OqwBi" id="6oMnH9FQeu9" role="3uHU7w">
-            <node concept="2OqwBi" id="6oMnH9FQe3i" role="2Oq$k0">
-              <node concept="2OqwBi" id="6oMnH9FQdpm" role="2Oq$k0">
-                <node concept="1YBJjd" id="6oMnH9FQdkA" role="2Oq$k0">
-                  <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
-                </node>
-                <node concept="3TrEf2" id="6oMnH9FQdNA" role="2OqNvi">
-                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="6oMnH9FQehS" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
-              </node>
-            </node>
-            <node concept="3t7uKx" id="6oMnH9FQeFu" role="2OqNvi">
-              <node concept="uoxfO" id="6oMnH9FQeFw" role="3t7uKA">
-                <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
-              </node>
-            </node>
+        <node concept="1Wc70l" id="3kFdJs2Wk0" role="3clFbw">
+          <node concept="37vLTw" id="3kFdJs2WhP" role="3uHU7B">
+            <ref role="3cqZAo" node="50l$rcpLl8O" resolve="isBaseCommand" />
           </node>
-          <node concept="2OqwBi" id="6oMnH9FQcTv" role="3uHU7B">
-            <node concept="2OqwBi" id="6oMnH9FQcxa" role="2Oq$k0">
-              <node concept="2OqwBi" id="6oMnH9FQbUy" role="2Oq$k0">
-                <node concept="1YBJjd" id="6oMnH9FQbLZ" role="2Oq$k0">
-                  <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+          <node concept="3fqX7Q" id="3kFdJs2WYI" role="3uHU7w">
+            <node concept="2OqwBi" id="3kFdJs2WYK" role="3fr31v">
+              <node concept="2OqwBi" id="3kFdJs2WYL" role="2Oq$k0">
+                <node concept="2OqwBi" id="3kFdJs2WYM" role="2Oq$k0">
+                  <node concept="1YBJjd" id="3kFdJs2WYN" role="2Oq$k0">
+                    <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                  </node>
+                  <node concept="3TrEf2" id="3kFdJs2WYO" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                  </node>
                 </node>
-                <node concept="3TrEf2" id="6oMnH9FQckF" role="2OqNvi">
-                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                <node concept="3TrcHB" id="3kFdJs2WYP" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
                 </node>
               </node>
-              <node concept="3TrcHB" id="6oMnH9FQcJD" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
-              </node>
-            </node>
-            <node concept="3t7uKx" id="6oMnH9FQd6v" role="2OqNvi">
-              <node concept="uoxfO" id="6oMnH9FQd6x" role="3t7uKA">
-                <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="9aQIb" id="6oMnH9FQeVX" role="9aQIa">
-          <node concept="3clFbS" id="6oMnH9FQeVY" role="9aQI4">
-            <node concept="2MkqsV" id="6oMnH9FQf3X" role="3cqZAp">
-              <node concept="Xl_RD" id="6oMnH9FQf49" role="2MkJ7o">
-                <property role="Xl_RC" value="Only Graph Edit or Graph Owner commands are supported by compound actions." />
-              </node>
-              <node concept="1YBJjd" id="6oMnH9FQf8u" role="2OEOjV">
-                <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+              <node concept="3t7uKx" id="3kFdJs2WYQ" role="2OqNvi">
+                <node concept="uoxfO" id="3kFdJs2WYR" role="3t7uKA">
+                  <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
+                </node>
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="3clFbH" id="6oMnH9FQbBQ" role="3cqZAp" />
+      <node concept="3clFbJ" id="3kFdJs2WNp" role="3cqZAp">
+        <node concept="3clFbS" id="3kFdJs2WNq" role="3clFbx">
+          <node concept="2MkqsV" id="3kFdJs2WNr" role="3cqZAp">
+            <node concept="Xl_RD" id="3kFdJs2WNs" role="2MkJ7o">
+              <property role="Xl_RC" value="Inner command of a compound action has to be a Graph Edit command." />
+            </node>
+            <node concept="1YBJjd" id="3kFdJs2WNt" role="2OEOjV">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="3kFdJs2WNu" role="3clFbw">
+          <node concept="3fqX7Q" id="3kFdJs2WXe" role="3uHU7B">
+            <node concept="37vLTw" id="3kFdJs2WXg" role="3fr31v">
+              <ref role="3cqZAo" node="50l$rcpLl8O" resolve="isBaseCommand" />
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="3kFdJs2X9u" role="3uHU7w">
+            <node concept="2OqwBi" id="3kFdJs2X9w" role="3fr31v">
+              <node concept="2OqwBi" id="3kFdJs2X9x" role="2Oq$k0">
+                <node concept="2OqwBi" id="3kFdJs2X9y" role="2Oq$k0">
+                  <node concept="1YBJjd" id="3kFdJs2X9z" role="2Oq$k0">
+                    <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                  </node>
+                  <node concept="3TrEf2" id="3kFdJs2X9$" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="3kFdJs2X9_" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                </node>
+              </node>
+              <node concept="3t7uKx" id="3kFdJs2X9A" role="2OqNvi">
+                <node concept="uoxfO" id="3kFdJs2X9B" role="3t7uKA">
+                  <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3clFbJ" id="50l$rcpIuqL" role="3cqZAp">
         <node concept="1Wc70l" id="50l$rcpKchI" role="3clFbw">
           <node concept="37vLTw" id="50l$rcpLlHi" role="3uHU7B">
@@ -4443,7 +4459,7 @@
           <node concept="3clFbS" id="50l$rcpKcDH" role="3eOfB_">
             <node concept="2MkqsV" id="50l$rcpKekV" role="3cqZAp">
               <node concept="Xl_RD" id="50l$rcpKele" role="2MkJ7o">
-                <property role="Xl_RC" value="You can not provide a custmo label for inner commands." />
+                <property role="Xl_RC" value="You can not provide a custom label for inner commands." />
               </node>
               <node concept="1YBJjd" id="50l$rcpKepN" role="2OEOjV">
                 <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
@@ -4452,7 +4468,6 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbH" id="50l$rcpLkQT" role="3cqZAp" />
       <node concept="3clFbJ" id="50l$rcpLkZR" role="3cqZAp">
         <node concept="3clFbS" id="50l$rcpLkZT" role="3clFbx">
           <node concept="2MkqsV" id="50l$rcpLmL8" role="3cqZAp">
@@ -4569,7 +4584,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="6IYVo2hTW9f" role="3cqZAp" />
         </node>
         <node concept="2OqwBi" id="6IYVo2hTRKW" role="3clFbw">
           <node concept="2OqwBi" id="6IYVo2hTRmi" role="2Oq$k0">
