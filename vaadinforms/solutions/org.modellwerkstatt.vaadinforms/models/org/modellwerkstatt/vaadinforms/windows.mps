@@ -1234,8 +1234,63 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7S_QNZ7ueOi" role="3cqZAp" />
-        <node concept="3clFbH" id="7S_QNZ7txJ1" role="3cqZAp" />
+        <node concept="1X3_iC" id="4gek4lI6ey1" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3cpWs8" id="4gek4lI5BUt" role="8Wnug">
+            <node concept="3cpWsn" id="4gek4lI5BUu" role="3cpWs9">
+              <property role="TrG5h" value="toUse" />
+              <node concept="3uibUv" id="4gek4lI5BUv" role="1tU5fm">
+                <ref role="3uigEE" to="33ny:~Locale" resolve="Locale" />
+              </node>
+              <node concept="10M0yZ" id="4gek4lI5C_f" role="33vP2m">
+                <ref role="1PxDUh" to="33ny:~Locale" resolve="Locale" />
+                <ref role="3cqZAo" to="33ny:~Locale.GERMANY" resolve="GERMANY" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="4gek4lI6f1y" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="4gek4lI5Dd5" role="8Wnug">
+            <node concept="2OqwBi" id="4gek4lI5DKs" role="3clFbG">
+              <node concept="Xjq3P" id="4gek4lI5Dd3" role="2Oq$k0" />
+              <node concept="liA8E" id="4gek4lI5Ept" role="2OqNvi">
+                <ref role="37wK5l" to="waq:~AbstractComponent.setLocale(java.util.Locale):void" resolve="setLocale" />
+                <node concept="37vLTw" id="4gek4lI5E$s" role="37wK5m">
+                  <ref role="3cqZAo" node="4gek4lI5BUu" resolve="toUse" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="4gek4lI6fut" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="4gek4lI5FbP" role="8Wnug">
+            <node concept="2OqwBi" id="4gek4lI5GNt" role="3clFbG">
+              <node concept="2OqwBi" id="4gek4lI5FKi" role="2Oq$k0">
+                <node concept="Xjq3P" id="4gek4lI5FbN" role="2Oq$k0" />
+                <node concept="liA8E" id="4gek4lI5GJn" role="2OqNvi">
+                  <ref role="37wK5l" to="waq:~UI.getSession():com.vaadin.server.VaadinSession" resolve="getSession" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4gek4lI5Hdu" role="2OqNvi">
+                <ref role="37wK5l" to="tk4x:~VaadinSession.setLocale(java.util.Locale):void" resolve="setLocale" />
+                <node concept="37vLTw" id="4gek4lI5HoF" role="37wK5m">
+                  <ref role="3cqZAo" node="4gek4lI5BUu" resolve="toUse" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4gek4lI6gxW" role="3cqZAp">
+          <node concept="3SKdUq" id="4gek4lI6gxY" role="3SKWNk">
+            <property role="3SKdUp" value="Local set on server -Duser.language=de -Duser.region=DE" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4gek4lI6fXT" role="3cqZAp" />
         <node concept="3SKdUt" id="vsIEjNuol7" role="3cqZAp">
           <node concept="3SKdUq" id="vsIEjNuovL" role="3SKWNk">
             <property role="3SKdUp" value=" - setup application controller and UI factory. " />
@@ -8954,7 +9009,7 @@
                       <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
                       <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
                       <node concept="Xl_RD" id="1AiJfHmk3Ot" role="37wK5m">
-                        <property role="Xl_RC" value="%2f%%" />
+                        <property role="Xl_RC" value="%2.0f%%" />
                       </node>
                       <node concept="17qRlL" id="1AiJfHmk4Dd" role="37wK5m">
                         <node concept="3cmrfG" id="1AiJfHmk4KT" role="3uHU7w">
