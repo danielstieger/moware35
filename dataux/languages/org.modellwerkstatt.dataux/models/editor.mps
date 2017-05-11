@@ -2419,7 +2419,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="53Vnir0wApC" role="3EZMnx">
-          <property role="3F0ifm" value=" ALTERNATIVE INNERS, CONDITION INNERS?" />
+          <property role="3F0ifm" value=" // CONDITION INNERS?" />
           <ref role="1k5W1q" node="7Cs1IG3kp1G" resolve="Detail" />
         </node>
         <node concept="l2Vlx" id="50l$rcpKevz" role="2iSdaV" />
@@ -2505,7 +2505,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="3kFdJs4ERY" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;conclusion&gt;" />
+        <property role="1$x2rV" value="&lt;con&gt;" />
         <ref role="1NtTu8" to="1btx:6IYVo2hTQQL" />
         <node concept="1sVBvm" id="3kFdJs4ERZ" role="1sWHZn">
           <node concept="3F0A7n" id="3kFdJs4ES0" role="2wV5jI">
