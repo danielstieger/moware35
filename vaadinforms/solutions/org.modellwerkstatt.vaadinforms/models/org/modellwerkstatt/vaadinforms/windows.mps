@@ -8923,7 +8923,7 @@
                       <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
                       <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
                       <node concept="Xl_RD" id="1AiJfHmk3Ot" role="37wK5m">
-                        <property role="Xl_RC" value="%2f%%" />
+                        <property role="Xl_RC" value="%2.0f%%" />
                       </node>
                       <node concept="17qRlL" id="1AiJfHmk4Dd" role="37wK5m">
                         <node concept="3cmrfG" id="1AiJfHmk4KT" role="3uHU7w">
