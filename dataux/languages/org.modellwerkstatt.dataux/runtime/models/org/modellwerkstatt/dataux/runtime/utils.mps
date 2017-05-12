@@ -2595,6 +2595,15 @@
         <node concept="10Nm6u" id="7r26jiNRWDm" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDn" role="37wK5m" />
       </node>
+      <node concept="QsSxf" id="6G8jBJnC_iZ" role="Qtgdg">
+        <property role="TrG5h" value="LOCK_NOT_GOT_CANCEL" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
+        <node concept="Xl_RD" id="6G8jBJnC_j0" role="37wK5m">
+          <property role="Xl_RC" value="%s verwendet Ressourcen, die für die Ausführung des Kommandos notwendig sind.\nDas Kommando wurde abgebrochen." />
+        </node>
+        <node concept="10Nm6u" id="6G8jBJnC_j1" role="37wK5m" />
+        <node concept="10Nm6u" id="6G8jBJnC_j2" role="37wK5m" />
+      </node>
       <node concept="QsSxf" id="7DInbKypMVW" role="Qtgdg">
         <property role="TrG5h" value="MAINTAINANCE_MODE" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
