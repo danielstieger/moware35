@@ -3806,6 +3806,173 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="6qsy3WVz$8I" role="3cqZAp" />
+      <node concept="3clFbH" id="6qsy3WVz$AP" role="3cqZAp" />
+      <node concept="3clFbH" id="6qsy3WVz$EV" role="3cqZAp" />
+      <node concept="3SKdUt" id="6qsy3WVz_12" role="3cqZAp">
+        <node concept="3SKdUq" id="6qsy3WVz_14" role="3SKWNk">
+          <property role="3SKdUp" value="check following commands" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="6qsy3WVHguw" role="3cqZAp">
+        <node concept="3clFbS" id="6qsy3WVHguy" role="3clFbx">
+          <node concept="3clFbJ" id="6qsy3WVHhZC" role="3cqZAp">
+            <node concept="3clFbS" id="6qsy3WVHhZE" role="3clFbx">
+              <node concept="2MkqsV" id="6qsy3WVHjci" role="3cqZAp">
+                <node concept="Xl_RD" id="6qsy3WVHjcC" role="2MkJ7o">
+                  <property role="Xl_RC" value="Only Graph Owner commands can be succeed imediatelly by another command." />
+                </node>
+                <node concept="1YBJjd" id="6qsy3WVHjgX" role="2OEOjV">
+                  <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="6qsy3WVHiVl" role="3clFbw">
+              <node concept="2OqwBi" id="6qsy3WVHiVn" role="3fr31v">
+                <node concept="2OqwBi" id="6qsy3WVHiVo" role="2Oq$k0">
+                  <node concept="1YBJjd" id="6qsy3WVHiVp" role="2Oq$k0">
+                    <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                  </node>
+                  <node concept="3TrcHB" id="6qsy3WVHiVq" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                  </node>
+                </node>
+                <node concept="3t7uKx" id="6qsy3WVHiVr" role="2OqNvi">
+                  <node concept="uoxfO" id="6qsy3WVHiVs" role="3t7uKA">
+                    <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="6qsy3WVH_jY" role="3cqZAp" />
+          <node concept="3clFbF" id="6qsy3WVHjWS" role="3cqZAp">
+            <node concept="2OqwBi" id="6qsy3WVHkYN" role="3clFbG">
+              <node concept="2OqwBi" id="6qsy3WVHjZJ" role="2Oq$k0">
+                <node concept="1YBJjd" id="6qsy3WVHjWQ" role="2Oq$k0">
+                  <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                </node>
+                <node concept="3Tsc0h" id="6qsy3WVHkno" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:6qsy3WVzzKf" />
+                </node>
+              </node>
+              <node concept="2es0OD" id="6qsy3WVHp1K" role="2OqNvi">
+                <node concept="1bVj0M" id="6qsy3WVHp1M" role="23t8la">
+                  <node concept="3clFbS" id="6qsy3WVHp1N" role="1bW5cS">
+                    <node concept="3clFbJ" id="6qsy3WVHp40" role="3cqZAp">
+                      <node concept="2OqwBi" id="6qsy3WVHzJD" role="3clFbw">
+                        <node concept="2OqwBi" id="6qsy3WVHzi$" role="2Oq$k0">
+                          <node concept="37vLTw" id="6qsy3WVHzer" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
+                          </node>
+                          <node concept="3TrEf2" id="6qsy3WVHz_g" role="2OqNvi">
+                            <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                          </node>
+                        </node>
+                        <node concept="2qgKlT" id="6qsy3WVHzUB" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommand" />
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="6qsy3WVHp42" role="3clFbx">
+                        <node concept="2MkqsV" id="6qsy3WVHzZc" role="3cqZAp">
+                          <node concept="37vLTw" id="6qsy3WVH_9r" role="2OEOjV">
+                            <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
+                          </node>
+                          <node concept="Xl_RD" id="6qsy3WVH$Q1" role="2MkJ7o">
+                            <property role="Xl_RC" value="Chaining succeed commands is not supported." />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbJ" id="6qsy3WVH_pG" role="3cqZAp">
+                      <node concept="3clFbS" id="6qsy3WVH_pI" role="3clFbx">
+                        <node concept="2MkqsV" id="6qsy3WVHBL1" role="3cqZAp">
+                          <node concept="Xl_RD" id="6qsy3WVHBNF" role="2MkJ7o">
+                            <property role="Xl_RC" value="Typically only the last successor is the default successor without any condition." />
+                          </node>
+                          <node concept="37vLTw" id="6qsy3WVHDaY" role="2OEOjV">
+                            <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="1Wc70l" id="6qsy3WVHAOG" role="3clFbw">
+                        <node concept="2OqwBi" id="6qsy3WVHBqg" role="3uHU7w">
+                          <node concept="2OqwBi" id="6qsy3WVHAWa" role="2Oq$k0">
+                            <node concept="37vLTw" id="6qsy3WVHAR9" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="6qsy3WVHBdo" role="2OqNvi">
+                              <ref role="3Tt5mk" to="un0u:6qsy3WVzxYY" />
+                            </node>
+                          </node>
+                          <node concept="3w_OXm" id="6qsy3WVHBz7" role="2OqNvi" />
+                        </node>
+                        <node concept="3fqX7Q" id="6qsy3WVHBEu" role="3uHU7B">
+                          <node concept="2OqwBi" id="6qsy3WVHBEw" role="3fr31v">
+                            <node concept="37vLTw" id="6qsy3WVHBEx" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
+                            </node>
+                            <node concept="2qgKlT" id="6qsy3WVHBEy" role="2OqNvi">
+                              <ref role="37wK5l" to="70o0:6qsy3WVH_GF" resolve="isLastSuccessorCommandCall" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbJ" id="6qsy3WVUxGA" role="3cqZAp">
+                      <node concept="3clFbS" id="6qsy3WVUxGC" role="3clFbx">
+                        <node concept="2MkqsV" id="6qsy3WVUz5Q" role="3cqZAp">
+                          <node concept="Xl_RD" id="6qsy3WVUz93" role="2MkJ7o">
+                            <property role="Xl_RC" value="Typically the last successor is the default successor without any condition." />
+                          </node>
+                          <node concept="37vLTw" id="6qsy3WVU$H4" role="2OEOjV">
+                            <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="1Wc70l" id="6qsy3WVUygB" role="3clFbw">
+                        <node concept="2OqwBi" id="6qsy3WVUyM3" role="3uHU7w">
+                          <node concept="2OqwBi" id="6qsy3WVUypu" role="2Oq$k0">
+                            <node concept="37vLTw" id="6qsy3WVUyjO" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="6qsy3WVUyC0" role="2OqNvi">
+                              <ref role="3Tt5mk" to="un0u:6qsy3WVzxYY" />
+                            </node>
+                          </node>
+                          <node concept="3x8VRR" id="6qsy3WVUyYG" role="2OqNvi" />
+                        </node>
+                        <node concept="2OqwBi" id="6qsy3WVUxPg" role="3uHU7B">
+                          <node concept="37vLTw" id="6qsy3WVUxJL" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="6qsy3WVUy8j" role="2OqNvi">
+                            <ref role="37wK5l" to="70o0:6qsy3WVH_GF" resolve="isLastSuccessorCommandCall" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="6qsy3WVHp1O" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="6qsy3WVHp1P" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="6qsy3WVHhZq" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="6qsy3WVKAL_" role="3clFbw">
+          <node concept="1YBJjd" id="6qsy3WVKAyI" role="2Oq$k0">
+            <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+          </node>
+          <node concept="2qgKlT" id="6qsy3WVKBdO" role="2OqNvi">
+            <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommand" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="6qsy3WVz$J2" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="MT9RZiHg3e" role="1YuTPh">
       <property role="TrG5h" value="cmd" />
@@ -12955,6 +13122,36 @@
     <node concept="1YaCAy" id="ao4XGS$Yr7" role="1YuTPh">
       <property role="TrG5h" value="statusElement" />
       <ref role="1YaFvo" to="un0u:3VCHlE3_rxm" resolve="StatusElement" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6qsy3WVzze9">
+    <property role="TrG5h" value="typeof_Successor" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <node concept="3clFbS" id="6qsy3WVzzea" role="18ibNy">
+      <node concept="1Z5TYs" id="6qsy3WVzzH2" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="6qsy3WVzzHC" role="1ZfhKB">
+          <node concept="2c44tf" id="6qsy3WVzzH$" role="mwGJk">
+            <node concept="10P_77" id="6qsy3WVzzI2" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="6qsy3WVzzH5" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6qsy3WVzzs9" role="mwGJk">
+            <node concept="2OqwBi" id="6qsy3WVzzvD" role="1Z2MuG">
+              <node concept="1YBJjd" id="6qsy3WVzzsU" role="2Oq$k0">
+                <ref role="1YBMHb" node="6qsy3WVzzec" resolve="successor" />
+              </node>
+              <node concept="3TrEf2" id="6qsy3WVzz_T" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:6qsy3WVzxYY" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6qsy3WVzzec" role="1YuTPh">
+      <property role="TrG5h" value="successor" />
+      <ref role="1YaFvo" to="un0u:6qsy3WVzeka" resolve="SuccessorCommandCall" />
     </node>
   </node>
 </model>

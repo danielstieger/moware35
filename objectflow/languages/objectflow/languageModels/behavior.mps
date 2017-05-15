@@ -287,6 +287,7 @@
         <reference id="1139877738879" name="concept" index="1A0vxQ" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="1143512015885" name="jetbrains.mps.lang.smodel.structure.Node_GetNextSiblingOperation" flags="nn" index="YCak7" />
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
       </concept>
@@ -5929,6 +5930,29 @@
             </node>
             <node concept="3cmrfG" id="43H1fr7GNrt" role="3uHU7w">
               <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6qsy3WVHt4p" role="13h7CS">
+      <property role="TrG5h" value="hasSuccessorCommand" />
+      <node concept="3Tm1VV" id="6qsy3WVHt4q" role="1B3o_S" />
+      <node concept="10P_77" id="6qsy3WVHtBH" role="3clF45" />
+      <node concept="3clFbS" id="6qsy3WVHt4s" role="3clF47">
+        <node concept="3clFbF" id="6qsy3WVHtCr" role="3cqZAp">
+          <node concept="3eOSWO" id="6qsy3WVHxYE" role="3clFbG">
+            <node concept="3cmrfG" id="6qsy3WVHxYH" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="6qsy3WVHuxP" role="3uHU7B">
+              <node concept="2OqwBi" id="6qsy3WVHtFH" role="2Oq$k0">
+                <node concept="13iPFW" id="6qsy3WVHtCq" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="6qsy3WVHtML" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:6qsy3WVzzKf" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="6qsy3WVHwK6" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -18026,6 +18050,29 @@
     </node>
     <node concept="13hLZK" id="4YYGipfkb1v" role="13h7CW">
       <node concept="3clFbS" id="4YYGipfkb1w" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6qsy3WVH_G3">
+    <property role="3GE5qa" value="OFXCore.command" />
+    <ref role="13h7C2" to="un0u:6qsy3WVzeka" resolve="SuccessorCommandCall" />
+    <node concept="13hLZK" id="6qsy3WVH_G4" role="13h7CW">
+      <node concept="3clFbS" id="6qsy3WVH_G5" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6qsy3WVH_GF" role="13h7CS">
+      <property role="TrG5h" value="isLastSuccessorCommandCall" />
+      <node concept="3Tm1VV" id="6qsy3WVH_GG" role="1B3o_S" />
+      <node concept="10P_77" id="6qsy3WVH_H1" role="3clF45" />
+      <node concept="3clFbS" id="6qsy3WVH_GI" role="3clF47">
+        <node concept="3clFbF" id="6qsy3WVH_HC" role="3cqZAp">
+          <node concept="2OqwBi" id="6qsy3WVHAvu" role="3clFbG">
+            <node concept="2OqwBi" id="6qsy3WVH_Ku" role="2Oq$k0">
+              <node concept="13iPFW" id="6qsy3WVH_HB" role="2Oq$k0" />
+              <node concept="YCak7" id="6qsy3WVHAon" role="2OqNvi" />
+            </node>
+            <node concept="3w_OXm" id="6qsy3WVHAzj" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

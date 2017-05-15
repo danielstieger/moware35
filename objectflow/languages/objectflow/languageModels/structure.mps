@@ -875,6 +875,12 @@
       <property role="20kJfa" value="commandCreationInformation" />
       <ref role="20lvS9" node="43H1fr7tveF" resolve="CommandCreationInfo" />
     </node>
+    <node concept="1TJgyj" id="6qsy3WVzzKf" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="successorCommand" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6qsy3WVzeka" resolve="SuccessorCommandCall" />
+    </node>
     <node concept="1TJgyj" id="1IEa9ReVfmD" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="process" />
@@ -4288,6 +4294,22 @@
     <property role="1pbfSe" value="1628983108" />
     <property role="3GE5qa" value="OFXCore.actions" />
     <property role="TrG5h" value="ISelected" />
+  </node>
+  <node concept="1TIwiD" id="6qsy3WVzeka">
+    <property role="1pbfSe" value="1574343351" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="SuccessorCommandCall" />
+    <property role="34LRSv" value="followed by" />
+    <property role="MwhBj" value="${module}/icons/cmdcrtl.png" />
+    <ref role="1TJDcQ" node="3n7eUMgsANq" resolve="CommandCallBasis" />
+    <node concept="1TJgyj" id="6qsy3WVzxYY" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="condition" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="6qsy3WVzxYw" role="PzmwI">
+      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
+    </node>
   </node>
 </model>
 
