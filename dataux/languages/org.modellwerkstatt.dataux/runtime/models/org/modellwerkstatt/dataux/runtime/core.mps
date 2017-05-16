@@ -22730,7 +22730,7 @@
                   </node>
                   <node concept="3SKdUt" id="7dlwzTfJk6w" role="3cqZAp">
                     <node concept="3SKdUq" id="7dlwzTfJk6y" role="3SKWNk">
-                      <property role="3SKdUp" value="no ui open, cancel it immediatelly." />
+                      <property role="3SKdUp" value="no ui open, cancel it immediatelly.. " />
                     </node>
                   </node>
                   <node concept="3clFbH" id="7dlwzTfJfnz" role="3cqZAp" />
