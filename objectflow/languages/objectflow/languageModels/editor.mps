@@ -3127,6 +3127,41 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
+        <node concept="1HlG4h" id="65dvZOwchtA" role="3EZMnx">
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="1HfYo3" id="65dvZOwchtE" role="1HlULh">
+            <node concept="3TQlhw" id="65dvZOwchtI" role="1Hhtcw">
+              <node concept="3clFbS" id="65dvZOwchtM" role="2VODD2">
+                <node concept="3clFbJ" id="65dvZOwcyDh" role="3cqZAp">
+                  <node concept="2OqwBi" id="65dvZOwcyIy" role="3clFbw">
+                    <node concept="pncrf" id="65dvZOwcyED" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="65dvZOwcyRC" role="2OqNvi">
+                      <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommand" />
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="65dvZOwcyDj" role="3clFbx">
+                    <node concept="3cpWs6" id="65dvZOwcyUt" role="3cqZAp">
+                      <node concept="Xl_RD" id="65dvZOwcz4i" role="3cqZAk">
+                        <property role="Xl_RC" value="check process, do not commit session" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="65dvZOwcyYD" role="3cqZAp">
+                  <node concept="Xl_RD" id="65dvZOwcyZO" role="3cqZAk">
+                    <property role="Xl_RC" value="check process, then commit session:" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="pVoyu" id="65dvZOwchws" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="65dvZOwchwI" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
         <node concept="3F2HdR" id="6qsy3WVCIvd" role="3EZMnx">
           <ref role="1NtTu8" to="un0u:6qsy3WVzzKf" />
           <node concept="l2Vlx" id="6qsy3WVCIvf" role="2czzBx" />
@@ -3142,22 +3177,6 @@
           <node concept="3F0ifn" id="6qsy3WVCIxT" role="2czzBI">
             <property role="3F0ifm" value="" />
             <property role="ilYzB" value="&lt;following cmd&gt;" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="6qsy3WVG$Sm" role="3EZMnx">
-          <property role="3F0ifm" value="" />
-          <node concept="pVoyu" id="6qsy3WVG$Sn" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="6_IgSPuckFX" role="3EZMnx">
-          <property role="3F0ifm" value="check process, then commit session:" />
-          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
-          <node concept="pVoyu" id="6_IgSPuewAK" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="6_IgSPuewAL" role="3F10Kt">
-            <property role="VOm3f" value="true" />
           </node>
         </node>
         <node concept="3F0ifn" id="6IXTkEOVXO7" role="3EZMnx">
@@ -11972,7 +11991,7 @@
   </node>
   <node concept="24kQdi" id="6qsy3WVzxZX">
     <property role="3GE5qa" value="OFXCore.command" />
-    <ref role="1XX52x" to="un0u:6qsy3WVzeka" resolve="FollowingCommand" />
+    <ref role="1XX52x" to="un0u:6qsy3WVzeka" resolve="SuccessorCommandCall" />
     <node concept="3EZMnI" id="6qsy3WVzyng" role="2wV5jI">
       <node concept="3F1sOY" id="6qsy3WVzyuw" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:6qsy3WVzxYY" />
