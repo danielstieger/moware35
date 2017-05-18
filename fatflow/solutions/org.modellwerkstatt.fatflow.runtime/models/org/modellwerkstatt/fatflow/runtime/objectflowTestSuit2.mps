@@ -224,9 +224,6 @@
         <property id="2423238041810352535" name="hour" index="xWaIY" />
         <property id="2423238041810352534" name="day" index="xWaIZ" />
       </concept>
-      <concept id="4338511869696968148" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDependentOption" flags="ng" index="zbZxr">
-        <reference id="4338511869696968277" name="test" index="zbZJq" />
-      </concept>
       <concept id="3875131616718797794" name="org.modellwerkstatt.objectflow.structure.OFXCommandTestMethod" flags="ng" index="2_FS1e">
         <child id="3875131616719594980" name="commandCall" index="2_GXT8" />
         <child id="4358152451302651676" name="pagesUnderTest" index="1sBNec" />
@@ -2578,9 +2575,6 @@
     <node concept="1DF_5m" id="26QcchVZyX8" role="3yMuLx" />
     <node concept="1DZZI9" id="5MCXLSnMjIB" role="38MLOi">
       <ref role="1DZZIc" to="goi:2i3o0hdVwMp" resolve="Creators" />
-    </node>
-    <node concept="zbZxr" id="6BKPvpE4yaj" role="38MLOi">
-      <ref role="zbZJq" node="6BKPvpE4xY$" resolve="Create CommandVariantInfo" />
     </node>
     <node concept="2Oh1co" id="6Hh99C_m7ZI" role="3yMuLx">
       <property role="TrG5h" value="Edit Invoice Position by posnumber" />
