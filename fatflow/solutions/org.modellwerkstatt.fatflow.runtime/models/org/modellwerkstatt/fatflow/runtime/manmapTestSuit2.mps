@@ -6507,6 +6507,60 @@
         </node>
       </node>
     </node>
+    <node concept="wbJLE" id="69UELrG2BEC" role="jymVt">
+      <property role="TrG5h" value="findAllInvoicesTestIsNullQuery" />
+      <node concept="_YKpA" id="69UELrG2BEF" role="3clF45">
+        <node concept="3uibUv" id="69UELrG2BEG" role="_ZDj9">
+          <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="69UELrG2BEH" role="1B3o_S" />
+      <node concept="3clFbS" id="69UELrG2BEI" role="3clF47">
+        <node concept="3clFbF" id="69UELrG2BEJ" role="3cqZAp">
+          <node concept="jybIQ" id="69UELrG2BEK" role="3clFbG">
+            <property role="1v8G3g" value="false" />
+            <property role="HScZ5" value="true" />
+            <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
+            <node concept="jxyYR" id="69UELrG2BEL" role="jxX7b">
+              <node concept="3clFbC" id="69UELrG2BEQ" role="jxyYK">
+                <node concept="3_7ulE" id="69UELrG2BER" role="3uHU7B">
+                  <ref role="3_688M" node="69UELrG2BEK" />
+                  <ref role="2OG787" node="70qPrkCybae" />
+                </node>
+                <node concept="10Nm6u" id="69UELrG2GSt" role="3uHU7w" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="wbJLE" id="69UELrG2Cpx" role="jymVt">
+      <property role="TrG5h" value="findAllInvoicesTestIsNotNullQuery" />
+      <node concept="_YKpA" id="69UELrG2Cp$" role="3clF45">
+        <node concept="3uibUv" id="69UELrG2Cp_" role="_ZDj9">
+          <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="69UELrG2CpA" role="1B3o_S" />
+      <node concept="3clFbS" id="69UELrG2CpB" role="3clF47">
+        <node concept="3clFbF" id="69UELrG2CpC" role="3cqZAp">
+          <node concept="jybIQ" id="69UELrG2CpD" role="3clFbG">
+            <property role="1v8G3g" value="false" />
+            <property role="HScZ5" value="true" />
+            <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
+            <node concept="jxyYR" id="69UELrG2CpE" role="jxX7b">
+              <node concept="3y3z36" id="69UELrG2JdT" role="jxyYK">
+                <node concept="3_7ulE" id="69UELrG2CpK" role="3uHU7B">
+                  <ref role="3_688M" node="69UELrG2CpD" />
+                  <ref role="2OG787" node="70qPrkCybae" />
+                </node>
+                <node concept="10Nm6u" id="69UELrG2K4I" role="3uHU7w" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="wbJLE" id="2i3o0hedc9H" role="jymVt">
       <property role="TrG5h" value="findAllInvoicePositions" />
       <node concept="_YKpA" id="2i3o0hedc9I" role="3clF45">
