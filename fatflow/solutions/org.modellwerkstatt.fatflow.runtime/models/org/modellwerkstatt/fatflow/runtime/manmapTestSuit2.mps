@@ -6508,7 +6508,7 @@
       </node>
     </node>
     <node concept="wbJLE" id="69UELrG2BEC" role="jymVt">
-      <property role="TrG5h" value="findAllInvoicesTestIsNullQuery" />
+      <property role="TrG5h" value="findAllInvoicesTestIsNULLQueryString" />
       <node concept="_YKpA" id="69UELrG2BEF" role="3clF45">
         <node concept="3uibUv" id="69UELrG2BEG" role="_ZDj9">
           <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
@@ -6518,16 +6518,16 @@
       <node concept="3clFbS" id="69UELrG2BEI" role="3clF47">
         <node concept="3clFbF" id="69UELrG2BEJ" role="3cqZAp">
           <node concept="jybIQ" id="69UELrG2BEK" role="3clFbG">
-            <property role="1v8G3g" value="false" />
+            <property role="1v8G3g" value="true" />
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
             <node concept="jxyYR" id="69UELrG2BEL" role="jxX7b">
-              <node concept="3clFbC" id="69UELrG2BEQ" role="jxyYK">
+              <node concept="3clFbC" id="2tF6Zsw75xy" role="jxyYK">
                 <node concept="3_7ulE" id="69UELrG2BER" role="3uHU7B">
                   <ref role="3_688M" node="69UELrG2BEK" />
-                  <ref role="2OG787" node="70qPrkCybae" />
+                  <ref role="2OG787" node="70qPrkCybao" />
                 </node>
-                <node concept="10Nm6u" id="69UELrG2GSt" role="3uHU7w" />
+                <node concept="10Nm6u" id="2tF6Zswg8r1" role="3uHU7w" />
               </node>
             </node>
           </node>
@@ -6535,7 +6535,7 @@
       </node>
     </node>
     <node concept="wbJLE" id="69UELrG2Cpx" role="jymVt">
-      <property role="TrG5h" value="findAllInvoicesTestIsNotNullQuery" />
+      <property role="TrG5h" value="findAllInvoicesTestIsNULLQueryDt" />
       <node concept="_YKpA" id="69UELrG2Cp$" role="3clF45">
         <node concept="3uibUv" id="69UELrG2Cp_" role="_ZDj9">
           <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
@@ -6543,18 +6543,47 @@
       </node>
       <node concept="3Tm1VV" id="69UELrG2CpA" role="1B3o_S" />
       <node concept="3clFbS" id="69UELrG2CpB" role="3clF47">
+        <node concept="3clFbH" id="4zRKoOKYOfO" role="3cqZAp" />
         <node concept="3clFbF" id="69UELrG2CpC" role="3cqZAp">
           <node concept="jybIQ" id="69UELrG2CpD" role="3clFbG">
-            <property role="1v8G3g" value="false" />
+            <property role="1v8G3g" value="true" />
             <property role="HScZ5" value="true" />
             <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
             <node concept="jxyYR" id="69UELrG2CpE" role="jxX7b">
-              <node concept="3y3z36" id="69UELrG2JdT" role="jxyYK">
-                <node concept="3_7ulE" id="69UELrG2CpK" role="3uHU7B">
+              <node concept="3clFbC" id="4zRKoOL5$rl" role="jxyYK">
+                <node concept="3_7ulE" id="4zRKoOKRKp9" role="3uHU7B">
                   <ref role="3_688M" node="69UELrG2CpD" />
+                  <ref role="2OG787" node="70qPrkCybas" />
+                </node>
+                <node concept="10Nm6u" id="4zRKoOKTbsl" role="3uHU7w" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="wbJLE" id="4zRKoOL5ycL" role="jymVt">
+      <property role="TrG5h" value="findAllInvoicesTestIsNotNULLQueryForInt" />
+      <node concept="_YKpA" id="4zRKoOL5ycM" role="3clF45">
+        <node concept="3uibUv" id="4zRKoOL5ycN" role="_ZDj9">
+          <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4zRKoOL5ycO" role="1B3o_S" />
+      <node concept="3clFbS" id="4zRKoOL5ycP" role="3clF47">
+        <node concept="3clFbH" id="4zRKoOL5ycQ" role="3cqZAp" />
+        <node concept="3clFbF" id="4zRKoOL5ycR" role="3cqZAp">
+          <node concept="jybIQ" id="4zRKoOL5ycS" role="3clFbG">
+            <property role="1v8G3g" value="true" />
+            <property role="HScZ5" value="true" />
+            <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
+            <node concept="jxyYR" id="4zRKoOL5ycT" role="jxX7b">
+              <node concept="3y3z36" id="4zRKoOL5yC9" role="jxyYK">
+                <node concept="3_7ulE" id="4zRKoOL5ycV" role="3uHU7B">
+                  <ref role="3_688M" node="4zRKoOL5ycS" />
                   <ref role="2OG787" node="70qPrkCybae" />
                 </node>
-                <node concept="10Nm6u" id="69UELrG2K4I" role="3uHU7w" />
+                <node concept="10Nm6u" id="4zRKoOL5ycW" role="3uHU7w" />
               </node>
             </node>
           </node>
@@ -9372,6 +9401,110 @@
               <ref role="3zku8S" node="S3k7akiZ65" resolve="inv" />
             </node>
             <node concept="10Nm6u" id="S3k7akiZHo" role="2f8TIa" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="4zRKoOL6PKW" role="3yMuLx">
+      <property role="TrG5h" value="Use the == null to transform query to IS NULL (string)" />
+      <node concept="3cqZAl" id="4zRKoOL6PYu" role="3clF45" />
+      <node concept="3clFbS" id="4zRKoOL6PL0" role="3clF47">
+        <node concept="3cpWs8" id="4zRKoOL6QpD" role="3cqZAp">
+          <node concept="3cpWsn" id="4zRKoOL6QpG" role="3cpWs9">
+            <property role="TrG5h" value="count" />
+            <node concept="10Oyi0" id="4zRKoOL6QpC" role="1tU5fm" />
+            <node concept="2OqwBi" id="4zRKoOL6SH6" role="33vP2m">
+              <node concept="1odsa" id="4zRKoOL6QqD" role="2Oq$k0">
+                <ref role="1ods_" node="70qPrkCy95v" resolve="RepoInvoice" />
+                <ref role="37wK5l" node="69UELrG2BEC" resolve="findAllInvoicesTestIsNULLQueryString" />
+                <node concept="10Nm6u" id="4zRKoOL6SxO" role="2f8TIa" />
+              </node>
+              <node concept="34oBXx" id="4zRKoOL6SZW" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="4zRKoOL6T3h" role="3cqZAp">
+          <node concept="3clFbC" id="4zRKoOL6T9_" role="1gVkn0">
+            <node concept="3cmrfG" id="4zRKoOL6TaP" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="4zRKoOL6T4z" role="3uHU7B">
+              <ref role="3cqZAo" node="4zRKoOL6QpG" resolve="count" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="4zRKoOL6PYx" role="3yMuLx">
+      <property role="TrG5h" value="Use the == null to transform query to IS NULL (datetime)" />
+      <node concept="3cqZAl" id="4zRKoOL6PYy" role="3clF45" />
+      <node concept="3clFbS" id="4zRKoOL6PYz" role="3clF47">
+        <node concept="3cpWs8" id="4zRKoOL6Tba" role="3cqZAp">
+          <node concept="3cpWsn" id="4zRKoOL6Tbb" role="3cpWs9">
+            <property role="TrG5h" value="count" />
+            <node concept="10Oyi0" id="4zRKoOL6Tbc" role="1tU5fm" />
+            <node concept="2OqwBi" id="4zRKoOL6Tbd" role="33vP2m">
+              <node concept="1odsa" id="4zRKoOL6Tbe" role="2Oq$k0">
+                <ref role="1ods_" node="70qPrkCy95v" resolve="RepoInvoice" />
+                <ref role="37wK5l" node="69UELrG2Cpx" resolve="findAllInvoicesTestIsNULLQueryDt" />
+                <node concept="10Nm6u" id="4zRKoOL6Tbf" role="2f8TIa" />
+              </node>
+              <node concept="34oBXx" id="4zRKoOL6Tbg" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="4zRKoOL6Tbh" role="3cqZAp">
+          <node concept="3clFbC" id="4zRKoOL6Tbi" role="1gVkn0">
+            <node concept="3cmrfG" id="4zRKoOL6Tbj" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="4zRKoOL6Tbk" role="3uHU7B">
+              <ref role="3cqZAo" node="4zRKoOL6Tbb" resolve="count" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="4zRKoOL6Qc3" role="3yMuLx">
+      <property role="TrG5h" value="Use the != null to transform query to IS NULL (int)" />
+      <node concept="3cqZAl" id="4zRKoOL6Qc4" role="3clF45" />
+      <node concept="3clFbS" id="4zRKoOL6Qc5" role="3clF47">
+        <node concept="3cpWs8" id="4zRKoOL6Te4" role="3cqZAp">
+          <node concept="3cpWsn" id="4zRKoOL6Te5" role="3cpWs9">
+            <property role="TrG5h" value="countWithNULLinQuery" />
+            <node concept="10Oyi0" id="4zRKoOL6Te6" role="1tU5fm" />
+            <node concept="2OqwBi" id="4zRKoOL6Te7" role="33vP2m">
+              <node concept="1odsa" id="4zRKoOL6Te8" role="2Oq$k0">
+                <ref role="1ods_" node="70qPrkCy95v" resolve="RepoInvoice" />
+                <ref role="37wK5l" node="4zRKoOL5ycL" resolve="findAllInvoicesTestIsNotNULLQueryForInt" />
+                <node concept="10Nm6u" id="4zRKoOL6Te9" role="2f8TIa" />
+              </node>
+              <node concept="34oBXx" id="4zRKoOL6Tea" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4zRKoOL6Tsb" role="3cqZAp">
+          <node concept="3cpWsn" id="4zRKoOL6Tse" role="3cpWs9">
+            <property role="TrG5h" value="count" />
+            <node concept="10Oyi0" id="4zRKoOL6Ts9" role="1tU5fm" />
+            <node concept="2OqwBi" id="4zRKoOL6TFQ" role="33vP2m">
+              <node concept="1odsa" id="4zRKoOL6TtZ" role="2Oq$k0">
+                <ref role="1ods_" node="70qPrkCy95v" resolve="RepoInvoice" />
+                <ref role="37wK5l" node="2i3o0hed9zk" resolve="findAllInvoices" />
+                <node concept="10Nm6u" id="4zRKoOL6Tw$" role="2f8TIa" />
+              </node>
+              <node concept="34oBXx" id="4zRKoOL6TPE" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="4zRKoOL6Teb" role="3cqZAp">
+          <node concept="3clFbC" id="4zRKoOL6Tec" role="1gVkn0">
+            <node concept="37vLTw" id="4zRKoOL6TQM" role="3uHU7w">
+              <ref role="3cqZAo" node="4zRKoOL6Tse" resolve="count" />
+            </node>
+            <node concept="37vLTw" id="4zRKoOL6Tee" role="3uHU7B">
+              <ref role="3cqZAo" node="4zRKoOL6Te5" resolve="countWithNULLinQuery" />
+            </node>
           </node>
         </node>
       </node>
