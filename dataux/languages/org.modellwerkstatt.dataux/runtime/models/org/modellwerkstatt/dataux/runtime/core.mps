@@ -13056,7 +13056,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="6G8jBJnADyv" role="3cqZAp" />
-        <node concept="3clFbH" id="6G8jBJnAwCU" role="3cqZAp" />
         <node concept="3SKdUt" id="vOp1wf6awI" role="3cqZAp">
           <node concept="3SKdUq" id="vOp1wf6cd$" role="3SKWNk">
             <property role="3SKdUp" value="measure command execution time" />
