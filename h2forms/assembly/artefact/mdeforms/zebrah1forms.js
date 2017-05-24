@@ -457,7 +457,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	
     // keyboard is disabled by default 
 	mykeyboardEnabled(true);
-
     // console.log('AFTER bodyOnLoadFunction() exec.');
     // moLog('Span Fontsize ' + window.getComputedStyle($('span')).getPropertyValue('font-size'));
     // moLog('' + window.innerHeight + ' x ' + window.innerWidth);  
