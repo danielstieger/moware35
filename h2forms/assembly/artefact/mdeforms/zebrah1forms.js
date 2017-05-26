@@ -25,10 +25,10 @@ function moLog(s) {
 
 
 function isNoNetwork(){
-	if (!EB.Network.hasNetwork()) {
+	/* if (!EB.Network.hasNetwork()) {
  		alert($('body').getAttribute('networkproblemstring'));
  		return true;
- 	}
+ 	} */
  	 
 	return false;
 }
@@ -110,7 +110,6 @@ function SelectAndExec(selectionstr, valstr){
 	var f = $('form');
 	f.NaviCrtl.value=valstr;
 	f.SelectionId.value=selectionstr;
-	// console.log('SUBMIT SelectAndExec()'); 
 	f.submit();
 }
 
@@ -129,7 +128,7 @@ function SaveSubmit(valstr){
 	} else {
 		var f = $('form');
 		f.NaviCrtl.value=valstr;
-		// alert('SUBMIT SaveSubmit()'); 
+		// console.log('SUBMIT SaveSubmit() '+  valstr); 
 		f.submit();
 	}
 }

@@ -2128,16 +2128,53 @@
             </node>
             <node concept="3clFbJ" id="6IJC_lwnpio" role="3cqZAp">
               <node concept="3clFbS" id="6IJC_lwnpiq" role="3clFbx">
-                <node concept="3clFbF" id="6IJC_lwntuz" role="3cqZAp">
-                  <node concept="37vLTI" id="6IJC_lwntvJ" role="3clFbG">
-                    <node concept="1rXfSq" id="6IJC_lwnuyb" role="37vLTx">
-                      <ref role="37wK5l" node="kA5KhwfIXe" resolve="shutdownSession" />
-                      <node concept="37vLTw" id="6IJC_lwnv2u" role="37wK5m">
+                <node concept="1X3_iC" id="2Qx2jkvMG9o" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="6IJC_lwntuz" role="8Wnug">
+                    <node concept="37vLTI" id="6IJC_lwntvJ" role="3clFbG">
+                      <node concept="1rXfSq" id="6IJC_lwnuyb" role="37vLTx">
+                        <ref role="37wK5l" node="kA5KhwfIXe" resolve="shutdownSession" />
+                        <node concept="37vLTw" id="6IJC_lwnv2u" role="37wK5m">
+                          <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="6IJC_lwntux" role="37vLTJ">
                         <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
                       </node>
                     </node>
-                    <node concept="37vLTw" id="6IJC_lwntux" role="37vLTJ">
-                      <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="2Qx2jkvMHcE" role="3cqZAp">
+                  <node concept="2OqwBi" id="2Qx2jkvMHe2" role="3clFbG">
+                    <node concept="37vLTw" id="2Qx2jkvMHcC" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
+                    </node>
+                    <node concept="liA8E" id="2Qx2jkvMHXp" role="2OqNvi">
+                      <ref role="37wK5l" to="x37d:3CnNtH_0Dd6" resolve="logOnKafka" />
+                      <node concept="3cpWs3" id="2Qx2jkvMOEc" role="37wK5m">
+                        <node concept="Xl_RD" id="2Qx2jkvMOGP" role="3uHU7w">
+                          <property role="Xl_RC" value="$ RECONNECT" />
+                        </node>
+                        <node concept="3cpWs3" id="2Qx2jkvMNS9" role="3uHU7B">
+                          <node concept="3cpWs3" id="2Qx2jkvMLzv" role="3uHU7B">
+                            <node concept="3cpWs3" id="2Qx2jkvMKMw" role="3uHU7B">
+                              <node concept="Xl_RD" id="2Qx2jkvMKO3" role="3uHU7B">
+                                <property role="Xl_RC" value="" />
+                              </node>
+                              <node concept="37vLTw" id="2Qx2jkvMK3a" role="3uHU7w">
+                                <ref role="3cqZAo" node="1XvfUlyonLL" resolve="thisServedStartOfRequest" />
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="2Qx2jkvML_H" role="3uHU7w">
+                              <property role="Xl_RC" value="$$$$" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="2Qx2jkvMOAQ" role="3uHU7w">
+                            <ref role="3cqZAo" node="kA5KhwiQeb" resolve="thisServedUsername" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -2447,7 +2484,7 @@
                           <ref role="3cqZAo" node="2xnCXJMqI_H" resolve="crtl" />
                         </node>
                         <node concept="liA8E" id="1wwgtxzdNSo" role="2OqNvi">
-                          <ref role="37wK5l" to="nwfd:~HttpSessionBindingListener.valueBound(javax.servlet.http.HttpSessionBindingEvent):void" resolve="valueBound" />
+                          <ref role="37wK5l" to="nwfd:~HttpSessionBindingListener.valueUnbound(javax.servlet.http.HttpSessionBindingEvent):void" resolve="valueUnbound" />
                           <node concept="10Nm6u" id="1wwgtxzdNTL" role="37wK5m" />
                         </node>
                       </node>
