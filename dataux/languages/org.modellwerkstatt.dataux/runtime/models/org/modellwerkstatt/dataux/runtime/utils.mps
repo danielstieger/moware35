@@ -2708,6 +2708,15 @@
         <node concept="10Nm6u" id="2e3BpjBfQ5E" role="37wK5m" />
         <node concept="10Nm6u" id="2e3BpjBfQ6M" role="37wK5m" />
       </node>
+      <node concept="QsSxf" id="18nf27m6wZ8" role="Qtgdg">
+        <property role="TrG5h" value="SESSION_SHUTDOWN" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
+        <node concept="Xl_RD" id="18nf27m6xmw" role="37wK5m">
+          <property role="Xl_RC" value="Alle aktuellen Kommandos werden nun abgebrochen. Das Programm wird neu gestartet. Drücken sie eine Taste." />
+        </node>
+        <node concept="10Nm6u" id="18nf27m6xnu" role="37wK5m" />
+        <node concept="10Nm6u" id="18nf27m6xoo" role="37wK5m" />
+      </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
       <node concept="2tJIrI" id="3zf0S8jTrHW" role="jymVt" />
       <node concept="2tJIrI" id="4ysbFF_K0QT" role="jymVt" />
