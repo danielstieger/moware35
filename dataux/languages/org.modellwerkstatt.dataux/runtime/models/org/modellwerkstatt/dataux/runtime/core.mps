@@ -13533,6 +13533,62 @@
       </node>
       <node concept="3Tmbuc" id="zBgVaD9$HI" role="1B3o_S" />
       <node concept="3clFbS" id="2DwOiMAqSSE" role="3clF47">
+        <node concept="3clFbJ" id="2Qx2jkw0HmL" role="3cqZAp">
+          <node concept="3clFbS" id="2Qx2jkw0HmN" role="3clFbx">
+            <node concept="YS8fn" id="2Qx2jkw0Ofo" role="3cqZAp">
+              <node concept="2ShNRf" id="2Qx2jkw0OtF" role="YScLw">
+                <node concept="1pGfFk" id="2Qx2jkw0P4K" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="3cpWs3" id="2Qx2jkw0Sp_" role="37wK5m">
+                    <node concept="37vLTw" id="2Qx2jkw0SE_" role="3uHU7w">
+                      <ref role="3cqZAo" node="SQhsWRQ9L5" resolve="currentPageTitle" />
+                    </node>
+                    <node concept="3cpWs3" id="2Qx2jkw0S5M" role="3uHU7B">
+                      <node concept="3cpWs3" id="2Qx2jkw0RJ4" role="3uHU7B">
+                        <node concept="3cpWs3" id="2Qx2jkw0R9B" role="3uHU7B">
+                          <node concept="3cpWs3" id="2Qx2jkw0QJw" role="3uHU7B">
+                            <node concept="3cpWs3" id="2Qx2jkw0QsZ" role="3uHU7B">
+                              <node concept="3cpWs3" id="2Qx2jkw0QbD" role="3uHU7B">
+                                <node concept="Xl_RD" id="2Qx2jkw0P6r" role="3uHU7B">
+                                  <property role="Xl_RC" value="do conclusion on closed container? isCLosed " />
+                                </node>
+                                <node concept="37vLTw" id="2Qx2jkw0Qi9" role="3uHU7w">
+                                  <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="2Qx2jkw0Qxw" role="3uHU7w">
+                                <property role="Xl_RC" value=" cmd " />
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="2Qx2jkw0QX9" role="3uHU7w">
+                              <ref role="3cqZAo" node="47vlctikKoq" resolve="commandName" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="2Qx2jkw0Rvc" role="3uHU7w">
+                            <property role="Xl_RC" value=" / " />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2Qx2jkw0RTH" role="3uHU7w">
+                          <ref role="3cqZAo" node="5_bDd1dGbFt" resolve="windowTitle" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="2Qx2jkw0S6I" role="3uHU7w">
+                        <property role="Xl_RC" value=" / " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="2Qx2jkw0M1m" role="3clFbw">
+            <node concept="10Nm6u" id="2Qx2jkw0Odl" role="3uHU7w" />
+            <node concept="37vLTw" id="2Qx2jkw0JPK" role="3uHU7B">
+              <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2Qx2jkw0EOg" role="3cqZAp" />
         <node concept="3SKdUt" id="27BPRG5WWlc" role="3cqZAp">
           <node concept="3SKdUq" id="27BPRG5WWle" role="3SKWNk">
             <property role="3SKdUp" value="----------- handle esc ----" />
@@ -15827,7 +15883,7 @@
     <node concept="3UR2Jj" id="5_bDd1d2yyV" role="lGtFl">
       <node concept="TZ5HA" id="5_bDd1d2y$b" role="TZ5H$">
         <node concept="1dT_AC" id="5_bDd1d2y$c" role="1dT_Ay">
-          <property role="1dT_AB" value="CommandContainer provides the runtime environment for commands and is thus" />
+          <property role="1dT_AB" value="NCommandContainer provides the runtime environment for commands and is thus" />
         </node>
       </node>
       <node concept="TZ5HA" id="5_bDd1d2zfx" role="TZ5H$">
