@@ -5,9 +5,6 @@
   version="3.1"
   metadata-complete="true">
 
-  <description>
-      moware H1Forms application APPLICATION_FQNAME - APPLICATION_BUILDVERSION
-  </description>
   <display-name>APPLICATION_FQNAME - APPLICATION_BUILDVERSION</display-name>
    
   <servlet>
@@ -27,10 +24,13 @@
     <init-param>
         <param-name>applicationFqName</param-name>
     	<param-value>APPLICATION_FQNAME</param-value>
-    </init-param>
-    
+    </init-param>  
   </servlet>
-  
+   
+   <session-config> <session-timeout>180</session-timeout> 
+    <cookie-config> <max-age> 10800 </max-age> </cookie-config> 
+   </session-config>
+   
    <listener>
      <listener-class>LOADER_FQNAMECL</listener-class>
    </listener>
