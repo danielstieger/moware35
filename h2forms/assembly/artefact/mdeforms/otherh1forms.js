@@ -327,7 +327,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // console.log('AFTER bodyOnLoadFunction() exec.');
     // moLog('Span Fontsize ' + window.getComputedStyle($('span')).getPropertyValue('font-size'));
-    // moLog('Window ' + window.innerHeight + ' x ' + window.innerWidth);  
+    // moLog('Window ' + window.innerHeight + ' x ' + window.innerWidth);
+    
 }); 
 
 
