@@ -31,7 +31,6 @@
     
   </servlet>
    
-   
    <listener>
      <listener-class>LOADER_FQNAMECL</listener-class>
    </listener>
