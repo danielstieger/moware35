@@ -11269,13 +11269,18 @@
       <property role="eg7rD" value="false" />
       <property role="TrG5h" value="autoConclusionMode" />
       <property role="3TUv4t" value="false" />
-      <node concept="3Tmbuc" id="6IYVo2i3MUe" role="1B3o_S" />
+      <node concept="3Tm6S6" id="2Uji7vl_Hg8" role="1B3o_S" />
       <node concept="10P_77" id="6IYVo2i3PNM" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="3EJ222E3iom" role="jymVt">
       <property role="TrG5h" value="successorMode" />
-      <node concept="3Tmbuc" id="3EJ222E3lEo" role="1B3o_S" />
+      <node concept="3Tm6S6" id="2Uji7vl_HvA" role="1B3o_S" />
       <node concept="10P_77" id="3EJ222E3tGu" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="2Uji7vlDXiU" role="jymVt">
+      <property role="TrG5h" value="useUiOfPredecessor" />
+      <node concept="3Tm6S6" id="2Uji7vlDXiV" role="1B3o_S" />
+      <node concept="10P_77" id="2Uji7vlDXiW" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="3EJ222E3eUJ" role="jymVt" />
     <node concept="2tJIrI" id="64d_SurBjqc" role="jymVt" />
@@ -11406,6 +11411,16 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="2Uji7vlE5nW" role="3cqZAp">
+          <node concept="37vLTI" id="2Uji7vlE5u4" role="3clFbG">
+            <node concept="3clFbT" id="2Uji7vlE5v0" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="2Uji7vlE5nU" role="37vLTJ">
+              <ref role="3cqZAo" node="2Uji7vlDXiU" resolve="useUiOfPredecessor" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7EeWEMeOr8X" role="3cqZAp">
           <node concept="37vLTI" id="7EeWEMeOrhD" role="3clFbG">
             <node concept="2OqwBi" id="7EeWEMeOrBN" role="37vLTx">
@@ -11425,7 +11440,29 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="6bl3$WONyUf" role="jymVt" />
+    <node concept="3clFb_" id="2Uji7vlAIXC" role="jymVt">
+      <property role="TrG5h" value="setSuccessorMode" />
+      <node concept="3cqZAl" id="2Uji7vlAIXE" role="3clF45" />
+      <node concept="3Tm1VV" id="2Uji7vlAIXF" role="1B3o_S" />
+      <node concept="3clFbS" id="2Uji7vlAIXG" role="3clF47">
+        <node concept="3SKdUt" id="2Uji7vlB51Q" role="3cqZAp">
+          <node concept="3SKdUq" id="2Uji7vlB51S" role="3SKWNk">
+            <property role="3SKdUp" value="do not need more information, since we can access parrent command" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2Uji7vlB4S$" role="3cqZAp">
+          <node concept="37vLTI" id="2Uji7vlB4Ul" role="3clFbG">
+            <node concept="3clFbT" id="2Uji7vlB4Vc" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="2Uji7vlB4Sz" role="37vLTJ">
+              <ref role="3cqZAo" node="3EJ222E3iom" resolve="successorMode" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2Uji7vlAEoR" role="jymVt" />
     <node concept="3clFb_" id="4mX9XggmZm4" role="jymVt">
       <property role="TrG5h" value="fg_decoupleFormParentContainer" />
       <node concept="37vLTG" id="T$VfFDO$I9" role="3clF46">
@@ -13238,7 +13275,7 @@
             <node concept="3cpWs6" id="3EJ222E2wBC" role="3cqZAp">
               <node concept="2ShNRf" id="3EJ222E2zry" role="3cqZAk">
                 <node concept="1pGfFk" id="3EJ222E7B5S" role="2ShVmc">
-                  <ref role="37wK5l" node="3EJ222E2IEg" resolve="StartSuccessorCommand" />
+                  <ref role="37wK5l" node="3EJ222E2IEg" resolve="StartSucsCmdEvent" />
                 </node>
               </node>
             </node>
@@ -13605,11 +13642,9 @@
       <node concept="3cqZAl" id="SQhsWROCHC" role="3clF45" />
       <node concept="3Tmbuc" id="zBgVaD9vUW" role="1B3o_S" />
       <node concept="3clFbS" id="SQhsWROCHE" role="3clF47">
-        <node concept="3cpWs8" id="65dvZOwc1p3" role="3cqZAp">
-          <node concept="3cpWsn" id="65dvZOwc1p6" role="3cpWs9">
-            <property role="TrG5h" value="useUiOfPredecessor" />
-            <node concept="10P_77" id="65dvZOwc1p1" role="1tU5fm" />
-            <node concept="1Wc70l" id="3EJ222E3xdC" role="33vP2m">
+        <node concept="3clFbF" id="2Uji7vlDW_b" role="3cqZAp">
+          <node concept="37vLTI" id="2Uji7vlDW_d" role="3clFbG">
+            <node concept="1Wc70l" id="3EJ222E3xdC" role="37vLTx">
               <node concept="37vLTw" id="3EJ222E3xq3" role="3uHU7B">
                 <ref role="3cqZAo" node="3EJ222E3iom" resolve="successorMode" />
               </node>
@@ -13624,6 +13659,9 @@
                 </node>
                 <node concept="10Nm6u" id="65dvZOwc1La" role="3uHU7w" />
               </node>
+            </node>
+            <node concept="37vLTw" id="2Uji7vlDW_h" role="37vLTJ">
+              <ref role="3cqZAo" node="2Uji7vlDXiU" resolve="useUiOfPredecessor" />
             </node>
           </node>
         </node>
@@ -13718,7 +13756,7 @@
           </node>
           <node concept="3fqX7Q" id="65dvZOwc3jI" role="3clFbw">
             <node concept="37vLTw" id="65dvZOwc3wS" role="3fr31v">
-              <ref role="3cqZAo" node="65dvZOwc1p6" resolve="useUiOfPredecessor" />
+              <ref role="3cqZAo" node="2Uji7vlDXiU" resolve="useUiOfPredecessor" />
             </node>
           </node>
           <node concept="9aQIb" id="3EJ222E3JnF" role="9aQIa">
@@ -13828,7 +13866,7 @@
             <node concept="3clFbH" id="6bl3$WOWMR_" role="3cqZAp" />
           </node>
           <node concept="37vLTw" id="65dvZOwdLX5" role="3clFbw">
-            <ref role="3cqZAo" node="65dvZOwc1p6" resolve="useUiOfPredecessor" />
+            <ref role="3cqZAo" node="2Uji7vlDXiU" resolve="useUiOfPredecessor" />
           </node>
           <node concept="3eNFk2" id="6bl3$WOWNsv" role="3eNLev">
             <node concept="3clFbS" id="6bl3$WOWNsx" role="3eOfB_">
@@ -14822,7 +14860,7 @@
                 <node concept="3cpWs6" id="3EJ222E34iy" role="3cqZAp">
                   <node concept="2ShNRf" id="3EJ222E34pL" role="3cqZAk">
                     <node concept="1pGfFk" id="3EJ222E37x5" role="2ShVmc">
-                      <ref role="37wK5l" node="3EJ222E2IEg" resolve="StartSuccessorCommand" />
+                      <ref role="37wK5l" node="3EJ222E2IEg" resolve="StartSucsCmdEvent" />
                     </node>
                   </node>
                 </node>
@@ -15541,6 +15579,11 @@
               </node>
               <node concept="3clFbJ" id="7U5N9VrSzEO" role="3cqZAp">
                 <node concept="3clFbS" id="7U5N9VrSzEP" role="3clFbx">
+                  <node concept="3SKdUt" id="2Uji7vlEjAD" role="3cqZAp">
+                    <node concept="3SKdUq" id="2Uji7vlEjAF" role="3SKWNk">
+                      <property role="3SKdUp" value="successor might not have a selcrtl when no pages are present" />
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="7U5N9VrSzEQ" role="3cqZAp">
                     <node concept="2OqwBi" id="7U5N9VrSzER" role="3clFbG">
                       <node concept="2OqwBi" id="7U5N9VrSzET" role="2Oq$k0">
@@ -15557,20 +15600,27 @@
                     </node>
                   </node>
                 </node>
-                <node concept="1Wc70l" id="7U5N9VrSzF2" role="3clFbw">
-                  <node concept="3y3z36" id="7U5N9VrSzF3" role="3uHU7B">
-                    <node concept="37vLTw" id="7U5N9VrSzF4" role="3uHU7B">
-                      <ref role="3cqZAo" node="4XXgpAARetX" resolve="parentCommandContainer" />
+                <node concept="1Wc70l" id="2Uji7vlEjfX" role="3clFbw">
+                  <node concept="3fqX7Q" id="2Uji7vlEjom" role="3uHU7w">
+                    <node concept="37vLTw" id="2Uji7vlEjrp" role="3fr31v">
+                      <ref role="3cqZAo" node="3EJ222E3iom" resolve="successorMode" />
                     </node>
-                    <node concept="10Nm6u" id="7U5N9VrSzF5" role="3uHU7w" />
                   </node>
-                  <node concept="3fqX7Q" id="7U5N9VrSzF6" role="3uHU7w">
-                    <node concept="2OqwBi" id="7U5N9VrSzF7" role="3fr31v">
-                      <node concept="37vLTw" id="7U5N9VrSzF8" role="2Oq$k0">
+                  <node concept="1Wc70l" id="7U5N9VrSzF2" role="3uHU7B">
+                    <node concept="3y3z36" id="7U5N9VrSzF3" role="3uHU7B">
+                      <node concept="37vLTw" id="7U5N9VrSzF4" role="3uHU7B">
                         <ref role="3cqZAo" node="4XXgpAARetX" resolve="parentCommandContainer" />
                       </node>
-                      <node concept="2OwXpG" id="7U5N9VrSzF9" role="2OqNvi">
-                        <ref role="2Oxat5" node="4mX9XggjWRg" resolve="containerClosed" />
+                      <node concept="10Nm6u" id="7U5N9VrSzF5" role="3uHU7w" />
+                    </node>
+                    <node concept="3fqX7Q" id="7U5N9VrSzF6" role="3uHU7w">
+                      <node concept="2OqwBi" id="7U5N9VrSzF7" role="3fr31v">
+                        <node concept="37vLTw" id="7U5N9VrSzF8" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4XXgpAARetX" resolve="parentCommandContainer" />
+                        </node>
+                        <node concept="2OwXpG" id="7U5N9VrSzF9" role="2OqNvi">
+                          <ref role="2Oxat5" node="4mX9XggjWRg" resolve="containerClosed" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -15581,11 +15631,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="T$VfFDobEC" role="3cqZAp" />
-        <node concept="3SKdUt" id="1dzqM5xtI7k" role="3cqZAp">
-          <node concept="3SKdUq" id="1dzqM5xtI7m" role="3SKWNk">
-            <property role="3SKdUp" value="even, if command ui is null - inform app crtl" />
-          </node>
-        </node>
         <node concept="SfApY" id="u3l_GaKxPJ" role="3cqZAp">
           <node concept="3clFbS" id="u3l_GaKxPL" role="SfCbr">
             <node concept="3SKdUt" id="u3l_GaKyFT" role="3cqZAp">
@@ -15595,6 +15640,11 @@
             </node>
             <node concept="3clFbJ" id="6IYVo2i3X4K" role="3cqZAp">
               <node concept="3clFbS" id="6IYVo2i3X4M" role="3clFbx">
+                <node concept="3SKdUt" id="2Uji7vlE7u9" role="3cqZAp">
+                  <node concept="3SKdUq" id="2Uji7vlE7ub" role="3SKWNk">
+                    <property role="3SKdUp" value="in case we do not have an ui, commandUI is null, inform app crtl" />
+                  </node>
+                </node>
                 <node concept="3clFbF" id="1dzqM5xm4LZ" role="3cqZAp">
                   <node concept="2OqwBi" id="1dzqM5xm56v" role="3clFbG">
                     <node concept="37vLTw" id="1dzqM5xm4LX" role="2Oq$k0">
@@ -15610,15 +15660,22 @@
                   </node>
                 </node>
               </node>
-              <node concept="1Wc70l" id="65dvZOwefvQ" role="3clFbw">
-                <node concept="3fqX7Q" id="3EJ222E3SFj" role="3uHU7w">
-                  <node concept="37vLTw" id="3EJ222E3SK7" role="3fr31v">
-                    <ref role="3cqZAo" node="3EJ222E3iom" resolve="successorMode" />
+              <node concept="1Wc70l" id="2Uji7vlE6RO" role="3clFbw">
+                <node concept="3fqX7Q" id="2Uji7vlE6G6" role="3uHU7B">
+                  <node concept="37vLTw" id="2Uji7vlE6G8" role="3fr31v">
+                    <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
                   </node>
                 </node>
-                <node concept="3fqX7Q" id="6IYVo2i3Xll" role="3uHU7B">
-                  <node concept="37vLTw" id="6IYVo2i3Xsd" role="3fr31v">
-                    <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+                <node concept="3fqX7Q" id="2Uji7vlE74F" role="3uHU7w">
+                  <node concept="1eOMI4" id="2Uji7vlE74H" role="3fr31v">
+                    <node concept="1Wc70l" id="2Uji7vlE74I" role="1eOMHV">
+                      <node concept="37vLTw" id="2Uji7vlE74J" role="3uHU7w">
+                        <ref role="3cqZAo" node="2Uji7vlDXiU" resolve="useUiOfPredecessor" />
+                      </node>
+                      <node concept="37vLTw" id="2Uji7vlE74K" role="3uHU7B">
+                        <ref role="3cqZAo" node="3EJ222E3iom" resolve="successorMode" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -22576,7 +22633,7 @@
               <node concept="22lmx$" id="3EJ222E3pGS" role="3clFbw">
                 <node concept="2ZW3vV" id="3EJ222E3q9K" role="3uHU7w">
                   <node concept="3uibUv" id="3EJ222E3qmo" role="2ZW6by">
-                    <ref role="3uigEE" node="3EJ222E2dzm" resolve="StartSuccessorCommand" />
+                    <ref role="3uigEE" node="3EJ222E2dzm" resolve="StartSucsCmdEvent" />
                   </node>
                   <node concept="37vLTw" id="3EJ222E3pXh" role="2ZW6bz">
                     <ref role="3cqZAo" node="zBgVaD62Fb" resolve="ev" />
@@ -23102,7 +23159,7 @@
               <node concept="3eNFk2" id="3EJ222E3qxA" role="3eNLev">
                 <node concept="2ZW3vV" id="3EJ222E3qYS" role="3eO9$A">
                   <node concept="3uibUv" id="3EJ222E3r9r" role="2ZW6by">
-                    <ref role="3uigEE" node="3EJ222E2dzm" resolve="StartSuccessorCommand" />
+                    <ref role="3uigEE" node="3EJ222E2dzm" resolve="StartSucsCmdEvent" />
                   </node>
                   <node concept="37vLTw" id="3EJ222E3qNm" role="2ZW6bz">
                     <ref role="3cqZAo" node="2o7h3aE2bEW" resolve="resultEvent" />
@@ -23448,17 +23505,12 @@
           </node>
         </node>
         <node concept="3clFbF" id="3EJ222E3s8S" role="3cqZAp">
-          <node concept="37vLTI" id="3EJ222E3sB_" role="3clFbG">
-            <node concept="3clFbT" id="3EJ222E3un8" role="37vLTx">
-              <property role="3clFbU" value="true" />
+          <node concept="2OqwBi" id="3EJ222E3slG" role="3clFbG">
+            <node concept="37vLTw" id="3EJ222E3s8Q" role="2Oq$k0">
+              <ref role="3cqZAo" node="6bl3$WOLPvw" resolve="successor" />
             </node>
-            <node concept="2OqwBi" id="3EJ222E3slG" role="37vLTJ">
-              <node concept="37vLTw" id="3EJ222E3s8Q" role="2Oq$k0">
-                <ref role="3cqZAo" node="6bl3$WOLPvw" resolve="successor" />
-              </node>
-              <node concept="2OwXpG" id="3EJ222E3s__" role="2OqNvi">
-                <ref role="2Oxat5" node="3EJ222E3iom" resolve="successorMode" />
-              </node>
+            <node concept="liA8E" id="2Uji7vlB5Mw" role="2OqNvi">
+              <ref role="37wK5l" node="2Uji7vlAIXC" resolve="setSuccessorMode" />
             </node>
           </node>
         </node>
@@ -26705,7 +26757,7 @@
   </node>
   <node concept="312cEu" id="3EJ222E2dzm">
     <property role="3GE5qa" value="events" />
-    <property role="TrG5h" value="StartSuccessorCommand" />
+    <property role="TrG5h" value="StartSucsCmdEvent" />
     <node concept="2tJIrI" id="3EJ222E2IFw" role="jymVt" />
     <node concept="3clFbW" id="3EJ222E2IEg" role="jymVt">
       <node concept="3cqZAl" id="3EJ222E2IEi" role="3clF45" />
