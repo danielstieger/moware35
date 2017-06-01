@@ -2119,6 +2119,30 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="6mdtRStzjsX" role="3cqZAp">
+          <node concept="3clFbS" id="6mdtRStzjsZ" role="3clFbx">
+            <node concept="3SKdUt" id="6mdtRSt$eeq" role="3cqZAp">
+              <node concept="3SKdUq" id="6mdtRSt$eer" role="3SKWNk">
+                <property role="3SKdUp" value="might haben on flag in page init. no values at all" />
+              </node>
+            </node>
+            <node concept="3cpWs6" id="6mdtRSt$egy" role="3cqZAp" />
+          </node>
+          <node concept="1Wc70l" id="6mdtRSt$djR" role="3clFbw">
+            <node concept="3clFbC" id="6mdtRSt$dMD" role="3uHU7w">
+              <node concept="10Nm6u" id="6mdtRSt$dQ8" role="3uHU7w" />
+              <node concept="37vLTw" id="6mdtRSt$dHZ" role="3uHU7B">
+                <ref role="3cqZAo" node="1kaU3pLSZpc" resolve="value" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="6mdtRStzkrD" role="3uHU7B">
+              <node concept="37vLTw" id="6mdtRStzjXg" role="3uHU7B">
+                <ref role="3cqZAo" node="1kaU3pLUXOk" resolve="availableItems" />
+              </node>
+              <node concept="10Nm6u" id="6mdtRStzkG3" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="1kaU3pLV4oN" role="3cqZAp" />
         <node concept="3clFbJ" id="1kaU3pLVdII" role="3cqZAp">
           <node concept="3clFbS" id="1kaU3pLVdIL" role="3clFbx">

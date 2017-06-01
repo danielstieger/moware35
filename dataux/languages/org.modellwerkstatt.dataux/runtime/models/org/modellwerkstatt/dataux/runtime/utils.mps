@@ -2703,7 +2703,7 @@
         <property role="TrG5h" value="INNER_CMD_NOT_ENABLED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="2e3BpjBfQ2G" role="37wK5m">
-          <property role="Xl_RC" value="Das Kommand '%s' konnte nicht angewendet werden." />
+          <property role="Xl_RC" value="Das Kommand '%s' konnte nicht angewendet werden.\nWesentliche Bedingung nicht erfüllt." />
         </node>
         <node concept="10Nm6u" id="2e3BpjBfQ5E" role="37wK5m" />
         <node concept="10Nm6u" id="2e3BpjBfQ6M" role="37wK5m" />
