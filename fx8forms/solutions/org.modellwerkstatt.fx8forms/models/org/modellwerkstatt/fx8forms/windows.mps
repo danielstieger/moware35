@@ -11784,12 +11784,10 @@
           </node>
           <node concept="3eOVzh" id="27BPRG5MA9G" role="1Dwp0S">
             <node concept="2OqwBi" id="27BPRG5MAiq" role="3uHU7w">
-              <node concept="37vLTw" id="27BPRG5MAdr" role="2Oq$k0">
-                <ref role="3cqZAo" node="27BPRG5P12L" resolve="conclusionInformations" />
+              <node concept="37vLTw" id="5z$1ZeYAO0z" role="2Oq$k0">
+                <ref role="3cqZAo" node="2U6PE9kx5EJ" resolve="conclusionButtons" />
               </node>
-              <node concept="liA8E" id="27BPRG5P4cL" role="2OqNvi">
-                <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
-              </node>
+              <node concept="34oBXx" id="5z$1ZeYAOgn" role="2OqNvi" />
             </node>
             <node concept="37vLTw" id="27BPRG5MA5J" role="3uHU7B">
               <ref role="3cqZAo" node="27BPRG5M_X9" resolve="i" />
