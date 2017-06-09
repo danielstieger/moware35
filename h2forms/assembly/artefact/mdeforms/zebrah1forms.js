@@ -78,7 +78,8 @@ function enableScan(){
 			
 			/* alert('Scan enabled: ok!'); */ 
 		} catch(err) {
-			/* alert('ERR: ' + err); */
+			console.log('moware enable scan error: ' + err); 
+			alert('FEHLER! Rufen Sie bitte Herr Cristoph unter 4951 an!!' + err);
 		} 
 	} else {
 		/* alert('Scan not enabled'); */
