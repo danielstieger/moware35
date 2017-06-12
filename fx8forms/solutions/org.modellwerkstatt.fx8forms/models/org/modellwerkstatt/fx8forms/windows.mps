@@ -26566,6 +26566,43 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6B_cXxOd8jl" role="jymVt" />
+    <node concept="3clFb_" id="g2nNIPm6T7" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setColor" />
+      <node concept="37vLTG" id="g2nNIPm6T8" role="3clF46">
+        <property role="TrG5h" value="color" />
+        <node concept="17QB3L" id="g2nNIPm6T9" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="g2nNIPm6Ta" role="3clF45" />
+      <node concept="3Tm1VV" id="g2nNIPm6Tb" role="1B3o_S" />
+      <node concept="3clFbS" id="g2nNIPm6Tm" role="3clF47">
+        <node concept="3clFbF" id="g2nNIPlQoW" role="3cqZAp">
+          <node concept="2OqwBi" id="g2nNIPlQoX" role="3clFbG">
+            <node concept="Xjq3P" id="g2nNIPlQoY" role="2Oq$k0" />
+            <node concept="liA8E" id="g2nNIPlQoZ" role="2OqNvi">
+              <ref role="37wK5l" to="p18y:~Node.setStyle(java.lang.String):void" resolve="setStyle" />
+              <node concept="3cpWs3" id="g2nNIPlQp0" role="37wK5m">
+                <node concept="Xl_RD" id="g2nNIPlQp1" role="3uHU7w">
+                  <property role="Xl_RC" value=" derive(#2185C5, 50.0%) derive(#2185C5, 50.0%) derive(#2185C5, 50.0%); -fx-border-insets: 2 0 0 0;" />
+                </node>
+                <node concept="3cpWs3" id="g2nNIPlQp2" role="3uHU7B">
+                  <node concept="Xl_RD" id="g2nNIPlQp3" role="3uHU7B">
+                    <property role="Xl_RC" value="-fx-border-width: 2 2 2 2; -fx-border-color: " />
+                  </node>
+                  <node concept="37vLTw" id="g2nNIPlQp4" role="3uHU7w">
+                    <ref role="3cqZAo" node="g2nNIPm6T8" resolve="color" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="g2nNIPmgyl" role="3cqZAp" />
+      </node>
+      <node concept="2AHcQZ" id="g2nNIPm6Tn" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="6B_cXxOc7wo" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setContent" />

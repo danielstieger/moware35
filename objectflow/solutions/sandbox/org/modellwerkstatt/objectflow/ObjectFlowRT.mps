@@ -3892,8 +3892,20 @@
     <node concept="3uibUv" id="fjwjzIx9ZK" role="3HQHJm">
       <ref role="3uigEE" to="w7gk:2P7gGuyliuf" resolve="IM3ManMapSession" />
     </node>
-    <node concept="2tJIrI" id="3$bhckDvtsf" role="jymVt" />
-    <node concept="2tJIrI" id="3$bhckDvtta" role="jymVt" />
+    <node concept="3clFb_" id="g2nNIPmzuh" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isShared" />
+      <node concept="10P_77" id="g2nNIPmzBP" role="3clF45" />
+      <node concept="3Tm1VV" id="g2nNIPmzuk" role="1B3o_S" />
+      <node concept="3clFbS" id="g2nNIPmzul" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="g2nNIPn3a4" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setSharedSession" />
+      <node concept="3cqZAl" id="g2nNIPn3a6" role="3clF45" />
+      <node concept="3Tm1VV" id="g2nNIPn3a7" role="1B3o_S" />
+      <node concept="3clFbS" id="g2nNIPn3a8" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="4wvbHtt1$ND" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="addOperation" />
@@ -5753,6 +5765,11 @@
         <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
+    <node concept="312cEg" id="g2nNIPm_qQ" role="jymVt">
+      <property role="TrG5h" value="isShared" />
+      <node concept="3Tm6S6" id="g2nNIPm_qR" role="1B3o_S" />
+      <node concept="10P_77" id="g2nNIPm_qS" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="3$bhckF2cas" role="jymVt" />
     <node concept="2tJIrI" id="3$bhckF2dMb" role="jymVt" />
     <node concept="312cEg" id="7$A8r6g3qlI" role="jymVt">
@@ -5838,7 +5855,19 @@
         <node concept="XkiVB" id="2CaVrGB1_Lh" role="3cqZAp">
           <ref role="37wK5l" to="w7gk:2P7gGuyoQiN" resolve="M3ManMapSession" />
         </node>
-        <node concept="3clFbH" id="3$bhckDPBlb" role="3cqZAp" />
+        <node concept="3clFbF" id="g2nNIPmBdK" role="3cqZAp">
+          <node concept="37vLTI" id="g2nNIPmBoT" role="3clFbG">
+            <node concept="3clFbT" id="g2nNIPmBrm" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="2OqwBi" id="g2nNIPmBgP" role="37vLTJ">
+              <node concept="Xjq3P" id="g2nNIPmBdI" role="2Oq$k0" />
+              <node concept="2OwXpG" id="g2nNIPmBkE" role="2OqNvi">
+                <ref role="2Oxat5" node="g2nNIPm_qQ" resolve="isShared" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="VyS2F85BPE" role="3cqZAp">
           <node concept="37vLTI" id="VyS2F85Cym" role="3clFbG">
             <node concept="3clFbT" id="VyS2F85C$5" role="37vLTx">
@@ -5972,6 +6001,26 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="g2nNIPmJmn" role="jymVt">
+      <property role="TrG5h" value="setSharedSession" />
+      <node concept="3cqZAl" id="g2nNIPmJmp" role="3clF45" />
+      <node concept="3Tm1VV" id="g2nNIPmJmq" role="1B3o_S" />
+      <node concept="3clFbS" id="g2nNIPmJmr" role="3clF47">
+        <node concept="3clFbF" id="g2nNIPmLbj" role="3cqZAp">
+          <node concept="37vLTI" id="g2nNIPmLwu" role="3clFbG">
+            <node concept="3clFbT" id="g2nNIPmLz9" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="g2nNIPmLdP" role="37vLTJ">
+              <node concept="Xjq3P" id="g2nNIPmLbi" role="2Oq$k0" />
+              <node concept="2OwXpG" id="g2nNIPmLsf" role="2OqNvi">
+                <ref role="2Oxat5" node="g2nNIPm_qQ" resolve="isShared" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="VyS2F85qun" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="isShutdown" />
@@ -5988,7 +6037,22 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="3$bhckDOf9Y" role="jymVt" />
+    <node concept="3clFb_" id="g2nNIPmB$X" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isShared" />
+      <node concept="10P_77" id="g2nNIPmB$Y" role="3clF45" />
+      <node concept="3Tm1VV" id="g2nNIPmB$Z" role="1B3o_S" />
+      <node concept="3clFbS" id="g2nNIPmB_2" role="3clF47">
+        <node concept="3clFbF" id="g2nNIPmDah" role="3cqZAp">
+          <node concept="2OqwBi" id="g2nNIPmDcT" role="3clFbG">
+            <node concept="Xjq3P" id="g2nNIPmDag" role="2Oq$k0" />
+            <node concept="2OwXpG" id="g2nNIPmDiL" role="2OqNvi">
+              <ref role="2Oxat5" node="g2nNIPm_qQ" resolve="isShared" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="hm5BQD5u2S" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getUserEnvironment" />
