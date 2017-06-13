@@ -664,9 +664,9 @@
   <node concept="1TIwiD" id="pQ21WN9Arj">
     <property role="1pbfSe" value="966553330" />
     <property role="3GE5qa" value="delegates.options" />
-    <property role="TrG5h" value="ScanableDOption" />
-    <property role="34LRSv" value="SCAN ENABLED" />
-    <property role="R4oN_" value="scan trig. writes to delegate" />
+    <property role="TrG5h" value="ReqUpdateDOption" />
+    <property role="34LRSv" value="REQ UPDATE CONCL" />
+    <property role="R4oN_" value="trig. update conclusion if available" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="pQ21WN9Ark" role="PzmwI">

@@ -3996,8 +3996,8 @@
       <property role="1uS6qv" value="INSERT_FF0" />
     </node>
     <node concept="M4N5e" id="7MWNCzXNDQp" role="M5hS2">
-      <property role="1uS6qv" value="SCAN_FF1" />
-      <property role="1uS6qo" value="SCAN" />
+      <property role="1uS6qv" value="UPD_FF1" />
+      <property role="1uS6qo" value="UPDATE" />
     </node>
     <node concept="M4N5e" id="1hImSMr5NTE" role="M5hS2">
       <property role="1uS6qo" value="?" />
