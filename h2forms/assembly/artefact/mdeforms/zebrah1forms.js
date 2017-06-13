@@ -25,10 +25,10 @@ function moLog(s) {
 
 
 function isNoNetwork(){
-	if (!EB.Network.hasNetwork()) {
+	/* if (!EB.Network.hasNetwork()) {
  		alert($('body').getAttribute('networkproblemstring'));
  		return true;
- 	}
+ 	} */
  	 
 	return false;
 }

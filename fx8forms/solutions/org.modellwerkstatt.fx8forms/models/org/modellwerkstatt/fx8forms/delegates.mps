@@ -3822,6 +3822,100 @@
           </node>
         </node>
         <node concept="3clFbH" id="3sEA$PIzx1A" role="3cqZAp" />
+        <node concept="1X3_iC" id="1oPTT9Vsg_M" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="1oPTT9Vs4JN" role="8Wnug">
+            <node concept="2OqwBi" id="1oPTT9Vs8rz" role="3clFbG">
+              <node concept="2OqwBi" id="1oPTT9Vs56e" role="2Oq$k0">
+                <node concept="37vLTw" id="1oPTT9Vs4JL" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
+                </node>
+                <node concept="liA8E" id="1oPTT9Vs5Hc" role="2OqNvi">
+                  <ref role="37wK5l" to="p18y:~Node.focusedProperty():javafx.beans.property.ReadOnlyBooleanProperty" resolve="focusedProperty" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1oPTT9Vs8SR" role="2OqNvi">
+                <ref role="37wK5l" to="8j64:~ObservableValue.addListener(javafx.beans.value.ChangeListener):void" resolve="addListener" />
+                <node concept="2ShNRf" id="1oPTT9Vs8Vh" role="37wK5m">
+                  <node concept="YeOm9" id="1oPTT9VsaEg" role="2ShVmc">
+                    <node concept="1Y3b0j" id="1oPTT9VsaEj" role="YeSDq">
+                      <property role="2bfB8j" value="true" />
+                      <ref role="1Y3XeK" to="8j64:~ChangeListener" resolve="ChangeListener" />
+                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                      <node concept="3Tm1VV" id="1oPTT9VsaEk" role="1B3o_S" />
+                      <node concept="3clFb_" id="1oPTT9VsaEl" role="jymVt">
+                        <property role="1EzhhJ" value="false" />
+                        <property role="TrG5h" value="changed" />
+                        <property role="DiZV1" value="false" />
+                        <property role="od$2w" value="false" />
+                        <node concept="3Tm1VV" id="1oPTT9VsaEm" role="1B3o_S" />
+                        <node concept="3cqZAl" id="1oPTT9VsaEo" role="3clF45" />
+                        <node concept="37vLTG" id="1oPTT9VsaEp" role="3clF46">
+                          <property role="TrG5h" value="o" />
+                          <node concept="3uibUv" id="1oPTT9VsaEq" role="1tU5fm">
+                            <ref role="3uigEE" to="8j64:~ObservableValue" resolve="ObservableValue" />
+                            <node concept="3qUE_q" id="1oPTT9VsaEr" role="11_B2D">
+                              <node concept="3uibUv" id="1oPTT9VsaFJ" role="3qUE_r">
+                                <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="37vLTG" id="1oPTT9VsaEt" role="3clF46">
+                          <property role="TrG5h" value="oldVal" />
+                          <node concept="3uibUv" id="1oPTT9VsaFK" role="1tU5fm">
+                            <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                          </node>
+                        </node>
+                        <node concept="37vLTG" id="1oPTT9VsaEv" role="3clF46">
+                          <property role="TrG5h" value="newVal" />
+                          <node concept="3uibUv" id="1oPTT9VsaFL" role="1tU5fm">
+                            <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                          </node>
+                        </node>
+                        <node concept="3clFbS" id="1oPTT9VsaEx" role="3clF47">
+                          <node concept="3clFbF" id="1oPTT9VsaV9" role="3cqZAp">
+                            <node concept="2OqwBi" id="1oPTT9VsaV6" role="3clFbG">
+                              <node concept="10M0yZ" id="1oPTT9VsaV7" role="2Oq$k0">
+                                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                              </node>
+                              <node concept="liA8E" id="1oPTT9VsaV8" role="2OqNvi">
+                                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                <node concept="3cpWs3" id="1oPTT9VsbTU" role="37wK5m">
+                                  <node concept="37vLTw" id="1oPTT9Vsc2l" role="3uHU7w">
+                                    <ref role="3cqZAo" node="1oPTT9VsaEv" resolve="newVal" />
+                                  </node>
+                                  <node concept="3cpWs3" id="1oPTT9VsbCV" role="3uHU7B">
+                                    <node concept="3cpWs3" id="1oPTT9Vsb66" role="3uHU7B">
+                                      <node concept="Xl_RD" id="1oPTT9VsaWL" role="3uHU7B">
+                                        <property role="Xl_RC" value="FOCUS PROPERTY changed: " />
+                                      </node>
+                                      <node concept="37vLTw" id="1oPTT9Vsb$l" role="3uHU7w">
+                                        <ref role="3cqZAo" node="1oPTT9VsaEt" resolve="oldVal" />
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="1oPTT9VsbEg" role="3uHU7w">
+                                      <property role="Xl_RC" value=" =&gt; " />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3uibUv" id="1oPTT9VsaFI" role="2Ghqu4">
+                        <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="5Y1b9tR0i2r" role="3cqZAp" />
       </node>
     </node>
