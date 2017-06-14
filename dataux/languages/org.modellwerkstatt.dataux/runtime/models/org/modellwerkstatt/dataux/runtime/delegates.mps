@@ -118,6 +118,7 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1068431790189" name="jetbrains.mps.baseLanguage.structure.Type" flags="in" index="33vP2l" />
       <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ" />
       <concept id="1109279851642" name="jetbrains.mps.baseLanguage.structure.GenericDeclaration" flags="ng" index="16eOlS">
         <child id="1109279881614" name="typeVariableDeclaration" index="16eVyc" />
@@ -3573,7 +3574,11 @@
         <ref role="3uigEE" to="zhcn:653Wpvyfc7V" resolve="IDataUxElementHook" />
       </node>
     </node>
-    <node concept="2tJIrI" id="5Y1b9tQYCtV" role="jymVt" />
+    <node concept="312cEg" id="1oPTT9VBLi$" role="jymVt">
+      <node concept="3Tm6S6" id="1oPTT9VBLi_" role="1B3o_S" />
+      <node concept="33vP2l" id="1oPTT9VBLiB" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="1oPTT9VBITt" role="jymVt" />
     <node concept="3clFbW" id="5Y1b9tR40nM" role="jymVt">
       <node concept="37vLTG" id="5Y1b9tR40Z0" role="3clF46">
         <property role="TrG5h" value="factory" />

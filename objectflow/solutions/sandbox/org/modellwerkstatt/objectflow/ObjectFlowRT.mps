@@ -31370,6 +31370,14 @@
       <node concept="3Tm6S6" id="6IzlsXtciFF" role="1B3o_S" />
       <node concept="17QB3L" id="6IzlsXtciFG" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="16VphDIGyqL" role="jymVt">
+      <property role="TrG5h" value="hashAfterSet" />
+      <node concept="3Tm6S6" id="16VphDIGyqM" role="1B3o_S" />
+      <node concept="10Oyi0" id="16VphDIGzR1" role="1tU5fm" />
+      <node concept="3cmrfG" id="16VphDIMiyx" role="33vP2m">
+        <property role="3cmrfH" value="0" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="6IzlsXtchQ2" role="jymVt" />
     <node concept="312cEg" id="5dZoziR9qI4" role="jymVt">
       <property role="TrG5h" value="currentList" />
@@ -31610,6 +31618,58 @@
       <node concept="10P_77" id="5dZoziR9qIU" role="3clF45" />
       <node concept="3Tm1VV" id="5dZoziR9qIV" role="1B3o_S" />
       <node concept="3clFbS" id="5dZoziR9qIW" role="3clF47">
+        <node concept="3SKdUt" id="16VphDIVlZU" role="3cqZAp">
+          <node concept="3SKdUq" id="16VphDIVlZW" role="3SKWNk">
+            <property role="3SKdUp" value="first set with non null list changes hash, others not! " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="16VphDIVnIV" role="3cqZAp">
+          <node concept="3clFbS" id="16VphDIVnIX" role="3clFbx">
+            <node concept="3clFbF" id="16VphDIGLEO" role="3cqZAp">
+              <node concept="37vLTI" id="16VphDIGMDO" role="3clFbG">
+                <node concept="1rXfSq" id="16VphDIGMRk" role="37vLTx">
+                  <ref role="37wK5l" node="16VphDIGB4c" resolve="hashOfList" />
+                  <node concept="37vLTw" id="16VphDIGN2b" role="37wK5m">
+                    <ref role="3cqZAo" node="5dZoziR9qJH" resolve="val" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="16VphDIGLEM" role="37vLTJ">
+                  <ref role="3cqZAo" node="16VphDIGyqL" resolve="hashAfterSet" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="16VphDIVrgD" role="3clFbw">
+            <node concept="3clFbC" id="16VphDIVrCt" role="3uHU7w">
+              <node concept="3cmrfG" id="16VphDIVrOa" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="37vLTw" id="16VphDIVrpv" role="3uHU7B">
+                <ref role="3cqZAo" node="16VphDIGyqL" resolve="hashAfterSet" />
+              </node>
+            </node>
+            <node concept="1Wc70l" id="16VphDIVqxx" role="3uHU7B">
+              <node concept="3y3z36" id="16VphDIVqqB" role="3uHU7B">
+                <node concept="37vLTw" id="16VphDIVqhv" role="3uHU7B">
+                  <ref role="3cqZAo" node="5dZoziR9qJH" resolve="val" />
+                </node>
+                <node concept="10Nm6u" id="16VphDIVqu1" role="3uHU7w" />
+              </node>
+              <node concept="3eOSWO" id="16VphDIVr5B" role="3uHU7w">
+                <node concept="2OqwBi" id="16VphDIVqIM" role="3uHU7B">
+                  <node concept="37vLTw" id="16VphDIVq_i" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5dZoziR9qJH" resolve="val" />
+                  </node>
+                  <node concept="34oBXx" id="16VphDIVqSa" role="2OqNvi" />
+                </node>
+                <node concept="3cmrfG" id="16VphDIVr8I" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="16VphDIVk9L" role="3cqZAp" />
         <node concept="3clFbF" id="5dZoziR9ssH" role="3cqZAp">
           <node concept="37vLTI" id="5dZoziR9t5q" role="3clFbG">
             <node concept="37vLTw" id="5dZoziR9tas" role="37vLTx">
@@ -31621,6 +31681,11 @@
                 <ref role="2Oxat5" node="5dZoziR9qI4" resolve="currentList" />
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="16VphDIVdWM" role="3cqZAp">
+          <node concept="3SKdUq" id="16VphDIVdWO" role="3SKWNk">
+            <property role="3SKdUp" value="no dirty, might even be in readonly state" />
           </node>
         </node>
         <node concept="3cpWs6" id="5dZoziR9qJF" role="3cqZAp">
@@ -31658,7 +31723,105 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="5dZoziR9tb$" role="jymVt" />
+    <node concept="3clFb_" id="16VphDIGB4c" role="jymVt">
+      <property role="TrG5h" value="hashOfList" />
+      <node concept="37vLTG" id="16VphDIGEAi" role="3clF46">
+        <property role="TrG5h" value="list" />
+        <node concept="3uibUv" id="16VphDIGJyb" role="1tU5fm">
+          <ref role="3uigEE" to="33ny:~List" resolve="List" />
+          <node concept="16syzq" id="16VphDIGJyc" role="11_B2D">
+            <ref role="16sUi3" node="5dZoziR9qKV" resolve="T" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="16VphDIGC5T" role="3clF45" />
+      <node concept="3Tm1VV" id="16VphDIGB4f" role="1B3o_S" />
+      <node concept="3clFbS" id="16VphDIGB4g" role="3clF47">
+        <node concept="3cpWs8" id="16VphDIGGIA" role="3cqZAp">
+          <node concept="3cpWsn" id="16VphDIGGIB" role="3cpWs9">
+            <property role="TrG5h" value="newHash" />
+            <node concept="10Oyi0" id="16VphDIGGIC" role="1tU5fm" />
+            <node concept="3cmrfG" id="16VphDIGGID" role="33vP2m">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="16VphDIGNin" role="3cqZAp">
+          <node concept="3clFbS" id="16VphDIGNip" role="3clFbx">
+            <node concept="1DcWWT" id="16VphDIGGIE" role="3cqZAp">
+              <node concept="3clFbS" id="16VphDIGGIF" role="2LFqv$">
+                <node concept="3clFbF" id="16VphDIGGIG" role="3cqZAp">
+                  <node concept="d57v9" id="16VphDIGGIH" role="3clFbG">
+                    <node concept="2OqwBi" id="16VphDIGGII" role="37vLTx">
+                      <node concept="37vLTw" id="16VphDIGGIJ" role="2Oq$k0">
+                        <ref role="3cqZAo" node="16VphDIGGIM" resolve="elm" />
+                      </node>
+                      <node concept="liA8E" id="16VphDIGGIK" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="16VphDIGGIL" role="37vLTJ">
+                      <ref role="3cqZAo" node="16VphDIGGIB" resolve="newHash" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWsn" id="16VphDIGGIM" role="1Duv9x">
+                <property role="TrG5h" value="elm" />
+                <node concept="16syzq" id="16VphDIGR8p" role="1tU5fm">
+                  <ref role="16sUi3" node="5dZoziR9qKV" resolve="T" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="16VphDIGH1q" role="1DdaDG">
+                <ref role="3cqZAo" node="16VphDIGEAi" resolve="list" />
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="16VphDIGNAc" role="3clFbw">
+            <node concept="10Nm6u" id="16VphDIGNGz" role="3uHU7w" />
+            <node concept="37vLTw" id="16VphDIGNrl" role="3uHU7B">
+              <ref role="3cqZAo" node="16VphDIGEAi" resolve="list" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="16VphDIGJsJ" role="3cqZAp">
+          <node concept="37vLTw" id="16VphDIGJsH" role="3clFbG">
+            <ref role="3cqZAo" node="16VphDIGGIB" resolve="newHash" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1S2v2TUoq6H" role="jymVt">
+      <property role="TrG5h" value="wasListChanged" />
+      <node concept="10P_77" id="1S2v2TUos$t" role="3clF45" />
+      <node concept="3Tm1VV" id="1S2v2TUoq6K" role="1B3o_S" />
+      <node concept="3clFbS" id="1S2v2TUoq6L" role="3clF47">
+        <node concept="3cpWs8" id="16VphDIMw20" role="3cqZAp">
+          <node concept="3cpWsn" id="16VphDIMw23" role="3cpWs9">
+            <property role="TrG5h" value="same" />
+            <node concept="10P_77" id="16VphDIMw1Y" role="1tU5fm" />
+            <node concept="3clFbC" id="16VphDIG_Kc" role="33vP2m">
+              <node concept="1rXfSq" id="16VphDIGKhV" role="3uHU7w">
+                <ref role="37wK5l" node="16VphDIGB4c" resolve="hashOfList" />
+                <node concept="37vLTw" id="16VphDIGKv2" role="37wK5m">
+                  <ref role="3cqZAo" node="5dZoziR9qI4" resolve="currentList" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="16VphDIGJUN" role="3uHU7B">
+                <ref role="3cqZAo" node="16VphDIGyqL" resolve="hashAfterSet" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="16VphDIMxWL" role="3cqZAp">
+          <node concept="3fqX7Q" id="16VphDIM_cu" role="3clFbG">
+            <node concept="37vLTw" id="16VphDIM_cw" role="3fr31v">
+              <ref role="3cqZAo" node="16VphDIMw23" resolve="same" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="5dZoziR9qJR" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="copy" />
@@ -31732,7 +31895,25 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6IzlsXtotpb" role="3cqZAp" />
+        <node concept="3clFbF" id="16VphDIMGr9" role="3cqZAp">
+          <node concept="37vLTI" id="16VphDIMH9n" role="3clFbG">
+            <node concept="2OqwBi" id="16VphDIMHwJ" role="37vLTx">
+              <node concept="Xjq3P" id="16VphDIMHqO" role="2Oq$k0" />
+              <node concept="2OwXpG" id="16VphDIMHK0" role="2OqNvi">
+                <ref role="2Oxat5" node="16VphDIGyqL" resolve="hashAfterSet" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="16VphDIMGKm" role="37vLTJ">
+              <node concept="37vLTw" id="16VphDIMGr7" role="2Oq$k0">
+                <ref role="3cqZAo" node="5dZoziR9qJU" resolve="newOfxList" />
+              </node>
+              <node concept="2OwXpG" id="16VphDIMH3c" role="2OqNvi">
+                <ref role="2Oxat5" node="16VphDIGyqL" resolve="hashAfterSet" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="16VphDIMHQr" role="3cqZAp" />
         <node concept="3clFbJ" id="gR$0Z1Wrfz" role="3cqZAp">
           <node concept="3clFbS" id="gR$0Z1WrfA" role="3clFbx">
             <node concept="3SKdUt" id="gR$0Z1WsYb" role="3cqZAp">
@@ -32003,6 +32184,24 @@
               <node concept="Xjq3P" id="6IzlsXtougc" role="2Oq$k0" />
               <node concept="2OwXpG" id="6IzlsXtouPW" role="2OqNvi">
                 <ref role="2Oxat5" node="6IzlsXtciFE" resolve="label" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="16VphDIMIwL" role="3cqZAp">
+          <node concept="37vLTI" id="16VphDIMJlg" role="3clFbG">
+            <node concept="2OqwBi" id="16VphDIMJGM" role="37vLTx">
+              <node concept="37vLTw" id="16VphDIMJAr" role="2Oq$k0">
+                <ref role="3cqZAo" node="5dZoziR9qKQ" resolve="cp" />
+              </node>
+              <node concept="2OwXpG" id="16VphDIMJRM" role="2OqNvi">
+                <ref role="2Oxat5" node="16VphDIGyqL" resolve="hashAfterSet" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="16VphDIMIPY" role="37vLTJ">
+              <node concept="Xjq3P" id="16VphDIMIwJ" role="2Oq$k0" />
+              <node concept="2OwXpG" id="16VphDIMJ85" role="2OqNvi">
+                <ref role="2Oxat5" node="16VphDIGyqL" resolve="hashAfterSet" />
               </node>
             </node>
           </node>
