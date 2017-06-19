@@ -11305,7 +11305,7 @@
     <node concept="312cEg" id="6IYVo2i3PRJ" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="autoConclusionMode" />
+      <property role="TrG5h" value="autoConclusionMode_NoUi" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tm6S6" id="2Uji7vl_Hg8" role="1B3o_S" />
       <node concept="10P_77" id="6IYVo2i3PNM" role="1tU5fm" />
@@ -11435,7 +11435,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="6IYVo2i3SPb" role="37vLTJ">
-              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
             </node>
           </node>
         </node>
@@ -12274,7 +12274,7 @@
                         </node>
                       </node>
                       <node concept="37vLTw" id="6G8jBJnCBD2" role="3clFbw">
-                        <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+                        <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
                       </node>
                       <node concept="9aQIb" id="6G8jBJnCC0u" role="9aQIa">
                         <node concept="3clFbS" id="6G8jBJnCC0v" role="9aQI4">
@@ -12400,7 +12400,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="6G8jBJnAG7A" role="3uHU7B">
-              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
             </node>
           </node>
         </node>
@@ -12767,7 +12767,7 @@
                   </node>
                 </node>
                 <node concept="37vLTw" id="7dlwzTfHDyu" role="3clFbw">
-                  <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+                  <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
                 </node>
               </node>
               <node concept="3clFbH" id="7dlwzTfHDum" role="3cqZAp" />
@@ -13547,6 +13547,26 @@
       <node concept="3Tm6S6" id="5z$1ZeY$MA_" role="1B3o_S" />
       <node concept="3clFbS" id="5z$1ZeY$MAA" role="3clF47">
         <node concept="3clFbH" id="5z$1ZeY$VFv" role="3cqZAp" />
+        <node concept="3clFbF" id="3xGERTNbshs" role="3cqZAp">
+          <node concept="2OqwBi" id="3xGERTNbshp" role="3clFbG">
+            <node concept="10M0yZ" id="3xGERTNbshq" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="3xGERTNbshr" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="3xGERTNbsON" role="37wK5m">
+                <node concept="37vLTw" id="3xGERTNbsQS" role="3uHU7w">
+                  <ref role="3cqZAo" node="47vlctikKoq" resolve="commandName" />
+                </node>
+                <node concept="Xl_RD" id="3xGERTNbsDV" role="3uHU7B">
+                  <property role="Xl_RC" value="setupNewPageWithoutUI() Page was set up with NO UI in cmd " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3xGERTNbrwV" role="3cqZAp" />
         <node concept="3SKdUt" id="5z$1ZeY$MBn" role="3cqZAp">
           <node concept="3SKdUq" id="5z$1ZeY$MBo" role="3SKWNk">
             <property role="3SKdUp" value="cleanup old one and instantiate new one" />
@@ -13850,26 +13870,8 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="5z$1ZeY$MEg" role="37wK5m">
-                      <node concept="liA8E" id="5z$1ZeY$MEh" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:1E9WFYpMBAE" resolve="isHideOnDisabledForLabel" />
-                        <node concept="2OqwBi" id="5z$1ZeY$MEi" role="37wK5m">
-                          <node concept="37vLTw" id="5z$1ZeY$MEj" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5z$1ZeY$MDE" resolve="curCon" />
-                          </node>
-                          <node concept="liA8E" id="5z$1ZeY$MEk" role="2OqNvi">
-                            <ref role="37wK5l" to="28jr:7MWNCzY27MC" resolve="getLabelName" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="2OqwBi" id="5z$1ZeY$MEl" role="2Oq$k0">
-                        <node concept="37vLTw" id="5z$1ZeY$MEm" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
-                        </node>
-                        <node concept="liA8E" id="5z$1ZeY$MEn" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
-                        </node>
-                      </node>
+                    <node concept="3clFbT" id="3xGERTNbeHI" role="37wK5m">
+                      <property role="3clFbU" value="true" />
                     </node>
                   </node>
                 </node>
@@ -14004,6 +14006,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3xGERTNdiK3" role="3cqZAp" />
         <node concept="3SKdUt" id="T$VfFDP6_r" role="3cqZAp">
           <node concept="3SKdUq" id="T$VfFDP6_t" role="3SKWNk">
             <property role="3SKdUp" value="TODO: new pattern here. check enabled condition without callbacks. Why not use this patern with actions?" />
@@ -14014,19 +14017,29 @@
             <property role="3SKdUp" value="TODO: it is a little bit faster, since on request/response architectures, enabled has not to be reevaluated... " />
           </node>
         </node>
-        <node concept="3clFbF" id="27BPRG5OXB_" role="3cqZAp">
-          <node concept="2OqwBi" id="27BPRG5OXNi" role="3clFbG">
-            <node concept="37vLTw" id="27BPRG5OXBz" role="2Oq$k0">
-              <ref role="3cqZAo" node="5_bDd1daoNx" resolve="commandUI" />
-            </node>
-            <node concept="liA8E" id="27BPRG5OXWP" role="2OqNvi">
-              <ref role="37wK5l" to="250q:27BPRG5LZY6" resolve="reevalConclusions" />
-              <node concept="37vLTw" id="27BPRG5OXYo" role="37wK5m">
-                <ref role="3cqZAo" node="4mX9Xggw2_w" resolve="currentConclusionInfos" />
+        <node concept="3clFbJ" id="3xGERTNdlJW" role="3cqZAp">
+          <node concept="3clFbS" id="3xGERTNdlJY" role="3clFbx">
+            <node concept="3clFbF" id="27BPRG5OXB_" role="3cqZAp">
+              <node concept="2OqwBi" id="27BPRG5OXNi" role="3clFbG">
+                <node concept="37vLTw" id="27BPRG5OXBz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5_bDd1daoNx" resolve="commandUI" />
+                </node>
+                <node concept="liA8E" id="27BPRG5OXWP" role="2OqNvi">
+                  <ref role="37wK5l" to="250q:27BPRG5LZY6" resolve="reevalConclusions" />
+                  <node concept="37vLTw" id="27BPRG5OXYo" role="37wK5m">
+                    <ref role="3cqZAo" node="4mX9Xggw2_w" resolve="currentConclusionInfos" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
+          <node concept="3fqX7Q" id="3xGERTNdlVp" role="3clFbw">
+            <node concept="37vLTw" id="3xGERTNdm61" role="3fr31v">
+              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
+            </node>
+          </node>
         </node>
+        <node concept="3clFbH" id="3xGERTNdj$Z" role="3cqZAp" />
         <node concept="3clFbF" id="4XXgpAASQ5Y" role="3cqZAp">
           <node concept="2OqwBi" id="4XXgpAASQ6Y" role="3clFbG">
             <node concept="37vLTw" id="4XXgpAASQ5X" role="2Oq$k0">
@@ -14380,11 +14393,16 @@
           </node>
           <node concept="3fqX7Q" id="5z$1ZeYBYEX" role="3clFbw">
             <node concept="37vLTw" id="5z$1ZeYBYRl" role="3fr31v">
-              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
             </node>
           </node>
           <node concept="9aQIb" id="5z$1ZeYC2js" role="9aQIa">
             <node concept="3clFbS" id="5z$1ZeYC2jt" role="9aQI4">
+              <node concept="3SKdUt" id="3xGERTNb1uc" role="3cqZAp">
+                <node concept="3SKdUq" id="3xGERTNb1ue" role="3SKWNk">
+                  <property role="3SKdUp" value="auto conclusion mode. " />
+                </node>
+              </node>
               <node concept="3clFbF" id="5z$1ZeY_kWp" role="3cqZAp">
                 <node concept="1rXfSq" id="5z$1ZeY_kWo" role="3clFbG">
                   <ref role="37wK5l" node="5z$1ZeY$MAz" resolve="setupNewPageWithoutUI" />
@@ -14526,7 +14544,7 @@
           </node>
           <node concept="3fqX7Q" id="3kFdJsbFZ_" role="3clFbw">
             <node concept="37vLTw" id="3kFdJsbGaG" role="3fr31v">
-              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
             </node>
           </node>
         </node>
@@ -14559,7 +14577,7 @@
           </node>
           <node concept="3eNFk2" id="4uSs_3r1Ex1" role="3eNLev">
             <node concept="37vLTw" id="3kFdJsaxaV" role="3eO9$A">
-              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+              <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
             </node>
             <node concept="3clFbS" id="4uSs_3r1Ex3" role="3eOfB_">
               <node concept="3SKdUt" id="3kFdJs6zWt" role="3cqZAp">
@@ -15125,7 +15143,7 @@
                   </node>
                 </node>
                 <node concept="37vLTw" id="7dlwzTfHjas" role="3clFbw">
-                  <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+                  <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
                 </node>
               </node>
               <node concept="3clFbH" id="7dlwzTfHzHt" role="3cqZAp" />
@@ -15234,7 +15252,7 @@
               </node>
               <node concept="3fqX7Q" id="5z$1ZeYBAtC" role="3clFbw">
                 <node concept="37vLTw" id="5z$1ZeYBAGQ" role="3fr31v">
-                  <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+                  <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
                 </node>
               </node>
             </node>
@@ -15581,7 +15599,7 @@
                       </node>
                     </node>
                     <node concept="37vLTw" id="7dlwzTfHAwZ" role="3clFbw">
-                      <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+                      <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
                     </node>
                   </node>
                   <node concept="3clFbH" id="7dlwzTfHAp9" role="3cqZAp" />
@@ -16137,7 +16155,7 @@
               <node concept="1Wc70l" id="2Uji7vlE6RO" role="3clFbw">
                 <node concept="3fqX7Q" id="2Uji7vlE6G6" role="3uHU7B">
                   <node concept="37vLTw" id="2Uji7vlE6G8" role="3fr31v">
-                    <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+                    <ref role="3cqZAo" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
                   </node>
                 </node>
                 <node concept="3fqX7Q" id="2Uji7vlE74F" role="3uHU7w">
@@ -16403,7 +16421,7 @@
                 <ref role="3cqZAo" node="4XXgpAARetX" resolve="parentCommandContainer" />
               </node>
               <node concept="2OwXpG" id="3kFdJsaHQ_" role="2OqNvi">
-                <ref role="2Oxat5" node="6IYVo2i3PRJ" resolve="autoConclusionMode" />
+                <ref role="2Oxat5" node="6IYVo2i3PRJ" resolve="autoConclusionMode_NoUi" />
               </node>
             </node>
           </node>

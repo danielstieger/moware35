@@ -27017,7 +27017,7 @@
                 <ref role="wgbOb" node="1lpzdTmrIYJ" resolve="whereClause" />
               </node>
               <node concept="wgbQT" id="1lpzdTmvjIU" role="3uHU7B">
-                <ref role="wgbOb" node="1lpzdTmrIN0" resolve="mappingClause" />
+                <ref role="wgbOb" node="1lpzdTmrIN0" resolve="mappingPart" />
               </node>
             </node>
             <node concept="3tYRmo" id="1lpzdTmvkPx" role="q55Dl">
@@ -27053,7 +27053,7 @@
                   <ref role="wgbOb" node="1lpzdTmy_dU" resolve="whereIdClause" />
                 </node>
                 <node concept="wgbQT" id="1lpzdTmyDe1" role="3uHU7B">
-                  <ref role="wgbOb" node="1lpzdTmrIN0" resolve="mappingClause" />
+                  <ref role="wgbOb" node="1lpzdTmrIN0" resolve="mappingPart" />
                 </node>
               </node>
             </node>
@@ -27088,7 +27088,7 @@
                   <ref role="wgbOb" node="1lpzdTmy_dU" resolve="whereIdClause" />
                 </node>
                 <node concept="wgbQT" id="1lpzdTmS_0K" role="3uHU7B">
-                  <ref role="wgbOb" node="1lpzdTmrIN0" resolve="mappingClause" />
+                  <ref role="wgbOb" node="1lpzdTmrIN0" resolve="mappingPart" />
                 </node>
               </node>
             </node>
@@ -27098,7 +27098,7 @@
       </node>
     </node>
     <node concept="2_xi3j" id="1lpzdTmrIN0" role="2_$AKh">
-      <property role="TrG5h" value="mappingClause" />
+      <property role="TrG5h" value="mappingPart" />
       <node concept="1Q8zPT" id="1lpzdTmrIN2" role="2_xi3e">
         <node concept="19SGf9" id="1lpzdTmrIN4" role="1Q8hHE">
           <node concept="19SUe$" id="1lpzdTmrIN5" role="19SJt6">
