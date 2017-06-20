@@ -5045,13 +5045,6 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="7P$uL5PlkPD" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="issueUpdateConclusion" />
-      <node concept="3cqZAl" id="7P$uL5PlkPF" role="3clF45" />
-      <node concept="3Tm1VV" id="7P$uL5PlkPG" role="1B3o_S" />
-      <node concept="3clFbS" id="7P$uL5PlkPH" role="3clF47" />
-    </node>
     <node concept="2tJIrI" id="7P$uL5Pllm1" role="jymVt" />
     <node concept="3clFb_" id="206uhc7jw1X" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -5062,6 +5055,9 @@
       <node concept="3uibUv" id="206uhc7jw18" role="3clF45">
         <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
       </node>
+    </node>
+    <node concept="3uibUv" id="7P$uL5PrtX1" role="3HQHJm">
+      <ref role="3uigEE" node="7P$uL5PrtJA" resolve="IUpdateConclusionResolver" />
     </node>
   </node>
   <node concept="312cEu" id="3972coxdHhr">
@@ -27655,6 +27651,18 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6mdtRStxwDI" role="jymVt" />
+  </node>
+  <node concept="3HP615" id="7P$uL5PrtJA">
+    <property role="3GE5qa" value="interfaces" />
+    <property role="TrG5h" value="IUpdateConclusionResolver" />
+    <node concept="3clFb_" id="7P$uL5PlkPD" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="issueUpdateConclusion" />
+      <node concept="3cqZAl" id="7P$uL5PlkPF" role="3clF45" />
+      <node concept="3Tm1VV" id="7P$uL5PlkPG" role="1B3o_S" />
+      <node concept="3clFbS" id="7P$uL5PlkPH" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="7P$uL5PrtJB" role="1B3o_S" />
   </node>
 </model>
 

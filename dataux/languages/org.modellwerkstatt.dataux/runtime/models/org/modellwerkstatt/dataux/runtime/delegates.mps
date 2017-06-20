@@ -4675,20 +4675,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7P$uL5PqFq_" role="3cqZAp">
-          <node concept="2OqwBi" id="7P$uL5PqFqy" role="3clFbG">
-            <node concept="10M0yZ" id="7P$uL5PqFqz" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="7P$uL5PqFq$" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="Xl_RD" id="7P$uL5PqFs$" role="37wK5m">
-                <property role="Xl_RC" value="GC CLEAN ON DELEGATE CALLED" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="52pTiJGY_H4" role="3cqZAp">
           <node concept="37vLTI" id="52pTiJGY_If" role="3clFbG">
             <node concept="10Nm6u" id="52pTiJGY_Jt" role="37vLTx" />
@@ -6682,11 +6668,11 @@
     <node concept="2tJIrI" id="3sEA$PIxQFT" role="jymVt" />
     <node concept="3clFb_" id="3yfWYM0VcCA" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setScanable" />
+      <property role="TrG5h" value="issuesUpdateConclusion" />
       <node concept="3cqZAl" id="3yfWYM0VcCB" role="3clF45" />
       <node concept="3Tm1VV" id="3yfWYM0VcCC" role="1B3o_S" />
       <node concept="37vLTG" id="3yfWYM0VcCD" role="3clF46">
-        <property role="TrG5h" value="scanable" />
+        <property role="TrG5h" value="updt" />
         <node concept="10P_77" id="3yfWYM0VcCE" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="3yfWYM0VcCF" role="3clF47">
@@ -6698,7 +6684,7 @@
             <node concept="liA8E" id="3yfWYM0WTrv" role="2OqNvi">
               <ref role="37wK5l" to="250q:3yfWYM0WS3B" resolve="setScanable" />
               <node concept="37vLTw" id="3yfWYM0WTtW" role="37wK5m">
-                <ref role="3cqZAo" node="3yfWYM0VcCD" resolve="scanable" />
+                <ref role="3cqZAo" node="3yfWYM0VcCD" resolve="updt" />
               </node>
             </node>
           </node>
