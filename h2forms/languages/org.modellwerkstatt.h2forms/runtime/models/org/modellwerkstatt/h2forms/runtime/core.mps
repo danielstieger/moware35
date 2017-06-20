@@ -2195,41 +2195,36 @@
                   <node concept="3cpWsn" id="4Z0$komNfjl" role="3cpWs9">
                     <property role="TrG5h" value="msg" />
                     <node concept="17QB3L" id="4Z0$komNfjg" role="1tU5fm" />
-                    <node concept="3cpWs3" id="18nf27lPz7x" role="33vP2m">
-                      <node concept="Xl_RD" id="18nf27lPzQn" role="3uHU7w">
-                        <property role="Xl_RC" value=" $ RECONNECT " />
-                      </node>
-                      <node concept="3cpWs3" id="18nf27lPwRb" role="3uHU7B">
-                        <node concept="3cpWs3" id="18nf27lPrOc" role="3uHU7B">
-                          <node concept="3cpWs3" id="18nf27m7hKi" role="3uHU7B">
-                            <node concept="Xl_RD" id="18nf27m7hLY" role="3uHU7B">
-                              <property role="Xl_RC" value="" />
-                            </node>
-                            <node concept="2ShNRf" id="4z69JWeUKw8" role="3uHU7w">
-                              <node concept="1pGfFk" id="4z69JWeUKw9" role="2ShVmc">
-                                <ref role="37wK5l" to="33ny:~Date.&lt;init&gt;(long)" resolve="Date" />
-                                <node concept="37vLTw" id="7EeWEMeNg3b" role="37wK5m">
-                                  <ref role="3cqZAo" node="1XvfUlyonLL" resolve="thisServedStartOfRequest" />
-                                </node>
+                    <node concept="3cpWs3" id="18nf27lPwRb" role="33vP2m">
+                      <node concept="3cpWs3" id="18nf27lPrOc" role="3uHU7B">
+                        <node concept="3cpWs3" id="18nf27m7hKi" role="3uHU7B">
+                          <node concept="Xl_RD" id="18nf27m7hLY" role="3uHU7B">
+                            <property role="Xl_RC" value="" />
+                          </node>
+                          <node concept="2ShNRf" id="4z69JWeUKw8" role="3uHU7w">
+                            <node concept="1pGfFk" id="4z69JWeUKw9" role="2ShVmc">
+                              <ref role="37wK5l" to="33ny:~Date.&lt;init&gt;(long)" resolve="Date" />
+                              <node concept="37vLTw" id="7EeWEMeNg3b" role="37wK5m">
+                                <ref role="3cqZAo" node="1XvfUlyonLL" resolve="thisServedStartOfRequest" />
                               </node>
                             </node>
-                          </node>
-                          <node concept="Xl_RD" id="18nf27lPrOV" role="3uHU7w">
-                            <property role="Xl_RC" value=" $ $ $ $ " />
                           </node>
                         </node>
-                        <node concept="1eOMI4" id="4QZI$__PHuG" role="3uHU7w">
-                          <node concept="10QFUN" id="4QZI$__PHuH" role="1eOMHV">
-                            <node concept="17QB3L" id="4QZI$__PHuI" role="10QFUM" />
-                            <node concept="2OqwBi" id="4QZI$__PHuJ" role="10QFUP">
-                              <node concept="37vLTw" id="4QZI$__PHuK" role="2Oq$k0">
-                                <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
-                              </node>
-                              <node concept="liA8E" id="4QZI$__PHuL" role="2OqNvi">
-                                <ref role="37wK5l" to="nwfd:~HttpSession.getAttribute(java.lang.String):java.lang.Object" resolve="getAttribute" />
-                                <node concept="Xl_RD" id="4QZI$__PHuM" role="37wK5m">
-                                  <property role="Xl_RC" value="userName" />
-                                </node>
+                        <node concept="Xl_RD" id="18nf27lPrOV" role="3uHU7w">
+                          <property role="Xl_RC" value=" $ $ $ $ " />
+                        </node>
+                      </node>
+                      <node concept="1eOMI4" id="4QZI$__PHuG" role="3uHU7w">
+                        <node concept="10QFUN" id="4QZI$__PHuH" role="1eOMHV">
+                          <node concept="17QB3L" id="4QZI$__PHuI" role="10QFUM" />
+                          <node concept="2OqwBi" id="4QZI$__PHuJ" role="10QFUP">
+                            <node concept="37vLTw" id="4QZI$__PHuK" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                            </node>
+                            <node concept="liA8E" id="4QZI$__PHuL" role="2OqNvi">
+                              <ref role="37wK5l" to="nwfd:~HttpSession.getAttribute(java.lang.String):java.lang.Object" resolve="getAttribute" />
+                              <node concept="Xl_RD" id="4QZI$__PHuM" role="37wK5m">
+                                <property role="Xl_RC" value="userName" />
                               </node>
                             </node>
                           </node>
@@ -2238,6 +2233,51 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbJ" id="ed5ezHH0cz" role="3cqZAp">
+                  <node concept="3clFbS" id="ed5ezHH0c_" role="3clFbx">
+                    <node concept="3clFbF" id="ed5ezHH453" role="3cqZAp">
+                      <node concept="d57v9" id="ed5ezHH4O0" role="3clFbG">
+                        <node concept="37vLTw" id="ed5ezHH451" role="37vLTJ">
+                          <ref role="3cqZAo" node="4Z0$komNfjl" resolve="msg" />
+                        </node>
+                        <node concept="Xl_RD" id="ed5ezHH5yv" role="37vLTx">
+                          <property role="Xl_RC" value=" $ BROWSERSTART " />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="ed5ezHH72g" role="3cqZAp" />
+                  </node>
+                  <node concept="3y3z36" id="ed5ezHH6h9" role="3clFbw">
+                    <node concept="2OqwBi" id="ed5ezHH0ZY" role="3uHU7B">
+                      <node concept="37vLTw" id="ed5ezHH0YB" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                      </node>
+                      <node concept="liA8E" id="ed5ezHH1M5" role="2OqNvi">
+                        <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                        <node concept="Xl_RD" id="ed5ezHH2w_" role="37wK5m">
+                          <property role="Xl_RC" value="appstart" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="10Nm6u" id="ed5ezHH3jG" role="3uHU7w" />
+                  </node>
+                  <node concept="9aQIb" id="ed5ezHH7JN" role="9aQIa">
+                    <node concept="3clFbS" id="ed5ezHH7JO" role="9aQI4">
+                      <node concept="3clFbF" id="ed5ezHH8u4" role="3cqZAp">
+                        <node concept="d57v9" id="ed5ezHH8u5" role="3clFbG">
+                          <node concept="37vLTw" id="ed5ezHH8u6" role="37vLTJ">
+                            <ref role="3cqZAo" node="4Z0$komNfjl" resolve="msg" />
+                          </node>
+                          <node concept="Xl_RD" id="ed5ezHH8u7" role="37vLTx">
+                            <property role="Xl_RC" value=" $ RECONNECT " />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="ed5ezHH9cN" role="3cqZAp" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="ed5ezHH9V1" role="3cqZAp" />
                 <node concept="3clFbF" id="18nf27lPjIN" role="3cqZAp">
                   <node concept="2OqwBi" id="18nf27lPjK8" role="3clFbG">
                     <node concept="37vLTw" id="18nf27lPjIL" role="2Oq$k0">
@@ -2264,7 +2304,7 @@
                     <node concept="liA8E" id="4Z0$komNkdG" role="2OqNvi">
                       <ref role="37wK5l" to="x37d:4O5lEKxGPdI" resolve="applicationLog" />
                       <node concept="Xl_RD" id="4Z0$komNmwc" role="37wK5m">
-                        <property role="Xl_RC" value="RECONNECT" />
+                        <property role="Xl_RC" value="GET on session" />
                       </node>
                       <node concept="37vLTw" id="4Z0$komNnKT" role="37wK5m">
                         <ref role="3cqZAo" node="4Z0$komNfjl" resolve="msg" />
@@ -2272,6 +2312,7 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="ed5ezHGYzw" role="3cqZAp" />
               </node>
               <node concept="1Wc70l" id="7EeWEMeO4aN" role="3clFbw">
                 <node concept="2OqwBi" id="7EeWEMeO5Pn" role="3uHU7w">

@@ -4675,6 +4675,20 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7P$uL5PqFq_" role="3cqZAp">
+          <node concept="2OqwBi" id="7P$uL5PqFqy" role="3clFbG">
+            <node concept="10M0yZ" id="7P$uL5PqFqz" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="7P$uL5PqFq$" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="7P$uL5PqFs$" role="37wK5m">
+                <property role="Xl_RC" value="GC CLEAN ON DELEGATE CALLED" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="52pTiJGY_H4" role="3cqZAp">
           <node concept="37vLTI" id="52pTiJGY_If" role="3clFbG">
             <node concept="10Nm6u" id="52pTiJGY_Jt" role="37vLTx" />
