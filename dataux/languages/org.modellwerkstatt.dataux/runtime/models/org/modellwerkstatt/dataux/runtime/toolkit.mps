@@ -545,16 +545,20 @@
       <node concept="3Tm1VV" id="5Y1b9tR2iZr" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tR2iZs" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="4ceCyFmoTuE" role="jymVt" />
     <node concept="3clFb_" id="3yfWYM0WS3B" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setScanable" />
+      <property role="TrG5h" value="setIssuesUpdateConclusion" />
       <node concept="3cqZAl" id="3yfWYM0WS3D" role="3clF45" />
       <node concept="3Tm1VV" id="3yfWYM0WS3E" role="1B3o_S" />
       <node concept="3clFbS" id="3yfWYM0WS3F" role="3clF47" />
-      <node concept="37vLTG" id="3yfWYM0WSIr" role="3clF46">
-        <property role="TrG5h" value="scanable" />
-        <node concept="10P_77" id="3yfWYM0WSIq" role="1tU5fm" />
-      </node>
+    </node>
+    <node concept="3clFb_" id="4ceCyFmoT$7" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setPreviousIssuesUpadetConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmoT$9" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmoT$a" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmoT$b" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="3sEA$PIpLeP" role="jymVt" />
     <node concept="3clFb_" id="5Y1b9tRd28d" role="jymVt">

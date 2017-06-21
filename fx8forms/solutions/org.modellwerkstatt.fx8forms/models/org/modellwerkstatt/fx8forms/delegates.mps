@@ -22,6 +22,7 @@
     <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="zsw4" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.stage(org.modellwerkstatt.fx8forms/)" />
+    <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="qjps" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:com.sun.javafx.scene.control.behavior(org.modellwerkstatt.fx8forms/)" implicit="true" />
     <import index="os9n" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.collections(org.modellwerkstatt.fx8forms/)" implicit="true" />
@@ -292,7 +293,7 @@
   <node concept="312cEu" id="2agx4jTP$zD">
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
-    <property role="TrG5h" value="FX8PatternField" />
+    <property role="TrG5h" value="DatePatternField" />
     <node concept="312cEg" id="1l2SXGvJn57" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="pattern" />
@@ -494,7 +495,7 @@
                         <node concept="3clFbF" id="3sEA$PIAb7k" role="3cqZAp">
                           <node concept="2OqwBi" id="3sEA$PIAb7l" role="3clFbG">
                             <node concept="Xjq3P" id="3sEA$PIAe2i" role="2Oq$k0">
-                              <ref role="1HBi2w" node="2agx4jTP$zD" resolve="FX8PatternField" />
+                              <ref role="1HBi2w" node="2agx4jTP$zD" resolve="DatePatternField" />
                             </node>
                             <node concept="liA8E" id="3sEA$PIAb7n" role="2OqNvi">
                               <ref role="37wK5l" to="rb41:~TextInputControl.selectAll():void" resolve="selectAll" />
@@ -1284,7 +1285,7 @@
   <node concept="312cEu" id="3KDG5JVyNE0">
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
-    <property role="TrG5h" value="FX8AutoCompleteContextMenu" />
+    <property role="TrG5h" value="AutoCompleteContextMenu" />
     <node concept="3Tm1VV" id="3KDG5JVyNE1" role="1B3o_S" />
     <node concept="3uibUv" id="yJ4zx4aIlR" role="1zkMxy">
       <ref role="3uigEE" to="rb41:~TextField" resolve="TextField" />
@@ -1490,7 +1491,7 @@
                                           </node>
                                           <node concept="2OqwBi" id="3bZh4Q5VlA9" role="10QFUP">
                                             <node concept="Xjq3P" id="3bZh4Q5VlAa" role="2Oq$k0">
-                                              <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="FX8AutoCompleteContextMenu" />
+                                              <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="AutoCompleteContextMenu" />
                                             </node>
                                             <node concept="liA8E" id="3bZh4Q5VlAb" role="2OqNvi">
                                               <ref role="37wK5l" to="rb41:~Control.getSkin():javafx.scene.control.Skin" resolve="getSkin" />
@@ -1804,7 +1805,7 @@
                                 <node concept="10Nm6u" id="1oA5m_ZtkoN" role="3uHU7w" />
                                 <node concept="2OqwBi" id="1oA5m_ZtkoB" role="3uHU7B">
                                   <node concept="Xjq3P" id="1oA5m_ZtiOG" role="2Oq$k0">
-                                    <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="FX8AutoCompleteContextMenu" />
+                                    <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="AutoCompleteContextMenu" />
                                   </node>
                                   <node concept="liA8E" id="1oA5m_ZtkoH" role="2OqNvi">
                                     <ref role="37wK5l" to="p18y:~Node.getScene():javafx.scene.Scene" resolve="getScene" />
@@ -1965,7 +1966,7 @@
                               <node concept="2OqwBi" id="4SFabzQs$SC" role="3clFbG">
                                 <node concept="2OqwBi" id="4SFabzQs$Dv" role="2Oq$k0">
                                   <node concept="Xjq3P" id="4SFabzQs$Dw" role="2Oq$k0">
-                                    <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="FX8AutoCompleteContextMenu" />
+                                    <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="AutoCompleteContextMenu" />
                                   </node>
                                   <node concept="liA8E" id="4SFabzQs$Dx" role="2OqNvi">
                                     <ref role="37wK5l" to="p18y:~Node.getOnKeyTyped():javafx.event.EventHandler" resolve="getOnKeyTyped" />
@@ -1982,7 +1983,7 @@
                             <node concept="10Nm6u" id="4SFabzQmbj8" role="3uHU7w" />
                             <node concept="2OqwBi" id="4SFabzQlWnd" role="3uHU7B">
                               <node concept="Xjq3P" id="4SFabzQsoT1" role="2Oq$k0">
-                                <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="FX8AutoCompleteContextMenu" />
+                                <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="AutoCompleteContextMenu" />
                               </node>
                               <node concept="liA8E" id="4SFabzQsxgb" role="2OqNvi">
                                 <ref role="37wK5l" to="p18y:~Node.getOnKeyTyped():javafx.event.EventHandler" resolve="getOnKeyTyped" />
@@ -2203,7 +2204,7 @@
                             <node concept="3clFbF" id="4EvUyFTFKEa" role="3cqZAp">
                               <node concept="2OqwBi" id="4EvUyFTFKEe" role="3clFbG">
                                 <node concept="Xjq3P" id="yJ4zx4aImD" role="2Oq$k0">
-                                  <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="FX8AutoCompleteContextMenu" />
+                                  <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="AutoCompleteContextMenu" />
                                 </node>
                                 <node concept="liA8E" id="4EvUyFTFKEk" role="2OqNvi">
                                   <ref role="37wK5l" node="4EvUyFTFMId" resolve="setItem" />
@@ -2246,7 +2247,7 @@
                                   <node concept="2OqwBi" id="2JhkuvESBgP" role="3clFbG">
                                     <node concept="2OqwBi" id="2JhkuvESBg$" role="2Oq$k0">
                                       <node concept="Xjq3P" id="2JhkuvESBg_" role="2Oq$k0">
-                                        <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="FX8AutoCompleteContextMenu" />
+                                        <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="AutoCompleteContextMenu" />
                                       </node>
                                       <node concept="liA8E" id="2JhkuvESBgA" role="2OqNvi">
                                         <ref role="37wK5l" to="p18y:~Node.getOnKeyTyped():javafx.event.EventHandler" resolve="getOnKeyTyped" />
@@ -2263,7 +2264,7 @@
                                 <node concept="10Nm6u" id="2JhkuvESBgy" role="3uHU7w" />
                                 <node concept="2OqwBi" id="2JhkuvES_O7" role="3uHU7B">
                                   <node concept="Xjq3P" id="2JhkuvES_NS" role="2Oq$k0">
-                                    <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="FX8AutoCompleteContextMenu" />
+                                    <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="AutoCompleteContextMenu" />
                                   </node>
                                   <node concept="liA8E" id="2JhkuvESADO" role="2OqNvi">
                                     <ref role="37wK5l" to="p18y:~Node.getOnKeyTyped():javafx.event.EventHandler" resolve="getOnKeyTyped" />
@@ -3088,7 +3089,7 @@
                   <node concept="2OqwBi" id="1rbZyOzV20g" role="3clFbG">
                     <node concept="2OqwBi" id="1rbZyOzV20h" role="2Oq$k0">
                       <node concept="Xjq3P" id="1rbZyOzV20i" role="2Oq$k0">
-                        <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="FX8AutoCompleteContextMenu" />
+                        <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="AutoCompleteContextMenu" />
                       </node>
                       <node concept="liA8E" id="1rbZyOzV20j" role="2OqNvi">
                         <ref role="37wK5l" to="p18y:~Node.getOnKeyTyped():javafx.event.EventHandler" resolve="getOnKeyTyped" />
@@ -3105,7 +3106,7 @@
                 <node concept="10Nm6u" id="1rbZyOzV20n" role="3uHU7w" />
                 <node concept="2OqwBi" id="1rbZyOzV20o" role="3uHU7B">
                   <node concept="Xjq3P" id="1rbZyOzV20p" role="2Oq$k0">
-                    <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="FX8AutoCompleteContextMenu" />
+                    <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="AutoCompleteContextMenu" />
                   </node>
                   <node concept="liA8E" id="1rbZyOzV20q" role="2OqNvi">
                     <ref role="37wK5l" to="p18y:~Node.getOnKeyTyped():javafx.event.EventHandler" resolve="getOnKeyTyped" />
@@ -3191,7 +3192,7 @@
                       <node concept="liA8E" id="3mhGZE0LX7y" role="2OqNvi">
                         <ref role="37wK5l" to="rb41:~ContextMenu.show(javafx.scene.Node,javafx.geometry.Side,double,double):void" resolve="show" />
                         <node concept="Xjq3P" id="3mhGZE0LX7z" role="37wK5m">
-                          <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="FX8AutoCompleteContextMenu" />
+                          <ref role="1HBi2w" node="3KDG5JVyNE0" resolve="AutoCompleteContextMenu" />
                         </node>
                         <node concept="Rm8GO" id="3bZh4Q5TbPs" role="37wK5m">
                           <ref role="Rm8GQ" to="1po:~Side.BOTTOM" resolve="BOTTOM" />
@@ -3461,7 +3462,7 @@
                 <node concept="37vLTI" id="3sEA$PIASaX" role="3clFbG">
                   <node concept="2ShNRf" id="3sEA$PIASeo" role="37vLTx">
                     <node concept="1pGfFk" id="3sEA$PIASMz" role="2ShVmc">
-                      <ref role="37wK5l" node="2agx4jTP$zI" resolve="FX8PatternField" />
+                      <ref role="37wK5l" node="2agx4jTP$zI" resolve="DatePatternField" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="3sEA$PIAR_g" role="37vLTJ">
@@ -3854,7 +3855,7 @@
                 <node concept="1eOMI4" id="3sEA$PIAYlY" role="2Oq$k0">
                   <node concept="10QFUN" id="3sEA$PIAYlV" role="1eOMHV">
                     <node concept="3uibUv" id="3sEA$PIAYm0" role="10QFUM">
-                      <ref role="3uigEE" node="2agx4jTP$zD" resolve="FX8PatternField" />
+                      <ref role="3uigEE" node="2agx4jTP$zD" resolve="DatePatternField" />
                     </node>
                     <node concept="37vLTw" id="3sEA$PIAYm2" role="10QFUP">
                       <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
@@ -3872,7 +3873,7 @@
           </node>
           <node concept="2ZW3vV" id="3sEA$PIAXKL" role="3clFbw">
             <node concept="3uibUv" id="3sEA$PIAXLj" role="2ZW6by">
-              <ref role="3uigEE" node="2agx4jTP$zD" resolve="FX8PatternField" />
+              <ref role="3uigEE" node="2agx4jTP$zD" resolve="DatePatternField" />
             </node>
             <node concept="37vLTw" id="3sEA$PIAXF5" role="2ZW6bz">
               <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
@@ -4271,7 +4272,7 @@
                 <node concept="1eOMI4" id="1l2SXGvQKnD" role="2Oq$k0">
                   <node concept="10QFUN" id="1l2SXGvQKnA" role="1eOMHV">
                     <node concept="3uibUv" id="1l2SXGvQKnF" role="10QFUM">
-                      <ref role="3uigEE" node="2agx4jTP$zD" resolve="FX8PatternField" />
+                      <ref role="3uigEE" node="2agx4jTP$zD" resolve="DatePatternField" />
                     </node>
                     <node concept="37vLTw" id="1l2SXGvQKnG" role="10QFUP">
                       <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
@@ -4286,7 +4287,7 @@
           </node>
           <node concept="2ZW3vV" id="1l2SXGvQK8A" role="3clFbw">
             <node concept="3uibUv" id="1l2SXGvQK8B" role="2ZW6by">
-              <ref role="3uigEE" node="2agx4jTP$zD" resolve="FX8PatternField" />
+              <ref role="3uigEE" node="2agx4jTP$zD" resolve="DatePatternField" />
             </node>
             <node concept="37vLTw" id="1l2SXGvQK8C" role="2ZW6bz">
               <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
@@ -4307,16 +4308,19 @@
     </node>
     <node concept="2tJIrI" id="5Y1b9tR0d7M" role="jymVt" />
     <node concept="2tJIrI" id="3sEA$PIq7NW" role="jymVt" />
-    <node concept="3clFb_" id="3yfWYM0ZSsM" role="jymVt">
+    <node concept="3clFb_" id="4ceCyFmrUfa" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setScanable" />
-      <node concept="3cqZAl" id="3yfWYM0ZSsN" role="3clF45" />
-      <node concept="3Tm1VV" id="3yfWYM0ZSsO" role="1B3o_S" />
-      <node concept="37vLTG" id="3yfWYM0ZSsQ" role="3clF46">
-        <property role="TrG5h" value="scanable" />
-        <node concept="10P_77" id="3yfWYM0ZSsR" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="3yfWYM0ZSsS" role="3clF47" />
+      <property role="TrG5h" value="setIssuesUpdateConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmrUfb" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmrUfc" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmrUfe" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="4ceCyFmrUff" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setPreviousIssuesUpadetConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmrUfi" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmrUfj" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmrUfl" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="5Y1b9tR0d7Q" role="jymVt" />
     <node concept="3clFb_" id="5Y1b9tRfgoC" role="jymVt">
@@ -4433,6 +4437,7 @@
       <node concept="3Tmbuc" id="3sEA$PIzUIa" role="1B3o_S" />
       <node concept="10P_77" id="3sEA$PIzUIb" role="1tU5fm" />
     </node>
+    <node concept="2tJIrI" id="4ceCyFmslWv" role="jymVt" />
     <node concept="2tJIrI" id="3sEA$PIzUIc" role="jymVt" />
     <node concept="2tJIrI" id="3sEA$PIzUId" role="jymVt" />
     <node concept="3clFbW" id="3sEA$PIzUIe" role="jymVt">
@@ -5360,18 +5365,21 @@
     </node>
     <node concept="2tJIrI" id="3sEA$PIzUNI" role="jymVt" />
     <node concept="2tJIrI" id="3sEA$PIzUNJ" role="jymVt" />
-    <node concept="2tJIrI" id="3sEA$PIzUNK" role="jymVt" />
-    <node concept="3clFb_" id="3yfWYM0ZURI" role="jymVt">
+    <node concept="3clFb_" id="4ceCyFmsBQp" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setScanable" />
-      <node concept="3cqZAl" id="3yfWYM0ZURJ" role="3clF45" />
-      <node concept="3Tm1VV" id="3yfWYM0ZURK" role="1B3o_S" />
-      <node concept="37vLTG" id="3yfWYM0ZURM" role="3clF46">
-        <property role="TrG5h" value="scanable" />
-        <node concept="10P_77" id="3yfWYM0ZURN" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="3yfWYM0ZURO" role="3clF47" />
+      <property role="TrG5h" value="setIssuesUpdateConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmsBQq" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmsBQr" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmsBQt" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="4ceCyFmsBQu" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setPreviousIssuesUpadetConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmsBQx" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmsBQy" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmsBQ$" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="3sEA$PIzUNK" role="jymVt" />
     <node concept="3clFb_" id="3sEA$PIzUNL" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="isValidationErrorText" />
@@ -6306,16 +6314,19 @@
     </node>
     <node concept="2tJIrI" id="1kaU3pLW$00" role="jymVt" />
     <node concept="2tJIrI" id="3yfWYM0ZYmK" role="jymVt" />
-    <node concept="3clFb_" id="3yfWYM0ZZqE" role="jymVt">
+    <node concept="3clFb_" id="4ceCyFmsF52" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setScanable" />
-      <node concept="3cqZAl" id="3yfWYM0ZZqF" role="3clF45" />
-      <node concept="3Tm1VV" id="3yfWYM0ZZqG" role="1B3o_S" />
-      <node concept="37vLTG" id="3yfWYM0ZZqI" role="3clF46">
-        <property role="TrG5h" value="scanable" />
-        <node concept="10P_77" id="3yfWYM0ZZqJ" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="3yfWYM0ZZqL" role="3clF47" />
+      <property role="TrG5h" value="setIssuesUpdateConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmsF53" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmsF54" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmsF57" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="4ceCyFmsF58" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setPreviousIssuesUpadetConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmsF5b" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmsF5c" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmsF5f" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="3yfWYM0ZXiZ" role="jymVt" />
     <node concept="3clFb_" id="1kaU3pLW$01" role="jymVt">
@@ -6390,7 +6401,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="1YFjUjHUhVH" role="1B3o_S" />
       <node concept="3uibUv" id="2H7OQEG6w0D" role="1tU5fm">
-        <ref role="3uigEE" node="4n24ZlETfv2" resolve="FX8AutoCompletePopupField" />
+        <ref role="3uigEE" node="4n24ZlETfv2" resolve="AutoCompletePopupField" />
       </node>
     </node>
     <node concept="312cEg" id="1YFjUjHUhVJ" role="jymVt">
@@ -6500,7 +6511,7 @@
           <node concept="37vLTI" id="1YFjUjHUhWr" role="3clFbG">
             <node concept="2ShNRf" id="1YFjUjHUhWs" role="37vLTx">
               <node concept="1pGfFk" id="1YFjUjHUhWt" role="2ShVmc">
-                <ref role="37wK5l" node="4n24ZlETfvl" resolve="FX8AutoCompletePopupField" />
+                <ref role="37wK5l" node="4n24ZlETfvl" resolve="AutoCompletePopupField" />
               </node>
             </node>
             <node concept="37vLTw" id="1YFjUjHUhWu" role="37vLTJ">
@@ -7195,16 +7206,99 @@
     </node>
     <node concept="2tJIrI" id="1YFjUjHUi0Q" role="jymVt" />
     <node concept="2tJIrI" id="1YFjUjHUi1y" role="jymVt" />
-    <node concept="3clFb_" id="3yfWYM102o3" role="jymVt">
+    <node concept="3clFb_" id="4ceCyFmsGB1" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setScanable" />
-      <node concept="3cqZAl" id="3yfWYM102o4" role="3clF45" />
-      <node concept="3Tm1VV" id="3yfWYM102o5" role="1B3o_S" />
-      <node concept="37vLTG" id="3yfWYM102o7" role="3clF46">
-        <property role="TrG5h" value="scanable" />
-        <node concept="10P_77" id="3yfWYM102o8" role="1tU5fm" />
+      <property role="TrG5h" value="setIssuesUpdateConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmsGB2" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmsGB3" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmsGB6" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="2KQ2inNohOw" role="jymVt" />
+    <node concept="3clFb_" id="2KQ2inNoit2" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setPreviousIssuesUpadetConclusion" />
+      <node concept="3cqZAl" id="2KQ2inNoit3" role="3clF45" />
+      <node concept="3Tm1VV" id="2KQ2inNoit4" role="1B3o_S" />
+      <node concept="3clFbS" id="2KQ2inNoit7" role="3clF47">
+        <node concept="3clFbF" id="4ceCyFmu3gQ" role="3cqZAp">
+          <node concept="2OqwBi" id="4ceCyFmu3gR" role="3clFbG">
+            <node concept="2OqwBi" id="4ceCyFmu3gS" role="2Oq$k0">
+              <node concept="37vLTw" id="4ceCyFmu3Ea" role="2Oq$k0">
+                <ref role="3cqZAo" node="1YFjUjHUhVG" resolve="autoCompleteField" />
+              </node>
+              <node concept="liA8E" id="4ceCyFmu3gU" role="2OqNvi">
+                <ref role="37wK5l" to="p18y:~Node.focusedProperty():javafx.beans.property.ReadOnlyBooleanProperty" resolve="focusedProperty" />
+              </node>
+            </node>
+            <node concept="liA8E" id="4ceCyFmu3gV" role="2OqNvi">
+              <ref role="37wK5l" to="8j64:~ObservableValue.addListener(javafx.beans.value.ChangeListener):void" resolve="addListener" />
+              <node concept="2ShNRf" id="4ceCyFmu3gW" role="37wK5m">
+                <node concept="YeOm9" id="4ceCyFmu3gX" role="2ShVmc">
+                  <node concept="1Y3b0j" id="4ceCyFmu3gY" role="YeSDq">
+                    <property role="2bfB8j" value="true" />
+                    <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                    <ref role="1Y3XeK" to="8j64:~ChangeListener" resolve="ChangeListener" />
+                    <node concept="3Tm1VV" id="4ceCyFmu3gZ" role="1B3o_S" />
+                    <node concept="3clFb_" id="4ceCyFmu3h0" role="jymVt">
+                      <property role="1EzhhJ" value="false" />
+                      <property role="TrG5h" value="changed" />
+                      <property role="DiZV1" value="false" />
+                      <property role="od$2w" value="false" />
+                      <node concept="3Tm1VV" id="4ceCyFmu3h1" role="1B3o_S" />
+                      <node concept="3cqZAl" id="4ceCyFmu3h2" role="3clF45" />
+                      <node concept="37vLTG" id="4ceCyFmu3h3" role="3clF46">
+                        <property role="TrG5h" value="p0" />
+                        <node concept="3uibUv" id="4ceCyFmu3h4" role="1tU5fm">
+                          <ref role="3uigEE" to="8j64:~ObservableValue" resolve="ObservableValue" />
+                          <node concept="3qUE_q" id="4ceCyFmu3h5" role="11_B2D">
+                            <node concept="3uibUv" id="4ceCyFmu3h6" role="3qUE_r">
+                              <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="37vLTG" id="4ceCyFmu3h7" role="3clF46">
+                        <property role="TrG5h" value="old" />
+                        <node concept="3uibUv" id="4ceCyFmu3h8" role="1tU5fm">
+                          <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                        </node>
+                      </node>
+                      <node concept="37vLTG" id="4ceCyFmu3h9" role="3clF46">
+                        <property role="TrG5h" value="newVal" />
+                        <node concept="3uibUv" id="4ceCyFmu3ha" role="1tU5fm">
+                          <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                        </node>
+                      </node>
+                      <node concept="3clFbS" id="4ceCyFmu3hb" role="3clF47">
+                        <node concept="3clFbJ" id="4ceCyFmu3hc" role="3cqZAp">
+                          <node concept="37vLTw" id="4ceCyFmu3hd" role="3clFbw">
+                            <ref role="3cqZAo" node="4ceCyFmu3h9" resolve="newVal" />
+                          </node>
+                          <node concept="3clFbS" id="4ceCyFmu3he" role="3clFbx">
+                            <node concept="3clFbF" id="2KQ2inNkZG6" role="3cqZAp">
+                              <node concept="2OqwBi" id="2KQ2inNkZJM" role="3clFbG">
+                                <node concept="37vLTw" id="2KQ2inNkZG4" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="1YFjUjHUhVM" resolve="delegate" />
+                                </node>
+                                <node concept="liA8E" id="2KQ2inNm31j" role="2OqNvi">
+                                  <ref role="37wK5l" to="5wm0:2KQ2inNl17z" resolve="focusReceived" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3uibUv" id="4ceCyFmu3hj" role="2Ghqu4">
+                      <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
-      <node concept="3clFbS" id="3yfWYM102oa" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="3yfWYM101Ar" role="jymVt" />
     <node concept="3clFb_" id="1YFjUjHUi1z" role="jymVt">
@@ -7930,16 +8024,19 @@
     </node>
     <node concept="2tJIrI" id="6Ag5kTzHvNh" role="jymVt" />
     <node concept="2tJIrI" id="3yfWYM1049_" role="jymVt" />
-    <node concept="3clFb_" id="3yfWYM104Ki" role="jymVt">
+    <node concept="3clFb_" id="4ceCyFmsLej" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setScanable" />
-      <node concept="3cqZAl" id="3yfWYM104Kj" role="3clF45" />
-      <node concept="3Tm1VV" id="3yfWYM104Kk" role="1B3o_S" />
-      <node concept="37vLTG" id="3yfWYM104Km" role="3clF46">
-        <property role="TrG5h" value="scanable" />
-        <node concept="10P_77" id="3yfWYM104Kn" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="3yfWYM104Kp" role="3clF47" />
+      <property role="TrG5h" value="setIssuesUpdateConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmsLek" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmsLel" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmsLeo" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="4ceCyFmsLep" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setPreviousIssuesUpadetConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmsLes" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmsLet" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmsLew" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="6Ag5kTzHvwV" role="jymVt" />
     <node concept="3clFb_" id="1g4weU8iy9m" role="jymVt">
@@ -8007,7 +8104,7 @@
   <node concept="312cEu" id="1l2SXGvFsul">
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
-    <property role="TrG5h" value="Fx8DateAndTimeField" />
+    <property role="TrG5h" value="FX8DateAndTimeEditor" />
     <node concept="3Tm1VV" id="1l2SXGvFsur" role="1B3o_S" />
     <node concept="312cEg" id="1l2SXGvFsux" role="jymVt">
       <property role="TrG5h" value="delegate" />
@@ -8030,14 +8127,14 @@
       <property role="TrG5h" value="dateField" />
       <node concept="3Tm6S6" id="1l2SXGvFVGG" role="1B3o_S" />
       <node concept="3uibUv" id="1l2SXGvFVJp" role="1tU5fm">
-        <ref role="3uigEE" node="2agx4jTP$zD" resolve="FX8PatternField" />
+        <ref role="3uigEE" node="2agx4jTP$zD" resolve="DatePatternField" />
       </node>
     </node>
     <node concept="312cEg" id="1l2SXGvFY6V" role="jymVt">
       <property role="TrG5h" value="timeField" />
       <node concept="3Tm6S6" id="1l2SXGvFY6W" role="1B3o_S" />
       <node concept="3uibUv" id="1l2SXGvJQUH" role="1tU5fm">
-        <ref role="3uigEE" node="2agx4jTP$zD" resolve="FX8PatternField" />
+        <ref role="3uigEE" node="2agx4jTP$zD" resolve="DatePatternField" />
       </node>
     </node>
     <node concept="312cEg" id="1l2SXGvGmxt" role="jymVt">
@@ -8081,7 +8178,7 @@
           <node concept="37vLTI" id="1l2SXGvGqb1" role="3clFbG">
             <node concept="2ShNRf" id="1l2SXGvGqh0" role="37vLTx">
               <node concept="1pGfFk" id="1l2SXGvGqfn" role="2ShVmc">
-                <ref role="37wK5l" node="2agx4jTP$zI" resolve="FX8PatternField" />
+                <ref role="37wK5l" node="2agx4jTP$zI" resolve="DatePatternField" />
               </node>
             </node>
             <node concept="37vLTw" id="1l2SXGvGq5Z" role="37vLTJ">
@@ -8093,7 +8190,7 @@
           <node concept="37vLTI" id="1l2SXGvGqrb" role="3clFbG">
             <node concept="2ShNRf" id="1l2SXGvGqxb" role="37vLTx">
               <node concept="1pGfFk" id="1l2SXGvGqub" role="2ShVmc">
-                <ref role="37wK5l" node="1l2SXGvJpA_" resolve="FX8PatternField" />
+                <ref role="37wK5l" node="1l2SXGvJpA_" resolve="DatePatternField" />
                 <node concept="Xl_RD" id="1l2SXGvJR5S" role="37wK5m">
                   <property role="Xl_RC" value="__:__" />
                 </node>
@@ -8287,7 +8384,7 @@
                                   <ref role="37wK5l" to="yp2m:~ClipboardContent.putString(java.lang.String):boolean" resolve="putString" />
                                   <node concept="2OqwBi" id="1l2SXGvNfNs" role="37wK5m">
                                     <node concept="Xjq3P" id="1l2SXGvNgrA" role="2Oq$k0">
-                                      <ref role="1HBi2w" node="1l2SXGvFsul" resolve="Fx8DateAndTimeField" />
+                                      <ref role="1HBi2w" node="1l2SXGvFsul" resolve="FX8DateAndTimeEditor" />
                                     </node>
                                     <node concept="liA8E" id="1l2SXGvNfNu" role="2OqNvi">
                                       <ref role="37wK5l" node="1l2SXGvGrUa" resolve="getText" />
@@ -8673,29 +8770,21 @@
     </node>
     <node concept="2tJIrI" id="1l2SXGvHUKh" role="jymVt" />
     <node concept="2tJIrI" id="1l2SXGvHV1N" role="jymVt" />
-    <node concept="2tJIrI" id="1l2SXGvHVpn" role="jymVt" />
-    <node concept="3clFb_" id="1l2SXGvGrUg" role="jymVt">
+    <node concept="3clFb_" id="4ceCyFmsN8T" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setScanable" />
-      <node concept="3cqZAl" id="1l2SXGvGrUh" role="3clF45" />
-      <node concept="3Tm1VV" id="1l2SXGvGrUi" role="1B3o_S" />
-      <node concept="37vLTG" id="1l2SXGvGrUk" role="3clF46">
-        <property role="TrG5h" value="scanable" />
-        <node concept="10P_77" id="1l2SXGvGrUl" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="1l2SXGvGrUn" role="3clF47">
-        <node concept="YS8fn" id="1l2SXGvGsKt" role="3cqZAp">
-          <node concept="2ShNRf" id="1l2SXGvGsLf" role="YScLw">
-            <node concept="1pGfFk" id="1l2SXGvGtdV" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="1l2SXGvGtf0" role="37wK5m">
-                <property role="Xl_RC" value="not implemented" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
+      <property role="TrG5h" value="setIssuesUpdateConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmsN8U" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmsN8V" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmsN8Y" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="4ceCyFmsN8Z" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setPreviousIssuesUpadetConclusion" />
+      <node concept="3cqZAl" id="4ceCyFmsN92" role="3clF45" />
+      <node concept="3Tm1VV" id="4ceCyFmsN93" role="1B3o_S" />
+      <node concept="3clFbS" id="4ceCyFmsN96" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1l2SXGvHVpn" role="jymVt" />
     <node concept="3clFb_" id="1l2SXGvGrUo" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="gcClear" />
@@ -9070,7 +9159,7 @@
   <node concept="312cEu" id="4n24ZlETfv2">
     <property role="1sVAO0" value="false" />
     <property role="1EXbeo" value="false" />
-    <property role="TrG5h" value="FX8AutoCompletePopupField" />
+    <property role="TrG5h" value="AutoCompletePopupField" />
     <node concept="3Tm1VV" id="4n24ZlETfv3" role="1B3o_S" />
     <node concept="3uibUv" id="4n24ZlETfv4" role="1zkMxy">
       <ref role="3uigEE" to="rb41:~TextField" resolve="TextField" />
@@ -9380,7 +9469,7 @@
                                             </node>
                                             <node concept="2OqwBi" id="4n24ZlETfwu" role="10QFUP">
                                               <node concept="Xjq3P" id="4n24ZlETfwv" role="2Oq$k0">
-                                                <ref role="1HBi2w" node="4n24ZlETfv2" resolve="FX8AutoCompletePopupField" />
+                                                <ref role="1HBi2w" node="4n24ZlETfv2" resolve="AutoCompletePopupField" />
                                               </node>
                                               <node concept="liA8E" id="4n24ZlETfww" role="2OqNvi">
                                                 <ref role="37wK5l" to="rb41:~Control.getSkin():javafx.scene.control.Skin" resolve="getSkin" />
@@ -9627,7 +9716,7 @@
                                   <node concept="3clFbF" id="7ecadVRrKgC" role="3cqZAp">
                                     <node concept="2OqwBi" id="7ecadVRrKi8" role="3clFbG">
                                       <node concept="Xjq3P" id="7ecadVRrKgB" role="2Oq$k0">
-                                        <ref role="1HBi2w" node="4n24ZlETfv2" resolve="FX8AutoCompletePopupField" />
+                                        <ref role="1HBi2w" node="4n24ZlETfv2" resolve="AutoCompletePopupField" />
                                       </node>
                                       <node concept="liA8E" id="7ecadVRrKHN" role="2OqNvi">
                                         <ref role="37wK5l" to="rb41:~TextInputControl.selectAll():void" resolve="selectAll" />
@@ -10001,7 +10090,7 @@
                               <node concept="3clFbF" id="4n24ZlETf$T" role="3cqZAp">
                                 <node concept="2OqwBi" id="4n24ZlETf$U" role="3clFbG">
                                   <node concept="Xjq3P" id="4n24ZlETf$V" role="2Oq$k0">
-                                    <ref role="1HBi2w" node="4n24ZlETfv2" resolve="FX8AutoCompletePopupField" />
+                                    <ref role="1HBi2w" node="4n24ZlETfv2" resolve="AutoCompletePopupField" />
                                   </node>
                                   <node concept="liA8E" id="4n24ZlETf$W" role="2OqNvi">
                                     <ref role="37wK5l" node="4n24ZlETfAe" resolve="setItem" />
