@@ -742,6 +742,11 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="3nLPQZPUuMl" resolve="PagePaneActionProviderLink" />
     </node>
+    <node concept="1TJgyj" id="7dYuT2d6j0t" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="childTermConceptFunc" />
+      <ref role="20lvS9" node="7dYuT2d5JDD" resolve="PageChildTermConceptFunc" />
+    </node>
     <node concept="PrWs8" id="7AldN8RXdkW" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
     </node>
@@ -4312,6 +4317,22 @@
     <node concept="PrWs8" id="6qsy3WVzxYw" role="PzmwI">
       <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7dYuT2d5JDD">
+    <property role="1pbfSe" value="9795065" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="PageChildTermConceptFunc" />
+    <property role="34LRSv" value="pageChildTerminatedFunc" />
+    <property role="R4oN_" value="child terminated while in page" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="7dYuT2d6irc">
+    <property role="1pbfSe" value="9937500" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="TermOkParameter" />
+    <property role="34LRSv" value="terminatedInFinalOk" />
+    <property role="R4oN_" value="terminated in FINAL_OK" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

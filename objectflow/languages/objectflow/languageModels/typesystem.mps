@@ -13154,5 +13154,29 @@
       <ref role="1YaFvo" to="un0u:6qsy3WVzeka" resolve="SuccessorCommandCall" />
     </node>
   </node>
+  <node concept="1YbPZF" id="7dYuT2d6iSt">
+    <property role="TrG5h" value="typeof_TermOkParameter" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <node concept="3clFbS" id="7dYuT2d6iSu" role="18ibNy">
+      <node concept="1Z5TYs" id="7dYuT2d6iV7" role="3cqZAp">
+        <node concept="mw_s8" id="7dYuT2d6iVD" role="1ZfhKB">
+          <node concept="2c44tf" id="7dYuT2d6iV_" role="mwGJk">
+            <node concept="10P_77" id="7dYuT2d6iWa" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="7dYuT2d6iVa" role="1ZfhK$">
+          <node concept="1Z2H0r" id="7dYuT2d6iSM" role="mwGJk">
+            <node concept="1YBJjd" id="7dYuT2d6iTY" role="1Z2MuG">
+              <ref role="1YBMHb" node="7dYuT2d6iSw" resolve="termOkParameter" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7dYuT2d6iSw" role="1YuTPh">
+      <property role="TrG5h" value="termOkParameter" />
+      <ref role="1YaFvo" to="un0u:7dYuT2d6irc" resolve="TermOkParameter" />
+    </node>
+  </node>
 </model>
 

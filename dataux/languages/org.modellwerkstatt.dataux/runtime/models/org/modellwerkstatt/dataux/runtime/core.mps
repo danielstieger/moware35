@@ -16067,6 +16067,40 @@
             <property role="3SKdUp" value="Update Ui if command did terminate in FINAL OK Conclusion, if externally aborted, it is not in ok anyway" />
           </node>
         </node>
+        <node concept="3clFbJ" id="7dYuT2dpJjT" role="3cqZAp">
+          <node concept="3clFbS" id="7dYuT2dpJjV" role="3clFbx">
+            <node concept="3clFbF" id="7dYuT2dpJV8" role="3cqZAp">
+              <node concept="2OqwBi" id="7dYuT2dpK5b" role="3clFbG">
+                <node concept="2OqwBi" id="7dYuT2dpJWf" role="2Oq$k0">
+                  <node concept="37vLTw" id="7dYuT2dpJV6" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4XXgpAARetX" resolve="parentCommandContainer" />
+                  </node>
+                  <node concept="2OwXpG" id="7dYuT2dpK3m" role="2OqNvi">
+                    <ref role="2Oxat5" node="7aUgYCzl1hk" resolve="command" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7dYuT2dpKiK" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:7dYuT2dhdWo" resolve="childTerminated" />
+                  <node concept="2OqwBi" id="7dYuT2dpKmU" role="37wK5m">
+                    <node concept="37vLTw" id="7dYuT2dpKlj" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                    </node>
+                    <node concept="liA8E" id="7dYuT2dpK$v" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:6dnXV8mIGtD" resolve="isTerminatedOk" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="7dYuT2dpJM1" role="3clFbw">
+            <node concept="10Nm6u" id="7dYuT2dpJTH" role="3uHU7w" />
+            <node concept="37vLTw" id="7dYuT2dpJE5" role="3uHU7B">
+              <ref role="3cqZAo" node="4XXgpAARetX" resolve="parentCommandContainer" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7dYuT2dpI99" role="3cqZAp" />
         <node concept="3clFbJ" id="5I8HAEt49jU" role="3cqZAp">
           <node concept="3clFbS" id="5I8HAEt49jV" role="3clFbx">
             <node concept="3clFbJ" id="U8r3YpXIh8" role="3cqZAp">
@@ -21514,7 +21548,7 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="commandClosed" />
       <node concept="37vLTG" id="3faLA0M353i" role="3clF46">
-        <property role="TrG5h" value="containerClosed" />
+        <property role="TrG5h" value="theContainerClosed" />
         <node concept="3uibUv" id="2o7h3aDYMFy" role="1tU5fm">
           <ref role="3uigEE" node="2o7h3aDYx43" resolve="ICommandContainer" />
         </node>
@@ -21538,7 +21572,7 @@
               <node concept="1pGfFk" id="T$VfFDOGRm" role="2ShVmc">
                 <ref role="37wK5l" node="T$VfFDOC$Z" resolve="DecoupleParentEvent" />
                 <node concept="37vLTw" id="T$VfFDOGWN" role="37wK5m">
-                  <ref role="3cqZAo" node="3faLA0M353i" resolve="containerClosed" />
+                  <ref role="3cqZAo" node="3faLA0M353i" resolve="theContainerClosed" />
                 </node>
               </node>
             </node>
@@ -21710,7 +21744,7 @@
           <node concept="1Wc70l" id="6n78R1XrEmg" role="3clFbw">
             <node concept="3clFbC" id="6n78R1XrFcq" role="3uHU7w">
               <node concept="37vLTw" id="6n78R1Xt076" role="3uHU7w">
-                <ref role="3cqZAo" node="3faLA0M353i" resolve="containerClosed" />
+                <ref role="3cqZAo" node="3faLA0M353i" resolve="theContainerClosed" />
               </node>
               <node concept="2OqwBi" id="6n78R1XrEMu" role="3uHU7B">
                 <node concept="37vLTw" id="6n78R1XrEK9" role="2Oq$k0">

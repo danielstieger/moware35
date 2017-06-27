@@ -2529,7 +2529,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1Clc7wPShHL" role="3EZMnx">
-          <property role="3F0ifm" value="set scopes for page:" />
+          <property role="3F0ifm" value="scopes/child term for page:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1Clc7wPShHM" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -2544,9 +2544,24 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="3F0ifn" id="1Csx3LqtqV$" role="3EZMnx">
+        <node concept="3F1sOY" id="7dYuT2d6juV" role="3EZMnx">
+          <ref role="1NtTu8" to="un0u:7dYuT2d6j0t" />
+          <node concept="pVoyu" id="7dYuT2d6juW" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="7dYuT2d6juX" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="7dYuT2ddZ47" role="3EZMnx">
           <property role="3F0ifm" value="" />
-          <node concept="pVoyu" id="1Csx3LqtqV_" role="3F10Kt">
+          <node concept="pVoyu" id="7dYuT2ddZ48" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="7dYuT2ddZ5S" role="3EZMnx">
+          <property role="3F0ifm" value="" />
+          <node concept="pVoyu" id="7dYuT2ddZ5T" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
@@ -2622,9 +2637,9 @@
             </node>
           </node>
         </node>
-        <node concept="3F0ifn" id="3nLPQZPUuOB" role="3EZMnx">
-          <property role="3F0ifm" value="" />
-          <node concept="pVoyu" id="3nLPQZPUuOC" role="3F10Kt">
+        <node concept="3F0ifn" id="7dYuT2d6jAM" role="3EZMnx">
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="pVoyu" id="7dYuT2d6jAN" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
