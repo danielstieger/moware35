@@ -6141,6 +6141,20 @@
       <node concept="3cqZAl" id="3972coxdHiH" role="3clF45" />
       <node concept="3Tm1VV" id="3972coxdHiI" role="1B3o_S" />
       <node concept="3clFbS" id="3972coxdHiJ" role="3clF47">
+        <node concept="3clFbF" id="5qtEEIGyVZS" role="3cqZAp">
+          <node concept="2OqwBi" id="5qtEEIGyVZP" role="3clFbG">
+            <node concept="10M0yZ" id="5qtEEIGyVZQ" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="5qtEEIGyVZR" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="5qtEEIGyWOz" role="37wK5m">
+                <property role="Xl_RC" value="RELOAD VIEWS" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3SKdUt" id="3972coxdHiX" role="3cqZAp">
           <node concept="3SKdUq" id="3972coxdHiY" role="3SKWNk">
             <property role="3SKdUp" value="simply update mainListView, pass in selection " />
@@ -16651,7 +16665,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="U8r3YpXFSV" role="3cqZAp" />
-        <node concept="3clFbH" id="6X2OBnWrqu9" role="3cqZAp" />
         <node concept="3SKdUt" id="6IYVo2hZ0V1" role="3cqZAp">
           <node concept="3SKdUq" id="6IYVo2hZ0V3" role="3SKWNk">
             <property role="3SKdUp" value="paraentCommandContainer still accessible by others while processing commandClosed() " />
@@ -18442,6 +18455,15 @@
   <node concept="312cEu" id="SQhsWRUr6_">
     <property role="TrG5h" value="CoreReporter" />
     <property role="1sVAO0" value="true" />
+    <node concept="Wx3nA" id="6PK_6HzhuaB" role="jymVt">
+      <property role="TrG5h" value="EVENT_LOGGING" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10P_77" id="6PK_6HzhtKO" role="1tU5fm" />
+      <node concept="3Tmbuc" id="6PK_6HzhuV_" role="1B3o_S" />
+      <node concept="3clFbT" id="6PK_6Hzhu3n" role="33vP2m">
+        <property role="3clFbU" value="true" />
+      </node>
+    </node>
     <node concept="312cEg" id="2ppo89mfsS6" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -18933,6 +18955,37 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="6PK_6Hzhv8Z" role="3cqZAp">
+          <node concept="3clFbS" id="6PK_6Hzhv91" role="3clFbx">
+            <node concept="3clFbF" id="6PK_6HzhvoC" role="3cqZAp">
+              <node concept="2OqwBi" id="6PK_6Hzhvo_" role="3clFbG">
+                <node concept="10M0yZ" id="6PK_6HzhvoA" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="6PK_6HzhvoB" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="6PK_6HzhvUk" role="37wK5m">
+                    <node concept="37vLTw" id="6PK_6Hzhw6I" role="3uHU7w">
+                      <ref role="3cqZAo" node="2ppo89mf7X_" resolve="msg" />
+                    </node>
+                    <node concept="3cpWs3" id="6PK_6HzhvAI" role="3uHU7B">
+                      <node concept="37vLTw" id="6PK_6HzhvwM" role="3uHU7B">
+                        <ref role="3cqZAo" node="63IPdUQIr99" resolve="diffTime" />
+                      </node>
+                      <node concept="Xl_RD" id="6PK_6HzhvBP" role="3uHU7w">
+                        <property role="Xl_RC" value=": " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="6PK_6Hzhvgh" role="3clFbw">
+            <ref role="3cqZAo" node="6PK_6HzhuaB" resolve="EVENT_LOGGING" />
+          </node>
+        </node>
         <node concept="3clFbF" id="4z69JWeWqtX" role="3cqZAp">
           <node concept="2OqwBi" id="4z69JWeWq$t" role="3clFbG">
             <node concept="37vLTw" id="4z69JWeWqtV" role="2Oq$k0">
@@ -18981,6 +19034,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6PK_6HzhuYZ" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="4z69JWeTRlD" role="jymVt" />
@@ -23391,7 +23445,7 @@
                         <node concept="3cpWs3" id="3JhXVvQ7PS2" role="3uHU7B">
                           <node concept="3cpWs3" id="3JhXVvQ7PS3" role="3uHU7B">
                             <node concept="Xl_RD" id="3JhXVvQ7PS4" role="3uHU7B">
-                              <property role="Xl_RC" value="FGE: processing '" />
+                              <property role="Xl_RC" value="FGE: EVENT SUPRESSION - processing '" />
                             </node>
                             <node concept="37vLTw" id="3JhXVvQ7PS5" role="3uHU7w">
                               <ref role="3cqZAo" node="3JhXVvQ7AMI" resolve="lastEvent" />
@@ -23442,7 +23496,16 @@
         <node concept="3clFbH" id="7TgG1qSm0$h" role="3cqZAp" />
         <node concept="2GUZhq" id="3JhXVvQ7R2j" role="3cqZAp">
           <node concept="3clFbS" id="2o7h3aE0Mos" role="2GV8ay">
-            <node concept="3clFbH" id="7TgG1qSmzb_" role="3cqZAp" />
+            <node concept="3SKdUt" id="6PK_6HyVuVJ" role="3cqZAp">
+              <node concept="3SKdUq" id="6PK_6HyVuVL" role="3SKWNk">
+                <property role="3SKdUp" value="Handle Command Termination Event first, since that could in turn lead" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="6PK_6HyVvJe" role="3cqZAp">
+              <node concept="3SKdUq" id="6PK_6HyVvJg" role="3SKWNk">
+                <property role="3SKdUp" value="to other necessary actions here. " />
+              </node>
+            </node>
             <node concept="3clFbJ" id="7TgG1qSm3Fu" role="3cqZAp">
               <node concept="3clFbS" id="7TgG1qSm3Fw" role="3clFbx">
                 <node concept="3SKdUt" id="7TgG1qSmz8t" role="3cqZAp">
@@ -23481,6 +23544,7 @@
               </node>
             </node>
             <node concept="3clFbH" id="7TgG1qSm2n3" role="3cqZAp" />
+            <node concept="3clFbH" id="6PK_6HyVrBP" role="3cqZAp" />
             <node concept="3SKdUt" id="7TgG1qSmy_k" role="3cqZAp">
               <node concept="3SKdUq" id="7TgG1qSmy_m" role="3SKWNk">
                 <property role="3SKdUp" value="main event loop." />
@@ -23490,7 +23554,7 @@
               <node concept="3clFbS" id="zBgVaD6lWg" role="3clFbx">
                 <node concept="3SKdUt" id="7TgG1qSm8Uf" role="3cqZAp">
                   <node concept="3SKdUq" id="7TgG1qSm8Uh" role="3SKWNk">
-                    <property role="3SKdUp" value="ignore " />
+                    <property role="3SKdUp" value="ignore, this event is already handled." />
                   </node>
                 </node>
                 <node concept="3clFbH" id="7TgG1qSm6bq" role="3cqZAp" />
