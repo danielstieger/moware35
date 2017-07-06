@@ -17599,6 +17599,39 @@
                             </node>
                           </node>
                           <node concept="3clFbH" id="1yQJrOWypH$" role="3cqZAp" />
+                          <node concept="1X3_iC" id="1w38SCB_skH" role="lGtFl">
+                            <property role="3V$3am" value="statement" />
+                            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                            <node concept="3clFbF" id="1w38SCB$CNj" role="8Wnug">
+                              <node concept="2OqwBi" id="1w38SCB$CNg" role="3clFbG">
+                                <node concept="10M0yZ" id="1w38SCB$CNh" role="2Oq$k0">
+                                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                                </node>
+                                <node concept="liA8E" id="1w38SCB$CNi" role="2OqNvi">
+                                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                  <node concept="3cpWs3" id="1w38SCB$DzC" role="37wK5m">
+                                    <node concept="2OqwBi" id="1w38SCB$FrT" role="3uHU7w">
+                                      <node concept="2OqwBi" id="1w38SCB$Efh" role="2Oq$k0">
+                                        <node concept="37vLTw" id="1w38SCB$DVN" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                                        </node>
+                                        <node concept="liA8E" id="1w38SCB$FbC" role="2OqNvi">
+                                          <ref role="37wK5l" to="rb41:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
+                                        </node>
+                                      </node>
+                                      <node concept="liA8E" id="1w38SCB$G3e" role="2OqNvi">
+                                        <ref role="37wK5l" to="rb41:~MultipleSelectionModelBase.getSelectedIndices():javafx.collections.ObservableList" resolve="getSelectedIndices" />
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="1w38SCB$Dig" role="3uHU7B">
+                                      <property role="Xl_RC" value="FX8TableForm getSelectedIndices() " />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
                           <node concept="1DcWWT" id="1yQJrOWyi4w" role="3cqZAp">
                             <node concept="3clFbS" id="1yQJrOWyi4y" role="2LFqv$">
                               <node concept="3SKdUt" id="938$Cs2Kyt" role="3cqZAp">
@@ -17682,6 +17715,29 @@
                             </node>
                           </node>
                           <node concept="3clFbH" id="2JhkuvESyaX" role="3cqZAp" />
+                          <node concept="1X3_iC" id="1w38SCB_rQH" role="lGtFl">
+                            <property role="3V$3am" value="statement" />
+                            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                            <node concept="3clFbF" id="1w38SCB$B51" role="8Wnug">
+                              <node concept="2OqwBi" id="1w38SCB$B4Y" role="3clFbG">
+                                <node concept="10M0yZ" id="1w38SCB$B4Z" role="2Oq$k0">
+                                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                                </node>
+                                <node concept="liA8E" id="1w38SCB$B50" role="2OqNvi">
+                                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                  <node concept="3cpWs3" id="1w38SCB$BP0" role="37wK5m">
+                                    <node concept="37vLTw" id="1w38SCB$Cdb" role="3uHU7w">
+                                      <ref role="3cqZAo" node="1e8699aCJl4" resolve="selectedItems" />
+                                    </node>
+                                    <node concept="Xl_RD" id="1w38SCB$ByP" role="3uHU7B">
+                                      <property role="Xl_RC" value="FX8TableForm Pushing selected items " />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
                           <node concept="3clFbJ" id="1e8699aCJlg" role="3cqZAp">
                             <node concept="3clFbS" id="1e8699aCJlh" role="3clFbx">
                               <node concept="3clFbF" id="1e8699aCJli" role="3cqZAp">

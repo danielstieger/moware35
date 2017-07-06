@@ -1641,7 +1641,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3972coxdGV_" role="3cqZAp" />
+        <node concept="3clFbH" id="1w38SCByRDE" role="3cqZAp" />
         <node concept="3clFbJ" id="3972coxdGVA" role="3cqZAp">
           <node concept="2OqwBi" id="3972coxdGVB" role="3clFbw">
             <node concept="2OqwBi" id="3972coxdGVC" role="2Oq$k0">
@@ -21020,6 +21020,60 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="1w38SCBy9gI" role="3cqZAp" />
+                  <node concept="3cpWs8" id="1w38SCByePs" role="3cqZAp">
+                    <node concept="3cpWsn" id="1w38SCByePv" role="3cpWs9">
+                      <property role="TrG5h" value="selecteObjects" />
+                      <node concept="_YKpA" id="1w38SCByePo" role="1tU5fm">
+                        <node concept="3uibUv" id="1w38SCBygfy" role="_ZDj9">
+                          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                        </node>
+                      </node>
+                      <node concept="2ShNRf" id="1w38SCBygEn" role="33vP2m">
+                        <node concept="Tc6Ow" id="1w38SCBygy7" role="2ShVmc">
+                          <node concept="3uibUv" id="1w38SCBygy8" role="HW$YZ">
+                            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1DcWWT" id="1w38SCBygW_" role="3cqZAp">
+                    <node concept="3clFbS" id="1w38SCBygWB" role="2LFqv$">
+                      <node concept="3clFbF" id="1w38SCByjpn" role="3cqZAp">
+                        <node concept="2OqwBi" id="1w38SCByjuN" role="3clFbG">
+                          <node concept="37vLTw" id="1w38SCByjpl" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1w38SCByePv" resolve="selecteObjects" />
+                          </node>
+                          <node concept="TSZUe" id="1w38SCByjKr" role="2OqNvi">
+                            <node concept="37vLTw" id="1w38SCByjUZ" role="25WWJ7">
+                              <ref role="3cqZAo" node="1w38SCBygWC" resolve="obj" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cpWsn" id="1w38SCBygWC" role="1Duv9x">
+                      <property role="TrG5h" value="obj" />
+                      <node concept="3uibUv" id="1w38SCByip$" role="1tU5fm">
+                        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="3nYsKhuUoyC" role="1DdaDG">
+                      <node concept="2OqwBi" id="3nYsKhuUoyD" role="2Oq$k0">
+                        <node concept="37vLTw" id="3nYsKhuUoyE" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4XXgpAAgf76" resolve="action" />
+                        </node>
+                        <node concept="liA8E" id="3nYsKhuUoyF" role="2OqNvi">
+                          <ref role="37wK5l" to="yg8v:4z7jlGKtOnQ" resolve="getSelectionForMulti" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="3nYsKhuUoyG" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:6ffh1MXuemN" resolve="getObjects" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="1w38SCByana" role="3cqZAp" />
                   <node concept="3clFbF" id="5ZV7jolbKuR" role="3cqZAp">
                     <node concept="37vLTI" id="5ZV7jolbLEv" role="3clFbG">
                       <node concept="2OqwBi" id="5ZV7jolbLbJ" role="37vLTJ">
@@ -21030,18 +21084,8 @@
                           <ref role="2Oxat5" node="5ZV7jolblM1" resolve="origSelectionObjects" />
                         </node>
                       </node>
-                      <node concept="2OqwBi" id="3nYsKhuUoyC" role="37vLTx">
-                        <node concept="2OqwBi" id="3nYsKhuUoyD" role="2Oq$k0">
-                          <node concept="37vLTw" id="3nYsKhuUoyE" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4XXgpAAgf76" resolve="action" />
-                          </node>
-                          <node concept="liA8E" id="3nYsKhuUoyF" role="2OqNvi">
-                            <ref role="37wK5l" to="yg8v:4z7jlGKtOnQ" resolve="getSelectionForMulti" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="3nYsKhuUoyG" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:6ffh1MXuemN" resolve="getObjects" />
-                        </node>
+                      <node concept="37vLTw" id="1w38SCByk7f" role="37vLTx">
+                        <ref role="3cqZAo" node="1w38SCByePv" resolve="selecteObjects" />
                       </node>
                     </node>
                   </node>
@@ -24169,7 +24213,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="6mdtRStxy2B" role="3cqZAp" />
+                  <node concept="3clFbH" id="1w38SCBzcf6" role="3cqZAp" />
                 </node>
               </node>
               <node concept="3eNFk2" id="4z69JWeW9or" role="3eNLev">
