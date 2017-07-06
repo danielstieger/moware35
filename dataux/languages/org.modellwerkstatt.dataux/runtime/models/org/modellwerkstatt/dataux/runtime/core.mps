@@ -18580,7 +18580,7 @@
     <property role="TrG5h" value="CoreReporter" />
     <property role="1sVAO0" value="true" />
     <node concept="Wx3nA" id="6PK_6HzhuaB" role="jymVt">
-      <property role="TrG5h" value="EVENT_LOGGING" />
+      <property role="TrG5h" value="DBG_LOG_EVENTS_TO_CONSOLE" />
       <property role="3TUv4t" value="true" />
       <node concept="10P_77" id="6PK_6HzhtKO" role="1tU5fm" />
       <node concept="3Tmbuc" id="6PK_6HzhuV_" role="1B3o_S" />
@@ -18732,6 +18732,33 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1w38SCBu9wL" role="3cqZAp" />
+        <node concept="3clFbJ" id="1w38SCBu9E3" role="3cqZAp">
+          <node concept="3clFbS" id="1w38SCBu9E5" role="3clFbx">
+            <node concept="YS8fn" id="1w38SCBuajy" role="3cqZAp">
+              <node concept="2ShNRf" id="1w38SCBuakP" role="YScLw">
+                <node concept="1pGfFk" id="1w38SCBucMn" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="1w38SCBucNO" role="37wK5m">
+                    <property role="Xl_RC" value="MoWare Stack is generally not set to DEV setting, but Event log to console is enabled!" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="1w38SCBu9KV" role="3clFbw">
+            <node concept="37vLTw" id="1w38SCBu9PD" role="3uHU7w">
+              <ref role="3cqZAo" node="6PK_6HzhuaB" resolve="DBG_LOG_EVENTS_TO_CONSOLE" />
+            </node>
+            <node concept="3fqX7Q" id="1w38SCBu9MT" role="3uHU7B">
+              <node concept="10M0yZ" id="1w38SCBu9MV" role="3fr31v">
+                <ref role="1PxDUh" to="ache:2zlZ_in5Vzm" resolve="DefaultTrans" />
+                <ref role="3cqZAo" to="ache:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1w38SCBu9zs" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="5YG5DD8XtN3" role="jymVt" />
@@ -19107,7 +19134,7 @@
             </node>
           </node>
           <node concept="37vLTw" id="6PK_6Hzhvgh" role="3clFbw">
-            <ref role="3cqZAo" node="6PK_6HzhuaB" resolve="EVENT_LOGGING" />
+            <ref role="3cqZAo" node="6PK_6HzhuaB" resolve="DBG_LOG_EVENTS_TO_CONSOLE" />
           </node>
         </node>
         <node concept="3clFbF" id="4z69JWeWqtX" role="3cqZAp">
