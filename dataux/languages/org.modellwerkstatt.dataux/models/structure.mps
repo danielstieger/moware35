@@ -1150,10 +1150,21 @@
       <property role="20kJfa" value="pageConclusion" />
       <ref role="20lvS9" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
     </node>
+    <node concept="1TJgyj" id="5Ld38uBuIzZ" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="forSuccessorCommand" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="un0u:6ffh1MXzHna" resolve="Command" />
+    </node>
+    <node concept="1TJgyj" id="5Ld38uC1FwG" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="forSuccessorCommandPageConclusion" />
+      <ref role="20lvS9" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
+    </node>
     <node concept="1TJgyj" id="1K7fNI_kqJZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="innerAction" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20kJfa" value="innerActions" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1K7fNI_kq$B" resolve="MenuCompoundAction" />
     </node>
   </node>

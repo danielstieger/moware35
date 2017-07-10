@@ -5961,7 +5961,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="6qsy3WVHt4p" role="13h7CS">
-      <property role="TrG5h" value="hasSuccessorCommand" />
+      <property role="TrG5h" value="hasSuccessorCommands" />
       <node concept="3Tm1VV" id="6qsy3WVHt4q" role="1B3o_S" />
       <node concept="10P_77" id="6qsy3WVHtBH" role="3clF45" />
       <node concept="3clFbS" id="6qsy3WVHt4s" role="3clF47">
