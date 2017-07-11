@@ -21001,26 +21001,13 @@
                   </node>
                   <node concept="10Nm6u" id="206uhc6Yk7U" role="3uHU7w" />
                 </node>
-                <node concept="1eOMI4" id="6oMnH9FTKID" role="3uHU7w">
-                  <node concept="22lmx$" id="6oMnH9FTLx5" role="1eOMHV">
-                    <node concept="3clFbC" id="6oMnH9FTMt4" role="3uHU7w">
-                      <node concept="Rm8GO" id="6oMnH9FTNlF" role="3uHU7w">
-                        <ref role="Rm8GQ" to="28jr:6oMnH9FQhWQ" resolve="INNER_NO_NEW_SESSION" />
-                        <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CmdExecStrategy" />
-                      </node>
-                      <node concept="37vLTw" id="6oMnH9FTLYH" role="3uHU7B">
-                        <ref role="3cqZAo" node="6oMnH9FR6IY" resolve="strategy" />
-                      </node>
-                    </node>
-                    <node concept="3clFbC" id="6oMnH9FTAvS" role="3uHU7B">
-                      <node concept="37vLTw" id="6oMnH9FTAh0" role="3uHU7B">
-                        <ref role="3cqZAo" node="6oMnH9FR6IY" resolve="strategy" />
-                      </node>
-                      <node concept="Rm8GO" id="6oMnH9FTAUA" role="3uHU7w">
-                        <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CmdExecStrategy" />
-                        <ref role="Rm8GQ" to="28jr:4z7jlGJreQ6" resolve="SINGLE" />
-                      </node>
-                    </node>
+                <node concept="3clFbC" id="6oMnH9FTAvS" role="3uHU7w">
+                  <node concept="37vLTw" id="6oMnH9FTAh0" role="3uHU7B">
+                    <ref role="3cqZAo" node="6oMnH9FR6IY" resolve="strategy" />
+                  </node>
+                  <node concept="Rm8GO" id="6oMnH9FTAUA" role="3uHU7w">
+                    <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CmdExecStrategy" />
+                    <ref role="Rm8GQ" to="28jr:4z7jlGJreQ6" resolve="SINGLE" />
                   </node>
                 </node>
               </node>
