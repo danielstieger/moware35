@@ -12241,7 +12241,7 @@
                   <node concept="2OqwBi" id="3EJ222E0nr4" role="3clFbG">
                     <node concept="30H73N" id="3EJ222E0nr5" role="2Oq$k0" />
                     <node concept="2qgKlT" id="3EJ222E0nr6" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommand" />
+                      <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommands" />
                     </node>
                   </node>
                 </node>
@@ -12265,7 +12265,7 @@
                   <node concept="2OqwBi" id="U8r3YpT6F4" role="3clFbG">
                     <node concept="30H73N" id="U8r3YpT6F5" role="2Oq$k0" />
                     <node concept="2qgKlT" id="U8r3YpT6F6" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommand" />
+                      <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommands" />
                     </node>
                   </node>
                 </node>
@@ -13380,9 +13380,31 @@
                   </node>
                 </node>
               </node>
-              <node concept="YS8fn" id="1w38SCBqEsB" role="3cqZAp">
-                <node concept="37vLTw" id="1w38SCBqEtP" role="YScLw">
-                  <ref role="3cqZAo" node="1w38SCBqu7_" resolve="ex" />
+              <node concept="3clFbJ" id="1D2xWyKqgz4" role="3cqZAp">
+                <node concept="3clFbS" id="1D2xWyKqgz5" role="3clFbx">
+                  <node concept="YS8fn" id="1D2xWyKqgz6" role="3cqZAp">
+                    <node concept="37vLTw" id="1D2xWyKqgz7" role="YScLw">
+                      <ref role="3cqZAo" node="1w38SCBqu7_" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3fqX7Q" id="1D2xWyKqgz8" role="3clFbw">
+                  <node concept="2OqwBi" id="1D2xWyKqgz9" role="3fr31v">
+                    <node concept="2OqwBi" id="1D2xWyKqgza" role="2Oq$k0">
+                      <node concept="37vLTw" id="1D2xWyKqgzb" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1w38SCBqu7_" resolve="ex" />
+                      </node>
+                      <node concept="liA8E" id="1D2xWyKqgzc" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1D2xWyKqgzd" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                      <node concept="Xl_RD" id="1D2xWyKqgze" role="37wK5m">
+                        <property role="Xl_RC" value="" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="3clFbH" id="1w38SCBqFlp" role="3cqZAp" />
@@ -15362,7 +15384,7 @@
                     <node concept="2OqwBi" id="6qsy3WVQ_Z0" role="3clFbG">
                       <node concept="30H73N" id="6qsy3WVQ_V2" role="2Oq$k0" />
                       <node concept="2qgKlT" id="6qsy3WVQABf" role="2OqNvi">
-                        <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommand" />
+                        <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommands" />
                       </node>
                     </node>
                   </node>
@@ -31024,6 +31046,21 @@
                           </node>
                         </node>
                       </node>
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="1D2xWyKrvio" role="3cqZAp">
+                    <node concept="3SKdUq" id="1D2xWyKrviq" role="3SKWNk">
+                      <property role="3SKdUp" value="TODO: THIS BEHAVIOR IS NOT CONSISTENT WITH CommandContainer runtime" />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="1D2xWyKrxhY" role="3cqZAp">
+                    <node concept="3SKdUq" id="1D2xWyKrxi0" role="3SKWNk">
+                      <property role="3SKdUp" value="-&gt; made it consistent! " />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="1D2xWyKrw3q" role="3cqZAp">
+                    <node concept="3SKdUq" id="1D2xWyKrw3s" role="3SKWNk">
+                      <property role="3SKdUp" value="since there, PageFlag is handled like a cancel ! " />
                     </node>
                   </node>
                   <node concept="3clFbF" id="6_VKg6ls$en" role="3cqZAp">

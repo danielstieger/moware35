@@ -4761,7 +4761,7 @@
       <node concept="3cqZAl" id="2KQ2inNl17_" role="3clF45" />
       <node concept="3Tm1VV" id="2KQ2inNl17A" role="1B3o_S" />
       <node concept="3clFbS" id="2KQ2inNl17B" role="3clF47">
-        <node concept="1X3_iC" id="3puWk9zNwEA" role="lGtFl">
+        <node concept="1X3_iC" id="2BIziIxJ9wA" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3clFbF" id="3puWk9zKG18" role="8Wnug">
@@ -4772,26 +4772,32 @@
               </node>
               <node concept="liA8E" id="3puWk9zKG17" role="2OqNvi">
                 <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="Xl_RD" id="3puWk9zKG3I" role="37wK5m">
-                  <property role="Xl_RC" value="Focus set -&gt; issueUpateConclusion()" />
+                <node concept="3cpWs3" id="39T4LQUA6CF" role="37wK5m">
+                  <node concept="37vLTw" id="39T4LQUA6R6" role="3uHU7w">
+                    <ref role="3cqZAo" node="3puWk9zQ0bZ" resolve="newVal" />
+                  </node>
+                  <node concept="3cpWs3" id="39T4LQUA6fM" role="3uHU7B">
+                    <node concept="3cpWs3" id="6XlAUcpHXtB" role="3uHU7B">
+                      <node concept="Xl_RD" id="3puWk9zKG3I" role="3uHU7B">
+                        <property role="Xl_RC" value="Delegate.focusChanged() @ " />
+                      </node>
+                      <node concept="2OqwBi" id="6XlAUcpHXyK" role="3uHU7w">
+                        <node concept="Xjq3P" id="6XlAUcpHXvV" role="2Oq$k0" />
+                        <node concept="2OwXpG" id="6XlAUcpHXAD" role="2OqNvi">
+                          <ref role="2Oxat5" node="5Y1b9tQYCst" resolve="propertyName" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="39T4LQUA6nA" role="3uHU7w">
+                      <property role="Xl_RC" value=" to " />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="3puWk9zQ7a5" role="3cqZAp">
-          <node concept="3SKdUq" id="3puWk9zQ7a7" role="3SKWNk">
-            <property role="3SKdUp" value="clear or set focus, i.e. going forward or backwards with tab" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="2KQ2inNlZ30" role="3cqZAp">
-          <node concept="1rXfSq" id="2KQ2inNlZ2Y" role="3clFbG">
-            <ref role="37wK5l" node="5Y1b9tRdXPT" resolve="setRequestFocus" />
-            <node concept="37vLTw" id="3puWk9zQ2my" role="37wK5m">
-              <ref role="3cqZAo" node="3puWk9zQ0bZ" resolve="newVal" />
-            </node>
-          </node>
-        </node>
+        <node concept="3clFbH" id="6XlAUcpHlho" role="3cqZAp" />
         <node concept="3clFbJ" id="2KQ2inNrB$M" role="3cqZAp">
           <node concept="3clFbS" id="2KQ2inNrB$O" role="3clFbx">
             <node concept="3SKdUt" id="2KQ2inNrBHS" role="3cqZAp">
@@ -4806,6 +4812,7 @@
                 </node>
                 <node concept="liA8E" id="2KQ2inNlYZX" role="2OqNvi">
                   <ref role="37wK5l" to="1e0c:7P$uL5PlkPD" resolve="issueUpdateConclusion" />
+                  <node concept="Xjq3P" id="39T4LQUtJHy" role="37wK5m" />
                 </node>
               </node>
             </node>
@@ -4940,6 +4947,9 @@
       <node concept="16syzq" id="52pTiJH2N1x" role="11_B2D">
         <ref role="16sUi3" node="5Y1b9tQYkEs" resolve="T" />
       </node>
+    </node>
+    <node concept="3uibUv" id="39T4LQUyJSt" role="EKbjA">
+      <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
     </node>
   </node>
   <node concept="312cEu" id="5Y1b9tR2t4q">

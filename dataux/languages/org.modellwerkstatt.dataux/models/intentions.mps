@@ -406,5 +406,22 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="39T4LQU_OEi">
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="AutoCompleteSuccessor" />
+    <ref role="2ZfgGC" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
+    <node concept="2S6ZIM" id="39T4LQU_OEj" role="2ZfVej">
+      <node concept="3clFbS" id="39T4LQU_OEk" role="2VODD2">
+        <node concept="3clFbF" id="39T4LQU_OGq" role="3cqZAp">
+          <node concept="Xl_RD" id="39T4LQU_OGp" role="3clFbG">
+            <property role="Xl_RC" value="AutoComplete completion :)" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="39T4LQU_OEl" role="2ZfgGD">
+      <node concept="3clFbS" id="39T4LQU_OEm" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

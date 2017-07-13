@@ -2598,6 +2598,12 @@
     <node concept="3clFb_" id="7P$uL5PmjB2" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="issueUpdateConclusion" />
+      <node concept="37vLTG" id="39T4LQUt_Dl" role="3clF46">
+        <property role="TrG5h" value="newFocusHolder" />
+        <node concept="3uibUv" id="39T4LQUyEBe" role="1tU5fm">
+          <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="7P$uL5PmjB3" role="3clF45" />
       <node concept="3Tm1VV" id="7P$uL5PmjB4" role="1B3o_S" />
       <node concept="3clFbS" id="7P$uL5PmjB6" role="3clF47">
@@ -2608,6 +2614,9 @@
             </node>
             <node concept="liA8E" id="7P$uL5Pmm1$" role="2OqNvi">
               <ref role="37wK5l" node="7P$uL5PlkPD" resolve="issueUpdateConclusion" />
+              <node concept="37vLTw" id="39T4LQUtBQA" role="37wK5m">
+                <ref role="3cqZAo" node="39T4LQUt_Dl" resolve="newFocusHolder" />
+              </node>
             </node>
           </node>
         </node>
@@ -6029,6 +6038,12 @@
     <node concept="3clFb_" id="7P$uL5PmqUx" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="issueUpdateConclusion" />
+      <node concept="37vLTG" id="39T4LQUtEPE" role="3clF46">
+        <property role="TrG5h" value="newFocusHolder" />
+        <node concept="3uibUv" id="39T4LQUyHoM" role="1tU5fm">
+          <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="7P$uL5PmqUy" role="3clF45" />
       <node concept="3Tm1VV" id="7P$uL5PmqUz" role="1B3o_S" />
       <node concept="3clFbS" id="7P$uL5PmqUD" role="3clF47">
@@ -7853,6 +7868,12 @@
             <node concept="3clFb_" id="7P$uL5PpKt8" role="jymVt">
               <property role="1EzhhJ" value="false" />
               <property role="TrG5h" value="issueUpdateConclusion" />
+              <node concept="37vLTG" id="39T4LQUtyjf" role="3clF46">
+                <property role="TrG5h" value="newFocusHolder" />
+                <node concept="3uibUv" id="39T4LQUyC30" role="1tU5fm">
+                  <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+                </node>
+              </node>
               <node concept="3cqZAl" id="7P$uL5PpKt9" role="3clF45" />
               <node concept="3Tm1VV" id="7P$uL5PpKta" role="1B3o_S" />
               <node concept="3clFbS" id="7P$uL5PpKtd" role="3clF47">
@@ -28743,9 +28764,39 @@
     <node concept="3clFb_" id="7P$uL5PlkPD" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="issueUpdateConclusion" />
+      <node concept="37vLTG" id="6XlAUcpLkhq" role="3clF46">
+        <property role="TrG5h" value="newFocusHolder" />
+        <node concept="3uibUv" id="39T4LQUxPPQ" role="1tU5fm">
+          <ref role="3uigEE" node="39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="7P$uL5PlkPF" role="3clF45" />
       <node concept="3Tm1VV" id="7P$uL5PlkPG" role="1B3o_S" />
       <node concept="3clFbS" id="7P$uL5PlkPH" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="39T4LQUxL_e" role="jymVt" />
+    <node concept="3HP615" id="39T4LQUxLAj" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="IFocusReceiver" />
+      <node concept="3clFb_" id="39T4LQUxP0o" role="jymVt">
+        <property role="1EzhhJ" value="true" />
+        <property role="TrG5h" value="isEnabled" />
+        <node concept="10P_77" id="39T4LQUxP4t" role="3clF45" />
+        <node concept="3Tm1VV" id="39T4LQUxP0r" role="1B3o_S" />
+        <node concept="3clFbS" id="39T4LQUxP0s" role="3clF47" />
+      </node>
+      <node concept="3clFb_" id="39T4LQUxPbo" role="jymVt">
+        <property role="1EzhhJ" value="true" />
+        <property role="TrG5h" value="setRequestFocus" />
+        <node concept="37vLTG" id="39T4LQUxPMw" role="3clF46">
+          <property role="TrG5h" value="setOrClear" />
+          <node concept="10P_77" id="39T4LQUxPND" role="1tU5fm" />
+        </node>
+        <node concept="3cqZAl" id="39T4LQUxPbq" role="3clF45" />
+        <node concept="3Tm1VV" id="39T4LQUxPbr" role="1B3o_S" />
+        <node concept="3clFbS" id="39T4LQUxPbs" role="3clF47" />
+      </node>
+      <node concept="3Tm1VV" id="39T4LQUxLAk" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="7P$uL5PrtJB" role="1B3o_S" />
   </node>

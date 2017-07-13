@@ -18,6 +18,7 @@
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -72,6 +73,9 @@
       </concept>
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -137,6 +141,9 @@
       <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
+      </concept>
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
@@ -4233,6 +4240,7 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbH" id="1D2xWyKpnyr" role="3cqZAp" />
           <node concept="10Adxh" id="7pudXbEHztK" role="3cqZAp">
             <node concept="Xl_RD" id="7pudXbEHztL" role="10Adiu">
               <property role="Xl_RC" value="Cancel in Page Init" />
@@ -4560,6 +4568,39 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1D2xWyKp_Wl" role="3cqZAp" />
+        <node concept="3clFbF" id="1D2xWyKpn$$" role="3cqZAp">
+          <node concept="2OqwBi" id="1D2xWyKpn$x" role="3clFbG">
+            <node concept="10M0yZ" id="1D2xWyKpn$y" role="2Oq$k0">
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+            </node>
+            <node concept="liA8E" id="1D2xWyKpn$z" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="1D2xWyKpnHn" role="37wK5m">
+                <node concept="1eOMI4" id="1D2xWyKpnJ3" role="3uHU7w">
+                  <node concept="3clFbC" id="1D2xWyKpnK4" role="1eOMHV">
+                    <node concept="Rm8GO" id="1D2xWyKp_TL" role="3uHU7w">
+                      <ref role="Rm8GQ" node="6_VKg6llN7W" resolve="FLAG_IN_COMMANDINIT" />
+                      <ref role="1Px2BO" node="7pudXbEHue3" resolve="CMDS_CRTL" />
+                    </node>
+                    <node concept="2OqwBi" id="1D2xWyKpnK6" role="3uHU7B">
+                      <node concept="3urNQE" id="1D2xWyKpnK7" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7pudXbEHzLj" resolve="info" />
+                      </node>
+                      <node concept="2OwXpG" id="1D2xWyKpnK8" role="2OqNvi">
+                        <ref role="2Oxat5" node="7pudXbEJWPj" resolve="crtl" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="1D2xWyKpn_T" role="3uHU7B">
+                  <property role="Xl_RC" value="Flag in innit? " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="10Adit" id="6_VKg6llNzP" role="3cqZAp">
           <node concept="Xl_RD" id="6_VKg6llNA1" role="10Adiu">
             <property role="Xl_RC" value="Flag in command init" />
@@ -4684,7 +4725,20 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7pudXbEH$gw" role="3cqZAp" />
+        <node concept="3clFbF" id="1D2xWyKpnjR" role="3cqZAp">
+          <node concept="2OqwBi" id="1D2xWyKpnjO" role="3clFbG">
+            <node concept="10M0yZ" id="1D2xWyKpnjP" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="1D2xWyKpnjQ" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="1D2xWyKpnkB" role="37wK5m">
+                <property role="Xl_RC" value="Exec final cancel" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="7pudXbEHykZ" role="3cqZAp">
           <node concept="3clFbC" id="7pudXbEHyl0" role="3clFbw">
             <node concept="Rm8GO" id="7pudXbEHymW" role="3uHU7w">
@@ -4723,6 +4777,20 @@
               </node>
               <node concept="2OwXpG" id="7pudXbEH$ja" role="2OqNvi">
                 <ref role="2Oxat5" node="7pudXbEHz_p" resolve="wizPassedFinalException" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1D2xWyKpnqU" role="3cqZAp">
+          <node concept="2OqwBi" id="1D2xWyKpnqV" role="3clFbG">
+            <node concept="10M0yZ" id="1D2xWyKpnqW" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="1D2xWyKpnqX" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="1D2xWyKpnqY" role="37wK5m">
+                <property role="Xl_RC" value="Exec final ex" />
               </node>
             </node>
           </node>
@@ -5178,6 +5246,30 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="1D2xWyKpVgv" role="jymVt">
+      <property role="TrG5h" value="wiz_finalOFxPageEx_In_Cancel" />
+      <node concept="10P_77" id="1D2xWyKpVgw" role="3clF45" />
+      <node concept="3Tm1VV" id="1D2xWyKpVgx" role="1B3o_S" />
+      <node concept="3clFbS" id="1D2xWyKpVgy" role="3clF47">
+        <node concept="3clFbF" id="1D2xWyKpVgz" role="3cqZAp">
+          <node concept="1Wc70l" id="1D2xWyKpVg$" role="3clFbG">
+            <node concept="37vLTw" id="1D2xWyKpVgA" role="3uHU7w">
+              <ref role="3cqZAo" node="7pudXbEHz$p" resolve="wizPassedFinalCancel" />
+            </node>
+            <node concept="1Wc70l" id="1D2xWyKpVgB" role="3uHU7B">
+              <node concept="3fqX7Q" id="1D2xWyKpVgC" role="3uHU7B">
+                <node concept="37vLTw" id="1D2xWyKpVgD" role="3fr31v">
+                  <ref role="3cqZAo" node="7pudXbEHzzv" resolve="wizPassedFinalOk" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="1D2xWyKpVgE" role="3uHU7w">
+                <ref role="3cqZAo" node="7pudXbEHz_p" resolve="wizPassedFinalException" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="6_VKg6lu3OQ" role="jymVt" />
     <node concept="3clFb_" id="6_VKg6lu3zF" role="jymVt">
       <property role="TrG5h" value="go_finalOK_noError" />
@@ -5270,10 +5362,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6_VKg6lu2$c" role="jymVt" />
-    <node concept="2tJIrI" id="6_VKg6lu2La" role="jymVt" />
-    <node concept="2tJIrI" id="6_VKg6lu2Wa" role="jymVt" />
-    <node concept="2tJIrI" id="6_VKg6lu39a" role="jymVt" />
-    <node concept="2tJIrI" id="6_VKg6lu3mb" role="jymVt" />
     <node concept="3clFb_" id="6_VKg6lgzUe" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="page2_Passed" />
@@ -7519,13 +7607,32 @@
       </node>
       <node concept="3cqZAl" id="6_VKg6lvd7x" role="3clF45" />
       <node concept="3clFbS" id="6_VKg6lvcWh" role="3clF47">
+        <node concept="3clFbF" id="1D2xWyKmxV7" role="3cqZAp">
+          <node concept="2OqwBi" id="1D2xWyKmxV4" role="3clFbG">
+            <node concept="10M0yZ" id="1D2xWyKmxV5" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="1D2xWyKmxV6" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="1D2xWyKmy1W" role="37wK5m">
+                <node concept="3zkua3" id="1D2xWyKmy3b" role="3uHU7w">
+                  <ref role="3zku8S" node="6_VKg6lvd9Y" resolve="info" />
+                </node>
+                <node concept="Xl_RD" id="1D2xWyKmxW$" role="3uHU7B">
+                  <property role="Xl_RC" value="INFO: " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="1gVbGN" id="6_VKg6lvdIi" role="3cqZAp">
           <node concept="2OqwBi" id="6_VKg6lvdTV" role="1gVkn0">
             <node concept="3zkua3" id="6_VKg6lvdO5" role="2Oq$k0">
               <ref role="3zku8S" node="6_VKg6lvd9Y" resolve="info" />
             </node>
             <node concept="liA8E" id="6_VKg6lve14" role="2OqNvi">
-              <ref role="37wK5l" node="6_VKg6lgzpL" resolve="wiz_finalEX_Error" />
+              <ref role="37wK5l" node="1D2xWyKpVgv" resolve="wiz_finalOFxPageEx_In_Cancel" />
             </node>
           </node>
         </node>
