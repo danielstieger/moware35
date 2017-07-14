@@ -3870,7 +3870,7 @@
                           </node>
                         </node>
                         <node concept="2qgKlT" id="6qsy3WVHzUB" role="2OqNvi">
-                          <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommand" />
+                          <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommands" />
                         </node>
                       </node>
                       <node concept="3clFbS" id="6qsy3WVHp42" role="3clFbx">
@@ -3968,7 +3968,7 @@
             <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
           </node>
           <node concept="2qgKlT" id="6qsy3WVKBdO" role="2OqNvi">
-            <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommand" />
+            <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommands" />
           </node>
         </node>
       </node>
@@ -6716,7 +6716,7 @@
           </node>
         </node>
       </node>
-      <node concept="3clFbH" id="5poQsKnRQW5" role="3cqZAp" />
+      <node concept="3clFbH" id="6vtMBTnncKa" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="75R75qdnAJK" role="1YuTPh">
       <property role="TrG5h" value="oc" />

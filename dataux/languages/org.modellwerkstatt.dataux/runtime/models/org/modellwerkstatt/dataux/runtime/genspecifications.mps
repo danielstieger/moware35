@@ -162,6 +162,9 @@
         <child id="1079359253376" name="expression" index="1eOMHV" />
       </concept>
       <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -1098,7 +1101,20 @@
             <property role="3SKdUp" value="any options left?" />
           </node>
         </node>
-        <node concept="3clFbH" id="4uSs_3qZWUX" role="3cqZAp" />
+        <node concept="3clFbJ" id="WY_0Ahgyd4" role="3cqZAp">
+          <node concept="3clFbS" id="WY_0Ahgyd6" role="3clFbx">
+            <node concept="3cpWs6" id="WY_0AhgzrZ" role="3cqZAp">
+              <node concept="3clFbT" id="WY_0Ahgzsu" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="WY_0Ahgzii" role="3clFbw">
+            <node concept="1rXfSq" id="WY_0Ahgzik" role="3fr31v">
+              <ref role="37wK5l" node="WY_0Ahf18c" resolve="canPotentiallyExecWhenMultiSelection" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="206uhc7mjtc" role="3cqZAp">
           <node concept="3cpWsn" id="206uhc7mjtf" role="3cpWs9">
             <property role="TrG5h" value="params" />
@@ -1820,6 +1836,13 @@
       <node concept="10P_77" id="3kFdJs1yPr" role="3clF45" />
       <node concept="3Tm1VV" id="3kFdJs1yPs" role="1B3o_S" />
       <node concept="3clFbS" id="3kFdJs1yPt" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="WY_0Ahf18c" role="jymVt">
+      <property role="TrG5h" value="canPotentiallyExecWhenMultiSelection" />
+      <property role="1EzhhJ" value="true" />
+      <node concept="10P_77" id="WY_0Ahf18d" role="3clF45" />
+      <node concept="3Tm1VV" id="WY_0Ahf18e" role="1B3o_S" />
+      <node concept="3clFbS" id="WY_0Ahf18f" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="4uSs_3qZYO_" role="jymVt" />
     <node concept="3clFb_" id="4vr6dCElabG" role="jymVt">

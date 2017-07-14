@@ -2437,7 +2437,7 @@
               <node concept="2OqwBi" id="50l$rcpKeJk" role="3clFbG">
                 <node concept="pncrf" id="50l$rcpKeE4" role="2Oq$k0" />
                 <node concept="2qgKlT" id="50l$rcpKeWC" role="2OqNvi">
-                  <ref role="37wK5l" to="5y3p:50l$rcpKbIz" resolve="isBaseCommand" />
+                  <ref role="37wK5l" to="5y3p:50l$rcpKbIz" resolve="isBaseAction" />
                 </node>
               </node>
             </node>
@@ -2458,6 +2458,10 @@
           <node concept="VPM3Z" id="5Ld38uC1FJ9" role="3F10Kt">
             <property role="VOm3f" value="false" />
           </node>
+          <node concept="3F0ifn" id="WY_0Ahbxi9" role="3EZMnx">
+            <property role="3F0ifm" value="[" />
+            <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
+          </node>
           <node concept="1iCGBv" id="5Ld38uBuMEg" role="3EZMnx">
             <property role="1$x2rV" value="&lt;suc&gt;" />
             <ref role="1NtTu8" to="1btx:5Ld38uBuIzZ" />
@@ -2470,7 +2474,8 @@
             </node>
           </node>
           <node concept="3F0ifn" id="5Ld38uC1FEj" role="3EZMnx">
-            <property role="3F0ifm" value=":" />
+            <property role="3F0ifm" value="-&gt;" />
+            <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
             <node concept="11L4FC" id="5Ld38uC63m0" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -2489,7 +2494,8 @@
             </node>
           </node>
           <node concept="3F0ifn" id="5Ld38uBAQgY" role="3EZMnx">
-            <property role="3F0ifm" value="-&gt;" />
+            <property role="3F0ifm" value="]" />
+            <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
           </node>
           <node concept="l2Vlx" id="5Ld38uC1FJc" role="2iSdaV" />
           <node concept="pkWqt" id="5Ld38uC4IyO" role="pqm2j">
@@ -2625,7 +2631,7 @@
                 <node concept="2OqwBi" id="2N_nDunOVWO" role="3uHU7B">
                   <node concept="pncrf" id="2N_nDunOVR$" role="2Oq$k0" />
                   <node concept="2qgKlT" id="5Ld38uBqomq" role="2OqNvi">
-                    <ref role="37wK5l" to="5y3p:50l$rcpKbIz" resolve="isBaseCommand" />
+                    <ref role="37wK5l" to="5y3p:50l$rcpKbIz" resolve="isBaseAction" />
                   </node>
                 </node>
               </node>

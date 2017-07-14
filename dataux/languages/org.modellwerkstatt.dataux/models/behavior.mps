@@ -4694,7 +4694,7 @@
     <property role="3GE5qa" value="internalInfra" />
     <ref role="13h7C2" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
     <node concept="13i0hz" id="50l$rcpKbIz" role="13h7CS">
-      <property role="TrG5h" value="isBaseCommand" />
+      <property role="TrG5h" value="isBaseAction" />
       <node concept="3Tm1VV" id="50l$rcpKbI$" role="1B3o_S" />
       <node concept="10P_77" id="50l$rcpKbIM" role="3clF45" />
       <node concept="3clFbS" id="50l$rcpKbIA" role="3clF47">
@@ -4795,7 +4795,7 @@
             </node>
             <node concept="3fqX7Q" id="5Ld38uC3uZL" role="3uHU7B">
               <node concept="BsUDl" id="5Ld38uC3v01" role="3fr31v">
-                <ref role="37wK5l" node="50l$rcpKbIz" resolve="isBaseCommand" />
+                <ref role="37wK5l" node="50l$rcpKbIz" resolve="isBaseAction" />
               </node>
             </node>
           </node>
@@ -4810,6 +4810,42 @@
         <node concept="3clFbF" id="5Ld38uC3wv4" role="3cqZAp">
           <node concept="3clFbT" id="5Ld38uC3wv3" role="3clFbG">
             <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="WY_0AhbQuZ" role="13h7CS">
+      <property role="TrG5h" value="needsSuccessorSepcifications" />
+      <node concept="3Tm1VV" id="WY_0AhbQv0" role="1B3o_S" />
+      <node concept="10P_77" id="WY_0AhbQGB" role="3clF45" />
+      <node concept="3clFbS" id="WY_0AhbQv2" role="3clF47">
+        <node concept="3clFbF" id="WY_0AhbQHE" role="3cqZAp">
+          <node concept="1Wc70l" id="WY_0AhbQJE" role="3clFbG">
+            <node concept="2OqwBi" id="WY_0AhbRll" role="3uHU7w">
+              <node concept="2OqwBi" id="WY_0AhbQP4" role="2Oq$k0">
+                <node concept="13iPFW" id="WY_0AhbQKi" role="2Oq$k0" />
+                <node concept="3TrEf2" id="WY_0AhbR8A" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                </node>
+              </node>
+              <node concept="2qgKlT" id="WY_0AhbRua" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommands" />
+              </node>
+            </node>
+            <node concept="1Wc70l" id="WY_0AhbRyY" role="3uHU7B">
+              <node concept="2OqwBi" id="WY_0AhbSe7" role="3uHU7w">
+                <node concept="2OqwBi" id="WY_0AhbRFk" role="2Oq$k0">
+                  <node concept="13iPFW" id="WY_0AhbRAd" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="WY_0AhbS13" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="WY_0AhbSuD" role="2OqNvi" />
+              </node>
+              <node concept="BsUDl" id="WY_0AhbQHD" role="3uHU7B">
+                <ref role="37wK5l" node="50l$rcpKbIz" resolve="isBaseAction" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
