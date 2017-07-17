@@ -8070,8 +8070,24 @@
         </node>
         <node concept="3clFbF" id="3sEA$PIvGZj" role="3cqZAp">
           <node concept="37vLTI" id="3sEA$PIvH4D" role="3clFbG">
-            <node concept="37vLTw" id="3sEA$PIvH5T" role="37vLTx">
-              <ref role="3cqZAo" node="3sEA$PIu0Yi" resolve="frmt" />
+            <node concept="2OqwBi" id="5os6byqz0dG" role="37vLTx">
+              <node concept="2OqwBi" id="5os6byqyZUO" role="2Oq$k0">
+                <node concept="37vLTw" id="3sEA$PIvH5T" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3sEA$PIu0Yi" resolve="frmt" />
+                </node>
+                <node concept="liA8E" id="5os6byqz0bs" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                </node>
+              </node>
+              <node concept="liA8E" id="5os6byqz0t7" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                <node concept="Xl_RD" id="5os6byqz0vj" role="37wK5m">
+                  <property role="Xl_RC" value="no0" />
+                </node>
+                <node concept="Xl_RD" id="5os6byqz0Gg" role="37wK5m">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
             </node>
             <node concept="37vLTw" id="3sEA$PIvGZh" role="37vLTJ">
               <ref role="3cqZAo" node="3sEA$PIvyhm" resolve="formatString" />
@@ -8083,8 +8099,8 @@
             <node concept="2ShNRf" id="3sEA$PIu2o2" role="37vLTx">
               <node concept="1pGfFk" id="3sEA$PIu2o1" role="2ShVmc">
                 <ref role="37wK5l" to="25x5:~DecimalFormat.&lt;init&gt;(java.lang.String)" resolve="DecimalFormat" />
-                <node concept="37vLTw" id="3sEA$PIu2oP" role="37wK5m">
-                  <ref role="3cqZAo" node="3sEA$PIu0Yi" resolve="frmt" />
+                <node concept="37vLTw" id="5os6byq_uw9" role="37wK5m">
+                  <ref role="3cqZAo" node="3sEA$PIvyhm" resolve="formatString" />
                 </node>
               </node>
             </node>
