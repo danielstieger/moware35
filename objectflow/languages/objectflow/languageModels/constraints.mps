@@ -2198,6 +2198,9 @@
                   <node concept="3gn64h" id="7VvoHcMmcIp" role="3gmYPZ">
                     <ref role="3gnhBz" to="un0u:5Ee0EjqTaDb" resolve="PageInitConceptFunc" />
                   </node>
+                  <node concept="3gn64h" id="77KX0PDydJn" role="3gmYPZ">
+                    <ref role="3gnhBz" to="un0u:7dYuT2d5JDD" resolve="PageChildTermConceptFunc" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -2593,6 +2596,9 @@
                   </node>
                   <node concept="3gn64h" id="7VvoHcMpgir" role="3gmYPZ">
                     <ref role="3gnhBz" to="un0u:5Ee0EjqTaDb" resolve="PageInitConceptFunc" />
+                  </node>
+                  <node concept="3gn64h" id="77KX0PDxTLD" role="3gmYPZ">
+                    <ref role="3gnhBz" to="un0u:7dYuT2d5JDD" resolve="PageChildTermConceptFunc" />
                   </node>
                 </node>
               </node>
@@ -4464,7 +4470,7 @@
             <node concept="otxO1" id="6qsy3WVGmKt" role="2Oq$k0" />
             <node concept="2Zo12i" id="6qsy3WVGmTd" role="2OqNvi">
               <node concept="chp4Y" id="6qsy3WVGmW5" role="2Zo12j">
-                <ref role="cht4Q" to="un0u:6qsy3WVzeka" resolve="FollowingCommand" />
+                <ref role="cht4Q" to="un0u:6qsy3WVzeka" resolve="SuccessorCommandCall" />
               </node>
             </node>
           </node>
