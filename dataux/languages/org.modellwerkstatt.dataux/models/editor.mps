@@ -1869,6 +1869,10 @@
         <property role="1$x2rV" value="&lt;overflow&gt;" />
         <ref role="1NtTu8" to="1btx:3nLPQZQ82kr" />
       </node>
+      <node concept="3F0ifn" id="2Gn_LTGo62J" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+        <ref role="1k5W1q" node="1xbJ1snI9Dt" resolve="UXMenu" />
+      </node>
       <node concept="PMmxH" id="MP9H4jxzVJ" role="3EZMnx">
         <ref role="PMmxG" node="1xbJ1snAn6A" resolve="MenuEditor" />
         <node concept="pVoyu" id="MP9H4jyVxl" role="3F10Kt">

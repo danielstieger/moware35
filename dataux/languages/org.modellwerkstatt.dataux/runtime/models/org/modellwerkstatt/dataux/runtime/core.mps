@@ -6871,6 +6871,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="2Gn_LTGjs6d" role="jymVt" />
     <node concept="3clFb_" id="27BPRG5J5fN" role="jymVt">
       <property role="TrG5h" value="onGlobalKeyPressEvent" />
       <node concept="37vLTG" id="27BPRG5JhVf" role="3clF46">
@@ -11329,6 +11330,11 @@
       <node concept="3Tmbuc" id="5GImeV7bxnd" role="1B3o_S" />
       <node concept="10P_77" id="5GImeV7bxne" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="2Gn_LTGjzUd" role="jymVt">
+      <property role="TrG5h" value="dipatchingGlobalHotkey" />
+      <node concept="3Tmbuc" id="2Gn_LTGjzUe" role="1B3o_S" />
+      <node concept="10P_77" id="2Gn_LTGjzUf" role="1tU5fm" />
+    </node>
     <node concept="312cEg" id="6X2OBnWt4JI" role="jymVt">
       <property role="TrG5h" value="parentCommandContainer" />
       <node concept="3Tmbuc" id="6X2OBnWt8hq" role="1B3o_S" />
@@ -11591,7 +11597,17 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5GImeV7bEPM" role="3cqZAp" />
+        <node concept="3clFbF" id="2Gn_LTGjCiK" role="3cqZAp">
+          <node concept="37vLTI" id="2Gn_LTGjCte" role="3clFbG">
+            <node concept="3clFbT" id="2Gn_LTGjCuc" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="2Gn_LTGjCiI" role="37vLTJ">
+              <ref role="3cqZAo" node="2Gn_LTGjzUd" resolve="dipatchingGlobalHotkey" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2Gn_LTGjCcP" role="3cqZAp" />
         <node concept="3clFbF" id="6bl3$WOX5V8" role="3cqZAp">
           <node concept="37vLTI" id="6bl3$WOX602" role="3clFbG">
             <node concept="3clFbT" id="3EJ222E3tZs" role="37vLTx">
@@ -11662,7 +11678,7 @@
           <ref role="3uigEE" node="zBgVaD67tn" resolve="KeyEvent" />
         </node>
       </node>
-      <node concept="3uibUv" id="2o7h3aEndAT" role="3clF45">
+      <node concept="3uibUv" id="2Gn_LTGjkBv" role="3clF45">
         <ref role="3uigEE" node="zBgVaD671z" resolve="IEvent" />
       </node>
       <node concept="3Tmbuc" id="zBgVaD9jjd" role="1B3o_S" />
@@ -11887,6 +11903,23 @@
                   <ref role="3cqZAo" node="4mX9Xggw2_w" resolve="currentConclusionInfos" />
                 </node>
               </node>
+              <node concept="3clFbH" id="5GImeV7lmH2" role="3cqZAp" />
+              <node concept="3clFbH" id="5GImeV7lrxo" role="3cqZAp" />
+              <node concept="3SKdUt" id="5GImeV7luPl" role="3cqZAp">
+                <node concept="3SKdUq" id="5GImeV7luPn" role="3SKWNk">
+                  <property role="3SKdUp" value="forward it, .. we do not expect any events, " />
+                </node>
+              </node>
+              <node concept="3clFbF" id="2Gn_LTGjFS9" role="3cqZAp">
+                <node concept="37vLTI" id="2Gn_LTGjITM" role="3clFbG">
+                  <node concept="3clFbT" id="2Gn_LTGjIUT" role="37vLTx">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                  <node concept="37vLTw" id="2Gn_LTGjFS7" role="37vLTJ">
+                    <ref role="3cqZAo" node="2Gn_LTGjzUd" resolve="dipatchingGlobalHotkey" />
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="27BPRG5JDbm" role="3cqZAp">
                 <node concept="2OqwBi" id="27BPRG5JFa_" role="3clFbG">
                   <node concept="37vLTw" id="27BPRG5JDbk" role="2Oq$k0">
@@ -11905,11 +11938,21 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="2Gn_LTGjMgd" role="3cqZAp">
+                <node concept="37vLTI" id="2Gn_LTGjPmx" role="3clFbG">
+                  <node concept="3clFbT" id="2Gn_LTGjPnz" role="37vLTx">
+                    <property role="3clFbU" value="false" />
+                  </node>
+                  <node concept="37vLTw" id="2Gn_LTGjMgb" role="37vLTJ">
+                    <ref role="3cqZAo" node="2Gn_LTGjzUd" resolve="dipatchingGlobalHotkey" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="2o7h3aEnpc6" role="3cqZAp">
-          <node concept="10Nm6u" id="2o7h3aEntEh" role="3cqZAk" />
+        <node concept="3cpWs6" id="5GImeV7kFU1" role="3cqZAp">
+          <node concept="10Nm6u" id="5GImeV7kIUa" role="3cqZAk" />
         </node>
       </node>
       <node concept="3uibUv" id="2o7h3aE67JP" role="Sfmx6">
@@ -19540,6 +19583,43 @@
       <node concept="3cqZAl" id="5ZKHK64X_qC" role="3clF45" />
       <node concept="3Tm1VV" id="5ZKHK64X_qD" role="1B3o_S" />
       <node concept="3clFbS" id="5ZKHK64X_qE" role="3clF47">
+        <node concept="3clFbF" id="2Gn_LTGkpby" role="3cqZAp">
+          <node concept="2OqwBi" id="2Gn_LTGkpbz" role="3clFbG">
+            <node concept="2YIFZM" id="2Gn_LTGkpb$" role="2Oq$k0">
+              <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+              <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+              <node concept="3VsKOn" id="2Gn_LTGkpb_" role="37wK5m">
+                <ref role="3VsUkX" node="SQhsWRUr6_" resolve="CoreReporter" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2Gn_LTGkpbA" role="2OqNvi">
+              <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+              <node concept="3cpWs3" id="2Gn_LTGkpbB" role="37wK5m">
+                <node concept="37vLTw" id="2Gn_LTGkpbC" role="3uHU7w">
+                  <ref role="3cqZAo" node="5ZKHK64XDqX" resolve="msg" />
+                </node>
+                <node concept="3cpWs3" id="2Gn_LTGkpbD" role="3uHU7B">
+                  <node concept="Xl_RD" id="2Gn_LTGkpbE" role="3uHU7w">
+                    <property role="Xl_RC" value=" - " />
+                  </node>
+                  <node concept="3cpWs3" id="2Gn_LTGkpbF" role="3uHU7B">
+                    <node concept="3cpWs3" id="2Gn_LTGkpbG" role="3uHU7B">
+                      <node concept="Xl_RD" id="2Gn_LTGkpbH" role="3uHU7w">
+                        <property role="Xl_RC" value=" - " />
+                      </node>
+                      <node concept="37vLTw" id="2Gn_LTGkpbI" role="3uHU7B">
+                        <ref role="3cqZAo" node="4n24ZlEy_i1" resolve="systemInfo" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="2Gn_LTGkpbJ" role="3uHU7w">
+                      <ref role="3cqZAo" node="2ppo89mghXz" resolve="userInfo" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5ZKHK64XE0s" role="3cqZAp">
           <node concept="1rXfSq" id="5ZKHK64XE0r" role="3clFbG">
             <ref role="37wK5l" node="2ppo89mf7gS" resolve="logEvent" />
@@ -24376,6 +24456,44 @@
               </node>
             </node>
           </node>
+          <node concept="3eNFk2" id="5GImeV7kMD1" role="3eNLev">
+            <node concept="1Wc70l" id="2Gn_LTGjQDh" role="3eO9$A">
+              <node concept="37vLTw" id="2Gn_LTGjQSd" role="3uHU7w">
+                <ref role="3cqZAo" node="2Gn_LTGjzUd" resolve="dipatchingGlobalHotkey" />
+              </node>
+              <node concept="1Wc70l" id="5GImeV7kNIU" role="3uHU7B">
+                <node concept="2ZW3vV" id="5GImeV7kNk9" role="3uHU7B">
+                  <node concept="3uibUv" id="5GImeV7kNwL" role="2ZW6by">
+                    <ref role="3uigEE" node="T$VfFDOC$R" resolve="CommandTermEvent" />
+                  </node>
+                  <node concept="37vLTw" id="5GImeV7kN7f" role="2ZW6bz">
+                    <ref role="3cqZAo" node="zBgVaD62Fb" resolve="ev" />
+                  </node>
+                </node>
+                <node concept="2ZW3vV" id="5GImeV7kOaE" role="3uHU7w">
+                  <node concept="3uibUv" id="5GImeV7kOoP" role="2ZW6by">
+                    <ref role="3uigEE" node="zBgVaD67tn" resolve="KeyEvent" />
+                  </node>
+                  <node concept="37vLTw" id="5GImeV7kNWf" role="2ZW6bz">
+                    <ref role="3cqZAo" node="3JhXVvQ7AMI" resolve="lastEvent" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="5GImeV7kMD3" role="3eOfB_">
+              <node concept="3SKdUt" id="2Gn_LTGjRhm" role="3cqZAp">
+                <node concept="3SKdUq" id="2Gn_LTGjRhn" role="3SKWNk">
+                  <property role="3SKdUp" value=" a global hotkey is dispatched while from here, lastEvent=KeyEvent, action startetd (without page) and completed immediatelly " />
+                </node>
+              </node>
+              <node concept="3SKdUt" id="2Gn_LTGjSYG" role="3cqZAp">
+                <node concept="3SKdUq" id="2Gn_LTGjSYI" role="3SKWNk">
+                  <property role="3SKdUp" value="therefore state is okay." />
+                </node>
+              </node>
+              <node concept="3clFbH" id="2Gn_LTGjRsn" role="3cqZAp" />
+            </node>
+          </node>
         </node>
         <node concept="3clFbH" id="5ZKHK64Y1fw" role="3cqZAp" />
         <node concept="3clFbH" id="5qtEEIG_2Bb" role="3cqZAp" />
@@ -24452,7 +24570,7 @@
             <node concept="3clFbH" id="7TgG1qSm2n3" role="3cqZAp" />
             <node concept="3SKdUt" id="7TgG1qSmy_k" role="3cqZAp">
               <node concept="3SKdUq" id="7TgG1qSmy_m" role="3SKWNk">
-                <property role="3SKdUp" value="main event loop." />
+                <property role="3SKdUp" value="* * * * * * * * * main event loop * * * * * * * * * * " />
               </node>
             </node>
             <node concept="3clFbJ" id="zBgVaD6lWe" role="3cqZAp">
