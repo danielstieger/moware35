@@ -11330,11 +11330,6 @@
       <node concept="3Tmbuc" id="5GImeV7bxnd" role="1B3o_S" />
       <node concept="10P_77" id="5GImeV7bxne" role="1tU5fm" />
     </node>
-    <node concept="312cEg" id="2Gn_LTGjzUd" role="jymVt">
-      <property role="TrG5h" value="dipatchingGlobalHotkey" />
-      <node concept="3Tmbuc" id="2Gn_LTGjzUe" role="1B3o_S" />
-      <node concept="10P_77" id="2Gn_LTGjzUf" role="1tU5fm" />
-    </node>
     <node concept="312cEg" id="6X2OBnWt4JI" role="jymVt">
       <property role="TrG5h" value="parentCommandContainer" />
       <node concept="3Tmbuc" id="6X2OBnWt8hq" role="1B3o_S" />
@@ -11597,16 +11592,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2Gn_LTGjCiK" role="3cqZAp">
-          <node concept="37vLTI" id="2Gn_LTGjCte" role="3clFbG">
-            <node concept="3clFbT" id="2Gn_LTGjCuc" role="37vLTx">
-              <property role="3clFbU" value="false" />
-            </node>
-            <node concept="37vLTw" id="2Gn_LTGjCiI" role="37vLTJ">
-              <ref role="3cqZAo" node="2Gn_LTGjzUd" resolve="dipatchingGlobalHotkey" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="2Gn_LTGjCcP" role="3cqZAp" />
         <node concept="3clFbF" id="6bl3$WOX5V8" role="3cqZAp">
           <node concept="37vLTI" id="6bl3$WOX602" role="3clFbG">
@@ -11671,7 +11656,7 @@
     </node>
     <node concept="2tJIrI" id="2Uji7vlAEoR" role="jymVt" />
     <node concept="3clFb_" id="2_Agt$k_BoD" role="jymVt">
-      <property role="TrG5h" value="fg_onKeyPressEvent" />
+      <property role="TrG5h" value="fg_localKeyEvent" />
       <node concept="37vLTG" id="zBgVaD8v1H" role="3clF46">
         <property role="TrG5h" value="ev" />
         <node concept="3uibUv" id="zBgVaD8xmm" role="1tU5fm">
@@ -11903,49 +11888,14 @@
                   <ref role="3cqZAo" node="4mX9Xggw2_w" resolve="currentConclusionInfos" />
                 </node>
               </node>
-              <node concept="3clFbH" id="5GImeV7lmH2" role="3cqZAp" />
-              <node concept="3clFbH" id="5GImeV7lrxo" role="3cqZAp" />
-              <node concept="3SKdUt" id="5GImeV7luPl" role="3cqZAp">
-                <node concept="3SKdUq" id="5GImeV7luPn" role="3SKWNk">
-                  <property role="3SKdUp" value="forward it, .. we do not expect any events, " />
+              <node concept="3SKdUt" id="5JQOVT25Uwp" role="3cqZAp">
+                <node concept="3SKdUq" id="5JQOVT25Uwr" role="3SKWNk">
+                  <property role="3SKdUp" value="a global key event?" />
                 </node>
               </node>
-              <node concept="3clFbF" id="2Gn_LTGjFS9" role="3cqZAp">
-                <node concept="37vLTI" id="2Gn_LTGjITM" role="3clFbG">
-                  <node concept="3clFbT" id="2Gn_LTGjIUT" role="37vLTx">
-                    <property role="3clFbU" value="true" />
-                  </node>
-                  <node concept="37vLTw" id="2Gn_LTGjFS7" role="37vLTJ">
-                    <ref role="3cqZAo" node="2Gn_LTGjzUd" resolve="dipatchingGlobalHotkey" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="27BPRG5JDbm" role="3cqZAp">
-                <node concept="2OqwBi" id="27BPRG5JFa_" role="3clFbG">
-                  <node concept="37vLTw" id="27BPRG5JDbk" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
-                  </node>
-                  <node concept="liA8E" id="27BPRG5JFtv" role="2OqNvi">
-                    <ref role="37wK5l" node="27BPRG5J5fN" resolve="onGlobalKeyPressEvent" />
-                    <node concept="2OqwBi" id="zBgVaD8yQc" role="37wK5m">
-                      <node concept="37vLTw" id="zBgVaD8yOS" role="2Oq$k0">
-                        <ref role="3cqZAo" node="zBgVaD8v1H" resolve="ev" />
-                      </node>
-                      <node concept="liA8E" id="zBgVaD8yTE" role="2OqNvi">
-                        <ref role="37wK5l" node="zBgVaD687P" resolve="getKey" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="2Gn_LTGjMgd" role="3cqZAp">
-                <node concept="37vLTI" id="2Gn_LTGjPmx" role="3clFbG">
-                  <node concept="3clFbT" id="2Gn_LTGjPnz" role="37vLTx">
-                    <property role="3clFbU" value="false" />
-                  </node>
-                  <node concept="37vLTw" id="2Gn_LTGjMgb" role="37vLTJ">
-                    <ref role="3cqZAo" node="2Gn_LTGjzUd" resolve="dipatchingGlobalHotkey" />
-                  </node>
+              <node concept="3cpWs6" id="5JQOVT25Hyl" role="3cqZAp">
+                <node concept="37vLTw" id="5JQOVT25O9p" role="3cqZAk">
+                  <ref role="3cqZAo" node="zBgVaD8v1H" resolve="ev" />
                 </node>
               </node>
             </node>
@@ -11959,7 +11909,39 @@
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
     </node>
-    <node concept="2tJIrI" id="2_Agt$k_9TR" role="jymVt" />
+    <node concept="2tJIrI" id="5JQOVT26E84" role="jymVt" />
+    <node concept="3clFb_" id="5JQOVT262Ij" role="jymVt">
+      <property role="TrG5h" value="fg_globalKeyEvent" />
+      <node concept="3cqZAl" id="5JQOVT26AOJ" role="3clF45" />
+      <node concept="3Tmbuc" id="5JQOVT266LG" role="1B3o_S" />
+      <node concept="3clFbS" id="5JQOVT262In" role="3clF47">
+        <node concept="3clFbF" id="5JQOVT26Ai0" role="3cqZAp">
+          <node concept="2OqwBi" id="5JQOVT26AjI" role="3clFbG">
+            <node concept="37vLTw" id="5JQOVT26AhZ" role="2Oq$k0">
+              <ref role="3cqZAo" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
+            </node>
+            <node concept="liA8E" id="5JQOVT26AGh" role="2OqNvi">
+              <ref role="37wK5l" node="27BPRG5J5fN" resolve="onGlobalKeyPressEvent" />
+              <node concept="2OqwBi" id="5JQOVT26AJM" role="37wK5m">
+                <node concept="37vLTw" id="5JQOVT26AIg" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5JQOVT26zgw" resolve="ev" />
+                </node>
+                <node concept="liA8E" id="5JQOVT26AM$" role="2OqNvi">
+                  <ref role="37wK5l" node="zBgVaD687P" resolve="getKey" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5JQOVT26zgw" role="3clF46">
+        <property role="TrG5h" value="ev" />
+        <node concept="3uibUv" id="5JQOVT26zgv" role="1tU5fm">
+          <ref role="3uigEE" node="zBgVaD67tn" resolve="KeyEvent" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5JQOVT25Xwn" role="jymVt" />
     <node concept="2tJIrI" id="2_Agt$k_dv1" role="jymVt" />
     <node concept="3clFb_" id="3LH0mQPo5WG" role="jymVt">
       <property role="TrG5h" value="bg_fg_initContainer" />
@@ -24456,44 +24438,6 @@
               </node>
             </node>
           </node>
-          <node concept="3eNFk2" id="5GImeV7kMD1" role="3eNLev">
-            <node concept="1Wc70l" id="2Gn_LTGjQDh" role="3eO9$A">
-              <node concept="37vLTw" id="2Gn_LTGjQSd" role="3uHU7w">
-                <ref role="3cqZAo" node="2Gn_LTGjzUd" resolve="dipatchingGlobalHotkey" />
-              </node>
-              <node concept="1Wc70l" id="5GImeV7kNIU" role="3uHU7B">
-                <node concept="2ZW3vV" id="5GImeV7kNk9" role="3uHU7B">
-                  <node concept="3uibUv" id="5GImeV7kNwL" role="2ZW6by">
-                    <ref role="3uigEE" node="T$VfFDOC$R" resolve="CommandTermEvent" />
-                  </node>
-                  <node concept="37vLTw" id="5GImeV7kN7f" role="2ZW6bz">
-                    <ref role="3cqZAo" node="zBgVaD62Fb" resolve="ev" />
-                  </node>
-                </node>
-                <node concept="2ZW3vV" id="5GImeV7kOaE" role="3uHU7w">
-                  <node concept="3uibUv" id="5GImeV7kOoP" role="2ZW6by">
-                    <ref role="3uigEE" node="zBgVaD67tn" resolve="KeyEvent" />
-                  </node>
-                  <node concept="37vLTw" id="5GImeV7kNWf" role="2ZW6bz">
-                    <ref role="3cqZAo" node="3JhXVvQ7AMI" resolve="lastEvent" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbS" id="5GImeV7kMD3" role="3eOfB_">
-              <node concept="3SKdUt" id="2Gn_LTGjRhm" role="3cqZAp">
-                <node concept="3SKdUq" id="2Gn_LTGjRhn" role="3SKWNk">
-                  <property role="3SKdUp" value=" a global hotkey is dispatched while from here, lastEvent=KeyEvent, action startetd (without page) and completed immediatelly " />
-                </node>
-              </node>
-              <node concept="3SKdUt" id="2Gn_LTGjSYG" role="3cqZAp">
-                <node concept="3SKdUq" id="2Gn_LTGjSYI" role="3SKWNk">
-                  <property role="3SKdUp" value="therefore state is okay." />
-                </node>
-              </node>
-              <node concept="3clFbH" id="2Gn_LTGjRsn" role="3cqZAp" />
-            </node>
-          </node>
         </node>
         <node concept="3clFbH" id="5ZKHK64Y1fw" role="3cqZAp" />
         <node concept="3clFbH" id="5qtEEIG_2Bb" role="3cqZAp" />
@@ -24641,7 +24585,7 @@
                         <ref role="3cqZAo" node="2o7h3aE2bEW" resolve="resultEvent" />
                       </node>
                       <node concept="1rXfSq" id="zBgVaD6mtW" role="37vLTx">
-                        <ref role="37wK5l" node="2_Agt$k_BoD" resolve="fg_onKeyPressEvent" />
+                        <ref role="37wK5l" node="2_Agt$k_BoD" resolve="fg_localKeyEvent" />
                         <node concept="1eOMI4" id="zBgVaD6mvw" role="37wK5m">
                           <node concept="10QFUN" id="zBgVaD6mvt" role="1eOMHV">
                             <node concept="3uibUv" id="zBgVaD6mvy" role="10QFUM">
@@ -25251,6 +25195,57 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="3EJ222E3rjJ" role="3cqZAp" />
+                </node>
+              </node>
+              <node concept="3eNFk2" id="5JQOVT25b6u" role="3eNLev">
+                <node concept="2ZW3vV" id="5JQOVT25f62" role="3eO9$A">
+                  <node concept="3uibUv" id="5JQOVT25fhx" role="2ZW6by">
+                    <ref role="3uigEE" node="zBgVaD67tn" resolve="KeyEvent" />
+                  </node>
+                  <node concept="37vLTw" id="5JQOVT25eTy" role="2ZW6bz">
+                    <ref role="3cqZAo" node="2o7h3aE2bEW" resolve="resultEvent" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="5JQOVT25b6w" role="3eOfB_">
+                  <node concept="3SKdUt" id="5JQOVT25fta" role="3cqZAp">
+                    <node concept="3SKdUq" id="5JQOVT25ftb" role="3SKWNk">
+                      <property role="3SKdUp" value="then this might be a global key, which in turn leads to " />
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="5JQOVT25gt$" role="3cqZAp">
+                    <node concept="3SKdUq" id="5JQOVT25gtA" role="3SKWNk">
+                      <property role="3SKdUp" value="command closed events (GE without page, immediate close)" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="5JQOVT25fZG" role="3cqZAp">
+                    <node concept="37vLTI" id="5JQOVT25gdO" role="3clFbG">
+                      <node concept="10Nm6u" id="5JQOVT25gez" role="37vLTx" />
+                      <node concept="37vLTw" id="5JQOVT25fZE" role="37vLTJ">
+                        <ref role="3cqZAo" node="3JhXVvQ7AMI" resolve="lastEvent" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3SKdUt" id="5JQOVT26Rq0" role="3cqZAp">
+                    <node concept="3SKdUq" id="5JQOVT26Rq2" role="3SKWNk">
+                      <property role="3SKdUp" value="we are done here!" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="5JQOVT26Qr4" role="3cqZAp">
+                    <node concept="1rXfSq" id="5JQOVT26Qr2" role="3clFbG">
+                      <ref role="37wK5l" node="5JQOVT262Ij" resolve="fg_globalKeyEvent" />
+                      <node concept="1eOMI4" id="5JQOVT26QOV" role="37wK5m">
+                        <node concept="10QFUN" id="5JQOVT26QOS" role="1eOMHV">
+                          <node concept="3uibUv" id="5JQOVT26R1M" role="10QFUM">
+                            <ref role="3uigEE" node="zBgVaD67tn" resolve="KeyEvent" />
+                          </node>
+                          <node concept="37vLTw" id="5JQOVT26QOX" role="10QFUP">
+                            <ref role="3cqZAo" node="2o7h3aE2bEW" resolve="resultEvent" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="5JQOVT25fCy" role="3cqZAp" />
                 </node>
               </node>
               <node concept="3eNFk2" id="2o7h3aE2faX" role="3eNLev">
