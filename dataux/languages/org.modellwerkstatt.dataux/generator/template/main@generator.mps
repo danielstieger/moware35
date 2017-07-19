@@ -10858,8 +10858,13 @@
                                 <node concept="2ShNRf" id="5Ld38uBDG9e" role="YScLw">
                                   <node concept="1pGfFk" id="5Ld38uBDHUl" role="2ShVmc">
                                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                                    <node concept="Xl_RD" id="5Ld38uBDHVB" role="37wK5m">
-                                      <property role="Xl_RC" value="Can not determine apropriate " />
+                                    <node concept="3cpWs3" id="4Oa_OhWW4As" role="37wK5m">
+                                      <node concept="37vLTw" id="4Oa_OhWW5ka" role="3uHU7w">
+                                        <ref role="3cqZAo" node="5Ld38uBDxNX" resolve="predecessorFQName" />
+                                      </node>
+                                      <node concept="Xl_RD" id="5Ld38uBDHVB" role="3uHU7B">
+                                        <property role="Xl_RC" value="Can not determine appropriate compound for " />
+                                      </node>
                                     </node>
                                   </node>
                                 </node>

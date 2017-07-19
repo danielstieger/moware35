@@ -2480,12 +2480,6 @@
           <node concept="3F0ifn" id="5Ld38uC1FEj" role="3EZMnx">
             <property role="3F0ifm" value="-&gt;" />
             <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
-            <node concept="11L4FC" id="5Ld38uC63m0" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-            <node concept="11LMrY" id="5Ld38uC63xf" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
           </node>
           <node concept="1iCGBv" id="5Ld38uC1FFt" role="3EZMnx">
             <property role="1$x2rV" value="&lt;con&gt;" />
@@ -2588,7 +2582,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="50l$rcpIvmz" role="3EZMnx">
-          <property role="3F0ifm" value=") conclusion" />
+          <property role="3F0ifm" value=") -&gt;" />
           <ref role="1k5W1q" node="1xbJ1snAn4N" resolve="UXAction" />
           <node concept="3Xmtl4" id="50l$rcpIvm$" role="3F10Kt">
             <node concept="1wgc9g" id="50l$rcpIvm_" role="3XvnJa">

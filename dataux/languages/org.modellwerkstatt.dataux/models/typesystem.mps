@@ -4338,7 +4338,7 @@
               <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
             </node>
             <node concept="2qgKlT" id="50l$rcpLlCs" role="2OqNvi">
-              <ref role="37wK5l" to="5y3p:50l$rcpKbIz" resolve="isBaseCommand" />
+              <ref role="37wK5l" to="5y3p:50l$rcpKbIz" resolve="isBaseAction" />
             </node>
           </node>
         </node>
@@ -4816,6 +4816,33 @@
               </node>
               <node concept="37vLTw" id="5Ld38uCKgKa" role="3uHU7w">
                 <ref role="3cqZAo" node="5Ld38uCKgcr" resolve="expectedSpecifications" />
+              </node>
+            </node>
+            <node concept="3eNFk2" id="4Oa_OhWXglF" role="3eNLev">
+              <node concept="3fqX7Q" id="4Oa_OhWXibC" role="3eO9$A">
+                <node concept="2OqwBi" id="4Oa_OhWXibE" role="3fr31v">
+                  <node concept="2OqwBi" id="4Oa_OhWXibF" role="2Oq$k0">
+                    <node concept="1YBJjd" id="4Oa_OhWXibG" role="2Oq$k0">
+                      <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                    </node>
+                    <node concept="3TrEf2" id="4Oa_OhWXibH" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="4Oa_OhWXibI" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:2FiiyF3e0JS" resolve="isWithoutPage" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="4Oa_OhWXglH" role="3eOfB_">
+                <node concept="2MkqsV" id="4Oa_OhWXiJ4" role="3cqZAp">
+                  <node concept="Xl_RD" id="4Oa_OhWXiJg" role="2MkJ7o">
+                    <property role="Xl_RC" value="Compound actions with successors can only be applied to predecessors with no page." />
+                  </node>
+                  <node concept="1YBJjd" id="4Oa_OhWXiSB" role="2OEOjV">
+                    <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
