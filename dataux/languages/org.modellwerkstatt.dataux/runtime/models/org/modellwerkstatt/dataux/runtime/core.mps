@@ -20206,7 +20206,7 @@
                           <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                         </node>
                         <node concept="liA8E" id="5Ld38uCpBgR" role="2OqNvi">
-                          <ref role="37wK5l" to="250q:5Ld38uCp_OF" resolve="skipLoggingTCNExceptions" />
+                          <ref role="37wK5l" to="250q:5Ld38uCp_OF" resolve="getSkipLoggingTcnException" />
                         </node>
                       </node>
                     </node>
@@ -26014,6 +26014,14 @@
       <node concept="3Tmbuc" id="5Ld38uCqu7X" role="1B3o_S" />
       <node concept="10P_77" id="5Ld38uCqmHD" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="1LWMBWz36GZ" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="kafkaLoggingServer" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="1LWMBWz36H0" role="1B3o_S" />
+      <node concept="17QB3L" id="1LWMBWz375F" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="2qrl3a2nGI1" role="jymVt" />
     <node concept="312cEg" id="3J6KGB_wfdo" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -26122,18 +26130,85 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1LWMBWz8HkM" role="3cqZAp">
+          <node concept="37vLTI" id="1LWMBWz8Huy" role="3clFbG">
+            <node concept="Xl_RD" id="1LWMBWz8H_K" role="37vLTx">
+              <property role="Xl_RC" value="modwerk-test.mpreis.co.at:9092" />
+            </node>
+            <node concept="37vLTw" id="1LWMBWz8HkK" role="37vLTJ">
+              <ref role="3cqZAo" node="1LWMBWz36GZ" resolve="kafkaLoggingServer" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="1LWMBWz31Ym" role="jymVt" />
     <node concept="3clFb_" id="5Ld38uCqoW2" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="skipLoggingTCNExceptions" />
+      <property role="TrG5h" value="getSkipLoggingTcnException" />
       <node concept="3Tm1VV" id="5Ld38uCqoW4" role="1B3o_S" />
       <node concept="10P_77" id="5Ld38uCqoW5" role="3clF45" />
       <node concept="3clFbS" id="5Ld38uCqoW8" role="3clF47">
         <node concept="3clFbF" id="5Ld38uCqpnF" role="3cqZAp">
           <node concept="37vLTw" id="5Ld38uCqsW0" role="3clFbG">
             <ref role="3cqZAo" node="5Ld38uCqmpq" resolve="skipTCNExceptions" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1LWMBWz356N" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="setSkipLoggingTcnException" />
+      <node concept="37vLTG" id="1LWMBWz36bC" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="10P_77" id="1LWMBWz36vn" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="1LWMBWz356O" role="1B3o_S" />
+      <node concept="3cqZAl" id="1LWMBWz35xi" role="3clF45" />
+      <node concept="3clFbS" id="1LWMBWz356Q" role="3clF47">
+        <node concept="3clFbF" id="1LWMBWz356R" role="3cqZAp">
+          <node concept="37vLTI" id="1LWMBWz36$T" role="3clFbG">
+            <node concept="37vLTw" id="1LWMBWz36_T" role="37vLTx">
+              <ref role="3cqZAo" node="1LWMBWz36bC" resolve="val" />
+            </node>
+            <node concept="37vLTw" id="1LWMBWz356S" role="37vLTJ">
+              <ref role="3cqZAo" node="5Ld38uCqmpq" resolve="skipTCNExceptions" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1LWMBWz3yBI" role="jymVt">
+      <property role="TrG5h" value="getKafkaLoggingServer" />
+      <node concept="17QB3L" id="1LWMBWz3zoP" role="3clF45" />
+      <node concept="3Tm1VV" id="1LWMBWz3yBL" role="1B3o_S" />
+      <node concept="3clFbS" id="1LWMBWz3yBM" role="3clF47">
+        <node concept="3clFbF" id="1LWMBWz3zPZ" role="3cqZAp">
+          <node concept="37vLTw" id="1LWMBWz3zPY" role="3clFbG">
+            <ref role="3cqZAo" node="1LWMBWz36GZ" resolve="kafkaLoggingServer" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1LWMBWz3zWv" role="jymVt">
+      <property role="TrG5h" value="setKafkaLoggingServer" />
+      <node concept="37vLTG" id="1LWMBWz3_3H" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="1LWMBWz3_gD" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1LWMBWz3$nZ" role="3clF45" />
+      <node concept="3Tm1VV" id="1LWMBWz3zWx" role="1B3o_S" />
+      <node concept="3clFbS" id="1LWMBWz3zWy" role="3clF47">
+        <node concept="3clFbF" id="1LWMBWz3zWz" role="3cqZAp">
+          <node concept="37vLTI" id="1LWMBWz3_ko" role="3clFbG">
+            <node concept="37vLTw" id="1LWMBWz3_ly" role="37vLTx">
+              <ref role="3cqZAo" node="1LWMBWz3_3H" resolve="name" />
+            </node>
+            <node concept="37vLTw" id="1LWMBWz3zW$" role="37vLTJ">
+              <ref role="3cqZAo" node="1LWMBWz36GZ" resolve="kafkaLoggingServer" />
+            </node>
           </node>
         </node>
       </node>

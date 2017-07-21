@@ -490,6 +490,10 @@
         <property role="TrG5h" value="guessedServerName" />
         <node concept="17QB3L" id="63IPdUQ$nBK" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="1LWMBWz3mhv" role="3clF46">
+        <property role="TrG5h" value="kfLoggerServerName" />
+        <node concept="17QB3L" id="1LWMBWz3mEE" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="2yuEF6qaG8c" role="3clF45" />
       <node concept="3Tm1VV" id="2yuEF6qaG8d" role="1B3o_S" />
       <node concept="3clFbS" id="2yuEF6qaG8e" role="3clF47">
@@ -583,6 +587,9 @@
                 </node>
                 <node concept="liA8E" id="3CnNtH_1t3H" role="2OqNvi">
                   <ref role="37wK5l" node="5ubRLyf6Hnv" resolve="init" />
+                  <node concept="37vLTw" id="1LWMBWz3mIP" role="37wK5m">
+                    <ref role="3cqZAo" node="1LWMBWz3mhv" resolve="kfLoggerServerName" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -5491,6 +5498,10 @@
     <node concept="2tJIrI" id="5ubRLyf6Hnu" role="jymVt" />
     <node concept="3clFb_" id="5ubRLyf6Hnv" role="jymVt">
       <property role="TrG5h" value="init" />
+      <node concept="37vLTG" id="1LWMBWz3gql" role="3clF46">
+        <property role="TrG5h" value="server" />
+        <node concept="17QB3L" id="1LWMBWz3gDg" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="5ubRLyf6Hnw" role="3clF45" />
       <node concept="3Tm1VV" id="5ubRLyf6Hnx" role="1B3o_S" />
       <node concept="3clFbS" id="5ubRLyf6Hny" role="3clF47">
@@ -5518,8 +5529,8 @@
               <node concept="Xl_RD" id="5ubRLyf6HnH" role="37wK5m">
                 <property role="Xl_RC" value="bootstrap.servers" />
               </node>
-              <node concept="Xl_RD" id="5ubRLyf6HnI" role="37wK5m">
-                <property role="Xl_RC" value="modwerk-test.mpreis.co.at:9092" />
+              <node concept="37vLTw" id="1LWMBWz3gMg" role="37wK5m">
+                <ref role="3cqZAo" node="1LWMBWz3gql" resolve="server" />
               </node>
             </node>
           </node>
@@ -5906,6 +5917,9 @@
             </node>
             <node concept="liA8E" id="5ubRLyf6Hpe" role="2OqNvi">
               <ref role="37wK5l" node="5ubRLyf6Hnv" resolve="init" />
+              <node concept="Xl_RD" id="5ubRLyf6HnI" role="37wK5m">
+                <property role="Xl_RC" value="modwerk-test.mpreis.co.at:9092" />
+              </node>
             </node>
           </node>
         </node>

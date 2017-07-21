@@ -4017,6 +4017,14 @@
               <node concept="Xl_RD" id="63IPdUQC0Cd" role="37wK5m">
                 <property role="Xl_RC" value="local" />
               </node>
+              <node concept="2OqwBi" id="1LWMBWz3oy2" role="37wK5m">
+                <node concept="37vLTw" id="1LWMBWz3oqA" role="2Oq$k0">
+                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+                </node>
+                <node concept="liA8E" id="1LWMBWz3qRe" role="2OqNvi">
+                  <ref role="37wK5l" to="250q:1LWMBWz3oW1" resolve="getKafkaLoggingServer" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -7150,33 +7158,6 @@
           <node concept="Rm8GO" id="2qrl3a2oAoM" role="37wK5m">
             <ref role="Rm8GQ" to="ache:4Rlyz3EoCZM" resolve="MAIN_TRANSLATIONS" />
             <ref role="1Px2BO" to="ache:4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFbW" id="5Ld38uCriUs" role="jymVt">
-      <node concept="37vLTG" id="5Ld38uCrj6t" role="3clF46">
-        <property role="TrG5h" value="skipTcn" />
-        <node concept="10P_77" id="5Ld38uCruJl" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="5Ld38uCriUt" role="3clF45" />
-      <node concept="3Tm1VV" id="5Ld38uCriUu" role="1B3o_S" />
-      <node concept="3clFbS" id="5Ld38uCriUv" role="3clF47">
-        <node concept="XkiVB" id="5Ld38uCriUw" role="3cqZAp">
-          <ref role="37wK5l" to="1e0c:69JiVbyVSR7" resolve="BaseUiFactory" />
-          <node concept="Rm8GO" id="5Ld38uCriUx" role="37wK5m">
-            <ref role="Rm8GQ" to="ache:4Rlyz3EoCZM" resolve="MAIN_TRANSLATIONS" />
-            <ref role="1Px2BO" to="ache:4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="5Ld38uCruPT" role="3cqZAp">
-          <node concept="37vLTI" id="5Ld38uCruSC" role="3clFbG">
-            <node concept="37vLTw" id="5Ld38uCrv0u" role="37vLTx">
-              <ref role="3cqZAo" node="5Ld38uCrj6t" resolve="skipTcn" />
-            </node>
-            <node concept="37vLTw" id="5Ld38uCruPR" role="37vLTJ">
-              <ref role="3cqZAo" to="1e0c:5Ld38uCqmpq" resolve="skipTCNExceptions" />
-            </node>
           </node>
         </node>
       </node>

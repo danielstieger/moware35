@@ -351,30 +351,6 @@
 	text-align: center;
 }
 
-@font-face {
-	font-family: "Open Sans";
-	src: url(../valo/fonts/open-sans/OpenSans-Light-webfont.eot);
-	src: url(../valo/fonts/open-sans/OpenSans-Light-webfont.eot?#iefix) format("embedded-opentype"), url(../valo/fonts/open-sans/OpenSans-Light-webfont.woff) format("woff"), url(../valo/fonts/open-sans/OpenSans-Light-webfont.ttf) format("truetype");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Open Sans";
-	src: url(../valo/fonts/open-sans/OpenSans-Regular-webfont.eot);
-	src: url(../valo/fonts/open-sans/OpenSans-Regular-webfont.eot?#iefix) format("embedded-opentype"), url(../valo/fonts/open-sans/OpenSans-Regular-webfont.woff) format("woff"), url(../valo/fonts/open-sans/OpenSans-Regular-webfont.ttf) format("truetype");
-	font-weight: 400;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Open Sans";
-	src: url(../valo/fonts/open-sans/OpenSans-Semibold-webfont.eot);
-	src: url(../valo/fonts/open-sans/OpenSans-Semibold-webfont.eot?#iefix) format("embedded-opentype"), url(../valo/fonts/open-sans/OpenSans-Semibold-webfont.woff) format("woff"), url(../valo/fonts/open-sans/OpenSans-Semibold-webfont.ttf) format("truetype");
-	font-weight: 600;
-	font-style: normal;
-}
-
 @-webkit-keyframes v-rotate-360 {
 		to {
 		-webkit-transform: rotate(360deg);
@@ -713,25 +689,25 @@
 
 @-webkit-keyframes valo-grid-editor-footer-animate-in {
 		0% {
-		margin-top: -16px;
+		margin-top: -18px;
 	}
 	}
 
 @-moz-keyframes valo-grid-editor-footer-animate-in {
 		0% {
-		margin-top: -16px;
+		margin-top: -18px;
 	}
 	}
 
 @keyframes valo-grid-editor-footer-animate-in {
 		0% {
-		margin-top: -16px;
+		margin-top: -18px;
 	}
 	}
 
 @-webkit-keyframes valo-grid-editor-footer-animate-in-alt {
 		0% {
-		margin-bottom: -17px;
+		margin-bottom: -19px;
 	}
 		100% {
 		margin-bottom: -1px;
@@ -740,7 +716,7 @@
 
 @-moz-keyframes valo-grid-editor-footer-animate-in-alt {
 		0% {
-		margin-bottom: -17px;
+		margin-bottom: -19px;
 	}
 		100% {
 		margin-bottom: -1px;
@@ -749,7 +725,7 @@
 
 @keyframes valo-grid-editor-footer-animate-in-alt {
 		0% {
-		margin-bottom: -17px;
+		margin-bottom: -19px;
 	}
 		100% {
 		margin-bottom: -1px;
@@ -1652,16 +1628,16 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware.v-app, .moware.v-app-loading {
-	font: 300 13px/1 "Open Sans", sans-serif;
-	color: #444444;
-	background-color: #f3f3f3;
+	font: 300 13px/1 "Helvetica", sans-serif;
+	color: #454545;
+	background-color: #f8f8f8;
 	cursor: default;
 }
 
 .moware .v-app-loading {
 	width: 100%;
 	height: 100%;
-	background: #f3f3f3;
+	background: #f8f8f8;
 }
 
 .moware .v-app-loading:before {
@@ -1815,10 +1791,10 @@ div.v-layout.v-horizontal.v-widget {
 	margin: 0;
 	border-radius: 2px;
 	border: 1px solid #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
-	color: #444444;
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
+	color: #454545;
 }
 
 .moware select:focus {
@@ -1857,8 +1833,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-drag-element {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 	border-radius: 2px;
@@ -1868,8 +1844,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tooltip {
-	background-color: #313131;
-	background-color: rgba(49, 49, 49, 0.9);
+	background-color: #323232;
+	background-color: rgba(50, 50, 50, 0.9);
 	-webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 	color: white;
@@ -1917,10 +1893,10 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-contextmenu {
 	padding: 3px 3px;
 	border-radius: 2px;
-	background-color: #f8f8f8;
-	color: #454545;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
+	background-color: #fdfdfd;
+	color: #474747;
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -2077,8 +2053,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-verticallayout-well, .moware .v-horizontallayout-well {
-	background: #eeeeee;
-	color: #434343;
+	background: #f3f3f3;
+	color: #444444;
 	-webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	border-radius: 2px;
@@ -2108,8 +2084,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-verticallayout-card, .moware .v-horizontallayout-card {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	border-radius: 2px;
 	border: 1px solid #aaa;
 	
@@ -2154,7 +2130,7 @@ div.v-layout.v-horizontal.v-widget {
 	cursor: pointer;
 	height: 24px;
 	padding: 0 11px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -2162,9 +2138,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -2231,7 +2207,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button:hover:after {
-	background-color: rgba(179, 179, 179, 0.1);
+	background-color: rgba(184, 184, 184, 0.1);
 }
 
 .moware .v-button:focus:after {
@@ -2241,7 +2217,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-button:active:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 .moware .v-button-primary {
@@ -2661,7 +2637,7 @@ div.v-layout.v-horizontal.v-widget {
 :root .moware .v-checkbox > input ~ label:before {
 	height: 12px;
 	padding: 0 6px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -2669,9 +2645,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -2689,7 +2665,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox > input:active ~ label:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 :root .moware .v-checkbox > input:checked ~ label:after {
@@ -2791,7 +2767,7 @@ div.v-layout.v-horizontal.v-widget {
 :root .moware .v-checkbox-small > input ~ label:before {
 	height: 11px;
 	padding: 0 6px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -2799,9 +2775,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -2819,7 +2795,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox-small > input:active ~ label:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 :root .moware .v-checkbox-small > input:checked ~ label:after {
@@ -2921,7 +2897,7 @@ div.v-layout.v-horizontal.v-widget {
 :root .moware .v-checkbox-large > input ~ label:before {
 	height: 14.5px;
 	padding: 0 7px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -2929,9 +2905,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -2949,7 +2925,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-checkbox-large > input:active ~ label:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 :root .moware .v-checkbox-large > input:checked ~ label:after {
@@ -3145,8 +3121,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect.v-readonly [class*="input"] {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -3194,10 +3170,10 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-filterselect-suggestpopup [class$="suggestmenu"] {
 	padding: 3px 3px;
 	border-radius: 2px;
-	background-color: #f8f8f8;
-	color: #454545;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
+	background-color: #fdfdfd;
+	color: #474747;
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -3261,8 +3237,8 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-filterselect-suggestpopup [class$="status"] {
 	position: absolute;
 	right: 2px;
-	background: rgba(207, 207, 207, 0.9);
-	color: #3a3a3a;
+	background: rgba(211, 211, 211, 0.9);
+	color: #3b3b3b;
 	border-radius: 0 0 2px 2px;
 	height: 15px;
 	bottom: -15px;
@@ -3277,7 +3253,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-suggestpopup [class$="status"]  > * {
-	color: #3a3a3a;
+	color: #3b3b3b;
 	text-decoration: none;
 }
 
@@ -3301,7 +3277,7 @@ div.v-layout.v-horizontal.v-widget {
 	-ms-transform: scale(0.8);
 	-o-transform: scale(0.8);
 	transform: scale(0.8);
-	color: #444444;
+	color: #454545;
 }
 
 .moware .v-filterselect-suggestpopup div[class*="page"]:after {
@@ -3314,7 +3290,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-filterselect-suggestpopup div[class*="page"]:hover {
 	opacity: 1;
 	filter: none ;
-	background: rgba(243, 243, 243, 0.5);
+	background: rgba(248, 248, 248, 0.5);
 }
 
 .moware .v-filterselect-suggestpopup div[class*="page"]:hover:after {
@@ -3378,9 +3354,9 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	cursor: inherit;
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
@@ -3561,8 +3537,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-tiny.v-readonly [class*="input"] {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -3688,8 +3664,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-compact.v-readonly [class*="input"], .moware .v-filterselect-small.v-readonly [class*="input"] {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -3820,8 +3796,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-large.v-readonly [class*="input"] {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -3948,8 +3924,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-filterselect-huge.v-readonly [class*="input"] {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -3969,8 +3945,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-csslayout-well {
-	background: #eeeeee;
-	color: #434343;
+	background: #f3f3f3;
+	color: #444444;
 	-webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	border-radius: 2px;
@@ -4000,8 +3976,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-csslayout-card {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	border-radius: 2px;
 	border: 1px solid #aaa;
 	
@@ -4166,7 +4142,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-formlayout.light  > table > tbody > tr > [class*="captioncell"] {
-	color: #7a7a7a;
+	color: #7c7c7c;
 	text-align: right;
 	padding-left: 8px;
 	line-height: 24px;
@@ -4374,7 +4350,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-row  > td, .moware .v-grid-row  > th {
-	background-color: #f8f8f8;
+	background-color: #fdfdfd;
 }
 
 .moware .v-grid-row {
@@ -4401,7 +4377,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-grid-spacer {
 	position: absolute;
 	display: block;
-	background-color: #f8f8f8;
+	background-color: #fdfdfd;
 }
 
 .moware .v-grid-spacer  > td {
@@ -4468,7 +4444,7 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	top: 0;
 	right: 0;
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 	border: 1px solid #aaa;
 	padding: 0;
 	z-index: 5;
@@ -4537,9 +4513,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-cell {
-	background-color: #f8f8f8;
+	background-color: #fdfdfd;
 	padding: 0 12px;
-	line-height: 16px;
+	line-height: 18px;
 	text-overflow: ellipsis;
 }
 
@@ -4579,7 +4555,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-row-stripe > td {
-	background-color: #eeeeee;
+	background-color: #f3f3f3;
 }
 
 .moware .v-grid-row-selected > td {
@@ -4592,7 +4568,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-grid-header th {
 	position: relative;
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 	font-size: 11px;
 	font-weight: inherit;
 	border-left: 1px solid #aaa;
@@ -4637,7 +4613,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-footer td {
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 	font-size: 11px;
 	font-weight: inherit;
 	border-left: 1px solid #aaa;
@@ -4658,24 +4634,24 @@ div.v-layout.v-horizontal.v-widget {
 	width: 100%;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	line-height: 16px;
+	line-height: 18px;
 	vertical-align: baseline;
 }
 
 .moware .v-grid-header-deco {
 	border-top: 1px solid #aaa;
 	border-right: 1px solid #aaa;
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 }
 
 .moware .v-grid-footer-deco {
 	border-bottom: 1px solid #aaa;
 	border-right: 1px solid #aaa;
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 }
 
 .moware .v-grid-horizontal-scrollbar-deco {
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 	border: 1px solid #aaa;
 	border-top: none;
 }
@@ -4741,7 +4717,7 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	vertical-align: middle;
-	background: #f8f8f8;
+	background: #fdfdfd;
 }
 
 .moware .v-grid-editor-cells  > div:first-child {
@@ -4809,10 +4785,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-grid-editor-footer {
 	display: table;
-	height: 16px;
+	height: 18px;
 	border-top: 1px solid #aaa;
 	margin-top: -1px;
-	background: #f8f8f8;
+	background: #fdfdfd;
 	padding: 0 5px;
 }
 
@@ -4844,7 +4820,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: 100%;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	line-height: 16px;
+	line-height: 18px;
 	top: 0;
 }
 
@@ -4859,13 +4835,13 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-grid-spacer > td {
 	display: block;
 	padding: 0;
-	background-color: #f8f8f8;
+	background-color: #fdfdfd;
 	border-top: 1px solid #aaa;
 	border-bottom: 1px solid #aaa;
 }
 
 .moware .v-grid-spacer.stripe > td {
-	background-color: #eeeeee;
+	background-color: #f3f3f3;
 	border-top: 1px solid #aaa;
 	border-bottom: 1px solid #aaa;
 }
@@ -4900,7 +4876,7 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-user-select: text;
 	-ms-user-select: text;
 	user-select: text;
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 }
 
 .moware .v-grid.v-disabled {
@@ -4909,9 +4885,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-header .v-grid-cell {
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
@@ -4924,26 +4900,26 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-header .v-grid-cell.dragged-column-header {
-	margin-top: -8px;
+	margin-top: -9px;
 }
 
 .moware .v-grid-footer .v-grid-cell {
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .moware .v-grid-header-deco {
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 }
 
 .moware .v-grid-footer-deco, .moware .v-grid-horizontal-scrollbar-deco {
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 }
 
 .moware .v-grid-row-selected  > .v-grid-cell {
@@ -4968,7 +4944,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-grid-editor-footer {
 	font-size: 12px;
 	padding: 0 4px;
-	background: #f3f3f3;
+	background: #f8f8f8;
 	-webkit-animation: valo-grid-editor-footer-animate-in 200ms 120ms backwards;
 	-moz-animation: valo-grid-editor-footer-animate-in 200ms 120ms backwards;
 	animation: valo-grid-editor-footer-animate-in 200ms 120ms backwards;
@@ -5090,9 +5066,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-grid-sidebar.v-contextmenu.closed {
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 }
 
 .moware .v-grid-scroller::-webkit-scrollbar {
@@ -5172,8 +5148,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-textfield-readonly {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -5648,8 +5624,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-textarea-readonly {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -5996,8 +5972,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield.v-readonly [class*="textfield"] {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -6046,10 +6022,10 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-datefield-popup {
 	padding: 3px 3px;
 	border-radius: 2px;
-	background-color: #f8f8f8;
-	color: #454545;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
+	background-color: #fdfdfd;
+	color: #474747;
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -6102,7 +6078,7 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 17px;
 	text-align: center;
 	font-size: 12px;
-	background: #f3f3f3;
+	background: #f8f8f8;
 	border-radius: 1px;
 	-webkit-transition: color 200ms;
 	-moz-transition: color 200ms;
@@ -6119,14 +6095,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-day-offmonth {
-	color: #9b9b9b;
+	color: #9e9e9e;
 	background: transparent;
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-day-today {
-	color: #181818;
+	color: #191919;
 	font-weight: 600;
-	border-color: #aaaaaa;
+	border-color: #aeaeae;
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected, .moware .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected:hover {
@@ -6149,13 +6125,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-outside-range, .moware .v-datefield-popup .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-outside-range:hover {
-	color: #9b9b9b;
+	color: #9e9e9e;
 	cursor: not-allowed;
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-weekdays {
 	height: 17px;
-	color: rgba(129, 129, 129, 0.85);
+	color: rgba(131, 131, 131, 0.85);
 }
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-weekdays strong {
@@ -6188,7 +6164,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-popup td[class*="year"] button:before, .moware .v-datefield-popup td[class*="month"] button:before {
-	color: #9b9b9b;
+	color: #9e9e9e;
 	font-size: 17px;
 	line-height: 20px;
 	-webkit-transition: color 200ms;
@@ -6207,7 +6183,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-popup td[class*="year"] button.outside-range:hover:before, .moware .v-datefield-popup td[class*="month"] button.outside-range:hover:before {
-	color: #9b9b9b;
+	color: #9e9e9e;
 }
 
 .moware .v-datefield-popup .v-button-prevyear:before {
@@ -6241,7 +6217,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-datefield-popup .v-datefield-calendarpanel-weeknumber, .moware .v-datefield-popup .v-datefield-calendarpanel-weekdays.v-datefield-calendarpanel-weeknumbers td:first-child {
 	width: 19px;
-	color: rgba(129, 129, 129, 0.85);
+	color: rgba(131, 131, 131, 0.85);
 	font-size: 12px;
 	display: inline-block;
 	text-align: left;
@@ -6262,7 +6238,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-right: 1px solid #aaa;
 	border-top-right-radius: 2px;
 	border-bottom-left-radius: 2px;
-	background: #f3f3f3;
+	background: #f8f8f8;
 }
 
 .moware .v-datefield-popup td.v-datefield-calendarpanel-time {
@@ -6295,7 +6271,7 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 17px;
 	text-align: center;
 	font-size: 12px;
-	background: #f3f3f3;
+	background: #f8f8f8;
 	border-radius: 1px;
 	-webkit-transition: color 200ms;
 	-moz-transition: color 200ms;
@@ -6312,14 +6288,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-calendarpanel-day-offmonth {
-	color: #9b9b9b;
+	color: #9e9e9e;
 	background: transparent;
 }
 
 .moware .v-datefield-calendarpanel-day-today {
-	color: #181818;
+	color: #191919;
 	font-weight: 600;
-	border-color: #aaaaaa;
+	border-color: #aeaeae;
 }
 
 .moware .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected, .moware .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-selected:hover {
@@ -6342,13 +6318,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-outside-range, .moware .v-datefield-calendarpanel-day.v-datefield-calendarpanel-day-outside-range:hover {
-	color: #9b9b9b;
+	color: #9e9e9e;
 	cursor: not-allowed;
 }
 
 .moware .v-datefield-calendarpanel-weekdays {
 	height: 17px;
-	color: rgba(129, 129, 129, 0.85);
+	color: rgba(131, 131, 131, 0.85);
 }
 
 .moware .v-datefield-calendarpanel-weekdays strong {
@@ -6381,7 +6357,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware td[class*="year"] button:before, .moware td[class*="month"] button:before {
-	color: #9b9b9b;
+	color: #9e9e9e;
 	font-size: 17px;
 	line-height: 20px;
 	-webkit-transition: color 200ms;
@@ -6400,7 +6376,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware td[class*="year"] button.outside-range:hover:before, .moware td[class*="month"] button.outside-range:hover:before {
-	color: #9b9b9b;
+	color: #9e9e9e;
 }
 
 .moware .v-button-prevyear:before {
@@ -6434,7 +6410,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-datefield-calendarpanel-weeknumber, .moware .v-datefield-calendarpanel-weekdays.v-datefield-calendarpanel-weeknumbers td:first-child {
 	width: 19px;
-	color: rgba(129, 129, 129, 0.85);
+	color: rgba(131, 131, 131, 0.85);
 	font-size: 12px;
 	display: inline-block;
 	text-align: left;
@@ -6455,7 +6431,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-right: 1px solid #aaa;
 	border-top-right-radius: 2px;
 	border-bottom-left-radius: 2px;
-	background: #f3f3f3;
+	background: #f8f8f8;
 }
 
 .moware td.v-datefield-calendarpanel-time {
@@ -6600,8 +6576,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-tiny.v-readonly [class*="textfield"] {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -6715,8 +6691,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-compact.v-readonly [class*="textfield"], .moware .v-datefield-small.v-readonly [class*="textfield"] {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -6835,8 +6811,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-large.v-readonly [class*="textfield"] {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -6951,8 +6927,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-datefield-huge.v-readonly [class*="textfield"] {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -6990,7 +6966,7 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 17px;
 	text-align: center;
 	font-size: 12px;
-	background: #f3f3f3;
+	background: #f8f8f8;
 	border-radius: 1px;
 	-webkit-transition: color 200ms;
 	-moz-transition: color 200ms;
@@ -7007,14 +6983,14 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-inline-datefield-calendarpanel-day-offmonth {
-	color: #9b9b9b;
+	color: #9e9e9e;
 	background: transparent;
 }
 
 .moware .v-inline-datefield-calendarpanel-day-today {
-	color: #181818;
+	color: #191919;
 	font-weight: 600;
-	border-color: #aaaaaa;
+	border-color: #aeaeae;
 }
 
 .moware .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-selected, .moware .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-selected:hover {
@@ -7037,13 +7013,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-outside-range, .moware .v-inline-datefield-calendarpanel-day.v-inline-datefield-calendarpanel-day-outside-range:hover {
-	color: #9b9b9b;
+	color: #9e9e9e;
 	cursor: not-allowed;
 }
 
 .moware .v-inline-datefield-calendarpanel-weekdays {
 	height: 17px;
-	color: rgba(129, 129, 129, 0.85);
+	color: rgba(131, 131, 131, 0.85);
 }
 
 .moware .v-inline-datefield-calendarpanel-weekdays strong {
@@ -7076,7 +7052,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware td[class*="year"] button:before, .moware td[class*="month"] button:before {
-	color: #9b9b9b;
+	color: #9e9e9e;
 	font-size: 17px;
 	line-height: 20px;
 	-webkit-transition: color 200ms;
@@ -7095,7 +7071,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware td[class*="year"] button.outside-range:hover:before, .moware td[class*="month"] button.outside-range:hover:before {
-	color: #9b9b9b;
+	color: #9e9e9e;
 }
 
 .moware .v-button-prevyear:before {
@@ -7129,7 +7105,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-inline-datefield-calendarpanel-weeknumber, .moware .v-inline-datefield-calendarpanel-weekdays.v-inline-datefield-calendarpanel-weeknumbers td:first-child {
 	width: 19px;
-	color: rgba(129, 129, 129, 0.85);
+	color: rgba(131, 131, 131, 0.85);
 	font-size: 12px;
 	display: inline-block;
 	text-align: left;
@@ -7150,7 +7126,7 @@ div.v-layout.v-horizontal.v-widget {
 	border-right: 1px solid #aaa;
 	border-top-right-radius: 2px;
 	border-bottom-left-radius: 2px;
-	background: #f3f3f3;
+	background: #f8f8f8;
 }
 
 .moware td.v-inline-datefield-calendarpanel-time {
@@ -7166,7 +7142,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-inline-datefield-calendarpanel {
 	position: relative;
-	background: #f8f8f8;
+	background: #fdfdfd;
 	padding: 4px;
 }
 
@@ -7201,7 +7177,7 @@ div.v-layout.v-horizontal.v-widget {
 	cursor: pointer;
 	height: 24px;
 	padding: 0 11px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	cursor: default;
@@ -7209,9 +7185,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -7291,9 +7267,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	background: transparent;
@@ -7336,12 +7312,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-menubar > .v-menubar-menuitem:hover:before {
-	background-color: rgba(179, 179, 179, 0.1);
+	background-color: rgba(184, 184, 184, 0.1);
 	border: none;
 }
 
 .moware .v-menubar > .v-menubar-menuitem:active:before {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 .moware .v-menubar > .v-menubar-menuitem .v-icon {
@@ -7361,10 +7337,10 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-menubar > .v-menubar-menuitem-checked {
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	background-color: #e7e7e7;
-	background-image: -webkit-linear-gradient(bottom, #e7e7e7 2%, #e5e5e5 98%);
-	background-image: linear-gradient(to top,#e7e7e7 2%, #e5e5e5 98%);
-	color: #171717;
+	background-color: #ececec;
+	background-image: -webkit-linear-gradient(bottom, #ececec 2%, #eaeaea 98%);
+	background-image: linear-gradient(to top,#ececec 2%, #eaeaea 98%);
+	color: #181818;
 }
 
 .moware .v-disabled > .v-menubar-menuitem, .moware .v-menubar > .v-menubar-menuitem-disabled {
@@ -7425,10 +7401,10 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-menubar-popup {
 	padding: 3px 3px;
 	border-radius: 2px;
-	background-color: #f8f8f8;
-	color: #454545;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
+	background-color: #fdfdfd;
+	color: #474747;
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -7684,7 +7660,7 @@ div.v-layout.v-horizontal.v-widget {
 :root .moware .v-radiobutton > input ~ label:before {
 	height: 12px;
 	padding: 0 6px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -7692,9 +7668,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -7712,7 +7688,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-radiobutton > input:active ~ label:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 :root .moware .v-radiobutton > input:checked ~ label:after {
@@ -7847,7 +7823,7 @@ div.v-layout.v-horizontal.v-widget {
 :root .moware .v-select-optiongroup-small .v-checkbox > input ~ label:before {
 	height: 11px;
 	padding: 0 6px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -7855,9 +7831,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -7875,7 +7851,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-small .v-checkbox > input:active ~ label:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 :root .moware .v-select-optiongroup-small .v-checkbox > input:checked ~ label:after {
@@ -7976,7 +7952,7 @@ div.v-layout.v-horizontal.v-widget {
 :root .moware .v-select-optiongroup-small .v-radiobutton > input ~ label:before {
 	height: 11px;
 	padding: 0 6px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -7984,9 +7960,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -8004,7 +7980,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-small .v-radiobutton > input:active ~ label:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 :root .moware .v-select-optiongroup-small .v-radiobutton > input:checked ~ label:after {
@@ -8139,7 +8115,7 @@ div.v-layout.v-horizontal.v-widget {
 :root .moware .v-select-optiongroup-large .v-checkbox > input ~ label:before {
 	height: 14.5px;
 	padding: 0 7px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -8147,9 +8123,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -8167,7 +8143,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-large .v-checkbox > input:active ~ label:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 :root .moware .v-select-optiongroup-large .v-checkbox > input:checked ~ label:after {
@@ -8268,7 +8244,7 @@ div.v-layout.v-horizontal.v-widget {
 :root .moware .v-select-optiongroup-large .v-radiobutton > input ~ label:before {
 	height: 14.5px;
 	padding: 0 7px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -8276,9 +8252,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -8296,7 +8272,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 :root .moware .v-select-optiongroup-large .v-radiobutton > input:active ~ label:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 :root .moware .v-select-optiongroup-large .v-radiobutton > input:checked ~ label:after {
@@ -8429,16 +8405,16 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-window {
 	padding: 3px 3px;
 	border-radius: 2px;
-	background-color: #f3f3f3;
-	color: #444444;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
+	background-color: #f8f8f8;
+	color: #454545;
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
-	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 16px 80px -6px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.09235);
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 16px 80px -6px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.09235);
+	-webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 16px 80px -6px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.09137);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1), 0 16px 80px -6px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.09137);
 	padding: 0;
 	min-width: 96px !important;
 	min-height: 24px !important;
@@ -8531,7 +8507,7 @@ div.v-layout.v-horizontal.v-widget {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	color: #787878;
+	color: #7a7a7a;
 }
 
 .moware .v-window-restorebox-disabled  ~ .v-window-closebox ~ .v-window-header, .moware .v-window-maximizebox-disabled  ~ .v-window-closebox ~ .v-window-header {
@@ -8552,12 +8528,12 @@ div.v-layout.v-horizontal.v-widget {
 	box-sizing: border-box;
 	width: 21px;
 	height: 23px;
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 	line-height: 21px;
 	text-align: center;
 	cursor: pointer;
 	font-size: 17px;
-	color: #929292;
+	color: #959595;
 	-webkit-transition: color 140ms;
 	-moz-transition: color 140ms;
 	transition: color 140ms;
@@ -8680,7 +8656,7 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: 2;
 	top: 0;
 	height: 0;
-	border-top: 1px solid #f3f3f3;
+	border-top: 1px solid #f8f8f8;
 	left: 0;
 	right: 0;
 }
@@ -8690,7 +8666,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-window-contents  > .v-scrollable .v-panel-content:before {
-	border-color: #f3f3f3;
+	border-color: #f8f8f8;
 }
 
 .moware .v-window-footer {
@@ -8740,7 +8716,7 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: 2;
 	border-top: 1px solid #aaa;
 	border-bottom: 1px solid #aaa;
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 }
 
 .moware .v-window-top-toolbar.v-menubar {
@@ -8755,9 +8731,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-window-bottom-toolbar.v-layout {
 	padding: 5px 8px;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #efefef 0, #f3f3f3 2px);
-	background-image: linear-gradient(to bottom,#efefef 0, #f3f3f3 2px);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f4f4f4 0, #f8f8f8 2px);
+	background-image: linear-gradient(to bottom,#f4f4f4 0, #f8f8f8 2px);
 	border-top: 1px solid #aaa;
 	border-radius: 0 0 2px 2px;
 }
@@ -8959,7 +8935,7 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 2px;
 	color: #4b8df8;
 	text-indent: -3px;
-	text-shadow: 0 0 1px #f3f3f3, 0 0 1px #f3f3f3;
+	text-shadow: 0 0 1px #f8f8f8, 0 0 1px #f8f8f8;
 	opacity: 1;
 	visibility: visible;
 }
@@ -8989,8 +8965,8 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-table {
 	position: relative;
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	overflow: hidden;
 }
 
@@ -9005,9 +8981,9 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-table-header-wrap, .moware .v-table-footer-wrap, .moware .v-table-header-drag {
 	border: 1px solid #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	white-space: nowrap;
 	font-size: 11px;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -9029,7 +9005,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-table-footer-container, .moware .v-table-caption-container {
 	overflow: hidden;
 	line-height: 1;
-	min-height: 16px;
+	min-height: 18px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -9040,7 +9016,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-footer-container {
-	padding: 2px 8px 3px;
+	padding: 3px 8px 4px;
 	float: right;
 }
 
@@ -9049,7 +9025,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-caption-container, .moware .v-table-header-drag {
-	padding: 3px 8px 2px;
+	padding: 4px 8px 3px;
 	border-left: 1px solid #aaa;
 }
 
@@ -9058,7 +9034,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-resizer {
-	height: 16px;
+	height: 18px;
 	width: 5px;
 	cursor: e-resize;
 	cursor: col-resize;
@@ -9071,7 +9047,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-table-cell-content {
 	border-left: 1px solid #aaa;
 	overflow: hidden;
-	height: 16px;
+	height: 18px;
 	vertical-align: middle;
 }
 
@@ -9115,7 +9091,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-table {
-	background-color: #f8f8f8;
+	background-color: #fdfdfd;
 	white-space: nowrap;
 }
 
@@ -9128,12 +9104,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-row {
-	background-color: #f8f8f8;
+	background-color: #fdfdfd;
 	cursor: pointer;
 }
 
 .moware .v-table-row-odd {
-	background-color: #eeeeee;
+	background-color: #f3f3f3;
 	cursor: pointer;
 }
 
@@ -9170,8 +9146,8 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-table-header-cell-asc .v-table-sort-indicator, .moware .v-table-header-cell-desc .v-table-sort-indicator {
 	background: transparent;
 	width: 12px;
-	height: 16px;
-	line-height: 16px;
+	height: 18px;
+	line-height: 18px;
 	margin-left: -12px;
 }
 
@@ -9208,7 +9184,7 @@ div.v-layout.v-horizontal.v-widget {
 	position: absolute;
 	opacity: 0.9;
 	filter: alpha(opacity=90) ;
-	margin-top: -8px;
+	margin-top: -9px;
 	z-index: 30000;
 	line-height: 1;
 }
@@ -9231,7 +9207,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-table-column-selector {
 	height: 24px;
 	padding: 0 11px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -9239,9 +9215,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -9274,7 +9250,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-column-selector:hover:after {
-	background-color: rgba(179, 179, 179, 0.1);
+	background-color: rgba(184, 184, 184, 0.1);
 }
 
 .moware .v-table-column-selector:focus:after {
@@ -9284,7 +9260,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-column-selector:active:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 .moware .v-table-column-selector:after {
@@ -9298,7 +9274,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-column-selector:active:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 .moware .v-table-column-selector:before {
@@ -9349,7 +9325,7 @@ div.v-layout.v-horizontal.v-widget {
 	overflow: hidden;
 	opacity: 0.5;
 	filter: alpha(opacity=50) ;
-	background: #f8f8f8;
+	background: #fdfdfd;
 }
 
 .moware .v-table-body {
@@ -9386,13 +9362,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-row-drag-middle .v-table-cell-content {
-	background-color: #d5e2f8;
-	color: #23395e;
+	background-color: #d9e6fc;
+	color: #1e3866;
 }
 
 .moware .v-table-row-drag-bottom td.v-table-cell-content {
 	border-bottom: 2px solid #4b8df8;
-	height: 14px;
+	height: 16px;
 }
 
 .moware .v-table-row-drag-bottom .v-table-cell-wrapper {
@@ -9401,7 +9377,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-table-row-drag-top td.v-table-cell-content {
 	border-top: 2px solid #4b8df8;
-	height: 15px;
+	height: 17px;
 }
 
 .moware .v-table-row-drag-top .v-table-cell-wrapper {
@@ -9427,7 +9403,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-no-horizontal-lines .v-table-row-drag-top .v-table-cell-content, .moware .v-table-no-horizontal-lines .v-table-row-drag-bottom .v-table-cell-content {
-	height: 15px;
+	height: 17px;
 }
 
 .moware .v-table-no-header .v-table-header-wrap {
@@ -9600,7 +9576,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before {
 	height: 24px;
 	padding: 0 11px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -9608,18 +9584,18 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white, none;
 	box-shadow: inset 0 1px 0 white, none;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	height: auto;
 	padding: 0;
 	border-radius: 0;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(left, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to right,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(left, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to right,#f8f8f8 2%, #f3f3f3 98%);
 }
 
 .moware .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before:after {
@@ -9631,7 +9607,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before:hover:after {
-	background-color: rgba(179, 179, 179, 0.1);
+	background-color: rgba(184, 184, 184, 0.1);
 }
 
 .moware .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before:focus:after {
@@ -9641,7 +9617,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-horizontal  > div > .v-splitpanel-hsplitter div:before:active:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 .moware .v-splitpanel-horizontal  > div > .v-splitpanel-second-container {
@@ -9660,7 +9636,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before {
 	height: 24px;
 	padding: 0 11px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -9668,9 +9644,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white, none;
 	box-shadow: inset 0 1px 0 white, none;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -9688,7 +9664,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before:hover:after {
-	background-color: rgba(179, 179, 179, 0.1);
+	background-color: rgba(184, 184, 184, 0.1);
 }
 
 .moware .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before:focus:after {
@@ -9698,7 +9674,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-vertical  > div > .v-splitpanel-vsplitter div:before:active:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter {
@@ -9713,7 +9689,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before {
 	height: 24px;
 	padding: 0 11px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -9721,18 +9697,18 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white, none;
 	box-shadow: inset 0 1px 0 white, none;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
 	height: auto;
 	padding: 0;
 	border-radius: 0;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(left, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to right,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(left, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to right,#f8f8f8 2%, #f3f3f3 98%);
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before:after {
@@ -9744,7 +9720,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before:hover:after {
-	background-color: rgba(179, 179, 179, 0.1);
+	background-color: rgba(184, 184, 184, 0.1);
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before:focus:after {
@@ -9754,7 +9730,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:before:active:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 .moware .v-splitpanel-horizontal.large  > div > .v-splitpanel-hsplitter div:after {
@@ -9787,7 +9763,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:before {
 	height: 24px;
 	padding: 0 11px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -9795,9 +9771,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white, none;
 	box-shadow: inset 0 1px 0 white, none;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -9815,7 +9791,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:before:hover:after {
-	background-color: rgba(179, 179, 179, 0.1);
+	background-color: rgba(184, 184, 184, 0.1);
 }
 
 .moware .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:before:focus:after {
@@ -9825,7 +9801,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:before:active:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 .moware .v-splitpanel-vertical.large  > div > .v-splitpanel-vsplitter div:after {
@@ -9845,9 +9821,9 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-progressbar-wrapper {
 	border-radius: 2px;
 	height: 6px;
-	background-color: #cfcfcf;
-	background-image: -webkit-linear-gradient(bottom, #d0d0d0 2%, #c9c9c9 98%);
-	background-image: linear-gradient(to top,#d0d0d0 2%, #c9c9c9 98%);
+	background-color: #d3d3d3;
+	background-image: -webkit-linear-gradient(bottom, #d4d4d4 2%, #cdcdcd 98%);
+	background-image: linear-gradient(to top,#d4d4d4 2%, #cdcdcd 98%);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -9957,9 +9933,9 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-slider-base {
 	border-radius: 2px;
 	height: 6px;
-	background-color: #cfcfcf;
-	background-image: -webkit-linear-gradient(bottom, #d0d0d0 2%, #c9c9c9 98%);
-	background-image: linear-gradient(to top,#d0d0d0 2%, #c9c9c9 98%);
+	background-color: #d3d3d3;
+	background-image: -webkit-linear-gradient(bottom, #d4d4d4 2%, #cdcdcd 98%);
+	background-image: linear-gradient(to top,#d4d4d4 2%, #cdcdcd 98%);
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -10021,7 +9997,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-slider-handle:before {
 	height: 24px;
 	padding: 0 11px;
-	color: #181818;
+	color: #191919;
 	font-weight: 400;
 	
 	
@@ -10029,9 +10005,9 @@ div.v-layout.v-horizontal.v-widget {
 	border: 1px solid #aaa;
 	border-top-color: #aaa;
 	border-bottom-color: #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
@@ -10046,7 +10022,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-slider-handle:before:hover:after {
-	background-color: rgba(179, 179, 179, 0.1);
+	background-color: rgba(184, 184, 184, 0.1);
 }
 
 .moware .v-slider-handle:before:focus:after {
@@ -10056,7 +10032,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-slider-handle:before:active:after {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 .moware .v-slider-handle:after {
@@ -10090,8 +10066,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-slider-feedback {
-	background-color: #313131;
-	background-color: rgba(49, 49, 49, 0.9);
+	background-color: #323232;
+	background-color: rgba(50, 50, 50, 0.9);
 	-webkit-box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
 	color: white;
@@ -10108,9 +10084,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-slider-vertical .v-slider-base {
-	background-color: #cfcfcf;
-	background-image: -webkit-linear-gradient(right, #d0d0d0 2%, #c9c9c9 98%);
-	background-image: linear-gradient(to left,#d0d0d0 2%, #c9c9c9 98%);
+	background-color: #d3d3d3;
+	background-image: -webkit-linear-gradient(right, #d4d4d4 2%, #cdcdcd 98%);
+	background-image: linear-gradient(to left,#d4d4d4 2%, #cdcdcd 98%);
 	width: 4px;
 	height: 100% !important;
 	min-width: 0;
@@ -10209,7 +10185,7 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 24px;
 	font-size: 12px;
 	font-weight: 300;
-	color: #666666;
+	color: #686868;
 	width: auto !important;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -10274,7 +10250,7 @@ div.v-layout.v-horizontal.v-widget {
 	width: 14px;
 	text-align: center;
 	border-radius: 1px;
-	color: #929292;
+	color: #959595;
 }
 
 .moware .v-tabsheet-tabitemcell .v-tabsheet-caption-close:hover {
@@ -10294,8 +10270,8 @@ div.v-layout.v-horizontal.v-widget {
 	bottom: 0;
 	padding-left: 12px;
 	background-color: transparent;
-	background-image: -webkit-linear-gradient(right, #f3f3f3 70%, rgba(243, 243, 243, 0) 100%);
-	background-image: linear-gradient(to left,#f3f3f3 70%, rgba(243, 243, 243, 0) 100%);
+	background-image: -webkit-linear-gradient(right, #f8f8f8 70%, rgba(248, 248, 248, 0) 100%);
+	background-image: linear-gradient(to left,#f8f8f8 70%, rgba(248, 248, 248, 0) 100%);
 	pointer-events: none;
 }
 
@@ -10313,7 +10289,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .v-ie8 .moware .v-tabsheet-scroller, .v-ie9 .moware .v-tabsheet-scroller {
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 }
 
 .v-ie8 .moware .v-tabsheet-scroller:after, .v-ie9 .moware .v-tabsheet-scroller:after {
@@ -10448,7 +10424,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-tabsheet-framed  > .v-tabsheet-tabcontainer .v-caption {
 	margin-left: 2px;
 	padding: 0 8px;
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 	border: 1px solid transparent;
 	line-height: 23px;
 	border-radius: 2px 2px 0 0;
@@ -10459,12 +10435,12 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-framed  > .v-tabsheet-tabcontainer .v-caption:hover {
-	background-color: #ebebeb;
+	background-color: #f0f0f0;
 	border-bottom-color: #aaa;
 }
 
 .moware .v-tabsheet-framed  > .v-tabsheet-tabcontainer .v-caption.v-disabled:hover {
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 }
 
 .moware .v-tabsheet-framed  > .v-tabsheet-tabcontainer .v-caption-closable {
@@ -10486,7 +10462,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-framed  > .v-tabsheet-tabcontainer .v-tabsheet-tabitem-selected .v-caption {
-	background: #f3f3f3;
+	background: #f8f8f8;
 	border-color: #aaa;
 	border-bottom: none;
 	padding-bottom: 1px;
@@ -10498,13 +10474,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-tabsheet-framed  > .v-tabsheet-content  > div {
-	background: #f3f3f3;
+	background: #f8f8f8;
 }
 
 .moware .v-tabsheet-framed.padded-tabbar  > .v-tabsheet-tabcontainer {
 	border: 1px solid #aaa;
 	border-bottom: none;
-	background: #f3f3f3;
+	background: #f8f8f8;
 	padding-top: 4px;
 }
 
@@ -10640,8 +10616,8 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-colorpicker-popup .v-horizontallayout {
 	height: auto !important;
 	padding: 6px 0;
-	background-color: #f3f3f3;
-	border-top: 1px solid #e7e7e7;
+	background-color: #f8f8f8;
+	border-top: 1px solid #ececec;
 }
 
 .moware .v-colorpicker-popup .v-horizontallayout .v-expand {
@@ -10701,8 +10677,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-panel {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	border-radius: 2px;
 	border: 1px solid #aaa;
 	
@@ -10717,10 +10693,10 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 0 8px;
 	line-height: 23px;
 	border-bottom: 1px solid #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #f1f1f1 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #f1f1f1 98%);
-	color: #444444;
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f6f6f6 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f6f6f6 98%);
+	color: #454545;
 	font-weight: 400;
 	font-size: 12px;
 	-webkit-box-shadow: inset 0 1px 0 white;
@@ -10773,8 +10749,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-panel-well {
-	background: #eeeeee;
-	color: #434343;
+	background: #f3f3f3;
+	color: #444444;
 	-webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.05), inset false;
 	border-radius: 2px;
@@ -10809,7 +10785,7 @@ div.v-layout.v-horizontal.v-widget {
 	z-index: 2;
 	top: 0;
 	height: 0;
-	border-top: 1px solid #f3f3f3;
+	border-top: 1px solid #f8f8f8;
 	left: 0;
 	right: 0;
 }
@@ -10828,15 +10804,15 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-accordion {
-	background: #f3f3f3;
-	color: #444444;
+	background: #f8f8f8;
+	color: #454545;
 	border-radius: 2px;
 	border: 1px solid #aaa;
 	
 	
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #f0f0f0 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #f0f0f0 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f5f5f5 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f5f5f5 98%);
 	overflow: hidden;
 }
 
@@ -10882,10 +10858,10 @@ div.v-layout.v-horizontal.v-widget {
 	padding: 0 8px;
 	line-height: 23px;
 	border-bottom: 1px solid #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #f1f1f1 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #f1f1f1 98%);
-	color: #444444;
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f6f6f6 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f6f6f6 98%);
+	color: #454545;
 	font-weight: 400;
 	font-size: 12px;
 	-webkit-box-shadow: inset 0 1px 0 white;
@@ -10910,18 +10886,18 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-accordion-item-caption  > .v-caption:hover:before {
-	background-color: rgba(179, 179, 179, 0.1);
+	background-color: rgba(184, 184, 184, 0.1);
 	border: none;
 }
 
 .moware .v-accordion-item-caption  > .v-caption:active:before {
-	background-color: rgba(122, 122, 122, 0.2);
+	background-color: rgba(124, 124, 124, 0.2);
 }
 
 .moware .v-accordion-item-content {
 	-webkit-box-shadow: inset false;
 	box-shadow: inset false;
-	background-color: #f3f3f3;
+	background-color: #f8f8f8;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -10960,10 +10936,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select-twincol select {
 	border: 1px solid #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
-	color: #444444;
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
+	color: #454545;
 }
 
 .moware .v-select-twincol select:focus {
@@ -11044,10 +11020,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select select {
 	border: 1px solid #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
-	color: #444444;
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
+	color: #454545;
 }
 
 .moware .v-select select:focus {
@@ -11169,7 +11145,7 @@ div.v-layout.v-horizontal.v-widget {
 	text-align: right;
 	margin: 0 3px;
 	white-space: nowrap;
-	border-top: 1px solid #ebebeb;
+	border-top: 1px solid #f0f0f0;
 	cursor: pointer;
 }
 
@@ -11178,7 +11154,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-month-day-today {
-	background: #eaedf3;
+	background: #eff2f7;
 }
 
 .moware .v-calendar-month-day-today .v-calendar-day-number {
@@ -11191,7 +11167,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-month-day-selected {
-	background-color: #e2e8f3;
+	background-color: #e6edf8;
 }
 
 .moware .v-calendar-month-day-dragemphasis {
@@ -11204,7 +11180,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-calendar-weekly-longevents {
 	margin-left: 50px;
-	border-bottom: 2px solid #dadada;
+	border-bottom: 2px solid #dfdfdf;
 }
 
 .moware .v-calendar-weekly-longevents .v-calendar-event-all-day {
@@ -11399,7 +11375,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-calendar-week-wrapper .v-calendar-event-content {
 	margin-top: -1px;
 	border-radius: 3px;
-	border: 1px solid #f3f3f3;
+	border: 1px solid #f8f8f8;
 	padding-top: 3px;
 	margin-right: 3px;
 }
@@ -11409,8 +11385,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-event-all-day {
-	background-color: #c2e4ef;
-	background-color: rgba(194, 228, 239, 0.8);
+	background-color: #c6e8f3;
+	background-color: rgba(198, 232, 243, 0.8);
 	color: #00ace0;
 }
 
@@ -11419,8 +11395,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-week-wrapper .v-calendar-event .v-calendar-event-content {
-	background-color: #c2e4ef;
-	background-color: rgba(194, 228, 239, 0.8);
+	background-color: #c6e8f3;
+	background-color: rgba(198, 232, 243, 0.8);
 }
 
 .moware .v-calendar-event-month[class*="color2"]:before {
@@ -11428,8 +11404,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-event-all-day[class*="color2"] {
-	background-color: #cbe2c7;
-	background-color: rgba(203, 226, 199, 0.8);
+	background-color: #cfe6cb;
+	background-color: rgba(207, 230, 203, 0.8);
 	color: #2d9f19;
 }
 
@@ -11438,8 +11414,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-week-wrapper .v-calendar-event[class*="color2"] .v-calendar-event-content {
-	background-color: #cbe2c7;
-	background-color: rgba(203, 226, 199, 0.8);
+	background-color: #cfe6cb;
+	background-color: rgba(207, 230, 203, 0.8);
 }
 
 .moware .v-calendar-event-month[class*="color3"]:before {
@@ -11447,8 +11423,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-event-all-day[class*="color3"] {
-	background-color: #ecdcc2;
-	background-color: rgba(236, 220, 194, 0.8);
+	background-color: #f0e0c6;
+	background-color: rgba(240, 224, 198, 0.8);
 	color: #d18100;
 }
 
@@ -11457,8 +11433,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-week-wrapper .v-calendar-event[class*="color3"] .v-calendar-event-content {
-	background-color: #ecdcc2;
-	background-color: rgba(236, 220, 194, 0.8);
+	background-color: #f0e0c6;
+	background-color: rgba(240, 224, 198, 0.8);
 }
 
 .moware .v-calendar-event-month[class*="color4"]:before {
@@ -11466,8 +11442,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-event-all-day[class*="color4"] {
-	background-color: #ebcdc6;
-	background-color: rgba(235, 205, 198, 0.8);
+	background-color: #efd1ca;
+	background-color: rgba(239, 209, 202, 0.8);
 	color: #ce3812;
 }
 
@@ -11476,8 +11452,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-week-wrapper .v-calendar-event[class*="color4"] .v-calendar-event-content {
-	background-color: #ebcdc6;
-	background-color: rgba(235, 205, 198, 0.8);
+	background-color: #efd1ca;
+	background-color: rgba(239, 209, 202, 0.8);
 }
 
 .moware .v-calendar-event-month[class*="color5"]:before {
@@ -11485,8 +11461,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-event-all-day[class*="color5"] {
-	background-color: #cbd3eb;
-	background-color: rgba(203, 211, 235, 0.8);
+	background-color: #cfd7ef;
+	background-color: rgba(207, 215, 239, 0.8);
 	color: #2d55cd;
 }
 
@@ -11495,8 +11471,8 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-calendar-week-wrapper .v-calendar-event[class*="color5"] .v-calendar-event-content {
-	background-color: #cbd3eb;
-	background-color: rgba(203, 211, 235, 0.8);
+	background-color: #cfd7ef;
+	background-color: rgba(207, 215, 239, 0.8);
 }
 
 .moware .v-calendar.v-disabled * {
@@ -11517,7 +11493,7 @@ div.v-layout.v-horizontal.v-widget {
 .moware h1, .moware .v-label-h1, .moware h2, .moware .v-label-h2, .moware h3, .moware .v-label-h3 {
 	line-height: 1.1;
 	font-weight: 200;
-	color: #131313;
+	color: #141414;
 }
 
 .moware h1, .moware .v-label-h1 {
@@ -11548,7 +11524,7 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 1.1;
 	font-weight: 500;
 	font-size: 12px;
-	color: #3f3f3f;
+	color: #404040;
 	text-transform: uppercase;
 	letter-spacing: 0;
 	margin-top: 2.4em;
@@ -11597,7 +11573,7 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-label-light {
 	font-weight: 200;
-	color: #7a7a7a;
+	color: #7c7c7c;
 }
 
 .moware .v-label-align-right {
@@ -11766,10 +11742,10 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-select select {
 	border: 1px solid #aaa;
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
-	color: #444444;
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
+	color: #454545;
 }
 
 .moware .v-select select:focus {
@@ -11814,10 +11790,10 @@ div.v-layout.v-horizontal.v-widget {
 .moware .v-popupview-popup {
 	padding: 3px 3px;
 	border-radius: 2px;
-	background-color: #f8f8f8;
-	color: #454545;
-	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09235);
+	background-color: #fdfdfd;
+	color: #474747;
+	-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.09137);
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -11922,13 +11898,13 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-richtextarea .gwt-RichTextToolbar {
-	background-color: #f3f3f3;
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #eeeeee 98%);
-	background-image: linear-gradient(to bottom,#f3f3f3 2%, #eeeeee 98%);
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #f3f3f3 98%);
+	background-image: linear-gradient(to bottom,#f8f8f8 2%, #f3f3f3 98%);
 	-webkit-box-shadow: inset 0 1px 0 white;
 	box-shadow: inset 0 1px 0 white;
 	border-bottom: 1px solid #aaa;
-	color: #444444;
+	color: #454545;
 }
 
 .moware .v-richtextarea .gwt-ToggleButton, .moware .v-richtextarea .gwt-PushButton {
@@ -11944,9 +11920,9 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-richtextarea .gwt-ToggleButton-down, .moware .v-richtextarea .gwt-ToggleButton-down-hovering {
-	background-color: #dadada;
-	background-image: -webkit-linear-gradient(bottom, #dadada 2%, #d8d8d8 98%);
-	background-image: linear-gradient(to top,#dadada 2%, #d8d8d8 98%);
+	background-color: #dfdfdf;
+	background-image: -webkit-linear-gradient(bottom, #dfdfdf 2%, #dddddd 98%);
+	background-image: linear-gradient(to top,#dfdfdf 2%, #dddddd 98%);
 }
 
 .moware .v-richtextarea .gwt-RichTextToolbar-top img {
@@ -12134,7 +12110,7 @@ div.v-layout.v-horizontal.v-widget {
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
-	background: #f8f8f8;
+	background: #fdfdfd;
 	-webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
 	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
 	padding: 12px 14px;
@@ -13120,7 +13096,7 @@ div.v-layout.v-horizontal.v-widget {
 	line-height: 1.8em;
 	padding-left: 2.66667px;
 	font-weight: bold;
-	color: #6B7D99;
+	color: #454545;
 }
 
 .moware .mo-lablespace {
@@ -13129,7 +13105,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-window-header {
-	color: #6B7D99 !important;
+	color: #454545 !important;
 }
 
 .moware .v-window {
@@ -13145,7 +13121,7 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-table-header-wrap {
-	background-image: -webkit-linear-gradient(top, #f3f3f3 2%, #B8B8B8 98%);
+	background-image: -webkit-linear-gradient(top, #f8f8f8 2%, #B8B8B8 98%);
 }
 
 .moware .v-table-table td {
@@ -13154,6 +13130,14 @@ div.v-layout.v-horizontal.v-widget {
 
 .moware .v-table-cell-content {
 	border-left: 1px solid #dddddd !important;
+}
+
+.moware .v-selected .v-table-cell-content {
+	color: #f1f5fa !important;
+}
+
+.moware .v-table {
+	color: #454545;
 }
 
 .moware .mo-table .mo-linecounter {
@@ -13217,7 +13201,11 @@ div.v-layout.v-horizontal.v-widget {
 }
 
 .moware .v-textfield:disabled, .moware .v-filterselect-input:disabled {
-	color: #000000 !important;
+	color: #454545 !important;
+}
+
+.moware .v-textfield.v-disabled, .moware .v-filterselect.v-disabled {
+	opacity: 0.75;
 }
 
 .moware .mo-tile-layout {

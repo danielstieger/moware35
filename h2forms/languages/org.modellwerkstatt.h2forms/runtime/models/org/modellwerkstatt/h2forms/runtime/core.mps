@@ -867,6 +867,14 @@
               <node concept="37vLTw" id="63IPdUQ$kGo" role="37wK5m">
                 <ref role="3cqZAo" node="3VF1NMV5RDA" resolve="guessedServerName" />
               </node>
+              <node concept="2OqwBi" id="1LWMBWz3uWL" role="37wK5m">
+                <node concept="37vLTw" id="1LWMBWz3uR8" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+                </node>
+                <node concept="liA8E" id="1LWMBWz3vNF" role="2OqNvi">
+                  <ref role="37wK5l" to="250q:1LWMBWz3oW1" resolve="getKafkaLoggingServer" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

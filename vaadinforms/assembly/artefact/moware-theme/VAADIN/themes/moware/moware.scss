@@ -100,6 +100,8 @@
 	.v-table-cell-content { border-left: 1px solid #dddddd !important; }
 	.v-selected .v-table-cell-content { color: #f1f5fa !important; }
 	
+	.v-table { color: $mo-flag-label-color; }
+		
 	.mo-table {
 		/* check table settings in _variables.scss */
 		
@@ -180,7 +182,10 @@
 	}
 	
 	.v-textfield:disabled, .v-filterselect-input:disabled {
-		color: #000000 !important;
+		color: #454545 !important;
+	}
+	.v-textfield.v-disabled, .v-filterselect.v-disabled {
+		opacity: 0.75;
 	}
 	
 	.mo-tile-layout {
