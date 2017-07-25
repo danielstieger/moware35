@@ -1555,21 +1555,6 @@
           </node>
         </node>
       </node>
-      <node concept="1W57fq" id="5dZoziRf_QI" role="lGtFl">
-        <property role="34cw8o" value="No Super" />
-        <node concept="3IZrLx" id="5dZoziRf_QL" role="3IZSJc">
-          <node concept="3clFbS" id="5dZoziRf_QM" role="2VODD2">
-            <node concept="3clFbF" id="5dZoziRf_QS" role="3cqZAp">
-              <node concept="2OqwBi" id="5dZoziRf_QN" role="3clFbG">
-                <node concept="30H73N" id="5dZoziRf_QR" role="2Oq$k0" />
-                <node concept="2qgKlT" id="5dZoziRfHqo" role="2OqNvi">
-                  <ref role="37wK5l" to="70o0:5dZoziQEPK7" resolve="hasNoSuperClass" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
     <node concept="2tJIrI" id="5WxVUBAoJjm" role="jymVt" />
     <node concept="312cEg" id="5WxVUBAooLY" role="jymVt">
