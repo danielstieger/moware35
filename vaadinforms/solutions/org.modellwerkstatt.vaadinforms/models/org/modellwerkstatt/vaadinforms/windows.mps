@@ -43,7 +43,7 @@
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
     <import index="1zb0" ref="0460caee-4107-44cf-b689-af78c260c48e/java:com.vaadin.data.validator(org.modellwerkstatt.vaadinforms/)" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
-    <import index="q5pa" ref="r:e55c8f7d-02fa-439c-ab21-b010cdd311af(org.modellwerkstatt.vaadinforms.auth)" />
+    <import index="w1x3" ref="r:76480de2-fa88-48a2-bd7b-72164b8122e1(org.modellwerkstatt.vaadinforms.auth)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" implicit="true" />
   </imports>
   <registry>
@@ -1742,7 +1742,7 @@
                   <node concept="3cpWsn" id="5$BCFrw9R1N" role="3cpWs9">
                     <property role="TrG5h" value="result" />
                     <node concept="3uibUv" id="5$BCFrw9R1O" role="1tU5fm">
-                      <ref role="3uigEE" to="q5pa:5$BCFrw9Ov8" resolve="IVAuthentication.IAuthResult" />
+                      <ref role="3uigEE" to="w1x3:5$BCFrw9Ov8" resolve="IVAuthentication.IAuthResult" />
                     </node>
                     <node concept="2OqwBi" id="5$BCFrw9HhK" role="33vP2m">
                       <node concept="2OqwBi" id="5$BCFrwboIC" role="2Oq$k0">
@@ -1754,7 +1754,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="5$BCFrw9HnW" role="2OqNvi">
-                        <ref role="37wK5l" to="q5pa:5$BCFrw7a_G" resolve="authenticate" />
+                        <ref role="37wK5l" to="w1x3:5$BCFrw7a_G" resolve="authenticate" />
                         <node concept="37vLTw" id="5$BCFrw9HCp" role="37wK5m">
                           <ref role="3cqZAo" node="6MOvunDm2Ue" resolve="request" />
                         </node>
@@ -1781,7 +1781,7 @@
                             <ref role="3cqZAo" node="5$BCFrw9R1N" resolve="result" />
                           </node>
                           <node concept="liA8E" id="4FiFGILfSS2" role="2OqNvi">
-                            <ref role="37wK5l" to="q5pa:5$BCFrw9O$$" resolve="getUserName" />
+                            <ref role="37wK5l" to="w1x3:5$BCFrw9O$$" resolve="getUserName" />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="4FiFGILfTbt" role="37wK5m">
@@ -1789,7 +1789,7 @@
                             <ref role="3cqZAo" node="5$BCFrw9R1N" resolve="result" />
                           </node>
                           <node concept="liA8E" id="4FiFGILfTeI" role="2OqNvi">
-                            <ref role="37wK5l" to="q5pa:5$BCFrw9O_K" resolve="getPassword" />
+                            <ref role="37wK5l" to="w1x3:5$BCFrw9O_K" resolve="getPassword" />
                           </node>
                         </node>
                       </node>
@@ -1801,7 +1801,7 @@
                       <ref role="3cqZAo" node="5$BCFrw9R1N" resolve="result" />
                     </node>
                     <node concept="liA8E" id="5$BCFrwamnm" role="2OqNvi">
-                      <ref role="37wK5l" to="q5pa:5$BCFrw9Ox_" resolve="isAuthenticated" />
+                      <ref role="37wK5l" to="w1x3:5$BCFrw9Ox_" resolve="isAuthenticated" />
                     </node>
                   </node>
                   <node concept="9aQIb" id="5$BCFrwamwB" role="9aQIa">
@@ -1819,7 +1819,7 @@
                               <ref role="3cqZAo" node="5$BCFrw9R1N" resolve="result" />
                             </node>
                             <node concept="liA8E" id="5$BCFrwb2v1" role="2OqNvi">
-                              <ref role="37wK5l" to="q5pa:5$BCFrwa9Ke" resolve="getMessage" />
+                              <ref role="37wK5l" to="w1x3:5$BCFrwa9Ke" resolve="getMessage" />
                             </node>
                           </node>
                         </node>
@@ -1840,7 +1840,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="5$BCFrw9EFu" role="2OqNvi">
-                    <ref role="37wK5l" to="q5pa:5$BCFrw7azk" resolve="needsLoginWindow" />
+                    <ref role="37wK5l" to="w1x3:5$BCFrw7azk" resolve="needsLoginWindow" />
                   </node>
                 </node>
               </node>
@@ -2322,7 +2322,7 @@
                         </node>
                       </node>
                       <node concept="liA8E" id="4FiFGILfjd_" role="2OqNvi">
-                        <ref role="37wK5l" to="q5pa:4FiFGILfhHH" resolve="sessionMaxInactiveIntervallAfterAppLogin" />
+                        <ref role="37wK5l" to="w1x3:4FiFGILfhHH" resolve="sessionMaxInactiveIntervallAfterAppLogin" />
                       </node>
                     </node>
                   </node>
@@ -3032,7 +3032,7 @@
       <property role="TrG5h" value="authenticationInterface" />
       <node concept="3Tm6S6" id="5$BCFrw7kmo" role="1B3o_S" />
       <node concept="3uibUv" id="5$BCFrw8Xbo" role="1tU5fm">
-        <ref role="3uigEE" to="q5pa:5$BCFrw711J" resolve="IVAuthentication" />
+        <ref role="3uigEE" to="w1x3:5$BCFrw711J" resolve="IVAuthentication" />
       </node>
     </node>
     <node concept="2tJIrI" id="4QTIUTBQt4D" role="jymVt" />
@@ -3085,7 +3085,7 @@
     <node concept="3clFb_" id="5$BCFrw8YCp" role="jymVt">
       <property role="TrG5h" value="getAuthenticationInterface" />
       <node concept="3uibUv" id="5$BCFrw8ZkG" role="3clF45">
-        <ref role="3uigEE" to="q5pa:5$BCFrw711J" resolve="IVAuthentication" />
+        <ref role="3uigEE" to="w1x3:5$BCFrw711J" resolve="IVAuthentication" />
       </node>
       <node concept="3Tm1VV" id="5$BCFrw8YCr" role="1B3o_S" />
       <node concept="3clFbS" id="5$BCFrw8YCs" role="3clF47">
@@ -3412,7 +3412,7 @@
                 <node concept="1eOMI4" id="5$BCFrw7mfJ" role="37vLTx">
                   <node concept="10QFUN" id="5$BCFrw7mfG" role="1eOMHV">
                     <node concept="3uibUv" id="5$BCFrw7mt8" role="10QFUM">
-                      <ref role="3uigEE" to="q5pa:5$BCFrw711J" resolve="IVAuthentication" />
+                      <ref role="3uigEE" to="w1x3:5$BCFrw711J" resolve="IVAuthentication" />
                     </node>
                     <node concept="2OqwBi" id="5$BCFrw7mfL" role="10QFUP">
                       <node concept="2OqwBi" id="5$BCFrw7mfM" role="2Oq$k0">
@@ -26666,7 +26666,7 @@
           <node concept="3cpWsn" id="4FiFGILgLeY" role="3cpWs9">
             <property role="TrG5h" value="result" />
             <node concept="3uibUv" id="4FiFGILgLeZ" role="1tU5fm">
-              <ref role="3uigEE" to="q5pa:5$BCFrw9Ov8" resolve="IVAuthentication.IAuthResult" />
+              <ref role="3uigEE" to="w1x3:5$BCFrw9Ov8" resolve="IVAuthentication.IAuthResult" />
             </node>
             <node concept="2OqwBi" id="4FiFGILgLf0" role="33vP2m">
               <node concept="2OqwBi" id="4FiFGILgLf1" role="2Oq$k0">
@@ -26678,7 +26678,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="4FiFGILgLf4" role="2OqNvi">
-                <ref role="37wK5l" to="q5pa:5$BCFrw7a_G" resolve="authenticate" />
+                <ref role="37wK5l" to="w1x3:5$BCFrw7a_G" resolve="authenticate" />
                 <node concept="10Nm6u" id="4FiFGILgZf1" role="37wK5m" />
                 <node concept="2OqwBi" id="4FiFGILh0vE" role="37wK5m">
                   <node concept="2OqwBi" id="4FiFGILgZWW" role="2Oq$k0">
@@ -26717,7 +26717,7 @@
                       <ref role="3cqZAo" node="4FiFGILgLeY" resolve="result" />
                     </node>
                     <node concept="liA8E" id="4FiFGILgLff" role="2OqNvi">
-                      <ref role="37wK5l" to="q5pa:5$BCFrw9O$$" resolve="getUserName" />
+                      <ref role="37wK5l" to="w1x3:5$BCFrw9O$$" resolve="getUserName" />
                     </node>
                   </node>
                   <node concept="2OqwBi" id="4FiFGILgLfg" role="37wK5m">
@@ -26725,7 +26725,7 @@
                       <ref role="3cqZAo" node="4FiFGILgLeY" resolve="result" />
                     </node>
                     <node concept="liA8E" id="4FiFGILgLfi" role="2OqNvi">
-                      <ref role="37wK5l" to="q5pa:5$BCFrw9O_K" resolve="getPassword" />
+                      <ref role="37wK5l" to="w1x3:5$BCFrw9O_K" resolve="getPassword" />
                     </node>
                   </node>
                 </node>
@@ -26738,7 +26738,7 @@
               <ref role="3cqZAo" node="4FiFGILgLeY" resolve="result" />
             </node>
             <node concept="liA8E" id="4FiFGILgLfm" role="2OqNvi">
-              <ref role="37wK5l" to="q5pa:5$BCFrw9Ox_" resolve="isAuthenticated" />
+              <ref role="37wK5l" to="w1x3:5$BCFrw9Ox_" resolve="isAuthenticated" />
             </node>
           </node>
           <node concept="9aQIb" id="4FiFGILgLfn" role="9aQIa">
@@ -26760,7 +26760,7 @@
                         <ref role="3cqZAo" node="4FiFGILgLeY" resolve="result" />
                       </node>
                       <node concept="liA8E" id="4FiFGILh4mE" role="2OqNvi">
-                        <ref role="37wK5l" to="q5pa:5$BCFrwa9Ke" resolve="getMessage" />
+                        <ref role="37wK5l" to="w1x3:5$BCFrwa9Ke" resolve="getMessage" />
                       </node>
                     </node>
                   </node>
