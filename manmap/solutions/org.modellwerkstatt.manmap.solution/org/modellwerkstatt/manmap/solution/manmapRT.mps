@@ -4091,7 +4091,7 @@
     <node concept="3clFb_" id="6vtMBTngXqz" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="addEntityAsCheckedOut" />
+      <property role="TrG5h" value="ensureInSession" />
       <node concept="3clFbS" id="6vtMBTngXqA" role="3clF47" />
       <node concept="3Tm1VV" id="6vtMBTngXqB" role="1B3o_S" />
       <node concept="3cqZAl" id="6vtMBTngXlK" role="3clF45" />
@@ -4335,7 +4335,7 @@
     </node>
     <node concept="2tJIrI" id="6vtMBTnh0Jg" role="jymVt" />
     <node concept="3clFb_" id="6vtMBTnh7fU" role="jymVt">
-      <property role="TrG5h" value="addEntityAsCheckedOut" />
+      <property role="TrG5h" value="ensureInSession" />
       <node concept="37vLTG" id="6vtMBTnh9k$" role="3clF46">
         <property role="TrG5h" value="obj" />
         <node concept="3uibUv" id="6vtMBTnDctY" role="1tU5fm">
@@ -4542,7 +4542,7 @@
                 <node concept="3clFbS" id="6vtMBTnCK47" role="2LFqv$">
                   <node concept="3clFbF" id="6vtMBTnCKTZ" role="3cqZAp">
                     <node concept="1rXfSq" id="6vtMBTnCKTY" role="3clFbG">
-                      <ref role="37wK5l" node="6vtMBTnh7fU" resolve="addEntityAsCheckedOut" />
+                      <ref role="37wK5l" node="6vtMBTnh7fU" resolve="ensureInSession" />
                       <node concept="37vLTw" id="6vtMBTnCL5o" role="37wK5m">
                         <ref role="3cqZAo" node="6vtMBTnCK45" resolve="singleEntity" />
                       </node>

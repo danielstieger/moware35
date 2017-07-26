@@ -26996,7 +26996,57 @@
         </node>
       </node>
     </node>
-    <node concept="1DF_5m" id="4eJAcMlj9hy" role="3yMuLx" />
+    <node concept="3yPF9F" id="5XGplYBe3R$" role="3yMuLx">
+      <property role="TrG5h" value="Adding a new entity to session sets session dirty." />
+      <node concept="3cqZAl" id="5XGplYBe4G4" role="3clF45" />
+      <node concept="3clFbS" id="5XGplYBe3RC" role="3clF47">
+        <node concept="3cpWs8" id="5XGplYBe5sl" role="3cqZAp">
+          <node concept="3cpWsn" id="5XGplYBe5sm" role="3cpWs9">
+            <property role="TrG5h" value="session" />
+            <node concept="3uibUv" id="5XGplYBe5sn" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+            <node concept="3er55J" id="5XGplYBe5th" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5XGplYBe5uR" role="3cqZAp">
+          <node concept="3cpWsn" id="5XGplYBe5uS" role="3cpWs9">
+            <property role="TrG5h" value="inv" />
+            <node concept="3uibUv" id="5XGplYBe5uT" role="1tU5fm">
+              <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="2ShNRf" id="5XGplYBe5vw" role="33vP2m">
+              <node concept="1pGfFk" id="5XGplYBe5vo" role="2ShVmc">
+                <ref role="37wK5l" node="612_n8HbEOF" resolve="Invoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5XGplYBe5x$" role="3cqZAp">
+          <node concept="2OqwBi" id="5XGplYBe5ye" role="3clFbG">
+            <node concept="37vLTw" id="5XGplYBe5xy" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XGplYBe5sm" resolve="session" />
+            </node>
+            <node concept="liA8E" id="5XGplYBe5zv" role="2OqNvi">
+              <ref role="37wK5l" to="w7gk:6vtMBTngXqz" resolve="ensureInSession" />
+              <node concept="37vLTw" id="5XGplYBe5zP" role="37wK5m">
+                <ref role="3cqZAo" node="5XGplYBe5uS" resolve="inv" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="5XGplYBe5$w" role="3cqZAp">
+          <node concept="2OqwBi" id="5XGplYBe5Aa" role="1gVkn0">
+            <node concept="37vLTw" id="5XGplYBe5_l" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XGplYBe5sm" resolve="session" />
+            </node>
+            <node concept="liA8E" id="5XGplYBe5Cy" role="2OqNvi">
+              <ref role="37wK5l" to="w7gk:6ovpBeWDqiv" resolve="isDirty" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1DF_5m" id="4eJAcMlh$$r" role="3yMuLx" />
   </node>
   <node concept="wbJL_" id="1lpzdTlNdbG">
