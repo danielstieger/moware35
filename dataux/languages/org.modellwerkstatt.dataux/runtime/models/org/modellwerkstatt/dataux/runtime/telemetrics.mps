@@ -1225,7 +1225,17 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3CnNtH_0Aoa" role="3cqZAp" />
+            <node concept="3clFbF" id="5XGplYB9C7w" role="3cqZAp">
+              <node concept="2OqwBi" id="5XGplYB9Cbv" role="3clFbG">
+                <node concept="37vLTw" id="5XGplYB9C7u" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2yuEF6qaF3t" resolve="appTelemetrics" />
+                </node>
+                <node concept="liA8E" id="5XGplYB9CBk" role="2OqNvi">
+                  <ref role="37wK5l" node="5XGplYB9wIO" resolve="incClient" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="5XGplYB9CIa" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="1EBV9L$_BGc" role="TEbGg">
             <node concept="3clFbS" id="1EBV9L$_BGd" role="TDEfX">
@@ -1431,6 +1441,16 @@
                       </node>
                     </node>
                   </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5XGplYB9CSe" role="3cqZAp">
+              <node concept="2OqwBi" id="5XGplYB9CSf" role="3clFbG">
+                <node concept="37vLTw" id="5XGplYB9CSg" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2yuEF6qaF3t" resolve="appTelemetrics" />
+                </node>
+                <node concept="liA8E" id="5XGplYB9CSh" role="2OqNvi">
+                  <ref role="37wK5l" node="5XGplYB9zZI" resolve="decClient" />
                 </node>
               </node>
             </node>
@@ -1898,6 +1918,13 @@
         <ref role="3uigEE" to="i5cy:~AtomicLong" resolve="AtomicLong" />
       </node>
     </node>
+    <node concept="312cEg" id="5XGplYB9mjz" role="jymVt">
+      <property role="TrG5h" value="totalClients" />
+      <node concept="3Tm6S6" id="5XGplYB9mj$" role="1B3o_S" />
+      <node concept="3uibUv" id="5XGplYB9o9J" role="1tU5fm">
+        <ref role="3uigEE" to="i5cy:~AtomicInteger" resolve="AtomicInteger" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="6EsTBrVcy4$" role="jymVt" />
     <node concept="312cEg" id="6EsTBrVcxXg" role="jymVt">
       <property role="TrG5h" value="openCommands" />
@@ -2255,6 +2282,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5XGplYB9nwh" role="3cqZAp">
+          <node concept="37vLTI" id="5XGplYB9nwi" role="3clFbG">
+            <node concept="2ShNRf" id="5XGplYB9nwj" role="37vLTx">
+              <node concept="1pGfFk" id="5XGplYB9nwk" role="2ShVmc">
+                <ref role="37wK5l" to="i5cy:~AtomicInteger.&lt;init&gt;(int)" resolve="AtomicInteger" />
+                <node concept="3cmrfG" id="5XGplYB9nwl" role="37wK5m">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="5XGplYB9nUG" role="37vLTJ">
+              <ref role="3cqZAo" node="5XGplYB9mjz" resolve="totalClients" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="4NOhjsrFo1K" role="3cqZAp" />
         <node concept="3clFbF" id="1XvfUly$7rr" role="3cqZAp">
           <node concept="37vLTI" id="1XvfUly$7$6" role="3clFbG">
@@ -2528,6 +2570,26 @@
             </node>
             <node concept="liA8E" id="3c4zI83Vlkz" role="2OqNvi">
               <ref role="37wK5l" to="oz00:~AbstractInstant.toString():java.lang.String" resolve="toString" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5XGplYB9oo$" role="jymVt" />
+    <node concept="3clFb_" id="5XGplYB9pmL" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getclients_unique" />
+      <node concept="3Tm1VV" id="5XGplYB9pmN" role="1B3o_S" />
+      <node concept="10Oyi0" id="5XGplYB9pmO" role="3clF45" />
+      <node concept="3clFbS" id="5XGplYB9pmR" role="3clF47">
+        <node concept="3cpWs6" id="5XGplYB9qqg" role="3cqZAp">
+          <node concept="2OqwBi" id="5XGplYB9uaJ" role="3cqZAk">
+            <node concept="37vLTw" id="5XGplYB9qrF" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XGplYB9mjz" resolve="totalClients" />
+            </node>
+            <node concept="liA8E" id="5XGplYB9uYo" role="2OqNvi">
+              <ref role="37wK5l" to="i5cy:~AtomicInteger.get():int" resolve="get" />
             </node>
           </node>
         </node>
@@ -3064,7 +3126,41 @@
       <node concept="3cqZAl" id="6EsTBrVcxay" role="3clF45" />
       <node concept="3Tm1VV" id="6EsTBrVcxaz" role="1B3o_S" />
     </node>
-    <node concept="2tJIrI" id="6EsTBrVcwWh" role="jymVt" />
+    <node concept="3clFb_" id="5XGplYB9wIO" role="jymVt">
+      <property role="TrG5h" value="incClient" />
+      <node concept="3cqZAl" id="5XGplYB9wIQ" role="3clF45" />
+      <node concept="3Tm1VV" id="5XGplYB9wIR" role="1B3o_S" />
+      <node concept="3clFbS" id="5XGplYB9wIS" role="3clF47">
+        <node concept="3clFbF" id="5XGplYB9zI_" role="3cqZAp">
+          <node concept="2OqwBi" id="5XGplYB9zJP" role="3clFbG">
+            <node concept="37vLTw" id="5XGplYB9zI$" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XGplYB9mjz" resolve="totalClients" />
+            </node>
+            <node concept="liA8E" id="5XGplYB9zYY" role="2OqNvi">
+              <ref role="37wK5l" to="i5cy:~AtomicInteger.incrementAndGet():int" resolve="incrementAndGet" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5XGplYB9zZI" role="jymVt">
+      <property role="TrG5h" value="decClient" />
+      <node concept="3cqZAl" id="5XGplYB9zZJ" role="3clF45" />
+      <node concept="3Tm1VV" id="5XGplYB9zZK" role="1B3o_S" />
+      <node concept="3clFbS" id="5XGplYB9zZL" role="3clF47">
+        <node concept="3clFbF" id="5XGplYB9zZM" role="3cqZAp">
+          <node concept="2OqwBi" id="5XGplYB9zZN" role="3clFbG">
+            <node concept="37vLTw" id="5XGplYB9zZO" role="2Oq$k0">
+              <ref role="3cqZAo" node="5XGplYB9mjz" resolve="totalClients" />
+            </node>
+            <node concept="liA8E" id="5XGplYB9zZP" role="2OqNvi">
+              <ref role="37wK5l" to="i5cy:~AtomicInteger.decrementAndGet():int" resolve="decrementAndGet" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5XGplYB9vLT" role="jymVt" />
     <node concept="3clFb_" id="2yuEF6qe5mL" role="jymVt">
       <property role="TrG5h" value="servedRequest" />
       <property role="IEkAT" value="false" />
@@ -5408,7 +5504,15 @@
       <node concept="3Tm1VV" id="5XGplYAWcfh" role="1B3o_S" />
       <node concept="3clFbS" id="5XGplYAWcfi" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="5YG5DD8Uzfe" role="jymVt" />
+    <node concept="3clFb_" id="5XGplYB9ku0" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getclients_unique" />
+      <node concept="3clFbS" id="5XGplYB9ku3" role="3clF47" />
+      <node concept="3Tm1VV" id="5XGplYB9ku4" role="1B3o_S" />
+      <node concept="10Oyi0" id="5XGplYB9kmQ" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="5XGplYB9kgP" role="jymVt" />
     <node concept="3clFb_" id="3c4zI83VcPY" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getjmx_StartupWas" />

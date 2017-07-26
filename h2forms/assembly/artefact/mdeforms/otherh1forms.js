@@ -8,6 +8,18 @@
 
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
+var wheelIndicator = '-\\|/';
+var wheelIndicatorCurPos = 0; 
+
+function wheelIndicatorLoop() {
+	if (wheelIndicatorCurPos >= wheelIndicator.length) {
+		wheelIndicatorCurPos = 0;
+	}
+
+	$('#dbgFld').innerHTML = wheelIndicator[wheelIndicatorCurPos];
+	wheelIndicatorCurPos ++;
+}
+
 function moLog(s) {
 	var curLog = $('#dbgFld').innerHTML;
 	curLog = curLog + '<br>' + s;
@@ -324,7 +336,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	
     // keyboard is disabled by default 
 	mykeyboardEnabled(true);
-
+	setInterval(wheelIndicatorLoop, 2000);
     // console.log('AFTER bodyOnLoadFunction() exec.');
     // moLog('Span Fontsize ' + window.getComputedStyle($('span')).getPropertyValue('font-size'));
     // moLog('Window ' + window.innerHeight + ' x ' + window.innerWidth);

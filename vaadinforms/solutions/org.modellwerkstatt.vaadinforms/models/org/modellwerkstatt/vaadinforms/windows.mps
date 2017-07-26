@@ -3978,11 +3978,19 @@
                         <node concept="1Rwk04" id="5XGplYB7eF1" role="2OqNvi" />
                       </node>
                     </node>
-                    <node concept="3y3z36" id="5XGplYB7dIJ" role="3uHU7B">
-                      <node concept="37vLTw" id="5XGplYB7duU" role="3uHU7B">
-                        <ref role="3cqZAo" node="5XGplYB7aUG" resolve="idParam" />
+                    <node concept="1Wc70l" id="5XGplYB9e5v" role="3uHU7B">
+                      <node concept="3y3z36" id="5XGplYB9ert" role="3uHU7B">
+                        <node concept="10Nm6u" id="5XGplYB9ewI" role="3uHU7w" />
+                        <node concept="37vLTw" id="5XGplYB9elI" role="3uHU7B">
+                          <ref role="3cqZAo" node="4z69JWf00zN" resolve="vaadinSession" />
+                        </node>
                       </node>
-                      <node concept="10Nm6u" id="5XGplYB7dMo" role="3uHU7w" />
+                      <node concept="3y3z36" id="5XGplYB7dIJ" role="3uHU7w">
+                        <node concept="37vLTw" id="5XGplYB7duU" role="3uHU7B">
+                          <ref role="3cqZAo" node="5XGplYB7aUG" resolve="idParam" />
+                        </node>
+                        <node concept="10Nm6u" id="5XGplYB7dMo" role="3uHU7w" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -4071,6 +4079,21 @@
                     <node concept="37vLTw" id="1yQJrOWzh7N" role="37wK5m">
                       <ref role="3cqZAo" node="1yQJrOWzdPo" resolve="e" />
                     </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5XGplYBa0WO" role="3cqZAp">
+                <node concept="2OqwBi" id="5XGplYBa1hw" role="3clFbG">
+                  <node concept="2OqwBi" id="5XGplYBa11c" role="2Oq$k0">
+                    <node concept="37vLTw" id="5XGplYBa0WM" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1EBV9L$tw45" resolve="jmxRegistration" />
+                    </node>
+                    <node concept="liA8E" id="5XGplYBa1g5" role="2OqNvi">
+                      <ref role="37wK5l" to="x37d:5YG5DD8WHBQ" resolve="getAppTelemetrics" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="5XGplYBa1y3" role="2OqNvi">
+                    <ref role="37wK5l" to="x37d:2yuEF6qe9DF" resolve="incException" />
                   </node>
                 </node>
               </node>
