@@ -207,6 +207,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <property id="521412098689998745" name="nonStatic" index="2bfB8j" />
@@ -407,6 +408,33 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5XGplYAYFsO" role="jymVt" />
+    <node concept="3clFb_" id="5XGplYAYFUF" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getSettingsDescription" />
+      <node concept="17QB3L" id="5XGplYAYFUG" role="3clF45" />
+      <node concept="3Tm1VV" id="5XGplYAYFUH" role="1B3o_S" />
+      <node concept="3clFbS" id="5XGplYAYFUR" role="3clF47">
+        <node concept="3clFbF" id="5XGplYAYFUU" role="3cqZAp">
+          <node concept="3cpWs3" id="5XGplYAYGOH" role="3clFbG">
+            <node concept="37vLTw" id="5XGplYAYH3i" role="3uHU7w">
+              <ref role="3cqZAo" node="2Gn_LTGnCb4" resolve="configuredStaticContentAddr" />
+            </node>
+            <node concept="3cpWs3" id="5XGplYAYGt7" role="3uHU7B">
+              <node concept="3nyPlj" id="5XGplYAYFUT" role="3uHU7B">
+                <ref role="37wK5l" to="1e0c:5XGplYAYyy9" resolve="getSettingsDescription" />
+              </node>
+              <node concept="Xl_RD" id="5XGplYAYGuK" role="3uHU7w">
+                <property role="Xl_RC" value=", ExtStaticContentUrl: " />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5XGplYAYFUS" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3clFb_" id="1LWMBWz2oht" role="jymVt">

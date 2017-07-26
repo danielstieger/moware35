@@ -3948,6 +3948,9 @@
             </node>
             <node concept="liA8E" id="2yuEF6qoOxd" role="2OqNvi">
               <ref role="37wK5l" to="x37d:2yuEF6qaG8a" resolve="registerAppTelemetrics" />
+              <node concept="37vLTw" id="5XGplYB2vcQ" role="37wK5m">
+                <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
+              </node>
               <node concept="2OqwBi" id="2yuEF6qoP98" role="37wK5m">
                 <node concept="2OqwBi" id="2yuEF6qoOHt" role="2Oq$k0">
                   <node concept="37vLTw" id="2yuEF6qoO$w" role="2Oq$k0">
@@ -3959,19 +3962,6 @@
                 </node>
                 <node concept="liA8E" id="2yuEF6qoPKf" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="6BKPvpDrA$X" role="37wK5m">
-                <node concept="2OqwBi" id="2yuEF6qoQ9v" role="2Oq$k0">
-                  <node concept="37vLTw" id="2yuEF6qoQt7" role="2Oq$k0">
-                    <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                  </node>
-                  <node concept="liA8E" id="2yuEF6qoQHZ" role="2OqNvi">
-                    <ref role="37wK5l" to="1e0c:69JiVbyY2dp" resolve="getPlatform" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="6BKPvpDrAMS" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
                 </node>
               </node>
               <node concept="3cpWs3" id="2yuEF6qoRMp" role="37wK5m">
@@ -3997,14 +3987,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="2yuEF6qqkou" role="37wK5m">
-                <node concept="37vLTw" id="2yuEF6qqkhy" role="2Oq$k0">
-                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                </node>
-                <node concept="liA8E" id="2yuEF6qqkHi" role="2OqNvi">
-                  <ref role="37wK5l" to="1e0c:4T6wObo7r$N" resolve="getConnectionUrl" />
-                </node>
-              </node>
               <node concept="3cpWs3" id="5YG5DD91on7" role="37wK5m">
                 <node concept="10M0yZ" id="5YG5DD91pDt" role="3uHU7w">
                   <ref role="1PxDUh" to="ache:2zlZ_in5Vzm" resolve="DefaultTrans" />
@@ -4016,14 +3998,6 @@
               </node>
               <node concept="Xl_RD" id="63IPdUQC0Cd" role="37wK5m">
                 <property role="Xl_RC" value="local" />
-              </node>
-              <node concept="2OqwBi" id="1LWMBWz3oy2" role="37wK5m">
-                <node concept="37vLTw" id="1LWMBWz3oqA" role="2Oq$k0">
-                  <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
-                </node>
-                <node concept="liA8E" id="1LWMBWz3qRe" role="2OqNvi">
-                  <ref role="37wK5l" to="1e0c:1LWMBWz3yBI" resolve="getKafkaLoggingServer" />
-                </node>
               </node>
             </node>
           </node>
@@ -25950,30 +25924,17 @@
           <node concept="3clFbS" id="2ylNKzLwAJC" role="2LFqv$">
             <node concept="3clFbJ" id="2ylNKzIp$QU" role="3cqZAp">
               <node concept="3clFbS" id="2ylNKzIp$QV" role="3clFbx">
-                <node concept="3clFbJ" id="2ylNKzLyeXm" role="3cqZAp">
-                  <property role="TyiWK" value="false" />
-                  <property role="TyiWL" value="true" />
-                  <node concept="3clFbS" id="2ylNKzLyeXn" role="3clFbx">
-                    <node concept="3clFbF" id="2ylNKzLyqie" role="3cqZAp">
-                      <node concept="37vLTI" id="2ylNKzLyrl3" role="3clFbG">
-                        <node concept="37vLTw" id="2ylNKzLyrWV" role="37vLTx">
-                          <ref role="3cqZAo" node="2ylNKzLwAJF" resolve="i" />
-                        </node>
-                        <node concept="37vLTw" id="2ylNKzLyqid" role="37vLTJ">
-                          <ref role="3cqZAo" node="2ylNKzLvqma" resolve="focussedOnError" />
-                        </node>
-                      </node>
+                <node concept="3clFbF" id="3GKiyr8HWxL" role="3cqZAp">
+                  <node concept="37vLTI" id="3GKiyr8HX9N" role="3clFbG">
+                    <node concept="37vLTw" id="3GKiyr8HXok" role="37vLTx">
+                      <ref role="3cqZAo" node="2ylNKzLwAJF" resolve="i" />
                     </node>
-                  </node>
-                  <node concept="3clFbC" id="2ylNKzLykHr" role="3clFbw">
-                    <node concept="3cmrfG" id="2ylNKzLylpV" role="3uHU7w">
-                      <property role="3cmrfH" value="-1" />
-                    </node>
-                    <node concept="37vLTw" id="2ylNKzLyfbl" role="3uHU7B">
+                    <node concept="37vLTw" id="3GKiyr8HWxJ" role="37vLTJ">
                       <ref role="3cqZAo" node="2ylNKzLvqma" resolve="focussedOnError" />
                     </node>
                   </node>
                 </node>
+                <node concept="3zACq4" id="3GKiyr8HXTT" role="3cqZAp" />
               </node>
               <node concept="3fqX7Q" id="2ylNKzIp_ek" role="3clFbw">
                 <node concept="2OqwBi" id="2ylNKzIpHDC" role="3fr31v">
@@ -26044,19 +26005,20 @@
       <node concept="10P_77" id="2ylNKzIobXj" role="3clF45" />
       <node concept="3Tm1VV" id="2ylNKzIobXk" role="1B3o_S" />
       <node concept="3clFbS" id="2ylNKzIobXn" role="3clF47">
-        <node concept="1X3_iC" id="4xVSf7d5X7z" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="3RXxLokjfay" role="8Wnug">
-            <node concept="2OqwBi" id="3RXxLokjfau" role="3clFbG">
-              <node concept="10M0yZ" id="3RXxLokjfav" role="2Oq$k0">
-                <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              </node>
-              <node concept="liA8E" id="3RXxLokjfaw" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="Xl_RD" id="3RXxLokjfax" role="37wK5m">
-                  <property role="Xl_RC" value="DelegateForm.reCheckDelegatesValidAndFocus() ..." />
+        <node concept="3clFbF" id="3RXxLokjfay" role="3cqZAp">
+          <node concept="2OqwBi" id="3RXxLokjfau" role="3clFbG">
+            <node concept="10M0yZ" id="3RXxLokjfav" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="3RXxLokjfaw" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="3GKiyr8I0dz" role="37wK5m">
+                <node concept="37vLTw" id="3GKiyr8I0Et" role="3uHU7w">
+                  <ref role="3cqZAo" node="2ylNKzLvqma" resolve="focussedOnError" />
+                </node>
+                <node concept="Xl_RD" id="3RXxLokjfax" role="3uHU7B">
+                  <property role="Xl_RC" value="DelegateForm.reCheckDelegatesValidAndFocus() ... " />
                 </node>
               </node>
             </node>
@@ -26157,6 +26119,25 @@
           </node>
         </node>
         <node concept="3clFbH" id="2ylNKzLANxO" role="3cqZAp" />
+        <node concept="3clFbF" id="3GKiyr8I34$" role="3cqZAp">
+          <node concept="2OqwBi" id="3GKiyr8I34x" role="3clFbG">
+            <node concept="10M0yZ" id="3GKiyr8I34y" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="3GKiyr8I34z" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="3GKiyr8I4Wg" role="37wK5m">
+                <node concept="37vLTw" id="3GKiyr8I5C$" role="3uHU7w">
+                  <ref role="3cqZAo" node="2ylNKzLvqma" resolve="focussedOnError" />
+                </node>
+                <node concept="Xl_RD" id="3GKiyr8I4LZ" role="3uHU7B">
+                  <property role="Xl_RC" value="DelegateForm.reCheckDelegatesValidAndFocus()      setting focus on " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3SKdUt" id="2ylNKzL_M9n" role="3cqZAp">
           <node concept="3SKdUq" id="2ylNKzL_Qvy" role="3SKWNk">
             <property role="3SKdUp" value="set focus on error." />

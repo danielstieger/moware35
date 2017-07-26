@@ -260,7 +260,13 @@
       <node concept="3Tm1VV" id="1LWMBWz3oW3" role="1B3o_S" />
       <node concept="17QB3L" id="1LWMBWz3p6D" role="3clF45" />
     </node>
-    <node concept="2tJIrI" id="5Ld38uCpAb4" role="jymVt" />
+    <node concept="3clFb_" id="5XGplYAWG3H" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getSettingsDescription" />
+      <node concept="17QB3L" id="5XGplYAWGf5" role="3clF45" />
+      <node concept="3Tm1VV" id="5XGplYAWG3K" role="1B3o_S" />
+      <node concept="3clFbS" id="5XGplYAWG3L" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="5Ld38uCpAcA" role="jymVt" />
     <node concept="3clFb_" id="4XXgpA_yFXU" role="jymVt">
       <property role="1EzhhJ" value="true" />

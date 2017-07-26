@@ -795,21 +795,11 @@
             </node>
             <node concept="liA8E" id="2yuEF6qcra$" role="2OqNvi">
               <ref role="37wK5l" to="x37d:2yuEF6qaG8a" resolve="registerAppTelemetrics" />
+              <node concept="37vLTw" id="5XGplYAWMYi" role="37wK5m">
+                <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+              </node>
               <node concept="37vLTw" id="2yuEF6qctva" role="37wK5m">
                 <ref role="3cqZAo" node="5HhpRjTup7Y" resolve="genApplicationFqName" />
-              </node>
-              <node concept="2OqwBi" id="6BKPvpDl5Te" role="37wK5m">
-                <node concept="2OqwBi" id="2yuEF6qcvYI" role="2Oq$k0">
-                  <node concept="37vLTw" id="2yuEF6qcvU9" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
-                  </node>
-                  <node concept="liA8E" id="2yuEF6qcyKA" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="6BKPvpDl6MG" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
-                </node>
               </node>
               <node concept="3cpWs3" id="2yuEF6qd4Oa" role="37wK5m">
                 <node concept="3cpWs3" id="2yuEF6qd99I" role="3uHU7B">
@@ -832,14 +822,6 @@
                   <node concept="liA8E" id="2yuEF6qcC91" role="2OqNvi">
                     <ref role="37wK5l" to="yg8v:3sx4Hz319k9" resolve="getApplicationVersion" />
                   </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="2yuEF6quSDa" role="37wK5m">
-                <node concept="37vLTw" id="2yuEF6quSwH" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
-                </node>
-                <node concept="liA8E" id="2yuEF6quU7N" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:4T6wObo62Pu" resolve="getConnectionUrl" />
                 </node>
               </node>
               <node concept="3cpWs3" id="7708TIHKkCo" role="37wK5m">
@@ -866,14 +848,6 @@
               </node>
               <node concept="37vLTw" id="63IPdUQ$kGo" role="37wK5m">
                 <ref role="3cqZAo" node="3VF1NMV5RDA" resolve="guessedServerName" />
-              </node>
-              <node concept="2OqwBi" id="1LWMBWz3uWL" role="37wK5m">
-                <node concept="37vLTw" id="1LWMBWz3uR8" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
-                </node>
-                <node concept="liA8E" id="1LWMBWz3vNF" role="2OqNvi">
-                  <ref role="37wK5l" to="250q:1LWMBWz3oW1" resolve="getKafkaLoggingServer" />
-                </node>
               </node>
             </node>
           </node>
