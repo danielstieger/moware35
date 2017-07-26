@@ -533,80 +533,198 @@
         </node>
       </node>
       <node concept="3clFbS" id="gGnCBOHN2L" role="3clF47">
-        <node concept="3clFbJ" id="gGnCBOHOfm" role="3cqZAp">
-          <node concept="3y3z36" id="gGnCBOHOCs" role="3clFbw">
-            <node concept="10Nm6u" id="gGnCBOHOLw" role="3uHU7w" />
-            <node concept="37vLTw" id="gGnCBOHOt_" role="3uHU7B">
-              <ref role="3cqZAo" node="61_QXqSgjUn" resolve="applicationInstance" />
+        <node concept="3clFbJ" id="3GKiyr8HaCN" role="3cqZAp">
+          <node concept="3clFbS" id="3GKiyr8HaCP" role="3clFbx">
+            <node concept="3cpWs8" id="3GKiyr8HaT9" role="3cqZAp">
+              <node concept="3cpWsn" id="3GKiyr8HaTa" role="3cpWs9">
+                <property role="TrG5h" value="result" />
+                <node concept="3uibUv" id="3GKiyr8HaTb" role="1tU5fm">
+                  <ref role="3uigEE" to="w1x3:5$BCFrw9Ov8" resolve="IVAuthentication.IAuthResult" />
+                </node>
+                <node concept="2OqwBi" id="3GKiyr8HaTc" role="33vP2m">
+                  <node concept="2OqwBi" id="3GKiyr8HaTd" role="2Oq$k0">
+                    <node concept="37vLTw" id="3GKiyr8HaTe" role="2Oq$k0">
+                      <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                    </node>
+                    <node concept="liA8E" id="3GKiyr8HaTf" role="2OqNvi">
+                      <ref role="37wK5l" node="5$BCFrw8YCp" resolve="getAuthenticationInterface" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3GKiyr8HaTg" role="2OqNvi">
+                    <ref role="37wK5l" to="w1x3:5$BCFrw7a_G" resolve="authenticate" />
+                    <node concept="37vLTw" id="3GKiyr8HaTh" role="37wK5m">
+                      <ref role="3cqZAo" node="gGnCBOHN2J" resolve="request" />
+                    </node>
+                    <node concept="37vLTw" id="3GKiyr8HaTi" role="37wK5m">
+                      <ref role="3cqZAo" node="5$BCFrwaicV" resolve="appName" />
+                    </node>
+                    <node concept="Xl_RD" id="3GKiyr8HaTj" role="37wK5m">
+                      <property role="Xl_RC" value="" />
+                    </node>
+                    <node concept="Xl_RD" id="3GKiyr8HaTk" role="37wK5m">
+                      <property role="Xl_RC" value="" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="3GKiyr8HaTl" role="3cqZAp">
+              <node concept="3clFbS" id="3GKiyr8HaTm" role="3clFbx">
+                <node concept="3clFbF" id="3GKiyr8HaTn" role="3cqZAp">
+                  <node concept="1rXfSq" id="3GKiyr8HaTo" role="3clFbG">
+                    <ref role="37wK5l" node="3bLKpg8TCAQ" resolve="tryStartApplicationInstance" />
+                    <node concept="2OqwBi" id="3GKiyr8HaTp" role="37wK5m">
+                      <node concept="37vLTw" id="3GKiyr8HaTq" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3GKiyr8HaTa" resolve="result" />
+                      </node>
+                      <node concept="liA8E" id="3GKiyr8HaTr" role="2OqNvi">
+                        <ref role="37wK5l" to="w1x3:5$BCFrw9O$$" resolve="getUserName" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="3GKiyr8HaTs" role="37wK5m">
+                      <node concept="37vLTw" id="3GKiyr8HaTt" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3GKiyr8HaTa" resolve="result" />
+                      </node>
+                      <node concept="liA8E" id="3GKiyr8HaTu" role="2OqNvi">
+                        <ref role="37wK5l" to="w1x3:5$BCFrw9O_K" resolve="getPassword" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3GKiyr8HaTw" role="3clFbw">
+                <node concept="37vLTw" id="3GKiyr8HaTx" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3GKiyr8HaTa" resolve="result" />
+                </node>
+                <node concept="liA8E" id="3GKiyr8HaTy" role="2OqNvi">
+                  <ref role="37wK5l" to="w1x3:5$BCFrw9Ox_" resolve="isAuthenticated" />
+                </node>
+              </node>
+              <node concept="9aQIb" id="3GKiyr8HaTz" role="9aQIa">
+                <node concept="3clFbS" id="3GKiyr8HaT$" role="9aQI4">
+                  <node concept="3SKdUt" id="3GKiyr8HaT_" role="3cqZAp">
+                    <node concept="3SKdUq" id="3GKiyr8HaTA" role="3SKWNk">
+                      <property role="3SKdUp" value="display message : / " />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="3GKiyr8HaTB" role="3cqZAp">
+                    <node concept="1rXfSq" id="3GKiyr8HaTC" role="3clFbG">
+                      <ref role="37wK5l" node="5$BCFrwaXHC" resolve="displayErrorMessage" />
+                      <node concept="2OqwBi" id="3GKiyr8HaTD" role="37wK5m">
+                        <node concept="37vLTw" id="3GKiyr8HaTE" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3GKiyr8HaTa" resolve="result" />
+                        </node>
+                        <node concept="liA8E" id="3GKiyr8HaTF" role="2OqNvi">
+                          <ref role="37wK5l" to="w1x3:5$BCFrwa9Ke" resolve="getMessage" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="3GKiyr8Hg0r" role="3cqZAp" />
+          </node>
+          <node concept="1Wc70l" id="3GKiyr8HchW" role="3clFbw">
+            <node concept="3fqX7Q" id="3GKiyr8Ha2e" role="3uHU7B">
+              <node concept="37vLTw" id="3GKiyr8Haih" role="3fr31v">
+                <ref role="3cqZAo" node="5$BCFrwaNKX" resolve="thisUserSessionAuthenticated" />
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="3GKiyr8HaTH" role="3uHU7w">
+              <node concept="2OqwBi" id="3GKiyr8HaTI" role="3fr31v">
+                <node concept="2OqwBi" id="3GKiyr8HaTJ" role="2Oq$k0">
+                  <node concept="37vLTw" id="3GKiyr8HaTK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                  </node>
+                  <node concept="liA8E" id="3GKiyr8HaTL" role="2OqNvi">
+                    <ref role="37wK5l" node="5$BCFrw8YCp" resolve="getAuthenticationInterface" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3GKiyr8HaTM" role="2OqNvi">
+                  <ref role="37wK5l" to="w1x3:5$BCFrw7azk" resolve="needsLoginWindow" />
+                </node>
+              </node>
             </node>
           </node>
-          <node concept="3clFbS" id="gGnCBOHOfo" role="3clFbx">
-            <node concept="3clFbF" id="gGnCBOHOTM" role="3cqZAp">
-              <node concept="37vLTI" id="gGnCBOHOTN" role="3clFbG">
-                <node concept="2OqwBi" id="gGnCBOHOTO" role="37vLTx">
-                  <node concept="37vLTw" id="gGnCBOHOTP" role="2Oq$k0">
-                    <ref role="3cqZAo" node="gGnCBOHN2J" resolve="request" />
-                  </node>
-                  <node concept="liA8E" id="gGnCBOHOTQ" role="2OqNvi">
-                    <ref role="37wK5l" to="tk4x:~VaadinRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
-                    <node concept="Xl_RD" id="gGnCBOHOTR" role="37wK5m">
-                      <property role="Xl_RC" value="command" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="37vLTw" id="gGnCBOHOTS" role="37vLTJ">
-                  <ref role="3cqZAo" node="gGnCBOFBQf" resolve="commandToStart" />
+          <node concept="3eNFk2" id="3GKiyr8HdJm" role="3eNLev">
+            <node concept="1Wc70l" id="3GKiyr8HeD1" role="3eO9$A">
+              <node concept="3y3z36" id="3GKiyr8Hf7R" role="3uHU7w">
+                <node concept="10Nm6u" id="3GKiyr8HfhA" role="3uHU7w" />
+                <node concept="37vLTw" id="3GKiyr8HeXK" role="3uHU7B">
+                  <ref role="3cqZAo" node="61_QXqSgjUn" resolve="applicationInstance" />
                 </node>
               </node>
-            </node>
-            <node concept="3clFbF" id="gGnCBOHOTT" role="3cqZAp">
-              <node concept="37vLTI" id="gGnCBOHOTU" role="3clFbG">
-                <node concept="2OqwBi" id="gGnCBOHOTV" role="37vLTx">
-                  <node concept="37vLTw" id="gGnCBOHOTW" role="2Oq$k0">
-                    <ref role="3cqZAo" node="gGnCBOHN2J" resolve="request" />
-                  </node>
-                  <node concept="liA8E" id="gGnCBOHOTX" role="2OqNvi">
-                    <ref role="37wK5l" to="tk4x:~VaadinRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
-                    <node concept="Xl_RD" id="gGnCBOHOTY" role="37wK5m">
-                      <property role="Xl_RC" value="param" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="37vLTw" id="gGnCBOHOTZ" role="37vLTJ">
-                  <ref role="3cqZAo" node="gGnCBOFCEp" resolve="commandToStartParam" />
-                </node>
+              <node concept="37vLTw" id="3GKiyr8Hebt" role="3uHU7B">
+                <ref role="3cqZAo" node="5$BCFrwaNKX" resolve="thisUserSessionAuthenticated" />
               </node>
             </node>
-            <node concept="3clFbJ" id="gGnCBOI243" role="3cqZAp">
-              <node concept="3clFbS" id="gGnCBOI245" role="3clFbx">
-                <node concept="3clFbF" id="gGnCBOI0Tx" role="3cqZAp">
-                  <node concept="2OqwBi" id="gGnCBOI14o" role="3clFbG">
-                    <node concept="37vLTw" id="gGnCBOI0Tv" role="2Oq$k0">
-                      <ref role="3cqZAo" node="61_QXqSgjUn" resolve="applicationInstance" />
+            <node concept="3clFbS" id="3GKiyr8HdJo" role="3eOfB_">
+              <node concept="3clFbF" id="gGnCBOHOTM" role="3cqZAp">
+                <node concept="37vLTI" id="gGnCBOHOTN" role="3clFbG">
+                  <node concept="2OqwBi" id="gGnCBOHOTO" role="37vLTx">
+                    <node concept="37vLTw" id="gGnCBOHOTP" role="2Oq$k0">
+                      <ref role="3cqZAo" node="gGnCBOHN2J" resolve="request" />
                     </node>
-                    <node concept="liA8E" id="gGnCBOI1b5" role="2OqNvi">
-                      <ref role="37wK5l" node="gGnCBOHRy2" resolve="startCommandOnRefresh" />
-                      <node concept="37vLTw" id="gGnCBOI1rU" role="37wK5m">
-                        <ref role="3cqZAo" node="gGnCBOFBQf" resolve="commandToStart" />
-                      </node>
-                      <node concept="37vLTw" id="gGnCBOI1MU" role="37wK5m">
-                        <ref role="3cqZAo" node="gGnCBOFCEp" resolve="commandToStartParam" />
+                    <node concept="liA8E" id="gGnCBOHOTQ" role="2OqNvi">
+                      <ref role="37wK5l" to="tk4x:~VaadinRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                      <node concept="Xl_RD" id="gGnCBOHOTR" role="37wK5m">
+                        <property role="Xl_RC" value="command" />
                       </node>
                     </node>
                   </node>
+                  <node concept="37vLTw" id="gGnCBOHOTS" role="37vLTJ">
+                    <ref role="3cqZAo" node="gGnCBOFBQf" resolve="commandToStart" />
+                  </node>
                 </node>
               </node>
-              <node concept="3y3z36" id="gGnCBOI2v9" role="3clFbw">
-                <node concept="10Nm6u" id="gGnCBOI2BT" role="3uHU7w" />
-                <node concept="37vLTw" id="gGnCBOI2l6" role="3uHU7B">
-                  <ref role="3cqZAo" node="gGnCBOFBQf" resolve="commandToStart" />
+              <node concept="3clFbF" id="gGnCBOHOTT" role="3cqZAp">
+                <node concept="37vLTI" id="gGnCBOHOTU" role="3clFbG">
+                  <node concept="2OqwBi" id="gGnCBOHOTV" role="37vLTx">
+                    <node concept="37vLTw" id="gGnCBOHOTW" role="2Oq$k0">
+                      <ref role="3cqZAo" node="gGnCBOHN2J" resolve="request" />
+                    </node>
+                    <node concept="liA8E" id="gGnCBOHOTX" role="2OqNvi">
+                      <ref role="37wK5l" to="tk4x:~VaadinRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                      <node concept="Xl_RD" id="gGnCBOHOTY" role="37wK5m">
+                        <property role="Xl_RC" value="param" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="gGnCBOHOTZ" role="37vLTJ">
+                    <ref role="3cqZAo" node="gGnCBOFCEp" resolve="commandToStartParam" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbJ" id="gGnCBOI243" role="3cqZAp">
+                <node concept="3clFbS" id="gGnCBOI245" role="3clFbx">
+                  <node concept="3clFbF" id="gGnCBOI0Tx" role="3cqZAp">
+                    <node concept="2OqwBi" id="gGnCBOI14o" role="3clFbG">
+                      <node concept="37vLTw" id="gGnCBOI0Tv" role="2Oq$k0">
+                        <ref role="3cqZAo" node="61_QXqSgjUn" resolve="applicationInstance" />
+                      </node>
+                      <node concept="liA8E" id="gGnCBOI1b5" role="2OqNvi">
+                        <ref role="37wK5l" node="gGnCBOHRy2" resolve="startCommandOnRefresh" />
+                        <node concept="37vLTw" id="gGnCBOI1rU" role="37wK5m">
+                          <ref role="3cqZAo" node="gGnCBOFBQf" resolve="commandToStart" />
+                        </node>
+                        <node concept="37vLTw" id="gGnCBOI1MU" role="37wK5m">
+                          <ref role="3cqZAo" node="gGnCBOFCEp" resolve="commandToStartParam" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3y3z36" id="gGnCBOI2v9" role="3clFbw">
+                  <node concept="10Nm6u" id="gGnCBOI2BT" role="3uHU7w" />
+                  <node concept="37vLTw" id="gGnCBOI2l6" role="3uHU7B">
+                    <ref role="3cqZAo" node="gGnCBOFBQf" resolve="commandToStart" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="gGnCBOHOR_" role="3cqZAp" />
-        <node concept="3clFbH" id="gGnCBOHORH" role="3cqZAp" />
       </node>
       <node concept="2AHcQZ" id="gGnCBOHN2M" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
