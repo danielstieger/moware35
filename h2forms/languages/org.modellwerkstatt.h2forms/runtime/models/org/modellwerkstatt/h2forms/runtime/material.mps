@@ -681,7 +681,7 @@
                   </node>
                 </node>
                 <node concept="2OwXpG" id="19fE_UXunty" role="2OqNvi">
-                  <ref role="2Oxat5" to="yg8v:I$l6zlL1Pe" resolve="uriIdentifier" />
+                  <ref role="2Oxat5" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
                 </node>
               </node>
               <node concept="TXvP7" id="19fE_UXunzl" role="2Uj5MM">
@@ -697,7 +697,7 @@
                   </node>
                 </node>
                 <node concept="2OwXpG" id="19fE_UXunVB" role="2OqNvi">
-                  <ref role="2Oxat5" to="yg8v:I$l6zlL1Pe" resolve="uriIdentifier" />
+                  <ref role="2Oxat5" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
                 </node>
               </node>
               <node concept="TXvP7" id="19fE_UXuo2_" role="2Uj5MM">
@@ -9111,8 +9111,8 @@
                       <node concept="37vLTw" id="57zGu7$B5OY" role="2Oq$k0">
                         <ref role="3cqZAo" node="7jm2$ecp69t" resolve="touchAction" />
                       </node>
-                      <node concept="2OwXpG" id="57zGu7$B6bU" role="2OqNvi">
-                        <ref role="2Oxat5" to="yg8v:4XXgpAAdU7X" resolve="injected_localSelectionCrtl" />
+                      <node concept="liA8E" id="cYdxW69kTm" role="2OqNvi">
+                        <ref role="37wK5l" to="yg8v:cYdxW63cjP" resolve="getLocalSelController" />
                       </node>
                     </node>
                     <node concept="liA8E" id="57zGu7$ATR5" role="2OqNvi">
@@ -10852,7 +10852,7 @@
                               <ref role="3cqZAo" node="7jm2$ecneH2" resolve="it" />
                             </node>
                             <node concept="2OwXpG" id="7jm2$ecneYp" role="2OqNvi">
-                              <ref role="2Oxat5" to="yg8v:Y3fiVJPWx7" resolve="hotKey" />
+                              <ref role="2Oxat5" to="yg8v:Y3fiVJPWx7" resolve="public_hotKey" />
                             </node>
                           </node>
                         </node>
@@ -11589,8 +11589,8 @@
                 </node>
                 <node concept="1uHKPH" id="15Ng79ogjw3" role="2OqNvi" />
               </node>
-              <node concept="2OwXpG" id="15Ng79ogjJn" role="2OqNvi">
-                <ref role="2Oxat5" to="yg8v:4XXgpAAdU7X" resolve="injected_localSelectionCrtl" />
+              <node concept="liA8E" id="cYdxW69kgL" role="2OqNvi">
+                <ref role="37wK5l" to="yg8v:cYdxW63cjP" resolve="getLocalSelController" />
               </node>
             </node>
             <node concept="liA8E" id="15Ng79ogjQB" role="2OqNvi">
@@ -11642,7 +11642,7 @@
                             <ref role="3cqZAo" node="15Ng79obvRF" resolve="it" />
                           </node>
                           <node concept="2OwXpG" id="15Ng79ofCpd" role="2OqNvi">
-                            <ref role="2Oxat5" to="yg8v:5$YtY8hobHP" resolve="commandFqName" />
+                            <ref role="2Oxat5" to="yg8v:5$YtY8hobHP" resolve="public_commandFqName" />
                           </node>
                         </node>
                       </node>

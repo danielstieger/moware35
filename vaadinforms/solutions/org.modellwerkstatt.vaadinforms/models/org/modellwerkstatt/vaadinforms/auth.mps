@@ -148,8 +148,18 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -669,21 +679,25 @@
           </node>
         </node>
         <node concept="3clFbH" id="4FiFGILerPR" role="3cqZAp" />
-        <node concept="3clFbF" id="4FiFGILes5J" role="3cqZAp">
-          <node concept="2YIFZM" id="4FiFGILeshw" role="3clFbG">
-            <ref role="1Pybhc" to="nkg7:41UdyNBynGL" resolve="VMainWindow" />
-            <ref role="37wK5l" to="nkg7:4QTIUTCpF18" resolve="hardLog" />
-            <node concept="3cpWs3" id="4FiFGILesIP" role="37wK5m">
-              <node concept="2OqwBi" id="4FiFGILesPd" role="3uHU7w">
-                <node concept="37vLTw" id="4FiFGILesUV" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5$BCFrwdaPG" resolve="res" />
+        <node concept="1X3_iC" id="cYdxW5KqBb" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="4FiFGILes5J" role="8Wnug">
+            <node concept="2YIFZM" id="4FiFGILeshw" role="3clFbG">
+              <ref role="1Pybhc" to="nkg7:41UdyNBynGL" resolve="VMainWindow" />
+              <ref role="37wK5l" to="nkg7:4QTIUTCpF18" resolve="hardLog" />
+              <node concept="3cpWs3" id="4FiFGILesIP" role="37wK5m">
+                <node concept="2OqwBi" id="4FiFGILesPd" role="3uHU7w">
+                  <node concept="37vLTw" id="4FiFGILesUV" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5$BCFrwdaPG" resolve="res" />
+                  </node>
+                  <node concept="liA8E" id="4FiFGILesXC" role="2OqNvi">
+                    <ref role="37wK5l" node="5$BCFrw9PLF" resolve="getUserName" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="4FiFGILesXC" role="2OqNvi">
-                  <ref role="37wK5l" node="5$BCFrw9PLF" resolve="getUserName" />
+                <node concept="Xl_RD" id="4FiFGILesks" role="3uHU7B">
+                  <property role="Xl_RC" value="VSimpleIPAuthentification.authenticat() true for user " />
                 </node>
-              </node>
-              <node concept="Xl_RD" id="4FiFGILesks" role="3uHU7B">
-                <property role="Xl_RC" value="VSimpleIPAuthentification.authenticat() true for user " />
               </node>
             </node>
           </node>
