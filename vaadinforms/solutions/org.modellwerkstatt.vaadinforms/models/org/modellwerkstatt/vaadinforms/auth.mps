@@ -55,6 +55,9 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -451,6 +454,16 @@
         <property role="3cmrfH" value="1209600" />
       </node>
     </node>
+    <node concept="Wx3nA" id="4FiFGILpHRv" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="TWENTYFOUR_HOURS" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10Oyi0" id="4FiFGILpHRw" role="1tU5fm" />
+      <node concept="3Tm1VV" id="4FiFGILpHRx" role="1B3o_S" />
+      <node concept="3cmrfG" id="4FiFGILpHRy" role="33vP2m">
+        <property role="3cmrfH" value="86400" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="4FiFGILpge$" role="jymVt" />
     <node concept="312cEg" id="4FiFGILphtL" role="jymVt">
       <property role="TrG5h" value="ldapService" />
@@ -585,9 +598,35 @@
       <node concept="10Oyi0" id="4FiFGILpgf8" role="3clF45" />
       <node concept="3Tm1VV" id="4FiFGILpgf9" role="1B3o_S" />
       <node concept="3clFbS" id="4FiFGILpgfb" role="3clF47">
-        <node concept="3clFbF" id="4FiFGILphrx" role="3cqZAp">
-          <node concept="37vLTw" id="3S0qjg$kbeJ" role="3clFbG">
-            <ref role="3cqZAo" node="6OyHsl$XYJz" resolve="TWO_WEEKS" />
+        <node concept="3cpWs8" id="OG9snxZNBs" role="3cqZAp">
+          <node concept="3cpWsn" id="OG9snxZNBt" role="3cpWs9">
+            <property role="TrG5h" value="secondsOfDay" />
+            <node concept="10Oyi0" id="OG9snxZNBu" role="1tU5fm" />
+            <node concept="FJ1c_" id="OG9snxZNBv" role="33vP2m">
+              <node concept="3cmrfG" id="OG9snxZNBw" role="3uHU7w">
+                <property role="3cmrfH" value="1000" />
+              </node>
+              <node concept="2OqwBi" id="OG9snxZNBx" role="3uHU7B">
+                <node concept="2ShNRf" id="OG9snxZNBy" role="2Oq$k0">
+                  <node concept="1pGfFk" id="OG9snxZNBz" role="2ShVmc">
+                    <ref role="37wK5l" to="w08f:~LocalTime.&lt;init&gt;()" resolve="LocalTime" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="OG9snxZNB$" role="2OqNvi">
+                  <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay():int" resolve="getMillisOfDay" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="OG9snxZNB_" role="3cqZAp">
+          <node concept="3cpWsd" id="OG9snxZNBA" role="3cqZAk">
+            <node concept="37vLTw" id="OG9snxZNBB" role="3uHU7w">
+              <ref role="3cqZAo" node="OG9snxZNBt" resolve="secondsOfDay" />
+            </node>
+            <node concept="37vLTw" id="OG9snxZO9A" role="3uHU7B">
+              <ref role="3cqZAo" node="4FiFGILpHRv" resolve="TWENTYFOUR_HOURS" />
+            </node>
           </node>
         </node>
       </node>
@@ -599,16 +638,6 @@
   </node>
   <node concept="312cEu" id="5$BCFrw7x9n">
     <property role="TrG5h" value="VSimpleIPAuthentification" />
-    <node concept="Wx3nA" id="4FiFGILpHRv" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="TrG5h" value="TWENTYFOUR_HOURS" />
-      <property role="3TUv4t" value="true" />
-      <node concept="10Oyi0" id="4FiFGILpHRw" role="1tU5fm" />
-      <node concept="3Tm1VV" id="4FiFGILpHRx" role="1B3o_S" />
-      <node concept="3cmrfG" id="4FiFGILpHRy" role="33vP2m">
-        <property role="3cmrfH" value="86400" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="5$BCFrw7xde" role="jymVt" />
     <node concept="3clFb_" id="5$BCFrw7xdr" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -742,7 +771,8 @@
             <node concept="37vLTw" id="61_QXqSd2gD" role="3uHU7w">
               <ref role="3cqZAo" node="61_QXqSd2go" resolve="secondsOfDay" />
             </node>
-            <node concept="37vLTw" id="3S0qjg$kbeT" role="3uHU7B">
+            <node concept="10M0yZ" id="OG9snxZOmV" role="3uHU7B">
+              <ref role="1PxDUh" node="4FiFGILpgbM" resolve="VLdapAuthentication" />
               <ref role="3cqZAo" node="4FiFGILpHRv" resolve="TWENTYFOUR_HOURS" />
             </node>
           </node>
@@ -756,16 +786,6 @@
   </node>
   <node concept="312cEu" id="4FiFGILioAI">
     <property role="TrG5h" value="VSimpleLoginWindowAuth" />
-    <node concept="Wx3nA" id="4FiFGILpI49" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="TrG5h" value="TWENTYFOUR_HOURS" />
-      <property role="3TUv4t" value="true" />
-      <node concept="10Oyi0" id="4FiFGILpI4a" role="1tU5fm" />
-      <node concept="3Tm1VV" id="4FiFGILpI4b" role="1B3o_S" />
-      <node concept="3cmrfG" id="4FiFGILpI4c" role="33vP2m">
-        <property role="3cmrfH" value="86400" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="4FiFGILioCU" role="jymVt" />
     <node concept="2tJIrI" id="4FiFGILpH8R" role="jymVt" />
     <node concept="3clFb_" id="4FiFGILioD7" role="jymVt">
@@ -871,8 +891,9 @@
             <node concept="37vLTw" id="4FiFGILipYM" role="3uHU7w">
               <ref role="3cqZAo" node="4FiFGILipYC" resolve="secondsOfDay" />
             </node>
-            <node concept="37vLTw" id="3S0qjg$kbf3" role="3uHU7B">
-              <ref role="3cqZAo" node="4FiFGILpI49" resolve="TWENTYFOUR_HOURS" />
+            <node concept="10M0yZ" id="OG9snxZOxa" role="3uHU7B">
+              <ref role="1PxDUh" node="4FiFGILpgbM" resolve="VLdapAuthentication" />
+              <ref role="3cqZAo" node="4FiFGILpHRv" resolve="TWENTYFOUR_HOURS" />
             </node>
           </node>
         </node>
