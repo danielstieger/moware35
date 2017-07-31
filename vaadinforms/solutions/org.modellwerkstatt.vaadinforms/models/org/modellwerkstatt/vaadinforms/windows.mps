@@ -6157,12 +6157,23 @@
             </node>
             <node concept="liA8E" id="30SScokvYu6" role="2OqNvi">
               <ref role="37wK5l" to="waq:~AbstractComponent.setDescription(java.lang.String):void" resolve="setDescription" />
-              <node concept="2OqwBi" id="30SScokw0Hs" role="37wK5m">
-                <node concept="37vLTw" id="30SScokw0Ay" role="2Oq$k0">
-                  <ref role="3cqZAo" node="30SScokuEU5" resolve="action" />
+              <node concept="2OqwBi" id="3xmYcCN$w$b" role="37wK5m">
+                <node concept="2OqwBi" id="30SScokw0Hs" role="2Oq$k0">
+                  <node concept="37vLTw" id="30SScokw0Ay" role="2Oq$k0">
+                    <ref role="3cqZAo" node="30SScokuEU5" resolve="action" />
+                  </node>
+                  <node concept="liA8E" id="30SScokw2MF" role="2OqNvi">
+                    <ref role="37wK5l" to="yg8v:5$YtY8hop4m" resolve="getToolTip" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="30SScokw2MF" role="2OqNvi">
-                  <ref role="37wK5l" to="yg8v:5$YtY8hop4m" resolve="getToolTip" />
+                <node concept="liA8E" id="3xmYcCN$w_w" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <node concept="Xl_RD" id="3xmYcCN$w_x" role="37wK5m">
+                    <property role="Xl_RC" value="\n" />
+                  </node>
+                  <node concept="Xl_RD" id="3xmYcCN$w_y" role="37wK5m">
+                    <property role="Xl_RC" value="&lt;br&gt;" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -6598,17 +6609,28 @@
                     </node>
                     <node concept="liA8E" id="6go2MrswA87" role="2OqNvi">
                       <ref role="37wK5l" to="waq:~MenuBar$MenuItem.setDescription(java.lang.String):void" resolve="setDescription" />
-                      <node concept="2OqwBi" id="6go2MrswBdT" role="37wK5m">
-                        <node concept="2OqwBi" id="6go2MrswB1O" role="2Oq$k0">
-                          <node concept="37vLTw" id="6go2MrswAVC" role="2Oq$k0">
-                            <ref role="3cqZAo" node="r$jHpEQ2kv" resolve="glue" />
+                      <node concept="2OqwBi" id="3xmYcCN$wGL" role="37wK5m">
+                        <node concept="2OqwBi" id="6go2MrswBdT" role="2Oq$k0">
+                          <node concept="2OqwBi" id="6go2MrswB1O" role="2Oq$k0">
+                            <node concept="37vLTw" id="6go2MrswAVC" role="2Oq$k0">
+                              <ref role="3cqZAo" node="r$jHpEQ2kv" resolve="glue" />
+                            </node>
+                            <node concept="2OwXpG" id="6go2MrswB6Z" role="2OqNvi">
+                              <ref role="2Oxat5" node="6go2MrsutS0" resolve="action" />
+                            </node>
                           </node>
-                          <node concept="2OwXpG" id="6go2MrswB6Z" role="2OqNvi">
-                            <ref role="2Oxat5" node="6go2MrsutS0" resolve="action" />
+                          <node concept="liA8E" id="6go2MrswBll" role="2OqNvi">
+                            <ref role="37wK5l" to="yg8v:5$YtY8hop4m" resolve="getToolTip" />
                           </node>
                         </node>
-                        <node concept="liA8E" id="6go2MrswBll" role="2OqNvi">
-                          <ref role="37wK5l" to="yg8v:5$YtY8hop4m" resolve="getToolTip" />
+                        <node concept="liA8E" id="3xmYcCN$wIz" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                          <node concept="Xl_RD" id="3xmYcCN$wI$" role="37wK5m">
+                            <property role="Xl_RC" value="\n" />
+                          </node>
+                          <node concept="Xl_RD" id="3xmYcCN$wI_" role="37wK5m">
+                            <property role="Xl_RC" value="&lt;br&gt;" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -20131,17 +20153,28 @@
                     </node>
                     <node concept="liA8E" id="5XHFlROGT8n" role="2OqNvi">
                       <ref role="37wK5l" to="waq:~MenuBar$MenuItem.setDescription(java.lang.String):void" resolve="setDescription" />
-                      <node concept="2OqwBi" id="5XHFlROGT8o" role="37wK5m">
-                        <node concept="2OqwBi" id="5XHFlROGT8p" role="2Oq$k0">
-                          <node concept="37vLTw" id="5XHFlROGT8q" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5XHFlROHa$1" resolve="glue" />
+                      <node concept="2OqwBi" id="3xmYcCN$vVS" role="37wK5m">
+                        <node concept="2OqwBi" id="5XHFlROGT8o" role="2Oq$k0">
+                          <node concept="2OqwBi" id="5XHFlROGT8p" role="2Oq$k0">
+                            <node concept="37vLTw" id="5XHFlROGT8q" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5XHFlROHa$1" resolve="glue" />
+                            </node>
+                            <node concept="2OwXpG" id="5XHFlROGT8r" role="2OqNvi">
+                              <ref role="2Oxat5" node="6go2MrsutS0" resolve="action" />
+                            </node>
                           </node>
-                          <node concept="2OwXpG" id="5XHFlROGT8r" role="2OqNvi">
-                            <ref role="2Oxat5" node="6go2MrsutS0" resolve="action" />
+                          <node concept="liA8E" id="5XHFlROGT8s" role="2OqNvi">
+                            <ref role="37wK5l" to="yg8v:5$YtY8hop4m" resolve="getToolTip" />
                           </node>
                         </node>
-                        <node concept="liA8E" id="5XHFlROGT8s" role="2OqNvi">
-                          <ref role="37wK5l" to="yg8v:5$YtY8hop4m" resolve="getToolTip" />
+                        <node concept="liA8E" id="3xmYcCN$vXD" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                          <node concept="Xl_RD" id="3xmYcCN$vXE" role="37wK5m">
+                            <property role="Xl_RC" value="\n" />
+                          </node>
+                          <node concept="Xl_RD" id="3xmYcCN$vXF" role="37wK5m">
+                            <property role="Xl_RC" value="&lt;br&gt;" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -20600,17 +20633,28 @@
                     </node>
                     <node concept="liA8E" id="5XHFlROGX49" role="2OqNvi">
                       <ref role="37wK5l" to="waq:~MenuBar$MenuItem.setDescription(java.lang.String):void" resolve="setDescription" />
-                      <node concept="2OqwBi" id="5XHFlROGX4a" role="37wK5m">
-                        <node concept="2OqwBi" id="5XHFlROGX4b" role="2Oq$k0">
-                          <node concept="37vLTw" id="5XHFlROGX4c" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5XHFlROGX3E" resolve="glue" />
+                      <node concept="2OqwBi" id="3xmYcCN$vn1" role="37wK5m">
+                        <node concept="2OqwBi" id="5XHFlROGX4a" role="2Oq$k0">
+                          <node concept="2OqwBi" id="5XHFlROGX4b" role="2Oq$k0">
+                            <node concept="37vLTw" id="5XHFlROGX4c" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5XHFlROGX3E" resolve="glue" />
+                            </node>
+                            <node concept="2OwXpG" id="5XHFlROGX4d" role="2OqNvi">
+                              <ref role="2Oxat5" node="6go2MrsutS0" resolve="action" />
+                            </node>
                           </node>
-                          <node concept="2OwXpG" id="5XHFlROGX4d" role="2OqNvi">
-                            <ref role="2Oxat5" node="6go2MrsutS0" resolve="action" />
+                          <node concept="liA8E" id="5XHFlROGX4e" role="2OqNvi">
+                            <ref role="37wK5l" to="yg8v:5$YtY8hop4m" resolve="getToolTip" />
                           </node>
                         </node>
-                        <node concept="liA8E" id="5XHFlROGX4e" role="2OqNvi">
-                          <ref role="37wK5l" to="yg8v:5$YtY8hop4m" resolve="getToolTip" />
+                        <node concept="liA8E" id="3xmYcCN$vtA" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                          <node concept="Xl_RD" id="3xmYcCN$vGq" role="37wK5m">
+                            <property role="Xl_RC" value="\n" />
+                          </node>
+                          <node concept="Xl_RD" id="3xmYcCN$vO$" role="37wK5m">
+                            <property role="Xl_RC" value="&lt;br&gt;" />
+                          </node>
                         </node>
                       </node>
                     </node>

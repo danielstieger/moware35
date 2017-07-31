@@ -844,7 +844,7 @@
     <node concept="1TJgyj" id="6IXTkEOVX_p" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="finalSelection" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="5nmfkjWvqpZ" role="1TKVEi">
