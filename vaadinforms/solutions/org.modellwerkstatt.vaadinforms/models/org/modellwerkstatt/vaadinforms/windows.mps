@@ -1293,143 +1293,103 @@
         <node concept="3cpWs8" id="OG9sny0u_c" role="3cqZAp">
           <node concept="3cpWsn" id="OG9sny0u_d" role="3cpWs9">
             <property role="TrG5h" value="userInSessionAuthenticated" />
-            <node concept="3uibUv" id="OG9sny0u_e" role="1tU5fm">
-              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
-            </node>
-            <node concept="2OqwBi" id="OG9sny0u_f" role="33vP2m">
-              <node concept="2OqwBi" id="OG9sny0u_g" role="2Oq$k0">
-                <node concept="2OqwBi" id="OG9sny0u_h" role="2Oq$k0">
-                  <node concept="Xjq3P" id="OG9sny0u_i" role="2Oq$k0" />
-                  <node concept="liA8E" id="OG9sny0u_j" role="2OqNvi">
-                    <ref role="37wK5l" to="waq:~UI.getSession():com.vaadin.server.VaadinSession" resolve="getSession" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="OG9sny0u_k" role="2OqNvi">
-                  <ref role="37wK5l" to="tk4x:~VaadinSession.getSession():com.vaadin.server.WrappedSession" resolve="getSession" />
-                </node>
-              </node>
-              <node concept="liA8E" id="OG9sny0u_l" role="2OqNvi">
-                <ref role="37wK5l" to="tk4x:~WrappedSession.getAttribute(java.lang.String):java.lang.Object" resolve="getAttribute" />
-                <node concept="Xl_RD" id="OG9sny0u_m" role="37wK5m">
-                  <property role="Xl_RC" value="authUserName" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7S_QNZ7vmh9" role="3cqZAp" />
-        <node concept="1X3_iC" id="OG9snxZRoN" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3cpWs8" id="3xmYcCN$YO_" role="8Wnug">
-            <node concept="3cpWsn" id="3xmYcCN$YOA" role="3cpWs9">
-              <property role="TrG5h" value="cookies" />
-              <node concept="10Q1$e" id="3xmYcCN$YOB" role="1tU5fm">
-                <node concept="3uibUv" id="3xmYcCN$YOC" role="10Q1$1">
-                  <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="3xmYcCN$WTd" role="33vP2m">
-                <node concept="2YIFZM" id="3xmYcCN_0NA" role="2Oq$k0">
-                  <ref role="37wK5l" to="tk4x:~VaadinService.getCurrentRequest():com.vaadin.server.VaadinRequest" resolve="getCurrentRequest" />
-                  <ref role="1Pybhc" to="tk4x:~VaadinService" resolve="VaadinService" />
-                </node>
-                <node concept="liA8E" id="3xmYcCN_0QR" role="2OqNvi">
-                  <ref role="37wK5l" to="tk4x:~VaadinRequest.getCookies():javax.servlet.http.Cookie[]" resolve="getCookies" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="OG9snxZRoO" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="3xmYcCN_7mb" role="8Wnug">
-            <node concept="2YIFZM" id="3xmYcCN_8oD" role="3clFbG">
-              <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-              <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-              <node concept="3cpWs3" id="3xmYcCN_9Qj" role="37wK5m">
-                <node concept="Xl_RD" id="3xmYcCN_9XQ" role="3uHU7w">
-                  <property role="Xl_RC" value=" cookies. " />
-                </node>
-                <node concept="3cpWs3" id="3xmYcCN_96d" role="3uHU7B">
-                  <node concept="Xl_RD" id="3xmYcCN_8XC" role="3uHU7B">
-                    <property role="Xl_RC" value="VUserSessionUi.init() Found " />
-                  </node>
-                  <node concept="2OqwBi" id="3xmYcCN_9wH" role="3uHU7w">
-                    <node concept="37vLTw" id="3xmYcCN_9mI" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3xmYcCN$YOA" resolve="cookies" />
-                    </node>
-                    <node concept="1Rwk04" id="3xmYcCN_9EP" role="2OqNvi" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1X3_iC" id="OG9snxZRoP" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="1DcWWT" id="3xmYcCN_1Km" role="8Wnug">
-            <node concept="3clFbS" id="3xmYcCN_1Ko" role="2LFqv$">
-              <node concept="3clFbF" id="3xmYcCN_3va" role="3cqZAp">
-                <node concept="2YIFZM" id="3xmYcCN_3VV" role="3clFbG">
-                  <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                  <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-                  <node concept="3cpWs3" id="3xmYcCN_5eJ" role="37wK5m">
-                    <node concept="2OqwBi" id="3xmYcCN_5GW" role="3uHU7w">
-                      <node concept="37vLTw" id="3xmYcCN_5yl" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3xmYcCN_1Kp" resolve="c" />
-                      </node>
-                      <node concept="liA8E" id="3xmYcCN_5MB" role="2OqNvi">
-                        <ref role="37wK5l" to="nwfd:~Cookie.getValue():java.lang.String" resolve="getValue" />
+            <node concept="17QB3L" id="2JTUDFvavWs" role="1tU5fm" />
+            <node concept="1eOMI4" id="2JTUDFvawgF" role="33vP2m">
+              <node concept="10QFUN" id="2JTUDFvawgC" role="1eOMHV">
+                <node concept="17QB3L" id="2JTUDFvawoB" role="10QFUM" />
+                <node concept="2OqwBi" id="2JTUDFvawgH" role="10QFUP">
+                  <node concept="2OqwBi" id="2JTUDFvawgI" role="2Oq$k0">
+                    <node concept="2OqwBi" id="2JTUDFvawgJ" role="2Oq$k0">
+                      <node concept="Xjq3P" id="2JTUDFvawgK" role="2Oq$k0" />
+                      <node concept="liA8E" id="2JTUDFvawgL" role="2OqNvi">
+                        <ref role="37wK5l" to="waq:~UI.getSession():com.vaadin.server.VaadinSession" resolve="getSession" />
                       </node>
                     </node>
-                    <node concept="3cpWs3" id="3xmYcCN_50l" role="3uHU7B">
-                      <node concept="3cpWs3" id="3xmYcCN_4He" role="3uHU7B">
-                        <node concept="3cpWs3" id="3xmYcCN_4s3" role="3uHU7B">
-                          <node concept="3cpWs3" id="3xmYcCN_4eZ" role="3uHU7B">
-                            <node concept="Xl_RD" id="3xmYcCN_44F" role="3uHU7B">
-                              <property role="Xl_RC" value="VUserSessionUi.init() cookie: " />
-                            </node>
-                            <node concept="37vLTw" id="3xmYcCN_4nW" role="3uHU7w">
-                              <ref role="3cqZAo" node="3xmYcCN_1Kp" resolve="c" />
-                            </node>
-                          </node>
-                          <node concept="Xl_RD" id="3xmYcCN_4_F" role="3uHU7w">
-                            <property role="Xl_RC" value=" " />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="3xmYcCN_4SG" role="3uHU7w">
-                          <node concept="37vLTw" id="3xmYcCN_4Rb" role="2Oq$k0">
-                            <ref role="3cqZAo" node="3xmYcCN_1Kp" resolve="c" />
-                          </node>
-                          <node concept="liA8E" id="3xmYcCN_4XU" role="2OqNvi">
-                            <ref role="37wK5l" to="nwfd:~Cookie.getName():java.lang.String" resolve="getName" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="3xmYcCN_580" role="3uHU7w">
-                        <property role="Xl_RC" value="=" />
-                      </node>
+                    <node concept="liA8E" id="2JTUDFvawgM" role="2OqNvi">
+                      <ref role="37wK5l" to="tk4x:~VaadinSession.getSession():com.vaadin.server.WrappedSession" resolve="getSession" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2JTUDFvawgN" role="2OqNvi">
+                    <ref role="37wK5l" to="tk4x:~WrappedSession.getAttribute(java.lang.String):java.lang.Object" resolve="getAttribute" />
+                    <node concept="Xl_RD" id="2JTUDFvawgO" role="37wK5m">
+                      <property role="Xl_RC" value="authUserName" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3cpWsn" id="3xmYcCN_1Kp" role="1Duv9x">
-              <property role="TrG5h" value="c" />
-              <node concept="3uibUv" id="3xmYcCN_2pg" role="1tU5fm">
-                <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2JTUDFvaKaL" role="3cqZAp">
+          <node concept="2YIFZM" id="2JTUDFvaL8U" role="3clFbG">
+            <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+            <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+            <node concept="3cpWs3" id="2JTUDFvaM5Y" role="37wK5m">
+              <node concept="37vLTw" id="2JTUDFvaMmi" role="3uHU7w">
+                <ref role="3cqZAo" node="OG9sny0u_d" resolve="userInSessionAuthenticated" />
               </node>
-            </node>
-            <node concept="37vLTw" id="3xmYcCN_2IS" role="1DdaDG">
-              <ref role="3cqZAo" node="3xmYcCN$YOA" resolve="cookies" />
+              <node concept="Xl_RD" id="2JTUDFvaLEl" role="3uHU7B">
+                <property role="Xl_RC" value="VUserSessionUI.init() using session to log in: " />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3xmYcCN$WmH" role="3cqZAp" />
-        <node concept="3clFbH" id="4z69JWf06GQ" role="3cqZAp" />
+        <node concept="3clFbH" id="2JTUDFvaMpX" role="3cqZAp" />
+        <node concept="3clFbJ" id="2JTUDFvaxMZ" role="3cqZAp">
+          <node concept="3clFbS" id="2JTUDFvaxN1" role="3clFbx">
+            <node concept="3SKdUt" id="2JTUDFva_oe" role="3cqZAp">
+              <node concept="3SKdUq" id="2JTUDFva_og" role="3SKWNk">
+                <property role="3SKdUp" value="cookie available?" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="2JTUDFva_Gx" role="3cqZAp">
+              <node concept="37vLTI" id="2JTUDFva_OR" role="3clFbG">
+                <node concept="1rXfSq" id="2JTUDFvaA5J" role="37vLTx">
+                  <ref role="37wK5l" node="2JTUDFv9098" resolve="getUserNameFromCookie" />
+                </node>
+                <node concept="37vLTw" id="2JTUDFva_Gv" role="37vLTJ">
+                  <ref role="3cqZAo" node="OG9sny0u_d" resolve="userInSessionAuthenticated" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2JTUDFvaMYp" role="3cqZAp">
+              <node concept="2YIFZM" id="2JTUDFvaMYq" role="3clFbG">
+                <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+                <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+                <node concept="3cpWs3" id="2JTUDFvaMYr" role="37wK5m">
+                  <node concept="37vLTw" id="2JTUDFvaMYs" role="3uHU7w">
+                    <ref role="3cqZAo" node="OG9sny0u_d" resolve="userInSessionAuthenticated" />
+                  </node>
+                  <node concept="Xl_RD" id="2JTUDFvaMYt" role="3uHU7B">
+                    <property role="Xl_RC" value="VUserSessionUI.init() using cookie to log in: " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="2JTUDFvazBf" role="3clFbw">
+            <node concept="2OqwBi" id="2JTUDFva_1g" role="3uHU7w">
+              <node concept="2OqwBi" id="2JTUDFva$CC" role="2Oq$k0">
+                <node concept="37vLTw" id="2JTUDFva$uj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                </node>
+                <node concept="liA8E" id="2JTUDFva$Y0" role="2OqNvi">
+                  <ref role="37wK5l" node="5$BCFrw8YCp" resolve="getAuthenticationInterface" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2JTUDFva_cu" role="2OqNvi">
+                <ref role="37wK5l" to="w1x3:5$BCFrw7azk" resolve="needsLoginWindow" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="2JTUDFvaz11" role="3uHU7B">
+              <node concept="37vLTw" id="2JTUDFvayx9" role="3uHU7B">
+                <ref role="3cqZAo" node="OG9sny0u_d" resolve="userInSessionAuthenticated" />
+              </node>
+              <node concept="10Nm6u" id="2JTUDFvazvA" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2JTUDFvax9x" role="3cqZAp" />
         <node concept="3cpWs8" id="7S_QNZ7va3y" role="3cqZAp">
           <node concept="3cpWsn" id="7S_QNZ7va3_" role="3cpWs9">
             <property role="TrG5h" value="usernameParamValues" />
@@ -1798,13 +1758,8 @@
               <node concept="3clFbF" id="4FiFGILfTya" role="3cqZAp">
                 <node concept="1rXfSq" id="4FiFGILfTy8" role="3clFbG">
                   <ref role="37wK5l" node="3bLKpg8TCAQ" resolve="tryStartApplicationInstance" />
-                  <node concept="1eOMI4" id="OG9sny0wKP" role="37wK5m">
-                    <node concept="10QFUN" id="OG9sny0wKM" role="1eOMHV">
-                      <node concept="17QB3L" id="OG9sny0wPH" role="10QFUM" />
-                      <node concept="37vLTw" id="OG9sny0wKR" role="10QFUP">
-                        <ref role="3cqZAo" node="OG9sny0u_d" resolve="userInSessionAuthenticated" />
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="OG9sny0wKR" role="37wK5m">
+                    <ref role="3cqZAo" node="OG9sny0u_d" resolve="userInSessionAuthenticated" />
                   </node>
                 </node>
               </node>
@@ -2241,101 +2196,15 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="4FiFGILqSHe" role="3cqZAp" />
-              <node concept="1X3_iC" id="OG9snxZS0t" role="lGtFl">
-                <property role="3V$3am" value="statement" />
-                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                <node concept="3cpWs8" id="3xmYcCN$Npq" role="8Wnug">
-                  <node concept="3cpWsn" id="3xmYcCN$Npr" role="3cpWs9">
-                    <property role="TrG5h" value="mowareUser" />
-                    <node concept="3uibUv" id="3xmYcCN$Nps" role="1tU5fm">
-                      <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
-                    </node>
-                    <node concept="2ShNRf" id="3xmYcCN$NXs" role="33vP2m">
-                      <node concept="1pGfFk" id="3xmYcCN$NXr" role="2ShVmc">
-                        <ref role="37wK5l" to="nwfd:~Cookie.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="Cookie" />
-                        <node concept="Xl_RD" id="3xmYcCN$O8a" role="37wK5m">
-                          <property role="Xl_RC" value="MowareUser" />
-                        </node>
-                        <node concept="37vLTw" id="3xmYcCN$OyG" role="37wK5m">
-                          <ref role="3cqZAo" node="3bLKpg8TCAU" resolve="userName" />
-                        </node>
-                      </node>
-                    </node>
+              <node concept="3clFbF" id="2JTUDFvatSz" role="3cqZAp">
+                <node concept="1rXfSq" id="2JTUDFvatSx" role="3clFbG">
+                  <ref role="37wK5l" node="2JTUDFv8Oqj" resolve="setCookie" />
+                  <node concept="37vLTw" id="2JTUDFvauty" role="37wK5m">
+                    <ref role="3cqZAo" node="3bLKpg8TCAU" resolve="userName" />
                   </node>
                 </node>
               </node>
-              <node concept="1X3_iC" id="OG9snxZS0u" role="lGtFl">
-                <property role="3V$3am" value="statement" />
-                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                <node concept="3clFbF" id="3xmYcCN$PeG" role="8Wnug">
-                  <node concept="2OqwBi" id="3xmYcCN$PAX" role="3clFbG">
-                    <node concept="37vLTw" id="3xmYcCN$PeE" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3xmYcCN$Npr" resolve="mowareUser" />
-                    </node>
-                    <node concept="liA8E" id="3xmYcCN$PDA" role="2OqNvi">
-                      <ref role="37wK5l" to="nwfd:~Cookie.setPath(java.lang.String):void" resolve="setPath" />
-                      <node concept="2OqwBi" id="3xmYcCN_Iqn" role="37wK5m">
-                        <node concept="37vLTw" id="3xmYcCN_Ifb" role="2Oq$k0">
-                          <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
-                        </node>
-                        <node concept="liA8E" id="3xmYcCN_III" role="2OqNvi">
-                          <ref role="37wK5l" node="3xmYcCN_AxR" resolve="getServletPath" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="1X3_iC" id="OG9snxZS0v" role="lGtFl">
-                <property role="3V$3am" value="statement" />
-                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                <node concept="3clFbF" id="3xmYcCN$Rgr" role="8Wnug">
-                  <node concept="2OqwBi" id="3xmYcCN$RBo" role="3clFbG">
-                    <node concept="37vLTw" id="3xmYcCN$Rgp" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3xmYcCN$Npr" resolve="mowareUser" />
-                    </node>
-                    <node concept="liA8E" id="3xmYcCN$REx" role="2OqNvi">
-                      <ref role="37wK5l" to="nwfd:~Cookie.setMaxAge(int):void" resolve="setMaxAge" />
-                      <node concept="3cmrfG" id="3xmYcCN$RMY" role="37wK5m">
-                        <property role="3cmrfH" value="3600" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="1X3_iC" id="OG9snxZS0w" role="lGtFl">
-                <property role="3V$3am" value="statement" />
-                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                <node concept="3clFbF" id="3xmYcCN$V66" role="8Wnug">
-                  <node concept="2OqwBi" id="3xmYcCN$Vxs" role="3clFbG">
-                    <node concept="2YIFZM" id="3xmYcCN$VwW" role="2Oq$k0">
-                      <ref role="37wK5l" to="tk4x:~VaadinService.getCurrentResponse():com.vaadin.server.VaadinResponse" resolve="getCurrentResponse" />
-                      <ref role="1Pybhc" to="tk4x:~VaadinService" resolve="VaadinService" />
-                    </node>
-                    <node concept="liA8E" id="3xmYcCN$V$p" role="2OqNvi">
-                      <ref role="37wK5l" to="tk4x:~VaadinResponse.addCookie(javax.servlet.http.Cookie):void" resolve="addCookie" />
-                      <node concept="37vLTw" id="3xmYcCN$VNz" role="37wK5m">
-                        <ref role="3cqZAo" node="3xmYcCN$Npr" resolve="mowareUser" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="1X3_iC" id="OG9snxZS0x" role="lGtFl">
-                <property role="3V$3am" value="statement" />
-                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                <node concept="3clFbF" id="3xmYcCN_j8Z" role="8Wnug">
-                  <node concept="2YIFZM" id="3xmYcCN_jYl" role="3clFbG">
-                    <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                    <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-                    <node concept="Xl_RD" id="3xmYcCN_k75" role="37wK5m">
-                      <property role="Xl_RC" value="VUserSessionUI.tryStartApplicationInstance() cookie for mowareuser set!" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbH" id="3xmYcCN_izD" role="3cqZAp" />
+              <node concept="3clFbH" id="2JTUDFvau_C" role="3cqZAp" />
               <node concept="3clFbJ" id="4FiFGILlDKZ" role="3cqZAp">
                 <node concept="3clFbS" id="4FiFGILlDL1" role="3clFbx">
                   <node concept="3clFbF" id="4FiFGILoCB7" role="3cqZAp">
@@ -2776,6 +2645,300 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5XGplYB7HRC" role="jymVt" />
+    <node concept="3clFb_" id="2JTUDFv8Oqj" role="jymVt">
+      <property role="TrG5h" value="setCookie" />
+      <node concept="3cqZAl" id="2JTUDFv8Oql" role="3clF45" />
+      <node concept="3Tm1VV" id="2JTUDFv8Oqm" role="1B3o_S" />
+      <node concept="3clFbS" id="2JTUDFv8Oqn" role="3clF47">
+        <node concept="3cpWs8" id="2JTUDFv9bi0" role="3cqZAp">
+          <node concept="3cpWsn" id="2JTUDFv9bi1" role="3cpWs9">
+            <property role="TrG5h" value="mowareCookie" />
+            <node concept="3uibUv" id="2JTUDFv9bi2" role="1tU5fm">
+              <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
+            </node>
+            <node concept="2ShNRf" id="2JTUDFv9b_a" role="33vP2m">
+              <node concept="1pGfFk" id="2JTUDFv9ev5" role="2ShVmc">
+                <ref role="37wK5l" to="nwfd:~Cookie.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="Cookie" />
+                <node concept="Xl_RD" id="2JTUDFv9eC3" role="37wK5m">
+                  <property role="Xl_RC" value="mowareAuthenticatedUserName" />
+                </node>
+                <node concept="37vLTw" id="2JTUDFv9gjs" role="37wK5m">
+                  <ref role="3cqZAo" node="2JTUDFv9eSO" resolve="userName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2JTUDFv9gMh" role="3cqZAp">
+          <node concept="2OqwBi" id="2JTUDFv9gVN" role="3clFbG">
+            <node concept="37vLTw" id="2JTUDFv9gMf" role="2Oq$k0">
+              <ref role="3cqZAo" node="2JTUDFv9bi1" resolve="mowareCookie" />
+            </node>
+            <node concept="liA8E" id="2JTUDFv9gZH" role="2OqNvi">
+              <ref role="37wK5l" to="nwfd:~Cookie.setMaxAge(int):void" resolve="setMaxAge" />
+              <node concept="3cmrfG" id="2JTUDFv9hB9" role="37wK5m">
+                <property role="3cmrfH" value="604800" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2JTUDFv9hXR" role="3cqZAp">
+          <node concept="2OqwBi" id="2JTUDFv9i7t" role="3clFbG">
+            <node concept="37vLTw" id="2JTUDFv9hXP" role="2Oq$k0">
+              <ref role="3cqZAo" node="2JTUDFv9bi1" resolve="mowareCookie" />
+            </node>
+            <node concept="liA8E" id="2JTUDFv9iaB" role="2OqNvi">
+              <ref role="37wK5l" to="nwfd:~Cookie.setPath(java.lang.String):void" resolve="setPath" />
+              <node concept="2OqwBi" id="2JTUDFv9jqC" role="37wK5m">
+                <node concept="2YIFZM" id="2JTUDFv9jpJ" role="2Oq$k0">
+                  <ref role="37wK5l" to="tk4x:~VaadinService.getCurrentRequest():com.vaadin.server.VaadinRequest" resolve="getCurrentRequest" />
+                  <ref role="1Pybhc" to="tk4x:~VaadinService" resolve="VaadinService" />
+                </node>
+                <node concept="liA8E" id="2JTUDFv9jtC" role="2OqNvi">
+                  <ref role="37wK5l" to="tk4x:~VaadinRequest.getContextPath():java.lang.String" resolve="getContextPath" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2JTUDFv9lWJ" role="3cqZAp">
+          <node concept="2OqwBi" id="2JTUDFv9m5J" role="3clFbG">
+            <node concept="2YIFZM" id="2JTUDFv9m4s" role="2Oq$k0">
+              <ref role="37wK5l" to="tk4x:~VaadinService.getCurrentResponse():com.vaadin.server.VaadinResponse" resolve="getCurrentResponse" />
+              <ref role="1Pybhc" to="tk4x:~VaadinService" resolve="VaadinService" />
+            </node>
+            <node concept="liA8E" id="2JTUDFv9mau" role="2OqNvi">
+              <ref role="37wK5l" to="tk4x:~VaadinResponse.addCookie(javax.servlet.http.Cookie):void" resolve="addCookie" />
+              <node concept="37vLTw" id="2JTUDFv9mpy" role="37wK5m">
+                <ref role="3cqZAo" node="2JTUDFv9bi1" resolve="mowareCookie" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2JTUDFv9eSO" role="3clF46">
+        <property role="TrG5h" value="userName" />
+        <node concept="17QB3L" id="2JTUDFv9g9Y" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="2JTUDFv9QV1" role="jymVt">
+      <property role="TrG5h" value="getMowareCookie" />
+      <node concept="3uibUv" id="2JTUDFv9U7g" role="3clF45">
+        <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
+      </node>
+      <node concept="3Tm6S6" id="2JTUDFv9SEF" role="1B3o_S" />
+      <node concept="3clFbS" id="2JTUDFv9QV5" role="3clF47">
+        <node concept="3cpWs8" id="2JTUDFv9mtG" role="3cqZAp">
+          <node concept="3cpWsn" id="2JTUDFv9mtF" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="cookies" />
+            <node concept="10Q1$e" id="2JTUDFv9mtI" role="1tU5fm">
+              <node concept="3uibUv" id="2JTUDFv9mtH" role="10Q1$1">
+                <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2JTUDFv9mtJ" role="33vP2m">
+              <node concept="2YIFZM" id="2JTUDFv9mvr" role="2Oq$k0">
+                <ref role="1Pybhc" to="tk4x:~VaadinService" resolve="VaadinService" />
+                <ref role="37wK5l" to="tk4x:~VaadinService.getCurrentRequest():com.vaadin.server.VaadinRequest" resolve="getCurrentRequest" />
+              </node>
+              <node concept="liA8E" id="2JTUDFv9mtL" role="2OqNvi">
+                <ref role="37wK5l" to="tk4x:~VaadinRequest.getCookies():javax.servlet.http.Cookie[]" resolve="getCookies" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="2JTUDFvb3vg" role="3cqZAp">
+          <node concept="3cpWsn" id="2JTUDFvb3vj" role="3cpWs9">
+            <property role="TrG5h" value="path" />
+            <node concept="17QB3L" id="2JTUDFvb3ve" role="1tU5fm" />
+            <node concept="2OqwBi" id="2JTUDFvb5$1" role="33vP2m">
+              <node concept="2YIFZM" id="2JTUDFvb5Nu" role="2Oq$k0">
+                <ref role="37wK5l" to="tk4x:~VaadinService.getCurrentRequest():com.vaadin.server.VaadinRequest" resolve="getCurrentRequest" />
+                <ref role="1Pybhc" to="tk4x:~VaadinService" resolve="VaadinService" />
+              </node>
+              <node concept="liA8E" id="2JTUDFvb5Qr" role="2OqNvi">
+                <ref role="37wK5l" to="tk4x:~VaadinRequest.getContextPath():java.lang.String" resolve="getContextPath" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2JTUDFv9mu3" role="3cqZAp">
+          <node concept="3SKdUq" id="2JTUDFv9mu2" role="3SKWNk">
+            <property role="3SKdUp" value="Iterate to find cookie by its name " />
+          </node>
+        </node>
+        <node concept="1DcWWT" id="2JTUDFv9mtM" role="3cqZAp">
+          <node concept="37vLTw" id="2JTUDFv9mtZ" role="1DdaDG">
+            <ref role="3cqZAo" node="2JTUDFv9mtF" resolve="cookies" />
+          </node>
+          <node concept="3cpWsn" id="2JTUDFv9mtW" role="1Duv9x">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="cookie" />
+            <node concept="3uibUv" id="2JTUDFv9mtY" role="1tU5fm">
+              <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2JTUDFv9mtO" role="2LFqv$">
+            <node concept="3clFbJ" id="2JTUDFv9mtP" role="3cqZAp">
+              <node concept="1Wc70l" id="2JTUDFvb02F" role="3clFbw">
+                <node concept="2OqwBi" id="2JTUDFvb69Y" role="3uHU7w">
+                  <node concept="37vLTw" id="2JTUDFvb60l" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2JTUDFvb3vj" resolve="path" />
+                  </node>
+                  <node concept="liA8E" id="2JTUDFvb6hS" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <node concept="2OqwBi" id="2JTUDFvb6F9" role="37wK5m">
+                      <node concept="37vLTw" id="2JTUDFvb6xO" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2JTUDFv9mtW" resolve="cookie" />
+                      </node>
+                      <node concept="liA8E" id="2JTUDFvb6J2" role="2OqNvi">
+                        <ref role="37wK5l" to="nwfd:~Cookie.getPath():java.lang.String" resolve="getPath" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="2JTUDFv9vFk" role="3uHU7B">
+                  <node concept="liA8E" id="2JTUDFv9xfV" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <node concept="2OqwBi" id="2JTUDFv9ufe" role="37wK5m">
+                      <node concept="37vLTw" id="2JTUDFv9sQD" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2JTUDFv9mtW" resolve="cookie" />
+                      </node>
+                      <node concept="liA8E" id="2JTUDFv9vyz" role="2OqNvi">
+                        <ref role="37wK5l" to="nwfd:~Cookie.getName():java.lang.String" resolve="getName" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="2JTUDFv9xpT" role="2Oq$k0">
+                    <property role="Xl_RC" value="mowareAuthenticatedUserName" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="2JTUDFv9mtT" role="3clFbx">
+                <node concept="3cpWs6" id="2JTUDFva87L" role="3cqZAp">
+                  <node concept="37vLTw" id="2JTUDFva8mF" role="3cqZAk">
+                    <ref role="3cqZAo" node="2JTUDFv9mtW" resolve="cookie" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2JTUDFva6ia" role="3cqZAp">
+          <node concept="10Nm6u" id="2JTUDFva6pY" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="2JTUDFv8WSh" role="jymVt">
+      <property role="TrG5h" value="removeCookie" />
+      <node concept="3cqZAl" id="2JTUDFv8WSi" role="3clF45" />
+      <node concept="3Tm1VV" id="2JTUDFv8WSj" role="1B3o_S" />
+      <node concept="3clFbS" id="2JTUDFv8WSk" role="3clF47">
+        <node concept="3cpWs8" id="2JTUDFvaa6H" role="3cqZAp">
+          <node concept="3cpWsn" id="2JTUDFvaa6I" role="3cpWs9">
+            <property role="TrG5h" value="mowCookie" />
+            <node concept="3uibUv" id="2JTUDFvaa6J" role="1tU5fm">
+              <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
+            </node>
+            <node concept="1rXfSq" id="2JTUDFvaalJ" role="33vP2m">
+              <ref role="37wK5l" node="2JTUDFv9QV1" resolve="getMowareCookie" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2JTUDFvacg8" role="3cqZAp">
+          <node concept="3clFbS" id="2JTUDFvacga" role="3clFbx">
+            <node concept="3clFbF" id="2JTUDFvb9W3" role="3cqZAp">
+              <node concept="2OqwBi" id="2JTUDFvba4_" role="3clFbG">
+                <node concept="37vLTw" id="2JTUDFvb9W1" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2JTUDFvaa6I" resolve="mowCookie" />
+                </node>
+                <node concept="liA8E" id="2JTUDFvba7t" role="2OqNvi">
+                  <ref role="37wK5l" to="nwfd:~Cookie.setValue(java.lang.String):void" resolve="setValue" />
+                  <node concept="Xl_RD" id="2JTUDFvbaf1" role="37wK5m">
+                    <property role="Xl_RC" value="?" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2JTUDFvadg9" role="3cqZAp">
+              <node concept="2OqwBi" id="2JTUDFvadnU" role="3clFbG">
+                <node concept="37vLTw" id="2JTUDFvadg7" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2JTUDFvaa6I" resolve="mowCookie" />
+                </node>
+                <node concept="liA8E" id="2JTUDFvadqM" role="2OqNvi">
+                  <ref role="37wK5l" to="nwfd:~Cookie.setMaxAge(int):void" resolve="setMaxAge" />
+                  <node concept="3cmrfG" id="2JTUDFvadys" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2JTUDFvaejD" role="3cqZAp">
+              <node concept="2OqwBi" id="2JTUDFvaepI" role="3clFbG">
+                <node concept="2YIFZM" id="2JTUDFvaepe" role="2Oq$k0">
+                  <ref role="37wK5l" to="tk4x:~VaadinService.getCurrentResponse():com.vaadin.server.VaadinResponse" resolve="getCurrentResponse" />
+                  <ref role="1Pybhc" to="tk4x:~VaadinService" resolve="VaadinService" />
+                </node>
+                <node concept="liA8E" id="2JTUDFvaerj" role="2OqNvi">
+                  <ref role="37wK5l" to="tk4x:~VaadinResponse.addCookie(javax.servlet.http.Cookie):void" resolve="addCookie" />
+                  <node concept="37vLTw" id="2JTUDFvaeEn" role="37wK5m">
+                    <ref role="3cqZAo" node="2JTUDFvaa6I" resolve="mowCookie" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2JTUDFvacN7" role="3clFbw">
+            <node concept="10Nm6u" id="2JTUDFvacUH" role="3uHU7w" />
+            <node concept="37vLTw" id="2JTUDFvacx5" role="3uHU7B">
+              <ref role="3cqZAo" node="2JTUDFvaa6I" resolve="mowCookie" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="2JTUDFv9098" role="jymVt">
+      <property role="TrG5h" value="getUserNameFromCookie" />
+      <node concept="17QB3L" id="2JTUDFv91VP" role="3clF45" />
+      <node concept="3Tm1VV" id="2JTUDFv909a" role="1B3o_S" />
+      <node concept="3clFbS" id="2JTUDFv909b" role="3clF47">
+        <node concept="3cpWs8" id="2JTUDFvaiRM" role="3cqZAp">
+          <node concept="3cpWsn" id="2JTUDFvaiRN" role="3cpWs9">
+            <property role="TrG5h" value="mowCookie" />
+            <node concept="3uibUv" id="2JTUDFvaiRO" role="1tU5fm">
+              <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
+            </node>
+            <node concept="1rXfSq" id="2JTUDFvaiRP" role="33vP2m">
+              <ref role="37wK5l" node="2JTUDFv9QV1" resolve="getMowareCookie" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2JTUDFvaiRQ" role="3cqZAp">
+          <node concept="3clFbS" id="2JTUDFvaiRR" role="3clFbx">
+            <node concept="3cpWs6" id="2JTUDFvakxF" role="3cqZAp">
+              <node concept="2OqwBi" id="2JTUDFvambq" role="3cqZAk">
+                <node concept="37vLTw" id="2JTUDFvakKq" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2JTUDFvaiRN" resolve="mowCookie" />
+                </node>
+                <node concept="liA8E" id="2JTUDFvanEk" role="2OqNvi">
+                  <ref role="37wK5l" to="nwfd:~Cookie.getValue():java.lang.String" resolve="getValue" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="2JTUDFvaiS2" role="3clFbw">
+            <node concept="10Nm6u" id="2JTUDFvaiS3" role="3uHU7w" />
+            <node concept="37vLTw" id="2JTUDFvaiS4" role="3uHU7B">
+              <ref role="3cqZAo" node="2JTUDFvaiRN" resolve="mowCookie" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="2JTUDFvaqzl" role="3cqZAp">
+          <node concept="10Nm6u" id="2JTUDFvarW7" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="vsIEjNqk1S" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="detach" />
@@ -30695,13 +30858,8 @@
         <node concept="3clFbF" id="61_QXqSd2k4" role="3cqZAp">
           <node concept="2OqwBi" id="61_QXqSd2k5" role="3clFbG">
             <node concept="2OqwBi" id="61_QXqSd2k6" role="2Oq$k0">
-              <node concept="2OqwBi" id="61_QXqSd2k7" role="2Oq$k0">
-                <node concept="liA8E" id="61_QXqSd2k8" role="2OqNvi">
-                  <ref role="37wK5l" to="tk4x:~AbstractClientConnector.getUI():com.vaadin.ui.UI" resolve="getUI" />
-                </node>
-                <node concept="37vLTw" id="61_QXqSd2k9" role="2Oq$k0">
-                  <ref role="3cqZAo" node="61_QXqSd29L" resolve="mainTabWindow" />
-                </node>
+              <node concept="37vLTw" id="2JTUDFvaE6F" role="2Oq$k0">
+                <ref role="3cqZAo" node="7b0XfCDHBhY" resolve="mainUserSessionUI" />
               </node>
               <node concept="liA8E" id="61_QXqSd2ka" role="2OqNvi">
                 <ref role="37wK5l" to="waq:~UI.getPage():com.vaadin.server.Page" resolve="getPage" />
@@ -30735,13 +30893,8 @@
               <ref role="3uigEE" to="tk4x:~VaadinSession" resolve="VaadinSession" />
             </node>
             <node concept="2OqwBi" id="OG9sny0D4L" role="33vP2m">
-              <node concept="2OqwBi" id="OG9sny0CmD" role="2Oq$k0">
-                <node concept="37vLTw" id="OG9sny0Cfi" role="2Oq$k0">
-                  <ref role="3cqZAo" node="61_QXqSd29L" resolve="mainTabWindow" />
-                </node>
-                <node concept="liA8E" id="OG9sny0CR8" role="2OqNvi">
-                  <ref role="37wK5l" to="tk4x:~AbstractClientConnector.getUI():com.vaadin.ui.UI" resolve="getUI" />
-                </node>
+              <node concept="37vLTw" id="2JTUDFvaEp3" role="2Oq$k0">
+                <ref role="3cqZAo" node="7b0XfCDHBhY" resolve="mainUserSessionUI" />
               </node>
               <node concept="liA8E" id="OG9sny0Dxf" role="2OqNvi">
                 <ref role="37wK5l" to="waq:~UI.getSession():com.vaadin.server.VaadinSession" resolve="getSession" />
@@ -30749,15 +30902,37 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="2JTUDFvaVeo" role="3cqZAp">
+          <node concept="3cpWsn" id="2JTUDFvaVep" role="3cpWs9">
+            <property role="TrG5h" value="httpSession" />
+            <node concept="3uibUv" id="2JTUDFvaVeq" role="1tU5fm">
+              <ref role="3uigEE" to="tk4x:~WrappedSession" resolve="WrappedSession" />
+            </node>
+            <node concept="2OqwBi" id="2JTUDFvaVsT" role="33vP2m">
+              <node concept="37vLTw" id="2JTUDFvaVpj" role="2Oq$k0">
+                <ref role="3cqZAo" node="OG9sny0C4y" resolve="session" />
+              </node>
+              <node concept="liA8E" id="2JTUDFvaVxT" role="2OqNvi">
+                <ref role="37wK5l" to="tk4x:~VaadinSession.getSession():com.vaadin.server.WrappedSession" resolve="getSession" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2JTUDFvaURE" role="3cqZAp" />
+        <node concept="3clFbF" id="2JTUDFvaF0l" role="3cqZAp">
+          <node concept="2OqwBi" id="2JTUDFvaFer" role="3clFbG">
+            <node concept="37vLTw" id="2JTUDFvaF0j" role="2Oq$k0">
+              <ref role="3cqZAo" node="7b0XfCDHBhY" resolve="mainUserSessionUI" />
+            </node>
+            <node concept="liA8E" id="2JTUDFvaFGt" role="2OqNvi">
+              <ref role="37wK5l" node="2JTUDFv8WSh" resolve="removeCookie" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3xmYcCN_RLH" role="3cqZAp">
           <node concept="2OqwBi" id="3xmYcCN_S_8" role="3clFbG">
-            <node concept="2OqwBi" id="3xmYcCN_RVA" role="2Oq$k0">
-              <node concept="37vLTw" id="3xmYcCN_RLF" role="2Oq$k0">
-                <ref role="3cqZAo" node="61_QXqSd29L" resolve="mainTabWindow" />
-              </node>
-              <node concept="liA8E" id="3xmYcCN_Sup" role="2OqNvi">
-                <ref role="37wK5l" to="tk4x:~AbstractClientConnector.getUI():com.vaadin.ui.UI" resolve="getUI" />
-              </node>
+            <node concept="37vLTw" id="2JTUDFvaEBg" role="2Oq$k0">
+              <ref role="3cqZAo" node="7b0XfCDHBhY" resolve="mainUserSessionUI" />
             </node>
             <node concept="liA8E" id="3xmYcCN_T3j" role="2OqNvi">
               <ref role="37wK5l" to="waq:~UI.close():void" resolve="close" />
@@ -30814,7 +30989,17 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="OG9sny0E5g" role="3cqZAp" />
+        <node concept="3clFbF" id="2JTUDFvaWno" role="3cqZAp">
+          <node concept="2OqwBi" id="2JTUDFvaWx5" role="3clFbG">
+            <node concept="37vLTw" id="2JTUDFvaWnm" role="2Oq$k0">
+              <ref role="3cqZAo" node="2JTUDFvaVep" resolve="httpSession" />
+            </node>
+            <node concept="liA8E" id="2JTUDFvaWBk" role="2OqNvi">
+              <ref role="37wK5l" to="tk4x:~WrappedSession.invalidate():void" resolve="invalidate" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2JTUDFvaWBB" role="3cqZAp" />
         <node concept="3clFbF" id="61_QXqSd2l3" role="3cqZAp">
           <node concept="2OqwBi" id="61_QXqSd2l4" role="3clFbG">
             <node concept="Xjq3P" id="61_QXqSd2l5" role="2Oq$k0" />

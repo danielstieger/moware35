@@ -15952,11 +15952,34 @@
             <property role="3SKdUp" value="back, forth, back, forth .. different surch result lists .. we dont care" />
           </node>
         </node>
+        <node concept="1X3_iC" id="2JTUDFv8kdS" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="2JTUDFuSh24" role="8Wnug">
+            <node concept="2OqwBi" id="2JTUDFuSh21" role="3clFbG">
+              <node concept="10M0yZ" id="2JTUDFuSh22" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              </node>
+              <node concept="liA8E" id="2JTUDFuSh23" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="3cpWs3" id="2JTUDFuShhe" role="37wK5m">
+                  <node concept="37vLTw" id="2JTUDFuShjG" role="3uHU7w">
+                    <ref role="3cqZAo" node="6X2OBnWuzQ9" resolve="objectToSelect" />
+                  </node>
+                  <node concept="Xl_RD" id="2JTUDFuSh6p" role="3uHU7B">
+                    <property role="Xl_RC" value="fg_PushSelectionNoReloadView() we got " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="3xmYcCNeGGM" role="3cqZAp">
           <node concept="3clFbS" id="3xmYcCNeGGO" role="3clFbx">
             <node concept="1DcWWT" id="3xmYcCNeHwK" role="3cqZAp">
               <node concept="3clFbS" id="3xmYcCNeHwM" role="2LFqv$">
-                <node concept="1X3_iC" id="3xmYcCNyc5x" role="lGtFl">
+                <node concept="1X3_iC" id="2JTUDFv8kjP" role="lGtFl">
                   <property role="3V$3am" value="statement" />
                   <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
                   <node concept="3clFbF" id="3xmYcCNwVen" role="8Wnug">
@@ -15967,12 +15990,37 @@
                       </node>
                       <node concept="liA8E" id="3xmYcCNwVem" role="2OqNvi">
                         <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                        <node concept="3cpWs3" id="3xmYcCNwVpW" role="37wK5m">
-                          <node concept="37vLTw" id="3xmYcCNwVs1" role="3uHU7w">
-                            <ref role="3cqZAo" node="3xmYcCNeHwN" resolve="obj" />
+                        <node concept="3cpWs3" id="2JTUDFuSI0N" role="37wK5m">
+                          <node concept="2OqwBi" id="2JTUDFuSImk" role="3uHU7w">
+                            <node concept="37vLTw" id="2JTUDFuSIji" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
+                            </node>
+                            <node concept="2OwXpG" id="2JTUDFuSIBS" role="2OqNvi">
+                              <ref role="2Oxat5" node="3972coxdH7G" resolve="boundToType" />
+                            </node>
                           </node>
-                          <node concept="Xl_RD" id="3xmYcCNwVfa" role="3uHU7B">
-                            <property role="Xl_RC" value="CommandContainer.fg_pushSelectionNoReloadView() " />
+                          <node concept="3cpWs3" id="2JTUDFuSHCG" role="3uHU7B">
+                            <node concept="3cpWs3" id="2JTUDFuSHwr" role="3uHU7B">
+                              <node concept="3cpWs3" id="2JTUDFuSHmn" role="3uHU7B">
+                                <node concept="3cpWs3" id="3xmYcCNwVpW" role="3uHU7B">
+                                  <node concept="Xl_RD" id="3xmYcCNwVfa" role="3uHU7B">
+                                    <property role="Xl_RC" value="CommandContainer.fg_pushSelectionNoReloadView() selecting " />
+                                  </node>
+                                  <node concept="37vLTw" id="3xmYcCNwVs1" role="3uHU7w">
+                                    <ref role="3cqZAo" node="3xmYcCNeHwN" resolve="obj" />
+                                  </node>
+                                </node>
+                                <node concept="Xl_RD" id="2JTUDFuSHt1" role="3uHU7w">
+                                  <property role="Xl_RC" value=" on " />
+                                </node>
+                              </node>
+                              <node concept="37vLTw" id="2JTUDFuSH_U" role="3uHU7w">
+                                <ref role="3cqZAo" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="2JTUDFuSHDp" role="3uHU7w">
+                              <property role="Xl_RC" value=" / " />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -18888,7 +18936,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="10P_77" id="6PK_6HzhtKO" role="1tU5fm" />
       <node concept="3Tmbuc" id="6PK_6HzhuV_" role="1B3o_S" />
-      <node concept="3clFbT" id="3GKiyr8Ihl8" role="33vP2m">
+      <node concept="3clFbT" id="2JTUDFv82Ty" role="33vP2m">
         <property role="3clFbU" value="false" />
       </node>
     </node>
@@ -22654,20 +22702,6 @@
             <node concept="3SKdUt" id="1mou_EB9o0p" role="3cqZAp">
               <node concept="3SKdUq" id="1mou_EB9o0r" role="3SKWNk">
                 <property role="3SKdUp" value="autoconclusion handling" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="7iVBTs8gtC3" role="3cqZAp">
-              <node concept="2OqwBi" id="7iVBTs8gtC0" role="3clFbG">
-                <node concept="10M0yZ" id="7iVBTs8gtC1" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="7iVBTs8gtC2" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                  <node concept="Xl_RD" id="7iVBTs8gtEc" role="37wK5m">
-                    <property role="Xl_RC" value="AGAIN TO PARENT : )" />
-                  </node>
-                </node>
               </node>
             </node>
             <node concept="3clFbF" id="7TgG1qSf6UI" role="3cqZAp">
