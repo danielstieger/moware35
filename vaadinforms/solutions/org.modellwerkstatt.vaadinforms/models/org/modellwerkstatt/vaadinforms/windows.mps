@@ -428,7 +428,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2xJao4Wxnqv" role="jymVt" />
-    <node concept="2tJIrI" id="5$BCFrw9627" role="jymVt" />
     <node concept="312cEg" id="7b0XfCDIeLy" role="jymVt">
       <property role="TrG5h" value="remoteAddr" />
       <node concept="3Tmbuc" id="2xJao4Wxp87" role="1B3o_S" />
@@ -1311,8 +1310,13 @@
                   </node>
                   <node concept="liA8E" id="2JTUDFvawgN" role="2OqNvi">
                     <ref role="37wK5l" to="tk4x:~WrappedSession.getAttribute(java.lang.String):java.lang.Object" resolve="getAttribute" />
-                    <node concept="Xl_RD" id="2JTUDFvawgO" role="37wK5m">
-                      <property role="Xl_RC" value="authUserName" />
+                    <node concept="2OqwBi" id="3u$lBI4fo$H" role="37wK5m">
+                      <node concept="37vLTw" id="3u$lBI4fojw" role="2Oq$k0">
+                        <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                      </node>
+                      <node concept="liA8E" id="3u$lBI4fp0p" role="2OqNvi">
+                        <ref role="37wK5l" node="3xmYcCN_AxR" resolve="getAuthInfoAttributeName" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -1320,16 +1324,20 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2JTUDFvaKaL" role="3cqZAp">
-          <node concept="2YIFZM" id="2JTUDFvaL8U" role="3clFbG">
-            <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-            <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-            <node concept="3cpWs3" id="2JTUDFvaM5Y" role="37wK5m">
-              <node concept="37vLTw" id="2JTUDFvaMmi" role="3uHU7w">
-                <ref role="3cqZAo" node="OG9sny0u_d" resolve="userInSessionAuthenticated" />
-              </node>
-              <node concept="Xl_RD" id="2JTUDFvaLEl" role="3uHU7B">
-                <property role="Xl_RC" value="VUserSessionUI.init() using session to log in: " />
+        <node concept="1X3_iC" id="3u$lBI4g6Y2" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="2JTUDFvaKaL" role="8Wnug">
+            <node concept="2YIFZM" id="2JTUDFvaL8U" role="3clFbG">
+              <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+              <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+              <node concept="3cpWs3" id="2JTUDFvaM5Y" role="37wK5m">
+                <node concept="37vLTw" id="2JTUDFvaMmi" role="3uHU7w">
+                  <ref role="3cqZAo" node="OG9sny0u_d" resolve="userInSessionAuthenticated" />
+                </node>
+                <node concept="Xl_RD" id="2JTUDFvaLEl" role="3uHU7B">
+                  <property role="Xl_RC" value="VUserSessionUI.init() using session to log in: " />
+                </node>
               </node>
             </node>
           </node>
@@ -1352,16 +1360,20 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="2JTUDFvaMYp" role="3cqZAp">
-              <node concept="2YIFZM" id="2JTUDFvaMYq" role="3clFbG">
-                <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-                <node concept="3cpWs3" id="2JTUDFvaMYr" role="37wK5m">
-                  <node concept="37vLTw" id="2JTUDFvaMYs" role="3uHU7w">
-                    <ref role="3cqZAo" node="OG9sny0u_d" resolve="userInSessionAuthenticated" />
-                  </node>
-                  <node concept="Xl_RD" id="2JTUDFvaMYt" role="3uHU7B">
-                    <property role="Xl_RC" value="VUserSessionUI.init() using cookie to log in: " />
+            <node concept="1X3_iC" id="3u$lBI4g6Ri" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="2JTUDFvaMYp" role="8Wnug">
+                <node concept="2YIFZM" id="2JTUDFvaMYq" role="3clFbG">
+                  <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+                  <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+                  <node concept="3cpWs3" id="2JTUDFvaMYr" role="37wK5m">
+                    <node concept="37vLTw" id="2JTUDFvaMYs" role="3uHU7w">
+                      <ref role="3cqZAo" node="OG9sny0u_d" resolve="userInSessionAuthenticated" />
+                    </node>
+                    <node concept="Xl_RD" id="2JTUDFvaMYt" role="3uHU7B">
+                      <property role="Xl_RC" value="VUserSessionUI.init() using cookie to log in: " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -2187,8 +2199,13 @@
                   </node>
                   <node concept="liA8E" id="OG9sny0o1_" role="2OqNvi">
                     <ref role="37wK5l" to="tk4x:~WrappedSession.setAttribute(java.lang.String,java.lang.Object):void" resolve="setAttribute" />
-                    <node concept="Xl_RD" id="OG9sny0o1A" role="37wK5m">
-                      <property role="Xl_RC" value="authUserName" />
+                    <node concept="2OqwBi" id="3u$lBI4fpKO" role="37wK5m">
+                      <node concept="37vLTw" id="3u$lBI4fpKP" role="2Oq$k0">
+                        <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                      </node>
+                      <node concept="liA8E" id="3u$lBI4fpKQ" role="2OqNvi">
+                        <ref role="37wK5l" node="3xmYcCN_AxR" resolve="getAuthInfoAttributeName" />
+                      </node>
                     </node>
                     <node concept="37vLTw" id="OG9sny0oJs" role="37wK5m">
                       <ref role="3cqZAo" node="3bLKpg8TCAU" resolve="userName" />
@@ -2198,7 +2215,7 @@
               </node>
               <node concept="3clFbF" id="2JTUDFvatSz" role="3cqZAp">
                 <node concept="1rXfSq" id="2JTUDFvatSx" role="3clFbG">
-                  <ref role="37wK5l" node="2JTUDFv8Oqj" resolve="setCookie" />
+                  <ref role="37wK5l" node="2JTUDFv8Oqj" resolve="setMowareCookie" />
                   <node concept="37vLTw" id="2JTUDFvauty" role="37wK5m">
                     <ref role="3cqZAo" node="3bLKpg8TCAU" resolve="userName" />
                   </node>
@@ -2646,7 +2663,7 @@
     </node>
     <node concept="2tJIrI" id="5XGplYB7HRC" role="jymVt" />
     <node concept="3clFb_" id="2JTUDFv8Oqj" role="jymVt">
-      <property role="TrG5h" value="setCookie" />
+      <property role="TrG5h" value="setMowareCookie" />
       <node concept="3cqZAl" id="2JTUDFv8Oql" role="3clF45" />
       <node concept="3Tm1VV" id="2JTUDFv8Oqm" role="1B3o_S" />
       <node concept="3clFbS" id="2JTUDFv8Oqn" role="3clF47">
@@ -2659,8 +2676,13 @@
             <node concept="2ShNRf" id="2JTUDFv9b_a" role="33vP2m">
               <node concept="1pGfFk" id="2JTUDFv9ev5" role="2ShVmc">
                 <ref role="37wK5l" to="nwfd:~Cookie.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="Cookie" />
-                <node concept="Xl_RD" id="2JTUDFv9eC3" role="37wK5m">
-                  <property role="Xl_RC" value="mowareAuthenticatedUserName" />
+                <node concept="2OqwBi" id="3u$lBI4fpfO" role="37wK5m">
+                  <node concept="37vLTw" id="3u$lBI4fpfP" role="2Oq$k0">
+                    <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                  </node>
+                  <node concept="liA8E" id="3u$lBI4fpfQ" role="2OqNvi">
+                    <ref role="37wK5l" node="3xmYcCN_AxR" resolve="getAuthInfoAttributeName" />
+                  </node>
                 </node>
                 <node concept="37vLTw" id="2JTUDFv9gjs" role="37wK5m">
                   <ref role="3cqZAo" node="2JTUDFv9eSO" resolve="userName" />
@@ -2696,6 +2718,24 @@
                 </node>
                 <node concept="liA8E" id="2JTUDFv9jtC" role="2OqNvi">
                   <ref role="37wK5l" to="tk4x:~VaadinRequest.getContextPath():java.lang.String" resolve="getContextPath" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3u$lBI4el0w" role="3cqZAp">
+          <node concept="2OqwBi" id="3u$lBI4el9R" role="3clFbG">
+            <node concept="37vLTw" id="3u$lBI4el0u" role="2Oq$k0">
+              <ref role="3cqZAo" node="2JTUDFv9bi1" resolve="mowareCookie" />
+            </node>
+            <node concept="liA8E" id="3u$lBI4eleJ" role="2OqNvi">
+              <ref role="37wK5l" to="nwfd:~Cookie.setComment(java.lang.String):void" resolve="setComment" />
+              <node concept="2OqwBi" id="3u$lBI4fprd" role="37wK5m">
+                <node concept="37vLTw" id="3u$lBI4fpre" role="2Oq$k0">
+                  <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                </node>
+                <node concept="liA8E" id="3u$lBI4fprf" role="2OqNvi">
+                  <ref role="37wK5l" node="3xmYcCN_AxR" resolve="getAuthInfoAttributeName" />
                 </node>
               </node>
             </node>
@@ -2748,21 +2788,21 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="2JTUDFvb3vg" role="3cqZAp">
-          <node concept="3cpWsn" id="2JTUDFvb3vj" role="3cpWs9">
-            <property role="TrG5h" value="path" />
-            <node concept="17QB3L" id="2JTUDFvb3ve" role="1tU5fm" />
-            <node concept="2OqwBi" id="2JTUDFvb5$1" role="33vP2m">
-              <node concept="2YIFZM" id="2JTUDFvb5Nu" role="2Oq$k0">
-                <ref role="37wK5l" to="tk4x:~VaadinService.getCurrentRequest():com.vaadin.server.VaadinRequest" resolve="getCurrentRequest" />
-                <ref role="1Pybhc" to="tk4x:~VaadinService" resolve="VaadinService" />
+        <node concept="3cpWs8" id="3u$lBI4eEdm" role="3cqZAp">
+          <node concept="3cpWsn" id="3u$lBI4eEdn" role="3cpWs9">
+            <property role="TrG5h" value="cookieName" />
+            <node concept="17QB3L" id="3u$lBI4eEdo" role="1tU5fm" />
+            <node concept="2OqwBi" id="3u$lBI4fp_j" role="33vP2m">
+              <node concept="37vLTw" id="3u$lBI4fp_k" role="2Oq$k0">
+                <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
               </node>
-              <node concept="liA8E" id="2JTUDFvb5Qr" role="2OqNvi">
-                <ref role="37wK5l" to="tk4x:~VaadinRequest.getContextPath():java.lang.String" resolve="getContextPath" />
+              <node concept="liA8E" id="3u$lBI4fp_l" role="2OqNvi">
+                <ref role="37wK5l" node="3xmYcCN_AxR" resolve="getAuthInfoAttributeName" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3u$lBI4esJ6" role="3cqZAp" />
         <node concept="3SKdUt" id="2JTUDFv9mu3" role="3cqZAp">
           <node concept="3SKdUq" id="2JTUDFv9mu2" role="3SKWNk">
             <property role="3SKdUp" value="Iterate to find cookie by its name " />
@@ -2781,38 +2821,20 @@
           </node>
           <node concept="3clFbS" id="2JTUDFv9mtO" role="2LFqv$">
             <node concept="3clFbJ" id="2JTUDFv9mtP" role="3cqZAp">
-              <node concept="1Wc70l" id="2JTUDFvb02F" role="3clFbw">
-                <node concept="2OqwBi" id="2JTUDFvb69Y" role="3uHU7w">
-                  <node concept="37vLTw" id="2JTUDFvb60l" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2JTUDFvb3vj" resolve="path" />
-                  </node>
-                  <node concept="liA8E" id="2JTUDFvb6hS" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="2OqwBi" id="2JTUDFvb6F9" role="37wK5m">
-                      <node concept="37vLTw" id="2JTUDFvb6xO" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2JTUDFv9mtW" resolve="cookie" />
-                      </node>
-                      <node concept="liA8E" id="2JTUDFvb6J2" role="2OqNvi">
-                        <ref role="37wK5l" to="nwfd:~Cookie.getPath():java.lang.String" resolve="getPath" />
-                      </node>
+              <node concept="2OqwBi" id="2JTUDFv9vFk" role="3clFbw">
+                <node concept="liA8E" id="2JTUDFv9xfV" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="2OqwBi" id="2JTUDFv9ufe" role="37wK5m">
+                    <node concept="37vLTw" id="2JTUDFv9sQD" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2JTUDFv9mtW" resolve="cookie" />
+                    </node>
+                    <node concept="liA8E" id="2JTUDFv9vyz" role="2OqNvi">
+                      <ref role="37wK5l" to="nwfd:~Cookie.getName():java.lang.String" resolve="getName" />
                     </node>
                   </node>
                 </node>
-                <node concept="2OqwBi" id="2JTUDFv9vFk" role="3uHU7B">
-                  <node concept="liA8E" id="2JTUDFv9xfV" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="2OqwBi" id="2JTUDFv9ufe" role="37wK5m">
-                      <node concept="37vLTw" id="2JTUDFv9sQD" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2JTUDFv9mtW" resolve="cookie" />
-                      </node>
-                      <node concept="liA8E" id="2JTUDFv9vyz" role="2OqNvi">
-                        <ref role="37wK5l" to="nwfd:~Cookie.getName():java.lang.String" resolve="getName" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="2JTUDFv9xpT" role="2Oq$k0">
-                    <property role="Xl_RC" value="mowareAuthenticatedUserName" />
-                  </node>
+                <node concept="37vLTw" id="3u$lBI4eHMC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3u$lBI4eEdn" resolve="cookieName" />
                 </node>
               </node>
               <node concept="3clFbS" id="2JTUDFv9mtT" role="3clFbx">
@@ -2846,44 +2868,93 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3u$lBI4e2vR" role="3cqZAp" />
         <node concept="3clFbJ" id="2JTUDFvacg8" role="3cqZAp">
           <node concept="3clFbS" id="2JTUDFvacga" role="3clFbx">
-            <node concept="3clFbF" id="2JTUDFvb9W3" role="3cqZAp">
-              <node concept="2OqwBi" id="2JTUDFvba4_" role="3clFbG">
-                <node concept="37vLTw" id="2JTUDFvb9W1" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2JTUDFvaa6I" resolve="mowCookie" />
+            <node concept="3cpWs8" id="3u$lBI4eW7$" role="3cqZAp">
+              <node concept="3cpWsn" id="3u$lBI4eW7_" role="3cpWs9">
+                <property role="TrG5h" value="mowareCookie" />
+                <node concept="3uibUv" id="3u$lBI4eW7A" role="1tU5fm">
+                  <ref role="3uigEE" to="nwfd:~Cookie" resolve="Cookie" />
                 </node>
-                <node concept="liA8E" id="2JTUDFvba7t" role="2OqNvi">
-                  <ref role="37wK5l" to="nwfd:~Cookie.setValue(java.lang.String):void" resolve="setValue" />
-                  <node concept="Xl_RD" id="2JTUDFvbaf1" role="37wK5m">
-                    <property role="Xl_RC" value="?" />
+                <node concept="2ShNRf" id="3u$lBI4eW7B" role="33vP2m">
+                  <node concept="1pGfFk" id="3u$lBI4eW7C" role="2ShVmc">
+                    <ref role="37wK5l" to="nwfd:~Cookie.&lt;init&gt;(java.lang.String,java.lang.String)" resolve="Cookie" />
+                    <node concept="2OqwBi" id="3u$lBI4eZRB" role="37wK5m">
+                      <node concept="37vLTw" id="3u$lBI4eZI1" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2JTUDFvaa6I" resolve="mowCookie" />
+                      </node>
+                      <node concept="liA8E" id="3u$lBI4eZWl" role="2OqNvi">
+                        <ref role="37wK5l" to="nwfd:~Cookie.getName():java.lang.String" resolve="getName" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="3u$lBI4eZ6y" role="37wK5m">
+                      <property role="Xl_RC" value="?" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="2JTUDFvadg9" role="3cqZAp">
-              <node concept="2OqwBi" id="2JTUDFvadnU" role="3clFbG">
-                <node concept="37vLTw" id="2JTUDFvadg7" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2JTUDFvaa6I" resolve="mowCookie" />
+            <node concept="3clFbF" id="3u$lBI4eW7F" role="3cqZAp">
+              <node concept="2OqwBi" id="3u$lBI4eW7G" role="3clFbG">
+                <node concept="37vLTw" id="3u$lBI4eW7H" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3u$lBI4eW7_" resolve="mowareCookie" />
                 </node>
-                <node concept="liA8E" id="2JTUDFvadqM" role="2OqNvi">
+                <node concept="liA8E" id="3u$lBI4eW7I" role="2OqNvi">
                   <ref role="37wK5l" to="nwfd:~Cookie.setMaxAge(int):void" resolve="setMaxAge" />
-                  <node concept="3cmrfG" id="2JTUDFvadys" role="37wK5m">
+                  <node concept="3cmrfG" id="3u$lBI4eW7J" role="37wK5m">
                     <property role="3cmrfH" value="0" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="2JTUDFvaejD" role="3cqZAp">
-              <node concept="2OqwBi" id="2JTUDFvaepI" role="3clFbG">
-                <node concept="2YIFZM" id="2JTUDFvaepe" role="2Oq$k0">
+            <node concept="3clFbF" id="3u$lBI4eW7K" role="3cqZAp">
+              <node concept="2OqwBi" id="3u$lBI4eW7L" role="3clFbG">
+                <node concept="37vLTw" id="3u$lBI4eW7M" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3u$lBI4eW7_" resolve="mowareCookie" />
+                </node>
+                <node concept="liA8E" id="3u$lBI4eW7N" role="2OqNvi">
+                  <ref role="37wK5l" to="nwfd:~Cookie.setPath(java.lang.String):void" resolve="setPath" />
+                  <node concept="2OqwBi" id="3u$lBI4eW7O" role="37wK5m">
+                    <node concept="2YIFZM" id="3u$lBI4eW7P" role="2Oq$k0">
+                      <ref role="1Pybhc" to="tk4x:~VaadinService" resolve="VaadinService" />
+                      <ref role="37wK5l" to="tk4x:~VaadinService.getCurrentRequest():com.vaadin.server.VaadinRequest" resolve="getCurrentRequest" />
+                    </node>
+                    <node concept="liA8E" id="3u$lBI4eW7Q" role="2OqNvi">
+                      <ref role="37wK5l" to="tk4x:~VaadinRequest.getContextPath():java.lang.String" resolve="getContextPath" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3u$lBI4eW7R" role="3cqZAp">
+              <node concept="2OqwBi" id="3u$lBI4eW7S" role="3clFbG">
+                <node concept="37vLTw" id="3u$lBI4eW7T" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3u$lBI4eW7_" resolve="mowareCookie" />
+                </node>
+                <node concept="liA8E" id="3u$lBI4eW7U" role="2OqNvi">
+                  <ref role="37wK5l" to="nwfd:~Cookie.setComment(java.lang.String):void" resolve="setComment" />
+                  <node concept="2OqwBi" id="3u$lBI4f0fr" role="37wK5m">
+                    <node concept="37vLTw" id="3u$lBI4f07j" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2JTUDFvaa6I" resolve="mowCookie" />
+                    </node>
+                    <node concept="liA8E" id="3u$lBI4f0in" role="2OqNvi">
+                      <ref role="37wK5l" to="nwfd:~Cookie.getName():java.lang.String" resolve="getName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="3u$lBI4eW7W" role="3cqZAp">
+              <node concept="2OqwBi" id="3u$lBI4eW7X" role="3clFbG">
+                <node concept="2YIFZM" id="3u$lBI4eW7Y" role="2Oq$k0">
                   <ref role="37wK5l" to="tk4x:~VaadinService.getCurrentResponse():com.vaadin.server.VaadinResponse" resolve="getCurrentResponse" />
                   <ref role="1Pybhc" to="tk4x:~VaadinService" resolve="VaadinService" />
                 </node>
-                <node concept="liA8E" id="2JTUDFvaerj" role="2OqNvi">
+                <node concept="liA8E" id="3u$lBI4eW7Z" role="2OqNvi">
                   <ref role="37wK5l" to="tk4x:~VaadinResponse.addCookie(javax.servlet.http.Cookie):void" resolve="addCookie" />
-                  <node concept="37vLTw" id="2JTUDFvaeEn" role="37wK5m">
-                    <ref role="3cqZAo" node="2JTUDFvaa6I" resolve="mowCookie" />
+                  <node concept="37vLTw" id="3u$lBI4eW80" role="37wK5m">
+                    <ref role="3cqZAo" node="3u$lBI4eW7_" resolve="mowareCookie" />
                   </node>
                 </node>
               </node>
@@ -2947,29 +3018,37 @@
       <node concept="3Tm1VV" id="vsIEjNqk1T" role="1B3o_S" />
       <node concept="3cqZAl" id="vsIEjNqk1V" role="3clF45" />
       <node concept="3clFbS" id="vsIEjNqk1W" role="3clF47">
-        <node concept="3clFbF" id="61_QXqSgDpB" role="3cqZAp">
-          <node concept="2YIFZM" id="61_QXqSgDpC" role="3clFbG">
-            <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-            <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-            <node concept="3cpWs3" id="61_QXqSgDpD" role="37wK5m">
-              <node concept="2OqwBi" id="61_QXqSgDpE" role="3uHU7w">
-                <node concept="Xjq3P" id="61_QXqSgDpF" role="2Oq$k0" />
-                <node concept="liA8E" id="61_QXqSgDpG" role="2OqNvi">
-                  <ref role="37wK5l" to="tk4x:~AbstractClientConnector.hashCode():int" resolve="hashCode" />
+        <node concept="1X3_iC" id="3u$lBI4f7xv" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="61_QXqSgDpB" role="8Wnug">
+            <node concept="2YIFZM" id="61_QXqSgDpC" role="3clFbG">
+              <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+              <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+              <node concept="3cpWs3" id="61_QXqSgDpD" role="37wK5m">
+                <node concept="2OqwBi" id="61_QXqSgDpE" role="3uHU7w">
+                  <node concept="Xjq3P" id="61_QXqSgDpF" role="2Oq$k0" />
+                  <node concept="liA8E" id="61_QXqSgDpG" role="2OqNvi">
+                    <ref role="37wK5l" to="tk4x:~AbstractClientConnector.hashCode():int" resolve="hashCode" />
+                  </node>
                 </node>
-              </node>
-              <node concept="Xl_RD" id="61_QXqSgDpH" role="3uHU7B">
-                <property role="Xl_RC" value="VUserSessionUI.DETACH() detach Called for UI, " />
+                <node concept="Xl_RD" id="61_QXqSgDpH" role="3uHU7B">
+                  <property role="Xl_RC" value="VUserSessionUI.DETACH() detach Called for UI, " />
+                </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="61_QXqSgDpI" role="3cqZAp">
-          <node concept="2YIFZM" id="61_QXqSgDpJ" role="3clFbG">
-            <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-            <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-            <node concept="Xl_RD" id="61_QXqSgDpK" role="37wK5m">
-              <property role="Xl_RC" value="                               calling gcClean()" />
+        <node concept="1X3_iC" id="3u$lBI4f7If" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="61_QXqSgDpI" role="8Wnug">
+            <node concept="2YIFZM" id="61_QXqSgDpJ" role="3clFbG">
+              <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+              <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+              <node concept="Xl_RD" id="61_QXqSgDpK" role="37wK5m">
+                <property role="Xl_RC" value="                               calling gcClean()" />
+              </node>
             </node>
           </node>
         </node>
@@ -3269,13 +3348,26 @@
       </node>
     </node>
     <node concept="3clFb_" id="3xmYcCN_AxR" role="jymVt">
-      <property role="TrG5h" value="getServletPath" />
+      <property role="TrG5h" value="getAuthInfoAttributeName" />
       <node concept="17QB3L" id="3xmYcCN_Bga" role="3clF45" />
       <node concept="3Tm1VV" id="3xmYcCN_AxT" role="1B3o_S" />
       <node concept="3clFbS" id="3xmYcCN_AxU" role="3clF47">
-        <node concept="3clFbF" id="3xmYcCN_AxV" role="3cqZAp">
-          <node concept="37vLTw" id="3xmYcCN_D9Q" role="3clFbG">
-            <ref role="3cqZAo" node="6QRLe84jItq" resolve="servletPath" />
+        <node concept="3cpWs6" id="3u$lBI4fiB7" role="3cqZAp">
+          <node concept="3cpWs3" id="3u$lBI4fkM8" role="3cqZAk">
+            <node concept="Xl_RD" id="3u$lBI4fl7G" role="3uHU7w">
+              <property role="Xl_RC" value="SESSIONID" />
+            </node>
+            <node concept="3cpWs3" id="3u$lBI4fjm$" role="3uHU7B">
+              <node concept="Xl_RD" id="3u$lBI4fiOg" role="3uHU7B">
+                <property role="Xl_RC" value="" />
+              </node>
+              <node concept="2OqwBi" id="3u$lBI4fjJQ" role="3uHU7w">
+                <node concept="Xjq3P" id="3u$lBI4fjpF" role="2Oq$k0" />
+                <node concept="liA8E" id="3u$lBI4fktg" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -3713,12 +3805,16 @@
                 <ref role="37wK5l" node="4QTIUTCpGCs" resolve="clearHardLog" />
               </node>
             </node>
-            <node concept="3clFbF" id="1BZ9wCallug" role="3cqZAp">
-              <node concept="2YIFZM" id="1BZ9wCallTn" role="3clFbG">
-                <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-                <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                <node concept="Xl_RD" id="1BZ9wCallXT" role="37wK5m">
-                  <property role="Xl_RC" value="VApplicationLoader: Startup of application - app loaded." />
+            <node concept="1X3_iC" id="3u$lBI4fJpO" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="1BZ9wCallug" role="8Wnug">
+                <node concept="2YIFZM" id="1BZ9wCallTn" role="3clFbG">
+                  <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+                  <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+                  <node concept="Xl_RD" id="1BZ9wCallXT" role="37wK5m">
+                    <property role="Xl_RC" value="VApplicationLoader: Startup of application - app loaded." />
+                  </node>
                 </node>
               </node>
             </node>
@@ -23507,7 +23603,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5GiT4fwKhNS" role="3cqZAp" />
         <node concept="3clFbF" id="xFWXJS0pQd" role="3cqZAp">
           <node concept="2OqwBi" id="xFWXJS0qhg" role="3clFbG">
             <node concept="37vLTw" id="xFWXJS0rev" role="2Oq$k0">
@@ -34688,35 +34783,39 @@
                       <node concept="3clFbH" id="2e4siDtXI37" role="3cqZAp" />
                       <node concept="3clFbJ" id="2e4siDtXI38" role="3cqZAp">
                         <node concept="3clFbS" id="2e4siDtXI39" role="3clFbx">
-                          <node concept="3clFbF" id="2e4siDtXI3b" role="3cqZAp">
-                            <node concept="2YIFZM" id="2e4siDtXI3c" role="3clFbG">
-                              <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-                              <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                              <node concept="3cpWs3" id="2e4siDtXI3d" role="37wK5m">
-                                <node concept="2OqwBi" id="2e4siDtXI3e" role="3uHU7w">
-                                  <node concept="37vLTw" id="2e4siDtXI3f" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="2e4siDtXI2t" resolve="p0" />
-                                  </node>
-                                  <node concept="liA8E" id="2e4siDtXI3g" role="2OqNvi">
-                                    <ref role="37wK5l" to="tj3g:~ItemClickEvent.getItemId():java.lang.Object" resolve="getItemId" />
-                                  </node>
-                                </node>
-                                <node concept="3cpWs3" id="2e4siDtXI3h" role="3uHU7B">
-                                  <node concept="3cpWs3" id="2e4siDtXI3i" role="3uHU7B">
-                                    <node concept="Xl_RD" id="2e4siDtXI3j" role="3uHU7B">
-                                      <property role="Xl_RC" value="ItemClickEvent for right button: " />
+                          <node concept="1X3_iC" id="3u$lBI4fEU8" role="lGtFl">
+                            <property role="3V$3am" value="statement" />
+                            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                            <node concept="3clFbF" id="2e4siDtXI3b" role="8Wnug">
+                              <node concept="2YIFZM" id="2e4siDtXI3c" role="3clFbG">
+                                <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+                                <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+                                <node concept="3cpWs3" id="2e4siDtXI3d" role="37wK5m">
+                                  <node concept="2OqwBi" id="2e4siDtXI3e" role="3uHU7w">
+                                    <node concept="37vLTw" id="2e4siDtXI3f" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="2e4siDtXI2t" resolve="p0" />
                                     </node>
-                                    <node concept="2OqwBi" id="2e4siDtXI3k" role="3uHU7w">
-                                      <node concept="37vLTw" id="2e4siDtXI3l" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="2e4siDtXI2t" resolve="p0" />
-                                      </node>
-                                      <node concept="liA8E" id="2e4siDtXI3m" role="2OqNvi">
-                                        <ref role="37wK5l" to="tj3g:~MouseEvents$ClickEvent.getButtonName():java.lang.String" resolve="getButtonName" />
-                                      </node>
+                                    <node concept="liA8E" id="2e4siDtXI3g" role="2OqNvi">
+                                      <ref role="37wK5l" to="tj3g:~ItemClickEvent.getItemId():java.lang.Object" resolve="getItemId" />
                                     </node>
                                   </node>
-                                  <node concept="Xl_RD" id="2e4siDtXI3n" role="3uHU7w">
-                                    <property role="Xl_RC" value=" / " />
+                                  <node concept="3cpWs3" id="2e4siDtXI3h" role="3uHU7B">
+                                    <node concept="3cpWs3" id="2e4siDtXI3i" role="3uHU7B">
+                                      <node concept="Xl_RD" id="2e4siDtXI3j" role="3uHU7B">
+                                        <property role="Xl_RC" value="ItemClickEvent for right button: " />
+                                      </node>
+                                      <node concept="2OqwBi" id="2e4siDtXI3k" role="3uHU7w">
+                                        <node concept="37vLTw" id="2e4siDtXI3l" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="2e4siDtXI2t" resolve="p0" />
+                                        </node>
+                                        <node concept="liA8E" id="2e4siDtXI3m" role="2OqNvi">
+                                          <ref role="37wK5l" to="tj3g:~MouseEvents$ClickEvent.getButtonName():java.lang.String" resolve="getButtonName" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="2e4siDtXI3n" role="3uHU7w">
+                                      <property role="Xl_RC" value=" / " />
+                                    </node>
                                   </node>
                                 </node>
                               </node>
@@ -34775,30 +34874,34 @@
                                   </node>
                                 </node>
                               </node>
-                              <node concept="3clFbF" id="1yQJrOWzGhj" role="3cqZAp">
-                                <node concept="2YIFZM" id="1yQJrOWzH2F" role="3clFbG">
-                                  <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                                  <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-                                  <node concept="3cpWs3" id="1yQJrOWzI_C" role="37wK5m">
-                                    <node concept="2OqwBi" id="1yQJrOWzJa8" role="3uHU7w">
-                                      <node concept="37vLTw" id="1yQJrOWzIV6" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="2e4siDtXI2t" resolve="p0" />
-                                      </node>
-                                      <node concept="liA8E" id="1yQJrOWzJhk" role="2OqNvi">
-                                        <ref role="37wK5l" to="tj3g:~ItemClickEvent.getItemId():java.lang.Object" resolve="getItemId" />
-                                      </node>
-                                    </node>
-                                    <node concept="3cpWs3" id="1yQJrOWzIcg" role="3uHU7B">
-                                      <node concept="3cpWs3" id="1yQJrOWzHtV" role="3uHU7B">
-                                        <node concept="Xl_RD" id="1yQJrOWzHhh" role="3uHU7B">
-                                          <property role="Xl_RC" value="Checking " />
+                              <node concept="1X3_iC" id="3u$lBI4fEs8" role="lGtFl">
+                                <property role="3V$3am" value="statement" />
+                                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                                <node concept="3clFbF" id="1yQJrOWzGhj" role="8Wnug">
+                                  <node concept="2YIFZM" id="1yQJrOWzH2F" role="3clFbG">
+                                    <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
+                                    <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
+                                    <node concept="3cpWs3" id="1yQJrOWzI_C" role="37wK5m">
+                                      <node concept="2OqwBi" id="1yQJrOWzJa8" role="3uHU7w">
+                                        <node concept="37vLTw" id="1yQJrOWzIV6" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="2e4siDtXI2t" resolve="p0" />
                                         </node>
-                                        <node concept="37vLTw" id="1yQJrOWzHUb" role="3uHU7w">
-                                          <ref role="3cqZAo" node="1yQJrOWzp4W" resolve="selectedObjects" />
+                                        <node concept="liA8E" id="1yQJrOWzJhk" role="2OqNvi">
+                                          <ref role="37wK5l" to="tj3g:~ItemClickEvent.getItemId():java.lang.Object" resolve="getItemId" />
                                         </node>
                                       </node>
-                                      <node concept="Xl_RD" id="1yQJrOWzIpB" role="3uHU7w">
-                                        <property role="Xl_RC" value=" against " />
+                                      <node concept="3cpWs3" id="1yQJrOWzIcg" role="3uHU7B">
+                                        <node concept="3cpWs3" id="1yQJrOWzHtV" role="3uHU7B">
+                                          <node concept="Xl_RD" id="1yQJrOWzHhh" role="3uHU7B">
+                                            <property role="Xl_RC" value="Checking " />
+                                          </node>
+                                          <node concept="37vLTw" id="1yQJrOWzHUb" role="3uHU7w">
+                                            <ref role="3cqZAo" node="1yQJrOWzp4W" resolve="selectedObjects" />
+                                          </node>
+                                        </node>
+                                        <node concept="Xl_RD" id="1yQJrOWzIpB" role="3uHU7w">
+                                          <property role="Xl_RC" value=" against " />
+                                        </node>
                                       </node>
                                     </node>
                                   </node>

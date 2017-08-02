@@ -4393,9 +4393,10 @@
         <node concept="3clFbH" id="2rVYvNSbmMk" role="3cqZAp" />
         <node concept="3clFbJ" id="2rVYvNSbfv2" role="3cqZAp">
           <node concept="3clFbS" id="2rVYvNSbfv3" role="3clFbx">
+            <node concept="3clFbH" id="3u$lBI4dLcF" role="3cqZAp" />
             <node concept="3SKdUt" id="2rVYvNSbfv4" role="3cqZAp">
               <node concept="3SKdUq" id="2rVYvNSbfv5" role="3SKWNk">
-                <property role="3SKdUp" value="start from beginning" />
+                <property role="3SKdUp" value="start from beginning, focus on first focusable form component" />
               </node>
             </node>
             <node concept="1Dw8fO" id="2rVYvNSbfv6" role="3cqZAp">
@@ -4519,8 +4520,6 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="3clFbH" id="2rVYvNScTMP" role="3cqZAp" />
-                      <node concept="3clFbH" id="2rVYvNScTO1" role="3cqZAp" />
                       <node concept="3clFbJ" id="2rVYvNSboR5" role="3cqZAp">
                         <node concept="3clFbS" id="2rVYvNSboR6" role="3clFbx">
                           <node concept="3clFbF" id="2rVYvNSboR7" role="3cqZAp">
