@@ -6010,6 +6010,7 @@
       </node>
       <node concept="3Tm1VV" id="5ubRLyf6HoR" role="1B3o_S" />
       <node concept="3clFbS" id="5ubRLyf6HoS" role="3clF47">
+        <node concept="3clFbH" id="2_e6g62Zgx6" role="3cqZAp" />
         <node concept="3clFbJ" id="3CnNtH_5Gjb" role="3cqZAp">
           <node concept="3clFbS" id="3CnNtH_5Gjd" role="3clFbx">
             <node concept="3cpWs6" id="3CnNtH_5Gvb" role="3cqZAp" />
@@ -6018,85 +6019,161 @@
             <ref role="3cqZAo" node="1i8FajkkZZZ" resolve="disabled" />
           </node>
         </node>
-        <node concept="3clFbH" id="3CnNtH_5GvT" role="3cqZAp" />
-        <node concept="3cpWs8" id="1i8Fajkl0MY" role="3cqZAp">
-          <node concept="3cpWsn" id="1i8Fajkl0N1" role="3cpWs9">
-            <property role="TrG5h" value="t" />
-            <node concept="3cpWsb" id="1i8Fajkl0MW" role="1tU5fm" />
-            <node concept="2YIFZM" id="1i8Fajkl0U2" role="33vP2m">
-              <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
-              <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+        <node concept="SfApY" id="2_e6g62ZgLM" role="3cqZAp">
+          <node concept="3clFbS" id="2_e6g62ZgLO" role="SfCbr">
+            <node concept="3cpWs8" id="1i8Fajkl0MY" role="3cqZAp">
+              <node concept="3cpWsn" id="1i8Fajkl0N1" role="3cpWs9">
+                <property role="TrG5h" value="t" />
+                <node concept="3cpWsb" id="1i8Fajkl0MW" role="1tU5fm" />
+                <node concept="2YIFZM" id="1i8Fajkl0U2" role="33vP2m">
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                </node>
+              </node>
             </node>
+            <node concept="3clFbF" id="3CnNtH_0XOA" role="3cqZAp">
+              <node concept="2OqwBi" id="3CnNtH_0XT4" role="3clFbG">
+                <node concept="37vLTw" id="3CnNtH_0XO$" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5ubRLyf6Hnk" resolve="producer" />
+                </node>
+                <node concept="liA8E" id="3CnNtH_0XZU" role="2OqNvi">
+                  <ref role="37wK5l" to="eqhi:~KafkaProducer.send(org.apache.kafka.clients.producer.ProducerRecord):java.util.concurrent.Future" resolve="send" />
+                  <node concept="2ShNRf" id="5ubRLyf6Ru$" role="37wK5m">
+                    <node concept="1pGfFk" id="5ubRLyf6RQR" role="2ShVmc">
+                      <ref role="37wK5l" to="eqhi:~ProducerRecord.&lt;init&gt;(java.lang.String,java.lang.Object,java.lang.Object)" resolve="ProducerRecord" />
+                      <node concept="37vLTw" id="5ubRLyf6SSg" role="37wK5m">
+                        <ref role="3cqZAo" node="5ubRLyf6Sek" resolve="topic" />
+                      </node>
+                      <node concept="37vLTw" id="5ubRLyf6SYK" role="37wK5m">
+                        <ref role="3cqZAo" node="5ubRLyf6Nyl" resolve="key" />
+                      </node>
+                      <node concept="37vLTw" id="5ubRLyf6T5c" role="37wK5m">
+                        <ref role="3cqZAo" node="5ubRLyf6NZo" resolve="value" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="1i8Fajkl0Yw" role="3cqZAp">
+              <node concept="3clFbS" id="1i8Fajkl0Yy" role="3clFbx">
+                <node concept="3clFbF" id="3CnNtH_5G6u" role="3cqZAp">
+                  <node concept="37vLTI" id="3CnNtH_5G95" role="3clFbG">
+                    <node concept="3clFbT" id="3CnNtH_5Gc2" role="37vLTx">
+                      <property role="3clFbU" value="true" />
+                    </node>
+                    <node concept="37vLTw" id="3CnNtH_5G6s" role="37vLTJ">
+                      <ref role="3cqZAo" node="1i8FajkkZZZ" resolve="disabled" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1pEW74ibcS5" role="3cqZAp">
+                  <node concept="1rXfSq" id="1pEW74ibcS3" role="3clFbG">
+                    <ref role="37wK5l" node="5ubRLyf6TxE" resolve="close" />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="3CnNtH_6gfe" role="3cqZAp">
+                  <node concept="2OqwBi" id="3CnNtH_6gfb" role="3clFbG">
+                    <node concept="10M0yZ" id="3CnNtH_6gfc" role="2Oq$k0">
+                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                    </node>
+                    <node concept="liA8E" id="3CnNtH_6gfd" role="2OqNvi">
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <node concept="Xl_RD" id="3CnNtH_6ggT" role="37wK5m">
+                        <property role="Xl_RC" value="Kafka event logging disabled since custom timeout was hit." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eOSWO" id="3CnNtH_5FWx" role="3clFbw">
+                <node concept="3cmrfG" id="3CnNtH_5FX0" role="3uHU7w">
+                  <property role="3cmrfH" value="1000" />
+                </node>
+                <node concept="3cpWsd" id="1i8Fajkl1uX" role="3uHU7B">
+                  <node concept="2YIFZM" id="1i8Fajkl15K" role="3uHU7B">
+                    <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  </node>
+                  <node concept="37vLTw" id="1i8Fajkl1yu" role="3uHU7w">
+                    <ref role="3cqZAo" node="1i8Fajkl0N1" resolve="t" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="2_e6g62ZgLN" role="3cqZAp" />
           </node>
-        </node>
-        <node concept="3clFbF" id="3CnNtH_0XOA" role="3cqZAp">
-          <node concept="2OqwBi" id="3CnNtH_0XT4" role="3clFbG">
-            <node concept="37vLTw" id="3CnNtH_0XO$" role="2Oq$k0">
-              <ref role="3cqZAo" node="5ubRLyf6Hnk" resolve="producer" />
-            </node>
-            <node concept="liA8E" id="3CnNtH_0XZU" role="2OqNvi">
-              <ref role="37wK5l" to="eqhi:~KafkaProducer.send(org.apache.kafka.clients.producer.ProducerRecord):java.util.concurrent.Future" resolve="send" />
-              <node concept="2ShNRf" id="5ubRLyf6Ru$" role="37wK5m">
-                <node concept="1pGfFk" id="5ubRLyf6RQR" role="2ShVmc">
-                  <ref role="37wK5l" to="eqhi:~ProducerRecord.&lt;init&gt;(java.lang.String,java.lang.Object,java.lang.Object)" resolve="ProducerRecord" />
-                  <node concept="37vLTw" id="5ubRLyf6SSg" role="37wK5m">
-                    <ref role="3cqZAo" node="5ubRLyf6Sek" resolve="topic" />
-                  </node>
-                  <node concept="37vLTw" id="5ubRLyf6SYK" role="37wK5m">
-                    <ref role="3cqZAo" node="5ubRLyf6Nyl" resolve="key" />
-                  </node>
-                  <node concept="37vLTw" id="5ubRLyf6T5c" role="37wK5m">
-                    <ref role="3cqZAo" node="5ubRLyf6NZo" resolve="value" />
-                  </node>
-                </node>
+          <node concept="TDmWw" id="2_e6g62ZgLP" role="TEbGg">
+            <node concept="3cpWsn" id="2_e6g62ZgLR" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="2_e6g62Zh7d" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~IllegalStateException" resolve="IllegalStateException" />
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="1i8Fajkl0Yw" role="3cqZAp">
-          <node concept="3clFbS" id="1i8Fajkl0Yy" role="3clFbx">
-            <node concept="3clFbF" id="3CnNtH_5G6u" role="3cqZAp">
-              <node concept="37vLTI" id="3CnNtH_5G95" role="3clFbG">
-                <node concept="3clFbT" id="3CnNtH_5Gc2" role="37vLTx">
-                  <property role="3clFbU" value="true" />
-                </node>
-                <node concept="37vLTw" id="3CnNtH_5G6s" role="37vLTJ">
-                  <ref role="3cqZAo" node="1i8FajkkZZZ" resolve="disabled" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="1pEW74ibcS5" role="3cqZAp">
-              <node concept="1rXfSq" id="1pEW74ibcS3" role="3clFbG">
-                <ref role="37wK5l" node="5ubRLyf6TxE" resolve="close" />
-              </node>
-            </node>
-            <node concept="3clFbF" id="3CnNtH_6gfe" role="3cqZAp">
-              <node concept="2OqwBi" id="3CnNtH_6gfb" role="3clFbG">
-                <node concept="10M0yZ" id="3CnNtH_6gfc" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="3CnNtH_6gfd" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                  <node concept="Xl_RD" id="3CnNtH_6ggT" role="37wK5m">
-                    <property role="Xl_RC" value="Kafka event logging disabled since custom timeout was hit." />
+            <node concept="3clFbS" id="2_e6g62ZgLV" role="TDEfX">
+              <node concept="3cpWs8" id="2_e6g62Zhtk" role="3cqZAp">
+                <node concept="3cpWsn" id="2_e6g62Zhtn" role="3cpWs9">
+                  <property role="TrG5h" value="st" />
+                  <node concept="17QB3L" id="2_e6g62Zhti" role="1tU5fm" />
+                  <node concept="2OqwBi" id="2_e6g62Zhzw" role="33vP2m">
+                    <node concept="37vLTw" id="2_e6g62Zhyv" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2_e6g62ZgLR" resolve="ex" />
+                    </node>
+                    <node concept="liA8E" id="2_e6g62Zh_e" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                    </node>
                   </node>
                 </node>
               </node>
-            </node>
-          </node>
-          <node concept="3eOSWO" id="3CnNtH_5FWx" role="3clFbw">
-            <node concept="3cmrfG" id="3CnNtH_5FX0" role="3uHU7w">
-              <property role="3cmrfH" value="1000" />
-            </node>
-            <node concept="3cpWsd" id="1i8Fajkl1uX" role="3uHU7B">
-              <node concept="2YIFZM" id="1i8Fajkl15K" role="3uHU7B">
-                <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
-                <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+              <node concept="3SKdUt" id="2_e6g62Ziok" role="3cqZAp">
+                <node concept="3SKdUq" id="2_e6g62Ziom" role="3SKWNk">
+                  <property role="3SKdUp" value="okay, on servlet shutdown without any " />
+                </node>
               </node>
-              <node concept="37vLTw" id="1i8Fajkl1yu" role="3uHU7w">
-                <ref role="3cqZAo" node="1i8Fajkl0N1" resolve="t" />
+              <node concept="3clFbJ" id="2_e6g62Zhbf" role="3cqZAp">
+                <node concept="1Wc70l" id="2_e6g62ZhEr" role="3clFbw">
+                  <node concept="3y3z36" id="2_e6g62ZhLg" role="3uHU7B">
+                    <node concept="10Nm6u" id="2_e6g62ZhNj" role="3uHU7w" />
+                    <node concept="37vLTw" id="2_e6g62ZhHB" role="3uHU7B">
+                      <ref role="3cqZAo" node="2_e6g62Zhtn" resolve="st" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="2_e6g62Zhhx" role="3uHU7w">
+                    <node concept="37vLTw" id="2_e6g62ZhQN" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2_e6g62Zhtn" resolve="st" />
+                    </node>
+                    <node concept="liA8E" id="2_e6g62ZhlV" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                      <node concept="Xl_RD" id="2_e6g62Zhnq" role="37wK5m">
+                        <property role="Xl_RC" value="Cannot send after the producer is closed" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbS" id="2_e6g62Zhbh" role="3clFbx">
+                  <node concept="3clFbF" id="2_e6g62ZhU1" role="3cqZAp">
+                    <node concept="37vLTI" id="2_e6g62ZhW4" role="3clFbG">
+                      <node concept="3clFbT" id="2_e6g62ZhXp" role="37vLTx">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="37vLTw" id="2_e6g62ZhU0" role="37vLTJ">
+                        <ref role="3cqZAo" node="1i8FajkkZZZ" resolve="disabled" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="9aQIb" id="2_e6g62Zi36" role="9aQIa">
+                  <node concept="3clFbS" id="2_e6g62Zi37" role="9aQI4">
+                    <node concept="YS8fn" id="2_e6g62Zi60" role="3cqZAp">
+                      <node concept="37vLTw" id="2_e6g62Zi8_" role="YScLw">
+                        <ref role="3cqZAo" node="2_e6g62ZgLR" resolve="ex" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
+              <node concept="3clFbH" id="2_e6g62ZhYX" role="3cqZAp" />
             </node>
           </node>
         </node>
