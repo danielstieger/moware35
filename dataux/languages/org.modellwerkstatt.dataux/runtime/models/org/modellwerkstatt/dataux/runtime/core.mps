@@ -17123,6 +17123,24 @@
       <node concept="3cqZAl" id="53Vnir0sWrk" role="3clF45" />
       <node concept="3Tm6S6" id="3kFdJsaisB" role="1B3o_S" />
       <node concept="3clFbS" id="53Vnir0sWrm" role="3clF47">
+        <node concept="1X3_iC" id="7U5eYIScsap" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="7U5eYISce7N" role="8Wnug">
+            <node concept="2OqwBi" id="7U5eYISce7K" role="3clFbG">
+              <node concept="10M0yZ" id="7U5eYISce7L" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              </node>
+              <node concept="liA8E" id="7U5eYISce7M" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="Xl_RD" id="7U5eYIScekR" role="37wK5m">
+                  <property role="Xl_RC" value="CommandContainer.startInnerAction() START" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="53Vnir0ubQA" role="3cqZAp">
           <node concept="3cpWsn" id="53Vnir0ubQB" role="3cpWs9">
             <property role="TrG5h" value="toExecuteInner" />
@@ -17150,21 +17168,54 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="cYdxW6fDpB" role="3cqZAp">
-          <node concept="2OqwBi" id="cYdxW6fD_z" role="3clFbG">
-            <node concept="37vLTw" id="cYdxW6fDp_" role="2Oq$k0">
-              <ref role="3cqZAo" node="53Vnir0ubQB" resolve="toExecuteInner" />
-            </node>
-            <node concept="liA8E" id="cYdxW6fDJv" role="2OqNvi">
-              <ref role="37wK5l" to="yg8v:cYdxW5KTQg" resolve="setup" />
-              <node concept="37vLTw" id="cYdxW6fDKY" role="37wK5m">
-                <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
+        <node concept="3SKdUt" id="7U5eYIS8qYH" role="3cqZAp">
+          <node concept="3SKdUq" id="7U5eYIS8qYJ" role="3SKWNk">
+            <property role="3SKdUp" value="This would lead to problems after the command is executed, we would have the wrong " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7U5eYIS8rhV" role="3cqZAp">
+          <node concept="3SKdUq" id="7U5eYIS8rhX" role="3SKWNk">
+            <property role="3SKdUp" value="references in the menuAction .. " />
+          </node>
+        </node>
+        <node concept="1X3_iC" id="7U5eYIS8qvb" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="cYdxW6fDpB" role="8Wnug">
+            <node concept="2OqwBi" id="cYdxW6fD_z" role="3clFbG">
+              <node concept="37vLTw" id="cYdxW6fDp_" role="2Oq$k0">
+                <ref role="3cqZAo" node="53Vnir0ubQB" resolve="toExecuteInner" />
               </node>
-              <node concept="Xjq3P" id="cYdxW6fDMT" role="37wK5m" />
-              <node concept="2OqwBi" id="cYdxW6fDPT" role="37wK5m">
-                <node concept="Xjq3P" id="cYdxW6fDOq" role="2Oq$k0" />
-                <node concept="2OwXpG" id="cYdxW6fE9c" role="2OqNvi">
-                  <ref role="2Oxat5" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
+              <node concept="liA8E" id="cYdxW6fDJv" role="2OqNvi">
+                <ref role="37wK5l" to="yg8v:cYdxW5KTQg" resolve="setup" />
+                <node concept="37vLTw" id="cYdxW6fDKY" role="37wK5m">
+                  <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
+                </node>
+                <node concept="Xjq3P" id="cYdxW6fDMT" role="37wK5m" />
+                <node concept="2OqwBi" id="cYdxW6fDPT" role="37wK5m">
+                  <node concept="Xjq3P" id="cYdxW6fDOq" role="2Oq$k0" />
+                  <node concept="2OwXpG" id="cYdxW6fE9c" role="2OqNvi">
+                    <ref role="2Oxat5" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="7U5eYIS8YWP" role="3cqZAp">
+          <node concept="3cpWsn" id="7U5eYIS8YWQ" role="3cpWs9">
+            <property role="TrG5h" value="oldOne" />
+            <node concept="3uibUv" id="7U5eYIS8YWR" role="1tU5fm">
+              <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
+            </node>
+            <node concept="2OqwBi" id="7U5eYIS91w7" role="33vP2m">
+              <node concept="37vLTw" id="7U5eYISc$0M" role="2Oq$k0">
+                <ref role="3cqZAo" node="53Vnir0ubQB" resolve="toExecuteInner" />
+              </node>
+              <node concept="liA8E" id="7U5eYIS91L5" role="2OqNvi">
+                <ref role="37wK5l" to="yg8v:7U5eYIS8FMJ" resolve="setLocalSelCrtlForInnerTemporary" />
+                <node concept="37vLTw" id="7U5eYISc$8w" role="37wK5m">
+                  <ref role="3cqZAo" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
                 </node>
               </node>
             </node>
@@ -17173,7 +17224,6 @@
         <node concept="3clFbH" id="53Vnir0t60P" role="3cqZAp" />
         <node concept="3clFbJ" id="2e3BpjBfM$q" role="3cqZAp">
           <node concept="3clFbS" id="2e3BpjBfM$s" role="3clFbx">
-            <node concept="3clFbH" id="5os6byqGnRo" role="3cqZAp" />
             <node concept="3clFbF" id="2e3BpjBgf7K" role="3cqZAp">
               <node concept="2OqwBi" id="2e3BpjBgfbL" role="3clFbG">
                 <node concept="37vLTw" id="2e3BpjBgf7I" role="2Oq$k0">
@@ -17287,7 +17337,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="5ZKHK650bCW" role="3cqZAp" />
-            <node concept="3clFbH" id="2e3BpjBfRbA" role="3cqZAp" />
           </node>
           <node concept="3fqX7Q" id="2e3BpjBfNya" role="3clFbw">
             <node concept="2OqwBi" id="2e3BpjBfNyc" role="3fr31v">
@@ -17303,23 +17352,59 @@
             <node concept="3clFbS" id="2e3BpjBfNzA" role="9aQI4">
               <node concept="3SKdUt" id="U8r3YpXKh_" role="3cqZAp">
                 <node concept="3SKdUq" id="U8r3YpXKhB" role="3SKWNk">
-                  <property role="3SKdUp" value="start by using ActionStarter, just to handle prompt windows as usually.. " />
+                  <property role="3SKdUp" value="start innter with App-Crtl, since we have to use different parrent and differnet sel crtl now! " />
                 </node>
               </node>
-              <node concept="3clFbF" id="3kFdJsaaot" role="3cqZAp">
-                <node concept="1rXfSq" id="53Vnir0t5wD" role="3clFbG">
-                  <ref role="37wK5l" node="1dzqM5xuLj0" resolve="startCommand" />
-                  <node concept="37vLTw" id="53Vnir0uhtT" role="37wK5m">
-                    <ref role="3cqZAo" node="53Vnir0ubQB" resolve="toExecuteInner" />
+              <node concept="3clFbF" id="7U5eYIS86$b" role="3cqZAp">
+                <node concept="2OqwBi" id="7U5eYIS86_M" role="3clFbG">
+                  <node concept="37vLTw" id="7U5eYIS86$9" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
                   </node>
-                  <node concept="10Nm6u" id="53Vnir0t5_A" role="37wK5m" />
-                  <node concept="Rm8GO" id="6oMnH9FQPlh" role="37wK5m">
-                    <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CmdExecStrategy" />
-                    <ref role="Rm8GQ" to="28jr:6oMnH9FQhWQ" resolve="INNER_NO_NEW_SESSION" />
+                  <node concept="liA8E" id="7U5eYIS86NC" role="2OqNvi">
+                    <ref role="37wK5l" node="4XXgpAAeZ4y" resolve="startCommand" />
+                    <node concept="37vLTw" id="7U5eYIS8pYn" role="37wK5m">
+                      <ref role="3cqZAo" node="53Vnir0ubQB" resolve="toExecuteInner" />
+                    </node>
+                    <node concept="Xjq3P" id="7U5eYIS8q1a" role="37wK5m" />
+                    <node concept="Rm8GO" id="7U5eYIScO__" role="37wK5m">
+                      <ref role="Rm8GQ" to="28jr:6oMnH9FQhWQ" resolve="INNER_NO_NEW_SESSION" />
+                      <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CmdExecStrategy" />
+                    </node>
                   </node>
                 </node>
               </node>
               <node concept="3clFbH" id="3kFdJsaaqc" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7U5eYISc$Du" role="3cqZAp">
+          <node concept="2OqwBi" id="7U5eYISc$Nc" role="3clFbG">
+            <node concept="37vLTw" id="7U5eYISc$Ds" role="2Oq$k0">
+              <ref role="3cqZAo" node="53Vnir0ubQB" resolve="toExecuteInner" />
+            </node>
+            <node concept="liA8E" id="7U5eYISc$Xq" role="2OqNvi">
+              <ref role="37wK5l" to="yg8v:7U5eYIS8FMJ" resolve="setLocalSelCrtlForInnerTemporary" />
+              <node concept="37vLTw" id="7U5eYISc$Yp" role="37wK5m">
+                <ref role="3cqZAo" node="7U5eYIS8YWQ" resolve="oldOne" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="7U5eYIScrZG" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="7U5eYISce_1" role="8Wnug">
+            <node concept="2OqwBi" id="7U5eYISce_2" role="3clFbG">
+              <node concept="10M0yZ" id="7U5eYISce_3" role="2Oq$k0">
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              </node>
+              <node concept="liA8E" id="7U5eYISce_4" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="Xl_RD" id="7U5eYISce_5" role="37wK5m">
+                  <property role="Xl_RC" value="CommandContainer.startInnerAction() DONE" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -18255,7 +18340,7 @@
         </node>
         <node concept="3SKdUt" id="5_bDd1d3Ksb" role="3cqZAp">
           <node concept="3SKdUq" id="5_bDd1d3KtL" role="3SKWNk">
-            <property role="3SKdUp" value="this command. For now we do delegate the starting of the trigger to the environment" />
+            <property role="3SKdUp" value="this command. For now we do delegate the starting of the action to the environment" />
           </node>
         </node>
         <node concept="3SKdUt" id="4XXgpAAfF72" role="3cqZAp">
@@ -20984,7 +21069,7 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2ppo89mgt_o" role="jymVt" />
-    <node concept="2tJIrI" id="4ysbFF_RIp5" role="jymVt" />
+    <node concept="2tJIrI" id="7U5eYIS9RFS" role="jymVt" />
     <node concept="3clFb_" id="4XXgpAAgf75" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="startCommand" />
@@ -27520,7 +27605,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4z7jlGKuoi7" role="jymVt" />
-    <node concept="2tJIrI" id="3yNAOQxv0nw" role="jymVt" />
     <node concept="3clFb_" id="5GImeV7cvdr" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="isStillOkayAsParentForMultiExecution" />
