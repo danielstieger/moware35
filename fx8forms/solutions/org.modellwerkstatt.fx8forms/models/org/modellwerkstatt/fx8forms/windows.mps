@@ -19846,9 +19846,88 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="3YbyKXcSwI0" role="3cqZAp" />
+                <node concept="3clFbH" id="6g0i7p9KKaS" role="3cqZAp" />
+                <node concept="1X3_iC" id="6g0i7p9LtiT" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3cpWs8" id="6g0i7p9KOsZ" role="8Wnug">
+                    <node concept="3cpWsn" id="6g0i7p9KOsY" role="3cpWs9">
+                      <property role="3TUv4t" value="false" />
+                      <property role="TrG5h" value="verticalBar" />
+                      <node concept="3uibUv" id="6g0i7p9KOt0" role="1tU5fm">
+                        <ref role="3uigEE" to="rb41:~ScrollBar" resolve="ScrollBar" />
+                      </node>
+                      <node concept="10QFUN" id="6g0i7p9KOt1" role="33vP2m">
+                        <node concept="2OqwBi" id="6g0i7p9KOyl" role="10QFUP">
+                          <node concept="37vLTw" id="6g0i7p9KOyk" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                          </node>
+                          <node concept="liA8E" id="6g0i7p9KOym" role="2OqNvi">
+                            <ref role="37wK5l" to="p18y:~Parent.lookup(java.lang.String):javafx.scene.Node" resolve="lookup" />
+                            <node concept="Xl_RD" id="6g0i7p9KOt3" role="37wK5m">
+                              <property role="Xl_RC" value=".scroll-bar:vertical" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3uibUv" id="6g0i7p9KOt4" role="10QFUM">
+                          <ref role="3uigEE" to="rb41:~ScrollBar" resolve="ScrollBar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="1X3_iC" id="6g0i7p9LxsK" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="6g0i7p9L4nn" role="8Wnug">
+                    <node concept="2OqwBi" id="6g0i7p9L4nk" role="3clFbG">
+                      <node concept="10M0yZ" id="6g0i7p9L4nl" role="2Oq$k0">
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                      </node>
+                      <node concept="liA8E" id="6g0i7p9L4nm" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="3cpWs3" id="6g0i7p9Lb35" role="37wK5m">
+                          <node concept="2OqwBi" id="6g0i7p9LbOU" role="3uHU7w">
+                            <node concept="37vLTw" id="6g0i7p9Lb_4" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6g0i7p9KOsY" resolve="verticalBar" />
+                            </node>
+                            <node concept="liA8E" id="6g0i7p9Lcl7" role="2OqNvi">
+                              <ref role="37wK5l" to="rb41:~ScrollBar.getValue():double" resolve="getValue" />
+                            </node>
+                          </node>
+                          <node concept="3cpWs3" id="6g0i7p9LaG5" role="3uHU7B">
+                            <node concept="3cpWs3" id="6g0i7p9L9pj" role="3uHU7B">
+                              <node concept="Xl_RD" id="6g0i7p9L4Bn" role="3uHU7B">
+                                <property role="Xl_RC" value="FX8TableForm.selectionChange() " />
+                              </node>
+                              <node concept="2OqwBi" id="6g0i7p9La5i" role="3uHU7w">
+                                <node concept="37vLTw" id="6g0i7p9L9PM" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="6g0i7p9KOsY" resolve="verticalBar" />
+                                </node>
+                                <node concept="liA8E" id="6g0i7p9LaDN" role="2OqNvi">
+                                  <ref role="37wK5l" to="rb41:~ScrollBar.getVisibleAmount():double" resolve="getVisibleAmount" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="6g0i7p9LaTS" role="3uHU7w">
+                              <property role="Xl_RC" value=" / " />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="6g0i7p9KZ6a" role="3cqZAp" />
                 <node concept="3SKdUt" id="3YbyKXcTbzy" role="3cqZAp">
                   <node concept="3SKdUq" id="3YbyKXcTfUt" role="3SKWNk">
                     <property role="3SKdUp" value="Added by Dan 12.Oct 2015" />
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="6g0i7p9IzzE" role="3cqZAp">
+                  <node concept="3SKdUq" id="6g0i7p9IzzG" role="3SKWNk">
+                    <property role="3SKdUp" value="Changed by Dan, also scroll to selection when not editing! (Aug 7)" />
                   </node>
                 </node>
                 <node concept="3clFbJ" id="3YbyKXcSm6d" role="3cqZAp">
@@ -19904,7 +19983,10 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1Wc70l" id="3YbyKXcSJ0N" role="3clFbw">
+                  <node concept="1Wc70l" id="6g0i7p9Jt2e" role="3clFbw">
+                    <node concept="37vLTw" id="6g0i7p9Jty2" role="3uHU7B">
+                      <ref role="3cqZAo" node="1c8XvQq5S6H" resolve="editEnabled" />
+                    </node>
                     <node concept="3eOSWO" id="3YbyKXcSLdC" role="3uHU7w">
                       <node concept="3cmrfG" id="3YbyKXcSLqN" role="3uHU7w">
                         <property role="3cmrfH" value="0" />
@@ -19915,9 +19997,6 @@
                         </node>
                         <node concept="34oBXx" id="3YbyKXcSKGJ" role="2OqNvi" />
                       </node>
-                    </node>
-                    <node concept="37vLTw" id="3YbyKXcSrqQ" role="3uHU7B">
-                      <ref role="3cqZAo" node="1c8XvQq5S6H" resolve="editEnabled" />
                     </node>
                   </node>
                 </node>
@@ -21490,7 +21569,6 @@
                 <ref role="3cqZAo" node="1c8XvQq5S6H" resolve="editEnabled" />
               </node>
             </node>
-            <node concept="3clFbH" id="3bnhvhEVQCZ" role="3cqZAp" />
           </node>
           <node concept="3clFbC" id="14_7TqTuhHh" role="3clFbw">
             <node concept="37vLTw" id="14_7TqTuhHk" role="3uHU7B">
@@ -21501,7 +21579,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7Mah_ahWYUR" role="3cqZAp" />
+        <node concept="3clFbH" id="6g0i7p9HzaV" role="3cqZAp" />
         <node concept="3cpWs6" id="1U$SEuls22G" role="3cqZAp">
           <node concept="37vLTw" id="7Mah_ahWJg3" role="3cqZAk">
             <ref role="3cqZAo" node="7Mah_ahW_92" resolve="focussedNode" />

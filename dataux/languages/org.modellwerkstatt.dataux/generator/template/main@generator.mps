@@ -6283,12 +6283,20 @@
       </node>
     </node>
     <node concept="312cEg" id="39T4LQUtZQH" role="jymVt">
-      <property role="TrG5h" value="focussedDueToUpdate" />
+      <property role="TrG5h" value="toFocussedDueToUpdate" />
       <node concept="3Tm6S6" id="39T4LQUtZQI" role="1B3o_S" />
-      <node concept="3uibUv" id="39T4LQUu3c$" role="1tU5fm">
-        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      <node concept="3uibUv" id="5QUXFIg5psO" role="1tU5fm">
+        <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
       </node>
       <node concept="10Nm6u" id="39T4LQUu52L" role="33vP2m" />
+    </node>
+    <node concept="312cEg" id="5QUXFIgtvqK" role="jymVt">
+      <property role="TrG5h" value="lastFocussedBeforeUpdate" />
+      <node concept="3Tm6S6" id="5QUXFIgtvqL" role="1B3o_S" />
+      <node concept="3uibUv" id="5QUXFIgtvqM" role="1tU5fm">
+        <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
+      </node>
+      <node concept="10Nm6u" id="5QUXFIgtvqN" role="33vP2m" />
     </node>
     <node concept="2tJIrI" id="72_IH8ptqzz" role="jymVt" />
     <node concept="2tJIrI" id="72_IH8ptqOu" role="jymVt" />
@@ -6326,6 +6334,7 @@
       <node concept="3cqZAl" id="6XlAUcpI9PO" role="3clF45" />
       <node concept="3Tm1VV" id="6XlAUcpI9PP" role="1B3o_S" />
       <node concept="3clFbS" id="6XlAUcpI9PR" role="3clF47">
+        <node concept="3clFbH" id="5QUXFIgt$gN" role="3cqZAp" />
         <node concept="3cpWs8" id="2BIziIxDHA0" role="3cqZAp">
           <node concept="3cpWsn" id="2BIziIxDHA1" role="3cpWs9">
             <property role="TrG5h" value="rec" />
@@ -6340,33 +6349,44 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="1D2xWyK38CM" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="2BIziIxHWAo" role="8Wnug">
-            <node concept="2OqwBi" id="2BIziIxHWAl" role="3clFbG">
-              <node concept="10M0yZ" id="2BIziIxHWAm" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              </node>
-              <node concept="liA8E" id="2BIziIxHWAn" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="3cpWs3" id="2BIziIxHXGu" role="37wK5m">
-                  <node concept="37vLTw" id="2BIziIxHY6K" role="3uHU7w">
-                    <ref role="3cqZAo" node="2BIziIxDHA1" resolve="rec" />
+        <node concept="3clFbF" id="2BIziIxHWAo" role="3cqZAp">
+          <node concept="2OqwBi" id="2BIziIxHWAl" role="3clFbG">
+            <node concept="10M0yZ" id="2BIziIxHWAm" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="2BIziIxHWAn" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="5QUXFIg622P" role="37wK5m">
+                <node concept="Xl_RD" id="5QUXFIg6260" role="3uHU7w">
+                  <property role="Xl_RC" value=")" />
+                </node>
+                <node concept="3cpWs3" id="5QUXFIg61go" role="3uHU7B">
+                  <node concept="3cpWs3" id="5QUXFIg60CI" role="3uHU7B">
+                    <node concept="3cpWs3" id="2BIziIxHXGu" role="3uHU7B">
+                      <node concept="3cpWs3" id="2BIziIxHXfZ" role="3uHU7B">
+                        <node concept="3cpWs3" id="2BIziIxHWOh" role="3uHU7B">
+                          <node concept="Xl_RD" id="2BIziIxHWFS" role="3uHU7B">
+                            <property role="Xl_RC" value="\nNewFocusHolder: " />
+                          </node>
+                          <node concept="37vLTw" id="2BIziIxHWVY" role="3uHU7w">
+                            <ref role="3cqZAo" node="39T4LQUtNic" resolve="newFocusHolder" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="2BIziIxHXjj" role="3uHU7w">
+                          <property role="Xl_RC" value=" updated issued by " />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="2BIziIxHY6K" role="3uHU7w">
+                        <ref role="3cqZAo" node="2BIziIxDHA1" resolve="rec" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="5QUXFIg611p" role="3uHU7w">
+                      <property role="Xl_RC" value=" (old foc holder: " />
+                    </node>
                   </node>
-                  <node concept="3cpWs3" id="2BIziIxHXfZ" role="3uHU7B">
-                    <node concept="3cpWs3" id="2BIziIxHWOh" role="3uHU7B">
-                      <node concept="Xl_RD" id="2BIziIxHWFS" role="3uHU7B">
-                        <property role="Xl_RC" value="\nNewFocusHolder: " />
-                      </node>
-                      <node concept="37vLTw" id="2BIziIxHWVY" role="3uHU7w">
-                        <ref role="3cqZAo" node="39T4LQUtNic" resolve="newFocusHolder" />
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="2BIziIxHXjj" role="3uHU7w">
-                      <property role="Xl_RC" value=" updated issued by " />
-                    </node>
+                  <node concept="37vLTw" id="5QUXFIgt$$5" role="3uHU7w">
+                    <ref role="3cqZAo" node="5QUXFIgtvqK" resolve="lastFocussedBeforeUpdate" />
                   </node>
                 </node>
               </node>
@@ -6382,7 +6402,7 @@
                   <ref role="3cqZAo" node="39T4LQUtNic" resolve="newFocusHolder" />
                 </node>
                 <node concept="37vLTw" id="39T4LQUu6tA" role="37vLTJ">
-                  <ref role="3cqZAo" node="39T4LQUtZQH" resolve="focussedDueToUpdate" />
+                  <ref role="3cqZAo" node="39T4LQUtZQH" resolve="toFocussedDueToUpdate" />
                 </node>
               </node>
             </node>
@@ -6400,10 +6420,41 @@
               </node>
             </node>
           </node>
-          <node concept="3y3z36" id="2BIziIxDIQz" role="3clFbw">
-            <node concept="10Nm6u" id="2BIziIxDIXZ" role="3uHU7w" />
-            <node concept="37vLTw" id="2BIziIxDIIH" role="3uHU7B">
-              <ref role="3cqZAo" node="2BIziIxDHA1" resolve="rec" />
+          <node concept="1Wc70l" id="5QUXFIg5KVS" role="3clFbw">
+            <node concept="1Wc70l" id="5QUXFIhRAz$" role="3uHU7B">
+              <node concept="2OqwBi" id="5QUXFIhRAOx" role="3uHU7w">
+                <node concept="37vLTw" id="5QUXFIhRAIm" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5QUXFIgtvqK" resolve="lastFocussedBeforeUpdate" />
+                </node>
+                <node concept="liA8E" id="5QUXFIhRU0o" role="2OqNvi">
+                  <ref role="37wK5l" to="1e0c:5QUXFIhRGkF" resolve="issuesUpdate" />
+                </node>
+              </node>
+              <node concept="3y3z36" id="2BIziIxDIQz" role="3uHU7B">
+                <node concept="37vLTw" id="5QUXFIieh8e" role="3uHU7B">
+                  <ref role="3cqZAo" node="5QUXFIgtvqK" resolve="lastFocussedBeforeUpdate" />
+                </node>
+                <node concept="10Nm6u" id="2BIziIxDIXZ" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="3y3z36" id="5QUXFIg5M4v" role="3uHU7w">
+              <node concept="37vLTw" id="5QUXFIg5LHn" role="3uHU7B">
+                <ref role="3cqZAo" node="39T4LQUtNic" resolve="newFocusHolder" />
+              </node>
+              <node concept="37vLTw" id="5QUXFIgNX6_" role="3uHU7w">
+                <ref role="3cqZAo" node="5QUXFIgtvqK" resolve="lastFocussedBeforeUpdate" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5QUXFIgtA4H" role="3cqZAp" />
+        <node concept="3clFbF" id="5QUXFIgt_37" role="3cqZAp">
+          <node concept="37vLTI" id="5QUXFIgt_r6" role="3clFbG">
+            <node concept="37vLTw" id="5QUXFIgt_OO" role="37vLTx">
+              <ref role="3cqZAo" node="39T4LQUtNic" resolve="newFocusHolder" />
+            </node>
+            <node concept="37vLTw" id="5QUXFIgt_35" role="37vLTJ">
+              <ref role="3cqZAo" node="5QUXFIgtvqK" resolve="lastFocussedBeforeUpdate" />
             </node>
           </node>
         </node>
@@ -6783,7 +6834,7 @@
                       <property role="Xl_RC" value=" lastupdt: " />
                     </node>
                     <node concept="37vLTw" id="39T4LQUyXBg" role="3uHU7w">
-                      <ref role="3cqZAo" node="39T4LQUtZQH" resolve="focussedDueToUpdate" />
+                      <ref role="3cqZAo" node="39T4LQUtZQH" resolve="toFocussedDueToUpdate" />
                     </node>
                   </node>
                 </node>
@@ -6792,6 +6843,20 @@
           </node>
         </node>
         <node concept="3clFbH" id="39T4LQUz0hF" role="3cqZAp" />
+        <node concept="3SKdUt" id="5QUXFIiViCP" role="3cqZAp">
+          <node concept="3SKdUq" id="5QUXFIiViCR" role="3SKWNk">
+            <property role="3SKdUp" value="clear mechanism after a conclusion, do not issue an update in any case!" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="5QUXFIiVgNA" role="3cqZAp">
+          <node concept="37vLTI" id="5QUXFIiVhrB" role="3clFbG">
+            <node concept="10Nm6u" id="5QUXFIiVhHM" role="37vLTx" />
+            <node concept="37vLTw" id="5QUXFIiVgN$" role="37vLTJ">
+              <ref role="3cqZAo" node="5QUXFIgtvqK" resolve="lastFocussedBeforeUpdate" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5QUXFIiVkwd" role="3cqZAp" />
         <node concept="3clFbJ" id="39T4LQUxzBz" role="3cqZAp">
           <node concept="3clFbS" id="39T4LQUxzB_" role="3clFbx">
             <node concept="3clFbF" id="39T4LQUxA7R" role="3cqZAp">
@@ -6802,7 +6867,7 @@
                       <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
                     </node>
                     <node concept="37vLTw" id="39T4LQUxAEn" role="10QFUP">
-                      <ref role="3cqZAo" node="39T4LQUtZQH" resolve="focussedDueToUpdate" />
+                      <ref role="3cqZAo" node="39T4LQUtZQH" resolve="toFocussedDueToUpdate" />
                     </node>
                   </node>
                 </node>
@@ -6816,7 +6881,7 @@
             <node concept="3y3z36" id="39T4LQUx_FT" role="3uHU7w">
               <node concept="10Nm6u" id="39T4LQUx_Zq" role="3uHU7w" />
               <node concept="37vLTw" id="39T4LQUx_AH" role="3uHU7B">
-                <ref role="3cqZAo" node="39T4LQUtZQH" resolve="focussedDueToUpdate" />
+                <ref role="3cqZAo" node="39T4LQUtZQH" resolve="toFocussedDueToUpdate" />
               </node>
             </node>
             <node concept="1Wc70l" id="39T4LQUx$BK" role="3uHU7B">
@@ -6910,7 +6975,7 @@
           <node concept="37vLTI" id="39T4LQUu8w6" role="3clFbG">
             <node concept="10Nm6u" id="39T4LQUu962" role="37vLTx" />
             <node concept="37vLTw" id="39T4LQUu7TA" role="37vLTJ">
-              <ref role="3cqZAo" node="39T4LQUtZQH" resolve="focussedDueToUpdate" />
+              <ref role="3cqZAo" node="39T4LQUtZQH" resolve="toFocussedDueToUpdate" />
             </node>
           </node>
         </node>
@@ -9088,7 +9153,15 @@
           <node concept="37vLTI" id="39T4LQUu5Tc" role="3clFbG">
             <node concept="10Nm6u" id="39T4LQUu61v" role="37vLTx" />
             <node concept="37vLTw" id="39T4LQUu5BN" role="37vLTJ">
-              <ref role="3cqZAo" node="39T4LQUtZQH" resolve="focussedDueToUpdate" />
+              <ref role="3cqZAo" node="39T4LQUtZQH" resolve="toFocussedDueToUpdate" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5QUXFIgOavs" role="3cqZAp">
+          <node concept="37vLTI" id="5QUXFIgOb2J" role="3clFbG">
+            <node concept="10Nm6u" id="5QUXFIgObaX" role="37vLTx" />
+            <node concept="37vLTw" id="5QUXFIgOavq" role="37vLTJ">
+              <ref role="3cqZAo" node="5QUXFIgtvqK" resolve="lastFocussedBeforeUpdate" />
             </node>
           </node>
         </node>
