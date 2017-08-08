@@ -5564,33 +5564,29 @@
       <node concept="3cqZAl" id="7SOU9vd3fmb" role="3clF45" />
       <node concept="3Tm1VV" id="7SOU9vd3fmc" role="1B3o_S" />
       <node concept="3clFbS" id="7SOU9vd3fmd" role="3clF47">
-        <node concept="1X3_iC" id="40OHFM6iKSk" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="40OHFM6hSN7" role="8Wnug">
-            <node concept="2OqwBi" id="40OHFM6hSN4" role="3clFbG">
-              <node concept="10M0yZ" id="40OHFM6hSN5" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              </node>
-              <node concept="liA8E" id="40OHFM6hSN6" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="3cpWs3" id="40OHFM6hVsD" role="37wK5m">
-                  <node concept="37vLTw" id="40OHFM6hW2F" role="3uHU7w">
-                    <ref role="3cqZAo" node="1dzqM5xwfVt" resolve="isSearchCmd" />
+        <node concept="3clFbF" id="40OHFM6hSN7" role="3cqZAp">
+          <node concept="2OqwBi" id="40OHFM6hSN4" role="3clFbG">
+            <node concept="10M0yZ" id="40OHFM6hSN5" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="40OHFM6hSN6" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="40OHFM6hVsD" role="37wK5m">
+                <node concept="37vLTw" id="40OHFM6hW2F" role="3uHU7w">
+                  <ref role="3cqZAo" node="1dzqM5xwfVt" resolve="isSearchCmd" />
+                </node>
+                <node concept="3cpWs3" id="40OHFM6hUM0" role="3uHU7B">
+                  <node concept="3cpWs3" id="40OHFM6hUgX" role="3uHU7B">
+                    <node concept="Xl_RD" id="40OHFM6hTCT" role="3uHU7B">
+                      <property role="Xl_RC" value="PagePaneSelCrtl.updateSelectionExchangeRootObjects() " />
+                    </node>
+                    <node concept="37vLTw" id="40OHFM6hUlU" role="3uHU7w">
+                      <ref role="3cqZAo" node="7SOU9vd3fmU" resolve="sel" />
+                    </node>
                   </node>
-                  <node concept="3cpWs3" id="40OHFM6hUM0" role="3uHU7B">
-                    <node concept="3cpWs3" id="40OHFM6hUgX" role="3uHU7B">
-                      <node concept="Xl_RD" id="40OHFM6hTCT" role="3uHU7B">
-                        <property role="Xl_RC" value="PagePaneSelCrtl.updateSelectionExchangeRootObjects() " />
-                      </node>
-                      <node concept="37vLTw" id="40OHFM6hUlU" role="3uHU7w">
-                        <ref role="3cqZAo" node="7SOU9vd3fmU" resolve="sel" />
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="40OHFM6hVn1" role="3uHU7w">
-                      <property role="Xl_RC" value=" / " />
-                    </node>
+                  <node concept="Xl_RD" id="40OHFM6hVn1" role="3uHU7w">
+                    <property role="Xl_RC" value=" / " />
                   </node>
                 </node>
               </node>
@@ -5941,6 +5937,25 @@
               <node concept="3SKdUt" id="40OHFM6iaKb" role="3cqZAp">
                 <node concept="3SKdUq" id="40OHFM6iaKc" role="3SKWNk">
                   <property role="3SKdUp" value="then we have to push, eval will follow in reloadViews()" />
+                </node>
+              </node>
+              <node concept="3clFbF" id="5kvjpQvwJOB" role="3cqZAp">
+                <node concept="2OqwBi" id="5kvjpQvwJO$" role="3clFbG">
+                  <node concept="10M0yZ" id="5kvjpQvwJO_" role="2Oq$k0">
+                    <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                    <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                  </node>
+                  <node concept="liA8E" id="5kvjpQvwJOA" role="2OqNvi">
+                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                    <node concept="3cpWs3" id="5kvjpQvwKXT" role="37wK5m">
+                      <node concept="37vLTw" id="5kvjpQvwL6A" role="3uHU7w">
+                        <ref role="3cqZAo" node="7SOU9vd3fmU" resolve="sel" />
+                      </node>
+                      <node concept="Xl_RD" id="5kvjpQvwKm$" role="3uHU7B">
+                        <property role="Xl_RC" value="PagePaneSelCrtl.updateSelection() doing a pushSelection for " />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="3clFbF" id="40OHFM6izdS" role="3cqZAp">
@@ -16370,7 +16385,7 @@
                 <node concept="3clFbS" id="6X2OBnWsUtk" role="3clFbx">
                   <node concept="3SKdUt" id="6X2OBnWsXp2" role="3cqZAp">
                     <node concept="3SKdUq" id="6X2OBnWsXp4" role="3SKWNk">
-                      <property role="3SKdUp" value="this cmd has a successor" />
+                      <property role="3SKdUp" value="Child terminated, this is the successor, close cmd" />
                     </node>
                   </node>
                   <node concept="3clFbF" id="6X2OBnWsXtT" role="3cqZAp">

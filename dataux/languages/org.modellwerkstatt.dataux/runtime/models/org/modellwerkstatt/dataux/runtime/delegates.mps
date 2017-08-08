@@ -4888,32 +4888,12 @@
       </node>
       <node concept="3clFbS" id="3puWk9zJq1T" role="3clF47">
         <node concept="3clFbF" id="3puWk9zJsJ7" role="3cqZAp">
-          <node concept="3cpWs3" id="3puWk9zJtbA" role="3clFbG">
-            <node concept="2OqwBi" id="3puWk9zJtvO" role="3uHU7w">
-              <node concept="2OqwBi" id="3puWk9zJtlI" role="2Oq$k0">
-                <node concept="37vLTw" id="3puWk9zJtiX" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
-                </node>
-                <node concept="liA8E" id="3puWk9zJtsr" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
-                </node>
-              </node>
-              <node concept="liA8E" id="3puWk9zJtFV" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
-              </node>
+          <node concept="3cpWs3" id="3puWk9zJsSS" role="3clFbG">
+            <node concept="Xl_RD" id="3puWk9zJsP7" role="3uHU7B">
+              <property role="Xl_RC" value="DLGT " />
             </node>
-            <node concept="3cpWs3" id="3puWk9zJt1R" role="3uHU7B">
-              <node concept="3cpWs3" id="3puWk9zJsSS" role="3uHU7B">
-                <node concept="Xl_RD" id="3puWk9zJsP7" role="3uHU7B">
-                  <property role="Xl_RC" value="Delegate: " />
-                </node>
-                <node concept="37vLTw" id="3puWk9zJsUS" role="3uHU7w">
-                  <ref role="3cqZAo" node="5Y1b9tQYCst" resolve="propertyName" />
-                </node>
-              </node>
-              <node concept="Xl_RD" id="3puWk9zJt40" role="3uHU7w">
-                <property role="Xl_RC" value=" " />
-              </node>
+            <node concept="37vLTw" id="3puWk9zJsUS" role="3uHU7w">
+              <ref role="3cqZAo" node="5Y1b9tQYCst" resolve="propertyName" />
             </node>
           </node>
         </node>
