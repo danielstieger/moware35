@@ -5564,29 +5564,33 @@
       <node concept="3cqZAl" id="7SOU9vd3fmb" role="3clF45" />
       <node concept="3Tm1VV" id="7SOU9vd3fmc" role="1B3o_S" />
       <node concept="3clFbS" id="7SOU9vd3fmd" role="3clF47">
-        <node concept="3clFbF" id="40OHFM6hSN7" role="3cqZAp">
-          <node concept="2OqwBi" id="40OHFM6hSN4" role="3clFbG">
-            <node concept="10M0yZ" id="40OHFM6hSN5" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="40OHFM6hSN6" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="40OHFM6hVsD" role="37wK5m">
-                <node concept="37vLTw" id="40OHFM6hW2F" role="3uHU7w">
-                  <ref role="3cqZAo" node="1dzqM5xwfVt" resolve="isSearchCmd" />
-                </node>
-                <node concept="3cpWs3" id="40OHFM6hUM0" role="3uHU7B">
-                  <node concept="3cpWs3" id="40OHFM6hUgX" role="3uHU7B">
-                    <node concept="Xl_RD" id="40OHFM6hTCT" role="3uHU7B">
-                      <property role="Xl_RC" value="PagePaneSelCrtl.updateSelectionExchangeRootObjects() " />
-                    </node>
-                    <node concept="37vLTw" id="40OHFM6hUlU" role="3uHU7w">
-                      <ref role="3cqZAo" node="7SOU9vd3fmU" resolve="sel" />
-                    </node>
+        <node concept="1X3_iC" id="67$PHrtb5eD" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="40OHFM6hSN7" role="8Wnug">
+            <node concept="2OqwBi" id="40OHFM6hSN4" role="3clFbG">
+              <node concept="10M0yZ" id="40OHFM6hSN5" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              </node>
+              <node concept="liA8E" id="40OHFM6hSN6" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="3cpWs3" id="40OHFM6hVsD" role="37wK5m">
+                  <node concept="37vLTw" id="40OHFM6hW2F" role="3uHU7w">
+                    <ref role="3cqZAo" node="1dzqM5xwfVt" resolve="isSearchCmd" />
                   </node>
-                  <node concept="Xl_RD" id="40OHFM6hVn1" role="3uHU7w">
-                    <property role="Xl_RC" value=" / " />
+                  <node concept="3cpWs3" id="40OHFM6hUM0" role="3uHU7B">
+                    <node concept="3cpWs3" id="40OHFM6hUgX" role="3uHU7B">
+                      <node concept="Xl_RD" id="40OHFM6hTCT" role="3uHU7B">
+                        <property role="Xl_RC" value="PagePaneSelCrtl.updateSelectionExchangeRootObjects() " />
+                      </node>
+                      <node concept="37vLTw" id="40OHFM6hUlU" role="3uHU7w">
+                        <ref role="3cqZAo" node="7SOU9vd3fmU" resolve="sel" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="40OHFM6hVn1" role="3uHU7w">
+                      <property role="Xl_RC" value=" / " />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -5939,20 +5943,34 @@
                   <property role="3SKdUp" value="then we have to push, eval will follow in reloadViews()" />
                 </node>
               </node>
-              <node concept="3clFbF" id="5kvjpQvwJOB" role="3cqZAp">
-                <node concept="2OqwBi" id="5kvjpQvwJO$" role="3clFbG">
-                  <node concept="10M0yZ" id="5kvjpQvwJO_" role="2Oq$k0">
-                    <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                    <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                  </node>
-                  <node concept="liA8E" id="5kvjpQvwJOA" role="2OqNvi">
-                    <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                    <node concept="3cpWs3" id="5kvjpQvwKXT" role="37wK5m">
-                      <node concept="37vLTw" id="5kvjpQvwL6A" role="3uHU7w">
-                        <ref role="3cqZAo" node="7SOU9vd3fmU" resolve="sel" />
-                      </node>
-                      <node concept="Xl_RD" id="5kvjpQvwKm$" role="3uHU7B">
-                        <property role="Xl_RC" value="PagePaneSelCrtl.updateSelection() doing a pushSelection for " />
+              <node concept="1X3_iC" id="67$PHrtb64Q" role="lGtFl">
+                <property role="3V$3am" value="statement" />
+                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                <node concept="3clFbF" id="5kvjpQvwJOB" role="8Wnug">
+                  <node concept="2OqwBi" id="5kvjpQvwJO$" role="3clFbG">
+                    <node concept="10M0yZ" id="5kvjpQvwJO_" role="2Oq$k0">
+                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                    </node>
+                    <node concept="liA8E" id="5kvjpQvwJOA" role="2OqNvi">
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <node concept="3cpWs3" id="67$PHrta$Oo" role="37wK5m">
+                        <node concept="37vLTw" id="67$PHrta_sl" role="3uHU7w">
+                          <ref role="3cqZAo" node="5_bDd1d4n9D" resolve="responsibleCommandContainer" />
+                        </node>
+                        <node concept="3cpWs3" id="67$PHrta$73" role="3uHU7B">
+                          <node concept="3cpWs3" id="5kvjpQvwKXT" role="3uHU7B">
+                            <node concept="Xl_RD" id="5kvjpQvwKm$" role="3uHU7B">
+                              <property role="Xl_RC" value="PagePaneSelCrtl.updateSelection() doing a pushSelection for " />
+                            </node>
+                            <node concept="37vLTw" id="5kvjpQvwL6A" role="3uHU7w">
+                              <ref role="3cqZAo" node="7SOU9vd3fmU" resolve="sel" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="67$PHrta$aR" role="3uHU7w">
+                            <property role="Xl_RC" value=" on cmd container " />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -11236,6 +11254,13 @@
         <ref role="3uigEE" node="Y3fiVKxA03" resolve="CommandContainer" />
       </node>
     </node>
+    <node concept="312cEg" id="67$PHrtb9MK" role="jymVt">
+      <property role="TrG5h" value="successorOfCommand" />
+      <node concept="3Tmbuc" id="67$PHrtb9ML" role="1B3o_S" />
+      <node concept="3uibUv" id="67$PHrtbdUo" role="1tU5fm">
+        <ref role="3uigEE" node="2o7h3aDYx43" resolve="ICommandContainer" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="6X2OBnWt1eo" role="jymVt" />
     <node concept="312cEg" id="5_bDd1dGbFt" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -11353,7 +11378,7 @@
       <node concept="10P_77" id="6IYVo2i3PNM" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="3EJ222E3iom" role="jymVt">
-      <property role="TrG5h" value="childInSuccessorMode" />
+      <property role="TrG5h" value="childIsSuccessorCommand" />
       <node concept="3Tm6S6" id="2Uji7vl_HvA" role="1B3o_S" />
       <node concept="10P_77" id="3EJ222E3tGu" role="1tU5fm" />
     </node>
@@ -11498,7 +11523,7 @@
               <property role="3clFbU" value="false" />
             </node>
             <node concept="37vLTw" id="3EJ222E3mfm" role="37vLTJ">
-              <ref role="3cqZAo" node="3EJ222E3iom" resolve="childInSuccessorMode" />
+              <ref role="3cqZAo" node="3EJ222E3iom" resolve="childIsSuccessorCommand" />
             </node>
           </node>
         </node>
@@ -11547,7 +11572,7 @@
               <property role="3clFbU" value="true" />
             </node>
             <node concept="37vLTw" id="2Uji7vlB4Sz" role="37vLTJ">
-              <ref role="3cqZAo" node="3EJ222E3iom" resolve="childInSuccessorMode" />
+              <ref role="3cqZAo" node="3EJ222E3iom" resolve="childIsSuccessorCommand" />
             </node>
           </node>
         </node>
@@ -11953,7 +11978,7 @@
             </node>
           </node>
           <node concept="37vLTw" id="3EJ222E673x" role="3clFbw">
-            <ref role="3cqZAo" node="3EJ222E3iom" resolve="childInSuccessorMode" />
+            <ref role="3cqZAo" node="3EJ222E3iom" resolve="childIsSuccessorCommand" />
           </node>
         </node>
         <node concept="3clFbH" id="3EJ222E5YtB" role="3cqZAp" />
@@ -14104,7 +14129,7 @@
           <node concept="37vLTI" id="2Uji7vlDW_d" role="3clFbG">
             <node concept="1Wc70l" id="3EJ222E3xdC" role="37vLTx">
               <node concept="37vLTw" id="3EJ222E3xq3" role="3uHU7B">
-                <ref role="3cqZAo" node="3EJ222E3iom" resolve="childInSuccessorMode" />
+                <ref role="3cqZAo" node="3EJ222E3iom" resolve="childIsSuccessorCommand" />
               </node>
               <node concept="3y3z36" id="65dvZOwc1Kk" role="3uHU7w">
                 <node concept="2OqwBi" id="3EJ222E3wyM" role="3uHU7B">
@@ -16269,7 +16294,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="7iVBTs8gUoi" role="3uHU7B">
-              <ref role="3cqZAo" node="3EJ222E3iom" resolve="childInSuccessorMode" />
+              <ref role="3cqZAo" node="3EJ222E3iom" resolve="childIsSuccessorCommand" />
             </node>
           </node>
         </node>
@@ -16328,6 +16353,7 @@
                   <property role="3SKdUp" value="(update selection)" />
                 </node>
               </node>
+              <node concept="3clFbH" id="67$PHrtddsz" role="3cqZAp" />
               <node concept="3clFbJ" id="6X2OBnWrqjL" role="3cqZAp">
                 <node concept="3clFbS" id="6X2OBnWrqjN" role="3clFbx">
                   <node concept="3SKdUt" id="6X2OBnWs743" role="3cqZAp">
@@ -16338,6 +16364,22 @@
                   <node concept="3SKdUt" id="6X2OBnWs7nZ" role="3cqZAp">
                     <node concept="3SKdUq" id="6X2OBnWs7o1" role="3SKWNk">
                       <property role="3SKdUp" value="if in autoconclusion mode, this should lead to an exceptions, since conceptually this is not intended" />
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="67$PHrtdgQC" role="3cqZAp" />
+                  <node concept="3SKdUt" id="67$PHrtdgXD" role="3cqZAp">
+                    <node concept="3SKdUq" id="67$PHrtdgXF" role="3SKWNk">
+                      <property role="3SKdUp" value="reload first, neccessary when new objects added in graph, then pushSelection" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="67$PHrtcZbi" role="3cqZAp">
+                    <node concept="2OqwBi" id="67$PHrtcZbj" role="3clFbG">
+                      <node concept="37vLTw" id="67$PHrtcZbk" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5yru0E42OAk" resolve="currentPagePaneSelCrtl" />
+                      </node>
+                      <node concept="liA8E" id="67$PHrtcZbl" role="2OqNvi">
+                        <ref role="37wK5l" node="3972coxdHiG" resolve="reloadViews" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbF" id="6X2OBnWu$aJ" role="3cqZAp">
@@ -16720,7 +16762,7 @@
               </node>
               <node concept="3fqX7Q" id="U8r3YpXIpA" role="3clFbw">
                 <node concept="37vLTw" id="U8r3YpXIrp" role="3fr31v">
-                  <ref role="3cqZAo" node="3EJ222E3iom" resolve="childInSuccessorMode" />
+                  <ref role="3cqZAo" node="3EJ222E3iom" resolve="childIsSuccessorCommand" />
                 </node>
               </node>
             </node>
@@ -16820,7 +16862,7 @@
                         <ref role="3cqZAo" node="2Uji7vlDXiU" resolve="useUiOfPredecessor" />
                       </node>
                       <node concept="37vLTw" id="2Uji7vlE74K" role="3uHU7B">
-                        <ref role="3cqZAo" node="3EJ222E3iom" resolve="childInSuccessorMode" />
+                        <ref role="3cqZAo" node="3EJ222E3iom" resolve="childIsSuccessorCommand" />
                       </node>
                     </node>
                   </node>
@@ -17127,6 +17169,14 @@
             <node concept="10Nm6u" id="1kxCqBRs$Jr" role="37vLTx" />
             <node concept="37vLTw" id="1kxCqBRs$bF" role="37vLTJ">
               <ref role="3cqZAo" node="6X2OBnWt4JI" resolve="parentCommandContainer" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="67$PHrtbeAe" role="3cqZAp">
+          <node concept="37vLTI" id="67$PHrtbeRQ" role="3clFbG">
+            <node concept="10Nm6u" id="67$PHrtbeZ0" role="37vLTx" />
+            <node concept="37vLTw" id="67$PHrtbeAc" role="37vLTJ">
+              <ref role="3cqZAo" node="67$PHrtb9MK" resolve="successorOfCommand" />
             </node>
           </node>
         </node>
@@ -24297,6 +24347,44 @@
       <node concept="3cqZAl" id="2o7h3aE1Qea" role="3clF45" />
       <node concept="3Tm1VV" id="zBgVaD5RNm" role="1B3o_S" />
       <node concept="3clFbS" id="zBgVaD5RNn" role="3clF47">
+        <node concept="3clFbH" id="67$PHrtbgos" role="3cqZAp" />
+        <node concept="3clFbJ" id="67$PHrtbhRm" role="3cqZAp">
+          <node concept="3clFbS" id="67$PHrtbhRo" role="3clFbx">
+            <node concept="3clFbF" id="67$PHrtbkEz" role="3cqZAp">
+              <node concept="2OqwBi" id="67$PHrtbkFt" role="3clFbG">
+                <node concept="37vLTw" id="67$PHrtbkEx" role="2Oq$k0">
+                  <ref role="3cqZAo" node="67$PHrtb9MK" resolve="successorOfCommand" />
+                </node>
+                <node concept="liA8E" id="67$PHrtbkSY" role="2OqNvi">
+                  <ref role="37wK5l" node="2o7h3aDYx5p" resolve="receiveEvent" />
+                  <node concept="37vLTw" id="67$PHrtbkTP" role="37wK5m">
+                    <ref role="3cqZAo" node="zBgVaD62Fb" resolve="ev" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="67$PHrtbF57" role="3cqZAp" />
+          </node>
+          <node concept="1Wc70l" id="67$PHrtbjmi" role="3clFbw">
+            <node concept="3fqX7Q" id="67$PHrtbks6" role="3uHU7w">
+              <node concept="2ZW3vV" id="67$PHrtbks8" role="3fr31v">
+                <node concept="3uibUv" id="67$PHrtbks9" role="2ZW6by">
+                  <ref role="3uigEE" node="T$VfFDOC$R" resolve="CommandTermEvent" />
+                </node>
+                <node concept="37vLTw" id="67$PHrtbksa" role="2ZW6bz">
+                  <ref role="3cqZAo" node="zBgVaD62Fb" resolve="ev" />
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="67$PHrtbiSv" role="3uHU7B">
+              <node concept="37vLTw" id="67$PHrtbiv2" role="3uHU7B">
+                <ref role="3cqZAo" node="67$PHrtb9MK" resolve="successorOfCommand" />
+              </node>
+              <node concept="10Nm6u" id="67$PHrtbj5v" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="67$PHrtbgxz" role="3cqZAp" />
         <node concept="3SKdUt" id="2o7h3aDZ6ac" role="3cqZAp">
           <node concept="3SKdUq" id="5Ld38uC_siC" role="3SKWNk">
             <property role="3SKdUp" value="STATELESS - - - - - - - - - - - - - - - - - - - - - - - - - - " />
@@ -25821,6 +25909,16 @@
                   <ref role="3cqZAo" node="53Vnir0tdG5" resolve="action" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="67$PHrtbg0G" role="3cqZAp">
+          <node concept="37vLTI" id="67$PHrtbgcG" role="3clFbG">
+            <node concept="37vLTw" id="67$PHrtbgnd" role="37vLTx">
+              <ref role="3cqZAo" node="6bl3$WOLPvw" resolve="successor" />
+            </node>
+            <node concept="37vLTw" id="67$PHrtbg0E" role="37vLTJ">
+              <ref role="3cqZAo" node="67$PHrtb9MK" resolve="successorOfCommand" />
             </node>
           </node>
         </node>
