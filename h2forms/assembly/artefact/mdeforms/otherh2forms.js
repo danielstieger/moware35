@@ -1,6 +1,7 @@
 /*
- *  forms implementation for other browsers
- *	daniel stieger, Summer 2016
+ *	standard implementation without MDE
+ *	daniel stieger, Autumn 2017
+ * 
  *
  *	modellwerkstatt.org
  *
@@ -9,7 +10,7 @@
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
 
-var zVersion = 'h2.1';
+var zVersion = 'h2.2';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -30,13 +31,20 @@ function moLog(s) {
 }
 
 
+
 /* Scan stuff ******************************************************* */
 function disableScan(){
+	if ($('input[name="scanconclusion"]') != null) {
+		try {	
+			$('#scanSoftButton').disabled = true;
+			
+		} catch(err) {
+			console.log('disableScan() ' + err);
+		} 
+	}
 }
 
 function scanReceived(params){	
-    // There is no scan received for other params
-    //
 	if(params['data']== "" || params['time']==""){	
 		return;	 
 	}  
@@ -48,15 +56,22 @@ function scanReceived(params){
 	disableScan();
 	myfocusOnElement(null);
 	
-		
 	var f = $('form');
 	f.NaviCrtl.value = conclusion;
+	//alert('SCAN CONCLUSION SUBMIT.');
 	f.submit();
 }  
 
 function enableScan(){
 	if ($('input[name="scanconclusion"]') != null) {
-		// enable scan here
+		try {
+			
+			$('#scanSoftButton').disabled = false;
+			
+		} catch(err) {
+			console.log('enableScan() ' + err);
+		} 
+		
 	} else {
 		/* alert('Scan not enabled'); */
 	
@@ -66,16 +81,18 @@ function enableScan(){
 
 function ScanSubmit(){
     // issuing a scan, which in turn will fire 
-    // the scan conclusion then ... and in turn a submit
+    // the scan conclusion then ... and submit
 
 	//alert('ScanSubmit() issuing scan');
 }
 
-/* Form stuff ******************************************************* */
 
+/* Form stuff ******************************************************* */
 function SelectAndExec(selectionstr, valstr){
+	internVibrate(100);
+
 	disableScan();
-		
+	
 	myfocusOnElement(null);
 	var f = $('form');
 	f.NaviCrtl.value=valstr;
@@ -85,8 +102,10 @@ function SelectAndExec(selectionstr, valstr){
 }
 
 function SaveSubmit(valstr){
- 	disableScan();
- 	 	
+	internVibrate(100);
+
+ 	disableScan(); 	
+ 	
 	myfocusOnElement(null);
 	if (valstr.indexOf('/') >= 0) {
 		window.location = valstr;
@@ -100,14 +119,22 @@ function SaveSubmit(valstr){
 }
 
 
-
 /* Hotkey stuff ******************************************************* */
 function internVibrate(t) {
+	try {
 
+	} catch(err) {
+		console.log('internVibrate() ' + err);
+	}
 }
 
 function flagBeep(t) {
-
+  /* alert("BEEP"); */
+  try {
+	
+  } catch(err) {
+  	console.log('flagBeep() ' + err);
+  }
 }
 
 function nextEnabledOrDefaultButton(currentIndex) {
@@ -152,9 +179,19 @@ function nextEnabledOrDefaultButton(currentIndex) {
 	}
 }
 
-
+function capturekeyCallback(params){
+  var key = params['keyValue'];
+  // alert('HOTEKY=' + key + ' / ' + new Date().getMilliseconds());
+  
+  // back keys
+  if (key == '4' || key == '38') {
+    SaveSubmit($('#cancelbutton').getAttribute('navicrtl'));
+  }  
+}
 
 function mykeyboardKeypress(key){
+
+	internVibrate(100);
 
 	var inp = $('input[focusme="true"]');
     if (inp) {
@@ -210,8 +247,6 @@ function myfocusOnElement(elem) {
 			elem.disabled = true;
 		}	
     
-		// do not do that.... 
-		// elem.value = '';
 		moware_focus_element = elem;
 	}
 }
@@ -221,6 +256,7 @@ function myfocusOnElement(elem) {
 /* On Load Stuff ------------------------------------------------------------- */
 
 document.addEventListener('DOMContentLoaded', function() {
+	
 	/* backbutton browser handler - last resort 
 	 * per default, backbutton should be handled by key capture
 	 */
@@ -230,31 +266,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	} else {
 	   SaveSubmit('conclusion_0');
 	}
-  	
-	/* var myInputs = $$('input[jumpable], select[jumpable]');
-	var editorIndex = 0;
-	for (i = 0; i < myInputs.length; ++i) {
-		editorIndex = parseInt(myInputs[i].getAttribute('editorindex'));
-		
-		if (editorIndex > 2) {
-			myInputs[i].addEventListener('focus', function (e) {
-				var index = parseInt(e.target.getAttribute('editorindex')) - 2;
-				var finalTarget = $('*[editorindex = "' + index + '"]');
-	 			window.location.hash = finalTarget.getAttribute('jumpable');
-		  		console.log('Jumping to ' + index + ' label ' + window.location.hash);
-		  		
-			}, true);
-		}
-	}
-	
-	// Deprecated, Jan 2016? For what to clean the input? 
-	var myInputs = $$('input[jumpable]');
-	for (i = 0; i < myInputs.length; ++i) {
-		myInputs[i].onclick = function(event){
-	   		this.value = '';
-		};	
-	} */
-	
 	
 	/* this is not the enterprise browser keyhandler, but 	
 	   android back button */
@@ -287,7 +298,6 @@ document.addEventListener('DOMContentLoaded', function() {
 				elemEditorIndex = elem.getAttribute('editorindex');
 			}
 
-			/* alert('ElemEditorIndex is ' + elemEditorIndex + ' type is ' + elemtype); */
 			nextEnabledOrDefaultButton(elemEditorIndex);
 		}
 		return false;
@@ -297,6 +307,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	// do not handle this key then  	
 	return true;
 	};
+
+
 
 	moware_focus_element = null;
 	var focusHandler = function(event) {
@@ -319,6 +331,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	document.body.addEventListener('focus', focusHandler, true); //Non-IE   
 
 
+	// after loading page and after a timeout, move focus to 
+	// correct location 
 	setTimeout(function() {	  
 		var inp = $('input[focusme="true"]');
 		if (inp) {
@@ -337,17 +351,20 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 	}, 200);
 	
+	enableScan();		
+	if($('#flagbeep')) {
+		flagBeep(400);
+	}
+	if($('#errorbeep')) {
+		flagBeep(1000);
+	}
+
+	
+	
     // keyboard is disabled by default 
 	mykeyboardEnabled(true);
 	
 	incProgress();
 	setInterval(incProgress, 60000);
-	
-    // console.log('AFTER bodyOnLoadFunction() exec.');
-    // moLog('Span Fontsize ' + window.getComputedStyle($('span')).getPropertyValue('font-size'));
-    // moLog('Window ' + window.innerHeight + ' x ' + window.innerWidth);
-    
+	console.log('EB h2forms start ' + zVersion + ' ' + new Date());
 }); 
-
-
-

@@ -4776,8 +4776,48 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7r26jiNUSTW" role="3cqZAp" />
-        <node concept="3clFbH" id="18nf27m6ucT" role="3cqZAp" />
+        <node concept="3cpWs8" id="6YMRHoFajtM" role="3cqZAp">
+          <node concept="3cpWsn" id="6YMRHoFajtP" role="3cpWs9">
+            <property role="TrG5h" value="progressor" />
+            <node concept="17QB3L" id="6YMRHoFajtK" role="1tU5fm" />
+            <node concept="2OqwBi" id="6YMRHoFajUH" role="33vP2m">
+              <node concept="37vLTw" id="6YMRHoFajS3" role="2Oq$k0">
+                <ref role="3cqZAo" node="5hYsHqQ_VNp" resolve="request" />
+              </node>
+              <node concept="liA8E" id="6YMRHoFak8s" role="2OqNvi">
+                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                <node concept="Xl_RD" id="6YMRHoFakbo" role="37wK5m">
+                  <property role="Xl_RC" value="Progressor" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6YMRHoFamZT" role="3cqZAp" />
+        <node concept="3SKdUt" id="6YMRHoFaGVi" role="3cqZAp">
+          <node concept="3SKdUq" id="6YMRHoFaGVk" role="3SKWNk">
+            <property role="3SKdUp" value="convert null to string null" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6YMRHoFanKv" role="3cqZAp">
+          <node concept="2OqwBi" id="6YMRHoFao85" role="3clFbG">
+            <node concept="37vLTw" id="6YMRHoFanKt" role="2Oq$k0">
+              <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+            </node>
+            <node concept="liA8E" id="6YMRHoFaGAh" role="2OqNvi">
+              <ref role="37wK5l" to="1e0c:6YMRHoFazJZ" resolve="setuser_progressor" />
+              <node concept="3cpWs3" id="6YMRHoFaGMs" role="37wK5m">
+                <node concept="Xl_RD" id="6YMRHoFaGQb" role="3uHU7B">
+                  <property role="Xl_RC" value="" />
+                </node>
+                <node concept="37vLTw" id="6YMRHoFaGGE" role="3uHU7w">
+                  <ref role="3cqZAo" node="6YMRHoFajtP" resolve="progressor" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6YMRHoFaHg5" role="3cqZAp" />
         <node concept="3SKdUt" id="18nf27m6uCs" role="3cqZAp">
           <node concept="3SKdUq" id="18nf27m6uCu" role="3SKWNk">
             <property role="3SKdUp" value="shutdown session?" />
@@ -6772,7 +6812,7 @@
                     </node>
                   </node>
                   <node concept="2OwXpG" id="6zVU6_jDsmI" role="2OqNvi">
-                    <ref role="2Oxat5" to="yg8v:I$l6zlL1Pe" resolve="uriIdentifier" />
+                    <ref role="2Oxat5" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
                   </node>
                 </node>
                 <node concept="liA8E" id="5hYsHqQxCJl" role="2OqNvi">

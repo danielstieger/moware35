@@ -145,7 +145,16 @@ html, body {
 	right: 0px;
 	top: 0px;
 	padding-right: 5px;
-	font-size: 60%;
+	font-size: 8px;
+	line-height: normal;
+}
+
+.rightCustomHeaderDivLine2 {
+	position: absolute;
+	right: 0px;
+	top: 9px;
+	padding-right: 5px;
+	font-size: 8px;
 	line-height: normal;
 }
 

@@ -1,6 +1,8 @@
 /*
- *  forms implementation for other browsers
- *	daniel stieger, Summer 2016
+ *	mde forms implementation
+ *	daniel stieger, Autumn 2017
+ * 
+ *	Motorola TC55 Edition 
  *
  *	modellwerkstatt.org
  *
@@ -9,7 +11,9 @@
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
 
-var zVersion = 'h2.1';
+
+
+var zVersion = 'h2.2';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -30,33 +34,54 @@ function moLog(s) {
 }
 
 
+
 /* Scan stuff ******************************************************* */
 function disableScan(){
+	if ($('input[name="scanconclusion"]') != null) {
+		try {	
+			incProgress();
+			
+			EB.Barcode.disable();
+			$('#scanSoftButton').disabled = true;
+			
+		} catch(err) {
+			console.log('disableScan() ' + err);
+		} 
+	}
 }
 
 function scanReceived(params){	
-    // There is no scan received for other params
-    //
 	if(params['data']== "" || params['time']==""){	
 		return;	 
 	}  
+	incProgress();
 	
 	$('input[scanable="true"]').value = params['data'];
-	
 	var conclusion = $('input[name="scanconclusion"]').value;
 
 	disableScan();
 	myfocusOnElement(null);
 	
-		
 	var f = $('form');
 	f.NaviCrtl.value = conclusion;
+	//alert('SCAN CONCLUSION SUBMIT.');
 	f.submit();
 }  
 
 function enableScan(){
 	if ($('input[name="scanconclusion"]') != null) {
-		// enable scan here
+		try {
+			incProgress();
+
+			/* EB.Barcode.enable({allDecoders:true, upcEanSupplemental5:true, upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO}, scanReceived); */
+			EB.Barcode.enable({allDecoders:true }, scanReceived);
+			
+			$('#scanSoftButton').disabled = false;
+
+		} catch(err) {
+			console.log('enableScan() ' + err);
+		} 
+		
 	} else {
 		/* alert('Scan not enabled'); */
 	
@@ -66,16 +91,20 @@ function enableScan(){
 
 function ScanSubmit(){
     // issuing a scan, which in turn will fire 
-    // the scan conclusion then ... and in turn a submit
+    // the scan conclusion then ... and submit
 
 	//alert('ScanSubmit() issuing scan');
+	EB.Barcode.stop();
+	EB.Barcode.start();
 }
 
-/* Form stuff ******************************************************* */
 
+/* Form stuff ******************************************************* */
 function SelectAndExec(selectionstr, valstr){
+	internVibrate(100);
+
 	disableScan();
-		
+	
 	myfocusOnElement(null);
 	var f = $('form');
 	f.NaviCrtl.value=valstr;
@@ -85,8 +114,10 @@ function SelectAndExec(selectionstr, valstr){
 }
 
 function SaveSubmit(valstr){
- 	disableScan();
- 	 	
+	internVibrate(100);
+	
+ 	disableScan(); 	
+ 	
 	myfocusOnElement(null);
 	if (valstr.indexOf('/') >= 0) {
 		window.location = valstr;
@@ -100,18 +131,29 @@ function SaveSubmit(valstr){
 }
 
 
-
 /* Hotkey stuff ******************************************************* */
 function internVibrate(t) {
-
+	try {
+		EB.Notification.vibrate(t);
+	} catch(err) {
+		console.log('internVibrate() ' + err);
+	}
 }
 
 function flagBeep(t) {
-
+  /* alert("BEEP"); */
+  try {
+	EB.Notification.beep({frequency :1200, volume :5.0, duration: t});
+	EB.Notification.vibrate(t);
+	
+  } catch(err) {
+  	console.log('flagBeep() ' + err);
+  }
 }
 
 function nextEnabledOrDefaultButton(currentIndex) {
 	// console.log('nextEnabledOrDefaultButton(' + currentIndex + ')');
+	incProgress();
 
 	var elemEditorIndex = parseInt(currentIndex) + 1;
 	var elem = $('*[editorIndex="' + elemEditorIndex + '"]');
@@ -152,9 +194,20 @@ function nextEnabledOrDefaultButton(currentIndex) {
 	}
 }
 
-
+function capturekeyCallback(params){
+  var key = params['keyValue'];
+  // alert('HOTEKY=' + key + ' / ' + new Date().getMilliseconds());
+  
+  // back keys
+  incProgress();
+  if (key == '4' || key == '38') {
+    SaveSubmit($('#cancelbutton').getAttribute('navicrtl'));
+  }  
+}
 
 function mykeyboardKeypress(key){
+	incProgress();
+	internVibrate(100);
 
 	var inp = $('input[focusme="true"]');
     if (inp) {
@@ -210,8 +263,6 @@ function myfocusOnElement(elem) {
 			elem.disabled = true;
 		}	
     
-		// do not do that.... 
-		// elem.value = '';
 		moware_focus_element = elem;
 	}
 }
@@ -221,6 +272,7 @@ function myfocusOnElement(elem) {
 /* On Load Stuff ------------------------------------------------------------- */
 
 document.addEventListener('DOMContentLoaded', function() {
+	
 	/* backbutton browser handler - last resort 
 	 * per default, backbutton should be handled by key capture
 	 */
@@ -230,31 +282,23 @@ document.addEventListener('DOMContentLoaded', function() {
 	} else {
 	   SaveSubmit('conclusion_0');
 	}
-  	
-	/* var myInputs = $$('input[jumpable], select[jumpable]');
-	var editorIndex = 0;
-	for (i = 0; i < myInputs.length; ++i) {
-		editorIndex = parseInt(myInputs[i].getAttribute('editorindex'));
+  
+  	try {	
+		/* back button on android tc55 */
+		EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
+		powerOn.powerOnEvent = "url('JavaScript:enableScan();')";	
+	
 		
-		if (editorIndex > 2) {
-			myInputs[i].addEventListener('focus', function (e) {
-				var index = parseInt(e.target.getAttribute('editorindex')) - 2;
-				var finalTarget = $('*[editorindex = "' + index + '"]');
-	 			window.location.hash = finalTarget.getAttribute('jumpable');
-		  		console.log('Jumping to ' + index + ' label ' + window.location.hash);
-		  		
-			}, true);
-		}
+		/* enable scan and register it for power on 
+		   Dan 11.Aug.17 - temporarly not in use to check, if neccessary at all	
+		wake.wakeLock = 'enabled';
+		wake.wifiLock = 'enabled';  */	
+		
+	} catch(err) {
+		console.log('addEventListener_DOMContentLoaded() ' + err);
+	
 	}
-	
-	// Deprecated, Jan 2016? For what to clean the input? 
-	var myInputs = $$('input[jumpable]');
-	for (i = 0; i < myInputs.length; ++i) {
-		myInputs[i].onclick = function(event){
-	   		this.value = '';
-		};	
-	} */
-	
+
 	
 	/* this is not the enterprise browser keyhandler, but 	
 	   android back button */
@@ -287,7 +331,6 @@ document.addEventListener('DOMContentLoaded', function() {
 				elemEditorIndex = elem.getAttribute('editorindex');
 			}
 
-			/* alert('ElemEditorIndex is ' + elemEditorIndex + ' type is ' + elemtype); */
 			nextEnabledOrDefaultButton(elemEditorIndex);
 		}
 		return false;
@@ -298,8 +341,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	return true;
 	};
 
+
+
 	moware_focus_element = null;
 	var focusHandler = function(event) {
+		incProgress();
     	var type = event.target.nodeName.toLowerCase();
 		
 		if(type == 'input' || type == 'textarea' || type == 'select') {
@@ -319,6 +365,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	document.body.addEventListener('focus', focusHandler, true); //Non-IE   
 
 
+	// after loading page and after a timeout, move focus to 
+	// correct location 
 	setTimeout(function() {	  
 		var inp = $('input[focusme="true"]');
 		if (inp) {
@@ -337,17 +385,20 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 	}, 200);
 	
+	enableScan();		
+	if($('#flagbeep')) {
+		flagBeep(400);
+	}
+	if($('#errorbeep')) {
+		flagBeep(1000);
+	}
+
+	
+	
     // keyboard is disabled by default 
 	mykeyboardEnabled(true);
 	
 	incProgress();
-	setInterval(incProgress, 60000);
-	
-    // console.log('AFTER bodyOnLoadFunction() exec.');
-    // moLog('Span Fontsize ' + window.getComputedStyle($('span')).getPropertyValue('font-size'));
-    // moLog('Window ' + window.innerHeight + ' x ' + window.innerWidth);
-    
+	setInterval(incProgress, 20000);
+	console.log('EB h2forms start ' + zVersion + ' ' + new Date());
 }); 
-
-
-

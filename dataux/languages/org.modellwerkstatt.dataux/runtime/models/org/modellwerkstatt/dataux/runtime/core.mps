@@ -19190,6 +19190,11 @@
       <node concept="3Tmbuc" id="4n24ZlEy_i2" role="1B3o_S" />
       <node concept="17QB3L" id="4n24ZlEy_i3" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="6YMRHoFaypN" role="jymVt">
+      <property role="TrG5h" value="progressor" />
+      <node concept="3Tmbuc" id="6YMRHoFaypO" role="1B3o_S" />
+      <node concept="17QB3L" id="6YMRHoFaypP" role="1tU5fm" />
+    </node>
     <node concept="312cEg" id="5YG5DD8XsQp" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -19273,6 +19278,16 @@
             </node>
             <node concept="37vLTw" id="2ppo89mgmls" role="37vLTJ">
               <ref role="3cqZAo" node="2ppo89mghXz" resolve="userInfo" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6YMRHoFazvy" role="3cqZAp">
+          <node concept="37vLTI" id="6YMRHoFazBZ" role="3clFbG">
+            <node concept="Xl_RD" id="6YMRHoFazDp" role="37vLTx">
+              <property role="Xl_RC" value="no-info" />
+            </node>
+            <node concept="37vLTw" id="6YMRHoFazvw" role="37vLTJ">
+              <ref role="3cqZAo" node="6YMRHoFaypN" resolve="progressor" />
             </node>
           </node>
         </node>
@@ -19482,6 +19497,41 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2ppo89mgriL" role="jymVt" />
+    <node concept="3clFb_" id="6YMRHoFaxzs" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getuser_progressor" />
+      <node concept="17QB3L" id="6YMRHoFaxzt" role="3clF45" />
+      <node concept="3Tm1VV" id="6YMRHoFaxzu" role="1B3o_S" />
+      <node concept="3clFbS" id="6YMRHoFaxzy" role="3clF47">
+        <node concept="3clFbF" id="6YMRHoFazn5" role="3cqZAp">
+          <node concept="37vLTw" id="6YMRHoFazn4" role="3clFbG">
+            <ref role="3cqZAo" node="6YMRHoFaypN" resolve="progressor" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6YMRHoFazJZ" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setuser_progressor" />
+      <node concept="37vLTG" id="6YMRHoFa_he" role="3clF46">
+        <property role="TrG5h" value="prog" />
+        <node concept="17QB3L" id="6YMRHoFa_hs" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6YMRHoFaAXH" role="3clF45" />
+      <node concept="3Tm1VV" id="6YMRHoFazK1" role="1B3o_S" />
+      <node concept="3clFbS" id="6YMRHoFazK2" role="3clF47">
+        <node concept="3clFbF" id="6YMRHoFazK3" role="3cqZAp">
+          <node concept="37vLTI" id="6YMRHoFaBD2" role="3clFbG">
+            <node concept="37vLTw" id="6YMRHoFaBJI" role="37vLTx">
+              <ref role="3cqZAo" node="6YMRHoFa_he" resolve="prog" />
+            </node>
+            <node concept="37vLTw" id="6YMRHoFazK4" role="37vLTJ">
+              <ref role="3cqZAo" node="6YMRHoFaypN" resolve="progressor" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="4n24ZlEy6Gu" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getuser_lastInteraction" />
@@ -27389,7 +27439,14 @@
       <node concept="3Tm1VV" id="5YG5DD8X9jM" role="1B3o_S" />
       <node concept="3clFbS" id="5YG5DD8X9jN" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="6TYnK1btYkN" role="jymVt" />
+    <node concept="3clFb_" id="6YMRHoFawEX" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getuser_progressor" />
+      <node concept="17QB3L" id="6YMRHoFawIs" role="3clF45" />
+      <node concept="3Tm1VV" id="6YMRHoFawF0" role="1B3o_S" />
+      <node concept="3clFbS" id="6YMRHoFawF1" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="6YMRHoFawDR" role="jymVt" />
     <node concept="3clFb_" id="uIdudhLYhg" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="fullApplicationCrtlState" />

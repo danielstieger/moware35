@@ -1182,6 +1182,10 @@
         <property role="TrG5h" value="color" />
         <node concept="17QB3L" id="ao4XGSZvMH" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="6YMRHoF9$oz" role="3clF46">
+        <property role="TrG5h" value="prog" />
+        <node concept="17QB3L" id="6YMRHoF9$Yy" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="7RHNXGyQCRP" role="3clF45" />
       <node concept="3Tm1VV" id="7RHNXGyQCRQ" role="1B3o_S" />
       <node concept="3clFbS" id="7RHNXGyQCRR" role="3clF47">
@@ -1444,7 +1448,7 @@
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="3cpWs3" id="3YiRJwjgVA9" role="37wK5m">
                     <node concept="Xl_RD" id="3YiRJwjgVAa" role="3uHU7w">
-                      <property role="Xl_RC" value="/static/zebrah1forms.js\&quot;&gt;&lt;/script&gt;\n" />
+                      <property role="Xl_RC" value="/static/zebrah2forms.js\&quot;&gt;&lt;/script&gt;\n" />
                     </node>
                     <node concept="3cpWs3" id="3YiRJwjgVAb" role="3uHU7B">
                       <node concept="Xl_RD" id="3YiRJwjgVAc" role="3uHU7B">
@@ -1545,7 +1549,7 @@
                     <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                     <node concept="3cpWs3" id="4Rlyz3E8V8K" role="37wK5m">
                       <node concept="Xl_RD" id="4Rlyz3E8V8L" role="3uHU7w">
-                        <property role="Xl_RC" value="/static/otherh1forms.js\&quot;&gt;&lt;/script&gt;\n" />
+                        <property role="Xl_RC" value="/static/otherh2forms.js\&quot;&gt;&lt;/script&gt;\n" />
                       </node>
                       <node concept="3cpWs3" id="4Rlyz3E8V8M" role="3uHU7B">
                         <node concept="Xl_RD" id="4Rlyz3E8V8N" role="3uHU7B">
@@ -1895,6 +1899,29 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="6YMRHoF9ui2" role="3cqZAp">
+          <node concept="2OqwBi" id="6YMRHoF9ui3" role="3clFbG">
+            <node concept="37vLTw" id="6YMRHoF9ui4" role="2Oq$k0">
+              <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+            </node>
+            <node concept="liA8E" id="6YMRHoF9ui5" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <node concept="3cpWs3" id="6YMRHoF9ui6" role="37wK5m">
+                <node concept="Xl_RD" id="6YMRHoF9ui7" role="3uHU7w">
+                  <property role="Xl_RC" value="\&quot;/&gt;\n" />
+                </node>
+                <node concept="3cpWs3" id="6YMRHoF9ui8" role="3uHU7B">
+                  <node concept="Xl_RD" id="6YMRHoF9ui9" role="3uHU7B">
+                    <property role="Xl_RC" value="&lt;input type=\&quot;hidden\&quot; name=\&quot;Progressor\&quot; value=\&quot;" />
+                  </node>
+                  <node concept="37vLTw" id="6YMRHoF9_eS" role="3uHU7w">
+                    <ref role="3cqZAo" node="6YMRHoF9$oz" resolve="prog" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="4vlJhWzSxsL" role="3cqZAp" />
         <node concept="3clFbF" id="7RHNXGyQCTs" role="3cqZAp">
           <node concept="2OqwBi" id="7RHNXGyQCTt" role="3clFbG">
@@ -1933,13 +1960,13 @@
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
               <node concept="3cpWs3" id="3VF1NMV8GOe" role="37wK5m">
                 <node concept="Xl_RD" id="3VF1NMV8Hev" role="3uHU7w">
-                  <property role="Xl_RC" value="&lt;/div&gt;  &lt;h1&gt;" />
+                  <property role="Xl_RC" value="&lt;/div&gt;" />
                 </node>
                 <node concept="3cpWs3" id="3VF1NMV8Fkj" role="3uHU7B">
                   <node concept="3cpWs3" id="3VF1NMV8Ewx" role="3uHU7B">
                     <node concept="3cpWs3" id="3VF1NMV8DU9" role="3uHU7B">
                       <node concept="Xl_RD" id="3VF1NMV8DFU" role="3uHU7B">
-                        <property role="Xl_RC" value="&lt;div id=\&quot;dbgFld\&quot; class=\&quot;rightCustomHeaderDiv\&quot;&gt;" />
+                        <property role="Xl_RC" value="&lt;div id=\&quot;connInfo\&quot; class=\&quot;rightCustomHeaderDiv\&quot;&gt;" />
                       </node>
                       <node concept="37vLTw" id="3VF1NMV8EgK" role="3uHU7w">
                         <ref role="3cqZAo" node="3VF1NMV7Skr" resolve="hostName" />
@@ -1951,6 +1978,29 @@
                   </node>
                   <node concept="37vLTw" id="3VF1NMV8Gas" role="3uHU7w">
                     <ref role="3cqZAo" node="3VF1NMV4J$j" resolve="guessedServerName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6YMRHoFbaEU" role="3cqZAp">
+          <node concept="2OqwBi" id="6YMRHoFbaEV" role="3clFbG">
+            <node concept="37vLTw" id="6YMRHoFbaEW" role="2Oq$k0">
+              <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+            </node>
+            <node concept="liA8E" id="6YMRHoFbaEX" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+              <node concept="3cpWs3" id="6YMRHoFbaEY" role="37wK5m">
+                <node concept="Xl_RD" id="6YMRHoFbaEZ" role="3uHU7w">
+                  <property role="Xl_RC" value="&lt;/div&gt;  &lt;h1&gt;" />
+                </node>
+                <node concept="3cpWs3" id="6YMRHoFbaF2" role="3uHU7B">
+                  <node concept="Xl_RD" id="6YMRHoFbaF3" role="3uHU7B">
+                    <property role="Xl_RC" value="&lt;div id=\&quot;dbgFld\&quot; class=\&quot;rightCustomHeaderDivLine2\&quot;&gt;" />
+                  </node>
+                  <node concept="37vLTw" id="6YMRHoFbbOA" role="3uHU7w">
+                    <ref role="3cqZAo" node="6YMRHoF9$oz" resolve="prog" />
                   </node>
                 </node>
               </node>
@@ -11484,6 +11534,9 @@
               <node concept="37vLTw" id="ao4XGSZGnG" role="37wK5m">
                 <ref role="3cqZAo" node="ao4XGSZhld" resolve="uiColor" />
               </node>
+              <node concept="Xl_RD" id="6YMRHoFacdH" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
             </node>
           </node>
         </node>
@@ -11957,6 +12010,10 @@
       <node concept="37vLTG" id="ao4XGSZs$A" role="3clF46">
         <property role="TrG5h" value="color" />
         <node concept="17QB3L" id="ao4XGSZsME" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6YMRHoF9vs0" role="3clF46">
+        <property role="TrG5h" value="prog" />
+        <node concept="17QB3L" id="6YMRHoF9y8w" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="4FeXrhEB0HI" role="jymVt" />
@@ -15976,6 +16033,9 @@
                 <property role="3cmrfH" value="0" />
               </node>
               <node concept="10Nm6u" id="ao4XGSZJxx" role="37wK5m" />
+              <node concept="Xl_RD" id="6YMRHoFabMS" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
             </node>
           </node>
         </node>
@@ -16206,6 +16266,9 @@
               </node>
               <node concept="37vLTw" id="7TsEWieYgOq" role="37wK5m">
                 <ref role="3cqZAo" node="7TsEWieYg$K" resolve="baseColor" />
+              </node>
+              <node concept="Xl_RD" id="6YMRHoFabXE" role="37wK5m">
+                <property role="Xl_RC" value="" />
               </node>
             </node>
           </node>
