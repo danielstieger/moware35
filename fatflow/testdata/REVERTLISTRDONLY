@@ -15,6 +15,7 @@ positions (List)
    posText  revertlist_0
    date  27.01.1980
    invoice (Reference) Key  #*#* (OPP)
+   subposition (List)
 
    InvoicePosition  (_readOnly: true  _TCN: 0  _enabled: true)
    id  #*#*
@@ -22,6 +23,7 @@ positions (List)
    posText  revertlist_1
    date  27.01.1980
    invoice (Reference) Key  #*#* (OPP)
+   subposition (List)
 
    InvoicePosition  (_readOnly: true  _TCN: 0  _enabled: true)
    id  #*#*
@@ -29,6 +31,7 @@ positions (List)
    posText  revertlist_2
    date  27.01.1980
    invoice (Reference) Key  #*#* (OPP)
+   subposition (List)
 
    InvoicePosition  (_readOnly: true  _TCN: 0  _enabled: true)
    id  #*#*
@@ -36,6 +39,7 @@ positions (List)
    posText  revertlist_3
    date  27.01.1980
    invoice (Reference) Key  #*#* (OPP)
+   subposition (List)
 
 mainPosRef (Reference) Key  (null-key)
 moneyAmount (ValueObject)

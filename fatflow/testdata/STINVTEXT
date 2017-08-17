@@ -9,6 +9,7 @@ text  _dirty: true  _readOnly: false  _TCN: 0  _enabled: true  )
    posText: conversion_3
    date: 1980-01-27
    invoice (Reference): Key:0
+   subposition (List): 
 
 mainPosRef (Reference): Key:null
 moneyAmount (ValueObject): 
@@ -26,6 +27,7 @@ positions (List)
    posText  conversion_0
    date  27.01.1980
    invoice (Reference) Key  (null-key) (OPP)
+   subposition (List)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
@@ -33,6 +35,7 @@ positions (List)
    posText  conversion_1
    date  27.01.1980
    invoice (Reference) Key  (null-key) (OPP)
+   subposition (List)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
@@ -40,6 +43,7 @@ positions (List)
    posText  conversion_2
    date  27.01.1980
    invoice (Reference) Key  (null-key) (OPP)
+   subposition (List)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
@@ -47,6 +51,7 @@ positions (List)
    posText  conversion_3
    date  27.01.1980
    invoice (Reference) Key  (null-key) (OPP)
+   subposition (List)
 
 mainPosRef (Reference) Key  (null-key)
 moneyAmount (ValueObject)

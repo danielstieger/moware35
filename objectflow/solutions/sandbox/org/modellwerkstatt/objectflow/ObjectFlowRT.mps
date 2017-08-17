@@ -31855,16 +31855,75 @@
         </node>
         <node concept="3clFbJ" id="16VphDIVnIV" role="3cqZAp">
           <node concept="3clFbS" id="16VphDIVnIX" role="3clFbx">
-            <node concept="3clFbF" id="16VphDIGLEO" role="3cqZAp">
-              <node concept="37vLTI" id="16VphDIGMDO" role="3clFbG">
-                <node concept="1rXfSq" id="16VphDIGMRk" role="37vLTx">
-                  <ref role="37wK5l" node="16VphDIGB4c" resolve="hashOfList" />
-                  <node concept="37vLTw" id="16VphDIGN2b" role="37wK5m">
-                    <ref role="3cqZAo" node="5dZoziR9qJH" resolve="val" />
+            <node concept="3SKdUt" id="6_ccWWp7pWP" role="3cqZAp">
+              <node concept="3SKdUq" id="6_ccWWp7pWR" role="3SKWNk">
+                <property role="3SKdUp" value="this is an initial assignment, currentList still zero or not?" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6_ccWWp7uPy" role="3cqZAp">
+              <node concept="3clFbS" id="6_ccWWp7uP$" role="3clFbx">
+                <node concept="3SKdUt" id="6_ccWWp7y0y" role="3cqZAp">
+                  <node concept="3SKdUq" id="6_ccWWp7y0$" role="3SKWNk">
+                    <property role="3SKdUp" value="some items where added in meantime, the will be removed or overwritten" />
                   </node>
                 </node>
-                <node concept="37vLTw" id="16VphDIGLEM" role="37vLTJ">
-                  <ref role="3cqZAo" node="16VphDIGyqL" resolve="hashAfterSet" />
+                <node concept="3SKdUt" id="6_ccWWp7ymt" role="3cqZAp">
+                  <node concept="3SKdUq" id="6_ccWWp7ymv" role="3SKWNk">
+                    <property role="3SKdUp" value="mark this list as dirty" />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="6_ccWWp7w_P" role="3cqZAp">
+                  <node concept="37vLTI" id="6_ccWWp7wLS" role="3clFbG">
+                    <node concept="3cmrfG" id="6_ccWWp7yei" role="37vLTx">
+                      <property role="3cmrfH" value="-1" />
+                    </node>
+                    <node concept="37vLTw" id="6_ccWWp7w_N" role="37vLTJ">
+                      <ref role="3cqZAo" node="16VphDIGyqL" resolve="hashAfterSet" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="6_ccWWp7vsg" role="3clFbw">
+                <node concept="3eOSWO" id="6_ccWWp7wcD" role="3uHU7w">
+                  <node concept="3cmrfG" id="6_ccWWp7wfK" role="3uHU7w">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="6_ccWWp7vOb" role="3uHU7B">
+                    <node concept="37vLTw" id="6_ccWWp7vDN" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5dZoziR9qI4" resolve="currentList" />
+                    </node>
+                    <node concept="liA8E" id="6_ccWWp7vYk" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3y3z36" id="6_ccWWp7vcO" role="3uHU7B">
+                  <node concept="37vLTw" id="6_ccWWp7uXL" role="3uHU7B">
+                    <ref role="3cqZAo" node="5dZoziR9qI4" resolve="currentList" />
+                  </node>
+                  <node concept="10Nm6u" id="6_ccWWp7vi2" role="3uHU7w" />
+                </node>
+              </node>
+              <node concept="9aQIb" id="6_ccWWp7xme" role="9aQIa">
+                <node concept="3clFbS" id="6_ccWWp7xmf" role="9aQI4">
+                  <node concept="3SKdUt" id="6_ccWWp7xPO" role="3cqZAp">
+                    <node concept="3SKdUq" id="6_ccWWp7xPQ" role="3SKWNk">
+                      <property role="3SKdUp" value="not dirty, was nothing, this is the first assigment" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="16VphDIGLEO" role="3cqZAp">
+                    <node concept="37vLTI" id="16VphDIGMDO" role="3clFbG">
+                      <node concept="1rXfSq" id="16VphDIGMRk" role="37vLTx">
+                        <ref role="37wK5l" node="16VphDIGB4c" resolve="hashOfList" />
+                        <node concept="37vLTw" id="16VphDIGN2b" role="37wK5m">
+                          <ref role="3cqZAo" node="5dZoziR9qJH" resolve="val" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="16VphDIGLEM" role="37vLTJ">
+                        <ref role="3cqZAo" node="16VphDIGyqL" resolve="hashAfterSet" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -31899,7 +31958,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="16VphDIVk9L" role="3cqZAp" />
+        <node concept="3clFbH" id="6_ccWWoIyp5" role="3cqZAp" />
         <node concept="3clFbF" id="5dZoziR9ssH" role="3cqZAp">
           <node concept="37vLTI" id="5dZoziR9t5q" role="3clFbG">
             <node concept="37vLTw" id="5dZoziR9tas" role="37vLTx">
@@ -32047,6 +32106,26 @@
           <node concept="3fqX7Q" id="16VphDIM_cu" role="3clFbG">
             <node concept="37vLTw" id="16VphDIM_cw" role="3fr31v">
               <ref role="3cqZAo" node="16VphDIMw23" resolve="same" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6_ccWWnm$bV" role="jymVt">
+      <property role="TrG5h" value="setHashForDirtyChecking" />
+      <node concept="3cqZAl" id="6_ccWWnm$bX" role="3clF45" />
+      <node concept="3Tm1VV" id="6_ccWWnm$bY" role="1B3o_S" />
+      <node concept="3clFbS" id="6_ccWWnm$bZ" role="3clF47">
+        <node concept="3clFbF" id="6_ccWWnmEJU" role="3cqZAp">
+          <node concept="37vLTI" id="6_ccWWnmEVF" role="3clFbG">
+            <node concept="1rXfSq" id="6_ccWWnmF9u" role="37vLTx">
+              <ref role="37wK5l" node="16VphDIGB4c" resolve="hashOfList" />
+              <node concept="37vLTw" id="6_ccWWnmFnQ" role="37wK5m">
+                <ref role="3cqZAo" node="5dZoziR9qI4" resolve="currentList" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6_ccWWnmEJT" role="37vLTJ">
+              <ref role="3cqZAo" node="16VphDIGyqL" resolve="hashAfterSet" />
             </node>
           </node>
         </node>

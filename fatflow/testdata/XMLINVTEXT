@@ -18,21 +18,29 @@ text  <ID>0</ID>
    <POSAVALUE  posAvalue = "0.0">0.0</POSAVALUE>
    <POSTEXT>conversion_0</POSTEXT>
    <DATE  date = "1980-01-27">So 27.01.1980</DATE>
+<SUBPOSITIONSET>
+</SUBPOSITIONSET>
 </POSITIONS><POSITIONS num="1">
    <ID>0</ID>
    <POSAVALUE  posAvalue = "10.0">10.0</POSAVALUE>
    <POSTEXT>conversion_1</POSTEXT>
    <DATE  date = "1980-01-27">So 27.01.1980</DATE>
+<SUBPOSITIONSET>
+</SUBPOSITIONSET>
 </POSITIONS><POSITIONS num="2">
    <ID>0</ID>
    <POSAVALUE  posAvalue = "20.0">20.0</POSAVALUE>
    <POSTEXT>conversion_2</POSTEXT>
    <DATE  date = "1980-01-27">So 27.01.1980</DATE>
+<SUBPOSITIONSET>
+</SUBPOSITIONSET>
 </POSITIONS><POSITIONS num="3">
    <ID>0</ID>
    <POSAVALUE  posAvalue = "30.0">30.0</POSAVALUE>
    <POSTEXT>conversion_3</POSTEXT>
    <DATE  date = "1980-01-27">So 27.01.1980</DATE>
+<SUBPOSITIONSET>
+</SUBPOSITIONSET>
 </POSITIONS></POSITIONSSET>
 <MONEYAMOUNT>
    <VAL>100</VAL>
@@ -50,6 +58,7 @@ positions (List)
    posText  conversion_0
    date  27.01.1980
    invoice (Reference) Key  (null-key) (OPP)
+   subposition (List)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
@@ -57,6 +66,7 @@ positions (List)
    posText  conversion_1
    date  27.01.1980
    invoice (Reference) Key  (null-key) (OPP)
+   subposition (List)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
@@ -64,6 +74,7 @@ positions (List)
    posText  conversion_2
    date  27.01.1980
    invoice (Reference) Key  (null-key) (OPP)
+   subposition (List)
 
    InvoicePosition  (_readOnly: false  _TCN: 0  _enabled: true)
    id  #*#*
@@ -71,6 +82,7 @@ positions (List)
    posText  conversion_3
    date  27.01.1980
    invoice (Reference) Key  (null-key) (OPP)
+   subposition (List)
 
 mainPosRef (Reference) Key  (null-key)
 moneyAmount (ValueObject)
