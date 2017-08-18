@@ -39,8 +39,6 @@ function moLog(s) {
 function disableScan(){
 	if ($('input[name="scanconclusion"]') != null) {
 		try {	
-			incProgress();
-			
 			EB.Barcode.disable();
 			$('#scanSoftButton').disabled = true;
 			
@@ -54,14 +52,13 @@ function scanReceived(params){
 	if(params['data']== "" || params['time']==""){	
 		return;	 
 	}  
-	incProgress();
-	
 	$('input[scanable="true"]').value = params['data'];
 	var conclusion = $('input[name="scanconclusion"]').value;
 
 	disableScan();
 	myfocusOnElement(null);
 	
+	incProgress();
 	var f = $('form');
 	f.NaviCrtl.value = conclusion;
 	//alert('SCAN CONCLUSION SUBMIT.');
@@ -71,11 +68,8 @@ function scanReceived(params){
 function enableScan(){
 	if ($('input[name="scanconclusion"]') != null) {
 		try {
-			incProgress();
-
 			/* EB.Barcode.enable({allDecoders:true, upcEanSupplemental5:true, upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO}, scanReceived); */
 			EB.Barcode.enable({allDecoders:true }, scanReceived);
-			
 			$('#scanSoftButton').disabled = false;
 
 		} catch(err) {
@@ -106,6 +100,8 @@ function SelectAndExec(selectionstr, valstr){
 	disableScan();
 	
 	myfocusOnElement(null);
+
+	incProgress();
 	var f = $('form');
 	f.NaviCrtl.value=valstr;
 	f.SelectionId.value=selectionstr;
@@ -118,6 +114,7 @@ function SaveSubmit(valstr){
 	
  	disableScan(); 	
  	
+ 	incProgress();
 	myfocusOnElement(null);
 	if (valstr.indexOf('/') >= 0) {
 		window.location = valstr;
@@ -153,7 +150,7 @@ function flagBeep(t) {
 
 function nextEnabledOrDefaultButton(currentIndex) {
 	// console.log('nextEnabledOrDefaultButton(' + currentIndex + ')');
-	incProgress();
+
 
 	var elemEditorIndex = parseInt(currentIndex) + 1;
 	var elem = $('*[editorIndex="' + elemEditorIndex + '"]');
@@ -199,14 +196,12 @@ function capturekeyCallback(params){
   // alert('HOTEKY=' + key + ' / ' + new Date().getMilliseconds());
   
   // back keys
-  incProgress();
   if (key == '4' || key == '38') {
     SaveSubmit($('#cancelbutton').getAttribute('navicrtl'));
   }  
 }
 
 function mykeyboardKeypress(key){
-	incProgress();
 	internVibrate(100);
 
 	var inp = $('input[focusme="true"]');
@@ -345,7 +340,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	moware_focus_element = null;
 	var focusHandler = function(event) {
-		incProgress();
     	var type = event.target.nodeName.toLowerCase();
 		
 		if(type == 'input' || type == 'textarea' || type == 'select') {
@@ -398,7 +392,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // keyboard is disabled by default 
 	mykeyboardEnabled(true);
 	
-	incProgress();
 	setInterval(incProgress, 20000);
+	incProgress();
 	console.log('EB h2forms start ' + zVersion + ' ' + new Date());
 }); 
