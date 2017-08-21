@@ -2908,6 +2908,34 @@
                 <property role="3SKdUp" value="okay, do some telemetrics stuff. thanks." />
               </node>
             </node>
+            <node concept="3clFbF" id="1S90xUtbYpr" role="3cqZAp">
+              <node concept="2OqwBi" id="1S90xUtbZCw" role="3clFbG">
+                <node concept="2OqwBi" id="1S90xUtbYTe" role="2Oq$k0">
+                  <node concept="37vLTw" id="1S90xUtbYpp" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
+                  </node>
+                  <node concept="liA8E" id="1S90xUtbZB5" role="2OqNvi">
+                    <ref role="37wK5l" to="x37d:5YG5DD8WHBQ" resolve="getAppTelemetrics" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1S90xUtc0rJ" role="2OqNvi">
+                  <ref role="37wK5l" to="x37d:4O5lEKxGPdI" resolve="applicationLog" />
+                  <node concept="Xl_RD" id="1S90xUtc0tl" role="37wK5m">
+                    <property role="Xl_RC" value="served request" />
+                  </node>
+                  <node concept="1rXfSq" id="1S90xUtc3lg" role="37wK5m">
+                    <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
+                    <node concept="37vLTw" id="1S90xUtc42m" role="37wK5m">
+                      <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                    </node>
+                    <node concept="37vLTw" id="1S90xUtc4JG" role="37wK5m">
+                      <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1S90xUtc5ta" role="3cqZAp" />
             <node concept="3clFbF" id="2yuEF6qeNqR" role="3cqZAp">
               <node concept="2OqwBi" id="2yuEF6qeOqK" role="3clFbG">
                 <node concept="2OqwBi" id="kA5KhwiHNy" role="2Oq$k0">
@@ -3274,31 +3302,147 @@
       <node concept="17QB3L" id="3oSvuvtvtIZ" role="3clF45" />
       <node concept="3Tm1VV" id="3oSvuvtv7Fu" role="1B3o_S" />
       <node concept="3clFbS" id="3oSvuvtv7Fv" role="3clF47">
-        <node concept="3cpWs8" id="4LTkHxmXO4l" role="3cqZAp">
-          <node concept="3cpWsn" id="4LTkHxmXO4o" role="3cpWs9">
-            <property role="TrG5h" value="tmpInfo" />
-            <node concept="17QB3L" id="4LTkHxmXO4j" role="1tU5fm" />
-            <node concept="Xl_RD" id="3oSvuvtwsyR" role="33vP2m">
-              <property role="Xl_RC" value="" />
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="3oSvuvtviB8" role="3cqZAp">
           <node concept="3cpWsn" id="3oSvuvtviBb" role="3cpWs9">
-            <property role="TrG5h" value="addInfo" />
+            <property role="TrG5h" value="info" />
             <node concept="17QB3L" id="3oSvuvtviB6" role="1tU5fm" />
             <node concept="Xl_RD" id="3oSvuvtvkt7" role="33vP2m">
               <property role="Xl_RC" value="" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3oSvuvtwuln" role="3cqZAp" />
+        <node concept="3SKdUt" id="4LTkHxmXI0C" role="3cqZAp">
+          <node concept="3SKdUq" id="4LTkHxmXI0B" role="3SKWNk">
+            <property role="3SKdUp" value="Requerst parameters" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4LTkHxmXO4l" role="3cqZAp">
+          <node concept="3cpWsn" id="4LTkHxmXO4o" role="3cpWs9">
+            <property role="TrG5h" value="tmpInfo" />
+            <node concept="17QB3L" id="4LTkHxmXO4j" role="1tU5fm" />
+            <node concept="3cpWs3" id="1S90xUtd1V5" role="33vP2m">
+              <node concept="Xl_RD" id="1S90xUtd1VZ" role="3uHU7w">
+                <property role="Xl_RC" value=" " />
+              </node>
+              <node concept="3cpWs3" id="1S90xUtcYPw" role="3uHU7B">
+                <node concept="Xl_RD" id="4LTkHxmXI06" role="3uHU7B">
+                  <property role="Xl_RC" value="{REQUEST " />
+                </node>
+                <node concept="2OqwBi" id="1S90xUtcZH$" role="3uHU7w">
+                  <node concept="37vLTw" id="1S90xUtcZBy" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3oSvuvtvf9o" resolve="request" />
+                  </node>
+                  <node concept="liA8E" id="1S90xUtd0h2" role="2OqNvi">
+                    <ref role="37wK5l" to="nwfd:~HttpServletRequest.getMethod():java.lang.String" resolve="getMethod" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1S90xUtcRlU" role="3cqZAp" />
+        <node concept="3cpWs8" id="4LTkHxmXI08" role="3cqZAp">
+          <node concept="3cpWsn" id="4LTkHxmXI07" role="3cpWs9">
+            <property role="3TUv4t" value="false" />
+            <property role="TrG5h" value="parameters" />
+            <node concept="3uibUv" id="4LTkHxmXI09" role="1tU5fm">
+              <ref role="3uigEE" to="33ny:~Enumeration" resolve="Enumeration" />
+              <node concept="3uibUv" id="4LTkHxmXI0a" role="11_B2D">
+                <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="4LTkHxmXI1J" role="33vP2m">
+              <node concept="37vLTw" id="4LTkHxmXI1I" role="2Oq$k0">
+                <ref role="3cqZAo" node="3oSvuvtvf9o" resolve="request" />
+              </node>
+              <node concept="liA8E" id="4LTkHxmXI1K" role="2OqNvi">
+                <ref role="37wK5l" to="opgt:~ServletRequest.getParameterNames():java.util.Enumeration" resolve="getParameterNames" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2$JKZl" id="4LTkHxmXI0u" role="3cqZAp">
+          <node concept="2OqwBi" id="4LTkHxmXI1S" role="2$JKZa">
+            <node concept="37vLTw" id="4LTkHxmXI1R" role="2Oq$k0">
+              <ref role="3cqZAo" node="4LTkHxmXI07" resolve="parameters" />
+            </node>
+            <node concept="liA8E" id="4LTkHxmXI1T" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Enumeration.hasMoreElements():boolean" resolve="hasMoreElements" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="4LTkHxmXI0e" role="2LFqv$">
+            <node concept="3cpWs8" id="4LTkHxmYkTZ" role="3cqZAp">
+              <node concept="3cpWsn" id="4LTkHxmYkU2" role="3cpWs9">
+                <property role="TrG5h" value="paramName" />
+                <node concept="17QB3L" id="4LTkHxmYkTX" role="1tU5fm" />
+                <node concept="2OqwBi" id="4LTkHxmXI21" role="33vP2m">
+                  <node concept="37vLTw" id="4LTkHxmXI20" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4LTkHxmXI07" resolve="parameters" />
+                  </node>
+                  <node concept="liA8E" id="4LTkHxmXI22" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~Enumeration.nextElement():java.lang.Object" resolve="nextElement" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="4LTkHxmXI0j" role="3cqZAp">
+              <node concept="d57v9" id="4LTkHxmXI0k" role="3clFbG">
+                <node concept="37vLTw" id="4LTkHxmXI0l" role="37vLTJ">
+                  <ref role="3cqZAo" node="4LTkHxmXO4o" resolve="tmpInfo" />
+                </node>
+                <node concept="3cpWs3" id="4LTkHxmXI0m" role="37vLTx">
+                  <node concept="3cpWs3" id="4LTkHxmXI0n" role="3uHU7B">
+                    <node concept="3cpWs3" id="4LTkHxmXI0o" role="3uHU7B">
+                      <node concept="37vLTw" id="4LTkHxmXI0p" role="3uHU7B">
+                        <ref role="3cqZAo" node="4LTkHxmYkU2" resolve="paramName" />
+                      </node>
+                      <node concept="Xl_RD" id="4LTkHxmXI0q" role="3uHU7w">
+                        <property role="Xl_RC" value=": " />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="4LTkHxmXI2a" role="3uHU7w">
+                      <node concept="37vLTw" id="4LTkHxmXI29" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3oSvuvtvf9o" resolve="request" />
+                      </node>
+                      <node concept="liA8E" id="4LTkHxmXI2b" role="2OqNvi">
+                        <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                        <node concept="37vLTw" id="4LTkHxmXI0s" role="37wK5m">
+                          <ref role="3cqZAo" node="4LTkHxmYkU2" resolve="paramName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="4LTkHxmXI0t" role="3uHU7w">
+                    <property role="Xl_RC" value=", " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4LTkHxmXI0v" role="3cqZAp">
+          <node concept="d57v9" id="4LTkHxmXI0w" role="3clFbG">
+            <node concept="37vLTw" id="4LTkHxmXI0x" role="37vLTJ">
+              <ref role="3cqZAo" node="3oSvuvtviBb" resolve="info" />
+            </node>
+            <node concept="3cpWs3" id="4LTkHxmXI0y" role="37vLTx">
+              <node concept="37vLTw" id="4LTkHxmXI0z" role="3uHU7B">
+                <ref role="3cqZAo" node="4LTkHxmXO4o" resolve="tmpInfo" />
+              </node>
+              <node concept="Xl_RD" id="4LTkHxmXI0$" role="3uHU7w">
+                <property role="Xl_RC" value=" } " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1S90xUtcMBd" role="3cqZAp" />
+        <node concept="3clFbH" id="1S90xUtcMCE" role="3cqZAp" />
         <node concept="3clFbJ" id="3oSvuvtwpua" role="3cqZAp">
           <node concept="3clFbS" id="3oSvuvtwpuc" role="3clFbx">
             <node concept="3clFbF" id="3oSvuvtwwju" role="3cqZAp">
               <node concept="37vLTI" id="3oSvuvtwwH3" role="3clFbG">
                 <node concept="Xl_RD" id="3oSvuvtwwHT" role="37vLTx">
-                  <property role="Xl_RC" value="{ SESSION null " />
+                  <property role="Xl_RC" value=" { SESSION null " />
                 </node>
                 <node concept="37vLTw" id="3oSvuvtwwjs" role="37vLTJ">
                   <ref role="3cqZAo" node="4LTkHxmXO4o" resolve="tmpInfo" />
@@ -3324,7 +3468,7 @@
                           <node concept="3cpWs3" id="4LTkHxmXHZq" role="3uHU7B">
                             <node concept="3cpWs3" id="4LTkHxmXHZr" role="3uHU7B">
                               <node concept="Xl_RD" id="4LTkHxmXHZs" role="3uHU7B">
-                                <property role="Xl_RC" value="{ SESSION cT: " />
+                                <property role="Xl_RC" value=" { SESSION cT: " />
                               </node>
                               <node concept="2ShNRf" id="4LTkHxmXX6r" role="3uHU7w">
                                 <node concept="1pGfFk" id="4LTkHxmY01O" role="2ShVmc">
@@ -3471,7 +3615,7 @@
         <node concept="3clFbF" id="4LTkHxmXHZX" role="3cqZAp">
           <node concept="d57v9" id="4LTkHxmXHZY" role="3clFbG">
             <node concept="37vLTw" id="4LTkHxmXHZZ" role="37vLTJ">
-              <ref role="3cqZAo" node="3oSvuvtviBb" resolve="addInfo" />
+              <ref role="3cqZAo" node="3oSvuvtviBb" resolve="info" />
             </node>
             <node concept="3cpWs3" id="4LTkHxmXI00" role="37vLTx">
               <node concept="37vLTw" id="4LTkHxmXI01" role="3uHU7B">
@@ -3484,119 +3628,9 @@
           </node>
         </node>
         <node concept="3clFbH" id="3oSvuvtvv2i" role="3cqZAp" />
-        <node concept="3SKdUt" id="4LTkHxmXI0C" role="3cqZAp">
-          <node concept="3SKdUq" id="4LTkHxmXI0B" role="3SKWNk">
-            <property role="3SKdUp" value="Requerst parameters " />
-          </node>
-        </node>
-        <node concept="3clFbF" id="4LTkHxmXI03" role="3cqZAp">
-          <node concept="37vLTI" id="4LTkHxmXI04" role="3clFbG">
-            <node concept="37vLTw" id="4LTkHxmXI05" role="37vLTJ">
-              <ref role="3cqZAo" node="4LTkHxmXO4o" resolve="tmpInfo" />
-            </node>
-            <node concept="Xl_RD" id="4LTkHxmXI06" role="37vLTx">
-              <property role="Xl_RC" value="{REQUEST " />
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="4LTkHxmXI08" role="3cqZAp">
-          <node concept="3cpWsn" id="4LTkHxmXI07" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="parameters" />
-            <node concept="3uibUv" id="4LTkHxmXI09" role="1tU5fm">
-              <ref role="3uigEE" to="33ny:~Enumeration" resolve="Enumeration" />
-              <node concept="3uibUv" id="4LTkHxmXI0a" role="11_B2D">
-                <ref role="3uigEE" to="wyt6:~String" resolve="String" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="4LTkHxmXI1J" role="33vP2m">
-              <node concept="37vLTw" id="4LTkHxmXI1I" role="2Oq$k0">
-                <ref role="3cqZAo" node="3oSvuvtvf9o" resolve="request" />
-              </node>
-              <node concept="liA8E" id="4LTkHxmXI1K" role="2OqNvi">
-                <ref role="37wK5l" to="opgt:~ServletRequest.getParameterNames():java.util.Enumeration" resolve="getParameterNames" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2$JKZl" id="4LTkHxmXI0u" role="3cqZAp">
-          <node concept="2OqwBi" id="4LTkHxmXI1S" role="2$JKZa">
-            <node concept="37vLTw" id="4LTkHxmXI1R" role="2Oq$k0">
-              <ref role="3cqZAo" node="4LTkHxmXI07" resolve="parameters" />
-            </node>
-            <node concept="liA8E" id="4LTkHxmXI1T" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Enumeration.hasMoreElements():boolean" resolve="hasMoreElements" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="4LTkHxmXI0e" role="2LFqv$">
-            <node concept="3cpWs8" id="4LTkHxmYkTZ" role="3cqZAp">
-              <node concept="3cpWsn" id="4LTkHxmYkU2" role="3cpWs9">
-                <property role="TrG5h" value="paramName" />
-                <node concept="17QB3L" id="4LTkHxmYkTX" role="1tU5fm" />
-                <node concept="2OqwBi" id="4LTkHxmXI21" role="33vP2m">
-                  <node concept="37vLTw" id="4LTkHxmXI20" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4LTkHxmXI07" resolve="parameters" />
-                  </node>
-                  <node concept="liA8E" id="4LTkHxmXI22" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~Enumeration.nextElement():java.lang.Object" resolve="nextElement" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="4LTkHxmXI0j" role="3cqZAp">
-              <node concept="d57v9" id="4LTkHxmXI0k" role="3clFbG">
-                <node concept="37vLTw" id="4LTkHxmXI0l" role="37vLTJ">
-                  <ref role="3cqZAo" node="4LTkHxmXO4o" resolve="tmpInfo" />
-                </node>
-                <node concept="3cpWs3" id="4LTkHxmXI0m" role="37vLTx">
-                  <node concept="3cpWs3" id="4LTkHxmXI0n" role="3uHU7B">
-                    <node concept="3cpWs3" id="4LTkHxmXI0o" role="3uHU7B">
-                      <node concept="37vLTw" id="4LTkHxmXI0p" role="3uHU7B">
-                        <ref role="3cqZAo" node="4LTkHxmYkU2" resolve="paramName" />
-                      </node>
-                      <node concept="Xl_RD" id="4LTkHxmXI0q" role="3uHU7w">
-                        <property role="Xl_RC" value=": " />
-                      </node>
-                    </node>
-                    <node concept="2OqwBi" id="4LTkHxmXI2a" role="3uHU7w">
-                      <node concept="37vLTw" id="4LTkHxmXI29" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3oSvuvtvf9o" resolve="request" />
-                      </node>
-                      <node concept="liA8E" id="4LTkHxmXI2b" role="2OqNvi">
-                        <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
-                        <node concept="37vLTw" id="4LTkHxmXI0s" role="37wK5m">
-                          <ref role="3cqZAo" node="4LTkHxmYkU2" resolve="paramName" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="4LTkHxmXI0t" role="3uHU7w">
-                    <property role="Xl_RC" value=", " />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4LTkHxmXI0v" role="3cqZAp">
-          <node concept="d57v9" id="4LTkHxmXI0w" role="3clFbG">
-            <node concept="37vLTw" id="4LTkHxmXI0x" role="37vLTJ">
-              <ref role="3cqZAo" node="3oSvuvtviBb" resolve="addInfo" />
-            </node>
-            <node concept="3cpWs3" id="4LTkHxmXI0y" role="37vLTx">
-              <node concept="37vLTw" id="4LTkHxmXI0z" role="3uHU7B">
-                <ref role="3cqZAo" node="4LTkHxmXO4o" resolve="tmpInfo" />
-              </node>
-              <node concept="Xl_RD" id="4LTkHxmXI0$" role="3uHU7w">
-                <property role="Xl_RC" value=" } " />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3oSvuvtvrhk" role="3cqZAp" />
         <node concept="3cpWs6" id="3oSvuvtvrVe" role="3cqZAp">
           <node concept="37vLTw" id="3oSvuvtvss9" role="3cqZAk">
-            <ref role="3cqZAo" node="3oSvuvtviBb" resolve="addInfo" />
+            <ref role="3cqZAo" node="3oSvuvtviBb" resolve="info" />
           </node>
         </node>
       </node>

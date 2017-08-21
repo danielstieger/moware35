@@ -19800,6 +19800,52 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1S90xUtd5Dr" role="3cqZAp">
+          <node concept="2OqwBi" id="1S90xUtd5Xe" role="3clFbG">
+            <node concept="2OqwBi" id="1S90xUtd5LE" role="2Oq$k0">
+              <node concept="37vLTw" id="1S90xUtd5Dp" role="2Oq$k0">
+                <ref role="3cqZAo" node="5YG5DD8XsQp" resolve="jmxRegHelper" />
+              </node>
+              <node concept="liA8E" id="1S90xUtd5VM" role="2OqNvi">
+                <ref role="37wK5l" to="x37d:5YG5DD8WHBQ" resolve="getAppTelemetrics" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1S90xUtd69v" role="2OqNvi">
+              <ref role="37wK5l" to="x37d:4O5lEKxGPdI" resolve="applicationLog" />
+              <node concept="Xl_RD" id="1S90xUtd6bp" role="37wK5m">
+                <property role="Xl_RC" value="logEvent" />
+              </node>
+              <node concept="3cpWs3" id="1S90xUtd6kr" role="37wK5m">
+                <node concept="3cpWs3" id="1S90xUtd6ks" role="3uHU7B">
+                  <node concept="Xl_RD" id="1S90xUtd6kt" role="3uHU7w">
+                    <property role="Xl_RC" value=" $ " />
+                  </node>
+                  <node concept="3cpWs3" id="1S90xUtd6ku" role="3uHU7B">
+                    <node concept="3cpWs3" id="1S90xUtd6kv" role="3uHU7B">
+                      <node concept="Xl_RD" id="1S90xUtd6kw" role="3uHU7w">
+                        <property role="Xl_RC" value=" $ " />
+                      </node>
+                      <node concept="3cpWs3" id="1S90xUtd6kx" role="3uHU7B">
+                        <node concept="Xl_RD" id="1S90xUtd6kz" role="3uHU7B">
+                          <property role="Xl_RC" value=" $ " />
+                        </node>
+                        <node concept="37vLTw" id="1S90xUtd6kB" role="3uHU7w">
+                          <ref role="3cqZAo" node="63IPdUQIr99" resolve="diffTime" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="1S90xUtd6kC" role="3uHU7w">
+                      <ref role="3cqZAo" node="3VmhxxuJSMY" resolve="kafkaInfo" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1S90xUtd6kD" role="3uHU7w">
+                  <ref role="3cqZAo" node="2ppo89mf7X_" resolve="msg" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="6PK_6HzhuYZ" role="3cqZAp" />
       </node>
     </node>
