@@ -2908,28 +2908,32 @@
                 <property role="3SKdUp" value="okay, do some telemetrics stuff. thanks." />
               </node>
             </node>
-            <node concept="3clFbF" id="1S90xUtbYpr" role="3cqZAp">
-              <node concept="2OqwBi" id="1S90xUtbZCw" role="3clFbG">
-                <node concept="2OqwBi" id="1S90xUtbYTe" role="2Oq$k0">
-                  <node concept="37vLTw" id="1S90xUtbYpp" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
-                  </node>
-                  <node concept="liA8E" id="1S90xUtbZB5" role="2OqNvi">
-                    <ref role="37wK5l" to="x37d:5YG5DD8WHBQ" resolve="getAppTelemetrics" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="1S90xUtc0rJ" role="2OqNvi">
-                  <ref role="37wK5l" to="x37d:4O5lEKxGPdI" resolve="applicationLog" />
-                  <node concept="Xl_RD" id="1S90xUtc0tl" role="37wK5m">
-                    <property role="Xl_RC" value="served request" />
-                  </node>
-                  <node concept="1rXfSq" id="1S90xUtc3lg" role="37wK5m">
-                    <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
-                    <node concept="37vLTw" id="1S90xUtc42m" role="37wK5m">
-                      <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+            <node concept="1X3_iC" id="1S90xUtrUYP" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="1S90xUtbYpr" role="8Wnug">
+                <node concept="2OqwBi" id="1S90xUtbZCw" role="3clFbG">
+                  <node concept="2OqwBi" id="1S90xUtbYTe" role="2Oq$k0">
+                    <node concept="37vLTw" id="1S90xUtbYpp" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
                     </node>
-                    <node concept="37vLTw" id="1S90xUtc4JG" role="37wK5m">
-                      <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                    <node concept="liA8E" id="1S90xUtbZB5" role="2OqNvi">
+                      <ref role="37wK5l" to="x37d:5YG5DD8WHBQ" resolve="getAppTelemetrics" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1S90xUtc0rJ" role="2OqNvi">
+                    <ref role="37wK5l" to="x37d:4O5lEKxGPdI" resolve="applicationLog" />
+                    <node concept="Xl_RD" id="1S90xUtc0tl" role="37wK5m">
+                      <property role="Xl_RC" value="served request" />
+                    </node>
+                    <node concept="1rXfSq" id="1S90xUtc3lg" role="37wK5m">
+                      <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
+                      <node concept="37vLTw" id="1S90xUtc42m" role="37wK5m">
+                        <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                      </node>
+                      <node concept="37vLTw" id="1S90xUtc4JG" role="37wK5m">
+                        <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -5986,6 +5990,19 @@
                           <node concept="37vLTw" id="7r26jiO1kbB" role="37wK5m">
                             <ref role="3cqZAo" node="7r26jiO1jwN" resolve="currentMessage" />
                           </node>
+                          <node concept="2OqwBi" id="1S90xUtt4J5" role="37wK5m">
+                            <node concept="2OqwBi" id="1S90xUtt4gV" role="2Oq$k0">
+                              <node concept="37vLTw" id="1S90xUtt4bx" role="2Oq$k0">
+                                <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                              </node>
+                              <node concept="liA8E" id="1S90xUtt4F7" role="2OqNvi">
+                                <ref role="37wK5l" to="1e0c:5YG5DD904R$" resolve="getAppTelemetrics" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="1S90xUtt519" role="2OqNvi">
+                              <ref role="37wK5l" to="x37d:1S90xUtsT8k" resolve="isPreventHtmlCaching" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -7113,6 +7130,10 @@
         <node concept="3uibUv" id="7r26jiNZjY4" role="1tU5fm">
           <ref role="3uigEE" node="5hYsHqQzcYi" resolve="Message" />
         </node>
+      </node>
+      <node concept="37vLTG" id="1S90xUtt54R" role="3clF46">
+        <property role="TrG5h" value="isPreventHtmlCache" />
+        <node concept="10P_77" id="1S90xUtt56x" role="1tU5fm" />
       </node>
     </node>
     <node concept="3clFb_" id="7TsEWieYClc" role="jymVt">
