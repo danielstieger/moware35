@@ -1785,7 +1785,7 @@
       <property role="TrG5h" value="DEVELOPMENT_SETTING" />
       <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
       <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
-      <node concept="3clFbT" id="1S90xUtd865" role="33vP2m">
+      <node concept="3clFbT" id="7RwCLGx47EQ" role="33vP2m">
         <property role="3clFbU" value="false" />
       </node>
     </node>
@@ -1800,7 +1800,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="mowareCMD RC10 - ngnx (dev " />
+            <property role="Xl_RC" value="mowareCMD RC11 - state (dev " />
           </node>
           <node concept="37vLTw" id="2$gclwwfVu1" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -2703,10 +2703,28 @@
         <property role="TrG5h" value="INNER_CMD_NOT_ENABLED" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="2e3BpjBfQ2G" role="37wK5m">
-          <property role="Xl_RC" value="Das Kommand '%s' konnte nicht angewendet werden.\nWesentliche Bedingung zur Ausführung nicht erfüllt." />
+          <property role="Xl_RC" value="Das Kommando '%s' konnte nicht angewendet werden.\nWesentliche Bedingung zur Ausführung nicht erfüllt." />
         </node>
         <node concept="10Nm6u" id="2e3BpjBfQ5E" role="37wK5m" />
         <node concept="10Nm6u" id="2e3BpjBfQ6M" role="37wK5m" />
+      </node>
+      <node concept="QsSxf" id="7RwCLGxb43N" role="Qtgdg">
+        <property role="TrG5h" value="INNER_CMD_WRONG_STATE" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
+        <node concept="Xl_RD" id="7RwCLGxb43O" role="37wK5m">
+          <property role="Xl_RC" value="Das Kommando '%s' kann im Zustand '%s' nicht angewendet werden." />
+        </node>
+        <node concept="10Nm6u" id="7RwCLGxb43P" role="37wK5m" />
+        <node concept="10Nm6u" id="7RwCLGxb43Q" role="37wK5m" />
+      </node>
+      <node concept="QsSxf" id="7RwCLGxb4nv" role="Qtgdg">
+        <property role="TrG5h" value="INNER_CMD_NO_PERM" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
+        <node concept="Xl_RD" id="7RwCLGxb4nw" role="37wK5m">
+          <property role="Xl_RC" value="Sie haben keine Berechtigung für das Kommando '%s'." />
+        </node>
+        <node concept="10Nm6u" id="7RwCLGxb4nx" role="37wK5m" />
+        <node concept="10Nm6u" id="7RwCLGxb4ny" role="37wK5m" />
       </node>
       <node concept="QsSxf" id="18nf27m6wZ8" role="Qtgdg">
         <property role="TrG5h" value="SESSION_SHUTDOWN" />

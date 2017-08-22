@@ -1826,22 +1826,7 @@
             </node>
             <node concept="3clFbH" id="MdbUSGX_i6" role="3cqZAp" />
             <node concept="3clFbH" id="5pFQRGEkiIb" role="3cqZAp" />
-            <node concept="3clFbH" id="5pFQRGEkiQ7" role="3cqZAp" />
-            <node concept="3clFbF" id="3oSvuvtw34C" role="3cqZAp">
-              <node concept="1rXfSq" id="3oSvuvtw34A" role="3clFbG">
-                <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                <node concept="1rXfSq" id="3oSvuvtw4j6" role="37wK5m">
-                  <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
-                  <node concept="37vLTw" id="3oSvuvtw4ky" role="37wK5m">
-                    <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
-                  </node>
-                  <node concept="37vLTw" id="3oSvuvtw4zj" role="37wK5m">
-                    <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="5pFQRGEkiU3" role="3cqZAp" />
+            <node concept="3clFbH" id="39Pheqm2we3" role="3cqZAp" />
             <node concept="3SKdUt" id="kA5Khwc2oj" role="3cqZAp">
               <node concept="3SKdUq" id="kA5Khwc2ol" role="3SKWNk">
                 <property role="3SKdUp" value="someone moved around in our network ---------------------------" />
@@ -2497,8 +2482,58 @@
               </node>
             </node>
             <node concept="3clFbH" id="5hYsHqQya$f" role="3cqZAp" />
-            <node concept="3clFbH" id="r$jHpF7A$o" role="3cqZAp" />
-            <node concept="3clFbH" id="r$jHpF7AVW" role="3cqZAp" />
+            <node concept="3SKdUt" id="39Pheqm2y_K" role="3cqZAp">
+              <node concept="3SKdUq" id="39Pheqm2y_M" role="3SKWNk">
+                <property role="3SKdUp" value="Temporary Info - to remove" />
+              </node>
+            </node>
+            <node concept="3cpWs8" id="39Pheqm2B76" role="3cqZAp">
+              <node concept="3cpWsn" id="39Pheqm2B79" role="3cpWs9">
+                <property role="TrG5h" value="progressor" />
+                <node concept="17QB3L" id="39Pheqm2B74" role="1tU5fm" />
+                <node concept="2OqwBi" id="39Pheqm2BEa" role="33vP2m">
+                  <node concept="37vLTw" id="39Pheqm2BCL" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                  </node>
+                  <node concept="liA8E" id="39Pheqm2BRs" role="2OqNvi">
+                    <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                    <node concept="Xl_RD" id="39Pheqm2CyZ" role="37wK5m">
+                      <property role="Xl_RC" value="Progressor" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="39Pheqm2QvY" role="3cqZAp">
+              <property role="TyiWK" value="false" />
+              <property role="TyiWL" value="true" />
+              <node concept="3clFbS" id="39Pheqm2Qw0" role="3clFbx">
+                <node concept="3clFbF" id="39Pheqm2RJt" role="3cqZAp">
+                  <node concept="2OqwBi" id="39Pheqm2RKC" role="3clFbG">
+                    <node concept="37vLTw" id="39Pheqm2RJr" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                    </node>
+                    <node concept="liA8E" id="39Pheqm2SrT" role="2OqNvi">
+                      <ref role="37wK5l" to="nwfd:~HttpSession.setAttribute(java.lang.String,java.lang.Object):void" resolve="setAttribute" />
+                      <node concept="Xl_RD" id="39Pheqm2St4" role="37wK5m">
+                        <property role="Xl_RC" value="Progressor" />
+                      </node>
+                      <node concept="37vLTw" id="39Pheqm2TcG" role="37wK5m">
+                        <ref role="3cqZAo" node="39Pheqm2B79" resolve="progressor" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="39Pheqm2RGU" role="3clFbw">
+                <node concept="10Nm6u" id="39Pheqm2RI1" role="3uHU7w" />
+                <node concept="37vLTw" id="39Pheqm2REw" role="3uHU7B">
+                  <ref role="3cqZAo" node="39Pheqm2B79" resolve="progressor" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="39Pheqm2XKQ" role="3cqZAp" />
+            <node concept="3clFbH" id="39Pheqm2YUX" role="3cqZAp" />
             <node concept="3SKdUt" id="r$jHpF7wlL" role="3cqZAp">
               <node concept="3SKdUq" id="r$jHpF7wlN" role="3SKWNk">
                 <property role="3SKdUp" value="maybe we can move that to a method called serveH2App()" />
