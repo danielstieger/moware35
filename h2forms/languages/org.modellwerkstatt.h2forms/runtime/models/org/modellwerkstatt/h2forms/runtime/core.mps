@@ -2222,7 +2222,7 @@
                           <ref role="3cqZAo" node="4Z0$komNfjl" resolve="msg" />
                         </node>
                         <node concept="Xl_RD" id="ed5ezHH5yv" role="37vLTx">
-                          <property role="Xl_RC" value=" $ BROWSERSTART " />
+                          <property role="Xl_RC" value=" $ BROWSERSTART $ " />
                         </node>
                       </node>
                     </node>
@@ -2250,7 +2250,7 @@
                             <ref role="3cqZAo" node="4Z0$komNfjl" resolve="msg" />
                           </node>
                           <node concept="Xl_RD" id="ed5ezHH8u7" role="37vLTx">
-                            <property role="Xl_RC" value=" $ RECONNECT " />
+                            <property role="Xl_RC" value=" $ RECONNECT $ " />
                           </node>
                         </node>
                       </node>
@@ -2258,7 +2258,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="ed5ezHH9V1" role="3cqZAp" />
                 <node concept="3clFbF" id="18nf27lPjIN" role="3cqZAp">
                   <node concept="2OqwBi" id="18nf27lPjK8" role="3clFbG">
                     <node concept="37vLTw" id="18nf27lPjIL" role="2Oq$k0">
@@ -2266,8 +2265,19 @@
                     </node>
                     <node concept="liA8E" id="18nf27lPkvA" role="2OqNvi">
                       <ref role="37wK5l" to="x37d:3CnNtH_0Dd6" resolve="logOnKafka" />
-                      <node concept="37vLTw" id="4Z0$komNgN3" role="37wK5m">
-                        <ref role="3cqZAo" node="4Z0$komNfjl" resolve="msg" />
+                      <node concept="3cpWs3" id="2JDNIBMSSwh" role="37wK5m">
+                        <node concept="1rXfSq" id="2JDNIBMSTcn" role="3uHU7w">
+                          <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
+                          <node concept="37vLTw" id="2JDNIBMSTUt" role="37wK5m">
+                            <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                          </node>
+                          <node concept="37vLTw" id="2JDNIBMSUCP" role="37wK5m">
+                            <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="4Z0$komNgN3" role="3uHU7B">
+                          <ref role="3cqZAo" node="4Z0$komNfjl" resolve="msg" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -2929,6 +2939,7 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="2TI_xjiuKRe" role="3cqZAp" />
                 </node>
               </node>
             </node>

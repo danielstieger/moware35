@@ -14755,6 +14755,72 @@
       </node>
       <node concept="3Tmbuc" id="zBgVaD9$HI" role="1B3o_S" />
       <node concept="3clFbS" id="2DwOiMAqSSE" role="3clF47">
+        <node concept="3clFbH" id="2JDNIBMQM2R" role="3cqZAp" />
+        <node concept="3clFbJ" id="2JDNIBMQWoa" role="3cqZAp">
+          <node concept="3clFbS" id="2JDNIBMQWoc" role="3clFbx">
+            <node concept="3clFbF" id="2JDNIBMR3$Z" role="3cqZAp">
+              <node concept="2OqwBi" id="2JDNIBMR3Au" role="3clFbG">
+                <node concept="37vLTw" id="2JDNIBMR3$X" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                </node>
+                <node concept="liA8E" id="2JDNIBMR3OW" role="2OqNvi">
+                  <ref role="37wK5l" node="6Au2sPCLqc4" resolve="logProblem" />
+                  <node concept="3cpWs3" id="2JDNIBMRkGh" role="37wK5m">
+                    <node concept="3cpWs3" id="2JDNIBMRj6i" role="3uHU7B">
+                      <node concept="3cpWs3" id="2JDNIBMRiTx" role="3uHU7B">
+                        <node concept="Xl_RD" id="2JDNIBMR3Xi" role="3uHU7B">
+                          <property role="Xl_RC" value="CommandContainer.fg_doConclusion() hash " />
+                        </node>
+                        <node concept="37vLTw" id="2JDNIBMRj1q" role="3uHU7w">
+                          <ref role="3cqZAo" node="2DwOiMArh9K" resolve="ccHash" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="2JDNIBMRjey" role="3uHU7w">
+                        <property role="Xl_RC" value=" but container already closed!! Ignoring ST: \n" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="2JDNIBMRLKW" role="3uHU7w">
+                      <node concept="2YIFZM" id="2JDNIBMR_se" role="2Oq$k0">
+                        <ref role="37wK5l" to="33ny:~Arrays.toString(java.lang.Object[]):java.lang.String" resolve="toString" />
+                        <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
+                        <node concept="2OqwBi" id="2JDNIBMRl0w" role="37wK5m">
+                          <node concept="2YIFZM" id="2JDNIBMRkXU" role="2Oq$k0">
+                            <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+                            <ref role="37wK5l" to="wyt6:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+                          </node>
+                          <node concept="liA8E" id="2JDNIBMRl9x" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Thread.getStackTrace():java.lang.StackTraceElement[]" resolve="getStackTrace" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2JDNIBMRM1X" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                        <node concept="Xl_RD" id="2JDNIBMRMbp" role="37wK5m">
+                          <property role="Xl_RC" value="," />
+                        </node>
+                        <node concept="Xl_RD" id="2JDNIBMRMlc" role="37wK5m">
+                          <property role="Xl_RC" value="\n" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="2JDNIBMRecR" role="3cqZAp">
+              <node concept="3SKdUq" id="2JDNIBMRecT" role="3SKWNk">
+                <property role="3SKdUp" value="ignore this call" />
+              </node>
+            </node>
+            <node concept="3cpWs6" id="2JDNIBMR4e0" role="3cqZAp">
+              <node concept="10Nm6u" id="2JDNIBMR7xf" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="37vLTw" id="2JDNIBMRliM" role="3clFbw">
+            <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="2JDNIBMQPD7" role="3cqZAp" />
         <node concept="3SKdUt" id="27BPRG5WWlc" role="3cqZAp">
           <node concept="3SKdUq" id="27BPRG5WWle" role="3SKWNk">
             <property role="3SKdUp" value="----------- handle esc ----" />
@@ -17118,7 +17184,23 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6n78R1XrMNt" role="3cqZAp" />
+        <node concept="3clFbF" id="2JDNIBMO8xY" role="3cqZAp">
+          <node concept="37vLTI" id="2JDNIBMO8RV" role="3clFbG">
+            <node concept="10Nm6u" id="2JDNIBMO90o" role="37vLTx" />
+            <node concept="37vLTw" id="2JDNIBMO8xW" role="37vLTJ">
+              <ref role="3cqZAo" node="4mX9Xggw9s3" resolve="currentConclusions" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2JDNIBMO9xj" role="3cqZAp">
+          <node concept="37vLTI" id="2JDNIBMO9WP" role="3clFbG">
+            <node concept="10Nm6u" id="2JDNIBMOa5i" role="37vLTx" />
+            <node concept="37vLTw" id="2JDNIBMO9xh" role="37vLTJ">
+              <ref role="3cqZAo" node="4mX9Xggw2_w" resolve="currentConclusionInfos" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2JDNIBMO8fb" role="3cqZAp" />
         <node concept="3SKdUt" id="6Au2sPCLp1F" role="3cqZAp">
           <node concept="3SKdUq" id="6Au2sPCLp1H" role="3SKWNk">
             <property role="3SKdUp" value="Do NOT SET applicationController to null in order to always allow for monitorting" />
@@ -24426,12 +24508,50 @@
               </node>
             </node>
             <node concept="3clFbS" id="30SScokx5aa" role="TDEfX">
+              <node concept="3cpWs8" id="2JDNIBMOtal" role="3cqZAp">
+                <node concept="3cpWsn" id="2JDNIBMOtam" role="3cpWs9">
+                  <property role="TrG5h" value="eventInfo" />
+                  <node concept="17QB3L" id="2JDNIBMOtan" role="1tU5fm" />
+                  <node concept="3cpWs3" id="2JDNIBMOtao" role="33vP2m">
+                    <node concept="Xl_RD" id="2JDNIBMOtap" role="3uHU7w">
+                      <property role="Xl_RC" value="]" />
+                    </node>
+                    <node concept="3cpWs3" id="2JDNIBMOtaq" role="3uHU7B">
+                      <node concept="Xl_RD" id="2JDNIBMOtar" role="3uHU7B">
+                        <property role="Xl_RC" value="EventCommandContainer background [" />
+                      </node>
+                      <node concept="37vLTw" id="2JDNIBMOtas" role="3uHU7w">
+                        <ref role="3cqZAo" node="2o7h3aE1OI1" resolve="ev" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs8" id="2JDNIBMOrKI" role="3cqZAp">
+                <node concept="3cpWsn" id="2JDNIBMOrKJ" role="3cpWs9">
+                  <property role="TrG5h" value="converted" />
+                  <node concept="3uibUv" id="2JDNIBMOrKK" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+                  </node>
+                  <node concept="2ShNRf" id="2JDNIBMOsAo" role="33vP2m">
+                    <node concept="1pGfFk" id="2JDNIBMOsAg" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                      <node concept="37vLTw" id="2JDNIBMOu1m" role="37wK5m">
+                        <ref role="3cqZAo" node="2JDNIBMOtam" resolve="eventInfo" />
+                      </node>
+                      <node concept="37vLTw" id="2JDNIBMOw3G" role="37wK5m">
+                        <ref role="3cqZAo" node="30SScokx5a6" resolve="ex" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3cpWs6" id="30SScokx8r$" role="3cqZAp">
                 <node concept="2ShNRf" id="30SScokx8Nz" role="3cqZAk">
                   <node concept="1pGfFk" id="30SScokx9CY" role="2ShVmc">
                     <ref role="37wK5l" node="SQhsWRTq7b" resolve="InfoEvent" />
-                    <node concept="37vLTw" id="30SScokxaI7" role="37wK5m">
-                      <ref role="3cqZAo" node="30SScokx5a6" resolve="ex" />
+                    <node concept="37vLTw" id="2JDNIBMOvei" role="37wK5m">
+                      <ref role="3cqZAo" node="2JDNIBMOrKJ" resolve="converted" />
                     </node>
                   </node>
                 </node>
@@ -24645,6 +24765,25 @@
                   </node>
                 </node>
               </node>
+              <node concept="3cpWs8" id="2JDNIBMOmp0" role="3cqZAp">
+                <node concept="3cpWsn" id="2JDNIBMOmp1" role="3cpWs9">
+                  <property role="TrG5h" value="eventInfo" />
+                  <node concept="17QB3L" id="2JDNIBMOmp2" role="1tU5fm" />
+                  <node concept="3cpWs3" id="2JDNIBMOmp3" role="33vP2m">
+                    <node concept="Xl_RD" id="2JDNIBMOmp4" role="3uHU7w">
+                      <property role="Xl_RC" value="]" />
+                    </node>
+                    <node concept="3cpWs3" id="2JDNIBMOmp7" role="3uHU7B">
+                      <node concept="Xl_RD" id="2JDNIBMOmp8" role="3uHU7B">
+                        <property role="Xl_RC" value="EventCommandContainer stateless [" />
+                      </node>
+                      <node concept="37vLTw" id="2JDNIBMOmp9" role="3uHU7w">
+                        <ref role="3cqZAo" node="zBgVaD62Fb" resolve="ev" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="5Ld38uC_A4h" role="3cqZAp">
                 <node concept="2OqwBi" id="5Ld38uC_A4i" role="3clFbG">
                   <node concept="37vLTw" id="5Ld38uC_A4j" role="2Oq$k0">
@@ -24652,8 +24791,8 @@
                   </node>
                   <node concept="liA8E" id="5Ld38uC_A4k" role="2OqNvi">
                     <ref role="37wK5l" node="938$CrOoQ_" resolve="showException" />
-                    <node concept="Xl_RD" id="5Ld38uC_A4l" role="37wK5m">
-                      <property role="Xl_RC" value="EventCmdContainer" />
+                    <node concept="37vLTw" id="2JDNIBMOnJw" role="37wK5m">
+                      <ref role="3cqZAo" node="2JDNIBMOmp1" resolve="eventInfo" />
                     </node>
                     <node concept="37vLTw" id="5Ld38uC_A4m" role="37wK5m">
                       <ref role="3cqZAo" node="5Ld38uC__sK" resolve="t" />
@@ -25809,6 +25948,35 @@
                   </node>
                 </node>
               </node>
+              <node concept="3cpWs8" id="2JDNIBMOj8k" role="3cqZAp">
+                <node concept="3cpWsn" id="2JDNIBMOj8n" role="3cpWs9">
+                  <property role="TrG5h" value="eventInfo" />
+                  <node concept="17QB3L" id="2JDNIBMOj8i" role="1tU5fm" />
+                  <node concept="3cpWs3" id="2JDNIBMOknB" role="33vP2m">
+                    <node concept="Xl_RD" id="2JDNIBMOkpk" role="3uHU7w">
+                      <property role="Xl_RC" value="]" />
+                    </node>
+                    <node concept="3cpWs3" id="2JDNIBMOjVL" role="3uHU7B">
+                      <node concept="3cpWs3" id="2JDNIBMOjsO" role="3uHU7B">
+                        <node concept="3cpWs3" id="2JDNIBMOjct" role="3uHU7B">
+                          <node concept="Xl_RD" id="2JDNIBMOjbd" role="3uHU7B">
+                            <property role="Xl_RC" value="EventCommandContainer statefull [" />
+                          </node>
+                          <node concept="37vLTw" id="2JDNIBMOjdY" role="3uHU7w">
+                            <ref role="3cqZAo" node="zBgVaD62Fb" resolve="ev" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="2JDNIBMOju6" role="3uHU7w">
+                          <property role="Xl_RC" value=" / " />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="2JDNIBMOkai" role="3uHU7w">
+                        <ref role="3cqZAo" node="2o7h3aE2bEW" resolve="resultEvent" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="2o7h3aE0SzR" role="3cqZAp">
                 <node concept="2OqwBi" id="2o7h3aE0S_O" role="3clFbG">
                   <node concept="37vLTw" id="2o7h3aE0SzP" role="2Oq$k0">
@@ -25816,8 +25984,8 @@
                   </node>
                   <node concept="liA8E" id="2o7h3aE0SCZ" role="2OqNvi">
                     <ref role="37wK5l" node="938$CrOoQ_" resolve="showException" />
-                    <node concept="Xl_RD" id="2ppo89mi_ZM" role="37wK5m">
-                      <property role="Xl_RC" value="EventCmdContainer" />
+                    <node concept="37vLTw" id="2JDNIBMOlWe" role="37wK5m">
+                      <ref role="3cqZAo" node="2JDNIBMOj8n" resolve="eventInfo" />
                     </node>
                     <node concept="37vLTw" id="2o7h3aE0SRF" role="37wK5m">
                       <ref role="3cqZAo" node="2o7h3aE0Mov" resolve="t" />
@@ -29792,6 +29960,13 @@
         <node concept="3cqZAl" id="39T4LQUxPbq" role="3clF45" />
         <node concept="3Tm1VV" id="39T4LQUxPbr" role="1B3o_S" />
         <node concept="3clFbS" id="39T4LQUxPbs" role="3clF47" />
+      </node>
+      <node concept="3clFb_" id="3Ojm3Uuz3rz" role="jymVt">
+        <property role="1EzhhJ" value="true" />
+        <property role="TrG5h" value="isRequestFocus" />
+        <node concept="10P_77" id="3Ojm3Uuz3tN" role="3clF45" />
+        <node concept="3Tm1VV" id="3Ojm3Uuz3rA" role="1B3o_S" />
+        <node concept="3clFbS" id="3Ojm3Uuz3rB" role="3clF47" />
       </node>
       <node concept="3clFb_" id="5QUXFIhRGkF" role="jymVt">
         <property role="1EzhhJ" value="true" />

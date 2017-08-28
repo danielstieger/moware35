@@ -10,10 +10,10 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
-    <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
     <import index="yg8v" ref="r:a234e2a6-79ed-4dbb-853b-82b721352f15(org.modellwerkstatt.dataux.runtime.genspecifications)" />
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
+    <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -202,8 +202,8 @@
       <property role="TrG5h" value="addDelegate" />
       <node concept="37vLTG" id="3bZh4Q5wD_n" role="3clF46">
         <property role="TrG5h" value="delegate" />
-        <node concept="3uibUv" id="5Y1b9tRerNk" role="1tU5fm">
-          <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
+        <node concept="3uibUv" id="7HGubScBRR4" role="1tU5fm">
+          <ref role="3uigEE" to="zhcn:52pTiJH2KgF" resolve="IDataUxDelegate" />
         </node>
       </node>
       <node concept="3cqZAl" id="3bZh4Q5wwZK" role="3clF45" />
@@ -484,8 +484,8 @@
       <property role="TrG5h" value="setDelegate" />
       <node concept="37vLTG" id="5Y1b9tR271e" role="3clF46">
         <property role="TrG5h" value="dlgt" />
-        <node concept="3uibUv" id="5Y1b9tR272h" role="1tU5fm">
-          <ref role="3uigEE" to="5wm0:5Y1b9tQY3zB" resolve="Delegate" />
+        <node concept="3uibUv" id="7HGubScBU4o" role="1tU5fm">
+          <ref role="3uigEE" to="zhcn:52pTiJH2KgF" resolve="IDataUxDelegate" />
         </node>
       </node>
       <node concept="3cqZAl" id="5Y1b9tR25O3" role="3clF45" />
@@ -944,7 +944,7 @@
       <node concept="37vLTG" id="yYLpwAhMeE" role="3clF46">
         <property role="TrG5h" value="converter" />
         <node concept="3uibUv" id="yYLpwAhMkG" role="1tU5fm">
-          <ref role="3uigEE" to="5wm0:3PmCowOXue4" resolve="ITableCellStringConverter" />
+          <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
         </node>
       </node>
       <node concept="3cqZAl" id="yYLpwAhLvy" role="3clF45" />
@@ -965,7 +965,7 @@
       <node concept="37vLTG" id="1kThbup1HGs" role="3clF46">
         <property role="TrG5h" value="converter" />
         <node concept="3uibUv" id="1KgqQuB_mrZ" role="1tU5fm">
-          <ref role="3uigEE" to="5wm0:3PmCowOXue4" resolve="ITableCellStringConverter" />
+          <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
         </node>
       </node>
       <node concept="37vLTG" id="1kThbup1HGv" role="3clF46">

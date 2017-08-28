@@ -231,7 +231,6 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
-      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="1221737317277" name="jetbrains.mps.baseLanguage.structure.StaticInitializer" flags="lg" index="1Pe0a1">
         <child id="1221737317278" name="statementList" index="1Pe0a2" />
       </concept>
@@ -4967,9 +4966,6 @@
         <ref role="16sUi3" node="5Y1b9tQYkEs" resolve="T" />
       </node>
     </node>
-    <node concept="3uibUv" id="39T4LQUyJSt" role="EKbjA">
-      <ref role="3uigEE" to="1e0c:39T4LQUxLAj" resolve="IUpdateConclusionResolver.IFocusReceiver" />
-    </node>
   </node>
   <node concept="312cEu" id="5Y1b9tR2t4q">
     <property role="TrG5h" value="IntegerDelegate" />
@@ -8231,7 +8227,7 @@
     <property role="TrG5h" value="TableCellSimpleConverter" />
     <node concept="3Tm1VV" id="3PmCowOXHc5" role="1B3o_S" />
     <node concept="3uibUv" id="1KgqQuBB3F6" role="EKbjA">
-      <ref role="3uigEE" node="3PmCowOXue4" resolve="ITableCellStringConverter" />
+      <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
       <node concept="3uibUv" id="7fo5K04WXE9" role="11_B2D">
         <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
       </node>
@@ -8519,7 +8515,7 @@
     <node concept="2tJIrI" id="3hDHYkqHPU0" role="jymVt" />
     <node concept="3Tm1VV" id="3PmCowOXudZ" role="1B3o_S" />
     <node concept="3uibUv" id="1KgqQuBB1vg" role="EKbjA">
-      <ref role="3uigEE" node="3PmCowOXue4" resolve="ITableCellStringConverter" />
+      <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
       <node concept="3uibUv" id="7fo5K04WX$U" role="11_B2D">
         <ref role="3uigEE" to="xlxw:~BigDecimal" resolve="BigDecimal" />
       </node>
@@ -8978,7 +8974,7 @@
     <property role="TrG5h" value="TableCellStatusConverter" />
     <node concept="3Tm1VV" id="3PmCowOXzp5" role="1B3o_S" />
     <node concept="3uibUv" id="1KgqQuBB4_m" role="EKbjA">
-      <ref role="3uigEE" node="3PmCowOXue4" resolve="ITableCellStringConverter" />
+      <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
       <node concept="17QB3L" id="7fo5K04VOjJ" role="11_B2D" />
     </node>
     <node concept="312cEg" id="3ZIWrQguY97" role="jymVt">
@@ -9651,65 +9647,11 @@
       </node>
     </node>
   </node>
-  <node concept="3HP615" id="3PmCowOXue4">
-    <property role="TrG5h" value="ITableCellStringConverter" />
-    <node concept="3Tm1VV" id="3PmCowOXue5" role="1B3o_S" />
-    <node concept="3clFb_" id="3PmCowOXue6" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="convert" />
-      <node concept="37vLTG" id="3PmCowOXvsO" role="3clF46">
-        <property role="TrG5h" value="obj" />
-        <node concept="16syzq" id="7fo5K04UYCh" role="1tU5fm">
-          <ref role="16sUi3" node="7fo5K04UYC1" resolve="T" />
-        </node>
-      </node>
-      <node concept="17QB3L" id="3PmCowOXvsN" role="3clF45" />
-      <node concept="3Tm1VV" id="3PmCowOXue8" role="1B3o_S" />
-      <node concept="3clFbS" id="3PmCowOXue9" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="1oA5m_ZtoBS" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="isRightAligned" />
-      <node concept="10P_77" id="1oA5m_ZtoBW" role="3clF45" />
-      <node concept="3Tm1VV" id="1oA5m_ZtoBU" role="1B3o_S" />
-      <node concept="3clFbS" id="1oA5m_ZtoBV" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="ao4XGT7pQe" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getBgColor" />
-      <node concept="37vLTG" id="ao4XGT7C_U" role="3clF46">
-        <property role="TrG5h" value="obj" />
-        <node concept="16syzq" id="ao4XGT7CCe" role="1tU5fm">
-          <ref role="16sUi3" node="7fo5K04UYC1" resolve="T" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="ao4XGT7pQh" role="3clF47" />
-      <node concept="3Tm1VV" id="ao4XGT7pQi" role="1B3o_S" />
-      <node concept="17QB3L" id="ao4XGT7pPs" role="3clF45" />
-    </node>
-    <node concept="3clFb_" id="7fo5K04UYDH" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="convertBack" />
-      <node concept="37vLTG" id="7fo5K04UZWw" role="3clF46">
-        <property role="TrG5h" value="s" />
-        <node concept="17QB3L" id="7fo5K04UZWF" role="1tU5fm" />
-      </node>
-      <node concept="16syzq" id="7fo5K04UZW1" role="3clF45">
-        <ref role="16sUi3" node="7fo5K04UYC1" resolve="T" />
-      </node>
-      <node concept="3Tm1VV" id="7fo5K04UYDK" role="1B3o_S" />
-      <node concept="3clFbS" id="7fo5K04UYDL" role="3clF47" />
-    </node>
-    <node concept="16euLQ" id="7fo5K04UYC1" role="16eVyc">
-      <property role="TrG5h" value="T" />
-    </node>
-  </node>
   <node concept="312cEu" id="7fo5K05sHS0">
     <property role="TrG5h" value="TableCellIntegerConverter" />
     <node concept="3Tm1VV" id="7fo5K05sHS1" role="1B3o_S" />
     <node concept="3uibUv" id="7fo5K05sHS2" role="EKbjA">
-      <ref role="3uigEE" node="3PmCowOXue4" resolve="ITableCellStringConverter" />
+      <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
       <node concept="3uibUv" id="7fo5K05sI8A" role="11_B2D">
         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
       </node>
@@ -10016,7 +9958,7 @@
     <property role="TrG5h" value="TableCellDateTimeConverter" />
     <node concept="3Tm1VV" id="3PmCowOXxcV" role="1B3o_S" />
     <node concept="3uibUv" id="1KgqQuBB2Xr" role="EKbjA">
-      <ref role="3uigEE" node="3PmCowOXue4" resolve="ITableCellStringConverter" />
+      <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
       <node concept="3uibUv" id="7fo5K04WXCi" role="11_B2D">
         <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
       </node>

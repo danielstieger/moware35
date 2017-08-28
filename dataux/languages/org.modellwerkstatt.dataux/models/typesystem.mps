@@ -2702,20 +2702,32 @@
       <node concept="3clFbH" id="653Wpvyg$zD" role="3cqZAp" />
       <node concept="3clFbJ" id="653Wpvyg$zE" role="3cqZAp">
         <node concept="3clFbS" id="653Wpvyg$zF" role="3clFbx">
-          <node concept="3clFbF" id="653Wpvyg$zG" role="3cqZAp">
-            <node concept="2OqwBi" id="653Wpvyg$zH" role="3clFbG">
-              <node concept="2OqwBi" id="653Wpvyg$zI" role="2Oq$k0">
-                <node concept="2OqwBi" id="653Wpvyg$zJ" role="2Oq$k0">
-                  <node concept="1YBJjd" id="653Wpvyh6TX" role="2Oq$k0">
+          <node concept="3cpWs8" id="7HGubScAjDv" role="3cqZAp">
+            <node concept="3cpWsn" id="7HGubScAjDy" role="3cpWs9">
+              <property role="TrG5h" value="implementedInterfaces" />
+              <node concept="2I9FWS" id="7HGubScAjK9" role="1tU5fm">
+                <ref role="2I9WkF" to="tpee:g7uibYu" resolve="ClassifierType" />
+              </node>
+              <node concept="2OqwBi" id="7HGubScB4ES" role="33vP2m">
+                <node concept="2OqwBi" id="7HGubScB3ZS" role="2Oq$k0">
+                  <node concept="1YBJjd" id="7HGubScB3RQ" role="2Oq$k0">
                     <ref role="1YBMHb" node="653Wpvyh6AX" resolve="customElement" />
                   </node>
-                  <node concept="3TrEf2" id="653Wpvyg_kN" role="2OqNvi">
+                  <node concept="3TrEf2" id="7HGubScB4lt" role="2OqNvi">
                     <ref role="3Tt5mk" to="1btx:653WpvyfcaS" />
                   </node>
                 </node>
-                <node concept="3Tsc0h" id="653Wpvyg$zM" role="2OqNvi">
+                <node concept="3Tsc0h" id="7HGubScB5cF" role="2OqNvi">
                   <ref role="3TtcxE" to="tpee:fWEKbgp" />
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="7HGubScAjL8" role="3cqZAp" />
+          <node concept="3clFbF" id="653Wpvyg$zG" role="3cqZAp">
+            <node concept="2OqwBi" id="653Wpvyg$zH" role="3clFbG">
+              <node concept="37vLTw" id="7HGubScAk5L" role="2Oq$k0">
+                <ref role="3cqZAo" node="7HGubScAjDy" resolve="implementedInterfaces" />
               </node>
               <node concept="2es0OD" id="653Wpvyg$zN" role="2OqNvi">
                 <node concept="1bVj0M" id="653Wpvyg$zO" role="23t8la">
