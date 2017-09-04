@@ -45,6 +45,7 @@
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
+    <import index="n70c" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.collections.transformation(org.modellwerkstatt.fx8forms/)" />
     <import index="cpcw" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.beans.binding(org.modellwerkstatt.fx8forms/)" implicit="true" />
   </imports>
   <registry>
@@ -17696,9 +17697,7 @@
                           <node concept="3cpWs8" id="1yQJrOWygJt" role="3cqZAp">
                             <node concept="3cpWsn" id="1yQJrOWygJw" role="3cpWs9">
                               <property role="TrG5h" value="last" />
-                              <node concept="3uibUv" id="5Ld38uCDOZ0" role="1tU5fm">
-                                <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-                              </node>
+                              <node concept="10Oyi0" id="6$YiAc10YkC" role="1tU5fm" />
                               <node concept="3cmrfG" id="1yQJrOWyhwO" role="33vP2m">
                                 <property role="3cmrfH" value="-4711" />
                               </node>
@@ -17724,216 +17723,202 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3SKdUt" id="5Ld38uCDzSd" role="3cqZAp">
-                            <node concept="3SKdUq" id="5Ld38uCDzSf" role="3SKWNk">
-                              <property role="3SKdUp" value="FX bug with sort on ObserveableList" />
-                            </node>
-                          </node>
-                          <node concept="3cpWs8" id="5Ld38uCDLLd" role="3cqZAp">
-                            <node concept="3cpWsn" id="5Ld38uCDLLe" role="3cpWs9">
-                              <property role="TrG5h" value="selecteList" />
-                              <node concept="3uibUv" id="5Ld38uCDLLf" role="1tU5fm">
-                                <ref role="3uigEE" to="os9n:~ObservableList" resolve="ObservableList" />
-                                <node concept="3uibUv" id="5Ld38uCEr7p" role="11_B2D">
-                                  <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+                          <node concept="3clFbH" id="6$YiAc0XPSM" role="3cqZAp" />
+                          <node concept="3cpWs8" id="6$YiAc10Ov5" role="3cqZAp">
+                            <node concept="3cpWsn" id="6$YiAc10Ov6" role="3cpWs9">
+                              <property role="TrG5h" value="selectedElements" />
+                              <node concept="10Q1$e" id="6$YiAc10Ov7" role="1tU5fm">
+                                <node concept="3uibUv" id="6$YiAc10Ov8" role="10Q1$1">
+                                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                                 </node>
                               </node>
-                              <node concept="2OqwBi" id="1yQJrOWykAH" role="33vP2m">
-                                <node concept="2OqwBi" id="1yQJrOWyiKL" role="2Oq$k0">
-                                  <node concept="37vLTw" id="1yQJrOWyiI6" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                              <node concept="2OqwBi" id="6$YiAc10QfW" role="33vP2m">
+                                <node concept="2OqwBi" id="6$YiAc10PSS" role="2Oq$k0">
+                                  <node concept="37vLTw" id="6$YiAc10PGk" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="1e8699aCJkN" resolve="change" />
                                   </node>
-                                  <node concept="liA8E" id="1yQJrOWyklI" role="2OqNvi">
-                                    <ref role="37wK5l" to="rb41:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
+                                  <node concept="liA8E" id="6$YiAc10Q25" role="2OqNvi">
+                                    <ref role="37wK5l" to="os9n:~ListChangeListener$Change.getList():javafx.collections.ObservableList" resolve="getList" />
                                   </node>
                                 </node>
-                                <node concept="liA8E" id="1yQJrOWylwa" role="2OqNvi">
-                                  <ref role="37wK5l" to="rb41:~MultipleSelectionModelBase.getSelectedIndices():javafx.collections.ObservableList" resolve="getSelectedIndices" />
+                                <node concept="liA8E" id="6$YiAc10Qvg" role="2OqNvi">
+                                  <ref role="37wK5l" to="33ny:~List.toArray():java.lang.Object[]" resolve="toArray" />
                                 </node>
                               </node>
                             </node>
                           </node>
-                          <node concept="3cpWs8" id="5Ld38uCCxil" role="3cqZAp">
-                            <node concept="3cpWsn" id="5Ld38uCCxim" role="3cpWs9">
-                              <property role="TrG5h" value="selectedArray" />
-                              <node concept="10Q1$e" id="5Ld38uCDaSe" role="1tU5fm">
-                                <node concept="3uibUv" id="5Ld38uCDIvs" role="10Q1$1">
-                                  <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+                          <node concept="3clFbF" id="6$YiAc10Rpq" role="3cqZAp">
+                            <node concept="2YIFZM" id="6$YiAc10S6m" role="3clFbG">
+                              <ref role="37wK5l" to="33ny:~Arrays.sort(java.lang.Object[]):void" resolve="sort" />
+                              <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
+                              <node concept="37vLTw" id="6$YiAc10Sub" role="37wK5m">
+                                <ref role="3cqZAo" node="6$YiAc10Ov6" resolve="selectedElements" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="1DcWWT" id="6$YiAc0XQcb" role="3cqZAp">
+                            <node concept="3clFbS" id="6$YiAc0XQcc" role="2LFqv$">
+                              <node concept="3SKdUt" id="938$Cs2Kyt" role="3cqZAp">
+                                <node concept="3SKdUq" id="938$Cs2Kyv" role="3SKWNk">
+                                  <property role="3SKdUp" value="known fx bug - selection problem on first init?" />
                                 </node>
                               </node>
-                              <node concept="2OqwBi" id="5Ld38uCD8Kp" role="33vP2m">
-                                <node concept="liA8E" id="5Ld38uCD9zU" role="2OqNvi">
-                                  <ref role="37wK5l" to="33ny:~List.toArray(java.lang.Object[]):java.lang.Object[]" resolve="toArray" />
-                                  <node concept="2ShNRf" id="5Ld38uCDJdB" role="37wK5m">
-                                    <node concept="3$_iS1" id="5Ld38uCDKcg" role="2ShVmc">
-                                      <node concept="3$GHV9" id="5Ld38uCDKci" role="3$GQph">
-                                        <node concept="2OqwBi" id="5Ld38uCDOcG" role="3$I4v7">
-                                          <node concept="37vLTw" id="5Ld38uCDNWX" role="2Oq$k0">
-                                            <ref role="3cqZAo" node="5Ld38uCDLLe" resolve="selecteList" />
+                              <node concept="3cpWs8" id="6$YiAc10WZ5" role="3cqZAp">
+                                <node concept="3cpWsn" id="6$YiAc10WZ6" role="3cpWs9">
+                                  <property role="TrG5h" value="i" />
+                                  <node concept="10Oyi0" id="6$YiAc10Y3C" role="1tU5fm" />
+                                  <node concept="1eOMI4" id="6$YiAc10Xgb" role="33vP2m">
+                                    <node concept="10QFUN" id="6$YiAc10Xg8" role="1eOMHV">
+                                      <node concept="10Oyi0" id="6$YiAc10Ybo" role="10QFUM" />
+                                      <node concept="37vLTw" id="6$YiAc10XIo" role="10QFUP">
+                                        <ref role="3cqZAo" node="6$YiAc0XQcr" resolve="theIntObject" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbJ" id="1yQJrOWyn1b" role="3cqZAp">
+                                <node concept="3clFbS" id="1yQJrOWyn1d" role="3clFbx">
+                                  <node concept="3N13vt" id="1yQJrOWynBO" role="3cqZAp" />
+                                </node>
+                                <node concept="3clFbC" id="1yQJrOWynfW" role="3clFbw">
+                                  <node concept="37vLTw" id="1yQJrOWynrK" role="3uHU7w">
+                                    <ref role="3cqZAo" node="1yQJrOWygJw" resolve="last" />
+                                  </node>
+                                  <node concept="37vLTw" id="6$YiAc10Y1a" role="3uHU7B">
+                                    <ref role="3cqZAo" node="6$YiAc10WZ6" resolve="i" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbH" id="6$YiAc11saV" role="3cqZAp" />
+                              <node concept="3clFbJ" id="2JDNIBMNfdy" role="3cqZAp">
+                                <node concept="3clFbS" id="2JDNIBMNfd$" role="3clFbx">
+                                  <node concept="3cpWs8" id="2JDNIBMNjTm" role="3cqZAp">
+                                    <node concept="3cpWsn" id="2JDNIBMNjTp" role="3cpWs9">
+                                      <property role="TrG5h" value="info" />
+                                      <node concept="17QB3L" id="2JDNIBMNjTk" role="1tU5fm" />
+                                      <node concept="3cpWs3" id="2JDNIBMNlv2" role="33vP2m">
+                                        <node concept="3cpWs3" id="2JDNIBMNkLd" role="3uHU7B">
+                                          <node concept="3cpWs3" id="2JDNIBMNk8K" role="3uHU7B">
+                                            <node concept="Xl_RD" id="2JDNIBMNk74" role="3uHU7B">
+                                              <property role="Xl_RC" value=" sorted selectedElements: " />
+                                            </node>
+                                            <node concept="2YIFZM" id="6$YiAc112Xi" role="3uHU7w">
+                                              <ref role="37wK5l" to="33ny:~Arrays.toString(java.lang.Object[]):java.lang.String" resolve="toString" />
+                                              <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
+                                              <node concept="37vLTw" id="6$YiAc113oU" role="37wK5m">
+                                                <ref role="3cqZAo" node="6$YiAc10Ov6" resolve="selectedElements" />
+                                              </node>
+                                            </node>
                                           </node>
-                                          <node concept="liA8E" id="5Ld38uCDOlH" role="2OqNvi">
-                                            <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                                          <node concept="Xl_RD" id="2JDNIBMNlck" role="3uHU7w">
+                                            <property role="Xl_RC" value=" change.getList(): " />
                                           </node>
                                         </node>
-                                      </node>
-                                      <node concept="3uibUv" id="5Ld38uCDJJD" role="3$_nBY">
-                                        <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                                <node concept="37vLTw" id="5Ld38uCDNsx" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="5Ld38uCDLLe" resolve="selecteList" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3clFbF" id="5Ld38uCDc3b" role="3cqZAp">
-                            <node concept="2YIFZM" id="5Ld38uCDcp0" role="3clFbG">
-                              <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
-                              <ref role="37wK5l" to="33ny:~Arrays.sort(java.lang.Object[]):void" resolve="sort" />
-                              <node concept="37vLTw" id="5Ld38uCDcSJ" role="37wK5m">
-                                <ref role="3cqZAo" node="5Ld38uCCxim" resolve="selectedArray" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3clFbH" id="5Ld38uCDd1L" role="3cqZAp" />
-                          <node concept="1DcWWT" id="1yQJrOWyi4w" role="3cqZAp">
-                            <node concept="3clFbS" id="1yQJrOWyi4y" role="2LFqv$">
-                              <node concept="3clFbJ" id="22vzBhG_YrG" role="3cqZAp">
-                                <node concept="3clFbS" id="22vzBhG_YrI" role="3clFbx">
-                                  <node concept="3SKdUt" id="22vzBhGA0lK" role="3cqZAp">
-                                    <node concept="3SKdUq" id="22vzBhGA0lM" role="3SKWNk">
-                                      <property role="3SKdUp" value="-1 selection fx bug" />
-                                    </node>
-                                  </node>
-                                  <node concept="3clFbF" id="22vzBhG$dO9" role="3cqZAp">
-                                    <node concept="2OqwBi" id="22vzBhG$e86" role="3clFbG">
-                                      <node concept="37vLTw" id="22vzBhG$dO7" role="2Oq$k0">
-                                        <ref role="3cqZAo" node="1e8699aCJl4" resolve="selectedItems" />
-                                      </node>
-                                      <node concept="liA8E" id="22vzBhG$egr" role="2OqNvi">
-                                        <ref role="37wK5l" to="33ny:~List.clear():void" resolve="clear" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                  <node concept="3clFbF" id="22vzBhG_G6z" role="3cqZAp">
-                                    <node concept="2YIFZM" id="22vzBhG_G8E" role="3clFbG">
-                                      <ref role="37wK5l" to="ahg6:~Platform.runLater(java.lang.Runnable):void" resolve="runLater" />
-                                      <ref role="1Pybhc" to="ahg6:~Platform" resolve="Platform" />
-                                      <node concept="2ShNRf" id="22vzBhG_Gke" role="37wK5m">
-                                        <node concept="YeOm9" id="22vzBhG_I3E" role="2ShVmc">
-                                          <node concept="1Y3b0j" id="22vzBhG_I3H" role="YeSDq">
-                                            <property role="2bfB8j" value="true" />
-                                            <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-                                            <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
-                                            <node concept="3Tm1VV" id="22vzBhG_I3I" role="1B3o_S" />
-                                            <node concept="3clFb_" id="22vzBhG_I3J" role="jymVt">
-                                              <property role="1EzhhJ" value="false" />
-                                              <property role="TrG5h" value="run" />
-                                              <property role="DiZV1" value="false" />
-                                              <property role="od$2w" value="false" />
-                                              <node concept="3Tm1VV" id="22vzBhG_I3K" role="1B3o_S" />
-                                              <node concept="3cqZAl" id="22vzBhG_I3M" role="3clF45" />
-                                              <node concept="3clFbS" id="22vzBhG_I3N" role="3clF47">
-                                                <node concept="3clFbF" id="22vzBhG_IGk" role="3cqZAp">
-                                                  <node concept="2OqwBi" id="22vzBhG_K3s" role="3clFbG">
-                                                    <node concept="2OqwBi" id="22vzBhG_II1" role="2Oq$k0">
-                                                      <node concept="37vLTw" id="22vzBhG_IGj" role="2Oq$k0">
-                                                        <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
-                                                      </node>
-                                                      <node concept="liA8E" id="22vzBhG_JO8" role="2OqNvi">
-                                                        <ref role="37wK5l" to="rb41:~TableView.getSelectionModel():javafx.scene.control.TableView$TableViewSelectionModel" resolve="getSelectionModel" />
-                                                      </node>
-                                                    </node>
-                                                    <node concept="liA8E" id="22vzBhG_KWx" role="2OqNvi">
-                                                      <ref role="37wK5l" to="rb41:~MultipleSelectionModelBase.clearSelection():void" resolve="clearSelection" />
-                                                    </node>
-                                                  </node>
-                                                </node>
+                                        <node concept="2YIFZM" id="6$YiAc114FO" role="3uHU7w">
+                                          <ref role="37wK5l" to="33ny:~Arrays.toString(java.lang.Object[]):java.lang.String" resolve="toString" />
+                                          <ref role="1Pybhc" to="33ny:~Arrays" resolve="Arrays" />
+                                          <node concept="2OqwBi" id="6$YiAc111Zd" role="37wK5m">
+                                            <node concept="2OqwBi" id="6$YiAc111FX" role="2Oq$k0">
+                                              <node concept="37vLTw" id="6$YiAc111to" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="1e8699aCJkN" resolve="change" />
                                               </node>
+                                              <node concept="liA8E" id="6$YiAc111R3" role="2OqNvi">
+                                                <ref role="37wK5l" to="os9n:~ListChangeListener$Change.getList():javafx.collections.ObservableList" resolve="getList" />
+                                              </node>
+                                            </node>
+                                            <node concept="liA8E" id="6$YiAc113LA" role="2OqNvi">
+                                              <ref role="37wK5l" to="33ny:~List.toArray():java.lang.Object[]" resolve="toArray" />
                                             </node>
                                           </node>
                                         </node>
                                       </node>
                                     </node>
                                   </node>
-                                  <node concept="3zACq4" id="22vzBhG$eE5" role="3cqZAp" />
-                                  <node concept="3clFbH" id="22vzBhG_YrH" role="3cqZAp" />
-                                </node>
-                                <node concept="3clFbC" id="22vzBhG_YKT" role="3clFbw">
-                                  <node concept="3cmrfG" id="22vzBhG_YWA" role="3uHU7w">
-                                    <property role="3cmrfH" value="-1" />
-                                  </node>
-                                  <node concept="37vLTw" id="22vzBhG_YHO" role="3uHU7B">
-                                    <ref role="3cqZAo" node="1yQJrOWyi4z" resolve="i" />
-                                  </node>
-                                </node>
-                                <node concept="3eNFk2" id="22vzBhGA0ra" role="3eNLev">
-                                  <node concept="3clFbC" id="22vzBhGA0HK" role="3eO9$A">
-                                    <node concept="37vLTw" id="22vzBhGA0Tc" role="3uHU7w">
-                                      <ref role="3cqZAo" node="1yQJrOWygJw" resolve="last" />
-                                    </node>
-                                    <node concept="37vLTw" id="22vzBhGA0EF" role="3uHU7B">
-                                      <ref role="3cqZAo" node="1yQJrOWyi4z" resolve="i" />
-                                    </node>
-                                  </node>
-                                  <node concept="3clFbS" id="22vzBhGA0rc" role="3eOfB_">
-                                    <node concept="3SKdUt" id="22vzBhGA1bt" role="3cqZAp">
-                                      <node concept="3SKdUq" id="22vzBhGA1bu" role="3SKWNk">
-                                        <property role="3SKdUp" value="known fx bug - selection problem 2" />
+                                  <node concept="3clFbF" id="2JDNIBMNc42" role="3cqZAp">
+                                    <node concept="2OqwBi" id="2JDNIBMNedA" role="3clFbG">
+                                      <node concept="2YIFZM" id="2JDNIBMNcOS" role="2Oq$k0">
+                                        <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                                        <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                                        <node concept="3VsKOn" id="2JDNIBMNebj" role="37wK5m">
+                                          <ref role="3VsUkX" node="1e8699aCJb7" resolve="FX8TableForm" />
+                                        </node>
+                                      </node>
+                                      <node concept="liA8E" id="2JDNIBMNeJu" role="2OqNvi">
+                                        <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                                        <node concept="3cpWs3" id="2JDNIBMNigV" role="37wK5m">
+                                          <node concept="37vLTw" id="2JDNIBMNPuk" role="3uHU7w">
+                                            <ref role="3cqZAo" node="2JDNIBMNjTp" resolve="info" />
+                                          </node>
+                                          <node concept="Xl_RD" id="2JDNIBMNeVR" role="3uHU7B">
+                                            <property role="Xl_RC" value="This Is the IOB BUG - please forwards this information to daniel.stieger@modellwerkstatt.org " />
+                                          </node>
+                                        </node>
                                       </node>
                                     </node>
-                                    <node concept="3N13vt" id="22vzBhGA1Gq" role="3cqZAp" />
+                                  </node>
+                                  <node concept="3clFbH" id="2JDNIBMNixI" role="3cqZAp" />
+                                </node>
+                                <node concept="3eOVzh" id="6$YiAc11OdH" role="3clFbw">
+                                  <node concept="37vLTw" id="6$YiAc110mn" role="3uHU7B">
+                                    <ref role="3cqZAo" node="6$YiAc10WZ6" resolve="i" />
+                                  </node>
+                                  <node concept="3cmrfG" id="2JDNIBMNfGf" role="3uHU7w">
+                                    <property role="3cmrfH" value="0" />
+                                  </node>
+                                </node>
+                                <node concept="9aQIb" id="2JDNIBMNgJB" role="9aQIa">
+                                  <node concept="3clFbS" id="2JDNIBMNgJC" role="9aQI4">
+                                    <node concept="3clFbF" id="6$YiAc0XQcd" role="3cqZAp">
+                                      <node concept="37vLTI" id="6$YiAc0XQce" role="3clFbG">
+                                        <node concept="37vLTw" id="6$YiAc10YD4" role="37vLTx">
+                                          <ref role="3cqZAo" node="6$YiAc10WZ6" resolve="i" />
+                                        </node>
+                                        <node concept="37vLTw" id="6$YiAc0XQcg" role="37vLTJ">
+                                          <ref role="3cqZAo" node="1yQJrOWygJw" resolve="last" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="3clFbF" id="6$YiAc0XQch" role="3cqZAp">
+                                      <node concept="2OqwBi" id="6$YiAc0XQci" role="3clFbG">
+                                        <node concept="37vLTw" id="6$YiAc0XQcj" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="1e8699aCJl4" resolve="selectedItems" />
+                                        </node>
+                                        <node concept="liA8E" id="6$YiAc0XQck" role="2OqNvi">
+                                          <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                                          <node concept="2OqwBi" id="6$YiAc0XQcl" role="37wK5m">
+                                            <node concept="2OqwBi" id="6$YiAc0XQcm" role="2Oq$k0">
+                                              <node concept="37vLTw" id="6$YiAc0XQcn" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                                              </node>
+                                              <node concept="liA8E" id="6$YiAc0XQco" role="2OqNvi">
+                                                <ref role="37wK5l" to="rb41:~TableView.getItems():javafx.collections.ObservableList" resolve="getItems" />
+                                              </node>
+                                            </node>
+                                            <node concept="liA8E" id="6$YiAc0XQcp" role="2OqNvi">
+                                              <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                                              <node concept="37vLTw" id="6$YiAc10ZBU" role="37wK5m">
+                                                <ref role="3cqZAo" node="6$YiAc10WZ6" resolve="i" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="3clFbH" id="2JDNIBMNhGX" role="3cqZAp" />
                                   </node>
                                 </node>
                               </node>
-                              <node concept="3clFbH" id="22vzBhGA2a_" role="3cqZAp" />
-                              <node concept="3clFbF" id="1yQJrOWyoqX" role="3cqZAp">
-                                <node concept="37vLTI" id="1yQJrOWyoD8" role="3clFbG">
-                                  <node concept="37vLTw" id="1yQJrOWyoQ8" role="37vLTx">
-                                    <ref role="3cqZAo" node="1yQJrOWyi4z" resolve="i" />
-                                  </node>
-                                  <node concept="37vLTw" id="1yQJrOWyoqV" role="37vLTJ">
-                                    <ref role="3cqZAo" node="1yQJrOWygJw" resolve="last" />
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="3clFbF" id="1yQJrOWyv7Q" role="3cqZAp">
-                                <node concept="2OqwBi" id="1yQJrOWyvmj" role="3clFbG">
-                                  <node concept="37vLTw" id="1yQJrOWyv7O" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="1e8699aCJl4" resolve="selectedItems" />
-                                  </node>
-                                  <node concept="liA8E" id="1yQJrOWyvux" role="2OqNvi">
-                                    <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
-                                    <node concept="2OqwBi" id="1yQJrOWyxx4" role="37wK5m">
-                                      <node concept="2OqwBi" id="1yQJrOWyvIv" role="2Oq$k0">
-                                        <node concept="37vLTw" id="1yQJrOWyvFD" role="2Oq$k0">
-                                          <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
-                                        </node>
-                                        <node concept="liA8E" id="1yQJrOWyxjx" role="2OqNvi">
-                                          <ref role="37wK5l" to="rb41:~TableView.getItems():javafx.collections.ObservableList" resolve="getItems" />
-                                        </node>
-                                      </node>
-                                      <node concept="liA8E" id="1yQJrOWyywj" role="2OqNvi">
-                                        <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
-                                        <node concept="37vLTw" id="5Ld38uCDnxa" role="37wK5m">
-                                          <ref role="3cqZAo" node="1yQJrOWyi4z" resolve="i" />
-                                        </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
+                              <node concept="3clFbH" id="6$YiAc10Zb3" role="3cqZAp" />
+                            </node>
+                            <node concept="3cpWsn" id="6$YiAc0XQcr" role="1Duv9x">
+                              <property role="TrG5h" value="theIntObject" />
+                              <node concept="3uibUv" id="6$YiAc10Vyz" role="1tU5fm">
+                                <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
                               </node>
                             </node>
-                            <node concept="3cpWsn" id="1yQJrOWyi4z" role="1Duv9x">
-                              <property role="TrG5h" value="i" />
-                              <node concept="3uibUv" id="5Ld38uCDOtr" role="1tU5fm">
-                                <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
-                              </node>
-                            </node>
-                            <node concept="37vLTw" id="5Ld38uCDdZB" role="1DdaDG">
-                              <ref role="3cqZAo" node="5Ld38uCCxim" resolve="selectedArray" />
+                            <node concept="37vLTw" id="6$YiAc10W6t" role="1DdaDG">
+                              <ref role="3cqZAo" node="6$YiAc10Ov6" resolve="selectedElements" />
                             </node>
                           </node>
                           <node concept="3clFbH" id="2JhkuvESyaX" role="3cqZAp" />
