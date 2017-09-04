@@ -16,7 +16,7 @@
          not be available.... -->
     
   	<param-name>productionMode</param-name>
-  	<param-value>false</param-value>
+  	<param-value>true</param-value>
   	<description>Vaadin production mode</description>
   </context-param>
 
