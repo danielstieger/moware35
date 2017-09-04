@@ -2302,11 +2302,21 @@
         <node concept="17QB3L" id="6KBCmIOMoY4" role="11_B2D" />
       </node>
     </node>
+    <node concept="2tJIrI" id="22vzBhGFL1m" role="jymVt" />
     <node concept="2tJIrI" id="6KBCmIOKP_w" role="jymVt" />
     <node concept="3clFbW" id="6KBCmIOKPA6" role="jymVt">
       <node concept="3cqZAl" id="6KBCmIOKPA8" role="3clF45" />
       <node concept="3Tm1VV" id="6KBCmIOKPA9" role="1B3o_S" />
       <node concept="3clFbS" id="6KBCmIOKPAa" role="3clF47">
+        <node concept="3clFbF" id="22vzBhGFS54" role="3cqZAp">
+          <node concept="37vLTI" id="22vzBhGFSzQ" role="3clFbG">
+            <node concept="10Nm6u" id="22vzBhGFSSD" role="37vLTx" />
+            <node concept="37vLTw" id="22vzBhGFS52" role="37vLTJ">
+              <ref role="3cqZAo" node="6KBCmIOMoY1" resolve="items" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="22vzBhGFSUO" role="3cqZAp" />
         <node concept="3clFbF" id="6KBCmIOMpS4" role="3cqZAp">
           <node concept="37vLTI" id="6KBCmIOMpS5" role="3clFbG">
             <node concept="2ShNRf" id="6KBCmIOMpS6" role="37vLTx">
@@ -2954,6 +2964,40 @@
         <node concept="17QB3L" id="6KBCmIOKPBL" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="6KBCmIOKPBN" role="3clF47">
+        <node concept="3clFbJ" id="22vzBhGFIvy" role="3cqZAp">
+          <node concept="3clFbS" id="22vzBhGFIv$" role="3clFbx">
+            <node concept="3clFbF" id="22vzBhGFXf2" role="3cqZAp">
+              <node concept="2OqwBi" id="22vzBhGFXpL" role="3clFbG">
+                <node concept="37vLTw" id="22vzBhGFXf0" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
+                </node>
+                <node concept="liA8E" id="22vzBhGFYzh" role="2OqNvi">
+                  <ref role="37wK5l" to="waq:~AbstractSelect.removeAllItems():boolean" resolve="removeAllItems" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="22vzBhGFU0W" role="3cqZAp">
+              <node concept="2OqwBi" id="22vzBhGFUa8" role="3clFbG">
+                <node concept="37vLTw" id="22vzBhGFU0U" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6KBCmIOMoXP" resolve="comboBox" />
+                </node>
+                <node concept="liA8E" id="22vzBhGFVk3" role="2OqNvi">
+                  <ref role="37wK5l" to="waq:~AbstractSelect.addItem(java.lang.Object):com.vaadin.data.Item" resolve="addItem" />
+                  <node concept="37vLTw" id="22vzBhGFVHu" role="37wK5m">
+                    <ref role="3cqZAo" node="6KBCmIOKPBK" resolve="text" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="22vzBhGFTBh" role="3clFbw">
+            <node concept="10Nm6u" id="22vzBhGFTJl" role="3uHU7w" />
+            <node concept="37vLTw" id="22vzBhGFQcg" role="3uHU7B">
+              <ref role="3cqZAo" node="6KBCmIOMoY1" resolve="items" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="22vzBhGFWgB" role="3cqZAp" />
         <node concept="3clFbF" id="6KBCmIOMSzo" role="3cqZAp">
           <node concept="2OqwBi" id="6KBCmIOMSJk" role="3clFbG">
             <node concept="37vLTw" id="6KBCmIOMSzn" role="2Oq$k0">

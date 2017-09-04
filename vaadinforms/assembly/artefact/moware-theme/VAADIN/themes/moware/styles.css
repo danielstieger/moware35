@@ -13204,7 +13204,7 @@ div.v-layout.v-horizontal.v-widget {
 	color: #454545 !important;
 }
 
-.moware .v-textfield.v-disabled, .moware .v-filterselect.v-disabled {
+.moware .v-textfield.v-disabled, .moware .v-filterselect.v-disabled, .moware .v-caption-mo-delegate-editor.v-caption-v-disabled {
 	opacity: 0.75;
 }
 

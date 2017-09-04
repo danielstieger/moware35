@@ -12805,6 +12805,73 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="22vzBhGCeiD" role="3cqZAp" />
+        <node concept="3SKdUt" id="22vzBhGCpQz" role="3cqZAp">
+          <node concept="3SKdUq" id="22vzBhGCpQ_" role="3SKWNk">
+            <property role="3SKdUp" value="heigh undefined in case of multiple -1 weights" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="22vzBhGChav" role="3cqZAp">
+          <node concept="3cpWsn" id="22vzBhGChay" role="3cpWs9">
+            <property role="TrG5h" value="heighUndefined" />
+            <node concept="10P_77" id="22vzBhGChat" role="1tU5fm" />
+            <node concept="3clFbT" id="22vzBhGClzv" role="33vP2m">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="1DcWWT" id="22vzBhGCiaD" role="3cqZAp">
+          <node concept="3clFbS" id="22vzBhGCiaF" role="2LFqv$">
+            <node concept="3clFbJ" id="22vzBhGCjGT" role="3cqZAp">
+              <node concept="3clFbS" id="22vzBhGCjGV" role="3clFbx">
+                <node concept="3clFbF" id="22vzBhGCle5" role="3cqZAp">
+                  <node concept="37vLTI" id="22vzBhGClTD" role="3clFbG">
+                    <node concept="3clFbT" id="22vzBhGCmIN" role="37vLTx">
+                      <property role="3clFbU" value="false" />
+                    </node>
+                    <node concept="37vLTw" id="22vzBhGCle3" role="37vLTJ">
+                      <ref role="3cqZAo" node="22vzBhGChay" resolve="heighUndefined" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3zACq4" id="22vzBhGCn0s" role="3cqZAp" />
+              </node>
+              <node concept="2OqwBi" id="22vzBhGCkdy" role="3clFbw">
+                <node concept="37vLTw" id="22vzBhGCjWB" role="2Oq$k0">
+                  <ref role="3cqZAo" node="22vzBhGCiaG" resolve="con" />
+                </node>
+                <node concept="liA8E" id="22vzBhGCkpb" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <node concept="Xl_RD" id="22vzBhGCkD8" role="37wK5m">
+                    <property role="Xl_RC" value="*" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="22vzBhGCiaG" role="1Duv9x">
+            <property role="TrG5h" value="con" />
+            <node concept="17QB3L" id="22vzBhGCinR" role="1tU5fm" />
+          </node>
+          <node concept="37vLTw" id="22vzBhGCj68" role="1DdaDG">
+            <ref role="3cqZAo" node="5XHFlRODeoT" resolve="rowConstr" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="22vzBhGCeIj" role="3cqZAp">
+          <node concept="3clFbS" id="22vzBhGCeIl" role="3clFbx">
+            <node concept="3clFbF" id="22vzBhGCofU" role="3cqZAp">
+              <node concept="2OqwBi" id="22vzBhGCozG" role="3clFbG">
+                <node concept="Xjq3P" id="22vzBhGCofS" role="2Oq$k0" />
+                <node concept="liA8E" id="22vzBhGCp6t" role="2OqNvi">
+                  <ref role="37wK5l" to="waq:~AbstractComponent.setHeightUndefined():void" resolve="setHeightUndefined" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="22vzBhGCnS0" role="3clFbw">
+            <ref role="3cqZAo" node="22vzBhGChay" resolve="heighUndefined" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="15Q050iuugf" role="jymVt" />
@@ -13200,52 +13267,7 @@
             <node concept="3clFbH" id="15Q050iyBh3" role="3cqZAp" />
             <node concept="3clFbJ" id="15Q050iuKoV" role="3cqZAp">
               <node concept="3clFbS" id="15Q050iuKoX" role="3clFbx">
-                <node concept="3SKdUt" id="15Q050iwstI" role="3cqZAp">
-                  <node concept="3SKdUq" id="15Q050iws_I" role="3SKWNk">
-                    <property role="3SKdUp" value=" - TODO: this might not be correct, use setSizeUndefined() ?" />
-                  </node>
-                </node>
-                <node concept="1X3_iC" id="4xVSf7dcqNH" role="lGtFl">
-                  <property role="3V$3am" value="statement" />
-                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                  <node concept="3clFbF" id="15Q050iuMFe" role="8Wnug">
-                    <node concept="2OqwBi" id="15Q050iuMXi" role="3clFbG">
-                      <node concept="Xjq3P" id="15Q050iuMFc" role="2Oq$k0" />
-                      <node concept="liA8E" id="15Q050iuNYh" role="2OqNvi">
-                        <ref role="37wK5l" to="waq:~AbstractOrderedLayout.setExpandRatio(com.vaadin.ui.Component,float):void" resolve="setExpandRatio" />
-                        <node concept="37vLTw" id="15Q050iwqrj" role="37wK5m">
-                          <ref role="3cqZAo" node="15Q050iwlxo" resolve="hl" />
-                        </node>
-                        <node concept="3cmrfG" id="15Q050iuPgf" role="37wK5m">
-                          <property role="3cmrfH" value="-1" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="1X3_iC" id="4xVSf7dcqNI" role="lGtFl">
-                  <property role="3V$3am" value="statement" />
-                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                  <node concept="3clFbF" id="xFWXJS224M" role="8Wnug">
-                    <node concept="2YIFZM" id="xFWXJS22pK" role="3clFbG">
-                      <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                      <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-                      <node concept="3cpWs3" id="xFWXJS23ss" role="37wK5m">
-                        <node concept="Xl_RD" id="xFWXJS23I_" role="3uHU7w">
-                          <property role="Xl_RC" value=" - set expansion rate to ? (-1)" />
-                        </node>
-                        <node concept="3cpWs3" id="xFWXJS22M8" role="3uHU7B">
-                          <node concept="Xl_RD" id="xFWXJS22D6" role="3uHU7B">
-                            <property role="Xl_RC" value="hl: " />
-                          </node>
-                          <node concept="37vLTw" id="xFWXJS231K" role="3uHU7w">
-                            <ref role="3cqZAo" node="15Q050iwlxo" resolve="hl" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
+                <node concept="3clFbH" id="22vzBhGCdgs" role="3cqZAp" />
               </node>
               <node concept="2OqwBi" id="15Q050iuLBA" role="3clFbw">
                 <node concept="Xl_RD" id="15Q050iuLlr" role="2Oq$k0">
@@ -13456,55 +13478,17 @@
         </node>
         <node concept="3clFbJ" id="15Q050iwEJm" role="3cqZAp">
           <node concept="3clFbS" id="15Q050iwEJn" role="3clFbx">
-            <node concept="3SKdUt" id="15Q050iwEJo" role="3cqZAp">
-              <node concept="3SKdUq" id="15Q050iwEJp" role="3SKWNk">
-                <property role="3SKdUp" value=" - TODO: this might not be correct, use setSizeUndefined() ?" />
+            <node concept="3SKdUt" id="22vzBhGCdOh" role="3cqZAp">
+              <node concept="3SKdUq" id="22vzBhGCdOj" role="3SKWNk">
+                <property role="3SKdUp" value="check finally, if there is any weight used, otherwhise call" />
               </node>
             </node>
-            <node concept="1X3_iC" id="4xVSf7dcqNK" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="15Q050iwEJq" role="8Wnug">
-                <node concept="2OqwBi" id="15Q050iwEJr" role="3clFbG">
-                  <node concept="37vLTw" id="15Q050iwJ3z" role="2Oq$k0">
-                    <ref role="3cqZAo" node="15Q050iwuqe" resolve="containerToAddComponent" />
-                  </node>
-                  <node concept="liA8E" id="15Q050iwEJt" role="2OqNvi">
-                    <ref role="37wK5l" to="waq:~AbstractOrderedLayout.setExpandRatio(com.vaadin.ui.Component,float):void" resolve="setExpandRatio" />
-                    <node concept="37vLTw" id="15Q050iwOTD" role="37wK5m">
-                      <ref role="3cqZAo" node="15Q050iuDiO" resolve="componentToAdd" />
-                    </node>
-                    <node concept="3cmrfG" id="xFWXJS5imJ" role="37wK5m">
-                      <property role="3cmrfH" value="-1" />
-                    </node>
-                  </node>
-                </node>
+            <node concept="3SKdUt" id="22vzBhGCe7y" role="3cqZAp">
+              <node concept="3SKdUq" id="22vzBhGCe7$" role="3SKWNk">
+                <property role="3SKdUp" value="setHeightUndefined() for the VerticalLayout" />
               </node>
             </node>
-            <node concept="1X3_iC" id="4xVSf7dcqNL" role="lGtFl">
-              <property role="3V$3am" value="statement" />
-              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-              <node concept="3clFbF" id="xFWXJS2ahU" role="8Wnug">
-                <node concept="2YIFZM" id="xFWXJS2ahV" role="3clFbG">
-                  <ref role="1Pybhc" node="41UdyNBynGL" resolve="VMainWindow" />
-                  <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                  <node concept="3cpWs3" id="xFWXJS2ahY" role="37wK5m">
-                    <node concept="3cpWs3" id="xFWXJS2ahZ" role="3uHU7B">
-                      <node concept="Xl_RD" id="xFWXJS2ai0" role="3uHU7B">
-                        <property role="Xl_RC" value="cmpToAdd: " />
-                      </node>
-                      <node concept="37vLTw" id="xFWXJS2ai1" role="3uHU7w">
-                        <ref role="3cqZAo" node="15Q050iuDiO" resolve="componentToAdd" />
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="xFWXJS2ai2" role="3uHU7w">
-                      <property role="Xl_RC" value=" - set expansion rate to ? (-1)." />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="xFWXJS2afm" role="3cqZAp" />
+            <node concept="3clFbH" id="22vzBhGCdyL" role="3cqZAp" />
           </node>
           <node concept="2OqwBi" id="15Q050iwEJw" role="3clFbw">
             <node concept="Xl_RD" id="15Q050iwEJx" role="2Oq$k0">
