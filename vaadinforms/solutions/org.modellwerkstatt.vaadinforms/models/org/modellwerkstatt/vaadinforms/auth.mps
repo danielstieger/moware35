@@ -525,6 +525,27 @@
       </node>
       <node concept="3Tm1VV" id="4FiFGILpgf2" role="1B3o_S" />
       <node concept="3clFbS" id="4FiFGILpgf4" role="3clF47">
+        <node concept="3cpWs8" id="5mKi2yscEwr" role="3cqZAp">
+          <node concept="3cpWsn" id="5mKi2yscEwu" role="3cpWs9">
+            <property role="TrG5h" value="thisAuthenticated" />
+            <node concept="10P_77" id="5mKi2yscEwp" role="1tU5fm" />
+            <node concept="2OqwBi" id="4FiFGILpiua" role="33vP2m">
+              <node concept="37vLTw" id="4FiFGILpisX" role="2Oq$k0">
+                <ref role="3cqZAo" node="4FiFGILphtL" resolve="ldapService" />
+              </node>
+              <node concept="liA8E" id="4FiFGILpixq" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:53tKgUPT9Q5" resolve="authenticateUser" />
+                <node concept="37vLTw" id="4FiFGILpizX" role="37wK5m">
+                  <ref role="3cqZAo" node="4FiFGILpgeX" resolve="username" />
+                </node>
+                <node concept="37vLTw" id="4FiFGILpiEG" role="37wK5m">
+                  <ref role="3cqZAo" node="4FiFGILpgeZ" resolve="password" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5mKi2yscGvi" role="3cqZAp" />
         <node concept="3clFbJ" id="4FiFGILpiJm" role="3cqZAp">
           <node concept="3clFbS" id="4FiFGILpiJo" role="3clFbx">
             <node concept="3cpWs6" id="4FiFGILpiS_" role="3cqZAp">
@@ -547,19 +568,8 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="4FiFGILpiua" role="3clFbw">
-            <node concept="37vLTw" id="4FiFGILpisX" role="2Oq$k0">
-              <ref role="3cqZAo" node="4FiFGILphtL" resolve="ldapService" />
-            </node>
-            <node concept="liA8E" id="4FiFGILpixq" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:53tKgUPT9Q5" resolve="authenticateUser" />
-              <node concept="37vLTw" id="4FiFGILpizX" role="37wK5m">
-                <ref role="3cqZAo" node="4FiFGILpgeX" resolve="username" />
-              </node>
-              <node concept="37vLTw" id="4FiFGILpiEG" role="37wK5m">
-                <ref role="3cqZAo" node="4FiFGILpgeZ" resolve="password" />
-              </node>
-            </node>
+          <node concept="37vLTw" id="5mKi2yscESJ" role="3clFbw">
+            <ref role="3cqZAo" node="5mKi2yscEwu" resolve="thisAuthenticated" />
           </node>
         </node>
         <node concept="3cpWs6" id="4FiFGILpjSh" role="3cqZAp">

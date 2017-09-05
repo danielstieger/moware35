@@ -38761,6 +38761,41 @@
           </node>
         </node>
         <node concept="3clFbH" id="53tKgUPRC6Z" role="3cqZAp" />
+        <node concept="3SKdUt" id="5mKi2ysjLM2" role="3cqZAp">
+          <node concept="3SKdUq" id="5mKi2ysjLM4" role="3SKWNk">
+            <property role="3SKdUp" value="prevent anonymous binds with ldap" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5mKi2ysjHYJ" role="3cqZAp">
+          <node concept="3clFbS" id="5mKi2ysjHYL" role="3clFbx">
+            <node concept="3cpWs6" id="5mKi2ysjJSw" role="3cqZAp">
+              <node concept="3clFbT" id="5mKi2ysjJUZ" role="3cqZAk">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+          <node concept="22lmx$" id="5mKi2ysjJ7T" role="3clFbw">
+            <node concept="2OqwBi" id="5mKi2ysjJmN" role="3uHU7w">
+              <node concept="liA8E" id="5mKi2ysjJ_5" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="37vLTw" id="5mKi2ysjJjV" role="37wK5m">
+                  <ref role="3cqZAo" node="53tKgUPRvBY" resolve="pwd" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="5mKi2ysjJBk" role="2Oq$k0">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="5mKi2ysjIPm" role="3uHU7B">
+              <node concept="37vLTw" id="5mKi2ysjIBU" role="3uHU7B">
+                <ref role="3cqZAo" node="53tKgUPRvBY" resolve="pwd" />
+              </node>
+              <node concept="10Nm6u" id="5mKi2ysjIV2" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5mKi2ysjKwt" role="3cqZAp" />
+        <node concept="3clFbH" id="5mKi2ysjGHL" role="3cqZAp" />
         <node concept="2GUZhq" id="53tKgUPR$lL" role="3cqZAp">
           <node concept="3clFbS" id="53tKgUPQOxs" role="2GV8ay">
             <node concept="3clFbF" id="53tKgUPR_nd" role="3cqZAp">
@@ -40348,10 +40383,6 @@
         <ref role="3uigEE" to="28jr:7$uuZ_GWCW6" resolve="IMoLdapService.IMoLdapGroupInfo" />
       </node>
     </node>
-    <node concept="2tJIrI" id="53tKgUPQYtA" role="jymVt" />
-    <node concept="2tJIrI" id="53tKgUPRf4F" role="jymVt" />
-    <node concept="2tJIrI" id="53tKgUPRf8b" role="jymVt" />
-    <node concept="2tJIrI" id="53tKgUPRfbG" role="jymVt" />
     <node concept="3uibUv" id="53tKgUPTczF" role="EKbjA">
       <ref role="3uigEE" to="28jr:53tKgUPT7lx" resolve="IMoLdapService" />
     </node>
