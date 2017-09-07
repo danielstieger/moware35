@@ -31531,6 +31531,89 @@
       </node>
     </node>
     <node concept="2tJIrI" id="r$jHpEN35q" role="jymVt" />
+    <node concept="3clFb_" id="5sqqmqItwvQ" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="showGraphInformation" />
+      <node concept="37vLTG" id="5sqqmqItwvT" role="3clF46">
+        <property role="TrG5h" value="graph" />
+        <node concept="17QB3L" id="5sqqmqItwvU" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="5sqqmqItwvV" role="3clF46">
+        <property role="TrG5h" value="subInfo" />
+        <node concept="17QB3L" id="5sqqmqItwvW" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="5sqqmqItwvX" role="3clF45" />
+      <node concept="3Tm1VV" id="5sqqmqItwvY" role="1B3o_S" />
+      <node concept="3clFbS" id="5sqqmqItww0" role="3clF47">
+        <node concept="3cpWs8" id="5sqqmqItx$U" role="3cqZAp">
+          <node concept="3cpWsn" id="5sqqmqItx$V" role="3cpWs9">
+            <property role="TrG5h" value="dialogue" />
+            <node concept="3uibUv" id="5sqqmqItx$W" role="1tU5fm">
+              <ref role="3uigEE" node="4QTIUTCn4cr" resolve="VMsgDialog" />
+            </node>
+            <node concept="2ShNRf" id="5sqqmqItx$X" role="33vP2m">
+              <node concept="1pGfFk" id="5sqqmqItx$Y" role="2ShVmc">
+                <ref role="37wK5l" node="2wSq35xEWAh" resolve="VMsgDialog" />
+                <node concept="37vLTw" id="5sqqmqItx$Z" role="37wK5m">
+                  <ref role="3cqZAo" node="61_QXqSd29C" resolve="factory" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5sqqmqItx_0" role="3cqZAp">
+          <node concept="2OqwBi" id="5sqqmqItx_1" role="3clFbG">
+            <node concept="37vLTw" id="5sqqmqItx_2" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sqqmqItx$V" resolve="dialogue" />
+            </node>
+            <node concept="liA8E" id="5sqqmqItx_3" role="2OqNvi">
+              <ref role="37wK5l" node="5_bDd1dpPqT" resolve="prepareDialog" />
+              <node concept="Rm8GO" id="5sqqmqItylZ" role="37wK5m">
+                <ref role="Rm8GQ" to="250q:2ppo89mgGiY" resolve="INFO_LARGE" />
+                <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
+              </node>
+              <node concept="1rXfSq" id="5sqqmqItx_5" role="37wK5m">
+                <ref role="37wK5l" node="61_QXqSd2qX" resolve="getBrowserWidht" />
+              </node>
+              <node concept="3cpWs3" id="5sqqmqIt$cS" role="37wK5m">
+                <node concept="37vLTw" id="5sqqmqIt$wh" role="3uHU7w">
+                  <ref role="3cqZAo" node="5sqqmqItwvV" resolve="subInfo" />
+                </node>
+                <node concept="3cpWs3" id="5sqqmqItzO_" role="3uHU7B">
+                  <node concept="3cpWs3" id="5sqqmqItzeR" role="3uHU7B">
+                    <node concept="Xl_RD" id="5sqqmqItyYT" role="3uHU7B">
+                      <property role="Xl_RC" value="GRAPH DEBUGGER \n\n" />
+                    </node>
+                    <node concept="37vLTw" id="5sqqmqItz$e" role="3uHU7w">
+                      <ref role="3cqZAo" node="5sqqmqItwvT" resolve="graph" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="5sqqmqIt$4u" role="3uHU7w">
+                    <property role="Xl_RC" value="\n\n" />
+                  </node>
+                </node>
+              </node>
+              <node concept="10Nm6u" id="5sqqmqIt$KK" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5sqqmqItx_8" role="3cqZAp" />
+        <node concept="3clFbF" id="5sqqmqItx_9" role="3cqZAp">
+          <node concept="2OqwBi" id="5sqqmqItx_a" role="3clFbG">
+            <node concept="2YIFZM" id="5sqqmqItx_b" role="2Oq$k0">
+              <ref role="1Pybhc" to="waq:~UI" resolve="UI" />
+              <ref role="37wK5l" to="waq:~UI.getCurrent():com.vaadin.ui.UI" resolve="getCurrent" />
+            </node>
+            <node concept="liA8E" id="5sqqmqItx_c" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~UI.addWindow(com.vaadin.ui.Window):void" resolve="addWindow" />
+              <node concept="37vLTw" id="5sqqmqItx_d" role="37wK5m">
+                <ref role="3cqZAo" node="5sqqmqItx$V" resolve="dialogue" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="r$jHpEOZfB" role="jymVt" />
     <node concept="3clFb_" id="r$jHpEP0h_" role="jymVt">
       <property role="1EzhhJ" value="false" />

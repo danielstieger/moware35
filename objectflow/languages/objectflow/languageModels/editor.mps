@@ -244,6 +244,9 @@
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
         <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
@@ -11077,24 +11080,33 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1PiyY_FMlja" role="3cqZAp" />
-        <node concept="3cpWs8" id="3yttyAVwrmu" role="3cqZAp">
-          <node concept="3cpWsn" id="3yttyAVwrmt" role="3cpWs9">
-            <property role="3TUv4t" value="false" />
-            <property role="TrG5h" value="top" />
-            <node concept="3uibUv" id="3yttyAVwrmv" role="1tU5fm">
-              <ref role="3uigEE" to="rgfa:~DefaultMutableTreeNode" resolve="DefaultMutableTreeNode" />
+        <node concept="3cpWs8" id="5sqqmqIhb11" role="3cqZAp">
+          <node concept="3cpWsn" id="5sqqmqIhb12" role="3cpWs9">
+            <property role="TrG5h" value="topNode" />
+            <node concept="3uibUv" id="5sqqmqIhb13" role="1tU5fm">
+              <ref role="3uigEE" to="3ojc:5sqqmqIdUdD" resolve="SwingNode" />
             </node>
-            <node concept="2ShNRf" id="5n6hJfGHele" role="33vP2m">
-              <node concept="1pGfFk" id="5n6hJfGHv8V" role="2ShVmc">
-                <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.&lt;init&gt;(java.lang.Object)" resolve="DefaultMutableTreeNode" />
-                <node concept="Xl_RD" id="5n6hJfGHw$q" role="37wK5m">
-                  <property role="Xl_RC" value="?" />
-                </node>
+            <node concept="2ShNRf" id="5sqqmqIhbaW" role="33vP2m">
+              <node concept="HV5vD" id="5sqqmqIhbz9" role="2ShVmc">
+                <ref role="HV5vE" to="3ojc:5sqqmqIdUdD" resolve="SwingNode" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5sqqmqIhbG$" role="3cqZAp">
+          <node concept="2OqwBi" id="5sqqmqIhbIO" role="3clFbG">
+            <node concept="37vLTw" id="5sqqmqIhbGy" role="2Oq$k0">
+              <ref role="3cqZAo" node="5sqqmqIhb12" resolve="topNode" />
+            </node>
+            <node concept="liA8E" id="5sqqmqIhbRS" role="2OqNvi">
+              <ref role="37wK5l" to="3ojc:5sqqmqIdV2X" resolve="setNodeLabel" />
+              <node concept="Xl_RD" id="5sqqmqIhbWq" role="37wK5m">
+                <property role="Xl_RC" value="?" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1PiyY_FMlja" role="3cqZAp" />
         <node concept="SfApY" id="5n6hJfGTAoU" role="3cqZAp">
           <node concept="3clFbS" id="5n6hJfGTAoW" role="SfCbr">
             <node concept="3cpWs8" id="5n6hJfGTBoH" role="3cqZAp">
@@ -11127,38 +11139,49 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="5sqqmqIhaNf" role="3cqZAp" />
             <node concept="3cpWs8" id="5n6hJfGTCzC" role="3cqZAp">
               <node concept="3cpWsn" id="5n6hJfGTCzD" role="3cpWs9">
-                <property role="TrG5h" value="parser" />
-                <node concept="3uibUv" id="5n6hJfGTCzE" role="1tU5fm">
-                  <ref role="3uigEE" to="3ojc:5n6hJfGTwSr" resolve="CompareableStringParser" />
+                <property role="TrG5h" value="factory" />
+                <node concept="3uibUv" id="5sqqmqIh9LE" role="1tU5fm">
+                  <ref role="3uigEE" to="gyq6:5n6hJfGTwSr" resolve="MoSPStringToTreeFactory" />
                 </node>
                 <node concept="2ShNRf" id="5n6hJfGTCCW" role="33vP2m">
                   <node concept="1pGfFk" id="5n6hJfGTCCV" role="2ShVmc">
-                    <ref role="37wK5l" to="3ojc:5n6hJfGTx_s" resolve="CompareableStringParser" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="5n6hJfGTCN7" role="3cqZAp">
-              <node concept="37vLTI" id="5n6hJfGTCSZ" role="3clFbG">
-                <node concept="2OqwBi" id="5n6hJfGTD7Q" role="37vLTx">
-                  <node concept="37vLTw" id="5n6hJfGTD3b" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5n6hJfGTCzD" resolve="parser" />
-                  </node>
-                  <node concept="liA8E" id="5n6hJfGTDbx" role="2OqNvi">
-                    <ref role="37wK5l" to="3ojc:3yttyAVwpCC" resolve="loadTree" />
-                    <node concept="37vLTw" id="5n6hJfGTDhJ" role="37wK5m">
-                      <ref role="3cqZAo" node="5n6hJfGTBAf" resolve="fileText" />
+                    <ref role="37wK5l" to="gyq6:5n6hJfGTx_s" resolve="MoSPStringToTreeFactory" />
+                    <node concept="37vLTw" id="5sqqmqIhcdJ" role="37wK5m">
+                      <ref role="3cqZAo" node="5sqqmqIhb12" resolve="topNode" />
                     </node>
                   </node>
                 </node>
-                <node concept="37vLTw" id="5n6hJfGTCN5" role="37vLTJ">
-                  <ref role="3cqZAo" node="3yttyAVwrmt" resolve="top" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="5sqqmqIzE0B" role="3cqZAp">
+              <node concept="37vLTI" id="5sqqmqIzE8y" role="3clFbG">
+                <node concept="37vLTw" id="5sqqmqIzE0_" role="37vLTJ">
+                  <ref role="3cqZAo" node="5sqqmqIhb12" resolve="topNode" />
+                </node>
+                <node concept="1eOMI4" id="5sqqmqIhdBq" role="37vLTx">
+                  <node concept="10QFUN" id="5sqqmqIhdBn" role="1eOMHV">
+                    <node concept="3uibUv" id="5sqqmqIhdIg" role="10QFUM">
+                      <ref role="3uigEE" to="3ojc:5sqqmqIdUdD" resolve="SwingNode" />
+                    </node>
+                    <node concept="2OqwBi" id="5sqqmqIhdBs" role="10QFUP">
+                      <node concept="37vLTw" id="5sqqmqIhdBt" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5n6hJfGTCzD" resolve="factory" />
+                      </node>
+                      <node concept="liA8E" id="5sqqmqIhdBu" role="2OqNvi">
+                        <ref role="37wK5l" to="gyq6:3yttyAVwpCC" resolve="loadTree" />
+                        <node concept="37vLTw" id="5sqqmqIhdBv" role="37wK5m">
+                          <ref role="3cqZAo" node="5n6hJfGTBAf" resolve="fileText" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="5n6hJfGTC0B" role="3cqZAp" />
+            <node concept="3clFbH" id="5sqqmqIhg47" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="5n6hJfGTAoX" role="TEbGg">
             <node concept="3cpWsn" id="5n6hJfGTAoZ" role="TDEfY">
@@ -11187,7 +11210,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5n6hJfGTA1b" role="3cqZAp" />
         <node concept="3clFbF" id="3VEVRTXdSZG" role="3cqZAp">
           <node concept="37vLTI" id="3VEVRTXdSZH" role="3clFbG">
             <node concept="2OqwBi" id="3VEVRTXdSZI" role="37vLTJ">
@@ -11199,8 +11221,8 @@
             <node concept="2ShNRf" id="3VEVRTXdSZL" role="37vLTx">
               <node concept="1pGfFk" id="3VEVRTXdSZM" role="2ShVmc">
                 <ref role="37wK5l" to="dxuu:~JTree.&lt;init&gt;(javax.swing.tree.TreeNode)" resolve="JTree" />
-                <node concept="37vLTw" id="5n6hJfGT_Z6" role="37wK5m">
-                  <ref role="3cqZAo" node="3yttyAVwrmt" resolve="top" />
+                <node concept="37vLTw" id="5sqqmqIzDI5" role="37wK5m">
+                  <ref role="3cqZAo" node="5sqqmqIhb12" resolve="topNode" />
                 </node>
               </node>
             </node>
@@ -11231,6 +11253,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="5n6hJfGTA1b" role="3cqZAp" />
         <node concept="3cpWs6" id="3VEVRTXdT0B" role="3cqZAp">
           <node concept="37vLTw" id="3yttyAVtvpK" role="3cqZAk">
             <ref role="3cqZAo" node="3VEVRTXdSZu" resolve="panel" />
