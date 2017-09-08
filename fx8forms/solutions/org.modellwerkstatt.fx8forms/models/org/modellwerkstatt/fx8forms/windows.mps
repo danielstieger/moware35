@@ -60,6 +60,7 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="1153417849900" name="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression" flags="nn" index="2d3UOw" />
+      <concept id="1215695189714" name="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" flags="nn" index="d57v9" />
       <concept id="1153422105332" name="jetbrains.mps.baseLanguage.structure.RemExpression" flags="nn" index="2dk9JS" />
       <concept id="1153422305557" name="jetbrains.mps.baseLanguage.structure.LessThanOrEqualsExpression" flags="nn" index="2dkUwp" />
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
@@ -19171,7 +19172,154 @@
                                   </node>
                                 </node>
                               </node>
-                              <node concept="3clFbH" id="1e8699aCJox" role="3cqZAp" />
+                              <node concept="3clFbH" id="2tq07Lbzd2H" role="3cqZAp" />
+                              <node concept="3cpWs8" id="2tq07LbuP1Y" role="3cqZAp">
+                                <node concept="3cpWsn" id="2tq07LbuP21" role="3cpWs9">
+                                  <property role="TrG5h" value="totalWidth" />
+                                  <node concept="10P55v" id="2tq07LbuP1W" role="1tU5fm" />
+                                  <node concept="3b6qkQ" id="2tq07LbuPgr" role="33vP2m">
+                                    <property role="$nhwW" value="1.0" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbH" id="2tq07Lbw6nq" role="3cqZAp" />
+                              <node concept="1DcWWT" id="2tq07Lbw0iJ" role="3cqZAp">
+                                <node concept="3clFbS" id="2tq07Lbw0iL" role="2LFqv$">
+                                  <node concept="3clFbJ" id="2tq07Lbw2J$" role="3cqZAp">
+                                    <node concept="3clFbS" id="2tq07Lbw2JA" role="3clFbx">
+                                      <node concept="3clFbF" id="2tq07Lbw90k" role="3cqZAp">
+                                        <node concept="d57v9" id="2tq07Lbw9kv" role="3clFbG">
+                                          <node concept="1eOMI4" id="2tq07Lbwa6C" role="37vLTx">
+                                            <node concept="10QFUN" id="2tq07Lbwa6_" role="1eOMHV">
+                                              <node concept="10Oyi0" id="2tq07Lbwa73" role="10QFUM" />
+                                              <node concept="2OqwBi" id="2tq07Lbwa6E" role="10QFUP">
+                                                <node concept="37vLTw" id="2tq07Lbwa6F" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="2tq07Lbw0iM" resolve="col" />
+                                                </node>
+                                                <node concept="liA8E" id="2tq07Lbwa6G" role="2OqNvi">
+                                                  <ref role="37wK5l" to="rb41:~TableColumnBase.getUserData():java.lang.Object" resolve="getUserData" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                          <node concept="37vLTw" id="2tq07Lbw90i" role="37vLTJ">
+                                            <ref role="3cqZAo" node="2tq07LbuP21" resolve="totalWidth" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="2OqwBi" id="2tq07Lbw2Z7" role="3clFbw">
+                                      <node concept="37vLTw" id="2tq07Lbw2XP" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="2tq07Lbw0iM" resolve="col" />
+                                      </node>
+                                      <node concept="liA8E" id="2tq07Lbw39N" role="2OqNvi">
+                                        <ref role="37wK5l" to="rb41:~TableColumnBase.isVisible():boolean" resolve="isVisible" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3cpWsn" id="2tq07Lbw0iM" role="1Duv9x">
+                                  <property role="TrG5h" value="col" />
+                                  <node concept="3uibUv" id="2tq07Lbw0Gl" role="1tU5fm">
+                                    <ref role="3uigEE" to="rb41:~TableColumn" resolve="TableColumn" />
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="2tq07Lbw1hY" role="1DdaDG">
+                                  <node concept="37vLTw" id="2tq07Lbw1bZ" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                                  </node>
+                                  <node concept="liA8E" id="2tq07Lbw2dI" role="2OqNvi">
+                                    <ref role="37wK5l" to="rb41:~TableView.getColumns():javafx.collections.ObservableList" resolve="getColumns" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbH" id="2tq07Lbw6I5" role="3cqZAp" />
+                              <node concept="1DcWWT" id="2tq07Lbwbc8" role="3cqZAp">
+                                <node concept="3clFbS" id="2tq07Lbwbc9" role="2LFqv$">
+                                  <node concept="3clFbJ" id="2tq07Lbwbca" role="3cqZAp">
+                                    <node concept="3clFbS" id="2tq07Lbwbcb" role="3clFbx">
+                                      <node concept="3cpWs8" id="2tq07Lbwcp0" role="3cqZAp">
+                                        <node concept="3cpWsn" id="2tq07Lbwcp3" role="3cpWs9">
+                                          <property role="TrG5h" value="thisWitdh" />
+                                          <node concept="10P55v" id="2tq07LbwcoY" role="1tU5fm" />
+                                          <node concept="FJ1c_" id="2tq07Lbwdjk" role="33vP2m">
+                                            <node concept="37vLTw" id="2tq07LbwdPX" role="3uHU7w">
+                                              <ref role="3cqZAo" node="2tq07LbuP21" resolve="totalWidth" />
+                                            </node>
+                                            <node concept="1eOMI4" id="2tq07Lbwbce" role="3uHU7B">
+                                              <node concept="10QFUN" id="2tq07Lbwbcf" role="1eOMHV">
+                                                <node concept="10Oyi0" id="2tq07Lbwbcg" role="10QFUM" />
+                                                <node concept="2OqwBi" id="2tq07Lbwbch" role="10QFUP">
+                                                  <node concept="37vLTw" id="2tq07Lbwbci" role="2Oq$k0">
+                                                    <ref role="3cqZAo" node="2tq07Lbwbco" resolve="col" />
+                                                  </node>
+                                                  <node concept="liA8E" id="2tq07Lbwbcj" role="2OqNvi">
+                                                    <ref role="37wK5l" to="rb41:~TableColumnBase.getUserData():java.lang.Object" resolve="getUserData" />
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                      <node concept="3clFbF" id="2tq07LbuQxK" role="3cqZAp">
+                                        <node concept="2OqwBi" id="2tq07LbuQxL" role="3clFbG">
+                                          <node concept="2OqwBi" id="2tq07LbuQxM" role="2Oq$k0">
+                                            <node concept="37vLTw" id="2tq07LbuQxN" role="2Oq$k0">
+                                              <ref role="3cqZAo" node="2tq07Lbwbco" resolve="col" />
+                                            </node>
+                                            <node concept="liA8E" id="2tq07LbuQxO" role="2OqNvi">
+                                              <ref role="37wK5l" to="rb41:~TableColumnBase.prefWidthProperty():javafx.beans.property.DoubleProperty" resolve="prefWidthProperty" />
+                                            </node>
+                                          </node>
+                                          <node concept="liA8E" id="2tq07LbuQxP" role="2OqNvi">
+                                            <ref role="37wK5l" to="i1qy:~Property.bind(javafx.beans.value.ObservableValue):void" resolve="bind" />
+                                            <node concept="2OqwBi" id="2tq07LbuQxQ" role="37wK5m">
+                                              <node concept="2OqwBi" id="2tq07LbuQxR" role="2Oq$k0">
+                                                <node concept="37vLTw" id="2tq07LbuQxS" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                                                </node>
+                                                <node concept="liA8E" id="2tq07LbuQxT" role="2OqNvi">
+                                                  <ref role="37wK5l" to="l152:~Region.widthProperty():javafx.beans.property.ReadOnlyDoubleProperty" resolve="widthProperty" />
+                                                </node>
+                                              </node>
+                                              <node concept="liA8E" id="2tq07LbuQxU" role="2OqNvi">
+                                                <ref role="37wK5l" to="cpcw:~DoubleExpression.multiply(double):javafx.beans.binding.DoubleBinding" resolve="multiply" />
+                                                <node concept="37vLTw" id="2tq07Lbwgp2" role="37wK5m">
+                                                  <ref role="3cqZAo" node="2tq07Lbwcp3" resolve="thisWitdh" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="2OqwBi" id="2tq07Lbwbcl" role="3clFbw">
+                                      <node concept="37vLTw" id="2tq07Lbwbcm" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="2tq07Lbwbco" resolve="col" />
+                                      </node>
+                                      <node concept="liA8E" id="2tq07Lbwbcn" role="2OqNvi">
+                                        <ref role="37wK5l" to="rb41:~TableColumnBase.isVisible():boolean" resolve="isVisible" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3cpWsn" id="2tq07Lbwbco" role="1Duv9x">
+                                  <property role="TrG5h" value="col" />
+                                  <node concept="3uibUv" id="2tq07Lbwbcp" role="1tU5fm">
+                                    <ref role="3uigEE" to="rb41:~TableColumn" resolve="TableColumn" />
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="2tq07Lbwbcq" role="1DdaDG">
+                                  <node concept="37vLTw" id="2tq07Lbwbcr" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+                                  </node>
+                                  <node concept="liA8E" id="2tq07Lbwbcs" role="2OqNvi">
+                                    <ref role="37wK5l" to="rb41:~TableView.getColumns():javafx.collections.ObservableList" resolve="getColumns" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbH" id="2tq07Lbzd3o" role="3cqZAp" />
                             </node>
                           </node>
                         </node>
@@ -19188,6 +19336,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="2tq07LbuZfI" role="jymVt" />
     <node concept="3clFb_" id="1e8699aCJoA" role="jymVt">
       <property role="TrG5h" value="applyFilter" />
       <node concept="37vLTG" id="18loLX1Ybqw" role="3clF46">
@@ -21551,6 +21700,8 @@
         <node concept="3clFbH" id="18loLX1SJfr" role="3cqZAp" />
       </node>
     </node>
+    <node concept="2tJIrI" id="2tq07LbuvcY" role="jymVt" />
+    <node concept="2tJIrI" id="2tq07Lbu$$H" role="jymVt" />
     <node concept="3clFb_" id="1e8699aCJxQ" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="addColumn" />
@@ -21660,6 +21811,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="2tq07LbviE0" role="3cqZAp">
+          <node concept="2OqwBi" id="2tq07LbviHU" role="3clFbG">
+            <node concept="37vLTw" id="2tq07LbviDY" role="2Oq$k0">
+              <ref role="3cqZAo" node="1e8699aCJyb" resolve="col" />
+            </node>
+            <node concept="liA8E" id="2tq07LbviSP" role="2OqNvi">
+              <ref role="37wK5l" to="rb41:~TableColumnBase.setUserData(java.lang.Object):void" resolve="setUserData" />
+              <node concept="37vLTw" id="2tq07Lbvj7z" role="37wK5m">
+                <ref role="3cqZAo" node="1e8699aCJxX" resolve="width" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="1e8699aCJyr" role="3cqZAp" />
         <node concept="3clFbJ" id="1e8699aCJyt" role="3cqZAp">
           <node concept="3clFbS" id="1e8699aCJyu" role="3clFbx">
@@ -21688,7 +21852,7 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="1e8699aCJyD" role="3cqZAp" />
+            <node concept="3clFbH" id="2tq07LbvioO" role="3cqZAp" />
           </node>
           <node concept="37vLTw" id="21Qe5t1ZSG8" role="3clFbw">
             <ref role="3cqZAo" node="21Qe5t1ZN4B" resolve="folded" />
@@ -23184,6 +23348,7 @@
           <ref role="3uigEE" to="zhcn:3PmCowOXue4" resolve="ITableCellStringConverter" />
         </node>
       </node>
+      <node concept="2tJIrI" id="2tq07LbvlZx" role="jymVt" />
       <node concept="2tJIrI" id="76zkUWRb$Sp" role="jymVt" />
       <node concept="3clFbW" id="1e8699aCJby" role="jymVt">
         <node concept="37vLTG" id="1e8699aCJbz" role="3clF46">

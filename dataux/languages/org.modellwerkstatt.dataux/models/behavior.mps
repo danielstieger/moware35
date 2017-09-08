@@ -2995,7 +2995,7 @@
           <node concept="2ShNRf" id="pQ21WNnQvk" role="3cqZAk">
             <node concept="3zrR0B" id="pQ21WNnQvl" role="2ShVmc">
               <node concept="3Tqbb2" id="pQ21WNnQvm" role="3zrR0E">
-                <ref role="ehGHo" to="tpee:g7uibYu" resolve="ClassifierType" />
+                <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
               </node>
             </node>
           </node>
