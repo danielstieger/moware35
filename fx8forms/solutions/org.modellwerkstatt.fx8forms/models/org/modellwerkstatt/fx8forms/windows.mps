@@ -1831,8 +1831,23 @@
                     <node concept="2ShNRf" id="2qrl3a2TsQN" role="YScLw">
                       <node concept="1pGfFk" id="2qrl3a2Tt_n" role="2ShVmc">
                         <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                        <node concept="Xl_RD" id="2qrl3a2TtCa" role="37wK5m">
-                          <property role="Xl_RC" value="This can not happen!" />
+                        <node concept="3cpWs3" id="3rDRLC0PxKs" role="37wK5m">
+                          <node concept="Xl_RD" id="3rDRLC0PxQW" role="3uHU7w">
+                            <property role="Xl_RC" value=" which does not need a leading CRTL-?." />
+                          </node>
+                          <node concept="3cpWs3" id="3rDRLC0PqiN" role="3uHU7B">
+                            <node concept="Xl_RD" id="2qrl3a2TtCa" role="3uHU7B">
+                              <property role="Xl_RC" value="Tiles accept only hotkeys in form of CRTL-[A-Z]. Hotkey is " />
+                            </node>
+                            <node concept="2OqwBi" id="3rDRLC0PxDR" role="3uHU7w">
+                              <node concept="37vLTw" id="3rDRLC0PxAn" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2qrl3a2T0bm" resolve="action" />
+                              </node>
+                              <node concept="2OwXpG" id="3rDRLC0PxGK" role="2OqNvi">
+                                <ref role="2Oxat5" to="yg8v:Y3fiVJPWx7" resolve="public_hotKey" />
+                              </node>
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>

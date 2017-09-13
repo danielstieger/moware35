@@ -7510,6 +7510,88 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="IlacaDzUgl" role="3cqZAp" />
+      <node concept="3SKdUt" id="IlacaDzUks" role="3cqZAp">
+        <node concept="3SKdUq" id="IlacaDzUku" role="3SKWNk">
+          <property role="3SKdUp" value="check field options here" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="IlacaDzUo$" role="3cqZAp">
+        <node concept="3clFbS" id="IlacaDzUoA" role="3clFbx">
+          <node concept="3clFbJ" id="IlacaDzYX3" role="3cqZAp">
+            <node concept="3clFbS" id="IlacaDzYX5" role="3clFbx">
+              <node concept="2MkqsV" id="IlacaD$5o0" role="3cqZAp">
+                <node concept="Xl_RD" id="IlacaD$5of" role="2MkJ7o">
+                  <property role="Xl_RC" value="key, opposite or containment options can not be used in conjunction within view or value objects." />
+                </node>
+                <node concept="1YBJjd" id="IlacaD$5r9" role="2OEOjV">
+                  <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
+                </node>
+              </node>
+            </node>
+            <node concept="22lmx$" id="IlacaD$1vp" role="3clFbw">
+              <node concept="2OqwBi" id="IlacaD$20y" role="3uHU7w">
+                <node concept="1YBJjd" id="IlacaD$1Ml" role="2Oq$k0">
+                  <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
+                </node>
+                <node concept="2qgKlT" id="IlacaD$5e3" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:IlacaD$3gp" resolve="hasContainmentOption" />
+                </node>
+              </node>
+              <node concept="22lmx$" id="IlacaDzZBT" role="3uHU7B">
+                <node concept="2OqwBi" id="IlacaDzZ1Y" role="3uHU7B">
+                  <node concept="1YBJjd" id="IlacaDzYXp" role="2Oq$k0">
+                    <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
+                  </node>
+                  <node concept="2qgKlT" id="IlacaDzZtk" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:3bYrH4MDMsZ" resolve="isKey" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="IlacaDzZZh" role="3uHU7w">
+                  <node concept="1YBJjd" id="IlacaDzZUs" role="2Oq$k0">
+                    <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
+                  </node>
+                  <node concept="2qgKlT" id="IlacaD$0rY" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:1jMXz13pjjo" resolve="isOpposite" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="22lmx$" id="IlacaDzVqP" role="3clFbw">
+          <node concept="2OqwBi" id="IlacaDzWGn" role="3uHU7w">
+            <node concept="2OqwBi" id="IlacaDzVE1" role="2Oq$k0">
+              <node concept="1YBJjd" id="IlacaDzVzl" role="2Oq$k0">
+                <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
+              </node>
+              <node concept="2Xjw5R" id="IlacaDzW2Z" role="2OqNvi">
+                <node concept="1xMEDy" id="IlacaDzW31" role="1xVPHs">
+                  <node concept="chp4Y" id="IlacaDzWiA" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:6W_Qo9eYrYE" resolve="ValueObject" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="IlacaDzXjG" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="IlacaDzXHe" role="3uHU7B">
+            <node concept="2OqwBi" id="IlacaDzUwt" role="2Oq$k0">
+              <node concept="1YBJjd" id="IlacaDzUrS" role="2Oq$k0">
+                <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
+              </node>
+              <node concept="2Xjw5R" id="IlacaDzUHJ" role="2OqNvi">
+                <node concept="1xMEDy" id="IlacaDzUHL" role="1xVPHs">
+                  <node concept="chp4Y" id="IlacaDzUIx" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="IlacaDzYFN" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="34EwMoQBtwi" role="1YuTPh">
       <property role="TrG5h" value="businessProperty" />
