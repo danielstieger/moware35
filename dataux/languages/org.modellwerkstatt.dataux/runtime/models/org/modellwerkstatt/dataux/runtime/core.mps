@@ -15195,12 +15195,27 @@
                 </node>
                 <node concept="liA8E" id="7P$uL5PoIOg" role="2OqNvi">
                   <ref role="37wK5l" node="5ZKHK64XHNS" resolve="logWarning" />
-                  <node concept="3cpWs3" id="7P$uL5PoMaS" role="37wK5m">
-                    <node concept="37vLTw" id="7P$uL5PoMiP" role="3uHU7w">
-                      <ref role="3cqZAo" node="2DwOiMArh9K" resolve="ccHash" />
+                  <node concept="3cpWs3" id="5MAleHoqpI_" role="37wK5m">
+                    <node concept="3cpWs3" id="5MAleHoqpxM" role="3uHU7B">
+                      <node concept="3cpWs3" id="5MAleHoqo_w" role="3uHU7B">
+                        <node concept="3cpWs3" id="7P$uL5PoMaS" role="3uHU7B">
+                          <node concept="Xl_RD" id="7P$uL5PoLpF" role="3uHU7B">
+                            <property role="Xl_RC" value="Conclusion not found for ccHash " />
+                          </node>
+                          <node concept="37vLTw" id="7P$uL5PoMiP" role="3uHU7w">
+                            <ref role="3cqZAo" node="2DwOiMArh9K" resolve="ccHash" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="5MAleHoqoHP" role="3uHU7w">
+                          <property role="Xl_RC" value=" (contclsd? " />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="5MAleHoqpEP" role="3uHU7w">
+                        <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
+                      </node>
                     </node>
-                    <node concept="Xl_RD" id="7P$uL5PoLpF" role="3uHU7B">
-                      <property role="Xl_RC" value="Conclusion not found for ccHash " />
+                    <node concept="Xl_RD" id="5MAleHoqpJp" role="3uHU7w">
+                      <property role="Xl_RC" value=") " />
                     </node>
                   </node>
                 </node>
@@ -24409,12 +24424,22 @@
       </node>
       <node concept="3clFbS" id="2o7h3aEkjxK" role="3clF47">
         <node concept="3clFbF" id="2o7h3aEkj_f" role="3cqZAp">
-          <node concept="3cpWs3" id="2o7h3aEkjB7" role="3clFbG">
-            <node concept="37vLTw" id="2o7h3aEkUxa" role="3uHU7w">
-              <ref role="3cqZAo" node="2o7h3aEkUhu" resolve="desc" />
+          <node concept="3cpWs3" id="5MAleHoqsWZ" role="3clFbG">
+            <node concept="37vLTw" id="5MAleHoqsZf" role="3uHU7w">
+              <ref role="3cqZAo" node="zBgVaD6ku3" resolve="conclusionHash" />
             </node>
-            <node concept="Xl_RD" id="2o7h3aEkj_e" role="3uHU7B">
-              <property role="Xl_RC" value="CONCLUSION_EVENT $ " />
+            <node concept="3cpWs3" id="5MAleHoqsPY" role="3uHU7B">
+              <node concept="3cpWs3" id="2o7h3aEkjB7" role="3uHU7B">
+                <node concept="Xl_RD" id="2o7h3aEkj_e" role="3uHU7B">
+                  <property role="Xl_RC" value="CONCLUSION_EVENT $ " />
+                </node>
+                <node concept="37vLTw" id="2o7h3aEkUxa" role="3uHU7w">
+                  <ref role="3cqZAo" node="2o7h3aEkUhu" resolve="desc" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="5MAleHoqsRm" role="3uHU7w">
+                <property role="Xl_RC" value=" / " />
+              </node>
             </node>
           </node>
         </node>
