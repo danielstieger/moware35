@@ -176,6 +176,21 @@
       <node concept="3Tm1VV" id="5$BCFrw7azn" role="1B3o_S" />
       <node concept="3clFbS" id="5$BCFrw7azo" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="1A4FVdAvc50" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getCookieMaxAgeAfterAuthentication" />
+      <node concept="10Oyi0" id="1A4FVdAvc8D" role="3clF45" />
+      <node concept="3Tm1VV" id="1A4FVdAvc52" role="1B3o_S" />
+      <node concept="3clFbS" id="1A4FVdAvc53" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="4FiFGILfhHH" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="sessionMaxInactiveIntervallAfterAppLogin" />
+      <node concept="10Oyi0" id="4FiFGILfjoW" role="3clF45" />
+      <node concept="3Tm1VV" id="4FiFGILfhHK" role="1B3o_S" />
+      <node concept="3clFbS" id="4FiFGILfhHL" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1A4FVdAvbx4" role="jymVt" />
     <node concept="3clFb_" id="5$BCFrw7a_G" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="authenticate" />
@@ -202,13 +217,6 @@
       </node>
       <node concept="3Tm1VV" id="5$BCFrw7a_J" role="1B3o_S" />
       <node concept="3clFbS" id="5$BCFrw7a_K" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="4FiFGILfhHH" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="sessionMaxInactiveIntervallAfterAppLogin" />
-      <node concept="10Oyi0" id="4FiFGILfjoW" role="3clF45" />
-      <node concept="3Tm1VV" id="4FiFGILfhHK" role="1B3o_S" />
-      <node concept="3clFbS" id="4FiFGILfhHL" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="4FiFGILfhFF" role="jymVt" />
     <node concept="2tJIrI" id="4FiFGILfhGh" role="jymVt" />
@@ -454,6 +462,16 @@
         <property role="3cmrfH" value="1209600" />
       </node>
     </node>
+    <node concept="Wx3nA" id="1A4FVdAwG06" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="ONE_WEEK" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10Oyi0" id="1A4FVdAwG07" role="1tU5fm" />
+      <node concept="3Tm1VV" id="1A4FVdAwG08" role="1B3o_S" />
+      <node concept="3cmrfG" id="1A4FVdAwG09" role="33vP2m">
+        <property role="3cmrfH" value="604800" />
+      </node>
+    </node>
     <node concept="Wx3nA" id="4FiFGILpHRv" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="TWENTYFOUR_HOURS" />
@@ -465,6 +483,22 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4FiFGILpge$" role="jymVt" />
+    <node concept="312cEg" id="1A4FVdAwF3x" role="jymVt">
+      <property role="TrG5h" value="sessionTimeOut" />
+      <node concept="3Tm6S6" id="1A4FVdAwF3y" role="1B3o_S" />
+      <node concept="10Oyi0" id="1A4FVdAwF9J" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="1A4FVdAwGty" role="jymVt">
+      <property role="TrG5h" value="cookieAge" />
+      <node concept="3Tm6S6" id="1A4FVdAwGtz" role="1B3o_S" />
+      <node concept="10Oyi0" id="1A4FVdAwGt$" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="1A4FVdAwGTP" role="jymVt">
+      <property role="TrG5h" value="useMidnightLogOff" />
+      <node concept="3Tm6S6" id="1A4FVdAwGTQ" role="1B3o_S" />
+      <node concept="10P_77" id="1A4FVdAwH1k" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="1A4FVdAwEQT" role="jymVt" />
     <node concept="312cEg" id="4FiFGILphtL" role="jymVt">
       <property role="TrG5h" value="ldapService" />
       <node concept="3Tm6S6" id="4FiFGILphtM" role="1B3o_S" />
@@ -486,6 +520,88 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4FiFGILpgkD" role="jymVt" />
+    <node concept="2tJIrI" id="1A4FVdAwEJP" role="jymVt" />
+    <node concept="3clFbW" id="1A4FVdAwF$U" role="jymVt">
+      <node concept="3cqZAl" id="1A4FVdAwF$W" role="3clF45" />
+      <node concept="3Tm1VV" id="1A4FVdAwF$X" role="1B3o_S" />
+      <node concept="3clFbS" id="1A4FVdAwF$Y" role="3clF47">
+        <node concept="3clFbF" id="1A4FVdAwGGs" role="3cqZAp">
+          <node concept="37vLTI" id="1A4FVdAwGKo" role="3clFbG">
+            <node concept="37vLTw" id="1A4FVdAwGPJ" role="37vLTx">
+              <ref role="3cqZAo" node="1A4FVdAwG06" resolve="ONE_WEEK" />
+            </node>
+            <node concept="37vLTw" id="1A4FVdAwGGr" role="37vLTJ">
+              <ref role="3cqZAo" node="1A4FVdAwGty" resolve="cookieAge" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1A4FVdAwHaO" role="3cqZAp">
+          <node concept="37vLTI" id="1A4FVdAwHfx" role="3clFbG">
+            <node concept="3clFbT" id="1A4FVdAwHgJ" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="1A4FVdAwHaM" role="37vLTJ">
+              <ref role="3cqZAo" node="1A4FVdAwGTP" resolve="useMidnightLogOff" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1A4FVdAwHmg" role="3cqZAp">
+          <node concept="37vLTI" id="1A4FVdAwHra" role="3clFbG">
+            <node concept="3cmrfG" id="1A4FVdAwHsA" role="37vLTx">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="1A4FVdAwHme" role="37vLTJ">
+              <ref role="3cqZAo" node="1A4FVdAwF3x" resolve="sessionTimeOut" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1A4FVdAwFuk" role="jymVt" />
+    <node concept="3clFbW" id="1A4FVdAwFLI" role="jymVt">
+      <node concept="37vLTG" id="1A4FVdAwFSc" role="3clF46">
+        <property role="TrG5h" value="sessionTimeOutInSecond" />
+        <node concept="10Oyi0" id="1A4FVdAwFUJ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1A4FVdAwFWl" role="3clF46">
+        <property role="TrG5h" value="cookieAgeInSec" />
+        <node concept="10Oyi0" id="1A4FVdAwFYU" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1A4FVdAwFLK" role="3clF45" />
+      <node concept="3Tm1VV" id="1A4FVdAwFLL" role="1B3o_S" />
+      <node concept="3clFbS" id="1A4FVdAwFLM" role="3clF47">
+        <node concept="3clFbF" id="1A4FVdAwHx7" role="3cqZAp">
+          <node concept="37vLTI" id="1A4FVdAwH_3" role="3clFbG">
+            <node concept="37vLTw" id="1A4FVdAwHEq" role="37vLTx">
+              <ref role="3cqZAo" node="1A4FVdAwFSc" resolve="sessionTimeOutInSecond" />
+            </node>
+            <node concept="37vLTw" id="1A4FVdAwHx6" role="37vLTJ">
+              <ref role="3cqZAo" node="1A4FVdAwF3x" resolve="sessionTimeOut" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1A4FVdAwHHX" role="3cqZAp">
+          <node concept="37vLTI" id="1A4FVdAwHKY" role="3clFbG">
+            <node concept="3clFbT" id="1A4FVdAwHM4" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="1A4FVdAwHHV" role="37vLTJ">
+              <ref role="3cqZAo" node="1A4FVdAwGTP" resolve="useMidnightLogOff" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1A4FVdAwHRR" role="3cqZAp">
+          <node concept="37vLTI" id="1A4FVdAwI1q" role="3clFbG">
+            <node concept="37vLTw" id="1A4FVdAwI7j" role="37vLTx">
+              <ref role="3cqZAo" node="1A4FVdAwFWl" resolve="cookieAgeInSec" />
+            </node>
+            <node concept="37vLTw" id="1A4FVdAwHVG" role="37vLTJ">
+              <ref role="3cqZAo" node="1A4FVdAwGty" resolve="cookieAge" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="4FiFGILpgeL" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="needsLoginWindow" />
@@ -495,6 +611,20 @@
         <node concept="3clFbF" id="4FiFGILpgjp" role="3cqZAp">
           <node concept="3clFbT" id="4FiFGILpgjo" role="3clFbG">
             <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1A4FVdAwDZs" role="jymVt" />
+    <node concept="3clFb_" id="1A4FVdAwE4Z" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCookieMaxAgeAfterAuthentication" />
+      <node concept="10Oyi0" id="1A4FVdAwE50" role="3clF45" />
+      <node concept="3Tm1VV" id="1A4FVdAwE51" role="1B3o_S" />
+      <node concept="3clFbS" id="1A4FVdAwE53" role="3clF47">
+        <node concept="3clFbF" id="1A4FVdAwIcn" role="3cqZAp">
+          <node concept="37vLTw" id="1A4FVdAwIcm" role="3clFbG">
+            <ref role="3cqZAo" node="1A4FVdAwGty" resolve="cookieAge" />
           </node>
         </node>
       </node>
@@ -602,41 +732,55 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="1A4FVdAwFkC" role="jymVt" />
+    <node concept="2tJIrI" id="1A4FVdAwFo9" role="jymVt" />
     <node concept="3clFb_" id="4FiFGILpgf7" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="sessionMaxInactiveIntervallAfterAppLogin" />
       <node concept="10Oyi0" id="4FiFGILpgf8" role="3clF45" />
       <node concept="3Tm1VV" id="4FiFGILpgf9" role="1B3o_S" />
       <node concept="3clFbS" id="4FiFGILpgfb" role="3clF47">
-        <node concept="3cpWs8" id="OG9snxZNBs" role="3cqZAp">
-          <node concept="3cpWsn" id="OG9snxZNBt" role="3cpWs9">
-            <property role="TrG5h" value="secondsOfDay" />
-            <node concept="10Oyi0" id="OG9snxZNBu" role="1tU5fm" />
-            <node concept="FJ1c_" id="OG9snxZNBv" role="33vP2m">
-              <node concept="3cmrfG" id="OG9snxZNBw" role="3uHU7w">
-                <property role="3cmrfH" value="1000" />
-              </node>
-              <node concept="2OqwBi" id="OG9snxZNBx" role="3uHU7B">
-                <node concept="2ShNRf" id="OG9snxZNBy" role="2Oq$k0">
-                  <node concept="1pGfFk" id="OG9snxZNBz" role="2ShVmc">
-                    <ref role="37wK5l" to="w08f:~LocalTime.&lt;init&gt;()" resolve="LocalTime" />
+        <node concept="3clFbJ" id="1A4FVdAwIDa" role="3cqZAp">
+          <node concept="3clFbS" id="1A4FVdAwIDc" role="3clFbx">
+            <node concept="3cpWs8" id="OG9snxZNBs" role="3cqZAp">
+              <node concept="3cpWsn" id="OG9snxZNBt" role="3cpWs9">
+                <property role="TrG5h" value="secondsOfDay" />
+                <node concept="10Oyi0" id="OG9snxZNBu" role="1tU5fm" />
+                <node concept="FJ1c_" id="OG9snxZNBv" role="33vP2m">
+                  <node concept="3cmrfG" id="OG9snxZNBw" role="3uHU7w">
+                    <property role="3cmrfH" value="1000" />
+                  </node>
+                  <node concept="2OqwBi" id="OG9snxZNBx" role="3uHU7B">
+                    <node concept="2ShNRf" id="OG9snxZNBy" role="2Oq$k0">
+                      <node concept="1pGfFk" id="OG9snxZNBz" role="2ShVmc">
+                        <ref role="37wK5l" to="w08f:~LocalTime.&lt;init&gt;()" resolve="LocalTime" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="OG9snxZNB$" role="2OqNvi">
+                      <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay():int" resolve="getMillisOfDay" />
+                    </node>
                   </node>
                 </node>
-                <node concept="liA8E" id="OG9snxZNB$" role="2OqNvi">
-                  <ref role="37wK5l" to="w08f:~LocalTime.getMillisOfDay():int" resolve="getMillisOfDay" />
+              </node>
+            </node>
+            <node concept="3cpWs6" id="OG9snxZNB_" role="3cqZAp">
+              <node concept="3cpWsd" id="OG9snxZNBA" role="3cqZAk">
+                <node concept="37vLTw" id="OG9snxZNBB" role="3uHU7w">
+                  <ref role="3cqZAo" node="OG9snxZNBt" resolve="secondsOfDay" />
+                </node>
+                <node concept="37vLTw" id="OG9snxZO9A" role="3uHU7B">
+                  <ref role="3cqZAo" node="4FiFGILpHRv" resolve="TWENTYFOUR_HOURS" />
                 </node>
               </node>
             </node>
           </node>
+          <node concept="37vLTw" id="1A4FVdAwIMw" role="3clFbw">
+            <ref role="3cqZAo" node="1A4FVdAwGTP" resolve="useMidnightLogOff" />
+          </node>
         </node>
-        <node concept="3cpWs6" id="OG9snxZNB_" role="3cqZAp">
-          <node concept="3cpWsd" id="OG9snxZNBA" role="3cqZAk">
-            <node concept="37vLTw" id="OG9snxZNBB" role="3uHU7w">
-              <ref role="3cqZAo" node="OG9snxZNBt" resolve="secondsOfDay" />
-            </node>
-            <node concept="37vLTw" id="OG9snxZO9A" role="3uHU7B">
-              <ref role="3cqZAo" node="4FiFGILpHRv" resolve="TWENTYFOUR_HOURS" />
-            </node>
+        <node concept="3cpWs6" id="1A4FVdAwJq9" role="3cqZAp">
+          <node concept="37vLTw" id="1A4FVdAwJEu" role="3cqZAk">
+            <ref role="3cqZAo" node="1A4FVdAwF3x" resolve="sessionTimeOut" />
           </node>
         </node>
       </node>
@@ -662,6 +806,19 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5$BCFrw7xjX" role="jymVt" />
+    <node concept="3clFb_" id="1A4FVdAwJYs" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCookieMaxAgeAfterAuthentication" />
+      <node concept="10Oyi0" id="1A4FVdAwJYt" role="3clF45" />
+      <node concept="3Tm1VV" id="1A4FVdAwJYu" role="1B3o_S" />
+      <node concept="3clFbS" id="1A4FVdAwJYw" role="3clF47">
+        <node concept="3clFbF" id="1A4FVdAwK3t" role="3cqZAp">
+          <node concept="3cmrfG" id="1A4FVdAwK3s" role="3clFbG">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="5$BCFrwdaz$" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="authenticate" />
@@ -812,6 +969,20 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="1A4FVdAwK9f" role="jymVt" />
+    <node concept="3clFb_" id="1A4FVdAwKce" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCookieMaxAgeAfterAuthentication" />
+      <node concept="10Oyi0" id="1A4FVdAwKcf" role="3clF45" />
+      <node concept="3Tm1VV" id="1A4FVdAwKcg" role="1B3o_S" />
+      <node concept="3clFbS" id="1A4FVdAwKci" role="3clF47">
+        <node concept="3clFbF" id="1A4FVdAwKgX" role="3cqZAp">
+          <node concept="3cmrfG" id="1A4FVdAwKgW" role="3clFbG">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="4FiFGILioDe" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="authenticate" />
@@ -936,6 +1107,20 @@
       <node concept="3clFbS" id="3GKiyr8FMGA" role="3clF47">
         <node concept="3clFbF" id="3GKiyr8FMGB" role="3cqZAp">
           <node concept="3clFbT" id="3GKiyr8FMGC" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1A4FVdAwKsY" role="jymVt" />
+    <node concept="3clFb_" id="1A4FVdAwKut" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCookieMaxAgeAfterAuthentication" />
+      <node concept="10Oyi0" id="1A4FVdAwKuu" role="3clF45" />
+      <node concept="3Tm1VV" id="1A4FVdAwKuv" role="1B3o_S" />
+      <node concept="3clFbS" id="1A4FVdAwKux" role="3clF47">
+        <node concept="3clFbF" id="1A4FVdAwKEu" role="3cqZAp">
+          <node concept="3cmrfG" id="1A4FVdAwKEt" role="3clFbG">
+            <property role="3cmrfH" value="0" />
+          </node>
         </node>
       </node>
     </node>

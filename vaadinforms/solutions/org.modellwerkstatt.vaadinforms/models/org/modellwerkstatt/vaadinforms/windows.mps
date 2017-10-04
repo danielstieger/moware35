@@ -2166,11 +2166,46 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="2JTUDFvatSz" role="3cqZAp">
-                <node concept="1rXfSq" id="2JTUDFvatSx" role="3clFbG">
-                  <ref role="37wK5l" node="2JTUDFv8Oqj" resolve="setMowareCookie" />
-                  <node concept="37vLTw" id="2JTUDFvauty" role="37wK5m">
-                    <ref role="3cqZAo" node="3bLKpg8TCAU" resolve="userName" />
+              <node concept="3clFbJ" id="1A4FVdAv8YC" role="3cqZAp">
+                <node concept="3clFbS" id="1A4FVdAv8YE" role="3clFbx">
+                  <node concept="3clFbF" id="2JTUDFvatSz" role="3cqZAp">
+                    <node concept="1rXfSq" id="2JTUDFvatSx" role="3clFbG">
+                      <ref role="37wK5l" node="2JTUDFv8Oqj" resolve="setMowareCookie" />
+                      <node concept="37vLTw" id="2JTUDFvauty" role="37wK5m">
+                        <ref role="3cqZAo" node="3bLKpg8TCAU" resolve="userName" />
+                      </node>
+                      <node concept="2OqwBi" id="1A4FVdAvf4h" role="37wK5m">
+                        <node concept="2OqwBi" id="1A4FVdAvek$" role="2Oq$k0">
+                          <node concept="37vLTw" id="1A4FVdAve9c" role="2Oq$k0">
+                            <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                          </node>
+                          <node concept="liA8E" id="1A4FVdAveNa" role="2OqNvi">
+                            <ref role="37wK5l" node="5$BCFrw8YCp" resolve="getAuthenticationInterface" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1A4FVdAvf9N" role="2OqNvi">
+                          <ref role="37wK5l" to="w1x3:1A4FVdAvc50" resolve="getCookieMaxAgeAfterAuthentication" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eOSWO" id="1A4FVdAvdek" role="3clFbw">
+                  <node concept="3cmrfG" id="1A4FVdAvdl_" role="3uHU7w">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="1A4FVdAvd2g" role="3uHU7B">
+                    <node concept="2OqwBi" id="1A4FVdAv9CP" role="2Oq$k0">
+                      <node concept="37vLTw" id="1A4FVdAv9tl" role="2Oq$k0">
+                        <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
+                      </node>
+                      <node concept="liA8E" id="1A4FVdAvax8" role="2OqNvi">
+                        <ref role="37wK5l" node="5$BCFrw8YCp" resolve="getAuthenticationInterface" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1A4FVdAvd8Q" role="2OqNvi">
+                      <ref role="37wK5l" to="w1x3:1A4FVdAvc50" resolve="getCookieMaxAgeAfterAuthentication" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -2651,8 +2686,8 @@
             </node>
             <node concept="liA8E" id="2JTUDFv9gZH" role="2OqNvi">
               <ref role="37wK5l" to="nwfd:~Cookie.setMaxAge(int):void" resolve="setMaxAge" />
-              <node concept="3cmrfG" id="2JTUDFv9hB9" role="37wK5m">
-                <property role="3cmrfH" value="604800" />
+              <node concept="37vLTw" id="1A4FVdAvhct" role="37wK5m">
+                <ref role="3cqZAo" node="1A4FVdAvffS" resolve="maxAge" />
               </node>
             </node>
           </node>
@@ -2712,6 +2747,10 @@
       <node concept="37vLTG" id="2JTUDFv9eSO" role="3clF46">
         <property role="TrG5h" value="userName" />
         <node concept="17QB3L" id="2JTUDFv9g9Y" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1A4FVdAvffS" role="3clF46">
+        <property role="TrG5h" value="maxAge" />
+        <node concept="10Oyi0" id="1A4FVdAvgJl" role="1tU5fm" />
       </node>
     </node>
     <node concept="3clFb_" id="2JTUDFv9QV1" role="jymVt">
