@@ -1,0 +1,11 @@
+/*
+ * Daniel Stieger, daniel.stieger@modellwerkstatt.org
+ *
+ * Gradle Settings file as template for other projects
+ *
+ */
+
+
+rootProject.name='simpleapplication'
+
+
