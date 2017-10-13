@@ -2162,7 +2162,7 @@
             <node concept="3clFbH" id="kA5KhweseJ" role="3cqZAp" />
             <node concept="3SKdUt" id="6IJC_lwnnJq" role="3cqZAp">
               <node concept="3SKdUq" id="6IJC_lwnnJs" role="3SKWNk">
-                <property role="3SKdUp" value="no command parameter, the url was reseted, e.g.broswer resart although a command was running." />
+                <property role="3SKdUp" value="no command parameter, the url was reseted, e.g.broswer restart although a command was running." />
               </node>
             </node>
             <node concept="3clFbJ" id="6IJC_lwnpio" role="3cqZAp">
