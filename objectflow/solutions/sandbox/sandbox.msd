@@ -21,7 +21,8 @@
       <sourceRoot location="printing21/xmlgraphics-commons-2.1.jar" />
       <sourceRoot location="richclient/mailapi.jar" />
       <sourceRoot location="richclient/smtp.jar" />
-      <sourceRoot location="basis/org.osgi.core-6.0.0.jar" />
+      <sourceRoot location="osgi/org.apache.felix.prefs-1.1.0.jar" />
+      <sourceRoot location="osgi/org.osgi.core-6.0.0.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -52,7 +53,8 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.expression-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/slf4j-log4j12-1.6.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/slf4j-api-1.6.1.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.osgi.core-6.0.0.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/osgi/org.apache.felix.prefs-1.1.0.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/osgi/org.osgi.core-6.0.0.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
