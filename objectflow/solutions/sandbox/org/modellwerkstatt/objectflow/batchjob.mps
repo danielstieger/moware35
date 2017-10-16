@@ -13,6 +13,7 @@
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
     <import index="iou4" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.scheduling.support(org.modellwerkstatt.sandbox/)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <import index="q7mo" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.osgi.framework(org.modellwerkstatt.sandbox/)" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" implicit="true" />
   </imports>
   <registry>
@@ -142,6 +143,7 @@
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
         <property id="1181808852946" name="isFinal" index="DiZV1" />
+        <child id="1164879685961" name="throwsItem" index="Sfmx6" />
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
@@ -7642,6 +7644,244 @@
     <node concept="2tJIrI" id="2fj6lk$g57Y" role="jymVt" />
     <node concept="2tJIrI" id="2fj6lk$g582" role="jymVt" />
     <node concept="3Tm1VV" id="2fj6lk$g4XT" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="emm21QLAxd">
+    <property role="TrG5h" value="OsgiTestRunner" />
+    <node concept="2tJIrI" id="emm21QLBCV" role="jymVt" />
+    <node concept="2tJIrI" id="emm21QLBD0" role="jymVt" />
+    <node concept="3clFb_" id="emm21QLBDf" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="start" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="emm21QLBDg" role="1B3o_S" />
+      <node concept="3cqZAl" id="emm21QLBDi" role="3clF45" />
+      <node concept="37vLTG" id="emm21QLBDj" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="emm21QLBDk" role="1tU5fm">
+          <ref role="3uigEE" to="q7mo:~BundleContext" resolve="BundleContext" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="emm21QLBDl" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+      <node concept="3clFbS" id="emm21QLBDm" role="3clF47">
+        <node concept="3clFbF" id="emm21QLBG2" role="3cqZAp">
+          <node concept="2OqwBi" id="emm21QLBFZ" role="3clFbG">
+            <node concept="10M0yZ" id="emm21QLBG0" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="emm21QLBG1" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="emm21QLC70" role="37wK5m">
+                <node concept="Xl_RD" id="emm21QLC7s" role="3uHU7w">
+                  <property role="Xl_RC" value=" started! Hello Dan, Version 2!" />
+                </node>
+                <node concept="2OqwBi" id="emm21QLBRL" role="3uHU7B">
+                  <node concept="2OqwBi" id="emm21QLBNc" role="2Oq$k0">
+                    <node concept="Xjq3P" id="emm21QLBMh" role="2Oq$k0" />
+                    <node concept="liA8E" id="emm21QLBQ5" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="emm21QLC1f" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="emm21QLEl9" role="3cqZAp" />
+        <node concept="3cpWs8" id="emm21QLEx2" role="3cqZAp">
+          <node concept="3cpWsn" id="emm21QLEx3" role="3cpWs9">
+            <property role="TrG5h" value="d" />
+            <node concept="3uibUv" id="emm21QLEx4" role="1tU5fm">
+              <ref role="3uigEE" to="33ny:~Dictionary" resolve="Dictionary" />
+              <node concept="17QB3L" id="emm21QLH2O" role="11_B2D" />
+              <node concept="17QB3L" id="emm21QLH8v" role="11_B2D" />
+            </node>
+            <node concept="2OqwBi" id="emm21QLED_" role="33vP2m">
+              <node concept="2OqwBi" id="emm21QLEAl" role="2Oq$k0">
+                <node concept="37vLTw" id="emm21QLE_y" role="2Oq$k0">
+                  <ref role="3cqZAo" node="emm21QLBDj" resolve="context" />
+                </node>
+                <node concept="liA8E" id="emm21QLECq" role="2OqNvi">
+                  <ref role="37wK5l" to="q7mo:~BundleContext.getBundle():org.osgi.framework.Bundle" resolve="getBundle" />
+                </node>
+              </node>
+              <node concept="liA8E" id="emm21QLEGe" role="2OqNvi">
+                <ref role="37wK5l" to="q7mo:~Bundle.getHeaders():java.util.Dictionary" resolve="getHeaders" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="emm21QLKtw" role="3cqZAp">
+          <node concept="3cpWsn" id="emm21QLKtx" role="3cpWs9">
+            <property role="TrG5h" value="e" />
+            <node concept="3uibUv" id="emm21QLKtu" role="1tU5fm">
+              <ref role="3uigEE" to="33ny:~Enumeration" resolve="Enumeration" />
+              <node concept="17QB3L" id="emm21QLKAb" role="11_B2D" />
+            </node>
+            <node concept="2OqwBi" id="emm21QLKBY" role="33vP2m">
+              <node concept="37vLTw" id="emm21QLKBf" role="2Oq$k0">
+                <ref role="3cqZAo" node="emm21QLEx3" resolve="d" />
+              </node>
+              <node concept="liA8E" id="emm21QLKDU" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~Dictionary.keys():java.util.Enumeration" resolve="keys" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2$JKZl" id="emm21QLLoO" role="3cqZAp">
+          <node concept="3clFbS" id="emm21QLLoQ" role="2LFqv$">
+            <node concept="3cpWs8" id="emm21QLM5P" role="3cqZAp">
+              <node concept="3cpWsn" id="emm21QLM5Q" role="3cpWs9">
+                <property role="TrG5h" value="key" />
+                <node concept="3uibUv" id="emm21QLM5R" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~String" resolve="String" />
+                </node>
+                <node concept="2OqwBi" id="emm21QLM8w" role="33vP2m">
+                  <node concept="37vLTw" id="emm21QLM7Y" role="2Oq$k0">
+                    <ref role="3cqZAo" node="emm21QLKtx" resolve="e" />
+                  </node>
+                  <node concept="liA8E" id="emm21QLM9K" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~Enumeration.nextElement():java.lang.Object" resolve="nextElement" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="emm21QLLPY" role="3cqZAp">
+              <node concept="2OqwBi" id="emm21QLLPV" role="3clFbG">
+                <node concept="10M0yZ" id="emm21QLLPW" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="emm21QLLPX" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="emm21QLM_N" role="37wK5m">
+                    <node concept="2OqwBi" id="emm21QLMLZ" role="3uHU7w">
+                      <node concept="37vLTw" id="emm21QLMJM" role="2Oq$k0">
+                        <ref role="3cqZAo" node="emm21QLEx3" resolve="d" />
+                      </node>
+                      <node concept="liA8E" id="emm21QLMOk" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~Dictionary.get(java.lang.Object):java.lang.Object" resolve="get" />
+                        <node concept="37vLTw" id="emm21QLMQx" role="37wK5m">
+                          <ref role="3cqZAo" node="emm21QLM5Q" resolve="key" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cpWs3" id="emm21QLMoH" role="3uHU7B">
+                      <node concept="3cpWs3" id="emm21QLMlm" role="3uHU7B">
+                        <node concept="Xl_RD" id="emm21QLLQE" role="3uHU7B">
+                          <property role="Xl_RC" value="Element " />
+                        </node>
+                        <node concept="37vLTw" id="emm21QLMmR" role="3uHU7w">
+                          <ref role="3cqZAo" node="emm21QLM5Q" resolve="key" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="emm21QLMxM" role="3uHU7w">
+                        <property role="Xl_RC" value=": " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="emm21QLLF8" role="2$JKZa">
+            <node concept="37vLTw" id="emm21QLLyL" role="2Oq$k0">
+              <ref role="3cqZAo" node="emm21QLKtx" resolve="e" />
+            </node>
+            <node concept="liA8E" id="emm21QLLP0" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Enumeration.hasMoreElements():boolean" resolve="hasMoreElements" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="emm21QLO6G" role="3cqZAp">
+          <node concept="2OqwBi" id="emm21QLO6D" role="3clFbG">
+            <node concept="10M0yZ" id="emm21QLO6E" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="emm21QLO6F" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="emm21QLPg7" role="37wK5m">
+                <node concept="2OqwBi" id="emm21QLPtK" role="3uHU7w">
+                  <node concept="37vLTw" id="emm21QLPn7" role="2Oq$k0">
+                    <ref role="3cqZAo" node="emm21QLEx3" resolve="d" />
+                  </node>
+                  <node concept="liA8E" id="emm21QLP$O" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~Dictionary.get(java.lang.Object):java.lang.Object" resolve="get" />
+                    <node concept="Xl_RD" id="emm21QLPGd" role="37wK5m">
+                      <property role="Xl_RC" value="Job-Configuration" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="emm21QLOh9" role="3uHU7B">
+                  <property role="Xl_RC" value="Job Configuration is " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="emm21QLRCz" role="jymVt" />
+    <node concept="3clFb_" id="emm21QLBDn" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="stop" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="emm21QLBDo" role="1B3o_S" />
+      <node concept="3cqZAl" id="emm21QLBDq" role="3clF45" />
+      <node concept="37vLTG" id="emm21QLBDr" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="emm21QLBDs" role="1tU5fm">
+          <ref role="3uigEE" to="q7mo:~BundleContext" resolve="BundleContext" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="emm21QLBDt" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+      <node concept="3clFbS" id="emm21QLBDu" role="3clF47">
+        <node concept="3clFbF" id="emm21QLCvY" role="3cqZAp">
+          <node concept="2OqwBi" id="emm21QLCvZ" role="3clFbG">
+            <node concept="10M0yZ" id="emm21QLCw0" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="emm21QLCw1" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="emm21QLCw2" role="37wK5m">
+                <node concept="Xl_RD" id="emm21QLCw3" role="3uHU7w">
+                  <property role="Xl_RC" value=" stopped! Hello Dan, Version 2" />
+                </node>
+                <node concept="2OqwBi" id="emm21QLCw4" role="3uHU7B">
+                  <node concept="2OqwBi" id="emm21QLCw5" role="2Oq$k0">
+                    <node concept="Xjq3P" id="emm21QLCw6" role="2Oq$k0" />
+                    <node concept="liA8E" id="emm21QLCw7" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="emm21QLCw8" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="emm21QLAxD" role="jymVt" />
+    <node concept="2tJIrI" id="emm21QLAxF" role="jymVt" />
+    <node concept="2tJIrI" id="emm21QLAxI" role="jymVt" />
+    <node concept="3Tm1VV" id="emm21QLAxe" role="1B3o_S" />
+    <node concept="3uibUv" id="emm21QLBCK" role="EKbjA">
+      <ref role="3uigEE" to="q7mo:~BundleActivator" resolve="BundleActivator" />
+    </node>
   </node>
 </model>
 

@@ -10,14 +10,15 @@
  *
  *
  *
-
  * Local path to set on unix in order to get a gradle environment without 
  * gradle wrapper
 
 export PATH=$PATH:/Users/danielstieger/javaexe/gradle/bin
 
-*/
+ *
+ */
 apply plugin: 'java'
+apply plugin: 'osgi'
 
 project.ext {
     mpsHomeDir = "/Users/danielstieger/javaexe/MPS335"
@@ -74,5 +75,10 @@ jar {
     manifest {
         attributes('Implementation-Title': project.name,
                    'Implementation-Version': project.version)
+   
+   		instruction 'Bundle-Vendor', 'modellwerkstatt.org'
+   		name = 'BatchJob Application'
+        symbolicName = 'org.modellwerkstatt.batchjob'
+        // instruction 'Import-Package', 'org.springframework.*', '*'
     }
 }
