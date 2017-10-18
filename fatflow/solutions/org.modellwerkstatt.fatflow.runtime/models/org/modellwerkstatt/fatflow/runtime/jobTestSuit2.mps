@@ -4285,7 +4285,38 @@
       </node>
       <node concept="3clFbS" id="2xm_JkjuRno" role="3clF47">
         <node concept="3clFbH" id="2xm_JkjuWxp" role="3cqZAp" />
-        <node concept="3clFbH" id="2xm_JkjuWBm" role="3cqZAp" />
+        <node concept="3cpWs8" id="4NpYXr61Ckf" role="3cqZAp">
+          <node concept="3cpWsn" id="4NpYXr61Ckg" role="3cpWs9">
+            <property role="TrG5h" value="factory" />
+            <node concept="3uibUv" id="4NpYXr61Ckh" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:xRnvdcXTUt" resolve="OFXBatchJobAppFactory" />
+            </node>
+            <node concept="2ShNRf" id="4NpYXr61Cvf" role="33vP2m">
+              <node concept="1pGfFk" id="4NpYXr61CuF" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:6BKPvpDkQ7A" resolve="OFXBatchJobAppFactory" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4NpYXr61CEg" role="3cqZAp">
+          <node concept="2OqwBi" id="4NpYXr61COM" role="3clFbG">
+            <node concept="37vLTw" id="4NpYXr61CEe" role="2Oq$k0">
+              <ref role="3cqZAo" node="4NpYXr61Ckg" resolve="factory" />
+            </node>
+            <node concept="liA8E" id="4NpYXr61CQR" role="2OqNvi">
+              <ref role="37wK5l" to="z3ji:4NpYXr5VcS7" resolve="initialize" />
+              <node concept="Xl_RD" id="4NpYXr61CRm" role="37wK5m">
+                <property role="Xl_RC" value="testsuit" />
+              </node>
+              <node concept="Xl_RD" id="4NpYXr61CSw" role="37wK5m">
+                <property role="Xl_RC" value="0" />
+              </node>
+              <node concept="Xl_RD" id="4NpYXr61D0V" role="37wK5m">
+                <property role="Xl_RC" value="test0" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="2xm_JkjuRnD" role="3cqZAp">
           <node concept="3cpWsn" id="2xm_JkjuRnE" role="3cpWs9">
             <property role="TrG5h" value="crtl" />
@@ -4301,36 +4332,27 @@
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="z3ji:7BWfrtCZ5Nu" resolve="OFXProducerController" />
                   <ref role="37wK5l" to="z3ji:7BWfrtCZtdA" resolve="OFXProducerController" />
+                  <node concept="37vLTw" id="4NpYXr61Ddw" role="37wK5m">
+                    <ref role="3cqZAo" node="4NpYXr61Ckg" resolve="factory" />
+                  </node>
                   <node concept="10Nm6u" id="7HSdIeXZNGs" role="37wK5m" />
-                  <node concept="Xl_RD" id="7HSdIeXNXoe" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="Xl_RD" id="7HSdIeXNXuE" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="Xl_RD" id="7HSdIeXNX_c" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="Xl_RD" id="7HSdIeXNXCy" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
                   <node concept="3clFbT" id="2xm_JkjvxEa" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
                   <node concept="2tJIrI" id="2xm_JkjuVU6" role="jymVt" />
-                  <node concept="3clFb_" id="7HSdIeXZNTA" role="jymVt">
+                  <node concept="3clFb_" id="4NpYXr61E6U" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="createNewProducerImplementation" />
-                    <node concept="3uibUv" id="7HSdIeXZNTB" role="3clF45">
-                      <ref role="3uigEE" to="z3ji:7HSdIeXTaH9" resolve="OFXProducerCommandImpl" />
-                      <node concept="3uibUv" id="7HSdIeXZNTH" role="11_B2D">
+                    <node concept="3uibUv" id="4NpYXr61E6V" role="3clF45">
+                      <ref role="3uigEE" to="z3ji:4NpYXr5Te6L" resolve="IOFXCommandImplProducer" />
+                      <node concept="3uibUv" id="4NpYXr61E71" role="11_B2D">
                         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                       </node>
                     </node>
-                    <node concept="3Tm1VV" id="7HSdIeXZNTD" role="1B3o_S" />
-                    <node concept="3clFbS" id="7HSdIeXZNTI" role="3clF47">
-                      <node concept="3clFbF" id="7HSdIeXZNTK" role="3cqZAp">
-                        <node concept="10Nm6u" id="7HSdIeXZNTJ" role="3clFbG" />
+                    <node concept="3Tm1VV" id="4NpYXr61E6X" role="1B3o_S" />
+                    <node concept="3clFbS" id="4NpYXr61E72" role="3clF47">
+                      <node concept="3clFbF" id="4NpYXr61E74" role="3cqZAp">
+                        <node concept="10Nm6u" id="4NpYXr61E73" role="3clFbG" />
                       </node>
                     </node>
                   </node>
@@ -4391,7 +4413,7 @@
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="createNewConsumerImplementation" />
                     <node concept="3uibUv" id="2xm_JkjuRwV" role="3clF45">
-                      <ref role="3uigEE" to="z3ji:gmxFf4om6p" resolve="IOFXConsumerCommandImpl" />
+                      <ref role="3uigEE" to="z3ji:gmxFf4om6p" resolve="IOFXCommandImplConsumer" />
                       <node concept="3uibUv" id="2xm_JkjuRFE" role="11_B2D">
                         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                       </node>
@@ -4403,13 +4425,27 @@
                           <node concept="YeOm9" id="2xm_JkjuVDL" role="2ShVmc">
                             <node concept="1Y3b0j" id="2xm_JkjuVDO" role="YeSDq">
                               <property role="2bfB8j" value="true" />
-                              <ref role="1Y3XeK" to="z3ji:gmxFf4om6p" resolve="IOFXConsumerCommandImpl" />
+                              <ref role="1Y3XeK" to="z3ji:gmxFf4om6p" resolve="IOFXCommandImplConsumer" />
                               <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                               <node concept="3Tm1VV" id="2xm_JkjuVDP" role="1B3o_S" />
+                              <node concept="2tJIrI" id="4NpYXr61E$d" role="jymVt" />
+                              <node concept="3clFb_" id="4NpYXr61EBh" role="jymVt">
+                                <property role="1EzhhJ" value="false" />
+                                <property role="TrG5h" value="getStatus" />
+                                <node concept="17QB3L" id="4NpYXr61EBi" role="3clF45" />
+                                <node concept="3Tm1VV" id="4NpYXr61EBj" role="1B3o_S" />
+                                <node concept="3clFbS" id="4NpYXr61EBn" role="3clF47">
+                                  <node concept="3clFbF" id="4NpYXr61EJ2" role="3cqZAp">
+                                    <node concept="Xl_RD" id="4NpYXr61EJ1" role="3clFbG">
+                                      <property role="Xl_RC" value="Testsuit Waiting Consumer" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                               <node concept="3clFb_" id="2xm_JkjuVDQ" role="jymVt">
                                 <property role="1EzhhJ" value="false" />
                                 <property role="TrG5h" value="process" />
-                                <node concept="17QB3L" id="7HSdIeY0MI3" role="3clF45" />
+                                <node concept="3cqZAl" id="4NpYXr61Esy" role="3clF45" />
                                 <node concept="3Tm1VV" id="2xm_JkjuVDS" role="1B3o_S" />
                                 <node concept="37vLTG" id="2xm_JkjuVDU" role="3clF46">
                                   <property role="TrG5h" value="key" />
@@ -4453,16 +4489,6 @@
                                       </node>
                                     </node>
                                   </node>
-                                  <node concept="3cpWs6" id="7HSdIeY0MUo" role="3cqZAp">
-                                    <node concept="3cpWs3" id="7HSdIeY0N1R" role="3cqZAk">
-                                      <node concept="37vLTw" id="7HSdIeY0N6$" role="3uHU7w">
-                                        <ref role="3cqZAo" node="2xm_JkjyYgE" resolve="waitTime" />
-                                      </node>
-                                      <node concept="Xl_RD" id="7HSdIeY0MW4" role="3uHU7B">
-                                        <property role="Xl_RC" value="Tried to wait for " />
-                                      </node>
-                                    </node>
-                                  </node>
                                 </node>
                               </node>
                               <node concept="3uibUv" id="2xm_JkjuVHU" role="2Ghqu4">
@@ -4483,7 +4509,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="2xm_JkjuUU5" role="3cqZAp" />
-        <node concept="3clFbH" id="2xm_JkjBluN" role="3cqZAp" />
         <node concept="3SKdUt" id="2xm_JkjBlCQ" role="3cqZAp">
           <node concept="3SKdUq" id="2xm_JkjBlCS" role="3SKWNk">
             <property role="3SKdUp" value="Notes to myself: one can not kill a running thread in any way. If the thread is " />
@@ -4494,8 +4519,6 @@
             <property role="3SKdUp" value="looping, nothing can be done. " />
           </node>
         </node>
-        <node concept="3clFbH" id="2xm_JkjuXGP" role="3cqZAp" />
-        <node concept="3clFbH" id="2xm_JkjuXKr" role="3cqZAp" />
         <node concept="3cpWs6" id="2xm_JkjuUXS" role="3cqZAp">
           <node concept="37vLTw" id="2xm_JkjuUZk" role="3cqZAk">
             <ref role="3cqZAo" node="2xm_JkjuRnE" resolve="crtl" />
@@ -4513,6 +4536,38 @@
       </node>
       <node concept="3clFbS" id="2xm_JkjBolW" role="3clF47">
         <node concept="3clFbH" id="2xm_JkjBolX" role="3cqZAp" />
+        <node concept="3cpWs8" id="4NpYXr61GJy" role="3cqZAp">
+          <node concept="3cpWsn" id="4NpYXr61GJz" role="3cpWs9">
+            <property role="TrG5h" value="factory" />
+            <node concept="3uibUv" id="4NpYXr61GJ$" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:xRnvdcXTUt" resolve="OFXBatchJobAppFactory" />
+            </node>
+            <node concept="2ShNRf" id="4NpYXr61GJ_" role="33vP2m">
+              <node concept="1pGfFk" id="4NpYXr61GJA" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:6BKPvpDkQ7A" resolve="OFXBatchJobAppFactory" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4NpYXr61GJB" role="3cqZAp">
+          <node concept="2OqwBi" id="4NpYXr61GJC" role="3clFbG">
+            <node concept="37vLTw" id="4NpYXr61GJD" role="2Oq$k0">
+              <ref role="3cqZAo" node="4NpYXr61GJz" resolve="factory" />
+            </node>
+            <node concept="liA8E" id="4NpYXr61GJE" role="2OqNvi">
+              <ref role="37wK5l" to="z3ji:4NpYXr5VcS7" resolve="initialize" />
+              <node concept="Xl_RD" id="4NpYXr61GJF" role="37wK5m">
+                <property role="Xl_RC" value="testsuit" />
+              </node>
+              <node concept="Xl_RD" id="4NpYXr61GJG" role="37wK5m">
+                <property role="Xl_RC" value="0" />
+              </node>
+              <node concept="Xl_RD" id="4NpYXr61GJH" role="37wK5m">
+                <property role="Xl_RC" value="test0" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="2xm_JkjBomg" role="3cqZAp" />
         <node concept="3cpWs8" id="2xm_JkjBomh" role="3cqZAp">
           <node concept="3cpWsn" id="2xm_JkjBomi" role="3cpWs9">
@@ -4529,19 +4584,10 @@
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="z3ji:7BWfrtCZ5Nu" resolve="OFXProducerController" />
                   <ref role="37wK5l" to="z3ji:7BWfrtCZtdA" resolve="OFXProducerController" />
+                  <node concept="37vLTw" id="4NpYXr61HyG" role="37wK5m">
+                    <ref role="3cqZAo" node="4NpYXr61GJz" resolve="factory" />
+                  </node>
                   <node concept="10Nm6u" id="7HSdIeXZOUA" role="37wK5m" />
-                  <node concept="Xl_RD" id="7HSdIeXNXMT" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="Xl_RD" id="7HSdIeXNXTd" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="Xl_RD" id="7HSdIeXNXZB" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="Xl_RD" id="7HSdIeXNY2X" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
                   <node concept="3clFbT" id="2xm_JkjBomp" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
@@ -4550,7 +4596,7 @@
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="createNewProducerImplementation" />
                     <node concept="3uibUv" id="7HSdIeXZP7q" role="3clF45">
-                      <ref role="3uigEE" to="z3ji:7HSdIeXTaH9" resolve="OFXProducerCommandImpl" />
+                      <ref role="3uigEE" to="z3ji:4NpYXr5Te6L" resolve="IOFXCommandImplProducer" />
                       <node concept="3uibUv" id="7HSdIeXZP7w" role="11_B2D">
                         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                       </node>
@@ -4619,7 +4665,7 @@
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="createNewConsumerImplementation" />
                     <node concept="3uibUv" id="2xm_JkjBomt" role="3clF45">
-                      <ref role="3uigEE" to="z3ji:gmxFf4om6p" resolve="IOFXConsumerCommandImpl" />
+                      <ref role="3uigEE" to="z3ji:gmxFf4om6p" resolve="IOFXCommandImplConsumer" />
                       <node concept="3uibUv" id="2xm_JkjBomu" role="11_B2D">
                         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                       </node>
@@ -4631,13 +4677,27 @@
                           <node concept="YeOm9" id="2xm_JkjBomz" role="2ShVmc">
                             <node concept="1Y3b0j" id="2xm_JkjBom$" role="YeSDq">
                               <property role="2bfB8j" value="true" />
-                              <ref role="1Y3XeK" to="z3ji:gmxFf4om6p" resolve="IOFXConsumerCommandImpl" />
+                              <ref role="1Y3XeK" to="z3ji:gmxFf4om6p" resolve="IOFXCommandImplConsumer" />
                               <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                               <node concept="3Tm1VV" id="2xm_JkjBom_" role="1B3o_S" />
+                              <node concept="3clFb_" id="4NpYXr61ELk" role="jymVt">
+                                <property role="1EzhhJ" value="false" />
+                                <property role="TrG5h" value="getStatus" />
+                                <node concept="17QB3L" id="4NpYXr61ELl" role="3clF45" />
+                                <node concept="3Tm1VV" id="4NpYXr61ELm" role="1B3o_S" />
+                                <node concept="3clFbS" id="4NpYXr61ELn" role="3clF47">
+                                  <node concept="3clFbF" id="4NpYXr61ELo" role="3cqZAp">
+                                    <node concept="Xl_RD" id="4NpYXr61ELp" role="3clFbG">
+                                      <property role="Xl_RC" value="Testsuit Waiting Consumer" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="2tJIrI" id="4NpYXr61EK2" role="jymVt" />
                               <node concept="3clFb_" id="2xm_JkjBomA" role="jymVt">
                                 <property role="1EzhhJ" value="false" />
                                 <property role="TrG5h" value="process" />
-                                <node concept="17QB3L" id="7HSdIeY0MhL" role="3clF45" />
+                                <node concept="3cqZAl" id="4NpYXr61ERz" role="3clF45" />
                                 <node concept="3Tm1VV" id="2xm_JkjBomC" role="1B3o_S" />
                                 <node concept="37vLTG" id="2xm_JkjBomD" role="3clF46">
                                   <property role="TrG5h" value="key" />
@@ -4665,11 +4725,6 @@
                                     </node>
                                     <node concept="3clFbT" id="2xm_JkjBpoi" role="2$JKZa">
                                       <property role="3clFbU" value="true" />
-                                    </node>
-                                  </node>
-                                  <node concept="3cpWs6" id="7HSdIeY0Mma" role="3cqZAp">
-                                    <node concept="Xl_RD" id="7HSdIeY0Mw3" role="3cqZAk">
-                                      <property role="Xl_RC" value="Interrupt of thread detected" />
                                     </node>
                                   </node>
                                 </node>
@@ -4721,6 +4776,38 @@
         </node>
       </node>
       <node concept="3clFbS" id="2xm_JkjBYEj" role="3clF47">
+        <node concept="3cpWs8" id="4NpYXr61GUK" role="3cqZAp">
+          <node concept="3cpWsn" id="4NpYXr61GUL" role="3cpWs9">
+            <property role="TrG5h" value="factory" />
+            <node concept="3uibUv" id="4NpYXr61GUM" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:xRnvdcXTUt" resolve="OFXBatchJobAppFactory" />
+            </node>
+            <node concept="2ShNRf" id="4NpYXr61GUN" role="33vP2m">
+              <node concept="1pGfFk" id="4NpYXr61GUO" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:6BKPvpDkQ7A" resolve="OFXBatchJobAppFactory" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4NpYXr61GUP" role="3cqZAp">
+          <node concept="2OqwBi" id="4NpYXr61GUQ" role="3clFbG">
+            <node concept="37vLTw" id="4NpYXr61GUR" role="2Oq$k0">
+              <ref role="3cqZAo" node="4NpYXr61GUL" resolve="factory" />
+            </node>
+            <node concept="liA8E" id="4NpYXr61GUS" role="2OqNvi">
+              <ref role="37wK5l" to="z3ji:4NpYXr5VcS7" resolve="initialize" />
+              <node concept="Xl_RD" id="4NpYXr61GUT" role="37wK5m">
+                <property role="Xl_RC" value="testsuit" />
+              </node>
+              <node concept="Xl_RD" id="4NpYXr61GUU" role="37wK5m">
+                <property role="Xl_RC" value="0" />
+              </node>
+              <node concept="Xl_RD" id="4NpYXr61GUV" role="37wK5m">
+                <property role="Xl_RC" value="test0" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="2xm_JkjBYEk" role="3cqZAp" />
         <node concept="3cpWs8" id="2xm_JkjBYEC" role="3cqZAp">
           <node concept="3cpWsn" id="2xm_JkjBYED" role="3cpWs9">
@@ -4737,20 +4824,11 @@
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="z3ji:7BWfrtCZ5Nu" resolve="OFXProducerController" />
                   <ref role="37wK5l" to="z3ji:7BWfrtCZtdA" resolve="OFXProducerController" />
-                  <node concept="10Nm6u" id="7HSdIeXZRpS" role="37wK5m" />
-                  <node concept="Xl_RD" id="7HSdIeXNYBR" role="37wK5m">
-                    <property role="Xl_RC" value="" />
+                  <node concept="37vLTw" id="4NpYXr61HL4" role="37wK5m">
+                    <ref role="3cqZAo" node="4NpYXr61GUL" resolve="factory" />
                   </node>
-                  <node concept="Xl_RD" id="7HSdIeXNYF1" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="Xl_RD" id="7HSdIeXNYF6" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="Xl_RD" id="7HSdIeXNYFc" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="3clFbT" id="2xm_JkjBYEK" role="37wK5m">
+                  <node concept="10Nm6u" id="4NpYXr61HL5" role="37wK5m" />
+                  <node concept="3clFbT" id="4NpYXr61HL6" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
                   <node concept="2tJIrI" id="2xm_JkjBYEL" role="jymVt" />
@@ -4758,7 +4836,7 @@
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="createNewProducerImplementation" />
                     <node concept="3uibUv" id="7HSdIeXZQ9E" role="3clF45">
-                      <ref role="3uigEE" to="z3ji:7HSdIeXTaH9" resolve="OFXProducerCommandImpl" />
+                      <ref role="3uigEE" to="z3ji:4NpYXr5Te6L" resolve="IOFXCommandImplProducer" />
                       <node concept="3uibUv" id="7HSdIeXZQ9K" role="11_B2D">
                         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                       </node>
@@ -4827,7 +4905,7 @@
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="createNewConsumerImplementation" />
                     <node concept="3uibUv" id="2xm_JkjBYEO" role="3clF45">
-                      <ref role="3uigEE" to="z3ji:gmxFf4om6p" resolve="IOFXConsumerCommandImpl" />
+                      <ref role="3uigEE" to="z3ji:gmxFf4om6p" resolve="IOFXCommandImplConsumer" />
                       <node concept="3uibUv" id="2xm_JkjBYEP" role="11_B2D">
                         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                       </node>
@@ -4839,13 +4917,27 @@
                           <node concept="YeOm9" id="2xm_JkjBYEU" role="2ShVmc">
                             <node concept="1Y3b0j" id="2xm_JkjBYEV" role="YeSDq">
                               <property role="2bfB8j" value="true" />
-                              <ref role="1Y3XeK" to="z3ji:gmxFf4om6p" resolve="IOFXConsumerCommandImpl" />
+                              <ref role="1Y3XeK" to="z3ji:gmxFf4om6p" resolve="IOFXCommandImplConsumer" />
                               <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                               <node concept="3Tm1VV" id="2xm_JkjBYEW" role="1B3o_S" />
+                              <node concept="3clFb_" id="4NpYXr61F1_" role="jymVt">
+                                <property role="1EzhhJ" value="false" />
+                                <property role="TrG5h" value="getStatus" />
+                                <node concept="17QB3L" id="4NpYXr61F1A" role="3clF45" />
+                                <node concept="3Tm1VV" id="4NpYXr61F1B" role="1B3o_S" />
+                                <node concept="3clFbS" id="4NpYXr61F1C" role="3clF47">
+                                  <node concept="3clFbF" id="4NpYXr61F1D" role="3cqZAp">
+                                    <node concept="Xl_RD" id="4NpYXr61F1E" role="3clFbG">
+                                      <property role="Xl_RC" value="Testsuit Waiting Consumer" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="2tJIrI" id="4NpYXr61EXX" role="jymVt" />
                               <node concept="3clFb_" id="2xm_JkjBYEX" role="jymVt">
                                 <property role="1EzhhJ" value="false" />
                                 <property role="TrG5h" value="process" />
-                                <node concept="17QB3L" id="7HSdIeY0NbI" role="3clF45" />
+                                <node concept="3cqZAl" id="4NpYXr61F8G" role="3clF45" />
                                 <node concept="3Tm1VV" id="2xm_JkjBYEZ" role="1B3o_S" />
                                 <node concept="37vLTG" id="2xm_JkjBYF0" role="3clF46">
                                   <property role="TrG5h" value="key" />
@@ -4891,23 +4983,6 @@
                                             </node>
                                           </node>
                                         </node>
-                                      </node>
-                                    </node>
-                                  </node>
-                                  <node concept="3cpWs6" id="7HSdIeY0Njq" role="3cqZAp">
-                                    <node concept="3cpWs3" id="7HSdIeY0NFM" role="3cqZAk">
-                                      <node concept="1eOMI4" id="7HSdIeY0O8L" role="3uHU7w">
-                                        <node concept="17qRlL" id="7HSdIeY0O8M" role="1eOMHV">
-                                          <node concept="3cmrfG" id="7HSdIeY0O8N" role="3uHU7w">
-                                            <property role="3cmrfH" value="1009" />
-                                          </node>
-                                          <node concept="37vLTw" id="7HSdIeY0O8O" role="3uHU7B">
-                                            <ref role="3cqZAo" node="2xm_JkjBYF0" resolve="key" />
-                                          </node>
-                                        </node>
-                                      </node>
-                                      <node concept="Xl_RD" id="7HSdIeY0NmO" role="3uHU7B">
-                                        <property role="Xl_RC" value="Tried to wait for " />
                                       </node>
                                     </node>
                                   </node>
@@ -4967,6 +5042,39 @@
         </node>
       </node>
       <node concept="3clFbS" id="1TthV9fZ9jl" role="3clF47">
+        <node concept="3cpWs8" id="4NpYXr61HaS" role="3cqZAp">
+          <node concept="3cpWsn" id="4NpYXr61HaT" role="3cpWs9">
+            <property role="TrG5h" value="factory" />
+            <node concept="3uibUv" id="4NpYXr61HaU" role="1tU5fm">
+              <ref role="3uigEE" to="z3ji:xRnvdcXTUt" resolve="OFXBatchJobAppFactory" />
+            </node>
+            <node concept="2ShNRf" id="4NpYXr61HaV" role="33vP2m">
+              <node concept="1pGfFk" id="4NpYXr61HaW" role="2ShVmc">
+                <ref role="37wK5l" to="z3ji:6BKPvpDkQ7A" resolve="OFXBatchJobAppFactory" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4NpYXr61HaX" role="3cqZAp">
+          <node concept="2OqwBi" id="4NpYXr61HaY" role="3clFbG">
+            <node concept="37vLTw" id="4NpYXr61HaZ" role="2Oq$k0">
+              <ref role="3cqZAo" node="4NpYXr61HaT" resolve="factory" />
+            </node>
+            <node concept="liA8E" id="4NpYXr61Hb0" role="2OqNvi">
+              <ref role="37wK5l" to="z3ji:4NpYXr5VcS7" resolve="initialize" />
+              <node concept="Xl_RD" id="4NpYXr61Hb1" role="37wK5m">
+                <property role="Xl_RC" value="testsuit" />
+              </node>
+              <node concept="Xl_RD" id="4NpYXr61Hb2" role="37wK5m">
+                <property role="Xl_RC" value="0" />
+              </node>
+              <node concept="Xl_RD" id="4NpYXr61Hb3" role="37wK5m">
+                <property role="Xl_RC" value="test0" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4NpYXr61H6f" role="3cqZAp" />
         <node concept="3cpWs8" id="1TthV9fZa6S" role="3cqZAp">
           <node concept="3cpWsn" id="1TthV9fZa6T" role="3cpWs9">
             <property role="TrG5h" value="crtl" />
@@ -4982,20 +5090,11 @@
                   <property role="2bfB8j" value="true" />
                   <ref role="37wK5l" to="z3ji:7BWfrtCZtdA" resolve="OFXProducerController" />
                   <ref role="1Y3XeK" to="z3ji:7BWfrtCZ5Nu" resolve="OFXProducerController" />
-                  <node concept="10Nm6u" id="7HSdIeXZRLb" role="37wK5m" />
-                  <node concept="Xl_RD" id="7HSdIeXNYPi" role="37wK5m">
-                    <property role="Xl_RC" value="" />
+                  <node concept="37vLTw" id="4NpYXr61HTp" role="37wK5m">
+                    <ref role="3cqZAo" node="4NpYXr61HaT" resolve="factory" />
                   </node>
-                  <node concept="Xl_RD" id="7HSdIeXNYSb" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="Xl_RD" id="7HSdIeXNYVa" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="Xl_RD" id="7HSdIeXNYYf" role="37wK5m">
-                    <property role="Xl_RC" value="" />
-                  </node>
-                  <node concept="3clFbT" id="1TthV9fZa70" role="37wK5m">
+                  <node concept="10Nm6u" id="4NpYXr61HTq" role="37wK5m" />
+                  <node concept="3clFbT" id="4NpYXr61HTr" role="37wK5m">
                     <property role="3clFbU" value="true" />
                   </node>
                   <node concept="2tJIrI" id="1TthV9fZa71" role="jymVt" />
@@ -5003,7 +5102,7 @@
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="createNewProducerImplementation" />
                     <node concept="3uibUv" id="7HSdIeXZRXP" role="3clF45">
-                      <ref role="3uigEE" to="z3ji:7HSdIeXTaH9" resolve="OFXProducerCommandImpl" />
+                      <ref role="3uigEE" to="z3ji:4NpYXr5Te6L" resolve="IOFXCommandImplProducer" />
                       <node concept="3uibUv" id="7HSdIeXZRXV" role="11_B2D">
                         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                       </node>
@@ -5035,7 +5134,7 @@
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="createNewConsumerImplementation" />
                     <node concept="3uibUv" id="1TthV9fZa74" role="3clF45">
-                      <ref role="3uigEE" to="z3ji:gmxFf4om6p" resolve="IOFXConsumerCommandImpl" />
+                      <ref role="3uigEE" to="z3ji:gmxFf4om6p" resolve="IOFXCommandImplConsumer" />
                       <node concept="3uibUv" id="1TthV9fZa75" role="11_B2D">
                         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                       </node>
@@ -5047,13 +5146,27 @@
                           <node concept="YeOm9" id="1TthV9fZa7a" role="2ShVmc">
                             <node concept="1Y3b0j" id="1TthV9fZa7b" role="YeSDq">
                               <property role="2bfB8j" value="true" />
-                              <ref role="1Y3XeK" to="z3ji:gmxFf4om6p" resolve="IOFXConsumerCommandImpl" />
+                              <ref role="1Y3XeK" to="z3ji:gmxFf4om6p" resolve="IOFXCommandImplConsumer" />
                               <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                              <node concept="3clFb_" id="4NpYXr61FpZ" role="jymVt">
+                                <property role="1EzhhJ" value="false" />
+                                <property role="TrG5h" value="getStatus" />
+                                <node concept="17QB3L" id="4NpYXr61Fq0" role="3clF45" />
+                                <node concept="3Tm1VV" id="4NpYXr61Fq1" role="1B3o_S" />
+                                <node concept="3clFbS" id="4NpYXr61Fq2" role="3clF47">
+                                  <node concept="3clFbF" id="4NpYXr61Fq3" role="3cqZAp">
+                                    <node concept="Xl_RD" id="4NpYXr61Fq4" role="3clFbG">
+                                      <property role="Xl_RC" value="Testsuit Waiting Consumer" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="2tJIrI" id="4NpYXr61Foi" role="jymVt" />
                               <node concept="3Tm1VV" id="1TthV9fZa7c" role="1B3o_S" />
                               <node concept="3clFb_" id="1TthV9fZa7d" role="jymVt">
                                 <property role="1EzhhJ" value="false" />
                                 <property role="TrG5h" value="process" />
-                                <node concept="17QB3L" id="7HSdIeY0L47" role="3clF45" />
+                                <node concept="3cqZAl" id="4NpYXr61Fk2" role="3clF45" />
                                 <node concept="3Tm1VV" id="1TthV9fZa7f" role="1B3o_S" />
                                 <node concept="37vLTG" id="1TthV9fZa7g" role="3clF46">
                                   <property role="TrG5h" value="key" />
@@ -5145,13 +5258,6 @@
                                       </node>
                                     </node>
                                   </node>
-                                  <node concept="3clFbH" id="7HSdIeY0LBs" role="3cqZAp" />
-                                  <node concept="3cpWs6" id="7HSdIeY0LIb" role="3cqZAp">
-                                    <node concept="Xl_RD" id="7HSdIeY0LNX" role="3cqZAk">
-                                      <property role="Xl_RC" value="Successfully waited 500ms" />
-                                    </node>
-                                  </node>
-                                  <node concept="3clFbH" id="7HSdIeY0LfV" role="3cqZAp" />
                                 </node>
                               </node>
                               <node concept="3uibUv" id="1TthV9fZa7z" role="2Ghqu4">

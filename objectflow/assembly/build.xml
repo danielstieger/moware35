@@ -15,6 +15,11 @@
  export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
  export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
  
+ 
+ *
+ * Bundle-Name: spring-core 
+ * Bundle-SymbolicName: org.springframework.bundle.spring.core 
+ *
 -->
  
 <project name="OsigBatchJob" default="default">      
@@ -22,8 +27,8 @@
   <!-- **** app specific definitions **************************************************************** -->
   <property name="jobName"              value="OsgiBatchJob" />
   <property name="jobVersion"           value="1.0.0" />
-  <property name="jobSymbolicName"      value="org.modellwerkstatt.objectflow.batchjob" /> 
-  <property name="jobBundleActivator"   value="org.modellwerkstatt.objectflow.batchjob.BatchJobBasis" /> 
+  <property name="jobSymbolicName"      value="org.modellwerkstatt.objectflow.batchjob.OsgiBatchJobMainClass" /> 
+  <property name="jobBundleActivator"   value="org.modellwerkstatt.objectflow.batchjob.OFXOSGIBatchJob" /> 
   <property name="jobConfig"            value="/Users/danielstieger/moware/objectflow/solutions/sandbox/classes_gen.xml" /> 
   
   
@@ -60,6 +65,7 @@
     <jar jarfile="dist/${jobName}-${jobVersion}.jar" basedir="work" update="false" >
       <manifest>
         <attribute name="Bundle-Name" value="${jobName}"/>
+        <!-- create version from settings files of job? or from setting itself? -->
     	<attribute name="Bundle-Version" value="${jobVersion}"/>
     	<attribute name="Bundle-SymbolicName" value="${jobSymbolicName}" />
     	<attribute name="Bundle-Activator" value="${jobBundleActivator}" />

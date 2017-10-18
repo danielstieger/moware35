@@ -2221,8 +2221,21 @@
                         <node concept="37vLTw" id="ed5ezHH451" role="37vLTJ">
                           <ref role="3cqZAo" node="4Z0$komNfjl" resolve="msg" />
                         </node>
-                        <node concept="Xl_RD" id="ed5ezHH5yv" role="37vLTx">
-                          <property role="Xl_RC" value=" $ BROWSERSTART $ " />
+                        <node concept="3cpWs3" id="4NpYXr5SSbp" role="37vLTx">
+                          <node concept="2OqwBi" id="4NpYXr5SSTj" role="3uHU7w">
+                            <node concept="37vLTw" id="4NpYXr5SSRd" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                            </node>
+                            <node concept="liA8E" id="4NpYXr5STCC" role="2OqNvi">
+                              <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                              <node concept="Xl_RD" id="4NpYXr5STEI" role="37wK5m">
+                                <property role="Xl_RC" value="addinfo" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="ed5ezHH5yv" role="3uHU7B">
+                            <property role="Xl_RC" value=" $ BROWSERSTART $ " />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -2249,8 +2262,21 @@
                           <node concept="37vLTw" id="ed5ezHH8u6" role="37vLTJ">
                             <ref role="3cqZAo" node="4Z0$komNfjl" resolve="msg" />
                           </node>
-                          <node concept="Xl_RD" id="ed5ezHH8u7" role="37vLTx">
-                            <property role="Xl_RC" value=" $ RECONNECT $ " />
+                          <node concept="3cpWs3" id="4NpYXr5SV3s" role="37vLTx">
+                            <node concept="2OqwBi" id="4NpYXr5SVsK" role="3uHU7w">
+                              <node concept="37vLTw" id="4NpYXr5SVqE" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                              </node>
+                              <node concept="liA8E" id="4NpYXr5SWch" role="2OqNvi">
+                                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                                <node concept="Xl_RD" id="4NpYXr5SWSP" role="37wK5m">
+                                  <property role="Xl_RC" value="addinfo" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="ed5ezHH8u7" role="3uHU7B">
+                              <property role="Xl_RC" value=" $ RECONNECT $ " />
+                            </node>
                           </node>
                         </node>
                       </node>
