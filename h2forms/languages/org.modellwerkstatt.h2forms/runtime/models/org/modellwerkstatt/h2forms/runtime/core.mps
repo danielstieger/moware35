@@ -2228,8 +2228,8 @@
                             </node>
                             <node concept="liA8E" id="4NpYXr5STCC" role="2OqNvi">
                               <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
-                              <node concept="Xl_RD" id="4NpYXr5STEI" role="37wK5m">
-                                <property role="Xl_RC" value="addinfo" />
+                              <node concept="Xl_RD" id="1WqysfnWdIc" role="37wK5m">
+                                <property role="Xl_RC" value="appstart" />
                               </node>
                             </node>
                           </node>
@@ -2269,8 +2269,8 @@
                               </node>
                               <node concept="liA8E" id="4NpYXr5SWch" role="2OqNvi">
                                 <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
-                                <node concept="Xl_RD" id="4NpYXr5SWSP" role="37wK5m">
-                                  <property role="Xl_RC" value="addinfo" />
+                                <node concept="Xl_RD" id="1WqysfnWeqc" role="37wK5m">
+                                  <property role="Xl_RC" value="appstart" />
                                 </node>
                               </node>
                             </node>
