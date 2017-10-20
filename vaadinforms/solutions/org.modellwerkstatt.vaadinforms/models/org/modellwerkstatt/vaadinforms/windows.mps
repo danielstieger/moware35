@@ -45,6 +45,7 @@
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="w1x3" ref="r:76480de2-fa88-48a2-bd7b-72164b8122e1(org.modellwerkstatt.vaadinforms.auth)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
+    <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" implicit="true" />
   </imports>
   <registry>
@@ -2795,6 +2796,24 @@
           </node>
         </node>
         <node concept="3clFbH" id="3u$lBI4esJ6" role="3cqZAp" />
+        <node concept="3SKdUt" id="3tgwmmDbhlU" role="3cqZAp">
+          <node concept="3SKdUq" id="3tgwmmDbhlW" role="3SKWNk">
+            <property role="3SKdUp" value="cookies might be null? strangly? " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3tgwmmDbkBI" role="3cqZAp">
+          <node concept="3clFbS" id="3tgwmmDbkBK" role="3clFbx">
+            <node concept="3cpWs6" id="3tgwmmDbmW8" role="3cqZAp">
+              <node concept="10Nm6u" id="3tgwmmDbn3t" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="3clFbC" id="3tgwmmDbmAb" role="3clFbw">
+            <node concept="10Nm6u" id="3tgwmmDbmHw" role="3uHU7w" />
+            <node concept="37vLTw" id="3tgwmmDbmqR" role="3uHU7B">
+              <ref role="3cqZAo" node="2JTUDFv9mtF" resolve="cookies" />
+            </node>
+          </node>
+        </node>
         <node concept="3SKdUt" id="2JTUDFv9mu3" role="3cqZAp">
           <node concept="3SKdUq" id="2JTUDFv9mu2" role="3SKWNk">
             <property role="3SKdUp" value="Iterate to find cookie by its name " />
@@ -7822,6 +7841,7 @@
     <property role="TrG5h" value="VHotkeyHelper" />
     <node concept="3Tm1VV" id="4QTIUTClCwe" role="1B3o_S" />
     <node concept="2tJIrI" id="4M9afjaQgnQ" role="jymVt" />
+    <node concept="2tJIrI" id="3tgwmmDbFQS" role="jymVt" />
     <node concept="2YIFZL" id="7QITxIiTDJ0" role="jymVt">
       <property role="TrG5h" value="translateHkToVaadin" />
       <property role="IEkAT" value="false" />
@@ -7861,6 +7881,24 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="3tgwmmDbOmS" role="3cqZAp">
+          <node concept="3clFbS" id="3tgwmmDbOmU" role="3clFbx">
+            <node concept="3cpWs6" id="3tgwmmDbRqK" role="3cqZAp">
+              <node concept="10Nm6u" id="3tgwmmDbRx_" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3tgwmmDbOLf" role="3clFbw">
+            <node concept="Xl_RD" id="3tgwmmDbOzP" role="2Oq$k0">
+              <property role="Xl_RC" value="ADD" />
+            </node>
+            <node concept="liA8E" id="3tgwmmDbOWO" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="37vLTw" id="3tgwmmDbP1x" role="37wK5m">
+                <ref role="3cqZAo" node="7QITxIiTth_" resolve="key" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="1LWMBWza1qf" role="3cqZAp" />
         <node concept="3clFbH" id="1LWMBWza2ma" role="3cqZAp" />
         <node concept="3clFbJ" id="4M9afjb0Ha7" role="3cqZAp">
@@ -7889,6 +7927,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="1LWMBWza0r9" role="3cqZAp" />
+        <node concept="3clFbH" id="3tgwmmDbNRI" role="3cqZAp" />
         <node concept="SfApY" id="4M9afjaQ6ep" role="3cqZAp">
           <node concept="3clFbS" id="4M9afjaQ6er" role="SfCbr">
             <node concept="3cpWs8" id="4M9afjaPMeP" role="3cqZAp">
@@ -7981,19 +8020,41 @@
                 <ref role="3cqZAo" node="4M9afjaQ5jv" resolve="keyCode" />
               </node>
             </node>
+            <node concept="3clFbH" id="3tgwmmDbK27" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="4M9afjaQ8VO" role="TEbGg">
             <node concept="3clFbS" id="4M9afjaQ8VP" role="TDEfX">
-              <node concept="YS8fn" id="4M9afjaQ9SM" role="3cqZAp">
-                <node concept="2ShNRf" id="4M9afjaQ9U9" role="YScLw">
-                  <node concept="1pGfFk" id="4M9afjaQaPA" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="4M9afjaQaRR" role="37wK5m">
-                      <ref role="3cqZAo" node="4M9afjaQ8VQ" resolve="e" />
+              <node concept="3clFbF" id="3tgwmmDbHO4" role="3cqZAp">
+                <node concept="2OqwBi" id="3tgwmmDbIjn" role="3clFbG">
+                  <node concept="2YIFZM" id="3tgwmmDbHZp" role="2Oq$k0">
+                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                    <node concept="3VsKOn" id="3tgwmmDbIgg" role="37wK5m">
+                      <ref role="3VsUkX" node="4QTIUTClCwd" resolve="VHotkeyHelper" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="3tgwmmDbIr_" role="2OqNvi">
+                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                    <node concept="3cpWs3" id="3tgwmmDbIUu" role="37wK5m">
+                      <node concept="Xl_RD" id="3tgwmmDbIV$" role="3uHU7w">
+                        <property role="Xl_RC" value=" not available in vaadin applications. Choose different one? " />
+                      </node>
+                      <node concept="3cpWs3" id="3tgwmmDbIJw" role="3uHU7B">
+                        <node concept="Xl_RD" id="3tgwmmDbItC" role="3uHU7B">
+                          <property role="Xl_RC" value="Hotkey " />
+                        </node>
+                        <node concept="37vLTw" id="3tgwmmDbIQB" role="3uHU7w">
+                          <ref role="3cqZAo" node="7QITxIiTth_" resolve="key" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
+              <node concept="3cpWs6" id="3tgwmmDbFzz" role="3cqZAp">
+                <node concept="10Nm6u" id="3tgwmmDbFGC" role="3cqZAk" />
+              </node>
+              <node concept="3clFbH" id="3tgwmmDbNnk" role="3cqZAp" />
             </node>
             <node concept="3cpWsn" id="4M9afjaQ8VQ" role="TDEfY">
               <property role="TrG5h" value="e" />
@@ -8014,6 +8075,7 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="3tgwmmDbNxR" role="3cqZAp" />
             </node>
             <node concept="3cpWsn" id="4M9afjaQ9fM" role="TDEfY">
               <property role="TrG5h" value="e" />
