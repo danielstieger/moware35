@@ -203,7 +203,7 @@
     <node concept="1TJgyj" id="3ouNayfGPCd" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="colWeights" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="6MSPLZmFwYc" resolve="LayoutWeight" />
     </node>
     <node concept="PrWs8" id="2zZnBEDxFzB" role="PzmwI">

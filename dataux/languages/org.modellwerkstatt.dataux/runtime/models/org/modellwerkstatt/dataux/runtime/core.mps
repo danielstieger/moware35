@@ -24578,22 +24578,12 @@
       </node>
       <node concept="3clFbS" id="2o7h3aEkjxK" role="3clF47">
         <node concept="3clFbF" id="2o7h3aEkj_f" role="3cqZAp">
-          <node concept="3cpWs3" id="5MAleHoqsWZ" role="3clFbG">
-            <node concept="37vLTw" id="5MAleHoqsZf" role="3uHU7w">
-              <ref role="3cqZAo" node="zBgVaD6ku3" resolve="conclusionHash" />
+          <node concept="3cpWs3" id="2o7h3aEkjB7" role="3clFbG">
+            <node concept="Xl_RD" id="2o7h3aEkj_e" role="3uHU7B">
+              <property role="Xl_RC" value="CONCLUSION_EVENT $ " />
             </node>
-            <node concept="3cpWs3" id="5MAleHoqsPY" role="3uHU7B">
-              <node concept="3cpWs3" id="2o7h3aEkjB7" role="3uHU7B">
-                <node concept="Xl_RD" id="2o7h3aEkj_e" role="3uHU7B">
-                  <property role="Xl_RC" value="CONCLUSION_EVENT $ " />
-                </node>
-                <node concept="37vLTw" id="2o7h3aEkUxa" role="3uHU7w">
-                  <ref role="3cqZAo" node="2o7h3aEkUhu" resolve="desc" />
-                </node>
-              </node>
-              <node concept="Xl_RD" id="5MAleHoqsRm" role="3uHU7w">
-                <property role="Xl_RC" value=" / " />
-              </node>
+            <node concept="37vLTw" id="2o7h3aEkUxa" role="3uHU7w">
+              <ref role="3cqZAo" node="2o7h3aEkUhu" resolve="desc" />
             </node>
           </node>
         </node>
