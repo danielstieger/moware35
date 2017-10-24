@@ -5824,7 +5824,7 @@
               <node concept="liA8E" id="5ubRLyf6$KK" role="2OqNvi">
                 <ref role="37wK5l" to="zjsq:~KafkaConsumer.poll(long):org.apache.kafka.clients.consumer.ConsumerRecords" resolve="poll" />
                 <node concept="3cmrfG" id="5ubRLyf6$O1" role="37wK5m">
-                  <property role="3cmrfH" value="5000" />
+                  <property role="3cmrfH" value="10000" />
                 </node>
               </node>
             </node>
@@ -6121,7 +6121,7 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="7sK_OLrmozv" role="3cqZAp" />
+                <node concept="3clFbH" id="7sK_OLrmK5W" role="3cqZAp" />
               </node>
               <node concept="TDmWw" id="7sK_OLrm2oa" role="TEbGg">
                 <node concept="3cpWsn" id="7sK_OLrm2oc" role="TDEfY">
