@@ -21,9 +21,8 @@
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="x5li" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.format(org.modellwerkstatt.manmap.solution/)" />
-    <import index="ymoa" ref="5ee7e158-47ee-4545-8a18-ff9ead72515f/java:org.apache.kafka.common(NewLanguage.runtime/)" />
-    <import index="zjsq" ref="5ee7e158-47ee-4545-8a18-ff9ead72515f/java:org.apache.kafka.clients.consumer(NewLanguage.runtime/)" />
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
+    <import index="zjsq" ref="bd230cc8-9f23-4d08-88ae-92ff30662c34/java:org.apache.kafka.clients.consumer(org.modellwerkstatt.dataux.runtime/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -5271,21 +5270,21 @@
             <property role="TrG5h" value="tpList" />
             <node concept="3uibUv" id="7sK_OLrmhQs" role="1tU5fm">
               <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
-              <node concept="3uibUv" id="7sK_OLrmigZ" role="11_B2D">
-                <ref role="3uigEE" to="ymoa:~TopicPartition" resolve="TopicPartition" />
+              <node concept="3uibUv" id="7sK_OLrnQh_" role="11_B2D">
+                <ref role="3uigEE" to="ymo9:~TopicPartition" resolve="TopicPartition" />
               </node>
             </node>
             <node concept="2ShNRf" id="7sK_OLrmbUz" role="33vP2m">
               <node concept="1pGfFk" id="7sK_OLrmc5u" role="2ShVmc">
                 <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
-                <node concept="3uibUv" id="7sK_OLrmcTG" role="1pMfVU">
-                  <ref role="3uigEE" to="ymoa:~TopicPartition" resolve="TopicPartition" />
+                <node concept="3uibUv" id="7sK_OLrnQhB" role="1pMfVU">
+                  <ref role="3uigEE" to="ymo9:~TopicPartition" resolve="TopicPartition" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="7sK_OLrmnba" role="lGtFl">
+        <node concept="1X3_iC" id="7sK_OLrnXpO" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3clFbF" id="7sK_OLrm9MP" role="8Wnug">
@@ -6289,33 +6288,29 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="7sK_OLrlYca" role="3cqZAp" />
-                <node concept="1X3_iC" id="7sK_OLrmomB" role="lGtFl">
-                  <property role="3V$3am" value="statement" />
-                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                  <node concept="3clFbJ" id="7sK_OLrmez7" role="8Wnug">
-                    <node concept="3clFbS" id="7sK_OLrmez9" role="3clFbx">
-                      <node concept="3clFbF" id="7sK_OLrmf94" role="3cqZAp">
-                        <node concept="37vLTI" id="7sK_OLrmfaK" role="3clFbG">
-                          <node concept="3clFbT" id="7sK_OLrmfc$" role="37vLTx">
-                            <property role="3clFbU" value="false" />
-                          </node>
-                          <node concept="37vLTw" id="7sK_OLrmf92" role="37vLTJ">
-                            <ref role="3cqZAo" node="7sK_OLrm1$9" resolve="running" />
-                          </node>
+                <node concept="3clFbJ" id="7sK_OLrmez7" role="3cqZAp">
+                  <node concept="3clFbS" id="7sK_OLrmez9" role="3clFbx">
+                    <node concept="3clFbF" id="7sK_OLrmf94" role="3cqZAp">
+                      <node concept="37vLTI" id="7sK_OLrmfaK" role="3clFbG">
+                        <node concept="3clFbT" id="7sK_OLrmfc$" role="37vLTx">
+                          <property role="3clFbU" value="false" />
+                        </node>
+                        <node concept="37vLTw" id="7sK_OLrmf92" role="37vLTJ">
+                          <ref role="3cqZAo" node="7sK_OLrm1$9" resolve="running" />
                         </node>
                       </node>
                     </node>
-                    <node concept="3eOVzh" id="7sK_OLrmf2$" role="3clFbw">
-                      <node concept="3cmrfG" id="7sK_OLrmf2U" role="3uHU7w">
-                        <property role="3cmrfH" value="10" />
+                  </node>
+                  <node concept="3eOVzh" id="7sK_OLrmf2$" role="3clFbw">
+                    <node concept="3cmrfG" id="7sK_OLrmf2U" role="3uHU7w">
+                      <property role="3cmrfH" value="10" />
+                    </node>
+                    <node concept="2OqwBi" id="7sK_OLrmeN3" role="3uHU7B">
+                      <node concept="37vLTw" id="7sK_OLrmeKv" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5ubRLyf6zzu" resolve="records" />
                       </node>
-                      <node concept="2OqwBi" id="7sK_OLrmeN3" role="3uHU7B">
-                        <node concept="37vLTw" id="7sK_OLrmeKv" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5ubRLyf6zzu" resolve="records" />
-                        </node>
-                        <node concept="liA8E" id="7sK_OLrmeUT" role="2OqNvi">
-                          <ref role="37wK5l" to="zjsq:~ConsumerRecords.count():int" resolve="count" />
-                        </node>
+                      <node concept="liA8E" id="7sK_OLrmeUT" role="2OqNvi">
+                        <ref role="37wK5l" to="zjsq:~ConsumerRecords.count():int" resolve="count" />
                       </node>
                     </node>
                   </node>
