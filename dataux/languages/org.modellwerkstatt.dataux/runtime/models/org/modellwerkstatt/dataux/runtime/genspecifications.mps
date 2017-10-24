@@ -1321,6 +1321,25 @@
       <node concept="3cqZAl" id="3nLGOmWtRLH" role="3clF45" />
       <node concept="3Tm1VV" id="3nLGOmWtRLI" role="1B3o_S" />
       <node concept="3clFbS" id="3nLGOmWtRLJ" role="3clF47">
+        <node concept="3SKdUt" id="3bNT_p59pAu" role="3cqZAp">
+          <node concept="3SKdUq" id="3bNT_p59pAw" role="3SKWNk">
+            <property role="3SKdUp" value="this might result from bubbling events in java fx8" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3bNT_p59r1V" role="3cqZAp">
+          <node concept="3SKdUq" id="3bNT_p59r1X" role="3SKWNk">
+            <property role="3SKdUp" value="we had some issues there, but source of event bubbling was not determined. " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3bNT_p59noi" role="3cqZAp">
+          <node concept="3clFbS" id="3bNT_p59nok" role="3clFbx">
+            <node concept="3cpWs6" id="3bNT_p59oPS" role="3cqZAp" />
+          </node>
+          <node concept="37vLTw" id="3bNT_p59o7Q" role="3clFbw">
+            <ref role="3cqZAo" node="69bzya$iPM4" resolve="gcCleanCalled" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3bNT_p59mDq" role="3cqZAp" />
         <node concept="SfApY" id="69bzya$iK6C" role="3cqZAp">
           <node concept="3clFbS" id="69bzya$iK6E" role="SfCbr">
             <node concept="3SKdUt" id="6oMnH9FTY96" role="3cqZAp">
