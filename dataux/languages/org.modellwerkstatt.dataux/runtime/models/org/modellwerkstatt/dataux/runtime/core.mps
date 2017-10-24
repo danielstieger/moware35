@@ -27,6 +27,7 @@
     <import index="oawo" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/)" />
     <import index="zj7m" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.sql(JDK/)" />
     <import index="9vh7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management(JDK/)" />
+    <import index="x5li" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.format(org.modellwerkstatt.manmap.solution/)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" implicit="true" />
   </imports>
   <registry>
@@ -19593,15 +19594,6 @@
   <node concept="312cEu" id="SQhsWRUr6_">
     <property role="TrG5h" value="CoreReporter" />
     <property role="1sVAO0" value="true" />
-    <node concept="Wx3nA" id="6PK_6HzhuaB" role="jymVt">
-      <property role="TrG5h" value="DBG_LOG_EVENTS_TO_CONSOLE" />
-      <property role="3TUv4t" value="true" />
-      <node concept="10P_77" id="6PK_6HzhtKO" role="1tU5fm" />
-      <node concept="3Tmbuc" id="6PK_6HzhuV_" role="1B3o_S" />
-      <node concept="3clFbT" id="7HSdIeXRxYU" role="33vP2m">
-        <property role="3clFbU" value="false" />
-      </node>
-    </node>
     <node concept="312cEg" id="2ppo89mfsS6" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -19776,13 +19768,14 @@
             </node>
           </node>
           <node concept="1Wc70l" id="1w38SCBu9KV" role="3clFbw">
-            <node concept="37vLTw" id="1w38SCBu9PD" role="3uHU7w">
-              <ref role="3cqZAo" node="6PK_6HzhuaB" resolve="DBG_LOG_EVENTS_TO_CONSOLE" />
+            <node concept="10M0yZ" id="7sK_OLrfrtn" role="3uHU7w">
+              <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+              <ref role="3cqZAo" to="28jr:6PK_6HzhuaB" resolve="DBG_LOG_EVENTS_TO_CONSOLE" />
             </node>
             <node concept="3fqX7Q" id="1w38SCBu9MT" role="3uHU7B">
               <node concept="10M0yZ" id="1w38SCBu9MV" role="3fr31v">
-                <ref role="1PxDUh" to="ache:2zlZ_in5Vzm" resolve="DefaultTrans" />
-                <ref role="3cqZAo" to="ache:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+                <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
               </node>
             </node>
           </node>
@@ -20197,8 +20190,9 @@
               </node>
             </node>
           </node>
-          <node concept="37vLTw" id="6PK_6Hzhvgh" role="3clFbw">
-            <ref role="3cqZAo" node="6PK_6HzhuaB" resolve="DBG_LOG_EVENTS_TO_CONSOLE" />
+          <node concept="10M0yZ" id="7sK_OLrfsJ$" role="3clFbw">
+            <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+            <ref role="3cqZAo" to="28jr:6PK_6HzhuaB" resolve="DBG_LOG_EVENTS_TO_CONSOLE" />
           </node>
         </node>
         <node concept="3clFbF" id="4z69JWeWqtX" role="3cqZAp">
@@ -20208,6 +20202,9 @@
             </node>
             <node concept="liA8E" id="4z69JWeWqED" role="2OqNvi">
               <ref role="37wK5l" to="x37d:3CnNtH_0Dd6" resolve="logOnKafka" />
+              <node concept="37vLTw" id="7sK_OLrln1u" role="37wK5m">
+                <ref role="3cqZAo" node="6LJAXI1S7Ce" resolve="lastEventMillis" />
+              </node>
               <node concept="3cpWs3" id="4z69JWeUKvZ" role="37wK5m">
                 <node concept="3cpWs3" id="4z69JWeUKw0" role="3uHU7B">
                   <node concept="Xl_RD" id="4z69JWeUKw1" role="3uHU7w">
@@ -20219,18 +20216,8 @@
                         <property role="Xl_RC" value=" $ " />
                       </node>
                       <node concept="3cpWs3" id="4z69JWeUKw5" role="3uHU7B">
-                        <node concept="3cpWs3" id="4z69JWeUKw6" role="3uHU7B">
-                          <node concept="Xl_RD" id="4z69JWeUKw7" role="3uHU7w">
-                            <property role="Xl_RC" value=" $ " />
-                          </node>
-                          <node concept="2ShNRf" id="4z69JWeUKw8" role="3uHU7B">
-                            <node concept="1pGfFk" id="4z69JWeUKw9" role="2ShVmc">
-                              <ref role="37wK5l" to="33ny:~Date.&lt;init&gt;(long)" resolve="Date" />
-                              <node concept="37vLTw" id="4z69JWeUKwa" role="37wK5m">
-                                <ref role="3cqZAo" node="6LJAXI1S7Ce" resolve="lastEventMillis" />
-                              </node>
-                            </node>
-                          </node>
+                        <node concept="Xl_RD" id="4z69JWeUKw7" role="3uHU7B">
+                          <property role="Xl_RC" value=" $ " />
                         </node>
                         <node concept="37vLTw" id="4z69JWeUKwb" role="3uHU7w">
                           <ref role="3cqZAo" node="63IPdUQIr99" resolve="diffTime" />
@@ -27961,6 +27948,10 @@
                   </node>
                   <node concept="liA8E" id="r$jHpF3L8b" role="2OqNvi">
                     <ref role="37wK5l" to="x37d:3CnNtH_0Dd6" resolve="logOnKafka" />
+                    <node concept="2YIFZM" id="7sK_OLrltxo" role="37wK5m">
+                      <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                      <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                    </node>
                     <node concept="37vLTw" id="r$jHpF3L9r" role="37wK5m">
                       <ref role="3cqZAo" node="r$jHpF3HWf" resolve="msg" />
                     </node>
@@ -27993,13 +27984,17 @@
                 </node>
                 <node concept="liA8E" id="4M9afjaQNF7" role="2OqNvi">
                   <ref role="37wK5l" to="x37d:3CnNtH_0Dd6" resolve="logOnKafka" />
+                  <node concept="2YIFZM" id="7sK_OLrltBm" role="37wK5m">
+                    <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                    <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  </node>
                   <node concept="3cpWs3" id="4M9afjaQNWH" role="37wK5m">
                     <node concept="Xl_RD" id="4M9afjaQNXb" role="3uHU7w">
                       <property role="Xl_RC" value="' attempt to log in but was denied!" />
                     </node>
                     <node concept="3cpWs3" id="4M9afjaQNS8" role="3uHU7B">
                       <node concept="Xl_RD" id="4M9afjaQNM1" role="3uHU7B">
-                        <property role="Xl_RC" value="User '" />
+                        <property role="Xl_RC" value=" $ WARNING $ User '" />
                       </node>
                       <node concept="37vLTw" id="4M9afjaQNTU" role="3uHU7w">
                         <ref role="3cqZAo" node="vsIEjNuDgI" resolve="username" />

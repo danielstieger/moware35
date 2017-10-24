@@ -43701,5 +43701,77 @@
       </node>
     </node>
   </node>
+  <node concept="312cEu" id="7sK_OLreJFv">
+    <property role="TrG5h" value="MoVersion" />
+    <node concept="Wx3nA" id="79n7_omq6WT" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="DEVELOPMENT_SETTING" />
+      <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
+      <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
+      <node concept="3clFbT" id="7HSdIeXRy4R" role="33vP2m">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="6PK_6HzhuaB" role="jymVt">
+      <property role="TrG5h" value="DBG_LOG_EVENTS_TO_CONSOLE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10P_77" id="6PK_6HzhtKO" role="1tU5fm" />
+      <node concept="3Tm1VV" id="7sK_OLrfr$S" role="1B3o_S" />
+      <node concept="3clFbT" id="7HSdIeXRxYU" role="33vP2m">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="MOWARE_PLUGIN_VERSION" />
+      <node concept="3Tm1VV" id="79n7_omqfJV" role="1B3o_S" />
+      <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
+      <node concept="3cpWs3" id="3Ig$6jfKDGH" role="33vP2m">
+        <node concept="Xl_RD" id="3Ig$6jfKDIf" role="3uHU7w">
+          <property role="Xl_RC" value=")" />
+        </node>
+        <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
+          <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
+            <property role="Xl_RC" value="mowareCMD RC19 - V-Bug(dev " />
+          </node>
+          <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
+            <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7sK_OLreJIZ" role="jymVt" />
+    <node concept="2tJIrI" id="7sK_OLreK7K" role="jymVt" />
+    <node concept="2tJIrI" id="7sK_OLreK80" role="jymVt" />
+    <node concept="2YIFZL" id="7sK_OLrf0DT" role="jymVt">
+      <property role="TrG5h" value="main" />
+      <node concept="37vLTG" id="7sK_OLrf0DU" role="3clF46">
+        <property role="TrG5h" value="args" />
+        <node concept="10Q1$e" id="7sK_OLrf0DV" role="1tU5fm">
+          <node concept="17QB3L" id="7sK_OLrf0DW" role="10Q1$1" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7sK_OLrf0DX" role="3clF45" />
+      <node concept="3Tm1VV" id="7sK_OLrf0DY" role="1B3o_S" />
+      <node concept="3clFbS" id="7sK_OLrf0DZ" role="3clF47">
+        <node concept="3clFbF" id="7sK_OLrf0HO" role="3cqZAp">
+          <node concept="2OqwBi" id="7sK_OLrf0HL" role="3clFbG">
+            <node concept="10M0yZ" id="7sK_OLrf0HM" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.out" resolve="out" />
+            </node>
+            <node concept="liA8E" id="7sK_OLrf0HN" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="37vLTw" id="7sK_OLrf0PN" role="37wK5m">
+                <ref role="3cqZAo" node="7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7sK_OLreJJ1" role="jymVt" />
+    <node concept="3Tm1VV" id="7sK_OLreJFw" role="1B3o_S" />
+  </node>
 </model>
 

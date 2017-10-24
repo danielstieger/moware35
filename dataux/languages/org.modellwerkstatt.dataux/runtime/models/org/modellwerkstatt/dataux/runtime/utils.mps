@@ -1780,35 +1780,6 @@
   <node concept="312cEu" id="2zlZ_in5Vzm">
     <property role="TrG5h" value="DefaultTrans" />
     <node concept="3Tm1VV" id="2zlZ_in5Vzn" role="1B3o_S" />
-    <node concept="Wx3nA" id="79n7_omq6WT" role="jymVt">
-      <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="DEVELOPMENT_SETTING" />
-      <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
-      <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
-      <node concept="3clFbT" id="7HSdIeXRy4R" role="33vP2m">
-        <property role="3clFbU" value="false" />
-      </node>
-    </node>
-    <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
-      <property role="3TUv4t" value="true" />
-      <property role="TrG5h" value="MOWARE_PLUGIN_VERSION" />
-      <node concept="3Tm1VV" id="79n7_omqfJV" role="1B3o_S" />
-      <node concept="17QB3L" id="7708TIHG3qV" role="1tU5fm" />
-      <node concept="3cpWs3" id="3Ig$6jfKDGH" role="33vP2m">
-        <node concept="Xl_RD" id="3Ig$6jfKDIf" role="3uHU7w">
-          <property role="Xl_RC" value=")" />
-        </node>
-        <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
-          <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="mowareCMD RC19 - V-Bug(dev " />
-          </node>
-          <node concept="37vLTw" id="2$gclwwfVu1" role="3uHU7w">
-            <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="79n7_omq3qX" role="jymVt" />
     <node concept="312cEg" id="4Rlyz3EoDyi" role="jymVt">
       <property role="TrG5h" value="translationSelection" />
       <node concept="3Tm6S6" id="4Rlyz3EoDyj" role="1B3o_S" />
@@ -2644,8 +2615,9 @@
         <property role="TrG5h" value="MOWARE_VERSION" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="3cpWs3" id="7708TIHHbx3" role="37wK5m">
-          <node concept="37vLTw" id="7708TIHHbyL" role="3uHU7w">
-            <ref role="3cqZAo" node="7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
+          <node concept="10M0yZ" id="7sK_OLrfaOH" role="3uHU7w">
+            <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+            <ref role="3cqZAo" to="28jr:7708TIHG3jD" resolve="MOWARE_PLUGIN_VERSION" />
           </node>
           <node concept="Xl_RD" id="7708TIHHbqU" role="3uHU7B">
             <property role="Xl_RC" value="die modellwerkstatt.org App Framework " />
