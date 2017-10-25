@@ -5150,11 +5150,44 @@
                 <property role="Xl_RC" value="auto.commit.interval.ms" />
               </node>
               <node concept="Xl_RD" id="5ubRLyf6qOG" role="37wK5m">
-                <property role="Xl_RC" value="1000" />
+                <property role="Xl_RC" value="10000" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="61_utxKcl7A" role="3cqZAp">
+          <node concept="2OqwBi" id="61_utxKcl7B" role="3clFbG">
+            <node concept="37vLTw" id="61_utxKcl7C" role="2Oq$k0">
+              <ref role="3cqZAo" node="5ubRLyf6oP8" resolve="props" />
+            </node>
+            <node concept="liA8E" id="61_utxKcl7D" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <node concept="Xl_RD" id="61_utxKcl7E" role="37wK5m">
+                <property role="Xl_RC" value="socket.buffer.size" />
+              </node>
+              <node concept="Xl_RD" id="61_utxKcl7F" role="37wK5m">
+                <property role="Xl_RC" value="2097152" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="61_utxKclNM" role="3cqZAp">
+          <node concept="2OqwBi" id="61_utxKclNN" role="3clFbG">
+            <node concept="37vLTw" id="61_utxKclNO" role="2Oq$k0">
+              <ref role="3cqZAo" node="5ubRLyf6oP8" resolve="props" />
+            </node>
+            <node concept="liA8E" id="61_utxKclNP" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Hashtable.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <node concept="Xl_RD" id="61_utxKclNQ" role="37wK5m">
+                <property role="Xl_RC" value="fetch.size" />
+              </node>
+              <node concept="Xl_RD" id="61_utxKclNR" role="37wK5m">
+                <property role="Xl_RC" value="1048576" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="61_utxKcly1" role="3cqZAp" />
         <node concept="3clFbF" id="5ubRLyf6qUn" role="3cqZAp">
           <node concept="2OqwBi" id="5ubRLyf6qUo" role="3clFbG">
             <node concept="37vLTw" id="5ubRLyf6qUp" role="2Oq$k0">
@@ -5709,7 +5742,7 @@
                       <ref role="37wK5l" to="wyt6:~Integer.&lt;init&gt;(java.lang.String)" resolve="Integer" />
                       <node concept="AH0OO" id="7sK_OLrl1EG" role="37wK5m">
                         <node concept="3cmrfG" id="7sK_OLrl1EH" role="AHEQo">
-                          <property role="3cmrfH" value="0" />
+                          <property role="3cmrfH" value="1" />
                         </node>
                         <node concept="37vLTw" id="7sK_OLrl1OA" role="AHHXb">
                           <ref role="3cqZAo" node="7sK_OLrkJgy" resolve="splitted" />
@@ -5945,24 +5978,28 @@
                   </node>
                 </node>
               </node>
-              <node concept="3eOSWO" id="7sK_OLrnzFg" role="3clFbw">
-                <node concept="2OqwBi" id="7sK_OLrngqK" role="3uHU7B">
-                  <node concept="2YIFZM" id="7sK_OLrnyvx" role="2Oq$k0">
-                    <ref role="37wK5l" to="w08f:~Minutes.minutesBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant):org.joda.time.Minutes" resolve="minutesBetween" />
-                    <ref role="1Pybhc" to="w08f:~Minutes" resolve="Minutes" />
-                    <node concept="37vLTw" id="7sK_OLrnyvy" role="37wK5m">
-                      <ref role="3cqZAo" node="7sK_OLrnhch" resolve="msgDate" />
-                    </node>
-                    <node concept="37vLTw" id="7sK_OLrnyvz" role="37wK5m">
-                      <ref role="3cqZAo" node="7sK_OLrksZ_" resolve="lookingForDateTime" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="7sK_OLrng$W" role="2OqNvi">
-                    <ref role="37wK5l" to="w08f:~Minutes.getMinutes():int" resolve="getMinutes" />
-                  </node>
-                </node>
-                <node concept="3cmrfG" id="7sK_OLrngGu" role="3uHU7w">
+              <node concept="3eOSWO" id="3k6NRaQFlVW" role="3clFbw">
+                <node concept="3cmrfG" id="3k6NRaQFmAW" role="3uHU7w">
                   <property role="3cmrfH" value="60" />
+                </node>
+                <node concept="2YIFZM" id="3k6NRaQFjbF" role="3uHU7B">
+                  <ref role="1Pybhc" to="wyt6:~Math" resolve="Math" />
+                  <ref role="37wK5l" to="wyt6:~Math.abs(int):int" resolve="abs" />
+                  <node concept="2OqwBi" id="7sK_OLrngqK" role="37wK5m">
+                    <node concept="2YIFZM" id="7sK_OLrnyvx" role="2Oq$k0">
+                      <ref role="1Pybhc" to="w08f:~Minutes" resolve="Minutes" />
+                      <ref role="37wK5l" to="w08f:~Minutes.minutesBetween(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant):org.joda.time.Minutes" resolve="minutesBetween" />
+                      <node concept="37vLTw" id="7sK_OLrnyvy" role="37wK5m">
+                        <ref role="3cqZAo" node="7sK_OLrnhch" resolve="msgDate" />
+                      </node>
+                      <node concept="37vLTw" id="7sK_OLrnyvz" role="37wK5m">
+                        <ref role="3cqZAo" node="7sK_OLrksZ_" resolve="lookingForDateTime" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="7sK_OLrng$W" role="2OqNvi">
+                      <ref role="37wK5l" to="w08f:~Minutes.getMinutes():int" resolve="getMinutes" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -6225,6 +6262,16 @@
           </node>
         </node>
         <node concept="3clFbH" id="7sK_OLrlW8Z" role="3cqZAp" />
+        <node concept="3clFbH" id="61_utxKcrN_" role="3cqZAp" />
+        <node concept="3cpWs8" id="61_utxKcsf7" role="3cqZAp">
+          <node concept="3cpWsn" id="61_utxKcsfa" role="3cpWs9">
+            <property role="TrG5h" value="doneDisplayed" />
+            <node concept="10P_77" id="61_utxKcsf5" role="1tU5fm" />
+            <node concept="3clFbT" id="61_utxKcsze" role="33vP2m">
+              <property role="3clFbU" value="false" />
+            </node>
+          </node>
+        </node>
         <node concept="2$JKZl" id="5ubRLyf6zvE" role="3cqZAp">
           <node concept="3clFbS" id="5ubRLyf6zvG" role="2LFqv$">
             <node concept="SfApY" id="7sK_OLrm2o7" role="3cqZAp">
@@ -6323,26 +6370,41 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="7sK_OLrlYca" role="3cqZAp" />
-                <node concept="1X3_iC" id="7TLx30luX6z" role="lGtFl">
-                  <property role="3V$3am" value="statement" />
-                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                  <node concept="3clFbJ" id="7sK_OLrmez7" role="8Wnug">
-                    <node concept="3clFbS" id="7sK_OLrmez9" role="3clFbx">
-                      <node concept="3clFbF" id="7sK_OLrmf94" role="3cqZAp">
-                        <node concept="37vLTI" id="7sK_OLrmfaK" role="3clFbG">
-                          <node concept="3clFbT" id="7sK_OLrmfc$" role="37vLTx">
-                            <property role="3clFbU" value="false" />
-                          </node>
-                          <node concept="37vLTw" id="7sK_OLrmf92" role="37vLTJ">
-                            <ref role="3cqZAo" node="7sK_OLrm1$9" resolve="running" />
+                <node concept="3clFbJ" id="7sK_OLrmez7" role="3cqZAp">
+                  <node concept="3clFbS" id="7sK_OLrmez9" role="3clFbx">
+                    <node concept="3clFbF" id="7sK_OLrmf94" role="3cqZAp">
+                      <node concept="37vLTI" id="7sK_OLrmfaK" role="3clFbG">
+                        <node concept="3clFbT" id="7sK_OLrmfc$" role="37vLTx">
+                          <property role="3clFbU" value="true" />
+                        </node>
+                        <node concept="37vLTw" id="61_utxKct07" role="37vLTJ">
+                          <ref role="3cqZAo" node="61_utxKcsfa" resolve="doneDisplayed" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="61_utxKctat" role="3cqZAp">
+                      <node concept="2OqwBi" id="61_utxKctaq" role="3clFbG">
+                        <node concept="10M0yZ" id="61_utxKctar" role="2Oq$k0">
+                          <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                          <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                        </node>
+                        <node concept="liA8E" id="61_utxKctas" role="2OqNvi">
+                          <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                          <node concept="Xl_RD" id="61_utxKctcy" role="37wK5m">
+                            <property role="Xl_RC" value=" --- --- --- --- ---  END OF STREAM --- --- --- no live --- --- ---" />
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node concept="3eOVzh" id="7sK_OLrmf2$" role="3clFbw">
-                      <node concept="3cmrfG" id="7sK_OLrmf2U" role="3uHU7w">
-                        <property role="3cmrfH" value="10" />
+                    <node concept="3clFbH" id="61_utxKct7I" role="3cqZAp" />
+                  </node>
+                  <node concept="1Wc70l" id="61_utxKcsEV" role="3clFbw">
+                    <node concept="3fqX7Q" id="61_utxKcsS$" role="3uHU7w">
+                      <node concept="37vLTw" id="61_utxKcsSA" role="3fr31v">
+                        <ref role="3cqZAo" node="61_utxKcsfa" resolve="doneDisplayed" />
                       </node>
+                    </node>
+                    <node concept="3eOVzh" id="7sK_OLrmf2$" role="3uHU7B">
                       <node concept="2OqwBi" id="7sK_OLrmeN3" role="3uHU7B">
                         <node concept="37vLTw" id="7sK_OLrmeKv" role="2Oq$k0">
                           <ref role="3cqZAo" node="5ubRLyf6zzu" resolve="records" />
@@ -6351,33 +6413,8 @@
                           <ref role="37wK5l" to="zjsq:~ConsumerRecords.count():int" resolve="count" />
                         </node>
                       </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="1X3_iC" id="7TLx30lygD$" role="lGtFl">
-                  <property role="3V$3am" value="statement" />
-                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-                  <node concept="3clFbF" id="7sK_OLrmoJ6" role="8Wnug">
-                    <node concept="2OqwBi" id="7sK_OLrmoJ3" role="3clFbG">
-                      <node concept="10M0yZ" id="7sK_OLrmoJ4" role="2Oq$k0">
-                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                      </node>
-                      <node concept="liA8E" id="7sK_OLrmoJ5" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                        <node concept="3cpWs3" id="7sK_OLrmrRU" role="37wK5m">
-                          <node concept="2OqwBi" id="7sK_OLrmrYK" role="3uHU7w">
-                            <node concept="37vLTw" id="7sK_OLrmrW9" role="2Oq$k0">
-                              <ref role="3cqZAo" node="5ubRLyf6zzu" resolve="records" />
-                            </node>
-                            <node concept="liA8E" id="7sK_OLrms2U" role="2OqNvi">
-                              <ref role="37wK5l" to="zjsq:~ConsumerRecords.count():int" resolve="count" />
-                            </node>
-                          </node>
-                          <node concept="Xl_RD" id="7sK_OLrmoUb" role="3uHU7B">
-                            <property role="Xl_RC" value="--- --- --- --- received " />
-                          </node>
-                        </node>
+                      <node concept="3cmrfG" id="7sK_OLrmf2U" role="3uHU7w">
+                        <property role="3cmrfH" value="10" />
                       </node>
                     </node>
                   </node>

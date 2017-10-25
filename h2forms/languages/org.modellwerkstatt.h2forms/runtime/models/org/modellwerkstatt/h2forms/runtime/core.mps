@@ -2177,23 +2177,8 @@
                     <property role="TrG5h" value="msg" />
                     <node concept="17QB3L" id="4Z0$komNfjg" role="1tU5fm" />
                     <node concept="3cpWs3" id="18nf27lPwRb" role="33vP2m">
-                      <node concept="3cpWs3" id="18nf27lPrOc" role="3uHU7B">
-                        <node concept="3cpWs3" id="18nf27m7hKi" role="3uHU7B">
-                          <node concept="Xl_RD" id="18nf27m7hLY" role="3uHU7B">
-                            <property role="Xl_RC" value="" />
-                          </node>
-                          <node concept="2ShNRf" id="4z69JWeUKw8" role="3uHU7w">
-                            <node concept="1pGfFk" id="4z69JWeUKw9" role="2ShVmc">
-                              <ref role="37wK5l" to="33ny:~Date.&lt;init&gt;(long)" resolve="Date" />
-                              <node concept="37vLTw" id="7EeWEMeNg3b" role="37wK5m">
-                                <ref role="3cqZAo" node="1XvfUlyonLL" resolve="thisServedStartOfRequest" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="Xl_RD" id="18nf27lPrOV" role="3uHU7w">
-                          <property role="Xl_RC" value=" $ $ $ $ " />
-                        </node>
+                      <node concept="Xl_RD" id="18nf27lPrOV" role="3uHU7B">
+                        <property role="Xl_RC" value=" $ $ $ $ " />
                       </node>
                       <node concept="1eOMI4" id="4QZI$__PHuG" role="3uHU7w">
                         <node concept="10QFUN" id="4QZI$__PHuH" role="1eOMHV">
@@ -2291,6 +2276,10 @@
                     </node>
                     <node concept="liA8E" id="18nf27lPkvA" role="2OqNvi">
                       <ref role="37wK5l" to="x37d:3CnNtH_0Dd6" resolve="logOnKafka" />
+                      <node concept="2YIFZM" id="3k6NRaQrS6g" role="37wK5m">
+                        <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                        <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                      </node>
                       <node concept="3cpWs3" id="2JDNIBMSSwh" role="37wK5m">
                         <node concept="1rXfSq" id="2JDNIBMSTcn" role="3uHU7w">
                           <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
