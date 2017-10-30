@@ -154,39 +154,34 @@ function nextEnabledOrDefaultButton(currentIndex) {
 
 	var elemEditorIndex = parseInt(currentIndex) + 1;
 	var elem = $('*[editorIndex="' + elemEditorIndex + '"]');
+	/* elem should be the next one already, so if there is no
+	 * next one, start from beginning? No, check if there is a NEXT 
+	 * hotkey available 
+	 */
 	
-	/* double miss ? no recursion here */
-	if (elem == null && currentIndex != -1) {
-	  // to jump circular uncomment next line 
-	  // nextEnabledOrDefaultButton(-1);
-	  
-	  // or issue default conclusion 
+	if (elem == null) {
 	  var nextButton = $('#NEXT_button');
 	  if (nextButton != null && nextButton.disabled == false) {
 	     SaveSubmit(nextButton.getAttribute('navicrtl'));	
 	  }
 	  
-	} else if (elem != null) {
-	  
-	  /* is this element enabled ?? */
+	} else {
 	  if (elem.disabled == true) {
+		/* elem found, but it is disabled? 
+		 * recursion here, but recursion will stop when no elem is found. 
+		 */
 		nextEnabledOrDefaultButton(elemEditorIndex);
 	  
 	  } else {
-	  
-	    /* okay, then it is our turn */
-	  	elem.focus();
+	  	/* elem found, it is not disabled, so focus on elem */
+	    elem.focus();
 	  	if (elem.tagName.toLowerCase() == 'input') {
 			elem.select();
 		}
 	  
-	  	/* now do the scroll, but one editor should be one before*/ 
-	  	// console.log('Focussed on ' + elem.getAttribute('editorindex') + ' field');
-	  
 	  	var alignWithTop = true;
 	  	elem = $('*[editorIndex="' + (elemEditorIndex-1) + '"]');
 	  	elem.scrollIntoView(alignWithTop);
-	  	// console.log('Scrolled to ' + elem);
 	  }
 	}
 }
@@ -281,7 +276,10 @@ document.addEventListener('DOMContentLoaded', function() {
   	try {	
 		/* back button on android tc55 */
 		EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
-		powerOn.powerOnEvent = "url('JavaScript:enableScan();')";	
+		
+		/* powerOn.powerOnEvent = "url('JavaScript:enableScan();')"; 
+		 * also removed by Dan. Nov. 17 to check for browser hangup
+		 */
 	
 		
 		/* enable scan and register it for power on 
@@ -343,7 +341,7 @@ document.addEventListener('DOMContentLoaded', function() {
     	var type = event.target.nodeName.toLowerCase();
 		
 		if(type == 'input' || type == 'textarea' || type == 'select') {
-			// no double focus please. 
+			// no double focus please. Only when changing focus.
 			if (moware_focus_element != event.target) {
 				// myfocusOnElement will set moware_focus_element var
 				myfocusOnElement(event.target);
@@ -377,9 +375,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		
 		}	
 		
-	}, 200);
+	}, 400);
 	
-	enableScan();		
+	enableScan();
+			
 	if($('#flagbeep')) {
 		flagBeep(400);
 	}
@@ -394,5 +393,5 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	setInterval(incProgress, 20000);
 	incProgress();
-	console.log('EB h2forms start ' + zVersion + ' ' + new Date());
+	console.log('EB Special Debug JS h2forms start ' + zVersion + ' ' + new Date());
 }); 

@@ -2648,14 +2648,14 @@
                   <node concept="3cpWs3" id="4ysbFF_J3bO" role="3uHU7B">
                     <node concept="3cpWs3" id="4ysbFF_J2BF" role="3uHU7B">
                       <node concept="Xl_RD" id="4ysbFF_J0Q$" role="3uHU7B">
-                        <property role="Xl_RC" value="onClick=\&quot;javascript:SaveSubmit('simfoo_" />
+                        <property role="Xl_RC" value="onClick=\&quot;SaveSubmit('simfoo_" />
                       </node>
                       <node concept="37vLTw" id="4ysbFF_J2XW" role="3uHU7w">
                         <ref role="3cqZAo" node="4ysbFF_IY$6" resolve="hashCode" />
                       </node>
                     </node>
                     <node concept="Xl_RD" id="4ysbFF_J3mm" role="3uHU7w">
-                      <property role="Xl_RC" value="');\&quot; navicrtl=\&quot;simfoo_" />
+                      <property role="Xl_RC" value="');return false;\&quot; navicrtl=\&quot;simfoo_" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="4ysbFF_J4Cq" role="3uHU7w">
@@ -2889,7 +2889,7 @@
                   <node concept="liA8E" id="6SCOegTbYS0" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                     <node concept="Xl_RD" id="6SCOegTbYS1" role="37wK5m">
-                      <property role="Xl_RC" value="type=\&quot;button\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_" />
+                      <property role="Xl_RC" value="type=\&quot;button\&quot; onClick=\&quot;SaveSubmit('conclusion_" />
                     </node>
                   </node>
                 </node>
@@ -2907,7 +2907,7 @@
                   <node concept="liA8E" id="6SCOegTbSWT" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                     <node concept="Xl_RD" id="6SCOegTbSWU" role="37wK5m">
-                      <property role="Xl_RC" value="&lt;button id=\&quot;cancelbutton\&quot; type=\&quot;button\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_" />
+                      <property role="Xl_RC" value="&lt;button id=\&quot;cancelbutton\&quot; type=\&quot;button\&quot; onClick=\&quot;SaveSubmit('conclusion_" />
                     </node>
                   </node>
                 </node>
@@ -3393,7 +3393,7 @@
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="3cpWs3" id="3L0rgZdGXuF" role="37wK5m">
                     <node concept="Xl_RD" id="3L0rgZdGXCR" role="3uHU7w">
-                      <property role="Xl_RC" value=" class=\&quot;myscanbutton\&quot; onClick=\&quot;javascript:ScanSubmit();return false;\&quot; disabled&gt;&lt;div class=\&quot;labeldiv\&quot;&gt;" />
+                      <property role="Xl_RC" value=" class=\&quot;myscanbutton\&quot; onClick=\&quot;ScanSubmit();return false;\&quot; disabled&gt;&lt;div class=\&quot;labeldiv\&quot;&gt;" />
                     </node>
                     <node concept="Xl_RD" id="3L0rgZdFDQO" role="3uHU7B">
                       <property role="Xl_RC" value="&lt;div&gt; &lt;button id=\&quot;scanSoftButton\&quot; " />
@@ -3467,6 +3467,7 @@
               </node>
             </node>
             <node concept="3clFbH" id="4ZAoJsvFht9" role="3cqZAp" />
+            <node concept="3clFbH" id="4443BgfgoA$" role="3cqZAp" />
             <node concept="3clFbF" id="4ZAoJsvFhta" role="3cqZAp">
               <node concept="2OqwBi" id="4ZAoJsvFhtb" role="3clFbG">
                 <node concept="37vLTw" id="4ZAoJsvFhtc" role="2Oq$k0">
@@ -3571,7 +3572,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="3L0rgZdIEtf" role="3cqZAp" />
-        <node concept="3clFbH" id="3L0rgZdIEem" role="3cqZAp" />
         <node concept="1Dw8fO" id="3L0rgZd$p1L" role="3cqZAp">
           <node concept="3clFbS" id="3L0rgZd$p1N" role="2LFqv$">
             <node concept="3clFbJ" id="6ikpW6AfhG_" role="3cqZAp">
@@ -3645,7 +3645,7 @@
                     <node concept="liA8E" id="3L0rgZdHqGy" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                       <node concept="Xl_RD" id="3L0rgZdHqGz" role="37wK5m">
-                        <property role="Xl_RC" value="&lt;button id=\&quot;cancelbutton\&quot; type=\&quot;button\&quot; class=\&quot;kbrdbutton currentfg\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_0');return false;\&quot; navicrtl=\&quot;conclusion_0\&quot;&gt; &lt;div class=\&quot;labeldiv\&quot;&gt;" />
+                        <property role="Xl_RC" value="&lt;button id=\&quot;cancelbutton\&quot; type=\&quot;button\&quot; class=\&quot;kbrdbutton currentfg\&quot; onClick=\&quot;SaveSubmit('conclusion_0');return false;\&quot; navicrtl=\&quot;conclusion_0\&quot;&gt; &lt;div class=\&quot;labeldiv\&quot;&gt;" />
                       </node>
                     </node>
                   </node>
@@ -3720,7 +3720,7 @@
                                     <node concept="3cpWs3" id="3L0rgZdHDjm" role="3uHU7B">
                                       <node concept="3cpWs3" id="3L0rgZdHB48" role="3uHU7B">
                                         <node concept="Xl_RD" id="3L0rgZdHAua" role="3uHU7B">
-                                          <property role="Xl_RC" value="&lt;button id=\&quot;okbutton\&quot; type=\&quot;button\&quot; class=\&quot;kbrdbutton currentfg\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_" />
+                                          <property role="Xl_RC" value="&lt;button id=\&quot;okbutton\&quot; type=\&quot;button\&quot; class=\&quot;kbrdbutton currentfg\&quot; onClick=\&quot;SaveSubmit('conclusion_" />
                                         </node>
                                         <node concept="2OqwBi" id="2xnCXJMlk_d" role="3uHU7w">
                                           <node concept="37vLTw" id="2xnCXJMlkoM" role="2Oq$k0">
@@ -3732,7 +3732,7 @@
                                         </node>
                                       </node>
                                       <node concept="Xl_RD" id="3L0rgZdHDCH" role="3uHU7w">
-                                        <property role="Xl_RC" value="');\&quot; navicrtl=\&quot;conclusion_" />
+                                        <property role="Xl_RC" value="');return false;\&quot; navicrtl=\&quot;conclusion_" />
                                       </node>
                                     </node>
                                     <node concept="2OqwBi" id="2xnCXJMllYP" role="3uHU7w">
@@ -3775,7 +3775,7 @@
                                       <node concept="3cpWs3" id="ao4XGT1Apu" role="3uHU7B">
                                         <node concept="3cpWs3" id="ao4XGT1Apv" role="3uHU7B">
                                           <node concept="Xl_RD" id="ao4XGT1Apw" role="3uHU7B">
-                                            <property role="Xl_RC" value="&lt;button id=\&quot;okbutton\&quot; type=\&quot;button\&quot; class=\&quot;kbrdbutton\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_" />
+                                            <property role="Xl_RC" value="&lt;button id=\&quot;okbutton\&quot; type=\&quot;button\&quot; class=\&quot;kbrdbutton\&quot; onClick=\&quot;SaveSubmit('conclusion_" />
                                           </node>
                                           <node concept="2OqwBi" id="ao4XGT1Apx" role="3uHU7w">
                                             <node concept="37vLTw" id="ao4XGT1Apy" role="2Oq$k0">
@@ -3787,7 +3787,7 @@
                                           </node>
                                         </node>
                                         <node concept="Xl_RD" id="ao4XGT1Ap$" role="3uHU7w">
-                                          <property role="Xl_RC" value="');\&quot; navicrtl=\&quot;conclusion_" />
+                                          <property role="Xl_RC" value="');return false;\&quot; navicrtl=\&quot;conclusion_" />
                                         </node>
                                       </node>
                                       <node concept="2OqwBi" id="ao4XGT1Ap_" role="3uHU7w">
@@ -4015,7 +4015,7 @@
                                 </node>
                               </node>
                               <node concept="Xl_RD" id="3L0rgZdHkMr" role="3uHU7w">
-                                <property role="Xl_RC" value="\&quot; onclick=\&quot;javascript:mykeyboardKeypress('" />
+                                <property role="Xl_RC" value="\&quot; onclick=\&quot;mykeyboardKeypress('" />
                               </node>
                             </node>
                             <node concept="AH0OO" id="7TBDjKk5OZ4" role="3uHU7w">
