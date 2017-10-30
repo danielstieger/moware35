@@ -4776,8 +4776,8 @@
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="4QTIUTCpC24" role="1tU5fm" />
       <node concept="3Tm6S6" id="4QTIUTCpBjC" role="1B3o_S" />
-      <node concept="Xl_RD" id="75kLEGOJd2b" role="33vP2m">
-        <property role="Xl_RC" value="/home/daniels/vaadinlog.txt" />
+      <node concept="Xl_RD" id="4443Bgf90rS" role="33vP2m">
+        <property role="Xl_RC" value="/Users/danielstieger/vaadinlog.txt" />
       </node>
     </node>
     <node concept="Wx3nA" id="75kLEGOHJvW" role="jymVt">
@@ -15110,18 +15110,22 @@
                       </node>
                     </node>
                     <node concept="3clFbS" id="5tLhDsewDed" role="3clF47">
-                      <node concept="3clFbF" id="75kLEGOH16q" role="3cqZAp">
-                        <node concept="1rXfSq" id="75kLEGOH16o" role="3clFbG">
-                          <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
-                          <node concept="Xl_RD" id="75kLEGOH1VW" role="37wK5m">
-                            <property role="Xl_RC" value="selectionListener" />
-                          </node>
-                          <node concept="3cpWs3" id="75kLEGOH42U" role="37wK5m">
-                            <node concept="37vLTw" id="75kLEGOH4_F" role="3uHU7w">
-                              <ref role="3cqZAo" node="5tLhDsekvhi" resolve="selectionHandlerEnabled" />
+                      <node concept="1X3_iC" id="4443Bgf9s$P" role="lGtFl">
+                        <property role="3V$3am" value="statement" />
+                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                        <node concept="3clFbF" id="75kLEGOH16q" role="8Wnug">
+                          <node concept="1rXfSq" id="75kLEGOH16o" role="3clFbG">
+                            <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
+                            <node concept="Xl_RD" id="75kLEGOH1VW" role="37wK5m">
+                              <property role="Xl_RC" value="selectionListener" />
                             </node>
-                            <node concept="Xl_RD" id="75kLEGOH2Se" role="3uHU7B">
-                              <property role="Xl_RC" value="valueChanged received selectionHandlerEnabled=" />
+                            <node concept="3cpWs3" id="75kLEGOH42U" role="37wK5m">
+                              <node concept="37vLTw" id="75kLEGOH4_F" role="3uHU7w">
+                                <ref role="3cqZAo" node="5tLhDsekvhi" resolve="selectionHandlerEnabled" />
+                              </node>
+                              <node concept="Xl_RD" id="75kLEGOH2Se" role="3uHU7B">
+                                <property role="Xl_RC" value="valueChanged received selectionHandlerEnabled=" />
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -15218,18 +15222,22 @@
                                   </node>
                                 </node>
                               </node>
-                              <node concept="3clFbF" id="3k6NRaQqjFV" role="3cqZAp">
-                                <node concept="1rXfSq" id="3k6NRaQqjFT" role="3clFbG">
-                                  <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
-                                  <node concept="Xl_RD" id="3k6NRaQqkoF" role="37wK5m">
-                                    <property role="Xl_RC" value="selectionListener" />
-                                  </node>
-                                  <node concept="3cpWs3" id="3k6NRaQqmo$" role="37wK5m">
-                                    <node concept="37vLTw" id="3k6NRaQqmUo" role="3uHU7w">
-                                      <ref role="3cqZAo" node="5tLhDsewXWZ" resolve="selectedItemIds_1indexed" />
+                              <node concept="1X3_iC" id="4443Bgf9lmx" role="lGtFl">
+                                <property role="3V$3am" value="statement" />
+                                <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                                <node concept="3clFbF" id="3k6NRaQqjFV" role="8Wnug">
+                                  <node concept="1rXfSq" id="3k6NRaQqjFT" role="3clFbG">
+                                    <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
+                                    <node concept="Xl_RD" id="3k6NRaQqkoF" role="37wK5m">
+                                      <property role="Xl_RC" value="selectionListener" />
                                     </node>
-                                    <node concept="Xl_RD" id="3k6NRaQqkXd" role="3uHU7B">
-                                      <property role="Xl_RC" value="before pusSelection() sel is=" />
+                                    <node concept="3cpWs3" id="3k6NRaQqmo$" role="37wK5m">
+                                      <node concept="37vLTw" id="3k6NRaQqmUo" role="3uHU7w">
+                                        <ref role="3cqZAo" node="5tLhDsewXWZ" resolve="selectedItemIds_1indexed" />
+                                      </node>
+                                      <node concept="Xl_RD" id="3k6NRaQqkXd" role="3uHU7B">
+                                        <property role="Xl_RC" value="before pusSelection() sel is=" />
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
@@ -15418,32 +15426,36 @@
                         </node>
                       </node>
                       <node concept="3clFbH" id="75kLEGOMV2k" role="3cqZAp" />
-                      <node concept="3clFbF" id="75kLEGOHjYW" role="3cqZAp">
-                        <node concept="1rXfSq" id="75kLEGOHjYU" role="3clFbG">
-                          <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
-                          <node concept="Xl_RD" id="75kLEGOHkTE" role="37wK5m">
-                            <property role="Xl_RC" value="itemClickListener" />
-                          </node>
-                          <node concept="3cpWs3" id="75kLEGOI0yW" role="37wK5m">
-                            <node concept="2OqwBi" id="75kLEGOI1Bz" role="3uHU7w">
-                              <node concept="37vLTw" id="75kLEGOI1iJ" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1qyrOJ9xcit" resolve="p0" />
-                              </node>
-                              <node concept="liA8E" id="75kLEGOI1NL" role="2OqNvi">
-                                <ref role="37wK5l" to="tj3g:~MouseEvents$ClickEvent.isCtrlKey():boolean" resolve="isCtrlKey" />
-                              </node>
+                      <node concept="1X3_iC" id="4443Bgf9up3" role="lGtFl">
+                        <property role="3V$3am" value="statement" />
+                        <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                        <node concept="3clFbF" id="75kLEGOHjYW" role="8Wnug">
+                          <node concept="1rXfSq" id="75kLEGOHjYU" role="3clFbG">
+                            <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
+                            <node concept="Xl_RD" id="75kLEGOHkTE" role="37wK5m">
+                              <property role="Xl_RC" value="itemClickListener" />
                             </node>
-                            <node concept="3cpWs3" id="75kLEGOHZWI" role="3uHU7B">
-                              <node concept="3cpWs3" id="75kLEGOHmmQ" role="3uHU7B">
-                                <node concept="Xl_RD" id="75kLEGOHm0i" role="3uHU7B">
-                                  <property role="Xl_RC" value="with event " />
-                                </node>
-                                <node concept="37vLTw" id="75kLEGOHmFn" role="3uHU7w">
+                            <node concept="3cpWs3" id="75kLEGOI0yW" role="37wK5m">
+                              <node concept="2OqwBi" id="75kLEGOI1Bz" role="3uHU7w">
+                                <node concept="37vLTw" id="75kLEGOI1iJ" role="2Oq$k0">
                                   <ref role="3cqZAo" node="1qyrOJ9xcit" resolve="p0" />
                                 </node>
+                                <node concept="liA8E" id="75kLEGOI1NL" role="2OqNvi">
+                                  <ref role="37wK5l" to="tj3g:~MouseEvents$ClickEvent.isCtrlKey():boolean" resolve="isCtrlKey" />
+                                </node>
                               </node>
-                              <node concept="Xl_RD" id="75kLEGOI0ac" role="3uHU7w">
-                                <property role="Xl_RC" value=" (CRTL? " />
+                              <node concept="3cpWs3" id="75kLEGOHZWI" role="3uHU7B">
+                                <node concept="3cpWs3" id="75kLEGOHmmQ" role="3uHU7B">
+                                  <node concept="Xl_RD" id="75kLEGOHm0i" role="3uHU7B">
+                                    <property role="Xl_RC" value="with event " />
+                                  </node>
+                                  <node concept="37vLTw" id="75kLEGOHmFn" role="3uHU7w">
+                                    <ref role="3cqZAo" node="1qyrOJ9xcit" resolve="p0" />
+                                  </node>
+                                </node>
+                                <node concept="Xl_RD" id="75kLEGOI0ac" role="3uHU7w">
+                                  <property role="Xl_RC" value=" (CRTL? " />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -15590,14 +15602,18 @@
                               <property role="3SKdUp" value=" - select current " />
                             </node>
                           </node>
-                          <node concept="3clFbF" id="75kLEGOHny9" role="3cqZAp">
-                            <node concept="1rXfSq" id="75kLEGOHny7" role="3clFbG">
-                              <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
-                              <node concept="Xl_RD" id="75kLEGOHop2" role="37wK5m">
-                                <property role="Xl_RC" value="itemClickListener" />
-                              </node>
-                              <node concept="Xl_RD" id="75kLEGOHpc_" role="37wK5m">
-                                <property role="Xl_RC" value="MouseButton.RIGHT checkking selection" />
+                          <node concept="1X3_iC" id="4443Bgf9lY0" role="lGtFl">
+                            <property role="3V$3am" value="statement" />
+                            <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                            <node concept="3clFbF" id="75kLEGOHny9" role="8Wnug">
+                              <node concept="1rXfSq" id="75kLEGOHny7" role="3clFbG">
+                                <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
+                                <node concept="Xl_RD" id="75kLEGOHop2" role="37wK5m">
+                                  <property role="Xl_RC" value="itemClickListener" />
+                                </node>
+                                <node concept="Xl_RD" id="75kLEGOHpc_" role="37wK5m">
+                                  <property role="Xl_RC" value="MouseButton.RIGHT checkking selection" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -15747,18 +15763,22 @@
                                         </node>
                                       </node>
                                     </node>
-                                    <node concept="3clFbF" id="75kLEGOHrpL" role="3cqZAp">
-                                      <node concept="1rXfSq" id="75kLEGOHrpM" role="3clFbG">
-                                        <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
-                                        <node concept="Xl_RD" id="75kLEGOHrpN" role="37wK5m">
-                                          <property role="Xl_RC" value="itemClickListener" />
-                                        </node>
-                                        <node concept="3cpWs3" id="75kLEGOHsZ7" role="37wK5m">
-                                          <node concept="37vLTw" id="75kLEGOHtwT" role="3uHU7w">
-                                            <ref role="3cqZAo" node="1yQJrOW_UhA" resolve="foundObjsIds" />
+                                    <node concept="1X3_iC" id="4443Bgf9mCF" role="lGtFl">
+                                      <property role="3V$3am" value="statement" />
+                                      <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                                      <node concept="3clFbF" id="75kLEGOHrpL" role="8Wnug">
+                                        <node concept="1rXfSq" id="75kLEGOHrpM" role="3clFbG">
+                                          <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
+                                          <node concept="Xl_RD" id="75kLEGOHrpN" role="37wK5m">
+                                            <property role="Xl_RC" value="itemClickListener" />
                                           </node>
-                                          <node concept="Xl_RD" id="75kLEGOHrpO" role="3uHU7B">
-                                            <property role="Xl_RC" value="MouseButton.RIGHT updating the selection to " />
+                                          <node concept="3cpWs3" id="75kLEGOHsZ7" role="37wK5m">
+                                            <node concept="37vLTw" id="75kLEGOHtwT" role="3uHU7w">
+                                              <ref role="3cqZAo" node="1yQJrOW_UhA" resolve="foundObjsIds" />
+                                            </node>
+                                            <node concept="Xl_RD" id="75kLEGOHrpO" role="3uHU7B">
+                                              <property role="Xl_RC" value="MouseButton.RIGHT updating the selection to " />
+                                            </node>
                                           </node>
                                         </node>
                                       </node>
@@ -15952,6 +15972,42 @@
                                 </node>
                               </node>
                             </node>
+                            <node concept="3clFbH" id="4443Bgf8MYy" role="3cqZAp" />
+                            <node concept="1X3_iC" id="4443Bgf9ty7" role="lGtFl">
+                              <property role="3V$3am" value="statement" />
+                              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                              <node concept="3clFbF" id="4443Bgf8RWT" role="8Wnug">
+                                <node concept="1rXfSq" id="4443Bgf8RWR" role="3clFbG">
+                                  <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
+                                  <node concept="Xl_RD" id="4443Bgf8SOj" role="37wK5m">
+                                    <property role="Xl_RC" value="itemClickListener" />
+                                  </node>
+                                  <node concept="3cpWs3" id="4443Bgf8U47" role="37wK5m">
+                                    <node concept="Xl_RD" id="4443Bgf8TxW" role="3uHU7B">
+                                      <property role="Xl_RC" value="Size is now: " />
+                                    </node>
+                                    <node concept="2OqwBi" id="4443Bgf8Uhw" role="3uHU7w">
+                                      <node concept="1eOMI4" id="4443Bgf8Uhx" role="2Oq$k0">
+                                        <node concept="10QFUN" id="4443Bgf8Uhy" role="1eOMHV">
+                                          <node concept="3uibUv" id="4443Bgf8Uhz" role="10QFUM">
+                                            <ref role="3uigEE" to="33ny:~Set" resolve="Set" />
+                                            <node concept="3uibUv" id="4443Bgf8Uh$" role="11_B2D">
+                                              <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+                                            </node>
+                                          </node>
+                                          <node concept="37vLTw" id="4443Bgf8Uh_" role="10QFUP">
+                                            <ref role="3cqZAo" node="75kLEGONTYU" resolve="value" />
+                                          </node>
+                                        </node>
+                                      </node>
+                                      <node concept="liA8E" id="4443Bgf8UhA" role="2OqNvi">
+                                        <ref role="37wK5l" to="33ny:~Set.size():int" resolve="size" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                             <node concept="3clFbJ" id="75kLEGONqjh" role="3cqZAp">
                               <node concept="3clFbS" id="75kLEGONqjj" role="3clFbx">
                                 <node concept="3SKdUt" id="75kLEGONomO" role="3cqZAp">
@@ -15959,6 +16015,7 @@
                                     <property role="3SKdUp" value="the infamouse mpreis crtl down problem. " />
                                   </node>
                                 </node>
+                                <node concept="3clFbH" id="4443Bgf8NpU" role="3cqZAp" />
                                 <node concept="3cpWs8" id="75kLEGONDzX" role="3cqZAp">
                                   <node concept="3cpWsn" id="75kLEGONDzY" role="3cpWs9">
                                     <property role="TrG5h" value="singleSelection" />
@@ -16060,18 +16117,22 @@
                                                     </node>
                                                   </node>
                                                 </node>
-                                                <node concept="3clFbF" id="75kLEGONKk8" role="3cqZAp">
-                                                  <node concept="1rXfSq" id="75kLEGONKk9" role="3clFbG">
-                                                    <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
-                                                    <node concept="Xl_RD" id="75kLEGONKka" role="37wK5m">
-                                                      <property role="Xl_RC" value="itemClickListener" />
-                                                    </node>
-                                                    <node concept="3cpWs3" id="75kLEGONKkb" role="37wK5m">
-                                                      <node concept="37vLTw" id="75kLEGONKkc" role="3uHU7w">
-                                                        <ref role="3cqZAo" node="75kLEGONHPV" resolve="foundObjsIds" />
+                                                <node concept="1X3_iC" id="4443Bgf9kFY" role="lGtFl">
+                                                  <property role="3V$3am" value="statement" />
+                                                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                                                  <node concept="3clFbF" id="75kLEGONKk8" role="8Wnug">
+                                                    <node concept="1rXfSq" id="75kLEGONKk9" role="3clFbG">
+                                                      <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
+                                                      <node concept="Xl_RD" id="75kLEGONKka" role="37wK5m">
+                                                        <property role="Xl_RC" value="itemClickListener" />
                                                       </node>
-                                                      <node concept="Xl_RD" id="75kLEGONKkd" role="3uHU7B">
-                                                        <property role="Xl_RC" value="MouseButton.LEFT UPDATING the selection to " />
+                                                      <node concept="3cpWs3" id="75kLEGONKkb" role="37wK5m">
+                                                        <node concept="37vLTw" id="75kLEGONKkc" role="3uHU7w">
+                                                          <ref role="3cqZAo" node="75kLEGONHPV" resolve="foundObjsIds" />
+                                                        </node>
+                                                        <node concept="Xl_RD" id="75kLEGONKkd" role="3uHU7B">
+                                                          <property role="Xl_RC" value="MouseButton.LEFT UPDATING the selection to " />
+                                                        </node>
                                                       </node>
                                                     </node>
                                                   </node>
@@ -18237,18 +18298,22 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="75kLEGOH8JD" role="3cqZAp">
-          <node concept="1rXfSq" id="75kLEGOH8JB" role="3clFbG">
-            <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
-            <node concept="Xl_RD" id="75kLEGOHdDX" role="37wK5m">
-              <property role="Xl_RC" value="selectionChanged" />
-            </node>
-            <node concept="3cpWs3" id="75kLEGOHhaB" role="37wK5m">
-              <node concept="37vLTw" id="75kLEGOHiGA" role="3uHU7w">
-                <ref role="3cqZAo" node="5XHFlRODqPm" resolve="selection" />
+        <node concept="1X3_iC" id="4443Bgf9nis" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="75kLEGOH8JD" role="8Wnug">
+            <node concept="1rXfSq" id="75kLEGOH8JB" role="3clFbG">
+              <ref role="37wK5l" node="3k6NRaQpyZR" resolve="livedbg" />
+              <node concept="Xl_RD" id="75kLEGOHdDX" role="37wK5m">
+                <property role="Xl_RC" value="selectionChanged" />
               </node>
-              <node concept="Xl_RD" id="75kLEGOHf6S" role="3uHU7B">
-                <property role="Xl_RC" value="selectionHandlerEnabled now false, updating selection " />
+              <node concept="3cpWs3" id="75kLEGOHhaB" role="37wK5m">
+                <node concept="37vLTw" id="75kLEGOHiGA" role="3uHU7w">
+                  <ref role="3cqZAo" node="5XHFlRODqPm" resolve="selection" />
+                </node>
+                <node concept="Xl_RD" id="75kLEGOHf6S" role="3uHU7B">
+                  <property role="Xl_RC" value="selectionHandlerEnabled now false, updating selection " />
+                </node>
               </node>
             </node>
           </node>
