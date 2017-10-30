@@ -1111,6 +1111,15 @@
         <property role="Xl_RC" value="#6b9ff4" />
       </node>
     </node>
+    <node concept="Wx3nA" id="4443BgffnUz" role="jymVt">
+      <property role="TrG5h" value="SPECJSDBG_DIR" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="4443BgffnU$" role="1tU5fm" />
+      <node concept="3Tm1VV" id="4443BgffnU_" role="1B3o_S" />
+      <node concept="Xl_RD" id="4443BgffnUA" role="33vP2m">
+        <property role="Xl_RC" value="/specdbg" />
+      </node>
+    </node>
     <node concept="Wx3nA" id="yYLpwAeoVN" role="jymVt">
       <property role="TrG5h" value="DYN_TABLE_STYLE" />
       <property role="3TUv4t" value="true" />
@@ -1428,6 +1437,16 @@
             <node concept="17QB3L" id="3oSvuvtutMA" role="1tU5fm" />
           </node>
         </node>
+        <node concept="3cpWs8" id="4443Bgffvoc" role="3cqZAp">
+          <node concept="3cpWsn" id="4443Bgffvof" role="3cpWs9">
+            <property role="TrG5h" value="addDir" />
+            <node concept="17QB3L" id="4443Bgffvoa" role="1tU5fm" />
+            <node concept="Xl_RD" id="4443Bgffzbq" role="33vP2m">
+              <property role="Xl_RC" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4443BgfftX$" role="3cqZAp" />
         <node concept="3cpWs8" id="3k6NRaQr8rr" role="3cqZAp">
           <node concept="3cpWsn" id="3k6NRaQr8ru" role="3cpWs9">
             <property role="TrG5h" value="useSpecialDebugJs" />
@@ -1448,6 +1467,16 @@
                     </node>
                     <node concept="37vLTw" id="3k6NRaQrkPj" role="37vLTJ">
                       <ref role="3cqZAo" node="3k6NRaQr8ru" resolve="useSpecialDebugJs" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4443Bgffz_P" role="3cqZAp">
+                  <node concept="37vLTI" id="4443BgffzZU" role="3clFbG">
+                    <node concept="37vLTw" id="4443Bgff$pw" role="37vLTx">
+                      <ref role="3cqZAo" node="4443BgffnUz" resolve="SPECJSDBG_DIR" />
+                    </node>
+                    <node concept="37vLTw" id="4443Bgffz_N" role="37vLTJ">
+                      <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
                     </node>
                   </node>
                 </node>
@@ -1495,7 +1524,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="3k6NRaQrh1O" role="3cqZAp" />
-        <node concept="3clFbH" id="3k6NRaQrhz6" role="3cqZAp" />
+        <node concept="3SKdUt" id="4443Bgff$YQ" role="3cqZAp">
+          <node concept="3SKdUq" id="4443Bgff$YS" role="3SKWNk">
+            <property role="3SKdUp" value="also on debug user reload method" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="1S90xUts8YN" role="3cqZAp">
           <node concept="3clFbS" id="1S90xUts8YP" role="3clFbx">
             <node concept="3clFbF" id="1S90xUtsalN" role="3cqZAp">
@@ -1540,16 +1573,26 @@
                         </node>
                       </node>
                       <node concept="3cpWs3" id="7RHNXGyQCSy" role="3uHU7B">
-                        <node concept="3cpWs3" id="7RHNXGyQCS$" role="3uHU7B">
-                          <node concept="Xl_RD" id="7RHNXGyQCS_" role="3uHU7B">
-                            <property role="Xl_RC" value="&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;" />
+                        <node concept="3cpWs3" id="4443BgffBx7" role="3uHU7B">
+                          <node concept="37vLTw" id="4443BgffCbT" role="3uHU7w">
+                            <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
                           </node>
-                          <node concept="37vLTw" id="7RHNXGyQCSA" role="3uHU7w">
-                            <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                          <node concept="3cpWs3" id="4443BgffAQm" role="3uHU7B">
+                            <node concept="3cpWs3" id="7RHNXGyQCS$" role="3uHU7B">
+                              <node concept="Xl_RD" id="7RHNXGyQCS_" role="3uHU7B">
+                                <property role="Xl_RC" value="&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;" />
+                              </node>
+                              <node concept="37vLTw" id="7RHNXGyQCSA" role="3uHU7w">
+                                <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="4443BgffBmL" role="3uHU7w">
+                              <property role="Xl_RC" value="/static" />
+                            </node>
                           </node>
                         </node>
                         <node concept="Xl_RD" id="7RHNXGyQCSz" role="3uHU7w">
-                          <property role="Xl_RC" value="/static/css/style.css?version=" />
+                          <property role="Xl_RC" value="/css/style.css?version=" />
                         </node>
                       </node>
                     </node>
@@ -1621,17 +1664,22 @@
                     <node concept="37vLTw" id="3oSvuvtuxZY" role="3uHU7w">
                       <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
                     </node>
-                    <node concept="3cpWs3" id="7RHNXGyQCSY" role="3uHU7B">
-                      <node concept="3cpWs3" id="7RHNXGyQCT0" role="3uHU7B">
-                        <node concept="Xl_RD" id="7RHNXGyQCT1" role="3uHU7B">
-                          <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                        </node>
-                        <node concept="37vLTw" id="2Gn_LTGnJzq" role="3uHU7w">
-                          <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
-                        </node>
-                      </node>
+                    <node concept="3cpWs3" id="4443BgffCt9" role="3uHU7B">
                       <node concept="Xl_RD" id="7RHNXGyQCSZ" role="3uHU7w">
                         <property role="Xl_RC" value="/enterprise/ebapi-modules.js" />
+                      </node>
+                      <node concept="3cpWs3" id="7RHNXGyQCSY" role="3uHU7B">
+                        <node concept="3cpWs3" id="7RHNXGyQCT0" role="3uHU7B">
+                          <node concept="Xl_RD" id="7RHNXGyQCT1" role="3uHU7B">
+                            <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                          </node>
+                          <node concept="37vLTw" id="2Gn_LTGnJzq" role="3uHU7w">
+                            <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="4443BgffD9B" role="3uHU7w">
+                          <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -1649,17 +1697,22 @@
                     <node concept="37vLTw" id="3oSvuvtuySO" role="3uHU7w">
                       <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
                     </node>
-                    <node concept="3cpWs3" id="2eK$oa45HSi" role="3uHU7B">
-                      <node concept="3cpWs3" id="2eK$oa45HSk" role="3uHU7B">
-                        <node concept="Xl_RD" id="2eK$oa45HSl" role="3uHU7B">
-                          <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                        </node>
-                        <node concept="37vLTw" id="2Gn_LTGnJ1c" role="3uHU7w">
-                          <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
-                        </node>
-                      </node>
+                    <node concept="3cpWs3" id="4443BgffDfZ" role="3uHU7B">
                       <node concept="Xl_RD" id="2eK$oa45HSj" role="3uHU7w">
                         <property role="Xl_RC" value="/enterprise/ebapi.js" />
+                      </node>
+                      <node concept="3cpWs3" id="2eK$oa45HSi" role="3uHU7B">
+                        <node concept="3cpWs3" id="2eK$oa45HSk" role="3uHU7B">
+                          <node concept="Xl_RD" id="2eK$oa45HSl" role="3uHU7B">
+                            <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                          </node>
+                          <node concept="37vLTw" id="2Gn_LTGnJ1c" role="3uHU7w">
+                            <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="4443BgffDXj" role="3uHU7w">
+                          <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -1677,17 +1730,22 @@
                     <node concept="37vLTw" id="3oSvuvtuzJf" role="3uHU7w">
                       <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
                     </node>
-                    <node concept="3cpWs3" id="2eK$oa45IwS" role="3uHU7B">
-                      <node concept="3cpWs3" id="2eK$oa45IwU" role="3uHU7B">
-                        <node concept="Xl_RD" id="2eK$oa45IwV" role="3uHU7B">
-                          <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                        </node>
-                        <node concept="37vLTw" id="2Gn_LTGnIuY" role="3uHU7w">
-                          <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
-                        </node>
-                      </node>
+                    <node concept="3cpWs3" id="4443BgffDZK" role="3uHU7B">
                       <node concept="Xl_RD" id="2eK$oa45IwT" role="3uHU7w">
                         <property role="Xl_RC" value="/enterprise/eb.notification.js" />
+                      </node>
+                      <node concept="3cpWs3" id="2eK$oa45IwS" role="3uHU7B">
+                        <node concept="3cpWs3" id="2eK$oa45IwU" role="3uHU7B">
+                          <node concept="Xl_RD" id="2eK$oa45IwV" role="3uHU7B">
+                            <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                          </node>
+                          <node concept="37vLTw" id="2Gn_LTGnIuY" role="3uHU7w">
+                            <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="4443BgffEen" role="3uHU7w">
+                          <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -1705,17 +1763,22 @@
                     <node concept="37vLTw" id="3oSvuvtu$_z" role="3uHU7w">
                       <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
                     </node>
-                    <node concept="3cpWs3" id="2eK$oa46Og_" role="3uHU7B">
-                      <node concept="3cpWs3" id="2eK$oa46OgB" role="3uHU7B">
-                        <node concept="Xl_RD" id="2eK$oa46OgC" role="3uHU7B">
-                          <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                        </node>
-                        <node concept="37vLTw" id="2Gn_LTGnHWR" role="3uHU7w">
-                          <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
-                        </node>
-                      </node>
+                    <node concept="3cpWs3" id="4443BgffECA" role="3uHU7B">
                       <node concept="Xl_RD" id="2eK$oa46OgA" role="3uHU7w">
                         <property role="Xl_RC" value="/enterprise/eb.keycapture.js" />
+                      </node>
+                      <node concept="3cpWs3" id="2eK$oa46Og_" role="3uHU7B">
+                        <node concept="3cpWs3" id="2eK$oa46OgB" role="3uHU7B">
+                          <node concept="Xl_RD" id="2eK$oa46OgC" role="3uHU7B">
+                            <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                          </node>
+                          <node concept="37vLTw" id="2Gn_LTGnHWR" role="3uHU7w">
+                            <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="4443BgffFiX" role="3uHU7w">
+                          <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -1733,94 +1796,68 @@
                     <node concept="37vLTw" id="3oSvuvtu_rY" role="3uHU7w">
                       <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
                     </node>
-                    <node concept="3cpWs3" id="7jRczBbP4wa" role="3uHU7B">
-                      <node concept="3cpWs3" id="7jRczBbP4wc" role="3uHU7B">
-                        <node concept="Xl_RD" id="7jRczBbP4wd" role="3uHU7B">
-                          <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                        </node>
-                        <node concept="37vLTw" id="2Gn_LTGnHqD" role="3uHU7w">
-                          <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
-                        </node>
-                      </node>
+                    <node concept="3cpWs3" id="4443BgffFov" role="3uHU7B">
                       <node concept="Xl_RD" id="7jRczBbP4wb" role="3uHU7w">
                         <property role="Xl_RC" value="/enterprise/elements.js" />
                       </node>
+                      <node concept="3cpWs3" id="7jRczBbP4wa" role="3uHU7B">
+                        <node concept="3cpWs3" id="7jRczBbP4wc" role="3uHU7B">
+                          <node concept="Xl_RD" id="7jRczBbP4wd" role="3uHU7B">
+                            <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                          </node>
+                          <node concept="37vLTw" id="2Gn_LTGnHqD" role="3uHU7w">
+                            <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="4443BgffG20" role="3uHU7w">
+                          <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbJ" id="3k6NRaQrmPI" role="3cqZAp">
-              <node concept="3clFbS" id="3k6NRaQrmPK" role="3clFbx">
-                <node concept="3clFbF" id="3YiRJwjgVA5" role="3cqZAp">
-                  <node concept="2OqwBi" id="3YiRJwjgVA6" role="3clFbG">
-                    <node concept="37vLTw" id="3YiRJwjgVA7" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+            <node concept="3clFbH" id="4443BgffmOy" role="3cqZAp" />
+            <node concept="3clFbF" id="3k6NRaQrox4" role="3cqZAp">
+              <node concept="2OqwBi" id="3k6NRaQrox5" role="3clFbG">
+                <node concept="37vLTw" id="3k6NRaQrox6" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="3k6NRaQrox7" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="3cpWs3" id="3k6NRaQrox8" role="37wK5m">
+                    <node concept="37vLTw" id="3k6NRaQrox9" role="3uHU7w">
+                      <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
                     </node>
-                    <node concept="liA8E" id="3YiRJwjgVA8" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                      <node concept="3cpWs3" id="3oSvuvtu_z8" role="37wK5m">
-                        <node concept="37vLTw" id="3oSvuvtuAib" role="3uHU7w">
-                          <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
+                    <node concept="3cpWs3" id="4443BgffGbK" role="3uHU7B">
+                      <node concept="Xl_RD" id="3k6NRaQroxe" role="3uHU7w">
+                        <property role="Xl_RC" value="/zebrah2forms.js" />
+                      </node>
+                      <node concept="3cpWs3" id="4443BgffH7K" role="3uHU7B">
+                        <node concept="37vLTw" id="4443BgffGzo" role="3uHU7w">
+                          <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
                         </node>
-                        <node concept="3cpWs3" id="3YiRJwjgVA9" role="3uHU7B">
-                          <node concept="3cpWs3" id="3YiRJwjgVAb" role="3uHU7B">
-                            <node concept="Xl_RD" id="3YiRJwjgVAc" role="3uHU7B">
+                        <node concept="3cpWs3" id="3k6NRaQroxa" role="3uHU7B">
+                          <node concept="3cpWs3" id="3k6NRaQroxb" role="3uHU7B">
+                            <node concept="Xl_RD" id="3k6NRaQroxc" role="3uHU7B">
                               <property role="Xl_RC" value="&lt;script src=\&quot;" />
                             </node>
-                            <node concept="37vLTw" id="3YiRJwjgVAd" role="3uHU7w">
+                            <node concept="37vLTw" id="3k6NRaQroxd" role="3uHU7w">
                               <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
                             </node>
                           </node>
-                          <node concept="Xl_RD" id="3YiRJwjgVAa" role="3uHU7w">
-                            <property role="Xl_RC" value="/static/zebrah2forms.js" />
+                          <node concept="Xl_RD" id="4443BgffHBu" role="3uHU7w">
+                            <property role="Xl_RC" value="/static" />
                           </node>
                         </node>
                       </node>
                     </node>
                   </node>
-                </node>
-              </node>
-              <node concept="3fqX7Q" id="3k6NRaQrngX" role="3clFbw">
-                <node concept="37vLTw" id="3k6NRaQrnqe" role="3fr31v">
-                  <ref role="3cqZAo" node="3k6NRaQr8ru" resolve="useSpecialDebugJs" />
-                </node>
-              </node>
-              <node concept="9aQIb" id="3k6NRaQrou_" role="9aQIa">
-                <node concept="3clFbS" id="3k6NRaQrouA" role="9aQI4">
-                  <node concept="3clFbF" id="3k6NRaQrox4" role="3cqZAp">
-                    <node concept="2OqwBi" id="3k6NRaQrox5" role="3clFbG">
-                      <node concept="37vLTw" id="3k6NRaQrox6" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-                      </node>
-                      <node concept="liA8E" id="3k6NRaQrox7" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                        <node concept="3cpWs3" id="3k6NRaQrox8" role="37wK5m">
-                          <node concept="37vLTw" id="3k6NRaQrox9" role="3uHU7w">
-                            <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
-                          </node>
-                          <node concept="3cpWs3" id="3k6NRaQroxa" role="3uHU7B">
-                            <node concept="3cpWs3" id="3k6NRaQroxb" role="3uHU7B">
-                              <node concept="Xl_RD" id="3k6NRaQroxc" role="3uHU7B">
-                                <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                              </node>
-                              <node concept="37vLTw" id="3k6NRaQroxd" role="3uHU7w">
-                                <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
-                              </node>
-                            </node>
-                            <node concept="Xl_RD" id="3k6NRaQroxe" role="3uHU7w">
-                              <property role="Xl_RC" value="/static/zebrah2forms_special.js" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbH" id="3k6NRaQroZ8" role="3cqZAp" />
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="4Rlyz3E8RVA" role="3cqZAp" />
+            <node concept="3clFbH" id="4443BgffRs3" role="3cqZAp" />
           </node>
           <node concept="3clFbC" id="4Rlyz3E8Oss" role="3clFbw">
             <node concept="Rm8GO" id="5pIRrzlc2fr" role="3uHU7w">
@@ -1853,17 +1890,22 @@
                       <node concept="37vLTw" id="3oSvuvtuB5I" role="3uHU7w">
                         <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
                       </node>
-                      <node concept="3cpWs3" id="3Sgll4LNHja" role="3uHU7B">
-                        <node concept="3cpWs3" id="3Sgll4LNHjc" role="3uHU7B">
-                          <node concept="Xl_RD" id="3Sgll4LNHjd" role="3uHU7B">
-                            <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                          </node>
-                          <node concept="37vLTw" id="2Gn_LTGnK69" role="3uHU7w">
-                            <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
-                          </node>
-                        </node>
+                      <node concept="3cpWs3" id="4443BgffJDa" role="3uHU7B">
                         <node concept="Xl_RD" id="3Sgll4LNHjb" role="3uHU7w">
                           <property role="Xl_RC" value="/honeywell/BarcodeReader.js" />
+                        </node>
+                        <node concept="3cpWs3" id="3Sgll4LNHja" role="3uHU7B">
+                          <node concept="3cpWs3" id="3Sgll4LNHjc" role="3uHU7B">
+                            <node concept="Xl_RD" id="3Sgll4LNHjd" role="3uHU7B">
+                              <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                            </node>
+                            <node concept="37vLTw" id="2Gn_LTGnK69" role="3uHU7w">
+                              <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="4443BgffKlC" role="3uHU7w">
+                            <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -1882,16 +1924,26 @@
                         <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
                       </node>
                       <node concept="3cpWs3" id="4Rlyz3E8VVj" role="3uHU7B">
-                        <node concept="3cpWs3" id="4Rlyz3E8VVl" role="3uHU7B">
-                          <node concept="Xl_RD" id="4Rlyz3E8VVm" role="3uHU7B">
-                            <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                        <node concept="3cpWs3" id="4443BgffIKv" role="3uHU7B">
+                          <node concept="37vLTw" id="4443BgffJ8h" role="3uHU7w">
+                            <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
                           </node>
-                          <node concept="37vLTw" id="4Rlyz3E8VVn" role="3uHU7w">
-                            <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                          <node concept="3cpWs3" id="4443BgffI7z" role="3uHU7B">
+                            <node concept="3cpWs3" id="4Rlyz3E8VVl" role="3uHU7B">
+                              <node concept="Xl_RD" id="4Rlyz3E8VVm" role="3uHU7B">
+                                <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                              </node>
+                              <node concept="37vLTw" id="4Rlyz3E8VVn" role="3uHU7w">
+                                <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="4443BgffIlN" role="3uHU7w">
+                              <property role="Xl_RC" value="/static" />
+                            </node>
                           </node>
                         </node>
                         <node concept="Xl_RD" id="4Rlyz3E8VVk" role="3uHU7w">
-                          <property role="Xl_RC" value="/static/honeywellh1forms.js" />
+                          <property role="Xl_RC" value="/honeywellh1forms.js" />
                         </node>
                       </node>
                     </node>
@@ -1903,67 +1955,36 @@
           </node>
           <node concept="9aQIb" id="4Rlyz3E8TYo" role="9aQIa">
             <node concept="3clFbS" id="4Rlyz3E8TYp" role="9aQI4">
-              <node concept="3clFbJ" id="3k6NRaQrp$r" role="3cqZAp">
-                <node concept="3clFbS" id="3k6NRaQrp$s" role="3clFbx">
-                  <node concept="3clFbF" id="4Rlyz3E8V8G" role="3cqZAp">
-                    <node concept="2OqwBi" id="4Rlyz3E8V8H" role="3clFbG">
-                      <node concept="37vLTw" id="4Rlyz3E8V8I" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+              <node concept="3clFbF" id="3k6NRaQrso0" role="3cqZAp">
+                <node concept="2OqwBi" id="3k6NRaQrso1" role="3clFbG">
+                  <node concept="37vLTw" id="3k6NRaQrso2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+                  </node>
+                  <node concept="liA8E" id="3k6NRaQrso3" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                    <node concept="3cpWs3" id="3k6NRaQrso4" role="37wK5m">
+                      <node concept="37vLTw" id="3k6NRaQrso5" role="3uHU7w">
+                        <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
                       </node>
-                      <node concept="liA8E" id="4Rlyz3E8V8J" role="2OqNvi">
-                        <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                        <node concept="3cpWs3" id="3oSvuvtuC9$" role="37wK5m">
-                          <node concept="37vLTw" id="3oSvuvtuCSI" role="3uHU7w">
-                            <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
+                      <node concept="3cpWs3" id="4443BgffKvE" role="3uHU7B">
+                        <node concept="Xl_RD" id="3k6NRaQrsoa" role="3uHU7w">
+                          <property role="Xl_RC" value="/otherh2forms.js" />
+                        </node>
+                        <node concept="3cpWs3" id="4443BgffLpq" role="3uHU7B">
+                          <node concept="37vLTw" id="4443BgffLa1" role="3uHU7w">
+                            <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
                           </node>
-                          <node concept="3cpWs3" id="4Rlyz3E8V8K" role="3uHU7B">
-                            <node concept="3cpWs3" id="4Rlyz3E8V8M" role="3uHU7B">
-                              <node concept="Xl_RD" id="4Rlyz3E8V8N" role="3uHU7B">
+                          <node concept="3cpWs3" id="3k6NRaQrso6" role="3uHU7B">
+                            <node concept="3cpWs3" id="3k6NRaQrso7" role="3uHU7B">
+                              <node concept="Xl_RD" id="3k6NRaQrso8" role="3uHU7B">
                                 <property role="Xl_RC" value="&lt;script src=\&quot;" />
                               </node>
-                              <node concept="37vLTw" id="4Rlyz3E8V8O" role="3uHU7w">
+                              <node concept="37vLTw" id="3k6NRaQrso9" role="3uHU7w">
                                 <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
                               </node>
                             </node>
-                            <node concept="Xl_RD" id="4Rlyz3E8V8L" role="3uHU7w">
-                              <property role="Xl_RC" value="/static/otherh2forms.js" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3fqX7Q" id="3k6NRaQrp$C" role="3clFbw">
-                  <node concept="37vLTw" id="3k6NRaQrp$D" role="3fr31v">
-                    <ref role="3cqZAo" node="3k6NRaQr8ru" resolve="useSpecialDebugJs" />
-                  </node>
-                </node>
-                <node concept="9aQIb" id="3k6NRaQrp$E" role="9aQIa">
-                  <node concept="3clFbS" id="3k6NRaQrp$F" role="9aQI4">
-                    <node concept="3clFbF" id="3k6NRaQrso0" role="3cqZAp">
-                      <node concept="2OqwBi" id="3k6NRaQrso1" role="3clFbG">
-                        <node concept="37vLTw" id="3k6NRaQrso2" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-                        </node>
-                        <node concept="liA8E" id="3k6NRaQrso3" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                          <node concept="3cpWs3" id="3k6NRaQrso4" role="37wK5m">
-                            <node concept="37vLTw" id="3k6NRaQrso5" role="3uHU7w">
-                              <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
-                            </node>
-                            <node concept="3cpWs3" id="3k6NRaQrso6" role="3uHU7B">
-                              <node concept="3cpWs3" id="3k6NRaQrso7" role="3uHU7B">
-                                <node concept="Xl_RD" id="3k6NRaQrso8" role="3uHU7B">
-                                  <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                                </node>
-                                <node concept="37vLTw" id="3k6NRaQrso9" role="3uHU7w">
-                                  <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
-                                </node>
-                              </node>
-                              <node concept="Xl_RD" id="3k6NRaQrsoa" role="3uHU7w">
-                                <property role="Xl_RC" value="/static/otherh2forms_special.js" />
-                              </node>
+                            <node concept="Xl_RD" id="4443BgffLBf" role="3uHU7w">
+                              <property role="Xl_RC" value="/static" />
                             </node>
                           </node>
                         </node>
@@ -2960,7 +2981,7 @@
                     </node>
                     <node concept="3cpWs3" id="2eK$oa46Z69" role="3uHU7B">
                       <node concept="Xl_RD" id="2eK$oa46YX5" role="3uHU7B">
-                        <property role="Xl_RC" value="');\&quot; navicrtl=\&quot;conclusion_" />
+                        <property role="Xl_RC" value="');return false;\&quot; navicrtl=\&quot;conclusion_" />
                       </node>
                       <node concept="2OqwBi" id="2xnCXJMlyk5" role="3uHU7w">
                         <node concept="37vLTw" id="2xnCXJMlyk6" role="2Oq$k0">
@@ -2999,7 +3020,7 @@
                       </node>
                       <node concept="3cpWs3" id="ao4XGT1yTQ" role="3uHU7B">
                         <node concept="Xl_RD" id="ao4XGT1yTR" role="3uHU7B">
-                          <property role="Xl_RC" value="');\&quot; disabled navicrtl=\&quot;conclusion_" />
+                          <property role="Xl_RC" value="');return false;\&quot; disabled navicrtl=\&quot;conclusion_" />
                         </node>
                         <node concept="2OqwBi" id="ao4XGT1yTS" role="3uHU7w">
                           <node concept="37vLTw" id="ao4XGT1yTT" role="2Oq$k0">
@@ -3624,7 +3645,7 @@
                     <node concept="liA8E" id="3L0rgZdHqGy" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                       <node concept="Xl_RD" id="3L0rgZdHqGz" role="37wK5m">
-                        <property role="Xl_RC" value="&lt;button id=\&quot;cancelbutton\&quot; type=\&quot;button\&quot; class=\&quot;kbrdbutton currentfg\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_0');\&quot; navicrtl=\&quot;conclusion_0\&quot;&gt; &lt;div class=\&quot;labeldiv\&quot;&gt;" />
+                        <property role="Xl_RC" value="&lt;button id=\&quot;cancelbutton\&quot; type=\&quot;button\&quot; class=\&quot;kbrdbutton currentfg\&quot; onClick=\&quot;javascript:SaveSubmit('conclusion_0');return false;\&quot; navicrtl=\&quot;conclusion_0\&quot;&gt; &lt;div class=\&quot;labeldiv\&quot;&gt;" />
                       </node>
                     </node>
                   </node>
