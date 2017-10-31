@@ -32,6 +32,7 @@
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
+    <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -18234,6 +18235,28 @@
     </node>
     <node concept="13hLZK" id="7dYuT2d5JJ2" role="13h7CW">
       <node concept="3clFbS" id="7dYuT2d5JJ3" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7TJOmj6N5OD">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="13h7C2" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
+    <node concept="13hLZK" id="7TJOmj6N5OE" role="13h7CW">
+      <node concept="3clFbS" id="7TJOmj6N5OF" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7TJOmj6N5Qo" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="TrG5h" value="isNodeRunnable" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="nlf1:431DWIovi3C" resolve="isNodeRunnable" />
+      <node concept="3Tm1VV" id="7TJOmj6N5Qp" role="1B3o_S" />
+      <node concept="3clFbS" id="7TJOmj6N5Qw" role="3clF47">
+        <node concept="3clFbF" id="7TJOmj6N6p7" role="3cqZAp">
+          <node concept="3clFbT" id="7TJOmj6N6p6" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="7TJOmj6N5Qx" role="3clF45" />
     </node>
   </node>
 </model>

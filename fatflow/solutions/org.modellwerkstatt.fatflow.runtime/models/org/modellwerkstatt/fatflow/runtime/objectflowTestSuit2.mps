@@ -1901,9 +1901,6 @@
         <property role="TrG5h" value="invoice" />
         <ref role="1sBLEe" node="5MCXLSnMhBY" resolve="MainPage" />
         <ref role="1sBMaO" node="5MCXLSnMhKi" resolve="Save &amp; Close" />
-        <node concept="2d2NRx" id="43H1fr7LDH8" role="1sBMHV">
-          <node concept="3clFbS" id="43H1fr7LDH9" role="2VODD2" />
-        </node>
       </node>
       <node concept="3yABqi" id="26QcchW0ms_" role="3yGA3Q">
         <property role="TrG5h" value="inv1" />

@@ -2028,7 +2028,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="1aaqwMInUhG" role="3EZMnx">
-          <property role="3F0ifm" value="App UI Module" />
+          <property role="3F0ifm" value="AppUIModule" />
           <ref role="1k5W1q" to="z8tr:12ldMQAKJpH" resolve="O2Header" />
         </node>
         <node concept="PMmxH" id="1aaqwMInUhH" role="3EZMnx">
