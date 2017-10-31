@@ -12157,9 +12157,55 @@
         <property role="3F0ifm" value="consumer/graph owner cmd:" />
         <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
       </node>
-      <node concept="3F0ifn" id="7TJOmj6N7pf" role="3EZMnx" />
-      <node concept="3F0ifn" id="7TJOmj6MLsS" role="3EZMnx" />
+      <node concept="3F1sOY" id="6IpTZfaBQsR" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:6IpTZfaBQl9" />
+      </node>
       <node concept="2iRkQZ" id="7TJOmj6MLsT" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6IpTZfaBpTs">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1XX52x" to="un0u:7TJOmj72Lm4" resolve="OFXBatchJobCommandCall" />
+    <node concept="3EZMnI" id="6IpTZfaBpZo" role="2wV5jI">
+      <property role="3EZMnw" value="true" />
+      <property role="S$Qs1" value="false" />
+      <node concept="VPM3Z" id="6IpTZfaBpZp" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="3F0ifn" id="6IpTZfaBpZz" role="3EZMnx">
+        <property role="3F0ifm" value="command" />
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+        <node concept="pVoyu" id="6IpTZfaBpZ$" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="6IpTZfaBpZ_" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="6IpTZfaBpZA" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:7TJOmj72LMY" />
+      </node>
+      <node concept="3F0ifn" id="6IpTZfaBpZB" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="6IpTZfaBpZC" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="6IpTZfaBpZD" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:7TJOmj72LMZ" />
+        <node concept="2iRkQZ" id="6IpTZfaBpZE" role="2czzBx" />
+        <node concept="3F0ifn" id="6IpTZfaBpZF" role="2czzBI">
+          <property role="ilYzB" value="&lt;pages under test&gt;" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        </node>
+        <node concept="pVoyu" id="6IpTZfaBpZG" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="6IpTZfaBpZH" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="6IpTZfaBpZN" role="2iSdaV" />
     </node>
   </node>
 </model>

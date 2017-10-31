@@ -4367,9 +4367,15 @@
     </node>
     <node concept="1TJgyj" id="7TJOmj6ZhCF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="commandCall" />
+      <property role="20kJfa" value="producerImpl" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3n7eUMgsANq" resolve="CommandCallBasis" />
+      <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXBatchJobCommandCall" />
+    </node>
+    <node concept="1TJgyj" id="6IpTZfaBQl9" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="consumerImpl" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXBatchJobCommandCall" />
     </node>
     <node concept="1TJgyj" id="7TJOmj6MJQg" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -4405,12 +4411,15 @@
     </node>
     <node concept="1TJgyj" id="7TJOmj72LMZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="pagesUnderTest" />
+      <property role="20kJfa" value="pagesUsed" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3LVh91wT5op" resolve="OFXTestSuitPage" />
     </node>
     <node concept="PrWs8" id="7TJOmj72M88" role="PzmwI">
       <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
+    </node>
+    <node concept="PrWs8" id="6IpTZfaBIHh" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
 </model>
