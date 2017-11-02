@@ -1023,5 +1023,21 @@
       </node>
     </node>
   </node>
+  <node concept="3_zdsH" id="3U0QWztOsdy">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="3_znuS" to="un0u:3U0QWztOqU0" resolve="OFXRunCmdVarRef" />
+    <node concept="3__wT9" id="3U0QWztOsdz" role="3_A6iZ">
+      <node concept="3clFbS" id="3U0QWztOsd$" role="2VODD2">
+        <node concept="3_DX4M" id="3U0QWztOshz" role="3cqZAp">
+          <node concept="2OqwBi" id="3U0QWztOsk_" role="3_H1SZ">
+            <node concept="3__QtB" id="3U0QWztOsiE" role="2Oq$k0" />
+            <node concept="3TrEf2" id="3U0QWztOstj" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:3U0QWztOr49" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

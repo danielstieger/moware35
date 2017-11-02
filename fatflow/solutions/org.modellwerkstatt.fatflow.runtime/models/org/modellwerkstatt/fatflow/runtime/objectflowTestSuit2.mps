@@ -262,6 +262,9 @@
       <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
       <concept id="6390289192935148849" name="org.modellwerkstatt.objectflow.structure.OFXGraphEditTestMethod" flags="ng" index="2Oh1co" />
       <concept id="6390289192933644448" name="org.modellwerkstatt.objectflow.structure.OFXGraphOwnerTestMethod" flags="ng" index="2Ovgq9" />
+      <concept id="9110730801960129924" name="org.modellwerkstatt.objectflow.structure.OFXRunCmd" flags="ng" index="2Tpcjw">
+        <child id="9110730801960131774" name="commandCall" index="2TpcRq" />
+      </concept>
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
@@ -2096,6 +2099,25 @@
         <property role="TrG5h" value="invoice" />
         <ref role="1sBLEe" node="5MCXLSnMhBY" resolve="MainPage" />
         <ref role="1sBMaO" node="5MCXLSnMhKi" resolve="Save &amp; Close" />
+        <node concept="2d2NRx" id="6LSsdCN7uLX" role="1sBMHV">
+          <node concept="3clFbS" id="6LSsdCN7uLY" role="2VODD2">
+            <node concept="3clFbF" id="6LSsdCN7vJg" role="3cqZAp">
+              <node concept="37vLTI" id="6LSsdCN7vSc" role="3clFbG">
+                <node concept="3cmrfG" id="6LSsdCN7waS" role="37vLTx">
+                  <property role="3cmrfH" value="10" />
+                </node>
+                <node concept="2OqwBi" id="6LSsdCN7vLA" role="37vLTJ">
+                  <node concept="3zkua3" id="6LSsdCN7vJf" role="2Oq$k0">
+                    <ref role="3zku8S" node="26QcchW06fL" resolve="invoice" />
+                  </node>
+                  <node concept="2S8uIT" id="6LSsdCN7vMA" role="2OqNvi">
+                    <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3yABqi" id="26QcchW06fM" role="3yGA3Q">
         <property role="TrG5h" value="inv1" />
@@ -8631,6 +8653,45 @@
       <node concept="10P_77" id="6BKPvpE4xBS" role="1tU5fm" />
     </node>
     <node concept="3Tm1VV" id="6BKPvpE4x$I" role="1B3o_S" />
+  </node>
+  <node concept="2WPaUQ" id="3U0QWztN8iD">
+    <property role="TrG5h" value="Test New RunCmd" />
+    <ref role="2WPtWl" node="5MCXLSo4_z9" resolve="MPreisOFXTests" />
+    <node concept="1DF_5m" id="3U0QWztN9tK" role="3yMuLx" />
+    <node concept="3yPF9F" id="3U0QWztN9wn" role="3yMuLx">
+      <property role="TrG5h" value="Simply run a command" />
+      <node concept="3cqZAl" id="3U0QWztN9xn" role="3clF45" />
+      <node concept="3clFbS" id="3U0QWztN9wr" role="3clF47">
+        <node concept="3clFbH" id="3U0QWztPTK8" role="3cqZAp" />
+        <node concept="2Tpcjw" id="3U0QWztN_F$" role="3cqZAp">
+          <node concept="2_HltQ" id="3U0QWztN_F_" role="2TpcRq">
+            <ref role="2_Hrwf" node="Joc9_LZQLM" resolve="Invoice Process" />
+            <ref role="2_Hrw8" node="5MCXLSnMhvZ" resolve="Checkout Invoice" />
+            <node concept="10Nm6u" id="3U0QWztNB3b" role="2_HrWp" />
+            <node concept="2OqwBi" id="3U0QWztNAMz" role="2_HrWp">
+              <node concept="3zkua3" id="3U0QWztNALe" role="2Oq$k0">
+                <ref role="3zku8S" node="3U0QWztNAAf" resolve="inv" />
+              </node>
+              <node concept="2S8uIT" id="3U0QWztNANs" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+              </node>
+            </node>
+            <node concept="10Nm6u" id="3U0QWztNG0C" role="2_HrWp" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3U0QWztNG2O" role="3cqZAp" />
+      </node>
+      <node concept="3yABqi" id="3U0QWztNAAf" role="3yGA3Q">
+        <property role="TrG5h" value="inv" />
+        <ref role="37wK5l" to="goi:4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
+        <node concept="Xl_RD" id="3U0QWztNAC2" role="37wK5m">
+          <property role="Xl_RC" value="runcmd" />
+        </node>
+      </node>
+    </node>
+    <node concept="1DZZI9" id="3U0QWztNAxZ" role="38MLOi">
+      <ref role="1DZZIc" to="goi:2i3o0hdVwMp" resolve="Creators" />
+    </node>
   </node>
 </model>
 

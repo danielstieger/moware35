@@ -8804,7 +8804,6 @@
       <node concept="3Tm1VV" id="2xm_JkjrkFr" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="2xm_Jkjrl$Q" role="jymVt" />
-    <node concept="2tJIrI" id="2xm_Jkjrl_j" role="jymVt" />
     <node concept="3clFb_" id="2xm_JkjrlDf" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="strategyFor" />

@@ -1309,6 +1309,7 @@
     <node concept="PrWs8" id="1gb7OKPW3fa" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="asaX9" id="3U0QWztHm5l" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="5Ee0EjqTaDb">
     <property role="3GE5qa" value="OFXCore.command" />
@@ -1393,7 +1394,7 @@
   <node concept="1TIwiD" id="3PmKne7OD8L">
     <property role="3GE5qa" value="OFXCore.process" />
     <property role="TrG5h" value="RunCommand" />
-    <property role="34LRSv" value="run" />
+    <property role="34LRSv" value="DEP_run" />
     <property role="R4oN_" value="command from any process" />
     <property role="1pbfSe" value="987147356" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
@@ -1431,6 +1432,7 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6ffh1MXzHna" resolve="Command" />
     </node>
+    <node concept="asaX9" id="3U0QWztHl_d" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3IuMOEB9Xoj">
     <property role="3GE5qa" value="OFXCore.process" />
@@ -1459,6 +1461,7 @@
     <node concept="PrWs8" id="3AwmmzDB_or" role="PzmwI">
       <ref role="PrY4T" node="3AwmmzDB_oq" resolve="IViewForPage" />
     </node>
+    <node concept="asaX9" id="3U0QWztHlLV" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3IuMOEB9Xo_">
     <property role="3GE5qa" value="OFXCore.process" />
@@ -1467,6 +1470,7 @@
     <property role="34LRSv" value="fakeUi" />
     <property role="1pbfSe" value="490299025" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="asaX9" id="3U0QWztHlRR" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6lryfQF4NIB">
     <property role="3GE5qa" value="OFXCore.process" />
@@ -1474,6 +1478,7 @@
     <property role="34LRSv" value="boundObjects" />
     <property role="1pbfSe" value="275694756" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+    <node concept="asaX9" id="3U0QWztHlW7" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6lryfQF7yi5">
     <property role="3GE5qa" value="OFXCore.command" />
@@ -1693,6 +1698,7 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6ffh1MXzHn6" resolve="Page" />
     </node>
+    <node concept="asaX9" id="3U0QWztHlCB" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1gb7OKPW3ev">
     <property role="3GE5qa" value="OFXCore.process" />
@@ -1715,6 +1721,7 @@
     <node concept="PrWs8" id="1gb7OKPW3ew" role="PzmwI">
       <ref role="PrY4T" node="3AwmmzDB_oq" resolve="IViewForPage" />
     </node>
+    <node concept="asaX9" id="3U0QWztHmkt" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="3JsUq_S9PU7">
     <property role="3GE5qa" value="BusinessObject" />
@@ -3163,8 +3170,8 @@
     </node>
   </node>
   <node concept="AxPO7" id="6OEsYvXyCG6">
-    <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="OFXTestSuitPageBoundObjectType" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXRunCmdPageBoundObject" />
     <ref role="M4eZT" to="tpck:fKAQMTA" resolve="integer" />
     <node concept="M4N5e" id="6OEsYvXyCG7" role="M5hS2">
       <property role="1uS6qv" value="0" />
@@ -3182,7 +3189,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3LVh91wT6S0" role="1TKVEl">
       <property role="TrG5h" value="boundObjectType" />
-      <ref role="AX2Wp" node="6OEsYvXyCG6" resolve="OFXTestSuitPageBoundObjectType" />
+      <ref role="AX2Wp" node="6OEsYvXyCG6" resolve="OFXRunCmdPageBoundObject" />
     </node>
     <node concept="1TJgyj" id="3n7eUMgxFBB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3472,6 +3479,7 @@
     <property role="34LRSv" value="func" />
     <property role="R4oN_" value="some statement" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="asaX9" id="3U0QWztHoAh" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="4Ta2XmWaDfo">
     <property role="1pbfSe" value="175415213" />
@@ -4352,30 +4360,30 @@
     <node concept="1TJgyj" id="7TJOmj6MLaO" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="onStartup" />
-      <ref role="20lvS9" node="7cOyB3YfVuh" resolve="OFXTestStatementList" />
+      <ref role="20lvS9" node="3U0QWztHnpr" resolve="OFXRunCmdStatementList" />
     </node>
     <node concept="1TJgyj" id="7TJOmj6MLaP" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="onShutdown" />
-      <ref role="20lvS9" node="7cOyB3YfVuh" resolve="OFXTestStatementList" />
-    </node>
-    <node concept="1TJgyj" id="7TJOmj6N8tA" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="keyType" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
+      <ref role="20lvS9" node="3U0QWztHnpr" resolve="OFXRunCmdStatementList" />
     </node>
     <node concept="1TJgyj" id="7TJOmj6ZhCF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="producerImpl" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXBatchJobCommandCall" />
+      <ref role="20lvS9" node="3U0QWztRGQ8" resolve="OFXProducerContext" />
     </node>
     <node concept="1TJgyj" id="6IpTZfaBQl9" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="consumerImpl" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="3U0QWztRJKo" resolve="OFXConsumerContext" />
+    </node>
+    <node concept="1TJgyj" id="3U0QWzuDrtK" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="exceptionStrategy" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXBatchJobCommandCall" />
+      <ref role="20lvS9" node="3U0QWzu$3aR" resolve="OFXExceptionStrategy" />
     </node>
     <node concept="1TJgyj" id="7TJOmj6MJQg" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -4389,20 +4397,14 @@
     <node concept="PrWs8" id="7TJOmj6MK2W" role="PzmwI">
       <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
     </node>
-    <node concept="PrWs8" id="7TJOmj6MK4H" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="PrWs8" id="7TJOmj72t3q" role="PzmwI">
-      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
-    </node>
   </node>
   <node concept="1TIwiD" id="7TJOmj72Lm4">
     <property role="1pbfSe" value="1165682408" />
     <property role="3GE5qa" value="OFXCore.batch2" />
-    <property role="TrG5h" value="OFXBatchJobCommandCall" />
-    <property role="34LRSv" value="CommandCall" />
-    <property role="R4oN_" value="run command" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <property role="TrG5h" value="OFXRunCmd" />
+    <property role="34LRSv" value="run command" />
+    <property role="R4oN_" value="without any ui" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="7TJOmj72LMY" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="commandCall" />
@@ -4411,14 +4413,230 @@
     </node>
     <node concept="1TJgyj" id="7TJOmj72LMZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="pagesUsed" />
+      <property role="20kJfa" value="pages" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3LVh91wT5op" resolve="OFXTestSuitPage" />
+      <ref role="20lvS9" node="3U0QWztHgKC" resolve="OFXRunCmdPage" />
     </node>
-    <node concept="PrWs8" id="7TJOmj72M88" role="PzmwI">
-      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
+    <node concept="1TJgyj" id="3U0QWzuPwJ5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="successorHandler" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3U0QWzuPwIA" resolve="OFXRunCmdSuccessorHandler" />
     </node>
     <node concept="PrWs8" id="6IpTZfaBIHh" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3U0QWztHgKC">
+    <property role="1pbfSe" value="473294832" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXRunCmdPage" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3U0QWztHiCd" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="0..1" />
+      <property role="20kJfa" value="page" />
+      <ref role="20lvS9" node="6ffh1MXzHn6" resolve="Page" />
+    </node>
+    <node concept="1TJgyj" id="3U0QWztHiCe" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="conclusion" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="1Csx3LqtqVF" resolve="PageConclusion" />
+    </node>
+    <node concept="1TJgyi" id="3U0QWztHi_D" role="1TKVEl">
+      <property role="TrG5h" value="boundObjectType" />
+      <ref role="AX2Wp" node="6OEsYvXyCG6" resolve="OFXRunCmdPageBoundObject" />
+    </node>
+    <node concept="PrWs8" id="3U0QWztHmQN" role="PzmwI">
+      <ref role="PrY4T" node="3U0QWztHkm$" resolve="IOFXRContextVarDeclaration" />
+    </node>
+    <node concept="PrWs8" id="3U0QWztHqz0" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="1TJgyj" id="3U0QWztHoNm" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="beforeConclude" />
+      <ref role="20lvS9" node="3U0QWztHnpr" resolve="OFXRunCmdStatementList" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3U0QWztHkm$">
+    <property role="1pbfSe" value="473309548" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="IOFXRContextVarDeclaration" />
+    <node concept="PrWs8" id="3U0QWztHkD9" role="PrDN$">
+      <ref role="PrY4T" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3U0QWztHnpr">
+    <property role="1pbfSe" value="473322019" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXRunCmdStatementList" />
+    <property role="34LRSv" value="func" />
+    <property role="R4oN_" value="some statements" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="3U0QWztOqU0">
+    <property role="1pbfSe" value="475171400" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXRunCmdVarRef" />
+    <property role="MwhBj" value="${module}/icons/testparam.png" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="3U0QWztOr49" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="varRef" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3U0QWztHkm$" resolve="IOFXRContextVarDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3U0QWztRGQ8">
+    <property role="1pbfSe" value="476031312" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXProducerContext" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3U0QWztRIg6" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="keytype" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
+    </node>
+    <node concept="1TJgyj" id="3U0QWztRHfv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="runCommand" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXRunCmd" />
+    </node>
+    <node concept="1TJgyj" id="3U0QWztRHwp" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="status" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="3U0QWztWeH9" role="PzmwI">
+      <ref role="PrY4T" node="3U0QWztHkm$" resolve="IOFXRContextVarDeclaration" />
+    </node>
+    <node concept="PrWs8" id="3U0QWzusa0J" role="PzmwI">
+      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3U0QWztRJKo">
+    <property role="1pbfSe" value="476043232" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXConsumerContext" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3U0QWztRJTF" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="runCommand" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXRunCmd" />
+    </node>
+    <node concept="1TJgyj" id="3U0QWztRJTG" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="status" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="3U0QWztWfET" role="PzmwI">
+      <ref role="PrY4T" node="3U0QWztHkm$" resolve="IOFXRContextVarDeclaration" />
+    </node>
+    <node concept="PrWs8" id="3U0QWzus9Wq" role="PzmwI">
+      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3U0QWzu$3aR">
+    <property role="1pbfSe" value="487657087" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXExceptionStrategy" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3U0QWzu$6CW" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="member" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3U0QWzu$6wv" resolve="IOFXExceptionStrategyMember" />
+    </node>
+    <node concept="PrWs8" id="3U0QWzu$65p" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3U0QWzu$6uM">
+    <property role="1pbfSe" value="487670650" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXStrategyForException" />
+    <property role="34LRSv" value="strategy" />
+    <property role="R4oN_" value="for exception" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3U0QWzu$7hK" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="exName" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
+    <node concept="1TJgyj" id="3U0QWzu$7oy" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="messagePart" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
+    <node concept="1TJgyj" id="3U0QWzu_6fv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="props" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3U0QWzu_6fi" resolve="OFXExceptionStrategyProp" />
+    </node>
+    <node concept="PrWs8" id="3U0QWzuF6_v" role="PzmwI">
+      <ref role="PrY4T" node="3U0QWzu$6wv" resolve="IOFXExceptionStrategyMember" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3U0QWzu$6wv">
+    <property role="1pbfSe" value="487670759" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="IOFXExceptionStrategyMember" />
+  </node>
+  <node concept="1TIwiD" id="3U0QWzu_6fi">
+    <property role="1pbfSe" value="487931802" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXExceptionStrategyProp" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3U0QWzuKJ_f" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="const" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fKQsSyN" resolve="EnumConstantDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3U0QWzuEgZN">
+    <property role="1pbfSe" value="489286587" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXExceptionStrategyInclude" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3U0QWzuEgZQ" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="strategy" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3U0QWzu$3aR" resolve="OFXExceptionStrategy" />
+    </node>
+    <node concept="PrWs8" id="3U0QWzuEgZO" role="PzmwI">
+      <ref role="PrY4T" node="3U0QWzu$6wv" resolve="IOFXExceptionStrategyMember" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3U0QWzuPwIA">
+    <property role="1pbfSe" value="492234606" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXRunCmdSuccessorHandler" />
+    <property role="34LRSv" value="successor handling" />
+    <property role="R4oN_" value="handles a successor cmd" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3U0QWzuPnoH" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="successorPages" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3U0QWztHgKC" resolve="OFXRunCmdPage" />
+    </node>
+    <node concept="1TJgyj" id="3U0QWzuPwIL" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="command" />
+      <ref role="20lvS9" node="6ffh1MXzHna" resolve="Command" />
+    </node>
+    <node concept="PrWs8" id="3bhLp3E4627" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
