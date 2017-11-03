@@ -13838,5 +13838,67 @@
       <ref role="1YaFvo" to="un0u:7TJOmj72Lm4" resolve="OFXRunCmd" />
     </node>
   </node>
+  <node concept="18kY7G" id="65g7rxktKgQ">
+    <property role="TrG5h" value="check_OFXRunCmdSuccessorHandler" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="65g7rxktKgR" role="18ibNy">
+      <node concept="3clFbJ" id="65g7rxktLvF" role="3cqZAp">
+        <node concept="1Wc70l" id="65g7rxktLvG" role="3clFbw">
+          <node concept="3clFbC" id="65g7rxktLvH" role="3uHU7w">
+            <node concept="3cmrfG" id="65g7rxktLvI" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="65g7rxktLvJ" role="3uHU7B">
+              <node concept="2OqwBi" id="65g7rxktLvK" role="2Oq$k0">
+                <node concept="1YBJjd" id="65g7rxktN6X" role="2Oq$k0">
+                  <ref role="1YBMHb" node="65g7rxktKgT" resolve="ofxRunCmdSuccessorHandler" />
+                </node>
+                <node concept="3Tsc0h" id="65g7rxktNI9" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:3U0QWzuPnoH" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="65g7rxktLvN" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3eOSWO" id="65g7rxktLvO" role="3uHU7B">
+            <node concept="2OqwBi" id="65g7rxktLvP" role="3uHU7B">
+              <node concept="2OqwBi" id="65g7rxktLvQ" role="2Oq$k0">
+                <node concept="2OqwBi" id="65g7rxktLvR" role="2Oq$k0">
+                  <node concept="1YBJjd" id="65g7rxktMgj" role="2Oq$k0">
+                    <ref role="1YBMHb" node="65g7rxktKgT" resolve="ofxRunCmdSuccessorHandler" />
+                  </node>
+                  <node concept="3TrEf2" id="65g7rxktMYH" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:3U0QWzuPwIL" />
+                  </node>
+                </node>
+                <node concept="3Tsc0h" id="65g7rxktLvW" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:6ffh1MXzXnB" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="65g7rxktLvX" role="2OqNvi" />
+            </node>
+            <node concept="3cmrfG" id="65g7rxktLvY" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="65g7rxktLvZ" role="3clFbx">
+          <node concept="2MkqsV" id="65g7rxktLw0" role="3cqZAp">
+            <node concept="Xl_RD" id="65g7rxktLw1" role="2MkJ7o">
+              <property role="Xl_RC" value="This command needs some page handling." />
+            </node>
+            <node concept="1YBJjd" id="65g7rxktNRv" role="2OEOjV">
+              <ref role="1YBMHb" node="65g7rxktKgT" resolve="ofxRunCmdSuccessorHandler" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="65g7rxktLDU" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="65g7rxktKgT" role="1YuTPh">
+      <property role="TrG5h" value="ofxRunCmdSuccessorHandler" />
+      <ref role="1YaFvo" to="un0u:3U0QWzuPwIA" resolve="OFXRunCmdSuccessorHandler" />
+    </node>
+  </node>
 </model>
 

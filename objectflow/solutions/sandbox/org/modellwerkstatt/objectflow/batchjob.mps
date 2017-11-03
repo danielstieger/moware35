@@ -28,8 +28,8 @@
     <import index="a820" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.context(org.modellwerkstatt.sandbox/)" />
     <import index="qqeh" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.context.support(org.modellwerkstatt.sandbox/)" />
     <import index="25x5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.text(JDK/)" />
+    <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" implicit="true" />
-    <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -15131,6 +15131,41 @@
         <property role="TrG5h" value="userEnv" />
         <node concept="3uibUv" id="2$LKw9UN6Dg" role="1tU5fm">
           <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="2qrl3a2nuuu" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getProcessByFqName" />
+      <node concept="3uibUv" id="2qrl3a2nuuv" role="3clF45">
+        <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXProcess" />
+      </node>
+      <node concept="3Tm1VV" id="2qrl3a2nuuw" role="1B3o_S" />
+      <node concept="37vLTG" id="2qrl3a2nuuy" role="3clF46">
+        <property role="TrG5h" value="fqName" />
+        <node concept="17QB3L" id="2qrl3a2nuuz" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2qrl3a2nuu$" role="3clF47">
+        <node concept="3clFbF" id="4XXgpA_y_lF" role="3cqZAp">
+          <node concept="10QFUN" id="Y3fiVL0eBP" role="3clFbG">
+            <node concept="3uibUv" id="Y3fiVL0eMP" role="10QFUM">
+              <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXProcess" />
+            </node>
+            <node concept="2OqwBi" id="Y3fiVL0eBU" role="10QFUP">
+              <node concept="2OqwBi" id="Y3fiVL0eBV" role="2Oq$k0">
+                <node concept="Xjq3P" id="Y3fiVL0eBW" role="2Oq$k0" />
+                <node concept="2OwXpG" id="65g7rxkCAMJ" role="2OqNvi">
+                  <ref role="2Oxat5" node="xRnvdcXTUv" resolve="context" />
+                </node>
+              </node>
+              <node concept="liA8E" id="Y3fiVL0eBY" role="2OqNvi">
+                <ref role="37wK5l" to="te48:~BeanFactory.getBean(java.lang.String):java.lang.Object" resolve="getBean" />
+                <node concept="37vLTw" id="4XXgpA_yA0J" role="37wK5m">
+                  <ref role="3cqZAo" node="2qrl3a2nuuy" resolve="fqName" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>

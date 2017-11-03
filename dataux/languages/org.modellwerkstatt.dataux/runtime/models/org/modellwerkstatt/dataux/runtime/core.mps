@@ -26465,7 +26465,7 @@
                 <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
               </node>
               <node concept="liA8E" id="6bl3$WOLQs7" role="2OqNvi">
-                <ref role="37wK5l" to="250q:4XXgpA_yFXU" resolve="getProcessByFqName" />
+                <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getProcessByFqName" />
                 <node concept="2OqwBi" id="6bl3$WOLQuv" role="37wK5m">
                   <node concept="37vLTw" id="6bl3$WOLQtl" role="2Oq$k0">
                     <ref role="3cqZAo" node="6bl3$WOLFJH" resolve="cfg" />

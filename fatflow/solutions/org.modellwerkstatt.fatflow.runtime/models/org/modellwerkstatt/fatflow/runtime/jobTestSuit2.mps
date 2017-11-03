@@ -4338,6 +4338,23 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="65g7rxkJMW5" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getProcessByFqName" />
+      <node concept="3uibUv" id="65g7rxkJMW6" role="3clF45">
+        <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXProcess" />
+      </node>
+      <node concept="3Tm1VV" id="65g7rxkJMW7" role="1B3o_S" />
+      <node concept="37vLTG" id="65g7rxkJMW9" role="3clF46">
+        <property role="TrG5h" value="fqName" />
+        <node concept="17QB3L" id="65g7rxkJMWa" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="65g7rxkJMWb" role="3clF47">
+        <node concept="3clFbF" id="65g7rxkJMWd" role="3cqZAp">
+          <node concept="10Nm6u" id="65g7rxkJMWc" role="3clFbG" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="2xm_JkjuOE0" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getNewClassInstanceByFQName" />

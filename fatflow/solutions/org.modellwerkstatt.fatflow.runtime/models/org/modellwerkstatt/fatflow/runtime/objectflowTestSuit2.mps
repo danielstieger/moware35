@@ -262,9 +262,6 @@
       <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
       <concept id="6390289192935148849" name="org.modellwerkstatt.objectflow.structure.OFXGraphEditTestMethod" flags="ng" index="2Oh1co" />
       <concept id="6390289192933644448" name="org.modellwerkstatt.objectflow.structure.OFXGraphOwnerTestMethod" flags="ng" index="2Ovgq9" />
-      <concept id="9110730801960129924" name="org.modellwerkstatt.objectflow.structure.OFXRunCmd" flags="ng" index="2Tpcjw">
-        <child id="9110730801960131774" name="commandCall" index="2TpcRq" />
-      </concept>
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
@@ -8663,23 +8660,6 @@
       <node concept="3cqZAl" id="3U0QWztN9xn" role="3clF45" />
       <node concept="3clFbS" id="3U0QWztN9wr" role="3clF47">
         <node concept="3clFbH" id="3U0QWztPTK8" role="3cqZAp" />
-        <node concept="2Tpcjw" id="3U0QWztN_F$" role="3cqZAp">
-          <node concept="2_HltQ" id="3U0QWztN_F_" role="2TpcRq">
-            <ref role="2_Hrwf" node="Joc9_LZQLM" resolve="Invoice Process" />
-            <ref role="2_Hrw8" node="5MCXLSnMhvZ" resolve="Checkout Invoice" />
-            <node concept="10Nm6u" id="3U0QWztNB3b" role="2_HrWp" />
-            <node concept="2OqwBi" id="3U0QWztNAMz" role="2_HrWp">
-              <node concept="3zkua3" id="3U0QWztNALe" role="2Oq$k0">
-                <ref role="3zku8S" node="3U0QWztNAAf" resolve="inv" />
-              </node>
-              <node concept="2S8uIT" id="3U0QWztNANs" role="2OqNvi">
-                <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
-              </node>
-            </node>
-            <node concept="10Nm6u" id="3U0QWztNG0C" role="2_HrWp" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="3U0QWztNG2O" role="3cqZAp" />
       </node>
       <node concept="3yABqi" id="3U0QWztNAAf" role="3yGA3Q">
         <property role="TrG5h" value="inv" />

@@ -12257,7 +12257,7 @@
     <ref role="1XX52x" to="un0u:3U0QWztHgKC" resolve="OFXRunCmdPage" />
     <node concept="3EZMnI" id="3U0QWztHiOh" role="2wV5jI">
       <node concept="3F0ifn" id="3U0QWztHiOi" role="3EZMnx">
-        <property role="3F0ifm" value="page" />
+        <property role="3F0ifm" value="expecting page" />
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
         <node concept="lj46D" id="3U0QWztHiOj" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -12375,7 +12375,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="3U0QWztRIHv" role="3EZMnx">
-        <property role="3F0ifm" value="current status now: " />
+        <property role="3F0ifm" value="producer status: " />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="pVoyu" id="3U0QWztRIQV" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -12443,7 +12443,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="3U0QWztRK3d" role="3EZMnx">
-        <property role="3F0ifm" value="current status now: " />
+        <property role="3F0ifm" value="consumer status: " />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="pVoyu" id="3U0QWztRK3e" role="3F10Kt">
           <property role="VOm3f" value="true" />

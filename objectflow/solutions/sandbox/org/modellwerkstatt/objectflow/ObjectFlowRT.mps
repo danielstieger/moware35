@@ -9896,7 +9896,7 @@
   </node>
   <node concept="312cEu" id="3aesqnvc$0z">
     <property role="3GE5qa" value="OFXImpl" />
-    <property role="TrG5h" value="OFXFakeView" />
+    <property role="TrG5h" value="OFXFakePagePane" />
     <node concept="312cEg" id="3aesqnvcF0y" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -9981,21 +9981,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="3spXEPXZA8o" role="3cqZAp" />
-        <node concept="3SKdUt" id="3spXEPXZ_OR" role="3cqZAp">
-          <node concept="3SKdUq" id="3spXEPXZA7v" role="3SKWNk">
-            <property role="3SKdUp" value="else return boundList selection... " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3spXEPXZAJR" role="3cqZAp">
-          <node concept="3SKdUq" id="3spXEPXZB2J" role="3SKWNk">
-            <property role="3SKdUp" value="for backward compatibility ... " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3spXEPXZPOs" role="3cqZAp">
-          <node concept="3SKdUq" id="3spXEPXZPXD" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: unclear yet, but can't we reduce the sel=new IOFXSelection&lt;Document&gt;() ??" />
-          </node>
-        </node>
         <node concept="3cpWs8" id="3aesqnvcOE2" role="3cqZAp">
           <node concept="3cpWsn" id="3aesqnvcOE3" role="3cpWs9">
             <property role="TrG5h" value="sel" />
@@ -10080,7 +10065,6 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="2tJIrI" id="3VIcZtBEnko" role="jymVt" />
                   <node concept="3clFb_" id="3aesqnvcOEb" role="jymVt">
                     <property role="1EzhhJ" value="false" />
                     <property role="TrG5h" value="getObject" />
@@ -33654,7 +33638,20 @@
         <ref role="3uigEE" node="7MWNCzY1Tjr" resolve="IOFXPlatform" />
       </node>
     </node>
-    <node concept="2tJIrI" id="69JiVbyXYjA" role="jymVt" />
+    <node concept="2tJIrI" id="65g7rxkCudI" role="jymVt" />
+    <node concept="3clFb_" id="4XXgpA_yFXU" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getProcessByFqName" />
+      <node concept="3uibUv" id="4XXgpA_yG2b" role="3clF45">
+        <ref role="3uigEE" node="7rqBz8B3EmX" resolve="IOFXProcess" />
+      </node>
+      <node concept="3Tm1VV" id="4XXgpA_yFXX" role="1B3o_S" />
+      <node concept="3clFbS" id="4XXgpA_yFXY" role="3clF47" />
+      <node concept="37vLTG" id="4XXgpA_yQ1p" role="3clF46">
+        <property role="TrG5h" value="fqName" />
+        <node concept="17QB3L" id="4XXgpA_yQ1o" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="3clFb_" id="52pTiJH00BL" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getNewClassInstanceByFQName" />
@@ -33958,6 +33955,43 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="65g7rxkCyVl" role="jymVt" />
+    <node concept="3clFb_" id="2qrl3a2nuuu" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getProcessByFqName" />
+      <node concept="3uibUv" id="2qrl3a2nuuv" role="3clF45">
+        <ref role="3uigEE" node="7rqBz8B3EmX" resolve="IOFXProcess" />
+      </node>
+      <node concept="3Tm1VV" id="2qrl3a2nuuw" role="1B3o_S" />
+      <node concept="37vLTG" id="2qrl3a2nuuy" role="3clF46">
+        <property role="TrG5h" value="fqName" />
+        <node concept="17QB3L" id="2qrl3a2nuuz" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="2qrl3a2nuu$" role="3clF47">
+        <node concept="3clFbF" id="4XXgpA_y_lF" role="3cqZAp">
+          <node concept="10QFUN" id="Y3fiVL0eBP" role="3clFbG">
+            <node concept="3uibUv" id="Y3fiVL0eMP" role="10QFUM">
+              <ref role="3uigEE" node="7rqBz8B3EmX" resolve="IOFXProcess" />
+            </node>
+            <node concept="2OqwBi" id="Y3fiVL0eBU" role="10QFUP">
+              <node concept="2OqwBi" id="Y3fiVL0eBV" role="2Oq$k0">
+                <node concept="Xjq3P" id="Y3fiVL0eBW" role="2Oq$k0" />
+                <node concept="2OwXpG" id="65g7rxkCzhc" role="2OqNvi">
+                  <ref role="2Oxat5" node="3J6KGB_wfdo" resolve="context" />
+                </node>
+              </node>
+              <node concept="liA8E" id="Y3fiVL0eBY" role="2OqNvi">
+                <ref role="37wK5l" to="te48:~BeanFactory.getBean(java.lang.String):java.lang.Object" resolve="getBean" />
+                <node concept="37vLTw" id="4XXgpA_yA0J" role="37wK5m">
+                  <ref role="3cqZAo" node="2qrl3a2nuuy" resolve="fqName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="65g7rxkCxeU" role="jymVt" />
     <node concept="3clFb_" id="52pTiJH1n9V" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getNewClassInstanceByFQName" />
@@ -34502,7 +34536,41 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="xRnvdcXTUX" role="jymVt" />
+    <node concept="3clFb_" id="65g7rxkC$kw" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getProcessByFqName" />
+      <node concept="3uibUv" id="65g7rxkC$kx" role="3clF45">
+        <ref role="3uigEE" node="7rqBz8B3EmX" resolve="IOFXProcess" />
+      </node>
+      <node concept="3Tm1VV" id="65g7rxkC$ky" role="1B3o_S" />
+      <node concept="37vLTG" id="65g7rxkC$kz" role="3clF46">
+        <property role="TrG5h" value="fqName" />
+        <node concept="17QB3L" id="65g7rxkC$k$" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="65g7rxkC$k_" role="3clF47">
+        <node concept="3clFbF" id="65g7rxkC$kA" role="3cqZAp">
+          <node concept="10QFUN" id="65g7rxkC$kB" role="3clFbG">
+            <node concept="3uibUv" id="65g7rxkC$kC" role="10QFUM">
+              <ref role="3uigEE" node="7rqBz8B3EmX" resolve="IOFXProcess" />
+            </node>
+            <node concept="2OqwBi" id="65g7rxkC$kD" role="10QFUP">
+              <node concept="2OqwBi" id="65g7rxkC$kE" role="2Oq$k0">
+                <node concept="Xjq3P" id="65g7rxkC$kF" role="2Oq$k0" />
+                <node concept="2OwXpG" id="65g7rxkC$kG" role="2OqNvi">
+                  <ref role="2Oxat5" node="xRnvdcXTUv" resolve="context" />
+                </node>
+              </node>
+              <node concept="liA8E" id="65g7rxkC$kH" role="2OqNvi">
+                <ref role="37wK5l" to="te48:~BeanFactory.getBean(java.lang.String):java.lang.Object" resolve="getBean" />
+                <node concept="37vLTw" id="65g7rxkC$kI" role="37wK5m">
+                  <ref role="3cqZAo" node="65g7rxkC$kz" resolve="fqName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="52pTiJH1pb9" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getNewClassInstanceByFQName" />
@@ -43772,6 +43840,27 @@
     </node>
     <node concept="2tJIrI" id="7sK_OLreJJ1" role="jymVt" />
     <node concept="3Tm1VV" id="7sK_OLreJFw" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="65g7rxk$Gii">
+    <property role="3GE5qa" value="OFXArchitecture" />
+    <property role="TrG5h" value="IOFXHandleExpectedPage" />
+    <node concept="3clFb_" id="65g7rxk$GYX" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="handle" />
+      <node concept="37vLTG" id="65g7rxk$H3n" role="3clF46">
+        <property role="TrG5h" value="command" />
+        <node concept="3uibUv" id="65g7rxk$H6b" role="1tU5fm">
+          <ref role="3uigEE" node="7rqBz8B3ElL" resolve="IOFXCommand" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="65g7rxk$GYZ" role="3clF45" />
+      <node concept="3Tm1VV" id="65g7rxk$GZ0" role="1B3o_S" />
+      <node concept="3clFbS" id="65g7rxk$GZ1" role="3clF47" />
+      <node concept="3uibUv" id="65g7rxk_1gG" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="65g7rxk$Gij" role="1B3o_S" />
   </node>
 </model>
 

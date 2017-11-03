@@ -1090,7 +1090,7 @@
                     <ref role="3cqZAo" node="cYdxW5KUX7" resolve="factory" />
                   </node>
                   <node concept="liA8E" id="cYdxW5KWTu" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:4XXgpA_yFXU" resolve="getProcessByFqName" />
+                    <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getProcessByFqName" />
                     <node concept="37vLTw" id="cYdxW5KWVT" role="37wK5m">
                       <ref role="3cqZAo" node="Y3fiVL0iol" resolve="public_processFqName" />
                     </node>
