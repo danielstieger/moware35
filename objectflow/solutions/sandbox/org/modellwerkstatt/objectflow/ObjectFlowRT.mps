@@ -41664,7 +41664,7 @@
   <node concept="312cEu" id="6qsy3WVLnjT">
     <property role="TrG5h" value="OFXSuccessorCommandConfig" />
     <node concept="312cEg" id="6qsy3WVLwRL" role="jymVt">
-      <property role="TrG5h" value="procName" />
+      <property role="TrG5h" value="procInstanceName" />
       <node concept="3Tm6S6" id="6qsy3WVLwRM" role="1B3o_S" />
       <node concept="17QB3L" id="6qsy3WVLwSB" role="1tU5fm" />
     </node>
@@ -41718,7 +41718,7 @@
             <node concept="2OqwBi" id="6qsy3WVLxBw" role="37vLTJ">
               <node concept="Xjq3P" id="6qsy3WVLxBb" role="2Oq$k0" />
               <node concept="2OwXpG" id="6qsy3WVLxD3" role="2OqNvi">
-                <ref role="2Oxat5" node="6qsy3WVLwRL" resolve="procName" />
+                <ref role="2Oxat5" node="6qsy3WVLwRL" resolve="procInstanceName" />
               </node>
             </node>
           </node>
@@ -41752,13 +41752,13 @@
       </node>
     </node>
     <node concept="3clFb_" id="6qsy3WVLztt" role="jymVt">
-      <property role="TrG5h" value="getProcName" />
+      <property role="TrG5h" value="getProcInstanceNameName" />
       <node concept="17QB3L" id="6qsy3WVLzGx" role="3clF45" />
       <node concept="3Tm1VV" id="6qsy3WVLztw" role="1B3o_S" />
       <node concept="3clFbS" id="6qsy3WVLztx" role="3clF47">
         <node concept="3clFbF" id="6qsy3WVLzN_" role="3cqZAp">
           <node concept="37vLTw" id="6qsy3WVLzN$" role="3clFbG">
-            <ref role="3cqZAo" node="6qsy3WVLwRL" resolve="procName" />
+            <ref role="3cqZAo" node="6qsy3WVLwRL" resolve="procInstanceName" />
           </node>
         </node>
       </node>
@@ -43851,6 +43851,13 @@
         <property role="TrG5h" value="command" />
         <node concept="3uibUv" id="65g7rxk$H6b" role="1tU5fm">
           <ref role="3uigEE" node="7rqBz8B3ElL" resolve="IOFXCommand" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4jlzLDlWFxv" role="3clF46">
+        <property role="TrG5h" value="__manMapSession" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="4wvbHtt1Nk8" role="1tU5fm">
+          <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
         </node>
       </node>
       <node concept="3cqZAl" id="65g7rxk$GYZ" role="3clF45" />

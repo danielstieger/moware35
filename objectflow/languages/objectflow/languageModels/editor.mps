@@ -12111,6 +12111,21 @@
         </node>
       </node>
       <node concept="3F0ifn" id="7TJOmj6MLss" role="3EZMnx" />
+      <node concept="3F0ifn" id="4jlzLDlak3W" role="3EZMnx" />
+      <node concept="3F0ifn" id="4jlzLDlak5o" role="3EZMnx">
+        <property role="3F0ifm" value="options for this module:" />
+        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
+      </node>
+      <node concept="3F2HdR" id="6K73LRuXmOp" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:4jlzLDl6dFZ" />
+        <node concept="2iRkQZ" id="6K73LRuXmOr" role="2czzBx" />
+        <node concept="3F0ifn" id="6K73LRuX$Nm" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;options&gt;" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="4jlzLDlak4A" role="3EZMnx" />
       <node concept="3F0ifn" id="7TJOmj6MLst" role="3EZMnx">
         <property role="3F0ifm" value="" />
       </node>
@@ -12555,7 +12570,7 @@
     <ref role="1XX52x" to="un0u:3U0QWzuPwIA" resolve="OFXRunCmdSuccessorHandler" />
     <node concept="3EZMnI" id="3U0QWzuP_aD" role="2wV5jI">
       <node concept="3F0ifn" id="3U0QWzuP_aK" role="3EZMnx">
-        <property role="3F0ifm" value="successor command" />
+        <property role="3F0ifm" value="when successor command" />
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
         <node concept="pVoyu" id="3U0QWzuP_aL" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -12597,6 +12612,20 @@
         </node>
       </node>
       <node concept="l2Vlx" id="3U0QWzuP_aG" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4jlzLDl6dID">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1XX52x" to="un0u:4jlzLDl6dCR" resolve="OFXBatchJobVersion" />
+    <node concept="3EZMnI" id="4jlzLDl6dIM" role="2wV5jI">
+      <node concept="PMmxH" id="4jlzLDl6dIN" role="3EZMnx">
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="6K73LRuXm$4" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:4jlzLDl6dI6" />
+      </node>
+      <node concept="l2Vlx" id="4jlzLDl6dIO" role="2iSdaV" />
     </node>
   </node>
 </model>

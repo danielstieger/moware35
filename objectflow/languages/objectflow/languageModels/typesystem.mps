@@ -13900,5 +13900,35 @@
       <ref role="1YaFvo" to="un0u:3U0QWzuPwIA" resolve="OFXRunCmdSuccessorHandler" />
     </node>
   </node>
+  <node concept="1YbPZF" id="4jlzLDl6dOr">
+    <property role="TrG5h" value="typeof_OFXBatchJobVersion" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="4jlzLDl6dOs" role="18ibNy">
+      <node concept="1ZobV4" id="6K73LRuXmJu" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="6K73LRuXmJQ" role="1ZfhKB">
+          <node concept="2c44tf" id="6K73LRuXmJM" role="mwGJk">
+            <node concept="17QB3L" id="6K73LRuXmK9" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="6K73LRuXmJx" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6K73LRuXm$l" role="mwGJk">
+            <node concept="2OqwBi" id="6K73LRuXmAx" role="1Z2MuG">
+              <node concept="1YBJjd" id="4jlzLDl6dQW" role="2Oq$k0">
+                <ref role="1YBMHb" node="4jlzLDl6dOu" resolve="ofxBatchJobVersion" />
+              </node>
+              <node concept="3TrEf2" id="4jlzLDl6dVz" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:4jlzLDl6dI6" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4jlzLDl6dOu" role="1YuTPh">
+      <property role="TrG5h" value="ofxBatchJobVersion" />
+      <ref role="1YaFvo" to="un0u:4jlzLDl6dCR" resolve="OFXBatchJobVersion" />
+    </node>
+  </node>
 </model>
 
