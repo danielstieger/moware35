@@ -77,6 +77,9 @@
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
@@ -241,9 +244,6 @@
       </concept>
       <concept id="6952410984693239415" name="org.modellwerkstatt.objectflow.structure.OFXTestMethocCallVarRef" flags="ng" index="3zkua3">
         <reference id="6952410984693239500" name="varReference" index="3zku8S" />
-      </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
       </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
@@ -4580,6 +4580,10 @@
                                           <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
                                           <ref role="Rm8GQ" to="z3ji:2xm_Jkjrpmn" resolve="CONSUMER_RESTART" />
                                         </node>
+                                        <node concept="Rm8GO" id="2q7OPuQ$ETB" role="37wK5m">
+                                          <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="READD_TO_INBOX" />
+                                          <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
+                                        </node>
                                       </node>
                                     </node>
                                   </node>
@@ -4829,6 +4833,10 @@
                                           <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
                                           <ref role="Rm8GQ" to="z3ji:2xm_Jkjrpmn" resolve="CONSUMER_RESTART" />
                                         </node>
+                                        <node concept="Rm8GO" id="2q7OPuQ$Fd8" role="37wK5m">
+                                          <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
+                                          <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="READD_TO_INBOX" />
+                                        </node>
                                       </node>
                                     </node>
                                   </node>
@@ -5065,6 +5073,10 @@
                                         <node concept="Rm8GO" id="2xm_JkjBYEA" role="37wK5m">
                                           <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
                                           <ref role="Rm8GQ" to="z3ji:2xm_Jkjrpmn" resolve="CONSUMER_RESTART" />
+                                        </node>
+                                        <node concept="Rm8GO" id="2q7OPuQ$FlA" role="37wK5m">
+                                          <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
+                                          <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="READD_TO_INBOX" />
                                         </node>
                                       </node>
                                     </node>
@@ -5778,6 +5790,27 @@
                                     </node>
                                   </node>
                                   <node concept="3clFbH" id="1WqysfnHYVV" role="3cqZAp" />
+                                  <node concept="3clFbF" id="2q7OPuQGVzc" role="3cqZAp">
+                                    <node concept="2OqwBi" id="2q7OPuQGVz9" role="3clFbG">
+                                      <node concept="10M0yZ" id="2q7OPuQGVza" role="2Oq$k0">
+                                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                                      </node>
+                                      <node concept="liA8E" id="2q7OPuQGVzb" role="2OqNvi">
+                                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                                        <node concept="3cpWs3" id="2q7OPuQGVLU" role="37wK5m">
+                                          <node concept="2ShNRf" id="2q7OPuQGVOU" role="3uHU7w">
+                                            <node concept="1pGfFk" id="2q7OPuQGWdu" role="2ShVmc">
+                                              <ref role="37wK5l" to="33ny:~Date.&lt;init&gt;()" resolve="Date" />
+                                            </node>
+                                          </node>
+                                          <node concept="Xl_RD" id="2q7OPuQGVDZ" role="3uHU7B">
+                                            <property role="Xl_RC" value="Adding to Inbox " />
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
                                   <node concept="3clFbF" id="1WqysfnGMCa" role="3cqZAp">
                                     <node concept="2YIFZM" id="1WqysfnGMCc" role="3clFbG">
                                       <ref role="37wK5l" to="33ny:~Arrays.asList(java.lang.Object...):java.util.List" resolve="asList" />
@@ -8015,8 +8048,8 @@
             <node concept="3cmrfG" id="1TthV9g3fPZ" role="37wK5m">
               <property role="3cmrfH" value="0" />
             </node>
-            <node concept="Rm8GO" id="1TthV9g3isC" role="37wK5m">
-              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
+            <node concept="Rm8GO" id="2q7OPuQDPCB" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="READD_TO_INBOX" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
             </node>
           </node>
@@ -8325,6 +8358,10 @@
               <ref role="Rm8GQ" to="z3ji:2xm_Jkjrpmn" resolve="CONSUMER_RESTART" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
             </node>
+            <node concept="Rm8GO" id="2q7OPuQE4S5" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="READD_TO_INBOX" />
+              <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
+            </node>
           </node>
         </node>
         <node concept="Xl_RD" id="1TthV9g4af0" role="37wK5m">
@@ -8622,8 +8659,8 @@
             <node concept="3cmrfG" id="1TthV9g4obG" role="37wK5m">
               <property role="3cmrfH" value="0" />
             </node>
-            <node concept="Rm8GO" id="6ChgfB7sWnN" role="37wK5m">
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
+            <node concept="Rm8GO" id="2q7OPuQ$ZH3" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
             </node>
           </node>
@@ -8969,6 +9006,10 @@
             </node>
             <node concept="Rm8GO" id="6ChgfB7tqs6" role="37wK5m">
               <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
+              <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
+            </node>
+            <node concept="Rm8GO" id="2q7OPuQF8Ac" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="READD_TO_INBOX" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
             </node>
           </node>
@@ -9351,6 +9392,10 @@
               <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
             </node>
+            <node concept="Rm8GO" id="2q7OPuQEvE5" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="READD_TO_INBOX" />
+              <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
+            </node>
           </node>
         </node>
         <node concept="Xl_RD" id="6ChgfB7y0Yw" role="37wK5m">
@@ -9731,8 +9776,8 @@
             <node concept="3cmrfG" id="6ChgfB7CxOo" role="37wK5m">
               <property role="3cmrfH" value="0" />
             </node>
-            <node concept="Rm8GO" id="6ChgfB7Ek56" role="37wK5m">
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
+            <node concept="Rm8GO" id="2q7OPuQ_cvB" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
             </node>
           </node>
@@ -10124,8 +10169,8 @@
             <node concept="3cmrfG" id="6ChgfB7Go$t" role="37wK5m">
               <property role="3cmrfH" value="4000" />
             </node>
-            <node concept="Rm8GO" id="6ChgfB7Go$u" role="37wK5m">
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
+            <node concept="Rm8GO" id="2q7OPuQ_iMN" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
             </node>
           </node>
@@ -10517,8 +10562,8 @@
             <node concept="3cmrfG" id="6ChgfB7GZL0" role="37wK5m">
               <property role="3cmrfH" value="4000" />
             </node>
-            <node concept="Rm8GO" id="6ChgfB7GZL1" role="37wK5m">
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
+            <node concept="Rm8GO" id="2q7OPuQ_f3u" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
             </node>
           </node>
@@ -10819,8 +10864,8 @@
             <node concept="3cmrfG" id="6ChgfB7JULG" role="37wK5m">
               <property role="3cmrfH" value="500" />
             </node>
-            <node concept="Rm8GO" id="6ChgfB7JULH" role="37wK5m">
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
+            <node concept="Rm8GO" id="2q7OPuQ_4OY" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
             </node>
           </node>
@@ -10834,9 +10879,9 @@
             <node concept="3cmrfG" id="6ChgfB7JY4D" role="37wK5m">
               <property role="3cmrfH" value="6000" />
             </node>
-            <node concept="Rm8GO" id="6ChgfB7JY4E" role="37wK5m">
+            <node concept="Rm8GO" id="2q7OPuQ_2hA" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
             </node>
           </node>
         </node>
@@ -11095,7 +11140,7 @@
               <ref role="1Pybhc" node="2xm_JkjvVi1" resolve="TestUtil" />
             </node>
             <node concept="3cmrfG" id="1V7CJHMLyse" role="3uHU7w">
-              <property role="3cmrfH" value="3" />
+              <property role="3cmrfH" value="4" />
             </node>
           </node>
         </node>
@@ -11472,9 +11517,9 @@
             <node concept="3cmrfG" id="2fj6lk$59$t" role="37wK5m">
               <property role="3cmrfH" value="100" />
             </node>
-            <node concept="Rm8GO" id="2fj6lk$59$u" role="37wK5m">
+            <node concept="Rm8GO" id="2q7OPuQ_7ok" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
             </node>
             <node concept="Rm8GO" id="2fj6lk$5l$G" role="37wK5m">
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
@@ -11491,9 +11536,9 @@
             <node concept="3cmrfG" id="2fj6lk$59$y" role="37wK5m">
               <property role="3cmrfH" value="6000" />
             </node>
-            <node concept="Rm8GO" id="2fj6lk$59$z" role="37wK5m">
+            <node concept="Rm8GO" id="2q7OPuQ_9VL" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
             </node>
           </node>
         </node>
@@ -11559,7 +11604,18 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1WqysfnQLmw" role="3cqZAp" />
+        <node concept="38$l6q" id="2q7OPuQGMwB" role="3cqZAp">
+          <node concept="3cpWs3" id="2q7OPuQGRBr" role="38$l6p">
+            <node concept="2ShNRf" id="2q7OPuQGUaq" role="3uHU7w">
+              <node concept="1pGfFk" id="2q7OPuQGUym" role="2ShVmc">
+                <ref role="37wK5l" to="33ny:~Date.&lt;init&gt;()" resolve="Date" />
+              </node>
+            </node>
+            <node concept="Xl_RD" id="2q7OPuQGP5l" role="3uHU7B">
+              <property role="Xl_RC" value="Test started at " />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1WqysfnI8aS" role="3cqZAp">
           <node concept="2OqwBi" id="1WqysfnI8aT" role="3clFbG">
             <node concept="3zkua3" id="1WqysfnI8aU" role="2Oq$k0">
@@ -11609,7 +11665,7 @@
             <ref role="37wK5l" node="2xm_JkjvYwh" resolve="wait" />
             <ref role="1Pybhc" node="2xm_JkjvVi1" resolve="TestUtil" />
             <node concept="3cmrfG" id="1WqysfnI8b_" role="37wK5m">
-              <property role="3cmrfH" value="13000" />
+              <property role="3cmrfH" value="14000" />
             </node>
           </node>
         </node>
@@ -12182,10 +12238,6 @@
             <node concept="3cmrfG" id="3yI9$tJW_$o" role="37wK5m">
               <property role="3cmrfH" value="4000" />
             </node>
-            <node concept="Rm8GO" id="3yI9$tJW_$p" role="37wK5m">
-              <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
-            </node>
             <node concept="Rm8GO" id="3yI9$tJXihP" role="37wK5m">
               <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
@@ -12200,10 +12252,6 @@
             <ref role="37wK5l" to="z3ji:2xm_JkjrkSx" resolve="OFXExceptionStrategy.Strategy" />
             <node concept="3cmrfG" id="3yI9$tJW_$u" role="37wK5m">
               <property role="3cmrfH" value="4000" />
-            </node>
-            <node concept="Rm8GO" id="3yI9$tJW_$v" role="37wK5m">
-              <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
             </node>
           </node>
         </node>
@@ -12383,10 +12431,6 @@
             <node concept="3cmrfG" id="3yI9$tK5XGN" role="37wK5m">
               <property role="3cmrfH" value="4000" />
             </node>
-            <node concept="Rm8GO" id="3yI9$tK5XGO" role="37wK5m">
-              <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
-            </node>
             <node concept="Rm8GO" id="3yI9$tK5XGP" role="37wK5m">
               <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
@@ -12401,10 +12445,6 @@
             <ref role="37wK5l" to="z3ji:2xm_JkjrkSx" resolve="OFXExceptionStrategy.Strategy" />
             <node concept="3cmrfG" id="3yI9$tK5XGT" role="37wK5m">
               <property role="3cmrfH" value="4000" />
-            </node>
-            <node concept="Rm8GO" id="3yI9$tK5XGU" role="37wK5m">
-              <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
-              <ref role="Rm8GQ" to="z3ji:2xm_JkjrptI" resolve="IGNORE_ENTITY_KEY" />
             </node>
           </node>
         </node>
@@ -12429,57 +12469,6 @@
     <node concept="1DF_5m" id="3yI9$tJW$PG" role="3yMuLx" />
     <node concept="1DZZI9" id="1TthV9fQE_4" role="38MLOi">
       <ref role="1DZZIc" node="2xm_JkjuRnh" resolve="InfraSetups" />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qyV" role="38MLOi">
-      <ref role="1Cak38" node="1TthV9fQEnM" resolve="Consumer should take over work, if one particular consumer is shut down." />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qyW" role="38MLOi">
-      <ref role="1Cak38" node="1TthV9fVWfW" resolve="Consumer can be shuted down, even if consumer is ignoring Shutdown msg." />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qyX" role="38MLOi">
-      <ref role="1Cak38" node="1TthV9fWI1n" resolve="No Work done ack does not impair other consumers. (Consumer Hang-Up - DO NOT USER ShutdwnEmptyInbox)" />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qyY" role="38MLOi">
-      <ref role="1Cak38" node="1TthV9fXDHW" resolve="Exception in consumer event loop, DOES terminate the consumer" />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qyZ" role="38MLOi">
-      <ref role="1Cak38" node="1TthV9g4adp" resolve="Exception in consumer event loop, does terminate the consumer =&gt; restart one." />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qz0" role="38MLOi">
-      <ref role="1Cak38" node="1TthV9g4oa2" resolve="Exception in consumer impl, does NOT terminate the consumer, DO NOT LOOP over EX" />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qz1" role="38MLOi">
-      <ref role="1Cak38" node="6ChgfB7tiVI" resolve="Exception in consumer impl, does NOT terminate the consumer, but WILL LOOP (same entity)" />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qz2" role="38MLOi">
-      <ref role="1Cak38" node="6ChgfB7y0WB" resolve="Exception in consumer impl, will NOT spam system - throttle mode." />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qz3" role="38MLOi">
-      <ref role="1Cak38" node="6ChgfB7CxMf" resolve="Exception in consumer impl, will NOT spam system - throttle mode and recovering again." />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qz4" role="38MLOi">
-      <ref role="1Cak38" node="6ChgfB7Goyj" resolve="Exception, wait 5sec, process all other work by all other cons." />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qz5" role="38MLOi">
-      <ref role="1Cak38" node="6ChgfB7GZIM" resolve="2 Exception, wait 5sec, process all other work by all other cons." />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qz6" role="38MLOi">
-      <ref role="1Cak38" node="6ChgfB7JUJu" resolve="2 Exception we have to wait for the longer duration." />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qz7" role="38MLOi">
-      <ref role="1Cak38" node="1V7CJHMLyqX" resolve="Exception in producer will shut down existing consumers then." />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qz8" role="38MLOi">
-      <ref role="1Cak38" node="2fj6lk$53tM" resolve="Having an ex on a consumer and a new one startet also results in a clean shutdown" />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qz9" role="38MLOi">
-      <ref role="1Cak38" node="1WqysfnI8aP" resolve="Producer Exception re-runs producer according strategy and re-schedule" />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK4qza" role="38MLOi">
-      <ref role="1Cak38" node="1WqysfnSlFE" resolve="Producer Throtteling due to many ex. Waking up neatly again." />
-    </node>
-    <node concept="1Cak35" id="3yI9$tK7zs_" role="38MLOi">
-      <ref role="1Cak38" node="3yI9$tJW_yy" resolve="Exception in consumer should delay execution of other consumers and the producer" />
     </node>
   </node>
 </model>

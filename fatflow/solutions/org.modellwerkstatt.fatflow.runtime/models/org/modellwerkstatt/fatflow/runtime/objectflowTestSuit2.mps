@@ -262,6 +262,10 @@
       <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
       <concept id="6390289192935148849" name="org.modellwerkstatt.objectflow.structure.OFXGraphEditTestMethod" flags="ng" index="2Oh1co" />
       <concept id="6390289192933644448" name="org.modellwerkstatt.objectflow.structure.OFXGraphOwnerTestMethod" flags="ng" index="2Ovgq9" />
+      <concept id="9110730801960129924" name="org.modellwerkstatt.objectflow.structure.OFXRunCmd" flags="ng" index="2Tpcjw">
+        <child id="9110730801960131774" name="commandCall" index="2TpcRq" />
+        <child id="9110730801960131775" name="pages" index="2TpcRr" />
+      </concept>
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
@@ -359,6 +363,13 @@
       <concept id="6952410984688491110" name="org.modellwerkstatt.objectflow.structure.OFXTestMethodCall" flags="ng" index="3yABqi" />
       <concept id="6952410984685067935" name="org.modellwerkstatt.objectflow.structure.OFXTestMethod" flags="ng" index="3yPF9F">
         <child id="6952410984686914562" name="dependentMethods" index="3yGA3Q" />
+      </concept>
+      <concept id="4503841283130095195" name="org.modellwerkstatt.objectflow.structure.OFXRunCmdStatementList" flags="ig" index="3zdqQj" />
+      <concept id="4503841283130068008" name="org.modellwerkstatt.objectflow.structure.OFXRunCmdPage" flags="ng" index="3zdtvw">
+        <property id="4503841283130075497" name="boundObjectType" index="3zdvax" />
+        <reference id="4503841283130075661" name="page" index="3zdv75" />
+        <reference id="4503841283130075662" name="conclusion" index="3zdv76" />
+        <child id="4503841283130100950" name="beforeConclude" index="3zdlsu" />
       </concept>
       <concept id="6952410984693239415" name="org.modellwerkstatt.objectflow.structure.OFXTestMethocCallVarRef" flags="ng" index="3zkua3">
         <reference id="6952410984693239500" name="varReference" index="3zku8S" />
@@ -8652,20 +8663,98 @@
     <node concept="3Tm1VV" id="6BKPvpE4x$I" role="1B3o_S" />
   </node>
   <node concept="2WPaUQ" id="3U0QWztN8iD">
-    <property role="TrG5h" value="Test New RunCmd" />
+    <property role="TrG5h" value="TEST NEW RUNCMD INFRA" />
     <ref role="2WPtWl" node="5MCXLSo4_z9" resolve="MPreisOFXTests" />
+    <node concept="3yPF9F" id="2q7OPuQOOzE" role="3yMuLx">
+      <property role="TrG5h" value="Graph owner should do" />
+      <node concept="37vLTG" id="2q7OPuQOOzF" role="3clF46">
+        <property role="TrG5h" value="crtl" />
+        <node concept="3uibUv" id="2q7OPuQOOzG" role="1tU5fm">
+          <ref role="3uigEE" node="7pudXbEHue3" resolve="CMDS_CRTL" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="2q7OPuQOOzH" role="3clF45">
+        <ref role="3uigEE" node="7pudXbEHzyT" resolve="CommandInfo" />
+      </node>
+      <node concept="3clFbS" id="2q7OPuQOOzI" role="3clF47">
+        <node concept="3cpWs6" id="2q7OPuQOOzJ" role="3cqZAp">
+          <node concept="2ShNRf" id="2q7OPuQOOzK" role="3cqZAk">
+            <node concept="1pGfFk" id="2q7OPuQOOzL" role="2ShVmc">
+              <ref role="37wK5l" node="7pudXbEK2Pq" resolve="CommandInfo" />
+              <node concept="37vLTw" id="2q7OPuQOOzM" role="37wK5m">
+                <ref role="3cqZAo" node="2q7OPuQOOzF" resolve="crtl" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="1DF_5m" id="3U0QWztN9tK" role="3yMuLx" />
     <node concept="3yPF9F" id="3U0QWztN9wn" role="3yMuLx">
-      <property role="TrG5h" value="Simply run a command" />
+      <property role="TrG5h" value="Edit Invoice and conclude with done should run startTransactionAndFlush()" />
       <node concept="3cqZAl" id="3U0QWztN9xn" role="3clF45" />
       <node concept="3clFbS" id="3U0QWztN9wr" role="3clF47">
-        <node concept="3clFbH" id="3U0QWztPTK8" role="3cqZAp" />
+        <node concept="2Tpcjw" id="2q7OPuQOOAq" role="3cqZAp">
+          <node concept="3zdtvw" id="2q7OPuQOOEo" role="2TpcRr">
+            <property role="3zdvax" value="0" />
+            <property role="TrG5h" value="invoice" />
+            <ref role="3zdv75" node="5MCXLSnMhBY" resolve="MainPage" />
+            <ref role="3zdv76" node="5MCXLSnMhKi" resolve="Save &amp; Close" />
+            <node concept="3zdqQj" id="2q7OPuQOOEq" role="3zdlsu">
+              <node concept="3clFbS" id="2q7OPuQOOEr" role="2VODD2" />
+            </node>
+          </node>
+          <node concept="2_HltQ" id="2q7OPuQOOAs" role="2TpcRq">
+            <ref role="2_Hrwf" node="Joc9_LZQLM" resolve="Invoice Process" />
+            <ref role="2_Hrw8" node="5MCXLSnMhvZ" resolve="Checkout Invoice" />
+            <node concept="10Nm6u" id="2q7OPuQOOBE" role="2_HrWp" />
+            <node concept="2OqwBi" id="2q7OPuQOOCs" role="2_HrWp">
+              <node concept="3zkua3" id="2q7OPuQOOBW" role="2Oq$k0">
+                <ref role="3zku8S" node="3U0QWztNAAf" resolve="inv" />
+              </node>
+              <node concept="2S8uIT" id="2q7OPuQOODs" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+              </node>
+            </node>
+            <node concept="3zkua3" id="2q7OPuQOODU" role="2_HrWp">
+              <ref role="3zku8S" node="2q7OPuQOOzs" resolve="info" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="2q7OPuQOOHs" role="3cqZAp">
+          <node concept="2OqwBi" id="2q7OPuQOOHt" role="1gVkn0">
+            <node concept="3zkua3" id="2q7OPuQOOHu" role="2Oq$k0">
+              <ref role="3zku8S" node="2q7OPuQOOzs" resolve="info" />
+            </node>
+            <node concept="liA8E" id="2q7OPuQOOHv" role="2OqNvi">
+              <ref role="37wK5l" node="6_VKg6lu3zF" resolve="go_finalOK_noError" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="2q7OPuQOOHw" role="3cqZAp">
+          <node concept="2OqwBi" id="2q7OPuQOOHx" role="1gVkn0">
+            <node concept="3zkua3" id="2q7OPuQOOHy" role="2Oq$k0">
+              <ref role="3zku8S" node="2q7OPuQOOzs" resolve="info" />
+            </node>
+            <node concept="2OwXpG" id="2q7OPuQOOHz" role="2OqNvi">
+              <ref role="2Oxat5" node="26QcchVSBkc" resolve="goTransactionOperationExecuted" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3yABqi" id="3U0QWztNAAf" role="3yGA3Q">
         <property role="TrG5h" value="inv" />
         <ref role="37wK5l" to="goi:4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
         <node concept="Xl_RD" id="3U0QWztNAC2" role="37wK5m">
-          <property role="Xl_RC" value="runcmd" />
+          <property role="Xl_RC" value="runcmd1" />
+        </node>
+      </node>
+      <node concept="3yABqi" id="2q7OPuQOOzs" role="3yGA3Q">
+        <property role="TrG5h" value="info" />
+        <ref role="37wK5l" node="2q7OPuQOOzE" resolve="Graph owner should do" />
+        <node concept="Rm8GO" id="2q7OPuQOO_A" role="37wK5m">
+          <ref role="Rm8GQ" node="7pudXbEHufF" resolve="DONE" />
+          <ref role="1Px2BO" node="7pudXbEHue3" resolve="CMDS_CRTL" />
         </node>
       </node>
     </node>
