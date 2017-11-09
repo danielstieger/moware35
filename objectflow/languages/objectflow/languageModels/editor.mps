@@ -1635,6 +1635,50 @@
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         <ref role="1k5W1q" node="5Ee0EjqYhaR" resolve="O2Statement" />
       </node>
+      <node concept="1HlG4h" id="1l1sktcbQNG" role="3EZMnx">
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="1HfYo3" id="1l1sktcbQNI" role="1HlULh">
+          <node concept="3TQlhw" id="1l1sktcbQNK" role="1Hhtcw">
+            <node concept="3clFbS" id="1l1sktcbQNM" role="2VODD2">
+              <node concept="3clFbJ" id="1l1sktcbR1W" role="3cqZAp">
+                <node concept="3clFbS" id="1l1sktcbR1Y" role="3clFbx">
+                  <node concept="3cpWs6" id="1l1sktcbR6A" role="3cqZAp">
+                    <node concept="Xl_RD" id="1l1sktcbR9W" role="3cqZAk">
+                      <property role="Xl_RC" value="(+ to session op)" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1l1sktcbR3g" role="3clFbw">
+                  <node concept="pncrf" id="1l1sktcbR3h" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="1l1sktcbR3i" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:75R75qdn7Em" resolve="isRepoCheckinInFinalOk" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbJ" id="1l1sktcbVVW" role="3cqZAp">
+                <node concept="3clFbS" id="1l1sktcbVVY" role="3clFbx">
+                  <node concept="3cpWs6" id="1l1sktcbWrB" role="3cqZAp">
+                    <node concept="Xl_RD" id="1l1sktcbWt5" role="3cqZAk">
+                      <property role="Xl_RC" value="(+ immediatelly commit)" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1l1sktcbW7o" role="3clFbw">
+                  <node concept="pncrf" id="1l1sktcbW28" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="1l1sktcbWl0" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:1l1sktcbRWE" resolve="isMarkerOperationInFinalCancel" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="1l1sktcbXga" role="3cqZAp">
+                <node concept="Xl_RD" id="1l1sktcbXhQ" role="3cqZAk">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3EZMnI" id="6vtMBTnhEyG" role="3EZMnx">
         <node concept="VPM3Z" id="6vtMBTnhEyI" role="3F10Kt">
           <property role="VOm3f" value="false" />
@@ -3220,9 +3264,25 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="3F0ifn" id="6cFiWEW7HxN" role="3EZMnx">
-          <property role="3F0ifm" value="// do revert first" />
-          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="3F1sOY" id="1l1sktc8e2O" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;marker operation&gt;" />
+          <ref role="1NtTu8" to="un0u:1l1sktc81RY" />
+          <node concept="pVoyu" id="1l1sktc8e3J" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="1l1sktc8e3L" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="1l1sktc821c" role="3EZMnx">
+          <property role="3F0ifm" value="do revert objects" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="pVoyu" id="1l1sktc821d" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="1l1sktc821e" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="3F1sOY" id="1Csx3LqyLkW" role="3EZMnx">
           <property role="1$x2rV" value="&lt;func&gt;" />
@@ -3257,9 +3317,15 @@
           <property role="3F0ifm" value="exception" />
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
         </node>
-        <node concept="3F0ifn" id="6cFiWEW7HVA" role="3EZMnx">
-          <property role="3F0ifm" value="// do revert first" />
-          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="3F0ifn" id="1l1sktc822Z" role="3EZMnx">
+          <property role="3F0ifm" value="do revert objects" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="pVoyu" id="1l1sktc8230" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="1l1sktc8231" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="3F1sOY" id="1Csx3LqySl2" role="3EZMnx">
           <property role="1$x2rV" value="&lt;func&gt;" />
@@ -12439,9 +12505,16 @@
         <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
       </node>
       <node concept="3F0ifn" id="3U0QWzu$pmu" role="3EZMnx">
-        <property role="3F0ifm" value="// allways check if unit of work was ALREADY processed" />
+        <property role="3F0ifm" value="// allways check if unit of work was ALREADY processed (UI edits)" />
         <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         <node concept="pVoyu" id="3U0QWzu$pqn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7bWGJuRCnaz" role="3EZMnx">
+        <property role="3F0ifm" value="// using process cmd permissions, or the cancel statement" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pVoyu" id="7bWGJuRCna$" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -12460,6 +12533,19 @@
       </node>
       <node concept="3F1sOY" id="3U0QWztRK3f" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:3U0QWztRJTG" />
+      </node>
+      <node concept="3F0ifn" id="7bWGJuRCniq" role="3EZMnx">
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pVoyu" id="7bWGJuRCnir" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7bWGJuRCnmm" role="3EZMnx">
+        <property role="3F0ifm" value="// right now, chaining of cmd s is not possible (the belegketten)" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pVoyu" id="7bWGJuRCnmn" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="3U0QWztRK3g" role="2iSdaV" />
     </node>
@@ -12513,12 +12599,19 @@
     <property role="3GE5qa" value="OFXCore.batch2" />
     <ref role="1XX52x" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
     <node concept="3EZMnI" id="3U0QWzu_6fH" role="2wV5jI">
+      <property role="1cu_pB" value="0" />
       <node concept="l2Vlx" id="3U0QWzu_6fI" role="2iSdaV" />
+      <node concept="3F0ifn" id="7bWGJuRDHiQ" role="3EZMnx">
+        <property role="3F0ifm" value="ex name machtes" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
       <node concept="3F1sOY" id="3U0QWzu_6fL" role="3EZMnx">
+        <property role="1cu_pB" value="2" />
+        <property role="1$x2rV" value="&lt;not used&gt;" />
         <ref role="1NtTu8" to="un0u:3U0QWzu$7hK" />
       </node>
       <node concept="3F0ifn" id="3U0QWzu_6fQ" role="3EZMnx">
-        <property role="3F0ifm" value="(msg matches" />
+        <property role="3F0ifm" value="/ msg matches" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F1sOY" id="3U0QWzu_6fY" role="3EZMnx">
@@ -12526,8 +12619,18 @@
         <ref role="1NtTu8" to="un0u:3U0QWzu$7oy" />
       </node>
       <node concept="3F0ifn" id="3U0QWzu_6g8" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
+        <property role="3F0ifm" value="=&gt; supend work for" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="3F0A7n" id="7bWGJuRGXzG" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:7bWGJuRDHjl" resolve="suspendSeconds" />
+      </node>
+      <node concept="3F0ifn" id="7bWGJuRDHja" role="3EZMnx">
+        <property role="3F0ifm" value="sec" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="11L4FC" id="7bWGJuRHEUx" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F2HdR" id="3U0QWzu_6gk" role="3EZMnx">
         <property role="2czwfO" value="," />

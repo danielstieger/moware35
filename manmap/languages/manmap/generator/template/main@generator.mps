@@ -18926,7 +18926,7 @@
                         <ref role="3cqZAo" node="5sHRklWUvOi" resolve="__manMapSession" />
                       </node>
                       <node concept="liA8E" id="5sHRklWUvOu" role="2OqNvi">
-                        <ref role="37wK5l" to="w7gk:5sHRklWUvO1" resolve="addTransactionEntity" />
+                        <ref role="37wK5l" to="w7gk:5sHRklWUvO1" resolve="addEntityInvolvedInTransaction" />
                         <node concept="37vLTw" id="KVbXdPff1P" role="37wK5m">
                           <ref role="3cqZAo" node="75DS814rqO1" resolve="entity" />
                           <node concept="29HgVG" id="5sHRklWV5eS" role="lGtFl">
@@ -19154,7 +19154,7 @@
                     <ref role="3cqZAo" node="5sHRklWY6ww" resolve="__manMapSession" />
                   </node>
                   <node concept="liA8E" id="5sHRklWY6wG" role="2OqNvi">
-                    <ref role="37wK5l" to="w7gk:5sHRklWUvO1" resolve="addTransactionEntity" />
+                    <ref role="37wK5l" to="w7gk:5sHRklWUvO1" resolve="addEntityInvolvedInTransaction" />
                     <node concept="37vLTw" id="KVbXdPfeJT" role="37wK5m">
                       <ref role="3cqZAo" node="75DS814sa4D" resolve="entity" />
                       <node concept="29HgVG" id="5sHRklWY6wJ" role="lGtFl">

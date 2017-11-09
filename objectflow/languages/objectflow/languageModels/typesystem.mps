@@ -3826,7 +3826,50 @@
         </node>
       </node>
       <node concept="3clFbH" id="6qsy3WVz$8I" role="3cqZAp" />
-      <node concept="3clFbH" id="6qsy3WVz$AP" role="3cqZAp" />
+      <node concept="3clFbJ" id="1l1sktcbMHD" role="3cqZAp">
+        <node concept="3clFbS" id="1l1sktcbMHF" role="3clFbx">
+          <node concept="3clFbJ" id="1l1sktcbOCY" role="3cqZAp">
+            <node concept="3clFbS" id="1l1sktcbOD0" role="3clFbx">
+              <node concept="2MkqsV" id="1l1sktcbQaN" role="3cqZAp">
+                <node concept="Xl_RD" id="1l1sktcbQb4" role="2MkJ7o">
+                  <property role="Xl_RC" value="Only GRAPH_OWNER commands support the maker operation for FINAL_CANCEL." />
+                </node>
+                <node concept="1YBJjd" id="1l1sktcbQd$" role="2OEOjV">
+                  <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="1l1sktcbPMD" role="3clFbw">
+              <node concept="2OqwBi" id="1l1sktcbPMF" role="3fr31v">
+                <node concept="2OqwBi" id="1l1sktcbPMG" role="2Oq$k0">
+                  <node concept="1YBJjd" id="1l1sktcbPMH" role="2Oq$k0">
+                    <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                  </node>
+                  <node concept="3TrcHB" id="1l1sktcbPMI" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                  </node>
+                </node>
+                <node concept="3t7uKx" id="1l1sktcbPMJ" role="2OqNvi">
+                  <node concept="uoxfO" id="1l1sktcbPMK" role="3t7uKA">
+                    <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="1l1sktcbO7T" role="3clFbw">
+          <node concept="2OqwBi" id="1l1sktcbNv6" role="2Oq$k0">
+            <node concept="1YBJjd" id="1l1sktcbNrP" role="2Oq$k0">
+              <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+            </node>
+            <node concept="3TrEf2" id="1l1sktcbNW7" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:1l1sktc81RY" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="1l1sktcbOBF" role="2OqNvi" />
+        </node>
+      </node>
       <node concept="3clFbH" id="6qsy3WVz$EV" role="3cqZAp" />
       <node concept="3SKdUt" id="6qsy3WVz_12" role="3cqZAp">
         <node concept="3SKdUq" id="6qsy3WVz_14" role="3SKWNk">
@@ -6599,6 +6642,7 @@
     <property role="TrG5h" value="check_OperationCall" />
     <property role="3GE5qa" value="Service" />
     <node concept="3clFbS" id="75R75qdnAJJ" role="18ibNy">
+      <node concept="3clFbH" id="1l1sktcf9rn" role="3cqZAp" />
       <node concept="3clFbJ" id="75R75qdnAJL" role="3cqZAp">
         <node concept="2OqwBi" id="75R75qdqb6t" role="3clFbw">
           <node concept="2OqwBi" id="75R75qdqb5Y" role="2Oq$k0">
@@ -6616,43 +6660,88 @@
           <node concept="3x8VRR" id="75R75qdqb6z" role="2OqNvi" />
         </node>
         <node concept="3clFbS" id="75R75qdnAJN" role="3clFbx">
-          <node concept="3clFbJ" id="5poQsKnRQW9" role="3cqZAp">
-            <node concept="3clFbS" id="5poQsKnRQWa" role="3clFbx">
-              <node concept="2MkqsV" id="75R75qdnANV" role="3cqZAp">
-                <node concept="Xl_RD" id="75R75qdnANY" role="2MkJ7o">
-                  <property role="Xl_RC" value="Checkin can only be called from commands FINAL_OK_CONCLUSION." />
-                </node>
-                <node concept="1YBJjd" id="75R75qdnANZ" role="2OEOjV">
-                  <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
-                </node>
-              </node>
-            </node>
-            <node concept="1Wc70l" id="3LLLt34o0s2" role="3clFbw">
-              <node concept="2OqwBi" id="3LLLt34okLP" role="3uHU7w">
-                <node concept="2OqwBi" id="3LLLt34o8p_" role="2Oq$k0">
-                  <node concept="1YBJjd" id="3LLLt34o8i6" role="2Oq$k0">
-                    <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
+          <node concept="3clFbH" id="1l1sktcf9_P" role="3cqZAp" />
+          <node concept="3clFbJ" id="1l1sktcf9GY" role="3cqZAp">
+            <node concept="3clFbS" id="1l1sktcf9H0" role="3clFbx">
+              <node concept="3clFbJ" id="1l1sktcf9Y2" role="3cqZAp">
+                <node concept="3clFbS" id="1l1sktcf9Y4" role="3clFbx">
+                  <node concept="2MkqsV" id="1l1sktcbVRI" role="3cqZAp">
+                    <node concept="Xl_RD" id="1l1sktcbVRX" role="2MkJ7o">
+                      <property role="Xl_RC" value="Call as maker operation in FINAL_CANCEL_CONCLUSION can solely call repository methods." />
+                    </node>
+                    <node concept="1YBJjd" id="1l1sktcbVVc" role="2OEOjV">
+                      <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
+                    </node>
                   </node>
-                  <node concept="2Xjw5R" id="3LLLt34okvw" role="2OqNvi">
-                    <node concept="1xMEDy" id="3LLLt34okvy" role="1xVPHs">
-                      <node concept="chp4Y" id="3LLLt34ok_m" role="ri$Ld">
-                        <ref role="cht4Q" to="un0u:5xcCl6oWmmH" resolve="VariantStatements" />
+                </node>
+                <node concept="3fqX7Q" id="1l1sktcbVFR" role="3clFbw">
+                  <node concept="2OqwBi" id="1l1sktcbVFT" role="3fr31v">
+                    <node concept="2OqwBi" id="1l1sktcbVFU" role="2Oq$k0">
+                      <node concept="1YBJjd" id="1l1sktcbVFV" role="2Oq$k0">
+                        <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
+                      </node>
+                      <node concept="3TrEf2" id="1l1sktcbVFW" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:6S08D5JofmO" />
+                      </node>
+                    </node>
+                    <node concept="1mIQ4w" id="1l1sktcbVFX" role="2OqNvi">
+                      <node concept="chp4Y" id="1l1sktcbVFY" role="cj9EA">
+                        <ref role="cht4Q" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="3w_OXm" id="3LLLt34onKa" role="2OqNvi" />
               </node>
-              <node concept="2OqwBi" id="75R75qdnAK9" role="3uHU7B">
-                <node concept="1YBJjd" id="75R75qdnAJO" role="2Oq$k0">
-                  <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
+              <node concept="3clFbH" id="1l1sktcfb3k" role="3cqZAp" />
+            </node>
+            <node concept="2OqwBi" id="1l1sktcbTcA" role="3clFbw">
+              <node concept="1YBJjd" id="1l1sktcbT8n" role="2Oq$k0">
+                <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
+              </node>
+              <node concept="2qgKlT" id="1l1sktcbTsk" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:1l1sktcbRWE" resolve="isMarkerOperationInFinalCancel" />
+              </node>
+            </node>
+            <node concept="3eNFk2" id="1l1sktcfanA" role="3eNLev">
+              <node concept="3clFbS" id="1l1sktcfanC" role="3eOfB_">
+                <node concept="2MkqsV" id="75R75qdnANV" role="3cqZAp">
+                  <node concept="Xl_RD" id="75R75qdnANY" role="2MkJ7o">
+                    <property role="Xl_RC" value="Checkin can only be called from commands FINAL_OK_CONCLUSION." />
+                  </node>
+                  <node concept="1YBJjd" id="75R75qdnANZ" role="2OEOjV">
+                    <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
+                  </node>
                 </node>
-                <node concept="2qgKlT" id="5poQsKnRYOe" role="2OqNvi">
-                  <ref role="37wK5l" to="70o0:4vUcH_01drv" resolve="isRepoCheckin_NOT_InFinalOk" />
+                <node concept="3clFbH" id="1l1sktcfb3f" role="3cqZAp" />
+              </node>
+              <node concept="1Wc70l" id="3LLLt34o0s2" role="3eO9$A">
+                <node concept="2OqwBi" id="3LLLt34okLP" role="3uHU7w">
+                  <node concept="2OqwBi" id="3LLLt34o8p_" role="2Oq$k0">
+                    <node concept="1YBJjd" id="3LLLt34o8i6" role="2Oq$k0">
+                      <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
+                    </node>
+                    <node concept="2Xjw5R" id="3LLLt34okvw" role="2OqNvi">
+                      <node concept="1xMEDy" id="3LLLt34okvy" role="1xVPHs">
+                        <node concept="chp4Y" id="3LLLt34ok_m" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:5xcCl6oWmmH" resolve="VariantStatements" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3w_OXm" id="3LLLt34onKa" role="2OqNvi" />
+                </node>
+                <node concept="2OqwBi" id="75R75qdnAK9" role="3uHU7B">
+                  <node concept="1YBJjd" id="75R75qdnAJO" role="2Oq$k0">
+                    <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
+                  </node>
+                  <node concept="2qgKlT" id="5poQsKnRYOe" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:4vUcH_01drv" resolve="isRepoCheckin_NOT_InFinalOk" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
+          <node concept="3clFbH" id="1l1sktcf9As" role="3cqZAp" />
         </node>
       </node>
       <node concept="3clFbH" id="1jAcMFYJBRE" role="3cqZAp" />
@@ -13946,6 +14035,191 @@
     <node concept="1YaCAy" id="2q7OPuPWzrJ" role="1YuTPh">
       <property role="TrG5h" value="errorInCommand" />
       <ref role="1YaFvo" to="un0u:4Ta2XmWaDfo" resolve="ErrorInCommand" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="7bWGJuRUigL">
+    <property role="TrG5h" value="check_OFXExceptionStrategy" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="7bWGJuRUigM" role="18ibNy">
+      <node concept="3clFbH" id="7bWGJuRUipV" role="3cqZAp" />
+      <node concept="3cpWs8" id="7bWGJuS3$jH" role="3cqZAp">
+        <node concept="3cpWsn" id="7bWGJuS3$jK" role="3cpWs9">
+          <property role="TrG5h" value="strats" />
+          <node concept="_YKpA" id="7bWGJuS3$jD" role="1tU5fm">
+            <node concept="3Tqbb2" id="7bWGJuS3$nY" role="_ZDj9">
+              <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7bWGJuS3$rj" role="33vP2m">
+            <node concept="1YBJjd" id="7bWGJuS3$p9" role="2Oq$k0">
+              <ref role="1YBMHb" node="7bWGJuRUigO" resolve="ofxExceptionStrategy" />
+            </node>
+            <node concept="2qgKlT" id="7bWGJuS3$B7" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:7bWGJuRUiqS" resolve="getMembers" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3cpWs8" id="7bWGJuRUjQS" role="3cqZAp">
+        <node concept="3cpWsn" id="7bWGJuRUjQV" role="3cpWs9">
+          <property role="TrG5h" value="lastOne" />
+          <node concept="3Tqbb2" id="7bWGJuRUjQQ" role="1tU5fm">
+            <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+          </node>
+          <node concept="2OqwBi" id="7bWGJuRUkvi" role="33vP2m">
+            <node concept="37vLTw" id="7bWGJuS3$GI" role="2Oq$k0">
+              <ref role="3cqZAo" node="7bWGJuS3$jK" resolve="strats" />
+            </node>
+            <node concept="1yVyf7" id="7bWGJuRUlsr" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="7bWGJuRUlv$" role="3cqZAp">
+        <node concept="3clFbS" id="7bWGJuRUlvA" role="3clFbx">
+          <node concept="3SKdUt" id="7bWGJuRUmpc" role="3cqZAp">
+            <node concept="3SKdUq" id="7bWGJuRUmpe" role="3SKWNk">
+              <property role="3SKdUp" value="okay, this is the default" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="7bWGJuRUlVs" role="3clFbw">
+          <node concept="2OqwBi" id="7bWGJuRUmca" role="3uHU7w">
+            <node concept="2OqwBi" id="7bWGJuRUm03" role="2Oq$k0">
+              <node concept="37vLTw" id="7bWGJuRUlXi" role="2Oq$k0">
+                <ref role="3cqZAo" node="7bWGJuRUjQV" resolve="lastOne" />
+              </node>
+              <node concept="3TrEf2" id="7bWGJuRUm4L" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:3U0QWzu$7oy" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="7bWGJuRUmn$" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="7bWGJuRUlIk" role="3uHU7B">
+            <node concept="2OqwBi" id="7bWGJuRUlyQ" role="2Oq$k0">
+              <node concept="37vLTw" id="7bWGJuRUlwT" role="2Oq$k0">
+                <ref role="3cqZAo" node="7bWGJuRUjQV" resolve="lastOne" />
+              </node>
+              <node concept="3TrEf2" id="7bWGJuRUlBL" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:3U0QWzu$7hK" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="7bWGJuRUlOa" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="9aQIb" id="7bWGJuRUmpj" role="9aQIa">
+          <node concept="3clFbS" id="7bWGJuRUmpk" role="9aQI4">
+            <node concept="2MkqsV" id="7bWGJuRUmqZ" role="3cqZAp">
+              <node concept="Xl_RD" id="7bWGJuRUmrb" role="2MkJ7o">
+                <property role="Xl_RC" value="A exception strategy should have a default behaviour without matches as last strategy." />
+              </node>
+              <node concept="1YBJjd" id="7bWGJuRUmvp" role="2OEOjV">
+                <ref role="1YBMHb" node="7bWGJuRUigO" resolve="ofxExceptionStrategy" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="7bWGJuS3BjZ" role="3cqZAp" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="7bWGJuRUjQG" role="3cqZAp" />
+      <node concept="3clFbJ" id="7bWGJuS3Bk5" role="3cqZAp">
+        <node concept="3clFbS" id="7bWGJuS3Bk7" role="3clFbx">
+          <node concept="2MkqsV" id="7bWGJuS3BPn" role="3cqZAp">
+            <node concept="Xl_RD" id="7bWGJuS3BPA" role="2MkJ7o">
+              <property role="Xl_RC" value="There should be only one default strategy defined without exception name match." />
+            </node>
+            <node concept="1YBJjd" id="7bWGJuS3BRX" role="2OEOjV">
+              <ref role="1YBMHb" node="7bWGJuRUigO" resolve="ofxExceptionStrategy" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="7bWGJuS3BHB" role="3clFbw">
+          <node concept="3cmrfG" id="7bWGJuS3BIa" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="7bWGJuS3B3s" role="3uHU7B">
+            <node concept="2OqwBi" id="7bWGJuS3_ql" role="2Oq$k0">
+              <node concept="37vLTw" id="7bWGJuS3$ZR" role="2Oq$k0">
+                <ref role="3cqZAo" node="7bWGJuS3$jK" resolve="strats" />
+              </node>
+              <node concept="3zZkjj" id="7bWGJuS3Aog" role="2OqNvi">
+                <node concept="1bVj0M" id="7bWGJuS3Aoi" role="23t8la">
+                  <node concept="3clFbS" id="7bWGJuS3Aoj" role="1bW5cS">
+                    <node concept="3clFbF" id="7bWGJuS3AqB" role="3cqZAp">
+                      <node concept="2OqwBi" id="7bWGJuS3AGo" role="3clFbG">
+                        <node concept="2OqwBi" id="7bWGJuS3AuG" role="2Oq$k0">
+                          <node concept="37vLTw" id="7bWGJuS3AqA" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7bWGJuS3Aok" resolve="it" />
+                          </node>
+                          <node concept="3TrEf2" id="7bWGJuS3ARm" role="2OqNvi">
+                            <ref role="3Tt5mk" to="un0u:3U0QWzu$7hK" />
+                          </node>
+                        </node>
+                        <node concept="3w_OXm" id="7bWGJuS3AYs" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="7bWGJuS3Aok" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="7bWGJuS3Aol" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="7bWGJuS3Bb7" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="7bWGJuS3$Vq" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="7bWGJuRUigO" role="1YuTPh">
+      <property role="TrG5h" value="ofxExceptionStrategy" />
+      <ref role="1YaFvo" to="un0u:3U0QWzu$3aR" resolve="OFXExceptionStrategy" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="7bWGJuS3ClF">
+    <property role="TrG5h" value="check_OFXStrategyForException" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="7bWGJuS3ClG" role="18ibNy">
+      <node concept="3clFbJ" id="7bWGJuS3ClP" role="3cqZAp">
+        <node concept="3clFbS" id="7bWGJuS3ClR" role="3clFbx">
+          <node concept="2MkqsV" id="7bWGJuS3DgM" role="3cqZAp">
+            <node concept="Xl_RD" id="7bWGJuS3DgY" role="2MkJ7o">
+              <property role="Xl_RC" value="In case an exception message match is used, one has to define a exception name match also." />
+            </node>
+            <node concept="1YBJjd" id="7bWGJuS3Dky" role="2OEOjV">
+              <ref role="1YBMHb" node="7bWGJuS3ClI" resolve="strat" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="7bWGJuS3CSp" role="3clFbw">
+          <node concept="2OqwBi" id="7bWGJuS3D86" role="3uHU7w">
+            <node concept="2OqwBi" id="7bWGJuS3CWq" role="2Oq$k0">
+              <node concept="1YBJjd" id="7bWGJuS3CUi" role="2Oq$k0">
+                <ref role="1YBMHb" node="7bWGJuS3ClI" resolve="strat" />
+              </node>
+              <node concept="3TrEf2" id="7bWGJuS3D1M" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:3U0QWzu$7hK" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="7bWGJuS3DeT" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="7bWGJuS3Cya" role="3uHU7B">
+            <node concept="2OqwBi" id="7bWGJuS3Cod" role="2Oq$k0">
+              <node concept="1YBJjd" id="7bWGJuS3Cmg" role="2Oq$k0">
+                <ref role="1YBMHb" node="7bWGJuS3ClI" resolve="strat" />
+              </node>
+              <node concept="3TrEf2" id="7bWGJuS3CFB" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:3U0QWzu$7oy" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="7bWGJuS3CL7" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7bWGJuS3ClI" role="1YuTPh">
+      <property role="TrG5h" value="strat" />
+      <ref role="1YaFvo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
     </node>
   </node>
 </model>

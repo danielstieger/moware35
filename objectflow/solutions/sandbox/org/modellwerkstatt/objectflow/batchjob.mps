@@ -2839,7 +2839,7 @@
                                 </node>
                               </node>
                               <node concept="Xl_RD" id="4NpYXr63Q7S" role="37wK5m">
-                                <property role="Xl_RC" value="Starting manual inbox load by AddInboxMsg" />
+                                <property role="Xl_RC" value="Starting manual inbox add by AddInboxMsg" />
                               </node>
                             </node>
                           </node>
@@ -4653,7 +4653,6 @@
         </node>
         <node concept="3clFbH" id="2q7OPuQLB_V" role="3cqZAp" />
         <node concept="3clFbH" id="2q7OPuQL$dx" role="3cqZAp" />
-        <node concept="3clFbH" id="2q7OPuQLyy4" role="3cqZAp" />
         <node concept="3clFbJ" id="1WqysfnTPCj" role="3cqZAp">
           <node concept="3clFbS" id="1WqysfnTPCl" role="3clFbx">
             <node concept="3SKdUt" id="1WqysfnU0VJ" role="3cqZAp">
@@ -4792,11 +4791,12 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="7bWGJuSgN6L" role="3cqZAp" />
             <node concept="3cpWs8" id="4NpYXr5ZciF" role="3cqZAp">
               <node concept="3cpWsn" id="4NpYXr5ZciG" role="3cpWs9">
                 <property role="TrG5h" value="listForInbox" />
                 <node concept="3uibUv" id="4NpYXr5ZciD" role="1tU5fm">
-                  <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                  <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
                   <node concept="16syzq" id="4NpYXr5ZdaE" role="11_B2D">
                     <ref role="16sUi3" node="7BWfrtD0eEI" resolve="EntityKey" />
                   </node>
@@ -4811,6 +4811,179 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="7bWGJuSgOEi" role="3cqZAp">
+              <node concept="2OqwBi" id="7bWGJuSgOVY" role="3clFbG">
+                <node concept="37vLTw" id="7bWGJuSgOEg" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                </node>
+                <node concept="liA8E" id="7bWGJuSgQr6" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~AbstractQueue.clear():void" resolve="clear" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7bWGJuSgR4W" role="3cqZAp" />
+            <node concept="3clFbH" id="7bWGJuSleR5" role="3cqZAp" />
+            <node concept="3cpWs8" id="7bWGJuSlgQr" role="3cqZAp">
+              <node concept="3cpWsn" id="7bWGJuSlgQs" role="3cpWs9">
+                <property role="TrG5h" value="toRemove" />
+                <node concept="3uibUv" id="7bWGJuSlgQp" role="1tU5fm">
+                  <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
+                  <node concept="16syzq" id="7bWGJuSlhP_" role="11_B2D">
+                    <ref role="16sUi3" node="7BWfrtD0eEI" resolve="EntityKey" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="7bWGJuSljbO" role="33vP2m">
+                  <node concept="1pGfFk" id="7bWGJuSlizZ" role="2ShVmc">
+                    <ref role="37wK5l" to="33ny:~ArrayList.&lt;init&gt;()" resolve="ArrayList" />
+                    <node concept="16syzq" id="7bWGJuSli$0" role="1pMfVU">
+                      <ref role="16sUi3" node="7BWfrtD0eEI" resolve="EntityKey" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1DcWWT" id="7bWGJuSgTaj" role="3cqZAp">
+              <node concept="3clFbS" id="7bWGJuSgTal" role="2LFqv$">
+                <node concept="3clFbJ" id="7bWGJuSh0n8" role="3cqZAp">
+                  <node concept="3clFbS" id="7bWGJuSh0na" role="3clFbx">
+                    <node concept="3clFbF" id="7bWGJuSlkgs" role="3cqZAp">
+                      <node concept="2OqwBi" id="7bWGJuSlmv2" role="3clFbG">
+                        <node concept="37vLTw" id="7bWGJuSlkgq" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7bWGJuSlgQs" resolve="toRemove" />
+                        </node>
+                        <node concept="liA8E" id="7bWGJuSlnet" role="2OqNvi">
+                          <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
+                          <node concept="2OqwBi" id="7bWGJuSloDH" role="37wK5m">
+                            <node concept="37vLTw" id="7bWGJuSloAf" role="2Oq$k0">
+                              <ref role="3cqZAo" node="7bWGJuSgTam" resolve="cons" />
+                            </node>
+                            <node concept="liA8E" id="7bWGJuSlplu" role="2OqNvi">
+                              <ref role="37wK5l" node="gmxFf4jZ69" resolve="getProcessingKey" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="7bWGJuSh1GX" role="3clFbw">
+                    <node concept="2OqwBi" id="7bWGJuSh11P" role="2Oq$k0">
+                      <node concept="37vLTw" id="7bWGJuSh0Zx" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7bWGJuSgTam" resolve="cons" />
+                      </node>
+                      <node concept="liA8E" id="7bWGJuSh1Es" role="2OqNvi">
+                        <ref role="37wK5l" node="gmxFf4jYOr" resolve="getStatus" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="7bWGJuSh2pa" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~Enum.equals(java.lang.Object):boolean" resolve="equals" />
+                      <node concept="Rm8GO" id="7bWGJuSh4rL" role="37wK5m">
+                        <ref role="Rm8GQ" node="79wf8$7eRiD" resolve="WORKING" />
+                        <ref role="1Px2BO" node="79wf8$7eQO$" resolve="ConsumerThread.Status" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWsn" id="7bWGJuSgTam" role="1Duv9x">
+                <property role="TrG5h" value="cons" />
+                <node concept="3uibUv" id="7bWGJuSgXeN" role="1tU5fm">
+                  <ref role="3uigEE" node="gmxFf4jT1H" resolve="ConsumerThread" />
+                  <node concept="16syzq" id="7bWGJuSly$O" role="11_B2D">
+                    <ref role="16sUi3" node="7BWfrtD0eEI" resolve="EntityKey" />
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTw" id="7bWGJuSgTXc" role="1DdaDG">
+                <ref role="3cqZAo" node="7BWfrtCZtdt" resolve="allConsumers" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="7bWGJuSl$Xo" role="3cqZAp">
+              <node concept="3clFbS" id="7bWGJuSl$Xq" role="3clFbx">
+                <node concept="1X3_iC" id="7bWGJuSnTeE" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="7bWGJuSlDoP" role="8Wnug">
+                    <node concept="2OqwBi" id="7bWGJuSlDoM" role="3clFbG">
+                      <node concept="10M0yZ" id="7bWGJuSlDoN" role="2Oq$k0">
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                      </node>
+                      <node concept="liA8E" id="7bWGJuSlDoO" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="3cpWs3" id="7bWGJuSlKYa" role="37wK5m">
+                          <node concept="37vLTw" id="7bWGJuSlLJF" role="3uHU7w">
+                            <ref role="3cqZAo" node="4NpYXr5ZciG" resolve="listForInbox" />
+                          </node>
+                          <node concept="3cpWs3" id="7bWGJuSlKdG" role="3uHU7B">
+                            <node concept="3cpWs3" id="7bWGJuSlDOw" role="3uHU7B">
+                              <node concept="Xl_RD" id="7bWGJuSlDqR" role="3uHU7B">
+                                <property role="Xl_RC" value="We have to remove " />
+                              </node>
+                              <node concept="37vLTw" id="7bWGJuSlEwI" role="3uHU7w">
+                                <ref role="3cqZAo" node="7bWGJuSlgQs" resolve="toRemove" />
+                              </node>
+                            </node>
+                            <node concept="Xl_RD" id="7bWGJuSlKft" role="3uHU7w">
+                              <property role="Xl_RC" value=" from " />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="7bWGJuSlFPf" role="3cqZAp">
+                  <node concept="2OqwBi" id="7bWGJuSlGBZ" role="3clFbG">
+                    <node concept="37vLTw" id="7bWGJuSlFPd" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4NpYXr5ZciG" resolve="listForInbox" />
+                    </node>
+                    <node concept="liA8E" id="7bWGJuSlHZd" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~ArrayList.removeAll(java.util.Collection):boolean" resolve="removeAll" />
+                      <node concept="37vLTw" id="7bWGJuSlIHV" role="37wK5m">
+                        <ref role="3cqZAo" node="7bWGJuSlgQs" resolve="toRemove" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="1X3_iC" id="7bWGJuSnTWR" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="7bWGJuSlN6r" role="8Wnug">
+                    <node concept="2OqwBi" id="7bWGJuSlN6o" role="3clFbG">
+                      <node concept="10M0yZ" id="7bWGJuSlN6p" role="2Oq$k0">
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                      </node>
+                      <node concept="liA8E" id="7bWGJuSlN6q" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="3cpWs3" id="7bWGJuSlOEz" role="37wK5m">
+                          <node concept="37vLTw" id="7bWGJuSlPok" role="3uHU7w">
+                            <ref role="3cqZAo" node="4NpYXr5ZciG" resolve="listForInbox" />
+                          </node>
+                          <node concept="Xl_RD" id="7bWGJuSlNeN" role="3uHU7B">
+                            <property role="Xl_RC" value="Now list for inbox is " />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eOSWO" id="7bWGJuSmhnL" role="3clFbw">
+                <node concept="2OqwBi" id="7bWGJuSlA9B" role="3uHU7B">
+                  <node concept="37vLTw" id="7bWGJuSl_YB" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7bWGJuSlgQs" resolve="toRemove" />
+                  </node>
+                  <node concept="liA8E" id="7bWGJuSlAxz" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~ArrayList.size():int" resolve="size" />
+                  </node>
+                </node>
+                <node concept="3cmrfG" id="7bWGJuSlBZn" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7bWGJuSlzXW" role="3cqZAp" />
             <node concept="3clFbF" id="4NpYXr5ZrQO" role="3cqZAp">
               <node concept="2OqwBi" id="4NpYXr5Zs1e" role="3clFbG">
                 <node concept="37vLTw" id="4NpYXr5ZrQM" role="2Oq$k0">
@@ -10298,7 +10471,7 @@
     <node concept="3clFb_" id="7HSdIeXMBof" role="jymVt">
       <property role="TrG5h" value="inboxLoadStart" />
       <node concept="37vLTG" id="7HSdIeXMK6P" role="3clF46">
-        <property role="TrG5h" value="currentInboxSize" />
+        <property role="TrG5h" value="startInboxSize" />
         <node concept="10Oyi0" id="7HSdIeXMKjD" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="4NpYXr63WAW" role="3clF46">
@@ -10358,7 +10531,7 @@
         <node concept="3clFbF" id="7HSdIeXMKlB" role="3cqZAp">
           <node concept="37vLTI" id="7HSdIeXMKtr" role="3clFbG">
             <node concept="37vLTw" id="7HSdIeXMK$d" role="37vLTx">
-              <ref role="3cqZAo" node="7HSdIeXMK6P" resolve="currentInboxSize" />
+              <ref role="3cqZAo" node="7HSdIeXMK6P" resolve="startInboxSize" />
             </node>
             <node concept="37vLTw" id="7HSdIeXMKlA" role="37vLTJ">
               <ref role="3cqZAo" node="7HSdIeXMHx4" resolve="inboxSizeBeforeFillup" />
@@ -10392,20 +10565,6 @@
       <node concept="3cqZAl" id="7HSdIeXMBVz" role="3clF45" />
       <node concept="3Tm1VV" id="7HSdIeXMBV$" role="1B3o_S" />
       <node concept="3clFbS" id="7HSdIeXMBV_" role="3clF47">
-        <node concept="3cpWs8" id="4NpYXr65gcR" role="3cqZAp">
-          <node concept="3cpWsn" id="4NpYXr65gcU" role="3cpWs9">
-            <property role="TrG5h" value="diffSize" />
-            <node concept="3cpWsb" id="4NpYXr65gcP" role="1tU5fm" />
-            <node concept="3cpWsd" id="4NpYXr65goy" role="33vP2m">
-              <node concept="37vLTw" id="4NpYXr65gpL" role="3uHU7w">
-                <ref role="3cqZAo" node="7HSdIeXMHx4" resolve="inboxSizeBeforeFillup" />
-              </node>
-              <node concept="37vLTw" id="4NpYXr65glf" role="3uHU7B">
-                <ref role="3cqZAo" node="7HSdIeXMGye" resolve="curInboxSize" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="7HSdIeXMEZ4" role="3cqZAp">
           <node concept="37vLTI" id="7HSdIeXMF0_" role="3clFbG">
             <node concept="2ShNRf" id="7HSdIeXMF6o" role="37vLTx">
@@ -10488,8 +10647,8 @@
                         <property role="Xl_RC" value=" (loaded " />
                       </node>
                     </node>
-                    <node concept="37vLTw" id="4NpYXr65gAB" role="3uHU7w">
-                      <ref role="3cqZAo" node="4NpYXr65gcU" resolve="diffSize" />
+                    <node concept="37vLTw" id="7bWGJuSgL0j" role="3uHU7w">
+                      <ref role="3cqZAo" node="7HSdIeXMGye" resolve="curInboxSize" />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="4NpYXr65fTC" role="3uHU7w">
@@ -12706,7 +12865,7 @@
                               <property role="1EzhhJ" value="false" />
                               <property role="TrG5h" value="process" />
                               <node concept="3uibUv" id="4NpYXr5XusC" role="3clF45">
-                                <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                                <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
                                 <node concept="3uibUv" id="4NpYXr5XusI" role="11_B2D">
                                   <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                                 </node>
@@ -12752,7 +12911,7 @@
                                   <node concept="3cpWsn" id="7HSdIeXOgNo" role="3cpWs9">
                                     <property role="TrG5h" value="iList" />
                                     <node concept="3uibUv" id="7HSdIeXOgNl" role="1tU5fm">
-                                      <ref role="3uigEE" to="33ny:~List" resolve="List" />
+                                      <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
                                       <node concept="3uibUv" id="7HSdIeXOh4R" role="11_B2D">
                                         <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
                                       </node>
@@ -12775,7 +12934,7 @@
                                           <ref role="3cqZAo" node="7HSdIeXOgNo" resolve="iList" />
                                         </node>
                                         <node concept="liA8E" id="7HSdIeXOjd7" role="2OqNvi">
-                                          <ref role="37wK5l" to="33ny:~List.add(java.lang.Object):boolean" resolve="add" />
+                                          <ref role="37wK5l" to="33ny:~ArrayList.add(java.lang.Object):boolean" resolve="add" />
                                           <node concept="37vLTw" id="7HSdIeXOjfs" role="37wK5m">
                                             <ref role="3cqZAo" node="7HSdIeXOino" resolve="i" />
                                           </node>
@@ -14599,7 +14758,7 @@
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="process" />
       <node concept="3uibUv" id="4NpYXr5Te8u" role="3clF45">
-        <ref role="3uigEE" to="33ny:~List" resolve="List" />
+        <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
         <node concept="16syzq" id="4NpYXr5Te8$" role="11_B2D">
           <ref role="16sUi3" node="4NpYXr5Te6Y" resolve="EntityKey" />
         </node>

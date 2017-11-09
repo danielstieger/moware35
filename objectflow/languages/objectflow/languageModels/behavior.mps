@@ -4323,6 +4323,65 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="7bWGJuSpsdC" role="13h7CS">
+      <property role="TrG5h" value="inCommandInFinalCancel" />
+      <node concept="3Tm1VV" id="7bWGJuSpsdD" role="1B3o_S" />
+      <node concept="10P_77" id="7bWGJuSpsdE" role="3clF45" />
+      <node concept="3clFbS" id="7bWGJuSpsdF" role="3clF47">
+        <node concept="3cpWs8" id="7bWGJuSpsdG" role="3cqZAp">
+          <node concept="3cpWsn" id="7bWGJuSpsdH" role="3cpWs9">
+            <property role="TrG5h" value="vosl" />
+            <node concept="3Tqbb2" id="7bWGJuSpsdI" role="1tU5fm">
+              <ref role="ehGHo" to="un0u:5Ee0EjqTeD5" resolve="VoidStatementList" />
+            </node>
+            <node concept="2OqwBi" id="7bWGJuSpsdJ" role="33vP2m">
+              <node concept="13iPFW" id="7bWGJuSpsdK" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="7bWGJuSpsdL" role="2OqNvi">
+                <node concept="1xMEDy" id="7bWGJuSpsdM" role="1xVPHs">
+                  <node concept="chp4Y" id="7bWGJuSpsdN" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:5Ee0EjqTeD5" resolve="VoidStatementList" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7bWGJuSpsdO" role="3cqZAp">
+          <node concept="3clFbS" id="7bWGJuSpsdP" role="3clFbx">
+            <node concept="3cpWs6" id="7bWGJuSpsdQ" role="3cqZAp">
+              <node concept="3clFbT" id="7bWGJuSpsdR" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="7bWGJuSpsdS" role="3clFbw">
+            <node concept="3y3z36" id="7bWGJuSpsdT" role="3uHU7B">
+              <node concept="37vLTw" id="7bWGJuSpsdU" role="3uHU7B">
+                <ref role="3cqZAo" node="7bWGJuSpsdH" resolve="vosl" />
+              </node>
+              <node concept="10Nm6u" id="7bWGJuSpsdV" role="3uHU7w" />
+            </node>
+            <node concept="3clFbC" id="7bWGJuSpsdW" role="3uHU7w">
+              <node concept="2OqwBi" id="7bWGJuSpsdX" role="3uHU7B">
+                <node concept="37vLTw" id="7bWGJuSpsdY" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7bWGJuSpsdH" resolve="vosl" />
+                </node>
+                <node concept="25OxAV" id="7bWGJuSpsdZ" role="2OqNvi" />
+              </node>
+              <node concept="28GBK8" id="7bWGJuSpse0" role="3uHU7w">
+                <ref role="28GBKb" to="un0u:6ffh1MXzHna" resolve="Command" />
+                <ref role="28H3Ia" to="un0u:1Csx3LqyLkE" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="7bWGJuSpse1" role="3cqZAp">
+          <node concept="3clFbT" id="7bWGJuSpse2" role="3cqZAk">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="75R75qdn7Dl" role="13h7CS">
       <property role="TrG5h" value="isService" />
       <node concept="3Tm1VV" id="75R75qdn7Dm" role="1B3o_S" />
@@ -4345,6 +4404,25 @@
                   <ref role="cht4Q" to="un0u:3UJHRuk6Ycv" resolve="Service" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="1l1sktcbRWE" role="13h7CS">
+      <property role="TrG5h" value="isMarkerOperationInFinalCancel" />
+      <node concept="3Tm1VV" id="1l1sktcbRWF" role="1B3o_S" />
+      <node concept="10P_77" id="1l1sktcbSt6" role="3clF45" />
+      <node concept="3clFbS" id="1l1sktcbRWH" role="3clF47">
+        <node concept="3clFbF" id="1l1sktcbSta" role="3cqZAp">
+          <node concept="3clFbC" id="1l1sktcbSRT" role="3clFbG">
+            <node concept="28GBK8" id="1l1sktcbST1" role="3uHU7w">
+              <ref role="28GBKb" to="un0u:6ffh1MXzHna" resolve="Command" />
+              <ref role="28H3Ia" to="un0u:1l1sktc81RY" />
+            </node>
+            <node concept="2OqwBi" id="1l1sktcbSxq" role="3uHU7B">
+              <node concept="13iPFW" id="1l1sktcbSt9" role="2Oq$k0" />
+              <node concept="25OxAV" id="1l1sktcbSEF" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -19248,6 +19326,179 @@
       <node concept="3uibUv" id="3bhLp3E465N" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="7bWGJuRIogW">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="13h7C2" to="un0u:3U0QWzu$6wv" resolve="IOFXExceptionStrategyMember" />
+    <node concept="13i0hz" id="7bWGJuRIogZ" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getAllStrategies" />
+      <node concept="3Tm1VV" id="7bWGJuRIoh0" role="1B3o_S" />
+      <node concept="_YKpA" id="7bWGJuRIoh7" role="3clF45">
+        <node concept="3Tqbb2" id="7bWGJuRIohC" role="_ZDj9">
+          <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7bWGJuRIoh2" role="3clF47">
+        <node concept="3clFbF" id="7bWGJuS0HSW" role="3cqZAp">
+          <node concept="2ShNRf" id="7bWGJuS0HSU" role="3clFbG">
+            <node concept="Tc6Ow" id="7bWGJuS0I1m" role="2ShVmc">
+              <node concept="3Tqbb2" id="7bWGJuS0Ide" role="HW$YZ">
+                <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="7bWGJuRIogX" role="13h7CW">
+      <node concept="3clFbS" id="7bWGJuRIogY" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="7bWGJuRIohF">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="13h7C2" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+    <node concept="13hLZK" id="7bWGJuRIohG" role="13h7CW">
+      <node concept="3clFbS" id="7bWGJuRIohH" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7bWGJuRIohQ" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getAllStrategies" />
+      <ref role="13i0hy" node="7bWGJuRIogZ" resolve="getAllStrategies" />
+      <node concept="3Tm1VV" id="7bWGJuRIohR" role="1B3o_S" />
+      <node concept="3clFbS" id="7bWGJuRIohV" role="3clF47">
+        <node concept="3clFbF" id="7bWGJuRIoi5" role="3cqZAp">
+          <node concept="2ShNRf" id="7bWGJuRIoi3" role="3clFbG">
+            <node concept="Tc6Ow" id="7bWGJuRIoQN" role="2ShVmc">
+              <node concept="3Tqbb2" id="7bWGJuRIp2F" role="HW$YZ">
+                <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+              </node>
+              <node concept="13iPFW" id="7bWGJuRIp7z" role="HW$Y0" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="7bWGJuRIohW" role="3clF45">
+        <node concept="3Tqbb2" id="7bWGJuRIohX" role="_ZDj9">
+          <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="7bWGJuRJV_Q">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="13h7C2" to="un0u:3U0QWzuEgZN" resolve="OFXExceptionStrategyInclude" />
+    <node concept="13hLZK" id="7bWGJuRJV_R" role="13h7CW">
+      <node concept="3clFbS" id="7bWGJuRJV_S" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="7bWGJuRJV_T" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getAllStrategies" />
+      <ref role="13i0hy" node="7bWGJuRIogZ" resolve="getAllStrategies" />
+      <node concept="3Tm1VV" id="7bWGJuRJV_U" role="1B3o_S" />
+      <node concept="3clFbS" id="7bWGJuRJV_Y" role="3clF47">
+        <node concept="3clFbF" id="7bWGJuRJW9k" role="3cqZAp">
+          <node concept="2OqwBi" id="7bWGJuRJWlr" role="3clFbG">
+            <node concept="2OqwBi" id="7bWGJuRJWbd" role="2Oq$k0">
+              <node concept="13iPFW" id="7bWGJuRJW9i" role="2Oq$k0" />
+              <node concept="3TrEf2" id="7bWGJuRJWfc" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:3U0QWzuEgZQ" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="7bWGJuRUjC5" role="2OqNvi">
+              <ref role="37wK5l" node="7bWGJuRUiqS" resolve="getMembers" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="7bWGJuRJV_Z" role="3clF45">
+        <node concept="3Tqbb2" id="7bWGJuRJVA0" role="_ZDj9">
+          <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="7bWGJuRUiq5">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="13h7C2" to="un0u:3U0QWzu$3aR" resolve="OFXExceptionStrategy" />
+    <node concept="13i0hz" id="7bWGJuRUiqS" role="13h7CS">
+      <property role="TrG5h" value="getMembers" />
+      <node concept="3Tm1VV" id="7bWGJuRUiqT" role="1B3o_S" />
+      <node concept="_YKpA" id="7bWGJuRUizi" role="3clF45">
+        <node concept="3Tqbb2" id="7bWGJuRUiLj" role="_ZDj9">
+          <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="7bWGJuRUiqV" role="3clF47">
+        <node concept="3cpWs8" id="7bWGJuRUir0" role="3cqZAp">
+          <node concept="3cpWsn" id="7bWGJuRUir1" role="3cpWs9">
+            <property role="TrG5h" value="strats" />
+            <node concept="_YKpA" id="7bWGJuRUir2" role="1tU5fm">
+              <node concept="3Tqbb2" id="7bWGJuRUir3" role="_ZDj9">
+                <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="7bWGJuRUir4" role="33vP2m">
+              <node concept="Tc6Ow" id="7bWGJuRUir5" role="2ShVmc">
+                <node concept="3Tqbb2" id="7bWGJuRUir6" role="HW$YZ">
+                  <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7bWGJuRUir7" role="3cqZAp" />
+        <node concept="3clFbF" id="7bWGJuRUir8" role="3cqZAp">
+          <node concept="2OqwBi" id="7bWGJuRUir9" role="3clFbG">
+            <node concept="2OqwBi" id="7bWGJuRUira" role="2Oq$k0">
+              <node concept="13iPFW" id="7bWGJuRUirc" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="7bWGJuRUire" role="2OqNvi">
+                <ref role="3TtcxE" to="un0u:3U0QWzu$6CW" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="7bWGJuRUirf" role="2OqNvi">
+              <node concept="1bVj0M" id="7bWGJuRUirg" role="23t8la">
+                <node concept="3clFbS" id="7bWGJuRUirh" role="1bW5cS">
+                  <node concept="3clFbF" id="7bWGJuRUiri" role="3cqZAp">
+                    <node concept="2OqwBi" id="7bWGJuRUirj" role="3clFbG">
+                      <node concept="37vLTw" id="7bWGJuRUirk" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7bWGJuRUir1" resolve="strats" />
+                      </node>
+                      <node concept="X8dFx" id="7bWGJuRUirl" role="2OqNvi">
+                        <node concept="2OqwBi" id="7bWGJuRUirm" role="25WWJ7">
+                          <node concept="37vLTw" id="7bWGJuRUirn" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7bWGJuRUirp" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="7bWGJuRUiro" role="2OqNvi">
+                            <ref role="37wK5l" node="7bWGJuRIogZ" resolve="getAllStrategies" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="7bWGJuRUirp" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="7bWGJuRUirq" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7bWGJuRUirr" role="3cqZAp" />
+        <node concept="3clFbF" id="7bWGJuRUirs" role="3cqZAp">
+          <node concept="37vLTw" id="7bWGJuRUirt" role="3clFbG">
+            <ref role="3cqZAo" node="7bWGJuRUir1" resolve="strats" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="7bWGJuRUiq6" role="13h7CW">
+      <node concept="3clFbS" id="7bWGJuRUiq7" role="2VODD2" />
     </node>
   </node>
 </model>

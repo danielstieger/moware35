@@ -886,6 +886,11 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6qsy3WVzeka" resolve="SuccessorCommandCall" />
     </node>
+    <node concept="1TJgyj" id="1l1sktc81RY" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cancelMarkerOperation" />
+      <ref role="20lvS9" node="6S08D5Jofmr" resolve="OperationCall" />
+    </node>
     <node concept="1TJgyj" id="1IEa9ReVfmD" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="process" />
@@ -4570,15 +4575,19 @@
     <property role="34LRSv" value="strategy" />
     <property role="R4oN_" value="for exception" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7bWGJuRDHjl" role="1TKVEl">
+      <property role="TrG5h" value="suspendSeconds" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
     <node concept="1TJgyj" id="3U0QWzu$7hK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="exName" />
-      <property role="20lbJX" value="1" />
+      <property role="20kJfa" value="exMatch" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
     </node>
     <node concept="1TJgyj" id="3U0QWzu$7oy" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="messagePart" />
+      <property role="20kJfa" value="messagePartMatch" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
     </node>
