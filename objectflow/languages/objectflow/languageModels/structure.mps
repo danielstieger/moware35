@@ -1178,6 +1178,7 @@
     <property role="34LRSv" value="exception" />
     <property role="1pbfSe" value="1957245173" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="asaX9" id="7zuurfP9kh6" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1Csx3LqAoU5">
     <property role="3GE5qa" value="OFXCore.process" />
@@ -4677,6 +4678,22 @@
     <property role="1pbfSe" value="1712428704" />
     <property role="3GE5qa" value="OFXCore.batch2" />
     <property role="TrG5h" value="IOFXBatchJobOption" />
+  </node>
+  <node concept="1TIwiD" id="7zuurfP3QQv">
+    <property role="1pbfSe" value="1844307794" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="FinalCancelParameter" />
+    <property role="34LRSv" value="msg" />
+    <property role="R4oN_" value="cancel message" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="7zuurfP3TdJ">
+    <property role="1pbfSe" value="1844317474" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="FinalExceptionParameter" />
+    <property role="34LRSv" value="ex" />
+    <property role="R4oN_" value="exception thrown" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 

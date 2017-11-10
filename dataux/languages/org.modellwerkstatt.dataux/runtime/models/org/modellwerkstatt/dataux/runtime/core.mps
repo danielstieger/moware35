@@ -14775,6 +14775,9 @@
                     </node>
                     <node concept="liA8E" id="T$VfFDuuEv" role="2OqNvi">
                       <ref role="37wK5l" to="28jr:3IuMOEB7eZz" resolve="extForceCancelConclusion" />
+                      <node concept="Xl_RD" id="7zuurfPuhMX" role="37wK5m">
+                        <property role="Xl_RC" value="Cancel by container/conclusion" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -26471,7 +26474,7 @@
                     <ref role="3cqZAo" node="6bl3$WOLFJH" resolve="cfg" />
                   </node>
                   <node concept="liA8E" id="6bl3$WOLQwc" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:6qsy3WVLztt" resolve="getProcName" />
+                    <ref role="37wK5l" to="28jr:6qsy3WVLztt" resolve="getProcInstanceNameName" />
                   </node>
                 </node>
               </node>

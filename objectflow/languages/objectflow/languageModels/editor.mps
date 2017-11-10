@@ -1659,7 +1659,7 @@
                 <node concept="3clFbS" id="1l1sktcbVVY" role="3clFbx">
                   <node concept="3cpWs6" id="1l1sktcbWrB" role="3cqZAp">
                     <node concept="Xl_RD" id="1l1sktcbWt5" role="3cqZAk">
-                      <property role="Xl_RC" value="(+ immediatelly commit)" />
+                      <property role="Xl_RC" value="(+ immediatelly commit only this OP)" />
                     </node>
                   </node>
                 </node>
@@ -3200,7 +3200,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="U8r3YqcXEp" role="3EZMnx">
-          <property role="3F0ifm" value="check process, then commit session" />
+          <property role="3F0ifm" value="// check process, then commit session" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="U8r3YqcXEq" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -3264,6 +3264,10 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
+        <node concept="3F0ifn" id="7zuurfP38ec" role="3EZMnx">
+          <property role="3F0ifm" value="// on successor cancel OR ex, cancel here called" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        </node>
         <node concept="3F1sOY" id="1l1sktc8e2O" role="3EZMnx">
           <property role="1$x2rV" value="&lt;marker operation&gt;" />
           <ref role="1NtTu8" to="un0u:1l1sktc81RY" />
@@ -3275,7 +3279,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1l1sktc821c" role="3EZMnx">
-          <property role="3F0ifm" value="do revert objects" />
+          <property role="3F0ifm" value="// do revert objects" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1l1sktc821d" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -3316,9 +3320,12 @@
         <node concept="3F0ifn" id="1Csx3LqySl7" role="3EZMnx">
           <property role="3F0ifm" value="exception" />
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+          <node concept="3nxI2P" id="7zuurfP9kst" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="3F0ifn" id="1l1sktc822Z" role="3EZMnx">
-          <property role="3F0ifm" value="do revert objects" />
+          <property role="3F0ifm" value="// do revert objects" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1l1sktc8230" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -3898,6 +3905,9 @@
       <property role="1cu_pB" value="0" />
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+      <node concept="3nxI2P" id="7zuurfP9kiI" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="1Csx3LqAoUo">
@@ -12191,7 +12201,11 @@
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         </node>
       </node>
-      <node concept="3F0ifn" id="4jlzLDlak4A" role="3EZMnx" />
+      <node concept="3F0ifn" id="4jlzLDlak4A" role="3EZMnx">
+        <property role="3F0ifm" value="// Still not to forget: settings (e.g. paths depending on platform!)" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+      </node>
+      <node concept="3F0ifn" id="7zuurfOS$GQ" role="3EZMnx" />
       <node concept="3F0ifn" id="7TJOmj6MLst" role="3EZMnx">
         <property role="3F0ifm" value="" />
       </node>

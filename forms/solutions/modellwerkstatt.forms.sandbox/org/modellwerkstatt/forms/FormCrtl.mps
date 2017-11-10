@@ -12129,6 +12129,9 @@
                       </node>
                       <node concept="liA8E" id="1kxCqBRbKu$" role="2OqNvi">
                         <ref role="37wK5l" to="28jr:3IuMOEB7eZz" resolve="extForceCancelConclusion" />
+                        <node concept="Xl_RD" id="7zuurfPunK8" role="37wK5m">
+                          <property role="Xl_RC" value="bockschuss" />
+                        </node>
                       </node>
                     </node>
                   </node>

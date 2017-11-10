@@ -2520,10 +2520,15 @@
                 </node>
               </node>
               <node concept="2OqwBi" id="3bhLp3E0XY6" role="33vP2m">
-                <node concept="37vLTw" id="3bhLp3E0XUA" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3bhLp3E0UcY" resolve="runCmd" />
+                <node concept="2OqwBi" id="7zuurfO$HQB" role="2Oq$k0">
+                  <node concept="37vLTw" id="3bhLp3E0XUA" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3bhLp3E0UcY" resolve="runCmd" />
+                  </node>
+                  <node concept="2qgKlT" id="7zuurfO$I2K" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:6IpTZfaBJQK" resolve="getCommand" />
+                  </node>
                 </node>
-                <node concept="2qgKlT" id="3bhLp3E0YNP" role="2OqNvi">
+                <node concept="2qgKlT" id="7zuurfO$Igu" role="2OqNvi">
                   <ref role="37wK5l" to="70o0:3bhLp3E0O7Y" resolve="getUniqueSuccessorCommands" />
                 </node>
               </node>
