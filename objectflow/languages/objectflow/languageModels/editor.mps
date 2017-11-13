@@ -3264,6 +3264,10 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
+        <node concept="3F0ifn" id="5RXltUm6MPM" role="3EZMnx">
+          <property role="3F0ifm" value="msg" />
+          <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+        </node>
         <node concept="3F0ifn" id="7zuurfP38ec" role="3EZMnx">
           <property role="3F0ifm" value="// on successor cancel OR ex, cancel here called" />
           <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
@@ -12737,6 +12741,14 @@
         <ref role="1NtTu8" to="un0u:4jlzLDl6dI6" />
       </node>
       <node concept="l2Vlx" id="4jlzLDl6dIO" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5RXltUm734d">
+    <property role="3GE5qa" value="OFXCore.command" />
+    <ref role="1XX52x" to="un0u:5RXltUm72ZN" resolve="MsgFinalCancelVarReferences" />
+    <node concept="PMmxH" id="5RXltUm734f" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
     </node>
   </node>
 </model>

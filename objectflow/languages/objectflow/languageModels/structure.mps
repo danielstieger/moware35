@@ -4695,5 +4695,13 @@
     <property role="R4oN_" value="exception thrown" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
+  <node concept="1TIwiD" id="5RXltUm72ZN">
+    <property role="1pbfSe" value="199653935" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="MsgFinalCancelVarReferences" />
+    <property role="34LRSv" value="msg" />
+    <property role="R4oN_" value="cancel message" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
 </model>
 
