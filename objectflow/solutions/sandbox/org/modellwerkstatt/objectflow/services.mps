@@ -10182,12 +10182,17 @@
               <node concept="3cpWsn" id="72pStkQ20o$" role="3cpWs9">
                 <property role="TrG5h" value="msg" />
                 <node concept="17QB3L" id="72pStkQ20ov" role="1tU5fm" />
-                <node concept="3cpWs3" id="72pStkQ20Ei" role="33vP2m">
-                  <node concept="Xl_RD" id="72pStkQ20Fz" role="3uHU7B">
-                    <property role="Xl_RC" value="PASSED " />
+                <node concept="3cpWs3" id="1tVklsmDyi1" role="33vP2m">
+                  <node concept="Xl_RD" id="1tVklsmDykM" role="3uHU7w">
+                    <property role="Xl_RC" value=" * * * * * \n" />
                   </node>
-                  <node concept="37vLTw" id="72pStkQ20te" role="3uHU7w">
-                    <ref role="3cqZAo" node="72pStkQ1ZR$" resolve="testName" />
+                  <node concept="3cpWs3" id="72pStkQ20Ei" role="3uHU7B">
+                    <node concept="Xl_RD" id="72pStkQ20Fz" role="3uHU7B">
+                      <property role="Xl_RC" value="* * * * * PASSED " />
+                    </node>
+                    <node concept="37vLTw" id="72pStkQ20te" role="3uHU7w">
+                      <ref role="3cqZAo" node="72pStkQ1ZR$" resolve="testName" />
+                    </node>
                   </node>
                 </node>
               </node>
