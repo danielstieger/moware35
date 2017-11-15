@@ -1400,7 +1400,7 @@
   <node concept="1TIwiD" id="3PmKne7OD8L">
     <property role="3GE5qa" value="OFXCore.process" />
     <property role="TrG5h" value="RunCommand" />
-    <property role="34LRSv" value="DEP_run" />
+    <property role="34LRSv" value="run command" />
     <property role="R4oN_" value="command from any process" />
     <property role="1pbfSe" value="987147356" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
@@ -4412,7 +4412,7 @@
     <property role="1pbfSe" value="1165682408" />
     <property role="3GE5qa" value="OFXCore.batch2" />
     <property role="TrG5h" value="OFXRunCmd" />
-    <property role="34LRSv" value="run command" />
+    <property role="34LRSv" value="run command NEW" />
     <property role="R4oN_" value="without any ui" />
     <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="7TJOmj72LMY" role="1TKVEi">

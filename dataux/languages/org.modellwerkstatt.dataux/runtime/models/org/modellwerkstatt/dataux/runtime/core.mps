@@ -11534,10 +11534,15 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="6a7opD20mPk" role="3cqZAp">
+          <node concept="3SKdUq" id="6a7opD20mPm" role="3SKWNk">
+            <property role="3SKdUp" value="default for successor is true, since ui is not opened if cancel in command init." />
+          </node>
+        </node>
         <node concept="3clFbF" id="2Uji7vlE5nW" role="3cqZAp">
           <node concept="37vLTI" id="2Uji7vlE5u4" role="3clFbG">
-            <node concept="3clFbT" id="2Uji7vlE5v0" role="37vLTx">
-              <property role="3clFbU" value="false" />
+            <node concept="3clFbT" id="6a7opD20mX8" role="37vLTx">
+              <property role="3clFbU" value="true" />
             </node>
             <node concept="37vLTw" id="2Uji7vlE5nU" role="37vLTJ">
               <ref role="3cqZAo" node="2Uji7vlDXiU" resolve="useUiOfPredecessor" />
@@ -14122,6 +14127,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6a7opD1Ycc$" role="3cqZAp" />
         <node concept="3SKdUt" id="4hTkCaL5RTP" role="3cqZAp">
           <node concept="3SKdUq" id="4hTkCaL5RUv" role="3SKWNk">
             <property role="3SKdUp" value="This &quot;event&quot; is executed after the requestFocus(). So it is absolutely the" />
@@ -24911,8 +24917,13 @@
                       <property role="Xl_RC" value="]" />
                     </node>
                     <node concept="3cpWs3" id="2JDNIBMOtaq" role="3uHU7B">
-                      <node concept="Xl_RD" id="2JDNIBMOtar" role="3uHU7B">
-                        <property role="Xl_RC" value="EventCommandContainer background [" />
+                      <node concept="3cpWs3" id="6a7opD1YSz7" role="3uHU7B">
+                        <node concept="37vLTw" id="6a7opD1YTpt" role="3uHU7B">
+                          <ref role="3cqZAo" node="47vlctikKoq" resolve="commandName" />
+                        </node>
+                        <node concept="Xl_RD" id="2JDNIBMOtar" role="3uHU7w">
+                          <property role="Xl_RC" value=" EventCommandContainer background [" />
+                        </node>
                       </node>
                       <node concept="37vLTw" id="2JDNIBMOtas" role="3uHU7w">
                         <ref role="3cqZAo" node="2o7h3aE1OI1" resolve="ev" />
@@ -25168,8 +25179,13 @@
                       <property role="Xl_RC" value="]" />
                     </node>
                     <node concept="3cpWs3" id="2JDNIBMOmp7" role="3uHU7B">
-                      <node concept="Xl_RD" id="2JDNIBMOmp8" role="3uHU7B">
-                        <property role="Xl_RC" value="EventCommandContainer stateless [" />
+                      <node concept="3cpWs3" id="6a7opD1YRe0" role="3uHU7B">
+                        <node concept="37vLTw" id="6a7opD1YRsl" role="3uHU7B">
+                          <ref role="3cqZAo" node="47vlctikKoq" resolve="commandName" />
+                        </node>
+                        <node concept="Xl_RD" id="2JDNIBMOmp8" role="3uHU7w">
+                          <property role="Xl_RC" value=" EventCommandContainer stateless [" />
+                        </node>
                       </node>
                       <node concept="37vLTw" id="2JDNIBMOmp9" role="3uHU7w">
                         <ref role="3cqZAo" node="zBgVaD62Fb" resolve="ev" />
@@ -26319,8 +26335,13 @@
                     <node concept="3cpWs3" id="2JDNIBMOjVL" role="3uHU7B">
                       <node concept="3cpWs3" id="2JDNIBMOjsO" role="3uHU7B">
                         <node concept="3cpWs3" id="2JDNIBMOjct" role="3uHU7B">
-                          <node concept="Xl_RD" id="2JDNIBMOjbd" role="3uHU7B">
-                            <property role="Xl_RC" value="EventCommandContainer statefull [" />
+                          <node concept="3cpWs3" id="6a7opD1YQvA" role="3uHU7B">
+                            <node concept="37vLTw" id="6a7opD1YQHc" role="3uHU7B">
+                              <ref role="3cqZAo" node="47vlctikKoq" resolve="commandName" />
+                            </node>
+                            <node concept="Xl_RD" id="2JDNIBMOjbd" role="3uHU7w">
+                              <property role="Xl_RC" value=" EventCommandContainer statefull [" />
+                            </node>
                           </node>
                           <node concept="37vLTw" id="2JDNIBMOjdY" role="3uHU7w">
                             <ref role="3cqZAo" node="zBgVaD62Fb" resolve="ev" />
