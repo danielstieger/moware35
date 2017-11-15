@@ -5729,10 +5729,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="7TJOmj6N8L6">
-    <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1M2myG" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
-  </node>
   <node concept="1M2fIO" id="3U0QWztHpzw">
     <property role="3GE5qa" value="OFXCore.batch2" />
     <ref role="1M2myG" to="un0u:3U0QWztHgKC" resolve="OFXRunCmdPage" />

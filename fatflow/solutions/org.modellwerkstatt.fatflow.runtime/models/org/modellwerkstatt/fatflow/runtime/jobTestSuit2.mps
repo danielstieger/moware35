@@ -258,6 +258,7 @@
       </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
+        <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
       </concept>
     </language>
@@ -4742,6 +4743,10 @@
     <node concept="1DZZI9" id="2xm_JkjuYBO" role="38MLOi">
       <ref role="1DZZIc" node="2xm_JkjuRnh" resolve="InfraSetups" />
     </node>
+    <node concept="1DZZI9" id="75rxwEKsDHe" role="38MLOi">
+      <property role="26Iqih" value="true" />
+      <ref role="1DZZIc" node="1TthV9fQEnK" resolve="Consumer Producer Rainy" />
+    </node>
   </node>
   <node concept="2CG7Z0" id="gmxFf4ojXX">
     <property role="TrG5h" value="DummyConfig" />
@@ -6768,6 +6773,19 @@
           </node>
         </node>
         <node concept="3clFbH" id="1WqysfnGFiC" role="3cqZAp" />
+        <node concept="3clFbF" id="3Y30FrAslnd" role="3cqZAp">
+          <node concept="2OqwBi" id="3Y30FrAslZd" role="3clFbG">
+            <node concept="37vLTw" id="3Y30FrAslnb" role="2Oq$k0">
+              <ref role="3cqZAo" node="1WqysfnGFhl" resolve="crtl" />
+            </node>
+            <node concept="liA8E" id="3Y30FrAsm8b" role="2OqNvi">
+              <ref role="37wK5l" to="z3ji:66durT_4aT_" resolve="reportingLevel" />
+              <node concept="3cmrfG" id="3Y30FrAsm_m" role="37wK5m">
+                <property role="3cmrfH" value="2" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="1WqysfnGFiD" role="3cqZAp">
           <node concept="37vLTw" id="1WqysfnGFiE" role="3cqZAk">
             <ref role="3cqZAo" node="1WqysfnGFhl" resolve="crtl" />
@@ -14480,27 +14498,12 @@
         </node>
         <node concept="3clFbH" id="3yI9$tJW_yU" role="3cqZAp" />
         <node concept="3clFbH" id="3yI9$tK614d" role="3cqZAp" />
-        <node concept="3SKdUt" id="3yI9$tK669s" role="3cqZAp">
-          <node concept="3SKdUq" id="3yI9$tK669u" role="3SKWNk">
-            <property role="3SKdUp" value="run after 0/1 sec, process 2 msg + 2 msg error, " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3yI9$tK6bcv" role="3cqZAp">
-          <node concept="3SKdUq" id="3yI9$tK6bcx" role="3SKWNk">
-            <property role="3SKdUp" value="=&gt; 4 sec pause, " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="3yI9$tK6kkL" role="3cqZAp">
-          <node concept="3SKdUq" id="3yI9$tK6kkN" role="3SKWNk">
-            <property role="3SKdUp" value="sec. num 7: create another 4 msgs. total 6" />
-          </node>
-        </node>
         <node concept="3clFbF" id="3yI9$tJW_zg" role="3cqZAp">
           <node concept="2YIFZM" id="3yI9$tJW_zh" role="3clFbG">
             <ref role="1Pybhc" node="2xm_JkjvVi1" resolve="TestUtil" />
             <ref role="37wK5l" node="2xm_JkjvYwh" resolve="wait" />
             <node concept="3cmrfG" id="3yI9$tJW_zi" role="37wK5m">
-              <property role="3cmrfH" value="6000" />
+              <property role="3cmrfH" value="6200" />
             </node>
           </node>
         </node>

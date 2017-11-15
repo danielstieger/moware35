@@ -4538,14 +4538,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3U0QWztRJTF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="runCommand" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXRunCmd" />
-    </node>
-    <node concept="1TJgyj" id="3U0QWztRJTG" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="status" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <property role="20kJfa" value="cmdCallContext" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="21AFYXWJblt" resolve="OFXConsumerCmdCallContext" />
     </node>
     <node concept="PrWs8" id="3U0QWztWfET" role="PzmwI">
       <ref role="PrY4T" node="3U0QWztHkm$" resolve="IOFXRContextVarDeclaration" />
@@ -4702,6 +4697,23 @@
     <property role="34LRSv" value="msg" />
     <property role="R4oN_" value="cancel message" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="21AFYXWJblt">
+    <property role="1pbfSe" value="1658624692" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXConsumerCmdCallContext" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="21AFYXWJbnZ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="commandCall" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXRunCmd" />
+    </node>
+    <node concept="1TJgyj" id="21AFYXWO_w5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="status" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
   </node>
 </model>
 

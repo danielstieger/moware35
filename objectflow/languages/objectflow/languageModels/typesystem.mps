@@ -14367,5 +14367,65 @@
       <ref role="1YaFvo" to="un0u:5RXltUm72ZN" resolve="MsgFinalCancelVarReferences" />
     </node>
   </node>
+  <node concept="1YbPZF" id="21AFYXWBpiV">
+    <property role="TrG5h" value="typeof_OFXProducerContext" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="21AFYXWBpiW" role="18ibNy">
+      <node concept="1Z5TYs" id="21AFYXWBpj2" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="21AFYXWBpj3" role="1ZfhKB">
+          <node concept="2c44tf" id="21AFYXWBpj4" role="mwGJk">
+            <node concept="17QB3L" id="21AFYXWBpj5" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="21AFYXWBpj6" role="1ZfhK$">
+          <node concept="1Z2H0r" id="21AFYXWBpj7" role="mwGJk">
+            <node concept="2OqwBi" id="21AFYXWBpj8" role="1Z2MuG">
+              <node concept="1YBJjd" id="21AFYXWBpl3" role="2Oq$k0">
+                <ref role="1YBMHb" node="21AFYXWBpiY" resolve="ofxProducerContext" />
+              </node>
+              <node concept="3TrEf2" id="21AFYXWBpt0" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:3U0QWztRHwp" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="21AFYXWBpiY" role="1YuTPh">
+      <property role="TrG5h" value="ofxProducerContext" />
+      <ref role="1YaFvo" to="un0u:3U0QWztRGQ8" resolve="OFXProducerContext" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="21AFYXWO_zC">
+    <property role="TrG5h" value="typeof_OFXConsumerCmdCallContext" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="21AFYXWO_zD" role="18ibNy">
+      <node concept="1Z5TYs" id="21AFYXWO_zQ" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="21AFYXWO_zR" role="1ZfhKB">
+          <node concept="2c44tf" id="21AFYXWO_zS" role="mwGJk">
+            <node concept="17QB3L" id="21AFYXWO_zT" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="21AFYXWO_zU" role="1ZfhK$">
+          <node concept="1Z2H0r" id="21AFYXWO_zV" role="mwGJk">
+            <node concept="2OqwBi" id="21AFYXWO_zW" role="1Z2MuG">
+              <node concept="1YBJjd" id="21AFYXWO_A5" role="2Oq$k0">
+                <ref role="1YBMHb" node="21AFYXWO_zF" resolve="ofxConsumerCmdCallContext" />
+              </node>
+              <node concept="3TrEf2" id="21AFYXWO_DF" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:21AFYXWO_w5" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="21AFYXWO_zF" role="1YuTPh">
+      <property role="TrG5h" value="ofxConsumerCmdCallContext" />
+      <ref role="1YaFvo" to="un0u:21AFYXWJblt" resolve="OFXConsumerCmdCallContext" />
+    </node>
+  </node>
 </model>
 
