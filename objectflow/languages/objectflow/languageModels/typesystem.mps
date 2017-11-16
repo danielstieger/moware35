@@ -14140,24 +14140,6 @@
       <ref role="1YaFvo" to="un0u:4jlzLDl6dCR" resolve="OFXBatchJobVersion" />
     </node>
   </node>
-  <node concept="18kY7G" id="2q7OPuPWzrG">
-    <property role="TrG5h" value="check_ErrorInCommand" />
-    <property role="3GE5qa" value="OFXCore.command" />
-    <node concept="3clFbS" id="2q7OPuPWzrH" role="18ibNy">
-      <node concept="2MkqsV" id="2q7OPuPWzss" role="3cqZAp">
-        <node concept="Xl_RD" id="2q7OPuPWzsJ" role="2MkJ7o">
-          <property role="Xl_RC" value="(Contact DAN? - this is only a proposition!) This error statement used in commands is deprecated. Throw an exception if necessary?" />
-        </node>
-        <node concept="1YBJjd" id="2q7OPuPWz_l" role="2OEOjV">
-          <ref role="1YBMHb" node="2q7OPuPWzrJ" resolve="errorInCommand" />
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="2q7OPuPWzrJ" role="1YuTPh">
-      <property role="TrG5h" value="errorInCommand" />
-      <ref role="1YaFvo" to="un0u:4Ta2XmWaDfo" resolve="ErrorInCommand" />
-    </node>
-  </node>
   <node concept="18kY7G" id="7bWGJuRUigL">
     <property role="TrG5h" value="check_OFXExceptionStrategy" />
     <property role="3GE5qa" value="OFXCore.batch2" />

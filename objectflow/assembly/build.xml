@@ -27,9 +27,9 @@
   <!-- **** app specific definitions **************************************************************** -->
   <property name="jobName"              value="OsgiBatchJob" />
   <property name="jobVersion"           value="1.0.0" />
-  <property name="jobSymbolicName"      value="org.modellwerkstatt.objectflow.batchjob.OsgiBatchJobMainClass" /> 
-  <property name="jobBundleActivator"   value="org.modellwerkstatt.objectflow.batchjob.OFXOSGIBatchJob" /> 
-  <property name="jobConfig"            value="/org/modellwerkstatt/objectflow/batchjob/TestConfiguration.xml" /> 
+  <property name="jobSymbolicName"      value="Simple.baseApp.Test_Batch" /> 
+  <property name="jobBundleActivator"   value="Simple.baseApp.Test_Batch" /> 
+  <property name="jobConfig"            value="Simple/baseApp/NewBatchJobTestConfig.xml" /> 
   
   
   <!-- **** build specific definitions ************************************************************** -->
@@ -38,11 +38,39 @@
   <property name="felixDir"              value="/Users/danielstieger/stuff/felix-framework-5.6.8" />
       
   <!-- **** solutions to incorporate in this build ************************************************** -->
-  <property name="solultionSimpleGen"   value="/Users/danielstieger/moware/objectflow/solutions/sandbox/classes_gen" />
+  <property name="solultionSimpleGen"   value="/Users/danielstieger/javaware/simpleone/solutions/Simple/classes_gen" />
+
+  <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
+  <target name="mowarePluginAdoption">
+	<property name="mowareHome"    value="/Users/danielstieger/moware" />
+    <delete includeemptydirs="false">
+    	<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions" includes="*.jar"/>
+  	</delete>
+    
+
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.sandbox.jar"
+    	 basedir="${mowareHome}/objectflow/solutions/sandbox/classes_gen"/>
+         
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.solution.jar" 
+         basedir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
+    
+ 	<jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.dataux.runtime.jar" 
+         basedir="${mowareHome}/dataux/languages/org.modellwerkstatt.dataux/runtime/classes_gen" />
+   
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.vaadinforms.jar" 
+         basedir="${mowareHome}/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen"/>
+
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/moware-vaadin-theme-1.0.jar" 
+         basedir="${mowareHome}/vaadinforms/assembly/artefact/moware-theme"/>
+         
+    <copy todir="${mowarePluginHomeDir}/vaadinassembly/artefact/" overwrite="true" >
+    	<fileset dir="${mowareHome}/vaadinforms/assembly/artefact/"/>
+  	</copy>  
+  </target>
+  <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  
 
 
-
-  <target name="default">
+  <target name="default" depends="mowarePluginAdoption">
     <mkdir dir="work"/>
     <mkdir dir="work/lib"/>
     <copy todir="work/lib">

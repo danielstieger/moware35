@@ -12171,6 +12171,31 @@
           </node>
         </node>
         <node concept="l2Vlx" id="7TJOmj6MLsk" role="2iSdaV" />
+        <node concept="1HlG4h" id="5BROMrW0Dqj" role="3EZMnx">
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="1HfYo3" id="5BROMrW0Dql" role="1HlULh">
+            <node concept="3TQlhw" id="5BROMrW0Dqn" role="1Hhtcw">
+              <node concept="3clFbS" id="5BROMrW0Dqp" role="2VODD2">
+                <node concept="3clFbF" id="5BROMrW0Dvb" role="3cqZAp">
+                  <node concept="3cpWs3" id="5BROMrW0Dzo" role="3clFbG">
+                    <node concept="2OqwBi" id="5BROMrW0DCV" role="3uHU7w">
+                      <node concept="pncrf" id="5BROMrW0D$W" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="5BROMrW0DMa" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:6ffh1MX_A66" resolve="getEscapedFqName" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="5BROMrW0Dva" role="3uHU7B">
+                      <property role="Xl_RC" value="batchjob fqName for bundle build: " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="pVoyu" id="5BROMrW0DrQ" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="7TJOmj6MLsl" role="3EZMnx" />
       <node concept="3F0ifn" id="7TJOmj6MLsm" role="3EZMnx" />
