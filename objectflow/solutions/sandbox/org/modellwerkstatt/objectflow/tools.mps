@@ -9,6 +9,7 @@
     <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.sandbox/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
+    <import index="q7mo" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.osgi.framework(org.modellwerkstatt.sandbox/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -56,8 +57,12 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
+      </concept>
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <child id="1095933932569" name="implementedInterface" index="EKbjA" />
         <child id="1165602531693" name="superclass" index="1zkMxy" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -134,8 +139,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -494,6 +509,326 @@
     <node concept="3Tm1VV" id="5nND$KhT9yB" role="1B3o_S" />
     <node concept="3uibUv" id="5nND$KhT9$c" role="1zkMxy">
       <ref role="3uigEE" to="nwfd:~HttpServlet" resolve="HttpServlet" />
+    </node>
+  </node>
+  <node concept="312cEu" id="45rjtHWG1RH">
+    <property role="TrG5h" value="OJDBC6LoaderBundle" />
+    <node concept="2tJIrI" id="45rjtHWG1RI" role="jymVt" />
+    <node concept="Wx3nA" id="45rjtHWG1RJ" role="jymVt">
+      <property role="TrG5h" value="initSuccessFullyCalled" />
+      <node concept="3Tm6S6" id="45rjtHWG1RK" role="1B3o_S" />
+      <node concept="10P_77" id="45rjtHWG1RL" role="1tU5fm" />
+      <node concept="3clFbT" id="45rjtHWG1RM" role="33vP2m">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="45rjtHWG1RN" role="jymVt" />
+    <node concept="2tJIrI" id="45rjtHWG1RO" role="jymVt" />
+    <node concept="3clFb_" id="45rjtHWG3fR" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="start" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="45rjtHWG3fS" role="1B3o_S" />
+      <node concept="3cqZAl" id="45rjtHWG3fU" role="3clF45" />
+      <node concept="37vLTG" id="45rjtHWG3fV" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="45rjtHWG3fW" role="1tU5fm">
+          <ref role="3uigEE" to="q7mo:~BundleContext" resolve="BundleContext" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="45rjtHWG3fX" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+      <node concept="3clFbS" id="45rjtHWG3fY" role="3clF47">
+        <node concept="3SKdUt" id="45rjtHWG1Sn" role="3cqZAp">
+          <node concept="3SKdUq" id="45rjtHWG1So" role="3SKWNk">
+            <property role="3SKdUp" value="Dan 7. Oct 2014" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="45rjtHWG1Sp" role="3cqZAp">
+          <node concept="3SKdUq" id="45rjtHWG1Sq" role="3SKWNk">
+            <property role="3SKdUp" value="Start the oracle OracleTimeoutPollingThread by loading OracleTimeoutThreadPerVM" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="45rjtHWG1Sr" role="3cqZAp">
+          <node concept="3SKdUq" id="45rjtHWG1Ss" role="3SKWNk">
+            <property role="3SKdUp" value="where that Thread get s initialized as watchdog. Class is loaded with system Classloader," />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="45rjtHWG1St" role="3cqZAp">
+          <node concept="3SKdUq" id="45rjtHWG1Su" role="3SKWNk">
+            <property role="3SKdUp" value="howerver, threads seems to be in servlet context. So do not unload this servlet." />
+          </node>
+        </node>
+        <node concept="3clFbH" id="45rjtHWG1Sv" role="3cqZAp" />
+        <node concept="3cpWs8" id="45rjtHWG1Sw" role="3cqZAp">
+          <node concept="3cpWsn" id="45rjtHWG1Sx" role="3cpWs9">
+            <property role="TrG5h" value="currentClassLoader" />
+            <node concept="3uibUv" id="45rjtHWG1Sy" role="1tU5fm">
+              <ref role="3uigEE" to="wyt6:~ClassLoader" resolve="ClassLoader" />
+            </node>
+            <node concept="2OqwBi" id="45rjtHWG1Sz" role="33vP2m">
+              <node concept="2YIFZM" id="45rjtHWG1S$" role="2Oq$k0">
+                <ref role="37wK5l" to="wyt6:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+                <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+              </node>
+              <node concept="liA8E" id="45rjtHWG1S_" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Thread.getContextClassLoader():java.lang.ClassLoader" resolve="getContextClassLoader" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2GUZhq" id="45rjtHWG1SA" role="3cqZAp">
+          <node concept="3clFbS" id="45rjtHWG1SB" role="2GV8ay">
+            <node concept="1X3_iC" id="3Ux7NZuZjCp" role="lGtFl">
+              <property role="3V$3am" value="statement" />
+              <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+              <node concept="3clFbF" id="45rjtHWG1SC" role="8Wnug">
+                <node concept="2OqwBi" id="45rjtHWG1SD" role="3clFbG">
+                  <node concept="2YIFZM" id="45rjtHWG1SE" role="2Oq$k0">
+                    <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+                    <ref role="37wK5l" to="wyt6:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+                  </node>
+                  <node concept="liA8E" id="45rjtHWG1SF" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~Thread.setContextClassLoader(java.lang.ClassLoader):void" resolve="setContextClassLoader" />
+                    <node concept="2YIFZM" id="45rjtHWG1SG" role="37wK5m">
+                      <ref role="1Pybhc" to="wyt6:~ClassLoader" resolve="ClassLoader" />
+                      <ref role="37wK5l" to="wyt6:~ClassLoader.getSystemClassLoader():java.lang.ClassLoader" resolve="getSystemClassLoader" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="45rjtHWG1SH" role="3cqZAp" />
+            <node concept="3SKdUt" id="45rjtHWG1SI" role="3cqZAp">
+              <node concept="3SKdUq" id="45rjtHWG1SJ" role="3SKWNk">
+                <property role="3SKdUp" value="Cause oracle.jdbc.driver.OracleTimeoutPollingThread to be started with contextClassLoader = system classloader" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="45rjtHWG1SK" role="3cqZAp">
+              <node concept="3SKdUq" id="45rjtHWG1SL" role="3SKWNk">
+                <property role="3SKdUp" value="Ignore silently - class not present" />
+              </node>
+            </node>
+            <node concept="SfApY" id="45rjtHWG1SM" role="3cqZAp">
+              <node concept="TDmWw" id="45rjtHWG1SN" role="TEbGg">
+                <node concept="3clFbS" id="45rjtHWG1SO" role="TDEfX">
+                  <node concept="3clFbF" id="45rjtHWG1SP" role="3cqZAp">
+                    <node concept="2OqwBi" id="45rjtHWG1SQ" role="3clFbG">
+                      <node concept="2YIFZM" id="45rjtHWG1SR" role="2Oq$k0">
+                        <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                        <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                        <node concept="3VsKOn" id="45rjtHWG1SS" role="37wK5m">
+                          <ref role="3VsUkX" node="45rjtHWG1RH" resolve="OJDBC6LoaderBundle" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="45rjtHWG1ST" role="2OqNvi">
+                        <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                        <node concept="3cpWs3" id="45rjtHWG1SU" role="37wK5m">
+                          <node concept="1rXfSq" id="45rjtHWG1SV" role="3uHU7w">
+                            <ref role="37wK5l" node="45rjtHWG1Ty" resolve="stackTrace2String" />
+                            <node concept="37vLTw" id="45rjtHWG1SW" role="37wK5m">
+                              <ref role="3cqZAo" node="45rjtHWG1SY" resolve="e" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="45rjtHWG1SX" role="3uHU7B">
+                            <property role="Xl_RC" value="ClassNotFoundException while trying to load ojdbc driver. " />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="45rjtHWG3wk" role="3cqZAp" />
+                </node>
+                <node concept="3cpWsn" id="45rjtHWG1SY" role="TDEfY">
+                  <property role="3TUv4t" value="false" />
+                  <property role="TrG5h" value="e" />
+                  <node concept="3uibUv" id="45rjtHWG1SZ" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~ClassNotFoundException" resolve="ClassNotFoundException" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbS" id="45rjtHWG1T0" role="SfCbr">
+                <node concept="3clFbF" id="45rjtHWG1T1" role="3cqZAp">
+                  <node concept="2YIFZM" id="45rjtHWG1T2" role="3clFbG">
+                    <ref role="37wK5l" to="wyt6:~Class.forName(java.lang.String):java.lang.Class" resolve="forName" />
+                    <ref role="1Pybhc" to="wyt6:~Class" resolve="Class" />
+                    <node concept="Xl_RD" id="45rjtHWG1T3" role="37wK5m">
+                      <property role="Xl_RC" value="oracle.jdbc.driver.OracleTimeoutThreadPerVM" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="45rjtHWG3uN" role="3cqZAp" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="45rjtHWG1T4" role="3cqZAp">
+              <node concept="37vLTI" id="45rjtHWG1T5" role="3clFbG">
+                <node concept="3clFbT" id="45rjtHWG1T6" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="45rjtHWG3iW" role="37vLTJ">
+                  <ref role="3cqZAo" node="45rjtHWG1RJ" resolve="initSuccessFullyCalled" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="45rjtHWG1T8" role="3cqZAp" />
+          </node>
+          <node concept="TDmWw" id="45rjtHWG1T9" role="TEXxN">
+            <node concept="3cpWsn" id="45rjtHWG1Ta" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="45rjtHWG1Tb" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="45rjtHWG1Tc" role="TDEfX">
+              <node concept="3clFbF" id="45rjtHWG1Td" role="3cqZAp">
+                <node concept="2OqwBi" id="45rjtHWG1Te" role="3clFbG">
+                  <node concept="2YIFZM" id="45rjtHWG1Tf" role="2Oq$k0">
+                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                    <node concept="3VsKOn" id="45rjtHWG1Tg" role="37wK5m">
+                      <ref role="3VsUkX" node="45rjtHWG1RH" resolve="OJDBC6LoaderBundle" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="45rjtHWG1Th" role="2OqNvi">
+                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                    <node concept="3cpWs3" id="45rjtHWG1Ti" role="37wK5m">
+                      <node concept="1rXfSq" id="45rjtHWG1Tj" role="3uHU7w">
+                        <ref role="37wK5l" node="45rjtHWG1Ty" resolve="stackTrace2String" />
+                        <node concept="37vLTw" id="45rjtHWG1Tk" role="37wK5m">
+                          <ref role="3cqZAo" node="45rjtHWG1Ta" resolve="ex" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="45rjtHWG1Tl" role="3uHU7B">
+                        <property role="Xl_RC" value="Exception while trying to load ojdbc driver. " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="45rjtHWG1Tm" role="3cqZAp" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="45rjtHWG1Tn" role="2GVbov">
+            <node concept="3clFbF" id="45rjtHWG1To" role="3cqZAp">
+              <node concept="2OqwBi" id="45rjtHWG1Tp" role="3clFbG">
+                <node concept="2YIFZM" id="45rjtHWG1Tq" role="2Oq$k0">
+                  <ref role="37wK5l" to="wyt6:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+                  <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+                </node>
+                <node concept="liA8E" id="45rjtHWG1Tr" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Thread.setContextClassLoader(java.lang.ClassLoader):void" resolve="setContextClassLoader" />
+                  <node concept="37vLTw" id="45rjtHWG1Ts" role="37wK5m">
+                    <ref role="3cqZAo" node="45rjtHWG1Sx" resolve="currentClassLoader" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="45rjtHWG6_Z" role="3cqZAp">
+          <node concept="2OqwBi" id="45rjtHWG6_W" role="3clFbG">
+            <node concept="10M0yZ" id="45rjtHWG6_X" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="45rjtHWG6_Y" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="45rjtHWG6G5" role="37wK5m">
+                <property role="Xl_RC" value="OJDBCBUndle started..." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="45rjtHWG3zX" role="jymVt" />
+    <node concept="3clFb_" id="45rjtHWG3fZ" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="stop" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="45rjtHWG3g0" role="1B3o_S" />
+      <node concept="3cqZAl" id="45rjtHWG3g2" role="3clF45" />
+      <node concept="37vLTG" id="45rjtHWG3g3" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="45rjtHWG3g4" role="1tU5fm">
+          <ref role="3uigEE" to="q7mo:~BundleContext" resolve="BundleContext" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="45rjtHWG3g5" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+      <node concept="3clFbS" id="45rjtHWG3g6" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="45rjtHWG1Tw" role="jymVt" />
+    <node concept="2YIFZL" id="45rjtHWG1Ty" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <property role="TrG5h" value="stackTrace2String" />
+      <node concept="37vLTG" id="45rjtHWG1Tz" role="3clF46">
+        <property role="TrG5h" value="t" />
+        <node concept="3uibUv" id="45rjtHWG1T$" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="45rjtHWG1T_" role="3clF47">
+        <node concept="3cpWs8" id="45rjtHWG1TA" role="3cqZAp">
+          <node concept="3cpWsn" id="45rjtHWG1TB" role="3cpWs9">
+            <property role="TrG5h" value="sw" />
+            <node concept="3uibUv" id="45rjtHWG1TC" role="1tU5fm">
+              <ref role="3uigEE" to="guwi:~StringWriter" resolve="StringWriter" />
+            </node>
+            <node concept="2ShNRf" id="45rjtHWG1TD" role="33vP2m">
+              <node concept="1pGfFk" id="45rjtHWG1TE" role="2ShVmc">
+                <ref role="37wK5l" to="guwi:~StringWriter.&lt;init&gt;()" resolve="StringWriter" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="45rjtHWG1TF" role="3cqZAp">
+          <node concept="2OqwBi" id="45rjtHWG1TG" role="3clFbG">
+            <node concept="37vLTw" id="45rjtHWG1TH" role="2Oq$k0">
+              <ref role="3cqZAo" node="45rjtHWG1Tz" resolve="t" />
+            </node>
+            <node concept="liA8E" id="45rjtHWG1TI" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Throwable.printStackTrace(java.io.PrintWriter):void" resolve="printStackTrace" />
+              <node concept="2ShNRf" id="45rjtHWG1TJ" role="37wK5m">
+                <node concept="1pGfFk" id="45rjtHWG1TK" role="2ShVmc">
+                  <ref role="37wK5l" to="guwi:~PrintWriter.&lt;init&gt;(java.io.Writer)" resolve="PrintWriter" />
+                  <node concept="37vLTw" id="45rjtHWG1TL" role="37wK5m">
+                    <ref role="3cqZAo" node="45rjtHWG1TB" resolve="sw" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="45rjtHWG1TM" role="3cqZAp">
+          <node concept="3cpWs3" id="45rjtHWG1TN" role="3clFbG">
+            <node concept="Xl_RD" id="45rjtHWG1TO" role="3uHU7B">
+              <property role="Xl_RC" value="\n" />
+            </node>
+            <node concept="2OqwBi" id="45rjtHWG1TP" role="3uHU7w">
+              <node concept="37vLTw" id="45rjtHWG1TQ" role="2Oq$k0">
+                <ref role="3cqZAo" node="45rjtHWG1TB" resolve="sw" />
+              </node>
+              <node concept="liA8E" id="45rjtHWG1TR" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~StringWriter.toString():java.lang.String" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="45rjtHWG1TS" role="3clF45" />
+      <node concept="3Tm1VV" id="45rjtHWG1TT" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="45rjtHWG1TU" role="jymVt" />
+    <node concept="3Tm1VV" id="45rjtHWG1TV" role="1B3o_S" />
+    <node concept="3uibUv" id="45rjtHWG2X7" role="EKbjA">
+      <ref role="3uigEE" to="q7mo:~BundleActivator" resolve="BundleActivator" />
     </node>
   </node>
 </model>
