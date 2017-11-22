@@ -3286,22 +3286,42 @@
                                   <node concept="Xl_RD" id="2fj6lk$bonh" role="3uHU7w">
                                     <property role="Xl_RC" value=" @ " />
                                   </node>
-                                  <node concept="2OqwBi" id="2fj6lk$bn1s" role="3uHU7B">
-                                    <node concept="2OqwBi" id="2fj6lk$blLD" role="2Oq$k0">
-                                      <node concept="2OqwBi" id="2fj6lk$bkzw" role="2Oq$k0">
-                                        <node concept="37vLTw" id="2fj6lk$bjph" role="2Oq$k0">
-                                          <ref role="3cqZAo" node="gmxFf4pXAC" resolve="msg" />
-                                        </node>
-                                        <node concept="liA8E" id="2fj6lk$blI1" role="2OqNvi">
-                                          <ref role="37wK5l" node="7BWfrtCZA6g" resolve="getThrowable" />
-                                        </node>
+                                  <node concept="3cpWs3" id="5a3fk7zcEXN" role="3uHU7B">
+                                    <node concept="3cpWs3" id="5a3fk7zcLVg" role="3uHU7B">
+                                      <node concept="Xl_RD" id="5a3fk7zcLXc" role="3uHU7w">
+                                        <property role="Xl_RC" value="': " />
                                       </node>
-                                      <node concept="liA8E" id="2fj6lk$bmWe" role="2OqNvi">
-                                        <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                                      <node concept="3cpWs3" id="5a3fk7zcHE0" role="3uHU7B">
+                                        <node concept="Xl_RD" id="5a3fk7zcEZD" role="3uHU7B">
+                                          <property role="Xl_RC" value="While processing '" />
+                                        </node>
+                                        <node concept="2OqwBi" id="5a3fk7zcIPE" role="3uHU7w">
+                                          <node concept="37vLTw" id="5a3fk7zcJT6" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="7BWfrtD0sva" resolve="senderThread" />
+                                          </node>
+                                          <node concept="liA8E" id="5a3fk7zcKV6" role="2OqNvi">
+                                            <ref role="37wK5l" node="gmxFf4jZ69" resolve="getProcessingKey" />
+                                          </node>
+                                        </node>
                                       </node>
                                     </node>
-                                    <node concept="liA8E" id="2fj6lk$bn8S" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                                    <node concept="2OqwBi" id="2fj6lk$bn1s" role="3uHU7w">
+                                      <node concept="2OqwBi" id="2fj6lk$blLD" role="2Oq$k0">
+                                        <node concept="2OqwBi" id="2fj6lk$bkzw" role="2Oq$k0">
+                                          <node concept="37vLTw" id="2fj6lk$bjph" role="2Oq$k0">
+                                            <ref role="3cqZAo" node="gmxFf4pXAC" resolve="msg" />
+                                          </node>
+                                          <node concept="liA8E" id="2fj6lk$blI1" role="2OqNvi">
+                                            <ref role="37wK5l" node="7BWfrtCZA6g" resolve="getThrowable" />
+                                          </node>
+                                        </node>
+                                        <node concept="liA8E" id="2fj6lk$bmWe" role="2OqNvi">
+                                          <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                                        </node>
+                                      </node>
+                                      <node concept="liA8E" id="2fj6lk$bn8S" role="2OqNvi">
+                                        <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
@@ -6072,14 +6092,14 @@
                   <node concept="3cpWs3" id="7HSdIeXPCZp" role="3uHU7B">
                     <node concept="3cpWs3" id="7HSdIeXPAWj" role="3uHU7B">
                       <node concept="Xl_RD" id="7HSdIeXPy4c" role="3uHU7B">
-                        <property role="Xl_RC" value="Send item key " />
+                        <property role="Xl_RC" value="Send item key '" />
                       </node>
                       <node concept="37vLTw" id="7HSdIeXPBP1" role="3uHU7w">
                         <ref role="3cqZAo" node="6ChgfB7BI8o" resolve="k" />
                       </node>
                     </node>
                     <node concept="Xl_RD" id="7HSdIeXPD0P" role="3uHU7w">
-                      <property role="Xl_RC" value=" to consumer " />
+                      <property role="Xl_RC" value="' to consumer " />
                     </node>
                   </node>
                   <node concept="2OqwBi" id="7HSdIeXQeXs" role="3uHU7w">

@@ -115,6 +115,10 @@
   	</copy>
   </target>
   
+  <target name="undeploy">
+    <delete file="${felixDir}/jobs/${jobName}-${jobVersion}.jar" />
+  </target>
+  
 </project>
 
 

@@ -9,7 +9,6 @@
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="0" />
     <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
-    <use id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -41307,7 +41306,7 @@
                 <ref role="37wK5l" to="28jr:2h5WDoUYWm9" resolve="initRichClientSetup" />
               </node>
             </node>
-            <node concept="3clFbH" id="4jlzLDkIsfl" role="3cqZAp" />
+            <node concept="3clFbH" id="5a3fk7zf7$1" role="3cqZAp" />
             <node concept="3clFbJ" id="4jlzLDkIsfm" role="3cqZAp">
               <node concept="3clFbS" id="4jlzLDkIsfn" role="3clFbx">
                 <node concept="3clFbF" id="4jlzLDkIsfo" role="3cqZAp">
