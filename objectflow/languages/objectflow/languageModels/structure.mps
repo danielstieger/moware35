@@ -3485,7 +3485,6 @@
     <property role="34LRSv" value="func" />
     <property role="R4oN_" value="some statement" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-    <node concept="asaX9" id="3U0QWztHoAh" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="4Ta2XmWaDfo">
     <property role="1pbfSe" value="175415213" />

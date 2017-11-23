@@ -26,7 +26,7 @@
 
   <!-- **** app specific definitions **************************************************************** -->
   <property name="jobName"              value="OjdbcLoader" />
-  <property name="jobVersion"           value="1.0.0" />
+  <property name="jobVersion"           value="1.0.2" />
   <property name="jobSymbolicName"      value="org.modellwerkstatt.objectflow.tools.OJDBC6LoaderBundle" /> 
   <property name="jobBundleActivator"   value="org.modellwerkstatt.objectflow.tools.OJDBC6LoaderBundle" /> 
   <property name="exportPackageName"    value="org.modellwerkstatt.objectflow.tools" /> 
@@ -41,7 +41,7 @@
     <mkdir dir="work/lib"/>
     <copy todir="work/lib">
 	  
-      <fileset dir="${mowarePluginHomeDir}/jars/richclient/" includes="ojdbc14.jar" /> 
+      <fileset dir="${mowarePluginHomeDir}/jars/richclient/" includes="ojdbc14.jar,log4j.jar,mailapi.jar,smtp.jar" /> 
       <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="commons-logging-1.2.jar" /> 
     
     </copy>
@@ -63,9 +63,9 @@
     	<attribute name="Bundle-Version" value="${jobVersion}"/>
     	<attribute name="Bundle-SymbolicName" value="${jobSymbolicName}" />
     	<attribute name="Bundle-Activator" value="${jobBundleActivator}" />
-    	<attribute name="Bundle-ClassPath" value=".,lib/commons-logging-1.2.jar,lib/ojdbc14.jar"/>
+    	<attribute name="Bundle-ClassPath" value=".,lib/commons-logging-1.2.jar,lib/ojdbc14.jar,lib/log4j.jar,lib/mailapi.jar,lib/smtp.jar"/>
 		<attribute name="Import-Package" value="javax.sql,javax.naming,org.osgi.framework" />
-		<attribute name="Export-Package" value="${exportPackageName},oracle.jdbc,oracle.jdbc.pool" />
+		<attribute name="Export-Package" value="${exportPackageName},oracle.jdbc,oracle.jdbc.pool,javax.mail,com.sun.mail.smtp,org.apache.log4j" />
 		
       </manifest>
     </jar>
