@@ -836,31 +836,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7IKAcf6MBQW" role="3bR37C">
-          <node concept="1BurEX" id="7IKAcf6MBQX" role="1SiIV1">
-            <node concept="398BVA" id="7IKAcf6MBQP" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="7IKAcf6MBQQ" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="7IKAcf6MBQR" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="7IKAcf6MBQS" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="7IKAcf6MBQT" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="7IKAcf6MBQU" role="2Ry0An">
-                        <property role="2Ry0Am" value="richclient" />
-                        <node concept="2Ry0Ak" id="7IKAcf6MBQV" role="2Ry0An">
-                          <property role="2Ry0Am" value="c3p0-0.9.2-pre6.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="7IKAcf6MBR5" role="3bR37C">
           <node concept="1BurEX" id="7IKAcf6MBR6" role="1SiIV1">
             <node concept="398BVA" id="7IKAcf6MBQY" role="1BurEY">
@@ -877,31 +852,6 @@
                         <property role="2Ry0Am" value="richclient" />
                         <node concept="2Ry0Ak" id="7IKAcf6MBR4" role="2Ry0An">
                           <property role="2Ry0Am" value="mailapi.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="7IKAcf6MBRe" role="3bR37C">
-          <node concept="1BurEX" id="7IKAcf6MBRf" role="1SiIV1">
-            <node concept="398BVA" id="7IKAcf6MBR7" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="7IKAcf6MBR8" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="7IKAcf6MBR9" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="7IKAcf6MBRa" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="7IKAcf6MBRb" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="7IKAcf6MBRc" role="2Ry0An">
-                        <property role="2Ry0Am" value="richclient" />
-                        <node concept="2Ry0Ak" id="7IKAcf6MBRd" role="2Ry0An">
-                          <property role="2Ry0Am" value="mchange-commons-java-0.2.3.1.jar" />
                         </node>
                       </node>
                     </node>
@@ -1149,6 +1099,56 @@
                         <property role="2Ry0Am" value="osgi" />
                         <node concept="2Ry0Ak" id="1Wqysfo2iH1" role="2Ry0An">
                           <property role="2Ry0Am" value="org.osgi.core-6.0.0.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="plABn3dbmG" role="3bR37C">
+          <node concept="1BurEX" id="plABn3dbmH" role="1SiIV1">
+            <node concept="398BVA" id="plABn3dbm_" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="plABn3dbmA" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="plABn3dbmB" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="plABn3dbmC" role="2Ry0An">
+                    <property role="2Ry0Am" value="objectflow" />
+                    <node concept="2Ry0Ak" id="plABn3dbmD" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="plABn3dbmE" role="2Ry0An">
+                        <property role="2Ry0Am" value="richclient" />
+                        <node concept="2Ry0Ak" id="plABn3dbmF" role="2Ry0An">
+                          <property role="2Ry0Am" value="c3p0-0.9.5.2.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="plABn3dbmP" role="3bR37C">
+          <node concept="1BurEX" id="plABn3dbmQ" role="1SiIV1">
+            <node concept="398BVA" id="plABn3dbmI" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="plABn3dbmJ" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="plABn3dbmK" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="plABn3dbmL" role="2Ry0An">
+                    <property role="2Ry0Am" value="objectflow" />
+                    <node concept="2Ry0Ak" id="plABn3dbmM" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="plABn3dbmN" role="2Ry0An">
+                        <property role="2Ry0Am" value="richclient" />
+                        <node concept="2Ry0Ak" id="plABn3dbmO" role="2Ry0An">
+                          <property role="2Ry0Am" value="mchange-commons-java-0.2.11.jar" />
                         </node>
                       </node>
                     </node>

@@ -26,7 +26,7 @@
 
   <!-- **** app specific definitions **************************************************************** -->
   <property name="jobName"              value="OjdbcLoader" />
-  <property name="jobVersion"           value="1.0.2" />
+  <property name="jobVersion"           value="1.0.5" />
   <property name="jobSymbolicName"      value="org.modellwerkstatt.objectflow.tools.OJDBC6LoaderBundle" /> 
   <property name="jobBundleActivator"   value="org.modellwerkstatt.objectflow.tools.OJDBC6LoaderBundle" /> 
   <property name="exportPackageName"    value="org.modellwerkstatt.objectflow.tools" /> 
@@ -64,8 +64,8 @@
     	<attribute name="Bundle-SymbolicName" value="${jobSymbolicName}" />
     	<attribute name="Bundle-Activator" value="${jobBundleActivator}" />
     	<attribute name="Bundle-ClassPath" value=".,lib/commons-logging-1.2.jar,lib/ojdbc14.jar,lib/log4j.jar,lib/mailapi.jar,lib/smtp.jar"/>
-		<attribute name="Import-Package" value="javax.sql,javax.naming,org.osgi.framework" />
-		<attribute name="Export-Package" value="${exportPackageName},oracle.jdbc,oracle.jdbc.pool,javax.mail,com.sun.mail.smtp,org.apache.log4j" />
+		<attribute name="Import-Package" value="javax.sql,javax.transaction.xa,javax.naming,org.osgi.framework" />
+		<attribute name="Export-Package" value="${exportPackageName},oracle.jdbc,oracle.jdbc.pool,oracle.jdbc.driver,javax.mail,com.sun.mail.smtp,org.apache.log4j" />
 		
       </manifest>
     </jar>
@@ -81,6 +81,14 @@
   		<fileset dir="dist" />
   	</copy>
   </target>
+  
+  <target name="undeploy">
+    <delete>
+      <fileset dir="${felixDir}/jobs">
+        <include name="${jobName}-*.jar"/>
+      </fileset>
+    </delete>
+  </target>    
     
 </project>
 
