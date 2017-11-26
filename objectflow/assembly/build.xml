@@ -26,7 +26,7 @@
 
   <!-- **** app specific definitions **************************************************************** -->
   <property name="jobName"              value="OsgiBatchJob" />
-  <property name="jobVersion"           value="1.0.7" />
+  <property name="jobVersion"           value="1.0.8" />
   <property name="jobSymbolicName"      value="Simple.baseApp.Test_Batch" /> 
   <property name="jobBundleActivator"   value="Simple.baseApp.Test_Batch" /> 
   <property name="jobConfig"            value="Simple/baseApp/NewBatchJobTestConfig.xml" /> 
@@ -76,8 +76,6 @@
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
 	  
       <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" /> 
-      <fileset dir="${mowarePluginHomeDir}/jars/richclient/" includes="c3p0-0.9.5.2.jar, mchange-commons-java-0.2.11.jar" /> 
-      <fileset dir="${mowarePluginHomeDir}/jars/" includes="slf4j-log4j12-1.6.1.jar" /> 
       
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-collections.jar" />
@@ -98,8 +96,8 @@
     	<attribute name="Bundle-Version" value="${jobVersion}"/>
     	<attribute name="Bundle-SymbolicName" value="${jobSymbolicName}" />
     	<attribute name="Bundle-Activator" value="${jobBundleActivator}" />
-    	<attribute name="Bundle-ClassPath" value=".,lib/org.springframework.asm-3.0.5.RELEASE.jar,lib/org.springframework.beans-3.0.5.RELEASE.jar,lib/org.springframework.context-3.0.5.RELEASE.jar,lib/org.springframework.core-3.0.5.RELEASE.jar,lib/org.springframework.expression-3.0.5.RELEASE.jar,lib/org.springframework.jdbc-3.0.5.RELEASE.jar,lib/org.springframework.transaction-3.0.5.RELEASE.jar,lib/org.springframework.aop-3.0.5.RELEASE.jar,lib/joda-time-2.1.jar,lib/commons-logging-1.2.jar,lib/slf4j-api-1.6.1.jar,lib/kafka-clients-0.10.2.0.jar,lib/mps-closures.jar,lib/mps-collections.jar,lib/org.modellwerkstatt.manmap.solution.jar,lib/org.modellwerkstatt.sandbox.jar,lib/c3p0-0.9.5.2.jar,lib/mchange-commons-java-0.2.11.jar,lib/slf4j-log4j12-1.6.1.jar"/>
-		<attribute name="Import-Package" value="org.apache.log4j,javax.naming,javax.sql,javax.transaction.xa,oracle.jdbc,oracle.jdbc.pool,oracle.jdbc.driver,org.modellwerkstatt.objectflow.tools,org.osgi.framework,org.osgi.service.prefs,javax.management,org.xml.sax,javax.xml.parsers,org.w3c.dom" />
+    	<attribute name="Bundle-ClassPath" value=".,lib/org.springframework.asm-3.0.5.RELEASE.jar,lib/org.springframework.beans-3.0.5.RELEASE.jar,lib/org.springframework.context-3.0.5.RELEASE.jar,lib/org.springframework.core-3.0.5.RELEASE.jar,lib/org.springframework.expression-3.0.5.RELEASE.jar,lib/org.springframework.jdbc-3.0.5.RELEASE.jar,lib/org.springframework.transaction-3.0.5.RELEASE.jar,lib/org.springframework.aop-3.0.5.RELEASE.jar,lib/joda-time-2.1.jar,lib/commons-logging-1.2.jar,lib/slf4j-api-1.6.1.jar,lib/kafka-clients-0.10.2.0.jar,lib/mps-closures.jar,lib/mps-collections.jar,lib/org.modellwerkstatt.manmap.solution.jar,lib/org.modellwerkstatt.sandbox.jar"/>
+		<attribute name="Import-Package" value="org.apache.log4j,javax.naming,javax.sql,javax.transaction.xa,oracle.jdbc,oracle.jdbc.pool,oracle.jdbc.driver,org.modellwerkstatt.objectflow.tools,org.osgi.framework,org.osgi.service.prefs,javax.management,org.xml.sax,javax.xml.parsers,org.w3c.dom,com.mchange.v2.c3p0" />
 		<attribute name="Job-Configuration-File" value="${jobConfig}"/>
 		
       </manifest>
