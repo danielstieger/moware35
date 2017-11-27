@@ -40261,8 +40261,8 @@
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
       <node concept="3clFbS" id="4jlzLDkJ$vw" role="3clF47">
-        <node concept="SfApY" id="5BROMrVNIBY" role="3cqZAp">
-          <node concept="3clFbS" id="5BROMrVNIC0" role="SfCbr">
+        <node concept="SfApY" id="2QN3OcyoAJz" role="3cqZAp">
+          <node concept="3clFbS" id="2QN3OcyoAJ_" role="SfCbr">
             <node concept="3cpWs8" id="3tgwmmDj2WI" role="3cqZAp">
               <node concept="3cpWsn" id="3tgwmmDj2WL" role="3cpWs9">
                 <property role="TrG5h" value="fqName" />
@@ -40316,8 +40316,8 @@
                       <ref role="3cqZAo" node="66durT_4$TA" resolve="exLogger" />
                     </node>
                     <node concept="2YIFZM" id="3tgwmmDj7QP" role="37vLTx">
-                      <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
                       <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
+                      <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
                       <node concept="37vLTw" id="3tgwmmDj7QQ" role="37wK5m">
                         <ref role="3cqZAo" node="3tgwmmDj2WL" resolve="fqName" />
                       </node>
@@ -40353,8 +40353,8 @@
                         <ref role="3cqZAo" node="66durT_4$TA" resolve="exLogger" />
                       </node>
                       <node concept="2YIFZM" id="66durT_4_QQ" role="37vLTx">
-                        <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
                         <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                        <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.String):org.apache.commons.logging.Log" resolve="getLog" />
                         <node concept="37vLTw" id="3tgwmmDj6dx" role="37wK5m">
                           <ref role="3cqZAo" node="3tgwmmDj2WL" resolve="fqName" />
                         </node>
@@ -40526,8 +40526,8 @@
                 <node concept="3clFbF" id="3tgwmmDkjKe" role="3cqZAp">
                   <node concept="2OqwBi" id="3tgwmmDkjZ4" role="3clFbG">
                     <node concept="2YIFZM" id="3tgwmmDkjYs" role="2Oq$k0">
-                      <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
                       <ref role="37wK5l" to="wyt6:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+                      <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
                     </node>
                     <node concept="liA8E" id="3tgwmmDkk2M" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~Thread.setContextClassLoader(java.lang.ClassLoader):void" resolve="setContextClassLoader" />
@@ -40757,8 +40757,8 @@
             <node concept="3clFbF" id="5BROMrW1_33" role="3cqZAp">
               <node concept="37vLTI" id="5BROMrW1_ZE" role="3clFbG">
                 <node concept="Rm8GO" id="5BROMrW1Alk" role="37vLTx">
-                  <ref role="Rm8GQ" to="z3ji:1tVklsmzhSn" resolve="OSGI_MODE" />
                   <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXProducerController.MODE" />
+                  <ref role="Rm8GQ" to="z3ji:1tVklsmzhSn" resolve="OSGI_MODE" />
                 </node>
                 <node concept="2OqwBi" id="5BROMrW1_F6" role="37vLTJ">
                   <node concept="37vLTw" id="5BROMrW1_31" role="2Oq$k0">
@@ -41018,42 +41018,37 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="5BROMrVNIBZ" role="3cqZAp" />
+            <node concept="3clFbH" id="2QN3OcyoAJ$" role="3cqZAp" />
           </node>
-          <node concept="TDmWw" id="5BROMrVNIC1" role="TEbGg">
-            <node concept="3cpWsn" id="5BROMrVNIC3" role="TDEfY">
-              <property role="TrG5h" value="t" />
-              <node concept="3uibUv" id="5BROMrVNKgz" role="1tU5fm">
+          <node concept="TDmWw" id="2QN3OcyoAJA" role="TEbGg">
+            <node concept="3cpWsn" id="2QN3OcyoAJC" role="TDEfY">
+              <property role="TrG5h" value="e" />
+              <node concept="3uibUv" id="2QN3OcyoEll" role="1tU5fm">
                 <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
               </node>
             </node>
-            <node concept="3clFbS" id="5BROMrVNIC7" role="TDEfX">
-              <node concept="3clFbF" id="66durT_4Amg" role="3cqZAp">
-                <node concept="2OqwBi" id="66durT_4AnE" role="3clFbG">
-                  <node concept="37vLTw" id="66durT_4Ame" role="2Oq$k0">
+            <node concept="3clFbS" id="2QN3OcyoAJG" role="TDEfX">
+              <node concept="3clFbF" id="2QN3OcyoE3J" role="3cqZAp">
+                <node concept="2OqwBi" id="2QN3OcyoE3K" role="3clFbG">
+                  <node concept="37vLTw" id="2QN3OcyoE3L" role="2Oq$k0">
                     <ref role="3cqZAo" node="66durT_4$TA" resolve="exLogger" />
                   </node>
-                  <node concept="liA8E" id="66durT_4Avq" role="2OqNvi">
+                  <node concept="liA8E" id="2QN3OcyoE3M" role="2OqNvi">
                     <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object,java.lang.Throwable):void" resolve="error" />
-                    <node concept="Xl_RD" id="66durT_4AA8" role="37wK5m">
-                      <property role="Xl_RC" value="Problems while initalizing batch job bundle." />
+                    <node concept="Xl_RD" id="2QN3OcyoE3N" role="37wK5m">
+                      <property role="Xl_RC" value="Problems while starting job" />
                     </node>
-                    <node concept="37vLTw" id="66durT_4Bq4" role="37wK5m">
-                      <ref role="3cqZAo" node="5BROMrVNIC3" resolve="t" />
+                    <node concept="37vLTw" id="2QN3OcyoED5" role="37wK5m">
+                      <ref role="3cqZAo" node="2QN3OcyoAJC" resolve="e" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="YS8fn" id="7HSdIeXUUpX" role="3cqZAp">
-                <node concept="37vLTw" id="7HSdIeXUUy_" role="YScLw">
-                  <ref role="3cqZAo" node="5BROMrVNIC3" resolve="t" />
-                </node>
-              </node>
+              <node concept="3clFbH" id="2QN3Ocypgq8" role="3cqZAp" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5BROMrVMPBT" role="3cqZAp" />
-        <node concept="3clFbH" id="5BROMrVMPBX" role="3cqZAp" />
+        <node concept="3clFbH" id="2QN3OcyoGrY" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="5BROMrVMMkY" role="jymVt" />

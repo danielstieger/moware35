@@ -26,7 +26,7 @@
 
   <!-- **** app specific definitions **************************************************************** -->
   <property name="jobName"              value="OjdbcLoader" />
-  <property name="jobVersion"           value="1.0.8" />
+  <property name="jobVersion"           value="1.0.13" />
   <property name="jobSymbolicName"      value="org.modellwerkstatt.objectflow.tools.OJDBC6LoaderBundle" /> 
   <property name="jobBundleActivator"   value="org.modellwerkstatt.objectflow.tools.OJDBC6LoaderBundle" /> 
   <property name="exportPackageName"    value="org.modellwerkstatt.objectflow.tools" /> 
@@ -54,6 +54,8 @@
     <copy todir="work">
       <fileset dir="${solultionSimpleGen}/"> 
       		<include name="**/OJDBC6LoaderBundle.class"/>
+			<include name="**/MoWareOsgiLogListener.class"/>
+      		<include name="**/MoWareOsgiLogServiceTracker.class"/>
       </fileset>
     </copy>
       
@@ -66,7 +68,7 @@
     	<attribute name="Bundle-SymbolicName" value="${jobSymbolicName}" />
     	<attribute name="Bundle-Activator" value="${jobBundleActivator}" />
     	<attribute name="Bundle-ClassPath" value=".,lib/commons-logging-1.2.jar,lib/ojdbc14.jar,lib/log4j.jar,lib/mailapi.jar,lib/smtp.jar,lib/c3p0-0.9.5.2.jar,lib/mchange-commons-java-0.2.11.jar,lib/slf4j-log4j12-1.6.1.jar"/>
-		<attribute name="Import-Package" value="javax.sql,javax.transaction.xa,javax.naming,org.osgi.framework,javax.management" />
+		<attribute name="Import-Package" value="javax.sql,javax.transaction.xa,javax.naming,org.osgi.framework,javax.management,org.w3c.dom,org.osgi.util.tracker,org.osgi.service.log" />
 		<attribute name="Export-Package" value="${exportPackageName},oracle.jdbc,oracle.jdbc.pool,oracle.jdbc.driver,javax.mail,com.sun.mail.smtp,org.apache.log4j,com.mchange.v2.c3p0" />
 		
       </manifest>
