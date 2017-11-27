@@ -10,8 +10,6 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
     <import index="q7mo" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.osgi.framework(org.modellwerkstatt.sandbox/)" />
-    <import index="gca5" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.osgi.service.log(org.modellwerkstatt.sandbox/)" />
-    <import index="efvu" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.osgi.util.tracker(org.modellwerkstatt.sandbox/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
@@ -32,9 +30,6 @@
         <child id="1153952416686" name="body" index="2GV8ay" />
         <child id="1153952429843" name="finallyBody" index="2GVbov" />
         <child id="1164903700860" name="catchClause" index="TEXxN" />
-      </concept>
-      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
-        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
       <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
         <property id="1224848525476" name="isDeprecated" index="IEkAT" />
@@ -62,12 +57,7 @@
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
-      </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
-      <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
         <child id="1095933932569" name="implementedInterface" index="EKbjA" />
         <child id="1165602531693" name="superclass" index="1zkMxy" />
@@ -107,9 +97,6 @@
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
-      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
-        <child id="1068581517676" name="expression" index="3cqZAk" />
-      </concept>
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -120,16 +107,13 @@
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
-        <child id="1212687122400" name="typeParameter" index="1pMfVU" />
-      </concept>
+      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
       <concept id="7812454656619025412" name="jetbrains.mps.baseLanguage.structure.LocalMethodCall" flags="nn" index="1rXfSq" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
-        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -535,20 +519,6 @@
         <property role="3clFbU" value="false" />
       </node>
     </node>
-    <node concept="312cEg" id="2QN3OcykkF2" role="jymVt">
-      <property role="TrG5h" value="tracker" />
-      <node concept="3Tm6S6" id="2QN3OcykkF3" role="1B3o_S" />
-      <node concept="3uibUv" id="2QN3OcykkME" role="1tU5fm">
-        <ref role="3uigEE" to="efvu:~ServiceTracker" resolve="ServiceTracker" />
-        <node concept="3uibUv" id="2QN3OcykkPj" role="11_B2D">
-          <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-        </node>
-        <node concept="3uibUv" id="2QN3OcykkSh" role="11_B2D">
-          <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-        </node>
-      </node>
-      <node concept="10Nm6u" id="2QN3OcykkUy" role="33vP2m" />
-    </node>
     <node concept="2tJIrI" id="45rjtHWG1RN" role="jymVt" />
     <node concept="2tJIrI" id="45rjtHWG1RO" role="jymVt" />
     <node concept="3clFb_" id="45rjtHWG3fR" role="jymVt">
@@ -569,47 +539,6 @@
       </node>
       <node concept="3clFbS" id="45rjtHWG3fY" role="3clF47">
         <node concept="3clFbH" id="2QN3OcyjZLe" role="3cqZAp" />
-        <node concept="3clFbF" id="2QN3OcyklaK" role="3cqZAp">
-          <node concept="37vLTI" id="2QN3Ocykljy" role="3clFbG">
-            <node concept="2ShNRf" id="2QN3OcyklrT" role="37vLTx">
-              <node concept="1pGfFk" id="2QN3Ocyklp5" role="2ShVmc">
-                <ref role="37wK5l" to="efvu:~ServiceTracker.&lt;init&gt;(org.osgi.framework.BundleContext,java.lang.Class,org.osgi.util.tracker.ServiceTrackerCustomizer)" resolve="ServiceTracker" />
-                <node concept="37vLTw" id="2QN3Ocyklym" role="37wK5m">
-                  <ref role="3cqZAo" node="45rjtHWG3fV" resolve="context" />
-                </node>
-                <node concept="3VsKOn" id="2QN3OcyklCL" role="37wK5m">
-                  <ref role="3VsUkX" to="gca5:~LogReaderService" resolve="LogReaderService" />
-                </node>
-                <node concept="2ShNRf" id="2QN3OcyklOC" role="37wK5m">
-                  <node concept="HV5vD" id="2QN3Ocykm0x" role="2ShVmc">
-                    <ref role="HV5vE" node="2QN3OcykhPA" resolve="MoWareOsgiLogServiceTracker" />
-                  </node>
-                </node>
-                <node concept="3uibUv" id="2QN3Ocyklp6" role="1pMfVU">
-                  <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-                </node>
-                <node concept="3uibUv" id="2QN3Ocyklp7" role="1pMfVU">
-                  <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="2QN3OcyklaI" role="37vLTJ">
-              <ref role="3cqZAo" node="2QN3OcykkF2" resolve="tracker" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2QN3Ocykmm9" role="3cqZAp">
-          <node concept="2OqwBi" id="2QN3Ocykmvc" role="3clFbG">
-            <node concept="37vLTw" id="2QN3Ocykmm7" role="2Oq$k0">
-              <ref role="3cqZAo" node="2QN3OcykkF2" resolve="tracker" />
-            </node>
-            <node concept="liA8E" id="2QN3OcykmA_" role="2OqNvi">
-              <ref role="37wK5l" to="efvu:~ServiceTracker.open():void" resolve="open" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="2QN3Ocykl2M" role="3cqZAp" />
-        <node concept="3clFbH" id="2QN3Ocykl40" role="3cqZAp" />
         <node concept="3SKdUt" id="45rjtHWG1Sn" role="3cqZAp">
           <node concept="3SKdUq" id="45rjtHWG1So" role="3SKWNk">
             <property role="3SKdUp" value="Dan 7. Oct 2014" />
@@ -815,18 +744,7 @@
       <node concept="3uibUv" id="45rjtHWG3g5" role="Sfmx6">
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
-      <node concept="3clFbS" id="45rjtHWG3g6" role="3clF47">
-        <node concept="3clFbF" id="2QN3OcykmD4" role="3cqZAp">
-          <node concept="2OqwBi" id="2QN3OcykmED" role="3clFbG">
-            <node concept="37vLTw" id="2QN3OcykmD3" role="2Oq$k0">
-              <ref role="3cqZAo" node="2QN3OcykkF2" resolve="tracker" />
-            </node>
-            <node concept="liA8E" id="2QN3OcykmI4" role="2OqNvi">
-              <ref role="37wK5l" to="efvu:~ServiceTracker.close():void" resolve="close" />
-            </node>
-          </node>
-        </node>
-      </node>
+      <node concept="3clFbS" id="45rjtHWG3g6" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="45rjtHWG1Tw" role="jymVt" />
     <node concept="2YIFZL" id="45rjtHWG1Ty" role="jymVt">
@@ -895,268 +813,6 @@
     <node concept="3Tm1VV" id="45rjtHWG1TV" role="1B3o_S" />
     <node concept="3uibUv" id="45rjtHWG2X7" role="EKbjA">
       <ref role="3uigEE" to="q7mo:~BundleActivator" resolve="BundleActivator" />
-    </node>
-  </node>
-  <node concept="312cEu" id="2QN3OcykgWx">
-    <property role="TrG5h" value="MoWareOsgiLogListener" />
-    <node concept="2tJIrI" id="2QN3Ocykhbo" role="jymVt" />
-    <node concept="2tJIrI" id="2QN3Ocykhbq" role="jymVt" />
-    <node concept="3clFb_" id="2QN3Ocykhb_" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="logged" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3Tm1VV" id="2QN3OcykhbA" role="1B3o_S" />
-      <node concept="3cqZAl" id="2QN3OcykhbC" role="3clF45" />
-      <node concept="37vLTG" id="2QN3OcykhbD" role="3clF46">
-        <property role="TrG5h" value="entry" />
-        <node concept="3uibUv" id="2QN3OcykhbE" role="1tU5fm">
-          <ref role="3uigEE" to="gca5:~LogEntry" resolve="LogEntry" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="2QN3OcykhbF" role="3clF47">
-        <node concept="3clFbF" id="2QN3Ocykhdr" role="3cqZAp">
-          <node concept="2OqwBi" id="2QN3Ocykhdo" role="3clFbG">
-            <node concept="10M0yZ" id="2QN3Ocykhdp" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="2QN3Ocykhdq" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="2QN3OcykhBM" role="37wK5m">
-                <node concept="2OqwBi" id="2QN3OcykhKn" role="3uHU7w">
-                  <node concept="37vLTw" id="2QN3OcykhI1" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2QN3OcykhbD" resolve="entry" />
-                  </node>
-                  <node concept="liA8E" id="2QN3OcykhNA" role="2OqNvi">
-                    <ref role="37wK5l" to="gca5:~LogEntry.getException():java.lang.Throwable" resolve="getException" />
-                  </node>
-                </node>
-                <node concept="3cpWs3" id="2QN3OcykhuW" role="3uHU7B">
-                  <node concept="3cpWs3" id="2QN3OcykhnK" role="3uHU7B">
-                    <node concept="3cpWs3" id="2QN3OcykvFj" role="3uHU7B">
-                      <node concept="Xl_RD" id="2QN3OcykvH_" role="3uHU7w">
-                        <property role="Xl_RC" value=" : " />
-                      </node>
-                      <node concept="3cpWs3" id="2QN3OcykvmV" role="3uHU7B">
-                        <node concept="Xl_RD" id="2QN3Ocykhe4" role="3uHU7B">
-                          <property role="Xl_RC" value="MoWareOsgiLogListener " />
-                        </node>
-                        <node concept="2OqwBi" id="2QN3OcykvqG" role="3uHU7w">
-                          <node concept="37vLTw" id="2QN3OcykvoA" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2QN3OcykhbD" resolve="entry" />
-                          </node>
-                          <node concept="liA8E" id="2QN3OcykvsT" role="2OqNvi">
-                            <ref role="37wK5l" to="gca5:~LogEntry.getLevel():int" resolve="getLevel" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="2OqwBi" id="2QN3OcykhqW" role="3uHU7w">
-                      <node concept="37vLTw" id="2QN3Ocykhpv" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2QN3OcykhbD" resolve="entry" />
-                      </node>
-                      <node concept="liA8E" id="2QN3OcykhsX" role="2OqNvi">
-                        <ref role="37wK5l" to="gca5:~LogEntry.getMessage():java.lang.String" resolve="getMessage" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="2QN3OcykhzM" role="3uHU7w">
-                    <property role="Xl_RC" value=" " />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="2QN3Ocyku8r" role="jymVt" />
-    <node concept="3Tm1VV" id="2QN3OcykgWy" role="1B3o_S" />
-    <node concept="3uibUv" id="2QN3Ocykhb7" role="EKbjA">
-      <ref role="3uigEE" to="gca5:~LogListener" resolve="LogListener" />
-    </node>
-  </node>
-  <node concept="312cEu" id="2QN3OcykhPA">
-    <property role="TrG5h" value="MoWareOsgiLogServiceTracker" />
-    <node concept="2tJIrI" id="2QN3Ocykic0" role="jymVt" />
-    <node concept="312cEg" id="2QN3Ocykiks" role="jymVt">
-      <property role="TrG5h" value="logListener" />
-      <node concept="3Tm6S6" id="2QN3Ocykikt" role="1B3o_S" />
-      <node concept="3uibUv" id="2QN3OcykinE" role="1tU5fm">
-        <ref role="3uigEE" node="2QN3OcykgWx" resolve="MoWareOsgiLogListener" />
-      </node>
-      <node concept="2ShNRf" id="2QN3Ocykisd" role="33vP2m">
-        <node concept="HV5vD" id="2QN3OcykiBw" role="2ShVmc">
-          <ref role="HV5vE" node="2QN3OcykgWx" resolve="MoWareOsgiLogListener" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="2QN3Ocykic5" role="jymVt" />
-    <node concept="2tJIrI" id="2QN3OcykhS8" role="jymVt" />
-    <node concept="2tJIrI" id="2QN3OcykhSa" role="jymVt" />
-    <node concept="2tJIrI" id="2QN3OcykhSd" role="jymVt" />
-    <node concept="3Tm1VV" id="2QN3OcykhPB" role="1B3o_S" />
-    <node concept="3uibUv" id="2QN3Ocyki2E" role="EKbjA">
-      <ref role="3uigEE" to="efvu:~ServiceTrackerCustomizer" resolve="ServiceTrackerCustomizer" />
-      <node concept="3uibUv" id="2QN3OcykiFK" role="11_B2D">
-        <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-      </node>
-      <node concept="3uibUv" id="2QN3OcykiGb" role="11_B2D">
-        <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-      </node>
-    </node>
-    <node concept="3clFb_" id="2QN3OcykiGy" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="addingService" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3Tm1VV" id="2QN3OcykiGz" role="1B3o_S" />
-      <node concept="3uibUv" id="2QN3OcykiGD" role="3clF45">
-        <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-      </node>
-      <node concept="37vLTG" id="2QN3OcykiGA" role="3clF46">
-        <property role="TrG5h" value="reference" />
-        <node concept="3uibUv" id="2QN3OcykiGB" role="1tU5fm">
-          <ref role="3uigEE" to="q7mo:~ServiceReference" resolve="ServiceReference" />
-          <node concept="3uibUv" id="2QN3OcykiGE" role="11_B2D">
-            <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbS" id="2QN3OcykiGF" role="3clF47">
-        <node concept="3cpWs8" id="2QN3OcykiNb" role="3cqZAp">
-          <node concept="3cpWsn" id="2QN3OcykiNc" role="3cpWs9">
-            <property role="TrG5h" value="bundle" />
-            <node concept="3uibUv" id="2QN3OcykiNd" role="1tU5fm">
-              <ref role="3uigEE" to="q7mo:~Bundle" resolve="Bundle" />
-            </node>
-            <node concept="2OqwBi" id="2QN3OcykiTf" role="33vP2m">
-              <node concept="37vLTw" id="2QN3OcykiPs" role="2Oq$k0">
-                <ref role="3cqZAo" node="2QN3OcykiGA" resolve="reference" />
-              </node>
-              <node concept="liA8E" id="2QN3OcykiY9" role="2OqNvi">
-                <ref role="37wK5l" to="q7mo:~ServiceReference.getBundle():org.osgi.framework.Bundle" resolve="getBundle" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="2QN3Ocykj28" role="3cqZAp">
-          <node concept="3cpWsn" id="2QN3Ocykj29" role="3cpWs9">
-            <property role="TrG5h" value="bundleContext" />
-            <node concept="3uibUv" id="2QN3Ocykj2a" role="1tU5fm">
-              <ref role="3uigEE" to="q7mo:~BundleContext" resolve="BundleContext" />
-            </node>
-            <node concept="2OqwBi" id="2QN3Ocykj5t" role="33vP2m">
-              <node concept="37vLTw" id="2QN3Ocykjbx" role="2Oq$k0">
-                <ref role="3cqZAo" node="2QN3OcykiNc" resolve="bundle" />
-              </node>
-              <node concept="liA8E" id="2QN3OcykjeR" role="2OqNvi">
-                <ref role="37wK5l" to="q7mo:~Bundle.getBundleContext():org.osgi.framework.BundleContext" resolve="getBundleContext" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs8" id="2QN3OcykjjL" role="3cqZAp">
-          <node concept="3cpWsn" id="2QN3OcykjjM" role="3cpWs9">
-            <property role="TrG5h" value="service" />
-            <node concept="3uibUv" id="2QN3OcykjjN" role="1tU5fm">
-              <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-            </node>
-            <node concept="2OqwBi" id="2QN3OcykjrX" role="33vP2m">
-              <node concept="37vLTw" id="2QN3OcykjqP" role="2Oq$k0">
-                <ref role="3cqZAo" node="2QN3Ocykj29" resolve="bundleContext" />
-              </node>
-              <node concept="liA8E" id="2QN3Ocykjtc" role="2OqNvi">
-                <ref role="37wK5l" to="q7mo:~BundleContext.getService(org.osgi.framework.ServiceReference):java.lang.Object" resolve="getService" />
-                <node concept="37vLTw" id="2QN3OcykjvA" role="37wK5m">
-                  <ref role="3cqZAo" node="2QN3OcykiGA" resolve="reference" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2QN3OcykjB0" role="3cqZAp">
-          <node concept="2OqwBi" id="2QN3OcykjDP" role="3clFbG">
-            <node concept="37vLTw" id="2QN3OcykjAY" role="2Oq$k0">
-              <ref role="3cqZAo" node="2QN3OcykjjM" resolve="service" />
-            </node>
-            <node concept="liA8E" id="2QN3OcykjF0" role="2OqNvi">
-              <ref role="37wK5l" to="gca5:~LogReaderService.addLogListener(org.osgi.service.log.LogListener):void" resolve="addLogListener" />
-              <node concept="37vLTw" id="2QN3OcykjGS" role="37wK5m">
-                <ref role="3cqZAo" node="2QN3Ocykiks" resolve="logListener" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="2QN3OcykjO1" role="3cqZAp">
-          <node concept="37vLTw" id="2QN3OcykjYP" role="3cqZAk">
-            <ref role="3cqZAo" node="2QN3OcykjjM" resolve="service" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="2QN3OcykiGG" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="modifiedService" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3Tm1VV" id="2QN3OcykiGH" role="1B3o_S" />
-      <node concept="3cqZAl" id="2QN3OcykiGJ" role="3clF45" />
-      <node concept="37vLTG" id="2QN3OcykiGK" role="3clF46">
-        <property role="TrG5h" value="reference" />
-        <node concept="3uibUv" id="2QN3OcykiGL" role="1tU5fm">
-          <ref role="3uigEE" to="q7mo:~ServiceReference" resolve="ServiceReference" />
-          <node concept="3uibUv" id="2QN3OcykiGP" role="11_B2D">
-            <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="2QN3OcykiGN" role="3clF46">
-        <property role="TrG5h" value="service" />
-        <node concept="3uibUv" id="2QN3OcykiGQ" role="1tU5fm">
-          <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="2QN3OcykiGR" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="2QN3OcykiGS" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="removedService" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <node concept="3Tm1VV" id="2QN3OcykiGT" role="1B3o_S" />
-      <node concept="3cqZAl" id="2QN3OcykiGV" role="3clF45" />
-      <node concept="37vLTG" id="2QN3OcykiGW" role="3clF46">
-        <property role="TrG5h" value="reference" />
-        <node concept="3uibUv" id="2QN3OcykiGX" role="1tU5fm">
-          <ref role="3uigEE" to="q7mo:~ServiceReference" resolve="ServiceReference" />
-          <node concept="3uibUv" id="2QN3OcykiH1" role="11_B2D">
-            <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="2QN3OcykiGZ" role="3clF46">
-        <property role="TrG5h" value="service" />
-        <node concept="3uibUv" id="2QN3OcykiH2" role="1tU5fm">
-          <ref role="3uigEE" to="gca5:~LogReaderService" resolve="LogReaderService" />
-        </node>
-      </node>
-      <node concept="3clFbS" id="2QN3OcykiH3" role="3clF47">
-        <node concept="3clFbF" id="2QN3Ocykk7O" role="3cqZAp">
-          <node concept="2OqwBi" id="2QN3Ocykk8H" role="3clFbG">
-            <node concept="37vLTw" id="2QN3Ocykk7N" role="2Oq$k0">
-              <ref role="3cqZAo" node="2QN3OcykiGZ" resolve="service" />
-            </node>
-            <node concept="liA8E" id="2QN3OcykkbI" role="2OqNvi">
-              <ref role="37wK5l" to="gca5:~LogReaderService.removeLogListener(org.osgi.service.log.LogListener):void" resolve="removeLogListener" />
-              <node concept="37vLTw" id="2QN3OcykkdA" role="37wK5m">
-                <ref role="3cqZAo" node="2QN3Ocykiks" resolve="logListener" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
 </model>
