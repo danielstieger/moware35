@@ -50,12 +50,16 @@
         <child id="1164903359217" name="throwable" index="TDEfY" />
       </concept>
       <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
+      <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
@@ -538,6 +542,18 @@
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
       <node concept="3clFbS" id="45rjtHWG3fY" role="3clF47">
+        <node concept="3clFbF" id="2QN3OcyjZxx" role="3cqZAp">
+          <node concept="2OqwBi" id="2QN3OcyjZBi" role="3clFbG">
+            <node concept="37vLTw" id="2QN3OcyjZxv" role="2Oq$k0">
+              <ref role="3cqZAo" node="45rjtHWG3fV" resolve="context" />
+            </node>
+            <node concept="liA8E" id="2QN3OcyjZIn" role="2OqNvi">
+              <ref role="37wK5l" to="q7mo:~BundleContext.addBundleListener(org.osgi.framework.BundleListener):void" resolve="addBundleListener" />
+              <node concept="Xjq3P" id="2QN3OcyjZJT" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2QN3OcyjZLe" role="3cqZAp" />
         <node concept="3SKdUt" id="45rjtHWG1Sn" role="3cqZAp">
           <node concept="3SKdUq" id="45rjtHWG1So" role="3SKWNk">
             <property role="3SKdUp" value="Dan 7. Oct 2014" />
@@ -727,6 +743,72 @@
       </node>
     </node>
     <node concept="2tJIrI" id="45rjtHWG3zX" role="jymVt" />
+    <node concept="2tJIrI" id="2QN3OcyjZWY" role="jymVt" />
+    <node concept="3clFb_" id="2QN3Ocyk057" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="bundleChanged" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="2QN3Ocyk058" role="1B3o_S" />
+      <node concept="3cqZAl" id="2QN3Ocyk05a" role="3clF45" />
+      <node concept="37vLTG" id="2QN3Ocyk05b" role="3clF46">
+        <property role="TrG5h" value="event" />
+        <node concept="3uibUv" id="2QN3Ocyk05c" role="1tU5fm">
+          <ref role="3uigEE" to="q7mo:~BundleEvent" resolve="BundleEvent" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2QN3Ocyk05d" role="3clF47">
+        <node concept="3clFbF" id="2QN3Ocyk0eP" role="3cqZAp">
+          <node concept="2OqwBi" id="2QN3Ocyk0eM" role="3clFbG">
+            <node concept="10M0yZ" id="2QN3Ocyk0eN" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="2QN3Ocyk0eO" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="2QN3Ocyk22v" role="37wK5m">
+                <node concept="2OqwBi" id="2QN3Ocyk2mn" role="3uHU7w">
+                  <node concept="2OqwBi" id="2QN3Ocyk2eU" role="2Oq$k0">
+                    <node concept="37vLTw" id="2QN3Ocyk2cE" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2QN3Ocyk05b" resolve="event" />
+                    </node>
+                    <node concept="liA8E" id="2QN3Ocyk2k4" role="2OqNvi">
+                      <ref role="37wK5l" to="q7mo:~BundleEvent.getBundle():org.osgi.framework.Bundle" resolve="getBundle" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2QN3Ocyk2re" role="2OqNvi">
+                    <ref role="37wK5l" to="q7mo:~Bundle.getVersion():org.osgi.framework.Version" resolve="getVersion" />
+                  </node>
+                </node>
+                <node concept="3cpWs3" id="2QN3Ocyk1QT" role="3uHU7B">
+                  <node concept="3cpWs3" id="2QN3Ocyk0lR" role="3uHU7B">
+                    <node concept="Xl_RD" id="2QN3Ocyk0fD" role="3uHU7B">
+                      <property role="Xl_RC" value="BUNDLE EVENT " />
+                    </node>
+                    <node concept="2OqwBi" id="2QN3Ocyk1JH" role="3uHU7w">
+                      <node concept="2OqwBi" id="2QN3Ocyk1CA" role="2Oq$k0">
+                        <node concept="37vLTw" id="2QN3Ocyk0ml" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2QN3Ocyk05b" resolve="event" />
+                        </node>
+                        <node concept="liA8E" id="2QN3Ocyk1HJ" role="2OqNvi">
+                          <ref role="37wK5l" to="q7mo:~BundleEvent.getBundle():org.osgi.framework.Bundle" resolve="getBundle" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2QN3Ocyk1Of" role="2OqNvi">
+                        <ref role="37wK5l" to="q7mo:~Bundle.getSymbolicName():java.lang.String" resolve="getSymbolicName" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="2QN3Ocyk1Yg" role="3uHU7w">
+                    <property role="Xl_RC" value="/" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="45rjtHWG3fZ" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="stop" />
@@ -743,7 +825,19 @@
       <node concept="3uibUv" id="45rjtHWG3g5" role="Sfmx6">
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
-      <node concept="3clFbS" id="45rjtHWG3g6" role="3clF47" />
+      <node concept="3clFbS" id="45rjtHWG3g6" role="3clF47">
+        <node concept="3clFbF" id="2QN3OcyjZSk" role="3cqZAp">
+          <node concept="2OqwBi" id="2QN3OcyjZSl" role="3clFbG">
+            <node concept="37vLTw" id="2QN3OcyjZSm" role="2Oq$k0">
+              <ref role="3cqZAo" node="45rjtHWG3g3" resolve="context" />
+            </node>
+            <node concept="liA8E" id="2QN3OcyjZSn" role="2OqNvi">
+              <ref role="37wK5l" to="q7mo:~BundleContext.removeBundleListener(org.osgi.framework.BundleListener):void" resolve="removeBundleListener" />
+              <node concept="Xjq3P" id="2QN3OcyjZSo" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="45rjtHWG1Tw" role="jymVt" />
     <node concept="2YIFZL" id="45rjtHWG1Ty" role="jymVt">
@@ -812,6 +906,9 @@
     <node concept="3Tm1VV" id="45rjtHWG1TV" role="1B3o_S" />
     <node concept="3uibUv" id="45rjtHWG2X7" role="EKbjA">
       <ref role="3uigEE" to="q7mo:~BundleActivator" resolve="BundleActivator" />
+    </node>
+    <node concept="3uibUv" id="2QN3OcyjYVU" role="EKbjA">
+      <ref role="3uigEE" to="q7mo:~BundleListener" resolve="BundleListener" />
     </node>
   </node>
 </model>
