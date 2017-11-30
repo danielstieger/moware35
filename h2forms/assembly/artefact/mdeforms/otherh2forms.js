@@ -10,7 +10,7 @@
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
 
-var zVersion = 'h2.2';
+var zVersion = 'h2.2 DBG';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
