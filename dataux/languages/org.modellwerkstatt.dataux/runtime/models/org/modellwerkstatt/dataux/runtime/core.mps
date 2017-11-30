@@ -14675,8 +14675,18 @@
                   <node concept="liA8E" id="T$VfFDt7SP" role="2OqNvi">
                     <ref role="37wK5l" node="5ZKHK64XHNS" resolve="logWarning" />
                     <node concept="3cpWs3" id="6n78R1XqF_E" role="37wK5m">
-                      <node concept="Xl_RD" id="T$VfFDt7U1" role="3uHU7B">
-                        <property role="Xl_RC" value="CommandContainer.fg_ensureTerminatedExceptionConclusionAndCloseContainer() Ex while closing.\n" />
+                      <node concept="3cpWs3" id="5mnTfA2T0JH" role="3uHU7B">
+                        <node concept="Xl_RD" id="5mnTfA2T0Kp" role="3uHU7w">
+                          <property role="Xl_RC" value=".\n" />
+                        </node>
+                        <node concept="3cpWs3" id="5mnTfA2T0$q" role="3uHU7B">
+                          <node concept="Xl_RD" id="T$VfFDt7U1" role="3uHU7B">
+                            <property role="Xl_RC" value="CommandContainer.fg_ensureTerminatedExceptionConclusionAndCloseContainer() Ex while closing " />
+                          </node>
+                          <node concept="37vLTw" id="5mnTfA2T0AI" role="3uHU7w">
+                            <ref role="3cqZAo" node="47vlctikKoq" resolve="commandName" />
+                          </node>
+                        </node>
                       </node>
                       <node concept="2YIFZM" id="6n78R1XqFt$" role="3uHU7w">
                         <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
