@@ -26,21 +26,14 @@
   <property name="appMainclass"         value="Simple.baseApp.App_MDE_Order" />
   <property name="appConfiguration"     value="Simple/baseApp/MdeConfig.xml" /> 
   <property name="appHomeScreen"        value="${appName}" />
-  
-   <!-- **** build specific definitions ************************************************************** -->
-  <!-- <property name="javawareHomeDir"       value="/Users/danielstieger/javaware" /> 
-  <property name="mpsHomeDir"            value="/Users/danielstieger/javaexe/MPS335" /> 
-  <property name="mowarePluginHomeDir"   value="/Users/danielstieger/javaexe/MoPluginFake" />
-  <property name="tomcatHomeDir"         value="/Users/danielstieger/stuff/green" /> 
-  <property name="mowareHome"            value="/Users/danielstieger/moware" /> -->
+  <property name="myHome"               value="/Users/danielstieger" />  
     
-  
   <!-- **** build specific definitions ************************************************************** -->
-  <property name="javawareHomeDir"       value="C:/javaware" /> 
-  <property name="mpsHomeDir"            value="C:/javaexe/MPS324" /> 
-  <property name="mowarePluginHomeDir"   value="C:/javaexe/MoPluginFake" />
+  <property name="javawareHomeDir"       value="${myHome}/javaware" /> 
+  <property name="mpsHomeDir"            value="${myHome}/javaexe/MPS324" /> 
+  <property name="mowarePluginHomeDir"   value="${myHome}/javaexe/MoPluginFake" />
   <property name="tomcatHomeDir"         value="/Users/danielstieger/stuff/green" /> 
-  <property name="mowareHome"            value="C:/moware" /> 
+  <property name="mowareHome"            value="${myHome}/moware" /> 
   
       
   <!-- **** solutions to incorporate in this build ************************************************** -->

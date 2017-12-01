@@ -61,6 +61,10 @@
       <concept id="1197029447546" name="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" flags="nn" index="2OwXpG">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
+      <concept id="1083245097125" name="jetbrains.mps.baseLanguage.structure.EnumClass" flags="ig" index="Qs71p">
+        <child id="1083245396908" name="enumConstant" index="Qtgdg" />
+      </concept>
+      <concept id="1083245299891" name="jetbrains.mps.baseLanguage.structure.EnumConstantDeclaration" flags="ig" index="QsSxf" />
       <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
         <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
         <reference id="1144432896254" name="enumClass" index="1Px2BO" />
@@ -4398,7 +4402,55 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="5Y1b9tRdX8$" role="jymVt" />
+    <node concept="3clFb_" id="6TNACHp2TXD" role="jymVt">
+      <property role="TrG5h" value="setAdditionalOption" />
+      <node concept="37vLTG" id="6TNACHp39kr" role="3clF46">
+        <property role="TrG5h" value="opt" />
+        <node concept="3uibUv" id="6TNACHp3amz" role="1tU5fm">
+          <ref role="3uigEE" node="6TNACHp35F$" resolve="Delegate.AdditionalOption" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6TNACHp2TXF" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp2TXG" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp2TXH" role="3clF47">
+        <node concept="3clFbJ" id="6TNACHp3aQh" role="3cqZAp">
+          <node concept="3clFbC" id="6TNACHp3aWa" role="3clFbw">
+            <node concept="Rm8GO" id="6TNACHp3bbb" role="3uHU7w">
+              <ref role="Rm8GQ" node="6TNACHp38Sx" resolve="LAST_READ_ONLY_FOR_UPDATE_CONCLUSION" />
+              <ref role="1Px2BO" node="6TNACHp35F$" resolve="Delegate.AdditionalOption" />
+            </node>
+            <node concept="37vLTw" id="6TNACHp3aSK" role="3uHU7B">
+              <ref role="3cqZAo" node="6TNACHp39kr" resolve="opt" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="6TNACHp3aQj" role="3clFbx">
+            <node concept="3clFbF" id="6TNACHp3bqk" role="3cqZAp">
+              <node concept="2OqwBi" id="6TNACHp3bs$" role="3clFbG">
+                <node concept="37vLTw" id="6TNACHp3bqj" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5Y1b9tQYCpV" resolve="enabled" />
+                </node>
+                <node concept="liA8E" id="6TNACHp3bES" role="2OqNvi">
+                  <ref role="37wK5l" node="5Y1b9tRncwM" resolve="setValueFORCE" />
+                  <node concept="3clFbT" id="6TNACHp3bHb" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6TNACHp3bLX" role="3cqZAp">
+              <node concept="2OqwBi" id="6TNACHp3bOO" role="3clFbG">
+                <node concept="37vLTw" id="6TNACHp3bLV" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5Y1b9tR2t8c" resolve="toolkitEditor" />
+                </node>
+                <node concept="liA8E" id="6TNACHp3ela" role="2OqNvi">
+                  <ref role="37wK5l" to="250q:6TNACHp3cip" resolve="setReadOnlyModeNotDisabled" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="5Y1b9tRd8n0" role="jymVt">
       <property role="TrG5h" value="getDelegateUiImpl" />
       <node concept="3uibUv" id="5Y1b9tRd9jh" role="3clF45">
@@ -4963,6 +5015,18 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="6TNACHp37ho" role="jymVt" />
+    <node concept="2tJIrI" id="6TNACHp37Xz" role="jymVt" />
+    <node concept="Qs71p" id="6TNACHp35F$" role="jymVt">
+      <property role="2bfB8j" value="false" />
+      <property role="TrG5h" value="AdditionalOption" />
+      <node concept="QsSxf" id="6TNACHp38Sx" role="Qtgdg">
+        <property role="TrG5h" value="LAST_READ_ONLY_FOR_UPDATE_CONCLUSION" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="6TNACHp35F_" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="6TNACHp34KD" role="jymVt" />
     <node concept="3Tm1VV" id="5Y1b9tQY3zC" role="1B3o_S" />
     <node concept="16euLQ" id="5Y1b9tQYkEs" role="16eVyc">
       <property role="TrG5h" value="T" />

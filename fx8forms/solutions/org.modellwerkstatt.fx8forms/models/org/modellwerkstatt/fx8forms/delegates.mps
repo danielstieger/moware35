@@ -4109,6 +4109,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6TNACHpiI2B" role="3cqZAp" />
         <node concept="3clFbJ" id="5Y1b9tR0Fn7" role="3cqZAp">
           <node concept="3clFbS" id="5Y1b9tR0Fn8" role="3clFbx">
             <node concept="3clFbF" id="5Y1b9tR0Fn9" role="3cqZAp">
@@ -4201,6 +4202,27 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5Y1b9tR0eyo" role="jymVt" />
+    <node concept="3clFb_" id="6TNACHpiDDe" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHpiDDf" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHpiDDg" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHpiDDi" role="3clF47">
+        <node concept="3clFbF" id="6TNACHpiEvJ" role="3cqZAp">
+          <node concept="2OqwBi" id="6TNACHpiExX" role="3clFbG">
+            <node concept="37vLTw" id="6TNACHpiEvI" role="2Oq$k0">
+              <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="6TNACHpiEOR" role="2OqNvi">
+              <ref role="37wK5l" to="rb41:~TextInputControl.setEditable(boolean):void" resolve="setEditable" />
+              <node concept="3clFbT" id="6TNACHpiEQk" role="37wK5m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="5Y1b9tR0d7J" role="jymVt" />
     <node concept="3clFb_" id="5Y1b9tR2k$A" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -4399,7 +4421,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="39T4LQUBkwL" role="3cqZAp" />
         <node concept="3clFbF" id="7JzO8Sc4B2E" role="3cqZAp">
           <node concept="2OqwBi" id="7JzO8Sc4B2F" role="3clFbG">
             <node concept="2OqwBi" id="7JzO8Sc4B2G" role="2Oq$k0">
@@ -5459,6 +5480,27 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3sEA$PIzUNI" role="jymVt" />
+    <node concept="3clFb_" id="6TNACHp4WSj" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp4WSk" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp4WSl" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp4WSn" role="3clF47">
+        <node concept="3clFbF" id="6TNACHp4XFO" role="3cqZAp">
+          <node concept="2OqwBi" id="6TNACHp4XHL" role="3clFbG">
+            <node concept="37vLTw" id="6TNACHp4XFN" role="2Oq$k0">
+              <ref role="3cqZAo" node="3sEA$PIzUI0" resolve="textArea" />
+            </node>
+            <node concept="liA8E" id="6TNACHp4Y0F" role="2OqNvi">
+              <ref role="37wK5l" to="rb41:~TextInputControl.setEditable(boolean):void" resolve="setEditable" />
+              <node concept="3clFbT" id="6TNACHp4Y1p" role="37wK5m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="3sEA$PIzUNJ" role="jymVt" />
     <node concept="3clFb_" id="4ceCyFmsBQp" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -6432,6 +6474,24 @@
     </node>
     <node concept="2tJIrI" id="1kaU3pLWzZY" role="jymVt" />
     <node concept="2tJIrI" id="1kaU3pLWzZZ" role="jymVt" />
+    <node concept="3clFb_" id="6TNACHp4Zix" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp4Ziy" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp4Ziz" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp4ZiA" role="3clF47">
+        <node concept="YS8fn" id="6TNACHp50dl" role="3cqZAp">
+          <node concept="2ShNRf" id="6TNACHp50dm" role="YScLw">
+            <node concept="1pGfFk" id="6TNACHp50dn" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6TNACHp50do" role="37wK5m">
+                <property role="Xl_RC" value="not implemented." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="1kaU3pLXdD3" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getSelectedIndex" />
@@ -7302,6 +7362,24 @@
                 </node>
               </node>
               <node concept="3clFbH" id="7ecadVRqt7S" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6TNACHp518S" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp518T" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp518U" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp518V" role="3clF47">
+        <node concept="YS8fn" id="6TNACHp518W" role="3cqZAp">
+          <node concept="2ShNRf" id="6TNACHp518X" role="YScLw">
+            <node concept="1pGfFk" id="6TNACHp518Y" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6TNACHp518Z" role="37wK5m">
+                <property role="Xl_RC" value="not implemented." />
+              </node>
             </node>
           </node>
         </node>
@@ -8366,6 +8444,24 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="6TNACHp52$8" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp52$9" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp52$a" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp52$b" role="3clF47">
+        <node concept="YS8fn" id="6TNACHp52$c" role="3cqZAp">
+          <node concept="2ShNRf" id="6TNACHp52$d" role="YScLw">
+            <node concept="1pGfFk" id="6TNACHp52$e" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6TNACHp52$f" role="37wK5m">
+                <property role="Xl_RC" value="not implemented." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="6Ag5kTzHwo7" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getText" />
@@ -9166,6 +9262,24 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1l2SXGvHUKh" role="jymVt" />
+    <node concept="3clFb_" id="6TNACHp546g" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp546h" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp546i" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp546j" role="3clF47">
+        <node concept="YS8fn" id="6TNACHp546k" role="3cqZAp">
+          <node concept="2ShNRf" id="6TNACHp546l" role="YScLw">
+            <node concept="1pGfFk" id="6TNACHp546m" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6TNACHp546n" role="37wK5m">
+                <property role="Xl_RC" value="not implemented." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="1l2SXGvHV1N" role="jymVt" />
     <node concept="3clFb_" id="4ceCyFmsN8T" role="jymVt">
       <property role="1EzhhJ" value="false" />

@@ -25,12 +25,13 @@
   <property name="appName"              value="SimpleApplication" />
   <property name="appMainclass"         value="Simple.baseApp.App_Desktop_Order" />
   <property name="appConfiguration"     value="Simple/baseApp/VaadinConfig.xml" /> 
+  <property name="myHome"               value="/Users/danielstieger/" />
 
   <!-- **** build specific definitions ************************************************************** -->
-  <property name="javawareHomeDir"       value="C:/javaware" /> 
-  <property name="mpsHomeDir"            value="C:/javaexe/MPS335" /> 
-  <property name="mowarePluginHomeDir"   value="C:/javaexe/MoPluginFake" />
-  <property name="tomcatHomeDir"         value="C:/stuff/green" />
+  <property name="javawareHomeDir"       value="${myHome}/javaware" /> 
+  <property name="mpsHomeDir"            value="${myHome}/javaexe/MPS335" /> 
+  <property name="mowarePluginHomeDir"   value="${myHome}/javaexe/MoPluginFake" />
+  <property name="tomcatHomeDir"         value="${myHome}/stuff/green" />
       
 
  
@@ -46,7 +47,7 @@
 
   <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
   <target name="mowarePluginAdoption">
-	<property name="mowareHome"    value="C:/moware" />
+	<property name="mowareHome"    value="${myHome}/moware" />
     <delete includeemptydirs="false">
     	<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions" includes="*.jar"/>
   	</delete>

@@ -564,7 +564,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7QITxIiYWbR" role="3cqZAp" />
+        <node concept="3clFbH" id="6TNACHp2_N5" role="3cqZAp" />
         <node concept="3clFbF" id="xFWXJS7v2_" role="3cqZAp">
           <node concept="37vLTI" id="xFWXJS7vE$" role="3clFbG">
             <node concept="3clFbT" id="xFWXJS7vNC" role="37vLTx" />
@@ -1036,6 +1036,27 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="6TNACHp3xGV" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp3xGW" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp3xGX" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp3xGZ" role="3clF47">
+        <node concept="3clFbF" id="6TNACHp2Etj" role="3cqZAp">
+          <node concept="2OqwBi" id="6TNACHp2E_c" role="3clFbG">
+            <node concept="37vLTw" id="6TNACHp2Eth" role="2Oq$k0">
+              <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="6TNACHp2FxA" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~AbstractField.setReadOnly(boolean):void" resolve="setReadOnly" />
+              <node concept="3clFbT" id="6TNACHp3zf5" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="xFWXJRXBDp" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setText" />
@@ -1046,15 +1067,70 @@
         <node concept="17QB3L" id="xFWXJRXBDu" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="xFWXJRXBDv" role="3clF47">
-        <node concept="3clFbF" id="xFWXJRYJSs" role="3cqZAp">
-          <node concept="2OqwBi" id="xFWXJRYK3A" role="3clFbG">
-            <node concept="37vLTw" id="xFWXJRYJSr" role="2Oq$k0">
+        <node concept="3clFbJ" id="6TNACHp2IEr" role="3cqZAp">
+          <node concept="3clFbS" id="6TNACHp2IEt" role="3clFbx">
+            <node concept="3clFbF" id="6TNACHp2Ki1" role="3cqZAp">
+              <node concept="2OqwBi" id="6TNACHp2KpU" role="3clFbG">
+                <node concept="37vLTw" id="6TNACHp2KhZ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+                </node>
+                <node concept="liA8E" id="6TNACHp2KWz" role="2OqNvi">
+                  <ref role="37wK5l" to="waq:~AbstractField.setReadOnly(boolean):void" resolve="setReadOnly" />
+                  <node concept="3clFbT" id="6TNACHp2L6T" role="37wK5m">
+                    <property role="3clFbU" value="false" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6TNACHp2LnJ" role="3cqZAp">
+              <node concept="2OqwBi" id="6TNACHp2Lxl" role="3clFbG">
+                <node concept="37vLTw" id="6TNACHp2LnH" role="2Oq$k0">
+                  <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+                </node>
+                <node concept="liA8E" id="6TNACHp2MtC" role="2OqNvi">
+                  <ref role="37wK5l" to="waq:~AbstractTextField.setValue(java.lang.String):void" resolve="setValue" />
+                  <node concept="37vLTw" id="6TNACHp2MBL" role="37wK5m">
+                    <ref role="3cqZAo" node="xFWXJRXBDt" resolve="text" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6TNACHp2MYJ" role="3cqZAp">
+              <node concept="2OqwBi" id="6TNACHp2N9s" role="3clFbG">
+                <node concept="37vLTw" id="6TNACHp2MYH" role="2Oq$k0">
+                  <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+                </node>
+                <node concept="liA8E" id="6TNACHp2O5M" role="2OqNvi">
+                  <ref role="37wK5l" to="waq:~AbstractField.setReadOnly(boolean):void" resolve="setReadOnly" />
+                  <node concept="3clFbT" id="6TNACHp2Og8" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="6TNACHp2J93" role="3clFbw">
+            <node concept="37vLTw" id="6TNACHp2IWR" role="2Oq$k0">
               <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
             </node>
-            <node concept="liA8E" id="xFWXJRYLm4" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractTextField.setValue(java.lang.String):void" resolve="setValue" />
-              <node concept="37vLTw" id="xFWXJRYLwx" role="37wK5m">
-                <ref role="3cqZAo" node="xFWXJRXBDt" resolve="text" />
+            <node concept="liA8E" id="6TNACHp2JGQ" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~AbstractField.isReadOnly():boolean" resolve="isReadOnly" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="6TNACHp2Opw" role="9aQIa">
+            <node concept="3clFbS" id="6TNACHp2Opx" role="9aQI4">
+              <node concept="3clFbF" id="xFWXJRYJSs" role="3cqZAp">
+                <node concept="2OqwBi" id="xFWXJRYK3A" role="3clFbG">
+                  <node concept="37vLTw" id="xFWXJRYJSr" role="2Oq$k0">
+                    <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+                  </node>
+                  <node concept="liA8E" id="xFWXJRYLm4" role="2OqNvi">
+                    <ref role="37wK5l" to="waq:~AbstractTextField.setValue(java.lang.String):void" resolve="setValue" />
+                    <node concept="37vLTw" id="xFWXJRYLwx" role="37wK5m">
+                      <ref role="3cqZAo" node="xFWXJRXBDt" resolve="text" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -1784,6 +1860,24 @@
             <node concept="1pGfFk" id="6KBCmIOJZAN" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
               <node concept="Xl_RD" id="6KBCmIOJZCs" role="37wK5m">
+                <property role="Xl_RC" value="not implemented for VStatusDelegate." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6TNACHp3A46" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp3A47" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp3A48" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp3A4b" role="3clF47">
+        <node concept="YS8fn" id="6TNACHp3Bfr" role="3cqZAp">
+          <node concept="2ShNRf" id="6TNACHp3Bfs" role="YScLw">
+            <node concept="1pGfFk" id="6TNACHp3Bft" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6TNACHp3Bfu" role="37wK5m">
                 <property role="Xl_RC" value="not implemented for VStatusDelegate." />
               </node>
             </node>
@@ -2756,6 +2850,24 @@
             <node concept="1pGfFk" id="6KBCmION16H" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
               <node concept="Xl_RD" id="6KBCmION16I" role="37wK5m">
+                <property role="Xl_RC" value="not implemented in VReferenceDelegate" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6TNACHp3CQU" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp3CQV" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp3CQW" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp3CQZ" role="3clF47">
+        <node concept="YS8fn" id="6TNACHp3DX4" role="3cqZAp">
+          <node concept="2ShNRf" id="6TNACHp3DX5" role="YScLw">
+            <node concept="1pGfFk" id="6TNACHp3DX6" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6TNACHp3DX7" role="37wK5m">
                 <property role="Xl_RC" value="not implemented in VReferenceDelegate" />
               </node>
             </node>
@@ -4047,7 +4159,7 @@
             <node concept="1pGfFk" id="6KBCmIORgzo" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
               <node concept="Xl_RD" id="6KBCmIORgzp" role="37wK5m">
-                <property role="Xl_RC" value="not implemented." />
+                <property role="Xl_RC" value="not implemented for VTextAreaEditor." />
               </node>
             </node>
           </node>
@@ -4055,6 +4167,24 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2rVYvNSlSOH" role="jymVt" />
+    <node concept="3clFb_" id="6TNACHp3F8v" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp3F8w" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp3F8x" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp3F8z" role="3clF47">
+        <node concept="YS8fn" id="6TNACHp3Gbl" role="3cqZAp">
+          <node concept="2ShNRf" id="6TNACHp3Gbm" role="YScLw">
+            <node concept="1pGfFk" id="6TNACHp3Gbn" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6TNACHp3Gbo" role="37wK5m">
+                <property role="Xl_RC" value="not implemented for VTextAreaEditor." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="2rVYvNSlTZ5" role="jymVt" />
     <node concept="3clFb_" id="2rVYvNSlVmP" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -6760,7 +6890,7 @@
             <node concept="1pGfFk" id="1l2SXGvX1Ie" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
               <node concept="Xl_RD" id="1l2SXGvX1If" role="37wK5m">
-                <property role="Xl_RC" value="not implemented." />
+                <property role="Xl_RC" value="not implemented for VDateOrTimeEditor." />
               </node>
             </node>
           </node>
@@ -6768,6 +6898,24 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1l2SXGvX1Ig" role="jymVt" />
+    <node concept="3clFb_" id="6TNACHp3HQv" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp3HQw" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp3HQx" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp3HQz" role="3clF47">
+        <node concept="YS8fn" id="6TNACHp3J8a" role="3cqZAp">
+          <node concept="2ShNRf" id="6TNACHp3J8b" role="YScLw">
+            <node concept="1pGfFk" id="6TNACHp3J8c" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6TNACHp3J8d" role="37wK5m">
+                <property role="Xl_RC" value="not implemented for VDateOrTimeEditor." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="1l2SXGvVAhF" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="DiZV1" value="false" />
@@ -9407,12 +9555,12 @@
       </node>
       <node concept="3Tm1VV" id="hObkZkEYTr" role="1B3o_S" />
       <node concept="3clFbS" id="hObkZkEYTu" role="3clF47">
-        <node concept="YS8fn" id="hObkZkGaK7" role="3cqZAp">
-          <node concept="2ShNRf" id="hObkZkGaK8" role="YScLw">
-            <node concept="1pGfFk" id="hObkZkGaK9" role="2ShVmc">
+        <node concept="YS8fn" id="6TNACHp3Kyw" role="3cqZAp">
+          <node concept="2ShNRf" id="6TNACHp3Kyx" role="YScLw">
+            <node concept="1pGfFk" id="6TNACHp3Kyy" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="hObkZkGaKa" role="37wK5m">
-                <property role="Xl_RC" value="not implemented." />
+              <node concept="Xl_RD" id="6TNACHp3Kyz" role="37wK5m">
+                <property role="Xl_RC" value="not implemented for VDateOrTimeEditor." />
               </node>
             </node>
           </node>
@@ -9420,6 +9568,24 @@
       </node>
     </node>
     <node concept="2tJIrI" id="hObkZkKxsR" role="jymVt" />
+    <node concept="3clFb_" id="6TNACHp3KzD" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp3KzE" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp3KzF" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp3KzI" role="3clF47">
+        <node concept="YS8fn" id="6TNACHp3LDU" role="3cqZAp">
+          <node concept="2ShNRf" id="6TNACHp3LDV" role="YScLw">
+            <node concept="1pGfFk" id="6TNACHp3LDW" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="6TNACHp3LDX" role="37wK5m">
+                <property role="Xl_RC" value="not implemented for VDateOrTimeEditor." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="1mou_EBcEP2" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setIssuesUpdateConclusion" />

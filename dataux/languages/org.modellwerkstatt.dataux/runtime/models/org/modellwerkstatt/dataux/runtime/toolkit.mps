@@ -591,6 +591,14 @@
       <node concept="3clFbS" id="5Y1b9tRd2lB" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="2rVYvNSe4d8" role="jymVt" />
+    <node concept="3clFb_" id="6TNACHp3cip" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
+      <node concept="3cqZAl" id="6TNACHp3cir" role="3clF45" />
+      <node concept="3Tm1VV" id="6TNACHp3cis" role="1B3o_S" />
+      <node concept="3clFbS" id="6TNACHp3cit" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="6TNACHp3cfG" role="jymVt" />
     <node concept="3clFb_" id="2rVYvNSe3xN" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="gcClear" />
