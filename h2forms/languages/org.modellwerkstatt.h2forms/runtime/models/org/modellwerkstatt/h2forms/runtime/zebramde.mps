@@ -1651,7 +1651,7 @@
         <node concept="3clFbH" id="1S90xUts7ni" role="3cqZAp" />
         <node concept="3clFbJ" id="4Rlyz3E8HtK" role="3cqZAp">
           <node concept="3clFbS" id="4Rlyz3E8HtM" role="3clFbx">
-            <node concept="1X3_iC" id="4rmHkF3XQBq" role="lGtFl">
+            <node concept="1X3_iC" id="4rmHkF40bs9" role="lGtFl">
               <property role="3V$3am" value="statement" />
               <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
               <node concept="3clFbF" id="7RHNXGyQCSU" role="8Wnug">
@@ -1744,46 +1744,13 @@
                       <node concept="3cpWs3" id="2eK$oa45HSi" role="3uHU7B">
                         <node concept="3cpWs3" id="2eK$oa45HSk" role="3uHU7B">
                           <node concept="Xl_RD" id="2eK$oa45HSl" role="3uHU7B">
-                            <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                            <property role="Xl_RC" value="&lt;script charset=\&quot;utf-8\&quot; src=\&quot;" />
                           </node>
                           <node concept="37vLTw" id="2Gn_LTGnJ1c" role="3uHU7w">
                             <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
                           </node>
                         </node>
                         <node concept="37vLTw" id="4443BgffDXj" role="3uHU7w">
-                          <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="2eK$oa45IwO" role="3cqZAp">
-              <node concept="2OqwBi" id="2eK$oa45IwP" role="3clFbG">
-                <node concept="37vLTw" id="2eK$oa45IwQ" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-                </node>
-                <node concept="liA8E" id="2eK$oa45IwR" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                  <node concept="3cpWs3" id="3oSvuvtuz05" role="37wK5m">
-                    <node concept="37vLTw" id="3oSvuvtuzJf" role="3uHU7w">
-                      <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
-                    </node>
-                    <node concept="3cpWs3" id="4443BgffDZK" role="3uHU7B">
-                      <node concept="Xl_RD" id="2eK$oa45IwT" role="3uHU7w">
-                        <property role="Xl_RC" value="/enterprise/eb.notification.js" />
-                      </node>
-                      <node concept="3cpWs3" id="2eK$oa45IwS" role="3uHU7B">
-                        <node concept="3cpWs3" id="2eK$oa45IwU" role="3uHU7B">
-                          <node concept="Xl_RD" id="2eK$oa45IwV" role="3uHU7B">
-                            <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                          </node>
-                          <node concept="37vLTw" id="2Gn_LTGnIuY" role="3uHU7w">
-                            <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
-                          </node>
-                        </node>
-                        <node concept="37vLTw" id="4443BgffEen" role="3uHU7w">
                           <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
                         </node>
                       </node>
@@ -1810,13 +1777,46 @@
                       <node concept="3cpWs3" id="4rmHkF3XSyB" role="3uHU7B">
                         <node concept="3cpWs3" id="4rmHkF3XSyC" role="3uHU7B">
                           <node concept="Xl_RD" id="4rmHkF3XSyD" role="3uHU7B">
-                            <property role="Xl_RC" value="&lt;script src=\&quot;" />
+                            <property role="Xl_RC" value="&lt;script charset=\&quot;utf-8\&quot; src=\&quot;" />
                           </node>
                           <node concept="37vLTw" id="4rmHkF3XSyE" role="3uHU7w">
                             <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
                           </node>
                         </node>
                         <node concept="37vLTw" id="4rmHkF3XSyF" role="3uHU7w">
+                          <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="2eK$oa45IwO" role="3cqZAp">
+              <node concept="2OqwBi" id="2eK$oa45IwP" role="3clFbG">
+                <node concept="37vLTw" id="2eK$oa45IwQ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="2eK$oa45IwR" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="3cpWs3" id="3oSvuvtuz05" role="37wK5m">
+                    <node concept="37vLTw" id="3oSvuvtuzJf" role="3uHU7w">
+                      <ref role="3cqZAo" node="3oSvuvtutMF" resolve="hashVersionScript" />
+                    </node>
+                    <node concept="3cpWs3" id="4443BgffDZK" role="3uHU7B">
+                      <node concept="Xl_RD" id="2eK$oa45IwT" role="3uHU7w">
+                        <property role="Xl_RC" value="/enterprise/eb.notification.js" />
+                      </node>
+                      <node concept="3cpWs3" id="2eK$oa45IwS" role="3uHU7B">
+                        <node concept="3cpWs3" id="2eK$oa45IwU" role="3uHU7B">
+                          <node concept="Xl_RD" id="2eK$oa45IwV" role="3uHU7B">
+                            <property role="Xl_RC" value="&lt;script charset=\&quot;utf-8\&quot; src=\&quot;" />
+                          </node>
+                          <node concept="37vLTw" id="2Gn_LTGnIuY" role="3uHU7w">
+                            <ref role="3cqZAo" node="2Gn_LTGn$i7" resolve="extStaticContentBaseAdr" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="4443BgffEen" role="3uHU7w">
                           <ref role="3cqZAo" node="4443Bgffvof" resolve="addDir" />
                         </node>
                       </node>

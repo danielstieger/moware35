@@ -13,7 +13,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'h2.2 DBG';
+var zVersion = 'h24 SDBG';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		/* back button on android tc55 */
 		/*
 		 * EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
-		 * Dan 4. Dez 17, EB Freez testing
+		 * Dan 4. Dez 17, EB Freez teqsting
 		 */
 		 
 		/* powerOn.powerOnEvent = "url('JavaScript:enableScan();')"; 
