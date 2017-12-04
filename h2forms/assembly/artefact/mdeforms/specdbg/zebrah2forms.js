@@ -39,7 +39,13 @@ function moLog(s) {
 function disableScan(){
 	if ($('input[name="scanconclusion"]') != null) {
 		try {	
-			EB.Barcode.disable();
+			/* EB.Barcode.disable();
+			 *
+			 * Dan 4. Dez 2017
+			 * EB FREZZ testing: do not disable scaner 
+			 */ 
+			 
+			
 			$('#scanSoftButton').disabled = true;
 			
 		} catch(err) {
@@ -275,8 +281,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
   	try {	
 		/* back button on android tc55 */
-		/* EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback); */
-		
+		/*
+		 * EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
+		 * Dan 4. Dez 17, EB Freez testing
+		 */
+		 
 		/* powerOn.powerOnEvent = "url('JavaScript:enableScan();')"; 
 		 * also removed by Dan. Nov. 17 to check for browser hangup
 		 */
