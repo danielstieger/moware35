@@ -6,6 +6,8 @@
  *
  *	modellwerkstatt.org
  *
+ *
+ * SDBG SDBG SDBG SDBG SDBG SDBG SDBG SDBG SDBG SDBG SDBG SDBG SDBG SDBG SDBG 
  */ 
 
 var $ = function (query) { return document.querySelector(query); };
@@ -13,7 +15,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'h24 SDBG';
+var zVersion = 'h26 SDBG';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -45,7 +47,6 @@ function disableScan(){
 			 * EB FREZZ testing: do not disable scaner 
 			 */ 
 			 
-			
 			$('#scanSoftButton').disabled = true;
 			
 		} catch(err) {
@@ -136,22 +137,24 @@ function SaveSubmit(valstr){
 
 /* Hotkey stuff ******************************************************* */
 function internVibrate(t) {
-	try {
+	/* try {
 		EB.Notification.vibrate(t);
+	
 	} catch(err) {
 		console.log('internVibrate() ' + err);
-	}
+	} */
 }
 
 function flagBeep(t) {
   /* alert("BEEP"); */
-  try {
+  
+  /* try {
 	EB.Notification.beep({frequency :1200, volume :5.0, duration: t});
 	EB.Notification.vibrate(t);
 	
   } catch(err) {
   	console.log('flagBeep() ' + err);
-  }
+  } */
 }
 
 function nextEnabledOrDefaultButton(currentIndex) {

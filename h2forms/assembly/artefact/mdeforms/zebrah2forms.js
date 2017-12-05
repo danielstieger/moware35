@@ -13,7 +13,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'h24';
+var zVersion = 'h26';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -274,8 +274,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
   
   	try {	
-		/* back button on android tc55 */
-		/* EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback); */
+		/* back button on android */
+		EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
 		
 		/* powerOn.powerOnEvent = "url('JavaScript:enableScan();')"; 
 		 * also removed by Dan. Nov. 17 to check for browser hangup
