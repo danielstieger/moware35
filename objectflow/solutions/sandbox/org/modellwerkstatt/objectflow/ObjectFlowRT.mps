@@ -3160,6 +3160,10 @@
         <property role="TrG5h" value="msg" />
         <node concept="17QB3L" id="7zuurfPcH0L" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="56_jou6RdRB" role="3clF46">
+        <property role="TrG5h" value="byUser" />
+        <node concept="10P_77" id="56_jou6Rr66" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="3IuMOEB7eZ$" role="3clF45" />
       <node concept="3Tm1VV" id="3IuMOEB7eZ_" role="1B3o_S" />
       <node concept="3clFbS" id="3IuMOEB7eZA" role="3clF47" />
@@ -3368,6 +3372,13 @@
       <node concept="3Tm1VV" id="3EJ222DUOYk" role="1B3o_S" />
       <node concept="3clFbS" id="3EJ222DUOYl" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="56_jou87rqp" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isCanceledByUserIntentionally" />
+      <node concept="10P_77" id="56_jou87rqq" role="3clF45" />
+      <node concept="3Tm1VV" id="56_jou87rqr" role="1B3o_S" />
+      <node concept="3clFbS" id="56_jou87rqs" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="3EJ222DV7ok" role="jymVt" />
     <node concept="3clFb_" id="6IXTkEOYpNX" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -3380,6 +3391,19 @@
       <node concept="3Tm1VV" id="6IXTkEOYpNZ" role="1B3o_S" />
       <node concept="3clFbS" id="6IXTkEOYpO0" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="56_jou87qFi" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getTerminateCancelSelections" />
+      <node concept="_YKpA" id="56_jou87qFj" role="3clF45">
+        <node concept="3uibUv" id="56_jou87qFk" role="_ZDj9">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="56_jou87qFl" role="1B3o_S" />
+      <node concept="3clFbS" id="56_jou87qFm" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="56_jou87qqF" role="jymVt" />
+    <node concept="2tJIrI" id="56_jou87qyY" role="jymVt" />
     <node concept="3clFb_" id="6dnXV8mIGtH" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isTerminatedCancel" />
