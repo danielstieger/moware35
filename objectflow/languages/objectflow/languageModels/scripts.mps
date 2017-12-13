@@ -835,5 +835,57 @@
       </node>
     </node>
   </node>
+  <node concept="_UgoZ" id="2QHjcDuufOB">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="SearchForSelUpdateInGraphEdit" />
+    <property role="2BwPS$" value="moware to mowareUX" />
+    <property role="_Wzho" value="(X) Search for SelectionUpdate in GraphEdit" />
+    <node concept="_XfAh" id="2QHjcDuufOC" role="_YvDr">
+      <property role="_XH9r" value="Selection Update not used in Graph OWNER" />
+      <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="_ZGcI" id="2QHjcDuufOD" role="_XPhp">
+        <node concept="3clFbS" id="2QHjcDuufOE" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="2QHjcDuufOF" role="_XDHO">
+        <node concept="3clFbS" id="2QHjcDuufOG" role="2VODD2">
+          <node concept="3clFbF" id="2QHjcDuujhW" role="3cqZAp">
+            <node concept="1Wc70l" id="2QHjcDuulpb" role="3clFbG">
+              <node concept="1eOMI4" id="2QHjcDuul2Q" role="3uHU7B">
+                <node concept="3fqX7Q" id="2QHjcDuulgu" role="1eOMHV">
+                  <node concept="2OqwBi" id="2QHjcDuulgw" role="3fr31v">
+                    <node concept="2OqwBi" id="2QHjcDuulgx" role="2Oq$k0">
+                      <node concept="_YI3z" id="2QHjcDuulgy" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="2QHjcDuulgz" role="2OqNvi">
+                        <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                      </node>
+                    </node>
+                    <node concept="3t7uKx" id="2QHjcDuulg$" role="2OqNvi">
+                      <node concept="uoxfO" id="2QHjcDuulg_" role="3t7uKA">
+                        <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="2QHjcDuuj8s" role="3uHU7w">
+                <node concept="3cmrfG" id="2QHjcDuujbz" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="2QHjcDuuhzo" role="3uHU7B">
+                  <node concept="2OqwBi" id="2QHjcDuugVv" role="2Oq$k0">
+                    <node concept="_YI3z" id="2QHjcDuugRz" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="2QHjcDuuh3p" role="2OqNvi">
+                      <ref role="3TtcxE" to="un0u:6IXTkEOVX_p" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="2QHjcDuuiiB" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
