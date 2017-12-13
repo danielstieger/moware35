@@ -36532,19 +36532,32 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="6j4XqQEtabd" role="3clF47">
-        <node concept="3clFbF" id="6j4XqQEyGQM" role="3cqZAp">
-          <node concept="37vLTI" id="6j4XqQEyGRZ" role="3clFbG">
-            <node concept="10Nm6u" id="6j4XqQEyGSY" role="37vLTx" />
-            <node concept="37vLTw" id="6j4XqQEyGQK" role="37vLTJ">
-              <ref role="3cqZAo" node="6j4XqQEtaaV" resolve="transFactory" />
+        <node concept="3SKdUt" id="2QHjcDu2vVw" role="3cqZAp">
+          <node concept="3SKdUq" id="2QHjcDu2vVy" role="3SKWNk">
+            <property role="3SKdUp" value="Vaadin bug, do not clean up static flieds in single instance !" />
+          </node>
+        </node>
+        <node concept="1X3_iC" id="2QHjcDu2uh0" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="6j4XqQEyGQM" role="8Wnug">
+            <node concept="37vLTI" id="6j4XqQEyGRZ" role="3clFbG">
+              <node concept="10Nm6u" id="6j4XqQEyGSY" role="37vLTx" />
+              <node concept="37vLTw" id="6j4XqQEyGQK" role="37vLTJ">
+                <ref role="3cqZAo" node="6j4XqQEtaaV" resolve="transFactory" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6j4XqQEyHfc" role="3cqZAp">
-          <node concept="37vLTI" id="6j4XqQEyHhA" role="3clFbG">
-            <node concept="10Nm6u" id="6j4XqQEyHiA" role="37vLTx" />
-            <node concept="37vLTw" id="6j4XqQEyHfa" role="37vLTJ">
-              <ref role="3cqZAo" node="6j4XqQEtaaY" resolve="fopFactory" />
+        <node concept="1X3_iC" id="2QHjcDu2v1l" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="6j4XqQEyHfc" role="8Wnug">
+            <node concept="37vLTI" id="6j4XqQEyHhA" role="3clFbG">
+              <node concept="10Nm6u" id="6j4XqQEyHiA" role="37vLTx" />
+              <node concept="37vLTw" id="6j4XqQEyHfa" role="37vLTJ">
+                <ref role="3cqZAo" node="6j4XqQEtaaY" resolve="fopFactory" />
+              </node>
             </node>
           </node>
         </node>
@@ -44200,7 +44213,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="mowareCMD RC25- zopt(dev " />
+            <property role="Xl_RC" value="mowareCMD RC26- auto(dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />

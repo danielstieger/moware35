@@ -62,6 +62,7 @@ function scanReceived(params){
 	$('input[scanable="true"]').value = params['data'];
 	var conclusion = $('input[name="scanconclusion"]').value;
 
+	EB.Barcode.stop();
 	disableScan();
 	myfocusOnElement(null);
 	
@@ -95,7 +96,6 @@ function ScanSubmit(){
     // the scan conclusion then ... and submit
 
 	//alert('ScanSubmit() issuing scan');
-	EB.Barcode.stop();
 	EB.Barcode.start();
 }
 
