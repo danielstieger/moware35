@@ -36556,22 +36556,41 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="6j4XqQEtabd" role="3clF47">
-        <node concept="3clFbF" id="6j4XqQEyGQM" role="3cqZAp">
-          <node concept="37vLTI" id="6j4XqQEyGRZ" role="3clFbG">
-            <node concept="10Nm6u" id="6j4XqQEyGSY" role="37vLTx" />
-            <node concept="37vLTw" id="6j4XqQEyGQK" role="37vLTJ">
-              <ref role="3cqZAo" node="6j4XqQEtaaV" resolve="transFactory" />
+        <node concept="3SKdUt" id="2QHjcDu241G" role="3cqZAp">
+          <node concept="3SKdUq" id="2QHjcDu241I" role="3SKWNk">
+            <property role="3SKdUp" value="do not clean up static fields ! " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="2QHjcDu24c0" role="3cqZAp">
+          <node concept="3SKdUq" id="2QHjcDu24c2" role="3SKWNk">
+            <property role="3SKdUp" value="vaadin bug Dez 2017" />
+          </node>
+        </node>
+        <node concept="1X3_iC" id="2QHjcDu1ZmO" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="6j4XqQEyGQM" role="8Wnug">
+            <node concept="37vLTI" id="6j4XqQEyGRZ" role="3clFbG">
+              <node concept="10Nm6u" id="6j4XqQEyGSY" role="37vLTx" />
+              <node concept="37vLTw" id="6j4XqQEyGQK" role="37vLTJ">
+                <ref role="3cqZAo" node="6j4XqQEtaaV" resolve="transFactory" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6j4XqQEyHfc" role="3cqZAp">
-          <node concept="37vLTI" id="6j4XqQEyHhA" role="3clFbG">
-            <node concept="10Nm6u" id="6j4XqQEyHiA" role="37vLTx" />
-            <node concept="37vLTw" id="6j4XqQEyHfa" role="37vLTJ">
-              <ref role="3cqZAo" node="6j4XqQEtaaY" resolve="fopFactory" />
+        <node concept="1X3_iC" id="2QHjcDu1Y_N" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="6j4XqQEyHfc" role="8Wnug">
+            <node concept="37vLTI" id="6j4XqQEyHhA" role="3clFbG">
+              <node concept="10Nm6u" id="6j4XqQEyHiA" role="37vLTx" />
+              <node concept="37vLTw" id="6j4XqQEyHfa" role="37vLTJ">
+                <ref role="3cqZAo" node="6j4XqQEtaaY" resolve="fopFactory" />
+              </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="2QHjcDu208t" role="3cqZAp" />
         <node concept="3clFbF" id="6j4XqQEyHCT" role="3cqZAp">
           <node concept="37vLTI" id="6j4XqQEyHK2" role="3clFbG">
             <node concept="10Nm6u" id="6j4XqQEyHLw" role="37vLTx" />
