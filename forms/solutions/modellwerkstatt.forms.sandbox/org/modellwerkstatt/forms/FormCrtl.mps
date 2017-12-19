@@ -6622,7 +6622,7 @@
                               <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                             </node>
                             <node concept="liA8E" id="5I8HAEt49k5" role="2OqNvi">
-                              <ref role="37wK5l" to="28jr:1BZ9wC9nVgg" resolve="getTerminateOkCreateInformation" />
+                              <ref role="37wK5l" to="28jr:1BZ9wC9nVgg" resolve="getTerminateOkInformation" />
                             </node>
                           </node>
                         </node>
@@ -6636,7 +6636,7 @@
                         <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                       </node>
                       <node concept="liA8E" id="5I8HAEt49ka" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:1BZ9wC9nVgg" resolve="getTerminateOkCreateInformation" />
+                        <ref role="37wK5l" to="28jr:1BZ9wC9nVgg" resolve="getTerminateOkInformation" />
                       </node>
                     </node>
                   </node>
@@ -6829,8 +6829,8 @@
                         <node concept="37vLTw" id="4JdxVp$Y0_E" role="2Oq$k0">
                           <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                         </node>
-                        <node concept="liA8E" id="4JdxVp$Y0_F" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:6dnXV8mIGtL" resolve="isTerminatedException" />
+                        <node concept="liA8E" id="1HDSUXwBvLg" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
                         </node>
                       </node>
                     </node>
@@ -6882,22 +6882,9 @@
               </node>
               <node concept="3clFbJ" id="7U5N9VrShdZ" role="3cqZAp">
                 <node concept="3clFbS" id="7U5N9VrShe0" role="3clFbx">
-                  <node concept="3clFbF" id="7U5N9VrSjax" role="3cqZAp">
-                    <node concept="2OqwBi" id="7U5N9VrSjcO" role="3clFbG">
-                      <node concept="37vLTw" id="7U5N9VrSjaw" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                      </node>
-                      <node concept="liA8E" id="7U5N9VrSjkG" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:2znuo4gdpmh" resolve="ensureTerminatedExceptionConclusion" />
-                        <node concept="2ShNRf" id="7U5N9VrSjkU" role="37wK5m">
-                          <node concept="1pGfFk" id="7U5N9VrSjJ$" role="2ShVmc">
-                            <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                            <node concept="Xl_RD" id="7U5N9VrSjJM" role="37wK5m">
-                              <property role="Xl_RC" value="This is a forced shutdown of this command." />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
+                  <node concept="3SKdUt" id="1HDSUXwB_Ss" role="3cqZAp">
+                    <node concept="3SKdUq" id="1HDSUXwB_Su" role="3SKWNk">
+                      <property role="3SKdUp" value="ext force cancel !!" />
                     </node>
                   </node>
                 </node>
@@ -6909,7 +6896,7 @@
                           <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                         </node>
                         <node concept="liA8E" id="4JdxVp$Y0_M" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:6dnXV8mIGtL" resolve="isTerminatedException" />
+                          <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
                         </node>
                       </node>
                       <node concept="22lmx$" id="4JdxVp$Y0_N" role="3uHU7B">
@@ -10401,23 +10388,9 @@
                             <property role="3SKdUp" value="Okay, command was not notificated until now .. " />
                           </node>
                         </node>
-                        <node concept="3clFbH" id="6LLJlpJtAN1" role="3cqZAp" />
-                        <node concept="3clFbF" id="1rrvF1jpwzO" role="3cqZAp">
-                          <node concept="2OqwBi" id="1rrvF1jpwLT" role="3clFbG">
-                            <node concept="1rXfSq" id="1rrvF1jpwzM" role="2Oq$k0">
-                              <ref role="37wK5l" node="7aUgYCzl1k5" resolve="getExecutedCommand" />
-                            </node>
-                            <node concept="liA8E" id="1rrvF1jpx7x" role="2OqNvi">
-                              <ref role="37wK5l" to="28jr:2znuo4gdpmh" resolve="ensureTerminatedExceptionConclusion" />
-                              <node concept="2ShNRf" id="1rrvF1jqmWo" role="37wK5m">
-                                <node concept="1pGfFk" id="1rrvF1jqnnb" role="2ShVmc">
-                                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                                  <node concept="37vLTw" id="1rrvF1jqnpf" role="37wK5m">
-                                    <ref role="3cqZAo" node="1rrvF1jgA19" resolve="ex" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
+                        <node concept="3SKdUt" id="1HDSUXwBAK3" role="3cqZAp">
+                          <node concept="3SKdUq" id="1HDSUXwBAK5" role="3SKWNk">
+                            <property role="3SKdUp" value="getExecutedCommand().ensureTerminacedException" />
                           </node>
                         </node>
                         <node concept="3clFbF" id="1rrvF1jgHLW" role="3cqZAp">
@@ -12132,6 +12105,7 @@
                         <node concept="Xl_RD" id="7zuurfPunK8" role="37wK5m">
                           <property role="Xl_RC" value="bockschuss" />
                         </node>
+                        <node concept="10Nm6u" id="1HDSUXwBCEb" role="37wK5m" />
                       </node>
                     </node>
                   </node>

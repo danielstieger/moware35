@@ -3153,12 +3153,19 @@
       <node concept="3Tm1VV" id="3IuMOEB7gHK" role="1B3o_S" />
       <node concept="3clFbS" id="3IuMOEB7gHL" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="1HDSUXvFXob" role="jymVt" />
     <node concept="3clFb_" id="3IuMOEB7eZz" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="extForceCancelConclusion" />
       <node concept="37vLTG" id="7zuurfPcGli" role="3clF46">
         <property role="TrG5h" value="msg" />
         <node concept="17QB3L" id="7zuurfPcH0L" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1HDSUXvFItb" role="3clF46">
+        <property role="TrG5h" value="ex" />
+        <node concept="3uibUv" id="1HDSUXvFY0N" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+        </node>
       </node>
       <node concept="3cqZAl" id="3IuMOEB7eZ$" role="3clF45" />
       <node concept="3Tm1VV" id="3IuMOEB7eZ_" role="1B3o_S" />
@@ -3177,20 +3184,17 @@
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
     </node>
-    <node concept="3clFb_" id="2znuo4gdpmh" role="jymVt">
+    <node concept="3clFb_" id="1HDSUXvH9wg" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="ensureTerminatedExceptionConclusion" />
-      <node concept="37vLTG" id="2znuo4gdqVc" role="3clF46">
-        <property role="TrG5h" value="exceptionHappened" />
-        <node concept="3uibUv" id="2znuo4gdqXI" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
-        </node>
+      <property role="TrG5h" value="extForceUserCanceled" />
+      <node concept="3cqZAl" id="1HDSUXvH9wh" role="3clF45" />
+      <node concept="3Tm1VV" id="1HDSUXvH9wi" role="1B3o_S" />
+      <node concept="3clFbS" id="1HDSUXvH9wj" role="3clF47" />
+      <node concept="3uibUv" id="1HDSUXvH9wk" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
-      <node concept="3cqZAl" id="2znuo4gdpmi" role="3clF45" />
-      <node concept="3Tm1VV" id="2znuo4gdpmj" role="1B3o_S" />
-      <node concept="3clFbS" id="2znuo4gdpmk" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="oHsXcajecj" role="jymVt" />
+    <node concept="2tJIrI" id="1HDSUXvH9o9" role="jymVt" />
     <node concept="3clFb_" id="6Gy9ythMxB2" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setCommandParams" />
@@ -3354,6 +3358,14 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5fkhsRO0dav" role="jymVt" />
+    <node concept="3clFb_" id="1HDSUXwnQpO" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isUserCancelTerminated" />
+      <node concept="10P_77" id="1HDSUXwnQBU" role="3clF45" />
+      <node concept="3Tm1VV" id="1HDSUXwnQpR" role="1B3o_S" />
+      <node concept="3clFbS" id="1HDSUXwnQpS" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1HDSUXwn$qb" role="jymVt" />
     <node concept="3clFb_" id="6dnXV8mIGtD" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isTerminatedOk" />
@@ -3368,7 +3380,6 @@
       <node concept="3Tm1VV" id="3EJ222DUOYk" role="1B3o_S" />
       <node concept="3clFbS" id="3EJ222DUOYl" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="3EJ222DV7ok" role="jymVt" />
     <node concept="3clFb_" id="6IXTkEOYpNX" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getTerminateOkSelections" />
@@ -3380,6 +3391,7 @@
       <node concept="3Tm1VV" id="6IXTkEOYpNZ" role="1B3o_S" />
       <node concept="3clFbS" id="6IXTkEOYpO0" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="1HDSUXw3G6Y" role="jymVt" />
     <node concept="3clFb_" id="6dnXV8mIGtH" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isTerminatedCancel" />
@@ -3387,18 +3399,38 @@
       <node concept="3Tm1VV" id="6dnXV8mIGtJ" role="1B3o_S" />
       <node concept="3clFbS" id="6dnXV8mIGtK" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="6dnXV8mIGtL" role="jymVt">
+    <node concept="3clFb_" id="1HDSUXwCQgv" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="isTerminatedException" />
-      <node concept="10P_77" id="6dnXV8mIGuG" role="3clF45" />
-      <node concept="3Tm1VV" id="6dnXV8mIGtN" role="1B3o_S" />
-      <node concept="3clFbS" id="6dnXV8mIGtO" role="3clF47" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getTermCancelMessage" />
+      <node concept="3clFbS" id="1HDSUXwCQgy" role="3clF47" />
+      <node concept="3Tm1VV" id="1HDSUXwCQgz" role="1B3o_S" />
+      <node concept="17QB3L" id="1HDSUXwCQ2H" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="1HDSUXwCQWC" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="wasTermCancelDueToException" />
+      <node concept="3clFbS" id="1HDSUXwCQWF" role="3clF47" />
+      <node concept="3Tm1VV" id="1HDSUXwCQWG" role="1B3o_S" />
+      <node concept="10P_77" id="1HDSUXwCQH2" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="1HDSUXw3Gkb" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getTerminateCancelSelections" />
+      <node concept="_YKpA" id="1HDSUXw3Gkc" role="3clF45">
+        <node concept="3uibUv" id="1HDSUXw3Gkd" role="_ZDj9">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="1HDSUXw3Gke" role="1B3o_S" />
+      <node concept="3clFbS" id="1HDSUXw3Gkf" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="6Rdz00$Ve_h" role="jymVt" />
     <node concept="3clFb_" id="1BZ9wC9nVgg" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getTerminateOkCreateInformation" />
+      <property role="TrG5h" value="getTerminateOkInformation" />
       <node concept="3clFbS" id="1BZ9wC9nVgj" role="3clF47" />
       <node concept="3Tm1VV" id="1BZ9wC9nVgk" role="1B3o_S" />
       <node concept="17QB3L" id="1BZ9wC9nVw$" role="3clF45" />
