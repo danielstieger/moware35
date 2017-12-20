@@ -804,12 +804,6 @@
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="5Ee0EjqTeD5" resolve="VoidStatementList" />
     </node>
-    <node concept="1TJgyj" id="1Csx3LqySl1" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="exceptionConclusionStatements" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="5Ee0EjqTeD5" resolve="VoidStatementList" />
-    </node>
     <node concept="1TJgyj" id="5Ee0EjqWOQF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="documentation" />
@@ -843,7 +837,13 @@
     </node>
     <node concept="1TJgyj" id="6IXTkEOVX_p" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="finalSelection" />
+      <property role="20kJfa" value="finalOkSelection" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="1dqt$gJc2G4" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="finalCancelSelection" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
@@ -1169,16 +1169,6 @@
     <property role="1pbfSe" value="1956993028" />
     <property role="34LRSv" value="selectionController" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-  </node>
-  <node concept="1TIwiD" id="1Csx3LqzaMT">
-    <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="ExceptionVariableReference" />
-    <property role="MwhBj" value="${module}/icons/references.png" />
-    <property role="R4oN_" value="needs casting" />
-    <property role="34LRSv" value="exception" />
-    <property role="1pbfSe" value="1957245173" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="asaX9" id="7zuurfP9kh6" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1Csx3LqAoU5">
     <property role="3GE5qa" value="OFXCore.process" />
@@ -3491,14 +3481,13 @@
     <property role="3GE5qa" value="OFXCore.command" />
     <property role="TrG5h" value="ErrorInCommand" />
     <property role="34LRSv" value="error" />
-    <property role="R4oN_" value="abort current command stack" />
+    <property role="R4oN_" value="abort current command" />
     <ref role="1TJDcQ" node="1Csx3Lqx52x" resolve="FlagCommand" />
     <node concept="1TJgyj" id="4Ta2XmWaDfq" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="exception" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="asaX9" id="2q7OPuPWzqT" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="371pDBOmHha">
     <property role="1pbfSe" value="639384291" />
@@ -4673,30 +4662,6 @@
     <property role="3GE5qa" value="OFXCore.batch2" />
     <property role="TrG5h" value="IOFXBatchJobOption" />
   </node>
-  <node concept="1TIwiD" id="7zuurfP3QQv">
-    <property role="1pbfSe" value="1844307794" />
-    <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="FinalCancelParameter" />
-    <property role="34LRSv" value="msg" />
-    <property role="R4oN_" value="cancel message" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
-  <node concept="1TIwiD" id="7zuurfP3TdJ">
-    <property role="1pbfSe" value="1844317474" />
-    <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="FinalExceptionParameter" />
-    <property role="34LRSv" value="ex" />
-    <property role="R4oN_" value="exception thrown" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
-  <node concept="1TIwiD" id="5RXltUm72ZN">
-    <property role="1pbfSe" value="199653935" />
-    <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="MsgFinalCancelVarReferences" />
-    <property role="34LRSv" value="msg" />
-    <property role="R4oN_" value="cancel message" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-  </node>
   <node concept="1TIwiD" id="21AFYXWJblt">
     <property role="1pbfSe" value="1658624692" />
     <property role="3GE5qa" value="OFXCore.batch2" />
@@ -4713,6 +4678,35 @@
       <property role="20kJfa" value="status" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1dqt$gJ63DE">
+    <property role="1pbfSe" value="1114812590" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="VslCancelMsgParam" />
+    <property role="34LRSv" value="msg" />
+    <property role="R4oN_" value="cancel message describing reason" />
+    <property role="MwhBj" value="${module}/icons/references.png" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="1dqt$gJ672w" role="PzmwI">
+      <ref role="PrY4T" node="1dqt$gJ66kJ" resolve="IVslCancelParam" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1dqt$gJ63Lh">
+    <property role="1pbfSe" value="1114813077" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="VslCancelExParam" />
+    <property role="34LRSv" value="exception" />
+    <property role="R4oN_" value="exception triggering cancel" />
+    <property role="MwhBj" value="${module}/icons/references.png" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="PrWs8" id="1dqt$gJ66ZW" role="PzmwI">
+      <ref role="PrY4T" node="1dqt$gJ66kJ" resolve="IVslCancelParam" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1dqt$gJ66kJ">
+    <property role="1pbfSe" value="1114823539" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="IVslCancelParam" />
   </node>
 </model>
 

@@ -3246,22 +3246,16 @@
           <property role="3F0ifm" value="msg" />
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
         </node>
-        <node concept="3F0ifn" id="7zuurfP38ec" role="3EZMnx">
-          <property role="3F0ifm" value="// on successor cancel OR ex, cancel here called" />
+        <node concept="3F0ifn" id="1dqt$gJ1qP_" role="3EZMnx">
+          <property role="3F0ifm" value="," />
           <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
-        <node concept="3F1sOY" id="1l1sktc8e2O" role="3EZMnx">
-          <property role="1$x2rV" value="&lt;marker operation&gt;" />
-          <ref role="1NtTu8" to="un0u:1l1sktc81RY" />
-          <node concept="pVoyu" id="1l1sktc8e3J" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="1l1sktc8e3L" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
+        <node concept="3F0ifn" id="1dqt$gJ1qRt" role="3EZMnx">
+          <property role="3F0ifm" value="exception" />
+          <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
         </node>
         <node concept="3F0ifn" id="1l1sktc821c" role="3EZMnx">
-          <property role="3F0ifm" value="// do revert objects" />
+          <property role="3F0ifm" value="// do revert objects, exceptions are logged" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1l1sktc821d" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -3280,6 +3274,35 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
+        <node concept="3F1sOY" id="1l1sktc8e2O" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;marker operation&gt;" />
+          <ref role="1NtTu8" to="un0u:1l1sktc81RY" />
+          <node concept="pVoyu" id="1l1sktc8e3J" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="1l1sktc8e3L" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="1dqt$gJyR8K" role="3EZMnx">
+          <property role="3F0ifm" value="selection(s)/update(s) on parent:" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="pVoyu" id="1dqt$gJyR8L" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="1dqt$gJyR8M" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="1dqt$gJyR8N" role="3EZMnx">
+          <property role="2czwfO" value="," />
+          <ref role="1NtTu8" to="un0u:1dqt$gJc2G4" />
+          <node concept="l2Vlx" id="1dqt$gJyR8O" role="2czzBx" />
+          <node concept="3F0ifn" id="1dqt$gJyR8P" role="2czzBI">
+            <property role="3F0ifm" value="" />
+            <property role="ilYzB" value="&lt;selections&gt;" />
+          </node>
+        </node>
         <node concept="3F0ifn" id="1rbZyOwq9Np" role="3EZMnx">
           <property role="3F0ifm" value="" />
           <node concept="pVoyu" id="1rbZyOwq9Nq" role="3F10Kt">
@@ -3293,16 +3316,9 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1Csx3LqySkU" role="3EZMnx">
-          <property role="3F0ifm" value="FINAL_EXCEPTION_CONCLUSION:" />
+          <property role="3F0ifm" value="FINAL_USER_CANCEL:" />
           <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
           <node concept="pVoyu" id="1Csx3LqySkV" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1Csx3LqySl7" role="3EZMnx">
-          <property role="3F0ifm" value="exception" />
-          <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-          <node concept="3nxI2P" id="7zuurfP9kst" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
@@ -3313,16 +3329,6 @@
             <property role="VOm3f" value="true" />
           </node>
           <node concept="lj46D" id="1l1sktc8231" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F1sOY" id="1Csx3LqySl2" role="3EZMnx">
-          <property role="1$x2rV" value="&lt;func&gt;" />
-          <ref role="1NtTu8" to="un0u:1Csx3LqySl1" />
-          <node concept="pVoyu" id="1Csx3LqySl3" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="1Csx3LqySl4" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
@@ -3878,18 +3884,6 @@
     <node concept="3F0ifn" id="1Csx3Lqydfd" role="2wV5jI">
       <property role="3F0ifm" value="selectionController" />
       <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="1Csx3LqzaMW">
-    <property role="3GE5qa" value="OFXCore.command" />
-    <ref role="1XX52x" to="un0u:1Csx3LqzaMT" resolve="ExceptionVariableReference" />
-    <node concept="PMmxH" id="6svR_JBHsYR" role="2wV5jI">
-      <property role="1cu_pB" value="0" />
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-      <node concept="3nxI2P" id="7zuurfP9kiI" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="1Csx3LqAoUo">
@@ -12740,14 +12734,6 @@
       <node concept="l2Vlx" id="4jlzLDl6dIO" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="5RXltUm734d">
-    <property role="3GE5qa" value="OFXCore.command" />
-    <ref role="1XX52x" to="un0u:5RXltUm72ZN" resolve="MsgFinalCancelVarReferences" />
-    <node concept="PMmxH" id="5RXltUm734f" role="2wV5jI">
-      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-    </node>
-  </node>
   <node concept="24kQdi" id="21AFYXWJbFN">
     <property role="3GE5qa" value="OFXCore.batch2" />
     <ref role="1XX52x" to="un0u:21AFYXWJblt" resolve="OFXConsumerCmdCallContext" />
@@ -12772,6 +12758,22 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1dqt$gJ64Ec">
+    <property role="3GE5qa" value="OFXCore.command" />
+    <ref role="1XX52x" to="un0u:1dqt$gJ63Lh" resolve="VslCancelExParam" />
+    <node concept="PMmxH" id="1dqt$gJ64GK" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1dqt$gJ64LP">
+    <property role="3GE5qa" value="OFXCore.command" />
+    <ref role="1XX52x" to="un0u:1dqt$gJ63DE" resolve="VslCancelMsgParam" />
+    <node concept="PMmxH" id="1dqt$gJ64Pf" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
     </node>
   </node>
 </model>

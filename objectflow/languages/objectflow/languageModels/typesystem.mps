@@ -1504,32 +1504,6 @@
       <ref role="1YaFvo" to="un0u:1Csx3Lqydf8" resolve="FormVariableReference" />
     </node>
   </node>
-  <node concept="1YbPZF" id="1Csx3LqzaMZ">
-    <property role="TrG5h" value="typeof_ExceptionVariableReference" />
-    <property role="3GE5qa" value="OFXCore.command" />
-    <node concept="3clFbS" id="1Csx3LqzaN0" role="18ibNy">
-      <node concept="1Z5TYs" id="1Csx3LqzaN8" role="3cqZAp">
-        <node concept="mw_s8" id="1Csx3LqzaNc" role="1ZfhKB">
-          <node concept="2c44tf" id="1Csx3LqzaNd" role="mwGJk">
-            <node concept="3uibUv" id="1Csx3LqzaNg" role="2c44tc">
-              <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="1Csx3LqzaNb" role="1ZfhK$">
-          <node concept="1Z2H0r" id="1Csx3LqzaN3" role="mwGJk">
-            <node concept="1YBJjd" id="1Csx3LqzaN5" role="1Z2MuG">
-              <ref role="1YBMHb" node="1Csx3LqzaN1" resolve="evr" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="1Csx3LqzaN1" role="1YuTPh">
-      <property role="TrG5h" value="evr" />
-      <ref role="1YaFvo" to="un0u:1Csx3LqzaMT" resolve="ExceptionVariableReference" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="1Csx3Lq$YQX">
     <property role="TrG5h" value="typeof_Condition" />
     <property role="3GE5qa" value="OFXCore.process" />
@@ -2401,19 +2375,66 @@
         </node>
       </node>
       <node concept="3clFbH" id="6Rdz00$u6KX" role="3cqZAp" />
+      <node concept="3cpWs8" id="1dqt$gJc43_" role="3cqZAp">
+        <node concept="3cpWsn" id="1dqt$gJc43C" role="3cpWs9">
+          <property role="TrG5h" value="selections" />
+          <node concept="_YKpA" id="1dqt$gJc43x" role="1tU5fm">
+            <node concept="3Tqbb2" id="1dqt$gJc48I" role="_ZDj9">
+              <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
+            </node>
+          </node>
+          <node concept="2ShNRf" id="1dqt$gJc4gk" role="33vP2m">
+            <node concept="Tc6Ow" id="1dqt$gJc4e$" role="2ShVmc">
+              <node concept="3Tqbb2" id="1dqt$gJc4e_" role="HW$YZ">
+                <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="1dqt$gJc4mI" role="3cqZAp">
+        <node concept="2OqwBi" id="1dqt$gJc4Hn" role="3clFbG">
+          <node concept="37vLTw" id="1dqt$gJc4mG" role="2Oq$k0">
+            <ref role="3cqZAo" node="1dqt$gJc43C" resolve="selections" />
+          </node>
+          <node concept="X8dFx" id="1dqt$gJc5xq" role="2OqNvi">
+            <node concept="2OqwBi" id="1dqt$gJc5IC" role="25WWJ7">
+              <node concept="1YBJjd" id="1dqt$gJc5DB" role="2Oq$k0">
+                <ref role="1YBMHb" node="5Ee0EjqXsBE" resolve="cmd" />
+              </node>
+              <node concept="3Tsc0h" id="1dqt$gJc6s5" role="2OqNvi">
+                <ref role="3TtcxE" to="un0u:1dqt$gJc2G4" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbF" id="1dqt$gJc77Q" role="3cqZAp">
+        <node concept="2OqwBi" id="1dqt$gJc7uA" role="3clFbG">
+          <node concept="37vLTw" id="1dqt$gJc77O" role="2Oq$k0">
+            <ref role="3cqZAo" node="1dqt$gJc43C" resolve="selections" />
+          </node>
+          <node concept="X8dFx" id="1dqt$gJc8iD" role="2OqNvi">
+            <node concept="2OqwBi" id="1dqt$gJc8rl" role="25WWJ7">
+              <node concept="1YBJjd" id="1dqt$gJc8mk" role="2Oq$k0">
+                <ref role="1YBMHb" node="5Ee0EjqXsBE" resolve="cmd" />
+              </node>
+              <node concept="3Tsc0h" id="1dqt$gJc9ea" role="2OqNvi">
+                <ref role="3TtcxE" to="un0u:6IXTkEOVX_p" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1dqt$gJc9S_" role="3cqZAp" />
       <node concept="3clFbJ" id="6NF_NFg$KHl" role="3cqZAp">
         <node concept="3eOSWO" id="3xmYcCN4RKe" role="3clFbw">
           <node concept="3cmrfG" id="3xmYcCN4RKh" role="3uHU7w">
             <property role="3cmrfH" value="0" />
           </node>
           <node concept="2OqwBi" id="6NF_NFg$NO2" role="3uHU7B">
-            <node concept="2OqwBi" id="6NF_NFg$La9" role="2Oq$k0">
-              <node concept="1YBJjd" id="6NF_NFg$L3V" role="2Oq$k0">
-                <ref role="1YBMHb" node="5Ee0EjqXsBE" resolve="cmd" />
-              </node>
-              <node concept="3Tsc0h" id="3xmYcCN4Q0h" role="2OqNvi">
-                <ref role="3TtcxE" to="un0u:6IXTkEOVX_p" />
-              </node>
+            <node concept="37vLTw" id="1dqt$gJcbk0" role="2Oq$k0">
+              <ref role="3cqZAo" node="1dqt$gJc43C" resolve="selections" />
             </node>
             <node concept="34oBXx" id="3xmYcCN4QUv" role="2OqNvi" />
           </node>
@@ -2579,13 +2600,8 @@
                 <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
               </node>
             </node>
-            <node concept="2OqwBi" id="3xmYcCN4SgF" role="1DdaDG">
-              <node concept="1YBJjd" id="3xmYcCN4Sak" role="2Oq$k0">
-                <ref role="1YBMHb" node="5Ee0EjqXsBE" resolve="cmd" />
-              </node>
-              <node concept="3Tsc0h" id="3xmYcCN4SDG" role="2OqNvi">
-                <ref role="3TtcxE" to="un0u:6IXTkEOVX_p" />
-              </node>
+            <node concept="37vLTw" id="1dqt$gJfI_S" role="1DdaDG">
+              <ref role="3cqZAo" node="1dqt$gJc43C" resolve="selections" />
             </node>
           </node>
         </node>
@@ -6828,7 +6844,7 @@
                                     <node concept="37vLTw" id="7zuurfOyWSF" role="2Oq$k0">
                                       <ref role="3cqZAo" node="7zuurfOyWOB" resolve="it" />
                                     </node>
-                                    <node concept="3TrEf2" id="7zuurfOyX8S" role="2OqNvi">
+                                    <node concept="3TrEf2" id="1dqt$gINE8l" role="2OqNvi">
                                       <ref role="3Tt5mk" to="un0u:1l1sktc81RY" />
                                     </node>
                                   </node>
@@ -6868,7 +6884,7 @@
                       <node concept="37vLTw" id="7zuurfOyZ5H" role="2Oq$k0">
                         <ref role="3cqZAo" node="7zuurfOyHzM" resolve="cmd" />
                       </node>
-                      <node concept="3TrEf2" id="7zuurfOyZi_" role="2OqNvi">
+                      <node concept="3TrEf2" id="1dqt$gINEn5" role="2OqNvi">
                         <ref role="3Tt5mk" to="un0u:1l1sktc81RY" />
                       </node>
                     </node>
@@ -6892,7 +6908,7 @@
                               <node concept="37vLTw" id="7zuurfOyTGI" role="2Oq$k0">
                                 <ref role="3cqZAo" node="7zuurfOyTCE" resolve="it" />
                               </node>
-                              <node concept="3TrEf2" id="7zuurfOyTWV" role="2OqNvi">
+                              <node concept="3TrEf2" id="1dqt$gINDQO" role="2OqNvi">
                                 <ref role="3Tt5mk" to="un0u:1l1sktc81RY" />
                               </node>
                             </node>
@@ -14423,30 +14439,6 @@
       <ref role="1YaFvo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
     </node>
   </node>
-  <node concept="1YbPZF" id="5RXltUm79Qy">
-    <property role="TrG5h" value="typeof_MsgFinalCancelVarReferences" />
-    <property role="3GE5qa" value="OFXCore.command" />
-    <node concept="3clFbS" id="5RXltUm79Qz" role="18ibNy">
-      <node concept="1Z5TYs" id="5RXltUm79QD" role="3cqZAp">
-        <node concept="mw_s8" id="5RXltUm79QE" role="1ZfhKB">
-          <node concept="2c44tf" id="5RXltUm79QF" role="mwGJk">
-            <node concept="17QB3L" id="5RXltUm7aGj" role="2c44tc" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="5RXltUm79QH" role="1ZfhK$">
-          <node concept="1Z2H0r" id="5RXltUm79QI" role="mwGJk">
-            <node concept="1YBJjd" id="5RXltUm7aGD" role="1Z2MuG">
-              <ref role="1YBMHb" node="5RXltUm79Q_" resolve="msgFinalCancelVarReferences" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="5RXltUm79Q_" role="1YuTPh">
-      <property role="TrG5h" value="msgFinalCancelVarReferences" />
-      <ref role="1YaFvo" to="un0u:5RXltUm72ZN" resolve="MsgFinalCancelVarReferences" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="21AFYXWBpiV">
     <property role="TrG5h" value="typeof_OFXProducerContext" />
     <property role="3GE5qa" value="OFXCore.batch2" />
@@ -14505,6 +14497,56 @@
     <node concept="1YaCAy" id="21AFYXWO_zF" role="1YuTPh">
       <property role="TrG5h" value="ofxConsumerCmdCallContext" />
       <ref role="1YaFvo" to="un0u:21AFYXWJblt" resolve="OFXConsumerCmdCallContext" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="1dqt$gJ64Zv">
+    <property role="TrG5h" value="typeof_VslCancelExParam" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <node concept="3clFbS" id="1dqt$gJ64Zw" role="18ibNy">
+      <node concept="1Z5TYs" id="1dqt$gJ657q" role="3cqZAp">
+        <node concept="mw_s8" id="1dqt$gJ659q" role="1ZfhKB">
+          <node concept="2c44tf" id="1dqt$gJ659m" role="mwGJk">
+            <node concept="3uibUv" id="1dqt$gJ65hB" role="2c44tc">
+              <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="1dqt$gJ657t" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1dqt$gJ651i" role="mwGJk">
+            <node concept="1YBJjd" id="1dqt$gJ654g" role="1Z2MuG">
+              <ref role="1YBMHb" node="1dqt$gJ64Zy" resolve="vslCancelExParam" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1dqt$gJ64Zy" role="1YuTPh">
+      <property role="TrG5h" value="vslCancelExParam" />
+      <ref role="1YaFvo" to="un0u:1dqt$gJ63Lh" resolve="VslCancelExParam" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="1dqt$gJ65mk">
+    <property role="TrG5h" value="typeof_VslCancelMsgParam" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <node concept="3clFbS" id="1dqt$gJ65ml" role="18ibNy">
+      <node concept="1Z5TYs" id="1dqt$gJ65nh" role="3cqZAp">
+        <node concept="mw_s8" id="1dqt$gJ65ni" role="1ZfhKB">
+          <node concept="2c44tf" id="1dqt$gJ65nj" role="mwGJk">
+            <node concept="17QB3L" id="1dqt$gJ65SS" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="1dqt$gJ65nl" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1dqt$gJ65nm" role="mwGJk">
+            <node concept="1YBJjd" id="1dqt$gJ65wD" role="1Z2MuG">
+              <ref role="1YBMHb" node="1dqt$gJ65mn" resolve="vslCancelMsgParam" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1dqt$gJ65mn" role="1YuTPh">
+      <property role="TrG5h" value="vslCancelMsgParam" />
+      <ref role="1YaFvo" to="un0u:1dqt$gJ63DE" resolve="VslCancelMsgParam" />
     </node>
   </node>
 </model>

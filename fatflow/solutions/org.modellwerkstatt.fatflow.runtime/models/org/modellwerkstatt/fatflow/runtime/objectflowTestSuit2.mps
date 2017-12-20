@@ -266,6 +266,7 @@
         <child id="9110730801960131774" name="commandCall" index="2TpcRq" />
         <child id="9110730801960131775" name="pages" index="2TpcRr" />
       </concept>
+      <concept id="1394557069844560977" name="org.modellwerkstatt.objectflow.structure.VslCancelExParam" flags="ng" index="Wg$Cl" />
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
@@ -338,7 +339,6 @@
         <reference id="1993450443311478185" name="process" index="3lhHOO" />
         <child id="4678401045862677843" name="commandCreationInformation" index="27AfA_" />
         <child id="3748648354049763742" name="titleAddOn" index="IYfpf" />
-        <child id="1881524139086021953" name="exceptionConclusionStatements" index="10_K5X" />
         <child id="1881524139085993257" name="okConclusionStatements" index="10_T4l" />
         <child id="1881524139085993258" name="cancelConclusionStatements" index="10_T4m" />
         <child id="7912134052599565332" name="reverts" index="19Ho0k" />
@@ -388,6 +388,9 @@
         <property id="569389511234497411" name="fromServer" index="1$4sGX" />
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
+      </concept>
+      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
+        <reference id="59360650270057722" name="test" index="1Cak38" />
       </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
@@ -1401,13 +1404,51 @@
               </node>
             </node>
           </node>
-          <node concept="3y3z36" id="6_VKg6lu72n" role="3clFbw">
-            <node concept="10Nm6u" id="6_VKg6lu72F" role="3uHU7w" />
-            <node concept="3urNQE" id="6_VKg6lu71P" role="3uHU7B">
-              <ref role="3cqZAo" node="6_VKg6ltWsT" resolve="info" />
+          <node concept="1Wc70l" id="1dqt$gJOwuU" role="3clFbw">
+            <node concept="3clFbC" id="1dqt$gJOwx6" role="3uHU7w">
+              <node concept="10Nm6u" id="1dqt$gJOwxI" role="3uHU7w" />
+              <node concept="Wg$Cl" id="1dqt$gJOww0" role="3uHU7B" />
+            </node>
+            <node concept="3y3z36" id="6_VKg6lu72n" role="3uHU7B">
+              <node concept="3urNQE" id="6_VKg6lu71P" role="3uHU7B">
+                <ref role="3cqZAo" node="6_VKg6ltWsT" resolve="info" />
+              </node>
+              <node concept="10Nm6u" id="6_VKg6lu72F" role="3uHU7w" />
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="1dqt$gJOwzf" role="3cqZAp">
+          <node concept="3clFbS" id="1dqt$gJOwzh" role="3clFbx">
+            <node concept="3clFbF" id="1dqt$gJOwF6" role="3cqZAp">
+              <node concept="37vLTI" id="1dqt$gJOwIR" role="3clFbG">
+                <node concept="3clFbT" id="1dqt$gJOwJx" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="2OqwBi" id="1dqt$gJOwFx" role="37vLTJ">
+                  <node concept="3urNQE" id="1dqt$gJOwF4" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6_VKg6ltWsT" resolve="info" />
+                  </node>
+                  <node concept="2OwXpG" id="1dqt$gJOwGK" role="2OqNvi">
+                    <ref role="2Oxat5" node="6_VKg6lu16$" resolve="goPassedFinalException" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="1dqt$gJOwBj" role="3clFbw">
+            <node concept="3y3z36" id="1dqt$gJOwDE" role="3uHU7w">
+              <node concept="10Nm6u" id="1dqt$gJOwEi" role="3uHU7w" />
+              <node concept="Wg$Cl" id="1dqt$gJOwCp" role="3uHU7B" />
+            </node>
+            <node concept="3y3z36" id="1dqt$gJOwAn" role="3uHU7B">
+              <node concept="3urNQE" id="1dqt$gJOw_P" role="3uHU7B">
+                <ref role="3cqZAo" node="6_VKg6ltWsT" resolve="info" />
+              </node>
+              <node concept="10Nm6u" id="1dqt$gJOwAM" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1dqt$gJOwKq" role="3cqZAp" />
         <node concept="3clFbJ" id="26QcchVZGYo" role="3cqZAp">
           <node concept="3clFbS" id="26QcchVZGYp" role="3clFbx">
             <node concept="3clFbJ" id="26QcchVZGYx" role="3cqZAp">
@@ -1442,35 +1483,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="26QcchVZGXQ" role="3cqZAp" />
-      </node>
-    </node>
-    <node concept="20qIzx" id="6_VKg6lu57V" role="10_K5X">
-      <node concept="3clFbS" id="6_VKg6lu57W" role="2VODD2">
-        <node concept="3clFbJ" id="6_VKg6lu74L" role="3cqZAp">
-          <node concept="3clFbS" id="6_VKg6lu74M" role="3clFbx">
-            <node concept="3clFbF" id="6_VKg6lu74N" role="3cqZAp">
-              <node concept="37vLTI" id="6_VKg6lu74O" role="3clFbG">
-                <node concept="3clFbT" id="6_VKg6lu74P" role="37vLTx">
-                  <property role="3clFbU" value="true" />
-                </node>
-                <node concept="2OqwBi" id="6_VKg6lu74Q" role="37vLTJ">
-                  <node concept="3urNQE" id="6_VKg6lu74R" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6_VKg6ltWsT" resolve="info" />
-                  </node>
-                  <node concept="2OwXpG" id="6_VKg6lu7i4" role="2OqNvi">
-                    <ref role="2Oxat5" node="6_VKg6lu16$" resolve="goPassedFinalException" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3y3z36" id="6_VKg6lu74T" role="3clFbw">
-            <node concept="10Nm6u" id="6_VKg6lu74U" role="3uHU7w" />
-            <node concept="3urNQE" id="6_VKg6lu74V" role="3uHU7B">
-              <ref role="3cqZAo" node="6_VKg6ltWsT" resolve="info" />
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>
@@ -3716,6 +3728,66 @@
     <node concept="38J6qz" id="5p$R$8zo6$G" role="38MLOi">
       <ref role="38J6qw" node="6BKPvpE4gnx" resolve="Check Variant Handling in Command - running on SUGAR." />
     </node>
+    <node concept="1Cak35" id="1dqt$gJTwTf" role="38MLOi">
+      <ref role="1Cak38" node="26QcchVSzkz" resolve="Edit Invoice and conclude with done should run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTg" role="38MLOi">
+      <ref role="1Cak38" node="26QcchVZAtK" resolve="Edit Invoice and conclude with cancel should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTh" role="38MLOi">
+      <ref role="1Cak38" node="26QcchW0msz" resolve="Edit Invoice and conclude with cancel in command init should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTi" role="38MLOi">
+      <ref role="1Cak38" node="26QcchW05yC" resolve="Edit Invoice and conclude with cancel in page init should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTj" role="38MLOi">
+      <ref role="1Cak38" node="26QcchW05Og" resolve="Edit Invoice and conclude with cancel in page conclusion should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTk" role="38MLOi">
+      <ref role="1Cak38" node="26QcchW06fK" resolve="Edit Invoice and conclude with cancel in service should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTl" role="38MLOi">
+      <ref role="1Cak38" node="4Ta2XmW3g76" resolve="Edit Invoice and provoke exception in command init should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTn" role="38MLOi">
+      <ref role="1Cak38" node="4Ta2XmW3hUv" resolve="Edit Invoice and provoke exception in page conclusion should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTo" role="38MLOi">
+      <ref role="1Cak38" node="4Ta2XmW3iCX" resolve="Edit Invoice and provoke exception in service should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTp" role="38MLOi">
+      <ref role="1Cak38" node="4Ta2XmW3jEg" resolve="Edit Invoice and provoke exception in FINAL_OK should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTq" role="38MLOi">
+      <ref role="1Cak38" node="4Ta2XmW3l57" resolve="Edit Invoice and provoke exception in FINAL_CANCEL should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTr" role="38MLOi">
+      <ref role="1Cak38" node="4Ta2XmWuYIY" resolve="Edit Invoice and call error statement should NOT run startTransactionAndFlush()" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTs" role="38MLOi">
+      <ref role="1Cak38" node="7pudXbEHA07" resolve="Edit Invoice with GE and check total sum of all positions." />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTt" role="38MLOi">
+      <ref role="1Cak38" node="MdwaqkFb9j" resolve="Edit Invoice with GE (no page) and check total sum of all positions." />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTu" role="38MLOi">
+      <ref role="1Cak38" node="6Hh99C_ny8L" resolve="Edit Invoice and provoke a cancel of graph edit - revert entity." />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTv" role="38MLOi">
+      <ref role="1Cak38" node="248r5L2_bTb" resolve="Edit Invoice and provoke an exception in graph edit - revert entity." />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTw" role="38MLOi">
+      <ref role="1Cak38" node="248r5L2_fxl" resolve="Edit Invoice and provoke an error in graph edit - revert entity." />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTx" role="38MLOi">
+      <ref role="1Cak38" node="ySjYR5lZA4" resolve="Command Create Information should be accessible in test." />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTy" role="38MLOi">
+      <ref role="1Cak38" node="ySjYR5tLkQ" resolve="Command Create Information should be accessible in test - null when not in Final OK" />
+    </node>
+    <node concept="1Cak35" id="1dqt$gJTwTz" role="38MLOi">
+      <ref role="1Cak38" node="6BKPvpE4gnx" resolve="Check Variant Handling in Command - running on SUGAR." />
+    </node>
   </node>
   <node concept="2CG7Z0" id="5MCXLSo4_z9">
     <property role="TrG5h" value="MPreisOFXTests" />
@@ -4749,35 +4821,50 @@
     </node>
     <node concept="20qIzx" id="7pudXbEHykw" role="10_T4m">
       <node concept="3clFbS" id="7pudXbEHykx" role="2VODD2">
-        <node concept="3clFbF" id="7pudXbEH$c4" role="3cqZAp">
-          <node concept="37vLTI" id="7pudXbEH$fk" role="3clFbG">
-            <node concept="3clFbT" id="7pudXbEH$fY" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="2OqwBi" id="7pudXbEH$cC" role="37vLTJ">
-              <node concept="3urNQE" id="7pudXbEH$c2" role="2Oq$k0">
-                <ref role="3cqZAo" node="7pudXbEHzLj" resolve="info" />
+        <node concept="3clFbJ" id="1dqt$gJOxil" role="3cqZAp">
+          <node concept="3clFbS" id="1dqt$gJOxin" role="3clFbx">
+            <node concept="3clFbF" id="7pudXbEH$c4" role="3cqZAp">
+              <node concept="37vLTI" id="7pudXbEH$fk" role="3clFbG">
+                <node concept="3clFbT" id="7pudXbEH$fY" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="2OqwBi" id="7pudXbEH$cC" role="37vLTJ">
+                  <node concept="3urNQE" id="7pudXbEH$c2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7pudXbEHzLj" resolve="info" />
+                  </node>
+                  <node concept="2OwXpG" id="7pudXbEH$dt" role="2OqNvi">
+                    <ref role="2Oxat5" node="7pudXbEHz$p" resolve="wizPassedFinalCancel" />
+                  </node>
+                </node>
               </node>
-              <node concept="2OwXpG" id="7pudXbEH$dt" role="2OqNvi">
-                <ref role="2Oxat5" node="7pudXbEHz$p" resolve="wizPassedFinalCancel" />
+            </node>
+            <node concept="3clFbH" id="1dqt$gJOxim" role="3cqZAp" />
+          </node>
+          <node concept="3clFbC" id="1dqt$gJOxpl" role="3clFbw">
+            <node concept="10Nm6u" id="1dqt$gJOxsc" role="3uHU7w" />
+            <node concept="Wg$Cl" id="1dqt$gJOxlT" role="3uHU7B" />
+          </node>
+          <node concept="9aQIb" id="1dqt$gJOxF3" role="9aQIa">
+            <node concept="3clFbS" id="1dqt$gJOxF4" role="9aQI4">
+              <node concept="3clFbF" id="1dqt$gJOxHO" role="3cqZAp">
+                <node concept="37vLTI" id="1dqt$gJOxMr" role="3clFbG">
+                  <node concept="3clFbT" id="1dqt$gJOxN4" role="37vLTx">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                  <node concept="2OqwBi" id="1dqt$gJOxII" role="37vLTJ">
+                    <node concept="3urNQE" id="1dqt$gJOxHN" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7pudXbEHzLj" resolve="info" />
+                    </node>
+                    <node concept="2OwXpG" id="1dqt$gJOxKp" role="2OqNvi">
+                      <ref role="2Oxat5" node="7pudXbEHz_p" resolve="wizPassedFinalException" />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="1D2xWyKpnjR" role="3cqZAp">
-          <node concept="2OqwBi" id="1D2xWyKpnjO" role="3clFbG">
-            <node concept="10M0yZ" id="1D2xWyKpnjP" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="1D2xWyKpnjQ" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="Xl_RD" id="1D2xWyKpnkB" role="37wK5m">
-                <property role="Xl_RC" value="Exec final cancel" />
-              </node>
-            </node>
-          </node>
-        </node>
+        <node concept="3clFbH" id="1dqt$gJOxBO" role="3cqZAp" />
         <node concept="3clFbJ" id="7pudXbEHykZ" role="3cqZAp">
           <node concept="3clFbC" id="7pudXbEHyl0" role="3clFbw">
             <node concept="Rm8GO" id="7pudXbEHymW" role="3uHU7w">
@@ -4801,40 +4888,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="20qIzx" id="7pudXbEH$gO" role="10_K5X">
-      <node concept="3clFbS" id="7pudXbEH$gP" role="2VODD2">
-        <node concept="3clFbF" id="7pudXbEH$hq" role="3cqZAp">
-          <node concept="37vLTI" id="7pudXbEH$l1" role="3clFbG">
-            <node concept="3clFbT" id="7pudXbEH$lF" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="2OqwBi" id="7pudXbEH$hP" role="37vLTJ">
-              <node concept="3urNQE" id="7pudXbEH$hp" role="2Oq$k0">
-                <ref role="3cqZAo" node="7pudXbEHzLj" resolve="info" />
-              </node>
-              <node concept="2OwXpG" id="7pudXbEH$ja" role="2OqNvi">
-                <ref role="2Oxat5" node="7pudXbEHz_p" resolve="wizPassedFinalException" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1D2xWyKpnqU" role="3cqZAp">
-          <node concept="2OqwBi" id="1D2xWyKpnqV" role="3clFbG">
-            <node concept="10M0yZ" id="1D2xWyKpnqW" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="1D2xWyKpnqX" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="Xl_RD" id="1D2xWyKpnqY" role="37wK5m">
-                <property role="Xl_RC" value="Exec final ex" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7pudXbEH$md" role="3cqZAp" />
       </node>
     </node>
   </node>
