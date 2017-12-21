@@ -389,9 +389,6 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -1453,6 +1450,11 @@
           <node concept="3clFbS" id="26QcchVZGYp" role="3clFbx">
             <node concept="3clFbJ" id="26QcchVZGYx" role="3cqZAp">
               <node concept="3clFbS" id="26QcchVZGYy" role="3clFbx">
+                <node concept="3SKdUt" id="5woBeTgQ7Q6" role="3cqZAp">
+                  <node concept="3SKdUq" id="5woBeTgQ7Q8" role="3SKWNk">
+                    <property role="3SKdUp" value="this will provoke the msg." />
+                  </node>
+                </node>
                 <node concept="3Mo9wd" id="371pDBOrLtn" role="3cqZAp">
                   <node concept="Xl_RD" id="371pDBOrLtp" role="10Adiu">
                     <property role="Xl_RC" value="Exception in Final Cancel" />
@@ -1899,7 +1901,7 @@
               <ref role="3zku8S" node="26QcchVZAtO" resolve="info" />
             </node>
             <node concept="liA8E" id="26QcchVZAu1" role="2OqNvi">
-              <ref role="37wK5l" node="6_VKg6lu3zR" resolve="go_finalCANCEL_noError" />
+              <ref role="37wK5l" node="5woBeTgRp_3" resolve="go_finalUserCANCEL_noError" />
             </node>
           </node>
         </node>
@@ -2527,14 +2529,21 @@
       </node>
       <node concept="3cqZAl" id="4Ta2XmW3l5d" role="3clF45" />
       <node concept="3clFbS" id="4Ta2XmW3l5e" role="3clF47">
+        <node concept="3SKdUt" id="5woBeTgQ7L$" role="3cqZAp">
+          <node concept="3SKdUq" id="5woBeTgQ7LA" role="3SKWNk">
+            <property role="3SKdUp" value="passed finacl cancel, but not exception" />
+          </node>
+        </node>
         <node concept="1gVbGN" id="26QcchW0ip1" role="3cqZAp">
           <node concept="1Wc70l" id="26QcchW0ip2" role="1gVkn0">
-            <node concept="2OqwBi" id="26QcchW0ip3" role="3uHU7w">
-              <node concept="3zkua3" id="26QcchW0ip4" role="2Oq$k0">
-                <ref role="3zku8S" node="4Ta2XmW3l58" resolve="info" />
-              </node>
-              <node concept="2OwXpG" id="26QcchW0ip5" role="2OqNvi">
-                <ref role="2Oxat5" node="6_VKg6lu16$" resolve="goPassedFinalException" />
+            <node concept="3fqX7Q" id="5woBeTgQ7O2" role="3uHU7w">
+              <node concept="2OqwBi" id="5woBeTgQ7O4" role="3fr31v">
+                <node concept="3zkua3" id="5woBeTgQ7O5" role="2Oq$k0">
+                  <ref role="3zku8S" node="4Ta2XmW3l58" resolve="info" />
+                </node>
+                <node concept="2OwXpG" id="5woBeTgQ7O6" role="2OqNvi">
+                  <ref role="2Oxat5" node="6_VKg6lu16$" resolve="goPassedFinalException" />
+                </node>
               </node>
             </node>
             <node concept="1Wc70l" id="26QcchW0ip6" role="3uHU7B">
@@ -3727,66 +3736,6 @@
     </node>
     <node concept="38J6qz" id="5p$R$8zo6$G" role="38MLOi">
       <ref role="38J6qw" node="6BKPvpE4gnx" resolve="Check Variant Handling in Command - running on SUGAR." />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTf" role="38MLOi">
-      <ref role="1Cak38" node="26QcchVSzkz" resolve="Edit Invoice and conclude with done should run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTg" role="38MLOi">
-      <ref role="1Cak38" node="26QcchVZAtK" resolve="Edit Invoice and conclude with cancel should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTh" role="38MLOi">
-      <ref role="1Cak38" node="26QcchW0msz" resolve="Edit Invoice and conclude with cancel in command init should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTi" role="38MLOi">
-      <ref role="1Cak38" node="26QcchW05yC" resolve="Edit Invoice and conclude with cancel in page init should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTj" role="38MLOi">
-      <ref role="1Cak38" node="26QcchW05Og" resolve="Edit Invoice and conclude with cancel in page conclusion should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTk" role="38MLOi">
-      <ref role="1Cak38" node="26QcchW06fK" resolve="Edit Invoice and conclude with cancel in service should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTl" role="38MLOi">
-      <ref role="1Cak38" node="4Ta2XmW3g76" resolve="Edit Invoice and provoke exception in command init should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTn" role="38MLOi">
-      <ref role="1Cak38" node="4Ta2XmW3hUv" resolve="Edit Invoice and provoke exception in page conclusion should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTo" role="38MLOi">
-      <ref role="1Cak38" node="4Ta2XmW3iCX" resolve="Edit Invoice and provoke exception in service should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTp" role="38MLOi">
-      <ref role="1Cak38" node="4Ta2XmW3jEg" resolve="Edit Invoice and provoke exception in FINAL_OK should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTq" role="38MLOi">
-      <ref role="1Cak38" node="4Ta2XmW3l57" resolve="Edit Invoice and provoke exception in FINAL_CANCEL should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTr" role="38MLOi">
-      <ref role="1Cak38" node="4Ta2XmWuYIY" resolve="Edit Invoice and call error statement should NOT run startTransactionAndFlush()" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTs" role="38MLOi">
-      <ref role="1Cak38" node="7pudXbEHA07" resolve="Edit Invoice with GE and check total sum of all positions." />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTt" role="38MLOi">
-      <ref role="1Cak38" node="MdwaqkFb9j" resolve="Edit Invoice with GE (no page) and check total sum of all positions." />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTu" role="38MLOi">
-      <ref role="1Cak38" node="6Hh99C_ny8L" resolve="Edit Invoice and provoke a cancel of graph edit - revert entity." />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTv" role="38MLOi">
-      <ref role="1Cak38" node="248r5L2_bTb" resolve="Edit Invoice and provoke an exception in graph edit - revert entity." />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTw" role="38MLOi">
-      <ref role="1Cak38" node="248r5L2_fxl" resolve="Edit Invoice and provoke an error in graph edit - revert entity." />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTx" role="38MLOi">
-      <ref role="1Cak38" node="ySjYR5lZA4" resolve="Command Create Information should be accessible in test." />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTy" role="38MLOi">
-      <ref role="1Cak38" node="ySjYR5tLkQ" resolve="Command Create Information should be accessible in test - null when not in Final OK" />
-    </node>
-    <node concept="1Cak35" id="1dqt$gJTwTz" role="38MLOi">
-      <ref role="1Cak38" node="6BKPvpE4gnx" resolve="Check Variant Handling in Command - running on SUGAR." />
     </node>
   </node>
   <node concept="2CG7Z0" id="5MCXLSo4_z9">
@@ -5407,6 +5356,34 @@
               </node>
               <node concept="3fqX7Q" id="6_VKg6lu3$1" role="3uHU7w">
                 <node concept="37vLTw" id="6_VKg6lu4jF" role="3fr31v">
+                  <ref role="3cqZAo" node="6_VKg6lu16$" resolve="goPassedFinalException" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5woBeTgRp_3" role="jymVt">
+      <property role="TrG5h" value="go_finalUserCANCEL_noError" />
+      <node concept="10P_77" id="5woBeTgRp_4" role="3clF45" />
+      <node concept="3Tm1VV" id="5woBeTgRp_5" role="1B3o_S" />
+      <node concept="3clFbS" id="5woBeTgRp_6" role="3clF47">
+        <node concept="3clFbF" id="5woBeTgRp_7" role="3cqZAp">
+          <node concept="1Wc70l" id="5woBeTgRp_8" role="3clFbG">
+            <node concept="3fqX7Q" id="5woBeTgRqcI" role="3uHU7w">
+              <node concept="37vLTw" id="5woBeTgRqcK" role="3fr31v">
+                <ref role="3cqZAo" node="6_VKg6lu16w" resolve="goPassedFinalCancel" />
+              </node>
+            </node>
+            <node concept="1Wc70l" id="5woBeTgRp_a" role="3uHU7B">
+              <node concept="3fqX7Q" id="5woBeTgRp_b" role="3uHU7B">
+                <node concept="37vLTw" id="5woBeTgRp_c" role="3fr31v">
+                  <ref role="3cqZAo" node="6_VKg6lu16s" resolve="goPassedFinalOk" />
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="5woBeTgRp_d" role="3uHU7w">
+                <node concept="37vLTw" id="5woBeTgRp_e" role="3fr31v">
                   <ref role="3cqZAo" node="6_VKg6lu16$" resolve="goPassedFinalException" />
                 </node>
               </node>

@@ -18651,7 +18651,7 @@
                       </node>
                     </node>
                     <node concept="Xl_RD" id="1HDSUXvZDXa" role="3uHU7w">
-                      <property role="Xl_RC" value=", readyForFinalOk" />
+                      <property role="Xl_RC" value=", readyForFinalOk=" />
                     </node>
                   </node>
                 </node>
@@ -33487,6 +33487,39 @@
                       <property role="3SKdUp" value="what is not a problem. might be on purpose, right? " />
                     </node>
                   </node>
+                  <node concept="3clFbJ" id="5woBeTgA8Xp" role="3cqZAp">
+                    <node concept="3clFbS" id="5woBeTgA8Xr" role="3clFbx">
+                      <node concept="3clFbF" id="5woBeTgA9UU" role="3cqZAp">
+                        <node concept="2OqwBi" id="5woBeTgAa0s" role="3clFbG">
+                          <node concept="37vLTw" id="5woBeTgA9US" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
+                          </node>
+                          <node concept="liA8E" id="5woBeTgAai6" role="2OqNvi">
+                            <ref role="37wK5l" to="28jr:3IuMOEB7eZz" resolve="extForceCancelConclusion" />
+                            <node concept="2OqwBi" id="5woBeTgAaEd" role="37wK5m">
+                              <node concept="37vLTw" id="5woBeTgAaxP" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6_VKg6lbKJl" resolve="__cancelException" />
+                              </node>
+                              <node concept="liA8E" id="5woBeTgAaWs" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                              </node>
+                            </node>
+                            <node concept="10Nm6u" id="5woBeTgAbcU" role="37wK5m" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3fqX7Q" id="5woBeTgLlmj" role="3clFbw">
+                      <node concept="2OqwBi" id="5woBeTgLlml" role="3fr31v">
+                        <node concept="37vLTw" id="5woBeTgLlmm" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
+                        </node>
+                        <node concept="liA8E" id="5woBeTgLlmn" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="6_VKg6ldXas" role="3cqZAp">
                     <node concept="2OqwBi" id="6_VKg6ldYgz" role="3clFbG">
                       <node concept="2YIFZM" id="6_VKg6ldXs2" role="2Oq$k0">
@@ -33689,18 +33722,35 @@
                       <property role="3SKdUp" value="since there, PageFlag is handled like a cancel ! " />
                     </node>
                   </node>
-                  <node concept="3clFbF" id="6_VKg6ls$en" role="3cqZAp">
-                    <node concept="2OqwBi" id="6_VKg6ls$oW" role="3clFbG">
-                      <node concept="37vLTw" id="6_VKg6ls$el" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
-                      </node>
-                      <node concept="liA8E" id="6_VKg6ls$BH" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:3IuMOEB7eZz" resolve="extForceCancelConclusion" />
-                        <node concept="Xl_RD" id="1HDSUXwec5F" role="37wK5m">
-                          <property role="Xl_RC" value="EX while handling flag in testSuit." />
+                  <node concept="3clFbJ" id="5woBeTgAe8q" role="3cqZAp">
+                    <node concept="3clFbS" id="5woBeTgAe8s" role="3clFbx">
+                      <node concept="3clFbF" id="5woBeTgAbQm" role="3cqZAp">
+                        <node concept="2OqwBi" id="5woBeTgAbQn" role="3clFbG">
+                          <node concept="37vLTw" id="5woBeTgAbQo" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
+                          </node>
+                          <node concept="liA8E" id="5woBeTgAbQp" role="2OqNvi">
+                            <ref role="37wK5l" to="28jr:3IuMOEB7eZz" resolve="extForceCancelConclusion" />
+                            <node concept="2OqwBi" id="5woBeTgAbQq" role="37wK5m">
+                              <node concept="37vLTw" id="5woBeTgAcpH" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6_VKg6lsuS4" resolve="__flagException" />
+                              </node>
+                              <node concept="liA8E" id="5woBeTgAbQs" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                              </node>
+                            </node>
+                            <node concept="10Nm6u" id="5woBeTgAbQt" role="37wK5m" />
+                          </node>
                         </node>
-                        <node concept="37vLTw" id="6_VKg6ls$JY" role="37wK5m">
-                          <ref role="3cqZAo" node="6_VKg6lsuS4" resolve="__flagException" />
+                      </node>
+                    </node>
+                    <node concept="3fqX7Q" id="5woBeTgLk3E" role="3clFbw">
+                      <node concept="2OqwBi" id="5woBeTgLk3G" role="3fr31v">
+                        <node concept="37vLTw" id="5woBeTgLk3H" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
+                        </node>
+                        <node concept="liA8E" id="5woBeTgLk3I" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
                         </node>
                       </node>
                     </node>
@@ -33746,18 +33796,32 @@
                       <property role="3SKdUp" value="this should not be necessary ... " />
                     </node>
                   </node>
-                  <node concept="3clFbF" id="6U6qQMZD$m1" role="3cqZAp">
-                    <node concept="2OqwBi" id="6U6qQMZD$m2" role="3clFbG">
-                      <node concept="37vLTw" id="6U6qQMZD$m3" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
-                      </node>
-                      <node concept="liA8E" id="6U6qQMZD$m4" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:3IuMOEB7eZz" resolve="extForceCancelConclusion" />
-                        <node concept="Xl_RD" id="1HDSUXweeV7" role="37wK5m">
-                          <property role="Xl_RC" value="EX while handling command in testSuit." />
+                  <node concept="3clFbJ" id="5woBeTgAgoT" role="3cqZAp">
+                    <node concept="3clFbS" id="5woBeTgAgoU" role="3clFbx">
+                      <node concept="3clFbF" id="5woBeTgAgoV" role="3cqZAp">
+                        <node concept="2OqwBi" id="5woBeTgAgoW" role="3clFbG">
+                          <node concept="37vLTw" id="5woBeTgAgoX" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
+                          </node>
+                          <node concept="liA8E" id="5woBeTgAgoY" role="2OqNvi">
+                            <ref role="37wK5l" to="28jr:3IuMOEB7eZz" resolve="extForceCancelConclusion" />
+                            <node concept="Xl_RD" id="5woBeTgAhmB" role="37wK5m">
+                              <property role="Xl_RC" value="EX while handling command in testsuit" />
+                            </node>
+                            <node concept="37vLTw" id="5woBeTgAjgI" role="37wK5m">
+                              <ref role="3cqZAo" node="6U6qQMZD$lU" resolve="__exceptions" />
+                            </node>
+                          </node>
                         </node>
-                        <node concept="37vLTw" id="6U6qQMZD$m5" role="37wK5m">
-                          <ref role="3cqZAo" node="6U6qQMZD$lU" resolve="__exceptions" />
+                      </node>
+                    </node>
+                    <node concept="3fqX7Q" id="5woBeTgLiLf" role="3clFbw">
+                      <node concept="2OqwBi" id="5woBeTgLiLh" role="3fr31v">
+                        <node concept="37vLTw" id="5woBeTgLiLi" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
+                        </node>
+                        <node concept="liA8E" id="5woBeTgLiLj" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
                         </node>
                       </node>
                     </node>
@@ -33774,21 +33838,31 @@
             <node concept="3clFbJ" id="6U6qQMZD$mc" role="3cqZAp">
               <node concept="3fqX7Q" id="6U6qQMZD$md" role="3clFbw">
                 <node concept="1eOMI4" id="6U6qQMZD$me" role="3fr31v">
-                  <node concept="22lmx$" id="6U6qQMZD$mf" role="1eOMHV">
-                    <node concept="2OqwBi" id="6U6qQMZD$mg" role="3uHU7w">
-                      <node concept="37vLTw" id="6U6qQMZD$mh" role="2Oq$k0">
+                  <node concept="22lmx$" id="5woBeTgQihK" role="1eOMHV">
+                    <node concept="2OqwBi" id="5woBeTgQiZk" role="3uHU7w">
+                      <node concept="37vLTw" id="5woBeTgQiGm" role="2Oq$k0">
                         <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
                       </node>
-                      <node concept="liA8E" id="6U6qQMZD$mi" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
+                      <node concept="liA8E" id="5woBeTgQjs3" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:1HDSUXwnQpO" resolve="isUserCancelTerminated" />
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="6U6qQMZD$mj" role="3uHU7B">
-                      <node concept="37vLTw" id="6U6qQMZD$mk" role="2Oq$k0">
-                        <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
+                    <node concept="22lmx$" id="6U6qQMZD$mf" role="3uHU7B">
+                      <node concept="2OqwBi" id="6U6qQMZD$mj" role="3uHU7B">
+                        <node concept="37vLTw" id="6U6qQMZD$mk" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
+                        </node>
+                        <node concept="liA8E" id="6U6qQMZD$ml" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:6dnXV8mIGtD" resolve="isTerminatedOk" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="6U6qQMZD$ml" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:6dnXV8mIGtD" resolve="isTerminatedOk" />
+                      <node concept="2OqwBi" id="6U6qQMZD$mg" role="3uHU7w">
+                        <node concept="37vLTw" id="6U6qQMZD$mh" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6U6qQMZCTe4" resolve="cmd" />
+                        </node>
+                        <node concept="liA8E" id="6U6qQMZD$mi" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
+                        </node>
                       </node>
                     </node>
                   </node>
