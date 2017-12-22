@@ -6072,5 +6072,28 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="61AGu4QMc4i">
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <ref role="1M2myG" to="un0u:61AGu4QMani" resolve="PushObject" />
+    <node concept="nKS2y" id="61AGu4QMc4j" role="1MLUbF">
+      <node concept="3clFbS" id="61AGu4QMc4k" role="2VODD2">
+        <node concept="3clFbF" id="61AGu4QMc5p" role="3cqZAp">
+          <node concept="2OqwBi" id="61AGu4QMcn_" role="3clFbG">
+            <node concept="2OqwBi" id="61AGu4QMc80" role="2Oq$k0">
+              <node concept="nLn13" id="61AGu4QMc_X" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="61AGu4QMccM" role="2OqNvi">
+                <node concept="1xMEDy" id="61AGu4QMccO" role="1xVPHs">
+                  <node concept="chp4Y" id="61AGu4QMcex" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:3U0QWztHgKC" resolve="OFXRunCmdPage" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="61AGu4QMcx2" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

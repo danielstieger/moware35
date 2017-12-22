@@ -12776,5 +12776,28 @@
       <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
     </node>
   </node>
+  <node concept="24kQdi" id="61AGu4QManw">
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <ref role="1XX52x" to="un0u:61AGu4QMani" resolve="PushObject" />
+    <node concept="3EZMnI" id="61AGu4QMany" role="2wV5jI">
+      <node concept="PMmxH" id="61AGu4QManz" role="3EZMnx">
+        <property role="1cu_pB" value="0" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" node="6h3dJ0DOKhr" resolve="O2SelectedObjects" />
+      </node>
+      <node concept="3F0ifn" id="61AGu4QMan$" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+        <ref role="1k5W1q" to="tpen:hY9fg1G" resolve="LeftParenAfterName" />
+      </node>
+      <node concept="3F1sOY" id="61AGu4QManW" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:61AGu4QManM" />
+      </node>
+      <node concept="3F0ifn" id="61AGu4QManC" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
+      </node>
+      <node concept="l2Vlx" id="61AGu4QManD" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
