@@ -325,6 +325,9 @@
       <concept id="271985905034983108" name="org.modellwerkstatt.objectflow.structure.DezimalLiteral" flags="ng" index="1mgVXT">
         <property id="271985905034983109" name="value" index="1mgVXS" />
       </concept>
+      <concept id="6946435056110446034" name="org.modellwerkstatt.objectflow.structure.PushObject" flags="ng" index="1mFxgN">
+        <child id="6946435056110446066" name="exp" index="1mFxgj" />
+      </concept>
       <concept id="4358152451302643225" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitPage" flags="ng" index="1sBLa9">
         <property id="4358152451302649344" name="boundObjectType" index="1sBMEg" />
         <reference id="4358152451302645278" name="page" index="1sBLEe" />
@@ -374,6 +377,9 @@
         <reference id="4503841283130075661" name="page" index="3zdv75" />
         <reference id="4503841283130075662" name="conclusion" index="3zdv76" />
         <child id="4503841283130100950" name="beforeConclude" index="3zdlsu" />
+      </concept>
+      <concept id="4503841283131944576" name="org.modellwerkstatt.objectflow.structure.OFXRunCmdVarRef" flags="ng" index="3zknl8">
+        <reference id="4503841283131945225" name="varRef" index="3zkmF1" />
       </concept>
       <concept id="6952410984693239415" name="org.modellwerkstatt.objectflow.structure.OFXTestMethocCallVarRef" flags="ng" index="3zkua3">
         <reference id="6952410984693239500" name="varReference" index="3zku8S" />
@@ -9559,6 +9565,11 @@
             <ref role="3zdv76" node="5MCXLSnMhKi" resolve="Save &amp; Close" />
             <node concept="3zdqQj" id="61AGu4Q4VvM" role="3zdlsu">
               <node concept="3clFbS" id="61AGu4Q4VvN" role="2VODD2">
+                <node concept="1mFxgN" id="61AGu4RvJG9" role="3cqZAp">
+                  <node concept="3zknl8" id="61AGu4RvS_V" role="1mFxgj">
+                    <ref role="3zkmF1" node="61AGu4Q4VvL" resolve="invoice" />
+                  </node>
+                </node>
                 <node concept="3clFbF" id="61AGu4QLlYx" role="3cqZAp">
                   <node concept="2OqwBi" id="61AGu4QLlYu" role="3clFbG">
                     <node concept="10M0yZ" id="61AGu4QLlYv" role="2Oq$k0">

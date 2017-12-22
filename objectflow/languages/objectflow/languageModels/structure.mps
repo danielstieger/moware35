@@ -4725,7 +4725,8 @@
     <property role="TrG5h" value="PushObject" />
     <property role="34LRSv" value="pushSelection" />
     <property role="R4oN_" value="push an object as selection" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
+    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
     <node concept="1TJgyj" id="61AGu4QManM" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="exp" />
