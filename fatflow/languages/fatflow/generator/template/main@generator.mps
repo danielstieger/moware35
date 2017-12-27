@@ -38581,7 +38581,7 @@
                             <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
                             <node concept="3cpWs3" id="2q7OPuQ77yd" role="37wK5m">
                               <node concept="Xl_RD" id="2q7OPuQ77ye" role="3uHU7w">
-                                <property role="Xl_RC" value="still not terminated in final ok, after all pages handled." />
+                                <property role="Xl_RC" value="still not terminated in final ok/cancel, after all pages handled." />
                               </node>
                               <node concept="3cpWs3" id="2q7OPuQ77yf" role="3uHU7B">
                                 <node concept="Xl_RD" id="2q7OPuQ77yg" role="3uHU7B">
@@ -38596,13 +38596,25 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3fqX7Q" id="2q7OPuQ77yn" role="3clFbw">
-                      <node concept="2OqwBi" id="2q7OPuQ77yo" role="3fr31v">
-                        <node concept="37vLTw" id="2q7OPuQ77yp" role="2Oq$k0">
-                          <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
-                        </node>
-                        <node concept="liA8E" id="2q7OPuQ77yq" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:6dnXV8mIGtD" resolve="isTerminatedOk" />
+                    <node concept="3fqX7Q" id="2wQSPIfTAvm" role="3clFbw">
+                      <node concept="1eOMI4" id="2wQSPIfTAvo" role="3fr31v">
+                        <node concept="22lmx$" id="2wQSPIfTAvp" role="1eOMHV">
+                          <node concept="2OqwBi" id="2wQSPIfTAvr" role="3uHU7B">
+                            <node concept="37vLTw" id="2wQSPIfTAvs" role="2Oq$k0">
+                              <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
+                            </node>
+                            <node concept="liA8E" id="2wQSPIfTAvt" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:6dnXV8mIGtD" resolve="isTerminatedOk" />
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="2wQSPIfTD9L" role="3uHU7w">
+                            <node concept="37vLTw" id="2wQSPIfTCX8" role="2Oq$k0">
+                              <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
+                            </node>
+                            <node concept="liA8E" id="2wQSPIfTEwj" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:6dnXV8mIGtH" resolve="isTerminatedCancel" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
