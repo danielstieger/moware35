@@ -12389,6 +12389,10 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
       </node>
+      <node concept="3F0ifn" id="3owBZfUqWqV" role="3EZMnx">
+        <property role="3F0ifm" value="// getSelected(), pushSelection() are available" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+      </node>
       <node concept="3F1sOY" id="3U0QWztHiOI" role="3EZMnx">
         <property role="1$x2rV" value="&lt;before conclude&gt;" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />

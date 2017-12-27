@@ -4711,14 +4711,6 @@
     <property role="3GE5qa" value="OFXCore.command" />
     <property role="TrG5h" value="IVslCancelParam" />
   </node>
-  <node concept="1TIwiD" id="61AGu4PZcvl">
-    <property role="1pbfSe" value="1771865674" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
-    <property role="TrG5h" value="OFXPagePaneConceptFuncParam" />
-    <property role="34LRSv" value="__selectionProvider" />
-    <property role="R4oN_" value="selection crtl access" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-  </node>
   <node concept="1TIwiD" id="61AGu4QMani">
     <property role="1pbfSe" value="1758505037" />
     <property role="3GE5qa" value="OFXCore.actions" />
