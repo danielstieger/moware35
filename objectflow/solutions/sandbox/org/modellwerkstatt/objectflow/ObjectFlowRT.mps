@@ -2435,6 +2435,67 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="3jf78U038S5" role="jymVt" />
+    <node concept="2YIFZL" id="3jf78U038H6" role="jymVt">
+      <property role="TrG5h" value="_____organizeCurrentStacktrace_____" />
+      <node concept="17QB3L" id="3jf78U038H7" role="3clF45" />
+      <node concept="3Tm1VV" id="3jf78U038H8" role="1B3o_S" />
+      <node concept="3clFbS" id="3jf78U038H9" role="3clF47">
+        <node concept="3cpWs8" id="3jf78U03ahu" role="3cqZAp">
+          <node concept="3cpWsn" id="3jf78U03ahx" role="3cpWs9">
+            <property role="TrG5h" value="state" />
+            <node concept="17QB3L" id="3jf78U03ahs" role="1tU5fm" />
+            <node concept="Xl_RD" id="3jf78U03amm" role="33vP2m">
+              <property role="Xl_RC" value="" />
+            </node>
+          </node>
+        </node>
+        <node concept="1DcWWT" id="1HDSUXweriP" role="3cqZAp">
+          <node concept="3clFbS" id="1HDSUXweriR" role="2LFqv$">
+            <node concept="3clFbF" id="1HDSUXwerEG" role="3cqZAp">
+              <node concept="d57v9" id="1HDSUXwerFI" role="3clFbG">
+                <node concept="3cpWs3" id="1HDSUXwetiD" role="37vLTx">
+                  <node concept="Xl_RD" id="1HDSUXwetj1" role="3uHU7w">
+                    <property role="Xl_RC" value="\n" />
+                  </node>
+                  <node concept="2OqwBi" id="1HDSUXwerHN" role="3uHU7B">
+                    <node concept="37vLTw" id="1HDSUXwerGG" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1HDSUXweriS" resolve="elem" />
+                    </node>
+                    <node concept="liA8E" id="1HDSUXwerJw" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~StackTraceElement.toString():java.lang.String" resolve="toString" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="3jf78U03avI" role="37vLTJ">
+                  <ref role="3cqZAo" node="3jf78U03ahx" resolve="state" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="1HDSUXweriS" role="1Duv9x">
+            <property role="TrG5h" value="elem" />
+            <node concept="3uibUv" id="1HDSUXweruw" role="1tU5fm">
+              <ref role="3uigEE" to="wyt6:~StackTraceElement" resolve="StackTraceElement" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="1HDSUXwereD" role="1DdaDG">
+            <node concept="2YIFZM" id="1HDSUXwerdO" role="2Oq$k0">
+              <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+              <ref role="37wK5l" to="wyt6:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+            </node>
+            <node concept="liA8E" id="1HDSUXwerg7" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Thread.getStackTrace():java.lang.StackTraceElement[]" resolve="getStackTrace" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="3jf78U03ap0" role="3cqZAp">
+          <node concept="37vLTw" id="3jf78U03aqC" role="3cqZAk">
+            <ref role="3cqZAo" node="3jf78U03ahx" resolve="state" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="3J6KGB__don" role="jymVt" />
     <node concept="2tJIrI" id="2UFgF_lMySG" role="jymVt" />
     <node concept="2YIFZL" id="5OLgD$_0Bd" role="jymVt">
