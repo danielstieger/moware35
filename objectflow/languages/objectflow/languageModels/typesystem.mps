@@ -14768,5 +14768,123 @@
       <ref role="1YaFvo" to="un0u:3U0QWztHgKC" resolve="OFXRunCmdPage" />
     </node>
   </node>
+  <node concept="18kY7G" id="382CQP5JD_z">
+    <property role="TrG5h" value="check_OFXBatchJob" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="382CQP5JD_$" role="18ibNy">
+      <node concept="3clFbJ" id="382CQP5RwB6" role="3cqZAp">
+        <node concept="3clFbS" id="382CQP5RwB8" role="3clFbx">
+          <node concept="2MkqsV" id="382CQP5RybP" role="3cqZAp">
+            <node concept="Xl_RD" id="382CQP5Ryc4" role="2MkJ7o">
+              <property role="Xl_RC" value="Not using spaces in BatchJob is strongly recommended." />
+            </node>
+            <node concept="1YBJjd" id="382CQP5Ryh3" role="2OEOjV">
+              <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="382CQP5Rxlq" role="3clFbw">
+          <node concept="2OqwBi" id="382CQP5RxLw" role="3uHU7w">
+            <node concept="2OqwBi" id="382CQP5Rxun" role="2Oq$k0">
+              <node concept="1YBJjd" id="382CQP5RxqN" role="2Oq$k0">
+                <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+              </node>
+              <node concept="3TrcHB" id="382CQP5RxAU" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="382CQP5Ry1H" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="382CQP5Ry3C" role="37wK5m">
+                <property role="Xl_RC" value=" " />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="382CQP5Rx1x" role="3uHU7B">
+            <node concept="2OqwBi" id="382CQP5RwGQ" role="2Oq$k0">
+              <node concept="1YBJjd" id="382CQP5RwD_" role="2Oq$k0">
+                <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+              </node>
+              <node concept="3TrcHB" id="382CQP5RwSp" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="17RvpY" id="382CQP5Rxe0" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="382CQP5RyhC" role="3cqZAp" />
+      <node concept="3clFbJ" id="382CQP5JD_L" role="3cqZAp">
+        <node concept="3clFbS" id="382CQP5JD_N" role="3clFbx" />
+        <node concept="2OqwBi" id="382CQP5PAZh" role="3clFbw">
+          <node concept="1YBJjd" id="382CQP5PAW0" role="2Oq$k0">
+            <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+          </node>
+          <node concept="2qgKlT" id="382CQP5PB9j" role="2OqNvi">
+            <ref role="37wK5l" to="70o0:382CQP5P$Ga" resolve="onlyForIncludePurpose" />
+          </node>
+        </node>
+        <node concept="9aQIb" id="382CQP5PBg9" role="9aQIa">
+          <node concept="3clFbS" id="382CQP5PBga" role="9aQI4">
+            <node concept="3clFbH" id="382CQP5R4yy" role="3cqZAp" />
+            <node concept="3clFbJ" id="382CQP5R23j" role="3cqZAp">
+              <node concept="3clFbS" id="382CQP5R23l" role="3clFbx">
+                <node concept="2MkqsV" id="382CQP5JFYs" role="3cqZAp">
+                  <node concept="Xl_RD" id="382CQP5JFYC" role="2MkJ7o">
+                    <property role="Xl_RC" value="Provide a configuration, a producer and a consumer for this job." />
+                  </node>
+                  <node concept="1YBJjd" id="382CQP5JG0E" role="2OEOjV">
+                    <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+                  </node>
+                </node>
+              </node>
+              <node concept="22lmx$" id="382CQP5R3Cr" role="3clFbw">
+                <node concept="2OqwBi" id="382CQP5R46R" role="3uHU7w">
+                  <node concept="2OqwBi" id="382CQP5R3Le" role="2Oq$k0">
+                    <node concept="1YBJjd" id="382CQP5R3GZ" role="2Oq$k0">
+                      <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+                    </node>
+                    <node concept="3TrEf2" id="382CQP5R3VT" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:6IpTZfaBQl9" />
+                    </node>
+                  </node>
+                  <node concept="3w_OXm" id="382CQP5R4oN" role="2OqNvi" />
+                </node>
+                <node concept="22lmx$" id="382CQP5R2Il" role="3uHU7B">
+                  <node concept="2OqwBi" id="382CQP5R2pp" role="3uHU7B">
+                    <node concept="2OqwBi" id="382CQP5R27q" role="2Oq$k0">
+                      <node concept="1YBJjd" id="382CQP5R249" role="2Oq$k0">
+                        <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+                      </node>
+                      <node concept="3TrEf2" id="382CQP5R2gj" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:7TJOmj6MJQg" />
+                      </node>
+                    </node>
+                    <node concept="3w_OXm" id="382CQP5R2_n" role="2OqNvi" />
+                  </node>
+                  <node concept="2OqwBi" id="382CQP5R39z" role="3uHU7w">
+                    <node concept="2OqwBi" id="382CQP5R2P0" role="2Oq$k0">
+                      <node concept="1YBJjd" id="382CQP5R2L$" role="2Oq$k0">
+                        <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+                      </node>
+                      <node concept="3TrEf2" id="382CQP5R2YH" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:7TJOmj6ZhCF" />
+                      </node>
+                    </node>
+                    <node concept="3w_OXm" id="382CQP5R3qx" role="2OqNvi" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="382CQP5R235" role="3cqZAp" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="382CQP5JD_A" role="1YuTPh">
+      <property role="TrG5h" value="ofxBatchJob" />
+      <ref role="1YaFvo" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
+    </node>
+  </node>
 </model>
 

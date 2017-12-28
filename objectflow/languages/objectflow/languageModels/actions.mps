@@ -745,6 +745,48 @@
         </node>
       </node>
     </node>
+    <node concept="37WvkG" id="382CQP5NkQv" role="37WGs$">
+      <ref role="37XkoT" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
+      <node concept="37Y9Zx" id="382CQP5NkQw" role="37ZfLb">
+        <node concept="3clFbS" id="382CQP5NkQx" role="2VODD2">
+          <node concept="3clFbF" id="382CQP5NkTL" role="3cqZAp">
+            <node concept="37vLTI" id="382CQP5Nlbv" role="3clFbG">
+              <node concept="Xl_RD" id="382CQP5NlbT" role="37vLTx">
+                <property role="Xl_RC" value="BatchJob" />
+              </node>
+              <node concept="2OqwBi" id="382CQP5NkWu" role="37vLTJ">
+                <node concept="1r4Lsj" id="382CQP5NkTK" role="2Oq$k0" />
+                <node concept="3TrcHB" id="382CQP5Nl39" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="382CQP5Nlfi" role="3cqZAp">
+            <node concept="2OqwBi" id="382CQP5Nlya" role="3clFbG">
+              <node concept="2OqwBi" id="382CQP5Nlim" role="2Oq$k0">
+                <node concept="1r4Lsj" id="382CQP5Nlfg" role="2Oq$k0" />
+                <node concept="3TrEf2" id="382CQP5Nlp8" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:7TJOmj6ZhCF" />
+                </node>
+              </node>
+              <node concept="2DeJnY" id="382CQP5NlDs" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbF" id="382CQP5NlET" role="3cqZAp">
+            <node concept="2OqwBi" id="382CQP5Nm4x" role="3clFbG">
+              <node concept="2OqwBi" id="382CQP5NlIs" role="2Oq$k0">
+                <node concept="1r4Lsj" id="382CQP5NlER" role="2Oq$k0" />
+                <node concept="3TrEf2" id="382CQP5NlVv" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:6IpTZfaBQl9" />
+                </node>
+              </node>
+              <node concept="2DeJnY" id="382CQP5Nmi9" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="37WvkG" id="5t0K6Tku2Iy" role="37WGs$">
       <ref role="37XkoT" to="un0u:5Ee0EjqWOQg" resolve="OFXDocumentation" />
       <node concept="37Y9Zx" id="5t0K6Tku2Iz" role="37ZfLb">

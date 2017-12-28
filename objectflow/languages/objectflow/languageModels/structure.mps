@@ -4365,7 +4365,7 @@
     <node concept="1TJgyj" id="7TJOmj6ZhCF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="producerImpl" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="3U0QWztRGQ8" resolve="OFXProducerContext" />
     </node>
     <node concept="1TJgyj" id="6IpTZfaBQl9" role="1TKVEi">

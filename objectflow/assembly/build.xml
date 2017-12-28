@@ -25,7 +25,7 @@
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
   <property name="appName"              value="SimpleTestBatchJob" />
   <property name="appMainclass"         value="Simple.baseApp.Test_Batch" />
-  <property name="appConfiguration"     value="Simple/baseApp/NewBatchJobTestConfig.xml" /> 
+  <property name="appConfiguration"     value="Simple/baseApp/BatchConfigTomcat.xml" /> 
   
   <!-- **** build specific definitions ************************************************************** -->
   <property name="javawareHomeDir"       value="${buildUserHome}/javaware" /> 
