@@ -44371,17 +44371,8 @@
       <property role="TrG5h" value="DEVELOPMENT_SETTING" />
       <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
       <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
-      <node concept="3clFbT" id="4443Bgf9Je7" role="33vP2m">
-        <property role="3clFbU" value="false" />
-      </node>
-    </node>
-    <node concept="Wx3nA" id="6PK_6HzhuaB" role="jymVt">
-      <property role="TrG5h" value="DBG_LOG_EVENTS_TO_CONSOLE" />
-      <property role="3TUv4t" value="true" />
-      <node concept="10P_77" id="6PK_6HzhtKO" role="1tU5fm" />
-      <node concept="3Tm1VV" id="7sK_OLrfr$S" role="1B3o_S" />
-      <node concept="3clFbT" id="7HSdIeXRxYU" role="33vP2m">
-        <property role="3clFbU" value="false" />
+      <node concept="3clFbT" id="3pVc9XTVTgG" role="33vP2m">
+        <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
@@ -44404,6 +44395,15 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7sK_OLreJIZ" role="jymVt" />
+    <node concept="Wx3nA" id="6PK_6HzhuaB" role="jymVt">
+      <property role="TrG5h" value="DBG_LOG_EVENTS_TO_CONSOLE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10P_77" id="6PK_6HzhtKO" role="1tU5fm" />
+      <node concept="3Tm1VV" id="7sK_OLrfr$S" role="1B3o_S" />
+      <node concept="3clFbT" id="7HSdIeXRxYU" role="33vP2m">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="7sK_OLreK7K" role="jymVt" />
     <node concept="2tJIrI" id="7sK_OLreK80" role="jymVt" />
     <node concept="2YIFZL" id="7sK_OLrf0DT" role="jymVt">
