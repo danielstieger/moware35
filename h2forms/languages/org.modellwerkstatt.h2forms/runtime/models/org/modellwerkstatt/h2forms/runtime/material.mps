@@ -2179,55 +2179,63 @@
       <node concept="3Tm1VV" id="3pVc9XTQo3P" role="1B3o_S" />
       <node concept="3clFbS" id="3pVc9XTQo3S" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="3pVc9XTQo3T" role="jymVt">
+    <node concept="3clFb_" id="4cdUWYrPssL" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="addApplicationForUser" />
+      <node concept="37vLTG" id="4cdUWYrPssM" role="3clF46">
+        <property role="TrG5h" value="user" />
+        <node concept="17QB3L" id="4cdUWYrPssN" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4cdUWYrPssO" role="3clF46">
+        <property role="TrG5h" value="crtl" />
+        <node concept="3uibUv" id="4cdUWYrPssP" role="1tU5fm">
+          <ref role="3uigEE" to="tea8:kWPevMd7Le" resolve="H2Application" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="4cdUWYrPssQ" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrPssR" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrPssZ" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="4cdUWYrPst0" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getExistingApplicationForUser" />
-      <node concept="37vLTG" id="3pVc9XTQo3U" role="3clF46">
+      <node concept="37vLTG" id="4cdUWYrPst1" role="3clF46">
         <property role="TrG5h" value="user" />
-        <node concept="17QB3L" id="3pVc9XTQo3V" role="1tU5fm" />
+        <node concept="17QB3L" id="4cdUWYrPst2" role="1tU5fm" />
       </node>
-      <node concept="3uibUv" id="3pVc9XTQo3W" role="3clF45">
-        <ref role="3uigEE" to="tea8:1wwgtxzdy3N" resolve="IH2Controller" />
+      <node concept="3uibUv" id="4cdUWYrPst3" role="3clF45">
+        <ref role="3uigEE" to="tea8:kWPevMd7Le" resolve="H2Application" />
       </node>
-      <node concept="3Tm1VV" id="3pVc9XTQo3X" role="1B3o_S" />
-      <node concept="3clFbS" id="3pVc9XTQo40" role="3clF47">
-        <node concept="3clFbF" id="3pVc9XTQo42" role="3cqZAp">
-          <node concept="10Nm6u" id="3pVc9XTQo41" role="3clFbG" />
+      <node concept="3Tm1VV" id="4cdUWYrPst4" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrPst7" role="3clF47">
+        <node concept="3clFbF" id="4cdUWYrPst9" role="3cqZAp">
+          <node concept="10Nm6u" id="4cdUWYrPst8" role="3clFbG" />
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="3pVc9XTQo43" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isSwapAppUser" />
-      <node concept="3Tm1VV" id="3pVc9XTQo45" role="1B3o_S" />
-      <node concept="10P_77" id="3pVc9XTQo46" role="3clF45" />
-      <node concept="37vLTG" id="3pVc9XTQo47" role="3clF46">
-        <property role="TrG5h" value="user" />
-        <node concept="17QB3L" id="3pVc9XTQo48" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="3pVc9XTQo4a" role="3clF47">
-        <node concept="3clFbF" id="3pVc9XTQo4c" role="3cqZAp">
-          <node concept="3clFbT" id="3pVc9XTQo4b" role="3clFbG" />
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="3pVc9XTQpX_" role="jymVt">
+    <node concept="3clFb_" id="4cdUWYrPsta" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="removeApplicationForUser" />
-      <node concept="37vLTG" id="3pVc9XTQpXA" role="3clF46">
+      <node concept="37vLTG" id="4cdUWYrPstb" role="3clF46">
         <property role="TrG5h" value="user" />
-        <node concept="17QB3L" id="3pVc9XTQpXB" role="1tU5fm" />
+        <node concept="17QB3L" id="4cdUWYrPstc" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="3pVc9XTQpXC" role="3clF46">
+      <node concept="37vLTG" id="4cdUWYrPstd" role="3clF46">
         <property role="TrG5h" value="crtl" />
-        <node concept="3uibUv" id="3pVc9XTQpXD" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:1wwgtxzdy3N" resolve="IH2Controller" />
+        <node concept="3uibUv" id="4cdUWYrPste" role="1tU5fm">
+          <ref role="3uigEE" to="tea8:kWPevMd7Le" resolve="H2Application" />
         </node>
       </node>
-      <node concept="3cqZAl" id="3pVc9XTQpXE" role="3clF45" />
-      <node concept="3Tm1VV" id="3pVc9XTQpXF" role="1B3o_S" />
-      <node concept="3clFbS" id="3pVc9XTQpXI" role="3clF47" />
+      <node concept="3cqZAl" id="4cdUWYrPstf" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrPstg" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrPstj" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="4cdUWYrPstk" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="removeAllApplicationsForUsers" />
+      <node concept="3cqZAl" id="4cdUWYrPstl" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrPstm" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrPstp" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="2RoKLt0oRiM" role="1B3o_S" />
     <node concept="3uibUv" id="2RoKLt0oTk7" role="1zkMxy">

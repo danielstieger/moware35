@@ -1464,8 +1464,15 @@
                   <ref role="3cqZAo" node="5hYsHqQH_SL" resolve="app" />
                 </node>
                 <node concept="liA8E" id="5hYsHqQHCeh" role="2OqNvi">
-                  <ref role="37wK5l" to="nwfd:~HttpSessionBindingListener.valueUnbound(javax.servlet.http.HttpSessionBindingEvent):void" resolve="valueUnbound" />
-                  <node concept="10Nm6u" id="5hYsHqQHCf$" role="37wK5m" />
+                  <ref role="37wK5l" node="4cdUWYrXVpU" resolve="externalCloseApplicationWithSessionId" />
+                  <node concept="2OqwBi" id="4cdUWYrY5NR" role="37wK5m">
+                    <node concept="37vLTw" id="4cdUWYrY5MA" role="2Oq$k0">
+                      <ref role="3cqZAo" node="kA5KhwfJF6" resolve="session" />
+                    </node>
+                    <node concept="liA8E" id="4cdUWYrY6db" role="2OqNvi">
+                      <ref role="37wK5l" to="nwfd:~HttpSession.getId():java.lang.String" resolve="getId" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -1839,8 +1846,7 @@
               </node>
             </node>
             <node concept="3clFbH" id="MdbUSGX_i6" role="3cqZAp" />
-            <node concept="3clFbH" id="5pFQRGEkiIb" role="3cqZAp" />
-            <node concept="3clFbH" id="39Pheqm2we3" role="3cqZAp" />
+            <node concept="3clFbH" id="4cdUWYrK0U5" role="3cqZAp" />
             <node concept="3SKdUt" id="kA5Khwc2oj" role="3cqZAp">
               <node concept="3SKdUq" id="kA5Khwc2ol" role="3SKWNk">
                 <property role="3SKdUp" value="someone moved around in our network ---------------------------" />
@@ -2465,6 +2471,7 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="4cdUWYrLWoB" role="3cqZAp" />
               </node>
               <node concept="3clFbC" id="2xnCXJMqK0s" role="3clFbw">
                 <node concept="10Nm6u" id="2xnCXJMqK1z" role="3uHU7w" />
@@ -2472,8 +2479,60 @@
                   <ref role="3cqZAo" node="2xnCXJMqI_H" resolve="crtl" />
                 </node>
               </node>
+              <node concept="3eNFk2" id="4cdUWYrLSNO" role="3eNLev">
+                <node concept="2OqwBi" id="4cdUWYrLTyv" role="3eO9$A">
+                  <node concept="37vLTw" id="4cdUWYrLTx2" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2xnCXJMqI_H" resolve="crtl" />
+                  </node>
+                  <node concept="liA8E" id="4cdUWYrLUfN" role="2OqNvi">
+                    <ref role="37wK5l" node="4cdUWYrL7vd" resolve="origSessionButApplicationTakenOver" />
+                    <node concept="2OqwBi" id="4cdUWYrLUXX" role="37wK5m">
+                      <node concept="37vLTw" id="4cdUWYrLUWu" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                      </node>
+                      <node concept="liA8E" id="4cdUWYrLVFs" role="2OqNvi">
+                        <ref role="37wK5l" to="nwfd:~HttpSession.getId():java.lang.String" resolve="getId" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbS" id="4cdUWYrLSNQ" role="3eOfB_">
+                  <node concept="3SKdUt" id="4cdUWYrM6Ky" role="3cqZAp">
+                    <node concept="3SKdUq" id="4cdUWYrM6K$" role="3SKWNk">
+                      <property role="3SKdUp" value="this application is marked as to take over! " />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="4cdUWYs0TYE" role="3cqZAp">
+                    <node concept="37vLTI" id="4cdUWYs0UJq" role="3clFbG">
+                      <node concept="1rXfSq" id="4cdUWYs0Vti" role="37vLTx">
+                        <ref role="37wK5l" node="kA5KhwfIXe" resolve="shutdownSession" />
+                        <node concept="37vLTw" id="4cdUWYs0WXl" role="37wK5m">
+                          <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="4cdUWYs0TYC" role="37vLTJ">
+                        <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="4cdUWYrM0DE" role="3cqZAp">
+                    <node concept="37vLTI" id="4cdUWYrM0Fd" role="3clFbG">
+                      <node concept="1rXfSq" id="4cdUWYrM1pr" role="37vLTx">
+                        <ref role="37wK5l" node="1XvfUlyouEN" resolve="loginUserCreateApplication" />
+                        <node concept="37vLTw" id="4cdUWYrM29v" role="37wK5m">
+                          <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="4cdUWYrM0DC" role="37vLTJ">
+                        <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="4cdUWYrM6OB" role="3cqZAp" />
+                </node>
+              </node>
             </node>
-            <node concept="3clFbH" id="2xnCXJMqIq8" role="3cqZAp" />
+            <node concept="3clFbH" id="5pFQRGEkiIb" role="3cqZAp" />
             <node concept="3clFbF" id="kA5KhwiYlN" role="3cqZAp">
               <node concept="37vLTI" id="kA5KhwiYTz" role="3clFbG">
                 <node concept="3cpWs3" id="4ysbFF_MGcR" role="37vLTx">
@@ -2712,8 +2771,15 @@
                           <ref role="3cqZAo" node="2xnCXJMqI_H" resolve="crtl" />
                         </node>
                         <node concept="liA8E" id="1wwgtxzdNSo" role="2OqNvi">
-                          <ref role="37wK5l" to="nwfd:~HttpSessionBindingListener.valueUnbound(javax.servlet.http.HttpSessionBindingEvent):void" resolve="valueUnbound" />
-                          <node concept="10Nm6u" id="1wwgtxzdNTL" role="37wK5m" />
+                          <ref role="37wK5l" node="4cdUWYrXVpU" resolve="externalCloseApplicationWithSessionId" />
+                          <node concept="2OqwBi" id="4cdUWYrY3C0" role="37wK5m">
+                            <node concept="37vLTw" id="4cdUWYrY3Az" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                            </node>
+                            <node concept="liA8E" id="4cdUWYrY4mi" role="2OqNvi">
+                              <ref role="37wK5l" to="nwfd:~HttpSession.getId():java.lang.String" resolve="getId" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -3724,6 +3790,16 @@
       <node concept="3Tm1VV" id="4x14MABsdTt" role="1B3o_S" />
       <node concept="3cqZAl" id="4x14MABsdTv" role="3clF45" />
       <node concept="3clFbS" id="4x14MABsdTx" role="3clF47">
+        <node concept="3clFbF" id="4cdUWYrZwdi" role="3cqZAp">
+          <node concept="2OqwBi" id="4cdUWYrZwgd" role="3clFbG">
+            <node concept="37vLTw" id="4cdUWYrZwdg" role="2Oq$k0">
+              <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+            </node>
+            <node concept="liA8E" id="4cdUWYrZx32" role="2OqNvi">
+              <ref role="37wK5l" node="4cdUWYrKupc" resolve="removeAllApplicationsForUsers" />
+            </node>
+          </node>
+        </node>
         <node concept="1X3_iC" id="4xVSf7d9c29" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
@@ -4670,6 +4746,15 @@
       <node concept="3Tmbuc" id="2xnCXJMqj5E" role="1B3o_S" />
       <node concept="17QB3L" id="2xnCXJMqjt4" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="4cdUWYrKnyS" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="origSessionId" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="4cdUWYrKnyT" role="1B3o_S" />
+      <node concept="17QB3L" id="4cdUWYrKnyU" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="4cdUWYrKmeR" role="jymVt" />
     <node concept="2tJIrI" id="7r26jiNU7QF" role="jymVt" />
     <node concept="312cEg" id="2xnCXJMgsQm" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -4815,6 +4900,14 @@
           </node>
         </node>
         <node concept="3clFbH" id="7r26jiNTQkx" role="3cqZAp" />
+        <node concept="3clFbF" id="4cdUWYrKpoy" role="3cqZAp">
+          <node concept="37vLTI" id="4cdUWYrKpwD" role="3clFbG">
+            <node concept="10Nm6u" id="4cdUWYrKpzH" role="37vLTx" />
+            <node concept="37vLTw" id="4cdUWYrKpow" role="37vLTJ">
+              <ref role="3cqZAo" node="4cdUWYrKnyS" resolve="origSessionId" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5hYsHqQHjAp" role="3cqZAp">
           <node concept="37vLTI" id="5hYsHqQHke7" role="3clFbG">
             <node concept="3clFbT" id="5hYsHqQHkik" role="37vLTx">
@@ -5035,7 +5128,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6YMRHoFaHg5" role="3cqZAp" />
+        <node concept="3clFbH" id="4cdUWYrKiZV" role="3cqZAp" />
         <node concept="3SKdUt" id="18nf27m6uCs" role="3cqZAp">
           <node concept="3SKdUq" id="18nf27m6uCu" role="3SKWNk">
             <property role="3SKdUp" value="shutdown session?" />
@@ -6833,7 +6926,38 @@
           <ref role="3uigEE" to="nwfd:~HttpSessionBindingEvent" resolve="HttpSessionBindingEvent" />
         </node>
       </node>
-      <node concept="3clFbS" id="kWPevMdd4X" role="3clF47" />
+      <node concept="3clFbS" id="kWPevMdd4X" role="3clF47">
+        <node concept="3clFbJ" id="4cdUWYrKpCn" role="3cqZAp">
+          <node concept="3clFbC" id="4cdUWYrKq7x" role="3clFbw">
+            <node concept="10Nm6u" id="4cdUWYrKqaA" role="3uHU7w" />
+            <node concept="37vLTw" id="4cdUWYrKpRm" role="3uHU7B">
+              <ref role="3cqZAo" node="4cdUWYrKnyS" resolve="origSessionId" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="4cdUWYrKpCp" role="3clFbx">
+            <node concept="3clFbF" id="4cdUWYrKrc4" role="3cqZAp">
+              <node concept="37vLTI" id="4cdUWYrKrfY" role="3clFbG">
+                <node concept="2OqwBi" id="4cdUWYrKrA6" role="37vLTx">
+                  <node concept="2OqwBi" id="4cdUWYrKrlC" role="2Oq$k0">
+                    <node concept="37vLTw" id="4cdUWYrKriz" role="2Oq$k0">
+                      <ref role="3cqZAo" node="kWPevMdd4V" resolve="event" />
+                    </node>
+                    <node concept="liA8E" id="4cdUWYrKr_8" role="2OqNvi">
+                      <ref role="37wK5l" to="nwfd:~HttpSessionBindingEvent.getSession():javax.servlet.http.HttpSession" resolve="getSession" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="4cdUWYrKrDl" role="2OqNvi">
+                    <ref role="37wK5l" to="nwfd:~HttpSession.getId():java.lang.String" resolve="getId" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="4cdUWYrKrc3" role="37vLTJ">
+                  <ref role="3cqZAo" node="4cdUWYrKnyS" resolve="origSessionId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="kWPevMdd4Y" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -6866,54 +6990,146 @@
                   </node>
                 </node>
                 <node concept="Xl_RD" id="5hYsHqQ$hJC" role="3uHU7B">
-                  <property role="Xl_RC" value="H2Application.VALUE_UNBOUND() appCrtll null: " />
+                  <property role="Xl_RC" value="H2Application.VALUE_UNBOUND() appCrtl null: " />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="5hYsHqQHatZ" role="3cqZAp">
-          <node concept="3SKdUq" id="5hYsHqQHau1" role="3SKWNk">
-            <property role="3SKdUp" value="do not remove landingpage here. " />
+        <node concept="3clFbF" id="4cdUWYrY0$s" role="3cqZAp">
+          <node concept="1rXfSq" id="4cdUWYrY0$q" role="3clFbG">
+            <ref role="37wK5l" node="4cdUWYrXYuF" resolve="externalCloseApplicationWithSessionId" />
+            <node concept="2OqwBi" id="4cdUWYrY1bI" role="37wK5m">
+              <node concept="2OqwBi" id="4cdUWYrY0Tf" role="2Oq$k0">
+                <node concept="37vLTw" id="4cdUWYrY0Pm" role="2Oq$k0">
+                  <ref role="3cqZAo" node="kWPevMdd52" resolve="event" />
+                </node>
+                <node concept="liA8E" id="4cdUWYrY1aj" role="2OqNvi">
+                  <ref role="37wK5l" to="nwfd:~HttpSessionBindingEvent.getSession():javax.servlet.http.HttpSession" resolve="getSession" />
+                </node>
+              </node>
+              <node concept="liA8E" id="4cdUWYrY1eS" role="2OqNvi">
+                <ref role="37wK5l" to="nwfd:~HttpSession.getId():java.lang.String" resolve="getId" />
+              </node>
+            </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4cdUWYrK5Om" role="jymVt" />
+    <node concept="3clFb_" id="4cdUWYrXYuF" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="externalCloseApplicationWithSessionId" />
+      <node concept="37vLTG" id="4cdUWYrXYuG" role="3clF46">
+        <property role="TrG5h" value="sessionId" />
+        <node concept="17QB3L" id="4cdUWYrXYuH" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4cdUWYrXYuI" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrXYuJ" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrXYuL" role="3clF47">
         <node concept="3clFbJ" id="kA5KhwfSbM" role="3cqZAp">
           <node concept="3y3z36" id="kA5KhwfSfX" role="3clFbw">
-            <node concept="10Nm6u" id="kA5KhwfShB" role="3uHU7w" />
             <node concept="37vLTw" id="kA5KhwfSdJ" role="3uHU7B">
               <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
             </node>
+            <node concept="10Nm6u" id="kA5KhwfShB" role="3uHU7w" />
           </node>
           <node concept="3clFbS" id="kA5KhwfSbO" role="3clFbx">
-            <node concept="3clFbF" id="3pVc9XTQYV6" role="3cqZAp">
-              <node concept="2OqwBi" id="3pVc9XTQXxs" role="3clFbG">
-                <node concept="37vLTw" id="3pVc9XTQXtk" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
+            <node concept="3clFbJ" id="4cdUWYrKCu2" role="3cqZAp">
+              <node concept="3clFbS" id="4cdUWYrKCu4" role="3clFbx">
+                <node concept="3SKdUt" id="4cdUWYrKK50" role="3cqZAp">
+                  <node concept="3SKdUq" id="4cdUWYrKK52" role="3SKWNk">
+                    <property role="3SKdUp" value="do not clean up this app" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="3pVc9XTQXLC" role="2OqNvi">
-                  <ref role="37wK5l" node="3pVc9XTQpb2" resolve="removeApplicationForUser" />
-                  <node concept="2OqwBi" id="3pVc9XTQY8T" role="37wK5m">
-                    <node concept="37vLTw" id="3pVc9XTQXRA" role="2Oq$k0">
-                      <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-                    </node>
-                    <node concept="liA8E" id="3pVc9XTQYxv" role="2OqNvi">
-                      <ref role="37wK5l" to="1e0c:kA5KhwhT$x" resolve="getUserName" />
+                <node concept="3clFbH" id="4cdUWYrKK_f" role="3cqZAp" />
+              </node>
+              <node concept="1rXfSq" id="4cdUWYrLKdb" role="3clFbw">
+                <ref role="37wK5l" node="4cdUWYrLBYi" resolve="origSessionButApplicationTakenOver" />
+                <node concept="37vLTw" id="4cdUWYrY1zm" role="37wK5m">
+                  <ref role="3cqZAo" node="4cdUWYrXYuG" resolve="sessionId" />
+                </node>
+              </node>
+              <node concept="9aQIb" id="4cdUWYrKK5L" role="9aQIa">
+                <node concept="3clFbS" id="4cdUWYrKK5M" role="9aQI4">
+                  <node concept="3clFbF" id="kA5KhwfSki" role="3cqZAp">
+                    <node concept="2OqwBi" id="kA5KhwfSmf" role="3clFbG">
+                      <node concept="37vLTw" id="kA5KhwfSkh" role="2Oq$k0">
+                        <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                      </node>
+                      <node concept="liA8E" id="kA5KhwfSxN" role="2OqNvi">
+                        <ref role="37wK5l" to="1e0c:3nLGOmWrOyj" resolve="internal_shutdown" />
+                      </node>
                     </node>
                   </node>
-                  <node concept="Xjq3P" id="3pVc9XTQYC3" role="37wK5m" />
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="kA5KhwfSki" role="3cqZAp">
-              <node concept="2OqwBi" id="kA5KhwfSmf" role="3clFbG">
-                <node concept="37vLTw" id="kA5KhwfSkh" role="2Oq$k0">
-                  <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cdUWYrLBYi" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="origSessionButApplicationTakenOver" />
+      <node concept="37vLTG" id="4cdUWYrLGj6" role="3clF46">
+        <property role="TrG5h" value="sesId" />
+        <node concept="17QB3L" id="4cdUWYrLHb1" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="4cdUWYrLBYj" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrLBYk" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrLBYm" role="3clF47">
+        <node concept="3clFbJ" id="4cdUWYrLDw3" role="3cqZAp">
+          <node concept="3clFbS" id="4cdUWYrLDw5" role="3clFbx">
+            <node concept="3clFbJ" id="4cdUWYrLENt" role="3cqZAp">
+              <node concept="3clFbS" id="4cdUWYrLENv" role="3clFbx">
+                <node concept="3cpWs6" id="4cdUWYrLILm" role="3cqZAp">
+                  <node concept="3clFbT" id="4cdUWYrLINE" role="3cqZAk">
+                    <property role="3clFbU" value="true" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="kA5KhwfSxN" role="2OqNvi">
-                  <ref role="37wK5l" to="1e0c:3nLGOmWrOyj" resolve="internal_shutdown" />
+              </node>
+              <node concept="1Wc70l" id="4cdUWYrLFLV" role="3clFbw">
+                <node concept="2OqwBi" id="4cdUWYrLI7X" role="3uHU7w">
+                  <node concept="37vLTw" id="4cdUWYrLG4D" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4cdUWYrKnyS" resolve="origSessionId" />
+                  </node>
+                  <node concept="liA8E" id="4cdUWYrLIrq" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <node concept="37vLTw" id="4cdUWYrLIxR" role="37wK5m">
+                      <ref role="3cqZAo" node="4cdUWYrLGj6" resolve="sesId" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="4cdUWYrLF9l" role="3uHU7B">
+                  <node concept="37vLTw" id="4cdUWYrLESa" role="2Oq$k0">
+                    <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                  </node>
+                  <node concept="liA8E" id="4cdUWYrLFIs" role="2OqNvi">
+                    <ref role="37wK5l" to="1e0c:4cdUWYrKNw0" resolve="getapp_applicationWasTakenOver" />
+                  </node>
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="1Wc70l" id="4cdUWYrLE83" role="3clFbw">
+            <node concept="3y3z36" id="4cdUWYrLEvx" role="3uHU7w">
+              <node concept="10Nm6u" id="4cdUWYrLEzu" role="3uHU7w" />
+              <node concept="37vLTw" id="4cdUWYrLEq6" role="3uHU7B">
+                <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+              </node>
+            </node>
+            <node concept="3y3z36" id="4cdUWYrLDPC" role="3uHU7B">
+              <node concept="37vLTw" id="4cdUWYrLD$$" role="3uHU7B">
+                <ref role="3cqZAo" node="4cdUWYrKnyS" resolve="origSessionId" />
+              </node>
+              <node concept="10Nm6u" id="4cdUWYrLDSQ" role="3uHU7w" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4cdUWYrLDt5" role="3cqZAp">
+          <node concept="3clFbT" id="4cdUWYrLDt4" role="3clFbG">
+            <property role="3clFbU" value="false" />
           </node>
         </node>
       </node>
@@ -6939,228 +7155,155 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3pVc9XTWpyY" role="3cqZAp" />
+        <node concept="3clFbH" id="4cdUWYrK8tI" role="3cqZAp" />
         <node concept="3SKdUt" id="3pVc9XTVArP" role="3cqZAp">
           <node concept="3SKdUq" id="3pVc9XTVArR" role="3SKWNk">
             <property role="3SKdUp" value="no session right now? " />
           </node>
         </node>
-        <node concept="3clFbF" id="3pVc9XTVXl3" role="3cqZAp">
-          <node concept="2YIFZM" id="3pVc9XTVXG1" role="3clFbG">
-            <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-            <ref role="1Pybhc" node="3h3MBx3irbo" resolve="H2ApplicationLoader" />
-            <node concept="3cpWs3" id="3pVc9XTVXOF" role="37wK5m">
-              <node concept="2OqwBi" id="3pVc9XTVXS2" role="3uHU7w">
-                <node concept="37vLTw" id="3pVc9XTVXQa" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
-                </node>
-                <node concept="liA8E" id="3pVc9XTVXZG" role="2OqNvi">
-                  <ref role="37wK5l" node="3pVc9XTQngi" resolve="isSwapAppUser" />
-                  <node concept="37vLTw" id="3pVc9XTVY1H" role="37wK5m">
-                    <ref role="3cqZAo" node="3pVc9XTR5D5" resolve="user" />
-                  </node>
-                </node>
-              </node>
-              <node concept="Xl_RD" id="3pVc9XTVXJ9" role="3uHU7B">
-                <property role="Xl_RC" value="App is " />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="3pVc9XTYUcf" role="3cqZAp" />
-        <node concept="3clFbH" id="3pVc9XTYVkN" role="3cqZAp" />
         <node concept="3clFbJ" id="3pVc9XTVB96" role="3cqZAp">
           <node concept="3clFbS" id="3pVc9XTVB98" role="3clFbx">
-            <node concept="3clFbF" id="3pVc9XTVZ6t" role="3cqZAp">
-              <node concept="2YIFZM" id="3pVc9XTVZ6u" role="3clFbG">
-                <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                <ref role="1Pybhc" node="3h3MBx3irbo" resolve="H2ApplicationLoader" />
-                <node concept="3cpWs3" id="3pVc9XTVZ6v" role="37wK5m">
-                  <node concept="Xl_RD" id="3pVc9XTVZ6$" role="3uHU7B">
-                    <property role="Xl_RC" value="App swap now is " />
+            <node concept="3cpWs8" id="3pVc9XTRfS4" role="3cqZAp">
+              <node concept="3cpWsn" id="3pVc9XTRfS5" role="3cpWs9">
+                <property role="TrG5h" value="existing" />
+                <node concept="3uibUv" id="4cdUWYrOWw9" role="1tU5fm">
+                  <ref role="3uigEE" node="kWPevMd7Le" resolve="H2Application" />
+                </node>
+                <node concept="2OqwBi" id="3pVc9XTRg01" role="33vP2m">
+                  <node concept="37vLTw" id="3pVc9XTRfYR" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
                   </node>
-                  <node concept="2OqwBi" id="3pVc9XTWgjO" role="3uHU7w">
-                    <node concept="2OqwBi" id="3pVc9XTWgcl" role="2Oq$k0">
-                      <node concept="37vLTw" id="3pVc9XTYRmP" role="2Oq$k0">
-                        <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-                      </node>
-                      <node concept="liA8E" id="3pVc9XTWghM" role="2OqNvi">
-                        <ref role="37wK5l" to="1e0c:5YG5DD904R$" resolve="getAppTelemetrics" />
-                      </node>
+                  <node concept="liA8E" id="3pVc9XTRg5V" role="2OqNvi">
+                    <ref role="37wK5l" node="3pVc9XTQmBU" resolve="getExistingApplicationForUser" />
+                    <node concept="37vLTw" id="3pVc9XTRg7s" role="37wK5m">
+                      <ref role="3cqZAo" node="3pVc9XTR5D5" resolve="user" />
                     </node>
-                    <node concept="liA8E" id="3pVc9XTWgQx" role="2OqNvi">
-                      <ref role="37wK5l" to="x37d:3pVc9XTPy6A" resolve="isSwapApplicationForUser" />
-                      <node concept="37vLTw" id="3pVc9XTWgS$" role="37wK5m">
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="3pVc9XTRg8V" role="3cqZAp">
+              <node concept="3clFbS" id="3pVc9XTRg8X" role="3clFbx">
+                <node concept="3clFbH" id="4cdUWYrYUVS" role="3cqZAp" />
+                <node concept="3SKdUt" id="4cdUWYrYW7l" role="3cqZAp">
+                  <node concept="3SKdUq" id="4cdUWYrYW7n" role="3SKWNk">
+                    <property role="3SKdUp" value="H2ApplicationLoader will call externalCloseApplicationWithSessionId()" />
+                  </node>
+                </node>
+                <node concept="3SKdUt" id="4cdUWYrYYuS" role="3cqZAp">
+                  <node concept="3SKdUq" id="4cdUWYrYYuU" role="3SKWNk">
+                    <property role="3SKdUp" value="we do not have to call appController.internal_shutdown() here" />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="3pVc9XTVFKL" role="3cqZAp">
+                  <node concept="2OqwBi" id="3pVc9XTVG0V" role="3clFbG">
+                    <node concept="37vLTw" id="3pVc9XTVFKJ" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
+                    </node>
+                    <node concept="liA8E" id="3pVc9XTVG8c" role="2OqNvi">
+                      <ref role="37wK5l" node="3pVc9XTQpb2" resolve="removeApplicationForUser" />
+                      <node concept="37vLTw" id="3pVc9XTVGaA" role="37wK5m">
                         <ref role="3cqZAo" node="3pVc9XTR5D5" resolve="user" />
                       </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="3pVc9XTYSMi" role="3cqZAp" />
-            <node concept="3clFbJ" id="3pVc9XTR4uE" role="3cqZAp">
-              <node concept="3clFbS" id="3pVc9XTR4uG" role="3clFbx">
-                <node concept="3SKdUt" id="3pVc9XTR69x" role="3cqZAp">
-                  <node concept="3SKdUq" id="3pVc9XTR69z" role="3SKWNk">
-                    <property role="3SKdUp" value="is there an existing app available" />
-                  </node>
-                </node>
-                <node concept="3cpWs8" id="3pVc9XTRfS4" role="3cqZAp">
-                  <node concept="3cpWsn" id="3pVc9XTRfS5" role="3cpWs9">
-                    <property role="TrG5h" value="existing" />
-                    <node concept="3uibUv" id="3pVc9XTRfS6" role="1tU5fm">
-                      <ref role="3uigEE" node="1wwgtxzdy3N" resolve="IH2Controller" />
-                    </node>
-                    <node concept="2OqwBi" id="3pVc9XTRg01" role="33vP2m">
-                      <node concept="37vLTw" id="3pVc9XTRfYR" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
-                      </node>
-                      <node concept="liA8E" id="3pVc9XTRg5V" role="2OqNvi">
-                        <ref role="37wK5l" node="3pVc9XTQmBU" resolve="getExistingApplicationForUser" />
-                        <node concept="37vLTw" id="3pVc9XTRg7s" role="37wK5m">
-                          <ref role="3cqZAo" node="3pVc9XTR5D5" resolve="user" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbH" id="3pVc9XTWkxk" role="3cqZAp" />
-                <node concept="3clFbF" id="3pVc9XTWlkS" role="3cqZAp">
-                  <node concept="2YIFZM" id="3pVc9XTWlIe" role="3clFbG">
-                    <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                    <ref role="1Pybhc" node="3h3MBx3irbo" resolve="H2ApplicationLoader" />
-                    <node concept="3cpWs3" id="3pVc9XTWlNx" role="37wK5m">
-                      <node concept="37vLTw" id="3pVc9XTXysy" role="3uHU7w">
-                        <ref role="3cqZAo" node="3pVc9XTRfS5" resolve="existing" />
-                      </node>
-                      <node concept="Xl_RD" id="3pVc9XTWlIR" role="3uHU7B">
-                        <property role="Xl_RC" value="The Existing app is " />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbJ" id="3pVc9XTRg8V" role="3cqZAp">
-                  <node concept="3clFbS" id="3pVc9XTRg8X" role="3clFbx">
-                    <node concept="3clFbF" id="3pVc9XTRgeD" role="3cqZAp">
-                      <node concept="2OqwBi" id="3pVc9XTRgg5" role="3clFbG">
-                        <node concept="Xjq3P" id="3pVc9XTYMCl" role="2Oq$k0" />
-                        <node concept="liA8E" id="3pVc9XTRgpm" role="2OqNvi">
-                          <ref role="37wK5l" node="kWPevMdd4Y" resolve="valueUnbound" />
-                          <node concept="10Nm6u" id="3pVc9XTRgqX" role="37wK5m" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbH" id="3pVc9XTYQ3k" role="3cqZAp" />
-                    <node concept="3clFbF" id="3pVc9XTVFKL" role="3cqZAp">
-                      <node concept="2OqwBi" id="3pVc9XTVG0V" role="3clFbG">
-                        <node concept="37vLTw" id="3pVc9XTVFKJ" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
-                        </node>
-                        <node concept="liA8E" id="3pVc9XTVG8c" role="2OqNvi">
-                          <ref role="37wK5l" node="3pVc9XTQpb2" resolve="removeApplicationForUser" />
-                          <node concept="37vLTw" id="3pVc9XTVGaA" role="37wK5m">
-                            <ref role="3cqZAo" node="3pVc9XTR5D5" resolve="user" />
-                          </node>
-                          <node concept="37vLTw" id="3pVc9XTVGeh" role="37wK5m">
-                            <ref role="3cqZAo" node="3pVc9XTRfS5" resolve="existing" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbF" id="3pVc9XTXrNL" role="3cqZAp">
-                      <node concept="2YIFZM" id="3pVc9XTXsmz" role="3clFbG">
-                        <ref role="1Pybhc" node="3h3MBx3irbo" resolve="H2ApplicationLoader" />
-                        <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                        <node concept="3cpWs3" id="3pVc9XTXspL" role="37wK5m">
-                          <node concept="37vLTw" id="3pVc9XTYU36" role="3uHU7w">
-                            <ref role="3cqZAo" node="3pVc9XTRfS5" resolve="existing" />
-                          </node>
-                          <node concept="Xl_RD" id="3pVc9XTXsnc" role="3uHU7B">
-                            <property role="Xl_RC" value="Swapping to application !! " />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbH" id="3pVc9XTXswG" role="3cqZAp" />
-                    <node concept="3cpWs6" id="3pVc9XTRgJ9" role="3cqZAp">
-                      <node concept="37vLTw" id="3pVc9XTRhlV" role="3cqZAk">
+                      <node concept="37vLTw" id="3pVc9XTVGeh" role="37wK5m">
                         <ref role="3cqZAo" node="3pVc9XTRfS5" resolve="existing" />
                       </node>
                     </node>
                   </node>
-                  <node concept="3y3z36" id="3pVc9XTRgbW" role="3clFbw">
-                    <node concept="10Nm6u" id="3pVc9XTRgcJ" role="3uHU7w" />
-                    <node concept="37vLTw" id="3pVc9XTRgaI" role="3uHU7B">
+                </node>
+                <node concept="3clFbF" id="4cdUWYrOPs4" role="3cqZAp">
+                  <node concept="2OqwBi" id="4cdUWYrOQjQ" role="3clFbG">
+                    <node concept="37vLTw" id="4cdUWYrOPs2" role="2Oq$k0">
                       <ref role="3cqZAo" node="3pVc9XTRfS5" resolve="existing" />
                     </node>
+                    <node concept="liA8E" id="4cdUWYrOSQ8" role="2OqNvi">
+                      <ref role="37wK5l" node="4cdUWYrOBJQ" resolve="setApplicationWasTakenOver" />
+                    </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="3pVc9XTVF4Z" role="3cqZAp" />
+                <node concept="3cpWs8" id="4cdUWYs2jVJ" role="3cqZAp">
+                  <node concept="3cpWsn" id="4cdUWYs2jVM" role="3cpWs9">
+                    <property role="TrG5h" value="msg" />
+                    <node concept="17QB3L" id="4cdUWYs2jVH" role="1tU5fm" />
+                    <node concept="3cpWs3" id="4cdUWYs1O8Z" role="33vP2m">
+                      <node concept="2OqwBi" id="4cdUWYs1TWe" role="3uHU7w">
+                        <node concept="37vLTw" id="4cdUWYs1TPO" role="2Oq$k0">
+                          <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                        </node>
+                        <node concept="liA8E" id="4cdUWYs1UnB" role="2OqNvi">
+                          <ref role="37wK5l" to="1e0c:4n24ZlEyhnp" resolve="getuser_connectionInfo" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="4cdUWYs1NTl" role="3uHU7B">
+                        <property role="Xl_RC" value="APP WAS TAKEN OVER by " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4cdUWYs1Mqi" role="3cqZAp">
+                  <node concept="2OqwBi" id="4cdUWYs1NkN" role="3clFbG">
+                    <node concept="2OqwBi" id="4cdUWYs2WY9" role="2Oq$k0">
+                      <node concept="37vLTw" id="4cdUWYs2Wr_" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3pVc9XTRfS5" resolve="existing" />
+                      </node>
+                      <node concept="2OwXpG" id="4cdUWYs2X2V" role="2OqNvi">
+                        <ref role="2Oxat5" node="kWPevMddpN" resolve="appController" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4cdUWYs1NOn" role="2OqNvi">
+                      <ref role="37wK5l" to="1e0c:5ZKHK64X_qA" resolve="logWarning" />
+                      <node concept="37vLTw" id="4cdUWYs2onn" role="37wK5m">
+                        <ref role="3cqZAo" node="4cdUWYs2jVM" resolve="msg" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4cdUWYs2mET" role="3cqZAp">
+                  <node concept="2OqwBi" id="4cdUWYs2nB8" role="3clFbG">
+                    <node concept="2OqwBi" id="4cdUWYs2Xkr" role="2Oq$k0">
+                      <node concept="37vLTw" id="4cdUWYs2WHb" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3pVc9XTRfS5" resolve="existing" />
+                      </node>
+                      <node concept="2OwXpG" id="4cdUWYs2XsG" role="2OqNvi">
+                        <ref role="2Oxat5" node="kWPevMddpN" resolve="appController" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="4cdUWYs2oiI" role="2OqNvi">
+                      <ref role="37wK5l" to="1e0c:4n24ZlExVl6" resolve="log" />
+                      <node concept="37vLTw" id="4cdUWYs2os3" role="37wK5m">
+                        <ref role="3cqZAo" node="4cdUWYs2jVM" resolve="msg" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="3pVc9XTRgJ9" role="3cqZAp">
+                  <node concept="37vLTw" id="3pVc9XTRhlV" role="3cqZAk">
+                    <ref role="3cqZAo" node="3pVc9XTRfS5" resolve="existing" />
+                  </node>
+                </node>
               </node>
-              <node concept="2OqwBi" id="3pVc9XTR4FX" role="3clFbw">
-                <node concept="2OqwBi" id="3pVc9XTYKX2" role="2Oq$k0">
-                  <node concept="37vLTw" id="3pVc9XTYKA2" role="2Oq$k0">
-                    <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-                  </node>
-                  <node concept="liA8E" id="3pVc9XTYL_f" role="2OqNvi">
-                    <ref role="37wK5l" to="1e0c:5YG5DD904R$" resolve="getAppTelemetrics" />
+              <node concept="1Wc70l" id="4cdUWYrZFGC" role="3clFbw">
+                <node concept="3y3z36" id="4cdUWYrZGYD" role="3uHU7w">
+                  <node concept="Xjq3P" id="4cdUWYrZH1B" role="3uHU7w" />
+                  <node concept="37vLTw" id="4cdUWYrZGUj" role="3uHU7B">
+                    <ref role="3cqZAo" node="3pVc9XTRfS5" resolve="existing" />
                   </node>
                 </node>
-                <node concept="liA8E" id="3pVc9XTR4MY" role="2OqNvi">
-                  <ref role="37wK5l" to="x37d:3pVc9XTPy6A" resolve="isSwapApplicationForUser" />
-                  <node concept="37vLTw" id="3pVc9XTR5XP" role="37wK5m">
-                    <ref role="3cqZAo" node="3pVc9XTR5D5" resolve="user" />
+                <node concept="3y3z36" id="3pVc9XTRgbW" role="3uHU7B">
+                  <node concept="37vLTw" id="3pVc9XTRgaI" role="3uHU7B">
+                    <ref role="3cqZAo" node="3pVc9XTRfS5" resolve="existing" />
                   </node>
-                </node>
-              </node>
-              <node concept="9aQIb" id="3pVc9XTVEGd" role="9aQIa">
-                <node concept="3clFbS" id="3pVc9XTVEGe" role="9aQI4">
-                  <node concept="3SKdUt" id="3pVc9XTRiJ6" role="3cqZAp">
-                    <node concept="3SKdUq" id="3pVc9XTRiJ7" role="3SKWNk">
-                      <property role="3SKdUp" value="register that users" />
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="3pVc9XTWhyI" role="3cqZAp">
-                    <node concept="2YIFZM" id="3pVc9XTWhAE" role="3clFbG">
-                      <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-                      <ref role="1Pybhc" node="3h3MBx3irbo" resolve="H2ApplicationLoader" />
-                      <node concept="3cpWs3" id="3pVc9XTWhL6" role="37wK5m">
-                        <node concept="Xl_RD" id="3pVc9XTWhBj" role="3uHU7B">
-                          <property role="Xl_RC" value="Adding App for user " />
-                        </node>
-                        <node concept="37vLTw" id="3pVc9XTWhZf" role="3uHU7w">
-                          <ref role="3cqZAo" node="3pVc9XTR5D5" resolve="user" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="3pVc9XTRiKI" role="3cqZAp">
-                    <node concept="2OqwBi" id="3pVc9XTRiLZ" role="3clFbG">
-                      <node concept="37vLTw" id="3pVc9XTRiKG" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
-                      </node>
-                      <node concept="liA8E" id="3pVc9XTRiRL" role="2OqNvi">
-                        <ref role="37wK5l" node="3pVc9XTQmgx" resolve="addApplicationForUser" />
-                        <node concept="37vLTw" id="3pVc9XTRiT5" role="37wK5m">
-                          <ref role="3cqZAo" node="3pVc9XTR5D5" resolve="user" />
-                        </node>
-                        <node concept="Xjq3P" id="3pVc9XTYUaH" role="37wK5m" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbH" id="3pVc9XTWhvl" role="3cqZAp" />
+                  <node concept="10Nm6u" id="3pVc9XTRgcJ" role="3uHU7w" />
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3pVc9XTVB97" role="3cqZAp" />
           </node>
           <node concept="2OqwBi" id="3pVc9XTVBy$" role="3clFbw">
             <node concept="37vLTw" id="3pVc9XTVBvc" role="2Oq$k0">
               <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
             </node>
             <node concept="liA8E" id="3pVc9XTVBEy" role="2OqNvi">
-              <ref role="37wK5l" node="3pVc9XTQngi" resolve="isSwapAppUser" />
+              <ref role="37wK5l" to="250q:4cdUWYrGdkO" resolve="isUserAllowedForApplicationTakeOver" />
               <node concept="37vLTw" id="3pVc9XTVBFT" role="37wK5m">
                 <ref role="3cqZAo" node="3pVc9XTR5D5" resolve="user" />
               </node>
@@ -7173,6 +7316,99 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="4cdUWYrRovr" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="persistApplicationForTakeOver" />
+      <node concept="10P_77" id="4cdUWYrRWoQ" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrRovt" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrRovw" role="3clF47">
+        <node concept="3clFbF" id="4cdUWYrRq2J" role="3cqZAp">
+          <node concept="2OqwBi" id="4cdUWYrRq64" role="3clFbG">
+            <node concept="37vLTw" id="4cdUWYrRq2I" role="2Oq$k0">
+              <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
+            </node>
+            <node concept="liA8E" id="4cdUWYrRqmx" role="2OqNvi">
+              <ref role="37wK5l" node="3pVc9XTQmgx" resolve="addApplicationForUser" />
+              <node concept="2OqwBi" id="4cdUWYrRqto" role="37wK5m">
+                <node concept="Xjq3P" id="4cdUWYrRqq3" role="2Oq$k0" />
+                <node concept="liA8E" id="4cdUWYrRq_7" role="2OqNvi">
+                  <ref role="37wK5l" node="1wwgtxzg3SF" resolve="getUserName" />
+                </node>
+              </node>
+              <node concept="Xjq3P" id="4cdUWYrRqQK" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4cdUWYs2o$0" role="3cqZAp">
+          <node concept="3cpWsn" id="4cdUWYs2o$3" role="3cpWs9">
+            <property role="TrG5h" value="msg" />
+            <node concept="17QB3L" id="4cdUWYs2ozY" role="1tU5fm" />
+            <node concept="3cpWs3" id="4cdUWYs1VLq" role="33vP2m">
+              <node concept="2OqwBi" id="4cdUWYs1VYw" role="3uHU7w">
+                <node concept="37vLTw" id="4cdUWYs1VSb" role="2Oq$k0">
+                  <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                </node>
+                <node concept="liA8E" id="4cdUWYs1W_K" role="2OqNvi">
+                  <ref role="37wK5l" to="1e0c:4n24ZlEyhnp" resolve="getuser_connectionInfo" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="4cdUWYs1Vjb" role="3uHU7B">
+                <property role="Xl_RC" value="PERSISTANCE REQUEST FOR APP currently owned by " />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4cdUWYs1Uz3" role="3cqZAp">
+          <node concept="2OqwBi" id="4cdUWYs1UCB" role="3clFbG">
+            <node concept="37vLTw" id="4cdUWYs1Uz1" role="2Oq$k0">
+              <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+            </node>
+            <node concept="liA8E" id="4cdUWYs1V1P" role="2OqNvi">
+              <ref role="37wK5l" to="1e0c:5ZKHK64X_qA" resolve="logWarning" />
+              <node concept="37vLTw" id="4cdUWYs2pbw" role="37wK5m">
+                <ref role="3cqZAo" node="4cdUWYs2o$3" resolve="msg" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4cdUWYs2pmg" role="3cqZAp">
+          <node concept="2OqwBi" id="4cdUWYs2pth" role="3clFbG">
+            <node concept="37vLTw" id="4cdUWYs2pme" role="2Oq$k0">
+              <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+            </node>
+            <node concept="liA8E" id="4cdUWYs2pTh" role="2OqNvi">
+              <ref role="37wK5l" to="1e0c:4n24ZlExVl6" resolve="log" />
+              <node concept="37vLTw" id="4cdUWYs2pXI" role="37wK5m">
+                <ref role="3cqZAo" node="4cdUWYs2o$3" resolve="msg" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="4cdUWYrRXzQ" role="3cqZAp">
+          <node concept="3clFbT" id="4cdUWYrRXzP" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cdUWYrOBJQ" role="jymVt">
+      <property role="TrG5h" value="setApplicationWasTakenOver" />
+      <node concept="3cqZAl" id="4cdUWYrOBJS" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrOBJT" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrOBJU" role="3clF47">
+        <node concept="3clFbF" id="4cdUWYrOMyW" role="3cqZAp">
+          <node concept="2OqwBi" id="4cdUWYrOMBt" role="3clFbG">
+            <node concept="37vLTw" id="4cdUWYrOMyV" role="2Oq$k0">
+              <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+            </node>
+            <node concept="liA8E" id="4cdUWYrON0X" role="2OqNvi">
+              <ref role="37wK5l" to="1e0c:4cdUWYrKPnt" resolve="setApplicationWasTakenOver" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4cdUWYrOAlS" role="jymVt" />
     <node concept="3clFb_" id="5hYsHqQHmgz" role="jymVt">
       <property role="TrG5h" value="isRemoveFromSessionAndClose" />
       <node concept="10P_77" id="5hYsHqQHnkp" role="3clF45" />
@@ -7643,8 +7879,8 @@
       </node>
       <node concept="37vLTG" id="3pVc9XTQmyf" role="3clF46">
         <property role="TrG5h" value="crtl" />
-        <node concept="3uibUv" id="3pVc9XTQm_y" role="1tU5fm">
-          <ref role="3uigEE" node="1wwgtxzdy3N" resolve="IH2Controller" />
+        <node concept="3uibUv" id="4cdUWYrOTdO" role="1tU5fm">
+          <ref role="3uigEE" node="kWPevMd7Le" resolve="H2Application" />
         </node>
       </node>
       <node concept="3cqZAl" id="3pVc9XTQmgz" role="3clF45" />
@@ -7670,8 +7906,8 @@
         <property role="TrG5h" value="user" />
         <node concept="17QB3L" id="3pVc9XTQmBW" role="1tU5fm" />
       </node>
-      <node concept="3uibUv" id="3pVc9XTQmGy" role="3clF45">
-        <ref role="3uigEE" node="1wwgtxzdy3N" resolve="IH2Controller" />
+      <node concept="3uibUv" id="4cdUWYrOTi5" role="3clF45">
+        <ref role="3uigEE" node="kWPevMd7Le" resolve="H2Application" />
       </node>
       <node concept="3Tm1VV" id="3pVc9XTQmC0" role="1B3o_S" />
       <node concept="3clFbS" id="3pVc9XTQmC1" role="3clF47" />
@@ -7685,25 +7921,20 @@
       </node>
       <node concept="37vLTG" id="3pVc9XTQpuN" role="3clF46">
         <property role="TrG5h" value="crtl" />
-        <node concept="3uibUv" id="3pVc9XTQpyy" role="1tU5fm">
-          <ref role="3uigEE" node="1wwgtxzdy3N" resolve="IH2Controller" />
+        <node concept="3uibUv" id="4cdUWYrOTkr" role="1tU5fm">
+          <ref role="3uigEE" node="kWPevMd7Le" resolve="H2Application" />
         </node>
       </node>
       <node concept="3cqZAl" id="3pVc9XTQpAw" role="3clF45" />
       <node concept="3Tm1VV" id="3pVc9XTQpb5" role="1B3o_S" />
       <node concept="3clFbS" id="3pVc9XTQpb6" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="3pVc9XTQngi" role="jymVt">
+    <node concept="3clFb_" id="4cdUWYrKupc" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isSwapAppUser" />
-      <node concept="3clFbS" id="3pVc9XTQngl" role="3clF47" />
-      <node concept="3Tm1VV" id="3pVc9XTQngm" role="1B3o_S" />
-      <node concept="10P_77" id="3pVc9XTQndk" role="3clF45" />
-      <node concept="37vLTG" id="3pVc9XTQnk0" role="3clF46">
-        <property role="TrG5h" value="user" />
-        <node concept="17QB3L" id="3pVc9XTQnjZ" role="1tU5fm" />
-      </node>
+      <property role="TrG5h" value="removeAllApplicationsForUsers" />
+      <node concept="3cqZAl" id="4cdUWYrKupe" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrKupf" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrKupg" role="3clF47" />
     </node>
   </node>
   <node concept="312cEu" id="5hYsHqQzcYi">
@@ -8925,6 +9156,21 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="4cdUWYrLOCp" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="origSessionButApplicationTakenOver" />
+      <node concept="37vLTG" id="4cdUWYrLOCq" role="3clF46">
+        <property role="TrG5h" value="sesId" />
+        <node concept="17QB3L" id="4cdUWYrLOCr" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="4cdUWYrLOCs" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrLOCt" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrLOCv" role="3clF47">
+        <node concept="3clFbF" id="4cdUWYrLOCx" role="3cqZAp">
+          <node concept="3clFbT" id="4cdUWYrLOCw" role="3clFbG" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="1wwgtxzg9F2" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="valueBound" />
@@ -8959,6 +9205,26 @@
             <property role="3SKdUp" value="we are stateless anyway" />
           </node>
         </node>
+        <node concept="3clFbF" id="4cdUWYrYqYt" role="3cqZAp">
+          <node concept="1rXfSq" id="4cdUWYrYqYr" role="3clFbG">
+            <ref role="37wK5l" node="4cdUWYrYqpc" resolve="externalCloseApplicationWithSessionId" />
+            <node concept="Xl_RD" id="4cdUWYrYr4b" role="37wK5m">
+              <property role="Xl_RC" value="null" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4cdUWYrYqpc" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="externalCloseApplicationWithSessionId" />
+      <node concept="37vLTG" id="4cdUWYrYqpd" role="3clF46">
+        <property role="TrG5h" value="sessionId" />
+        <node concept="17QB3L" id="4cdUWYrYqpe" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4cdUWYrYqpf" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrYqpg" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrYqpi" role="3clF47">
         <node concept="3clFbF" id="1wwgtxzgEuo" role="3cqZAp">
           <node concept="37vLTI" id="1wwgtxzgEup" role="3clFbG">
             <node concept="10Nm6u" id="1wwgtxzgEzY" role="37vLTx" />
@@ -8983,7 +9249,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1wwgtxzggjv" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="1wwgtxzgOuk" role="jymVt" />
@@ -9106,6 +9371,18 @@
       <node concept="3clFbS" id="1wwgtxzdEOD" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="1wwgtxzdEGG" role="jymVt" />
+    <node concept="3clFb_" id="4cdUWYrL7vd" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="origSessionButApplicationTakenOver" />
+      <node concept="37vLTG" id="4cdUWYrLLbH" role="3clF46">
+        <property role="TrG5h" value="sesId" />
+        <node concept="17QB3L" id="4cdUWYrLLg8" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="4cdUWYrL7za" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrL7vg" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrL7vh" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="4cdUWYrOQPr" role="jymVt" />
     <node concept="3clFb_" id="1wwgtxzdApi" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="isRemoveFromSessionAndClose" />
@@ -9123,6 +9400,18 @@
     <node concept="3Tm1VV" id="1wwgtxzdy3O" role="1B3o_S" />
     <node concept="3uibUv" id="1wwgtxzdIst" role="3HQHJm">
       <ref role="3uigEE" to="nwfd:~HttpSessionBindingListener" resolve="HttpSessionBindingListener" />
+    </node>
+    <node concept="2tJIrI" id="4cdUWYrXTYP" role="jymVt" />
+    <node concept="3clFb_" id="4cdUWYrXVpU" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="externalCloseApplicationWithSessionId" />
+      <node concept="37vLTG" id="4cdUWYrXV_q" role="3clF46">
+        <property role="TrG5h" value="sessionId" />
+        <node concept="17QB3L" id="4cdUWYrXVBi" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="4cdUWYrXVpW" role="3clF45" />
+      <node concept="3Tm1VV" id="4cdUWYrXVpX" role="1B3o_S" />
+      <node concept="3clFbS" id="4cdUWYrXVpY" role="3clF47" />
     </node>
   </node>
 </model>
