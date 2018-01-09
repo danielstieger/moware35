@@ -1626,12 +1626,22 @@
         </node>
       </node>
     </node>
-    <node concept="312cEg" id="7BWfrtD0dm1" role="jymVt">
+    <node concept="312cEg" id="6BG_0Ec5J5n" role="jymVt">
       <property role="TrG5h" value="inbox" />
-      <node concept="3Tm6S6" id="7BWfrtD0dm2" role="1B3o_S" />
-      <node concept="3uibUv" id="7BWfrtD0dDv" role="1tU5fm">
+      <node concept="3Tm6S6" id="6BG_0Ec5J5o" role="1B3o_S" />
+      <node concept="3uibUv" id="6BG_0Ec5J5p" role="1tU5fm">
         <ref role="3uigEE" to="5zyv:~ConcurrentLinkedQueue" resolve="ConcurrentLinkedQueue" />
-        <node concept="16syzq" id="7BWfrtD0hsg" role="11_B2D">
+        <node concept="16syzq" id="6BG_0Ec5J5q" role="11_B2D">
+          <ref role="16sUi3" node="7BWfrtD0eEI" resolve="Entity" />
+        </node>
+      </node>
+    </node>
+    <node concept="312cEg" id="6BG_0Ec40f6" role="jymVt">
+      <property role="TrG5h" value="inboxToPostProcess" />
+      <node concept="3Tm6S6" id="6BG_0Ec40f7" role="1B3o_S" />
+      <node concept="3uibUv" id="6BG_0Ec40f8" role="1tU5fm">
+        <ref role="3uigEE" to="5zyv:~ConcurrentLinkedQueue" resolve="ConcurrentLinkedQueue" />
+        <node concept="16syzq" id="6BG_0Ec40f9" role="11_B2D">
           <ref role="16sUi3" node="7BWfrtD0eEI" resolve="Entity" />
         </node>
       </node>
@@ -1830,7 +1840,22 @@
               </node>
             </node>
             <node concept="37vLTw" id="7BWfrtD0ecr" role="37vLTJ">
-              <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+              <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6BG_0Ec45NN" role="3cqZAp">
+          <node concept="37vLTI" id="6BG_0Ec45NO" role="3clFbG">
+            <node concept="2ShNRf" id="6BG_0Ec45NP" role="37vLTx">
+              <node concept="1pGfFk" id="6BG_0Ec45NQ" role="2ShVmc">
+                <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.&lt;init&gt;()" resolve="ConcurrentLinkedQueue" />
+                <node concept="16syzq" id="6BG_0Ec45NR" role="1pMfVU">
+                  <ref role="16sUi3" node="7BWfrtD0eEI" resolve="Entity" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="6BG_0Ec47ib" role="37vLTJ">
+              <ref role="3cqZAo" node="6BG_0Ec40f6" resolve="inboxToPostProcess" />
             </node>
           </node>
         </node>
@@ -2149,10 +2174,15 @@
       <node concept="3Tm1VV" id="3yI9$tKe$mG" role="1B3o_S" />
       <node concept="10Oyi0" id="3yI9$tKe$mH" role="3clF45" />
       <node concept="3clFbS" id="3yI9$tKe$mL" role="3clF47">
+        <node concept="3SKdUt" id="6BG_0Ec5AKE" role="3cqZAp">
+          <node concept="3SKdUq" id="6BG_0Ec5AKG" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: + inboxPostProcess size" />
+          </node>
+        </node>
         <node concept="3clFbF" id="3yI9$tKeDcQ" role="3cqZAp">
           <node concept="2OqwBi" id="3yI9$tKeDox" role="3clFbG">
             <node concept="37vLTw" id="3yI9$tKeDcP" role="2Oq$k0">
-              <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+              <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
             </node>
             <node concept="liA8E" id="3yI9$tKeESK" role="2OqNvi">
               <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -3117,7 +3147,7 @@
                           <node concept="3clFbF" id="1TthV9fS60Y" role="3cqZAp">
                             <node concept="2OqwBi" id="1TthV9fS67B" role="3clFbG">
                               <node concept="37vLTw" id="1TthV9fS60W" role="2Oq$k0">
-                                <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                                <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                               </node>
                               <node concept="liA8E" id="1TthV9fS6BN" role="2OqNvi">
                                 <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.add(java.lang.Object):boolean" resolve="add" />
@@ -3570,7 +3600,7 @@
                               <node concept="3clFbF" id="1TthV9fS9RC" role="3cqZAp">
                                 <node concept="2OqwBi" id="1TthV9fS9Y7" role="3clFbG">
                                   <node concept="37vLTw" id="1TthV9fS9RA" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                                    <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                                   </node>
                                   <node concept="liA8E" id="1TthV9fSauo" role="2OqNvi">
                                     <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.add(java.lang.Object):boolean" resolve="add" />
@@ -3855,6 +3885,7 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="7BWfrtD0qCb" role="3cqZAp" />
+                <node concept="3clFbH" id="6BG_0Ec3Y3c" role="3cqZAp" />
                 <node concept="3clFbJ" id="1TthV9fOqL4" role="3cqZAp">
                   <node concept="3clFbS" id="1TthV9fOqL6" role="3clFbx">
                     <node concept="3SKdUt" id="1TthV9fQ97B" role="3cqZAp">
@@ -3899,21 +3930,36 @@
                     </node>
                   </node>
                   <node concept="1Wc70l" id="1TthV9fOvbN" role="3clFbw">
-                    <node concept="1Wc70l" id="1TthV9fOspt" role="3uHU7B">
-                      <node concept="37vLTw" id="1TthV9fOs1i" role="3uHU7B">
-                        <ref role="3cqZAo" node="2xm_JkjCnHN" resolve="shutdownWhenInboxEmptyAndConsumersParked" />
-                      </node>
-                      <node concept="3clFbC" id="1TthV9fOuiK" role="3uHU7w">
-                        <node concept="2OqwBi" id="1TthV9fOtg9" role="3uHU7B">
-                          <node concept="37vLTw" id="1TthV9fOsL9" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                    <node concept="1Wc70l" id="6BG_0Ec4AYP" role="3uHU7B">
+                      <node concept="3clFbC" id="6BG_0Ec4CfH" role="3uHU7w">
+                        <node concept="3cmrfG" id="6BG_0Ec4EA3" role="3uHU7w">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                        <node concept="2OqwBi" id="6BG_0Ec4Dl9" role="3uHU7B">
+                          <node concept="37vLTw" id="6BG_0Ec4C1o" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6BG_0Ec40f6" resolve="inboxToPostProcess" />
                           </node>
-                          <node concept="liA8E" id="1TthV9fOtLQ" role="2OqNvi">
+                          <node concept="liA8E" id="6BG_0Ec4DyT" role="2OqNvi">
                             <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
                           </node>
                         </node>
-                        <node concept="3cmrfG" id="1TthV9fOuJi" role="3uHU7w">
-                          <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="1Wc70l" id="1TthV9fOspt" role="3uHU7B">
+                        <node concept="37vLTw" id="1TthV9fOs1i" role="3uHU7B">
+                          <ref role="3cqZAo" node="2xm_JkjCnHN" resolve="shutdownWhenInboxEmptyAndConsumersParked" />
+                        </node>
+                        <node concept="3clFbC" id="1TthV9fOuiK" role="3uHU7w">
+                          <node concept="2OqwBi" id="1TthV9fOtg9" role="3uHU7B">
+                            <node concept="37vLTw" id="1TthV9fOsL9" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                            </node>
+                            <node concept="liA8E" id="1TthV9fOtLQ" role="2OqNvi">
+                              <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
+                            </node>
+                          </node>
+                          <node concept="3cmrfG" id="1TthV9fOuJi" role="3uHU7w">
+                            <property role="3cmrfH" value="0" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -3923,7 +3969,77 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="1TthV9fPXJ6" role="3cqZAp" />
-                <node concept="3clFbH" id="1tVklsmx7ru" role="3cqZAp" />
+                <node concept="3SKdUt" id="6BG_0Ec5drs" role="3cqZAp">
+                  <node concept="3SKdUq" id="6BG_0Ec5dru" role="3SKWNk">
+                    <property role="3SKdUp" value="inbox swap when inbox is 0 and no consumer ... " />
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="6BG_0Ec4JZm" role="3cqZAp">
+                  <node concept="3clFbS" id="6BG_0Ec4JZo" role="3clFbx">
+                    <node concept="3clFbF" id="6BG_0Ec4XyQ" role="3cqZAp">
+                      <node concept="2OqwBi" id="6BG_0Ec4XDa" role="3clFbG">
+                        <node concept="37vLTw" id="6BG_0Ec4XyO" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                        </node>
+                        <node concept="liA8E" id="6BG_0Ec4YT5" role="2OqNvi">
+                          <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.addAll(java.util.Collection):boolean" resolve="addAll" />
+                          <node concept="37vLTw" id="6BG_0Ec4ZXi" role="37wK5m">
+                            <ref role="3cqZAo" node="6BG_0Ec40f6" resolve="inboxToPostProcess" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="6BG_0Ec56qq" role="3cqZAp">
+                      <node concept="2OqwBi" id="6BG_0Ec57yU" role="3clFbG">
+                        <node concept="37vLTw" id="6BG_0Ec56qo" role="2Oq$k0">
+                          <ref role="3cqZAo" node="6BG_0Ec40f6" resolve="inboxToPostProcess" />
+                        </node>
+                        <node concept="liA8E" id="6BG_0Ec57H$" role="2OqNvi">
+                          <ref role="37wK5l" to="33ny:~AbstractQueue.clear():void" resolve="clear" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="6BG_0Ec5o74" role="3cqZAp">
+                      <node concept="1rXfSq" id="6BG_0Ec5o72" role="3clFbG">
+                        <ref role="37wK5l" node="1TthV9fRJWT" resolve="wakeUpWaitingAndSendWork" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="6BG_0Ec4VlM" role="3clFbw">
+                    <node concept="1rXfSq" id="6BG_0Ec4WtJ" role="3uHU7w">
+                      <ref role="37wK5l" node="1TthV9fOwW$" resolve="isNoConsumerWorking" />
+                    </node>
+                    <node concept="1Wc70l" id="6BG_0Ec4QHg" role="3uHU7B">
+                      <node concept="3clFbC" id="6BG_0Ec4OE1" role="3uHU7B">
+                        <node concept="2OqwBi" id="6BG_0Ec4Mny" role="3uHU7B">
+                          <node concept="37vLTw" id="6BG_0Ec4Met" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                          </node>
+                          <node concept="liA8E" id="6BG_0Ec4NAk" role="2OqNvi">
+                            <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
+                          </node>
+                        </node>
+                        <node concept="3cmrfG" id="6BG_0Ec4PGf" role="3uHU7w">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                      </node>
+                      <node concept="3eOSWO" id="6BG_0Ec4Udd" role="3uHU7w">
+                        <node concept="2OqwBi" id="6BG_0Ec4STb" role="3uHU7B">
+                          <node concept="37vLTw" id="6BG_0Ec4RMa" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6BG_0Ec40f6" resolve="inboxToPostProcess" />
+                          </node>
+                          <node concept="liA8E" id="6BG_0Ec4T5A" role="2OqNvi">
+                            <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
+                          </node>
+                        </node>
+                        <node concept="3cmrfG" id="6BG_0Ec4UeN" role="3uHU7w">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="6BG_0Ec58J$" role="3cqZAp" />
                 <node concept="3SKdUt" id="2FE68tM3A0_" role="3cqZAp">
                   <node concept="3SKdUq" id="2FE68tM3A0B" role="3SKWNk">
                     <property role="3SKdUp" value="--------------------------- nextSched for PRODUCER -------------------- " />
@@ -4054,34 +4170,49 @@
                           <node concept="1rXfSq" id="1tVklsmwFw3" role="3uHU7w">
                             <ref role="37wK5l" node="1TthV9fOwW$" resolve="isNoConsumerWorking" />
                           </node>
-                          <node concept="1Wc70l" id="1tVklsmvznR" role="3uHU7B">
-                            <node concept="1Wc70l" id="2FE68tM3tz4" role="3uHU7B">
-                              <node concept="2OqwBi" id="6qYeaMe_$Vf" role="3uHU7B">
-                                <node concept="37vLTw" id="6qYeaMe_$T1" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="4NpYXr5VCvU" resolve="appFactory" />
-                                </node>
-                                <node concept="liA8E" id="6qYeaMe__BV" role="2OqNvi">
-                                  <ref role="37wK5l" node="6qYeaMerexj" resolve="isDelayMode" />
-                                </node>
+                          <node concept="1Wc70l" id="6BG_0Ec5hhG" role="3uHU7B">
+                            <node concept="3clFbC" id="6BG_0Ec5kTe" role="3uHU7w">
+                              <node concept="3cmrfG" id="6BG_0Ec5m0c" role="3uHU7w">
+                                <property role="3cmrfH" value="0" />
                               </node>
-                              <node concept="3clFbC" id="2FE68tM3vlA" role="3uHU7w">
-                                <node concept="37vLTw" id="2FE68tM3us1" role="3uHU7B">
-                                  <ref role="3cqZAo" node="6qYeaMetLKM" resolve="nextSchedProducerRun" />
+                              <node concept="2OqwBi" id="6BG_0Ec5iAM" role="3uHU7B">
+                                <node concept="37vLTw" id="6BG_0Ec5ipU" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="6BG_0Ec40f6" resolve="inboxToPostProcess" />
                                 </node>
-                                <node concept="10Nm6u" id="2FE68tM3voW" role="3uHU7w" />
-                              </node>
-                            </node>
-                            <node concept="3clFbC" id="1tVklsmwHCF" role="3uHU7w">
-                              <node concept="2OqwBi" id="1tVklsmv$5h" role="3uHU7B">
-                                <node concept="37vLTw" id="1tVklsmvzSn" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
-                                </node>
-                                <node concept="liA8E" id="1tVklsmv$ql" role="2OqNvi">
+                                <node concept="liA8E" id="6BG_0Ec5jMx" role="2OqNvi">
                                   <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
                                 </node>
                               </node>
-                              <node concept="3cmrfG" id="1tVklsmv_rJ" role="3uHU7w">
-                                <property role="3cmrfH" value="0" />
+                            </node>
+                            <node concept="1Wc70l" id="1tVklsmvznR" role="3uHU7B">
+                              <node concept="1Wc70l" id="2FE68tM3tz4" role="3uHU7B">
+                                <node concept="2OqwBi" id="6qYeaMe_$Vf" role="3uHU7B">
+                                  <node concept="37vLTw" id="6qYeaMe_$T1" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="4NpYXr5VCvU" resolve="appFactory" />
+                                  </node>
+                                  <node concept="liA8E" id="6qYeaMe__BV" role="2OqNvi">
+                                    <ref role="37wK5l" node="6qYeaMerexj" resolve="isDelayMode" />
+                                  </node>
+                                </node>
+                                <node concept="3clFbC" id="2FE68tM3vlA" role="3uHU7w">
+                                  <node concept="37vLTw" id="2FE68tM3us1" role="3uHU7B">
+                                    <ref role="3cqZAo" node="6qYeaMetLKM" resolve="nextSchedProducerRun" />
+                                  </node>
+                                  <node concept="10Nm6u" id="2FE68tM3voW" role="3uHU7w" />
+                                </node>
+                              </node>
+                              <node concept="3clFbC" id="1tVklsmwHCF" role="3uHU7w">
+                                <node concept="2OqwBi" id="1tVklsmv$5h" role="3uHU7B">
+                                  <node concept="37vLTw" id="1tVklsmvzSn" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                                  </node>
+                                  <node concept="liA8E" id="1tVklsmv$ql" role="2OqNvi">
+                                    <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
+                                  </node>
+                                </node>
+                                <node concept="3cmrfG" id="1tVklsmv_rJ" role="3uHU7w">
+                                  <property role="3cmrfH" value="0" />
+                                </node>
                               </node>
                             </node>
                           </node>
@@ -4374,6 +4505,11 @@
         <node concept="3clFbH" id="7BWfrtCZteO" role="3cqZAp" />
         <node concept="3clFbJ" id="1TthV9fXT4p" role="3cqZAp">
           <node concept="3clFbS" id="1TthV9fXT4r" role="3clFbx">
+            <node concept="3SKdUt" id="6BG_0Ec5BsO" role="3cqZAp">
+              <node concept="3SKdUq" id="6BG_0Ec5BsQ" role="3SKWNk">
+                <property role="3SKdUp" value="TODO and postProcInbox" />
+              </node>
+            </node>
             <node concept="3clFbF" id="2fj6lk$dg7i" role="3cqZAp">
               <node concept="1rXfSq" id="2fj6lk$dg7g" role="3clFbG">
                 <ref role="37wK5l" node="2fj6lk$8KUO" resolve="prot" />
@@ -4398,7 +4534,7 @@
             </node>
             <node concept="2OqwBi" id="1TthV9fXUI$" role="3uHU7B">
               <node concept="37vLTw" id="1TthV9fXTYK" role="2Oq$k0">
-                <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
               </node>
               <node concept="liA8E" id="1TthV9fXVN8" role="2OqNvi">
                 <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -5270,9 +5406,19 @@
         <node concept="3clFbF" id="6qYeaMeB3iQ" role="3cqZAp">
           <node concept="2OqwBi" id="6qYeaMeB3iR" role="3clFbG">
             <node concept="37vLTw" id="6qYeaMeB3iS" role="2Oq$k0">
-              <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+              <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
             </node>
             <node concept="liA8E" id="6qYeaMeB3iT" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~AbstractQueue.clear():void" resolve="clear" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6BG_0Ec490C" role="3cqZAp">
+          <node concept="2OqwBi" id="6BG_0Ec49wU" role="3clFbG">
+            <node concept="37vLTw" id="6BG_0Ec490A" role="2Oq$k0">
+              <ref role="3cqZAo" node="6BG_0Ec40f6" resolve="inboxToPostProcess" />
+            </node>
+            <node concept="liA8E" id="6BG_0Ec49W4" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~AbstractQueue.clear():void" resolve="clear" />
             </node>
           </node>
@@ -5302,7 +5448,7 @@
             <ref role="37wK5l" node="7HSdIeXMBof" resolve="inboxLoadStart" />
             <node concept="2OqwBi" id="6qYeaMeB3iE" role="37wK5m">
               <node concept="37vLTw" id="6qYeaMeB3iF" role="2Oq$k0">
-                <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
               </node>
               <node concept="liA8E" id="6qYeaMeB3iG" role="2OqNvi">
                 <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -5408,6 +5554,7 @@
             <ref role="3cqZAo" node="7BWfrtCZtdt" resolve="allConsumers" />
           </node>
         </node>
+        <node concept="3clFbH" id="6BG_0Ec4xzn" role="3cqZAp" />
         <node concept="3clFbJ" id="6qYeaMeB3jo" role="3cqZAp">
           <node concept="3clFbS" id="6qYeaMeB3jp" role="3clFbx">
             <node concept="1X3_iC" id="6qYeaMeB3jq" role="lGtFl">
@@ -5494,11 +5641,10 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6qYeaMeB3jS" role="3cqZAp" />
         <node concept="3clFbF" id="6qYeaMeB3jT" role="3cqZAp">
           <node concept="2OqwBi" id="6qYeaMeB3jU" role="3clFbG">
             <node concept="37vLTw" id="6qYeaMeB3jV" role="2Oq$k0">
-              <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+              <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
             </node>
             <node concept="liA8E" id="6qYeaMeB3jW" role="2OqNvi">
               <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.addAll(java.util.Collection):boolean" resolve="addAll" />
@@ -5508,6 +5654,76 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6BG_0Ec4jAF" role="3cqZAp" />
+        <node concept="3clFbF" id="6BG_0Ec4kSC" role="3cqZAp">
+          <node concept="37vLTI" id="6BG_0Ec4lGx" role="3clFbG">
+            <node concept="2OqwBi" id="6BG_0Ec4nnz" role="37vLTx">
+              <node concept="37vLTw" id="6BG_0Ec4mor" role="2Oq$k0">
+                <ref role="3cqZAo" node="4NpYXr5Tr_0" resolve="producerCommandImplStatefull" />
+              </node>
+              <node concept="liA8E" id="6BG_0Ec4olz" role="2OqNvi">
+                <ref role="37wK5l" node="6BG_0EbXKVX" resolve="getPostProcessInbox" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="6BG_0Ec4kSA" role="37vLTJ">
+              <ref role="3cqZAo" node="6qYeaMeB3iK" resolve="listForInbox" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="6BG_0Ec4pst" role="3cqZAp">
+          <node concept="3clFbS" id="6BG_0Ec4psv" role="3clFbx">
+            <node concept="3clFbJ" id="6BG_0Ec4ujv" role="3cqZAp">
+              <node concept="3clFbS" id="6BG_0Ec4ujx" role="3clFbx">
+                <node concept="3clFbF" id="6BG_0Ec4vT7" role="3cqZAp">
+                  <node concept="2OqwBi" id="6BG_0Ec4vY9" role="3clFbG">
+                    <node concept="37vLTw" id="6BG_0Ec4vT5" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6qYeaMeB3iK" resolve="listForInbox" />
+                    </node>
+                    <node concept="liA8E" id="6BG_0Ec4wHp" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~ArrayList.removeAll(java.util.Collection):boolean" resolve="removeAll" />
+                      <node concept="37vLTw" id="6BG_0Ec4x7C" role="37wK5m">
+                        <ref role="3cqZAo" node="6qYeaMeB3iX" resolve="toRemove" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eOSWO" id="6BG_0Ec4vrx" role="3clFbw">
+                <node concept="3cmrfG" id="6BG_0Ec4vt7" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="6BG_0Ec4uLK" role="3uHU7B">
+                  <node concept="37vLTw" id="6BG_0Ec4uDv" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6qYeaMeB3iX" resolve="toRemove" />
+                  </node>
+                  <node concept="liA8E" id="6BG_0Ec4v00" role="2OqNvi">
+                    <ref role="37wK5l" to="33ny:~ArrayList.size():int" resolve="size" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6BG_0Ec4zkm" role="3cqZAp">
+              <node concept="2OqwBi" id="6BG_0Ec4$kF" role="3clFbG">
+                <node concept="37vLTw" id="6BG_0Ec4zkk" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6BG_0Ec40f6" resolve="inboxToPostProcess" />
+                </node>
+                <node concept="liA8E" id="6BG_0Ec4$Yc" role="2OqNvi">
+                  <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.addAll(java.util.Collection):boolean" resolve="addAll" />
+                  <node concept="37vLTw" id="6BG_0Ec4_tw" role="37wK5m">
+                    <ref role="3cqZAo" node="6qYeaMeB3iK" resolve="listForInbox" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="6BG_0Ec4qEz" role="3clFbw">
+            <node concept="10Nm6u" id="6BG_0Ec4qYA" role="3uHU7w" />
+            <node concept="37vLTw" id="6BG_0Ec4qga" role="3uHU7B">
+              <ref role="3cqZAo" node="6qYeaMeB3iK" resolve="listForInbox" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6BG_0Ec4yr2" role="3cqZAp" />
         <node concept="3clFbF" id="6qYeaMeB3jY" role="3cqZAp">
           <node concept="37vLTI" id="6qYeaMeB3jZ" role="3clFbG">
             <node concept="2OqwBi" id="6qYeaMeB3k0" role="37vLTx">
@@ -5524,12 +5740,17 @@
           </node>
         </node>
         <node concept="3clFbH" id="6qYeaMeB3k4" role="3cqZAp" />
+        <node concept="3SKdUt" id="6BG_0Ec5Cq6" role="3cqZAp">
+          <node concept="3SKdUq" id="6BG_0Ec5DU_" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: inbox postproc" />
+          </node>
+        </node>
         <node concept="3clFbF" id="6qYeaMeB3k5" role="3cqZAp">
           <node concept="1rXfSq" id="6qYeaMeB3k6" role="3clFbG">
             <ref role="37wK5l" node="7HSdIeXMBVy" resolve="inboxLoadStop" />
             <node concept="2OqwBi" id="6qYeaMeB3k7" role="37wK5m">
               <node concept="37vLTw" id="6qYeaMeB3k8" role="2Oq$k0">
-                <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
               </node>
               <node concept="liA8E" id="6qYeaMeB3k9" role="2OqNvi">
                 <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -5876,7 +6097,7 @@
                 <node concept="3eOSWO" id="6qYeaMeCOic" role="3clFbw">
                   <node concept="2OqwBi" id="6qYeaMeCMS5" role="3uHU7B">
                     <node concept="37vLTw" id="6qYeaMeCMFO" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                      <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                     </node>
                     <node concept="liA8E" id="6qYeaMeCNvL" role="2OqNvi">
                       <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -5970,7 +6191,7 @@
                             <node concept="10Oyi0" id="1tVklsmOajv" role="1tU5fm" />
                             <node concept="2OqwBi" id="1tVklsmOajw" role="33vP2m">
                               <node concept="37vLTw" id="1tVklsmOajx" role="2Oq$k0">
-                                <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                                <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                               </node>
                               <node concept="liA8E" id="1tVklsmOajy" role="2OqNvi">
                                 <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -5981,11 +6202,16 @@
                         <node concept="3clFbF" id="1tVklsmOajz" role="3cqZAp">
                           <node concept="2OqwBi" id="1tVklsmOaj$" role="3clFbG">
                             <node concept="37vLTw" id="1tVklsmOaj_" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                              <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                             </node>
                             <node concept="liA8E" id="1tVklsmOajA" role="2OqNvi">
                               <ref role="37wK5l" to="33ny:~AbstractQueue.clear():void" resolve="clear" />
                             </node>
+                          </node>
+                        </node>
+                        <node concept="3SKdUt" id="6BG_0Ec5Fsq" role="3cqZAp">
+                          <node concept="3SKdUq" id="6BG_0Ec5Fss" role="3SKWNk">
+                            <property role="3SKdUp" value="TODO: clear also postProcInbox" />
                           </node>
                         </node>
                         <node concept="3clFbF" id="1tVklsmOajB" role="3cqZAp">
@@ -6020,7 +6246,7 @@
                   </node>
                   <node concept="2OqwBi" id="1tVklsmOajL" role="3uHU7B">
                     <node concept="37vLTw" id="1tVklsmOajM" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                      <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                     </node>
                     <node concept="liA8E" id="1tVklsmOajN" role="2OqNvi">
                       <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -6051,7 +6277,7 @@
                 </node>
                 <node concept="2OqwBi" id="6ChgfB7BITR" role="33vP2m">
                   <node concept="37vLTw" id="6ChgfB7BILQ" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                    <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                   </node>
                   <node concept="liA8E" id="6ChgfB7BJCP" role="2OqNvi">
                     <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.poll():java.lang.Object" resolve="poll" />
@@ -6075,7 +6301,7 @@
                           </node>
                           <node concept="2OqwBi" id="6ChgfB7BQqz" role="3uHU7w">
                             <node concept="37vLTw" id="6ChgfB7BQko" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                              <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                             </node>
                             <node concept="liA8E" id="6ChgfB7BQ_u" role="2OqNvi">
                               <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -6528,7 +6754,7 @@
                         <ref role="37wK5l" node="7HSdIeXMBof" resolve="inboxLoadStart" />
                         <node concept="2OqwBi" id="6qYeaMeychv" role="37wK5m">
                           <node concept="37vLTw" id="6qYeaMeychw" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                            <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                           </node>
                           <node concept="liA8E" id="6qYeaMeychx" role="2OqNvi">
                             <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -6542,7 +6768,7 @@
                     <node concept="3clFbF" id="6qYeaMeychz" role="3cqZAp">
                       <node concept="2OqwBi" id="6qYeaMeych$" role="3clFbG">
                         <node concept="37vLTw" id="6qYeaMeych_" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                          <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                         </node>
                         <node concept="liA8E" id="6qYeaMeychA" role="2OqNvi">
                           <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.addAll(java.util.Collection):boolean" resolve="addAll" />
@@ -6573,7 +6799,7 @@
                         <ref role="37wK5l" node="7HSdIeXMBVy" resolve="inboxLoadStop" />
                         <node concept="2OqwBi" id="6qYeaMeychK" role="37wK5m">
                           <node concept="37vLTw" id="6qYeaMeychL" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                            <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                           </node>
                           <node concept="liA8E" id="6qYeaMeychM" role="2OqNvi">
                             <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -7674,7 +7900,7 @@
         <node concept="3clFbF" id="1TthV9fNCV0" role="3cqZAp">
           <node concept="2OqwBi" id="1TthV9fND39" role="3clFbG">
             <node concept="37vLTw" id="1TthV9fNCUZ" role="2Oq$k0">
-              <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+              <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
             </node>
             <node concept="liA8E" id="1TthV9fNDdH" role="2OqNvi">
               <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -7793,7 +8019,7 @@
                 </node>
                 <node concept="2OqwBi" id="1TthV9fPytg" role="3uHU7w">
                   <node concept="37vLTw" id="1TthV9fPyk3" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                    <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                   </node>
                   <node concept="liA8E" id="1TthV9fPyFf" role="2OqNvi">
                     <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
@@ -7871,7 +8097,7 @@
             </node>
             <node concept="2OqwBi" id="2fj6lk$dvyh" role="33vP2m">
               <node concept="37vLTw" id="2fj6lk$dvpJ" role="2Oq$k0">
-                <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
               </node>
               <node concept="liA8E" id="2fj6lk$dwUD" role="2OqNvi">
                 <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.toArray():java.lang.Object[]" resolve="toArray" />
@@ -8329,9 +8555,19 @@
             <node concept="3clFbF" id="7BWfrtD0AU5" role="3cqZAp">
               <node concept="2OqwBi" id="7BWfrtD0B4e" role="3clFbG">
                 <node concept="37vLTw" id="7BWfrtD0AU3" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7BWfrtD0dm1" resolve="inbox" />
+                  <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
                 </node>
                 <node concept="liA8E" id="7BWfrtD0Bee" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~AbstractQueue.clear():void" resolve="clear" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6BG_0Ec5GFp" role="3cqZAp">
+              <node concept="2OqwBi" id="6BG_0Ec5HRs" role="3clFbG">
+                <node concept="37vLTw" id="6BG_0Ec5GFn" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6BG_0Ec40f6" resolve="inboxToPostProcess" />
+                </node>
+                <node concept="liA8E" id="6BG_0Ec5I2G" role="2OqNvi">
                   <ref role="37wK5l" to="33ny:~AbstractQueue.clear():void" resolve="clear" />
                 </node>
               </node>
@@ -14261,6 +14497,19 @@
         <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
       </node>
     </node>
+    <node concept="3clFb_" id="6BG_0EbXKVX" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getPostProcessInbox" />
+      <node concept="3uibUv" id="6BG_0EbXKVY" role="3clF45">
+        <ref role="3uigEE" to="33ny:~ArrayList" resolve="ArrayList" />
+        <node concept="16syzq" id="6BG_0EbXKVZ" role="11_B2D">
+          <ref role="16sUi3" node="4NpYXr5Te6Y" resolve="EntityKey" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6BG_0EbXKW0" role="1B3o_S" />
+      <node concept="3clFbS" id="6BG_0EbXKW1" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="6BG_0EbXKV1" role="jymVt" />
     <node concept="3clFb_" id="4NpYXr5Te6T" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getStatus" />

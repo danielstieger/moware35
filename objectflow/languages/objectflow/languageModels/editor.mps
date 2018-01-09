@@ -477,6 +477,9 @@
         <child id="1145567471833" name="createdType" index="2T96Bj" />
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
+      <concept id="2644386474300074836" name="jetbrains.mps.lang.smodel.structure.ConceptIdRefExpression" flags="nn" index="35c_gC">
+        <reference id="2644386474300074837" name="conceptDeclaration" index="35c_gD" />
+      </concept>
       <concept id="5168775467716640652" name="jetbrains.mps.lang.smodel.structure.OperationParm_LinkQualifier" flags="ng" index="1aIX9F">
         <child id="5168775467716640653" name="linkQualifier" index="1aIX9E" />
       </concept>
@@ -12845,6 +12848,35 @@
         <property role="3F0ifm" value=";" />
       </node>
       <node concept="l2Vlx" id="61AGu4QManD" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6BG_0EbMik3">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1XX52x" to="un0u:6BG_0EbMi5j" resolve="OFXInboxToPostProcess" />
+    <node concept="1HlG4h" id="6BG_0EbMikj" role="2wV5jI">
+      <ref role="1k5W1q" node="5Ee0EjqYhaR" resolve="O2Statement" />
+      <node concept="1HfYo3" id="6BG_0EbMikl" role="1HlULh">
+        <node concept="3TQlhw" id="6BG_0EbMikn" role="1Hhtcw">
+          <node concept="3clFbS" id="6BG_0EbMikp" role="2VODD2">
+            <node concept="3clFbF" id="6BG_0EbMpZO" role="3cqZAp">
+              <node concept="2OqwBi" id="6BG_0EbMq6l" role="3clFbG">
+                <node concept="35c_gC" id="6BG_0EbMpZN" role="2Oq$k0">
+                  <ref role="35c_gD" to="un0u:6BG_0EbMi5j" resolve="OFXInboxToPostProcess" />
+                </node>
+                <node concept="2qgKlT" id="6BG_0EbMqed" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:6BG_0EbMjf$" resolve="getVarName" />
+                  <node concept="2OqwBi" id="6BG_0EbMqkG" role="37wK5m">
+                    <node concept="pncrf" id="6BG_0EbMqhs" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6BG_0EbMqsm" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:6BG_0EbMi8w" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

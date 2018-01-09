@@ -4732,5 +4732,21 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6BG_0EbMi5j">
+    <property role="1pbfSe" value="172640931" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXInboxToPostProcess" />
+    <property role="MwhBj" value="${module}/icons/references.png" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="6BG_0EbMi8w" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="producerContext" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3U0QWztRGQ8" resolve="OFXProducerContext" />
+    </node>
+    <node concept="PrWs8" id="6BG_0EbMi6j" role="PzmwI">
+      <ref role="PrY4T" to="tpee:SORzhOp6jM" resolve="IVariableReference" />
+    </node>
+  </node>
 </model>
 

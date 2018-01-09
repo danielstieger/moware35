@@ -14886,5 +14886,47 @@
       <ref role="1YaFvo" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
     </node>
   </node>
+  <node concept="1YbPZF" id="6BG_0EbPJCZ">
+    <property role="TrG5h" value="typeof_OFXInboxToPostProcess" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="6BG_0EbPJD0" role="18ibNy">
+      <node concept="1Z5TYs" id="6BG_0EbPJIz" role="3cqZAp">
+        <node concept="mw_s8" id="6BG_0EbPJI$" role="1ZfhKB">
+          <node concept="2c44tf" id="6BG_0EbPJI_" role="mwGJk">
+            <node concept="_YKpA" id="6BG_0EbPJIA" role="2c44tc">
+              <node concept="33vP2l" id="6BG_0EbPJIB" role="_ZDj9">
+                <node concept="2c44te" id="6BG_0EbPJIC" role="lGtFl">
+                  <node concept="2OqwBi" id="6BG_0EbPJID" role="2c44t1">
+                    <node concept="2OqwBi" id="6BG_0EbPJIE" role="2Oq$k0">
+                      <node concept="1YBJjd" id="6BG_0EbPJO5" role="2Oq$k0">
+                        <ref role="1YBMHb" node="6BG_0EbPJD2" resolve="ofxInboxToPostProcess" />
+                      </node>
+                      <node concept="3TrEf2" id="6BG_0EbPJV2" role="2OqNvi">
+                        <ref role="3Tt5mk" to="un0u:6BG_0EbMi8w" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="6BG_0EbPJIH" role="2OqNvi">
+                      <ref role="37wK5l" to="70o0:3U0QWztHsP_" resolve="getType" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6BG_0EbPJII" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6BG_0EbPJIJ" role="mwGJk">
+            <node concept="1YBJjd" id="6BG_0EbPJLO" role="1Z2MuG">
+              <ref role="1YBMHb" node="6BG_0EbPJD2" resolve="ofxInboxToPostProcess" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6BG_0EbPJD2" role="1YuTPh">
+      <property role="TrG5h" value="ofxInboxToPostProcess" />
+      <ref role="1YaFvo" to="un0u:6BG_0EbMi5j" resolve="OFXInboxToPostProcess" />
+    </node>
+  </node>
 </model>
 

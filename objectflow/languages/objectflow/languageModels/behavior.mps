@@ -19809,5 +19809,61 @@
       </node>
     </node>
   </node>
+  <node concept="13h7C7" id="6BG_0EbMi6E">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="13h7C2" to="un0u:6BG_0EbMi5j" resolve="OFXInboxToPostProcess" />
+    <node concept="13hLZK" id="6BG_0EbMi6F" role="13h7CW">
+      <node concept="3clFbS" id="6BG_0EbMi6G" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6BG_0EbMjf$" role="13h7CS">
+      <property role="TrG5h" value="getVarName" />
+      <property role="2Ki8OM" value="true" />
+      <node concept="37vLTG" id="6BG_0EbMpm0" role="3clF46">
+        <property role="TrG5h" value="prodContext" />
+        <node concept="3Tqbb2" id="6BG_0EbMpod" role="1tU5fm">
+          <ref role="ehGHo" to="un0u:3U0QWztRGQ8" resolve="OFXProducerContext" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="6BG_0EbMjf_" role="1B3o_S" />
+      <node concept="17QB3L" id="6BG_0EbMjh1" role="3clF45" />
+      <node concept="3clFbS" id="6BG_0EbMjfB" role="3clF47">
+        <node concept="3clFbF" id="6BG_0EbMjhx" role="3cqZAp">
+          <node concept="3cpWs3" id="6BG_0EbMjNu" role="3clFbG">
+            <node concept="Xl_RD" id="6BG_0EbMjNY" role="3uHU7w">
+              <property role="Xl_RC" value="ToPostProcess" />
+            </node>
+            <node concept="2OqwBi" id="6BG_0EbMpuK" role="3uHU7B">
+              <node concept="37vLTw" id="6BG_0EbMpqE" role="2Oq$k0">
+                <ref role="3cqZAo" node="6BG_0EbMpm0" resolve="prodContext" />
+              </node>
+              <node concept="3TrcHB" id="6BG_0EbMp_L" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6BG_0EbMi6O" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="TrG5h" value="getVariable" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="tpek:SORzhOpB6t" resolve="getVariable" />
+      <node concept="3Tm1VV" id="6BG_0EbMi6P" role="1B3o_S" />
+      <node concept="3clFbS" id="6BG_0EbMi6S" role="3clF47">
+        <node concept="3clFbF" id="6BG_0EbMi9K" role="3cqZAp">
+          <node concept="2OqwBi" id="6BG_0EbMica" role="3clFbG">
+            <node concept="13iPFW" id="6BG_0EbMi9J" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6BG_0EbMiha" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:6BG_0EbMi8w" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6BG_0EbMi6T" role="3clF45">
+        <ref role="ehGHo" to="tpee:4H$HgYMZ7sw" resolve="IVariableDeclaration" />
+      </node>
+    </node>
+  </node>
 </model>
 

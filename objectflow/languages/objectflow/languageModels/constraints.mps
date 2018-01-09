@@ -328,6 +328,7 @@
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
+        <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
@@ -6090,6 +6091,74 @@
               </node>
             </node>
             <node concept="3x8VRR" id="61AGu4QMcx2" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="6BG_0EbMkbl">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1M2myG" to="un0u:6BG_0EbMi5j" resolve="OFXInboxToPostProcess" />
+    <node concept="1N5Pfh" id="6BG_0EbMkQL" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:6BG_0EbMi8w" />
+      <node concept="13QW63" id="6BG_0EbMl6d" role="1N6uqs">
+        <node concept="3clFbS" id="6BG_0EbMl6f" role="2VODD2">
+          <node concept="3clFbF" id="6BG_0EbMnyb" role="3cqZAp">
+            <node concept="2YIFZM" id="6BG_0EbMnAR" role="3clFbG">
+              <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+              <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+              <node concept="2ShNRf" id="6BG_0EbMnTr" role="37wK5m">
+                <node concept="Tc6Ow" id="6BG_0EbMojH" role="2ShVmc">
+                  <node concept="3Tqbb2" id="6BG_0EbMowk" role="HW$YZ">
+                    <ref role="ehGHo" to="tpck:h0TrEE$" resolve="INamedConcept" />
+                  </node>
+                  <node concept="2OqwBi" id="6BG_0EbMoHa" role="HW$Y0">
+                    <node concept="21POm0" id="6BG_0EbMoD1" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="6BG_0EbMoN_" role="2OqNvi">
+                      <node concept="1xMEDy" id="6BG_0EbMoNB" role="1xVPHs">
+                        <node concept="chp4Y" id="6BG_0EbMoRo" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:3U0QWztRGQ8" resolve="OFXProducerContext" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="Bn3R3" id="6BG_0EbMoVX" role="Bn3R6">
+        <node concept="3clFbS" id="6BG_0EbMoVY" role="2VODD2">
+          <node concept="3clFbF" id="6BG_0EbMqFh" role="3cqZAp">
+            <node concept="2OqwBi" id="6BG_0EbMqMe" role="3clFbG">
+              <node concept="35c_gC" id="6BG_0EbMqFf" role="2Oq$k0">
+                <ref role="35c_gD" to="un0u:6BG_0EbMi5j" resolve="OFXInboxToPostProcess" />
+              </node>
+              <node concept="2qgKlT" id="6BG_0EbMqSR" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:6BG_0EbMjf$" resolve="getVarName" />
+                <node concept="Bn53e" id="6BG_0EbMri8" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="nKS2y" id="6BG_0EbMkb$" role="1MLUbF">
+      <node concept="3clFbS" id="6BG_0EbMkb_" role="2VODD2">
+        <node concept="3clFbF" id="6BG_0EbMkcL" role="3cqZAp">
+          <node concept="2OqwBi" id="6BG_0EbMk_M" role="3clFbG">
+            <node concept="2OqwBi" id="6BG_0EbMkfO" role="2Oq$k0">
+              <node concept="nLn13" id="6BG_0EbMkqm" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="6BG_0EbMku_" role="2OqNvi">
+                <node concept="1xMEDy" id="6BG_0EbMkuB" role="1xVPHs">
+                  <node concept="chp4Y" id="6BG_0EbMkwj" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:3U0QWztRGQ8" resolve="OFXProducerContext" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="6BG_0EbMkOq" role="2OqNvi" />
           </node>
         </node>
       </node>
