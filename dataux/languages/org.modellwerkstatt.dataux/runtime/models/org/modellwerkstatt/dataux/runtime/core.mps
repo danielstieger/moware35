@@ -15069,6 +15069,24 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3SKdUt" id="Qi6kT8UDLL" role="3cqZAp">
+                    <node concept="3SKdUq" id="Qi6kT8UDLN" role="3SKWNk">
+                      <property role="3SKdUp" value="set selection crtl fro pagePane" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="Qi6kT8Uoy3" role="3cqZAp">
+                    <node concept="2OqwBi" id="Qi6kT8UoOs" role="3clFbG">
+                      <node concept="37vLTw" id="Qi6kT8Uoy1" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                      </node>
+                      <node concept="liA8E" id="Qi6kT8UoUT" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:6ffh1MXubTO" resolve="getCurrentPageConclusions" />
+                        <node concept="37vLTw" id="Qi6kT8UulD" role="37wK5m">
+                          <ref role="3cqZAo" node="5yru0E42RFI" resolve="currentGenPagePane" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
