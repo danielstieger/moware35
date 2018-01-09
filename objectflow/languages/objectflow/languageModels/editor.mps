@@ -110,7 +110,6 @@
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
-      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186413799158" name="jetbrains.mps.lang.editor.structure.BracketColorStyleClassItem" flags="ln" index="VLuvy" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
@@ -2811,12 +2810,7 @@
         </node>
         <node concept="3F0ifn" id="MT9RZiQiPc" role="3EZMnx">
           <property role="3F0ifm" value=" OR null (set proc doc first)!" />
-          <node concept="Veino" id="MT9RZiQiPe" role="3F10Kt">
-            <property role="Vb096" value="yellow" />
-          </node>
-          <node concept="Vb9p2" id="1rbZyOwPDkY" role="3F10Kt">
-            <property role="Vbekb" value="ITALIC" />
-          </node>
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
           <node concept="pkWqt" id="MT9RZiQiPf" role="pqm2j">
             <node concept="3clFbS" id="MT9RZiQiPg" role="2VODD2">
               <node concept="3clFbF" id="MT9RZiQiPh" role="3cqZAp">
@@ -3247,12 +3241,20 @@
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
         </node>
         <node concept="3F0ifn" id="1dqt$gJ1qP_" role="3EZMnx">
-          <property role="3F0ifm" value="," />
+          <property role="3F0ifm" value="(max 200 chars)" />
           <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        </node>
+        <node concept="3F0ifn" id="6BG_0EbIO$$" role="3EZMnx">
+          <property role="3F0ifm" value="," />
+          <ref role="1k5W1q" to="tpen:hFDgi_W" resolve="Semicolon" />
         </node>
         <node concept="3F0ifn" id="1dqt$gJ1qRt" role="3EZMnx">
           <property role="3F0ifm" value="exception" />
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+        </node>
+        <node concept="3F0ifn" id="6BG_0EbHMQG" role="3EZMnx">
+          <property role="3F0ifm" value="(OR null)" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F0ifn" id="1l1sktc821c" role="3EZMnx">
           <property role="3F0ifm" value="// do revert objects, exceptions are logged" />
