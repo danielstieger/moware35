@@ -265,11 +265,9 @@
       <concept id="6952410984693239415" name="org.modellwerkstatt.objectflow.structure.OFXTestMethocCallVarRef" flags="ng" index="3zkua3">
         <reference id="6952410984693239500" name="varReference" index="3zku8S" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
+        <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
       </concept>
     </language>
@@ -4932,59 +4930,9 @@
     <node concept="1DZZI9" id="2xm_JkjuYBO" role="38MLOi">
       <ref role="1DZZIc" node="2xm_JkjuRnh" resolve="InfraSetups" />
     </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsA" role="38MLOi">
-      <ref role="1Cak38" node="gmxFf4okbJ" resolve="Start And Shutdown Producer With 1 Consumer" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsB" role="38MLOi">
-      <ref role="1Cak38" node="2xm_Jkjwa_p" resolve="Start And shutdown Producer With 5 Consumers" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsC" role="38MLOi">
-      <ref role="1Cak38" node="2xm_Jkjwm37" resolve="Start, refill inbox and Shutdown Producer With 2 Consumers" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsD" role="38MLOi">
-      <ref role="1Cak38" node="2xm_JkjwBPH" resolve="Start, fill inbox and Shutdown Producer With 2 Consumers" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsE" role="38MLOi">
-      <ref role="1Cak38" node="2xm_JkjwFbl" resolve="Start, fill, refill inbox and Shutdown Producer With 2 Consumers" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsF" role="38MLOi">
-      <ref role="1Cak38" node="2xm_Jkjz4XC" resolve="Shutdown 2 Consumers in Thread.sleep() not gracefully." />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsG" role="38MLOi">
-      <ref role="1Cak38" node="2xm_JkjBNsz" resolve="Shutdown 2 Consumers looping (but checking interrupted state) not gracefully." />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsH" role="38MLOi">
-      <ref role="1Cak38" node="2xm_JkjBVp6" resolve="Start 3 consumers and let them do diffrent work in different timing" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsI" role="38MLOi">
-      <ref role="1Cak38" node="1TthV9fQl0A" resolve="Start 5 consumers and balance work niceley" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsJ" role="38MLOi">
-      <ref role="1Cak38" node="1TthV9fSH7n" resolve="Start 2 consumers and let them run, wait longer, run again" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsK" role="38MLOi">
-      <ref role="1Cak38" node="6ChgfB7usgq" resolve="Start 1 consumers and let it run, sched multiple timer events" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsL" role="38MLOi">
-      <ref role="1Cak38" node="7HSdIeXG7nw" resolve="Sched multiple timer events, including a blocking one." />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsM" role="38MLOi">
-      <ref role="1Cak38" node="1WqysfnG$sC" resolve="Producer implementation creates 8 items in two runs within 5 secs" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsN" role="38MLOi">
-      <ref role="1Cak38" node="7bWGJuSivYT" resolve="Producer creates same and same items again for slow consumer." />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsO" role="38MLOi">
-      <ref role="1Cak38" node="2FE68tLWKpQ" resolve="Producer/Controller in delay mode will exec delays properly. Setting 1" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsP" role="38MLOi">
-      <ref role="1Cak38" node="2FE68tLXJWO" resolve="Producer/Controller in delay mode will exec delays properly. Setting 2" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsQ" role="38MLOi">
-      <ref role="1Cak38" node="1tVklsmAHB8" resolve="Producer with delay will never run in this cron window. Initialization" />
-    </node>
-    <node concept="1Cak35" id="6BG_0Ec6KsR" role="38MLOi">
-      <ref role="1Cak38" node="1tVklsmBO7Q" resolve="Producer with delay will never run in this cron window. MainLoop" />
+    <node concept="1DZZI9" id="1Ef2WWUL6VR" role="38MLOi">
+      <property role="26Iqih" value="true" />
+      <ref role="1DZZIc" node="1TthV9fQEnK" resolve="Consumer Producer Rainy" />
     </node>
   </node>
   <node concept="2CG7Z0" id="gmxFf4ojXX">
