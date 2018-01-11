@@ -9585,14 +9585,19 @@
             </node>
           </node>
         </node>
+        <node concept="3SKdUt" id="3b8fP36pWB$" role="3cqZAp">
+          <node concept="3SKdUq" id="3b8fP36pWBA" role="3SKWNk">
+            <property role="3SKdUp" value="right now, we can not access the session, therefore we can only try to " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3b8fP36q0wY" role="3cqZAp">
+          <node concept="3SKdUq" id="3b8fP36q0x0" role="3SKWNk">
+            <property role="3SKdUp" value="asyncShutdown." />
+          </node>
+        </node>
         <node concept="3cpWs6" id="18nf27lRFNP" role="3cqZAp">
-          <node concept="3cpWs3" id="18nf27lSi1i" role="3cqZAk">
-            <node concept="37vLTw" id="18nf27lSk9p" role="3uHU7w">
-              <ref role="3cqZAo" node="18nf27lR_P5" resolve="asyncShutdownRequest" />
-            </node>
-            <node concept="Xl_RD" id="18nf27lRH_8" role="3uHU7B">
-              <property role="Xl_RC" value="Waiting for next client interaction to shutdown: " />
-            </node>
+          <node concept="Xl_RD" id="3b8fP36oCG0" role="3cqZAk">
+            <property role="Xl_RC" value="Application is marked to shutdown - waiting for next client request." />
           </node>
         </node>
       </node>
