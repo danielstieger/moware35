@@ -12575,6 +12575,13 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+      <node concept="3F0ifn" id="3oLpnapl2cC" role="3EZMnx">
+        <property role="3F0ifm" value="// Commands not in a transaction!! Check state on retry??" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="pVoyu" id="3oLpnapl2cD" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
       <node concept="3F2HdR" id="21AFYXWwv1J" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:3U0QWztRJTF" />
         <node concept="l2Vlx" id="21AFYXWwv1M" role="2czzBx" />
