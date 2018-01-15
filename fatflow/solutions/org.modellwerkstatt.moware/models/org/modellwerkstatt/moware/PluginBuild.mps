@@ -1058,56 +1058,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="1Wqysfo2iGT" role="3bR37C">
-          <node concept="1BurEX" id="1Wqysfo2iGU" role="1SiIV1">
-            <node concept="398BVA" id="1Wqysfo2iGM" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="1Wqysfo2iGN" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="1Wqysfo2iGO" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="1Wqysfo2iGP" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="1Wqysfo2iGQ" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="1Wqysfo2iGR" role="2Ry0An">
-                        <property role="2Ry0Am" value="osgi" />
-                        <node concept="2Ry0Ak" id="1Wqysfo2iGS" role="2Ry0An">
-                          <property role="2Ry0Am" value="org.apache.felix.prefs-1.1.0.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1Wqysfo2iH2" role="3bR37C">
-          <node concept="1BurEX" id="1Wqysfo2iH3" role="1SiIV1">
-            <node concept="398BVA" id="1Wqysfo2iGV" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="1Wqysfo2iGW" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="1Wqysfo2iGX" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="1Wqysfo2iGY" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="1Wqysfo2iGZ" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="1Wqysfo2iH0" role="2Ry0An">
-                        <property role="2Ry0Am" value="osgi" />
-                        <node concept="2Ry0Ak" id="1Wqysfo2iH1" role="2Ry0An">
-                          <property role="2Ry0Am" value="org.osgi.core-6.0.0.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="plABn3dbmG" role="3bR37C">
           <node concept="1BurEX" id="plABn3dbmH" role="1SiIV1">
             <node concept="398BVA" id="plABn3dbm_" role="1BurEY">
@@ -1428,12 +1378,6 @@
             <node concept="3bR9La" id="1aOWs5uQu78" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="1JLTjCmZu2U" resolve="org.modellwerkstatt.fatflow" />
-            </node>
-          </node>
-          <node concept="1SiIV0" id="6IzlsXtgNGl" role="3bR37C">
-            <node concept="3bR9La" id="6IzlsXtgNGm" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" to="ffeo:7YI57w6K08M" resolve="jetbrains.mps.baseLanguage.closures#1199623535494" />
             </node>
           </node>
         </node>
@@ -2061,12 +2005,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="3ZVr8i9E3nX" role="3bR37C">
-          <node concept="3bR9La" id="3ZVr8i9E3nY" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
-          </node>
-        </node>
         <node concept="1SiIV0" id="3ZVr8i9E3nZ" role="3bR37C">
           <node concept="3bR9La" id="3ZVr8i9E3o0" role="1SiIV1">
             <property role="3bR36h" value="false" />
@@ -2151,12 +2089,6 @@
           <node concept="3bR9La" id="6SBwZitQn9W" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6SBwZitQn9X" role="3bR37C">
-          <node concept="3bR9La" id="6SBwZitQn9Y" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="3ZVr8i9E19j" resolve="org.modellwerkstatt.fx8forms" />
           </node>
         </node>
         <node concept="1SiIV0" id="6SBwZitQn9Z" role="3bR37C">
