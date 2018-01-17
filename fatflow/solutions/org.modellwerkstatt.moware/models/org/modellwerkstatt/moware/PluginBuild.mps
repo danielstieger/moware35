@@ -1058,56 +1058,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="1Wqysfo2iGT" role="3bR37C">
-          <node concept="1BurEX" id="1Wqysfo2iGU" role="1SiIV1">
-            <node concept="398BVA" id="1Wqysfo2iGM" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="1Wqysfo2iGN" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="1Wqysfo2iGO" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="1Wqysfo2iGP" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="1Wqysfo2iGQ" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="1Wqysfo2iGR" role="2Ry0An">
-                        <property role="2Ry0Am" value="osgi" />
-                        <node concept="2Ry0Ak" id="1Wqysfo2iGS" role="2Ry0An">
-                          <property role="2Ry0Am" value="org.apache.felix.prefs-1.1.0.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="1Wqysfo2iH2" role="3bR37C">
-          <node concept="1BurEX" id="1Wqysfo2iH3" role="1SiIV1">
-            <node concept="398BVA" id="1Wqysfo2iGV" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="1Wqysfo2iGW" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="1Wqysfo2iGX" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="1Wqysfo2iGY" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="1Wqysfo2iGZ" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="1Wqysfo2iH0" role="2Ry0An">
-                        <property role="2Ry0Am" value="osgi" />
-                        <node concept="2Ry0Ak" id="1Wqysfo2iH1" role="2Ry0An">
-                          <property role="2Ry0Am" value="org.osgi.core-6.0.0.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="plABn3dbmG" role="3bR37C">
           <node concept="1BurEX" id="plABn3dbmH" role="1SiIV1">
             <node concept="398BVA" id="plABn3dbm_" role="1BurEY">
