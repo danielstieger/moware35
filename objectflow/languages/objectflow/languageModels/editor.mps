@@ -11382,7 +11382,7 @@
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         </node>
         <node concept="3F0A7n" id="43H1fr7zA4G" role="3EZMnx">
-          <ref role="1NtTu8" to="un0u:43H1fr7zA0y" resolve="refName" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="l2Vlx" id="43H1fr7zA3Z" role="2iSdaV" />
         <node concept="pkWqt" id="43H1fr7zBfJ" role="pqm2j">
@@ -11457,8 +11457,8 @@
                                   <node concept="37vLTw" id="43H1fr7L0hA" role="2Oq$k0">
                                     <ref role="3cqZAo" node="43H1fr7L0hD" resolve="it" />
                                   </node>
-                                  <node concept="3TrcHB" id="43H1fr7L0hB" role="2OqNvi">
-                                    <ref role="3TsBF5" to="un0u:43H1fr7zA0y" resolve="refName" />
+                                  <node concept="3TrcHB" id="7X5ehdpMP74" role="2OqNvi">
+                                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                                   </node>
                                 </node>
                               </node>
@@ -11542,7 +11542,7 @@
       <node concept="1sVBvm" id="43H1fr7LFz9" role="1sWHZn">
         <node concept="3F0A7n" id="43H1fr7LFzu" role="2wV5jI">
           <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="un0u:43H1fr7zA0y" resolve="refName" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>
@@ -12354,6 +12354,41 @@
         </node>
       </node>
       <node concept="l2Vlx" id="6IpTZfaBpZN" role="2iSdaV" />
+      <node concept="1HlG4h" id="7X5ehdoSD9d" role="3EZMnx">
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        <node concept="1HfYo3" id="7X5ehdoSD9f" role="1HlULh">
+          <node concept="3TQlhw" id="7X5ehdoSD9h" role="1Hhtcw">
+            <node concept="3clFbS" id="7X5ehdoSD9j" role="2VODD2">
+              <node concept="3clFbF" id="7X5ehdoTsNp" role="3cqZAp">
+                <node concept="2OqwBi" id="7X5ehdoTsRM" role="3clFbG">
+                  <node concept="pncrf" id="7X5ehdoTsNk" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="7X5ehdoTt3t" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:7X5ehdoTqYz" resolve="getCommandCreationInfoAsString" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="pVoyu" id="7X5ehdoSDlq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pkWqt" id="7X5ehdoTsls" role="pqm2j">
+          <node concept="3clFbS" id="7X5ehdoTslt" role="2VODD2">
+            <node concept="3clFbF" id="7X5ehdoTssu" role="3cqZAp">
+              <node concept="2OqwBi" id="7X5ehdoTswP" role="3clFbG">
+                <node concept="pncrf" id="7X5ehdoTsst" role="2Oq$k0" />
+                <node concept="2qgKlT" id="7X5ehdoTsIY" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:7X5ehdoTqyw" resolve="hasCommandCreationInfo" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="lj46D" id="7X5ehdoTt89" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="3U0QWztHiJ6">
@@ -12912,6 +12947,20 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7X5ehdoVb0q">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1XX52x" to="un0u:7X5ehdoVaX7" resolve="OFXRunCmdCreateInfo" />
+    <node concept="1iCGBv" id="7X5ehdoVb0L" role="2wV5jI">
+      <ref role="1NtTu8" to="un0u:7X5ehdoVaZr" />
+      <node concept="1sVBvm" id="7X5ehdoVb0N" role="1sWHZn">
+        <node concept="3F0A7n" id="7X5ehdoVb1f" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
     </node>

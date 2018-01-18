@@ -245,6 +245,9 @@
         <reference id="3875131616719438755" name="process" index="2_Hrwf" />
         <child id="3875131616719439029" name="actualArgument" index="2_HrWp" />
       </concept>
+      <concept id="9170798971468951367" name="org.modellwerkstatt.objectflow.structure.OFXRunCmdCreateInfoRef" flags="ng" index="BEppk">
+        <reference id="9170798971468951515" name="reference" index="BEpr8" />
+      </concept>
       <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
         <child id="478945708906902061" name="elements" index="2CGBMS" />
@@ -952,6 +955,7 @@
     <ref role="3lhHOO" node="Joc9_LZQLM" resolve="Invoice Process" />
     <node concept="27Aftt" id="43H1fr7JwCY" role="27AfA_">
       <property role="27oQjk" value="invoiceId" />
+      <property role="TrG5h" value="invoiceId" />
       <node concept="35AVbj" id="43H1fr7JwGy" role="27Af65">
         <property role="35AVef" value="Invoice %d updated." />
         <node concept="2OqwBi" id="ySjYR5m2Co" role="35Gt3$">
@@ -3730,7 +3734,7 @@
               </node>
             </node>
             <node concept="27aVcf" id="ySjYR5m1Fn" role="3uHU7B">
-              <ref role="27aVMs" node="43H1fr7JwCY" />
+              <ref role="27aVMs" node="43H1fr7JwCY" resolve="invoiceId" />
             </node>
           </node>
         </node>
@@ -3817,7 +3821,7 @@
               <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
             </node>
             <node concept="27aVcf" id="ySjYR5GJt3" role="33vP2m">
-              <ref role="27aVMs" node="43H1fr7JwCY" />
+              <ref role="27aVMs" node="43H1fr7JwCY" resolve="invoiceId" />
             </node>
           </node>
         </node>
@@ -9293,6 +9297,41 @@
           </node>
         </node>
         <node concept="3clFbH" id="61AGu4Q4VvU" role="3cqZAp" />
+        <node concept="3clFbH" id="7X5ehdqARgd" role="3cqZAp" />
+        <node concept="3clFbF" id="7X5ehdqARZz" role="3cqZAp">
+          <node concept="2OqwBi" id="7X5ehdqARZw" role="3clFbG">
+            <node concept="10M0yZ" id="7X5ehdqARZx" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="7X5ehdqARZy" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="7X5ehdqASHr" role="37wK5m">
+                <property role="Xl_RC" value="HELLO WORLD" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7X5ehdq8Lgu" role="3cqZAp">
+          <node concept="2OqwBi" id="7X5ehdq8Lgr" role="3clFbG">
+            <node concept="10M0yZ" id="7X5ehdq8Lgs" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="7X5ehdq8Lgt" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="7X5ehdq8M9X" role="37wK5m">
+                <node concept="BEppk" id="7X5ehdq8Mbl" role="3uHU7w">
+                  <ref role="BEpr8" node="43H1fr7JwCY" resolve="invoiceId" />
+                </node>
+                <node concept="Xl_RD" id="7X5ehdq8LXI" role="3uHU7B">
+                  <property role="Xl_RC" value="Invoice Id is " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7X5ehdq8C4L" role="3cqZAp" />
         <node concept="3SKdUt" id="3owBZfUORvF" role="3cqZAp">
           <node concept="3SKdUq" id="3owBZfUORvH" role="3SKWNk">
             <property role="3SKdUp" value="first one will be pushed automatically." />
@@ -10503,7 +10542,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="61AGu4PV4Xf" role="3cqZAp" />
-        <node concept="3clFbH" id="61AGu4PV4Xg" role="3cqZAp" />
         <node concept="1gVbGN" id="61AGu4PV4Xh" role="3cqZAp">
           <node concept="3fqX7Q" id="61AGu4PV4Xi" role="1gVkn0">
             <node concept="2OqwBi" id="61AGu4PV4Xj" role="3fr31v">

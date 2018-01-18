@@ -3534,6 +3534,7 @@
     <node concept="1TJgyi" id="43H1fr7zA0y" role="1TKVEl">
       <property role="TrG5h" value="refName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <node concept="asaX9" id="7X5ehdpY7fN" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="43H1fr7tvlN" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3545,6 +3546,9 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="keyReference" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="7X5ehdpWy9I" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="43H1fr7LFvT">
@@ -4424,6 +4428,9 @@
     <node concept="PrWs8" id="6IpTZfaBIHh" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="7X5ehdoVi2F" role="PzmwI">
+      <ref role="PrY4T" node="7X5ehdoVhUh" resolve="IOFXRunCmdCreateInfoReferencing" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3U0QWztHgKC">
     <property role="1pbfSe" value="473294832" />
@@ -4747,6 +4754,27 @@
     <node concept="PrWs8" id="6BG_0EbMi6j" role="PzmwI">
       <ref role="PrY4T" to="tpee:SORzhOp6jM" resolve="IVariableReference" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7X5ehdoVaX7">
+    <property role="1pbfSe" value="667817894" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXRunCmdCreateInfoRef" />
+    <property role="MwhBj" value="${module}/icons/references.png" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="7X5ehdoVaZr" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="reference" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="43H1fr7tveF" resolve="CommandCreationInfo" />
+    </node>
+    <node concept="PrWs8" id="7X5ehdoVi1P" role="PzmwI">
+      <ref role="PrY4T" node="7X5ehdoVhUh" resolve="IOFXRunCmdCreateInfoReferencing" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7X5ehdoVhUh">
+    <property role="1pbfSe" value="667789404" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="IOFXRunCmdCreateInfoReferencing" />
   </node>
 </model>
 

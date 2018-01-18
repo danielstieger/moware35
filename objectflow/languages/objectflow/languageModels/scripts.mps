@@ -12,6 +12,7 @@
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
+    <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -879,6 +880,37 @@
                     </node>
                   </node>
                   <node concept="34oBXx" id="2QHjcDuuiiB" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="_UgoZ" id="7X5ehdpQ0Wl">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="ReplaceHafinaDefault" />
+    <property role="2BwPS$" value="moware to mowareUX" />
+    <property role="_Wzho" value="(12) Replace CommandCreateInformatin with NamedConcept" />
+    <node concept="1opIMY" id="7X5ehdpQ0Wm" role="_YvDr" />
+    <node concept="_XfAh" id="7X5ehdpQ0Wn" role="_YvDr">
+      <property role="_XH9r" value="Replace 2 NamedConcept" />
+      <ref role="_XDHR" to="un0u:43H1fr7tveF" resolve="CommandCreationInfo" />
+      <node concept="_ZGcI" id="7X5ehdpQ0Wo" role="_XPhp">
+        <node concept="3clFbS" id="7X5ehdpQ0Wp" role="2VODD2">
+          <node concept="3clFbF" id="7X5ehdq50jP" role="3cqZAp">
+            <node concept="37vLTI" id="7X5ehdq50ze" role="3clFbG">
+              <node concept="2OqwBi" id="7X5ehdq50BH" role="37vLTx">
+                <node concept="_YI3z" id="7X5ehdq50_9" role="2Oq$k0" />
+                <node concept="2qgKlT" id="7X5ehdq50KX" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:7X5ehdpY742" resolve="getLegacyName" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7X5ehdq50mP" role="37vLTJ">
+                <node concept="_YI3z" id="7X5ehdq50jN" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7X5ehdq50sJ" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
             </node>
