@@ -8151,6 +8151,9 @@
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="wd17k6lNnz" role="3EZMnx">
+        <property role="3F0ifm" value=" " />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="q_zDmI5zGy">
@@ -11360,7 +11363,7 @@
         <ref role="1NtTu8" to="un0u:43H1fr7tvlN" />
       </node>
       <node concept="3F0ifn" id="43H1fr7tvqG" role="3EZMnx">
-        <property role="3F0ifm" value="(created entity with key" />
+        <property role="3F0ifm" value="(created/edited entity with key" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="pVoyu" id="43H1fr7EvDw" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -11382,7 +11385,7 @@
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         </node>
         <node concept="3F0A7n" id="43H1fr7zA4G" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1NtTu8" to="un0u:43H1fr7zA0y" resolve="refName" />
         </node>
         <node concept="l2Vlx" id="43H1fr7zA3Z" role="2iSdaV" />
         <node concept="pkWqt" id="43H1fr7zBfJ" role="pqm2j">
@@ -11457,8 +11460,8 @@
                                   <node concept="37vLTw" id="43H1fr7L0hA" role="2Oq$k0">
                                     <ref role="3cqZAo" node="43H1fr7L0hD" resolve="it" />
                                   </node>
-                                  <node concept="3TrcHB" id="7X5ehdpMP74" role="2OqNvi">
-                                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                  <node concept="3TrcHB" id="wd17k62V$e" role="2OqNvi">
+                                    <ref role="3TsBF5" to="un0u:43H1fr7zA0y" resolve="refName" />
                                   </node>
                                 </node>
                               </node>
@@ -11542,7 +11545,7 @@
       <node concept="1sVBvm" id="43H1fr7LFz9" role="1sWHZn">
         <node concept="3F0A7n" id="43H1fr7LFzu" role="2wV5jI">
           <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1NtTu8" to="un0u:43H1fr7zA0y" resolve="refName" />
         </node>
       </node>
     </node>
@@ -12953,14 +12956,14 @@
   </node>
   <node concept="24kQdi" id="7X5ehdoVb0q">
     <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1XX52x" to="un0u:7X5ehdoVaX7" resolve="OFXRunCmdCreateInfo" />
+    <ref role="1XX52x" to="un0u:7X5ehdoVaX7" resolve="OFXRunCmdCreateInfoRef" />
     <node concept="1iCGBv" id="7X5ehdoVb0L" role="2wV5jI">
       <ref role="1NtTu8" to="un0u:7X5ehdoVaZr" />
       <node concept="1sVBvm" id="7X5ehdoVb0N" role="1sWHZn">
         <node concept="3F0A7n" id="7X5ehdoVb1f" role="2wV5jI">
           <property role="1Intyy" value="true" />
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1NtTu8" to="un0u:43H1fr7zA0y" resolve="refName" />
         </node>
       </node>
     </node>

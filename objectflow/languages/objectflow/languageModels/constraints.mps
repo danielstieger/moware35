@@ -6076,11 +6076,23 @@
   </node>
   <node concept="1M2fIO" id="7X5ehdoVb2j">
     <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1M2myG" to="un0u:7X5ehdoVaX7" resolve="OFXRunCmdCreateInfo" />
+    <ref role="1M2myG" to="un0u:7X5ehdoVaX7" resolve="OFXRunCmdCreateInfoRef" />
     <node concept="1N5Pfh" id="7X5ehdoVcH5" role="1Mr941">
       <ref role="1N5Vy1" to="un0u:7X5ehdoVaZr" />
       <node concept="1dDu$B" id="7X5ehdpo9Vh" role="1N6uqs">
         <ref role="1dDu$A" to="un0u:43H1fr7tveF" resolve="CommandCreationInfo" />
+      </node>
+      <node concept="Bn3R3" id="wd17k6n3B6" role="Bn3R6">
+        <node concept="3clFbS" id="wd17k6n3B7" role="2VODD2">
+          <node concept="3clFbF" id="wd17k6n3G9" role="3cqZAp">
+            <node concept="2OqwBi" id="wd17k6n3Io" role="3clFbG">
+              <node concept="Bn53e" id="wd17k6n3G8" role="2Oq$k0" />
+              <node concept="3TrcHB" id="wd17k6n3Mc" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:43H1fr7zA0y" resolve="refName" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="nKS2y" id="7X5ehdoVbgB" role="1MLUbF">

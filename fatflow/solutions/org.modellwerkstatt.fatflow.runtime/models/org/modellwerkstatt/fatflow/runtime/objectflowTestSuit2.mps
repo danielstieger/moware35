@@ -281,6 +281,9 @@
         <child id="9110730801960131775" name="pages" index="2TpcRr" />
         <child id="4503841283149007813" name="successorHandler" index="3wlH0d" />
       </concept>
+      <concept id="6855023620835054336" name="org.modellwerkstatt.objectflow.structure.CheckedOutEntities" flags="ng" index="2TUfMD">
+        <reference id="6855023620835054339" name="businessObject" index="2TUfME" />
+      </concept>
       <concept id="1394557069844560977" name="org.modellwerkstatt.objectflow.structure.VslCancelExParam" flags="ng" index="Wg$Cl" />
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
@@ -416,6 +419,9 @@
         <property id="569389511234497411" name="fromServer" index="1$4sGX" />
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
+      </concept>
+      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
+        <reference id="59360650270057722" name="test" index="1Cak38" />
       </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
@@ -955,7 +961,7 @@
     <ref role="3lhHOO" node="Joc9_LZQLM" resolve="Invoice Process" />
     <node concept="27Aftt" id="43H1fr7JwCY" role="27AfA_">
       <property role="27oQjk" value="invoiceId" />
-      <property role="TrG5h" value="invoiceId" />
+      <property role="TrG5h" value="updatedInvoiceId" />
       <node concept="35AVbj" id="43H1fr7JwGy" role="27Af65">
         <property role="35AVef" value="Invoice %d updated." />
         <node concept="2OqwBi" id="ySjYR5m2Co" role="35Gt3$">
@@ -9190,7 +9196,7 @@
     <node concept="3Tm1VV" id="6BKPvpE4x$I" role="1B3o_S" />
   </node>
   <node concept="2WPaUQ" id="3U0QWztN8iD">
-    <property role="TrG5h" value="TEST NEW RUNCMD INFRA" />
+    <property role="TrG5h" value="New OFXRunCmd infra" />
     <ref role="2WPtWl" node="5MCXLSo4_z9" resolve="MPreisOFXTests" />
     <node concept="3yPF9F" id="2q7OPuQOOzE" role="3yMuLx">
       <property role="TrG5h" value="GO should do" />
@@ -9298,40 +9304,6 @@
         </node>
         <node concept="3clFbH" id="61AGu4Q4VvU" role="3cqZAp" />
         <node concept="3clFbH" id="7X5ehdqARgd" role="3cqZAp" />
-        <node concept="3clFbF" id="7X5ehdqARZz" role="3cqZAp">
-          <node concept="2OqwBi" id="7X5ehdqARZw" role="3clFbG">
-            <node concept="10M0yZ" id="7X5ehdqARZx" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="7X5ehdqARZy" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="Xl_RD" id="7X5ehdqASHr" role="37wK5m">
-                <property role="Xl_RC" value="HELLO WORLD" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="7X5ehdq8Lgu" role="3cqZAp">
-          <node concept="2OqwBi" id="7X5ehdq8Lgr" role="3clFbG">
-            <node concept="10M0yZ" id="7X5ehdq8Lgs" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="7X5ehdq8Lgt" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="7X5ehdq8M9X" role="37wK5m">
-                <node concept="BEppk" id="7X5ehdq8Mbl" role="3uHU7w">
-                  <ref role="BEpr8" node="43H1fr7JwCY" resolve="invoiceId" />
-                </node>
-                <node concept="Xl_RD" id="7X5ehdq8LXI" role="3uHU7B">
-                  <property role="Xl_RC" value="Invoice Id is " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7X5ehdq8C4L" role="3cqZAp" />
         <node concept="3SKdUt" id="3owBZfUORvF" role="3cqZAp">
           <node concept="3SKdUq" id="3owBZfUORvH" role="3SKWNk">
             <property role="3SKdUp" value="first one will be pushed automatically." />
@@ -12671,14 +12643,300 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="wd17k5yaXz" role="3yMuLx">
+      <property role="TrG5h" value="Use command creation info to check for an id." />
+      <node concept="3yABqi" id="wd17k5ybj5" role="3yGA3Q">
+        <property role="TrG5h" value="inv" />
+        <ref role="37wK5l" to="goi:6_ccWWo7AfA" resolve="Create Invoice Graph with 2 Positions and 2 SubPos on DB" />
+        <node concept="Xl_RD" id="wd17k5ybj6" role="37wK5m">
+          <property role="Xl_RC" value="createInfo_1" />
+        </node>
+      </node>
+      <node concept="3yABqi" id="wd17k5O8wb" role="3yGA3Q">
+        <property role="TrG5h" value="inv2" />
+        <ref role="37wK5l" to="goi:6_ccWWo7AfA" resolve="Create Invoice Graph with 2 Positions and 2 SubPos on DB" />
+        <node concept="Xl_RD" id="wd17k5O8wc" role="37wK5m">
+          <property role="Xl_RC" value="createInfo_2" />
+        </node>
+      </node>
+      <node concept="3yABqi" id="wd17k5yVRX" role="3yGA3Q">
+        <property role="TrG5h" value="info" />
+        <ref role="37wK5l" node="2q7OPuQOOzE" resolve="GO should do" />
+        <node concept="Rm8GO" id="wd17k5yWg8" role="37wK5m">
+          <ref role="Rm8GQ" node="7pudXbEHufF" resolve="DONE" />
+          <ref role="1Px2BO" node="7pudXbEHue3" resolve="CMDS_CRTL" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="wd17k5ybj2" role="3clF45" />
+      <node concept="3clFbS" id="wd17k5yaXB" role="3clF47">
+        <node concept="3clFbH" id="wd17k5ybjl" role="3cqZAp" />
+        <node concept="2Tpcjw" id="wd17k5ybkb" role="3cqZAp">
+          <node concept="3zdtvw" id="wd17k5yWjE" role="2TpcRr">
+            <property role="3zdvax" value="0" />
+            <property role="TrG5h" value="invoice" />
+            <ref role="3zdv75" node="5MCXLSnMhBY" resolve="MainPage" />
+            <ref role="3zdv76" node="5MCXLSnMhKi" resolve="Save &amp; Close" />
+            <node concept="3zdqQj" id="wd17k5yWjG" role="3zdlsu">
+              <node concept="3clFbS" id="wd17k5yWjH" role="2VODD2" />
+            </node>
+          </node>
+          <node concept="2_HltQ" id="wd17k5ybkd" role="2TpcRq">
+            <ref role="2_Hrwf" node="Joc9_LZQLM" resolve="Invoice Process" />
+            <ref role="2_Hrw8" node="5MCXLSnMhvZ" resolve="Checkout Invoice" />
+            <node concept="10Nm6u" id="wd17k5yVPP" role="2_HrWp" />
+            <node concept="2OqwBi" id="wd17k5yVQB" role="2_HrWp">
+              <node concept="3zkua3" id="wd17k5yVQ7" role="2Oq$k0">
+                <ref role="3zku8S" node="wd17k5ybj5" resolve="inv" />
+              </node>
+              <node concept="2S8uIT" id="wd17k5yVRB" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+              </node>
+            </node>
+            <node concept="3zkua3" id="wd17k5z0tB" role="2_HrWp">
+              <ref role="3zku8S" node="wd17k5yVRX" resolve="info" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="wd17k5ObBx" role="3cqZAp" />
+        <node concept="1gVbGN" id="wd17k5Od2w" role="3cqZAp">
+          <node concept="3clFbC" id="wd17k5Oexz" role="1gVkn0">
+            <node concept="2OqwBi" id="wd17k5OfEs" role="3uHU7w">
+              <node concept="3zkua3" id="wd17k5OfsL" role="2Oq$k0">
+                <ref role="3zku8S" node="wd17k5ybj5" resolve="inv" />
+              </node>
+              <node concept="2S8uIT" id="wd17k5OfR$" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+              </node>
+            </node>
+            <node concept="BEppk" id="wd17k5OdKg" role="3uHU7B">
+              <ref role="BEpr8" node="43H1fr7JwCY" resolve="updatedInvoiceId" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="wd17k5Og47" role="3cqZAp" />
+        <node concept="2Tpcjw" id="wd17k5OaTu" role="3cqZAp">
+          <node concept="3zdtvw" id="wd17k5OaTv" role="2TpcRr">
+            <property role="3zdvax" value="0" />
+            <property role="TrG5h" value="invoice" />
+            <ref role="3zdv75" node="5MCXLSnMhBY" resolve="MainPage" />
+            <ref role="3zdv76" node="5MCXLSnMhKi" resolve="Save &amp; Close" />
+            <node concept="3zdqQj" id="wd17k5OaTw" role="3zdlsu">
+              <node concept="3clFbS" id="wd17k5OaTx" role="2VODD2" />
+            </node>
+          </node>
+          <node concept="2_HltQ" id="wd17k5OaTy" role="2TpcRq">
+            <ref role="2_Hrwf" node="Joc9_LZQLM" resolve="Invoice Process" />
+            <ref role="2_Hrw8" node="5MCXLSnMhvZ" resolve="Checkout Invoice" />
+            <node concept="10Nm6u" id="wd17k5OaTz" role="2_HrWp" />
+            <node concept="2OqwBi" id="wd17k5OaT$" role="2_HrWp">
+              <node concept="3zkua3" id="wd17k5PA5n" role="2Oq$k0">
+                <ref role="3zku8S" node="wd17k5O8wb" resolve="inv2" />
+              </node>
+              <node concept="2S8uIT" id="wd17k5OaTA" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+              </node>
+            </node>
+            <node concept="3zkua3" id="wd17k5OaTB" role="2_HrWp">
+              <ref role="3zku8S" node="wd17k5yVRX" resolve="info" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="wd17k5ybjx" role="3cqZAp" />
+        <node concept="3clFbH" id="wd17k6mXZA" role="3cqZAp" />
+        <node concept="1gVbGN" id="wd17k5yXGS" role="3cqZAp">
+          <node concept="3clFbC" id="wd17k5yZaD" role="1gVkn0">
+            <node concept="2OqwBi" id="wd17k5z03N" role="3uHU7w">
+              <node concept="3zkua3" id="wd17k5PAhU" role="2Oq$k0">
+                <ref role="3zku8S" node="wd17k5O8wb" resolve="inv2" />
+              </node>
+              <node concept="2S8uIT" id="wd17k5z0g7" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+              </node>
+            </node>
+            <node concept="BEppk" id="wd17k5yYq8" role="3uHU7B">
+              <ref role="BEpr8" node="43H1fr7JwCY" resolve="updatedInvoiceId" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="wd17k6mWyT" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="wd17k5QK5J" role="3yMuLx">
+      <property role="TrG5h" value="Use command creation info in a sucessor environment." />
+      <node concept="3yABqi" id="wd17k5QKzo" role="3yGA3Q">
+        <property role="TrG5h" value="inv" />
+        <ref role="37wK5l" to="goi:6_ccWWo7AfA" resolve="Create Invoice Graph with 2 Positions and 2 SubPos on DB" />
+        <node concept="Xl_RD" id="wd17k5QKzp" role="37wK5m">
+          <property role="Xl_RC" value="cInfoSuc_1" />
+        </node>
+      </node>
+      <node concept="3yABqi" id="wd17k5QKzs" role="3yGA3Q">
+        <property role="TrG5h" value="info" />
+        <ref role="37wK5l" node="2q7OPuQOOzE" resolve="GO should do" />
+        <node concept="Rm8GO" id="wd17k5QKzt" role="37wK5m">
+          <ref role="1Px2BO" node="7pudXbEHue3" resolve="CMDS_CRTL" />
+          <ref role="Rm8GQ" node="7pudXbEHufF" resolve="DONE" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="wd17k5QKrV" role="3clF45" />
+      <node concept="3clFbS" id="wd17k5QK5N" role="3clF47">
+        <node concept="3clFbH" id="wd17k5QKrY" role="3cqZAp" />
+        <node concept="2Tpcjw" id="wd17k5QKsc" role="3cqZAp">
+          <node concept="3wlH1I" id="wd17k5QKsr" role="3wlH0d">
+            <ref role="3wlH1T" node="5MCXLSnMhvZ" resolve="Checkout Invoice" />
+            <node concept="3zdtvw" id="wd17k6nu_H" role="3wlqR_">
+              <property role="3zdvax" value="0" />
+              <property role="TrG5h" value="invoice" />
+              <ref role="3zdv75" node="5MCXLSnMhBY" resolve="MainPage" />
+              <ref role="3zdv76" node="5MCXLSnMhKi" resolve="Save &amp; Close" />
+              <node concept="3zdqQj" id="wd17k6nu_J" role="3zdlsu">
+                <node concept="3clFbS" id="wd17k6nu_K" role="2VODD2" />
+              </node>
+            </node>
+          </node>
+          <node concept="2_HltQ" id="wd17k5QKse" role="2TpcRq">
+            <ref role="2_Hrwf" node="Joc9_LZQLM" resolve="Invoice Process" />
+            <ref role="2_Hrw8" node="2wQSPIg8w5K" resolve="CreateInvoiceFromNothing" />
+            <node concept="10Nm6u" id="wd17k5QKsC" role="2_HrWp" />
+            <node concept="2OqwBi" id="wd17k5QM0Q" role="2_HrWp">
+              <node concept="3zkua3" id="wd17k5QLis" role="2Oq$k0">
+                <ref role="3zku8S" node="wd17k5QKzo" resolve="inv" />
+              </node>
+              <node concept="2S8uIT" id="wd17k5QMIJ" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+              </node>
+            </node>
+            <node concept="3zkua3" id="wd17k5QNsI" role="2_HrWp">
+              <ref role="3zku8S" node="wd17k5QKzs" resolve="info" />
+            </node>
+            <node concept="Rm8GO" id="wd17k5QKy$" role="2_HrWp">
+              <ref role="Rm8GQ" node="7pudXbEHufF" resolve="DONE" />
+              <ref role="1Px2BO" node="7pudXbEHue3" resolve="CMDS_CRTL" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="wd17k6ny7C" role="3cqZAp" />
+        <node concept="1gVbGN" id="wd17k6nxq1" role="3cqZAp">
+          <node concept="3clFbC" id="wd17k6nzBX" role="1gVkn0">
+            <node concept="2OqwBi" id="wd17k6n$$H" role="3uHU7w">
+              <node concept="3zkua3" id="wd17k6n$ml" role="2Oq$k0">
+                <ref role="3zku8S" node="wd17k5QKzo" resolve="inv" />
+              </node>
+              <node concept="2S8uIT" id="wd17k6n$Mi" role="2OqNvi">
+                <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+              </node>
+            </node>
+            <node concept="BEppk" id="wd17k6nyPT" role="3uHU7B">
+              <ref role="BEpr8" node="wd17k5UkpQ" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="wd17k5QKs3" role="3cqZAp" />
+      </node>
+    </node>
     <node concept="1DZZI9" id="3U0QWztNAxZ" role="38MLOi">
       <ref role="1DZZIc" to="goi:2i3o0hdVwMp" resolve="Creators" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sC" role="38MLOi">
+      <ref role="1Cak38" node="61AGu4Q4VvD" resolve="New selection controller feature in tests, getSelection without push results in illegalStateEx" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sD" role="38MLOi">
+      <ref role="1Cak38" node="3owBZfUqaEr" resolve="New selection controller feature in tests, pushselection, getselection in fakepage." />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sE" role="38MLOi">
+      <ref role="1Cak38" node="3owBZfUqdp3" resolve="New selection controller feature in tests, pushselection for evaluation in command. single" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sF" role="38MLOi">
+      <ref role="1Cak38" node="3owBZfUqUVG" resolve="New selection controller feature in tests, pushselection for evaluation in command. list" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sG" role="38MLOi">
+      <ref role="1Cak38" node="3owBZfUOO_F" resolve="New selection controller feature in tests, pushselection for evaluation in command. remove selection!" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sH" role="38MLOi">
+      <ref role="1Cak38" node="61AGu4PUHp8" resolve="Start GO and conclude OK, trans, final_ok" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sI" role="38MLOi">
+      <ref role="1Cak38" node="61AGu4PUDuh" resolve="Start GO and user cancel it, no trans, no final_ok, no final_cancel" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sJ" role="38MLOi">
+      <ref role="1Cak38" node="61AGu4PUHpZ" resolve="Start GO and cancel cmd, no trans, no final_ok, final_cancel" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sK" role="38MLOi">
+      <ref role="1Cak38" node="61AGu4PUHqN" resolve="Start GO and flag cmd, no trans, no final_ok, final_cancel" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sL" role="38MLOi">
+      <ref role="1Cak38" node="61AGu4PUHrE" resolve="Start GO and exception in cmd_init, no trans, no final_ok, final_cancel (ex received)" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sM" role="38MLOi">
+      <ref role="1Cak38" node="61AGu4PV4WY" resolve="Start GO and exception in final_ok, no trans, no final_ok, final_cancel (ex received)" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sN" role="38MLOi">
+      <ref role="1Cak38" node="61AGu4PV5AM" resolve="Start GO and exception in final_cancel, no trans, no final_ok, final_cancel (ex received)" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sO" role="38MLOi">
+      <ref role="1Cak38" node="2wQSPIfGTDX" resolve="Start GE and execute successfully." />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sP" role="38MLOi">
+      <ref role="1Cak38" node="2wQSPIfL2ig" resolve="Start GE and cancel it on purpose (user cancel - fail in + exec GO)." />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sQ" role="38MLOi">
+      <ref role="1Cak38" node="2wQSPIfSu10" resolve="Start GE and cancel it on purpose (cancel command)." />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sR" role="38MLOi">
+      <ref role="1Cak38" node="2wQSPIg3z9v" resolve="Start GE and use error to terminate commands (ex conclusion in GE)" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sS" role="38MLOi">
+      <ref role="1Cak38" node="2wQSPIg8Cr8" resolve="Uses create-pattern with GO as successor." />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sT" role="38MLOi">
+      <ref role="1Cak38" node="3jf78TZS36T" resolve="Uses create-pattern with GO + GE as successor." />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sU" role="38MLOi">
+      <ref role="1Cak38" node="3jf78TZouQ8" resolve="Uses create-pattern with GO as successor. cancel in GO with msg" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sV" role="38MLOi">
+      <ref role="1Cak38" node="3jf78TZSbZu" resolve="Uses create-pattern with GO + GE as successor. cancel in GE with msg" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sW" role="38MLOi">
+      <ref role="1Cak38" node="3jf78TZsjA5" resolve="Uses create-pattern with GO as successor. exception in GO with msg" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sX" role="38MLOi">
+      <ref role="1Cak38" node="3jf78TZShx6" resolve="Uses create-pattern with GO + GE as successor. exception in GE with msg" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sY" role="38MLOi">
+      <ref role="1Cak38" node="3jf78TZUsla" resolve="Uses create-pattern with GO as successor. GO not concluded at all" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0sZ" role="38MLOi">
+      <ref role="1Cak38" node="3jf78TZVEki" resolve="Uses create-pattern with GO + GE as successor. GE not concluded at all" />
+    </node>
+    <node concept="1Cak35" id="wd17k5z0t0" role="38MLOi">
+      <ref role="1Cak38" node="3jf78TZsnei" resolve="Uses create-pattern with GO as successor. Ex in creator final_ok, GO in ok !" />
     </node>
   </node>
   <node concept="3ugp7m" id="2wQSPIg8w5K">
     <property role="TrG5h" value="CreateInvoiceFromNothing" />
     <property role="19I623" value="GRAPH_OWNER_CMD" />
     <ref role="3lhHOO" node="Joc9_LZQLM" resolve="Invoice Process" />
+    <node concept="3ulXEM" id="wd17k6lMLj" role="3ulXEG">
+      <property role="TrG5h" value="checkedOutInvoiceBySuccessor" />
+      <node concept="3uibUv" id="wd17k6lMLN" role="1tU5fm">
+        <ref role="3uigEE" to="goi:612_n8HbweS" resolve="Invoice" />
+      </node>
+    </node>
+    <node concept="27Aftt" id="wd17k5UkpQ" role="27AfA_">
+      <property role="27oQjk" value="createdInvoiceId" />
+      <node concept="35AVbj" id="wd17k5Ukqn" role="27Af65">
+        <property role="35AVef" value="Hello World." />
+      </node>
+      <node concept="2OqwBi" id="wd17k6mxXc" role="27Af4Z">
+        <node concept="3urNR4" id="wd17k6mxWM" role="2Oq$k0">
+          <ref role="3cqZAo" node="wd17k6lMLj" resolve="checkedOutInvoiceBySuccessor" />
+        </node>
+        <node concept="2S8uIT" id="wd17k6mxYa" role="2OqNvi">
+          <ref role="2S8YL0" to="goi:612_n8HbChJ" resolve="id" />
+        </node>
+      </node>
+    </node>
     <node concept="3ulXEN" id="2wQSPIg8wDA" role="3ulXEL">
       <property role="TrG5h" value="invoiceId" />
       <node concept="10Oyi0" id="2wQSPIg8wDW" role="1tU5fm" />
@@ -12742,6 +13000,20 @@
             </node>
             <node concept="3urNQE" id="3jf78TZsq_E" role="3uHU7B">
               <ref role="3cqZAo" node="2wQSPIg8w94" resolve="spec" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="wd17k6lMKG" role="3cqZAp" />
+        <node concept="3clFbF" id="wd17k6lMMq" role="3cqZAp">
+          <node concept="37vLTI" id="wd17k6lMNa" role="3clFbG">
+            <node concept="2OqwBi" id="wd17k6lN0H" role="37vLTx">
+              <node concept="2TUfMD" id="wd17k6lMNF" role="2Oq$k0">
+                <ref role="2TUfME" to="goi:612_n8HbweS" resolve="Invoice" />
+              </node>
+              <node concept="1uHKPH" id="wd17k6lNas" role="2OqNvi" />
+            </node>
+            <node concept="3urNR4" id="wd17k6lMMo" role="37vLTJ">
+              <ref role="3cqZAo" node="wd17k6lMLj" resolve="checkedOutInvoiceBySuccessor" />
             </node>
           </node>
         </node>

@@ -3534,7 +3534,6 @@
     <node concept="1TJgyi" id="43H1fr7zA0y" role="1TKVEl">
       <property role="TrG5h" value="refName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="asaX9" id="7X5ehdpY7fN" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="43H1fr7tvlN" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3546,9 +3545,6 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="keyReference" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="PrWs8" id="7X5ehdpWy9I" role="PzmwI">
-      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
   </node>
   <node concept="1TIwiD" id="43H1fr7LFvT">
@@ -4439,7 +4435,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3U0QWztHiCd" role="1TKVEi">
       <property role="20lmBu" value="reference" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <property role="20kJfa" value="page" />
       <ref role="20lvS9" node="6ffh1MXzHn6" resolve="Page" />
     </node>
