@@ -73,6 +73,9 @@
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
+      <concept id="1177666668936" name="jetbrains.mps.baseLanguage.structure.DoWhileStatement" flags="nn" index="MpOyq">
+        <child id="1177666688034" name="condition" index="MpTkK" />
+      </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -20825,10 +20828,10 @@
       </node>
     </node>
     <node concept="312cEg" id="5ZV7jolbyFl" role="jymVt">
-      <property role="TrG5h" value="multiAction" />
+      <property role="TrG5h" value="multiActionDef" />
       <node concept="3Tmbuc" id="5ZV7jolbyFm" role="1B3o_S" />
       <node concept="3uibUv" id="5ZV7jolb$1T" role="1tU5fm">
-        <ref role="3uigEE" node="5ZV7jolblEb" resolve="MultiActionVars" />
+        <ref role="3uigEE" node="5ZV7jolblEb" resolve="MultiActionDefinition" />
       </node>
     </node>
     <node concept="2tJIrI" id="2ppo89mdzG4" role="jymVt" />
@@ -21010,7 +21013,7 @@
                   </node>
                   <node concept="2OqwBi" id="4uSs_3r8B19" role="3uHU7B">
                     <node concept="37vLTw" id="4uSs_3r8B1a" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                     </node>
                     <node concept="2OwXpG" id="6oMnH9G0Gl4" role="2OqNvi">
                       <ref role="2Oxat5" node="6oMnH9FUKRm" resolve="strategy" />
@@ -21019,7 +21022,7 @@
                 </node>
                 <node concept="3y3z36" id="3nYsKhuTaky" role="3uHU7B">
                   <node concept="37vLTw" id="3nYsKhuTa9Q" role="3uHU7B">
-                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                   </node>
                   <node concept="10Nm6u" id="3nYsKhuTava" role="3uHU7w" />
                 </node>
@@ -21402,7 +21405,7 @@
                   </node>
                   <node concept="3clFbC" id="5ZV7jolc7ou" role="3uHU7B">
                     <node concept="37vLTw" id="5ZV7jolc2Ou" role="3uHU7B">
-                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                     </node>
                     <node concept="10Nm6u" id="5ZV7jolc3wc" role="3uHU7w" />
                   </node>
@@ -21411,12 +21414,12 @@
                   <node concept="3clFbF" id="5ZV7jolb$g3" role="3cqZAp">
                     <node concept="37vLTI" id="5ZV7jolb$Um" role="3clFbG">
                       <node concept="2ShNRf" id="5ZV7jolb$W9" role="37vLTx">
-                        <node concept="HV5vD" id="5ZV7jolbDJv" role="2ShVmc">
-                          <ref role="HV5vE" node="5ZV7jolblEb" resolve="MultiActionVars" />
+                        <node concept="1pGfFk" id="3fji5qpR0so" role="2ShVmc">
+                          <ref role="37wK5l" node="3fji5qpQYuh" resolve="MultiActionDefinition" />
                         </node>
                       </node>
                       <node concept="37vLTw" id="5ZV7jolb$g1" role="37vLTJ">
-                        <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                        <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                       </node>
                     </node>
                   </node>
@@ -21427,7 +21430,7 @@
                       </node>
                       <node concept="2OqwBi" id="5ZV7jolbFHb" role="37vLTJ">
                         <node concept="37vLTw" id="5ZV7jolbF25" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                         </node>
                         <node concept="2OwXpG" id="5ZV7jolbFJ_" role="2OqNvi">
                           <ref role="2Oxat5" node="5ZV7jolblR0" resolve="numExecutions" />
@@ -21442,7 +21445,7 @@
                       </node>
                       <node concept="2OqwBi" id="5ZV7jolbId3" role="37vLTJ">
                         <node concept="37vLTw" id="5ZV7jolbHwN" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                         </node>
                         <node concept="2OwXpG" id="5ZV7jolbI$s" role="2OqNvi">
                           <ref role="2Oxat5" node="5ZV7jolblHU" resolve="menuAction" />
@@ -21508,7 +21511,7 @@
                     <node concept="37vLTI" id="5ZV7jolbLEv" role="3clFbG">
                       <node concept="2OqwBi" id="5ZV7jolbLbJ" role="37vLTJ">
                         <node concept="37vLTw" id="5ZV7jolbKuP" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                         </node>
                         <node concept="2OwXpG" id="5ZV7jolbLzr" role="2OqNvi">
                           <ref role="2Oxat5" node="5ZV7jolblM1" resolve="origSelectionObjects" />
@@ -21526,7 +21529,7 @@
                       </node>
                       <node concept="2OqwBi" id="5ZV7jolcmO0" role="37vLTJ">
                         <node concept="37vLTw" id="5ZV7jolcmlq" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                         </node>
                         <node concept="2OwXpG" id="5ZV7jolcnc_" role="2OqNvi">
                           <ref role="2Oxat5" node="5ZV7jolcjT0" resolve="parentContainerWithSel" />
@@ -21538,7 +21541,7 @@
                     <node concept="37vLTI" id="6oMnH9FUM0l" role="3clFbG">
                       <node concept="2OqwBi" id="6oMnH9FUKcg" role="37vLTJ">
                         <node concept="37vLTw" id="6oMnH9FUJQ5" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                         </node>
                         <node concept="2OwXpG" id="6oMnH9FULPz" role="2OqNvi">
                           <ref role="2Oxat5" node="6oMnH9FUKRm" resolve="strategy" />
@@ -21552,7 +21555,7 @@
                         <node concept="2OqwBi" id="4uSs_3r5OQc" role="3K4Cdx">
                           <node concept="2OqwBi" id="4uSs_3r5ObI" role="2Oq$k0">
                             <node concept="37vLTw" id="4uSs_3r5NV_" role="2Oq$k0">
-                              <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                              <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                             </node>
                             <node concept="2OwXpG" id="4uSs_3r5OAn" role="2OqNvi">
                               <ref role="2Oxat5" node="5ZV7jolblHU" resolve="menuAction" />
@@ -21569,11 +21572,50 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbF" id="2lTx_WMZ3m2" role="3cqZAp">
-                    <node concept="1rXfSq" id="6n78R1XsUQq" role="3clFbG">
-                      <ref role="37wK5l" node="3nYsKhuSrbQ" resolve="handleMultiActionStartNext" />
+                  <node concept="3clFbH" id="3fji5qpQOjI" role="3cqZAp" />
+                  <node concept="MpOyq" id="3fji5qpR5_5" role="3cqZAp">
+                    <node concept="3clFbS" id="3fji5qpR5_7" role="2LFqv$">
+                      <node concept="3SKdUt" id="3fji5qpR8VS" role="3cqZAp">
+                        <node concept="3SKdUq" id="3fji5qpR8VU" role="3SKWNk">
+                          <property role="3SKdUp" value="stack overflow when handling request without using background threading. " />
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="2lTx_WMZ3m2" role="3cqZAp">
+                        <node concept="1rXfSq" id="6n78R1XsUQq" role="3clFbG">
+                          <ref role="37wK5l" node="3nYsKhuSrbQ" resolve="handleMultiActionStartNext" />
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="3fji5qpR6wZ" role="3cqZAp" />
+                      <node concept="3SKdUt" id="3fji5qpR98B" role="3cqZAp">
+                        <node concept="3SKdUq" id="3fji5qpR98D" role="3SKWNk">
+                          <property role="3SKdUp" value="def handling is RECURSIVE" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1Wc70l" id="3fji5qpRgb$" role="MpTkK">
+                      <node concept="3y3z36" id="3fji5qpRgL4" role="3uHU7B">
+                        <node concept="10Nm6u" id="3fji5qpRgOp" role="3uHU7w" />
+                        <node concept="37vLTw" id="3fji5qpRgvn" role="3uHU7B">
+                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
+                        </node>
+                      </node>
+                      <node concept="3clFbC" id="3fji5qpR79J" role="3uHU7w">
+                        <node concept="2OqwBi" id="3fji5qpR6HW" role="3uHU7B">
+                          <node concept="37vLTw" id="3fji5qpR6FD" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
+                          </node>
+                          <node concept="2OwXpG" id="3fji5qpR6Xy" role="2OqNvi">
+                            <ref role="2Oxat5" node="3fji5qpQY3Z" resolve="multiActionExecStrategy" />
+                          </node>
+                        </node>
+                        <node concept="Rm8GO" id="3fji5qpR7_3" role="3uHU7w">
+                          <ref role="Rm8GQ" node="3fji5qpQRa6" resolve="LOOPED" />
+                          <ref role="1Px2BO" node="3fji5qpQQZt" resolve="MultiActionDefinition.MULTIACTION_EXEC_STARTEGY" />
+                        </node>
+                      </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="3fji5qpQNT_" role="3cqZAp" />
                   <node concept="3cpWs6" id="2lTx_WMZ6jO" role="3cqZAp" />
                   <node concept="3clFbH" id="6oMnH9FR8zP" role="3cqZAp" />
                 </node>
@@ -21593,7 +21635,7 @@
                 <node concept="37vLTI" id="4uSs_3r2EgY" role="3clFbG">
                   <node concept="10Nm6u" id="4uSs_3r2EiL" role="37vLTx" />
                   <node concept="37vLTw" id="4uSs_3r2E3S" role="37vLTJ">
-                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                   </node>
                 </node>
               </node>
@@ -21652,7 +21694,7 @@
                     </node>
                   </node>
                   <node concept="37vLTw" id="1mou_EB5_x9" role="3uHU7w">
-                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                   </node>
                 </node>
               </node>
@@ -21936,7 +21978,7 @@
             <node concept="2OqwBi" id="3nYsKhuSHZs" role="33vP2m">
               <node concept="2OqwBi" id="3nYsKhuSH7a" role="2Oq$k0">
                 <node concept="37vLTw" id="3nYsKhuSGMX" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                  <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                 </node>
                 <node concept="2OwXpG" id="3nYsKhuSHFj" role="2OqNvi">
                   <ref role="2Oxat5" node="5ZV7jolcjT0" resolve="parentContainerWithSel" />
@@ -21957,7 +21999,7 @@
             <node concept="2OqwBi" id="5ZV7jolc80T" role="33vP2m">
               <node concept="2OqwBi" id="5ZV7jolc80U" role="2Oq$k0">
                 <node concept="37vLTw" id="6mdtRStqPCe" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                  <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                 </node>
                 <node concept="2OwXpG" id="6mdtRStqQ5X" role="2OqNvi">
                   <ref role="2Oxat5" node="5ZV7jolblM1" resolve="origSelectionObjects" />
@@ -21966,7 +22008,7 @@
               <node concept="34jXtK" id="6mdtRStqRkw" role="2OqNvi">
                 <node concept="2OqwBi" id="5ZV7jolc80Y" role="25WWJ7">
                   <node concept="37vLTw" id="5ZV7jolc80Z" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                   </node>
                   <node concept="2OwXpG" id="5ZV7jolc810" role="2OqNvi">
                     <ref role="2Oxat5" node="5ZV7jolblR0" resolve="numExecutions" />
@@ -21989,7 +22031,7 @@
             <node concept="2OqwBi" id="5ZV7jolc80Q" role="33vP2m">
               <node concept="2OqwBi" id="3nYsKhuSLwr" role="2Oq$k0">
                 <node concept="37vLTw" id="3nYsKhuSKRG" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                  <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                 </node>
                 <node concept="2OwXpG" id="3nYsKhuSM8Y" role="2OqNvi">
                   <ref role="2Oxat5" node="5ZV7jolblHU" resolve="menuAction" />
@@ -22014,7 +22056,7 @@
           <node concept="2OqwBi" id="6mdtRStxupp" role="3clFbG">
             <node concept="2OqwBi" id="6mdtRStxtZH" role="2Oq$k0">
               <node concept="37vLTw" id="6mdtRStxsTg" role="2Oq$k0">
-                <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
               </node>
               <node concept="2OwXpG" id="6mdtRStxunt" role="2OqNvi">
                 <ref role="2Oxat5" node="5ZV7jolcjT0" resolve="parentContainerWithSel" />
@@ -22044,7 +22086,7 @@
               <node concept="2OqwBi" id="5ZV7jolc815" role="2Oq$k0">
                 <node concept="2OqwBi" id="3nYsKhuSPlf" role="2Oq$k0">
                   <node concept="37vLTw" id="3nYsKhuSOSw" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                   </node>
                   <node concept="2OwXpG" id="3nYsKhuSRVY" role="2OqNvi">
                     <ref role="2Oxat5" node="5ZV7jolblHU" resolve="menuAction" />
@@ -22058,7 +22100,7 @@
                 <ref role="37wK5l" to="28jr:7rqBz8B3End" resolve="startCommand" />
                 <node concept="2OqwBi" id="6oMnH9FUPCx" role="37wK5m">
                   <node concept="37vLTw" id="6oMnH9FUPnE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                   </node>
                   <node concept="2OwXpG" id="6oMnH9FUQ5y" role="2OqNvi">
                     <ref role="2Oxat5" node="6oMnH9FUKRm" resolve="strategy" />
@@ -22080,7 +22122,7 @@
                 <node concept="2OqwBi" id="5ZV7jolc81f" role="37wK5m">
                   <node concept="2OqwBi" id="3nYsKhuSTms" role="2Oq$k0">
                     <node concept="37vLTw" id="3nYsKhuSSUN" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                     </node>
                     <node concept="2OwXpG" id="3nYsKhuSU0T" role="2OqNvi">
                       <ref role="2Oxat5" node="5ZV7jolblHU" resolve="menuAction" />
@@ -22120,7 +22162,7 @@
             </node>
             <node concept="2OqwBi" id="3nYsKhuYxAR" role="37vLTJ">
               <node concept="37vLTw" id="3nYsKhuYxg4" role="2Oq$k0">
-                <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
               </node>
               <node concept="2OwXpG" id="3nYsKhuYxMP" role="2OqNvi">
                 <ref role="2Oxat5" node="3nYsKhuYvvR" resolve="goOnWhenCanceled" />
@@ -22153,7 +22195,7 @@
                   </node>
                   <node concept="2OqwBi" id="3nYsKhuSV2s" role="10QFUP">
                     <node concept="37vLTw" id="3nYsKhuSUW8" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                     </node>
                     <node concept="2OwXpG" id="3nYsKhuSVnT" role="2OqNvi">
                       <ref role="2Oxat5" node="5ZV7jolcjT0" resolve="parentContainerWithSel" />
@@ -22162,7 +22204,7 @@
                 </node>
                 <node concept="2OqwBi" id="3nYsKhuSVIc" role="37wK5m">
                   <node concept="37vLTw" id="3nYsKhuSVCU" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                   </node>
                   <node concept="2OwXpG" id="3nYsKhuSW2l" role="2OqNvi">
                     <ref role="2Oxat5" node="5ZV7jolblHU" resolve="menuAction" />
@@ -22179,7 +22221,7 @@
             </node>
             <node concept="2OqwBi" id="6n78R1Xy7x_" role="37vLTJ">
               <node concept="37vLTw" id="6n78R1Xy6pU" role="2Oq$k0">
-                <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
               </node>
               <node concept="2OwXpG" id="6n78R1Xy7V7" role="2OqNvi">
                 <ref role="2Oxat5" node="6n78R1XsSRV" resolve="runningContainer" />
@@ -22236,6 +22278,28 @@
           </node>
           <node concept="9aQIb" id="3nYsKhuY6tr" role="9aQIa">
             <node concept="3clFbS" id="3nYsKhuY6ts" role="9aQI4">
+              <node concept="3SKdUt" id="3fji5qpRaXP" role="3cqZAp">
+                <node concept="3SKdUq" id="3fji5qpRaXR" role="3SKWNk">
+                  <property role="3SKdUp" value="okay, check next action ... not using recursion mode." />
+                </node>
+              </node>
+              <node concept="3clFbF" id="3fji5qpR9K2" role="3cqZAp">
+                <node concept="37vLTI" id="3fji5qpRafa" role="3clFbG">
+                  <node concept="Rm8GO" id="3fji5qpRa$q" role="37vLTx">
+                    <ref role="Rm8GQ" node="3fji5qpQRa6" resolve="LOOPED" />
+                    <ref role="1Px2BO" node="3fji5qpQQZt" resolve="MultiActionDefinition.MULTIACTION_EXEC_STARTEGY" />
+                  </node>
+                  <node concept="2OqwBi" id="3fji5qpR9Na" role="37vLTJ">
+                    <node concept="37vLTw" id="3fji5qpR9K0" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
+                    </node>
+                    <node concept="2OwXpG" id="3fji5qpRa3i" role="2OqNvi">
+                      <ref role="2Oxat5" node="3fji5qpQY3Z" resolve="multiActionExecStrategy" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="3fji5qpRjuq" role="3cqZAp" />
               <node concept="3clFbF" id="3nYsKhuY6tt" role="3cqZAp">
                 <node concept="2OqwBi" id="3nYsKhuY6tu" role="3clFbG">
                   <node concept="37vLTw" id="3nYsKhuY6tv" role="2Oq$k0">
@@ -22257,7 +22321,7 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="3nYsKhuZua$" role="3cqZAp" />
+              <node concept="3clFbH" id="3fji5qpRaKO" role="3cqZAp" />
             </node>
           </node>
         </node>
@@ -22302,15 +22366,6 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="3fji5qpH_1D" role="3cqZAp">
-          <node concept="3cpWsn" id="3fji5qpH_1G" role="3cpWs9">
-            <property role="TrG5h" value="stopMultiProcessing" />
-            <node concept="10P_77" id="3fji5qpH_1B" role="1tU5fm" />
-            <node concept="3clFbT" id="3fji5qpH_kB" role="33vP2m">
-              <property role="3clFbU" value="false" />
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs8" id="7TgG1qSf4p8" role="3cqZAp">
           <node concept="3cpWsn" id="7TgG1qSf4pb" role="3cpWs9">
             <property role="TrG5h" value="parentFound" />
@@ -22320,7 +22375,16 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7TgG1qSf4CC" role="3cqZAp" />
+        <node concept="3cpWs8" id="3fji5qpRhF2" role="3cqZAp">
+          <node concept="3cpWsn" id="3fji5qpRhF5" role="3cpWs9">
+            <property role="TrG5h" value="stopMultiExecution" />
+            <node concept="10P_77" id="3fji5qpRhF0" role="1tU5fm" />
+            <node concept="3clFbT" id="3fji5qpRhZ2" role="33vP2m">
+              <property role="3clFbU" value="false" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3fji5qpRhmQ" role="3cqZAp" />
         <node concept="3SKdUt" id="6n78R1XrDdM" role="3cqZAp">
           <node concept="3SKdUq" id="6n78R1XrDdO" role="3SKWNk">
             <property role="3SKdUp" value="DecoupleEvent, not received by &lt;non visible&gt; ui s " />
@@ -22449,7 +22513,7 @@
                   <node concept="2OqwBi" id="5GImeV7cXh7" role="3fr31v">
                     <node concept="2OqwBi" id="5GImeV7cXh8" role="2Oq$k0">
                       <node concept="37vLTw" id="5GImeV7cXh9" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                        <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                       </node>
                       <node concept="2OwXpG" id="5GImeV7cXha" role="2OqNvi">
                         <ref role="2Oxat5" node="5ZV7jolcjT0" resolve="parentContainerWithSel" />
@@ -22471,8 +22535,8 @@
                       <node concept="3clFbT" id="5GImeV7d9Ax" role="37vLTx">
                         <property role="3clFbU" value="true" />
                       </node>
-                      <node concept="37vLTw" id="5GImeV7d9y4" role="37vLTJ">
-                        <ref role="3cqZAo" node="3fji5qpH_1G" resolve="stopMultiProcessing" />
+                      <node concept="37vLTw" id="3fji5qpRirH" role="37vLTJ">
+                        <ref role="3cqZAo" node="3fji5qpRhF5" resolve="stopMultiExecution" />
                       </node>
                     </node>
                   </node>
@@ -22490,8 +22554,8 @@
                     <node concept="3clFbT" id="1mou_EB7cnD" role="37vLTx">
                       <property role="3clFbU" value="true" />
                     </node>
-                    <node concept="37vLTw" id="1mou_EB7cjv" role="37vLTJ">
-                      <ref role="3cqZAo" node="3fji5qpH_1G" resolve="stopMultiProcessing" />
+                    <node concept="37vLTw" id="3fji5qpRi3_" role="37vLTJ">
+                      <ref role="3cqZAo" node="3fji5qpRhF5" resolve="stopMultiExecution" />
                     </node>
                   </node>
                 </node>
@@ -22515,7 +22579,7 @@
                     <node concept="3uNrnE" id="5ZV7jolchB4" role="3clFbG">
                       <node concept="2OqwBi" id="5ZV7jolchB6" role="2$L3a6">
                         <node concept="37vLTw" id="5ZV7jolchB7" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                          <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                         </node>
                         <node concept="2OwXpG" id="5ZV7jolchB8" role="2OqNvi">
                           <ref role="2Oxat5" node="5ZV7jolblR0" resolve="numExecutions" />
@@ -22525,9 +22589,33 @@
                   </node>
                   <node concept="3clFbJ" id="5ZV7jolcdtU" role="3cqZAp">
                     <node concept="3clFbS" id="5ZV7jolcdtW" role="3clFbx">
-                      <node concept="3clFbF" id="6n78R1Xt0c8" role="3cqZAp">
-                        <node concept="1rXfSq" id="3kFdJsc8n7" role="3clFbG">
-                          <ref role="37wK5l" node="3nYsKhuSrbQ" resolve="handleMultiActionStartNext" />
+                      <node concept="3clFbH" id="3fji5qpQILt" role="3cqZAp" />
+                      <node concept="3clFbJ" id="3fji5qpRcYl" role="3cqZAp">
+                        <node concept="3clFbS" id="3fji5qpRcYn" role="3clFbx">
+                          <node concept="3SKdUt" id="3fji5qpRewS" role="3cqZAp">
+                            <node concept="3SKdUq" id="3fji5qpRewU" role="3SKWNk">
+                              <property role="3SKdUp" value="recursion starts here then." />
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="6n78R1Xt0c8" role="3cqZAp">
+                            <node concept="1rXfSq" id="3kFdJsc8n7" role="3clFbG">
+                              <ref role="37wK5l" node="3nYsKhuSrbQ" resolve="handleMultiActionStartNext" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbC" id="3fji5qpRdH_" role="3clFbw">
+                          <node concept="Rm8GO" id="3fji5qpRe0c" role="3uHU7w">
+                            <ref role="Rm8GQ" node="3fji5qpQR9H" resolve="RECURSIVE" />
+                            <ref role="1Px2BO" node="3fji5qpQQZt" resolve="MultiActionDefinition.MULTIACTION_EXEC_STARTEGY" />
+                          </node>
+                          <node concept="2OqwBi" id="3fji5qpRdh4" role="3uHU7B">
+                            <node concept="37vLTw" id="3fji5qpRd0C" role="2Oq$k0">
+                              <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
+                            </node>
+                            <node concept="2OwXpG" id="3fji5qpRdx6" role="2OqNvi">
+                              <ref role="2Oxat5" node="3fji5qpQY3Z" resolve="multiActionExecStrategy" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                       <node concept="3clFbH" id="3kFdJsc8jV" role="3cqZAp" />
@@ -22536,7 +22624,7 @@
                       <node concept="3eOVzh" id="5ZV7jolg$yt" role="3uHU7B">
                         <node concept="2OqwBi" id="5ZV7jolcfVM" role="3uHU7B">
                           <node concept="37vLTw" id="5ZV7jolcfPq" role="2Oq$k0">
-                            <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                            <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                           </node>
                           <node concept="2OwXpG" id="5ZV7jolcglL" role="2OqNvi">
                             <ref role="2Oxat5" node="5ZV7jolblR0" resolve="numExecutions" />
@@ -22545,7 +22633,7 @@
                         <node concept="2OqwBi" id="5ZV7jolceCE" role="3uHU7w">
                           <node concept="2OqwBi" id="5ZV7jolce6l" role="2Oq$k0">
                             <node concept="37vLTw" id="5ZV7jolce4c" role="2Oq$k0">
-                              <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                              <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                             </node>
                             <node concept="2OwXpG" id="5ZV7jolcevr" role="2OqNvi">
                               <ref role="2Oxat5" node="5ZV7jolblM1" resolve="origSelectionObjects" />
@@ -22572,7 +22660,7 @@
                             <node concept="1Wc70l" id="5qtEEIGCeXf" role="1eOMHV">
                               <node concept="2OqwBi" id="3nYsKhuZy6d" role="3uHU7B">
                                 <node concept="37vLTw" id="3nYsKhuZxZC" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                                  <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                                 </node>
                                 <node concept="2OwXpG" id="3nYsKhuZymW" role="2OqNvi">
                                   <ref role="2Oxat5" node="3nYsKhuYvvR" resolve="goOnWhenCanceled" />
@@ -22602,8 +22690,8 @@
                             <node concept="3clFbT" id="1mou_EB7eyo" role="37vLTx">
                               <property role="3clFbU" value="true" />
                             </node>
-                            <node concept="37vLTw" id="1mou_EB7eug" role="37vLTJ">
-                              <ref role="3cqZAo" node="3fji5qpH_1G" resolve="stopMultiProcessing" />
+                            <node concept="37vLTw" id="3fji5qpRiCL" role="37vLTJ">
+                              <ref role="3cqZAo" node="3fji5qpRhF5" resolve="stopMultiExecution" />
                             </node>
                           </node>
                         </node>
@@ -22623,7 +22711,7 @@
                   </node>
                   <node concept="2OqwBi" id="1mou_EB9Aw8" role="3uHU7B">
                     <node concept="37vLTw" id="1mou_EB9Aw9" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                     </node>
                     <node concept="2OwXpG" id="1mou_EB9Awa" role="2OqNvi">
                       <ref role="2Oxat5" node="6n78R1XsSRV" resolve="runningContainer" />
@@ -22648,7 +22736,7 @@
                 <node concept="3clFbF" id="3nYsKhuSYIf" role="3cqZAp">
                   <node concept="2OqwBi" id="3nYsKhuSYKs" role="3clFbG">
                     <node concept="37vLTw" id="3nYsKhuSYId" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                     </node>
                     <node concept="liA8E" id="3nYsKhuT1H8" role="2OqNvi">
                       <ref role="37wK5l" node="3nYsKhuSZJm" resolve="gcClear" />
@@ -22659,19 +22747,19 @@
                   <node concept="37vLTI" id="5ZV7jolcd_R" role="3clFbG">
                     <node concept="10Nm6u" id="5ZV7jolcdXx" role="37vLTx" />
                     <node concept="37vLTw" id="5ZV7jolcdzX" role="37vLTJ">
-                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="37vLTw" id="1mou_EB7eAZ" role="3clFbw">
-                <ref role="3cqZAo" node="3fji5qpH_1G" resolve="stopMultiProcessing" />
+              <node concept="37vLTw" id="3fji5qpRj1P" role="3clFbw">
+                <ref role="3cqZAo" node="3fji5qpRhF5" resolve="stopMultiExecution" />
               </node>
             </node>
           </node>
           <node concept="3y3z36" id="5ZV7jolccXq" role="3clFbw">
             <node concept="37vLTw" id="5ZV7jolccx7" role="3uHU7B">
-              <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiAction" />
+              <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
             </node>
             <node concept="10Nm6u" id="5ZV7jolcd3n" role="3uHU7w" />
           </node>
@@ -28116,7 +28204,7 @@
     </node>
   </node>
   <node concept="312cEu" id="5ZV7jolblEb">
-    <property role="TrG5h" value="MultiActionVars" />
+    <property role="TrG5h" value="MultiActionDefinition" />
     <node concept="312cEg" id="5ZV7jolblHU" role="jymVt">
       <property role="TrG5h" value="menuAction" />
       <node concept="3Tmbuc" id="5ZV7jolblIi" role="1B3o_S" />
@@ -28132,14 +28220,6 @@
           <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
       </node>
-    </node>
-    <node concept="312cEg" id="5ZV7jolblR0" role="jymVt">
-      <property role="34CwA1" value="false" />
-      <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="numExecutions" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3Tmbuc" id="5ZV7jolblPJ" role="1B3o_S" />
-      <node concept="10Oyi0" id="5ZV7jolblQg" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="5ZV7jolcjT0" role="jymVt">
       <property role="TrG5h" value="parentContainerWithSel" />
@@ -28170,7 +28250,44 @@
         <ref role="3uigEE" node="2o7h3aDYx43" resolve="ICommandContainer" />
       </node>
     </node>
+    <node concept="312cEg" id="5ZV7jolblR0" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="numExecutions" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="5ZV7jolblPJ" role="1B3o_S" />
+      <node concept="10Oyi0" id="5ZV7jolblQg" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="3fji5qpQY3Z" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="multiActionExecStrategy" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="3fji5qpQY40" role="1B3o_S" />
+      <node concept="3uibUv" id="3fji5qpQYcx" role="1tU5fm">
+        <ref role="3uigEE" node="3fji5qpQQZt" resolve="MultiActionDefinition.MULTIACTION_EXEC_STARTEGY" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="5ZV7jolfCpO" role="jymVt" />
+    <node concept="2tJIrI" id="3fji5qpQYg6" role="jymVt" />
+    <node concept="3clFbW" id="3fji5qpQYuh" role="jymVt">
+      <node concept="3cqZAl" id="3fji5qpQYuj" role="3clF45" />
+      <node concept="3Tm1VV" id="3fji5qpQYuk" role="1B3o_S" />
+      <node concept="3clFbS" id="3fji5qpQYul" role="3clF47">
+        <node concept="3clFbF" id="3fji5qpQYPy" role="3cqZAp">
+          <node concept="37vLTI" id="3fji5qpQYRU" role="3clFbG">
+            <node concept="Rm8GO" id="3fji5qpQYWe" role="37vLTx">
+              <ref role="Rm8GQ" node="3fji5qpQR9H" resolve="RECURSIVE" />
+              <ref role="1Px2BO" node="3fji5qpQQZt" resolve="MultiActionDefinition.MULTIACTION_EXEC_STARTEGY" />
+            </node>
+            <node concept="37vLTw" id="3fji5qpQYPw" role="37vLTJ">
+              <ref role="3cqZAo" node="3fji5qpQY3Z" resolve="multiActionExecStrategy" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3fji5qpQYXK" role="jymVt" />
     <node concept="2tJIrI" id="5ZV7jolfCq3" role="jymVt" />
     <node concept="3clFb_" id="5ZV7jolfCqw" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -28225,6 +28342,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="3fji5qpQQ7m" role="jymVt" />
     <node concept="3clFb_" id="3nYsKhuSZJm" role="jymVt">
       <property role="TrG5h" value="gcClear" />
       <node concept="3cqZAl" id="3nYsKhuSZJo" role="3clF45" />
@@ -28262,7 +28380,22 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3fji5qpQQzi" role="3cqZAp" />
       </node>
+    </node>
+    <node concept="2tJIrI" id="3fji5qpQRrU" role="jymVt" />
+    <node concept="Qs71p" id="3fji5qpQQZt" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="MULTIACTION_EXEC_STARTEGY" />
+      <node concept="QsSxf" id="3fji5qpQR9H" role="Qtgdg">
+        <property role="TrG5h" value="RECURSIVE" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="3fji5qpQRa6" role="Qtgdg">
+        <property role="TrG5h" value="LOOPED" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="3fji5qpQQZu" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="5ZV7jolblEc" role="1B3o_S" />
   </node>
