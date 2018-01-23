@@ -22368,23 +22368,11 @@
                 </node>
               </node>
             </node>
-            <node concept="1Wc70l" id="1nXeD0e_HW7" role="3uHU7B">
-              <node concept="3y3z36" id="1nXeD0e_HRY" role="3uHU7B">
-                <node concept="37vLTw" id="1nXeD0e_HPR" role="3uHU7B">
-                  <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
-                </node>
-                <node concept="10Nm6u" id="1nXeD0e_HU1" role="3uHU7w" />
+            <node concept="3y3z36" id="1nXeD0e_HRY" role="3uHU7B">
+              <node concept="37vLTw" id="1nXeD0e_HPR" role="3uHU7B">
+                <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
               </node>
-              <node concept="3fqX7Q" id="1nXeD0e_I$8" role="3uHU7w">
-                <node concept="2OqwBi" id="1nXeD0e_I$a" role="3fr31v">
-                  <node concept="37vLTw" id="1nXeD0e_I$b" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
-                  </node>
-                  <node concept="2OwXpG" id="1nXeD0e_I$c" role="2OqNvi">
-                    <ref role="2Oxat5" node="3nYsKhuYvvR" resolve="isGO_goOnWhenCanceled" />
-                  </node>
-                </node>
-              </node>
+              <node concept="10Nm6u" id="1nXeD0e_HU1" role="3uHU7w" />
             </node>
           </node>
           <node concept="3clFbS" id="1nXeD0e_HMD" role="3clFbx">
@@ -22411,34 +22399,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1nXeD0e_mz9" role="jymVt" />
-    <node concept="3clFb_" id="1nXeD0e_Lax" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setuser_progressor" />
-      <node concept="37vLTG" id="1nXeD0e_Lay" role="3clF46">
-        <property role="TrG5h" value="prog" />
-        <node concept="17QB3L" id="1nXeD0e_Laz" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="1nXeD0e_La$" role="3clF45" />
-      <node concept="3Tm1VV" id="1nXeD0e_La_" role="1B3o_S" />
-      <node concept="3clFbS" id="1nXeD0e_LaF" role="3clF47">
-        <node concept="3clFbF" id="1nXeD0e_Nyd" role="3cqZAp">
-          <node concept="1rXfSq" id="1nXeD0e_Nyb" role="3clFbG">
-            <ref role="37wK5l" node="1nXeD0e_o4L" resolve="stopMultiActionOnMsgWindowOpen" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="1nXeD0e_LaJ" role="3cqZAp">
-          <node concept="3nyPlj" id="1nXeD0e_LaI" role="3clFbG">
-            <ref role="37wK5l" node="6YMRHoFazJZ" resolve="setuser_progressor" />
-            <node concept="37vLTw" id="1nXeD0e_LaH" role="37wK5m">
-              <ref role="3cqZAo" node="1nXeD0e_Lay" resolve="prog" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="1nXeD0e_LaG" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
-      </node>
-    </node>
     <node concept="3clFb_" id="1nXeD0e_LaK" role="jymVt">
       <property role="TrG5h" value="showMessageDialog" />
       <property role="1EzhhJ" value="false" />
