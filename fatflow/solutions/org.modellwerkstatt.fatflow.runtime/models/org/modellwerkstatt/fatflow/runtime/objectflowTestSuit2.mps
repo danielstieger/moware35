@@ -33,6 +33,9 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="5279705229678483897" name="jetbrains.mps.baseLanguage.structure.FloatingPointFloatConstant" flags="nn" index="2$xPTn">
+        <property id="5279705229678483899" name="value" index="2$xPTl" />
+      </concept>
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
@@ -71,6 +74,9 @@
       </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1164991038168" name="jetbrains.mps.baseLanguage.structure.ThrowStatement" flags="nn" index="YS8fn">
         <child id="1164991057263" name="throwable" index="YScLw" />
@@ -8700,6 +8706,95 @@
               <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
               <node concept="Xl_RD" id="6Irl3jv9oeM" role="37wK5m">
                 <property role="Xl_RC" value="Hello Wolfgang it is 27.01.1980 04:30:00" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="186V0VEWtLw" role="3yMuLx">
+      <property role="TrG5h" value="MultiString - More complex string with string and decimal precission" />
+      <node concept="3cqZAl" id="186V0VEWu6P" role="3clF45" />
+      <node concept="3clFbS" id="186V0VEWtL$" role="3clF47">
+        <node concept="1gVbGN" id="186V0VEWu6S" role="3cqZAp">
+          <node concept="2OqwBi" id="186V0VEWulw" role="1gVkn0">
+            <node concept="35AVbj" id="186V0VEWu72" role="2Oq$k0">
+              <property role="35AVef" value="%06d = %s" />
+              <node concept="3cmrfG" id="186V0VEWubl" role="35Gt3$">
+                <property role="3cmrfH" value="4711" />
+              </node>
+              <node concept="Xl_RD" id="186V0VEWue_" role="35Gt3$">
+                <property role="Xl_RC" value="4711" />
+              </node>
+            </node>
+            <node concept="liA8E" id="186V0VEWurd" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="186V0VEWurC" role="37wK5m">
+                <property role="Xl_RC" value="004711 = 4711" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="186V0VEWuSz" role="3yMuLx">
+      <property role="TrG5h" value="MultiString - More complex int with float precission" />
+      <node concept="3cqZAl" id="186V0VEWuS$" role="3clF45" />
+      <node concept="3clFbS" id="186V0VEWuS_" role="3clF47">
+        <node concept="1gVbGN" id="186V0VEWuSA" role="3cqZAp">
+          <node concept="2OqwBi" id="186V0VEWuSB" role="1gVkn0">
+            <node concept="35AVbj" id="186V0VEWuSC" role="2Oq$k0">
+              <property role="35AVef" value="%4d and %2.2f" />
+              <node concept="3cmrfG" id="186V0VEWuSD" role="35Gt3$">
+                <property role="3cmrfH" value="4711" />
+              </node>
+              <node concept="2$xPTn" id="186V0VEWvk5" role="35Gt3$">
+                <property role="2$xPTl" value="88.88f" />
+              </node>
+            </node>
+            <node concept="liA8E" id="186V0VEWuSF" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="2YIFZM" id="186V0VEYPhE" role="37wK5m">
+                <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+                <node concept="Xl_RD" id="186V0VEYPiw" role="37wK5m">
+                  <property role="Xl_RC" value="%4d and %2.2f" />
+                </node>
+                <node concept="3cmrfG" id="186V0VEYPxL" role="37wK5m">
+                  <property role="3cmrfH" value="4711" />
+                </node>
+                <node concept="2$xPTn" id="186V0VEYPGa" role="37wK5m">
+                  <property role="2$xPTl" value="88.88f" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="186V0VEWv0E" role="3yMuLx">
+      <property role="TrG5h" value="MultiString - More complex string with new line and int" />
+      <node concept="3cqZAl" id="186V0VEWv0F" role="3clF45" />
+      <node concept="3clFbS" id="186V0VEWv0G" role="3clF47">
+        <node concept="1gVbGN" id="186V0VEWv0H" role="3cqZAp">
+          <node concept="2OqwBi" id="186V0VEWv0I" role="1gVkn0">
+            <node concept="35AVbj" id="186V0VEWv0J" role="2Oq$k0">
+              <property role="35AVef" value="%06d%n" />
+              <node concept="3cmrfG" id="186V0VEWv0K" role="35Gt3$">
+                <property role="3cmrfH" value="4711" />
+              </node>
+            </node>
+            <node concept="liA8E" id="186V0VEWv0M" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="2YIFZM" id="186V0VEWvB0" role="37wK5m">
+                <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
+                <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
+                <node concept="Xl_RD" id="186V0VEWvBR" role="37wK5m">
+                  <property role="Xl_RC" value="%06d%n" />
+                </node>
+                <node concept="3cmrfG" id="186V0VEWvIx" role="37wK5m">
+                  <property role="3cmrfH" value="4711" />
+                </node>
               </node>
             </node>
           </node>

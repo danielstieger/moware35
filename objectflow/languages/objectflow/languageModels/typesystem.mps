@@ -78,6 +78,7 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
@@ -11152,6 +11153,34 @@
                   </node>
                   <node concept="37vLTw" id="371pDBOBXKt" role="3uHU7B">
                     <ref role="3cqZAo" node="371pDBOBXeu" resolve="t" />
+                  </node>
+                </node>
+                <node concept="3eNFk2" id="186V0VEQE4F" role="3eNLev">
+                  <node concept="3clFbC" id="186V0VEQEpW" role="3eO9$A">
+                    <node concept="37vLTw" id="186V0VEQE8B" role="3uHU7B">
+                      <ref role="3cqZAo" node="371pDBOBXeu" resolve="t" />
+                    </node>
+                    <node concept="Rm8GO" id="186V0VEQEgS" role="3uHU7w">
+                      <ref role="Rm8GQ" to="28jr:186V0VEE3JJ" resolve="Float" />
+                      <ref role="1Px2BO" to="28jr:371pDBOB$Ae" resolve="OFXStringFormatter.FormaterTypes" />
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="186V0VEQE4H" role="3eOfB_">
+                    <node concept="1ZobV4" id="186V0VER8Fx" role="3cqZAp">
+                      <property role="3wDh2S" value="true" />
+                      <node concept="mw_s8" id="186V0VER8Fz" role="1ZfhK$">
+                        <node concept="1Z2H0r" id="186V0VER8F$" role="mwGJk">
+                          <node concept="37vLTw" id="186V0VER8F_" role="1Z2MuG">
+                            <ref role="3cqZAo" node="371pDBOC53H" resolve="arg" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="mw_s8" id="186V0VER8FA" role="1ZfhKB">
+                        <node concept="2c44tf" id="186V0VER8FB" role="mwGJk">
+                          <node concept="10OMs4" id="186V0VER8FC" role="2c44tc" />
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node concept="3eNFk2" id="371pDBOC1hQ" role="3eNLev">
