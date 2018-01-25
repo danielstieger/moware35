@@ -15,7 +15,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'h26 SDBG';
+var zVersion = 'MS 1.0';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -407,5 +407,5 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	setInterval(incProgress, 20000);
 	incProgress();
-	console.log('EB Special Debug JS h2forms start ' + zVersion + ' ' + new Date());
+	moLog(zVersion);
 }); 

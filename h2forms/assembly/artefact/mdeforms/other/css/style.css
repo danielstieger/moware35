@@ -1,0 +1,676 @@
+/* 
+ * mobile css
+ *
+ * modellwerkstatt.org
+ * MRS 2017
+ *
+ */ 
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, textarea, header, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+} 
+
+
+body {
+	font-family: 'Helvetica', Helvetica, Arial, sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	word-wrap: break-word;
+	-webkit-text-size-adjust: none;
+	        text-size-adjust: none;
+	height: 100%;
+	font-weight: 300;
+	line-height: 1;
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+
+/* ---- Material Icons Stuff ------------------------------------------------ */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(maticonsfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(maticonsfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(maticonsfont/MaterialIcons-Regular.woff) format('woff'),
+       url(maticonsfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: bottom;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+/* ---- Material Icons Stuff ------------------------------------------------ */
+
+
+
+
+
+button {
+	background: transparent; /* Fix for Chrome and Firefox OS */
+}
+:focus {
+    outline: 0;
+} 
+ol, ul {
+    list-style: none;
+} 
+
+/* table {
+    border-collapse: separate;
+    border-spacing: 0;
+} */
+
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+} 
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+} 
+blockquote, q {
+    quotes: "" "";
+} 
+
+html, body {
+	overflow: hidden;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* dan custom */
+
+
+.error {
+	background-color: rgb(255, 0, 0);
+	color: white;
+	font-weight: 500;
+}
+
+.info {
+	background-color: #c9c9c9;
+	font-weight: 500;
+}
+
+.customLinkColor {
+	color: red;
+	cursor: pointer;
+	
+}
+
+.rightCustomHeaderDiv {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-right: 5px;
+	font-size: 8px;
+	line-height: normal;
+}
+
+.rightCustomHeaderDivLine2 {
+	position: absolute;
+	right: 0px;
+	top: 9px;
+	padding-right: 5px;
+	font-size: 8px;
+	line-height: normal;
+}
+
+.narrorMin {
+	min-width: 50px;
+}
+
+.wideMin {
+	min-width: 85px;
+}
+
+.fcButtonsDiv {
+	/* border: red 1px solid; */
+	clear: both;
+	height: 36px;
+}
+
+.rightFCButton {
+	float: right;
+	text-align: center;
+	padding: 5px 5px 5px 5px !important;
+	margin: 2px 4px 2px 4px !important;
+	
+	background: lightgray;
+	color: white;
+	cursor: pointer;
+}
+
+.rightFCButton:focus {
+    border: 3px solid #F69384 !important;
+    padding: 2px 2px 2px 2px !important;
+
+}
+
+.rightFCButton .label, .label {
+	/* background: red; */
+	line-height: 22px;
+	font-weight: 500%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.activeLabel {
+	/* color: rgb(21, 125, 251); */
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+	/* margin-left: 4.7%; */
+}
+
+.inactiveLabel {
+	color: rgb(84, 84, 84);
+	/* margin-left: 4.7%; */
+}
+	
+input:focus, textarea:focus, select:focus {
+	border-bottom: 3px solid #F69384;
+}
+
+input[focusme="true"][useMyKeyboard="true"] {
+	background: #F69384 !important;
+	color: #000000 !important;
+	border-bottom: 3px solid rgb(200, 199, 204) !important;
+}
+
+input:disabled, textarea:disabled, select:disabled {
+	border-bottom: 3px solid rgb(200, 199, 204);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 6px 15px 6px 0;
+    margin-left: 15px;
+    font-weight: 300;
+
+}
+
+td {
+	padding: 10px 3px 3px 3px;
+}
+
+table .lightpassive {
+	border-bottom: 3px solid lightgray;
+	border-left: 3px solid lightgray;
+	cursor: pointer;
+}
+
+table .lightactive {
+	/* colors set dyn in template */
+	cursor: pointer;
+}
+
+
+table .bigactive {
+	border-left: 3px solid lightgray;
+	cursor: pointer;
+}
+
+table .bigpassive {
+	border-left: 3px solid lightgray;
+}
+
+table .bigpassive td, table .bigactive td {
+	font-weight: 500;	
+}
+
+tr .lastcell {
+	text-align: right;	
+	padding-right: 20px !important; 
+	/* 15px padding + 15px from table s margin left */ 
+}
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------ */
+
+
+/* Tabbar */
+nav {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/* height: 49px; Dan hight adjustment */
+	text-align: center;
+	background-color: rgba(248, 248, 248, 0.8);
+	background-image: linear-gradient(180deg, rgb(200, 199, 204), rgb(200, 199, 204) 50%, transparent 50%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: top center;
+	z-index: 100;
+}
+
+nav button {
+	display: inline-block;
+	text-align: center;
+	font-weight: 500;
+	color: white;
+	cursor: pointer;
+	padding: 10px 3px 10px 3px;
+	margin: 2px 4px 2px 4px; 
+}
+
+nav button:focus { 
+    border: 4px solid #F69384 !important;
+    padding: 6px 0px 6px 0px !important;
+}
+
+
+
+nav .label {
+	/* background: red; */
+	line-height: 22px;
+	font-weight: 500%;
+}
+
+nav .mysmallbutton {
+	min-width: 20px !important;
+	width: 24%;
+	padding: 10px 2px 10px 2px;
+	margin: 1px;
+	
+}
+
+nav .mysmallbutton:focus{
+    border: 2px solid #F69384 !important;
+	padding: 8px 0px 8px 0px !important;
+}
+
+
+nav button:disabled {
+	background: lightgray;
+	color: white;
+	cursor: default;
+}
+
+/* --- MoWare Keyboard --- MoWare Keyboard --- MoWare Keyboard --- MoWare Keyboard --- MoWare Keyboard --- */
+
+.kbrdbutton {
+	padding: 10 0 10 0px;
+	margin: 0px;
+	width: 25%;
+	font-size: 160%;
+}
+
+nav .kbrdbutton:focus {
+    border: 4px solid #F69384 !important;
+    padding: 6px 0px 6px 0px !important;
+}
+
+[mykeyboardkey] {
+	background: rgba(248, 248, 248, 0.8);
+	color: black;
+}
+
+
+
+
+
+nav .myscanbutton {
+	width: 99%;
+	padding: 15px 2px 15px 2px;
+	margin: 1px;
+
+	background: #E87E0C;
+}
+
+nav .myscanbutton:focus {
+    border: 2px solid #F69384 !important;
+	padding: 13px 0px 13px 0px !important;
+}
+
+/* --- MoWare Keyboard --- MoWare Keyboard --- MoWare Keyboard --- MoWare Keyboard --- MoWare Keyboard --- */
+
+
+/* Views */
+section {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+.hidden {
+	display: none;
+}
+.slin, .srin, .slout, .srout, .popin, .popout, .noanim {
+	pointer-events: none;
+}
+
+.spinner {
+	background: url(../img/spinner.svg) center no-repeat;
+    	-webkit-animation: rotate 1.5s infinite steps(12);
+    	   -moz-animation: rotate 1.5s infinite steps(12);
+    	    -ms-animation: rotate 1.5s infinite steps(12);
+    	     -o-animation: rotate 1.5s infinite steps(12);
+    	        animation: rotate 1.5s infinite steps(12);
+}
+
+header {
+	position: absolute;
+	top:0;
+	height: 54px;
+	line-height: 44px;
+	width: 100%;
+	padding-top: 0;
+	background-color: rgba(248, 248, 248, 0.8);
+	background-image: linear-gradient(0deg, rgb(200, 199, 204), rgb(200, 199, 204) 50%, transparent 50%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	z-index: 10;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	        user-select: none;
+	-webkit-touch-callout: none;
+}
+
+
+header button {
+	position: absolute;
+	top: 0;
+	
+	right: 0;
+	text-align: right;	
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+	margin: 10px;
+	color: rgb(111, 111, 116);
+	font-weight: 500;
+	color: white;
+	cursor: pointer;
+}
+
+header button:focus { 
+    border: 4px solid #F69384 !important;
+    padding: 6px 6px 6px 6px !important;
+}
+
+header button:disabled {
+	background: lightgray;
+	color: white;
+	cursor: default;
+}
+
+h1 {
+	display: block;
+	padding: 0;
+	font-size: 16px;
+	line-height: 18px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: left;
+	overflow: hidden;
+	-webkit-box-flex: 1;
+	   -moz-box-flex: 1;
+	        box-flex: 1;
+	margin: 0px;
+	/* font-weight: 500; */
+    -webkit-tap-highlight-color: transparent;
+}
+
+#chrumbdiv0 {
+	padding-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: white;
+	
+}
+
+
+#chrumbdiv1 {
+	padding-left: 17px;
+}
+
+#chrumbdiv2 {
+	padding-left: 24px;
+}
+
+
+section .scroll, section .scrollMask, section header button, section h1, section,  header button .label {
+	-webkit-animation-fill-mode: forwards;
+	        animation-fill-mode: forwards;
+	-webkit-animation-duration: 400ms;
+	        animation-duration: 400ms;
+}
+section .scroll, section .scrollMask, section h1, section,  section header button .label {
+	-webkit-animation-timing-function: cubic-bezier(.1, .7, .1, 1);
+	        animation-timing-function: cubic-bezier(.1, .7, .1, 1);
+}
+
+.scrollWrap {
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+.scroll {
+	width: 100%;
+	padding-right: 20px;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	z-index: 1;
+	opacity: 1;
+}
+.scrollMask {
+	width: 100%;
+	position: absolute;
+	top: 54px;
+	bottom: 0;
+	background-color: rgb(255, 255, 255);
+	-webkit-box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.1);
+	        box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+	line-height: 16px;
+	margin-top: 3px;
+	font-weight: 400;
+	/* Dan - hight adjustment */
+	padding-bottom: 70px;
+}
+
+.contentTop{
+	height: 54px;
+	/* border: 2px solid red; */
+}
+
+input, textarea {
+	display: block;
+	position: relative;
+	/* width: 90.6%; */
+	width: 95.3%;
+    /* -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none; */
+    font-weight: 300;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 6px 4.7% 6px 0;
+    /* margin-left: 4.7%; */
+    background-color: transparent;
+    
+    -webkit-tap-highlight-color: transparent;
+	background-image: linear-gradient(0deg, rgb(200, 199, 204), rgb(200, 199, 204) 50%, transparent 50%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+select {
+	display: block; 
+ 	position: relative;
+	/* width: 90.6%; */
+	width: 95.3%;
+	
+    /* -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none; */
+    font-weight: 100;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 6px 4.7% 6px 0;
+    /* margin-left: 4.7%; */
+    font-size: 90%;
+    /* height: 30px; */
+    /* background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+	background-image: linear-gradient(0deg, rgb(200, 199, 204), rgb(200, 199, 204) 50%, transparent 50%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: bottom; */ 
+}
+
+
+
+li {
+	display: block;
+    padding: 6px 15px 6px 0;
+    margin-left: 15px;
+    font-weight: 300;
+	background-image: linear-gradient(0deg, rgb(200, 199, 204), rgb(200, 199, 204) 50%, transparent 50%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+li .big {
+    padding: 5px;
+	font-weight: 500;
+}
+li .light {
+	/* color: rgb(111, 111, 116); */
+	padding: 10px 5px 5px 5px;
+}
+
+/* .arrowed .innerLi {
+	background-image: url(../img/listArrow.svg);
+	background-size: 15px 15px;
+	background-repeat: no-repeat;
+	background-position: right center;
+    padding-right: 5%;
+
+	background: #6b9ff4;
+} */
+
+h2 {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: center;
+    padding: 6px;
+}
+p {
+	line-height: 24px;
+	text-align: center;
+    /* padding: 6px; */
+}
+.content button {
+	padding: 12px 18px;
+	/* border-radius: 6px;
+	box-shadow: 0 1px 1px -1px rgba(200, 199, 204, .5); */
+	font-weight: 500;
+	font-size: 16px;
+    -webkit-tap-highlight-color: transparent;
+}
+.content button:active {
+	opacity: 0.3;
+}
+
+
+.center {
+    text-align: center;
+}
+strong {
+    font-weight: 500;
+}
+em {
+    font-style: italic;
+}
+
+.native header button, .native header {
+	padding-top: 20px;
+}
+.native .content {
+	margin-top: 64px;
+}
+.native .nav-icons {
+	top: 20px;
+}
+.native .scrollMask {
+	top: 64px;
+}
+
+@media (-webkit-max-device-pixel-ratio: 1) {
+	li, header {
+		background-image: none;
+		border-bottom: 1px solid rgb(200, 199, 204);
+	}
+}
+@media (max-device-pixel-ratio: 1) {
+	li, input {
+		background-image: none;
+		border-bottom: 1px solid rgb(200, 199, 204);
+	}
+}

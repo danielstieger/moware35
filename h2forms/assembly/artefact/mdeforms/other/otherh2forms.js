@@ -10,7 +10,7 @@
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
 
-var zVersion = 'h2.2 DBG';
+var zVersion = 'MO 1.0';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -366,5 +366,5 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	incProgress();
 	setInterval(incProgress, 60000);
-	console.log('EB h2forms start ' + zVersion + ' ' + new Date());
+	moLog(zVersion);
 }); 
