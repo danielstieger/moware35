@@ -30723,7 +30723,26 @@
             <property role="3SKdUp" value="remove output path from file " />
           </node>
         </node>
-        <node concept="3clFbH" id="qHvcCATS9K" role="3cqZAp" />
+        <node concept="3clFbJ" id="t3qoNAbR1x" role="3cqZAp">
+          <node concept="3clFbS" id="t3qoNAbR1z" role="3clFbx">
+            <node concept="YS8fn" id="t3qoNAbRFf" role="3cqZAp">
+              <node concept="2ShNRf" id="t3qoNAbRHE" role="YScLw">
+                <node concept="1pGfFk" id="t3qoNAbUQF" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="t3qoNAbUTt" role="37wK5m">
+                    <property role="Xl_RC" value="Given pdfFile for view() is null!" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="t3qoNAbRqH" role="3clFbw">
+            <node concept="10Nm6u" id="t3qoNAbRyl" role="3uHU7w" />
+            <node concept="37vLTw" id="t3qoNAbRcZ" role="3uHU7B">
+              <ref role="3cqZAo" node="omQbG9QvrX" resolve="pdfFile" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="omQbG9QABB" role="3cqZAp">
           <node concept="3cpWsn" id="omQbG9QABE" role="3cpWs9">
             <property role="TrG5h" value="filePath" />
