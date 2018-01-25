@@ -15,7 +15,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'MS 1.0';
+var zVersion = 'h2 MS_1';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -407,5 +407,4 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	setInterval(incProgress, 20000);
 	incProgress();
-	moLog(zVersion);
 }); 

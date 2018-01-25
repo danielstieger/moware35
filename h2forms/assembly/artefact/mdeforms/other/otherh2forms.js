@@ -10,7 +10,7 @@
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
 
-var zVersion = 'MO 1.0';
+var zVersion = 'h2 MO_1';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -366,5 +366,4 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	incProgress();
 	setInterval(incProgress, 60000);
-	moLog(zVersion);
 }); 

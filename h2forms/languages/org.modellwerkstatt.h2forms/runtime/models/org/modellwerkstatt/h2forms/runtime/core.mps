@@ -8862,7 +8862,7 @@
               <node concept="37vLTI" id="4Rlyz3E788Q" role="3clFbG">
                 <node concept="Rm8GO" id="4Rlyz3E79qt" role="37vLTx">
                   <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                  <ref role="Rm8GQ" node="4Rlyz3E5tAm" resolve="ZEBRA_EB" />
+                  <ref role="Rm8GQ" node="4Rlyz3E5tAm" resolve="ANDRO_ZEBRA_EB" />
                 </node>
                 <node concept="37vLTw" id="4Rlyz3E777x" role="37vLTJ">
                   <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="detectedClient" />
@@ -8888,7 +8888,7 @@
                 <node concept="37vLTI" id="4Rlyz3E7GRx" role="3clFbG">
                   <node concept="Rm8GO" id="4Rlyz3E7Iu_" role="37vLTx">
                     <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                    <ref role="Rm8GQ" node="4Rlyz3E5tAm" resolve="ZEBRA_EB" />
+                    <ref role="Rm8GQ" node="4Rlyz3E5tAm" resolve="ANDRO_ZEBRA_EB" />
                   </node>
                   <node concept="37vLTw" id="4Rlyz3E7FQg" role="37vLTJ">
                     <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="detectedClient" />
@@ -8978,7 +8978,7 @@
               <node concept="3clFbF" id="186V0VF2sH$" role="3cqZAp">
                 <node concept="37vLTI" id="186V0VF2sJG" role="3clFbG">
                   <node concept="Rm8GO" id="186V0VF2sSc" role="37vLTx">
-                    <ref role="Rm8GQ" node="186V0VF2pk4" resolve="WIN_MC55" />
+                    <ref role="Rm8GQ" node="186V0VF2pk4" resolve="WIN_ZEBRA_EB" />
                     <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
                   </node>
                   <node concept="37vLTw" id="186V0VF2sHz" role="37vLTJ">
@@ -9670,7 +9670,7 @@
       <property role="2bfB8j" value="false" />
       <property role="TrG5h" value="HttpClientType" />
       <node concept="QsSxf" id="4Rlyz3E5tAm" role="Qtgdg">
-        <property role="TrG5h" value="ZEBRA_EB" />
+        <property role="TrG5h" value="ANDRO_ZEBRA_EB" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="4Rlyz3E5v_q" role="Qtgdg">
@@ -9682,7 +9682,7 @@
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="QsSxf" id="186V0VF2pk4" role="Qtgdg">
-        <property role="TrG5h" value="WIN_MC55" />
+        <property role="TrG5h" value="WIN_ZEBRA_EB" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
       <node concept="3Tm1VV" id="4Rlyz3E5ijB" role="1B3o_S" />
