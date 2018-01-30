@@ -5849,7 +5849,7 @@
                                   <node concept="liA8E" id="1aGMcFQv7Oz" role="2OqNvi">
                                     <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                                     <node concept="Xl_RD" id="1aGMcFQv7O$" role="37wK5m">
-                                      <property role="Xl_RC" value="');\&quot; " />
+                                      <property role="Xl_RC" value="'); return false;\&quot; " />
                                     </node>
                                   </node>
                                 </node>
@@ -12466,6 +12466,10 @@
         <property role="TrG5h" value="isPreventHtmlCache" />
         <node concept="10P_77" id="1S90xUtt6sp" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="6m1l6tXk$ej" role="3clF46">
+        <property role="TrG5h" value="isPOSTRequest" />
+        <node concept="10P_77" id="6m1l6tXk$C1" role="1tU5fm" />
+      </node>
       <node concept="17QB3L" id="7r26jiO0MFN" role="3clF45" />
       <node concept="3Tm1VV" id="2xnCXJMh_bo" role="1B3o_S" />
       <node concept="3clFbS" id="2xnCXJMh_bp" role="3clF47">
@@ -17074,6 +17078,10 @@
     <node concept="2tJIrI" id="2xnCXJMoQrt" role="jymVt" />
     <node concept="3clFb_" id="75445jw17t1" role="jymVt">
       <property role="TrG5h" value="createMainMenu" />
+      <node concept="37vLTG" id="6m1l6tXogcs" role="3clF46">
+        <property role="TrG5h" value="ajax" />
+        <node concept="10P_77" id="6m1l6tXogrQ" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="2xnCXJMjObB" role="3clF46">
         <property role="TrG5h" value="tiles" />
         <node concept="_YKpA" id="6zVU6_jDOGU" role="1tU5fm">
@@ -17304,6 +17312,10 @@
     <node concept="3clFb_" id="7r26jiO0CrC" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createSimpleMessage" />
+      <node concept="37vLTG" id="6m1l6tXoihY" role="3clF46">
+        <property role="TrG5h" value="ajax" />
+        <node concept="10P_77" id="6m1l6tXoihZ" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="7r26jiO0CrF" role="3clF46">
         <property role="TrG5h" value="breadCrumbs" />
         <node concept="17QB3L" id="7r26jiO0CrG" role="1tU5fm" />

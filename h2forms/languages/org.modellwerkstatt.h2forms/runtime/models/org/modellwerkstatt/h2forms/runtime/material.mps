@@ -424,6 +424,10 @@
     <node concept="3clFb_" id="2RoKLt0oPH8" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createMainMenu" />
+      <node concept="37vLTG" id="6m1l6tXogcs" role="3clF46">
+        <property role="TrG5h" value="ajax" />
+        <node concept="10P_77" id="6m1l6tXogrQ" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="2RoKLt0oPH9" role="3clF46">
         <property role="TrG5h" value="tileList" />
         <node concept="_YKpA" id="2RoKLt0oPHa" role="1tU5fm">
@@ -769,6 +773,10 @@
     <node concept="3clFb_" id="2RoKLt0oPHk" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createSimpleMessage" />
+      <node concept="37vLTG" id="6m1l6tXogG$" role="3clF46">
+        <property role="TrG5h" value="ajax" />
+        <node concept="10P_77" id="6m1l6tXogG_" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="2RoKLt0oPHl" role="3clF46">
         <property role="TrG5h" value="breadCrumbs" />
         <node concept="17QB3L" id="2RoKLt0oPHm" role="1tU5fm" />
@@ -3451,6 +3459,10 @@
       <node concept="37vLTG" id="1S90xUtt_Md" role="3clF46">
         <property role="TrG5h" value="isPreventHtmlCache" />
         <node concept="10P_77" id="1S90xUttAmQ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6m1l6tXkytT" role="3clF46">
+        <property role="TrG5h" value="isPostRequest" />
+        <node concept="10P_77" id="6m1l6tXkz3k" role="1tU5fm" />
       </node>
       <node concept="17QB3L" id="7r26jiO0MFN" role="3clF45" />
       <node concept="3Tm1VV" id="2xnCXJMh_bo" role="1B3o_S" />
