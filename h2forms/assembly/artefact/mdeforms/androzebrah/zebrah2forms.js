@@ -34,6 +34,11 @@ function moLog(s) {
 }
 
 
+function disableNavigation() {
+	$('nav').style.display = 'none';
+	$('.content').style.display = 'none';
+}
+
 
 /* Scan stuff ******************************************************* */
 function disableScan(){
@@ -61,7 +66,8 @@ function scanReceived(params){
 	incProgress();
 	var f = $('form');
 	f.NaviCrtl.value = conclusion;
-	//alert('SCAN CONCLUSION SUBMIT.');
+	
+	disableNavigation();
 	f.submit();
 }  
 
@@ -105,7 +111,8 @@ function SelectAndExec(selectionstr, valstr){
 	var f = $('form');
 	f.NaviCrtl.value=valstr;
 	f.SelectionId.value=selectionstr;
-	// console.log('SUBMIT SelectAndExec()'); 
+	
+	disableNavigation(); 
 	f.submit();
 }
 
@@ -122,7 +129,8 @@ function SaveSubmit(valstr){
 	} else {
 		var f = $('form');
 		f.NaviCrtl.value=valstr;
-		// alert('SUBMIT SaveSubmit()'); 
+		
+		disableNavigation();
 		f.submit();
 	}
 }

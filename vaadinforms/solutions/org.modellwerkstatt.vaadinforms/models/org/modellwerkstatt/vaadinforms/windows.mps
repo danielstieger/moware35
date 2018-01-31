@@ -4518,8 +4518,17 @@
                   <node concept="Xjq3P" id="1yQJrOWzg8u" role="2Oq$k0" />
                   <node concept="liA8E" id="1yQJrOWzgua" role="2OqNvi">
                     <ref role="37wK5l" to="opgt:~GenericServlet.log(java.lang.String,java.lang.Throwable):void" resolve="log" />
-                    <node concept="Xl_RD" id="1yQJrOWzgD8" role="37wK5m">
-                      <property role="Xl_RC" value="Exception in VApplicationLoader.service()" />
+                    <node concept="3cpWs3" id="2B7Nd3VsClZ" role="37wK5m">
+                      <node concept="2YIFZM" id="2B7Nd3VsG0s" role="3uHU7w">
+                        <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
+                        <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                        <node concept="37vLTw" id="2B7Nd3VsGda" role="37wK5m">
+                          <ref role="3cqZAo" node="1yQJrOWzdPo" resolve="e" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="1yQJrOWzgD8" role="3uHU7B">
+                        <property role="Xl_RC" value="Exception in VApplicationLoader.service() \n\n" />
+                      </node>
                     </node>
                     <node concept="37vLTw" id="1yQJrOWzh7N" role="37wK5m">
                       <ref role="3cqZAo" node="1yQJrOWzdPo" resolve="e" />
