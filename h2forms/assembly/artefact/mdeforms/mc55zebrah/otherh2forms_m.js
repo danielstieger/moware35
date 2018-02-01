@@ -279,6 +279,7 @@ function mykeyboardEnabled(enbld) {
 function myfocusOnElement(elem) {
 	// input, textarea or select
 	var inp = $('[focusme="true"]');
+	console.log('myFocusOnElement() focus was ' + inp);
 
 	if (inp) {
 		inp.setAttribute('focusme', 'false');
@@ -365,7 +366,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	moware_focus_element = null;
 	var focusHandler = function(event) {
-    	var type = event.target.nodeName.toLowerCase();
+		console.log('focusHandler() focussed now ' + event + " while moware_focus_elementnull = " + moware_focus_element);
+
+		var type = event.target.nodeName.toLowerCase();
 
 		if(type == 'input' || type == 'textarea' || type == 'select') {
 			// no double focus please.
