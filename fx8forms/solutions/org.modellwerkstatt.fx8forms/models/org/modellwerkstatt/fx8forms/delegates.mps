@@ -8620,13 +8620,6 @@
         <ref role="3uigEE" node="2agx4jTP$zD" resolve="DatePatternField" />
       </node>
     </node>
-    <node concept="312cEg" id="1l2SXGvGmxt" role="jymVt">
-      <property role="TrG5h" value="hbox" />
-      <node concept="3Tm6S6" id="1l2SXGvGmxu" role="1B3o_S" />
-      <node concept="3uibUv" id="1l2SXGvGmF0" role="1tU5fm">
-        <ref role="3uigEE" to="l152:~HBox" resolve="HBox" />
-      </node>
-    </node>
     <node concept="312cEg" id="7JzO8Sc4jkn" role="jymVt">
       <property role="TrG5h" value="focusChangeListener" />
       <node concept="3Tmbuc" id="7JzO8Sc4jko" role="1B3o_S" />
@@ -8655,18 +8648,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="1l2SXGvNep6" role="3cqZAp" />
-        <node concept="3clFbF" id="1l2SXGvGmJB" role="3cqZAp">
-          <node concept="37vLTI" id="1l2SXGvGmMt" role="3clFbG">
-            <node concept="2ShNRf" id="1l2SXGvGmQP" role="37vLTx">
-              <node concept="1pGfFk" id="1l2SXGvGmNY" role="2ShVmc">
-                <ref role="37wK5l" to="l152:~HBox.&lt;init&gt;()" resolve="HBox" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="1l2SXGvGmJA" role="37vLTJ">
-              <ref role="3cqZAo" node="1l2SXGvGmxt" resolve="hbox" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="1l2SXGvGq61" role="3cqZAp">
           <node concept="37vLTI" id="1l2SXGvGqb1" role="3clFbG">
             <node concept="2ShNRf" id="1l2SXGvGqh0" role="37vLTx">
@@ -8746,9 +8727,7 @@
             </node>
             <node concept="liA8E" id="1l2SXGvHNwo" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~Label.setLabelFor(javafx.scene.Node):void" resolve="setLabelFor" />
-              <node concept="37vLTw" id="1l2SXGvHNU5" role="37wK5m">
-                <ref role="3cqZAo" node="1l2SXGvGmxt" resolve="hbox" />
-              </node>
+              <node concept="Xjq3P" id="2gdf8TJe2BT" role="37wK5m" />
             </node>
           </node>
         </node>
@@ -8770,9 +8749,7 @@
         <node concept="3clFbF" id="1l2SXGvGmSD" role="3cqZAp">
           <node concept="2OqwBi" id="1l2SXGvGp4t" role="3clFbG">
             <node concept="2OqwBi" id="1l2SXGvGmVO" role="2Oq$k0">
-              <node concept="37vLTw" id="1l2SXGvGmSB" role="2Oq$k0">
-                <ref role="3cqZAo" node="1l2SXGvGmxt" resolve="hbox" />
-              </node>
+              <node concept="Xjq3P" id="2gdf8TJe2FP" role="2Oq$k0" />
               <node concept="liA8E" id="1l2SXGvGoXa" role="2OqNvi">
                 <ref role="37wK5l" to="l152:~Pane.getChildren():javafx.collections.ObservableList" resolve="getChildren" />
               </node>
@@ -8968,9 +8945,7 @@
             </node>
             <node concept="3clFbF" id="1l2SXGvN1Ee" role="3cqZAp">
               <node concept="2OqwBi" id="1l2SXGvN1Ef" role="3clFbG">
-                <node concept="37vLTw" id="1l2SXGvN1Xy" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1l2SXGvGmxt" resolve="hbox" />
-                </node>
+                <node concept="Xjq3P" id="2gdf8TJe2LH" role="2Oq$k0" />
                 <node concept="liA8E" id="1l2SXGvN1Eh" role="2OqNvi">
                   <ref role="37wK5l" to="p18y:~Node.setStyle(java.lang.String):void" resolve="setStyle" />
                   <node concept="Xl_RD" id="1l2SXGvN1Ei" role="37wK5m">
@@ -9007,9 +8982,7 @@
             <node concept="3clFbS" id="1l2SXGvN1Eq" role="9aQI4">
               <node concept="3clFbF" id="1l2SXGvN1Er" role="3cqZAp">
                 <node concept="2OqwBi" id="1l2SXGvN1Es" role="3clFbG">
-                  <node concept="37vLTw" id="1l2SXGvN2aT" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1l2SXGvGmxt" resolve="hbox" />
-                  </node>
+                  <node concept="Xjq3P" id="2gdf8TJe2Sf" role="2Oq$k0" />
                   <node concept="liA8E" id="1l2SXGvN1Eu" role="2OqNvi">
                     <ref role="37wK5l" to="p18y:~Node.setStyle(java.lang.String):void" resolve="setStyle" />
                     <node concept="Xl_RD" id="1l2SXGvN1Ev" role="37wK5m">
@@ -9702,9 +9675,7 @@
       <node concept="3Tm1VV" id="1l2SXGvG1p4" role="1B3o_S" />
       <node concept="3clFbS" id="1l2SXGvG1p7" role="3clF47">
         <node concept="3cpWs6" id="1l2SXGvGqZW" role="3cqZAp">
-          <node concept="37vLTw" id="1l2SXGvGr0$" role="3cqZAk">
-            <ref role="3cqZAo" node="1l2SXGvGmxt" resolve="hbox" />
-          </node>
+          <node concept="Xjq3P" id="2gdf8TJe2Wh" role="3cqZAk" />
         </node>
       </node>
     </node>
@@ -9724,6 +9695,31 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1l2SXGvG1mt" role="jymVt" />
+    <node concept="2tJIrI" id="2gdf8TJdA0o" role="jymVt" />
+    <node concept="3clFb_" id="2gdf8TJe3zC" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="requestFocus" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3Tm1VV" id="2gdf8TJe3zD" role="1B3o_S" />
+      <node concept="3cqZAl" id="2gdf8TJe3zF" role="3clF45" />
+      <node concept="3clFbS" id="2gdf8TJe3zL" role="3clF47">
+        <node concept="3clFbF" id="2gdf8TJe7$I" role="3cqZAp">
+          <node concept="2OqwBi" id="2gdf8TJe7LU" role="3clFbG">
+            <node concept="37vLTw" id="2gdf8TJe7$H" role="2Oq$k0">
+              <ref role="3cqZAo" node="1l2SXGvFVGF" resolve="dateField" />
+            </node>
+            <node concept="liA8E" id="2gdf8TJe8rz" role="2OqNvi">
+              <ref role="37wK5l" to="p18y:~Node.requestFocus():void" resolve="requestFocus" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2gdf8TJe3zM" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2gdf8TJdA8o" role="jymVt" />
     <node concept="3clFb_" id="1l2SXGvGrUo" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="gcClear" />
@@ -9779,6 +9775,9 @@
     </node>
     <node concept="3uibUv" id="1l2SXGvFS5p" role="EKbjA">
       <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
+    </node>
+    <node concept="3uibUv" id="2gdf8TJe0Tc" role="1zkMxy">
+      <ref role="3uigEE" to="l152:~HBox" resolve="HBox" />
     </node>
   </node>
   <node concept="312cEu" id="4n24ZlETfv2">
