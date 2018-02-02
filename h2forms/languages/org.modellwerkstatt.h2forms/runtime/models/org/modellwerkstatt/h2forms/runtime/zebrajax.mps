@@ -12002,28 +12002,39 @@
             </node>
             <node concept="3clFbH" id="t3qoNA8U0P" role="3cqZAp" />
           </node>
-          <node concept="22lmx$" id="t3qoNA8K_c" role="3clFbw">
-            <node concept="22lmx$" id="t3qoNA8OOE" role="3uHU7B">
-              <node concept="37vLTw" id="t3qoNA8Pul" role="3uHU7B">
-                <ref role="3cqZAo" node="3k6NRaQr8ru" resolve="useSpecialDebugJs" />
+          <node concept="22lmx$" id="6XhUJcUjG4I" role="3clFbw">
+            <node concept="3clFbC" id="6XhUJcUjHe0" role="3uHU7w">
+              <node concept="Rm8GO" id="6XhUJcUjIc9" role="3uHU7w">
+                <ref role="Rm8GQ" to="tea8:4Rlyz3E5xzC" resolve="OTHER" />
+                <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
               </node>
-              <node concept="3clFbC" id="t3qoNA8IVa" role="3uHU7w">
-                <node concept="37vLTw" id="t3qoNA8Io6" role="3uHU7B">
-                  <ref role="3cqZAo" node="4Rlyz3E7SBw" resolve="client" />
-                </node>
-                <node concept="Rm8GO" id="t3qoNA8KdD" role="3uHU7w">
-                  <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                  <ref role="Rm8GQ" to="tea8:4Rlyz3E5tAm" resolve="ANDRO_ZEBRA_EB" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbC" id="t3qoNA8Lsc" role="3uHU7w">
-              <node concept="37vLTw" id="t3qoNA8Lsd" role="3uHU7B">
+              <node concept="37vLTw" id="6XhUJcUjH1Y" role="3uHU7B">
                 <ref role="3cqZAo" node="4Rlyz3E7SBw" resolve="client" />
               </node>
-              <node concept="Rm8GO" id="t3qoNA8NgL" role="3uHU7w">
-                <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_EB" />
+            </node>
+            <node concept="22lmx$" id="t3qoNA8K_c" role="3uHU7B">
+              <node concept="22lmx$" id="t3qoNA8OOE" role="3uHU7B">
+                <node concept="37vLTw" id="t3qoNA8Pul" role="3uHU7B">
+                  <ref role="3cqZAo" node="3k6NRaQr8ru" resolve="useSpecialDebugJs" />
+                </node>
+                <node concept="3clFbC" id="t3qoNA8IVa" role="3uHU7w">
+                  <node concept="37vLTw" id="t3qoNA8Io6" role="3uHU7B">
+                    <ref role="3cqZAo" node="4Rlyz3E7SBw" resolve="client" />
+                  </node>
+                  <node concept="Rm8GO" id="t3qoNA8KdD" role="3uHU7w">
+                    <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+                    <ref role="Rm8GQ" to="tea8:4Rlyz3E5tAm" resolve="ANDRO_ZEBRA_EB" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="t3qoNA8Lsc" role="3uHU7w">
+                <node concept="37vLTw" id="t3qoNA8Lsd" role="3uHU7B">
+                  <ref role="3cqZAo" node="4Rlyz3E7SBw" resolve="client" />
+                </node>
+                <node concept="Rm8GO" id="t3qoNA8NgL" role="3uHU7w">
+                  <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+                  <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_EB" />
+                </node>
               </node>
             </node>
           </node>
@@ -12119,40 +12130,12 @@
                   <property role="3SKdUp" value="other" />
                 </node>
               </node>
-              <node concept="3clFbF" id="3k6NRaQrso0" role="3cqZAp">
-                <node concept="2OqwBi" id="3k6NRaQrso1" role="3clFbG">
-                  <node concept="37vLTw" id="3k6NRaQrso2" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-                  </node>
-                  <node concept="liA8E" id="3k6NRaQrso3" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-                    <node concept="3cpWs3" id="3k6NRaQrso4" role="37wK5m">
-                      <node concept="37vLTw" id="3k6NRaQrso5" role="3uHU7w">
-                        <ref role="3cqZAo" node="3oSvuvtutMF" resolve="scriptClose" />
-                      </node>
-                      <node concept="3cpWs3" id="4443BgffKvE" role="3uHU7B">
-                        <node concept="Xl_RD" id="3k6NRaQrsoa" role="3uHU7w">
-                          <property role="Xl_RC" value="/otherh2forms_m.js" />
-                        </node>
-                        <node concept="3cpWs3" id="4443BgffLpq" role="3uHU7B">
-                          <node concept="37vLTw" id="t3qoNA92N7" role="3uHU7w">
-                            <ref role="3cqZAo" node="t3qoNA8edE" resolve="loadDir" />
-                          </node>
-                          <node concept="3cpWs3" id="3k6NRaQrso6" role="3uHU7B">
-                            <node concept="3cpWs3" id="3k6NRaQrso7" role="3uHU7B">
-                              <node concept="Xl_RD" id="3k6NRaQrso8" role="3uHU7B">
-                                <property role="Xl_RC" value="&lt;script src=\&quot;" />
-                              </node>
-                              <node concept="37vLTw" id="3k6NRaQrso9" role="3uHU7w">
-                                <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
-                              </node>
-                            </node>
-                            <node concept="Xl_RD" id="4443BgffLBf" role="3uHU7w">
-                              <property role="Xl_RC" value="/static" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
+              <node concept="YS8fn" id="6XhUJcUjJ09" role="3cqZAp">
+                <node concept="2ShNRf" id="6XhUJcUjJ9k" role="YScLw">
+                  <node concept="1pGfFk" id="6XhUJcUjJx1" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                    <node concept="Xl_RD" id="6XhUJcUjJS4" role="37wK5m">
+                      <property role="Xl_RC" value="This should not happen. " />
                     </node>
                   </node>
                 </node>

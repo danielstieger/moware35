@@ -33,7 +33,8 @@ function disableScan() {
       EB.Barcode.disable();
       // $('#scanSoftButton').disabled = true;
     } catch (err) {
-      console.log('disableScan() ' + err);
+      console.log('disableScan() Err:' + err);
+
     }
   }
 }
@@ -65,7 +66,7 @@ function enableScan() {
       $('#scanSoftButton').disabled = false;
 
     } catch (err) {
-      console.log('enableScan() ' + err);
+      console.log('enableScan() Err: ' + err);
     }
 
   } else {
@@ -75,10 +76,6 @@ function enableScan() {
 }
 
 function ScanSubmit() {
-  // issuing a scan, which in turn will fire
-  // the scan conclusion then ... and submit
-
-  //alert('ScanSubmit() issuing scan');
   EB.Barcode.stop();
   EB.Barcode.start();
 }
@@ -288,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function() {
     wake.wifiLock = 'enabled';  */
 
   } catch (err) {
-    console.log('addEventListener_DOMContentLoaded() ' + err);
+    console.log('addEventListener_DOMContentLoaded()  Err: ' + err);
 
   }
 
@@ -333,8 +330,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	return true;
 }; */
 
-
-
   var focusHandler = function(event) {
     var type = event.target.nodeName.toLowerCase();
 
@@ -374,21 +369,12 @@ function afterPageLoaded() {
   }
 
   setTimeout(function() {
-    var inp = $('input[focusme="true"]');
+    var inp = $('*[focusme="true"]');
     if (inp) {
       inp.focus();
       // myfocusOnElement will set moware_focus_element var
       myfocusOnElement(inp);
-
-    } else {
-      // select box
-      inp = $('[focusme="true"]');
-      if (inp) {
-        inp.focus();
-      }
-
     }
-
   }, 400);
 }
 
@@ -396,15 +382,15 @@ function afterPageLoaded() {
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 function disableNavigation() {
-  $('nav').style.display = 'none';
-  $('.content').style.display = 'none';
+  $('nav').innerHTML = '';
+  $('.content').innerHTML = '<div class="contentTop" editorindex="-1"> </div> <p> <i class="material-icons md-48">&#xE88B;</i> </p>';
 }
 
 function internVibrate(t) {
   try {
     EB.Notification.vibrate(t);
   } catch (err) {
-    console.log('internVibrate() ' + err);
+    console.log('internVibrate() Err: ' + err);
   }
 }
 
@@ -419,7 +405,7 @@ function flagBeep(t) {
     EB.Notification.vibrate(t);
 
   } catch (err) {
-    console.log('flagBeep() ' + err);
+    console.log('flagBeep() Err' + err);
   }
 }
 
@@ -452,9 +438,6 @@ function ajaxRequest(valstr, selectionstr) {
         /* window title etc. */
         $('.content').innerHTML = sections[3];
         $('nav').innerHTML = sections[4];
-        $('nav').style.display = '';
-        $('.content').style.display = '';
-
         afterPageLoaded();
 
       } else {
@@ -478,7 +461,7 @@ function ajaxRequest(valstr, selectionstr) {
   // console.log(params);
   disableNavigation();
 
-  xhttp.open("POST", ".");
+  xhttp.open("POST", ".", true);
   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded;charset=ISO-8859-1");
   xhttp.overrideMimeType("application/x-www-form-urlencoded;charset=ISO-8859-1");
   xhttp.send(params);

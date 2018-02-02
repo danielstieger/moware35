@@ -71,7 +71,7 @@
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.dataux.runtime.jar" 
          basedir="${mowareHome}/dataux/languages/org.modellwerkstatt.dataux/runtime/classes_gen" />
     
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.h2forms.jar" 
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.h2forms.runtime.jar" 
          basedir="${mowareHome}/h2forms/languages/org.modellwerkstatt.h2forms/runtime/classes_gen" />
     
     <copy todir="${mowarePluginHomeDir}/h2assembly/artefact/" overwrite="true" >
@@ -89,7 +89,7 @@
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.sandbox.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.h2forms.jar" />
+	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.h2forms.runtime.jar" />
 	  
       <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />      
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />

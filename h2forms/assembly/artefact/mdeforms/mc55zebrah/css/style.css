@@ -14,7 +14,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     outline: 0;
     font-weight: inherit;
     font-style: inherit;
-    font-size: 100%;
+    font-size: 103%;
     font-family: inherit;
     vertical-align: baseline;
 }
@@ -77,6 +77,12 @@ body {
   /* Support for IE. */
   font-feature-settings: 'liga';
 }
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
 /* ---- Material Icons Stuff ------------------------------------------------ */
 
 
