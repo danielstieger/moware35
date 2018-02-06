@@ -172,7 +172,7 @@ function capturekeyCallback(params) {
     return;
 
   } else if (key == 27) {
-    window.location = window.location;
+    reloadPageWithHttpGet();
     return;
 
   } else if (key == 9) {
@@ -383,7 +383,8 @@ function afterPageLoaded() {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 function disableNavigation() {
   $('nav').innerHTML = '';
-  $('.content').innerHTML = '<div class="contentTop" editorindex="-1"> </div> <p> <i class="material-icons md-48">&#xE88B;</i> </p>';
+  $('.content').innerHTML = '<div class="contentTop" editorindex="-1"> </div> <p> <br> <br> <br> <i class="material-icons md-48">&#xE88B;</i> </br>(was '
+   + $('form').SequenceId.value + ')</br> </p>';
 }
 
 function internVibrate(t) {
@@ -417,6 +418,9 @@ function moLog(s) {
   $('#dbgFld').innerHTML = curLog + s;
 }
 
+function reloadPageWithHttpGet(){
+  window.location = window.location;
+}
 
 function ajaxRequest(valstr, selectionstr) {
   var f = $('form');
@@ -432,19 +436,19 @@ function ajaxRequest(valstr, selectionstr) {
     if (this.readyState == 4) {
       if (this.status == 200) {
         var sections = this.responseText.split("--$$%&?e--");
-
-        $('style').innerHTML = sections[0];
-        $('h1').innerHTML = sections[1];
+        $('form').SequenceId.value = sections[0];
+        $('style').innerHTML = sections[1];
+        $('h1').innerHTML = sections[2];
         /* window title etc. */
-        $('.content').innerHTML = sections[3];
-        $('nav').innerHTML = sections[4];
+        $('.content').innerHTML = sections[4];
+        $('nav').innerHTML = sections[5];
         afterPageLoaded();
 
       } else {
-        var errorStr = $('body').getAttribute('networkproblemstring') + ' - ' + this.status;
+        var errorStr = $('body').getAttribute('networkproblemstring') + '(HttpCode ' + this.status + ')';
         alert(errorStr);
         console.log(errorStr);
-
+        reloadPageWithHttpGet();
       }
     }
   };

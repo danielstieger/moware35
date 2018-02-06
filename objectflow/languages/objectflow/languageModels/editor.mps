@@ -3731,8 +3731,9 @@
         <property role="3F0ifm" value="conclusion" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
       </node>
-      <node concept="PMmxH" id="7MWNCzXHBqi" role="3EZMnx">
-        <ref role="PMmxG" node="6ffh1MXB2lM" resolve="ISpaceNamedEditor" />
+      <node concept="3F0A7n" id="uIozejElWj" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
       </node>
       <node concept="3F0ifn" id="7MWNCzXN58J" role="3EZMnx">
         <property role="3F0ifm" value=" label:" />
@@ -7155,8 +7156,9 @@
         <property role="3F0ifm" value="conclusion" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
       </node>
-      <node concept="PMmxH" id="2znuo4bvOgz" role="3EZMnx">
-        <ref role="PMmxG" node="6ffh1MXB2lM" resolve="ISpaceNamedEditor" />
+      <node concept="3F0A7n" id="uIozejElUN" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
       </node>
       <node concept="3F0ifn" id="2znuo4bvOgP" role="3EZMnx">
         <property role="3F0ifm" value="" />

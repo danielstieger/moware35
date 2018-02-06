@@ -2218,7 +2218,7 @@
     <node concept="3aamgX" id="3IuMOEB9UzN" role="3acgRq">
       <ref role="30HIoZ" to="un0u:3PmKne7OD8L" resolve="RunCommand" />
       <node concept="j$656" id="3IuMOEBbtNC" role="1lVwrX">
-        <ref role="v9R2y" node="3IuMOEBbtNA" resolve="reduce_DEPRunCommand" />
+        <ref role="v9R2y" node="3IuMOEBbtNA" resolve="DEPRECATED_RunCommand" />
       </node>
     </node>
     <node concept="3aamgX" id="65g7rxkvOb8" role="3acgRq">
@@ -20290,7 +20290,7 @@
     </node>
   </node>
   <node concept="13MO4I" id="3IuMOEBbtNA">
-    <property role="TrG5h" value="reduce_DEPRunCommand" />
+    <property role="TrG5h" value="DEPRECATED_RunCommand" />
     <ref role="3gUMe" to="un0u:3PmKne7OD8L" resolve="RunCommand" />
     <node concept="312cEu" id="3IuMOEBbtND" role="13RCb5">
       <property role="2bfB8j" value="true" />
@@ -38008,6 +38008,11 @@
               <node concept="3clFbH" id="2q7OPuPWOos" role="3cqZAp" />
               <node concept="2GUZhq" id="2q7OPuPWUey" role="3cqZAp">
                 <node concept="3clFbS" id="65g7rxkv7tV" role="2GV8ay">
+                  <node concept="3SKdUt" id="1CRSlngnA$9" role="3cqZAp">
+                    <node concept="3SKdUq" id="1CRSlngnA$a" role="3SKWNk">
+                      <property role="3SKdUp" value="done in command init is allowed, OFXCmdDoneEx is not propagated." />
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="65g7rxkv7tW" role="3cqZAp">
                     <node concept="2OqwBi" id="65g7rxkv7tX" role="3clFbG">
                       <node concept="37vLTw" id="65g7rxkv7tY" role="2Oq$k0">
@@ -38018,6 +38023,12 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3SKdUt" id="1CRSlngnIhQ" role="3cqZAp">
+                    <node concept="3SKdUq" id="1CRSlngnIhS" role="3SKWNk">
+                      <property role="3SKdUp" value="TODO: but then we are stumpling into the next page ... " />
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="1CRSlngnJGj" role="3cqZAp" />
                   <node concept="3clFbF" id="65g7rxk_onT" role="3cqZAp">
                     <node concept="2OqwBi" id="65g7rxk_qqf" role="3clFbG">
                       <node concept="2ShNRf" id="65g7rxk_onP" role="2Oq$k0">
@@ -38221,6 +38232,11 @@
                       <node concept="3clFbH" id="2q7OPuPX_tq" role="3cqZAp" />
                       <node concept="2GUZhq" id="2q7OPuPYk9D" role="3cqZAp">
                         <node concept="3clFbS" id="2q7OPuPXBie" role="2GV8ay">
+                          <node concept="3SKdUt" id="1CRSlngncYZ" role="3cqZAp">
+                            <node concept="3SKdUq" id="1CRSlngncZ1" role="3SKWNk">
+                              <property role="3SKdUp" value="done in command init is allowed, OFXCmdDoneEx is not propagated." />
+                            </node>
+                          </node>
                           <node concept="3clFbF" id="4jlzLDkAvlZ" role="3cqZAp">
                             <node concept="2OqwBi" id="4jlzLDkAxdZ" role="3clFbG">
                               <node concept="37vLTw" id="4jlzLDkAvlX" role="2Oq$k0">
@@ -38232,6 +38248,7 @@
                             </node>
                           </node>
                           <node concept="3clFbH" id="4jlzLDkAxF7" role="3cqZAp" />
+                          <node concept="3clFbH" id="1CRSlngnfFl" role="3cqZAp" />
                           <node concept="3cpWs8" id="4jlzLDkANZ9" role="3cqZAp">
                             <node concept="3cpWsn" id="4jlzLDkANZc" role="3cpWs9">
                               <property role="TrG5h" value="successorHandled" />
