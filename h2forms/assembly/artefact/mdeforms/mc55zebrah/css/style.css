@@ -180,7 +180,7 @@ html, body {
 .rightFCButton {
 	float: right;
 	text-align: center;
-	padding: 5px 5px 5px 5px !important;
+	/* padding: 5px 5px 5px 5px !important ; */
 	margin: 2px 4px 2px 4px !important;
 
 	background: lightgray;
@@ -190,7 +190,7 @@ html, body {
 
 .rightFCButton:focus {
     border: 3px solid #F69384 !important;
-    padding: 2px 2px 2px 2px !important;
+    /* padding: 2px 2px 2px 2px !important; */
 
 }
 
