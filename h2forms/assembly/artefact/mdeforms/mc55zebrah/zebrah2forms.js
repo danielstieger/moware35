@@ -368,6 +368,9 @@ function afterPageLoaded() {
     flagBeep(1000);
   }
 
+  // if there is a keyboard, enabled it.
+  mykeyboardEnabled(true);
+
   setTimeout(function() {
     var inp = $('*[focusme="true"]');
     if (inp) {
@@ -383,8 +386,8 @@ function afterPageLoaded() {
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 function disableNavigation() {
   $('nav').innerHTML = '';
-  $('.content').innerHTML = '<div class="contentTop" editorindex="-1"> </div> <p> <br> <br> <br> <i class="material-icons md-48">&#xE88B;</i> </br>(was '
-   + $('form').SequenceId.value + ')</br> </p>';
+  $('.content').innerHTML = '<div class="contentTop" editorindex="-1"> </div> <p> <br> <br> <br> <i class="material-icons md-48">&#xE88B;</i> </br>(was ' +
+    $('form').SequenceId.value + ')</br> </p>';
 }
 
 function internVibrate(t) {
@@ -418,7 +421,42 @@ function moLog(s) {
   $('#dbgFld').innerHTML = curLog + s;
 }
 
-function reloadPageWithHttpGet(){
+function mykeyboardKeypress(key) {
+  internVibrate(100);
+
+  var inp = $('input[focusme="true"]');
+  if (inp) {
+    var text = inp.value.toString();
+
+    if (key == '<<' && text.length > 0) {
+      inp.value = text.substring(0, text.length - 1);
+    } else if (key == '<<') {
+      inp.value = '';
+    } else if (key == '+') {
+      inp.value = (parseFloat(text) + 1).toFixed().toString();
+    } else if (key == '-') {
+      inp.value = (parseFloat(text) - 1).toFixed().toString();
+    } else {
+      if (mykeyboardFirstKeyAfterFocus) {
+        text = '';
+      }
+      inp.value = text + key;
+    }
+  }
+
+  mykeyboardFirstKeyAfterFocus = false;
+}
+
+function mykeyboardEnabled(enbld) {
+  mykeyboardFirstKeyAfterFocus = false;
+
+  var myKeys = $$('button[mykeyboardKey]');
+  for (i = 0; i < myKeys.length; ++i) {
+    myKeys[i].disabled = !enbld;
+  }
+}
+
+function reloadPageWithHttpGet() {
   window.location = window.location;
 }
 
@@ -453,7 +491,7 @@ function ajaxRequest(valstr, selectionstr) {
     }
   };
 
-  var params = '&Ajax=true';
+  var params = '&PostedWithAjax=true';
   var serializedForm = serialize(f);
 
   for (var key in serializedForm) {

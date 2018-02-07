@@ -2244,6 +2244,24 @@
       <node concept="3Tm1VV" id="4cdUWYrPstm" role="1B3o_S" />
       <node concept="3clFbS" id="4cdUWYrPstp" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="7uJlwJwGoaB" role="jymVt" />
+    <node concept="3clFb_" id="7uJlwJwGoyW" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isAndroZebraAjax" />
+      <node concept="37vLTG" id="7uJlwJwGoyX" role="3clF46">
+        <property role="TrG5h" value="user" />
+        <node concept="17QB3L" id="7uJlwJwGoyY" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="7uJlwJwGoyZ" role="3clF45" />
+      <node concept="3Tm1VV" id="7uJlwJwGoz0" role="1B3o_S" />
+      <node concept="3clFbS" id="7uJlwJwGoz3" role="3clF47">
+        <node concept="3clFbF" id="7uJlwJwGoKn" role="3cqZAp">
+          <node concept="3clFbT" id="7uJlwJwGoKm" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="2RoKLt0oRiM" role="1B3o_S" />
     <node concept="3uibUv" id="2RoKLt0oTk7" role="1zkMxy">
       <ref role="3uigEE" to="1e0c:69JiVbyVOt3" resolve="BaseUiFactory" />

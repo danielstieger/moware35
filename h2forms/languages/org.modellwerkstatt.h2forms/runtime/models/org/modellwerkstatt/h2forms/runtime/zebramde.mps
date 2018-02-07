@@ -1207,6 +1207,23 @@
     </node>
     <node concept="2tJIrI" id="3pVc9XTQAco" role="jymVt" />
     <node concept="2tJIrI" id="3pVc9XTQAih" role="jymVt" />
+    <node concept="3clFb_" id="7uJlwJwGpHp" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isAndroZebraAjax" />
+      <node concept="37vLTG" id="7uJlwJwGpHq" role="3clF46">
+        <property role="TrG5h" value="user" />
+        <node concept="17QB3L" id="7uJlwJwGpHr" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="7uJlwJwGpHs" role="3clF45" />
+      <node concept="3Tm1VV" id="7uJlwJwGpHt" role="1B3o_S" />
+      <node concept="3clFbS" id="7uJlwJwGpHw" role="3clF47">
+        <node concept="3clFbF" id="7uJlwJwGqkH" role="3cqZAp">
+          <node concept="3clFbT" id="7uJlwJwGqkG" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="3pVc9XTQAob" role="jymVt" />
     <node concept="2tJIrI" id="3pVc9XTQAu6" role="jymVt" />
     <node concept="3clFb_" id="3pVc9XTQB4g" role="jymVt">
@@ -2002,7 +2019,7 @@
             <node concept="3clFbC" id="t3qoNA8pn4" role="3eO9$A">
               <node concept="Rm8GO" id="t3qoNA8pn5" role="3uHU7w">
                 <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                <ref role="Rm8GQ" to="tea8:4Rlyz3E5tAm" resolve="ANDRO_ZEBRA_EB" />
+                <ref role="Rm8GQ" to="tea8:4Rlyz3E5tAm" resolve="ANDRO_ZEBRAEB_TRADITIONAL" />
               </node>
               <node concept="37vLTw" id="t3qoNA8pn6" role="3uHU7B">
                 <ref role="3cqZAo" node="4Rlyz3E7SBw" resolve="client" />
@@ -2024,7 +2041,7 @@
           <node concept="3eNFk2" id="t3qoNA8gwa" role="3eNLev">
             <node concept="3clFbC" id="t3qoNA8hfZ" role="3eO9$A">
               <node concept="Rm8GO" id="t3qoNA8i29" role="3uHU7w">
-                <ref role="Rm8GQ" to="tea8:4Rlyz3E5v_q" resolve="HONEYWELL_EB" />
+                <ref role="Rm8GQ" to="tea8:4Rlyz3E5v_q" resolve="HONEYWELL_BROWSER" />
                 <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
               </node>
               <node concept="37vLTw" id="t3qoNA8h4M" role="3uHU7B">
@@ -2047,7 +2064,7 @@
           <node concept="3eNFk2" id="t3qoNA8jrX" role="3eNLev">
             <node concept="3clFbC" id="t3qoNA8k8d" role="3eO9$A">
               <node concept="Rm8GO" id="t3qoNA8kTO" role="3uHU7w">
-                <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_EB" />
+                <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_AJAX" />
                 <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
               </node>
               <node concept="37vLTw" id="t3qoNA8jX0" role="3uHU7B">
@@ -2362,7 +2379,7 @@
                   <ref role="3cqZAo" node="4Rlyz3E7SBw" resolve="client" />
                 </node>
                 <node concept="Rm8GO" id="t3qoNA8KdD" role="3uHU7w">
-                  <ref role="Rm8GQ" to="tea8:4Rlyz3E5tAm" resolve="ANDRO_ZEBRA_EB" />
+                  <ref role="Rm8GQ" to="tea8:4Rlyz3E5tAm" resolve="ANDRO_ZEBRAEB_TRADITIONAL" />
                   <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
                 </node>
               </node>
@@ -2372,7 +2389,7 @@
                 <ref role="3cqZAo" node="4Rlyz3E7SBw" resolve="client" />
               </node>
               <node concept="Rm8GO" id="t3qoNA8NgL" role="3uHU7w">
-                <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_EB" />
+                <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_AJAX" />
                 <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
               </node>
             </node>
@@ -2380,7 +2397,7 @@
           <node concept="3eNFk2" id="t3qoNA8Wn1" role="3eNLev">
             <node concept="3clFbC" id="t3qoNA8Xj4" role="3eO9$A">
               <node concept="Rm8GO" id="t3qoNA8Yei" role="3uHU7w">
-                <ref role="Rm8GQ" to="tea8:4Rlyz3E5v_q" resolve="HONEYWELL_EB" />
+                <ref role="Rm8GQ" to="tea8:4Rlyz3E5v_q" resolve="HONEYWELL_BROWSER" />
                 <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
               </node>
               <node concept="37vLTw" id="t3qoNA8X7R" role="3uHU7B">
@@ -12581,7 +12598,7 @@
           <node concept="1Wc70l" id="t3qoNAcu26" role="3clFbw">
             <node concept="3y3z36" id="t3qoNAcuxv" role="3uHU7w">
               <node concept="Rm8GO" id="t3qoNAcuGS" role="3uHU7w">
-                <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_EB" />
+                <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_AJAX" />
                 <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
               </node>
               <node concept="37vLTw" id="t3qoNAcumH" role="3uHU7B">
@@ -12619,7 +12636,7 @@
                     </node>
                     <node concept="3clFbC" id="t3qoNAcO0J" role="3clFbw">
                       <node concept="Rm8GO" id="t3qoNAcObe" role="3uHU7w">
-                        <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_EB" />
+                        <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_AJAX" />
                         <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
                       </node>
                       <node concept="37vLTw" id="t3qoNAcNQq" role="3uHU7B">
@@ -13808,7 +13825,7 @@
               </node>
               <node concept="3clFbC" id="t3qoNAdod_" role="3clFbw">
                 <node concept="Rm8GO" id="t3qoNAdoN1" role="3uHU7w">
-                  <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_EB" />
+                  <ref role="Rm8GQ" to="tea8:186V0VF2pk4" resolve="WIN_ZEBRA_AJAX" />
                   <ref role="1Px2BO" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
                 </node>
                 <node concept="37vLTw" id="t3qoNAdnQl" role="3uHU7B">

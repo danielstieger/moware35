@@ -3765,6 +3765,39 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7uJlwJwMKjG" role="3cqZAp">
+          <node concept="2OqwBi" id="7uJlwJwMKEA" role="3clFbG">
+            <node concept="2YIFZM" id="7uJlwJwMKmh" role="2Oq$k0">
+              <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+              <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+              <node concept="3VsKOn" id="7uJlwJwMKCy" role="37wK5m">
+                <ref role="3VsUkX" node="4x14MABr2ep" resolve="ApplicationTelemetrics" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7uJlwJwML1l" role="2OqNvi">
+              <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+              <node concept="3cpWs3" id="7uJlwJwMLXy" role="37wK5m">
+                <node concept="2YIFZM" id="7uJlwJwMM4I" role="3uHU7w">
+                  <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
+                  <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                </node>
+                <node concept="3cpWs3" id="7uJlwJwML6e" role="3uHU7B">
+                  <node concept="3cpWs3" id="7uJlwJwML$3" role="3uHU7B">
+                    <node concept="Xl_RD" id="7uJlwJwML_Z" role="3uHU7B">
+                      <property role="Xl_RC" value="JMX related problem: " />
+                    </node>
+                    <node concept="37vLTw" id="7uJlwJwML3e" role="3uHU7w">
+                      <ref role="3cqZAo" node="64d_SurDGJ$" resolve="prblm" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="7uJlwJwMLa8" role="3uHU7w">
+                    <property role="Xl_RC" value="\n\n while .... \n" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3clFb_" id="6rMtHgbDDVu" role="jymVt">
