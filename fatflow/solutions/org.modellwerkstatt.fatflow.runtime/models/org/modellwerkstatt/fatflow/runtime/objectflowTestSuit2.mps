@@ -423,9 +423,6 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -12973,87 +12970,6 @@
     </node>
     <node concept="1DZZI9" id="3U0QWztNAxZ" role="38MLOi">
       <ref role="1DZZIc" to="goi:2i3o0hdVwMp" resolve="Creators" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_y" role="38MLOi">
-      <ref role="1Cak38" node="61AGu4Q4VvD" resolve="New selection controller feature in tests, getSelection without push results in illegalStateEx" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_z" role="38MLOi">
-      <ref role="1Cak38" node="3owBZfUqaEr" resolve="New selection controller feature in tests, pushselection, getselection in fakepage." />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_$" role="38MLOi">
-      <ref role="1Cak38" node="3owBZfUqdp3" resolve="New selection controller feature in tests, pushselection for evaluation in command. single" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m__" role="38MLOi">
-      <ref role="1Cak38" node="3owBZfUqUVG" resolve="New selection controller feature in tests, pushselection for evaluation in command. list" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_A" role="38MLOi">
-      <ref role="1Cak38" node="3owBZfUOO_F" resolve="New selection controller feature in tests, pushselection for evaluation in command. remove selection!" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_B" role="38MLOi">
-      <ref role="1Cak38" node="61AGu4PUHp8" resolve="Start GO and conclude OK, trans, final_ok" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_C" role="38MLOi">
-      <ref role="1Cak38" node="61AGu4PUDuh" resolve="Start GO and user cancel it, no trans, no final_ok, no final_cancel" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_D" role="38MLOi">
-      <ref role="1Cak38" node="61AGu4PUHpZ" resolve="Start GO and cancel cmd, no trans, no final_ok, final_cancel" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_E" role="38MLOi">
-      <ref role="1Cak38" node="61AGu4PUHqN" resolve="Start GO and flag cmd, no trans, no final_ok, final_cancel" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_F" role="38MLOi">
-      <ref role="1Cak38" node="61AGu4PUHrE" resolve="Start GO and exception in cmd_init, no trans, no final_ok, final_cancel (ex received)" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_G" role="38MLOi">
-      <ref role="1Cak38" node="61AGu4PV4WY" resolve="Start GO and exception in final_ok, no trans, no final_ok, final_cancel (ex received)" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_H" role="38MLOi">
-      <ref role="1Cak38" node="61AGu4PV5AM" resolve="Start GO and exception in final_cancel, no trans, no final_ok, final_cancel (ex received)" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_I" role="38MLOi">
-      <ref role="1Cak38" node="2wQSPIfGTDX" resolve="Start GE and execute successfully." />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_J" role="38MLOi">
-      <ref role="1Cak38" node="2wQSPIfL2ig" resolve="Start GE and cancel it on purpose (user cancel - fail in + exec GO)." />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_K" role="38MLOi">
-      <ref role="1Cak38" node="2wQSPIfSu10" resolve="Start GE and cancel it on purpose (cancel command)." />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_L" role="38MLOi">
-      <ref role="1Cak38" node="2wQSPIg3z9v" resolve="Start GE and use error to terminate commands (ex conclusion in GE)" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_M" role="38MLOi">
-      <ref role="1Cak38" node="2wQSPIg8Cr8" resolve="Uses create-pattern with GO as successor." />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_N" role="38MLOi">
-      <ref role="1Cak38" node="3jf78TZS36T" resolve="Uses create-pattern with GO + GE as successor." />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_O" role="38MLOi">
-      <ref role="1Cak38" node="3jf78TZouQ8" resolve="Uses create-pattern with GO as successor. cancel in GO with msg" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_P" role="38MLOi">
-      <ref role="1Cak38" node="3jf78TZSbZu" resolve="Uses create-pattern with GO + GE as successor. cancel in GE with msg" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_Q" role="38MLOi">
-      <ref role="1Cak38" node="3jf78TZsjA5" resolve="Uses create-pattern with GO as successor. exception in GO with msg" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_R" role="38MLOi">
-      <ref role="1Cak38" node="3jf78TZShx6" resolve="Uses create-pattern with GO + GE as successor. exception in GE with msg" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_S" role="38MLOi">
-      <ref role="1Cak38" node="3jf78TZUsla" resolve="Uses create-pattern with GO as successor. GO not concluded at all" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_T" role="38MLOi">
-      <ref role="1Cak38" node="3jf78TZVEki" resolve="Uses create-pattern with GO + GE as successor. GE not concluded at all" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_U" role="38MLOi">
-      <ref role="1Cak38" node="3jf78TZsnei" resolve="Uses create-pattern with GO as successor. Ex in creator final_ok, GO in ok !" />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_V" role="38MLOi">
-      <ref role="1Cak38" node="wd17k5yaXz" resolve="Use command creation info to check for an id." />
-    </node>
-    <node concept="1Cak35" id="3jsv6917m_W" role="38MLOi">
-      <ref role="1Cak38" node="wd17k5QK5J" resolve="Use command creation info in a sucessor environment." />
     </node>
   </node>
   <node concept="3ugp7m" id="2wQSPIg8w5K">
