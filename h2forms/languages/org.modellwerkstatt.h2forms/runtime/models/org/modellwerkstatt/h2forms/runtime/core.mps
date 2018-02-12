@@ -6610,6 +6610,7 @@
                       <node concept="10Nm6u" id="7r26jiO1hqq" role="3uHU7w" />
                     </node>
                   </node>
+                  <node concept="3clFbH" id="HwuXnDMCdS" role="3cqZAp" />
                 </node>
                 <node concept="1Wc70l" id="7r26jiO15uB" role="3clFbw">
                   <node concept="1eOMI4" id="7r26jiO15Ez" role="3uHU7w">
@@ -6629,8 +6630,102 @@
                     <node concept="10Nm6u" id="7r26jiO15mq" role="3uHU7w" />
                   </node>
                 </node>
+                <node concept="9aQIb" id="HwuXnDN_Qa" role="9aQIa">
+                  <node concept="3clFbS" id="HwuXnDN_Qb" role="9aQI4">
+                    <node concept="3SKdUt" id="HwuXnDN_UM" role="3cqZAp">
+                      <node concept="3SKdUq" id="HwuXnDN_UN" role="3SKWNk">
+                        <property role="3SKdUp" value="REDIRECT BY Application ?? But only if there are no messages shown? " />
+                      </node>
+                    </node>
+                    <node concept="3SKdUt" id="HwuXnDNBmF" role="3cqZAp">
+                      <node concept="3SKdUq" id="HwuXnDNBmH" role="3SKWNk">
+                        <property role="3SKdUp" value="Then reset .. " />
+                      </node>
+                    </node>
+                    <node concept="3cpWs8" id="HwuXnDNA3Q" role="3cqZAp">
+                      <node concept="3cpWsn" id="HwuXnDNA3R" role="3cpWs9">
+                        <property role="TrG5h" value="pr" />
+                        <node concept="3uibUv" id="HwuXnDNA3S" role="1tU5fm">
+                          <ref role="3uigEE" to="28jr:2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+                        </node>
+                        <node concept="2OqwBi" id="HwuXnDMCBX" role="33vP2m">
+                          <node concept="37vLTw" id="HwuXnDMCl1" role="2Oq$k0">
+                            <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                          </node>
+                          <node concept="liA8E" id="HwuXnDMG1n" role="2OqNvi">
+                            <ref role="37wK5l" to="1e0c:HwuXnDML$y" resolve="getUserPrintService" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbJ" id="HwuXnDNBa0" role="3cqZAp">
+                      <node concept="3clFbS" id="HwuXnDNBa2" role="3clFbx">
+                        <node concept="3cpWs8" id="HwuXnDNBxn" role="3cqZAp">
+                          <node concept="3cpWsn" id="HwuXnDNBxq" role="3cpWs9">
+                            <property role="TrG5h" value="redirectTo" />
+                            <node concept="17QB3L" id="HwuXnDNBxl" role="1tU5fm" />
+                            <node concept="2OqwBi" id="HwuXnDND$u" role="33vP2m">
+                              <node concept="1eOMI4" id="HwuXnDNDu6" role="2Oq$k0">
+                                <node concept="10QFUN" id="HwuXnDNDu3" role="1eOMHV">
+                                  <node concept="3uibUv" id="HwuXnDNDvT" role="10QFUM">
+                                    <ref role="3uigEE" node="HwuXnDNBRX" resolve="IH2UserPrintService" />
+                                  </node>
+                                  <node concept="37vLTw" id="HwuXnDNDzz" role="10QFUP">
+                                    <ref role="3cqZAo" node="HwuXnDNA3R" resolve="pr" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="HwuXnDNDBm" role="2OqNvi">
+                                <ref role="37wK5l" node="HwuXnDNBWs" resolve="getUrlToOpenWhileProcessingThisRequest" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbJ" id="HwuXnDNDGr" role="3cqZAp">
+                          <node concept="3clFbS" id="HwuXnDNDGt" role="3clFbx">
+                            <node concept="3clFbF" id="HwuXnDNDYY" role="3cqZAp">
+                              <node concept="2OqwBi" id="HwuXnDNE1H" role="3clFbG">
+                                <node concept="37vLTw" id="HwuXnDNDYW" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="64PSf$EHfho" resolve="response" />
+                                </node>
+                                <node concept="liA8E" id="HwuXnDNEhv" role="2OqNvi">
+                                  <ref role="37wK5l" to="nwfd:~HttpServletResponse.sendRedirect(java.lang.String):void" resolve="sendRedirect" />
+                                  <node concept="37vLTw" id="HwuXnDNEmD" role="37wK5m">
+                                    <ref role="3cqZAo" node="HwuXnDNBxq" resolve="redirectTo" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3SKdUt" id="HwuXnDNEz1" role="3cqZAp">
+                              <node concept="3SKdUq" id="HwuXnDNEz3" role="3SKWNk">
+                                <property role="3SKdUp" value="render response also to see, if there is an ex or something similar? " />
+                              </node>
+                            </node>
+                            <node concept="3SKdUt" id="HwuXnDNEBz" role="3cqZAp">
+                              <node concept="3SKdUq" id="HwuXnDNEB_" role="3SKWNk">
+                                <property role="3SKdUp" value="going back, we will have simply a reload... " />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3y3z36" id="HwuXnDNDQk" role="3clFbw">
+                            <node concept="10Nm6u" id="HwuXnDNDTO" role="3uHU7w" />
+                            <node concept="37vLTw" id="HwuXnDNDMq" role="3uHU7B">
+                              <ref role="3cqZAo" node="HwuXnDNBxq" resolve="redirectTo" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3y3z36" id="HwuXnDNBr9" role="3clFbw">
+                        <node concept="10Nm6u" id="HwuXnDNBtR" role="3uHU7w" />
+                        <node concept="37vLTw" id="HwuXnDNBe8" role="3uHU7B">
+                          <ref role="3cqZAo" node="HwuXnDNA3R" resolve="pr" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
-              <node concept="3clFbH" id="64PSf$EHcMp" role="3cqZAp" />
+              <node concept="3clFbH" id="HwuXnDMBgE" role="3cqZAp" />
               <node concept="3clFbJ" id="64PSf$EHd9z" role="3cqZAp">
                 <node concept="3clFbS" id="64PSf$EHd9_" role="3clFbx">
                   <node concept="3clFbF" id="64PSf$EHe0K" role="3cqZAp">
@@ -10760,6 +10855,20 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="3HP615" id="HwuXnDNBRX">
+    <property role="TrG5h" value="IH2UserPrintService" />
+    <node concept="3Tm1VV" id="HwuXnDNBRY" role="1B3o_S" />
+    <node concept="3uibUv" id="HwuXnDNBUe" role="3HQHJm">
+      <ref role="3uigEE" to="28jr:2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+    </node>
+    <node concept="3clFb_" id="HwuXnDNBWs" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getUrlToOpenWhileProcessingThisRequest" />
+      <node concept="17QB3L" id="HwuXnDNBXP" role="3clF45" />
+      <node concept="3Tm1VV" id="HwuXnDNBWv" role="1B3o_S" />
+      <node concept="3clFbS" id="HwuXnDNBWw" role="3clF47" />
     </node>
   </node>
 </model>
