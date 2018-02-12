@@ -419,6 +419,10 @@
         <property role="TrG5h" value="ajax" />
         <node concept="10P_77" id="6m1l6tXogrQ" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="HwuXnDHsaT" role="3clF46">
+        <property role="TrG5h" value="initialGetWithoutCmd" />
+        <node concept="10P_77" id="HwuXnDHsnj" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="1PXbBqn_BUQ" role="3clF46">
         <property role="TrG5h" value="seq" />
         <node concept="3cpWsb" id="1PXbBqn_Cd5" role="1tU5fm" />
@@ -440,6 +444,10 @@
         <node concept="3uibUv" id="2RoKLt0oPHf" role="1tU5fm">
           <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="Message" />
         </node>
+      </node>
+      <node concept="37vLTG" id="HwuXnDHx29" role="3clF46">
+        <property role="TrG5h" value="okButText" />
+        <node concept="17QB3L" id="HwuXnDHxia" role="1tU5fm" />
       </node>
       <node concept="17QB3L" id="2RoKLt0oPHg" role="3clF45" />
       <node concept="3Tm1VV" id="2RoKLt0oPHh" role="1B3o_S" />
