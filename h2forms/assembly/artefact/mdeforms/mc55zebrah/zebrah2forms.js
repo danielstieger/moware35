@@ -16,8 +16,11 @@
  */
 
 
-var zVersion = '3';
+var zVersion = 'R28';
 var useAjax = false;
+var AJAX_HEADER = '--$$%&?e--';
+var AJAX_HEADER_REDIRECTION = '--$$%&?e--REDIRECT--$$%&?e--';
+
 var $ = function(query) {
   return document.querySelector(query);
 };
@@ -96,8 +99,7 @@ function SelectAndExec(selectionstr, valstr) {
     var f = $('form');
     f.NaviCrtl.value = valstr;
     f.SelectionId.value = selectionstr;
-
-    disableNavigation();
+    disableNavigation(false);
     f.submit();
   }
 }
@@ -116,7 +118,7 @@ function SaveSubmit(valstr) {
   } else {
     var f = $('form');
     f.NaviCrtl.value = valstr;
-    disableNavigation();
+    disableNavigation(false);
     f.submit();
 
   }
@@ -251,27 +253,28 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   try {
+    if ($('form').H1HttpClient.value == 'WIN_ZEBRA_AJAX') {
+      /* 1 to 9 keys and . */
+      EB.KeyCapture.captureKey(false, '48', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '49', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '50', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '51', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '52', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '53', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '54', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '55', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '56', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '57', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '106', capturekeyCallback);
 
-    /* 1 to 9 keys and . */
-    EB.KeyCapture.captureKey(false, '48', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '49', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '50', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '51', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '52', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '53', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '54', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '55', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '56', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '57', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '106', capturekeyCallback);
+      /* other keys */
+      EB.KeyCapture.captureKey(false, '8', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '9', capturekeyCallback);
 
-    /* other keys */
-    EB.KeyCapture.captureKey(false, '8', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '9', capturekeyCallback);
-
-    EB.KeyCapture.captureKey(false, '27', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '38', capturekeyCallback);
-    EB.KeyCapture.captureKey(false, '40', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '27', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '38', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '40', capturekeyCallback);
+    }
 
 
     /* powerOn.powerOnEvent = "url('JavaScript:enableScan();')";
@@ -379,15 +382,21 @@ function afterPageLoaded() {
       myfocusOnElement(inp);
     }
   }, 400);
+
 }
 
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-function disableNavigation() {
+function disableNavigation(ajaxHideContent) {
   $('nav').innerHTML = '';
-  $('.content').innerHTML = '<div class="contentTop" editorindex="-1"> </div> <p> <br> <br> <br> <i class="material-icons md-48">&#xE88B;</i> </br>(was ' +
-    $('form').SequenceId.value + ')</br> </p>';
+  if (ajaxHideContent) {
+    $('.content').innerHTML = '<div class="contentTop" editorindex="-1"> </div> <p> <br> <br> <br> <i class="material-icons md-48">&#xE88B;</i> </br>(was ' +
+      $('form').SequenceId.value + ')</br> </p>';
+  } else {
+    $$('button').disabled = true;
+  }
+
 }
 
 function internVibrate(t) {
@@ -473,17 +482,24 @@ function ajaxRequest(valstr, selectionstr) {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4) {
       if (this.status == 200) {
-        var sections = this.responseText.split("--$$%&?e--");
-        $('form').SequenceId.value = sections[0];
-        $('style').innerHTML = sections[1];
-        $('h1').innerHTML = sections[2];
-        /* window title etc. */
-        $('.content').innerHTML = sections[4];
-        $('nav').innerHTML = sections[5];
-        afterPageLoaded();
+        if (this.responseText.indexOf(AJAX_HEADER_REDIRECTION) != -1) {
+          var sections = this.responseText.split(AJAX_HEADER_REDIRECTION);
+          window.location = sections[1];
+
+        } else {
+          var sections = this.responseText.split(AJAX_HEADER);
+          $('form').SequenceId.value = sections[0];
+          $('style').innerHTML = sections[1];
+          $('h1').innerHTML = sections[2];
+          /* window title etc. */
+          $('.content').innerHTML = sections[4];
+          $('nav').innerHTML = sections[5];
+          afterPageLoaded();
+
+        }
 
       } else {
-        var errorStr = $('body').getAttribute('networkproblemstring') + '(HttpCode ' + this.status + ')';
+        var errorStr = $('body').getAttribute('networkproblemstring') + ' - HttpCode ' + this.status;
         alert(errorStr);
         console.log(errorStr);
         reloadPageWithHttpGet();
@@ -501,7 +517,7 @@ function ajaxRequest(valstr, selectionstr) {
   }
 
   // console.log(params);
-  disableNavigation();
+  disableNavigation(true);
 
   xhttp.open("POST", ".", true);
   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded;charset=ISO-8859-1");

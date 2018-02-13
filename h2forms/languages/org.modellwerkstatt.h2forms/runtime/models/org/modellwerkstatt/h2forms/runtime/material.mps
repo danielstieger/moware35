@@ -18,9 +18,9 @@
     <import index="nwfd" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.http(org.modellwerkstatt.sandbox/)" />
     <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.sandbox/)" implicit="true" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -127,6 +127,7 @@
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="4276006055363816570" name="isSynchronized" index="od$2w" />
         <property id="1181808852946" name="isFinal" index="DiZV1" />
+        <child id="1164879685961" name="throwsItem" index="Sfmx6" />
         <child id="1068580123133" name="returnType" index="3clF45" />
         <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
@@ -419,10 +420,6 @@
         <property role="TrG5h" value="ajax" />
         <node concept="10P_77" id="6m1l6tXogrQ" role="1tU5fm" />
       </node>
-      <node concept="37vLTG" id="HwuXnDHsaT" role="3clF46">
-        <property role="TrG5h" value="initialGetWithoutCmd" />
-        <node concept="10P_77" id="HwuXnDHsnj" role="1tU5fm" />
-      </node>
       <node concept="37vLTG" id="1PXbBqn_BUQ" role="3clF46">
         <property role="TrG5h" value="seq" />
         <node concept="3cpWsb" id="1PXbBqn_Cd5" role="1tU5fm" />
@@ -444,10 +441,6 @@
         <node concept="3uibUv" id="2RoKLt0oPHf" role="1tU5fm">
           <ref role="3uigEE" to="tea8:5hYsHqQzcYi" resolve="Message" />
         </node>
-      </node>
-      <node concept="37vLTG" id="HwuXnDHx29" role="3clF46">
-        <property role="TrG5h" value="okButText" />
-        <node concept="17QB3L" id="HwuXnDHxia" role="1tU5fm" />
       </node>
       <node concept="17QB3L" id="2RoKLt0oPHg" role="3clF45" />
       <node concept="3Tm1VV" id="2RoKLt0oPHh" role="1B3o_S" />
@@ -2266,6 +2259,45 @@
         <node concept="3clFbF" id="7uJlwJwGoKn" role="3cqZAp">
           <node concept="3clFbT" id="7uJlwJwGoKm" role="3clFbG">
             <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7CJFVfzS2ug" role="jymVt" />
+    <node concept="3clFb_" id="7CJFVfzS7as" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="execLocationRedirect" />
+      <node concept="37vLTG" id="7CJFVfzS7at" role="3clF46">
+        <property role="TrG5h" value="response" />
+        <node concept="3uibUv" id="7CJFVfzS7au" role="1tU5fm">
+          <ref role="3uigEE" to="nwfd:~HttpServletResponse" resolve="HttpServletResponse" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7CJFVfzS7av" role="3clF46">
+        <property role="TrG5h" value="url" />
+        <node concept="17QB3L" id="7CJFVfzS7aw" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7CJFVfzS7ax" role="3clF46">
+        <property role="TrG5h" value="ajaxRequest" />
+        <node concept="10P_77" id="7CJFVfzS7ay" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="7CJFVfzS7az" role="3clF45" />
+      <node concept="3Tm1VV" id="7CJFVfzS7a$" role="1B3o_S" />
+      <node concept="3uibUv" id="7CJFVfzS7aA" role="Sfmx6">
+        <ref role="3uigEE" to="guwi:~IOException" resolve="IOException" />
+      </node>
+      <node concept="3clFbS" id="7CJFVfzS7aC" role="3clF47">
+        <node concept="3clFbF" id="7CJFVfzS7Gx" role="3cqZAp">
+          <node concept="2OqwBi" id="7CJFVfzS7Ja" role="3clFbG">
+            <node concept="37vLTw" id="7CJFVfzS7Gw" role="2Oq$k0">
+              <ref role="3cqZAo" node="7CJFVfzS7at" resolve="response" />
+            </node>
+            <node concept="liA8E" id="7CJFVfzS7Li" role="2OqNvi">
+              <ref role="37wK5l" to="nwfd:~HttpServletResponse.sendRedirect(java.lang.String):void" resolve="sendRedirect" />
+              <node concept="37vLTw" id="7CJFVfzS815" role="37wK5m">
+                <ref role="3cqZAo" node="7CJFVfzS7av" resolve="url" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
