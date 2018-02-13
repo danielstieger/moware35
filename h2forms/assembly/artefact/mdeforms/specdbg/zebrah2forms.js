@@ -15,7 +15,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'h2 MS_1';
+var zVersion = 'SDBG 28';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -70,6 +70,7 @@ function scanReceived(params){
 	var f = $('form');
 	f.NaviCrtl.value = conclusion;
 	//alert('SCAN CONCLUSION SUBMIT.');
+	console.log('scanReceived() sequencId: ' + $('form').SequenceId.value); 
 	f.submit();
 }  
 
@@ -115,6 +116,7 @@ function SelectAndExec(selectionstr, valstr){
 	f.NaviCrtl.value=valstr;
 	f.SelectionId.value=selectionstr;
 	// console.log('SUBMIT SelectAndExec()'); 
+	console.log('SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
 	f.submit();
 }
 
@@ -126,12 +128,15 @@ function SaveSubmit(valstr){
  	incProgress();
 	myfocusOnElement(null);
 	if (valstr.indexOf('/') >= 0) {
+		console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr); 
 		window.location = valstr;
 		
 	} else {
 		var f = $('form');
 		f.NaviCrtl.value=valstr;
 		// alert('SUBMIT SaveSubmit()'); 
+		
+		console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
 		f.submit();
 	}
 }
@@ -203,6 +208,7 @@ function capturekeyCallback(params){
   
   // back keys
   if (key == '4' || key == '38') {
+    alert('BACK with key capture() key is ' + key);
     SaveSubmit($('#cancelbutton').getAttribute('navicrtl'));
   }  
 }
@@ -278,18 +284,19 @@ document.addEventListener('DOMContentLoaded', function() {
 	 * per default, backbutton should be handled by key capture
 	 */
 	var tmpVal = $('form').PageTmpValue.value;
+	
 	if (tmpVal == '0') {
 	   $('form').PageTmpValue.value = '1';
+	   
 	} else {
+       console.log('DOMContentLoaded() submitting due to PageTmpValue not 0!');
+       
 	   SaveSubmit('conclusion_0');
 	}
   
   	try {	
 		/* back button on android tc55 */
-		/*
-		 * EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
-		 * Dan 4. Dez 17, EB Freez teqsting
-		 */
+		EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
 		 
 		/* powerOn.powerOnEvent = "url('JavaScript:enableScan();')"; 
 		 * also removed by Dan. Nov. 17 to check for browser hangup

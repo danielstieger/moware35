@@ -13,7 +13,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'h2 MZ_1';
+var zVersion = 'TC 28';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {

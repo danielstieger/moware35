@@ -16,7 +16,7 @@
  */
 
 
-var zVersion = 'R28';
+var zVersion = 'MC 28';
 var useAjax = false;
 var AJAX_HEADER = '--$$%&?e--';
 var AJAX_HEADER_REDIRECTION = '--$$%&?e--REDIRECT--$$%&?e--';
