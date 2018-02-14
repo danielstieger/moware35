@@ -16,7 +16,7 @@
  */
 
 
-var zVersion = 'MC 28';
+var zVersion = 'MC28c';
 var useAjax = false;
 var AJAX_HEADER = '--$$%&?e--';
 var AJAX_HEADER_REDIRECTION = '--$$%&?e--REDIRECT--$$%&?e--';
@@ -93,6 +93,7 @@ function SelectAndExec(selectionstr, valstr) {
   myfocusOnElement(null);
 
   if (useAjax) {
+  	console.log('SelectAndExec() AJAX sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
     ajaxRequest(valstr, selectionstr);
 
   } else {
@@ -100,6 +101,7 @@ function SelectAndExec(selectionstr, valstr) {
     f.NaviCrtl.value = valstr;
     f.SelectionId.value = selectionstr;
     disableNavigation(false);
+    console.log('SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
     f.submit();
   }
 }
@@ -110,15 +112,18 @@ function SaveSubmit(valstr) {
   myfocusOnElement(null);
 
   if (valstr.indexOf('/') >= 0) {
+    console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr); 
     window.location = valstr;
 
   } else if (useAjax) {
+    console.log('SaveSubmit() AJAX sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
     ajaxRequest(valstr, null);
 
   } else {
     var f = $('form');
     f.NaviCrtl.value = valstr;
     disableNavigation(false);
+    console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
     f.submit();
 
   }
@@ -162,7 +167,6 @@ function capturekeyCallback(params) {
   var key = parseInt(params['keyValue']);
 
   /* alert('HOTEKY=' + key + ' / ' + new Date().getMilliseconds()); */
-
   if (key == 4 || key == 38) {
     // back key
     SaveSubmit($('#cancelbutton').getAttribute('navicrtl'));
@@ -237,9 +241,7 @@ function myfocusOnElement(elem) {
 }
 
 
-
 /* On Load Stuff ------------------------------------------------------------- */
-
 document.addEventListener('DOMContentLoaded', function() {
 
   /* backbutton browser handler - last resort
@@ -248,12 +250,18 @@ document.addEventListener('DOMContentLoaded', function() {
   var tmpVal = $('form').PageTmpValue.value;
   if (tmpVal == '0') {
     $('form').PageTmpValue.value = '1';
+
   } else {
+    console.log('DOMContentLoaded() submitting due to PageTmpValue not 0!');   
+    $('form').SequenceId.value = '' + parseInt($('form').SequenceId.value) + 1;
+    $('form').DebugInformation.value = 'Browser Back Button pressed';
     SaveSubmit('conclusion_0');
+
   }
 
   try {
-    if ($('form').H1HttpClient.value == 'WIN_ZEBRA_AJAX') {
+    var client = $('form').H1HttpClient.value;
+    if (client == 'WIN_ZEBRA_AJAX') {
       /* 1 to 9 keys and . */
       EB.KeyCapture.captureKey(false, '48', capturekeyCallback);
       EB.KeyCapture.captureKey(false, '49', capturekeyCallback);
@@ -274,18 +282,12 @@ document.addEventListener('DOMContentLoaded', function() {
       EB.KeyCapture.captureKey(false, '27', capturekeyCallback);
       EB.KeyCapture.captureKey(false, '38', capturekeyCallback);
       EB.KeyCapture.captureKey(false, '40', capturekeyCallback);
+
+      EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
+
+    } else if (client == 'ANDRO_ZEBRAEB_TRADITIONAL') {
+      EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
     }
-
-
-    /* powerOn.powerOnEvent = "url('JavaScript:enableScan();')";
-     * also removed by Dan. Nov. 17 to check for browser hangup
-     */
-
-
-    /* enable scan and register it for power on
-       Dan 11.Aug.17 - temporarly not in use to check, if neccessary at all
-    wake.wakeLock = 'enabled';
-    wake.wifiLock = 'enabled';  */
 
   } catch (err) {
     console.log('addEventListener_DOMContentLoaded()  Err: ' + err);

@@ -10,7 +10,7 @@
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
 
-var zVersion = 'h2 MO_1';
+var zVersion = 'OTH28C';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -98,6 +98,7 @@ function SelectAndExec(selectionstr, valstr){
 	f.NaviCrtl.value=valstr;
 	f.SelectionId.value=selectionstr;
 	// console.log('SUBMIT SelectAndExec()'); 
+	console.log('SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
 	f.submit();
 }
 
@@ -108,12 +109,14 @@ function SaveSubmit(valstr){
  	
 	myfocusOnElement(null);
 	if (valstr.indexOf('/') >= 0) {
+		console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr); 
 		window.location = valstr;
 		
 	} else {
 		var f = $('form');
 		f.NaviCrtl.value=valstr;
 		// alert('SUBMIT SaveSubmit()'); 
+		console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
 		f.submit();
 	}
 }
@@ -264,6 +267,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	if (tmpVal == '0') {
 	   $('form').PageTmpValue.value = '1';
 	} else {
+	   console.log('DOMContentLoaded() submitting due to PageTmpValue not 0!');
+       $('form').SequenceId.value = '' + parseInt($('form').SequenceId.value) + 1;
+	   $('form').DebugInformation.value = 'Browser Back Button pressed';
 	   SaveSubmit('conclusion_0');
 	}
 	

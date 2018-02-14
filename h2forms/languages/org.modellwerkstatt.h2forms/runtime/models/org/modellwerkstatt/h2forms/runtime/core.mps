@@ -5332,19 +5332,29 @@
             </node>
             <node concept="liA8E" id="7HqAtYG4Vg1" role="2OqNvi">
               <ref role="37wK5l" to="1e0c:7HqAtYG4KRd" resolve="setuser_formseqId" />
-              <node concept="3cpWs3" id="7HqAtYG4Vg2" role="37wK5m">
-                <node concept="Xl_RD" id="7HqAtYG4Vg3" role="3uHU7B">
-                  <property role="Xl_RC" value="" />
+              <node concept="3cpWs3" id="1TowlBnczw5" role="37wK5m">
+                <node concept="37vLTw" id="1TowlBnczQC" role="3uHU7w">
+                  <ref role="3cqZAo" node="uIozejABqt" resolve="currentAppFormSequence" />
                 </node>
-                <node concept="2OqwBi" id="7HqAtYG4WrU" role="3uHU7w">
-                  <node concept="37vLTw" id="7HqAtYG4WrV" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5hYsHqQ_VNp" resolve="request" />
-                  </node>
-                  <node concept="liA8E" id="7HqAtYG4WrW" role="2OqNvi">
-                    <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
-                    <node concept="Xl_RD" id="7HqAtYG4WrX" role="37wK5m">
-                      <property role="Xl_RC" value="SequenceId" />
+                <node concept="3cpWs3" id="1TowlBncz3D" role="3uHU7B">
+                  <node concept="3cpWs3" id="7HqAtYG4Vg2" role="3uHU7B">
+                    <node concept="Xl_RD" id="7HqAtYG4Vg3" role="3uHU7B">
+                      <property role="Xl_RC" value="frm " />
                     </node>
+                    <node concept="2OqwBi" id="7HqAtYG4WrU" role="3uHU7w">
+                      <node concept="37vLTw" id="7HqAtYG4WrV" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5hYsHqQ_VNp" resolve="request" />
+                      </node>
+                      <node concept="liA8E" id="7HqAtYG4WrW" role="2OqNvi">
+                        <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                        <node concept="Xl_RD" id="7HqAtYG4WrX" role="37wK5m">
+                          <property role="Xl_RC" value="SequenceId" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="1TowlBnczn$" role="3uHU7w">
+                    <property role="Xl_RC" value=" / cur " />
                   </node>
                 </node>
               </node>

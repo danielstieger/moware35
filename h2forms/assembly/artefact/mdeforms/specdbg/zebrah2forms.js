@@ -15,7 +15,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'SDBG28B';
+var zVersion = 'SDBG28c';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {

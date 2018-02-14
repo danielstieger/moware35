@@ -13,7 +13,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'TC28B';
+var zVersion = 'TC28c';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -35,8 +35,8 @@ function moLog(s) {
 
 
 function disableNavigation() {
-	$('nav').style.display = 'none';
-	$('.content').style.display = 'none';
+	$$('button').disabled = true; 
+	$('nav').innerHTML = '';
 }
 
 
@@ -112,7 +112,8 @@ function SelectAndExec(selectionstr, valstr){
 	f.NaviCrtl.value=valstr;
 	f.SelectionId.value=selectionstr;
 	
-	disableNavigation(); 
+	disableNavigation(); 	
+    console.log('SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
 	f.submit();
 }
 
@@ -124,13 +125,14 @@ function SaveSubmit(valstr){
  	incProgress();
 	myfocusOnElement(null);
 	if (valstr.indexOf('/') >= 0) {
+		console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr); 
 		window.location = valstr;
 		
 	} else {
 		var f = $('form');
 		f.NaviCrtl.value=valstr;
-		
 		disableNavigation();
+		console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
 		f.submit();
 	}
 }
@@ -279,6 +281,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	   $('form').PageTmpValue.value = '1';
 	   
 	} else {
+       console.log('DOMContentLoaded() submitting due to PageTmpValue not 0!');
        $('form').SequenceId.value = '' + parseInt($('form').SequenceId.value) + 1;
 	   $('form').DebugInformation.value = 'Browser Back Button pressed';
 	   SaveSubmit('conclusion_0');
