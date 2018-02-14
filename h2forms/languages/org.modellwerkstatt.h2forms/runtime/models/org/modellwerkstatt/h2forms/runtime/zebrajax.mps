@@ -57,6 +57,9 @@
         <child id="1188220173759" name="item" index="2BsfMF" />
       </concept>
       <concept id="1095950406618" name="jetbrains.mps.baseLanguage.structure.DivExpression" flags="nn" index="FJ1c_" />
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
         <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
@@ -8909,13 +8912,10 @@
         <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
       </node>
       <node concept="3clFbS" id="1l2SXGvSqj5" role="3clF47">
-        <node concept="YS8fn" id="1l2SXGvSr4h" role="3cqZAp">
-          <node concept="2ShNRf" id="1l2SXGvSr4i" role="YScLw">
-            <node concept="1pGfFk" id="1l2SXGvSr4j" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-              <node concept="Xl_RD" id="1l2SXGvSr4k" role="37wK5m">
-                <property role="Xl_RC" value="createDateAndTimeEditor() Time and Date Editor currently not supported in ZMForms" />
-              </node>
+        <node concept="3cpWs6" id="EiYh8eYX1k" role="3cqZAp">
+          <node concept="2ShNRf" id="EiYh8f1rNH" role="3cqZAk">
+            <node concept="HV5vD" id="EiYh8f1sWq" role="2ShVmc">
+              <ref role="HV5vE" node="EiYh8f1qkw" resolve="ADateTimeEditor" />
             </node>
           </node>
         </node>
@@ -24103,6 +24103,18 @@
     <node concept="3Tm1VV" id="6gkV9KP6BRe" role="1B3o_S" />
     <node concept="3uibUv" id="HwuXnDNCUk" role="EKbjA">
       <ref role="3uigEE" to="tea8:HwuXnDNBRX" resolve="IH2UserPrintService" />
+    </node>
+  </node>
+  <node concept="312cEu" id="EiYh8f1qkw">
+    <property role="3GE5qa" value="forms" />
+    <property role="TrG5h" value="ADateTimeEditor" />
+    <node concept="2tJIrI" id="EiYh8f1qkJ" role="jymVt" />
+    <node concept="3Tm1VV" id="EiYh8f1qkx" role="1B3o_S" />
+    <node concept="3uibUv" id="EiYh8f1qma" role="1zkMxy">
+      <ref role="3uigEE" node="46JJF8ILyze" resolve="ATextEditor" />
+    </node>
+    <node concept="3uibUv" id="EiYh8f1qnH" role="EKbjA">
+      <ref role="3uigEE" to="250q:1l2SXGvBp5q" resolve="IToolkit_DateAndTimeEditor" />
     </node>
   </node>
 </model>
