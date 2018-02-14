@@ -15,7 +15,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'SDBG 28';
+var zVersion = 'SDBG28B';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -204,11 +204,9 @@ function nextEnabledOrDefaultButton(currentIndex) {
 
 function capturekeyCallback(params){
   var key = params['keyValue'];
-  // alert('HOTEKY=' + key + ' / ' + new Date().getMilliseconds());
   
   // back keys
   if (key == '4' || key == '38') {
-    alert('BACK with key capture() key is ' + key);
     SaveSubmit($('#cancelbutton').getAttribute('navicrtl'));
   }  
 }
@@ -284,16 +282,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	 * per default, backbutton should be handled by key capture
 	 */
 	var tmpVal = $('form').PageTmpValue.value;
-	
 	if (tmpVal == '0') {
 	   $('form').PageTmpValue.value = '1';
 	   
 	} else {
        console.log('DOMContentLoaded() submitting due to PageTmpValue not 0!');
-       
+       $('form').SequenceId.value = '' + parseInt($('form').SequenceId.value) + 1;
+	   $('form').DebugInformation.value = 'Browser Back Button pressed';
 	   SaveSubmit('conclusion_0');
 	}
-  
+	
+	
   	try {	
 		/* back button on android tc55 */
 		EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);

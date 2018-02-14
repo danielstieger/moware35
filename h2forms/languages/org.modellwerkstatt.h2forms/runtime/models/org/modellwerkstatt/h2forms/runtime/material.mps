@@ -1400,8 +1400,12 @@
             <property role="TXvUO" value="&quot;&gt;" />
           </node>
         </node>
+        <node concept="TXv29" id="JvAN2s7LzX" role="3cqZAp">
+          <node concept="TXvP7" id="JvAN2s7LLo" role="2Uj5MM">
+            <property role="TXvUO" value="&lt;input type=&quot;hidden&quot; name=&quot;DebugInformation&quot; value=&quot;-&quot;/&gt;" />
+          </node>
+        </node>
         <node concept="3clFbH" id="4oHg2nSKOmr" role="3cqZAp" />
-        <node concept="3clFbH" id="4oHg2nSKOoK" role="3cqZAp" />
         <node concept="TXv29" id="2RoKLt0oOv3" role="3cqZAp">
           <node concept="TXvP7" id="2RoKLt0oOv4" role="2Uj5MM">
             <property role="TXvUO" value="&lt;div class=&quot;mom mdl-layout mdl-js-layout mdl-layout--fixed-header&quot;&gt;" />

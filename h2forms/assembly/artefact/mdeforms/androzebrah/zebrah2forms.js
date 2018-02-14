@@ -13,7 +13,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'TC 28';
+var zVersion = 'TC28B';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -277,7 +277,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	var tmpVal = $('form').PageTmpValue.value;
 	if (tmpVal == '0') {
 	   $('form').PageTmpValue.value = '1';
+	   
 	} else {
+       $('form').SequenceId.value = '' + parseInt($('form').SequenceId.value) + 1;
+	   $('form').DebugInformation.value = 'Browser Back Button pressed';
 	   SaveSubmit('conclusion_0');
 	}
   

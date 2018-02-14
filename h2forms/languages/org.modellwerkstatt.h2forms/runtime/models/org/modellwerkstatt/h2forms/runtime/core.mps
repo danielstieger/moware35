@@ -5427,7 +5427,93 @@
           </node>
         </node>
         <node concept="3clFbH" id="18nf27m6uku" role="3cqZAp" />
-        <node concept="3clFbH" id="7HqAtYG4mQH" role="3cqZAp" />
+        <node concept="3SKdUt" id="JvAN2s3gLJ" role="3cqZAp">
+          <node concept="3SKdUq" id="JvAN2s3gLL" role="3SKWNk">
+            <property role="3SKdUp" value="New server application was started, this is a fresh H2Application instance" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="JvAN2s3hmo" role="3cqZAp">
+          <node concept="3clFbS" id="JvAN2s3hmq" role="3clFbx">
+            <node concept="3SKdUt" id="JvAN2s3khP" role="3cqZAp">
+              <node concept="3SKdUq" id="JvAN2s3khR" role="3SKWNk">
+                <property role="3SKdUp" value="formseq. would be 0 " />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="JvAN2s3kdN" role="3cqZAp">
+              <node concept="3SKdUq" id="JvAN2s3kdP" role="3SKWNk">
+                <property role="3SKdUp" value="only a command start is allowed then.. " />
+              </node>
+            </node>
+            <node concept="3clFbH" id="JvAN2s3rwE" role="3cqZAp" />
+            <node concept="3clFbF" id="yYLpwAyb3P" role="3cqZAp">
+              <node concept="2OqwBi" id="yYLpwAyb5Z" role="3clFbG">
+                <node concept="37vLTw" id="yYLpwAyb3N" role="2Oq$k0">
+                  <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                </node>
+                <node concept="liA8E" id="yYLpwAybk$" role="2OqNvi">
+                  <ref role="37wK5l" to="1e0c:1nXeD0e_LaK" resolve="showMessageDialog" />
+                  <node concept="2OqwBi" id="yYLpwAylf7" role="37wK5m">
+                    <node concept="37vLTw" id="yYLpwAylbN" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
+                    </node>
+                    <node concept="liA8E" id="yYLpwAylpz" role="2OqNvi">
+                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                      <node concept="Rm8GO" id="yYLpwAym4y" role="37wK5m">
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                        <ref role="Rm8GQ" to="ache:7DInbKyry1J" resolve="SERVLET_BASE_ADR" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="10Nm6u" id="yYLpwAycnx" role="37wK5m" />
+                </node>
+              </node>
+            </node>
+            <node concept="3SKdUt" id="yYLpwAycrT" role="3cqZAp">
+              <node concept="3SKdUq" id="yYLpwAycrV" role="3SKWNk">
+                <property role="3SKdUp" value="stop processing this request" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="1PXbBqnASUo" role="3cqZAp">
+              <node concept="3uNrnE" id="1PXbBqnAT6h" role="3clFbG">
+                <node concept="37vLTw" id="1PXbBqnAT6j" role="2$L3a6">
+                  <ref role="3cqZAo" node="uIozejABqt" resolve="currentAppFormSequence" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="yYLpwAycva" role="3cqZAp" />
+          </node>
+          <node concept="1Wc70l" id="JvAN2s3iZ7" role="3clFbw">
+            <node concept="1Wc70l" id="JvAN2s3iub" role="3uHU7B">
+              <node concept="3clFbC" id="JvAN2s3ibZ" role="3uHU7B">
+                <node concept="37vLTw" id="JvAN2s3hUf" role="3uHU7B">
+                  <ref role="3cqZAo" node="5hYsHqQxv_A" resolve="runningUri" />
+                </node>
+                <node concept="10Nm6u" id="JvAN2s3iel" role="3uHU7w" />
+              </node>
+              <node concept="3y3z36" id="JvAN2s3iR2" role="3uHU7w">
+                <node concept="37vLTw" id="JvAN2s3iLp" role="3uHU7B">
+                  <ref role="3cqZAo" node="75445jw3uHP" resolve="naviCrtl" />
+                </node>
+                <node concept="10Nm6u" id="JvAN2s3iVo" role="3uHU7w" />
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="yYLpwAynWU" role="3uHU7w">
+              <node concept="2OqwBi" id="yYLpwAynWW" role="3fr31v">
+                <node concept="37vLTw" id="yYLpwAynWX" role="2Oq$k0">
+                  <ref role="3cqZAo" node="75445jw3uHP" resolve="naviCrtl" />
+                </node>
+                <node concept="liA8E" id="yYLpwAynWY" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                  <node concept="Xl_RD" id="yYLpwAynWZ" role="37wK5m">
+                    <property role="Xl_RC" value="command_" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="JvAN2s3nob" role="3cqZAp" />
+        <node concept="3clFbH" id="JvAN2s3mTv" role="3cqZAp" />
         <node concept="3SKdUt" id="7HqAtYG4rZG" role="3cqZAp">
           <node concept="3SKdUq" id="7HqAtYG4rZI" role="3SKWNk">
             <property role="3SKdUp" value="* * * * * * * * * * check form id if given and act accordingly.  * * * * * * * * * * * * * * * * *" />
@@ -5512,7 +5598,7 @@
                   <node concept="3cpWs3" id="uIozejHmT2" role="3uHU7B">
                     <node concept="3cpWs3" id="uIozejHmGF" role="3uHU7B">
                       <node concept="Xl_RD" id="uIozejHmyu" role="3uHU7B">
-                        <property role="Xl_RC" value="Reload detected, request not handled, since currentAppFromSequence " />
+                        <property role="Xl_RC" value="App comm out of sync, request not handled, since currentAppFromSequence " />
                       </node>
                       <node concept="37vLTw" id="uIozejHmMF" role="3uHU7w">
                         <ref role="3cqZAo" node="uIozejABqt" resolve="currentAppFormSequence" />
@@ -5548,7 +5634,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="7HqAtYG4lhb" role="3cqZAp" />
-        <node concept="3clFbH" id="7HqAtYG4lGn" role="3cqZAp" />
         <node concept="1X3_iC" id="6zVU6_jH50K" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
@@ -5721,10 +5806,9 @@
           </node>
         </node>
         <node concept="3clFbH" id="7r26jiO1D0g" role="3cqZAp" />
-        <node concept="3clFbH" id="5pFQRGEkY4r" role="3cqZAp" />
         <node concept="3SKdUt" id="5pFQRGEkY_L" role="3cqZAp">
           <node concept="3SKdUq" id="5pFQRGEkY_N" role="3SKWNk">
-            <property role="3SKdUp" value="start a command? ---------------------------------------------------------------------------------------" />
+            <property role="3SKdUp" value="no command running ---------------------------------------------------------------------------------------" />
           </node>
         </node>
         <node concept="3clFbJ" id="7r26jiNUt0G" role="3cqZAp">
@@ -5772,74 +5856,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="7CJFVfzWkmM" role="3cqZAp" />
-            <node concept="3clFbJ" id="yYLpwAynnv" role="3cqZAp">
-              <node concept="3clFbS" id="yYLpwAynnx" role="3clFbx">
-                <node concept="3SKdUt" id="yYLpwAyaXF" role="3cqZAp">
-                  <node concept="3SKdUq" id="yYLpwAyaXH" role="3SKWNk">
-                    <property role="3SKdUp" value="form submit, maybe on an old version? app was deployed. " />
-                  </node>
-                </node>
-                <node concept="3clFbF" id="yYLpwAyb3P" role="3cqZAp">
-                  <node concept="2OqwBi" id="yYLpwAyb5Z" role="3clFbG">
-                    <node concept="37vLTw" id="yYLpwAyb3N" role="2Oq$k0">
-                      <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-                    </node>
-                    <node concept="liA8E" id="yYLpwAybk$" role="2OqNvi">
-                      <ref role="37wK5l" to="1e0c:1nXeD0e_LaK" resolve="showMessageDialog" />
-                      <node concept="2OqwBi" id="yYLpwAylf7" role="37wK5m">
-                        <node concept="37vLTw" id="yYLpwAylbN" role="2Oq$k0">
-                          <ref role="3cqZAo" node="7r26jiNZEhy" resolve="uiFactory" />
-                        </node>
-                        <node concept="liA8E" id="yYLpwAylpz" role="2OqNvi">
-                          <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
-                          <node concept="Rm8GO" id="yYLpwAym4y" role="37wK5m">
-                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
-                            <ref role="Rm8GQ" to="ache:7DInbKyry1J" resolve="SERVLET_BASE_ADR" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="10Nm6u" id="yYLpwAycnx" role="37wK5m" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3SKdUt" id="yYLpwAycrT" role="3cqZAp">
-                  <node concept="3SKdUq" id="yYLpwAycrV" role="3SKWNk">
-                    <property role="3SKdUp" value="stop processing this request" />
-                  </node>
-                </node>
-                <node concept="3clFbH" id="7HqAtYG4tG9" role="3cqZAp" />
-                <node concept="3clFbF" id="1PXbBqnASUo" role="3cqZAp">
-                  <node concept="3uNrnE" id="1PXbBqnAT6h" role="3clFbG">
-                    <node concept="37vLTw" id="1PXbBqnAT6j" role="2$L3a6">
-                      <ref role="3cqZAo" node="uIozejABqt" resolve="currentAppFormSequence" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3cpWs6" id="yYLpwAycva" role="3cqZAp" />
-              </node>
-              <node concept="1Wc70l" id="yYLpwAynCn" role="3clFbw">
-                <node concept="3fqX7Q" id="yYLpwAynWU" role="3uHU7w">
-                  <node concept="2OqwBi" id="yYLpwAynWW" role="3fr31v">
-                    <node concept="37vLTw" id="yYLpwAynWX" role="2Oq$k0">
-                      <ref role="3cqZAo" node="75445jw3uHP" resolve="naviCrtl" />
-                    </node>
-                    <node concept="liA8E" id="yYLpwAynWY" role="2OqNvi">
-                      <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
-                      <node concept="Xl_RD" id="yYLpwAynWZ" role="37wK5m">
-                        <property role="Xl_RC" value="command_" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="3y3z36" id="yYLpwAyn_k" role="3uHU7B">
-                  <node concept="37vLTw" id="yYLpwAynyv" role="3uHU7B">
-                    <ref role="3cqZAo" node="75445jw3uHP" resolve="naviCrtl" />
-                  </node>
-                  <node concept="10Nm6u" id="yYLpwAynAt" role="3uHU7w" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="yYLpwAyndt" role="3cqZAp" />
             <node concept="3SKdUt" id="7r26jiNUWq6" role="3cqZAp">
               <node concept="3SKdUq" id="7r26jiNUWq8" role="3SKWNk">
                 <property role="3SKdUp" value="url param first" />
