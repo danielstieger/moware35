@@ -63,6 +63,8 @@ function enableScan() {
         upcEanSupplemental5: true,
         upcEanSupplementalMode: EB.Barcode.UPCEAN_AUTO
       }, scanReceived); */
+
+      $('input[name="scanconclusion"]').value = "";
       EB.Barcode.enable({
         allDecoders: true
       }, scanReceived);
@@ -93,7 +95,7 @@ function SelectAndExec(selectionstr, valstr) {
   myfocusOnElement(null);
 
   if (useAjax) {
-  	console.log('SelectAndExec() AJAX sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
+  	console.log('SelectAndExec() AJAX sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr);
     ajaxRequest(valstr, selectionstr);
 
   } else {
@@ -101,7 +103,7 @@ function SelectAndExec(selectionstr, valstr) {
     f.NaviCrtl.value = valstr;
     f.SelectionId.value = selectionstr;
     disableNavigation(false);
-    console.log('SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
+    console.log('SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr);
     f.submit();
   }
 }
@@ -112,18 +114,18 @@ function SaveSubmit(valstr) {
   myfocusOnElement(null);
 
   if (valstr.indexOf('/') >= 0) {
-    console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr); 
+    console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr);
     window.location = valstr;
 
   } else if (useAjax) {
-    console.log('SaveSubmit() AJAX sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
+    console.log('SaveSubmit() AJAX sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr);
     ajaxRequest(valstr, null);
 
   } else {
     var f = $('form');
     f.NaviCrtl.value = valstr;
     disableNavigation(false);
-    console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
+    console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr);
     f.submit();
 
   }
@@ -252,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
     $('form').PageTmpValue.value = '1';
 
   } else {
-    console.log('DOMContentLoaded() submitting due to PageTmpValue not 0!');   
+    console.log('DOMContentLoaded() submitting due to PageTmpValue not 0!');
     $('form').SequenceId.value = '' + parseInt($('form').SequenceId.value) + 1;
     $('form').DebugInformation.value = 'Browser Back Button pressed';
     SaveSubmit('conclusion_0');
