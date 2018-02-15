@@ -12529,7 +12529,7 @@
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
               <node concept="3cpWs3" id="6YMRHoFbaEY" role="37wK5m">
                 <node concept="Xl_RD" id="6YMRHoFbaEZ" role="3uHU7w">
-                  <property role="Xl_RC" value="&lt;/div&gt;  &lt;h1 onclick=\&quot;javascript: window.location= window.location;\&quot;&gt;" />
+                  <property role="Xl_RC" value="&lt;/div&gt;  &lt;h1 onclick=\&quot;javascript: window.location=window.location;\&quot;&gt;" />
                 </node>
                 <node concept="3cpWs3" id="6YMRHoFbaF2" role="3uHU7B">
                   <node concept="Xl_RD" id="6YMRHoFbaF3" role="3uHU7B">
