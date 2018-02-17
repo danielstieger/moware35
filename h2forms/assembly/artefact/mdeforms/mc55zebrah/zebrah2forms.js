@@ -16,10 +16,12 @@
  */
 
 
-var zVersion = 'MC28c';
+var zVersion = 'MC28f';
 var useAjax = false;
 var AJAX_HEADER = '--$$%&?e--';
 var AJAX_HEADER_REDIRECTION = '--$$%&?e--REDIRECT--$$%&?e--';
+var submitLock = false;
+var lastSubmitTrace = '';
 
 var $ = function(query) {
   return document.querySelector(query);
@@ -93,6 +95,7 @@ function SelectAndExec(selectionstr, valstr) {
   disableScan();
 
   myfocusOnElement(null);
+  noteTrace();
 
   if (useAjax) {
   	console.log('SelectAndExec() AJAX sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr);
@@ -112,6 +115,7 @@ function SaveSubmit(valstr) {
   internVibrate(100);
   disableScan();
   myfocusOnElement(null);
+  noteTrace();
 
   if (valstr.indexOf('/') >= 0) {
     console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr);
@@ -365,6 +369,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function afterPageLoaded() {
+  submitLock = false;
   moware_focus_element = null;
   enableScan();
 
@@ -590,4 +595,11 @@ serialize: function serialize(form) {
     }
   }
   return obj;
+}
+
+function noteTrace() {
+  var err = new Error();
+  err.stack;
+  $('form').DebugInformation.value = lastSubmitTrace + ' \n\n ' + err.stack;
+  lastSubmitTrace = ' ' + err.stack;
 }

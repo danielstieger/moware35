@@ -13,7 +13,10 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'TC28c';
+var zVersion = 'TC28f';
+var submitLock = false;
+var lastSubmitTrace = '';
+
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -106,6 +109,7 @@ function SelectAndExec(selectionstr, valstr){
 	disableScan();
 	
 	myfocusOnElement(null);
+	noteTrace();
 
 	incProgress();
 	var f = $('form');
@@ -121,6 +125,7 @@ function SaveSubmit(valstr){
 	internVibrate(100);
 	
  	disableScan(); 	
+ 	noteTrace();
  	
  	incProgress();
 	myfocusOnElement(null);
@@ -404,7 +409,15 @@ document.addEventListener('DOMContentLoaded', function() {
 	
     // keyboard is disabled by default 
 	mykeyboardEnabled(true);
+	submitLock = false;
 	
 	setInterval(incProgress, 20000);
 	incProgress();
 }); 
+
+function noteTrace() {
+  var err = new Error();
+  err.stack;
+  $('form').DebugInformation.value = lastSubmitTrace + ' \n\n ' + err.stack;
+  lastSubmitTrace = ' ' + err.stack;
+}
