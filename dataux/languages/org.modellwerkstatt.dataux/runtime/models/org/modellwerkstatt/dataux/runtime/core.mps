@@ -19188,7 +19188,19 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="7HqAtYG4TEH" role="jymVt" />
+    <node concept="3clFb_" id="1OvPoUvckBt" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getuser_sequenceinfo" />
+      <node concept="17QB3L" id="1OvPoUvckBu" role="3clF45" />
+      <node concept="3Tm1VV" id="1OvPoUvckBv" role="1B3o_S" />
+      <node concept="3clFbS" id="1OvPoUvckBz" role="3clF47">
+        <node concept="3clFbF" id="1OvPoUvclIo" role="3cqZAp">
+          <node concept="37vLTw" id="1OvPoUvclIn" role="3clFbG">
+            <ref role="3cqZAo" node="7HqAtYG4FRu" resolve="currentSequence" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="4n24ZlEy6Gu" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getuser_lastInteraction" />
@@ -28148,6 +28160,14 @@
       <node concept="3Tm1VV" id="6YMRHoFawF0" role="1B3o_S" />
       <node concept="3clFbS" id="6YMRHoFawF1" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="1OvPoUvcjow" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getuser_sequenceinfo" />
+      <node concept="17QB3L" id="1OvPoUvcjsS" role="3clF45" />
+      <node concept="3Tm1VV" id="1OvPoUvcjoz" role="1B3o_S" />
+      <node concept="3clFbS" id="1OvPoUvcjo$" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1OvPoUvcjly" role="jymVt" />
     <node concept="3clFb_" id="4cdUWYrHmui" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
