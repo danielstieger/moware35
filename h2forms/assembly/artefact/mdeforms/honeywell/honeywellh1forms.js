@@ -152,7 +152,7 @@ function ScanSubmit(){
 
 /* Form stuff ******************************************************* */
 
-function SelectAndExec(selectionstr, valstr){
+function SelectAndExec(selectionstr, valstr, eventSource){
 	internVibrate(100);
 
 	myfocusOnElement(null);

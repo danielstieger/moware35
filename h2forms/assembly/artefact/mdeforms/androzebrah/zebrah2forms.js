@@ -13,7 +13,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'TC28f';
+var zVersion = 'TC28g';
 var submitLock = false;
 var lastSubmitTrace = '';
 
@@ -103,13 +103,13 @@ function ScanSubmit(){
 
 
 /* Form stuff ******************************************************* */
-function SelectAndExec(selectionstr, valstr){
+function SelectAndExec(selectionstr, valstr, eventSource){
 	internVibrate(100);
 
 	disableScan();
 	
 	myfocusOnElement(null);
-	noteTrace();
+	noteTrace('' + eventSource);
 
 	incProgress();
 	var f = $('form');
@@ -125,7 +125,7 @@ function SaveSubmit(valstr){
 	internVibrate(100);
 	
  	disableScan(); 	
- 	noteTrace();
+ 	noteTrace('savesubmit');
  	
  	incProgress();
 	myfocusOnElement(null);
@@ -415,9 +415,23 @@ document.addEventListener('DOMContentLoaded', function() {
 	incProgress();
 }); 
 
-function noteTrace() {
+function noteTrace(source) {
   var err = new Error();
   err.stack;
-  $('form').DebugInformation.value = lastSubmitTrace + ' \n\n ' + err.stack;
-  lastSubmitTrace = ' ' + err.stack;
+
+ var cmdInfo = '';
+ if ($('#chrumbdiv0') != null) {
+   cmdInfo += $('#chrumbdiv0').innerHTML + ' / ';
+ }
+ if ($('#chrumbdiv1') != null) {
+   cmdInfo += $('#chrumbdiv1').innerHTML + ' / ';
+ }
+ if ($('#chrumbdiv2') != null) {
+   cmdInfo += $('#chrumbdiv2').innerHTML + ' / ';
+ }
+
+
+  var info = '[' + cmdInfo + ']   ' + source + ': ' + err.stack
+  $('form').DebugInformation.value = lastSubmitTrace + ' \n\n ' + info;
+  lastSubmitTrace = info;
 }

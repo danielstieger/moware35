@@ -10409,6 +10409,13 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2Uji7vlAEoR" role="jymVt" />
+    <node concept="3clFb_" id="1OvPoUuJD9m" role="jymVt">
+      <property role="TrG5h" value="hasNoUi" />
+      <node concept="3cqZAl" id="1OvPoUuJD9o" role="3clF45" />
+      <node concept="3Tm1VV" id="1OvPoUuJD9p" role="1B3o_S" />
+      <node concept="3clFbS" id="1OvPoUuJD9q" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1OvPoUuJvP6" role="jymVt" />
     <node concept="3clFb_" id="7X5ehdoKd6f" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -22205,6 +22212,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1OvPoUuPNaU" role="3cqZAp" />
         <node concept="3clFbF" id="3nYsKhuYxg6" role="3cqZAp">
           <node concept="37vLTI" id="3nYsKhuYxPw" role="3clFbG">
             <node concept="2OqwBi" id="3nYsKhuYy4z" role="37vLTx">
@@ -22225,7 +22233,36 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3nYsKhuYyzz" role="3cqZAp" />
+        <node concept="3SKdUt" id="1OvPoUuPQSF" role="3cqZAp">
+          <node concept="3SKdUq" id="1OvPoUuPQSH" role="3SKWNk">
+            <property role="3SKdUp" value="Only for cmd GE + no UI, Stackoverflow on more than 60000 pos." />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1OvPoUuPxZj" role="3cqZAp">
+          <node concept="3cpWsn" id="1OvPoUuPxZm" role="3cpWs9">
+            <property role="TrG5h" value="switchToLoop" />
+            <node concept="10P_77" id="1OvPoUuPxZh" role="1tU5fm" />
+            <node concept="1Wc70l" id="1OvPoUuPzXx" role="33vP2m">
+              <node concept="2OqwBi" id="1OvPoUuP$2h" role="3uHU7w">
+                <node concept="37vLTw" id="1OvPoUuPzZX" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5ZV7jolc812" resolve="cmd" />
+                </node>
+                <node concept="liA8E" id="1OvPoUuP$4E" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:206uhc79quu" resolve="hasNoUi" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1OvPoUuPzTM" role="3uHU7B">
+                <node concept="37vLTw" id="1OvPoUuPzRN" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5ZV7jolc812" resolve="cmd" />
+                </node>
+                <node concept="liA8E" id="1OvPoUuPzVB" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:206uhc79py_" resolve="isGraphEdit" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1OvPoUuPwdX" role="3cqZAp" />
         <node concept="3cpWs8" id="5ZV7jolc81o" role="3cqZAp">
           <node concept="3cpWsn" id="5ZV7jolc81p" role="3cpWs9">
             <property role="TrG5h" value="container" />
@@ -22333,18 +22370,27 @@
           </node>
           <node concept="9aQIb" id="3nYsKhuY6tr" role="9aQIa">
             <node concept="3clFbS" id="3nYsKhuY6ts" role="9aQI4">
-              <node concept="3SKdUt" id="3fji5qpRaXP" role="3cqZAp">
-                <node concept="3SKdUq" id="3fji5qpRaXR" role="3SKWNk">
-                  <property role="3SKdUp" value="optimize for execution only on GEs" />
-                </node>
-              </node>
               <node concept="3clFbJ" id="1nXeD0e_TOM" role="3cqZAp">
                 <node concept="3clFbS" id="1nXeD0e_TOO" role="3clFbx">
+                  <node concept="3clFbF" id="1OvPoUuJW18" role="3cqZAp">
+                    <node concept="2OqwBi" id="1OvPoUuJW15" role="3clFbG">
+                      <node concept="10M0yZ" id="1OvPoUuJW16" role="2Oq$k0">
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                      </node>
+                      <node concept="liA8E" id="1OvPoUuJW17" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="Xl_RD" id="1OvPoUuJWe1" role="37wK5m">
+                          <property role="Xl_RC" value="Running in LOOPED STARTEGY" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="3fji5qpR9K2" role="3cqZAp">
                     <node concept="37vLTI" id="3fji5qpRafa" role="3clFbG">
                       <node concept="Rm8GO" id="3fji5qpRa$q" role="37vLTx">
-                        <ref role="Rm8GQ" node="3fji5qpQRa6" resolve="LOOPED" />
                         <ref role="1Px2BO" node="3fji5qpQQZt" resolve="MultiActionDefinition.MULTIACTION_EXEC_STARTEGY" />
+                        <ref role="Rm8GQ" node="3fji5qpQRa6" resolve="LOOPED" />
                       </node>
                       <node concept="2OqwBi" id="3fji5qpR9Na" role="37vLTJ">
                         <node concept="37vLTw" id="3fji5qpR9K0" role="2Oq$k0">
@@ -22357,18 +22403,16 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3fqX7Q" id="1nXeD0e_Vbq" role="3clFbw">
-                  <node concept="2OqwBi" id="1nXeD0e_Vbs" role="3fr31v">
-                    <node concept="37vLTw" id="1nXeD0e_Vbt" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActionDef" />
-                    </node>
-                    <node concept="2OwXpG" id="1nXeD0e_Vbu" role="2OqNvi">
-                      <ref role="2Oxat5" node="3nYsKhuYvvR" resolve="isGO_goOnWhenCanceled" />
-                    </node>
-                  </node>
+                <node concept="37vLTw" id="1OvPoUuPMuH" role="3clFbw">
+                  <ref role="3cqZAo" node="1OvPoUuPxZm" resolve="switchToLoop" />
                 </node>
               </node>
-              <node concept="3clFbH" id="1nXeD0e_Tp8" role="3cqZAp" />
+              <node concept="3clFbH" id="1OvPoUuK9y_" role="3cqZAp" />
+              <node concept="3SKdUt" id="3fji5qpRaXP" role="3cqZAp">
+                <node concept="3SKdUq" id="3fji5qpRaXR" role="3SKWNk">
+                  <property role="3SKdUp" value="optimize for execution only on GEs" />
+                </node>
+              </node>
               <node concept="3clFbF" id="1nXeD0e_m8p" role="3cqZAp">
                 <node concept="2OqwBi" id="3nYsKhuY6tu" role="3clFbG">
                   <node concept="37vLTw" id="3nYsKhuY6tv" role="2Oq$k0">
@@ -22390,7 +22434,6 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="1nXeD0e_RGr" role="3cqZAp" />
             </node>
           </node>
         </node>

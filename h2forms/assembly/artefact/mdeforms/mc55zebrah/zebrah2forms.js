@@ -16,7 +16,7 @@
  */
 
 
-var zVersion = 'MC28f';
+var zVersion = 'MC28g';
 var useAjax = false;
 var AJAX_HEADER = '--$$%&?e--';
 var AJAX_HEADER_REDIRECTION = '--$$%&?e--REDIRECT--$$%&?e--';
@@ -89,13 +89,13 @@ function ScanSubmit() {
 
 
 /* Form stuff ******************************************************* */
-function SelectAndExec(selectionstr, valstr) {
+function SelectAndExec(selectionstr, valstr, eventSource) {
   internVibrate(100);
 
   disableScan();
 
   myfocusOnElement(null);
-  noteTrace();
+  noteTrace('' + eventSource);
 
   if (useAjax) {
   	console.log('SelectAndExec() AJAX sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr);
@@ -115,7 +115,7 @@ function SaveSubmit(valstr) {
   internVibrate(100);
   disableScan();
   myfocusOnElement(null);
-  noteTrace();
+  noteTrace("SaveSubmit()");
 
   if (valstr.indexOf('/') >= 0) {
     console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr);
@@ -597,9 +597,23 @@ serialize: function serialize(form) {
   return obj;
 }
 
-function noteTrace() {
+function noteTrace(source) {
   var err = new Error();
   err.stack;
-  $('form').DebugInformation.value = lastSubmitTrace + ' \n\n ' + err.stack;
-  lastSubmitTrace = ' ' + err.stack;
+
+ var cmdInfo = '';
+ if ($('#chrumbdiv0') != null) {
+   cmdInfo += $('#chrumbdiv0').innerHTML + ' / ';
+ }
+ if ($('#chrumbdiv1') != null) {
+   cmdInfo += $('#chrumbdiv1').innerHTML + ' / ';
+ }
+ if ($('#chrumbdiv2') != null) {
+   cmdInfo += $('#chrumbdiv2').innerHTML + ' / ';
+ }
+
+
+  var info = '[' + cmdInfo + ']   ' + source + ': ' + err.stack
+  $('form').DebugInformation.value = lastSubmitTrace + ' \n\n ' + info;
+  lastSubmitTrace = info;
 }

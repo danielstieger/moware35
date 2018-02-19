@@ -9210,7 +9210,7 @@
                 <node concept="liA8E" id="6TNACHpan5l" role="2OqNvi">
                   <ref role="37wK5l" to="5wm0:6TNACHp2TXD" resolve="setAdditionalOption" />
                   <node concept="Rm8GO" id="6TNACHpapqs" role="37wK5m">
-                    <ref role="Rm8GQ" to="5wm0:6TNACHp38Sx" resolve="LAST_READ_ONLY_FOR_UPDATE_CONCLUSION" />
+                    <ref role="Rm8GQ" to="5wm0:6TNACHp38Sx" resolve="SPECIAL_READ_ONLY_FOR_UPDATE_CONCLUSION" />
                     <ref role="1Px2BO" to="5wm0:6TNACHp35F$" resolve="Delegate.AdditionalOption" />
                   </node>
                 </node>
@@ -10883,7 +10883,6 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="2tJIrI" id="5Ld38uBCDjt" role="jymVt" />
                       <node concept="3clFb_" id="cYdxW6gkBW" role="jymVt">
                         <property role="TrG5h" value="canInnerEagerInitialize" />
                         <property role="1EzhhJ" value="false" />
@@ -11390,7 +11389,6 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3clFbH" id="5Ld38uBXxv5" role="3cqZAp" />
                         </node>
                       </node>
                       <node concept="3clFb_" id="50l$rcpY_p3" role="jymVt">

@@ -10,7 +10,7 @@
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
 
-var zVersion = 'OTH28C';
+var zVersion = 'OTH28g';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -88,7 +88,7 @@ function ScanSubmit(){
 
 
 /* Form stuff ******************************************************* */
-function SelectAndExec(selectionstr, valstr){
+function SelectAndExec(selectionstr, valstr, eventSource){
 	internVibrate(100);
 
 	disableScan();

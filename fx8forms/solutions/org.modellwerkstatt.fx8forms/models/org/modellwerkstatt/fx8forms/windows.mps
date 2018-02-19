@@ -22491,12 +22491,26 @@
             </node>
           </node>
         </node>
-        <node concept="3SKdUt" id="5p1CQfO482i" role="3cqZAp">
-          <node concept="3SKdUq" id="5p1CQfO482N" role="3SKWNk">
-            <property role="3SKdUp" value="shooot request focus only working in background in case of table .. strange. . " />
+        <node concept="3clFbH" id="1OvPoUuI$St" role="3cqZAp" />
+        <node concept="3SKdUt" id="1OvPoUuIHmL" role="3cqZAp">
+          <node concept="3SKdUq" id="1OvPoUuIHmN" role="3SKWNk">
+            <property role="3SKdUp" value="gcClean() already called ... should by checked by VCmdUiPrompt, but undeterministically not working. " />
           </node>
         </node>
-        <node concept="3clFbH" id="7Mah_ahr6LL" role="3cqZAp" />
+        <node concept="3clFbJ" id="1OvPoUuHXy9" role="3cqZAp">
+          <node concept="3clFbS" id="1OvPoUuHXyb" role="3clFbx">
+            <node concept="3cpWs6" id="1OvPoUuI3WX" role="3cqZAp">
+              <node concept="10Nm6u" id="1OvPoUuIqKq" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="3clFbC" id="1OvPoUuI2uP" role="3clFbw">
+            <node concept="10Nm6u" id="1OvPoUuI2Gw" role="3uHU7w" />
+            <node concept="37vLTw" id="1OvPoUuI2aT" role="3uHU7B">
+              <ref role="3cqZAo" node="1e8699aCJd5" resolve="table" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1OvPoUuHLGp" role="3cqZAp" />
         <node concept="3clFbF" id="3bnhvhEVPfx" role="3cqZAp">
           <node concept="2OqwBi" id="3bnhvhEVPNo" role="3clFbG">
             <node concept="37vLTw" id="3bnhvhEVPfw" role="2Oq$k0">
