@@ -13,10 +13,10 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'TC28g';
-var submitLock = false;
+var zVersion = 'TC28j';
 var lastSubmitTrace = '';
-
+var lastSequenceIDSubmitted = 0;
+var lastMillisSubmitted = 0;
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -104,8 +104,13 @@ function ScanSubmit(){
 
 /* Form stuff ******************************************************* */
 function SelectAndExec(selectionstr, valstr, eventSource){
+	/* Double submit vibrate problem on TC56 */
+	var timePassed = Date.now() - lastMillisSubmitted;
+	if (lastSequenceIDSubmitted != 0 && timePassed < 1000) { return; }
+	lastMillisSubmitted = Date.now();
+	lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
+	
 	internVibrate(100);
-
 	disableScan();
 	
 	myfocusOnElement(null);
@@ -122,10 +127,16 @@ function SelectAndExec(selectionstr, valstr, eventSource){
 }
 
 function SaveSubmit(valstr){
+  /* Double submit vibrate problem on TC56 */
+  var timePassed = Date.now() - lastMillisSubmitted;
+  if (lastSequenceIDSubmitted != 0 && timePassed < 1000) { return; }
+  lastMillisSubmitted = Date.now();
+  lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
+
+
 	internVibrate(100);
-	
  	disableScan(); 	
- 	noteTrace('savesubmit');
+ 	noteTrace('SaveSubmit()');
  	
  	incProgress();
 	myfocusOnElement(null);
@@ -278,6 +289,9 @@ function myfocusOnElement(elem) {
 
 document.addEventListener('DOMContentLoaded', function() {
 	
+	lastSequenceIDSubmitted = 0;
+	lastMillisSubmitted = 0;
+	
 	/* backbutton browser handler - last resort 
 	 * per default, backbutton should be handled by key capture
 	 */
@@ -409,7 +423,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	
     // keyboard is disabled by default 
 	mykeyboardEnabled(true);
-	submitLock = false;
 	
 	setInterval(incProgress, 20000);
 	incProgress();

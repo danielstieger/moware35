@@ -12504,7 +12504,7 @@
     <ref role="1XX52x" to="un0u:3U0QWztRGQ8" resolve="OFXProducerContext" />
     <node concept="3EZMnI" id="3U0QWztRHK_" role="2wV5jI">
       <node concept="3F0ifn" id="3U0QWztRHRs" role="3EZMnx">
-        <property role="3F0ifm" value="inbox with entity keys of type" />
+        <property role="3F0ifm" value="inbox with entities/keys of type" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F1sOY" id="3U0QWztRIqi" role="3EZMnx">
@@ -12717,7 +12717,7 @@
         <ref role="1NtTu8" to="un0u:3U0QWzu$7oy" />
       </node>
       <node concept="3F0ifn" id="3U0QWzu_6g8" role="3EZMnx">
-        <property role="3F0ifm" value="=&gt; supend work for" />
+        <property role="3F0ifm" value="=&gt; suspend work for" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F0A7n" id="7bWGJuRGXzG" role="3EZMnx">

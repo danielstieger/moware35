@@ -16,11 +16,13 @@
  */
 
 
-var zVersion = 'MC28g';
+var zVersion = 'MC28j1';
 var useAjax = false;
 var AJAX_HEADER = '--$$%&?e--';
 var AJAX_HEADER_REDIRECTION = '--$$%&?e--REDIRECT--$$%&?e--';
-var submitLock = false;
+
+var lastSequenceIDSubmitted = 0;
+var lastMillisSubmitted = 0;
 var lastSubmitTrace = '';
 
 var $ = function(query) {
@@ -29,7 +31,6 @@ var $ = function(query) {
 var $$ = function(query) {
   return document.querySelectorAll(query);
 };
-
 
 /* Scan stuff ******************************************************* */
 function disableScan() {
@@ -50,9 +51,7 @@ function scanReceived(params) {
   }
   $('input[scanable="true"]').value = params['data'];
   var conclusion = $('input[name="scanconclusion"]').value;
-
-  disableScan();
-  myfocusOnElement(null);
+  console.log('PARAMS: ' + params['data']);
 
   SaveSubmit(conclusion);
 }
@@ -66,12 +65,15 @@ function enableScan() {
         upcEanSupplementalMode: EB.Barcode.UPCEAN_AUTO
       }, scanReceived); */
 
-      $('input[name="scanconclusion"]').value = "";
       EB.Barcode.enable({
         allDecoders: true
       }, scanReceived);
-      $('#scanSoftButton').disabled = false;
 
+      // if ANDRO_ZEBRA_AJAX
+      var scanButton = $('#scanSoftButton');
+      if (scanButton != null) {
+        scanButton.disabled = false;
+      }
     } catch (err) {
       console.log('enableScan() Err: ' + err);
     }
@@ -90,15 +92,22 @@ function ScanSubmit() {
 
 /* Form stuff ******************************************************* */
 function SelectAndExec(selectionstr, valstr, eventSource) {
+  /* Double submit vibrate problem on TC56 */
+  var timePassed = Date.now() - lastMillisSubmitted;
+  console.log('Time passed is ' + timePassed);
+  if (lastSequenceIDSubmitted != 0 && timePassed < 1000) {
+    return;
+  }
+  lastMillisSubmitted = Date.now();
+  lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
+
   internVibrate(100);
-
   disableScan();
-
   myfocusOnElement(null);
   noteTrace('' + eventSource);
 
   if (useAjax) {
-  	console.log('SelectAndExec() AJAX sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr);
+    console.log('SelectAndExec() AJAX sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr);
     ajaxRequest(valstr, selectionstr);
 
   } else {
@@ -112,6 +121,15 @@ function SelectAndExec(selectionstr, valstr, eventSource) {
 }
 
 function SaveSubmit(valstr) {
+  /* Double submit vibrate problem on TC56 */
+  var timePassed = Date.now() - lastMillisSubmitted;
+  console.log('SaveSubmit() Time passed is ' + timePassed);
+  if (lastSequenceIDSubmitted != 0 && timePassed < 1000) {
+    return;
+  }
+  lastMillisSubmitted = Date.now();
+  lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
+
   internVibrate(100);
   disableScan();
   myfocusOnElement(null);
@@ -291,7 +309,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
 
-    } else if (client == 'ANDRO_ZEBRAEB_TRADITIONAL') {
+    } else if (client == 'ANDRO_ZEBRA_AJAX') {
       EB.KeyCapture.captureKey(false, '0x04', capturekeyCallback);
     }
 
@@ -369,7 +387,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 function afterPageLoaded() {
-  submitLock = false;
+  lastSequenceIDSubmitted = 0;
+  lastMillisSubmitted = 0;
   moware_focus_element = null;
   enableScan();
 
@@ -601,16 +620,16 @@ function noteTrace(source) {
   var err = new Error();
   err.stack;
 
- var cmdInfo = '';
- if ($('#chrumbdiv0') != null) {
-   cmdInfo += $('#chrumbdiv0').innerHTML + ' / ';
- }
- if ($('#chrumbdiv1') != null) {
-   cmdInfo += $('#chrumbdiv1').innerHTML + ' / ';
- }
- if ($('#chrumbdiv2') != null) {
-   cmdInfo += $('#chrumbdiv2').innerHTML + ' / ';
- }
+  var cmdInfo = '';
+  if ($('#chrumbdiv0') != null) {
+    cmdInfo += $('#chrumbdiv0').innerHTML + ' / ';
+  }
+  if ($('#chrumbdiv1') != null) {
+    cmdInfo += $('#chrumbdiv1').innerHTML + ' / ';
+  }
+  if ($('#chrumbdiv2') != null) {
+    cmdInfo += $('#chrumbdiv2').innerHTML + ' / ';
+  }
 
 
   var info = '[' + cmdInfo + ']   ' + source + ': ' + err.stack

@@ -12529,7 +12529,7 @@
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
               <node concept="3cpWs3" id="6YMRHoFbaEY" role="37wK5m">
                 <node concept="Xl_RD" id="6YMRHoFbaEZ" role="3uHU7w">
-                  <property role="Xl_RC" value="&lt;/div&gt;  &lt;h1&gt;" />
+                  <property role="Xl_RC" value="&lt;/div&gt;  &lt;h1 onclick=\&quot;javascript: window.location=window.location;\&quot;&gt;" />
                 </node>
                 <node concept="3cpWs3" id="6YMRHoFbaF2" role="3uHU7B">
                   <node concept="Xl_RD" id="6YMRHoFbaF3" role="3uHU7B">
@@ -12541,11 +12541,6 @@
                 </node>
               </node>
             </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="1OvPoUvc9$F" role="3cqZAp">
-          <node concept="3SKdUq" id="1OvPoUvc9$H" role="3SKWNk">
-            <property role="3SKdUp" value="onclick=\&quot;javascript: window.location=window.location;\&quot;" />
           </node>
         </node>
         <node concept="3clFbH" id="64PSf$EO$ev" role="3cqZAp" />
