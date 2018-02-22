@@ -891,6 +891,11 @@
       <property role="20kJfa" value="cancelMarkerOperation" />
       <ref role="20lvS9" node="6S08D5Jofmr" resolve="OperationCall" />
     </node>
+    <node concept="1TJgyj" id="7JtXXwmgymD" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cancelJournalOperation" />
+      <ref role="20lvS9" node="6S08D5Jofmr" resolve="OperationCall" />
+    </node>
     <node concept="1TJgyj" id="1IEa9ReVfmD" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="process" />

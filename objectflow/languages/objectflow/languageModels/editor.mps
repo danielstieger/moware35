@@ -1646,7 +1646,7 @@
                 <node concept="3clFbS" id="1l1sktcbR1Y" role="3clFbx">
                   <node concept="3cpWs6" id="1l1sktcbR6A" role="3cqZAp">
                     <node concept="Xl_RD" id="1l1sktcbR9W" role="3cqZAk">
-                      <property role="Xl_RC" value="(+ to session op)" />
+                      <property role="Xl_RC" value="(+ to session ops)" />
                     </node>
                   </node>
                 </node>
@@ -1661,14 +1661,14 @@
                 <node concept="3clFbS" id="1l1sktcbVVY" role="3clFbx">
                   <node concept="3cpWs6" id="1l1sktcbWrB" role="3cqZAp">
                     <node concept="Xl_RD" id="1l1sktcbWt5" role="3cqZAk">
-                      <property role="Xl_RC" value="(+ immediatelly commit only this OP)" />
+                      <property role="Xl_RC" value="(+ to cancel ops)" />
                     </node>
                   </node>
                 </node>
                 <node concept="2OqwBi" id="1l1sktcbW7o" role="3clFbw">
                   <node concept="pncrf" id="1l1sktcbW28" role="2Oq$k0" />
                   <node concept="2qgKlT" id="1l1sktcbWl0" role="2OqNvi">
-                    <ref role="37wK5l" to="70o0:1l1sktcbRWE" resolve="isMarkerOperationInFinalCancel" />
+                    <ref role="37wK5l" to="70o0:1l1sktcbRWE" resolve="isFinalCancelOp" />
                   </node>
                 </node>
               </node>
@@ -3286,6 +3286,16 @@
             <property role="VOm3f" value="true" />
           </node>
           <node concept="lj46D" id="1l1sktc8e3L" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="7JtXXwmgyoo" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;journal operation&gt;" />
+          <ref role="1NtTu8" to="un0u:7JtXXwmgymD" />
+          <node concept="pVoyu" id="7JtXXwmgyop" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="7JtXXwmgyoq" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>

@@ -4175,8 +4175,14 @@
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="immediateTransactionForOperation" />
       <node concept="37vLTG" id="1l1sktc6bFp" role="3clF46">
-        <property role="TrG5h" value="op" />
+        <property role="TrG5h" value="markerOp" />
         <node concept="3uibUv" id="1l1sktc6LVk" role="1tU5fm">
+          <ref role="3uigEE" node="4wvbHtt1$NL" resolve="IOFXSessionOperation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7JtXXwmhccO" role="3clF46">
+        <property role="TrG5h" value="journalOp" />
+        <node concept="3uibUv" id="7JtXXwmhfFK" role="1tU5fm">
           <ref role="3uigEE" node="4wvbHtt1$NL" resolve="IOFXSessionOperation" />
         </node>
       </node>
@@ -6870,8 +6876,14 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="immediateTransactionForOperation" />
       <node concept="37vLTG" id="1l1sktc6CVA" role="3clF46">
-        <property role="TrG5h" value="op" />
+        <property role="TrG5h" value="markerOp" />
         <node concept="3uibUv" id="1l1sktc6MEU" role="1tU5fm">
+          <ref role="3uigEE" node="4wvbHtt1$NL" resolve="IOFXSessionOperation" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7JtXXwmhhxe" role="3clF46">
+        <property role="TrG5h" value="journalOp" />
+        <node concept="3uibUv" id="7JtXXwmhhxf" role="1tU5fm">
           <ref role="3uigEE" node="4wvbHtt1$NL" resolve="IOFXSessionOperation" />
         </node>
       </node>
@@ -7020,13 +7032,43 @@
                 <property role="3SKdUp" value="execute operations, e.g. insert, delete, update .. " />
               </node>
             </node>
-            <node concept="3clFbF" id="1l1sktc6Lw0" role="3cqZAp">
-              <node concept="2OqwBi" id="1l1sktc6LCI" role="3clFbG">
-                <node concept="37vLTw" id="1l1sktc6LvY" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1l1sktc6CVA" resolve="op" />
+            <node concept="3clFbJ" id="7JtXXwmhjRt" role="3cqZAp">
+              <node concept="3clFbS" id="7JtXXwmhjRv" role="3clFbx">
+                <node concept="3clFbF" id="1l1sktc6Lw0" role="3cqZAp">
+                  <node concept="2OqwBi" id="1l1sktc6LCI" role="3clFbG">
+                    <node concept="37vLTw" id="1l1sktc6LvY" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1l1sktc6CVA" resolve="markerOp" />
+                    </node>
+                    <node concept="liA8E" id="1l1sktc6MWL" role="2OqNvi">
+                      <ref role="37wK5l" node="4wvbHtt1$NP" resolve="execute" />
+                    </node>
+                  </node>
                 </node>
-                <node concept="liA8E" id="1l1sktc6MWL" role="2OqNvi">
-                  <ref role="37wK5l" node="4wvbHtt1$NP" resolve="execute" />
+              </node>
+              <node concept="3y3z36" id="7JtXXwmhkmY" role="3clFbw">
+                <node concept="10Nm6u" id="7JtXXwmhkph" role="3uHU7w" />
+                <node concept="37vLTw" id="7JtXXwmhk5w" role="3uHU7B">
+                  <ref role="3cqZAo" node="1l1sktc6CVA" resolve="markerOp" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="7JtXXwmhlww" role="3cqZAp">
+              <node concept="3clFbS" id="7JtXXwmhlwy" role="3clFbx">
+                <node concept="3clFbF" id="7JtXXwmhm0v" role="3cqZAp">
+                  <node concept="2OqwBi" id="7JtXXwmhmeD" role="3clFbG">
+                    <node concept="37vLTw" id="7JtXXwmhm0t" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7JtXXwmhhxe" resolve="journalOp" />
+                    </node>
+                    <node concept="liA8E" id="7JtXXwmhmsp" role="2OqNvi">
+                      <ref role="37wK5l" node="4wvbHtt1$NP" resolve="execute" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="7JtXXwmhlQa" role="3clFbw">
+                <node concept="10Nm6u" id="7JtXXwmhlSm" role="3uHU7w" />
+                <node concept="37vLTw" id="7JtXXwmhlKh" role="3uHU7B">
+                  <ref role="3cqZAo" node="7JtXXwmhhxe" resolve="journalOp" />
                 </node>
               </node>
             </node>
@@ -45172,7 +45214,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="mowareCMD RC28J h2++ (dev " />
+            <property role="Xl_RC" value="mowareCMD RC29 job (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />

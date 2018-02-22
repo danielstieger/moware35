@@ -3853,7 +3853,7 @@
             <node concept="3clFbS" id="1l1sktcbOD0" role="3clFbx">
               <node concept="2MkqsV" id="1l1sktcbQaN" role="3cqZAp">
                 <node concept="Xl_RD" id="1l1sktcbQb4" role="2MkJ7o">
-                  <property role="Xl_RC" value="Only GRAPH_OWNER commands support the maker operation for FINAL_CANCEL." />
+                  <property role="Xl_RC" value="Only GRAPH_OWNER commands support the maker/journal operation for FINAL_CANCEL." />
                 </node>
                 <node concept="1YBJjd" id="1l1sktcbQd$" role="2OEOjV">
                   <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
@@ -3879,16 +3879,13 @@
             </node>
           </node>
         </node>
-        <node concept="2OqwBi" id="1l1sktcbO7T" role="3clFbw">
-          <node concept="2OqwBi" id="1l1sktcbNv6" role="2Oq$k0">
-            <node concept="1YBJjd" id="1l1sktcbNrP" role="2Oq$k0">
-              <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
-            </node>
-            <node concept="3TrEf2" id="1l1sktcbNW7" role="2OqNvi">
-              <ref role="3Tt5mk" to="un0u:1l1sktc81RY" />
-            </node>
+        <node concept="2OqwBi" id="1l1sktcbNv6" role="3clFbw">
+          <node concept="1YBJjd" id="1l1sktcbNrP" role="2Oq$k0">
+            <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
           </node>
-          <node concept="3x8VRR" id="1l1sktcbOBF" role="2OqNvi" />
+          <node concept="2qgKlT" id="7JtXXwmh2ou" role="2OqNvi">
+            <ref role="37wK5l" to="70o0:7JtXXwmgZjJ" resolve="hasCancelOps" />
+          </node>
         </node>
       </node>
       <node concept="3clFbH" id="6qsy3WVz$EV" role="3cqZAp" />
@@ -6820,109 +6817,56 @@
                 </node>
               </node>
               <node concept="3clFbH" id="7zuurfOyGnT" role="3cqZAp" />
-              <node concept="3clFbJ" id="7zuurfOyGop" role="3cqZAp">
-                <node concept="3clFbS" id="7zuurfOyGor" role="3clFbx">
-                  <node concept="3cpWs8" id="7zuurfOyU_X" role="3cqZAp">
-                    <node concept="3cpWsn" id="7zuurfOyUA0" role="3cpWs9">
-                      <property role="TrG5h" value="firstWithMarkerInSuccessor" />
-                      <node concept="3Tqbb2" id="7zuurfOyU_V" role="1tU5fm">
-                        <ref role="ehGHo" to="un0u:6ffh1MXzHna" resolve="Command" />
-                      </node>
-                      <node concept="2OqwBi" id="7zuurfOyVtX" role="33vP2m">
-                        <node concept="2OqwBi" id="7zuurfOyUDk" role="2Oq$k0">
-                          <node concept="37vLTw" id="7zuurfOyUA$" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7zuurfOyHzM" resolve="cmd" />
+              <node concept="1DcWWT" id="7JtXXwmgDUY" role="3cqZAp">
+                <node concept="3clFbS" id="7JtXXwmgDV0" role="2LFqv$">
+                  <node concept="3clFbJ" id="7JtXXwmgF7Z" role="3cqZAp">
+                    <node concept="3clFbS" id="7JtXXwmgF81" role="3clFbx">
+                      <node concept="2MkqsV" id="7JtXXwmgGRs" role="3cqZAp">
+                        <node concept="3cpWs3" id="7JtXXwmgHgK" role="2MkJ7o">
+                          <node concept="Xl_RD" id="7JtXXwmgHhR" role="3uHU7w">
+                            <property role="Xl_RC" value="' is a prospective successor and contains also cancel/journal operations. Only one command should contains cancel ops." />
                           </node>
-                          <node concept="2qgKlT" id="7zuurfOyUKl" role="2OqNvi">
-                            <ref role="37wK5l" to="70o0:3bhLp3E0O7Y" resolve="getUniqueSuccessorCommands" />
-                          </node>
-                        </node>
-                        <node concept="1z4cxt" id="7zuurfOyWOz" role="2OqNvi">
-                          <node concept="1bVj0M" id="7zuurfOyWO_" role="23t8la">
-                            <node concept="3clFbS" id="7zuurfOyWOA" role="1bW5cS">
-                              <node concept="3clFbF" id="7zuurfOyWSG" role="3cqZAp">
-                                <node concept="2OqwBi" id="7zuurfOyXms" role="3clFbG">
-                                  <node concept="2OqwBi" id="7zuurfOyWYy" role="2Oq$k0">
-                                    <node concept="37vLTw" id="7zuurfOyWSF" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="7zuurfOyWOB" resolve="it" />
-                                    </node>
-                                    <node concept="3TrEf2" id="1dqt$gINE8l" role="2OqNvi">
-                                      <ref role="3Tt5mk" to="un0u:1l1sktc81RY" />
-                                    </node>
-                                  </node>
-                                  <node concept="3x8VRR" id="7zuurfOyXzv" role="2OqNvi" />
-                                </node>
+                          <node concept="3cpWs3" id="7JtXXwmgGUO" role="3uHU7B">
+                            <node concept="Xl_RD" id="7JtXXwmgGRF" role="3uHU7B">
+                              <property role="Xl_RC" value="Command '" />
+                            </node>
+                            <node concept="2OqwBi" id="7JtXXwmgGYp" role="3uHU7w">
+                              <node concept="37vLTw" id="7JtXXwmgGV6" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7JtXXwmgDV1" resolve="suc" />
+                              </node>
+                              <node concept="3TrcHB" id="7JtXXwmgH6I" role="2OqNvi">
+                                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                               </node>
                             </node>
-                            <node concept="Rh6nW" id="7zuurfOyWOB" role="1bW2Oz">
-                              <property role="TrG5h" value="it" />
-                              <node concept="2jxLKc" id="7zuurfOyWOC" role="1tU5fm" />
-                            </node>
                           </node>
+                        </node>
+                        <node concept="1YBJjd" id="7JtXXwmgI4L" role="2OEOjV">
+                          <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
                         </node>
                       </node>
                     </node>
-                  </node>
-                  <node concept="2MkqsV" id="7zuurfOyXL9" role="3cqZAp">
-                    <node concept="3cpWs3" id="7zuurfOyYon" role="2MkJ7o">
-                      <node concept="Xl_RD" id="7zuurfOyYpu" role="3uHU7w">
-                        <property role="Xl_RC" value=" is a prospective successor and contains also a cancel marker. (only one marker per session!)" />
+                    <node concept="2OqwBi" id="7JtXXwmh4mK" role="3clFbw">
+                      <node concept="37vLTw" id="7JtXXwmh3MF" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7JtXXwmgDV1" resolve="suc" />
                       </node>
-                      <node concept="3cpWs3" id="7zuurfOyXQS" role="3uHU7B">
-                        <node concept="Xl_RD" id="7zuurfOyXOi" role="3uHU7B">
-                          <property role="Xl_RC" value="Command " />
-                        </node>
-                        <node concept="2OqwBi" id="7zuurfOyY7i" role="3uHU7w">
-                          <node concept="37vLTw" id="7zuurfOyY3Z" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7zuurfOyUA0" resolve="firstWithMarkerInSuccessor" />
-                          </node>
-                          <node concept="3TrcHB" id="7zuurfOyYel" role="2OqNvi">
-                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="2OqwBi" id="7zuurfOyZa2" role="2OEOjV">
-                      <node concept="37vLTw" id="7zuurfOyZ5H" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7zuurfOyHzM" resolve="cmd" />
-                      </node>
-                      <node concept="3TrEf2" id="1dqt$gINEn5" role="2OqNvi">
-                        <ref role="3Tt5mk" to="un0u:1l1sktc81RY" />
+                      <node concept="2qgKlT" id="7JtXXwmh4$I" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:7JtXXwmgZjJ" resolve="hasCancelOps" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node concept="2OqwBi" id="7zuurfOyS7Z" role="3clFbw">
-                  <node concept="2OqwBi" id="7zuurfOyGt5" role="2Oq$k0">
-                    <node concept="37vLTw" id="7zuurfOyImR" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7zuurfOyHzM" resolve="cmd" />
-                    </node>
-                    <node concept="2qgKlT" id="7zuurfOyRp6" role="2OqNvi">
-                      <ref role="37wK5l" to="70o0:3bhLp3E0O7Y" resolve="getUniqueSuccessorCommands" />
-                    </node>
+                <node concept="3cpWsn" id="7JtXXwmgDV1" role="1Duv9x">
+                  <property role="TrG5h" value="suc" />
+                  <node concept="3Tqbb2" id="7JtXXwmgE7C" role="1tU5fm">
+                    <ref role="ehGHo" to="un0u:6ffh1MXzHna" resolve="Command" />
                   </node>
-                  <node concept="2HwmR7" id="7zuurfOyTCA" role="2OqNvi">
-                    <node concept="1bVj0M" id="7zuurfOyTCC" role="23t8la">
-                      <node concept="3clFbS" id="7zuurfOyTCD" role="1bW5cS">
-                        <node concept="3clFbF" id="7zuurfOyTGJ" role="3cqZAp">
-                          <node concept="2OqwBi" id="7zuurfOyUav" role="3clFbG">
-                            <node concept="2OqwBi" id="7zuurfOyTM_" role="2Oq$k0">
-                              <node concept="37vLTw" id="7zuurfOyTGI" role="2Oq$k0">
-                                <ref role="3cqZAo" node="7zuurfOyTCE" resolve="it" />
-                              </node>
-                              <node concept="3TrEf2" id="1dqt$gINDQO" role="2OqNvi">
-                                <ref role="3Tt5mk" to="un0u:1l1sktc81RY" />
-                              </node>
-                            </node>
-                            <node concept="3x8VRR" id="7zuurfOyUwH" role="2OqNvi" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="Rh6nW" id="7zuurfOyTCE" role="1bW2Oz">
-                        <property role="TrG5h" value="it" />
-                        <node concept="2jxLKc" id="7zuurfOyTCF" role="1tU5fm" />
-                      </node>
-                    </node>
+                </node>
+                <node concept="2OqwBi" id="7JtXXwmgEkl" role="1DdaDG">
+                  <node concept="37vLTw" id="7JtXXwmgEdX" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7zuurfOyHzM" resolve="cmd" />
+                  </node>
+                  <node concept="2qgKlT" id="7JtXXwmgEG5" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:3bhLp3E0O7Y" resolve="getUniqueSuccessorCommands" />
                   </node>
                 </node>
               </node>
@@ -6933,7 +6877,7 @@
                 <ref role="1YBMHb" node="75R75qdnAJK" resolve="oc" />
               </node>
               <node concept="2qgKlT" id="1l1sktcbTsk" role="2OqNvi">
-                <ref role="37wK5l" to="70o0:1l1sktcbRWE" resolve="isMarkerOperationInFinalCancel" />
+                <ref role="37wK5l" to="70o0:1l1sktcbRWE" resolve="isFinalCancelOp" />
               </node>
             </node>
             <node concept="3eNFk2" id="1l1sktcfanA" role="3eNLev">
@@ -9332,7 +9276,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="2h5WDoVcf0o" role="3cqZAp" />
         </node>
         <node concept="2OqwBi" id="2h5WDoV6Gls" role="3clFbw">
           <node concept="2OqwBi" id="2h5WDoV6FCJ" role="2Oq$k0">

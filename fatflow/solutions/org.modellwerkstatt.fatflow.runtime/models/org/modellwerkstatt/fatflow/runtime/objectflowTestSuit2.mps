@@ -371,6 +371,7 @@
         <child id="7393934493399006223" name="successorCommand" index="1t4FgK" />
         <child id="7192042020164064743" name="pages" index="3ug97V" />
         <child id="7192042020164579739" name="commandInit" index="3umfm7" />
+        <child id="8925562543976621481" name="cancelJournalOperation" index="1HBX9L" />
       </concept>
       <concept id="7192042020163999174" name="org.modellwerkstatt.objectflow.structure.Page" flags="ng" index="3ugp7q">
         <reference id="4152417163565704942" name="boundClass" index="3gcvY6" />
@@ -5469,6 +5470,14 @@
       <node concept="3Tm1VV" id="2wQSPIg8yQ_" role="1B3o_S" />
       <node concept="10P_77" id="2wQSPIg8yQA" role="1tU5fm" />
       <node concept="3clFbT" id="2wQSPIg8yQB" role="33vP2m">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="312cEg" id="7JtXXwmwM4F" role="jymVt">
+      <property role="TrG5h" value="cancelJournalExecuted" />
+      <node concept="3Tm1VV" id="7JtXXwmwM4G" role="1B3o_S" />
+      <node concept="10P_77" id="7JtXXwmwM4H" role="1tU5fm" />
+      <node concept="3clFbT" id="7JtXXwmwM4I" role="33vP2m">
         <property role="3clFbU" value="false" />
       </node>
     </node>
@@ -11705,6 +11714,18 @@
             </node>
           </node>
         </node>
+        <node concept="1gVbGN" id="7JtXXwmwQnp" role="3cqZAp">
+          <node concept="3fqX7Q" id="7JtXXwmwQnq" role="1gVkn0">
+            <node concept="2OqwBi" id="7JtXXwmwQnr" role="3fr31v">
+              <node concept="3zkua3" id="7JtXXwmwQns" role="2Oq$k0">
+                <ref role="3zku8S" node="2wQSPIg8CFj" resolve="info" />
+              </node>
+              <node concept="2OwXpG" id="7JtXXwmwQnt" role="2OqNvi">
+                <ref role="2Oxat5" node="7JtXXwmwM4F" resolve="cancelJournalExecuted" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3yPF9F" id="3jf78TZS36T" role="3yMuLx">
@@ -11852,6 +11873,18 @@
               </node>
               <node concept="2OwXpG" id="3jf78TZS37u" role="2OqNvi">
                 <ref role="2Oxat5" node="2wQSPIg8yQ$" resolve="cancelMarkerExecuted" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JtXXwmwOSB" role="3cqZAp">
+          <node concept="3fqX7Q" id="7JtXXwmwOSC" role="1gVkn0">
+            <node concept="2OqwBi" id="7JtXXwmwOSD" role="3fr31v">
+              <node concept="3zkua3" id="7JtXXwmwOSE" role="2Oq$k0">
+                <ref role="3zku8S" node="3jf78TZS36W" resolve="info" />
+              </node>
+              <node concept="2OwXpG" id="7JtXXwmwPCc" role="2OqNvi">
+                <ref role="2Oxat5" node="7JtXXwmwM4F" resolve="cancelJournalExecuted" />
               </node>
             </node>
           </node>
@@ -12111,6 +12144,16 @@
             </node>
           </node>
         </node>
+        <node concept="1gVbGN" id="7JtXXwmwS$l" role="3cqZAp">
+          <node concept="2OqwBi" id="7JtXXwmwU0m" role="1gVkn0">
+            <node concept="3zkua3" id="7JtXXwmwTiF" role="2Oq$k0">
+              <ref role="3zku8S" node="3jf78TZSbZx" resolve="info" />
+            </node>
+            <node concept="2OwXpG" id="7JtXXwmwUJT" role="2OqNvi">
+              <ref role="2Oxat5" node="7JtXXwmwM4F" resolve="cancelJournalExecuted" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="3yPF9F" id="3jf78TZsjA5" role="3yMuLx">
@@ -12210,6 +12253,16 @@
             </node>
             <node concept="2OwXpG" id="3jf78TZsjAF" role="2OqNvi">
               <ref role="2Oxat5" node="2wQSPIg8yQ$" resolve="cancelMarkerExecuted" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7JtXXwmwUZA" role="3cqZAp">
+          <node concept="2OqwBi" id="7JtXXwmwUZB" role="1gVkn0">
+            <node concept="3zkua3" id="7JtXXwmwUZC" role="2Oq$k0">
+              <ref role="3zku8S" node="3jf78TZsjA8" resolve="info" />
+            </node>
+            <node concept="2OwXpG" id="7JtXXwmwUZD" role="2OqNvi">
+              <ref role="2Oxat5" node="7JtXXwmwM4F" resolve="cancelJournalExecuted" />
             </node>
           </node>
         </node>
@@ -12366,6 +12419,17 @@
             </node>
           </node>
         </node>
+        <node concept="1gVbGN" id="7JtXXwmwWd4" role="3cqZAp">
+          <node concept="2OqwBi" id="7JtXXwmwWd5" role="1gVkn0">
+            <node concept="3zkua3" id="7JtXXwmwWd6" role="2Oq$k0">
+              <ref role="3zku8S" node="3jf78TZShx9" resolve="info" />
+            </node>
+            <node concept="2OwXpG" id="7JtXXwmwWd7" role="2OqNvi">
+              <ref role="2Oxat5" node="7JtXXwmwM4F" resolve="cancelJournalExecuted" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JtXXwmwVuM" role="3cqZAp" />
       </node>
     </node>
     <node concept="3yPF9F" id="3jf78TZUsla" role="3yMuLx">
@@ -12471,6 +12535,17 @@
             </node>
           </node>
         </node>
+        <node concept="1gVbGN" id="7JtXXwmwXF3" role="3cqZAp">
+          <node concept="2OqwBi" id="7JtXXwmwXF4" role="1gVkn0">
+            <node concept="3zkua3" id="7JtXXwmwXF5" role="2Oq$k0">
+              <ref role="3zku8S" node="3jf78TZUsld" resolve="info" />
+            </node>
+            <node concept="2OwXpG" id="7JtXXwmwXF6" role="2OqNvi">
+              <ref role="2Oxat5" node="7JtXXwmwM4F" resolve="cancelJournalExecuted" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JtXXwmwWWP" role="3cqZAp" />
       </node>
     </node>
     <node concept="3yPF9F" id="3jf78TZVEki" role="3yMuLx">
@@ -12627,6 +12702,17 @@
             </node>
           </node>
         </node>
+        <node concept="1gVbGN" id="7JtXXwmwYru" role="3cqZAp">
+          <node concept="2OqwBi" id="7JtXXwmwYrv" role="1gVkn0">
+            <node concept="3zkua3" id="7JtXXwmwYrw" role="2Oq$k0">
+              <ref role="3zku8S" node="3jf78TZVEkl" resolve="info" />
+            </node>
+            <node concept="2OwXpG" id="7JtXXwmwYrx" role="2OqNvi">
+              <ref role="2Oxat5" node="7JtXXwmwM4F" resolve="cancelJournalExecuted" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JtXXwmwYqD" role="3cqZAp" />
       </node>
     </node>
     <node concept="3yPF9F" id="3jf78TZsnei" role="3yMuLx">
@@ -12729,6 +12815,17 @@
             </node>
           </node>
         </node>
+        <node concept="1gVbGN" id="7JtXXwmwZUa" role="3cqZAp">
+          <node concept="2OqwBi" id="7JtXXwmwZUb" role="1gVkn0">
+            <node concept="3zkua3" id="7JtXXwmwZUc" role="2Oq$k0">
+              <ref role="3zku8S" node="3jf78TZsnel" resolve="info" />
+            </node>
+            <node concept="2OwXpG" id="7JtXXwmwZUd" role="2OqNvi">
+              <ref role="2Oxat5" node="7JtXXwmwM4F" resolve="cancelJournalExecuted" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7JtXXwmwZbz" role="3cqZAp" />
       </node>
     </node>
     <node concept="3yPF9F" id="wd17k5yaXz" role="3yMuLx">
@@ -13142,6 +13239,13 @@
         </node>
       </node>
     </node>
+    <node concept="1odsa" id="7JtXXwm_lAq" role="1HBX9L">
+      <ref role="1ods_" node="2wQSPIg8_ou" resolve="CancelMarkerRepo" />
+      <ref role="37wK5l" node="7JtXXwm_lyP" resolve="cancelJournalCheckinMethod" />
+      <node concept="3urNQE" id="7JtXXwm_lBN" role="37wK5m">
+        <ref role="3cqZAo" node="2wQSPIg8w7A" resolve="info" />
+      </node>
+    </node>
   </node>
   <node concept="wbJL_" id="2wQSPIg8_ou">
     <property role="TrG5h" value="CancelMarkerRepo" />
@@ -13168,6 +13272,35 @@
               </node>
               <node concept="2OwXpG" id="2wQSPIg8zTu" role="2OqNvi">
                 <ref role="2Oxat5" node="2wQSPIg8yQ$" resolve="cancelMarkerExecuted" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="wbJLE" id="7JtXXwm_lyP" role="jymVt">
+      <property role="TrG5h" value="cancelJournalCheckinMethod" />
+      <property role="wbJLN" value="CHECKIN" />
+      <node concept="37vLTG" id="7JtXXwm_lyQ" role="3clF46">
+        <property role="TrG5h" value="info" />
+        <node concept="3uibUv" id="7JtXXwm_lyR" role="1tU5fm">
+          <ref role="3uigEE" node="7pudXbEHzyT" resolve="CommandInfo" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7JtXXwm_lyS" role="3clF45" />
+      <node concept="3Tm1VV" id="7JtXXwm_lyT" role="1B3o_S" />
+      <node concept="3clFbS" id="7JtXXwm_lyU" role="3clF47">
+        <node concept="3clFbF" id="7JtXXwm_lyV" role="3cqZAp">
+          <node concept="37vLTI" id="7JtXXwm_lyW" role="3clFbG">
+            <node concept="3clFbT" id="7JtXXwm_lyX" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="2OqwBi" id="7JtXXwm_lyY" role="37vLTJ">
+              <node concept="37vLTw" id="7JtXXwm_lyZ" role="2Oq$k0">
+                <ref role="3cqZAo" node="7JtXXwm_lyQ" resolve="info" />
+              </node>
+              <node concept="2OwXpG" id="7JtXXwm_l_j" role="2OqNvi">
+                <ref role="2Oxat5" node="7JtXXwmwM4F" resolve="cancelJournalExecuted" />
               </node>
             </node>
           </node>

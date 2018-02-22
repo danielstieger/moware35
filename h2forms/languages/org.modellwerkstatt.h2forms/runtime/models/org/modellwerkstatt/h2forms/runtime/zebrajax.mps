@@ -11398,7 +11398,7 @@
             <node concept="liA8E" id="7RHNXGyQCS5" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
               <node concept="Xl_RD" id="7RHNXGyQCS6" role="37wK5m">
-                <property role="Xl_RC" value="&lt;/title&gt;\n&lt;meta name=\&quot;viewport\&quot; content=\&quot;width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0\&quot; /&gt;\n" />
+                <property role="Xl_RC" value="&lt;/title&gt;\n&lt;meta name=\&quot;viewport\&quot; content=\&quot;width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1\&quot; /&gt;\n" />
               </node>
             </node>
           </node>
