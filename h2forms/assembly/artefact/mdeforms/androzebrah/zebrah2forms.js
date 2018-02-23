@@ -13,7 +13,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'TC28j';
+var zVersion = 'TC29x';
 var lastSubmitTrace = '';
 var lastSequenceIDSubmitted = 0;
 var lastMillisSubmitted = 0;
@@ -28,6 +28,7 @@ function incProgress() {
 	window.name = '' + val;
 	$('input[name="Progressor"]').value = window.name;
 	$('#dbgFld').innerHTML = zVersion + '/' + window.name;
+	console.log('WatchDog: seq: ' + lastSequenceIDSubmitted + ' dgbFld: ' +  $('#dbgFld').innerHTML);
 }
 
 function moLog(s) {

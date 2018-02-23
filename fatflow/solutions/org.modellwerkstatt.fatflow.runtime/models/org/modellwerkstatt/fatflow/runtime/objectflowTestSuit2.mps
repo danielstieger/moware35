@@ -288,6 +288,7 @@
         <reference id="6855023620835054339" name="businessObject" index="2TUfME" />
       </concept>
       <concept id="1394557069844560977" name="org.modellwerkstatt.objectflow.structure.VslCancelExParam" flags="ng" index="Wg$Cl" />
+      <concept id="1394557069844560490" name="org.modellwerkstatt.objectflow.structure.VslCancelMsgParam" flags="ng" index="Wg$KI" />
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
@@ -13245,6 +13246,7 @@
       <node concept="3urNQE" id="7JtXXwm_lBN" role="37wK5m">
         <ref role="3cqZAo" node="2wQSPIg8w7A" resolve="info" />
       </node>
+      <node concept="Wg$KI" id="5ic27av1y_D" role="37wK5m" />
     </node>
   </node>
   <node concept="wbJL_" id="2wQSPIg8_ou">
@@ -13286,6 +13288,10 @@
         <node concept="3uibUv" id="7JtXXwm_lyR" role="1tU5fm">
           <ref role="3uigEE" node="7pudXbEHzyT" resolve="CommandInfo" />
         </node>
+      </node>
+      <node concept="37vLTG" id="5ic27av1y$R" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="5ic27av1y$Z" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="7JtXXwm_lyS" role="3clF45" />
       <node concept="3Tm1VV" id="7JtXXwm_lyT" role="1B3o_S" />

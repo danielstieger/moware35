@@ -4592,6 +4592,11 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="3U0QWzu_6fi" resolve="OFXExceptionStrategyProp" />
     </node>
+    <node concept="1TJgyj" id="7JtXXwmFLXL" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="docu" />
+      <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
+    </node>
     <node concept="PrWs8" id="3U0QWzuF6_v" role="PzmwI">
       <ref role="PrY4T" node="3U0QWzu$6wv" resolve="IOFXExceptionStrategyMember" />
     </node>
@@ -4680,7 +4685,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="21AFYXWJbnZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="commandCall" />
+      <property role="20kJfa" value="runCommand" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXRunCmd" />
     </node>
@@ -4700,7 +4705,7 @@
     <property role="1pbfSe" value="1114812590" />
     <property role="3GE5qa" value="OFXCore.command" />
     <property role="TrG5h" value="VslCancelMsgParam" />
-    <property role="34LRSv" value="msg" />
+    <property role="34LRSv" value="cancelMsg" />
     <property role="R4oN_" value="cancel message describing reason" />
     <property role="MwhBj" value="${module}/icons/references.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
