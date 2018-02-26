@@ -10,7 +10,7 @@
   <servlet>
     <servlet-name>APPLICATION_FQNAME</servlet-name>
     <servlet-class>LOADER_FQNAME</servlet-class>
-    
+        
     <init-param>
         <param-name>xmlConfigFile</param-name>
     	<param-value>APPLICATION_CONFIG</param-value>
@@ -30,6 +30,12 @@
    <listener>
      <listener-class>LOADER_FQNAMECL</listener-class>
    </listener>
+  
+   	<session-config>
+    	<cookie-config>
+        	<max-age>31536000</max-age>
+    	</cookie-config>
+	</session-config>
   
   <servlet-mapping>
     <servlet-name>APPLICATION_FQNAME</servlet-name>

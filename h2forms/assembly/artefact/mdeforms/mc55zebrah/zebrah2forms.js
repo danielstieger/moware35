@@ -209,6 +209,9 @@ function capturekeyCallback(params) {
     /* focus on next elem */
     nextEnabledOrDefaultButton($('*[focusme="true"]').getAttribute('editorIndex'));
     return;
+  } else if (key == 121) {
+    EB.Application.quit();
+    return;
   }
 
 
@@ -298,6 +301,8 @@ document.addEventListener('DOMContentLoaded', function() {
       EB.KeyCapture.captureKey(false, '56', capturekeyCallback);
       EB.KeyCapture.captureKey(false, '57', capturekeyCallback);
       EB.KeyCapture.captureKey(false, '106', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '121', capturekeyCallback);
+
 
       /* other keys */
       EB.KeyCapture.captureKey(false, '8', capturekeyCallback);

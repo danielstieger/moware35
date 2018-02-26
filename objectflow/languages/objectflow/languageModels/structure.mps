@@ -896,6 +896,16 @@
       <property role="20kJfa" value="cancelJournalOperation" />
       <ref role="20lvS9" node="6S08D5Jofmr" resolve="OperationCall" />
     </node>
+    <node concept="1TJgyj" id="jDMPdc$kjJ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cancelMarkerEnabled" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="jDMPdc$klz" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="cancelJournalEnabled" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="1IEa9ReVfmD" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="process" />

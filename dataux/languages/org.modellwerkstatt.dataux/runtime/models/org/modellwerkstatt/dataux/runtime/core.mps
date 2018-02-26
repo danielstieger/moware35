@@ -22384,20 +22384,6 @@
             <node concept="3clFbS" id="3nYsKhuY6ts" role="9aQI4">
               <node concept="3clFbJ" id="1nXeD0e_TOM" role="3cqZAp">
                 <node concept="3clFbS" id="1nXeD0e_TOO" role="3clFbx">
-                  <node concept="3clFbF" id="1OvPoUuJW18" role="3cqZAp">
-                    <node concept="2OqwBi" id="1OvPoUuJW15" role="3clFbG">
-                      <node concept="10M0yZ" id="1OvPoUuJW16" role="2Oq$k0">
-                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                      </node>
-                      <node concept="liA8E" id="1OvPoUuJW17" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                        <node concept="Xl_RD" id="1OvPoUuJWe1" role="37wK5m">
-                          <property role="Xl_RC" value="Running in LOOPED STARTEGY" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
                   <node concept="3clFbF" id="3fji5qpR9K2" role="3cqZAp">
                     <node concept="37vLTI" id="3fji5qpRafa" role="3clFbG">
                       <node concept="Rm8GO" id="3fji5qpRa$q" role="37vLTx">
