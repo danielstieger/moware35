@@ -51,7 +51,6 @@ function scanReceived(params) {
   }
   $('input[scanable="true"]').value = params['data'];
   var conclusion = $('input[name="scanconclusion"]').value;
-  console.log('PARAMS: ' + params['data']);
 
   SaveSubmit(conclusion);
 }
@@ -209,12 +208,15 @@ function capturekeyCallback(params) {
     /* focus on next elem */
     nextEnabledOrDefaultButton($('*[focusme="true"]').getAttribute('editorIndex'));
     return;
+    
   } else if (key == 121) {
     EB.Application.quit();
     return;
+  } else if (key == 119) {
+    alert('COLOR: ' + document.defaultView.getComputedStyle($('input[useMyKeyboard="true"]'),null).getPropertyValue('color'));	
+	return; 
   }
-
-
+  
   /* handling of keyboard, including mykeyboardFirstKeyAfterFocus*/
   var inp = $('input[focusme="true"]');
   var text = inp.value.toString();
@@ -302,7 +304,8 @@ document.addEventListener('DOMContentLoaded', function() {
       EB.KeyCapture.captureKey(false, '57', capturekeyCallback);
       EB.KeyCapture.captureKey(false, '106', capturekeyCallback);
       EB.KeyCapture.captureKey(false, '121', capturekeyCallback);
-
+	  EB.KeyCapture.captureKey(false, '119', capturekeyCallback);
+	
 
       /* other keys */
       EB.KeyCapture.captureKey(false, '8', capturekeyCallback);

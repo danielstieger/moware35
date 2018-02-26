@@ -229,9 +229,12 @@ input:focus, textarea:focus, select:focus {
 }
 
 input[focusme="true"][useMyKeyboard="true"] {
-	background: #F69384 !important;
+	background: #f6c6bf !important;
 	color: #000000 !important;
 	border-bottom: 3px solid rgb(200, 199, 204) !important;
+}
+input[focusme="true"][useMyKeyboard="true"]:disabled {
+	color: #000000 !important;
 }
 
 input:disabled, textarea:disabled, select:disabled {
