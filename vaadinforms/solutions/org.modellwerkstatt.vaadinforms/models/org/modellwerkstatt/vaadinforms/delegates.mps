@@ -802,6 +802,31 @@
       <node concept="3clFbS" id="5GiT4fwFtim" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="5GiT4fwFr2T" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9ia5iJ" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9ia5iK" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9ia5iL" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9ia5iM" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9ia5iN" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9ia5iP" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9ia6ud" role="3cqZAp">
+          <node concept="2OqwBi" id="1DW7q9ia6Ae" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9ia6uc" role="2Oq$k0">
+              <ref role="3cqZAo" node="xFWXJRYEc1" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="1DW7q9ia7a3" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~AbstractTextField.setInputPrompt(java.lang.String):void" resolve="setInputPrompt" />
+              <node concept="37vLTw" id="1DW7q9ia7l$" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9ia5iK" resolve="promptText" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="xFWXJRXBCE" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setDelegate" />
@@ -1704,6 +1729,31 @@
       </node>
     </node>
     <node concept="2tJIrI" id="xFWXJRZxIm" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9ia8Ri" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9ia8Rj" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9ia8Rk" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9ia8Rl" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9ia8Rm" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9ia8Rp" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9iaaes" role="3cqZAp">
+          <node concept="2OqwBi" id="1DW7q9iaan$" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9iaaeq" role="2Oq$k0">
+              <ref role="3cqZAo" node="xFWXJRZwyx" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="1DW7q9iab3w" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~ComboBox.setInputPrompt(java.lang.String):void" resolve="setInputPrompt" />
+              <node concept="37vLTw" id="1DW7q9iablB" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9ia8Rj" resolve="promptText" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="xFWXJRZuwV" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getSelectedIndex" />
@@ -2769,7 +2819,7 @@
     </node>
     <node concept="3clFb_" id="6KBCmIOKPAD" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setPromptText" />
+      <property role="TrG5h" value="setEditorPrompt" />
       <node concept="37vLTG" id="6KBCmIOKPAE" role="3clF46">
         <property role="TrG5h" value="text" />
         <node concept="17QB3L" id="6KBCmIOKPAF" role="1tU5fm" />
@@ -4112,6 +4162,31 @@
       <node concept="3cqZAl" id="1mou_EBczI_" role="3clF45" />
       <node concept="3Tm1VV" id="1mou_EBczIA" role="1B3o_S" />
       <node concept="3clFbS" id="1mou_EBczIC" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1DW7q9iahFE" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9iahFF" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9iahFG" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9iahFH" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9iahFI" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9iahFK" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9iaiLx" role="3cqZAp">
+          <node concept="2OqwBi" id="1DW7q9iaiTy" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9iaiLw" role="2Oq$k0">
+              <ref role="3cqZAo" node="6KBCmIORgus" resolve="textArea" />
+            </node>
+            <node concept="liA8E" id="1DW7q9iajt2" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~AbstractTextField.setInputPrompt(java.lang.String):void" resolve="setInputPrompt" />
+              <node concept="37vLTw" id="1DW7q9iajCs" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9iahFF" resolve="promptText" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="1mou_EBczID" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -6203,7 +6278,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1l2SXGvX1Ea" role="3cqZAp" />
+        <node concept="3clFbH" id="1DW7q9hZOJM" role="3cqZAp" />
         <node concept="3clFbF" id="1l2SXGvX1Eb" role="3cqZAp">
           <node concept="37vLTI" id="1l2SXGvX1Ec" role="3clFbG">
             <node concept="3clFbT" id="1l2SXGvX1Ed" role="37vLTx" />
@@ -6898,6 +6973,31 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1l2SXGvX1Ig" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9ialwY" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9ialwZ" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9ialx0" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9ialx1" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9ialx2" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9ialx4" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9iamRs" role="3cqZAp">
+          <node concept="2OqwBi" id="1DW7q9iamZL" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9iamRr" role="2Oq$k0">
+              <ref role="3cqZAo" node="1l2SXGvX1B_" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="1DW7q9ianXz" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~AbstractTextField.setInputPrompt(java.lang.String):void" resolve="setInputPrompt" />
+              <node concept="37vLTw" id="1DW7q9iao9B" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9ialwZ" resolve="promptText" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="6TNACHp3HQv" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
@@ -9280,6 +9380,31 @@
       </node>
     </node>
     <node concept="2tJIrI" id="hObkZkKrdA" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9iapL0" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9iapL1" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9iapL2" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9iapL3" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9iapL4" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9iapL7" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9iatfk" role="3cqZAp">
+          <node concept="2OqwBi" id="1DW7q9iatne" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9iatfj" role="2Oq$k0">
+              <ref role="3cqZAo" node="hObkZkEZfr" resolve="dateTimeField" />
+            </node>
+            <node concept="liA8E" id="1DW7q9iatWQ" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~PopupDateField.setInputPrompt(java.lang.String):void" resolve="setInputPrompt" />
+              <node concept="37vLTw" id="1DW7q9iaudl" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9iapL1" resolve="promptText" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="hObkZkEYSz" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="isValidationErrorText" />

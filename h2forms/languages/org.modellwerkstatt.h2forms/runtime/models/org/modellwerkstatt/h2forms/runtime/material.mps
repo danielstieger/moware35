@@ -7218,6 +7218,17 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3yfWYM11QFr" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9i5zAt" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i5zAu" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i5zAv" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9i5zAw" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9i5zAx" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9i5zA$" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="6TNACHp5Fqz" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setReadOnlyModeNotDisabled" />
@@ -8007,6 +8018,17 @@
       </node>
     </node>
     <node concept="2tJIrI" id="46JJF8IQrUd" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9i5$OY" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i5$OZ" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i5$P0" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9i5$P1" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9i5$P2" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9i5$P5" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="12GNNnCCl0T" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setIssuesUpdateConclusion" />
@@ -10651,6 +10673,17 @@
       </node>
     </node>
     <node concept="2tJIrI" id="46JJF8ILY_A" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9i5_Q9" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i5_Qa" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i5_Qb" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9i5_Qc" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9i5_Qd" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9i5_Qf" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="6TNACHp5HBt" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setReadOnlyModeNotDisabled" />

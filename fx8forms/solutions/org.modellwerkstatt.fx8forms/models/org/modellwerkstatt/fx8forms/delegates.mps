@@ -47,6 +47,10 @@
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
+      <concept id="1173175405605" name="jetbrains.mps.baseLanguage.structure.ArrayAccessExpression" flags="nn" index="AH0OO">
+        <child id="1173175577737" name="index" index="AHEQo" />
+        <child id="1173175590490" name="array" index="AHHXb" />
+      </concept>
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
@@ -4494,6 +4498,33 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2rVYvNSgPvZ" role="jymVt" />
+    <node concept="2tJIrI" id="1DW7q9i2d5I" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9i2dSN" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i2dSO" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i2dSP" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9i2dSQ" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9i2dSR" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9i2dST" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9i2eKJ" role="3cqZAp">
+          <node concept="2OqwBi" id="1DW7q9i2eMY" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9i2eKI" role="2Oq$k0">
+              <ref role="3cqZAo" node="5Y1b9tR0exE" resolve="textField" />
+            </node>
+            <node concept="liA8E" id="1DW7q9i2f6f" role="2OqNvi">
+              <ref role="37wK5l" to="rb41:~TextInputControl.setPromptText(java.lang.String):void" resolve="setPromptText" />
+              <node concept="37vLTw" id="1DW7q9i2f8F" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9i2dSO" resolve="promptText" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1DW7q9i2ciF" role="jymVt" />
     <node concept="3clFb_" id="2rVYvNSgQvv" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="gcClear" />
@@ -5345,6 +5376,31 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3sEA$PIzUNc" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9i2gcG" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i2gcH" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i2gcI" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9i2gcJ" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9i2gcK" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9i2gcM" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9i2h0O" role="3cqZAp">
+          <node concept="2OqwBi" id="1DW7q9i2h33" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9i2h0N" role="2Oq$k0">
+              <ref role="3cqZAo" node="3sEA$PIzUI0" resolve="textArea" />
+            </node>
+            <node concept="liA8E" id="1DW7q9i2hzJ" role="2OqNvi">
+              <ref role="37wK5l" to="rb41:~TextInputControl.setPromptText(java.lang.String):void" resolve="setPromptText" />
+              <node concept="37vLTw" id="1DW7q9i2hAb" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9i2gcH" resolve="promptText" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="3sEA$PIzUNd" role="jymVt">
       <property role="TrG5h" value="setEnabled" />
       <node concept="37vLTG" id="3sEA$PIzUNe" role="3clF46">
@@ -6150,6 +6206,31 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1kaU3pLWzXA" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9i2iXw" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i2iXx" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i2iXy" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9i2iXz" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9i2iX$" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9i2iXB" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9i2jX9" role="3cqZAp">
+          <node concept="2OqwBi" id="1DW7q9i2k16" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9i2jX8" role="2Oq$k0">
+              <ref role="3cqZAo" node="1kaU3pLWzTQ" resolve="comboBox" />
+            </node>
+            <node concept="liA8E" id="1DW7q9i2kBj" role="2OqNvi">
+              <ref role="37wK5l" to="rb41:~ComboBoxBase.setPromptText(java.lang.String):void" resolve="setPromptText" />
+              <node concept="37vLTw" id="1DW7q9i2kQ1" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9i2iXx" resolve="promptText" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="1kaU3pLWzXB" role="jymVt">
       <property role="TrG5h" value="setValidationErrorText" />
       <node concept="37vLTG" id="1kaU3pLWzXC" role="3clF46">
@@ -7609,17 +7690,16 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="1YFjUjHUi0P" role="jymVt" />
-    <node concept="3clFb_" id="1YFjUjI0CBd" role="jymVt">
+    <node concept="3clFb_" id="1DW7q9i2mGp" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setPromptText" />
-      <node concept="37vLTG" id="1YFjUjI0CBe" role="3clF46">
-        <property role="TrG5h" value="text" />
-        <node concept="17QB3L" id="1YFjUjI0CBf" role="1tU5fm" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i2mGq" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i2mGr" role="1tU5fm" />
       </node>
-      <node concept="3cqZAl" id="1YFjUjI0CBg" role="3clF45" />
-      <node concept="3Tm1VV" id="1YFjUjI0CBh" role="1B3o_S" />
-      <node concept="3clFbS" id="1YFjUjI0CBj" role="3clF47">
+      <node concept="3cqZAl" id="1DW7q9i2mGs" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9i2mGt" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9i2mGw" role="3clF47">
         <node concept="3clFbF" id="1YFjUjI0CIo" role="3cqZAp">
           <node concept="2OqwBi" id="1YFjUjI0Drn" role="3clFbG">
             <node concept="37vLTw" id="1YFjUjI0CIn" role="2Oq$k0">
@@ -7627,16 +7707,14 @@
             </node>
             <node concept="liA8E" id="1YFjUjI0DLt" role="2OqNvi">
               <ref role="37wK5l" to="rb41:~TextInputControl.setPromptText(java.lang.String):void" resolve="setPromptText" />
-              <node concept="37vLTw" id="1YFjUjI0DM0" role="37wK5m">
-                <ref role="3cqZAo" node="1YFjUjI0CBe" resolve="text" />
+              <node concept="37vLTw" id="1DW7q9i2ozt" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9i2mGq" resolve="promptText" />
               </node>
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="1YFjUjHUi0Q" role="jymVt" />
-    <node concept="2tJIrI" id="1YFjUjHUi1y" role="jymVt" />
     <node concept="3clFb_" id="4ceCyFmsGB1" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setIssuesUpdateConclusion" />
@@ -8522,6 +8600,17 @@
       <node concept="3clFbS" id="4ceCyFmsLew" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="6Ag5kTzHvwV" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9i2rQv" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i2rQw" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i2rQx" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9i2rQy" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9i2rQz" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9i2rQA" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="1g4weU8iy9m" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setSubtractWidth" />
@@ -9385,6 +9474,93 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1l2SXGvHR$3" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9i2tu4" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i2tu5" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i2tu6" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9i2tu7" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9i2tu8" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9i2tud" role="3clF47">
+        <node concept="3clFbJ" id="1DW7q9i2w3f" role="3cqZAp">
+          <node concept="2OqwBi" id="1DW7q9i2wdt" role="3clFbw">
+            <node concept="37vLTw" id="1DW7q9i2w95" role="2Oq$k0">
+              <ref role="3cqZAo" node="1DW7q9i2tu5" resolve="promptText" />
+            </node>
+            <node concept="liA8E" id="1DW7q9i2wpX" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="1DW7q9i2wtg" role="37wK5m">
+                <property role="Xl_RC" value=" " />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="1DW7q9i2w3h" role="3clFbx">
+            <node concept="3cpWs8" id="1DW7q9i2wxY" role="3cqZAp">
+              <node concept="3cpWsn" id="1DW7q9i2wy1" role="3cpWs9">
+                <property role="TrG5h" value="splitted" />
+                <node concept="10Q1$e" id="1DW7q9i2wyr" role="1tU5fm">
+                  <node concept="17QB3L" id="1DW7q9i2wxX" role="10Q1$1" />
+                </node>
+                <node concept="2OqwBi" id="1DW7q9i2wZd" role="33vP2m">
+                  <node concept="2OqwBi" id="1DW7q9i2wHF" role="2Oq$k0">
+                    <node concept="37vLTw" id="1DW7q9i2wD8" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1DW7q9i2tu5" resolve="promptText" />
+                    </node>
+                    <node concept="liA8E" id="1DW7q9i2wXa" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1DW7q9i2xd3" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.split(java.lang.String):java.lang.String[]" resolve="split" />
+                    <node concept="Xl_RD" id="1DW7q9i2xh$" role="37wK5m">
+                      <property role="Xl_RC" value="\\s+" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1DW7q9i2xtz" role="3cqZAp">
+              <node concept="2OqwBi" id="1DW7q9i2xzz" role="3clFbG">
+                <node concept="37vLTw" id="1DW7q9i2xtx" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1l2SXGvFVGF" resolve="dateField" />
+                </node>
+                <node concept="liA8E" id="1DW7q9i2xXz" role="2OqNvi">
+                  <ref role="37wK5l" to="rb41:~TextInputControl.setPromptText(java.lang.String):void" resolve="setPromptText" />
+                  <node concept="AH0OO" id="1DW7q9i2yaP" role="37wK5m">
+                    <node concept="3cmrfG" id="1DW7q9i2yeU" role="AHEQo">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                    <node concept="37vLTw" id="1DW7q9i2y4e" role="AHHXb">
+                      <ref role="3cqZAo" node="1DW7q9i2wy1" resolve="splitted" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1DW7q9i2ygh" role="3cqZAp">
+              <node concept="2OqwBi" id="1DW7q9i2ygi" role="3clFbG">
+                <node concept="37vLTw" id="1DW7q9i2yyZ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1l2SXGvFY6V" resolve="timeField" />
+                </node>
+                <node concept="liA8E" id="1DW7q9i2ygk" role="2OqNvi">
+                  <ref role="37wK5l" to="rb41:~TextInputControl.setPromptText(java.lang.String):void" resolve="setPromptText" />
+                  <node concept="AH0OO" id="1DW7q9i2ygl" role="37wK5m">
+                    <node concept="3cmrfG" id="1DW7q9i2ygm" role="AHEQo">
+                      <property role="3cmrfH" value="1" />
+                    </node>
+                    <node concept="37vLTw" id="1DW7q9i2ygn" role="AHHXb">
+                      <ref role="3cqZAo" node="1DW7q9i2wy1" resolve="splitted" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="1l2SXGvGrTM" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setLabel" />

@@ -567,6 +567,17 @@
       <node concept="3Tm1VV" id="5Y1b9tR2iZr" role="1B3o_S" />
       <node concept="3clFbS" id="5Y1b9tR2iZs" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="1DW7q9hZZGY" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setEditorPrompt" />
+      <node concept="37vLTG" id="1DW7q9i0fbp" role="3clF46">
+        <property role="TrG5h" value="promptText" />
+        <node concept="17QB3L" id="1DW7q9i0flb" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9hZZH0" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9hZZH1" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9hZZH2" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="4ceCyFmoTuE" role="jymVt" />
     <node concept="3clFb_" id="3yfWYM0WS3B" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -651,17 +662,6 @@
       <node concept="3cqZAl" id="1YFjUjHW3Av" role="3clF45" />
       <node concept="3Tm1VV" id="1YFjUjHW3Aw" role="1B3o_S" />
       <node concept="3clFbS" id="1YFjUjHW3Ax" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="1YFjUjI0ArT" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setPromptText" />
-      <node concept="37vLTG" id="1YFjUjI0Asa" role="3clF46">
-        <property role="TrG5h" value="text" />
-        <node concept="17QB3L" id="1YFjUjI0Ase" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="1YFjUjI0ArV" role="3clF45" />
-      <node concept="3Tm1VV" id="1YFjUjI0ArW" role="1B3o_S" />
-      <node concept="3clFbS" id="1YFjUjI0ArX" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="1YFjUjHUi2e" role="1B3o_S" />
     <node concept="3uibUv" id="1YFjUjHUi2f" role="3HQHJm">
