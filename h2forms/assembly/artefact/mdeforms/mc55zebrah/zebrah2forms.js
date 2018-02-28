@@ -186,18 +186,39 @@ function nextEnabledOrDefaultButton(currentIndex) {
   }
 }
 
+function hkButton(sectionName, index, minButtonsInSection) {
+  var allSectionButtons = $$('button[' + sectionName + '="true"]');
+
+  if (allSectionButtons.length >= minButtonsInSection) {
+    if (index < 0) {
+      index = allSectionButtons.length + index;
+    }
+    var btn = allSectionButtons[index];
+    if (btn.disabled == false) {
+      SaveSubmit(btn.getAttribute('navicrtl'));
+    }
+  }
+}
+
 function capturekeyCallback(params) {
   var key = parseInt(params['keyValue']);
 
   /* alert('HOTEKY=' + key + ' / ' + new Date().getMilliseconds()); */
-  if (key == 4 || key == 38) {
+  if (key == 4 || key == 125) {
     // back key
-    SaveSubmit($('#cancelbutton').getAttribute('navicrtl'));
+    hkButton('concbut', 0, 1);
+    return;
+
+  } else if (key == 126) {
+    hkButton('concbut', -1, 2);
+    return;
+
+  } else if (key == 38) {
+    hkButton('concbut', 1, 4);
     return;
 
   } else if (key == 40) {
-    var buttons = $$('button');
-    SaveSubmit(buttons[buttons.length - 1].getAttribute('navicrtl'));
+    hkButton('concbut', -2, 3);
     return;
 
   } else if (key == 27) {
@@ -208,15 +229,15 @@ function capturekeyCallback(params) {
     /* focus on next elem */
     nextEnabledOrDefaultButton($('*[focusme="true"]').getAttribute('editorIndex'));
     return;
-    
+
   } else if (key == 121) {
     EB.Application.quit();
     return;
   } else if (key == 119) {
-    alert('COLOR: ' + document.defaultView.getComputedStyle($('input[useMyKeyboard="true"]'),null).getPropertyValue('color'));	
-	return; 
+    alert('COLOR: ' + document.defaultView.getComputedStyle($('input[useMyKeyboard="true"]'), null).getPropertyValue('color'));
+    return;
   }
-  
+
   /* handling of keyboard, including mykeyboardFirstKeyAfterFocus*/
   var inp = $('input[focusme="true"]');
   var text = inp.value.toString();
@@ -304,8 +325,9 @@ document.addEventListener('DOMContentLoaded', function() {
       EB.KeyCapture.captureKey(false, '57', capturekeyCallback);
       EB.KeyCapture.captureKey(false, '106', capturekeyCallback);
       EB.KeyCapture.captureKey(false, '121', capturekeyCallback);
-	  EB.KeyCapture.captureKey(false, '119', capturekeyCallback);
-	
+      EB.KeyCapture.captureKey(false, '125', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '126', capturekeyCallback);
+      EB.KeyCapture.captureKey(false, '119', capturekeyCallback);
 
       /* other keys */
       EB.KeyCapture.captureKey(false, '8', capturekeyCallback);

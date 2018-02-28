@@ -308,8 +308,8 @@
     <node concept="312cEg" id="4oHg2nSLfIU" role="jymVt">
       <property role="TrG5h" value="clientType" />
       <node concept="3Tmbuc" id="4oHg2nSLfIV" role="1B3o_S" />
-      <node concept="3uibUv" id="4oHg2nSLfXP" role="1tU5fm">
-        <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+      <node concept="3uibUv" id="1DW7q9hKclB" role="1tU5fm">
+        <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="H2ClientInformation" />
       </node>
     </node>
     <node concept="2tJIrI" id="19fE_UXukj4" role="jymVt" />
@@ -355,9 +355,9 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="init" />
       <node concept="37vLTG" id="2RoKLt0oPGY" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="2RoKLt0oPGZ" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+        <property role="TrG5h" value="client" />
+        <node concept="3uibUv" id="1DW7q9hKcrQ" role="1tU5fm">
+          <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="H2ClientInformation" />
         </node>
       </node>
       <node concept="37vLTG" id="2RoKLt0oPH0" role="3clF46">
@@ -374,7 +374,7 @@
         <node concept="3clFbF" id="4oHg2nSLhn2" role="3cqZAp">
           <node concept="37vLTI" id="4oHg2nSLhz4" role="3clFbG">
             <node concept="37vLTw" id="4oHg2nSLhAF" role="37vLTx">
-              <ref role="3cqZAo" node="2RoKLt0oPGY" resolve="type" />
+              <ref role="3cqZAo" node="2RoKLt0oPGY" resolve="client" />
             </node>
             <node concept="2OqwBi" id="4oHg2nSLhpF" role="37vLTJ">
               <node concept="Xjq3P" id="4oHg2nSLhn0" role="2Oq$k0" />
@@ -1105,9 +1105,9 @@
         <node concept="3cpWsb" id="19fE_UXtfd3" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="4oHg2nSLcjP" role="3clF46">
-        <property role="TrG5h" value="clientType" />
-        <node concept="3uibUv" id="4oHg2nSLctW" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+        <property role="TrG5h" value="client" />
+        <node concept="3uibUv" id="1DW7q9hKg8c" role="1tU5fm">
+          <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="H2ClientInformation" />
         </node>
       </node>
       <node concept="3cqZAl" id="2RoKLt0oO5m" role="3clF45" />
@@ -1394,7 +1394,7 @@
             <property role="TXvUO" value="&lt;input type=&quot;hidden&quot; name=&quot;H1HttpClient&quot; value=&quot;" />
           </node>
           <node concept="37vLTw" id="4oHg2nSLcDt" role="2Uj5MM">
-            <ref role="3cqZAo" node="4oHg2nSLcjP" resolve="clientType" />
+            <ref role="3cqZAo" node="4oHg2nSLcjP" resolve="client" />
           </node>
           <node concept="TXvP7" id="4oHg2nSKPf0" role="2Uj5MM">
             <property role="TXvUO" value="&quot;&gt;" />
@@ -2319,11 +2319,11 @@
     <node concept="312cEg" id="kA5KhwgqX2" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="httpClientType" />
+      <property role="TrG5h" value="clientInformation" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="kA5Khwgqmx" role="1B3o_S" />
-      <node concept="3uibUv" id="kA5KhwgqQd" role="1tU5fm">
-        <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+      <node concept="3uibUv" id="1DW7q9hKfxw" role="1tU5fm">
+        <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="H2ClientInformation" />
       </node>
     </node>
     <node concept="312cEg" id="2xnCXJMjPgx" role="jymVt">
@@ -2422,9 +2422,9 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="init" />
       <node concept="37vLTG" id="19fE_UXrEI0" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="19fE_UXrEI1" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+        <property role="TrG5h" value="client" />
+        <node concept="3uibUv" id="1DW7q9hKedJ" role="1tU5fm">
+          <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="H2ClientInformation" />
         </node>
       </node>
       <node concept="37vLTG" id="19fE_UXrEI2" role="3clF46">
@@ -2441,10 +2441,10 @@
         <node concept="3clFbF" id="2xnCXJMjJPo" role="3cqZAp">
           <node concept="37vLTI" id="2xnCXJMjJT8" role="3clFbG">
             <node concept="37vLTw" id="2xnCXJMjJUL" role="37vLTx">
-              <ref role="3cqZAo" node="19fE_UXrEI0" resolve="type" />
+              <ref role="3cqZAo" node="19fE_UXrEI0" resolve="client" />
             </node>
             <node concept="37vLTw" id="2xnCXJMjJPm" role="37vLTJ">
-              <ref role="3cqZAo" node="kA5KhwgqX2" resolve="httpClientType" />
+              <ref role="3cqZAo" node="kA5KhwgqX2" resolve="clientInformation" />
             </node>
           </node>
         </node>
@@ -3363,7 +3363,7 @@
               <ref role="3cqZAo" node="1zNXRu8JcJ8" resolve="sequenceId" />
             </node>
             <node concept="37vLTw" id="4oHg2nSLeuh" role="37wK5m">
-              <ref role="3cqZAo" node="kA5KhwgqX2" resolve="httpClientType" />
+              <ref role="3cqZAo" node="kA5KhwgqX2" resolve="clientInformation" />
             </node>
           </node>
         </node>

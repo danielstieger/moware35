@@ -29,6 +29,9 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="1219920932475" name="jetbrains.mps.baseLanguage.structure.VariableArityType" flags="in" index="8X2XB">
+        <child id="1219921048460" name="componentType" index="8Xvag" />
+      </concept>
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -5167,11 +5170,11 @@
     <node concept="312cEg" id="kA5KhwgqX2" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="httpClientType" />
+      <property role="TrG5h" value="client" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="kA5Khwgqmx" role="1B3o_S" />
-      <node concept="3uibUv" id="kA5KhwgqQd" role="1tU5fm">
-        <ref role="3uigEE" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+      <node concept="3uibUv" id="1DW7q9hKzdK" role="1tU5fm">
+        <ref role="3uigEE" node="1DW7q9hHeAn" resolve="H2ClientInformation" />
       </node>
     </node>
     <node concept="312cEg" id="kA5KhwgVK8" role="jymVt">
@@ -5290,9 +5293,9 @@
         </node>
       </node>
       <node concept="37vLTG" id="kA5KhwiF4W" role="3clF46">
-        <property role="TrG5h" value="client" />
-        <node concept="3uibUv" id="kA5KhwiFeL" role="1tU5fm">
-          <ref role="3uigEE" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+        <property role="TrG5h" value="cli" />
+        <node concept="3uibUv" id="1DW7q9hKz9H" role="1tU5fm">
+          <ref role="3uigEE" node="1DW7q9hHeAn" resolve="H2ClientInformation" />
         </node>
       </node>
       <node concept="37vLTG" id="kA5KhwgWzY" role="3clF46">
@@ -5331,10 +5334,10 @@
         <node concept="3clFbF" id="kA5KhwiFkt" role="3cqZAp">
           <node concept="37vLTI" id="kA5KhwiFoG" role="3clFbG">
             <node concept="37vLTw" id="kA5KhwiFqb" role="37vLTx">
-              <ref role="3cqZAo" node="kA5KhwiF4W" resolve="client" />
+              <ref role="3cqZAo" node="kA5KhwiF4W" resolve="cli" />
             </node>
-            <node concept="37vLTw" id="kA5KhwiFkr" role="37vLTJ">
-              <ref role="3cqZAo" node="kA5KhwgqX2" resolve="httpClientType" />
+            <node concept="37vLTw" id="1DW7q9hKMpe" role="37vLTJ">
+              <ref role="3cqZAo" node="kA5KhwgqX2" resolve="client" />
             </node>
           </node>
         </node>
@@ -5465,7 +5468,7 @@
             <node concept="liA8E" id="2xnCXJMqgH0" role="2OqNvi">
               <ref role="37wK5l" node="2xnCXJMqeZl" resolve="init" />
               <node concept="37vLTw" id="2xnCXJMqgKk" role="37wK5m">
-                <ref role="3cqZAo" node="kA5KhwgqX2" resolve="httpClientType" />
+                <ref role="3cqZAo" node="kA5KhwgqX2" resolve="client" />
               </node>
               <node concept="37vLTw" id="2xnCXJMqgW1" role="37wK5m">
                 <ref role="3cqZAo" node="kA5KhwgVK8" resolve="requestHostName" />
@@ -8140,7 +8143,7 @@
             <node concept="liA8E" id="2xnCXJMqlo2" role="2OqNvi">
               <ref role="37wK5l" node="2xnCXJMqfHT" resolve="init" />
               <node concept="37vLTw" id="2xnCXJMqlr5" role="37wK5m">
-                <ref role="3cqZAo" node="kA5KhwgqX2" resolve="httpClientType" />
+                <ref role="3cqZAo" node="kA5KhwgqX2" resolve="client" />
               </node>
               <node concept="37vLTw" id="2xnCXJMqlvc" role="37wK5m">
                 <ref role="3cqZAo" node="kA5KhwgVK8" resolve="requestHostName" />
@@ -9198,9 +9201,9 @@
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="init" />
       <node concept="37vLTG" id="2xnCXJMqfHU" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="2xnCXJMqfHV" role="1tU5fm">
-          <ref role="3uigEE" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+        <property role="TrG5h" value="client" />
+        <node concept="3uibUv" id="1DW7q9hJzOP" role="1tU5fm">
+          <ref role="3uigEE" node="1DW7q9hHeAn" resolve="H2ClientInformation" />
         </node>
       </node>
       <node concept="37vLTG" id="2xnCXJMqfHW" role="3clF46">
@@ -9280,9 +9283,9 @@
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="init" />
       <node concept="37vLTG" id="2xnCXJMjJlH" role="3clF46">
-        <property role="TrG5h" value="type" />
-        <node concept="3uibUv" id="2xnCXJMjJmN" role="1tU5fm">
-          <ref role="3uigEE" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+        <property role="TrG5h" value="client" />
+        <node concept="3uibUv" id="1DW7q9hJO10" role="1tU5fm">
+          <ref role="3uigEE" node="1DW7q9hHeAn" resolve="H2ClientInformation" />
         </node>
       </node>
       <node concept="37vLTG" id="2xnCXJMp_vE" role="3clF46">
@@ -9928,11 +9931,11 @@
     <node concept="312cEg" id="1wwgtxzgiJY" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="httpClientType" />
+      <property role="TrG5h" value="client" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="1wwgtxzgiJZ" role="1B3o_S" />
-      <node concept="3uibUv" id="1wwgtxzgiK0" role="1tU5fm">
-        <ref role="3uigEE" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+      <node concept="3uibUv" id="1DW7q9hK$ky" role="1tU5fm">
+        <ref role="3uigEE" node="1DW7q9hHeAn" resolve="H2ClientInformation" />
       </node>
     </node>
     <node concept="312cEg" id="1wwgtxzgHOV" role="jymVt">
@@ -10061,20 +10064,20 @@
           <ref role="3uigEE" to="nwfd:~HttpServletRequest" resolve="HttpServletRequest" />
         </node>
       </node>
-      <node concept="3uibUv" id="4Rlyz3E6ING" role="3clF45">
-        <ref role="3uigEE" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+      <node concept="3uibUv" id="1DW7q9hK$AR" role="3clF45">
+        <ref role="3uigEE" node="1DW7q9hHeAn" resolve="H2ClientInformation" />
       </node>
       <node concept="3Tm1VV" id="4Rlyz3E6FEq" role="1B3o_S" />
       <node concept="3clFbS" id="4Rlyz3E6FEr" role="3clF47">
         <node concept="3cpWs8" id="4Rlyz3E6UWk" role="3cqZAp">
           <node concept="3cpWsn" id="4Rlyz3E6UWl" role="3cpWs9">
-            <property role="TrG5h" value="detectedClient" />
-            <node concept="3uibUv" id="4Rlyz3E6UWm" role="1tU5fm">
-              <ref role="3uigEE" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+            <property role="TrG5h" value="deviceDetected" />
+            <node concept="3uibUv" id="1DW7q9hK_1i" role="1tU5fm">
+              <ref role="3uigEE" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
             </node>
-            <node concept="Rm8GO" id="4Rlyz3E6UWn" role="33vP2m">
-              <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-              <ref role="Rm8GQ" node="4Rlyz3E5xzC" resolve="OTHER_AJAX" />
+            <node concept="Rm8GO" id="1DW7q9hK_79" role="33vP2m">
+              <ref role="Rm8GQ" node="1DW7q9hIa_1" resolve="OTHER_AJAX" />
+              <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
             </node>
           </node>
         </node>
@@ -10163,12 +10166,12 @@
             <node concept="3clFbS" id="3Sgll4LMNrr" role="3eOfB_">
               <node concept="3clFbF" id="3Sgll4LMYxl" role="3cqZAp">
                 <node concept="37vLTI" id="3Sgll4LMY_z" role="3clFbG">
-                  <node concept="Rm8GO" id="3Sgll4LN0Ew" role="37vLTx">
-                    <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                    <ref role="Rm8GQ" node="4Rlyz3E5v_q" resolve="HONEYWELL_BROWSER" />
-                  </node>
                   <node concept="37vLTw" id="3Sgll4LMYxj" role="37vLTJ">
-                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="detectedClient" />
+                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceDetected" />
+                  </node>
+                  <node concept="Rm8GO" id="1DW7q9hK_cW" role="37vLTx">
+                    <ref role="Rm8GQ" node="1DW7q9hIa_i" resolve="HONEYWELL_BROWSER" />
+                    <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
                   </node>
                 </node>
               </node>
@@ -10178,12 +10181,12 @@
           <node concept="3clFbS" id="4Rlyz3E5SmX" role="3clFbx">
             <node concept="3clFbF" id="4Rlyz3E777z" role="3cqZAp">
               <node concept="37vLTI" id="4Rlyz3E788Q" role="3clFbG">
-                <node concept="Rm8GO" id="4Rlyz3E79qt" role="37vLTx">
-                  <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                  <ref role="Rm8GQ" node="4Rlyz3E5tAm" resolve="ANDRO_ZEBRAEB_TRADITIONAL" />
-                </node>
                 <node concept="37vLTw" id="4Rlyz3E777x" role="37vLTJ">
-                  <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="detectedClient" />
+                  <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceDetected" />
+                </node>
+                <node concept="Rm8GO" id="1DW7q9hK_a3" role="37vLTx">
+                  <ref role="Rm8GQ" node="1DW7q9hIa$2" resolve="ANDRO_ZEBRAEB_TRADITIONAL" />
+                  <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
                 </node>
               </node>
             </node>
@@ -10204,12 +10207,12 @@
             <node concept="3clFbS" id="4Rlyz3E7aqp" role="3eOfB_">
               <node concept="3clFbF" id="4Rlyz3E7FQh" role="3cqZAp">
                 <node concept="37vLTI" id="4Rlyz3E7GRx" role="3clFbG">
-                  <node concept="Rm8GO" id="4Rlyz3E7Iu_" role="37vLTx">
-                    <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                    <ref role="Rm8GQ" node="4Rlyz3E5tAm" resolve="ANDRO_ZEBRAEB_TRADITIONAL" />
-                  </node>
                   <node concept="37vLTw" id="4Rlyz3E7FQg" role="37vLTJ">
-                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="detectedClient" />
+                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceDetected" />
+                  </node>
+                  <node concept="Rm8GO" id="1DW7q9hK_JE" role="37vLTx">
+                    <ref role="Rm8GQ" node="1DW7q9hIa$2" resolve="ANDRO_ZEBRAEB_TRADITIONAL" />
+                    <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
                   </node>
                 </node>
               </node>
@@ -10257,12 +10260,12 @@
             <node concept="3clFbS" id="3Sgll4LMu50" role="3eOfB_">
               <node concept="3clFbF" id="3Sgll4LM_EW" role="3cqZAp">
                 <node concept="37vLTI" id="3Sgll4LMA4u" role="3clFbG">
-                  <node concept="Rm8GO" id="3Sgll4LMC9q" role="37vLTx">
-                    <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                    <ref role="Rm8GQ" node="4Rlyz3E5v_q" resolve="HONEYWELL_BROWSER" />
-                  </node>
                   <node concept="37vLTw" id="3Sgll4LM_EV" role="37vLTJ">
-                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="detectedClient" />
+                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceDetected" />
+                  </node>
+                  <node concept="Rm8GO" id="1DW7q9hK_NS" role="37vLTx">
+                    <ref role="Rm8GQ" node="1DW7q9hIa_i" resolve="HONEYWELL_BROWSER" />
+                    <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
                   </node>
                 </node>
               </node>
@@ -10295,12 +10298,12 @@
             <node concept="3clFbS" id="186V0VF2spW" role="3eOfB_">
               <node concept="3clFbF" id="186V0VF2sH$" role="3cqZAp">
                 <node concept="37vLTI" id="186V0VF2sJG" role="3clFbG">
-                  <node concept="Rm8GO" id="186V0VF2sSc" role="37vLTx">
-                    <ref role="Rm8GQ" node="186V0VF2pk4" resolve="WIN_ZEBRA_AJAX" />
-                    <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                  </node>
                   <node concept="37vLTw" id="186V0VF2sHz" role="37vLTJ">
-                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="detectedClient" />
+                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceDetected" />
+                  </node>
+                  <node concept="Rm8GO" id="1DW7q9hK_RS" role="37vLTx">
+                    <ref role="Rm8GQ" node="1DW7q9hIa$O" resolve="WIN_ZEBRA_AJAX" />
+                    <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
                   </node>
                 </node>
               </node>
@@ -10392,9 +10395,37 @@
           </node>
         </node>
         <node concept="3clFbH" id="186V0VF2nDc" role="3cqZAp" />
-        <node concept="3clFbF" id="4Rlyz3E6VXV" role="3cqZAp">
-          <node concept="37vLTw" id="4Rlyz3E6VXT" role="3clFbG">
-            <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="detectedClient" />
+        <node concept="3cpWs8" id="1DW7q9hKA0x" role="3cqZAp">
+          <node concept="3cpWsn" id="1DW7q9hKA0$" role="3cpWs9">
+            <property role="TrG5h" value="halfResolution" />
+            <node concept="10P_77" id="1DW7q9hKA0v" role="1tU5fm" />
+            <node concept="3y3z36" id="1DW7q9hKAlB" role="33vP2m">
+              <node concept="10Nm6u" id="1DW7q9hKAn9" role="3uHU7w" />
+              <node concept="2OqwBi" id="1DW7q9hKAck" role="3uHU7B">
+                <node concept="37vLTw" id="1DW7q9hKAbc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
+                </node>
+                <node concept="liA8E" id="1DW7q9hKAdI" role="2OqNvi">
+                  <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                  <node concept="Xl_RD" id="1DW7q9hKAfb" role="37wK5m">
+                    <property role="Xl_RC" value="halfres" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1DW7q9hKD6P" role="3cqZAp">
+          <node concept="2ShNRf" id="1DW7q9hKDh8" role="3cqZAk">
+            <node concept="1pGfFk" id="1DW7q9hKDgF" role="2ShVmc">
+              <ref role="37wK5l" node="1DW7q9hIfUH" resolve="H2ClientInformation" />
+              <node concept="37vLTw" id="1DW7q9hKDGJ" role="37wK5m">
+                <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceDetected" />
+              </node>
+              <node concept="37vLTw" id="1DW7q9hKEl2" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9hKA0$" resolve="halfResolution" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -10431,7 +10462,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="1wwgtxzg$G3" role="37vLTJ">
-              <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="httpClientType" />
+              <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="client" />
             </node>
           </node>
         </node>
@@ -10559,24 +10590,35 @@
               <node concept="3clFbS" id="7uJlwJwFxS6" role="3clFbx">
                 <node concept="3clFbF" id="7uJlwJwF$zP" role="3cqZAp">
                   <node concept="37vLTI" id="7uJlwJwF$B9" role="3clFbG">
-                    <node concept="Rm8GO" id="7uJlwJwJAxU" role="37vLTx">
-                      <ref role="Rm8GQ" node="7uJlwJwJ_FP" resolve="ANDRO_ZEBRA_AJAX" />
-                      <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+                    <node concept="2OqwBi" id="1DW7q9hKPBZ" role="37vLTx">
+                      <node concept="37vLTw" id="1DW7q9hKPAR" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="client" />
+                      </node>
+                      <node concept="liA8E" id="1DW7q9hKPDd" role="2OqNvi">
+                        <ref role="37wK5l" node="1DW7q9hKN4q" resolve="with" />
+                        <node concept="Rm8GO" id="1DW7q9hKPKT" role="37wK5m">
+                          <ref role="Rm8GQ" node="1DW7q9hIa$F" resolve="ANDRO_ZEBRA_AJAX" />
+                          <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+                        </node>
+                      </node>
                     </node>
                     <node concept="37vLTw" id="7uJlwJwF$zN" role="37vLTJ">
-                      <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="httpClientType" />
+                      <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="client" />
                     </node>
                   </node>
                 </node>
               </node>
               <node concept="1Wc70l" id="7uJlwJwJ_TD" role="3clFbw">
-                <node concept="3clFbC" id="7uJlwJwJAbT" role="3uHU7w">
-                  <node concept="Rm8GO" id="7uJlwJwJAq7" role="3uHU7w">
-                    <ref role="Rm8GQ" node="4Rlyz3E5tAm" resolve="ANDRO_ZEBRAEB_TRADITIONAL" />
-                    <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
+                <node concept="2OqwBi" id="1DW7q9hKMNM" role="3uHU7w">
+                  <node concept="37vLTw" id="1DW7q9hKMLY" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="client" />
                   </node>
-                  <node concept="37vLTw" id="7uJlwJwJA3d" role="3uHU7B">
-                    <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="httpClientType" />
+                  <node concept="liA8E" id="1DW7q9hKMV2" role="2OqNvi">
+                    <ref role="37wK5l" node="1DW7q9hIBHc" resolve="is" />
+                    <node concept="Rm8GO" id="1DW7q9hKN1j" role="37wK5m">
+                      <ref role="Rm8GQ" node="1DW7q9hIa$2" resolve="ANDRO_ZEBRAEB_TRADITIONAL" />
+                      <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+                    </node>
                   </node>
                 </node>
                 <node concept="2OqwBi" id="7uJlwJwFxZp" role="3uHU7B">
@@ -10627,34 +10669,23 @@
                   </node>
                 </node>
               </node>
-              <node concept="22lmx$" id="7uJlwJwFw8Q" role="3clFbw">
-                <node concept="3clFbC" id="7uJlwJwFwsx" role="3uHU7w">
-                  <node concept="Rm8GO" id="7uJlwJwFwMF" role="3uHU7w">
-                    <ref role="Rm8GQ" node="4Rlyz3E5xzC" resolve="OTHER_AJAX" />
-                    <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                  </node>
-                  <node concept="37vLTw" id="7uJlwJwFwjR" role="3uHU7B">
-                    <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="httpClientType" />
-                  </node>
+              <node concept="2OqwBi" id="1DW7q9hKPMH" role="3clFbw">
+                <node concept="37vLTw" id="7uJlwJwDYn2" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="client" />
                 </node>
-                <node concept="22lmx$" id="7uJlwJwJAIH" role="3uHU7B">
-                  <node concept="3clFbC" id="7uJlwJwJAYV" role="3uHU7w">
-                    <node concept="Rm8GO" id="7uJlwJwJBi8" role="3uHU7w">
-                      <ref role="Rm8GQ" node="7uJlwJwJ_FP" resolve="ANDRO_ZEBRA_AJAX" />
-                      <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                    </node>
-                    <node concept="37vLTw" id="7uJlwJwJASC" role="3uHU7B">
-                      <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="httpClientType" />
-                    </node>
+                <node concept="liA8E" id="1DW7q9hKPTR" role="2OqNvi">
+                  <ref role="37wK5l" node="1DW7q9hIBHc" resolve="is" />
+                  <node concept="Rm8GO" id="1DW7q9hKPZW" role="37wK5m">
+                    <ref role="Rm8GQ" node="1DW7q9hIa$O" resolve="WIN_ZEBRA_AJAX" />
+                    <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
                   </node>
-                  <node concept="3clFbC" id="uIozejKT05" role="3uHU7B">
-                    <node concept="37vLTw" id="7uJlwJwDYn2" role="3uHU7B">
-                      <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="httpClientType" />
-                    </node>
-                    <node concept="Rm8GO" id="7uJlwJwFw0D" role="3uHU7w">
-                      <ref role="Rm8GQ" node="186V0VF2pk4" resolve="WIN_ZEBRA_AJAX" />
-                      <ref role="1Px2BO" node="4Rlyz3E5ijA" resolve="H2ZMpreisAuthentication.HttpClientType" />
-                    </node>
+                  <node concept="Rm8GO" id="1DW7q9hKRPB" role="37wK5m">
+                    <ref role="Rm8GQ" node="1DW7q9hIa$F" resolve="ANDRO_ZEBRA_AJAX" />
+                    <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+                  </node>
+                  <node concept="Rm8GO" id="1DW7q9hKSlw" role="37wK5m">
+                    <ref role="Rm8GQ" node="1DW7q9hIa_1" resolve="OTHER_AJAX" />
+                    <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
                   </node>
                 </node>
               </node>
@@ -10683,7 +10714,7 @@
                       <ref role="3cqZAo" node="1wwgtxzgxR6" resolve="jmxHelper" />
                     </node>
                     <node concept="37vLTw" id="1wwgtxzgG5s" role="37wK5m">
-                      <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="httpClientType" />
+                      <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="client" />
                     </node>
                     <node concept="37vLTw" id="1wwgtxzgGeK" role="37wK5m">
                       <ref role="3cqZAo" node="1wwgtxzgjhx" resolve="requestHostName" />
@@ -10798,7 +10829,7 @@
             <node concept="liA8E" id="1wwgtxzgj8E" role="2OqNvi">
               <ref role="37wK5l" node="2xnCXJMqeZl" resolve="init" />
               <node concept="37vLTw" id="1wwgtxzgjah" role="37wK5m">
-                <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="httpClientType" />
+                <ref role="3cqZAo" node="1wwgtxzgiJY" resolve="client" />
               </node>
               <node concept="37vLTw" id="1wwgtxzgjND" role="37wK5m">
                 <ref role="3cqZAo" node="1wwgtxzgjhx" resolve="requestHostName" />
@@ -11104,31 +11135,7 @@
         </node>
       </node>
     </node>
-    <node concept="Qs71p" id="4Rlyz3E5ijA" role="jymVt">
-      <property role="2bfB8j" value="false" />
-      <property role="TrG5h" value="HttpClientType" />
-      <node concept="QsSxf" id="4Rlyz3E5tAm" role="Qtgdg">
-        <property role="TrG5h" value="ANDRO_ZEBRAEB_TRADITIONAL" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="4Rlyz3E5v_q" role="Qtgdg">
-        <property role="TrG5h" value="HONEYWELL_BROWSER" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="4Rlyz3E5xzC" role="Qtgdg">
-        <property role="TrG5h" value="OTHER_AJAX" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="186V0VF2pk4" role="Qtgdg">
-        <property role="TrG5h" value="WIN_ZEBRA_AJAX" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="7uJlwJwJ_FP" role="Qtgdg">
-        <property role="TrG5h" value="ANDRO_ZEBRA_AJAX" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="3Tm1VV" id="4Rlyz3E5ijB" role="1B3o_S" />
-    </node>
+    <node concept="2tJIrI" id="1DW7q9hHe9I" role="jymVt" />
     <node concept="3Tm1VV" id="r$jHpF7WZ$" role="1B3o_S" />
     <node concept="3uibUv" id="1wwgtxzd$hX" role="EKbjA">
       <ref role="3uigEE" node="1wwgtxzdy3N" resolve="IH2Controller" />
@@ -11299,6 +11306,220 @@
       <node concept="3Tm1VV" id="HwuXnDNBWv" role="1B3o_S" />
       <node concept="3clFbS" id="HwuXnDNBWw" role="3clF47" />
     </node>
+  </node>
+  <node concept="312cEu" id="1DW7q9hHeAn">
+    <property role="TrG5h" value="H2ClientInformation" />
+    <node concept="312cEg" id="1DW7q9hIfSV" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="deviceName" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="1DW7q9hIfRP" role="1B3o_S" />
+      <node concept="3uibUv" id="1DW7q9hIfSA" role="1tU5fm">
+        <ref role="3uigEE" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+      </node>
+    </node>
+    <node concept="312cEg" id="1DW7q9hIh9u" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="halfResolution" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tm6S6" id="1DW7q9hIh9v" role="1B3o_S" />
+      <node concept="10P_77" id="1DW7q9hIhbO" role="1tU5fm" />
+    </node>
+    <node concept="2tJIrI" id="1DW7q9hIfR7" role="jymVt" />
+    <node concept="3clFbW" id="1DW7q9hIfUH" role="jymVt">
+      <node concept="37vLTG" id="1DW7q9hIfV8" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="3uibUv" id="1DW7q9hIfVi" role="1tU5fm">
+          <ref role="3uigEE" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1DW7q9hIhcA" role="3clF46">
+        <property role="TrG5h" value="redResolution" />
+        <node concept="10P_77" id="1DW7q9hIhd2" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1DW7q9hIfUJ" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9hIfUK" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9hIfUL" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9hIfWd" role="3cqZAp">
+          <node concept="37vLTI" id="1DW7q9hIfYa" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9hIfYJ" role="37vLTx">
+              <ref role="3cqZAo" node="1DW7q9hIfV8" resolve="name" />
+            </node>
+            <node concept="37vLTw" id="1DW7q9hIfWc" role="37vLTJ">
+              <ref role="3cqZAo" node="1DW7q9hIfSV" resolve="deviceName" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1DW7q9hIheg" role="3cqZAp">
+          <node concept="37vLTI" id="1DW7q9hIhg6" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9hIhhr" role="37vLTx">
+              <ref role="3cqZAo" node="1DW7q9hIhcA" resolve="redResolution" />
+            </node>
+            <node concept="37vLTw" id="1DW7q9hIhee" role="37vLTJ">
+              <ref role="3cqZAo" node="1DW7q9hIh9u" resolve="halfResolution" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1DW7q9hHeAH" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9hIh77" role="jymVt">
+      <property role="TrG5h" value="getDeviceName" />
+      <node concept="3uibUv" id="1DW7q9hIhik" role="3clF45">
+        <ref role="3uigEE" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+      </node>
+      <node concept="3Tm1VV" id="1DW7q9hIh7a" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9hIh7b" role="3clF47">
+        <node concept="3cpWs6" id="1DW7q9hIh88" role="3cqZAp">
+          <node concept="37vLTw" id="1DW7q9hIh97" role="3cqZAk">
+            <ref role="3cqZAo" node="1DW7q9hIfSV" resolve="deviceName" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1DW7q9hIhwt" role="jymVt" />
+    <node concept="3clFb_" id="1DW7q9hIhn9" role="jymVt">
+      <property role="TrG5h" value="isHalfResolution" />
+      <node concept="10P_77" id="1DW7q9hIhsT" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9hIhnc" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9hIhnd" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9hIhul" role="3cqZAp">
+          <node concept="37vLTw" id="1DW7q9hIhuk" role="3clFbG">
+            <ref role="3cqZAo" node="1DW7q9hIh9u" resolve="halfResolution" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1DW7q9hIBvL" role="jymVt">
+      <property role="TrG5h" value="is" />
+      <node concept="37vLTG" id="1DW7q9hIB$j" role="3clF46">
+        <property role="TrG5h" value="devName" />
+        <node concept="3uibUv" id="1DW7q9hIB_v" role="1tU5fm">
+          <ref role="3uigEE" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+        </node>
+      </node>
+      <node concept="10P_77" id="1DW7q9hIBy8" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9hIBvO" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9hIBvP" role="3clF47">
+        <node concept="3clFbF" id="1DW7q9hIBAZ" role="3cqZAp">
+          <node concept="3clFbC" id="1DW7q9hIBDX" role="3clFbG">
+            <node concept="37vLTw" id="1DW7q9hIBGN" role="3uHU7w">
+              <ref role="3cqZAo" node="1DW7q9hIB$j" resolve="devName" />
+            </node>
+            <node concept="37vLTw" id="1DW7q9hIBFq" role="3uHU7B">
+              <ref role="3cqZAo" node="1DW7q9hIfSV" resolve="deviceName" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1DW7q9hIBHc" role="jymVt">
+      <property role="TrG5h" value="is" />
+      <node concept="37vLTG" id="1DW7q9hIBHd" role="3clF46">
+        <property role="TrG5h" value="devNames" />
+        <node concept="8X2XB" id="1DW7q9hIBKw" role="1tU5fm">
+          <node concept="3uibUv" id="1DW7q9hIBHe" role="8Xvag">
+            <ref role="3uigEE" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="1DW7q9hIBHf" role="3clF45" />
+      <node concept="3Tm1VV" id="1DW7q9hIBHg" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9hIBHh" role="3clF47">
+        <node concept="1DcWWT" id="1DW7q9hIBRW" role="3cqZAp">
+          <node concept="3clFbS" id="1DW7q9hIBRY" role="2LFqv$">
+            <node concept="3clFbJ" id="1DW7q9hIC3t" role="3cqZAp">
+              <node concept="3clFbS" id="1DW7q9hIC3v" role="3clFbx">
+                <node concept="3cpWs6" id="1DW7q9hIC8D" role="3cqZAp">
+                  <node concept="3clFbT" id="1DW7q9hIC8V" role="3cqZAk">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="1DW7q9hIC6H" role="3clFbw">
+                <node concept="37vLTw" id="1DW7q9hIC7Z" role="3uHU7w">
+                  <ref role="3cqZAo" node="1DW7q9hIBRZ" resolve="name" />
+                </node>
+                <node concept="37vLTw" id="1DW7q9hIC46" role="3uHU7B">
+                  <ref role="3cqZAo" node="1DW7q9hIfSV" resolve="deviceName" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="1DW7q9hIBRZ" role="1Duv9x">
+            <property role="TrG5h" value="name" />
+            <node concept="3uibUv" id="1DW7q9hIBXe" role="1tU5fm">
+              <ref role="3uigEE" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+            </node>
+          </node>
+          <node concept="37vLTw" id="1DW7q9hIC2m" role="1DdaDG">
+            <ref role="3cqZAo" node="1DW7q9hIBHd" resolve="devNames" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1DW7q9hICdb" role="3cqZAp">
+          <node concept="3clFbT" id="1DW7q9hICdD" role="3cqZAk">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1DW7q9hKN4q" role="jymVt">
+      <property role="TrG5h" value="with" />
+      <node concept="37vLTG" id="1DW7q9hKN4r" role="3clF46">
+        <property role="TrG5h" value="devName" />
+        <node concept="3uibUv" id="1DW7q9hKNg8" role="1tU5fm">
+          <ref role="3uigEE" node="1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+        </node>
+      </node>
+      <node concept="3uibUv" id="1DW7q9hKNap" role="3clF45">
+        <ref role="3uigEE" node="1DW7q9hHeAn" resolve="H2ClientInformation" />
+      </node>
+      <node concept="3Tm1VV" id="1DW7q9hKN4v" role="1B3o_S" />
+      <node concept="3clFbS" id="1DW7q9hKN4w" role="3clF47">
+        <node concept="3cpWs6" id="1DW7q9hKNn0" role="3cqZAp">
+          <node concept="2ShNRf" id="1DW7q9hKNrl" role="3cqZAk">
+            <node concept="1pGfFk" id="1DW7q9hKORH" role="2ShVmc">
+              <ref role="37wK5l" node="1DW7q9hIfUH" resolve="H2ClientInformation" />
+              <node concept="37vLTw" id="1DW7q9hKOTQ" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9hKN4r" resolve="devName" />
+              </node>
+              <node concept="37vLTw" id="1DW7q9hKOYq" role="37wK5m">
+                <ref role="3cqZAo" node="1DW7q9hIh9u" resolve="halfResolution" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1DW7q9hIBty" role="jymVt" />
+    <node concept="Qs71p" id="1DW7q9hIaqF" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="DeviceName" />
+      <node concept="QsSxf" id="1DW7q9hIa$2" role="Qtgdg">
+        <property role="TrG5h" value="ANDRO_ZEBRAEB_TRADITIONAL" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1DW7q9hIa$F" role="Qtgdg">
+        <property role="TrG5h" value="ANDRO_ZEBRA_AJAX" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1DW7q9hIa$O" role="Qtgdg">
+        <property role="TrG5h" value="WIN_ZEBRA_AJAX" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1DW7q9hIa_1" role="Qtgdg">
+        <property role="TrG5h" value="OTHER_AJAX" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="1DW7q9hIa_i" role="Qtgdg">
+        <property role="TrG5h" value="HONEYWELL_BROWSER" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="1DW7q9hIaqG" role="1B3o_S" />
+    </node>
+    <node concept="3Tm1VV" id="1DW7q9hHeAo" role="1B3o_S" />
   </node>
 </model>
 
