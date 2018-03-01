@@ -9390,17 +9390,26 @@
       <node concept="3cqZAl" id="1DW7q9iapL3" role="3clF45" />
       <node concept="3Tm1VV" id="1DW7q9iapL4" role="1B3o_S" />
       <node concept="3clFbS" id="1DW7q9iapL7" role="3clF47">
-        <node concept="3clFbF" id="1DW7q9iatfk" role="3cqZAp">
-          <node concept="2OqwBi" id="1DW7q9iatne" role="3clFbG">
-            <node concept="37vLTw" id="1DW7q9iatfj" role="2Oq$k0">
-              <ref role="3cqZAo" node="hObkZkEZfr" resolve="dateTimeField" />
-            </node>
-            <node concept="liA8E" id="1DW7q9iatWQ" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~PopupDateField.setInputPrompt(java.lang.String):void" resolve="setInputPrompt" />
-              <node concept="37vLTw" id="1DW7q9iaudl" role="37wK5m">
-                <ref role="3cqZAo" node="1DW7q9iapL1" resolve="promptText" />
+        <node concept="1X3_iC" id="3fsP_teNhMO" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="1DW7q9iatfk" role="8Wnug">
+            <node concept="2OqwBi" id="1DW7q9iatne" role="3clFbG">
+              <node concept="37vLTw" id="1DW7q9iatfj" role="2Oq$k0">
+                <ref role="3cqZAo" node="hObkZkEZfr" resolve="dateTimeField" />
+              </node>
+              <node concept="liA8E" id="1DW7q9iatWQ" role="2OqNvi">
+                <ref role="37wK5l" to="waq:~PopupDateField.setInputPrompt(java.lang.String):void" resolve="setInputPrompt" />
+                <node concept="37vLTw" id="1DW7q9iaudl" role="37wK5m">
+                  <ref role="3cqZAo" node="1DW7q9iapL1" resolve="promptText" />
+                </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3fsP_teNhZk" role="3cqZAp">
+          <node concept="3SKdUq" id="3fsP_teNhZm" role="3SKWNk">
+            <property role="3SKdUp" value="not supported by this editor. " />
           </node>
         </node>
       </node>
