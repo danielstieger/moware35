@@ -3079,7 +3079,7 @@
     <property role="1pbfSe" value="146700635" />
     <property role="3GE5qa" value="OFXTest.options" />
     <property role="TrG5h" value="OFXTestSuitDebugOption" />
-    <property role="34LRSv" value="DEUBG_TEST" />
+    <property role="34LRSv" value="DEBUG_TEST" />
     <property role="R4oN_" value="print debug infos for test" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2w93nZwHmJv" role="1TKVEi">

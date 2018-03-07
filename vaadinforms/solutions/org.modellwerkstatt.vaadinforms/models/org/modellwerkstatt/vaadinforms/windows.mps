@@ -41721,7 +41721,7 @@
     <node concept="312cEg" id="3fsP_teP5wB" role="jymVt">
       <property role="TrG5h" value="okayButton" />
       <node concept="3Tmbuc" id="3fsP_teP5wC" role="1B3o_S" />
-      <node concept="3uibUv" id="3fsP_teP5wD" role="1tU5fm">
+      <node concept="3uibUv" id="7dEVQYbZQdf" role="1tU5fm">
         <ref role="3uigEE" to="waq:~Button" resolve="Button" />
       </node>
     </node>
@@ -41774,11 +41774,11 @@
     <node concept="312cEg" id="3fsP_teP5x0" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="contentLabel" />
+      <property role="TrG5h" value="textArea" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="3fsP_teP5x1" role="1B3o_S" />
-      <node concept="3uibUv" id="3fsP_teP5x2" role="1tU5fm">
-        <ref role="3uigEE" to="waq:~Label" resolve="Label" />
+      <node concept="3uibUv" id="7dEVQYbYaZx" role="1tU5fm">
+        <ref role="3uigEE" to="waq:~TextArea" resolve="TextArea" />
       </node>
     </node>
     <node concept="312cEg" id="3fsP_teP5x3" role="jymVt">
@@ -41940,7 +41940,36 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3fsP_teP5y$" role="jymVt" />
-    <node concept="2tJIrI" id="3fsP_teP5$z" role="jymVt" />
+    <node concept="3clFb_" id="7dEVQYbYL5S" role="jymVt">
+      <property role="TrG5h" value="copyToClipboard" />
+      <node concept="3cqZAl" id="7dEVQYbYL5U" role="3clF45" />
+      <node concept="3Tm1VV" id="7dEVQYbYL5V" role="1B3o_S" />
+      <node concept="3clFbS" id="7dEVQYbYL5W" role="3clF47">
+        <node concept="3cpWs8" id="7dEVQYc08Rj" role="3cqZAp">
+          <node concept="3cpWsn" id="7dEVQYc08Rm" role="3cpWs9">
+            <property role="TrG5h" value="s" />
+            <node concept="17QB3L" id="7dEVQYc08Rh" role="1tU5fm" />
+            <node concept="Xl_RD" id="7dEVQYbYKCj" role="33vP2m">
+              <property role="Xl_RC" value="$('#mo-vtable-copypaste').select(); var x = document.execCommand('copy');alert('Copy was ' + x);" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7dEVQYbYJ2F" role="3cqZAp">
+          <node concept="2OqwBi" id="7dEVQYbYJRX" role="3clFbG">
+            <node concept="2YIFZM" id="7dEVQYbYJyl" role="2Oq$k0">
+              <ref role="1Pybhc" to="waq:~JavaScript" resolve="JavaScript" />
+              <ref role="37wK5l" to="waq:~JavaScript.getCurrent():com.vaadin.ui.JavaScript" resolve="getCurrent" />
+            </node>
+            <node concept="liA8E" id="7dEVQYbYKvn" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~JavaScript.execute(java.lang.String):void" resolve="execute" />
+              <node concept="Xl_RD" id="7dEVQYc099f" role="37wK5m">
+                <property role="Xl_RC" value="console.log('copyToClipBaord() was ' + document.execCommand('copy'));" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="3fsP_teP5$$" role="jymVt" />
     <node concept="3clFb_" id="3fsP_teP5$_" role="jymVt">
       <property role="TrG5h" value="largeWindow" />
@@ -41988,8 +42017,8 @@
                           </node>
                         </node>
                         <node concept="3clFbS" id="3fsP_teP5_2" role="3clF47">
-                          <node concept="3clFbF" id="3fsP_teTWNq" role="3cqZAp">
-                            <node concept="1rXfSq" id="3fsP_teTWNp" role="3clFbG">
+                          <node concept="3clFbF" id="7dEVQYc04$D" role="3cqZAp">
+                            <node concept="1rXfSq" id="7dEVQYc04$B" role="3clFbG">
                               <ref role="37wK5l" node="3fsP_teTVNX" resolve="close" />
                             </node>
                           </node>
@@ -42107,25 +42136,44 @@
           <node concept="37vLTI" id="3fsP_teP5_T" role="3clFbG">
             <node concept="2ShNRf" id="3fsP_teP5_U" role="37vLTx">
               <node concept="1pGfFk" id="3fsP_teP5_V" role="2ShVmc">
-                <ref role="37wK5l" to="waq:~Label.&lt;init&gt;(java.lang.String,com.vaadin.shared.ui.label.ContentMode)" resolve="Label" />
-                <node concept="37vLTw" id="3fsP_teP5_W" role="37wK5m">
-                  <ref role="3cqZAo" node="3fsP_teP5$G" resolve="info" />
-                </node>
-                <node concept="Rm8GO" id="3fsP_teP5_X" role="37wK5m">
-                  <ref role="Rm8GQ" to="u0k5:~ContentMode.PREFORMATTED" resolve="PREFORMATTED" />
-                  <ref role="1Px2BO" to="u0k5:~ContentMode" resolve="ContentMode" />
-                </node>
+                <ref role="37wK5l" to="waq:~TextArea.&lt;init&gt;()" resolve="TextArea" />
               </node>
             </node>
             <node concept="37vLTw" id="3fsP_teP5_Y" role="37vLTJ">
-              <ref role="3cqZAo" node="3fsP_teP5x0" resolve="contentLabel" />
+              <ref role="3cqZAo" node="3fsP_teP5x0" resolve="textArea" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7dEVQYbYAg3" role="3cqZAp">
+          <node concept="2OqwBi" id="7dEVQYbYAST" role="3clFbG">
+            <node concept="37vLTw" id="7dEVQYbYAg1" role="2Oq$k0">
+              <ref role="3cqZAo" node="3fsP_teP5x0" resolve="textArea" />
+            </node>
+            <node concept="liA8E" id="7dEVQYbYBO2" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~AbstractComponent.setId(java.lang.String):void" resolve="setId" />
+              <node concept="Xl_RD" id="7dEVQYbYC9n" role="37wK5m">
+                <property role="Xl_RC" value="mo-vtable-copypaste" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7dEVQYbYiuH" role="3cqZAp">
+          <node concept="2OqwBi" id="7dEVQYbYj6n" role="3clFbG">
+            <node concept="37vLTw" id="7dEVQYbYiuF" role="2Oq$k0">
+              <ref role="3cqZAo" node="3fsP_teP5x0" resolve="textArea" />
+            </node>
+            <node concept="liA8E" id="7dEVQYbYk0h" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~AbstractTextField.setValue(java.lang.String):void" resolve="setValue" />
+              <node concept="37vLTw" id="7dEVQYbYkjw" role="37wK5m">
+                <ref role="3cqZAo" node="3fsP_teP5$G" resolve="info" />
+              </node>
             </node>
           </node>
         </node>
         <node concept="3clFbF" id="3fsP_teP5_Z" role="3cqZAp">
           <node concept="2OqwBi" id="3fsP_teP5A0" role="3clFbG">
             <node concept="37vLTw" id="3fsP_teP5A1" role="2Oq$k0">
-              <ref role="3cqZAo" node="3fsP_teP5x0" resolve="contentLabel" />
+              <ref role="3cqZAo" node="3fsP_teP5x0" resolve="textArea" />
             </node>
             <node concept="liA8E" id="3fsP_teP5A2" role="2OqNvi">
               <ref role="37wK5l" to="waq:~AbstractComponent.setStyleName(java.lang.String):void" resolve="setStyleName" />
@@ -42138,14 +42186,23 @@
         <node concept="3clFbF" id="3fsP_teP5A4" role="3cqZAp">
           <node concept="2OqwBi" id="3fsP_teP5A5" role="3clFbG">
             <node concept="37vLTw" id="3fsP_teP5A6" role="2Oq$k0">
-              <ref role="3cqZAo" node="3fsP_teP5x0" resolve="contentLabel" />
+              <ref role="3cqZAo" node="3fsP_teP5x0" resolve="textArea" />
             </node>
             <node concept="liA8E" id="3fsP_teP5A7" role="2OqNvi">
-              <ref role="37wK5l" to="waq:~AbstractComponent.setSizeUndefined():void" resolve="setSizeUndefined" />
+              <ref role="37wK5l" to="waq:~AbstractComponent.setSizeFull():void" resolve="setSizeFull" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3fsP_teQ6sX" role="3cqZAp" />
+        <node concept="3clFbF" id="7dEVQYbYd2M" role="3cqZAp">
+          <node concept="2OqwBi" id="7dEVQYbYdDg" role="3clFbG">
+            <node concept="37vLTw" id="7dEVQYbYd2K" role="2Oq$k0">
+              <ref role="3cqZAo" node="3fsP_teP5x0" resolve="textArea" />
+            </node>
+            <node concept="liA8E" id="7dEVQYbYey2" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~AbstractTextField.selectAll():void" resolve="selectAll" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3fsP_teP5A9" role="3cqZAp">
           <node concept="2OqwBi" id="3fsP_teP5Aa" role="3clFbG">
             <node concept="37vLTw" id="3fsP_teP5Ab" role="2Oq$k0">
@@ -42154,7 +42211,7 @@
             <node concept="liA8E" id="3fsP_teP5Ac" role="2OqNvi">
               <ref role="37wK5l" to="waq:~AbstractSingleComponentContainer.setContent(com.vaadin.ui.Component):void" resolve="setContent" />
               <node concept="37vLTw" id="3fsP_teP5Ad" role="37wK5m">
-                <ref role="3cqZAo" node="3fsP_teP5x0" resolve="contentLabel" />
+                <ref role="3cqZAo" node="3fsP_teP5x0" resolve="textArea" />
               </node>
             </node>
           </node>
@@ -42169,7 +42226,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3fsP_teP5Ai" role="3cqZAp" />
+        <node concept="3clFbH" id="7dEVQYbY_wI" role="3cqZAp" />
         <node concept="3clFbF" id="3fsP_teP5Aj" role="3cqZAp">
           <node concept="1rXfSq" id="3fsP_teP5Ak" role="3clFbG">
             <ref role="37wK5l" node="2wSq35xEIkT" resolve="setContentAndButtonPane" />
@@ -42181,7 +42238,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3fsP_teP5An" role="3cqZAp" />
+        <node concept="3clFbH" id="7dEVQYbYIs$" role="3cqZAp" />
         <node concept="3SKdUt" id="3fsP_teTUyl" role="3cqZAp">
           <node concept="3SKdUq" id="3fsP_teTUym" role="3SKWNk">
             <property role="3SKdUp" value=" - still ESC and F12 should work." />

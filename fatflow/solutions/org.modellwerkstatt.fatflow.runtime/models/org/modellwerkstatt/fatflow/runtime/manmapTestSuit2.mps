@@ -12621,11 +12621,11 @@
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="Creators" />
     <node concept="J2Nxi" id="7mZ5ilqNXRI" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
+      <property role="J2Nxv" value="C:/moware/fatflow/testdata/" />
       <property role="TrG5h" value="GRAPHS" />
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/sqls/" />
+      <property role="J2Nxv" value="C:/moware/fatflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">
@@ -29362,6 +29362,30 @@
         </node>
       </node>
     </node>
+    <node concept="wbJLE" id="7dEVQYbDsG_" role="jymVt">
+      <property role="TrG5h" value="mapUpdateWithoutReturnValue" />
+      <node concept="3cqZAl" id="7dEVQYbDsGA" role="3clF45" />
+      <node concept="3Tm1VV" id="7dEVQYbDsGB" role="1B3o_S" />
+      <node concept="3clFbS" id="7dEVQYbDsGC" role="3clF47">
+        <node concept="3clFbF" id="7dEVQYbDsPy" role="3cqZAp">
+          <node concept="2KoPwa" id="7dEVQYbDsPx" role="3clFbG">
+            <node concept="1Q8zPT" id="7dEVQYbDsVF" role="2KoP_5">
+              <node concept="19SGf9" id="7dEVQYbDsVG" role="1Q8hHE">
+                <node concept="19SUe$" id="7dEVQYbDsVH" role="19SJt6">
+                  <property role="19SUeA" value="UPDATE " />
+                </node>
+                <node concept="1Q8hzo" id="7dEVQYbDsVR" role="19SJt6">
+                  <ref role="1Q8qb1" node="2i3o0he2ppg" resolve="MapAccountAudit" />
+                </node>
+                <node concept="19SUe$" id="7dEVQYbDsVS" role="19SJt6">
+                  <property role="19SUeA" value=" WHERE 1==0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="1lpzdTlNdbH" role="1B3o_S" />
   </node>
   <node concept="wbJL_" id="W1NYBg4Nxa">
@@ -31927,7 +31951,22 @@
         </node>
       </node>
     </node>
-    <node concept="1DF_5m" id="67iuXo6BpgS" role="3yMuLx" />
+    <node concept="3yPF9F" id="7dEVQYbDs5X" role="3yMuLx">
+      <property role="TrG5h" value="MapUPDATE can be used also without return value." />
+      <node concept="3cqZAl" id="7dEVQYbDs9L" role="3clF45" />
+      <node concept="3clFbS" id="7dEVQYbDs61" role="3clF47">
+        <node concept="3clFbF" id="7dEVQYbDs9P" role="3cqZAp">
+          <node concept="1odsa" id="7dEVQYbDs9O" role="3clFbG">
+            <ref role="1ods_" node="1lpzdTlNdbG" resolve="RepoCustomSql" />
+            <ref role="37wK5l" node="7dEVQYbDsG_" resolve="mapUpdateWithoutReturnValue" />
+            <node concept="10Nm6u" id="7dEVQYbDt0b" role="2f8TIa" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2d2NRx" id="7dEVQYbDrEU" role="3yTP5x">
+      <node concept="3clFbS" id="7dEVQYbDrEV" role="2VODD2" />
+    </node>
   </node>
   <node concept="2WPaUQ" id="3ZVRjXSLS2A">
     <property role="3GE5qa" value="tests" />
