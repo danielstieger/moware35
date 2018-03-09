@@ -14839,7 +14839,6 @@
         </node>
         <node concept="9aQIb" id="382CQP5PBg9" role="9aQIa">
           <node concept="3clFbS" id="382CQP5PBga" role="9aQI4">
-            <node concept="3clFbH" id="382CQP5R4yy" role="3cqZAp" />
             <node concept="3clFbJ" id="382CQP5R23j" role="3cqZAp">
               <node concept="3clFbS" id="382CQP5R23l" role="3clFbx">
                 <node concept="2MkqsV" id="382CQP5JFYs" role="3cqZAp">
@@ -14889,10 +14888,39 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="382CQP5R235" role="3cqZAp" />
+            <node concept="3clFbH" id="7KiQG4aL2TF" role="3cqZAp" />
+            <node concept="3clFbJ" id="7KiQG4aL2Ut" role="3cqZAp">
+              <node concept="3clFbS" id="7KiQG4aL2Uv" role="3clFbx">
+                <node concept="2MkqsV" id="7KiQG4aL5Zr" role="3cqZAp">
+                  <node concept="Xl_RD" id="7KiQG4aL5ZE" role="2MkJ7o">
+                    <property role="Xl_RC" value="Provide at least one cron expression as option for this job." />
+                  </node>
+                  <node concept="1YBJjd" id="7KiQG4aL61n" role="2OEOjV">
+                    <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2dkUwp" id="7KiQG4aL5M_" role="3clFbw">
+                <node concept="3cmrfG" id="7KiQG4aL5QG" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="7KiQG4aL3EC" role="3uHU7B">
+                  <node concept="2OqwBi" id="7KiQG4aL2YT" role="2Oq$k0">
+                    <node concept="1YBJjd" id="7KiQG4aL2V3" role="2Oq$k0">
+                      <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+                    </node>
+                    <node concept="2qgKlT" id="7KiQG4aL3cm" role="2OqNvi">
+                      <ref role="37wK5l" to="70o0:7KiQG4aKYcq" resolve="getCrons" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="7KiQG4aL4HJ" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="7KiQG4aydZx" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="382CQP5JD_A" role="1YuTPh">
       <property role="TrG5h" value="ofxBatchJob" />
@@ -14975,6 +15003,41 @@
     <node concept="1YaCAy" id="7X5ehdq5hrd" role="1YuTPh">
       <property role="TrG5h" value="ofxRunCmdCreateInfo" />
       <ref role="1YaFvo" to="un0u:7X5ehdoVaX7" resolve="OFXRunCmdCreateInfoRef" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="7KiQG4aFY2F">
+    <property role="TrG5h" value="check_OFXBatchJobDelaytime" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="7KiQG4aFY2G" role="18ibNy">
+      <node concept="3clFbJ" id="7KiQG4aFY2M" role="3cqZAp">
+        <node concept="2dkUwp" id="7KiQG4aFYjp" role="3clFbw">
+          <node concept="3cmrfG" id="7KiQG4aFYkp" role="3uHU7w">
+            <property role="3cmrfH" value="0" />
+          </node>
+          <node concept="2OqwBi" id="7KiQG4aFY4V" role="3uHU7B">
+            <node concept="1YBJjd" id="7KiQG4aFY2Y" role="2Oq$k0">
+              <ref role="1YBMHb" node="7KiQG4aFY2I" resolve="ofxBatchJobDelaytime" />
+            </node>
+            <node concept="3TrcHB" id="7KiQG4aFY8S" role="2OqNvi">
+              <ref role="3TsBF5" to="un0u:7KiQG4aFY26" resolve="delayInSecs" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbS" id="7KiQG4aFY2O" role="3clFbx">
+          <node concept="2MkqsV" id="7KiQG4aFYop" role="3cqZAp">
+            <node concept="Xl_RD" id="7KiQG4aFYo_" role="2MkJ7o">
+              <property role="Xl_RC" value="If applying this option, delaytime hast to be &gt; 0" />
+            </node>
+            <node concept="1YBJjd" id="7KiQG4aFYqP" role="2OEOjV">
+              <ref role="1YBMHb" node="7KiQG4aFY2I" resolve="ofxBatchJobDelaytime" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="7KiQG4aFY2I" role="1YuTPh">
+      <property role="TrG5h" value="ofxBatchJobDelaytime" />
+      <ref role="1YaFvo" to="un0u:7KiQG4aFY23" resolve="OFXBatchJobDelaytime" />
     </node>
   </node>
 </model>

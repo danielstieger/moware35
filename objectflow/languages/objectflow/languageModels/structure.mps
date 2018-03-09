@@ -4792,5 +4792,70 @@
     <property role="3GE5qa" value="OFXCore.batch2" />
     <property role="TrG5h" value="IOFXRunCmdCreateInfoReferencing" />
   </node>
+  <node concept="1TIwiD" id="7KiQG4aj5PK">
+    <property role="1pbfSe" value="2040580047" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXBatchCronExpression" />
+    <property role="34LRSv" value="CRON" />
+    <property role="R4oN_" value="timer experssion for job" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7KiQG4aj5Sm" role="1TKVEl">
+      <property role="TrG5h" value="sec" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7KiQG4aj5RV" role="1TKVEl">
+      <property role="TrG5h" value="min" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7KiQG4aj5RX" role="1TKVEl">
+      <property role="TrG5h" value="hour" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7KiQG4aj5S0" role="1TKVEl">
+      <property role="TrG5h" value="dayOfMonth" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7KiQG4aj5S4" role="1TKVEl">
+      <property role="TrG5h" value="month" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7KiQG4aj5S9" role="1TKVEl">
+      <property role="TrG5h" value="dayOfWeek" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="7KiQG4aFY1L" role="PzmwI">
+      <ref role="PrY4T" node="4jlzLDl6dD6" resolve="IOFXBatchJobOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7KiQG4aFY23">
+    <property role="1pbfSe" value="2034058428" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXBatchJobDelaytime" />
+    <property role="34LRSv" value="DELAY" />
+    <property role="R4oN_" value="time to wait after work processed" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7KiQG4aFY26" role="1TKVEl">
+      <property role="TrG5h" value="delayInSecs" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="7KiQG4aFY25" role="PzmwI">
+      <ref role="PrY4T" node="4jlzLDl6dD6" resolve="IOFXBatchJobOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7KiQG4b0b1d">
+    <property role="1pbfSe" value="2028762354" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXBatchNumConsumers" />
+    <property role="34LRSv" value="CONSUMERS" />
+    <property role="R4oN_" value="number of consumers to use" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7KiQG4b0b1e" role="1TKVEl">
+      <property role="TrG5h" value="numConsumers" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="7KiQG4b0b1f" role="PzmwI">
+      <ref role="PrY4T" node="4jlzLDl6dD6" resolve="IOFXBatchJobOption" />
+    </node>
+  </node>
 </model>
 
