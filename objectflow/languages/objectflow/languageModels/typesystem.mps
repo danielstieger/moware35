@@ -15034,10 +15034,107 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="5FnVeIxWrwe" role="3cqZAp" />
+      <node concept="3clFbJ" id="5FnVeIxWrWA" role="3cqZAp">
+        <node concept="3clFbS" id="5FnVeIxWrWC" role="3clFbx">
+          <node concept="2MkqsV" id="5FnVeIxWwco" role="3cqZAp">
+            <node concept="Xl_RD" id="5FnVeIxWwcB" role="2MkJ7o">
+              <property role="Xl_RC" value="The delaytime option can be used only once." />
+            </node>
+            <node concept="1YBJjd" id="5FnVeIxWwer" role="2OEOjV">
+              <ref role="1YBMHb" node="7KiQG4aFY2I" resolve="ofxBatchJobDelaytime" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="5FnVeIxWw6X" role="3clFbw">
+          <node concept="2OqwBi" id="5FnVeIxWw6Z" role="3fr31v">
+            <node concept="1YBJjd" id="5FnVeIxWw70" role="2Oq$k0">
+              <ref role="1YBMHb" node="7KiQG4aFY2I" resolve="ofxBatchJobDelaytime" />
+            </node>
+            <node concept="2qgKlT" id="5FnVeIxWw71" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:5FnVeIxWrYh" resolve="onlyOnce" />
+              <node concept="1YBJjd" id="5FnVeIxWw72" role="37wK5m">
+                <ref role="1YBMHb" node="7KiQG4aFY2I" resolve="ofxBatchJobDelaytime" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="5FnVeIxWr$t" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="7KiQG4aFY2I" role="1YuTPh">
       <property role="TrG5h" value="ofxBatchJobDelaytime" />
       <ref role="1YaFvo" to="un0u:7KiQG4aFY23" resolve="OFXBatchJobDelaytime" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5FnVeIxZuJD">
+    <property role="TrG5h" value="check_OFXBatchJobVersion" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="5FnVeIxZuJE" role="18ibNy">
+      <node concept="3clFbJ" id="5FnVeIxZuJY" role="3cqZAp">
+        <node concept="3clFbS" id="5FnVeIxZuJZ" role="3clFbx">
+          <node concept="2MkqsV" id="5FnVeIxZuK0" role="3cqZAp">
+            <node concept="Xl_RD" id="5FnVeIxZuK1" role="2MkJ7o">
+              <property role="Xl_RC" value="The version option can be used only once." />
+            </node>
+            <node concept="1YBJjd" id="5FnVeIxZuQ9" role="2OEOjV">
+              <ref role="1YBMHb" node="5FnVeIxZuJG" resolve="ofxBatchJobVersion" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="5FnVeIxZuK3" role="3clFbw">
+          <node concept="2OqwBi" id="5FnVeIxZuK4" role="3fr31v">
+            <node concept="1YBJjd" id="5FnVeIxZuM8" role="2Oq$k0">
+              <ref role="1YBMHb" node="5FnVeIxZuJG" resolve="ofxBatchJobVersion" />
+            </node>
+            <node concept="2qgKlT" id="5FnVeIxZuK6" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:5FnVeIxWrYh" resolve="onlyOnce" />
+              <node concept="1YBJjd" id="5FnVeIxZuO8" role="37wK5m">
+                <ref role="1YBMHb" node="5FnVeIxZuJG" resolve="ofxBatchJobVersion" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5FnVeIxZuJG" role="1YuTPh">
+      <property role="TrG5h" value="ofxBatchJobVersion" />
+      <ref role="1YaFvo" to="un0u:4jlzLDl6dCR" resolve="OFXBatchJobVersion" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5FnVeIxZuTD">
+    <property role="TrG5h" value="check_OFXBatchNumConsumers" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="5FnVeIxZuTE" role="18ibNy">
+      <node concept="3clFbJ" id="5FnVeIxZuTR" role="3cqZAp">
+        <node concept="3clFbS" id="5FnVeIxZuTS" role="3clFbx">
+          <node concept="2MkqsV" id="5FnVeIxZuTT" role="3cqZAp">
+            <node concept="Xl_RD" id="5FnVeIxZuTU" role="2MkJ7o">
+              <property role="Xl_RC" value="The num consumers option can be used only once." />
+            </node>
+            <node concept="1YBJjd" id="5FnVeIxZuZV" role="2OEOjV">
+              <ref role="1YBMHb" node="5FnVeIxZuTG" resolve="ofxBatchNumConsumers" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="5FnVeIxZuTW" role="3clFbw">
+          <node concept="2OqwBi" id="5FnVeIxZuTX" role="3fr31v">
+            <node concept="1YBJjd" id="5FnVeIxZuW8" role="2Oq$k0">
+              <ref role="1YBMHb" node="5FnVeIxZuTG" resolve="ofxBatchNumConsumers" />
+            </node>
+            <node concept="2qgKlT" id="5FnVeIxZuTZ" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:5FnVeIxWrYh" resolve="onlyOnce" />
+              <node concept="1YBJjd" id="5FnVeIxZuY1" role="37wK5m">
+                <ref role="1YBMHb" node="5FnVeIxZuTG" resolve="ofxBatchNumConsumers" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5FnVeIxZuTG" role="1YuTPh">
+      <property role="TrG5h" value="ofxBatchNumConsumers" />
+      <ref role="1YaFvo" to="un0u:7KiQG4b0b1d" resolve="OFXBatchNumConsumers" />
     </node>
   </node>
 </model>

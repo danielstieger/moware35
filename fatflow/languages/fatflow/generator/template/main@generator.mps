@@ -37425,6 +37425,25 @@
       <node concept="3cqZAl" id="6BKPvpCReEw" role="3clF45" />
       <node concept="3Tm1VV" id="6BKPvpCReEx" role="1B3o_S" />
       <node concept="3clFbS" id="6BKPvpCReEy" role="3clF47">
+        <node concept="3clFbF" id="58A6oQGDwik" role="3cqZAp">
+          <node concept="1rXfSq" id="58A6oQGDwij" role="3clFbG">
+            <ref role="37wK5l" node="58A6oQGDuwl" resolve="setCurrentVariant" />
+            <node concept="37vLTw" id="58A6oQGDwmK" role="37wK5m">
+              <ref role="3cqZAo" node="6BKPvpCRf62" resolve="varnt" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="58A6oQGDuwl" role="jymVt">
+      <property role="TrG5h" value="setCurrentVariant" />
+      <node concept="37vLTG" id="58A6oQGDv18" role="3clF46">
+        <property role="TrG5h" value="varnt" />
+        <node concept="17QB3L" id="58A6oQGDv1g" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="58A6oQGDuwn" role="3clF45" />
+      <node concept="3Tm1VV" id="58A6oQGDuwo" role="1B3o_S" />
+      <node concept="3clFbS" id="58A6oQGDuwp" role="3clF47">
         <node concept="3cpWs8" id="6BKPvpCRpPi" role="3cqZAp">
           <node concept="3cpWsn" id="6BKPvpCRpPl" role="3cpWs9">
             <property role="TrG5h" value="index" />
@@ -37455,14 +37474,14 @@
                   <node concept="37vLTw" id="43LwaCrAXOu" role="AHEQo">
                     <ref role="3cqZAo" node="43LwaCrAUJq" resolve="i" />
                   </node>
-                  <node concept="37vLTw" id="6BKPvpCRm1M" role="AHHXb">
+                  <node concept="37vLTw" id="58A6oQGDvfM" role="AHHXb">
                     <ref role="3cqZAo" node="43LwaCrASbC" resolve="availableVariants" />
                   </node>
                 </node>
                 <node concept="liA8E" id="43LwaCrAYq0" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                   <node concept="37vLTw" id="6BKPvpCRmcc" role="37wK5m">
-                    <ref role="3cqZAo" node="6BKPvpCRf62" resolve="varnt" />
+                    <ref role="3cqZAo" node="58A6oQGDv18" resolve="varnt" />
                   </node>
                 </node>
               </node>
@@ -37478,7 +37497,7 @@
           <node concept="3eOVzh" id="43LwaCrAVdE" role="1Dwp0S">
             <node concept="2OqwBi" id="43LwaCrAVFK" role="3uHU7w">
               <node concept="1Rwk04" id="43LwaCrAWva" role="2OqNvi" />
-              <node concept="37vLTw" id="6BKPvpCRlHL" role="2Oq$k0">
+              <node concept="37vLTw" id="58A6oQGDvg1" role="2Oq$k0">
                 <ref role="3cqZAo" node="43LwaCrASbC" resolve="availableVariants" />
               </node>
             </node>
@@ -37532,7 +37551,7 @@
                           <property role="Xl_RC" value="The variant &gt;" />
                         </node>
                         <node concept="37vLTw" id="6BKPvpCRmoH" role="3uHU7w">
-                          <ref role="3cqZAo" node="6BKPvpCRf62" resolve="varnt" />
+                          <ref role="3cqZAo" node="58A6oQGDv18" resolve="varnt" />
                         </node>
                       </node>
                     </node>
@@ -37544,8 +37563,25 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="6BKPvpCRcZ9" role="jymVt" />
-    <node concept="2tJIrI" id="6BKPvpDekuK" role="jymVt" />
+    <node concept="3clFb_" id="6BKPvpCRciX" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getCurrentVariant" />
+      <node concept="3Tm1VV" id="6BKPvpCRciZ" role="1B3o_S" />
+      <node concept="17QB3L" id="6BKPvpCRcj0" role="3clF45" />
+      <node concept="3clFbS" id="6BKPvpCRcj1" role="3clF47">
+        <node concept="3clFbF" id="6BKPvpCRrqE" role="3cqZAp">
+          <node concept="AH0OO" id="6BKPvpCRrwB" role="3clFbG">
+            <node concept="37vLTw" id="6BKPvpCRrA9" role="AHEQo">
+              <ref role="3cqZAo" node="6BKPvpCRf$c" resolve="variantIndex" />
+            </node>
+            <node concept="37vLTw" id="6BKPvpCRrqD" role="AHHXb">
+              <ref role="3cqZAo" node="43LwaCrASbC" resolve="availableVariants" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="5fkhsROxJKg" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getPlatformName" />
@@ -37627,7 +37663,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="4M9afjaS9eJ" role="jymVt" />
     <node concept="3clFb_" id="7MWNCzYtV6j" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="isSilentLogging" />
@@ -37646,27 +37681,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="6A6XM2S8lYP" role="jymVt" />
-    <node concept="3clFb_" id="6BKPvpCRciX" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getCurrentVariant" />
-      <node concept="3Tm1VV" id="6BKPvpCRciZ" role="1B3o_S" />
-      <node concept="17QB3L" id="6BKPvpCRcj0" role="3clF45" />
-      <node concept="3clFbS" id="6BKPvpCRcj1" role="3clF47">
-        <node concept="3clFbF" id="6BKPvpCRrqE" role="3cqZAp">
-          <node concept="AH0OO" id="6BKPvpCRrwB" role="3clFbG">
-            <node concept="37vLTw" id="6BKPvpCRrA9" role="AHEQo">
-              <ref role="3cqZAo" node="6BKPvpCRf$c" resolve="variantIndex" />
-            </node>
-            <node concept="37vLTw" id="6BKPvpCRrqD" role="AHHXb">
-              <ref role="3cqZAo" node="43LwaCrASbC" resolve="availableVariants" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="6BKPvpCRrEj" role="jymVt" />
     <node concept="3clFb_" id="7MWNCzYtV6q" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="getTextForLabel" />
