@@ -1611,12 +1611,6 @@
           <ref role="3uigEE" to="1e0c:72_IH8pqsv2" resolve="IPagePaneSelCrtl" />
         </node>
       </node>
-      <node concept="37vLTG" id="2PM8UKNVKix" role="3clF46">
-        <property role="TrG5h" value="parentSelCrlt" />
-        <node concept="3uibUv" id="2PM8UKNVLTg" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="ISelectionController" />
-        </node>
-      </node>
       <node concept="37vLTG" id="3Ojm3UunEG2" role="3clF46">
         <property role="TrG5h" value="externalBinding" />
         <property role="3TUv4t" value="false" />
@@ -1701,9 +1695,6 @@
                     </node>
                     <node concept="liA8E" id="3Ojm3UunF1Y" role="2OqNvi">
                       <ref role="37wK5l" to="1e0c:1aW6f0OgXt$" resolve="registerSelControlled" />
-                      <node concept="37vLTw" id="2PM8UKNYY2g" role="37wK5m">
-                        <ref role="3cqZAo" node="2PM8UKNVKix" resolve="parentSelCrlt" />
-                      </node>
                       <node concept="37vLTw" id="3Ojm3Uu_3d4" role="37wK5m">
                         <ref role="3cqZAo" node="3Ojm3Uu_0pq" resolve="boundClass" />
                       </node>
@@ -1729,9 +1720,6 @@
                   </node>
                   <node concept="liA8E" id="3Ojm3UunF2p" role="2OqNvi">
                     <ref role="37wK5l" to="1e0c:1aW6f0OgXt$" resolve="registerSelControlled" />
-                    <node concept="37vLTw" id="2PM8UKNYXF7" role="37wK5m">
-                      <ref role="3cqZAo" node="2PM8UKNVKix" resolve="parentSelCrlt" />
-                    </node>
                     <node concept="37vLTw" id="3Ojm3Uu_2VU" role="37wK5m">
                       <ref role="3cqZAo" node="3Ojm3Uu_0pq" resolve="boundClass" />
                     </node>

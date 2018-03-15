@@ -354,6 +354,7 @@
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
+      <concept id="1175845471038" name="jetbrains.mps.baseLanguage.collections.structure.ReverseOperation" flags="nn" index="35Qw8J" />
       <concept id="1225645868993" name="jetbrains.mps.baseLanguage.collections.structure.SetElementOperation" flags="nn" index="1ubWrs">
         <child id="1225645893896" name="index" index="1uc2wl" />
         <child id="1225645893898" name="element" index="1uc2wn" />
@@ -1230,51 +1231,6 @@
                 </node>
               </node>
               <node concept="3clFbH" id="5SSJEYs61ba" role="3cqZAp" />
-              <node concept="3SKdUt" id="7iqk9QknxeW" role="3cqZAp">
-                <node concept="3SKdUq" id="7iqk9QknxeY" role="3SKWNk">
-                  <property role="3SKdUp" value="--- MRS 16 refactoring --- (temporaer durch true erstetzt)" />
-                </node>
-              </node>
-              <node concept="3SKdUt" id="7iqk9QkowwM" role="3cqZAp">
-                <node concept="3SKdUq" id="7iqk9QkowwO" role="3SKWNk">
-                  <property role="3SKdUp" value="--&gt; um bei Tabs zwei Tabelle haben zu koennen?" />
-                </node>
-              </node>
-              <node concept="3SKdUt" id="3THV4aIcMw6" role="3cqZAp">
-                <node concept="3SKdUq" id="3THV4aIcMw8" role="3SKWNk">
-                  <property role="3SKdUp" value="Warum braucht es diese PARENT_VIEW ??? " />
-                </node>
-              </node>
-              <node concept="3clFbH" id="7iqk9Qko5WY" role="3cqZAp" />
-              <node concept="3cpWs8" id="7iqk9QknGyu" role="3cqZAp">
-                <node concept="3cpWsn" id="7iqk9QknGyx" role="3cpWs9">
-                  <property role="TrG5h" value="DEP__parentViewLogic" />
-                  <node concept="10P_77" id="7iqk9QknGys" role="1tU5fm" />
-                  <node concept="3clFbT" id="7iqk9QknIRa" role="33vP2m">
-                    <property role="3clFbU" value="true" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3SKdUt" id="5SSJEYs6qbk" role="3cqZAp">
-                <node concept="3SKdUq" id="5SSJEYs6qbm" role="3SKWNk">
-                  <property role="3SKdUp" value="attachedUxElems.contains(PARENT_VIEW) || ctr.attachedUxElems.contains(PARENT_VIEW)" />
-                </node>
-              </node>
-              <node concept="3clFbH" id="3THV4aIcWof" role="3cqZAp" />
-              <node concept="3cpWs8" id="7iqk9QkoawZ" role="3cqZAp">
-                <node concept="3cpWsn" id="7iqk9Qkoax2" role="3cpWs9">
-                  <property role="TrG5h" value="DEP__parentOVCcontainsViewLogic" />
-                  <node concept="10P_77" id="7iqk9QkoawX" role="1tU5fm" />
-                  <node concept="3clFbT" id="7iqk9QkocEo" role="33vP2m">
-                    <property role="3clFbU" value="true" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3SKdUt" id="5SSJEYs6zjW" role="3cqZAp">
-                <node concept="3SKdUq" id="5SSJEYs6zjY" role="3SKWNk">
-                  <property role="3SKdUp" value="attachedUxElems.contains(PARENT_VIEW) || parentOVCcontainsView(PARENT_VIEW)" />
-                </node>
-              </node>
               <node concept="3clFbH" id="7iqk9Qkojku" role="3cqZAp" />
               <node concept="3clFbJ" id="5SSJEYs61bm" role="3cqZAp">
                 <node concept="3clFbS" id="5SSJEYs61bn" role="3clFbx">
@@ -1314,22 +1270,14 @@
                   </node>
                   <node concept="3clFbH" id="5SSJEYs61bv" role="3cqZAp" />
                 </node>
-                <node concept="1Wc70l" id="3THV4aIdlLS" role="3clFbw">
-                  <node concept="37vLTw" id="7iqk9QknISC" role="3uHU7w">
-                    <ref role="3cqZAo" node="7iqk9QknGyx" resolve="DEP__parentViewLogic" />
+                <node concept="3y3z36" id="5SSJEYs61bw" role="3clFbw">
+                  <node concept="37vLTw" id="5SSJEYs61bx" role="3uHU7B">
+                    <ref role="3cqZAo" node="5SSJEYs61aP" resolve="newController" />
                   </node>
-                  <node concept="3y3z36" id="5SSJEYs61bw" role="3uHU7B">
-                    <node concept="37vLTw" id="5SSJEYs61bx" role="3uHU7B">
-                      <ref role="3cqZAo" node="5SSJEYs61aP" resolve="newController" />
-                    </node>
-                    <node concept="10Nm6u" id="5SSJEYs61by" role="3uHU7w" />
-                  </node>
+                  <node concept="10Nm6u" id="5SSJEYs61by" role="3uHU7w" />
                 </node>
-                <node concept="3eNFk2" id="5SSJEYs61bz" role="3eNLev">
-                  <node concept="37vLTw" id="7iqk9QkorQU" role="3eO9$A">
-                    <ref role="3cqZAo" node="7iqk9Qkoax2" resolve="DEP__parentOVCcontainsViewLogic" />
-                  </node>
-                  <node concept="3clFbS" id="5SSJEYs61b$" role="3eOfB_">
+                <node concept="9aQIb" id="2PM8UKQy21F" role="9aQIa">
+                  <node concept="3clFbS" id="2PM8UKQy21G" role="9aQI4">
                     <node concept="3clFbF" id="5SSJEYs61b_" role="3cqZAp">
                       <node concept="37vLTI" id="5SSJEYs61bA" role="3clFbG">
                         <node concept="37vLTw" id="5SSJEYs61bB" role="37vLTJ">
@@ -1398,7 +1346,6 @@
                         <ref role="3cqZAo" node="5SSJEYs61aP" resolve="newController" />
                       </node>
                     </node>
-                    <node concept="3clFbH" id="5SSJEYs61bU" role="3cqZAp" />
                   </node>
                 </node>
               </node>
@@ -1418,7 +1365,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="4Sq2cvDxLFG" role="3cqZAp" />
-        <node concept="3clFbH" id="5SSJEYs5YHX" role="3cqZAp" />
         <node concept="1DcWWT" id="3972coxdGU9" role="3cqZAp">
           <node concept="3clFbS" id="3972coxdGUa" role="2LFqv$">
             <node concept="3SKdUt" id="3972coxdGUb" role="3cqZAp">
@@ -1438,9 +1384,6 @@
                   </node>
                   <node concept="liA8E" id="3972coxdGUg" role="2OqNvi">
                     <ref role="37wK5l" node="3972coxdGQH" resolve="registerSelControlled" />
-                    <node concept="37vLTw" id="2PM8UKO028g" role="37wK5m">
-                      <ref role="3cqZAo" node="2PM8UKNY_q_" resolve="parentCrtl" />
-                    </node>
                     <node concept="37vLTw" id="5hc8PGHPz_j" role="37wK5m">
                       <ref role="3cqZAo" node="3972coxdGUx" resolve="typeOfIterestedInSelection" />
                     </node>
@@ -1476,19 +1419,16 @@
               <ref role="3uigEE" node="3972coxdGQG" resolve="SelectionController" />
             </node>
           </node>
-          <node concept="37vLTw" id="5hc8PGHPz1w" role="1DdaDG">
-            <ref role="3cqZAo" node="3972coxdH7o" resolve="dependentSelectionController" />
+          <node concept="2OqwBi" id="2PM8UKPMIJM" role="1DdaDG">
+            <node concept="37vLTw" id="5hc8PGHPz1w" role="2Oq$k0">
+              <ref role="3cqZAo" node="3972coxdH7o" resolve="dependentSelectionController" />
+            </node>
+            <node concept="35Qw8J" id="2PM8UKPMKTo" role="2OqNvi" />
           </node>
         </node>
         <node concept="3clFbH" id="3972coxdGUs" role="3cqZAp" />
         <node concept="3cpWs6" id="3972coxdGUt" role="3cqZAp">
           <node concept="10Nm6u" id="72_IH8pt0qk" role="3cqZAk" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="2PM8UKNY_q_" role="3clF46">
-        <property role="TrG5h" value="parentCrtl" />
-        <node concept="3uibUv" id="2PM8UKNYBlR" role="1tU5fm">
-          <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
         </node>
       </node>
       <node concept="37vLTG" id="3972coxdGUx" role="3clF46">
@@ -3790,12 +3730,6 @@
       </node>
       <node concept="3Tm1VV" id="1aW6f0OgXtA" role="1B3o_S" />
       <node concept="3clFbS" id="1aW6f0OgXtB" role="3clF47" />
-      <node concept="37vLTG" id="2PM8UKNXFFT" role="3clF46">
-        <property role="TrG5h" value="parentCrtl" />
-        <node concept="3uibUv" id="2PM8UKNXFI5" role="1tU5fm">
-          <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
-        </node>
-      </node>
       <node concept="37vLTG" id="1aW6f0OgXtC" role="3clF46">
         <property role="TrG5h" value="interestedInSelectionType" />
         <node concept="3uibUv" id="1aW6f0OgXup" role="1tU5fm">
@@ -5171,12 +5105,6 @@
         <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
       </node>
       <node concept="3Tm1VV" id="3972coxdHjU" role="1B3o_S" />
-      <node concept="37vLTG" id="2PM8UKNYJNf" role="3clF46">
-        <property role="TrG5h" value="parentCrtl" />
-        <node concept="3uibUv" id="2PM8UKNYM4Q" role="1tU5fm">
-          <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
-        </node>
-      </node>
       <node concept="37vLTG" id="3972coxdHjV" role="3clF46">
         <property role="TrG5h" value="interestedInSelection" />
         <node concept="3uibUv" id="3972coxdHjW" role="1tU5fm">
@@ -5205,9 +5133,6 @@
             </node>
             <node concept="3nyPlj" id="3972coxdHlb" role="33vP2m">
               <ref role="37wK5l" node="3972coxdGQH" resolve="registerSelControlled" />
-              <node concept="37vLTw" id="2PM8UKNYRPa" role="37wK5m">
-                <ref role="3cqZAo" node="2PM8UKNYJNf" resolve="parentCrtl" />
-              </node>
               <node concept="37vLTw" id="5hc8PGHPzwL" role="37wK5m">
                 <ref role="3cqZAo" node="3972coxdHjV" resolve="interestedInSelection" />
               </node>
@@ -6543,12 +6468,6 @@
                 <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
               </node>
               <node concept="3Tm1VV" id="5SSJEYs9IJd" role="1B3o_S" />
-              <node concept="37vLTG" id="2PM8UKNYxS2" role="3clF46">
-                <property role="TrG5h" value="parentCrtl" />
-                <node concept="3uibUv" id="2PM8UKNYyw7" role="1tU5fm">
-                  <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
-                </node>
-              </node>
               <node concept="37vLTG" id="5SSJEYs9IJf" role="3clF46">
                 <property role="TrG5h" value="interestedInSelectionType" />
                 <node concept="3uibUv" id="5SSJEYs9IJg" role="1tU5fm">

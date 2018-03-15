@@ -465,12 +465,6 @@
           <ref role="3uigEE" to="1e0c:72_IH8pqsv2" resolve="IPagePaneSelCrtl" />
         </node>
       </node>
-      <node concept="37vLTG" id="2PM8UKNVKix" role="3clF46">
-        <property role="TrG5h" value="parentSelCrlt" />
-        <node concept="3uibUv" id="2PM8UKNVLTg" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="ISelectionController" />
-        </node>
-      </node>
       <node concept="37vLTG" id="2zlKbqjrMvC" role="3clF46">
         <property role="TrG5h" value="outerBinding" />
         <node concept="3uibUv" id="5SSJEYs8A1R" role="1tU5fm">
