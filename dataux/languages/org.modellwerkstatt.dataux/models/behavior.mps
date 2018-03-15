@@ -2783,18 +2783,63 @@
             <property role="3SKdUp" value="Note to myself: is this a conceptional bug? Why is a cast to IUXElement necessary" />
           </node>
         </node>
-        <node concept="3clFbF" id="5XruxTJKgz0" role="3cqZAp">
-          <node concept="2OqwBi" id="5XruxTJKhvo" role="3clFbG">
-            <node concept="1PxgMI" id="5XruxTJKhqM" role="2Oq$k0">
+        <node concept="3clFbH" id="4cFQEs$32ma" role="3cqZAp" />
+        <node concept="3SKdUt" id="4cFQEs$32rs" role="3cqZAp">
+          <node concept="3SKdUq" id="4cFQEs$32ru" role="3SKWNk">
+            <property role="3SKdUp" value="not supported, include of pagePanes ... " />
+          </node>
+        </node>
+        <node concept="1X3_iC" id="4cFQEs$32hD" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbJ" id="4cFQEsz$lFO" role="8Wnug">
+            <node concept="3clFbS" id="4cFQEsz$lFQ" role="3clFbx">
+              <node concept="3cpWs6" id="4cFQEsz$nLf" role="3cqZAp">
+                <node concept="2OqwBi" id="4cFQEsz$n6t" role="3cqZAk">
+                  <node concept="1PxgMI" id="4cFQEsz$mZw" role="2Oq$k0">
+                    <ref role="1PxNhF" to="1btx:7OqgUbFQpKc" resolve="PagePane" />
+                    <node concept="2OqwBi" id="4cFQEsz$myO" role="1PxMeX">
+                      <node concept="13iPFW" id="4cFQEsz$mvn" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="4cFQEsz$mNz" role="2OqNvi">
+                        <ref role="3Tt5mk" to="1btx:7rG0OCdj5GO" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="4cFQEsz$nhN" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:5yru0E476Gx" resolve="needsFullSizeWindow" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="4cFQEsz$nw5" role="3cqZAp" />
+            </node>
+            <node concept="2OqwBi" id="4cFQEsz$mi4" role="3clFbw">
+              <node concept="2OqwBi" id="4cFQEsz$lNb" role="2Oq$k0">
+                <node concept="13iPFW" id="4cFQEsz$lIl" role="2Oq$k0" />
+                <node concept="3TrEf2" id="4cFQEsz$m65" role="2OqNvi">
+                  <ref role="3Tt5mk" to="1btx:7rG0OCdj5GO" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="4cFQEsz$mq2" role="2OqNvi">
+                <node concept="chp4Y" id="4cFQEsz$mtu" role="cj9EA">
+                  <ref role="cht4Q" to="1btx:7OqgUbFQpKc" resolve="PagePane" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4cFQEs$32c$" role="3cqZAp" />
+        <node concept="3clFbF" id="4cFQEsz$mvp" role="3cqZAp">
+          <node concept="2OqwBi" id="4cFQEs$31XI" role="3clFbG">
+            <node concept="1PxgMI" id="4cFQEs$31XJ" role="2Oq$k0">
               <ref role="1PxNhF" to="1btx:2zZnBEDxDjf" resolve="IUxElement" />
-              <node concept="2OqwBi" id="5XruxTJKgBa" role="1PxMeX">
-                <node concept="13iPFW" id="5XruxTJKgyZ" role="2Oq$k0" />
-                <node concept="3TrEf2" id="5XruxTJKgJE" role="2OqNvi">
+              <node concept="2OqwBi" id="4cFQEs$31XK" role="1PxMeX">
+                <node concept="13iPFW" id="4cFQEs$31XL" role="2Oq$k0" />
+                <node concept="3TrEf2" id="4cFQEs$31XM" role="2OqNvi">
                   <ref role="3Tt5mk" to="1btx:7rG0OCdj5GO" />
                 </node>
               </node>
             </node>
-            <node concept="2qgKlT" id="5XruxTJKh$f" role="2OqNvi">
+            <node concept="2qgKlT" id="4cFQEs_Tw3H" role="2OqNvi">
               <ref role="37wK5l" node="5XruxTJJtyO" resolve="needsFullSize" />
             </node>
           </node>

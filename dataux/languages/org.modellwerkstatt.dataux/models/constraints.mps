@@ -465,7 +465,30 @@
                       <node concept="3Tqbb2" id="7rG0OCdjkPI" role="1tU5fm" />
                     </node>
                     <node concept="3clFbS" id="7rG0OCdjkPK" role="3clF47">
-                      <node concept="3clFbH" id="7rG0OCdjD6i" role="3cqZAp" />
+                      <node concept="3SKdUt" id="4cFQEs$3ovG" role="3cqZAp">
+                        <node concept="3SKdUq" id="4cFQEs$3ovI" role="3SKWNk">
+                          <property role="3SKdUp" value="amendment, Dan Koblach 18. do not include pagepanes " />
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="4cFQEs$3nyn" role="3cqZAp">
+                        <node concept="3clFbS" id="4cFQEs$3nyp" role="3clFbx">
+                          <node concept="3cpWs6" id="4cFQEs$3o0N" role="3cqZAp">
+                            <node concept="3clFbT" id="4cFQEs$pzNn" role="3cqZAk">
+                              <property role="3clFbU" value="true" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="4cFQEs$3nS4" role="3clFbw">
+                          <node concept="37vLTw" id="4cFQEs$3nOi" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7rG0OCdjkPH" resolve="element" />
+                          </node>
+                          <node concept="1mIQ4w" id="4cFQEs$3nWj" role="2OqNvi">
+                            <node concept="chp4Y" id="4cFQEs$3nWV" role="cj9EA">
+                              <ref role="cht4Q" to="1btx:7OqgUbFQpKc" resolve="PagePane" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3cpWs6" id="7rG0OCdju1F" role="3cqZAp">
                         <node concept="2OqwBi" id="7rG0OCdju1G" role="3cqZAk">
                           <node concept="37vLTw" id="7rG0OCdju1H" role="2Oq$k0">

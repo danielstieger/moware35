@@ -800,6 +800,12 @@
           <ref role="3uigEE" to="1e0c:72_IH8pqsv2" resolve="IPagePaneSelCrtl" />
         </node>
       </node>
+      <node concept="37vLTG" id="2PM8UKNVKix" role="3clF46">
+        <property role="TrG5h" value="parentSelCrlt" />
+        <node concept="3uibUv" id="2PM8UKNVLTg" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="ISelectionController" />
+        </node>
+      </node>
       <node concept="37vLTG" id="4MSBEBe9Zkh" role="3clF46">
         <property role="TrG5h" value="externalBinding" />
         <node concept="3uibUv" id="5SSJEYsd04Z" role="1tU5fm">
@@ -1060,6 +1066,9 @@
                   </node>
                   <node concept="37vLTw" id="5SSJEYsn4V2" role="37wK5m">
                     <ref role="3cqZAo" node="4MSBEBe9Zkf" resolve="pageCrtl" />
+                  </node>
+                  <node concept="37vLTw" id="2PM8UKO2GL6" role="37wK5m">
+                    <ref role="3cqZAo" node="2PM8UKNVKix" resolve="parentSelCrlt" />
                   </node>
                   <node concept="2ShNRf" id="5SSJEYsn51t" role="37wK5m">
                     <node concept="1pGfFk" id="5SSJEYsn5an" role="2ShVmc">
@@ -2338,6 +2347,12 @@
         <property role="TrG5h" value="pageCrtl" />
         <node concept="3uibUv" id="72_IH8pscbN" role="1tU5fm">
           <ref role="3uigEE" to="1e0c:72_IH8pqsv2" resolve="IPagePaneSelCrtl" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2PM8UKNVNA8" role="3clF46">
+        <property role="TrG5h" value="parentSelCrlt" />
+        <node concept="3uibUv" id="2PM8UKNVNA9" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="ISelectionController" />
         </node>
       </node>
       <node concept="37vLTG" id="6UlDwo1q5Xu" role="3clF46">
@@ -4069,6 +4084,9 @@
                   </node>
                   <node concept="liA8E" id="5SSJEYscM_G" role="2OqNvi">
                     <ref role="37wK5l" to="1e0c:1aW6f0OgXt$" resolve="registerSelControlled" />
+                    <node concept="37vLTw" id="2PM8UKO1bEA" role="37wK5m">
+                      <ref role="3cqZAo" node="2PM8UKNVNA8" resolve="parentSelCrlt" />
+                    </node>
                     <node concept="3VsKOn" id="5SSJEYscM_H" role="37wK5m">
                       <ref role="3VsUkX" to="wyt6:~Object" resolve="Object" />
                       <node concept="1ZhdrF" id="5SSJEYscM_I" role="lGtFl">
@@ -4127,6 +4145,9 @@
                     </node>
                     <node concept="liA8E" id="5SSJEYscMA4" role="2OqNvi">
                       <ref role="37wK5l" to="1e0c:1aW6f0OgXt$" resolve="registerSelControlled" />
+                      <node concept="37vLTw" id="2PM8UKO1cn0" role="37wK5m">
+                        <ref role="3cqZAo" node="2PM8UKNVNA8" resolve="parentSelCrlt" />
+                      </node>
                       <node concept="3VsKOn" id="5SSJEYscMA5" role="37wK5m">
                         <ref role="3VsUkX" to="wyt6:~Object" resolve="Object" />
                         <node concept="1ZhdrF" id="5SSJEYscMA6" role="lGtFl">
@@ -5462,6 +5483,7 @@
               <node concept="37vLTw" id="72_IH8puQYU" role="37wK5m">
                 <ref role="3cqZAo" node="72_IH8puons" resolve="pageCrtl" />
               </node>
+              <node concept="10Nm6u" id="2PM8UKNX$I2" role="37wK5m" />
               <node concept="2ShNRf" id="5T7F9S8Kc2f" role="37wK5m">
                 <node concept="1pGfFk" id="5T7F9S8Kc2g" role="2ShVmc">
                   <ref role="37wK5l" to="1e0c:5SSJEYs9Pfe" resolve="BindingImpl" />
@@ -8119,6 +8141,12 @@
           <ref role="3uigEE" to="1e0c:72_IH8pqsv2" resolve="IPagePaneSelCrtl" />
         </node>
       </node>
+      <node concept="37vLTG" id="2PM8UKNVUiO" role="3clF46">
+        <property role="TrG5h" value="parentSelCrlt" />
+        <node concept="3uibUv" id="2PM8UKNVUiP" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:4o3conyKwiW" resolve="ISelectionController" />
+        </node>
+      </node>
       <node concept="37vLTG" id="4Y02LQOEncy" role="3clF46">
         <property role="TrG5h" value="externalBinding" />
         <node concept="3uibUv" id="5SSJEYsc5Ta" role="1tU5fm">
@@ -8315,6 +8343,9 @@
                   </node>
                   <node concept="liA8E" id="5SSJEYsbCpU" role="2OqNvi">
                     <ref role="37wK5l" to="1e0c:1aW6f0OgXt$" resolve="registerSelControlled" />
+                    <node concept="37vLTw" id="2PM8UKO173U" role="37wK5m">
+                      <ref role="3cqZAo" node="2PM8UKNVUiO" resolve="parentSelCrlt" />
+                    </node>
                     <node concept="3VsKOn" id="5SSJEYsbHR1" role="37wK5m">
                       <ref role="3VsUkX" to="wyt6:~Object" resolve="Object" />
                       <node concept="1ZhdrF" id="5SSJEYsbHR2" role="lGtFl">
@@ -8373,6 +8404,9 @@
                     </node>
                     <node concept="liA8E" id="5SSJEYsbGXw" role="2OqNvi">
                       <ref role="37wK5l" to="1e0c:1aW6f0OgXt$" resolve="registerSelControlled" />
+                      <node concept="37vLTw" id="2PM8UKO17H5" role="37wK5m">
+                        <ref role="3cqZAo" node="2PM8UKNVUiO" resolve="parentSelCrlt" />
+                      </node>
                       <node concept="3VsKOn" id="5SSJEYsbH38" role="37wK5m">
                         <ref role="3VsUkX" to="wyt6:~Object" resolve="Object" />
                         <node concept="1ZhdrF" id="5SSJEYsbH39" role="lGtFl">

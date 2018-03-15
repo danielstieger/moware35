@@ -1009,7 +1009,7 @@
               <node concept="liA8E" id="5SSJEYs61a$" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
                 <node concept="37vLTw" id="5SSJEYs6mDU" role="37wK5m">
-                  <ref role="3cqZAo" node="3972coxdGUx" resolve="interestedInSelectionType" />
+                  <ref role="3cqZAo" node="3972coxdGUx" resolve="typeOfIterestedInSelection" />
                 </node>
               </node>
             </node>
@@ -1213,7 +1213,7 @@
                                 <node concept="liA8E" id="5SSJEYs61b6" role="2OqNvi">
                                   <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
                                   <node concept="37vLTw" id="5SSJEYs6nFm" role="37wK5m">
-                                    <ref role="3cqZAo" node="3972coxdGUx" resolve="interestedInSelectionType" />
+                                    <ref role="3cqZAo" node="3972coxdGUx" resolve="typeOfIterestedInSelection" />
                                   </node>
                                 </node>
                               </node>
@@ -1343,7 +1343,7 @@
                             </node>
                             <node concept="Xjq3P" id="5SSJEYs61bF" role="37wK5m" />
                             <node concept="37vLTw" id="5SSJEYs6Ch8" role="37wK5m">
-                              <ref role="3cqZAo" node="3972coxdGUx" resolve="interestedInSelectionType" />
+                              <ref role="3cqZAo" node="3972coxdGUx" resolve="typeOfIterestedInSelection" />
                             </node>
                             <node concept="37vLTw" id="5SSJEYs61bH" role="37wK5m">
                               <ref role="3cqZAo" node="5SSJEYs7SQ9" resolve="reqBoundProperty" />
@@ -1438,8 +1438,11 @@
                   </node>
                   <node concept="liA8E" id="3972coxdGUg" role="2OqNvi">
                     <ref role="37wK5l" node="3972coxdGQH" resolve="registerSelControlled" />
+                    <node concept="37vLTw" id="2PM8UKO028g" role="37wK5m">
+                      <ref role="3cqZAo" node="2PM8UKNY_q_" resolve="parentCrtl" />
+                    </node>
                     <node concept="37vLTw" id="5hc8PGHPz_j" role="37wK5m">
-                      <ref role="3cqZAo" node="3972coxdGUx" resolve="interestedInSelectionType" />
+                      <ref role="3cqZAo" node="3972coxdGUx" resolve="typeOfIterestedInSelection" />
                     </node>
                     <node concept="37vLTw" id="5SSJEYsa20n" role="37wK5m">
                       <ref role="3cqZAo" node="5SSJEYs892d" resolve="binding" />
@@ -1482,8 +1485,14 @@
           <node concept="10Nm6u" id="72_IH8pt0qk" role="3cqZAk" />
         </node>
       </node>
+      <node concept="37vLTG" id="2PM8UKNY_q_" role="3clF46">
+        <property role="TrG5h" value="parentCrtl" />
+        <node concept="3uibUv" id="2PM8UKNYBlR" role="1tU5fm">
+          <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
+        </node>
+      </node>
       <node concept="37vLTG" id="3972coxdGUx" role="3clF46">
-        <property role="TrG5h" value="interestedInSelectionType" />
+        <property role="TrG5h" value="typeOfIterestedInSelection" />
         <node concept="3uibUv" id="3972coxdGUy" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
         </node>
@@ -3781,6 +3790,12 @@
       </node>
       <node concept="3Tm1VV" id="1aW6f0OgXtA" role="1B3o_S" />
       <node concept="3clFbS" id="1aW6f0OgXtB" role="3clF47" />
+      <node concept="37vLTG" id="2PM8UKNXFFT" role="3clF46">
+        <property role="TrG5h" value="parentCrtl" />
+        <node concept="3uibUv" id="2PM8UKNXFI5" role="1tU5fm">
+          <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
+        </node>
+      </node>
       <node concept="37vLTG" id="1aW6f0OgXtC" role="3clF46">
         <property role="TrG5h" value="interestedInSelectionType" />
         <node concept="3uibUv" id="1aW6f0OgXup" role="1tU5fm">
@@ -5156,6 +5171,12 @@
         <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
       </node>
       <node concept="3Tm1VV" id="3972coxdHjU" role="1B3o_S" />
+      <node concept="37vLTG" id="2PM8UKNYJNf" role="3clF46">
+        <property role="TrG5h" value="parentCrtl" />
+        <node concept="3uibUv" id="2PM8UKNYM4Q" role="1tU5fm">
+          <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
+        </node>
+      </node>
       <node concept="37vLTG" id="3972coxdHjV" role="3clF46">
         <property role="TrG5h" value="interestedInSelection" />
         <node concept="3uibUv" id="3972coxdHjW" role="1tU5fm">
@@ -5184,6 +5205,9 @@
             </node>
             <node concept="3nyPlj" id="3972coxdHlb" role="33vP2m">
               <ref role="37wK5l" node="3972coxdGQH" resolve="registerSelControlled" />
+              <node concept="37vLTw" id="2PM8UKNYRPa" role="37wK5m">
+                <ref role="3cqZAo" node="2PM8UKNYJNf" resolve="parentCrtl" />
+              </node>
               <node concept="37vLTw" id="5hc8PGHPzwL" role="37wK5m">
                 <ref role="3cqZAo" node="3972coxdHjV" resolve="interestedInSelection" />
               </node>
@@ -6519,6 +6543,12 @@
                 <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
               </node>
               <node concept="3Tm1VV" id="5SSJEYs9IJd" role="1B3o_S" />
+              <node concept="37vLTG" id="2PM8UKNYxS2" role="3clF46">
+                <property role="TrG5h" value="parentCrtl" />
+                <node concept="3uibUv" id="2PM8UKNYyw7" role="1tU5fm">
+                  <ref role="3uigEE" node="4o3conyKwiW" resolve="ISelectionController" />
+                </node>
+              </node>
               <node concept="37vLTG" id="5SSJEYs9IJf" role="3clF46">
                 <property role="TrG5h" value="interestedInSelectionType" />
                 <node concept="3uibUv" id="5SSJEYs9IJg" role="1tU5fm">

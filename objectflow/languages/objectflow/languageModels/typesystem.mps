@@ -15137,5 +15137,43 @@
       <ref role="1YaFvo" to="un0u:7KiQG4b0b1d" resolve="OFXBatchNumConsumers" />
     </node>
   </node>
+  <node concept="18kY7G" id="4cFQEsBSV4w">
+    <property role="TrG5h" value="check_StaticRessources" />
+    <property role="3GE5qa" value="OFXCore.platform" />
+    <node concept="3clFbS" id="4cFQEsBSV4x" role="18ibNy">
+      <node concept="3clFbJ" id="4cFQEsBSV53" role="3cqZAp">
+        <node concept="3eOVzh" id="4cFQEsBSXvB" role="3clFbw">
+          <node concept="3cmrfG" id="4cFQEsBSXvE" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="4cFQEsBSV_q" role="3uHU7B">
+            <node concept="2OqwBi" id="4cFQEsBSV7J" role="2Oq$k0">
+              <node concept="1YBJjd" id="4cFQEsBSV5f" role="2Oq$k0">
+                <ref role="1YBMHb" node="4cFQEsBSV4z" resolve="staticRessources" />
+              </node>
+              <node concept="3Tsc0h" id="4cFQEsBSVcW" role="2OqNvi">
+                <ref role="3TtcxE" to="un0u:2IDWU6Z30nM" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="4cFQEsBSWMV" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="4cFQEsBSV55" role="3clFbx">
+          <node concept="2MkqsV" id="4cFQEsBSX$K" role="3cqZAp">
+            <node concept="Xl_RD" id="4cFQEsBSX_3" role="2MkJ7o">
+              <property role="Xl_RC" value="Specify at least one platform here." />
+            </node>
+            <node concept="1YBJjd" id="4cFQEsBSYbO" role="2OEOjV">
+              <ref role="1YBMHb" node="4cFQEsBSV4z" resolve="staticRessources" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4cFQEsBSV4z" role="1YuTPh">
+      <property role="TrG5h" value="staticRessources" />
+      <ref role="1YaFvo" to="un0u:1fYc781EAsq" resolve="StaticRessources" />
+    </node>
+  </node>
 </model>
 
