@@ -3276,7 +3276,7 @@
             <node concept="liA8E" id="3972coxdH3L" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
               <node concept="Xl_RD" id="3972coxdH3M" role="37wK5m">
-                <property role="Xl_RC" value="  registered views: " />
+                <property role="Xl_RC" value="  registered gen_elems: " />
               </node>
             </node>
           </node>

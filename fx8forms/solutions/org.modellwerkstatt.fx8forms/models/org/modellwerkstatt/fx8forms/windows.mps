@@ -20803,6 +20803,47 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="1e8699aCJu3" role="3cqZAp" />
+                <node concept="3clFbJ" id="3CfBiVLe5$u" role="3cqZAp">
+                  <node concept="3clFbS" id="3CfBiVLe5$w" role="3clFbx">
+                    <node concept="3SKdUt" id="3CfBiVLejCH" role="3cqZAp">
+                      <node concept="3SKdUq" id="3CfBiVLejCJ" role="3SKWNk">
+                        <property role="3SKdUp" value="Dan Koblach 18, also if list is empty, but some obj selected?" />
+                      </node>
+                    </node>
+                    <node concept="3cpWs6" id="3CfBiVLef2H" role="3cqZAp">
+                      <node concept="3clFbT" id="3CfBiVLefgn" role="3cqZAk">
+                        <property role="3clFbU" value="false" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="3CfBiVLecO8" role="3clFbw">
+                    <node concept="3eOSWO" id="3CfBiVLeetu" role="3uHU7w">
+                      <node concept="3cmrfG" id="3CfBiVLeeF5" role="3uHU7w">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="2OqwBi" id="3CfBiVLedWT" role="3uHU7B">
+                        <node concept="37vLTw" id="3CfBiVLedB7" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1e8699aCJtQ" resolve="selection" />
+                        </node>
+                        <node concept="34oBXx" id="3CfBiVLeee5" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3clFbC" id="3CfBiVLecaf" role="3uHU7B">
+                      <node concept="2OqwBi" id="3CfBiVLeby6" role="3uHU7B">
+                        <node concept="37vLTw" id="3CfBiVLeaU4" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1e8699aCJdY" resolve="currentItems" />
+                        </node>
+                        <node concept="liA8E" id="3CfBiVLebIQ" role="2OqNvi">
+                          <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                        </node>
+                      </node>
+                      <node concept="3cmrfG" id="3CfBiVLecJm" role="3uHU7w">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="3CfBiVLe0OR" role="3cqZAp" />
                 <node concept="3clFbJ" id="1e8699aCJu4" role="3cqZAp">
                   <node concept="3clFbS" id="1e8699aCJu5" role="3clFbx">
                     <node concept="1Dw8fO" id="1e8699aCJu6" role="3cqZAp">
