@@ -17,6 +17,7 @@ var zVersion = 'TC29x';
 var lastSubmitTrace = '';
 var lastSequenceIDSubmitted = 0;
 var lastMillisSubmitted = 0;
+var startupMillis = Date.now();
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -427,6 +428,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	setInterval(incProgress, 20000);
 	incProgress();
+	console.log('WatchDog: Page loaded dom event.... ');
 }); 
 
 function noteTrace(source) {
@@ -444,8 +446,8 @@ function noteTrace(source) {
    cmdInfo += $('#chrumbdiv2').innerHTML + ' / ';
  }
 
-
-  var info = '[' + cmdInfo + ']   ' + source + ': ' + err.stack
+  var timeDiff = Date.now() - startupMillis;
+  var info = '' + timeDiff + ' [' + cmdInfo + ']   ' + source + ': ' + err.stack;
   $('form').DebugInformation.value = lastSubmitTrace + ' \n\n ' + info;
   lastSubmitTrace = info;
 }

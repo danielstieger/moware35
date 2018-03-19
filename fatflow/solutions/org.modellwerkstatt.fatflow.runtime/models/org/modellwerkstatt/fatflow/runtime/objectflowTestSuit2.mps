@@ -8477,6 +8477,57 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="3WI9B8lPYHA" role="3yMuLx">
+      <property role="TrG5h" value="MultiString - Print BigDecimal with 4 f" />
+      <node concept="3cqZAl" id="3WI9B8lPZ3H" role="3clF45" />
+      <node concept="3clFbS" id="3WI9B8lPYHE" role="3clF47">
+        <node concept="3cpWs8" id="3WI9B8lPZ4y" role="3cqZAp">
+          <node concept="3cpWsn" id="3WI9B8lPZ4_" role="3cpWs9">
+            <property role="TrG5h" value="s" />
+            <node concept="17QB3L" id="3WI9B8lPZ4x" role="1tU5fm" />
+            <node concept="35AVbj" id="3WI9B8lPZ50" role="33vP2m">
+              <property role="35AVef" value="%.4bd" />
+              <node concept="2ShNRf" id="3WI9B8lPZ6L" role="35Gt3$">
+                <node concept="1pGfFk" id="3WI9B8lQ4NT" role="2ShVmc">
+                  <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(java.lang.String)" resolve="BigDecimal" />
+                  <node concept="Xl_RD" id="3WI9B8lQ4OA" role="37wK5m">
+                    <property role="Xl_RC" value="10.999855" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="38$l6q" id="3WI9B8lRaUk" role="3cqZAp">
+          <node concept="3cpWs3" id="3WI9B8lRaXR" role="38$l6p">
+            <node concept="Xl_RD" id="3WI9B8lRaXU" role="3uHU7w">
+              <property role="Xl_RC" value="&lt;" />
+            </node>
+            <node concept="3cpWs3" id="3WI9B8lRaW1" role="3uHU7B">
+              <node concept="Xl_RD" id="3WI9B8lRaU_" role="3uHU7B">
+                <property role="Xl_RC" value="&gt;" />
+              </node>
+              <node concept="37vLTw" id="3WI9B8lRaW4" role="3uHU7w">
+                <ref role="3cqZAo" node="3WI9B8lPZ4_" resolve="s" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3WI9B8lWp2$" role="3cqZAp">
+          <node concept="2OqwBi" id="3WI9B8lWp6n" role="1gVkn0">
+            <node concept="37vLTw" id="3WI9B8lWp2Y" role="2Oq$k0">
+              <ref role="3cqZAo" node="3WI9B8lPZ4_" resolve="s" />
+            </node>
+            <node concept="liA8E" id="3WI9B8lWpbK" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="3WI9B8lWpcb" role="37wK5m">
+                <property role="Xl_RC" value="10,9999" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3yPF9F" id="6Irl3jv7iez" role="3yMuLx">
       <property role="TrG5h" value="MultiString - Print LocalDate and DateTime." />
       <node concept="3cqZAl" id="6Irl3jv7ie$" role="3clF45" />

@@ -24,6 +24,8 @@ var AJAX_HEADER_REDIRECTION = '--$$%&?e--REDIRECT--$$%&?e--';
 var lastSequenceIDSubmitted = 0;
 var lastMillisSubmitted = 0;
 var lastSubmitTrace = '';
+var startupMillis = Date.now();
+
 
 var $ = function(query) {
   return document.querySelector(query);
@@ -662,7 +664,8 @@ function noteTrace(source) {
   }
 
 
-  var info = '[' + cmdInfo + ']   ' + source + ': ' + err.stack
+  var timeDiff = Date.now() - startupMillis;
+  var info = '' + timeDiff + ' [' + cmdInfo + ']   ' + source + ': ' + err.stack;
   $('form').DebugInformation.value = lastSubmitTrace + ' \n\n ' + info;
   lastSubmitTrace = info;
 }

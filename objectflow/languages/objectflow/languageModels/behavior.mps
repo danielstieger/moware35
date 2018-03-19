@@ -19252,6 +19252,28 @@
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
     </node>
+    <node concept="13i0hz" id="6YCkQkULW9" role="13h7CS">
+      <property role="TrG5h" value="usedInBatchJob" />
+      <node concept="3Tm1VV" id="6YCkQkULWa" role="1B3o_S" />
+      <node concept="10P_77" id="6YCkQkUN63" role="3clF45" />
+      <node concept="3clFbS" id="6YCkQkULWc" role="3clF47">
+        <node concept="3clFbF" id="6YCkQkUN6S" role="3cqZAp">
+          <node concept="2OqwBi" id="6YCkQkUNr1" role="3clFbG">
+            <node concept="2OqwBi" id="6YCkQkUNb2" role="2Oq$k0">
+              <node concept="13iPFW" id="6YCkQkUN6R" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="6YCkQkUNk3" role="2OqNvi">
+                <node concept="1xMEDy" id="6YCkQkUNk5" role="1xVPHs">
+                  <node concept="chp4Y" id="6YCkQkUNkU" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="6YCkQkUNDs" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="65g7rxkARHW" role="13h7CS">
       <property role="TrG5h" value="getNecessaryProcesses" />
       <node concept="3Tm1VV" id="65g7rxkARHX" role="1B3o_S" />
