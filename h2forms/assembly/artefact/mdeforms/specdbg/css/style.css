@@ -218,6 +218,11 @@ html, body {
 	color: rgb(84, 84, 84);
 	/* margin-left: 4.7%; */
 }
+
+input, textarea, select { 
+	border-bottom-width: 3px;
+	border-bottom-style: solid; 
+}
 	
 input:focus, textarea:focus, select:focus {
 	border-bottom: 3px solid #F69384;
