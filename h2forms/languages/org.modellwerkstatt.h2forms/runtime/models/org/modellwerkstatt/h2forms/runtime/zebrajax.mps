@@ -10883,15 +10883,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="t3qoNA7JHs" role="jymVt" />
-    <node concept="Wx3nA" id="yYLpwAeoVN" role="jymVt">
-      <property role="TrG5h" value="DYN_TABLE_STYLE" />
-      <property role="3TUv4t" value="true" />
-      <node concept="17QB3L" id="yYLpwAeoVO" role="1tU5fm" />
-      <node concept="3Tm1VV" id="yYLpwAeoVP" role="1B3o_S" />
-      <node concept="Xl_RD" id="yYLpwAe84F" role="33vP2m">
-        <property role="Xl_RC" value="border-left: 3px solid %s; border-bottom: 3px solid %s;" />
-      </node>
-    </node>
     <node concept="Wx3nA" id="yYLpwAtDKp" role="jymVt">
       <property role="TrG5h" value="SINGLE_STATUS_STYLE" />
       <property role="3TUv4t" value="true" />
@@ -11200,24 +11191,14 @@
                   <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="3cpWs3" id="2gdf8TJf0xT" role="37wK5m">
                     <node concept="Xl_RD" id="2gdf8TJf0xU" role="3uHU7w">
-                      <property role="Xl_RC" value=" }" />
+                      <property role="Xl_RC" value="; }" />
                     </node>
                     <node concept="3cpWs3" id="2gdf8TJf0xV" role="3uHU7B">
                       <node concept="Xl_RD" id="2gdf8TJf0xW" role="3uHU7B">
-                        <property role="Xl_RC" value=" table .lightactive {" />
+                        <property role="Xl_RC" value=" table .lightactive { border-color:" />
                       </node>
-                      <node concept="2YIFZM" id="2gdf8TJf0xX" role="3uHU7w">
-                        <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                        <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
-                        <node concept="37vLTw" id="2gdf8TJf0$Y" role="37wK5m">
-                          <ref role="3cqZAo" node="yYLpwAeoVN" resolve="DYN_TABLE_STYLE" />
-                        </node>
-                        <node concept="37vLTw" id="2gdf8TJf0xY" role="37wK5m">
-                          <ref role="3cqZAo" node="ao4XGSZuXN" resolve="color" />
-                        </node>
-                        <node concept="37vLTw" id="2gdf8TJf0xZ" role="37wK5m">
-                          <ref role="3cqZAo" node="ao4XGSZuXN" resolve="color" />
-                        </node>
+                      <node concept="37vLTw" id="5PLZuffewZQ" role="3uHU7w">
+                        <ref role="3cqZAo" node="ao4XGSZuXN" resolve="color" />
                       </node>
                     </node>
                   </node>
@@ -12366,24 +12347,14 @@
               <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
               <node concept="3cpWs3" id="yYLpwAxbXA" role="37wK5m">
                 <node concept="Xl_RD" id="yYLpwAxcF4" role="3uHU7w">
-                  <property role="Xl_RC" value=" }" />
+                  <property role="Xl_RC" value="; }" />
                 </node>
                 <node concept="3cpWs3" id="yYLpwAx9gp" role="3uHU7B">
                   <node concept="Xl_RD" id="yYLpwAx97H" role="3uHU7B">
-                    <property role="Xl_RC" value=" table .lightactive {" />
+                    <property role="Xl_RC" value=" table .lightactive { border-color: " />
                   </node>
-                  <node concept="2YIFZM" id="yYLpwAxa1t" role="3uHU7w">
-                    <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                    <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
-                    <node concept="37vLTw" id="73XZ2qPHvJN" role="37wK5m">
-                      <ref role="3cqZAo" node="yYLpwAeoVN" resolve="DYN_TABLE_STYLE" />
-                    </node>
-                    <node concept="37vLTw" id="yYLpwAxbeI" role="37wK5m">
-                      <ref role="3cqZAo" node="ao4XGSZuXN" resolve="color" />
-                    </node>
-                    <node concept="37vLTw" id="yYLpwAxbuM" role="37wK5m">
-                      <ref role="3cqZAo" node="ao4XGSZuXN" resolve="color" />
-                    </node>
+                  <node concept="37vLTw" id="5PLZuffeZxt" role="3uHU7w">
+                    <ref role="3cqZAo" node="ao4XGSZuXN" resolve="color" />
                   </node>
                 </node>
               </node>
@@ -15189,28 +15160,8 @@
                             <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                             <node concept="3cpWs3" id="5j5asfbHUYF" role="37wK5m">
                               <node concept="3cpWs3" id="5j5asfbHU3v" role="3uHU7B">
-                                <node concept="3cpWs3" id="yYLpwAexhl" role="3uHU7B">
-                                  <node concept="Xl_RD" id="yYLpwAexz8" role="3uHU7w">
-                                    <property role="Xl_RC" value="\&quot;&gt;&lt;td " />
-                                  </node>
-                                  <node concept="3cpWs3" id="yYLpwAey2i" role="3uHU7B">
-                                    <node concept="2YIFZM" id="yYLpwAeyZB" role="3uHU7w">
-                                      <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                                      <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
-                                      <node concept="37vLTw" id="73XZ2qPHw1N" role="37wK5m">
-                                        <ref role="3cqZAo" node="yYLpwAeoVN" resolve="DYN_TABLE_STYLE" />
-                                      </node>
-                                      <node concept="37vLTw" id="6zVU6_jBxX5" role="37wK5m">
-                                        <ref role="3cqZAo" node="6zVU6_jBtge" resolve="color" />
-                                      </node>
-                                      <node concept="37vLTw" id="6zVU6_jBy$$" role="37wK5m">
-                                        <ref role="3cqZAo" node="6zVU6_jBtge" resolve="color" />
-                                      </node>
-                                    </node>
-                                    <node concept="Xl_RD" id="5j5asfbHQTu" role="3uHU7B">
-                                      <property role="Xl_RC" value="&lt;tr class=\&quot;lightactive\&quot; style=\&quot;" />
-                                    </node>
-                                  </node>
+                                <node concept="Xl_RD" id="5j5asfbHQTu" role="3uHU7B">
+                                  <property role="Xl_RC" value="&lt;tr class=\&quot;lightactive\&quot;&gt;&lt;td " />
                                 </node>
                                 <node concept="37vLTw" id="5j5asfbHUxG" role="3uHU7w">
                                   <ref role="3cqZAo" node="42V9YTaiDRg" resolve="jsLink" />
@@ -16707,33 +16658,18 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3SKdUt" id="5PLZufffbBE" role="3cqZAp">
+                      <node concept="3SKdUq" id="5PLZufffbBG" role="3SKWNk">
+                        <property role="3SKdUp" value="Dan, Koblach Spring 18, changed color handling" />
+                      </node>
+                    </node>
                     <node concept="3clFbF" id="yYLpwAtuCa" role="3cqZAp">
                       <node concept="37vLTI" id="yYLpwAtuNG" role="3clFbG">
                         <node concept="37vLTw" id="yYLpwAtuC9" role="37vLTJ">
                           <ref role="3cqZAo" node="yYLpwAthbd" resolve="tableItemColor" />
                         </node>
-                        <node concept="3cpWs3" id="yYLpwAxGQ2" role="37vLTx">
-                          <node concept="Xl_RD" id="yYLpwAxH0G" role="3uHU7w">
-                            <property role="Xl_RC" value="\&quot;" />
-                          </node>
-                          <node concept="3cpWs3" id="yYLpwAxFGh" role="3uHU7B">
-                            <node concept="Xl_RD" id="yYLpwAxGmw" role="3uHU7B">
-                              <property role="Xl_RC" value=" style=\&quot;" />
-                            </node>
-                            <node concept="2YIFZM" id="yYLpwAtuYh" role="3uHU7w">
-                              <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
-                              <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
-                              <node concept="37vLTw" id="73XZ2qPHwaN" role="37wK5m">
-                                <ref role="3cqZAo" node="yYLpwAeoVN" resolve="DYN_TABLE_STYLE" />
-                              </node>
-                              <node concept="37vLTw" id="yYLpwAtvOE" role="37wK5m">
-                                <ref role="3cqZAo" node="yYLpwAthbd" resolve="tableItemColor" />
-                              </node>
-                              <node concept="37vLTw" id="yYLpwAtwoo" role="37wK5m">
-                                <ref role="3cqZAo" node="yYLpwAthbd" resolve="tableItemColor" />
-                              </node>
-                            </node>
-                          </node>
+                        <node concept="Xl_RD" id="5PLZufffc1P" role="37vLTx">
+                          <property role="Xl_RC" value="" />
                         </node>
                       </node>
                     </node>

@@ -14667,12 +14667,22 @@
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="3l4K2g6ZFoQ" role="3clFbw">
-                <node concept="37vLTw" id="3l4K2g6ZFni" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+              <node concept="1Wc70l" id="5s2wACm3uOd" role="3clFbw">
+                <node concept="2OqwBi" id="5s2wACm3Bbs" role="3uHU7w">
+                  <node concept="37vLTw" id="5s2wACm3B97" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
+                  </node>
+                  <node concept="liA8E" id="5s2wACm3Bun" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:kWPevMcyfQ" resolve="useBackgroundThread" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="3l4K2g6ZFCJ" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
+                <node concept="2OqwBi" id="3l4K2g6ZFoQ" role="3uHU7B">
+                  <node concept="37vLTw" id="3l4K2g6ZFni" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                  </node>
+                  <node concept="liA8E" id="3l4K2g6ZFCJ" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
+                  </node>
                 </node>
               </node>
             </node>

@@ -14,6 +14,7 @@
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -223,6 +224,9 @@
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
+      <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
+        <property id="1200397540847" name="charConstant" index="1XhdNS" />
+      </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
       <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
@@ -1376,6 +1380,78 @@
         </node>
         <node concept="3clFbJ" id="3l4K2g7bZLl" role="3cqZAp">
           <node concept="3clFbS" id="3l4K2g7bZLn" role="3clFbx">
+            <node concept="3cpWs8" id="5PLZuffemlh" role="3cqZAp">
+              <node concept="3cpWsn" id="5PLZuffemlk" role="3cpWs9">
+                <property role="TrG5h" value="user" />
+                <node concept="17QB3L" id="5PLZuffemlf" role="1tU5fm" />
+                <node concept="3cpWs3" id="5PLZuffeovA" role="33vP2m">
+                  <node concept="3cpWs3" id="5PLZuffemwd" role="3uHU7B">
+                    <node concept="Xl_RD" id="5PLZuffemr$" role="3uHU7B">
+                      <property role="Xl_RC" value="(usr " />
+                    </node>
+                    <node concept="1eOMI4" id="5PLZuffemz2" role="3uHU7w">
+                      <node concept="3K4zz7" id="5PLZuffemK7" role="1eOMHV">
+                        <node concept="3cpWs3" id="5PLZuffeniE" role="3K4E3e">
+                          <node concept="2OqwBi" id="5PLZuffenBO" role="3uHU7w">
+                            <node concept="2OqwBi" id="5PLZuffenwE" role="2Oq$k0">
+                              <node concept="2OqwBi" id="5PLZuffenqk" role="2Oq$k0">
+                                <node concept="37vLTw" id="5PLZuffennS" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="4XXgpA_y1$I" resolve="defaultActionStarter" />
+                                </node>
+                                <node concept="liA8E" id="5PLZuffenuk" role="2OqNvi">
+                                  <ref role="37wK5l" to="1e0c:4xjkqfyCvqU" resolve="getSession" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="5PLZuffen_l" role="2OqNvi">
+                                <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="5PLZuffenHm" role="2OqNvi">
+                              <ref role="37wK5l" to="w7gk:47yM9mP3xmG" resolve="getUserId" />
+                            </node>
+                          </node>
+                          <node concept="3cpWs3" id="5PLZuffen74" role="3uHU7B">
+                            <node concept="2OqwBi" id="5PLZuffemYx" role="3uHU7B">
+                              <node concept="2OqwBi" id="5PLZuffemTj" role="2Oq$k0">
+                                <node concept="2OqwBi" id="5PLZuffemP7" role="2Oq$k0">
+                                  <node concept="37vLTw" id="5PLZuffemNH" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="4XXgpA_y1$I" resolve="defaultActionStarter" />
+                                  </node>
+                                  <node concept="liA8E" id="5PLZuffemSq" role="2OqNvi">
+                                    <ref role="37wK5l" to="1e0c:4xjkqfyCvqU" resolve="getSession" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="5PLZuffemXo" role="2OqNvi">
+                                  <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                                </node>
+                              </node>
+                              <node concept="liA8E" id="5PLZuffen3s" role="2OqNvi">
+                                <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
+                              </node>
+                            </node>
+                            <node concept="1Xhbcc" id="5PLZuffenb0" role="3uHU7w">
+                              <property role="1XhdNS" value="/" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="5PLZuffenLs" role="3K4GZi">
+                          <property role="Xl_RC" value="null" />
+                        </node>
+                        <node concept="3y3z36" id="5PLZuffemDd" role="3K4Cdx">
+                          <node concept="10Nm6u" id="5PLZuffemI_" role="3uHU7w" />
+                          <node concept="37vLTw" id="5PLZuffem_C" role="3uHU7B">
+                            <ref role="3cqZAo" node="4XXgpA_y1$I" resolve="defaultActionStarter" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="5PLZuffeoVl" role="3uHU7w">
+                    <property role="Xl_RC" value=")" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="3l4K2g7c9pN" role="3cqZAp">
               <node concept="2OqwBi" id="3l4K2g7c9pO" role="3clFbG">
                 <node concept="2YIFZM" id="3l4K2g7c9pP" role="2Oq$k0">
@@ -1397,8 +1473,18 @@
                           <node concept="3cpWs3" id="3l4K2g7c9q1" role="3uHU7B">
                             <node concept="3cpWs3" id="3l4K2g7c9q2" role="3uHU7B">
                               <node concept="3cpWs3" id="3l4K2g7c9q3" role="3uHU7B">
-                                <node concept="Xl_RD" id="3l4K2g7c9q4" role="3uHU7B">
-                                  <property role="Xl_RC" value="ERROR MenuAction.startCommand() " />
+                                <node concept="3cpWs3" id="5PLZuffenPK" role="3uHU7B">
+                                  <node concept="Xl_RD" id="5PLZuffenSi" role="3uHU7w">
+                                    <property role="Xl_RC" value=" - " />
+                                  </node>
+                                  <node concept="3cpWs3" id="5PLZuffeoij" role="3uHU7B">
+                                    <node concept="37vLTw" id="5PLZuffeont" role="3uHU7w">
+                                      <ref role="3cqZAo" node="5PLZuffemlk" resolve="user" />
+                                    </node>
+                                    <node concept="Xl_RD" id="3l4K2g7c9q4" role="3uHU7B">
+                                      <property role="Xl_RC" value="ERROR MenuAction.startCommand() " />
+                                    </node>
+                                  </node>
                                 </node>
                                 <node concept="37vLTw" id="3l4K2g7c9q5" role="3uHU7w">
                                   <ref role="3cqZAo" node="Y3fiVJM08v" resolve="labelText" />

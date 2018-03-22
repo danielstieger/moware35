@@ -260,6 +260,10 @@ table .lightpassive {
 table .lightactive {
 	/* colors set dyn in template */
 	cursor: pointer;
+ 	border-bottom-width: 3px;
+ 	border-bottom-style: solid;
+ 	border-left-width: 3px;
+ 	border-left-style: solid;
 }
 
 
