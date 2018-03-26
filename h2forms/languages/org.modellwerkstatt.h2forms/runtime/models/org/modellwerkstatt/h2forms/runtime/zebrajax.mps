@@ -15160,8 +15160,18 @@
                             <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                             <node concept="3cpWs3" id="5j5asfbHUYF" role="37wK5m">
                               <node concept="3cpWs3" id="5j5asfbHU3v" role="3uHU7B">
-                                <node concept="Xl_RD" id="5j5asfbHQTu" role="3uHU7B">
-                                  <property role="Xl_RC" value="&lt;tr class=\&quot;lightactive\&quot;&gt;&lt;td " />
+                                <node concept="3cpWs3" id="5faagik3xy5" role="3uHU7B">
+                                  <node concept="Xl_RD" id="5faagik3zha" role="3uHU7w">
+                                    <property role="Xl_RC" value="\&quot;&gt;&lt;td " />
+                                  </node>
+                                  <node concept="3cpWs3" id="5faagik3yND" role="3uHU7B">
+                                    <node concept="37vLTw" id="5faagik3_Dk" role="3uHU7w">
+                                      <ref role="3cqZAo" node="6zVU6_jBtge" resolve="color" />
+                                    </node>
+                                    <node concept="Xl_RD" id="5j5asfbHQTu" role="3uHU7B">
+                                      <property role="Xl_RC" value="&lt;tr class=\&quot;lightactive\&quot; style=\&quot;border-color:" />
+                                    </node>
+                                  </node>
                                 </node>
                                 <node concept="37vLTw" id="5j5asfbHUxG" role="3uHU7w">
                                   <ref role="3cqZAo" node="42V9YTaiDRg" resolve="jsLink" />
