@@ -6437,6 +6437,12 @@
       <node concept="3Tm6S6" id="18nf27lR_P6" role="1B3o_S" />
       <node concept="10P_77" id="18nf27lRCdV" role="1tU5fm" />
     </node>
+    <node concept="2tJIrI" id="701$ZaZr3g6" role="jymVt" />
+    <node concept="312cEg" id="701$ZaZr7R_" role="jymVt">
+      <property role="TrG5h" value="modalTabMode" />
+      <node concept="3Tm6S6" id="701$ZaZr7RA" role="1B3o_S" />
+      <node concept="10P_77" id="701$ZaZranR" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="1i79Hb8rECZ" role="jymVt" />
     <node concept="312cEg" id="2qrl3a2ZxLK" role="jymVt">
       <property role="TrG5h" value="tilesSession" />
@@ -6748,6 +6754,16 @@
             </node>
             <node concept="37vLTw" id="18nf27lRCBv" role="37vLTJ">
               <ref role="3cqZAo" node="18nf27lR_P5" resolve="asyncShutdownRequest" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="701$ZaZraVR" role="3cqZAp">
+          <node concept="37vLTI" id="701$ZaZrbd0" role="3clFbG">
+            <node concept="3clFbT" id="701$ZaZrbg9" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="701$ZaZraVP" role="37vLTJ">
+              <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
             </node>
           </node>
         </node>
@@ -7749,84 +7765,93 @@
             <property role="3SKdUp" value="(2) evaluate command triggers in menu ?" />
           </node>
         </node>
-        <node concept="1DcWWT" id="5xzYmM6gFcP" role="3cqZAp">
-          <node concept="3cpWsn" id="5xzYmM6gFcR" role="1Duv9x">
-            <property role="TrG5h" value="action" />
-            <node concept="3uibUv" id="5xzYmM6gFR2" role="1tU5fm">
-              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="5xzYmM6gFcT" role="2LFqv$">
-            <node concept="3SKdUt" id="3oBdEpSYmYB" role="3cqZAp">
-              <node concept="3SKdUq" id="3oBdEpSYn3y" role="3SKWNk">
-                <property role="3SKdUp" value="trg.hotKey can be null !" />
+        <node concept="3clFbJ" id="701$ZaZrbJ$" role="3cqZAp">
+          <node concept="3clFbS" id="701$ZaZrbJA" role="3clFbx">
+            <node concept="1DcWWT" id="5xzYmM6gFcP" role="3cqZAp">
+              <node concept="3cpWsn" id="5xzYmM6gFcR" role="1Duv9x">
+                <property role="TrG5h" value="action" />
+                <node concept="3uibUv" id="5xzYmM6gFR2" role="1tU5fm">
+                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                </node>
               </node>
-            </node>
-            <node concept="3clFbJ" id="5xzYmM6gGGN" role="3cqZAp">
-              <node concept="3clFbS" id="5xzYmM6gGGO" role="3clFbx">
-                <node concept="3SKdUt" id="5xzYmM6nq9p" role="3cqZAp">
-                  <node concept="3SKdUq" id="5xzYmM6nqbw" role="3SKWNk">
-                    <property role="3SKdUp" value="especially in the menu, we are using the fake controller#" />
+              <node concept="3clFbS" id="5xzYmM6gFcT" role="2LFqv$">
+                <node concept="3SKdUt" id="3oBdEpSYmYB" role="3cqZAp">
+                  <node concept="3SKdUq" id="3oBdEpSYn3y" role="3SKWNk">
+                    <property role="3SKdUp" value="trg.hotKey can be null !" />
                   </node>
                 </node>
-                <node concept="3SKdUt" id="5xzYmM6nsWU" role="3cqZAp">
-                  <node concept="3SKdUq" id="5xzYmM6nsZ3" role="3SKWNk">
-                    <property role="3SKdUp" value="which delegates to the current tab, if available." />
-                  </node>
-                </node>
-                <node concept="3clFbF" id="5xzYmM6mJ$O" role="3cqZAp">
-                  <node concept="2OqwBi" id="5xzYmM6mJBW" role="3clFbG">
-                    <node concept="37vLTw" id="5xzYmM6mJ$M" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5xzYmM6gFcR" resolve="action" />
+                <node concept="3clFbJ" id="5xzYmM6gGGN" role="3cqZAp">
+                  <node concept="3clFbS" id="5xzYmM6gGGO" role="3clFbx">
+                    <node concept="3SKdUt" id="5xzYmM6nq9p" role="3cqZAp">
+                      <node concept="3SKdUq" id="5xzYmM6nqbw" role="3SKWNk">
+                        <property role="3SKdUp" value="especially in the menu, we are using the fake controller#" />
+                      </node>
                     </node>
-                    <node concept="liA8E" id="5xzYmM6mJPA" role="2OqNvi">
-                      <ref role="37wK5l" to="yg8v:3nLGOmWtRLF" resolve="startCommand" />
+                    <node concept="3SKdUt" id="5xzYmM6nsWU" role="3cqZAp">
+                      <node concept="3SKdUq" id="5xzYmM6nsZ3" role="3SKWNk">
+                        <property role="3SKdUp" value="which delegates to the current tab, if available." />
+                      </node>
                     </node>
+                    <node concept="3clFbF" id="5xzYmM6mJ$O" role="3cqZAp">
+                      <node concept="2OqwBi" id="5xzYmM6mJBW" role="3clFbG">
+                        <node concept="37vLTw" id="5xzYmM6mJ$M" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5xzYmM6gFcR" resolve="action" />
+                        </node>
+                        <node concept="liA8E" id="5xzYmM6mJPA" role="2OqNvi">
+                          <ref role="37wK5l" to="yg8v:3nLGOmWtRLF" resolve="startCommand" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cpWs6" id="27BPRG5JVwC" role="3cqZAp" />
                   </node>
-                </node>
-                <node concept="3cpWs6" id="27BPRG5JVwC" role="3cqZAp" />
-              </node>
-              <node concept="1Wc70l" id="27BPRG5JJvB" role="3clFbw">
-                <node concept="2OqwBi" id="27BPRG5JKz1" role="3uHU7w">
-                  <node concept="37vLTw" id="27BPRG5JKxq" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5xzYmM6gFcR" resolve="action" />
-                  </node>
-                  <node concept="liA8E" id="27BPRG5JKAt" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:3nLGOmWzA1v" resolve="reevalEnabled" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="5xzYmM6gIpT" role="3uHU7B">
-                  <node concept="liA8E" id="5xzYmM6gMzU" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                    <node concept="2OqwBi" id="5xzYmM6gGMp" role="37wK5m">
-                      <node concept="37vLTw" id="5xzYmM6gGHi" role="2Oq$k0">
+                  <node concept="1Wc70l" id="27BPRG5JJvB" role="3clFbw">
+                    <node concept="2OqwBi" id="27BPRG5JKz1" role="3uHU7w">
+                      <node concept="37vLTw" id="27BPRG5JKxq" role="2Oq$k0">
                         <ref role="3cqZAo" node="5xzYmM6gFcR" resolve="action" />
                       </node>
-                      <node concept="2OwXpG" id="5xzYmM6gH1l" role="2OqNvi">
-                        <ref role="2Oxat5" to="yg8v:Y3fiVJPWx7" resolve="public_hotKey" />
+                      <node concept="liA8E" id="27BPRG5JKAt" role="2OqNvi">
+                        <ref role="37wK5l" to="yg8v:3nLGOmWzA1v" resolve="reevalEnabled" />
                       </node>
                     </node>
-                  </node>
-                  <node concept="2OqwBi" id="2o7h3aDXtBb" role="2Oq$k0">
-                    <node concept="37vLTw" id="2o7h3aDXtzR" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4Ucpg8yg9jz" resolve="ev" />
-                    </node>
-                    <node concept="liA8E" id="2o7h3aDXtEd" role="2OqNvi">
-                      <ref role="37wK5l" node="zBgVaD687P" resolve="getKey" />
+                    <node concept="2OqwBi" id="5xzYmM6gIpT" role="3uHU7B">
+                      <node concept="liA8E" id="5xzYmM6gMzU" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                        <node concept="2OqwBi" id="5xzYmM6gGMp" role="37wK5m">
+                          <node concept="37vLTw" id="5xzYmM6gGHi" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5xzYmM6gFcR" resolve="action" />
+                          </node>
+                          <node concept="2OwXpG" id="5xzYmM6gH1l" role="2OqNvi">
+                            <ref role="2Oxat5" to="yg8v:Y3fiVJPWx7" resolve="public_hotKey" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="2o7h3aDXtBb" role="2Oq$k0">
+                        <node concept="37vLTw" id="2o7h3aDXtzR" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4Ucpg8yg9jz" resolve="ev" />
+                        </node>
+                        <node concept="liA8E" id="2o7h3aDXtEd" role="2OqNvi">
+                          <ref role="37wK5l" node="zBgVaD687P" resolve="getKey" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
               </node>
+              <node concept="37vLTw" id="5xzYmM6gGkn" role="1DdaDG">
+                <ref role="3cqZAo" node="3nLGOmWtetw" resolve="mainMenuAndTileActions" />
+              </node>
             </node>
           </node>
-          <node concept="37vLTw" id="5xzYmM6gGkn" role="1DdaDG">
-            <ref role="3cqZAo" node="3nLGOmWtetw" resolve="mainMenuAndTileActions" />
+          <node concept="3fqX7Q" id="701$ZaZrccg" role="3clFbw">
+            <node concept="37vLTw" id="701$ZaZrcpB" role="3fr31v">
+              <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="5xzYmM6gEii" role="3cqZAp" />
         <node concept="3SKdUt" id="12Eg3QJiCmy" role="3cqZAp">
           <node concept="3SKdUq" id="12Eg3QJiCt4" role="3SKWNk">
-            <property role="3SKdUp" value="(3) if not, dispatch it to the current tab" />
+            <property role="3SKdUp" value="(3) if not, dispatch it to the current tab, might also be the modal tab" />
           </node>
         </node>
         <node concept="3clFbJ" id="12Eg3QJy$ey" role="3cqZAp">
@@ -8330,6 +8355,128 @@
       </node>
     </node>
     <node concept="2tJIrI" id="zBgVaCWLxC" role="jymVt" />
+    <node concept="3clFb_" id="701$ZaZrjYg" role="jymVt">
+      <property role="TrG5h" value="lockCurrentTabAsModal" />
+      <node concept="37vLTG" id="701$ZaZrNU1" role="3clF46">
+        <property role="TrG5h" value="lock" />
+        <node concept="10P_77" id="701$ZaZrQ5o" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="701$ZaZrjYi" role="3clF45" />
+      <node concept="3Tm1VV" id="701$ZaZrjYj" role="1B3o_S" />
+      <node concept="3clFbS" id="701$ZaZrjYk" role="3clF47">
+        <node concept="3clFbH" id="701$ZaZrQg0" role="3cqZAp" />
+        <node concept="3clFbJ" id="701$ZaZrQoH" role="3cqZAp">
+          <node concept="3clFbS" id="701$ZaZrQoJ" role="3clFbx">
+            <node concept="3clFbJ" id="701$ZaZrQBz" role="3cqZAp">
+              <node concept="3clFbS" id="701$ZaZrQB_" role="3clFbx">
+                <node concept="YS8fn" id="701$ZaZrRyd" role="3cqZAp">
+                  <node concept="2ShNRf" id="701$ZaZrR_4" role="YScLw">
+                    <node concept="1pGfFk" id="701$ZaZrS3a" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                      <node concept="3cpWs3" id="701$ZaZrSVm" role="37wK5m">
+                        <node concept="37vLTw" id="701$ZaZrTcs" role="3uHU7w">
+                          <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
+                        </node>
+                        <node concept="3cpWs3" id="701$ZaZrSBu" role="3uHU7B">
+                          <node concept="3cpWs3" id="701$ZaZrSlR" role="3uHU7B">
+                            <node concept="Xl_RD" id="701$ZaZrS6i" role="3uHU7B">
+                              <property role="Xl_RC" value="Progamming error - this should not happen. promptWindow open or modalTab already running?" />
+                            </node>
+                            <node concept="37vLTw" id="701$ZaZrSse" role="3uHU7w">
+                              <ref role="3cqZAo" node="1dzqM5xovLP" resolve="promptWindowCommandContainer" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="701$ZaZrSIC" role="3uHU7w">
+                            <property role="Xl_RC" value=" / " />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="22lmx$" id="701$ZaZrRar" role="3clFbw">
+                <node concept="37vLTw" id="701$ZaZrRlM" role="3uHU7w">
+                  <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
+                </node>
+                <node concept="3y3z36" id="701$ZaZrQWf" role="3uHU7B">
+                  <node concept="37vLTw" id="701$ZaZrQK0" role="3uHU7B">
+                    <ref role="3cqZAo" node="1dzqM5xovLP" resolve="promptWindowCommandContainer" />
+                  </node>
+                  <node concept="10Nm6u" id="701$ZaZrR05" role="3uHU7w" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="701$ZaZrTlo" role="3cqZAp" />
+            <node concept="3clFbF" id="701$ZaZrTAd" role="3cqZAp">
+              <node concept="37vLTI" id="701$ZaZrTKB" role="3clFbG">
+                <node concept="3clFbT" id="701$ZaZrTNK" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="701$ZaZrTAb" role="37vLTJ">
+                  <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="701$ZaZrU7K" role="3cqZAp">
+              <node concept="2OqwBi" id="701$ZaZrUel" role="3clFbG">
+                <node concept="37vLTw" id="701$ZaZrU7I" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2ppo89mf0K9" resolve="appToolkitWindow" />
+                </node>
+                <node concept="liA8E" id="701$ZaZrUtF" role="2OqNvi">
+                  <ref role="37wK5l" to="250q:701$ZaZrUMC" resolve="setCurrentTabModal" />
+                  <node concept="3clFbT" id="701$ZaZs3vM" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="701$ZaZs3DD" role="3cqZAp" />
+          </node>
+          <node concept="37vLTw" id="701$ZaZrQxQ" role="3clFbw">
+            <ref role="3cqZAo" node="701$ZaZrNU1" resolve="lock" />
+          </node>
+          <node concept="9aQIb" id="701$ZaZs3JN" role="9aQIa">
+            <node concept="3clFbS" id="701$ZaZs3JO" role="9aQI4">
+              <node concept="3SKdUt" id="701$ZaZs8MR" role="3cqZAp">
+                <node concept="3SKdUq" id="701$ZaZs8MT" role="3SKWNk">
+                  <property role="3SKdUp" value="might also be called to clear tab modal on shutdown etc.. " />
+                </node>
+              </node>
+              <node concept="3SKdUt" id="701$ZaZs5hZ" role="3cqZAp">
+                <node concept="3SKdUq" id="701$ZaZs5i1" role="3SKWNk">
+                  <property role="3SKdUp" value="gracfully do not report any problems. " />
+                </node>
+              </node>
+              <node concept="3clFbF" id="701$ZaZs5rZ" role="3cqZAp">
+                <node concept="37vLTI" id="701$ZaZs5wI" role="3clFbG">
+                  <node concept="3clFbT" id="701$ZaZs5zY" role="37vLTx">
+                    <property role="3clFbU" value="false" />
+                  </node>
+                  <node concept="37vLTw" id="701$ZaZs5rX" role="37vLTJ">
+                    <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="701$ZaZs5LE" role="3cqZAp">
+                <node concept="2OqwBi" id="701$ZaZs61O" role="3clFbG">
+                  <node concept="37vLTw" id="701$ZaZs5LC" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2ppo89mf0K9" resolve="appToolkitWindow" />
+                  </node>
+                  <node concept="liA8E" id="701$ZaZs6id" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:701$ZaZrUMC" resolve="setCurrentTabModal" />
+                    <node concept="3clFbT" id="701$ZaZs6pf" role="37wK5m">
+                      <property role="3clFbU" value="false" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="701$ZaZs3Px" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="zBgVaCWLN6" role="jymVt" />
     <node concept="3clFb_" id="1dzqM5xnALL" role="jymVt">
       <property role="1EzhhJ" value="false" />

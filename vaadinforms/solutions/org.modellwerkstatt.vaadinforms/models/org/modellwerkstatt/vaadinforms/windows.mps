@@ -5028,7 +5028,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="1xatIIVaHTU" role="3cqZAp" />
-        <node concept="3clFbH" id="1xatIIVaprj" role="3cqZAp" />
         <node concept="3clFbF" id="41UdyNB_ND3" role="3cqZAp">
           <node concept="37vLTI" id="41UdyNB_O9X" role="3clFbG">
             <node concept="2OqwBi" id="41UdyNB_OGD" role="37vLTx">
@@ -6359,6 +6358,33 @@
       </node>
     </node>
     <node concept="2tJIrI" id="30SScoku_5q" role="jymVt" />
+    <node concept="3clFb_" id="701$ZaZq3g1" role="jymVt">
+      <property role="TrG5h" value="lockMenuBar" />
+      <node concept="37vLTG" id="701$ZaZq5Mh" role="3clF46">
+        <property role="TrG5h" value="lock" />
+        <node concept="10P_77" id="701$ZaZq6Rc" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="701$ZaZq3g3" role="3clF45" />
+      <node concept="3Tm1VV" id="701$ZaZq3g4" role="1B3o_S" />
+      <node concept="3clFbS" id="701$ZaZq3g5" role="3clF47">
+        <node concept="3clFbF" id="701$ZaZq7kM" role="3cqZAp">
+          <node concept="2OqwBi" id="701$ZaZq7u2" role="3clFbG">
+            <node concept="37vLTw" id="701$ZaZq7kL" role="2Oq$k0">
+              <ref role="3cqZAo" node="41UdyNByDeO" resolve="menuBar" />
+            </node>
+            <node concept="liA8E" id="701$ZaZq7D0" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~AbstractComponent.setEnabled(boolean):void" resolve="setEnabled" />
+              <node concept="3fqX7Q" id="701$ZaZq7Le" role="37wK5m">
+                <node concept="37vLTw" id="701$ZaZq7Sj" role="3fr31v">
+                  <ref role="3cqZAo" node="701$ZaZq5Mh" resolve="lock" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="701$ZaZq0xh" role="jymVt" />
     <node concept="3clFb_" id="30SScokuEU4" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createTileButton" />
@@ -33151,6 +33177,196 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="701$ZaZp_AB" role="jymVt" />
+    <node concept="3clFb_" id="701$ZaZpCmA" role="jymVt">
+      <property role="TrG5h" value="setCurrentTabModal" />
+      <node concept="37vLTG" id="701$ZaZpN3Q" role="3clF46">
+        <property role="TrG5h" value="lock" />
+        <node concept="10P_77" id="701$ZaZpNJP" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="701$ZaZpCmC" role="3clF45" />
+      <node concept="3Tm1VV" id="701$ZaZpCmD" role="1B3o_S" />
+      <node concept="3clFbS" id="701$ZaZpCmE" role="3clF47">
+        <node concept="3cpWs8" id="701$ZaZpVSx" role="3cqZAp">
+          <node concept="3cpWsn" id="701$ZaZpVSy" role="3cpWs9">
+            <property role="TrG5h" value="sheet" />
+            <node concept="3uibUv" id="701$ZaZpVSz" role="1tU5fm">
+              <ref role="3uigEE" to="waq:~TabSheet" resolve="TabSheet" />
+            </node>
+            <node concept="2OqwBi" id="701$ZaZpWc0" role="33vP2m">
+              <node concept="37vLTw" id="701$ZaZpW4D" role="2Oq$k0">
+                <ref role="3cqZAo" node="61_QXqSd29L" resolve="mainTabWindow" />
+              </node>
+              <node concept="liA8E" id="701$ZaZpWOQ" role="2OqNvi">
+                <ref role="37wK5l" node="6go2MrsBBQR" resolve="getMainApplicationTabSheet" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="701$ZaZpQB4" role="3cqZAp">
+          <node concept="3cpWsn" id="701$ZaZpQB7" role="3cpWs9">
+            <property role="TrG5h" value="numTabsWithoutLastOne" />
+            <node concept="10Oyi0" id="701$ZaZpQB2" role="1tU5fm" />
+            <node concept="3cpWsd" id="701$ZaZqrZs" role="33vP2m">
+              <node concept="3cmrfG" id="701$ZaZqs2q" role="3uHU7w">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="2OqwBi" id="701$ZaZpRoK" role="3uHU7B">
+                <node concept="37vLTw" id="701$ZaZpWWu" role="2Oq$k0">
+                  <ref role="3cqZAo" node="701$ZaZpVSy" resolve="sheet" />
+                </node>
+                <node concept="liA8E" id="701$ZaZpRLH" role="2OqNvi">
+                  <ref role="37wK5l" to="waq:~TabSheet.getComponentCount():int" resolve="getComponentCount" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="701$ZaZqrN_" role="3cqZAp" />
+        <node concept="3clFbJ" id="701$ZaZorQh" role="3cqZAp">
+          <node concept="3clFbS" id="701$ZaZorQj" role="3clFbx">
+            <node concept="1Dw8fO" id="701$ZaZotXN" role="3cqZAp">
+              <node concept="3cpWsn" id="701$ZaZotXO" role="1Duv9x">
+                <property role="TrG5h" value="i" />
+                <node concept="10Oyi0" id="701$ZaZotY6" role="1tU5fm" />
+                <node concept="3cmrfG" id="701$ZaZou07" role="33vP2m">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="701$ZaZotXP" role="2LFqv$">
+                <node concept="3clFbF" id="701$ZaZpUYi" role="3cqZAp">
+                  <node concept="2OqwBi" id="701$ZaZpXIm" role="3clFbG">
+                    <node concept="2OqwBi" id="701$ZaZpXgR" role="2Oq$k0">
+                      <node concept="37vLTw" id="701$ZaZpXbg" role="2Oq$k0">
+                        <ref role="3cqZAo" node="701$ZaZpVSy" resolve="sheet" />
+                      </node>
+                      <node concept="liA8E" id="701$ZaZpXBi" role="2OqNvi">
+                        <ref role="37wK5l" to="waq:~TabSheet.getTab(int):com.vaadin.ui.TabSheet$Tab" resolve="getTab" />
+                        <node concept="37vLTw" id="701$ZaZpXG6" role="37wK5m">
+                          <ref role="3cqZAo" node="701$ZaZotXO" resolve="i" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="701$ZaZpXMT" role="2OqNvi">
+                      <ref role="37wK5l" to="waq:~TabSheet$Tab.setEnabled(boolean):void" resolve="setEnabled" />
+                      <node concept="3clFbT" id="701$ZaZpXPR" role="37wK5m">
+                        <property role="3clFbU" value="false" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3eOVzh" id="701$ZaZou6b" role="1Dwp0S">
+                <node concept="37vLTw" id="701$ZaZou2e" role="3uHU7B">
+                  <ref role="3cqZAo" node="701$ZaZotXO" resolve="i" />
+                </node>
+                <node concept="37vLTw" id="701$ZaZpUG8" role="3uHU7w">
+                  <ref role="3cqZAo" node="701$ZaZpQB7" resolve="numTabsWithoutLastOne" />
+                </node>
+              </node>
+              <node concept="3uNrnE" id="701$ZaZouNC" role="1Dwrff">
+                <node concept="37vLTw" id="701$ZaZouNE" role="2$L3a6">
+                  <ref role="3cqZAo" node="701$ZaZotXO" resolve="i" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="701$ZaZq9FE" role="3cqZAp">
+              <node concept="2OqwBi" id="701$ZaZq9Q9" role="3clFbG">
+                <node concept="37vLTw" id="701$ZaZq9FC" role="2Oq$k0">
+                  <ref role="3cqZAo" node="61_QXqSd29L" resolve="mainTabWindow" />
+                </node>
+                <node concept="liA8E" id="701$ZaZqaeg" role="2OqNvi">
+                  <ref role="37wK5l" node="701$ZaZq3g1" resolve="lockMenuBar" />
+                  <node concept="3clFbT" id="701$ZaZqakq" role="37wK5m">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="701$ZaZpYZd" role="3cqZAp" />
+            <node concept="3clFbH" id="701$ZaZoTQ6" role="3cqZAp" />
+          </node>
+          <node concept="37vLTw" id="701$ZaZorU$" role="3clFbw">
+            <ref role="3cqZAo" node="701$ZaZpN3Q" resolve="lock" />
+          </node>
+          <node concept="9aQIb" id="701$ZaZoxGC" role="9aQIa">
+            <node concept="3clFbS" id="701$ZaZoxGD" role="9aQI4">
+              <node concept="3SKdUt" id="701$ZaZoyE5" role="3cqZAp">
+                <node concept="3SKdUq" id="701$ZaZoyE7" role="3SKWNk">
+                  <property role="3SKdUp" value="Just to be sure we have every tab." />
+                </node>
+              </node>
+              <node concept="1Dw8fO" id="701$ZaZoxNh" role="3cqZAp">
+                <node concept="3cpWsn" id="701$ZaZoxNi" role="1Duv9x">
+                  <property role="TrG5h" value="i" />
+                  <node concept="10Oyi0" id="701$ZaZoxNj" role="1tU5fm" />
+                  <node concept="3cmrfG" id="701$ZaZoxNk" role="33vP2m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="701$ZaZoxNl" role="2LFqv$">
+                  <node concept="3clFbF" id="701$ZaZpYPf" role="3cqZAp">
+                    <node concept="2OqwBi" id="701$ZaZpYPg" role="3clFbG">
+                      <node concept="2OqwBi" id="701$ZaZpYPh" role="2Oq$k0">
+                        <node concept="37vLTw" id="701$ZaZpYPi" role="2Oq$k0">
+                          <ref role="3cqZAo" node="701$ZaZpVSy" resolve="sheet" />
+                        </node>
+                        <node concept="liA8E" id="701$ZaZpYPj" role="2OqNvi">
+                          <ref role="37wK5l" to="waq:~TabSheet.getTab(int):com.vaadin.ui.TabSheet$Tab" resolve="getTab" />
+                          <node concept="37vLTw" id="701$ZaZpYPk" role="37wK5m">
+                            <ref role="3cqZAo" node="701$ZaZoxNi" resolve="i" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="701$ZaZpYPl" role="2OqNvi">
+                        <ref role="37wK5l" to="waq:~TabSheet$Tab.setEnabled(boolean):void" resolve="setEnabled" />
+                        <node concept="3clFbT" id="701$ZaZpYXg" role="37wK5m">
+                          <property role="3clFbU" value="true" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3eOVzh" id="701$ZaZoxNu" role="1Dwp0S">
+                  <node concept="37vLTw" id="701$ZaZoxNv" role="3uHU7B">
+                    <ref role="3cqZAo" node="701$ZaZoxNi" resolve="i" />
+                  </node>
+                  <node concept="2OqwBi" id="701$ZaZoy8A" role="3uHU7w">
+                    <node concept="37vLTw" id="701$ZaZpY1y" role="2Oq$k0">
+                      <ref role="3cqZAo" node="701$ZaZpVSy" resolve="sheet" />
+                    </node>
+                    <node concept="liA8E" id="701$ZaZpYHH" role="2OqNvi">
+                      <ref role="37wK5l" to="waq:~TabSheet.getComponentCount():int" resolve="getComponentCount" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3uNrnE" id="701$ZaZoxNx" role="1Dwrff">
+                  <node concept="37vLTw" id="701$ZaZoxNy" role="2$L3a6">
+                    <ref role="3cqZAo" node="701$ZaZoxNi" resolve="i" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="701$ZaZqav2" role="3cqZAp">
+                <node concept="2OqwBi" id="701$ZaZqav3" role="3clFbG">
+                  <node concept="37vLTw" id="701$ZaZqav4" role="2Oq$k0">
+                    <ref role="3cqZAo" node="61_QXqSd29L" resolve="mainTabWindow" />
+                  </node>
+                  <node concept="liA8E" id="701$ZaZqav5" role="2OqNvi">
+                    <ref role="37wK5l" node="701$ZaZq3g1" resolve="lockMenuBar" />
+                    <node concept="3clFbT" id="701$ZaZqav6" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="701$ZaZpduN" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="701$ZaZpRR1" role="3cqZAp" />
+        <node concept="3clFbH" id="701$ZaZpRSJ" role="3cqZAp" />
+        <node concept="3clFbH" id="701$ZaZpO59" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="701$ZaZpBfh" role="jymVt" />
     <node concept="3clFb_" id="61_QXqSd2r6" role="jymVt">
       <property role="TrG5h" value="gcClean" />
       <node concept="3cqZAl" id="61_QXqSd2r7" role="3clF45" />

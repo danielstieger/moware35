@@ -758,6 +758,18 @@
       <node concept="3Tm1VV" id="1KgqQuBkXh2" role="1B3o_S" />
       <node concept="3clFbS" id="1KgqQuBkXh3" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="701$ZaZrUMC" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setCurrentTabModal" />
+      <node concept="37vLTG" id="701$ZaZrUMD" role="3clF46">
+        <property role="TrG5h" value="lock" />
+        <node concept="10P_77" id="701$ZaZrUME" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="701$ZaZrUMF" role="3clF45" />
+      <node concept="3Tm1VV" id="701$ZaZrUMG" role="1B3o_S" />
+      <node concept="3clFbS" id="701$ZaZrUMH" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="701$ZaZrUGG" role="jymVt" />
     <node concept="3clFb_" id="3y7CfyfpqEz" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setMenu" />

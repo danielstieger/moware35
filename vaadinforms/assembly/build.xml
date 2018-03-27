@@ -25,7 +25,7 @@
   <property name="appName"              value="SimpleApplication" />
   <property name="appMainclass"         value="Simple.baseApp.App_Desktop_Order" />
   <property name="appConfiguration"     value="Simple/baseApp/VaadinConfig.xml" /> 
-  <property name="myHome"               value="C:/" />
+  <property name="myHome"               value="/Users/danielstieger" />
 
   <!-- **** build specific definitions ************************************************************** -->
   <property name="javawareHomeDir"       value="${myHome}/javaware" /> 

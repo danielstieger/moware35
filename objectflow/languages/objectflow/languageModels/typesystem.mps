@@ -3888,6 +3888,45 @@
         </node>
       </node>
       <node concept="3clFbH" id="6qsy3WVz$8I" role="3cqZAp" />
+      <node concept="3clFbH" id="701$ZaZxGGd" role="3cqZAp" />
+      <node concept="3clFbJ" id="701$ZaZxH3z" role="3cqZAp">
+        <node concept="3clFbS" id="701$ZaZxH3_" role="3clFbx">
+          <node concept="2MkqsV" id="701$ZaZxTaL" role="3cqZAp">
+            <node concept="Xl_RD" id="701$ZaZxTb2" role="2MkJ7o">
+              <property role="Xl_RC" value="A modal GRAPH_OWNER without pages does not make much sense. Choose a standard GRAPH_OWNER instead." />
+            </node>
+            <node concept="1YBJjd" id="701$ZaZxTga" role="2OEOjV">
+              <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="701$ZaZxI_z" role="3clFbw">
+          <node concept="2OqwBi" id="701$ZaZxJ8K" role="3uHU7w">
+            <node concept="1YBJjd" id="701$ZaZxJ5k" role="2Oq$k0">
+              <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+            </node>
+            <node concept="2qgKlT" id="701$ZaZxSFl" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:2FiiyF3e0JS" resolve="isWithoutPage" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="701$ZaZxHYp" role="3uHU7B">
+            <node concept="2OqwBi" id="701$ZaZxHfn" role="2Oq$k0">
+              <node concept="1YBJjd" id="701$ZaZxHc6" role="2Oq$k0">
+                <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+              </node>
+              <node concept="3TrcHB" id="701$ZaZxHPh" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+              </node>
+            </node>
+            <node concept="3t7uKx" id="701$ZaZxIz0" role="2OqNvi">
+              <node concept="uoxfO" id="701$ZaZxIz2" role="3t7uKA">
+                <ref role="uo_Cq" to="un0u:701$ZaZsahE" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="701$ZaZxGME" role="3cqZAp" />
       <node concept="3clFbJ" id="1l1sktcbMHD" role="3cqZAp">
         <node concept="3clFbS" id="1l1sktcbMHF" role="3clFbx">
           <node concept="3clFbJ" id="1l1sktcbOCY" role="3cqZAp">
@@ -11606,39 +11645,13 @@
             </node>
           </node>
         </node>
-        <node concept="3fqX7Q" id="43H1fr7BJ4$" role="3clFbw">
-          <node concept="1eOMI4" id="43H1fr7BJ4A" role="3fr31v">
-            <node concept="22lmx$" id="43H1fr7BJ4B" role="1eOMHV">
-              <node concept="2OqwBi" id="43H1fr7BJ4C" role="3uHU7w">
-                <node concept="2OqwBi" id="43H1fr7BJ4D" role="2Oq$k0">
-                  <node concept="37vLTw" id="43H1fr7BJ4E" role="2Oq$k0">
-                    <ref role="3cqZAo" node="43H1fr7wX$K" resolve="cmd" />
-                  </node>
-                  <node concept="3TrcHB" id="43H1fr7BJ4F" role="2OqNvi">
-                    <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
-                  </node>
-                </node>
-                <node concept="3t7uKx" id="43H1fr7BJ4G" role="2OqNvi">
-                  <node concept="uoxfO" id="43H1fr7BJ4H" role="3t7uKA">
-                    <ref role="uo_Cq" to="un0u:6Rdz00$tTLT" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="43H1fr7BJ4I" role="3uHU7B">
-                <node concept="2OqwBi" id="43H1fr7BJ4J" role="2Oq$k0">
-                  <node concept="37vLTw" id="43H1fr7BJ4K" role="2Oq$k0">
-                    <ref role="3cqZAo" node="43H1fr7wX$K" resolve="cmd" />
-                  </node>
-                  <node concept="3TrcHB" id="43H1fr7BJ4L" role="2OqNvi">
-                    <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
-                  </node>
-                </node>
-                <node concept="3t7uKx" id="43H1fr7BJ4M" role="2OqNvi">
-                  <node concept="uoxfO" id="43H1fr7BJ4N" role="3t7uKA">
-                    <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
-                  </node>
-                </node>
-              </node>
+        <node concept="3fqX7Q" id="701$ZaZy3ti" role="3clFbw">
+          <node concept="2OqwBi" id="701$ZaZy3tk" role="3fr31v">
+            <node concept="37vLTw" id="701$ZaZy3tl" role="2Oq$k0">
+              <ref role="3cqZAo" node="43H1fr7wX$K" resolve="cmd" />
+            </node>
+            <node concept="2qgKlT" id="701$ZaZy3tm" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:6Rdz00$P7cW" resolve="isCommitSessionCommand" />
             </node>
           </node>
         </node>
