@@ -7618,6 +7618,10 @@
           <ref role="3uigEE" to="250q:20ohnkbzYYy" resolve="IToolkit_Application" />
         </node>
       </node>
+      <node concept="37vLTG" id="3wkdm3W7cog" role="3clF46">
+        <property role="TrG5h" value="modal" />
+        <node concept="10P_77" id="3wkdm3W7d_R" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="r$jHpEQQRN" role="3clF45">
         <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
       </node>
@@ -7636,6 +7640,9 @@
                     <ref role="3cqZAo" node="4M9afjaVHkQ" resolve="app" />
                   </node>
                 </node>
+              </node>
+              <node concept="37vLTw" id="3wkdm3W7dNj" role="37wK5m">
+                <ref role="3cqZAo" node="3wkdm3W7cog" resolve="modal" />
               </node>
             </node>
           </node>
@@ -12229,6 +12236,11 @@
       <node concept="3Tmbuc" id="6go2MrsxufG" role="1B3o_S" />
       <node concept="17QB3L" id="6go2Mrsxutk" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="3wkdm3W7edM" role="jymVt">
+      <property role="TrG5h" value="modalTab" />
+      <node concept="3Tmbuc" id="3wkdm3W7edN" role="1B3o_S" />
+      <node concept="10P_77" id="3wkdm3W7e$U" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="6go2Mrsxtya" role="jymVt" />
     <node concept="3clFbW" id="6go2Mrsw15_" role="jymVt">
       <node concept="37vLTG" id="4M9afjaR14R" role="3clF46">
@@ -12237,6 +12249,10 @@
           <ref role="3uigEE" node="61_QXqSd29w" resolve="VApplicationInstance" />
         </node>
       </node>
+      <node concept="37vLTG" id="3wkdm3W7eDv" role="3clF46">
+        <property role="TrG5h" value="modal" />
+        <node concept="10P_77" id="3wkdm3W7eJW" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="6go2Mrsw15B" role="3clF45" />
       <node concept="3Tm1VV" id="6go2Mrsw15C" role="1B3o_S" />
       <node concept="3clFbS" id="6go2Mrsw15D" role="3clF47">
@@ -12244,6 +12260,16 @@
           <ref role="37wK5l" node="6go2Mrsw182" resolve="VCmdUiBasis" />
           <node concept="37vLTw" id="4M9afjaR45p" role="37wK5m">
             <ref role="3cqZAo" node="4M9afjaR14R" resolve="appInst" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="3wkdm3W7f24" role="3cqZAp">
+          <node concept="37vLTI" id="3wkdm3W7fbd" role="3clFbG">
+            <node concept="37vLTw" id="3wkdm3W7fuL" role="37vLTx">
+              <ref role="3cqZAo" node="3wkdm3W7eDv" resolve="modal" />
+            </node>
+            <node concept="37vLTw" id="3wkdm3W7f22" role="37vLTJ">
+              <ref role="3cqZAo" node="3wkdm3W7edM" resolve="modalTab" />
+            </node>
           </node>
         </node>
       </node>
@@ -12567,6 +12593,19 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4XCrhc0RWpF" role="jymVt" />
+    <node concept="3clFb_" id="3wkdm3W7fx9" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isModalTabWindow" />
+      <node concept="10P_77" id="3wkdm3W7fxa" role="3clF45" />
+      <node concept="3Tm1VV" id="3wkdm3W7fxb" role="1B3o_S" />
+      <node concept="3clFbS" id="3wkdm3W7fxe" role="3clF47">
+        <node concept="3clFbF" id="3wkdm3W7g99" role="3cqZAp">
+          <node concept="37vLTw" id="3wkdm3W7g98" role="3clFbG">
+            <ref role="3cqZAo" node="3wkdm3W7edM" resolve="modalTab" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5XHFlRODeeq">
     <property role="TrG5h" value="VFormContainer" />
@@ -26208,7 +26247,17 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="4M9afjaRaVV" role="jymVt" />
+    <node concept="3clFb_" id="3wkdm3W7gSS" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isModalTabWindow" />
+      <node concept="10P_77" id="3wkdm3W7gST" role="3clF45" />
+      <node concept="3Tm1VV" id="3wkdm3W7gSU" role="1B3o_S" />
+      <node concept="3clFbS" id="3wkdm3W7gSX" role="3clF47">
+        <node concept="3clFbF" id="3wkdm3W7gSZ" role="3cqZAp">
+          <node concept="3clFbT" id="3wkdm3W7gSY" role="3clFbG" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="4M9afjaRehu" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="ensureHotkeyAvailable" />

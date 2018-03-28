@@ -6438,11 +6438,6 @@
       <node concept="10P_77" id="18nf27lRCdV" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="701$ZaZr3g6" role="jymVt" />
-    <node concept="312cEg" id="701$ZaZr7R_" role="jymVt">
-      <property role="TrG5h" value="modalTabMode" />
-      <node concept="3Tm6S6" id="701$ZaZr7RA" role="1B3o_S" />
-      <node concept="10P_77" id="701$ZaZranR" role="1tU5fm" />
-    </node>
     <node concept="2tJIrI" id="1i79Hb8rECZ" role="jymVt" />
     <node concept="312cEg" id="2qrl3a2ZxLK" role="jymVt">
       <property role="TrG5h" value="tilesSession" />
@@ -6754,16 +6749,6 @@
             </node>
             <node concept="37vLTw" id="18nf27lRCBv" role="37vLTJ">
               <ref role="3cqZAo" node="18nf27lR_P5" resolve="asyncShutdownRequest" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="701$ZaZraVR" role="3cqZAp">
-          <node concept="37vLTI" id="701$ZaZrbd0" role="3clFbG">
-            <node concept="3clFbT" id="701$ZaZrbg9" role="37vLTx">
-              <property role="3clFbU" value="false" />
-            </node>
-            <node concept="37vLTw" id="701$ZaZraVP" role="37vLTJ">
-              <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
             </node>
           </node>
         </node>
@@ -7844,7 +7829,7 @@
           </node>
           <node concept="3fqX7Q" id="701$ZaZrccg" role="3clFbw">
             <node concept="37vLTw" id="701$ZaZrcpB" role="3fr31v">
-              <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
+              <ref role="3cqZAo" node="701$ZaZr7R_" resolve="applicationModalTabMode" />
             </node>
           </node>
         </node>
@@ -8338,6 +8323,28 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbH" id="3wkdm3W7nAZ" role="3cqZAp" />
+              <node concept="3clFbJ" id="3wkdm3W7o4r" role="3cqZAp">
+                <node concept="3clFbS" id="3wkdm3W7o4t" role="3clFbx">
+                  <node concept="3clFbF" id="3wkdm3W7pUW" role="3cqZAp">
+                    <node concept="1rXfSq" id="3wkdm3W7pUV" role="3clFbG">
+                      <ref role="37wK5l" node="701$ZaZrjYg" resolve="lockCurrentTabAsModal" />
+                      <node concept="3clFbT" id="3wkdm3W7pYE" role="37wK5m">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3wkdm3W7omb" role="3clFbw">
+                  <node concept="37vLTw" id="3wkdm3W7oj5" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1dzqM5xnAL$" resolve="ui" />
+                  </node>
+                  <node concept="liA8E" id="3wkdm3W7oxO" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:3wkdm3W1Lea" resolve="isModalTabWindow" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="3wkdm3W7nJQ" role="3cqZAp" />
               <node concept="3clFbF" id="zBgVaCWehr" role="3cqZAp">
                 <node concept="37vLTI" id="zBgVaCWep1" role="3clFbG">
                   <node concept="3clFbT" id="zBgVaCWes4" role="37vLTx">
@@ -8375,7 +8382,7 @@
                       <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                       <node concept="3cpWs3" id="701$ZaZrSVm" role="37wK5m">
                         <node concept="37vLTw" id="701$ZaZrTcs" role="3uHU7w">
-                          <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
+                          <ref role="3cqZAo" node="701$ZaZr7R_" resolve="applicationModalTabMode" />
                         </node>
                         <node concept="3cpWs3" id="701$ZaZrSBu" role="3uHU7B">
                           <node concept="3cpWs3" id="701$ZaZrSlR" role="3uHU7B">
@@ -8397,7 +8404,7 @@
               </node>
               <node concept="22lmx$" id="701$ZaZrRar" role="3clFbw">
                 <node concept="37vLTw" id="701$ZaZrRlM" role="3uHU7w">
-                  <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
+                  <ref role="3cqZAo" node="701$ZaZr7R_" resolve="applicationModalTabMode" />
                 </node>
                 <node concept="3y3z36" id="701$ZaZrQWf" role="3uHU7B">
                   <node concept="37vLTw" id="701$ZaZrQK0" role="3uHU7B">
@@ -8414,7 +8421,7 @@
                   <property role="3clFbU" value="true" />
                 </node>
                 <node concept="37vLTw" id="701$ZaZrTAb" role="37vLTJ">
-                  <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
+                  <ref role="3cqZAo" node="701$ZaZr7R_" resolve="applicationModalTabMode" />
                 </node>
               </node>
             </node>
@@ -8448,13 +8455,51 @@
                   <property role="3SKdUp" value="gracfully do not report any problems. " />
                 </node>
               </node>
+              <node concept="3clFbJ" id="3wkdm3W7qbU" role="3cqZAp">
+                <node concept="3clFbS" id="3wkdm3W7qbW" role="3clFbx">
+                  <node concept="3SKdUt" id="3wkdm3W7sI2" role="3cqZAp">
+                    <node concept="3SKdUq" id="3wkdm3W7sI4" role="3SKWNk">
+                      <property role="3SKdUp" value="TODO: REPLACE THIS ONE COMPLETELE!" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="3wkdm3W7qGP" role="3cqZAp">
+                    <node concept="1rXfSq" id="3wkdm3W7qGN" role="3clFbG">
+                      <ref role="37wK5l" node="2ppo89mfoLL" resolve="logProblem" />
+                      <node concept="3cpWs3" id="3wkdm3W7uyN" role="37wK5m">
+                        <node concept="1rXfSq" id="3wkdm3W7uHp" role="3uHU7w">
+                          <ref role="37wK5l" node="4n24ZlEyn1Q" resolve="fullApplicationCrtlState" />
+                        </node>
+                        <node concept="3cpWs3" id="3wkdm3W7uhU" role="3uHU7B">
+                          <node concept="3cpWs3" id="3wkdm3W7tR5" role="3uHU7B">
+                            <node concept="Xl_RD" id="3wkdm3W7sMJ" role="3uHU7B">
+                              <property role="Xl_RC" value="lockCurrenTabAsModal(false) called while not in modal mode.\n" />
+                            </node>
+                            <node concept="2YIFZM" id="3wkdm3W7u6x" role="3uHU7w">
+                              <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
+                              <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="3wkdm3W7ukL" role="3uHU7w">
+                            <property role="Xl_RC" value="\n\n" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3fqX7Q" id="3wkdm3W7qxY" role="3clFbw">
+                  <node concept="37vLTw" id="3wkdm3W7qy0" role="3fr31v">
+                    <ref role="3cqZAo" node="701$ZaZr7R_" resolve="applicationModalTabMode" />
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="701$ZaZs5rZ" role="3cqZAp">
                 <node concept="37vLTI" id="701$ZaZs5wI" role="3clFbG">
                   <node concept="3clFbT" id="701$ZaZs5zY" role="37vLTx">
                     <property role="3clFbU" value="false" />
                   </node>
                   <node concept="37vLTw" id="701$ZaZs5rX" role="37vLTJ">
-                    <ref role="3cqZAo" node="701$ZaZr7R_" resolve="modalTabMode" />
+                    <ref role="3cqZAo" node="701$ZaZr7R_" resolve="applicationModalTabMode" />
                   </node>
                 </node>
               </node>
@@ -8602,6 +8647,32 @@
               </node>
             </node>
             <node concept="3clFbS" id="zBgVaCWW4P" role="3eOfB_">
+              <node concept="3clFbJ" id="3wkdm3W7w1c" role="3cqZAp">
+                <node concept="3clFbS" id="3wkdm3W7w1e" role="3clFbx">
+                  <node concept="3SKdUt" id="3wkdm3W7wMO" role="3cqZAp">
+                    <node concept="3SKdUq" id="3wkdm3W7wMQ" role="3SKWNk">
+                      <property role="3SKdUp" value="remove lock first..... double check with internal modalWindowTabWindow" />
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="3wkdm3W7wzI" role="3cqZAp">
+                    <node concept="1rXfSq" id="3wkdm3W7wzG" role="3clFbG">
+                      <ref role="37wK5l" node="701$ZaZrjYg" resolve="lockCurrentTabAsModal" />
+                      <node concept="3clFbT" id="3wkdm3W7wBz" role="37wK5m">
+                        <property role="3clFbU" value="false" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="3wkdm3W7whW" role="3clFbw">
+                  <node concept="37vLTw" id="3wkdm3W7why" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1dzqM5xnALM" resolve="ui" />
+                  </node>
+                  <node concept="liA8E" id="3wkdm3W7wq_" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:3wkdm3W1Lea" resolve="isModalTabWindow" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="3wkdm3W7v4T" role="3cqZAp" />
               <node concept="3cpWs8" id="zBgVaCVd4V" role="3cqZAp">
                 <node concept="3cpWsn" id="zBgVaCVd4Y" role="3cpWs9">
                   <property role="TrG5h" value="i" />
@@ -10917,12 +10988,22 @@
                   <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
                 </node>
               </node>
-              <node concept="2OqwBi" id="5GImeV7bXGQ" role="3uHU7B">
-                <node concept="37vLTw" id="5GImeV7bXEL" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+              <node concept="22lmx$" id="3wkdm3Wapl$" role="3uHU7B">
+                <node concept="2OqwBi" id="3wkdm3WapCT" role="3uHU7w">
+                  <node concept="37vLTw" id="3wkdm3WapA3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                  </node>
+                  <node concept="liA8E" id="3wkdm3WapU_" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:701$ZaZxF$x" resolve="isGraphOwnerModal" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="5GImeV7bXWX" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:206uhc79ppa" resolve="isGraphOwner" />
+                <node concept="2OqwBi" id="5GImeV7bXGQ" role="3uHU7B">
+                  <node concept="37vLTw" id="5GImeV7bXEL" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                  </node>
+                  <node concept="liA8E" id="5GImeV7bXWX" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:206uhc79ppa" resolve="isGraphOwner" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -13200,6 +13281,14 @@
                                 </node>
                                 <node concept="liA8E" id="4M9afjaVQrn" role="2OqNvi">
                                   <ref role="37wK5l" node="r$jHpERvbx" resolve="getTecMainWindowHandle" />
+                                </node>
+                              </node>
+                              <node concept="2OqwBi" id="3wkdm3VZNk1" role="37wK5m">
+                                <node concept="37vLTw" id="3wkdm3VZNir" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                                </node>
+                                <node concept="liA8E" id="3wkdm3VZN$W" role="2OqNvi">
+                                  <ref role="37wK5l" to="28jr:701$ZaZxF$x" resolve="isGraphOwnerModal" />
                                 </node>
                               </node>
                             </node>
@@ -21190,6 +21279,11 @@
         <ref role="3uigEE" node="5ZV7jolblEb" resolve="MultiActionDefinition" />
       </node>
     </node>
+    <node concept="312cEg" id="701$ZaZr7R_" role="jymVt">
+      <property role="TrG5h" value="applicationModalTabMode" />
+      <node concept="3Tmbuc" id="3wkdm3W7G7W" role="1B3o_S" />
+      <node concept="10P_77" id="701$ZaZranR" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="2ppo89mdzG4" role="jymVt" />
     <node concept="3clFbW" id="2ppo89mgvkp" role="jymVt">
       <node concept="37vLTG" id="2ppo89mgvJZ" role="3clF46">
@@ -21245,6 +21339,16 @@
             <node concept="10Nm6u" id="1dzqM5xowrT" role="37vLTx" />
             <node concept="37vLTw" id="1dzqM5xowkI" role="37vLTJ">
               <ref role="3cqZAo" node="1dzqM5xovLP" resolve="promptWindowCommandContainer" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3wkdm3W7Hms" role="3cqZAp">
+          <node concept="37vLTI" id="3wkdm3W7Huc" role="3clFbG">
+            <node concept="3clFbT" id="3wkdm3W7Hwh" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="3wkdm3W7Hmq" role="37vLTJ">
+              <ref role="3cqZAo" node="701$ZaZr7R_" resolve="applicationModalTabMode" />
             </node>
           </node>
         </node>

@@ -1987,6 +1987,10 @@
           <ref role="3uigEE" to="250q:20ohnkbzYYy" resolve="IToolkit_Application" />
         </node>
       </node>
+      <node concept="37vLTG" id="3wkdm3W0Q$X" role="3clF46">
+        <property role="TrG5h" value="modal" />
+        <node concept="10P_77" id="3wkdm3W0QG5" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="2RoKLt0oTtM" role="3clF45">
         <ref role="3uigEE" to="250q:5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
       </node>
@@ -3845,6 +3849,17 @@
           <node concept="3clFbT" id="2xnCXJMgkJG" role="3clFbG">
             <property role="3clFbU" value="true" />
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3wkdm3W3Br3" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isModalTabWindow" />
+      <node concept="10P_77" id="3wkdm3W3Br4" role="3clF45" />
+      <node concept="3Tm1VV" id="3wkdm3W3Br5" role="1B3o_S" />
+      <node concept="3clFbS" id="3wkdm3W3Br7" role="3clF47">
+        <node concept="3clFbF" id="3wkdm3W3Br9" role="3cqZAp">
+          <node concept="3clFbT" id="3wkdm3W3Br8" role="3clFbG" />
         </node>
       </node>
     </node>

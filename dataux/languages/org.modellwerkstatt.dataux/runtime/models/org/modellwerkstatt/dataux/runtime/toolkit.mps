@@ -350,6 +350,10 @@
           <ref role="3uigEE" node="20ohnkbzYYy" resolve="IToolkit_Application" />
         </node>
       </node>
+      <node concept="37vLTG" id="3wkdm3VYPA8" role="3clF46">
+        <property role="TrG5h" value="modal" />
+        <node concept="10P_77" id="3wkdm3VYPHG" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="5_bDd1dPvn3" role="3clF45">
         <ref role="3uigEE" node="5_bDd1d79MM" resolve="IToolkit_CommandContainerUI" />
       </node>
@@ -1203,6 +1207,14 @@
       <node concept="3Tm1VV" id="1dzqM5xnXU6" role="1B3o_S" />
       <node concept="3clFbS" id="1dzqM5xnXU7" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="3wkdm3W1Lea" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="isModalTabWindow" />
+      <node concept="10P_77" id="3wkdm3W1Leb" role="3clF45" />
+      <node concept="3Tm1VV" id="3wkdm3W1Lec" role="1B3o_S" />
+      <node concept="3clFbS" id="3wkdm3W1Led" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="3wkdm3W1LbQ" role="jymVt" />
     <node concept="3Tm1VV" id="5_bDd1d79MN" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="3VIcZtBcFQd">
