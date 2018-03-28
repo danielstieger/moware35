@@ -13116,6 +13116,11 @@ div.v-layout.v-horizontal.v-widget {
 	color: #CC3D28 !important;
 }
 
+.moware .v-tabsheet-tabitemcell-mo-modal-tab .v-tabsheet-tabitem-selected .v-caption {
+	border: 2px solid #4b8df8 !important;
+	padding-bottom: 0px !important;
+}
+
 .moware .v-slot .mo-table {
 	border-top: 1px solid #ddd;
 }

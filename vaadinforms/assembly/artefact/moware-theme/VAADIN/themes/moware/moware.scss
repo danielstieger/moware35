@@ -81,6 +81,19 @@
 		color: $v-error-indicator-color !important;
 	}
 	
+	/* * * * * * * * * * Main Tab Pane * * * * * * * * */
+	.v-tabsheet-tabitemcell-mo-modal-tab .v-tabsheet-tabitem-selected .v-caption {
+		border: 2px solid $v-focus-color !important;
+		padding-bottom: 0px !important;
+	}	
+	
+	.v-verticallayout-mo-small-mrg mo-modal-tab {
+		border: 2px solid $v-focus-color !important;
+		padding-bottom: 0px !important;
+	}
+	
+	
+	
 	.v-slot .mo-table {
 		border-top: 1px solid $mo-min-borderclr;
 		// flag is managed by flagborder-noerror-table

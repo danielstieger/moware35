@@ -220,7 +220,7 @@ function capturekeyCallback(params){
   
   // back keys
   if (key == '4' || key == '38') {
-    SaveSubmit($('#cancelbutton').getAttribute('navicrtl'));
+    SaveSubmit('conclusion_0');
   }  
 }
 

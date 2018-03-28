@@ -21488,12 +21488,24 @@
                 </node>
               </node>
             </node>
-            <node concept="3SKdUt" id="4vBE4eLQb4H" role="3cqZAp">
-              <node concept="3SKdUq" id="4vBE4eLQb7A" role="3SKWNk">
-                <property role="3SKdUp" value="Do not open same command twice. i.e. check cmd FQ Name and params .." />
+            <node concept="3clFbJ" id="3wkdm3Wb0cT" role="3cqZAp">
+              <node concept="3clFbS" id="3wkdm3Wb0cV" role="3clFbx">
+                <node concept="YS8fn" id="3wkdm3Wb1Dx" role="3cqZAp">
+                  <node concept="2ShNRf" id="3wkdm3Wb1Fk" role="YScLw">
+                    <node concept="1pGfFk" id="3wkdm3Wb2fo" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                      <node concept="Xl_RD" id="3wkdm3Wb2hj" role="37wK5m">
+                        <property role="Xl_RC" value="Can not start any command creating a new session while runnin a tab in modal mode!" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTw" id="3wkdm3Wb17k" role="3clFbw">
+                <ref role="3cqZAo" node="701$ZaZr7R_" resolve="applicationModalTabMode" />
               </node>
             </node>
-            <node concept="3clFbH" id="kWPevMcrgJ" role="3cqZAp" />
+            <node concept="3clFbH" id="3wkdm3Wbniy" role="3cqZAp" />
             <node concept="3SKdUt" id="4XXgpAAgoSW" role="3cqZAp">
               <node concept="3SKdUq" id="4XXgpAAgoX1" role="3SKWNk">
                 <property role="3SKdUp" value="calculateParams() method signature could be changed, since working with localSelectionCrtls now" />
@@ -21521,7 +21533,12 @@
               </node>
             </node>
             <node concept="3clFbH" id="77KX0PDsoVi" role="3cqZAp" />
-            <node concept="3clFbH" id="77KX0PDstHp" role="3cqZAp" />
+            <node concept="3clFbH" id="3wkdm3WaAOt" role="3cqZAp" />
+            <node concept="3SKdUt" id="4vBE4eLQb4H" role="3cqZAp">
+              <node concept="3SKdUq" id="4vBE4eLQb7A" role="3SKWNk">
+                <property role="3SKdUp" value="Do not open same command twice. i.e. check cmd FQ Name and params .." />
+              </node>
+            </node>
             <node concept="3clFbJ" id="206uhc6Yj_d" role="3cqZAp">
               <node concept="3clFbS" id="206uhc6Yj_f" role="3clFbx">
                 <node concept="3SKdUt" id="4vBE4eLR5N_" role="3cqZAp">
