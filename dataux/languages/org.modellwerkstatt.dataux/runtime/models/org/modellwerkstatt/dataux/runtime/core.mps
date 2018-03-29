@@ -253,6 +253,7 @@
       </concept>
       <concept id="1214918800624" name="jetbrains.mps.baseLanguage.structure.PostfixIncrementExpression" flags="nn" index="3uNrnE" />
       <concept id="1214918975462" name="jetbrains.mps.baseLanguage.structure.PostfixDecrementExpression" flags="nn" index="3uO5VW" />
+      <concept id="7024111702304501416" name="jetbrains.mps.baseLanguage.structure.OrAssignmentExpression" flags="nn" index="3vZ8r8" />
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
       <concept id="1081855346303" name="jetbrains.mps.baseLanguage.structure.BreakStatement" flags="nn" index="3zACq4" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
@@ -10376,12 +10377,16 @@
       <node concept="3Tm6S6" id="2Uji7vl_HvA" role="1B3o_S" />
       <node concept="10P_77" id="3EJ222E3tGu" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="v00WQaymKs" role="jymVt">
+      <property role="TrG5h" value="commandRequestedModalTab" />
+      <node concept="3Tmbuc" id="v00WQaz3_6" role="1B3o_S" />
+      <node concept="10P_77" id="v00WQaymKu" role="1tU5fm" />
+    </node>
     <node concept="312cEg" id="2Uji7vlDXiU" role="jymVt">
       <property role="TrG5h" value="useUiOfPredecessor" />
       <node concept="3Tm6S6" id="2Uji7vlDXiV" role="1B3o_S" />
       <node concept="10P_77" id="2Uji7vlDXiW" role="1tU5fm" />
     </node>
-    <node concept="2tJIrI" id="3EJ222E3eUJ" role="jymVt" />
     <node concept="2tJIrI" id="64d_SurBjqc" role="jymVt" />
     <node concept="3clFbW" id="4XXgpAAg$NF" role="jymVt">
       <node concept="37vLTG" id="5YG5DD8U1zL" role="3clF46">
@@ -10536,6 +10541,16 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="v00WQayrSI" role="3cqZAp">
+          <node concept="37vLTI" id="v00WQayrZ$" role="3clFbG">
+            <node concept="3clFbT" id="v00WQays0C" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="v00WQayrSG" role="37vLTJ">
+              <ref role="3cqZAo" node="v00WQaymKs" resolve="commandRequestedModalTab" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7EeWEMeOr8X" role="3cqZAp">
           <node concept="37vLTI" id="7EeWEMeOrhD" role="3clFbG">
             <node concept="2OqwBi" id="7EeWEMeOrBN" role="37vLTx">
@@ -10575,6 +10590,22 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="v00WQaz21l" role="3cqZAp">
+          <node concept="37vLTI" id="v00WQaz23u" role="3clFbG">
+            <node concept="2OqwBi" id="v00WQazcSS" role="37vLTx">
+              <node concept="37vLTw" id="v00WQazcRk" role="2Oq$k0">
+                <ref role="3cqZAo" node="6X2OBnWt4JI" resolve="parentCommandContainer" />
+              </node>
+              <node concept="2OwXpG" id="v00WQazd2v" role="2OqNvi">
+                <ref role="2Oxat5" node="v00WQaymKs" resolve="commandRequestedModalTab" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="v00WQaz21j" role="37vLTJ">
+              <ref role="3cqZAo" node="v00WQaymKs" resolve="commandRequestedModalTab" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="v00WQaz7x8" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="2Uji7vlAEoR" role="jymVt" />
@@ -11002,7 +11033,26 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="5GImeV7bQMB" role="3cqZAp" />
+        <node concept="3clFbF" id="v00WQayFzN" role="3cqZAp">
+          <node concept="3vZ8r8" id="v00WQaze8z" role="3clFbG">
+            <node concept="37vLTw" id="v00WQaze8D" role="37vLTJ">
+              <ref role="3cqZAo" node="v00WQaymKs" resolve="commandRequestedModalTab" />
+            </node>
+            <node concept="2OqwBi" id="v00WQaze8_" role="37vLTx">
+              <node concept="37vLTw" id="v00WQaze8A" role="2Oq$k0">
+                <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+              </node>
+              <node concept="liA8E" id="v00WQaze8B" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                <node concept="Rm8GO" id="v00WQaze8C" role="37wK5m">
+                  <ref role="Rm8GQ" to="28jr:66CXFVAgYge" resolve="GRAPH_OWNER_CMD_MODAL" />
+                  <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="v00WQayB_Z" role="3cqZAp" />
         <node concept="3clFbJ" id="3EJ222E646L" role="3cqZAp">
           <node concept="3clFbS" id="3EJ222E646N" role="3clFbx">
             <node concept="3clFbF" id="3EJ222E69Um" role="3cqZAp">
@@ -13278,17 +13328,8 @@
                                   <ref role="37wK5l" node="r$jHpERvbx" resolve="getTecMainWindowHandle" />
                                 </node>
                               </node>
-                              <node concept="2OqwBi" id="3wkdm3VZNk1" role="37wK5m">
-                                <node concept="37vLTw" id="3wkdm3VZNir" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                                </node>
-                                <node concept="liA8E" id="3wkdm3VZN$W" role="2OqNvi">
-                                  <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
-                                  <node concept="Rm8GO" id="66CXFVBfxNR" role="37wK5m">
-                                    <ref role="Rm8GQ" to="28jr:66CXFVAgYge" resolve="GRAPH_OWNER_CMD_MODAL" />
-                                    <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
-                                  </node>
-                                </node>
+                              <node concept="37vLTw" id="v00WQayzEL" role="37wK5m">
+                                <ref role="3cqZAo" node="v00WQaymKs" resolve="commandRequestedModalTab" />
                               </node>
                             </node>
                             <node concept="37vLTw" id="6Au2sPCLgJf" role="2Oq$k0">
@@ -21519,7 +21560,7 @@
                     <node concept="1pGfFk" id="66CXFVBEFAg" role="2ShVmc">
                       <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                       <node concept="Xl_RD" id="66CXFVBEFDr" role="37wK5m">
-                        <property role="Xl_RC" value="When a modal tab is opend, only GraphEdit commands can be started/executed. This is a programming error." />
+                        <property role="Xl_RC" value="When a modal tab is opend, only GRAPH_EDIT commands can be started. This is a programming error." />
                       </node>
                     </node>
                   </node>

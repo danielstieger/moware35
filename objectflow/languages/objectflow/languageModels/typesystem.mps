@@ -3893,34 +3893,46 @@
         <node concept="3clFbS" id="701$ZaZxH3_" role="3clFbx">
           <node concept="2MkqsV" id="701$ZaZxTaL" role="3cqZAp">
             <node concept="Xl_RD" id="701$ZaZxTb2" role="2MkJ7o">
-              <property role="Xl_RC" value="A modal GRAPH_OWNER without pages does not make much sense. Choose a standard GRAPH_OWNER instead." />
+              <property role="Xl_RC" value="A modal GRAPH_OWNER without pages/successors does not make much sense. Choose a standard GRAPH_OWNER instead." />
             </node>
             <node concept="1YBJjd" id="701$ZaZxTga" role="2OEOjV">
               <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
             </node>
           </node>
         </node>
-        <node concept="1Wc70l" id="701$ZaZxI_z" role="3clFbw">
-          <node concept="2OqwBi" id="701$ZaZxJ8K" role="3uHU7w">
-            <node concept="1YBJjd" id="701$ZaZxJ5k" role="2Oq$k0">
-              <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
-            </node>
-            <node concept="2qgKlT" id="701$ZaZxSFl" role="2OqNvi">
-              <ref role="37wK5l" to="70o0:2FiiyF3e0JS" resolve="isWithoutPage" />
-            </node>
-          </node>
-          <node concept="2OqwBi" id="701$ZaZxHYp" role="3uHU7B">
-            <node concept="2OqwBi" id="701$ZaZxHfn" role="2Oq$k0">
-              <node concept="1YBJjd" id="701$ZaZxHc6" role="2Oq$k0">
+        <node concept="1Wc70l" id="v00WQapfaQ" role="3clFbw">
+          <node concept="3fqX7Q" id="v00WQapgNf" role="3uHU7w">
+            <node concept="2OqwBi" id="v00WQapgNh" role="3fr31v">
+              <node concept="1YBJjd" id="v00WQapgNi" role="2Oq$k0">
                 <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
               </node>
-              <node concept="3TrcHB" id="701$ZaZxHPh" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+              <node concept="2qgKlT" id="v00WQapgNj" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:6qsy3WVHt4p" resolve="hasSuccessorCommands" />
               </node>
             </node>
-            <node concept="3t7uKx" id="701$ZaZxIz0" role="2OqNvi">
-              <node concept="uoxfO" id="701$ZaZxIz2" role="3t7uKA">
-                <ref role="uo_Cq" to="un0u:701$ZaZsahE" />
+          </node>
+          <node concept="1Wc70l" id="701$ZaZxI_z" role="3uHU7B">
+            <node concept="2OqwBi" id="701$ZaZxHYp" role="3uHU7B">
+              <node concept="2OqwBi" id="701$ZaZxHfn" role="2Oq$k0">
+                <node concept="1YBJjd" id="701$ZaZxHc6" role="2Oq$k0">
+                  <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                </node>
+                <node concept="3TrcHB" id="701$ZaZxHPh" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                </node>
+              </node>
+              <node concept="3t7uKx" id="701$ZaZxIz0" role="2OqNvi">
+                <node concept="uoxfO" id="701$ZaZxIz2" role="3t7uKA">
+                  <ref role="uo_Cq" to="un0u:701$ZaZsahE" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="701$ZaZxJ8K" role="3uHU7w">
+              <node concept="1YBJjd" id="701$ZaZxJ5k" role="2Oq$k0">
+                <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+              </node>
+              <node concept="2qgKlT" id="701$ZaZxSFl" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:2FiiyF3e0JS" resolve="isWithoutPage" />
               </node>
             </node>
           </node>
@@ -3976,19 +3988,38 @@
       </node>
       <node concept="3clFbJ" id="6qsy3WVHguw" role="3cqZAp">
         <node concept="3clFbS" id="6qsy3WVHguy" role="3clFbx">
-          <node concept="3clFbJ" id="6qsy3WVHhZC" role="3cqZAp">
-            <node concept="3clFbS" id="6qsy3WVHhZE" role="3clFbx">
-              <node concept="2MkqsV" id="6qsy3WVHjci" role="3cqZAp">
-                <node concept="Xl_RD" id="6qsy3WVHjcC" role="2MkJ7o">
-                  <property role="Xl_RC" value="Only Graph Owner commands can be succeed imediatelly by another command." />
-                </node>
-                <node concept="1YBJjd" id="6qsy3WVHjgX" role="2OEOjV">
-                  <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+          <node concept="3clFbJ" id="v00WQapiDt" role="3cqZAp">
+            <node concept="3clFbS" id="v00WQapiDv" role="3clFbx">
+              <node concept="3SKdUt" id="v00WQapk9f" role="3cqZAp">
+                <node concept="3SKdUq" id="v00WQapk9h" role="3SKWNk">
+                  <property role="3SKdUp" value="okay, but successors should be simple graph owners .. " />
                 </node>
               </node>
             </node>
-            <node concept="3fqX7Q" id="6qsy3WVHiVl" role="3clFbw">
-              <node concept="2OqwBi" id="6qsy3WVHiVn" role="3fr31v">
+            <node concept="2OqwBi" id="v00WQapjtR" role="3clFbw">
+              <node concept="2OqwBi" id="v00WQapiHW" role="2Oq$k0">
+                <node concept="1YBJjd" id="v00WQapiEF" role="2Oq$k0">
+                  <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
+                </node>
+                <node concept="3TrcHB" id="v00WQapjjY" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                </node>
+              </node>
+              <node concept="3t7uKx" id="v00WQapk8j" role="2OqNvi">
+                <node concept="uoxfO" id="v00WQapk8l" role="3t7uKA">
+                  <ref role="uo_Cq" to="un0u:701$ZaZsahE" />
+                </node>
+              </node>
+            </node>
+            <node concept="3eNFk2" id="v00WQapkaE" role="3eNLev">
+              <node concept="3clFbS" id="v00WQapkaG" role="3eOfB_">
+                <node concept="3SKdUt" id="v00WQapla$" role="3cqZAp">
+                  <node concept="3SKdUq" id="v00WQapla_" role="3SKWNk">
+                    <property role="3SKdUp" value="also olkay... " />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6qsy3WVHiVn" role="3eO9$A">
                 <node concept="2OqwBi" id="6qsy3WVHiVo" role="2Oq$k0">
                   <node concept="1YBJjd" id="6qsy3WVHiVp" role="2Oq$k0">
                     <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
@@ -4000,6 +4031,18 @@
                 <node concept="3t7uKx" id="6qsy3WVHiVr" role="2OqNvi">
                   <node concept="uoxfO" id="6qsy3WVHiVs" role="3t7uKA">
                     <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="9aQIb" id="v00WQaplaZ" role="9aQIa">
+              <node concept="3clFbS" id="v00WQaplb0" role="9aQI4">
+                <node concept="2MkqsV" id="6qsy3WVHjci" role="3cqZAp">
+                  <node concept="Xl_RD" id="6qsy3WVHjcC" role="2MkJ7o">
+                    <property role="Xl_RC" value="Only GRAPH_OWNER commands can be succeed imediatelly by another command." />
+                  </node>
+                  <node concept="1YBJjd" id="6qsy3WVHjgX" role="2OEOjV">
+                    <ref role="1YBMHb" node="MT9RZiHg3e" resolve="cmd" />
                   </node>
                 </node>
               </node>
@@ -4019,6 +4062,41 @@
               <node concept="2es0OD" id="6qsy3WVHp1K" role="2OqNvi">
                 <node concept="1bVj0M" id="6qsy3WVHp1M" role="23t8la">
                   <node concept="3clFbS" id="6qsy3WVHp1N" role="1bW5cS">
+                    <node concept="3clFbJ" id="v00WQapmtU" role="3cqZAp">
+                      <node concept="3clFbS" id="v00WQapmtW" role="3clFbx">
+                        <node concept="2MkqsV" id="v00WQapo4N" role="3cqZAp">
+                          <node concept="Xl_RD" id="v00WQapo8j" role="2MkJ7o">
+                            <property role="Xl_RC" value="Typically, successor commands should be GRAPH_OWNER commands, taking over the session from it s predecessor." />
+                          </node>
+                          <node concept="37vLTw" id="v00WQappJm" role="2OEOjV">
+                            <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3fqX7Q" id="v00WQapnX3" role="3clFbw">
+                        <node concept="2OqwBi" id="v00WQapnX5" role="3fr31v">
+                          <node concept="2OqwBi" id="v00WQapnX6" role="2Oq$k0">
+                            <node concept="2OqwBi" id="v00WQapnX7" role="2Oq$k0">
+                              <node concept="37vLTw" id="v00WQapnX8" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6qsy3WVHp1O" resolve="it" />
+                              </node>
+                              <node concept="3TrEf2" id="v00WQapnX9" role="2OqNvi">
+                                <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
+                              </node>
+                            </node>
+                            <node concept="3TrcHB" id="v00WQapnXa" role="2OqNvi">
+                              <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
+                            </node>
+                          </node>
+                          <node concept="3t7uKx" id="v00WQapnXb" role="2OqNvi">
+                            <node concept="uoxfO" id="v00WQapnXc" role="3t7uKA">
+                              <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="v00WQapmmx" role="3cqZAp" />
                     <node concept="3clFbJ" id="6qsy3WVHp40" role="3cqZAp">
                       <node concept="2OqwBi" id="6qsy3WVHzJD" role="3clFbw">
                         <node concept="2OqwBi" id="6qsy3WVHzi$" role="2Oq$k0">
