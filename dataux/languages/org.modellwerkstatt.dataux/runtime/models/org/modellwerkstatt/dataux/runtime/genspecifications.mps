@@ -1518,7 +1518,7 @@
           </node>
           <node concept="3eOVzh" id="3l4K2g7c2a$" role="3clFbw">
             <node concept="3cmrfG" id="3l4K2g7c2b0" role="3uHU7w">
-              <property role="3cmrfH" value="1000" />
+              <property role="3cmrfH" value="900" />
             </node>
             <node concept="3cpWsd" id="3l4K2g7c1jt" role="3uHU7B">
               <node concept="37vLTw" id="3l4K2g7c0z9" role="3uHU7B">

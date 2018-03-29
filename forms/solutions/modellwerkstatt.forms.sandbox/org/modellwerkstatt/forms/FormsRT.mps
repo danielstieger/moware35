@@ -3454,7 +3454,7 @@
               </node>
             </node>
             <node concept="liA8E" id="11hNSr_cmxH" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:11hNSr_clNz" resolve="isReadOnlySession" />
+              <ref role="37wK5l" to="28jr:11hNSr_clNz" resolve="isCurrentlyReadOnlySession" />
             </node>
           </node>
         </node>
@@ -4074,7 +4074,7 @@
                 </node>
               </node>
               <node concept="liA8E" id="7SOU9vd3gHq" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
+                <ref role="37wK5l" to="28jr:11hNSr_clNz" resolve="isCurrentlyReadOnlySession" />
               </node>
             </node>
           </node>

@@ -9469,6 +9469,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="66CXFVAg5iV" role="jymVt" />
     <node concept="3clFb_" id="6IJC_lwovWV" role="jymVt">
       <property role="TrG5h" value="hasCommitableSessionRunning" />
       <node concept="10P_77" id="6IJC_lwoAZu" role="3clF45" />
@@ -10979,32 +10980,24 @@
             <node concept="37vLTw" id="5GImeV7bNm4" role="37vLTJ">
               <ref role="3cqZAo" node="5GImeV7bxnc" resolve="isStillOkayAsParentForMultiExecution" />
             </node>
-            <node concept="22lmx$" id="5GImeV7bY7x" role="37vLTx">
-              <node concept="2OqwBi" id="5GImeV7bYp7" role="3uHU7w">
-                <node concept="37vLTw" id="5GImeV7bYmB" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+            <node concept="2OqwBi" id="66CXFVBdP44" role="37vLTx">
+              <node concept="liA8E" id="66CXFVBdP45" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                <node concept="Rm8GO" id="66CXFVBdP46" role="37wK5m">
+                  <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                  <ref role="Rm8GQ" to="28jr:66CXFVAgYe9" resolve="SEARCH_CMD" />
                 </node>
-                <node concept="liA8E" id="5GImeV7bYCB" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
+                <node concept="Rm8GO" id="66CXFVBdPIs" role="37wK5m">
+                  <ref role="Rm8GQ" to="28jr:66CXFVAgYds" resolve="GRAPH_OWNER_CMD" />
+                  <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                </node>
+                <node concept="Rm8GO" id="66CXFVBdQ8j" role="37wK5m">
+                  <ref role="Rm8GQ" to="28jr:66CXFVAgYge" resolve="GRAPH_OWNER_CMD_MODAL" />
+                  <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
                 </node>
               </node>
-              <node concept="22lmx$" id="3wkdm3Wapl$" role="3uHU7B">
-                <node concept="2OqwBi" id="3wkdm3WapCT" role="3uHU7w">
-                  <node concept="37vLTw" id="3wkdm3WapA3" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                  </node>
-                  <node concept="liA8E" id="3wkdm3WapU_" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:701$ZaZxF$x" resolve="isGraphOwnerModal" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="5GImeV7bXGQ" role="3uHU7B">
-                  <node concept="37vLTw" id="5GImeV7bXEL" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                  </node>
-                  <node concept="liA8E" id="5GImeV7bXWX" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:206uhc79ppa" resolve="isGraphOwner" />
-                  </node>
-                </node>
+              <node concept="37vLTw" id="66CXFVBdP47" role="2Oq$k0">
+                <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
               </node>
             </node>
           </node>
@@ -11115,7 +11108,11 @@
               <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
             </node>
             <node concept="liA8E" id="7TsEWieWZ1J" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:206uhc79py_" resolve="isGraphEdit" />
+              <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+              <node concept="Rm8GO" id="66CXFVBfGGa" role="37wK5m">
+                <ref role="Rm8GQ" to="28jr:66CXFVAgWJQ" resolve="GRAPH_EDIT_CMD" />
+                <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+              </node>
             </node>
           </node>
         </node>
@@ -13250,21 +13247,19 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="22lmx$" id="206uhc79yt$" role="3clFbw">
-                    <node concept="2OqwBi" id="206uhc79yL6" role="3uHU7w">
-                      <node concept="37vLTw" id="206uhc79yK8" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                      </node>
-                      <node concept="liA8E" id="206uhc79yVp" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:206uhc79pGj" resolve="isSubGraphOwner" />
-                      </node>
+                  <node concept="2OqwBi" id="5_bDd1dLa0C" role="3clFbw">
+                    <node concept="37vLTw" id="1dzqM5xkHo3" role="2Oq$k0">
+                      <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                     </node>
-                    <node concept="2OqwBi" id="5_bDd1dLa0C" role="3uHU7B">
-                      <node concept="37vLTw" id="1dzqM5xkHo3" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                    <node concept="liA8E" id="5_bDd1dLa9R" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                      <node concept="Rm8GO" id="66CXFVBfAMT" role="37wK5m">
+                        <ref role="Rm8GQ" to="28jr:66CXFVAgWJQ" resolve="GRAPH_EDIT_CMD" />
+                        <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
                       </node>
-                      <node concept="liA8E" id="5_bDd1dLa9R" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:206uhc79py_" resolve="isGraphEdit" />
+                      <node concept="Rm8GO" id="66CXFVBfAU0" role="37wK5m">
+                        <ref role="Rm8GQ" to="28jr:66CXFVAgYf1" resolve="SUB_GRAPH_OWNER_CMD" />
+                        <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
                       </node>
                     </node>
                   </node>
@@ -13288,7 +13283,11 @@
                                   <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                                 </node>
                                 <node concept="liA8E" id="3wkdm3VZN$W" role="2OqNvi">
-                                  <ref role="37wK5l" to="28jr:701$ZaZxF$x" resolve="isGraphOwnerModal" />
+                                  <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                                  <node concept="Rm8GO" id="66CXFVBfxNR" role="37wK5m">
+                                    <ref role="Rm8GQ" to="28jr:66CXFVAgYge" resolve="GRAPH_OWNER_CMD_MODAL" />
+                                    <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -14187,7 +14186,7 @@
                       <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                     </node>
                     <node concept="liA8E" id="6G8jBJnCR17" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:11hNSr_clNz" resolve="isReadOnlySession" />
+                      <ref role="37wK5l" to="28jr:11hNSr_clNz" resolve="isCurrentlyReadOnlySession" />
                     </node>
                   </node>
                 </node>
@@ -14197,7 +14196,15 @@
                       <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                     </node>
                     <node concept="liA8E" id="1kxCqBRbpc9" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:206uhc79ppa" resolve="isGraphOwner" />
+                      <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                      <node concept="Rm8GO" id="66CXFVBfhlV" role="37wK5m">
+                        <ref role="Rm8GQ" to="28jr:66CXFVAgYds" resolve="GRAPH_OWNER_CMD" />
+                        <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                      </node>
+                      <node concept="Rm8GO" id="66CXFVBfsKZ" role="37wK5m">
+                        <ref role="Rm8GQ" to="28jr:66CXFVAgYge" resolve="GRAPH_OWNER_CMD_MODAL" />
+                        <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                      </node>
                     </node>
                   </node>
                   <node concept="2OqwBi" id="5XHFlROTOXf" role="3uHU7w">
@@ -14912,12 +14919,16 @@
                     <ref role="37wK5l" to="250q:kWPevMcyfQ" resolve="useBackgroundThread" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="3l4K2g6ZFoQ" role="3uHU7B">
-                  <node concept="37vLTw" id="3l4K2g6ZFni" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                <node concept="2OqwBi" id="66CXFVBdOtJ" role="3uHU7B">
+                  <node concept="liA8E" id="66CXFVBdOtK" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                    <node concept="Rm8GO" id="66CXFVBdOtL" role="37wK5m">
+                      <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                      <ref role="Rm8GQ" to="28jr:66CXFVAgYe9" resolve="SEARCH_CMD" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="3l4K2g6ZFCJ" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
+                  <node concept="37vLTw" id="66CXFVBdOtM" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                   </node>
                 </node>
               </node>
@@ -15108,12 +15119,16 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="1xkAMN4BBFc" role="3clFbw">
-            <node concept="37vLTw" id="1xkAMN4BBFd" role="2Oq$k0">
-              <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+          <node concept="2OqwBi" id="66CXFVBdQy3" role="3clFbw">
+            <node concept="liA8E" id="66CXFVBdQy4" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+              <node concept="Rm8GO" id="66CXFVBdQy5" role="37wK5m">
+                <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                <ref role="Rm8GQ" to="28jr:66CXFVAgYe9" resolve="SEARCH_CMD" />
+              </node>
             </node>
-            <node concept="liA8E" id="1xkAMN4BBFe" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
+            <node concept="37vLTw" id="66CXFVBdQy6" role="2Oq$k0">
+              <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
             </node>
           </node>
         </node>
@@ -15629,7 +15644,11 @@
                       </node>
                       <node concept="2OqwBi" id="3xmYcCNeHM4" role="37wK5m">
                         <node concept="liA8E" id="3xmYcCNeHM5" role="2OqNvi">
-                          <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
+                          <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                          <node concept="Rm8GO" id="66CXFVBdO9X" role="37wK5m">
+                            <ref role="Rm8GQ" to="28jr:66CXFVAgYe9" resolve="SEARCH_CMD" />
+                            <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                          </node>
                         </node>
                         <node concept="37vLTw" id="3xmYcCNeHM6" role="2Oq$k0">
                           <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
@@ -15694,11 +15713,15 @@
                     <node concept="37vLTw" id="1dzqM5xx6Zn" role="37wK5m">
                       <ref role="3cqZAo" node="1dzqM5xx5Dt" resolve="possibleSelection" />
                     </node>
-                    <node concept="2OqwBi" id="4mX9XgfA6Hg" role="37wK5m">
-                      <node concept="liA8E" id="4mX9XgfA7N6" role="2OqNvi">
-                        <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
+                    <node concept="2OqwBi" id="66CXFVBdOcb" role="37wK5m">
+                      <node concept="liA8E" id="66CXFVBdOcc" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                        <node concept="Rm8GO" id="66CXFVBdOcd" role="37wK5m">
+                          <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                          <ref role="Rm8GQ" to="28jr:66CXFVAgYe9" resolve="SEARCH_CMD" />
+                        </node>
                       </node>
-                      <node concept="37vLTw" id="6mdtRStxOCh" role="2Oq$k0">
+                      <node concept="37vLTw" id="66CXFVBdOce" role="2Oq$k0">
                         <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                       </node>
                     </node>
@@ -18238,23 +18261,23 @@
             <property role="TrG5h" value="hasSessionToCommit" />
             <node concept="10P_77" id="6IJC_lwq0qh" role="1tU5fm" />
             <node concept="1Wc70l" id="206uhc7a46x" role="33vP2m">
-              <node concept="1eOMI4" id="206uhc7a1I7" role="3uHU7B">
-                <node concept="22lmx$" id="206uhc7a1I8" role="1eOMHV">
-                  <node concept="2OqwBi" id="206uhc7a1I9" role="3uHU7w">
-                    <node concept="37vLTw" id="206uhc7a1Ia" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                    </node>
-                    <node concept="liA8E" id="206uhc7a1Ib" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:206uhc79pGj" resolve="isSubGraphOwner" />
-                    </node>
+              <node concept="2OqwBi" id="206uhc7a1Ic" role="3uHU7B">
+                <node concept="37vLTw" id="206uhc7a1Id" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+                </node>
+                <node concept="liA8E" id="66CXFVBepCd" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                  <node concept="Rm8GO" id="66CXFVBepCe" role="37wK5m">
+                    <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                    <ref role="Rm8GQ" to="28jr:66CXFVAgYds" resolve="GRAPH_OWNER_CMD" />
                   </node>
-                  <node concept="2OqwBi" id="206uhc7a1Ic" role="3uHU7B">
-                    <node concept="37vLTw" id="206uhc7a1Id" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
-                    </node>
-                    <node concept="liA8E" id="206uhc7a1Ie" role="2OqNvi">
-                      <ref role="37wK5l" to="28jr:206uhc79ppa" resolve="isGraphOwner" />
-                    </node>
+                  <node concept="Rm8GO" id="66CXFVBexrM" role="37wK5m">
+                    <ref role="Rm8GQ" to="28jr:66CXFVAgYf1" resolve="SUB_GRAPH_OWNER_CMD" />
+                    <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                  </node>
+                  <node concept="Rm8GO" id="66CXFVBeL1S" role="37wK5m">
+                    <ref role="Rm8GQ" to="28jr:66CXFVAgYge" resolve="GRAPH_OWNER_CMD_MODAL" />
+                    <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
                   </node>
                 </node>
               </node>
@@ -18264,7 +18287,7 @@
                     <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
                   </node>
                   <node concept="liA8E" id="6IJC_lwoQNv" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:11hNSr_clNz" resolve="isReadOnlySession" />
+                    <ref role="37wK5l" to="28jr:11hNSr_clNz" resolve="isCurrentlyReadOnlySession" />
                   </node>
                 </node>
               </node>
@@ -21488,24 +21511,63 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbJ" id="3wkdm3Wb0cT" role="3cqZAp">
-              <node concept="3clFbS" id="3wkdm3Wb0cV" role="3clFbx">
-                <node concept="YS8fn" id="3wkdm3Wb1Dx" role="3cqZAp">
-                  <node concept="2ShNRf" id="3wkdm3Wb1Fk" role="YScLw">
-                    <node concept="1pGfFk" id="3wkdm3Wb2fo" role="2ShVmc">
+            <node concept="3clFbH" id="3wkdm3Wbniy" role="3cqZAp" />
+            <node concept="3clFbJ" id="66CXFVBE$q_" role="3cqZAp">
+              <node concept="3clFbS" id="66CXFVBE$qB" role="3clFbx">
+                <node concept="YS8fn" id="66CXFVBEF69" role="3cqZAp">
+                  <node concept="2ShNRf" id="66CXFVBEF7P" role="YScLw">
+                    <node concept="1pGfFk" id="66CXFVBEFAg" role="2ShVmc">
                       <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                      <node concept="Xl_RD" id="3wkdm3Wb2hj" role="37wK5m">
-                        <property role="Xl_RC" value="Can not start any command creating a new session while runnin a tab in modal mode!" />
+                      <node concept="Xl_RD" id="66CXFVBEFDr" role="37wK5m">
+                        <property role="Xl_RC" value="When a modal tab is opend, only GraphEdit commands can be started/executed. This is a programming error." />
                       </node>
                     </node>
                   </node>
                 </node>
               </node>
-              <node concept="37vLTw" id="3wkdm3Wb17k" role="3clFbw">
-                <ref role="3cqZAo" node="701$ZaZr7R_" resolve="applicationModalTabMode" />
+              <node concept="1Wc70l" id="66CXFVBE_SW" role="3clFbw">
+                <node concept="2OqwBi" id="66CXFVBEBcZ" role="3uHU7w">
+                  <node concept="2OqwBi" id="66CXFVBEAud" role="2Oq$k0">
+                    <node concept="37vLTw" id="66CXFVBEArq" role="2Oq$k0">
+                      <ref role="3cqZAo" node="4XXgpAAgf76" resolve="action" />
+                    </node>
+                    <node concept="liA8E" id="66CXFVBEB0N" role="2OqNvi">
+                      <ref role="37wK5l" to="yg8v:cYdxW63ijN" resolve="getProcess" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="66CXFVBEBLG" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:66CXFVAskW3" resolve="isCommandType" />
+                    <node concept="2OqwBi" id="66CXFVBEC09" role="37wK5m">
+                      <node concept="37vLTw" id="66CXFVBEBXh" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4XXgpAAgf76" resolve="action" />
+                      </node>
+                      <node concept="2OwXpG" id="66CXFVBECzn" role="2OqNvi">
+                        <ref role="2Oxat5" to="yg8v:5$YtY8hobHP" resolve="public_commandFqName" />
+                      </node>
+                    </node>
+                    <node concept="Rm8GO" id="66CXFVBED7z" role="37wK5m">
+                      <ref role="Rm8GQ" to="28jr:66CXFVAgYds" resolve="GRAPH_OWNER_CMD" />
+                      <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                    </node>
+                    <node concept="Rm8GO" id="66CXFVBEDyc" role="37wK5m">
+                      <ref role="Rm8GQ" to="28jr:66CXFVAgYge" resolve="GRAPH_OWNER_CMD_MODAL" />
+                      <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                    </node>
+                    <node concept="Rm8GO" id="66CXFVBEEmk" role="37wK5m">
+                      <ref role="Rm8GQ" to="28jr:66CXFVAgYe9" resolve="SEARCH_CMD" />
+                      <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                    </node>
+                    <node concept="Rm8GO" id="66CXFVBEEPm" role="37wK5m">
+                      <ref role="Rm8GQ" to="28jr:66CXFVAgYf1" resolve="SUB_GRAPH_OWNER_CMD" />
+                      <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="66CXFVBE_m$" role="3uHU7B">
+                  <ref role="3cqZAo" node="701$ZaZr7R_" resolve="applicationModalTabMode" />
+                </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3wkdm3Wbniy" role="3cqZAp" />
             <node concept="3SKdUt" id="4XXgpAAgoSW" role="3cqZAp">
               <node concept="3SKdUq" id="4XXgpAAgoX1" role="3SKWNk">
                 <property role="3SKdUp" value="calculateParams() method signature could be changed, since working with localSelectionCrtls now" />
@@ -21759,32 +21821,32 @@
                     </node>
                   </node>
                   <node concept="1Wc70l" id="kWPevMczRg" role="3clFbw">
-                    <node concept="1eOMI4" id="206uhc79uYs" role="3uHU7w">
-                      <node concept="22lmx$" id="kWPevMczHS" role="1eOMHV">
-                        <node concept="2OqwBi" id="kWPevMczHZ" role="3uHU7w">
-                          <node concept="37vLTw" id="kWPevMczI0" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4XXgpAAgpq6" resolve="cmd" />
-                          </node>
-                          <node concept="liA8E" id="kWPevMczI1" role="2OqNvi">
-                            <ref role="37wK5l" to="28jr:206uhc79ppa" resolve="isGraphOwner" />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="kWPevMczI2" role="3uHU7B">
-                          <node concept="37vLTw" id="kWPevMczI3" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4XXgpAAgpq6" resolve="cmd" />
-                          </node>
-                          <node concept="liA8E" id="kWPevMczI4" role="2OqNvi">
-                            <ref role="37wK5l" to="28jr:6Rdz00$VePa" resolve="isSearchCommand" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
                     <node concept="2OqwBi" id="kWPevMcz0X" role="3uHU7B">
                       <node concept="37vLTw" id="kWPevMcyYd" role="2Oq$k0">
                         <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                       </node>
                       <node concept="liA8E" id="kWPevMczcI" role="2OqNvi">
                         <ref role="37wK5l" to="250q:kWPevMcyfQ" resolve="useBackgroundThread" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="66CXFVBbWGP" role="3uHU7w">
+                      <node concept="37vLTw" id="66CXFVBbWDB" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4XXgpAAgpq6" resolve="cmd" />
+                      </node>
+                      <node concept="liA8E" id="66CXFVBbX4k" role="2OqNvi">
+                        <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                        <node concept="Rm8GO" id="66CXFVBbXsT" role="37wK5m">
+                          <ref role="Rm8GQ" to="28jr:66CXFVAgYe9" resolve="SEARCH_CMD" />
+                          <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                        </node>
+                        <node concept="Rm8GO" id="66CXFVBbXO3" role="37wK5m">
+                          <ref role="Rm8GQ" to="28jr:66CXFVAgYds" resolve="GRAPH_OWNER_CMD" />
+                          <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                        </node>
+                        <node concept="Rm8GO" id="66CXFVBbYnT" role="37wK5m">
+                          <ref role="Rm8GQ" to="28jr:66CXFVAgYge" resolve="GRAPH_OWNER_CMD_MODAL" />
+                          <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -22635,7 +22697,11 @@
                 <ref role="3cqZAo" node="5ZV7jolc812" resolve="cmd" />
               </node>
               <node concept="liA8E" id="3nYsKhuYy7D" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:206uhc79ppa" resolve="isGraphOwner" />
+                <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                <node concept="Rm8GO" id="66CXFVBeo9K" role="37wK5m">
+                  <ref role="Rm8GQ" to="28jr:66CXFVAgYds" resolve="GRAPH_OWNER_CMD" />
+                  <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                </node>
               </node>
             </node>
             <node concept="2OqwBi" id="3nYsKhuYxAR" role="37vLTJ">
@@ -22671,7 +22737,11 @@
                   <ref role="3cqZAo" node="5ZV7jolc812" resolve="cmd" />
                 </node>
                 <node concept="liA8E" id="1OvPoUuPzVB" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:206uhc79py_" resolve="isGraphEdit" />
+                  <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                  <node concept="Rm8GO" id="66CXFVBfFDa" role="37wK5m">
+                    <ref role="Rm8GQ" to="28jr:66CXFVAgWJQ" resolve="GRAPH_EDIT_CMD" />
+                    <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -22770,8 +22840,12 @@
               <node concept="37vLTw" id="3nYsKhuY6tj" role="2Oq$k0">
                 <ref role="3cqZAo" node="5ZV7jolc812" resolve="cmd" />
               </node>
-              <node concept="liA8E" id="3nYsKhuY6tk" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:206uhc79ppa" resolve="isGraphOwner" />
+              <node concept="liA8E" id="66CXFVBeocG" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:66CXFVAgYBy" resolve="isCommandType" />
+                <node concept="Rm8GO" id="66CXFVBeocH" role="37wK5m">
+                  <ref role="1Px2BO" to="28jr:66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+                  <ref role="Rm8GQ" to="28jr:66CXFVAgYds" resolve="GRAPH_OWNER_CMD" />
+                </node>
               </node>
             </node>
             <node concept="2OqwBi" id="3nYsKhuY6to" role="3uHU7B">

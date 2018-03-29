@@ -83,13 +83,14 @@
 	
 	/* * * * * * * * * * Main Tab Pane * * * * * * * * */
 	.v-tabsheet-tabitemcell-mo-modal-tab .v-tabsheet-tabitem-selected .v-caption {
-		border: 2px solid $v-focus-color !important;
+		border-width: 2px 2px 1px 2px !important;
+		border-style: solid !important;
+		border-color: $v-focus-color !important;
 		padding-bottom: 0px !important;
 	}	
 	
-	.v-verticallayout-mo-small-mrg mo-modal-tab {
+	.mo-modal-tab {
 		border: 2px solid $v-focus-color !important;
-		padding-bottom: 0px !important;
 	}
 	
 	

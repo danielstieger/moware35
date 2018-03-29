@@ -3525,48 +3525,29 @@
     </node>
     <node concept="3clFb_" id="11hNSr_clNz" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="isReadOnlySession" />
+      <property role="TrG5h" value="isCurrentlyReadOnlySession" />
       <node concept="10P_77" id="11hNSr_clNC" role="3clF45" />
       <node concept="3Tm1VV" id="11hNSr_clN_" role="1B3o_S" />
       <node concept="3clFbS" id="11hNSr_clNA" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="6Rdz00$VeoD" role="jymVt" />
-    <node concept="3clFb_" id="6Rdz00$VePa" role="jymVt">
+    <node concept="3clFb_" id="66CXFVAgYBy" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="isSearchCommand" />
-      <node concept="10P_77" id="6Rdz00$VfHg" role="3clF45" />
-      <node concept="3Tm1VV" id="6Rdz00$VePd" role="1B3o_S" />
-      <node concept="3clFbS" id="6Rdz00$VePe" role="3clF47" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isCommandType" />
+      <node concept="3clFbS" id="66CXFVAgYB_" role="3clF47" />
+      <node concept="3Tm1VV" id="66CXFVAgYBA" role="1B3o_S" />
+      <node concept="10P_77" id="66CXFVAgYxB" role="3clF45" />
+      <node concept="37vLTG" id="66CXFVAgYLd" role="3clF46">
+        <property role="TrG5h" value="commandTypsOred" />
+        <node concept="8X2XB" id="66CXFVAgYYt" role="1tU5fm">
+          <node concept="3uibUv" id="66CXFVAgYLc" role="8Xvag">
+            <ref role="3uigEE" node="66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+          </node>
+        </node>
+      </node>
     </node>
-    <node concept="3clFb_" id="206uhc79ppa" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="isGraphOwner" />
-      <node concept="10P_77" id="206uhc79ppb" role="3clF45" />
-      <node concept="3Tm1VV" id="206uhc79ppc" role="1B3o_S" />
-      <node concept="3clFbS" id="206uhc79ppd" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="701$ZaZxF$x" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="isGraphOwnerModal" />
-      <node concept="10P_77" id="701$ZaZxF$y" role="3clF45" />
-      <node concept="3Tm1VV" id="701$ZaZxF$z" role="1B3o_S" />
-      <node concept="3clFbS" id="701$ZaZxF$$" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="206uhc79pGj" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="isSubGraphOwner" />
-      <node concept="10P_77" id="206uhc79pGk" role="3clF45" />
-      <node concept="3Tm1VV" id="206uhc79pGl" role="1B3o_S" />
-      <node concept="3clFbS" id="206uhc79pGm" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="206uhc79py_" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="isGraphEdit" />
-      <node concept="10P_77" id="206uhc79pyA" role="3clF45" />
-      <node concept="3Tm1VV" id="206uhc79pyB" role="1B3o_S" />
-      <node concept="3clFbS" id="206uhc79pyC" role="3clF47" />
-    </node>
-    <node concept="2tJIrI" id="6qsy3WVL$N0" role="jymVt" />
+    <node concept="2tJIrI" id="66CXFVAgV8T" role="jymVt" />
     <node concept="3clFb_" id="6qsy3WVL$BQ" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="hasSuccessorCommand" />
@@ -3638,10 +3619,55 @@
       <node concept="3clFbS" id="Z1sD2yfqqM" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="4z7jlGJwxHi" role="jymVt" />
+    <node concept="Qs71p" id="66CXFVAgWqY" role="jymVt">
+      <property role="TrG5h" value="OFXCmdTyp" />
+      <node concept="3Tm1VV" id="66CXFVAgWqZ" role="1B3o_S" />
+      <node concept="QsSxf" id="66CXFVAgWJQ" role="Qtgdg">
+        <property role="TrG5h" value="GRAPH_EDIT_CMD" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="66CXFVAgYds" role="Qtgdg">
+        <property role="TrG5h" value="GRAPH_OWNER_CMD" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="66CXFVAgYe9" role="Qtgdg">
+        <property role="TrG5h" value="SEARCH_CMD" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="66CXFVAgYf1" role="Qtgdg">
+        <property role="TrG5h" value="SUB_GRAPH_OWNER_CMD" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+      <node concept="QsSxf" id="66CXFVAgYge" role="Qtgdg">
+        <property role="TrG5h" value="GRAPH_OWNER_CMD_MODAL" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="66CXFVAgV$z" role="jymVt" />
   </node>
   <node concept="3HP615" id="7rqBz8B3EmX">
     <property role="3GE5qa" value="OFXArchitecture" />
     <property role="TrG5h" value="IOFXProcess" />
+    <node concept="3clFb_" id="66CXFVAskW3" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isCommandType" />
+      <node concept="3clFbS" id="66CXFVAskW6" role="3clF47" />
+      <node concept="3Tm1VV" id="66CXFVAskW7" role="1B3o_S" />
+      <node concept="10P_77" id="66CXFVAskLo" role="3clF45" />
+      <node concept="37vLTG" id="66CXFVAslep" role="3clF46">
+        <property role="TrG5h" value="commandFqName" />
+        <node concept="17QB3L" id="66CXFVAsleo" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="66CXFVAslm0" role="3clF46">
+        <property role="TrG5h" value="commandType" />
+        <node concept="8X2XB" id="66CXFVAslAQ" role="1tU5fm">
+          <node concept="3uibUv" id="66CXFVAsluI" role="8Xvag">
+            <ref role="3uigEE" node="66CXFVAgWqY" resolve="IOFXCommand.OFXCmdTyp" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="7rqBz8B3EmY" role="1B3o_S" />
     <node concept="16euLQ" id="7rqBz8B3En3" role="16eVyc">
       <property role="TrG5h" value="Document" />
@@ -3805,22 +3831,6 @@
       <node concept="3Tm1VV" id="rS8NAHTz0X" role="1B3o_S" />
       <node concept="3clFbS" id="rS8NAHTz0Y" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="4wvbHttaIl7" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getCommandType" />
-      <node concept="3uibUv" id="6_IgSPuhdZ8" role="3clF45">
-        <ref role="3uigEE" node="6_IgSPuhdYZ" resolve="IOFXProcess.CommandUiType" />
-      </node>
-      <node concept="3Tm1VV" id="4wvbHttaIl9" role="1B3o_S" />
-      <node concept="3clFbS" id="4wvbHttaIla" role="3clF47" />
-      <node concept="37vLTG" id="4wvbHttaIlc" role="3clF46">
-        <property role="TrG5h" value="commandFqName" />
-        <node concept="17QB3L" id="4wvbHttaIld" role="1tU5fm" />
-      </node>
-      <node concept="2AHcQZ" id="4XXgpA_sYBX" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-      </node>
-    </node>
     <node concept="3clFb_" id="5bU9G11cjVY" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getCommandToolTip" />
@@ -3942,28 +3952,6 @@
       <node concept="3clFbS" id="4wvbHttaD8I" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="7ubUX4Zjgk_" role="jymVt" />
-    <node concept="2tJIrI" id="7ubUX4Zjgme" role="jymVt" />
-    <node concept="2tJIrI" id="7ubUX4ZjgnS" role="jymVt" />
-    <node concept="Qs71p" id="6_IgSPuhdYZ" role="jymVt">
-      <property role="TrG5h" value="CommandUiType" />
-      <property role="2bfB8j" value="true" />
-      <node concept="QsSxf" id="6_IgSPuhdZ5" role="Qtgdg">
-        <property role="TrG5h" value="NEWSESSION_PROMPT" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="6_IgSPuhdZ6" role="Qtgdg">
-        <property role="TrG5h" value="NEWSESSION_TAB" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="QsSxf" id="6_IgSPuhdZ7" role="Qtgdg">
-        <property role="TrG5h" value="PARENTSESSION_PROMPT" />
-        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-      </node>
-      <node concept="3Tm1VV" id="6_IgSPuhdZ0" role="1B3o_S" />
-      <node concept="2AHcQZ" id="4XXgpA_sPFY" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
-      </node>
-    </node>
     <node concept="Qs71p" id="11hNSr_a7DY" role="jymVt">
       <property role="TrG5h" value="CommandPermission" />
       <property role="2bfB8j" value="false" />
