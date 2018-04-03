@@ -1329,5 +1329,37 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="2rqRJfqYMgU">
+    <property role="3GE5qa" value="uimodule" />
+    <ref role="1M2myG" to="1btx:2rqRJfqYGTr" resolve="InfoWidget" />
+    <node concept="osYL8" id="2rqRJfqYMoS" role="1MLXOK">
+      <node concept="3clFbS" id="2rqRJfqYMoT" role="2VODD2">
+        <node concept="3clFbJ" id="2rqRJfqYMqN" role="3cqZAp">
+          <node concept="3clFbC" id="2rqRJfqYMqO" role="3clFbw">
+            <node concept="28GBK8" id="2rqRJfqYMqP" role="3uHU7w">
+              <ref role="28GBKb" to="1btx:2rqRJfqYGTr" resolve="InfoWidget" />
+              <ref role="28H3Ia" to="1btx:2rqRJfqYHOs" />
+            </node>
+            <node concept="oXsJc" id="2rqRJfqYMqQ" role="3uHU7B" />
+          </node>
+          <node concept="3clFbS" id="2rqRJfqYMqR" role="3clFbx">
+            <node concept="3cpWs6" id="2rqRJfqYMqS" role="3cqZAp">
+              <node concept="3clFbC" id="2rqRJfqYMqT" role="3cqZAk">
+                <node concept="otxO1" id="2rqRJfqYMqU" role="3uHU7B" />
+                <node concept="3TUQnm" id="2rqRJfqYMqV" role="3uHU7w">
+                  <ref role="3TV0OU" to="un0u:3VCHlE3_TvF" resolve="StatusConstReference" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2rqRJfqYMqW" role="3cqZAp">
+          <node concept="3clFbT" id="2rqRJfqYMqX" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

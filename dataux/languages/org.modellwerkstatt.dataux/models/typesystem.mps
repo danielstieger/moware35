@@ -6302,5 +6302,55 @@
       <ref role="1YaFvo" to="1btx:pQ21WNcPKz" resolve="IHasDelegates" />
     </node>
   </node>
+  <node concept="1YbPZF" id="2rqRJfqYIpL">
+    <property role="TrG5h" value="typeof_InfoWidget" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="2rqRJfqYIpM" role="18ibNy">
+      <node concept="1Z5TYs" id="2rqRJfqYIr9" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="2rqRJfqYIra" role="1ZfhKB">
+          <node concept="2c44tf" id="2rqRJfqYIrb" role="mwGJk">
+            <node concept="17QB3L" id="2rqRJfqYIrc" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="2rqRJfqYIrd" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2rqRJfqYIre" role="mwGJk">
+            <node concept="2OqwBi" id="2rqRJfqYIrf" role="1Z2MuG">
+              <node concept="1YBJjd" id="2rqRJfqYLHZ" role="2Oq$k0">
+                <ref role="1YBMHb" node="2rqRJfqYIpO" resolve="infoWidget" />
+              </node>
+              <node concept="3TrEf2" id="2rqRJfqYLM4" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:2rqRJfqYHFV" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1Z5TYs" id="2rqRJfqYLNL" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="2rqRJfqYLNM" role="1ZfhKB">
+          <node concept="2c44tf" id="2rqRJfqYLNN" role="mwGJk">
+            <node concept="17QB3L" id="2rqRJfqYLNO" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="2rqRJfqYLNP" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2rqRJfqYLNQ" role="mwGJk">
+            <node concept="2OqwBi" id="2rqRJfqYLNR" role="1Z2MuG">
+              <node concept="1YBJjd" id="2rqRJfqYLNS" role="2Oq$k0">
+                <ref role="1YBMHb" node="2rqRJfqYIpO" resolve="infoWidget" />
+              </node>
+              <node concept="3TrEf2" id="2rqRJfqYLUj" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:2rqRJfqYHJl" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2rqRJfqYIpO" role="1YuTPh">
+      <property role="TrG5h" value="infoWidget" />
+      <ref role="1YaFvo" to="1btx:2rqRJfqYGTr" resolve="InfoWidget" />
+    </node>
+  </node>
 </model>
 

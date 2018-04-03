@@ -2226,7 +2226,21 @@
         </node>
       </node>
       <node concept="3F0ifn" id="2qrl3a2LDfi" role="3EZMnx" />
-      <node concept="3F0ifn" id="2qrl3a2LDfj" role="3EZMnx" />
+      <node concept="3F0ifn" id="2rqRJfqYNhD" role="3EZMnx">
+        <property role="3F0ifm" value="info widgets for this module:" />
+        <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
+      </node>
+      <node concept="3F2HdR" id="2rqRJfqYNhE" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:2rqRJfqYMVo" />
+        <node concept="2iRkQZ" id="2rqRJfqYNhF" role="2czzBx" />
+        <node concept="3F0ifn" id="2rqRJfqYNhG" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;info widgets&gt;" />
+          <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2rqRJfqYNhH" role="3EZMnx" />
+      <node concept="3F0ifn" id="2rqRJfqYNhI" role="3EZMnx" />
       <node concept="2iRkQZ" id="1aaqwMInUke" role="2iSdaV" />
     </node>
   </node>
@@ -2647,6 +2661,55 @@
         <property role="3F0ifm" value="" />
       </node>
       <node concept="l2Vlx" id="1K7fNI_kqYO" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2rqRJfqYHec">
+    <property role="3GE5qa" value="uimodule" />
+    <ref role="1XX52x" to="1btx:2rqRJfqYGTr" resolve="InfoWidget" />
+    <node concept="3EZMnI" id="2rqRJfqYHfv" role="2wV5jI">
+      <node concept="3F0ifn" id="2rqRJfqYHfw" role="3EZMnx">
+        <property role="3F0ifm" value="information widget" />
+        <ref role="1k5W1q" to="z8tr:1Csx3LqGvar" resolve="O2SubConcept" />
+      </node>
+      <node concept="3F0ifn" id="2rqRJfqYHfy" role="3EZMnx">
+        <property role="3F0ifm" value="title:" />
+        <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
+        <node concept="pVoyu" id="2rqRJfqYHfz" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="2rqRJfqYMIw" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:2rqRJfqYHFV" />
+      </node>
+      <node concept="3F0ifn" id="2rqRJfqYHr1" role="3EZMnx">
+        <property role="3F0ifm" value="value:" />
+        <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
+        <node concept="pVoyu" id="2rqRJfqYHr2" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="2rqRJfqYHf$" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;custom label&gt;" />
+        <ref role="1NtTu8" to="1btx:2rqRJfqYHJl" />
+      </node>
+      <node concept="3F0ifn" id="2rqRJfqYHf_" role="3EZMnx">
+        <property role="3F0ifm" value="color:" />
+        <ref role="1k5W1q" to="z8tr:f6irPlx10_" resolve="O2Detail" />
+        <node concept="pVoyu" id="2rqRJfqYHfA" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="2rqRJfqYHfB" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;custom color&gt;" />
+        <ref role="1NtTu8" to="1btx:2rqRJfqYHOs" />
+      </node>
+      <node concept="3F0ifn" id="2rqRJfqYHfC" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="2rqRJfqYHfD" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="2rqRJfqYHfE" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -966,6 +966,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2qrl3a2LC$O" resolve="AppTile" />
     </node>
+    <node concept="1TJgyj" id="2rqRJfqYMVo" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="infoWidget" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2rqRJfqYGTr" resolve="InfoWidget" />
+    </node>
     <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
@@ -1166,6 +1172,29 @@
       <property role="20kJfa" value="innerActions" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1K7fNI_kq$B" resolve="MenuCompoundAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2rqRJfqYGTr">
+    <property role="1pbfSe" value="30780750" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="InfoWidget" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2rqRJfqYHFV" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="title" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2rqRJfqYHJl" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2rqRJfqYHOs" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="color" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
 </model>

@@ -11742,44 +11742,6 @@
         </node>
         <node concept="3clFbH" id="t3qoNA89SG" role="3cqZAp" />
         <node concept="3clFbH" id="73XZ2qPMazj" role="3cqZAp" />
-        <node concept="3SKdUt" id="4443Bgff$YQ" role="3cqZAp">
-          <node concept="3SKdUq" id="4443Bgff$YS" role="3SKWNk">
-            <property role="3SKdUp" value="also on debug user reload method" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="t3qoNA8$NQ" role="3cqZAp">
-          <node concept="2OqwBi" id="t3qoNA8$NR" role="3clFbG">
-            <node concept="37vLTw" id="t3qoNA8$NS" role="2Oq$k0">
-              <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
-            </node>
-            <node concept="liA8E" id="t3qoNA8$NT" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
-              <node concept="3cpWs3" id="t3qoNA8$O0" role="37wK5m">
-                <node concept="3cpWs3" id="t3qoNA8$O1" role="3uHU7B">
-                  <node concept="37vLTw" id="t3qoNA8$O2" role="3uHU7w">
-                    <ref role="3cqZAo" node="t3qoNA8edE" resolve="loadDir" />
-                  </node>
-                  <node concept="3cpWs3" id="t3qoNA8$O3" role="3uHU7B">
-                    <node concept="3cpWs3" id="t3qoNA8$O4" role="3uHU7B">
-                      <node concept="Xl_RD" id="t3qoNA8$O5" role="3uHU7B">
-                        <property role="Xl_RC" value="&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;" />
-                      </node>
-                      <node concept="37vLTw" id="t3qoNA8$O6" role="3uHU7w">
-                        <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
-                      </node>
-                    </node>
-                    <node concept="Xl_RD" id="t3qoNA8$O7" role="3uHU7w">
-                      <property role="Xl_RC" value="/static" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="t3qoNA8$O8" role="3uHU7w">
-                  <property role="Xl_RC" value="/css/style.css" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbJ" id="1S90xUts8YN" role="3cqZAp">
           <node concept="3clFbS" id="1S90xUts8YP" role="3clFbx">
             <node concept="3clFbF" id="7RHNXGyQCSu" role="3cqZAp">
@@ -11833,6 +11795,103 @@
           </node>
         </node>
         <node concept="3clFbH" id="1S90xUtGb8A" role="3cqZAp" />
+        <node concept="3clFbJ" id="2rqRJfqXecs" role="3cqZAp">
+          <node concept="3clFbS" id="2rqRJfqXecu" role="3clFbx">
+            <node concept="3clFbF" id="2rqRJfqXkrn" role="3cqZAp">
+              <node concept="2OqwBi" id="2rqRJfqXkro" role="3clFbG">
+                <node concept="37vLTw" id="2rqRJfqXkrp" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+                </node>
+                <node concept="liA8E" id="2rqRJfqXkrq" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                  <node concept="3cpWs3" id="2rqRJfqXkrr" role="37wK5m">
+                    <node concept="3cpWs3" id="2rqRJfqXkrs" role="3uHU7B">
+                      <node concept="37vLTw" id="2rqRJfqXkrt" role="3uHU7w">
+                        <ref role="3cqZAo" node="t3qoNA8edE" resolve="loadDir" />
+                      </node>
+                      <node concept="3cpWs3" id="2rqRJfqXkru" role="3uHU7B">
+                        <node concept="3cpWs3" id="2rqRJfqXkrv" role="3uHU7B">
+                          <node concept="Xl_RD" id="2rqRJfqXkrw" role="3uHU7B">
+                            <property role="Xl_RC" value="&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;" />
+                          </node>
+                          <node concept="37vLTw" id="2rqRJfqXkrx" role="3uHU7w">
+                            <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="2rqRJfqXkry" role="3uHU7w">
+                          <property role="Xl_RC" value="/static" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="2rqRJfqXkrz" role="3uHU7w">
+                      <property role="Xl_RC" value="/css/style_halfres.css" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="2rqRJfqXi1d" role="3clFbw">
+            <node concept="2OqwBi" id="2rqRJfqXjj$" role="3uHU7w">
+              <node concept="37vLTw" id="2rqRJfqXj5K" role="2Oq$k0">
+                <ref role="3cqZAo" node="4Rlyz3E7SBw" resolve="client" />
+              </node>
+              <node concept="liA8E" id="2rqRJfqXjIR" role="2OqNvi">
+                <ref role="37wK5l" to="tea8:1DW7q9hIhn9" resolve="isHalfResolution" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2rqRJfqXgSJ" role="3uHU7B">
+              <node concept="37vLTw" id="2rqRJfqXgbN" role="2Oq$k0">
+                <ref role="3cqZAo" node="4Rlyz3E7SBw" resolve="client" />
+              </node>
+              <node concept="liA8E" id="2rqRJfqXhNa" role="2OqNvi">
+                <ref role="37wK5l" to="tea8:1DW7q9hIBHc" resolve="is" />
+                <node concept="Rm8GO" id="2rqRJfqXhYZ" role="37wK5m">
+                  <ref role="Rm8GQ" to="tea8:1DW7q9hIa$O" resolve="WIN_ZEBRA_AJAX" />
+                  <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="H2ClientInformation.DeviceName" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="2rqRJfqXjNA" role="9aQIa">
+            <node concept="3clFbS" id="2rqRJfqXjNB" role="9aQI4">
+              <node concept="3clFbF" id="2rqRJfqXkUl" role="3cqZAp">
+                <node concept="2OqwBi" id="2rqRJfqXkUm" role="3clFbG">
+                  <node concept="37vLTw" id="2rqRJfqXkUn" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7RHNXGyQCRJ" resolve="builder" />
+                  </node>
+                  <node concept="liA8E" id="2rqRJfqXkUo" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
+                    <node concept="3cpWs3" id="2rqRJfqXkUp" role="37wK5m">
+                      <node concept="3cpWs3" id="2rqRJfqXkUq" role="3uHU7B">
+                        <node concept="37vLTw" id="2rqRJfqXkUr" role="3uHU7w">
+                          <ref role="3cqZAo" node="t3qoNA8edE" resolve="loadDir" />
+                        </node>
+                        <node concept="3cpWs3" id="2rqRJfqXkUs" role="3uHU7B">
+                          <node concept="3cpWs3" id="2rqRJfqXkUt" role="3uHU7B">
+                            <node concept="Xl_RD" id="2rqRJfqXkUu" role="3uHU7B">
+                              <property role="Xl_RC" value="&lt;link rel=\&quot;stylesheet\&quot; href=\&quot;" />
+                            </node>
+                            <node concept="37vLTw" id="2rqRJfqXkUv" role="3uHU7w">
+                              <ref role="3cqZAo" node="7RHNXGyQCR4" resolve="servletBaseAdr" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="2rqRJfqXkUw" role="3uHU7w">
+                            <property role="Xl_RC" value="/static" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="2rqRJfqXkUx" role="3uHU7w">
+                        <property role="Xl_RC" value="/css/style.css" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2rqRJfqX5QL" role="3cqZAp" />
         <node concept="3SKdUt" id="t3qoNA8GUr" role="3cqZAp">
           <node concept="3SKdUq" id="t3qoNA8GUt" role="3SKWNk">
             <property role="3SKdUp" value="specialDbg, andro and mc55" />
