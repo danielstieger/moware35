@@ -2088,6 +2088,66 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3cpWs8" id="78d1$l3UdIh" role="3cqZAp">
+                      <node concept="3cpWsn" id="78d1$l3UdIk" role="3cpWs9">
+                        <property role="TrG5h" value="msg" />
+                        <node concept="17QB3L" id="78d1$l3UdIf" role="1tU5fm" />
+                        <node concept="3cpWs3" id="78d1$l3UeWv" role="33vP2m">
+                          <node concept="Xl_RD" id="78d1$l3UeWw" role="3uHU7B">
+                            <property role="Xl_RC" value=" $ $ $ $ " />
+                          </node>
+                          <node concept="1eOMI4" id="78d1$l3UeWx" role="3uHU7w">
+                            <node concept="3cpWs3" id="78d1$l3UjaO" role="1eOMHV">
+                              <node concept="Xl_RD" id="78d1$l3UjbL" role="3uHU7w">
+                                <property role="Xl_RC" value=" $ IPCHANGE $ " />
+                              </node>
+                              <node concept="10QFUN" id="78d1$l3UeWy" role="3uHU7B">
+                                <node concept="17QB3L" id="78d1$l3UeWz" role="10QFUM" />
+                                <node concept="2OqwBi" id="78d1$l3UeW$" role="10QFUP">
+                                  <node concept="37vLTw" id="78d1$l3UeW_" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                                  </node>
+                                  <node concept="liA8E" id="78d1$l3UeWA" role="2OqNvi">
+                                    <ref role="37wK5l" to="nwfd:~HttpSession.getAttribute(java.lang.String):java.lang.Object" resolve="getAttribute" />
+                                    <node concept="Xl_RD" id="78d1$l3UeWB" role="37wK5m">
+                                      <property role="Xl_RC" value="userName" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="78d1$l3UbCC" role="3cqZAp">
+                      <node concept="2OqwBi" id="78d1$l3UbCD" role="3clFbG">
+                        <node concept="37vLTw" id="78d1$l3UbCE" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
+                        </node>
+                        <node concept="liA8E" id="78d1$l3UbCF" role="2OqNvi">
+                          <ref role="37wK5l" to="x37d:3CnNtH_0Dd6" resolve="logOnKafka" />
+                          <node concept="2YIFZM" id="78d1$l3UbCG" role="37wK5m">
+                            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                            <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                          </node>
+                          <node concept="3cpWs3" id="78d1$l3UbCH" role="37wK5m">
+                            <node concept="1rXfSq" id="78d1$l3UbCI" role="3uHU7w">
+                              <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
+                              <node concept="37vLTw" id="78d1$l3UbCJ" role="37wK5m">
+                                <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                              </node>
+                              <node concept="37vLTw" id="78d1$l3UbCK" role="37wK5m">
+                                <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="78d1$l3UbCL" role="3uHU7B">
+                              <ref role="3cqZAo" node="78d1$l3UdIk" resolve="msg" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                     <node concept="3cpWs6" id="yYLpwA$jyZ" role="3cqZAp" />
                   </node>
                   <node concept="3fqX7Q" id="Gy0DA_0blO" role="3clFbw">

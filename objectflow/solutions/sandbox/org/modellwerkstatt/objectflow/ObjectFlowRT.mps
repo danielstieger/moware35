@@ -42884,9 +42884,9 @@
                   </node>
                   <node concept="2ShNRf" id="1w6ekH_J1Zz" role="37wK5m">
                     <node concept="1pGfFk" id="1w6ekH_J2KG" role="2ShVmc">
-                      <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(int)" resolve="BigDecimal" />
-                      <node concept="3cmrfG" id="1w6ekH_J2Oa" role="37wK5m">
-                        <property role="3cmrfH" value="10" />
+                      <ref role="37wK5l" to="xlxw:~BigDecimal.&lt;init&gt;(java.lang.String)" resolve="BigDecimal" />
+                      <node concept="Xl_RD" id="78d1$l3RDrE" role="37wK5m">
+                        <property role="Xl_RC" value="10.99" />
                       </node>
                     </node>
                   </node>
@@ -45261,6 +45261,15 @@
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="Wx3nA" id="5K99AeQ0aCr" role="jymVt">
+      <property role="TrG5h" value="MPREIS_DEFAULT_KAFKA" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="5K99AeQ07eW" role="1tU5fm" />
+      <node concept="3Tm1VV" id="5K99AeQ0b4Q" role="1B3o_S" />
+      <node concept="Xl_RD" id="1LWMBWz8H_K" role="33vP2m">
+        <property role="Xl_RC" value="jmain.mpreis.co.at:9092" />
       </node>
     </node>
     <node concept="2tJIrI" id="7sK_OLreJIZ" role="jymVt" />

@@ -179,7 +179,7 @@ html, body {
 }
 
 .fcButtonsDiv {
-	border: red 1px solid;
+	/* border: red 1px solid; */
 	clear: both;
 	height: 18px;
 }

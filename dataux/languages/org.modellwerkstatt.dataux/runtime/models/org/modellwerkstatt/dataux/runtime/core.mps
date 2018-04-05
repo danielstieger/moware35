@@ -27879,14 +27879,16 @@
         </node>
         <node concept="3clFbF" id="1LWMBWz8HkM" role="3cqZAp">
           <node concept="37vLTI" id="1LWMBWz8Huy" role="3clFbG">
-            <node concept="Xl_RD" id="1LWMBWz8H_K" role="37vLTx">
-              <property role="Xl_RC" value="modwerk-test.mpreis.co.at:9092" />
-            </node>
             <node concept="37vLTw" id="1LWMBWz8HkK" role="37vLTJ">
               <ref role="3cqZAo" node="1LWMBWz36GZ" resolve="kafkaLoggingServer" />
             </node>
+            <node concept="10M0yZ" id="5K99AeQ0cVh" role="37vLTx">
+              <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+              <ref role="3cqZAo" to="28jr:5K99AeQ0aCr" resolve="MPREIS_DEFAULT_KAFKA" />
+            </node>
           </node>
         </node>
+        <node concept="3clFbH" id="5K99AeQ0bPU" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="1LWMBWz31Ym" role="jymVt" />
