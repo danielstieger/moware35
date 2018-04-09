@@ -15276,5 +15276,85 @@
       <ref role="1YaFvo" to="un0u:1fYc781EAsq" resolve="StaticRessources" />
     </node>
   </node>
+  <node concept="18kY7G" id="3l87qE_R3WL">
+    <property role="TrG5h" value="check_OFXProducerContext" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <node concept="3clFbS" id="3l87qE_R3WM" role="18ibNy">
+      <node concept="3clFbJ" id="3l87qE_R72v" role="3cqZAp">
+        <node concept="3clFbS" id="3l87qE_R72x" role="3clFbx">
+          <node concept="3cpWs8" id="3l87qE_Sopq" role="3cqZAp">
+            <node concept="3cpWsn" id="3l87qE_Sopt" role="3cpWs9">
+              <property role="TrG5h" value="vo" />
+              <node concept="3Tqbb2" id="3l87qE_Sopo" role="1tU5fm">
+                <ref role="ehGHo" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+              </node>
+              <node concept="1PxgMI" id="3l87qE_Spl0" role="33vP2m">
+                <ref role="1PxNhF" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+                <node concept="2OqwBi" id="3l87qE_SoUB" role="1PxMeX">
+                  <node concept="1PxgMI" id="3l87qE_SoLp" role="2Oq$k0">
+                    <ref role="1PxNhF" to="tpee:g7uibYu" resolve="ClassifierType" />
+                    <node concept="2OqwBi" id="3l87qE_Sotm" role="1PxMeX">
+                      <node concept="1YBJjd" id="3l87qE_Soq1" role="2Oq$k0">
+                        <ref role="1YBMHb" node="3l87qE_R3WO" resolve="ofxProducerContext" />
+                      </node>
+                      <node concept="2qgKlT" id="3l87qE_SoFu" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:3U0QWztHsP_" resolve="getType" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="3l87qE_Sp5s" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:g7uigIF" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="3l87qE_SpyX" role="3cqZAp">
+            <node concept="3clFbS" id="3l87qE_SpyZ" role="3clFbx">
+              <node concept="2MkqsV" id="3l87qE_SqJP" role="3cqZAp">
+                <node concept="Xl_RD" id="3l87qE_SqK4" role="2MkJ7o">
+                  <property role="Xl_RC" value="Add a custom toString() returning a unique string-ID for any ViewObject identifier (used to visualize the inbox)." />
+                </node>
+                <node concept="2OqwBi" id="3l87qE_SqYD" role="2OEOjV">
+                  <node concept="1YBJjd" id="3l87qE_SqVw" role="2Oq$k0">
+                    <ref role="1YBMHb" node="3l87qE_R3WO" resolve="ofxProducerContext" />
+                  </node>
+                  <node concept="3TrEf2" id="3l87qE_SrcF" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:3U0QWztRIg6" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3fqX7Q" id="3l87qE_SqFb" role="3clFbw">
+              <node concept="2OqwBi" id="3l87qE_SqFd" role="3fr31v">
+                <node concept="37vLTw" id="3l87qE_SqFe" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3l87qE_Sopt" resolve="vo" />
+                </node>
+                <node concept="2qgKlT" id="3l87qE_SqFf" role="2OqNvi">
+                  <ref role="37wK5l" to="70o0:3l87qE_R7BX" resolve="hasToStringOverridden" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2YIFZM" id="3l87qE_R79H" role="3clFbw">
+          <ref role="37wK5l" to="3ojc:2qkRdAoM23n" resolve="isViewObject" />
+          <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
+          <node concept="2OqwBi" id="3l87qE_R7eD" role="37wK5m">
+            <node concept="1YBJjd" id="3l87qE_R7aJ" role="2Oq$k0">
+              <ref role="1YBMHb" node="3l87qE_R3WO" resolve="ofxProducerContext" />
+            </node>
+            <node concept="2qgKlT" id="3l87qE_R7uF" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:3U0QWztHsP_" resolve="getType" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3l87qE_R3WO" role="1YuTPh">
+      <property role="TrG5h" value="ofxProducerContext" />
+      <ref role="1YaFvo" to="un0u:3U0QWztRGQ8" resolve="OFXProducerContext" />
+    </node>
+  </node>
 </model>
 
