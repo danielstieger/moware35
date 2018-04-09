@@ -10538,7 +10538,58 @@
           </node>
         </node>
         <node concept="3clFbH" id="186V0VF2ntb" role="3cqZAp" />
-        <node concept="1X3_iC" id="186V0VF2sXl" role="lGtFl">
+        <node concept="3cpWs8" id="1DW7q9hKA0x" role="3cqZAp">
+          <node concept="3cpWsn" id="1DW7q9hKA0$" role="3cpWs9">
+            <property role="TrG5h" value="halfResolution" />
+            <node concept="10P_77" id="1DW7q9hKA0v" role="1tU5fm" />
+            <node concept="3y3z36" id="1DW7q9hKAlB" role="33vP2m">
+              <node concept="10Nm6u" id="1DW7q9hKAn9" role="3uHU7w" />
+              <node concept="2OqwBi" id="1DW7q9hKAck" role="3uHU7B">
+                <node concept="37vLTw" id="1DW7q9hKAbc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
+                </node>
+                <node concept="liA8E" id="1DW7q9hKAdI" role="2OqNvi">
+                  <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                  <node concept="Xl_RD" id="1DW7q9hKAfb" role="37wK5m">
+                    <property role="Xl_RC" value="halfres" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="7VDbE_c6XAN" role="3cqZAp">
+          <node concept="3clFbS" id="7VDbE_c6XAP" role="3clFbx">
+            <node concept="3clFbF" id="7VDbE_c73Bj" role="3cqZAp">
+              <node concept="37vLTI" id="7VDbE_c744N" role="3clFbG">
+                <node concept="3clFbT" id="7VDbE_c745B" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="7VDbE_c73Bh" role="37vLTJ">
+                  <ref role="3cqZAo" node="1DW7q9hKA0$" resolve="halfResolution" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="7VDbE_c6Ytq" role="3clFbw">
+            <node concept="2OqwBi" id="7VDbE_c6Z1S" role="2Oq$k0">
+              <node concept="37vLTw" id="7VDbE_c6Y6e" role="2Oq$k0">
+                <ref role="3cqZAo" node="4Rlyz3E7gyZ" resolve="userAgent" />
+              </node>
+              <node concept="liA8E" id="7VDbE_c6Z54" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.toUpperCase():java.lang.String" resolve="toUpperCase" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7VDbE_c6YVI" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="7VDbE_c6YWJ" role="37wK5m">
+                <property role="Xl_RC" value="HALFRES" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7VDbE_c6X91" role="3cqZAp" />
+        <node concept="1X3_iC" id="7VDbE_c6VOk" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3cpWs8" id="186V0VF2nQO" role="8Wnug">
@@ -10559,7 +10610,7 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="186V0VF2t7K" role="lGtFl">
+        <node concept="1X3_iC" id="7VDbE_c6WjN" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="2$JKZl" id="186V0VF2oct" role="8Wnug">
@@ -10622,26 +10673,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="186V0VF2nDc" role="3cqZAp" />
-        <node concept="3cpWs8" id="1DW7q9hKA0x" role="3cqZAp">
-          <node concept="3cpWsn" id="1DW7q9hKA0$" role="3cpWs9">
-            <property role="TrG5h" value="halfResolution" />
-            <node concept="10P_77" id="1DW7q9hKA0v" role="1tU5fm" />
-            <node concept="3y3z36" id="1DW7q9hKAlB" role="33vP2m">
-              <node concept="10Nm6u" id="1DW7q9hKAn9" role="3uHU7w" />
-              <node concept="2OqwBi" id="1DW7q9hKAck" role="3uHU7B">
-                <node concept="37vLTw" id="1DW7q9hKAbc" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4Rlyz3E6NWh" resolve="request" />
-                </node>
-                <node concept="liA8E" id="1DW7q9hKAdI" role="2OqNvi">
-                  <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
-                  <node concept="Xl_RD" id="1DW7q9hKAfb" role="37wK5m">
-                    <property role="Xl_RC" value="halfres" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3cpWs6" id="1DW7q9hKD6P" role="3cqZAp">
           <node concept="2ShNRf" id="1DW7q9hKDh8" role="3cqZAk">
             <node concept="1pGfFk" id="1DW7q9hKDgF" role="2ShVmc">

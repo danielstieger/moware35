@@ -19,7 +19,7 @@
 -->
  
 <project name="OFXBatchJob" default="default">      
-  <property name="buildUserHome"        value="C:/" /> 
+  <property name="buildUserHome"        value="/Users/danielstieger" /> 
 	
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
