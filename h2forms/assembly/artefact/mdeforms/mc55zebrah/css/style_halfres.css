@@ -281,15 +281,11 @@ table .bigpassive td, table .bigactive td {
 	font-weight: 500;
 }
 
-table tr
-
-table tr .lastcell {
+tr .lastcell {
 	text-align: right;
-	padding-right: 10px !important;
+	padding-right: 5px !important;
 	/* 15px padding + 15px from table s margin left */
 }
-
-
 
 
 
