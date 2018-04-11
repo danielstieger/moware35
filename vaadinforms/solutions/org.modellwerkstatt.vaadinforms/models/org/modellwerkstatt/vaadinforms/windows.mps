@@ -34028,7 +34028,34 @@
             <property role="3SKdUp" value="v-table-cell-content-mo-dyncell-PROPERTYNAME-C" />
           </node>
         </node>
-        <node concept="3clFbH" id="40OHFM6ogjz" role="3cqZAp" />
+        <node concept="3clFbH" id="2MI0JB6FjXi" role="3cqZAp" />
+        <node concept="3SKdUt" id="2MI0JB6FjMz" role="3cqZAp">
+          <node concept="3SKdUq" id="2MI0JB6FjM_" role="3SKWNk">
+            <property role="3SKdUp" value="escape dot in prop" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2MI0JB6FkuK" role="3cqZAp">
+          <node concept="37vLTI" id="2MI0JB6FkFm" role="3clFbG">
+            <node concept="2OqwBi" id="2MI0JB6FkL4" role="37vLTx">
+              <node concept="37vLTw" id="2MI0JB6FkIt" role="2Oq$k0">
+                <ref role="3cqZAo" node="3q7Beajd1fm" resolve="property" />
+              </node>
+              <node concept="liA8E" id="2MI0JB6FkQN" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                <node concept="Xl_RD" id="2MI0JB6FkTc" role="37wK5m">
+                  <property role="Xl_RC" value="." />
+                </node>
+                <node concept="Xl_RD" id="2MI0JB6FkZu" role="37wK5m">
+                  <property role="Xl_RC" value="_" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="2MI0JB6FkuI" role="37vLTJ">
+              <ref role="3cqZAo" node="3q7Beajd1fm" resolve="property" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2MI0JB6Fj_F" role="3cqZAp" />
         <node concept="3clFbF" id="40OHFM6oiDP" role="3cqZAp">
           <node concept="2OqwBi" id="40OHFM6oiOQ" role="3clFbG">
             <node concept="37vLTw" id="40OHFM6oiDN" role="2Oq$k0">
@@ -34497,6 +34524,43 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="2MI0JB6F9BP" role="3cqZAp" />
+        <node concept="3cpWs8" id="2MI0JB6FdMg" role="3cqZAp">
+          <node concept="3cpWsn" id="2MI0JB6FdMj" role="3cpWs9">
+            <property role="TrG5h" value="dotEscapedId" />
+            <node concept="17QB3L" id="2MI0JB6FdMe" role="1tU5fm" />
+            <node concept="1eOMI4" id="2MI0JB6FedO" role="33vP2m">
+              <node concept="10QFUN" id="2MI0JB6FedL" role="1eOMHV">
+                <node concept="17QB3L" id="2MI0JB6FefR" role="10QFUM" />
+                <node concept="37vLTw" id="2MI0JB6FedQ" role="10QFUP">
+                  <ref role="3cqZAo" node="40OHFM6ne9w" resolve="propertyId" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2MI0JB6FelQ" role="3cqZAp">
+          <node concept="37vLTI" id="2MI0JB6FeK0" role="3clFbG">
+            <node concept="2OqwBi" id="2MI0JB6Ffb3" role="37vLTx">
+              <node concept="37vLTw" id="2MI0JB6Ff8w" role="2Oq$k0">
+                <ref role="3cqZAo" node="2MI0JB6FdMj" resolve="dotEscapedId" />
+              </node>
+              <node concept="liA8E" id="2MI0JB6FfgA" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                <node concept="Xl_RD" id="2MI0JB6Ffj3" role="37wK5m">
+                  <property role="Xl_RC" value="." />
+                </node>
+                <node concept="Xl_RD" id="2MI0JB6FfpE" role="37wK5m">
+                  <property role="Xl_RC" value="_" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="2MI0JB6FelO" role="37vLTJ">
+              <ref role="3cqZAo" node="2MI0JB6FdMj" resolve="dotEscapedId" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2MI0JB6FftO" role="3cqZAp" />
         <node concept="3SKdUt" id="3ob8bMndGY4" role="3cqZAp">
           <node concept="3SKdUq" id="3ob8bMndGY6" role="3SKWNk">
             <property role="3SKdUp" value="no NPE s here" />
@@ -34548,8 +34612,8 @@
                     <node concept="Xl_RD" id="40OHFM6mKGP" role="3uHU7B">
                       <property role="Xl_RC" value="mo-dyncell-" />
                     </node>
-                    <node concept="37vLTw" id="40OHFM6nQKY" role="3uHU7w">
-                      <ref role="3cqZAo" node="40OHFM6ne9w" resolve="propertyId" />
+                    <node concept="37vLTw" id="2MI0JB6FfT1" role="3uHU7w">
+                      <ref role="3cqZAo" node="2MI0JB6FdMj" resolve="dotEscapedId" />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="40OHFM6nQS$" role="3uHU7w">
@@ -34633,8 +34697,8 @@
                       <node concept="Xl_RD" id="3ob8bMncbEg" role="3uHU7B">
                         <property role="Xl_RC" value="mo-dyncell-" />
                       </node>
-                      <node concept="37vLTw" id="3ob8bMncbEh" role="3uHU7w">
-                        <ref role="3cqZAo" node="40OHFM6ne9w" resolve="propertyId" />
+                      <node concept="37vLTw" id="2MI0JB6Fgh7" role="3uHU7w">
+                        <ref role="3cqZAo" node="2MI0JB6FdMj" resolve="dotEscapedId" />
                       </node>
                     </node>
                     <node concept="Xl_RD" id="3ob8bMncbEi" role="3uHU7w">
@@ -34719,8 +34783,8 @@
                       <node concept="Xl_RD" id="3ob8bMnccaf" role="3uHU7B">
                         <property role="Xl_RC" value="mo-dyncell-" />
                       </node>
-                      <node concept="37vLTw" id="3ob8bMnccag" role="3uHU7w">
-                        <ref role="3cqZAo" node="40OHFM6ne9w" resolve="propertyId" />
+                      <node concept="37vLTw" id="2MI0JB6FgD6" role="3uHU7w">
+                        <ref role="3cqZAo" node="2MI0JB6FdMj" resolve="dotEscapedId" />
                       </node>
                     </node>
                     <node concept="Xl_RD" id="3ob8bMnccah" role="3uHU7w">
