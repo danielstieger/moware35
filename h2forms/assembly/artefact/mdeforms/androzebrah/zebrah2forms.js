@@ -18,6 +18,8 @@ var lastSubmitTrace = '';
 var lastSequenceIDSubmitted = 0;
 var lastMillisSubmitted = 0;
 var startupMillis = Date.now();
+console.log('H2 the beginning of js file');
+
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -29,7 +31,7 @@ function incProgress() {
 	window.name = '' + val;
 	$('input[name="Progressor"]').value = window.name;
 	$('#dbgFld').innerHTML = zVersion + '/' + window.name;
-	console.log('WatchDog: seq: ' + lastSequenceIDSubmitted + ' dgbFld: ' +  $('#dbgFld').innerHTML);
+	console.log('H2 WatchDog: seq: ' + lastSequenceIDSubmitted + ' dgbFld: ' +  $('#dbgFld').innerHTML);
 }
 
 function moLog(s) {
@@ -124,7 +126,7 @@ function SelectAndExec(selectionstr, valstr, eventSource){
 	f.SelectionId.value=selectionstr;
 	
 	disableNavigation(); 	
-    console.log('SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
+    console.log('H2 SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
 	f.submit();
 }
 
@@ -143,14 +145,14 @@ function SaveSubmit(valstr){
  	incProgress();
 	myfocusOnElement(null);
 	if (valstr.indexOf('/') >= 0) {
-		console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr); 
+		console.log('H2 SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr); 
 		window.location = valstr;
 		
 	} else {
 		var f = $('form');
 		f.NaviCrtl.value=valstr;
 		disableNavigation();
-		console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
+		console.log('H2 SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
 		f.submit();
 	}
 }
@@ -291,6 +293,8 @@ function myfocusOnElement(elem) {
 
 document.addEventListener('DOMContentLoaded', function() {
 	
+	console.log('H2 DOMContentLoaded(): start');
+	
 	lastSequenceIDSubmitted = 0;
 	lastMillisSubmitted = 0;
 	
@@ -302,7 +306,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	   $('form').PageTmpValue.value = '1';
 	   
 	} else {
-       console.log('DOMContentLoaded() submitting due to PageTmpValue not 0!');
+       console.log('H2 DOMContentLoaded() submitting due to PageTmpValue not 0!');
        $('form').SequenceId.value = '' + parseInt($('form').SequenceId.value) + 1;
 	   $('form').DebugInformation.value = 'Browser Back Button pressed';
 	   SaveSubmit('conclusion_0');
@@ -428,7 +432,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	setInterval(incProgress, 20000);
 	incProgress();
-	console.log('WatchDog: Page loaded dom event.... ');
+	console.log('H2 DOMContentLoaded(): .... .... .... done');
 }); 
 
 function noteTrace(source) {
