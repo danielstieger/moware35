@@ -43119,6 +43119,46 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3uMEeikYiM_" role="3cqZAp">
+          <node concept="2OqwBi" id="3uMEeikYiMA" role="3clFbG">
+            <node concept="2OqwBi" id="3uMEeikYiMB" role="2Oq$k0">
+              <node concept="37vLTw" id="3uMEeikYkSX" role="2Oq$k0">
+                <ref role="3cqZAo" node="5BROMrVNRuX" resolve="batchJobImplementation" />
+              </node>
+              <node concept="2OwXpG" id="3uMEeikYiMD" role="2OqNvi">
+                <ref role="2Oxat5" node="4jlzLDltd1n" resolve="__userEnvironment" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3uMEeikYiME" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:2vHEu_N$F8P" resolve="setUserPrintService" />
+              <node concept="2OqwBi" id="3uMEeikYiMF" role="37wK5m">
+                <node concept="2OqwBi" id="3uMEeikYiMG" role="2Oq$k0">
+                  <node concept="37vLTw" id="3uMEeikYl5p" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5BROMrVNRuX" resolve="batchJobImplementation" />
+                  </node>
+                  <node concept="2OwXpG" id="3uMEeikYiMI" role="2OqNvi">
+                    <ref role="2Oxat5" node="3l87qE_05rk" resolve="__localPrintFactory" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3uMEeikYiMJ" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:5XtsZSXLp8v" resolve="createConfiguredUserPrintService" />
+                  <node concept="37vLTw" id="3uMEeikYlhM" role="37wK5m">
+                    <ref role="3cqZAo" node="5BROMrVNRuX" resolve="batchJobImplementation" />
+                  </node>
+                  <node concept="2OqwBi" id="3uMEeikYiML" role="37wK5m">
+                    <node concept="37vLTw" id="3uMEeikYlut" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5BROMrVNRuX" resolve="batchJobImplementation" />
+                    </node>
+                    <node concept="2OwXpG" id="3uMEeikYiMN" role="2OqNvi">
+                      <ref role="2Oxat5" node="4jlzLDltd1n" resolve="__userEnvironment" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3uMEeikYhQa" role="3cqZAp" />
         <node concept="3clFbF" id="5BROMrW1_33" role="3cqZAp">
           <node concept="37vLTI" id="5BROMrW1_ZE" role="3clFbG">
             <node concept="Rm8GO" id="5BROMrW1Alk" role="37vLTx">
