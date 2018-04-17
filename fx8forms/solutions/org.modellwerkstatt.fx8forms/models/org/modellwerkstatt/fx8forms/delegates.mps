@@ -10016,7 +10016,7 @@
             <node concept="liA8E" id="4n24ZlEV3CT" role="2OqNvi">
               <ref role="37wK5l" to="l152:~Region.setPrefWidth(double):void" resolve="setPrefWidth" />
               <node concept="3cmrfG" id="4n24ZlEV5$t" role="37wK5m">
-                <property role="3cmrfH" value="350" />
+                <property role="3cmrfH" value="450" />
               </node>
             </node>
           </node>

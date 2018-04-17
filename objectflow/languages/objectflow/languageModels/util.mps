@@ -6784,7 +6784,7 @@
                           </node>
                         </node>
                         <node concept="Xl_RD" id="371pDBOy2r1" role="3uHU7w">
-                          <property role="Xl_RC" value="' contains and unknown format seq.  " />
+                          <property role="Xl_RC" value="' contains an unknown format seq.  " />
                         </node>
                       </node>
                       <node concept="37vLTw" id="1w6ekH_zsIX" role="37vLTJ">
