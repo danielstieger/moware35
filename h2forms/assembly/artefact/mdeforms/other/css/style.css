@@ -189,6 +189,10 @@ html, body {
 
 }
 
+.content button:disabled {
+	background: lightgray !important;
+}
+
 .rightFCButton .label, .label {
 	/* background: red; */
 	line-height: 22px;
@@ -348,7 +352,7 @@ nav .mysmallbutton:focus{
 
 
 nav button:disabled {
-	background: lightgray;
+	background: lightgray !important;
 	color: white;
 	cursor: default;
 }
@@ -455,7 +459,7 @@ header button:focus {
 }
 
 header button:disabled {
-	background: lightgray;
+	background: lightgray !important;
 	color: white;
 	cursor: default;
 }

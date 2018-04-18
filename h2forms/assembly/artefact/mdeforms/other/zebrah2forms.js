@@ -31,6 +31,25 @@ function moLog(s) {
 }
 
 
+function disableNavigation() {
+	var btns = $$('button');
+	for (i = 0; i < btns.length; i++) { 
+		btns[i].disabled = true; 
+	}
+	
+	var trs = $$('.bigactive');
+	for (i = 0; i < trs.length; i++) {
+		trs[i].setAttribute("onClick", "");
+		trs[i].className = "bigpassive";
+	}
+	
+	trs = $$('.lightactive');
+	for (i = 0; i < trs.length; i++) {
+		trs[i].setAttribute("onClick", "");
+		trs[i].className = "lightpassive";
+	}	
+}
+
 
 /* Scan stuff ******************************************************* */
 function disableScan(){
@@ -54,6 +73,7 @@ function scanReceived(params){
 	var conclusion = $('input[name="scanconclusion"]').value;
 
 	disableScan();
+	disableNavigation();
 	myfocusOnElement(null);
 	
 	var f = $('form');
@@ -92,6 +112,7 @@ function SelectAndExec(selectionstr, valstr, eventSource){
 	internVibrate(100);
 
 	disableScan();
+	disableNavigation();
 	
 	myfocusOnElement(null);
 	var f = $('form');
@@ -106,6 +127,7 @@ function SaveSubmit(valstr){
 	internVibrate(100);
 
  	disableScan(); 	
+ 	disableNavigation();
  	
 	myfocusOnElement(null);
 	if (valstr.indexOf('/') >= 0) {

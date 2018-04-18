@@ -195,6 +195,9 @@ html, body {
 	font-weight: 500%;
 }
 
+.content button:disabled {
+	background: lightgray !important;
+}
 
 
 
@@ -348,7 +351,7 @@ nav .mysmallbutton:focus{
 
 
 nav button:disabled {
-	background: lightgray;
+	background: lightgray !important;
 	color: white;
 	cursor: default;
 }

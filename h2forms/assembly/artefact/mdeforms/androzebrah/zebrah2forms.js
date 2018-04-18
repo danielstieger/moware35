@@ -42,8 +42,22 @@ function moLog(s) {
 
 
 function disableNavigation() {
-	$$('button').disabled = true; 
-	$('nav').innerHTML = '';
+	var btns = $$('button');
+	for (i = 0; i < btns.length; i++) { 
+		btns[i].disabled = true; 
+	}
+	
+	var trs = $$('.bigactive');
+	for (i = 0; i < trs.length; i++) {
+		trs[i].setAttribute("onClick", "");
+		trs[i].className = "bigpassive";
+	}
+	
+	trs = $$('.lightactive');
+	for (i = 0; i < trs.length; i++) {
+		trs[i].setAttribute("onClick", "");
+		trs[i].className = "lightpassive";
+	}	
 }
 
 
@@ -68,13 +82,13 @@ function scanReceived(params){
 	var conclusion = $('input[name="scanconclusion"]').value;
 
 	disableScan();
+	disableNavigation();
+	
 	myfocusOnElement(null);
 	
 	incProgress();
 	var f = $('form');
 	f.NaviCrtl.value = conclusion;
-	
-	disableNavigation();
 	f.submit();
 }  
 
@@ -114,33 +128,35 @@ function SelectAndExec(selectionstr, valstr, eventSource){
 	lastMillisSubmitted = Date.now();
 	lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
 	
-	internVibrate(100);
 	disableScan();
-	
+	disableNavigation();
+	console.log('H2 SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
 	myfocusOnElement(null);
 	noteTrace('' + eventSource);
+	internVibrate(100);
+	
 
 	incProgress();
 	var f = $('form');
 	f.NaviCrtl.value=valstr;
 	f.SelectionId.value=selectionstr;
-	
-	disableNavigation(); 	
-    console.log('H2 SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr); 
 	f.submit();
 }
 
 function SaveSubmit(valstr){
-  /* Double submit vibrate problem on TC56 */
-  var timePassed = Date.now() - lastMillisSubmitted;
-  if (lastSequenceIDSubmitted != 0 && timePassed < 1000) { return; }
-  lastMillisSubmitted = Date.now();
-  lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
+	/* Double submit vibrate problem on TC56 */
+	var timePassed = Date.now() - lastMillisSubmitted;
+	if (lastSequenceIDSubmitted != 0 && timePassed < 1000) { return; }
+	lastMillisSubmitted = Date.now();
+	lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
 
 
-	internVibrate(100);
- 	disableScan(); 	
+	disableScan(); 	
+ 	disableNavigation();
+	console.log('H2 SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
  	noteTrace('SaveSubmit()');
+ 	internVibrate(100);
+ 	
  	
  	incProgress();
 	myfocusOnElement(null);
@@ -151,8 +167,6 @@ function SaveSubmit(valstr){
 	} else {
 		var f = $('form');
 		f.NaviCrtl.value=valstr;
-		disableNavigation();
-		console.log('H2 SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr); 
 		f.submit();
 	}
 }

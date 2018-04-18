@@ -207,6 +207,11 @@ html, body {
 	font-weight: 500%;
 }
 
+.content button:disabled {
+	background: lightgray !important;
+}
+
+
 .activeLabel {
 	/* color: rgb(21, 125, 251); */
 	color: rgb(0, 0, 0);
@@ -346,7 +351,7 @@ nav .mysmallbutton:focus{
 
 
 nav button:disabled {
-	background: lightgray;
+	background: lightgray !important;
 	color: white;
 	cursor: default;
 }
