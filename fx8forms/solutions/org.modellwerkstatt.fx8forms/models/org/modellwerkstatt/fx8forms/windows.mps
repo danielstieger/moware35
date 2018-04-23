@@ -21129,6 +21129,16 @@
                         <property role="3SKdUp" value="Dan Koblach 18, also if list is empty, but some obj selected?" />
                       </node>
                     </node>
+                    <node concept="3clFbF" id="21XNa$qhiIo" role="3cqZAp">
+                      <node concept="37vLTI" id="21XNa$qhiIp" role="3clFbG">
+                        <node concept="3clFbT" id="21XNa$qhiIq" role="37vLTx">
+                          <property role="3clFbU" value="true" />
+                        </node>
+                        <node concept="37vLTw" id="21XNa$qhiIr" role="37vLTJ">
+                          <ref role="3cqZAo" node="1e8699aCJdn" resolve="selectionHandlerEnabled" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="3cpWs6" id="3CfBiVLef2H" role="3cqZAp">
                       <node concept="3clFbT" id="3CfBiVLefgn" role="3cqZAk">
                         <property role="3clFbU" value="false" />
