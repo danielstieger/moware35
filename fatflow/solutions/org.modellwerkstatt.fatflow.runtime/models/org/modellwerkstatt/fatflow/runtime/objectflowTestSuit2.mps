@@ -9441,8 +9441,8 @@
           <node concept="3zdtvw" id="61AGu4Q4VvL" role="2TpcRr">
             <property role="3zdvax" value="0" />
             <property role="TrG5h" value="invoice" />
-            <ref role="3zdv76" node="5MCXLSnMhKi" resolve="Save &amp; Close" />
             <ref role="3zdv75" node="5MCXLSnMhBY" resolve="MainPage" />
+            <ref role="3zdv76" node="5MCXLSnMhKi" resolve="Save &amp; Close" />
             <node concept="3zdqQj" id="61AGu4Q4VvM" role="3zdlsu">
               <node concept="3clFbS" id="61AGu4Q4VvN" role="2VODD2">
                 <node concept="3cpWs8" id="3owBZfUpnDn" role="3cqZAp">

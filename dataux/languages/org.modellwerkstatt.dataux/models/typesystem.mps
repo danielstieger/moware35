@@ -4414,6 +4414,50 @@
         </node>
       </node>
       <node concept="3clFbH" id="50l$rcpLl4H" role="3cqZAp" />
+      <node concept="3SKdUt" id="3wfz3qPr5MI" role="3cqZAp">
+        <node concept="3SKdUq" id="3wfz3qPr5MK" role="3SKWNk">
+          <property role="3SKdUp" value="TODO: switch to conclusionRefs instead of referencing page directly" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="3wfz3qPr6Oz" role="3cqZAp">
+        <node concept="3clFbS" id="3wfz3qPr6O_" role="3clFbx">
+          <node concept="2MkqsV" id="3wfz3qPrlcB" role="3cqZAp">
+            <node concept="Xl_RD" id="3wfz3qPrlcQ" role="2MkJ7o">
+              <property role="Xl_RC" value="Specify either a conclusion option or a conclusion itself. (temporary moware cmd)" />
+            </node>
+            <node concept="1YBJjd" id="3wfz3qPrlgQ" role="2OEOjV">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="3wfz3qPrbNw" role="3clFbw">
+          <node concept="2OqwBi" id="3wfz3qPrhkW" role="3uHU7w">
+            <node concept="2OqwBi" id="3wfz3qPrdvf" role="2Oq$k0">
+              <node concept="1YBJjd" id="3wfz3qPrdqp" role="2Oq$k0">
+                <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+              </node>
+              <node concept="3TrEf2" id="3wfz3qPrfzF" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:3wfz3qPfteK" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="3wfz3qPrjio" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="3wfz3qPr9EO" role="3uHU7B">
+            <node concept="2OqwBi" id="3wfz3qPr7q3" role="2Oq$k0">
+              <node concept="1YBJjd" id="3wfz3qPr7lo" role="2Oq$k0">
+                <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+              </node>
+              <node concept="3TrEf2" id="3wfz3qPr9t2" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:6IYVo2hTQQL" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="3wfz3qPrbFn" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="3wfz3qPr3sK" role="3cqZAp" />
+      <node concept="3clFbH" id="3wfz3qPr3$M" role="3cqZAp" />
+      <node concept="3clFbH" id="3wfz3qPr3GP" role="3cqZAp" />
       <node concept="3clFbJ" id="3kFdJs2Wac" role="3cqZAp">
         <node concept="3clFbS" id="3kFdJs2Wae" role="3clFbx">
           <node concept="2MkqsV" id="3kFdJs2WnC" role="3cqZAp">

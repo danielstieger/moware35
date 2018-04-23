@@ -1173,6 +1173,14 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1K7fNI_kq$B" resolve="MenuCompoundAction" />
     </node>
+    <node concept="1TJgyj" id="3wfz3qPfteK" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pageRefOption" />
+      <ref role="20lvS9" to="un0u:3wfz3qPc3B0" resolve="IPageRefOption" />
+    </node>
+    <node concept="PrWs8" id="3wfz3qPgVe0" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2rqRJfqYGTr">
     <property role="1pbfSe" value="30780750" />
