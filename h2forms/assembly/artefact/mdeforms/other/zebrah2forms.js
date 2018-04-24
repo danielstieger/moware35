@@ -47,6 +47,7 @@ function disableNavigation() {
 	for (i = 0; i < trs.length; i++) {
 		trs[i].setAttribute("onClick", "");
 		trs[i].className = "lightpassive";
+		trs[i].setAttribute("style", "");
 	}	
 }
 

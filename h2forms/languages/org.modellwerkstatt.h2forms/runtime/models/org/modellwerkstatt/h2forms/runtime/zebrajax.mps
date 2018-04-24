@@ -15106,7 +15106,7 @@
                                 </node>
                                 <node concept="3cpWs3" id="yYLpwA$Cv1" role="3uHU7B">
                                   <node concept="Xl_RD" id="NYYlQe2_HF" role="3uHU7B">
-                                    <property role="Xl_RC" value=" onClick=\&quot;window.location='" />
+                                    <property role="Xl_RC" value=" onClick=\&quot;SaveSubmit('" />
                                   </node>
                                   <node concept="37vLTw" id="yYLpwA$Q2k" role="3uHU7w">
                                     <ref role="3cqZAo" node="yYLpwA$J4p" resolve="startCommandIndirectionPath" />
@@ -15123,7 +15123,7 @@
                               </node>
                             </node>
                             <node concept="Xl_RD" id="NYYlQe2_HL" role="3uHU7w">
-                              <property role="Xl_RC" value="';\&quot; navicrtl=\&quot;command_" />
+                              <property role="Xl_RC" value="');\&quot; navicrtl=\&quot;command_" />
                             </node>
                           </node>
                           <node concept="2OqwBi" id="NYYlQe2_HO" role="3uHU7w">
@@ -15191,32 +15191,17 @@
                                     <ref role="2Oxat5" to="yg8v:Y3fiVJM08v" resolve="labelText" />
                                   </node>
                                 </node>
-                                <node concept="3cpWs3" id="NYYlQe2BzH" role="3uHU7B">
-                                  <node concept="Xl_RD" id="NYYlQe2BPd" role="3uHU7w">
-                                    <property role="Xl_RC" value="&gt;" />
-                                  </node>
-                                  <node concept="3cpWs3" id="NYYlQe2AFX" role="3uHU7B">
-                                    <node concept="3cpWs3" id="5j5asfbHLbP" role="3uHU7B">
-                                      <node concept="3cpWs3" id="5j5asfbHFcZ" role="3uHU7B">
-                                        <node concept="3cpWs3" id="yYLpwAewD$" role="3uHU7B">
-                                          <node concept="Xl_RD" id="yYLpwAewUT" role="3uHU7w">
-                                            <property role="Xl_RC" value="&gt;&lt;td " />
-                                          </node>
-                                          <node concept="Xl_RD" id="5j5asfbH_JS" role="3uHU7B">
-                                            <property role="Xl_RC" value="&lt;tr class=\&quot;bigactive\&quot;" />
-                                          </node>
-                                        </node>
-                                        <node concept="37vLTw" id="5j5asfbHKa9" role="3uHU7w">
-                                          <ref role="3cqZAo" node="42V9YTaiDRg" resolve="jsLink" />
-                                        </node>
-                                      </node>
-                                      <node concept="Xl_RD" id="5j5asfbHLta" role="3uHU7w">
-                                        <property role="Xl_RC" value="colspan=\&quot;1\&quot;&gt; &lt;span " />
-                                      </node>
-                                    </node>
-                                    <node concept="37vLTw" id="NYYlQe2Bco" role="3uHU7w">
+                                <node concept="3cpWs3" id="5j5asfbHLbP" role="3uHU7B">
+                                  <node concept="3cpWs3" id="19OFb20IFLK" role="3uHU7B">
+                                    <node concept="37vLTw" id="19OFb20IGf7" role="3uHU7w">
                                       <ref role="3cqZAo" node="42V9YTaiDRg" resolve="jsLink" />
                                     </node>
+                                    <node concept="Xl_RD" id="5j5asfbH_JS" role="3uHU7B">
+                                      <property role="Xl_RC" value="&lt;tr class=\&quot;bigactive\&quot;" />
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="5j5asfbHLta" role="3uHU7w">
+                                    <property role="Xl_RC" value="&gt;&lt;td colspan=\&quot;1\&quot;&gt; &lt;span&gt;" />
                                   </node>
                                 </node>
                               </node>
@@ -15235,7 +15220,7 @@
                               <node concept="3cpWs3" id="5j5asfbHU3v" role="3uHU7B">
                                 <node concept="3cpWs3" id="5faagik3xy5" role="3uHU7B">
                                   <node concept="Xl_RD" id="5faagik3zha" role="3uHU7w">
-                                    <property role="Xl_RC" value="\&quot;&gt;&lt;td " />
+                                    <property role="Xl_RC" value="\&quot;" />
                                   </node>
                                   <node concept="3cpWs3" id="5faagik3yND" role="3uHU7B">
                                     <node concept="37vLTw" id="5faagik3_Dk" role="3uHU7w">
@@ -15251,7 +15236,7 @@
                                 </node>
                               </node>
                               <node concept="Xl_RD" id="5j5asfbHVpK" role="3uHU7w">
-                                <property role="Xl_RC" value="colspan=\&quot;1\&quot;&gt; &amp;nbsp; &lt;/td&gt;&lt;/tr&gt;" />
+                                <property role="Xl_RC" value="&gt;&lt;td colspan=\&quot;1\&quot;&gt; &amp;nbsp; &lt;/td&gt;&lt;/tr&gt;" />
                               </node>
                             </node>
                           </node>

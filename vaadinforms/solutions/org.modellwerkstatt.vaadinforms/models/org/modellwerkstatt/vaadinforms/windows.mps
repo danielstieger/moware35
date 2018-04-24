@@ -10980,6 +10980,19 @@
         </node>
       </node>
       <node concept="3clFbS" id="7wrkReHv4C4" role="3clF47">
+        <node concept="3clFbF" id="19OFb20Sp4u" role="3cqZAp">
+          <node concept="2OqwBi" id="19OFb20Sp7$" role="3clFbG">
+            <node concept="37vLTw" id="19OFb20Sp4s" role="2Oq$k0">
+              <ref role="3cqZAo" node="6go2MrsutRH" resolve="item" />
+            </node>
+            <node concept="liA8E" id="19OFb20Spbn" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~MenuBar$MenuItem.setEnabled(boolean):void" resolve="setEnabled" />
+              <node concept="3clFbT" id="19OFb20Spdm" role="37wK5m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="7wrkReHv4R9" role="3cqZAp">
           <node concept="2OqwBi" id="7wrkReHv4Us" role="3clFbG">
             <node concept="37vLTw" id="7wrkReHv4R8" role="2Oq$k0">
@@ -11031,6 +11044,19 @@
                     <property role="Xl_RC" value=" - menuSelected(): " />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="19OFb20SpjJ" role="3cqZAp">
+          <node concept="2OqwBi" id="19OFb20SpmB" role="3clFbG">
+            <node concept="37vLTw" id="19OFb20SpjH" role="2Oq$k0">
+              <ref role="3cqZAo" node="6go2Mrsuuj6" resolve="item" />
+            </node>
+            <node concept="liA8E" id="19OFb20Spq2" role="2OqNvi">
+              <ref role="37wK5l" to="waq:~MenuBar$MenuItem.setEnabled(boolean):void" resolve="setEnabled" />
+              <node concept="3clFbT" id="19OFb20Spsn" role="37wK5m">
+                <property role="3clFbU" value="false" />
               </node>
             </node>
           </node>
@@ -11556,6 +11582,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="19OFb20RWd3" role="3cqZAp" />
             <node concept="3clFbJ" id="r$jHpEL4ol" role="3cqZAp">
               <node concept="3clFbS" id="r$jHpEL4on" role="3clFbx">
                 <node concept="3clFbF" id="r$jHpEL5ml" role="3cqZAp">
