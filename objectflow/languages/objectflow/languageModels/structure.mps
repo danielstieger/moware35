@@ -4405,6 +4405,11 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="4jlzLDl6dD6" resolve="IOFXBatchJobOption" />
     </node>
+    <node concept="1TJgyj" id="3eB7cNzwzHq" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="theBTask" />
+      <ref role="20lvS9" node="3eB7cNzwzKc" resolve="OFXBTaskContext" />
+    </node>
     <node concept="1TJgyj" id="7TJOmj6MJQg" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
@@ -4531,11 +4536,6 @@
       <property role="20kJfa" value="runCommand" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXRunCmd" />
-    </node>
-    <node concept="1TJgyj" id="3U0QWztRHwp" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="status" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="3U0QWztWeH9" role="PzmwI">
       <ref role="PrY4T" node="3U0QWztHkm$" resolve="IOFXRContextVarDeclaration" />
@@ -4702,11 +4702,6 @@
       <property role="20kJfa" value="runCommand" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXRunCmd" />
-    </node>
-    <node concept="1TJgyj" id="21AFYXWO_w5" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="status" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="382CQP4Nz3Q" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -4890,6 +4885,27 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3wfz3qPc3Hx" role="PzmwI">
       <ref role="PrY4T" node="3wfz3qPc3B0" resolve="IPageConclusionRefOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3eB7cNzwzKc">
+    <property role="1pbfSe" value="388585688" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXBTaskContext" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3eB7cNzwzN5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="runCommand" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7TJOmj72Lm4" resolve="OFXRunCmd" />
+    </node>
+    <node concept="1TJgyj" id="3eB7cNzwzN6" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="whenClause" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="3eB7cNzCCgK" role="PzmwI">
+      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
   </node>
 </model>

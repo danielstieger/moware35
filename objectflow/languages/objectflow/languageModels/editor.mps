@@ -12307,6 +12307,16 @@
         <property role="1$x2rV" value="&lt;no consumer&gt;" />
         <ref role="1NtTu8" to="un0u:6IpTZfaBQl9" />
       </node>
+      <node concept="3F0ifn" id="3eB7cNzw$eF" role="3EZMnx" />
+      <node concept="3F0ifn" id="3eB7cNzw$eG" role="3EZMnx" />
+      <node concept="3F0ifn" id="3eB7cNzw$eH" role="3EZMnx">
+        <property role="3F0ifm" value="b-task/graph owner cmd:" />
+        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
+      </node>
+      <node concept="3F1sOY" id="3eB7cNzw$eI" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;no b-task&gt;" />
+        <ref role="1NtTu8" to="un0u:3eB7cNzwzHq" />
+      </node>
       <node concept="2iRkQZ" id="7TJOmj6MLsT" role="2iSdaV" />
     </node>
   </node>
@@ -13081,6 +13091,55 @@
     <node concept="PMmxH" id="3wfz3qPc3Iy" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3eB7cNzw$8b">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1XX52x" to="un0u:3eB7cNzwzKc" resolve="OFXBTaskContext" />
+    <node concept="3EZMnI" id="3eB7cNzw$bG" role="2wV5jI">
+      <node concept="l2Vlx" id="3eB7cNzw$bH" role="2iSdaV" />
+      <node concept="3F0ifn" id="3eB7cNzw$bI" role="3EZMnx">
+        <property role="3F0ifm" value="when" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="3F1sOY" id="3eB7cNzw$bJ" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;true&gt;" />
+        <ref role="1NtTu8" to="un0u:3eB7cNzwzN6" />
+      </node>
+      <node concept="3F0ifn" id="3eB7cNzw$bK" role="3EZMnx">
+        <property role="3F0ifm" value=" " />
+      </node>
+      <node concept="3F0ifn" id="3eB7cNzw$bL" role="3EZMnx">
+        <property role="3F0ifm" value="// some time constraints with new_DateTimeFromServer()" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+      </node>
+      <node concept="3F0ifn" id="3eB7cNzw$bM" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="3eB7cNzw$bN" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="3eB7cNzw$bO" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:3eB7cNzwzN5" />
+        <node concept="pVoyu" id="3eB7cNzw$bP" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="3eB7cNzw$bQ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3eB7cNzw$bR" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="3eB7cNzw$bS" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3eB7cNzw$bT" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+        <node concept="pVoyu" id="3eB7cNzw$bU" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
