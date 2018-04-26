@@ -975,7 +975,7 @@
     <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
     </node>
     <node concept="PrWs8" id="6K73LRuVId0" role="PzmwI">
@@ -1176,7 +1176,7 @@
     <node concept="1TJgyj" id="3wfz3qPfteK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pageRefOption" />
-      <ref role="20lvS9" to="un0u:3wfz3qPc3B0" resolve="IPageRefOption" />
+      <ref role="20lvS9" to="un0u:3wfz3qPc3B0" resolve="IPageConclusionRefOption" />
     </node>
     <node concept="PrWs8" id="3wfz3qPgVe0" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
