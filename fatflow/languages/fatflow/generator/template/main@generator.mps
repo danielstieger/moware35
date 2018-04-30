@@ -41318,6 +41318,30 @@
           </node>
         </node>
       </node>
+      <node concept="3clFb_" id="hskHECfpVz" role="jymVt">
+        <property role="TrG5h" value="addBTaskCronExp" />
+        <node concept="37vLTG" id="hskHECfpV$" role="3clF46">
+          <property role="TrG5h" value="cron" />
+          <node concept="17QB3L" id="hskHECfpV_" role="1tU5fm" />
+        </node>
+        <node concept="3cqZAl" id="hskHECfpVA" role="3clF45" />
+        <node concept="3Tm6S6" id="hskHECfpVB" role="1B3o_S" />
+        <node concept="3clFbS" id="hskHECfpVC" role="3clF47">
+          <node concept="3clFbF" id="hskHECfpVD" role="3cqZAp">
+            <node concept="2OqwBi" id="hskHECfpVE" role="3clFbG">
+              <node concept="37vLTw" id="hskHECfpVF" role="2Oq$k0">
+                <ref role="3cqZAo" node="4jlzLDkHYbm" resolve="__localAppplicationFactory" />
+              </node>
+              <node concept="liA8E" id="hskHECfpVG" role="2OqNvi">
+                <ref role="37wK5l" to="z3ji:3eB7cNzKxWR" resolve="addBTaskCronExpression" />
+                <node concept="37vLTw" id="hskHECfpVH" role="37wK5m">
+                  <ref role="3cqZAo" node="hskHECfpV$" resolve="cron" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3clFb_" id="7KiQG4b0j_h" role="jymVt">
         <property role="TrG5h" value="setNumConsumers" />
         <node concept="37vLTG" id="7KiQG4b0j_i" role="3clF46">
@@ -43729,6 +43753,50 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="hskHECfk7E" role="3cqZAp">
+          <node concept="2OqwBi" id="hskHECfk7F" role="3clFbG">
+            <node concept="37vLTw" id="hskHECfk7G" role="2Oq$k0">
+              <ref role="3cqZAo" node="5BROMrVNRuX" resolve="batchJobImplementation" />
+            </node>
+            <node concept="liA8E" id="hskHECfk7H" role="2OqNvi">
+              <ref role="37wK5l" node="hskHECfpVz" resolve="addBTaskCronExp" />
+              <node concept="Xl_RD" id="hskHECfk7I" role="37wK5m">
+                <property role="Xl_RC" value="* * * * * *" />
+                <node concept="17Uvod" id="hskHECfk7J" role="lGtFl">
+                  <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                  <property role="2qtEX9" value="value" />
+                  <node concept="3zFVjK" id="hskHECfk7K" role="3zH0cK">
+                    <node concept="3clFbS" id="hskHECfk7L" role="2VODD2">
+                      <node concept="3clFbF" id="hskHECfk7M" role="3cqZAp">
+                        <node concept="2OqwBi" id="hskHECfk7N" role="3clFbG">
+                          <node concept="30H73N" id="hskHECfk7O" role="2Oq$k0" />
+                          <node concept="2qgKlT" id="hskHECfk7P" role="2OqNvi">
+                            <ref role="37wK5l" to="70o0:7KiQG4aPDuJ" resolve="getCronAsString" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1WS0z7" id="hskHECfk7Q" role="lGtFl">
+            <node concept="3JmXsc" id="hskHECfk7R" role="3Jn$fo">
+              <node concept="3clFbS" id="hskHECfk7S" role="2VODD2">
+                <node concept="3clFbF" id="hskHECfk7T" role="3cqZAp">
+                  <node concept="2OqwBi" id="hskHECfk7U" role="3clFbG">
+                    <node concept="30H73N" id="hskHECfk7V" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="hskHECfpDp" role="2OqNvi">
+                      <ref role="37wK5l" to="70o0:hskHECfgl3" resolve="getBTaskCrons" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="hskHECfj8_" role="3cqZAp" />
         <node concept="3clFbF" id="7KiQG4b0ib9" role="3cqZAp">
           <node concept="2OqwBi" id="7KiQG4b0iVp" role="3clFbG">
             <node concept="37vLTw" id="7KiQG4b0ib7" role="2Oq$k0">

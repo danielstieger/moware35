@@ -4908,5 +4908,13 @@
       <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
   </node>
+  <node concept="1TIwiD" id="hskHECaWV_">
+    <property role="1pbfSe" value="1400364609" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXBatchCronBTaskExpression" />
+    <property role="34LRSv" value="BTASK_CRON" />
+    <property role="R4oN_" value="timer expression for b-task" />
+    <ref role="1TJDcQ" node="7KiQG4aj5PK" resolve="OFXBatchCronExpression" />
+  </node>
 </model>
 
