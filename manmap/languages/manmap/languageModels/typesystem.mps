@@ -2596,20 +2596,20 @@
           <property role="3SKdUp" value="that s correct, type is determined by row mapper and it has to be a list! " />
         </node>
       </node>
-      <node concept="1Z5TYs" id="1lpzdTmo63Y" role="3cqZAp">
-        <node concept="mw_s8" id="1lpzdTmo640" role="1ZfhK$">
-          <node concept="1Z2H0r" id="1lpzdTmo641" role="mwGJk">
-            <node concept="2OqwBi" id="1lpzdTmo642" role="1Z2MuG">
-              <node concept="1YBJjd" id="1lpzdTmo643" role="2Oq$k0">
+      <node concept="1Z5TYs" id="2AsTwA4I0ZA" role="3cqZAp">
+        <node concept="mw_s8" id="2AsTwA4I1mb" role="1ZfhKB">
+          <node concept="1Z2H0r" id="2AsTwA4I1m7" role="mwGJk">
+            <node concept="2OqwBi" id="2AsTwA4I1oA" role="1Z2MuG">
+              <node concept="1YBJjd" id="2AsTwA4I1ms" role="2Oq$k0">
                 <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
               </node>
-              <node concept="3TrEf2" id="1lpzdTmo644" role="2OqNvi">
+              <node concept="3TrEf2" id="2AsTwA4I1Cp" role="2OqNvi">
                 <ref role="3Tt5mk" to="r5tz:42_QlHqGoce" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="1lpzdTmo645" role="1ZfhKB">
+        <node concept="mw_s8" id="2AsTwA4I0ZD" role="1ZfhK$">
           <node concept="2c44tf" id="2vDvL9DnMR3" role="mwGJk">
             <node concept="9cv3F" id="2vDvL9DnMZ$" role="2c44tc">
               <node concept="3uibUv" id="2vDvL9DnN0m" role="1ajw0F">
@@ -2624,6 +2624,49 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="3SKdUt" id="2AsTwA4IfDx" role="3cqZAp">
+        <node concept="3SKdUq" id="2AsTwA4IfDz" role="3SKWNk">
+          <property role="3SKdUp" value="paramType can not be void in QueryFormSql" />
+        </node>
+      </node>
+      <node concept="nvevp" id="2AsTwA4Igfg" role="3cqZAp">
+        <node concept="3clFbS" id="2AsTwA4Igfi" role="nvhr_">
+          <node concept="3clFbJ" id="2AsTwA4IgmH" role="3cqZAp">
+            <node concept="2OqwBi" id="2AsTwA4IgnY" role="3clFbw">
+              <node concept="2X3wrD" id="2AsTwA4IgmT" role="2Oq$k0">
+                <ref role="2X3Bk0" node="2AsTwA4Igfm" resolve="t" />
+              </node>
+              <node concept="1mIQ4w" id="2AsTwA4IgpJ" role="2OqNvi">
+                <node concept="chp4Y" id="2AsTwA4Igqg" role="cj9EA">
+                  <ref role="cht4Q" to="tpee:fzcqZ_H" resolve="VoidType" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="2AsTwA4IgmJ" role="3clFbx">
+              <node concept="2MkqsV" id="2AsTwA4Igrb" role="3cqZAp">
+                <node concept="Xl_RD" id="2AsTwA4Igrn" role="2MkJ7o">
+                  <property role="Xl_RC" value="Void is not suitable as return type here." />
+                </node>
+                <node concept="2OqwBi" id="2AsTwA4Igxx" role="2OEOjV">
+                  <node concept="1YBJjd" id="2AsTwA4Igvn" role="2Oq$k0">
+                    <ref role="1YBMHb" node="3NdPOdNNvcq" resolve="queryFromSql" />
+                  </node>
+                  <node concept="3TrEf2" id="2AsTwA4IgL6" role="2OqNvi">
+                    <ref role="3Tt5mk" to="r5tz:42_QlHqGoce" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Z$b5t" id="2AsTwA4Igmn" role="nvjzm">
+          <ref role="1Z$eMM" node="42_QlHrvF8O" resolve="paramType" />
+        </node>
+        <node concept="2X1qdy" id="2AsTwA4Igfm" role="2X0Ygz">
+          <property role="TrG5h" value="t" />
+          <node concept="2jxLKc" id="2AsTwA4Igfn" role="1tU5fm" />
         </node>
       </node>
       <node concept="1ZobV4" id="4Xi5$63Y9vc" role="3cqZAp">

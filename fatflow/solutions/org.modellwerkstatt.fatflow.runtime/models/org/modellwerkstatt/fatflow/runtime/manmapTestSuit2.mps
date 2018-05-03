@@ -12620,11 +12620,11 @@
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="Creators" />
     <node concept="J2Nxi" id="7mZ5ilqNXRI" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
+      <property role="J2Nxv" value="C:/moware/fatflow/testdata/" />
       <property role="TrG5h" value="GRAPHS" />
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/sqls/" />
+      <property role="J2Nxv" value="C:/moware/fatflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">
@@ -22760,6 +22760,45 @@
               <node concept="Xl_RD" id="2TdURcUzUYk" role="37wK5m">
                 <property role="Xl_RC" value="(null)" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="2AsTwA4$Z8F" role="3yMuLx">
+      <property role="TrG5h" value="0 bigdecimal literal is same as BigDezimal.ZERO" />
+      <node concept="3cqZAl" id="2AsTwA4$ZN0" role="3clF45" />
+      <node concept="3clFbS" id="2AsTwA4$Z8J" role="3clF47">
+        <node concept="1gVbGN" id="2AsTwA4$ZN3" role="3cqZAp">
+          <node concept="3clFbC" id="2AsTwA4$ZP8" role="1gVkn0">
+            <node concept="10M0yZ" id="2AsTwA4$ZPq" role="3uHU7w">
+              <ref role="1PxDUh" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+              <ref role="3cqZAo" to="xlxw:~BigDecimal.ZERO" resolve="ZERO" />
+            </node>
+            <node concept="1mgVXT" id="2AsTwA4$ZNd" role="3uHU7B">
+              <property role="1mgVXS" value="0.0d" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="2AsTwA4EDtA" role="3cqZAp">
+          <node concept="3y3z36" id="2AsTwA4EDyT" role="1gVkn0">
+            <node concept="1mgVXT" id="2AsTwA4EDtD" role="3uHU7B">
+              <property role="1mgVXS" value="0.00001d" />
+            </node>
+            <node concept="10M0yZ" id="2AsTwA4EDtC" role="3uHU7w">
+              <ref role="1PxDUh" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+              <ref role="3cqZAo" to="xlxw:~BigDecimal.ZERO" resolve="ZERO" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="2AsTwA4EDue" role="3cqZAp">
+          <node concept="3clFbC" id="2AsTwA4EDxR" role="1gVkn0">
+            <node concept="10M0yZ" id="2AsTwA4EDyn" role="3uHU7w">
+              <ref role="1PxDUh" to="xlxw:~BigDecimal" resolve="BigDecimal" />
+              <ref role="3cqZAo" to="xlxw:~BigDecimal.ONE" resolve="ONE" />
+            </node>
+            <node concept="1mgVXT" id="2AsTwA4EDwr" role="3uHU7B">
+              <property role="1mgVXS" value="1.0d" />
             </node>
           </node>
         </node>
