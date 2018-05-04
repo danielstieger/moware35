@@ -5079,5 +5079,56 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="$CpsXgB7BO">
+    <property role="3GE5qa" value="OFXCore.actions" />
+    <property role="TrG5h" value="SelectedObjectChDerived" />
+    <ref role="2ZfgGC" to="un0u:70RMBbuA1T0" resolve="SelectedObject" />
+    <node concept="2S6ZIM" id="$CpsXgB7BP" role="2ZfVej">
+      <node concept="3clFbS" id="$CpsXgB7BQ" role="2VODD2">
+        <node concept="3clFbJ" id="$CpsXgB7OH" role="3cqZAp">
+          <node concept="3clFbS" id="$CpsXgB7OJ" role="3clFbx">
+            <node concept="3cpWs6" id="$CpsXgB81d" role="3cqZAp">
+              <node concept="Xl_RD" id="$CpsXgB82n" role="3cqZAk">
+                <property role="Xl_RC" value="Remove +derived" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="$CpsXgB7SS" role="3clFbw">
+            <node concept="2Sf5sV" id="$CpsXgB7PH" role="2Oq$k0" />
+            <node concept="3TrcHB" id="$CpsXgB7YX" role="2OqNvi">
+              <ref role="3TsBF5" to="un0u:$CpsXgB7m5" resolve="andDerived" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="$CpsXgB8_f" role="3cqZAp">
+          <node concept="Xl_RD" id="$CpsXgB8_h" role="3cqZAk">
+            <property role="Xl_RC" value="Add +derived" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="$CpsXgB7BR" role="2ZfgGD">
+      <node concept="3clFbS" id="$CpsXgB7BS" role="2VODD2">
+        <node concept="3clFbF" id="$CpsXgB8Nr" role="3cqZAp">
+          <node concept="37vLTI" id="$CpsXgB90H" role="3clFbG">
+            <node concept="3fqX7Q" id="$CpsXgB91T" role="37vLTx">
+              <node concept="2OqwBi" id="$CpsXgB96o" role="3fr31v">
+                <node concept="2Sf5sV" id="$CpsXgB93C" role="2Oq$k0" />
+                <node concept="3TrcHB" id="$CpsXgB9ce" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:$CpsXgB7m5" resolve="andDerived" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="$CpsXgB8Ps" role="37vLTJ">
+              <node concept="2Sf5sV" id="$CpsXgB8Nq" role="2Oq$k0" />
+              <node concept="3TrcHB" id="$CpsXgB8Ui" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:$CpsXgB7m5" resolve="andDerived" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

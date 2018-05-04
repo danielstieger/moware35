@@ -1698,6 +1698,10 @@
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
         </node>
       </node>
+      <node concept="37vLTG" id="$CpsXgQxjC" role="3clF46">
+        <property role="TrG5h" value="andDerived" />
+        <node concept="10P_77" id="$CpsXgQ$1d" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="1kThbup1G$6" role="3clF45">
         <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
       </node>
@@ -4955,6 +4959,10 @@
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
         </node>
       </node>
+      <node concept="37vLTG" id="$CpsXgBaCJ" role="3clF46">
+        <property role="TrG5h" value="includingDerived" />
+        <node concept="10P_77" id="$CpsXgBckk" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="6QGCiYX7BHv" role="3clF45">
         <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
       </node>
@@ -4974,6 +4982,9 @@
               <ref role="37wK5l" to="1e0c:d0ODixL0bX" resolve="getSelectionAbsolute" />
               <node concept="37vLTw" id="6QGCiYX7D85" role="37wK5m">
                 <ref role="3cqZAo" node="6QGCiYX7BHt" resolve="clazz" />
+              </node>
+              <node concept="37vLTw" id="$CpsXgBl0x" role="37wK5m">
+                <ref role="3cqZAo" node="$CpsXgBaCJ" resolve="includingDerived" />
               </node>
             </node>
           </node>
@@ -8081,6 +8092,10 @@
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
         </node>
       </node>
+      <node concept="37vLTG" id="$CpsXgBmKG" role="3clF46">
+        <property role="TrG5h" value="includingDerived" />
+        <node concept="10P_77" id="$CpsXgBplW" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="4Y02LQOEncq" role="3clF45">
         <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
       </node>
@@ -8095,6 +8110,9 @@
               <ref role="37wK5l" to="1e0c:d0ODixL0bX" resolve="getSelectionAbsolute" />
               <node concept="37vLTw" id="fdGRoMYQPk" role="37wK5m">
                 <ref role="3cqZAo" node="4Y02LQOEnco" resolve="clazz" />
+              </node>
+              <node concept="37vLTw" id="$CpsXgBqSP" role="37wK5m">
+                <ref role="3cqZAo" node="$CpsXgBmKG" resolve="includingDerived" />
               </node>
             </node>
           </node>
@@ -9613,6 +9631,25 @@
                                               </node>
                                               <node concept="2qgKlT" id="206uhc6PM81" role="2OqNvi">
                                                 <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbT" id="$CpsXgRcTx" role="37wK5m">
+                                    <property role="3clFbU" value="false" />
+                                    <node concept="17Uvod" id="$CpsXgRerH" role="lGtFl">
+                                      <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123137/1068580123138" />
+                                      <property role="2qtEX9" value="value" />
+                                      <node concept="3zFVjK" id="$CpsXgRerI" role="3zH0cK">
+                                        <node concept="3clFbS" id="$CpsXgRerJ" role="2VODD2">
+                                          <node concept="3clFbF" id="$CpsXgReuW" role="3cqZAp">
+                                            <node concept="2OqwBi" id="$CpsXgRez8" role="3clFbG">
+                                              <node concept="30H73N" id="$CpsXgReuV" role="2Oq$k0" />
+                                              <node concept="2qgKlT" id="$CpsXgRjsC" role="2OqNvi">
+                                                <ref role="37wK5l" to="70o0:$CpsXgRgeq" resolve="andDerived" />
                                               </node>
                                             </node>
                                           </node>

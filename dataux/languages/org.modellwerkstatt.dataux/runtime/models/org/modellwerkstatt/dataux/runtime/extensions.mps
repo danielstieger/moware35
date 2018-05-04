@@ -1534,6 +1534,10 @@
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
         </node>
       </node>
+      <node concept="37vLTG" id="$CpsXgs3E5" role="3clF46">
+        <property role="TrG5h" value="includingDerived" />
+        <node concept="10P_77" id="$CpsXgs5Ah" role="1tU5fm" />
+      </node>
       <node concept="3clFbS" id="3Ojm3UunEFR" role="3clF47">
         <node concept="3cpWs6" id="3Ojm3UunEFS" role="3cqZAp">
           <node concept="2OqwBi" id="3Ojm3UunF0q" role="3cqZAk">
@@ -1544,6 +1548,9 @@
               <ref role="37wK5l" to="1e0c:d0ODixL0bX" resolve="getSelectionAbsolute" />
               <node concept="37vLTw" id="3Ojm3UunEFU" role="37wK5m">
                 <ref role="3cqZAo" node="3Ojm3UunEFP" resolve="clazz" />
+              </node>
+              <node concept="37vLTw" id="$CpsXgtiOu" role="37wK5m">
+                <ref role="3cqZAo" node="$CpsXgs3E5" resolve="includingDerived" />
               </node>
             </node>
           </node>

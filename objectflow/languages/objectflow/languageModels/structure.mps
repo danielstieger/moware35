@@ -3586,6 +3586,10 @@
     <property role="R4oN_" value="mandatory object from UI" />
     <property role="MwhBj" value="${module}/icons/ofxconcept2.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="$CpsXgB7m5" role="1TKVEl">
+      <property role="TrG5h" value="andDerived" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyj" id="70RMBbuA3ID" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="object" />

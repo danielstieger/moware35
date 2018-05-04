@@ -11639,6 +11639,22 @@
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="$CpsXgB7nX" role="3EZMnx">
+        <property role="3F0ifm" value="+drvd" />
+        <ref role="1k5W1q" node="WwSagswj7o" resolve="O2SmallInfo" />
+        <node concept="pkWqt" id="$CpsXgB7pc" role="pqm2j">
+          <node concept="3clFbS" id="$CpsXgB7pd" role="2VODD2">
+            <node concept="3clFbF" id="$CpsXgB7q$" role="3cqZAp">
+              <node concept="2OqwBi" id="$CpsXgB7tB" role="3clFbG">
+                <node concept="pncrf" id="$CpsXgB7qz" role="2Oq$k0" />
+                <node concept="3TrcHB" id="$CpsXgB7$k" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:$CpsXgB7m5" resolve="andDerived" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3F0ifn" id="6trC6wnugt" role="3EZMnx">
         <property role="3F0ifm" value=")" />
         <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />

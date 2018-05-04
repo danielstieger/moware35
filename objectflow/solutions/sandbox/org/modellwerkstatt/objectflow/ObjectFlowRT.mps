@@ -4348,6 +4348,10 @@
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
         </node>
       </node>
+      <node concept="37vLTG" id="$CpsXgBcTm" role="3clF46">
+        <property role="TrG5h" value="includingDerived" />
+        <node concept="10P_77" id="$CpsXgBduQ" role="1tU5fm" />
+      </node>
       <node concept="3uibUv" id="6ffh1MXugAR" role="3clF45">
         <ref role="3uigEE" node="7rqBz8B3JOM" resolve="IOFXSelection" />
       </node>
@@ -5095,6 +5099,10 @@
                 <node concept="3uibUv" id="6lryfQF8VOp" role="1tU5fm">
                   <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
                 </node>
+              </node>
+              <node concept="37vLTG" id="$CpsXgICcj" role="3clF46">
+                <property role="TrG5h" value="addDerived" />
+                <node concept="10P_77" id="$CpsXgICut" role="1tU5fm" />
               </node>
               <node concept="3uibUv" id="6lryfQF8VOq" role="3clF45">
                 <ref role="3uigEE" node="7rqBz8B3JOM" resolve="IOFXSelection" />
@@ -10263,6 +10271,10 @@
         <node concept="3uibUv" id="3aesqnvcODY" role="1tU5fm">
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
         </node>
+      </node>
+      <node concept="37vLTG" id="$CpsXgIAhw" role="3clF46">
+        <property role="TrG5h" value="addDerived" />
+        <node concept="10P_77" id="$CpsXgIAFd" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="3aesqnvcODZ" role="3clF45">
         <ref role="3uigEE" node="7rqBz8B3JOM" resolve="IOFXSelection" />
