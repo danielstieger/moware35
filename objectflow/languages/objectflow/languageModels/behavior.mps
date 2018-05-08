@@ -5615,7 +5615,7 @@
             <node concept="3cpWs6" id="701$ZaZwOBQ" role="3cqZAp">
               <node concept="3cpWs3" id="701$ZaZwOBR" role="3cqZAk">
                 <node concept="Xl_RD" id="701$ZaZwOBS" role="3uHU7w">
-                  <property role="Xl_RC" value=" (owner+mod)" />
+                  <property role="Xl_RC" value=" (mod owner)" />
                 </node>
                 <node concept="2OqwBi" id="701$ZaZwOBT" role="3uHU7B">
                   <node concept="13iPFW" id="701$ZaZwOBU" role="2Oq$k0" />

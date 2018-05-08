@@ -6606,7 +6606,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="7sK_OLrlW8Z" role="3cqZAp" />
-        <node concept="3clFbH" id="61_utxKcrN_" role="3cqZAp" />
         <node concept="3cpWs8" id="61_utxKcsf7" role="3cqZAp">
           <node concept="3cpWsn" id="61_utxKcsfa" role="3cpWs9">
             <property role="TrG5h" value="doneDisplayed" />
@@ -6641,7 +6640,6 @@
                 <node concept="3clFbH" id="7sK_OLrmNt_" role="3cqZAp" />
                 <node concept="1DcWWT" id="5ubRLyf6_AT" role="3cqZAp">
                   <node concept="3clFbS" id="5ubRLyf6_AV" role="2LFqv$">
-                    <node concept="3clFbH" id="7sK_OLrmOlA" role="3cqZAp" />
                     <node concept="3SKdUt" id="7sK_OLrmOuI" role="3cqZAp">
                       <node concept="3SKdUq" id="7sK_OLrmOuK" role="3SKWNk">
                         <property role="3SKdUp" value="reject based on datetime?" />
