@@ -10,7 +10,7 @@
 var $ = function (query) { return document.querySelector(query); };
 var $$ = function (query) { return document.querySelectorAll(query); };
 
-var zVersion = 'OTH28g';
+var zVersion = 'OTH R43';
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {

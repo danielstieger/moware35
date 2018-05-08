@@ -13,13 +13,13 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'TC29x';
+var zVersion = 'TC R43';
 var lastSubmitTrace = '';
 var lastSequenceIDSubmitted = 0;
 var lastMillisSubmitted = 0;
 var startupMillis = Date.now();
 console.log('H2 the beginning of js file');
-
+var navigationDisabled = false;
 
 function incProgress() {
 	if (window.name == undefined || window.name == "") {
@@ -42,6 +42,8 @@ function moLog(s) {
 
 
 function disableNavigation() {
+	navigationDisabled = true;
+	
 	var btns = $$('button');
 	for (i = 0; i < btns.length; i++) {
 		btns[i].disabled = true;
@@ -238,7 +240,10 @@ function capturekeyCallback(params){
 
   // back keys
   if (key == '4' || key == '38') {
-    SaveSubmit('conclusion_0');
+    if (navigationDisabled == false) {  
+    	SaveSubmit('conclusion_0');
+    }
+    
   }
 }
 
@@ -442,10 +447,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 
 
-
+	navigationDisabled = false;
+	
     // keyboard is disabled by default
 	mykeyboardEnabled(true);
-
 	setInterval(incProgress, 20000);
 	incProgress();
 	console.log('H2 DOMContentLoaded(): .... .... .... done');

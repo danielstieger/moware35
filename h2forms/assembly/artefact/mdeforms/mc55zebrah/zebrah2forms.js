@@ -16,7 +16,7 @@
  */
 
 
-var zVersion = 'MC28j1';
+var zVersion = 'MC R43';
 var useAjax = false;
 var AJAX_HEADER = '--$$%&?e--';
 var AJAX_HEADER_REDIRECTION = '--$$%&?e--REDIRECT--$$%&?e--';
@@ -25,6 +25,7 @@ var lastSequenceIDSubmitted = 0;
 var lastMillisSubmitted = 0;
 var lastSubmitTrace = '';
 var startupMillis = Date.now();
+var navigationDisabled = false;
 
 
 var $ = function(query) {
@@ -102,8 +103,10 @@ function SelectAndExec(selectionstr, valstr, eventSource) {
   lastMillisSubmitted = Date.now();
   lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
 
-  internVibrate(100);
   disableScan();
+  disableNavigation(useAjax);
+
+  internVibrate(100);
   myfocusOnElement(null);
   noteTrace('' + eventSource);
 
@@ -115,7 +118,7 @@ function SelectAndExec(selectionstr, valstr, eventSource) {
     var f = $('form');
     f.NaviCrtl.value = valstr;
     f.SelectionId.value = selectionstr;
-    disableNavigation(false);
+
     console.log('SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr);
     f.submit();
   }
@@ -131,8 +134,10 @@ function SaveSubmit(valstr) {
   lastMillisSubmitted = Date.now();
   lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
 
-  internVibrate(100);
   disableScan();
+  disableNavigation(useAjax);
+  internVibrate(100);
+
   myfocusOnElement(null);
   noteTrace("SaveSubmit()");
 
@@ -147,7 +152,6 @@ function SaveSubmit(valstr) {
   } else {
     var f = $('form');
     f.NaviCrtl.value = valstr;
-    disableNavigation(false);
     console.log('SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr);
     f.submit();
 
@@ -205,6 +209,17 @@ function hkButton(sectionName, index, minButtonsInSection) {
 function capturekeyCallback(params) {
   var key = parseInt(params['keyValue']);
 
+  if (key == 121) {
+    EB.Application.quit();
+    return;
+  }
+
+
+  if (navigationDisabled == true) {
+    console.log('capturekeyCallback() NAVIGATION LOCKED ... sequencId: ' + $('form').SequenceId.value + ' params: ' + params + ' key: ' + key);
+    return;
+  }
+
   /* alert('HOTEKY=' + key + ' / ' + new Date().getMilliseconds()); */
   if (key == 4 || key == 125) {
     // back key
@@ -232,9 +247,6 @@ function capturekeyCallback(params) {
     nextEnabledOrDefaultButton($('*[focusme="true"]').getAttribute('editorIndex'));
     return;
 
-  } else if (key == 121) {
-    EB.Application.quit();
-    return;
   } else if (key == 119) {
     alert('COLOR: ' + document.defaultView.getComputedStyle($('input[useMyKeyboard="true"]'), null).getPropertyValue('color'));
     return;
@@ -422,6 +434,7 @@ function afterPageLoaded() {
   lastSequenceIDSubmitted = 0;
   lastMillisSubmitted = 0;
   moware_focus_element = null;
+  navigationDisabled = false;
   enableScan();
 
   if ($('#flagbeep')) {
@@ -449,14 +462,24 @@ function afterPageLoaded() {
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 function disableNavigation(ajaxHideContent) {
-  $('nav').innerHTML = '';
-  if (ajaxHideContent) {
-    $('.content').innerHTML = '<div class="contentTop" editorindex="-1"> </div> <p> <br> <br> <br> <i class="material-icons md-48">&#xE88B;</i> </br>(was ' +
-      $('form').SequenceId.value + ')</br> </p>';
-  } else {
-    $$('button').disabled = true;
+  navigationDisabled = true;
+  var btns = $$('button');
+  for (i = 0; i < btns.length; i++) {
+    btns[i].disabled = true;
   }
 
+  var trs = $$('.bigactive');
+  for (i = 0; i < trs.length; i++) {
+    trs[i].setAttribute("onClick", "");
+    trs[i].className = "bigpassive";
+  }
+
+  trs = $$('.lightactive');
+  for (i = 0; i < trs.length; i++) {
+    trs[i].setAttribute("onClick", "");
+    trs[i].className = "lightpassive";
+    trs[i].setAttribute("style", "");
+  }
 }
 
 function internVibrate(t) {
@@ -526,6 +549,7 @@ function mykeyboardEnabled(enbld) {
 }
 
 function reloadPageWithHttpGet() {
+  navigationDisabled = true;
   window.location = window.location;
 }
 
@@ -576,8 +600,9 @@ function ajaxRequest(valstr, selectionstr) {
     }
   }
 
-  // console.log(params);
-  disableNavigation(true);
+  $('.content').innerHTML = '<div class="contentTop" editorindex="-1"> </div> <p> <br> <br> <br> <i class="material-icons md-48">&#xE88B;</i> </br>(was ' +
+    $('form').SequenceId.value + ')</br> </p>';
+  $('nav').innerHTML = '';
 
   xhttp.open("POST", ".", true);
   xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded;charset=ISO-8859-1");
