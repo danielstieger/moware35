@@ -21416,5 +21416,29 @@
       <node concept="3clFbS" id="3eB7cNzwzVQ" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="7PeCy_MuqSk">
+    <property role="3GE5qa" value="OFXCore.OFXNew" />
+    <ref role="13h7C2" to="un0u:7PeCy_MumjU" resolve="IOFSurpErrorMarker" />
+    <node concept="13i0hz" id="7PeCy_MuqSn" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="isOfxSurpressErrors" />
+      <node concept="3Tm1VV" id="7PeCy_MuqSo" role="1B3o_S" />
+      <node concept="10P_77" id="7PeCy_Murbg" role="3clF45" />
+      <node concept="3clFbS" id="7PeCy_MuqSq" role="3clF47">
+        <node concept="3cpWs6" id="7PeCy_Murbj" role="3cqZAp">
+          <node concept="2OqwBi" id="7PeCy_MurLH" role="3cqZAk">
+            <node concept="13iPFW" id="7PeCy_MurKd" role="2Oq$k0" />
+            <node concept="3TrcHB" id="7PeCy_MurOm" role="2OqNvi">
+              <ref role="3TsBF5" to="un0u:7PeCy_MumjV" resolve="knowWhatDoing" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="7PeCy_MuqSl" role="13h7CW">
+      <node concept="3clFbS" id="7PeCy_MuqSm" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

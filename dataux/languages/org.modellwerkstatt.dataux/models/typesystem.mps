@@ -5182,19 +5182,6 @@
                 <ref role="37wK5l" to="70o0:1Csx3LqyLk2" resolve="isSinglePager" />
               </node>
             </node>
-            <node concept="9aQIb" id="6IYVo2hTU6z" role="9aQIa">
-              <node concept="3clFbS" id="6IYVo2hTU6$" role="9aQI4">
-                <node concept="2MkqsV" id="6IYVo2hTUdx" role="3cqZAp">
-                  <node concept="Xl_RD" id="6IYVo2hTUdH" role="2MkJ7o">
-                    <property role="Xl_RC" value="Compound action can only be used on commands with none (+successor) or one page." />
-                  </node>
-                  <node concept="1YBJjd" id="6IYVo2hTUjm" role="2OEOjV">
-                    <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
-                  </node>
-                </node>
-                <node concept="3clFbH" id="6IYVo2hTUjQ" role="3cqZAp" />
-              </node>
-            </node>
             <node concept="3eNFk2" id="5Ld38uBulfa" role="3eNLev">
               <node concept="1Wc70l" id="5Ld38uBulAy" role="3eO9$A">
                 <node concept="2OqwBi" id="5Ld38uBum$F" role="3uHU7w">
@@ -5266,6 +5253,29 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="5Ld38uBu_op" role="3cqZAp" />
+              </node>
+            </node>
+            <node concept="3eNFk2" id="7PeCy_MGywh" role="3eNLev">
+              <node concept="3clFbS" id="7PeCy_MGywi" role="3eOfB_">
+                <node concept="2MkqsV" id="7PeCy_MGywj" role="3cqZAp">
+                  <node concept="Xl_RD" id="7PeCy_MGywk" role="2MkJ7o">
+                    <property role="Xl_RC" value="Compound action can only be used on commands with none (+successor) or one page." />
+                  </node>
+                  <node concept="1YBJjd" id="7PeCy_MGywl" role="2OEOjV">
+                    <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                  </node>
+                </node>
+                <node concept="3clFbH" id="7PeCy_MGywm" role="3cqZAp" />
+              </node>
+              <node concept="3fqX7Q" id="7PeCy_MGBw9" role="3eO9$A">
+                <node concept="2OqwBi" id="7PeCy_MGBwb" role="3fr31v">
+                  <node concept="1YBJjd" id="7PeCy_MGBwc" role="2Oq$k0">
+                    <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                  </node>
+                  <node concept="2qgKlT" id="7PeCy_MGBwd" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:7PeCy_MuqSn" resolve="isOfxSurpressErrors" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
