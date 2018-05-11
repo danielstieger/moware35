@@ -14992,6 +14992,71 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="7RlSFeblpuG" role="3cqZAp" />
+            <node concept="3clFbJ" id="7RlSFeblqcc" role="3cqZAp">
+              <node concept="3clFbS" id="7RlSFeblqce" role="3clFbx">
+                <node concept="2MkqsV" id="7RlSFebluSi" role="3cqZAp">
+                  <node concept="Xl_RD" id="7RlSFebluSx" role="2MkJ7o">
+                    <property role="Xl_RC" value="When working in continious mode, do not forget the delayTime option!" />
+                  </node>
+                  <node concept="1YBJjd" id="7RlSFebluVr" role="2OEOjV">
+                    <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+                  </node>
+                </node>
+              </node>
+              <node concept="1Wc70l" id="7RlSFeblthX" role="3clFbw">
+                <node concept="2OqwBi" id="7RlSFebluj6" role="3uHU7w">
+                  <node concept="2OqwBi" id="7RlSFebltDT" role="2Oq$k0">
+                    <node concept="1YBJjd" id="7RlSFebltyM" role="2Oq$k0">
+                      <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+                    </node>
+                    <node concept="2qgKlT" id="7RlSFeblu0W" role="2OqNvi">
+                      <ref role="37wK5l" to="70o0:7KiQG4ayeIu" resolve="getDelayTimeOption" />
+                    </node>
+                  </node>
+                  <node concept="3w_OXm" id="7RlSFebluBl" role="2OqNvi" />
+                </node>
+                <node concept="2OqwBi" id="7RlSFeblrjx" role="3uHU7B">
+                  <node concept="2OqwBi" id="7RlSFeblqmv" role="2Oq$k0">
+                    <node concept="1YBJjd" id="7RlSFeblqje" role="2Oq$k0">
+                      <ref role="1YBMHb" node="382CQP5JD_A" resolve="ofxBatchJob" />
+                    </node>
+                    <node concept="2qgKlT" id="7RlSFeblqJB" role="2OqNvi">
+                      <ref role="37wK5l" to="70o0:7KiQG4aKYcq" resolve="getCrons" />
+                    </node>
+                  </node>
+                  <node concept="2HwmR7" id="7RlSFeblsnu" role="2OqNvi">
+                    <node concept="1bVj0M" id="7RlSFeblsnw" role="23t8la">
+                      <node concept="3clFbS" id="7RlSFeblsnx" role="1bW5cS">
+                        <node concept="3clFbF" id="7RlSFeblsvi" role="3cqZAp">
+                          <node concept="2OqwBi" id="7RlSFeblsSh" role="3clFbG">
+                            <node concept="2OqwBi" id="7RlSFebls$A" role="2Oq$k0">
+                              <node concept="37vLTw" id="7RlSFeblsvh" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7RlSFeblsny" resolve="it" />
+                              </node>
+                              <node concept="3TrcHB" id="7RlSFeblsGK" role="2OqNvi">
+                                <ref role="3TsBF5" to="un0u:7KiQG4aj5Sm" resolve="sec" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="7RlSFeblt2U" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                              <node concept="Xl_RD" id="7RlSFeblt6D" role="37wK5m">
+                                <property role="Xl_RC" value="*" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="7RlSFeblsny" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="7RlSFeblsnz" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7RlSFeblpB5" role="3cqZAp" />
           </node>
         </node>
       </node>
