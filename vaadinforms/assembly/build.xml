@@ -98,6 +98,12 @@
       <fileset dir="${mowarePluginHomeDir}/jars/vaadinclient/" includes="*.jar" />
     </copy>
     
+    <!-- change favicon with local one -->
+    <jar destfile="work/WEB-INF/lib/moware-updated-theme-1.0.jar">
+    	<zipfileset src="work/WEB-INF/lib/moware-vaadin-theme-1.0.jar" excludes="VAADIN/themes/moware/*.ico"/>
+    	<zipfileset file="./favicon.ico" prefix="VAADIN/themes/moware/" />
+	</jar>
+    <delete file="work/WEB-INF/lib/moware-vaadin-theme-1.0.jar" />
     
     
     <mkdir dir="work/WEB-INF/classes"/>
