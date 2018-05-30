@@ -5735,7 +5735,22 @@
         <node concept="17QB3L" id="2BF5kUGT7L4" role="1tU5fm" />
       </node>
     </node>
-    <node concept="2tJIrI" id="2BF5kUGSJSc" role="jymVt" />
+    <node concept="3clFb_" id="65KdKINRh5x" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setProlongedUserSession" />
+      <node concept="3cqZAl" id="65KdKINRh5z" role="3clF45" />
+      <node concept="3Tm1VV" id="65KdKINRh5$" role="1B3o_S" />
+      <node concept="3clFbS" id="65KdKINRh5_" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="65KdKINS11X" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="isProlongedUserSession" />
+      <node concept="3clFbS" id="65KdKINS120" role="3clF47" />
+      <node concept="3Tm1VV" id="65KdKINS121" role="1B3o_S" />
+      <node concept="10P_77" id="65KdKINS0ZB" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="65KdKINRgb$" role="jymVt" />
     <node concept="3clFb_" id="5xcCl6qcmXE" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getVariant" />

@@ -28902,6 +28902,11 @@
           </node>
         </node>
         <node concept="3clFbH" id="1wwgtxziDgS" role="3cqZAp" />
+        <node concept="3SKdUt" id="65KdKINUM_5" role="3cqZAp">
+          <node concept="3SKdUq" id="65KdKINUM_7" role="3SKWNk">
+            <property role="3SKdUp" value="let devs. access roles after userName/Id is set in app UI-Module" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="66GoTZ78nTc" role="3cqZAp">
           <node concept="3cpWsn" id="66GoTZ78nTd" role="3cpWs9">
             <property role="TrG5h" value="session" />
@@ -28921,6 +28926,8 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="65KdKINULuk" role="3cqZAp" />
+        <node concept="3clFbH" id="65KdKINUMe3" role="3cqZAp" />
         <node concept="2GUZhq" id="r$jHpEYfkt" role="3cqZAp">
           <node concept="3clFbS" id="1EA1lDXekGF" role="2GV8ay">
             <node concept="3SKdUt" id="4d3Pnf44EF1" role="3cqZAp">
@@ -29078,6 +29085,9 @@
             <node concept="3clFbH" id="r$jHpEYhky" role="3cqZAp" />
           </node>
         </node>
+        <node concept="3clFbH" id="65KdKINRagY" role="3cqZAp" />
+        <node concept="3clFbH" id="65KdKINRaqq" role="3cqZAp" />
+        <node concept="3clFbH" id="65KdKINRazR" role="3cqZAp" />
         <node concept="3clFbJ" id="75iQIE8YRl9" role="3cqZAp">
           <node concept="3clFbS" id="75iQIE8YRlc" role="3clFbx">
             <node concept="3clFbF" id="4M9afjaQNvm" role="3cqZAp">
@@ -29135,6 +29145,10 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="65KdKINRb6o" role="3cqZAp" />
+        <node concept="3clFbH" id="65KdKINRbfR" role="3cqZAp" />
+        <node concept="3clFbH" id="65KdKINRbzH" role="3cqZAp" />
+        <node concept="3clFbH" id="65KdKINRbpn" role="3cqZAp" />
         <node concept="3cpWs6" id="r$jHpEZ6e_" role="3cqZAp">
           <node concept="10Nm6u" id="r$jHpEZ9oU" role="3cqZAk" />
         </node>

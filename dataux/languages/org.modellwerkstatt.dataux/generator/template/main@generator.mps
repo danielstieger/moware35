@@ -13665,6 +13665,17 @@
       <node concept="10P_77" id="75iQIE8WV3z" role="3clF45" />
       <node concept="3Tm1VV" id="75iQIE8WV3$" role="1B3o_S" />
       <node concept="3clFbS" id="75iQIE8WV3A" role="3clF47">
+        <node concept="3cpWs8" id="65KdKINX_2C" role="3cqZAp">
+          <node concept="3cpWsn" id="65KdKINX_2D" role="3cpWs9">
+            <property role="TrG5h" value="__manMapSession" />
+            <node concept="3uibUv" id="65KdKINX_2E" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+            <node concept="37vLTw" id="65KdKINXCjF" role="33vP2m">
+              <ref role="3cqZAo" node="66GoTZ7nQ3W" resolve="session" />
+            </node>
+          </node>
+        </node>
         <node concept="3SKdUt" id="1AyJSLe06pU" role="3cqZAp">
           <node concept="3SKdUq" id="1AyJSLe06qa" role="3SKWNk">
             <property role="3SKdUp" value="since repositories and services can be used here, we " />

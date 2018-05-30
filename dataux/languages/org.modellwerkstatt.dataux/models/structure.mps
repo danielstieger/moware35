@@ -1011,6 +1011,9 @@
     <property role="TrG5h" value="AppAuthenticationFunction" />
     <property role="34LRSv" value="isAuthenticated" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="65KdKINXug6" role="PzmwI">
+      <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6K73LRuXEPA">
     <property role="1pbfSe" value="1258142851" />

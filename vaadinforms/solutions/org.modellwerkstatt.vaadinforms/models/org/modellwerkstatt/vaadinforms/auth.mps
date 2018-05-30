@@ -148,6 +148,7 @@
       <concept id="1208890769693" name="jetbrains.mps.baseLanguage.structure.ArrayLengthOperation" flags="nn" index="1Rwk04" />
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+      <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -182,6 +183,13 @@
       <node concept="10Oyi0" id="1A4FVdAvc8D" role="3clF45" />
       <node concept="3Tm1VV" id="1A4FVdAvc52" role="1B3o_S" />
       <node concept="3clFbS" id="1A4FVdAvc53" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="65KdKINSjkb" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getCookieMaxAgeAfterAuthenticationForProlongedUserSessions" />
+      <node concept="10Oyi0" id="65KdKINSjkc" role="3clF45" />
+      <node concept="3Tm1VV" id="65KdKINSjkd" role="1B3o_S" />
+      <node concept="3clFbS" id="65KdKINSjke" role="3clF47" />
     </node>
     <node concept="3clFb_" id="4FiFGILfhHH" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -493,6 +501,11 @@
       <node concept="3Tm6S6" id="1A4FVdAwGtz" role="1B3o_S" />
       <node concept="10Oyi0" id="1A4FVdAwGt$" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="65KdKINSnds" role="jymVt">
+      <property role="TrG5h" value="cookieAgeForProlongedSession" />
+      <node concept="3Tm6S6" id="65KdKINSndt" role="1B3o_S" />
+      <node concept="10Oyi0" id="65KdKINSndu" role="1tU5fm" />
+    </node>
     <node concept="312cEg" id="1A4FVdAwGTP" role="jymVt">
       <property role="TrG5h" value="useMidnightLogOff" />
       <node concept="3Tm6S6" id="1A4FVdAwGTQ" role="1B3o_S" />
@@ -555,6 +568,16 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="65KdKINSnwH" role="3cqZAp">
+          <node concept="37vLTI" id="65KdKINSnD4" role="3clFbG">
+            <node concept="3cmrfG" id="65KdKINSnGX" role="37vLTx">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="65KdKINSnwF" role="37vLTJ">
+              <ref role="3cqZAo" node="65KdKINSnds" resolve="cookieAgeForProlongedSession" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="1A4FVdAwFuk" role="jymVt" />
@@ -602,6 +625,44 @@
         </node>
       </node>
     </node>
+    <node concept="3clFbW" id="65KdKINSnQI" role="jymVt">
+      <node concept="37vLTG" id="65KdKINSnQJ" role="3clF46">
+        <property role="TrG5h" value="sessionTimeOutInSecond" />
+        <node concept="10Oyi0" id="65KdKINSnQK" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="65KdKINSnQL" role="3clF46">
+        <property role="TrG5h" value="cookieAgeInSec" />
+        <node concept="10Oyi0" id="65KdKINSnQM" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="65KdKINSodG" role="3clF46">
+        <property role="TrG5h" value="cookieAgeInSecProlongedUsesSession" />
+        <node concept="10Oyi0" id="65KdKINSofZ" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="65KdKINSnQN" role="3clF45" />
+      <node concept="3Tm1VV" id="65KdKINSnQO" role="1B3o_S" />
+      <node concept="3clFbS" id="65KdKINSnQP" role="3clF47">
+        <node concept="1VxSAg" id="65KdKINSo7E" role="3cqZAp">
+          <ref role="37wK5l" node="1A4FVdAwFLI" resolve="VLdapAuthentication" />
+          <node concept="37vLTw" id="65KdKINSojw" role="37wK5m">
+            <ref role="3cqZAo" node="65KdKINSnQJ" resolve="sessionTimeOutInSecond" />
+          </node>
+          <node concept="37vLTw" id="65KdKINSopq" role="37wK5m">
+            <ref role="3cqZAo" node="65KdKINSnQL" resolve="cookieAgeInSec" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="65KdKINSoui" role="3cqZAp">
+          <node concept="37vLTI" id="65KdKINSoyv" role="3clFbG">
+            <node concept="37vLTw" id="65KdKINSoCW" role="37vLTx">
+              <ref role="3cqZAo" node="65KdKINSodG" resolve="cookieAgeInSecProlongedUsesSession" />
+            </node>
+            <node concept="37vLTw" id="65KdKINSoug" role="37vLTJ">
+              <ref role="3cqZAo" node="65KdKINSnds" resolve="cookieAgeForProlongedSession" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="65KdKINSnI8" role="jymVt" />
     <node concept="3clFb_" id="4FiFGILpgeL" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="needsLoginWindow" />
@@ -625,6 +686,20 @@
         <node concept="3clFbF" id="1A4FVdAwIcn" role="3cqZAp">
           <node concept="37vLTw" id="1A4FVdAwIcm" role="3clFbG">
             <ref role="3cqZAo" node="1A4FVdAwGty" resolve="cookieAge" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="65KdKINSn1z" role="jymVt" />
+    <node concept="3clFb_" id="65KdKINSmPM" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCookieMaxAgeAfterAuthenticationForProlongedUserSessions" />
+      <node concept="10Oyi0" id="65KdKINSmPN" role="3clF45" />
+      <node concept="3Tm1VV" id="65KdKINSmPO" role="1B3o_S" />
+      <node concept="3clFbS" id="65KdKINSmPQ" role="3clF47">
+        <node concept="3clFbF" id="65KdKINSoGK" role="3cqZAp">
+          <node concept="37vLTw" id="65KdKINSoGJ" role="3clFbG">
+            <ref role="3cqZAo" node="65KdKINSnds" resolve="cookieAgeForProlongedSession" />
           </node>
         </node>
       </node>
@@ -819,6 +894,19 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="65KdKINSoS_" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCookieMaxAgeAfterAuthenticationForProlongedUserSessions" />
+      <node concept="10Oyi0" id="65KdKINSoSA" role="3clF45" />
+      <node concept="3Tm1VV" id="65KdKINSoSB" role="1B3o_S" />
+      <node concept="3clFbS" id="65KdKINSoSD" role="3clF47">
+        <node concept="3clFbF" id="65KdKINSoXX" role="3cqZAp">
+          <node concept="3cmrfG" id="65KdKINSoXW" role="3clFbG">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="5$BCFrwdaz$" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="authenticate" />
@@ -983,6 +1071,19 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="65KdKINSp3X" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCookieMaxAgeAfterAuthenticationForProlongedUserSessions" />
+      <node concept="10Oyi0" id="65KdKINSp3Y" role="3clF45" />
+      <node concept="3Tm1VV" id="65KdKINSp3Z" role="1B3o_S" />
+      <node concept="3clFbS" id="65KdKINSp41" role="3clF47">
+        <node concept="3clFbF" id="65KdKINSp9l" role="3cqZAp">
+          <node concept="3cmrfG" id="65KdKINSp9k" role="3clFbG">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="4FiFGILioDe" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="authenticate" />
@@ -1125,6 +1226,20 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3GKiyr8FMGD" role="jymVt" />
+    <node concept="3clFb_" id="65KdKINSpl$" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getCookieMaxAgeAfterAuthenticationForProlongedUserSessions" />
+      <node concept="10Oyi0" id="65KdKINSpl_" role="3clF45" />
+      <node concept="3Tm1VV" id="65KdKINSplA" role="1B3o_S" />
+      <node concept="3clFbS" id="65KdKINSplC" role="3clF47">
+        <node concept="3clFbF" id="65KdKINSprw" role="3cqZAp">
+          <node concept="3cmrfG" id="65KdKINSprv" role="3clFbG">
+            <property role="3cmrfH" value="0" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="65KdKINSrFi" role="jymVt" />
     <node concept="3clFb_" id="3GKiyr8FMGE" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="authenticate" />

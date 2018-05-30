@@ -738,6 +738,14 @@
         <property role="Xl_RC" value="" />
       </node>
     </node>
+    <node concept="312cEg" id="65KdKINRjzV" role="jymVt">
+      <property role="TrG5h" value="prolongedSession" />
+      <node concept="3Tm6S6" id="65KdKINRjzW" role="1B3o_S" />
+      <node concept="10P_77" id="65KdKINRspA" role="1tU5fm" />
+      <node concept="3clFbT" id="65KdKINRsR$" role="33vP2m">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
     <node concept="312cEg" id="3BCllXnpHgR" role="jymVt">
       <property role="TrG5h" value="cachedValues" />
       <node concept="3Tm6S6" id="3BCllXnpHgS" role="1B3o_S" />
@@ -1156,6 +1164,37 @@
     </node>
     <node concept="2tJIrI" id="67D5vCCWa$o" role="jymVt" />
     <node concept="2tJIrI" id="6UG$gXA73vg" role="jymVt" />
+    <node concept="3clFb_" id="65KdKINRsZg" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setProlongedUserSession" />
+      <node concept="3cqZAl" id="65KdKINRsZh" role="3clF45" />
+      <node concept="3Tm1VV" id="65KdKINRsZi" role="1B3o_S" />
+      <node concept="3clFbS" id="65KdKINRsZm" role="3clF47">
+        <node concept="3clFbF" id="65KdKINRtGG" role="3cqZAp">
+          <node concept="37vLTI" id="65KdKINRtKC" role="3clFbG">
+            <node concept="3clFbT" id="65KdKINRtNL" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="65KdKINRtGF" role="37vLTJ">
+              <ref role="3cqZAo" node="65KdKINRjzV" resolve="prolongedSession" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="65KdKINRvVm" role="jymVt">
+      <property role="TrG5h" value="isProlongedUserSession" />
+      <node concept="10P_77" id="65KdKINRwwh" role="3clF45" />
+      <node concept="3Tm1VV" id="65KdKINRvVp" role="1B3o_S" />
+      <node concept="3clFbS" id="65KdKINRvVq" role="3clF47">
+        <node concept="3clFbF" id="65KdKINRysW" role="3cqZAp">
+          <node concept="37vLTw" id="65KdKINRysV" role="3clFbG">
+            <ref role="3cqZAo" node="65KdKINRjzV" resolve="prolongedSession" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="65KdKINRuhZ" role="jymVt" />
     <node concept="3clFb_" id="6UG$gXA73Y5" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="setUserJmxService" />
