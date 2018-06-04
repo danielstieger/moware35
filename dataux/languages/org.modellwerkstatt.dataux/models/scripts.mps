@@ -8,6 +8,7 @@
   <imports>
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
+    <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -19,6 +20,7 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -100,7 +102,13 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
+        <child id="1140725362529" name="linkTarget" index="2oxUTC" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1138661924179" name="jetbrains.mps.lang.smodel.structure.Property_SetOperation" flags="nn" index="tyxLq">
+        <child id="1138662048170" name="value" index="tz02z" />
+      </concept>
       <concept id="1138676077309" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="nn" index="uoxfO">
         <reference id="1138676095763" name="enumMember" index="uo_Cq" />
       </concept>
@@ -108,9 +116,11 @@
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -306,6 +316,70 @@
                 </node>
                 <node concept="34oBXx" id="6XhUJcUjyIy" role="2OqNvi" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="_UgoZ" id="atoEsWg96g">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="AdjustAppUiModule" />
+    <property role="2BwPS$" value="MoWare CMD RC43C" />
+    <property role="_Wzho" value="Adjust AppUIModule session handling" />
+    <node concept="1opIMY" id="atoEsWg96h" role="_YvDr" />
+    <node concept="_XfAh" id="atoEsWg97j" role="_YvDr">
+      <property role="_XH9r" value="Call operations in AppUiModule" />
+      <ref role="_XDHR" to="un0u:6S08D5Jofmr" resolve="OperationCall" />
+      <node concept="_ZGcI" id="atoEsWg97k" role="_XPhp">
+        <node concept="3clFbS" id="atoEsWg97l" role="2VODD2">
+          <node concept="3clFbH" id="atoEsWgaQm" role="3cqZAp" />
+          <node concept="3clFbF" id="atoEsWgaQX" role="3cqZAp">
+            <node concept="2OqwBi" id="atoEsWgbgd" role="3clFbG">
+              <node concept="2OqwBi" id="atoEsWgaUO" role="2Oq$k0">
+                <node concept="_YI3z" id="atoEsWgaQV" role="2Oq$k0" />
+                <node concept="3TrEf2" id="atoEsWgb5w" role="2OqNvi">
+                  <ref role="3Tt5mk" to="un0u:2P7gGuypd_d" />
+                </node>
+              </node>
+              <node concept="2oxUTD" id="atoEsWgbjs" role="2OqNvi">
+                <node concept="10Nm6u" id="atoEsWgbkp" role="2oxUTC" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="atoEsWgbmZ" role="3cqZAp">
+            <node concept="2OqwBi" id="atoEsWgbPk" role="3clFbG">
+              <node concept="2OqwBi" id="atoEsWgbrh" role="2Oq$k0">
+                <node concept="_YI3z" id="atoEsWgbmX" role="2Oq$k0" />
+                <node concept="3TrcHB" id="atoEsWgbAZ" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:7PeCy_MumjV" resolve="knowWhatDoing" />
+                </node>
+              </node>
+              <node concept="tyxLq" id="atoEsWgbTb" role="2OqNvi">
+                <node concept="3clFbT" id="atoEsWgbUY" role="tz02z">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="atoEsWgaQo" role="3cqZAp" />
+        </node>
+      </node>
+      <node concept="_Y34e" id="atoEsWg97m" role="_XDHO">
+        <node concept="3clFbS" id="atoEsWg97n" role="2VODD2">
+          <node concept="3clFbF" id="atoEsWg9Xj" role="3cqZAp">
+            <node concept="2OqwBi" id="atoEsWga$8" role="3clFbG">
+              <node concept="2OqwBi" id="atoEsWga2C" role="2Oq$k0">
+                <node concept="_YI3z" id="atoEsWg9X8" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="atoEsWgamX" role="2OqNvi">
+                  <node concept="1xMEDy" id="atoEsWgamZ" role="1xVPHs">
+                    <node concept="chp4Y" id="atoEsWgap8" role="ri$Ld">
+                      <ref role="cht4Q" to="1btx:6K73LRuUW3k" resolve="AppUiModule" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3x8VRR" id="atoEsWgaNa" role="2OqNvi" />
             </node>
           </node>
         </node>
