@@ -369,6 +369,9 @@
     <node concept="PrWs8" id="MP9H4j$TXA" role="PzmwI">
       <ref role="PrY4T" node="1xbJ1snAn6u" resolve="IHasMenu" />
     </node>
+    <node concept="PrWs8" id="3scH5Fp8txR" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo7" resolve="IHasFormOptions" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1h$q6rwmHiS">
     <property role="1pbfSe" value="188793570" />

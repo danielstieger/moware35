@@ -1118,7 +1118,46 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="7rG0OCdjRF1" role="3cqZAp" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="3scH5Fpc4Aw" role="3cqZAp" />
+      <node concept="3clFbJ" id="3scH5Fpc4Pm" role="3cqZAp">
+        <node concept="3clFbS" id="3scH5Fpc4Po" role="3clFbx">
+          <node concept="2MkqsV" id="3scH5Fpc8FZ" role="3cqZAp">
+            <node concept="Xl_RD" id="3scH5Fpc8Ge" role="2MkJ7o">
+              <property role="Xl_RC" value="The disabled option can only be applied to DelegateForms." />
+            </node>
+            <node concept="1YBJjd" id="3scH5Fpc8Lr" role="2OEOjV">
+              <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="3scH5Fpc71b" role="3clFbw">
+          <node concept="3fqX7Q" id="3scH5Fpc8vP" role="3uHU7w">
+            <node concept="2OqwBi" id="3scH5Fpc8vR" role="3fr31v">
+              <node concept="2OqwBi" id="3scH5Fpc8vS" role="2Oq$k0">
+                <node concept="1YBJjd" id="3scH5Fpc8vT" role="2Oq$k0">
+                  <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
+                </node>
+                <node concept="3TrEf2" id="3scH5Fpc8vU" role="2OqNvi">
+                  <ref role="3Tt5mk" to="1btx:7rG0OCdj5GO" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="3scH5Fpc8vV" role="2OqNvi">
+                <node concept="chp4Y" id="3scH5Fpc8vW" role="cj9EA">
+                  <ref role="cht4Q" to="1btx:6MSPLZmFnKF" resolve="DelegateForm" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="3scH5Fpc53Q" role="3uHU7B">
+            <node concept="1YBJjd" id="3scH5Fpc4Zh" role="2Oq$k0">
+              <ref role="1YBMHb" node="7rG0OCdj3vr" resolve="include" />
+            </node>
+            <node concept="2qgKlT" id="3scH5Fpc6X5" role="2OqNvi">
+              <ref role="37wK5l" to="5y3p:pQ21WN5qNU" resolve="isEditingDisabled" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

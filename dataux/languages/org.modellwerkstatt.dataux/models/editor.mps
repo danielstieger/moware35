@@ -978,6 +978,15 @@
         <node concept="PMmxH" id="7rG0OCcHbOM" role="3EZMnx">
           <ref role="PMmxG" node="7rG0OCdhRYh" resolve="BindsObjectEditorWithoutIdentifier" />
         </node>
+        <node concept="PMmxH" id="3scH5FpaHW8" role="3EZMnx">
+          <ref role="PMmxG" node="pQ21WN5sjj" resolve="FormOptionEditor" />
+          <node concept="pVoyu" id="3scH5FpaHWC" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="3scH5FpaHWM" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
         <node concept="PMmxH" id="MP9H4j$U0s" role="3EZMnx">
           <ref role="PMmxG" node="1xbJ1snAn6A" resolve="MenuEditor" />
           <node concept="pVoyu" id="MP9H4j$U1X" role="3F10Kt">
