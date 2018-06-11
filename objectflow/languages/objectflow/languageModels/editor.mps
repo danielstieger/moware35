@@ -12767,7 +12767,7 @@
         <ref role="1NtTu8" to="un0u:7JtXXwmFLXL" />
       </node>
       <node concept="3F0ifn" id="7bWGJuRDHiQ" role="3EZMnx">
-        <property role="3F0ifm" value="ex name machtes" />
+        <property role="3F0ifm" value="ex name matches" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="pVoyu" id="7JtXXwmFLY4" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -13167,7 +13167,7 @@
   <node concept="PKFIW" id="7PeCy_Mumk2">
     <property role="3GE5qa" value="OFXCore.OFXNew" />
     <property role="TrG5h" value="SurpErrorMarker" />
-    <ref role="1XX52x" to="un0u:7PeCy_MumjU" resolve="IOFSurpErrorMarker" />
+    <ref role="1XX52x" to="un0u:7PeCy_MumjU" resolve="IOFXSurpErrorMarker" />
     <node concept="3F0ifn" id="7PeCy_Mumk4" role="2wV5jI">
       <property role="3F0ifm" value="!!" />
       <ref role="1k5W1q" node="72pStkQl$xi" resolve="O2FailIn" />
