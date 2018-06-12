@@ -983,9 +983,6 @@
           <node concept="pVoyu" id="3scH5FpaHWC" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
-          <node concept="lj46D" id="3scH5FpaHWM" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
         </node>
         <node concept="PMmxH" id="MP9H4j$U0s" role="3EZMnx">
           <ref role="PMmxG" node="1xbJ1snAn6A" resolve="MenuEditor" />
