@@ -786,7 +786,6 @@
         <ref role="1NtTu8" to="r5tz:4ufYzPFoxMn" />
         <node concept="l2Vlx" id="4ufYzPFoxMq" role="2czzBx" />
         <node concept="3F0ifn" id="4ufYzPFoxMr" role="2czzBI">
-          <property role="3F0ifm" value="" />
           <property role="ilYzB" value="&lt;join&gt;" />
         </node>
       </node>
@@ -797,7 +796,6 @@
         <node concept="3F0ifn" id="EYyuKpelwF" role="2czzBI">
           <property role="3F0ifm" value="" />
           <property role="ilYzB" value="&lt;query op&gt;" />
-          <property role="1cu_pB" value="2" />
         </node>
       </node>
       <node concept="1HlG4h" id="1kww3H77tBK" role="3EZMnx">
