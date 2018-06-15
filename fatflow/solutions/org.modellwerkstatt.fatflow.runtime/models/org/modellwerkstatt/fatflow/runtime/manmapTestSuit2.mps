@@ -12620,11 +12620,11 @@
     <property role="3GE5qa" value="tests" />
     <property role="TrG5h" value="Creators" />
     <node concept="J2Nxi" id="7mZ5ilqNXRI" role="38MLOi">
-      <property role="J2Nxv" value="C:/moware/fatflow/testdata/" />
+      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
       <property role="TrG5h" value="GRAPHS" />
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="C:/moware/fatflow/testdata/sqls/" />
+      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">
@@ -29419,10 +29419,10 @@
                   <property role="19SUeA" value=" SET " />
                 </node>
                 <node concept="1Q8hyx" id="7fPCQJn8r2N" role="19SJt6">
-                  <ref role="1Q8sVa" node="4eJAcMlClHd" />
+                  <ref role="1Q8sVa" node="4eJAcMlClxw" />
                 </node>
                 <node concept="19SUe$" id="7fPCQJn8r2M" role="19SJt6">
-                  <property role="19SUeA" value="=0 WHERE 1==0" />
+                  <property role="19SUeA" value="= 0 WHERE (1 = 0)" />
                 </node>
               </node>
             </node>
