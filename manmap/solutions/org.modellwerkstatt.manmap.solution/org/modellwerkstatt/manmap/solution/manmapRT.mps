@@ -7697,5 +7697,131 @@
       </node>
     </node>
   </node>
+  <node concept="3HP615" id="1YSLAaBz9tw">
+    <property role="TrG5h" value="IM3DatabaseDescription" />
+    <node concept="2tJIrI" id="1YSLAaBz9vg" role="jymVt" />
+    <node concept="3clFb_" id="1YSLAaBz9w6" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="needsSequenceSelectPre" />
+      <node concept="10P_77" id="1YSLAaBzsj4" role="3clF45" />
+      <node concept="3Tm1VV" id="1YSLAaBz9w9" role="1B3o_S" />
+      <node concept="3clFbS" id="1YSLAaBz9wa" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1YSLAaBz9yf" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="needsIdSelectPost" />
+      <node concept="10P_77" id="1YSLAaBzsjY" role="3clF45" />
+      <node concept="3Tm1VV" id="1YSLAaBz9yh" role="1B3o_S" />
+      <node concept="3clFbS" id="1YSLAaBz9yi" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1YSLAaBz9xu" role="jymVt" />
+    <node concept="3clFb_" id="1YSLAaBzrB7" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getTimeStampQuery" />
+      <node concept="3clFbS" id="1YSLAaBzrBa" role="3clF47" />
+      <node concept="3Tm1VV" id="1YSLAaBzrBb" role="1B3o_S" />
+      <node concept="17QB3L" id="1YSLAaBzrAg" role="3clF45" />
+    </node>
+    <node concept="3Tm1VV" id="1YSLAaBz9tx" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="1YSLAaBzsbA">
+    <property role="TrG5h" value="MMOracleDescription" />
+    <node concept="2tJIrI" id="1YSLAaBzsdY" role="jymVt" />
+    <node concept="2tJIrI" id="1YSLAaBzse0" role="jymVt" />
+    <node concept="3clFb_" id="1YSLAaBzsei" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="needsSequenceSelectPre" />
+      <node concept="10P_77" id="1YSLAaBzsml" role="3clF45" />
+      <node concept="3Tm1VV" id="1YSLAaBzsek" role="1B3o_S" />
+      <node concept="3clFbS" id="1YSLAaBzsem" role="3clF47">
+        <node concept="3clFbF" id="1YSLAaBzsgu" role="3cqZAp">
+          <node concept="3clFbT" id="1YSLAaBzsgt" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1YSLAaBzsen" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="needsIdSelectPost" />
+      <node concept="10P_77" id="1YSLAaBzsob" role="3clF45" />
+      <node concept="3Tm1VV" id="1YSLAaBzsep" role="1B3o_S" />
+      <node concept="3clFbS" id="1YSLAaBzser" role="3clF47">
+        <node concept="3clFbF" id="1YSLAaBzsgY" role="3cqZAp">
+          <node concept="3clFbT" id="1YSLAaBzsgX" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1YSLAaBzses" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getTimeStampQuery" />
+      <node concept="3Tm1VV" id="1YSLAaBzseu" role="1B3o_S" />
+      <node concept="17QB3L" id="1YSLAaBzsev" role="3clF45" />
+      <node concept="3clFbS" id="1YSLAaBzsew" role="3clF47">
+        <node concept="3clFbF" id="1YSLAaBzshq" role="3cqZAp">
+          <node concept="Xl_RD" id="1YSLAaBzshp" role="3clFbG">
+            <property role="Xl_RC" value="SELECT SYSTIMESTAMP FROM DUAL" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="1YSLAaBzsbB" role="1B3o_S" />
+    <node concept="3uibUv" id="1YSLAaBzsdN" role="EKbjA">
+      <ref role="3uigEE" node="1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
+    </node>
+  </node>
+  <node concept="312cEu" id="1YSLAaBzspJ">
+    <property role="TrG5h" value="MMMySqlDescription" />
+    <node concept="2tJIrI" id="1YSLAaBzspK" role="jymVt" />
+    <node concept="2tJIrI" id="1YSLAaBzspL" role="jymVt" />
+    <node concept="3clFb_" id="1YSLAaBzspM" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="needsSequenceSelectPre" />
+      <node concept="10P_77" id="1YSLAaBzspN" role="3clF45" />
+      <node concept="3Tm1VV" id="1YSLAaBzspO" role="1B3o_S" />
+      <node concept="3clFbS" id="1YSLAaBzspP" role="3clF47">
+        <node concept="3clFbF" id="1YSLAaBzstJ" role="3cqZAp">
+          <node concept="3clFbT" id="1YSLAaBzstI" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1YSLAaBzspS" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="needsIdSelectPost" />
+      <node concept="10P_77" id="1YSLAaBzspT" role="3clF45" />
+      <node concept="3Tm1VV" id="1YSLAaBzspU" role="1B3o_S" />
+      <node concept="3clFbS" id="1YSLAaBzspV" role="3clF47">
+        <node concept="3clFbF" id="1YSLAaBzsuM" role="3cqZAp">
+          <node concept="3clFbT" id="1YSLAaBzsuL" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1YSLAaBzspY" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getTimeStampQuery" />
+      <node concept="3Tm1VV" id="1YSLAaBzspZ" role="1B3o_S" />
+      <node concept="17QB3L" id="1YSLAaBzsq0" role="3clF45" />
+      <node concept="3clFbS" id="1YSLAaBzsq1" role="3clF47">
+        <node concept="3clFbF" id="1YSLAaBzsq2" role="3cqZAp">
+          <node concept="Xl_RD" id="1YSLAaBzsq3" role="3clFbG">
+            <property role="Xl_RC" value="SELECT current_timestamp()" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="1YSLAaBzsq4" role="1B3o_S" />
+    <node concept="3uibUv" id="1YSLAaBzsq5" role="EKbjA">
+      <ref role="3uigEE" node="1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
+    </node>
+  </node>
 </model>
 

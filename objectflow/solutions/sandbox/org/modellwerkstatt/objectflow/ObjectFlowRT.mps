@@ -33680,7 +33680,6 @@
   <node concept="312cEu" id="3$bhckDx2Vv">
     <property role="TrG5h" value="DeprecatedServerDateProvider" />
     <node concept="3Tm1VV" id="3$bhckDx2Vw" role="1B3o_S" />
-    <node concept="2tJIrI" id="3$bhckDx2Wc" role="jymVt" />
     <node concept="Wx3nA" id="3$bhckDy$DO" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="dataSource" />
@@ -33707,6 +33706,15 @@
         <ref role="3uigEE" to="w7gk:7ITJFzopat9" resolve="MMJodaLocalDateTypeHanlder" />
       </node>
       <node concept="3Tm6S6" id="3$bhckDx2XE" role="1B3o_S" />
+    </node>
+    <node concept="Wx3nA" id="1YSLAaBzt10" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="databaseDescription" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="1YSLAaBztl6" role="1tU5fm">
+        <ref role="3uigEE" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
+      </node>
+      <node concept="3Tm6S6" id="1YSLAaBzt12" role="1B3o_S" />
     </node>
     <node concept="Wx3nA" id="3$bhckDyBT0" role="jymVt">
       <property role="IEkAT" value="false" />
@@ -33763,6 +33771,16 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1YSLAaBzttY" role="3cqZAp">
+          <node concept="37vLTI" id="1YSLAaBztvK" role="3clFbG">
+            <node concept="37vLTw" id="1YSLAaBztxh" role="37vLTx">
+              <ref role="3cqZAo" node="1YSLAaBztmv" resolve="desc" />
+            </node>
+            <node concept="37vLTw" id="1YSLAaBzttW" role="37vLTJ">
+              <ref role="3cqZAo" node="1YSLAaBzt10" resolve="databaseDescription" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="3$bhckDx2YC" role="3cqZAp">
           <node concept="37vLTI" id="3$bhckDx2YD" role="3clFbG">
             <node concept="2ShNRf" id="3$bhckDx2YE" role="37vLTx">
@@ -33795,6 +33813,12 @@
         <property role="TrG5h" value="date" />
         <node concept="3uibUv" id="3$bhckDx2YN" role="1tU5fm">
           <ref role="3uigEE" to="w7gk:7ITJFzopat9" resolve="MMJodaLocalDateTypeHanlder" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1YSLAaBztmv" role="3clF46">
+        <property role="TrG5h" value="desc" />
+        <node concept="3uibUv" id="1YSLAaBztof" role="1tU5fm">
+          <ref role="3uigEE" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
         </node>
       </node>
       <node concept="P$JXv" id="3$bhckDyP0l" role="lGtFl">
@@ -33927,8 +33951,13 @@
               </node>
               <node concept="liA8E" id="3$bhckDx31b" role="2OqNvi">
                 <ref role="37wK5l" to="mbv:~JdbcTemplate.query(java.lang.String,org.springframework.jdbc.core.ResultSetExtractor,java.lang.Object...):java.lang.Object" resolve="query" />
-                <node concept="Xl_RD" id="3$bhckDx31c" role="37wK5m">
-                  <property role="Xl_RC" value="SELECT SYSTIMESTAMP FROM DUAL" />
+                <node concept="2OqwBi" id="1YSLAaBztK1" role="37wK5m">
+                  <node concept="37vLTw" id="1YSLAaBztEE" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1YSLAaBzt10" resolve="databaseDescription" />
+                  </node>
+                  <node concept="liA8E" id="1YSLAaBztQ8" role="2OqNvi">
+                    <ref role="37wK5l" to="w7gk:1YSLAaBzrB7" resolve="getTimeStampQuery" />
+                  </node>
                 </node>
                 <node concept="2ShNRf" id="3$bhckDx31d" role="37wK5m">
                   <node concept="YeOm9" id="3$bhckDx31e" role="2ShVmc">
@@ -34057,8 +34086,13 @@
               </node>
               <node concept="liA8E" id="3$bhckDx31G" role="2OqNvi">
                 <ref role="37wK5l" to="mbv:~JdbcTemplate.query(java.lang.String,org.springframework.jdbc.core.ResultSetExtractor,java.lang.Object...):java.lang.Object" resolve="query" />
-                <node concept="Xl_RD" id="3$bhckDx31H" role="37wK5m">
-                  <property role="Xl_RC" value="SELECT SYSTIMESTAMP FROM DUAL" />
+                <node concept="2OqwBi" id="1YSLAaBztTw" role="37wK5m">
+                  <node concept="37vLTw" id="1YSLAaBztT$" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1YSLAaBzt10" resolve="databaseDescription" />
+                  </node>
+                  <node concept="liA8E" id="1YSLAaBztTx" role="2OqNvi">
+                    <ref role="37wK5l" to="w7gk:1YSLAaBzrB7" resolve="getTimeStampQuery" />
+                  </node>
                 </node>
                 <node concept="2ShNRf" id="3$bhckDx31I" role="37wK5m">
                   <node concept="YeOm9" id="3$bhckDx31J" role="2ShVmc">
