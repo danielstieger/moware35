@@ -6587,42 +6587,6 @@
         </node>
       </node>
     </node>
-    <node concept="wbJLE" id="6VW5G636Ruf" role="jymVt">
-      <property role="TrG5h" value="findInvoiceByDate2" />
-      <node concept="37vLTG" id="6VW5G636Rug" role="3clF46">
-        <property role="TrG5h" value="date" />
-        <node concept="3uibUv" id="6VW5G636Ruh" role="1tU5fm">
-          <ref role="3uigEE" to="w08f:~LocalDate" resolve="LocalDate" />
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="6VW5G636Rui" role="1B3o_S" />
-      <node concept="3clFbS" id="6VW5G636Ruj" role="3clF47">
-        <node concept="3clFbF" id="70qPrkDi3Yc" role="3cqZAp">
-          <node concept="jybIQ" id="70qPrkDi3Ya" role="3clFbG">
-            <property role="1v8G3g" value="true" />
-            <property role="HScZ5" value="true" />
-            <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
-            <node concept="jxyYR" id="70qPrkDi4er" role="jxX7b">
-              <node concept="3clFbC" id="6VW5G636UDY" role="jxyYK">
-                <node concept="3_7ulE" id="70qPrkDi4gG" role="3uHU7B">
-                  <property role="3lIecd" value="TO_LOCALDATE" />
-                  <ref role="3_688M" node="70qPrkDi3Ya" />
-                  <ref role="2OG787" node="70qPrkCybas" />
-                </node>
-                <node concept="37vLTw" id="6VW5G636UKu" role="3uHU7w">
-                  <ref role="3cqZAo" node="6VW5G636Rug" resolve="date" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="_YKpA" id="6VW5G636RuR" role="3clF45">
-        <node concept="3uibUv" id="6VW5G636RuS" role="_ZDj9">
-          <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
-        </node>
-      </node>
-    </node>
     <node concept="wbJLE" id="4ksEJbWrXJR" role="jymVt">
       <property role="TrG5h" value="findInvoiceByIds" />
       <node concept="37vLTG" id="4ksEJbWrXNg" role="3clF46">
@@ -7093,6 +7057,7 @@
               </node>
             </node>
           </node>
+          <node concept="15s5l7" id="6VW5G63g7Yd" role="lGtFl" />
         </node>
       </node>
     </node>
