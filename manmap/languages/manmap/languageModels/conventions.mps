@@ -38,9 +38,6 @@
       <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
         <child id="1188208488637" name="annotation" index="2AJF6D" />
       </concept>
-      <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
-        <property id="1224848525476" name="isDeprecated" index="IEkAT" />
-      </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -4405,46 +4402,6 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="DvL6v9AiN$" role="jymVt" />
-    <node concept="2tJIrI" id="DvL6v9Ajok" role="jymVt" />
-    <node concept="2YIFZL" id="DvL6v9Ant2" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="DiZV1" value="false" />
-      <property role="od$2w" value="false" />
-      <property role="TrG5h" value="getParamQuestionmark" />
-      <node concept="37vLTG" id="DvL6v9Ao2s" role="3clF46">
-        <property role="TrG5h" value="forDate" />
-        <node concept="10P_77" id="DvL6v9Ao2R" role="1tU5fm" />
-      </node>
-      <node concept="3clFbS" id="DvL6v9AmQF" role="3clF47">
-        <node concept="3SKdUt" id="DvL6v9B$ao" role="3cqZAp">
-          <node concept="3SKdUq" id="DvL6v9B$aU" role="3SKWNk">
-            <property role="3SKdUp" value="check: http://blog.jooq.org/2014/12/22/are-you-binding-your-oracle-dates-correctly-i-bet-you-arent/" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="DvL6v9B$5J" role="3cqZAp" />
-        <node concept="3clFbJ" id="DvL6v9Ao9k" role="3cqZAp">
-          <node concept="3clFbS" id="DvL6v9Ao9l" role="3clFbx">
-            <node concept="3cpWs6" id="DvL6v9Aomz" role="3cqZAp">
-              <node concept="Xl_RD" id="DvL6v9AoqZ" role="3cqZAk">
-                <property role="Xl_RC" value=" CAST(? AS DATE) " />
-              </node>
-            </node>
-          </node>
-          <node concept="37vLTw" id="DvL6v9Aoic" role="3clFbw">
-            <ref role="3cqZAo" node="DvL6v9Ao2s" resolve="forDate" />
-          </node>
-        </node>
-        <node concept="3cpWs6" id="DvL6v9ApcY" role="3cqZAp">
-          <node concept="Xl_RD" id="DvL6v9AphA" role="3cqZAk">
-            <property role="Xl_RC" value=" ? " />
-          </node>
-        </node>
-      </node>
-      <node concept="17QB3L" id="DvL6v9Apil" role="3clF45" />
-      <node concept="3Tm1VV" id="DvL6v9AmQE" role="1B3o_S" />
-    </node>
-    <node concept="2tJIrI" id="DvL6v9Akx4" role="jymVt" />
   </node>
   <node concept="312cEu" id="7$A8r6g0BMq">
     <property role="TrG5h" value="BinaryOPHelper" />

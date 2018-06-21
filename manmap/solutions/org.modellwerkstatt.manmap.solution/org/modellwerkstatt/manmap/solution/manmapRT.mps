@@ -7714,7 +7714,17 @@
       <node concept="3Tm1VV" id="1YSLAaBz9yh" role="1B3o_S" />
       <node concept="3clFbS" id="1YSLAaBz9yi" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="1YSLAaBz9xu" role="jymVt" />
+    <node concept="3clFb_" id="6VW5G62iP9v" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="castAsDate" />
+      <node concept="17QB3L" id="6VW5G62iPaX" role="3clF45" />
+      <node concept="3Tm1VV" id="6VW5G62iP9y" role="1B3o_S" />
+      <node concept="3clFbS" id="6VW5G62iP9z" role="3clF47" />
+      <node concept="37vLTG" id="6VW5G62iPdt" role="3clF46">
+        <property role="TrG5h" value="orig" />
+        <node concept="17QB3L" id="6VW5G62iPds" role="1tU5fm" />
+      </node>
+    </node>
     <node concept="3clFb_" id="1YSLAaBzrB7" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
@@ -7751,6 +7761,38 @@
         <node concept="3clFbF" id="1YSLAaBzsgY" role="3cqZAp">
           <node concept="3clFbT" id="1YSLAaBzsgX" role="3clFbG">
             <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6VW5G62iPnb" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="castAsDate" />
+      <node concept="17QB3L" id="6VW5G62iPnc" role="3clF45" />
+      <node concept="3Tm1VV" id="6VW5G62iPnd" role="1B3o_S" />
+      <node concept="37vLTG" id="6VW5G62iPnf" role="3clF46">
+        <property role="TrG5h" value="orig" />
+        <node concept="17QB3L" id="6VW5G62iPng" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="6VW5G62iPnh" role="3clF47">
+        <node concept="3SKdUt" id="DvL6v9B$ao" role="3cqZAp">
+          <node concept="3SKdUq" id="DvL6v9B$aU" role="3SKWNk">
+            <property role="3SKdUp" value="check: http://blog.jooq.org/2014/12/22/are-you-binding-your-oracle-dates-correctly-i-bet-you-arent/" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="6VW5G62iPXD" role="3cqZAp">
+          <node concept="3cpWs3" id="6VW5G62iQcO" role="3cqZAk">
+            <node concept="Xl_RD" id="6VW5G62iQfG" role="3uHU7w">
+              <property role="Xl_RC" value=" AS DATE) " />
+            </node>
+            <node concept="3cpWs3" id="6VW5G62iQam" role="3uHU7B">
+              <node concept="Xl_RD" id="DvL6v9AoqZ" role="3uHU7B">
+                <property role="Xl_RC" value=" CAST( " />
+              </node>
+              <node concept="37vLTw" id="6VW5G62iQaK" role="3uHU7w">
+                <ref role="3cqZAo" node="6VW5G62iPnf" resolve="orig" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -7800,6 +7842,33 @@
         <node concept="3clFbF" id="1YSLAaBzsuM" role="3cqZAp">
           <node concept="3clFbT" id="1YSLAaBzsuL" role="3clFbG">
             <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6VW5G62iPgN" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="castAsDate" />
+      <node concept="17QB3L" id="6VW5G62iPgO" role="3clF45" />
+      <node concept="3Tm1VV" id="6VW5G62iPgP" role="1B3o_S" />
+      <node concept="37vLTG" id="6VW5G62iPgR" role="3clF46">
+        <property role="TrG5h" value="orig" />
+        <node concept="17QB3L" id="6VW5G62iPgS" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="6VW5G62iPgT" role="3clF47">
+        <node concept="3clFbF" id="6VW5G62iPjL" role="3cqZAp">
+          <node concept="3cpWs3" id="6VW5G62iQuH" role="3clFbG">
+            <node concept="Xl_RD" id="6VW5G62iQvd" role="3uHU7w">
+              <property role="Xl_RC" value=" " />
+            </node>
+            <node concept="3cpWs3" id="6VW5G62iQxY" role="3uHU7B">
+              <node concept="Xl_RD" id="6VW5G62iQyz" role="3uHU7B">
+                <property role="Xl_RC" value=" " />
+              </node>
+              <node concept="37vLTw" id="6VW5G62iPjK" role="3uHU7w">
+                <ref role="3cqZAo" node="6VW5G62iPgR" resolve="orig" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

@@ -82,7 +82,7 @@ CREATE TABLE MMT_REFERER (/* for entity org.modellwerkstatt.fatflow.runtime.manm
 ); 
 
 CREATE TABLE MMT_AUDITENTITY (/* for entity org.modellwerkstatt.fatflow.runtime.manmapTestSuit2.IntKeyObject*/ 
- KEY NUMBER  (9) /* id */,
+ KEY_ID NUMBER  (9) /* id */,
  TXT_TEXT VARCHAR2  (50) /* text */,
  TXT_STATUS VARCHAR2  (5) /* onOff */,
  REF_AUDITENTITY NUMBER  (9) /* id */,
@@ -96,6 +96,6 @@ CREATE TABLE MMT_AUDITENTITY (/* for entity org.modellwerkstatt.fatflow.runtime.
  NUM_INTVAL NUMBER  (9) /* val */,
  COD_CURRENCY VARCHAR2  (50) /* currency */
 ); 
-CREATE UNIQUE INDEX I_MMT_AUDITENTITY_KEY ON MMT_AUDITENTITY (KEY);
+CREATE UNIQUE INDEX I_MMT_AUDITENTITY_KEY ON MMT_AUDITENTITY (KEY_ID);
 CREATE SEQUENCE S_AUDITENTITY START WITH 1 MINVALUE 1 MAXVALUE 999999999 NOCYCLE CACHE 20 ORDER;
 

@@ -22075,7 +22075,8 @@
         <ref role="3uigEE" to="w7gk:3wMahqy82Ju" resolve="MMTypeHandlers" />
       </node>
     </node>
-    <node concept="2tJIrI" id="6LKPMZKHnPW" role="jymVt" />
+    <node concept="2tJIrI" id="6VW5G62jcuN" role="jymVt" />
+    <node concept="2tJIrI" id="6VW5G62$Rau" role="jymVt" />
     <node concept="312cEg" id="4kZ75GwPpMm" role="jymVt">
       <property role="TrG5h" value="classMapper" />
       <node concept="3Tm6S6" id="4kZ75GwPpMn" role="1B3o_S" />
@@ -22465,7 +22466,16 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5cU7ygsUi6F" role="jymVt" />
-    <node concept="2tJIrI" id="5cU7ygr7PE7" role="jymVt" />
+    <node concept="312cEg" id="6VW5G62$Vw$" role="jymVt">
+      <property role="TrG5h" value="__dbDesc" />
+      <node concept="3Tm6S6" id="6VW5G62$Vw_" role="1B3o_S" />
+      <node concept="3uibUv" id="6VW5G62$WCH" role="1tU5fm">
+        <ref role="3uigEE" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
+      </node>
+      <node concept="2AHcQZ" id="6VW5G62$WD6" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="6LKPMZJk31M" role="jymVt" />
     <node concept="3clFbW" id="6W_Qo9f2MoG" role="jymVt">
       <node concept="37vLTG" id="6LKPMZJk9ba" role="3clF46">
