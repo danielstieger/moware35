@@ -14454,7 +14454,7 @@
                               <ref role="3cqZAo" node="7X5ehdpomBq" resolve="it" />
                             </node>
                             <node concept="2qgKlT" id="7X5ehdpomYc" role="2OqNvi">
-                              <ref role="37wK5l" node="7X5ehdoTqyw" resolve="hasCommandCreationInfo" />
+                              <ref role="37wK5l" node="7X5ehdoTqyw" resolve="hasCommandCreationInfoAndTestMethod" />
                             </node>
                           </node>
                           <node concept="3clFbS" id="7X5ehdpomEi" role="3clFbx">
@@ -19712,7 +19712,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="7X5ehdoTqyw" role="13h7CS">
-      <property role="TrG5h" value="hasCommandCreationInfo" />
+      <property role="TrG5h" value="hasCommandCreationInfoAndTestMethod" />
       <node concept="3Tm1VV" id="7X5ehdoTqyx" role="1B3o_S" />
       <node concept="10P_77" id="7X5ehdoTrqo" role="3clF45" />
       <node concept="3clFbS" id="7X5ehdoTqyz" role="3clF47">
