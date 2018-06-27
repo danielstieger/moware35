@@ -16,7 +16,7 @@
  */
 
 
-var zVersion = 'MC R43';
+var zVersion = 'MC R47';
 var useAjax = false;
 var AJAX_HEADER = '--$$%&?e--';
 var AJAX_HEADER_REDIRECTION = '--$$%&?e--REDIRECT--$$%&?e--';
@@ -61,15 +61,25 @@ function scanReceived(params) {
 function enableScan() {
   if ($('input[name="scanconclusion"]') != null) {
     try {
+     EB.Barcode.enable({
+				allDecoders:false,
+				code128:true,
+				code39:true,
+				ean13:true,
+				ean8:true,
+				gs1dataBar:true,
+				gs1dataBarExpanded:true,
+				gs1dataBarLimited:true,
+				pdf417:true,
+				qrCode:true,
+				upcEanSupplemental5:true, 
+				upcEanSupplemental2:true, 
+				upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO,
+				}, scanReceived);
+				
       /* EB.Barcode.enable({
-        allDecoders: true,
-        upcEanSupplemental5: true,
-        upcEanSupplementalMode: EB.Barcode.UPCEAN_AUTO
-      }, scanReceived); */
-
-      EB.Barcode.enable({
         allDecoders: true
-      }, scanReceived);
+      }, scanReceived); */
 
       // if ANDRO_ZEBRA_AJAX
       var scanButton = $('#scanSoftButton');

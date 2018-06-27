@@ -13,7 +13,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'TC R43';
+var zVersion = 'TC R47';
 var lastSubmitTrace = '';
 var lastSequenceIDSubmitted = 0;
 var lastMillisSubmitted = 0;
@@ -99,8 +99,23 @@ function scanReceived(params){
 function enableScan(){
 	if ($('input[name="scanconclusion"]') != null) {
 		try {
-			/* EB.Barcode.enable({allDecoders:true, upcEanSupplemental5:true, upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO}, scanReceived); */
-			EB.Barcode.enable({allDecoders:true }, scanReceived);
+			EB.Barcode.enable({
+				allDecoders:false,
+				code128:true,
+				code39:true,
+				ean13:true,
+				ean8:true,
+				gs1dataBar:true,
+				gs1dataBarExpanded:true,
+				gs1dataBarLimited:true,
+				pdf417:true,
+				qrCode:true,
+				upcEanSupplemental5:true, 
+				upcEanSupplemental2:true, 
+				upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO,
+				}, scanReceived);
+				
+			/* EB.Barcode.enable({allDecoders:true,  }, scanReceived); */
 			$('#scanSoftButton').disabled = false;
 
 		} catch(err) {
