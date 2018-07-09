@@ -4413,6 +4413,12 @@
       <property role="20kJfa" value="theBTask" />
       <ref role="20lvS9" node="3eB7cNzwzKc" resolve="OFXBTaskContext" />
     </node>
+    <node concept="1TJgyj" id="I5RNLIPTiy" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pairs" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="I5RNLIPTjN" resolve="OFXProducerConsumerPair" />
+    </node>
     <node concept="1TJgyj" id="7TJOmj6MJQg" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
@@ -4929,6 +4935,24 @@
     <node concept="1TJgyi" id="7PeCy_MumjV" role="1TKVEl">
       <property role="TrG5h" value="knowWhatDoing" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="I5RNLIPTjN">
+    <property role="1pbfSe" value="2052944943" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXProducerConsumerPair" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="I5RNLIPU3U" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="producerImpl" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3U0QWztRGQ8" resolve="OFXProducerContext" />
+    </node>
+    <node concept="1TJgyj" id="I5RNLIPU3V" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="consumerImpl" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3U0QWztRJKo" resolve="OFXConsumerContext" />
     </node>
   </node>
 </model>
