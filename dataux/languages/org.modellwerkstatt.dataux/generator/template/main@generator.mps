@@ -13852,6 +13852,19 @@
       <node concept="3cqZAl" id="Y3fiVKxIIh" role="3clF45" />
       <node concept="3Tm1VV" id="Y3fiVKxIIi" role="1B3o_S" />
       <node concept="3clFbS" id="Y3fiVKxIIj" role="3clF47">
+        <node concept="3clFbF" id="plABn3cBQN" role="3cqZAp">
+          <node concept="2YIFZM" id="plABn3cCR9" role="3clFbG">
+            <ref role="37wK5l" to="wyt6:~System.setProperty(java.lang.String,java.lang.String):java.lang.String" resolve="setProperty" />
+            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+            <node concept="Xl_RD" id="plABn3cD4m" role="37wK5m">
+              <property role="Xl_RC" value="glass.accessible.force" />
+            </node>
+            <node concept="Xl_RD" id="plABn3cDfH" role="37wK5m">
+              <property role="Xl_RC" value="false" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="I5RNLIJ0lg" role="3cqZAp" />
         <node concept="3cpWs8" id="IAiV2OeFl_" role="3cqZAp">
           <node concept="3cpWsn" id="IAiV2OeFlA" role="3cpWs9">
             <property role="TrG5h" value="cl" />
