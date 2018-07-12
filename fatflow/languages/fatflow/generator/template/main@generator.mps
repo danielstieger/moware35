@@ -40903,7 +40903,7 @@
       <property role="TrG5h" value="producer" />
       <node concept="3Tm6S6" id="66durT$YU75" role="1B3o_S" />
       <node concept="3uibUv" id="66durT$YUsQ" role="1tU5fm">
-        <ref role="3uigEE" to="z3ji:7BWfrtCZ5Nu" resolve="OFXProducerController" />
+        <ref role="3uigEE" to="z3ji:7BWfrtCZ5Nu" resolve="OFXPCPairController" />
       </node>
       <node concept="10Nm6u" id="3eB7cNzH6_H" role="33vP2m" />
     </node>
@@ -41118,7 +41118,7 @@
         <property role="TrG5h" value="jmxService" />
         <node concept="3Tm6S6" id="7HSdIeXW_2u" role="1B3o_S" />
         <node concept="3uibUv" id="7HSdIeXW_Vd" role="1tU5fm">
-          <ref role="3uigEE" to="z3ji:2yuEF6q8DRM" resolve="JmxService" />
+          <ref role="3uigEE" to="z3ji:2yuEF6q8DRM" resolve="JmxHelperService" />
         </node>
       </node>
       <node concept="312cEg" id="3eB7cNzNeGK" role="jymVt">
@@ -41132,7 +41132,7 @@
         <property role="TrG5h" value="jobMode" />
         <node concept="3Tm6S6" id="4jlzLDkJBjv" role="1B3o_S" />
         <node concept="3uibUv" id="21AFYXWd2Oj" role="1tU5fm">
-          <ref role="3uigEE" to="z3ji:1tVklsmzdNk" resolve="OFXProducerController.MODE" />
+          <ref role="3uigEE" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
         </node>
       </node>
       <node concept="2tJIrI" id="5BROMrVM$6y" role="jymVt" />
@@ -41689,7 +41689,7 @@
                                         </node>
                                         <node concept="Rm8GO" id="7bWGJuS3ytN" role="37wK5m">
                                           <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
-                                          <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
+                                          <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NO_HANDLING" />
                                           <node concept="1WS0z7" id="7bWGJuS3Y6A" role="lGtFl">
                                             <node concept="3JmXsc" id="7bWGJuS3Y6C" role="3Jn$fo">
                                               <node concept="3clFbS" id="7bWGJuS3Y6E" role="2VODD2">
@@ -41800,7 +41800,7 @@
                                 </node>
                                 <node concept="Rm8GO" id="7bWGJuS42Zf" role="37wK5m">
                                   <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
-                                  <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
+                                  <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NO_HANDLING" />
                                   <node concept="1WS0z7" id="7bWGJuS42Zg" role="lGtFl">
                                     <node concept="3JmXsc" id="7bWGJuS42Zh" role="3Jn$fo">
                                       <node concept="3clFbS" id="7bWGJuS42Zi" role="2VODD2">
@@ -41938,7 +41938,7 @@
                             </node>
                             <node concept="Rm8GO" id="4jlzLDkKj1F" role="37wK5m">
                               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
-                              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NOOP_JUST_LOG" />
+                              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="NO_HANDLING" />
                               <node concept="1WS0z7" id="7bWGJuS49Yo" role="lGtFl">
                                 <node concept="3JmXsc" id="7bWGJuS49Yq" role="3Jn$fo">
                                   <node concept="3clFbS" id="7bWGJuS49Ys" role="2VODD2">
@@ -42017,7 +42017,7 @@
                 <node concept="1Y3b0j" id="3eB7cNzG3C2" role="YeSDq">
                   <property role="2bfB8j" value="true" />
                   <ref role="1Y3XeK" to="z3ji:3eB7cNzDmir" resolve="OFXBTaskController" />
-                  <ref role="37wK5l" to="z3ji:3eB7cNzG1TL" resolve="OFXBTaskController" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                   <node concept="10QFUN" id="3eB7cNzGP4c" role="37wK5m">
                     <node concept="3uibUv" id="3eB7cNzGP4d" role="10QFUM">
                       <ref role="3uigEE" to="z3ji:xRnvdcXTUt" resolve="OFXBatchJobAppFactory" />
@@ -42319,7 +42319,7 @@
         <property role="1EzhhJ" value="false" />
         <property role="TrG5h" value="createProducerController" />
         <node concept="3uibUv" id="4jlzLDkIH3s" role="3clF45">
-          <ref role="3uigEE" to="z3ji:7BWfrtCZ5Nu" resolve="OFXProducerController" />
+          <ref role="3uigEE" to="z3ji:7BWfrtCZ5Nu" resolve="OFXPCPairController" />
           <node concept="3uibUv" id="4jlzLDkKoeH" role="11_B2D">
             <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
             <node concept="29HgVG" id="4jlzLDllo4j" role="lGtFl">
@@ -42345,8 +42345,8 @@
               <node concept="YeOm9" id="4jlzLDkJuMk" role="2ShVmc">
                 <node concept="1Y3b0j" id="4jlzLDkJuMn" role="YeSDq">
                   <property role="2bfB8j" value="true" />
-                  <ref role="1Y3XeK" to="z3ji:7BWfrtCZ5Nu" resolve="OFXProducerController" />
-                  <ref role="37wK5l" to="z3ji:7BWfrtCZtdA" resolve="OFXProducerController" />
+                  <ref role="1Y3XeK" to="z3ji:7BWfrtCZ5Nu" resolve="OFXPCPairController" />
+                  <ref role="37wK5l" to="z3ji:7BWfrtCZtdA" resolve="OFXPCPairController" />
                   <node concept="3Tm1VV" id="4jlzLDkJuMo" role="1B3o_S" />
                   <node concept="2tJIrI" id="382CQP4VopL" role="jymVt" />
                   <node concept="3clFb_" id="4jlzLDkJuMp" role="jymVt">
@@ -43705,7 +43705,7 @@
         <node concept="3clFbF" id="5BROMrW1_33" role="3cqZAp">
           <node concept="37vLTI" id="5BROMrW1_ZE" role="3clFbG">
             <node concept="Rm8GO" id="5BROMrW1Alk" role="37vLTx">
-              <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXProducerController.MODE" />
+              <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
               <ref role="Rm8GQ" to="z3ji:1tVklsmzhSn" resolve="TOMMY_MODE" />
             </node>
             <node concept="2OqwBi" id="5BROMrW1_F6" role="37vLTJ">
@@ -43722,7 +43722,7 @@
           <node concept="37vLTI" id="7HSdIeXWAGs" role="3clFbG">
             <node concept="2ShNRf" id="7HSdIeXWARF" role="37vLTx">
               <node concept="1pGfFk" id="7HSdIeXWAIh" role="2ShVmc">
-                <ref role="37wK5l" to="z3ji:2yuEF6q8ESR" resolve="JmxService" />
+                <ref role="37wK5l" to="z3ji:2yuEF6q8ESR" resolve="JmxHelperService" />
                 <node concept="37vLTw" id="6MAhPz6Xvdc" role="37wK5m">
                   <ref role="3cqZAo" node="5BROMrW1uuI" resolve="symbolicName" />
                 </node>
@@ -44822,7 +44822,7 @@
               <node concept="37vLTI" id="4jlzLDkJCfd" role="3clFbG">
                 <node concept="Rm8GO" id="21AFYXWda7L" role="37vLTx">
                   <ref role="Rm8GQ" to="z3ji:1tVklsmzjS5" resolve="CONSOLE_MODE" />
-                  <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXProducerController.MODE" />
+                  <ref role="1Px2BO" to="z3ji:1tVklsmzdNk" resolve="OFXPCPairController.MODE" />
                 </node>
                 <node concept="2OqwBi" id="4jlzLDkJC6D" role="37vLTJ">
                   <node concept="37vLTw" id="5BROMrVNrfp" role="2Oq$k0">
@@ -44927,7 +44927,7 @@
               <node concept="3cpWsn" id="4jlzLDkJDfr" role="3cpWs9">
                 <property role="TrG5h" value="crtl" />
                 <node concept="3uibUv" id="4jlzLDkJDfs" role="1tU5fm">
-                  <ref role="3uigEE" to="z3ji:7BWfrtCZ5Nu" resolve="OFXProducerController" />
+                  <ref role="3uigEE" to="z3ji:7BWfrtCZ5Nu" resolve="OFXPCPairController" />
                 </node>
                 <node concept="2OqwBi" id="4jlzLDkK2uI" role="33vP2m">
                   <node concept="37vLTw" id="5BROMrVNrMk" role="2Oq$k0">
