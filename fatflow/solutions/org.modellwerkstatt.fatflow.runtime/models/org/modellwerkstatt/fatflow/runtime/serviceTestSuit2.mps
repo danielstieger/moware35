@@ -1098,14 +1098,6 @@
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="492s:3U0QWztN8iD" resolve="New OFXRunCmd infra" />
     </node>
-    <node concept="1DZZI9" id="7X5ehdqLOMx" role="38MLOi">
-      <property role="26Iqih" value="true" />
-      <ref role="1DZZIc" to="k1op:gmxFf4ojMY" resolve="Consumer Producer Sunny" />
-    </node>
-    <node concept="1DZZI9" id="7X5ehdqLOMJ" role="38MLOi">
-      <property role="26Iqih" value="true" />
-      <ref role="1DZZIc" to="k1op:1TthV9fQEnK" resolve="Consumer Producer Rainy" />
-    </node>
     <node concept="1DF_5m" id="4Ta2XmW47C7" role="3yMuLx" />
     <node concept="2d2NRx" id="5p$R$8zooMb" role="3yTP5x">
       <node concept="3clFbS" id="5p$R$8zooMc" role="2VODD2">

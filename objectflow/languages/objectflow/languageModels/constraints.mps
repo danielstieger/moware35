@@ -6089,5 +6089,141 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="59aH4f6nT7e">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1M2myG" to="un0u:7KiQG4aFY23" resolve="OFXBatchPairDelaytime" />
+    <node concept="1N5Pfh" id="59aH4f6nT7f" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:59aH4f6nT6J" />
+      <node concept="13QW63" id="59aH4f6nT7j" role="1N6uqs">
+        <node concept="3clFbS" id="59aH4f6nT7l" role="2VODD2">
+          <node concept="3clFbF" id="59aH4f6nTTB" role="3cqZAp">
+            <node concept="2ShNRf" id="59aH4f6nTTz" role="3clFbG">
+              <node concept="1pGfFk" id="59aH4f6nU8s" role="2ShVmc">
+                <ref role="37wK5l" to="6xgk:7lHSllLpTWM" resolve="NamedElementsScope" />
+                <node concept="2OqwBi" id="59aH4f6nTrO" role="37wK5m">
+                  <node concept="2OqwBi" id="59aH4f6nT9a" role="2Oq$k0">
+                    <node concept="21POm0" id="59aH4f6nT7I" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="59aH4f6nTbg" role="2OqNvi">
+                      <node concept="1xMEDy" id="59aH4f6nTbi" role="1xVPHs">
+                        <node concept="chp4Y" id="59aH4f6nTce" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="59aH4f6nTfs" role="1xVPHs" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="59aH4f6nTzh" role="2OqNvi">
+                    <ref role="3TtcxE" to="un0u:I5RNLIPTiy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="59aH4f6nUpx">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1M2myG" to="un0u:7KiQG4aj5PK" resolve="OFXBatchCronExpression" />
+    <node concept="1N5Pfh" id="59aH4f6nUpy" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:59aH4f6nT5W" />
+      <node concept="13QW63" id="59aH4f6nUpA" role="1N6uqs">
+        <node concept="3clFbS" id="59aH4f6nUpC" role="2VODD2">
+          <node concept="3clFbF" id="59aH4f6nUpT" role="3cqZAp">
+            <node concept="2ShNRf" id="59aH4f6nUpU" role="3clFbG">
+              <node concept="1pGfFk" id="59aH4f6nUpV" role="2ShVmc">
+                <ref role="37wK5l" to="6xgk:7lHSllLpTWM" resolve="NamedElementsScope" />
+                <node concept="2OqwBi" id="59aH4f6nUpW" role="37wK5m">
+                  <node concept="2OqwBi" id="59aH4f6nUpX" role="2Oq$k0">
+                    <node concept="21POm0" id="59aH4f6nUpY" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="59aH4f6nUpZ" role="2OqNvi">
+                      <node concept="1xMEDy" id="59aH4f6nUq0" role="1xVPHs">
+                        <node concept="chp4Y" id="59aH4f6nUq1" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="59aH4f6nUq2" role="1xVPHs" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="59aH4f6nUq3" role="2OqNvi">
+                    <ref role="3TtcxE" to="un0u:I5RNLIPTiy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="59aH4f6nUvu">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1M2myG" to="un0u:7KiQG4b0b1d" resolve="OFXBatchPairNumConsumers" />
+    <node concept="1N5Pfh" id="59aH4f6nUvv" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:59aH4f6nUuT" />
+      <node concept="13QW63" id="59aH4f6nUvz" role="1N6uqs">
+        <node concept="3clFbS" id="59aH4f6nUv_" role="2VODD2">
+          <node concept="3clFbF" id="59aH4f6nUvY" role="3cqZAp">
+            <node concept="2ShNRf" id="59aH4f6nUvZ" role="3clFbG">
+              <node concept="1pGfFk" id="59aH4f6nUw0" role="2ShVmc">
+                <ref role="37wK5l" to="6xgk:7lHSllLpTWM" resolve="NamedElementsScope" />
+                <node concept="2OqwBi" id="59aH4f6nUw1" role="37wK5m">
+                  <node concept="2OqwBi" id="59aH4f6nUw2" role="2Oq$k0">
+                    <node concept="21POm0" id="59aH4f6nUw3" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="59aH4f6nUw4" role="2OqNvi">
+                      <node concept="1xMEDy" id="59aH4f6nUw5" role="1xVPHs">
+                        <node concept="chp4Y" id="59aH4f6nUw6" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="59aH4f6nUw7" role="1xVPHs" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="59aH4f6nUw8" role="2OqNvi">
+                    <ref role="3TtcxE" to="un0u:I5RNLIPTiy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7tfEsbFiRRR">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1M2myG" to="un0u:7tfEsbFiRRM" resolve="OFXBatchJobMain" />
+    <node concept="1N5Pfh" id="7tfEsbFiRRU" role="1Mr941">
+      <ref role="1N5Vy1" to="un0u:7tfEsbFiRRP" />
+      <node concept="13QW63" id="7tfEsbFiRRY" role="1N6uqs">
+        <node concept="3clFbS" id="7tfEsbFiRS0" role="2VODD2">
+          <node concept="3clFbF" id="7tfEsbFiRU4" role="3cqZAp">
+            <node concept="2ShNRf" id="7tfEsbFiRU5" role="3clFbG">
+              <node concept="1pGfFk" id="7tfEsbFiRU6" role="2ShVmc">
+                <ref role="37wK5l" to="6xgk:7lHSllLpTWM" resolve="NamedElementsScope" />
+                <node concept="2OqwBi" id="7tfEsbFiRU7" role="37wK5m">
+                  <node concept="2OqwBi" id="7tfEsbFiRU8" role="2Oq$k0">
+                    <node concept="21POm0" id="7tfEsbFiRU9" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="7tfEsbFiRUa" role="2OqNvi">
+                      <node concept="1xMEDy" id="7tfEsbFiRUb" role="1xVPHs">
+                        <node concept="chp4Y" id="7tfEsbFiRUc" role="ri$Ld">
+                          <ref role="cht4Q" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
+                        </node>
+                      </node>
+                      <node concept="1xIGOp" id="7tfEsbFiRUd" role="1xVPHs" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="7tfEsbFiRUe" role="2OqNvi">
+                    <ref role="3TtcxE" to="un0u:I5RNLIPTiy" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

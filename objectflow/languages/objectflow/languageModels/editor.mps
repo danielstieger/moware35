@@ -12930,9 +12930,37 @@
     <ref role="1XX52x" to="un0u:21AFYXWJblt" resolve="OFXConsumerCmdCallContext" />
     <node concept="3EZMnI" id="21AFYXWO_Fc" role="2wV5jI">
       <node concept="l2Vlx" id="21AFYXWO_Fd" role="2iSdaV" />
-      <node concept="3F0ifn" id="382CQP4NzOA" role="3EZMnx">
-        <property role="3F0ifm" value="when" />
+      <node concept="1HlG4h" id="59aH4f6cAEB" role="3EZMnx">
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="1HfYo3" id="59aH4f6cAED" role="1HlULh">
+          <node concept="3TQlhw" id="59aH4f6cAEF" role="1Hhtcw">
+            <node concept="3clFbS" id="59aH4f6cAEH" role="2VODD2">
+              <node concept="3clFbJ" id="59aH4f6cAGh" role="3cqZAp">
+                <node concept="3clFbC" id="59aH4f6cAY5" role="3clFbw">
+                  <node concept="3cmrfG" id="59aH4f6cAZH" role="3uHU7w">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="59aH4f6cAJG" role="3uHU7B">
+                    <node concept="pncrf" id="59aH4f6cAH2" role="2Oq$k0" />
+                    <node concept="2bSWHS" id="59aH4f6cAO4" role="2OqNvi" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="59aH4f6cAGj" role="3clFbx">
+                  <node concept="3cpWs6" id="59aH4f6cB1g" role="3cqZAp">
+                    <node concept="Xl_RD" id="59aH4f6cB2i" role="3cqZAk">
+                      <property role="Xl_RC" value="if" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="59aH4f6cB7L" role="3cqZAp">
+                <node concept="Xl_RD" id="59aH4f6cB9e" role="3cqZAk">
+                  <property role="Xl_RC" value="else if" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F1sOY" id="382CQP4NzOS" role="3EZMnx">
         <property role="1$x2rV" value="&lt;true&gt;" />
@@ -13043,6 +13071,9 @@
           </node>
         </node>
       </node>
+      <node concept="3nxI2P" id="7tfEsbFf9bE" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7X5ehdoVb0q">
@@ -13061,7 +13092,7 @@
   </node>
   <node concept="24kQdi" id="7KiQG4ajr7b">
     <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1XX52x" to="un0u:7KiQG4aj5PK" resolve="OFXBatchCronExpression" />
+    <ref role="1XX52x" to="un0u:7KiQG4aj5PK" resolve="OFXBatchPairCronExp" />
     <node concept="3EZMnI" id="7KiQG4ajr7d" role="2wV5jI">
       <node concept="PMmxH" id="7KiQG4aFY1N" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -13085,12 +13116,25 @@
       <node concept="3F0A7n" id="7KiQG4ajr8S" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:7KiQG4aj5S9" resolve="dayOfWeek" />
       </node>
+      <node concept="3F0ifn" id="59aH4f6nT67" role="3EZMnx">
+        <property role="3F0ifm" value="for" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="1iCGBv" id="59aH4f6nT6r" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:59aH4f6nT5W" />
+        <node concept="1sVBvm" id="59aH4f6nT6t" role="1sWHZn">
+          <node concept="3F0A7n" id="59aH4f6nT6G" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
       <node concept="l2Vlx" id="7KiQG4ajr7g" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="7KiQG4aFY2n">
     <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1XX52x" to="un0u:7KiQG4aFY23" resolve="OFXBatchJobDelaytime" />
+    <ref role="1XX52x" to="un0u:7KiQG4aFY23" resolve="OFXBatchPairDelaytime" />
     <node concept="3EZMnI" id="7KiQG4aFY2p" role="2wV5jI">
       <node concept="PMmxH" id="7KiQG4aFY2q" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -13100,10 +13144,19 @@
         <ref role="1NtTu8" to="un0u:7KiQG4aFY26" resolve="delayInSecs" />
       </node>
       <node concept="3F0ifn" id="5FnVeIxY1e3" role="3EZMnx">
-        <property role="3F0ifm" value="sec" />
+        <property role="3F0ifm" value="sec for" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="11L4FC" id="5FnVeIxYJP8" role="3F10Kt">
           <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="1iCGBv" id="59aH4f6nT6Y" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:59aH4f6nT6J" />
+        <node concept="1sVBvm" id="59aH4f6nT70" role="1sWHZn">
+          <node concept="3F0A7n" id="59aH4f6nT7b" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
         </node>
       </node>
       <node concept="l2Vlx" id="7KiQG4aFY2s" role="2iSdaV" />
@@ -13111,7 +13164,7 @@
   </node>
   <node concept="24kQdi" id="7KiQG4b0b1l">
     <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1XX52x" to="un0u:7KiQG4b0b1d" resolve="OFXBatchNumConsumers" />
+    <ref role="1XX52x" to="un0u:7KiQG4b0b1d" resolve="OFXBatchPairNumConsumers" />
     <node concept="3EZMnI" id="7KiQG4b0b1n" role="2wV5jI">
       <node concept="PMmxH" id="7KiQG4b0b1o" role="3EZMnx">
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
@@ -13119,6 +13172,19 @@
       </node>
       <node concept="3F0A7n" id="7KiQG4b0b1p" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:7KiQG4b0b1e" resolve="numConsumers" />
+      </node>
+      <node concept="3F0ifn" id="59aH4f6nUuZ" role="3EZMnx">
+        <property role="3F0ifm" value="for" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="1iCGBv" id="59aH4f6nUv9" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:59aH4f6nUuT" />
+        <node concept="1sVBvm" id="59aH4f6nUvb" role="1sWHZn">
+          <node concept="3F0A7n" id="59aH4f6nUvr" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
       <node concept="l2Vlx" id="7KiQG4b0b1q" role="2iSdaV" />
     </node>
@@ -13207,6 +13273,13 @@
     <ref role="1XX52x" to="un0u:I5RNLIPTjN" resolve="OFXProducerConsumerPair" />
     <node concept="3EZMnI" id="I5RNLJ02SO" role="2wV5jI">
       <property role="S$Qs1" value="true" />
+      <node concept="3F0ifn" id="59aH4f6dn3S" role="3EZMnx">
+        <property role="3F0ifm" value="consumer/producer pair" />
+        <ref role="1k5W1q" node="I5RNLIXOx7" resolve="O2SubSection" />
+      </node>
+      <node concept="PMmxH" id="59aH4f6dnvt" role="3EZMnx">
+        <ref role="PMmxG" node="6ffh1MXB2lM" resolve="ISpaceNamedEditor" />
+      </node>
       <node concept="1HlG4h" id="I5RNLJ0W6q" role="3EZMnx">
         <ref role="1k5W1q" node="I5RNLIXOx7" resolve="O2SubSection" />
         <node concept="1HfYo3" id="I5RNLJ0W6s" role="1HlULh">
@@ -13221,15 +13294,10 @@
                     <node concept="Xl_RD" id="I5RNLJ0Wet" role="3uHU7B">
                       <property role="Xl_RC" value="producer " />
                     </node>
-                    <node concept="1eOMI4" id="I5RNLJ0YEb" role="3uHU7w">
-                      <node concept="3cpWs3" id="I5RNLJ0YR5" role="1eOMHV">
-                        <node concept="3cmrfG" id="I5RNLJ0YRb" role="3uHU7w">
-                          <property role="3cmrfH" value="1" />
-                        </node>
-                        <node concept="2OqwBi" id="I5RNLJ0YEc" role="3uHU7B">
-                          <node concept="pncrf" id="I5RNLJ0YEd" role="2Oq$k0" />
-                          <node concept="2bSWHS" id="I5RNLJ0YEe" role="2OqNvi" />
-                        </node>
+                    <node concept="2OqwBi" id="7tfEsbFrHsj" role="3uHU7w">
+                      <node concept="pncrf" id="7tfEsbFrHoV" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="7tfEsbFrHzP" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:7tfEsbFrGP3" resolve="getPairID" />
                       </node>
                     </node>
                   </node>
@@ -13237,6 +13305,9 @@
               </node>
             </node>
           </node>
+        </node>
+        <node concept="pVoyu" id="59aH4f6dmZJ" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F1sOY" id="I5RNLIPUR4" role="3EZMnx">
@@ -13269,15 +13340,10 @@
                     <node concept="Xl_RD" id="I5RNLJ0XrZ" role="3uHU7B">
                       <property role="Xl_RC" value="consumer " />
                     </node>
-                    <node concept="1eOMI4" id="I5RNLJ0Yc$" role="3uHU7w">
-                      <node concept="3cpWs3" id="I5RNLJ0Ync" role="1eOMHV">
-                        <node concept="3cmrfG" id="I5RNLJ0Yni" role="3uHU7w">
-                          <property role="3cmrfH" value="1" />
-                        </node>
-                        <node concept="2OqwBi" id="I5RNLJ0Yc_" role="3uHU7B">
-                          <node concept="pncrf" id="I5RNLJ0YcA" role="2Oq$k0" />
-                          <node concept="2bSWHS" id="I5RNLJ0YcB" role="2OqNvi" />
-                        </node>
+                    <node concept="2OqwBi" id="7tfEsbFrHJ8" role="3uHU7w">
+                      <node concept="pncrf" id="7tfEsbFrHFG" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="7tfEsbFrHV5" role="2OqNvi">
+                        <ref role="37wK5l" to="70o0:7tfEsbFrGP3" resolve="getPairID" />
                       </node>
                     </node>
                   </node>
@@ -13331,6 +13397,37 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="59aH4f6yXAl">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1XX52x" to="un0u:59aH4f6yX$U" resolve="OFXBatchJobDependent" />
+    <node concept="3EZMnI" id="59aH4f6yXAn" role="2wV5jI">
+      <node concept="PMmxH" id="59aH4f6yXAo" role="3EZMnx">
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="l2Vlx" id="59aH4f6yXAq" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7tfEsbFiS7H">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1XX52x" to="un0u:7tfEsbFiRRM" resolve="OFXBatchJobMain" />
+    <node concept="3EZMnI" id="7tfEsbFiS7J" role="2wV5jI">
+      <node concept="PMmxH" id="7tfEsbFiS7K" role="3EZMnx">
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="1iCGBv" id="7tfEsbFiS7S" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:7tfEsbFiRRP" />
+        <node concept="1sVBvm" id="7tfEsbFiS7T" role="1sWHZn">
+          <node concept="3F0A7n" id="7tfEsbFiS7U" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="7tfEsbFiS7V" role="2iSdaV" />
     </node>
   </node>
 </model>

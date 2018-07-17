@@ -111,8 +111,9 @@ function enableScan(){
 				pdf417:true,
 				qrCode:true,
 				upcEanSupplemental5:true, 
-				upcEanSupplemental2:true, 
+				upcEanSupplemental2:true,
 				upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO,
+				
 				}, scanReceived);
 				
 			/* EB.Barcode.enable({allDecoders:true,  }, scanReceived); */

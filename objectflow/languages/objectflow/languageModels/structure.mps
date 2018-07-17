@@ -4717,7 +4717,7 @@
     </node>
     <node concept="1TJgyj" id="382CQP4Nz3Q" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="whenClause" />
+      <property role="20kJfa" value="ifClause" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
@@ -4806,10 +4806,16 @@
   <node concept="1TIwiD" id="7KiQG4aj5PK">
     <property role="1pbfSe" value="2040580047" />
     <property role="3GE5qa" value="OFXCore.batch2" />
-    <property role="TrG5h" value="OFXBatchCronExpression" />
+    <property role="TrG5h" value="OFXBatchPairCronExp" />
     <property role="34LRSv" value="CRON" />
     <property role="R4oN_" value="timer experssion for job" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="59aH4f6nT5W" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="pair" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="I5RNLIPTjN" resolve="OFXProducerConsumerPair" />
+    </node>
     <node concept="1TJgyi" id="7KiQG4aj5Sm" role="1TKVEl">
       <property role="TrG5h" value="sec" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -4841,10 +4847,16 @@
   <node concept="1TIwiD" id="7KiQG4aFY23">
     <property role="1pbfSe" value="2034058428" />
     <property role="3GE5qa" value="OFXCore.batch2" />
-    <property role="TrG5h" value="OFXBatchJobDelaytime" />
+    <property role="TrG5h" value="OFXBatchPairDelaytime" />
     <property role="34LRSv" value="DELAY" />
     <property role="R4oN_" value="time to wait after work processed" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="59aH4f6nT6J" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="pair" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="I5RNLIPTjN" resolve="OFXProducerConsumerPair" />
+    </node>
     <node concept="1TJgyi" id="7KiQG4aFY26" role="1TKVEl">
       <property role="TrG5h" value="delayInSecs" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
@@ -4856,10 +4868,16 @@
   <node concept="1TIwiD" id="7KiQG4b0b1d">
     <property role="1pbfSe" value="2028762354" />
     <property role="3GE5qa" value="OFXCore.batch2" />
-    <property role="TrG5h" value="OFXBatchNumConsumers" />
+    <property role="TrG5h" value="OFXBatchPairNumConsumers" />
     <property role="34LRSv" value="CONSUMERS" />
     <property role="R4oN_" value="number of consumers to use" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="59aH4f6nUuT" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="pair" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="I5RNLIPTjN" resolve="OFXProducerConsumerPair" />
+    </node>
     <node concept="1TJgyi" id="7KiQG4b0b1e" role="1TKVEl">
       <property role="TrG5h" value="numConsumers" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
@@ -4926,7 +4944,7 @@
     <property role="TrG5h" value="OFXBatchCronBTaskExpression" />
     <property role="34LRSv" value="BTASK_CRON" />
     <property role="R4oN_" value="timer expression for b-task" />
-    <ref role="1TJDcQ" node="7KiQG4aj5PK" resolve="OFXBatchCronExpression" />
+    <ref role="1TJDcQ" node="7KiQG4aj5PK" resolve="OFXBatchPairCronExp" />
   </node>
   <node concept="PlHQZ" id="7PeCy_MumjU">
     <property role="1pbfSe" value="272103645" />
@@ -4951,8 +4969,39 @@
     <node concept="1TJgyj" id="I5RNLIPU3V" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="consumerImpl" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="3U0QWztRJKo" resolve="OFXConsumerContext" />
+    </node>
+    <node concept="PrWs8" id="59aH4f6dmSn" role="PzmwI">
+      <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="59aH4f6yX$U">
+    <property role="1pbfSe" value="416714109" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXBatchJobDependent" />
+    <property role="34LRSv" value="DEPENDENT_CONSECUTIVE" />
+    <property role="R4oN_" value="pairs depend on each other" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="59aH4f6yX$W" role="PzmwI">
+      <ref role="PrY4T" node="4jlzLDl6dD6" resolve="IOFXBatchJobOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7tfEsbFiRRM">
+    <property role="1pbfSe" value="1654335412" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXBatchJobMain" />
+    <property role="R4oN_" value="run pair in console" />
+    <property role="34LRSv" value="CONSOLE_RUNS" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7tfEsbFiRRP" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="pair" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="I5RNLIPTjN" resolve="OFXProducerConsumerPair" />
+    </node>
+    <node concept="PrWs8" id="7tfEsbFiRRO" role="PzmwI">
+      <ref role="PrY4T" node="4jlzLDl6dD6" resolve="IOFXBatchJobOption" />
     </node>
   </node>
 </model>
