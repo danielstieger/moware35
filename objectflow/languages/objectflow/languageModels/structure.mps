@@ -4858,7 +4858,7 @@
       <ref role="20lvS9" node="I5RNLIPTjN" resolve="OFXProducerConsumerPair" />
     </node>
     <node concept="1TJgyi" id="7KiQG4aFY26" role="1TKVEl">
-      <property role="TrG5h" value="delayInSecs" />
+      <property role="TrG5h" value="delayInMS" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="PrWs8" id="7KiQG4aFY25" role="PzmwI">
