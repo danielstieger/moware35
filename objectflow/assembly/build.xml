@@ -19,7 +19,7 @@
 -->
  
 <project name="OFXBatchJob" default="default">      
-  <property name="buildUserHome"        value="/Users/danielstieger" /> 
+  <property name="buildUserHome"        value="C:/" /> 
 	
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
@@ -50,7 +50,6 @@
     	<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions" includes="*.jar"/>
   	</delete>
     
-
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.sandbox.jar"
     	 basedir="${mowareHome}/objectflow/solutions/sandbox/classes_gen"/>
          
@@ -59,7 +58,8 @@
     
     <copy todir="${mowarePluginHomeDir}/ofassembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/objectflow/assembly/artefact/"/>
-  	</copy>         
+  	</copy>
+  	        
   </target>
   <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  
 

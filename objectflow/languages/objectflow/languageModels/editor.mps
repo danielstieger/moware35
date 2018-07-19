@@ -13141,10 +13141,10 @@
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
       </node>
       <node concept="3F0A7n" id="7KiQG4aFY2x" role="3EZMnx">
-        <ref role="1NtTu8" to="un0u:7KiQG4aFY26" resolve="delayInSecs" />
+        <ref role="1NtTu8" to="un0u:7KiQG4aFY26" resolve="delayInSec" />
       </node>
       <node concept="3F0ifn" id="5FnVeIxY1e3" role="3EZMnx">
-        <property role="3F0ifm" value="millis for" />
+        <property role="3F0ifm" value="secs for" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
         <node concept="11L4FC" id="5FnVeIxYJP8" role="3F10Kt">
           <property role="VOm3f" value="true" />
