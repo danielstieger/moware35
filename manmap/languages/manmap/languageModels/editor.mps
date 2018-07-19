@@ -233,9 +233,23 @@
     <ref role="1XX52x" to="r5tz:Kou8Lehoqn" resolve="PersistenceDescription" />
     <node concept="3EZMnI" id="Kou8LehH1J" role="2wV5jI">
       <node concept="2iRkQZ" id="2UAghh$e_eF" role="2iSdaV" />
-      <node concept="3F0ifn" id="Kou8LehH1S" role="3EZMnx">
-        <property role="3F0ifm" value="persistence description for" />
-        <ref role="1k5W1q" node="Kou8LehH1N" resolve="UserConcept" />
+      <node concept="3EZMnI" id="4bYxf2FrThl" role="3EZMnx">
+        <node concept="VPM3Z" id="4bYxf2FrThn" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="4bYxf2FrThp" role="3EZMnx">
+          <property role="3F0ifm" value="persistence description" />
+          <ref role="1k5W1q" node="Kou8LehH1N" resolve="UserConcept" />
+        </node>
+        <node concept="3F0A7n" id="4bYxf2FrTj0" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
+        </node>
+        <node concept="3F0ifn" id="4bYxf2FrTjf" role="3EZMnx">
+          <property role="3F0ifm" value="for" />
+          <ref role="1k5W1q" node="Kou8LehH1N" resolve="UserConcept" />
+        </node>
+        <node concept="l2Vlx" id="4bYxf2FrThq" role="2iSdaV" />
       </node>
       <node concept="3F2HdR" id="Kou8LehH2G" role="3EZMnx">
         <property role="2czwfO" value="," />

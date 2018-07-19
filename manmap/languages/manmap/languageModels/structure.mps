@@ -83,6 +83,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="Kou8LehH1E" resolve="EntityMapping" />
     </node>
+    <node concept="PrWs8" id="4bYxf2FrTdS" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="Kou8LehH1z">
     <property role="TrG5h" value="FieldMapping" />
