@@ -45093,7 +45093,16 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbH" id="4jlzLDkIsg2" role="3cqZAp" />
+              <node concept="3clFbF" id="1FVEJAJ4NS9" role="3cqZAp">
+                <node concept="2YIFZM" id="1FVEJAJ4O1f" role="3clFbG">
+                  <ref role="37wK5l" to="wyt6:~System.exit(int):void" resolve="exit" />
+                  <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                  <node concept="3cmrfG" id="1FVEJAJ4Oa2" role="37wK5m">
+                    <property role="3cmrfH" value="-1" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="1FVEJAJ4Mzf" role="3cqZAp" />
             </node>
           </node>
         </node>

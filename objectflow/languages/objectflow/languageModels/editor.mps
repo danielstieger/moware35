@@ -12698,23 +12698,9 @@
         <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
       </node>
       <node concept="3F0ifn" id="3U0QWzu$pmu" role="3EZMnx">
-        <property role="3F0ifm" value="// allways check if unit of work was ALREADY processed (UI edits)" />
+        <property role="3F0ifm" value="// allways check if unit of work was ALREADY processed (UI edits) -&gt; cancel" />
         <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         <node concept="pVoyu" id="3U0QWzu$pqn" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="7bWGJuRCnaz" role="3EZMnx">
-        <property role="3F0ifm" value="// using process cmd permissions, or the cancel statement" />
-        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
-        <node concept="pVoyu" id="7bWGJuRCna$" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="3oLpnapl2cC" role="3EZMnx">
-        <property role="3F0ifm" value="// Commands not in a transaction!! Check state on retry??" />
-        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
-        <node concept="pVoyu" id="3oLpnapl2cD" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -13396,6 +13382,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="3vyZuw" id="1FVEJAIHC79" role="3F10Kt">
+        <property role="VOm3f" value="true" />
       </node>
     </node>
   </node>

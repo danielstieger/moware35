@@ -950,7 +950,7 @@
                                 </node>
                                 <node concept="3cpWs3" id="5ic27avwDj5" role="3uHU7B">
                                   <node concept="Xl_RD" id="5ic27avwDks" role="3uHU7w">
-                                    <property role="Xl_RC" value="' canceled: " />
+                                    <property role="Xl_RC" value="' CANCELED: " />
                                   </node>
                                   <node concept="3cpWs3" id="5ic27avwwzm" role="3uHU7B">
                                     <node concept="Xl_RD" id="5ic27avwq90" role="3uHU7B">
@@ -4567,6 +4567,7 @@
                 <property role="3SKdUp" value="do not activate... " />
               </node>
             </node>
+            <node concept="3clFbH" id="1FVEJAIXuG5" role="3cqZAp" />
           </node>
           <node concept="37vLTw" id="5lMTsSlDnpU" role="3clFbw">
             <ref role="3cqZAo" node="5lMTsSl$mR2" resolve="manualRun" />
@@ -4575,7 +4576,7 @@
             <node concept="3clFbS" id="5lMTsSlDtCw" role="9aQI4">
               <node concept="3SKdUt" id="4$zcAetpSjP" role="3cqZAp">
                 <node concept="3SKdUq" id="4$zcAetpSjR" role="3SKWNk">
-                  <property role="3SKdUp" value="last one was a manual run, this one is a scheduled one, resched - even on erro" />
+                  <property role="3SKdUp" value="last one was a manual run, this one is a scheduled one, resched - even on error" />
                 </node>
               </node>
               <node concept="3clFbF" id="5lMTsSlDuBe" role="3cqZAp">
@@ -4828,6 +4829,7 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="3eB7cNzww4l" role="3cqZAp" />
+                  <node concept="3clFbH" id="1FVEJAIXvY_" role="3cqZAp" />
                   <node concept="3clFbF" id="6qYeaMeB3kb" role="3cqZAp">
                     <node concept="1rXfSq" id="6qYeaMeB3kc" role="3clFbG">
                       <ref role="37wK5l" node="1TthV9fRJWT" resolve="wakeUpWaitingAndSendWork" />
@@ -14902,6 +14904,16 @@
                   <node concept="37vLTw" id="1w1E2yWoWMV" role="37vLTJ">
                     <ref role="3cqZAo" node="7tfEsbGnZc3" resolve="timer" />
                   </node>
+                </node>
+              </node>
+              <node concept="3SKdUt" id="1FVEJAIX_BB" role="3cqZAp">
+                <node concept="3SKdUq" id="1FVEJAIX_BD" role="3SKWNk">
+                  <property role="3SKdUp" value=" but draw new cron leases!" />
+                </node>
+              </node>
+              <node concept="3clFbF" id="1FVEJAIXDl0" role="3cqZAp">
+                <node concept="1rXfSq" id="1FVEJAIXDkY" role="3clFbG">
+                  <ref role="37wK5l" node="7tfEsbGa7BB" resolve="initialProducerRuns" />
                 </node>
               </node>
               <node concept="3cpWs6" id="1w1E2yWoVR_" role="3cqZAp">
