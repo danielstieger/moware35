@@ -16,7 +16,7 @@
  */
 
 
-var zVersion = 'MC R47';
+var zVersion = 'MC R48';
 var useAjax = false;
 var AJAX_HEADER = '--$$%&?e--';
 var AJAX_HEADER_REDIRECTION = '--$$%&?e--REDIRECT--$$%&?e--';
@@ -72,9 +72,9 @@ function enableScan() {
 				gs1dataBarLimited:true,
 				pdf417:true,
 				qrCode:true,
-				upcEanSupplemental5:true, 
+				/* upcEanSupplemental5:true, 
 				upcEanSupplemental2:true,
-				upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO,
+				upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO, */
 				
 				}, scanReceived);
 				

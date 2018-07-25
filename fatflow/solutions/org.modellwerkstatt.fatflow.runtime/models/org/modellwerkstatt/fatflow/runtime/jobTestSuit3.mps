@@ -282,9 +282,6 @@
       <concept id="6952410984693239415" name="org.modellwerkstatt.objectflow.structure.OFXTestMethocCallVarRef" flags="ng" index="3zkua3">
         <reference id="6952410984693239500" name="varReference" index="3zku8S" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -311,6 +308,7 @@
       <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
   </registry>
@@ -9800,7 +9798,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="2smfeL1TWT8" role="3yMuLx">
-      <property role="TrG5h" value="Manualrun does not issue resched, even if exception inmid." />
+      <property role="TrG5h" value="Manualrun does not issue resched, even if exception inmid., stops execution!" />
       <node concept="3yABqi" id="2smfeL1TWT9" role="3yGA3Q">
         <property role="TrG5h" value="exStrategy" />
         <ref role="37wK5l" node="5lMTsSlMoOG" resolve="Build Exception Strategy" />
@@ -9986,7 +9984,7 @@
         <node concept="1gVbGN" id="2smfeL1TWU6" role="3cqZAp">
           <node concept="3clFbC" id="2smfeL1TWU7" role="1gVkn0">
             <node concept="3cmrfG" id="2smfeL1TWU8" role="3uHU7w">
-              <property role="3cmrfH" value="3" />
+              <property role="3cmrfH" value="1" />
             </node>
             <node concept="2YIFZM" id="2smfeL1TWU9" role="3uHU7B">
               <ref role="37wK5l" node="5lMTsSlMoTf" resolve="numOfMsgs" />
@@ -10034,7 +10032,7 @@
         <node concept="1gVbGN" id="2smfeL1TWUp" role="3cqZAp">
           <node concept="3clFbC" id="2smfeL1TWUq" role="1gVkn0">
             <node concept="3cmrfG" id="2smfeL1TWUr" role="3uHU7w">
-              <property role="3cmrfH" value="1" />
+              <property role="3cmrfH" value="0" />
             </node>
             <node concept="2OqwBi" id="2smfeL1TWUs" role="3uHU7B">
               <node concept="3zkua3" id="2smfeL1TWUt" role="2Oq$k0">
@@ -10047,53 +10045,20 @@
           </node>
         </node>
         <node concept="1gVbGN" id="2smfeL1TWUv" role="3cqZAp">
-          <node concept="3clFbC" id="2smfeL1TWUw" role="1gVkn0">
-            <node concept="2OqwBi" id="2smfeL1TWUx" role="3uHU7B">
-              <node concept="2OqwBi" id="2smfeL1TWUy" role="2Oq$k0">
-                <node concept="2OqwBi" id="2smfeL1TWUz" role="2Oq$k0">
-                  <node concept="3zkua3" id="2smfeL1TWU$" role="2Oq$k0">
-                    <ref role="3zku8S" node="2smfeL1TWTi" resolve="tcrtl" />
-                  </node>
-                  <node concept="2OwXpG" id="2smfeL1TWU_" role="2OqNvi">
-                    <ref role="2Oxat5" node="2smfeL1KxPm" resolve="calls" />
-                  </node>
-                </node>
-                <node concept="34jXtK" id="2smfeL1TWUA" role="2OqNvi">
-                  <node concept="3cmrfG" id="2smfeL1TWUB" role="25WWJ7">
-                    <property role="3cmrfH" value="0" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2OwXpG" id="2smfeL1TWUC" role="2OqNvi">
-                <ref role="2Oxat5" node="2smfeL1Kvep" resolve="delayTimeinMS" />
-              </node>
+          <node concept="3clFbC" id="4InK$iN$OFt" role="1gVkn0">
+            <node concept="3cmrfG" id="4InK$iN$RG3" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
             </node>
-            <node concept="3cmrfG" id="2smfeL1TWUD" role="3uHU7w">
-              <property role="3cmrfH" value="200" />
-            </node>
-          </node>
-        </node>
-        <node concept="1gVbGN" id="2smfeL1TWUE" role="3cqZAp">
-          <node concept="3fqX7Q" id="2smfeL1TWUF" role="1gVkn0">
-            <node concept="2OqwBi" id="2smfeL1TWUG" role="3fr31v">
-              <node concept="2OqwBi" id="2smfeL1TWUH" role="2Oq$k0">
-                <node concept="2OqwBi" id="2smfeL1TWUI" role="2Oq$k0">
-                  <node concept="3zkua3" id="2smfeL1TWUJ" role="2Oq$k0">
-                    <ref role="3zku8S" node="2smfeL1TWTi" resolve="tcrtl" />
-                  </node>
-                  <node concept="2OwXpG" id="2smfeL1TWUK" role="2OqNvi">
-                    <ref role="2Oxat5" node="2smfeL1KxPm" resolve="calls" />
-                  </node>
+            <node concept="2OqwBi" id="2smfeL1TWUy" role="3uHU7B">
+              <node concept="2OqwBi" id="2smfeL1TWUz" role="2Oq$k0">
+                <node concept="3zkua3" id="2smfeL1TWU$" role="2Oq$k0">
+                  <ref role="3zku8S" node="2smfeL1TWTi" resolve="tcrtl" />
                 </node>
-                <node concept="34jXtK" id="2smfeL1TWUL" role="2OqNvi">
-                  <node concept="3cmrfG" id="2smfeL1TWUM" role="25WWJ7">
-                    <property role="3cmrfH" value="0" />
-                  </node>
+                <node concept="2OwXpG" id="2smfeL1TWU_" role="2OqNvi">
+                  <ref role="2Oxat5" node="2smfeL1KxPm" resolve="calls" />
                 </node>
               </node>
-              <node concept="liA8E" id="2smfeL1TWUN" role="2OqNvi">
-                <ref role="37wK5l" node="2smfeL1KwEo" resolve="wasProdRun" />
-              </node>
+              <node concept="34oBXx" id="4InK$iN$Os3" role="2OqNvi" />
             </node>
           </node>
         </node>
@@ -11205,51 +11170,6 @@
     <node concept="1DZZI9" id="5lMTsSlMp$b" role="38MLOi">
       <ref role="1DZZIc" node="5lMTsSlMoHs" resolve="InfraSetups" />
     </node>
-    <node concept="1Cak35" id="7tfEsbG$Srx" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1KbDF" resolve="Exception in Producer delays call according to strategy." />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$Sry" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1Ma5D" resolve="Exception in Producer delays call according to strategy, proceed with re-runs" />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$Srz" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1Nxvt" resolve="Exception in Consumer, wait and then work up inbox, receive runCompleteResched()" />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$Sr$" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1RPRT" resolve="Exception in Consumer, but inbox already empty! Do reschedule after ex hanling" />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$Sr_" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1SFbu" resolve="Exception in Consumer, wait and proceed on inbox, then next inbox load" />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$SrA" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1RdQ4" resolve="2 Exception in Consumers, wait the longer one, then work up inbox, receive runCompleteResched()" />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$SrB" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1VDs6" resolve="2 Exception in Consumers, wait longer, work up inbox, resched" />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$SrC" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1WcQq" resolve="2 Exception in Consumers, wait longer, work up inbox, resched, ex resched" />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$SrD" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1Y3Ia" resolve="2 Exception in Consumers, wait longer, unexpected prodrun clears inbox, then again resched" />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$SrE" role="38MLOi">
-      <ref role="1Cak38" node="4$zcAetq$hH" resolve="Exception in Consumer, will start a new one. " />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$SrF" role="38MLOi">
-      <ref role="1Cak38" node="4$zcAetrTCh" resolve="Exception in Consumer, will be parked without restart." />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$SrG" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1TWT8" resolve="Manualrun does not issue resched, even if exception inmid." />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$SrH" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1Uwu9" resolve="Manualrun does not issue resched, even if exception inmid AND last inbox item." />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$SrI" role="38MLOi">
-      <ref role="1Cak38" node="7tfEsbGyfWj" resolve="Run independent crons in delay mode. Both should process." />
-    </node>
-    <node concept="1Cak35" id="7tfEsbG$SrJ" role="38MLOi">
-      <ref role="1Cak38" node="7tfEsbGyAfA" resolve="Run dependent crons in delay mode. Only one should process." />
-    </node>
   </node>
   <node concept="2WPaUQ" id="5lMTsSlMp$c">
     <property role="TrG5h" value="CronSequenceTests" />
@@ -12240,6 +12160,26 @@
             <node concept="37vLTw" id="5lMTsSlMpBX" role="37vLTJ">
               <ref role="3cqZAo" node="5lMTsSlMpA1" resolve="shutdownExecuted" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="4InK$iNL7H2" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getFullStatusReport" />
+      <node concept="37vLTG" id="4InK$iNL7H3" role="3clF46">
+        <property role="TrG5h" value="crtl" />
+        <node concept="3uibUv" id="4InK$iNL7H4" role="1tU5fm">
+          <ref role="3uigEE" to="z3ji:7BWfrtCZ5Nu" resolve="OFXPCPairController" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="4InK$iNL7H6" role="1B3o_S" />
+      <node concept="17QB3L" id="4InK$iNL7H7" role="3clF45" />
+      <node concept="3clFbS" id="4InK$iNL7H8" role="3clF47">
+        <node concept="3clFbF" id="4InK$iNL8cZ" role="3cqZAp">
+          <node concept="Xl_RD" id="4InK$iNL8cY" role="3clFbG">
+            <property role="Xl_RC" value="" />
           </node>
         </node>
       </node>

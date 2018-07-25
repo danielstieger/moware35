@@ -4781,6 +4781,7 @@
     <node concept="PrWs8" id="6BG_0EbMi6j" role="PzmwI">
       <ref role="PrY4T" to="tpee:SORzhOp6jM" resolve="IVariableReference" />
     </node>
+    <node concept="asaX9" id="37q6uRD008T" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="7X5ehdoVaX7">
     <property role="1pbfSe" value="667817894" />
@@ -4937,6 +4938,7 @@
     <node concept="PrWs8" id="3eB7cNzCCgK" role="PzmwI">
       <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
+    <node concept="asaX9" id="37q6uRD008V" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="hskHECaWV_">
     <property role="1pbfSe" value="1400364609" />
@@ -4945,6 +4947,7 @@
     <property role="34LRSv" value="BTASK_CRON" />
     <property role="R4oN_" value="timer expression for b-task" />
     <ref role="1TJDcQ" node="7KiQG4aj5PK" resolve="OFXBatchPairCronExp" />
+    <node concept="asaX9" id="37q6uRD008X" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="7PeCy_MumjU">
     <property role="1pbfSe" value="272103645" />
@@ -5001,6 +5004,23 @@
       <ref role="20lvS9" node="I5RNLIPTjN" resolve="OFXProducerConsumerPair" />
     </node>
     <node concept="PrWs8" id="7tfEsbFiRRO" role="PzmwI">
+      <ref role="PrY4T" node="4jlzLDl6dD6" resolve="IOFXBatchJobOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="37q6uRD008Z">
+    <property role="1pbfSe" value="450501676" />
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="TrG5h" value="OFXBatchJobApp" />
+    <property role="R4oN_" value="run job as application" />
+    <property role="34LRSv" value="CONSOLE_AS_APP" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="37q6uRD0090" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="config" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="q_zDmI5v5l" resolve="OFXConfig" />
+    </node>
+    <node concept="PrWs8" id="37q6uRD0091" role="PzmwI">
       <ref role="PrY4T" node="4jlzLDl6dD6" resolve="IOFXBatchJobOption" />
     </node>
   </node>

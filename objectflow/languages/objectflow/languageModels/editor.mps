@@ -12566,7 +12566,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="3U0QWztHiOO" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;cancel&gt;" />
+        <property role="1$x2rV" value="&lt;user_cancel&gt;" />
         <ref role="1NtTu8" to="un0u:3U0QWztHiCe" />
         <node concept="1sVBvm" id="3U0QWztHiOP" role="1sWHZn">
           <node concept="3F0A7n" id="3U0QWztHiOQ" role="2wV5jI">
@@ -13417,6 +13417,26 @@
         </node>
       </node>
       <node concept="l2Vlx" id="7tfEsbFiS7V" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="37q6uRD01qm">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="1XX52x" to="un0u:37q6uRD008Z" resolve="OFXBatchJobApp" />
+    <node concept="3EZMnI" id="37q6uRD01uO" role="2wV5jI">
+      <node concept="PMmxH" id="37q6uRD01uP" role="3EZMnx">
+        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="1iCGBv" id="37q6uRD01uQ" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:37q6uRD0090" />
+        <node concept="1sVBvm" id="37q6uRD01uR" role="1sWHZn">
+          <node concept="3F0A7n" id="37q6uRD01uS" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="l2Vlx" id="37q6uRD01uT" role="2iSdaV" />
     </node>
   </node>
 </model>

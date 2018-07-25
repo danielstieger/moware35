@@ -13,7 +13,7 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'TC R47';
+var zVersion = 'TC R48';
 var lastSubmitTrace = '';
 var lastSequenceIDSubmitted = 0;
 var lastMillisSubmitted = 0;
@@ -110,9 +110,9 @@ function enableScan(){
 				gs1dataBarLimited:true,
 				pdf417:true,
 				qrCode:true,
-				upcEanSupplemental5:true, 
+				/* upcEanSupplemental5:true, 
 				upcEanSupplemental2:true,
-				upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO,
+				upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO, */
 				
 				}, scanReceived);
 				
