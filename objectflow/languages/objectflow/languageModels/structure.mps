@@ -9,6 +9,7 @@
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -5014,6 +5015,18 @@
     <property role="R4oN_" value="run job as application" />
     <property role="34LRSv" value="CONSOLE_AS_APP" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="37q6uREpiB$" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="username" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
+    <node concept="1TJgyj" id="37q6uREpiCv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="uid" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fzcmrck" resolve="IntegerConstant" />
+    </node>
     <node concept="1TJgyj" id="37q6uRD0090" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="config" />

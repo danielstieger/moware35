@@ -55,6 +55,9 @@
          
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.solution.jar" 
          basedir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
+         
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.dataux.runtime.jar" 
+         basedir="${mowareHome}/dataux/languages/org.modellwerkstatt.dataux/runtime/classes_gen" />
     
     <copy todir="${mowarePluginHomeDir}/ofassembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/objectflow/assembly/artefact/"/>
@@ -71,6 +74,7 @@
     <copy todir="work/WEB-INF/lib">
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.sandbox.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
+	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
 	  
       <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*springframework*.jar, joda-time*.jar, commons-logging*.jar" />      
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />

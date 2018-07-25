@@ -1552,12 +1552,6 @@
               <ref role="3bR37D" node="1JLTjCmZpiM" resolve="org.modellwerkstatt.sandbox" />
             </node>
           </node>
-          <node concept="1SiIV0" id="6IzlsXtgNMw" role="3bR37C">
-            <node concept="3bR9La" id="6IzlsXtgNMx" role="1SiIV1">
-              <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="1JLTjCmZvVa" resolve="org.modellwerkstatt.fatflow#6220831822432810257" />
-            </node>
-          </node>
           <node concept="1SiIV0" id="2TAuFm4OvKl" role="3bR37C">
             <node concept="3bR9La" id="2TAuFm4OvKm" role="1SiIV1">
               <property role="3bR36h" value="false" />
@@ -1568,6 +1562,24 @@
             <node concept="3bR9La" id="7F$w6ptyjvq" role="1SiIV1">
               <property role="3bR36h" value="false" />
               <ref role="3bR37D" node="6HA5kZtQ0G3" resolve="org.modellwerkstatt.dataux.runtime" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="37q6uRES6Lc" role="3bR37C">
+            <node concept="3bR9La" id="37q6uRES6Ld" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="37q6uRES6Le" role="3bR37C">
+            <node concept="3bR9La" id="37q6uRES6Lf" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+            </node>
+          </node>
+          <node concept="1SiIV0" id="37q6uRES6Lg" role="3bR37C">
+            <node concept="3bR9La" id="37q6uRES6Lh" role="1SiIV1">
+              <property role="3bR36h" value="false" />
+              <ref role="3bR37D" node="1JLTjCmZpP8" resolve="org.modellwerkstatt.objectflow" />
             </node>
           </node>
         </node>

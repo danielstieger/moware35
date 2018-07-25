@@ -12308,7 +12308,7 @@
         <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="7TJOmj6MLsG" role="3EZMnx">
-        <property role="3F0ifm" value="onStartup:" />
+        <property role="3F0ifm" value="onStartup:   // not executed as ui-app" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F1sOY" id="7TJOmj6MLsH" role="3EZMnx">
@@ -12316,7 +12316,7 @@
       </node>
       <node concept="3F0ifn" id="7TJOmj6MLsI" role="3EZMnx" />
       <node concept="3F0ifn" id="7TJOmj6MLsJ" role="3EZMnx">
-        <property role="3F0ifm" value="finally - onShutdown:" />
+        <property role="3F0ifm" value="finally - onShutdown:   // not executed as ui-app" />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F1sOY" id="7TJOmj6MLsK" role="3EZMnx">
@@ -13436,7 +13436,24 @@
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="37q6uREpiES" role="3EZMnx">
+        <property role="3F0ifm" value=" (username" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
       <node concept="l2Vlx" id="37q6uRD01uT" role="2iSdaV" />
+      <node concept="3F1sOY" id="37q6uREpiFD" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:37q6uREpiB$" />
+      </node>
+      <node concept="3F0ifn" id="37q6uREpiG0" role="3EZMnx">
+        <property role="3F0ifm" value=" userid" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="3F1sOY" id="37q6uREpiHh" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:37q6uREpiCv" />
+      </node>
+      <node concept="3F0ifn" id="37q6uREpiIj" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
     </node>
   </node>
 </model>
