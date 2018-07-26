@@ -6660,24 +6660,71 @@
                   <node concept="3clFbS" id="2B50FNW1UEP" role="1bW5cS">
                     <node concept="3clFbJ" id="2B50FNW1UJc" role="3cqZAp">
                       <node concept="3clFbS" id="2B50FNW1UJe" role="3clFbx">
-                        <node concept="2MkqsV" id="2B50FNW1V77" role="3cqZAp">
-                          <node concept="Xl_RD" id="2B50FNW1Vbg" role="2MkJ7o">
-                            <property role="Xl_RC" value="There is exactly one CONSUMERS option needed per producer/consumer pair." />
+                        <node concept="3clFbJ" id="7mer7pKfPYp" role="3cqZAp">
+                          <node concept="3clFbS" id="7mer7pKfPYr" role="3clFbx">
+                            <node concept="2MkqsV" id="2B50FNW1V77" role="3cqZAp">
+                              <node concept="Xl_RD" id="2B50FNW1Vbg" role="2MkJ7o">
+                                <property role="Xl_RC" value="There is exactly one CONSUMERS option needed per producer/consumer pair." />
+                              </node>
+                              <node concept="37vLTw" id="2B50FNW1WR5" role="2OEOjV">
+                                <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                              </node>
+                            </node>
                           </node>
-                          <node concept="37vLTw" id="2B50FNW1WR5" role="2OEOjV">
-                            <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                          <node concept="3y3z36" id="7mer7pK2JLu" role="3clFbw">
+                            <node concept="3cmrfG" id="7mer7pK2K3p" role="3uHU7w">
+                              <property role="3cmrfH" value="1" />
+                            </node>
+                            <node concept="2YIFZM" id="2B50FNW1UZ7" role="3uHU7B">
+                              <ref role="37wK5l" to="tm9u:2B50FNW1MQl" resolve="exactlyOneConsumerOptForPair" />
+                              <ref role="1Pybhc" to="tm9u:2B50FNW1KHS" resolve="ModuleOptHelper" />
+                              <node concept="1YBJjd" id="2B50FNW1UZ8" role="37wK5m">
+                                <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                              </node>
+                              <node concept="37vLTw" id="2B50FNW1UZ9" role="37wK5m">
+                                <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                              </node>
+                            </node>
                           </node>
                         </node>
+                        <node concept="3clFbH" id="7mer7pK2Ku0" role="3cqZAp" />
                       </node>
-                      <node concept="3fqX7Q" id="2B50FNW1UZ5" role="3clFbw">
-                        <node concept="2YIFZM" id="2B50FNW1UZ7" role="3fr31v">
-                          <ref role="37wK5l" to="tm9u:2B50FNW1MQl" resolve="exactlyOneConsumerOptForPair" />
-                          <ref role="1Pybhc" to="tm9u:2B50FNW1KHS" resolve="ModuleOptHelper" />
-                          <node concept="1YBJjd" id="2B50FNW1UZ8" role="37wK5m">
-                            <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
-                          </node>
-                          <node concept="37vLTw" id="2B50FNW1UZ9" role="37wK5m">
-                            <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                      <node concept="2OqwBi" id="7mer7pK2HpL" role="3clFbw">
+                        <node concept="37vLTw" id="7mer7pK2H61" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="7mer7pK2HRs" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:7tfEsbFuOOl" resolve="hasConsumer" />
+                        </node>
+                      </node>
+                      <node concept="9aQIb" id="7mer7pKfSmv" role="9aQIa">
+                        <node concept="3clFbS" id="7mer7pKfSmw" role="9aQI4">
+                          <node concept="3clFbJ" id="7mer7pKfSKN" role="3cqZAp">
+                            <node concept="3clFbS" id="7mer7pKfSKP" role="3clFbx">
+                              <node concept="2MkqsV" id="7mer7pK2MY2" role="3cqZAp">
+                                <node concept="Xl_RD" id="7mer7pK2MY3" role="2MkJ7o">
+                                  <property role="Xl_RC" value="Do not specify any CONSUMERS for this producer/consumer pair - it does not have any." />
+                                </node>
+                                <node concept="37vLTw" id="7mer7pK2MY4" role="2OEOjV">
+                                  <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3y3z36" id="7mer7pK2M8f" role="3clFbw">
+                              <node concept="3cmrfG" id="7mer7pK2M8g" role="3uHU7w">
+                                <property role="3cmrfH" value="0" />
+                              </node>
+                              <node concept="2YIFZM" id="7mer7pK2M8h" role="3uHU7B">
+                                <ref role="1Pybhc" to="tm9u:2B50FNW1KHS" resolve="ModuleOptHelper" />
+                                <ref role="37wK5l" to="tm9u:2B50FNW1MQl" resolve="exactlyOneConsumerOptForPair" />
+                                <node concept="1YBJjd" id="7mer7pK2M8i" role="37wK5m">
+                                  <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                                </node>
+                                <node concept="37vLTw" id="7mer7pK2M8j" role="37wK5m">
+                                  <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                                </node>
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>

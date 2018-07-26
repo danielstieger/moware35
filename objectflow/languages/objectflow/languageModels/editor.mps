@@ -12324,6 +12324,38 @@
       </node>
       <node concept="3F0ifn" id="7TJOmj6MLsL" role="3EZMnx" />
       <node concept="3F0ifn" id="7TJOmj6MLsM" role="3EZMnx" />
+      <node concept="3EZMnI" id="I5RNLIQgsi" role="3EZMnx">
+        <node concept="3F0ifn" id="7TJOmj6N7pg" role="3EZMnx">
+          <property role="3F0ifm" value="producer/search cmd:" />
+          <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
+        </node>
+        <node concept="3F1sOY" id="7TJOmj6ZhH7" role="3EZMnx">
+          <ref role="1NtTu8" to="un0u:7TJOmj6ZhCF" />
+        </node>
+        <node concept="3F0ifn" id="7TJOmj6UN9W" role="3EZMnx" />
+        <node concept="3F0ifn" id="7TJOmj6N9ix" role="3EZMnx" />
+        <node concept="3F0ifn" id="7TJOmj6N7pe" role="3EZMnx">
+          <property role="3F0ifm" value="consumer/graph owner cmd:" />
+          <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
+        </node>
+        <node concept="3F1sOY" id="6IpTZfaBQsR" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;no consumer&gt;" />
+          <ref role="1NtTu8" to="un0u:6IpTZfaBQl9" />
+        </node>
+        <node concept="3F0ifn" id="3eB7cNzw$eF" role="3EZMnx" />
+        <node concept="3F0ifn" id="3eB7cNzw$eG" role="3EZMnx" />
+        <node concept="3F0ifn" id="I5RNLIQgwt" role="3EZMnx">
+          <property role="3F0ifm" value="b-task:" />
+          <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
+        </node>
+        <node concept="3F1sOY" id="I5RNLIQgwu" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;no consumer&gt;" />
+          <ref role="1NtTu8" to="un0u:3eB7cNzwzHq" />
+        </node>
+        <node concept="3F0ifn" id="I5RNLIQgwv" role="3EZMnx" />
+        <node concept="3F0ifn" id="I5RNLIQgww" role="3EZMnx" />
+        <node concept="2iRkQZ" id="I5RNLIQgsj" role="2iSdaV" />
+      </node>
       <node concept="3F0ifn" id="3eB7cNzw$eH" role="3EZMnx">
         <property role="3F0ifm" value="producer/consumer pairs:" />
         <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
@@ -12337,38 +12369,6 @@
         </node>
       </node>
       <node concept="2iRkQZ" id="7TJOmj6MLsT" role="2iSdaV" />
-    </node>
-    <node concept="3EZMnI" id="I5RNLIQgsi" role="6VMZX">
-      <node concept="3F0ifn" id="7TJOmj6N7pg" role="3EZMnx">
-        <property role="3F0ifm" value="producer/search cmd:" />
-        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
-      </node>
-      <node concept="3F1sOY" id="7TJOmj6ZhH7" role="3EZMnx">
-        <ref role="1NtTu8" to="un0u:7TJOmj6ZhCF" />
-      </node>
-      <node concept="3F0ifn" id="7TJOmj6UN9W" role="3EZMnx" />
-      <node concept="3F0ifn" id="7TJOmj6N9ix" role="3EZMnx" />
-      <node concept="3F0ifn" id="7TJOmj6N7pe" role="3EZMnx">
-        <property role="3F0ifm" value="consumer/graph owner cmd:" />
-        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
-      </node>
-      <node concept="3F1sOY" id="6IpTZfaBQsR" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;no consumer&gt;" />
-        <ref role="1NtTu8" to="un0u:6IpTZfaBQl9" />
-      </node>
-      <node concept="3F0ifn" id="3eB7cNzw$eF" role="3EZMnx" />
-      <node concept="3F0ifn" id="3eB7cNzw$eG" role="3EZMnx" />
-      <node concept="3F0ifn" id="I5RNLIQgwt" role="3EZMnx">
-        <property role="3F0ifm" value="b-task:" />
-        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
-      </node>
-      <node concept="3F1sOY" id="I5RNLIQgwu" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;no consumer&gt;" />
-        <ref role="1NtTu8" to="un0u:3eB7cNzwzHq" />
-      </node>
-      <node concept="3F0ifn" id="I5RNLIQgwv" role="3EZMnx" />
-      <node concept="3F0ifn" id="I5RNLIQgww" role="3EZMnx" />
-      <node concept="2iRkQZ" id="I5RNLIQgsj" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="6IpTZfaBpTs">
