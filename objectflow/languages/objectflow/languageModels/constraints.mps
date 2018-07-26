@@ -6125,7 +6125,7 @@
   </node>
   <node concept="1M2fIO" id="59aH4f6nUpx">
     <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1M2myG" to="un0u:7KiQG4aj5PK" resolve="OFXBatchCronExpression" />
+    <ref role="1M2myG" to="un0u:7KiQG4aj5PK" resolve="OFXBatchPairCronExp" />
     <node concept="1N5Pfh" id="59aH4f6nUpy" role="1Mr941">
       <ref role="1N5Vy1" to="un0u:59aH4f6nT5W" />
       <node concept="13QW63" id="59aH4f6nUpA" role="1N6uqs">
@@ -6181,40 +6181,6 @@
                     </node>
                   </node>
                   <node concept="3Tsc0h" id="59aH4f6nUw8" role="2OqNvi">
-                    <ref role="3TtcxE" to="un0u:I5RNLIPTiy" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="7tfEsbFiRRR">
-    <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1M2myG" to="un0u:7tfEsbFiRRM" resolve="OFXBatchJobMain" />
-    <node concept="1N5Pfh" id="7tfEsbFiRRU" role="1Mr941">
-      <ref role="1N5Vy1" to="un0u:7tfEsbFiRRP" />
-      <node concept="13QW63" id="7tfEsbFiRRY" role="1N6uqs">
-        <node concept="3clFbS" id="7tfEsbFiRS0" role="2VODD2">
-          <node concept="3clFbF" id="7tfEsbFiRU4" role="3cqZAp">
-            <node concept="2ShNRf" id="7tfEsbFiRU5" role="3clFbG">
-              <node concept="1pGfFk" id="7tfEsbFiRU6" role="2ShVmc">
-                <ref role="37wK5l" to="6xgk:7lHSllLpTWM" resolve="NamedElementsScope" />
-                <node concept="2OqwBi" id="7tfEsbFiRU7" role="37wK5m">
-                  <node concept="2OqwBi" id="7tfEsbFiRU8" role="2Oq$k0">
-                    <node concept="21POm0" id="7tfEsbFiRU9" role="2Oq$k0" />
-                    <node concept="2Xjw5R" id="7tfEsbFiRUa" role="2OqNvi">
-                      <node concept="1xMEDy" id="7tfEsbFiRUb" role="1xVPHs">
-                        <node concept="chp4Y" id="7tfEsbFiRUc" role="ri$Ld">
-                          <ref role="cht4Q" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
-                        </node>
-                      </node>
-                      <node concept="1xIGOp" id="7tfEsbFiRUd" role="1xVPHs" />
-                    </node>
-                  </node>
-                  <node concept="3Tsc0h" id="7tfEsbFiRUe" role="2OqNvi">
                     <ref role="3TtcxE" to="un0u:I5RNLIPTiy" />
                   </node>
                 </node>

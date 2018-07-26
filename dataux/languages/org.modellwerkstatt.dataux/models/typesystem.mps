@@ -20,6 +20,7 @@
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -54,6 +55,9 @@
       </concept>
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -331,6 +335,7 @@
       <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
+      <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
@@ -3724,11 +3729,11 @@
     </node>
     <node concept="1YaCAy" id="6K73LRuXm$h" role="1YuTPh">
       <property role="TrG5h" value="version" />
-      <ref role="1YaFvo" to="1btx:6K73LRuXmzG" resolve="Version" />
+      <ref role="1YaFvo" to="1btx:6K73LRuXmzG" resolve="OptVersion" />
     </node>
   </node>
   <node concept="1YbPZF" id="6K73LRuYUai">
-    <property role="TrG5h" value="typeof_MenuAddOn" />
+    <property role="TrG5h" value="typeof_OfficialAppName" />
     <property role="3GE5qa" value="uimodule" />
     <node concept="3clFbS" id="6K73LRuYUaj" role="18ibNy">
       <node concept="1ZobV4" id="6K73LRuYUkA" role="3cqZAp">
@@ -3754,7 +3759,7 @@
     </node>
     <node concept="1YaCAy" id="6K73LRuYUal" role="1YuTPh">
       <property role="TrG5h" value="menuAddOn" />
-      <ref role="1YaFvo" to="1btx:6K73LRuYUa9" resolve="OfficialAppName" />
+      <ref role="1YaFvo" to="1btx:6K73LRuYUa9" resolve="OptOfficialAppName" />
     </node>
   </node>
   <node concept="18kY7G" id="1XvF7fQ$iI3">
@@ -4017,39 +4022,6 @@
     <node concept="1YaCAy" id="21Qe5t1ZTpy" role="1YuTPh">
       <property role="TrG5h" value="editableDOption" />
       <ref role="1YaFvo" to="1btx:pQ21WN9_SZ" resolve="EditableDOption" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="6XdB5k5Xz_3">
-    <property role="TrG5h" value="check_AppUiModule" />
-    <property role="3GE5qa" value="uimodule" />
-    <node concept="3clFbS" id="6XdB5k5Xz_4" role="18ibNy">
-      <node concept="3clFbJ" id="6XdB5k5XAvZ" role="3cqZAp">
-        <node concept="2OqwBi" id="6XdB5k5XAHJ" role="3clFbw">
-          <node concept="2OqwBi" id="6XdB5k5XAzz" role="2Oq$k0">
-            <node concept="1YBJjd" id="6XdB5k5XAwi" role="2Oq$k0">
-              <ref role="1YBMHb" node="6XdB5k5Xz_6" resolve="appUiModule" />
-            </node>
-            <node concept="2qgKlT" id="6XdB5k5XAEk" role="2OqNvi">
-              <ref role="37wK5l" to="5y3p:6XdB5k5XvSa" resolve="getVersion" />
-            </node>
-          </node>
-          <node concept="3w_OXm" id="6XdB5k5XAQu" role="2OqNvi" />
-        </node>
-        <node concept="3clFbS" id="6XdB5k5XAw1" role="3clFbx">
-          <node concept="2MkqsV" id="6XdB5k5XASH" role="3cqZAp">
-            <node concept="Xl_RD" id="6XdB5k5XAST" role="2MkJ7o">
-              <property role="Xl_RC" value="Sepcify a version option for this app module." />
-            </node>
-            <node concept="1YBJjd" id="6XdB5k5XAVu" role="2OEOjV">
-              <ref role="1YBMHb" node="6XdB5k5Xz_6" resolve="appUiModule" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="6XdB5k5Xz_6" role="1YuTPh">
-      <property role="TrG5h" value="appUiModule" />
-      <ref role="1YaFvo" to="1btx:6K73LRuUW3k" resolve="AppUiModule" />
     </node>
   </node>
   <node concept="18kY7G" id="6rXe_0EKqnx">
@@ -6467,6 +6439,707 @@
     <node concept="1YaCAy" id="2rqRJfqYIpO" role="1YuTPh">
       <property role="TrG5h" value="infoWidget" />
       <ref role="1YaFvo" to="1btx:2rqRJfqYGTr" resolve="InfoWidget" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2N7eHMaggxr">
+    <property role="TrG5h" value="check_IModuleOption" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="2N7eHMaggxs" role="18ibNy">
+      <node concept="3clFbJ" id="2N7eHMaggxX" role="3cqZAp">
+        <node concept="2OqwBi" id="2N7eHMaghoI" role="3clFbw">
+          <node concept="1YBJjd" id="2N7eHMaghnj" role="2Oq$k0">
+            <ref role="1YBMHb" node="2N7eHMaggxu" resolve="iModuleOption" />
+          </node>
+          <node concept="2qgKlT" id="2N7eHMaghrh" role="2OqNvi">
+            <ref role="37wK5l" to="5y3p:2N7eHMaggn6" resolve="onlyOncePerModule" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="2N7eHMaggxZ" role="3clFbx">
+          <node concept="3clFbF" id="2N7eHMajWGr" role="3cqZAp">
+            <node concept="2OqwBi" id="2N7eHMajWGo" role="3clFbG">
+              <node concept="10M0yZ" id="2N7eHMajWGp" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              </node>
+              <node concept="liA8E" id="2N7eHMajWGq" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println():void" resolve="println" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="2N7eHMaghs7" role="3cqZAp">
+            <node concept="3eOSWO" id="2N7eHMakl3l" role="3clFbw">
+              <node concept="2OqwBi" id="2N7eHMagiQ7" role="3uHU7B">
+                <node concept="2OqwBi" id="2N7eHMaghMh" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2N7eHMaghtI" role="2Oq$k0">
+                    <node concept="1YBJjd" id="2N7eHMaghsj" role="2Oq$k0">
+                      <ref role="1YBMHb" node="2N7eHMaggxu" resolve="iModuleOption" />
+                    </node>
+                    <node concept="2TvwIu" id="2N7eHMaghx6" role="2OqNvi" />
+                  </node>
+                  <node concept="3zZkjj" id="2N7eHMagiiQ" role="2OqNvi">
+                    <node concept="1bVj0M" id="2N7eHMagiiS" role="23t8la">
+                      <node concept="3clFbS" id="2N7eHMagiiT" role="1bW5cS">
+                        <node concept="3clFbF" id="2N7eHMagilg" role="3cqZAp">
+                          <node concept="3clFbC" id="2N7eHMagixT" role="3clFbG">
+                            <node concept="2OqwBi" id="2N7eHMagiCP" role="3uHU7w">
+                              <node concept="1YBJjd" id="2N7eHMagi_7" role="2Oq$k0">
+                                <ref role="1YBMHb" node="2N7eHMaggxu" resolve="iModuleOption" />
+                              </node>
+                              <node concept="2yIwOk" id="2N7eHMagiKP" role="2OqNvi" />
+                            </node>
+                            <node concept="2OqwBi" id="2N7eHMagiok" role="3uHU7B">
+                              <node concept="37vLTw" id="2N7eHMagilf" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2N7eHMagiiU" resolve="it" />
+                              </node>
+                              <node concept="2yIwOk" id="2N7eHMagitf" role="2OqNvi" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="2N7eHMagiiU" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="2N7eHMagiiV" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="34oBXx" id="2N7eHMagiWW" role="2OqNvi" />
+              </node>
+              <node concept="3cmrfG" id="2N7eHMagj7G" role="3uHU7w">
+                <property role="3cmrfH" value="0" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="2N7eHMaghs9" role="3clFbx">
+              <node concept="2MkqsV" id="2N7eHMagjcU" role="3cqZAp">
+                <node concept="Xl_RD" id="2N7eHMagjd6" role="2MkJ7o">
+                  <property role="Xl_RC" value="Use this option only once per module." />
+                </node>
+                <node concept="1YBJjd" id="2N7eHMagje9" role="2OEOjV">
+                  <ref role="1YBMHb" node="2N7eHMaggxu" resolve="iModuleOption" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2N7eHMaggxu" role="1YuTPh">
+      <property role="TrG5h" value="iModuleOption" />
+      <ref role="1YaFvo" to="1btx:6K73LRuXmzF" resolve="IModuleOption" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2B50FNVZqz9">
+    <property role="TrG5h" value="check_BatchJobModule" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="2B50FNVZqza" role="18ibNy">
+      <node concept="3clFbJ" id="2B50FNWbR3H" role="3cqZAp">
+        <node concept="3clFbS" id="2B50FNWbR3J" role="3clFbx">
+          <node concept="3clFbJ" id="2B50FNWNtvp" role="3cqZAp">
+            <node concept="2OqwBi" id="2B50FNWNtvq" role="3clFbw">
+              <node concept="2OqwBi" id="2B50FNWNtvr" role="2Oq$k0">
+                <node concept="1YBJjd" id="2B50FNWNtVk" role="2Oq$k0">
+                  <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                </node>
+                <node concept="2qgKlT" id="2B50FNWNtvt" role="2OqNvi">
+                  <ref role="37wK5l" to="5y3p:6XdB5k5XvSa" resolve="getVersion" />
+                </node>
+              </node>
+              <node concept="3w_OXm" id="2B50FNWNtvu" role="2OqNvi" />
+            </node>
+            <node concept="3clFbS" id="2B50FNWNtvv" role="3clFbx">
+              <node concept="2MkqsV" id="2B50FNWNtvw" role="3cqZAp">
+                <node concept="Xl_RD" id="2B50FNWNtvx" role="2MkJ7o">
+                  <property role="Xl_RC" value="Sepcify a version option for this app module." />
+                </node>
+                <node concept="1YBJjd" id="2B50FNWPxMM" role="2OEOjV">
+                  <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="2B50FNWRehx" role="3cqZAp">
+            <node concept="2OqwBi" id="2B50FNWRehy" role="3clFbw">
+              <node concept="2OqwBi" id="2B50FNWRehz" role="2Oq$k0">
+                <node concept="1YBJjd" id="2B50FNWReHX" role="2Oq$k0">
+                  <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                </node>
+                <node concept="3TrEf2" id="2B50FNWReh_" role="2OqNvi">
+                  <ref role="3Tt5mk" to="1btx:1aaqwMInVkp" />
+                </node>
+              </node>
+              <node concept="3w_OXm" id="2B50FNWRehA" role="2OqNvi" />
+            </node>
+            <node concept="3clFbS" id="2B50FNWRehB" role="3clFbx">
+              <node concept="2MkqsV" id="2B50FNWRehC" role="3cqZAp">
+                <node concept="Xl_RD" id="2B50FNWRehD" role="2MkJ7o">
+                  <property role="Xl_RC" value="BatchJob Module needs a configuration." />
+                </node>
+                <node concept="1YBJjd" id="2B50FNWReJT" role="2OEOjV">
+                  <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="2B50FNWNsNx" role="3cqZAp" />
+          <node concept="3clFbJ" id="2B50FNVZq_u" role="3cqZAp">
+            <node concept="3clFbS" id="2B50FNVZq_w" role="3clFbx">
+              <node concept="2MkqsV" id="2B50FNVZvFz" role="3cqZAp">
+                <node concept="Xl_RD" id="2B50FNVZvFM" role="2MkJ7o">
+                  <property role="Xl_RC" value="DEPENDENT_CONSECUTIVE can only be used, if more than one consumer/producer pair is present." />
+                </node>
+                <node concept="2OqwBi" id="2B50FNW0kMg" role="2OEOjV">
+                  <node concept="1YBJjd" id="2B50FNW0kIS" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                  </node>
+                  <node concept="2qgKlT" id="2B50FNW0kVD" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:2B50FNVZpT1" resolve="getDependentOption" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1Wc70l" id="2B50FNVZuop" role="3clFbw">
+              <node concept="2OqwBi" id="2B50FNVZvxr" role="3uHU7B">
+                <node concept="2OqwBi" id="2B50FNVZuuD" role="2Oq$k0">
+                  <node concept="1YBJjd" id="2B50FNVZuq9" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                  </node>
+                  <node concept="2qgKlT" id="2B50FNVZvua" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:2B50FNVZpT1" resolve="getDependentOption" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="2B50FNVZvE2" role="2OqNvi" />
+              </node>
+              <node concept="3eOVzh" id="2B50FNVZulG" role="3uHU7w">
+                <node concept="3cmrfG" id="2B50FNVZulJ" role="3uHU7w">
+                  <property role="3cmrfH" value="2" />
+                </node>
+                <node concept="2OqwBi" id="2B50FNVZrpa" role="3uHU7B">
+                  <node concept="2OqwBi" id="2B50FNVZqCY" role="2Oq$k0">
+                    <node concept="1YBJjd" id="2B50FNVZq_H" role="2Oq$k0">
+                      <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                    </node>
+                    <node concept="3Tsc0h" id="2B50FNVZqJC" role="2OqNvi">
+                      <ref role="3TtcxE" to="1btx:I5RNLIPTiy" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="2B50FNVZtiE" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="2B50FNWNeFs" role="3cqZAp" />
+          <node concept="3cpWs8" id="2B50FNW1X6I" role="3cqZAp">
+            <node concept="3cpWsn" id="2B50FNW1X6L" role="3cpWs9">
+              <property role="TrG5h" value="dependentMode" />
+              <node concept="10P_77" id="2B50FNW1X6G" role="1tU5fm" />
+              <node concept="2OqwBi" id="2B50FNW1Xrv" role="33vP2m">
+                <node concept="2OqwBi" id="2B50FNW1Xdr" role="2Oq$k0">
+                  <node concept="1YBJjd" id="2B50FNW1X9A" role="2Oq$k0">
+                    <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                  </node>
+                  <node concept="2qgKlT" id="2B50FNW1Xps" role="2OqNvi">
+                    <ref role="37wK5l" to="5y3p:2B50FNVZpT1" resolve="getDependentOption" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="2B50FNW1XAZ" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="2B50FNW1SSX" role="3cqZAp">
+            <node concept="2OqwBi" id="2B50FNW1TFV" role="3clFbG">
+              <node concept="2OqwBi" id="2B50FNW1SYa" role="2Oq$k0">
+                <node concept="1YBJjd" id="2B50FNW1SSV" role="2Oq$k0">
+                  <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                </node>
+                <node concept="3Tsc0h" id="2B50FNW1T7P" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:I5RNLIPTiy" />
+                </node>
+              </node>
+              <node concept="2es0OD" id="2B50FNW1UEM" role="2OqNvi">
+                <node concept="1bVj0M" id="2B50FNW1UEO" role="23t8la">
+                  <node concept="3clFbS" id="2B50FNW1UEP" role="1bW5cS">
+                    <node concept="3clFbJ" id="2B50FNW1UJc" role="3cqZAp">
+                      <node concept="3clFbS" id="2B50FNW1UJe" role="3clFbx">
+                        <node concept="2MkqsV" id="2B50FNW1V77" role="3cqZAp">
+                          <node concept="Xl_RD" id="2B50FNW1Vbg" role="2MkJ7o">
+                            <property role="Xl_RC" value="There is exactly one CONSUMERS option needed per producer/consumer pair." />
+                          </node>
+                          <node concept="37vLTw" id="2B50FNW1WR5" role="2OEOjV">
+                            <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3fqX7Q" id="2B50FNW1UZ5" role="3clFbw">
+                        <node concept="2YIFZM" id="2B50FNW1UZ7" role="3fr31v">
+                          <ref role="37wK5l" to="tm9u:2B50FNW1MQl" resolve="exactlyOneConsumerOptForPair" />
+                          <ref role="1Pybhc" to="tm9u:2B50FNW1KHS" resolve="ModuleOptHelper" />
+                          <node concept="1YBJjd" id="2B50FNW1UZ8" role="37wK5m">
+                            <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                          </node>
+                          <node concept="37vLTw" id="2B50FNW1UZ9" role="37wK5m">
+                            <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="2B50FNW1UHE" role="3cqZAp" />
+                    <node concept="3cpWs8" id="2B50FNW26bP" role="3cqZAp">
+                      <node concept="3cpWsn" id="2B50FNW26bS" role="3cpWs9">
+                        <property role="TrG5h" value="needsTimingOption" />
+                        <node concept="10P_77" id="2B50FNW26bN" role="1tU5fm" />
+                        <node concept="3clFbT" id="2B50FNW26P$" role="33vP2m">
+                          <property role="3clFbU" value="true" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cpWs8" id="2B50FNW1ZFU" role="3cqZAp">
+                      <node concept="3cpWsn" id="2B50FNW1ZFX" role="3cpWs9">
+                        <property role="TrG5h" value="thisIsFirstPair" />
+                        <node concept="10P_77" id="2B50FNW1ZFS" role="1tU5fm" />
+                        <node concept="1eOMI4" id="2B50FNW22uJ" role="33vP2m">
+                          <node concept="3clFbC" id="2B50FNW22uK" role="1eOMHV">
+                            <node concept="2OqwBi" id="2B50FNW22uL" role="3uHU7w">
+                              <node concept="2OqwBi" id="2B50FNW22uM" role="2Oq$k0">
+                                <node concept="1YBJjd" id="2B50FNW22uN" role="2Oq$k0">
+                                  <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                                </node>
+                                <node concept="3Tsc0h" id="2B50FNW22uO" role="2OqNvi">
+                                  <ref role="3TtcxE" to="1btx:I5RNLIPTiy" />
+                                </node>
+                              </node>
+                              <node concept="1uHKPH" id="2B50FNW22uP" role="2OqNvi" />
+                            </node>
+                            <node concept="37vLTw" id="2B50FNW22uQ" role="3uHU7B">
+                              <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbJ" id="2B50FNW270$" role="3cqZAp">
+                      <node concept="3clFbS" id="2B50FNW270A" role="3clFbx">
+                        <node concept="3cpWs8" id="2B50FNW2b5F" role="3cqZAp">
+                          <node concept="3cpWsn" id="2B50FNW2b5I" role="3cpWs9">
+                            <property role="TrG5h" value="numTimingOptions" />
+                            <node concept="10Oyi0" id="2B50FNW2b5D" role="1tU5fm" />
+                            <node concept="3cpWs3" id="2B50FNW2cRI" role="33vP2m">
+                              <node concept="2YIFZM" id="2B50FNW2d5x" role="3uHU7w">
+                                <ref role="1Pybhc" to="tm9u:2B50FNW1KHS" resolve="ModuleOptHelper" />
+                                <ref role="37wK5l" to="tm9u:2B50FNW1YJW" resolve="numDelaysForPair" />
+                                <node concept="1YBJjd" id="2B50FNW2dcN" role="37wK5m">
+                                  <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                                </node>
+                                <node concept="37vLTw" id="2B50FNW2duB" role="37wK5m">
+                                  <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                                </node>
+                              </node>
+                              <node concept="2YIFZM" id="2B50FNW2crF" role="3uHU7B">
+                                <ref role="1Pybhc" to="tm9u:2B50FNW1KHS" resolve="ModuleOptHelper" />
+                                <ref role="37wK5l" to="tm9u:2B50FNW1YcB" resolve="numCronsForPair" />
+                                <node concept="1YBJjd" id="2B50FNW2cxj" role="37wK5m">
+                                  <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                                </node>
+                                <node concept="37vLTw" id="2B50FNW2cGJ" role="37wK5m">
+                                  <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbJ" id="2B50FNW2dOs" role="3cqZAp">
+                          <node concept="3clFbS" id="2B50FNW2dOu" role="3clFbx">
+                            <node concept="2MkqsV" id="2B50FNW2egK" role="3cqZAp">
+                              <node concept="Xl_RD" id="2B50FNW2eoi" role="2MkJ7o">
+                                <property role="Xl_RC" value="Do not specify any timing options for this pair in dependent mode." />
+                              </node>
+                              <node concept="37vLTw" id="2B50FNW2fSC" role="2OEOjV">
+                                <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3eOSWO" id="2B50FNW2e9k" role="3clFbw">
+                            <node concept="3cmrfG" id="2B50FNW2e9n" role="3uHU7w">
+                              <property role="3cmrfH" value="0" />
+                            </node>
+                            <node concept="37vLTw" id="2B50FNW2dVV" role="3uHU7B">
+                              <ref role="3cqZAo" node="2B50FNW2b5I" resolve="numTimingOptions" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="1Wc70l" id="2B50FNW27u7" role="3clFbw">
+                        <node concept="3fqX7Q" id="2B50FNW27z$" role="3uHU7w">
+                          <node concept="37vLTw" id="2B50FNW27D4" role="3fr31v">
+                            <ref role="3cqZAo" node="2B50FNW1ZFX" resolve="thisIsFirstPair" />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="2B50FNW276y" role="3uHU7B">
+                          <ref role="3cqZAo" node="2B50FNW1X6L" resolve="dependentMode" />
+                        </node>
+                      </node>
+                      <node concept="9aQIb" id="2B50FNW2g7S" role="9aQIa">
+                        <node concept="3clFbS" id="2B50FNW2g7T" role="9aQI4">
+                          <node concept="3SKdUt" id="2B50FNW2gfn" role="3cqZAp">
+                            <node concept="3SKdUq" id="2B50FNW2gfo" role="3SKWNk">
+                              <property role="3SKdUp" value="one or more crons, one or no delay option" />
+                            </node>
+                          </node>
+                          <node concept="3cpWs8" id="2B50FNW2hZP" role="3cqZAp">
+                            <node concept="3cpWsn" id="2B50FNW2hZS" role="3cpWs9">
+                              <property role="TrG5h" value="delayOpts" />
+                              <node concept="10Oyi0" id="2B50FNW2hZN" role="1tU5fm" />
+                              <node concept="2YIFZM" id="2B50FNW2jiY" role="33vP2m">
+                                <ref role="1Pybhc" to="tm9u:2B50FNW1KHS" resolve="ModuleOptHelper" />
+                                <ref role="37wK5l" to="tm9u:2B50FNW1YJW" resolve="numDelaysForPair" />
+                                <node concept="1YBJjd" id="2B50FNW2jqT" role="37wK5m">
+                                  <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                                </node>
+                                <node concept="37vLTw" id="2B50FNW2jPL" role="37wK5m">
+                                  <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbJ" id="2B50FNW2jXI" role="3cqZAp">
+                            <node concept="3clFbS" id="2B50FNW2jXK" role="3clFbx">
+                              <node concept="2MkqsV" id="2B50FNW2ks5" role="3cqZAp">
+                                <node concept="Xl_RD" id="2B50FNW2ks6" role="2MkJ7o">
+                                  <property role="Xl_RC" value="There can be at most one DELAY option provided per producer/consumer pair." />
+                                </node>
+                                <node concept="37vLTw" id="2B50FNW2ks7" role="2OEOjV">
+                                  <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                                </node>
+                              </node>
+                              <node concept="3clFbH" id="2B50FNW2oKQ" role="3cqZAp" />
+                            </node>
+                            <node concept="3eOSWO" id="2B50FNW2kjO" role="3clFbw">
+                              <node concept="3cmrfG" id="2B50FNW2kjR" role="3uHU7w">
+                                <property role="3cmrfH" value="1" />
+                              </node>
+                              <node concept="37vLTw" id="2B50FNW2k5L" role="3uHU7B">
+                                <ref role="3cqZAo" node="2B50FNW2hZS" resolve="delayOpts" />
+                              </node>
+                            </node>
+                            <node concept="3eNFk2" id="2B50FNW2o9v" role="3eNLev">
+                              <node concept="3clFbC" id="2B50FNW2owc" role="3eO9$A">
+                                <node concept="3cmrfG" id="2B50FNW2oCy" role="3uHU7w">
+                                  <property role="3cmrfH" value="1" />
+                                </node>
+                                <node concept="37vLTw" id="2B50FNW2ohK" role="3uHU7B">
+                                  <ref role="3cqZAo" node="2B50FNW2hZS" resolve="delayOpts" />
+                                </node>
+                              </node>
+                              <node concept="3clFbS" id="2B50FNW2o9x" role="3eOfB_">
+                                <node concept="3clFbF" id="2B50FNW2p9W" role="3cqZAp">
+                                  <node concept="2OqwBi" id="2B50FNW2qjc" role="3clFbG">
+                                    <node concept="2OqwBi" id="2B50FNW2plm" role="2Oq$k0">
+                                      <node concept="1YBJjd" id="2B50FNW2p9U" role="2Oq$k0">
+                                        <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                                      </node>
+                                      <node concept="2qgKlT" id="2B50FNW2p_p" role="2OqNvi">
+                                        <ref role="37wK5l" to="5y3p:7KiQG4aKYcq" resolve="getCrons" />
+                                        <node concept="37vLTw" id="2B50FNW2pI8" role="37wK5m">
+                                          <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="2es0OD" id="2B50FNW2rsX" role="2OqNvi">
+                                      <node concept="1bVj0M" id="2B50FNW2rsZ" role="23t8la">
+                                        <node concept="3clFbS" id="2B50FNW2rt0" role="1bW5cS">
+                                          <node concept="3clFbJ" id="2B50FNW2rC6" role="3cqZAp">
+                                            <node concept="3fqX7Q" id="2B50FNW2s8U" role="3clFbw">
+                                              <node concept="2OqwBi" id="2B50FNW2sxp" role="3fr31v">
+                                                <node concept="37vLTw" id="2B50FNW2sk2" role="2Oq$k0">
+                                                  <ref role="3cqZAo" node="2B50FNW2rt1" resolve="cron" />
+                                                </node>
+                                                <node concept="2qgKlT" id="2B50FNW2uMN" role="2OqNvi">
+                                                  <ref role="37wK5l" to="5y3p:2B50FNW2t0b" resolve="isACronWindow" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                            <node concept="3clFbS" id="2B50FNW2rC8" role="3clFbx">
+                                              <node concept="2MkqsV" id="2B50FNW2uY0" role="3cqZAp">
+                                                <node concept="Xl_RD" id="2B50FNW2v9m" role="2MkJ7o">
+                                                  <property role="Xl_RC" value="The pair is in continous/delay mode, specify cron windows only." />
+                                                </node>
+                                                <node concept="37vLTw" id="2B50FNW2$s0" role="2OEOjV">
+                                                  <ref role="3cqZAo" node="2B50FNW2rt1" resolve="cron" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="Rh6nW" id="2B50FNW2rt1" role="1bW2Oz">
+                                          <property role="TrG5h" value="cron" />
+                                          <node concept="2jxLKc" id="2B50FNW2rt2" role="1tU5fm" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbH" id="2B50FNW2oTf" role="3cqZAp" />
+                              </node>
+                            </node>
+                            <node concept="3eNFk2" id="2B50FNW2$Nn" role="3eNLev">
+                              <node concept="3clFbC" id="2B50FNW2_hc" role="3eO9$A">
+                                <node concept="3cmrfG" id="2B50FNW2_sT" role="3uHU7w">
+                                  <property role="3cmrfH" value="0" />
+                                </node>
+                                <node concept="37vLTw" id="2B50FNW2$Zp" role="3uHU7B">
+                                  <ref role="3cqZAo" node="2B50FNW2hZS" resolve="delayOpts" />
+                                </node>
+                              </node>
+                              <node concept="3clFbS" id="2B50FNW2$Np" role="3eOfB_">
+                                <node concept="3cpWs8" id="2B50FNW2DLv" role="3cqZAp">
+                                  <node concept="3cpWsn" id="2B50FNW2DLy" role="3cpWs9">
+                                    <property role="TrG5h" value="crons" />
+                                    <node concept="2I9FWS" id="2B50FNW2DLt" role="1tU5fm">
+                                      <ref role="2I9WkF" to="1btx:2B50FNW1Fn6" resolve="OptCronPairExp" />
+                                    </node>
+                                    <node concept="2OqwBi" id="2B50FNW2ChC" role="33vP2m">
+                                      <node concept="1YBJjd" id="2B50FNW2BZc" role="2Oq$k0">
+                                        <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                                      </node>
+                                      <node concept="2qgKlT" id="2B50FNW2CJz" role="2OqNvi">
+                                        <ref role="37wK5l" to="5y3p:7KiQG4aKYcq" resolve="getCrons" />
+                                        <node concept="37vLTw" id="2B50FNW2D5l" role="37wK5m">
+                                          <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbJ" id="2B50FNW2BJX" role="3cqZAp">
+                                  <node concept="3clFbS" id="2B50FNW2BJZ" role="3clFbx">
+                                    <node concept="2MkqsV" id="2B50FNW2Kdf" role="3cqZAp">
+                                      <node concept="Xl_RD" id="2B50FNW2Ktg" role="2MkJ7o">
+                                        <property role="Xl_RC" value="Need more or one specific cron when not in continous/delay mode" />
+                                      </node>
+                                      <node concept="37vLTw" id="2B50FNW2NVM" role="2OEOjV">
+                                        <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="2dkUwp" id="2B50FNW2JH_" role="3clFbw">
+                                    <node concept="3cmrfG" id="2B50FNW2JXr" role="3uHU7w">
+                                      <property role="3cmrfH" value="0" />
+                                    </node>
+                                    <node concept="2OqwBi" id="2B50FNW2H5I" role="3uHU7B">
+                                      <node concept="37vLTw" id="2B50FNW2Gjg" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="2B50FNW2DLy" resolve="crons" />
+                                      </node>
+                                      <node concept="34oBXx" id="2B50FNW2Imx" role="2OqNvi" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbH" id="2B50FNW2ObM" role="3cqZAp" />
+                                <node concept="3SKdUt" id="2B50FNW2_C$" role="3cqZAp">
+                                  <node concept="3SKdUq" id="2B50FNW2_C_" role="3SKWNk">
+                                    <property role="3SKdUp" value="we need specific crons" />
+                                  </node>
+                                </node>
+                                <node concept="3clFbF" id="2B50FNW2Bht" role="3cqZAp">
+                                  <node concept="2OqwBi" id="2B50FNW2Bhu" role="3clFbG">
+                                    <node concept="2OqwBi" id="2B50FNW2Bhv" role="2Oq$k0">
+                                      <node concept="1YBJjd" id="2B50FNW2Bhw" role="2Oq$k0">
+                                        <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+                                      </node>
+                                      <node concept="2qgKlT" id="2B50FNW2Bhx" role="2OqNvi">
+                                        <ref role="37wK5l" to="5y3p:7KiQG4aKYcq" resolve="getCrons" />
+                                        <node concept="37vLTw" id="2B50FNW2Bhy" role="37wK5m">
+                                          <ref role="3cqZAo" node="2B50FNW1UEQ" resolve="it" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="2es0OD" id="2B50FNW2Bhz" role="2OqNvi">
+                                      <node concept="1bVj0M" id="2B50FNW2Bh$" role="23t8la">
+                                        <node concept="3clFbS" id="2B50FNW2Bh_" role="1bW5cS">
+                                          <node concept="3clFbJ" id="2B50FNW2BhA" role="3cqZAp">
+                                            <node concept="2OqwBi" id="2B50FNW2BhC" role="3clFbw">
+                                              <node concept="37vLTw" id="2B50FNW2BhD" role="2Oq$k0">
+                                                <ref role="3cqZAo" node="2B50FNW2BhJ" resolve="cron" />
+                                              </node>
+                                              <node concept="2qgKlT" id="2B50FNW2BhE" role="2OqNvi">
+                                                <ref role="37wK5l" to="5y3p:2B50FNW2t0b" resolve="isACronWindow" />
+                                              </node>
+                                            </node>
+                                            <node concept="3clFbS" id="2B50FNW2BhF" role="3clFbx">
+                                              <node concept="2MkqsV" id="2B50FNW2BhG" role="3cqZAp">
+                                                <node concept="Xl_RD" id="2B50FNW2BhH" role="2MkJ7o">
+                                                  <property role="Xl_RC" value="The pair is in not in continous/delay mode, use only time specific crons." />
+                                                </node>
+                                                <node concept="37vLTw" id="2B50FNW2BhI" role="2OEOjV">
+                                                  <ref role="3cqZAo" node="2B50FNW2BhJ" resolve="cron" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="Rh6nW" id="2B50FNW2BhJ" role="1bW2Oz">
+                                          <property role="TrG5h" value="cron" />
+                                          <node concept="2jxLKc" id="2B50FNW2BhK" role="1tU5fm" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbH" id="2B50FNW2B5K" role="3cqZAp" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="2B50FNW2aJl" role="3cqZAp" />
+                    <node concept="3clFbH" id="2B50FNW1WVn" role="3cqZAp" />
+                    <node concept="3clFbH" id="2B50FNW1WZJ" role="3cqZAp" />
+                  </node>
+                  <node concept="Rh6nW" id="2B50FNW1UEQ" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="2B50FNW1UER" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="2B50FNWbRmB" role="3clFbw">
+          <node concept="2OqwBi" id="2B50FNWbRqK" role="3fr31v">
+            <node concept="1YBJjd" id="2B50FNWbRmR" role="2Oq$k0">
+              <ref role="1YBMHb" node="2B50FNVZqzc" resolve="batchJobModule" />
+            </node>
+            <node concept="2qgKlT" id="2B50FNWbRTW" role="2OqNvi">
+              <ref role="37wK5l" to="5y3p:382CQP5P$Ga" resolve="onlyForIncludePurpose" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2B50FNWbQKZ" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="2B50FNVZqzc" role="1YuTPh">
+      <property role="TrG5h" value="batchJobModule" />
+      <ref role="1YaFvo" to="1btx:2N7eHMabazD" resolve="BatchJobModule" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2B50FNW1KH$">
+    <property role="TrG5h" value="check_OptDelayPair" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="2B50FNW1KH_" role="18ibNy">
+      <node concept="3SKdUt" id="2B50FNW1KHF" role="3cqZAp">
+        <node concept="3SKdUq" id="2B50FNW1KHG" role="3SKWNk">
+          <property role="3SKdUp" value="max one opt for pair" />
+        </node>
+      </node>
+      <node concept="3clFbJ" id="2B50FNW1Mhg" role="3cqZAp">
+        <node concept="3clFbS" id="2B50FNW1Mhi" role="3clFbx">
+          <node concept="3clFbH" id="2B50FNW1Mhh" role="3cqZAp" />
+        </node>
+        <node concept="2YIFZM" id="2B50FNW1MhV" role="3clFbw">
+          <ref role="37wK5l" to="tm9u:2B50FNW1LyL" resolve="inDependentMode" />
+          <ref role="1Pybhc" to="tm9u:2B50FNW1KHS" resolve="ModuleOptHelper" />
+          <node concept="1YBJjd" id="2B50FNW1Mib" role="37wK5m">
+            <ref role="1YBMHb" node="2B50FNW1KHB" resolve="optDelayPair" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2B50FNW1KHN" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="2B50FNW1KHB" role="1YuTPh">
+      <property role="TrG5h" value="optDelayPair" />
+      <ref role="1YaFvo" to="1btx:2B50FNW1Ix2" resolve="OptDelayPair" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2B50FNWLDlD">
+    <property role="TrG5h" value="check_AppUiModule" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="2B50FNWLDlE" role="18ibNy">
+      <node concept="3clFbJ" id="2B50FNWLDn1" role="3cqZAp">
+        <node concept="2OqwBi" id="2B50FNWLDGL" role="3clFbw">
+          <node concept="2OqwBi" id="2B50FNWLDr0" role="2Oq$k0">
+            <node concept="1YBJjd" id="2B50FNWLDnd" role="2Oq$k0">
+              <ref role="1YBMHb" node="2B50FNWLDlG" resolve="appUiModule" />
+            </node>
+            <node concept="3TrEf2" id="2B50FNWLDyR" role="2OqNvi">
+              <ref role="3Tt5mk" to="1btx:1aaqwMInVkp" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="2B50FNWLDMF" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="2B50FNWLDn3" role="3clFbx">
+          <node concept="2MkqsV" id="2B50FNWLDNs" role="3cqZAp">
+            <node concept="Xl_RD" id="2B50FNWLDNC" role="2MkJ7o">
+              <property role="Xl_RC" value="AppUi Module needs a configuration." />
+            </node>
+            <node concept="1YBJjd" id="2B50FNWLDO$" role="2OEOjV">
+              <ref role="1YBMHb" node="2B50FNWLDlG" resolve="appUiModule" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2B50FNWNsFM" role="3cqZAp" />
+      <node concept="3clFbJ" id="6XdB5k5XAvZ" role="3cqZAp">
+        <node concept="2OqwBi" id="6XdB5k5XAHJ" role="3clFbw">
+          <node concept="2OqwBi" id="6XdB5k5XAzz" role="2Oq$k0">
+            <node concept="1YBJjd" id="2B50FNWNsHY" role="2Oq$k0">
+              <ref role="1YBMHb" node="2B50FNWLDlG" resolve="appUiModule" />
+            </node>
+            <node concept="2qgKlT" id="6XdB5k5XAEk" role="2OqNvi">
+              <ref role="37wK5l" to="5y3p:6XdB5k5XvSa" resolve="getVersion" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="6XdB5k5XAQu" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="6XdB5k5XAw1" role="3clFbx">
+          <node concept="2MkqsV" id="6XdB5k5XASH" role="3cqZAp">
+            <node concept="Xl_RD" id="6XdB5k5XAST" role="2MkJ7o">
+              <property role="Xl_RC" value="Sepcify a version option for this app module." />
+            </node>
+            <node concept="1YBJjd" id="2B50FNWPxHU" role="2OEOjV">
+              <ref role="1YBMHb" node="2B50FNWLDlG" resolve="appUiModule" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="2B50FNWNsCZ" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="2B50FNWLDlG" role="1YuTPh">
+      <property role="TrG5h" value="appUiModule" />
+      <ref role="1YaFvo" to="1btx:6K73LRuUW3k" resolve="AppUiModule" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2B50FNWXUIa">
+    <property role="TrG5h" value="check_OptIncludeBatchUi" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="2B50FNWXUIb" role="18ibNy">
+      <node concept="3clFbJ" id="2B50FNWZyE0" role="3cqZAp">
+        <node concept="3clFbS" id="2B50FNWZyE2" role="3clFbx">
+          <node concept="2MkqsV" id="2B50FNWZz2L" role="3cqZAp">
+            <node concept="Xl_RD" id="2B50FNWZz37" role="2MkJ7o">
+              <property role="Xl_RC" value="The included job is not a batchjob containg relevant commands." />
+            </node>
+            <node concept="1YBJjd" id="2B50FNWZz5g" role="2OEOjV">
+              <ref role="1YBMHb" node="2B50FNWXUId" resolve="optIncludeBatchUi" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="2B50FNWZyRq" role="3clFbw">
+          <node concept="2OqwBi" id="2B50FNWZyGm" role="2Oq$k0">
+            <node concept="1YBJjd" id="2B50FNWZyEp" role="2Oq$k0">
+              <ref role="1YBMHb" node="2B50FNWXUId" resolve="optIncludeBatchUi" />
+            </node>
+            <node concept="3TrEf2" id="2B50FNWZyKd" role="2OqNvi">
+              <ref role="3Tt5mk" to="1btx:2B50FNWXTHA" />
+            </node>
+          </node>
+          <node concept="2qgKlT" id="2B50FNWZz0P" role="2OqNvi">
+            <ref role="37wK5l" to="5y3p:382CQP5P$Ga" resolve="onlyForIncludePurpose" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2B50FNWXUId" role="1YuTPh">
+      <property role="TrG5h" value="optIncludeBatchUi" />
+      <ref role="1YaFvo" to="1btx:2B50FNWXTFI" resolve="OptIncludeBatchUi" />
     </node>
   </node>
 </model>

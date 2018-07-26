@@ -12185,7 +12185,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7TJOmj6MLqb">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.dep" />
     <ref role="1XX52x" to="un0u:7TJOmj6MJ$x" resolve="OFXBatchJob" />
     <node concept="3EZMnI" id="7TJOmj6MLrT" role="2wV5jI">
       <node concept="3EZMnI" id="7TJOmj6MLrU" role="3EZMnx">
@@ -12897,20 +12897,6 @@
       <node concept="l2Vlx" id="3U0QWzuP_aG" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="4jlzLDl6dID">
-    <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1XX52x" to="un0u:4jlzLDl6dCR" resolve="OFXBatchJobVersion" />
-    <node concept="3EZMnI" id="4jlzLDl6dIM" role="2wV5jI">
-      <node concept="PMmxH" id="4jlzLDl6dIN" role="3EZMnx">
-        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      </node>
-      <node concept="3F1sOY" id="6K73LRuXm$4" role="3EZMnx">
-        <ref role="1NtTu8" to="un0u:4jlzLDl6dI6" />
-      </node>
-      <node concept="l2Vlx" id="4jlzLDl6dIO" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="21AFYXWJbFN">
     <property role="3GE5qa" value="OFXCore.batch2" />
     <ref role="1XX52x" to="un0u:21AFYXWJblt" resolve="OFXConsumerCmdCallContext" />
@@ -13197,7 +13183,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3eB7cNzw$8b">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.dep" />
     <ref role="1XX52x" to="un0u:3eB7cNzwzKc" resolve="OFXBTaskContext" />
     <node concept="3EZMnI" id="3eB7cNzw$bG" role="2wV5jI">
       <node concept="l2Vlx" id="3eB7cNzw$bH" role="2iSdaV" />
@@ -13386,37 +13372,6 @@
       <node concept="3vyZuw" id="1FVEJAIHC79" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="59aH4f6yXAl">
-    <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1XX52x" to="un0u:59aH4f6yX$U" resolve="OFXBatchJobDependent" />
-    <node concept="3EZMnI" id="59aH4f6yXAn" role="2wV5jI">
-      <node concept="PMmxH" id="59aH4f6yXAo" role="3EZMnx">
-        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      </node>
-      <node concept="l2Vlx" id="59aH4f6yXAq" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="7tfEsbFiS7H">
-    <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="1XX52x" to="un0u:7tfEsbFiRRM" resolve="OFXBatchJobMain" />
-    <node concept="3EZMnI" id="7tfEsbFiS7J" role="2wV5jI">
-      <node concept="PMmxH" id="7tfEsbFiS7K" role="3EZMnx">
-        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-      </node>
-      <node concept="1iCGBv" id="7tfEsbFiS7S" role="3EZMnx">
-        <ref role="1NtTu8" to="un0u:7tfEsbFiRRP" />
-        <node concept="1sVBvm" id="7tfEsbFiS7T" role="1sWHZn">
-          <node concept="3F0A7n" id="7tfEsbFiS7U" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="l2Vlx" id="7tfEsbFiS7V" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="37q6uRD01qm">

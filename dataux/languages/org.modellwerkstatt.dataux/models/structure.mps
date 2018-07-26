@@ -919,7 +919,7 @@
     <property role="TrG5h" value="AppUiModule" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/application2.png" />
-    <property role="34LRSv" value="App UI Module" />
+    <property role="34LRSv" value="AppUI Module" />
     <property role="R4oN_" value="application with UI" />
     <property role="3GE5qa" value="uimodule" />
     <ref role="1TJDcQ" to="un0u:6ffh1MXA9UE" resolve="Container" />
@@ -928,12 +928,6 @@
       <property role="20kJfa" value="configuredComponents" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="un0u:6ffh1MXA9UI" resolve="ContainerVariable" />
-    </node>
-    <node concept="1TJgyj" id="6K73LRuXmMl" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="options" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6K73LRuXmzF" resolve="IAppModuleOption" />
     </node>
     <node concept="1TJgyj" id="61VVfi2BbQl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -975,25 +969,19 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2rqRJfqYGTr" resolve="InfoWidget" />
     </node>
-    <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="configuration" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
-    </node>
-    <node concept="PrWs8" id="6K73LRuVId0" role="PzmwI">
-      <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
+    <node concept="PrWs8" id="2N7eHMakYK0" role="PzmwI">
+      <ref role="PrY4T" node="2N7eHMakYIc" resolve="IModule" />
     </node>
   </node>
   <node concept="PlHQZ" id="6K73LRuXmzF">
     <property role="1pbfSe" value="1258059784" />
     <property role="3GE5qa" value="uimodule" />
-    <property role="TrG5h" value="IAppModuleOption" />
+    <property role="TrG5h" value="IModuleOption" />
   </node>
   <node concept="1TIwiD" id="6K73LRuXmzG">
     <property role="1pbfSe" value="1258059785" />
     <property role="3GE5qa" value="uimodule" />
-    <property role="TrG5h" value="Version" />
+    <property role="TrG5h" value="OptVersion" />
     <property role="34LRSv" value="VERSION" />
     <property role="R4oN_" value="of this module" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
@@ -1005,7 +993,7 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="6K73LRuXmzH" role="PzmwI">
-      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IAppModuleOption" />
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IModuleOption" />
     </node>
   </node>
   <node concept="1TIwiD" id="6K73LRuXEP_">
@@ -1021,19 +1009,20 @@
   <node concept="1TIwiD" id="6K73LRuXEPA">
     <property role="1pbfSe" value="1258142851" />
     <property role="3GE5qa" value="uimodule" />
-    <property role="TrG5h" value="UseLoginScreen" />
+    <property role="TrG5h" value="OptUseLoginScreen" />
     <property role="34LRSv" value="USE LOGINSCREEN" />
     <property role="R4oN_" value="with this module" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6K73LRuXEPC" role="PzmwI">
-      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IAppModuleOption" />
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IModuleOption" />
     </node>
+    <node concept="asaX9" id="2N7eHMabjgi" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6K73LRuYUa9">
     <property role="1pbfSe" value="1258467750" />
     <property role="3GE5qa" value="uimodule" />
-    <property role="TrG5h" value="OfficialAppName" />
+    <property role="TrG5h" value="OptOfficialAppName" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <property role="34LRSv" value="OFFICIAL NAME" />
     <property role="R4oN_" value="visible app name" />
@@ -1045,7 +1034,7 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="6K73LRv6RJv" role="PzmwI">
-      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IAppModuleOption" />
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IModuleOption" />
     </node>
   </node>
   <node concept="1TIwiD" id="6rXe_0EMlhw">
@@ -1212,6 +1201,184 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="color" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2N7eHMabazD">
+    <property role="1pbfSe" value="1225530427" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="BatchJobModule" />
+    <property role="MwhBj" value="${module}/icons/batchmodule2.png" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="BatchJob Module" />
+    <property role="R4oN_" value="batchjob with UI" />
+    <ref role="1TJDcQ" to="un0u:6ffh1MXA9UE" resolve="Container" />
+    <node concept="1TJgyj" id="2N7eHMabhMj" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="configuredComponents" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="un0u:6ffh1MXA9UI" resolve="ContainerVariable" />
+    </node>
+    <node concept="1TJgyj" id="2N7eHMabhMB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="onStartup" />
+      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXTestStatementList" />
+    </node>
+    <node concept="1TJgyj" id="2N7eHMabhMH" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="onShutdown" />
+      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXTestStatementList" />
+    </node>
+    <node concept="1TJgyj" id="2N7eHMabhMO" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="authFunction" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6K73LRuXEP_" resolve="AppAuthenticationFunction" />
+    </node>
+    <node concept="1TJgyj" id="3U0QWzuDrtK" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="exceptionStrategy" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="un0u:3U0QWzu$3aR" resolve="OFXExceptionStrategy" />
+    </node>
+    <node concept="1TJgyj" id="I5RNLIPTiy" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pairs" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="un0u:I5RNLIPTjN" resolve="OFXProducerConsumerPair" />
+    </node>
+    <node concept="PrWs8" id="2B50FNVZuOp" role="PzmwI">
+      <ref role="PrY4T" node="2N7eHMakYIc" resolve="IModule" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2N7eHMakYIc">
+    <property role="1pbfSe" value="1222957464" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="IModule" />
+    <node concept="1TJgyj" id="1aaqwMInVkp" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="configuration" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
+    </node>
+    <node concept="1TJgyj" id="2N7eHMakYJu" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6K73LRuXmzF" resolve="IModuleOption" />
+    </node>
+    <node concept="PrWs8" id="2N7eHMakZ_3" role="PrDN$">
+      <ref role="PrY4T" to="un0u:6ffh1MX_A5f" resolve="ISpaceNamed" />
+    </node>
+    <node concept="PrWs8" id="2N7eHMal02i" role="PrDN$">
+      <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2B50FNVX79z">
+    <property role="1pbfSe" value="632911135" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="OptBatchDependent" />
+    <property role="34LRSv" value="DEPENDENT_CONSECUTIVE" />
+    <property role="R4oN_" value="pairs depend on each other" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2B50FNVX79$" role="PzmwI">
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IModuleOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2B50FNW1Fn6">
+    <property role="1pbfSe" value="634108034" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="OptCronPairExp" />
+    <property role="34LRSv" value="CRON" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7KiQG4aj5Sm" role="1TKVEl">
+      <property role="TrG5h" value="sec" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7KiQG4aj5RV" role="1TKVEl">
+      <property role="TrG5h" value="min" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7KiQG4aj5RX" role="1TKVEl">
+      <property role="TrG5h" value="hour" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7KiQG4aj5S0" role="1TKVEl">
+      <property role="TrG5h" value="dayOfMonth" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7KiQG4aj5S4" role="1TKVEl">
+      <property role="TrG5h" value="month" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7KiQG4aj5S9" role="1TKVEl">
+      <property role="TrG5h" value="dayOfWeek" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="2B50FNW1Moc" role="PzmwI">
+      <ref role="PrY4T" node="2B50FNW1MiN" resolve="IPairModuleOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2B50FNW1Ix2">
+    <property role="1pbfSe" value="634120958" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="OptDelayPair" />
+    <property role="34LRSv" value="DELAY" />
+    <property role="R4oN_" value="time to wait after work processed" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7KiQG4aFY26" role="1TKVEl">
+      <property role="TrG5h" value="delayInSec" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="2B50FNW1MoH" role="PzmwI">
+      <ref role="PrY4T" node="2B50FNW1MiN" resolve="IPairModuleOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2B50FNW1IxU">
+    <property role="1pbfSe" value="634121014" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="OptNumConsumersPair" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <property role="34LRSv" value="CONSUMERS" />
+    <property role="R4oN_" value="number of consumers" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="7KiQG4b0b1e" role="1TKVEl">
+      <property role="TrG5h" value="numConsumers" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="2B50FNW1Mpm" role="PzmwI">
+      <ref role="PrY4T" node="2B50FNW1MiN" resolve="IPairModuleOption" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2B50FNW1MiN">
+    <property role="1pbfSe" value="634136431" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="IPairModuleOption" />
+    <node concept="1TJgyj" id="59aH4f6nT6J" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="pair" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="un0u:I5RNLIPTjN" resolve="OFXProducerConsumerPair" />
+    </node>
+    <node concept="PrWs8" id="2B50FNW1MiO" role="PrDN$">
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IModuleOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2B50FNWXTFI">
+    <property role="1pbfSe" value="649895338" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="OptIncludeBatchUi" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="2B50FNWXTHA" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="batchJob" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2N7eHMabazD" resolve="BatchJobModule" />
+    </node>
+    <node concept="PrWs8" id="2B50FNWXTHt" role="PzmwI">
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IModuleOption" />
     </node>
   </node>
 </model>

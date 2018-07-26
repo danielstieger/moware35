@@ -9607,12 +9607,12 @@
               <node concept="37vLTw" id="6K73LRvmuVe" role="2Oq$k0">
                 <ref role="3cqZAo" node="6K73LRvmt5a" resolve="uiModule" />
               </node>
-              <node concept="3Tsc0h" id="6K73LRvmvdi" role="2OqNvi">
-                <ref role="3TtcxE" to="1btx:6K73LRuXmMl" />
+              <node concept="3Tsc0h" id="2B50FNW_aL1" role="2OqNvi">
+                <ref role="3TtcxE" to="1btx:2N7eHMakYJu" />
               </node>
             </node>
             <node concept="WFELt" id="6K73LRvmwiI" role="2OqNvi">
-              <ref role="1A0vxQ" to="1btx:6K73LRuXmzG" resolve="Version" />
+              <ref role="1A0vxQ" to="1btx:6K73LRuXmzG" resolve="OptVersion" />
             </node>
           </node>
         </node>

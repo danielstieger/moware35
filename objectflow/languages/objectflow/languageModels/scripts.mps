@@ -1078,7 +1078,7 @@
   <node concept="_UgoZ" id="4bYxf2Ftz15">
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="MMPersistanceDescAdjust" />
-    <property role="2BwPS$" value="moware cmd RC47" />
+    <property role="2BwPS$" value="Moware CMD RC49" />
     <property role="_Wzho" value="(1) Adjust PersistanceDescriptions" />
     <node concept="_XfAh" id="4bYxf2Ftz16" role="_YvDr">
       <property role="_XH9r" value="SetNameForPersistanceDescriptions" />
