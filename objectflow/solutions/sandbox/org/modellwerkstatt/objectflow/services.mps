@@ -40668,16 +40668,53 @@
               </node>
             </node>
             <node concept="3clFbF" id="J8q4V3v5Ia" role="3cqZAp">
-              <node concept="37vLTI" id="J8q4V3v5Lx" role="3clFbG">
-                <node concept="AH0OO" id="J8q4V3v5Rb" role="37vLTx">
-                  <node concept="37vLTw" id="J8q4V3v5Uv" role="AHEQo">
+              <node concept="d57v9" id="7oLsFCM6JAQ" role="3clFbG">
+                <node concept="37vLTw" id="7oLsFCM6JAV" role="37vLTJ">
+                  <ref role="3cqZAo" node="5n6hJfGHDHk" resolve="curLine" />
+                </node>
+                <node concept="AH0OO" id="7oLsFCM6JAS" role="37vLTx">
+                  <node concept="37vLTw" id="7oLsFCM6JAT" role="AHEQo">
                     <ref role="3cqZAo" node="5n6hJfGHSFG" resolve="currentParserIndex" />
                   </node>
-                  <node concept="37vLTw" id="J8q4V3v5Ni" role="AHHXb">
+                  <node concept="37vLTw" id="7oLsFCM6JAU" role="AHHXb">
                     <ref role="3cqZAo" node="5n6hJfGHTsG" resolve="currentParserLines" />
                   </node>
                 </node>
-                <node concept="37vLTw" id="J8q4V3v5I8" role="37vLTJ">
+              </node>
+            </node>
+            <node concept="3clFbF" id="7oLsFCM6JKR" role="3cqZAp">
+              <node concept="37vLTI" id="7oLsFCM6JUd" role="3clFbG">
+                <node concept="2OqwBi" id="7oLsFCM6KL1" role="37vLTx">
+                  <node concept="2OqwBi" id="7oLsFCM6Kg3" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7oLsFCM6JXA" role="2Oq$k0">
+                      <node concept="37vLTw" id="7oLsFCM6JVZ" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5n6hJfGHDHk" resolve="curLine" />
+                      </node>
+                      <node concept="liA8E" id="7oLsFCM6K11" role="2OqNvi">
+                        <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                        <node concept="Xl_RD" id="7oLsFCM6K2q" role="37wK5m">
+                          <property role="Xl_RC" value="\n" />
+                        </node>
+                        <node concept="Xl_RD" id="7oLsFCM6K7K" role="37wK5m">
+                          <property role="Xl_RC" value="" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="7oLsFCM6Ko7" role="2OqNvi">
+                      <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                      <node concept="Xl_RD" id="7oLsFCM6Kqi" role="37wK5m">
+                        <property role="Xl_RC" value="/r" />
+                      </node>
+                      <node concept="Xl_RD" id="7oLsFCM6KHh" role="37wK5m">
+                        <property role="Xl_RC" value="" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7oLsFCM6L6s" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.trim():java.lang.String" resolve="trim" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="7oLsFCM6JKP" role="37vLTJ">
                   <ref role="3cqZAo" node="5n6hJfGHDHk" resolve="curLine" />
                 </node>
               </node>
@@ -40695,10 +40732,20 @@
                 <ref role="3cqZAo" node="5n6hJfGHSFG" resolve="currentParserIndex" />
               </node>
             </node>
-            <node concept="1rXfSq" id="J8q4V3v3MW" role="3uHU7B">
-              <ref role="37wK5l" node="5n6hJfGP0$M" resolve="isEscapeLine" />
-              <node concept="37vLTw" id="J8q4V3v3UT" role="37wK5m">
-                <ref role="3cqZAo" node="5n6hJfGHDHk" resolve="curLine" />
+            <node concept="1eOMI4" id="7oLsFCM6GBl" role="3uHU7B">
+              <node concept="22lmx$" id="7oLsFCM6GIf" role="1eOMHV">
+                <node concept="1rXfSq" id="7oLsFCM6J0Y" role="3uHU7w">
+                  <ref role="37wK5l" node="7oLsFCM6GNe" resolve="isMultiTextLine" />
+                  <node concept="37vLTw" id="7oLsFCM6J6b" role="37wK5m">
+                    <ref role="3cqZAo" node="5n6hJfGHDHk" resolve="curLine" />
+                  </node>
+                </node>
+                <node concept="1rXfSq" id="7oLsFCM6GBm" role="3uHU7B">
+                  <ref role="37wK5l" node="5n6hJfGP0$M" resolve="isEscapeLine" />
+                  <node concept="37vLTw" id="7oLsFCM6GBn" role="37wK5m">
+                    <ref role="3cqZAo" node="5n6hJfGHDHk" resolve="curLine" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -40764,22 +40811,31 @@
           </node>
           <node concept="9aQIb" id="5n6hJfGHI0h" role="9aQIa">
             <node concept="3clFbS" id="5n6hJfGHI0i" role="9aQI4">
+              <node concept="3cpWs8" id="7oLsFCLIgqD" role="3cqZAp">
+                <node concept="3cpWsn" id="7oLsFCLIgqG" role="3cpWs9">
+                  <property role="TrG5h" value="desc" />
+                  <node concept="17QB3L" id="7oLsFCLIgqB" role="1tU5fm" />
+                  <node concept="3cpWs3" id="5n6hJfGHJZ1" role="33vP2m">
+                    <node concept="3cpWs3" id="5n6hJfGHJDY" role="3uHU7B">
+                      <node concept="Xl_RD" id="5n6hJfGHJdb" role="3uHU7B">
+                        <property role="Xl_RC" value="New Indent Pos should start with Object description, but was: '" />
+                      </node>
+                      <node concept="37vLTw" id="5n6hJfGHJOr" role="3uHU7w">
+                        <ref role="3cqZAo" node="5n6hJfGHDHk" resolve="curLine" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="5n6hJfGHK8Y" role="3uHU7w">
+                      <property role="Xl_RC" value="'" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="YS8fn" id="5n6hJfGHIeE" role="3cqZAp">
                 <node concept="2ShNRf" id="5n6hJfGHIke" role="YScLw">
                   <node concept="1pGfFk" id="5n6hJfGHJ63" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                    <node concept="3cpWs3" id="5n6hJfGHJZ1" role="37wK5m">
-                      <node concept="Xl_RD" id="5n6hJfGHK8Y" role="3uHU7w">
-                        <property role="Xl_RC" value="'" />
-                      </node>
-                      <node concept="3cpWs3" id="5n6hJfGHJDY" role="3uHU7B">
-                        <node concept="Xl_RD" id="5n6hJfGHJdb" role="3uHU7B">
-                          <property role="Xl_RC" value="New Indent Pos should start with Object description, but was: '" />
-                        </node>
-                        <node concept="37vLTw" id="5n6hJfGHJOr" role="3uHU7w">
-                          <ref role="3cqZAo" node="5n6hJfGHDHk" resolve="curLine" />
-                        </node>
-                      </node>
+                    <node concept="37vLTw" id="7oLsFCLIgMs" role="37wK5m">
+                      <ref role="3cqZAo" node="7oLsFCLIgqG" resolve="desc" />
                     </node>
                   </node>
                 </node>
@@ -41168,6 +41224,37 @@
             </node>
             <node concept="Xl_RD" id="5n6hJfGMnsQ" role="2Oq$k0">
               <property role="Xl_RC" value="" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="7oLsFCM6GNe" role="jymVt">
+      <property role="TrG5h" value="isMultiTextLine" />
+      <node concept="37vLTG" id="7oLsFCM6GNf" role="3clF46">
+        <property role="TrG5h" value="curLine" />
+        <node concept="17QB3L" id="7oLsFCM6GNg" role="1tU5fm" />
+      </node>
+      <node concept="10P_77" id="7oLsFCM6GNh" role="3clF45" />
+      <node concept="3Tm6S6" id="7oLsFCM6GNi" role="1B3o_S" />
+      <node concept="3clFbS" id="7oLsFCM6GNj" role="3clF47">
+        <node concept="3clFbF" id="7oLsFCM6Laq" role="3cqZAp">
+          <node concept="1Wc70l" id="7oLsFCM6LrL" role="3clFbG">
+            <node concept="3eOSWO" id="7oLsFCM6Lm4" role="3uHU7B">
+              <node concept="2OqwBi" id="7oLsFCM6Lct" role="3uHU7B">
+                <node concept="37vLTw" id="7oLsFCM6Lap" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7oLsFCM6GNf" resolve="curLine" />
+                </node>
+                <node concept="liA8E" id="7oLsFCM6Lhu" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.length():int" resolve="length" />
+                </node>
+              </node>
+              <node concept="3cmrfG" id="7oLsFCM6Lmw" role="3uHU7w">
+                <property role="3cmrfH" value="1" />
+              </node>
+            </node>
+            <node concept="10M0yZ" id="7oLsFCM6LV6" role="3uHU7w">
+              <ref role="1PxDUh" to="wyt6:~Character" resolve="Character" />
             </node>
           </node>
         </node>
