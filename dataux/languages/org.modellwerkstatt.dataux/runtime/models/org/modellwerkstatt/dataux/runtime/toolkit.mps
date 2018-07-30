@@ -705,6 +705,25 @@
       <node concept="3Tm1VV" id="20ohnkbA_XB" role="1B3o_S" />
       <node concept="3clFbS" id="20ohnkbA_XC" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="YR7GeSDyNy" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="showGraphDebugger" />
+      <node concept="37vLTG" id="YR7GeSDyNz" role="3clF46">
+        <property role="TrG5h" value="graph" />
+        <node concept="_YKpA" id="YR7GeSDzgx" role="1tU5fm">
+          <node concept="3uibUv" id="YR7GeSDzqO" role="_ZDj9">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="YR7GeSDyN_" role="3clF46">
+        <property role="TrG5h" value="controllerInfo" />
+        <node concept="17QB3L" id="YR7GeSDyNA" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="YR7GeSDyND" role="3clF45" />
+      <node concept="3Tm1VV" id="YR7GeSDyNE" role="1B3o_S" />
+      <node concept="3clFbS" id="YR7GeSDyNF" role="3clF47" />
+    </node>
     <node concept="2tJIrI" id="5_bDd1dOt4o" role="jymVt" />
     <node concept="3clFb_" id="20ohnkbICqP" role="jymVt">
       <property role="1EzhhJ" value="true" />
