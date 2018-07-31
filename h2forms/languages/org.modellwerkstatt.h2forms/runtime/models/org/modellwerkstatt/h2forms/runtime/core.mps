@@ -8149,6 +8149,32 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7r26jiNZRcw" role="jymVt" />
+    <node concept="3clFb_" id="6PKqlsSNWzs" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="showGraphDebugger" />
+      <node concept="37vLTG" id="6PKqlsSNWzt" role="3clF46">
+        <property role="TrG5h" value="graph" />
+        <node concept="_YKpA" id="6PKqlsSNWzu" role="1tU5fm">
+          <node concept="3uibUv" id="6PKqlsSNWzv" role="_ZDj9">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6PKqlsSNWzw" role="3clF46">
+        <property role="TrG5h" value="controllerInfo" />
+        <node concept="17QB3L" id="6PKqlsSNWzx" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6PKqlsSNWzy" role="3clF45" />
+      <node concept="3Tm1VV" id="6PKqlsSNWzz" role="1B3o_S" />
+      <node concept="3clFbS" id="6PKqlsSNWzA" role="3clF47">
+        <node concept="3SKdUt" id="6PKqlsSNYDD" role="3cqZAp">
+          <node concept="3SKdUq" id="6PKqlsSNYDE" role="3SKWNk">
+            <property role="3SKdUp" value="not implemented yet" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6PKqlsSNYEt" role="jymVt" />
     <node concept="3clFb_" id="kWPevMd7NX" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="addStatusInformation" />

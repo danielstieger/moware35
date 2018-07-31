@@ -9575,7 +9575,7 @@
       <node concept="37vLTG" id="5sqqmqIdV39" role="3clF46">
         <property role="TrG5h" value="node" />
         <node concept="3uibUv" id="5sqqmqIfvm9" role="1tU5fm">
-          <ref role="3uigEE" to="gyq6:5sqqmqIdQNT" resolve="IMoSPStringNode" />
+          <ref role="3uigEE" to="gyq6:5sqqmqIdQNT" resolve="IMoTNode" />
         </node>
       </node>
       <node concept="3cqZAl" id="5sqqmqIdV3b" role="3clF45" />
@@ -9605,7 +9605,7 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createNewNode" />
       <node concept="3uibUv" id="5sqqmqIfvqq" role="3clF45">
-        <ref role="3uigEE" to="gyq6:5sqqmqIdQNT" resolve="IMoSPStringNode" />
+        <ref role="3uigEE" to="gyq6:5sqqmqIdQNT" resolve="IMoTNode" />
       </node>
       <node concept="3Tm1VV" id="5sqqmqIdV3l" role="1B3o_S" />
       <node concept="3clFbS" id="5sqqmqIdV3r" role="3clF47">
@@ -9618,12 +9618,68 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="2OnuEO88PAD" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="addNode" />
+      <node concept="37vLTG" id="2OnuEO88PAE" role="3clF46">
+        <property role="TrG5h" value="label" />
+        <node concept="17QB3L" id="2OnuEO88PAF" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="2OnuEO88PAG" role="3clF45">
+        <ref role="3uigEE" to="gyq6:5sqqmqIdQNT" resolve="IMoTNode" />
+      </node>
+      <node concept="3Tm1VV" id="2OnuEO88PAH" role="1B3o_S" />
+      <node concept="3clFbS" id="2OnuEO88PAN" role="3clF47">
+        <node concept="3cpWs8" id="2OnuEO88QqD" role="3cqZAp">
+          <node concept="3cpWsn" id="2OnuEO88QqE" role="3cpWs9">
+            <property role="TrG5h" value="s" />
+            <node concept="3uibUv" id="2OnuEO88QqF" role="1tU5fm">
+              <ref role="3uigEE" node="5sqqmqIdUdD" resolve="SwingNode" />
+            </node>
+            <node concept="2ShNRf" id="2OnuEO88QsB" role="33vP2m">
+              <node concept="HV5vD" id="2OnuEO88SZO" role="2ShVmc">
+                <ref role="HV5vE" node="5sqqmqIdUdD" resolve="SwingNode" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2OnuEO88T4o" role="3cqZAp">
+          <node concept="2OqwBi" id="2OnuEO88T61" role="3clFbG">
+            <node concept="37vLTw" id="2OnuEO88T4m" role="2Oq$k0">
+              <ref role="3cqZAo" node="2OnuEO88QqE" resolve="s" />
+            </node>
+            <node concept="liA8E" id="2OnuEO88Tdt" role="2OqNvi">
+              <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.setUserObject(java.lang.Object):void" resolve="setUserObject" />
+              <node concept="37vLTw" id="2OnuEO88Tib" role="37wK5m">
+                <ref role="3cqZAo" node="2OnuEO88PAE" resolve="label" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2OnuEO88TnQ" role="3cqZAp">
+          <node concept="2OqwBi" id="2OnuEO88TqX" role="3clFbG">
+            <node concept="Xjq3P" id="2OnuEO88TnO" role="2Oq$k0" />
+            <node concept="liA8E" id="2OnuEO88TDE" role="2OqNvi">
+              <ref role="37wK5l" to="rgfa:~DefaultMutableTreeNode.add(javax.swing.tree.MutableTreeNode):void" resolve="add" />
+              <node concept="37vLTw" id="2OnuEO88TLq" role="37wK5m">
+                <ref role="3cqZAo" node="2OnuEO88QqE" resolve="s" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2OnuEO88TPW" role="3cqZAp">
+          <node concept="37vLTw" id="2OnuEO88TPU" role="3clFbG">
+            <ref role="3cqZAo" node="2OnuEO88QqE" resolve="s" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="5sqqmqIdUdE" role="1B3o_S" />
     <node concept="3uibUv" id="5sqqmqIdUlM" role="1zkMxy">
       <ref role="3uigEE" to="rgfa:~DefaultMutableTreeNode" resolve="DefaultMutableTreeNode" />
     </node>
     <node concept="3uibUv" id="5sqqmqIfv9o" role="EKbjA">
-      <ref role="3uigEE" to="gyq6:5sqqmqIdQNT" resolve="IMoSPStringNode" />
+      <ref role="3uigEE" to="gyq6:5sqqmqIdQNT" resolve="IMoTNode" />
     </node>
   </node>
 </model>
