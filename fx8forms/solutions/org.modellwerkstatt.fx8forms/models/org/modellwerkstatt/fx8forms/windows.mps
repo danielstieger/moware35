@@ -38759,21 +38759,41 @@
                   </node>
                   <node concept="liA8E" id="7UnSKnEtrXH" role="2OqNvi">
                     <ref role="37wK5l" to="gyq6:5sqqmqIdU9L" resolve="addNode" />
-                    <node concept="3cpWs3" id="7UnSKnEtoNW" role="37wK5m">
-                      <node concept="Xl_RD" id="7UnSKnEtoQI" role="3uHU7w">
-                        <property role="Xl_RC" value="'" />
-                      </node>
-                      <node concept="3cpWs3" id="7UnSKnEtoth" role="3uHU7B">
-                        <node concept="Xl_RD" id="7UnSKnEtok2" role="3uHU7B">
-                          <property role="Xl_RC" value="VALUE NOT KNOWN OF NULL! '" />
-                        </node>
-                        <node concept="2OqwBi" id="7UnSKnEtozI" role="3uHU7w">
-                          <node concept="37vLTw" id="7UnSKnEtovS" role="2Oq$k0">
+                    <node concept="3cpWs3" id="5eyJ5XtuUWj" role="37wK5m">
+                      <node concept="2OqwBi" id="5eyJ5XtuVI_" role="3uHU7w">
+                        <node concept="2OqwBi" id="5eyJ5XtuVjh" role="2Oq$k0">
+                          <node concept="37vLTw" id="5eyJ5XtuVeE" role="2Oq$k0">
                             <ref role="3cqZAo" node="wDSRHNMjlB" resolve="value" />
                           </node>
-                          <node concept="liA8E" id="7UnSKnEtoKr" role="2OqNvi">
-                            <ref role="37wK5l" to="28jr:5dZoziQ_kIq" resolve="getValue" />
+                          <node concept="liA8E" id="5eyJ5XtuVxW" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
                           </node>
+                        </node>
+                        <node concept="liA8E" id="5eyJ5XtuW65" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+                        </node>
+                      </node>
+                      <node concept="3cpWs3" id="7UnSKnEtoNW" role="3uHU7B">
+                        <node concept="3cpWs3" id="7UnSKnEtoth" role="3uHU7B">
+                          <node concept="3cpWs3" id="5eyJ5XtuUks" role="3uHU7B">
+                            <node concept="37vLTw" id="5eyJ5XtuUy6" role="3uHU7B">
+                              <ref role="3cqZAo" node="wDSRHNMjl_" resolve="fieldname" />
+                            </node>
+                            <node concept="Xl_RD" id="7UnSKnEtok2" role="3uHU7w">
+                              <property role="Xl_RC" value=": VALUE NOT KNOWN OF NULL! '" />
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="7UnSKnEtozI" role="3uHU7w">
+                            <node concept="37vLTw" id="7UnSKnEtovS" role="2Oq$k0">
+                              <ref role="3cqZAo" node="wDSRHNMjlB" resolve="value" />
+                            </node>
+                            <node concept="liA8E" id="7UnSKnEtoKr" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:5dZoziQ_kIq" resolve="getValue" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="7UnSKnEtoQI" role="3uHU7w">
+                          <property role="Xl_RC" value="' type " />
                         </node>
                       </node>
                     </node>
