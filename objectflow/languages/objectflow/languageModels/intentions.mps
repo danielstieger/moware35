@@ -27,6 +27,8 @@
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
+    <import index="n4mo" ref="r:6c3f0e13-fdba-40b6-8f82-fee20ffbba77(org.modellwerkstatt.manmap.conventions)" />
+    <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -5301,6 +5303,134 @@
               </node>
             </node>
             <node concept="3x8VRR" id="1ZFIhreoM0a" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="6W_Qo9f1Hth">
+    <property role="3GE5qa" value="AutoCompleter" />
+    <property role="TrG5h" value="EmbeddedCreateAllFieldDefault" />
+    <ref role="2ZfgGC" to="r5tz:Kou8LehQEQ" resolve="EmbeddedMapping" />
+    <node concept="2S6ZIM" id="6W_Qo9f1Hti" role="2ZfVej">
+      <node concept="3clFbS" id="6W_Qo9f1Htj" role="2VODD2">
+        <node concept="3clFbF" id="6W_Qo9f1Htm" role="3cqZAp">
+          <node concept="3cpWs3" id="RffU3z0uFq" role="3clFbG">
+            <node concept="Xl_RD" id="RffU3z0uH3" role="3uHU7w">
+              <property role="Xl_RC" value="." />
+            </node>
+            <node concept="3cpWs3" id="RffU3z0u9t" role="3uHU7B">
+              <node concept="Xl_RD" id="6W_Qo9f1Htn" role="3uHU7B">
+                <property role="Xl_RC" value="Create all fields per default for " />
+              </node>
+              <node concept="2OqwBi" id="RffU3z0weX" role="3uHU7w">
+                <node concept="2OqwBi" id="RffU3z0udR" role="2Oq$k0">
+                  <node concept="2Sf5sV" id="RffU3z0uag" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="RffU3z0xWo" role="2OqNvi">
+                    <ref role="3Tt5mk" to="r5tz:Kou8LehQER" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="RffU3z0ykc" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpee:huRkwj$" resolve="propertyName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="6W_Qo9f1Htk" role="2ZfgGD">
+      <node concept="3clFbS" id="6W_Qo9f1Htl" role="2VODD2">
+        <node concept="3cpWs8" id="6W_Qo9f1IHE" role="3cqZAp">
+          <node concept="3cpWsn" id="6W_Qo9f1IHF" role="3cpWs9">
+            <property role="TrG5h" value="iam" />
+            <node concept="_YKpA" id="6W_Qo9f1IHG" role="1tU5fm">
+              <node concept="3Tqbb2" id="6W_Qo9f1IHH" role="_ZDj9">
+                <ref role="ehGHo" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="6W_Qo9f1IHI" role="33vP2m">
+              <ref role="1Pybhc" to="3ojc:6W_Qo9f1Htp" resolve="CreateDefaultMapping" />
+              <ref role="37wK5l" to="3ojc:6W_Qo9f1Htv" resolve="createDefaultMapping" />
+              <node concept="2Sf5sV" id="6W_Qo9f1IHJ" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6W_Qo9f1IHK" role="3cqZAp">
+          <node concept="2OqwBi" id="6W_Qo9f1IHL" role="3clFbG">
+            <node concept="2OqwBi" id="6W_Qo9f1IHM" role="2Oq$k0">
+              <node concept="2Sf5sV" id="6W_Qo9f1IHN" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="6W_Qo9f1IHS" role="2OqNvi">
+                <ref role="3TtcxE" to="r5tz:Kou8LehQES" />
+              </node>
+            </node>
+            <node concept="X8dFx" id="6W_Qo9f1IHP" role="2OqNvi">
+              <node concept="37vLTw" id="KVbXdPfeYn" role="25WWJ7">
+                <ref role="3cqZAo" node="6W_Qo9f1IHF" resolve="iam" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="33USv3LV9Bh">
+    <property role="3GE5qa" value="AutoCompleter" />
+    <property role="TrG5h" value="CreateAllFieldsDefault" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="r5tz:Kou8LehH1E" resolve="EntityMapping" />
+    <node concept="2S6ZIM" id="33USv3LV9Bi" role="2ZfVej">
+      <node concept="3clFbS" id="33USv3LV9Bj" role="2VODD2">
+        <node concept="3clFbF" id="33USv3LV9Bm" role="3cqZAp">
+          <node concept="3cpWs3" id="RffU3z0oVN" role="3clFbG">
+            <node concept="Xl_RD" id="RffU3z0oXs" role="3uHU7w">
+              <property role="Xl_RC" value="." />
+            </node>
+            <node concept="3cpWs3" id="RffU3z0oEi" role="3uHU7B">
+              <node concept="Xl_RD" id="33USv3LV9Bn" role="3uHU7B">
+                <property role="Xl_RC" value="Create all fields per default for " />
+              </node>
+              <node concept="2OqwBi" id="RffU3z0oIm" role="3uHU7w">
+                <node concept="2Sf5sV" id="RffU3z0oF6" role="2Oq$k0" />
+                <node concept="3TrcHB" id="RffU3z0oND" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="33USv3LV9Bk" role="2ZfgGD">
+      <node concept="3clFbS" id="33USv3LV9Bl" role="2VODD2">
+        <node concept="3cpWs8" id="6W_Qo9f1IHa" role="3cqZAp">
+          <node concept="3cpWsn" id="6W_Qo9f1IHb" role="3cpWs9">
+            <property role="TrG5h" value="iam" />
+            <node concept="_YKpA" id="6W_Qo9f1IHc" role="1tU5fm">
+              <node concept="3Tqbb2" id="6W_Qo9f1IHe" role="_ZDj9">
+                <ref role="ehGHo" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="6W_Qo9f1IHh" role="33vP2m">
+              <ref role="1Pybhc" to="3ojc:6W_Qo9f1Htp" resolve="CreateDefaultMapping" />
+              <ref role="37wK5l" to="3ojc:6W_Qo9f1Htv" resolve="createDefaultMapping" />
+              <node concept="2Sf5sV" id="6W_Qo9f1IHi" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6W_Qo9f1IHj" role="3cqZAp">
+          <node concept="2OqwBi" id="6W_Qo9f1IHx" role="3clFbG">
+            <node concept="2OqwBi" id="6W_Qo9f1IHn" role="2Oq$k0">
+              <node concept="2Sf5sV" id="6W_Qo9f1IHk" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="6W_Qo9f1IHt" role="2OqNvi">
+                <ref role="3TtcxE" to="r5tz:Kou8LehPyV" />
+              </node>
+            </node>
+            <node concept="X8dFx" id="6W_Qo9f1IHB" role="2OqNvi">
+              <node concept="37vLTw" id="KVbXdPfeSx" role="25WWJ7">
+                <ref role="3cqZAo" node="6W_Qo9f1IHb" resolve="iam" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
