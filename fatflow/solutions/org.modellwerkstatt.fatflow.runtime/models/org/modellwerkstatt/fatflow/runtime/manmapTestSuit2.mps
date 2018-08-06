@@ -7252,6 +7252,7 @@
     <node concept="3Tm1VV" id="70qPrkCy95w" role="1B3o_S" />
   </node>
   <node concept="12nvSr" id="70qPrkCyb9p">
+    <property role="TrG5h" value="PersDesc" />
     <node concept="12nEzA" id="70qPrkCyb9_" role="12nEwW">
       <property role="TrG5h" value="MapInvoice" />
       <ref role="12nOxz" node="612_n8HbweS" resolve="Invoice" />
@@ -12895,11 +12896,11 @@
       </node>
     </node>
     <node concept="J2Nxi" id="7mZ5ilqNXRI" role="38MLOi">
-      <property role="J2Nxv" value="C:/moware/fatflow/testdata/" />
+      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/" />
       <property role="TrG5h" value="GRAPHS" />
     </node>
     <node concept="J2Nxi" id="70qPrkCTlPi" role="38MLOi">
-      <property role="J2Nxv" value="C:/moware/fatflow/testdata/sqls/" />
+      <property role="J2Nxv" value="/Users/danielstieger/moware/fatflow/testdata/sqls/" />
       <property role="TrG5h" value="SQLS" />
     </node>
     <node concept="3yPF9F" id="4szYp3XojxL" role="3yMuLx">
