@@ -14914,102 +14914,27 @@
     </node>
     <node concept="2d2NRx" id="7cOyB3YiydU" role="3yTP5x">
       <node concept="3clFbS" id="7cOyB3YiydV" role="2VODD2">
-        <node concept="3clFbF" id="3KPvoWvBXKU" role="3cqZAp">
-          <node concept="2OqwBi" id="3KPvoWvBXKR" role="3clFbG">
-            <node concept="10M0yZ" id="3KPvoWvBXKS" role="2Oq$k0">
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-            </node>
-            <node concept="liA8E" id="3KPvoWvBXKT" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="3KPvoWvBXRB" role="37wK5m">
-                <node concept="2YIFZM" id="3KPvoWvBXXt" role="3uHU7w">
-                  <ref role="37wK5l" to="33ny:~Locale.getDefault():java.util.Locale" resolve="getDefault" />
-                  <ref role="1Pybhc" to="33ny:~Locale" resolve="Locale" />
-                </node>
-                <node concept="Xl_RD" id="3KPvoWvBXLP" role="3uHU7B">
-                  <property role="Xl_RC" value="Your current locale is: " />
-                </node>
-              </node>
+        <node concept="3dXMYk" id="70qPrkCTlTn" role="3cqZAp">
+          <node concept="JpLXF" id="70qPrkCTlTo" role="JmycY">
+            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
+            <node concept="Xl_RD" id="70qPrkCTlTp" role="1o$Zrr">
+              <property role="Xl_RC" value="deletetables.sql" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3KPvoWvJqOe" role="3cqZAp" />
-        <node concept="3clFbJ" id="6VW5G61XrDv" role="3cqZAp">
-          <node concept="3clFbS" id="6VW5G61XrDx" role="3clFbx">
-            <node concept="3SKdUt" id="6VW5G61XrIS" role="3cqZAp">
-              <node concept="3SKdUq" id="6VW5G61XrIU" role="3SKWNk">
-                <property role="3SKdUp" value="oracle" />
-              </node>
-            </node>
-            <node concept="3dXMYk" id="70qPrkCTlTn" role="3cqZAp">
-              <node concept="JpLXF" id="70qPrkCTlTo" role="JmycY">
-                <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
-                <node concept="Xl_RD" id="70qPrkCTlTp" role="1o$Zrr">
-                  <property role="Xl_RC" value="deletetables.sql" />
-                </node>
-              </node>
-            </node>
-            <node concept="3dXMYk" id="70qPrkCTlRZ" role="3cqZAp">
-              <node concept="JpLXF" id="70qPrkCTlS0" role="JmycY">
-                <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
-                <node concept="Xl_RD" id="70qPrkCTlS1" role="1o$Zrr">
-                  <property role="Xl_RC" value="createtables.sql" />
-                </node>
-              </node>
-            </node>
-            <node concept="3dXMYk" id="3ZVRjXSLS1d" role="3cqZAp">
-              <node concept="JpLXF" id="3ZVRjXSLS1f" role="JmycY">
-                <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
-                <node concept="Xl_RD" id="3ZVRjXSLS1h" role="1o$Zrr">
-                  <property role="Xl_RC" value="inserttest.sql" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="6VW5G61XrL9" role="3cqZAp" />
-          </node>
-          <node concept="2OqwBi" id="6VW5G61XrGu" role="3clFbw">
-            <node concept="3urNR4" id="6VW5G61XrEX" role="2Oq$k0">
-              <ref role="3cqZAo" node="6VW5G61Xr_F" resolve="dbDescription" />
-            </node>
-            <node concept="liA8E" id="6VW5G61XrIt" role="2OqNvi">
-              <ref role="37wK5l" to="w7gk:1YSLAaBz9w6" resolve="needsSequenceSelectPre" />
+        <node concept="3dXMYk" id="70qPrkCTlRZ" role="3cqZAp">
+          <node concept="JpLXF" id="70qPrkCTlS0" role="JmycY">
+            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
+            <node concept="Xl_RD" id="70qPrkCTlS1" role="1o$Zrr">
+              <property role="Xl_RC" value="createtables.sql" />
             </node>
           </node>
-          <node concept="9aQIb" id="6VW5G61XrJn" role="9aQIa">
-            <node concept="3clFbS" id="6VW5G61XrJo" role="9aQI4">
-              <node concept="3SKdUt" id="6VW5G61XrKN" role="3cqZAp">
-                <node concept="3SKdUq" id="6VW5G61XrKO" role="3SKWNk">
-                  <property role="3SKdUp" value="mysql" />
-                </node>
-              </node>
-              <node concept="3clFbH" id="6VW5G624G6g" role="3cqZAp" />
-              <node concept="3dXMYk" id="6VW5G61XrTw" role="3cqZAp">
-                <node concept="JpLXF" id="6VW5G61XrTx" role="JmycY">
-                  <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
-                  <node concept="Xl_RD" id="6VW5G61XrTy" role="1o$Zrr">
-                    <property role="Xl_RC" value="mysqldeletetables.sql" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbH" id="6VW5G624G9T" role="3cqZAp" />
-              <node concept="3dXMYk" id="6VW5G61XrTz" role="3cqZAp">
-                <node concept="JpLXF" id="6VW5G61XrT$" role="JmycY">
-                  <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
-                  <node concept="Xl_RD" id="6VW5G61XrT_" role="1o$Zrr">
-                    <property role="Xl_RC" value="mysqlcreatetables.sql" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3dXMYk" id="6VW5G61XrTA" role="3cqZAp">
-                <node concept="JpLXF" id="6VW5G61XrTB" role="JmycY">
-                  <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
-                  <node concept="Xl_RD" id="6VW5G61XrTC" role="1o$Zrr">
-                    <property role="Xl_RC" value="mysqlinserttest.sql" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbH" id="6VW5G61XrLk" role="3cqZAp" />
+        </node>
+        <node concept="3dXMYk" id="3ZVRjXSLS1d" role="3cqZAp">
+          <node concept="JpLXF" id="3ZVRjXSLS1f" role="JmycY">
+            <ref role="JpLXE" node="70qPrkCTlPi" resolve="SQLS" />
+            <node concept="Xl_RD" id="3ZVRjXSLS1h" role="1o$Zrr">
+              <property role="Xl_RC" value="inserttest.sql" />
             </node>
           </node>
         </node>
