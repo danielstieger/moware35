@@ -28,6 +28,7 @@
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
+    <import index="tpeh" ref="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
   </imports>
@@ -15841,6 +15842,40 @@
     <node concept="1YaCAy" id="37q6uRD01v9" role="1YuTPh">
       <property role="TrG5h" value="ofxBatchJobApp" />
       <ref role="1YaFvo" to="un0u:37q6uRD008Z" resolve="OFXBatchJobApp" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="1jYXPQ7yhy2">
+    <property role="TrG5h" value="typeof_OFXTestMethodCallExp" />
+    <property role="3GE5qa" value="OFXTest" />
+    <node concept="3clFbS" id="1jYXPQ7yhy3" role="18ibNy">
+      <node concept="1Z5TYs" id="1jYXPQ7yiJ5" role="3cqZAp">
+        <node concept="mw_s8" id="1jYXPQ7yiJn" role="1ZfhKB">
+          <node concept="2OqwBi" id="1jYXPQ7yjbn" role="mwGJk">
+            <node concept="2OqwBi" id="1jYXPQ7yiMw" role="2Oq$k0">
+              <node concept="1YBJjd" id="1jYXPQ7yiJl" role="2Oq$k0">
+                <ref role="1YBMHb" node="1jYXPQ7yhy5" resolve="ofxTestMethodCallExp" />
+              </node>
+              <node concept="3TrEf2" id="1jYXPQ7yiUP" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:fIYIWN3" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="1jYXPQ7yj_j" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpee:fzclF7X" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="1jYXPQ7yiJ8" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1jYXPQ7yh$m" role="mwGJk">
+            <node concept="1YBJjd" id="1jYXPQ7yh$M" role="1Z2MuG">
+              <ref role="1YBMHb" node="1jYXPQ7yhy5" resolve="ofxTestMethodCallExp" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1jYXPQ7yhy5" role="1YuTPh">
+      <property role="TrG5h" value="ofxTestMethodCallExp" />
+      <ref role="1YaFvo" to="un0u:1jYXPQ7xYqG" resolve="OFXTestMethodCallExp" />
     </node>
   </node>
 </model>

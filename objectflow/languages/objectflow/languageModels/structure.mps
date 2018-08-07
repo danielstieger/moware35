@@ -4995,5 +4995,17 @@
       <ref role="PrY4T" node="4jlzLDl6dD6" resolve="IOFXBatchJobOption" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1jYXPQ7xYqG">
+    <property role="1pbfSe" value="1668882935" />
+    <property role="3GE5qa" value="OFXTest" />
+    <property role="TrG5h" value="OFXTestMethodCallExp" />
+    <ref role="1TJDcQ" to="tpee:fz7wK6G" resolve="BaseMethodCall" />
+    <node concept="1TJgyj" id="fIYIWN3" role="1TKVEi">
+      <property role="20kJfa" value="testMethodDeclaration" />
+      <property role="20lbJX" value="1" />
+      <ref role="20ksaX" to="tpee:fz7wK6H" />
+      <ref role="20lvS9" node="61VVfi2FlUv" resolve="OFXTestMethod" />
+    </node>
+  </node>
 </model>
 
