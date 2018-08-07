@@ -58,7 +58,6 @@
     <import index="bsbx" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jdbc.datasource.init(org.modellwerkstatt.manmap.solution/)" />
     <import index="zj7m" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.sql(JDK/)" />
     <import index="6oha" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.core.io(org.modellwerkstatt.manmap.solution/)" />
-    <import index="z3ji" ref="r:a8bca8d5-1220-4cc2-a6c5-4061175b2dd8(org.modellwerkstatt.objectflow.batchjob)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="ynm1" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.util(org.modellwerkstatt.manmap.solution/)" implicit="true" />
