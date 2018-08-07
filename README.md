@@ -1,18 +1,22 @@
-# master Branch: moware cmd2 RC50
-MoWare CMD2 Release 50, Summer 2018
+#  mrs Branch: moware 
+MoWare2018 MRS - Automne 2018
 [Compatible with MPS 3.3.5] 
 
-The moware CMD2 software stack consists of three domain specific languages (DSL’s) 
+The moware 2018 software stack consists of three domain specific languages (DSL’s) 
 to model the different aspects of business applications. The languages are tightly 
 integrated. Thus, the languages can be stacked on top of each other, to model a 
 whole business application seamlessly, starting with the database access,
 the transformation of data via business logic and the visualization in user interfaces.
 
-This will be the last version/branch before cutting ties and switch to a moware.2018 with 
-major cleanups within moware. Older configruations, batchjobs and other concepts will no 
-longer be supported in future version. Thus, this plugin will be available for you with 
-important bugfixes in order to migrate to the OFXBatchjobs2, OFXConfig or DataUX. Future
-plugins of moware2018 will not be able to read forms3 dsl concepts.
+```
+
+MoWare 2018 is not compatible to earlier releases. This is a cleaned up version of moware, where
+deprecated concepts where removed. Kafka libs was replaces by vert.x libs, springframework as well 
+as java8 were updated to current releases. 
+
+Right now, this is a development version not for productive deployments.
+ 
+```
 
 More information is provided at http://www.modellwerkstatt.org
 
