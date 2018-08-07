@@ -19,7 +19,6 @@
     <import index="p18y" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.scene(org.modellwerkstatt.fx8forms/)" />
     <import index="6ruj" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:com.sun.javafx.scene.control.skin(org.modellwerkstatt.fx8forms/)" />
     <import index="l152" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.scene.layout(org.modellwerkstatt.fx8forms/)" />
-    <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="zsw4" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.stage(org.modellwerkstatt.fx8forms/)" />
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
