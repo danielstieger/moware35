@@ -420,73 +420,9 @@
       <ref role="PrY4T" node="7PeCy_MumjU" resolve="IOFXSurpErrorMarker" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7pUKkkb2pzD">
-    <property role="TrG5h" value="Configuration" />
-    <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/config.png" />
-    <property role="3GE5qa" value="Configuration" />
-    <property role="1pbfSe" value="2122032594" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="I5W9GWFAil" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="logConfiguration" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="I5W9GWFsDD" resolve="LogConfiguration" />
-    </node>
-    <node concept="1TJgyj" id="2UFgF_nts0Z" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="logger" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2UFgF_ntrPs" resolve="ILoggerConfig" />
-    </node>
-    <node concept="1TJgyi" id="4MSBEBe9ZpW" role="1TKVEl">
-      <property role="TrG5h" value="javafx" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="7pUKkkb2Nxg" role="1TKVEl">
-      <property role="TrG5h" value="username" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7pUKkkb2Nxh" role="1TKVEl">
-      <property role="TrG5h" value="password" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7pUKkkb2Nxi" role="1TKVEl">
-      <property role="TrG5h" value="uri" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7pUKkkb2Nxj" role="1TKVEl">
-      <property role="TrG5h" value="driver" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7tADVUmiDs$" role="1TKVEl">
-      <property role="TrG5h" value="jmxuri" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="3X3VCSFANvr" role="1TKVEl">
-      <property role="TrG5h" value="proxyDataSource" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="33f56ccTMVz" role="1TKVEl">
-      <property role="TrG5h" value="maxPoolSize" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="6K1PciraTKV" role="1TKVEl">
-      <property role="TrG5h" value="variant" />
-      <ref role="AX2Wp" to="r5tz:3NBIlSkjqX8" resolve="ManMapVariant" />
-    </node>
-    <node concept="1TJgyi" id="R5cwR_SSNR" role="1TKVEl">
-      <property role="TrG5h" value="clusterRuntime" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="PrWs8" id="7pUKkkb2pzI" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="asaX9" id="q_zDmI60w1" role="lGtFl" />
-  </node>
   <node concept="AxPO7" id="I5W9GWEMXT">
     <property role="TrG5h" value="LogLevels" />
-    <property role="3GE5qa" value="Configuration" />
+    <property role="3GE5qa" value="LogPrint" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <ref role="Qgau1" node="I5W9GWEMY0" />
     <node concept="M4N5e" id="I5W9GWEMXU" role="M5hS2">
@@ -521,21 +457,6 @@
       <property role="1uS6qo" value="OFF" />
       <property role="1uS6qv" value="OFF" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="I5W9GWFsDD">
-    <property role="TrG5h" value="LogConfiguration" />
-    <property role="3GE5qa" value="Configuration" />
-    <property role="1pbfSe" value="1211349764" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="I5W9GWFsDE" role="1TKVEl">
-      <property role="TrG5h" value="packageName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="I5W9GWFsDF" role="1TKVEl">
-      <property role="TrG5h" value="logLevel" />
-      <ref role="AX2Wp" node="I5W9GWEMXT" resolve="LogLevels" />
-    </node>
-    <node concept="asaX9" id="q_zDmI60w7" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3bYrH4MBXhO">
     <property role="3GE5qa" value="BusinessObject.Options" />
@@ -2433,64 +2354,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3UOln1HfB5Q" resolve="DynamicRole" />
     </node>
-  </node>
-  <node concept="PlHQZ" id="2UFgF_ntrPs">
-    <property role="3GE5qa" value="Configuration" />
-    <property role="TrG5h" value="ILoggerConfig" />
-    <property role="1pbfSe" value="2044657643" />
-    <node concept="asaX9" id="q_zDmI60w5" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="2UFgF_ntrQp">
-    <property role="3GE5qa" value="Configuration" />
-    <property role="TrG5h" value="MailLogger" />
-    <property role="34LRSv" value="MailLogger" />
-    <property role="1pbfSe" value="2044657582" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2UFgF_nV5ik" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="to" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
-    </node>
-    <node concept="1TJgyj" id="2UFgF_nV5im" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="from" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
-    </node>
-    <node concept="1TJgyj" id="2UFgF_nV5ip" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="subject" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
-    </node>
-    <node concept="1TJgyj" id="2UFgF_nVGyA" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="server" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
-    </node>
-    <node concept="PrWs8" id="2UFgF_ntrQq" role="PzmwI">
-      <ref role="PrY4T" node="2UFgF_ntrPs" resolve="ILoggerConfig" />
-    </node>
-    <node concept="asaX9" id="q_zDmI60w9" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="2UFgF_ntrRo">
-    <property role="3GE5qa" value="Configuration" />
-    <property role="TrG5h" value="FileLogger" />
-    <property role="34LRSv" value="FileLogger" />
-    <property role="1pbfSe" value="2044657519" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2UFgF_nV5ig" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="fileName" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
-    </node>
-    <node concept="PrWs8" id="2UFgF_ntrRp" role="PzmwI">
-      <ref role="PrY4T" node="2UFgF_ntrPs" resolve="ILoggerConfig" />
-    </node>
-    <node concept="asaX9" id="q_zDmI60w3" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="49kO6rP6mg_">
     <property role="3GE5qa" value="Permission" />

@@ -322,7 +322,6 @@
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
       <concept id="1151702311717" name="jetbrains.mps.baseLanguage.collections.structure.ToListOperation" flags="nn" index="ANE8D" />
-      <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
       <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
         <child id="1237721435808" name="initValue" index="HW$Y0" />
         <child id="1237721435807" name="elementType" index="HW$YZ" />
@@ -3688,112 +3687,6 @@
                     <node concept="chp4Y" id="2ylNKzLhlWK" role="ri$Ld">
                       <ref role="cht4Q" to="un0u:3UOln1HfB5Q" resolve="DynamicRole" />
                     </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="2UFgF_pfoFp">
-    <property role="3GE5qa" value="Configuration" />
-    <ref role="1M2myG" to="un0u:2UFgF_ntrRo" resolve="FileLogger" />
-    <node concept="nKS2y" id="2UFgF_pfoXc" role="1MLUbF">
-      <node concept="3clFbS" id="2UFgF_pfoXd" role="2VODD2">
-        <node concept="3clFbF" id="2UFgF_pfp7b" role="3cqZAp">
-          <node concept="3fqX7Q" id="2UFgF_pfv1w" role="3clFbG">
-            <node concept="2OqwBi" id="2UFgF_pfv1y" role="3fr31v">
-              <node concept="2OqwBi" id="2UFgF_pfv1z" role="2Oq$k0">
-                <node concept="1PxgMI" id="2UFgF_pfv1$" role="2Oq$k0">
-                  <ref role="1PxNhF" to="un0u:7pUKkkb2pzD" resolve="Configuration" />
-                  <node concept="nLn13" id="2UFgF_pfv1_" role="1PxMeX" />
-                </node>
-                <node concept="3Tsc0h" id="2UFgF_pfv1A" role="2OqNvi">
-                  <ref role="3TtcxE" to="un0u:2UFgF_nts0Z" />
-                </node>
-              </node>
-              <node concept="2HwmR7" id="2UFgF_pfv1B" role="2OqNvi">
-                <node concept="1bVj0M" id="2UFgF_pfv1C" role="23t8la">
-                  <node concept="3clFbS" id="2UFgF_pfv1D" role="1bW5cS">
-                    <node concept="3clFbF" id="2UFgF_pfv1E" role="3cqZAp">
-                      <node concept="1Wc70l" id="2UFgF_poXn0" role="3clFbG">
-                        <node concept="3y3z36" id="2UFgF_poXZ8" role="3uHU7w">
-                          <node concept="EsrRn" id="2UFgF_poYi$" role="3uHU7w" />
-                          <node concept="37vLTw" id="2UFgF_poXEq" role="3uHU7B">
-                            <ref role="3cqZAo" node="2UFgF_pfv1J" resolve="it" />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="2UFgF_pfv1F" role="3uHU7B">
-                          <node concept="37vLTw" id="2UFgF_pfv1G" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2UFgF_pfv1J" resolve="it" />
-                          </node>
-                          <node concept="1mIQ4w" id="2UFgF_pfv1H" role="2OqNvi">
-                            <node concept="chp4Y" id="2UFgF_pfv1I" role="cj9EA">
-                              <ref role="cht4Q" to="un0u:2UFgF_ntrRo" resolve="FileLogger" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Rh6nW" id="2UFgF_pfv1J" role="1bW2Oz">
-                    <property role="TrG5h" value="it" />
-                    <node concept="2jxLKc" id="2UFgF_pfv1K" role="1tU5fm" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="2UFgF_pfvmI">
-    <property role="3GE5qa" value="Configuration" />
-    <ref role="1M2myG" to="un0u:2UFgF_ntrQp" resolve="MailLogger" />
-    <node concept="nKS2y" id="2UFgF_pfvmJ" role="1MLUbF">
-      <node concept="3clFbS" id="2UFgF_pfvmK" role="2VODD2">
-        <node concept="3clFbF" id="2UFgF_pfvxw" role="3cqZAp">
-          <node concept="3fqX7Q" id="2UFgF_pfvxx" role="3clFbG">
-            <node concept="2OqwBi" id="2UFgF_pfvxy" role="3fr31v">
-              <node concept="2OqwBi" id="2UFgF_pfvxz" role="2Oq$k0">
-                <node concept="1PxgMI" id="2UFgF_pfvx$" role="2Oq$k0">
-                  <ref role="1PxNhF" to="un0u:7pUKkkb2pzD" resolve="Configuration" />
-                  <node concept="nLn13" id="2UFgF_pfvx_" role="1PxMeX" />
-                </node>
-                <node concept="3Tsc0h" id="2UFgF_pfvxA" role="2OqNvi">
-                  <ref role="3TtcxE" to="un0u:2UFgF_nts0Z" />
-                </node>
-              </node>
-              <node concept="2HwmR7" id="2UFgF_pfvxB" role="2OqNvi">
-                <node concept="1bVj0M" id="2UFgF_pfvxC" role="23t8la">
-                  <node concept="3clFbS" id="2UFgF_pfvxD" role="1bW5cS">
-                    <node concept="3clFbF" id="2UFgF_pfvxE" role="3cqZAp">
-                      <node concept="1Wc70l" id="2UFgF_poTcV" role="3clFbG">
-                        <node concept="3y3z36" id="2UFgF_poTP3" role="3uHU7w">
-                          <node concept="EsrRn" id="2UFgF_poU8v" role="3uHU7w" />
-                          <node concept="37vLTw" id="2UFgF_poTwl" role="3uHU7B">
-                            <ref role="3cqZAo" node="2UFgF_pfvxJ" resolve="it" />
-                          </node>
-                        </node>
-                        <node concept="2OqwBi" id="2UFgF_pfvxF" role="3uHU7B">
-                          <node concept="37vLTw" id="2UFgF_pfvxG" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2UFgF_pfvxJ" resolve="it" />
-                          </node>
-                          <node concept="1mIQ4w" id="2UFgF_pfvxH" role="2OqNvi">
-                            <node concept="chp4Y" id="2UFgF_pfvQv" role="cj9EA">
-                              <ref role="cht4Q" to="un0u:2UFgF_ntrQp" resolve="MailLogger" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="Rh6nW" id="2UFgF_pfvxJ" role="1bW2Oz">
-                    <property role="TrG5h" value="it" />
-                    <node concept="2jxLKc" id="2UFgF_pfvxK" role="1tU5fm" />
                   </node>
                 </node>
               </node>
