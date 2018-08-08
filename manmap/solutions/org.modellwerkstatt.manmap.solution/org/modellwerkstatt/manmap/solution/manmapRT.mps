@@ -7195,10 +7195,6 @@
     <node concept="2tJIrI" id="3wMahqy82LO" role="jymVt" />
     <node concept="3Tm1VV" id="3wMahqy82Jv" role="1B3o_S" />
   </node>
-  <node concept="312cEu" id="4TGg0kwojSF">
-    <property role="TrG5h" value="IntKeyStore" />
-    <node concept="3Tm1VV" id="4TGg0kwojSG" role="1B3o_S" />
-  </node>
   <node concept="312cEu" id="VyS2F85W$m">
     <property role="TrG5h" value="M3ShutdownRequestException" />
     <node concept="3Tm1VV" id="VyS2F85W$n" role="1B3o_S" />
