@@ -9623,6 +9623,59 @@
         </node>
       </node>
     </node>
+    <node concept="1DF_5m" id="7h0Th8_FO0T" role="3yMuLx" />
+    <node concept="3yPF9F" id="7h0Th8_Djc1" role="3yMuLx">
+      <property role="TrG5h" value="Can access simple test methods by calling them as expressions." />
+      <node concept="3cqZAl" id="7h0Th8_Dj$r" role="3clF45" />
+      <node concept="3clFbS" id="7h0Th8_Djc5" role="3clF47">
+        <node concept="3cpWs8" id="7h0Th8_Dl4d" role="3cqZAp">
+          <node concept="3cpWsn" id="7h0Th8_Dl4e" role="3cpWs9">
+            <property role="TrG5h" value="cmdInfo" />
+            <node concept="3uibUv" id="7h0Th8_Dl4f" role="1tU5fm">
+              <ref role="3uigEE" node="7pudXbEHzyT" resolve="CommandInfo" />
+            </node>
+            <node concept="2juh7L" id="7h0Th8_Dl4_" role="33vP2m">
+              <ref role="37wK5l" node="2q7OPuQOOzE" resolve="GO should do" />
+              <node concept="Rm8GO" id="7h0Th8_Dl5C" role="37wK5m">
+                <ref role="Rm8GQ" node="7pudXbEHufF" resolve="DONE" />
+                <ref role="1Px2BO" node="7pudXbEHue3" resolve="CMDS_CRTL" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7h0Th8_Dl61" role="3cqZAp" />
+        <node concept="1gVbGN" id="7h0Th8_Ds2E" role="3cqZAp">
+          <node concept="3y3z36" id="7h0Th8_Dt_p" role="1gVkn0">
+            <node concept="10Nm6u" id="7h0Th8_Dumd" role="3uHU7w" />
+            <node concept="37vLTw" id="7h0Th8_DsNC" role="3uHU7B">
+              <ref role="3cqZAo" node="7h0Th8_Dl4e" resolve="cmdInfo" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="7h0Th8_DocT" role="3cqZAp">
+          <node concept="3y3z36" id="7h0Th8_DpKg" role="1gVkn0">
+            <node concept="10Nm6u" id="7h0Th8_DqwZ" role="3uHU7w" />
+            <node concept="2juh7L" id="7h0Th8_DoYk" role="3uHU7B">
+              <ref role="37wK5l" node="2q7OPuQOOzE" resolve="GO should do" />
+              <node concept="Rm8GO" id="7h0Th8_DoYl" role="37wK5m">
+                <ref role="Rm8GQ" node="7pudXbEHufF" resolve="DONE" />
+                <ref role="1Px2BO" node="7pudXbEHue3" resolve="CMDS_CRTL" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7h0Th8_DmCA" role="3cqZAp">
+          <node concept="2juh7L" id="7h0Th8_DmC$" role="3clFbG">
+            <ref role="37wK5l" node="2q7OPuQOOzE" resolve="GO should do" />
+            <node concept="Rm8GO" id="7h0Th8_DnqW" role="37wK5m">
+              <ref role="Rm8GQ" node="7pudXbEHufF" resolve="DONE" />
+              <ref role="1Px2BO" node="7pudXbEHue3" resolve="CMDS_CRTL" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7h0Th8_Dl68" role="3cqZAp" />
+      </node>
+    </node>
     <node concept="3yPF9F" id="61AGu4Q4VvD" role="3yMuLx">
       <property role="TrG5h" value="New selection controller feature in tests, getSelection without push results in illegalStateEx" />
       <node concept="3yABqi" id="61AGu4Q4VvE" role="3yGA3Q">
