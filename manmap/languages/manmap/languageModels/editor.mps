@@ -78,7 +78,6 @@
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
-      <concept id="1223386653097" name="jetbrains.mps.lang.editor.structure.StrikeOutStyleSheet" flags="ln" index="3nxI2P" />
       <concept id="1165424453110" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Generic_Item" flags="ng" index="1oHujT">
         <property id="1165424453111" name="matchingText" index="1oHujS" />
         <child id="1165424453112" name="handlerFunction" index="1oHujR" />
@@ -1386,27 +1385,6 @@
         <ref role="1NtTu8" to="r5tz:7AUhyiG0EkD" resolve="option" />
         <ref role="1k5W1q" node="7AUhyiFXvTM" resolve="QueryOperation" />
       </node>
-      <node concept="3F0ifn" id="36k2UwsyCe3" role="3EZMnx">
-        <property role="3F0ifm" value="force to" />
-        <node concept="3nxI2P" id="7AUhyiG0ELW" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="pVoyu" id="7AUhyiG0GJS" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="1iCGBv" id="53w0FTluGDs" role="3EZMnx">
-        <ref role="1NtTu8" to="r5tz:53w0FTluGDq" />
-        <node concept="1sVBvm" id="53w0FTluGDt" role="1sWHZn">
-          <node concept="3F0A7n" id="53w0FTluGDv" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <node concept="3nxI2P" id="7AUhyiG0ENA" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="3F0ifn" id="7AUhyiG0EPh" role="3EZMnx">
         <property role="3F0ifm" value="SQL Field" />
         <node concept="pVoyu" id="7AUhyiG0EPL" role="3F10Kt">
@@ -1539,15 +1517,6 @@
       </node>
       <node concept="3F0A7n" id="S3k7ajzUer" role="3EZMnx">
         <ref role="1NtTu8" to="r5tz:S3k7ajzUe9" resolve="debugMe" />
-      </node>
-      <node concept="3F0ifn" id="6RVk_zvI14b" role="3EZMnx">
-        <property role="3F0ifm" value="DEPRECATED save type:" />
-        <node concept="pVoyu" id="S3k7ajzUex" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0A7n" id="6RVk_zvI1b1" role="3EZMnx">
-        <ref role="1NtTu8" to="r5tz:75DS814r5In" resolve="savetype" />
       </node>
       <node concept="l2Vlx" id="6RVk_zvI13h" role="2iSdaV" />
     </node>

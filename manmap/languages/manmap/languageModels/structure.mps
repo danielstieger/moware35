@@ -13,7 +13,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
@@ -57,7 +56,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -613,12 +611,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1H_ywRYu6Y6" resolve="IMappingInstance" />
     </node>
-    <node concept="1TJgyj" id="53w0FTluGDq" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="forcedClassifier" />
-      <ref role="20lvS9" to="tpee:g7pOWCK" resolve="Classifier" />
-      <node concept="asaX9" id="7AUhyiG0EkF" role="lGtFl" />
-    </node>
   </node>
   <node concept="PlHQZ" id="1H_ywRYu6Y6">
     <property role="3GE5qa" value="query" />
@@ -651,11 +643,6 @@
       <ref role="20lvS9" node="Kou8LehH1E" resolve="EntityMapping" />
       <ref role="20ksaX" node="75DS814rqUV" />
     </node>
-    <node concept="1TJgyi" id="75DS814r5In" role="1TKVEl">
-      <property role="TrG5h" value="savetype" />
-      <ref role="AX2Wp" node="75DS814r5Ij" resolve="SaveType" />
-      <node concept="asaX9" id="hm5BQDISlE" role="lGtFl" />
-    </node>
     <node concept="1TJgyi" id="S3k7ajzUe9" role="1TKVEl">
       <property role="TrG5h" value="debugMe" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
@@ -665,23 +652,6 @@
     </node>
     <node concept="PrWs8" id="7opW4z61iz8" role="PzmwI">
       <ref role="PrY4T" node="7opW4z3To$c" resolve="IDataBaseOperation" />
-    </node>
-  </node>
-  <node concept="AxPO7" id="75DS814r5Ij">
-    <property role="3GE5qa" value="save" />
-    <property role="TrG5h" value="SaveType" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="75DS814r5Ik" role="M5hS2">
-      <property role="1uS6qv" value="auto" />
-      <property role="1uS6qo" value="auto" />
-    </node>
-    <node concept="M4N5e" id="75DS814r5Il" role="M5hS2">
-      <property role="1uS6qo" value="update" />
-      <property role="1uS6qv" value="update" />
-    </node>
-    <node concept="M4N5e" id="75DS814r5Im" role="M5hS2">
-      <property role="1uS6qo" value="insert" />
-      <property role="1uS6qv" value="insert" />
     </node>
   </node>
   <node concept="PlHQZ" id="75DS814rqUU">
