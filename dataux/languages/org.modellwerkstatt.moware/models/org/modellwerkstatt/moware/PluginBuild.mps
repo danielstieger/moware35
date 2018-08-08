@@ -323,6 +323,28 @@
             </node>
           </node>
         </node>
+        <node concept="1SiIV0" id="40MBoae1Fz$" role="3bR37C">
+          <node concept="1BurEX" id="40MBoae1Fz_" role="1SiIV1">
+            <node concept="398BVA" id="40MBoae1Fzu" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="40MBoae1Fzv" role="iGT6I">
+                <property role="2Ry0Am" value="manmap" />
+                <node concept="2Ry0Ak" id="40MBoae1Fzw" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="40MBoae1Fzx" role="2Ry0An">
+                    <property role="2Ry0Am" value="manmap" />
+                    <node concept="2Ry0Ak" id="40MBoae1Fzy" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="40MBoae1Fzz" role="2Ry0An">
+                        <property role="2Ry0Am" value="org.springframework.context-3.0.5.RELEASE.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="1E1JtD" id="1JLTjCmZp6M" role="2G$12L">
         <property role="BnDLt" value="true" />
@@ -961,31 +983,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7IKAcf6MBRV" role="3bR37C">
-          <node concept="1BurEX" id="7IKAcf6MBRW" role="1SiIV1">
-            <node concept="398BVA" id="7IKAcf6MBRO" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="7IKAcf6MBRP" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="7IKAcf6MBRQ" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="7IKAcf6MBRR" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="7IKAcf6MBRS" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="7IKAcf6MBRT" role="2Ry0An">
-                        <property role="2Ry0Am" value="basis" />
-                        <node concept="2Ry0Ak" id="7IKAcf6MBRU" role="2Ry0An">
-                          <property role="2Ry0Am" value="org.springframework.context-3.0.5.RELEASE.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="7IKAcf6MBS4" role="3bR37C">
           <node concept="1BurEX" id="7IKAcf6MBS5" role="1SiIV1">
             <node concept="398BVA" id="7IKAcf6MBRX" role="1BurEY">
@@ -1243,12 +1240,6 @@
           <node concept="3bR9La" id="1y3D6gQFI7s" role="1SiIV1">
             <property role="3bR36h" value="false" />
             <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
-          </node>
-        </node>
-        <node concept="1SiIV0" id="2ejNxRCTF4X" role="3bR37C">
-          <node concept="3bR9La" id="2ejNxRCTF4Y" role="1SiIV1">
-            <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYK" resolve="jetbrains.mps.baseLanguage.util" />
           </node>
         </node>
         <node concept="1yeLz9" id="phsLeeKZdf" role="1TViLv">

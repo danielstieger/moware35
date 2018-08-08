@@ -13,13 +13,13 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
-    <import index="iou4" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.scheduling.support(org.modellwerkstatt.sandbox/)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
     <import index="9vh7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management(JDK/)" />
     <import index="uzjr" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.management(JDK/)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
     <import index="x5li" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.format(org.modellwerkstatt.manmap.solution/)" />
     <import index="nwfd" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.http(org.modellwerkstatt.sandbox/)" />
+    <import index="iou4" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.scheduling.support(org.modellwerkstatt.manmap.solution/)" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" implicit="true" />
     <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.sandbox/)" implicit="true" />
   </imports>
@@ -767,10 +767,29 @@
                             </node>
                           </node>
                         </node>
+                        <node concept="3cpWs8" id="40MBoafGuJS" role="3cqZAp">
+                          <node concept="3cpWsn" id="40MBoafGuJV" role="3cpWs9">
+                            <property role="TrG5h" value="handled" />
+                            <node concept="10P_77" id="40MBoafGuJQ" role="1tU5fm" />
+                            <node concept="3clFbT" id="40MBoafGvzW" role="33vP2m">
+                              <property role="3clFbU" value="false" />
+                            </node>
+                          </node>
+                        </node>
                         <node concept="1DcWWT" id="382CQP54tuH" role="3cqZAp">
                           <node concept="3clFbS" id="382CQP54tuJ" role="2LFqv$">
                             <node concept="3clFbJ" id="382CQP54L_G" role="3cqZAp">
                               <node concept="3clFbS" id="382CQP54L_I" role="3clFbx">
+                                <node concept="3clFbF" id="40MBoafGx5y" role="3cqZAp">
+                                  <node concept="37vLTI" id="40MBoafGx8V" role="3clFbG">
+                                    <node concept="3clFbT" id="40MBoafGxav" role="37vLTx">
+                                      <property role="3clFbU" value="true" />
+                                    </node>
+                                    <node concept="37vLTw" id="40MBoafGx5w" role="37vLTJ">
+                                      <ref role="3cqZAo" node="40MBoafGuJV" resolve="handled" />
+                                    </node>
+                                  </node>
+                                </node>
                                 <node concept="3clFbF" id="4NpYXr5Qu9G" role="3cqZAp">
                                   <node concept="2OqwBi" id="gmxFf4oqtC" role="3clFbG">
                                     <node concept="37vLTw" id="382CQP54EAK" role="2Oq$k0">
@@ -835,6 +854,36 @@
                           </node>
                           <node concept="37vLTw" id="382CQP54vCL" role="1DdaDG">
                             <ref role="3cqZAo" node="gmxFf4ooJy" resolve="consumerImplementations" />
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="40MBoafGxVV" role="3cqZAp" />
+                        <node concept="3clFbJ" id="40MBoafGyQN" role="3cqZAp">
+                          <node concept="3clFbS" id="40MBoafGyQP" role="3clFbx">
+                            <node concept="YS8fn" id="40MBoafG$3R" role="3cqZAp">
+                              <node concept="2ShNRf" id="40MBoafG$5n" role="YScLw">
+                                <node concept="1pGfFk" id="40MBoafG_Ar" role="2ShVmc">
+                                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                                  <node concept="3cpWs3" id="40MBoafGFwb" role="37wK5m">
+                                    <node concept="Xl_RD" id="40MBoafGF_T" role="3uHU7w">
+                                      <property role="Xl_RC" value="' was not handled by one of the consumer commands. This is probably a problem." />
+                                    </node>
+                                    <node concept="3cpWs3" id="40MBoafGDhA" role="3uHU7B">
+                                      <node concept="Xl_RD" id="40MBoafG_CU" role="3uHU7B">
+                                        <property role="Xl_RC" value="Inbox item '" />
+                                      </node>
+                                      <node concept="37vLTw" id="40MBoafGEy6" role="3uHU7w">
+                                        <ref role="3cqZAo" node="gmxFf4ouVd" resolve="ek" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3fqX7Q" id="40MBoafGzJ9" role="3clFbw">
+                            <node concept="37vLTw" id="40MBoafGzKO" role="3fr31v">
+                              <ref role="3cqZAo" node="40MBoafGuJV" resolve="handled" />
+                            </node>
                           </node>
                         </node>
                         <node concept="3clFbF" id="7HSdIeXOTNE" role="3cqZAp">

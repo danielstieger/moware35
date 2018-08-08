@@ -31,6 +31,7 @@
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
+    <import index="meih" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.stereotype(org.modellwerkstatt.manmap.solution/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
@@ -10324,6 +10325,31 @@
               <node concept="YS8fn" id="6fKUhOzQCRF" role="3cqZAp">
                 <node concept="37vLTw" id="5ztwEZdRyTH" role="YScLw">
                   <ref role="3cqZAo" node="6fKUhOzQ9VL" resolve="e" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2AHcQZ" id="40MBoadJQjr" role="2AJF6D">
+      <ref role="2AI5Lk" to="meih:~Component" resolve="Component" />
+      <node concept="2B6LJw" id="40MBoae$x5G" role="2B76xF">
+        <ref role="2B6OnR" to="meih:~Component.value()" resolve="value" />
+        <node concept="Xl_RD" id="40MBoae$xlp" role="2B70Vg">
+          <property role="Xl_RC" value="" />
+          <node concept="17Uvod" id="40MBoae$xod" role="lGtFl">
+            <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+            <property role="2qtEX9" value="value" />
+            <node concept="3zFVjK" id="40MBoae$xoe" role="3zH0cK">
+              <node concept="3clFbS" id="40MBoae$xof" role="2VODD2">
+                <node concept="3clFbF" id="40MBoae$xqo" role="3cqZAp">
+                  <node concept="2OqwBi" id="40MBoae$xtt" role="3clFbG">
+                    <node concept="30H73N" id="40MBoae$xqn" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="40MBoae$xBN" role="2OqNvi">
+                      <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>

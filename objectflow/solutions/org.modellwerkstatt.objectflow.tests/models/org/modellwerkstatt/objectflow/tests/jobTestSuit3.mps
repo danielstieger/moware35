@@ -14,7 +14,7 @@
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
-    <import index="iou4" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.scheduling.support(org.modellwerkstatt.sandbox/)" />
+    <import index="iou4" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.scheduling.support(org.modellwerkstatt.manmap.solution/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" implicit="true" />
   </imports>
@@ -263,11 +263,11 @@
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
       <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
         <child id="478945708906902061" name="elements" index="2CGBMS" />
+        <child id="4625932951302987031" name="comcponentScanBase" index="3d0G2l" />
       </concept>
       <concept id="478945708907003466" name="org.modellwerkstatt.objectflow.structure.OFXConfigInstance" flags="ng" index="2CJf3v">
         <child id="478945708907003567" name="className" index="2CJf0U" />
       </concept>
-      <concept id="478945708912703702" name="org.modellwerkstatt.objectflow.structure.OFXConfigEmpty" flags="ng" index="2CPvp3" />
       <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
@@ -4098,7 +4098,9 @@
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.jobTestSuit3.FakeAppFactory" />
       </node>
     </node>
-    <node concept="2CPvp3" id="5lMTsSlMoEk" role="2CGBMS" />
+    <node concept="Xl_RD" id="40MBoae1FUr" role="3d0G2l">
+      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.jobTestSuit3" />
+    </node>
   </node>
   <node concept="312cEu" id="5lMTsSlMoEl">
     <property role="TrG5h" value="FakeDataSource" />
@@ -4458,20 +4460,20 @@
         </node>
       </node>
     </node>
-    <node concept="3clFb_" id="5lMTsSlMoGE" role="jymVt">
+    <node concept="3clFb_" id="40MBoaf05sN" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getProcessByFqName" />
-      <node concept="3uibUv" id="5lMTsSlMoGF" role="3clF45">
+      <property role="TrG5h" value="getProcessByInstanceName" />
+      <node concept="3uibUv" id="40MBoaf05sO" role="3clF45">
         <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXProcess" />
       </node>
-      <node concept="3Tm1VV" id="5lMTsSlMoGG" role="1B3o_S" />
-      <node concept="37vLTG" id="5lMTsSlMoGH" role="3clF46">
+      <node concept="3Tm1VV" id="40MBoaf05sP" role="1B3o_S" />
+      <node concept="37vLTG" id="40MBoaf05sR" role="3clF46">
         <property role="TrG5h" value="fqName" />
-        <node concept="17QB3L" id="5lMTsSlMoGI" role="1tU5fm" />
+        <node concept="17QB3L" id="40MBoaf05sS" role="1tU5fm" />
       </node>
-      <node concept="3clFbS" id="5lMTsSlMoGJ" role="3clF47">
-        <node concept="3clFbF" id="5lMTsSlMoGK" role="3cqZAp">
-          <node concept="10Nm6u" id="5lMTsSlMoGL" role="3clFbG" />
+      <node concept="3clFbS" id="40MBoaf05sT" role="3clF47">
+        <node concept="3clFbF" id="40MBoaf05sV" role="3cqZAp">
+          <node concept="10Nm6u" id="40MBoaf05sU" role="3clFbG" />
         </node>
       </node>
     </node>

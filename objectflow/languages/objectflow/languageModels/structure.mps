@@ -2543,6 +2543,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="q_zDmI5Z8G" resolve="IOFXConfigElement" />
     </node>
+    <node concept="1TJgyj" id="40MBoadc5On" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="comcponentScanBase" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
     <node concept="PrWs8" id="q_zDmI5wCk" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>

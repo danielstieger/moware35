@@ -13,9 +13,7 @@
     <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
-    <import index="a820" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.context(org.modellwerkstatt.sandbox/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
-    <import index="qqeh" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.context.support(org.modellwerkstatt.sandbox/)" />
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
     <import index="tm9u" ref="r:a8cceaac-a892-4039-8ab4-edfae2590c6d(org.modellwerkstatt.dataux.ofxutil)" />
@@ -35,6 +33,8 @@
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.solution.manmapRT)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
+    <import index="a820" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context(org.modellwerkstatt.manmap.solution/)" />
+    <import index="qqeh" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context.support(org.modellwerkstatt.manmap.solution/)" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
@@ -14303,7 +14303,7 @@
             <node concept="3cpWs8" id="16HdUMOWEHz" role="3cqZAp">
               <node concept="3cpWsn" id="16HdUMOWEH$" role="3cpWs9">
                 <property role="TrG5h" value="context" />
-                <node concept="3uibUv" id="16HdUMOWEH_" role="1tU5fm">
+                <node concept="3uibUv" id="40MBoaeeIro" role="1tU5fm">
                   <ref role="3uigEE" to="a820:~ApplicationContext" resolve="ApplicationContext" />
                 </node>
                 <node concept="2ShNRf" id="7pUKkkb2hr$" role="33vP2m">
@@ -14620,7 +14620,7 @@
       <property role="TrG5h" value="springAppContext" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tm6S6" id="3tgwmmDizMQ" role="1B3o_S" />
-      <node concept="3uibUv" id="5BROMrVMWi2" role="1tU5fm">
+      <node concept="3uibUv" id="40MBoaeeM$J" role="1tU5fm">
         <ref role="3uigEE" to="a820:~ApplicationContext" resolve="ApplicationContext" />
       </node>
       <node concept="10Nm6u" id="3eB7cNzH5IP" role="33vP2m" />

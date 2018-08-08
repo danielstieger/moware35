@@ -22,10 +22,10 @@
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
     <import index="iiye" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.sql(JDK/)" />
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/)" />
-    <import index="a820" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.context(org.modellwerkstatt.sandbox/)" />
     <import index="oawo" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/)" />
     <import index="zj7m" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.sql(JDK/)" />
     <import index="9vh7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management(JDK/)" />
+    <import index="a820" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context(org.modellwerkstatt.manmap.solution/)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" implicit="true" />
   </imports>
   <registry>
@@ -27478,7 +27478,7 @@
                 <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
               </node>
               <node concept="liA8E" id="6bl3$WOLQs7" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getProcessByFqName" />
+                <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getProcessByInstanceName" />
                 <node concept="2OqwBi" id="6bl3$WOLQuv" role="37wK5m">
                   <node concept="37vLTw" id="6bl3$WOLQtl" role="2Oq$k0">
                     <ref role="3cqZAo" node="6bl3$WOLFJH" resolve="cfg" />
@@ -28611,7 +28611,7 @@
     </node>
     <node concept="3clFb_" id="2qrl3a2nuuu" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getProcessByFqName" />
+      <property role="TrG5h" value="getProcessByInstanceName" />
       <node concept="3uibUv" id="2qrl3a2nuuv" role="3clF45">
         <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXProcess" />
       </node>

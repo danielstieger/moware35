@@ -59,6 +59,12 @@
         <child id="1173175577737" name="index" index="AHEQo" />
         <child id="1173175590490" name="array" index="AHHXb" />
       </concept>
+      <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
+        <reference id="1188208074048" name="annotation" index="2AI5Lk" />
+      </concept>
+      <concept id="1188208481402" name="jetbrains.mps.baseLanguage.structure.HasAnnotation" flags="ng" index="2AJDlI">
+        <child id="1188208488637" name="annotation" index="2AJF6D" />
+      </concept>
       <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
         <reference id="2820489544401957798" name="classifier" index="HV5vE" />
       </concept>
@@ -4928,10 +4934,18 @@
           <node concept="3cpWsn" id="5cU7ygrQ1lT" role="3cpWs9">
             <property role="TrG5h" value="name" />
             <node concept="17QB3L" id="5cU7ygrQ1lO" role="1tU5fm" />
-            <node concept="1rXfSq" id="5cU7ygpXKPM" role="33vP2m">
-              <ref role="37wK5l" node="5cU7ygpXFWF" resolve="getNameFromFQName" />
-              <node concept="37vLTw" id="5cU7ygrQ3Sv" role="37wK5m">
+            <node concept="2OqwBi" id="40MBoafmDVx" role="33vP2m">
+              <node concept="37vLTw" id="40MBoafmDIt" role="2Oq$k0">
                 <ref role="3cqZAo" node="5cU7ygpXJkg" resolve="fqName" />
+              </node>
+              <node concept="liA8E" id="40MBoafmEgt" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                <node concept="Xl_RD" id="40MBoafmErw" role="37wK5m">
+                  <property role="Xl_RC" value="." />
+                </node>
+                <node concept="Xl_RD" id="40MBoafmER6" role="37wK5m">
+                  <property role="Xl_RC" value="_" />
+                </node>
               </node>
             </node>
           </node>
@@ -6043,6 +6057,9 @@
       </node>
       <node concept="3cqZAl" id="q_zDmLcQZm" role="3clF45" />
       <node concept="3Tm1VV" id="q_zDmLcQZn" role="1B3o_S" />
+      <node concept="2AHcQZ" id="42_Ld2XZK5D" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
     </node>
     <node concept="2tJIrI" id="q_zDmLcPAQ" role="jymVt" />
     <node concept="312cEu" id="5cU7ygpW_YP" role="jymVt">

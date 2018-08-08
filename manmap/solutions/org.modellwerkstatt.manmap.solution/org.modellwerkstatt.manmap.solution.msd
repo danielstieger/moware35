@@ -11,6 +11,7 @@
       <sourceRoot location="org.springframework.jdbc-3.0.5.RELEASE.jar" />
       <sourceRoot location="org.springframework.transaction-3.0.5.RELEASE.jar" />
       <sourceRoot location="commons-logging-1.2.jar" />
+      <sourceRoot location="org.springframework.context-3.0.5.RELEASE.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -20,6 +21,7 @@
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.jdbc-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.transaction-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/commons-logging-1.2.jar" />
+    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.context-3.0.5.RELEASE.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

@@ -14,7 +14,6 @@
       <sourceRoot location="printing21/pdfbox-1.8.11.jar" />
       <sourceRoot location="basis/org.springframework.aop-3.0.5.RELEASE.jar" />
       <sourceRoot location="basis/org.springframework.asm-3.0.5.RELEASE.jar" />
-      <sourceRoot location="basis/org.springframework.context-3.0.5.RELEASE.jar" />
       <sourceRoot location="basis/org.springframework.expression-3.0.5.RELEASE.jar" />
       <sourceRoot location="printing21/avalon-framework-api-4.3.1.jar" />
       <sourceRoot location="printing21/avalon-framework-impl-4.3.1.jar" />
@@ -45,7 +44,6 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/richclient/smtp.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.aop-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.asm-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.context-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/org.springframework.expression-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/slf4j-log4j12-1.6.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/slf4j-api-1.6.1.jar" />

@@ -15878,5 +15878,43 @@
       <ref role="1YaFvo" to="un0u:1jYXPQ7xYqG" resolve="OFXTestMethodCallExp" />
     </node>
   </node>
+  <node concept="18kY7G" id="42_Ld2Y00Br">
+    <property role="TrG5h" value="check_OFXConfigSection" />
+    <property role="3GE5qa" value="Configuration" />
+    <node concept="3clFbS" id="42_Ld2Y00Bs" role="18ibNy">
+      <node concept="3clFbJ" id="42_Ld2Y00By" role="3cqZAp">
+        <node concept="2OqwBi" id="42_Ld2Y00Va" role="3clFbw">
+          <node concept="liA8E" id="42_Ld2Y017e" role="2OqNvi">
+            <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+            <node concept="2OqwBi" id="42_Ld2Y00EZ" role="37wK5m">
+              <node concept="1YBJjd" id="42_Ld2Y00BI" role="2Oq$k0">
+                <ref role="1YBMHb" node="42_Ld2Y00Bu" resolve="ofxConfigSection" />
+              </node>
+              <node concept="3TrcHB" id="42_Ld2Y00M2" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+          <node concept="Xl_RD" id="42_Ld2Y017D" role="2Oq$k0">
+            <property role="Xl_RC" value="AUTO_CALC" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="42_Ld2Y00B$" role="3clFbx">
+          <node concept="2MkqsV" id="42_Ld2Y01cR" role="3cqZAp">
+            <node concept="Xl_RD" id="42_Ld2Y01d3" role="2MkJ7o">
+              <property role="Xl_RC" value="AUTO_CALC no longer supported in moware2018 - remove this section completely." />
+            </node>
+            <node concept="1YBJjd" id="42_Ld2Y01f5" role="2OEOjV">
+              <ref role="1YBMHb" node="42_Ld2Y00Bu" resolve="ofxConfigSection" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="42_Ld2Y00Bu" role="1YuTPh">
+      <property role="TrG5h" value="ofxConfigSection" />
+      <ref role="1YaFvo" to="un0u:q_zDmI60wj" resolve="OFXConfigSection" />
+    </node>
+  </node>
 </model>
 

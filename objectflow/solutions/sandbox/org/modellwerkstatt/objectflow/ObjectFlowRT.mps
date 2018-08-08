@@ -31,9 +31,6 @@
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="44b3" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.fop.apps(org.modellwerkstatt.sandbox/)" />
-    <import index="a820" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.context(org.modellwerkstatt.sandbox/)" />
-    <import index="qqeh" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.context.support(org.modellwerkstatt.sandbox/)" />
-    <import index="jtd5" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.springframework.jmx.export.annotation(org.modellwerkstatt.sandbox/)" />
     <import index="zide" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.rmi(JDK/)" />
     <import index="4ftl" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management.remote.rmi(JDK/)" />
     <import index="bq0h" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.fop(org.modellwerkstatt.sandbox/)" />
@@ -42,6 +39,9 @@
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
     <import index="zf81" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net(JDK/)" />
     <import index="i5cy" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent.atomic(JDK/)" />
+    <import index="a820" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context(org.modellwerkstatt.manmap.solution/)" />
+    <import index="jtd5" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jmx.export.annotation(org.modellwerkstatt.manmap.solution/)" />
+    <import index="qqeh" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context.support(org.modellwerkstatt.manmap.solution/)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" implicit="true" />
     <import index="9n95" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management.remote(JDK/)" implicit="true" />
     <import index="t54d" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/)" implicit="true" />
@@ -34359,7 +34359,7 @@
     <node concept="2tJIrI" id="65g7rxkCudI" role="jymVt" />
     <node concept="3clFb_" id="4XXgpA_yFXU" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getProcessByFqName" />
+      <property role="TrG5h" value="getProcessByInstanceName" />
       <node concept="3uibUv" id="4XXgpA_yG2b" role="3clF45">
         <ref role="3uigEE" node="7rqBz8B3EmX" resolve="IOFXProcess" />
       </node>
@@ -34676,7 +34676,7 @@
     <node concept="2tJIrI" id="65g7rxkCyVl" role="jymVt" />
     <node concept="3clFb_" id="2qrl3a2nuuu" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getProcessByFqName" />
+      <property role="TrG5h" value="getProcessByInstanceName" />
       <node concept="3uibUv" id="2qrl3a2nuuv" role="3clF45">
         <ref role="3uigEE" node="7rqBz8B3EmX" resolve="IOFXProcess" />
       </node>
@@ -35256,7 +35256,7 @@
     </node>
     <node concept="3clFb_" id="65g7rxkC$kw" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getProcessByFqName" />
+      <property role="TrG5h" value="getProcessByInstanceName" />
       <node concept="3uibUv" id="65g7rxkC$kx" role="3clF45">
         <ref role="3uigEE" node="7rqBz8B3EmX" resolve="IOFXProcess" />
       </node>
