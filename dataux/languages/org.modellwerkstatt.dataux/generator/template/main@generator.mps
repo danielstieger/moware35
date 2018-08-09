@@ -16786,14 +16786,33 @@
       </node>
       <node concept="2tJIrI" id="4jlzLDkIgen" role="jymVt" />
       <node concept="3clFb_" id="3eB7cNzHImg" role="jymVt">
-        <property role="TrG5h" value="wait10ForThreads" />
-        <node concept="3cqZAl" id="3eB7cNzHImi" role="3clF45" />
+        <property role="TrG5h" value="waitForThreads" />
+        <node concept="10P_77" id="7Ako_ORHWVj" role="3clF45" />
         <node concept="3Tm1VV" id="3eB7cNzHImj" role="1B3o_S" />
         <node concept="3clFbS" id="3eB7cNzHImk" role="3clF47">
+          <node concept="3cpWs8" id="7Ako_ORI237" role="3cqZAp">
+            <node concept="3cpWsn" id="7Ako_ORI23a" role="3cpWs9">
+              <property role="TrG5h" value="nonAlive" />
+              <node concept="10P_77" id="7Ako_ORI235" role="1tU5fm" />
+              <node concept="3clFbT" id="7Ako_ORI2ah" role="33vP2m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
           <node concept="1Dw8fO" id="3eB7cNzHB8E" role="3cqZAp">
             <node concept="3clFbS" id="3eB7cNzHB8F" role="2LFqv$">
               <node concept="3clFbJ" id="7tfEsbFuq8O" role="3cqZAp">
                 <node concept="3clFbS" id="7tfEsbFuq8Q" role="3clFbx">
+                  <node concept="3clFbF" id="7Ako_ORI2gW" role="3cqZAp">
+                    <node concept="37vLTI" id="7Ako_ORI2jw" role="3clFbG">
+                      <node concept="3clFbT" id="7Ako_ORI2kv" role="37vLTx">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="37vLTw" id="7Ako_ORI2gU" role="37vLTJ">
+                        <ref role="3cqZAo" node="7Ako_ORI23a" resolve="nonAlive" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3zACq4" id="7tfEsbFurpk" role="3cqZAp" />
                 </node>
                 <node concept="2OqwBi" id="7tfEsbFuqtR" role="3clFbw">
@@ -16863,7 +16882,7 @@
             </node>
             <node concept="3eOVzh" id="3eB7cNzHB91" role="1Dwp0S">
               <node concept="3cmrfG" id="3eB7cNzHB92" role="3uHU7w">
-                <property role="3cmrfH" value="10" />
+                <property role="3cmrfH" value="500" />
               </node>
               <node concept="37vLTw" id="3eB7cNzHB93" role="3uHU7B">
                 <ref role="3cqZAo" node="3eB7cNzHB8Y" resolve="i" />
@@ -16873,6 +16892,11 @@
               <node concept="37vLTw" id="3eB7cNzHB95" role="2$L3a6">
                 <ref role="3cqZAo" node="3eB7cNzHB8Y" resolve="i" />
               </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="7Ako_ORI2wp" role="3cqZAp">
+            <node concept="37vLTw" id="7Ako_ORI2wn" role="3clFbG">
+              <ref role="3cqZAo" node="7Ako_ORI23a" resolve="nonAlive" />
             </node>
           </node>
         </node>
@@ -17473,6 +17497,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="3tgwmmDiEcF" role="3cqZAp" />
+        <node concept="3clFbH" id="7Ako_ORnUp5" role="3cqZAp" />
         <node concept="3clFbF" id="3tgwmmDiDfT" role="3cqZAp">
           <node concept="37vLTI" id="3tgwmmDiD$O" role="3clFbG">
             <node concept="2ShNRf" id="3tgwmmDiJ4$" role="37vLTx">
@@ -17512,10 +17537,41 @@
           </node>
         </node>
         <node concept="3clFbH" id="6MAhPz6XsC4" role="3cqZAp" />
+        <node concept="3cpWs8" id="7Ako_ORnT9a" role="3cqZAp">
+          <node concept="3cpWsn" id="7Ako_ORnT9d" role="3cpWs9">
+            <property role="TrG5h" value="tomcatServletDirectory" />
+            <node concept="17QB3L" id="7Ako_ORnT98" role="1tU5fm" />
+            <node concept="2OqwBi" id="7Ako_ORnVqC" role="33vP2m">
+              <node concept="2OqwBi" id="7Ako_ORnUjk" role="2Oq$k0">
+                <node concept="2OqwBi" id="7Ako_ORnUd_" role="2Oq$k0">
+                  <node concept="37vLTw" id="7Ako_ORnUbF" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4jlzLDkJ$vt" resolve="event" />
+                  </node>
+                  <node concept="liA8E" id="7Ako_ORnUix" role="2OqNvi">
+                    <ref role="37wK5l" to="opgt:~ServletContextEvent.getServletContext():javax.servlet.ServletContext" resolve="getServletContext" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7Ako_ORnUnQ" role="2OqNvi">
+                  <ref role="37wK5l" to="opgt:~ServletContext.getContextPath():java.lang.String" resolve="getContextPath" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7Ako_ORnVDi" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                <node concept="Xl_RD" id="7Ako_ORnVIT" role="37wK5m">
+                  <property role="Xl_RC" value="/" />
+                </node>
+                <node concept="Xl_RD" id="7Ako_ORnVQ9" role="37wK5m">
+                  <property role="Xl_RC" value="" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="7tfEsbFu4zM" role="3cqZAp" />
+        <node concept="3clFbH" id="7Ako_ORr8PJ" role="3cqZAp" />
         <node concept="3cpWs8" id="5BROMrW1uuF" role="3cqZAp">
           <node concept="3cpWsn" id="5BROMrW1uuI" role="3cpWs9">
-            <property role="TrG5h" value="symbolicName" />
+            <property role="TrG5h" value="origSymbolicName" />
             <node concept="17QB3L" id="5BROMrW1uuD" role="1tU5fm" />
             <node concept="2OqwBi" id="6MAhPz6XteF" role="33vP2m">
               <node concept="37vLTw" id="2B50FNWbeCK" role="2Oq$k0">
@@ -17529,13 +17585,23 @@
         </node>
         <node concept="3cpWs8" id="5a3fk7zosTT" role="3cqZAp">
           <node concept="3cpWsn" id="5a3fk7zosTW" role="3cpWs9">
-            <property role="TrG5h" value="shortSymbolicName" />
+            <property role="TrG5h" value="newSymbolicNAme" />
             <node concept="17QB3L" id="5a3fk7zosTR" role="1tU5fm" />
-            <node concept="2YIFZM" id="7tfEsbFseTw" role="33vP2m">
-              <ref role="1Pybhc" to="z3ji:66durT_3en0" resolve="JmxBatchJobCoreReporter" />
-              <ref role="37wK5l" to="z3ji:5lMTsSlr3_X" resolve="getShortNameFromFQ" />
-              <node concept="37vLTw" id="7tfEsbFseYd" role="37wK5m">
-                <ref role="3cqZAo" node="5BROMrW1uuI" resolve="symbolicName" />
+            <node concept="3cpWs3" id="7Ako_ORog9s" role="33vP2m">
+              <node concept="37vLTw" id="7Ako_ORoglv" role="3uHU7w">
+                <ref role="3cqZAo" node="7Ako_ORnT9d" resolve="tomcatServletDirectory" />
+              </node>
+              <node concept="3cpWs3" id="7Ako_ORog3n" role="3uHU7B">
+                <node concept="2YIFZM" id="7Ako_ORofY4" role="3uHU7B">
+                  <ref role="37wK5l" to="z3ji:7Ako_ORo1Ak" resolve="getPackageName" />
+                  <ref role="1Pybhc" to="z3ji:66durT_3en0" resolve="JmxBatchJobCoreReporter" />
+                  <node concept="37vLTw" id="7Ako_ORofY5" role="37wK5m">
+                    <ref role="3cqZAo" node="5BROMrW1uuI" resolve="origSymbolicName" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="7Ako_ORog4r" role="3uHU7w">
+                  <property role="Xl_RC" value="." />
+                </node>
               </node>
             </node>
           </node>
@@ -17656,8 +17722,8 @@
             <node concept="2ShNRf" id="7HSdIeXWARF" role="37vLTx">
               <node concept="1pGfFk" id="7HSdIeXWAIh" role="2ShVmc">
                 <ref role="37wK5l" to="z3ji:2yuEF6q8ESR" resolve="JmxHelperService" />
-                <node concept="37vLTw" id="6MAhPz6Xvdc" role="37wK5m">
-                  <ref role="3cqZAo" node="5BROMrW1uuI" resolve="symbolicName" />
+                <node concept="37vLTw" id="7Ako_ORojy2" role="37wK5m">
+                  <ref role="3cqZAo" node="5a3fk7zosTW" resolve="newSymbolicNAme" />
                 </node>
                 <node concept="37vLTw" id="6MAhPz6WM7O" role="37wK5m">
                   <ref role="3cqZAo" node="5BROMrW1wHW" resolve="version" />
@@ -17715,8 +17781,8 @@
             </node>
             <node concept="liA8E" id="7tfEsbFsB8q" role="2OqNvi">
               <ref role="37wK5l" to="z3ji:1w1E2yWm_Tj" resolve="init" />
-              <node concept="37vLTw" id="7tfEsbFsBhe" role="37wK5m">
-                <ref role="3cqZAo" node="5BROMrW1uuI" resolve="symbolicName" />
+              <node concept="37vLTw" id="7Ako_ORorpF" role="37wK5m">
+                <ref role="3cqZAo" node="5a3fk7zosTW" resolve="newSymbolicNAme" />
               </node>
               <node concept="37vLTw" id="7tfEsbFsBtC" role="37wK5m">
                 <ref role="3cqZAo" node="5BROMrW1wHW" resolve="version" />
@@ -18290,9 +18356,18 @@
             <property role="3SKdUp" value="sending first thread a shutdown will shutdown all threads. " />
           </node>
         </node>
-        <node concept="3clFbH" id="7tfEsbFu$R3" role="3cqZAp" />
         <node concept="3clFbJ" id="7tfEsbFu_ei" role="3cqZAp">
           <node concept="3clFbS" id="7tfEsbFu_ek" role="3clFbx">
+            <node concept="3cpWs8" id="7Ako_ORI3UN" role="3cqZAp">
+              <node concept="3cpWsn" id="7Ako_ORI3UQ" role="3cpWs9">
+                <property role="TrG5h" value="nonAlive" />
+                <node concept="10P_77" id="7Ako_ORI3UL" role="1tU5fm" />
+                <node concept="3clFbT" id="7Ako_ORI48E" role="33vP2m">
+                  <property role="3clFbU" value="false" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7Ako_ORI4n2" role="3cqZAp" />
             <node concept="3clFbJ" id="7tfEsbFuEr9" role="3cqZAp">
               <node concept="3clFbS" id="7tfEsbFuErb" role="3clFbx">
                 <node concept="3clFbF" id="7tfEsbFuj85" role="3cqZAp">
@@ -18312,12 +18387,17 @@
                   </node>
                 </node>
                 <node concept="3clFbF" id="7tfEsbI1ad8" role="3cqZAp">
-                  <node concept="2OqwBi" id="7tfEsbI1afY" role="3clFbG">
-                    <node concept="37vLTw" id="2B50FNWbeDY" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
+                  <node concept="37vLTI" id="7Ako_ORI4_2" role="3clFbG">
+                    <node concept="37vLTw" id="7Ako_ORI4GS" role="37vLTJ">
+                      <ref role="3cqZAo" node="7Ako_ORI3UQ" resolve="nonAlive" />
                     </node>
-                    <node concept="liA8E" id="7tfEsbI1an4" role="2OqNvi">
-                      <ref role="37wK5l" node="3eB7cNzHImg" resolve="wait10ForThreads" />
+                    <node concept="2OqwBi" id="7tfEsbI1afY" role="37vLTx">
+                      <node concept="37vLTw" id="2B50FNWbeDY" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
+                      </node>
+                      <node concept="liA8E" id="7tfEsbI1an4" role="2OqNvi">
+                        <ref role="37wK5l" node="3eB7cNzHImg" resolve="waitForThreads" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -18417,6 +18497,25 @@
                 <property role="3SKdUp" value="any ex not rethrown, how is bundle state?" />
               </node>
             </node>
+            <node concept="3clFbF" id="7Ako_ORI7NB" role="3cqZAp">
+              <node concept="2OqwBi" id="7Ako_ORI7N$" role="3clFbG">
+                <node concept="10M0yZ" id="7Ako_ORI7N_" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="7Ako_ORI7NA" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="7Ako_ORI89q" role="37wK5m">
+                    <node concept="37vLTw" id="7Ako_ORI8di" role="3uHU7w">
+                      <ref role="3cqZAo" node="7Ako_ORI3UQ" resolve="nonAlive" />
+                    </node>
+                    <node concept="Xl_RD" id="7Ako_ORI7Qn" role="3uHU7B">
+                      <property role="Xl_RC" value="CONTEXT DESTROYED ..... non alive is " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="5BROMrVOFth" role="3cqZAp">
               <node concept="2OqwBi" id="5BROMrVOG8A" role="3clFbG">
                 <node concept="1eOMI4" id="5BROMrVOFtf" role="2Oq$k0">
@@ -18439,7 +18538,7 @@
               <node concept="37vLTI" id="3eB7cNzJFlG" role="3clFbG">
                 <node concept="10Nm6u" id="3eB7cNzJFlH" role="37vLTx" />
                 <node concept="2OqwBi" id="3eB7cNzJFlI" role="37vLTJ">
-                  <node concept="37vLTw" id="2B50FNWbeEm" role="2Oq$k0">
+                  <node concept="37vLTw" id="7Ako_ORKPBd" role="2Oq$k0">
                     <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
                   </node>
                   <node concept="2OwXpG" id="3eB7cNzJFlK" role="2OqNvi">
@@ -18452,7 +18551,7 @@
               <node concept="37vLTI" id="3eB7cNzNuD$" role="3clFbG">
                 <node concept="10Nm6u" id="3eB7cNzNuD_" role="37vLTx" />
                 <node concept="2OqwBi" id="3eB7cNzNuDA" role="37vLTJ">
-                  <node concept="37vLTw" id="2B50FNWbeEq" role="2Oq$k0">
+                  <node concept="37vLTw" id="7Ako_ORKPBh" role="2Oq$k0">
                     <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
                   </node>
                   <node concept="2OwXpG" id="3eB7cNzNuYY" role="2OqNvi">
@@ -18470,7 +18569,7 @@
                       <ref role="3uigEE" to="z3ji:1fWmkEQql2S" resolve="OFXCronMasterController" />
                     </node>
                     <node concept="2OqwBi" id="7tfEsbHYvUS" role="10QFUP">
-                      <node concept="37vLTw" id="2B50FNWbeEu" role="2Oq$k0">
+                      <node concept="37vLTw" id="7Ako_ORKPBl" role="2Oq$k0">
                         <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
                       </node>
                       <node concept="2OwXpG" id="7tfEsbHYw2f" role="2OqNvi">
@@ -18488,7 +18587,7 @@
               <node concept="37vLTI" id="7tfEsbFuy6V" role="3clFbG">
                 <node concept="10Nm6u" id="7tfEsbFuy6W" role="37vLTx" />
                 <node concept="2OqwBi" id="7tfEsbHYw7Y" role="37vLTJ">
-                  <node concept="37vLTw" id="2B50FNWbeEy" role="2Oq$k0">
+                  <node concept="37vLTw" id="7Ako_ORKPBp" role="2Oq$k0">
                     <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
                   </node>
                   <node concept="2OwXpG" id="7tfEsbHYwfn" role="2OqNvi">
@@ -18499,7 +18598,7 @@
             </node>
             <node concept="3clFbF" id="3Ux7NZv0cR9" role="3cqZAp">
               <node concept="2OqwBi" id="3Ux7NZv0d14" role="3clFbG">
-                <node concept="37vLTw" id="2B50FNWbeEA" role="2Oq$k0">
+                <node concept="37vLTw" id="7Ako_ORKPBt" role="2Oq$k0">
                   <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
                 </node>
                 <node concept="liA8E" id="3Ux7NZv0dln" role="2OqNvi">
@@ -18511,11 +18610,12 @@
             <node concept="3clFbF" id="5BROMrVOHK2" role="3cqZAp">
               <node concept="37vLTI" id="5BROMrVOHQw" role="3clFbG">
                 <node concept="10Nm6u" id="5BROMrVOHVg" role="37vLTx" />
-                <node concept="37vLTw" id="2B50FNWbeEE" role="37vLTJ">
+                <node concept="37vLTw" id="7Ako_ORKPBx" role="37vLTJ">
                   <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="7Ako_ORKPze" role="3cqZAp" />
           </node>
           <node concept="3y3z36" id="7tfEsbFu_zp" role="3clFbw">
             <node concept="10Nm6u" id="7tfEsbFu_Ct" role="3uHU7w" />
@@ -18537,6 +18637,21 @@
             <node concept="10M0yZ" id="3Ux7NZv0V78" role="37vLTJ">
               <ref role="3cqZAo" to="28jr:6rXe_0FbytY" resolve="globalInstance" />
               <ref role="1PxDUh" to="28jr:1w6ekH_IR2c" resolve="OFXStringFormatter" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="7Ako_ORHVMQ" role="3cqZAp" />
+        <node concept="3clFbF" id="7Ako_ORhUJ0" role="3cqZAp">
+          <node concept="2OqwBi" id="7Ako_ORhUIX" role="3clFbG">
+            <node concept="10M0yZ" id="7Ako_ORhUIY" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="7Ako_ORhUIZ" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="Xl_RD" id="7Ako_ORhUPL" role="37wK5m">
+                <property role="Xl_RC" value="CONTEXT DESTROYED ...... good by" />
+              </node>
             </node>
           </node>
         </node>

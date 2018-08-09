@@ -11,8 +11,6 @@
   <imports>
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -21,19 +19,12 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
-      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
-      </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -58,10 +49,6 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
-        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-        <child id="1068499141038" name="actualArgument" index="37wK5m" />
-      </concept>
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -72,10 +59,8 @@
     <language id="3ecd7c84-cde3-45de-886c-135ecc69b742" name="jetbrains.mps.lang.refactoring">
       <concept id="7953996722066252915" name="jetbrains.mps.lang.refactoring.structure.NodeOperation" flags="nn" index="50M6j" />
       <concept id="7953996722066256458" name="jetbrains.mps.lang.refactoring.structure.RefactoringContext_ConceptFunctionParameter" flags="nn" index="50NuE" />
-      <concept id="5497648299878741970" name="jetbrains.mps.lang.refactoring.structure.InitClause" flags="in" index="1M1Ini" />
       <concept id="6895093993902236229" name="jetbrains.mps.lang.refactoring.structure.Refactoring" flags="ig" index="3SMa$L">
         <property id="6895093993902236371" name="userFriendlyName" index="3SMaAB" />
-        <child id="5497648299878741976" name="initBlock" index="1M1Ino" />
         <child id="6895093993902236381" name="doRefactorBlock" index="3SMaAD" />
         <child id="6895093993902310998" name="target" index="3SM$Oy" />
       </concept>
@@ -259,39 +244,6 @@
               </node>
               <node concept="1uHKPH" id="7_B8OvR0nPS" role="2OqNvi" />
             </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="3SMa$L" id="1aneFn$0BBy">
-    <property role="TrG5h" value="ConvertViewToEntity" />
-    <property role="3SMaAB" value="ConvertViewToEntity" />
-    <node concept="3SM$So" id="1aneFn$0BDb" role="3SM$Oy">
-      <ref role="3SM$Vy" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
-    </node>
-    <node concept="3ZiDMR" id="1aneFn$0BB$" role="3SMaAD">
-      <node concept="3clFbS" id="1aneFn$0BB_" role="2VODD2" />
-    </node>
-    <node concept="1M1Ini" id="1aneFn$0BDR" role="1M1Ino">
-      <node concept="3clFbS" id="1aneFn$0BDS" role="2VODD2">
-        <node concept="3clFbF" id="1aneFn$0BEC" role="3cqZAp">
-          <node concept="2OqwBi" id="1aneFn$0BE_" role="3clFbG">
-            <node concept="10M0yZ" id="1aneFn$0BEA" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="1aneFn$0BEB" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="Xl_RD" id="1aneFn$0BFL" role="37wK5m">
-                <property role="Xl_RC" value="Hello World" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1aneFn$0BRq" role="3cqZAp">
-          <node concept="3clFbT" id="1aneFn$0BRp" role="3clFbG">
-            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>
