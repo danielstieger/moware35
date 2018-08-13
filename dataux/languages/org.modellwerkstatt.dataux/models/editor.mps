@@ -20,9 +20,7 @@
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1402906326895675325" name="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" flags="nn" index="0IXxy" />
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
-        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
-      </concept>
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
@@ -998,9 +996,6 @@
       </node>
       <node concept="3F0ifn" id="MP9H4j$U0h" role="3EZMnx" />
       <node concept="2iRkQZ" id="2zZnBEDyOcU" role="2iSdaV" />
-    </node>
-    <node concept="3F0A7n" id="6oVlrbjSMSk" role="6VMZX">
-      <ref role="1NtTu8" to="1btx:6oVlrbjSMSi" resolve="conversionInfo" />
     </node>
   </node>
   <node concept="PKFIW" id="7rG0OCdgX62">
@@ -2264,17 +2259,6 @@
         <ref role="1NtTu8" to="1btx:6K73LRuXmzJ" />
       </node>
       <node concept="l2Vlx" id="2KwTCJyoIDE" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="6K73LRuXEPI">
-    <property role="3GE5qa" value="uimodule" />
-    <ref role="1XX52x" to="1btx:6K73LRuXEPA" resolve="OptUseLoginScreen" />
-    <node concept="3EZMnI" id="6K73LRuXEPK" role="2wV5jI">
-      <node concept="PMmxH" id="6K73LRuXEPL" role="3EZMnx">
-        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
-        <ref role="1k5W1q" to="z8tr:1Csx3LqGvar" resolve="O2SubConcept" />
-      </node>
-      <node concept="l2Vlx" id="6K73LRuXEPM" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="6K73LRuYUlC">

@@ -13,7 +13,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
@@ -49,7 +48,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -349,11 +347,6 @@
     <property role="R4oN_" value="another declared ux element" />
     <property role="MwhBj" value="${module}/icons/include2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="6oVlrbjSMSi" role="1TKVEl">
-      <property role="TrG5h" value="conversionInfo" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="asaX9" id="7vQ8h9wxWMS" role="lGtFl" />
-    </node>
     <node concept="1TJgyj" id="7rG0OCdj5GO" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="uxElement" />
@@ -932,12 +925,12 @@
     <node concept="1TJgyj" id="61VVfi2BbQl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="onStartup" />
-      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXTestStatementList" />
+      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXVoidStatementList" />
     </node>
     <node concept="1TJgyj" id="61VVfi2BbRa" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="onShutdown" />
-      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXTestStatementList" />
+      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXVoidStatementList" />
     </node>
     <node concept="1TJgyj" id="6K73LRuYaWY" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1005,19 +998,6 @@
     <node concept="PrWs8" id="65KdKINXug6" role="PzmwI">
       <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6K73LRuXEPA">
-    <property role="1pbfSe" value="1258142851" />
-    <property role="3GE5qa" value="uimodule" />
-    <property role="TrG5h" value="OptUseLoginScreen" />
-    <property role="34LRSv" value="USE LOGINSCREEN" />
-    <property role="R4oN_" value="with this module" />
-    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6K73LRuXEPC" role="PzmwI">
-      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IModuleOption" />
-    </node>
-    <node concept="asaX9" id="2N7eHMabjgi" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6K73LRuYUa9">
     <property role="1pbfSe" value="1258467750" />
@@ -1221,12 +1201,12 @@
     <node concept="1TJgyj" id="2N7eHMabhMB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="onStartup" />
-      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXTestStatementList" />
+      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXVoidStatementList" />
     </node>
     <node concept="1TJgyj" id="2N7eHMabhMH" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="onShutdown" />
-      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXTestStatementList" />
+      <ref role="20lvS9" to="un0u:7cOyB3YfVuh" resolve="OFXVoidStatementList" />
     </node>
     <node concept="1TJgyj" id="2N7eHMabhMO" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

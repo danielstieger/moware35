@@ -1815,30 +1815,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="6lryfQF7yis">
-    <property role="3GE5qa" value="OFXCore.command" />
-    <ref role="1M2myG" to="un0u:6lryfQF7yi5" resolve="GetSelectedObjects" />
-    <node concept="nKS2y" id="6lryfQF7yit" role="1MLUbF">
-      <node concept="3clFbS" id="6lryfQF7yiu" role="2VODD2">
-        <node concept="3clFbF" id="6lryfQF7yiv" role="3cqZAp">
-          <node concept="2OqwBi" id="6lryfQF7yiM" role="3clFbG">
-            <node concept="2OqwBi" id="6lryfQF7yiz" role="2Oq$k0">
-              <node concept="nLn13" id="6lryfQF7yiw" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="6lryfQF7yiD" role="2OqNvi">
-                <node concept="1xMEDy" id="6lryfQF7yiE" role="1xVPHs">
-                  <node concept="chp4Y" id="6lryfQF7yiH" role="ri$Ld">
-                    <ref role="cht4Q" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
-                  </node>
-                </node>
-                <node concept="1xIGOp" id="6lryfQF7yiJ" role="1xVPHs" />
-              </node>
-            </node>
-            <node concept="3x8VRR" id="6lryfQF7yiS" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="6ckObfx1bJH">
     <property role="3GE5qa" value="OFXCore.command" />
     <ref role="1M2myG" to="un0u:1Csx3Lqx5LH" resolve="CancelCommand" />

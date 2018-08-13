@@ -12,7 +12,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
         <property id="6054523464626875854" name="value" index="tnX3d" />
       </concept>
@@ -378,11 +377,6 @@
       <property role="20kJfa" value="sessionExpression" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="1TJgyi" id="3ixT9Ax7EP7" role="1TKVEl">
-      <property role="TrG5h" value="longCall" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-      <node concept="asaX9" id="1jAcMFY1o$V" role="lGtFl" />
-    </node>
     <node concept="1TJgyj" id="6S08D5JofmO" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="runtimeHandledObject" />
@@ -449,14 +443,6 @@
     <property role="R5$K7" value="true" />
     <property role="1pbfSe" value="1704870725" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
-  </node>
-  <node concept="1TIwiD" id="3bYrH4MBXhX">
-    <property role="3GE5qa" value="BusinessObject.Options" />
-    <property role="TrG5h" value="KeyOption" />
-    <property role="34LRSv" value="@Deprecated KEY" />
-    <property role="1pbfSe" value="1704870734" />
-    <ref role="1TJDcQ" node="3bYrH4MBXhO" resolve="PropertyOption" />
-    <node concept="asaX9" id="hm5BQDlCUq" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3bYrH4MGv34">
     <property role="3GE5qa" value="BusinessObject.Options" />
@@ -667,11 +653,6 @@
       <property role="TrG5h" value="overWriteWindowTitle" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="OmBzHGj4UU" role="1TKVEl">
-      <property role="TrG5h" value="commandType" />
-      <ref role="AX2Wp" node="OmBzHGj4UR" resolve="CommandType" />
-      <node concept="asaX9" id="6Rdz00$tuM1" role="lGtFl" />
-    </node>
     <node concept="1TJgyi" id="6Rdz00$tuM3" role="1TKVEl">
       <property role="TrG5h" value="newCommandType" />
       <ref role="AX2Wp" node="6Rdz00$tuDi" resolve="O2CommandType" />
@@ -679,11 +660,6 @@
     <node concept="1TJgyi" id="5ol$NvLo2O" role="1TKVEl">
       <property role="TrG5h" value="defaultHotkey" />
       <ref role="AX2Wp" node="1hImSMr5NSl" resolve="Hotkey" />
-    </node>
-    <node concept="1TJgyi" id="vsIEjN26kM" role="1TKVEl">
-      <property role="TrG5h" value="commandCommitType" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-      <node concept="asaX9" id="vsIEjN26kR" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="6ffh1MXzXnB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -733,12 +709,6 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="titleAddOn" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="mhNtP8MHug" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="finalOkMessage" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-      <node concept="asaX9" id="43H1fr7tzcD" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="6IXTkEOVX_p" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -986,11 +956,6 @@
     <node concept="1TJgyi" id="1Csx3LqwlRn" role="1TKVEl">
       <property role="TrG5h" value="conclusionType" />
       <ref role="AX2Wp" node="1Csx3LqwlRj" resolve="ConclusionType" />
-    </node>
-    <node concept="1TJgyi" id="4XO07uzJ7WW" role="1TKVEl">
-      <property role="TrG5h" value="hotkey" />
-      <ref role="AX2Wp" node="4XO07uzJ7WR" resolve="CommandHotKeys" />
-      <node concept="asaX9" id="7qQ6PJv693D" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="1Csx3Lqvlid" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1297,15 +1262,6 @@
     <node concept="PrWs8" id="5Ee0EjqYKWP" role="PrDN$">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="6lryfQF7yi5">
-    <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="GetSelectedObjects" />
-    <property role="R4oN_" value="from userinterface" />
-    <property role="34LRSv" value="DEP_getSelectedObjects" />
-    <property role="1pbfSe" value="276409730" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="asaX9" id="70RMBbuA1W3" role="lGtFl" />
   </node>
   <node concept="AxPO7" id="4XO07uzJ7WR">
     <property role="3GE5qa" value="OFXCore.command" />

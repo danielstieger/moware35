@@ -1001,7 +1001,6 @@
       <node concept="10qiFn" id="5MCXLSnMhKi" role="10qiF9">
         <property role="TrG5h" value="Save &amp; Close" />
         <property role="10BtBF" value="SAVE_CONCLUSION" />
-        <property role="3GM7Xb" value="SAVE" />
         <ref role="2DFCCC" node="3Rw9V4qhf8H" resolve="SaveClose" />
         <node concept="20qIzx" id="5MCXLSnMhKX" role="10ot2L">
           <node concept="3clFbS" id="5MCXLSnMhKY" role="2VODD2">

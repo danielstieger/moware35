@@ -329,14 +329,6 @@
       <node concept="3Tm1VV" id="6CVJxS8gcoy" role="1B3o_S" />
       <node concept="3clFbS" id="6CVJxS8gcoz" role="3clF47" />
     </node>
-    <node concept="3clFb_" id="6XdB5k5Y4_s" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="isUseLoginScreen" />
-      <node concept="3clFbS" id="6XdB5k5Y4_v" role="3clF47" />
-      <node concept="3Tm1VV" id="6XdB5k5Y4_w" role="1B3o_S" />
-      <node concept="10P_77" id="6XdB5k5Y4zG" role="3clF45" />
-    </node>
     <node concept="3clFb_" id="75iQIE8U7Sr" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="startup" />
@@ -1092,7 +1084,7 @@
                     <ref role="3cqZAo" node="cYdxW5KUX7" resolve="factory" />
                   </node>
                   <node concept="liA8E" id="cYdxW5KWTu" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getProcessByFqName" />
+                    <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getProcessByInstanceName" />
                     <node concept="37vLTw" id="cYdxW5KWVT" role="37wK5m">
                       <ref role="3cqZAo" node="Y3fiVL0iol" resolve="public_processFqName" />
                     </node>
