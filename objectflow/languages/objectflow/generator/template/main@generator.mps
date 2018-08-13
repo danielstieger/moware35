@@ -688,11 +688,6 @@
       <ref role="2rTdP9" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
       <ref role="2rZz_L" to="tpee:fz12cDC" resolve="FieldDeclaration" />
     </node>
-    <node concept="2rT7sh" id="7ii5IAYHrQw" role="2rTMjI">
-      <property role="TrG5h" value="BatchTask" />
-      <ref role="2rTdP9" to="un0u:7ii5IAYvBh0" resolve="BatchTask" />
-      <ref role="2rZz_L" to="tpee:fz12cDA" resolve="ClassConcept" />
-    </node>
     <node concept="2rT7sh" id="7uJ0DEO60Gn" role="2rTMjI">
       <property role="TrG5h" value="TestDataBuilder" />
       <ref role="2rTdP9" to="un0u:5kAqSpTXdTO" resolve="BuilderExpression" />
@@ -2810,66 +2805,6 @@
           <property role="1Dpdpm" value="isNullasKey" />
           <node concept="10P_77" id="2QJz1_oOx62" role="1Ez5kq" />
         </node>
-      </node>
-    </node>
-    <node concept="3aamgX" id="46dXEEhSp7V" role="3acgRq">
-      <ref role="30HIoZ" to="un0u:46dXEEhRtcV" resolve="BatchFieldReference" />
-      <node concept="1Koe21" id="46dXEEhSp7X" role="1lVwrX">
-        <node concept="312cEu" id="46dXEEhSp7Z" role="1Koe22">
-          <property role="2bfB8j" value="true" />
-          <property role="TrG5h" value="_bfr" />
-          <node concept="3Tm1VV" id="46dXEEhSp80" role="1B3o_S" />
-          <node concept="312cEg" id="46dXEEhSp85" role="jymVt">
-            <property role="TrG5h" value="dummy" />
-            <node concept="3Tm6S6" id="46dXEEhSp86" role="1B3o_S" />
-            <node concept="10Oyi0" id="46dXEEhSp88" role="1tU5fm" />
-          </node>
-          <node concept="3clFbW" id="46dXEEhSp81" role="jymVt">
-            <node concept="3cqZAl" id="46dXEEhSp82" role="3clF45" />
-            <node concept="3Tm1VV" id="46dXEEhSp83" role="1B3o_S" />
-            <node concept="3clFbS" id="46dXEEhSp84" role="3clF47" />
-          </node>
-          <node concept="3clFb_" id="46dXEEhSp89" role="jymVt">
-            <property role="TrG5h" value="func" />
-            <node concept="10Oyi0" id="46dXEEhSp8J" role="3clF45" />
-            <node concept="3Tm1VV" id="46dXEEhSp8b" role="1B3o_S" />
-            <node concept="3clFbS" id="46dXEEhSp8c" role="3clF47">
-              <node concept="3clFbF" id="46dXEEhSp8d" role="3cqZAp">
-                <node concept="37vLTw" id="4$qgDG0BKE" role="3clFbG">
-                  <ref role="3cqZAo" node="46dXEEhSp85" resolve="dummy" />
-                  <node concept="raruj" id="46dXEEhSp8g" role="lGtFl" />
-                  <node concept="1ZhdrF" id="46dXEEhSp8h" role="lGtFl">
-                    <property role="2qtEX8" value="variableDeclaration" />
-                    <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068498886296/1068581517664" />
-                    <node concept="3$xsQk" id="46dXEEhSp8i" role="3$ytzL">
-                      <node concept="3clFbS" id="46dXEEhSp8j" role="2VODD2">
-                        <node concept="3clFbF" id="46dXEEhSp8k" role="3cqZAp">
-                          <node concept="2OqwBi" id="46dXEEhSp8y" role="3clFbG">
-                            <node concept="2OqwBi" id="46dXEEhSp8o" role="2Oq$k0">
-                              <node concept="30H73N" id="46dXEEhSp8l" role="2Oq$k0" />
-                              <node concept="3TrEf2" id="46dXEEhWDrf" role="2OqNvi">
-                                <ref role="3Tt5mk" to="un0u:46dXEEhRtcW" />
-                              </node>
-                            </node>
-                            <node concept="3TrcHB" id="46dXEEhWDrh" role="2OqNvi">
-                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3aamgX" id="6$50Ud$mvcZ" role="3acgRq">
-      <ref role="30HIoZ" to="un0u:7ii5IAYBPEs" resolve="BatchTaskCheck" />
-      <node concept="j$656" id="6$50Ud$mvdX" role="1lVwrX">
-        <ref role="v9R2y" node="6$50Ud$mvdV" resolve="reduce_BatchTaskCheck" />
       </node>
     </node>
     <node concept="3aamgX" id="22Psgbrx7Nw" role="3acgRq">
@@ -22222,93 +22157,6 @@
                   </node>
                 </node>
               </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="13MO4I" id="6$50Ud$mvdV">
-    <property role="TrG5h" value="reduce_BatchTaskCheck" />
-    <ref role="3gUMe" to="un0u:7ii5IAYBPEs" resolve="BatchTaskCheck" />
-    <node concept="312cEu" id="6$50Ud$mvdY" role="13RCb5">
-      <property role="2bfB8j" value="true" />
-      <property role="TrG5h" value="reduce_BatchTaskCheck" />
-      <node concept="3Tm1VV" id="6$50Ud$mvdZ" role="1B3o_S" />
-      <node concept="3uibUv" id="6$50Ud$mve4" role="EKbjA">
-        <ref role="3uigEE" to="28jr:50gmXGsn8uX" resolve="IOFXBatchTask" />
-      </node>
-      <node concept="3clFbW" id="6$50Ud$mve0" role="jymVt">
-        <node concept="3cqZAl" id="6$50Ud$mve1" role="3clF45" />
-        <node concept="3Tm1VV" id="6$50Ud$mve2" role="1B3o_S" />
-        <node concept="3clFbS" id="6$50Ud$mve3" role="3clF47" />
-      </node>
-      <node concept="3clFb_" id="6$50Ud$mve5" role="jymVt">
-        <property role="1EzhhJ" value="false" />
-        <property role="TrG5h" value="batchTask" />
-        <node concept="3cqZAl" id="6$50Ud$mve6" role="3clF45" />
-        <node concept="3Tm1VV" id="6$50Ud$mve7" role="1B3o_S" />
-        <node concept="3clFbS" id="6$50Ud$mve8" role="3clF47" />
-      </node>
-      <node concept="2tJIrI" id="7ubUX4ZTsX0" role="jymVt" />
-      <node concept="3clFb_" id="77sCLQCBnuO" role="jymVt">
-        <property role="1EzhhJ" value="false" />
-        <property role="TrG5h" value="updateSettings" />
-        <node concept="37vLTG" id="77sCLQCBnuP" role="3clF46">
-          <property role="TrG5h" value="provider" />
-          <node concept="3uibUv" id="77sCLQCBnuQ" role="1tU5fm">
-            <ref role="3uigEE" to="28jr:5T_hheWfEqM" resolve="IOFXBatchTask.IMonitoringSettingsProvider" />
-          </node>
-        </node>
-        <node concept="3cqZAl" id="77sCLQCBnuR" role="3clF45" />
-        <node concept="3Tm1VV" id="77sCLQCBnuS" role="1B3o_S" />
-        <node concept="3clFbS" id="77sCLQCBnuU" role="3clF47" />
-      </node>
-      <node concept="2tJIrI" id="7ubUX4ZTsXG" role="jymVt" />
-      <node concept="3clFb_" id="7ubUX52knoq" role="jymVt">
-        <property role="1EzhhJ" value="false" />
-        <property role="TrG5h" value="stopRunningAndInterruptThread" />
-        <node concept="3cqZAl" id="7ubUX52knor" role="3clF45" />
-        <node concept="3Tm1VV" id="7ubUX52knos" role="1B3o_S" />
-        <node concept="3clFbS" id="7ubUX52knox" role="3clF47" />
-      </node>
-      <node concept="3clFb_" id="7ubUX4ZTt1$" role="jymVt">
-        <property role="1EzhhJ" value="false" />
-        <property role="TrG5h" value="isStopRunning" />
-        <node concept="10P_77" id="7ubUX4ZTt1_" role="3clF45" />
-        <node concept="3Tm1VV" id="7ubUX4ZTt1A" role="1B3o_S" />
-        <node concept="3clFbS" id="7ubUX4ZTt1H" role="3clF47">
-          <node concept="3clFbF" id="7ubUX4ZTt1J" role="3cqZAp">
-            <node concept="3clFbT" id="7ubUX4ZTt1I" role="3clFbG" />
-          </node>
-        </node>
-      </node>
-      <node concept="3clFb_" id="4KOdQVS8Rgg" role="jymVt">
-        <property role="1EzhhJ" value="false" />
-        <property role="TrG5h" value="addMonitoringInformation" />
-        <node concept="37vLTG" id="4KOdQVS8Rgh" role="3clF46">
-          <property role="TrG5h" value="provider" />
-          <node concept="3uibUv" id="4KOdQVS8Rgi" role="1tU5fm">
-            <ref role="3uigEE" to="28jr:5T_hheWfEqM" resolve="IOFXBatchTask.IMonitoringSettingsProvider" />
-          </node>
-        </node>
-        <node concept="3cqZAl" id="4KOdQVS8Rgj" role="3clF45" />
-        <node concept="3Tm1VV" id="4KOdQVS8Rgk" role="1B3o_S" />
-        <node concept="3clFbS" id="4KOdQVS8Rgm" role="3clF47" />
-      </node>
-      <node concept="2tJIrI" id="7ubUX4ZTsYp" role="jymVt" />
-      <node concept="3clFb_" id="6$50Ud$mveG" role="jymVt">
-        <property role="1EzhhJ" value="false" />
-        <property role="TrG5h" value="run" />
-        <property role="DiZV1" value="false" />
-        <property role="IEkAT" value="false" />
-        <node concept="3Tm1VV" id="6$50Ud$mveH" role="1B3o_S" />
-        <node concept="3cqZAl" id="6$50Ud$mveI" role="3clF45" />
-        <node concept="3clFbS" id="6$50Ud$mveJ" role="3clF47">
-          <node concept="3clFbF" id="7ubUX4ZTtee" role="3cqZAp">
-            <node concept="1rXfSq" id="4$qgDG0C6W" role="3clFbG">
-              <ref role="37wK5l" node="7ubUX4ZTt1$" resolve="isStopRunning" />
-              <node concept="raruj" id="6$50Ud$mveV" role="lGtFl" />
             </node>
           </node>
         </node>

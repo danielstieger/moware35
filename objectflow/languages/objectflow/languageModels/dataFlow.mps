@@ -728,32 +728,45 @@
       </node>
     </node>
   </node>
-  <node concept="3_zdsH" id="3U0QWztOsdy">
-    <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="3_znuS" to="un0u:3U0QWztOqU0" resolve="OFXRunCmdVarRef" />
-    <node concept="3__wT9" id="3U0QWztOsdz" role="3_A6iZ">
-      <node concept="3clFbS" id="3U0QWztOsd$" role="2VODD2">
-        <node concept="3_DX4M" id="3U0QWztOshz" role="3cqZAp">
-          <node concept="2OqwBi" id="3U0QWztOsk_" role="3_H1SZ">
-            <node concept="3__QtB" id="3U0QWztOsiE" role="2Oq$k0" />
-            <node concept="3TrEf2" id="3U0QWztOstj" role="2OqNvi">
-              <ref role="3Tt5mk" to="un0u:3U0QWztOr49" />
+  <node concept="3_zdsH" id="6N4Z84dEQDv">
+    <property role="3GE5qa" value="Status" />
+    <ref role="3_znuS" to="un0u:3bYrH4MI37T" resolve="StatusStaticAccess" />
+    <node concept="3__wT9" id="6N4Z84dEQDw" role="3_A6iZ">
+      <node concept="3clFbS" id="6N4Z84dEQDx" role="2VODD2">
+        <node concept="3AgYrR" id="6N4Z84dEQDG" role="3cqZAp">
+          <node concept="2OqwBi" id="6N4Z84dEQGa" role="3Ah4Yx">
+            <node concept="3__QtB" id="6N4Z84dEQDX" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6N4Z84dEQLo" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:3bYrH4MI38d" />
             </node>
           </node>
         </node>
       </node>
     </node>
   </node>
-  <node concept="3_zdsH" id="6BG_0EbPJXu">
-    <property role="3GE5qa" value="OFXCore.batch2" />
-    <ref role="3_znuS" to="un0u:6BG_0EbMi5j" resolve="OFXInboxToPostProcess" />
-    <node concept="3__wT9" id="6BG_0EbPJXv" role="3_A6iZ">
-      <node concept="3clFbS" id="6BG_0EbPJXw" role="2VODD2">
-        <node concept="3_DX4M" id="6BG_0EbPJY0" role="3cqZAp">
-          <node concept="2OqwBi" id="6BG_0EbPK0z" role="3_H1SZ">
-            <node concept="3__QtB" id="6BG_0EbPJYo" role="2Oq$k0" />
-            <node concept="3TrEf2" id="6BG_0EbPK5S" role="2OqNvi">
-              <ref role="3Tt5mk" to="un0u:6BG_0EbMi8w" />
+  <node concept="3_zdsH" id="1jYXPQ7ylb6">
+    <property role="3GE5qa" value="OFXTest" />
+    <ref role="3_znuS" to="un0u:1jYXPQ7xYqG" resolve="OFXTestMethodCallExp" />
+    <node concept="3__wT9" id="1jYXPQ7ylb7" role="3_A6iZ">
+      <node concept="3clFbS" id="1jYXPQ7ylb8" role="2VODD2">
+        <node concept="1DcWWT" id="h$aqnT0" role="3cqZAp">
+          <node concept="2OqwBi" id="h$aqqRf" role="1DdaDG">
+            <node concept="3__QtB" id="h$aqpqz" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="1jYXPQ7ym8W" role="2OqNvi">
+              <ref role="3TtcxE" to="tpee:fz7wK6I" />
+            </node>
+          </node>
+          <node concept="3cpWsn" id="h$aqnT2" role="1Duv9x">
+            <property role="TrG5h" value="arg" />
+            <node concept="3Tqbb2" id="h$aqof4" role="1tU5fm">
+              <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="h$aqnT4" role="2LFqv$">
+            <node concept="3AgYrR" id="h$aqsxK" role="3cqZAp">
+              <node concept="37vLTw" id="3GM_nagTyTB" role="3Ah4Yx">
+                <ref role="3cqZAo" node="h$aqnT2" resolve="arg" />
+              </node>
             </node>
           </node>
         </node>
@@ -889,45 +902,16 @@
       </node>
     </node>
   </node>
-  <node concept="3_zdsH" id="6N4Z84dEQDv">
-    <property role="3GE5qa" value="Status" />
-    <ref role="3_znuS" to="un0u:3bYrH4MI37T" resolve="StatusStaticAccess" />
-    <node concept="3__wT9" id="6N4Z84dEQDw" role="3_A6iZ">
-      <node concept="3clFbS" id="6N4Z84dEQDx" role="2VODD2">
-        <node concept="3AgYrR" id="6N4Z84dEQDG" role="3cqZAp">
-          <node concept="2OqwBi" id="6N4Z84dEQGa" role="3Ah4Yx">
-            <node concept="3__QtB" id="6N4Z84dEQDX" role="2Oq$k0" />
-            <node concept="3TrEf2" id="6N4Z84dEQLo" role="2OqNvi">
-              <ref role="3Tt5mk" to="un0u:3bYrH4MI38d" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="3_zdsH" id="1jYXPQ7ylb6">
-    <property role="3GE5qa" value="OFXTest" />
-    <ref role="3_znuS" to="un0u:1jYXPQ7xYqG" resolve="OFXTestMethodCallExp" />
-    <node concept="3__wT9" id="1jYXPQ7ylb7" role="3_A6iZ">
-      <node concept="3clFbS" id="1jYXPQ7ylb8" role="2VODD2">
-        <node concept="1DcWWT" id="h$aqnT0" role="3cqZAp">
-          <node concept="2OqwBi" id="h$aqqRf" role="1DdaDG">
-            <node concept="3__QtB" id="h$aqpqz" role="2Oq$k0" />
-            <node concept="3Tsc0h" id="1jYXPQ7ym8W" role="2OqNvi">
-              <ref role="3TtcxE" to="tpee:fz7wK6I" />
-            </node>
-          </node>
-          <node concept="3cpWsn" id="h$aqnT2" role="1Duv9x">
-            <property role="TrG5h" value="arg" />
-            <node concept="3Tqbb2" id="h$aqof4" role="1tU5fm">
-              <ref role="ehGHo" to="tpee:fz3vP1J" resolve="Expression" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="h$aqnT4" role="2LFqv$">
-            <node concept="3AgYrR" id="h$aqsxK" role="3cqZAp">
-              <node concept="37vLTw" id="3GM_nagTyTB" role="3Ah4Yx">
-                <ref role="3cqZAo" node="h$aqnT2" resolve="arg" />
-              </node>
+  <node concept="3_zdsH" id="3U0QWztOsdy">
+    <property role="3GE5qa" value="OFXCore.batch2" />
+    <ref role="3_znuS" to="un0u:3U0QWztOqU0" resolve="OFXRunCmdVarRef" />
+    <node concept="3__wT9" id="3U0QWztOsdz" role="3_A6iZ">
+      <node concept="3clFbS" id="3U0QWztOsd$" role="2VODD2">
+        <node concept="3_DX4M" id="3U0QWztOshz" role="3cqZAp">
+          <node concept="2OqwBi" id="3U0QWztOsk_" role="3_H1SZ">
+            <node concept="3__QtB" id="3U0QWztOsiE" role="2Oq$k0" />
+            <node concept="3TrEf2" id="3U0QWztOstj" role="2OqNvi">
+              <ref role="3Tt5mk" to="un0u:3U0QWztOr49" />
             </node>
           </node>
         </node>
