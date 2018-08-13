@@ -18497,25 +18497,6 @@
                 <property role="3SKdUp" value="any ex not rethrown, how is bundle state?" />
               </node>
             </node>
-            <node concept="3clFbF" id="7Ako_ORI7NB" role="3cqZAp">
-              <node concept="2OqwBi" id="7Ako_ORI7N$" role="3clFbG">
-                <node concept="10M0yZ" id="7Ako_ORI7N_" role="2Oq$k0">
-                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                </node>
-                <node concept="liA8E" id="7Ako_ORI7NA" role="2OqNvi">
-                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                  <node concept="3cpWs3" id="7Ako_ORI89q" role="37wK5m">
-                    <node concept="37vLTw" id="7Ako_ORI8di" role="3uHU7w">
-                      <ref role="3cqZAo" node="7Ako_ORI3UQ" resolve="nonAlive" />
-                    </node>
-                    <node concept="Xl_RD" id="7Ako_ORI7Qn" role="3uHU7B">
-                      <property role="Xl_RC" value="CONTEXT DESTROYED ..... non alive is " />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="5BROMrVOFth" role="3cqZAp">
               <node concept="2OqwBi" id="5BROMrVOG8A" role="3clFbG">
                 <node concept="1eOMI4" id="5BROMrVOFtf" role="2Oq$k0">
@@ -18637,21 +18618,6 @@
             <node concept="10M0yZ" id="3Ux7NZv0V78" role="37vLTJ">
               <ref role="3cqZAo" to="28jr:6rXe_0FbytY" resolve="globalInstance" />
               <ref role="1PxDUh" to="28jr:1w6ekH_IR2c" resolve="OFXStringFormatter" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7Ako_ORHVMQ" role="3cqZAp" />
-        <node concept="3clFbF" id="7Ako_ORhUJ0" role="3cqZAp">
-          <node concept="2OqwBi" id="7Ako_ORhUIX" role="3clFbG">
-            <node concept="10M0yZ" id="7Ako_ORhUIY" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="7Ako_ORhUIZ" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="Xl_RD" id="7Ako_ORhUPL" role="37wK5m">
-                <property role="Xl_RC" value="CONTEXT DESTROYED ...... good by" />
-              </node>
             </node>
           </node>
         </node>
