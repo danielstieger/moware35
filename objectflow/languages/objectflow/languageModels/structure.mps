@@ -1233,15 +1233,6 @@
       <ref role="PrY4T" node="6Rdz00$u0vd" resolve="IRevertableReference" />
     </node>
   </node>
-  <node concept="PlHQZ" id="5Ee0EjqSttw">
-    <property role="3GE5qa" value="OFXCore.process" />
-    <property role="TrG5h" value="IOFXExternalView" />
-    <property role="1pbfSe" value="896522756" />
-    <node concept="PrWs8" id="1gb7OKPW3fa" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="asaX9" id="3U0QWztHm5l" role="lGtFl" />
-  </node>
   <node concept="1TIwiD" id="5Ee0EjqTaDb">
     <property role="3GE5qa" value="OFXCore.command" />
     <property role="TrG5h" value="PageInitConceptFunc" />
@@ -1321,95 +1312,6 @@
     <node concept="PrWs8" id="5Ee0EjqYKWP" role="PrDN$">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="3PmKne7OD8L">
-    <property role="3GE5qa" value="OFXCore.process" />
-    <property role="TrG5h" value="RunCommand" />
-    <property role="34LRSv" value="run command" />
-    <property role="R4oN_" value="command from any process" />
-    <property role="1pbfSe" value="987147356" />
-    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyj" id="7VvoHcJgQD4" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="doc" />
-      <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
-    </node>
-    <node concept="1TJgyj" id="3PmKne7OD9i" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="actualArgument" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="3IuMOEB9Xp1" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="viewsForCommands" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3AwmmzDB_oq" resolve="IViewForPage" />
-    </node>
-    <node concept="1TJgyj" id="vsIEjMXUX6" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="sessionExpression" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="3PmKne7OD8M" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="process" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ffh1MXzHnh" resolve="Process" />
-    </node>
-    <node concept="1TJgyj" id="3PmKne7OD8N" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="command" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ffh1MXzHna" resolve="Command" />
-    </node>
-    <node concept="asaX9" id="3U0QWztHl_d" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="3IuMOEB9Xoj">
-    <property role="3GE5qa" value="OFXCore.process" />
-    <property role="TrG5h" value="FakeCommandView" />
-    <property role="1pbfSe" value="490299043" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="3IuMOEB9Xok" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="page" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ffh1MXzHn6" resolve="Page" />
-      <ref role="20ksaX" node="1gb7OKPW3eu" />
-    </node>
-    <node concept="1TJgyj" id="3IuMOEB9Xol" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="pageConclusion" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="1Csx3LqtqVF" resolve="PageConclusion" />
-    </node>
-    <node concept="1TJgyj" id="3IuMOEB9XoJ" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="pageFakeConceptFunc" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3IuMOEB9Xo_" resolve="FakeViewConceptFunc" />
-    </node>
-    <node concept="PrWs8" id="3AwmmzDB_or" role="PzmwI">
-      <ref role="PrY4T" node="3AwmmzDB_oq" resolve="IViewForPage" />
-    </node>
-    <node concept="asaX9" id="3U0QWztHlLV" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="3IuMOEB9Xo_">
-    <property role="3GE5qa" value="OFXCore.process" />
-    <property role="TrG5h" value="FakeViewConceptFunc" />
-    <property role="R4oN_" value="replace user interface " />
-    <property role="34LRSv" value="fakeUi" />
-    <property role="1pbfSe" value="490299025" />
-    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
-    <node concept="asaX9" id="3U0QWztHlRR" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="6lryfQF4NIB">
-    <property role="3GE5qa" value="OFXCore.process" />
-    <property role="TrG5h" value="FakeViewConceptParam" />
-    <property role="34LRSv" value="boundObjects" />
-    <property role="1pbfSe" value="275694756" />
-    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
-    <node concept="asaX9" id="3U0QWztHlW7" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="6lryfQF7yi5">
     <property role="3GE5qa" value="OFXCore.command" />
@@ -1619,41 +1521,6 @@
       <ref role="PrY4T" to="r5tz:6W_Qo9f2MZI" resolve="IRepositoryMethod" />
     </node>
   </node>
-  <node concept="PlHQZ" id="3AwmmzDB_oq">
-    <property role="3GE5qa" value="OFXCore.process" />
-    <property role="TrG5h" value="IViewForPage" />
-    <property role="1pbfSe" value="591310722" />
-    <node concept="1TJgyj" id="1gb7OKPW3eu" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="pageReference" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ffh1MXzHn6" resolve="Page" />
-    </node>
-    <node concept="asaX9" id="3U0QWztHlCB" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="1gb7OKPW3ev">
-    <property role="3GE5qa" value="OFXCore.process" />
-    <property role="TrG5h" value="RealCommandView" />
-    <property role="1pbfSe" value="1241207531" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1gb7OKPW3ey" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="externalView" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5Ee0EjqSttw" resolve="IOFXExternalView" />
-    </node>
-    <node concept="1TJgyj" id="1gb7OKPW3ex" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="page" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ffh1MXzHn6" resolve="Page" />
-      <ref role="20ksaX" node="1gb7OKPW3eu" />
-    </node>
-    <node concept="PrWs8" id="1gb7OKPW3ew" role="PzmwI">
-      <ref role="PrY4T" node="3AwmmzDB_oq" resolve="IViewForPage" />
-    </node>
-    <node concept="asaX9" id="3U0QWztHmkt" role="lGtFl" />
-  </node>
   <node concept="PlHQZ" id="3JsUq_S9PU7">
     <property role="3GE5qa" value="BusinessObject" />
     <property role="TrG5h" value="IOFXObject" />
@@ -1671,61 +1538,6 @@
     <property role="34LRSv" value="OPPOSITE" />
     <property role="1pbfSe" value="814543347" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
-  </node>
-  <node concept="1TIwiD" id="2P7gGuyddNs">
-    <property role="TrG5h" value="TestMethod" />
-    <property role="3GE5qa" value="NewTest" />
-    <property role="1pbfSe" value="813949021" />
-    <ref role="1TJDcQ" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
-    <node concept="1TJgyi" id="7VvoHcIuQpY" role="1TKVEl">
-      <property role="TrG5h" value="exec" />
-      <ref role="AX2Wp" node="7VvoHcIuQpT" resolve="TestMethodExecute" />
-    </node>
-    <node concept="1TJgyj" id="2P7gGuyddNA" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="description" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2P7gGuyddNM">
-    <property role="3GE5qa" value="NewTest" />
-    <property role="TrG5h" value="TestCases" />
-    <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/test.png" />
-    <property role="1pbfSe" value="813948999" />
-    <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
-    <node concept="1TJgyj" id="2P7gGuygKZx" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="configuration" />
-      <ref role="20lvS9" node="q_zDmI5v5l" resolve="OFXConfig" />
-    </node>
-    <node concept="1TJgyj" id="2P7gGuyddNY" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="testMethod" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="2P7gGuyddNs" resolve="TestMethod" />
-    </node>
-    <node concept="PrWs8" id="6sucGAohhY4" role="PzmwI">
-      <ref role="PrY4T" to="4fqr:431DWIovi3l" resolve="IMainClass" />
-    </node>
-    <node concept="PrWs8" id="6xpSWdTCm5G" role="PzmwI">
-      <ref role="PrY4T" node="6xpSWdTCm5i" resolve="ICanRunCommands" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="2P7gGuyfhh7">
-    <property role="3GE5qa" value="NewTest" />
-    <property role="TrG5h" value="TestInfo" />
-    <property role="34LRSv" value="testInfo" />
-    <property role="R4oN_" value="write a message to output" />
-    <property role="1pbfSe" value="813410546" />
-    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyj" id="2P7gGuyfhh8" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20lbJX" value="1" />
-      <property role="20kJfa" value="exp" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
   </node>
   <node concept="PlHQZ" id="4H7K4Wq6tCQ">
     <property role="3GE5qa" value="OFXCore.command" />
@@ -2028,58 +1840,6 @@
     <property role="1pbfSe" value="1974563646" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
   </node>
-  <node concept="1TIwiD" id="5xcCl6oWmmH">
-    <property role="3GE5qa" value="NewTest" />
-    <property role="TrG5h" value="VariantStatements" />
-    <property role="34LRSv" value="ifvariant" />
-    <property role="1pbfSe" value="247593218" />
-    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyj" id="5xcCl6oWmmI" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="statements" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fzclF80" resolve="StatementList" />
-    </node>
-    <node concept="1TJgyj" id="2IjElxgHNpv" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="characteristics" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="2IjElxgHNhO" resolve="VariantCharacteristic" />
-    </node>
-    <node concept="asaX9" id="6BKPvpCRu$O" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="LKsyXaF4hD">
-    <property role="3GE5qa" value="NewTest" />
-    <property role="TrG5h" value="AssertTable" />
-    <property role="34LRSv" value="tableOfConditions" />
-    <property role="R4oN_" value="test conditions to pass" />
-    <property role="1pbfSe" value="1461499544" />
-    <ref role="1TJDcQ" to="tpee:fzclF8l" resolve="Statement" />
-    <node concept="1TJgyj" id="LKsyXaFHvo" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="rows" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="LKsyXaF4hE" resolve="AsserTableRow" />
-    </node>
-    <node concept="asaX9" id="77cIZATay73" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="LKsyXaF4hE">
-    <property role="3GE5qa" value="NewTest" />
-    <property role="TrG5h" value="AsserTableRow" />
-    <property role="1pbfSe" value="1461499545" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="LKsyXaF4no" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="text" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
-    </node>
-    <node concept="1TJgyj" id="LKsyXaF4nq" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="condition" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1rbZyOz8U$h">
     <property role="3GE5qa" value="Builder" />
     <property role="TrG5h" value="TestData" />
@@ -2145,19 +1905,6 @@
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
   </node>
-  <node concept="AxPO7" id="7VvoHcIuQpT">
-    <property role="3GE5qa" value="NewTest" />
-    <property role="TrG5h" value="TestMethodExecute" />
-    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="7VvoHcIuQpU" role="M5hS2">
-      <property role="1uS6qv" value="EXECUTE" />
-      <property role="1uS6qo" value="EXECUTE" />
-    </node>
-    <node concept="M4N5e" id="7VvoHcIuQpV" role="M5hS2">
-      <property role="1uS6qv" value="DONT_EXECUTE" />
-      <property role="1uS6qo" value="DONT EXECUTE" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="4Bj5Y4mlEtW">
     <property role="3GE5qa" value="Builder" />
     <property role="TrG5h" value="TestDataListAccess" />
@@ -2173,17 +1920,6 @@
     <node concept="PrWs8" id="4Wj1gYKG8nS" role="PzmwI">
       <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="2IjElxgHNhO">
-    <property role="3GE5qa" value="NewTest" />
-    <property role="TrG5h" value="VariantCharacteristic" />
-    <property role="1pbfSe" value="2085281228" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="2IjElxgHNof" role="1TKVEl">
-      <property role="TrG5h" value="characteristic" />
-      <ref role="AX2Wp" to="r5tz:3NBIlSkjqX8" resolve="ManMapVariant" />
-    </node>
-    <node concept="asaX9" id="6BKPvpCRu$8" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3UOln1HfB5Q">
     <property role="TrG5h" value="DynamicRole" />
