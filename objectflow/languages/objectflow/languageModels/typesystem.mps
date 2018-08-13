@@ -9070,91 +9070,6 @@
       <ref role="1YaFvo" to="un0u:3n7eUMgsANq" resolve="CommandCallBasis" />
     </node>
   </node>
-  <node concept="18kY7G" id="3n7eUMgteN1">
-    <property role="TrG5h" value="check_OFXGraphOwnerTestMethod" />
-    <property role="3GE5qa" value="OFXTest" />
-    <node concept="3clFbS" id="3n7eUMgteN2" role="18ibNy">
-      <node concept="3clFbJ" id="3n7eUMgtgKP" role="3cqZAp">
-        <node concept="3clFbS" id="3n7eUMgtgKR" role="3clFbx">
-          <node concept="3SKdUt" id="3KPvoWv15MD" role="3cqZAp">
-            <node concept="3SKdUq" id="3KPvoWv15ME" role="3SKWNk">
-              <property role="3SKdUp" value="graph owner / search cmd provide session" />
-            </node>
-          </node>
-          <node concept="3clFbH" id="3KPvoWv15NU" role="3cqZAp" />
-        </node>
-        <node concept="22lmx$" id="3KPvoWv15zZ" role="3clFbw">
-          <node concept="2OqwBi" id="3n7eUMgtgVL" role="3uHU7B">
-            <node concept="2OqwBi" id="3n7eUMgtgVM" role="2Oq$k0">
-              <node concept="2OqwBi" id="3n7eUMgtgVN" role="2Oq$k0">
-                <node concept="2OqwBi" id="3n7eUMgtgVO" role="2Oq$k0">
-                  <node concept="1YBJjd" id="3n7eUMgtgVP" role="2Oq$k0">
-                    <ref role="1YBMHb" node="3n7eUMgteN4" resolve="ofxGraphOwnerTestMethod" />
-                  </node>
-                  <node concept="3TrEf2" id="3n7eUMgtgVQ" role="2OqNvi">
-                    <ref role="3Tt5mk" to="un0u:3n7eUMgten$" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="3n7eUMgtgVR" role="2OqNvi">
-                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="3n7eUMgtgVS" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
-              </node>
-            </node>
-            <node concept="3t7uKx" id="3n7eUMgtgVT" role="2OqNvi">
-              <node concept="uoxfO" id="3n7eUMgtgVU" role="3t7uKA">
-                <ref role="uo_Cq" to="un0u:6Rdz00$tuDr" />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="3KPvoWv15CI" role="3uHU7w">
-            <node concept="2OqwBi" id="3KPvoWv15CJ" role="2Oq$k0">
-              <node concept="2OqwBi" id="3KPvoWv15CK" role="2Oq$k0">
-                <node concept="2OqwBi" id="3KPvoWv15CL" role="2Oq$k0">
-                  <node concept="1YBJjd" id="3KPvoWv15CM" role="2Oq$k0">
-                    <ref role="1YBMHb" node="3n7eUMgteN4" resolve="ofxGraphOwnerTestMethod" />
-                  </node>
-                  <node concept="3TrEf2" id="3KPvoWv15CN" role="2OqNvi">
-                    <ref role="3Tt5mk" to="un0u:3n7eUMgten$" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="3KPvoWv15CO" role="2OqNvi">
-                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="3KPvoWv15CP" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
-              </node>
-            </node>
-            <node concept="3t7uKx" id="3KPvoWv15CQ" role="2OqNvi">
-              <node concept="uoxfO" id="3KPvoWv15CR" role="3t7uKA">
-                <ref role="uo_Cq" to="un0u:6Rdz00$tuDj" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="9aQIb" id="3KPvoWv15LV" role="9aQIa">
-          <node concept="3clFbS" id="3KPvoWv15LW" role="9aQI4">
-            <node concept="2MkqsV" id="3n7eUMgthgq" role="3cqZAp">
-              <node concept="Xl_RD" id="3n7eUMgthhv" role="2MkJ7o">
-                <property role="Xl_RC" value="Only graph owner commands can be referenced here." />
-              </node>
-              <node concept="1YBJjd" id="3n7eUMgthrc" role="2OEOjV">
-                <ref role="1YBMHb" node="3n7eUMgteN4" resolve="ofxGraphOwnerTestMethod" />
-              </node>
-            </node>
-            <node concept="3clFbH" id="3KPvoWv15Oc" role="3cqZAp" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="3n7eUMgteN4" role="1YuTPh">
-      <property role="TrG5h" value="ofxGraphOwnerTestMethod" />
-      <ref role="1YaFvo" to="un0u:5yIRyBGOXyw" resolve="OFXGraphOwnerTestMethod" />
-    </node>
-  </node>
   <node concept="18kY7G" id="33fNNpe9k6a">
     <property role="TrG5h" value="check_OFXTestMethod" />
     <property role="3GE5qa" value="OFXTest" />
@@ -9869,138 +9784,6 @@
     <node concept="1YaCAy" id="RffU3zdLq7" role="1YuTPh">
       <property role="TrG5h" value="modelRepositoryMethod" />
       <ref role="1YaFvo" to="un0u:6W_Qo9f2MnC" resolve="ModelRepositoryMethod" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="5yIRyBGX8Ne">
-    <property role="TrG5h" value="check_OFXGraphEditTestMethod" />
-    <property role="3GE5qa" value="OFXTest" />
-    <node concept="3clFbS" id="5yIRyBGX8Nf" role="18ibNy">
-      <node concept="3clFbJ" id="5yIRyBGX8O6" role="3cqZAp">
-        <node concept="3clFbS" id="5yIRyBGX8O7" role="3clFbx">
-          <node concept="2MkqsV" id="5yIRyBGX8O8" role="3cqZAp">
-            <node concept="Xl_RD" id="5yIRyBGX8O9" role="2MkJ7o">
-              <property role="Xl_RC" value="Only graph edit commands can be referenced here." />
-            </node>
-            <node concept="1YBJjd" id="5yIRyBGX8Vr" role="2OEOjV">
-              <ref role="1YBMHb" node="5yIRyBGX8Nh" resolve="ofxGraphEditTestMethod" />
-            </node>
-          </node>
-        </node>
-        <node concept="3fqX7Q" id="5yIRyBGX8Ob" role="3clFbw">
-          <node concept="2OqwBi" id="5yIRyBGX8Oc" role="3fr31v">
-            <node concept="2OqwBi" id="5yIRyBGX8Od" role="2Oq$k0">
-              <node concept="2OqwBi" id="5yIRyBGX8Oe" role="2Oq$k0">
-                <node concept="2OqwBi" id="5yIRyBGX8Of" role="2Oq$k0">
-                  <node concept="1YBJjd" id="5yIRyBGX8Uk" role="2Oq$k0">
-                    <ref role="1YBMHb" node="5yIRyBGX8Nh" resolve="ofxGraphEditTestMethod" />
-                  </node>
-                  <node concept="3TrEf2" id="5yIRyBGX8Oh" role="2OqNvi">
-                    <ref role="3Tt5mk" to="un0u:3n7eUMgten$" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="5yIRyBGX8Oi" role="2OqNvi">
-                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="5yIRyBGX8Oj" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:6Rdz00$tuM3" resolve="newCommandType" />
-              </node>
-            </node>
-            <node concept="3t7uKx" id="5yIRyBGX8Ok" role="2OqNvi">
-              <node concept="uoxfO" id="5yIRyBGX8Ol" role="3t7uKA">
-                <ref role="uo_Cq" to="un0u:6Rdz00$tuDo" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="5yIRyBGX8Nh" role="1YuTPh">
-      <property role="TrG5h" value="ofxGraphEditTestMethod" />
-      <ref role="1YaFvo" to="un0u:5yIRyBGUGOL" resolve="OFXGraphEditTestMethod" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="5yIRyBHrP5T">
-    <property role="TrG5h" value="typeof_OFXTestMethodParamRef" />
-    <property role="3GE5qa" value="OFXTest" />
-    <node concept="3clFbS" id="5yIRyBHrP5U" role="18ibNy">
-      <node concept="1Z5TYs" id="5yIRyBHrPaE" role="3cqZAp">
-        <node concept="mw_s8" id="5yIRyBHrPbh" role="1ZfhKB">
-          <node concept="2OqwBi" id="5yIRyBHrP$B" role="mwGJk">
-            <node concept="2OqwBi" id="5yIRyBHrPey" role="2Oq$k0">
-              <node concept="1YBJjd" id="5yIRyBHrPbf" role="2Oq$k0">
-                <ref role="1YBMHb" node="5yIRyBHrP5W" resolve="ofxTestMethodParamRef" />
-              </node>
-              <node concept="3TrEf2" id="5yIRyBHrPmD" role="2OqNvi">
-                <ref role="3Tt5mk" to="un0u:5yIRyBH8tCE" />
-              </node>
-            </node>
-            <node concept="3TrEf2" id="5yIRyBHrPOn" role="2OqNvi">
-              <ref role="3Tt5mk" to="tpee:4VkOLwjf83e" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="5yIRyBHrPaH" role="1ZfhK$">
-          <node concept="1Z2H0r" id="5yIRyBHrP6e" role="mwGJk">
-            <node concept="1YBJjd" id="5yIRyBHrP6L" role="1Z2MuG">
-              <ref role="1YBMHb" node="5yIRyBHrP5W" resolve="ofxTestMethodParamRef" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="5yIRyBHrP5W" role="1YuTPh">
-      <property role="TrG5h" value="ofxTestMethodParamRef" />
-      <ref role="1YaFvo" to="un0u:5yIRyBH8t_e" resolve="OFXTestMethodParamRef" />
-    </node>
-  </node>
-  <node concept="18kY7G" id="5yIRyBHttcp">
-    <property role="TrG5h" value="check_OFXCommandTestMethod" />
-    <property role="3GE5qa" value="OFXTest" />
-    <node concept="3clFbS" id="5yIRyBHttcq" role="18ibNy">
-      <node concept="3clFbJ" id="5yIRyBHttcP" role="3cqZAp">
-        <node concept="3y3z36" id="5yIRyBHtzO_" role="3clFbw">
-          <node concept="2OqwBi" id="5yIRyBHtAwZ" role="3uHU7w">
-            <node concept="2OqwBi" id="5yIRyBHt__Q" role="2Oq$k0">
-              <node concept="2OqwBi" id="5yIRyBHt_jY" role="2Oq$k0">
-                <node concept="2OqwBi" id="5yIRyBHt$5$" role="2Oq$k0">
-                  <node concept="1YBJjd" id="5yIRyBHtzT1" role="2Oq$k0">
-                    <ref role="1YBMHb" node="5yIRyBHttcs" resolve="ofxCommandTestMethod" />
-                  </node>
-                  <node concept="3TrEf2" id="5yIRyBHt$Sk" role="2OqNvi">
-                    <ref role="3Tt5mk" to="un0u:3n7eUMgten$" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="5yIRyBHt_sm" role="2OqNvi">
-                  <ref role="3Tt5mk" to="un0u:3n7eUMgsCe$" />
-                </node>
-              </node>
-              <node concept="3Tsc0h" id="5yIRyBHt_L5" role="2OqNvi">
-                <ref role="3TtcxE" to="un0u:6ffh1MXzXnB" />
-              </node>
-            </node>
-            <node concept="34oBXx" id="5yIRyBHtCvG" role="2OqNvi" />
-          </node>
-          <node concept="2OqwBi" id="5yIRyBHtuRA" role="3uHU7B">
-            <node concept="2OqwBi" id="5yIRyBHtto7" role="2Oq$k0">
-              <node concept="1YBJjd" id="5yIRyBHttd8" role="2Oq$k0">
-                <ref role="1YBMHb" node="5yIRyBHttcs" resolve="ofxCommandTestMethod" />
-              </node>
-              <node concept="3Tsc0h" id="5yIRyBHttKh" role="2OqNvi">
-                <ref role="3TtcxE" to="un0u:3LVh91wT7ss" />
-              </node>
-            </node>
-            <node concept="34oBXx" id="5yIRyBHtxiw" role="2OqNvi" />
-          </node>
-        </node>
-        <node concept="3clFbS" id="5yIRyBHttcR" role="3clFbx">
-          <node concept="3clFbH" id="5yIRyBHtC_w" role="3cqZAp" />
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="5yIRyBHttcs" role="1YuTPh">
-      <property role="TrG5h" value="ofxCommandTestMethod" />
-      <ref role="1YaFvo" to="un0u:3n7eUMgqbJy" resolve="OFXCommandTestMethod" />
     </node>
   </node>
   <node concept="1YbPZF" id="4Ta2XmWdNvZ">
@@ -11172,42 +10955,6 @@
     <node concept="1YaCAy" id="43H1fr7wQNk" role="1YuTPh">
       <property role="TrG5h" value="commandCreationInfo" />
       <ref role="1YaFvo" to="un0u:43H1fr7tveF" resolve="CommandCreationInfo" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="43H1fr7LKt8">
-    <property role="TrG5h" value="typeof_OFXTestCommandCreationInfoRef" />
-    <property role="3GE5qa" value="OFXTest" />
-    <node concept="3clFbS" id="43H1fr7LKt9" role="18ibNy">
-      <node concept="1Z5TYs" id="43H1fr7LKyP" role="3cqZAp">
-        <node concept="mw_s8" id="43H1fr7LKzl" role="1ZfhKB">
-          <node concept="1Z2H0r" id="43H1fr7LKDY" role="mwGJk">
-            <node concept="2OqwBi" id="43H1fr7LKNb" role="1Z2MuG">
-              <node concept="2OqwBi" id="43H1fr7LKDZ" role="2Oq$k0">
-                <node concept="1YBJjd" id="43H1fr7LKE0" role="2Oq$k0">
-                  <ref role="1YBMHb" node="43H1fr7LKtb" resolve="ofxTestCommandCreationInfoRef" />
-                </node>
-                <node concept="3TrEf2" id="43H1fr7LKIb" role="2OqNvi">
-                  <ref role="3Tt5mk" to="un0u:43H1fr7LFxE" />
-                </node>
-              </node>
-              <node concept="3TrEf2" id="43H1fr7LKRp" role="2OqNvi">
-                <ref role="3Tt5mk" to="un0u:43H1fr7tvn9" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="43H1fr7LKyS" role="1ZfhK$">
-          <node concept="1Z2H0r" id="43H1fr7LKtt" role="mwGJk">
-            <node concept="1YBJjd" id="43H1fr7LKu7" role="1Z2MuG">
-              <ref role="1YBMHb" node="43H1fr7LKtb" resolve="ofxTestCommandCreationInfoRef" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="43H1fr7LKtb" role="1YuTPh">
-      <property role="TrG5h" value="ofxTestCommandCreationInfoRef" />
-      <ref role="1YaFvo" to="un0u:43H1fr7LFvT" resolve="OFXTestCommandCreationInfoRef" />
     </node>
   </node>
   <node concept="1YbPZF" id="70RMBbuA3Fd">
@@ -14808,6 +14555,40 @@
     <node concept="1YaCAy" id="42_Ld2Y00Bu" role="1YuTPh">
       <property role="TrG5h" value="ofxConfigSection" />
       <ref role="1YaFvo" to="un0u:q_zDmI60wj" resolve="OFXConfigSection" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="5yIRyBHrP5T">
+    <property role="TrG5h" value="typeof_OFXTestMethodParamRef" />
+    <property role="3GE5qa" value="OFXTest" />
+    <node concept="3clFbS" id="5yIRyBHrP5U" role="18ibNy">
+      <node concept="1Z5TYs" id="5yIRyBHrPaE" role="3cqZAp">
+        <node concept="mw_s8" id="5yIRyBHrPbh" role="1ZfhKB">
+          <node concept="2OqwBi" id="5yIRyBHrP$B" role="mwGJk">
+            <node concept="2OqwBi" id="5yIRyBHrPey" role="2Oq$k0">
+              <node concept="1YBJjd" id="5yIRyBHrPbf" role="2Oq$k0">
+                <ref role="1YBMHb" node="5yIRyBHrP5W" resolve="ofxTestMethodParamRef" />
+              </node>
+              <node concept="3TrEf2" id="5yIRyBHrPmD" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:5yIRyBH8tCE" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="5yIRyBHrPOn" role="2OqNvi">
+              <ref role="3Tt5mk" to="tpee:4VkOLwjf83e" />
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="5yIRyBHrPaH" role="1ZfhK$">
+          <node concept="1Z2H0r" id="5yIRyBHrP6e" role="mwGJk">
+            <node concept="1YBJjd" id="5yIRyBHrP6L" role="1Z2MuG">
+              <ref role="1YBMHb" node="5yIRyBHrP5W" resolve="ofxTestMethodParamRef" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5yIRyBHrP5W" role="1YuTPh">
+      <property role="TrG5h" value="ofxTestMethodParamRef" />
+      <ref role="1YaFvo" to="un0u:5yIRyBH8t_e" resolve="OFXTestMethodParamRef" />
     </node>
   </node>
 </model>

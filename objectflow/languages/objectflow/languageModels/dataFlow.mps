@@ -645,53 +645,6 @@
       </node>
     </node>
   </node>
-  <node concept="3_zdsH" id="5buytp$o4xo">
-    <property role="3GE5qa" value="OFXTest" />
-    <ref role="3_znuS" to="un0u:3LVh91wT5op" resolve="OFXTestSuitPage" />
-    <node concept="3__wT9" id="5buytp$o4xp" role="3_A6iZ">
-      <node concept="3clFbS" id="5buytp$o4xq" role="2VODD2">
-        <node concept="3clFbF" id="5buytp$o6GP" role="3cqZAp">
-          <node concept="2OqwBi" id="5buytp$o7O5" role="3clFbG">
-            <node concept="2OqwBi" id="5buytp$o6K0" role="2Oq$k0">
-              <node concept="3__QtB" id="5buytp$o6GN" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="5buytp$o6Ry" role="2OqNvi">
-                <ref role="3TtcxE" to="un0u:3n7eUMgxFBB" />
-              </node>
-            </node>
-            <node concept="2es0OD" id="5buytp$obz_" role="2OqNvi">
-              <node concept="1bVj0M" id="5buytp$obzB" role="23t8la">
-                <node concept="3clFbS" id="5buytp$obzC" role="1bW5cS">
-                  <node concept="3AgYrR" id="5buytp$ob_u" role="3cqZAp">
-                    <node concept="37vLTw" id="5buytp$obB9" role="3Ah4Yx">
-                      <ref role="3cqZAo" node="5buytp$obzD" resolve="it" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="Rh6nW" id="5buytp$obzD" role="1bW2Oz">
-                  <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="5buytp$obzE" role="1tU5fm" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3AgYrR" id="5buytp$o5P4" role="3cqZAp">
-          <node concept="2OqwBi" id="5buytp$o6qq" role="3Ah4Yx">
-            <node concept="2OqwBi" id="5buytp$o5U5" role="2Oq$k0">
-              <node concept="3__QtB" id="5buytp$o5Rd" role="2Oq$k0" />
-              <node concept="3TrEf2" id="5buytp$o6fz" role="2OqNvi">
-                <ref role="3Tt5mk" to="un0u:3LVh91wT6ZF" />
-              </node>
-            </node>
-            <node concept="3TrEf2" id="5buytp$o6A9" role="2OqNvi">
-              <ref role="3Tt5mk" to="tpee:gyVODHa" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="5buytp$obKl" role="3cqZAp" />
-      </node>
-    </node>
-  </node>
   <node concept="3_zdsH" id="5buytp$obSB">
     <property role="3GE5qa" value="OFXTest.statements" />
     <ref role="3_znuS" to="un0u:2w93nZwA5N_" resolve="OFXTestPrintStatement" />
@@ -703,39 +656,6 @@
             <node concept="3__QtB" id="5buytp$obTm" role="2Oq$k0" />
             <node concept="3TrEf2" id="5buytp$oc3s" role="2OqNvi">
               <ref role="3Tt5mk" to="un0u:2w93nZwA5NA" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="3_zdsH" id="5buytp$oc4t">
-    <property role="3GE5qa" value="OFXTest" />
-    <ref role="3_znuS" to="un0u:3n7eUMgqbJy" resolve="OFXCommandTestMethod" />
-    <node concept="3__wT9" id="5buytp$oc4u" role="3_A6iZ">
-      <node concept="3clFbS" id="5buytp$oc4v" role="2VODD2">
-        <node concept="3clFbF" id="5buytp$oc5r" role="3cqZAp">
-          <node concept="2OqwBi" id="5buytp$odAZ" role="3clFbG">
-            <node concept="2OqwBi" id="5buytp$ocew" role="2Oq$k0">
-              <node concept="3__QtB" id="5buytp$oc5q" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="5buytp$ocCx" role="2OqNvi">
-                <ref role="3TtcxE" to="un0u:3LVh91wT7ss" />
-              </node>
-            </node>
-            <node concept="2es0OD" id="5buytp$oeYq" role="2OqNvi">
-              <node concept="1bVj0M" id="5buytp$oeYs" role="23t8la">
-                <node concept="3clFbS" id="5buytp$oeYt" role="1bW5cS">
-                  <node concept="3AgYrR" id="5buytp$of2Z" role="3cqZAp">
-                    <node concept="37vLTw" id="5buytp$of4z" role="3Ah4Yx">
-                      <ref role="3cqZAo" node="5buytp$oeYu" resolve="it" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="Rh6nW" id="5buytp$oeYu" role="1bW2Oz">
-                  <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="5buytp$oeYv" role="1tU5fm" />
-                </node>
-              </node>
             </node>
           </node>
         </node>
