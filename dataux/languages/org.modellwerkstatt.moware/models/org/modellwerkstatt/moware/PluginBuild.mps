@@ -191,116 +191,6 @@
             <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
           </node>
         </node>
-        <node concept="1SiIV0" id="6l9H8WZCT3J" role="3bR37C">
-          <node concept="1BurEX" id="6l9H8WZCT3K" role="1SiIV1">
-            <node concept="398BVA" id="6l9H8WZCT3D" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="6l9H8WZCT3E" role="iGT6I">
-                <property role="2Ry0Am" value="manmap" />
-                <node concept="2Ry0Ak" id="6l9H8WZCT3F" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="6l9H8WZCT3G" role="2Ry0An">
-                    <property role="2Ry0Am" value="manmap" />
-                    <node concept="2Ry0Ak" id="6l9H8WZCT3H" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="6l9H8WZCT3I" role="2Ry0An">
-                        <property role="2Ry0Am" value="joda-time-2.1.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6l9H8WZCT3Z" role="3bR37C">
-          <node concept="1BurEX" id="6l9H8WZCT40" role="1SiIV1">
-            <node concept="398BVA" id="6l9H8WZCT3T" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="6l9H8WZCT3U" role="iGT6I">
-                <property role="2Ry0Am" value="manmap" />
-                <node concept="2Ry0Ak" id="6l9H8WZCT3V" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="6l9H8WZCT3W" role="2Ry0An">
-                    <property role="2Ry0Am" value="manmap" />
-                    <node concept="2Ry0Ak" id="6l9H8WZCT3X" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="6l9H8WZCT3Y" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.springframework.beans-3.0.5.RELEASE.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6l9H8WZCT47" role="3bR37C">
-          <node concept="1BurEX" id="6l9H8WZCT48" role="1SiIV1">
-            <node concept="398BVA" id="6l9H8WZCT41" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="6l9H8WZCT42" role="iGT6I">
-                <property role="2Ry0Am" value="manmap" />
-                <node concept="2Ry0Ak" id="6l9H8WZCT43" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="6l9H8WZCT44" role="2Ry0An">
-                    <property role="2Ry0Am" value="manmap" />
-                    <node concept="2Ry0Ak" id="6l9H8WZCT45" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="6l9H8WZCT46" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.springframework.core-3.0.5.RELEASE.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6l9H8WZCT4f" role="3bR37C">
-          <node concept="1BurEX" id="6l9H8WZCT4g" role="1SiIV1">
-            <node concept="398BVA" id="6l9H8WZCT49" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="6l9H8WZCT4a" role="iGT6I">
-                <property role="2Ry0Am" value="manmap" />
-                <node concept="2Ry0Ak" id="6l9H8WZCT4b" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="6l9H8WZCT4c" role="2Ry0An">
-                    <property role="2Ry0Am" value="manmap" />
-                    <node concept="2Ry0Ak" id="6l9H8WZCT4d" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="6l9H8WZCT4e" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.springframework.jdbc-3.0.5.RELEASE.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="6l9H8WZCT4n" role="3bR37C">
-          <node concept="1BurEX" id="6l9H8WZCT4o" role="1SiIV1">
-            <node concept="398BVA" id="6l9H8WZCT4h" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="6l9H8WZCT4i" role="iGT6I">
-                <property role="2Ry0Am" value="manmap" />
-                <node concept="2Ry0Ak" id="6l9H8WZCT4j" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="6l9H8WZCT4k" role="2Ry0An">
-                    <property role="2Ry0Am" value="manmap" />
-                    <node concept="2Ry0Ak" id="6l9H8WZCT4l" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="6l9H8WZCT4m" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.springframework.transaction-3.0.5.RELEASE.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="7IKAcf6MBI5" role="3bR37C">
           <node concept="1BurEX" id="7IKAcf6MBI6" role="1SiIV1">
             <node concept="398BVA" id="7IKAcf6MBHZ" role="1BurEY">
@@ -323,20 +213,130 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="40MBoae1Fz$" role="3bR37C">
-          <node concept="1BurEX" id="40MBoae1Fz_" role="1SiIV1">
-            <node concept="398BVA" id="40MBoae1Fzu" role="1BurEY">
+        <node concept="1SiIV0" id="3etklPiqdrP" role="3bR37C">
+          <node concept="1BurEX" id="3etklPiqdrQ" role="1SiIV1">
+            <node concept="398BVA" id="3etklPiqdrJ" role="1BurEY">
               <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="40MBoae1Fzv" role="iGT6I">
+              <node concept="2Ry0Ak" id="3etklPiqdrK" role="iGT6I">
                 <property role="2Ry0Am" value="manmap" />
-                <node concept="2Ry0Ak" id="40MBoae1Fzw" role="2Ry0An">
+                <node concept="2Ry0Ak" id="3etklPiqdrL" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="40MBoae1Fzx" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="3etklPiqdrM" role="2Ry0An">
                     <property role="2Ry0Am" value="manmap" />
-                    <node concept="2Ry0Ak" id="40MBoae1Fzy" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="3etklPiqdrN" role="2Ry0An">
                       <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="40MBoae1Fzz" role="2Ry0An">
-                        <property role="2Ry0Am" value="org.springframework.context-3.0.5.RELEASE.jar" />
+                      <node concept="2Ry0Ak" id="3etklPiqdrO" role="2Ry0An">
+                        <property role="2Ry0Am" value="joda-time-2.10.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3etklPiqdrX" role="3bR37C">
+          <node concept="1BurEX" id="3etklPiqdrY" role="1SiIV1">
+            <node concept="398BVA" id="3etklPiqdrR" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="3etklPiqdrS" role="iGT6I">
+                <property role="2Ry0Am" value="manmap" />
+                <node concept="2Ry0Ak" id="3etklPiqdrT" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="3etklPiqdrU" role="2Ry0An">
+                    <property role="2Ry0Am" value="manmap" />
+                    <node concept="2Ry0Ak" id="3etklPiqdrV" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="3etklPiqdrW" role="2Ry0An">
+                        <property role="2Ry0Am" value="spring-beans-3.2.9.RELEASE.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3etklPiqds5" role="3bR37C">
+          <node concept="1BurEX" id="3etklPiqds6" role="1SiIV1">
+            <node concept="398BVA" id="3etklPiqdrZ" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="3etklPiqds0" role="iGT6I">
+                <property role="2Ry0Am" value="manmap" />
+                <node concept="2Ry0Ak" id="3etklPiqds1" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="3etklPiqds2" role="2Ry0An">
+                    <property role="2Ry0Am" value="manmap" />
+                    <node concept="2Ry0Ak" id="3etklPiqds3" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="3etklPiqds4" role="2Ry0An">
+                        <property role="2Ry0Am" value="spring-context-3.2.9.RELEASE.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3etklPiqdsd" role="3bR37C">
+          <node concept="1BurEX" id="3etklPiqdse" role="1SiIV1">
+            <node concept="398BVA" id="3etklPiqds7" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="3etklPiqds8" role="iGT6I">
+                <property role="2Ry0Am" value="manmap" />
+                <node concept="2Ry0Ak" id="3etklPiqds9" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="3etklPiqdsa" role="2Ry0An">
+                    <property role="2Ry0Am" value="manmap" />
+                    <node concept="2Ry0Ak" id="3etklPiqdsb" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="3etklPiqdsc" role="2Ry0An">
+                        <property role="2Ry0Am" value="spring-core-3.2.9.RELEASE.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3etklPiqdsl" role="3bR37C">
+          <node concept="1BurEX" id="3etklPiqdsm" role="1SiIV1">
+            <node concept="398BVA" id="3etklPiqdsf" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="3etklPiqdsg" role="iGT6I">
+                <property role="2Ry0Am" value="manmap" />
+                <node concept="2Ry0Ak" id="3etklPiqdsh" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="3etklPiqdsi" role="2Ry0An">
+                    <property role="2Ry0Am" value="manmap" />
+                    <node concept="2Ry0Ak" id="3etklPiqdsj" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="3etklPiqdsk" role="2Ry0An">
+                        <property role="2Ry0Am" value="spring-jdbc-3.2.9.RELEASE.jar" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="3etklPiqdst" role="3bR37C">
+          <node concept="1BurEX" id="3etklPiqdsu" role="1SiIV1">
+            <node concept="398BVA" id="3etklPiqdsn" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="3etklPiqdso" role="iGT6I">
+                <property role="2Ry0Am" value="manmap" />
+                <node concept="2Ry0Ak" id="3etklPiqdsp" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="3etklPiqdsq" role="2Ry0An">
+                    <property role="2Ry0Am" value="manmap" />
+                    <node concept="2Ry0Ak" id="3etklPiqdsr" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="3etklPiqdss" role="2Ry0An">
+                        <property role="2Ry0Am" value="spring-tx-3.2.9.RELEASE.jar" />
                       </node>
                     </node>
                   </node>
@@ -933,22 +933,22 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7IKAcf6MBRD" role="3bR37C">
-          <node concept="1BurEX" id="7IKAcf6MBRE" role="1SiIV1">
-            <node concept="398BVA" id="7IKAcf6MBRy" role="1BurEY">
+        <node concept="1SiIV0" id="3etklPiqd_O" role="3bR37C">
+          <node concept="1BurEX" id="3etklPiqd_P" role="1SiIV1">
+            <node concept="398BVA" id="3etklPiqd_H" role="1BurEY">
               <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="7IKAcf6MBRz" role="iGT6I">
+              <node concept="2Ry0Ak" id="3etklPiqd_I" role="iGT6I">
                 <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="7IKAcf6MBR$" role="2Ry0An">
+                <node concept="2Ry0Ak" id="3etklPiqd_J" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="7IKAcf6MBR_" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="3etklPiqd_K" role="2Ry0An">
                     <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="7IKAcf6MBRA" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="3etklPiqd_L" role="2Ry0An">
                       <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="7IKAcf6MBRB" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="3etklPiqd_M" role="2Ry0An">
                         <property role="2Ry0Am" value="basis" />
-                        <node concept="2Ry0Ak" id="7IKAcf6MBRC" role="2Ry0An">
-                          <property role="2Ry0Am" value="org.springframework.aop-3.0.5.RELEASE.jar" />
+                        <node concept="2Ry0Ak" id="3etklPiqd_N" role="2Ry0An">
+                          <property role="2Ry0Am" value="spring-aop-3.2.9.RELEASE.jar" />
                         </node>
                       </node>
                     </node>
@@ -958,22 +958,22 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7IKAcf6MBRM" role="3bR37C">
-          <node concept="1BurEX" id="7IKAcf6MBRN" role="1SiIV1">
-            <node concept="398BVA" id="7IKAcf6MBRF" role="1BurEY">
+        <node concept="1SiIV0" id="3etklPiqd_X" role="3bR37C">
+          <node concept="1BurEX" id="3etklPiqd_Y" role="1SiIV1">
+            <node concept="398BVA" id="3etklPiqd_Q" role="1BurEY">
               <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="7IKAcf6MBRG" role="iGT6I">
+              <node concept="2Ry0Ak" id="3etklPiqd_R" role="iGT6I">
                 <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="7IKAcf6MBRH" role="2Ry0An">
+                <node concept="2Ry0Ak" id="3etklPiqd_S" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="7IKAcf6MBRI" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="3etklPiqd_T" role="2Ry0An">
                     <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="7IKAcf6MBRJ" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="3etklPiqd_U" role="2Ry0An">
                       <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="7IKAcf6MBRK" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="3etklPiqd_V" role="2Ry0An">
                         <property role="2Ry0Am" value="basis" />
-                        <node concept="2Ry0Ak" id="7IKAcf6MBRL" role="2Ry0An">
-                          <property role="2Ry0Am" value="org.springframework.asm-3.0.5.RELEASE.jar" />
+                        <node concept="2Ry0Ak" id="3etklPiqd_W" role="2Ry0An">
+                          <property role="2Ry0Am" value="spring-expression-3.2.9.RELEASE.jar" />
                         </node>
                       </node>
                     </node>
@@ -983,22 +983,22 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7IKAcf6MBS4" role="3bR37C">
-          <node concept="1BurEX" id="7IKAcf6MBS5" role="1SiIV1">
-            <node concept="398BVA" id="7IKAcf6MBRX" role="1BurEY">
+        <node concept="1SiIV0" id="3etklPiqdA6" role="3bR37C">
+          <node concept="1BurEX" id="3etklPiqdA7" role="1SiIV1">
+            <node concept="398BVA" id="3etklPiqd_Z" role="1BurEY">
               <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="7IKAcf6MBRY" role="iGT6I">
+              <node concept="2Ry0Ak" id="3etklPiqdA0" role="iGT6I">
                 <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="7IKAcf6MBRZ" role="2Ry0An">
+                <node concept="2Ry0Ak" id="3etklPiqdA1" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="7IKAcf6MBS0" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="3etklPiqdA2" role="2Ry0An">
                     <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="7IKAcf6MBS1" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="3etklPiqdA3" role="2Ry0An">
                       <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="7IKAcf6MBS2" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="3etklPiqdA4" role="2Ry0An">
                         <property role="2Ry0Am" value="basis" />
-                        <node concept="2Ry0Ak" id="7IKAcf6MBS3" role="2Ry0An">
-                          <property role="2Ry0Am" value="org.springframework.expression-3.0.5.RELEASE.jar" />
+                        <node concept="2Ry0Ak" id="3etklPiqdA5" role="2Ry0An">
+                          <property role="2Ry0Am" value="slf4j-api-1.7.25.jar" />
                         </node>
                       </node>
                     </node>
@@ -1008,95 +1008,20 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="2QMuF3JG7Yu" role="3bR37C">
-          <node concept="1BurEX" id="2QMuF3JG7Yv" role="1SiIV1">
-            <node concept="398BVA" id="2QMuF3JG7Yo" role="1BurEY">
+        <node concept="1SiIV0" id="3etklPiqdAe" role="3bR37C">
+          <node concept="1BurEX" id="3etklPiqdAf" role="1SiIV1">
+            <node concept="398BVA" id="3etklPiqdA8" role="1BurEY">
               <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="2QMuF3JG7Yp" role="iGT6I">
+              <node concept="2Ry0Ak" id="3etklPiqdA9" role="iGT6I">
                 <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="2QMuF3JG7Yq" role="2Ry0An">
+                <node concept="2Ry0Ak" id="3etklPiqdAa" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="2QMuF3JG7Yr" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="3etklPiqdAb" role="2Ry0An">
                     <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="2QMuF3JG7Ys" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="3etklPiqdAc" role="2Ry0An">
                       <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="2QMuF3JG7Yt" role="2Ry0An">
-                        <property role="2Ry0Am" value="slf4j-log4j12-1.6.1.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="5p$R$8yX2Rw" role="3bR37C">
-          <node concept="1BurEX" id="5p$R$8yX2Rx" role="1SiIV1">
-            <node concept="398BVA" id="5p$R$8yX2Rp" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="5p$R$8yX2Rq" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="5p$R$8yX2Rr" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="5p$R$8yX2Rs" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="5p$R$8yX2Rt" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="5p$R$8yX2Ru" role="2Ry0An">
-                        <property role="2Ry0Am" value="basis" />
-                        <node concept="2Ry0Ak" id="5p$R$8yX2Rv" role="2Ry0An">
-                          <property role="2Ry0Am" value="slf4j-api-1.6.1.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="plABn3dbmG" role="3bR37C">
-          <node concept="1BurEX" id="plABn3dbmH" role="1SiIV1">
-            <node concept="398BVA" id="plABn3dbm_" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="plABn3dbmA" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="plABn3dbmB" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="plABn3dbmC" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="plABn3dbmD" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="plABn3dbmE" role="2Ry0An">
-                        <property role="2Ry0Am" value="richclient" />
-                        <node concept="2Ry0Ak" id="plABn3dbmF" role="2Ry0An">
-                          <property role="2Ry0Am" value="c3p0-0.9.5.2.jar" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1SiIV0" id="plABn3dbmP" role="3bR37C">
-          <node concept="1BurEX" id="plABn3dbmQ" role="1SiIV1">
-            <node concept="398BVA" id="plABn3dbmI" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="plABn3dbmJ" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="plABn3dbmK" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="plABn3dbmL" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="plABn3dbmM" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="plABn3dbmN" role="2Ry0An">
-                        <property role="2Ry0Am" value="richclient" />
-                        <node concept="2Ry0Ak" id="plABn3dbmO" role="2Ry0An">
-                          <property role="2Ry0Am" value="mchange-commons-java-0.2.11.jar" />
-                        </node>
+                      <node concept="2Ry0Ak" id="3etklPiqdAd" role="2Ry0An">
+                        <property role="2Ry0Am" value="slf4j-log4j12-1.7.25.jar" />
                       </node>
                     </node>
                   </node>

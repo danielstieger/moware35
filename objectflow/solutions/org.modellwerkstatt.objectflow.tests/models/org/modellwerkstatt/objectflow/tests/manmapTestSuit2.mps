@@ -4253,13 +4253,13 @@
       <node concept="2CJ4_Q" id="33KhHQReT6t" role="2CJdiS">
         <ref role="2CJ4_N" node="4LC0Y0L2pa6" resolve="MPREIS_Winter2014_FatClient_TestConfig" />
         <node concept="26L8Vk" id="33KhHQReTg2" role="2CPvpQ">
-          <ref role="26L8Vy" node="4LC0Y0L2paC" resolve="user" />
+          <ref role="26L8Vy" node="3drXVOoNMYE" resolve="user" />
           <node concept="Xl_RD" id="33KhHQReTg3" role="26L8Vw">
             <property role="Xl_RC" value="reko" />
           </node>
         </node>
         <node concept="26L8Vk" id="33KhHQReTgt" role="2CPvpQ">
-          <ref role="26L8Vy" node="4LC0Y0L2paE" resolve="password" />
+          <ref role="26L8Vy" node="3drXVOoNMYW" resolve="password" />
           <node concept="Xl_RD" id="33KhHQReTgu" role="26L8Vw">
             <property role="Xl_RC" value="test" />
           </node>
@@ -4400,7 +4400,6 @@
           <property role="Xl_RC" value="org.springframework.transaction.support.DefaultTransactionDefinition" />
         </node>
       </node>
-      <node concept="2CPvp3" id="4LC0Y0L2paf" role="2CJdiS" />
       <node concept="2CJf3v" id="4LC0Y0L2pag" role="2CJdiS">
         <property role="TrG5h" value="transactionManager" />
         <node concept="Xl_RD" id="4LC0Y0L2pah" role="2CJf0U">
@@ -4414,75 +4413,51 @@
           </node>
         </node>
       </node>
-      <node concept="2CPvp3" id="4LC0Y0L2pak" role="2CJdiS" />
-      <node concept="2CJf3v" id="4LC0Y0L2pal" role="2CJdiS">
+      <node concept="2CJf3v" id="3drXVOoNMEM" role="2CJdiS">
         <property role="TrG5h" value="dataSource" />
-        <node concept="2DlbD8" id="4LC0Y0L2pam" role="2DlbIj">
-          <node concept="Xl_RD" id="4LC0Y0L2pan" role="2DlbDb">
+        <node concept="Xl_RD" id="3drXVOoNMEO" role="2CJf0U">
+          <property role="Xl_RC" value="oracle.jdbc.pool.OracleDataSource" />
+        </node>
+        <node concept="2DlbD8" id="3drXVOoNMXi" role="2DlbIj">
+          <node concept="Xl_RD" id="3drXVOoNMXj" role="2DlbDb">
             <property role="Xl_RC" value="destroy-method" />
           </node>
-          <node concept="Xl_RD" id="4LC0Y0L2pao" role="2DlbDP">
+          <node concept="Xl_RD" id="3drXVOoNMXk" role="2DlbDP">
             <property role="Xl_RC" value="close" />
           </node>
         </node>
-        <node concept="Xl_RD" id="4LC0Y0L2pap" role="2CJf0U">
-          <property role="Xl_RC" value="com.mchange.v2.c3p0.ComboPooledDataSource" />
-        </node>
-        <node concept="2CJ4$C" id="4LC0Y0L2paq" role="2CJ4_l">
-          <property role="TrG5h" value="numHelperThreads" />
-          <node concept="Xl_RD" id="4LC0Y0L2par" role="2CaGCA">
-            <property role="Xl_RC" value="1" />
-          </node>
-        </node>
-        <node concept="2CJ4$C" id="4LC0Y0L2pas" role="2CJ4_l">
-          <property role="TrG5h" value="maxIdleTime" />
-          <node concept="Xl_RD" id="4LC0Y0L2pat" role="2CaGCA">
-            <property role="Xl_RC" value="1800" />
-          </node>
-        </node>
-        <node concept="2CJ4$C" id="4LC0Y0L2pau" role="2CJ4_l">
-          <property role="TrG5h" value="acquireRetryDelay" />
-          <node concept="Xl_RD" id="4LC0Y0L2pav" role="2CaGCA">
-            <property role="Xl_RC" value="0" />
-          </node>
-        </node>
-        <node concept="2CJ4$C" id="4LC0Y0L2paw" role="2CJ4_l">
-          <property role="TrG5h" value="acquireRetryAttempts" />
-          <node concept="Xl_RD" id="4LC0Y0L2pax" role="2CaGCA">
-            <property role="Xl_RC" value="30" />
-          </node>
-        </node>
-        <node concept="2CJ4$C" id="4LC0Y0L2pay" role="2CJ4_l">
-          <property role="TrG5h" value="driverClass" />
-          <node concept="Xl_RD" id="4LC0Y0L2paz" role="2CaGCA">
+        <node concept="2CJ4$C" id="3drXVOoNMYe" role="2CJ4_l">
+          <property role="TrG5h" value="driverType" />
+          <node concept="Xl_RD" id="3drXVOoNMYi" role="2CaGCA">
             <property role="Xl_RC" value="oracle.jdbc.driver.OracleDriver" />
           </node>
         </node>
-        <node concept="2CJ4$C" id="4LC0Y0L2pa$" role="2CJ4_l">
-          <property role="TrG5h" value="jdbcUrl" />
-          <node concept="Xl_RD" id="4LC0Y0L2pa_" role="2CaGCA">
+        <node concept="2CJ4$C" id="3drXVOoNMYp" role="2CJ4_l">
+          <property role="TrG5h" value="URL" />
+          <node concept="Xl_RD" id="3drXVOoNMYx" role="2CaGCA">
             <property role="Xl_RC" value="jdbc:oracle:thin:@//dbtest:1521/LOLA" />
           </node>
         </node>
-        <node concept="2CJ4$C" id="4LC0Y0L2paA" role="2CJ4_l">
-          <property role="TrG5h" value="maxPoolSize" />
-          <node concept="Xl_RD" id="4LC0Y0L2paB" role="2CaGCA">
-            <property role="Xl_RC" value="1" />
-          </node>
-        </node>
-        <node concept="2CJ4$C" id="4LC0Y0L2paC" role="2CJ4_l">
+        <node concept="2CJ4$C" id="3drXVOoNMYE" role="2CJ4_l">
           <property role="TrG5h" value="user" />
-          <node concept="Xl_RD" id="4LC0Y0L2paD" role="2CaGCA">
-            <property role="Xl_RC" value="X" />
+          <node concept="Xl_RD" id="3drXVOoNNI3" role="2CaGCA">
+            <property role="Xl_RC" value="reko" />
           </node>
         </node>
-        <node concept="2CJ4$C" id="4LC0Y0L2paE" role="2CJ4_l">
+        <node concept="2CJ4$C" id="3drXVOoNMYW" role="2CJ4_l">
           <property role="TrG5h" value="password" />
-          <node concept="Xl_RD" id="4LC0Y0L2paF" role="2CaGCA">
-            <property role="Xl_RC" value="X" />
+          <node concept="Xl_RD" id="3drXVOoNNuu" role="2CaGCA">
+            <property role="Xl_RC" value="test" />
+          </node>
+        </node>
+        <node concept="2CJ4$C" id="3drXVOoNMZi" role="2CJ4_l">
+          <property role="TrG5h" value="connectionCachingEnabled" />
+          <node concept="Xl_RD" id="3drXVOoNMZw" role="2CaGCA">
+            <property role="Xl_RC" value="true" />
           </node>
         </node>
       </node>
+      <node concept="2CPvp3" id="4LC0Y0L2pak" role="2CJdiS" />
       <node concept="2CPvp3" id="4LC0Y0L2paG" role="2CJdiS" />
       <node concept="2CJf3v" id="6VW5G62R9Zd" role="2CJdiS">
         <property role="TrG5h" value="databaseDesc" />
@@ -4491,8 +4466,6 @@
         </node>
       </node>
     </node>
-    <node concept="2CPvp3" id="4LC0Y0L2paH" role="2CGBMS" />
-    <node concept="2CPvp3" id="4LC0Y0L2paI" role="2CGBMS" />
     <node concept="2CJoq6" id="4LC0Y0L2paJ" role="2CGBMS">
       <property role="TrG5h" value="MPREIS_TomCat_LoLa" />
       <node concept="2CJf3v" id="6VW5G62Ra0G" role="2CJdiS">

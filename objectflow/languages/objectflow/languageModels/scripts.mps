@@ -172,70 +172,11 @@
       </node>
     </node>
   </node>
-  <node concept="_UgoZ" id="1fEQmUlaOxD">
-    <property role="2BwPSy" value="migration" />
-    <property role="TrG5h" value="SearchForStringFormatUsage" />
-    <property role="2BwPS$" value="moware to mowareUX" />
-    <property role="_Wzho" value="(2) Replace String Format with new String Handling" />
-    <node concept="_XfAh" id="1fEQmUlaOxE" role="_YvDr">
-      <property role="_XH9r" value="Methods marking exceptions" />
-      <ref role="_XDHR" to="tpee:fIYIFW9" resolve="StaticMethodCall" />
-      <node concept="_ZGcI" id="1fEQmUlaOxF" role="_XPhp">
-        <node concept="3clFbS" id="1fEQmUlaOxG" role="2VODD2" />
-      </node>
-      <node concept="_Y34e" id="1fEQmUlaOz4" role="_XDHO">
-        <node concept="3clFbS" id="1fEQmUlaOz5" role="2VODD2">
-          <node concept="3clFbF" id="1fEQmUlaOTG" role="3cqZAp">
-            <node concept="1Wc70l" id="1fEQmUlaQn3" role="3clFbG">
-              <node concept="2OqwBi" id="1fEQmUlaSal" role="3uHU7w">
-                <node concept="liA8E" id="1fEQmUlaSnB" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                  <node concept="2OqwBi" id="1fEQmUlaRdd" role="37wK5m">
-                    <node concept="2OqwBi" id="1fEQmUlaQBa" role="2Oq$k0">
-                      <node concept="_YI3z" id="1fEQmUlaQy1" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="1fEQmUlaQNX" role="2OqNvi">
-                        <ref role="3Tt5mk" to="tpee:fIYIWN3" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="1fEQmUlaREK" role="2OqNvi">
-                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="1fEQmUlaSxg" role="2Oq$k0">
-                  <property role="Xl_RC" value="format" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="1fEQmUlaPWK" role="3uHU7B">
-                <node concept="liA8E" id="1fEQmUlaQbw" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                  <node concept="2OqwBi" id="1fEQmUlaPlJ" role="37wK5m">
-                    <node concept="2OqwBi" id="1fEQmUlaOY3" role="2Oq$k0">
-                      <node concept="_YI3z" id="1fEQmUlaOTF" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="1fEQmUlaP6H" role="2OqNvi">
-                        <ref role="3Tt5mk" to="tpee:gDPybl6" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="1fEQmUlaPB9" role="2OqNvi">
-                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="1fEQmUlaQcD" role="2Oq$k0">
-                  <property role="Xl_RC" value="String" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="_UgoZ" id="1l1sktc4YC3">
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="SearchForUsedFinalCancel" />
-    <property role="2BwPS$" value="moware to mowareUX" />
-    <property role="_Wzho" value="(X) Search for finalCancel usage" />
+    <property role="_Wzho" value="Search for finalCancel usage" />
+    <property role="2BwPS$" value="moware" />
     <node concept="_XfAh" id="1l1sktc4YC4" role="_YvDr">
       <property role="_XH9r" value="Final Cancel not empty" />
       <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
@@ -310,8 +251,8 @@
   <node concept="_UgoZ" id="2QHjcDuufOB">
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="SearchForSelUpdateInGraphEdit" />
-    <property role="2BwPS$" value="moware to mowareUX" />
-    <property role="_Wzho" value="(X) Search for SelectionUpdate in GraphEdit" />
+    <property role="2BwPS$" value="moware" />
+    <property role="_Wzho" value="Search for SelectionUpdate in GraphEdit" />
     <node concept="_XfAh" id="2QHjcDuufOC" role="_YvDr">
       <property role="_XH9r" value="Selection Update not used in Graph OWNER" />
       <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />

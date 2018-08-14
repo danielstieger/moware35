@@ -5,23 +5,23 @@
       <sourceRoot location="." />
     </modelRoot>
     <modelRoot contentPath="${mowareHome}/manmap/languages/manmap/jars" type="java_classes">
-      <sourceRoot location="joda-time-2.1.jar" />
-      <sourceRoot location="org.springframework.beans-3.0.5.RELEASE.jar" />
-      <sourceRoot location="org.springframework.core-3.0.5.RELEASE.jar" />
-      <sourceRoot location="org.springframework.jdbc-3.0.5.RELEASE.jar" />
-      <sourceRoot location="org.springframework.transaction-3.0.5.RELEASE.jar" />
       <sourceRoot location="commons-logging-1.2.jar" />
-      <sourceRoot location="org.springframework.context-3.0.5.RELEASE.jar" />
+      <sourceRoot location="joda-time-2.10.jar" />
+      <sourceRoot location="spring-beans-3.2.9.RELEASE.jar" />
+      <sourceRoot location="spring-context-3.2.9.RELEASE.jar" />
+      <sourceRoot location="spring-core-3.2.9.RELEASE.jar" />
+      <sourceRoot location="spring-jdbc-3.2.9.RELEASE.jar" />
+      <sourceRoot location="spring-tx-3.2.9.RELEASE.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/joda-time-2.1.jar" />
-    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.beans-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.core-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.jdbc-3.0.5.RELEASE.jar" />
-    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.transaction-3.0.5.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/commons-logging-1.2.jar" />
-    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/org.springframework.context-3.0.5.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/joda-time-2.10.jar" />
+    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/spring-beans-3.2.9.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/spring-context-3.2.9.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/spring-core-3.2.9.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/spring-jdbc-3.2.9.RELEASE.jar" />
+    <stubModelEntry path="${mowareHome}/manmap/languages/manmap/jars/spring-tx-3.2.9.RELEASE.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
