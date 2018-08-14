@@ -1294,6 +1294,33 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6UG$gXA79Ia" role="jymVt" />
+    <node concept="3clFb_" id="7ojk6m6TUuz" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="clearCachedValues" />
+      <node concept="3cqZAl" id="7ojk6m6TUu$" role="3clF45" />
+      <node concept="3Tm1VV" id="7ojk6m6TUu_" role="1B3o_S" />
+      <node concept="3clFbS" id="7ojk6m6TUuB" role="3clF47">
+        <node concept="3clFbF" id="7ojk6m6TV2V" role="3cqZAp">
+          <node concept="37vLTI" id="7ojk6m6TV2W" role="3clFbG">
+            <node concept="2ShNRf" id="7ojk6m6TV2X" role="37vLTx">
+              <node concept="1pGfFk" id="7ojk6m6TV2Y" role="2ShVmc">
+                <ref role="37wK5l" to="33ny:~HashMap.&lt;init&gt;()" resolve="HashMap" />
+                <node concept="3uibUv" id="7ojk6m6TV2Z" role="1pMfVU">
+                  <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+                </node>
+                <node concept="3uibUv" id="7ojk6m6TV30" role="1pMfVU">
+                  <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="7ojk6m6TV31" role="37vLTJ">
+              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedValues" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7ojk6m6TVfU" role="jymVt" />
     <node concept="3clFb_" id="6BKPvpEb5TO" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="toString" />
@@ -33657,6 +33684,13 @@
       <node concept="3cqZAl" id="2vHEu_N$F8R" role="3clF45" />
       <node concept="3Tm1VV" id="2vHEu_N$F8S" role="1B3o_S" />
       <node concept="3clFbS" id="2vHEu_N$F8T" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="7ojk6m6TTYB" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="clearCachedValues" />
+      <node concept="3cqZAl" id="7ojk6m6TTYC" role="3clF45" />
+      <node concept="3Tm1VV" id="7ojk6m6TTYD" role="1B3o_S" />
+      <node concept="3clFbS" id="7ojk6m6TTYE" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6UG$gXA7cXj" role="jymVt">
       <property role="1EzhhJ" value="true" />
