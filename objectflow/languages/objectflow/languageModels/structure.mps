@@ -92,12 +92,6 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3VCHlE3_rxl" resolve="Status" />
     </node>
-    <node concept="1TJgyj" id="Is8ctvr_3d" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="equalProperties" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="Is8ctvt7Tq" resolve="EqualPropertyReference" />
-    </node>
     <node concept="1TJgyj" id="54AO9Sbt$cz" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="documentation2" />
@@ -738,16 +732,6 @@
       <property role="20kJfa" value="reverts" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6Rdz00$u0vd" resolve="IRevertableReference" />
-    </node>
-    <node concept="1TJgyj" id="1ZUVpFmntkV" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="maxInitDuration" />
-      <ref role="20lvS9" to="tpee:fzcmrck" resolve="IntegerConstant" />
-    </node>
-    <node concept="1TJgyj" id="Z1sD2y5lRb" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="maxInitCmdDescription" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="43H1fr7tvPj" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -2283,10 +2267,6 @@
     <node concept="M4N5e" id="6Rdz00$tuDj" role="M5hS2">
       <property role="1uS6qv" value="SEARCH_CMD" />
       <property role="1uS6qo" value="SEARCH_CMD" />
-    </node>
-    <node concept="M4N5e" id="6Rdz00$tTLT" role="M5hS2">
-      <property role="1uS6qv" value="SUB_GRAPH_OWNER_CMD" />
-      <property role="1uS6qo" value="SUB_GRAPH_OWNER_CMD" />
     </node>
     <node concept="M4N5e" id="701$ZaZsahE" role="M5hS2">
       <property role="1uS6qv" value="GRAPH_OWNER_CMD_MODAL" />

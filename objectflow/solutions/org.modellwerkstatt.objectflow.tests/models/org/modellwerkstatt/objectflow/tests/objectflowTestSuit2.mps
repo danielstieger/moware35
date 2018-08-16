@@ -272,7 +272,6 @@
       </concept>
       <concept id="1881524139084590827" name="org.modellwerkstatt.objectflow.structure.PageConclusion" flags="ng" index="10qiFn">
         <property id="1881524139085356503" name="conclusionType" index="10BtBF" />
-        <property id="5725201540142890812" name="hotkey" index="3GM7Xb" />
         <reference id="8554054623635738995" name="label" index="2DFCCC" />
         <child id="1881524139085091981" name="function" index="10ot2L" />
         <child id="7158462476985919208" name="enabledWhen" index="1PSD5q" />
@@ -1745,7 +1744,6 @@
       </node>
       <node concept="10qiFn" id="5MCXLSnMi9m" role="10qiF9">
         <property role="TrG5h" value="Save" />
-        <property role="3GM7Xb" value="SAVE" />
         <ref role="2DFCCC" node="3Rw9V4qhf8K" resolve="Save" />
         <node concept="20qIzx" id="5MCXLSnMi9U" role="10ot2L">
           <node concept="3clFbS" id="5MCXLSnMi9V" role="2VODD2">
