@@ -1361,5 +1361,17 @@
       <ref role="PrY4T" node="6K73LRuXmzF" resolve="IModuleOption" />
     </node>
   </node>
+  <node concept="1TIwiD" id="DRZf0SnFcb">
+    <property role="1pbfSe" value="1121366011" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="OptRunInConsole" />
+    <property role="34LRSv" value="RUN_IN_CONSOLE" />
+    <property role="R4oN_" value="do not instantiate UI" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="DRZf0SnFcc" role="PzmwI">
+      <ref role="PrY4T" node="6K73LRuXmzF" resolve="IModuleOption" />
+    </node>
+  </node>
 </model>
 

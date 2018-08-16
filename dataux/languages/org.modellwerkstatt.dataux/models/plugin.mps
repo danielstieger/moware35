@@ -2113,7 +2113,7 @@
   </node>
   <node concept="sE7Ow" id="7ojk6m5rgxo">
     <property role="TrG5h" value="Remove Fatflow from all models in project" />
-    <property role="2uzpH1" value="MoWare2018: Remove Fatflow from languages in generation" />
+    <property role="2uzpH1" value="MoWare2018: Remove dep. languages" />
     <node concept="1DS2jV" id="7ojk6m5rgxp" role="1NuT2Z">
       <property role="TrG5h" value="frame" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.FRAME" resolve="FRAME" />
@@ -2195,7 +2195,7 @@
                   <node concept="3clFbH" id="7ojk6m61A7_" role="3cqZAp" />
                   <node concept="3cpWs8" id="7ojk6m5Uo5n" role="3cqZAp">
                     <node concept="3cpWsn" id="7ojk6m5Uo5q" role="3cpWs9">
-                      <property role="TrG5h" value="langs" />
+                      <property role="TrG5h" value="langsInGeneration" />
                       <node concept="_YKpA" id="7ojk6m5Uo5j" role="1tU5fm">
                         <node concept="3uibUv" id="7ojk6m5Up$$" role="_ZDj9">
                           <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
@@ -2210,10 +2210,28 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3cpWs8" id="7wNjWSaKGrm" role="3cqZAp">
+                    <node concept="3cpWsn" id="7wNjWSaKGrn" role="3cpWs9">
+                      <property role="TrG5h" value="langs" />
+                      <node concept="_YKpA" id="7wNjWSaKGro" role="1tU5fm">
+                        <node concept="3uibUv" id="7wNjWSaKGrp" role="_ZDj9">
+                          <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
+                        </node>
+                      </node>
+                      <node concept="2ShNRf" id="7wNjWSaKGrq" role="33vP2m">
+                        <node concept="Tc6Ow" id="7wNjWSaKGrr" role="2ShVmc">
+                          <node concept="3uibUv" id="7wNjWSaKGrs" role="HW$YZ">
+                            <ref role="3uigEE" to="lui2:~SModuleReference" resolve="SModuleReference" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="7wNjWSaKGh0" role="3cqZAp" />
                   <node concept="3clFbF" id="7ojk6m61E8N" role="3cqZAp">
                     <node concept="2OqwBi" id="7ojk6m61ElJ" role="3clFbG">
                       <node concept="37vLTw" id="7ojk6m61E8L" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7ojk6m5Uo5q" resolve="langs" />
+                        <ref role="3cqZAo" node="7ojk6m5Uo5q" resolve="langsInGeneration" />
                       </node>
                       <node concept="X8dFx" id="7ojk6m61EIY" role="2OqNvi">
                         <node concept="2OqwBi" id="7ojk6m5rCIS" role="25WWJ7">
@@ -2234,11 +2252,35 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbF" id="7wNjWSaKH0e" role="3cqZAp">
+                    <node concept="2OqwBi" id="7wNjWSaKH0f" role="3clFbG">
+                      <node concept="37vLTw" id="7wNjWSaL36E" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7wNjWSaKGrn" resolve="langs" />
+                      </node>
+                      <node concept="X8dFx" id="7wNjWSaKH0h" role="2OqNvi">
+                        <node concept="2OqwBi" id="7wNjWSaKH0i" role="25WWJ7">
+                          <node concept="1eOMI4" id="7wNjWSaKH0j" role="2Oq$k0">
+                            <node concept="10QFUN" id="7wNjWSaKH0k" role="1eOMHV">
+                              <node concept="3uibUv" id="7wNjWSaKH0l" role="10QFUM">
+                                <ref role="3uigEE" to="g3l6:~SModelBase" resolve="SModelBase" />
+                              </node>
+                              <node concept="37vLTw" id="7wNjWSaKH0m" role="10QFUP">
+                                <ref role="3cqZAo" node="7ojk6m5rCAT" resolve="mod" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="7wNjWSaKH0n" role="2OqNvi">
+                            <ref role="37wK5l" to="g3l6:~SModelDescriptorStub.importedLanguages():java.util.List" resolve="importedLanguages" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbH" id="7ojk6m61EZM" role="3cqZAp" />
                   <node concept="3clFbF" id="7ojk6m5UpTR" role="3cqZAp">
                     <node concept="2OqwBi" id="7ojk6m5Uq6X" role="3clFbG">
                       <node concept="37vLTw" id="7ojk6m5UpTP" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7ojk6m5Uo5q" resolve="langs" />
+                        <ref role="3cqZAo" node="7ojk6m5Uo5q" resolve="langsInGeneration" />
                       </node>
                       <node concept="2es0OD" id="7ojk6m5Uqwl" role="2OqNvi">
                         <node concept="1bVj0M" id="7ojk6m5Uqwn" role="23t8la">
@@ -2273,6 +2315,82 @@
                     </node>
                   </node>
                   <node concept="3clFbH" id="7ojk6m5UnQ1" role="3cqZAp" />
+                  <node concept="3clFbF" id="7wNjWSaL5Jp" role="3cqZAp">
+                    <node concept="2OqwBi" id="7wNjWSaL63I" role="3clFbG">
+                      <node concept="37vLTw" id="7wNjWSaL5Jn" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7wNjWSaKGrn" resolve="langs" />
+                      </node>
+                      <node concept="2es0OD" id="7wNjWSaL6_i" role="2OqNvi">
+                        <node concept="1bVj0M" id="7wNjWSaL6_k" role="23t8la">
+                          <node concept="3clFbS" id="7wNjWSaL6_l" role="1bW5cS">
+                            <node concept="3clFbJ" id="7wNjWSaL_Jh" role="3cqZAp">
+                              <node concept="3clFbS" id="7wNjWSaL_Jj" role="3clFbx">
+                                <node concept="3clFbF" id="7wNjWSaLE1l" role="3cqZAp">
+                                  <node concept="2OqwBi" id="7wNjWSaLEjq" role="3clFbG">
+                                    <node concept="1eOMI4" id="7wNjWSaLE1n" role="2Oq$k0">
+                                      <node concept="10QFUN" id="7wNjWSaLE1o" role="1eOMHV">
+                                        <node concept="3uibUv" id="7wNjWSaLE1p" role="10QFUM">
+                                          <ref role="3uigEE" to="g3l6:~SModelBase" resolve="SModelBase" />
+                                        </node>
+                                        <node concept="37vLTw" id="7wNjWSaLE1q" role="10QFUP">
+                                          <ref role="3cqZAo" node="7ojk6m5rCAT" resolve="mod" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="liA8E" id="7wNjWSaLEVc" role="2OqNvi">
+                                      <ref role="37wK5l" to="g3l6:~SModelDescriptorStub.deleteLanguage(org.jetbrains.mps.openapi.module.SModuleReference):void" resolve="deleteLanguage" />
+                                      <node concept="37vLTw" id="7wNjWSaLFcn" role="37wK5m">
+                                        <ref role="3cqZAo" node="7wNjWSaL6_m" resolve="it" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="22lmx$" id="7wNjWSaLB_9" role="3clFbw">
+                                <node concept="2OqwBi" id="7wNjWSaLCD2" role="3uHU7w">
+                                  <node concept="2OqwBi" id="7wNjWSaLC5K" role="2Oq$k0">
+                                    <node concept="37vLTw" id="7wNjWSaLBQt" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="7wNjWSaL6_m" resolve="it" />
+                                    </node>
+                                    <node concept="liA8E" id="7wNjWSaLCnN" role="2OqNvi">
+                                      <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName():java.lang.String" resolve="getModuleName" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="7wNjWSaLCZU" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
+                                    <node concept="Xl_RD" id="7wNjWSaLDfc" role="37wK5m">
+                                      <property role="Xl_RC" value=".forms" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="7wNjWSaLAh0" role="3uHU7B">
+                                  <node concept="2OqwBi" id="7wNjWSaLaCB" role="2Oq$k0">
+                                    <node concept="37vLTw" id="7wNjWSaLap1" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="7wNjWSaL6_m" resolve="it" />
+                                    </node>
+                                    <node concept="liA8E" id="7wNjWSaLaTh" role="2OqNvi">
+                                      <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName():java.lang.String" resolve="getModuleName" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="7wNjWSaLAAV" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
+                                    <node concept="Xl_RD" id="7wNjWSaLAP$" role="37wK5m">
+                                      <property role="Xl_RC" value="fatflow" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Rh6nW" id="7wNjWSaL6_m" role="1bW2Oz">
+                            <property role="TrG5h" value="it" />
+                            <node concept="2jxLKc" id="7wNjWSaL6_n" role="1tU5fm" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="7wNjWSaKG6T" role="3cqZAp" />
                 </node>
                 <node concept="Rh6nW" id="7ojk6m5rCAT" role="1bW2Oz">
                   <property role="TrG5h" value="mod" />

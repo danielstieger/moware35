@@ -1479,5 +1479,20 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="DRZf0SnFch">
+    <property role="3GE5qa" value="uimodule" />
+    <ref role="1M2myG" to="1btx:DRZf0SnFcb" resolve="OptRunInConsole" />
+    <node concept="nKS2y" id="DRZf0SnG__" role="1MLUbF">
+      <node concept="3clFbS" id="DRZf0SnG_A" role="2VODD2">
+        <node concept="3clFbF" id="DRZf0SnGAF" role="3cqZAp">
+          <node concept="2YIFZM" id="DRZf0SnGCH" role="3clFbG">
+            <ref role="37wK5l" to="tm9u:2B50FNW1KI9" resolve="inBatchJobModule" />
+            <ref role="1Pybhc" to="tm9u:2B50FNW1KHS" resolve="ModuleOptHelper" />
+            <node concept="nLn13" id="DRZf0SnGEl" role="37wK5m" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
