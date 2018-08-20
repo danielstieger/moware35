@@ -172,12 +172,6 @@
       <property role="20kJfa" value="documentation2" />
       <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
     </node>
-    <node concept="1TJgyj" id="3A$vaiQG7s2" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="myMethods" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" to="tpee:fzclF8t" resolve="InstanceMethodDeclaration" />
-    </node>
     <node concept="PrWs8" id="6g3SR2CPcSO" role="PzmwI">
       <ref role="PrY4T" node="2jXWHXa_nYK" resolve="IO2RTComponent" />
     </node>

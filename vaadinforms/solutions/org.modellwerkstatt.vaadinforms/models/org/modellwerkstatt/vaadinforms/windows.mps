@@ -11741,7 +11741,7 @@
                                     <ref role="3cqZAo" node="6go2Mrswmnz" resolve="cmdContainer" />
                                   </node>
                                   <node concept="liA8E" id="r$jHpEL45r" role="2OqNvi">
-                                    <ref role="37wK5l" to="1e0c:2o7h3aDYx5p" resolve="receiveEvent" />
+                                    <ref role="37wK5l" to="1e0c:2o7h3aDYx5p" resolve="receive" />
                                     <node concept="2ShNRf" id="r$jHpEL45s" role="37wK5m">
                                       <node concept="1pGfFk" id="r$jHpEL45t" role="2ShVmc">
                                         <ref role="37wK5l" to="1e0c:zBgVaD6ku7" resolve="ConclusionEvent" />
@@ -27860,7 +27860,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="4M9afjaZr$L" role="2OqNvi">
-                      <ref role="37wK5l" to="1e0c:zBgVaD5RNj" resolve="receiveEvent" />
+                      <ref role="37wK5l" to="1e0c:7BWfrtCZte1" resolve="receive" />
                       <node concept="2ShNRf" id="4M9afjaZrAz" role="37wK5m">
                         <node concept="1pGfFk" id="4M9afjaZsJN" role="2ShVmc">
                           <ref role="37wK5l" to="1e0c:zBgVaD67P_" resolve="KeyEvent" />
@@ -32933,15 +32933,15 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="execEventInBackground" />
       <node concept="37vLTG" id="r$jHpEP2VH" role="3clF46">
-        <property role="TrG5h" value="cmdCntr" />
+        <property role="TrG5h" value="sender" />
         <node concept="3uibUv" id="r$jHpEP2VI" role="1tU5fm">
           <ref role="3uigEE" to="1e0c:2o7h3aDYx43" resolve="ICommandContainer" />
         </node>
       </node>
       <node concept="37vLTG" id="r$jHpEP2VJ" role="3clF46">
-        <property role="TrG5h" value="ev" />
-        <node concept="3uibUv" id="r$jHpEP2VK" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:zBgVaD671z" resolve="IEvent" />
+        <property role="TrG5h" value="r" />
+        <node concept="3uibUv" id="3GQ300Qyl7p" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="r$jHpEP2VL" role="3clF45" />
@@ -32952,7 +32952,7 @@
             <node concept="1pGfFk" id="r$jHpEPt5z" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
               <node concept="Xl_RD" id="r$jHpEPt8T" role="37wK5m">
-                <property role="Xl_RC" value="not implemented for vaadin" />
+                <property role="Xl_RC" value="Background processing not supported in vaadin implementation." />
               </node>
             </node>
           </node>
@@ -32960,6 +32960,19 @@
       </node>
     </node>
     <node concept="2tJIrI" id="r$jHpEP1PX" role="jymVt" />
+    <node concept="3clFb_" id="5NnlNqu2snv" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="inUiThread" />
+      <node concept="10P_77" id="5NnlNqu2snw" role="3clF45" />
+      <node concept="3Tm1VV" id="5NnlNqu2snx" role="1B3o_S" />
+      <node concept="3clFbS" id="5NnlNqu2snz" role="3clF47">
+        <node concept="3clFbF" id="5NnlNqu2tKn" role="3cqZAp">
+          <node concept="3clFbT" id="5NnlNqu2tKm" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="61_QXqSd2qK" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="ensureHotkeyAvailable" />

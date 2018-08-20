@@ -2126,11 +2126,7 @@
                           <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
                         </node>
                         <node concept="liA8E" id="78d1$l3UbCF" role="2OqNvi">
-                          <ref role="37wK5l" to="x37d:3CnNtH_0Dd6" resolve="logOnKafka" />
-                          <node concept="2YIFZM" id="78d1$l3UbCG" role="37wK5m">
-                            <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                            <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
-                          </node>
+                          <ref role="37wK5l" to="x37d:5NnlNqtAniw" resolve="logWithoutApplication" />
                           <node concept="3cpWs3" id="78d1$l3UbCH" role="37wK5m">
                             <node concept="1rXfSq" id="78d1$l3UbCI" role="3uHU7w">
                               <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
@@ -2480,11 +2476,7 @@
                       <ref role="3cqZAo" node="4ZThPOYBKXm" resolve="jmxRegistration" />
                     </node>
                     <node concept="liA8E" id="18nf27lPkvA" role="2OqNvi">
-                      <ref role="37wK5l" to="x37d:3CnNtH_0Dd6" resolve="logOnKafka" />
-                      <node concept="2YIFZM" id="3k6NRaQrS6g" role="37wK5m">
-                        <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
-                        <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
-                      </node>
+                      <ref role="37wK5l" to="x37d:5NnlNqtAniw" resolve="logWithoutApplication" />
                       <node concept="3cpWs3" id="2JDNIBMSSwh" role="37wK5m">
                         <node concept="1rXfSq" id="2JDNIBMSTcn" role="3uHU7w">
                           <ref role="37wK5l" node="3oSvuvtv7Fr" resolve="dumpSessionAndRequestInfo" />
@@ -8519,15 +8511,15 @@
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="execEventInBackground" />
       <node concept="37vLTG" id="kWPevMd7P7" role="3clF46">
-        <property role="TrG5h" value="cmdCntr" />
+        <property role="TrG5h" value="sender" />
         <node concept="3uibUv" id="kWPevMd7P8" role="1tU5fm">
           <ref role="3uigEE" to="1e0c:2o7h3aDYx43" resolve="ICommandContainer" />
         </node>
       </node>
       <node concept="37vLTG" id="kWPevMd7P9" role="3clF46">
-        <property role="TrG5h" value="ev" />
-        <node concept="3uibUv" id="kWPevMd7Pa" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:zBgVaD671z" resolve="IEvent" />
+        <property role="TrG5h" value="r" />
+        <node concept="3uibUv" id="3GQ300Qy7JP" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="kWPevMd7Pb" role="3clF45" />
@@ -8538,7 +8530,7 @@
             <node concept="1pGfFk" id="kWPevMdcRu" role="2ShVmc">
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
               <node concept="Xl_RD" id="kWPevMdcSH" role="37wK5m">
-                <property role="Xl_RC" value="Not implemented" />
+                <property role="Xl_RC" value="Background processing not supported in this implementation." />
               </node>
             </node>
           </node>
@@ -8546,6 +8538,19 @@
       </node>
     </node>
     <node concept="2tJIrI" id="kWPevMdcU_" role="jymVt" />
+    <node concept="3clFb_" id="5NnlNqu2w1t" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="inUiThread" />
+      <node concept="10P_77" id="5NnlNqu2w1u" role="3clF45" />
+      <node concept="3Tm1VV" id="5NnlNqu2w1v" role="1B3o_S" />
+      <node concept="3clFbS" id="5NnlNqu2w1y" role="3clF47">
+        <node concept="3clFbF" id="5NnlNqu2y72" role="3cqZAp">
+          <node concept="3clFbT" id="5NnlNqu2y71" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="kWPevMdd4R" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="valueBound" />

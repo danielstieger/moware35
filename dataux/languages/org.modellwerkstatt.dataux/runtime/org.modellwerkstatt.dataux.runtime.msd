@@ -4,13 +4,7 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="${mowareHome}/objectflow/languages/objectflow/jars/basis" type="java_classes">
-      <sourceRoot location="kafka-clients-0.10.2.0.jar" />
-    </modelRoot>
   </models>
-  <stubModelEntries>
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/kafka-clients-0.10.2.0.jar" />
-  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>

@@ -886,21 +886,28 @@
     <node concept="3clFb_" id="2ppo89mbSZT" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="execEventInBackground" />
-      <node concept="37vLTG" id="2ppo89mbVhs" role="3clF46">
-        <property role="TrG5h" value="cmdCntr" />
-        <node concept="3uibUv" id="2o7h3aE0HP6" role="1tU5fm">
+      <node concept="37vLTG" id="3GQ300QxQ4h" role="3clF46">
+        <property role="TrG5h" value="sender" />
+        <node concept="3uibUv" id="3GQ300QxQgF" role="1tU5fm">
           <ref role="3uigEE" to="1e0c:2o7h3aDYx43" resolve="ICommandContainer" />
         </node>
       </node>
-      <node concept="37vLTG" id="2o7h3aE0J6c" role="3clF46">
-        <property role="TrG5h" value="ev" />
-        <node concept="3uibUv" id="2o7h3aE0J9l" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:zBgVaD671z" resolve="IEvent" />
+      <node concept="37vLTG" id="2ppo89mbVhs" role="3clF46">
+        <property role="TrG5h" value="runable" />
+        <node concept="3uibUv" id="3GQ300QxKtG" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Runnable" resolve="Runnable" />
         </node>
       </node>
       <node concept="3cqZAl" id="2ppo89mbSZV" role="3clF45" />
       <node concept="3Tm1VV" id="2ppo89mbSZW" role="1B3o_S" />
       <node concept="3clFbS" id="2ppo89mbSZX" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="5NnlNqu2gJE" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="inUiThread" />
+      <node concept="10P_77" id="5NnlNqu2hrU" role="3clF45" />
+      <node concept="3Tm1VV" id="5NnlNqu2gJH" role="1B3o_S" />
+      <node concept="3clFbS" id="5NnlNqu2gJI" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="2ppo89mbST1" role="jymVt" />
     <node concept="3clFb_" id="4cdUWYrPLAX" role="jymVt">
