@@ -17658,8 +17658,8 @@
             <property role="TrG5h" value="tomcatServletDirectory" />
             <node concept="17QB3L" id="7Ako_ORnT98" role="1tU5fm" />
             <node concept="2YIFZM" id="5zdT7CxO97B" role="33vP2m">
-              <ref role="37wK5l" to="z3ji:5lMTsSlr3_X" resolve="getShortNameFromFQ" />
-              <ref role="1Pybhc" to="z3ji:66durT_3en0" resolve="JmxBatchJobCoreReporter" />
+              <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+              <ref role="37wK5l" to="28jr:5lMTsSlr3_X" resolve="getShortNameFromFQ" />
               <node concept="37vLTw" id="5zdT7CxOd1K" role="37wK5m">
                 <ref role="3cqZAo" node="5BROMrW1uuI" resolve="origSymbolicName" />
               </node>
@@ -17716,8 +17716,8 @@
               </node>
               <node concept="3cpWs3" id="7Ako_ORog3n" role="3uHU7B">
                 <node concept="2YIFZM" id="7Ako_ORofY4" role="3uHU7B">
-                  <ref role="37wK5l" to="z3ji:7Ako_ORo1Ak" resolve="getPackageName" />
-                  <ref role="1Pybhc" to="z3ji:66durT_3en0" resolve="JmxBatchJobCoreReporter" />
+                  <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                  <ref role="37wK5l" to="28jr:7Ako_ORo1Ak" resolve="getPackageName" />
                   <node concept="37vLTw" id="7Ako_ORofY5" role="37wK5m">
                     <ref role="3cqZAo" node="5BROMrW1uuI" resolve="origSymbolicName" />
                   </node>
