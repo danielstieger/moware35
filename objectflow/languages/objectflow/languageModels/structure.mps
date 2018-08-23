@@ -12,6 +12,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
         <property id="6054523464626875854" name="value" index="tnX3d" />
       </concept>
@@ -1024,14 +1025,6 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="6ffh1MXzHn6" resolve="Page" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="1Csx3Lqydf8">
-    <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="FormVariableReference" />
-    <property role="MwhBj" value="${module}/icons/references.png" />
-    <property role="1pbfSe" value="1956993028" />
-    <property role="34LRSv" value="selectionController" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="1Csx3LqAoU5">
     <property role="3GE5qa" value="OFXCore.process" />
@@ -3654,6 +3647,7 @@
     <node concept="PrWs8" id="3wfz3qPc3Hx" role="PzmwI">
       <ref role="PrY4T" node="3wfz3qPc3B0" resolve="IPageConclusionRefOption" />
     </node>
+    <node concept="asaX9" id="5YVCCVeoMUG" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="7PeCy_MumjU">
     <property role="1pbfSe" value="272103645" />
