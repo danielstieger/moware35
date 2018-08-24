@@ -3621,7 +3621,7 @@
     </node>
     <node concept="3clFb_" id="3EJ222E4Q9n" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="manageByPredecessor" />
+      <property role="TrG5h" value="manageAlsoPredecessor" />
       <node concept="37vLTG" id="3EJ222E4R1Y" role="3clF46">
         <property role="TrG5h" value="pre" />
         <node concept="3uibUv" id="3EJ222E4Ra$" role="1tU5fm">

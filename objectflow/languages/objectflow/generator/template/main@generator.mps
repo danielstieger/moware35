@@ -14031,7 +14031,7 @@
     </node>
     <node concept="3clFb_" id="U8r3YpTunQ" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="manageByPredecessor" />
+      <property role="TrG5h" value="manageAlsoPredecessor" />
       <node concept="37vLTG" id="U8r3YpTunR" role="3clF46">
         <property role="TrG5h" value="pre" />
         <node concept="3uibUv" id="U8r3YpTunS" role="1tU5fm">
@@ -30090,7 +30090,7 @@
                             <ref role="3cqZAo" node="6bl3$WOMWCr" resolve="successorCommand" />
                           </node>
                           <node concept="liA8E" id="4jlzLDkAhWU" role="2OqNvi">
-                            <ref role="37wK5l" to="28jr:3EJ222E4Q9n" resolve="manageByPredecessor" />
+                            <ref role="37wK5l" to="28jr:3EJ222E4Q9n" resolve="manageAlsoPredecessor" />
                             <node concept="37vLTw" id="4jlzLDkAi5I" role="37wK5m">
                               <ref role="3cqZAo" node="65g7rxkv7s5" resolve="cmd" />
                             </node>
