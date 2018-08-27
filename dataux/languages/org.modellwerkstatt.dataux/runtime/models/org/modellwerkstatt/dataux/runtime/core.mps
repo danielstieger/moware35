@@ -9692,7 +9692,7 @@
                   <ref role="37wK5l" node="7_LnCNXOC77" resolve="receive" />
                   <node concept="2ShNRf" id="7_LnCNXRFVT" role="37wK5m">
                     <node concept="1pGfFk" id="7_LnCNXRJj_" role="2ShVmc">
-                      <ref role="37wK5l" node="7_LnCNXPtIo" resolve="StartCmd" />
+                      <ref role="37wK5l" node="7_LnCNXPtIo" resolve="SimpleCmdStart" />
                       <node concept="2OqwBi" id="7_LnCNXRJzM" role="37wK5m">
                         <node concept="37vLTw" id="7_LnCNXRJuA" role="2Oq$k0">
                           <ref role="3cqZAo" node="gGnCBOHen3" resolve="actionToStart" />
@@ -17408,11 +17408,11 @@
                 <node concept="3cpWsn" id="7b0Ejx_CUd8" role="3cpWs9">
                   <property role="TrG5h" value="asc" />
                   <node concept="3uibUv" id="7b0Ejx_CUd9" role="1tU5fm">
-                    <ref role="3uigEE" node="7_LnCNXPtES" resolve="StartCmd" />
+                    <ref role="3uigEE" node="7_LnCNXPtES" resolve="SimpleCmdStart" />
                   </node>
                   <node concept="2ShNRf" id="7b0Ejx_CUfh" role="33vP2m">
                     <node concept="1pGfFk" id="7b0Ejx_CUeW" role="2ShVmc">
-                      <ref role="37wK5l" node="7_LnCNXPtIo" resolve="StartCmd" />
+                      <ref role="37wK5l" node="7_LnCNXPtIo" resolve="SimpleCmdStart" />
                       <node concept="2OqwBi" id="7b0Ejx_CUjm" role="37wK5m">
                         <node concept="37vLTw" id="7b0Ejx_CUif" role="2Oq$k0">
                           <ref role="3cqZAo" node="53Vnir0ubQB" resolve="toExecuteInner" />
@@ -21705,7 +21705,7 @@
                         <node concept="1eOMI4" id="7_LnCNXSPVG" role="37wK5m">
                           <node concept="10QFUN" id="7_LnCNXSPVD" role="1eOMHV">
                             <node concept="3uibUv" id="7_LnCNXSPVI" role="10QFUM">
-                              <ref role="3uigEE" node="7_LnCNXPtES" resolve="StartCmd" />
+                              <ref role="3uigEE" node="7_LnCNXPtES" resolve="SimpleCmdStart" />
                             </node>
                             <node concept="37vLTw" id="7_LnCNXSPVJ" role="10QFUP">
                               <ref role="3cqZAo" node="7_LnCNXPmOx" resolve="eventToProcess" />
@@ -21718,7 +21718,7 @@
                   </node>
                   <node concept="2ZW3vV" id="7_LnCNXPtBF" role="3clFbw">
                     <node concept="3uibUv" id="7_LnCNXPuN$" role="2ZW6by">
-                      <ref role="3uigEE" node="7_LnCNXPtES" resolve="StartCmd" />
+                      <ref role="3uigEE" node="7_LnCNXPtES" resolve="SimpleCmdStart" />
                     </node>
                     <node concept="37vLTw" id="7_LnCNXPtzM" role="2ZW6bz">
                       <ref role="3cqZAo" node="7_LnCNXPmOx" resolve="eventToProcess" />
@@ -21816,7 +21816,7 @@
       <node concept="37vLTG" id="7_LnCNXQacc" role="3clF46">
         <property role="TrG5h" value="ev" />
         <node concept="3uibUv" id="7_LnCNXQcio" role="1tU5fm">
-          <ref role="3uigEE" node="7_LnCNXPtES" resolve="StartCmd" />
+          <ref role="3uigEE" node="7_LnCNXPtES" resolve="SimpleCmdStart" />
         </node>
       </node>
       <node concept="3cqZAl" id="7_LnCNXPSSM" role="3clF45" />
@@ -23028,7 +23028,7 @@
                 <ref role="37wK5l" node="7_LnCNXOC77" resolve="receive" />
                 <node concept="2ShNRf" id="7_LnCNXRT_0" role="37wK5m">
                   <node concept="1pGfFk" id="7_LnCNXRTQC" role="2ShVmc">
-                    <ref role="37wK5l" node="7_LnCNXPtIo" resolve="StartCmd" />
+                    <ref role="37wK5l" node="7_LnCNXPtIo" resolve="SimpleCmdStart" />
                     <node concept="2OqwBi" id="7_LnCNXRU14" role="37wK5m">
                       <node concept="37vLTw" id="7_LnCNXRTX_" role="2Oq$k0">
                         <ref role="3cqZAo" node="4XXgpAAgf76" resolve="action" />
@@ -28197,7 +28197,6 @@
         <ref role="3uigEE" node="2o7h3aDYx43" resolve="ICommandContainer" />
       </node>
     </node>
-    <node concept="2tJIrI" id="5YVCCVeKoCp" role="jymVt" />
     <node concept="312cEg" id="5ZV7jolblR0" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -29622,8 +29621,8 @@
     </node>
   </node>
   <node concept="312cEu" id="7_LnCNXPtES">
-    <property role="3GE5qa" value="events" />
-    <property role="TrG5h" value="StartCmd" />
+    <property role="3GE5qa" value="events.cmdstarts" />
+    <property role="TrG5h" value="SimpleCmdStart" />
     <node concept="312cEg" id="7_LnCNXQcvT" role="jymVt">
       <property role="TrG5h" value="parentSession" />
       <node concept="3Tm6S6" id="7_LnCNXQcvU" role="1B3o_S" />
@@ -30012,6 +30011,21 @@
     <node concept="3uibUv" id="1LBGCxvJ9X$" role="1zkMxy">
       <ref role="3uigEE" node="3GQ300QoB23" resolve="UxEvent" />
     </node>
+  </node>
+  <node concept="312cEu" id="5YEYfHwIKUj">
+    <property role="3GE5qa" value="events.cmdstarts" />
+    <property role="TrG5h" value="MultiCmdStart" />
+    <node concept="3Tm1VV" id="5YEYfHwIKUk" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="5YEYfHwIKUX">
+    <property role="3GE5qa" value="events.cmdstarts" />
+    <property role="TrG5h" value="AutoConCmdStart" />
+    <node concept="3Tm1VV" id="5YEYfHwIKUY" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="5YEYfHwIKVO">
+    <property role="3GE5qa" value="events.cmdstarts" />
+    <property role="TrG5h" value="CompoundCmdStart" />
+    <node concept="3Tm1VV" id="5YEYfHwIKVP" role="1B3o_S" />
   </node>
 </model>
 

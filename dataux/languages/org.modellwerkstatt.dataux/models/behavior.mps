@@ -4974,7 +4974,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="5Ld38uBYYjA" role="13h7CS">
-      <property role="TrG5h" value="thisOnAutoConclusion" />
+      <property role="TrG5h" value="thisOnAutoConclusionOrNoUi" />
       <node concept="3Tm1VV" id="5Ld38uBYYjB" role="1B3o_S" />
       <node concept="10P_77" id="5Ld38uBYYuR" role="3clF45" />
       <node concept="3clFbS" id="5Ld38uBYYjD" role="3clF47">
@@ -4983,7 +4983,7 @@
             <node concept="2OqwBi" id="3wfz3qPvtvd" role="3uHU7w">
               <node concept="13iPFW" id="3wfz3qPvtpE" role="2Oq$k0" />
               <node concept="2qgKlT" id="3wfz3qPvtHF" role="2OqNvi">
-                <ref role="37wK5l" node="3wfz3qPvdTq" resolve="isOnUserCancel" />
+                <ref role="37wK5l" node="3wfz3qPvdTq" resolve="isOnAutoUserCancel" />
               </node>
             </node>
             <node concept="22lmx$" id="5Ld38uBZ06P" role="3uHU7B">
@@ -4998,14 +4998,11 @@
                   <ref role="37wK5l" to="70o0:2FiiyF3e0JS" resolve="isWithoutPage" />
                 </node>
               </node>
-              <node concept="2OqwBi" id="5Ld38uBZ0Hg" role="3uHU7w">
-                <node concept="2OqwBi" id="5Ld38uBZ0hH" role="2Oq$k0">
-                  <node concept="13iPFW" id="5Ld38uBZ0bU" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="5Ld38uBZ0vW" role="2OqNvi">
-                    <ref role="3Tt5mk" to="1btx:6IYVo2hTQQL" />
-                  </node>
+              <node concept="2OqwBi" id="5YEYfHw7D$G" role="3uHU7w">
+                <node concept="13iPFW" id="5YEYfHw7DuA" role="2Oq$k0" />
+                <node concept="2qgKlT" id="5YEYfHw7DNI" role="2OqNvi">
+                  <ref role="37wK5l" node="5YEYfHw7D3U" resolve="isOnAutoPageConclusion" />
                 </node>
-                <node concept="3x8VRR" id="5Ld38uBZ0Xv" role="2OqNvi" />
               </node>
             </node>
           </node>
@@ -5122,7 +5119,7 @@
           </node>
           <node concept="3fqX7Q" id="5Ld38uBYYFZ" role="3clFbw">
             <node concept="BsUDl" id="5Ld38uBYYG1" role="3fr31v">
-              <ref role="37wK5l" node="5Ld38uBYYjA" resolve="thisOnAutoConclusion" />
+              <ref role="37wK5l" node="5Ld38uBYYjA" resolve="thisOnAutoConclusionOrNoUi" />
             </node>
           </node>
         </node>
@@ -5180,7 +5177,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="3wfz3qPvdTq" role="13h7CS">
-      <property role="TrG5h" value="isOnUserCancel" />
+      <property role="TrG5h" value="isOnAutoUserCancel" />
       <node concept="3Tm1VV" id="3wfz3qPvdTr" role="1B3o_S" />
       <node concept="10P_77" id="3wfz3qPvecG" role="3clF45" />
       <node concept="3clFbS" id="3wfz3qPvdTt" role="3clF47">
@@ -5193,8 +5190,30 @@
               </node>
             </node>
             <node concept="1mIQ4w" id="3wfz3qPveE_" role="2OqNvi">
-              <node concept="chp4Y" id="3wfz3qPveHw" role="cj9EA">
-                <ref role="cht4Q" to="un0u:3wfz3qPc3Fr" resolve="PageConclusionOptionUserCancel" />
+              <node concept="chp4Y" id="5YEYfHvA3Jl" role="cj9EA">
+                <ref role="cht4Q" to="1btx:3wfz3qPc3Fr" resolve="PageConclusionOptionUserCancel" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="5YEYfHw7D3U" role="13h7CS">
+      <property role="TrG5h" value="isOnAutoPageConclusion" />
+      <node concept="3Tm1VV" id="5YEYfHw7D3V" role="1B3o_S" />
+      <node concept="10P_77" id="5YEYfHw7D3W" role="3clF45" />
+      <node concept="3clFbS" id="5YEYfHw7D3X" role="3clF47">
+        <node concept="3clFbF" id="5YEYfHw7D3Y" role="3cqZAp">
+          <node concept="2OqwBi" id="5YEYfHw7D3Z" role="3clFbG">
+            <node concept="2OqwBi" id="5YEYfHw7D40" role="2Oq$k0">
+              <node concept="13iPFW" id="5YEYfHw7D41" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5YEYfHw7D42" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:3wfz3qPfteK" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="5YEYfHw7D43" role="2OqNvi">
+              <node concept="chp4Y" id="5YEYfHw7D44" role="cj9EA">
+                <ref role="cht4Q" to="1btx:3wfz3qPc3Fr" resolve="PageConclusionOptionUserCancel" />
               </node>
             </node>
           </node>

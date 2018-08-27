@@ -33,33 +33,19 @@
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
-    <import index="ebvv" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.dao(org.modellwerkstatt.manmap.solution/)" />
     <import index="7bhz" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.transaction(org.modellwerkstatt.manmap.solution/)" />
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
-    <import index="rapu" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jdbc(org.modellwerkstatt.manmap.solution/)" />
-    <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
-    <import index="n2cm" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.core(org.modellwerkstatt.manmap.solution/)" />
     <import index="mbv" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jdbc.core(org.modellwerkstatt.manmap.solution/)" />
-    <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" />
-    <import index="nwfd" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.http(org.modellwerkstatt.sandbox/)" />
-    <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.sandbox/)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
-    <import index="oawo" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.config(org.modellwerkstatt.manmap.solution/)" />
-    <import index="5zyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent(JDK/)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
     <import index="1u6b" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.apache.commons.logging(org.modellwerkstatt.manmap.solution/)" />
     <import index="bsbx" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jdbc.datasource.init(org.modellwerkstatt.manmap.solution/)" />
     <import index="zj7m" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.sql(JDK/)" />
     <import index="6oha" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.core.io(org.modellwerkstatt.manmap.solution/)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
-    <import index="6q7e" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.scheduling.concurrent(org.modellwerkstatt.manmap.solution/)" />
-    <import index="a820" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context(org.modellwerkstatt.manmap.solution/)" />
     <import index="meih" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.stereotype(org.modellwerkstatt.manmap.solution/)" />
-    <import index="jtd5" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jmx.export.annotation(org.modellwerkstatt.manmap.solution/)" />
-    <import index="qqeh" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context.support(org.modellwerkstatt.manmap.solution/)" />
-    <import index="iou4" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.scheduling.support(org.modellwerkstatt.manmap.solution/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>

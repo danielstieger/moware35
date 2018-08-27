@@ -7,7 +7,7 @@
   </languages>
   <imports>
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="4fqr" ref="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" implicit="true" />
   </imports>
@@ -1154,7 +1154,7 @@
     <node concept="1TJgyj" id="3wfz3qPfteK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="pageRefOption" />
-      <ref role="20lvS9" to="un0u:3wfz3qPc3B0" resolve="IPageConclusionRefOption" />
+      <ref role="20lvS9" node="3wfz3qPc3B0" resolve="IPageConclusionRefOption" />
     </node>
     <node concept="PrWs8" id="3wfz3qPgVe0" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -1374,6 +1374,37 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="DRZf0SnFcc" role="PzmwI">
       <ref role="PrY4T" node="6K73LRuXmzF" resolve="IModuleOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3wfz3qPc3Fr">
+    <property role="1pbfSe" value="314587375" />
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="PageConclusionOptionUserCancel" />
+    <property role="34LRSv" value="USER_CANCEL" />
+    <property role="R4oN_" value="as user presses cancel" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3wfz3qPc3Hx" role="PzmwI">
+      <ref role="PrY4T" node="3wfz3qPc3B0" resolve="IPageConclusionRefOption" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3wfz3qPc3B0">
+    <property role="1pbfSe" value="314587658" />
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="IPageConclusionRefOption" />
+  </node>
+  <node concept="1TIwiD" id="3wfz3qPc3_M">
+    <property role="1pbfSe" value="314587736" />
+    <property role="3GE5qa" value="internalInfra" />
+    <property role="TrG5h" value="PageConclusionReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3wfz3qPc3Df" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="pageConclusion" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
+    </node>
+    <node concept="PrWs8" id="3wfz3qPc3CZ" role="PzmwI">
+      <ref role="PrY4T" node="3wfz3qPc3B0" resolve="IPageConclusionRefOption" />
     </node>
   </node>
 </model>

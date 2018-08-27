@@ -14,6 +14,7 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
+    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -35,6 +36,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
+        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -58,6 +62,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -65,6 +70,10 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
     </language>
     <language id="0eddeefa-c2d6-4437-bc2c-de50fd4ce470" name="jetbrains.mps.lang.script">
@@ -329,6 +338,51 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="5YEYfHvA4zb" role="_YvDr">
+      <property role="_XH9r" value="Convert USER CANCEL in compound menu action. " />
+      <ref role="_XDHR" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
+      <node concept="_ZGcI" id="5YEYfHvA4zc" role="_XPhp">
+        <node concept="3clFbS" id="5YEYfHvA4zd" role="2VODD2">
+          <node concept="3clFbF" id="5YEYfHvG1Mp" role="3cqZAp">
+            <node concept="2OqwBi" id="5YEYfHvG1Mm" role="3clFbG">
+              <node concept="10M0yZ" id="5YEYfHvG1Mn" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              </node>
+              <node concept="liA8E" id="5YEYfHvG1Mo" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="3cpWs3" id="5YEYfHvG1T7" role="37wK5m">
+                  <node concept="2OqwBi" id="5YEYfHvG1ZV" role="3uHU7w">
+                    <node concept="_YI3z" id="5YEYfHvG1Uv" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="5YEYfHvG2yf" role="2OqNvi">
+                      <ref role="3Tt5mk" to="1btx:3wfz3qPfteK" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="5YEYfHvG1MN" role="3uHU7B">
+                    <property role="Xl_RC" value=" &gt;&gt; " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="5YEYfHvA4zC" role="_XDHO">
+        <node concept="3clFbS" id="5YEYfHvA4zD" role="2VODD2">
+          <node concept="3clFbF" id="5YEYfHvA4zE" role="3cqZAp">
+            <node concept="2OqwBi" id="5YEYfHvA4zF" role="3clFbG">
+              <node concept="2OqwBi" id="5YEYfHvA4zG" role="2Oq$k0">
+                <node concept="_YI3z" id="5YEYfHvA4zH" role="2Oq$k0" />
+                <node concept="3TrEf2" id="5YEYfHvA5AQ" role="2OqNvi">
+                  <ref role="3Tt5mk" to="1btx:3wfz3qPfteK" />
+                </node>
+              </node>
+              <node concept="3x8VRR" id="5YEYfHvA5No" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="5YEYfHvoaQ9" role="_YvDr">
       <property role="_XH9r" value="Update Compound action to new conclusion references" />
       <ref role="_XDHR" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
@@ -338,12 +392,12 @@
             <node concept="3cpWsn" id="5YEYfHvobZf" role="3cpWs9">
               <property role="TrG5h" value="pcr" />
               <node concept="3Tqbb2" id="5YEYfHvobZa" role="1tU5fm">
-                <ref role="ehGHo" to="un0u:3wfz3qPc3_M" resolve="PageConclusionReference" />
+                <ref role="ehGHo" to="1btx:3wfz3qPc3_M" resolve="PageConclusionReference" />
               </node>
               <node concept="2ShNRf" id="5YEYfHvoc0q" role="33vP2m">
                 <node concept="3zrR0B" id="5YEYfHvoc0a" role="2ShVmc">
                   <node concept="3Tqbb2" id="5YEYfHvoc0b" role="3zrR0E">
-                    <ref role="ehGHo" to="un0u:3wfz3qPc3_M" resolve="PageConclusionReference" />
+                    <ref role="ehGHo" to="1btx:3wfz3qPc3_M" resolve="PageConclusionReference" />
                   </node>
                 </node>
               </node>
@@ -361,8 +415,8 @@
                 <node concept="37vLTw" id="5YEYfHvoc1Q" role="2Oq$k0">
                   <ref role="3cqZAo" node="5YEYfHvobZf" resolve="pcr" />
                 </node>
-                <node concept="3TrEf2" id="5YEYfHvocaX" role="2OqNvi">
-                  <ref role="3Tt5mk" to="un0u:3wfz3qPc3Df" />
+                <node concept="3TrEf2" id="5YEYfHvA4wC" role="2OqNvi">
+                  <ref role="3Tt5mk" to="1btx:3wfz3qPc3Df" />
                 </node>
               </node>
             </node>

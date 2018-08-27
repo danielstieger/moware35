@@ -3,19 +3,20 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="3" />
+    <use id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
     <import index="z8tr" ref="r:bcfb927c-b184-4908-8828-52e996537df2(org.modellwerkstatt.objectflow.editor)" />
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
-    <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
-    <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
-    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
-    <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" implicit="true" />
-    <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
+    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
+    <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" />
+    <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" />
+    <import index="nlf1" ref="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" />
+    <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" />
+    <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -2592,31 +2593,9 @@
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="1iCGBv" id="3kFdJs4ERY" role="3EZMnx">
-          <property role="1$x2rV" value="&lt;con&gt;" />
-          <ref role="1NtTu8" to="1btx:6IYVo2hTQQL" />
-          <node concept="1sVBvm" id="3kFdJs4ERZ" role="1sWHZn">
-            <node concept="3F0A7n" id="3kFdJs4ES0" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
         <node concept="3F1sOY" id="3wfz3qPftBH" role="3EZMnx">
-          <property role="1$x2rV" value="&lt;conclusion&gt;" />
+          <property role="1$x2rV" value="&lt;con&gt;" />
           <ref role="1NtTu8" to="1btx:3wfz3qPfteK" />
-          <node concept="pkWqt" id="3wfz3qPgUsE" role="pqm2j">
-            <node concept="3clFbS" id="3wfz3qPgUsF" role="2VODD2">
-              <node concept="3clFbF" id="3wfz3qPgUtR" role="3cqZAp">
-                <node concept="2OqwBi" id="3wfz3qPgUz6" role="3clFbG">
-                  <node concept="pncrf" id="3wfz3qPgUtQ" role="2Oq$k0" />
-                  <node concept="2qgKlT" id="3wfz3qPgUNs" role="2OqNvi">
-                    <ref role="37wK5l" to="5y3p:50l$rcpKbIz" resolve="isBaseAction" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
         </node>
         <node concept="l2Vlx" id="5Ld38uBAPN6" role="2iSdaV" />
       </node>
@@ -3068,6 +3047,27 @@
       <node concept="3F0ifn" id="7K8JRP$V7nQ" role="3EZMnx">
         <property role="3F0ifm" value="FOR UI" />
         <ref role="1k5W1q" to="z8tr:1Csx3LqGvar" resolve="O2SubConcept" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3wfz3qPc3Ib">
+    <property role="3GE5qa" value="internalInfra" />
+    <ref role="1XX52x" to="1btx:3wfz3qPc3Fr" resolve="PageConclusionOptionUserCancel" />
+    <node concept="PMmxH" id="3wfz3qPc3Iy" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" to="z8tr:6ffh1MXBJSj" resolve="O2Name" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3wfz3qPc3E0">
+    <property role="3GE5qa" value="internalInfra" />
+    <ref role="1XX52x" to="1btx:3wfz3qPc3_M" resolve="PageConclusionReference" />
+    <node concept="1iCGBv" id="3wfz3qPc3Eg" role="2wV5jI">
+      <ref role="1NtTu8" to="1btx:3wfz3qPc3Df" />
+      <node concept="1sVBvm" id="3wfz3qPc3Ei" role="1sWHZn">
+        <node concept="3F0A7n" id="3wfz3qPc3EB" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
       </node>
     </node>
   </node>
