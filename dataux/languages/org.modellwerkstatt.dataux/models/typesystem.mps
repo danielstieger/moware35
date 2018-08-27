@@ -4467,7 +4467,29 @@
         </node>
       </node>
       <node concept="3clFbH" id="3wfz3qPr3sK" role="3cqZAp" />
-      <node concept="3clFbH" id="3wfz3qPr3$M" role="3cqZAp" />
+      <node concept="3clFbJ" id="5YEYfHvn52Y" role="3cqZAp">
+        <node concept="3clFbS" id="5YEYfHvn530" role="3clFbx">
+          <node concept="2MkqsV" id="5YEYfHvnc5R" role="3cqZAp">
+            <node concept="Xl_RD" id="5YEYfHvnc66" role="2MkJ7o">
+              <property role="Xl_RC" value="Apply refectoring to mowareMRS to convert this compound actoin." />
+            </node>
+            <node concept="1YBJjd" id="5YEYfHvnc9Z" role="2OEOjV">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="5YEYfHvn9Ys" role="3clFbw">
+          <node concept="2OqwBi" id="5YEYfHvn7Gx" role="2Oq$k0">
+            <node concept="1YBJjd" id="5YEYfHvn7Bj" role="2Oq$k0">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+            </node>
+            <node concept="3TrEf2" id="5YEYfHvn9L5" role="2OqNvi">
+              <ref role="3Tt5mk" to="1btx:6IYVo2hTQQL" />
+            </node>
+          </node>
+          <node concept="3x8VRR" id="5YEYfHvnc4Q" role="2OqNvi" />
+        </node>
+      </node>
       <node concept="3clFbH" id="3wfz3qPr3GP" role="3cqZAp" />
       <node concept="3clFbJ" id="3kFdJs2Wac" role="3cqZAp">
         <node concept="3clFbS" id="3kFdJs2Wae" role="3clFbx">

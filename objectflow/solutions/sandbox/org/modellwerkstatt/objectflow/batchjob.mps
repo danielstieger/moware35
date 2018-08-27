@@ -990,18 +990,59 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3clFbF" id="5ic27avwnN2" role="3cqZAp">
-                            <node concept="1rXfSq" id="5ic27avwnN0" role="3clFbG">
-                              <ref role="37wK5l" node="2fj6lk$8KUO" resolve="prot" />
-                              <node concept="Rm8GO" id="5ic27avwoYR" role="37wK5m">
-                                <ref role="Rm8GQ" node="2fj6lk$8KUH" resolve="INFO" />
-                                <ref role="1Px2BO" node="2fj6lk$8KUF" resolve="JmxBatchJobCoreReporter.Cat" />
-                              </node>
-                              <node concept="37vLTw" id="5ic27avzEmH" role="37wK5m">
-                                <ref role="3cqZAo" node="5ic27avzCwx" resolve="msg" />
+                          <node concept="3cpWs8" id="3rZD9ZSyMQv" role="3cqZAp">
+                            <node concept="3cpWsn" id="3rZD9ZSyMQy" role="3cpWs9">
+                              <property role="TrG5h" value="silentLogCancel" />
+                              <node concept="10P_77" id="3rZD9ZSyMQt" role="1tU5fm" />
+                              <node concept="2OqwBi" id="3rZD9ZSyO0Y" role="33vP2m">
+                                <node concept="37vLTw" id="3rZD9ZSyN1$" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="7BWfrtCZqmQ" resolve="producer" />
+                                </node>
+                                <node concept="liA8E" id="3rZD9ZSyP0I" role="2OqNvi">
+                                  <ref role="37wK5l" node="2q7OPuQ95mn" resolve="isSilentNoLogException" />
+                                  <node concept="37vLTw" id="3rZD9ZSyQ02" role="37wK5m">
+                                    <ref role="3cqZAo" node="5ic27avwjwU" resolve="canceEx" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
+                          <node concept="3clFbJ" id="3rZD9ZSyZUv" role="3cqZAp">
+                            <node concept="3clFbS" id="3rZD9ZSyZUx" role="3clFbx">
+                              <node concept="3clFbF" id="5ic27avwnN2" role="3cqZAp">
+                                <node concept="1rXfSq" id="5ic27avwnN0" role="3clFbG">
+                                  <ref role="37wK5l" node="2fj6lk$8KUO" resolve="prot" />
+                                  <node concept="Rm8GO" id="5ic27avwoYR" role="37wK5m">
+                                    <ref role="Rm8GQ" node="2fj6lk$8KUH" resolve="INFO" />
+                                    <ref role="1Px2BO" node="2fj6lk$8KUF" resolve="JmxBatchJobCoreReporter.Cat" />
+                                  </node>
+                                  <node concept="37vLTw" id="5ic27avzEmH" role="37wK5m">
+                                    <ref role="3cqZAo" node="5ic27avzCwx" resolve="msg" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="3rZD9ZSz0X2" role="3clFbw">
+                              <ref role="3cqZAo" node="3rZD9ZSyMQy" resolve="silentLogCancel" />
+                            </node>
+                            <node concept="9aQIb" id="3rZD9ZSz4f1" role="9aQIa">
+                              <node concept="3clFbS" id="3rZD9ZSz4f2" role="9aQI4">
+                                <node concept="3clFbF" id="3rZD9ZSz4gR" role="3cqZAp">
+                                  <node concept="1rXfSq" id="3rZD9ZSz4gQ" role="3clFbG">
+                                    <ref role="37wK5l" node="2fj6lk$8KUO" resolve="prot" />
+                                    <node concept="Rm8GO" id="3rZD9ZSz7eN" role="37wK5m">
+                                      <ref role="Rm8GQ" node="2fj6lk$8KUJ" resolve="JOB_ERROR" />
+                                      <ref role="1Px2BO" node="2fj6lk$8KUF" resolve="JmxBatchJobCoreReporter.Cat" />
+                                    </node>
+                                    <node concept="37vLTw" id="3rZD9ZSz8cI" role="37wK5m">
+                                      <ref role="3cqZAo" node="5ic27avzCwx" resolve="msg" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbH" id="3rZD9ZSyEvC" role="3cqZAp" />
                           <node concept="3clFbF" id="5ic27avwVdl" role="3cqZAp">
                             <node concept="37vLTI" id="5ic27avwVj4" role="3clFbG">
                               <node concept="3clFbT" id="5ic27avwVkC" role="37vLTx">

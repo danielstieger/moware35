@@ -12,7 +12,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
         <property id="6054523464626875854" name="value" index="tnX3d" />
       </concept>
@@ -3647,7 +3646,6 @@
     <node concept="PrWs8" id="3wfz3qPc3Hx" role="PzmwI">
       <ref role="PrY4T" node="3wfz3qPc3B0" resolve="IPageConclusionRefOption" />
     </node>
-    <node concept="asaX9" id="5YVCCVeoMUG" role="lGtFl" />
   </node>
   <node concept="PlHQZ" id="7PeCy_MumjU">
     <property role="1pbfSe" value="272103645" />

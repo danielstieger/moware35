@@ -2603,7 +2603,7 @@
           </node>
         </node>
         <node concept="3F1sOY" id="3wfz3qPftBH" role="3EZMnx">
-          <property role="1$x2rV" value="&lt;opt&gt;" />
+          <property role="1$x2rV" value="&lt;conclusion&gt;" />
           <ref role="1NtTu8" to="1btx:3wfz3qPfteK" />
           <node concept="pkWqt" id="3wfz3qPgUsE" role="pqm2j">
             <node concept="3clFbS" id="3wfz3qPgUsF" role="2VODD2">
