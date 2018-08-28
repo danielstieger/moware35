@@ -10068,7 +10068,7 @@
                       <ref role="37wK5l" to="yg8v:5ol$NvZWMN" resolve="MenuActionGlue" />
                       <node concept="2tJIrI" id="63VjT6lCP14" role="jymVt" />
                       <node concept="3clFb_" id="63VjT6mIbYi" role="jymVt">
-                        <property role="TrG5h" value="createCompoundOuter" />
+                        <property role="TrG5h" value="configCompoundOuterCmdStart" />
                         <node concept="37vLTG" id="63VjT6mLv20" role="3clF46">
                           <property role="TrG5h" value="uri" />
                           <node concept="17QB3L" id="63VjT6mLwv3" role="1tU5fm" />
@@ -10097,6 +10097,7 @@
                         <node concept="3Tm1VV" id="63VjT6mIbYl" role="1B3o_S" />
                         <node concept="3clFbS" id="63VjT6mIbYm" role="3clF47">
                           <node concept="3clFbH" id="63VjT6mOEv3" role="3cqZAp" />
+                          <node concept="3clFbH" id="5hMizchy$FN" role="3cqZAp" />
                           <node concept="3clFbF" id="63VjT6mLkB8" role="3cqZAp">
                             <node concept="2ShNRf" id="63VjT6mLkB6" role="3clFbG">
                               <node concept="YeOm9" id="63VjT6mLlbB" role="2ShVmc">
@@ -10825,7 +10826,7 @@
                                         <ref role="3uigEE" to="1e0c:7_LnCNXPtES" resolve="BasisCmdStart" />
                                       </node>
                                       <node concept="1rXfSq" id="63VjT6mLDjl" role="33vP2m">
-                                        <ref role="37wK5l" node="63VjT6mIbYi" resolve="createCompoundOuter" />
+                                        <ref role="37wK5l" node="63VjT6mIbYi" resolve="configCompoundOuterCmdStart" />
                                         <node concept="37vLTw" id="63VjT6mLDrP" role="37wK5m">
                                           <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
                                         </node>
@@ -11052,7 +11053,7 @@
                                           <ref role="3uigEE" to="1e0c:7_LnCNXPtES" resolve="BasisCmdStart" />
                                         </node>
                                         <node concept="1rXfSq" id="63VjT6mLDQP" role="33vP2m">
-                                          <ref role="37wK5l" node="63VjT6mIbYi" resolve="createCompoundOuter" />
+                                          <ref role="37wK5l" node="63VjT6mIbYi" resolve="configCompoundOuterCmdStart" />
                                           <node concept="37vLTw" id="63VjT6mLDQQ" role="37wK5m">
                                             <ref role="3cqZAo" to="yg8v:I$l6zlL1Pe" resolve="public_uriIdentifier" />
                                           </node>
