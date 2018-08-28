@@ -6535,7 +6535,7 @@
                   <node concept="3cpWsn" id="5hYsHqQ$F3e" role="3cpWs9">
                     <property role="TrG5h" value="act" />
                     <node concept="3uibUv" id="5hYsHqQ$F3f" role="1tU5fm">
-                      <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionConfig" />
+                      <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                     </node>
                     <node concept="1rXfSq" id="5hYsHqQ$F3g" role="33vP2m">
                       <ref role="37wK5l" node="5hYsHqQxAv$" resolve="getActionFromUri" />
@@ -6547,60 +6547,23 @@
                 </node>
                 <node concept="3clFbJ" id="5hYsHqQ$F3i" role="3cqZAp">
                   <node concept="3clFbS" id="5hYsHqQ$F3j" role="3clFbx">
-                    <node concept="3clFbJ" id="4ysbFF_SaWd" role="3cqZAp">
-                      <node concept="3clFbS" id="4ysbFF_SaWf" role="3clFbx">
-                        <node concept="3SKdUt" id="4ysbFF_Sc5r" role="3cqZAp">
-                          <node concept="3SKdUq" id="4ysbFF_Sc5t" role="3SKWNk">
-                            <property role="3SKdUp" value="only when starting via url... " />
+                    <node concept="3clFbF" id="4ysbFF_Sblr" role="3cqZAp">
+                      <node concept="2OqwBi" id="4ysbFF_Sbua" role="3clFbG">
+                        <node concept="37vLTw" id="4ysbFF_Sblp" role="2Oq$k0">
+                          <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                        </node>
+                        <node concept="liA8E" id="4ysbFF_SbKB" role="2OqNvi">
+                          <ref role="37wK5l" to="1e0c:gGnCBOGKQO" resolve="startCommandByUriAndParam" />
+                          <node concept="37vLTw" id="gGnCBOHBUa" role="37wK5m">
+                            <ref role="3cqZAo" node="7r26jiNUtLg" resolve="toStartUri" />
                           </node>
-                        </node>
-                        <node concept="3clFbF" id="4ysbFF_Sblr" role="3cqZAp">
-                          <node concept="2OqwBi" id="4ysbFF_Sbua" role="3clFbG">
-                            <node concept="37vLTw" id="4ysbFF_Sblp" role="2Oq$k0">
-                              <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-                            </node>
-                            <node concept="liA8E" id="4ysbFF_SbKB" role="2OqNvi">
-                              <ref role="37wK5l" to="1e0c:gGnCBOGKQO" resolve="startCommandByUriAndParam" />
-                              <node concept="37vLTw" id="gGnCBOHBUa" role="37wK5m">
-                                <ref role="3cqZAo" node="7r26jiNUtLg" resolve="toStartUri" />
-                              </node>
-                              <node concept="37vLTw" id="gGnCBOHC2G" role="37wK5m">
-                                <ref role="3cqZAo" node="4ysbFF_Sau$" resolve="customParam" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                        <node concept="3clFbH" id="gGnCBOHCaq" role="3cqZAp" />
-                      </node>
-                      <node concept="3y3z36" id="4ysbFF_SbhQ" role="3clFbw">
-                        <node concept="10Nm6u" id="4ysbFF_Sbj6" role="3uHU7w" />
-                        <node concept="37vLTw" id="4ysbFF_Sbfq" role="3uHU7B">
-                          <ref role="3cqZAo" node="4ysbFF_Sau$" resolve="customParam" />
-                        </node>
-                      </node>
-                      <node concept="9aQIb" id="4ysbFF_SbTn" role="9aQIa">
-                        <node concept="3clFbS" id="4ysbFF_SbTo" role="9aQI4">
-                          <node concept="3clFbF" id="5hYsHqQ$F3k" role="3cqZAp">
-                            <node concept="2OqwBi" id="5hYsHqQ$F3l" role="3clFbG">
-                              <node concept="37vLTw" id="5hYsHqQ$F3m" role="2Oq$k0">
-                                <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-                              </node>
-                              <node concept="liA8E" id="5hYsHqQ$F3n" role="2OqNvi">
-                                <ref role="37wK5l" to="1e0c:4XXgpAAgf75" resolve="startCommand" />
-                                <node concept="37vLTw" id="5hYsHqQ$F3o" role="37wK5m">
-                                  <ref role="3cqZAo" node="5hYsHqQ$F3e" resolve="act" />
-                                </node>
-                                <node concept="10Nm6u" id="5hYsHqQ$F3p" role="37wK5m" />
-                                <node concept="Rm8GO" id="77aIvG86dwR" role="37wK5m">
-                                  <ref role="Rm8GQ" to="28jr:4z7jlGJreQ6" resolve="SINGLE" />
-                                  <ref role="1Px2BO" to="28jr:4z7jlGJreQ5" resolve="IOFXProcess.CmdExecStrategy" />
-                                </node>
-                              </node>
-                            </node>
+                          <node concept="37vLTw" id="gGnCBOHC2G" role="37wK5m">
+                            <ref role="3cqZAo" node="4ysbFF_Sau$" resolve="customParam" />
                           </node>
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="63VjT6luCdU" role="3cqZAp" />
                     <node concept="3clFbH" id="5hYsHqQFpUZ" role="3cqZAp" />
                   </node>
                   <node concept="3y3z36" id="5hYsHqQ$F3q" role="3clFbw">
@@ -9362,7 +9325,7 @@
       </node>
       <node concept="3Tm6S6" id="5hYsHqQx_Ml" role="1B3o_S" />
       <node concept="3uibUv" id="5hYsHqQxBAH" role="3clF45">
-        <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionConfig" />
+        <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
       </node>
       <node concept="37vLTG" id="5hYsHqQxB4F" role="3clF46">
         <property role="TrG5h" value="uri" />
