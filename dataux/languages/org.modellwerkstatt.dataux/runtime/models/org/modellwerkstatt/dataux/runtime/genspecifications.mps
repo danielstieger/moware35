@@ -1085,11 +1085,6 @@
       <node concept="17QB3L" id="5$YtY8hovbE" role="3clF45" />
       <node concept="3Tm1VV" id="5$YtY8hop4p" role="1B3o_S" />
       <node concept="3clFbS" id="5$YtY8hop4q" role="3clF47">
-        <node concept="3SKdUt" id="63VjT6lG04X" role="3cqZAp">
-          <node concept="3SKdUq" id="63VjT6lG04Z" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: Tooltip von inner, nicht von outer " />
-          </node>
-        </node>
         <node concept="3clFbF" id="5$YtY8houiP" role="3cqZAp">
           <node concept="2OqwBi" id="5$YtY8hou$r" role="3clFbG">
             <node concept="liA8E" id="5$YtY8hov4i" role="2OqNvi">
@@ -1106,7 +1101,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5$YtY8hohnV" role="jymVt" />
-    <node concept="2tJIrI" id="3nLGOmWzAh6" role="jymVt" />
     <node concept="3clFb_" id="206uhc7maoo" role="jymVt">
       <property role="TrG5h" value="checkForMultiSelection" />
       <node concept="37vLTG" id="206uhc7me5n" role="3clF46">
@@ -1477,12 +1471,24 @@
           </node>
         </node>
         <node concept="3clFbH" id="cYdxW6ASi$" role="3cqZAp" />
-        <node concept="3SKdUt" id="63VjT6lFVbT" role="3cqZAp">
-          <node concept="3SKdUq" id="63VjT6lFVbV" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: if enabled &amp;&amp; eaberInitialized -&gt; enabled= innerconfig.reevalEnabled()" />
+        <node concept="3clFbJ" id="39R747sPQVR" role="3cqZAp">
+          <node concept="3clFbS" id="39R747sPQVT" role="3clFbx">
+            <node concept="3clFbF" id="39R747sPRyl" role="3cqZAp">
+              <node concept="37vLTI" id="39R747sPRzE" role="3clFbG">
+                <node concept="1rXfSq" id="39R747sPR_p" role="37vLTx">
+                  <ref role="37wK5l" node="39R747sPK0T" resolve="evaluateInnerCommandOfCompound" />
+                </node>
+                <node concept="37vLTw" id="39R747sPRyj" role="37vLTJ">
+                  <ref role="3cqZAo" node="5$YtY8hovMv" resolve="enabled" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="39R747sPRrf" role="3clFbw">
+            <ref role="3cqZAo" node="5$YtY8hovMv" resolve="enabled" />
           </node>
         </node>
-        <node concept="3clFbH" id="cYdxW6wnn_" role="3cqZAp" />
+        <node concept="3clFbH" id="39R747sPQt5" role="3cqZAp" />
         <node concept="3clFbJ" id="1w5Ldygdh$g" role="3cqZAp">
           <node concept="3clFbS" id="1w5Ldygdh$j" role="3clFbx">
             <node concept="3clFbF" id="3nLGOmWzB9a" role="3cqZAp">
@@ -1690,6 +1696,13 @@
       <node concept="10P_77" id="WY_0Ahf18d" role="3clF45" />
       <node concept="3Tm1VV" id="WY_0Ahf18e" role="1B3o_S" />
       <node concept="3clFbS" id="WY_0Ahf18f" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="39R747sPK0T" role="jymVt">
+      <property role="TrG5h" value="evaluateInnerCommandOfCompound" />
+      <property role="1EzhhJ" value="true" />
+      <node concept="10P_77" id="39R747sPK0U" role="3clF45" />
+      <node concept="3Tm1VV" id="39R747sPK0V" role="1B3o_S" />
+      <node concept="3clFbS" id="39R747sPK0W" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="4uSs_3qZYO_" role="jymVt" />
     <node concept="3clFb_" id="4vr6dCElabG" role="jymVt">
