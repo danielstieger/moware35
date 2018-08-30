@@ -13578,6 +13578,23 @@
       <node concept="3cqZAl" id="5NnlNqto0EW" role="3clF45" />
       <node concept="3Tmbuc" id="zBgVaD9vUW" role="1B3o_S" />
       <node concept="3clFbS" id="SQhsWROCHE" role="3clF47">
+        <node concept="3cpWs8" id="6HvFgwd97jU" role="3cqZAp">
+          <node concept="3cpWsn" id="6HvFgwd97jX" role="3cpWs9">
+            <property role="TrG5h" value="successorCanUseUiFromPredecessor" />
+            <node concept="10P_77" id="6HvFgwd97jS" role="1tU5fm" />
+            <node concept="1Wc70l" id="6HvFgwd97Em" role="33vP2m">
+              <node concept="3y3z36" id="6HvFgwd97En" role="3uHU7w">
+                <node concept="37vLTw" id="6HvFgwd97Eo" role="3uHU7B">
+                  <ref role="3cqZAo" node="5_bDd1daoNx" resolve="commandUI" />
+                </node>
+                <node concept="10Nm6u" id="6HvFgwd97Ep" role="3uHU7w" />
+              </node>
+              <node concept="1rXfSq" id="6HvFgwd97Eq" role="3uHU7B">
+                <ref role="37wK5l" node="7X5ehdoKd6f" resolve="isSuccessor" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="5z$1ZeYBYog" role="3cqZAp">
           <node concept="3clFbS" id="5z$1ZeYBYoi" role="3clFbx">
             <node concept="3clFbJ" id="6bl3$WONWxa" role="3cqZAp">
@@ -13587,17 +13604,10 @@
                     <property role="3SKdUp" value="there is already a commandUI available. " />
                   </node>
                 </node>
+                <node concept="3clFbH" id="6HvFgwd981t" role="3cqZAp" />
               </node>
-              <node concept="1Wc70l" id="1LBGCxvZAOK" role="3clFbw">
-                <node concept="3y3z36" id="1LBGCxvZC9J" role="3uHU7w">
-                  <node concept="37vLTw" id="1LBGCxvZB2p" role="3uHU7B">
-                    <ref role="3cqZAo" node="5_bDd1daoNx" resolve="commandUI" />
-                  </node>
-                  <node concept="10Nm6u" id="1LBGCxvZB9$" role="3uHU7w" />
-                </node>
-                <node concept="1rXfSq" id="1LBGCxvZACb" role="3uHU7B">
-                  <ref role="37wK5l" node="7X5ehdoKd6f" resolve="isSuccessor" />
-                </node>
+              <node concept="37vLTw" id="6HvFgwd97VJ" role="3clFbw">
+                <ref role="3cqZAo" node="6HvFgwd97jX" resolve="successorCanUseUiFromPredecessor" />
               </node>
               <node concept="9aQIb" id="3EJ222E3JnF" role="9aQIa">
                 <node concept="3clFbS" id="3EJ222E3JnG" role="9aQI4">
@@ -13756,8 +13766,8 @@
                 </node>
                 <node concept="3clFbH" id="6bl3$WOWMR_" role="3cqZAp" />
               </node>
-              <node concept="1rXfSq" id="1LBGCxvZD8O" role="3clFbw">
-                <ref role="37wK5l" node="7X5ehdoKd6f" resolve="isSuccessor" />
+              <node concept="37vLTw" id="6HvFgwd98af" role="3clFbw">
+                <ref role="3cqZAo" node="6HvFgwd97jX" resolve="successorCanUseUiFromPredecessor" />
               </node>
               <node concept="9aQIb" id="5z$1ZeYC5Ct" role="9aQIa">
                 <node concept="3clFbS" id="5z$1ZeYC5Cu" role="9aQI4">
@@ -17806,7 +17816,30 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1LBGCxvZWF0" role="3cqZAp" />
+        <node concept="3clFbF" id="6HvFgwd93Gc" role="3cqZAp">
+          <node concept="d57v9" id="6HvFgwd94iI" role="3clFbG">
+            <node concept="37vLTw" id="6HvFgwd94iL" role="37vLTJ">
+              <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="commandShortName" />
+            </node>
+            <node concept="3cpWs3" id="6HvFgwd95lI" role="37vLTx">
+              <node concept="Xl_RD" id="6HvFgwd95nj" role="3uHU7B">
+                <property role="Xl_RC" value="-" />
+              </node>
+              <node concept="2YIFZM" id="6HvFgwd94A7" role="3uHU7w">
+                <ref role="37wK5l" to="28jr:5lMTsSlr3_X" resolve="getShortNameFromFQ" />
+                <ref role="1Pybhc" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                <node concept="2OqwBi" id="6HvFgwd94Eo" role="37wK5m">
+                  <node concept="37vLTw" id="6HvFgwd94C4" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6bl3$WOMWCr" resolve="cmd" />
+                  </node>
+                  <node concept="liA8E" id="6HvFgwd94HJ" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:3PmKne7Jmu1" resolve="getCommandFqName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1LBGCxwy6HX" role="3cqZAp">
           <node concept="2OqwBi" id="1LBGCxwy6W7" role="3clFbG">
             <node concept="37vLTw" id="1LBGCxwy7mm" role="2Oq$k0">
@@ -17820,7 +17853,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="39R747sDoC$" role="3cqZAp" />
         <node concept="3SKdUt" id="3EJ222E22hF" role="3cqZAp">
           <node concept="3SKdUq" id="3EJ222E22hH" role="3SKWNk">
             <property role="3SKdUp" value="not in background, since we do not expect any checkout activity " />
@@ -20906,7 +20938,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="1S90xUtGB9T" role="3cqZAp" />
           </node>
           <node concept="3fqX7Q" id="5Ld38uCpCfw" role="3clFbw">
             <node concept="37vLTw" id="5Ld38uCpC_s" role="3fr31v">
