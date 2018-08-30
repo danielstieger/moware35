@@ -24855,6 +24855,63 @@
                       </node>
                       <node concept="3clFbH" id="63VjT6m0xsu" role="3cqZAp" />
                       <node concept="3clFbJ" id="63VjT6lWUJW" role="3cqZAp">
+                        <node concept="3eNFk2" id="6HvFgwdDTma" role="3eNLev">
+                          <node concept="3clFbS" id="6HvFgwdDTmc" role="3eOfB_">
+                            <node concept="3cpWs8" id="6HvFgwdDUmc" role="3cqZAp">
+                              <node concept="3cpWsn" id="6HvFgwdDUmd" role="3cpWs9">
+                                <property role="TrG5h" value="ccHash" />
+                                <node concept="10Oyi0" id="6HvFgwdDUme" role="1tU5fm" />
+                                <node concept="1rXfSq" id="6HvFgwdDUmf" role="33vP2m">
+                                  <ref role="37wK5l" node="6IYVo2hYHDh" resolve="getConclusionHashFromName" />
+                                  <node concept="2OqwBi" id="6HvFgwdDUFW" role="37wK5m">
+                                    <node concept="37vLTw" id="6HvFgwdDUDV" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="63VjT6lWR1K" resolve="compoundCommand" />
+                                    </node>
+                                    <node concept="liA8E" id="6HvFgwdDUYf" role="2OqNvi">
+                                      <ref role="37wK5l" node="63VjT6m0ZO4" resolve="getAutoConclusion" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbF" id="6HvFgwdDUmh" role="3cqZAp">
+                              <node concept="1rXfSq" id="6HvFgwdDUmi" role="3clFbG">
+                                <ref role="37wK5l" node="7BWfrtCZte1" resolve="receive" />
+                                <node concept="2ShNRf" id="6HvFgwdDUmj" role="37wK5m">
+                                  <node concept="1pGfFk" id="6HvFgwdDUmk" role="2ShVmc">
+                                    <ref role="37wK5l" node="zBgVaD6ku7" resolve="ConclusionEvent" />
+                                    <node concept="37vLTw" id="6HvFgwdDUml" role="37wK5m">
+                                      <ref role="3cqZAo" node="6HvFgwdDUmd" resolve="ccHash" />
+                                    </node>
+                                    <node concept="Xl_RD" id="6HvFgwdDUmm" role="37wK5m">
+                                      <property role="Xl_RC" value="AutoCon" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbH" id="6HvFgwdDTSQ" role="3cqZAp" />
+                            <node concept="3clFbH" id="6HvFgwdDU7t" role="3cqZAp" />
+                          </node>
+                          <node concept="1Wc70l" id="6HvFgwdDTBX" role="3eO9$A">
+                            <node concept="3fqX7Q" id="6HvFgwdE6yK" role="3uHU7w">
+                              <node concept="2OqwBi" id="6HvFgwdE6yM" role="3fr31v">
+                                <node concept="37vLTw" id="6HvFgwdE6yN" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="63VjT6lWR1K" resolve="compoundCommand" />
+                                </node>
+                                <node concept="liA8E" id="6HvFgwdE6yO" role="2OqNvi">
+                                  <ref role="37wK5l" node="6HvFgwdDKfU" resolve="hasInner" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3y3z36" id="6HvFgwdDTC1" role="3uHU7B">
+                              <node concept="37vLTw" id="6HvFgwdDTC2" role="3uHU7B">
+                                <ref role="3cqZAo" node="63VjT6lWR1K" resolve="compoundCommand" />
+                              </node>
+                              <node concept="10Nm6u" id="6HvFgwdDTC3" role="3uHU7w" />
+                            </node>
+                          </node>
+                        </node>
                         <node concept="3clFbS" id="63VjT6lWUJY" role="3clFbx">
                           <node concept="3SKdUt" id="63VjT6lWVmX" role="3cqZAp">
                             <node concept="3SKdUq" id="63VjT6lWVmZ" role="3SKWNk">
@@ -24871,10 +24928,20 @@
                           </node>
                           <node concept="3clFbH" id="63VjT6m0xeu" role="3cqZAp" />
                         </node>
-                        <node concept="3y3z36" id="63VjT6lWV9l" role="3clFbw">
-                          <node concept="10Nm6u" id="63VjT6lWVab" role="3uHU7w" />
-                          <node concept="37vLTw" id="63VjT6lWUW4" role="3uHU7B">
-                            <ref role="3cqZAo" node="63VjT6lWR1K" resolve="compoundCommand" />
+                        <node concept="1Wc70l" id="6HvFgwdDSiZ" role="3clFbw">
+                          <node concept="2OqwBi" id="6HvFgwdDSPq" role="3uHU7w">
+                            <node concept="37vLTw" id="6HvFgwdDS$J" role="2Oq$k0">
+                              <ref role="3cqZAo" node="63VjT6lWR1K" resolve="compoundCommand" />
+                            </node>
+                            <node concept="liA8E" id="6HvFgwdDT6K" role="2OqNvi">
+                              <ref role="37wK5l" node="6HvFgwdDKfU" resolve="hasInner" />
+                            </node>
+                          </node>
+                          <node concept="3y3z36" id="63VjT6lWV9l" role="3uHU7B">
+                            <node concept="37vLTw" id="63VjT6lWUW4" role="3uHU7B">
+                              <ref role="3cqZAo" node="63VjT6lWR1K" resolve="compoundCommand" />
+                            </node>
+                            <node concept="10Nm6u" id="63VjT6lWVab" role="3uHU7w" />
                           </node>
                         </node>
                         <node concept="3eNFk2" id="63VjT6lX_ff" role="3eNLev">
@@ -30895,6 +30962,28 @@
         </node>
         <node concept="3clFbF" id="39R747thetH" role="3cqZAp">
           <node concept="10Nm6u" id="39R747thetF" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="6HvFgwdDKfU" role="jymVt">
+      <property role="TrG5h" value="hasInner" />
+      <node concept="10P_77" id="6HvFgwdDL9w" role="3clF45" />
+      <node concept="3Tm1VV" id="6HvFgwdDKfW" role="1B3o_S" />
+      <node concept="3clFbS" id="6HvFgwdDKfX" role="3clF47">
+        <node concept="3clFbF" id="6HvFgwdDQmf" role="3cqZAp">
+          <node concept="3eOSWO" id="6HvFgwdDNcC" role="3clFbG">
+            <node concept="3cmrfG" id="6HvFgwdDNnX" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="6HvFgwdDKg1" role="3uHU7B">
+              <node concept="37vLTw" id="6HvFgwdDKg2" role="2Oq$k0">
+                <ref role="3cqZAo" node="5hMizchywKf" resolve="innerCompoundConfigs" />
+              </node>
+              <node concept="liA8E" id="6HvFgwdDKg3" role="2OqNvi">
+                <ref role="37wK5l" to="33ny:~ArrayList.size():int" resolve="size" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
