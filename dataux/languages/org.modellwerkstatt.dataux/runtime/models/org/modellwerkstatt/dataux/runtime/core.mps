@@ -17038,7 +17038,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="yVRSBcZ8Pd" role="3cqZAp" />
-        <node concept="3clFbH" id="63VjT6lGBgl" role="3cqZAp" />
         <node concept="3SKdUt" id="63VjT6lGBKa" role="3cqZAp">
           <node concept="3SKdUq" id="63VjT6lGBKc" role="3SKWNk">
             <property role="3SKdUp" value="current selection controller is currentpagepanesel" />
@@ -17240,8 +17239,8 @@
                     </node>
                   </node>
                   <node concept="2OqwBi" id="7RwCLGxb2qY" role="37wK5m">
-                    <node concept="37vLTw" id="7RwCLGxb2qZ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="53Vnir0ubQB" resolve="innerCmdEvent" />
+                    <node concept="37vLTw" id="6HvFgwdcMjb" role="2Oq$k0">
+                      <ref role="3cqZAo" node="63VjT6lGt$h" resolve="outerCompound" />
                     </node>
                     <node concept="liA8E" id="63VjT6lGBwO" role="2OqNvi">
                       <ref role="37wK5l" node="63VjT6l$_H6" resolve="getLabelText" />
@@ -17302,8 +17301,8 @@
                           </node>
                         </node>
                         <node concept="2OqwBi" id="7RwCLGxb3d$" role="37wK5m">
-                          <node concept="37vLTw" id="7RwCLGxb3d_" role="2Oq$k0">
-                            <ref role="3cqZAo" node="53Vnir0ubQB" resolve="innerCmdEvent" />
+                          <node concept="37vLTw" id="6HvFgwdcMge" role="2Oq$k0">
+                            <ref role="3cqZAo" node="63VjT6lGt$h" resolve="outerCompound" />
                           </node>
                           <node concept="liA8E" id="63VjT6lGBCS" role="2OqNvi">
                             <ref role="37wK5l" node="63VjT6l$_H6" resolve="getLabelText" />
@@ -17360,8 +17359,8 @@
                           </node>
                         </node>
                         <node concept="2OqwBi" id="7RwCLGxb6HF" role="37wK5m">
-                          <node concept="37vLTw" id="7RwCLGxb6HG" role="2Oq$k0">
-                            <ref role="3cqZAo" node="53Vnir0ubQB" resolve="innerCmdEvent" />
+                          <node concept="37vLTw" id="6HvFgwdcMq7" role="2Oq$k0">
+                            <ref role="3cqZAo" node="63VjT6lGt$h" resolve="outerCompound" />
                           </node>
                           <node concept="liA8E" id="63VjT6lGBG3" role="2OqNvi">
                             <ref role="37wK5l" node="63VjT6l$_H6" resolve="getLabelText" />
