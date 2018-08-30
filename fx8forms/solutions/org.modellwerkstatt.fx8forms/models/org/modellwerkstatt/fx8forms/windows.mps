@@ -2167,7 +2167,7 @@
         <property role="TrG5h" value="action" />
         <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="2qrl3a2T0bn" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
         </node>
       </node>
       <node concept="37vLTG" id="1Ohi5d_WuSo" role="3clF46">
@@ -3856,6 +3856,7 @@
                                                   <node concept="Xl_RD" id="1dzqM5xtYni" role="37wK5m">
                                                     <property role="Xl_RC" value="FX8Application.defaultUncoughtExceptionHandler()" />
                                                   </node>
+                                                  <node concept="10Nm6u" id="6HvFgwc4k$g" role="37wK5m" />
                                                   <node concept="37vLTw" id="1dzqM5xtY$V" role="37wK5m">
                                                     <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
                                                   </node>
@@ -6610,7 +6611,7 @@
                                                 <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receive" />
                                                 <node concept="2ShNRf" id="938$CrV_19" role="37wK5m">
                                                   <node concept="1pGfFk" id="938$CrV_sj" role="2ShVmc">
-                                                    <ref role="37wK5l" to="1e0c:SQhsWRTq7b" resolve="InfoEvent" />
+                                                    <ref role="37wK5l" to="1e0c:SQhsWRTq7b" resolve="InfoAndCloseEvent" />
                                                     <node concept="2ShNRf" id="938$CrVBwF" role="37wK5m">
                                                       <node concept="1pGfFk" id="938$CrVCjg" role="2ShVmc">
                                                         <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
@@ -6794,7 +6795,7 @@
                         <node concept="1eOMI4" id="3y7CfyfoeWi" role="37wK5m">
                           <node concept="10QFUN" id="3y7CfyfoeWf" role="1eOMHV">
                             <node concept="3uibUv" id="3y7Cfyfof3z" role="10QFUM">
-                              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                             </node>
                             <node concept="37vLTw" id="3y7CfyfoeWk" role="10QFUP">
                               <ref role="3cqZAo" node="7D8bwfxisV8" resolve="currentItem" />
@@ -6812,7 +6813,7 @@
               </node>
               <node concept="2ZW3vV" id="7D8bwfxisVs" role="3clFbw">
                 <node concept="3uibUv" id="16HdUMP0RA_" role="2ZW6by">
-                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                 </node>
                 <node concept="37vLTw" id="fdGRoMYQGw" role="2ZW6bz">
                   <ref role="3cqZAo" node="7D8bwfxisV8" resolve="currentItem" />
@@ -7377,7 +7378,7 @@
         <property role="TrG5h" value="action" />
         <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="3y7CfyfnzGV" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
         </node>
       </node>
       <node concept="37vLTG" id="3y7CfyfnMpf" role="3clF46">
@@ -10480,7 +10481,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="_YKpA" id="3oBdEpSLcT7" role="1tU5fm">
         <node concept="3uibUv" id="3oBdEpSLdJa" role="_ZDj9">
-          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
         </node>
       </node>
       <node concept="3Tm6S6" id="3oBdEpSLe_v" role="1B3o_S" />
@@ -10572,12 +10573,12 @@
                     <property role="TrG5h" value="trigger" />
                     <property role="3TUv4t" value="true" />
                     <node concept="3uibUv" id="7aUgYCzB9wk" role="1tU5fm">
-                      <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                      <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                     </node>
                     <node concept="1eOMI4" id="7aUgYCzB7lE" role="33vP2m">
                       <node concept="10QFUN" id="7aUgYCzB7lG" role="1eOMHV">
                         <node concept="3uibUv" id="7aUgYCzB7lH" role="10QFUM">
-                          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                         </node>
                         <node concept="37vLTw" id="7aUgYCzB7lI" role="10QFUP">
                           <ref role="3cqZAo" node="7aUgYCzB0H$" resolve="currentItem" />
@@ -10748,7 +10749,7 @@
               </node>
               <node concept="2ZW3vV" id="7aUgYCzB0GK" role="3clFbw">
                 <node concept="3uibUv" id="7aUgYCzB0GL" role="2ZW6by">
-                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                 </node>
                 <node concept="37vLTw" id="7aUgYCzB0GM" role="2ZW6bz">
                   <ref role="3cqZAo" node="7aUgYCzB0H$" resolve="currentItem" />
@@ -11056,7 +11057,7 @@
           <node concept="3cpWsn" id="3oBdEpSLqZQ" role="1Duv9x">
             <property role="TrG5h" value="action" />
             <node concept="3uibUv" id="3oBdEpSLrcP" role="1tU5fm">
-              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
             </node>
           </node>
           <node concept="3clFbS" id="3oBdEpSLqZS" role="2LFqv$">
@@ -11134,7 +11135,7 @@
           <node concept="3cpWsn" id="4vr6dCDMxwN" role="1Duv9x">
             <property role="TrG5h" value="action" />
             <node concept="3uibUv" id="4vr6dCDMxwO" role="1tU5fm">
-              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
             </node>
           </node>
           <node concept="3clFbS" id="4vr6dCDMxwP" role="2LFqv$">

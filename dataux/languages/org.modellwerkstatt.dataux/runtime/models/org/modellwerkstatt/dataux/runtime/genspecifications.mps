@@ -1103,8 +1103,18 @@
     <node concept="2tJIrI" id="5$YtY8hohnV" role="jymVt" />
     <node concept="3clFb_" id="206uhc7maoo" role="jymVt">
       <property role="TrG5h" value="checkForMultiSelection" />
+      <node concept="37vLTG" id="6HvFgwbyt$y" role="3clF46">
+        <property role="TrG5h" value="proc" />
+        <node concept="3uibUv" id="6HvFgwbyudj" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3EmX" resolve="IOFXProcess" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6HvFgwbyulV" role="3clF46">
+        <property role="TrG5h" value="cmdFqName" />
+        <node concept="17QB3L" id="6HvFgwbyuZg" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="206uhc7me5n" role="3clF46">
-        <property role="TrG5h" value="sel" />
+        <property role="TrG5h" value="localSelection" />
         <node concept="3uibUv" id="206uhc7meAS" role="1tU5fm">
           <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
         </node>
@@ -1153,7 +1163,7 @@
             </node>
             <node concept="2OqwBi" id="206uhc7lN8d" role="33vP2m">
               <node concept="37vLTw" id="206uhc7lN7a" role="2Oq$k0">
-                <ref role="3cqZAo" node="206uhc7me5n" resolve="sel" />
+                <ref role="3cqZAo" node="206uhc7me5n" resolve="localSelection" />
               </node>
               <node concept="liA8E" id="206uhc7lNam" role="2OqNvi">
                 <ref role="37wK5l" to="28jr:6ffh1MXuemN" resolve="getObjects" />
@@ -1223,8 +1233,8 @@
                   <ref role="3uigEE" to="28jr:11hNSr_a7DY" resolve="IOFXProcess.CommandPermission" />
                 </node>
                 <node concept="2OqwBi" id="206uhc7mqpO" role="33vP2m">
-                  <node concept="37vLTw" id="206uhc7mqpP" role="2Oq$k0">
-                    <ref role="3cqZAo" node="Y3fiVJOkQQ" resolve="process" />
+                  <node concept="37vLTw" id="6HvFgwbyvZ3" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6HvFgwbyt$y" resolve="proc" />
                   </node>
                   <node concept="liA8E" id="206uhc7mqpQ" role="2OqNvi">
                     <ref role="37wK5l" to="28jr:7rqBz8B3EmZ" resolve="getCommandPermission" />
@@ -1244,8 +1254,8 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="37vLTw" id="206uhc7mqpW" role="37wK5m">
-                      <ref role="3cqZAo" node="5$YtY8hobHP" resolve="public_commandFqName" />
+                    <node concept="37vLTw" id="6HvFgwbyw8U" role="37wK5m">
+                      <ref role="3cqZAo" node="6HvFgwbyulV" resolve="cmdFqName" />
                     </node>
                     <node concept="AH0OO" id="206uhc7mqpX" role="37wK5m">
                       <node concept="3cmrfG" id="206uhc7mqpY" role="AHEQo">
@@ -1414,7 +1424,7 @@
             <node concept="3clFbS" id="6Otb6UAdxzj" role="9aQI4">
               <node concept="3cpWs8" id="206uhc7lLsS" role="3cqZAp">
                 <node concept="3cpWsn" id="206uhc7lLsT" role="3cpWs9">
-                  <property role="TrG5h" value="sel" />
+                  <property role="TrG5h" value="tmpLocalSelection" />
                   <node concept="3uibUv" id="206uhc7lLsU" role="1tU5fm">
                     <ref role="3uigEE" to="28jr:7rqBz8B3JOM" resolve="IOFXSelection" />
                   </node>
@@ -1434,8 +1444,14 @@
                     <node concept="37vLTI" id="206uhc7meDE" role="3clFbG">
                       <node concept="1rXfSq" id="206uhc7meFc" role="37vLTx">
                         <ref role="37wK5l" node="206uhc7maoo" resolve="checkForMultiSelection" />
-                        <node concept="37vLTw" id="206uhc7meG1" role="37wK5m">
-                          <ref role="3cqZAo" node="206uhc7lLsT" resolve="sel" />
+                        <node concept="37vLTw" id="6HvFgwbyvAc" role="37wK5m">
+                          <ref role="3cqZAo" node="Y3fiVJOkQQ" resolve="process" />
+                        </node>
+                        <node concept="37vLTw" id="6HvFgwbyvDg" role="37wK5m">
+                          <ref role="3cqZAo" node="5$YtY8hobHP" resolve="public_commandFqName" />
+                        </node>
+                        <node concept="37vLTw" id="6HvFgwbyvGB" role="37wK5m">
+                          <ref role="3cqZAo" node="206uhc7lLsT" resolve="tmpLocalSelection" />
                         </node>
                       </node>
                       <node concept="37vLTw" id="206uhc7meCd" role="37vLTJ">
@@ -1451,7 +1467,7 @@
                     </node>
                     <node concept="2OqwBi" id="3nYsKhuUGt8" role="3uHU7B">
                       <node concept="37vLTw" id="3nYsKhuUGs5" role="2Oq$k0">
-                        <ref role="3cqZAo" node="206uhc7lLsT" resolve="sel" />
+                        <ref role="3cqZAo" node="206uhc7lLsT" resolve="tmpLocalSelection" />
                       </node>
                       <node concept="liA8E" id="3nYsKhuUGvg" role="2OqNvi">
                         <ref role="37wK5l" to="28jr:6ffh1MXuenu" resolve="size" />
@@ -1460,7 +1476,7 @@
                   </node>
                   <node concept="3y3z36" id="6Otb6UAdycW" role="3uHU7B">
                     <node concept="37vLTw" id="6Otb6UAdybS" role="3uHU7B">
-                      <ref role="3cqZAo" node="206uhc7lLsT" resolve="sel" />
+                      <ref role="3cqZAo" node="206uhc7lLsT" resolve="tmpLocalSelection" />
                     </node>
                     <node concept="10Nm6u" id="6Otb6UAdydP" role="3uHU7w" />
                   </node>

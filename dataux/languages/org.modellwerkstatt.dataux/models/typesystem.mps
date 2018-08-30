@@ -3497,7 +3497,6 @@
                 <property role="3SKdUp" value="* * * * * used as menu in some ux element" />
               </node>
             </node>
-            <node concept="3clFbH" id="6K73LRv6To3" role="3cqZAp" />
             <node concept="3SKdUt" id="1xbJ1snAn74" role="3cqZAp">
               <node concept="3SKdUq" id="1xbJ1snAn75" role="3SKWNk">
                 <property role="3SKdUp" value=" check some rules regardig menu handling..." />
@@ -3572,6 +3571,26 @@
                             </node>
                           </node>
                           <node concept="3clFbH" id="6K73LRv6U0Y" role="3cqZAp" />
+                        </node>
+                        <node concept="3eNFk2" id="6HvFgwciVjA" role="3eNLev">
+                          <node concept="3clFbS" id="6HvFgwciVjC" role="3eOfB_">
+                            <node concept="3SKdUt" id="6HvFgwciVqK" role="3cqZAp">
+                              <node concept="3SKdUq" id="6HvFgwciVqL" role="3SKWNk">
+                                <property role="3SKdUp" value="just a sep - place it anywhere .." />
+                              </node>
+                            </node>
+                            <node concept="3clFbH" id="6HvFgwciVWa" role="3cqZAp" />
+                          </node>
+                          <node concept="2OqwBi" id="6HvFgwciUW1" role="3eO9$A">
+                            <node concept="37vLTw" id="6HvFgwciURq" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1xbJ1snAoDE" resolve="it" />
+                            </node>
+                            <node concept="1mIQ4w" id="6HvFgwciV1V" role="2OqNvi">
+                              <node concept="chp4Y" id="6HvFgwciV5G" role="cj9EA">
+                                <ref role="cht4Q" to="1btx:2aCEJxoChNG" resolve="MenuSeparator" />
+                              </node>
+                            </node>
+                          </node>
                         </node>
                         <node concept="3eNFk2" id="1xbJ1snApFD" role="3eNLev">
                           <node concept="37vLTw" id="1xbJ1snApIE" role="3eO9$A">
@@ -5321,6 +5340,39 @@
         </node>
       </node>
       <node concept="3clFbH" id="s8qRnhqxUN" role="3cqZAp" />
+      <node concept="3clFbJ" id="6HvFgwbuVJS" role="3cqZAp">
+        <node concept="3clFbS" id="6HvFgwbuVJU" role="3clFbx">
+          <node concept="a7r0C" id="6HvFgwbvdQ9" role="3cqZAp">
+            <node concept="1YBJjd" id="6HvFgwbvdTB" role="2OEOjV">
+              <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+            </node>
+            <node concept="Xl_RD" id="6HvFgwbvdRJ" role="a7wSD">
+              <property role="Xl_RC" value="Right now, not applying an inner action is discouraged." />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="6HvFgwbuWkc" role="3clFbw">
+          <node concept="3clFbC" id="6HvFgwbvagm" role="3uHU7w">
+            <node concept="3cmrfG" id="6HvFgwbvbTX" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="6HvFgwbv1Do" role="3uHU7B">
+              <node concept="2OqwBi" id="6HvFgwbuWq4" role="2Oq$k0">
+                <node concept="1YBJjd" id="6HvFgwbuWkM" role="2Oq$k0">
+                  <ref role="1YBMHb" node="50l$rcpIuqA" resolve="menuCompoundAction" />
+                </node>
+                <node concept="3Tsc0h" id="6HvFgwbuYwN" role="2OqNvi">
+                  <ref role="3TtcxE" to="1btx:1K7fNI_kqJZ" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="6HvFgwbv6S9" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="37vLTw" id="6HvFgwbuWim" role="3uHU7B">
+            <ref role="3cqZAo" node="50l$rcpLl8O" resolve="isBaseCommand" />
+          </node>
+        </node>
+      </node>
       <node concept="3clFbH" id="s8qRnhqyoW" role="3cqZAp" />
       <node concept="3SKdUt" id="s8qRnhqzvr" role="3cqZAp">
         <node concept="3SKdUq" id="s8qRnhqzvt" role="3SKWNk">
