@@ -62,7 +62,7 @@
     	<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions" includes="*.jar"/>
   	</delete>
     
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.runtime.jar"
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.objectflow.runtime.jar"
     	 basedir="${mowareHome}/objectflow/solutions/sandbox/classes_gen" />
          
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.solution.jar" 
@@ -86,12 +86,14 @@
     <mkdir dir="work"/>
     <mkdir dir="work/WEB-INF/lib"/>
     <copy todir="work/WEB-INF/lib">
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.runtime.jar" />
+	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.h2forms.runtime.jar" />
 	  
-      <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />      
+      <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />   
+      <fileset dir="${mowarePluginHomeDir}/jars/eventbus/" includes="*.jar" />   
+         
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-collections.jar" />
       <fileset dir="${javawareHomeDir}/HafinaBasis/jars" includes="*.jar" />

@@ -20,6 +20,7 @@
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="x5li" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.format(org.modellwerkstatt.manmap.solution/)" />
     <import index="ni5j" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.regex(JDK/)" />
+    <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -269,6 +270,13 @@
         <ref role="3uigEE" node="4x14MABr2ep" resolve="ApplicationTelemetrics" />
       </node>
     </node>
+    <node concept="312cEg" id="1YUU7GW1i_3" role="jymVt">
+      <property role="TrG5h" value="eventbus" />
+      <node concept="3Tm6S6" id="1YUU7GW1i_4" role="1B3o_S" />
+      <node concept="3uibUv" id="1YUU7GW1jEc" role="1tU5fm">
+        <ref role="3uigEE" to="gyq6:1PUq9fiYGac" resolve="OFXEventbus" />
+      </node>
+    </node>
     <node concept="312cEg" id="64g0II1ygHc" role="jymVt">
       <property role="TrG5h" value="servletBasePath" />
       <node concept="3Tm6S6" id="64g0II1ygHd" role="1B3o_S" />
@@ -356,8 +364,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="7VDbE_c79B9" role="3cqZAp" />
-        <node concept="3clFbH" id="7VDbE_c79E1" role="3cqZAp" />
-        <node concept="3clFbH" id="7VDbE_c79ED" role="3cqZAp" />
         <node concept="3clFbF" id="64g0II1$MVk" role="3cqZAp">
           <node concept="37vLTI" id="64g0II1$N3J" role="3clFbG">
             <node concept="37vLTw" id="64g0II1$Nbr" role="37vLTx">
@@ -539,6 +545,29 @@
               </node>
             </node>
             <node concept="3clFbH" id="3CnNtH_1vwE" role="3cqZAp" />
+            <node concept="3clFbF" id="1YUU7GW1k0Z" role="3cqZAp">
+              <node concept="37vLTI" id="1YUU7GW1k3Q" role="3clFbG">
+                <node concept="2ShNRf" id="1YUU7GW1kbO" role="37vLTx">
+                  <node concept="1pGfFk" id="1YUU7GW1k5a" role="2ShVmc">
+                    <ref role="37wK5l" to="gyq6:1YUU7GVVOhS" resolve="OFXEventbus" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="1YUU7GW1k0X" role="37vLTJ">
+                  <ref role="3cqZAo" node="1YUU7GW1i_3" resolve="eventbus" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1YUU7GW1ks0" role="3cqZAp">
+              <node concept="2OqwBi" id="1YUU7GW1kAd" role="3clFbG">
+                <node concept="37vLTw" id="1YUU7GW1krY" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1YUU7GW1i_3" resolve="eventbus" />
+                </node>
+                <node concept="liA8E" id="1YUU7GW1kHZ" role="2OqNvi">
+                  <ref role="37wK5l" to="gyq6:1YUU7GVVOtG" resolve="init" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1YUU7GW1jNh" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="2yuEF6qbsGA" role="TEbGg">
             <node concept="3clFbS" id="2yuEF6qbsGD" role="TDEfX">
@@ -1055,6 +1084,52 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5YG5DD8WGJl" role="jymVt" />
+    <node concept="3clFb_" id="1YUU7GW1m9l" role="jymVt">
+      <property role="TrG5h" value="logToEventbus" />
+      <node concept="37vLTG" id="1YUU7GW1mxL" role="3clF46">
+        <property role="TrG5h" value="userId" />
+        <node concept="10Oyi0" id="1YUU7GW1rhD" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1YUU7GW1rlb" role="3clF46">
+        <property role="TrG5h" value="userName" />
+        <node concept="17QB3L" id="1YUU7GW1rBV" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1YUU7GW1rC9" role="3clF46">
+        <property role="TrG5h" value="timestamp" />
+        <node concept="3cpWsb" id="1YUU7GW1scu" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1YUU7GW1n7N" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="1YUU7GW1n8c" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1YUU7GW1m9n" role="3clF45" />
+      <node concept="3Tm1VV" id="1YUU7GW1m9o" role="1B3o_S" />
+      <node concept="3clFbS" id="1YUU7GW1m9p" role="3clF47">
+        <node concept="3clFbF" id="1YUU7GW1n9z" role="3cqZAp">
+          <node concept="2OqwBi" id="1YUU7GW1nrY" role="3clFbG">
+            <node concept="37vLTw" id="1YUU7GW1n9y" role="2Oq$k0">
+              <ref role="3cqZAo" node="1YUU7GW1i_3" resolve="eventbus" />
+            </node>
+            <node concept="liA8E" id="1YUU7GW1nzC" role="2OqNvi">
+              <ref role="37wK5l" to="gyq6:1YUU7GVWsDX" resolve="sendToGlobalLog" />
+              <node concept="37vLTw" id="1YUU7GW1n$K" role="37wK5m">
+                <ref role="3cqZAo" node="1YUU7GW1mxL" resolve="userId" />
+              </node>
+              <node concept="37vLTw" id="1YUU7GW1uW3" role="37wK5m">
+                <ref role="3cqZAo" node="1YUU7GW1rlb" resolve="userName" />
+              </node>
+              <node concept="37vLTw" id="1YUU7GW1uYz" role="37wK5m">
+                <ref role="3cqZAo" node="1YUU7GW1rC9" resolve="timestamp" />
+              </node>
+              <node concept="37vLTw" id="1YUU7GW1n_N" role="37wK5m">
+                <ref role="3cqZAo" node="1YUU7GW1n7N" resolve="msg" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1YUU7GW1luc" role="jymVt" />
     <node concept="3clFb_" id="5NnlNqtAniw" role="jymVt">
       <property role="TrG5h" value="logWithoutApplication" />
       <node concept="37vLTG" id="5NnlNqtAoTf" role="3clF46">
@@ -1126,6 +1201,17 @@
                 </node>
                 <node concept="liA8E" id="31dwTLEKsya" role="2OqNvi">
                   <ref role="37wK5l" node="6rMtHgbDDVu" resolve="gcClean" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="1YUU7GW1l09" role="3cqZAp" />
+            <node concept="3clFbF" id="1YUU7GW1l8r" role="3cqZAp">
+              <node concept="2OqwBi" id="1YUU7GW1lbs" role="3clFbG">
+                <node concept="37vLTw" id="1YUU7GW1l8p" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1YUU7GW1i_3" resolve="eventbus" />
+                </node>
+                <node concept="liA8E" id="1YUU7GW1lje" role="2OqNvi">
+                  <ref role="37wK5l" to="gyq6:1YUU7GVWqDS" resolve="close" />
                 </node>
               </node>
             </node>

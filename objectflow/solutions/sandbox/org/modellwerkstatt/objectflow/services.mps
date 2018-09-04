@@ -26,6 +26,9 @@
     <import index="mz1c" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.naming(JDK/)" />
     <import index="zenp" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.naming.ldap(JDK/)" />
     <import index="h6fz" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.naming.directory(JDK/)" />
+    <import index="9fa0" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:ng.abdlquadri.eventbus(org.modellwerkstatt.objectflow.runtime/)" />
+    <import index="cef3" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:ng.abdlquadri.eventbus.handlers(org.modellwerkstatt.objectflow.runtime/)" />
+    <import index="vpat" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:mjson(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.sandbox/)" implicit="true" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" implicit="true" />
   </imports>
@@ -115,6 +118,9 @@
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
+        <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
@@ -321,6 +327,9 @@
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
       <concept id="1200397529627" name="jetbrains.mps.baseLanguage.structure.CharConstant" flags="nn" index="1Xhbcc">
         <property id="1200397540847" name="charConstant" index="1XhdNS" />
+      </concept>
+      <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
+        <reference id="1170346070688" name="classifier" index="1Y3XeK" />
       </concept>
       <concept id="8064396509828172209" name="jetbrains.mps.baseLanguage.structure.UnaryMinus" flags="nn" index="1ZRNhn" />
     </language>
@@ -41141,6 +41150,409 @@
     </node>
     <node concept="2tJIrI" id="3yttyAV_ruU" role="jymVt" />
     <node concept="3Tm1VV" id="5n6hJfGTwSs" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="1PUq9fiYGac">
+    <property role="TrG5h" value="OFXEventbus" />
+    <node concept="3Tm1VV" id="1PUq9fiYGad" role="1B3o_S" />
+    <node concept="2tJIrI" id="1PUq9fiYGbq" role="jymVt" />
+    <node concept="312cEg" id="1YUU7GVVOBU" role="jymVt">
+      <property role="TrG5h" value="upNrunning" />
+      <property role="3TUv4t" value="false" />
+      <property role="34CwA1" value="true" />
+      <node concept="10P_77" id="1YUU7GVVOft" role="1tU5fm" />
+      <node concept="3Tm6S6" id="1YUU7GVVOcc" role="1B3o_S" />
+    </node>
+    <node concept="312cEg" id="2ExzLzC1ioI" role="jymVt">
+      <property role="TrG5h" value="logger" />
+      <node concept="3Tm6S6" id="2ExzLzC1ioJ" role="1B3o_S" />
+      <node concept="3uibUv" id="7Tmb8cxmhVy" role="1tU5fm">
+        <ref role="3uigEE" to="1u6b:~Log" resolve="Log" />
+      </node>
+    </node>
+    <node concept="312cEg" id="1PUq9fiYGp7" role="jymVt">
+      <property role="TrG5h" value="bus" />
+      <node concept="3Tm6S6" id="1PUq9fiYGp8" role="1B3o_S" />
+      <node concept="3uibUv" id="1PUq9fiYG$k" role="1tU5fm">
+        <ref role="3uigEE" to="9fa0:~EventBus" resolve="EventBus" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1PUq9fiYG$H" role="jymVt" />
+    <node concept="2tJIrI" id="1YUU7GVVJGH" role="jymVt" />
+    <node concept="3clFbW" id="1YUU7GVVOhS" role="jymVt">
+      <node concept="3cqZAl" id="1YUU7GVVOhU" role="3clF45" />
+      <node concept="3Tm1VV" id="1YUU7GVVOhV" role="1B3o_S" />
+      <node concept="3clFbS" id="1YUU7GVVOhW" role="3clF47">
+        <node concept="3clFbF" id="1YUU7GVVOmd" role="3cqZAp">
+          <node concept="37vLTI" id="1YUU7GVVOnI" role="3clFbG">
+            <node concept="3clFbT" id="1YUU7GVVOom" role="37vLTx">
+              <property role="3clFbU" value="false" />
+            </node>
+            <node concept="37vLTw" id="1YUU7GVVPwY" role="37vLTJ">
+              <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1YUU7GVWd$J" role="3cqZAp">
+          <node concept="37vLTI" id="1YUU7GVWd_Y" role="3clFbG">
+            <node concept="37vLTw" id="1YUU7GVWd$H" role="37vLTJ">
+              <ref role="3cqZAo" node="2ExzLzC1ioI" resolve="logger" />
+            </node>
+            <node concept="2YIFZM" id="7Tmb8cxmiZ8" role="37vLTx">
+              <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+              <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+              <node concept="3VsKOn" id="1YUU7GVWdwS" role="37wK5m">
+                <ref role="3VsUkX" node="1PUq9fiYGac" resolve="OFXEventbus" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1YUU7GW4GYN" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1YUU7GVVJKj" role="jymVt" />
+    <node concept="2tJIrI" id="1YUU7GVVJHP" role="jymVt" />
+    <node concept="3clFb_" id="1YUU7GVVOtG" role="jymVt">
+      <property role="TrG5h" value="init" />
+      <node concept="3cqZAl" id="1YUU7GVVOtI" role="3clF45" />
+      <node concept="3Tm1VV" id="1YUU7GVVOtJ" role="1B3o_S" />
+      <node concept="3clFbS" id="1YUU7GVVOtK" role="3clF47">
+        <node concept="3clFbF" id="1PUq9fiYGCb" role="3cqZAp">
+          <node concept="2YIFZM" id="1PUq9fiYGCD" role="3clFbG">
+            <ref role="1Pybhc" to="9fa0:~EventBus" resolve="EventBus" />
+            <ref role="37wK5l" to="9fa0:~EventBus.connect(java.lang.String,int,ng.abdlquadri.eventbus.handlers.ConnectHandler):void" resolve="connect" />
+            <node concept="10M0yZ" id="1YUU7GVWe4H" role="37wK5m">
+              <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+              <ref role="3cqZAo" to="28jr:1YUU7GVWemx" resolve="MPREIS_EVENTBUS_HOST" />
+            </node>
+            <node concept="10M0yZ" id="1YUU7GVWnRx" role="37wK5m">
+              <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+              <ref role="3cqZAo" to="28jr:1YUU7GVWeoQ" resolve="MPREIS_EVENTBUS_PORT" />
+            </node>
+            <node concept="2ShNRf" id="1PUq9fiYHfx" role="37wK5m">
+              <node concept="YeOm9" id="1PUq9fiYIjR" role="2ShVmc">
+                <node concept="1Y3b0j" id="1PUq9fiYIjU" role="YeSDq">
+                  <property role="2bfB8j" value="true" />
+                  <ref role="1Y3XeK" to="cef3:~ConnectHandler" resolve="ConnectHandler" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                  <node concept="3Tm1VV" id="1PUq9fiYIjV" role="1B3o_S" />
+                  <node concept="3clFb_" id="1PUq9fiYIjW" role="jymVt">
+                    <property role="1EzhhJ" value="false" />
+                    <property role="TrG5h" value="onConnect" />
+                    <property role="DiZV1" value="false" />
+                    <property role="od$2w" value="false" />
+                    <node concept="3Tm1VV" id="1PUq9fiYIjX" role="1B3o_S" />
+                    <node concept="3cqZAl" id="1PUq9fiYIjZ" role="3clF45" />
+                    <node concept="37vLTG" id="1PUq9fiYIk0" role="3clF46">
+                      <property role="TrG5h" value="p0" />
+                      <node concept="10P_77" id="1PUq9fiYIk1" role="1tU5fm" />
+                    </node>
+                    <node concept="3clFbS" id="1PUq9fiYIk2" role="3clF47">
+                      <node concept="3clFbF" id="1YUU7GVVPzf" role="3cqZAp">
+                        <node concept="37vLTI" id="1YUU7GVVPBl" role="3clFbG">
+                          <node concept="37vLTw" id="1YUU7GVVPCe" role="37vLTx">
+                            <ref role="3cqZAo" node="1PUq9fiYIk0" resolve="p0" />
+                          </node>
+                          <node concept="37vLTw" id="1YUU7GVVPze" role="37vLTJ">
+                            <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="1YUU7GVWdGa" role="3cqZAp">
+                        <node concept="3clFbS" id="1YUU7GVWdGc" role="3clFbx">
+                          <node concept="3clFbF" id="1YUU7GVWdN4" role="3cqZAp">
+                            <node concept="2OqwBi" id="1YUU7GVWdNW" role="3clFbG">
+                              <node concept="37vLTw" id="1YUU7GVWdN2" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2ExzLzC1ioI" resolve="logger" />
+                              </node>
+                              <node concept="liA8E" id="1YUU7GVWdQ7" role="2OqNvi">
+                                <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                                <node concept="3cpWs3" id="1YUU7GVWpdh" role="37wK5m">
+                                  <node concept="Xl_RD" id="1YUU7GVWpfl" role="3uHU7w">
+                                    <property role="Xl_RC" value=", global logging disabled!" />
+                                  </node>
+                                  <node concept="3cpWs3" id="1YUU7GVWp16" role="3uHU7B">
+                                    <node concept="3cpWs3" id="1YUU7GVWoVi" role="3uHU7B">
+                                      <node concept="3cpWs3" id="1YUU7GVWoMw" role="3uHU7B">
+                                        <node concept="Xl_RD" id="1YUU7GVWdR7" role="3uHU7B">
+                                          <property role="Xl_RC" value="Was not able to connect to eventbus at " />
+                                        </node>
+                                        <node concept="10M0yZ" id="1YUU7GVWoPV" role="3uHU7w">
+                                          <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                                          <ref role="3cqZAo" to="28jr:1YUU7GVWemx" resolve="MPREIS_EVENTBUS_HOST" />
+                                        </node>
+                                      </node>
+                                      <node concept="Xl_RD" id="1YUU7GVWoVO" role="3uHU7w">
+                                        <property role="Xl_RC" value=":" />
+                                      </node>
+                                    </node>
+                                    <node concept="10M0yZ" id="1YUU7GVWp5u" role="3uHU7w">
+                                      <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                                      <ref role="3cqZAo" to="28jr:1YUU7GVWeoQ" resolve="MPREIS_EVENTBUS_PORT" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3clFbC" id="1YUU7GVWdJQ" role="3clFbw">
+                          <node concept="3clFbT" id="1YUU7GVWdKL" role="3uHU7w">
+                            <property role="3clFbU" value="false" />
+                          </node>
+                          <node concept="37vLTw" id="1YUU7GVWdI3" role="3uHU7B">
+                            <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2tJIrI" id="1YUU7GVWp_y" role="jymVt" />
+                  <node concept="3clFb_" id="1PUq9fiYIk4" role="jymVt">
+                    <property role="1EzhhJ" value="false" />
+                    <property role="TrG5h" value="onDisConnect" />
+                    <property role="DiZV1" value="false" />
+                    <property role="od$2w" value="false" />
+                    <node concept="3Tm1VV" id="1PUq9fiYIk5" role="1B3o_S" />
+                    <node concept="3cqZAl" id="1PUq9fiYIk7" role="3clF45" />
+                    <node concept="37vLTG" id="1PUq9fiYIk8" role="3clF46">
+                      <property role="TrG5h" value="p0" />
+                      <node concept="3uibUv" id="1PUq9fiYIk9" role="1tU5fm">
+                        <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="1PUq9fiYIka" role="3clF47">
+                      <node concept="3clFbF" id="1YUU7GVWpFE" role="3cqZAp">
+                        <node concept="37vLTI" id="1YUU7GVWpHw" role="3clFbG">
+                          <node concept="3clFbT" id="1YUU7GVWpIk" role="37vLTx">
+                            <property role="3clFbU" value="false" />
+                          </node>
+                          <node concept="37vLTw" id="1YUU7GVWpFD" role="37vLTJ">
+                            <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="1YUU7GW5tiC" role="3cqZAp">
+                        <node concept="3clFbS" id="1YUU7GW5tiE" role="3clFbx">
+                          <node concept="3clFbF" id="1YUU7GVWpK$" role="3cqZAp">
+                            <node concept="2OqwBi" id="1YUU7GVWpK_" role="3clFbG">
+                              <node concept="37vLTw" id="1YUU7GVWpKA" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2ExzLzC1ioI" resolve="logger" />
+                              </node>
+                              <node concept="liA8E" id="1YUU7GVWpKB" role="2OqNvi">
+                                <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object,java.lang.Throwable):void" resolve="error" />
+                                <node concept="3cpWs3" id="1YUU7GVWpKC" role="37wK5m">
+                                  <node concept="Xl_RD" id="1YUU7GVWpKD" role="3uHU7w">
+                                    <property role="Xl_RC" value=", reason" />
+                                  </node>
+                                  <node concept="3cpWs3" id="1YUU7GVWpKE" role="3uHU7B">
+                                    <node concept="3cpWs3" id="1YUU7GVWpKF" role="3uHU7B">
+                                      <node concept="3cpWs3" id="1YUU7GVWpKG" role="3uHU7B">
+                                        <node concept="Xl_RD" id="1YUU7GVWpKH" role="3uHU7B">
+                                          <property role="Xl_RC" value="Disconnected from eventbus at " />
+                                        </node>
+                                        <node concept="10M0yZ" id="1YUU7GVWpKI" role="3uHU7w">
+                                          <ref role="3cqZAo" to="28jr:1YUU7GVWemx" resolve="MPREIS_EVENTBUS_HOST" />
+                                          <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                                        </node>
+                                      </node>
+                                      <node concept="Xl_RD" id="1YUU7GVWpKJ" role="3uHU7w">
+                                        <property role="Xl_RC" value=":" />
+                                      </node>
+                                    </node>
+                                    <node concept="10M0yZ" id="1YUU7GVWpKK" role="3uHU7w">
+                                      <ref role="3cqZAo" to="28jr:1YUU7GVWeoQ" resolve="MPREIS_EVENTBUS_PORT" />
+                                      <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="37vLTw" id="1YUU7GVWqdb" role="37wK5m">
+                                  <ref role="3cqZAo" node="1PUq9fiYIk8" resolve="p0" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3fqX7Q" id="1YUU7GW5tF6" role="3clFbw">
+                          <node concept="2OqwBi" id="1YUU7GW5tF8" role="3fr31v">
+                            <node concept="2OqwBi" id="1YUU7GW5tF9" role="2Oq$k0">
+                              <node concept="37vLTw" id="1YUU7GW5tFa" role="2Oq$k0">
+                                <ref role="3cqZAo" node="1PUq9fiYIk8" resolve="p0" />
+                              </node>
+                              <node concept="liA8E" id="1YUU7GW5tFb" role="2OqNvi">
+                                <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="1YUU7GW5tFc" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                              <node concept="Xl_RD" id="1YUU7GW5tFd" role="37wK5m">
+                                <property role="Xl_RC" value="You are disconnected from the EventBus" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1YUU7GVWqhv" role="jymVt" />
+    <node concept="3clFb_" id="1YUU7GVWsDX" role="jymVt">
+      <property role="TrG5h" value="sendToGlobalLog" />
+      <node concept="37vLTG" id="1YUU7GVWtoB" role="3clF46">
+        <property role="TrG5h" value="userId" />
+        <node concept="10Oyi0" id="1YUU7GW1skB" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1YUU7GW1ss5" role="3clF46">
+        <property role="TrG5h" value="userName" />
+        <node concept="17QB3L" id="1YUU7GW1sB_" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1YUU7GW1sC3" role="3clF46">
+        <property role="TrG5h" value="timestamp" />
+        <node concept="3cpWsb" id="1YUU7GW1sNC" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1YUU7GVWtxw" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="1YUU7GVWtEm" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1YUU7GVWsDZ" role="3clF45" />
+      <node concept="3Tm1VV" id="1YUU7GVWsE0" role="1B3o_S" />
+      <node concept="3clFbS" id="1YUU7GVWsE1" role="3clF47">
+        <node concept="3clFbJ" id="1YUU7GVWwji" role="3cqZAp">
+          <node concept="3clFbS" id="1YUU7GVWwjk" role="3clFbx">
+            <node concept="3cpWs6" id="1YUU7GVWwvk" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="1YUU7GVWwox" role="3clFbw">
+            <node concept="37vLTw" id="1YUU7GVWwuw" role="3fr31v">
+              <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1YUU7GVWwej" role="3cqZAp" />
+        <node concept="3cpWs8" id="1YUU7GVWuxB" role="3cqZAp">
+          <node concept="3cpWsn" id="1YUU7GVWuxC" role="3cpWs9">
+            <property role="TrG5h" value="json" />
+            <node concept="3uibUv" id="1YUU7GVWuxD" role="1tU5fm">
+              <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
+            </node>
+            <node concept="2OqwBi" id="1YUU7GVWu$E" role="33vP2m">
+              <node concept="2YIFZM" id="1YUU7GVWv4M" role="2Oq$k0">
+                <ref role="37wK5l" to="vpat:~Json.object():mjson.Json" resolve="object" />
+                <ref role="1Pybhc" to="vpat:~Json" resolve="Json" />
+              </node>
+              <node concept="liA8E" id="1YUU7GVWuB$" role="2OqNvi">
+                <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                <node concept="Xl_RD" id="1YUU7GVWuCc" role="37wK5m">
+                  <property role="Xl_RC" value="millis" />
+                </node>
+                <node concept="37vLTw" id="1YUU7GW1sTe" role="37wK5m">
+                  <ref role="3cqZAo" node="1YUU7GW1sC3" resolve="timestamp" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1YUU7GVWuWO" role="3cqZAp">
+          <node concept="2OqwBi" id="1YUU7GVWv9R" role="3clFbG">
+            <node concept="37vLTw" id="1YUU7GVWuWM" role="2Oq$k0">
+              <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
+            </node>
+            <node concept="liA8E" id="1YUU7GVWvcI" role="2OqNvi">
+              <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+              <node concept="Xl_RD" id="1YUU7GVWvdj" role="37wK5m">
+                <property role="Xl_RC" value="userName" />
+              </node>
+              <node concept="37vLTw" id="1YUU7GW1t0k" role="37wK5m">
+                <ref role="3cqZAo" node="1YUU7GW1ss5" resolve="userName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1YUU7GVWvfw" role="3cqZAp">
+          <node concept="2OqwBi" id="1YUU7GVWvfx" role="3clFbG">
+            <node concept="37vLTw" id="1YUU7GVWvfy" role="2Oq$k0">
+              <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
+            </node>
+            <node concept="liA8E" id="1YUU7GVWvfz" role="2OqNvi">
+              <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+              <node concept="Xl_RD" id="1YUU7GVWvf$" role="37wK5m">
+                <property role="Xl_RC" value="userId" />
+              </node>
+              <node concept="37vLTw" id="1YUU7GW1t3N" role="37wK5m">
+                <ref role="3cqZAo" node="1YUU7GVWtoB" resolve="userId" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1YUU7GVWvjy" role="3cqZAp">
+          <node concept="2OqwBi" id="1YUU7GVWvjz" role="3clFbG">
+            <node concept="37vLTw" id="1YUU7GVWvj$" role="2Oq$k0">
+              <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
+            </node>
+            <node concept="liA8E" id="1YUU7GVWvj_" role="2OqNvi">
+              <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+              <node concept="Xl_RD" id="1YUU7GVWvjA" role="37wK5m">
+                <property role="Xl_RC" value="message" />
+              </node>
+              <node concept="37vLTw" id="1YUU7GVWvnY" role="37wK5m">
+                <ref role="3cqZAo" node="1YUU7GVWtxw" resolve="msg" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1YUU7GVWvX1" role="3cqZAp">
+          <node concept="2YIFZM" id="1YUU7GVWw0Q" role="3clFbG">
+            <ref role="37wK5l" to="9fa0:~EventBus.send(java.lang.String,java.lang.String):void" resolve="send" />
+            <ref role="1Pybhc" to="9fa0:~EventBus" resolve="EventBus" />
+            <node concept="Xl_RD" id="1YUU7GVWw52" role="37wK5m">
+              <property role="Xl_RC" value="globallog" />
+            </node>
+            <node concept="2OqwBi" id="1YUU7GVWw8d" role="37wK5m">
+              <node concept="37vLTw" id="1YUU7GVWw7e" role="2Oq$k0">
+                <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
+              </node>
+              <node concept="liA8E" id="1YUU7GVWw9r" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1YUU7GVWsxp" role="jymVt" />
+    <node concept="3clFb_" id="1YUU7GVWrdv" role="jymVt">
+      <property role="TrG5h" value="register" />
+      <node concept="3cqZAl" id="1YUU7GVWrdx" role="3clF45" />
+      <node concept="3Tm1VV" id="1YUU7GVWrdy" role="1B3o_S" />
+      <node concept="3clFbS" id="1YUU7GVWrdz" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1YUU7GVWrKQ" role="jymVt" />
+    <node concept="3clFb_" id="1YUU7GVWrBW" role="jymVt">
+      <property role="TrG5h" value="unregister" />
+      <node concept="3cqZAl" id="1YUU7GVWrBX" role="3clF45" />
+      <node concept="3Tm1VV" id="1YUU7GVWrBY" role="1B3o_S" />
+      <node concept="3clFbS" id="1YUU7GVWrBZ" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="1YUU7GVWr2y" role="jymVt" />
+    <node concept="3clFb_" id="1YUU7GVWqDS" role="jymVt">
+      <property role="TrG5h" value="close" />
+      <node concept="3cqZAl" id="1YUU7GVWqDU" role="3clF45" />
+      <node concept="3Tm1VV" id="1YUU7GVWqDV" role="1B3o_S" />
+      <node concept="3clFbS" id="1YUU7GVWqDW" role="3clF47">
+        <node concept="3clFbF" id="1YUU7GVWqUs" role="3cqZAp">
+          <node concept="2YIFZM" id="1YUU7GVWqV8" role="3clFbG">
+            <ref role="37wK5l" to="9fa0:~EventBus.close():void" resolve="close" />
+            <ref role="1Pybhc" to="9fa0:~EventBus" resolve="EventBus" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="kgf3Y7o2ba" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1PUq9fiYG$U" role="jymVt" />
   </node>
 </model>
 

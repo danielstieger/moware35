@@ -42,6 +42,7 @@
     <import index="a820" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context(org.modellwerkstatt.manmap.solution/)" />
     <import index="jtd5" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jmx.export.annotation(org.modellwerkstatt.manmap.solution/)" />
     <import index="qqeh" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context.support(org.modellwerkstatt.manmap.solution/)" />
+    <import index="dr5r" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.logging(JDK/)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" implicit="true" />
     <import index="9n95" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management.remote(JDK/)" implicit="true" />
     <import index="t54d" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/)" implicit="true" />
@@ -19619,6 +19620,35 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5a3fk7zo006" role="jymVt" />
+    <node concept="2YIFZL" id="1YUU7GW4OZT" role="jymVt">
+      <property role="TrG5h" value="LogManagerConfigurerer" />
+      <node concept="3cqZAl" id="1YUU7GW4OZV" role="3clF45" />
+      <node concept="3Tm1VV" id="1YUU7GW4OZW" role="1B3o_S" />
+      <node concept="3clFbS" id="1YUU7GW4OZX" role="3clF47">
+        <node concept="3clFbF" id="1YUU7GW4QF$" role="3cqZAp">
+          <node concept="2OqwBi" id="1YUU7GW4QN7" role="3clFbG">
+            <node concept="2OqwBi" id="1YUU7GW4QHv" role="2Oq$k0">
+              <node concept="2YIFZM" id="1YUU7GW4QGa" role="2Oq$k0">
+                <ref role="37wK5l" to="dr5r:~LogManager.getLogManager():java.util.logging.LogManager" resolve="getLogManager" />
+                <ref role="1Pybhc" to="dr5r:~LogManager" resolve="LogManager" />
+              </node>
+              <node concept="liA8E" id="1YUU7GW4QJ4" role="2OqNvi">
+                <ref role="37wK5l" to="dr5r:~LogManager.getLogger(java.lang.String):java.util.logging.Logger" resolve="getLogger" />
+                <node concept="Xl_RD" id="1YUU7GW4QLn" role="37wK5m" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1YUU7GW4QQ4" role="2OqNvi">
+              <ref role="37wK5l" to="dr5r:~Logger.setLevel(java.util.logging.Level):void" resolve="setLevel" />
+              <node concept="10M0yZ" id="1YUU7GW4QX6" role="37wK5m">
+                <ref role="1PxDUh" to="dr5r:~Level" resolve="Level" />
+                <ref role="3cqZAo" to="dr5r:~Level.WARNING" resolve="WARNING" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1YUU7GW4Msp" role="jymVt" />
     <node concept="2YIFZL" id="5a3fk7zmibi" role="jymVt">
       <property role="TrG5h" value="configRelativeFile" />
       <node concept="37vLTG" id="5a3fk7zmibj" role="3clF46">
@@ -19894,6 +19924,13 @@
               </node>
             </node>
             <node concept="3clFbH" id="2h5WDoUZunn" role="3cqZAp" />
+            <node concept="3clFbH" id="1YUU7GW4RsG" role="3cqZAp" />
+            <node concept="3clFbF" id="1YUU7GW4REs" role="3cqZAp">
+              <node concept="1rXfSq" id="1YUU7GW4REq" role="3clFbG">
+                <ref role="37wK5l" node="1YUU7GW4OZT" resolve="LogManagerConfigurerer" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="1YUU7GW4RLN" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="2h5WDoUZe7Q" role="TEbGg">
             <node concept="3clFbS" id="2h5WDoUZe7R" role="TDEfX">
@@ -42647,6 +42684,25 @@
       <node concept="3Tm1VV" id="5K99AeQ0b4Q" role="1B3o_S" />
       <node concept="Xl_RD" id="1LWMBWz8H_K" role="33vP2m">
         <property role="Xl_RC" value="jmain.mpreis.co.at:9092" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1YUU7GVWerC" role="jymVt" />
+    <node concept="Wx3nA" id="1YUU7GVWemx" role="jymVt">
+      <property role="TrG5h" value="MPREIS_EVENTBUS_HOST" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="1YUU7GVWemy" role="1tU5fm" />
+      <node concept="3Tm1VV" id="1YUU7GVWemz" role="1B3o_S" />
+      <node concept="Xl_RD" id="1YUU7GVWem$" role="33vP2m">
+        <property role="Xl_RC" value="localhost" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="1YUU7GVWeoQ" role="jymVt">
+      <property role="TrG5h" value="MPREIS_EVENTBUS_PORT" />
+      <property role="3TUv4t" value="true" />
+      <node concept="10Oyi0" id="1YUU7GVWoB_" role="1tU5fm" />
+      <node concept="3Tm1VV" id="1YUU7GVWeoS" role="1B3o_S" />
+      <node concept="3cmrfG" id="1YUU7GVWoER" role="33vP2m">
+        <property role="3cmrfH" value="8089" />
       </node>
     </node>
     <node concept="2tJIrI" id="7sK_OLreJIZ" role="jymVt" />
