@@ -4986,40 +4986,6 @@
       </node>
     </node>
   </node>
-  <node concept="3HP615" id="6lryfQF4x25">
-    <property role="3GE5qa" value="OFXArchitecture" />
-    <property role="TrG5h" value="IOFXFakePage" />
-    <node concept="3Tm1VV" id="6lryfQF4x26" role="1B3o_S" />
-    <node concept="16euLQ" id="6lryfQF4NIm" role="16eVyc">
-      <property role="TrG5h" value="BoundObject" />
-    </node>
-    <node concept="3clFb_" id="6lryfQF4xkj" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="fakuUi" />
-      <node concept="37vLTG" id="6lryfQF4NIo" role="3clF46">
-        <property role="TrG5h" value="objects" />
-        <node concept="_YKpA" id="6lryfQF4NIq" role="1tU5fm">
-          <node concept="16syzq" id="6lryfQF4NIs" role="_ZDj9">
-            <ref role="16sUi3" node="6lryfQF4NIm" resolve="BoundObject" />
-          </node>
-        </node>
-      </node>
-      <node concept="_YKpA" id="6lryfQF4NIk" role="3clF45">
-        <node concept="16syzq" id="6lryfQF4NIn" role="_ZDj9">
-          <ref role="16sUi3" node="6lryfQF4NIm" resolve="BoundObject" />
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="6lryfQF4xkl" role="1B3o_S" />
-      <node concept="3clFbS" id="6lryfQF4xkm" role="3clF47" />
-    </node>
-    <node concept="3clFb_" id="6lryfQF8VYn" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getButtonTitle" />
-      <node concept="17QB3L" id="6lryfQF8VYs" role="3clF45" />
-      <node concept="3Tm1VV" id="6lryfQF8VYp" role="1B3o_S" />
-      <node concept="3clFbS" id="6lryfQF8VYq" role="3clF47" />
-    </node>
-  </node>
   <node concept="3HP615" id="4wvbHtt1$NL">
     <property role="3GE5qa" value="OFXArchitecture" />
     <property role="TrG5h" value="IOFXSessionOperation" />
@@ -44137,6 +44103,53 @@
     </node>
     <node concept="2tJIrI" id="2tJfPESLV4V" role="jymVt" />
     <node concept="3Tm1VV" id="2tJfPESLINr" role="1B3o_S" />
+  </node>
+  <node concept="3HP615" id="1nOz5_Je5BS">
+    <property role="TrG5h" value="IOFXPageEvent" />
+    <property role="3GE5qa" value="OFXArchitecture" />
+    <node concept="3clFb_" id="1nOz5_JeoG8" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getName" />
+      <node concept="17QB3L" id="1nOz5_JeoHX" role="3clF45" />
+      <node concept="3Tm1VV" id="1nOz5_JeoGb" role="1B3o_S" />
+      <node concept="3clFbS" id="1nOz5_JeoGc" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1nOz5_JeoIy" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getType" />
+      <node concept="17QB3L" id="1nOz5_JeoIz" role="3clF45" />
+      <node concept="3Tm1VV" id="1nOz5_JeoI$" role="1B3o_S" />
+      <node concept="3clFbS" id="1nOz5_JeoI_" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1nOz5_Jeqd6" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="execute" />
+      <node concept="37vLTG" id="1nOz5_Jeqdw" role="3clF46">
+        <property role="TrG5h" value="object" />
+        <node concept="16syzq" id="1nOz5_Jeqgs" role="1tU5fm">
+          <ref role="16sUi3" node="1nOz5_JeqeD" resolve="T" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1nOz5_Jeqd8" role="3clF45" />
+      <node concept="3Tm1VV" id="1nOz5_Jeqd9" role="1B3o_S" />
+      <node concept="3clFbS" id="1nOz5_Jeqda" role="3clF47" />
+      <node concept="3uibUv" id="1nOz5_JeBWw" role="Sfmx6">
+        <ref role="3uigEE" node="ncJg$HbYpV" resolve="OFXCommandCancelException" />
+      </node>
+      <node concept="3uibUv" id="1nOz5_JeBWx" role="Sfmx6">
+        <ref role="3uigEE" node="6dnXV8mIuJM" resolve="OFXChangePageException" />
+      </node>
+      <node concept="3uibUv" id="1nOz5_JeBWz" role="Sfmx6">
+        <ref role="3uigEE" node="ncJg$HbYpH" resolve="OFXPageFlagException" />
+      </node>
+      <node concept="3uibUv" id="1nOz5_JeBW$" role="Sfmx6">
+        <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="1nOz5_Je5BT" role="1B3o_S" />
+    <node concept="16euLQ" id="1nOz5_JeqeD" role="16eVyc">
+      <property role="TrG5h" value="T" />
+    </node>
   </node>
 </model>
 

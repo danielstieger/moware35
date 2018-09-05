@@ -4003,6 +4003,9 @@
     <node concept="PrWs8" id="2tJfPESW2hW" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
     </node>
+    <node concept="PrWs8" id="1nOz5_Jfs8q" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
     <node concept="PrWs8" id="2tJfPESW2im" role="PzmwI">
       <ref role="PrY4T" node="3nLPQZPP4DL" resolve="ISelectionsAvailable" />
     </node>
