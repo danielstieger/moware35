@@ -260,6 +260,7 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1208623485264" name="jetbrains.mps.baseLanguage.structure.AbstractOperation" flags="nn" index="1B$H19" />
       <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
         <child id="1144226360166" name="iterable" index="1DdaDG" />
       </concept>
@@ -16981,6 +16982,32 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4XXgpAAT8Yy" role="jymVt" />
+    <node concept="3clFb_" id="2tJfPESMMwE" role="jymVt">
+      <property role="TrG5h" value="processAsyncBusEvent" />
+      <node concept="3cqZAl" id="2tJfPESMMwG" role="3clF45" />
+      <node concept="3Tm1VV" id="2tJfPESMMwH" role="1B3o_S" />
+      <node concept="3clFbS" id="2tJfPESMMwI" role="3clF47">
+        <node concept="3clFbJ" id="2tJfPESNdcs" role="3cqZAp">
+          <node concept="3fqX7Q" id="2tJfPESNddC" role="3clFbw">
+            <node concept="37vLTw" id="2tJfPESNdeL" role="3fr31v">
+              <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="2tJfPESNdcu" role="3clFbx">
+            <node concept="3clFbF" id="2tJfPESNduz" role="3cqZAp">
+              <node concept="2OqwBi" id="2tJfPESNdHD" role="3clFbG">
+                <node concept="37vLTw" id="2tJfPESNdux" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4mX9Xggw9s3" resolve="currentConclusions" />
+                </node>
+                <node concept="1B$H19" id="2tJfPESNdHI" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="2tJfPESNdpW" role="3cqZAp" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2tJfPESMFrp" role="jymVt" />
     <node concept="3clFb_" id="53Vnir0sWri" role="jymVt">
       <property role="TrG5h" value="fg_startInnerCommand" />
       <node concept="37vLTG" id="63VjT6lGt$h" role="3clF46">
