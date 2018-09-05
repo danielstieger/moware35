@@ -19,7 +19,7 @@
       <sourceRoot location="richclient/smtp.jar" />
       <sourceRoot location="basis/spring-aop-3.2.9.RELEASE.jar" />
       <sourceRoot location="basis/spring-expression-3.2.9.RELEASE.jar" />
-      <sourceRoot location="eventbus/vertx-eventbus.jar" />
+      <sourceRoot location="eventbus/mo-vertx-eventbus-1.0.0.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -47,7 +47,7 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/slf4j-api-1.7.25.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/slf4j-log4j12-1.7.25.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/eventbus/netty-4.1.29.Final.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/eventbus/vertx-eventbus.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/eventbus/mo-vertx-eventbus-1.0.0.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
