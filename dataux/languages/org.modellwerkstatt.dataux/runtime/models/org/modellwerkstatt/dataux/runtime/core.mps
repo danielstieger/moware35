@@ -260,7 +260,6 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="1208623485264" name="jetbrains.mps.baseLanguage.structure.AbstractOperation" flags="nn" index="1B$H19" />
       <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
         <child id="1144226360166" name="iterable" index="1DdaDG" />
       </concept>
@@ -16993,17 +16992,7 @@
               <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
             </node>
           </node>
-          <node concept="3clFbS" id="2tJfPESNdcu" role="3clFbx">
-            <node concept="3clFbF" id="2tJfPESNduz" role="3cqZAp">
-              <node concept="2OqwBi" id="2tJfPESNdHD" role="3clFbG">
-                <node concept="37vLTw" id="2tJfPESNdux" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4mX9Xggw9s3" resolve="currentConclusions" />
-                </node>
-                <node concept="1B$H19" id="2tJfPESNdHI" role="2OqNvi" />
-              </node>
-            </node>
-            <node concept="3clFbH" id="2tJfPESNdpW" role="3cqZAp" />
-          </node>
+          <node concept="3clFbS" id="2tJfPESNdcu" role="3clFbx" />
         </node>
       </node>
     </node>
