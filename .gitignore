@@ -11,5 +11,7 @@
 *.bxml
 *.class
 *.xslt
+
 dependencies
 generated
+.DS_Store
