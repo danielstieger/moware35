@@ -902,6 +902,25 @@
       <node concept="3Tm1VV" id="2ppo89mbSZW" role="1B3o_S" />
       <node concept="3clFbS" id="2ppo89mbSZX" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="3iJaUC7cBYU" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="execEventInForeground" />
+      <node concept="37vLTG" id="3iJaUC7cBYV" role="3clF46">
+        <property role="TrG5h" value="sender" />
+        <node concept="3uibUv" id="3iJaUC7cBYW" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:2o7h3aDYx43" resolve="ICommandContainer" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3iJaUC7cBYX" role="3clF46">
+        <property role="TrG5h" value="event" />
+        <node concept="3uibUv" id="3iJaUC7cCFa" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:3GQ300QoB23" resolve="UxEvent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3iJaUC7cBYZ" role="3clF45" />
+      <node concept="3Tm1VV" id="3iJaUC7cBZ0" role="1B3o_S" />
+      <node concept="3clFbS" id="3iJaUC7cBZ1" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="5NnlNqu2gJE" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="inUiThread" />

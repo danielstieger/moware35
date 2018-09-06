@@ -6447,6 +6447,71 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5_bDd1db4Uy" role="jymVt" />
+    <node concept="3clFb_" id="3iJaUC7cmR$" role="jymVt">
+      <property role="TrG5h" value="execEventInForeground" />
+      <node concept="37vLTG" id="3iJaUC7cu6d" role="3clF46">
+        <property role="TrG5h" value="sender" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="3iJaUC7cu6e" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:2o7h3aDYx43" resolve="ICommandContainer" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3iJaUC7cu6f" role="3clF46">
+        <property role="TrG5h" value="ev" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3uibUv" id="3iJaUC7cxtk" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:3GQ300QoB23" resolve="UxEvent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3iJaUC7cmRA" role="3clF45" />
+      <node concept="3Tm1VV" id="3iJaUC7cmRB" role="1B3o_S" />
+      <node concept="3clFbS" id="3iJaUC7cmRC" role="3clF47">
+        <node concept="3clFbF" id="3iJaUC7cvSY" role="3cqZAp">
+          <node concept="2YIFZM" id="3iJaUC7cvT$" role="3clFbG">
+            <ref role="37wK5l" to="ahg6:~Platform.runLater(java.lang.Runnable):void" resolve="runLater" />
+            <ref role="1Pybhc" to="ahg6:~Platform" resolve="Platform" />
+            <node concept="2ShNRf" id="3iJaUC7cvX2" role="37wK5m">
+              <node concept="YeOm9" id="3iJaUC7cwHs" role="2ShVmc">
+                <node concept="1Y3b0j" id="3iJaUC7cwHv" role="YeSDq">
+                  <property role="2bfB8j" value="true" />
+                  <ref role="1Y3XeK" to="wyt6:~Runnable" resolve="Runnable" />
+                  <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+                  <node concept="3Tm1VV" id="3iJaUC7cwHw" role="1B3o_S" />
+                  <node concept="3clFb_" id="3iJaUC7cwHx" role="jymVt">
+                    <property role="1EzhhJ" value="false" />
+                    <property role="TrG5h" value="run" />
+                    <property role="DiZV1" value="false" />
+                    <property role="od$2w" value="false" />
+                    <node concept="3Tm1VV" id="3iJaUC7cwHy" role="1B3o_S" />
+                    <node concept="3cqZAl" id="3iJaUC7cwH$" role="3clF45" />
+                    <node concept="3clFbS" id="3iJaUC7cwH_" role="3clF47">
+                      <node concept="3SKdUt" id="3iJaUC7cBJ$" role="3cqZAp">
+                        <node concept="3SKdUq" id="3iJaUC7cBJA" role="3SKWNk">
+                          <property role="3SKdUp" value="in ui thread anyway, we do not expect any exceptions" />
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="3iJaUC7cxlk" role="3cqZAp">
+                        <node concept="2OqwBi" id="3iJaUC7cxoi" role="3clFbG">
+                          <node concept="37vLTw" id="3iJaUC7cxli" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3iJaUC7cu6d" resolve="sender" />
+                          </node>
+                          <node concept="liA8E" id="3iJaUC7cxrm" role="2OqNvi">
+                            <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receive" />
+                            <node concept="37vLTw" id="3iJaUC7cxN9" role="37wK5m">
+                              <ref role="3cqZAo" node="3iJaUC7cu6f" resolve="ev" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="2ppo89mcqqf" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="execEventInBackground" />

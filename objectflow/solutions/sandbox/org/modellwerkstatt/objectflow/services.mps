@@ -41742,7 +41742,7 @@
                             <node concept="3Tm1VV" id="2tJfPESLMeX" role="1B3o_S" />
                             <node concept="3cqZAl" id="2tJfPESLMeZ" role="3clF45" />
                             <node concept="37vLTG" id="2tJfPESLMf0" role="3clF46">
-                              <property role="TrG5h" value="p0" />
+                              <property role="TrG5h" value="jsonPayload" />
                               <node concept="3uibUv" id="2tJfPESLMf1" role="1tU5fm">
                                 <ref role="3uigEE" to="wyt6:~String" resolve="String" />
                               </node>
@@ -41776,13 +41776,8 @@
                                       </node>
                                       <node concept="liA8E" id="2tJfPESM7uG" role="2OqNvi">
                                         <ref role="37wK5l" to="28jr:2tJfPESLIMm" resolve="receiveFromBus" />
-                                        <node concept="2ShNRf" id="2tJfPESLUnR" role="37wK5m">
-                                          <node concept="1pGfFk" id="2tJfPESLW89" role="2ShVmc">
-                                            <ref role="37wK5l" to="28jr:2tJfPESLVCS" resolve="OFXAsyncBusEvent" />
-                                            <node concept="37vLTw" id="2tJfPESLWcn" role="37wK5m">
-                                              <ref role="3cqZAo" node="2tJfPESLMf0" resolve="p0" />
-                                            </node>
-                                          </node>
+                                        <node concept="37vLTw" id="3iJaUC7GjO2" role="37wK5m">
+                                          <ref role="3cqZAo" node="2tJfPESLMf0" resolve="jsonPayload" />
                                         </node>
                                       </node>
                                     </node>

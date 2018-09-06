@@ -6440,7 +6440,7 @@
         <property role="TrG5h" value="action" />
         <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="30SScokuEU6" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
         </node>
       </node>
       <node concept="37vLTG" id="30SScokuGzg" role="3clF46">
@@ -6749,7 +6749,7 @@
       <node concept="37vLTG" id="r$jHpEQ0If" role="3clF46">
         <property role="TrG5h" value="action" />
         <node concept="3uibUv" id="r$jHpEQ0Ig" role="1tU5fm">
-          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
         </node>
       </node>
       <node concept="3uibUv" id="r$jHpEQ3pc" role="3clF45">
@@ -7026,7 +7026,7 @@
                       <node concept="1eOMI4" id="r$jHpEQ2Kd" role="37wK5m">
                         <node concept="10QFUN" id="r$jHpEQ2Ka" role="1eOMHV">
                           <node concept="3uibUv" id="r$jHpEQ2Nh" role="10QFUM">
-                            <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                            <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                           </node>
                           <node concept="37vLTw" id="r$jHpEQ2XU" role="10QFUP">
                             <ref role="3cqZAo" node="7D8bwfxisV8" resolve="currentItem" />
@@ -7182,7 +7182,7 @@
               </node>
               <node concept="2ZW3vV" id="7D8bwfxisVs" role="3clFbw">
                 <node concept="3uibUv" id="16HdUMP0RA_" role="2ZW6by">
-                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                 </node>
                 <node concept="37vLTw" id="fdGRoMYQGw" role="2ZW6bz">
                   <ref role="3cqZAo" node="7D8bwfxisV8" resolve="currentItem" />
@@ -11126,7 +11126,7 @@
       <property role="TrG5h" value="action" />
       <node concept="3Tm1VV" id="6go2Mrsvbrn" role="1B3o_S" />
       <node concept="3uibUv" id="6go2MrsutSi" role="1tU5fm">
-        <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+        <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
       </node>
     </node>
     <node concept="312cEg" id="6go2Mrsvbtf" role="jymVt">
@@ -21633,7 +21633,7 @@
       <node concept="3uibUv" id="6cymb1cMV2S" role="1tU5fm">
         <ref role="3uigEE" to="33ny:~List" resolve="List" />
         <node concept="3uibUv" id="6cymb1cMV3w" role="11_B2D">
-          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+          <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
         </node>
       </node>
     </node>
@@ -22054,7 +22054,7 @@
               </node>
               <node concept="2ZW3vV" id="5XHFlROGQIH" role="3clFbw">
                 <node concept="3uibUv" id="5XHFlROGQJJ" role="2ZW6by">
-                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                 </node>
                 <node concept="37vLTw" id="5XHFlROGQq6" role="2ZW6bz">
                   <ref role="3cqZAo" node="5XHFlROGPSv" resolve="currentItem" />
@@ -22605,7 +22605,7 @@
               </node>
               <node concept="2ZW3vV" id="5XHFlROGX4g" role="3clFbw">
                 <node concept="3uibUv" id="5XHFlROGX4h" role="2ZW6by">
-                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                  <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
                 </node>
                 <node concept="37vLTw" id="5XHFlROGX4i" role="2ZW6bz">
                   <ref role="3cqZAo" node="5XHFlROGX4n" resolve="currentItem" />
@@ -22878,11 +22878,11 @@
           <node concept="3cpWsn" id="7SiTcfwKsow" role="3cpWs9">
             <property role="TrG5h" value="action" />
             <node concept="3uibUv" id="7SiTcfwKsox" role="1tU5fm">
-              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
             </node>
             <node concept="10QFUN" id="5XHFlROHeKB" role="33vP2m">
               <node concept="3uibUv" id="5XHFlROHeKC" role="10QFUM">
-                <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+                <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
               </node>
               <node concept="37vLTw" id="5XHFlROHeKD" role="10QFUP">
                 <ref role="3cqZAo" node="5XHFlROHeyV" resolve="currentItem" />
@@ -23179,7 +23179,7 @@
           <node concept="3cpWsn" id="3gUf0iZTaXS" role="1Duv9x">
             <property role="TrG5h" value="trg" />
             <node concept="3uibUv" id="3gUf0iZTaXT" role="1tU5fm">
-              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
             </node>
           </node>
           <node concept="3clFbS" id="3gUf0iZTaXU" role="2LFqv$">
@@ -23268,7 +23268,7 @@
           <node concept="3cpWsn" id="4vr6dCDMxwN" role="1Duv9x">
             <property role="TrG5h" value="trg" />
             <node concept="3uibUv" id="4vr6dCDMxwO" role="1tU5fm">
-              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
             </node>
           </node>
           <node concept="3clFbS" id="4vr6dCDMxwP" role="2LFqv$">
@@ -23414,7 +23414,7 @@
           <node concept="3cpWsn" id="7QITxIiRWlX" role="1Duv9x">
             <property role="TrG5h" value="act" />
             <node concept="3uibUv" id="7QITxIiRWlY" role="1tU5fm">
-              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuAction" />
+              <ref role="3uigEE" to="yg8v:Y3fiVJMvUT" resolve="MenuActionGlue" />
             </node>
           </node>
           <node concept="3clFbS" id="7QITxIiRWlZ" role="2LFqv$">
@@ -27182,7 +27182,7 @@
       <property role="TrG5h" value="cmdContainerOrAppCrtl" />
       <node concept="3Tm6S6" id="yc6MyEupCv" role="1B3o_S" />
       <node concept="3uibUv" id="2R4xDrDXA_h" role="1tU5fm">
-        <ref role="3uigEE" to="1e0c:4XXgpAAeZ45" resolve="IActionStarter" />
+        <ref role="3uigEE" to="1e0c:4XXgpAAeZ45" resolve="IEventProcessor" />
       </node>
     </node>
     <node concept="2tJIrI" id="yc6MyEupL8" role="jymVt" />
@@ -27433,7 +27433,7 @@
       <node concept="37vLTG" id="yc6MyEupRh" role="3clF46">
         <property role="TrG5h" value="starter" />
         <node concept="3uibUv" id="2R4xDrDXBxy" role="1tU5fm">
-          <ref role="3uigEE" to="1e0c:4XXgpAAeZ45" resolve="IActionStarter" />
+          <ref role="3uigEE" to="1e0c:4XXgpAAeZ45" resolve="IEventProcessor" />
         </node>
       </node>
       <node concept="37vLTG" id="1yQJrOWBnZA" role="3clF46">
@@ -32953,6 +32953,36 @@
               <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
               <node concept="Xl_RD" id="r$jHpEPt8T" role="37wK5m">
                 <property role="Xl_RC" value="Background processing not supported in vaadin implementation." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3iJaUC7itcL" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="execEventInForeground" />
+      <node concept="37vLTG" id="3iJaUC7itcM" role="3clF46">
+        <property role="TrG5h" value="sender" />
+        <node concept="3uibUv" id="3iJaUC7itcN" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:2o7h3aDYx43" resolve="ICommandContainer" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3iJaUC7itcO" role="3clF46">
+        <property role="TrG5h" value="event" />
+        <node concept="3uibUv" id="3iJaUC7itcP" role="1tU5fm">
+          <ref role="3uigEE" to="1e0c:3GQ300QoB23" resolve="UxEvent" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="3iJaUC7itcQ" role="3clF45" />
+      <node concept="3Tm1VV" id="3iJaUC7itcR" role="1B3o_S" />
+      <node concept="3clFbS" id="3iJaUC7itcT" role="3clF47">
+        <node concept="YS8fn" id="3iJaUC7iuA$" role="3cqZAp">
+          <node concept="2ShNRf" id="3iJaUC7iuEL" role="YScLw">
+            <node concept="1pGfFk" id="3iJaUC7ivS3" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="3iJaUC7ivWE" role="37wK5m">
+                <property role="Xl_RC" value="Not supported in vaadin, you should already be in an foreground thread?" />
               </node>
             </node>
           </node>

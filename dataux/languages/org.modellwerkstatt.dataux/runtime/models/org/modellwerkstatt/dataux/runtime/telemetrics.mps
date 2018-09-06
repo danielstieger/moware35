@@ -396,6 +396,14 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3iJaUC7c3V1" role="3cqZAp">
+          <node concept="37vLTI" id="3iJaUC7c3YW" role="3clFbG">
+            <node concept="10Nm6u" id="3iJaUC7c41m" role="37vLTx" />
+            <node concept="37vLTw" id="3iJaUC7c3UZ" role="37vLTJ">
+              <ref role="3cqZAo" node="1YUU7GW1i_3" resolve="eventbus" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="2yuEF6qamJf" role="jymVt" />
@@ -654,9 +662,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="31dwTLEoh_i" role="jymVt" />
-    <node concept="2tJIrI" id="31dwTLEoibY" role="jymVt" />
-    <node concept="2tJIrI" id="31dwTLEoimf" role="jymVt" />
-    <node concept="2tJIrI" id="31dwTLEoiwx" role="jymVt" />
     <node concept="3clFb_" id="1EBV9L$_BFF" role="jymVt">
       <property role="TrG5h" value="registerClient" />
       <node concept="37vLTG" id="1EBV9L$_BFI" role="3clF46">
@@ -1129,7 +1134,40 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="1YUU7GW1luc" role="jymVt" />
+    <node concept="3clFb_" id="3iJaUC7c43_" role="jymVt">
+      <property role="TrG5h" value="getEventBus" />
+      <node concept="3uibUv" id="3iJaUC7c5j$" role="3clF45">
+        <ref role="3uigEE" to="gyq6:1PUq9fiYGac" resolve="OFXEventbus" />
+      </node>
+      <node concept="3Tm1VV" id="3iJaUC7c43C" role="1B3o_S" />
+      <node concept="3clFbS" id="3iJaUC7c43D" role="3clF47">
+        <node concept="3clFbJ" id="3iJaUC7c61h" role="3cqZAp">
+          <node concept="3clFbS" id="3iJaUC7c61j" role="3clFbx">
+            <node concept="YS8fn" id="3iJaUC7c66c" role="3cqZAp">
+              <node concept="2ShNRf" id="3iJaUC7c66V" role="YScLw">
+                <node concept="1pGfFk" id="3iJaUC7c6w3" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="Xl_RD" id="3iJaUC7c6x9" role="37wK5m">
+                    <property role="Xl_RC" value="Eventbus not initialized or already closed down?" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="3iJaUC7c63Z" role="3clFbw">
+            <node concept="10Nm6u" id="3iJaUC7c659" role="3uHU7w" />
+            <node concept="37vLTw" id="3iJaUC7c62P" role="3uHU7B">
+              <ref role="3cqZAo" node="1YUU7GW1i_3" resolve="eventbus" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3iJaUC7c5Sr" role="3cqZAp">
+          <node concept="37vLTw" id="3iJaUC7c5Sq" role="3clFbG">
+            <ref role="3cqZAo" node="1YUU7GW1i_3" resolve="eventbus" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="5NnlNqtAniw" role="jymVt">
       <property role="TrG5h" value="logWithoutApplication" />
       <node concept="37vLTG" id="5NnlNqtAoTf" role="3clF46">
@@ -1215,7 +1253,14 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="2yuEF6qbD9r" role="3cqZAp" />
+            <node concept="3clFbF" id="3iJaUC7c3DN" role="3cqZAp">
+              <node concept="37vLTI" id="3iJaUC7c3Hk" role="3clFbG">
+                <node concept="10Nm6u" id="3iJaUC7c3Il" role="37vLTx" />
+                <node concept="37vLTw" id="3iJaUC7c3DL" role="37vLTJ">
+                  <ref role="3cqZAo" node="1YUU7GW1i_3" resolve="eventbus" />
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="TDmWw" id="2yuEF6qacTN" role="TEbGg">
             <node concept="3clFbS" id="2yuEF6qacTQ" role="TDEfX">

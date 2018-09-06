@@ -44061,15 +44061,14 @@
   </node>
   <node concept="3HP615" id="2tJfPESLteL">
     <property role="TrG5h" value="IOFXAsyncBusReceiver" />
+    <property role="3GE5qa" value="OFXArchitecture" />
     <node concept="2tJIrI" id="2tJfPESLtjB" role="jymVt" />
     <node concept="3clFb_" id="2tJfPESLIMm" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="receiveFromBus" />
       <node concept="37vLTG" id="2tJfPESLIMY" role="3clF46">
-        <property role="TrG5h" value="event" />
-        <node concept="3uibUv" id="2tJfPESLKnw" role="1tU5fm">
-          <ref role="3uigEE" node="2tJfPESLINq" resolve="OFXAsyncBusEvent" />
-        </node>
+        <property role="TrG5h" value="eventPayLoad" />
+        <node concept="17QB3L" id="3iJaUC7ED6m" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="2tJfPESLIMo" role="3clF45" />
       <node concept="3Tm1VV" id="2tJfPESLIMp" role="1B3o_S" />
@@ -44077,21 +44076,6 @@
     </node>
     <node concept="3Tm1VV" id="2tJfPESLteM" role="1B3o_S" />
     <node concept="2tJIrI" id="2tJfPESMnUW" role="jymVt" />
-  </node>
-  <node concept="312cEu" id="2tJfPESLINq">
-    <property role="TrG5h" value="OFXAsyncBusEvent" />
-    <node concept="2tJIrI" id="2tJfPESLJ6e" role="jymVt" />
-    <node concept="3clFbW" id="2tJfPESLVCS" role="jymVt">
-      <node concept="37vLTG" id="2tJfPESLVDm" role="3clF46">
-        <property role="TrG5h" value="msg" />
-        <node concept="17QB3L" id="2tJfPESLVDV" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="2tJfPESLVCU" role="3clF45" />
-      <node concept="3Tm1VV" id="2tJfPESLVCV" role="1B3o_S" />
-      <node concept="3clFbS" id="2tJfPESLVCW" role="3clF47" />
-    </node>
-    <node concept="2tJIrI" id="2tJfPESLV4V" role="jymVt" />
-    <node concept="3Tm1VV" id="2tJfPESLINr" role="1B3o_S" />
   </node>
   <node concept="3HP615" id="1nOz5_Je5BS">
     <property role="TrG5h" value="IOFXPageEvent" />
@@ -44114,19 +44098,14 @@
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="setEventBeforeExecution" />
       <node concept="37vLTG" id="3iJaUC6k09W" role="3clF46">
-        <property role="TrG5h" value="event" />
-        <node concept="16syzq" id="3iJaUC6k0b2" role="1tU5fm">
-          <ref role="16sUi3" node="1nOz5_JeqeD" resolve="T" />
-        </node>
+        <property role="TrG5h" value="jSonText" />
+        <node concept="17QB3L" id="3iJaUC7nh34" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="3iJaUC6k06c" role="3clF45" />
       <node concept="3Tm1VV" id="3iJaUC6k06d" role="1B3o_S" />
       <node concept="3clFbS" id="3iJaUC6k06e" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="1nOz5_Je5BT" role="1B3o_S" />
-    <node concept="16euLQ" id="1nOz5_JeqeD" role="16eVyc">
-      <property role="TrG5h" value="T" />
-    </node>
     <node concept="3uibUv" id="3iJaUC6iEnp" role="3HQHJm">
       <ref role="3uigEE" node="3iJaUC6iDBU" resolve="IOFXPageGuidance" />
     </node>
