@@ -10273,7 +10273,7 @@
     <ref role="1XX52x" to="un0u:2tJfPESW2g4" resolve="PageEvent" />
     <node concept="3EZMnI" id="2tJfPESW2z_" role="2wV5jI">
       <node concept="3F0ifn" id="2tJfPESW2zA" role="3EZMnx">
-        <property role="3F0ifm" value="event" />
+        <property role="3F0ifm" value="subscribed to" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
       </node>
       <node concept="3F1sOY" id="2tJfPESW2Or" role="3EZMnx">
