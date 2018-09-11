@@ -4,6 +4,10 @@
  Build.xml: Building a tomcat batchjob with objectflow 
             based on moware plugin R5
             
+            AND: organizing stuff around moware :)
+            i.e. the xbus target, which updates libraries for 
+            objectflow and mofakeplugin
+            
  daniel stieger, summer 2016, dornbirn
 
  
@@ -20,7 +24,7 @@
  
 <project name="OFXBatchJob" default="default">      
   <property name="buildUserHome"        value="/Users/danielstieger" /> 
-	
+  	
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
   <property name="appName"              value="InvoicingJob" />
@@ -121,5 +125,37 @@
   		<fileset dir="work" />
   	</copy>
   </target>
+  
+  
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+  <target name="xbus">
+    <property name="javaxbusFile"      value="mo-javaxbus-1.0.jar" />
+    
+    <delete includeEmptyDirs="true">
+  		<fileset dir="../languages/objectflow/jars/eventbus/" includes="**/*" defaultexcludes="no"/>
+	</delete>  
+	
+	<mkdir dir="xbustmp" />
+    <jar destfile="../languages/objectflow/jars/eventbus/${javaxbusFile}" basedir="xbustmp" update="false">
+      <manifest>
+        <attribute name="Version"    value="1.0" />
+      </manifest>
+      <zipgroupfileset dir="${buildUserHome}/stuff/javaxbus/target" includes="*javaxbus*.jar" />
+      <zipgroupfileset dir="${buildUserHome}/stuff/javaxbus/lib"    includes="*mjson*.jar" />
+    </jar>
+    <delete dir="xbusTmp" />
+    
+    
+    
+    
+    <delete includeEmptyDirs="true">
+  		<fileset dir="${mowarePluginHomeDir}/jars/eventbus/" includes="**/*" defaultexcludes="no"/>
+	</delete>  
+  	<copy todir="${mowarePluginHomeDir}/jars/eventbus">
+  		<fileset dir="../languages/objectflow/jars/eventbus/" includes="${javaxbusFile}" />
+  	</copy>
+  </target>
+  
+  
   
 </project>
