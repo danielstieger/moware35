@@ -43,6 +43,8 @@
     <import index="jtd5" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.jmx.export.annotation(org.modellwerkstatt.manmap.solution/)" />
     <import index="qqeh" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context.support(org.modellwerkstatt.manmap.solution/)" />
     <import index="dr5r" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.logging(JDK/)" />
+    <import index="vpat" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:mjson(org.modellwerkstatt.objectflow.runtime/)" />
+    <import index="ybfw" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.modellwerkstatt.javaxbus(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" implicit="true" />
     <import index="9n95" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:javax.management.remote(JDK/)" implicit="true" />
     <import index="t54d" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.apache.avalon.framework.configuration(org.modellwerkstatt.sandbox/)" implicit="true" />
@@ -44060,22 +44062,24 @@
     </node>
   </node>
   <node concept="3HP615" id="2tJfPESLteL">
-    <property role="TrG5h" value="IOFXAsyncBusReceiver" />
+    <property role="TrG5h" value="IOFXAsyncConsumerReceiver" />
     <property role="3GE5qa" value="OFXArchitecture" />
     <node concept="2tJIrI" id="2tJfPESLtjB" role="jymVt" />
     <node concept="3clFb_" id="2tJfPESLIMm" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="receiveFromBus" />
-      <node concept="37vLTG" id="2tJfPESLIMY" role="3clF46">
-        <property role="TrG5h" value="eventPayLoad" />
-        <node concept="17QB3L" id="3iJaUC7ED6m" role="1tU5fm" />
+      <property role="TrG5h" value="receiveMessageFromBus" />
+      <node concept="37vLTG" id="G_aOOc$pnS" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="3uibUv" id="G_aOOc$p_e" role="1tU5fm">
+          <ref role="3uigEE" to="ybfw:~Message" resolve="Message" />
+        </node>
       </node>
       <node concept="3cqZAl" id="2tJfPESLIMo" role="3clF45" />
       <node concept="3Tm1VV" id="2tJfPESLIMp" role="1B3o_S" />
       <node concept="3clFbS" id="2tJfPESLIMq" role="3clF47" />
     </node>
     <node concept="3Tm1VV" id="2tJfPESLteM" role="1B3o_S" />
-    <node concept="2tJIrI" id="2tJfPESMnUW" role="jymVt" />
+    <node concept="2tJIrI" id="G_aOOcuiVW" role="jymVt" />
   </node>
   <node concept="3HP615" id="1nOz5_Je5BS">
     <property role="TrG5h" value="IOFXPageEvent" />

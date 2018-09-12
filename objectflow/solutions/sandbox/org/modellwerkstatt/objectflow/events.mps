@@ -141,6 +141,9 @@
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
       </concept>
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -306,7 +309,16 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3iJaUC7mzTy" role="3cqZAp" />
+        <node concept="3cpWs8" id="G_aOOcSplm" role="3cqZAp">
+          <node concept="3cpWsn" id="G_aOOcSplp" role="3cpWs9">
+            <property role="TrG5h" value="jSonFieldName" />
+            <node concept="17QB3L" id="G_aOOcSplk" role="1tU5fm" />
+            <node concept="Xl_RD" id="G_aOOcSqv8" role="33vP2m">
+              <property role="Xl_RC" value="(none)" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="G_aOOcSoyU" role="3cqZAp" />
         <node concept="SfApY" id="3iJaUC7mCp1" role="3cqZAp">
           <node concept="3clFbS" id="3iJaUC7mCp3" role="SfCbr">
             <node concept="3cpWs8" id="3iJaUC7mzWu" role="3cqZAp">
@@ -358,11 +370,9 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3cpWs8" id="3iJaUC7mBhD" role="3cqZAp">
-                      <node concept="3cpWsn" id="3iJaUC7mBhG" role="3cpWs9">
-                        <property role="TrG5h" value="jSonFieldName" />
-                        <node concept="17QB3L" id="3iJaUC7mBhB" role="1tU5fm" />
-                        <node concept="3cpWs3" id="3iJaUC7mC6i" role="33vP2m">
+                    <node concept="3clFbF" id="G_aOOcSr9W" role="3cqZAp">
+                      <node concept="37vLTI" id="G_aOOcSr9Y" role="3clFbG">
+                        <node concept="3cpWs3" id="3iJaUC7mC6i" role="37vLTx">
                           <node concept="2OqwBi" id="3iJaUC7mC9W" role="3uHU7w">
                             <node concept="37vLTw" id="3iJaUC7mC7S" role="2Oq$k0">
                               <ref role="3cqZAo" node="3iJaUC7mBCT" resolve="methodNameWithoutSet" />
@@ -393,6 +403,9 @@
                               <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
                             </node>
                           </node>
+                        </node>
+                        <node concept="37vLTw" id="G_aOOcSra2" role="37vLTJ">
+                          <ref role="3cqZAo" node="G_aOOcSplp" resolve="jSonFieldName" />
                         </node>
                       </node>
                     </node>
@@ -467,6 +480,44 @@
                       </node>
                     </node>
                     <node concept="3clFbH" id="3iJaUC7n3jO" role="3cqZAp" />
+                    <node concept="3clFbJ" id="G_aOOcSEg5" role="3cqZAp">
+                      <node concept="3clFbS" id="G_aOOcSEg7" role="3clFbx">
+                        <node concept="YS8fn" id="G_aOOcSGtu" role="3cqZAp">
+                          <node concept="2ShNRf" id="G_aOOcSGtR" role="YScLw">
+                            <node concept="1pGfFk" id="G_aOOcSG_h" role="2ShVmc">
+                              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                              <node concept="3cpWs3" id="G_aOOcSI6e" role="37wK5m">
+                                <node concept="Xl_RD" id="G_aOOcSIa5" role="3uHU7w">
+                                  <property role="Xl_RC" value="' is expected but not found in json data." />
+                                </node>
+                                <node concept="3cpWs3" id="G_aOOcSHmT" role="3uHU7B">
+                                  <node concept="Xl_RD" id="G_aOOcSGAL" role="3uHU7B">
+                                    <property role="Xl_RC" value="The field '" />
+                                  </node>
+                                  <node concept="37vLTw" id="G_aOOcSI4A" role="3uHU7w">
+                                    <ref role="3cqZAo" node="G_aOOcSplp" resolve="jSonFieldName" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3fqX7Q" id="G_aOOcSG7r" role="3clFbw">
+                        <node concept="2OqwBi" id="G_aOOcSG7t" role="3fr31v">
+                          <node concept="37vLTw" id="G_aOOcSG7u" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3iJaUC7myho" resolve="json" />
+                          </node>
+                          <node concept="liA8E" id="G_aOOcSG7v" role="2OqNvi">
+                            <ref role="37wK5l" to="vpat:~Json.has(java.lang.String):boolean" resolve="has" />
+                            <node concept="37vLTw" id="G_aOOcSG7w" role="37wK5m">
+                              <ref role="3cqZAo" node="G_aOOcSplp" resolve="jSonFieldName" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="G_aOOcSCO$" role="3cqZAp" />
                     <node concept="3clFbJ" id="3iJaUC7m_l0" role="3cqZAp">
                       <node concept="3clFbS" id="3iJaUC7m_l2" role="3clFbx">
                         <node concept="3cpWs8" id="3iJaUC7mB9P" role="3cqZAp">
@@ -483,7 +534,7 @@
                                 <node concept="liA8E" id="3iJaUC7mBcb" role="2OqNvi">
                                   <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
                                   <node concept="37vLTw" id="3iJaUC7mCee" role="37wK5m">
-                                    <ref role="3cqZAo" node="3iJaUC7mBhG" resolve="jSonFieldName" />
+                                    <ref role="3cqZAo" node="G_aOOcSplp" resolve="jSonFieldName" />
                                   </node>
                                 </node>
                               </node>
@@ -593,7 +644,7 @@
                                   <node concept="liA8E" id="3iJaUC7mGaZ" role="2OqNvi">
                                     <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
                                     <node concept="37vLTw" id="3iJaUC7mGb0" role="37wK5m">
-                                      <ref role="3cqZAo" node="3iJaUC7mBhG" resolve="jSonFieldName" />
+                                      <ref role="3cqZAo" node="G_aOOcSplp" resolve="jSonFieldName" />
                                     </node>
                                   </node>
                                 </node>
@@ -652,7 +703,7 @@
                                   <node concept="liA8E" id="3iJaUC7mIPx" role="2OqNvi">
                                     <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
                                     <node concept="37vLTw" id="3iJaUC7mIPy" role="37wK5m">
-                                      <ref role="3cqZAo" node="3iJaUC7mBhG" resolve="jSonFieldName" />
+                                      <ref role="3cqZAo" node="G_aOOcSplp" resolve="jSonFieldName" />
                                     </node>
                                   </node>
                                 </node>
@@ -709,7 +760,7 @@
                                   <node concept="liA8E" id="3iJaUC7mMXc" role="2OqNvi">
                                     <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
                                     <node concept="37vLTw" id="3iJaUC7mNaa" role="37wK5m">
-                                      <ref role="3cqZAo" node="3iJaUC7mBhG" resolve="jSonFieldName" />
+                                      <ref role="3cqZAo" node="G_aOOcSplp" resolve="jSonFieldName" />
                                     </node>
                                   </node>
                                 </node>
@@ -834,12 +885,58 @@
             </node>
             <node concept="3clFbH" id="3iJaUC7mCp2" role="3cqZAp" />
           </node>
+          <node concept="TDmWw" id="G_aOOcSmBd" role="TEbGg">
+            <node concept="3cpWsn" id="G_aOOcSmBe" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="G_aOOcSns0" role="1tU5fm">
+                <ref role="3uigEE" to="wyt6:~NullPointerException" resolve="NullPointerException" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="G_aOOcSmBg" role="TDEfX">
+              <node concept="YS8fn" id="G_aOOcSwHb" role="3cqZAp">
+                <node concept="2ShNRf" id="G_aOOcSwH_" role="YScLw">
+                  <node concept="1pGfFk" id="G_aOOcSwXR" role="2ShVmc">
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="3cpWs3" id="G_aOOcSxmb" role="37wK5m">
+                      <node concept="Xl_RD" id="G_aOOcSxHU" role="3uHU7w">
+                        <property role="Xl_RC" value=")" />
+                      </node>
+                      <node concept="3cpWs3" id="G_aOOcSxfs" role="3uHU7B">
+                        <node concept="Xl_RD" id="G_aOOcSwZn" role="3uHU7B">
+                          <property role="Xl_RC" value="NPE (last field " />
+                        </node>
+                        <node concept="37vLTw" id="G_aOOcSxjH" role="3uHU7w">
+                          <ref role="3cqZAo" node="G_aOOcSplp" resolve="jSonFieldName" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="G_aOOcSypU" role="37wK5m">
+                      <ref role="3cqZAo" node="G_aOOcSmBe" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="TDmWw" id="3iJaUC7mCUI" role="TEbGg">
             <node concept="3clFbS" id="3iJaUC7mCUJ" role="TDEfX">
               <node concept="YS8fn" id="3iJaUC7mDNn" role="3cqZAp">
                 <node concept="2ShNRf" id="3iJaUC7mDUp" role="YScLw">
                   <node concept="1pGfFk" id="3iJaUC7mE6B" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="3cpWs3" id="G_aOOcSyQ0" role="37wK5m">
+                      <node concept="Xl_RD" id="G_aOOcSyQ1" role="3uHU7w">
+                        <property role="Xl_RC" value=")" />
+                      </node>
+                      <node concept="3cpWs3" id="G_aOOcSyQ2" role="3uHU7B">
+                        <node concept="Xl_RD" id="G_aOOcSyQ3" role="3uHU7B">
+                          <property role="Xl_RC" value="ITE (last field " />
+                        </node>
+                        <node concept="37vLTw" id="G_aOOcSyQ4" role="3uHU7w">
+                          <ref role="3cqZAo" node="G_aOOcSplp" resolve="jSonFieldName" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="37vLTw" id="3iJaUC7mEdU" role="37wK5m">
                       <ref role="3cqZAo" node="3iJaUC7mCUK" resolve="e" />
                     </node>
@@ -859,7 +956,20 @@
               <node concept="YS8fn" id="3iJaUC7mEm2" role="3cqZAp">
                 <node concept="2ShNRf" id="3iJaUC7mEtc" role="YScLw">
                   <node concept="1pGfFk" id="3iJaUC7mED$" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="3cpWs3" id="G_aOOcSzcH" role="37wK5m">
+                      <node concept="Xl_RD" id="G_aOOcSzcI" role="3uHU7w">
+                        <property role="Xl_RC" value=")" />
+                      </node>
+                      <node concept="3cpWs3" id="G_aOOcSzcJ" role="3uHU7B">
+                        <node concept="Xl_RD" id="G_aOOcSzcK" role="3uHU7B">
+                          <property role="Xl_RC" value="IAE (last field " />
+                        </node>
+                        <node concept="37vLTw" id="G_aOOcSzcL" role="3uHU7w">
+                          <ref role="3cqZAo" node="G_aOOcSplp" resolve="jSonFieldName" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="37vLTw" id="3iJaUC7mEL8" role="37wK5m">
                       <ref role="3cqZAo" node="3iJaUC7mCUO" resolve="e" />
                     </node>
@@ -918,13 +1028,13 @@
     <node concept="3Tm1VV" id="2tJfPET9KUj" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="2tJfPET9LIX">
-    <property role="TrG5h" value="Keyer" />
+    <property role="TrG5h" value="Pinger" />
     <node concept="3Tm1VV" id="2tJfPET9LIY" role="1B3o_S" />
     <node concept="3uibUv" id="2tJfPET9LJK" role="1zkMxy">
       <ref role="3uigEE" node="2tJfPET9KUi" resolve="PEvent" />
     </node>
     <node concept="2RhdJD" id="2tJfPET9M05" role="jymVt">
-      <property role="2RkwnN" value="userId" />
+      <property role="2RkwnN" value="from" />
       <node concept="3Tm1VV" id="2tJfPET9M06" role="1B3o_S" />
       <node concept="2RoN1w" id="2tJfPET9M07" role="2RnVtd">
         <node concept="3wEZqW" id="2tJfPET9M08" role="3wFrgM" />
@@ -932,18 +1042,7 @@
           <node concept="3Tm1VV" id="2tJfPET9M1I" role="3xqFEP" />
         </node>
       </node>
-      <node concept="10Oyi0" id="2tJfPET9M1a" role="2RkE6I" />
-    </node>
-    <node concept="2RhdJD" id="2tJfPET9M1Z" role="jymVt">
-      <property role="2RkwnN" value="userName" />
-      <node concept="3Tm1VV" id="2tJfPET9M20" role="1B3o_S" />
-      <node concept="2RoN1w" id="2tJfPET9M21" role="2RnVtd">
-        <node concept="3wEZqW" id="2tJfPET9M22" role="3wFrgM" />
-        <node concept="3xqBd$" id="2tJfPET9M23" role="3xrYvX">
-          <node concept="3Tm1VV" id="2tJfPET9M24" role="3xqFEP" />
-        </node>
-      </node>
-      <node concept="17QB3L" id="3iJaUC7iMRI" role="2RkE6I" />
+      <node concept="17QB3L" id="G_aOOcSj4L" role="2RkE6I" />
     </node>
     <node concept="2RhdJD" id="2tJfPET9M3A" role="jymVt">
       <property role="2RkwnN" value="timestamp" />
@@ -1014,22 +1113,12 @@
             <node concept="3cpWs3" id="3iJaUC7mT1z" role="3uHU7B">
               <node concept="3cpWs3" id="3iJaUC7mSVI" role="3uHU7B">
                 <node concept="3cpWs3" id="3iJaUC7mSKi" role="3uHU7B">
-                  <node concept="3cpWs3" id="3iJaUC7mSCA" role="3uHU7B">
-                    <node concept="3cpWs3" id="3iJaUC7mSuV" role="3uHU7B">
-                      <node concept="3cpWs3" id="3iJaUC7mSq0" role="3uHU7B">
-                        <node concept="Xl_RD" id="3iJaUC7mSnP" role="3uHU7B">
-                          <property role="Xl_RC" value="" />
-                        </node>
-                        <node concept="338YkY" id="3iJaUC7mSr3" role="3uHU7w">
-                          <ref role="338YkT" node="2tJfPET9M05" resolve="userId" />
-                        </node>
-                      </node>
-                      <node concept="Xl_RD" id="3iJaUC7mSwx" role="3uHU7w">
-                        <property role="Xl_RC" value=" / " />
-                      </node>
+                  <node concept="3cpWs3" id="3iJaUC7mSq0" role="3uHU7B">
+                    <node concept="Xl_RD" id="3iJaUC7mSnP" role="3uHU7B">
+                      <property role="Xl_RC" value="" />
                     </node>
-                    <node concept="338YkY" id="3iJaUC7mYId" role="3uHU7w">
-                      <ref role="338YkT" node="2tJfPET9M1Z" resolve="userName" />
+                    <node concept="338YkY" id="3iJaUC7mSr3" role="3uHU7w">
+                      <ref role="338YkT" node="2tJfPET9M05" resolve="from" />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="3iJaUC7mSN1" role="3uHU7w">
@@ -1068,25 +1157,25 @@
             <node concept="2OqwBi" id="3iJaUC7mRJu" role="33vP2m">
               <node concept="2OqwBi" id="3iJaUC7mRe8" role="2Oq$k0">
                 <node concept="2OqwBi" id="3iJaUC7mQSd" role="2Oq$k0">
-                  <node concept="2OqwBi" id="3iJaUC7mQDJ" role="2Oq$k0">
+                  <node concept="2OqwBi" id="G_aOOcSAf5" role="2Oq$k0">
                     <node concept="2YIFZM" id="3iJaUC7mQCR" role="2Oq$k0">
                       <ref role="37wK5l" to="vpat:~Json.object():mjson.Json" resolve="object" />
                       <ref role="1Pybhc" to="vpat:~Json" resolve="Json" />
                     </node>
-                    <node concept="liA8E" id="3iJaUC7mQEY" role="2OqNvi">
+                    <node concept="liA8E" id="G_aOOcSAjW" role="2OqNvi">
                       <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
-                      <node concept="Xl_RD" id="3iJaUC7mQG5" role="37wK5m">
-                        <property role="Xl_RC" value="userId" />
+                      <node concept="Xl_RD" id="G_aOOcSAo$" role="37wK5m">
+                        <property role="Xl_RC" value="type" />
                       </node>
-                      <node concept="Xl_RD" id="3iJaUC7mQIS" role="37wK5m">
-                        <property role="Xl_RC" value="1" />
+                      <node concept="Xl_RD" id="G_aOOcSAHm" role="37wK5m">
+                        <property role="Xl_RC" value="pinger" />
                       </node>
                     </node>
                   </node>
                   <node concept="liA8E" id="3iJaUC7mQW8" role="2OqNvi">
                     <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
                     <node concept="Xl_RD" id="3iJaUC7mQXI" role="37wK5m">
-                      <property role="Xl_RC" value="userName" />
+                      <property role="Xl_RC" value="from" />
                     </node>
                     <node concept="Xl_RD" id="3iJaUC7mR93" role="37wK5m">
                       <property role="Xl_RC" value="daniels" />
@@ -1120,13 +1209,13 @@
           <node concept="3cpWsn" id="3iJaUC7mTsB" role="3cpWs9">
             <property role="TrG5h" value="k" />
             <node concept="3uibUv" id="3iJaUC7mTsC" role="1tU5fm">
-              <ref role="3uigEE" node="2tJfPET9LIX" resolve="Keyer" />
+              <ref role="3uigEE" node="2tJfPET9LIX" resolve="Pinger" />
             </node>
             <node concept="2ShNRf" id="3iJaUC7mTwq" role="33vP2m">
               <node concept="1pGfFk" id="3iJaUC7mTwp" role="2ShVmc">
-                <ref role="37wK5l" node="2tJfPET9LUp" resolve="Keyer" />
+                <ref role="37wK5l" node="2tJfPET9LUp" resolve="Pinger" />
                 <node concept="Xl_RD" id="3iJaUC7mTyx" role="37wK5m">
-                  <property role="Xl_RC" value="keyer" />
+                  <property role="Xl_RC" value="pinger" />
                 </node>
                 <node concept="2OqwBi" id="3iJaUC7mTAO" role="37wK5m">
                   <node concept="37vLTw" id="3iJaUC7mTA0" role="2Oq$k0">

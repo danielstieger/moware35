@@ -29,6 +29,7 @@
     <import index="5zyv" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util.concurrent(JDK/)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="vpat" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:mjson(org.modellwerkstatt.objectflow.runtime/)" />
+    <import index="ybfw" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:org.modellwerkstatt.javaxbus(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" implicit="true" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" implicit="true" />
     <import index="te48" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory(org.modellwerkstatt.manmap.solution/)" implicit="true" />
@@ -6596,7 +6597,7 @@
       <node concept="37vLTG" id="3iJaUC7bEnI" role="3clF46">
         <property role="TrG5h" value="recv" />
         <node concept="3uibUv" id="3iJaUC7bEtg" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:2tJfPESLteL" resolve="IOFXAsyncBusReceiver" />
+          <ref role="3uigEE" to="28jr:2tJfPESLteL" resolve="IOFXAsyncConsumerReceiver" />
         </node>
       </node>
       <node concept="37vLTG" id="3iJaUC7bEvf" role="3clF46">
@@ -6613,7 +6614,7 @@
       <node concept="37vLTG" id="3iJaUC7bE_L" role="3clF46">
         <property role="TrG5h" value="recv" />
         <node concept="3uibUv" id="3iJaUC7bE_M" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:2tJfPESLteL" resolve="IOFXAsyncBusReceiver" />
+          <ref role="3uigEE" to="28jr:2tJfPESLteL" resolve="IOFXAsyncConsumerReceiver" />
         </node>
       </node>
       <node concept="37vLTG" id="3iJaUC7bE_N" role="3clF46">
@@ -17999,38 +18000,117 @@
           </node>
         </node>
         <node concept="3clFbH" id="3iJaUC7bR84" role="3cqZAp" />
-        <node concept="3SKdUt" id="3iJaUC7GOZ4" role="3cqZAp">
-          <node concept="3SKdUq" id="3iJaUC7GOZ6" role="3SKWNk">
-            <property role="3SKdUp" value="getType of event: " />
-          </node>
-        </node>
         <node concept="3cpWs8" id="3iJaUC7GPq0" role="3cqZAp">
           <node concept="3cpWsn" id="3iJaUC7GPq3" role="3cpWs9">
             <property role="TrG5h" value="completeMessage" />
-            <node concept="17QB3L" id="3iJaUC7GPpY" role="1tU5fm" />
+            <node concept="3uibUv" id="G_aOOcE$gA" role="1tU5fm">
+              <ref role="3uigEE" to="ybfw:~Message" resolve="Message" />
+            </node>
             <node concept="2OqwBi" id="3iJaUC7GPx4" role="33vP2m">
               <node concept="37vLTw" id="3iJaUC7GPw2" role="2Oq$k0">
                 <ref role="3cqZAo" node="3iJaUC7GIXe" resolve="extBusEvent" />
               </node>
               <node concept="liA8E" id="3iJaUC7GPzj" role="2OqNvi">
-                <ref role="37wK5l" node="3iJaUC7GxN6" resolve="getJSonContent" />
+                <ref role="37wK5l" node="3iJaUC7GxN6" resolve="getBusMessage" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="1SDXsyHymJi" role="3cqZAp">
-          <node concept="3cpWsn" id="1SDXsyHymJj" role="3cpWs9">
-            <property role="TrG5h" value="jsonObject" />
-            <node concept="3uibUv" id="1SDXsyHymJk" role="1tU5fm">
-              <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
-            </node>
-            <node concept="2YIFZM" id="1SDXsyHyreu" role="33vP2m">
-              <ref role="1Pybhc" to="vpat:~Json" resolve="Json" />
-              <ref role="37wK5l" to="vpat:~Json.read(java.lang.String):mjson.Json" resolve="read" />
-              <node concept="37vLTw" id="1SDXsyHyrid" role="37wK5m">
-                <ref role="3cqZAo" node="3iJaUC7GPq3" resolve="completeMessage" />
+        <node concept="3SKdUt" id="G_aOOcEPzR" role="3cqZAp">
+          <node concept="3SKdUq" id="G_aOOcEPzT" role="3SKWNk">
+            <property role="3SKdUp" value="error message received. " />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="G_aOOcEXUy" role="3cqZAp">
+          <node concept="3clFbS" id="G_aOOcEXU$" role="3clFbx">
+            <node concept="3cpWs8" id="G_aOOcFryl" role="3cqZAp">
+              <node concept="3cpWsn" id="G_aOOcFryo" role="3cpWs9">
+                <property role="TrG5h" value="errorText" />
+                <node concept="17QB3L" id="G_aOOcFryj" role="1tU5fm" />
+                <node concept="3cpWs3" id="G_aOOcuoda" role="33vP2m">
+                  <node concept="2OqwBi" id="G_aOOcuoik" role="3uHU7w">
+                    <node concept="37vLTw" id="G_aOOcFt8p" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3iJaUC7GPq3" resolve="completeMessage" />
+                    </node>
+                    <node concept="liA8E" id="G_aOOcuomW" role="2OqNvi">
+                      <ref role="37wK5l" to="ybfw:~Message.getErrFailureType():java.lang.String" resolve="getErrFailureType" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs3" id="G_aOOcunV0" role="3uHU7B">
+                    <node concept="3cpWs3" id="G_aOOcunFr" role="3uHU7B">
+                      <node concept="3cpWs3" id="G_aOOcunvE" role="3uHU7B">
+                        <node concept="3cpWs3" id="G_aOOcumL8" role="3uHU7B">
+                          <node concept="Xl_RD" id="G_aOOcup_D" role="3uHU7B">
+                            <property role="Xl_RC" value="bus-error-msg " />
+                          </node>
+                          <node concept="2OqwBi" id="G_aOOcumQq" role="3uHU7w">
+                            <node concept="37vLTw" id="G_aOOcFsYf" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3iJaUC7GPq3" resolve="completeMessage" />
+                            </node>
+                            <node concept="liA8E" id="G_aOOcuntj" role="2OqNvi">
+                              <ref role="37wK5l" to="ybfw:~Message.getErrMessage():java.lang.String" resolve="getErrMessage" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="G_aOOcunxz" role="3uHU7w">
+                          <property role="Xl_RC" value=", code " />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="G_aOOcunNU" role="3uHU7w">
+                        <node concept="37vLTw" id="G_aOOcFt3F" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3iJaUC7GPq3" resolve="completeMessage" />
+                        </node>
+                        <node concept="liA8E" id="G_aOOcunSJ" role="2OqNvi">
+                          <ref role="37wK5l" to="ybfw:~Message.getErrFailureCode():java.lang.String" resolve="getErrFailureCode" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="G_aOOcunX_" role="3uHU7w">
+                      <property role="Xl_RC" value=", type " />
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
+            <node concept="3SKdUt" id="G_aOOcFthD" role="3cqZAp">
+              <node concept="3SKdUq" id="G_aOOcFthF" role="3SKWNk">
+                <property role="3SKdUp" value="this is probably a fatal error, close cmd?" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="G_aOOcFtvz" role="3cqZAp">
+              <node concept="1rXfSq" id="G_aOOcFtvx" role="3clFbG">
+                <ref role="37wK5l" node="7b0Ejx_yqRf" resolve="receive" />
+                <node concept="2ShNRf" id="G_aOOcFtIe" role="37wK5m">
+                  <node concept="1pGfFk" id="G_aOOcFuRl" role="2ShVmc">
+                    <ref role="37wK5l" node="SQhsWRTq7b" resolve="InfoAndCloseEvent" />
+                    <node concept="2ShNRf" id="G_aOOcFuXW" role="37wK5m">
+                      <node concept="1pGfFk" id="G_aOOcFvwH" role="2ShVmc">
+                        <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                        <node concept="37vLTw" id="G_aOOcFvBq" role="37wK5m">
+                          <ref role="3cqZAo" node="G_aOOcFryo" resolve="errorText" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="G_aOOcFvIH" role="3cqZAp" />
+          </node>
+          <node concept="2OqwBi" id="G_aOOcFndF" role="3clFbw">
+            <node concept="37vLTw" id="G_aOOcFjaw" role="2Oq$k0">
+              <ref role="3cqZAo" node="3iJaUC7GPq3" resolve="completeMessage" />
+            </node>
+            <node concept="liA8E" id="G_aOOcFrvf" role="2OqNvi">
+              <ref role="37wK5l" to="ybfw:~Message.isErrorMsg():boolean" resolve="isErrorMsg" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="G_aOOcELxF" role="3cqZAp" />
+        <node concept="3clFbH" id="G_aOOcFzSU" role="3cqZAp" />
+        <node concept="3SKdUt" id="3iJaUC7GOZ4" role="3cqZAp">
+          <node concept="3SKdUq" id="3iJaUC7GOZ6" role="3SKWNk">
+            <property role="3SKdUp" value="message is okay  . . .  " />
           </node>
         </node>
         <node concept="3cpWs8" id="1SDXsyHyvpq" role="3cqZAp">
@@ -18039,15 +18119,12 @@
             <node concept="3uibUv" id="1SDXsyHyCIT" role="1tU5fm">
               <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
             </node>
-            <node concept="2OqwBi" id="1SDXsyHyzJQ" role="33vP2m">
-              <node concept="37vLTw" id="1SDXsyHyzIP" role="2Oq$k0">
-                <ref role="3cqZAo" node="1SDXsyHymJj" resolve="jsonObject" />
+            <node concept="2OqwBi" id="G_aOOcECXI" role="33vP2m">
+              <node concept="37vLTw" id="G_aOOcECRq" role="2Oq$k0">
+                <ref role="3cqZAo" node="3iJaUC7GPq3" resolve="completeMessage" />
               </node>
-              <node concept="liA8E" id="1SDXsyHyzPD" role="2OqNvi">
-                <ref role="37wK5l" to="vpat:~Json.at(java.lang.String):mjson.Json" resolve="at" />
-                <node concept="Xl_RD" id="1SDXsyHyzSL" role="37wK5m">
-                  <property role="Xl_RC" value="body" />
-                </node>
+              <node concept="liA8E" id="G_aOOcED6M" role="2OqNvi">
+                <ref role="37wK5l" to="ybfw:~Message.getBodyAsMJson():mjson.Json" resolve="getBodyAsMJson" />
               </node>
             </node>
           </node>
@@ -23798,7 +23875,7 @@
       <node concept="37vLTG" id="3iJaUC7bVjd" role="3clF46">
         <property role="TrG5h" value="recv" />
         <node concept="3uibUv" id="3iJaUC7bVje" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:2tJfPESLteL" resolve="IOFXAsyncBusReceiver" />
+          <ref role="3uigEE" to="28jr:2tJfPESLteL" resolve="IOFXAsyncConsumerReceiver" />
         </node>
       </node>
       <node concept="37vLTG" id="3iJaUC7bVjf" role="3clF46">
@@ -23837,7 +23914,7 @@
       <node concept="37vLTG" id="3iJaUC7bVjl" role="3clF46">
         <property role="TrG5h" value="recv" />
         <node concept="3uibUv" id="3iJaUC7bVjm" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:2tJfPESLteL" resolve="IOFXAsyncBusReceiver" />
+          <ref role="3uigEE" to="28jr:2tJfPESLteL" resolve="IOFXAsyncConsumerReceiver" />
         </node>
       </node>
       <node concept="37vLTG" id="3iJaUC7bVjn" role="3clF46">
@@ -25381,16 +25458,19 @@
     </node>
     <node concept="2tJIrI" id="2o7h3aE0WDH" role="jymVt" />
     <node concept="2tJIrI" id="3iJaUC7cdZ6" role="jymVt" />
-    <node concept="3clFb_" id="3iJaUC7cf8L" role="jymVt">
+    <node concept="2tJIrI" id="3iJaUC7cgkJ" role="jymVt" />
+    <node concept="3clFb_" id="G_aOOcErzP" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="receiveFromBus" />
-      <node concept="37vLTG" id="3iJaUC7cf8M" role="3clF46">
-        <property role="TrG5h" value="jSonPayLoad" />
-        <node concept="17QB3L" id="3iJaUC7GpH0" role="1tU5fm" />
+      <property role="TrG5h" value="receiveMessageFromBus" />
+      <node concept="37vLTG" id="G_aOOcErzQ" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="3uibUv" id="G_aOOcErzR" role="1tU5fm">
+          <ref role="3uigEE" to="ybfw:~Message" resolve="Message" />
+        </node>
       </node>
-      <node concept="3cqZAl" id="3iJaUC7cf8O" role="3clF45" />
-      <node concept="3Tm1VV" id="3iJaUC7cf8P" role="1B3o_S" />
-      <node concept="3clFbS" id="3iJaUC7cf8U" role="3clF47">
+      <node concept="3cqZAl" id="G_aOOcErzS" role="3clF45" />
+      <node concept="3Tm1VV" id="G_aOOcErzT" role="1B3o_S" />
+      <node concept="3clFbS" id="G_aOOcErzY" role="3clF47">
         <node concept="3clFbF" id="3iJaUC7Gyjm" role="3cqZAp">
           <node concept="2OqwBi" id="3iJaUC7GyGJ" role="3clFbG">
             <node concept="2OqwBi" id="3iJaUC7Gylf" role="2Oq$k0">
@@ -25407,8 +25487,8 @@
               <node concept="2ShNRf" id="3iJaUC7Gz91" role="37wK5m">
                 <node concept="1pGfFk" id="3iJaUC7GzsJ" role="2ShVmc">
                   <ref role="37wK5l" node="3iJaUC7GwB$" resolve="ExtBusEvent" />
-                  <node concept="37vLTw" id="3iJaUC7Gzww" role="37wK5m">
-                    <ref role="3cqZAo" node="3iJaUC7cf8M" resolve="jSonPayLoad" />
+                  <node concept="37vLTw" id="G_aOOc$zO5" role="37wK5m">
+                    <ref role="3cqZAo" node="G_aOOcErzQ" resolve="msg" />
                   </node>
                 </node>
               </node>
@@ -25417,7 +25497,7 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="3iJaUC7cgkJ" role="jymVt" />
+    <node concept="2tJIrI" id="G_aOOc$_2P" role="jymVt" />
     <node concept="3clFb_" id="7BWfrtCZte1" role="jymVt">
       <property role="TrG5h" value="receive" />
       <node concept="37vLTG" id="7BWfrtCZte2" role="3clF46">
@@ -27248,7 +27328,7 @@
       <ref role="3uigEE" node="4XXgpAAeZ45" resolve="IEventProcessor" />
     </node>
     <node concept="3uibUv" id="3iJaUC7bGeq" role="3HQHJm">
-      <ref role="3uigEE" to="28jr:2tJfPESLteL" resolve="IOFXAsyncBusReceiver" />
+      <ref role="3uigEE" to="28jr:2tJfPESLteL" resolve="IOFXAsyncConsumerReceiver" />
     </node>
     <node concept="3clFb_" id="39R747ug0IH" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -32455,15 +32535,19 @@
     <property role="3GE5qa" value="events" />
     <property role="TrG5h" value="ExtBusEvent" />
     <node concept="312cEg" id="3iJaUC7GwBw" role="jymVt">
-      <property role="TrG5h" value="jsonContent" />
+      <property role="TrG5h" value="busMessage" />
       <node concept="3Tm6S6" id="3iJaUC7GwBx" role="1B3o_S" />
-      <node concept="17QB3L" id="3iJaUC7GwBy" role="1tU5fm" />
+      <node concept="3uibUv" id="G_aOOc$Aiz" role="1tU5fm">
+        <ref role="3uigEE" to="ybfw:~Message" resolve="Message" />
+      </node>
     </node>
     <node concept="2tJIrI" id="3iJaUC7GwBz" role="jymVt" />
     <node concept="3clFbW" id="3iJaUC7GwB$" role="jymVt">
       <node concept="37vLTG" id="3iJaUC7GwBB" role="3clF46">
-        <property role="TrG5h" value="content" />
-        <node concept="17QB3L" id="3iJaUC7GwBC" role="1tU5fm" />
+        <property role="TrG5h" value="msg" />
+        <node concept="3uibUv" id="G_aOOc$Au2" role="1tU5fm">
+          <ref role="3uigEE" to="ybfw:~Message" resolve="Message" />
+        </node>
       </node>
       <node concept="3cqZAl" id="3iJaUC7GwBD" role="3clF45" />
       <node concept="3Tm1VV" id="3iJaUC7GwBE" role="1B3o_S" />
@@ -32474,10 +32558,10 @@
         <node concept="3clFbF" id="3iJaUC7GwBL" role="3cqZAp">
           <node concept="37vLTI" id="3iJaUC7GwBM" role="3clFbG">
             <node concept="37vLTw" id="3iJaUC7GwBN" role="37vLTx">
-              <ref role="3cqZAo" node="3iJaUC7GwBB" resolve="content" />
+              <ref role="3cqZAo" node="3iJaUC7GwBB" resolve="msg" />
             </node>
             <node concept="37vLTw" id="3iJaUC7GwBO" role="37vLTJ">
-              <ref role="3cqZAo" node="3iJaUC7GwBw" resolve="jsonContent" />
+              <ref role="3cqZAo" node="3iJaUC7GwBw" resolve="busMessage" />
             </node>
           </node>
         </node>
@@ -32485,13 +32569,15 @@
     </node>
     <node concept="2tJIrI" id="3iJaUC7GxW_" role="jymVt" />
     <node concept="3clFb_" id="3iJaUC7GxN6" role="jymVt">
-      <property role="TrG5h" value="getJSonContent" />
-      <node concept="17QB3L" id="3iJaUC7Gy2q" role="3clF45" />
+      <property role="TrG5h" value="getBusMessage" />
+      <node concept="3uibUv" id="G_aOOc$ACi" role="3clF45">
+        <ref role="3uigEE" to="ybfw:~Message" resolve="Message" />
+      </node>
       <node concept="3Tm1VV" id="3iJaUC7GxN9" role="1B3o_S" />
       <node concept="3clFbS" id="3iJaUC7GxNa" role="3clF47">
         <node concept="3clFbF" id="3iJaUC7GxTg" role="3cqZAp">
           <node concept="37vLTw" id="3iJaUC7GxTf" role="3clFbG">
-            <ref role="3cqZAo" node="3iJaUC7GwBw" resolve="jsonContent" />
+            <ref role="3cqZAo" node="3iJaUC7GwBw" resolve="busMessage" />
           </node>
         </node>
       </node>
@@ -32518,7 +32604,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="3iJaUC7GwCg" role="3uHU7w">
-              <ref role="3cqZAo" node="3iJaUC7GwBw" resolve="jsonContent" />
+              <ref role="3cqZAo" node="3iJaUC7GwBw" resolve="busMessage" />
             </node>
           </node>
         </node>
