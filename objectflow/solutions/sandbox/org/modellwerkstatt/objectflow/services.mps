@@ -41151,7 +41151,7 @@
     <node concept="3Tm1VV" id="5n6hJfGTwSs" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="1PUq9fiYGac">
-    <property role="TrG5h" value="OFXEventbusBridge" />
+    <property role="TrG5h" value="OFXVoluntaryBus" />
     <node concept="3Tm1VV" id="1PUq9fiYGad" role="1B3o_S" />
     <node concept="Wx3nA" id="1SDXsyHoGu9" role="jymVt">
       <property role="TrG5h" value="DEBUG" />
@@ -41209,7 +41209,7 @@
               <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
               <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
               <node concept="3VsKOn" id="1YUU7GVWdwS" role="37wK5m">
-                <ref role="3VsUkX" node="1PUq9fiYGac" resolve="OFXEventbusBridge" />
+                <ref role="3VsUkX" node="1PUq9fiYGac" resolve="OFXVoluntaryBus" />
               </node>
             </node>
           </node>
@@ -41553,7 +41553,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="4NXmMPR2quZ" role="3cqZAp" />
             <node concept="3clFbH" id="G_aOOcujew" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="4NXmMPR2pLo" role="TEbGg">
@@ -41657,94 +41656,138 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1YUU7GVWwej" role="3cqZAp" />
-        <node concept="3cpWs8" id="1YUU7GVWuxB" role="3cqZAp">
-          <node concept="3cpWsn" id="1YUU7GVWuxC" role="3cpWs9">
-            <property role="TrG5h" value="json" />
-            <node concept="3uibUv" id="1YUU7GVWuxD" role="1tU5fm">
-              <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
-            </node>
-            <node concept="2OqwBi" id="1YUU7GVWu$E" role="33vP2m">
-              <node concept="2YIFZM" id="1YUU7GVWv4M" role="2Oq$k0">
-                <ref role="37wK5l" to="vpat:~Json.object():mjson.Json" resolve="object" />
-                <ref role="1Pybhc" to="vpat:~Json" resolve="Json" />
-              </node>
-              <node concept="liA8E" id="1YUU7GVWuB$" role="2OqNvi">
-                <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
-                <node concept="Xl_RD" id="1YUU7GVWuCc" role="37wK5m">
-                  <property role="Xl_RC" value="millis" />
+        <node concept="3clFbJ" id="6LCrX7JDcY6" role="3cqZAp">
+          <node concept="3clFbS" id="6LCrX7JDcY8" role="3clFbx">
+            <node concept="SfApY" id="6LCrX7JDa3U" role="3cqZAp">
+              <node concept="3clFbS" id="6LCrX7JDa3W" role="SfCbr">
+                <node concept="3cpWs8" id="1YUU7GVWuxB" role="3cqZAp">
+                  <node concept="3cpWsn" id="1YUU7GVWuxC" role="3cpWs9">
+                    <property role="TrG5h" value="json" />
+                    <node concept="3uibUv" id="1YUU7GVWuxD" role="1tU5fm">
+                      <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
+                    </node>
+                    <node concept="2OqwBi" id="1YUU7GVWu$E" role="33vP2m">
+                      <node concept="2YIFZM" id="1YUU7GVWv4M" role="2Oq$k0">
+                        <ref role="1Pybhc" to="vpat:~Json" resolve="Json" />
+                        <ref role="37wK5l" to="vpat:~Json.object():mjson.Json" resolve="object" />
+                      </node>
+                      <node concept="liA8E" id="1YUU7GVWuB$" role="2OqNvi">
+                        <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                        <node concept="Xl_RD" id="1YUU7GVWuCc" role="37wK5m">
+                          <property role="Xl_RC" value="millis" />
+                        </node>
+                        <node concept="37vLTw" id="1YUU7GW1sTe" role="37wK5m">
+                          <ref role="3cqZAo" node="1YUU7GW1sC3" resolve="timestamp" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
-                <node concept="37vLTw" id="1YUU7GW1sTe" role="37wK5m">
-                  <ref role="3cqZAo" node="1YUU7GW1sC3" resolve="timestamp" />
+                <node concept="3clFbF" id="1YUU7GVWuWO" role="3cqZAp">
+                  <node concept="2OqwBi" id="1YUU7GVWv9R" role="3clFbG">
+                    <node concept="37vLTw" id="1YUU7GVWuWM" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
+                    </node>
+                    <node concept="liA8E" id="1YUU7GVWvcI" role="2OqNvi">
+                      <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                      <node concept="Xl_RD" id="1YUU7GVWvdj" role="37wK5m">
+                        <property role="Xl_RC" value="userName" />
+                      </node>
+                      <node concept="37vLTw" id="1YUU7GW1t0k" role="37wK5m">
+                        <ref role="3cqZAo" node="1YUU7GW1ss5" resolve="userName" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1YUU7GVWvfw" role="3cqZAp">
+                  <node concept="2OqwBi" id="1YUU7GVWvfx" role="3clFbG">
+                    <node concept="37vLTw" id="1YUU7GVWvfy" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
+                    </node>
+                    <node concept="liA8E" id="1YUU7GVWvfz" role="2OqNvi">
+                      <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                      <node concept="Xl_RD" id="1YUU7GVWvf$" role="37wK5m">
+                        <property role="Xl_RC" value="userId" />
+                      </node>
+                      <node concept="37vLTw" id="1YUU7GW1t3N" role="37wK5m">
+                        <ref role="3cqZAo" node="1YUU7GVWtoB" resolve="userId" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="1YUU7GVWvjy" role="3cqZAp">
+                  <node concept="2OqwBi" id="1YUU7GVWvjz" role="3clFbG">
+                    <node concept="37vLTw" id="1YUU7GVWvj$" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
+                    </node>
+                    <node concept="liA8E" id="1YUU7GVWvj_" role="2OqNvi">
+                      <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
+                      <node concept="Xl_RD" id="1YUU7GVWvjA" role="37wK5m">
+                        <property role="Xl_RC" value="message" />
+                      </node>
+                      <node concept="37vLTw" id="1YUU7GVWvnY" role="37wK5m">
+                        <ref role="3cqZAo" node="1YUU7GVWtxw" resolve="msg" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="4NXmMPR2r0T" role="3cqZAp">
+                  <node concept="2OqwBi" id="4NXmMPR2r5V" role="3clFbG">
+                    <node concept="37vLTw" id="4NXmMPR2r0R" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
+                    </node>
+                    <node concept="liA8E" id="4NXmMPR2ra$" role="2OqNvi">
+                      <ref role="37wK5l" to="ybfw:~EventBus.send(java.lang.String,mjson.Json):void" resolve="send" />
+                      <node concept="Xl_RD" id="1YUU7GVWw52" role="37wK5m">
+                        <property role="Xl_RC" value="globallog" />
+                      </node>
+                      <node concept="37vLTw" id="4NXmMPR2ren" role="37wK5m">
+                        <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="6LCrX7JDa3V" role="3cqZAp" />
+              </node>
+              <node concept="TDmWw" id="6LCrX7JDa3X" role="TEbGg">
+                <node concept="3cpWsn" id="6LCrX7JDa3Z" role="TDEfY">
+                  <property role="TrG5h" value="ex" />
+                  <node concept="3uibUv" id="6LCrX7JDaAl" role="1tU5fm">
+                    <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="6LCrX7JDa43" role="TDEfX">
+                  <node concept="3clFbF" id="6LCrX7JDdOs" role="3cqZAp">
+                    <node concept="2OqwBi" id="6LCrX7JDdPp" role="3clFbG">
+                      <node concept="37vLTw" id="6LCrX7JDdOq" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2ExzLzC1ioI" resolve="logger" />
+                      </node>
+                      <node concept="liA8E" id="6LCrX7JDdRY" role="2OqNvi">
+                        <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object,java.lang.Throwable):void" resolve="error" />
+                        <node concept="Xl_RD" id="6LCrX7JDdUh" role="37wK5m">
+                          <property role="Xl_RC" value="Exception while trying to write to global log" />
+                        </node>
+                        <node concept="37vLTw" id="6LCrX7JDebk" role="37wK5m">
+                          <ref role="3cqZAo" node="6LCrX7JDa3Z" resolve="ex" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="6LCrX7JDcY7" role="3cqZAp" />
           </node>
-        </node>
-        <node concept="3clFbF" id="1YUU7GVWuWO" role="3cqZAp">
-          <node concept="2OqwBi" id="1YUU7GVWv9R" role="3clFbG">
-            <node concept="37vLTw" id="1YUU7GVWuWM" role="2Oq$k0">
-              <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
-            </node>
-            <node concept="liA8E" id="1YUU7GVWvcI" role="2OqNvi">
-              <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
-              <node concept="Xl_RD" id="1YUU7GVWvdj" role="37wK5m">
-                <property role="Xl_RC" value="userName" />
-              </node>
-              <node concept="37vLTw" id="1YUU7GW1t0k" role="37wK5m">
-                <ref role="3cqZAo" node="1YUU7GW1ss5" resolve="userName" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1YUU7GVWvfw" role="3cqZAp">
-          <node concept="2OqwBi" id="1YUU7GVWvfx" role="3clFbG">
-            <node concept="37vLTw" id="1YUU7GVWvfy" role="2Oq$k0">
-              <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
-            </node>
-            <node concept="liA8E" id="1YUU7GVWvfz" role="2OqNvi">
-              <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
-              <node concept="Xl_RD" id="1YUU7GVWvf$" role="37wK5m">
-                <property role="Xl_RC" value="userId" />
-              </node>
-              <node concept="37vLTw" id="1YUU7GW1t3N" role="37wK5m">
-                <ref role="3cqZAo" node="1YUU7GVWtoB" resolve="userId" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1YUU7GVWvjy" role="3cqZAp">
-          <node concept="2OqwBi" id="1YUU7GVWvjz" role="3clFbG">
-            <node concept="37vLTw" id="1YUU7GVWvj$" role="2Oq$k0">
-              <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
-            </node>
-            <node concept="liA8E" id="1YUU7GVWvj_" role="2OqNvi">
-              <ref role="37wK5l" to="vpat:~Json.set(java.lang.String,java.lang.Object):mjson.Json" resolve="set" />
-              <node concept="Xl_RD" id="1YUU7GVWvjA" role="37wK5m">
-                <property role="Xl_RC" value="message" />
-              </node>
-              <node concept="37vLTw" id="1YUU7GVWvnY" role="37wK5m">
-                <ref role="3cqZAo" node="1YUU7GVWtxw" resolve="msg" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="4NXmMPR2r0T" role="3cqZAp">
-          <node concept="2OqwBi" id="4NXmMPR2r5V" role="3clFbG">
-            <node concept="37vLTw" id="4NXmMPR2r0R" role="2Oq$k0">
+          <node concept="2OqwBi" id="6LCrX7JDddQ" role="3clFbw">
+            <node concept="37vLTw" id="6LCrX7JDd7c" role="2Oq$k0">
               <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
             </node>
-            <node concept="liA8E" id="4NXmMPR2ra$" role="2OqNvi">
-              <ref role="37wK5l" to="ybfw:~EventBus.send(java.lang.String,mjson.Json):void" resolve="send" />
-              <node concept="Xl_RD" id="1YUU7GVWw52" role="37wK5m">
-                <property role="Xl_RC" value="globallog" />
-              </node>
-              <node concept="37vLTw" id="4NXmMPR2ren" role="37wK5m">
-                <ref role="3cqZAo" node="1YUU7GVWuxC" resolve="json" />
-              </node>
+            <node concept="liA8E" id="6LCrX7JDdmq" role="2OqNvi">
+              <ref role="37wK5l" to="ybfw:~EventBus.isConnected():boolean" resolve="isConnected" />
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="6LCrX7JCRRy" role="3cqZAp" />
       </node>
     </node>
     <node concept="2tJIrI" id="1YUU7GVWsxp" role="jymVt" />
@@ -41766,8 +41809,18 @@
       <node concept="3Tm1VV" id="1YUU7GVWrdy" role="1B3o_S" />
       <node concept="3clFbS" id="1YUU7GVWrdz" role="3clF47">
         <node concept="3clFbJ" id="4NXmMPR2tTN" role="3cqZAp">
-          <node concept="37vLTw" id="4NXmMPR2tVc" role="3clFbw">
-            <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+          <node concept="1Wc70l" id="6LCrX7JDjwi" role="3clFbw">
+            <node concept="2OqwBi" id="6LCrX7JDj$H" role="3uHU7w">
+              <node concept="37vLTw" id="6LCrX7JDjzq" role="2Oq$k0">
+                <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
+              </node>
+              <node concept="liA8E" id="6LCrX7JDjBq" role="2OqNvi">
+                <ref role="37wK5l" to="ybfw:~EventBus.isConnected():boolean" resolve="isConnected" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4NXmMPR2tVc" role="3uHU7B">
+              <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+            </node>
           </node>
           <node concept="3clFbS" id="4NXmMPR2tTP" role="3clFbx">
             <node concept="3clFbF" id="4NXmMPR2tWE" role="3cqZAp">
@@ -41799,7 +41852,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1YUU7GVWrKQ" role="jymVt" />
-    <node concept="2tJIrI" id="2tJfPESMmT$" role="jymVt" />
     <node concept="3clFb_" id="1YUU7GVWrBW" role="jymVt">
       <property role="TrG5h" value="unregister" />
       <property role="od$2w" value="false" />
@@ -41817,8 +41869,18 @@
       <node concept="3Tm1VV" id="1YUU7GVWrBY" role="1B3o_S" />
       <node concept="3clFbS" id="1YUU7GVWrBZ" role="3clF47">
         <node concept="3clFbJ" id="4NXmMPR2ut4" role="3cqZAp">
-          <node concept="37vLTw" id="4NXmMPR2uu$" role="3clFbw">
-            <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+          <node concept="1Wc70l" id="6LCrX7JDjEa" role="3clFbw">
+            <node concept="2OqwBi" id="6LCrX7JDjHW" role="3uHU7w">
+              <node concept="37vLTw" id="6LCrX7JDjGD" role="2Oq$k0">
+                <ref role="3cqZAo" node="1PUq9fiYGp7" resolve="bus" />
+              </node>
+              <node concept="liA8E" id="6LCrX7JDjKE" role="2OqNvi">
+                <ref role="37wK5l" to="ybfw:~EventBus.isConnected():boolean" resolve="isConnected" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="4NXmMPR2uu$" role="3uHU7B">
+              <ref role="3cqZAo" node="1YUU7GVVOBU" resolve="upNrunning" />
+            </node>
           </node>
           <node concept="3clFbS" id="4NXmMPR2ut6" role="3clFbx">
             <node concept="3clFbF" id="4NXmMPR2uvV" role="3cqZAp">
