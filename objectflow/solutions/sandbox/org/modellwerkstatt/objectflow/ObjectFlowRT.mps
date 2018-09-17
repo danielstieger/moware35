@@ -42634,35 +42634,6 @@
         </node>
       </node>
     </node>
-    <node concept="Wx3nA" id="5K99AeQ0aCr" role="jymVt">
-      <property role="TrG5h" value="MPREIS_DEFAULT_KAFKA" />
-      <property role="3TUv4t" value="true" />
-      <node concept="17QB3L" id="5K99AeQ07eW" role="1tU5fm" />
-      <node concept="3Tm1VV" id="5K99AeQ0b4Q" role="1B3o_S" />
-      <node concept="Xl_RD" id="1LWMBWz8H_K" role="33vP2m">
-        <property role="Xl_RC" value="jmain.mpreis.co.at:9092" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="1YUU7GVWerC" role="jymVt" />
-    <node concept="Wx3nA" id="1YUU7GVWemx" role="jymVt">
-      <property role="TrG5h" value="MPREIS_EVENTBUS_HOST" />
-      <property role="3TUv4t" value="true" />
-      <node concept="17QB3L" id="1YUU7GVWemy" role="1tU5fm" />
-      <node concept="3Tm1VV" id="1YUU7GVWemz" role="1B3o_S" />
-      <node concept="Xl_RD" id="1YUU7GVWem$" role="33vP2m">
-        <property role="Xl_RC" value="localhost" />
-      </node>
-    </node>
-    <node concept="Wx3nA" id="1YUU7GVWeoQ" role="jymVt">
-      <property role="TrG5h" value="MPREIS_EVENTBUS_PORT" />
-      <property role="3TUv4t" value="true" />
-      <node concept="10Oyi0" id="1YUU7GVWoB_" role="1tU5fm" />
-      <node concept="3Tm1VV" id="1YUU7GVWeoS" role="1B3o_S" />
-      <node concept="3cmrfG" id="1YUU7GVWoER" role="33vP2m">
-        <property role="3cmrfH" value="8089" />
-      </node>
-    </node>
-    <node concept="2tJIrI" id="7sK_OLreJIZ" role="jymVt" />
     <node concept="Wx3nA" id="6PK_6HzhuaB" role="jymVt">
       <property role="TrG5h" value="DBG_LOG_EVENTS_TO_CONSOLE" />
       <property role="3TUv4t" value="true" />
@@ -42673,10 +42644,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7sK_OLreK7K" role="jymVt" />
-    <node concept="2tJIrI" id="cMAJ_MtHyz" role="jymVt" />
-    <node concept="2tJIrI" id="cMAJ_MtH$c" role="jymVt" />
-    <node concept="2tJIrI" id="cMAJ_MtH_Q" role="jymVt" />
-    <node concept="2tJIrI" id="cMAJ_MtHBC" role="jymVt" />
     <node concept="2YIFZL" id="5lMTsSlr3_X" role="jymVt">
       <property role="TrG5h" value="getShortNameFromFQ" />
       <node concept="37vLTG" id="5lMTsSlr46z" role="3clF46">
@@ -44061,26 +44028,6 @@
       </node>
     </node>
   </node>
-  <node concept="3HP615" id="2tJfPESLteL">
-    <property role="TrG5h" value="IOFXAsyncConsumerReceiver" />
-    <property role="3GE5qa" value="OFXArchitecture" />
-    <node concept="2tJIrI" id="2tJfPESLtjB" role="jymVt" />
-    <node concept="3clFb_" id="2tJfPESLIMm" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="receiveMessageFromBus" />
-      <node concept="37vLTG" id="G_aOOc$pnS" role="3clF46">
-        <property role="TrG5h" value="msg" />
-        <node concept="3uibUv" id="G_aOOc$p_e" role="1tU5fm">
-          <ref role="3uigEE" to="ybfw:~Message" resolve="Message" />
-        </node>
-      </node>
-      <node concept="3cqZAl" id="2tJfPESLIMo" role="3clF45" />
-      <node concept="3Tm1VV" id="2tJfPESLIMp" role="1B3o_S" />
-      <node concept="3clFbS" id="2tJfPESLIMq" role="3clF47" />
-    </node>
-    <node concept="3Tm1VV" id="2tJfPESLteM" role="1B3o_S" />
-    <node concept="2tJIrI" id="G_aOOcuiVW" role="jymVt" />
-  </node>
   <node concept="3HP615" id="1nOz5_Je5BS">
     <property role="TrG5h" value="IOFXPageEvent" />
     <property role="3GE5qa" value="OFXArchitecture" />
@@ -44158,6 +44105,115 @@
     <node concept="16euLQ" id="3iJaUC6jU1P" role="16eVyc">
       <property role="TrG5h" value="T" />
     </node>
+  </node>
+  <node concept="3HP615" id="7HkVpVbXei3">
+    <property role="TrG5h" value="IMoEventBusService" />
+    <node concept="2tJIrI" id="7HkVpVbXerT" role="jymVt" />
+    <node concept="3clFb_" id="7HkVpVbXeIe" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="init" />
+      <node concept="3cqZAl" id="7HkVpVbXeIg" role="3clF45" />
+      <node concept="3Tm1VV" id="7HkVpVbXeIh" role="1B3o_S" />
+      <node concept="3clFbS" id="7HkVpVbXeIi" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="7HkVpVbXeKT" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="sendToGlobalLog" />
+      <node concept="3clFbS" id="7HkVpVbXeKW" role="3clF47" />
+      <node concept="3Tm1VV" id="7HkVpVbXeKX" role="1B3o_S" />
+      <node concept="3cqZAl" id="7HkVpVbXeKh" role="3clF45" />
+      <node concept="37vLTG" id="7HkVpVbXeMh" role="3clF46">
+        <property role="TrG5h" value="userId" />
+        <node concept="10Oyi0" id="7HkVpVbXeMg" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7HkVpVbXeN0" role="3clF46">
+        <property role="TrG5h" value="userName" />
+        <node concept="17QB3L" id="7HkVpVbXeNZ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7HkVpVbXeOP" role="3clF46">
+        <property role="TrG5h" value="timestamp" />
+        <node concept="3cpWsb" id="7HkVpVbXeQg" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7HkVpVbXeRJ" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="7HkVpVbXeT5" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7HkVpVbXeVM" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="register" />
+      <node concept="3clFbS" id="7HkVpVbXeVP" role="3clF47" />
+      <node concept="3Tm1VV" id="7HkVpVbXeVQ" role="1B3o_S" />
+      <node concept="3cqZAl" id="7HkVpVbXeVk" role="3clF45" />
+      <node concept="37vLTG" id="7HkVpVbXeYa" role="3clF46">
+        <property role="TrG5h" value="recv" />
+        <node concept="3uibUv" id="7HkVpVbXUtv" role="1tU5fm">
+          <ref role="3uigEE" node="7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7HkVpVbXeZo" role="3clF46">
+        <property role="TrG5h" value="msgType" />
+        <node concept="17QB3L" id="7HkVpVbXf0R" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7HkVpVbXf1I" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="unregister" />
+      <node concept="3clFbS" id="7HkVpVbXf1J" role="3clF47" />
+      <node concept="3Tm1VV" id="7HkVpVbXf1K" role="1B3o_S" />
+      <node concept="3cqZAl" id="7HkVpVbXf1L" role="3clF45" />
+      <node concept="37vLTG" id="7HkVpVbXf1M" role="3clF46">
+        <property role="TrG5h" value="recv" />
+        <node concept="3uibUv" id="7HkVpVbXUxl" role="1tU5fm">
+          <ref role="3uigEE" node="7HkVpVbXCOi" resolve="IMoEventBusService.AsyncReceiver" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7HkVpVbXf1O" role="3clF46">
+        <property role="TrG5h" value="msgType" />
+        <node concept="17QB3L" id="7HkVpVbXf1P" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="7HkVpVbXf5H" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="close" />
+      <node concept="3clFbS" id="7HkVpVbXf5I" role="3clF47" />
+      <node concept="3Tm1VV" id="7HkVpVbXf5J" role="1B3o_S" />
+      <node concept="3cqZAl" id="7HkVpVbXf5K" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="7HkVpVbYTdl" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getCurrentStatus" />
+      <node concept="3clFbS" id="7HkVpVbYTdo" role="3clF47" />
+      <node concept="3Tm1VV" id="7HkVpVbYTdp" role="1B3o_S" />
+      <node concept="17QB3L" id="7HkVpVbYYIO" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="7HkVpVbXfb3" role="jymVt" />
+    <node concept="2tJIrI" id="7HkVpVbXCHJ" role="jymVt" />
+    <node concept="3HP615" id="7HkVpVbXCOi" role="jymVt">
+      <property role="2bfB8j" value="true" />
+      <property role="TrG5h" value="AsyncReceiver" />
+      <node concept="3clFb_" id="2tJfPESLIMm" role="jymVt">
+        <property role="1EzhhJ" value="true" />
+        <property role="TrG5h" value="receiveMessageFromBus" />
+        <node concept="37vLTG" id="G_aOOc$pnS" role="3clF46">
+          <property role="TrG5h" value="msg" />
+          <node concept="3uibUv" id="G_aOOc$p_e" role="1tU5fm">
+            <ref role="3uigEE" to="ybfw:~Message" resolve="Message" />
+          </node>
+        </node>
+        <node concept="3cqZAl" id="2tJfPESLIMo" role="3clF45" />
+        <node concept="3Tm1VV" id="2tJfPESLIMp" role="1B3o_S" />
+        <node concept="3clFbS" id="2tJfPESLIMq" role="3clF47" />
+      </node>
+      <node concept="3Tm1VV" id="7HkVpVbXCOj" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="7HkVpVbXCJi" role="jymVt" />
+    <node concept="3Tm1VV" id="7HkVpVbXei4" role="1B3o_S" />
   </node>
 </model>
 

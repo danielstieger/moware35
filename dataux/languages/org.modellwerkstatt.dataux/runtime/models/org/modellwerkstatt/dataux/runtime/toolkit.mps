@@ -51,6 +51,7 @@
         <property id="1178608670077" name="isAbstract" index="1EzhhJ" />
       </concept>
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS" />
+      <concept id="1068581242867" name="jetbrains.mps.baseLanguage.structure.LongType" flags="in" index="3cpWsb" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -252,14 +253,6 @@
       <node concept="3Tm1VV" id="5Ld38uCp_OJ" role="1B3o_S" />
       <node concept="10P_77" id="5Ld38uCp_K$" role="3clF45" />
     </node>
-    <node concept="3clFb_" id="1LWMBWz3oW1" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getKafkaLoggingServer" />
-      <node concept="3clFbS" id="1LWMBWz3oW2" role="3clF47" />
-      <node concept="3Tm1VV" id="1LWMBWz3oW3" role="1B3o_S" />
-      <node concept="17QB3L" id="1LWMBWz3p6D" role="3clF45" />
-    </node>
     <node concept="3clFb_" id="5XGplYAWG3H" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getSettingsDescription" />
@@ -278,7 +271,31 @@
       <node concept="3Tm1VV" id="4cdUWYrGdkR" role="1B3o_S" />
       <node concept="3clFbS" id="4cdUWYrGdkS" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="4cdUWYrGdh$" role="jymVt" />
+    <node concept="3clFb_" id="7HkVpVbYc$m" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="logToEventbus" />
+      <node concept="3clFbS" id="7HkVpVbYc$p" role="3clF47" />
+      <node concept="3Tm1VV" id="7HkVpVbYc$q" role="1B3o_S" />
+      <node concept="3cqZAl" id="7HkVpVbYdEK" role="3clF45" />
+      <node concept="37vLTG" id="7HkVpVbYcJh" role="3clF46">
+        <property role="TrG5h" value="userId" />
+        <node concept="10Oyi0" id="7HkVpVbYcJg" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7HkVpVbYcQ2" role="3clF46">
+        <property role="TrG5h" value="userName" />
+        <node concept="17QB3L" id="7HkVpVbYcWU" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7HkVpVbYd3H" role="3clF46">
+        <property role="TrG5h" value="timestamp" />
+        <node concept="3cpWsb" id="7HkVpVbYdaw" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7HkVpVbYdh$" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="7HkVpVbYdou" role="1tU5fm" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7HkVpVbYc7c" role="jymVt" />
     <node concept="3clFb_" id="1SuqpWQX7r3" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
@@ -302,8 +319,17 @@
       <node concept="3Tm1VV" id="7nDJo_bvoHt" role="1B3o_S" />
       <node concept="3clFbS" id="7nDJo_bvoHu" role="3clF47" />
     </node>
-    <node concept="2tJIrI" id="2vHEu_NDAbG" role="jymVt" />
-    <node concept="2tJIrI" id="2qrl3a2or$G" role="jymVt" />
+    <node concept="3clFb_" id="7HkVpVbXnBN" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getEventBus" />
+      <node concept="3clFbS" id="7HkVpVbXnBQ" role="3clF47" />
+      <node concept="3Tm1VV" id="7HkVpVbXnBR" role="1B3o_S" />
+      <node concept="3uibUv" id="7HkVpVbXnzY" role="3clF45">
+        <ref role="3uigEE" to="28jr:7HkVpVbXei3" resolve="IMoEventBusService" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7HkVpVbYbZN" role="jymVt" />
     <node concept="3clFb_" id="3VIcZtBdaPD" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createToolkitFormContainer" />

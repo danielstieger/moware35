@@ -4641,6 +4641,21 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="7HkVpVbYpLo" role="3cqZAp">
+          <node concept="2OqwBi" id="7HkVpVbYqKq" role="3clFbG">
+            <node concept="2OqwBi" id="7HkVpVbYpOY" role="2Oq$k0">
+              <node concept="37vLTw" id="7HkVpVbYtQK" role="2Oq$k0">
+                <ref role="3cqZAo" node="4QTIUTBQA3g" resolve="appFactory" />
+              </node>
+              <node concept="liA8E" id="7HkVpVbYqJe" role="2OqNvi">
+                <ref role="37wK5l" to="250q:7HkVpVbXnBN" resolve="getEventBus" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7HkVpVbYqO5" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:7HkVpVbXf5H" resolve="close" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1EBV9L$up98" role="3cqZAp">
           <node concept="2OqwBi" id="1EBV9L$upbx" role="3clFbG">
             <node concept="37vLTw" id="1EBV9L$up96" role="2Oq$k0">
