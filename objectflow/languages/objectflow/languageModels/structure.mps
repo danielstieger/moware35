@@ -621,7 +621,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="events" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="2tJfPESW2g4" resolve="PageEvent" />
+      <ref role="20lvS9" node="7HkVpVcFgBy" resolve="IPageEventHandler" />
     </node>
     <node concept="1TJgyj" id="3nLPQZPUuMQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3991,8 +3991,10 @@
   </node>
   <node concept="1TIwiD" id="2tJfPESW2g4">
     <property role="1pbfSe" value="530619554" />
-    <property role="3GE5qa" value="OFXCore.command" />
-    <property role="TrG5h" value="PageEvent" />
+    <property role="3GE5qa" value="OFXCore.command.eventHandler" />
+    <property role="TrG5h" value="CustomPageEvent" />
+    <property role="34LRSv" value="Custom Event" />
+    <property role="R4oN_" value="custom event handler" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2tJfPESW2L3" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -4021,6 +4023,9 @@
     <node concept="PrWs8" id="2tJfPET_JqB" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
+    <node concept="PrWs8" id="7HkVpVcFgCO" role="PzmwI">
+      <ref role="PrY4T" node="7HkVpVcFgBy" resolve="IPageEventHandler" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2tJfPET_JFG">
     <property role="1pbfSe" value="519685562" />
@@ -4034,7 +4039,23 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="event" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2tJfPESW2g4" resolve="PageEvent" />
+      <ref role="20lvS9" node="2tJfPESW2g4" resolve="CustomPageEvent" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7HkVpVcFgBy">
+    <property role="1pbfSe" value="1208088448" />
+    <property role="3GE5qa" value="OFXCore.command.eventHandler" />
+    <property role="TrG5h" value="IPageEventHandler" />
+  </node>
+  <node concept="1TIwiD" id="7HkVpVcIOzH">
+    <property role="1pbfSe" value="1209022091" />
+    <property role="3GE5qa" value="OFXCore.command.eventHandler" />
+    <property role="TrG5h" value="GlobalUpdateHandler" />
+    <property role="34LRSv" value="Update Event" />
+    <property role="R4oN_" value="entity created updated" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7HkVpVcNO_X" role="PzmwI">
+      <ref role="PrY4T" node="7HkVpVcFgBy" resolve="IPageEventHandler" />
     </node>
   </node>
 </model>

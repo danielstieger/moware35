@@ -622,6 +622,7 @@
       <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
       <concept id="1225727723840" name="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" flags="nn" index="1z4cxt" />
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
+      <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1178894719932" name="jetbrains.mps.baseLanguage.collections.structure.DistinctOperation" flags="nn" index="1VAtEI" />
     </language>
   </registry>
@@ -679,7 +680,7 @@
     <node concept="2rT7sh" id="1nOz5_JeLT_" role="2rTMjI">
       <property role="TrG5h" value="EventField" />
       <ref role="2rZz_L" to="tpee:fz12cDC" resolve="FieldDeclaration" />
-      <ref role="2rTdP9" to="un0u:2tJfPESW2g4" resolve="PageEvent" />
+      <ref role="2rTdP9" to="un0u:2tJfPESW2g4" resolve="CustomPageEvent" />
     </node>
     <node concept="2rT7sh" id="7uJ0DEO60Gn" role="2rTMjI">
       <property role="TrG5h" value="TestDataBuilder" />
@@ -20035,10 +20036,54 @@
           <node concept="3JmXsc" id="1nOz5_JeBYl" role="3Jn$fo">
             <node concept="3clFbS" id="1nOz5_JeBYm" role="2VODD2">
               <node concept="3clFbF" id="1nOz5_JeBYn" role="3cqZAp">
-                <node concept="2OqwBi" id="1nOz5_JeBYo" role="3clFbG">
-                  <node concept="30H73N" id="1nOz5_JeBYp" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="1nOz5_JeYJB" role="2OqNvi">
-                    <ref role="3TtcxE" to="un0u:2tJfPESW6bE" />
+                <node concept="2OqwBi" id="7HkVpVcJnfa" role="3clFbG">
+                  <node concept="2OqwBi" id="7HkVpVcJ6DK" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1nOz5_JeBYo" role="2Oq$k0">
+                      <node concept="30H73N" id="1nOz5_JeBYp" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="1nOz5_JeYJB" role="2OqNvi">
+                        <ref role="3TtcxE" to="un0u:2tJfPESW6bE" />
+                      </node>
+                    </node>
+                    <node concept="3zZkjj" id="7HkVpVcJ7Vc" role="2OqNvi">
+                      <node concept="1bVj0M" id="7HkVpVcJ7Ve" role="23t8la">
+                        <node concept="3clFbS" id="7HkVpVcJ7Vf" role="1bW5cS">
+                          <node concept="3clFbF" id="7HkVpVcJa9k" role="3cqZAp">
+                            <node concept="2OqwBi" id="7HkVpVcJaNU" role="3clFbG">
+                              <node concept="37vLTw" id="7HkVpVcJa9j" role="2Oq$k0">
+                                <ref role="3cqZAo" node="7HkVpVcJ7Vg" resolve="it" />
+                              </node>
+                              <node concept="1mIQ4w" id="7HkVpVcJc0Q" role="2OqNvi">
+                                <node concept="chp4Y" id="7HkVpVcJdv9" role="cj9EA">
+                                  <ref role="cht4Q" to="un0u:2tJfPESW2g4" resolve="CustomPageEvent" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="7HkVpVcJ7Vg" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="7HkVpVcJ7Vh" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3$u5V9" id="7HkVpVcJo7p" role="2OqNvi">
+                    <node concept="1bVj0M" id="7HkVpVcJo7r" role="23t8la">
+                      <node concept="3clFbS" id="7HkVpVcJo7s" role="1bW5cS">
+                        <node concept="3clFbF" id="7HkVpVcJpBV" role="3cqZAp">
+                          <node concept="1PxgMI" id="7HkVpVcJqkD" role="3clFbG">
+                            <ref role="1PxNhF" to="un0u:2tJfPESW2g4" resolve="CustomPageEvent" />
+                            <node concept="37vLTw" id="7HkVpVcJpBU" role="1PxMeX">
+                              <ref role="3cqZAo" node="7HkVpVcJo7t" resolve="it" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="7HkVpVcJo7t" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="7HkVpVcJo7u" role="1tU5fm" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>

@@ -5463,7 +5463,7 @@
                     <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
                   </node>
                   <node concept="liA8E" id="7HkVpVbYynW" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:7HkVpVbXnBN" resolve="getEventBus" />
+                    <ref role="37wK5l" to="1e0c:7HkVpVcgYkW" resolve="getEventBus" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7HkVpVbYyrO" role="2OqNvi">

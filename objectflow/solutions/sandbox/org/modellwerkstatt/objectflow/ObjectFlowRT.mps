@@ -44140,6 +44140,23 @@
         <node concept="17QB3L" id="7HkVpVbXeT5" role="1tU5fm" />
       </node>
     </node>
+    <node concept="3clFb_" id="7HkVpVcWD9V" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="publish" />
+      <node concept="3cqZAl" id="7HkVpVcWD9X" role="3clF45" />
+      <node concept="3Tm1VV" id="7HkVpVcWD9Y" role="1B3o_S" />
+      <node concept="3clFbS" id="7HkVpVcWD9Z" role="3clF47" />
+      <node concept="37vLTG" id="7HkVpVcXtnU" role="3clF46">
+        <property role="TrG5h" value="msgType" />
+        <node concept="17QB3L" id="7HkVpVcXtrm" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7HkVpVcXtkC" role="3clF46">
+        <property role="TrG5h" value="json" />
+        <node concept="3uibUv" id="7HkVpVcXtkB" role="1tU5fm">
+          <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="7HkVpVbXeVM" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />

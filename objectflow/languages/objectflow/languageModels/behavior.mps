@@ -18532,7 +18532,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="2tJfPET_Js3">
-    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="3GE5qa" value="OFXCore.command.eventHandler" />
     <ref role="13h7C2" to="un0u:2tJfPESW2g4" resolve="PageEvent" />
     <node concept="13hLZK" id="2tJfPET_Js4" role="13h7CW">
       <node concept="3clFbS" id="2tJfPET_Js5" role="2VODD2" />
