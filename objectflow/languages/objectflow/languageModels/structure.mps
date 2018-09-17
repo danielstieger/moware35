@@ -437,6 +437,7 @@
     <property role="TrG5h" value="DeprecatedOption" />
     <property role="34LRSv" value="DEPRECATED" />
     <property role="1pbfSe" value="1706057621" />
+    <property role="R4oN_" value="mark property as @deprecated" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
   </node>
   <node concept="1TIwiD" id="3bYrH4MI37T">
@@ -469,6 +470,7 @@
     <property role="TrG5h" value="LengthOption" />
     <property role="34LRSv" value="LENGTH" />
     <property role="1pbfSe" value="141867122" />
+    <property role="R4oN_" value="specifies [min,max] len for strings" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
     <node concept="1TJgyi" id="7ubYH_ZZOMQ" role="1TKVEl">
       <property role="TrG5h" value="min" />
@@ -1454,6 +1456,7 @@
     <property role="TrG5h" value="OppositeOption" />
     <property role="34LRSv" value="OPPOSITE" />
     <property role="1pbfSe" value="814543347" />
+    <property role="R4oN_" value="specifies a back-reference to parent entity" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
   </node>
   <node concept="PlHQZ" id="4H7K4Wq6tCQ">
@@ -1511,6 +1514,7 @@
     <property role="TrG5h" value="Containmentoption" />
     <property role="34LRSv" value="CONTAINMENT" />
     <property role="1pbfSe" value="72018437" />
+    <property role="R4oN_" value="mark list-property as parent-child relationship" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
     <node concept="1TJgyj" id="1B7O2gncowg" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -1557,6 +1561,7 @@
     <property role="TrG5h" value="RangeOption" />
     <property role="34LRSv" value="RANGE" />
     <property role="1pbfSe" value="1036043100" />
+    <property role="R4oN_" value="specifies value range [start, stop] for bigdecimal" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
     <node concept="1TJgyi" id="33f56ccWqVW" role="1TKVEl">
       <property role="TrG5h" value="start" />
@@ -1607,6 +1612,7 @@
     <property role="TrG5h" value="NotPersistedOption" />
     <property role="34LRSv" value="NOT_PERSIST_DIRTY_IRRELEVANT" />
     <property role="1pbfSe" value="1974563646" />
+    <property role="R4oN_" value="not observed for session dirty checking" />
     <ref role="1TJDcQ" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
   </node>
   <node concept="1TIwiD" id="1rbZyOz8U$h">

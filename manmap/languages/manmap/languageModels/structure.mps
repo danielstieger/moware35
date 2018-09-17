@@ -292,7 +292,7 @@
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <property role="TrG5h" value="KeyOption" />
     <property role="34LRSv" value="KEY" />
-    <property role="R4oN_" value="marks field as db key" />
+    <property role="R4oN_" value="mark property as db key column" />
     <property role="1pbfSe" value="603225529" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
   </node>
@@ -300,7 +300,7 @@
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <property role="TrG5h" value="AutoidOption" />
     <property role="34LRSv" value="AUTOID" />
-    <property role="R4oN_" value="draw id from sequence" />
+    <property role="R4oN_" value="draw key id from database-sequence" />
     <property role="1pbfSe" value="603225534" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
     <node concept="1TJgyj" id="EYyuKpdvfk" role="1TKVEi">
@@ -313,7 +313,7 @@
   <node concept="1TIwiD" id="EYyuKpdvfv">
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <property role="TrG5h" value="IndexOption" />
-    <property role="R4oN_" value="add an index to the db field" />
+    <property role="R4oN_" value="add an index statement to gen. schema description" />
     <property role="34LRSv" value="INDEX" />
     <property role="1pbfSe" value="603225547" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
@@ -322,7 +322,7 @@
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <property role="TrG5h" value="SizeOption" />
     <property role="34LRSv" value="SIZE" />
-    <property role="R4oN_" value="define size for field" />
+    <property role="R4oN_" value="add an size expression to gen. schema description" />
     <property role="1pbfSe" value="603225551" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
     <node concept="1TJgyi" id="EYyuKpdvf$" role="1TKVEl">
@@ -338,7 +338,7 @@
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <property role="TrG5h" value="NotnullOption" />
     <property role="34LRSv" value="NOTNULL" />
-    <property role="R4oN_" value="mark db field as not null" />
+    <property role="R4oN_" value="add an NOTNULL expression to gen. schema description" />
     <property role="1pbfSe" value="603225570" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
   </node>
@@ -903,7 +903,7 @@
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <property role="TrG5h" value="CreatedAtFieldOption" />
     <property role="34LRSv" value="CREATEDAT" />
-    <property role="R4oN_" value="set timestamp on insert" />
+    <property role="R4oN_" value="set auto timestamp on insert" />
     <property role="1pbfSe" value="1304888353" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
   </node>
@@ -911,7 +911,7 @@
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <property role="TrG5h" value="CreatedByFieldOption" />
     <property role="34LRSv" value="CREATEDBY" />
-    <property role="R4oN_" value="set userid on insert" />
+    <property role="R4oN_" value="set auto userid on insert" />
     <property role="1pbfSe" value="1304890511" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
   </node>
@@ -919,7 +919,7 @@
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <property role="TrG5h" value="ModifiedAtFieldOption" />
     <property role="34LRSv" value="MODIFIEDAT" />
-    <property role="R4oN_" value="set timestamp on update" />
+    <property role="R4oN_" value="set auto timestamp on update" />
     <property role="1pbfSe" value="1304892024" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
   </node>
@@ -927,7 +927,7 @@
     <property role="3GE5qa" value="mapping.fieldoptions" />
     <property role="TrG5h" value="ModifiedByFieldOption" />
     <property role="34LRSv" value="MODIFIEDBY" />
-    <property role="R4oN_" value="set userid on update" />
+    <property role="R4oN_" value="set auto userid on update" />
     <property role="1pbfSe" value="1304892781" />
     <ref role="1TJDcQ" node="EYyuKpcML6" resolve="FieldOption" />
   </node>

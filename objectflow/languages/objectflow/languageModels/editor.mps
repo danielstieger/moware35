@@ -4509,7 +4509,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="33f56ccWqW3" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
+        <property role="3F0ifm" value="[" />
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
         <node concept="11LMrY" id="33f56ccWqW4" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -4526,7 +4526,7 @@
         <ref role="1NtTu8" to="un0u:33f56ccWqVX" resolve="stop" />
       </node>
       <node concept="3F0ifn" id="57Gp9CQigiI" role="3EZMnx">
-        <property role="3F0ifm" value="," />
+        <property role="3F0ifm" value="]" />
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
         <node concept="11LMrY" id="2M2kZGpq7k5" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -4537,13 +4537,6 @@
       </node>
       <node concept="3F0A7n" id="57Gp9CQigiK" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:57Gp9CQigiE" resolve="scale" />
-      </node>
-      <node concept="3F0ifn" id="33f56ccWqWa" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-        <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
-        <node concept="11L4FC" id="33f56ccWqWb" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
       </node>
       <node concept="l2Vlx" id="33f56ccWqWc" role="2iSdaV" />
     </node>
