@@ -23,7 +23,7 @@
 -->
  
 <project name="OFXBatchJob" default="default">      
-  <property name="buildUserHome"        value="/Users/danielstieger" /> 
+  <include file="bmoware.xml" as="moware"/>
   	
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
@@ -32,9 +32,7 @@
   <property name="appConfiguration"     value="Simple/baseApp/BatchConfigTomcat.xml" /> 
   
   <!-- **** build specific definitions ************************************************************** -->
-  <property name="javawareHomeDir"       value="${buildUserHome}/javaware" /> 
   <property name="mpsHomeDir"            value="${buildUserHome}/javaexe/MPS335" /> 
-  <property name="mowarePluginHomeDir"   value="${buildUserHome}/javaexe/MoPluginFake" />
   <property name="tomcatHomeDir"         value="/${buildUserHome}/stuff/apache-tomcat-8.0.33" />
       
   <!-- **** solutions to incorporate in this build ************************************************** -->
@@ -44,43 +42,20 @@
   <echo>
     Run by ${user.name} on Java Home : ${java.home}
     Building VERSION ${appBuildVersion} of ${appMainclass}
-    
+	MOWAREPLUGINHOMEDIR ${mowarePluginHomeDir}
   </echo>
 
-  <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
-  <target name="mowarePluginAdoption">
-	<property name="mowareHome"    value="${buildUserHome}/moware" />
-    <delete includeemptydirs="false">
-    	<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions" includes="*.jar"/>
-  	</delete>
-    
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.runtime.jar"
-    	 basedir="${mowareHome}/objectflow/solutions/sandbox/classes_gen"/>
-         
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.solution.jar" 
-         basedir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
-         
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.dataux.runtime.jar" 
-         basedir="${mowareHome}/dataux/languages/org.modellwerkstatt.dataux/runtime/classes_gen" />
-    
-    <copy todir="${mowarePluginHomeDir}/ofassembly/artefact/" overwrite="true" >
-    	<fileset dir="${mowareHome}/objectflow/assembly/artefact/"/>
-  	</copy>
-  	        
-  </target>
-  <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  
 
-
-  <target name="default" depends="mowarePluginAdoption">
-
+  <target name="default" depends="moware.mowarePluginAdoption">
     <mkdir dir="work"/>
     <mkdir dir="work/WEB-INF/lib"/>
     <copy todir="work/WEB-INF/lib">
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.runtime.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
+	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
+	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
 	  
-      <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*springframework*.jar, joda-time*.jar, commons-logging*.jar" />      
+      <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*spring*.jar, joda-time*.jar, commons-logging*.jar" />      
+      
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-collections.jar" />
       
@@ -124,38 +99,5 @@
   	<copy todir="${tomcatHomeDir}/webapps/${appName}">
   		<fileset dir="work" />
   	</copy>
-  </target>
-  
-  
-  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-  <target name="xbus">
-    <property name="javaxbusFile"      value="mo-javaxbus-1.0.jar" />
-    
-    <delete includeEmptyDirs="true">
-  		<fileset dir="../languages/objectflow/jars/eventbus/" includes="**/*" defaultexcludes="no"/>
-	</delete>  
-	
-	<mkdir dir="xbustmp" />
-    <jar destfile="../languages/objectflow/jars/eventbus/${javaxbusFile}" basedir="xbustmp" update="false">
-      <manifest>
-        <attribute name="Version"    value="1.0" />
-      </manifest>
-      <zipgroupfileset dir="${buildUserHome}/stuff/javaxbus/target" includes="*javaxbus*.jar" />
-      <zipgroupfileset dir="${buildUserHome}/stuff/javaxbus/lib"    includes="*mjson*.jar" />
-    </jar>
-    <delete dir="xbusTmp" />
-    
-    
-    
-    
-    <delete includeEmptyDirs="true">
-  		<fileset dir="${mowarePluginHomeDir}/jars/eventbus/" includes="**/*" defaultexcludes="no"/>
-	</delete>  
-  	<copy todir="${mowarePluginHomeDir}/jars/eventbus">
-  		<fileset dir="../languages/objectflow/jars/eventbus/" includes="${javaxbusFile}" />
-  	</copy>
-  </target>
-  
-  
-  
+  </target>  
 </project>

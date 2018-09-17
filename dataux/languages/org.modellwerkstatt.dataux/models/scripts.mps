@@ -14,7 +14,6 @@
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
-    <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -36,9 +35,6 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
@@ -62,7 +58,6 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -71,9 +66,11 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
-        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
-        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
     </language>
     <language id="0eddeefa-c2d6-4437-bc2c-de50fd4ce470" name="jetbrains.mps.lang.script">
@@ -296,6 +293,146 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="2B59PgQHtKi" role="_YvDr">
+      <property role="_XH9r" value="Update Manmap runtime name (I)" />
+      <ref role="_XDHR" to="un0u:q_zDmI6nTa" resolve="OFXConfigInstance" />
+      <node concept="_ZGcI" id="2B59PgQHtKk" role="_XPhp">
+        <node concept="3clFbS" id="2B59PgQHtKm" role="2VODD2">
+          <node concept="3clFbF" id="2B59PgQHytM" role="3cqZAp">
+            <node concept="37vLTI" id="2B59PgQHz20" role="3clFbG">
+              <node concept="2OqwBi" id="2B59PgQHyPv" role="37vLTJ">
+                <node concept="2OqwBi" id="2B59PgQHywV" role="2Oq$k0">
+                  <node concept="_YI3z" id="2B59PgQHytK" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2B59PgQHyH0" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="2B59PgQHyVs" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2B59PgQHvop" role="37vLTx">
+                <node concept="2OqwBi" id="2B59PgQHv7z" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2B59PgQHuPb" role="2Oq$k0">
+                    <node concept="_YI3z" id="2B59PgQHuMS" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="2B59PgQHv0f" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="2B59PgQHvhJ" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2B59PgQHv$u" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <node concept="Xl_RD" id="2B59PgQHv$X" role="37wK5m">
+                    <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT." />
+                  </node>
+                  <node concept="Xl_RD" id="2B59PgQHvGp" role="37wK5m">
+                    <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="2B59PgQHtWj" role="_XDHO">
+        <node concept="3clFbS" id="2B59PgQHtWk" role="2VODD2">
+          <node concept="3clFbF" id="2B59PgQHtXp" role="3cqZAp">
+            <node concept="2OqwBi" id="2B59PgQHuuO" role="3clFbG">
+              <node concept="2OqwBi" id="2B59PgQHugn" role="2Oq$k0">
+                <node concept="2OqwBi" id="2B59PgQHu0S" role="2Oq$k0">
+                  <node concept="_YI3z" id="2B59PgQHtXo" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2B59PgQHu7O" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="2B59PgQHun1" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2B59PgQHuAT" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <node concept="Xl_RD" id="2B59PgQHuC2" role="37wK5m">
+                  <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="_XfAh" id="7HkVpVbe0X$" role="_YvDr">
+      <property role="_XH9r" value="Update Manmap runtime name (II)" />
+      <ref role="_XDHR" to="un0u:q_zDmI6nTa" resolve="OFXConfigInstance" />
+      <node concept="_ZGcI" id="7HkVpVbe0X_" role="_XPhp">
+        <node concept="3clFbS" id="7HkVpVbe0XA" role="2VODD2">
+          <node concept="3clFbF" id="7HkVpVbe0XB" role="3cqZAp">
+            <node concept="37vLTI" id="7HkVpVbe0XC" role="3clFbG">
+              <node concept="2OqwBi" id="7HkVpVbe0XD" role="37vLTJ">
+                <node concept="2OqwBi" id="7HkVpVbe0XE" role="2Oq$k0">
+                  <node concept="_YI3z" id="7HkVpVbe0XF" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7HkVpVbe0XG" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="7HkVpVbe0XH" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="7HkVpVbe0XI" role="37vLTx">
+                <node concept="2OqwBi" id="7HkVpVbe0XJ" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7HkVpVbe0XK" role="2Oq$k0">
+                    <node concept="_YI3z" id="7HkVpVbe0XL" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="7HkVpVbe0XM" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="7HkVpVbe0XN" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="7HkVpVbe0XO" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <node concept="Xl_RD" id="7HkVpVbe0XP" role="37wK5m">
+                    <property role="Xl_RC" value="org.modellwerkstatt.manmap.manmapRT." />
+                  </node>
+                  <node concept="Xl_RD" id="7HkVpVbe0XQ" role="37wK5m">
+                    <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime." />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="7HkVpVbe0XR" role="_XDHO">
+        <node concept="3clFbS" id="7HkVpVbe0XS" role="2VODD2">
+          <node concept="3clFbF" id="7HkVpVbe0XT" role="3cqZAp">
+            <node concept="2OqwBi" id="7HkVpVbe0XU" role="3clFbG">
+              <node concept="2OqwBi" id="7HkVpVbe0XV" role="2Oq$k0">
+                <node concept="2OqwBi" id="7HkVpVbe0XW" role="2Oq$k0">
+                  <node concept="_YI3z" id="7HkVpVbe0XX" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7HkVpVbe0XY" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="7HkVpVbe0XZ" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                </node>
+              </node>
+              <node concept="liA8E" id="7HkVpVbe0Y0" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <node concept="Xl_RD" id="7HkVpVbe0Y1" role="37wK5m">
+                  <property role="Xl_RC" value="org.modellwerkstatt.manmap.manmapRT." />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="7ojk6m6b0Vx" role="_YvDr">
       <property role="_XH9r" value="Adjust component scan base name" />
       <ref role="_XDHR" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
@@ -343,26 +480,9 @@
       <ref role="_XDHR" to="1btx:1K7fNI_kq$B" resolve="MenuCompoundAction" />
       <node concept="_ZGcI" id="5YEYfHvA4zc" role="_XPhp">
         <node concept="3clFbS" id="5YEYfHvA4zd" role="2VODD2">
-          <node concept="3clFbF" id="5YEYfHvG1Mp" role="3cqZAp">
-            <node concept="2OqwBi" id="5YEYfHvG1Mm" role="3clFbG">
-              <node concept="10M0yZ" id="5YEYfHvG1Mn" role="2Oq$k0">
-                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-              </node>
-              <node concept="liA8E" id="5YEYfHvG1Mo" role="2OqNvi">
-                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="3cpWs3" id="5YEYfHvG1T7" role="37wK5m">
-                  <node concept="2OqwBi" id="5YEYfHvG1ZV" role="3uHU7w">
-                    <node concept="_YI3z" id="5YEYfHvG1Uv" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="5YEYfHvG2yf" role="2OqNvi">
-                      <ref role="3Tt5mk" to="1btx:3wfz3qPfteK" />
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="5YEYfHvG1MN" role="3uHU7B">
-                    <property role="Xl_RC" value=" &gt;&gt; " />
-                  </node>
-                </node>
-              </node>
+          <node concept="3SKdUt" id="7HkVpVbutNo" role="3cqZAp">
+            <node concept="3SKdUq" id="7HkVpVbutNp" role="3SKWNk">
+              <property role="3SKdUp" value="TODO? is that skipped on purpose? 17. sept? " />
             </node>
           </node>
         </node>

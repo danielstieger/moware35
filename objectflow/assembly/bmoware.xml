@@ -1,0 +1,95 @@
+<!--
+
+
+ bmoware.xml: Building moware specific things or 
+              generate moware libs for development on the fly...
+            
+ daniel stieger, autumn 2018, marseille
+
+ 
+ 
+ 
+ set JAVA_HOME=c:\javaexe\MPS30\jre
+ set PATH=%PATH%;c:\javaexe\ant_MPS25\bin;c:\PROGRA~2\WIXTOO~1.7\bin
+ 
+ 
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
+ export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
+ 
+-->
+ 
+<project>      
+  <!-- **** build specific definitions ************************************************************** -->
+
+  <property name="buildUserHome"         value="/Users/danielstieger" /> 
+  <property name="mowarePluginHomeDir"   value="${buildUserHome}/javaexe/MoPluginFake" />
+  <property name="mowareHome"            value="${buildUserHome}/moware" />
+    
+  
+  
+  
+
+      
+  <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
+  <target name="mowarePluginAdoption">
+	
+    <delete includeemptydirs="false">
+    	<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions" includes="*.jar"/>
+  	</delete>
+    
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.objectflow.runtime.jar"
+    	 basedir="${mowareHome}/objectflow/solutions/sandbox/classes_gen"/>
+         
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.runtime.jar" 
+         basedir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
+         
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.dataux.runtime.jar" 
+         basedir="${mowareHome}/dataux/languages/org.modellwerkstatt.dataux/runtime/classes_gen" />
+    
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.h2forms.jar" 
+         basedir="${mowareHome}/h2forms/languages/org.modellwerkstatt.h2forms/runtime/classes_gen" />
+         
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.vaadinforms.jar" 
+         basedir="${mowareHome}/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen"/>
+
+    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/moware-vaadin-theme-1.0.jar" 
+         basedir="${mowareHome}/vaadinforms/assembly/artefact/moware-theme"/>
+    
+    <copy todir="${mowarePluginHomeDir}/ofassembly/artefact/" overwrite="true" >
+    	<fileset dir="${mowareHome}/objectflow/assembly/artefact/"/>
+  	</copy>
+  	        
+  </target>
+  <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  
+
+
+  
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+  <target name="xbus">
+    <property name="javaxbusFile"      value="mo-javaxbus-1.0.jar" />
+    
+    <delete includeEmptyDirs="true">
+  		<fileset dir="${mowareHome}/objectflow/languages/objectflow/jars/eventbus/" includes="**/*" defaultexcludes="no"/>
+	</delete>  
+	
+	<mkdir dir="xbustmp" />
+    <jar destfile="${mowareHome}/objectflow/languages/objectflow/jars/eventbus/${javaxbusFile}" basedir="xbustmp" update="false">
+      <manifest>
+        <attribute name="Version"    value="1.0" />
+      </manifest>
+      <zipgroupfileset dir="${buildUserHome}/stuff/javaxbus/target" includes="*javaxbus*.jar" />
+      <zipgroupfileset dir="${buildUserHome}/stuff/javaxbus/lib"    includes="*mjson*.jar" />
+    </jar>
+    <delete dir="xbusTmp" />
+    
+    
+    
+    <delete includeEmptyDirs="true">
+  		<fileset dir="${mowarePluginHomeDir}/jars/eventbus/" includes="**/*" defaultexcludes="no"/>
+	</delete>  
+  	<copy todir="${mowarePluginHomeDir}/jars/eventbus">
+  		<fileset dir="${mowareHome}/objectflow/languages/objectflow/jars/eventbus/" includes="${javaxbusFile}" />
+  	</copy>
+  </target>
+
+</project>

@@ -167,7 +167,7 @@
       <property role="TrG5h" value="MoWareLangAndSolutions" />
       <node concept="1E1JtA" id="1JLTjCmZp5F" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.modellwerkstatt.manmap.solution" />
+        <property role="TrG5h" value="org.modellwerkstatt.manmap.runtime" />
         <property role="3LESm3" value="37fdf88a-1025-4d01-864a-0bf987f72e6f" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="1JLTjCmZp5M" role="3LF7KH">
@@ -178,8 +178,8 @@
               <property role="2Ry0Am" value="solutions" />
               <node concept="2Ry0Ak" id="1JLTjCmZp5Y" role="2Ry0An">
                 <property role="2Ry0Am" value="org.modellwerkstatt.manmap.solution" />
-                <node concept="2Ry0Ak" id="1JLTjCmZp62" role="2Ry0An">
-                  <property role="2Ry0Am" value="org.modellwerkstatt.manmap.solution.msd" />
+                <node concept="2Ry0Ak" id="2B59PgQeRb$" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modellwerkstatt.manmap.runtime.msd" />
                 </node>
               </node>
             </node>
@@ -395,7 +395,7 @@
           <node concept="1SiIV0" id="1JLTjCmZpcf" role="3bR37C">
             <node concept="3bR9La" id="1JLTjCmZpcg" role="1SiIV1">
               <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+              <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
             </node>
           </node>
           <node concept="1SiIV0" id="1y3D6gQFHXq" role="3bR37C">
@@ -408,7 +408,7 @@
         <node concept="1SiIV0" id="5Eyn41fxMkh" role="3bR37C">
           <node concept="3bR9La" id="5Eyn41fxMki" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
           </node>
         </node>
         <node concept="1SiIV0" id="1y3D6gQFHXk" role="3bR37C">
@@ -452,7 +452,7 @@
         <node concept="1SiIV0" id="1JLTjCmZr6$" role="3bR37C">
           <node concept="3bR9La" id="1JLTjCmZr6_" role="1SiIV1">
             <property role="3bR36h" value="true" />
-            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
           </node>
         </node>
         <node concept="1SiIV0" id="1JLTjCmZr6C" role="3bR37C">
@@ -1091,7 +1091,7 @@
         <node concept="1SiIV0" id="1JLTjCmZqLx" role="3bR37C">
           <node concept="3bR9La" id="1JLTjCmZqLy" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
           </node>
         </node>
         <node concept="1SiIV0" id="1JLTjCmZqLz" role="3bR37C">
@@ -1199,7 +1199,7 @@
           <node concept="1SiIV0" id="phsLeeKZdg" role="3bR37C">
             <node concept="3bR9La" id="phsLeeKZdh" role="1SiIV1">
               <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+              <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
             </node>
           </node>
           <node concept="1SiIV0" id="phsLeeKZdi" role="3bR37C">
@@ -1266,7 +1266,7 @@
         <node concept="1SiIV0" id="5p$R$8yX2HI" role="3bR37C">
           <node concept="3bR9La" id="5p$R$8yX2HJ" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
           </node>
         </node>
       </node>
@@ -1293,7 +1293,7 @@
         <node concept="1SiIV0" id="6HA5kZtPZWj" role="3bR37C">
           <node concept="3bR9La" id="6HA5kZtPZWk" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
           </node>
         </node>
         <node concept="1SiIV0" id="6HA5kZtPZWl" role="3bR37C">
@@ -1370,7 +1370,7 @@
           <node concept="1SiIV0" id="37q6uRES6Lc" role="3bR37C">
             <node concept="3bR9La" id="37q6uRES6Ld" role="1SiIV1">
               <property role="3bR36h" value="false" />
-              <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+              <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
             </node>
           </node>
           <node concept="1SiIV0" id="37q6uRES6Le" role="3bR37C">
@@ -1573,7 +1573,7 @@
         <node concept="1SiIV0" id="6SBwZitQn9V" role="3bR37C">
           <node concept="3bR9La" id="6SBwZitQn9W" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
           </node>
         </node>
         <node concept="1SiIV0" id="6SBwZitQn9Z" role="3bR37C">
@@ -1692,7 +1692,7 @@
       </node>
       <node concept="1E1JtA" id="phsLeeLbCJ" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="org.modellwerkstatt.h2forms.runtime" />
+        <property role="TrG5h" value="org.modellwerkstatt.h2forms" />
         <property role="3LESm3" value="358b6f60-3197-49df-8de5-b1acbf743ffc" />
         <property role="2GAjPV" value="false" />
         <node concept="398BVA" id="phsLeeLbQL" role="3LF7KH">
@@ -1705,8 +1705,8 @@
                 <property role="2Ry0Am" value="org.modellwerkstatt.h2forms" />
                 <node concept="2Ry0Ak" id="phsLeeLcc3" role="2Ry0An">
                   <property role="2Ry0Am" value="runtime" />
-                  <node concept="2Ry0Ak" id="phsLeeLcc8" role="2Ry0An">
-                    <property role="2Ry0Am" value="org.modellwerkstatt.h2forms.runtime.msd" />
+                  <node concept="2Ry0Ak" id="2B59PgQeR2v" role="2Ry0An">
+                    <property role="2Ry0Am" value="org.modellwerkstatt.h2forms.msd" />
                   </node>
                 </node>
               </node>
@@ -1716,7 +1716,7 @@
         <node concept="1SiIV0" id="phsLeeLcca" role="3bR37C">
           <node concept="3bR9La" id="phsLeeLccb" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.solution" />
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
           </node>
         </node>
         <node concept="1SiIV0" id="phsLeeLccc" role="3bR37C">
