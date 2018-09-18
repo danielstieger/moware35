@@ -41974,6 +41974,37 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1YUU7GVWsxp" role="jymVt" />
+    <node concept="3clFb_" id="1gJQ5nCH6YL" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="query" />
+      <node concept="3Tm1VV" id="1gJQ5nCH6YN" role="1B3o_S" />
+      <node concept="3uibUv" id="1gJQ5nCH6YO" role="3clF45">
+        <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
+      </node>
+      <node concept="37vLTG" id="1gJQ5nCH6YP" role="3clF46">
+        <property role="TrG5h" value="msgType" />
+        <node concept="17QB3L" id="1gJQ5nCH6YQ" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1gJQ5nCH6YR" role="3clF46">
+        <property role="TrG5h" value="json" />
+        <node concept="3uibUv" id="1gJQ5nCH6YS" role="1tU5fm">
+          <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1gJQ5nCH6YT" role="3clF47">
+        <node concept="YS8fn" id="1gJQ5nCH9HZ" role="3cqZAp">
+          <node concept="2ShNRf" id="1gJQ5nCH9IV" role="YScLw">
+            <node concept="1pGfFk" id="1gJQ5nCHaf7" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="1gJQ5nCHago" role="37wK5m">
+                <property role="Xl_RC" value="Not implemented yet." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="1YUU7GVWrdv" role="jymVt">
       <property role="TrG5h" value="register" />
       <property role="od$2w" value="false" />
@@ -42521,6 +42552,37 @@
         </node>
       </node>
       <node concept="3clFbS" id="7HkVpVcZsOg" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1gJQ5nCHarN" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="query" />
+      <node concept="3Tm1VV" id="1gJQ5nCHarO" role="1B3o_S" />
+      <node concept="3uibUv" id="1gJQ5nCHarP" role="3clF45">
+        <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
+      </node>
+      <node concept="37vLTG" id="1gJQ5nCHarQ" role="3clF46">
+        <property role="TrG5h" value="msgType" />
+        <node concept="17QB3L" id="1gJQ5nCHarR" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1gJQ5nCHarS" role="3clF46">
+        <property role="TrG5h" value="json" />
+        <node concept="3uibUv" id="1gJQ5nCHarT" role="1tU5fm">
+          <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="1gJQ5nCHarU" role="3clF47">
+        <node concept="YS8fn" id="1gJQ5nCHarV" role="3cqZAp">
+          <node concept="2ShNRf" id="1gJQ5nCHarW" role="YScLw">
+            <node concept="1pGfFk" id="1gJQ5nCHarX" role="2ShVmc">
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+              <node concept="Xl_RD" id="1gJQ5nCHarY" role="37wK5m">
+                <property role="Xl_RC" value="Not implemented yet." />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="7HkVpVbXnOq" role="jymVt">
       <property role="1EzhhJ" value="false" />

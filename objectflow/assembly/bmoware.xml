@@ -15,6 +15,7 @@
  
  export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
  export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
+ ant -f bmoware.xml xbus
  
 -->
  

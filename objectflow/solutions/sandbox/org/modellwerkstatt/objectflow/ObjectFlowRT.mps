@@ -44157,6 +44157,26 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="1gJQ5nCFJ4c" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="query" />
+      <node concept="3clFbS" id="1gJQ5nCFJ4f" role="3clF47" />
+      <node concept="3Tm1VV" id="1gJQ5nCFJ4g" role="1B3o_S" />
+      <node concept="3uibUv" id="1gJQ5nCFJ1Z" role="3clF45">
+        <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
+      </node>
+      <node concept="37vLTG" id="1gJQ5nCFJ8Y" role="3clF46">
+        <property role="TrG5h" value="msgType" />
+        <node concept="17QB3L" id="1gJQ5nCFJ8X" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="1gJQ5nCFJck" role="3clF46">
+        <property role="TrG5h" value="json" />
+        <node concept="3uibUv" id="1gJQ5nCFJgV" role="1tU5fm">
+          <ref role="3uigEE" to="vpat:~Json" resolve="Json" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="7HkVpVbXeVM" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
