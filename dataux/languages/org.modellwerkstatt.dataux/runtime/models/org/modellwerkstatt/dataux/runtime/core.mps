@@ -16965,21 +16965,6 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbF" id="7HkVpVcZ$GH" role="3cqZAp">
-                      <node concept="37vLTI" id="7HkVpVcZ$OJ" role="3clFbG">
-                        <node concept="3clFbT" id="7HkVpVcZ$PC" role="37vLTx">
-                          <property role="3clFbU" value="false" />
-                        </node>
-                        <node concept="2OqwBi" id="7HkVpVcZ$KY" role="37vLTJ">
-                          <node concept="37vLTw" id="7HkVpVcZ$GF" role="2Oq$k0">
-                            <ref role="3cqZAo" node="7HkVpVcZzNd" resolve="change" />
-                          </node>
-                          <node concept="2S8uIT" id="7HkVpVcZ$MG" role="2OqNvi">
-                            <ref role="2S8YL0" to="ey3s:7HkVpVcVbBM" resolve="created" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
                     <node concept="3clFbF" id="7HkVpVcZ$Vq" role="3cqZAp">
                       <node concept="37vLTI" id="7HkVpVcZ_5B" role="3clFbG">
                         <node concept="2OqwBi" id="7HkVpVcZ$ZL" role="37vLTJ">
@@ -16987,7 +16972,7 @@
                             <ref role="3cqZAo" node="7HkVpVcZzNd" resolve="change" />
                           </node>
                           <node concept="2S8uIT" id="7HkVpVcZ_1v" role="2OqNvi">
-                            <ref role="2S8YL0" to="ey3s:7HkVpVcVbwb" resolve="userId" />
+                            <ref role="2S8YL0" to="ey3s:1gJQ5nCn_kf" resolve="userId" />
                           </node>
                         </node>
                         <node concept="2OqwBi" id="7HkVpVcZA3B" role="37vLTx">
@@ -17001,6 +16986,31 @@
                           </node>
                           <node concept="liA8E" id="7HkVpVcZAcY" role="2OqNvi">
                             <ref role="37wK5l" to="w7gk:47yM9mP3xmG" resolve="getUserId" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="1gJQ5nCnMn6" role="3cqZAp">
+                      <node concept="37vLTI" id="1gJQ5nCnMn7" role="3clFbG">
+                        <node concept="2OqwBi" id="1gJQ5nCnMn8" role="37vLTJ">
+                          <node concept="37vLTw" id="1gJQ5nCnMn9" role="2Oq$k0">
+                            <ref role="3cqZAo" node="7HkVpVcZzNd" resolve="change" />
+                          </node>
+                          <node concept="2S8uIT" id="1gJQ5nCnMAa" role="2OqNvi">
+                            <ref role="2S8YL0" to="ey3s:1gJQ5nCnE3a" resolve="userEnvHash" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="1gJQ5nCnMnb" role="37vLTx">
+                          <node concept="2OqwBi" id="1gJQ5nCnMnc" role="2Oq$k0">
+                            <node concept="1rXfSq" id="1gJQ5nCnMnd" role="2Oq$k0">
+                              <ref role="37wK5l" node="4xjkqfyDt2C" resolve="getSession" />
+                            </node>
+                            <node concept="liA8E" id="1gJQ5nCnMne" role="2OqNvi">
+                              <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="1gJQ5nCnMnf" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
                           </node>
                         </node>
                       </node>
@@ -27611,7 +27621,7 @@
                     </node>
                     <node concept="3cpWs3" id="6HvFgwbNQBp" role="37wK5m">
                       <node concept="Xl_RD" id="6HvFgwbNQDZ" role="3uHU7B">
-                        <property role="Xl_RC" value="Last event processed in this container were:\n\n" />
+                        <property role="Xl_RC" value="Last events processed in this container were:\n\n" />
                       </node>
                       <node concept="2OqwBi" id="6HvFgwbGZ4g" role="3uHU7w">
                         <node concept="37vLTw" id="6HvFgwbGZ1X" role="2Oq$k0">
