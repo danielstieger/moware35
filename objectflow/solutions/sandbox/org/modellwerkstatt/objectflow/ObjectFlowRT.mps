@@ -760,7 +760,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tm6S6" id="2$LKw9UWm_y" role="1B3o_S" />
       <node concept="3uibUv" id="2$LKw9UWnOp" role="1tU5fm">
-        <ref role="3uigEE" node="2$LKw9UWnvq" resolve="IOFXUserJmxServices" />
+        <ref role="3uigEE" node="2$LKw9UWnvq" resolve="IOFXUserLogService" />
       </node>
     </node>
     <node concept="312cEg" id="2vHEu_N_lYR" role="jymVt">
@@ -1190,11 +1190,11 @@
     <node concept="2tJIrI" id="65KdKINRuhZ" role="jymVt" />
     <node concept="3clFb_" id="6UG$gXA73Y5" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="setUserJmxService" />
+      <property role="TrG5h" value="setUserLogService" />
       <node concept="37vLTG" id="6UG$gXA73Y6" role="3clF46">
         <property role="TrG5h" value="service" />
         <node concept="3uibUv" id="6UG$gXA73Y7" role="1tU5fm">
-          <ref role="3uigEE" node="2$LKw9UWnvq" resolve="IOFXUserJmxServices" />
+          <ref role="3uigEE" node="2$LKw9UWnvq" resolve="IOFXUserLogService" />
         </node>
       </node>
       <node concept="3cqZAl" id="6UG$gXA73Y8" role="3clF45" />
@@ -1259,7 +1259,7 @@
     </node>
     <node concept="3clFb_" id="2$LKw9UWijv" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="logInfo" />
+      <property role="TrG5h" value="logAsUser" />
       <node concept="37vLTG" id="2$LKw9UWijw" role="3clF46">
         <property role="TrG5h" value="msg" />
         <node concept="17QB3L" id="2$LKw9UWijx" role="1tU5fm" />
@@ -1274,24 +1274,34 @@
         </node>
         <node concept="3clFbJ" id="6UG$gXA9moD" role="3cqZAp">
           <node concept="3clFbS" id="6UG$gXA9moF" role="3clFbx">
-            <node concept="3clFbF" id="2$LKw9UWop7" role="3cqZAp">
-              <node concept="2OqwBi" id="2$LKw9UWorb" role="3clFbG">
-                <node concept="37vLTw" id="2$LKw9UWop6" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2$LKw9UWnTR" resolve="userJmxService" />
-                </node>
-                <node concept="liA8E" id="2$LKw9UWo_U" role="2OqNvi">
-                  <ref role="37wK5l" node="2$LKw9UWnxf" resolve="log" />
-                  <node concept="37vLTw" id="2$LKw9UWoBz" role="37wK5m">
-                    <ref role="3cqZAo" node="2$LKw9UWijw" resolve="msg" />
+            <node concept="YS8fn" id="4X6$QoYLufp" role="3cqZAp">
+              <node concept="2ShNRf" id="4X6$QoYLuiA" role="YScLw">
+                <node concept="1pGfFk" id="4X6$QoYLyFb" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="4X6$QoYLyId" role="37wK5m">
+                    <property role="Xl_RC" value="logAsUser() Not supported on this platform. (service not initialized)" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3y3z36" id="6UG$gXA9mv4" role="3clFbw">
-            <node concept="10Nm6u" id="6UG$gXA9mwH" role="3uHU7w" />
+          <node concept="3clFbC" id="4X6$QoYLz1S" role="3clFbw">
             <node concept="37vLTw" id="6UG$gXA9mrC" role="3uHU7B">
               <ref role="3cqZAo" node="2$LKw9UWnTR" resolve="userJmxService" />
+            </node>
+            <node concept="10Nm6u" id="6UG$gXA9mwH" role="3uHU7w" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="2$LKw9UWop7" role="3cqZAp">
+          <node concept="2OqwBi" id="2$LKw9UWorb" role="3clFbG">
+            <node concept="37vLTw" id="2$LKw9UWop6" role="2Oq$k0">
+              <ref role="3cqZAo" node="2$LKw9UWnTR" resolve="userJmxService" />
+            </node>
+            <node concept="liA8E" id="2$LKw9UWo_U" role="2OqNvi">
+              <ref role="37wK5l" node="2$LKw9UWnxf" resolve="log" />
+              <node concept="37vLTw" id="2$LKw9UWoBz" role="37wK5m">
+                <ref role="3cqZAo" node="2$LKw9UWijw" resolve="msg" />
+              </node>
             </node>
           </node>
         </node>
@@ -33598,7 +33608,7 @@
     <property role="TrG5h" value="IOFXUserServices" />
     <node concept="3clFb_" id="67D5vCCQlrZ" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="logInfo" />
+      <property role="TrG5h" value="logAsUser" />
       <node concept="37vLTG" id="67D5vCCQl$q" role="3clF46">
         <property role="TrG5h" value="msg" />
         <node concept="17QB3L" id="67D5vCCQlCJ" role="1tU5fm" />
@@ -33636,11 +33646,11 @@
     <node concept="2tJIrI" id="2$LKw9ULdMR" role="jymVt" />
     <node concept="3clFb_" id="6UG$gXA72YJ" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setUserJmxService" />
+      <property role="TrG5h" value="setUserLogService" />
       <node concept="37vLTG" id="6UG$gXA730W" role="3clF46">
         <property role="TrG5h" value="service" />
         <node concept="3uibUv" id="6UG$gXA731F" role="1tU5fm">
-          <ref role="3uigEE" node="2$LKw9UWnvq" resolve="IOFXUserJmxServices" />
+          <ref role="3uigEE" node="2$LKw9UWnvq" resolve="IOFXUserLogService" />
         </node>
       </node>
       <node concept="3cqZAl" id="6UG$gXA72YL" role="3clF45" />
@@ -33684,7 +33694,7 @@
   </node>
   <node concept="3HP615" id="2$LKw9UWnvq">
     <property role="3GE5qa" value="OFXArchitecture" />
-    <property role="TrG5h" value="IOFXUserJmxServices" />
+    <property role="TrG5h" value="IOFXUserLogService" />
     <node concept="3clFb_" id="2$LKw9UWnxf" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="log" />
@@ -44119,7 +44129,7 @@
     <node concept="3clFb_" id="7HkVpVbXeKT" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="sendToGlobalLog" />
+      <property role="TrG5h" value="sendToLogChannel" />
       <node concept="3clFbS" id="7HkVpVbXeKW" role="3clF47" />
       <node concept="3Tm1VV" id="7HkVpVbXeKX" role="1B3o_S" />
       <node concept="3cqZAl" id="7HkVpVbXeKh" role="3clF45" />
@@ -44134,6 +44144,10 @@
       <node concept="37vLTG" id="7HkVpVbXeOP" role="3clF46">
         <property role="TrG5h" value="timestamp" />
         <node concept="3cpWsb" id="7HkVpVbXeQg" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="4X6$QoYy0nE" role="3clF46">
+        <property role="TrG5h" value="ch" />
+        <node concept="17QB3L" id="4X6$QoYy0w9" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="7HkVpVbXeRJ" role="3clF46">
         <property role="TrG5h" value="msg" />
