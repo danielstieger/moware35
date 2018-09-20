@@ -1566,7 +1566,7 @@
           <node concept="3clFbS" id="1Csx3LqDdAb" role="3eOfB_">
             <node concept="2MkqsV" id="1Csx3LqDdBd" role="3cqZAp">
               <node concept="Xl_RD" id="1Csx3LqDdBg" role="2MkJ7o">
-                <property role="Xl_RC" value="Object holding the status has to be a businessobject!" />
+                <property role="Xl_RC" value="Object holding the status has to be a ViewObject or an Entity!" />
               </node>
               <node concept="2OqwBi" id="1Csx3LqDdBw" role="2OEOjV">
                 <node concept="2OqwBi" id="1Csx3LqDdBm" role="2Oq$k0">
@@ -13227,7 +13227,7 @@
                           </node>
                           <node concept="1mIQ4w" id="7HkVpVcINvE" role="2OqNvi">
                             <node concept="chp4Y" id="7HkVpVcINBn" role="cj9EA">
-                              <ref role="cht4Q" to="un0u:2tJfPESW2g4" resolve="PageEvent" />
+                              <ref role="cht4Q" to="un0u:2tJfPESW2g4" resolve="CustomPageEvent" />
                             </node>
                           </node>
                         </node>
@@ -13248,7 +13248,7 @@
                           <node concept="2OqwBi" id="2tJfPESWHCY" role="3uHU7B">
                             <node concept="2OqwBi" id="2tJfPESWGdA" role="2Oq$k0">
                               <node concept="1PxgMI" id="7HkVpVcINKO" role="2Oq$k0">
-                                <ref role="1PxNhF" to="un0u:2tJfPESW2g4" resolve="PageEvent" />
+                                <ref role="1PxNhF" to="un0u:2tJfPESW2g4" resolve="CustomPageEvent" />
                                 <node concept="37vLTw" id="2tJfPESWG9d" role="1PxMeX">
                                   <ref role="3cqZAo" node="2tJfPESWG7t" resolve="it" />
                                 </node>
@@ -13334,7 +13334,7 @@
     </node>
     <node concept="1YaCAy" id="2tJfPESW5xV" role="1YuTPh">
       <property role="TrG5h" value="pageEvent" />
-      <ref role="1YaFvo" to="un0u:2tJfPESW2g4" resolve="PageEvent" />
+      <ref role="1YaFvo" to="un0u:2tJfPESW2g4" resolve="CustomPageEvent" />
     </node>
   </node>
   <node concept="1YbPZF" id="2tJfPET9MaD">
@@ -13364,7 +13364,7 @@
     </node>
     <node concept="1YaCAy" id="2tJfPET9MaG" role="1YuTPh">
       <property role="TrG5h" value="pageEvent" />
-      <ref role="1YaFvo" to="un0u:2tJfPESW2g4" resolve="PageEvent" />
+      <ref role="1YaFvo" to="un0u:2tJfPESW2g4" resolve="CustomPageEvent" />
     </node>
   </node>
   <node concept="1YbPZF" id="2tJfPET_JUn">
