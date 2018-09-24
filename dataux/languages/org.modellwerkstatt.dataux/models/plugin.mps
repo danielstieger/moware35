@@ -1093,7 +1093,7 @@
               <node concept="liA8E" id="2wjP6CcuZGI" role="2OqNvi">
                 <ref role="37wK5l" node="4X6$QoZ9BTz" resolve="getModel" />
                 <node concept="Xl_RD" id="2wjP6CcuZHs" role="37wK5m">
-                  <property role="Xl_RC" value="AutoTest" />
+                  <property role="Xl_RC" value="simple.AutoTest" />
                 </node>
               </node>
             </node>
@@ -1668,6 +1668,14 @@
                         </node>
                         <node concept="liA8E" id="2wjP6Ccu56r" role="2OqNvi">
                           <ref role="37wK5l" node="2wjP6Ccsryr" resolve="isGraphEditCmd" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="3KkypoYSFLB" role="37wK5m">
+                        <node concept="37vLTw" id="3KkypoYSFIw" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4X6$QoZ9MCK" resolve="dlg" />
+                        </node>
+                        <node concept="liA8E" id="3KkypoYSFUK" role="2OqNvi">
+                          <ref role="37wK5l" node="3KkypoYSCF1" resolve="isCreatorCmd" />
                         </node>
                       </node>
                     </node>
@@ -2424,6 +2432,13 @@
         <ref role="3uigEE" to="dxuu:~JCheckBox" resolve="JCheckBox" />
       </node>
     </node>
+    <node concept="312cEg" id="3KkypoYSkNj" role="jymVt">
+      <property role="TrG5h" value="creatorCmd" />
+      <node concept="3Tm6S6" id="3KkypoYSkNk" role="1B3o_S" />
+      <node concept="3uibUv" id="3KkypoYSkNl" role="1tU5fm">
+        <ref role="3uigEE" to="dxuu:~JCheckBox" resolve="JCheckBox" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="4X6$QoZc8Bh" role="jymVt" />
     <node concept="312cEg" id="4X6$QoZcg6X" role="jymVt">
       <property role="TrG5h" value="childsBox" />
@@ -2712,7 +2727,7 @@
                   <node concept="1pGfFk" id="4X6$QoZaufg" role="2ShVmc">
                     <ref role="37wK5l" to="z60i:~GridLayout.&lt;init&gt;(int,int)" resolve="GridLayout" />
                     <node concept="3cmrfG" id="4X6$QoZb5Uj" role="37wK5m">
-                      <property role="3cmrfH" value="8" />
+                      <property role="3cmrfH" value="10" />
                     </node>
                     <node concept="3cmrfG" id="4X6$QoZaufi" role="37wK5m">
                       <property role="3cmrfH" value="2" />
@@ -3176,6 +3191,63 @@
           </node>
         </node>
         <node concept="3clFbH" id="4X6$QoZbu_6" role="3cqZAp" />
+        <node concept="3clFbF" id="3KkypoYSmhd" role="3cqZAp">
+          <node concept="2OqwBi" id="3KkypoYSmhe" role="3clFbG">
+            <node concept="37vLTw" id="3KkypoYSmhf" role="2Oq$k0">
+              <ref role="3cqZAo" node="4X6$QoZaufb" resolve="featureSelector" />
+            </node>
+            <node concept="liA8E" id="3KkypoYSmhg" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component):java.awt.Component" resolve="add" />
+              <node concept="2ShNRf" id="3KkypoYSmhh" role="37wK5m">
+                <node concept="1pGfFk" id="3KkypoYSmhi" role="2ShVmc">
+                  <ref role="37wK5l" to="z60i:~Label.&lt;init&gt;(java.lang.String)" resolve="Label" />
+                  <node concept="Xl_RD" id="3KkypoYSmhj" role="37wK5m">
+                    <property role="Xl_RC" value="Creator Command (predecessor)" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3KkypoYSmhk" role="3cqZAp">
+          <node concept="37vLTI" id="3KkypoYSmhl" role="3clFbG">
+            <node concept="2ShNRf" id="3KkypoYSmhm" role="37vLTx">
+              <node concept="1pGfFk" id="3KkypoYSmhn" role="2ShVmc">
+                <ref role="37wK5l" to="dxuu:~JCheckBox.&lt;init&gt;()" resolve="JCheckBox" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3KkypoYSneQ" role="37vLTJ">
+              <ref role="3cqZAo" node="3KkypoYSkNj" resolve="creatorCmd" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3KkypoYSmhp" role="3cqZAp">
+          <node concept="2OqwBi" id="3KkypoYSmhq" role="3clFbG">
+            <node concept="37vLTw" id="3KkypoYSnm7" role="2Oq$k0">
+              <ref role="3cqZAo" node="3KkypoYSkNj" resolve="creatorCmd" />
+            </node>
+            <node concept="liA8E" id="3KkypoYSmhs" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~AbstractButton.setSelected(boolean):void" resolve="setSelected" />
+              <node concept="3clFbT" id="3KkypoYSmht" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3KkypoYSmhu" role="3cqZAp">
+          <node concept="2OqwBi" id="3KkypoYSmhv" role="3clFbG">
+            <node concept="37vLTw" id="3KkypoYSmhw" role="2Oq$k0">
+              <ref role="3cqZAo" node="4X6$QoZaufb" resolve="featureSelector" />
+            </node>
+            <node concept="liA8E" id="3KkypoYSmhx" role="2OqNvi">
+              <ref role="37wK5l" to="z60i:~Container.add(java.awt.Component):java.awt.Component" resolve="add" />
+              <node concept="37vLTw" id="3KkypoYSntL" role="37wK5m">
+                <ref role="3cqZAo" node="3KkypoYSkNj" resolve="creatorCmd" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3KkypoYSlz0" role="3cqZAp" />
         <node concept="3clFbF" id="4X6$QoZbxV0" role="3cqZAp">
           <node concept="2OqwBi" id="4X6$QoZbxV1" role="3clFbG">
             <node concept="37vLTw" id="4X6$QoZbxV2" role="2Oq$k0">
@@ -3655,6 +3727,27 @@
       </node>
       <node concept="10P_77" id="2wjP6Ccsryx" role="3clF45" />
       <node concept="3Tm1VV" id="2wjP6Ccsryy" role="1B3o_S" />
+    </node>
+    <node concept="3clFb_" id="3KkypoYSCF1" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isCreatorCmd" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="3KkypoYSCF2" role="3clF47">
+        <node concept="3clFbF" id="3KkypoYSCF3" role="3cqZAp">
+          <node concept="2OqwBi" id="3KkypoYSCF4" role="3clFbG">
+            <node concept="37vLTw" id="3KkypoYSFaF" role="2Oq$k0">
+              <ref role="3cqZAo" node="3KkypoYSkNj" resolve="creatorCmd" />
+            </node>
+            <node concept="liA8E" id="3KkypoYSCF6" role="2OqNvi">
+              <ref role="37wK5l" to="dxuu:~AbstractButton.isSelected():boolean" resolve="isSelected" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="3KkypoYSCF7" role="3clF45" />
+      <node concept="3Tm1VV" id="3KkypoYSCF8" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="2wjP6CcrDrH" role="jymVt" />
     <node concept="3clFb_" id="2wjP6CcrFBb" role="jymVt">

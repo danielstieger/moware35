@@ -102,6 +102,7 @@
     <dependency reexport="false">4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</dependency>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">498d89d2-c2e9-11e2-ad49-6cf049e62fe5(MPS.IDEA)</dependency>
+    <dependency reexport="false">5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.objectflow.runtime)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
@@ -164,6 +165,7 @@
     <module reference="5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)" version="0" />
     <module reference="37fdf88a-1025-4d01-864a-0bf987f72e6f(org.modellwerkstatt.manmap.runtime)" version="0" />
     <module reference="ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)" version="0" />
+    <module reference="5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.objectflow.runtime)" version="0" />
   </dependencyVersions>
   <runtime>
     <dependency reexport="false">bd230cc8-9f23-4d08-88ae-92ff30662c34(org.modellwerkstatt.dataux.runtime)</dependency>
