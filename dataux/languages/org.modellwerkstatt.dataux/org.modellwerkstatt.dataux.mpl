@@ -69,7 +69,6 @@
         <module reference="5aaa957f-3447-4783-b1f7-b301fa3e0394(org.modellwerkstatt.manmap)" version="0" />
         <module reference="37fdf88a-1025-4d01-864a-0bf987f72e6f(org.modellwerkstatt.manmap.solution)" version="0" />
         <module reference="ec097fca-5b84-41f2-847d-6a5690cae277(org.modellwerkstatt.objectflow)" version="0" />
-        <module reference="5a857198-951d-4874-b213-66fc66e0ee10(org.modellwerkstatt.sandbox)" version="0" />
       </dependencyVersions>
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_together">
