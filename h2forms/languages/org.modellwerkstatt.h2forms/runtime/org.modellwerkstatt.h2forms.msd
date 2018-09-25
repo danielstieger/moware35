@@ -8,6 +8,9 @@
       <sourceRoot location="mopebble-3.0.4.jar" />
     </modelRoot>
   </models>
+  <stubModelEntries>
+    <stubModelEntry path="${mowareHome}/h2forms/languages/jars/servletclient/mopebble-3.0.4.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">bd230cc8-9f23-4d08-88ae-92ff30662c34(org.modellwerkstatt.dataux.runtime)</dependency>

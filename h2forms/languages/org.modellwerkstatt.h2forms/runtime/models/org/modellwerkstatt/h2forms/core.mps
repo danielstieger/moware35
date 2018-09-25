@@ -11821,5 +11821,24 @@
     </node>
     <node concept="3Tm1VV" id="1DW7q9hHeAo" role="1B3o_S" />
   </node>
+  <node concept="3HP615" id="2AQWB$eP50g">
+    <property role="TrG5h" value="IH2FormsTemplateRenderer" />
+    <node concept="2tJIrI" id="2AQWB$eP51g" role="jymVt" />
+    <node concept="3clFb_" id="2AQWB$eP57W" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="testRender" />
+      <node concept="37vLTG" id="2AQWB$eP7dD" role="3clF46">
+        <property role="TrG5h" value="writer" />
+        <node concept="3uibUv" id="2AQWB$eP7dQ" role="1tU5fm">
+          <ref role="3uigEE" to="guwi:~Writer" resolve="Writer" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="2AQWB$eP57Y" role="3clF45" />
+      <node concept="3Tm1VV" id="2AQWB$eP57Z" role="1B3o_S" />
+      <node concept="3clFbS" id="2AQWB$eP580" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="2AQWB$eP58e" role="jymVt" />
+    <node concept="3Tm1VV" id="2AQWB$eP50h" role="1B3o_S" />
+  </node>
 </model>
 
