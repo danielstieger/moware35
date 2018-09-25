@@ -4,6 +4,9 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
+    <modelRoot contentPath="${mowareHome}/h2forms/languages/jars/servletclient" type="java_classes">
+      <sourceRoot location="mopebble-3.0.4.jar" />
+    </modelRoot>
   </models>
   <sourcePath />
   <dependencies>

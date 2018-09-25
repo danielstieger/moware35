@@ -6,7 +6,6 @@
     </modelRoot>
     <modelRoot contentPath="${mowareHome}/objectflow/languages/objectflow/jars" type="java_classes">
       <sourceRoot location="zoo/zookeeper-3.4.5.jar" />
-      <sourceRoot location="servlet-api.jar" />
       <sourceRoot location="printing21/batik-all-1.8.jar" />
       <sourceRoot location="printing21/fop.jar" />
       <sourceRoot location="printing21/xml-apis-1.3.04.jar" />
@@ -19,12 +18,12 @@
       <sourceRoot location="richclient/smtp.jar" />
       <sourceRoot location="basis/spring-aop-3.2.9.RELEASE.jar" />
       <sourceRoot location="basis/spring-expression-3.2.9.RELEASE.jar" />
-      <sourceRoot location="eventbus/mo-javaxbus-1.0.jar" />
+      <sourceRoot location="basis/mo-javaxbus-1.0.jar" />
+      <sourceRoot location="servletclient/servlet-api.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/zoo/zookeeper-3.4.5.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/servlet-api.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/avalon-framework-api-4.3.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/avalon-framework-impl-4.3.1.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/printing21/barcode4j-fop-ext-complete.jar" />
@@ -46,7 +45,8 @@
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/spring-expression-3.2.9.RELEASE.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/slf4j-api-1.7.25.jar" />
     <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/slf4j-log4j12-1.7.25.jar" />
-    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/eventbus/mo-javaxbus-1.0.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/basis/mo-javaxbus-1.0.jar" />
+    <stubModelEntry path="${mowareHome}/objectflow/languages/objectflow/jars/servletclient/servlet-api.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

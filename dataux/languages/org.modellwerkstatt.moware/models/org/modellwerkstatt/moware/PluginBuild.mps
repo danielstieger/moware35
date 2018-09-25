@@ -486,28 +486,6 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="7ubUX50zIpa" role="3bR37C">
-          <node concept="1BurEX" id="7ubUX50zIpb" role="1SiIV1">
-            <node concept="398BVA" id="7ubUX50zIp4" role="1BurEY">
-              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="7ubUX50zIp5" role="iGT6I">
-                <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="7ubUX50zIp6" role="2Ry0An">
-                  <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="7ubUX50zIp7" role="2Ry0An">
-                    <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="7ubUX50zIp8" role="2Ry0An">
-                      <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="7ubUX50zIp9" role="2Ry0An">
-                        <property role="2Ry0Am" value="servlet-api.jar" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="1SiIV0" id="1uHrr5gc5Vf" role="3bR37C">
           <node concept="1BurEX" id="1uHrr5gc5Vg" role="1SiIV1">
             <node concept="398BVA" id="1uHrr5gc5V8" role="1BurEY">
@@ -1030,22 +1008,47 @@
             </node>
           </node>
         </node>
-        <node concept="1SiIV0" id="4NXmMPR0boU" role="3bR37C">
-          <node concept="1BurEX" id="4NXmMPR0boV" role="1SiIV1">
-            <node concept="398BVA" id="4NXmMPR0boN" role="1BurEY">
+        <node concept="1SiIV0" id="2AQWB$emR3A" role="3bR37C">
+          <node concept="1BurEX" id="2AQWB$emR3B" role="1SiIV1">
+            <node concept="398BVA" id="2AQWB$emR3v" role="1BurEY">
               <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
-              <node concept="2Ry0Ak" id="4NXmMPR0boO" role="iGT6I">
+              <node concept="2Ry0Ak" id="2AQWB$emR3w" role="iGT6I">
                 <property role="2Ry0Am" value="objectflow" />
-                <node concept="2Ry0Ak" id="4NXmMPR0boP" role="2Ry0An">
+                <node concept="2Ry0Ak" id="2AQWB$emR3x" role="2Ry0An">
                   <property role="2Ry0Am" value="languages" />
-                  <node concept="2Ry0Ak" id="4NXmMPR0boQ" role="2Ry0An">
+                  <node concept="2Ry0Ak" id="2AQWB$emR3y" role="2Ry0An">
                     <property role="2Ry0Am" value="objectflow" />
-                    <node concept="2Ry0Ak" id="4NXmMPR0boR" role="2Ry0An">
+                    <node concept="2Ry0Ak" id="2AQWB$emR3z" role="2Ry0An">
                       <property role="2Ry0Am" value="jars" />
-                      <node concept="2Ry0Ak" id="4NXmMPR0boS" role="2Ry0An">
-                        <property role="2Ry0Am" value="eventbus" />
-                        <node concept="2Ry0Ak" id="4NXmMPR0boT" role="2Ry0An">
+                      <node concept="2Ry0Ak" id="2AQWB$emR3$" role="2Ry0An">
+                        <property role="2Ry0Am" value="basis" />
+                        <node concept="2Ry0Ak" id="2AQWB$emR3_" role="2Ry0An">
                           <property role="2Ry0Am" value="mo-javaxbus-1.0.jar" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="2AQWB$emR3J" role="3bR37C">
+          <node concept="1BurEX" id="2AQWB$emR3K" role="1SiIV1">
+            <node concept="398BVA" id="2AQWB$emR3C" role="1BurEY">
+              <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+              <node concept="2Ry0Ak" id="2AQWB$emR3D" role="iGT6I">
+                <property role="2Ry0Am" value="objectflow" />
+                <node concept="2Ry0Ak" id="2AQWB$emR3E" role="2Ry0An">
+                  <property role="2Ry0Am" value="languages" />
+                  <node concept="2Ry0Ak" id="2AQWB$emR3F" role="2Ry0An">
+                    <property role="2Ry0Am" value="objectflow" />
+                    <node concept="2Ry0Ak" id="2AQWB$emR3G" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                      <node concept="2Ry0Ak" id="2AQWB$emR3H" role="2Ry0An">
+                        <property role="2Ry0Am" value="servletclient" />
+                        <node concept="2Ry0Ak" id="2AQWB$emR3I" role="2Ry0An">
+                          <property role="2Ry0Am" value="servlet-api.jar" />
                         </node>
                       </node>
                     </node>
@@ -1404,10 +1407,10 @@
             <ref role="3bR37D" to="ffeo:1TaHNgiIbJb" resolve="MPS.Platform" />
           </node>
         </node>
-        <node concept="1SiIV0" id="2TAuFm4OvKj" role="3bR37C">
-          <node concept="3bR9La" id="2TAuFm4OvKk" role="1SiIV1">
+        <node concept="1SiIV0" id="2AQWB$emQVm" role="3bR37C">
+          <node concept="3bR9La" id="2AQWB$emQVn" role="1SiIV1">
             <property role="3bR36h" value="false" />
-            <ref role="3bR37D" to="ffeo:1TaHNgiIbJt" resolve="jetbrains.mps.ide.platform" />
+            <ref role="3bR37D" node="1JLTjCmZpiM" resolve="org.modellwerkstatt.objectflow.runtime" />
           </node>
         </node>
       </node>
@@ -1880,6 +1883,20 @@
                   <property role="2Ry0Am" value="vaadinforms" />
                   <node concept="2Ry0Ak" id="2jfddY9MMR8" role="2Ry0An">
                     <property role="2Ry0Am" value="jars" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2HvfSZ" id="2AQWB$emQEN" role="39821P">
+              <node concept="398BVA" id="2AQWB$emQEO" role="2HvfZ0">
+                <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+                <node concept="2Ry0Ak" id="2AQWB$emQEP" role="iGT6I">
+                  <property role="2Ry0Am" value="h2forms" />
+                  <node concept="2Ry0Ak" id="2AQWB$emQPH" role="2Ry0An">
+                    <property role="2Ry0Am" value="languages" />
+                    <node concept="2Ry0Ak" id="2AQWB$emQUS" role="2Ry0An">
+                      <property role="2Ry0Am" value="jars" />
+                    </node>
                   </node>
                 </node>
               </node>
