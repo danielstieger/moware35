@@ -1,15 +1,65 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title>{% block title %}My Website{% endblock %}</title>
+	<title> {{ statics.applicationName }} </title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta charset="ISO-8859-1">
+	<link rel="icon" href="{{ statics.staticContentUrlPrefix }}/mpreis.ico" />
+
+	<link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/style.css{{ page.ncs }}"/>
+	<script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
+     
+	<style media="screen" type="text/css">
+     .currentfg { background: {{ page.color }} + !important; }
+     input, textarea, select { border-bottom-color: {{ page.color }}; }
+     table .lightactive { border-color: {{ page.color }} ; }
+    </style>
 </head>
-<body>
-	<div id="content">
-		{% block content %}{% endblock %}
-	</div>
-	<div id="footer">
-		{% block footer %}
-			Copyright 2014
-		{% endblock %}
-	</div>
+
+
+<body class="ios7" networkproblemstring="{{ client.NETWORK_PROBLEMS }}">
+<form method="POST" name="baseform" id="baseform">
+<input type="hidden" name="NaviCrtl" value=""/>
+<input type="hidden" name="SelectionId" value=""/>
+<input type="hidden" name="SequenceId" value="{{ page.sequenceId }}"/>
+<input type="hidden" name="PageTmpValue" value="0"/>
+<input type="hidden" name="H1HttpClient" value="{{ client.device }}"/>
+<input type="hidden" name="Progressor" value="{{ page.progressor }}"/>
+<input type="hidden" name="DebugInformation" value="-"/>
+
+
+<!-- /content -->
+<section id="view-home" class="active">
+<header>
+    <div id="connInfo" class="rightCustomHeaderDiv">{{ statics.guessedServerName }}</div>
+    <div id="dbgFld" class="rightCustomHeaderDivLine2"> </div>  
+    
+    <h1 onclick="javascript: window.location=window.location;">
+	{% for chrumb in page.chrumbs %}
+		<div id="chrumbdiv{{ loop.index }}" style="background: {{ page.color }};"> {{ chrumb }} </div>
+	{% endfor %}
+	</h1>
+</header> 
+<div class="scrollMask"></div>
+<div class="scrollWrap"> <div class="scroll"> <div class="content">
+	<div class="contentTop"  editorIndex="-1"></div>
+	{% block content %}{% endblock %}
+	
+</div> </div> </div> 
+</section>
+<!-- /content -->
+
+
+<nav>
+{% block footernav %}{% endblock %}
+</nav> 
+
+</form> 
 </body>
-</html> 
+</html>
+

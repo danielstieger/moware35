@@ -2031,14 +2031,6 @@
                     <ref role="37wK5l" node="45e9mS9_mHN" resolve="getUiFactory" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="5$BCFrwbEL4" role="37wK5m">
-                  <node concept="37vLTw" id="5$BCFrwbEzi" role="2Oq$k0">
-                    <ref role="3cqZAo" node="45e9mS9_gcu" resolve="loaderServlet" />
-                  </node>
-                  <node concept="liA8E" id="5$BCFrwbF3x" role="2OqNvi">
-                    <ref role="37wK5l" node="1EBV9L$v8Vd" resolve="getJmxRegistration" />
-                  </node>
-                </node>
               </node>
             </node>
           </node>

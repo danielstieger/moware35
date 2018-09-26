@@ -5134,9 +5134,6 @@
                 <node concept="37vLTw" id="r$jHpF5CtD" role="37wK5m">
                   <ref role="3cqZAo" node="Y3fiVL5Wr9" resolve="factory" />
                 </node>
-                <node concept="37vLTw" id="r$jHpF5CIK" role="37wK5m">
-                  <ref role="3cqZAo" node="2yuEF6qmaQ1" resolve="jmxHelper" />
-                </node>
               </node>
             </node>
           </node>

@@ -29554,12 +29554,6 @@
           <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
         </node>
       </node>
-      <node concept="37vLTG" id="r$jHpF3Ihm" role="3clF46">
-        <property role="TrG5h" value="regHelper" />
-        <node concept="3uibUv" id="r$jHpF3K8j" role="1tU5fm">
-          <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
-        </node>
-      </node>
       <node concept="17QB3L" id="r$jHpEYG6h" role="3clF45" />
       <node concept="3Tm1VV" id="r$jHpEYDXw" role="1B3o_S" />
       <node concept="3clFbS" id="r$jHpEYDXx" role="3clF47">
@@ -29632,7 +29626,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="65KdKINULuk" role="3cqZAp" />
-        <node concept="3clFbH" id="65KdKINUMe3" role="3cqZAp" />
         <node concept="2GUZhq" id="r$jHpEYfkt" role="3cqZAp">
           <node concept="3clFbS" id="1EA1lDXekGF" role="2GV8ay">
             <node concept="3SKdUt" id="4d3Pnf44EF1" role="3cqZAp">

@@ -17,7 +17,7 @@
     </init-param>
 
     <init-param>
-        <param-name>homeScreenPath</param-name>
+        <param-name>mainLandingPagePath</param-name>
     	<param-value>APPLICATION_HOMESCREEN</param-value>
     </init-param>
     
