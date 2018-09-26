@@ -24,7 +24,6 @@
     <import index="qqeh" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.context.support(org.modellwerkstatt.manmap.solution/)" />
     <import index="nwfd" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet.http(org.modellwerkstatt.objectflow.runtime/)" />
     <import index="opgt" ref="5a857198-951d-4874-b213-66fc66e0ee10/java:javax.servlet(org.modellwerkstatt.objectflow.runtime/)" />
-    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -5662,16 +5661,6 @@
         <ref role="3uigEE" node="2xnCXJMhPpL" resolve="IH2CommandPage" />
       </node>
     </node>
-    <node concept="312cEg" id="2xnCXJMlCsf" role="jymVt">
-      <property role="34CwA1" value="false" />
-      <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="landingPage" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3Tmbuc" id="2xnCXJMlCsg" role="1B3o_S" />
-      <node concept="3uibUv" id="2xnCXJMlCLx" role="1tU5fm">
-        <ref role="3uigEE" node="2xnCXJMjQK6" resolve="IH2LandingPage" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="5hYsHqQG_$G" role="jymVt" />
     <node concept="312cEg" id="6zVU6_jBDVN" role="jymVt">
       <property role="TrG5h" value="currentTiles" />
@@ -5830,21 +5819,7 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2xnCXJMmarq" role="3cqZAp">
-          <node concept="37vLTI" id="2xnCXJMmavp" role="3clFbG">
-            <node concept="2OqwBi" id="2xnCXJMmaDZ" role="37vLTx">
-              <node concept="37vLTw" id="2xnCXJMmaCb" role="2Oq$k0">
-                <ref role="3cqZAo" node="kA5KhwcMUY" resolve="factory" />
-              </node>
-              <node concept="liA8E" id="2xnCXJMmaHg" role="2OqNvi">
-                <ref role="37wK5l" node="2xnCXJMm5TM" resolve="createLandingPage" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="2xnCXJMmaro" role="37vLTJ">
-              <ref role="3cqZAo" node="2xnCXJMlCsf" resolve="landingPage" />
-            </node>
-          </node>
-        </node>
+        <node concept="3clFbH" id="7WBKY1WlAvC" role="3cqZAp" />
         <node concept="3clFbF" id="63IPdUQGQki" role="3cqZAp">
           <node concept="37vLTI" id="63IPdUQGQBG" role="3clFbG">
             <node concept="Xl_RD" id="63IPdUQGQQ4" role="37vLTx">
@@ -5888,31 +5863,6 @@
       <node concept="3cqZAl" id="7r26jiO5Eg9" role="3clF45" />
       <node concept="3Tm1VV" id="7r26jiO5Ega" role="1B3o_S" />
       <node concept="3clFbS" id="7r26jiO5Egb" role="3clF47">
-        <node concept="3clFbH" id="7WBKY1Wlph$" role="3cqZAp" />
-        <node concept="3clFbF" id="2xnCXJMqeGl" role="3cqZAp">
-          <node concept="2OqwBi" id="2xnCXJMqeMB" role="3clFbG">
-            <node concept="37vLTw" id="2xnCXJMqeGj" role="2Oq$k0">
-              <ref role="3cqZAo" node="2xnCXJMlCsf" resolve="landingPage" />
-            </node>
-            <node concept="liA8E" id="2xnCXJMqgH0" role="2OqNvi">
-              <ref role="37wK5l" node="2xnCXJMqeZl" resolve="init" />
-              <node concept="37vLTw" id="2xnCXJMqgKk" role="37wK5m">
-                <ref role="3cqZAo" node="kA5KhwgqX2" resolve="client" />
-              </node>
-              <node concept="37vLTw" id="2xnCXJMqgW1" role="37wK5m">
-                <ref role="3cqZAo" node="kA5KhwgVK8" resolve="requestHostName" />
-              </node>
-              <node concept="2OqwBi" id="r$jHpF7GHs" role="37wK5m">
-                <node concept="37vLTw" id="r$jHpF7GD0" role="2Oq$k0">
-                  <ref role="3cqZAo" node="7r26jiO5Kc3" resolve="userEnv" />
-                </node>
-                <node concept="liA8E" id="r$jHpF7GLh" role="2OqNvi">
-                  <ref role="37wK5l" to="w7gk:4fBSqdHDY_k" resolve="getUserName" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="r$jHpF7COp" role="3cqZAp">
           <node concept="2OqwBi" id="2xnCXJMo3zv" role="3clFbG">
             <node concept="37vLTw" id="7r26jiO5LKw" role="2Oq$k0">
@@ -5967,7 +5917,6 @@
       <node concept="3cqZAl" id="yYLpwAyZ9j" role="3clF45" />
       <node concept="3Tm1VV" id="5hYsHqQx2i6" role="1B3o_S" />
       <node concept="3clFbS" id="5hYsHqQx2i7" role="3clF47">
-        <node concept="3clFbH" id="6aYVTwJiwt2" role="3cqZAp" />
         <node concept="3cpWs8" id="5hYsHqQxv_z" role="3cqZAp">
           <node concept="3cpWsn" id="5hYsHqQxv_A" role="3cpWs9">
             <property role="TrG5h" value="runningUri" />

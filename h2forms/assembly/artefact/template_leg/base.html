@@ -29,14 +29,14 @@
 <input type="hidden" name="SequenceId" value="{{ page.sequenceId }}"/>
 <input type="hidden" name="PageTmpValue" value="0"/>
 <input type="hidden" name="H1HttpClient" value="{{ client.device }}"/>
-<input type="hidden" name="Progressor" value="{{ page.progressor }}"/>
+<input type="hidden" name="Progressor" value="{{ client.progressor }}"/>
 <input type="hidden" name="DebugInformation" value="-"/>
 
 
 <!-- /content -->
 <section id="view-home" class="active">
 <header>
-    <div id="connInfo" class="rightCustomHeaderDiv">{{ statics.guessedServerName }}</div>
+    <div id="connInfo" class="rightCustomHeaderDiv">{{ client.requestHostName }} / {{ statics.guessedServerName }}</div>
     <div id="dbgFld" class="rightCustomHeaderDivLine2"> </div>  
     
     <h1 onclick="javascript: window.location=window.location;">
