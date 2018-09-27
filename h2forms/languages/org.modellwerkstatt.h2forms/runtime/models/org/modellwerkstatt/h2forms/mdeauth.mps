@@ -223,7 +223,7 @@
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="1wwgtxzgBSJ" role="1B3o_S" />
       <node concept="3uibUv" id="7WBKY1Wi1tj" role="1tU5fm">
-        <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="InfoClient" />
+        <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="ContextClient" />
       </node>
     </node>
     <node concept="2tJIrI" id="7WBKY1Wi1Jg" role="jymVt" />
@@ -259,7 +259,7 @@
       <node concept="37vLTG" id="1wwgtxzgw0b" role="3clF46">
         <property role="TrG5h" value="cli" />
         <node concept="3uibUv" id="7WBKY1Wi0sp" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="InfoClient" />
+          <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="ContextClient" />
         </node>
       </node>
       <node concept="3cqZAl" id="1wwgtxzgbAE" role="3clF45" />
@@ -318,11 +318,11 @@
           <node concept="3cpWsn" id="4Rlyz3E6UWl" role="3cpWs9">
             <property role="TrG5h" value="deviceDetected" />
             <node concept="3uibUv" id="1DW7q9hK_1i" role="1tU5fm">
-              <ref role="3uigEE" to="tea8:1DW7q9hIaqF" resolve="InfoClient.Devices" />
+              <ref role="3uigEE" to="tea8:1DW7q9hIaqF" resolve="ContextClient.Devices" />
             </node>
             <node concept="Rm8GO" id="7WBKY1WhPdb" role="33vP2m">
               <ref role="Rm8GQ" to="tea8:7WBKY1WeOL8" resolve="STANDARD" />
-              <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="InfoClient.Devices" />
+              <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.Devices" />
             </node>
           </node>
         </node>
@@ -404,7 +404,7 @@
                 </node>
                 <node concept="Rm8GO" id="1DW7q9hK_a3" role="37vLTx">
                   <ref role="Rm8GQ" to="tea8:1DW7q9hIa$2" resolve="ZEBRAEB_TC" />
-                  <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="InfoClient.Devices" />
+                  <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.Devices" />
                 </node>
               </node>
             </node>
@@ -430,7 +430,7 @@
                   </node>
                   <node concept="Rm8GO" id="1DW7q9hK_JE" role="37vLTx">
                     <ref role="Rm8GQ" to="tea8:1DW7q9hIa$2" resolve="ZEBRAEB_TC" />
-                    <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="InfoClient.Devices" />
+                    <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.Devices" />
                   </node>
                 </node>
               </node>
@@ -585,7 +585,7 @@
       <node concept="37vLTG" id="7WBKY1WhUa0" role="3clF46">
         <property role="TrG5h" value="client" />
         <node concept="3uibUv" id="7WBKY1WhUxT" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="InfoClient" />
+          <ref role="3uigEE" to="tea8:1DW7q9hHeAn" resolve="ContextClient" />
         </node>
       </node>
       <node concept="3cqZAl" id="7WBKY1WhTNs" role="3clF45" />
