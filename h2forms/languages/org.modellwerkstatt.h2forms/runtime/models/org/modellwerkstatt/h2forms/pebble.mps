@@ -29,6 +29,9 @@
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="1219920932475" name="jetbrains.mps.baseLanguage.structure.VariableArityType" flags="in" index="8X2XB">
+        <child id="1219921048460" name="componentType" index="8Xvag" />
+      </concept>
       <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
         <child id="1082485599096" name="statements" index="9aQI4" />
       </concept>
@@ -202,6 +205,7 @@
       </concept>
       <concept id="1154542696413" name="jetbrains.mps.baseLanguage.structure.ArrayCreatorWithInitializer" flags="nn" index="3g6Rrh">
         <child id="1154542793668" name="componentType" index="3g7fb8" />
+        <child id="1154542803372" name="initValue" index="3g7hyw" />
       </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
@@ -10124,7 +10128,40 @@
     </node>
     <node concept="3Tm1VV" id="1Qo13pXuiQ3" role="1B3o_S" />
     <node concept="2tJIrI" id="1Qo13pXuJY9" role="jymVt" />
-    <node concept="2tJIrI" id="1Qo13pXuKaR" role="jymVt" />
+    <node concept="3clFb_" id="2V_eJL6jnQP" role="jymVt">
+      <property role="TrG5h" value="test" />
+      <node concept="37vLTG" id="2V_eJL6jofR" role="3clF46">
+        <property role="TrG5h" value="objects" />
+        <node concept="8X2XB" id="2V_eJL6jon6" role="1tU5fm">
+          <node concept="3uibUv" id="2V_eJL6jolN" role="8Xvag">
+            <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+          </node>
+        </node>
+      </node>
+      <node concept="3cqZAl" id="2V_eJL6jnQR" role="3clF45" />
+      <node concept="3Tm1VV" id="2V_eJL6jnQS" role="1B3o_S" />
+      <node concept="3clFbS" id="2V_eJL6jnQT" role="3clF47">
+        <node concept="3clFbH" id="2V_eJL6jonY" role="3cqZAp" />
+        <node concept="3clFbF" id="2V_eJL6joox" role="3cqZAp">
+          <node concept="1rXfSq" id="2V_eJL6joov" role="3clFbG">
+            <ref role="37wK5l" node="2V_eJL6jnQP" resolve="test" />
+            <node concept="2ShNRf" id="2V_eJL6jopj" role="37wK5m">
+              <node concept="3g6Rrh" id="2V_eJL6jriI" role="2ShVmc">
+                <node concept="3uibUv" id="2V_eJL6jr92" role="3g7fb8">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+                <node concept="Xl_RD" id="2V_eJL6jrl7" role="3g7hyw">
+                  <property role="Xl_RC" value="test" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2V_eJL6joo0" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2V_eJL6jjax" role="jymVt" />
+    <node concept="2tJIrI" id="2V_eJL6jjcF" role="jymVt" />
     <node concept="2YIFZL" id="1Qo13pXuJ35" role="jymVt">
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
@@ -10157,7 +10194,7 @@
                   <ref role="3cqZAo" node="1Qo13pXuKTp" resolve="b" />
                 </node>
                 <node concept="liA8E" id="1Qo13pXuMLJ" role="2OqNvi">
-                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.CharSequence):java.lang.StringBuilder" resolve="append" />
+                  <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                   <node concept="3K4zz7" id="1Qo13pXuLAL" role="37wK5m">
                     <node concept="2OqwBi" id="1Qo13pXuLN7" role="3K4Cdx">
                       <node concept="37vLTw" id="1Qo13pXuLM3" role="2Oq$k0">
