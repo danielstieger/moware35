@@ -1,0 +1,17 @@
+<div class="ui-field-contain">
+{% if enabled %}
+<label for="{{ editorId }}" class="activeLabel" id="{{ editorId }}_L">{{ labelText }}</label>
+{% else %}
+<label for="{{ editorId }}" class="inactiveLabel" id="{{ editorId }}_L">{{ labelText }}</label>
+{% endif %}
+<select name="{{ editorId }}" id="{{ editorId }}" jumpable="#{{ editorId }}_L" editorIndex="{{ editorIndex }}"
+		{% if requestFocus %} focusme="true" {% endif %} {% if not enabled %} disabled {% endif %}>
+{%if not value %}<option selected disabled> </option>{% endif %}
+{% for item in items %}
+<option value="{{ item }}" {% if value equals item %} selected {% endif %}>{{ item }}</option> 
+{% endfor %}
+</select>
+{% if errorText %}
+<label class="error" generated="true" for="{{ editorId }}">{{ errorText }}</label>
+{% endif %}
+</div>

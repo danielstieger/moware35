@@ -1,0 +1,38 @@
+{% macro jsLinkWhenEnabled(act, index) %}
+	{% if act.enabled %} onClick="SelectAndExec('menu_{{ act.popupMenuId }}_{{ index }}', 'trigger_{{ act.triggerCode }}', 'TR_index');" navicrtl="trigger_{{ act.triggerCode }}" selectionid="menu_{{ act.popupMenuId }}_{{ index }}" {% endif %}
+{% endmacro %}
+
+
+
+<table> 
+{% for row in tableRows %}
+	{% for cell in row.cells %}
+		{% if loop.first %}
+			{% if row.mainAction and row.mainAction.enabled %}
+			<tr class="bigactive" {{ jsLink(row.mainAction, row.mainAction, row.index) }}> 		
+			{% else %}
+			<tr class="bigpassive">
+			{% endif %}
+		{% elseif cell.openRow %}
+			{% if row.mainAction and row.mainAction.enabled %}
+			<tr class="lightactive" {{ jsLink(row.mainAction, row.mainAction, row.index) }}>
+			{% else %}
+			<tr class="lightpassive">
+			{% endif %}
+		{% endif %}
+		
+		<td colspan="{{ cell.size }}" {% if cell.closeRow %}class="lastcell"{% endif %}
+			{% if cell.color %}style="font-weight: 500; color: {{ cell.color }};"{% endif %}>{{ cell.content }}</td>
+		
+		{% if cell.closeRow %}
+			</tr>
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+
+{% if footer %}
+      <tr> 
+      <td colspan="{{ tableColumns.size }}">{{ footer }}</td>
+      </tr>
+{% endif %}
+</table>

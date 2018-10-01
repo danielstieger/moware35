@@ -1,0 +1,11 @@
+{% if titleText %}
+<p> {{ titleText }} </p>
+{% endif %}
+{% if actions %} {% include "actions.html" %}{% endif %}
+{% if flagMessage %}
+<p id="flagbeep" class="error">{{ flagMessage }}</p>
+{% endif %}
+<ul>
+{% for form in children %}
+{{ delegate.toHtml }}
+{% endfor %}
