@@ -28,7 +28,7 @@
          If needed, that behaviour has to be implemented manually... 
         -->
 	<param-name>heartbeatInterval</param-name>
-  	<param-value>300</param-value>
+  	<param-value>600</param-value>
   </context-param>
 
   <context-param> 
