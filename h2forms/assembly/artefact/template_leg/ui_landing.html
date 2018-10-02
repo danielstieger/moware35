@@ -1,0 +1,22 @@
+{% extends "./base.html" %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+<br><table>
+{% for cmd in commands %}	
+	{% if cmd.enabled %}
+	<tr class="bigactive" onClick="SaveSubmit('{{ statics.mainLandingPagePath }}?command={{ cmd.uri }}');" navicrtl="command_{{ cmd.uri }}">
+		<td colspan="1"> <span> {{ cmd.label }} </span> </td>
+	</tr>
+	<tr class="lightactive" onClick="SaveSubmit('{{ statics.mainLandingPagePath }}?command={{ cmd.uri }}');" navicrtl="command_{{ cmd.uri }}" 
+		{% if cmd.color %} style="border-color: {{ cmd.color }};"{% endif %}>
+		<td colspan="1"> &nbsp; </td>
+	</tr>	
+	{% else %}
+	<tr class="bigpassive"> <td colspan="1"> <span> {{ cmd.label }} </span> </td></tr>
+	<tr class="lightpassive"> <td colspan="1"> &nbsp; </td></tr>
+	{% endif %}
+{% endfor %}
+</table>
+{% endblock %}

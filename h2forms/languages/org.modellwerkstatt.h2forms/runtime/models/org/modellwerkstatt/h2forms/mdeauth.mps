@@ -110,6 +110,9 @@
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
       <concept id="1068580123140" name="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" flags="ig" index="3clFbW" />
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
@@ -877,32 +880,45 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="7WBKY1Wlg20" role="3cqZAp">
-          <node concept="2OqwBi" id="7WBKY1Wlggk" role="3clFbG">
-            <node concept="2OqwBi" id="7WBKY1Wlg6G" role="2Oq$k0">
-              <node concept="37vLTw" id="7WBKY1Wlg1Y" role="2Oq$k0">
+        <node concept="3clFbH" id="2462lDSop$8" role="3cqZAp" />
+        <node concept="3clFbF" id="2462lDSomzv" role="3cqZAp">
+          <node concept="2OqwBi" id="2462lDSomMk" role="3clFbG">
+            <node concept="2OqwBi" id="2462lDSomC3" role="2Oq$k0">
+              <node concept="37vLTw" id="2462lDSomzt" role="2Oq$k0">
                 <ref role="3cqZAo" node="1wwgtxzgiJS" resolve="uiFactory" />
               </node>
-              <node concept="liA8E" id="7WBKY1Wlgfe" role="2OqNvi">
+              <node concept="liA8E" id="2462lDSomKo" role="2OqNvi">
                 <ref role="37wK5l" to="tea8:7WBKY1WlflD" resolve="getRenderer" />
               </node>
             </node>
-            <node concept="liA8E" id="7WBKY1WlgoQ" role="2OqNvi">
-              <ref role="37wK5l" to="tea8:7WBKY1WleQM" resolve="renderStandAloneMessage" />
-              <node concept="2OqwBi" id="7WBKY1Wlgyh" role="37wK5m">
-                <node concept="37vLTw" id="7WBKY1WlgqO" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1wwgtxzg9E$" resolve="response" />
+            <node concept="liA8E" id="2462lDSomX8" role="2OqNvi">
+              <ref role="37wK5l" to="tea8:2I8y5Kp1Dc_" resolve="handleResponse" />
+              <node concept="37vLTw" id="2462lDSon2m" role="37wK5m">
+                <ref role="3cqZAo" node="1wwgtxzg9E$" resolve="response" />
+              </node>
+              <node concept="2OqwBi" id="2462lDSoneU" role="37wK5m">
+                <node concept="37vLTw" id="2462lDSond0" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1wwgtxzgiJS" resolve="uiFactory" />
                 </node>
-                <node concept="liA8E" id="7WBKY1Wlg$m" role="2OqNvi">
-                  <ref role="37wK5l" to="opgt:~ServletResponse.getWriter():java.io.PrintWriter" resolve="getWriter" />
+                <node concept="liA8E" id="2462lDSonmC" role="2OqNvi">
+                  <ref role="37wK5l" to="tea8:2462lDSnlNr" resolve="getContextStatics" />
                 </node>
               </node>
-              <node concept="37vLTw" id="7WBKY1WlkYF" role="37wK5m">
+              <node concept="37vLTw" id="2462lDSonsg" role="37wK5m">
                 <ref role="3cqZAo" node="1wwgtxzgBSI" resolve="client" />
               </node>
-              <node concept="37vLTw" id="7WBKY1WlgFU" role="37wK5m">
+              <node concept="2ShNRf" id="2462lDSon_c" role="37wK5m">
+                <node concept="1pGfFk" id="2462lDSop1a" role="2ShVmc">
+                  <ref role="37wK5l" to="tea8:7WBKY1WeMPS" resolve="ContextPage" />
+                  <node concept="3cmrfG" id="2462lDSop3b" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTw" id="2462lDSopb3" role="37wK5m">
                 <ref role="3cqZAo" node="1wwgtxzgm_Q" resolve="h2msg" />
               </node>
+              <node concept="10Nm6u" id="2462lDSopi_" role="37wK5m" />
             </node>
           </node>
         </node>

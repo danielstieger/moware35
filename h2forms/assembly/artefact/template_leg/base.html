@@ -48,15 +48,41 @@
 <div class="scrollMask"></div>
 <div class="scrollWrap"> <div class="scroll"> <div class="content">
 	<div class="contentTop"  editorIndex="-1"></div>
-	{% block content %}{% endblock %}
+	{% block message %}
+	{% if message is not null %}
+		{% if message.infoSmall or message.userQuestion or message.errorSmall %}
+			<p id="errorbeep" class="error">{{ message.heading }}: {{ message.textBr }} </p>
+		{% if message.errorLarge %}
+			<p id="errorbeep"> {{ message.heading }} <br/>
+			<pre> <code> {{ message.text }} </code> </pre>
+			<br/><br/><br/>
+			</p>
+		{% else %} 
+			<p class="info"> {{ message.textBr }}  </p>
+		{% endif %} 
+	{% endif %}
+	{% endblock %}
+
 	
+	{% if message is not null and message.modalWithButtons %} 
+		<!-- no content due to message -->
+	{% else %}
+	{% block content %} {% endblock %}
+	{% endif %}
+
 </div> </div> </div> 
 </section>
 <!-- /content -->
-
-
 <nav>
-{% block footernav %}{% endblock %}
+{% if message is not null and message.modalWithButtons %} 
+	{% for btn in message.buttons %}
+	<button concbut="true" type="button" id="{{ btn.buttonCode }}" class="wideMin currentfg" onClick="SaveSubmit('{{ btn.buttonCode }}');return false;" navicrtl="{{ btn.buttonCode }}">
+		<div class="labeldiv"> <span class="label"> {{ btn.label }} </span> </div>
+	</button>
+	{% endfor %}
+{% else %}
+{% block footernav %} {% endblock %}
+{% endif %}
 </nav> 
 
 </form> 
