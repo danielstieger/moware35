@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "./base.html" %}
 
 {% block content %}
 {{ form.toHtml }}
@@ -10,7 +10,7 @@
 	{% if conc.hotKey equals "UPD" %} 
 		<input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
 	{% else %}
-		<button {% if conc.triggerCode equals 0 $} id="cancelbutton" {% elseif conc.hotKey equals "" %} id="NONE {{ conc.triggerCode }}" {% else %} id="{{ conc.hotKey }}_button" {% endif %}
+		<button {% if conc.triggerCode equals 0 %} id="cancelbutton" {% elseif conc.hotKey equals "" %} id="NONE {{ conc.triggerCode }}" {% else %} id="{{ conc.hotKey }}_button" {% endif %}
 		        concbut="true" type="button"  onClick="SaveSubmit('conclusion_{{ conc.triggerCode }}'); return false;" 
 		        navicrtl="conclusion_{{ conc.triggerCode }}" class="wideMin {% if conc.enabled %}currentfg{% endif %}" {% if not conc.enabled %} disabled {% endif %}>
 		<div class="labeldiv">

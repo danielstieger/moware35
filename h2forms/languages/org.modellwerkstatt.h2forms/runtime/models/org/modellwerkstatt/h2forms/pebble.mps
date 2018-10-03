@@ -482,8 +482,13 @@
                     <node concept="3cpWs3" id="19VJYqAtYaa" role="3uHU7B">
                       <node concept="3cpWs3" id="7uqK6azBeRt" role="3uHU7B">
                         <node concept="3cpWs3" id="7uqK6azBfiZ" role="3uHU7B">
-                          <node concept="37vLTw" id="7uqK6azBifZ" role="3uHU7B">
-                            <ref role="3cqZAo" node="7uqK6azBd2H" resolve="STATIC_CONTENT_DIR" />
+                          <node concept="3cpWs3" id="3Lpsq4dC4O0" role="3uHU7B">
+                            <node concept="Xl_RD" id="3Lpsq4dC4TA" role="3uHU7B">
+                              <property role="Xl_RC" value="/" />
+                            </node>
+                            <node concept="37vLTw" id="7uqK6azBifZ" role="3uHU7w">
+                              <ref role="3cqZAo" node="7uqK6azBd2H" resolve="STATIC_CONTENT_DIR" />
+                            </node>
                           </node>
                           <node concept="Xl_RD" id="7uqK6azBeWs" role="3uHU7w">
                             <property role="Xl_RC" value="/" />
@@ -929,12 +934,6 @@
         <property role="TrG5h" value="context" />
         <node concept="3uibUv" id="7WBKY1Wc4gR" role="1tU5fm">
           <ref role="3uigEE" to="opgt:~ServletContext" resolve="ServletContext" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="7WBKY1WhKbU" role="3clF46">
-        <property role="TrG5h" value="statics" />
-        <node concept="3uibUv" id="7WBKY1WhKTO" role="1tU5fm">
-          <ref role="3uigEE" to="tea8:7WBKY1WeLA5" resolve="ContextStatics" />
         </node>
       </node>
       <node concept="3cqZAl" id="7WBKY1Wc3v2" role="3clF45" />

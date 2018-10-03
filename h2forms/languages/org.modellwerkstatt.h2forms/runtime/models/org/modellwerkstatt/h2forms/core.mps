@@ -424,6 +424,11 @@
         <ref role="3uigEE" to="x37d:2yuEF6q8DRM" resolve="JmxRegistrationHelper" />
       </node>
     </node>
+    <node concept="312cEg" id="3Lpsq4dDyOj" role="jymVt">
+      <property role="TrG5h" value="templatesInitializedWihtoutEx" />
+      <node concept="3Tm6S6" id="3Lpsq4dDyOk" role="1B3o_S" />
+      <node concept="10P_77" id="3Lpsq4dD$Rb" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="3pVc9XTPTN_" role="jymVt" />
     <node concept="2tJIrI" id="75445jvZmTr" role="jymVt" />
     <node concept="2tJIrI" id="D$WnrO7SCb" role="jymVt" />
@@ -1000,23 +1005,111 @@
           </node>
         </node>
         <node concept="3clFbH" id="7WBKY1WfQE3" role="3cqZAp" />
-        <node concept="3clFbH" id="7WBKY1WfQIw" role="3cqZAp" />
-        <node concept="3clFbF" id="7WBKY1Wc9Gp" role="3cqZAp">
-          <node concept="2OqwBi" id="7WBKY1Wc9ZD" role="3clFbG">
-            <node concept="37vLTw" id="7WBKY1Wc9Gn" role="2Oq$k0">
-              <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+        <node concept="3clFbF" id="3Lpsq4dDC0B" role="3cqZAp">
+          <node concept="37vLTI" id="3Lpsq4dDDlU" role="3clFbG">
+            <node concept="3clFbT" id="3Lpsq4dDEz0" role="37vLTx">
+              <property role="3clFbU" value="false" />
             </node>
-            <node concept="liA8E" id="7WBKY1WcgkJ" role="2OqNvi">
-              <ref role="37wK5l" node="7WBKY1Wce7j" resolve="initRenderer" />
-              <node concept="2OqwBi" id="7WBKY1WcgPd" role="37wK5m">
-                <node concept="Xjq3P" id="7WBKY1WcgN0" role="2Oq$k0" />
-                <node concept="liA8E" id="7WBKY1WchmZ" role="2OqNvi">
-                  <ref role="37wK5l" to="opgt:~GenericServlet.getServletContext():javax.servlet.ServletContext" resolve="getServletContext" />
+            <node concept="37vLTw" id="3Lpsq4dDC0_" role="37vLTJ">
+              <ref role="3cqZAo" node="3Lpsq4dDyOj" resolve="templatesInitializedWihtoutEx" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="3Lpsq4dDoa4" role="3cqZAp">
+          <node concept="3clFbS" id="3Lpsq4dDoa6" role="3clFbx">
+            <node concept="3clFbF" id="3Lpsq4dDGcQ" role="3cqZAp">
+              <node concept="2OqwBi" id="3Lpsq4dDGcR" role="3clFbG">
+                <node concept="37vLTw" id="3Lpsq4dDGcS" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+                </node>
+                <node concept="liA8E" id="3Lpsq4dDGcT" role="2OqNvi">
+                  <ref role="37wK5l" node="7WBKY1Wce7j" resolve="initRenderer" />
+                  <node concept="2OqwBi" id="3Lpsq4dDGcU" role="37wK5m">
+                    <node concept="Xjq3P" id="3Lpsq4dDGcV" role="2Oq$k0" />
+                    <node concept="liA8E" id="3Lpsq4dDGcW" role="2OqNvi">
+                      <ref role="37wK5l" to="opgt:~GenericServlet.getServletContext():javax.servlet.ServletContext" resolve="getServletContext" />
+                    </node>
+                  </node>
                 </node>
               </node>
-              <node concept="37vLTw" id="7WBKY1Wh_U6" role="37wK5m">
-                <ref role="3cqZAo" node="2462lDSpvEp" resolve="statics" />
+            </node>
+            <node concept="3clFbF" id="3Lpsq4dDHnE" role="3cqZAp">
+              <node concept="37vLTI" id="3Lpsq4dDHS6" role="3clFbG">
+                <node concept="3clFbT" id="3Lpsq4dDHTp" role="37vLTx">
+                  <property role="3clFbU" value="true" />
+                </node>
+                <node concept="37vLTw" id="3Lpsq4dDHnC" role="37vLTJ">
+                  <ref role="3cqZAo" node="3Lpsq4dDyOj" resolve="templatesInitializedWihtoutEx" />
+                </node>
               </node>
+            </node>
+            <node concept="3clFbH" id="3Lpsq4dDMMV" role="3cqZAp" />
+          </node>
+          <node concept="3fqX7Q" id="3Lpsq4dDJjf" role="3clFbw">
+            <node concept="10M0yZ" id="3Lpsq4dDJjh" role="3fr31v">
+              <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+              <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="3Lpsq4dDF22" role="9aQIa">
+            <node concept="3clFbS" id="3Lpsq4dDF23" role="9aQI4">
+              <node concept="3SKdUt" id="3Lpsq4dDUKr" role="3cqZAp">
+                <node concept="3SKdUq" id="3Lpsq4dDUKt" role="3SKWNk">
+                  <property role="3SKdUp" value="be more generous ... " />
+                </node>
+              </node>
+              <node concept="SfApY" id="3Lpsq4dDtHo" role="3cqZAp">
+                <node concept="3clFbS" id="3Lpsq4dDtHq" role="SfCbr">
+                  <node concept="3clFbF" id="7WBKY1Wc9Gp" role="3cqZAp">
+                    <node concept="2OqwBi" id="7WBKY1Wc9ZD" role="3clFbG">
+                      <node concept="37vLTw" id="7WBKY1Wc9Gn" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+                      </node>
+                      <node concept="liA8E" id="7WBKY1WcgkJ" role="2OqNvi">
+                        <ref role="37wK5l" node="7WBKY1Wce7j" resolve="initRenderer" />
+                        <node concept="2OqwBi" id="7WBKY1WcgPd" role="37wK5m">
+                          <node concept="Xjq3P" id="7WBKY1WcgN0" role="2Oq$k0" />
+                          <node concept="liA8E" id="7WBKY1WchmZ" role="2OqNvi">
+                            <ref role="37wK5l" to="opgt:~GenericServlet.getServletContext():javax.servlet.ServletContext" resolve="getServletContext" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbF" id="3Lpsq4dDNjs" role="3cqZAp">
+                    <node concept="37vLTI" id="3Lpsq4dDNjt" role="3clFbG">
+                      <node concept="3clFbT" id="3Lpsq4dDNju" role="37vLTx">
+                        <property role="3clFbU" value="true" />
+                      </node>
+                      <node concept="37vLTw" id="3Lpsq4dDNjv" role="37vLTJ">
+                        <ref role="3cqZAo" node="3Lpsq4dDyOj" resolve="templatesInitializedWihtoutEx" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="TDmWw" id="3Lpsq4dDtHr" role="TEbGg">
+                  <node concept="3cpWsn" id="3Lpsq4dDtHt" role="TDEfY">
+                    <property role="TrG5h" value="ex" />
+                    <node concept="3uibUv" id="3Lpsq4dDwmI" role="1tU5fm">
+                      <ref role="3uigEE" to="wyt6:~Exception" resolve="Exception" />
+                    </node>
+                  </node>
+                  <node concept="3clFbS" id="3Lpsq4dDtHx" role="TDEfX">
+                    <node concept="3clFbF" id="3Lpsq4dDOsX" role="3cqZAp">
+                      <node concept="1rXfSq" id="3Lpsq4dDOsV" role="3clFbG">
+                        <ref role="37wK5l" to="opgt:~GenericServlet.log(java.lang.String,java.lang.Throwable):void" resolve="log" />
+                        <node concept="Xl_RD" id="3Lpsq4dDOuG" role="37wK5m">
+                          <property role="Xl_RC" value="problem while initializing templates" />
+                        </node>
+                        <node concept="37vLTw" id="3Lpsq4dDRdp" role="37wK5m">
+                          <ref role="3cqZAo" node="3Lpsq4dDtHt" resolve="ex" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="3Lpsq4dDKtp" role="3cqZAp" />
             </node>
           </node>
         </node>
@@ -1990,6 +2083,89 @@
           </node>
         </node>
         <node concept="3clFbH" id="1OvPoUvcD0B" role="3cqZAp" />
+        <node concept="3clFbJ" id="3Lpsq4dCB8K" role="3cqZAp">
+          <node concept="3clFbS" id="3Lpsq4dCB8M" role="3clFbx">
+            <node concept="3clFbJ" id="3Lpsq4dDVY6" role="3cqZAp">
+              <node concept="3clFbS" id="3Lpsq4dDVY8" role="3clFbx">
+                <node concept="3SKdUt" id="3Lpsq4dDYEU" role="3cqZAp">
+                  <node concept="3SKdUq" id="3Lpsq4dDYEW" role="3SKWNk">
+                    <property role="3SKdUp" value="try again .. " />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="3Lpsq4dCNFW" role="3cqZAp">
+                  <node concept="2OqwBi" id="3Lpsq4dCNHz" role="3clFbG">
+                    <node concept="37vLTw" id="3Lpsq4dCNFU" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5HhpRjTuFLK" resolve="uiFactory" />
+                    </node>
+                    <node concept="liA8E" id="3Lpsq4dCOBZ" role="2OqNvi">
+                      <ref role="37wK5l" node="7WBKY1Wce7j" resolve="initRenderer" />
+                      <node concept="2OqwBi" id="3Lpsq4dCPxP" role="37wK5m">
+                        <node concept="37vLTw" id="3Lpsq4dCPw6" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                        </node>
+                        <node concept="liA8E" id="3Lpsq4dCQq5" role="2OqNvi">
+                          <ref role="37wK5l" to="opgt:~ServletRequest.getServletContext():javax.servlet.ServletContext" resolve="getServletContext" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="3Lpsq4dD1RA" role="3cqZAp">
+                  <node concept="2OqwBi" id="3Lpsq4dD2Ua" role="3clFbG">
+                    <node concept="2OqwBi" id="3Lpsq4dD1Uy" role="2Oq$k0">
+                      <node concept="37vLTw" id="3Lpsq4dD1R$" role="2Oq$k0">
+                        <ref role="3cqZAo" node="3h3MBx3irbx" resolve="response" />
+                      </node>
+                      <node concept="liA8E" id="3Lpsq4dD2SP" role="2OqNvi">
+                        <ref role="37wK5l" to="opgt:~ServletResponse.getWriter():java.io.PrintWriter" resolve="getWriter" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="3Lpsq4dD3Q5" role="2OqNvi">
+                      <ref role="37wK5l" to="guwi:~PrintWriter.println(java.lang.String):void" resolve="println" />
+                      <node concept="3cpWs3" id="3Lpsq4dD7Lq" role="37wK5m">
+                        <node concept="2ShNRf" id="3Lpsq4dD8Co" role="3uHU7w">
+                          <node concept="1pGfFk" id="3Lpsq4dDcYj" role="2ShVmc">
+                            <ref role="37wK5l" to="w08f:~DateTime.&lt;init&gt;()" resolve="DateTime" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="3Lpsq4dD4Fv" role="3uHU7B">
+                          <property role="Xl_RC" value="uiFactory.initRenderer() called @ " />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="3Lpsq4dDeHV" role="3cqZAp" />
+              </node>
+              <node concept="22lmx$" id="3Lpsq4dDZcy" role="3clFbw">
+                <node concept="3fqX7Q" id="3Lpsq4dDXLM" role="3uHU7B">
+                  <node concept="37vLTw" id="3Lpsq4dDXLO" role="3fr31v">
+                    <ref role="3cqZAo" node="3Lpsq4dDyOj" resolve="templatesInitializedWihtoutEx" />
+                  </node>
+                </node>
+                <node concept="3y3z36" id="3Lpsq4dCMJy" role="3uHU7w">
+                  <node concept="10Nm6u" id="3Lpsq4dCMLv" role="3uHU7w" />
+                  <node concept="2OqwBi" id="3Lpsq4dCHyD" role="3uHU7B">
+                    <node concept="37vLTw" id="3Lpsq4dCHwT" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                    </node>
+                    <node concept="liA8E" id="3Lpsq4dCIwx" role="2OqNvi">
+                      <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                      <node concept="Xl_RD" id="3Lpsq4dCIyv" role="37wK5m">
+                        <property role="Xl_RC" value="retemp" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="10M0yZ" id="3Lpsq4dCCX3" role="3clFbw">
+            <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+            <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3Lpsq4dC_eW" role="3cqZAp" />
         <node concept="3cpWs8" id="5w_GCYFYLFW" role="3cqZAp">
           <node concept="3cpWsn" id="5w_GCYFYLFX" role="3cpWs9">
             <property role="TrG5h" value="session" />
@@ -9938,15 +10114,9 @@
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="initRenderer" />
       <node concept="37vLTG" id="7WBKY1Wcey$" role="3clF46">
-        <property role="TrG5h" value="ctx" />
+        <property role="TrG5h" value="servletContext" />
         <node concept="3uibUv" id="7WBKY1WceEB" role="1tU5fm">
           <ref role="3uigEE" to="opgt:~ServletContext" resolve="ServletContext" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="7WBKY1WhAT3" role="3clF46">
-        <property role="TrG5h" value="statics" />
-        <node concept="3uibUv" id="7WBKY1WhB0l" role="1tU5fm">
-          <ref role="3uigEE" node="7WBKY1WeLA5" resolve="ContextStatics" />
         </node>
       </node>
       <node concept="3cqZAl" id="7WBKY1Wce7l" role="3clF45" />
