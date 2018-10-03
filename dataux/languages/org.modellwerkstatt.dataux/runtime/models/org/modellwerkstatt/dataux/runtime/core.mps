@@ -28643,9 +28643,6 @@
     <property role="TrG5h" value="BaseUiFactory" />
     <property role="1sVAO0" value="true" />
     <node concept="3Tm1VV" id="69JiVbyVOt4" role="1B3o_S" />
-    <node concept="3uibUv" id="69JiVbyVOD7" role="EKbjA">
-      <ref role="3uigEE" to="250q:20ohnkbzF0d" resolve="IToolkit_UiFactory" />
-    </node>
     <node concept="312cEg" id="69JiVbyW3nO" role="jymVt">
       <property role="TrG5h" value="defaulTrans" />
       <property role="3TUv4t" value="false" />

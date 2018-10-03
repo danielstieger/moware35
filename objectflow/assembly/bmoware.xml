@@ -59,6 +59,11 @@
     <copy todir="${mowarePluginHomeDir}/ofassembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/objectflow/assembly/artefact/"/>
   	</copy>
+  	
+  	<copy todir="${mowarePluginHomeDir}/h2assembly/artefact/" overwrite="true" >
+    	<fileset dir="${mowareHome}/h2forms/assembly/artefact/"/>
+  	</copy>
+  	        
   	        
   </target>
   <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  

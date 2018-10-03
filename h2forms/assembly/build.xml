@@ -24,8 +24,8 @@
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
   <property name="appName"              value="MDEApp" />
-  <property name="appMainclass"         value="Simple.baseApp.App_MDE_Order" />
-  <property name="appConfiguration"     value="Simple/baseApp/MdeConfig.xml" /> 
+  <property name="appMainclass"         value="org.modellwerkstatt.simple.baseApp.App_MDE_Order" />
+  <property name="appConfiguration"     value="org/modellwerkstatt/simple/baseApp/MdeConfig.xml" /> 
   <property name="appHomeScreen"        value="${appName}" />
     
   <!-- **** build specific definitions ************************************************************** -->
@@ -42,7 +42,7 @@
   </exec>
   
   <!--     H1 forms settings      -->
-  <property name="h2formsAppLoader"     value="org.modellwerkstatt.h2forms.runtime.core.H2ApplicationLoader" /> 
+  <property name="h2formsAppLoader"     value="org.modellwerkstatt.h2forms.core.H2ApplicationLoader" /> 
 
 
   <echo>
@@ -62,7 +62,8 @@
 	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.h2forms.jar" />
 	  
       <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />   
-      <fileset dir="${mowarePluginHomeDir}/jars/eventbus/" includes="*.jar" />   
+      <fileset dir="${mowarePluginHomeDir}/jars/servletclient/" includes="*pebble*.jar" />   
+      
          
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />
       <fileset dir="${mpsHomeDir}/lib/" includes="mps-collections.jar" />
@@ -75,8 +76,9 @@
       <fileset dir="${solultionSimpleGen}" />
     </copy>
     
-    <copy todir="work/static">
-      <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/mdeforms/" />
+    <mkdir dir="work/static/template_leg"/>
+    <copy todir="work/static/template_leg">
+      <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/template_leg/" />
     </copy>
     
     <copy file="${mowarePluginHomeDir}/h2assembly/artefact/context.xml" tofile="work/META-INF/context.xml" filtering="yes" overwrite="yes">

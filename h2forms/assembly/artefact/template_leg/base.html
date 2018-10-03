@@ -9,11 +9,15 @@
 	<link rel="icon" href="{{ statics.staticContentUrlPrefix }}/mpreis.ico" />
 
 	<link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/style.css{{ page.ncs }}"/>
-	<script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
-     
+	{% if client equals ZEBRAEB_TC %}
+		<script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
+		<script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
+		<script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
+		<script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
+		<script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/zebrah2forms.js{{ page.ncs }}"></script>
+	{% else %}
+    	<script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/otherh2forms.js{{ page.ncs }}"></script>
+	{% endif %}
 	<style media="screen" type="text/css">
      .currentfg { background: {{ page.color }} + !important; }
      input, textarea, select { border-bottom-color: {{ page.color }}; }
