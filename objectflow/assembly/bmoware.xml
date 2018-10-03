@@ -56,10 +56,16 @@
     <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/moware-vaadin-theme-1.0.jar" 
          basedir="${mowareHome}/vaadinforms/assembly/artefact/moware-theme"/>
     
+    <delete includeEmptyDirs="true">
+  		<fileset dir="${mowarePluginHomeDir}/ofassembly/artefact/" includes="**/*" defaultexcludes="no"/>
+	</delete>
     <copy todir="${mowarePluginHomeDir}/ofassembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/objectflow/assembly/artefact/"/>
   	</copy>
   	
+    <delete includeEmptyDirs="true">
+  		<fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/" includes="**/*" defaultexcludes="no"/>
+	</delete>
   	<copy todir="${mowarePluginHomeDir}/h2assembly/artefact/" overwrite="true" >
     	<fileset dir="${mowareHome}/h2forms/assembly/artefact/"/>
   	</copy>

@@ -333,22 +333,13 @@
   </registry>
   <node concept="312cEu" id="2AQWB$eP4GP">
     <property role="TrG5h" value="PebbleTemplateRenderer" />
-    <node concept="Wx3nA" id="7uqK6azBd2H" role="jymVt">
-      <property role="TrG5h" value="STATIC_CONTENT_DIR" />
-      <property role="3TUv4t" value="true" />
-      <node concept="17QB3L" id="7uqK6azBb4_" role="1tU5fm" />
-      <node concept="3Tm1VV" id="7uqK6azBg6u" role="1B3o_S" />
-      <node concept="Xl_RD" id="7uqK6azBcav" role="33vP2m">
-        <property role="Xl_RC" value="static" />
-      </node>
-    </node>
     <node concept="Wx3nA" id="7uqK6azBhA7" role="jymVt">
       <property role="TrG5h" value="TEMPLATE_ENDING" />
       <property role="3TUv4t" value="true" />
       <node concept="17QB3L" id="7uqK6azBhA8" role="1tU5fm" />
       <node concept="3Tm1VV" id="7uqK6azBhA9" role="1B3o_S" />
       <node concept="Xl_RD" id="7uqK6azBhAa" role="33vP2m">
-        <property role="Xl_RC" value="html" />
+        <property role="Xl_RC" value="peb" />
       </node>
     </node>
     <node concept="2tJIrI" id="7uqK6azBhj7" role="jymVt" />
@@ -486,8 +477,9 @@
                             <node concept="Xl_RD" id="3Lpsq4dC4TA" role="3uHU7B">
                               <property role="Xl_RC" value="/" />
                             </node>
-                            <node concept="37vLTw" id="7uqK6azBifZ" role="3uHU7w">
-                              <ref role="3cqZAo" node="7uqK6azBd2H" resolve="STATIC_CONTENT_DIR" />
+                            <node concept="10M0yZ" id="3Lpsq4dERVd" role="3uHU7w">
+                              <ref role="1PxDUh" to="tea8:3h3MBx3irbo" resolve="H2ApplicationLoader" />
+                              <ref role="3cqZAo" to="tea8:3Lpsq4dELf3" resolve="DEFAULT_STATIC_DIR" />
                             </node>
                           </node>
                           <node concept="Xl_RD" id="7uqK6azBeWs" role="3uHU7w">

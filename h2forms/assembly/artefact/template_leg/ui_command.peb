@@ -1,8 +1,8 @@
-{% extends "./base.html" %}
+{% extends "./base.peb" %}
 
 {% block content %}
 {{ form.toHtml }}
-{% endblock %}
+{% endblock content %}
 
 {% block footernav %}
 {% for conc in conclusions %}

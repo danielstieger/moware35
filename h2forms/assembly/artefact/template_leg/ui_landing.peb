@@ -1,4 +1,4 @@
-{% extends "./base.html" %}
+{% extends "./base.peb" %}
 
 {% block content %}
 <br><table>
@@ -9,7 +9,7 @@
 			<td colspan="1"> <span> {{ itm.label }} </span> </td>
 		</tr>
 		<tr class="lightactive" onClick="SaveSubmit('{{ statics.mainLandingPagePath }}?command={{ itm.uri }}');" navicrtl="command_{{ itm.uri }}" 
-			{% if itm.color %} style="border-color: {{ itm.color }};"{% endif %}>
+			{% if itm.color is not null %} style="border-color: {{ itm.color }};"{% endif %}>
 			<td colspan="1"> &nbsp; </td>
 		</tr>	
 		{% else %}
@@ -19,8 +19,8 @@
 	{% endif %}
 {% endfor %}
 </table>
-{% endblock %}
+{% endblock content %}
 
 {% block footernav %}
-{% endblock %}
+{% endblock footernav %}
 
