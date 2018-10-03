@@ -43,7 +43,8 @@
   
   <!--     H1 forms settings      -->
   <property name="h2formsAppLoader"     value="org.modellwerkstatt.h2forms.core.H2ApplicationLoader" /> 
-
+  <property name="h2formsTemplate"      value="template_leg" /> 
+	
 
   <echo>
     Run by ${user.name} on Java Home : ${java.home}
@@ -78,7 +79,7 @@
     
     <mkdir dir="work/static/template_leg"/>
     <copy todir="work/static/template_leg">
-      <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/template_leg/" />
+      <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/${h2formsTemplate}/" />
     </copy>
     
     <copy file="${mowarePluginHomeDir}/h2assembly/artefact/context.xml" tofile="work/META-INF/context.xml" filtering="yes" overwrite="yes">
@@ -109,6 +110,13 @@
   <target name="clean" description="Delete old work and dist directories">
 	<delete dir="work"/>
     <delete dir="dist"/>
+  </target>
+  
+  
+  <target name="rt">
+  	<copy todir="${tomcatHomeDir}/webapps/${appName}/static/${h2formsTemplate}">
+  		<fileset dir="artefact/${h2formsTemplate}" />
+  	</copy>
   </target>
   
   <target name="redeploy" depends="default">

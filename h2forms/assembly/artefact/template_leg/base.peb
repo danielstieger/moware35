@@ -10,18 +10,18 @@
 
     <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/style.css{{ page.ncs }}"/>
 	{% if client equals "ZEBRAEB_TC" %}
-        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
-        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
-        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
-        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
-        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/zebrah2forms.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/zebrah2forms.js{{ page.ncs }}"></script>
 	{% else %}
-        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/otherh2forms.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/otherh2forms.js{{ page.ncs }}"></script>
 	{% endif %}
     <style media="screen" type="text/css">
-     .currentfg { background: {{ page.color }} !important; }
-     input, textarea, select { border-bottom-color: {{ page.color }}; }
-     table .lightactive { border-color: {{ page.color }} ; }
+        .currentfg { background: {{ page.color }} !important; }
+        input, textarea, select { border-bottom-color: {{ page.color }}; }
+        table .lightactive { border-color: {{ page.color }} ; }
     </style>
 </head>
 
@@ -52,19 +52,19 @@
         <div class="scrollMask"></div>
         <div class="scrollWrap"> <div class="scroll"> <div class="content">
             <div class="contentTop"  editorIndex="-1"></div>
+            <!-- {{ message }} -->
+ 			{% if message is not null %}
+                {% if message.infoSmall or message.userQuestion or message.errorSmall %}
+                    <p id="errorbeep" class="error">{{ message.heading }}: {{ message.textBr }} </p>
 
-			{% if message is not null %}
-			{% if message.infoSmall or message.userQuestion or message.errorSmall %}
-                <p id="errorbeep" class="error">{{ message.heading }}: {{ message.textBr }} </p>
-
-			{% elseif message.errorLarge is not null %}
-                <p id="errorbeep"> {{ message.heading }} <br/>
-                <pre> <code> {{ message.text }} </code> </pre>
-                <br/><br/><br/>
-                </p>
-			{% else%}
-                <p class="info"> {{ message.textBr }}  </p>
-			{% endif %}
+                {% elseif message.errorLarge is not null %}
+                    <p id="errorbeep"> {{ message.heading }} <br/>
+                    <pre> <code> {{ message.text }} </code> </pre>
+                    <br/><br/><br/>
+                    </p>
+                {% else%}
+                    <p class="info"> {{ message.textBr }}  </p>
+    			{% endif %}
 			{% endif %}
 
 
