@@ -1,3 +1,6 @@
+{% macro defCol(col) %}
+    {% if col is null %}#6b9ff4{% else %}{{ col }}{% endif %}
+{% endmacro %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,9 +22,9 @@
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/otherh2forms.js{{ page.ncs }}"></script>
 	{% endif %}
     <style media="screen" type="text/css">
-        .currentfg { background: {{ page.color }} !important; }
-        input, textarea, select { border-bottom-color: {{ page.color }}; }
-        table .lightactive { border-color: {{ page.color }} ; }
+        .currentfg { background: {{ defCol(page.color) }} !important; }
+        input, textarea, select { border-bottom-color: {{ defCol(page.color) }}; }
+        table .lightactive { border-color: {{ defCol(page.color) }} ; }
     </style>
 </head>
 
@@ -52,7 +55,6 @@
         <div class="scrollMask"></div>
         <div class="scrollWrap"> <div class="scroll"> <div class="content">
             <div class="contentTop"  editorIndex="-1"></div>
-            <!-- {{ message }} -->
  			{% if message is not null %}
                 {% if message.infoSmall or message.userQuestion or message.errorSmall %}
                     <p id="errorbeep" class="error">{{ message.heading }}: {{ message.textBr }} </p>
@@ -85,7 +87,7 @@
         </button>
 	{% endfor %}
 	{% else %}
-	{% block footernav %} {% endblock %}
+	    {% block footernav %} {% endblock %}
 	{% endif %}
     </nav>
 

@@ -7,5 +7,5 @@
 {% endif %}
 <ul>
 {% for form in children %}
-{{ delegate.toHtml }}
+    {{ delegate.toHtml }}
 {% endfor %}

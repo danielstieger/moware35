@@ -21,6 +21,3 @@
 </table>
 {% endblock content %}
 
-{% block footernav %}
-{% endblock footernav %}
-

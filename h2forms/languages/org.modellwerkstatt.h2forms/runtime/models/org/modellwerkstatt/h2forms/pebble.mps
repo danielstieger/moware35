@@ -277,6 +277,7 @@
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
       </concept>
+      <concept id="2068944020170241612" name="jetbrains.mps.baseLanguage.javadoc.structure.ClassifierDocComment" flags="ng" index="3UR2Jj" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -615,6 +616,17 @@
       </node>
       <node concept="3clFbS" id="19VJYqAugc_" role="3clF47">
         <node concept="3clFbH" id="6jihzUGMQks" role="3cqZAp" />
+        <node concept="3SKdUt" id="6HZE0_Ukmh2" role="3cqZAp">
+          <node concept="3SKdUq" id="6HZE0_Ukmh4" role="3SKWNk">
+            <property role="3SKdUp" value="handle message box here. In case of messages, template can decide, if " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="6HZE0_UknIF" role="3cqZAp">
+          <node concept="3SKdUq" id="6HZE0_UknIH" role="3SKWNk">
+            <property role="3SKdUp" value="form of page / menu is also rendered or not! " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="6HZE0_UknSX" role="3cqZAp" />
         <node concept="3clFbJ" id="6jihzUGMGU7" role="3cqZAp">
           <node concept="3clFbS" id="6jihzUGMGU8" role="3clFbx">
             <node concept="3clFbF" id="6jihzUGMGU9" role="3cqZAp">
@@ -720,6 +732,66 @@
     <node concept="3Tm1VV" id="2AQWB$eP4GQ" role="1B3o_S" />
     <node concept="3uibUv" id="2AQWB$eP597" role="EKbjA">
       <ref role="3uigEE" to="tea8:2AQWB$eP50g" resolve="IH2FormsTemplateRenderer" />
+    </node>
+    <node concept="3UR2Jj" id="6HZE0_Ukfas" role="lGtFl">
+      <node concept="TZ5HA" id="6HZE0_Ukfat" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_Ukfau" role="1dT_Ay">
+          <property role="1dT_AB" value="The Themplate Renderer itself is stateless regarding the application," />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6HZE0_UkfAM" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_UkfAN" role="1dT_Ay">
+          <property role="1dT_AB" value="however, it is not statels regarding windows or message boxes. " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6HZE0_UkfIB" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_UkfIC" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6HZE0_UkfIJ" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_UkfIK" role="1dT_Ay">
+          <property role="1dT_AB" value="Since user can press reload multiple times, we have to restore " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6HZE0_Ukg3v" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_Ukg3w" role="1dT_Ay">
+          <property role="1dT_AB" value="window/screen state ... " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6HZE0_Ukg6h" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_Ukg6i" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6HZE0_Ukg6z" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_Ukg6$" role="1dT_Ay">
+          <property role="1dT_AB" value="and also check for appSequence, since one can no execute same " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6HZE0_UkgeW" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_UkgeX" role="1dT_Ay">
+          <property role="1dT_AB" value="request multiple times! " />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6HZE0_Ukglk" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_Ukgll" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6HZE0_UkglF" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_UkglG" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
+      <node concept="TZ5HA" id="6HZE0_Ukg6R" role="TZ5H$">
+        <node concept="1dT_AC" id="6HZE0_Ukg6S" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+        <node concept="1dT_AC" id="6HZE0_UkfL$" role="1dT_Ay">
+          <property role="1dT_AB" value="" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="7RHNXGyQGcg">
@@ -3136,6 +3208,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="6HZE0_UmeXa" role="jymVt" />
     <node concept="3clFb_" id="2xnCXJMh_bl" role="jymVt">
       <property role="TrG5h" value="handleResponse" />
       <node concept="37vLTG" id="19VJYqAuXbC" role="3clF46">
@@ -3214,6 +3287,31 @@
           </node>
         </node>
         <node concept="3clFbH" id="19VJYqAvX_p" role="3cqZAp" />
+        <node concept="3clFbH" id="6HZE0_UmfFO" role="3cqZAp" />
+        <node concept="3SKdUt" id="6HZE0_UmirE" role="3cqZAp">
+          <node concept="3SKdUq" id="6HZE0_UmirG" role="3SKWNk">
+            <property role="3SKdUp" value="distribute writer instance accross forms..." />
+          </node>
+        </node>
+        <node concept="3clFbF" id="6HZE0_UmgoF" role="3cqZAp">
+          <node concept="2OqwBi" id="6HZE0_UmgKi" role="3clFbG">
+            <node concept="37vLTw" id="6HZE0_UmgoD" role="2Oq$k0">
+              <ref role="3cqZAo" node="2xnCXJMh7KC" resolve="form" />
+            </node>
+            <node concept="liA8E" id="6HZE0_UmgQy" role="2OqNvi">
+              <ref role="37wK5l" node="1Qo13pXqtcs" resolve="initBeforeRender" />
+              <node concept="2OqwBi" id="6HZE0_UmgUN" role="37wK5m">
+                <node concept="37vLTw" id="6HZE0_UmgTr" role="2Oq$k0">
+                  <ref role="3cqZAo" node="19VJYqAuXbC" resolve="response" />
+                </node>
+                <node concept="liA8E" id="6HZE0_UmgXj" role="2OqNvi">
+                  <ref role="37wK5l" to="opgt:~ServletResponse.getWriter():java.io.PrintWriter" resolve="getWriter" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="6HZE0_UmhGD" role="3cqZAp" />
         <node concept="3clFbF" id="19VJYqAv7yp" role="3cqZAp">
           <node concept="37vLTI" id="19VJYqAv7yq" role="3clFbG">
             <node concept="37vLTw" id="19VJYqAvf0z" role="37vLTx">
