@@ -72,6 +72,7 @@ function enableScan() {
 				gs1dataBarLimited:true,
 				pdf417:true,
 				qrCode:true,
+				dataMatrix:true, 
 				/* upcEanSupplemental5:true, 
 				upcEanSupplemental2:true,
 				upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO, */
