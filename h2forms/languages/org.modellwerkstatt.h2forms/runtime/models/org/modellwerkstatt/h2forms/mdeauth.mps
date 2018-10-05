@@ -156,9 +156,6 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
-      <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
-        <reference id="1116615189566" name="classifier" index="3VsUkX" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -919,65 +916,6 @@
                 <ref role="3cqZAo" node="1wwgtxzgm_Q" resolve="h2msg" />
               </node>
               <node concept="10Nm6u" id="2462lDSopi_" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3clFb_" id="1wwgtxzg9EF" role="jymVt">
-      <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="forwardException" />
-      <node concept="37vLTG" id="1wwgtxzg9EG" role="3clF46">
-        <property role="TrG5h" value="s" />
-        <node concept="17QB3L" id="1wwgtxzg9EH" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="1wwgtxzg9EI" role="3clF46">
-        <property role="TrG5h" value="e" />
-        <node concept="3uibUv" id="1wwgtxzg9EJ" role="1tU5fm">
-          <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
-        </node>
-      </node>
-      <node concept="3cqZAl" id="1wwgtxzg9EK" role="3clF45" />
-      <node concept="3Tm1VV" id="1wwgtxzg9EL" role="1B3o_S" />
-      <node concept="3clFbS" id="1wwgtxzg9EN" role="3clF47">
-        <node concept="3clFbF" id="2ppo89mgfgK" role="3cqZAp">
-          <node concept="2OqwBi" id="2ppo89mgfgL" role="3clFbG">
-            <node concept="2YIFZM" id="2ppo89mgfgM" role="2Oq$k0">
-              <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
-              <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
-              <node concept="3VsKOn" id="2ppo89mgfgN" role="37wK5m">
-                <ref role="3VsUkX" to="1e0c:SQhsWRUr6_" resolve="CoreReporter" />
-              </node>
-            </node>
-            <node concept="liA8E" id="2ppo89mgfgO" role="2OqNvi">
-              <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
-              <node concept="3cpWs3" id="1wwgtxzgfY$" role="37wK5m">
-                <node concept="2YIFZM" id="1wwgtxzgg8z" role="3uHU7w">
-                  <ref role="37wK5l" to="28jr:50gmXGsmCtl" resolve="stackTrace2String" />
-                  <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
-                  <node concept="37vLTw" id="1wwgtxzggbv" role="37wK5m">
-                    <ref role="3cqZAo" node="1wwgtxzg9EI" resolve="e" />
-                  </node>
-                </node>
-                <node concept="3cpWs3" id="1wwgtxzgfMX" role="3uHU7B">
-                  <node concept="3cpWs3" id="2ppo89mgfq0" role="3uHU7B">
-                    <node concept="3cpWs3" id="2ppo89mggWx" role="3uHU7B">
-                      <node concept="Xl_RD" id="2ppo89mgh06" role="3uHU7w">
-                        <property role="Xl_RC" value=" - " />
-                      </node>
-                      <node concept="1rXfSq" id="7WBKY1Wle2X" role="3uHU7B">
-                        <ref role="37wK5l" node="7WBKY1WlcZW" resolve="getShortUserInfo" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="1wwgtxzgfJZ" role="3uHU7w">
-                      <ref role="3cqZAo" node="1wwgtxzg9EG" resolve="s" />
-                    </node>
-                  </node>
-                  <node concept="Xl_RD" id="1wwgtxzgfPA" role="3uHU7w">
-                    <property role="Xl_RC" value=" - " />
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>

@@ -1730,7 +1730,7 @@
         </node>
         <node concept="1SiIV0" id="phsLeeLcce" role="3bR37C">
           <node concept="3bR9La" id="phsLeeLccf" role="1SiIV1">
-            <property role="3bR36h" value="false" />
+            <property role="3bR36h" value="true" />
             <ref role="3bR37D" node="1JLTjCmZpiM" resolve="org.modellwerkstatt.objectflow.runtime" />
           </node>
         </node>

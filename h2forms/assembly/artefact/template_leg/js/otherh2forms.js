@@ -290,10 +290,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	if (tmpVal == '0') {
 	   $('form').PageTmpValue.value = '1';
 	} else {
-	   console.log('DOMContentLoaded() submitting due to PageTmpValue not 0!');
+	   console.log('DOMContentLoaded() submitting due to PageTmpValue not 0! It is ' + tmpVal);
        $('form').SequenceId.value = '' + parseInt($('form').SequenceId.value) + 1;
 	   $('form').DebugInformation.value = 'Browser Back Button pressed';
-	   SaveSubmit('conclusion_0');
+	   /* SaveSubmit('conclusion_0'); */
 	}
 	
 	/* this is not the enterprise browser keyhandler, but 	

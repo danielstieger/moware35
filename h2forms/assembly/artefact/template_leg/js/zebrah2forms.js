@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', function() {
        console.log('H2 DOMContentLoaded() submitting due to PageTmpValue not 0!');
        $('form').SequenceId.value = '' + parseInt($('form').SequenceId.value) + 1;
 	   $('form').DebugInformation.value = 'Browser Back Button pressed';
-	   SaveSubmit('conclusion_0');
+	   /* SaveSubmit('conclusion_0'); */
 	}
 
   	try {
