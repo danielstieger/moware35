@@ -8,21 +8,21 @@
 {% for row in tableRows %}
 	{% for cell in row.cells %}
 		{% if loop.first %}
-			{% if row.mainAction and row.mainAction.enabled %}
-			<tr class="bigactive" {{ jsLink(row.mainAction, row.mainAction, row.index) }}> 		
+			{% if row.mainAction is not null and row.mainAction.enabled %}
+			<tr class="bigactive" {{ jsLinkWhenEnabled(row.mainAction, row.index) }}>
 			{% else %}
 			<tr class="bigpassive">
 			{% endif %}
 		{% elseif cell.openRow %}
-			{% if row.mainAction and row.mainAction.enabled %}
-			<tr class="lightactive" {{ jsLink(row.mainAction, row.mainAction, row.index) }}>
+			{% if row.mainAction is not null and row.mainAction.enabled %}
+			<tr class="lightactive" {{ jsLinkWhenEnabled(row.mainAction, row.index) }}>
 			{% else %}
 			<tr class="lightpassive">
 			{% endif %}
 		{% endif %}
 		
 		<td colspan="{{ cell.size }}" {% if cell.closeRow %}class="lastcell"{% endif %}
-			{% if cell.color %}style="font-weight: 500; color: {{ cell.color }};"{% endif %}>{{ cell.content }}</td>
+			{% if cell.color is not null %}style="font-weight: 500; color: {{ cell.color }};"{% endif %}>{{ cell.content }}</td>
 		
 		{% if cell.closeRow %}
 			</tr>
@@ -30,9 +30,9 @@
 	{% endfor %}
 {% endfor %}
 
-{% if footer %}
+{% if footer is not null %}
       <tr> 
-      <td colspan="{{ tableColumns.size }}">{{ footer }}</td>
+      <td colspan="{{ tableColumns | length }}">{{ footer }}</td>
       </tr>
 {% endif %}
 </table>

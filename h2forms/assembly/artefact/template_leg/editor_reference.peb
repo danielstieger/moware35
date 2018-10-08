@@ -4,14 +4,14 @@
 {% else %}
 <label for="{{ editorId }}" class="inactiveLabel" id="{{ editorId }}_L">{{ labelText }}</label>
 {% endif %}
+	<!-- selected in dex is {{ selectedIndex }} -->
 <select name="{{ editorId }}" id="{{ editorId }}" jumpable="#{{ editorId }}_L" editorIndex="{{ editorIndex }}"
 		{% if requestFocus %} focusme="true" {% endif %} {% if not enabled %} disabled {% endif %}>
-{%if not value %}<option selected disabled> </option>{% endif %}
 {% for item in items %}
-<option value="{{ item }}" {% if value equals item %} selected {% endif %}>{{ item }}</option> 
+<option value="{{ item.triggerCode }}" {% if item.selected %} selected {% endif %}>{{ item.label }}</option>
 {% endfor %}
 </select>
-{% if errorText %}
+{% if errorText is not null %}
 <label class="error" generated="true" for="{{ editorId }}">{{ errorText }}</label>
 {% endif %}
 </div>

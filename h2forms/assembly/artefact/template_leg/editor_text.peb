@@ -5,11 +5,11 @@
 <label for="{{ editorId }}" class="inactiveLabel" id="{{ editorId }}_L">{{ labelText }}</label>
 {% endif %}
 <input type="text" name="{{ editorId }}" id="{{ editorId }}" jumpable="#{{ editorId }}_L" editorIndex="{{ editorIndex }}" 
-       {% if useKeyboad %} useMyKeyboard="true" {% endif %} 
+       {% if useKeyboard %} useMyKeyboard="true" {% endif %}
        {% if scanable %} scanable="true" {% endif %} 
        {% if requestFocus %} focusme="true" {% endif %} 
        {% if not enabled %} disabled {% endif %} value="{{ text }}" />
-{% if errorText %}
+{% if errorText is not null %}
 <label class="error" generated="true" for="{{ editorId }}">{{ errorText }}</label>
 {% endif %}
 </div>

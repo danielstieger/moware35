@@ -3776,7 +3776,7 @@
                               </node>
                             </node>
                             <node concept="Xl_RD" id="3802U0XUf51" role="3uHU7B">
-                              <property role="Xl_RC" value="Application crashed :(   EX while reqeust/response handling by controller: \n\n " />
+                              <property role="Xl_RC" value="APPLICATION CRASHED unexpectedly ... \nException while reqeust/response handling by controller: \n\n " />
                             </node>
                           </node>
                         </node>

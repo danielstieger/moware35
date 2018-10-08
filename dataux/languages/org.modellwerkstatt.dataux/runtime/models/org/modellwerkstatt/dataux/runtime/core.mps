@@ -14779,27 +14779,32 @@
               <node concept="2ShNRf" id="63VjT6lWqB6" role="YScLw">
                 <node concept="1pGfFk" id="63VjT6lWrc0" role="2ShVmc">
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                  <node concept="3cpWs3" id="63VjT6lWric" role="37wK5m">
-                    <node concept="3cpWs3" id="63VjT6lWrid" role="3uHU7B">
-                      <node concept="3cpWs3" id="63VjT6lWrie" role="3uHU7B">
-                        <node concept="3cpWs3" id="63VjT6lWrif" role="3uHU7B">
-                          <node concept="Xl_RD" id="63VjT6lWrig" role="3uHU7B">
-                            <property role="Xl_RC" value="TEC Problem: conclusion not found for ccHash " />
-                          </node>
-                          <node concept="37vLTw" id="63VjT6lWrih" role="3uHU7w">
-                            <ref role="3cqZAo" node="2DwOiMArh9K" resolve="ccHash" />
-                          </node>
-                        </node>
-                        <node concept="Xl_RD" id="63VjT6lWrii" role="3uHU7w">
-                          <property role="Xl_RC" value=" (contclsd? " />
-                        </node>
-                      </node>
-                      <node concept="37vLTw" id="63VjT6lWrij" role="3uHU7w">
-                        <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
-                      </node>
+                  <node concept="3cpWs3" id="7ZfE5kR0ljP" role="37wK5m">
+                    <node concept="37vLTw" id="7ZfE5kR0qM2" role="3uHU7w">
+                      <ref role="3cqZAo" node="4mX9Xggw9s3" resolve="currentConclusions" />
                     </node>
-                    <node concept="Xl_RD" id="63VjT6lWrik" role="3uHU7w">
-                      <property role="Xl_RC" value=") " />
+                    <node concept="3cpWs3" id="63VjT6lWric" role="3uHU7B">
+                      <node concept="3cpWs3" id="63VjT6lWrid" role="3uHU7B">
+                        <node concept="3cpWs3" id="63VjT6lWrie" role="3uHU7B">
+                          <node concept="3cpWs3" id="63VjT6lWrif" role="3uHU7B">
+                            <node concept="Xl_RD" id="63VjT6lWrig" role="3uHU7B">
+                              <property role="Xl_RC" value="TEC Problem: conclusion not found for ccHash " />
+                            </node>
+                            <node concept="37vLTw" id="63VjT6lWrih" role="3uHU7w">
+                              <ref role="3cqZAo" node="2DwOiMArh9K" resolve="ccHash" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="63VjT6lWrii" role="3uHU7w">
+                            <property role="Xl_RC" value=" (contclsd? " />
+                          </node>
+                        </node>
+                        <node concept="37vLTw" id="63VjT6lWrij" role="3uHU7w">
+                          <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
+                        </node>
+                      </node>
+                      <node concept="Xl_RD" id="63VjT6lWrik" role="3uHU7w">
+                        <property role="Xl_RC" value=") / " />
+                      </node>
                     </node>
                   </node>
                 </node>

@@ -3,14 +3,12 @@
 {% if act.visible %}
 <button {% if not act.enabled %} disabled {% endif %} formbut="true" type="button" 
         class="rightFCButton {% if act.hasText %} wideMin {% else %} narrowMin {% endif %}{% if act.enabled %} currentfg {% endif %}"
-        {% if act.enabled %} onClick="SelectAndExec('menu_{{ act.popupMenuId }}_0', 'trigger_{{ act.triggerCode }}', 'rightFC'); return false;" {% endif %}
-        > 
-<div class="labeldiv> 
-{% if act.hasImage %} <i class="material-icons"> {{ act.materialImgName }}</i> {% endif %}
- 
-<span class="label">
-{% if act.hasText %} {{ act.label }} {% endif %} 
-</span> </div> </button>
+        {% if act.enabled %} onClick="SelectAndExec('menu_{{ act.popupMenuId }}_0', 'trigger_{{ act.triggerCode }}', 'rightFC'); return false;" {% endif %}>
+<div class="labeldiv">
+{% if act.hasImage %} <i class="material-icons">{{ act.materialImgName|raw }}</i> {% endif %}
+    <span class="label">{% if act.hasText %} {{ act.label }} {% endif %} </span>
+</div>
+</button>
 {% endif %}
 {% endfor %}
 </div>

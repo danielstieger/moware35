@@ -5,19 +5,20 @@
 {% endblock content %}
 
 {% block footernav %}
+<!-- ui_command footernav -->
 {% for conc in conclusions %}
-{% if conc.visible %}
-	{% if conc.hotKey equals "UPD" %} 
+	<!-- {{ conc.label }}/{{ conc.materialImgName|raw }}  -- {{ conc.triggerCode }} {{ conc.enabled }} {{ conc.visible }} {{ conc.hotKey }} -->
+	{% if conc.visible and conc.hotKey equals "UPD" %}
 		<input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
-	{% else %}
+	{% elseif conc.visible %}
 		<button {% if conc.triggerCode equals 0 %} id="cancelbutton" {% elseif conc.hotKey equals "" %} id="NONE {{ conc.triggerCode }}" {% else %} id="{{ conc.hotKey }}_button" {% endif %}
-		        concbut="true" type="button"  onClick="SaveSubmit('conclusion_{{ conc.triggerCode }}'); return false;" 
-		        navicrtl="conclusion_{{ conc.triggerCode }}" class="wideMin {% if conc.enabled %}currentfg{% endif %}" {% if not conc.enabled %} disabled {% endif %}>
+				concbut="true" type="button"  onClick="SaveSubmit('conclusion_{{ conc.triggerCode }}'); return false;"
+				navicrtl="conclusion_{{ conc.triggerCode }}" class="wideMin {% if conc.enabled %}currentfg{% endif %}" {% if not conc.enabled %} disabled {% endif %}>
 		<div class="labeldiv">
-		{% if conc.materialImgName %} <i class="material-icons">{{ conc.materialImgName }}</i>{% endif %}
+		{% if conc.materialImgName %} <i class="material-icons">{{ conc.materialImgName|raw }}</i>{% endif %}
 		<span class="label">{{ conc.label }}</span>
 		</div></button>
 	{% endif %}
-{% endif %}
 {% endfor %}
+<!-- / ui_command footernav -->
 {% endblock %}
