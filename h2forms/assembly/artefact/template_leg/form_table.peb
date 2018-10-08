@@ -2,8 +2,6 @@
 	{% if act.enabled %} onClick="SelectAndExec('menu_{{ act.popupMenuId }}_{{ index }}', 'trigger_{{ act.triggerCode }}', 'TR_index');" navicrtl="trigger_{{ act.triggerCode }}" selectionid="menu_{{ act.popupMenuId }}_{{ index }}" {% endif %}
 {% endmacro %}
 
-
-
 <table> 
 {% for row in tableRows %}
 	{% for cell in row.cells %}
