@@ -1,9 +1,5 @@
-{% if titleText is not null %}
-<p> {{ titleText }} </p>
-{% endif %}
-{% if flagMessage is not null%}
-<p id="flagbeep" class="error">{{ flagMessage }}</p>
-{% endif %}
+{% if titleText is not null %} <p> {{ titleText }} </p> {% endif %}
+{% if flagText is not null%} <p id="flagbeep" class="error">{{ flagText }}</p> {% endif %}
 <ul>
 {% for dlgt in delegates %}
 <li> {{ dlgt.toHtml }}</li>

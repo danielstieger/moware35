@@ -257,7 +257,7 @@ td {
 table .lightpassive {
 	border-bottom: 3px solid lightgray;
 	border-left: 3px solid lightgray;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 
 table .lightactive {

@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <meta charset="ISO-8859-1">
-    <link rel="icon" href="{{ statics.staticContentUrlPrefix }}/mpreis.ico" />
+    <link rel="icon" href="{{ statics.staticContentUrlPrefix }}/img/favicon.ico" />
 
     <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/style.css{{ page.ncs }}"/>
 	{% if client equals "ZEBRAEB_TC" %}
@@ -48,7 +48,7 @@
 
             <h1 onclick="javascript: window.location=window.location;">
 			{% for chrumb in page.chrumbs %}
-                <div id="chrumbdiv{{ loop.index }}" style="background: {{ page.color }};"> {{ chrumb }} </div>
+                <div id="chrumbdiv{{ loop.index }}" {% if loop.index == 0 %}class="currentfg"{% endif %}> {{ chrumb }} </div>
 			{% endfor %}
             </h1>
         </header>

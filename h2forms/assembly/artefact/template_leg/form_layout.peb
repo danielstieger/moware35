@@ -15,7 +15,7 @@
     </div>
 {% endif %}
 
-{% if flagMessage is not null%} <p id="flagbeep" class="error">{{ flagMessage }}</p> {% endif %}
+{% if flagText is not null%} <p id="flagbeep" class="error">{{ flagText }}</p> {% endif %}
 {% for form in children %}
     {{ form.toHtml }}
 {% endfor %}
