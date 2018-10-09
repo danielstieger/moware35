@@ -1089,7 +1089,7 @@
             <node concept="3clFbS" id="3Lpsq4dDF23" role="9aQI4">
               <node concept="3SKdUt" id="3Lpsq4dDUKr" role="3cqZAp">
                 <node concept="3SKdUq" id="3Lpsq4dDUKt" role="3SKWNk">
-                  <property role="3SKdUp" value="be more generous ... " />
+                  <property role="3SKdUp" value="be more generous ... and log template problems .. " />
                 </node>
               </node>
               <node concept="SfApY" id="3Lpsq4dDtHo" role="3cqZAp">
