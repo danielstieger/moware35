@@ -3592,12 +3592,7 @@
         <node concept="3clFbH" id="7ZfE5kQXMKD" role="3cqZAp" />
         <node concept="3SKdUt" id="19VJYqAxgXq" role="3cqZAp">
           <node concept="3SKdUq" id="19VJYqAxgXs" role="3SKWNk">
-            <property role="3SKdUp" value="legacy zebra enterprise-browser support" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="6jihzUGN49s" role="3cqZAp">
-          <node concept="3SKdUq" id="6jihzUGN49u" role="3SKWNk">
-            <property role="3SKdUp" value="default is false" />
+            <property role="3SKdUp" value="legacy zebra enterprise-browser support, determine conclusions etc.. " />
           </node>
         </node>
         <node concept="3clFbJ" id="19VJYqAvokb" role="3cqZAp">

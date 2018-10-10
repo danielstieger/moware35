@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> {{ statics.applicationName }} </title>
+    <title> {{ statics.applicationName }} {{ client.device }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,7 +13,7 @@
     <link rel="icon" href="{{ statics.staticContentUrlPrefix }}/img/favicon.ico" />
 
     <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/style.css{{ page.ncs }}"/>
-	{% if client equals "ZEBRAEB_TC" %}
+	{% if client.device equals "ZEBRAEB_TC" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>

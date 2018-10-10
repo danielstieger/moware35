@@ -6,6 +6,10 @@
 
 {% block footernav %}
 <!-- ui_command footernav -->
+{% if keyboard %}
+{% include "./keyboard.peb" %}
+{% else %}
+
 {% for conc in conclusions %}
 	{% if conc.visible and conc.hotKey equals "UPD" %}
 		<input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
@@ -19,5 +23,7 @@
 		</div></button>
 	{% endif %}
 {% endfor %}
+
+{% endif %}
 <!-- / ui_command footernav -->
 {% endblock %}
