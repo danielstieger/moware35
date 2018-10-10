@@ -10200,58 +10200,22 @@
       </node>
     </node>
     <node concept="2tJIrI" id="18nf27m5MzO" role="jymVt" />
-    <node concept="3clFb_" id="3nLGOmWrOyj" role="jymVt">
-      <property role="TrG5h" value="internal_shutdown" />
-      <node concept="3cqZAl" id="3nLGOmWrOzJ" role="3clF45" />
-      <node concept="3Tm1VV" id="3nLGOmWrOyl" role="1B3o_S" />
-      <node concept="3clFbS" id="3nLGOmWrOym" role="3clF47">
-        <node concept="3SKdUt" id="50$EOT97zOi" role="3cqZAp">
-          <node concept="3SKdUq" id="50$EOT97zR1" role="3SKWNk">
-            <property role="3SKdUp" value="double check running tabs? free locks etc? " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="50$EOT993gf" role="3cqZAp">
-          <node concept="3SKdUq" id="50$EOT993iH" role="3SKWNk">
-            <property role="3SKdUp" value="(1) typically exitRequested() is called on user exits" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="50$EOT993oA" role="3cqZAp">
-          <node concept="3SKdUq" id="50$EOT993r6" role="3SKWNk">
-            <property role="3SKdUp" value="(2) iteration over open command containers closes CommandContainers and in turn " />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="50$EOT993$N" role="3cqZAp">
-          <node concept="3SKdUq" id="50$EOT993BP" role="3SKWNk">
-            <property role="3SKdUp" value="    calls closeTabs() which reduces the elements in runningTabCommandContainers. " />
-          </node>
-        </node>
-        <node concept="3clFbH" id="4XCrhc0WA91" role="3cqZAp" />
-        <node concept="3SKdUt" id="50$EOT994qA" role="3cqZAp">
-          <node concept="3SKdUq" id="50$EOT994qB" role="3SKWNk">
-            <property role="3SKdUp" value="disable delivery of events." />
-          </node>
-        </node>
-        <node concept="3clFbF" id="50$EOT994qC" role="3cqZAp">
-          <node concept="37vLTI" id="50$EOT994qD" role="3clFbG">
-            <node concept="3clFbT" id="50$EOT994qE" role="37vLTx">
-              <property role="3clFbU" value="true" />
-            </node>
-            <node concept="37vLTw" id="50$EOT994qF" role="37vLTJ">
-              <ref role="3cqZAo" node="7Mah_ahoYa7" resolve="shutdownMode" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="zBgVaCXfqh" role="3cqZAp">
-          <node concept="37vLTI" id="zBgVaCXfFJ" role="3clFbG">
-            <node concept="3clFbT" id="zBgVaCXfUX" role="37vLTx">
+    <node concept="3clFb_" id="5qqOeaP__9v" role="jymVt">
+      <property role="TrG5h" value="internal_closeAllRunningCmds" />
+      <node concept="3cqZAl" id="5qqOeaP__9x" role="3clF45" />
+      <node concept="3Tm1VV" id="5qqOeaP__9y" role="1B3o_S" />
+      <node concept="3clFbS" id="5qqOeaP__9z" role="3clF47">
+        <node concept="3clFbF" id="5qqOeaP_Ogr" role="3cqZAp">
+          <node concept="37vLTI" id="5qqOeaP_OvA" role="3clFbG">
+            <node concept="3clFbT" id="5qqOeaP_O$D" role="37vLTx">
               <property role="3clFbU" value="false" />
             </node>
-            <node concept="37vLTw" id="zBgVaCXfqf" role="37vLTJ">
+            <node concept="37vLTw" id="5qqOeaP_Ogq" role="37vLTJ">
               <ref role="3cqZAo" node="7Mah_ahZprA" resolve="deliverTabChangeFocusEvent" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="zBgVaCXfXk" role="3cqZAp" />
+        <node concept="3clFbH" id="5qqOeaP_Q7s" role="3cqZAp" />
         <node concept="3clFbJ" id="3spXEPYHXyG" role="3cqZAp">
           <node concept="3clFbS" id="3spXEPYHXyI" role="3clFbx">
             <node concept="3clFbF" id="3spXEPYHY$b" role="3cqZAp">
@@ -10264,8 +10228,8 @@
                   <node concept="2ShNRf" id="2o7h3aDZ4Wi" role="37wK5m">
                     <node concept="1pGfFk" id="2o7h3aDZ58G" role="2ShVmc">
                       <ref role="37wK5l" node="zBgVaD6kfk" resolve="CancelNoDlgEvent" />
-                      <node concept="Xl_RD" id="2o7h3aDZ5cw" role="37wK5m">
-                        <property role="Xl_RC" value="Application Shutdown" />
+                      <node concept="Xl_RD" id="5qqOeaP_QJw" role="37wK5m">
+                        <property role="Xl_RC" value="Requested close all cmds" />
                       </node>
                     </node>
                   </node>
@@ -10314,7 +10278,7 @@
                         <node concept="1pGfFk" id="2o7h3aDZ5OC" role="2ShVmc">
                           <ref role="37wK5l" node="zBgVaD6kfk" resolve="CancelNoDlgEvent" />
                           <node concept="Xl_RD" id="2o7h3aDZ5R8" role="37wK5m">
-                            <property role="Xl_RC" value="Application Shutdown" />
+                            <property role="Xl_RC" value="Requested close all cmds" />
                           </node>
                         </node>
                       </node>
@@ -10346,7 +10310,67 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6zVU6_jtnBW" role="3cqZAp" />
+        <node concept="3clFbH" id="5qqOeaP_OGT" role="3cqZAp" />
+        <node concept="3clFbF" id="5qqOeaP_OX9" role="3cqZAp">
+          <node concept="37vLTI" id="5qqOeaP_P4H" role="3clFbG">
+            <node concept="3clFbT" id="5qqOeaP_P9K" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="5qqOeaP_OX7" role="37vLTJ">
+              <ref role="3cqZAo" node="7Mah_ahZprA" resolve="deliverTabChangeFocusEvent" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="3nLGOmWrOyj" role="jymVt">
+      <property role="TrG5h" value="internal_shutdown" />
+      <node concept="3cqZAl" id="3nLGOmWrOzJ" role="3clF45" />
+      <node concept="3Tm1VV" id="3nLGOmWrOyl" role="1B3o_S" />
+      <node concept="3clFbS" id="3nLGOmWrOym" role="3clF47">
+        <node concept="3SKdUt" id="50$EOT97zOi" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT97zR1" role="3SKWNk">
+            <property role="3SKdUp" value="double check running tabs? free locks etc? " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="50$EOT993gf" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT993iH" role="3SKWNk">
+            <property role="3SKdUp" value="(1) typically exitRequested() is called on user exits" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="50$EOT993oA" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT993r6" role="3SKWNk">
+            <property role="3SKdUp" value="(2) iteration over open command containers closes CommandContainers and in turn " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="50$EOT993$N" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT993BP" role="3SKWNk">
+            <property role="3SKdUp" value="    calls closeTabs() which reduces the elements in runningTabCommandContainers. " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4XCrhc0WA91" role="3cqZAp" />
+        <node concept="3SKdUt" id="50$EOT994qA" role="3cqZAp">
+          <node concept="3SKdUq" id="50$EOT994qB" role="3SKWNk">
+            <property role="3SKdUp" value="disable delivery of events." />
+          </node>
+        </node>
+        <node concept="3clFbF" id="50$EOT994qC" role="3cqZAp">
+          <node concept="37vLTI" id="50$EOT994qD" role="3clFbG">
+            <node concept="3clFbT" id="50$EOT994qE" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="50$EOT994qF" role="37vLTJ">
+              <ref role="3cqZAo" node="7Mah_ahoYa7" resolve="shutdownMode" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5qqOeaP_R5_" role="3cqZAp" />
+        <node concept="3clFbF" id="5qqOeaP_RDY" role="3cqZAp">
+          <node concept="1rXfSq" id="5qqOeaP_RDW" role="3clFbG">
+            <ref role="37wK5l" node="5qqOeaP__9v" resolve="internal_closeAllRunningCmds" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="5qqOeaP_QNk" role="3cqZAp" />
         <node concept="3clFbJ" id="6zVU6_j$vj1" role="3cqZAp">
           <node concept="3clFbS" id="6zVU6_j$vj3" role="3clFbx">
             <node concept="3clFbF" id="6zVU6_jts10" role="3cqZAp">
@@ -22363,20 +22387,14 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="27BPRG5FUtW" role="jymVt" />
+    <node concept="2tJIrI" id="5qqOeaPDE3A" role="jymVt" />
     <node concept="3clFb_" id="5YG5DD8Xvbe" role="jymVt">
       <property role="TrG5h" value="closeReporting" />
       <node concept="3cqZAl" id="5YG5DD8Xvbg" role="3clF45" />
       <node concept="3Tm1VV" id="5YG5DD8Xvbh" role="1B3o_S" />
       <node concept="3clFbS" id="5YG5DD8Xvbi" role="3clF47">
-        <node concept="3clFbJ" id="5YG5DD8Xzpq" role="3cqZAp">
-          <node concept="3y3z36" id="5YG5DD8Xztp" role="3clFbw">
-            <node concept="10Nm6u" id="5YG5DD8XzuA" role="3uHU7w" />
-            <node concept="37vLTw" id="4n24ZlEyhhT" role="3uHU7B">
-              <ref role="3cqZAo" node="5YG5DD8XsQp" resolve="jmxRegHelper" />
-            </node>
-          </node>
-          <node concept="3clFbS" id="5YG5DD8Xzps" role="3clFbx">
+        <node concept="3clFbJ" id="5qqOeaPDZns" role="3cqZAp">
+          <node concept="3clFbS" id="5qqOeaPDZnu" role="3clFbx">
             <node concept="3clFbF" id="4z69JWeXMo_" role="3cqZAp">
               <node concept="1rXfSq" id="4z69JWeXMrO" role="3clFbG">
                 <ref role="37wK5l" node="2ppo89mf7gS" resolve="logEvent" />
@@ -22403,11 +22421,17 @@
               </node>
             </node>
           </node>
+          <node concept="3y3z36" id="5qqOeaPDZvG" role="3clFbw">
+            <node concept="10Nm6u" id="5qqOeaPDZyZ" role="3uHU7w" />
+            <node concept="37vLTw" id="5qqOeaPDZse" role="3uHU7B">
+              <ref role="3cqZAo" node="5YG5DD8XsQp" resolve="jmxRegHelper" />
+            </node>
+          </node>
         </node>
-        <node concept="3clFbF" id="5YG5DD8XzLg" role="3cqZAp">
-          <node concept="37vLTI" id="5YG5DD8XzNQ" role="3clFbG">
-            <node concept="10Nm6u" id="5YG5DD8XzPn" role="37vLTx" />
-            <node concept="37vLTw" id="5YG5DD8XzLe" role="37vLTJ">
+        <node concept="3clFbF" id="5qqOeaPDZMt" role="3cqZAp">
+          <node concept="37vLTI" id="5qqOeaPDZVh" role="3clFbG">
+            <node concept="10Nm6u" id="5qqOeaPDZY$" role="37vLTx" />
+            <node concept="37vLTw" id="5qqOeaPDZMr" role="37vLTJ">
               <ref role="3cqZAo" node="5YG5DD8XsQp" resolve="jmxRegHelper" />
             </node>
           </node>

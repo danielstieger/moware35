@@ -7,7 +7,6 @@
 {% block footernav %}
 <!-- ui_command footernav -->
 {% for conc in conclusions %}
-	<!-- {{ conc.label }}/{{ conc.materialImgName|raw }}  -- {{ conc.triggerCode }} {{ conc.enabled }} {{ conc.visible }} {{ conc.hotKey }} -->
 	{% if conc.visible and conc.hotKey equals "UPD" %}
 		<input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
 	{% elseif conc.visible %}

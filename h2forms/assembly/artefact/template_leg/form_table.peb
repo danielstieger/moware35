@@ -23,7 +23,7 @@
 		
 		<td colspan="{{ cell.size }}" {% if cell.closeRow %}class="lastcell"{% endif %}
 			{% if cell.color is not null %}style="font-weight: 500; color: {{ cell.color }};"{% endif %}>{{ cell.content }}</td>
-		
+
 		{% if cell.closeRow %}
 			</tr>
 		{% endif %}
