@@ -571,18 +571,28 @@
                   <node concept="3clFbS" id="2qcR1OS0xC0" role="1bW5cS">
                     <node concept="3clFbF" id="2qcR1OS0xEK" role="3cqZAp">
                       <node concept="2OqwBi" id="2qcR1OS0xYv" role="3clFbG">
-                        <node concept="2OqwBi" id="2qcR1OS0xIC" role="2Oq$k0">
-                          <node concept="37vLTw" id="2qcR1OS0xEJ" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2qcR1OS0xC1" resolve="it" />
+                        <node concept="2OqwBi" id="4uXwdwFtHUS" role="2Oq$k0">
+                          <node concept="2OqwBi" id="2qcR1OS0xIC" role="2Oq$k0">
+                            <node concept="37vLTw" id="2qcR1OS0xEJ" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2qcR1OS0xC1" resolve="it" />
+                            </node>
+                            <node concept="3TrcHB" id="2qcR1OS0xPT" role="2OqNvi">
+                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                            </node>
                           </node>
-                          <node concept="3TrcHB" id="2qcR1OS0xPT" role="2OqNvi">
-                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          <node concept="liA8E" id="4uXwdwFtId3" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
                           </node>
                         </node>
                         <node concept="liA8E" id="2qcR1OS0ycW" role="2OqNvi">
                           <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                          <node concept="37vLTw" id="2qcR1OS0yhC" role="37wK5m">
-                            <ref role="3cqZAo" node="2qcR1OS0vJe" resolve="labelName" />
+                          <node concept="2OqwBi" id="4uXwdwFtIoz" role="37wK5m">
+                            <node concept="37vLTw" id="2qcR1OS0yhC" role="2Oq$k0">
+                              <ref role="3cqZAo" node="2qcR1OS0vJe" resolve="labelName" />
+                            </node>
+                            <node concept="liA8E" id="4uXwdwFtIFB" role="2OqNvi">
+                              <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                            </node>
                           </node>
                         </node>
                       </node>
