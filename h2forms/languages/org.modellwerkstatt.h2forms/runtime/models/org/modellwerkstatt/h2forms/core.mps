@@ -372,6 +372,16 @@
       <node concept="17QB3L" id="2eK$oa4aNp3" role="1tU5fm" />
       <node concept="3Tm6S6" id="2eK$oa4aIVX" role="1B3o_S" />
       <node concept="Xl_RD" id="2eK$oa4aQg4" role="33vP2m">
+        <property role="Xl_RC" value="UTF-8" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="4uXwdwF$iN5" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="OLD_CHARSET__ISO_ZEBRA" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="4uXwdwF$iN6" role="1tU5fm" />
+      <node concept="3Tm6S6" id="4uXwdwF$iN7" role="1B3o_S" />
+      <node concept="Xl_RD" id="4uXwdwF$iN8" role="33vP2m">
         <property role="Xl_RC" value="ISO-8859-1" />
       </node>
     </node>

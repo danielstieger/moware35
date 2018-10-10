@@ -7982,18 +7982,23 @@
                   <ref role="3cqZAo" node="7ZfE5kQZLEs" resolve="selected" />
                 </node>
                 <node concept="2OqwBi" id="7ZfE5kQZLE$" role="37vLTx">
-                  <node concept="2OqwBi" id="7ZfE5kQZLE_" role="2Oq$k0">
-                    <node concept="37vLTw" id="7ZfE5kQZMwV" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6nF$iZDK$eM" resolve="items" />
-                    </node>
-                    <node concept="34jXtK" id="7ZfE5kQZLEB" role="2OqNvi">
-                      <node concept="37vLTw" id="7ZfE5kQZLEC" role="25WWJ7">
-                        <ref role="3cqZAo" node="7ZfE5kQZLFA" resolve="i" />
+                  <node concept="2OqwBi" id="4uXwdwFxlEg" role="2Oq$k0">
+                    <node concept="2OqwBi" id="7ZfE5kQZLE_" role="2Oq$k0">
+                      <node concept="37vLTw" id="7ZfE5kQZMwV" role="2Oq$k0">
+                        <ref role="3cqZAo" node="6nF$iZDK$eM" resolve="items" />
                       </node>
+                      <node concept="34jXtK" id="7ZfE5kQZLEB" role="2OqNvi">
+                        <node concept="37vLTw" id="7ZfE5kQZLEC" role="25WWJ7">
+                          <ref role="3cqZAo" node="7ZfE5kQZLFA" resolve="i" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OwXpG" id="4uXwdwFxlOh" role="2OqNvi">
+                      <ref role="2Oxat5" node="7ZfE5kQYsSQ" resolve="label" />
                     </node>
                   </node>
                   <node concept="liA8E" id="7ZfE5kQZLED" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
                     <node concept="37vLTw" id="7ZfE5kQZLEE" role="37wK5m">
                       <ref role="3cqZAo" node="6nF$iZDJ3R8" resolve="value" />
                     </node>
