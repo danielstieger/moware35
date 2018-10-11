@@ -13,12 +13,12 @@ var $$ = function (query) { return document.querySelectorAll(query); };
 
 
 
-var zVersion = 'TC R48';
+var zVersion = 'TC MRS';
 var lastSubmitTrace = '';
 var lastSequenceIDSubmitted = 0;
 var lastMillisSubmitted = 0;
 var startupMillis = Date.now();
-console.log('H2 the beginning of js file');
+logDebug('H2 the beginning of js file');
 var navigationDisabled = false;
 
 function incProgress() {
@@ -31,7 +31,7 @@ function incProgress() {
 	window.name = '' + val;
 	$('input[name="Progressor"]').value = window.name;
 	$('#dbgFld').innerHTML = zVersion + '/' + window.name;
-	console.log('H2 WatchDog: seq: ' + lastSequenceIDSubmitted + ' dgbFld: ' +  $('#dbgFld').innerHTML);
+	logDebug('H2 WatchDog: seq: ' + lastSequenceIDSubmitted + ' dgbFld: ' +  $('#dbgFld').innerHTML);
 }
 
 function moLog(s) {
@@ -72,7 +72,7 @@ function disableScan(){
 			$('#scanSoftButton').disabled = true;
 
 		} catch(err) {
-			console.log('disableScan() ' + err);
+			logDebug('disableScan() ' + err);
 		}
 	}
 }
@@ -86,7 +86,7 @@ function scanReceived(params){
 
 	disableScan();
 	disableNavigation();
-	console.log('H2 scanReceived() sequencId: ' + $('form').SequenceId.value + ' conclusion: ' + conclusion);
+	logDebug('H2 scanReceived() sequencId: ' + $('form').SequenceId.value + ' conclusion: ' + conclusion);
 
 	myfocusOnElement(null);
 
@@ -110,6 +110,7 @@ function enableScan(){
 				gs1dataBarLimited:true,
 				pdf417:true,
 				qrCode:true,
+				dataMatrix:true,
 				/* upcEanSupplemental5:true, 
 				upcEanSupplemental2:true,
 				upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO, */
@@ -120,7 +121,7 @@ function enableScan(){
 			$('#scanSoftButton').disabled = false;
 
 		} catch(err) {
-			console.log('enableScan() ' + err);
+			logDebug('enableScan() ' + err);
 		}
 
 	} else {
@@ -150,7 +151,7 @@ function SelectAndExec(selectionstr, valstr, eventSource){
 
 	disableScan();
 	disableNavigation();
-	console.log('H2 SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr);
+	logDebug('H2 SelectAndExec() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr + ' slection: ' + selectionstr);
 	myfocusOnElement(null);
 	noteTrace('' + eventSource);
 	internVibrate(100);
@@ -173,7 +174,7 @@ function SaveSubmit(valstr){
 
 	disableScan();
  	disableNavigation();
-	console.log('H2 SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr);
+	logDebug('H2 SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' navicrtl: ' + valstr);
  	noteTrace('SaveSubmit()');
  	internVibrate(100);
 
@@ -181,7 +182,7 @@ function SaveSubmit(valstr){
  	incProgress();
 	myfocusOnElement(null);
 	if (valstr.indexOf('/') >= 0) {
-		console.log('H2 SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr);
+		logDebug('H2 SaveSubmit() sequencId: ' + $('form').SequenceId.value + ' window.location: ' + valstr);
 		window.location = valstr;
 
 	} else {
@@ -197,7 +198,7 @@ function internVibrate(t) {
 	try {
 		EB.Notification.vibrate(t);
 	} catch(err) {
-		console.log('internVibrate() ' + err);
+		logDebug('internVibrate() ' + err);
 	}
 }
 
@@ -208,12 +209,12 @@ function flagBeep(t) {
 	EB.Notification.vibrate(t);
 
   } catch(err) {
-  	console.log('flagBeep() ' + err);
+  	logDebug('flagBeep() ' + err);
   }
 }
 
 function nextEnabledOrDefaultButton(currentIndex) {
-	// console.log('nextEnabledOrDefaultButton(' + currentIndex + ')');
+	// logDebug('nextEnabledOrDefaultButton(' + currentIndex + ')');
 
 
 	var elemEditorIndex = parseInt(currentIndex) + 1;
@@ -330,7 +331,7 @@ function myfocusOnElement(elem) {
 
 document.addEventListener('DOMContentLoaded', function() {
 
-	console.log('H2 DOMContentLoaded(): start');
+	logDebug('H2 DOMContentLoaded(): start');
 
 	lastSequenceIDSubmitted = 0;
 	lastMillisSubmitted = 0;
@@ -343,10 +344,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	   $('form').PageTmpValue.value = '1';
 
 	} else {
-       console.log('H2 DOMContentLoaded() submitting due to PageTmpValue not 0!');
+       logDebug('H2 DOMContentLoaded() submitting due to PageTmpValue not 0!');
        $('form').SequenceId.value = '' + parseInt($('form').SequenceId.value) + 1;
 	   $('form').DebugInformation.value = 'Browser Back Button pressed';
-	   /* SaveSubmit('conclusion_0'); */
+	   SaveSubmit('conclusion_0');
 	}
 
   	try {
@@ -364,7 +365,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		wake.wifiLock = 'enabled';  */
 
 	} catch(err) {
-		console.log('addEventListener_DOMContentLoaded() ' + err);
+		logDebug('addEventListener_DOMContentLoaded() ' + err);
 
 	}
 
@@ -469,7 +470,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	mykeyboardEnabled(true);
 	setInterval(incProgress, 20000);
 	incProgress();
-	console.log('H2 DOMContentLoaded(): .... .... .... done');
+	logDebug('H2 DOMContentLoaded(): .... .... .... done');
 });
 
 function noteTrace(source) {

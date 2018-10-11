@@ -4,16 +4,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> {{ statics.applicationName }} {{ client.device }}</title>
+    <title> {{ statics.applicationName }} {{ client.device }}/{{ client.debug }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
 
     <link rel="icon" href="{{ statics.staticContentUrlPrefix }}/img/favicon.ico" />
-
     <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/style.css{{ page.ncs }}"/>
-	{% if client.device equals "ZEBRAEB_TC" %}
+
+    {% if client.debug %}
+        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/sockjs.min.js{{ page.ncs }}"></script>
+        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/vertx-eventbus.min.js{{ page.ncs }}"></script>
+    {% endif %}
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/debug.js{{ page.ncs }}"></script>
+
+    {% if client.device equals "ZEBRAEB_TC" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
@@ -22,11 +28,17 @@
 	{% else %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/otherh2forms.js{{ page.ncs }}"></script>
 	{% endif %}
+
+
     <style media="screen" type="text/css">
         .currentfg { background: {{ defCol(page.color) }} !important; }
         input, textarea, select { border-bottom-color: {{ defCol(page.color) }}; }
         table .lightactive { border-color: {{ defCol(page.color) }} ; }
     </style>
+
+    <script>
+        initLogging({{ client.username }}, {{ statics.clientDebugEventBusServerName }});
+    </script>
 </head>
 
 
@@ -58,15 +70,15 @@
             <div class="contentTop"  editorIndex="-1"></div>
  			{% if message is not null %}
                 {% if message.infoSmall or message.userQuestion or message.errorSmall %}
-                    <p id="errorbeep" class="error">{{ message.heading }}: {{ message.textBr }} </p>
+                    <p id="errorbeep" class="error">{{ message.heading }}: {{ message.textBr | raw}} </p>
 
                 {% elseif message.errorLarge is not null %}
                     <p id="errorbeep"> {{ message.heading }} <br/>
-                    <pre> <code> {{ message.text }} </code> </pre>
+                    <pre> <code> {{ message.text | raw }} </code> </pre>
                     <br/><br/><br/>
                     </p>
                 {% else%}
-                    <p class="info"> {{ message.textBr }}  </p>
+                    <p class="info"> {{ message.textBr | raw }}  </p>
     			{% endif %}
 			{% endif %}
 
