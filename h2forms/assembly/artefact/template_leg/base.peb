@@ -13,12 +13,6 @@
     <link rel="icon" href="{{ statics.staticContentUrlPrefix }}/img/favicon.ico" />
     <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/style.css{{ page.ncs }}"/>
 
-    {% if client.debug %}
-        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/sockjs.min.js{{ page.ncs }}"></script>
-        <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/vertx-eventbus.min.js{{ page.ncs }}"></script>
-    {% endif %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/debug.js{{ page.ncs }}"></script>
-
     {% if client.device equals "ZEBRAEB_TC" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
@@ -35,10 +29,14 @@
         input, textarea, select { border-bottom-color: {{ defCol(page.color) }}; }
         table .lightactive { border-color: {{ defCol(page.color) }} ; }
     </style>
-
-    <script>
-        initLogging({{ client.username }}, {{ statics.clientDebugEventBusServerName }});
-    </script>
+    {% if client.debug %}
+        <script>
+            var clientDebugEnabled = true;
+            var clientDebugUserName = '{{ client.username }}';
+            var clientDebugUserId = {{ client.userid }};
+            var clientDebugServerName = '{{ statics.clientDebugEventBusServerName }}';
+        </script>
+    {% endif %}
 </head>
 
 

@@ -18,7 +18,6 @@ var lastSubmitTrace = '';
 var lastSequenceIDSubmitted = 0;
 var lastMillisSubmitted = 0;
 var startupMillis = Date.now();
-logDebug('H2 the beginning of js file');
 var navigationDisabled = false;
 
 function incProgress() {
@@ -40,6 +39,30 @@ function moLog(s) {
 	$('#dbgFld').innerHTML = curLog;
 }
 
+function logDebug(msg) {
+	if (typeof clientDebugEnabled !== 'undefined') {
+		var params = {
+ 			'userName': clientDebugUserName, 
+ 			'userId': clientDebugUserId,
+ 			'message': msg,
+ 			'millis': new Date().getTime()
+ 		}
+	
+    	// log to remote server
+    	var start = new Date().getTime();
+    	var oReq = new XMLHttpRequest();
+    	oReq.onreadystatechange = function() {
+  			/* console.log('XMLHttpRequest state:' + this.status + ' / ' + this.responseText); */
+  		};
+  		oReq.open("GET", "http://" + clientDebugServerName + "/detaillog" + formatUrlParams(params), true);
+  		oReq.send();
+		moLog('t: ' + (new Date().getTime() - start));
+		
+	} else {
+		console.log(msg);
+	}
+	
+}
 
 function disableNavigation() {
 	navigationDisabled = true;

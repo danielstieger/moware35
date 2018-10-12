@@ -44166,11 +44166,18 @@
   <node concept="3HP615" id="7HkVpVbXei3">
     <property role="TrG5h" value="IMoEventBusService" />
     <node concept="3clFb_" id="57ov2SWJWO" role="jymVt">
-      <property role="TrG5h" value="getServerNameAndPort" />
+      <property role="TrG5h" value="getServerName" />
       <property role="1EzhhJ" value="true" />
       <node concept="17QB3L" id="57ov2SWMyS" role="3clF45" />
       <node concept="3Tm1VV" id="57ov2SWJWR" role="1B3o_S" />
       <node concept="3clFbS" id="57ov2SWJWS" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="1xk$udu7j$O" role="jymVt">
+      <property role="TrG5h" value="getServerPort" />
+      <property role="1EzhhJ" value="true" />
+      <node concept="10Oyi0" id="1xk$udu7xlY" role="3clF45" />
+      <node concept="3Tm1VV" id="1xk$udu7j$Q" role="1B3o_S" />
+      <node concept="3clFbS" id="1xk$udu7j$R" role="3clF47" />
     </node>
     <node concept="3clFb_" id="7HkVpVbXeIe" role="jymVt">
       <property role="1EzhhJ" value="true" />

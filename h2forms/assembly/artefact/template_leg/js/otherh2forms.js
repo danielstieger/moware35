@@ -30,6 +30,39 @@ function moLog(s) {
 	$('#dbgFld').innerHTML = curLog;
 }
 
+function formatUrlParams( params ){
+  return "?" + Object
+        .keys(params)
+        .map(function(key){
+          return key+"="+encodeURIComponent(params[key])
+        })
+        .join("&")
+}
+
+function logDebug(msg) {
+	if (typeof clientDebugEnabled !== 'undefined') {
+		var params = {
+ 			'userName': clientDebugUserName, 
+ 			'userId': clientDebugUserId,
+ 			'message': msg,
+ 			'millis': new Date().getTime()
+ 		}
+	
+    	// log to remote server
+    	var start = new Date().getTime();
+    	var oReq = new XMLHttpRequest();
+    	oReq.onreadystatechange = function() {
+  			console.log('XMLHttpRequest state:' + this.status + ' / ' + this.responseText);
+  		
+  		};
+  		oReq.open("GET", "http://" + clientDebugServerName + "/detaillog" + formatUrlParams(params), false);
+  		oReq.send();
+		moLog('t: ' + (new Date().getTime() - start));
+		
+	} else {
+		console.log(msg);
+	}
+}
 
 function disableNavigation() {
 	var btns = $$('button');
@@ -395,4 +428,5 @@ document.addEventListener('DOMContentLoaded', function() {
 	
 	incProgress();
 	setInterval(incProgress, 60000);
+	logDebug('DOMContentLoaded event processed ...'); 
 }); 
