@@ -244,6 +244,7 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -2707,13 +2708,28 @@
                   </node>
                 </node>
               </node>
-              <node concept="3fqX7Q" id="6vtMBToeiwZ" role="3clFbw">
-                <node concept="2OqwBi" id="6vtMBToeix0" role="3fr31v">
-                  <node concept="37vLTw" id="6vtMBToeix1" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6vtMBToeix3" resolve="e" />
+              <node concept="1Wc70l" id="77ARxvv0b0R" role="3clFbw">
+                <node concept="3fqX7Q" id="77ARxvv0ezx" role="3uHU7w">
+                  <node concept="2OqwBi" id="77ARxvv0ffN" role="3fr31v">
+                    <node concept="37vLTw" id="77ARxvv0f9y" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5WxVUBBycx3" resolve="result" />
+                    </node>
+                    <node concept="liA8E" id="77ARxvv0fx9" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~List.contains(java.lang.Object):boolean" resolve="contains" />
+                      <node concept="37vLTw" id="77ARxvv0f$P" role="37wK5m">
+                        <ref role="3cqZAo" node="6vtMBToeix3" resolve="e" />
+                      </node>
+                    </node>
                   </node>
-                  <node concept="liA8E" id="6vtMBToeix2" role="2OqNvi">
-                    <ref role="37wK5l" node="2P7gGuymjAw" resolve="getReadOnly" />
+                </node>
+                <node concept="3fqX7Q" id="6vtMBToeiwZ" role="3uHU7B">
+                  <node concept="2OqwBi" id="6vtMBToeix0" role="3fr31v">
+                    <node concept="37vLTw" id="6vtMBToeix1" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6vtMBToeix3" resolve="e" />
+                    </node>
+                    <node concept="liA8E" id="6vtMBToeix2" role="2OqNvi">
+                      <ref role="37wK5l" node="2P7gGuymjAw" resolve="getReadOnly" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -2874,13 +2890,28 @@
                   </node>
                 </node>
               </node>
-              <node concept="3fqX7Q" id="6vtMBToejcd" role="3clFbw">
-                <node concept="2OqwBi" id="6vtMBToejce" role="3fr31v">
-                  <node concept="37vLTw" id="6vtMBToejcf" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6vtMBToejch" resolve="e" />
+              <node concept="1Wc70l" id="77ARxvv0fDY" role="3clFbw">
+                <node concept="3fqX7Q" id="6vtMBToejcd" role="3uHU7B">
+                  <node concept="2OqwBi" id="6vtMBToejce" role="3fr31v">
+                    <node concept="37vLTw" id="6vtMBToejcf" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6vtMBToejch" resolve="e" />
+                    </node>
+                    <node concept="liA8E" id="6vtMBToejcg" role="2OqNvi">
+                      <ref role="37wK5l" node="2P7gGuymjAw" resolve="getReadOnly" />
+                    </node>
                   </node>
-                  <node concept="liA8E" id="6vtMBToejcg" role="2OqNvi">
-                    <ref role="37wK5l" node="2P7gGuymjAw" resolve="getReadOnly" />
+                </node>
+                <node concept="3fqX7Q" id="77ARxvv0fGk" role="3uHU7w">
+                  <node concept="2OqwBi" id="77ARxvv0fGl" role="3fr31v">
+                    <node concept="37vLTw" id="77ARxvv0fGm" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5WxVUBByA1G" resolve="result" />
+                    </node>
+                    <node concept="liA8E" id="77ARxvv0fGn" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~List.contains(java.lang.Object):boolean" resolve="contains" />
+                      <node concept="37vLTw" id="77ARxvv0fGo" role="37wK5m">
+                        <ref role="3cqZAo" node="6vtMBToejch" resolve="e" />
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
