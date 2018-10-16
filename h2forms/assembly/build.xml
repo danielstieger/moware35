@@ -19,7 +19,12 @@
 -->
  
 <project name="MdeApplication" default="default">      
-  <include file="../../objectflow/assembly/bmoware.xml" as="moware"/>
+  
+  <!-- **** include files setup **************************************************************** -->
+  <property name="mowareMpsHomeDir"     value="/Users/DanielStieger/javaexe/MPS335" />
+  <include file="../../objectflow/assembly/bmoware.xml" as="bmoware"/>
+  <include file="../../objectflow/assembly/moware.xml" as="moware"/>
+
 
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
@@ -28,9 +33,9 @@
   <property name="appConfiguration"     value="org/modellwerkstatt/simple/baseApp/MdeConfig.xml" /> 
   <property name="appHomeScreen"        value="${appName}" />
     
-  <!-- **** build specific definitions ************************************************************** -->
-  <property name="mpsHomeDir"            value="${buildUserHome}/javaexe/MPS335" /> 
-  <property name="tomcatHomeDir"         value="/Users/danielstieger/stuff/green" /> 
+  <property name="tomcatHomeDir"        value="/Users/danielstieger/stuff/green" /> 
+ 
+ 
         
   <!-- **** solutions to incorporate in this build ************************************************** -->
   <property name="solultionSimpleGen"   value="${buildUserHome}/javaware/simpleone/solutions/Simple/classes_gen" />
@@ -41,77 +46,50 @@
    <arg value="Simple.baseApp.TestSetting" />
   </exec>
   
-  <!--     H1 forms settings      -->
-  <property name="h2formsAppLoader"     value="org.modellwerkstatt.h2forms.core.H2ApplicationLoader" /> 
-  <property name="h2formsTemplate"      value="template_leg" /> 
-	
-
   <echo>
     Run by ${user.name} on Java Home : ${java.home}
     Building VERSION ${appBuildVersion} of ${appMainclass}
 	MOWAREPLUGINHOMEDIR ${mowarePluginHomeDir}    
   </echo>
 
-  <target name="default" depends="moware.mowarePluginAdoption">
 
-    <mkdir dir="work"/>
-    <mkdir dir="work/WEB-INF/lib"/>
-    <copy todir="work/WEB-INF/lib">
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.h2forms.jar" />
-	  
-      <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />   
-      <fileset dir="${mowarePluginHomeDir}/jars/servletclient/" includes="*pebble*.jar" />   
-      
-         
-      <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />
-      <fileset dir="${mpsHomeDir}/lib/" includes="mps-collections.jar" />
-    </copy>
-    
-    
-    
+
+
+
+
+
+
+
+  <target name="default" depends="bmoware.mowarePluginAdoption, moware.h2forms">
+  
     <mkdir dir="work/WEB-INF/classes"/>
     <copy todir="work/WEB-INF/classes">
       <fileset dir="${solultionSimpleGen}" />
     </copy>
     
-    <mkdir dir="work/static/template_leg"/>
-    <copy todir="work/static/template_leg">
-      <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/${h2formsTemplate}/" />
-    </copy>
-    
-    <copy file="${mowarePluginHomeDir}/h2assembly/artefact/context.xml" tofile="work/META-INF/context.xml" filtering="yes" overwrite="yes">
-    </copy>
-    
-    <copy file="${mowarePluginHomeDir}/h2assembly/artefact/web.xml" tofile="work/WEB-INF/web.xml" filtering="yes" overwrite="yes">
-      <filterchain>
-          <tokenfilter>
-              <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
-              <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
-              <replaceregex pattern="LOADER_FQNAME"            replace="${h2formsAppLoader}"/>
-              <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
-              <replaceregex pattern="APPLICATION_HOMESCREEN"   replace="${appHomeScreen}"/>
-          </tokenfilter>
-      </filterchain>
-    </copy>
-  
     <mkdir dir="dist"/>  
-    <jar destfile="dist/${appName}.war" basedir="work" update="false">
+    <jar destfile="dist/${appName}.war" basedir="${mowareAppTargetDir}" update="false">
       <manifest>
         <attribute name="Main-Class" value="${appMainclass}" />
         <attribute name="Version"    value="${appBuildVersion}" />
       </manifest>
     </jar>
-
+    
   </target>
+
+
+
+
+
+
+
+
+
   
   <target name="clean" description="Delete old work and dist directories">
 	<delete dir="work"/>
     <delete dir="dist"/>
   </target>
-  
   
   <target name="rt">
   	<copy todir="${tomcatHomeDir}/webapps/${appName}/static/${h2formsTemplate}">
@@ -124,5 +102,4 @@
   		<fileset dir="work" />
   	</copy>
   </target>
-  
 </project>

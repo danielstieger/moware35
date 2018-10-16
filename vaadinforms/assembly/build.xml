@@ -19,112 +19,41 @@
 -->
  
 <project name="VaadinApplication" default="default">      
+<!-- **** include files setup **************************************************************** -->
+  <property name="mowareMpsHomeDir"     value="/Users/DanielStieger/javaexe/MPS335" />
+  <include file="../../objectflow/assembly/bmoware.xml" as="bmoware"/>
+  <include file="../../objectflow/assembly/moware.xml" as="moware"/>
+
 
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
   <property name="appName"              value="SimpleApplication" />
-  <property name="appMainclass"         value="Simple.baseApp.App_Desktop_Order" />
-  <property name="appConfiguration"     value="Simple/baseApp/VaadinConfig.xml" /> 
+  <property name="appMainclass"         value="org.modellwerkstatt.simple.baseApp.App_Desktop_Order" />
+  <property name="appConfiguration"     value="org/modellwerkstatt/simple/baseApp/VaadinConfig.xml" /> 
   <property name="myHome"               value="/Users/danielstieger" />
 
-  <!-- **** build specific definitions ************************************************************** -->
+  <!-- **** build/solution specific definitions ***************************************************** -->
   <property name="javawareHomeDir"       value="${myHome}/javaware" /> 
-  <property name="mpsHomeDir"            value="${myHome}/javaexe/MPS335" /> 
-  <property name="mowarePluginHomeDir"   value="${myHome}/javaexe/MoPluginFake" />
   <property name="tomcatHomeDir"         value="${myHome}/stuff/green" />
-      
-
- 
-  <!-- **** solutions to incorporate in this build ************************************************** -->
   <property name="solutionSimpleGen"     value="${javawareHomeDir}/simpleone/solutions/Simple/classes_gen" />
 
   <echo>
-    Run by ${user.name} on Java Home : ${java.home}
+    NEW Run by ${user.name} on Java Home : ${java.home}
     Building VERSION ${appBuildVersion} of ${appMainclass}
     
   </echo>
 
 
-  <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->   
-  <target name="mowarePluginAdoption">
-	<property name="mowareHome"    value="${myHome}/moware" />
-    <delete includeemptydirs="false">
-    	<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions" includes="*.jar"/>
-  	</delete>
-    
-
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.sandbox.jar"
-    	 basedir="${mowareHome}/objectflow/solutions/sandbox/classes_gen"/>
-         
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.manmap.solution.jar" 
-         basedir="${mowareHome}/manmap/solutions/org.modellwerkstatt.manmap.solution/classes_gen"/>
-    
- 	<jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.dataux.runtime.jar" 
-         basedir="${mowareHome}/dataux/languages/org.modellwerkstatt.dataux/runtime/classes_gen" />
-   
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/org.modellwerkstatt.vaadinforms.jar" 
-         basedir="${mowareHome}/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen"/>
-
-    <jar destfile="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/moware-vaadin-theme-1.0.jar" 
-         basedir="${mowareHome}/vaadinforms/assembly/artefact/moware-theme"/>
-         
-    <copy todir="${mowarePluginHomeDir}/vaadinassembly/artefact/" overwrite="true" >
-    	<fileset dir="${mowareHome}/vaadinforms/assembly/artefact/"/>
-  	</copy>  
-  </target>
-  <!-- ++++++++++++ Live moware plugin adoption +++++++++++++++++++++++++++++++++++++++++++++++++++++ -->  
 
 
-  <target name="default" depends="mowarePluginAdoption">
 
-    <mkdir dir="work"/>
-    <mkdir dir="work/WEB-INF/lib"/>
-    <copy todir="work/WEB-INF/lib">
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.sandbox.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.solution.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.vaadinforms.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="moware-vaadin-theme-1.0.jar" />
-    
-      
-      <fileset dir="${javawareHomeDir}/HafinaBasis/jars" includes="*.jar" />
-      <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />      
-      <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />
-      <fileset dir="${mpsHomeDir}/lib/" includes="mps-collections.jar" />
-     
-      <fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />
-      <fileset dir="${mowarePluginHomeDir}/jars/zoo/" includes="*.jar" />
-      
-      <fileset dir="${mowarePluginHomeDir}/jars/vaadinclient/" includes="*.jar" />
-    </copy>
-    
-    <!-- change favicon with local one -->
-    <jar destfile="work/WEB-INF/lib/moware-updated-theme-1.0.jar">
-    	<zipfileset src="work/WEB-INF/lib/moware-vaadin-theme-1.0.jar" excludes="VAADIN/themes/moware/*.ico"/>
-    	<zipfileset file="./favicon.ico" prefix="VAADIN/themes/moware/" />
-	</jar>
-    <delete file="work/WEB-INF/lib/moware-vaadin-theme-1.0.jar" />
-    
+  <target name="default" depends="bmoware.mowarePluginAdoption, moware.vaadinforms">
     
     <mkdir dir="work/WEB-INF/classes"/>
     <copy todir="work/WEB-INF/classes">
       <fileset dir="${solutionSimpleGen}" />
     </copy>
-    
-    
-    <copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/context.xml" tofile="work/WEB-INF/context.xml" filtering="yes" overwrite="yes">
-    </copy>
-    
-    <copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/web.xml" tofile="work/WEB-INF/web.xml" filtering="yes" overwrite="yes">
-      <filterchain>
-          <tokenfilter>
-              <replaceregex pattern="APPLICATION_FQNAME" replace="${appMainclass}"/>
-              <replaceregex pattern="APPLICATION_CONFIG" replace="${appConfiguration}"/>
-              <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
-          </tokenfilter>
-      </filterchain>
-    </copy>
-  
+      
     <mkdir dir="dist"/>  
     <jar destfile="dist/${appName}.war" basedir="work" update="false">
       <manifest>
@@ -134,6 +63,11 @@
     </jar>
 
   </target>
+
+
+
+
+
   
   <target name="clean" description="Delete old work and dist directories">
 	<delete dir="work"/>
