@@ -114,6 +114,7 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
       <concept id="1070534555686" name="jetbrains.mps.baseLanguage.structure.CharType" flags="in" index="10Pfzv" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
@@ -11193,6 +11194,65 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="7hLluCZkPB7" role="3cqZAp">
+              <node concept="3cpWsn" id="7hLluCZkPB8" role="3cpWs9">
+                <property role="TrG5h" value="aScene" />
+                <node concept="3uibUv" id="7hLluCZkPB9" role="1tU5fm">
+                  <ref role="3uigEE" to="p18y:~Scene" resolve="Scene" />
+                </node>
+                <node concept="2OqwBi" id="7hLluCZkQM1" role="33vP2m">
+                  <node concept="Xjq3P" id="7hLluCZkQIm" role="2Oq$k0" />
+                  <node concept="liA8E" id="7hLluCZkRhK" role="2OqNvi">
+                    <ref role="37wK5l" to="p18y:~Node.getScene():javafx.scene.Scene" resolve="getScene" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7hLluCZkRqV" role="3cqZAp">
+              <node concept="3cpWsn" id="7hLluCZkRqW" role="3cpWs9">
+                <property role="TrG5h" value="aWindow" />
+                <node concept="3uibUv" id="7hLluCZkRqX" role="1tU5fm">
+                  <ref role="3uigEE" to="zsw4:~Window" resolve="Window" />
+                </node>
+                <node concept="2OqwBi" id="7hLluCZkRAh" role="33vP2m">
+                  <node concept="37vLTw" id="7hLluCZkRzd" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7hLluCZkPB8" resolve="aScene" />
+                  </node>
+                  <node concept="liA8E" id="7hLluCZkRD6" role="2OqNvi">
+                    <ref role="37wK5l" to="p18y:~Scene.getWindow():javafx.stage.Window" resolve="getWindow" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7hLluCZkRRX" role="3cqZAp">
+              <node concept="3cpWsn" id="7hLluCZkRS0" role="3cpWs9">
+                <property role="TrG5h" value="xMin" />
+                <node concept="10P55v" id="7hLluCZkRRV" role="1tU5fm" />
+                <node concept="2OqwBi" id="7hLluCZkRY7" role="33vP2m">
+                  <node concept="37vLTw" id="7hLluCZkRXG" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4n24ZlEUUta" resolve="pos" />
+                  </node>
+                  <node concept="liA8E" id="7hLluCZkS00" role="2OqNvi">
+                    <ref role="37wK5l" to="1po:~Bounds.getMinX():double" resolve="getMinX" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7hLluCZkS6p" role="3cqZAp">
+              <node concept="3cpWsn" id="7hLluCZkS6s" role="3cpWs9">
+                <property role="TrG5h" value="yMax" />
+                <node concept="10P55v" id="7hLluCZkS6n" role="1tU5fm" />
+                <node concept="2OqwBi" id="7hLluCZkSd4" role="33vP2m">
+                  <node concept="37vLTw" id="7hLluCZkScD" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4n24ZlEUUta" resolve="pos" />
+                  </node>
+                  <node concept="liA8E" id="7hLluCZkSf2" role="2OqNvi">
+                    <ref role="37wK5l" to="1po:~Bounds.getMaxY():double" resolve="getMaxY" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="7hLluCZkSqg" role="3cqZAp" />
             <node concept="3clFbF" id="4n24ZlETfFs" role="3cqZAp">
               <node concept="2OqwBi" id="4n24ZlETfFt" role="3clFbG">
                 <node concept="37vLTw" id="4n24ZlETfFu" role="2Oq$k0">
@@ -11200,37 +11260,18 @@
                 </node>
                 <node concept="liA8E" id="4n24ZlETfFv" role="2OqNvi">
                   <ref role="37wK5l" to="zsw4:~PopupWindow.show(javafx.stage.Window,double,double):void" resolve="show" />
-                  <node concept="2OqwBi" id="4n24ZlEUSGU" role="37wK5m">
-                    <node concept="2OqwBi" id="4n24ZlEUSgF" role="2Oq$k0">
-                      <node concept="Xjq3P" id="4n24ZlETfFw" role="2Oq$k0" />
-                      <node concept="liA8E" id="4n24ZlEUSEN" role="2OqNvi">
-                        <ref role="37wK5l" to="p18y:~Node.getScene():javafx.scene.Scene" resolve="getScene" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="4n24ZlEUSL5" role="2OqNvi">
-                      <ref role="37wK5l" to="p18y:~Scene.getWindow():javafx.stage.Window" resolve="getWindow" />
-                    </node>
+                  <node concept="37vLTw" id="7hLluCZkRKU" role="37wK5m">
+                    <ref role="3cqZAo" node="7hLluCZkRqW" resolve="aWindow" />
                   </node>
-                  <node concept="2OqwBi" id="4n24ZlEUWAq" role="37wK5m">
-                    <node concept="37vLTw" id="4n24ZlEUW_6" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4n24ZlEUUta" resolve="pos" />
-                    </node>
-                    <node concept="liA8E" id="4n24ZlEUWCF" role="2OqNvi">
-                      <ref role="37wK5l" to="1po:~Bounds.getMinX():double" resolve="getMinX" />
-                    </node>
+                  <node concept="37vLTw" id="7hLluCZkSjT" role="37wK5m">
+                    <ref role="3cqZAo" node="7hLluCZkRS0" resolve="xMin" />
                   </node>
-                  <node concept="2OqwBi" id="4n24ZlEUWLD" role="37wK5m">
-                    <node concept="37vLTw" id="4n24ZlEUWJZ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4n24ZlEUUta" resolve="pos" />
-                    </node>
-                    <node concept="liA8E" id="4n24ZlEUWPb" role="2OqNvi">
-                      <ref role="37wK5l" to="1po:~Bounds.getMaxY():double" resolve="getMaxY" />
-                    </node>
+                  <node concept="37vLTw" id="7hLluCZkSp0" role="37wK5m">
+                    <ref role="3cqZAo" node="7hLluCZkS6s" resolve="yMax" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="4n24ZlEUU0q" role="3cqZAp" />
           </node>
         </node>
         <node concept="3clFbF" id="4n24ZlETfF_" role="3cqZAp">
