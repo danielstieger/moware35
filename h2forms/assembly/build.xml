@@ -21,7 +21,6 @@
 <project name="MdeApplication" default="default">      
   
   <!-- **** include files setup **************************************************************** -->
-  <property name="mowareMpsHomeDir"     value="/Users/DanielStieger/javaexe/MPS335" />
   <include file="../../objectflow/assembly/bmoware.xml" as="bmoware"/>
   <include file="../../objectflow/assembly/moware.xml" as="moware"/>
 

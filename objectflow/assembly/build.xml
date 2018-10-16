@@ -23,21 +23,19 @@
 -->
  
 <project name="OFXBatchJob" default="default">      
-  <include file="bmoware.xml" as="moware"/>
-  	
+  <!-- **** include files setup **************************************************************** -->
+  <include file="bmoware.xml" as="bmoware"/>
+  <include file="moware.xml" as="moware"/>
+	
   <!-- **** app specific definitions **************************************************************** -->
   <property name="appBuildVersion"      value="BUILD V0.0.0" />
   <property name="appName"              value="InvoicingJob" />
-  <property name="appMainclass"         value="Simple.baseApp.InvoicingJob" />
-  <property name="appConfiguration"     value="Simple/baseApp/BatchConfigTomcat.xml" /> 
+  <property name="appMainclass"         value="org.modellwerkstatt.simple.baseApp.InvoicingJob" />
+  <property name="appConfiguration"     value="org/modellwerkstatt/simple/baseApp/BatchConfigTomcat.xml" /> 
   
-  <!-- **** build specific definitions ************************************************************** -->
-  <property name="mpsHomeDir"            value="${buildUserHome}/javaexe/MPS335" /> 
-  <property name="tomcatHomeDir"         value="/${buildUserHome}/stuff/apache-tomcat-8.0.33" />
-      
-  <!-- **** solutions to incorporate in this build ************************************************** -->
-  <!-- coincidently the class_gen is in moware -->
-  <property name="solultionSimpleGen"   value="${buildUserHome}/javaware/simpleone/solutions/Simple/classes_gen" />
+  <!-- **** build specific definitions ************************************************************** --> 
+  <property name="tomcatHomeDir"         value="${buildUserHome}/stuff/apache-tomcat-8.0.33" />
+  <property name="solultionSimpleGen"    value="${buildUserHome}/javaware/simpleone/solutions/Simple/classes_gen" />
 
   <echo>
     Run by ${user.name} on Java Home : ${java.home}
@@ -46,40 +44,12 @@
   </echo>
 
 
-  <target name="default" depends="moware.mowarePluginAdoption">
-    <mkdir dir="work"/>
-    <mkdir dir="work/WEB-INF/lib"/>
-    <copy todir="work/WEB-INF/lib">
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
-	  <fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
-	  
-      <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*spring*.jar, joda-time*.jar, commons-logging*.jar" />      
-      
-      <fileset dir="${mpsHomeDir}/lib/" includes="mps-closures.jar" />
-      <fileset dir="${mpsHomeDir}/lib/" includes="mps-collections.jar" />
-      
-    </copy>
-    
-    
-    
+  <target name="default" depends="bmoware.mowarePluginAdoption, moware.ofxbatchjob">
     <mkdir dir="work/WEB-INF/classes"/>
     <copy todir="work/WEB-INF/classes">
       <fileset dir="${solultionSimpleGen}" />
     </copy>
-    
-    <copy file="${mowarePluginHomeDir}/ofassembly/artefact/web.xml" tofile="work/WEB-INF/web.xml" filtering="yes" overwrite="yes">
-      <filterchain>
-          <tokenfilter>
-              <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
-              <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
-              <replaceregex pattern="LOADER_FQNAME"            replace="${appMainclass}"/>
-              <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
-              
-          </tokenfilter>
-      </filterchain>
-    </copy>
-  
+      
     <mkdir dir="dist"/>  
     <jar destfile="dist/${appName}.war" basedir="work" update="false">
       <manifest>
@@ -87,7 +57,6 @@
         <attribute name="Version"    value="${appBuildVersion}" />
       </manifest>
     </jar>
-
   </target>
   
   <target name="clean" description="Delete old work and dist directories">
