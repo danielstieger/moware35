@@ -5316,17 +5316,88 @@
                             <property role="3SKdUp" value="to substruct consumer workon items here... " />
                           </node>
                         </node>
-                        <node concept="3clFbF" id="6qYeaMeB3jT" role="3cqZAp">
-                          <node concept="2OqwBi" id="6qYeaMeB3jU" role="3clFbG">
-                            <node concept="37vLTw" id="6qYeaMeB3jV" role="2Oq$k0">
-                              <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                        <node concept="3cpWs8" id="1NjnH06km6g" role="3cqZAp">
+                          <node concept="3cpWsn" id="1NjnH06km6j" role="3cpWs9">
+                            <property role="TrG5h" value="lastElem" />
+                            <node concept="16syzq" id="1NjnH06km6e" role="1tU5fm">
+                              <ref role="16sUi3" node="7BWfrtD0eEI" resolve="Entity" />
                             </node>
-                            <node concept="liA8E" id="6qYeaMeB3jW" role="2OqNvi">
-                              <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.addAll(java.util.Collection):boolean" resolve="addAll" />
-                              <node concept="37vLTw" id="6qYeaMeB3jX" role="37wK5m">
-                                <ref role="3cqZAo" node="6qYeaMeB3iK" resolve="listForInbox" />
+                            <node concept="10Nm6u" id="1NjnH06kUHV" role="33vP2m" />
+                          </node>
+                        </node>
+                        <node concept="1DcWWT" id="1NjnH06kb0i" role="3cqZAp">
+                          <node concept="3clFbS" id="1NjnH06kb0k" role="2LFqv$">
+                            <node concept="3clFbJ" id="1NjnH06kecD" role="3cqZAp">
+                              <node concept="3clFbS" id="1NjnH06kecF" role="3clFbx">
+                                <node concept="3clFbF" id="1NjnH06keNV" role="3cqZAp">
+                                  <node concept="1rXfSq" id="1NjnH06keNW" role="3clFbG">
+                                    <ref role="37wK5l" node="2fj6lk$8KUO" resolve="prot" />
+                                    <node concept="Rm8GO" id="1NjnH06keNX" role="37wK5m">
+                                      <ref role="1Px2BO" node="2fj6lk$8KUF" resolve="JmxBatchJobCoreReporter.Cat" />
+                                      <ref role="Rm8GQ" node="2fj6lk$8KUJ" resolve="JOB_ERROR" />
+                                    </node>
+                                    <node concept="3cpWs3" id="1NjnH06kQpp" role="37wK5m">
+                                      <node concept="Xl_RD" id="1NjnH06kQqX" role="3uHU7w">
+                                        <property role="Xl_RC" value=" - what was prevented." />
+                                      </node>
+                                      <node concept="3cpWs3" id="1NjnH06kP20" role="3uHU7B">
+                                        <node concept="Xl_RD" id="1NjnH06keO1" role="3uHU7B">
+                                          <property role="Xl_RC" value="Trying to add a &lt;null&gt; element to inbox after " />
+                                        </node>
+                                        <node concept="37vLTw" id="1NjnH06kQbt" role="3uHU7w">
+                                          <ref role="3cqZAo" node="1NjnH06km6j" resolve="lastElem" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3clFbH" id="1NjnH06kecE" role="3cqZAp" />
+                              </node>
+                              <node concept="3clFbC" id="1NjnH06keg6" role="3clFbw">
+                                <node concept="10Nm6u" id="1NjnH06keh$" role="3uHU7w" />
+                                <node concept="37vLTw" id="1NjnH06keem" role="3uHU7B">
+                                  <ref role="3cqZAo" node="1NjnH06kb0l" resolve="elem" />
+                                </node>
+                              </node>
+                              <node concept="9aQIb" id="1NjnH06kqiY" role="9aQIa">
+                                <node concept="3clFbS" id="1NjnH06kqiZ" role="9aQI4">
+                                  <node concept="3clFbF" id="1NjnH06kqPR" role="3cqZAp">
+                                    <node concept="37vLTI" id="1NjnH06krLx" role="3clFbG">
+                                      <node concept="37vLTw" id="1NjnH06krN8" role="37vLTx">
+                                        <ref role="3cqZAo" node="1NjnH06kb0l" resolve="elem" />
+                                      </node>
+                                      <node concept="37vLTw" id="1NjnH06kqPQ" role="37vLTJ">
+                                        <ref role="3cqZAo" node="1NjnH06km6j" resolve="lastElem" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbF" id="1NjnH06ksL1" role="3cqZAp">
+                                    <node concept="2OqwBi" id="1NjnH06ksSm" role="3clFbG">
+                                      <node concept="37vLTw" id="1NjnH06ksKZ" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                                      </node>
+                                      <node concept="liA8E" id="1NjnH06kulT" role="2OqNvi">
+                                        <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.add(java.lang.Object):boolean" resolve="add" />
+                                        <node concept="37vLTw" id="1NjnH06kutB" role="37wK5m">
+                                          <ref role="3cqZAo" node="1NjnH06kb0l" resolve="elem" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3clFbH" id="1NjnH06kxlH" role="3cqZAp" />
+                                </node>
                               </node>
                             </node>
+                            <node concept="3clFbH" id="1NjnH06kp3p" role="3cqZAp" />
+                          </node>
+                          <node concept="3cpWsn" id="1NjnH06kb0l" role="1Duv9x">
+                            <property role="TrG5h" value="elem" />
+                            <node concept="16syzq" id="1NjnH06kcyu" role="1tU5fm">
+                              <ref role="16sUi3" node="7BWfrtD0eEI" resolve="Entity" />
+                            </node>
+                          </node>
+                          <node concept="37vLTw" id="1NjnH06kdC2" role="1DdaDG">
+                            <ref role="3cqZAo" node="6qYeaMeB3iK" resolve="listForInbox" />
                           </node>
                         </node>
                         <node concept="3clFbH" id="6BG_0Ec4jAF" role="3cqZAp" />
