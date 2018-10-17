@@ -39,32 +39,47 @@ function moLog(s) {
 	$('#dbgFld').innerHTML = curLog;
 }
 
+function formatUrlParams( params ){
+  return "?" + Object
+        .keys(params)
+        .map(function(key){
+          return key+"="+encodeURIComponent(params[key])
+        })
+        .join("&")
+}
+
 function logDebug(msg) {
-	if (typeof clientDebugEnabled !== 'undefined') {
-		var params = {
- 			'userName': clientDebugUserName, 
- 			'userId': clientDebugUserId,
- 			'message': msg,
- 			'millis': new Date().getTime()
- 		}
+	if (typeof clientDebugEnabled !== 'undefined' && false) {
+		try {
+			var params = {
+				'userName': clientDebugUserName, 
+				'userId': clientDebugUserId,
+				'message': msg,
+				'millis': new Date().getTime()
+			}
 	
-    	// log to remote server
-    	var start = new Date().getTime();
-    	var oReq = new XMLHttpRequest();
-    	oReq.onreadystatechange = function() {
-  			/* console.log('XMLHttpRequest state:' + this.status + ' / ' + this.responseText); */
-  		};
-  		oReq.open("GET", "http://" + clientDebugServerName + "/detaillog" + formatUrlParams(params), true);
-  		oReq.send();
-		moLog('t: ' + (new Date().getTime() - start));
+			// log to remote server
+			var start = new Date().getTime();
+			var oReq = new XMLHttpRequest();
+			oReq.onreadystatechange = function() {
+				console.log('XMLHttpRequest state:' + this.status + ' / ' + this.responseText);
+		
+			};
+			oReq.open("GET", "http://" + clientDebugServerName + "/detaillog" + formatUrlParams(params), false);
+			oReq.send();
+			console.log('Sync debug msg roundtrip ' + (new Date().getTime() - start) + 'ms');
+		} catch(err) {
+			console.log('logDebug to ' + clientDebugServerName + ': ' + err);
+		}
 		
 	} else {
 		console.log(msg);
 	}
-	
 }
 
 function disableNavigation() {
+	
+	logDebug('H2 disableNavigation()');
 	navigationDisabled = true;
 	
 	var btns = $$('button');
@@ -89,6 +104,7 @@ function disableNavigation() {
 
 /* Scan stuff ******************************************************* */
 function disableScan(){
+	logDebug('H2 disableScan()');
 	if ($('input[name="scanconclusion"]') != null) {
 		try {
 			EB.Barcode.disable();
@@ -120,8 +136,10 @@ function scanReceived(params){
 }
 
 function enableScan(){
+	logDebug('H2 enableScan() called');
 	if ($('input[name="scanconclusion"]') != null) {
 		try {
+			logDebug(' ... and scan field found.');
 			EB.Barcode.enable({
 				allDecoders:false,
 				code128:true,
@@ -159,6 +177,7 @@ function ScanSubmit(){
     // the scan conclusion then ... and submit
 
 	//alert('ScanSubmit() issuing scan');
+	console.log('ScanSubmit() button pressed');
 	EB.Barcode.stop();
 	EB.Barcode.start();
 }

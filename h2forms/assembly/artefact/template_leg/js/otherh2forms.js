@@ -57,7 +57,7 @@ function logDebug(msg) {
   		};
   		oReq.open("GET", "http://" + clientDebugServerName + "/detaillog" + formatUrlParams(params), false);
   		oReq.send();
-		moLog('t: ' + (new Date().getTime() - start));
+		console.log('Sync debug msg roundtrip ' + (new Date().getTime() - start) + 'ms');
 		
 	} else {
 		console.log(msg);
