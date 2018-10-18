@@ -20,7 +20,7 @@
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/zebrah2forms.js{{ page.ncs }}"></script>
 	{% else %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/otherh2forms.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/zebrah2forms.js{{ page.ncs }}"></script>
 	{% endif %}
 
 

@@ -1,0 +1,44 @@
+{% macro defCol(col) %}
+    {% if col is null %}#6b9ff4{% else %}{{ col }}{% endif %}
+{% endmacro %}
+    {{ page.sequenceId }}
+    --$$%&?e--
+    .currentfg { background: {{ defCol(page.color) }} !important; }
+    input, textarea, select { border-bottom-color: {{ defCol(page.color) }}; }
+    table .lightactive { border-color: {{ defCol(page.color) }} ; }
+    --$$%&?e--
+    {% for chrumb in page.chrumbs %}
+        <div id="chrumbdiv{{ loop.index }}" {% if loop.index == 0 %}class="currentfg"{% endif %}> {{ chrumb }} </div>
+    {% endfor %}
+    --$$%&?e--
+    <div class="contentTop"  editorIndex="-1"></div>
+    {% if message is not null %}
+        {% if message.infoSmall or message.userQuestion or message.errorSmall %}
+            <p id="errorbeep" class="error">{{ message.heading }}: {{ message.textBr | raw}} </p>
+
+        {% elseif message.errorLarge is not null %}
+            <p id="errorbeep"> {{ message.heading }} <br/>
+            <pre> <code> {{ message.text | raw }} </code> </pre>
+            <br/><br/><br/>
+            </p>
+        {% else%}
+            <p class="info"> {{ message.textBr | raw }}  </p>
+        {% endif %}
+    {% endif %}
+
+    {% if message is not null and message.modalWithButtons %}
+    <!-- no content due to message -->
+    {% else %}
+    {% block content %} {% endblock %}
+    {% endif %}
+    --$$%&?e--
+	{% if message is not null and message.modalWithButtons %}
+	{% for btn in message.buttons %}
+        <button concbut="true" type="button" id="{{ btn.buttonCode }}" class="wideMin currentfg" onClick="SaveSubmit('{{ btn.buttonCode }}');return false;" navicrtl="{{ btn.buttonCode }}">
+            <div class="labeldiv"> <span class="label"> {{ btn.label }} </span> </div>
+        </button>
+	{% endfor %}
+	{% else %}
+	    {% block footernav %} {% endblock %}
+	{% endif %}
+

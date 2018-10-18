@@ -187,7 +187,10 @@ function ScanSubmit(){
 function SelectAndExec(selectionstr, valstr, eventSource){
 	/* Double submit vibrate problem on TC56 */
 	var timePassed = Date.now() - lastMillisSubmitted;
-	if (lastSequenceIDSubmitted != 0 && timePassed < 1000) { return; }
+	if (lastSequenceIDSubmitted != 0 && timePassed < 500) { 
+		logDebug('H2 SaveSubmit() too fast, timePassed is ' + timePassed);
+		return;
+	}
 	lastMillisSubmitted = Date.now();
 	lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
 
@@ -209,7 +212,10 @@ function SelectAndExec(selectionstr, valstr, eventSource){
 function SaveSubmit(valstr){
 	/* Double submit vibrate problem on TC56 */
 	var timePassed = Date.now() - lastMillisSubmitted;
-	if (lastSequenceIDSubmitted != 0 && timePassed < 1000) { return; }
+	if (lastSequenceIDSubmitted != 0 && timePassed < 500) { 
+		logDebug('H2 SaveSubmit() too fast, timePassed is ' + timePassed);
+		return;
+	}
 	lastMillisSubmitted = Date.now();
 	lastSequenceIDSubmitted = parseInt($('form').SequenceId.value);
 

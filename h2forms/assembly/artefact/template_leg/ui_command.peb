@@ -1,4 +1,4 @@
-{% extends "./base.peb" %}
+{% extends page.XMLHttpRequest ? "./ajax.peb" : "./base.peb" %}
 
 {% block content %}
 {{ form.toHtml }}

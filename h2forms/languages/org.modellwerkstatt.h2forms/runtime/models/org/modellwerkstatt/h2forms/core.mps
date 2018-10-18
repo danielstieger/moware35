@@ -3621,6 +3621,38 @@
                               <node concept="37vLTw" id="1wwgtxzdO$f" role="37wK5m">
                                 <ref role="3cqZAo" node="3h3MBx3irbx" resolve="response" />
                               </node>
+                              <node concept="1Wc70l" id="37uIJD_CkGi" role="37wK5m">
+                                <node concept="3y3z36" id="37uIJD_CoEL" role="3uHU7w">
+                                  <node concept="10Nm6u" id="37uIJD_CoFN" role="3uHU7w" />
+                                  <node concept="2OqwBi" id="37uIJD_ClIm" role="3uHU7B">
+                                    <node concept="37vLTw" id="37uIJD_ClFO" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                                    </node>
+                                    <node concept="liA8E" id="37uIJD_CmH$" role="2OqNvi">
+                                      <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                                      <node concept="Xl_RD" id="37uIJD_CmKs" role="37wK5m">
+                                        <property role="Xl_RC" value="XMLHttpRequest" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="37uIJD_Btr9" role="3uHU7B">
+                                  <node concept="liA8E" id="37uIJD_Buq2" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                    <node concept="2OqwBi" id="37uIJD_BspL" role="37wK5m">
+                                      <node concept="37vLTw" id="37uIJD_Bso2" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                                      </node>
+                                      <node concept="liA8E" id="37uIJD_Btp1" role="2OqNvi">
+                                        <ref role="37wK5l" to="nwfd:~HttpServletRequest.getMethod():java.lang.String" resolve="getMethod" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="37uIJD_BurU" role="2Oq$k0">
+                                    <property role="Xl_RC" value="POST" />
+                                  </node>
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -3643,6 +3675,38 @@
                                 <ref role="37wK5l" node="1wwgtxzdEsr" resolve="createResponse" />
                                 <node concept="37vLTw" id="kA5Khwg2Js" role="37wK5m">
                                   <ref role="3cqZAo" node="3h3MBx3irbx" resolve="response" />
+                                </node>
+                                <node concept="1Wc70l" id="37uIJD_CoZG" role="37wK5m">
+                                  <node concept="2OqwBi" id="37uIJD_BwsL" role="3uHU7B">
+                                    <node concept="liA8E" id="37uIJD_BwsM" role="2OqNvi">
+                                      <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                                      <node concept="2OqwBi" id="37uIJD_BwsN" role="37wK5m">
+                                        <node concept="37vLTw" id="37uIJD_BwsO" role="2Oq$k0">
+                                          <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                                        </node>
+                                        <node concept="liA8E" id="37uIJD_BwsP" role="2OqNvi">
+                                          <ref role="37wK5l" to="nwfd:~HttpServletRequest.getMethod():java.lang.String" resolve="getMethod" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="37uIJD_BwsQ" role="2Oq$k0">
+                                      <property role="Xl_RC" value="POST" />
+                                    </node>
+                                  </node>
+                                  <node concept="3y3z36" id="37uIJD_Cp1G" role="3uHU7w">
+                                    <node concept="10Nm6u" id="37uIJD_Cp1H" role="3uHU7w" />
+                                    <node concept="2OqwBi" id="37uIJD_Cp1I" role="3uHU7B">
+                                      <node concept="37vLTw" id="37uIJD_Cp1J" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="3h3MBx3irbv" resolve="request" />
+                                      </node>
+                                      <node concept="liA8E" id="37uIJD_Cp1K" role="2OqNvi">
+                                        <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                                        <node concept="Xl_RD" id="37uIJD_Cp1L" role="37wK5m">
+                                          <property role="Xl_RC" value="XMLHttpRequest" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -8036,6 +8100,10 @@
           <ref role="3uigEE" to="nwfd:~HttpServletResponse" resolve="HttpServletResponse" />
         </node>
       </node>
+      <node concept="37vLTG" id="37uIJD_Blfv" role="3clF46">
+        <property role="TrG5h" value="xmlHttpReq" />
+        <node concept="10P_77" id="37uIJD_Bn6X" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="5pIRrzleUle" role="3clF45" />
       <node concept="3Tm1VV" id="5pIRrzleUlf" role="1B3o_S" />
       <node concept="3clFbS" id="5pIRrzleUlg" role="3clF47">
@@ -8170,6 +8238,9 @@
                 <ref role="37wK5l" node="7WBKY1WeMPS" resolve="ContextPage" />
                 <node concept="37vLTw" id="2462lDSocUO" role="37wK5m">
                   <ref role="3cqZAo" node="uIozejABqt" resolve="currentAppFormSequence" />
+                </node>
+                <node concept="37vLTw" id="37uIJD_BBHZ" role="37wK5m">
+                  <ref role="3cqZAo" node="37uIJD_Blfv" resolve="xmlHttpReq" />
                 </node>
               </node>
             </node>
@@ -11626,6 +11697,10 @@
           <ref role="3uigEE" to="nwfd:~HttpServletResponse" resolve="HttpServletResponse" />
         </node>
       </node>
+      <node concept="37vLTG" id="37uIJD_A_x8" role="3clF46">
+        <property role="TrG5h" value="xmlHttpReq" />
+        <node concept="10P_77" id="37uIJD_A_$R" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="1wwgtxzdEss" role="3clF45" />
       <node concept="3Tm1VV" id="1wwgtxzdEst" role="1B3o_S" />
       <node concept="3clFbS" id="1wwgtxzdEsu" role="3clF47" />
@@ -11687,6 +11762,7 @@
       <node concept="3Tm1VV" id="4cdUWYrXVpX" role="1B3o_S" />
       <node concept="3clFbS" id="4cdUWYrXVpY" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="37uIJD_A_bi" role="jymVt" />
   </node>
   <node concept="312cEu" id="2ewwURnEZ5d">
     <property role="3GE5qa" value="" />
@@ -12294,12 +12370,27 @@
         </node>
       </node>
     </node>
+    <node concept="2RhdJD" id="37uIJD_B_b0" role="jymVt">
+      <property role="2RkwnN" value="XMLHttpRequest" />
+      <node concept="3Tm1VV" id="37uIJD_B_b1" role="1B3o_S" />
+      <node concept="2RoN1w" id="37uIJD_B_b2" role="2RnVtd">
+        <node concept="3wEZqW" id="37uIJD_B_b3" role="3wFrgM" />
+        <node concept="3xqBd$" id="37uIJD_B_b4" role="3xrYvX">
+          <node concept="3Tm1VV" id="37uIJD_B_b5" role="3xqFEP" />
+        </node>
+      </node>
+      <node concept="10P_77" id="37uIJD_B_eB" role="2RkE6I" />
+    </node>
     <node concept="2tJIrI" id="7WBKY1WeMCm" role="jymVt" />
     <node concept="2tJIrI" id="7WBKY1WeM$h" role="jymVt" />
     <node concept="3clFbW" id="7WBKY1WeMPS" role="jymVt">
       <node concept="37vLTG" id="2I8y5Kp26Fl" role="3clF46">
         <property role="TrG5h" value="seq" />
         <node concept="3cpWsb" id="2I8y5Kp26VI" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="37uIJD_B_fM" role="3clF46">
+        <property role="TrG5h" value="xmlHttp" />
+        <node concept="10P_77" id="37uIJD_B_ga" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="7WBKY1WeMPU" role="3clF45" />
       <node concept="3Tm1VV" id="7WBKY1WeMPV" role="1B3o_S" />
@@ -12337,6 +12428,16 @@
             <node concept="10Nm6u" id="6jihzUGLfW7" role="37vLTx" />
             <node concept="338YkY" id="6jihzUGLfOh" role="37vLTJ">
               <ref role="338YkT" node="6jihzUGL2vu" resolve="mainLandingMenu" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="37uIJD_B_hv" role="3cqZAp">
+          <node concept="37vLTI" id="37uIJD_B_j2" role="3clFbG">
+            <node concept="37vLTw" id="37uIJD_B_kl" role="37vLTx">
+              <ref role="3cqZAo" node="37uIJD_B_fM" resolve="xmlHttp" />
+            </node>
+            <node concept="338YkY" id="37uIJD_B_ht" role="37vLTJ">
+              <ref role="338YkT" node="37uIJD_B_b0" resolve="XMLHttpRequest" />
             </node>
           </node>
         </node>
