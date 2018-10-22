@@ -1,0 +1,131 @@
+<?xml version = "1.0"?>
+<!-- Enterprise Browser Button Configuration Parameter file -->
+<Buttonbargroup>
+    <ButtonBar1>
+        <barOrientation value="Horizontal" />
+        <barColor value="#AF7AC5" />
+        <barColorPressed value="#3498DB" />
+        <barTransparency value="50" />
+        <barFontSize value="14" />
+        <barLeft value="2" />
+        <barTop value="442" />
+        <barWidth value="720" />
+        <barHeight value="120" />
+        <barTextColor value="#AF7AC5" />
+        <barTextStyle value="bold" />
+        <barGapBtwnButtons value="10" /> 
+        <Buttons>
+            <Button1>
+                <buttonText value="F1" />
+                <buttonActionClick value="key-131" />
+            </Button1>
+            <Button2>
+                <buttonText value="F2" />
+                <buttonActionClick value="key-132" />
+            </Button2>
+            <Button3>
+                <buttonText value="0" />
+                <buttonActionClick value="key-7" />
+            </Button3>
+            <Button4>
+                <buttonText value="1" />
+                <buttonActionClick value="key-8" />
+            </Button4>
+            <Button5>
+                <buttonText value="A" />
+                <buttonActionClick value="key-29" />
+            </Button5>
+            <Button6>
+                <buttonText value="B" />
+                <buttonActionClick value="key-57" />
+            </Button6>
+            <Button7>
+                <buttonText value="Ent" />
+                <buttonActionClick value="key-66" />
+            </Button7>
+        </Buttons>
+    </ButtonBar1>
+    <ButtonBar2>
+        <barColor value="#AF7AC5" />
+        <barColorPressed value="#3498DB" />
+        <barTransparency value="100" />
+        <barFontSize value="14" />
+        <barTextColor value="#AF7AC5" />
+        <barTextStyle value="bold" />
+        <barGapBtwnButtons value="10" /> 
+        <Buttons>
+            <Button1>
+                <buttonLeft value="2" />
+                <buttonTop value="1063" />
+                <buttonWidth value="102" />
+                <buttonHeight value="120" />
+                <buttonImage value="file://%INSTALLDIR%/UpArrow.png" />
+                <buttonImagePressed value="file://%INSTALLDIR%/UpArrow.png" />
+                <buttonActionClick value="key-19" />
+            </Button1>
+            <Button2>
+                <buttonLeft value="105" />
+                <buttonTop value="1063" />
+                <buttonWidth value="102" />
+                <buttonHeight value="120" />
+                <buttonImage value="file://%INSTALLDIR%/DownArrow.png" />
+                <buttonImagePressed value="file://%INSTALLDIR%/DownArrow.png" />
+                <buttonActionClick value="key-20" />
+            </Button2>
+            <Button3>
+                <buttonLeft value="208" />
+                <buttonTop value="1063" />
+                <buttonWidth value="204" />
+                <buttonHeight value="120" />
+                <buttonImage value="file://%INSTALLDIR%/scan.png" />
+                <buttonImagePressed value="file://%INSTALLDIR%/scan_pressed.png" />
+                <buttonActionClick value="runscript-scantriggerscript" />
+            </Button3>
+            <Button4>
+                <buttonLeft value="413" />
+                <buttonTop value="1063" />
+                <buttonWidth value="204" />
+                <buttonHeight value="120" />
+                <buttonImage value="file://%INSTALLDIR%/space_bar.png" />
+                <buttonImagePressed value="file://%INSTALLDIR%/space_bar.png" />
+                <buttonActionClick value="key-62" />
+            </Button4>
+            <Button5>
+                <buttonLeft value="618" />
+                <buttonTop value="1063" />
+                <buttonWidth value="102" />
+                <buttonHeight value="120" />
+                <buttonText value="Quit" />
+                <buttonActionClick value="quit" />
+            </Button5>
+        </Buttons>
+    </ButtonBar2>
+    <ButtonBar3>
+        <barLeft value="0" />
+        <barTop value="0" />
+        <barWidth value="720" />
+        <barHeight value="140" />
+        <Buttons>
+            <Button1>
+                <buttonActionClick value="runscript-deviceinfoscript" />
+                <buttonImage value="file://%INSTALLDIR%/deviceinfo.png" />
+            </Button1>
+            <Button2>
+                <buttonActionClick value="runscript-camerascript" />
+                <buttonImage value="file://%INSTALLDIR%/camera.png" />
+            </Button2>
+            <Button3>
+                <buttonActionClick value="runscript-barcodescript" />
+                <buttonImage value="file://%INSTALLDIR%/button1image.bmp" />
+            </Button3>
+            <Button4>
+                <buttonActionClick value="runscript-signaturescript" />
+                <buttonImage value="file://%INSTALLDIR%/signature.png" />
+            </Button4>
+            <Button5>
+                <buttonActionClick value="quit" />
+                <buttonImage value="file://%INSTALLDIR%/quit.png" />
+            </Button5>
+        </Buttons>
+    </ButtonBar3>
+</Buttonbargroup>
