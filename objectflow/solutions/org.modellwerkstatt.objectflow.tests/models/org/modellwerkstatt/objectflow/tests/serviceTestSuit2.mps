@@ -145,7 +145,7 @@
       <concept id="5939782625200795740" name="org.modellwerkstatt.objectflow.structure.ServiceMethodDispatchInfo" flags="ng" index="2ojMyf">
         <child id="5939782625200795753" name="classifierTypes" index="2ojMyU" />
       </concept>
-      <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
+      <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.Config" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
         <child id="478945708906902061" name="elements" index="2CGBMS" />
         <child id="4625932951302987031" name="comcponentScanBase" index="3d0G2l" />
@@ -163,7 +163,7 @@
       </concept>
       <concept id="478945708912703702" name="org.modellwerkstatt.objectflow.structure.OFXConfigEmpty" flags="ng" index="2CPvp3" />
       <concept id="4517030675489743647" name="org.modellwerkstatt.objectflow.structure.Service" flags="ig" index="2EH5hC" />
-      <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
+      <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.TestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
         <child id="6952410984685371541" name="content" index="3yMuLx" />
@@ -820,7 +820,7 @@
       </node>
     </node>
     <node concept="2CPvp3" id="5MCXLSo9cFu" role="2CGBMS" />
-    <node concept="Xl_RD" id="40MBoae1FUq" role="3d0G2l">
+    <node concept="Xl_RD" id="1nLGXVrsr3S" role="3d0G2l">
       <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
     </node>
   </node>
@@ -1524,7 +1524,7 @@
       </node>
     </node>
     <node concept="2CPvp3" id="6VW5G62DV6B" role="2CGBMS" />
-    <node concept="Xl_RD" id="40MBoae1FUu" role="3d0G2l">
+    <node concept="Xl_RD" id="1nLGXVrsr3T" role="3d0G2l">
       <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
     </node>
   </node>

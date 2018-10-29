@@ -1,4 +1,4 @@
-Invoice  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true  )
+Invoice  (_dirty: false  _isNewInSession: false  _readOnly: false  _TCN: 0  _enabled: true  )
 id  #*#*
 nameLen  6
 totalAmount  60
@@ -9,7 +9,7 @@ localDate  27.01.1980
 dateTime  27.01.1980 04:30:00
 headState  Status 1
 positions (List)
-   InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true  )
+   InvoicePosition  (_dirty: false  _isNewInSession: false  _readOnly: false  _TCN: 0  _enabled: true  )
    id  #*#*
    posAvalue  0
    posText  g2-ref_0
@@ -17,7 +17,7 @@ positions (List)
    invoice (Reference) Key  #*#* (OPP)
    subposition (List)
 
-   InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true  )
+   InvoicePosition  (_dirty: false  _isNewInSession: false  _readOnly: false  _TCN: 0  _enabled: true  )
    id  #*#*
    posAvalue  10
    posText  g2-ref_1
@@ -25,7 +25,7 @@ positions (List)
    invoice (Reference) Key  #*#* (OPP)
    subposition (List)
 
-   InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true  )
+   InvoicePosition  (_dirty: false  _isNewInSession: false  _readOnly: false  _TCN: 0  _enabled: true  )
    id  #*#*
    posAvalue  20
    posText  g2-ref_2
@@ -33,7 +33,7 @@ positions (List)
    invoice (Reference) Key  #*#* (OPP)
    subposition (List)
 
-   InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true  )
+   InvoicePosition  (_dirty: false  _isNewInSession: false  _readOnly: false  _TCN: 0  _enabled: true  )
    id  #*#*
    posAvalue  30
    posText  g2-ref_3
@@ -42,7 +42,7 @@ positions (List)
    subposition (List)
 
 mainPosRef (Reference) Key  #*#*
-   InvoicePosition  (_dirty: false  _readOnly: false  _TCN: 0  _enabled: true  )
+   InvoicePosition  (_dirty: false  _isNewInSession: false  _readOnly: false  _TCN: 0  _enabled: true  )
    id  #*#*
    posAvalue  0
    posText  ref2

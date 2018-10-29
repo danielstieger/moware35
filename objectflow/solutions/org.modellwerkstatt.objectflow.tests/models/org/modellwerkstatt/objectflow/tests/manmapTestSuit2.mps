@@ -298,7 +298,7 @@
       <concept id="4338511869696968148" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDependentOption" flags="ng" index="zbZxr">
         <reference id="4338511869696968277" name="test" index="zbZJq" />
       </concept>
-      <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
+      <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.Config" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
         <child id="478945708906902061" name="elements" index="2CGBMS" />
         <child id="4625932951302987031" name="comcponentScanBase" index="3d0G2l" />
@@ -347,7 +347,7 @@
       <concept id="7270431012770461291" name="org.modellwerkstatt.objectflow.structure.BPRefIdReference" flags="ng" index="WNRgn">
         <reference id="7270431012770461292" name="businessProperty" index="WNRgg" />
       </concept>
-      <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
+      <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.TestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="4079546759073522236" name="configuredComponents" index="23Ghgl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
@@ -391,6 +391,7 @@
       <concept id="3179794825387428127" name="org.modellwerkstatt.objectflow.structure.OFXTestRunFileStatement" flags="ng" index="3dXMYk">
         <child id="8484523473172248091" name="pathRef" index="JmycY" />
       </concept>
+      <concept id="1581242713937921592" name="org.modellwerkstatt.objectflow.structure.OFXTestCompareOptionIgnoreNewInSession" flags="ng" index="3e07nA" />
       <concept id="3179794825395091428" name="org.modellwerkstatt.objectflow.structure.OFXTestNewSessionExpression" flags="ng" index="3er55J" />
       <concept id="7604036740764640594" name="org.modellwerkstatt.objectflow.structure.VariantDeclaration" flags="ng" index="3hNl9M">
         <property id="7604036740764640651" name="variant" index="3hNlaF" />
@@ -1363,7 +1364,7 @@
   <node concept="2WPaUQ" id="4szYp3XojuM">
     <property role="TrG5h" value="Graph load/save (no session)" />
     <property role="3GE5qa" value="tests" />
-    <ref role="2WPtWl" node="6VW5G60I4vl" resolve="LocalMySqlConfig" />
+    <ref role="2WPtWl" node="7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
     <node concept="3yPF9F" id="70qPrkCyg_r" role="3yMuLx">
       <property role="TrG5h" value="Store and Load Invoices by Graph get/where" />
       <node concept="3cqZAl" id="70qPrkCygBD" role="3clF45" />
@@ -1381,6 +1382,7 @@
               <property role="Xl_RC" value="INVOICE_first" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIF" role="1oUvAS" />
         </node>
         <node concept="pXX7f" id="70qPrkDi5zI" role="3cqZAp">
           <node concept="1p7Fgr" id="70qPrkDi5zJ" role="1oUvAS" />
@@ -1394,6 +1396,7 @@
               <property role="Xl_RC" value="INVOICE_second" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIP" role="1oUvAS" />
         </node>
         <node concept="pXX7f" id="70qPrkDi5zX" role="3cqZAp">
           <node concept="1p7Fgr" id="70qPrkDi5zY" role="1oUvAS" />
@@ -1407,6 +1410,7 @@
               <property role="Xl_RC" value="INVOICE_third" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIq" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="70qPrkDi5iq" role="3cqZAp" />
         <node concept="3clFbH" id="70qPrkCSLVC" role="3cqZAp" />
@@ -1448,8 +1452,9 @@
               <property role="Xl_RC" value="INVOICE_first" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIR" role="1oUvAS" />
         </node>
-        <node concept="3clFbH" id="70qPrkCSLWD" role="3cqZAp" />
+        <node concept="3clFbH" id="1nLGXVrWaHH" role="3cqZAp" />
         <node concept="3cpWs8" id="70qPrkCTcGx" role="3cqZAp">
           <node concept="3cpWsn" id="70qPrkCTcGy" role="3cpWs9">
             <property role="TrG5h" value="reloaded2" />
@@ -1483,6 +1488,7 @@
               <property role="Xl_RC" value="INVOICE_second" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIv" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="70qPrkCTcEL" role="3cqZAp" />
         <node concept="3cpWs8" id="70qPrkCTcLP" role="3cqZAp">
@@ -1518,6 +1524,7 @@
               <property role="Xl_RC" value="INVOICE_third" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIS" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="70qPrkCTcJq" role="3cqZAp" />
       </node>
@@ -1566,6 +1573,7 @@
               <property role="Xl_RC" value="INVOICE_first" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIH" role="1oUvAS" />
         </node>
         <node concept="3clFbF" id="2i3o0he1AYN" role="3cqZAp">
           <node concept="37vLTI" id="2i3o0he1B2a" role="3clFbG">
@@ -1776,6 +1784,7 @@
               <property role="Xl_RC" value="INVOICE_first" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sII" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="4ksEJbWj8Nj" role="3cqZAp" />
         <node concept="3cpWs8" id="4ksEJbWj8AK" role="3cqZAp">
@@ -1811,6 +1820,7 @@
               <property role="Xl_RC" value="INVOICE_second" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIr" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="4ksEJbWj7U$" role="3cqZAp" />
       </node>
@@ -1867,6 +1877,7 @@
               <property role="Xl_RC" value="INVOICE_first" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIN" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="4ksEJbWjYce" role="3cqZAp" />
         <node concept="3cpWs8" id="4ksEJbWjV3O" role="3cqZAp">
@@ -1902,6 +1913,7 @@
               <property role="Xl_RC" value="INVOICE_second" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIW" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="4ksEJbWjV42" role="3cqZAp" />
       </node>
@@ -2643,6 +2655,7 @@
               <property role="Xl_RC" value="INVOICE_ext1" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sI$" role="1oUvAS" />
         </node>
         <node concept="pXX7f" id="4ksEJbWt1w$" role="3cqZAp">
           <node concept="1p7Fgr" id="4ksEJbWt1w_" role="1oUvAS" />
@@ -2656,6 +2669,7 @@
               <property role="Xl_RC" value="INVOICE_ext2" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIC" role="1oUvAS" />
         </node>
         <node concept="pXX7f" id="4ksEJbWt1wE" role="3cqZAp">
           <node concept="1p7Fgr" id="4ksEJbWt1wF" role="1oUvAS" />
@@ -2669,6 +2683,7 @@
               <property role="Xl_RC" value="INVOICE_ext3" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIz" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="4ksEJbWt1wK" role="3cqZAp" />
         <node concept="3clFbH" id="4ksEJbWt1wL" role="3cqZAp" />
@@ -2712,6 +2727,7 @@
                   <property role="Xl_RC" value="INVOICE_ext1" />
                 </node>
               </node>
+              <node concept="3e07nA" id="1nLGXVs0sIw" role="1oUvAS" />
             </node>
             <node concept="3clFbH" id="6VW5G61x_Jf" role="3cqZAp" />
             <node concept="3cpWs8" id="6VW5G61x_Jg" role="3cqZAp">
@@ -2747,6 +2763,7 @@
                   <property role="Xl_RC" value="INVOICE_ext2" />
                 </node>
               </node>
+              <node concept="3e07nA" id="1nLGXVs0sIs" role="1oUvAS" />
             </node>
             <node concept="3clFbH" id="6VW5G61x_Ju" role="3cqZAp" />
             <node concept="3cpWs8" id="6VW5G61x_Jv" role="3cqZAp">
@@ -2782,6 +2799,7 @@
                   <property role="Xl_RC" value="INVOICE_ext3" />
                 </node>
               </node>
+              <node concept="3e07nA" id="1nLGXVs0sIX" role="1oUvAS" />
             </node>
             <node concept="3clFbH" id="6VW5G61x_IX" role="3cqZAp" />
           </node>
@@ -2976,6 +2994,7 @@
               <property role="Xl_RC" value="EXTINVOICE_FROM_INVOICE" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIO" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -3230,7 +3249,7 @@
       </node>
     </node>
     <node concept="3yPF9F" id="RffU3zv8kn" role="3yMuLx">
-      <property role="TrG5h" value="Reloading an Invoice read only object results in an exception" />
+      <property role="TrG5h" value="Reloading an Invoice read only object results not in an exception" />
       <node concept="3yABqi" id="RffU3zv8ko" role="3yGA3Q">
         <property role="TrG5h" value="inv1" />
         <ref role="37wK5l" node="4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
@@ -3275,12 +3294,6 @@
               <node concept="1uHKPH" id="RffU3zveqb" role="2OqNvi" />
             </node>
             <node concept="10Nm6u" id="RffU3zveqW" role="2f8TIa" />
-          </node>
-          <node concept="16GPin" id="RffU3zwUfb" role="lGtFl">
-            <ref role="16PnFS" to="wyt6:~IllegalStateException" resolve="IllegalStateException" />
-            <node concept="Xl_RD" id="RffU3zwV9f" role="16NUyR">
-              <property role="Xl_RC" value="marked as readonly" />
-            </node>
           </node>
         </node>
       </node>
@@ -3474,6 +3487,7 @@
               <property role="Xl_RC" value="SIMPLESTRINGKEYRELOAD" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIJ" role="1oUvAS" />
         </node>
         <node concept="3clFbF" id="RffU3z7ZJt" role="3cqZAp">
           <node concept="1odsa" id="RffU3z7ZJs" role="3clFbG">
@@ -3519,6 +3533,7 @@
               <property role="Xl_RC" value="SIMPLESTRINGKEYRELOAD" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sID" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="RffU3z80FM" role="3cqZAp" />
       </node>
@@ -3593,6 +3608,7 @@
               <property role="Xl_RC" value="VALUEOBJKEYGRAPH" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIV" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -4232,6 +4248,45 @@
     <property role="TrG5h" value="MPreisLolaTestSuitConfig" />
     <property role="2320hu" value="2018-08-07T11:43:47.117+02:00" />
     <property role="3GE5qa" value="config" />
+    <node concept="2CJf3v" id="6VW5G62DV5z" role="2CGBMS">
+      <property role="TrG5h" value="ldapService" />
+      <node concept="Xl_RD" id="6VW5G62DV5$" role="2CJf0U">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.services.MoLdapService" />
+      </node>
+      <node concept="2CJf1O" id="6VW5G62DV5_" role="2CJ4_l">
+        <node concept="Xl_RD" id="6VW5G62DV5A" role="2DqwMp">
+          <property role="Xl_RC" value="ldap://dc1.mpreis.co.at:389" />
+        </node>
+        <node concept="Xl_RD" id="6VW5G62DV5B" role="2DqwMv">
+          <property role="Xl_RC" value="0" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="6VW5G62DV5C" role="2CJ4_l">
+        <node concept="Xl_RD" id="6VW5G62DV5D" role="2DqwMp">
+          <property role="Xl_RC" value="CN=NP_moware-auth,OU=04SPEZIAL,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
+        </node>
+        <node concept="Xl_RD" id="6VW5G62DV5E" role="2DqwMv">
+          <property role="Xl_RC" value="1" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="6VW5G62DV5F" role="2CJ4_l">
+        <node concept="Xl_RD" id="6VW5G62DV5G" role="2DqwMp">
+          <property role="Xl_RC" value="pwd" />
+        </node>
+        <node concept="Xl_RD" id="6VW5G62DV5H" role="2DqwMv">
+          <property role="Xl_RC" value="2" />
+        </node>
+      </node>
+      <node concept="2CJf1O" id="6VW5G62DV5I" role="2CJ4_l">
+        <node concept="Xl_RD" id="6VW5G62DV5J" role="2DqwMp">
+          <property role="Xl_RC" value="OU=01BENUTZER,OU=01RESOURCE,DC=mpreis,DC=co,DC=at" />
+        </node>
+        <node concept="Xl_RD" id="6VW5G62DV5K" role="2DqwMv">
+          <property role="Xl_RC" value="3" />
+        </node>
+      </node>
+    </node>
+    <node concept="2CPvp3" id="1nLGXVrF5Ev" role="2CGBMS" />
     <node concept="2CJf3v" id="6BKPvpDTdkj" role="2CGBMS">
       <property role="TrG5h" value="currentPlatform" />
       <node concept="Xl_RD" id="6BKPvpDTdkl" role="2CJf0U">
@@ -4293,7 +4348,7 @@
       </node>
     </node>
     <node concept="2CPvp3" id="2UR_HtvhiaQ" role="2CGBMS" />
-    <node concept="Xl_RD" id="40MBoae1FUp" role="3d0G2l">
+    <node concept="Xl_RD" id="1nLGXVrsr3O" role="3d0G2l">
       <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
     </node>
   </node>
@@ -4462,7 +4517,7 @@
       <node concept="2CJf3v" id="6VW5G62R9Zd" role="2CJdiS">
         <property role="TrG5h" value="databaseDesc" />
         <node concept="Xl_RD" id="6VW5G62R9Zf" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT.MMOracleDescription" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMOracleDescription" />
         </node>
       </node>
     </node>
@@ -4471,7 +4526,7 @@
       <node concept="2CJf3v" id="6VW5G62Ra0G" role="2CJdiS">
         <property role="TrG5h" value="databaseDesc" />
         <node concept="Xl_RD" id="6VW5G62Ra0H" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT.MMOracleDescription" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMOracleDescription" />
         </node>
       </node>
       <node concept="2CPvp3" id="6VW5G62Ra4N" role="2CJdiS" />
@@ -4568,37 +4623,37 @@
       <node concept="2CJf3v" id="4LC0Y0L2pbd" role="2CJdiS">
         <property role="TrG5h" value="_dateTimeTypeHandler" />
         <node concept="Xl_RD" id="4LC0Y0L2pbe" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT.MMJodaDateTimeTypeHanlder" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMJodaDateTimeTypeHanlder" />
         </node>
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbf" role="2CJdiS">
         <property role="TrG5h" value="_localDateTypeHandler" />
         <node concept="Xl_RD" id="4LC0Y0L2pbg" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT.MMJodaLocalDateTypeHanlder" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMJodaLocalDateTypeHanlder" />
         </node>
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbh" role="2CJdiS">
         <property role="TrG5h" value="_bigDecimalTypeHandler" />
         <node concept="Xl_RD" id="4LC0Y0L2pbi" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT.MMBigDecimalTypeHandler" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMBigDecimalTypeHandler" />
         </node>
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbj" role="2CJdiS">
         <property role="TrG5h" value="_stringTypeHandler" />
         <node concept="Xl_RD" id="4LC0Y0L2pbk" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT.MMStringTypeHandler" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMStringTypeHandler" />
         </node>
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbl" role="2CJdiS">
         <property role="TrG5h" value="_intTypeHandler" />
         <node concept="Xl_RD" id="4LC0Y0L2pbm" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT.MMIntTypeHandler" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMIntTypeHandler" />
         </node>
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbn" role="2CJdiS">
         <property role="TrG5h" value="_mmTypeHandlers" />
         <node concept="Xl_RD" id="4LC0Y0L2pbo" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT.MMTypeHandlers" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMTypeHandlers" />
         </node>
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbp" role="2CJdiS">
@@ -4625,7 +4680,7 @@
       </node>
     </node>
     <node concept="2CPvp3" id="2n3p7A96FaZ" role="2CGBMS" />
-    <node concept="Xl_RD" id="40MBoae1FUt" role="3d0G2l">
+    <node concept="Xl_RD" id="1nLGXVrsr3Q" role="3d0G2l">
       <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
     </node>
   </node>
@@ -11290,6 +11345,7 @@
               <property role="Xl_RC" value="STRINGKEYGRAPH" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIE" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -11519,6 +11575,7 @@
               <property role="Xl_RC" value="VALUEOBJREFGRAPH" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIB" role="1oUvAS" />
         </node>
         <node concept="1gVbGN" id="RffU3zODfB" role="3cqZAp">
           <node concept="2OqwBi" id="RffU3zODXL" role="1gVkn0">
@@ -11896,6 +11953,7 @@
               <property role="Xl_RC" value="REFVALOBJOIN" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIK" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -12141,6 +12199,7 @@
               <property role="Xl_RC" value="VALOBJJOINLIST" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sJ0" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="1oH_MJeHXzt" role="3cqZAp" />
       </node>
@@ -16426,7 +16485,7 @@
     </node>
     <node concept="1DZZI9" id="4eJAcMm23k_" role="38MLOi">
       <property role="26Iqih" value="true" />
-      <ref role="1DZZIc" node="4pH_TM_J4sD" resolve=" Session tests" />
+      <ref role="1DZZIc" node="4pH_TM_J4sD" resolve="Session tests" />
     </node>
   </node>
   <node concept="2WPaUQ" id="6pbeIz$kE$1">
@@ -20625,6 +20684,7 @@
               <property role="Xl_RC" value="REVERTLIST" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIL" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="6pbeIz$q39x" role="3cqZAp" />
         <node concept="3clFbF" id="6pbeIz$pUfZ" role="3cqZAp">
@@ -20719,6 +20779,7 @@
               <property role="Xl_RC" value="REVERTLIST" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIU" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="6pbeIz$q1ij" role="3cqZAp" />
       </node>
@@ -20747,6 +20808,7 @@
               <property role="Xl_RC" value="REVERTLIST" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sJ1" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="6pbeIz$tx53" role="3cqZAp" />
         <node concept="3clFbF" id="6pbeIz$tx54" role="3cqZAp">
@@ -20983,6 +21045,7 @@
               <property role="Xl_RC" value="REVERTLIST" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sI_" role="1oUvAS" />
         </node>
         <node concept="3clFbH" id="6pbeIz$tJz3" role="3cqZAp" />
         <node concept="3clFbF" id="6pbeIz$tJz4" role="3cqZAp">
@@ -21114,6 +21177,7 @@
               <property role="Xl_RC" value="REVERTLISTRDONLY" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIA" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -21185,6 +21249,7 @@
               <property role="Xl_RC" value="XMLINVTEXT" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIG" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -21381,6 +21446,7 @@
               <property role="Xl_RC" value="STINVTEXT" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIt" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -23092,7 +23158,7 @@
   </node>
   <node concept="2WPaUQ" id="4pH_TM_J4sD">
     <property role="3GE5qa" value="tests" />
-    <property role="TrG5h" value=" Session tests" />
+    <property role="TrG5h" value="Session tests" />
     <ref role="2WPtWl" node="7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
     <node concept="1DZZI9" id="4pH_TM_JbLn" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="Creators" />
@@ -25839,6 +25905,7 @@
               <property role="Xl_RC" value="SESSION_JC_G1" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIQ" role="1oUvAS" />
         </node>
         <node concept="pXX7f" id="4eJAcMlK7wl" role="3cqZAp">
           <node concept="1p7Fgr" id="4eJAcMlK7wm" role="1oUvAS" />
@@ -25852,6 +25919,7 @@
               <property role="Xl_RC" value="SESSION_JC_G2" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIY" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -25942,6 +26010,7 @@
               <property role="Xl_RC" value="SESSION_JC_G1" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIM" role="1oUvAS" />
         </node>
         <node concept="pXX7f" id="4eJAcMlK8RO" role="3cqZAp">
           <node concept="1p7Fgr" id="4eJAcMlK8RP" role="1oUvAS" />
@@ -25955,6 +26024,7 @@
               <property role="Xl_RC" value="SESSION_JC_G2" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIx" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -26044,6 +26114,7 @@
               <property role="Xl_RC" value="SESSION_JC_G1" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIy" role="1oUvAS" />
         </node>
         <node concept="pXX7f" id="4eJAcMlQoEv" role="3cqZAp">
           <node concept="1p7Fgr" id="4eJAcMlQoEw" role="1oUvAS" />
@@ -26064,6 +26135,7 @@
               <property role="Xl_RC" value="SESSION_JC_G2" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIT" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -26153,6 +26225,7 @@
               <property role="Xl_RC" value="SESSION_JC_G1" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIu" role="1oUvAS" />
         </node>
         <node concept="pXX7f" id="4eJAcMlQEZ9" role="3cqZAp">
           <node concept="1p7Fgr" id="4eJAcMlQEZa" role="1oUvAS" />
@@ -26173,6 +26246,7 @@
               <property role="Xl_RC" value="SESSION_JC_G2" />
             </node>
           </node>
+          <node concept="3e07nA" id="1nLGXVs0sIZ" role="1oUvAS" />
         </node>
       </node>
     </node>
@@ -27850,6 +27924,109 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="1nLGXVrnlc0" role="3yMuLx">
+      <property role="TrG5h" value="Loading an entity from db results in a isNewInSession false" />
+      <node concept="3cqZAl" id="1nLGXVrnlc1" role="3clF45" />
+      <node concept="3clFbS" id="1nLGXVrnlc2" role="3clF47">
+        <node concept="3clFbH" id="1nLGXVrnnbe" role="3cqZAp" />
+        <node concept="3cpWs8" id="1nLGXVrnncF" role="3cqZAp">
+          <node concept="3cpWsn" id="1nLGXVrnncG" role="3cpWs9">
+            <property role="TrG5h" value="session" />
+            <node concept="3uibUv" id="1nLGXVrnncH" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+            </node>
+            <node concept="3er55J" id="1nLGXVrnncI" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1nLGXVrnncJ" role="3cqZAp">
+          <node concept="3cpWsn" id="1nLGXVrnncK" role="3cpWs9">
+            <property role="TrG5h" value="inv" />
+            <node concept="3uibUv" id="1nLGXVrnncL" role="1tU5fm">
+              <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="1odsa" id="1nLGXVrnncM" role="33vP2m">
+              <ref role="37wK5l" node="RffU3zlKJT" resolve="checkoutInvoiceByIdWithRefs" />
+              <ref role="1ods_" node="70qPrkCy95v" resolve="RepoInvoice" />
+              <node concept="2OqwBi" id="1nLGXVrnncN" role="37wK5m">
+                <node concept="3zkua3" id="1nLGXVrnncO" role="2Oq$k0">
+                  <ref role="3zku8S" node="1nLGXVrnmTg" resolve="created_inv" />
+                </node>
+                <node concept="2S8uIT" id="1nLGXVrnncP" role="2OqNvi">
+                  <ref role="2S8YL0" node="612_n8HbChJ" resolve="id" />
+                </node>
+              </node>
+              <node concept="37vLTw" id="1nLGXVrnncQ" role="2f8TIa">
+                <ref role="3cqZAo" node="1nLGXVrnncG" resolve="session" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1nLGXVrn$8v" role="3cqZAp" />
+        <node concept="1gVbGN" id="1nLGXVrnsqr" role="3cqZAp">
+          <node concept="3fqX7Q" id="1nLGXVrnxwN" role="1gVkn0">
+            <node concept="2OqwBi" id="1nLGXVrnxwP" role="3fr31v">
+              <node concept="2OqwBi" id="1nLGXVrnxwQ" role="2Oq$k0">
+                <node concept="37vLTw" id="1nLGXVrnxwR" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1nLGXVrnncK" resolve="inv" />
+                </node>
+                <node concept="2Tkd$M" id="1nLGXVrnxwS" role="2OqNvi" />
+              </node>
+              <node concept="liA8E" id="1nLGXVrnxwT" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isNewInSession" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3yABqi" id="1nLGXVrnmTg" role="3yGA3Q">
+        <property role="TrG5h" value="created_inv" />
+        <ref role="37wK5l" node="4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
+        <node concept="Xl_RD" id="1nLGXVrnn9a" role="37wK5m">
+          <property role="Xl_RC" value="isnew" />
+        </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="1nLGXVrn_rp" role="3yMuLx">
+      <property role="TrG5h" value="Creating Entity with new() sets isNewInSession to true" />
+      <node concept="3cqZAl" id="1nLGXVrn_rq" role="3clF45" />
+      <node concept="3clFbS" id="1nLGXVrn_rr" role="3clF47">
+        <node concept="3clFbH" id="1nLGXVrn_rs" role="3cqZAp" />
+        <node concept="3cpWs8" id="1nLGXVrnTxV" role="3cqZAp">
+          <node concept="3cpWsn" id="1nLGXVrnTxW" role="3cpWs9">
+            <property role="TrG5h" value="inv" />
+            <node concept="3uibUv" id="1nLGXVrnTxX" role="1tU5fm">
+              <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="2ShNRf" id="1nLGXVrnULE" role="33vP2m">
+              <node concept="1pGfFk" id="1nLGXVrnXQ0" role="2ShVmc">
+                <ref role="37wK5l" node="612_n8HbEOF" resolve="Invoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="1nLGXVrn_rE" role="3cqZAp">
+          <node concept="2OqwBi" id="1nLGXVrn_rG" role="1gVkn0">
+            <node concept="2OqwBi" id="1nLGXVrn_rH" role="2Oq$k0">
+              <node concept="37vLTw" id="1nLGXVro1KR" role="2Oq$k0">
+                <ref role="3cqZAo" node="1nLGXVrnTxW" resolve="inv" />
+              </node>
+              <node concept="2Tkd$M" id="1nLGXVrn_rJ" role="2OqNvi" />
+            </node>
+            <node concept="liA8E" id="1nLGXVrn_rK" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isNewInSession" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3yABqi" id="1nLGXVrn_rL" role="3yGA3Q">
+        <property role="TrG5h" value="created_inv" />
+        <ref role="37wK5l" node="4szYp3XojxL" resolve="Create Invoice Graph with 4 Positions on DB" />
+        <node concept="Xl_RD" id="1nLGXVrn_rM" role="37wK5m">
+          <property role="Xl_RC" value="isnew" />
+        </node>
+      </node>
+    </node>
+    <node concept="1DF_5m" id="1nLGXVrnkpS" role="3yMuLx" />
     <node concept="1DF_5m" id="4eJAcMlh$$r" role="3yMuLx" />
   </node>
   <node concept="wbJL_" id="1lpzdTlNdbG">
@@ -32185,7 +32362,7 @@
       <node concept="2CJf3v" id="6VW5G60I5jm" role="2CJdiS">
         <property role="TrG5h" value="databaseDescription" />
         <node concept="Xl_RD" id="6VW5G60I5jn" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.solution.manmapRT.MMMySqlDescription" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMMySqlDescription" />
         </node>
       </node>
       <node concept="2CPvp3" id="6VW5G60I4vy" role="2CJdiS" />
@@ -32216,8 +32393,8 @@
       </node>
     </node>
     <node concept="2CPvp3" id="6VW5G60I4vG" role="2CGBMS" />
-    <node concept="Xl_RD" id="40MBoae1FUo" role="3d0G2l">
-      <property role="Xl_RC" value="org.modellwerkstatt" />
+    <node concept="Xl_RD" id="1nLGXVrsr3R" role="3d0G2l">
+      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
     </node>
   </node>
   <node concept="2EH5hC" id="6VW5G61m1vG">

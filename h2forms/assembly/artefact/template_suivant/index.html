@@ -3,8 +3,14 @@
 <title>H2Forms Suivant</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Visible" >
+<meta HTTP-Equiv="ButtonBar2" Content="Visibility:Visible" >
+<meta HTTP-Equiv="ButtonBar3" Content="Visibility:Visible" >
+<meta HTTP-Equiv="ButtonBar4" Content="Visibility:Visible" >
+<meta HTTP-Equiv="ButtonBar5" Content="Visibility:Visible" >
+
 <link rel="stylesheet" href="./css/w3.css">
 <script charset="utf-8" src="./js/suivant.js"></script>
+<script charset="utf-8" src="./ebapi/ebapi-modules.js"></script>
 <body>
 
 <div class="w3-container">
@@ -12,13 +18,11 @@
   <p>The next generation template for zebra eb 1.8</p>
   <p id="info1"> </p>
   <p id="info2"> </p>
-
+  <p id="info3"> </p>
+  <input type="text" value=""> 
+  <button type="button" onClick="javascript: EB.Application.quit();">Exit EB</button>
 </div>
 
 </body>
-<script>
-$('#info1').innerHTML = '> ' + window.screen.availHeight + ' X ' + window.screen.availWidth;
-$('#info2').innerHTML = '> ' + window.screen.height + ' X ' + window.screen.width;
 
-</script>
 </html>

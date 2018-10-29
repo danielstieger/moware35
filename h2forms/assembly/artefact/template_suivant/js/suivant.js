@@ -22,3 +22,14 @@ var $ = function(query) {
 var $$ = function(query) {
   return document.querySelectorAll(query);
 };
+
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  EB.KeyCapture.captureKey(true,'all', function(param){
+        $('#info3').innerHTML = JSON.stringify(param);
+    });
+
+  $('#info1').innerHTML = '> ' + window.screen.availHeight + ' X ' + window.screen.availWidth;
+  $('#info2').innerHTML = '> ' + window.screen.height + ' X ' + window.screen.width;
+});

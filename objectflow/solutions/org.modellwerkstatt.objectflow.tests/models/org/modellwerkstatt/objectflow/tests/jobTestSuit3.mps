@@ -261,14 +261,14 @@
       </concept>
     </language>
     <language id="ec097fca-5b84-41f2-847d-6a5690cae277" name="org.modellwerkstatt.objectflow">
-      <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
+      <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.Config" flags="ng" index="2CG7Z0">
         <child id="478945708906902061" name="elements" index="2CGBMS" />
         <child id="4625932951302987031" name="comcponentScanBase" index="3d0G2l" />
       </concept>
       <concept id="478945708907003466" name="org.modellwerkstatt.objectflow.structure.OFXConfigInstance" flags="ng" index="2CJf3v">
         <child id="478945708907003567" name="className" index="2CJf0U" />
       </concept>
-      <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
+      <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.TestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
         <child id="6952410984685371541" name="content" index="3yMuLx" />
@@ -4098,8 +4098,8 @@
         <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.jobTestSuit3.FakeAppFactory" />
       </node>
     </node>
-    <node concept="Xl_RD" id="40MBoae1FUr" role="3d0G2l">
-      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests.jobTestSuit3" />
+    <node concept="Xl_RD" id="1nLGXVrsr3P" role="3d0G2l">
+      <property role="Xl_RC" value="org.modellwerkstatt" />
     </node>
   </node>
   <node concept="312cEu" id="5lMTsSlMoEl">

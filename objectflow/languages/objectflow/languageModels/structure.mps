@@ -1349,6 +1349,7 @@
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/valueobject.png" />
     <property role="1pbfSe" value="1105225428" />
+    <property role="34LRSv" value="Value Object" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
     <node concept="1TJgyj" id="6W_Qo9eYs0w" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1405,6 +1406,7 @@
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/modelrepo.png" />
     <property role="1pbfSe" value="1104085143" />
+    <property role="34LRSv" value="Repository" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
     <node concept="1TJgyj" id="54AO9SbtAec" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1478,7 +1480,7 @@
     <property role="TrG5h" value="ViewObject" />
     <property role="MwhBj" value="${module}/icons/viewobject.png" />
     <property role="19KtqR" value="true" />
-    <property role="34LRSv" value="ViewObject" />
+    <property role="34LRSv" value="View Object" />
     <property role="1pbfSe" value="2134649593" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
     <node concept="1TJgyj" id="32cVeK$obFB" role="1TKVEi">
@@ -1748,8 +1750,9 @@
     <property role="3GE5qa" value="Permission" />
     <property role="TrG5h" value="RolesAndPermissions" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/brickwall_edit.png" />
+    <property role="MwhBj" value="${module}/icons/rolesnew.png" />
     <property role="1pbfSe" value="1410144708" />
+    <property role="34LRSv" value="Roles and Permissions" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="49kO6rP6GFL" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -2001,7 +2004,7 @@
   </node>
   <node concept="1TIwiD" id="q_zDmI5v5l">
     <property role="3GE5qa" value="Configuration" />
-    <property role="TrG5h" value="OFXConfig" />
+    <property role="TrG5h" value="Config" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/configuration.png" />
     <property role="1pbfSe" value="1262780438" />
@@ -2289,10 +2292,10 @@
   <node concept="1TIwiD" id="1aaqwMInGiU">
     <property role="1pbfSe" value="1058459962" />
     <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="OFXTestSuit" />
+    <property role="TrG5h" value="TestSuit" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/testsuit.png" />
-    <property role="34LRSv" value="OFXTestSuit" />
+    <property role="34LRSv" value="Testsuit" />
     <property role="R4oN_" value="stand alone runnable" />
     <ref role="1TJDcQ" node="6ffh1MXA9UE" resolve="Container" />
     <node concept="1TJgyj" id="3yttyAVb68W" role="1TKVEi">
@@ -2305,7 +2308,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="q_zDmI5v5l" resolve="OFXConfig" />
+      <ref role="20lvS9" node="q_zDmI5v5l" resolve="Config" />
     </node>
     <node concept="1TJgyj" id="61VVfi2BbQl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -2465,7 +2468,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="testsuit" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1aaqwMInGiU" resolve="OFXTestSuit" />
+      <ref role="20lvS9" node="1aaqwMInGiU" resolve="TestSuit" />
     </node>
     <node concept="PrWs8" id="3iT39DbhYW" role="PzmwI">
       <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
@@ -4056,6 +4059,17 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7HkVpVcNO_X" role="PzmwI">
       <ref role="PrY4T" node="7HkVpVcFgBy" resolve="IPageEventHandler" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1nLGXVrWsoS">
+    <property role="1pbfSe" value="236750314" />
+    <property role="3GE5qa" value="OFXTest.statements" />
+    <property role="TrG5h" value="OFXTestCompareOptionIgnoreNewInSession" />
+    <property role="34LRSv" value="IGNORE_NEW_IN_SESSION" />
+    <property role="R4oN_" value="when comparing graphs" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1nLGXVrWsoT" role="PzmwI">
+      <ref role="PrY4T" node="70qPrkD166$" resolve="IOFXTestCompareOption" />
     </node>
   </node>
 </model>

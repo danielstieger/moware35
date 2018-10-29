@@ -8,24 +8,24 @@
         <barTransparency value="10" />
         <barFontSize value="16" />
         <barLeft value="0" />
-        <barTop value="1060" />
+        <barTop value="1050" />
         <barWidth value="720" />
-        <barHeight value="120" />
+        <barHeight value="130" />
         <barTextColor value="#222222" />
         <barTextStyle value="bold" />
-        <barGapBtwnButtons value="30" />
+        <barGapBtwnButtons value="30" /> 
         <Buttons>
             <Button1>
-                <buttonText value="&lt;" />
+                <buttonText value="<" />
                 <buttonActionClick value="key-131" />
             </Button1>
             <Button2>
                 <buttonText value="0" />
-                <buttonActionClick value="key-7" />
+                <buttonActionClick value="key-132" />
             </Button2>
             <Button3>
                 <buttonText value="." />
-                <buttonActionClick value="key-56" />
+                <buttonActionClick value="key-7" />
             </Button3>
             <Button4>
                 <buttonText value="Ok" />
@@ -33,39 +33,40 @@
             </Button4>
         </Buttons>
     </ButtonBar1>
-     <ButtonBar2>
+    
+    <ButtonBar2>
         <barOrientation value="Horizontal" />
         <barColor value="#efeef3" />
         <barColorPressed value="#51b7ac" />
         <barTransparency value="10" />
         <barFontSize value="16" />
         <barLeft value="0" />
-        <barTop value="930" />
+        <barTop value="920" />
         <barWidth value="720" />
-        <barHeight value="120" />
+        <barHeight value="130" />
         <barTextColor value="#222222" />
         <barTextStyle value="bold" />
-        <barGapBtwnButtons value="30" />
+        <barGapBtwnButtons value="30" /> 
         <Buttons>
             <Button1>
                 <buttonText value="7" />
-                <buttonActionClick value="key-14" />
+                <buttonActionClick value="key-131" />
             </Button1>
             <Button2>
                 <buttonText value="8" />
-                <buttonActionClick value="key-15" />
+                <buttonActionClick value="key-132" />
             </Button2>
             <Button3>
                 <buttonText value="9" />
-                <buttonActionClick value="key-16" />
+                <buttonActionClick value="key-7" />
             </Button3>
             <Button4>
-                <buttonText value="&lt;&lt;" />
-                <buttonActionClick value="key-67" />
+                <buttonText value="<<" />
+                <buttonActionClick value="key-8" />
             </Button4>
         </Buttons>
     </ButtonBar2>
-
+    
     <ButtonBar3>
         <barOrientation value="Horizontal" />
         <barColor value="#efeef3" />
@@ -73,24 +74,24 @@
         <barTransparency value="10" />
         <barFontSize value="16" />
         <barLeft value="0" />
-        <barTop value="800" />
+        <barTop value="790" />
         <barWidth value="720" />
-        <barHeight value="120" />
+        <barHeight value="130" />
         <barTextColor value="#222222" />
         <barTextStyle value="bold" />
-        <barGapBtwnButtons value="30" />
+        <barGapBtwnButtons value="30" /> 
         <Buttons>
             <Button1>
                 <buttonText value="4" />
-                <buttonActionClick value="key-11" />
+                <buttonActionClick value="key-131" />
             </Button1>
             <Button2>
                 <buttonText value="5" />
-                <buttonActionClick value="key-12" />
+                <buttonActionClick value="key-132" />
             </Button2>
             <Button3>
                 <buttonText value="6" />
-                <buttonActionClick value="key-13" />
+                <buttonActionClick value="key-7" />
             </Button3>
             <Button4>
                 <buttonText value="-" />
@@ -98,7 +99,7 @@
             </Button4>
         </Buttons>
     </ButtonBar3>
-
+    
     <ButtonBar4>
         <barOrientation value="Horizontal" />
         <barColor value="#efeef3" />
@@ -106,24 +107,24 @@
         <barTransparency value="10" />
         <barFontSize value="16" />
         <barLeft value="0" />
-        <barTop value="670" />
+        <barTop value="660" />
         <barWidth value="720" />
-        <barHeight value="120" />
+        <barHeight value="130" />
         <barTextColor value="#222222" />
         <barTextStyle value="bold" />
-        <barGapBtwnButtons value="30" />
+        <barGapBtwnButtons value="30" /> 
         <Buttons>
             <Button1>
                 <buttonText value="1" />
-                <buttonActionClick value="key-8" />
+                <buttonActionClick value="key-131" />
             </Button1>
             <Button2>
                 <buttonText value="2" />
-                <buttonActionClick value="key-9" />
+                <buttonActionClick value="key-132" />
             </Button2>
             <Button3>
                 <buttonText value="3" />
-                <buttonActionClick value="key-10" />
+                <buttonActionClick value="key-7" />
             </Button3>
             <Button4>
                 <buttonText value="+" />
@@ -131,7 +132,7 @@
             </Button4>
         </Buttons>
     </ButtonBar4>
-
+    
     <ButtonBar5>
         <barOrientation value="Horizontal" />
         <barColor value="#E87E0C" />
@@ -139,16 +140,16 @@
         <barTransparency value="10" />
         <barFontSize value="16" />
         <barLeft value="0" />
-        <barTop value="540" />
+        <barTop value="530" />
         <barWidth value="720" />
-        <barHeight value="120" />
+        <barHeight value="130" />
         <barTextColor value="#222222" />
         <barTextStyle value="bold" />
-        <barGapBtwnButtons value="30" />
+        <barGapBtwnButtons value="30" /> 
         <Buttons>
             <Button1>
                 <buttonText value="SCAN" />
-                <buttonActionClick value="runscript-scantriggerscript" />
+                <buttonActionClick value="key-131" />
             </Button1>
         </Buttons>
     </ButtonBar5>

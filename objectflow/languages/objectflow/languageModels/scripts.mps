@@ -12,6 +12,7 @@
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
+    <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -90,6 +91,9 @@
       </concept>
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt">
+        <reference id="1139877738879" name="concept" index="1A0vxQ" />
+      </concept>
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
@@ -293,6 +297,45 @@
                   </node>
                   <node concept="34oBXx" id="2QHjcDuuiiB" role="2OqNvi" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="_UgoZ" id="1nLGXVs0pdt">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="AddIgnoreNewInSession" />
+    <property role="_Wzho" value="Add ignore_new_in_session to compare statements." />
+    <property role="2BwPS$" value="moware" />
+    <node concept="_XfAh" id="1nLGXVs0pdu" role="_YvDr">
+      <property role="_XH9r" value="Add ignore_new_in_session to compare statement." />
+      <ref role="_XDHR" to="un0u:6WBZVtQO2TS" resolve="OFXTestCompareStatement" />
+      <node concept="_ZGcI" id="1nLGXVs0pdv" role="_XPhp">
+        <node concept="3clFbS" id="1nLGXVs0pdw" role="2VODD2">
+          <node concept="3clFbF" id="1nLGXVs0qyJ" role="3cqZAp">
+            <node concept="2OqwBi" id="1nLGXVs0r4K" role="3clFbG">
+              <node concept="2OqwBi" id="1nLGXVs0q_J" role="2Oq$k0">
+                <node concept="_YI3z" id="1nLGXVs0qyI" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="1nLGXVs0qHl" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:70qPrkCWMKd" />
+                </node>
+              </node>
+              <node concept="WFELt" id="1nLGXVs0rF2" role="2OqNvi">
+                <ref role="1A0vxQ" to="un0u:1nLGXVrWsoS" resolve="OFXTestCompareOptionIgnoreNewInSession" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="1nLGXVs0pdx" role="_XDHO">
+        <node concept="3clFbS" id="1nLGXVs0pdy" role="2VODD2">
+          <node concept="3clFbF" id="1nLGXVs0qiH" role="3cqZAp">
+            <node concept="2OqwBi" id="1nLGXVs0qn4" role="3clFbG">
+              <node concept="_YI3z" id="1nLGXVs0qiG" role="2Oq$k0" />
+              <node concept="2qgKlT" id="1nLGXVs0qvI" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:70qPrkDaBwt" resolve="isIgnoreDirty" />
               </node>
             </node>
           </node>

@@ -3,7 +3,7 @@ id  #*#*
 nameLen  10
 totalAmount  60
 nameLen2  10
-text  Invoice  (_dirty: true  _readOnly: false  _TCN: 0  _enabled: true  )
+text  Invoice  (_dirty: true  _isNewInSession: true  _readOnly: false  _TCN: 0  _enabled: true  )
 id: 0
 nameLen: 10
 totalAmount: 60.0
@@ -14,7 +14,7 @@ localDate: 1980-01-27
 dateTime: 1980-01-27T04:30:00.000+01:00
 headState: S1
 positions (List): 
-   InvoicePosition  (_dirty: true  _readOnly: false  _TCN: 0  _enabled: true  )
+   InvoicePosition  (_dirty: true  _isNewInSession: true  _readOnly: false  _TCN: 0  _enabled: true  )
    id: 0
    posAvalue: 0.0
    posText: conversion_0
@@ -22,7 +22,7 @@ positions (List):
    invoice (Reference): Key:0
    subposition (List): 
 
-   InvoicePosition  (_dirty: true  _readOnly: false  _TCN: 0  _enabled: true  )
+   InvoicePosition  (_dirty: true  _isNewInSession: true  _readOnly: false  _TCN: 0  _enabled: true  )
    id: 0
    posAvalue: 10.0
    posText: conversion_1
@@ -30,7 +30,7 @@ positions (List):
    invoice (Reference): Key:0
    subposition (List): 
 
-   InvoicePosition  (_dirty: true  _readOnly: false  _TCN: 0  _enabled: true  )
+   InvoicePosition  (_dirty: true  _isNewInSession: true  _readOnly: false  _TCN: 0  _enabled: true  )
    id: 0
    posAvalue: 20.0
    posText: conversion_2
@@ -38,7 +38,7 @@ positions (List):
    invoice (Reference): Key:0
    subposition (List): 
 
-   InvoicePosition  (_dirty: true  _readOnly: false  _TCN: 0  _enabled: true  )
+   InvoicePosition  (_dirty: true  _isNewInSession: true  _readOnly: false  _TCN: 0  _enabled: true  )
    id: 0
    posAvalue: 30.0
    posText: conversion_3
