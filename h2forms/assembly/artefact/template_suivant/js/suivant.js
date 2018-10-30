@@ -1,6 +1,6 @@
 /*
  *	suivant - the next generation template for mde and mobile devices
- *            used in h2H2Forms
+ *            used in H2Forms
  *
  *
  *	daniel stieger,
@@ -23,6 +23,26 @@ var $$ = function(query) {
   return document.querySelectorAll(query);
 };
 
+
+function Suivant() {
+  // suivant object constructor
+
+  this.log(title, st) {
+    console.log(title + ': ' + st);
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+/* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
 
 document.addEventListener('DOMContentLoaded', function() {
 

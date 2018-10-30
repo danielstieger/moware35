@@ -1623,6 +1623,7 @@
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/testdata.png" />
     <property role="1pbfSe" value="972007230" />
+    <property role="34LRSv" value="Testdata" />
     <node concept="1TJgyj" id="2IjElxiisXJ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="doc" />
