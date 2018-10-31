@@ -24,12 +24,17 @@ var $$ = function(query) {
 };
 
 
+function openPage(page) {
+  window.location = page;
+}
+
 function Suivant() {
   // suivant object constructor
 
-  this.log(title, st) {
+  this.log = function(title, st) {
     console.log(title + ': ' + st);
   }
+
 
 
 

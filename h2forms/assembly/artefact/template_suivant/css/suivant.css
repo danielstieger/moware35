@@ -1,7 +1,67 @@
-/* moware suivant adoptions */
+/* ---- Material Icons Stuff ------------------------------------------------ */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(maticonsfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(maticonsfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(maticonsfont/MaterialIcons-Regular.woff) format('woff'),
+       url(maticonsfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: bottom;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+
+
+
+/* moware suivant adoptions * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+/* start screen with tiles */
 .sv-status-gray {color:#000 !important; background-color:#b3b3b3 !important}
 .sv-branding-gray {color:#000 !important; background-color:#d9d9d9}
-.sv-back-gray {color:#000 !important; background-color:#333333 !important}
-.sv-tile {color:#000 !important; background-color:#f2f2f2!important}
+.sv-back-gray {color:#d9d9d9 !important; background-color:#333333 !important}
+.sv-tile {color:#000 !important; background-color:#f2f2f2!important;
+          border-right:20px solid #ccc!important;
+          margin-bottom: 12px;
+        }
 
-.sv-rightbar {border-right:24px solid #ccc!important}
+.sv-tile h1 {margin: 4px;}
+.sv-tile p  {margin: 4px;}
+
+
+
+/* document search screen */
+.sv-bartitle {font-size: 18px; line-height: 22px;}
+.sv-docrow {color:#000 !important; background-color:#f2f2f2!important;
+            padding: 18px 16px; margin-bottom: 6px;  }
+
+@media only screen and (max-width: 600px) {
+  .sv-s-right-align {text-align:right!important;}
+}

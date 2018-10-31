@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
-<title>moware suivant</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/suivant.css">
-<link rel="stylesheet" href="css/w3-theme-teal.css">
-<link rel="stylesheet" href="css/w3.css">
+  <title>moware suivant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/suivant.css?id=1234">
+  <link rel="stylesheet" href="css/w3-theme-teal.css?id=1234">
+  <link rel="stylesheet" href="css/w3.css?id=1234">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <script charset="utf-8" src="js/suivant.js?id=1234"></script>
 
-<link rel="icon" type="image/ico" href="images/favicon.ico">
+
+  <link rel="icon" type="image/ico" href="images/favicon.ico">
+  <style>
+  body {font-size:14px}
+  h1   {font-size:24px}
+  h2   {font-size:22px}
+  h3   {font-size:18px}
+  h4   {font-size:16px}
+  h5   {font-size:14px}
+  h6   {font-size:12px}
+  </style>
+
 <body class="sv-back-gray">
 
 <div class="w3-container w3-row sv-status-gray">
@@ -16,14 +30,48 @@
 </div>
 
 <div class="sv-branding-gray">
-  <img src="images/mpreis.png">
+  <img src="images/mpreis.png?id=1234">
 </div>
 
-<div class="w3-container">
-  <div class="w3-panel sv-tile w3-card-4 w3-border-blue sv-rightbar">
-      <h2 class="w3-text-blue"> Wareneingänge </h2>
+<div class="w3-panel w3-row-padding">
+  <div class="w3-col s12 m6">
+      <div class="w3-container w3-border-blue sv-tile" onClick="javascript: openPage('wareneingaenge.html')">
+        <h1 class="w3-text-blue"> Wareneingänge </h1>
+        <p> Belege zur Bearbeitung <span class="w3-badge">9</span> </p>
+      </div>
+  </div>
+  <div class="w3-col s12 m6">
+      <div class="w3-container w3-border-teal sv-tile">
+        <h1 class="w3-text-teal"> Warenausgänge </h1>
+        <p> Belege zur Bearbeitung <span class="w3-badge">4</span></p>
+      </div>
+  </div>
+
+  <div class="w3-col s12 m6">
+    <div class="w3-container w3-border-purple sv-tile">
+      <h1 class="w3-text-purple"> Abschriften </h1>
+      <p> Belege zur Bearbeitung <span class="w3-badge">0</span></p>
+    </div>
+  </div>
+  <div class="w3-col s12 m6">
+    <div class="w3-container w3-border-amber sv-tile">
+      <h1 class="w3-text-amber"> Umbuchungen </h1>
+      <p> Belege zur Bearbeitung <span class="w3-badge">1</span></p>
+    </div>
+  </div>
+  <div class="w3-col s12 m6">
+    <div class="w3-container w3-border-lime sv-tile">
+      <h1 class="w3-text-lime"> Zählungen </h1>
       <p> Belege zur Bearbeitung <span class="w3-badge">9</span></p>
-  <div>
+    </div>
+  </div>
+  <div class="w3-col s12 m6">
+    <div class="w3-container w3-border-orange sv-tile">
+      <h1 class="w3-text-orange"> Bestandsinfo </h1>
+      <p> zu Artikel EAN </p>
+    </div>
+  </div>
+
 </div>
 </body>
 </html>
