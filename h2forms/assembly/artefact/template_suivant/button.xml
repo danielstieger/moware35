@@ -5,7 +5,7 @@
         <barOrientation value="Horizontal" />
         <barColor value="#efeef3" />
         <barColorPressed value="#51b7ac" />
-        <barTransparency value="10" />
+        <barTransparency value="0" />
         <barFontSize value="16" />
         <barLeft value="0" />
         <barTop value="1060" />
@@ -37,7 +37,7 @@
         <barOrientation value="Horizontal" />
         <barColor value="#efeef3" />
         <barColorPressed value="#51b7ac" />
-        <barTransparency value="10" />
+        <barTransparency value="0" />
         <barFontSize value="16" />
         <barLeft value="0" />
         <barTop value="930" />
@@ -70,7 +70,7 @@
         <barOrientation value="Horizontal" />
         <barColor value="#efeef3" />
         <barColorPressed value="#51b7ac" />
-        <barTransparency value="10" />
+        <barTransparency value="0" />
         <barFontSize value="16" />
         <barLeft value="0" />
         <barTop value="800" />
@@ -103,7 +103,7 @@
         <barOrientation value="Horizontal" />
         <barColor value="#efeef3" />
         <barColorPressed value="#51b7ac" />
-        <barTransparency value="10" />
+        <barTransparency value="0" />
         <barFontSize value="16" />
         <barLeft value="0" />
         <barTop value="670" />
@@ -136,7 +136,7 @@
         <barOrientation value="Horizontal" />
         <barColor value="#E87E0C" />
         <barColorPressed value="#51b7ac" />
-        <barTransparency value="10" />
+        <barTransparency value="0" />
         <barFontSize value="16" />
         <barLeft value="0" />
         <barTop value="540" />

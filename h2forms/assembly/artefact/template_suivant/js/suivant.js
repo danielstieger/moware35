@@ -25,7 +25,22 @@ var $$ = function(query) {
 
 
 function openPage(page) {
-  window.location = page;
+  $$('.sv-nav, button').forEach(function(item){
+    item.className += ' w3-disabled'; /* sv-navDisabled */
+  });
+
+  setTimeout(function(){
+    window.location = page;
+  }, 1500);
+
+}
+
+function toggleDropDown(x) {
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
 }
 
 function Suivant() {

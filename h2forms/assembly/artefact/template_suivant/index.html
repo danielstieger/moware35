@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html>
   <title>moware suivant</title>
+
+
+  
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="MoWar Suivant">
+  <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#3372DF">
+
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+
   <link rel="stylesheet" href="css/suivant.css?id=1234">
   <link rel="stylesheet" href="css/w3-theme-teal.css?id=1234">
   <link rel="stylesheet" href="css/w3.css?id=1234">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <script charset="utf-8" src="js/suivant.js?id=1234"></script>
-
-
   <link rel="icon" type="image/ico" href="images/favicon.ico">
   <style>
   body {font-size:14px}
@@ -24,7 +42,7 @@
 <body class="sv-back-gray">
 
 <div class="w3-container w3-row sv-status-gray">
-  <div class="w3-col s3 w3-left-align"> &nbsp; </div>
+  <div class="w3-col s3 w3-left-align"> V 0 </div>
   <div class="w3-col s6 w3-center"> SmartFWWS 1.3.9 </div>
   <div class="w3-col s3 w3-right-align"> F 8126 </div>
 </div>
@@ -34,38 +52,38 @@
 </div>
 
 <div class="w3-panel w3-row-padding">
-  <div class="w3-col s12 m6">
+  <div class="w3-col s12 m6 sv-nav">
       <div class="w3-container w3-border-blue sv-tile" onClick="javascript: openPage('wareneingaenge.html')">
         <h1 class="w3-text-blue"> Wareneingänge </h1>
         <p> Belege zur Bearbeitung <span class="w3-badge">9</span> </p>
       </div>
   </div>
-  <div class="w3-col s12 m6">
+  <div class="w3-col s12 m6 sv-nav">
       <div class="w3-container w3-border-teal sv-tile">
         <h1 class="w3-text-teal"> Warenausgänge </h1>
         <p> Belege zur Bearbeitung <span class="w3-badge">4</span></p>
       </div>
   </div>
 
-  <div class="w3-col s12 m6">
+  <div class="w3-col s12 m6 sv-nav">
     <div class="w3-container w3-border-purple sv-tile">
       <h1 class="w3-text-purple"> Abschriften </h1>
       <p> Belege zur Bearbeitung <span class="w3-badge">0</span></p>
     </div>
   </div>
-  <div class="w3-col s12 m6">
+  <div class="w3-col s12 m6 sv-nav">
     <div class="w3-container w3-border-amber sv-tile">
       <h1 class="w3-text-amber"> Umbuchungen </h1>
       <p> Belege zur Bearbeitung <span class="w3-badge">1</span></p>
     </div>
   </div>
-  <div class="w3-col s12 m6">
+  <div class="w3-col s12 m6 sv-nav">
     <div class="w3-container w3-border-lime sv-tile">
       <h1 class="w3-text-lime"> Zählungen </h1>
       <p> Belege zur Bearbeitung <span class="w3-badge">9</span></p>
     </div>
   </div>
-  <div class="w3-col s12 m6">
+  <div class="w3-col s12 m6 sv-nav">
     <div class="w3-container w3-border-orange sv-tile">
       <h1 class="w3-text-orange"> Bestandsinfo </h1>
       <p> zu Artikel EAN </p>

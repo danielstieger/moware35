@@ -3,6 +3,8 @@
   <title>moware suivant</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+
   <link rel="stylesheet" href="css/suivant.css?id=1234">
   <link rel="stylesheet" href="css/w3-theme-teal.css?id=1234">
   <link rel="stylesheet" href="css/w3.css?id=1234">
@@ -28,7 +30,7 @@
 </div>
 
 <div class="w3-bar w3-theme">
-  <button type="button" class="w3-bar-item w3-button"> <i class="material-icons"> arrow_back </i></button>
+  <button type="button" class="w3-bar-item w3-button" onClick="javascript: openPage('index.html')"> <i class="material-icons"> arrow_back </i></button>
   <span class="w3-bar-item sv-bartitle"> Wareneingänge </span>
   <button type="button" class="w3-bar-item w3-button w3-right"> <i class="material-icons"> search </i></button>
   <button type="button" class="w3-bar-item w3-button w3-right"> <i class="material-icons"> refresh </i></button>
@@ -40,7 +42,7 @@
 </div>
 
 <div class="w3-panel">
-  <div class="w3-row sv-docrow">
+  <div class="w3-row sv-docrow sv-nav" onClick="javascript: openPage('wareneingang.html')">
     <div class="w3-col s8 m4"> <strong> Pressegroßvertrieb GmbH </strong> </div>
     <div class="w3-col s4 m2 sv-s-right-align w3-text-green"> Bereit </div>
     <div class="w3-col s6 m3"> 11 Lieferscheine </div>
@@ -48,7 +50,15 @@
     <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
   </div>
 
-  <div class="w3-row sv-docrow">
+  <div class="w3-row sv-docrow sv-nav" onClick="javascript: openPage('wareneingang_100.html')">
+    <div class="w3-col s8 m4"> <strong> Pressegroßvertrieb GmbH </strong> </div>
+    <div class="w3-col s4 m2 sv-s-right-align w3-text-green"> Bereit </div>
+    <div class="w3-col s6 m3"> 100 Lieferscheine </div>
+    <div class="w3-col s2 m1"> ok </div>
+    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
+  </div>
+
+  <div class="w3-row sv-docrow sv-nav" onClick="javascript: openPage('wareneingang.html')">
     <div class="w3-col s8 m4"> <strong> Pressegroßvertrieb GmbH </strong> </div>
     <div class="w3-col s4 m2 sv-s-right-align w3-text-green"> Bereit </div>
     <div class="w3-col s6 m3"> 11 Lieferscheine </div>
@@ -56,7 +66,7 @@
     <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
   </div>
 
-  <div class="w3-row sv-docrow">
+  <div class="w3-row sv-docrow sv-nav" onClick="javascript: openPage('wareneingang.html')">
     <div class="w3-col s8 m4"> <strong> Pressegroßvertrieb GmbH </strong> </div>
     <div class="w3-col s4 m2 sv-s-right-align w3-text-green"> Bereit </div>
     <div class="w3-col s6 m3"> 11 Lieferscheine </div>
@@ -64,15 +74,7 @@
     <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
   </div>
 
-  <div class="w3-row sv-docrow">
-    <div class="w3-col s8 m4"> <strong> Pressegroßvertrieb GmbH </strong> </div>
-    <div class="w3-col s4 m2 sv-s-right-align w3-text-green"> Bereit </div>
-    <div class="w3-col s6 m3"> 11 Lieferscheine </div>
-    <div class="w3-col s2 m1"> ok </div>
-    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
-  </div>
-
-  <div class="w3-row sv-docrow">
+  <div class="w3-row sv-docrow sv-nav" onClick="javascript: openPage('wareneingang.html')">
     <div class="w3-col s8 m4"> <strong> Pressegroßvertrieb GmbH </strong> </div>
     <div class="w3-col s4 m2 sv-s-right-align w3-text-green"> Bereit </div>
     <div class="w3-col s6 m3"> 11 Lieferscheine </div>

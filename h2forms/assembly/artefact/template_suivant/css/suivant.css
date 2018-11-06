@@ -17,13 +17,13 @@
   font-style: normal;
   font-size: 22px;  /* Preferred icon size */
   display: inline-block;
-  line-height: 1;
   text-transform: none;
   letter-spacing: normal;
   word-wrap: normal;
   white-space: nowrap;
   direction: ltr;
   vertical-align: bottom;
+  line-height: 1;
 
   /* Support for all WebKit browsers. */
   -webkit-font-smoothing: antialiased;
@@ -42,6 +42,8 @@
 
 
 /* moware suivant adoptions * * * * * * * * * * * * * * * * * * * * * * * * * */
+.sv-nav { cursor: pointer; }
+
 
 /* start screen with tiles */
 .sv-status-gray {color:#000 !important; background-color:#b3b3b3 !important}
@@ -57,11 +59,29 @@
 
 
 
-/* document search screen */
-.sv-bartitle {font-size: 18px; line-height: 22px;}
+/* document search screen -------------------------------------------------- */
+.w3-bar-item {height: 50px !important }
+.sv-bartitle {font-size: 18px; line-height: 34px}  /* bar-item height - padding (16) */
+/* try adjustment via w3-large as attribute to w3-bar (according doc) */
+
 .sv-docrow {color:#000 !important; background-color:#f2f2f2!important;
-            padding: 18px 16px; margin-bottom: 6px;  }
+            padding: 18px 16px; margin-bottom: 6px; }
 
 @media only screen and (max-width: 600px) {
   .sv-s-right-align {text-align:right!important;}
 }
+
+
+
+/* document screen itself -------------------------------------------------- */
+.sv-doc {color:#000 !important; background-color:#f2f2f2!important;
+         padding-left: 0px !important; padding-right: 0px !important; }
+.sv-posrow {border-bottom:1px solid #333333!important;
+            padding: 18px 16px; }
+
+
+
+/* editor screen, scanning, etc.  ------------------------------------------ */
+.sv-editor {color:#000 !important; background-color:#FFF!important;}
+.sv-input  {padding: 2px !important }
+.sv-label  {color: #666666 !important }
