@@ -85,3 +85,9 @@
 .sv-editor {color:#000 !important; background-color:#FFF!important;}
 .sv-input  {padding: 2px !important }
 .sv-label  {color: #666666 !important }
+.sv-edit-row {padding: 8px 0px; }
+.sv-edit-row2 {padding: 10px 0px; }
+.sv-editor-title {padding: 8px 8px !important; border-bottom: 1px solid #333333!important; }
+
+.w3-input {border-bottom: 1px solid #009688 !important;}
+.w3-input:disabled {border-bottom: none !important;}

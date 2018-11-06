@@ -42,7 +42,19 @@
 
 <div class="w3-panel">
   <div class="w3-block"> <strong> Pressegroßvertrieb GmbH 14.01.18 </strong> </div>
-  <div class="w3-block"> 11 Positionen </div>
+  <div class="w3-row">
+    <div class="w3-col s9"> 6 Position </div>
+    <div class="w3-col s1 w3-center"> <i class="material-icons"> cached </i> </div>
+    <div class="w3-col s1 w3-center"> <i class="material-icons"> check_circle_outline </i> </div>
+    <div class="w3-col s1 w3-center w3-dropdown-click w3-right">
+        <span onClick="toggleDropDown($('#TableDropDownContent'))"> <i class="material-icons"> more_vert </i> </span>
+        <div id="TableDropDownContent" class="w3-dropdown-content w3-bar-block" style="right:0">
+            <span onClick="toggleDropDown($('#TableDropDownContent'))" class="w3-bar-item w3-button">Bearbeiten</span>
+            <span onClick="toggleDropDown($('#TableDropDownContent'))" class="w3-bar-item w3-button">Alle abschließen</span>
+            <span onClick="toggleDropDown($('#TableDropDownContent'))" class="w3-bar-item w3-button">Alle 0 setzen</span>
+        </div>
+    </div>
+  </div>
 </div>
 
 <div class="w3-panel sv-doc">
@@ -94,14 +106,43 @@
     <div class="w3-col s2 m1"> OK </div>
     <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
   </div>
-</div>
-
-<div class="w3-bottom">
-  <div class="w3-bar w3-theme">
-    <button type="button" class="w3-bar-item w3-button"> <i class="material-icons"> refresh </i></button>
-    <button type="button" class="w3-bar-item w3-button w3-right"> <i class="material-icons"> exit_to_app </i> Speichern </button>
+  <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor.html')">
+    <div class="w3-col s8 m4"> <strong> Die Ganze Woche </strong> </div>
+    <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Kontrolle </div>
+    <div class="w3-col s4 m2"> 701231 </div>
+    <div class="w3-col s2 m1"> 20 </div>
+    <div class="w3-col s2 m1"> OK </div>
+    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
   </div>
+  <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor.html')">
+    <div class="w3-col s8 m4"> <strong> Die Ganze Woche </strong> </div>
+    <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Kontrolle </div>
+    <div class="w3-col s4 m2"> 701231 </div>
+    <div class="w3-col s2 m1"> 20 </div>
+    <div class="w3-col s2 m1"> OK </div>
+    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
+  </div>
+  <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor.html')">
+    <div class="w3-col s8 m4"> <strong> Die Ganze Woche </strong> </div>
+    <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Kontrolle </div>
+    <div class="w3-col s4 m2"> 701231 </div>
+    <div class="w3-col s2 m1"> 20 </div>
+    <div class="w3-col s2 m1"> OK </div>
+    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
+  </div>
+  <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor.html')">
+    <div class="w3-col s8 m4"> <strong> Die Ganze Woche </strong> </div>
+    <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Kontrolle </div>
+    <div class="w3-col s4 m2"> 701231 </div>
+    <div class="w3-col s2 m1"> 20 </div>
+    <div class="w3-col s2 m1"> OK </div>
+    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
+  </div>
+
 </div>
 
+<!-- <div class="w3-bottom">
+<a class="w3-button w3-card-4 w3-xlarge w3-circle w3-theme w3-right" style="position:absolute;bottom: 24px;right:24px;">+</a>
+</div> -->
 </body>
 </html>
