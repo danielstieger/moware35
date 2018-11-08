@@ -12698,7 +12698,7 @@
         <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
       </node>
       <node concept="3F0ifn" id="3U0QWzu$pmu" role="3EZMnx">
-        <property role="3F0ifm" value="// allways check if unit of work was ALREADY processed (UI edits) -&gt; cancel" />
+        <property role="3F0ifm" value="// always check if unit of work was ALREADY processed (UI edits) -&gt; cancel" />
         <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         <node concept="pVoyu" id="3U0QWzu$pqn" role="3F10Kt">
           <property role="VOm3f" value="true" />

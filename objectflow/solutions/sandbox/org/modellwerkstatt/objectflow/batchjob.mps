@@ -7206,7 +7206,7 @@
     <node concept="3clFb_" id="4InK$iNsD$Z" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getproducer0_ProducerEnabled" />
+      <property role="TrG5h" value="getproducer6_ProducerEnabled" />
       <node concept="3Tm1VV" id="4InK$iNsD_1" role="1B3o_S" />
       <node concept="10P_77" id="4InK$iNsD_2" role="3clF45" />
       <node concept="3clFbS" id="4InK$iNsD_6" role="3clF47">
@@ -9733,7 +9733,7 @@
       </node>
     </node>
     <node concept="Wx3nA" id="7JtXXwm2wSE" role="jymVt">
-      <property role="TrG5h" value="TIME_FORMAT_EXACT" />
+      <property role="TrG5h" value="DATENTIME_FORMAT_EXACT" />
       <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="7JtXXwm2wSF" role="1B3o_S" />
       <node concept="3uibUv" id="7JtXXwm2wSG" role="1tU5fm">
@@ -9743,7 +9743,7 @@
         <ref role="37wK5l" to="x5li:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
         <ref role="1Pybhc" to="x5li:~DateTimeFormat" resolve="DateTimeFormat" />
         <node concept="Xl_RD" id="7JtXXwm2wSI" role="37wK5m">
-          <property role="Xl_RC" value="EEE dd. HH:mm:ss" />
+          <property role="Xl_RC" value="EEE dd.MM.y HH:mm:ss" />
         </node>
       </node>
     </node>
@@ -10342,7 +10342,7 @@
     <node concept="3clFb_" id="4NpYXr65dN6" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getproducer6_NextScheduledRuns" />
+      <property role="TrG5h" value="getproducer7_NextScheduledRuns" />
       <node concept="3Tm1VV" id="4NpYXr65dN8" role="1B3o_S" />
       <node concept="17QB3L" id="4NpYXr65dN9" role="3clF45" />
       <node concept="3clFbS" id="4NpYXr65dNb" role="3clF47">
@@ -10508,7 +10508,7 @@
     <node concept="3clFb_" id="4NpYXr646O2" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getproducer7_AbortedInboxLoads" />
+      <property role="TrG5h" value="getproducer8_AbortedInboxLoads" />
       <node concept="3Tm1VV" id="4NpYXr646O4" role="1B3o_S" />
       <node concept="3cpWsb" id="4NpYXr646O5" role="3clF45" />
       <node concept="3clFbS" id="4NpYXr646O7" role="3clF47">
@@ -10832,7 +10832,7 @@
                 <node concept="3cpWs3" id="s_xv0Ab9h0" role="37vLTx">
                   <node concept="2OqwBi" id="s_xv0AbacC" role="3uHU7w">
                     <node concept="37vLTw" id="s_xv0Abaa8" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7JtXXwm2wSE" resolve="TIME_FORMAT_EXACT" />
+                      <ref role="3cqZAo" node="7JtXXwm2wSE" resolve="DATENTIME_FORMAT_EXACT" />
                     </node>
                     <node concept="liA8E" id="s_xv0AbaeX" role="2OqNvi">
                       <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -10991,7 +10991,7 @@
               <node concept="3cpWs3" id="1fA$ubV_nMx" role="3uHU7B">
                 <node concept="2OqwBi" id="3yI9$tKc5Er" role="3uHU7B">
                   <node concept="37vLTw" id="7JtXXwm38DT" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7JtXXwm2wSE" resolve="TIME_FORMAT_EXACT" />
+                    <ref role="3cqZAo" node="7JtXXwm2wSE" resolve="DATENTIME_FORMAT_EXACT" />
                   </node>
                   <node concept="liA8E" id="3yI9$tKc5Pc" role="2OqNvi">
                     <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -11067,7 +11067,7 @@
         <node concept="3cpWs6" id="7JtXXwm2GMu" role="3cqZAp">
           <node concept="2OqwBi" id="7JtXXwm2FCJ" role="3cqZAk">
             <node concept="37vLTw" id="7JtXXwm2GMK" role="2Oq$k0">
-              <ref role="3cqZAo" node="7JtXXwm2wSE" resolve="TIME_FORMAT_EXACT" />
+              <ref role="3cqZAo" node="7JtXXwm2wSE" resolve="DATENTIME_FORMAT_EXACT" />
             </node>
             <node concept="liA8E" id="7JtXXwm2FL3" role="2OqNvi">
               <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -12405,14 +12405,6 @@
     </node>
     <node concept="2tJIrI" id="66durT_4kZP" role="jymVt" />
     <node concept="2tJIrI" id="4InK$iNs_ct" role="jymVt" />
-    <node concept="3clFb_" id="7HSdIeXLhxG" role="jymVt">
-      <property role="1EzhhJ" value="true" />
-      <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getproducer0_ProducerEnabled" />
-      <node concept="3clFbS" id="7HSdIeXLhxJ" role="3clF47" />
-      <node concept="3Tm1VV" id="7HSdIeXLhxK" role="1B3o_S" />
-      <node concept="10P_77" id="4InK$iNs_qp" role="3clF45" />
-    </node>
     <node concept="3clFb_" id="4InK$iNs_gP" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
@@ -12453,10 +12445,18 @@
       <node concept="3Tm1VV" id="7HSdIeXLh$V" role="1B3o_S" />
       <node concept="17QB3L" id="7HSdIeXLh$W" role="3clF45" />
     </node>
+    <node concept="3clFb_" id="7HSdIeXLhxG" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getproducer6_ProducerEnabled" />
+      <node concept="3clFbS" id="7HSdIeXLhxJ" role="3clF47" />
+      <node concept="3Tm1VV" id="7HSdIeXLhxK" role="1B3o_S" />
+      <node concept="10P_77" id="4InK$iNs_qp" role="3clF45" />
+    </node>
     <node concept="3clFb_" id="4NpYXr5Us0z" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getproducer6_NextScheduledRuns" />
+      <property role="TrG5h" value="getproducer7_NextScheduledRuns" />
       <node concept="3clFbS" id="4NpYXr5Us0$" role="3clF47" />
       <node concept="3Tm1VV" id="4NpYXr5Us0_" role="1B3o_S" />
       <node concept="17QB3L" id="4NpYXr5Us0A" role="3clF45" />
@@ -12464,7 +12464,7 @@
     <node concept="3clFb_" id="4NpYXr645Nq" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getproducer7_AbortedInboxLoads" />
+      <property role="TrG5h" value="getproducer8_AbortedInboxLoads" />
       <node concept="3clFbS" id="4NpYXr645Nr" role="3clF47" />
       <node concept="3Tm1VV" id="4NpYXr645Ns" role="1B3o_S" />
       <node concept="3cpWsb" id="4NpYXr645Nt" role="3clF45" />
@@ -12689,7 +12689,7 @@
       </node>
     </node>
     <node concept="Wx3nA" id="2T5SnS24sOh" role="jymVt">
-      <property role="TrG5h" value="DATETIMEFORMATTER" />
+      <property role="TrG5h" value="TIME_EXACT_ONLY_FORMATTER" />
       <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="2T5SnS24sOi" role="1B3o_S" />
       <node concept="3uibUv" id="2T5SnS24sOj" role="1tU5fm">
@@ -12992,7 +12992,7 @@
                         </node>
                         <node concept="2OqwBi" id="5BROMrW4vAW" role="3uHU7B">
                           <node concept="37vLTw" id="7X5ehdobHJK" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2T5SnS24sOh" resolve="DATETIMEFORMATTER" />
+                            <ref role="3cqZAo" node="2T5SnS24sOh" resolve="TIME_EXACT_ONLY_FORMATTER" />
                           </node>
                           <node concept="liA8E" id="5BROMrW4vAX" role="2OqNvi">
                             <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -13144,7 +13144,7 @@
                       </node>
                       <node concept="2OqwBi" id="5BROMrW4x1i" role="3uHU7w">
                         <node concept="37vLTw" id="5BROMrW4x1o" role="2Oq$k0">
-                          <ref role="3cqZAo" node="2T5SnS24sOh" resolve="DATETIMEFORMATTER" />
+                          <ref role="3cqZAo" node="2T5SnS24sOh" resolve="TIME_EXACT_ONLY_FORMATTER" />
                         </node>
                         <node concept="liA8E" id="5BROMrW4x1j" role="2OqNvi">
                           <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -13349,7 +13349,7 @@
                         </node>
                         <node concept="2OqwBi" id="3UtwwLCFLqx" role="3uHU7B">
                           <node concept="37vLTw" id="7X5ehdobJlt" role="2Oq$k0">
-                            <ref role="3cqZAo" node="2T5SnS24sOh" resolve="DATETIMEFORMATTER" />
+                            <ref role="3cqZAo" node="2T5SnS24sOh" resolve="TIME_EXACT_ONLY_FORMATTER" />
                           </node>
                           <node concept="liA8E" id="3UtwwLCFLqy" role="2OqNvi">
                             <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -13435,7 +13435,7 @@
                       </node>
                       <node concept="2OqwBi" id="5BROMrW4yII" role="3uHU7w">
                         <node concept="37vLTw" id="5BROMrW4yIO" role="2Oq$k0">
-                          <ref role="3cqZAo" node="2T5SnS24sOh" resolve="DATETIMEFORMATTER" />
+                          <ref role="3cqZAo" node="2T5SnS24sOh" resolve="TIME_EXACT_ONLY_FORMATTER" />
                         </node>
                         <node concept="liA8E" id="5BROMrW4yIJ" role="2OqNvi">
                           <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -17488,7 +17488,7 @@
                               <node concept="2OqwBi" id="4InK$iNQrLr" role="3uHU7B">
                                 <node concept="10M0yZ" id="4InK$iNQqeY" role="2Oq$k0">
                                   <ref role="1PxDUh" node="66durT_3en0" resolve="JmxBatchJobCoreReporter" />
-                                  <ref role="3cqZAo" node="2T5SnS24sOh" resolve="DATETIMEFORMATTER" />
+                                  <ref role="3cqZAo" node="2T5SnS24sOh" resolve="TIME_EXACT_ONLY_FORMATTER" />
                                 </node>
                                 <node concept="liA8E" id="4InK$iNQrMq" role="2OqNvi">
                                   <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -17555,7 +17555,7 @@
                 <node concept="2OqwBi" id="4InK$iNQCFC" role="3uHU7w">
                   <node concept="10M0yZ" id="4InK$iNQClz" role="2Oq$k0">
                     <ref role="1PxDUh" node="7BWfrtCZ5Nu" resolve="OFXPCPairController" />
-                    <ref role="3cqZAo" node="7JtXXwm2wSE" resolve="TIME_FORMAT_EXACT" />
+                    <ref role="3cqZAo" node="7JtXXwm2wSE" resolve="DATENTIME_FORMAT_EXACT" />
                   </node>
                   <node concept="liA8E" id="4InK$iNQCPJ" role="2OqNvi">
                     <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
@@ -18097,6 +18097,32 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="18l8ktIYNSr" role="3cqZAp">
+              <node concept="2OqwBi" id="18l8ktIYO5E" role="3clFbG">
+                <node concept="37vLTw" id="18l8ktIYNSp" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7tfEsbGWjZY" resolve="dashinfo" />
+                </node>
+                <node concept="liA8E" id="18l8ktIYO7I" role="2OqNvi">
+                  <ref role="37wK5l" node="5w7roaPFdmr" resolve="addMonitoringInfo" />
+                  <node concept="Xl_RD" id="18l8ktIYO9a" role="37wK5m">
+                    <property role="Xl_RC" value="Producer enabled" />
+                  </node>
+                  <node concept="3cpWs3" id="18l8ktIYR5$" role="37wK5m">
+                    <node concept="Xl_RD" id="18l8ktIYR6A" role="3uHU7B">
+                      <property role="Xl_RC" value="" />
+                    </node>
+                    <node concept="2OqwBi" id="18l8ktIYOia" role="3uHU7w">
+                      <node concept="37vLTw" id="18l8ktIYOfu" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7tfEsbGWwUu" resolve="crtl" />
+                      </node>
+                      <node concept="liA8E" id="18l8ktIYOm4" role="2OqNvi">
+                        <ref role="37wK5l" node="4InK$iNsD$Z" resolve="getproducer6_ProducerEnabled" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="7tfEsbHQLrn" role="3cqZAp">
               <node concept="2OqwBi" id="7tfEsbHQLro" role="3clFbG">
                 <node concept="37vLTw" id="7tfEsbHQLrp" role="2Oq$k0">
@@ -18116,7 +18142,7 @@
                         <ref role="3cqZAo" node="7tfEsbGWwUu" resolve="crtl" />
                       </node>
                       <node concept="liA8E" id="7tfEsbHQLrw" role="2OqNvi">
-                        <ref role="37wK5l" node="4NpYXr65dN6" resolve="getproducer6_NextScheduledRuns" />
+                        <ref role="37wK5l" node="4NpYXr65dN6" resolve="getproducer7_NextScheduledRuns" />
                       </node>
                     </node>
                   </node>
@@ -18400,7 +18426,7 @@
               <node concept="3cpWs3" id="37q6uRCynA$" role="3uHU7B">
                 <node concept="2OqwBi" id="37q6uRCynAC" role="3uHU7B">
                   <node concept="10M0yZ" id="37q6uRCynAD" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2T5SnS24sOh" resolve="DATETIMEFORMATTER" />
+                    <ref role="3cqZAo" node="2T5SnS24sOh" resolve="TIME_EXACT_ONLY_FORMATTER" />
                     <ref role="1PxDUh" node="66durT_3en0" resolve="JmxBatchJobCoreReporter" />
                   </node>
                   <node concept="liA8E" id="37q6uRCynAE" role="2OqNvi">
@@ -18459,7 +18485,7 @@
               <node concept="3cpWs3" id="s_xv0_DgMa" role="3uHU7B">
                 <node concept="2OqwBi" id="s_xv0_DgMb" role="3uHU7B">
                   <node concept="10M0yZ" id="s_xv0_DgMc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2T5SnS24sOh" resolve="DATETIMEFORMATTER" />
+                    <ref role="3cqZAo" node="2T5SnS24sOh" resolve="TIME_EXACT_ONLY_FORMATTER" />
                     <ref role="1PxDUh" node="66durT_3en0" resolve="JmxBatchJobCoreReporter" />
                   </node>
                   <node concept="liA8E" id="s_xv0_DgMd" role="2OqNvi">
@@ -20250,7 +20276,7 @@
                   </node>
                   <node concept="3cpWs3" id="4$zcAett3Lt" role="3uHU7B">
                     <node concept="Xl_RD" id="4$zcAett3Lu" role="3uHU7B">
-                      <property role="Xl_RC" value="deleayMode " />
+                      <property role="Xl_RC" value="delayMode " />
                     </node>
                     <node concept="37vLTw" id="4$zcAett5pl" role="3uHU7w">
                       <ref role="3cqZAo" node="4$zcAett4c0" resolve="delayInMs" />

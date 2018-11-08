@@ -3854,7 +3854,7 @@
                                                 <node concept="liA8E" id="1rrvF1jx5IQ" role="2OqNvi">
                                                   <ref role="37wK5l" to="1e0c:1nXeD0e_LbJ" resolve="showException" />
                                                   <node concept="Xl_RD" id="1dzqM5xtYni" role="37wK5m">
-                                                    <property role="Xl_RC" value="FX8Application.defaultUncoughtExceptionHandler()" />
+                                                    <property role="Xl_RC" value="FX8Application.defaultUncaughtExceptionHandler()" />
                                                   </node>
                                                   <node concept="37vLTw" id="1dzqM5xtY$V" role="37wK5m">
                                                     <ref role="3cqZAo" node="1rrvF1jyQxg" resolve="throwToReport" />
