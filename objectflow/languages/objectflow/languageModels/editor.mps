@@ -6655,7 +6655,7 @@
   </node>
   <node concept="24kQdi" id="q_zDmI5zGy">
     <property role="3GE5qa" value="Configuration" />
-    <ref role="1XX52x" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
+    <ref role="1XX52x" to="un0u:q_zDmI5v5l" resolve="Config" />
     <node concept="3EZMnI" id="q_zDmI5$a4" role="2wV5jI">
       <node concept="3F0ifn" id="q_zDmI5$a5" role="3EZMnx">
         <property role="3F0ifm" value="OFXConfiguration" />
@@ -7299,7 +7299,7 @@
   </node>
   <node concept="24kQdi" id="1aaqwMInGrH">
     <property role="3GE5qa" value="OFXTest" />
-    <ref role="1XX52x" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <ref role="1XX52x" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
     <node concept="3EZMnI" id="1aaqwMInUhD" role="2wV5jI">
       <node concept="3EZMnI" id="1aaqwMInUhE" role="3EZMnx">
         <node concept="VPM3Z" id="1aaqwMInUhF" role="3F10Kt">
@@ -10242,7 +10242,7 @@
         <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
       </node>
       <node concept="3F0ifn" id="3U0QWzu$pmu" role="3EZMnx">
-        <property role="3F0ifm" value="// allways check if unit of work was ALREADY processed (UI edits) -&gt; cancel" />
+        <property role="3F0ifm" value="// always check if unit of work was ALREADY processed (UI edits) -&gt; cancel" />
         <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         <node concept="pVoyu" id="3U0QWzu$pqn" role="3F10Kt">
           <property role="VOm3f" value="true" />
