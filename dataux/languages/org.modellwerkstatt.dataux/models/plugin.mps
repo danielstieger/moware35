@@ -4257,6 +4257,25 @@
                       <node concept="2es0OD" id="7wNjWSaL6_i" role="2OqNvi">
                         <node concept="1bVj0M" id="7wNjWSaL6_k" role="23t8la">
                           <node concept="3clFbS" id="7wNjWSaL6_l" role="1bW5cS">
+                            <node concept="3cpWs8" id="1XzaP_Orrsf" role="3cqZAp">
+                              <node concept="3cpWsn" id="1XzaP_Orrsi" role="3cpWs9">
+                                <property role="TrG5h" value="modName" />
+                                <node concept="17QB3L" id="1XzaP_Orrsd" role="1tU5fm" />
+                                <node concept="2OqwBi" id="1XzaP_OrsFc" role="33vP2m">
+                                  <node concept="2OqwBi" id="7wNjWSaLaCB" role="2Oq$k0">
+                                    <node concept="37vLTw" id="7wNjWSaLap1" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="7wNjWSaL6_m" resolve="it" />
+                                    </node>
+                                    <node concept="liA8E" id="7wNjWSaLaTh" role="2OqNvi">
+                                      <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName():java.lang.String" resolve="getModuleName" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="1XzaP_Ort6W" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                             <node concept="3clFbJ" id="7wNjWSaL_Jh" role="3cqZAp">
                               <node concept="3clFbS" id="7wNjWSaL_Jj" role="3clFbx">
                                 <node concept="3clFbF" id="7wNjWSaLE1l" role="3cqZAp">
@@ -4280,36 +4299,39 @@
                                   </node>
                                 </node>
                               </node>
-                              <node concept="22lmx$" id="7wNjWSaLB_9" role="3clFbw">
-                                <node concept="2OqwBi" id="7wNjWSaLCD2" role="3uHU7w">
-                                  <node concept="2OqwBi" id="7wNjWSaLC5K" role="2Oq$k0">
-                                    <node concept="37vLTw" id="7wNjWSaLBQt" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="7wNjWSaL6_m" resolve="it" />
-                                    </node>
-                                    <node concept="liA8E" id="7wNjWSaLCnN" role="2OqNvi">
-                                      <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName():java.lang.String" resolve="getModuleName" />
-                                    </node>
+                              <node concept="22lmx$" id="1XzaP_Oru7U" role="3clFbw">
+                                <node concept="2OqwBi" id="1XzaP_OruEq" role="3uHU7w">
+                                  <node concept="37vLTw" id="1XzaP_Orupf" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="1XzaP_Orrsi" resolve="modName" />
                                   </node>
-                                  <node concept="liA8E" id="7wNjWSaLCZU" role="2OqNvi">
+                                  <node concept="liA8E" id="1XzaP_Orv5j" role="2OqNvi">
                                     <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
-                                    <node concept="Xl_RD" id="7wNjWSaLDfc" role="37wK5m">
-                                      <property role="Xl_RC" value=".forms" />
+                                    <node concept="Xl_RD" id="1XzaP_Orvm$" role="37wK5m">
+                                      <property role="Xl_RC" value="fopland" />
                                     </node>
                                   </node>
                                 </node>
-                                <node concept="2OqwBi" id="7wNjWSaLAh0" role="3uHU7B">
-                                  <node concept="2OqwBi" id="7wNjWSaLaCB" role="2Oq$k0">
-                                    <node concept="37vLTw" id="7wNjWSaLap1" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="7wNjWSaL6_m" resolve="it" />
+                                <node concept="22lmx$" id="7wNjWSaLB_9" role="3uHU7B">
+                                  <node concept="2OqwBi" id="7wNjWSaLAh0" role="3uHU7B">
+                                    <node concept="liA8E" id="7wNjWSaLAAV" role="2OqNvi">
+                                      <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
+                                      <node concept="Xl_RD" id="7wNjWSaLAP$" role="37wK5m">
+                                        <property role="Xl_RC" value="fatflow" />
+                                      </node>
                                     </node>
-                                    <node concept="liA8E" id="7wNjWSaLaTh" role="2OqNvi">
-                                      <ref role="37wK5l" to="lui2:~SModuleReference.getModuleName():java.lang.String" resolve="getModuleName" />
+                                    <node concept="37vLTw" id="1XzaP_Ortni" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="1XzaP_Orrsi" resolve="modName" />
                                     </node>
                                   </node>
-                                  <node concept="liA8E" id="7wNjWSaLAAV" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
-                                    <node concept="Xl_RD" id="7wNjWSaLAP$" role="37wK5m">
-                                      <property role="Xl_RC" value="fatflow" />
+                                  <node concept="2OqwBi" id="7wNjWSaLCD2" role="3uHU7w">
+                                    <node concept="37vLTw" id="1XzaP_OrtPY" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="1XzaP_Orrsi" resolve="modName" />
+                                    </node>
+                                    <node concept="liA8E" id="7wNjWSaLCZU" role="2OqNvi">
+                                      <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
+                                      <node concept="Xl_RD" id="7wNjWSaLDfc" role="37wK5m">
+                                        <property role="Xl_RC" value=".forms" />
+                                      </node>
                                     </node>
                                   </node>
                                 </node>
