@@ -10310,6 +10310,7 @@
       <property role="1cu_pB" value="0" />
       <node concept="l2Vlx" id="3U0QWzu_6fI" role="2iSdaV" />
       <node concept="3F1sOY" id="7JtXXwmFLXQ" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;desc&gt;" />
         <ref role="1NtTu8" to="un0u:7JtXXwmFLXL" />
       </node>
       <node concept="3F0ifn" id="7bWGJuRDHiQ" role="3EZMnx">
