@@ -11161,13 +11161,24 @@
           </node>
         </node>
         <node concept="3clFbJ" id="4n24ZlETfFm" role="3cqZAp">
-          <node concept="3fqX7Q" id="4n24ZlETfFn" role="3clFbw">
-            <node concept="2OqwBi" id="4n24ZlETfFo" role="3fr31v">
-              <node concept="37vLTw" id="4n24ZlETfFp" role="2Oq$k0">
-                <ref role="3cqZAo" node="4n24ZlETfv5" resolve="popup" />
+          <node concept="1Wc70l" id="3KW5WeiQzEu" role="3clFbw">
+            <node concept="3y3z36" id="3KW5WeiQ$pO" role="3uHU7w">
+              <node concept="10Nm6u" id="3KW5WeiQ$sv" role="3uHU7w" />
+              <node concept="2OqwBi" id="3KW5WeiQzRI" role="3uHU7B">
+                <node concept="Xjq3P" id="3KW5WeiQzN0" role="2Oq$k0" />
+                <node concept="liA8E" id="3KW5WeiQ$o5" role="2OqNvi">
+                  <ref role="37wK5l" to="p18y:~Node.getScene():javafx.scene.Scene" resolve="getScene" />
+                </node>
               </node>
-              <node concept="liA8E" id="4n24ZlETfFq" role="2OqNvi">
-                <ref role="37wK5l" to="zsw4:~Window.isShowing():boolean" resolve="isShowing" />
+            </node>
+            <node concept="3fqX7Q" id="4n24ZlETfFn" role="3uHU7B">
+              <node concept="2OqwBi" id="4n24ZlETfFo" role="3fr31v">
+                <node concept="37vLTw" id="4n24ZlETfFp" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4n24ZlETfv5" resolve="popup" />
+                </node>
+                <node concept="liA8E" id="4n24ZlETfFq" role="2OqNvi">
+                  <ref role="37wK5l" to="zsw4:~Window.isShowing():boolean" resolve="isShowing" />
+                </node>
               </node>
             </node>
           </node>
