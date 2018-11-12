@@ -9743,7 +9743,7 @@
         <ref role="37wK5l" to="x5li:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
         <ref role="1Pybhc" to="x5li:~DateTimeFormat" resolve="DateTimeFormat" />
         <node concept="Xl_RD" id="7JtXXwm2wSI" role="37wK5m">
-          <property role="Xl_RC" value="EEE dd.MM.y HH:mm:ss" />
+          <property role="Xl_RC" value="EEE dd.MM.yyyy HH:mm:ss" />
         </node>
       </node>
     </node>
