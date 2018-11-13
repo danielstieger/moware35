@@ -168,6 +168,7 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
@@ -1122,6 +1123,15 @@
         <property role="Xl_RC" value="password" />
       </node>
     </node>
+    <node concept="Wx3nA" id="4HVj37r30Oz" role="jymVt">
+      <property role="TrG5h" value="AUTOIP" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="4HVj37r30O$" role="1tU5fm" />
+      <node concept="3Tmbuc" id="4HVj37r30O_" role="1B3o_S" />
+      <node concept="Xl_RD" id="4HVj37r30OA" role="33vP2m">
+        <property role="Xl_RC" value="autoip" />
+      </node>
+    </node>
     <node concept="Wx3nA" id="57ov2SA7QB" role="jymVt">
       <property role="TrG5h" value="ERRORMESSAGE" />
       <property role="3TUv4t" value="true" />
@@ -1385,7 +1395,28 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="57ov2SM71S" role="3cqZAp" />
+        <node concept="3cpWs8" id="4HVj37r31ni" role="3cqZAp">
+          <node concept="3cpWsn" id="4HVj37r31nl" role="3cpWs9">
+            <property role="TrG5h" value="autoIp" />
+            <node concept="10P_77" id="4HVj37r31ng" role="1tU5fm" />
+            <node concept="3y3z36" id="4HVj37r31TG" role="33vP2m">
+              <node concept="10Nm6u" id="4HVj37r31Up" role="3uHU7w" />
+              <node concept="2OqwBi" id="4HVj37r31Ds" role="3uHU7B">
+                <node concept="37vLTw" id="4HVj37r31Cv" role="2Oq$k0">
+                  <ref role="3cqZAo" node="57ov2S_z9j" resolve="request" />
+                </node>
+                <node concept="liA8E" id="4HVj37r31J6" role="2OqNvi">
+                  <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                  <node concept="37vLTw" id="4HVj37r31NK" role="37wK5m">
+                    <ref role="3cqZAo" node="4HVj37r30Oz" resolve="AUTOIP" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4HVj37r30kV" role="3cqZAp" />
+        <node concept="3clFbH" id="4HVj37r30$m" role="3cqZAp" />
         <node concept="3clFbJ" id="57ov2SA1pq" role="3cqZAp">
           <node concept="3clFbS" id="57ov2SA1ps" role="3clFbx">
             <node concept="3cpWs8" id="57ov2SM7GU" role="3cqZAp">
@@ -1582,9 +1613,14 @@
             </node>
             <node concept="3clFbH" id="57ov2SFEFc" role="3cqZAp" />
           </node>
-          <node concept="3fqX7Q" id="57ov2SA1wV" role="3clFbw">
-            <node concept="37vLTw" id="57ov2SA1$n" role="3fr31v">
-              <ref role="3cqZAo" node="57ov2SA0hr" resolve="triedLoginWithRequestIp" />
+          <node concept="1Wc70l" id="4HVj37r320K" role="3clFbw">
+            <node concept="37vLTw" id="4HVj37r32he" role="3uHU7w">
+              <ref role="3cqZAo" node="4HVj37r31nl" resolve="autoIp" />
+            </node>
+            <node concept="3fqX7Q" id="57ov2SA1wV" role="3uHU7B">
+              <node concept="37vLTw" id="57ov2SA1$n" role="3fr31v">
+                <ref role="3cqZAo" node="57ov2SA0hr" resolve="triedLoginWithRequestIp" />
+              </node>
             </node>
           </node>
           <node concept="9aQIb" id="57ov2SA3HR" role="9aQIa">

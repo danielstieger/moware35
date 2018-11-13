@@ -25,14 +25,13 @@ var $$ = function(query) {
 
 
 function openPage(page) {
-  $$('.sv-nav, button').forEach(function(item){
-    item.className += ' w3-disabled'; /* sv-navDisabled */
-  });
+  if (! svHideAllContainsDropdown()) {
+      svDisableNavigation();
 
-  setTimeout(function(){
-    window.location = page;
-  }, 1500);
-
+      setTimeout(function(){
+        window.location = page;
+      }, 1500);
+  }
 }
 
 function toggleDropDown(x) {
@@ -48,18 +47,38 @@ function toggleDropDown(x) {
     }
 }
 
-function Suivant() {
-  // suivant object constructor
-
-  this.log = function(title, st) {
-    console.log(title + ': ' + st);
-  }
 
 
 
+/* this should go into an object -> it has some state */
+var onlongtouch;
+var timer;
+var touchduration = 2000; //length of time we want the user to touch before we do something
 
+startSystemMenu = function(e) {
+    e.preventDefault();
+    timer = setTimeout(onlongtouch, touchduration);
+    console.log("startSystemMenu() in " + touchduration);
+}
+
+cancelSystemMenu = function() {
+    //stops short touches from firing the event
+    if (timer) {
+      clearTimeout(timer); // clearTimeout, not cleartimeout..
+      console.log("cancelSystemMenu() cleared timer");
+    } else {
+      console.log("cancelSystemMenu() but timer NOT CLEARED");
+    }
 
 }
+
+onlongtouch = function() {
+   console.log("executing longtouch method()");
+   toggleDropDown($('#SystemDropdownMenu'));
+ };
+
+
+
 
 
 
@@ -70,11 +89,14 @@ function Suivant() {
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
 
 document.addEventListener('DOMContentLoaded', function() {
+  var node = $('.sv-bartitle');
 
-  EB.KeyCapture.captureKey(true,'all', function(param){
-        $('#info3').innerHTML = JSON.stringify(param);
-    });
-
-  $('#info1').innerHTML = '> ' + window.screen.availHeight + ' X ' + window.screen.availWidth;
-  $('#info2').innerHTML = '> ' + window.screen.height + ' X ' + window.screen.width;
+  node.addEventListener("mousedown", startSystemMenu);
+  node.addEventListener("mouseup", cancelSystemMenu);
+  node.addEventListener("touchstart", startSystemMenu);
+  /* node.addEventListener("click", startSystemMenu); */
+  node.addEventListener("mouseout", cancelSystemMenu);
+  node.addEventListener("touchend", cancelSystemMenu);
+  node.addEventListener("touchleave", cancelSystemMenu);
+  node.addEventListener("touchcancel", cancelSystemMenu);
 });

@@ -50,7 +50,7 @@
 .sv-branding-gray {color:#000 !important; background-color:#d9d9d9}
 .sv-back-gray {color:#d9d9d9 !important; background-color:#333333 !important}
 .sv-tile {color:#000 !important; background-color:#f2f2f2!important;
-          border-right:20px solid #ccc!important;
+          border-right:10px solid #ccc!important;
           margin-bottom: 12px;
         }
 
@@ -78,7 +78,7 @@
          padding-left: 0px !important; padding-right: 0px !important; }
 .sv-posrow {border-bottom:1px solid #333333!important;
             padding: 18px 16px; }
-
+.sv-table-button-bar {margin-top: 16px; display: none; }
 
 
 /* editor screen, scanning, etc.  ------------------------------------------ */

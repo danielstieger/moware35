@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <title>moware suivant</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
   <meta charset="UTF-8">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 
@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="css/w3.css?id=1234">
   <link rel="icon" type="image/ico" href="images/favicon.ico">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <script charset="utf-8" src="js/suivantui.js?id=1234"></script>
   <script charset="utf-8" src="js/suivant.js?id=1234"></script>
 
   <style>
@@ -29,27 +31,27 @@
 
 <body class="sv-back-gray">
 
-<div class="w3-container w3-row w3-theme-d3">
+<div class="w3-container w3-row w3-theme-d3" onclick="svHideAllContainsDropdown()">
   <div class="w3-col s9 w3-left-align"> Breadchrumbs </div>
   <div class="w3-col s3 w3-right-align"> F 8126 </div>
 </div>
 
-<div class="w3-bar w3-theme">
+<div class="w3-bar w3-theme" onclick="svHideAllContainsDropdown()">
   <button type="button" class="w3-bar-item w3-button" onClick="javascript: openPage('wareneingaenge.html')"> <i class="material-icons"> arrow_back </i></button>
   <span class="w3-bar-item sv-bartitle"> Wareneingang </span>
   <button type="button" class="w3-bar-item w3-button w3-right"> <i class="material-icons"> done </i> OK </button>
 </div>
 
-<div class="w3-panel">
+<div class="w3-panel" onclick="svHideAllContainsDropdown()">
   <div class="w3-block"> <strong> Pressegroßvertrieb GmbH 14.01.18 </strong> </div>
   <div class="w3-block">
     <span> 6 Position </span>
-    <span class="w3-dropdown-click w3-right">
-        <span onClick="toggleDropDown($('#TableDropDownContent'))"> <i class="material-icons"> more_vert </i> </span>
+    <div class="w3-dropdown-click w3-right">
+        <span onClick="svShowDropdown(event, $('#TableDropDownContent'));"> <i class="material-icons"> more_vert </i> </span>
         <div id="TableDropDownContent" class="w3-dropdown-content w3-bar-block" style="right:0">
-            <span onClick="toggleDropDown($('#TableDropDownContent'))" class="w3-bar-item w3-button">Bearbeiten</span>
-            <span onClick="toggleDropDown($('#TableDropDownContent'))" class="w3-bar-item w3-button">Alle abschließen</span>
-            <span onClick="toggleDropDown($('#TableDropDownContent'))" class="w3-bar-item w3-button">Alle 0 setzen</span>
+            <button class="w3-bar-item w3-button">Bearbeiten</button>
+            <button disabled class="w3-bar-item w3-button">Alle abschließen</button>
+            <button class="w3-bar-item w3-button">Alle 0 setzen</button>
         </div>
     </div>
   </div>

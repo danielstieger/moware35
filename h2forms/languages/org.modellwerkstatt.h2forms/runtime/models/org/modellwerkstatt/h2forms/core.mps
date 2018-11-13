@@ -6931,7 +6931,7 @@
             </node>
             <node concept="3SKdUt" id="57ov2SLtyw" role="3cqZAp">
               <node concept="3SKdUq" id="57ov2SLtyy" role="3SKWNk">
-                <property role="3SKdUp" value="but only, if login screen was realy displayed." />
+                <property role="3SKdUp" value="but only, if login screen was really displayed." />
               </node>
             </node>
             <node concept="3clFbF" id="57ov2SKHF3" role="3cqZAp">
