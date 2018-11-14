@@ -23,6 +23,8 @@ var $$ = function(query) {
   return document.querySelectorAll(query);
 };
 
+var systemMenuHandler;
+
 
 function openPage(page) {
   if (! svHideAllContainsDropdown()) {
@@ -50,33 +52,6 @@ function toggleDropDown(x) {
 
 
 
-/* this should go into an object -> it has some state */
-var onlongtouch;
-var timer;
-var touchduration = 2000; //length of time we want the user to touch before we do something
-
-startSystemMenu = function(e) {
-    e.preventDefault();
-    timer = setTimeout(onlongtouch, touchduration);
-    console.log("startSystemMenu() in " + touchduration);
-}
-
-cancelSystemMenu = function() {
-    //stops short touches from firing the event
-    if (timer) {
-      clearTimeout(timer); // clearTimeout, not cleartimeout..
-      console.log("cancelSystemMenu() cleared timer");
-    } else {
-      console.log("cancelSystemMenu() but timer NOT CLEARED");
-    }
-
-}
-
-onlongtouch = function() {
-   console.log("executing longtouch method()");
-   toggleDropDown($('#SystemDropdownMenu'));
- };
-
 
 
 
@@ -87,16 +62,7 @@ onlongtouch = function() {
 
 
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
-
 document.addEventListener('DOMContentLoaded', function() {
-  var node = $('.sv-bartitle');
+  systemMenuHandler = new SVLongTouchHandler($('.sv-bartitle'), $('#SystemDropdownMenu'));
 
-  node.addEventListener("mousedown", startSystemMenu);
-  node.addEventListener("mouseup", cancelSystemMenu);
-  node.addEventListener("touchstart", startSystemMenu);
-  /* node.addEventListener("click", startSystemMenu); */
-  node.addEventListener("mouseout", cancelSystemMenu);
-  node.addEventListener("touchend", cancelSystemMenu);
-  node.addEventListener("touchleave", cancelSystemMenu);
-  node.addEventListener("touchcancel", cancelSystemMenu);
 });

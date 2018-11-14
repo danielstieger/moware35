@@ -41,7 +41,9 @@ function svShowDropdown(e, dropDownDiv) {
   if (! svHideAllContainsDropdown()) {
       svShow(dropDownDiv);
   };
-  e.stopPropagation();
+  if (e) {
+    e.stopPropagation();
+  }
 }
 
 function svShowTableActionButtons(e, tableItemRowDiv) {
@@ -64,60 +66,56 @@ function svDisableNavigation() {
 
 
 /*  *  *  *  *  *  *  *  * LongTouchHandler   *  *  *  *  *  *  *  *  *  *  */
-function SVLongTouchHandler(dropdownMenu) {
+function SVLongTouchHandler(attachButton, dropdownMenu) {
 
+  var self = this;
   this.dropdownMenu = dropdownMenu;
-  this.onlongtouch = function(e) {
+  this.attachButton = attachButton;
+
+  this.onlongtouch = function() {
     console.log("executing longtouch method()");
-    svShowDropdown(e, this.dropdownMenu);
+    // hide dropdowns to ensure, system menu will be shown. 
+    svHideAllContainsDropdown();
+
+    svShowDropdown(null, self.dropdownMenu);
   };
 
   this.timer = null;
-  this.touchduration = 5000;
+  this.touchduration = 2000;
 
   this.requestSystemMenu = function(e) {
-
-      timer = setTimeout(this.onlongtouch, this.touchduration);
-      console.log("startSystemMenu() in " + this.touchduration);
-
+      timer = setTimeout(self.onlongtouch, self.touchduration);
+      console.log("startSystemMenu() in " + self.touchduration);
       e.preventDefault();
   }
 
   this.cancelSystemMenu = function() {
       //stops short touches from firing the event
-      if (this.timer != null) {
-        clearTimeout(this.timer); // clearTimeout, not cleartimeout..
-        this.timer = null;
+      if (self.timer != null) {
+        clearTimeout(self.timer); // clearTimeout, not cleartimeout..
+        self.timer = null;
         console.log("cancelSystemMenu() cleared timer");
       } else {
         console.log("cancelSystemMenu() but timer NOT CLEARED");
       }
   }
-}
 
+  this.dummyClickListener = function(e) {
+      console.log("dummyClickListener() called ");
+      e.preventDefault();
+  }
 
-
-
-
-
-
-
-
-  /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
-
-  document.addEventListener('DOMContentLoaded', function() {
-    var node = $('.sv-bartitle');
-
-    node.addEventListener("mousedown", startSystemMenu);
-    node.addEventListener("mouseup", cancelSystemMenu);
-    node.addEventListener("touchstart", startSystemMenu);
-    /* node.addEventListener("click", startSystemMenu); */
-    node.addEventListener("mouseout", cancelSystemMenu);
-    node.addEventListener("touchend", cancelSystemMenu);
-    node.addEventListener("touchleave", cancelSystemMenu);
-    node.addEventListener("touchcancel", cancelSystemMenu);
-  });
-
-
-
+   // is registration necessary ?
+   if (this.attachButton) {
+     console.log('Starting registration ');
+     this.attachButton.addEventListener("mousedown", this.requestSystemMenu);
+     this.attachButton.addEventListener("mouseup", this.cancelSystemMenu);
+     this.attachButton.addEventListener("touchstart", this.requestSystemMenu );
+     this.attachButton.addEventListener("click", this.dummyClickListener );
+     this.attachButton.addEventListener("mouseout", this.cancelSystemMenu);
+     this.attachButton.addEventListener("touchend", this.cancelSystemMenu);
+     this.attachButton.addEventListener("touchleave", this.cancelSystemMenu);
+     this.attachButton.addEventListener("touchcancel", this.cancelSystemMenu);
+     console.log(' registration done ..... ');
+   }
 }

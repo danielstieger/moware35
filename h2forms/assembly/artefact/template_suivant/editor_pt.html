@@ -29,7 +29,7 @@
   h6   {font-size:12px}
   </style>
 
-<body class="sv-back-gray">
+<body>
 
 <div class="w3-container w3-row w3-theme-d3">
   <div class="w3-col s9 w3-left-align"> Breadchrumbs 0 </div>
@@ -41,49 +41,68 @@
   <span class="w3-bar-item sv-bartitle"> Position bearb. </span>
   <button type="button" class="w3-bar-item w3-button w3-right"> <i class="material-icons"> done </i> OK </button>
 </div>
-
-<div class="w3-panel">
-  <div class="w3-block"> <strong> Pressegroßvertrieb GmbH 14.01.18 </strong> </div>
-  <div class="w3-cell-row">
-    <div class="w3-cell"> Position </div> <div class="w3-cell w3-right-align"> 'Die Ganze Woche'  25K a 12Kart.</div>
+<div class="sv-back-gray">
+  <div class="w3-panel" onclick="svHideAllContainsDropdown()">
+    <div class="w3-block"> 16.8.18 - pagetitle </div>
+    <div class="w3-block"> 5 Belege zur bearbeitung - sub pagetitle </div>
   </div>
 </div>
-
 <div class="w3-panel sv-editor">
-  <div class="w3-section">
-    <label class="sv-label">EAN Code:</label>
-    <input class="w3-input sv-input w3-hover-light-grey" type="text" value="412515112341">
+  <div class="w3-row sv-edit-row2">
+    <div class="w3-col m3 s5 sv-label"> EAN Code: </div>
+    <div class="w3-col m9 s7"> <input class="w3-input sv-input" type="text" value="412515112341">
+    </div>
   </div>
-  <div class="w3-section">
-    <label class="sv-label">Bezeichnung:</label>
-    <input class="w3-input sv-input w3-hover-light-grey" type="text" value="Die ganze Woche" disabled>
+
+  <div class="w3-row sv-edit-row2">
+    <div class="w3-col m3 s5 sv-label"> Bezeichnung: </div>
+    <div class="w3-col m9 s7"> Die ganze Woche </div>
   </div>
-  <div class="w3-section">
-    <label class="sv-label">Menge:</label>
-    <input class="w3-input sv-input w3-hover-light-grey" type="text" value="12">
+
+  <div class="w3-row sv-edit-row2">
+    <div class="w3-col m3 s5 sv-label"> Menge: </div>
+    <div class="w3-col m9 s7"> <input class="w3-input sv-input" type="text" value="12"> </div>
   </div>
-  <div class="w3-section">
-    <label class="sv-label">Status:</label>
-    <select class="w3-select">
+
+  <div class="w3-row sv-edit-row2">
+    <div class="w3-col m3 s5 sv-label"> Status: </div>
+    <div class="w3-col m9 s7"> <select class="w3-select">
         <option value="In Bearbeitung">In Bearbeitung</option>
         <option value="Offen">Offen</option>
         <option value="Abgeschlossen">Abgeschlossen</option>
         <option value="Unbekannt">Unbekannt</option>
-    </select>
-  </div>
-  <div class="w3-section">
-    <label class="sv-label">Status2:</label> &nbsp; &nbsp; &nbsp;
-    <div class="w3-dropdown-click">
-      <button onclick="toggleDropDown($('#Demo'))" class="w3-button">In Bearbeitung</button>
-      <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
-        <a href="#" onclick="toggleDropDown($('#Demo'))" class="w3-bar-item w3-button">In Bearbeitung</a>
-        <a href="#" onclick="toggleDropDown($('#Demo'))" class="w3-bar-item w3-button">Offen</a>
-        <a href="#" onclick="toggleDropDown($('#Demo'))" class="w3-bar-item w3-button">Abgeschlossen</a>
-      </div>
-    </div>
+    </select> </div>
   </div>
 
+  <div class="w3-row sv-edit-row2">
+    <div class="w3-col m3 s5 sv-label"> EAN Code: </div>
+    <div class="w3-col m9 s7"> 412515112341 </div>
+  </div>
 
+  <div class="w3-row sv-edit-row2">
+    <div class="w3-col m3 s5 sv-label"> Bezeichnung: </div>
+    <div class="w3-col m9 s7"> <input class="w3-input sv-input" type="text" value="Die ganze Woche"> </div>
+  </div>
+
+  <div class="w3-row sv-edit-row2">
+    <div class="w3-col m3 s5 sv-label"> Menge: </div>
+    <div class="w3-col m9 s7"> 12 </div>
+  </div>
+
+  <div class="w3-row sv-edit-row2">
+    <div class="w3-col m3 s5 sv-label"> Status: </div>
+
+    <div class="w3-col m9 s7"> In Bearbeitung
+    <!-- <select class="w3-select" disabled>
+        <option value="In Bearbeitung">In Bearbeitung</option>
+        <option value="Offen">Offen</option>
+        <option value="Abgeschlossen">Abgeschlossen</option>
+        <option value="Unbekannt">Unbekannt</option>
+    </select> -->
+   </div>
+  </div>
+
+ <div style="height: 500px"> &nbsp; </div>
 </div>
 </body>
 </html>

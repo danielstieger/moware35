@@ -39,6 +39,11 @@
 <div class="w3-bar w3-theme" onclick="svHideAllContainsDropdown()">
   <button type="button" class="w3-bar-item w3-button" onClick="javascript: openPage('wareneingaenge.html')"> <i class="material-icons"> arrow_back </i></button>
   <span class="w3-bar-item sv-bartitle"> Wareneingang </span>
+  <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
+      <button class="w3-bar-item w3-button">Logout</button>
+      <button class="w3-bar-item w3-button" onclick="EB.Application.quit();">Exit Browser</button>
+  </div>
+
   <button type="button" class="w3-bar-item w3-button w3-right"> <i class="material-icons"> done </i> OK </button>
 </div>
 
@@ -59,7 +64,7 @@
 
 <div class="w3-panel sv-doc">
   <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor_stacked.html')">
-    <div class="w3-col s8 m4"> <strong> Die Ganze Woche </strong> </div>
+    <div class="w3-col s8 m4"> <strong> Stacked Editor </strong> </div>
     <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Kontrolle </div>
     <div class="w3-col s4 m2"> 701231 </div>
     <div class="w3-col s2 m1"> 20 </div>
@@ -67,7 +72,7 @@
     <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
   </div>
   <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor_grid.html')">
-    <div class="w3-col s8 m4"> <strong> Die Ganze Woche </strong> </div>
+    <div class="w3-col s8 m4"> <strong> 4 / 8 Editor </strong> </div>
     <div class="w3-col s4 m2 sv-s-right-align w3-text-green"> Avisiert </div>
     <div class="w3-col s4 m2"> 701231 </div>
     <div class="w3-col s2 m1"> 20 </div>
@@ -75,14 +80,22 @@
     <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
   </div>
   <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor.html')">
-    <div class="w3-col s8 m4"> <strong> Die Ganze Woche </strong> </div>
+    <div class="w3-col s8 m4"> <strong> 3 / 9 Editor </strong> </div>
     <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Kontrolle </div>
     <div class="w3-col s4 m2"> 701231 </div>
     <div class="w3-col s2 m1"> 20 </div>
     <div class="w3-col s2 m1"> OK </div>
     <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
   </div>
-  <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor.html')">
+  <div class="w3-row sv-posrow sv-nav " onClick="javascript: openPage('editor_pt.html')">
+    <div class="w3-col s8 m4"> <strong> Page Title </strong> </div>
+    <div class="w3-col s4 m2 sv-s-right-align w3-text-yellow"> Bearbeitung </div>
+    <div class="w3-col s4 m2"> 701231 </div>
+    <div class="w3-col s2 m1"> 20 </div>
+    <div class="w3-col s2 m1"> OK </div>
+    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
+  </div>
+  <div class="w3-row sv-posrow sv-nav w3-disabled" onClick="javascript: openPage('editor.html')">
     <div class="w3-col s8 m4"> <strong> Die Ganze Woche </strong> </div>
     <div class="w3-col s4 m2 sv-s-right-align w3-text-yellow"> Bearbeitung </div>
     <div class="w3-col s4 m2"> 701231 </div>
@@ -90,15 +103,7 @@
     <div class="w3-col s2 m1"> OK </div>
     <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
   </div>
-  <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor.html')">
-    <div class="w3-col s8 m4"> <strong> Die Ganze Woche </strong> </div>
-    <div class="w3-col s4 m2 sv-s-right-align w3-text-yellow"> Bearbeitung </div>
-    <div class="w3-col s4 m2"> 701231 </div>
-    <div class="w3-col s2 m1"> 20 </div>
-    <div class="w3-col s2 m1"> OK </div>
-    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
-  </div>
-  <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor.html')">
+  <div class="w3-row sv-posrow sv-nav w3-disabled" onClick="javascript: openPage('editor.html')">
     <div class="w3-col s8 m4"> <strong> Die Ganze Woche </strong> </div>
     <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Kontrolle </div>
     <div class="w3-col s4 m2"> 701231 </div>
