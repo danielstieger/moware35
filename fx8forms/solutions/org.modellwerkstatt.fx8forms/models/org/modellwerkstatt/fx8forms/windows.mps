@@ -38551,9 +38551,7 @@
         <node concept="3clFbF" id="5eyJ5XtzUOo" role="3cqZAp">
           <node concept="1rXfSq" id="5eyJ5XtzUOm" role="3clFbG">
             <ref role="37wK5l" to="rb41:~TreeItem.setExpanded(boolean):void" resolve="setExpanded" />
-            <node concept="3clFbT" id="5eyJ5XtzUQB" role="37wK5m">
-              <property role="3clFbU" value="true" />
-            </node>
+            <node concept="3clFbT" id="5eyJ5XtzUQB" role="37wK5m" />
           </node>
         </node>
       </node>
@@ -38583,8 +38581,8 @@
         <node concept="3clFbF" id="5eyJ5XtzUUW" role="3cqZAp">
           <node concept="1rXfSq" id="5eyJ5XtzUUX" role="3clFbG">
             <ref role="37wK5l" to="rb41:~TreeItem.setExpanded(boolean):void" resolve="setExpanded" />
-            <node concept="3clFbT" id="5eyJ5XtzUUY" role="37wK5m">
-              <property role="3clFbU" value="true" />
+            <node concept="3clFbT" id="2yIiAodLk1" role="37wK5m">
+              <property role="3clFbU" value="false" />
             </node>
           </node>
         </node>
