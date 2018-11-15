@@ -47,18 +47,21 @@
   <button type="button" class="w3-bar-item w3-button w3-right"> <i class="material-icons"> done </i> OK </button>
 </div>
 
-<div class="w3-panel" onclick="svHideAllContainsDropdown()">
+<div class="sv-pt-container" onclick="svHideAllContainsDropdown()">
   <div class="w3-block"> <strong> Pressegroßvertrieb GmbH 14.01.18 </strong> </div>
   <div class="w3-block">
     <span> 6 Position </span>
-    <div class="w3-dropdown-click w3-right">
-        <span onClick="svShowDropdown(event, $('#TableDropDownContent'));"> <i class="material-icons"> more_vert </i> </span>
-        <div id="TableDropDownContent" class="w3-dropdown-content w3-bar-block" style="right:0">
-            <button class="w3-bar-item w3-button">Bearbeiten</button>
-            <button disabled class="w3-bar-item w3-button">Alle abschließen</button>
-            <button class="w3-bar-item w3-button">Alle 0 setzen</button>
+        <div class="w3-dropdown-click w3-right">
+          <button class="w3-button sv-pt-item" onClick="svShowDropdown(event, $('#TableDropDownContent'));"> <i class="material-icons"> more_vert </i> </button>
+          <div id="TableDropDownContent" class="w3-dropdown-content w3-bar-block" style="right:0">
+              <button class="w3-bar-item w3-button">Bearbeiten</button>
+              <button disabled class="w3-bar-item w3-button">Alle abschließen</button>
+              <button class="w3-bar-item w3-button">Alle 0 setzen</button>
+          </div>
         </div>
-    </div>
+        <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> check_circle </i> </button>
+        <button class="w3-button sv-pt-item w3-right"> Löschen </button>
+        <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> add_shopping_cart </i> </button>
   </div>
 </div>
 

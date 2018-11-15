@@ -68,9 +68,18 @@
             padding: 18px 16px; margin-bottom: 6px; }
 
 @media only screen and (max-width: 600px) {
-  .sv-s-right-align {text-align:right!important;}
+  .sv-s-right-align {text-align: right !important;}
 }
 
+
+/* action handling in page title area -------------------------------------- */
+.sv-pt-container {
+  padding: 16px 0px 12px 16px;
+}
+
+.sv-pt-item {
+  height: 50px !important;
+}
 
 
 /* document screen itself -------------------------------------------------- */
@@ -84,7 +93,7 @@
 /* editor screen, scanning, etc.  ------------------------------------------ */
 .sv-editor {color:#000 !important; background-color:#FFF!important;}
 .sv-input  {padding: 2px !important }
-.sv-label  {color: #666666 !important }
+.sv-label  {color: #666666 !important; text-align: right; padding-right: 24px;}
 .sv-edit-row {padding: 8px 0px; }
 .sv-edit-row2 {padding: 10px 0px; }
 .sv-editor-title {padding: 8px 8px !important; border-bottom: 1px solid #333333!important; }

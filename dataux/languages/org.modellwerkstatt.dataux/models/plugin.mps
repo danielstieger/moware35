@@ -45,7 +45,9 @@
         <child id="1207145201301" name="reference" index="ftvYc" />
       </concept>
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
+        <property id="1207149998849" name="isAlwaysVisible" index="fJN8o" />
         <property id="1205250923097" name="caption" index="2uzpH1" />
+        <property id="1213273179528" name="description" index="1WHSii" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
       </concept>
@@ -935,11 +937,12 @@
   <node concept="2DaZZR" id="4ExFGZU46k1" />
   <node concept="sE7Ow" id="2C3bueoZb5O">
     <property role="TrG5h" value="MoWareAutoCompletor" />
-    <property role="2uzpH1" value="MoWare AutoComplete Wizzard" />
+    <property role="2uzpH1" value="MoWare - AutoComplete Wizzard" />
+    <property role="1WHSii" value="Create complete command infra for entity" />
+    <property role="fJN8o" value="true" />
     <node concept="1DS2jV" id="4X6$QoZ7q6D" role="1NuT2Z">
       <property role="TrG5h" value="node" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.NODE" resolve="NODE" />
-      <node concept="1oajcY" id="4X6$QoZaJnJ" role="1oa70y" />
     </node>
     <node concept="1DS2jV" id="swLfMHQSd5" role="1NuT2Z">
       <property role="TrG5h" value="frame" />
@@ -1012,7 +1015,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="2muBohyw61O" role="3cqZAp" />
-        <node concept="3clFbH" id="2muBohyw66X" role="3cqZAp" />
         <node concept="3clFbJ" id="2muBohyw2nq" role="3cqZAp">
           <node concept="3clFbS" id="2muBohyw2ns" role="3clFbx">
             <node concept="3cpWs8" id="2wjP6CcuZnN" role="3cqZAp">
@@ -1111,7 +1113,7 @@
                         </node>
                       </node>
                       <node concept="Xl_RD" id="4X6$QoZaKsP" role="37wK5m">
-                        <property role="Xl_RC" value="Select an entiy NODE in project explorer first." />
+                        <property role="Xl_RC" value="Select the Entity node in the project explorer you want to run the autocomplete over." />
                       </node>
                       <node concept="Xl_RD" id="6j_KBLogJSb" role="37wK5m">
                         <property role="Xl_RC" value="Selection missing" />
@@ -4055,7 +4057,7 @@
   </node>
   <node concept="sE7Ow" id="7ojk6m5rgxo">
     <property role="TrG5h" value="Remove Fatflow from all models in project" />
-    <property role="2uzpH1" value="MoWare2018: Remove dep. languages" />
+    <property role="2uzpH1" value="MoWare - Refactoring for MRS Plugin (RFKT)" />
     <node concept="1DS2jV" id="7ojk6m5rgxp" role="1NuT2Z">
       <property role="TrG5h" value="frame" />
       <ref role="1DUlNI" to="qq03:~MPSCommonDataKeys.FRAME" resolve="FRAME" />
