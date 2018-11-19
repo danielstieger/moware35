@@ -3099,7 +3099,7 @@
         <node concept="YS8fn" id="3J6KGB__SBd" role="3cqZAp">
           <node concept="2ShNRf" id="3J6KGB__SB_" role="YScLw">
             <node concept="1pGfFk" id="3J6KGB__UDn" role="2ShVmc">
-              <ref role="37wK5l" to="wyt6:~IllegalAccessError.&lt;init&gt;(java.lang.String)" resolve="IllegalAccessError" />
+              <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
               <node concept="Xl_RD" id="3J6KGB__UFC" role="37wK5m">
                 <property role="Xl_RC" value="getNewManMapSession() is no longer implemented @ OFXConsoleHelper. If absolutley necessary, inject appFactory in order to call getNewSession()." />
               </node>
@@ -28486,7 +28486,7 @@
             <node concept="YS8fn" id="5dZoziQwyqe" role="3cqZAp">
               <node concept="2ShNRf" id="5dZoziQwyqf" role="YScLw">
                 <node concept="1pGfFk" id="5dZoziQwyqg" role="2ShVmc">
-                  <ref role="37wK5l" to="wyt6:~IllegalAccessError.&lt;init&gt;(java.lang.String)" resolve="IllegalAccessError" />
+                  <ref role="37wK5l" node="2BAZOY0pv8F" resolve="OFXRefNotInitializedException" />
                   <node concept="3cpWs3" id="7VDbE_bQZds" role="37wK5m">
                     <node concept="Xl_RD" id="7VDbE_bQZhc" role="3uHU7w">
                       <property role="Xl_RC" value=" present, but reference not initialized." />
@@ -46772,6 +46772,124 @@
           <node concept="10Nm6u" id="4vUcH_0kuko" role="3cqZAk" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="2BAZOY0pogg">
+    <property role="3GE5qa" value="OFXDataType" />
+    <property role="TrG5h" value="OFXRefNotInitializedException" />
+    <node concept="3clFbW" id="2BAZOY0pv46" role="jymVt">
+      <node concept="3cqZAl" id="2BAZOY0pv48" role="3clF45" />
+      <node concept="3Tm1VV" id="2BAZOY0pv49" role="1B3o_S" />
+      <node concept="3clFbS" id="2BAZOY0pv4a" role="3clF47">
+        <node concept="XkiVB" id="2BAZOY0pv7r" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="2BAZOY0pv8F" role="jymVt">
+      <node concept="37vLTG" id="2BAZOY0pv91" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="2BAZOY0pv9A" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="2BAZOY0pv8H" role="3clF45" />
+      <node concept="3Tm1VV" id="2BAZOY0pv8I" role="1B3o_S" />
+      <node concept="3clFbS" id="2BAZOY0pv8J" role="3clF47">
+        <node concept="XkiVB" id="2BAZOY0pvcP" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="2BAZOY0pvhd" role="37wK5m">
+            <ref role="3cqZAo" node="2BAZOY0pv91" resolve="s" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="2BAZOY0pvkg" role="jymVt">
+      <node concept="3cqZAl" id="2BAZOY0pvki" role="3clF45" />
+      <node concept="3Tm1VV" id="2BAZOY0pvkj" role="1B3o_S" />
+      <node concept="3clFbS" id="2BAZOY0pvkk" role="3clF47">
+        <node concept="XkiVB" id="2BAZOY0pvpR" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="2BAZOY0pvqE" role="37wK5m">
+            <ref role="3cqZAo" node="2BAZOY0pvlo" resolve="s" />
+          </node>
+          <node concept="37vLTw" id="2BAZOY0pv$n" role="37wK5m">
+            <ref role="3cqZAo" node="2BAZOY0pvlw" resolve="t" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2BAZOY0pvlo" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="2BAZOY0pvln" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2BAZOY0pvlw" role="3clF46">
+        <property role="TrG5h" value="t" />
+        <node concept="3uibUv" id="2BAZOY0pvmB" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2BAZOY0pviQ" role="jymVt" />
+    <node concept="3Tm1VV" id="2BAZOY0pogh" role="1B3o_S" />
+    <node concept="3uibUv" id="2BAZOY0pv30" role="1zkMxy">
+      <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
+    </node>
+  </node>
+  <node concept="312cEu" id="2BAZOY0pIc4">
+    <property role="3GE5qa" value="OFXDataType" />
+    <property role="TrG5h" value="OFXIllegalChangeException" />
+    <node concept="3clFbW" id="2BAZOY0pIc5" role="jymVt">
+      <node concept="3cqZAl" id="2BAZOY0pIc6" role="3clF45" />
+      <node concept="3Tm1VV" id="2BAZOY0pIc7" role="1B3o_S" />
+      <node concept="3clFbS" id="2BAZOY0pIc8" role="3clF47">
+        <node concept="XkiVB" id="2BAZOY0pIc9" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;()" resolve="RuntimeException" />
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="2BAZOY0pIca" role="jymVt">
+      <node concept="37vLTG" id="2BAZOY0pIcb" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="2BAZOY0pIcc" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="2BAZOY0pIcd" role="3clF45" />
+      <node concept="3Tm1VV" id="2BAZOY0pIce" role="1B3o_S" />
+      <node concept="3clFbS" id="2BAZOY0pIcf" role="3clF47">
+        <node concept="XkiVB" id="2BAZOY0pIcg" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="2BAZOY0pIch" role="37wK5m">
+            <ref role="3cqZAo" node="2BAZOY0pIcb" resolve="s" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFbW" id="2BAZOY0pIci" role="jymVt">
+      <node concept="3cqZAl" id="2BAZOY0pIcj" role="3clF45" />
+      <node concept="3Tm1VV" id="2BAZOY0pIck" role="1B3o_S" />
+      <node concept="3clFbS" id="2BAZOY0pIcl" role="3clF47">
+        <node concept="XkiVB" id="2BAZOY0pIcm" role="3cqZAp">
+          <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+          <node concept="37vLTw" id="2BAZOY0pIcn" role="37wK5m">
+            <ref role="3cqZAo" node="2BAZOY0pIcp" resolve="s" />
+          </node>
+          <node concept="37vLTw" id="2BAZOY0pIco" role="37wK5m">
+            <ref role="3cqZAo" node="2BAZOY0pIcr" resolve="t" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="2BAZOY0pIcp" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="2BAZOY0pIcq" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="2BAZOY0pIcr" role="3clF46">
+        <property role="TrG5h" value="t" />
+        <node concept="3uibUv" id="2BAZOY0pIcs" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Throwable" resolve="Throwable" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="2BAZOY0pIct" role="jymVt" />
+    <node concept="3Tm1VV" id="2BAZOY0pIcu" role="1B3o_S" />
+    <node concept="3uibUv" id="2BAZOY0pIcv" role="1zkMxy">
+      <ref role="3uigEE" to="wyt6:~RuntimeException" resolve="RuntimeException" />
     </node>
   </node>
 </model>

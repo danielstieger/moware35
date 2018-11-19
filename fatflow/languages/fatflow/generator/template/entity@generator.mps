@@ -768,7 +768,7 @@
                       <node concept="YS8fn" id="5r27HhKAL7C" role="3cqZAp">
                         <node concept="2ShNRf" id="5r27HhKAL9k" role="YScLw">
                           <node concept="1pGfFk" id="5r27HhKALJe" role="2ShVmc">
-                            <ref role="37wK5l" to="wyt6:~IllegalAccessError.&lt;init&gt;(java.lang.String)" resolve="IllegalAccessError" />
+                            <ref role="37wK5l" to="28jr:2BAZOY0pIca" resolve="OFXIllegalChangeException" />
                             <node concept="Xl_RD" id="5r27HhKALLC" role="37wK5m">
                               <property role="Xl_RC" value="Changing values in read only entity is not allowed." />
                             </node>
