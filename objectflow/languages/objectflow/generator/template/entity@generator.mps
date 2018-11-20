@@ -357,7 +357,6 @@
       <concept id="1174914042989" name="jetbrains.mps.baseLanguageInternal.structure.InternalClassifierType" flags="in" index="2eloPW">
         <property id="1174914081067" name="fqClassName" index="2ely0U" />
       </concept>
-      <concept id="1202838164916" name="jetbrains.mps.baseLanguageInternal.structure.InternalThisExpression" flags="nn" index="eJtiG" />
       <concept id="1100832983841311024" name="jetbrains.mps.baseLanguageInternal.structure.InternalClassCreator" flags="nn" index="xCZzO">
         <property id="1100832983841311026" name="fqClassName" index="xCZzQ" />
         <child id="1100832983841311029" name="type" index="xCZzL" />
@@ -747,9 +746,22 @@
                       <node concept="YS8fn" id="5r27HhKAL7C" role="3cqZAp">
                         <node concept="2ShNRf" id="5r27HhKAL9k" role="YScLw">
                           <node concept="1pGfFk" id="5r27HhKALJe" role="2ShVmc">
-                            <ref role="37wK5l" to="wyt6:~IllegalAccessError.&lt;init&gt;(java.lang.String)" resolve="IllegalAccessError" />
-                            <node concept="Xl_RD" id="5r27HhKALLC" role="37wK5m">
-                              <property role="Xl_RC" value="Changing values in read only entity is not allowed." />
+                            <ref role="37wK5l" to="28jr:7gwY4W66c4I" resolve="OFXIllegalAccessException" />
+                            <node concept="3cpWs3" id="7gwY4W66F12" role="37wK5m">
+                              <node concept="Xl_RD" id="7gwY4W66F3o" role="3uHU7w">
+                                <property role="Xl_RC" value=")." />
+                              </node>
+                              <node concept="3cpWs3" id="7gwY4W66ENJ" role="3uHU7B">
+                                <node concept="Xl_RD" id="5r27HhKALLC" role="3uHU7B">
+                                  <property role="Xl_RC" value="Changing values in read only entity is not allowed (" />
+                                </node>
+                                <node concept="2OqwBi" id="7gwY4W66ERL" role="3uHU7w">
+                                  <node concept="Xjq3P" id="7gwY4W66EPq" role="2Oq$k0" />
+                                  <node concept="liA8E" id="7gwY4W66EWc" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~Object.toString():java.lang.String" resolve="toString" />
+                                  </node>
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -1473,10 +1485,10 @@
               </node>
             </node>
             <node concept="gft3U" id="4LCWVp19DyN" role="UU_$l">
-              <node concept="3clFbF" id="4LCWVp19JRz" role="gfFT$">
-                <node concept="2OqwBi" id="4LCWVp19K0n" role="3clFbG">
-                  <node concept="eJtiG" id="4LCWVp19JRx" role="2Oq$k0" />
-                  <node concept="liA8E" id="4LCWVp19KC5" role="2OqNvi">
+              <node concept="3clFbF" id="7gwY4W67tkJ" role="gfFT$">
+                <node concept="2OqwBi" id="7gwY4W67tuM" role="3clFbG">
+                  <node concept="Xjq3P" id="7gwY4W67tmC" role="2Oq$k0" />
+                  <node concept="liA8E" id="7gwY4W67u9R" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
                   </node>
                 </node>

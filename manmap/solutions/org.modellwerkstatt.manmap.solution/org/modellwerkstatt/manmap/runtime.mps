@@ -2936,6 +2936,36 @@
       </node>
     </node>
     <node concept="2tJIrI" id="5WxVUBBaD38" role="jymVt" />
+    <node concept="3clFb_" id="7gwY4W6$o3m" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getAllEntities" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="7gwY4W6$o3p" role="3clF47">
+        <node concept="3clFbF" id="7gwY4W6$wWX" role="3cqZAp">
+          <node concept="2OqwBi" id="7gwY4W6$x6J" role="3clFbG">
+            <node concept="2OqwBi" id="7gwY4W6$wYz" role="2Oq$k0">
+              <node concept="Xjq3P" id="7gwY4W6$wWW" role="2Oq$k0" />
+              <node concept="2OwXpG" id="7gwY4W6$x2C" role="2OqNvi">
+                <ref role="2Oxat5" node="4EMiYCo38LN" resolve="entityStore" />
+              </node>
+            </node>
+            <node concept="liA8E" id="7gwY4W6$xe_" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Map.values():java.util.Collection" resolve="values" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="7gwY4W6$mwX" role="1B3o_S" />
+      <node concept="3uibUv" id="7gwY4W6$nXY" role="3clF45">
+        <ref role="3uigEE" to="33ny:~Collection" resolve="Collection" />
+        <node concept="16syzq" id="7gwY4W6$nZO" role="11_B2D">
+          <ref role="16sUi3" node="5WxVUBBvpjC" resolve="Entity" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7gwY4W6$l4c" role="jymVt" />
     <node concept="3clFb_" id="3_5k9VmQvwU" role="jymVt">
       <property role="TrG5h" value="isDirty" />
       <node concept="10P_77" id="3_5k9VmQvx9" role="3clF45" />

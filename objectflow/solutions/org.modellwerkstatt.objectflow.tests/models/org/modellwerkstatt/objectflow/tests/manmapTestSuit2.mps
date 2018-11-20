@@ -3240,7 +3240,7 @@
             </node>
           </node>
           <node concept="16GPin" id="RffU3zstjr" role="lGtFl">
-            <ref role="16PnFS" to="wyt6:~IllegalAccessError" resolve="IllegalAccessError" />
+            <ref role="16PnFS" to="28jr:7gwY4W66c4B" resolve="OFXIllegalAccessException" />
             <node concept="Xl_RD" id="RffU3zsu5q" role="16NUyR">
               <property role="Xl_RC" value="not allowed" />
             </node>
