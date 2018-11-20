@@ -1528,8 +1528,8 @@
   <node concept="1TIwiD" id="2QJz1_oNCw0">
     <property role="3GE5qa" value="BusinessObject" />
     <property role="TrG5h" value="IsNull" />
-    <property role="R4oN_" value="ValueObject equals null" />
-    <property role="34LRSv" value="isNull" />
+    <property role="R4oN_" value="Reference (key) not set" />
+    <property role="34LRSv" value="isNullKey" />
     <property role="1pbfSe" value="2038557671" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2QJz1_oOqtD" role="PzmwI">
