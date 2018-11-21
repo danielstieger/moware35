@@ -508,14 +508,6 @@
       <ref role="PrY4T" node="Kou8LehQGC" resolve="IMapsClassConcept" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2Oo32eoOcPq">
-    <property role="3GE5qa" value="mapping.tableoptions" />
-    <property role="TrG5h" value="ValObjectMapping" />
-    <property role="R4oN_" value="does not nedd a key" />
-    <property role="34LRSv" value="VALUE_OBJECT_MAP" />
-    <property role="1pbfSe" value="974595715" />
-    <ref role="1TJDcQ" node="EYyuKpd4Hf" resolve="TableOption" />
-  </node>
   <node concept="1TIwiD" id="5_gFKlwIvbm">
     <property role="3GE5qa" value="query" />
     <property role="TrG5h" value="GetQuery" />
