@@ -1941,7 +1941,7 @@
             <node concept="3clFbF" id="6hacA6tTLF6" role="3cqZAp">
               <node concept="2YIFZM" id="6hacA6tTLF8" role="3clFbG">
                 <ref role="37wK5l" to="3ojc:FaoLX6iqRd" resolve="isReference" />
-                <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
+                <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
                 <node concept="2OqwBi" id="6hacA6tTLFm" role="37wK5m">
                   <node concept="2OqwBi" id="6hacA6tTLFc" role="2Oq$k0">
                     <node concept="pncrf" id="6hacA6tTLF9" role="2Oq$k0" />
@@ -4813,31 +4813,6 @@
         <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="1Clc7wPQeH6" role="3EZMnx">
-        <property role="3F0ifm" value="" />
-      </node>
-      <node concept="3F0ifn" id="4y30FCQIiyC" role="3EZMnx">
-        <property role="3F0ifm" value="object identity (overwrite equals() method):" />
-        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
-        <node concept="3nxI2P" id="2CaVrG_93rx" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F2HdR" id="4y30FCQIiyF" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="un0u:4y30FCQIiyz" />
-        <node concept="l2Vlx" id="4y30FCQIiyG" role="2czzBx" />
-        <node concept="3F0ifn" id="1Clc7wPOIkG" role="2czzBI">
-          <property role="3F0ifm" value="" />
-          <property role="ilYzB" value="&lt;use standard hash&gt;" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="4y30FCQIiy$" role="3EZMnx">
-        <property role="3F0ifm" value="" />
-      </node>
-      <node concept="3F0ifn" id="4y30FCQIiyA" role="3EZMnx">
-        <property role="3F0ifm" value="" />
-      </node>
-      <node concept="3F0ifn" id="1Clc7wPQeH8" role="3EZMnx">
         <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="4ZKoY0whVOv" role="3EZMnx">

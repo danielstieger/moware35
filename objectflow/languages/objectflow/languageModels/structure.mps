@@ -1490,12 +1490,6 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3VCHlE3_rxl" resolve="Status" />
     </node>
-    <node concept="1TJgyj" id="4y30FCQIiyz" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="equalProperties" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="Is8ctvt7Tq" resolve="EqualPropertyReference" />
-    </node>
     <node concept="1TJgyj" id="54AO9SbtAe3" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="documentation2" />
