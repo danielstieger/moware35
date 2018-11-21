@@ -291,6 +291,7 @@
     <property role="34LRSv" value=".&lt;status&gt;" />
     <property role="R4oN_" value="status constant reference" />
     <property role="1pbfSe" value="1031779003" />
+    <property role="MwhBj" value="${module}/icons/testparam.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="3VCHlE3_TvG" role="1TKVEi">
       <property role="20lmBu" value="reference" />

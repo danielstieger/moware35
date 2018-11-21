@@ -46,7 +46,7 @@ positions (List):
    invoice (Reference): Key:0
    subposition (List): 
 
-mainPosRef (Reference): Key:null
+mainPosRef (Reference): Key:0
 moneyAmount (ValueObject): 
    MoneyAmount  (_enabled: true  )
    val: 100
