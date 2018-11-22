@@ -1615,6 +1615,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="6TB1IkohxTe">
+    <property role="3GE5qa" value="customsql" />
     <ref role="1M2myG" to="r5tz:6TB1IkohxT4" resolve="SqlStringPropRef" />
     <node concept="nKS2y" id="6TB1IkohxU2" role="1MLUbF">
       <node concept="3clFbS" id="6TB1IkohxU3" role="2VODD2">
@@ -1681,6 +1682,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="6TB1IkohDJ1">
+    <property role="3GE5qa" value="customsql" />
     <ref role="1M2myG" to="r5tz:6TB1IkohxSX" resolve="SqlStringEntityRef" />
     <node concept="nKS2y" id="6TB1IkohDJ2" role="1MLUbF">
       <node concept="3clFbS" id="6TB1IkohDJ3" role="2VODD2">
@@ -1703,6 +1705,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1Rx6rUSy5DV">
+    <property role="3GE5qa" value="customsql" />
     <ref role="1M2myG" to="r5tz:6TB1IkohjIs" resolve="SqlString" />
     <node concept="nKS2y" id="1Rx6rUSy5DZ" role="1MLUbF">
       <node concept="3clFbS" id="1Rx6rUSy5E0" role="2VODD2">
@@ -1741,7 +1744,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="qHvcCAVsyt">
-    <property role="3GE5qa" value="repofields" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1M2myG" to="r5tz:qHvcCAVs5N" resolve="SqlStringFieldRef" />
     <node concept="nKS2y" id="qHvcCAXgeE" role="1MLUbF">
       <node concept="3clFbS" id="qHvcCAXgeF" role="2VODD2">
@@ -1771,7 +1774,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7ng6PyCaT25">
-    <property role="3GE5qa" value="repofields" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1M2myG" to="r5tz:7ng6PyCaQV0" resolve="RowMapperFieldRef" />
     <node concept="1N5Pfh" id="7ng6PyCaTqq" role="1Mr941">
       <ref role="1N5Vy1" to="r5tz:7ng6PyCaS_c" />
@@ -1801,7 +1804,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7ng6PyChIC0">
-    <property role="3GE5qa" value="query" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1M2myG" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
     <node concept="osYL8" id="7ng6PyChICV" role="1MLXOK">
       <node concept="3clFbS" id="7ng6PyChICW" role="2VODD2">
@@ -1815,17 +1818,25 @@
                   </node>
                 </node>
               </node>
-              <node concept="22lmx$" id="7ng6PyChKWL" role="3clFbw">
-                <node concept="3clFbC" id="7ng6PyChMX9" role="3uHU7w">
-                  <node concept="3TUQnm" id="7ng6PyChN5I" role="3uHU7w">
-                    <ref role="3TV0OU" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
+              <node concept="22lmx$" id="FplMljoGGH" role="3clFbw">
+                <node concept="3clFbC" id="FplMljoGRi" role="3uHU7w">
+                  <node concept="3TUQnm" id="FplMljoGVa" role="3uHU7w">
+                    <ref role="3TV0OU" to="r5tz:FplMljbxON" resolve="NoKeyMapperFieldRef" />
                   </node>
-                  <node concept="otxO1" id="7ng6PyCjWpK" role="3uHU7B" />
+                  <node concept="otxO1" id="FplMljoGKK" role="3uHU7B" />
                 </node>
-                <node concept="3clFbC" id="7ng6PyChKkb" role="3uHU7B">
-                  <node concept="otxO1" id="7ng6PyCjVSH" role="3uHU7B" />
-                  <node concept="3TUQnm" id="7ng6PyCjW9B" role="3uHU7w">
-                    <ref role="3TV0OU" to="r5tz:7ng6PyCaQV0" resolve="RowMapperFieldRef" />
+                <node concept="22lmx$" id="7ng6PyChKWL" role="3uHU7B">
+                  <node concept="3clFbC" id="7ng6PyChKkb" role="3uHU7B">
+                    <node concept="otxO1" id="7ng6PyCjVSH" role="3uHU7B" />
+                    <node concept="3TUQnm" id="7ng6PyCjW9B" role="3uHU7w">
+                      <ref role="3TV0OU" to="r5tz:7ng6PyCaQV0" resolve="RowMapperFieldRef" />
+                    </node>
+                  </node>
+                  <node concept="3clFbC" id="7ng6PyChMX9" role="3uHU7w">
+                    <node concept="otxO1" id="7ng6PyCjWpK" role="3uHU7B" />
+                    <node concept="3TUQnm" id="7ng6PyChN5I" role="3uHU7w">
+                      <ref role="3TV0OU" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1849,6 +1860,60 @@
         <node concept="3clFbF" id="7ng6PyChJwB" role="3cqZAp">
           <node concept="3clFbT" id="7ng6PyChJwA" role="3clFbG">
             <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="FplMlj1bDJ">
+    <property role="3GE5qa" value="mapping.fieldoptions" />
+    <ref role="1M2myG" to="r5tz:EYyuKpcML6" resolve="FieldOption" />
+    <node concept="nKS2y" id="FplMlj1bDK" role="1MLUbF">
+      <node concept="3clFbS" id="FplMlj1bDL" role="2VODD2">
+        <node concept="3clFbF" id="FplMlj1bEQ" role="3cqZAp">
+          <node concept="2OqwBi" id="FplMlj1bUs" role="3clFbG">
+            <node concept="2OqwBi" id="FplMlj1bGB" role="2Oq$k0">
+              <node concept="nLn13" id="FplMlj1bEP" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="FplMlj1bKN" role="2OqNvi">
+                <node concept="1xMEDy" id="FplMlj1bKP" role="1xVPHs">
+                  <node concept="chp4Y" id="FplMlj1bMt" role="ri$Ld">
+                    <ref role="cht4Q" to="r5tz:Kou8LehH1E" resolve="EntityMapping" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="FplMlj1bQJ" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="FplMlj1c0O" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="FplMljbxPf">
+    <property role="3GE5qa" value="customsql.nokey" />
+    <ref role="1M2myG" to="r5tz:FplMljbxON" resolve="NoKeyMapperFieldRef" />
+    <node concept="1N5Pfh" id="FplMljbxUn" role="1Mr941">
+      <ref role="1N5Vy1" to="r5tz:FplMljbxOX" />
+      <node concept="1dDu$B" id="FplMljbxUo" role="1N6uqs">
+        <ref role="1dDu$A" to="r5tz:1Rx6rUSp3_E" resolve="IRepositoryField" />
+      </node>
+    </node>
+    <node concept="nKS2y" id="FplMljbxRx" role="1MLUbF">
+      <node concept="3clFbS" id="FplMljbxRy" role="2VODD2">
+        <node concept="3clFbF" id="FplMljbxSz" role="3cqZAp">
+          <node concept="2OqwBi" id="FplMljbxS$" role="3clFbG">
+            <node concept="2OqwBi" id="FplMljbxS_" role="2Oq$k0">
+              <node concept="nLn13" id="FplMljbxSA" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="FplMljbxSB" role="2OqNvi">
+                <node concept="1xMEDy" id="FplMljbxSC" role="1xVPHs">
+                  <node concept="chp4Y" id="FplMljbxSD" role="ri$Ld">
+                    <ref role="cht4Q" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
+                  </node>
+                </node>
+                <node concept="1xIGOp" id="FplMljbxSE" role="1xVPHs" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="FplMljbxSF" role="2OqNvi" />
           </node>
         </node>
       </node>

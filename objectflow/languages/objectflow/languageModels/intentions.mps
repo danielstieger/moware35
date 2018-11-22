@@ -1998,7 +1998,7 @@
                               <node concept="3clFbF" id="6y3oj84k_eh" role="3cqZAp">
                                 <node concept="2YIFZM" id="6y3oj84k_ej" role="3clFbG">
                                   <ref role="37wK5l" to="3ojc:6y3oj84ktjL" resolve="isValueObjectMethod" />
-                                  <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
+                                  <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
                                   <node concept="37vLTw" id="6svR_JBEO0B" role="37wK5m">
                                     <ref role="3cqZAo" node="6y3oj84k_e5" resolve="it" />
                                   </node>
@@ -2107,7 +2107,7 @@
                     <node concept="37vLTI" id="6y3oj84k_Ff" role="3clFbG">
                       <node concept="2YIFZM" id="6y3oj84k_Fj" role="37vLTx">
                         <ref role="37wK5l" to="3ojc:6y3oj84jU15" resolve="getValueObjFuncName" />
-                        <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
+                        <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
                         <node concept="37vLTw" id="6svR_JBEO3I" role="37wK5m">
                           <ref role="3cqZAo" node="6y3oj84k_gc" resolve="it" />
                         </node>
@@ -3116,7 +3116,7 @@
     <property role="3GE5qa" value="Configuration" />
     <property role="TrG5h" value="OFXAutoDependencies" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
+    <ref role="2ZfgGC" to="un0u:q_zDmI5v5l" resolve="Config" />
     <node concept="2S6ZIM" id="q_zDmLdeJG" role="2ZfVej">
       <node concept="3clFbS" id="q_zDmLdeJH" role="2VODD2">
         <node concept="3clFbF" id="q_zDmLdf5j" role="3cqZAp">
@@ -3459,7 +3459,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="TestDebugAllRemove" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
     <node concept="2S6ZIM" id="3iT39D7v69" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7v6a" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7v6g" role="3cqZAp">
@@ -3550,7 +3550,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="TestDebugAllAdd" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
     <node concept="2S6ZIM" id="3iT39D7DfL" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7DfM" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7DfN" role="3cqZAp">
@@ -3626,7 +3626,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="DontExecAddAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
     <node concept="2S6ZIM" id="3iT39D7Evz" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7Ev$" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7Ev_" role="3cqZAp">
@@ -3702,7 +3702,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="DontExecRemoveAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
     <node concept="2S6ZIM" id="3iT39D7HSd" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7HSe" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7HSf" role="3cqZAp">
@@ -4032,7 +4032,7 @@
         <node concept="3clFbF" id="72pStkQuG2l" role="3cqZAp">
           <node concept="2YIFZM" id="72pStkQuQcE" role="3clFbG">
             <ref role="37wK5l" to="3ojc:72pStkQuPZv" resolve="parentDoesNotContainAnyOFXTestFailIn" />
-            <ref role="1Pybhc" to="3ojc:f6irPlxOsl" resolve="Util_TWO" />
+            <ref role="1Pybhc" to="3ojc:f6irPlxOsl" resolve="OFXUtil" />
             <node concept="2Sf5sV" id="72pStkQuQgU" role="37wK5m" />
           </node>
         </node>
@@ -4153,7 +4153,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="WriteDontCompareRemoveAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
     <node concept="2S6ZIM" id="6WBZVtQXiTp" role="2ZfVej">
       <node concept="3clFbS" id="6WBZVtQXiTq" role="2VODD2">
         <node concept="3cpWs6" id="6WBZVtQXiTr" role="3cqZAp">
@@ -4244,7 +4244,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="WriteDontCompareAddAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
     <node concept="2S6ZIM" id="6WBZVtQXj5z" role="2ZfVej">
       <node concept="3clFbS" id="6WBZVtQXj5$" role="2VODD2">
         <node concept="3cpWs6" id="6WBZVtQXj5_" role="3cqZAp">
@@ -4355,7 +4355,7 @@
                 <node concept="2Xjw5R" id="2i3o0heds4C" role="2OqNvi">
                   <node concept="1xMEDy" id="2i3o0heds4E" role="1xVPHs">
                     <node concept="chp4Y" id="2i3o0hedw9g" role="ri$Ld">
-                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
                     </node>
                   </node>
                 </node>
@@ -4680,7 +4680,7 @@
         <node concept="3clFbF" id="7cOyB3Yqone" role="3cqZAp">
           <node concept="2YIFZM" id="7cOyB3Yqonf" role="3clFbG">
             <ref role="37wK5l" to="3ojc:72pStkQuPZv" resolve="parentDoesNotContainAnyOFXTestFailIn" />
-            <ref role="1Pybhc" to="3ojc:f6irPlxOsl" resolve="Util_TWO" />
+            <ref role="1Pybhc" to="3ojc:f6irPlxOsl" resolve="OFXUtil" />
             <node concept="2Sf5sV" id="7cOyB3Yqong" role="37wK5m" />
           </node>
         </node>
@@ -5239,7 +5239,7 @@
               </node>
             </node>
             <node concept="2YIFZM" id="6W_Qo9f1IHI" role="33vP2m">
-              <ref role="1Pybhc" to="3ojc:6W_Qo9f1Htp" resolve="CreateDefaultMapping" />
+              <ref role="1Pybhc" to="3ojc:6W_Qo9f1Htp" resolve="CreateDefaultMappingForManMap" />
               <ref role="37wK5l" to="3ojc:6W_Qo9f1Htv" resolve="createDefaultMapping" />
               <node concept="2Sf5sV" id="6W_Qo9f1IHJ" role="37wK5m" />
             </node>
@@ -5265,7 +5265,7 @@
   </node>
   <node concept="2S6QgY" id="33USv3LV9Bh">
     <property role="3GE5qa" value="AutoCompleter" />
-    <property role="TrG5h" value="CreateAllFieldsDefault" />
+    <property role="TrG5h" value="CreateAllFieldsDefaultEntity" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="r5tz:Kou8LehH1E" resolve="EntityMapping" />
     <node concept="2S6ZIM" id="33USv3LV9Bi" role="2ZfVej">
@@ -5301,7 +5301,7 @@
               </node>
             </node>
             <node concept="2YIFZM" id="6W_Qo9f1IHh" role="33vP2m">
-              <ref role="1Pybhc" to="3ojc:6W_Qo9f1Htp" resolve="CreateDefaultMapping" />
+              <ref role="1Pybhc" to="3ojc:6W_Qo9f1Htp" resolve="CreateDefaultMappingForManMap" />
               <ref role="37wK5l" to="3ojc:6W_Qo9f1Htv" resolve="createDefaultMapping" />
               <node concept="2Sf5sV" id="6W_Qo9f1IHi" role="37wK5m" />
             </node>
@@ -5377,11 +5377,73 @@
         <node concept="3clFbF" id="7HkVpVbTksD" role="3cqZAp">
           <node concept="2YIFZM" id="7HkVpVbTkw3" role="3clFbG">
             <ref role="37wK5l" to="3ojc:vASbT$6zkV" resolve="isDateTime" />
-            <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="LegacyHelper" />
+            <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
             <node concept="2OqwBi" id="7HkVpVbTkCc" role="37wK5m">
               <node concept="2Sf5sV" id="7HkVpVbTkyr" role="2Oq$k0" />
               <node concept="3TrEf2" id="7HkVpVbTkNg" role="2OqNvi">
                 <ref role="3Tt5mk" to="tpee:huRkE2T" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="FplMlj2Bqb">
+    <property role="3GE5qa" value="AutoCompleter" />
+    <property role="TrG5h" value="CreateAllFieldsDefaultNoKey" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="r5tz:FplMliKLhC" resolve="NoKeyMapperField" />
+    <node concept="2S6ZIM" id="FplMlj2Bqc" role="2ZfVej">
+      <node concept="3clFbS" id="FplMlj2Bqd" role="2VODD2">
+        <node concept="3clFbF" id="FplMlj2Bqe" role="3cqZAp">
+          <node concept="3cpWs3" id="FplMlj2Bqf" role="3clFbG">
+            <node concept="Xl_RD" id="FplMlj2Bqg" role="3uHU7w">
+              <property role="Xl_RC" value="." />
+            </node>
+            <node concept="3cpWs3" id="FplMlj2Bqh" role="3uHU7B">
+              <node concept="Xl_RD" id="FplMlj2Bqi" role="3uHU7B">
+                <property role="Xl_RC" value="Create all fields per default for " />
+              </node>
+              <node concept="2OqwBi" id="FplMlj2Bqj" role="3uHU7w">
+                <node concept="2Sf5sV" id="FplMlj2Bqk" role="2Oq$k0" />
+                <node concept="3TrcHB" id="FplMlj2Bql" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="FplMlj2Bqm" role="2ZfgGD">
+      <node concept="3clFbS" id="FplMlj2Bqn" role="2VODD2">
+        <node concept="3cpWs8" id="FplMlj2Bqo" role="3cqZAp">
+          <node concept="3cpWsn" id="FplMlj2Bqp" role="3cpWs9">
+            <property role="TrG5h" value="iam" />
+            <node concept="_YKpA" id="FplMlj2Bqq" role="1tU5fm">
+              <node concept="3Tqbb2" id="FplMlj2Bqr" role="_ZDj9">
+                <ref role="ehGHo" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+              </node>
+            </node>
+            <node concept="2YIFZM" id="FplMlj2Bqs" role="33vP2m">
+              <ref role="1Pybhc" to="3ojc:6W_Qo9f1Htp" resolve="CreateDefaultMappingForManMap" />
+              <ref role="37wK5l" to="3ojc:6W_Qo9f1Htv" resolve="createDefaultMapping" />
+              <node concept="2Sf5sV" id="FplMlj2Bqt" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="FplMlj2Bqu" role="3cqZAp">
+          <node concept="2OqwBi" id="FplMlj2Bqv" role="3clFbG">
+            <node concept="2OqwBi" id="FplMlj2Bqw" role="2Oq$k0">
+              <node concept="2Sf5sV" id="FplMlj2Bqx" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="FplMljhVWU" role="2OqNvi">
+                <ref role="3TtcxE" to="r5tz:FplMliKLYv" />
+              </node>
+            </node>
+            <node concept="X8dFx" id="FplMlj2Bqz" role="2OqNvi">
+              <node concept="37vLTw" id="FplMlj2Bq$" role="25WWJ7">
+                <ref role="3cqZAo" node="FplMlj2Bqp" resolve="iam" />
               </node>
             </node>
           </node>

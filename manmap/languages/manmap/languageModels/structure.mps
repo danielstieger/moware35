@@ -782,7 +782,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3NdPOdMTnQl">
-    <property role="3GE5qa" value="query" />
+    <property role="3GE5qa" value="customsql" />
     <property role="TrG5h" value="QueryFromSql" />
     <property role="34LRSv" value="MapSELECT" />
     <property role="R4oN_" value="sql select text query" />
@@ -820,7 +820,7 @@
     <property role="1pbfSe" value="973044052" />
   </node>
   <node concept="1TIwiD" id="7opW4z6uEx2">
-    <property role="3GE5qa" value="query" />
+    <property role="3GE5qa" value="customsql" />
     <property role="TrG5h" value="UpdateFormSql" />
     <property role="34LRSv" value="MapUPDATE" />
     <property role="R4oN_" value="sql update text query" />
@@ -949,6 +949,7 @@
     <property role="34LRSv" value="SqlString" />
     <property role="R4oN_" value="write a select statement" />
     <property role="1pbfSe" value="2035531135" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="6TB1IkohxQf" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -963,6 +964,7 @@
   <node concept="1TIwiD" id="6TB1IkohxSX">
     <property role="TrG5h" value="SqlStringEntityRef" />
     <property role="1pbfSe" value="2035473118" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6TB1IkohEg$" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -977,6 +979,7 @@
   <node concept="1TIwiD" id="6TB1IkohxT4">
     <property role="TrG5h" value="SqlStringPropRef" />
     <property role="1pbfSe" value="2035473111" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6TB1IkohGwJ" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -1010,8 +1013,10 @@
   </node>
   <node concept="1TIwiD" id="1Rx6rUSp3_H">
     <property role="TrG5h" value="SqlStringField" />
-    <property role="3GE5qa" value="repofields" />
+    <property role="3GE5qa" value="customsql" />
     <property role="1pbfSe" value="700099797" />
+    <property role="34LRSv" value="sql string" />
+    <property role="R4oN_" value="as repo field" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1Rx6rUSp3_K" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1025,8 +1030,9 @@
   </node>
   <node concept="1TIwiD" id="1Rx6rUSp5XL">
     <property role="TrG5h" value="RowMapperField" />
-    <property role="3GE5qa" value="repofields" />
+    <property role="3GE5qa" value="customsql" />
     <property role="1pbfSe" value="700090065" />
+    <property role="34LRSv" value="row mapper" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1Rx6rUSp5XO" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1039,7 +1045,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="qHvcCAVs5N">
-    <property role="3GE5qa" value="repofields" />
+    <property role="3GE5qa" value="customsql" />
     <property role="TrG5h" value="SqlStringFieldRef" />
     <property role="1pbfSe" value="765148733" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -1051,7 +1057,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="7ng6PyCaQV0">
-    <property role="3GE5qa" value="repofields" />
+    <property role="3GE5qa" value="customsql" />
     <property role="TrG5h" value="RowMapperFieldRef" />
     <property role="1pbfSe" value="503024152" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
@@ -1060,6 +1066,44 @@
       <property role="20kJfa" value="rowMapperField" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="1Rx6rUSp5XL" resolve="RowMapperField" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="FplMliKLhC">
+    <property role="1pbfSe" value="1570532237" />
+    <property role="3GE5qa" value="customsql.nokey" />
+    <property role="TrG5h" value="NoKeyMapperField" />
+    <property role="34LRSv" value="nokey map" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="FplMliKLYv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="persistenceAtom" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="Kou8LehPz3" resolve="IAtomMapping" />
+      <ref role="20ksaX" node="3X0BsfNqXLB" />
+    </node>
+    <node concept="1TJgyj" id="FplMliKLlD" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="classConcept" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
+    <node concept="PrWs8" id="FplMliKLlv" role="PzmwI">
+      <ref role="PrY4T" node="1Rx6rUSp3_E" resolve="IRepositoryField" />
+    </node>
+    <node concept="PrWs8" id="FplMliKLYl" role="PzmwI">
+      <ref role="PrY4T" node="Kou8LehQGC" resolve="IMapsClassConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="FplMljbxON">
+    <property role="1pbfSe" value="1577546840" />
+    <property role="3GE5qa" value="customsql.nokey" />
+    <property role="TrG5h" value="NoKeyMapperFieldRef" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="FplMljbxOX" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="noKeyMapperField" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="FplMliKLhC" resolve="NoKeyMapperField" />
     </node>
   </node>
 </model>

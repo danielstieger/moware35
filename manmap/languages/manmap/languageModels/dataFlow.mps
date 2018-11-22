@@ -250,7 +250,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="3NdPOdOc$3c">
-    <property role="3GE5qa" value="query" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="3_znuS" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
     <node concept="3__wT9" id="3NdPOdOc$3d" role="3_A6iZ">
       <node concept="3clFbS" id="3NdPOdOc$3e" role="2VODD2">
@@ -299,7 +299,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="7opW4z6uJOm">
-    <property role="3GE5qa" value="query" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="3_znuS" to="r5tz:7opW4z6uEx2" resolve="UpdateFormSql" />
     <node concept="3__wT9" id="7opW4z6uJOn" role="3_A6iZ">
       <node concept="3clFbS" id="7opW4z6uJOo" role="2VODD2">

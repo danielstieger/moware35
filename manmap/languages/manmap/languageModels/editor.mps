@@ -420,6 +420,10 @@
         <node concept="lj46D" id="2UAghh$nW6J" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="3F0ifn" id="FplMlj1mkl" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;mapping&gt;" />
+        </node>
       </node>
       <node concept="3F0ifn" id="Kou8LehPz2" role="3EZMnx">
         <property role="3F0ifm" value="}" />
@@ -1637,7 +1641,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3NdPOdMTpkD">
-    <property role="3GE5qa" value="query" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1XX52x" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
     <node concept="3EZMnI" id="3NdPOdMTrcX" role="2wV5jI">
       <node concept="PMmxH" id="3NdPOdMTrd4" role="3EZMnx">
@@ -1691,7 +1695,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7opW4z6uE_9">
-    <property role="3GE5qa" value="query" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1XX52x" to="r5tz:7opW4z6uEx2" resolve="UpdateFormSql" />
     <node concept="3EZMnI" id="7opW4z6uEXt" role="2wV5jI">
       <node concept="PMmxH" id="7opW4z6uEXu" role="3EZMnx">
@@ -1742,6 +1746,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6TB1IkohxQm">
+    <property role="3GE5qa" value="customsql" />
     <ref role="1XX52x" to="r5tz:6TB1IkohjIs" resolve="SqlString" />
     <node concept="3F1sOY" id="6TB1IkohxRb" role="2wV5jI">
       <ref role="1NtTu8" to="r5tz:6TB1IkohxQf" />
@@ -1752,6 +1757,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6TB1IkohxTc">
+    <property role="3GE5qa" value="customsql" />
     <ref role="1XX52x" to="r5tz:6TB1IkohxT4" resolve="SqlStringPropRef" />
     <node concept="3EZMnI" id="6TB1IkohGyb" role="2wV5jI">
       <ref role="1k5W1q" node="6TB1IkohSxZ" resolve="MappingRefBackground" />
@@ -1835,6 +1841,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6TB1IkohDV2">
+    <property role="3GE5qa" value="customsql" />
     <ref role="1XX52x" to="r5tz:6TB1IkohxSX" resolve="SqlStringEntityRef" />
     <node concept="3EZMnI" id="6TB1IkooBRp" role="2wV5jI">
       <ref role="1k5W1q" node="6TB1IkohSxZ" resolve="MappingRefBackground" />
@@ -1866,11 +1873,11 @@
     </node>
   </node>
   <node concept="24kQdi" id="1Rx6rUSp3_R">
-    <property role="3GE5qa" value="repofields" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1XX52x" to="r5tz:1Rx6rUSp3_H" resolve="SqlStringField" />
     <node concept="3EZMnI" id="1Rx6rUSp5Xc" role="2wV5jI">
-      <node concept="3F0ifn" id="1Rx6rUSp5Xj" role="3EZMnx">
-        <property role="3F0ifm" value="SqlString" />
+      <node concept="PMmxH" id="FplMlj9$ZH" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
       </node>
       <node concept="3F0A7n" id="1Rx6rUSp5Xp" role="3EZMnx">
@@ -1886,11 +1893,11 @@
     </node>
   </node>
   <node concept="24kQdi" id="1Rx6rUSp5XV">
-    <property role="3GE5qa" value="repofields" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1XX52x" to="r5tz:1Rx6rUSp5XL" resolve="RowMapperField" />
     <node concept="3EZMnI" id="1Rx6rUSp7VP" role="2wV5jI">
-      <node concept="3F0ifn" id="1Rx6rUSp7VQ" role="3EZMnx">
-        <property role="3F0ifm" value="RowMapper" />
+      <node concept="PMmxH" id="FplMlj9Fzz" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
         <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
       </node>
       <node concept="3F0A7n" id="1Rx6rUSp7VR" role="3EZMnx">
@@ -1900,13 +1907,15 @@
         <ref role="1NtTu8" to="r5tz:1Rx6rUSp5XO" />
       </node>
       <node concept="3F0ifn" id="1Rx6rUSp7VT" role="3EZMnx">
-        <property role="3F0ifm" value=" ;" />
+        <node concept="pVoyu" id="FplMljq7FC" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="l2Vlx" id="1Rx6rUSp7VU" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="qHvcCAVs8l">
-    <property role="3GE5qa" value="repofields" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1XX52x" to="r5tz:qHvcCAVs5N" resolve="SqlStringFieldRef" />
     <node concept="1iCGBv" id="qHvcCAVsxW" role="2wV5jI">
       <ref role="1NtTu8" to="r5tz:qHvcCAVs71" />
@@ -1920,12 +1929,86 @@
     </node>
   </node>
   <node concept="24kQdi" id="7ng6PyCaSAB">
-    <property role="3GE5qa" value="repofields" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="1XX52x" to="r5tz:7ng6PyCaQV0" resolve="RowMapperFieldRef" />
     <node concept="1iCGBv" id="7ng6PyCaSZV" role="2wV5jI">
       <ref role="1NtTu8" to="r5tz:7ng6PyCaS_c" />
       <node concept="1sVBvm" id="7ng6PyCaSZX" role="1sWHZn">
         <node concept="3F0A7n" id="7ng6PyCaT0I" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="FplMliKLlh">
+    <property role="3GE5qa" value="customsql.nokey" />
+    <ref role="1XX52x" to="r5tz:FplMliKLhC" resolve="NoKeyMapperField" />
+    <node concept="3EZMnI" id="FplMliKLlj" role="2wV5jI">
+      <node concept="PMmxH" id="FplMlj9Fyx" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+        <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
+      </node>
+      <node concept="1iCGBv" id="FplMliKLlF" role="3EZMnx">
+        <ref role="1NtTu8" to="r5tz:FplMliKLlD" />
+        <node concept="1sVBvm" id="FplMliKLlH" role="1sWHZn">
+          <node concept="3F0A7n" id="FplMliKLlR" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="FplMliKLXL" role="3EZMnx">
+        <property role="3F0ifm" value="as" />
+        <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
+      </node>
+      <node concept="3F0A7n" id="FplMliKLll" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="FplMliKLm2" role="3EZMnx">
+        <ref role="1k5W1q" node="6IvalsggzKe" resolve="UserHint" />
+      </node>
+      <node concept="3F0ifn" id="FplMliKLmk" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <ref role="1k5W1q" to="tpen:75A9veqzBn9" resolve="LeftAngleBracket" />
+      </node>
+      <node concept="3F2HdR" id="FplMliRSpf" role="3EZMnx">
+        <ref role="1NtTu8" to="r5tz:FplMliKLYv" />
+        <node concept="2iRkQZ" id="FplMliRSpg" role="2czzBx" />
+        <node concept="pVoyu" id="FplMliRSph" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="lj46D" id="FplMliRSpi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="FplMlj1mkp" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;mapping&gt;" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="FplMliKLmN" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <ref role="1k5W1q" to="tpen:75A9veqzBna" resolve="RightAngleBracket" />
+        <node concept="pVoyu" id="FplMliRSpx" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="FplMliKLln" role="3EZMnx">
+        <node concept="pVoyu" id="FplMliRSpz" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="FplMliKLlo" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="FplMljbxP4">
+    <property role="3GE5qa" value="customsql.nokey" />
+    <ref role="1XX52x" to="r5tz:FplMljbxON" resolve="NoKeyMapperFieldRef" />
+    <node concept="1iCGBv" id="FplMljbxP6" role="2wV5jI">
+      <ref role="1NtTu8" to="r5tz:FplMljbxOX" />
+      <node concept="1sVBvm" id="FplMljbxP7" role="1sWHZn">
+        <node concept="3F0A7n" id="FplMljbxP8" role="2wV5jI">
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />

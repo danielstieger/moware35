@@ -165,6 +165,7 @@
   <node concept="2S6QgY" id="6TB1IkoDh9Z">
     <property role="TrG5h" value="PrintSqlToStdOut" />
     <property role="2ZfUl0" value="true" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="2ZfgGC" to="r5tz:6TB1IkohjIs" resolve="SqlString" />
     <node concept="2S6ZIM" id="6TB1IkoDha0" role="2ZfVej">
       <node concept="3clFbS" id="6TB1IkoDha1" role="2VODD2">
@@ -208,7 +209,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="7ng6PyClZt5">
-    <property role="3GE5qa" value="query" />
+    <property role="3GE5qa" value="customsql" />
     <property role="2ZfUl3" value="true" />
     <property role="2ZfUl0" value="true" />
     <property role="TrG5h" value="QueryFromSqlRowParamMissing" />

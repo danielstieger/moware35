@@ -523,6 +523,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -19841,6 +19842,7 @@
   </node>
   <node concept="13MO4I" id="3NdPOdO$mGf">
     <property role="TrG5h" value="weave_QueryFromSqlSelect" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="3gUMe" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
     <node concept="312cEu" id="3NdPOdO$o4u" role="13RCb5">
       <property role="2bfB8j" value="true" />
@@ -20647,13 +20649,13 @@
                               </node>
                             </node>
                             <node concept="37vLTG" id="5ztwEZduv3h" role="3clF46">
-                              <property role="TrG5h" value="p0" />
+                              <property role="TrG5h" value="resultSet" />
                               <node concept="3uibUv" id="5ztwEZduv3i" role="1tU5fm">
                                 <ref role="3uigEE" to="zj7m:~ResultSet" resolve="ResultSet" />
                               </node>
                             </node>
                             <node concept="37vLTG" id="5ztwEZduv3j" role="3clF46">
-                              <property role="TrG5h" value="p1" />
+                              <property role="TrG5h" value="curCol" />
                               <node concept="10Oyi0" id="5ztwEZduv3k" role="1tU5fm" />
                             </node>
                             <node concept="3uibUv" id="5ztwEZduv3l" role="Sfmx6">
@@ -20668,7 +20670,7 @@
                                   <node concept="liA8E" id="5ztwEZduv3q" role="2OqNvi">
                                     <ref role="37wK5l" to="w7gk:6LKPMZKZdQS" resolve="setResultSet" />
                                     <node concept="37vLTw" id="5ztwEZduv3r" role="37wK5m">
-                                      <ref role="3cqZAo" node="5ztwEZduv3h" resolve="p0" />
+                                      <ref role="3cqZAo" node="5ztwEZduv3h" resolve="resultSet" />
                                     </node>
                                   </node>
                                 </node>
@@ -20678,7 +20680,7 @@
                                   <ref role="37wK5l" to="w7gk:7wLkuGB5tDE" resolve="printSqlRowToIDE" />
                                   <ref role="1Pybhc" to="w7gk:7wLkuGB5tD$" resolve="ManmapIDEDebug" />
                                   <node concept="37vLTw" id="5ztwEZduv3u" role="37wK5m">
-                                    <ref role="3cqZAo" node="5ztwEZduv3h" resolve="p0" />
+                                    <ref role="3cqZAo" node="5ztwEZduv3h" resolve="resultSet" />
                                   </node>
                                   <node concept="3cpWs3" id="5ztwEZduv3v" role="37wK5m">
                                     <node concept="3cmrfG" id="5ztwEZduv3w" role="3uHU7w">
@@ -20687,7 +20689,7 @@
                                     <node concept="2OqwBi" id="5ztwEZduv3x" role="3uHU7B">
                                       <node concept="2OqwBi" id="5ztwEZduv3y" role="2Oq$k0">
                                         <node concept="37vLTw" id="5ztwEZduv3z" role="2Oq$k0">
-                                          <ref role="3cqZAo" node="5ztwEZduv3h" resolve="p0" />
+                                          <ref role="3cqZAo" node="5ztwEZduv3h" resolve="resultSet" />
                                         </node>
                                         <node concept="liA8E" id="5ztwEZduv3$" role="2OqNvi">
                                           <ref role="37wK5l" to="zj7m:~ResultSet.getMetaData():java.sql.ResultSetMetaData" resolve="getMetaData" />
@@ -20998,6 +21000,7 @@
   </node>
   <node concept="13MO4I" id="1vKpqtvuE1L">
     <property role="TrG5h" value="weave_QueryFromSqlUpdate" />
+    <property role="3GE5qa" value="customsql" />
     <ref role="3gUMe" to="r5tz:7opW4z6uEx2" resolve="UpdateFormSql" />
     <node concept="312cEu" id="1vKpqtvuE1M" role="13RCb5">
       <property role="2bfB8j" value="true" />
