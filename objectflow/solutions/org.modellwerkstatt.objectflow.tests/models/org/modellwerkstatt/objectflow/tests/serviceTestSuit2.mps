@@ -820,8 +820,8 @@
       </node>
     </node>
     <node concept="2CPvp3" id="5MCXLSo9cFu" role="2CGBMS" />
-    <node concept="Xl_RD" id="1nLGXVrsr3S" role="3d0G2l">
-      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
+    <node concept="Xl_RD" id="1VxIuFUk696" role="3d0G2l">
+      <property role="Xl_RC" value="org.modellwerkstatt" />
     </node>
   </node>
   <node concept="2EH5hC" id="7$uuZ_GYsYD">
@@ -1524,8 +1524,8 @@
       </node>
     </node>
     <node concept="2CPvp3" id="6VW5G62DV6B" role="2CGBMS" />
-    <node concept="Xl_RD" id="1nLGXVrsr3T" role="3d0G2l">
-      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
+    <node concept="Xl_RD" id="1VxIuFUk698" role="3d0G2l">
+      <property role="Xl_RC" value="org.modellwerkstatt" />
     </node>
   </node>
 </model>

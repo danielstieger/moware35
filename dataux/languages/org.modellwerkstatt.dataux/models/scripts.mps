@@ -142,7 +142,7 @@
     <property role="2BwPSy" value="migration" />
     <property role="TrG5h" value="MowareRC50ToMoware2018" />
     <property role="2BwPS$" value="MoWare2018" />
-    <property role="_Wzho" value="(0) Basic adjustments to new concepts" />
+    <property role="_Wzho" value="(0) From MoWare RC50 to MoWare MRS" />
     <node concept="_XfAh" id="DRZf0Sqw8z" role="_YvDr">
       <property role="_XH9r" value="Replace RUN_IN_CONSOLE" />
       <ref role="_XDHR" to="1btx:2N7eHMabazD" resolve="BatchJobModule" />
@@ -433,9 +433,79 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="1VxIuFUk2ar" role="_YvDr">
+      <property role="_XH9r" value="Update Manmap runtime name (III)" />
+      <ref role="_XDHR" to="un0u:q_zDmI6nTa" resolve="OFXConfigInstance" />
+      <node concept="_ZGcI" id="1VxIuFUk2as" role="_XPhp">
+        <node concept="3clFbS" id="1VxIuFUk2at" role="2VODD2">
+          <node concept="3clFbF" id="1VxIuFUk2au" role="3cqZAp">
+            <node concept="37vLTI" id="1VxIuFUk2av" role="3clFbG">
+              <node concept="2OqwBi" id="1VxIuFUk2aw" role="37vLTJ">
+                <node concept="2OqwBi" id="1VxIuFUk2ax" role="2Oq$k0">
+                  <node concept="_YI3z" id="1VxIuFUk2ay" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1VxIuFUk2az" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="1VxIuFUk2a$" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1VxIuFUk2a_" role="37vLTx">
+                <node concept="2OqwBi" id="1VxIuFUk2aA" role="2Oq$k0">
+                  <node concept="2OqwBi" id="1VxIuFUk2aB" role="2Oq$k0">
+                    <node concept="_YI3z" id="1VxIuFUk2aC" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="1VxIuFUk2aD" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="1VxIuFUk2aE" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1VxIuFUk2aF" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <node concept="Xl_RD" id="1VxIuFUk2aG" role="37wK5m">
+                    <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMTypeHandlers" />
+                  </node>
+                  <node concept="Xl_RD" id="1VxIuFUk2aH" role="37wK5m">
+                    <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMStaticAccessHelper" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="1VxIuFUk2aI" role="_XDHO">
+        <node concept="3clFbS" id="1VxIuFUk2aJ" role="2VODD2">
+          <node concept="3clFbF" id="1VxIuFUk2aK" role="3cqZAp">
+            <node concept="2OqwBi" id="1VxIuFUk2aL" role="3clFbG">
+              <node concept="2OqwBi" id="1VxIuFUk2aM" role="2Oq$k0">
+                <node concept="2OqwBi" id="1VxIuFUk2aN" role="2Oq$k0">
+                  <node concept="_YI3z" id="1VxIuFUk2aO" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1VxIuFUk2aP" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="1VxIuFUk2aQ" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                </node>
+              </node>
+              <node concept="liA8E" id="1VxIuFUk2aR" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <node concept="Xl_RD" id="1VxIuFUk2aS" role="37wK5m">
+                  <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMTypeHandlers" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="7ojk6m6b0Vx" role="_YvDr">
       <property role="_XH9r" value="Adjust component scan base name" />
-      <ref role="_XDHR" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
+      <ref role="_XDHR" to="un0u:q_zDmI5v5l" resolve="Config" />
       <node concept="_ZGcI" id="7ojk6m6b0Vz" role="_XPhp">
         <node concept="3clFbS" id="7ojk6m6b0V_" role="2VODD2">
           <node concept="3clFbF" id="7ojk6m6b0W5" role="3cqZAp">

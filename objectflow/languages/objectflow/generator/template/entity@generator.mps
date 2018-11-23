@@ -168,8 +168,6 @@
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
-        <property id="4467513934994662257" name="forceMultiLine" index="TyiWK" />
-        <property id="4467513934994662256" name="forceOneLine" index="TyiWL" />
         <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
@@ -3554,7 +3552,7 @@
     <node concept="2tJIrI" id="4Wr6DTByv1r" role="jymVt" />
     <node concept="2tJIrI" id="4Wr6DTByv5D" role="jymVt" />
     <node concept="3clFb_" id="2lNjt7gxULr" role="jymVt">
-      <property role="TrG5h" value="isNullasKey" />
+      <property role="TrG5h" value="isNullKey" />
       <node concept="10P_77" id="2lNjt7gy1WR" role="3clF45" />
       <node concept="3Tm1VV" id="2lNjt7gxULu" role="1B3o_S" />
       <node concept="3clFbS" id="2lNjt7gxULv" role="3clF47">
@@ -4343,44 +4341,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="7JpicW91HX3" role="3cqZAp" />
-        <node concept="3SKdUt" id="2lNjt7g$z$o" role="3cqZAp">
-          <node concept="3SKdUq" id="2lNjt7g$AlQ" role="3SKWNk">
-            <property role="3SKdUp" value="comparing ValueObject with &quot;&quot; results in a null key check" />
-          </node>
-        </node>
-        <node concept="3SKdUt" id="7JpicW91NaK" role="3cqZAp">
-          <node concept="3SKdUq" id="7JpicW91NaM" role="3SKWNk">
-            <property role="3SKdUp" value="used in map_entityMapping " />
-          </node>
-        </node>
-        <node concept="3clFbJ" id="2lNjt7gxEOM" role="3cqZAp">
-          <property role="TyiWK" value="false" />
-          <property role="TyiWL" value="true" />
-          <node concept="3clFbS" id="2lNjt7gxEOP" role="3clFbx">
-            <node concept="3cpWs6" id="2lNjt7g$0cN" role="3cqZAp">
-              <node concept="1rXfSq" id="2lNjt7g$0dt" role="3cqZAk">
-                <ref role="37wK5l" node="2lNjt7gxULr" resolve="isNullasKey" />
-              </node>
-            </node>
-          </node>
-          <node concept="2OqwBi" id="2lNjt7gxIkE" role="3clFbw">
-            <node concept="Xl_RD" id="2lNjt7gxHqZ" role="2Oq$k0">
-              <property role="Xl_RC" value="" />
-            </node>
-            <node concept="liA8E" id="2lNjt7gxJ_9" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-              <node concept="37vLTw" id="2lNjt7gxJHH" role="37wK5m">
-                <ref role="3cqZAo" node="7kI3k5AXyCL" resolve="object" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3SKdUt" id="2lNjt7g$Bda" role="3cqZAp">
-          <node concept="3SKdUq" id="2lNjt7g$EdH" role="3SKWNk">
-            <property role="3SKdUp" value="else, check valueobject style." />
-          </node>
-        </node>
-        <node concept="3clFbH" id="2lNjt7gxkjx" role="3cqZAp" />
         <node concept="3clFbJ" id="7kI3k5AXyCV" role="3cqZAp">
           <node concept="3clFbS" id="7kI3k5AXyCW" role="3clFbx">
             <node concept="3cpWs6" id="7kI3k5AXyCX" role="3cqZAp">

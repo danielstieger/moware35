@@ -432,9 +432,6 @@
         <property id="569389511234497408" name="year" index="1$4sGY" />
         <property id="569389511234497409" name="month" index="1$4sGZ" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650278516068" name="org.modellwerkstatt.objectflow.structure.IOFXTestSuitContent" flags="ng" index="1DF_5m" />
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <property id="6831326074114415183" name="execute" index="26Iqih" />
@@ -4351,7 +4348,7 @@
       </node>
     </node>
     <node concept="2CPvp3" id="2UR_HtvhiaQ" role="2CGBMS" />
-    <node concept="Xl_RD" id="1nLGXVrsr3O" role="3d0G2l">
+    <node concept="Xl_RD" id="1VxIuFUk697" role="3d0G2l">
       <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
     </node>
   </node>
@@ -4656,7 +4653,7 @@
       <node concept="2CJf3v" id="4LC0Y0L2pbn" role="2CJdiS">
         <property role="TrG5h" value="_mmTypeHandlers" />
         <node concept="Xl_RD" id="4LC0Y0L2pbo" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMTypeHandlers" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMStaticAccessHelper" />
         </node>
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbp" role="2CJdiS">
@@ -4683,7 +4680,7 @@
       </node>
     </node>
     <node concept="2CPvp3" id="2n3p7A96FaZ" role="2CGBMS" />
-    <node concept="Xl_RD" id="1nLGXVrsr3Q" role="3d0G2l">
+    <node concept="Xl_RD" id="1VxIuFUk699" role="3d0G2l">
       <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
     </node>
   </node>
@@ -5093,24 +5090,15 @@
       <node concept="3Tm1VV" id="4eJAcMlmaf2" role="1B3o_S" />
       <node concept="3clFbS" id="4eJAcMlmaf3" role="3clF47">
         <node concept="3clFbF" id="4eJAcMlmaAz" role="3cqZAp">
-          <node concept="2OqwBi" id="S3k7aj0NZ6" role="3clFbG">
-            <node concept="jybIQ" id="4eJAcMlmaAy" role="2Oq$k0">
-              <property role="1v8G3g" value="true" />
-              <property role="HScZ5" value="false" />
-              <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
-              <node concept="jxyYR" id="S3k7aj0M0S" role="jxX7b">
-                <node concept="3clFbC" id="S3k7aj0MdN" role="jxyYK">
-                  <node concept="37vLTw" id="S3k7aj0N5v" role="3uHU7w">
-                    <ref role="3cqZAo" node="4eJAcMlmavd" resolve="id" />
-                  </node>
-                  <node concept="3_7ulE" id="S3k7aj0M97" role="3uHU7B">
-                    <ref role="3_688M" node="4eJAcMlmaAy" />
-                    <ref role="2OG787" node="70qPrkCybae" />
-                  </node>
-                </node>
+          <node concept="jybIQ" id="4eJAcMlmaAy" role="3clFbG">
+            <property role="1v8G3g" value="true" />
+            <property role="HScZ5" value="false" />
+            <ref role="P14SV" node="70qPrkCyb9_" resolve="MapInvoice" />
+            <node concept="TUlRj" id="1VxIuFTsnYW" role="jxX7b">
+              <node concept="37vLTw" id="1VxIuFTsoU5" role="TUlRy">
+                <ref role="3cqZAo" node="4eJAcMlmavd" resolve="id" />
               </node>
             </node>
-            <node concept="1uHKPH" id="S3k7aj0OQ_" role="2OqNvi" />
           </node>
         </node>
       </node>
@@ -7821,7 +7809,7 @@
   <node concept="2WPaUQ" id="2i3o0hdSzFV">
     <property role="TrG5h" value="Query and Operators (no session)" />
     <property role="3GE5qa" value="tests" />
-    <ref role="2WPtWl" node="6VW5G60I4vl" resolve="LocalMySqlConfig" />
+    <ref role="2WPtWl" node="7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
     <node concept="1DZZI9" id="2i3o0hdVwSt" role="38MLOi">
       <ref role="1DZZIc" node="2i3o0hdVwMp" resolve="Creators" />
     </node>
@@ -10193,6 +10181,147 @@
         <node concept="Xl_RD" id="6_ccWWo8e7k" role="37wK5m">
           <property role="Xl_RC" value="sub" />
         </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="FplMljCTQc" role="3yMuLx">
+      <property role="TrG5h" value="Using a Integer-Key which is null on a query map GET return null." />
+      <node concept="3cqZAl" id="FplMljCTQg" role="3clF45" />
+      <node concept="3clFbS" id="FplMljCTQh" role="3clF47">
+        <node concept="3clFbH" id="FplMljDx0t" role="3cqZAp" />
+        <node concept="3cpWs8" id="FplMljDzm3" role="3cqZAp">
+          <node concept="3cpWsn" id="FplMljDzm4" role="3cpWs9">
+            <property role="TrG5h" value="invoice" />
+            <node concept="3uibUv" id="1VxIuFTskyE" role="1tU5fm">
+              <ref role="3uigEE" node="612_n8HbweS" resolve="Invoice" />
+            </node>
+            <node concept="1odsa" id="FplMljD$8M" role="33vP2m">
+              <ref role="1ods_" node="70qPrkCy95v" resolve="RepoInvoice" />
+              <ref role="37wK5l" node="4eJAcMlmaf0" resolve="checkoutInvoiceHeadGet" />
+              <node concept="3cmrfG" id="1VxIuFTsqhl" role="37wK5m">
+                <property role="3cmrfH" value="0" />
+              </node>
+              <node concept="10Nm6u" id="FplMljD$9G" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="FplMljD$a2" role="3cqZAp">
+          <node concept="3clFbC" id="FplMljD_I6" role="1gVkn0">
+            <node concept="10Nm6u" id="FplMljDAwl" role="3uHU7w" />
+            <node concept="37vLTw" id="FplMljD$WD" role="3uHU7B">
+              <ref role="3cqZAo" node="FplMljDzm4" resolve="invoice" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="FplMljDjSf" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="1VxIuFTsjF2" role="3yMuLx">
+      <property role="TrG5h" value="Using a String-Key which is null on a query map GET return null." />
+      <node concept="3cqZAl" id="1VxIuFTsjF6" role="3clF45" />
+      <node concept="3clFbS" id="1VxIuFTsjF7" role="3clF47">
+        <node concept="3cpWs8" id="1VxIuFTsjFp" role="3cqZAp">
+          <node concept="3cpWsn" id="1VxIuFTsjFq" role="3cpWs9">
+            <property role="TrG5h" value="referer" />
+            <node concept="3uibUv" id="1VxIuFTsswG" role="1tU5fm">
+              <ref role="3uigEE" node="RffU3z0k3d" resolve="Referer" />
+            </node>
+            <node concept="1odsa" id="1VxIuFTsjFs" role="33vP2m">
+              <ref role="1ods_" node="RffU3z0kdc" resolve="RepoReferer" />
+              <ref role="37wK5l" node="RffU3z7XVT" resolve="checkoutReferer" />
+              <node concept="Xl_RD" id="1VxIuFTst2N" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+              <node concept="10Nm6u" id="1VxIuFTsjFu" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="1VxIuFTsjFv" role="3cqZAp">
+          <node concept="3clFbC" id="1VxIuFTsjFw" role="1gVkn0">
+            <node concept="10Nm6u" id="1VxIuFTsjFx" role="3uHU7w" />
+            <node concept="37vLTw" id="1VxIuFTsjFy" role="3uHU7B">
+              <ref role="3cqZAo" node="1VxIuFTsjFq" resolve="referer" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1VxIuFTsjFz" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3yPF9F" id="1VxIuFTsjXt" role="3yMuLx">
+      <property role="TrG5h" value="Using a CompoundKey which is null on a query map GET return null." />
+      <node concept="3yABqi" id="1VxIuFTsjXu" role="3yGA3Q">
+        <property role="TrG5h" value="someAccount" />
+        <ref role="37wK5l" node="5OR7PPkDb$a" resolve="Create Account on DB" />
+        <node concept="Xl_RD" id="1VxIuFTsjXv" role="37wK5m">
+          <property role="Xl_RC" value="get_1" />
+        </node>
+        <node concept="10Nm6u" id="1VxIuFTsjXw" role="37wK5m" />
+      </node>
+      <node concept="3cqZAl" id="1VxIuFTsjXx" role="3clF45" />
+      <node concept="3clFbS" id="1VxIuFTsjXy" role="3clF47">
+        <node concept="3cpWs8" id="1VxIuFTsjXz" role="3cqZAp">
+          <node concept="3cpWsn" id="1VxIuFTsjX$" role="3cpWs9">
+            <property role="TrG5h" value="acc" />
+            <node concept="3uibUv" id="1VxIuFTsjX_" role="1tU5fm">
+              <ref role="3uigEE" node="2i3o0he2k$7" resolve="Account" />
+            </node>
+            <node concept="2ShNRf" id="1VxIuFTsjXA" role="33vP2m">
+              <node concept="1pGfFk" id="1VxIuFTsjXB" role="2ShVmc">
+                <ref role="37wK5l" node="2i3o0he2kEy" resolve="Account" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1VxIuFTsjXC" role="3cqZAp" />
+        <node concept="3cpWs8" id="1VxIuFTsjXD" role="3cqZAp">
+          <node concept="3cpWsn" id="1VxIuFTsjXE" role="3cpWs9">
+            <property role="TrG5h" value="nullKey" />
+            <node concept="3uibUv" id="1VxIuFTsjXF" role="1tU5fm">
+              <ref role="3uigEE" node="5LYSiLACQh1" resolve="AccountKey" />
+            </node>
+            <node concept="2OqwBi" id="1VxIuFTsjXG" role="33vP2m">
+              <node concept="37vLTw" id="1VxIuFTsjXH" role="2Oq$k0">
+                <ref role="3cqZAo" node="1VxIuFTsjX$" resolve="acc" />
+              </node>
+              <node concept="WNRgn" id="1VxIuFTsjXI" role="2OqNvi">
+                <ref role="WNRgg" node="2i3o0he2phn" resolve="relatedAccountAudit" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="1VxIuFTsjXJ" role="3cqZAp">
+          <node concept="3y3z36" id="1VxIuFTsjXK" role="1gVkn0">
+            <node concept="10Nm6u" id="1VxIuFTsjXL" role="3uHU7w" />
+            <node concept="37vLTw" id="1VxIuFTsjXM" role="3uHU7B">
+              <ref role="3cqZAo" node="1VxIuFTsjXE" resolve="nullKey" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1VxIuFTsjXN" role="3cqZAp" />
+        <node concept="3cpWs8" id="1VxIuFTsjXO" role="3cqZAp">
+          <node concept="3cpWsn" id="1VxIuFTsjXP" role="3cpWs9">
+            <property role="TrG5h" value="relatedAccount" />
+            <node concept="3uibUv" id="1VxIuFTsjXQ" role="1tU5fm">
+              <ref role="3uigEE" node="2i3o0he2k$7" resolve="Account" />
+            </node>
+            <node concept="1odsa" id="1VxIuFTsjXR" role="33vP2m">
+              <ref role="37wK5l" node="2i3o0he2sbu" resolve="checkoutAccountAudit" />
+              <ref role="1ods_" node="2i3o0he2pjP" resolve="RepoAccountAudit" />
+              <node concept="37vLTw" id="1VxIuFTsjXS" role="37wK5m">
+                <ref role="3cqZAo" node="1VxIuFTsjXE" resolve="nullKey" />
+              </node>
+              <node concept="10Nm6u" id="1VxIuFTsjXT" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="1VxIuFTsjXU" role="3cqZAp">
+          <node concept="3clFbC" id="1VxIuFTsjXV" role="1gVkn0">
+            <node concept="10Nm6u" id="1VxIuFTsjXW" role="3uHU7w" />
+            <node concept="37vLTw" id="1VxIuFTsjXX" role="3uHU7B">
+              <ref role="3cqZAo" node="1VxIuFTsjXP" resolve="relatedAccount" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1VxIuFTsjXY" role="3cqZAp" />
       </node>
     </node>
   </node>
@@ -14367,7 +14496,7 @@
         <property role="TrG5h" value="someAccount" />
         <ref role="37wK5l" node="5OR7PPkDb$a" resolve="Create Account on DB" />
         <node concept="Xl_RD" id="5OR7PPkKBNh" role="37wK5m">
-          <property role="Xl_RC" value="dirty_1" />
+          <property role="Xl_RC" value="nokey_3" />
         </node>
         <node concept="10Nm6u" id="5OR7PPkKBNi" role="37wK5m" />
       </node>
@@ -14429,172 +14558,17 @@
             </node>
             <node concept="10Nm6u" id="5OR7PPkLan6" role="2f8TIa" />
           </node>
-          <node concept="16GPin" id="5OR7PPkPsZs" role="lGtFl">
+          <node concept="16GPin" id="1VxIuFUAOYE" role="lGtFl">
             <ref role="16PnFS" to="wyt6:~IllegalStateException" resolve="IllegalStateException" />
-            <node concept="Xl_RD" id="5OR7PPkPuys" role="16NUyR">
-              <property role="Xl_RC" value="without saving the referred entity first" />
+            <node concept="Xl_RD" id="1VxIuFUAQxL" role="16NUyR">
+              <property role="Xl_RC" value="reference without saving the referred entity first" />
             </node>
           </node>
         </node>
         <node concept="3clFbH" id="5OR7PPkKBP1" role="3cqZAp" />
       </node>
     </node>
-    <node concept="3yPF9F" id="FplMljCTQc" role="3yMuLx">
-      <property role="TrG5h" value="Using a CompoundKey which is null on a query map return null." />
-      <node concept="3yABqi" id="FplMljCTQd" role="3yGA3Q">
-        <property role="TrG5h" value="someAccount" />
-        <ref role="37wK5l" node="5OR7PPkDb$a" resolve="Create Account on DB" />
-        <node concept="Xl_RD" id="FplMljCTQe" role="37wK5m">
-          <property role="Xl_RC" value="dirty_1" />
-        </node>
-        <node concept="10Nm6u" id="FplMljCTQf" role="37wK5m" />
-      </node>
-      <node concept="3cqZAl" id="FplMljCTQg" role="3clF45" />
-      <node concept="3clFbS" id="FplMljCTQh" role="3clF47">
-        <node concept="3cpWs8" id="FplMljDlpQ" role="3cqZAp">
-          <node concept="3cpWsn" id="FplMljDlpR" role="3cpWs9">
-            <property role="TrG5h" value="acc" />
-            <node concept="3uibUv" id="FplMljDlpS" role="1tU5fm">
-              <ref role="3uigEE" node="2i3o0he2k$7" resolve="Account" />
-            </node>
-            <node concept="2ShNRf" id="FplMljDmbJ" role="33vP2m">
-              <node concept="1pGfFk" id="FplMljDmbI" role="2ShVmc">
-                <ref role="37wK5l" node="2i3o0he2kEy" resolve="Account" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="FplMljDmc3" role="3cqZAp" />
-        <node concept="3cpWs8" id="FplMljDpfC" role="3cqZAp">
-          <node concept="3cpWsn" id="FplMljDpfD" role="3cpWs9">
-            <property role="TrG5h" value="nullKey" />
-            <node concept="3uibUv" id="FplMljDpfE" role="1tU5fm">
-              <ref role="3uigEE" node="5LYSiLACQh1" resolve="AccountKey" />
-            </node>
-            <node concept="2OqwBi" id="FplMljDq0Q" role="33vP2m">
-              <node concept="37vLTw" id="FplMljDq0s" role="2Oq$k0">
-                <ref role="3cqZAo" node="FplMljDlpR" resolve="acc" />
-              </node>
-              <node concept="WNRgn" id="FplMljDq2J" role="2OqNvi">
-                <ref role="WNRgg" node="2i3o0he2phn" resolve="relatedAccountAudit" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1gVbGN" id="FplMljDqOy" role="3cqZAp">
-          <node concept="3y3z36" id="FplMljDsn8" role="1gVkn0">
-            <node concept="10Nm6u" id="FplMljDt8J" role="3uHU7w" />
-            <node concept="37vLTw" id="FplMljDr_l" role="3uHU7B">
-              <ref role="3cqZAo" node="FplMljDpfD" resolve="nullKey" />
-            </node>
-          </node>
-        </node>
-        <node concept="1gVbGN" id="FplMljDtUR" role="3cqZAp">
-          <node concept="2OqwBi" id="FplMljDwdH" role="1gVkn0">
-            <node concept="37vLTw" id="FplMljDvsG" role="2Oq$k0">
-              <ref role="3cqZAo" node="FplMljDpfD" resolve="nullKey" />
-            </node>
-            <node concept="1Poggp" id="FplMljDx0i" role="2OqNvi" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="FplMljDx0t" role="3cqZAp" />
-        <node concept="3cpWs8" id="FplMljDzm3" role="3cqZAp">
-          <node concept="3cpWsn" id="FplMljDzm4" role="3cpWs9">
-            <property role="TrG5h" value="relatedAccount" />
-            <node concept="3uibUv" id="FplMljDzm5" role="1tU5fm">
-              <ref role="3uigEE" node="2i3o0he2k$7" resolve="Account" />
-            </node>
-            <node concept="1odsa" id="FplMljD$8M" role="33vP2m">
-              <ref role="1ods_" node="2i3o0he2pjP" resolve="RepoAccountAudit" />
-              <ref role="37wK5l" node="2i3o0he2sbu" resolve="checkoutAccountAudit" />
-              <node concept="37vLTw" id="FplMljD$9r" role="37wK5m">
-                <ref role="3cqZAo" node="FplMljDpfD" resolve="nullKey" />
-              </node>
-              <node concept="10Nm6u" id="FplMljD$9G" role="2f8TIa" />
-            </node>
-          </node>
-        </node>
-        <node concept="1gVbGN" id="FplMljD$a2" role="3cqZAp">
-          <node concept="3clFbC" id="FplMljD_I6" role="1gVkn0">
-            <node concept="10Nm6u" id="FplMljDAwl" role="3uHU7w" />
-            <node concept="37vLTw" id="FplMljD$WD" role="3uHU7B">
-              <ref role="3cqZAo" node="FplMljDzm4" resolve="relatedAccount" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="FplMljDjSf" role="3cqZAp" />
-      </node>
-    </node>
     <node concept="1DF_5m" id="2i3o0hdSzFY" role="3yMuLx" />
-    <node concept="1Cak35" id="FplMljDA$K" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zlI6g" resolve="Save and load an integer-key reference." />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$L" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zpIxX" resolve="Save and load an integer-key reference (set 0)" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$M" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zV_Ij" resolve="Save and load an integer-key reference via join" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$N" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zCK1o" resolve="Save and load an string-key reference." />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$O" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zDIa$" resolve="Save and load an string-key reference. (set null)" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$P" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zIGLQ" resolve="Save and load a list of string-key references with join." />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$Q" role="38MLOi">
-      <ref role="1Cak38" node="RffU3$03uw" resolve="Save and load a string-key references with join." />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$R" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zMFoX" resolve="Save and load an ValueObject-key reference." />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$S" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zOEd2" resolve="Save and load an ValueObject-key reference. (set null)" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$T" role="38MLOi">
-      <ref role="1Cak38" node="RffU3zSBx2" resolve="Save and load an ValueObject-key reference with join." />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$U" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJeHQk4" resolve="Save and load an ValueObject-key references with join." />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$V" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJf20h$" resolve="Load entity with ValueObject-key reference and key directly embedded in entity." />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$W" role="38MLOi">
-      <ref role="1Cak38" node="1oH_MJf4wNF" resolve="Assigne ValueObj-Key, reload and assign different one." />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$X" role="38MLOi">
-      <ref role="1Cak38" node="7gwY4W7v2i2" resolve="Check Reference initialization in Entities for IntegerKey" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$Y" role="38MLOi">
-      <ref role="1Cak38" node="7gwY4W7v2IC" resolve="Check Reference initialization in Entities for StringKey" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA$Z" role="38MLOi">
-      <ref role="1Cak38" node="7gwY4W7v2Zt" resolve="Check Reference initialization in Entities for ValueObjectKey" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA_0" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTjX6La" resolve="Check IntegerKey dirty handling for entities - initially not set" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA_1" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTk0cA4" resolve="Check IntegerKey dirty handling for entities - initially set" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA_2" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTk3_yz" resolve="Check StringKey dirty handling for entities - initially not set" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA_3" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTk3_zR" resolve="Check StringKey dirty handling for entities - initially set" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA_4" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTkha9m" resolve="Check CompoundKey dirty handling for entities - initially not set" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA_5" role="38MLOi">
-      <ref role="1Cak38" node="33yTGTkhaaF" resolve="Check CompoundKey dirty handling for entities - initially set" />
-    </node>
-    <node concept="1Cak35" id="FplMljDA_6" role="38MLOi">
-      <ref role="1Cak38" node="5OR7PPkKBNf" resolve="CompoundKey reference saving without setting the key of the object" />
-    </node>
   </node>
   <node concept="2WPaUQ" id="2i3o0hdVwMp">
     <property role="3GE5qa" value="tests" />
@@ -17672,13 +17646,28 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6Z4InLttUTJ" role="3cqZAp">
-          <node concept="2OqwBi" id="6Z4InLttUUq" role="3clFbG">
-            <node concept="37vLTw" id="6Z4InLttUTH" role="2Oq$k0">
-              <ref role="3cqZAo" node="6Z4InLttUSt" resolve="ref" />
+        <node concept="3clFbJ" id="1VxIuFTssY0" role="3cqZAp">
+          <node concept="3clFbS" id="1VxIuFTssY2" role="3clFbx">
+            <node concept="3SKdUt" id="1VxIuFTst1H" role="3cqZAp">
+              <node concept="3SKdUq" id="1VxIuFTst1J" role="3SKWNk">
+                <property role="3SKdUp" value="also used for get(null) - null key test, should return null obj!" />
+              </node>
             </node>
-            <node concept="liA8E" id="6Z4InLttUVS" role="2OqNvi">
-              <ref role="37wK5l" node="6Z4InLttRR2" resolve="complete" />
+            <node concept="3clFbF" id="6Z4InLttUTJ" role="3cqZAp">
+              <node concept="2OqwBi" id="6Z4InLttUUq" role="3clFbG">
+                <node concept="37vLTw" id="6Z4InLttUTH" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6Z4InLttUSt" resolve="ref" />
+                </node>
+                <node concept="liA8E" id="6Z4InLttUVS" role="2OqNvi">
+                  <ref role="37wK5l" node="6Z4InLttRR2" resolve="complete" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="1VxIuFTssZJ" role="3clFbw">
+            <node concept="10Nm6u" id="1VxIuFTst0s" role="3uHU7w" />
+            <node concept="37vLTw" id="1VxIuFTssYR" role="3uHU7B">
+              <ref role="3cqZAo" node="6Z4InLttUSt" resolve="ref" />
             </node>
           </node>
         </node>
@@ -34441,7 +34430,7 @@
       </node>
     </node>
     <node concept="2CPvp3" id="6VW5G60I4vG" role="2CGBMS" />
-    <node concept="Xl_RD" id="1nLGXVrsr3R" role="3d0G2l">
+    <node concept="Xl_RD" id="1VxIuFUk694" role="3d0G2l">
       <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
     </node>
   </node>

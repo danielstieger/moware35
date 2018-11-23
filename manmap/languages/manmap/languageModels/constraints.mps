@@ -1875,9 +1875,12 @@
             <node concept="2OqwBi" id="FplMlj1bGB" role="2Oq$k0">
               <node concept="nLn13" id="FplMlj1bEP" role="2Oq$k0" />
               <node concept="2Xjw5R" id="FplMlj1bKN" role="2OqNvi">
-                <node concept="1xMEDy" id="FplMlj1bKP" role="1xVPHs">
-                  <node concept="chp4Y" id="FplMlj1bMt" role="ri$Ld">
-                    <ref role="cht4Q" to="r5tz:Kou8LehH1E" resolve="EntityMapping" />
+                <node concept="3gmYPX" id="1VxIuFTBke$" role="1xVPHs">
+                  <node concept="3gn64h" id="1VxIuFTBkgG" role="3gmYPZ">
+                    <ref role="3gnhBz" to="r5tz:Kou8LehH1E" resolve="EntityMapping" />
+                  </node>
+                  <node concept="3gn64h" id="1VxIuFTBklj" role="3gmYPZ">
+                    <ref role="3gnhBz" to="r5tz:hm5BQDGo1c" resolve="IOptionsProvider" />
                   </node>
                 </node>
                 <node concept="1xIGOp" id="FplMlj1bQJ" role="1xVPHs" />
