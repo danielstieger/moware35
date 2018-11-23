@@ -4115,7 +4115,7 @@
     <property role="TrG5h" value="IOFXSession" />
     <node concept="3Tm1VV" id="7rqBz8B3JBg" role="1B3o_S" />
     <node concept="3uibUv" id="fjwjzIx9ZK" role="3HQHJm">
-      <ref role="3uigEE" to="w7gk:2P7gGuyliuf" resolve="IM3ManMapSession" />
+      <ref role="3uigEE" to="w7gk:2P7gGuyliuf" resolve="IM3Session" />
     </node>
     <node concept="3clFb_" id="g2nNIPmzuh" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -5043,7 +5043,7 @@
       <ref role="3uigEE" node="7rqBz8B3JBf" resolve="IOFXSession" />
     </node>
     <node concept="3uibUv" id="fjwjzIs16G" role="1zkMxy">
-      <ref role="3uigEE" to="w7gk:2P7gGuyoQiL" resolve="M3ManMapSession" />
+      <ref role="3uigEE" to="w7gk:2P7gGuyoQiL" resolve="MMSession" />
     </node>
     <node concept="2tJIrI" id="3$bhckDNddZ" role="jymVt" />
     <node concept="2tJIrI" id="3$bhckDNhHV" role="jymVt" />
@@ -5175,7 +5175,7 @@
       <node concept="3Tm1VV" id="2CaVrGB1_Lf" role="1B3o_S" />
       <node concept="3clFbS" id="2CaVrGB1_Lg" role="3clF47">
         <node concept="XkiVB" id="2CaVrGB1_Lh" role="3cqZAp">
-          <ref role="37wK5l" to="w7gk:2P7gGuyoQiN" resolve="M3ManMapSession" />
+          <ref role="37wK5l" to="w7gk:2P7gGuyoQiN" resolve="MMSession" />
         </node>
         <node concept="3clFbF" id="g2nNIPmBdK" role="3cqZAp">
           <node concept="37vLTI" id="g2nNIPmBoT" role="3clFbG">
@@ -5506,7 +5506,7 @@
             <node concept="YS8fn" id="5T_hheVbor_" role="3cqZAp">
               <node concept="2ShNRf" id="5T_hheVbos7" role="YScLw">
                 <node concept="1pGfFk" id="5T_hheVbtIE" role="2ShVmc">
-                  <ref role="37wK5l" to="w7gk:VyS2F85W$p" resolve="M3ShutdownRequestException" />
+                  <ref role="37wK5l" to="w7gk:VyS2F85W$p" resolve="MMShutdownRequestException" />
                   <node concept="Xl_RD" id="5T_hheVbtKm" role="37wK5m">
                     <property role="Xl_RC" value="starting transaction - Thread.interrupted()=true, raising ShutDownRequest Exception." />
                   </node>
@@ -6008,7 +6008,7 @@
             <node concept="YS8fn" id="1l1sktc6IqR" role="3cqZAp">
               <node concept="2ShNRf" id="1l1sktc6IqS" role="YScLw">
                 <node concept="1pGfFk" id="1l1sktc6IqT" role="2ShVmc">
-                  <ref role="37wK5l" to="w7gk:VyS2F85W$p" resolve="M3ShutdownRequestException" />
+                  <ref role="37wK5l" to="w7gk:VyS2F85W$p" resolve="MMShutdownRequestException" />
                   <node concept="Xl_RD" id="1l1sktc6IqU" role="37wK5m">
                     <property role="Xl_RC" value="starting transaction - Thread.interrupted()=true, raising ShutDownRequest Exception." />
                   </node>
@@ -23256,35 +23256,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="3RJlYM3p418" role="jymVt" />
-    <node concept="3clFb_" id="6RVk_zvoF6D" role="jymVt">
-      <property role="TrG5h" value="isNull" />
-      <node concept="10P_77" id="6RVk_zvoF6E" role="3clF45" />
-      <node concept="3Tm1VV" id="6RVk_zvoF6F" role="1B3o_S" />
-      <node concept="3clFbS" id="6RVk_zvoF6G" role="3clF47">
-        <node concept="3clFbF" id="6RVk_zvoF6H" role="3cqZAp">
-          <node concept="3clFbC" id="6RVk_zvoF6I" role="3clFbG">
-            <node concept="10Nm6u" id="6RVk_zvoF6J" role="3uHU7w" />
-            <node concept="2OqwBi" id="6RVk_zvoF6K" role="3uHU7B">
-              <node concept="Xjq3P" id="6RVk_zvoF6L" role="2Oq$k0" />
-              <node concept="2OwXpG" id="6RVk_zvoF6M" role="2OqNvi">
-                <ref role="2Oxat5" node="3RJlYM3p3WL" resolve="value" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="P$JXv" id="6RVk_zvoF6N" role="lGtFl">
-        <node concept="TZ5HA" id="6RVk_zvoF6O" role="TZ5H$">
-          <node concept="1dT_AC" id="6RVk_zvoF6P" role="1dT_Ay">
-            <property role="1dT_AB" value="Generator convenience method only. " />
-          </node>
-        </node>
-        <node concept="x79VA" id="6RVk_zvoF6Q" role="3nqlJM">
-          <property role="x79VB" value="value is null or not?" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="3RJlYM3p419" role="jymVt" />
     <node concept="312cEg" id="653WpvxzxLk" role="jymVt">
       <property role="TrG5h" value="requestFocus" />
       <node concept="3Tm6S6" id="653WpvxzxLl" role="1B3o_S" />
@@ -29491,36 +29462,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6RVk_zvoHF6" role="jymVt" />
-    <node concept="3clFb_" id="6RVk_zvoH8U" role="jymVt">
-      <property role="TrG5h" value="isNull" />
-      <node concept="10P_77" id="6RVk_zvoH8V" role="3clF45" />
-      <node concept="3Tm1VV" id="6RVk_zvoH8W" role="1B3o_S" />
-      <node concept="3clFbS" id="6RVk_zvoH8X" role="3clF47">
-        <node concept="3clFbF" id="6RVk_zvoH8Y" role="3cqZAp">
-          <node concept="3clFbC" id="6RVk_zvoH8Z" role="3clFbG">
-            <node concept="10Nm6u" id="6RVk_zvoH90" role="3uHU7w" />
-            <node concept="2OqwBi" id="6RVk_zvoH91" role="3uHU7B">
-              <node concept="Xjq3P" id="6RVk_zvoH92" role="2Oq$k0" />
-              <node concept="2OwXpG" id="6RVk_zvoH93" role="2OqNvi">
-                <ref role="2Oxat5" node="5dZoziR0sWJ" resolve="value" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="P$JXv" id="6RVk_zvoH94" role="lGtFl">
-        <node concept="TZ5HA" id="6RVk_zvoH95" role="TZ5H$">
-          <node concept="1dT_AC" id="6RVk_zvoH96" role="1dT_Ay">
-            <property role="1dT_AB" value="Generator convenience method only. " />
-          </node>
-        </node>
-        <node concept="x79VA" id="6RVk_zvoH97" role="3nqlJM">
-          <property role="x79VB" value="value is null or not?" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="6RVk_zvoGIv" role="jymVt" />
-    <node concept="2tJIrI" id="653WpvxzJnc" role="jymVt" />
     <node concept="312cEg" id="653WpvxzIEd" role="jymVt">
       <property role="TrG5h" value="requestFocus" />
       <node concept="3Tm6S6" id="653WpvxzIEe" role="1B3o_S" />
@@ -31272,7 +31213,7 @@
             <node concept="YS8fn" id="5T_hheTOoL$" role="3cqZAp">
               <node concept="2ShNRf" id="5T_hheTOoLX" role="YScLw">
                 <node concept="1pGfFk" id="5T_hheTOBXt" role="2ShVmc">
-                  <ref role="37wK5l" to="w7gk:VyS2F85W$p" resolve="M3ShutdownRequestException" />
+                  <ref role="37wK5l" to="w7gk:VyS2F85W$p" resolve="MMShutdownRequestException" />
                   <node concept="Xl_RD" id="5T_hheTOBZo" role="37wK5m">
                     <property role="Xl_RC" value="getSqlServerLocalDate() - Thread.interrupted()=true, raising ShutDownRequest Exception." />
                   </node>
@@ -31412,7 +31353,7 @@
             <node concept="YS8fn" id="5T_hheTP5J1" role="3cqZAp">
               <node concept="2ShNRf" id="5T_hheTP5J2" role="YScLw">
                 <node concept="1pGfFk" id="5T_hheTP5J3" role="2ShVmc">
-                  <ref role="37wK5l" to="w7gk:VyS2F85W$p" resolve="M3ShutdownRequestException" />
+                  <ref role="37wK5l" to="w7gk:VyS2F85W$p" resolve="MMShutdownRequestException" />
                   <node concept="Xl_RD" id="5T_hheTP5J4" role="37wK5m">
                     <property role="Xl_RC" value="getSqlServerDateTime() - Thread.interrupted()=true, raising ShutDownRequest Exception." />
                   </node>
