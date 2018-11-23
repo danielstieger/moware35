@@ -6638,7 +6638,7 @@
                           <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
                           <node concept="3cpWs3" id="1D2xWyK5rHL" role="37wK5m">
                             <node concept="Xl_RD" id="1D2xWyK5rHM" role="3uHU7w">
-                              <property role="Xl_RC" value=") was already checked out as r/o or r/w, insert no possible" />
+                              <property role="Xl_RC" value=") was already checked out as r/o or r/w, insert not possible" />
                             </node>
                             <node concept="3cpWs3" id="1D2xWyK5rHN" role="3uHU7B">
                               <node concept="3cpWs3" id="1D2xWyK5rHO" role="3uHU7B">
