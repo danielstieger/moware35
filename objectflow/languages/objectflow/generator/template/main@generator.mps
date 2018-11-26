@@ -21206,20 +21206,6 @@
         </node>
       </node>
     </node>
-    <node concept="312cEg" id="6RQ_77quEMx" role="jymVt">
-      <property role="TrG5h" value="dataSource" />
-      <node concept="3Tm6S6" id="6RQ_77quEMy" role="1B3o_S" />
-      <node concept="3uibUv" id="6RQ_77quEM$" role="1tU5fm">
-        <ref role="3uigEE" to="iiye:~DataSource" resolve="DataSource" />
-      </node>
-    </node>
-    <node concept="312cEg" id="6LKPMZJk3TT" role="jymVt">
-      <property role="TrG5h" value="jdbcTemplate" />
-      <node concept="3Tm6S6" id="6LKPMZJk3TU" role="1B3o_S" />
-      <node concept="3uibUv" id="6LKPMZJk6yz" role="1tU5fm">
-        <ref role="3uigEE" to="mbv:~JdbcTemplate" resolve="JdbcTemplate" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="6VW5G62jcuN" role="jymVt" />
     <node concept="312cEg" id="7ITJFzooRgh" role="jymVt">
       <property role="TrG5h" value="_dateTimeTypeHandler" />
@@ -21338,6 +21324,16 @@
         <ref role="3uigEE" to="w7gk:1YSLAaBz9tw" resolve="IM3DatabaseDescription" />
       </node>
       <node concept="2AHcQZ" id="1YSLAaC91oM" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
+    <node concept="312cEg" id="6LKPMZJk3TT" role="jymVt">
+      <property role="TrG5h" value="__jdbcTemplate" />
+      <node concept="3Tm6S6" id="6LKPMZJk3TU" role="1B3o_S" />
+      <node concept="3uibUv" id="6LKPMZJk6yz" role="1tU5fm">
+        <ref role="3uigEE" to="mbv:~JdbcTemplate" resolve="JdbcTemplate" />
+      </node>
+      <node concept="2AHcQZ" id="2x95vWgjruL" role="2AJF6D">
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
@@ -21778,75 +21774,12 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2x95vWfmOmj" role="jymVt" />
-    <node concept="3clFbW" id="6W_Qo9f2MoG" role="jymVt">
-      <node concept="37vLTG" id="6LKPMZJk9ba" role="3clF46">
-        <property role="TrG5h" value="ds" />
-        <node concept="3uibUv" id="6LKPMZJk9fK" role="1tU5fm">
-          <ref role="3uigEE" to="iiye:~DataSource" resolve="DataSource" />
-        </node>
-      </node>
-      <node concept="3cqZAl" id="6W_Qo9f2MoH" role="3clF45" />
-      <node concept="3Tm1VV" id="6W_Qo9f2MoI" role="1B3o_S" />
-      <node concept="3clFbS" id="6W_Qo9f2MoJ" role="3clF47">
-        <node concept="3clFbF" id="6LKPMZJk9um" role="3cqZAp">
-          <node concept="37vLTI" id="6LKPMZJk9zg" role="3clFbG">
-            <node concept="37vLTw" id="6LKPMZJk9$7" role="37vLTx">
-              <ref role="3cqZAo" node="6LKPMZJk9ba" resolve="ds" />
-            </node>
-            <node concept="37vLTw" id="6LKPMZJk9ul" role="37vLTJ">
-              <ref role="3cqZAo" node="6RQ_77quEMx" resolve="dataSource" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="6LKPMZJk6zw" role="3cqZAp">
-          <node concept="37vLTI" id="6LKPMZJk6At" role="3clFbG">
-            <node concept="2ShNRf" id="6LKPMZJk6D5" role="37vLTx">
-              <node concept="1pGfFk" id="6LKPMZJk6D4" role="2ShVmc">
-                <ref role="37wK5l" to="mbv:~JdbcTemplate.&lt;init&gt;(javax.sql.DataSource)" resolve="JdbcTemplate" />
-                <node concept="37vLTw" id="6LKPMZJk9oL" role="37wK5m">
-                  <ref role="3cqZAo" node="6LKPMZJk9ba" resolve="ds" />
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="6LKPMZJk6zv" role="37vLTJ">
-              <ref role="3cqZAo" node="6LKPMZJk3TT" resolve="jdbcTemplate" />
-            </node>
-          </node>
-          <node concept="1W57fq" id="6LKPMZJk9Dn" role="lGtFl">
-            <node concept="3IZrLx" id="6LKPMZJk9Dp" role="3IZSJc">
-              <node concept="3clFbS" id="6LKPMZJk9Dr" role="2VODD2">
-                <node concept="3clFbF" id="6LKPMZJk9R0" role="3cqZAp">
-                  <node concept="3y3z36" id="6LKPMZJkkJv" role="3clFbG">
-                    <node concept="3cmrfG" id="6LKPMZJkkYH" role="3uHU7w">
-                      <property role="3cmrfH" value="0" />
-                    </node>
-                    <node concept="2OqwBi" id="6LKPMZJke$7" role="3uHU7B">
-                      <node concept="2OqwBi" id="6LKPMZJka4h" role="2Oq$k0">
-                        <node concept="30H73N" id="6LKPMZJk9QZ" role="2Oq$k0" />
-                        <node concept="2Rf3mk" id="6LKPMZJkdoC" role="2OqNvi">
-                          <node concept="3gmYPX" id="1G$t8Xtgd$S" role="1xVPHs">
-                            <node concept="3gn64h" id="1G$t8XtgdM0" role="3gmYPZ">
-                              <ref role="3gnhBz" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
-                            </node>
-                            <node concept="3gn64h" id="1G$t8XtgeeF" role="3gmYPZ">
-                              <ref role="3gnhBz" to="r5tz:7opW4z6uEx2" resolve="UpdateFormSql" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="34oBXx" id="6LKPMZJkikT" role="2OqNvi" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="2AHcQZ" id="6LKPMZJk9h4" role="2AJF6D">
-        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
-      </node>
+    <node concept="3clFbW" id="2x95vWgju$c" role="jymVt">
+      <node concept="3cqZAl" id="2x95vWgju$e" role="3clF45" />
+      <node concept="3Tm1VV" id="2x95vWgju$f" role="1B3o_S" />
+      <node concept="3clFbS" id="2x95vWgju$g" role="3clF47" />
     </node>
+    <node concept="2tJIrI" id="2x95vWgjsiU" role="jymVt" />
     <node concept="3clFb_" id="6RQ_77quEMj" role="jymVt">
       <property role="TrG5h" value="dummy" />
       <node concept="37vLTG" id="2P7gGuyqDmc" role="3clF46">

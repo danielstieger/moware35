@@ -503,6 +503,76 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="2x95vWh2vfn" role="_YvDr">
+      <property role="_XH9r" value="Update Manmap runtime name (IV)" />
+      <ref role="_XDHR" to="un0u:q_zDmI6nTa" resolve="OFXConfigInstance" />
+      <node concept="_ZGcI" id="2x95vWh2vfo" role="_XPhp">
+        <node concept="3clFbS" id="2x95vWh2vfp" role="2VODD2">
+          <node concept="3clFbF" id="2x95vWh2vfq" role="3cqZAp">
+            <node concept="37vLTI" id="2x95vWh2vfr" role="3clFbG">
+              <node concept="2OqwBi" id="2x95vWh2vfs" role="37vLTJ">
+                <node concept="2OqwBi" id="2x95vWh2vft" role="2Oq$k0">
+                  <node concept="_YI3z" id="2x95vWh2vfu" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2x95vWh2vfv" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="2x95vWh2vfw" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="2x95vWh2vfx" role="37vLTx">
+                <node concept="2OqwBi" id="2x95vWh2vfy" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2x95vWh2vfz" role="2Oq$k0">
+                    <node concept="_YI3z" id="2x95vWh2vf$" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="2x95vWh2vf_" role="2OqNvi">
+                      <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="2x95vWh2vfA" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2x95vWh2vfB" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <node concept="Xl_RD" id="2x95vWh2vfC" role="37wK5m">
+                    <property role="Xl_RC" value="TypeHanlder" />
+                  </node>
+                  <node concept="Xl_RD" id="2x95vWh2vfD" role="37wK5m">
+                    <property role="Xl_RC" value="TypeHandler" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="2x95vWh2vfE" role="_XDHO">
+        <node concept="3clFbS" id="2x95vWh2vfF" role="2VODD2">
+          <node concept="3clFbF" id="2x95vWh2vfG" role="3cqZAp">
+            <node concept="2OqwBi" id="2x95vWh2vfH" role="3clFbG">
+              <node concept="2OqwBi" id="2x95vWh2vfI" role="2Oq$k0">
+                <node concept="2OqwBi" id="2x95vWh2vfJ" role="2Oq$k0">
+                  <node concept="_YI3z" id="2x95vWh2vfK" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2x95vWh2vfL" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:q_zDmI6nUJ" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="2x95vWh2vfM" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2x95vWh2vfN" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <node concept="Xl_RD" id="2x95vWh2vfO" role="37wK5m">
+                  <property role="Xl_RC" value="TypeHanlder" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="7ojk6m6b0Vx" role="_YvDr">
       <property role="_XH9r" value="Adjust component scan base name" />
       <ref role="_XDHR" to="un0u:q_zDmI5v5l" resolve="Config" />

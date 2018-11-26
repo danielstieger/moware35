@@ -532,7 +532,7 @@
     <node concept="2tJIrI" id="4ChE6YfkF4P" role="jymVt" />
     <node concept="3clFb_" id="Kou8LehmHX" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="map" />
+      <property role="TrG5h" value="mapRow" />
       <node concept="37vLTG" id="Kou8LehnWw" role="3clF46">
         <property role="TrG5h" value="resultSet" />
         <node concept="3uibUv" id="Kou8LehnWy" role="1tU5fm">
@@ -741,7 +741,7 @@
     </node>
   </node>
   <node concept="312cEu" id="7ITJFzooZFI">
-    <property role="TrG5h" value="MMJodaDateTimeTypeHanlder" />
+    <property role="TrG5h" value="MMJodaDateTimeTypeHandler" />
     <node concept="3Tm1VV" id="7ITJFzooZFJ" role="1B3o_S" />
     <node concept="3uibUv" id="7ITJFzooZFO" role="EKbjA">
       <ref role="3uigEE" node="2Ud4UxV8PPs" resolve="IM3TypeHandler" />
@@ -967,15 +967,8 @@
                     <node concept="1pGfFk" id="3tZ99yEJczH" role="2ShVmc">
                       <ref role="37wK5l" to="zj7m:~Timestamp.&lt;init&gt;(long)" resolve="Timestamp" />
                       <node concept="2OqwBi" id="3tZ99yEJczI" role="37wK5m">
-                        <node concept="1eOMI4" id="3tZ99yEJczJ" role="2Oq$k0">
-                          <node concept="10QFUN" id="3tZ99yEJczK" role="1eOMHV">
-                            <node concept="37vLTw" id="KVbXdPff6C" role="10QFUP">
-                              <ref role="3cqZAo" node="7ITJFzopasU" resolve="object" />
-                            </node>
-                            <node concept="3uibUv" id="1kyRDmWJFds" role="10QFUM">
-                              <ref role="3uigEE" to="w08f:~DateTime" resolve="DateTime" />
-                            </node>
-                          </node>
+                        <node concept="37vLTw" id="KVbXdPff6C" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7ITJFzopasU" resolve="object" />
                         </node>
                         <node concept="liA8E" id="3tZ99yEJczN" role="2OqNvi">
                           <ref role="37wK5l" to="oz00:~BaseDateTime.getMillis():long" resolve="getMillis" />
@@ -1041,7 +1034,7 @@
     </node>
   </node>
   <node concept="312cEu" id="7ITJFzopat9">
-    <property role="TrG5h" value="MMJodaLocalDateTypeHanlder" />
+    <property role="TrG5h" value="MMJodaLocalDateTypeHandler" />
     <node concept="3Tm1VV" id="7ITJFzopata" role="1B3o_S" />
     <node concept="3uibUv" id="7ITJFzopatf" role="EKbjA">
       <ref role="3uigEE" node="2Ud4UxV8PPs" resolve="IM3TypeHandler" />

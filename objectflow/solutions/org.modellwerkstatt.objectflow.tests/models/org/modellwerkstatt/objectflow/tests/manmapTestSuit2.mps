@@ -278,7 +278,7 @@
         <child id="8078003855695227917" name="options" index="1oUvAS" />
       </concept>
       <concept id="8009046666043401703" name="org.modellwerkstatt.objectflow.structure.ModelRepository" flags="ig" index="wbJL_">
-        <child id="2153030403788862895" name="repoFields" index="2_$AKh" />
+        <child id="2153030403788862895" name="customSqlRepoFields" index="2_$AKh" />
       </concept>
       <concept id="8009046666043401704" name="org.modellwerkstatt.objectflow.structure.ModelRepositoryMethod" flags="ig" index="wbJLE">
         <property id="8009046666043401713" name="methodType" index="wbJLN" />
@@ -4348,7 +4348,7 @@
       </node>
     </node>
     <node concept="2CPvp3" id="2UR_HtvhiaQ" role="2CGBMS" />
-    <node concept="Xl_RD" id="1VxIuFUk697" role="3d0G2l">
+    <node concept="Xl_RD" id="2x95vWhrecO" role="3d0G2l">
       <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
     </node>
   </node>
@@ -4429,8 +4429,8 @@
             <property role="Xl_RC" value="germanLocal" />
           </node>
         </node>
+        <node concept="2CJf1Z" id="2x95vWgz6l$" role="2CJ4_l" />
       </node>
-      <node concept="2CPvp3" id="3KPvoWwmYZJ" role="2CJdiS" />
       <node concept="2CJf3v" id="4LC0Y0L2pa7" role="2CJdiS">
         <property role="TrG5h" value="transactionDefinition" />
         <node concept="2CJ4$C" id="4LC0Y0L2pa8" role="2CJ4_l">
@@ -4455,6 +4455,7 @@
           <property role="Xl_RC" value="org.springframework.transaction.support.DefaultTransactionDefinition" />
         </node>
       </node>
+      <node concept="2CPvp3" id="2x95vWgz6lG" role="2CJdiS" />
       <node concept="2CJf3v" id="4LC0Y0L2pag" role="2CJdiS">
         <property role="TrG5h" value="transactionManager" />
         <node concept="Xl_RD" id="4LC0Y0L2pah" role="2CJf0U">
@@ -4467,6 +4468,21 @@
             <property role="Xl_RC" value="dataSource" />
           </node>
         </node>
+        <node concept="2CJf1Z" id="2x95vWgz6mv" role="2CJ4_l" />
+      </node>
+      <node concept="2CJf3v" id="2x95vWgz28u" role="2CJdiS">
+        <property role="TrG5h" value="jdbcTemplate" />
+        <node concept="Xl_RD" id="2x95vWgz28v" role="2CJf0U">
+          <property role="Xl_RC" value="org.springframework.jdbc.core.JdbcTemplate" />
+        </node>
+        <node concept="2CJ4$C" id="2x95vWgz28w" role="2CJ4_l">
+          <property role="2DlMY1" value="true" />
+          <property role="TrG5h" value="dataSource" />
+          <node concept="Xl_RD" id="2x95vWgz28x" role="2CaGCA">
+            <property role="Xl_RC" value="dataSource" />
+          </node>
+        </node>
+        <node concept="2CJf1Z" id="2x95vWgz6nw" role="2CJ4_l" />
       </node>
       <node concept="2CJf3v" id="3drXVOoNMEM" role="2CJdiS">
         <property role="TrG5h" value="dataSource" />
@@ -4623,13 +4639,13 @@
       <node concept="2CJf3v" id="4LC0Y0L2pbd" role="2CJdiS">
         <property role="TrG5h" value="_dateTimeTypeHandler" />
         <node concept="Xl_RD" id="4LC0Y0L2pbe" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMJodaDateTimeTypeHanlder" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMJodaDateTimeTypeHandler" />
         </node>
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbf" role="2CJdiS">
         <property role="TrG5h" value="_localDateTypeHandler" />
         <node concept="Xl_RD" id="4LC0Y0L2pbg" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMJodaLocalDateTypeHanlder" />
+          <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMJodaLocalDateTypeHandler" />
         </node>
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbh" role="2CJdiS">
@@ -4680,8 +4696,8 @@
       </node>
     </node>
     <node concept="2CPvp3" id="2n3p7A96FaZ" role="2CGBMS" />
-    <node concept="Xl_RD" id="1VxIuFUk699" role="3d0G2l">
-      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
+    <node concept="Xl_RD" id="2x95vWhmJcf" role="3d0G2l">
+      <property role="Xl_RC" value="org.modellwerkstatt" />
     </node>
   </node>
   <node concept="wbJL_" id="70qPrkCy95v">
@@ -34430,7 +34446,7 @@
       </node>
     </node>
     <node concept="2CPvp3" id="6VW5G60I4vG" role="2CGBMS" />
-    <node concept="Xl_RD" id="1VxIuFUk694" role="3d0G2l">
+    <node concept="Xl_RD" id="2x95vWhmJcg" role="3d0G2l">
       <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
     </node>
   </node>

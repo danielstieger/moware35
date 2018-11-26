@@ -5061,13 +5061,6 @@
         <ref role="3uigEE" to="krmg:~DefaultTransactionDefinition" resolve="DefaultTransactionDefinition" />
       </node>
     </node>
-    <node concept="312cEg" id="4yyZK2MPlQ2" role="jymVt">
-      <property role="TrG5h" value="dataSource" />
-      <node concept="3Tm6S6" id="4yyZK2MPlQ3" role="1B3o_S" />
-      <node concept="3uibUv" id="4yyZK2MPlQ4" role="1tU5fm">
-        <ref role="3uigEE" to="iiye:~DataSource" resolve="DataSource" />
-      </node>
-    </node>
     <node concept="312cEg" id="4yyZK2MPlQe" role="jymVt">
       <property role="TrG5h" value="template" />
       <node concept="3Tm6S6" id="4yyZK2MPlQf" role="1B3o_S" />
@@ -5233,36 +5226,21 @@
         <node concept="3clFbF" id="2CaVrGB1Gdt" role="3cqZAp">
           <node concept="37vLTI" id="2CaVrGB1GQb" role="3clFbG">
             <node concept="37vLTw" id="2CaVrGB2hfw" role="37vLTx">
-              <ref role="3cqZAo" node="2CaVrGB1EFB" resolve="datasource" />
+              <ref role="3cqZAo" node="2CaVrGB1EFB" resolve="tmplt" />
             </node>
             <node concept="2OqwBi" id="2CaVrGB1GkJ" role="37vLTJ">
               <node concept="Xjq3P" id="2CaVrGB1Gdr" role="2Oq$k0" />
-              <node concept="2OwXpG" id="2CaVrGB1GHc" role="2OqNvi">
-                <ref role="2Oxat5" node="4yyZK2MPlQ2" resolve="dataSource" />
+              <node concept="2OwXpG" id="2x95vWgl4d9" role="2OqNvi">
+                <ref role="2Oxat5" node="4yyZK2MPlQe" resolve="template" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="2CaVrGB1_LA" role="3cqZAp">
-          <node concept="37vLTI" id="2CaVrGB1_LB" role="3clFbG">
-            <node concept="2ShNRf" id="2CaVrGB1_LC" role="37vLTx">
-              <node concept="1pGfFk" id="2CaVrGB1_LD" role="2ShVmc">
-                <ref role="37wK5l" to="mbv:~JdbcTemplate.&lt;init&gt;(javax.sql.DataSource)" resolve="JdbcTemplate" />
-                <node concept="37vLTw" id="2CaVrGB1_LE" role="37wK5m">
-                  <ref role="3cqZAo" node="4yyZK2MPlQ2" resolve="dataSource" />
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="2CaVrGB1_LF" role="37vLTJ">
-              <ref role="3cqZAo" node="4yyZK2MPlQe" resolve="template" />
             </node>
           </node>
         </node>
       </node>
       <node concept="37vLTG" id="2CaVrGB1EFB" role="3clF46">
-        <property role="TrG5h" value="datasource" />
-        <node concept="3uibUv" id="2CaVrGB1EFA" role="1tU5fm">
-          <ref role="3uigEE" to="iiye:~DataSource" resolve="DataSource" />
+        <property role="TrG5h" value="tmplt" />
+        <node concept="3uibUv" id="2x95vWgl41w" role="1tU5fm">
+          <ref role="3uigEE" to="mbv:~JdbcTemplate" resolve="JdbcTemplate" />
         </node>
       </node>
       <node concept="37vLTG" id="3$bhckDP52n" role="3clF46">
@@ -30993,15 +30971,6 @@
   <node concept="312cEu" id="3$bhckDx2Vv">
     <property role="TrG5h" value="DeprecatedServerDateProvider" />
     <node concept="3Tm1VV" id="3$bhckDx2Vw" role="1B3o_S" />
-    <node concept="Wx3nA" id="3$bhckDy$DO" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="TrG5h" value="dataSource" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3uibUv" id="3$bhckDx2Xz" role="1tU5fm">
-        <ref role="3uigEE" to="iiye:~DataSource" resolve="DataSource" />
-      </node>
-      <node concept="3Tm6S6" id="3$bhckDx2Xy" role="1B3o_S" />
-    </node>
     <node concept="Wx3nA" id="3$bhckDyzPP" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="TrG5h" value="jodaDateTimeTypeHandler" />
@@ -31054,16 +31023,6 @@
       <node concept="3cqZAl" id="3$bhckDx2Yh" role="3clF45" />
       <node concept="3Tm1VV" id="3$bhckDx2Yi" role="1B3o_S" />
       <node concept="3clFbS" id="3$bhckDx2Yj" role="3clF47">
-        <node concept="3clFbF" id="3$bhckDx2Yk" role="3cqZAp">
-          <node concept="37vLTI" id="3$bhckDx2Yl" role="3clFbG">
-            <node concept="37vLTw" id="3$bhckDx2Ym" role="37vLTx">
-              <ref role="3cqZAo" node="3$bhckDx2YI" resolve="d" />
-            </node>
-            <node concept="37vLTw" id="3$bhckDx2Yn" role="37vLTJ">
-              <ref role="3cqZAo" node="3$bhckDy$DO" resolve="dataSource" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="3$bhckDx2Yo" role="3cqZAp">
           <node concept="37vLTI" id="3$bhckDx2Yp" role="3clFbG">
             <node concept="37vLTw" id="3$bhckDx2Yq" role="37vLTx">
@@ -31096,24 +31055,19 @@
         </node>
         <node concept="3clFbF" id="3$bhckDx2YC" role="3cqZAp">
           <node concept="37vLTI" id="3$bhckDx2YD" role="3clFbG">
-            <node concept="2ShNRf" id="3$bhckDx2YE" role="37vLTx">
-              <node concept="1pGfFk" id="3$bhckDx2YF" role="2ShVmc">
-                <ref role="37wK5l" to="mbv:~JdbcTemplate.&lt;init&gt;(javax.sql.DataSource)" resolve="JdbcTemplate" />
-                <node concept="37vLTw" id="3$bhckDx2YG" role="37wK5m">
-                  <ref role="3cqZAo" node="3$bhckDy$DO" resolve="dataSource" />
-                </node>
-              </node>
-            </node>
             <node concept="37vLTw" id="3$bhckDx2YH" role="37vLTJ">
               <ref role="3cqZAo" node="3$bhckDyBT0" resolve="template" />
+            </node>
+            <node concept="37vLTw" id="2x95vWgl2lk" role="37vLTx">
+              <ref role="3cqZAo" node="3$bhckDx2YI" resolve="tplt" />
             </node>
           </node>
         </node>
       </node>
       <node concept="37vLTG" id="3$bhckDx2YI" role="3clF46">
-        <property role="TrG5h" value="d" />
-        <node concept="3uibUv" id="3$bhckDx2YJ" role="1tU5fm">
-          <ref role="3uigEE" to="iiye:~DataSource" resolve="DataSource" />
+        <property role="TrG5h" value="tplt" />
+        <node concept="3uibUv" id="2x95vWgl2iO" role="1tU5fm">
+          <ref role="3uigEE" to="mbv:~JdbcTemplate" resolve="JdbcTemplate" />
         </node>
       </node>
       <node concept="37vLTG" id="3$bhckDx2YK" role="3clF46">
@@ -31182,7 +31136,7 @@
         </node>
         <node concept="TUZQ0" id="3$bhckDyP0o" role="3nqlJM">
           <node concept="zr_55" id="3$bhckDyP0q" role="zr_5Q">
-            <ref role="zr_51" node="3$bhckDx2YI" resolve="d" />
+            <ref role="zr_51" node="3$bhckDx2YI" resolve="tplt" />
           </node>
         </node>
         <node concept="TUZQ0" id="3$bhckDyP0r" role="3nqlJM">
@@ -31534,14 +31488,6 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="1fGCQmfPnzv" role="3clF47">
-        <node concept="3clFbF" id="1fGCQmfPt6H" role="3cqZAp">
-          <node concept="37vLTI" id="1fGCQmfPt7z" role="3clFbG">
-            <node concept="10Nm6u" id="1fGCQmfPt80" role="37vLTx" />
-            <node concept="37vLTw" id="1fGCQmfPt6G" role="37vLTJ">
-              <ref role="3cqZAo" node="3$bhckDy$DO" resolve="dataSource" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="1fGCQmfPt8P" role="3cqZAp">
           <node concept="37vLTI" id="1fGCQmfPta7" role="3clFbG">
             <node concept="10Nm6u" id="1fGCQmfPtb1" role="37vLTx" />
