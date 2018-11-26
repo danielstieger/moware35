@@ -1416,7 +1416,7 @@
     </node>
     <node concept="1TJgyj" id="1Rx6rUSsRmJ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="repoFields" />
+      <property role="20kJfa" value="customSqlRepoFields" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="r5tz:1Rx6rUSp3_E" resolve="IRepositoryField" />
     </node>
