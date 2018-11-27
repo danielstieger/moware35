@@ -21345,6 +21345,99 @@
               </node>
               <node concept="3clFbH" id="5ztwEZdutwI" role="3cqZAp" />
             </node>
+            <node concept="TDmWw" id="26OSHcy4OL_" role="TEbGg">
+              <node concept="3cpWsn" id="26OSHcy4OLA" role="TDEfY">
+                <property role="TrG5h" value="ex" />
+                <node concept="3uibUv" id="26OSHcy4QWj" role="1tU5fm">
+                  <ref role="3uigEE" to="wyt6:~IllegalStateException" resolve="IllegalStateException" />
+                </node>
+              </node>
+              <node concept="3clFbS" id="26OSHcy4OLC" role="TDEfX">
+                <node concept="3SKdUt" id="26OSHcy4Rnl" role="3cqZAp">
+                  <node concept="3SKdUq" id="26OSHcy4Rnm" role="3SKWNk">
+                    <property role="3SKdUp" value="mapper R/O ex..." />
+                  </node>
+                </node>
+                <node concept="3clFbF" id="26OSHcy4RBa" role="3cqZAp">
+                  <node concept="2OqwBi" id="26OSHcy4RBb" role="3clFbG">
+                    <node concept="2YIFZM" id="26OSHcy4RBc" role="2Oq$k0">
+                      <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                      <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                      <node concept="3VsKOn" id="26OSHcy4RBd" role="37wK5m">
+                        <ref role="3VsUkX" node="3NdPOdO$o4u" resolve="weave_QueryFromSqlSelect" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="26OSHcy4RBe" role="2OqNvi">
+                      <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object):void" resolve="error" />
+                      <node concept="3cpWs3" id="26OSHcy4RBf" role="37wK5m">
+                        <node concept="2OqwBi" id="26OSHcy4RBg" role="3uHU7w">
+                          <node concept="37vLTw" id="26OSHcy4RBh" role="2Oq$k0">
+                            <ref role="3cqZAo" node="1PjbACk8XMw" resolve="debugSb" />
+                          </node>
+                          <node concept="liA8E" id="26OSHcy4RBi" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~StringBuilder.toString():java.lang.String" resolve="toString" />
+                          </node>
+                        </node>
+                        <node concept="3cpWs3" id="26OSHcy4RBj" role="3uHU7B">
+                          <node concept="3cpWs3" id="26OSHcy4RBk" role="3uHU7B">
+                            <node concept="Xl_RD" id="26OSHcy4RBl" role="3uHU7B">
+                              <property role="Xl_RC" value="MapSELECT() in XXX led to an exception: " />
+                              <node concept="17Uvod" id="26OSHcy4RBm" role="lGtFl">
+                                <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
+                                <property role="2qtEX9" value="value" />
+                                <node concept="3zFVjK" id="26OSHcy4RBn" role="3zH0cK">
+                                  <node concept="3clFbS" id="26OSHcy4RBo" role="2VODD2">
+                                    <node concept="3clFbF" id="26OSHcy4RBp" role="3cqZAp">
+                                      <node concept="3cpWs3" id="26OSHcy4RBq" role="3clFbG">
+                                        <node concept="Xl_RD" id="26OSHcy4RBr" role="3uHU7w">
+                                          <property role="Xl_RC" value="() led to an exception: " />
+                                        </node>
+                                        <node concept="3cpWs3" id="26OSHcy4RBs" role="3uHU7B">
+                                          <node concept="Xl_RD" id="26OSHcy4RBt" role="3uHU7B">
+                                            <property role="Xl_RC" value="MapSELECT in " />
+                                          </node>
+                                          <node concept="2OqwBi" id="26OSHcy4RBu" role="3uHU7w">
+                                            <node concept="2OqwBi" id="26OSHcy4RBv" role="2Oq$k0">
+                                              <node concept="30H73N" id="26OSHcy4RBw" role="2Oq$k0" />
+                                              <node concept="2Xjw5R" id="26OSHcy4RBx" role="2OqNvi">
+                                                <node concept="1xMEDy" id="26OSHcy4RBy" role="1xVPHs">
+                                                  <node concept="chp4Y" id="26OSHcy4RBz" role="ri$Ld">
+                                                    <ref role="cht4Q" to="tpee:6LFqxSRBTg8" resolve="MethodDeclaration" />
+                                                  </node>
+                                                </node>
+                                              </node>
+                                            </node>
+                                            <node concept="3TrcHB" id="26OSHcy4RB$" role="2OqNvi">
+                                              <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="26OSHcy4RB_" role="3uHU7w">
+                              <ref role="3cqZAo" node="7opW4z66C8k" resolve="sqlStatement" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="26OSHcy4RBA" role="3uHU7w">
+                            <property role="Xl_RC" value="\n" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="YS8fn" id="26OSHcy4RBB" role="3cqZAp">
+                  <node concept="37vLTw" id="26OSHcy4S6U" role="YScLw">
+                    <ref role="3cqZAo" node="26OSHcy4OLA" resolve="ex" />
+                  </node>
+                </node>
+                <node concept="3clFbH" id="26OSHcy4RsZ" role="3cqZAp" />
+              </node>
+            </node>
             <node concept="TDmWw" id="5ztwEZdutwK" role="TEbGg">
               <node concept="3cpWsn" id="5ztwEZdutwM" role="TDEfY">
                 <property role="TrG5h" value="e" />
