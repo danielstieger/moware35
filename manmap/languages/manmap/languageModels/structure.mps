@@ -1072,7 +1072,7 @@
     <property role="1pbfSe" value="1570532237" />
     <property role="3GE5qa" value="customsql.nokey" />
     <property role="TrG5h" value="NoKeyMapperField" />
-    <property role="34LRSv" value="nokey map" />
+    <property role="34LRSv" value="nokey/read-only map" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="FplMliKLYv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
