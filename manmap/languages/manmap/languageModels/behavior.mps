@@ -2876,6 +2876,196 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="26OSHcxehjP" role="13h7CS">
+      <property role="TrG5h" value="getEmbeddedMappingKeyType_InNoKeyMappingSituation" />
+      <node concept="3Tm1VV" id="26OSHcxehjQ" role="1B3o_S" />
+      <node concept="3Tqbb2" id="26OSHcxehYE" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+      <node concept="3clFbS" id="26OSHcxehjS" role="3clF47">
+        <node concept="3SKdUt" id="26OSHcx0KfS" role="3cqZAp">
+          <node concept="3SKdUq" id="26OSHcx0KfT" role="3SKWNk">
+            <property role="3SKdUp" value="analogous to Embedded mapping!  -- include mapping used ???" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="26OSHcxej1k" role="3cqZAp">
+          <node concept="3cpWsn" id="26OSHcxej1n" role="3cpWs9">
+            <property role="TrG5h" value="keyMapping" />
+            <node concept="3Tqbb2" id="26OSHcxej1i" role="1tU5fm">
+              <ref role="ehGHo" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+            </node>
+            <node concept="10Nm6u" id="26OSHcxejeQ" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="26OSHcx0KfU" role="3cqZAp">
+          <node concept="3clFbS" id="26OSHcx0KfV" role="3clFbx">
+            <node concept="3clFbF" id="26OSHcxejoc" role="3cqZAp">
+              <node concept="37vLTI" id="26OSHcxejtD" role="3clFbG">
+                <node concept="37vLTw" id="26OSHcxejoa" role="37vLTJ">
+                  <ref role="3cqZAo" node="26OSHcxej1n" resolve="keyMapping" />
+                </node>
+                <node concept="2OqwBi" id="26OSHcx0KfX" role="37vLTx">
+                  <node concept="1PxgMI" id="26OSHcx0KfY" role="2Oq$k0">
+                    <ref role="1PxNhF" to="r5tz:Kou8LemxjX" resolve="IncludeMapping" />
+                    <node concept="2OqwBi" id="26OSHcx0KfZ" role="1PxMeX">
+                      <node concept="2OqwBi" id="26OSHcx0Kg0" role="2Oq$k0">
+                        <node concept="13iPFW" id="26OSHcx0Kg1" role="2Oq$k0" />
+                        <node concept="3Tsc0h" id="26OSHcx0L6S" role="2OqNvi">
+                          <ref role="3TtcxE" to="r5tz:Kou8LehQES" />
+                        </node>
+                      </node>
+                      <node concept="1uHKPH" id="26OSHcx0Kg3" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="26OSHcx0Kg4" role="2OqNvi">
+                    <ref role="37wK5l" node="17uSheOyHSF" resolve="getKey" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="26OSHcxek0g" role="3cqZAp" />
+          </node>
+          <node concept="1Wc70l" id="26OSHcx0Kg5" role="3clFbw">
+            <node concept="2OqwBi" id="26OSHcx0Kg6" role="3uHU7B">
+              <node concept="2OqwBi" id="26OSHcx0Kg7" role="2Oq$k0">
+                <node concept="2OqwBi" id="26OSHcx0Kg8" role="2Oq$k0">
+                  <node concept="13iPFW" id="26OSHcx0Kg9" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="26OSHcx0KXn" role="2OqNvi">
+                    <ref role="3TtcxE" to="r5tz:Kou8LehQES" />
+                  </node>
+                </node>
+                <node concept="1uHKPH" id="26OSHcx0Kgb" role="2OqNvi" />
+              </node>
+              <node concept="1mIQ4w" id="26OSHcx0Kgc" role="2OqNvi">
+                <node concept="chp4Y" id="26OSHcx0Kgd" role="cj9EA">
+                  <ref role="cht4Q" to="r5tz:Kou8LemxjX" resolve="IncludeMapping" />
+                </node>
+              </node>
+            </node>
+            <node concept="3y3z36" id="26OSHcx0Kge" role="3uHU7w">
+              <node concept="10Nm6u" id="26OSHcx0Kgf" role="3uHU7w" />
+              <node concept="2OqwBi" id="26OSHcx0Kgg" role="3uHU7B">
+                <node concept="1PxgMI" id="26OSHcx0Kgh" role="2Oq$k0">
+                  <ref role="1PxNhF" to="r5tz:Kou8LemxjX" resolve="IncludeMapping" />
+                  <node concept="2OqwBi" id="26OSHcx0Kgi" role="1PxMeX">
+                    <node concept="2OqwBi" id="26OSHcx0Kgj" role="2Oq$k0">
+                      <node concept="13iPFW" id="26OSHcx0Kgk" role="2Oq$k0" />
+                      <node concept="3Tsc0h" id="26OSHcx0LdO" role="2OqNvi">
+                        <ref role="3TtcxE" to="r5tz:Kou8LehQES" />
+                      </node>
+                    </node>
+                    <node concept="1uHKPH" id="26OSHcx0Kgm" role="2OqNvi" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="26OSHcx0Kgn" role="2OqNvi">
+                  <ref role="37wK5l" node="17uSheOyHSF" resolve="getKey" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="9aQIb" id="26OSHcxejzT" role="9aQIa">
+            <node concept="3clFbS" id="26OSHcxejzU" role="9aQI4">
+              <node concept="3SKdUt" id="26OSHcx0Kgp" role="3cqZAp">
+                <node concept="3SKdUq" id="26OSHcx0Kgq" role="3SKWNk">
+                  <property role="3SKdUp" value="ok, other way round" />
+                </node>
+              </node>
+              <node concept="3clFbF" id="26OSHcxejHQ" role="3cqZAp">
+                <node concept="37vLTI" id="26OSHcxejJ2" role="3clFbG">
+                  <node concept="37vLTw" id="26OSHcxejHP" role="37vLTJ">
+                    <ref role="3cqZAo" node="26OSHcxej1n" resolve="keyMapping" />
+                  </node>
+                  <node concept="1PxgMI" id="26OSHcx0Kgs" role="37vLTx">
+                    <ref role="1PxNhF" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+                    <node concept="2OqwBi" id="26OSHcx0Kgt" role="1PxMeX">
+                      <node concept="2OqwBi" id="26OSHcx0Kgu" role="2Oq$k0">
+                        <node concept="13iPFW" id="26OSHcx0Kgv" role="2Oq$k0" />
+                        <node concept="3Tsc0h" id="26OSHcx0Llv" role="2OqNvi">
+                          <ref role="3TtcxE" to="r5tz:Kou8LehQES" />
+                        </node>
+                      </node>
+                      <node concept="1z4cxt" id="26OSHcx0Kgx" role="2OqNvi">
+                        <node concept="1bVj0M" id="26OSHcx0Kgy" role="23t8la">
+                          <node concept="3clFbS" id="26OSHcx0Kgz" role="1bW5cS">
+                            <node concept="3clFbF" id="26OSHcx0Kg$" role="3cqZAp">
+                              <node concept="1Wc70l" id="26OSHcx0Kg_" role="3clFbG">
+                                <node concept="2OqwBi" id="26OSHcx0KgA" role="3uHU7w">
+                                  <node concept="1PxgMI" id="26OSHcx0KgB" role="2Oq$k0">
+                                    <ref role="1PxNhF" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+                                    <node concept="37vLTw" id="26OSHcx0KgC" role="1PxMeX">
+                                      <ref role="3cqZAo" node="26OSHcx0KgI" resolve="it" />
+                                    </node>
+                                  </node>
+                                  <node concept="2qgKlT" id="26OSHcx0KgD" role="2OqNvi">
+                                    <ref role="37wK5l" node="3JsUq_Sf9lm" resolve="isKeyMapping" />
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="26OSHcx0KgE" role="3uHU7B">
+                                  <node concept="37vLTw" id="26OSHcx0KgF" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="26OSHcx0KgI" resolve="it" />
+                                  </node>
+                                  <node concept="1mIQ4w" id="26OSHcx0KgG" role="2OqNvi">
+                                    <node concept="chp4Y" id="26OSHcx0KgH" role="cj9EA">
+                                      <ref role="cht4Q" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Rh6nW" id="26OSHcx0KgI" role="1bW2Oz">
+                            <property role="TrG5h" value="it" />
+                            <node concept="2jxLKc" id="26OSHcx0KgJ" role="1tU5fm" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="26OSHcxeiAE" role="3cqZAp" />
+        <node concept="3clFbJ" id="26OSHcxekV3" role="3cqZAp">
+          <node concept="3clFbS" id="26OSHcxekV5" role="3clFbx">
+            <node concept="3cpWs6" id="26OSHcxelNA" role="3cqZAp">
+              <node concept="2OqwBi" id="26OSHcx7xAS" role="3cqZAk">
+                <node concept="2qgKlT" id="26OSHcx7xAT" role="2OqNvi">
+                  <ref role="37wK5l" node="1HOHq98JxYQ" resolve="getIntegerForIntType" />
+                  <node concept="2OqwBi" id="26OSHcx7xAU" role="37wK5m">
+                    <node concept="37vLTw" id="26OSHcxem34" role="2Oq$k0">
+                      <ref role="3cqZAo" node="26OSHcxej1n" resolve="keyMapping" />
+                    </node>
+                    <node concept="2qgKlT" id="26OSHcx7xAY" role="2OqNvi">
+                      <ref role="37wK5l" node="3JsUq_Sf9k9" resolve="getKeyType" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3TUQnm" id="26OSHcx7xAZ" role="2Oq$k0">
+                  <ref role="3TV0OU" to="r5tz:3JsUq_Sf9jY" resolve="IKeyMapping" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="26OSHcxelar" role="3clFbw">
+            <node concept="37vLTw" id="26OSHcxel6j" role="2Oq$k0">
+              <ref role="3cqZAo" node="26OSHcxej1n" resolve="keyMapping" />
+            </node>
+            <node concept="3x8VRR" id="26OSHcxeljZ" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="26OSHcxemVe" role="3cqZAp" />
+        <node concept="3SKdUt" id="26OSHcxenhB" role="3cqZAp">
+          <node concept="3SKdUq" id="26OSHcxenhD" role="3SKWNk">
+            <property role="3SKdUp" value="Might be a mappend value object or a ViewObject (no key option present)" />
+          </node>
+        </node>
+        <node concept="3cpWs6" id="26OSHcxelkx" role="3cqZAp">
+          <node concept="10Nm6u" id="26OSHcxelvP" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="7kypvuI$PFh" role="13h7CS">
       <property role="TrG5h" value="getSetterMethod" />
       <node concept="3Tm1VV" id="7kypvuI$PFi" role="1B3o_S" />

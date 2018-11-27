@@ -158,6 +158,9 @@
       </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
+      <concept id="1207055528241" name="jetbrains.mps.lang.typesystem.structure.WarningStatement" flags="nn" index="a7r0C">
+        <child id="1207055552304" name="warningText" index="a7wSD" />
+      </concept>
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
       </concept>
@@ -3264,6 +3267,61 @@
     <node concept="1YaCAy" id="26OSHcufMbF" role="1YuTPh">
       <property role="TrG5h" value="embeddedMapping" />
       <ref role="1YaFvo" to="r5tz:Kou8LehQEQ" resolve="EmbeddedMapping" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="26OSHcxusIo">
+    <property role="TrG5h" value="check_ReferenceMapping" />
+    <property role="3GE5qa" value="mapping" />
+    <node concept="3clFbS" id="26OSHcxusIp" role="18ibNy">
+      <node concept="3clFbJ" id="26OSHcxuwHw" role="3cqZAp">
+        <node concept="3clFbS" id="26OSHcxuwHy" role="3clFbx">
+          <node concept="a7r0C" id="26OSHcxusWA" role="3cqZAp">
+            <node concept="Xl_RD" id="26OSHcxusWS" role="a7wSD">
+              <property role="Xl_RC" value="Mapping a reference with a property not marked as as 'key property' is very strange. What is your plan?" />
+            </node>
+            <node concept="1YBJjd" id="26OSHcxusYe" role="2OEOjV">
+              <ref role="1YBMHb" node="26OSHcxusIr" resolve="referenceMapping" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="26OSHcxuBu7" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="26OSHcxuxoX" role="3clFbw">
+          <node concept="2OqwBi" id="26OSHcxuwKB" role="2Oq$k0">
+            <node concept="1YBJjd" id="26OSHcxuwIe" role="2Oq$k0">
+              <ref role="1YBMHb" node="26OSHcxusIr" resolve="referenceMapping" />
+            </node>
+            <node concept="2qgKlT" id="26OSHcxuwP$" role="2OqNvi">
+              <ref role="37wK5l" to="lfe3:1H_ywRYtZCm" resolve="getFieldMappings" />
+            </node>
+          </node>
+          <node concept="2HwmR7" id="26OSHcxuyrO" role="2OqNvi">
+            <node concept="1bVj0M" id="26OSHcxuyrQ" role="23t8la">
+              <node concept="3clFbS" id="26OSHcxuyrR" role="1bW5cS">
+                <node concept="3clFbF" id="26OSHcxuyvu" role="3cqZAp">
+                  <node concept="3fqX7Q" id="26OSHcxuyMx" role="3clFbG">
+                    <node concept="2OqwBi" id="26OSHcxuyMz" role="3fr31v">
+                      <node concept="37vLTw" id="26OSHcxuyM$" role="2Oq$k0">
+                        <ref role="3cqZAo" node="26OSHcxuyrS" resolve="it" />
+                      </node>
+                      <node concept="2qgKlT" id="26OSHcxuyM_" role="2OqNvi">
+                        <ref role="37wK5l" to="lfe3:17uSheOyv7O" resolve="isKey" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="26OSHcxuyrS" role="1bW2Oz">
+                <property role="TrG5h" value="it" />
+                <node concept="2jxLKc" id="26OSHcxuyrT" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="26OSHcxusIr" role="1YuTPh">
+      <property role="TrG5h" value="referenceMapping" />
+      <ref role="1YaFvo" to="r5tz:7kypvuIzY7I" resolve="ReferenceMapping" />
     </node>
   </node>
 </model>
