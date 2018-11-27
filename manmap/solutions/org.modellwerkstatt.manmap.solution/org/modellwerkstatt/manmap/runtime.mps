@@ -8043,5 +8043,66 @@
       <node concept="10P_77" id="1VxIuFTB$4h" role="3clF45" />
     </node>
   </node>
+  <node concept="312cEu" id="26OSHcwmjSw">
+    <property role="TrG5h" value="MMSessionAwareRowMapper" />
+    <property role="1sVAO0" value="true" />
+    <node concept="312cEg" id="26OSHcwmjUh" role="jymVt">
+      <property role="TrG5h" value="__manMapSession" />
+      <node concept="3Tm6S6" id="26OSHcwmjUi" role="1B3o_S" />
+      <node concept="3uibUv" id="26OSHcwmjUA" role="1tU5fm">
+        <ref role="3uigEE" node="2P7gGuyliuf" resolve="IM3Session" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="26OSHcwml1_" role="jymVt" />
+    <node concept="3clFb_" id="26OSHcwml2N" role="jymVt">
+      <property role="TrG5h" value="setManMapSession" />
+      <node concept="37vLTG" id="26OSHcwml3n" role="3clF46">
+        <property role="TrG5h" value="session" />
+        <node concept="3uibUv" id="26OSHcwml3B" role="1tU5fm">
+          <ref role="3uigEE" node="2P7gGuyliuf" resolve="IM3Session" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="26OSHcwml2P" role="3clF45" />
+      <node concept="3Tm1VV" id="26OSHcwml2Q" role="1B3o_S" />
+      <node concept="3clFbS" id="26OSHcwml2R" role="3clF47">
+        <node concept="3clFbF" id="26OSHcwml4g" role="3cqZAp">
+          <node concept="37vLTI" id="26OSHcwml5c" role="3clFbG">
+            <node concept="37vLTw" id="26OSHcwml62" role="37vLTx">
+              <ref role="3cqZAo" node="26OSHcwml3n" resolve="session" />
+            </node>
+            <node concept="37vLTw" id="26OSHcwml4f" role="37vLTJ">
+              <ref role="3cqZAo" node="26OSHcwmjUh" resolve="__manMapSession" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="26OSHcwml6y" role="jymVt">
+      <property role="TrG5h" value="clearSession" />
+      <node concept="3cqZAl" id="26OSHcwml6_" role="3clF45" />
+      <node concept="3Tm1VV" id="26OSHcwml6A" role="1B3o_S" />
+      <node concept="3clFbS" id="26OSHcwml6B" role="3clF47">
+        <node concept="3clFbF" id="26OSHcwml6C" role="3cqZAp">
+          <node concept="37vLTI" id="26OSHcwml6D" role="3clFbG">
+            <node concept="10Nm6u" id="26OSHcwmlbi" role="37vLTx" />
+            <node concept="37vLTw" id="26OSHcwml6F" role="37vLTJ">
+              <ref role="3cqZAo" node="26OSHcwmjUh" resolve="__manMapSession" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="26OSHcwml26" role="jymVt" />
+    <node concept="3Tm1VV" id="26OSHcwmjSx" role="1B3o_S" />
+    <node concept="3uibUv" id="26OSHcwmjSZ" role="EKbjA">
+      <ref role="3uigEE" to="mbv:~RowMapper" resolve="RowMapper" />
+      <node concept="16syzq" id="26OSHcwmjTt" role="11_B2D">
+        <ref role="16sUi3" node="26OSHcwmjTb" resolve="T" />
+      </node>
+    </node>
+    <node concept="16euLQ" id="26OSHcwmjTb" role="16eVyc">
+      <property role="TrG5h" value="T" />
+    </node>
+  </node>
 </model>
 
