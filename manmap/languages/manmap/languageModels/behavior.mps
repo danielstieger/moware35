@@ -2854,6 +2854,28 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="26OSHcufagn" role="13h7CS">
+      <property role="TrG5h" value="mappedInNoKeyMapping" />
+      <node concept="3Tm1VV" id="26OSHcufago" role="1B3o_S" />
+      <node concept="10P_77" id="26OSHcufaG2" role="3clF45" />
+      <node concept="3clFbS" id="26OSHcufagq" role="3clF47">
+        <node concept="3clFbF" id="26OSHcufaG6" role="3cqZAp">
+          <node concept="2OqwBi" id="26OSHcufaTz" role="3clFbG">
+            <node concept="2OqwBi" id="26OSHcufaIW" role="2Oq$k0">
+              <node concept="13iPFW" id="26OSHcufaG5" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="26OSHcufaOy" role="2OqNvi">
+                <node concept="1xMEDy" id="26OSHcufaO$" role="1xVPHs">
+                  <node concept="chp4Y" id="26OSHcufaPc" role="ri$Ld">
+                    <ref role="cht4Q" to="r5tz:FplMliKLhC" resolve="NoKeyMapperField" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="26OSHcufb5e" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="7kypvuI$PFh" role="13h7CS">
       <property role="TrG5h" value="getSetterMethod" />
       <node concept="3Tm1VV" id="7kypvuI$PFi" role="1B3o_S" />
@@ -2976,6 +2998,11 @@
         <node concept="3clFbH" id="oQnBwWG2Va" role="3cqZAp" />
         <node concept="3clFbJ" id="oQnBwWG37G" role="3cqZAp">
           <node concept="3clFbS" id="oQnBwWG37H" role="3clFbx">
+            <node concept="3SKdUt" id="26OSHcueAK7" role="3cqZAp">
+              <node concept="3SKdUq" id="26OSHcueAK9" role="3SKWNk">
+                <property role="3SKdUp" value="in case of value object key" />
+              </node>
+            </node>
             <node concept="3clFbJ" id="oQnBwWGcNb" role="3cqZAp">
               <node concept="3clFbS" id="oQnBwWGcNe" role="3clFbx">
                 <node concept="3cpWs6" id="oQnBwWGdy2" role="3cqZAp">
@@ -3039,6 +3066,12 @@
           </node>
         </node>
         <node concept="3clFbH" id="2PHQwuPZffH" role="3cqZAp" />
+        <node concept="3clFbH" id="26OSHcuf9Pm" role="3cqZAp" />
+        <node concept="3SKdUt" id="26OSHcufa8I" role="3cqZAp">
+          <node concept="3SKdUq" id="26OSHcufa8K" role="3SKWNk">
+            <property role="3SKdUp" value="TODO? Why this?" />
+          </node>
+        </node>
         <node concept="3clFbF" id="3JsUq_Sf9mZ" role="3cqZAp">
           <node concept="2OqwBi" id="3JsUq_Sf9ne" role="3clFbG">
             <node concept="2OqwBi" id="3JsUq_Sf9n3" role="2Oq$k0">

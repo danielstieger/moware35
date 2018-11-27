@@ -4642,7 +4642,7 @@
             <node concept="mw_s8" id="4L9Yar2UdUl" role="1ZfhKB">
               <node concept="2c44tf" id="4L9Yar2UdUm" role="mwGJk">
                 <node concept="3uibUv" id="4L9Yar2UdUn" role="2c44tc">
-                  <ref role="3uigEE" to="w7gk:2P7gGuyliuf" resolve="IM3ManMapSession" />
+                  <ref role="3uigEE" to="w7gk:2P7gGuyliuf" resolve="IM3Session" />
                 </node>
               </node>
             </node>
@@ -6711,7 +6711,7 @@
             <node concept="3clFbS" id="IlacaDzYX5" role="3clFbx">
               <node concept="2MkqsV" id="IlacaD$5o0" role="3cqZAp">
                 <node concept="Xl_RD" id="IlacaD$5of" role="2MkJ7o">
-                  <property role="Xl_RC" value="key, opposite or containment options can not be used in conjunction within view or value objects." />
+                  <property role="Xl_RC" value="key, opposite or containment options can not be used within 'view objects' or 'value objects'." />
                 </node>
                 <node concept="1YBJjd" id="IlacaD$5r9" role="2OEOjV">
                   <ref role="1YBMHb" node="34EwMoQBtwi" resolve="businessProperty" />
