@@ -9039,6 +9039,61 @@
             <node concept="3clFbH" id="4EGFN2$Ome$" role="3cqZAp" />
           </node>
         </node>
+        <node concept="3eNFk2" id="26OSHcuVAoo" role="3eNLev">
+          <node concept="3eOSWO" id="26OSHcuVHBI" role="3eO9$A">
+            <node concept="3cmrfG" id="26OSHcuVHBL" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="26OSHcuVD0N" role="3uHU7B">
+              <node concept="2OqwBi" id="26OSHcuVAKq" role="2Oq$k0">
+                <node concept="1YBJjd" id="26OSHcuVAzf" role="2Oq$k0">
+                  <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+                </node>
+                <node concept="2Rf3mk" id="26OSHcuVCoF" role="2OqNvi">
+                  <node concept="1xMEDy" id="26OSHcuVCoH" role="1xVPHs">
+                    <node concept="chp4Y" id="26OSHcuVCsP" role="ri$Ld">
+                      <ref role="cht4Q" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="34oBXx" id="26OSHcuVGt4" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="26OSHcuVAoq" role="3eOfB_">
+            <node concept="3clFbJ" id="26OSHcuVLQ8" role="3cqZAp">
+              <node concept="3clFbS" id="26OSHcuVLQa" role="3clFbx">
+                <node concept="2MkqsV" id="26OSHcuVHR8" role="3cqZAp">
+                  <node concept="Xl_RD" id="26OSHcuVHRk" role="2MkJ7o">
+                    <property role="Xl_RC" value="Query from sql (MapSelect) should not be used to checkout any objects or be interweaved with checkout operations. Marks this method as ReadOnly." />
+                  </node>
+                  <node concept="1YBJjd" id="26OSHcuVLVD" role="2OEOjV">
+                    <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="26OSHcuVLRR" role="3clFbw">
+                <node concept="1eOMI4" id="26OSHcuVLRT" role="3fr31v">
+                  <node concept="2OqwBi" id="26OSHcuVKob" role="1eOMHV">
+                    <node concept="2OqwBi" id="26OSHcuVI$E" role="2Oq$k0">
+                      <node concept="1YBJjd" id="26OSHcuVIj0" role="2Oq$k0">
+                        <ref role="1YBMHb" node="RffU3zdLq7" resolve="modelRepositoryMethod" />
+                      </node>
+                      <node concept="3TrcHB" id="26OSHcuVJJH" role="2OqNvi">
+                        <ref role="3TsBF5" to="un0u:6W_Qo9f2MnL" resolve="methodType" />
+                      </node>
+                    </node>
+                    <node concept="3t7uKx" id="26OSHcuVKGC" role="2OqNvi">
+                      <node concept="uoxfO" id="26OSHcuVKGE" role="3t7uKA">
+                        <ref role="uo_Cq" to="un0u:6RQ_77qtOVE" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3clFbH" id="RffU3ze7Wm" role="3cqZAp" />
       <node concept="3clFbH" id="RffU3ze7Xr" role="3cqZAp" />
