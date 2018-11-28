@@ -29,6 +29,7 @@
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="13744753-c81f-424a-9c1b-cf8943bf4e86" name="jetbrains.mps.lang.sharedConcepts">
@@ -70,6 +71,9 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
+      <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
+        <child id="1070534760952" name="componentType" index="10Q1$1" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -77,6 +81,7 @@
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="1225271369338" name="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" flags="nn" index="17RlXB" />
       <concept id="1225271408483" name="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" flags="nn" index="17RvpY" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
@@ -5444,6 +5449,391 @@
             <node concept="X8dFx" id="FplMlj2Bqz" role="2OqNvi">
               <node concept="37vLTw" id="FplMlj2Bq$" role="25WWJ7">
                 <ref role="3cqZAo" node="FplMlj2Bqp" resolve="iam" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1ZjRqWr0vqi">
+    <property role="TrG5h" value="AutoCompleteNoKeyMapping" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="r5tz:6TB1IkohjIs" resolve="SqlString" />
+    <node concept="2S6ZIM" id="1ZjRqWr0vqj" role="2ZfVej">
+      <node concept="3clFbS" id="1ZjRqWr0vqk" role="2VODD2">
+        <node concept="3clFbF" id="1ZjRqWr0v_P" role="3cqZAp">
+          <node concept="Xl_RD" id="1ZjRqWr0v_O" role="3clFbG">
+            <property role="Xl_RC" value="Create ViewObject and NoKeyMapping for SQL-Query" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1ZjRqWr0vql" role="2ZfgGD">
+      <node concept="3clFbS" id="1ZjRqWr0vqm" role="2VODD2">
+        <node concept="3cpWs8" id="1ZjRqWr0zmD" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWr0zmG" role="3cpWs9">
+            <property role="TrG5h" value="sqlStatement" />
+            <node concept="17QB3L" id="1ZjRqWr0zmB" role="1tU5fm" />
+            <node concept="2OqwBi" id="1ZjRqWr0zwc" role="33vP2m">
+              <node concept="2Sf5sV" id="1ZjRqWr0ztG" role="2Oq$k0" />
+              <node concept="2qgKlT" id="1ZjRqWr0z_M" role="2OqNvi">
+                <ref role="37wK5l" to="lfe3:6TB1IkoDjkO" resolve="printSql" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1ZjRqWr0zA6" role="3cqZAp" />
+        <node concept="3cpWs8" id="1ZjRqWr0zHx" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWr0zH$" role="3cpWs9">
+            <property role="TrG5h" value="voName" />
+            <node concept="17QB3L" id="1ZjRqWr0zHv" role="1tU5fm" />
+            <node concept="2YIFZM" id="1ZjRqWr0zRo" role="33vP2m">
+              <ref role="37wK5l" to="3ojc:1ZjRqWqWMnq" resolve="isoltateViewObjectName" />
+              <ref role="1Pybhc" to="3ojc:1ZjRqWqWJWE" resolve="CreateDefaultNoKeyMappingForManMap" />
+              <node concept="37vLTw" id="1ZjRqWr0zTP" role="37wK5m">
+                <ref role="3cqZAo" node="1ZjRqWr0zmG" resolve="sqlStatement" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1ZjRqWr0$9l" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWr0$9m" role="3cpWs9">
+            <property role="TrG5h" value="fields" />
+            <node concept="10Q1$e" id="1ZjRqWr0$d_" role="1tU5fm">
+              <node concept="17QB3L" id="1ZjRqWr0$9n" role="10Q1$1" />
+            </node>
+            <node concept="2YIFZM" id="1ZjRqWr0$y5" role="33vP2m">
+              <ref role="37wK5l" to="3ojc:1ZjRqWqWLu5" resolve="isoltateFields" />
+              <ref role="1Pybhc" to="3ojc:1ZjRqWqWJWE" resolve="CreateDefaultNoKeyMappingForManMap" />
+              <node concept="37vLTw" id="1ZjRqWr0$y6" role="37wK5m">
+                <ref role="3cqZAo" node="1ZjRqWr0zmG" resolve="sqlStatement" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="1ZjRqWr0zXZ" role="3cqZAp">
+          <node concept="3clFbS" id="1ZjRqWr0zY1" role="3clFbx">
+            <node concept="3clFbF" id="1ZjRqWr0$Wc" role="3cqZAp">
+              <node concept="2OqwBi" id="1ZjRqWr0$W9" role="3clFbG">
+                <node concept="10M0yZ" id="1ZjRqWr0$Wa" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="1ZjRqWr0$Wb" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="1ZjRqWr0AiF" role="37wK5m">
+                    <node concept="Xl_RD" id="1ZjRqWr0AiL" role="3uHU7w">
+                      <property role="Xl_RC" value=").\n\n" />
+                    </node>
+                    <node concept="3cpWs3" id="1ZjRqWr0A97" role="3uHU7B">
+                      <node concept="3cpWs3" id="1ZjRqWr0_Qd" role="3uHU7B">
+                        <node concept="3cpWs3" id="1ZjRqWr0_Kz" role="3uHU7B">
+                          <node concept="Xl_RD" id="1ZjRqWr0$WD" role="3uHU7B">
+                            <property role="Xl_RC" value="\n\nCAN NOT RUN AUTOCOMPLETE NOKEYMAPPING: sql string not correct, can not isolate ViewObject's name (" />
+                          </node>
+                          <node concept="37vLTw" id="1ZjRqWr0_Nc" role="3uHU7w">
+                            <ref role="3cqZAo" node="1ZjRqWr0zH$" resolve="voName" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="1ZjRqWr0_UO" role="3uHU7w">
+                          <property role="Xl_RC" value=") or fields (" />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="1ZjRqWr0Afk" role="3uHU7w">
+                        <ref role="3cqZAo" node="1ZjRqWr0$9m" resolve="fields" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="22lmx$" id="1ZjRqWr0$GV" role="3clFbw">
+            <node concept="3clFbC" id="1ZjRqWr0$Od" role="3uHU7w">
+              <node concept="10Nm6u" id="1ZjRqWr0$Pb" role="3uHU7w" />
+              <node concept="37vLTw" id="1ZjRqWr0$KK" role="3uHU7B">
+                <ref role="3cqZAo" node="1ZjRqWr0$9m" resolve="fields" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="1ZjRqWr0$TQ" role="3uHU7B">
+              <node concept="10Nm6u" id="1ZjRqWr0$Uz" role="3uHU7w" />
+              <node concept="37vLTw" id="1ZjRqWr0$_A" role="3uHU7B">
+                <ref role="3cqZAo" node="1ZjRqWr0zH$" resolve="voName" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1ZjRqWr0wc3" role="3cqZAp" />
+        <node concept="3cpWs8" id="1ZjRqWr0AM9" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWr0AMc" role="3cpWs9">
+            <property role="TrG5h" value="vo" />
+            <node concept="3Tqbb2" id="1ZjRqWr0AM7" role="1tU5fm">
+              <ref role="ehGHo" to="un0u:4y30FCQIiwZ" resolve="ViewObject" />
+            </node>
+            <node concept="2YIFZM" id="1ZjRqWr0AXD" role="33vP2m">
+              <ref role="37wK5l" to="3ojc:1ZjRqWqWLrX" resolve="createAndAddViewObjectFromSql" />
+              <ref role="1Pybhc" to="3ojc:1ZjRqWqWJWE" resolve="CreateDefaultNoKeyMappingForManMap" />
+              <node concept="2OqwBi" id="1ZjRqWr0B2u" role="37wK5m">
+                <node concept="2Sf5sV" id="1ZjRqWr0AZS" role="2Oq$k0" />
+                <node concept="I4A8Y" id="1ZjRqWr0B8t" role="2OqNvi" />
+              </node>
+              <node concept="37vLTw" id="1ZjRqWr0Bdf" role="37wK5m">
+                <ref role="3cqZAo" node="1ZjRqWr0zH$" resolve="voName" />
+              </node>
+              <node concept="37vLTw" id="1ZjRqWr0Biq" role="37wK5m">
+                <ref role="3cqZAo" node="1ZjRqWr0$9m" resolve="fields" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1ZjRqWr0Btd" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWr0Btg" role="3cpWs9">
+            <property role="TrG5h" value="mapper" />
+            <node concept="3Tqbb2" id="1ZjRqWr0Btb" role="1tU5fm">
+              <ref role="ehGHo" to="r5tz:FplMliKLhC" resolve="NoKeyMapperField" />
+            </node>
+            <node concept="2YIFZM" id="1ZjRqWr0BFl" role="33vP2m">
+              <ref role="37wK5l" to="3ojc:1ZjRqWqWLss" resolve="createAndAddViewObjectFromSql" />
+              <ref role="1Pybhc" to="3ojc:1ZjRqWqWJWE" resolve="CreateDefaultNoKeyMappingForManMap" />
+              <node concept="2OqwBi" id="1ZjRqWr0BKa" role="37wK5m">
+                <node concept="2Sf5sV" id="1ZjRqWr0BH$" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="1ZjRqWr0BUG" role="2OqNvi">
+                  <node concept="1xMEDy" id="1ZjRqWr0BUI" role="1xVPHs">
+                    <node concept="chp4Y" id="1ZjRqWr0BW$" role="ri$Ld">
+                      <ref role="cht4Q" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="37vLTw" id="1ZjRqWr0C2V" role="37wK5m">
+                <ref role="3cqZAo" node="1ZjRqWr0AMc" resolve="vo" />
+              </node>
+              <node concept="37vLTw" id="1ZjRqWr0C8P" role="37wK5m">
+                <ref role="3cqZAo" node="1ZjRqWr0$9m" resolve="fields" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1ZjRqWr0AEZ" role="3cqZAp" />
+        <node concept="3cpWs8" id="1ZjRqWr0Cla" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWr0Cld" role="3cpWs9">
+            <property role="TrG5h" value="qfs" />
+            <node concept="3Tqbb2" id="1ZjRqWr0Cl8" role="1tU5fm">
+              <ref role="ehGHo" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
+            </node>
+            <node concept="2OqwBi" id="1ZjRqWr0CzJ" role="33vP2m">
+              <node concept="2Sf5sV" id="1ZjRqWr0Cxb" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1ZjRqWr0CDp" role="2OqNvi">
+                <node concept="1xMEDy" id="1ZjRqWr0CDr" role="1xVPHs">
+                  <node concept="chp4Y" id="1ZjRqWr0CFN" role="ri$Ld">
+                    <ref role="cht4Q" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1ZjRqWr0CK2" role="3cqZAp">
+          <node concept="2OqwBi" id="1ZjRqWr0DtY" role="3clFbG">
+            <node concept="2OqwBi" id="1ZjRqWr0CRD" role="2Oq$k0">
+              <node concept="37vLTw" id="1ZjRqWr0CK0" role="2Oq$k0">
+                <ref role="3cqZAo" node="1ZjRqWr0Cld" resolve="qfs" />
+              </node>
+              <node concept="3TrEf2" id="1ZjRqWr0D4r" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:42_QlHqGoce" />
+              </node>
+            </node>
+            <node concept="2DeJnY" id="1ZjRqWr0DDL" role="2OqNvi">
+              <ref role="1A9B2P" to="r5tz:FplMljbxON" resolve="NoKeyMapperFieldRef" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1ZjRqWr0DRV" role="3cqZAp">
+          <node concept="37vLTI" id="1ZjRqWr0F3c" role="3clFbG">
+            <node concept="37vLTw" id="1ZjRqWr0Fd4" role="37vLTx">
+              <ref role="3cqZAo" node="1ZjRqWr0Btg" resolve="mapper" />
+            </node>
+            <node concept="2OqwBi" id="1ZjRqWr0EwL" role="37vLTJ">
+              <node concept="1PxgMI" id="1ZjRqWr0Eh$" role="2Oq$k0">
+                <ref role="1PxNhF" to="r5tz:FplMljbxON" resolve="NoKeyMapperFieldRef" />
+                <node concept="2OqwBi" id="1ZjRqWr0E0a" role="1PxMeX">
+                  <node concept="37vLTw" id="1ZjRqWr0DRT" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1ZjRqWr0Cld" resolve="qfs" />
+                  </node>
+                  <node concept="3TrEf2" id="1ZjRqWr0Eb2" role="2OqNvi">
+                    <ref role="3Tt5mk" to="r5tz:42_QlHqGoce" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3TrEf2" id="1ZjRqWr0EGX" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:FplMljbxOX" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="1ZjRqWr8Irf">
+    <property role="TrG5h" value="AutoCompleteNoKeyMappingTesting" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="r5tz:6TB1IkohjIs" resolve="SqlString" />
+    <node concept="2S6ZIM" id="1ZjRqWr8Irg" role="2ZfVej">
+      <node concept="3clFbS" id="1ZjRqWr8Irh" role="2VODD2">
+        <node concept="3clFbF" id="1ZjRqWr8Iri" role="3cqZAp">
+          <node concept="Xl_RD" id="1ZjRqWr8Irj" role="3clFbG">
+            <property role="Xl_RC" value="Create TEST for ViewObject and NoKeyMapping for SQL-Query" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="1ZjRqWr8Irk" role="2ZfgGD">
+      <node concept="3clFbS" id="1ZjRqWr8Irl" role="2VODD2">
+        <node concept="3cpWs8" id="1ZjRqWr8Nea" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWr8Ned" role="3cpWs9">
+            <property role="TrG5h" value="mr" />
+            <node concept="3Tqbb2" id="1ZjRqWr8Ne8" role="1tU5fm">
+              <ref role="ehGHo" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
+            </node>
+            <node concept="2OqwBi" id="1ZjRqWrr5xS" role="33vP2m">
+              <node concept="2Sf5sV" id="1ZjRqWrr5vo" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1ZjRqWrr5Q8" role="2OqNvi">
+                <node concept="1xMEDy" id="1ZjRqWrr5Qa" role="1xVPHs">
+                  <node concept="chp4Y" id="1ZjRqWrr5RG" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:6W_Qo9f2MnB" resolve="ModelRepository" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1ZjRqWrr5Wg" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWrr5Wj" role="3cpWs9">
+            <property role="TrG5h" value="ts" />
+            <node concept="3Tqbb2" id="1ZjRqWrr5We" role="1tU5fm">
+              <ref role="ehGHo" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+            </node>
+            <node concept="2YIFZM" id="1ZjRqWrr61Z" role="33vP2m">
+              <ref role="37wK5l" to="3ojc:1ZjRqWr8OMX" resolve="getOrCreateTestSuitForRepo" />
+              <ref role="1Pybhc" to="3ojc:1ZjRqWqWJWE" resolve="CreateDefaultNoKeyMappingForManMap" />
+              <node concept="37vLTw" id="1ZjRqWrr64f" role="37wK5m">
+                <ref role="3cqZAo" node="1ZjRqWr8Ned" resolve="mr" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="1ZjRqWrrjOx" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWrrjO$" role="3cpWs9">
+            <property role="TrG5h" value="m" />
+            <node concept="3Tqbb2" id="1ZjRqWrrjOv" role="1tU5fm">
+              <ref role="ehGHo" to="un0u:61VVfi2FlUv" resolve="OFXTestMethod" />
+            </node>
+            <node concept="2YIFZM" id="1ZjRqWrrjYW" role="33vP2m">
+              <ref role="37wK5l" to="3ojc:1ZjRqWrr6nR" resolve="createTestMethodFor" />
+              <ref role="1Pybhc" to="3ojc:1ZjRqWqWJWE" resolve="CreateDefaultNoKeyMappingForManMap" />
+              <node concept="37vLTw" id="1ZjRqWrrk0o" role="37wK5m">
+                <ref role="3cqZAo" node="1ZjRqWrr5Wj" resolve="ts" />
+              </node>
+              <node concept="2OqwBi" id="1ZjRqWrrk5$" role="37wK5m">
+                <node concept="2Sf5sV" id="1ZjRqWrrk2T" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="1ZjRqWrrkcy" role="2OqNvi">
+                  <node concept="1xMEDy" id="1ZjRqWrrkc$" role="1xVPHs">
+                    <node concept="chp4Y" id="1ZjRqWrrkfn" role="ri$Ld">
+                      <ref role="cht4Q" to="un0u:6W_Qo9f2MnC" resolve="ModelRepositoryMethod" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1ZjRqWrB0Te" role="3cqZAp" />
+        <node concept="3cpWs8" id="1ZjRqWryB8T" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWryB8U" role="3cpWs9">
+            <property role="TrG5h" value="opener" />
+            <node concept="3uibUv" id="1ZjRqWryB8V" role="1tU5fm">
+              <ref role="3uigEE" to="k3nr:~MPSEditorOpener" resolve="MPSEditorOpener" />
+            </node>
+            <node concept="2ShNRf" id="1ZjRqWryB8W" role="33vP2m">
+              <node concept="1pGfFk" id="1ZjRqWryB8X" role="2ShVmc">
+                <ref role="37wK5l" to="k3nr:~MPSEditorOpener.&lt;init&gt;(com.intellij.openapi.project.Project)" resolve="MPSEditorOpener" />
+                <node concept="2YIFZM" id="1ZjRqWryB8Y" role="37wK5m">
+                  <ref role="37wK5l" to="alof:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+                  <ref role="1Pybhc" to="alof:~ProjectHelper" resolve="ProjectHelper" />
+                  <node concept="2OqwBi" id="1ZjRqWryB8Z" role="37wK5m">
+                    <node concept="2OqwBi" id="1ZjRqWryB90" role="2Oq$k0">
+                      <node concept="1XNTG" id="1ZjRqWryB91" role="2Oq$k0" />
+                      <node concept="liA8E" id="1ZjRqWryB92" role="2OqNvi">
+                        <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1ZjRqWryB93" role="2OqNvi">
+                      <ref role="37wK5l" to="w1kc:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1ZjRqWryB94" role="3cqZAp">
+          <node concept="2OqwBi" id="1ZjRqWryB95" role="3clFbG">
+            <node concept="37vLTw" id="1ZjRqWryB96" role="2Oq$k0">
+              <ref role="3cqZAo" node="1ZjRqWryB8U" resolve="opener" />
+            </node>
+            <node concept="liA8E" id="1ZjRqWryB97" role="2OqNvi">
+              <ref role="37wK5l" to="k3nr:~MPSEditorOpener.openNode(org.jetbrains.mps.openapi.model.SNode,jetbrains.mps.smodel.IOperationContext,boolean,boolean):jetbrains.mps.openapi.editor.Editor" resolve="openNode" />
+              <node concept="37vLTw" id="1ZjRqWryBh0" role="37wK5m">
+                <ref role="3cqZAo" node="1ZjRqWrrjO$" resolve="m" />
+              </node>
+              <node concept="2OqwBi" id="1ZjRqWryB99" role="37wK5m">
+                <node concept="1XNTG" id="1ZjRqWryB9a" role="2Oq$k0" />
+                <node concept="liA8E" id="1ZjRqWryB9b" role="2OqNvi">
+                  <ref role="37wK5l" to="cj4x:~EditorContext.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
+                </node>
+              </node>
+              <node concept="3clFbT" id="1ZjRqWryB9c" role="37wK5m" />
+              <node concept="3clFbT" id="1ZjRqWryB9d" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="1ZjRqWr8Nbs" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="2SaL7w" id="1ZjRqWr8JMv" role="2ZfVeh">
+      <node concept="3clFbS" id="1ZjRqWr8JMw" role="2VODD2">
+        <node concept="3cpWs8" id="1ZjRqWr8KZZ" role="3cqZAp">
+          <node concept="3cpWsn" id="1ZjRqWr8L02" role="3cpWs9">
+            <property role="TrG5h" value="qfs" />
+            <node concept="3Tqbb2" id="1ZjRqWr8KZX" role="1tU5fm">
+              <ref role="ehGHo" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
+            </node>
+            <node concept="2OqwBi" id="1ZjRqWr8JYD" role="33vP2m">
+              <node concept="2Sf5sV" id="1ZjRqWr8JV_" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="1ZjRqWr8K6V" role="2OqNvi">
+                <node concept="1xMEDy" id="1ZjRqWr8K6X" role="1xVPHs">
+                  <node concept="chp4Y" id="1ZjRqWr8KiT" role="ri$Ld">
+                    <ref role="cht4Q" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="1ZjRqWr8LKt" role="3cqZAp">
+          <node concept="2OqwBi" id="1ZjRqWr8MHA" role="3cqZAk">
+            <node concept="2OqwBi" id="1ZjRqWr8Muz" role="2Oq$k0">
+              <node concept="37vLTw" id="1ZjRqWr8Mr6" role="2Oq$k0">
+                <ref role="3cqZAo" node="1ZjRqWr8L02" resolve="qfs" />
+              </node>
+              <node concept="3TrEf2" id="1ZjRqWr8MAB" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:42_QlHqGoce" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="1ZjRqWr8MRs" role="2OqNvi">
+              <node concept="chp4Y" id="1ZjRqWr8MWW" role="cj9EA">
+                <ref role="cht4Q" to="r5tz:FplMljbxON" resolve="NoKeyMapperFieldRef" />
               </node>
             </node>
           </node>

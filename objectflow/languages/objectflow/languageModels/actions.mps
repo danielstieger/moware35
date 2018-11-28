@@ -147,6 +147,7 @@
         <child id="1177339176647" name="matchingText" index="uSyvl" />
         <child id="1177339186632" name="descriptionText" index="uS$Nq" />
         <child id="1177339421668" name="handler" index="uTubQ" />
+        <child id="6400740936056405411" name="iconNode" index="1o8C9r" />
       </concept>
       <concept id="1177337833147" name="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_parameterObject" flags="nn" index="uNquD" />
       <concept id="1177337890340" name="jetbrains.mps.lang.actions.structure.QueryFunction_ParameterizedSubstitute_Query" flags="in" index="uNCsQ" />
@@ -171,6 +172,7 @@
         <child id="1158701448518" name="setupFunction" index="37ZfLb" />
       </concept>
       <concept id="1158701162220" name="jetbrains.mps.lang.actions.structure.NodeSetupFunction" flags="in" index="37Y9Zx" />
+      <concept id="6400740936061763657" name="jetbrains.mps.lang.actions.structure.QueryFunction_IconNode" flags="in" index="1p$bYL" />
       <concept id="5584396657084912703" name="jetbrains.mps.lang.actions.structure.NodeSetupFunction_NewNode" flags="nn" index="1r4Lsj" />
       <concept id="5584396657084920670" name="jetbrains.mps.lang.actions.structure.NodeSetupFunction_EnclosingNode" flags="nn" index="1r4N1M" />
       <concept id="1112056943463" name="jetbrains.mps.lang.actions.structure.NodeSubstituteActions" flags="ng" index="3FK_9_">
@@ -1377,7 +1379,7 @@
       </node>
     </node>
     <node concept="37WvkG" id="3iJaUC6d95r" role="37WGs$">
-      <ref role="37XkoT" to="un0u:2tJfPESW2g4" resolve="PageEvent" />
+      <ref role="37XkoT" to="un0u:2tJfPESW2g4" resolve="CustomPageEvent" />
       <node concept="37Y9Zx" id="3iJaUC6d95s" role="37ZfLb">
         <node concept="3clFbS" id="3iJaUC6d95t" role="2VODD2">
           <node concept="3clFbF" id="3iJaUC6d95u" role="3cqZAp">
@@ -1595,6 +1597,13 @@
                     <property role="Xl_RC" value="status static access ^" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1p$bYL" id="1ZjRqWrelva" role="1o8C9r">
+            <node concept="3clFbS" id="1ZjRqWrelvb" role="2VODD2">
+              <node concept="3clFbF" id="1ZjRqWrqZht" role="3cqZAp">
+                <node concept="10Nm6u" id="1ZjRqWrqZhs" role="3clFbG" />
               </node>
             </node>
           </node>

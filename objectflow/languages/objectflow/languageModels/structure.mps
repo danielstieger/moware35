@@ -232,6 +232,7 @@
     <property role="TrG5h" value="Status" />
     <property role="3GE5qa" value="Status" />
     <property role="1pbfSe" value="1031901777" />
+    <property role="MwhBj" value="${module}/icons/status.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3VCHlE3_rxo" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -247,6 +248,7 @@
     <property role="TrG5h" value="StatusElement" />
     <property role="3GE5qa" value="Status" />
     <property role="1pbfSe" value="1031901776" />
+    <property role="MwhBj" value="${module}/icons/status.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2IjElxgy051" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -272,7 +274,7 @@
   <node concept="1TIwiD" id="3VCHlE3_KcX">
     <property role="TrG5h" value="StatusType" />
     <property role="3GE5qa" value="Status" />
-    <property role="MwhBj" value="${module}/icons/branch.png" />
+    <property role="MwhBj" value="${module}/icons/status.png" />
     <property role="1pbfSe" value="1031817065" />
     <ref role="1TJDcQ" to="tpee:fz3vP1H" resolve="Type" />
     <node concept="1TJgyj" id="5IoEJEZNHJj" role="1TKVEi">
@@ -291,7 +293,7 @@
     <property role="34LRSv" value=".&lt;status&gt;" />
     <property role="R4oN_" value="status constant reference" />
     <property role="1pbfSe" value="1031779003" />
-    <property role="MwhBj" value="${module}/icons/testparam.png" />
+    <property role="MwhBj" value="${module}/icons/status.png" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyj" id="3VCHlE3_TvG" role="1TKVEi">
       <property role="20lmBu" value="reference" />
