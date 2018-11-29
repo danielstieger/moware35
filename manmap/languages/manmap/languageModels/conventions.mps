@@ -1653,30 +1653,12 @@
     <node concept="2YIFZL" id="2Oo32eoNPEN" role="jymVt">
       <property role="TrG5h" value="getOracleQuerySequenceStatement" />
       <node concept="37vLTG" id="2Oo32eoNPEU" role="3clF46">
-        <property role="TrG5h" value="fieldMapping" />
-        <node concept="3Tqbb2" id="2Oo32eoNPEX" role="1tU5fm">
-          <ref role="ehGHo" to="r5tz:Kou8LehH1z" resolve="FieldMapping" />
-        </node>
+        <property role="TrG5h" value="sequenceName" />
+        <node concept="17QB3L" id="35a9wK78Qmy" role="1tU5fm" />
       </node>
       <node concept="17QB3L" id="2Oo32eoNPES" role="3clF45" />
       <node concept="3Tm1VV" id="2Oo32eoNPEP" role="1B3o_S" />
       <node concept="3clFbS" id="2Oo32eoNPEQ" role="3clF47">
-        <node concept="3cpWs8" id="2Oo32eoNPF0" role="3cqZAp">
-          <node concept="3cpWsn" id="2Oo32eoNPF1" role="3cpWs9">
-            <property role="TrG5h" value="aidOpt" />
-            <node concept="3Tqbb2" id="2Oo32eoNPF2" role="1tU5fm">
-              <ref role="ehGHo" to="r5tz:EYyuKpdvfi" resolve="AutoidOption" />
-            </node>
-            <node concept="2OqwBi" id="1oz7qwEDQcb" role="33vP2m">
-              <node concept="37vLTw" id="1oz7qwEDQ4E" role="2Oq$k0">
-                <ref role="3cqZAo" node="2Oo32eoNPEU" resolve="fieldMapping" />
-              </node>
-              <node concept="2qgKlT" id="1oz7qwEDQkr" role="2OqNvi">
-                <ref role="37wK5l" to="lfe3:1oz7qwEBu7R" resolve="getAutoIdKey" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbH" id="2Oo32eoNPEZ" role="3cqZAp" />
         <node concept="3clFbF" id="2Oo32eoNPER" role="3cqZAp">
           <node concept="3cpWs3" id="4ImMQ5tmpEZ" role="3clFbG">
@@ -1684,18 +1666,8 @@
               <property role="Xl_RC" value=".NEXTVAL FROM DUAL" />
             </node>
             <node concept="3cpWs3" id="2Oo32eoNPFJ" role="3uHU7B">
-              <node concept="2OqwBi" id="2Oo32eoNPFZ" role="3uHU7w">
-                <node concept="2OqwBi" id="2Oo32eoNPFP" role="2Oq$k0">
-                  <node concept="37vLTw" id="KVbXdPfeDc" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2Oo32eoNPF1" resolve="aidOpt" />
-                  </node>
-                  <node concept="3TrEf2" id="2Oo32eoNPFV" role="2OqNvi">
-                    <ref role="3Tt5mk" to="r5tz:EYyuKpdvfk" />
-                  </node>
-                </node>
-                <node concept="3TrcHB" id="2Oo32eoNPG4" role="2OqNvi">
-                  <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
-                </node>
+              <node concept="37vLTw" id="35a9wK78QCA" role="3uHU7w">
+                <ref role="3cqZAo" node="2Oo32eoNPEU" resolve="sequenceName" />
               </node>
               <node concept="Xl_RD" id="4ImMQ5tmpEK" role="3uHU7B">
                 <property role="Xl_RC" value="SELECT " />

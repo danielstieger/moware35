@@ -1973,8 +1973,8 @@
                         <node concept="1xIGOp" id="35a9wK6f0sH" role="1xVPHs" />
                       </node>
                     </node>
-                    <node concept="2qgKlT" id="35a9wK6f0_q" role="2OqNvi">
-                      <ref role="37wK5l" to="lfe3:35a9wK6b6iq" resolve="getAutoKeyFields" />
+                    <node concept="2qgKlT" id="35a9wK7skwO" role="2OqNvi">
+                      <ref role="37wK5l" to="lfe3:35a9wK7rE7T" resolve="getAutoIdOptionsWITHOUTOverwrittens" />
                     </node>
                   </node>
                   <node concept="3Tm1VV" id="35a9wK6fuJs" role="1B3o_S" />

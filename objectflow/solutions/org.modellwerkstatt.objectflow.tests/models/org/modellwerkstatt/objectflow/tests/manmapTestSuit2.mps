@@ -527,7 +527,7 @@
       </concept>
       <concept id="3551693089219933861" name="org.modellwerkstatt.manmap.structure.OverWriteAutoIdOption" flags="ng" index="RoX2D">
         <reference id="3551693089219933862" name="fieldMapping" index="RoX2E" />
-        <child id="3551693089220470795" name="sequence" index="Ru0S7" />
+        <child id="3551693089234283845" name="sequenceName" index="QjGH9" />
       </concept>
       <concept id="6435836305144935126" name="org.modellwerkstatt.manmap.structure.GetQuery" flags="ng" index="TUlRj">
         <child id="6435836305144935143" name="argument" index="TUlRy" />
@@ -7346,9 +7346,22 @@
           <property role="Xl_RC" value="TXT_EXTENDEDSTR" />
         </node>
       </node>
-      <node concept="RoX2D" id="35a9wK6fk0L" role="jyGaQ">
+    </node>
+    <node concept="12nEzA" id="35a9wK6T1F0" role="12nEwW">
+      <property role="TrG5h" value="MapExtendedInvoiceOverWrittenSequence" />
+      <ref role="12nOxz" node="4ksEJbWs44A" resolve="ExtendedInvoice" />
+      <node concept="jyGaT" id="35a9wK6T1F1" role="jyGaQ" />
+      <node concept="RoX2D" id="35a9wK7zbdV" role="jyGaQ">
         <ref role="RoX2E" node="70qPrkCybae" />
-        <node concept="Xl_RD" id="35a9wK6fk0M" role="Ru0S7" />
+        <node concept="Xl_RD" id="35a9wK7zbdX" role="QjGH9">
+          <property role="Xl_RC" value="SEQ_NOT_EXISTEND" />
+        </node>
+      </node>
+      <node concept="Xl_RD" id="35a9wK6T1F2" role="12gAQd">
+        <property role="Xl_RC" value="MMT_EXTINVOICE" />
+      </node>
+      <node concept="12gALL" id="35a9wK6T1Nx" role="3caO6$">
+        <ref role="12gAhx" node="4ksEJbWs4aL" resolve="MapExtendedInvoice" />
       </node>
     </node>
     <node concept="12nEzA" id="2i3o0hdZCdM" role="12nEwW">

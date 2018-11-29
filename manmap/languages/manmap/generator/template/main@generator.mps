@@ -5644,7 +5644,12 @@
                                   <node concept="2YIFZM" id="2Oo32eoNPHA" role="3clFbG">
                                     <ref role="37wK5l" to="n4mo:2Oo32eoNPEN" resolve="getOracleQuerySequenceStatement" />
                                     <ref role="1Pybhc" to="n4mo:17uSheOuH5Q" resolve="ManmapSQLStatementProvider" />
-                                    <node concept="30H73N" id="2Oo32eoNPHB" role="37wK5m" />
+                                    <node concept="2OqwBi" id="35a9wK6IWml" role="37wK5m">
+                                      <node concept="30H73N" id="2Oo32eoNPHB" role="2Oq$k0" />
+                                      <node concept="2qgKlT" id="35a9wK78NPO" role="2OqNvi">
+                                        <ref role="37wK5l" to="lfe3:35a9wK71eOH" resolve="getSequenceName" />
+                                      </node>
+                                    </node>
                                   </node>
                                 </node>
                               </node>
@@ -5664,7 +5669,12 @@
                         <node concept="3clFbS" id="2Oo32eoNPHF" role="2VODD2">
                           <node concept="3clFbF" id="2Oo32eoNPHH" role="3cqZAp">
                             <node concept="2OqwBi" id="2Oo32eoNPHN" role="3clFbG">
-                              <node concept="30H73N" id="2Oo32eoNPHI" role="2Oq$k0" />
+                              <node concept="2OqwBi" id="35a9wK6IU$L" role="2Oq$k0">
+                                <node concept="30H73N" id="2Oo32eoNPHI" role="2Oq$k0" />
+                                <node concept="2qgKlT" id="35a9wK78NE4" role="2OqNvi">
+                                  <ref role="37wK5l" to="lfe3:35a9wK71eOy" resolve="getFieldMapping" />
+                                </node>
+                              </node>
                               <node concept="2qgKlT" id="2Oo32eoNPHW" role="2OqNvi">
                                 <ref role="37wK5l" to="lfe3:7kypvuI$E69" resolve="getFieldSetter" />
                               </node>
@@ -5681,7 +5691,7 @@
                           <node concept="2OqwBi" id="35a9wK6b_Ru" role="3clFbG">
                             <node concept="30H73N" id="35a9wK6b_LS" role="2Oq$k0" />
                             <node concept="2qgKlT" id="35a9wK6bA18" role="2OqNvi">
-                              <ref role="37wK5l" to="lfe3:35a9wK6b6iq" resolve="getAutoKeyFields" />
+                              <ref role="37wK5l" to="lfe3:35a9wK6b6iq" resolve="getAutoIdOptions" />
                             </node>
                           </node>
                         </node>
@@ -6026,7 +6036,12 @@
                             <node concept="3clFbS" id="6VW5G614Znl" role="2VODD2">
                               <node concept="3clFbF" id="6VW5G614Znm" role="3cqZAp">
                                 <node concept="2OqwBi" id="6VW5G614Znn" role="3clFbG">
-                                  <node concept="30H73N" id="6VW5G614Zno" role="2Oq$k0" />
+                                  <node concept="2OqwBi" id="35a9wK6Jyyz" role="2Oq$k0">
+                                    <node concept="30H73N" id="6VW5G614Zno" role="2Oq$k0" />
+                                    <node concept="2qgKlT" id="35a9wK78yvS" role="2OqNvi">
+                                      <ref role="37wK5l" to="lfe3:35a9wK71eOy" resolve="getFieldMapping" />
+                                    </node>
+                                  </node>
                                   <node concept="2qgKlT" id="6VW5G614Znp" role="2OqNvi">
                                     <ref role="37wK5l" to="lfe3:7kypvuI$E69" resolve="getFieldSetter" />
                                   </node>
@@ -6087,7 +6102,7 @@
                           <node concept="2OqwBi" id="35a9wK6cvw6" role="3clFbG">
                             <node concept="30H73N" id="35a9wK6cvw7" role="2Oq$k0" />
                             <node concept="2qgKlT" id="35a9wK6cvw8" role="2OqNvi">
-                              <ref role="37wK5l" to="lfe3:35a9wK6b6iq" resolve="getAutoKeyFields" />
+                              <ref role="37wK5l" to="lfe3:35a9wK6b6iq" resolve="getAutoIdOptions" />
                             </node>
                           </node>
                         </node>
