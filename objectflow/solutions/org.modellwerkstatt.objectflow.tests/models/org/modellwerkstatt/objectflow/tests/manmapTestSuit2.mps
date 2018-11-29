@@ -4237,6 +4237,87 @@
         </node>
       </node>
     </node>
+    <node concept="3yPF9F" id="35a9wK7Cbqy" role="3yMuLx">
+      <property role="TrG5h" value="Use Overwrite auto_id, that will gen an errer, since seq won t exist." />
+      <node concept="3cqZAl" id="35a9wK7CbHL" role="3clF45" />
+      <node concept="3clFbS" id="35a9wK7CbqA" role="3clF47">
+        <node concept="3clFbH" id="35a9wK7CbHO" role="3cqZAp" />
+        <node concept="3clFbH" id="35a9wK7CdRN" role="3cqZAp" />
+        <node concept="3cpWs8" id="35a9wK7CdSz" role="3cqZAp">
+          <node concept="3cpWsn" id="35a9wK7CdS$" role="3cpWs9">
+            <property role="TrG5h" value="e" />
+            <node concept="3uibUv" id="35a9wK7CdS_" role="1tU5fm">
+              <ref role="3uigEE" node="4ksEJbWs44A" resolve="ExtendedInvoice" />
+            </node>
+            <node concept="2ShNRf" id="35a9wK7CdT4" role="33vP2m">
+              <node concept="1pGfFk" id="35a9wK7CdT1" role="2ShVmc">
+                <ref role="37wK5l" node="4ksEJbWs489" resolve="ExtendedInvoice" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="35a9wK7CdTC" role="3cqZAp">
+          <node concept="37vLTI" id="35a9wK7CdXG" role="3clFbG">
+            <node concept="1$4sJe" id="35a9wK7CdYT" role="37vLTx">
+              <property role="1$4sGS" value="0" />
+              <property role="1$4sGV" value="0" />
+              <property role="1$4sGU" value="0" />
+              <property role="1$4sGT" value="0" />
+              <property role="1$4sGQ" value="0" />
+              <property role="1$4sGR" value="0" />
+              <property role="1$4sGO" value="true" />
+            </node>
+            <node concept="2OqwBi" id="35a9wK7CdU4" role="37vLTJ">
+              <node concept="37vLTw" id="35a9wK7CdTA" role="2Oq$k0">
+                <ref role="3cqZAo" node="35a9wK7CdS$" resolve="e" />
+              </node>
+              <node concept="2S8uIT" id="35a9wK7CdVm" role="2OqNvi">
+                <ref role="2S8YL0" node="612_n8Hc$n$" resolve="dateTime" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="35a9wK7CdZI" role="3cqZAp">
+          <node concept="37vLTI" id="35a9wK7Ce3x" role="3clFbG">
+            <node concept="Xl_RD" id="35a9wK7Ce45" role="37vLTx">
+              <property role="Xl_RC" value="ExtendedInvoice Seq." />
+            </node>
+            <node concept="2OqwBi" id="35a9wK7Ce0a" role="37vLTJ">
+              <node concept="37vLTw" id="35a9wK7CdZG" role="2Oq$k0">
+                <ref role="3cqZAo" node="35a9wK7CdS$" resolve="e" />
+              </node>
+              <node concept="2S8uIT" id="35a9wK7Ce1z" role="2OqNvi">
+                <ref role="2S8YL0" node="4ksEJbWs46$" resolve="extendedString" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="35a9wK7CdRY" role="3cqZAp" />
+        <node concept="3clFbH" id="35a9wK7Fxum" role="3cqZAp" />
+        <node concept="3SKdUt" id="35a9wK7FxvN" role="3cqZAp">
+          <node concept="3SKdUq" id="35a9wK7FxvP" role="3SKWNk">
+            <property role="3SKdUp" value="  java.sql.SQLException: ORA-02289: Sequence ist nicht vorhanden." />
+          </node>
+        </node>
+        <node concept="3clFbF" id="35a9wK7CbIl" role="3cqZAp">
+          <node concept="1odsa" id="35a9wK7CbIj" role="3clFbG">
+            <ref role="1ods_" node="70qPrkCy95v" resolve="RepoInvoice" />
+            <ref role="37wK5l" node="35a9wK7Cd8t" resolve="checkinInvoiceOverwrittenSeq" />
+            <node concept="37vLTw" id="35a9wK7Ce6S" role="37wK5m">
+              <ref role="3cqZAo" node="35a9wK7CdS$" resolve="e" />
+            </node>
+            <node concept="10Nm6u" id="35a9wK7Ce76" role="2f8TIa" />
+          </node>
+          <node concept="16GPin" id="35a9wK7Fxty" role="lGtFl">
+            <ref role="16PnFS" to="rapu:~BadSqlGrammarException" resolve="BadSqlGrammarException" />
+            <node concept="Xl_RD" id="35a9wK7Fxu8" role="16NUyR">
+              <property role="Xl_RC" value="ORA-02289" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="35a9wK7CbI8" role="3cqZAp" />
+      </node>
+    </node>
     <node concept="1DF_5m" id="RffU3ziq72" role="3yMuLx" />
     <node concept="1DF_5m" id="4ksEJbWlC_T" role="3yMuLx" />
     <node concept="xWan4" id="7shQO0QBms7" role="38MLOi">
@@ -7223,6 +7304,26 @@
         </node>
       </node>
     </node>
+    <node concept="wbJLE" id="35a9wK7Cd8t" role="jymVt">
+      <property role="wbJLN" value="CHECKIN" />
+      <property role="TrG5h" value="checkinInvoiceOverwrittenSeq" />
+      <node concept="37vLTG" id="35a9wK7CdEg" role="3clF46">
+        <property role="TrG5h" value="i" />
+        <node concept="3uibUv" id="35a9wK7CdOE" role="1tU5fm">
+          <ref role="3uigEE" node="4ksEJbWs44A" resolve="ExtendedInvoice" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="35a9wK7Cd8u" role="3clF45" />
+      <node concept="3Tm1VV" id="35a9wK7Cd8v" role="1B3o_S" />
+      <node concept="3clFbS" id="35a9wK7Cd8w" role="3clF47">
+        <node concept="P1rGi" id="35a9wK7CdM1" role="3cqZAp">
+          <ref role="P14SV" node="35a9wK6T1F0" resolve="MapExtendedInvoiceOverWrittenSequence" />
+          <node concept="37vLTw" id="35a9wK7CdO7" role="P1rGp">
+            <ref role="3cqZAo" node="35a9wK7CdEg" resolve="i" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3Tm1VV" id="70qPrkCy95w" role="1B3o_S" />
   </node>
   <node concept="12nvSr" id="70qPrkCyb9p">
@@ -7304,7 +7405,7 @@
         <node concept="12nEzJ" id="26OSHcxusHL" role="3rGzxd">
           <ref role="12nL8z" node="612_n8HcBYv" resolve="id" />
           <node concept="Xl_RD" id="26OSHcxusHN" role="12k7lF">
-            <property role="Xl_RC" value="REF_BIGDEi" />
+            <property role="Xl_RC" value="KEY_MAINPOS" />
           </node>
         </node>
       </node>

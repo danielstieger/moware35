@@ -6233,7 +6233,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="3UOln1HfD3I" role="3EZMnx">
-          <property role="3F0ifm" value="Roles and scopes repository" />
+          <property role="3F0ifm" value="roles, scopes and identities" />
           <ref role="1k5W1q" node="12ldMQAKJpH" resolve="O2Header" />
         </node>
         <node concept="3F0A7n" id="3UOln1HfD3Q" role="3EZMnx">
@@ -6277,6 +6277,19 @@
         <ref role="1NtTu8" to="un0u:49kO6rR_k$w" />
         <node concept="2iRkQZ" id="49kO6rR_k$_" role="2czzBx" />
         <node concept="3F0ifn" id="49kO6rR_k$Y" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;scopes&gt;" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="35a9wK7Vvd3" role="3EZMnx" />
+      <node concept="3F0ifn" id="35a9wK7Vvd4" role="3EZMnx">
+        <property role="3F0ifm" value="identities:" />
+        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
+      </node>
+      <node concept="3F2HdR" id="35a9wK7Vvd5" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:49kO6rR_k$w" />
+        <node concept="2iRkQZ" id="35a9wK7Vvd6" role="2czzBx" />
+        <node concept="3F0ifn" id="35a9wK7Vvd7" role="2czzBI">
           <property role="3F0ifm" value="" />
           <property role="ilYzB" value="&lt;scopes&gt;" />
         </node>
