@@ -740,7 +740,7 @@
       </node>
     </node>
     <node concept="312cEg" id="3BCllXnpHgR" role="jymVt">
-      <property role="TrG5h" value="cachedValues" />
+      <property role="TrG5h" value="cachedRoles" />
       <node concept="3Tm6S6" id="3BCllXnpHgS" role="1B3o_S" />
       <node concept="3uibUv" id="3BCllXnpHrO" role="1tU5fm">
         <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
@@ -749,6 +749,19 @@
         </node>
         <node concept="3uibUv" id="3BCllXnpNib" role="11_B2D">
           <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
+        </node>
+      </node>
+    </node>
+    <node concept="312cEg" id="35a9wK8sCo0" role="jymVt">
+      <property role="TrG5h" value="cachedIdentities" />
+      <node concept="3Tm6S6" id="35a9wK8sCo1" role="1B3o_S" />
+      <node concept="3uibUv" id="35a9wK8sCo2" role="1tU5fm">
+        <ref role="3uigEE" to="33ny:~Map" resolve="Map" />
+        <node concept="3uibUv" id="35a9wK8sHI0" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+        </node>
+        <node concept="3uibUv" id="35a9wK8sHJD" role="11_B2D">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
         </node>
       </node>
     </node>
@@ -789,7 +802,25 @@
               </node>
             </node>
             <node concept="37vLTw" id="3BCllXnW0qL" role="37vLTJ">
-              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedValues" />
+              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedRoles" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="35a9wK8sHe1" role="3cqZAp">
+          <node concept="37vLTI" id="35a9wK8sHe2" role="3clFbG">
+            <node concept="2ShNRf" id="35a9wK8sHe3" role="37vLTx">
+              <node concept="1pGfFk" id="35a9wK8sHe4" role="2ShVmc">
+                <ref role="37wK5l" to="33ny:~HashMap.&lt;init&gt;()" resolve="HashMap" />
+                <node concept="3uibUv" id="35a9wK8sHe5" role="1pMfVU">
+                  <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+                </node>
+                <node concept="3uibUv" id="35a9wK8sHuh" role="1pMfVU">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="35a9wK8sHY3" role="37vLTJ">
+              <ref role="3cqZAo" node="35a9wK8sCo0" resolve="cachedIdentities" />
             </node>
           </node>
         </node>
@@ -1113,7 +1144,7 @@
         <node concept="3clFbF" id="3BCllXnpI_M" role="3cqZAp">
           <node concept="2OqwBi" id="3BCllXnpIPh" role="3clFbG">
             <node concept="37vLTw" id="3BCllXnpI_L" role="2Oq$k0">
-              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedValues" />
+              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedRoles" />
             </node>
             <node concept="liA8E" id="3BCllXnpJgZ" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
@@ -1143,12 +1174,74 @@
         <node concept="3clFbF" id="3BCllXnpJnn" role="3cqZAp">
           <node concept="2OqwBi" id="3BCllXnpJrC" role="3clFbG">
             <node concept="37vLTw" id="3BCllXnpJnm" role="2Oq$k0">
-              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedValues" />
+              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedRoles" />
             </node>
             <node concept="liA8E" id="3BCllXnpJ$G" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
               <node concept="37vLTw" id="3BCllXnpJ_O" role="37wK5m">
                 <ref role="3cqZAo" node="3BCllXnpItf" resolve="id" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="35a9wK8sMCi" role="jymVt" />
+    <node concept="3clFb_" id="35a9wK8sLNn" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setIdentity" />
+      <node concept="37vLTG" id="35a9wK8sLNo" role="3clF46">
+        <property role="TrG5h" value="id" />
+        <node concept="10Oyi0" id="35a9wK8sLNp" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="35a9wK8sLNq" role="3clF46">
+        <property role="TrG5h" value="val" />
+        <node concept="3uibUv" id="35a9wK8sQ1y" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="35a9wK8sLNs" role="3clF45" />
+      <node concept="3Tm1VV" id="35a9wK8sLNt" role="1B3o_S" />
+      <node concept="3clFbS" id="35a9wK8sLNu" role="3clF47">
+        <node concept="3clFbF" id="35a9wK8sLNv" role="3cqZAp">
+          <node concept="2OqwBi" id="35a9wK8sLNw" role="3clFbG">
+            <node concept="37vLTw" id="35a9wK8sROH" role="2Oq$k0">
+              <ref role="3cqZAo" node="35a9wK8sCo0" resolve="cachedIdentities" />
+            </node>
+            <node concept="liA8E" id="35a9wK8sLNy" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
+              <node concept="37vLTw" id="35a9wK8sLNz" role="37wK5m">
+                <ref role="3cqZAo" node="35a9wK8sLNo" resolve="id" />
+              </node>
+              <node concept="37vLTw" id="35a9wK8sLN$" role="37wK5m">
+                <ref role="3cqZAo" node="35a9wK8sLNq" resolve="val" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="35a9wK8sLN_" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getIdentity" />
+      <node concept="37vLTG" id="35a9wK8sLNA" role="3clF46">
+        <property role="TrG5h" value="id" />
+        <node concept="10Oyi0" id="35a9wK8sLNB" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="35a9wK8sSg0" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+      </node>
+      <node concept="3Tm1VV" id="35a9wK8sLND" role="1B3o_S" />
+      <node concept="3clFbS" id="35a9wK8sLNE" role="3clF47">
+        <node concept="3clFbF" id="35a9wK8sLNF" role="3cqZAp">
+          <node concept="2OqwBi" id="35a9wK8sLNG" role="3clFbG">
+            <node concept="37vLTw" id="35a9wK8sS2C" role="2Oq$k0">
+              <ref role="3cqZAo" node="35a9wK8sCo0" resolve="cachedIdentities" />
+            </node>
+            <node concept="liA8E" id="35a9wK8sLNI" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
+              <node concept="37vLTw" id="35a9wK8sLNJ" role="37wK5m">
+                <ref role="3cqZAo" node="35a9wK8sLNA" resolve="id" />
               </node>
             </node>
           </node>
@@ -1327,7 +1420,25 @@
               </node>
             </node>
             <node concept="37vLTw" id="7ojk6m6TV31" role="37vLTJ">
-              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedValues" />
+              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedRoles" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="35a9wK8sL5v" role="3cqZAp">
+          <node concept="37vLTI" id="35a9wK8sL5w" role="3clFbG">
+            <node concept="2ShNRf" id="35a9wK8sL5x" role="37vLTx">
+              <node concept="1pGfFk" id="35a9wK8sL5y" role="2ShVmc">
+                <ref role="37wK5l" to="33ny:~HashMap.&lt;init&gt;()" resolve="HashMap" />
+                <node concept="3uibUv" id="35a9wK8sL5z" role="1pMfVU">
+                  <ref role="3uigEE" to="wyt6:~Integer" resolve="Integer" />
+                </node>
+                <node concept="3uibUv" id="35a9wK8sL_6" role="1pMfVU">
+                  <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="35a9wK8sLnu" role="37vLTJ">
+              <ref role="3cqZAo" node="35a9wK8sCo0" resolve="cachedIdentities" />
             </node>
           </node>
         </node>
@@ -1379,6 +1490,7 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="35a9wK8sKrI" role="jymVt" />
     <node concept="3clFb_" id="6UG$gXA7dVf" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="gcClean" />
@@ -1437,22 +1549,51 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6j4XqQEGjSG" role="3cqZAp" />
-        <node concept="3clFbF" id="6UG$gXA7fbp" role="3cqZAp">
-          <node concept="2OqwBi" id="6UG$gXA7i3N" role="3clFbG">
-            <node concept="37vLTw" id="6UG$gXA7fbn" role="2Oq$k0">
-              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedValues" />
+        <node concept="3clFbH" id="35a9wK8sIYY" role="3cqZAp" />
+        <node concept="3clFbJ" id="35a9wK8sIiI" role="3cqZAp">
+          <node concept="3clFbS" id="35a9wK8sIiK" role="3clFbx">
+            <node concept="3clFbF" id="6UG$gXA7fbp" role="3cqZAp">
+              <node concept="2OqwBi" id="6UG$gXA7i3N" role="3clFbG">
+                <node concept="37vLTw" id="6UG$gXA7fbn" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedRoles" />
+                </node>
+                <node concept="liA8E" id="6UG$gXA7irQ" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~Map.clear():void" resolve="clear" />
+                </node>
+              </node>
             </node>
-            <node concept="liA8E" id="6UG$gXA7irQ" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Map.clear():void" resolve="clear" />
+            <node concept="3clFbF" id="6UG$gXA7izl" role="3cqZAp">
+              <node concept="37vLTI" id="6UG$gXA7iJy" role="3clFbG">
+                <node concept="10Nm6u" id="6UG$gXA7iMf" role="37vLTx" />
+                <node concept="37vLTw" id="6UG$gXA7izj" role="37vLTJ">
+                  <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedRoles" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="35a9wK8sJde" role="3cqZAp" />
+            <node concept="3clFbF" id="35a9wK8sJp0" role="3cqZAp">
+              <node concept="2OqwBi" id="35a9wK8sJvy" role="3clFbG">
+                <node concept="37vLTw" id="35a9wK8sJoY" role="2Oq$k0">
+                  <ref role="3cqZAo" node="35a9wK8sCo0" resolve="cachedIdentities" />
+                </node>
+                <node concept="liA8E" id="35a9wK8sJ_G" role="2OqNvi">
+                  <ref role="37wK5l" to="33ny:~Map.clear():void" resolve="clear" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="35a9wK8sJYr" role="3cqZAp">
+              <node concept="37vLTI" id="35a9wK8sK5R" role="3clFbG">
+                <node concept="10Nm6u" id="35a9wK8sK9F" role="37vLTx" />
+                <node concept="37vLTw" id="35a9wK8sJYp" role="37vLTJ">
+                  <ref role="3cqZAo" node="35a9wK8sCo0" resolve="cachedIdentities" />
+                </node>
+              </node>
             </node>
           </node>
-        </node>
-        <node concept="3clFbF" id="6UG$gXA7izl" role="3cqZAp">
-          <node concept="37vLTI" id="6UG$gXA7iJy" role="3clFbG">
-            <node concept="10Nm6u" id="6UG$gXA7iMf" role="37vLTx" />
-            <node concept="37vLTw" id="6UG$gXA7izj" role="37vLTJ">
-              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedValues" />
+          <node concept="3y3z36" id="35a9wK8sIyb" role="3clFbw">
+            <node concept="10Nm6u" id="35a9wK8sIAP" role="3uHU7w" />
+            <node concept="37vLTw" id="35a9wK8sIrC" role="3uHU7B">
+              <ref role="3cqZAo" node="3BCllXnpHgR" resolve="cachedRoles" />
             </node>
           </node>
         </node>
@@ -30976,7 +31117,7 @@
       <property role="TrG5h" value="jodaDateTimeTypeHandler" />
       <property role="3TUv4t" value="false" />
       <node concept="3uibUv" id="3$bhckDx2XB" role="1tU5fm">
-        <ref role="3uigEE" to="w7gk:7ITJFzooZFI" resolve="MMJodaDateTimeTypeHanlder" />
+        <ref role="3uigEE" to="w7gk:7ITJFzooZFI" resolve="MMJodaDateTimeTypeHandler" />
       </node>
       <node concept="3Tm6S6" id="3$bhckDx2XA" role="1B3o_S" />
     </node>
@@ -30985,7 +31126,7 @@
       <property role="TrG5h" value="jodaLocalDateTypeHandler" />
       <property role="3TUv4t" value="false" />
       <node concept="3uibUv" id="3$bhckDx2XF" role="1tU5fm">
-        <ref role="3uigEE" to="w7gk:7ITJFzopat9" resolve="MMJodaLocalDateTypeHanlder" />
+        <ref role="3uigEE" to="w7gk:7ITJFzopat9" resolve="MMJodaLocalDateTypeHandler" />
       </node>
       <node concept="3Tm6S6" id="3$bhckDx2XE" role="1B3o_S" />
     </node>
@@ -31073,13 +31214,13 @@
       <node concept="37vLTG" id="3$bhckDx2YK" role="3clF46">
         <property role="TrG5h" value="time" />
         <node concept="3uibUv" id="3$bhckDx2YL" role="1tU5fm">
-          <ref role="3uigEE" to="w7gk:7ITJFzooZFI" resolve="MMJodaDateTimeTypeHanlder" />
+          <ref role="3uigEE" to="w7gk:7ITJFzooZFI" resolve="MMJodaDateTimeTypeHandler" />
         </node>
       </node>
       <node concept="37vLTG" id="3$bhckDx2YM" role="3clF46">
         <property role="TrG5h" value="date" />
         <node concept="3uibUv" id="3$bhckDx2YN" role="1tU5fm">
-          <ref role="3uigEE" to="w7gk:7ITJFzopat9" resolve="MMJodaLocalDateTypeHanlder" />
+          <ref role="3uigEE" to="w7gk:7ITJFzopat9" resolve="MMJodaLocalDateTypeHandler" />
         </node>
       </node>
       <node concept="37vLTG" id="1YSLAaBztmv" role="3clF46">

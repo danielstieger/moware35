@@ -12,9 +12,13 @@
   <imports>
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
@@ -37,6 +41,7 @@
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
@@ -44,6 +49,9 @@
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+      </concept>
       <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
         <child id="1144226360166" name="iterable" index="1DdaDG" />
       </concept>
@@ -75,6 +83,7 @@
       <concept id="1206442659665" name="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" flags="in" index="3__wT9" />
       <concept id="1206442747519" name="jetbrains.mps.lang.dataFlow.structure.NodeParameter" flags="nn" index="3__QtB" />
       <concept id="1206443823146" name="jetbrains.mps.lang.dataFlow.structure.EmitReadStatement" flags="nn" index="3_DX4M" />
+      <concept id="1206444349662" name="jetbrains.mps.lang.dataFlow.structure.EmitWriteStatement" flags="nn" index="3_FXB6" />
       <concept id="1206444622344" name="jetbrains.mps.lang.dataFlow.structure.BaseEmitVariableStatement" flags="nn" index="3_H0cg">
         <child id="1206444629799" name="variable" index="3_H1SZ" />
       </concept>
@@ -93,6 +102,7 @@
       <concept id="1206462858103" name="jetbrains.mps.lang.dataFlow.structure.EmitRetStatement" flags="nn" index="3AM$9J" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
@@ -911,6 +921,34 @@
             <node concept="3__QtB" id="3U0QWztOsiE" role="2Oq$k0" />
             <node concept="3TrEf2" id="3U0QWztOstj" role="2OqNvi">
               <ref role="3Tt5mk" to="un0u:3U0QWztOr49" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="3_zdsH" id="35a9wK8g4hz">
+    <property role="3GE5qa" value="Permission" />
+    <ref role="3_znuS" to="un0u:35a9wK8brtc" resolve="IdentityReference" />
+    <node concept="3__wT9" id="35a9wK8g4h$" role="3_A6iZ">
+      <node concept="3clFbS" id="35a9wK8g4h_" role="2VODD2">
+        <node concept="3clFbJ" id="35a9wK8g4vK" role="3cqZAp">
+          <node concept="2OqwBi" id="35a9wK8g4y_" role="3clFbw">
+            <node concept="3__QtB" id="35a9wK8g4w6" role="2Oq$k0" />
+            <node concept="2qgKlT" id="35a9wK8g4BN" role="2OqNvi">
+              <ref role="37wK5l" to="tpek:hEwJgmE" resolve="isLValue" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="35a9wK8g4vM" role="3clFbx">
+            <node concept="3_FXB6" id="35a9wK8g4Di" role="3cqZAp">
+              <node concept="3__QtB" id="35a9wK8g4Dz" role="3_H1SZ" />
+            </node>
+          </node>
+          <node concept="9aQIb" id="35a9wK8g4Ee" role="9aQIa">
+            <node concept="3clFbS" id="35a9wK8g4Ef" role="9aQI4">
+              <node concept="3_DX4M" id="35a9wK8g4Ga" role="3cqZAp">
+                <node concept="3__QtB" id="35a9wK8g4Gn" role="3_H1SZ" />
+              </node>
             </node>
           </node>
         </node>
