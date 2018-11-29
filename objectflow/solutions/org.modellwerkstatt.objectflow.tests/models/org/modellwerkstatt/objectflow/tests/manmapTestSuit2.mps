@@ -525,6 +525,10 @@
         <property id="1009739194493278428" name="debugMe" index="2tzcyI" />
         <child id="8172309840349143194" name="expression" index="P6k0q" />
       </concept>
+      <concept id="3551693089219933861" name="org.modellwerkstatt.manmap.structure.OverWriteAutoIdOption" flags="ng" index="RoX2D">
+        <reference id="3551693089219933862" name="fieldMapping" index="RoX2E" />
+        <child id="3551693089220470795" name="sequence" index="Ru0S7" />
+      </concept>
       <concept id="6435836305144935126" name="org.modellwerkstatt.manmap.structure.GetQuery" flags="ng" index="TUlRj">
         <child id="6435836305144935143" name="argument" index="TUlRy" />
       </concept>
@@ -7341,6 +7345,10 @@
         <node concept="Xl_RD" id="4ksEJbWs4cP" role="12k7lF">
           <property role="Xl_RC" value="TXT_EXTENDEDSTR" />
         </node>
+      </node>
+      <node concept="RoX2D" id="35a9wK6fk0L" role="jyGaQ">
+        <ref role="RoX2E" node="70qPrkCybae" />
+        <node concept="Xl_RD" id="35a9wK6fk0M" role="Ru0S7" />
       </node>
     </node>
     <node concept="12nEzA" id="2i3o0hdZCdM" role="12nEwW">

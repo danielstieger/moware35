@@ -1106,5 +1106,19 @@
       <ref role="20lvS9" node="FplMliKLhC" resolve="NoKeyMapperField" />
     </node>
   </node>
+  <node concept="1TIwiD" id="35a9wK6avq_">
+    <property role="1pbfSe" value="930356401" />
+    <property role="3GE5qa" value="mapping.tableoptions" />
+    <property role="TrG5h" value="OverWriteAutoIdOption" />
+    <property role="34LRSv" value="OVERWRITE_AUTOID" />
+    <property role="R4oN_" value="when using include in this mapping" />
+    <ref role="1TJDcQ" node="EYyuKpdvfi" resolve="AutoidOption" />
+    <node concept="1TJgyj" id="35a9wK6avqA" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="fieldMapping" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="Kou8LehH1z" resolve="FieldMapping" />
+    </node>
+  </node>
 </model>
 

@@ -2341,6 +2341,83 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="35a9wK6b6iq" role="13h7CS">
+      <property role="TrG5h" value="getAutoIdOptions" />
+      <node concept="3Tm1VV" id="35a9wK6b6ir" role="1B3o_S" />
+      <node concept="A3Dl8" id="35a9wK6bYPB" role="3clF45">
+        <node concept="3Tqbb2" id="35a9wK6bYUr" role="A3Ik2">
+          <ref role="ehGHo" to="r5tz:Kou8LehH1z" resolve="FieldMapping" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="35a9wK6b6it" role="3clF47">
+        <node concept="3cpWs8" id="35a9wK6gSmV" role="3cqZAp">
+          <node concept="3cpWsn" id="35a9wK6gSmY" role="3cpWs9">
+            <property role="TrG5h" value="autoIds" />
+            <node concept="_YKpA" id="35a9wK6gSmR" role="1tU5fm">
+              <node concept="3Tqbb2" id="35a9wK6gSrR" role="_ZDj9">
+                <ref role="ehGHo" to="r5tz:EYyuKpdvfi" resolve="AutoidOption" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="35a9wK6gStH" role="33vP2m">
+              <node concept="Tc6Ow" id="35a9wK6gSte" role="2ShVmc">
+                <node concept="3Tqbb2" id="35a9wK6gStf" role="HW$YZ">
+                  <ref role="ehGHo" to="r5tz:EYyuKpdvfi" resolve="AutoidOption" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="35a9wK6gRNX" role="3cqZAp">
+          <node concept="3cpWsn" id="35a9wK6gRO0" role="3cpWs9">
+            <property role="TrG5h" value="mappings" />
+            <node concept="A3Dl8" id="35a9wK6gS1y" role="1tU5fm">
+              <node concept="3Tqbb2" id="35a9wK6gS1$" role="A3Ik2">
+                <ref role="ehGHo" to="r5tz:Kou8LehH1z" resolve="FieldMapping" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="2Oo32eoNPGs" role="33vP2m">
+              <node concept="2OqwBi" id="3JsUq_SfbUF" role="2Oq$k0">
+                <node concept="2OqwBi" id="2Oo32eoNPGl" role="2Oq$k0">
+                  <node concept="2qgKlT" id="3JsUq_SfbUA" role="2OqNvi">
+                    <ref role="37wK5l" node="3JsUq_Sf9_a" resolve="getIKeyMapping" />
+                  </node>
+                  <node concept="13iPFW" id="35a9wK6bAOf" role="2Oq$k0" />
+                </node>
+                <node concept="2qgKlT" id="3JsUq_SfbUN" role="2OqNvi">
+                  <ref role="37wK5l" node="3JsUq_Sf9k2" resolve="getKeyFieldMappings" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="2Oo32eoNPGx" role="2OqNvi">
+                <node concept="1bVj0M" id="2Oo32eoNPGy" role="23t8la">
+                  <node concept="3clFbS" id="2Oo32eoNPGz" role="1bW5cS">
+                    <node concept="3clFbF" id="1YSLAaC9BB3" role="3cqZAp">
+                      <node concept="2OqwBi" id="1YSLAaC9BKk" role="3clFbG">
+                        <node concept="37vLTw" id="1YSLAaC9BB2" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2Oo32eoNPG$" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="1YSLAaC9C3l" role="2OqNvi">
+                          <ref role="37wK5l" node="2Oo32eoNPGM" resolve="isAutoKey" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="2Oo32eoNPG$" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="2Oo32eoNPG_" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="35a9wK6gUWE" role="3cqZAp">
+          <node concept="37vLTw" id="35a9wK6gUXF" role="3cqZAk">
+            <ref role="3cqZAo" node="35a9wK6gRO0" resolve="mappings" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="35a9wK6gSee" role="3cqZAp" />
+      </node>
+    </node>
     <node concept="13i0hz" id="5_gFKlwJWmY" role="13h7CS">
       <property role="TrG5h" value="getFqName" />
       <property role="13i0it" value="false" />
@@ -3393,6 +3470,44 @@
   <node concept="13h7C7" id="Kou8LehQHX">
     <property role="3GE5qa" value="mapping" />
     <ref role="13h7C2" to="r5tz:Kou8LehH1z" resolve="FieldMapping" />
+    <node concept="13i0hz" id="35a9wK6fvdi" role="13h7CS">
+      <property role="TrG5h" value="getRepresentation" />
+      <node concept="3Tm1VV" id="35a9wK6fvdj" role="1B3o_S" />
+      <node concept="17QB3L" id="35a9wK6fwTW" role="3clF45" />
+      <node concept="3clFbS" id="35a9wK6fvdl" role="3clF47">
+        <node concept="3clFbJ" id="35a9wK6fxi2" role="3cqZAp">
+          <node concept="3clFbS" id="35a9wK6fxi4" role="3clFbx">
+            <node concept="3cpWs6" id="35a9wK6fxL$" role="3cqZAp">
+              <node concept="Xl_RD" id="35a9wK6fxLM" role="3cqZAk">
+                <property role="Xl_RC" value="-" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="35a9wK6fxxO" role="3clFbw">
+            <node concept="2OqwBi" id="35a9wK6fxkW" role="2Oq$k0">
+              <node concept="13iPFW" id="35a9wK6fxiw" role="2Oq$k0" />
+              <node concept="3TrEf2" id="35a9wK6fxpE" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:Kou8LehQEJ" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="35a9wK6fxLi" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="35a9wK6fwU0" role="3cqZAp">
+          <node concept="2OqwBi" id="35a9wK6fx99" role="3clFbG">
+            <node concept="2OqwBi" id="35a9wK6fwWq" role="2Oq$k0">
+              <node concept="13iPFW" id="35a9wK6fwTZ" role="2Oq$k0" />
+              <node concept="3TrEf2" id="35a9wK6fx12" role="2OqNvi">
+                <ref role="3Tt5mk" to="r5tz:Kou8LehQEJ" />
+              </node>
+            </node>
+            <node concept="3TrcHB" id="35a9wK6fxh5" role="2OqNvi">
+              <ref role="3TsBF5" to="tpee:huRkwj$" resolve="propertyName" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="13i0hz" id="hm5BQDG$sR" role="13h7CS">
       <property role="TrG5h" value="getFieldOptionsFromProvider" />
       <node concept="37vLTG" id="hm5BQDG_3o" role="3clF46">
@@ -9969,6 +10084,62 @@
     <ref role="13h7C2" to="r5tz:7ng6PyCaQV0" resolve="RowMapperFieldRef" />
     <node concept="13hLZK" id="FplMliZTSE" role="13h7CW">
       <node concept="3clFbS" id="FplMliZTSF" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="35a9wK6gNkO">
+    <property role="3GE5qa" value="mapping.fieldoptions" />
+    <ref role="13h7C2" to="r5tz:EYyuKpdvfi" resolve="AutoidOption" />
+    <node concept="13i0hz" id="35a9wK6gNkR" role="13h7CS">
+      <property role="TrG5h" value="getRelevantFieldMapping" />
+      <property role="13i0it" value="true" />
+      <node concept="3Tm1VV" id="35a9wK6gNkS" role="1B3o_S" />
+      <node concept="3Tqbb2" id="35a9wK6gNkZ" role="3clF45">
+        <ref role="ehGHo" to="r5tz:Kou8LehH1z" resolve="FieldMapping" />
+      </node>
+      <node concept="3clFbS" id="35a9wK6gNkU" role="3clF47">
+        <node concept="3clFbF" id="35a9wK6gNl3" role="3cqZAp">
+          <node concept="2OqwBi" id="35a9wK6gNyG" role="3clFbG">
+            <node concept="13iPFW" id="35a9wK6gNwG" role="2Oq$k0" />
+            <node concept="2Xjw5R" id="35a9wK6gNDH" role="2OqNvi">
+              <node concept="1xMEDy" id="35a9wK6gNDJ" role="1xVPHs">
+                <node concept="chp4Y" id="35a9wK6gNEf" role="ri$Ld">
+                  <ref role="cht4Q" to="r5tz:Kou8LehH1z" resolve="FieldMapping" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="35a9wK6gNkP" role="13h7CW">
+      <node concept="3clFbS" id="35a9wK6gNkQ" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="35a9wK6gNF9">
+    <property role="3GE5qa" value="mapping.tableoptions" />
+    <ref role="13h7C2" to="r5tz:35a9wK6avq_" resolve="OverWriteAutoIdOption" />
+    <node concept="13hLZK" id="35a9wK6gNFa" role="13h7CW">
+      <node concept="3clFbS" id="35a9wK6gNFb" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="35a9wK6gNFX" role="13h7CS">
+      <property role="TrG5h" value="getRelevantFieldMapping" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="35a9wK6gNkR" resolve="getRelevantFieldMapping" />
+      <node concept="3Tm1VV" id="35a9wK6gNFY" role="1B3o_S" />
+      <node concept="3clFbS" id="35a9wK6gNG7" role="3clF47">
+        <node concept="3clFbF" id="35a9wK6gNHw" role="3cqZAp">
+          <node concept="2OqwBi" id="35a9wK6gNJU" role="3clFbG">
+            <node concept="13iPFW" id="35a9wK6gNHv" role="2Oq$k0" />
+            <node concept="3TrEf2" id="35a9wK6gNOy" role="2OqNvi">
+              <ref role="3Tt5mk" to="r5tz:35a9wK6avqA" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="35a9wK6gNG8" role="3clF45">
+        <ref role="ehGHo" to="r5tz:Kou8LehH1z" resolve="FieldMapping" />
+      </node>
     </node>
   </node>
 </model>
