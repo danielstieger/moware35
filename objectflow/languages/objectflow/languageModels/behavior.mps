@@ -18888,5 +18888,31 @@
       <node concept="3clFbS" id="35a9wK8g2K6" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="6Lgq4tpeqk0">
+    <property role="3GE5qa" value="Permission" />
+    <ref role="13h7C2" to="un0u:49kO6rQko5U" resolve="DynamicRoleRestrictions" />
+    <node concept="13i0hz" id="6Lgq4tpeqk3" role="13h7CS">
+      <property role="TrG5h" value="getRoles" />
+      <node concept="3Tm1VV" id="6Lgq4tpeqk4" role="1B3o_S" />
+      <node concept="A3Dl8" id="6Lgq4tpeqkA" role="3clF45">
+        <node concept="3Tqbb2" id="6Lgq4tpeql6" role="A3Ik2">
+          <ref role="ehGHo" to="un0u:3UOln1HfB5Q" resolve="DynamicRole" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="6Lgq4tpeqk6" role="3clF47">
+        <node concept="3clFbF" id="6Lgq4tpeqo3" role="3cqZAp">
+          <node concept="2OqwBi" id="6Lgq4tpeqql" role="3clFbG">
+            <node concept="13iPFW" id="6Lgq4tpeqoL" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="6Lgq4tpeqta" role="2OqNvi">
+              <ref role="3TtcxE" to="un0u:49kO6rQko65" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="6Lgq4tpeqk1" role="13h7CW">
+      <node concept="3clFbS" id="6Lgq4tpeqk2" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

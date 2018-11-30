@@ -954,6 +954,10 @@
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="dw32:5zF9hZsDuXt" resolve="Test Service" />
     </node>
+    <node concept="1DZZI9" id="6Lgq4tptfnK" role="38MLOi">
+      <property role="26Iqih" value="true" />
+      <ref role="1DZZIc" to="dw32:6Lgq4tpieLM" resolve="Test RolesAndPermission" />
+    </node>
     <node concept="1DZZI9" id="59ImdfaBs1E" role="38MLOi">
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" node="59ImdfaBg4p" resolve="Service Method Dispatchment" />

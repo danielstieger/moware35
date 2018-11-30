@@ -6286,6 +6286,14 @@
         <property role="3F0ifm" value="identities:" />
         <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
       </node>
+      <node concept="3F0ifn" id="6Lgq4tp4NPH" role="3EZMnx">
+        <property role="3F0ifm" value="// initialize on app init" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+      </node>
+      <node concept="3F0ifn" id="6Lgq4tp4O8T" role="3EZMnx">
+        <property role="3F0ifm" value="// reload() in graph_owner, reload() and check in final_ok" />
+        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+      </node>
       <node concept="3F2HdR" id="35a9wK7Vvd5" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:35a9wK7WMyq" />
         <node concept="2iRkQZ" id="35a9wK7Vvd6" role="2czzBx" />
