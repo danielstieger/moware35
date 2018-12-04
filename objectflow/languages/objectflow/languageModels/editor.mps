@@ -10333,7 +10333,7 @@
         <ref role="1NtTu8" to="un0u:3U0QWzu$7oy" />
       </node>
       <node concept="3F0ifn" id="3U0QWzu_6g8" role="3EZMnx">
-        <property role="3F0ifm" value="=&gt; suspend work for" />
+        <property role="3F0ifm" value="=&gt; deleay execution for " />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
       </node>
       <node concept="3F0A7n" id="7bWGJuRGXzG" role="3EZMnx">
