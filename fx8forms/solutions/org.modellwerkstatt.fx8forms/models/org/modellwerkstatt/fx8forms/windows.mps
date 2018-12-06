@@ -14901,6 +14901,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="65cu2fSODfy" role="3cqZAp">
+          <node concept="2OqwBi" id="65cu2fSODqK" role="3clFbG">
+            <node concept="37vLTw" id="65cu2fSODfw" role="2Oq$k0">
+              <ref role="3cqZAo" node="49KAmBlSN2d" resolve="l" />
+            </node>
+            <node concept="liA8E" id="65cu2fSODWt" role="2OqNvi">
+              <ref role="37wK5l" to="rb41:~Labeled.setWrapText(boolean):void" resolve="setWrapText" />
+              <node concept="3clFbT" id="65cu2fSODY_" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="49KAmBlSQ6D" role="3cqZAp">
           <node concept="2OqwBi" id="49KAmBlSUPC" role="3clFbG">
             <node concept="2OqwBi" id="49KAmBlSQQ5" role="2Oq$k0">
@@ -15281,6 +15294,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="65cu2fSOuw8" role="3cqZAp">
+          <node concept="2OqwBi" id="65cu2fSOuC$" role="3clFbG">
+            <node concept="37vLTw" id="65cu2fSOuw6" role="2Oq$k0">
+              <ref role="3cqZAo" node="49KAmBlSZw4" resolve="l" />
+            </node>
+            <node concept="liA8E" id="65cu2fSOv3X" role="2OqNvi">
+              <ref role="37wK5l" to="rb41:~Labeled.setWrapText(boolean):void" resolve="setWrapText" />
+              <node concept="3clFbT" id="65cu2fSOvfK" role="37wK5m">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="5_bDd1dtQqZ" role="3cqZAp">
           <node concept="2OqwBi" id="5_bDd1dtQr0" role="3clFbG">
             <node concept="37vLTw" id="5_bDd1dtQr1" role="2Oq$k0">
@@ -15577,6 +15603,19 @@
                 <node concept="37vLTw" id="4Ucpg8z_p9F" role="37wK5m">
                   <ref role="3cqZAo" node="4Ucpg8z_8wk" resolve="info" />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="65cu2fSOEga" role="3cqZAp">
+          <node concept="2OqwBi" id="65cu2fSOEgb" role="3clFbG">
+            <node concept="37vLTw" id="65cu2fSOEgc" role="2Oq$k0">
+              <ref role="3cqZAo" node="4vlJhW$6DYa" resolve="l" />
+            </node>
+            <node concept="liA8E" id="65cu2fSOEgd" role="2OqNvi">
+              <ref role="37wK5l" to="rb41:~Labeled.setWrapText(boolean):void" resolve="setWrapText" />
+              <node concept="3clFbT" id="65cu2fSOEge" role="37wK5m">
+                <property role="3clFbU" value="true" />
               </node>
             </node>
           </node>

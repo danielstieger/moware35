@@ -2149,6 +2149,39 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="65cu2fSOWsm" role="jymVt" />
+    <node concept="2tJIrI" id="65cu2fSP0aV" role="jymVt" />
+    <node concept="3clFb_" id="65cu2fSP9Vk" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="clearCurrentInbox" />
+      <node concept="3Tm1VV" id="65cu2fSP9Vm" role="1B3o_S" />
+      <node concept="17QB3L" id="65cu2fSP9Vn" role="3clF45" />
+      <node concept="3clFbS" id="65cu2fSP9Vr" role="3clF47">
+        <node concept="3clFbF" id="65cu2fSPfbC" role="3cqZAp">
+          <node concept="1rXfSq" id="65cu2fSPfbB" role="3clFbG">
+            <ref role="37wK5l" node="7BWfrtCZte1" resolve="receive" />
+            <node concept="2ShNRf" id="65cu2fSPgMw" role="37wK5m">
+              <node concept="1pGfFk" id="65cu2fSPh5s" role="2ShVmc">
+                <ref role="37wK5l" node="65cu2fSPfMz" resolve="ClearInboxMsg" />
+                <node concept="3cmrfG" id="65cu2fSPiKV" role="37wK5m">
+                  <property role="3cmrfH" value="-1" />
+                </node>
+                <node concept="37vLTw" id="65cu2fSPhFa" role="37wK5m">
+                  <ref role="3cqZAo" node="5lMTsSlyD12" resolve="thisPCPairID" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="65cu2fSPpx0" role="3cqZAp">
+          <node concept="Xl_RD" id="65cu2fSPpRi" role="3cqZAk">
+            <property role="Xl_RC" value="Clear inbox for this pair! WARNING - This will presumambly result in a PRODUCER RESCHEDULE or running the next DEPENDEND PAIR!" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="65cu2fSP59D" role="jymVt" />
     <node concept="3clFb_" id="3yI9$tKe$mE" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="2aFKle" value="false" />
@@ -3160,6 +3193,65 @@
                         </node>
                       </node>
                       <node concept="3clFbH" id="1TthV9fMx1W" role="3cqZAp" />
+                    </node>
+                  </node>
+                  <node concept="3eNFk2" id="65cu2fSS2NL" role="3eNLev">
+                    <node concept="2ZW3vV" id="65cu2fSS4Iq" role="3eO9$A">
+                      <node concept="3uibUv" id="65cu2fSS5LL" role="2ZW6by">
+                        <ref role="3uigEE" node="65cu2fSPfEI" resolve="ClearInboxMsg" />
+                      </node>
+                      <node concept="37vLTw" id="65cu2fSS4EP" role="2ZW6bz">
+                        <ref role="3cqZAo" node="7BWfrtCZtdp" resolve="currentMessageProcessing" />
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="65cu2fSS2NN" role="3eOfB_">
+                      <node concept="3cpWs8" id="65cu2fSSfAC" role="3cqZAp">
+                        <node concept="3cpWsn" id="65cu2fSSfAF" role="3cpWs9">
+                          <property role="TrG5h" value="size" />
+                          <node concept="10Oyi0" id="65cu2fSSfAA" role="1tU5fm" />
+                          <node concept="2OqwBi" id="65cu2fSSfVg" role="33vP2m">
+                            <node concept="37vLTw" id="65cu2fSSfJD" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                            </node>
+                            <node concept="liA8E" id="65cu2fSSglv" role="2OqNvi">
+                              <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="65cu2fSS7F8" role="3cqZAp">
+                        <node concept="2OqwBi" id="65cu2fSS7NX" role="3clFbG">
+                          <node concept="37vLTw" id="65cu2fSS7F6" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                          </node>
+                          <node concept="liA8E" id="65cu2fSS8xN" role="2OqNvi">
+                            <ref role="37wK5l" to="33ny:~AbstractQueue.clear():void" resolve="clear" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="65cu2fSS9Vt" role="3cqZAp">
+                        <node concept="1rXfSq" id="65cu2fSS9Vu" role="3clFbG">
+                          <ref role="37wK5l" node="2fj6lk$8KUO" resolve="prot" />
+                          <node concept="Rm8GO" id="65cu2fSS9Vv" role="37wK5m">
+                            <ref role="1Px2BO" node="2fj6lk$8KUF" resolve="JmxBatchJobCoreReporter.Cat" />
+                            <ref role="Rm8GQ" node="2fj6lk$8KUH" resolve="INFO" />
+                          </node>
+                          <node concept="3cpWs3" id="65cu2fSSivx" role="37wK5m">
+                            <node concept="Xl_RD" id="65cu2fSSixa" role="3uHU7w">
+                              <property role="Xl_RC" value=" items removed from inbox!" />
+                            </node>
+                            <node concept="3cpWs3" id="65cu2fSSemJ" role="3uHU7B">
+                              <node concept="Xl_RD" id="65cu2fSS9Vy" role="3uHU7B">
+                                <property role="Xl_RC" value="Clear Inbox Message processed: " />
+                              </node>
+                              <node concept="37vLTw" id="65cu2fSShr8" role="3uHU7w">
+                                <ref role="3cqZAo" node="65cu2fSSfAF" resolve="size" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="65cu2fSS6He" role="3cqZAp" />
                     </node>
                   </node>
                   <node concept="3eNFk2" id="5lMTsSlwI_w" role="3eNLev">
@@ -7238,6 +7330,23 @@
         <node concept="3clFbF" id="7XC7Kvk8hjP" role="3cqZAp">
           <node concept="37vLTw" id="7XC7Kvk8hjO" role="3clFbG">
             <ref role="3cqZAo" node="5lMTsSlHvam" resolve="thisPCPairName" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="65cu2fTkyNz" role="jymVt">
+      <property role="TrG5h" value="getNumOfConsumers" />
+      <node concept="10Oyi0" id="65cu2fTkBPI" role="3clF45" />
+      <node concept="3Tm1VV" id="65cu2fTkyNA" role="1B3o_S" />
+      <node concept="3clFbS" id="65cu2fTkyNB" role="3clF47">
+        <node concept="3clFbF" id="65cu2fTl0IR" role="3cqZAp">
+          <node concept="2OqwBi" id="65cu2fTl0RV" role="3clFbG">
+            <node concept="37vLTw" id="65cu2fTl0IQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="7BWfrtCZtdt" resolve="allConsumers" />
+            </node>
+            <node concept="liA8E" id="65cu2fTl2aT" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+            </node>
           </node>
         </node>
       </node>
@@ -12545,6 +12654,14 @@
       <node concept="3clFbS" id="1fA$ubVz0UH" role="3clF47" />
       <node concept="3Tm1VV" id="1fA$ubVz0UI" role="1B3o_S" />
       <node concept="17QB3L" id="1fA$ubVz0UJ" role="3clF45" />
+    </node>
+    <node concept="3clFb_" id="65cu2fSORgd" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="clearCurrentInbox" />
+      <node concept="3clFbS" id="65cu2fSORgg" role="3clF47" />
+      <node concept="3Tm1VV" id="65cu2fSORgh" role="1B3o_S" />
+      <node concept="17QB3L" id="65cu2fSORb3" role="3clF45" />
     </node>
     <node concept="3clFb_" id="7X5ehdobR3R" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -17977,6 +18094,32 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="65cu2fTkc$D" role="3cqZAp">
+              <node concept="2OqwBi" id="65cu2fTkcMv" role="3clFbG">
+                <node concept="37vLTw" id="65cu2fTkc$B" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7tfEsbGWjZY" resolve="dashinfo" />
+                </node>
+                <node concept="liA8E" id="65cu2fTkcQj" role="2OqNvi">
+                  <ref role="37wK5l" node="5w7roaPFdmr" resolve="addMonitoringInfo" />
+                  <node concept="Xl_RD" id="65cu2fTkcRJ" role="37wK5m">
+                    <property role="Xl_RC" value="Num of consumers" />
+                  </node>
+                  <node concept="3cpWs3" id="65cu2fTl98z" role="37wK5m">
+                    <node concept="Xl_RD" id="65cu2fTl9aE" role="3uHU7B">
+                      <property role="Xl_RC" value="" />
+                    </node>
+                    <node concept="2OqwBi" id="65cu2fTkd03" role="3uHU7w">
+                      <node concept="37vLTw" id="65cu2fTkcXn" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7tfEsbGWwUu" resolve="crtl" />
+                      </node>
+                      <node concept="liA8E" id="65cu2fTl5cF" role="2OqNvi">
+                        <ref role="37wK5l" node="65cu2fTkyNz" resolve="getNumOfConsumers" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="7tfEsbGWAzm" role="3cqZAp">
               <node concept="2OqwBi" id="7tfEsbGWAzn" role="3clFbG">
                 <node concept="37vLTw" id="7tfEsbGWAzo" role="2Oq$k0">
@@ -21886,6 +22029,40 @@
     <node concept="2tJIrI" id="4InK$iNszQO" role="jymVt" />
     <node concept="3Tm1VV" id="4InK$iNszHe" role="1B3o_S" />
     <node concept="3uibUv" id="4InK$iNszQ$" role="1zkMxy">
+      <ref role="3uigEE" node="7BWfrtCZHjD" resolve="Message" />
+    </node>
+  </node>
+  <node concept="312cEu" id="65cu2fSPfEI">
+    <property role="3GE5qa" value="msg" />
+    <property role="TrG5h" value="ClearInboxMsg" />
+    <node concept="2tJIrI" id="65cu2fSPfMg" role="jymVt" />
+    <node concept="3clFbW" id="65cu2fSPfMz" role="jymVt">
+      <node concept="37vLTG" id="65cu2fSPfYw" role="3clF46">
+        <property role="TrG5h" value="consId" />
+        <node concept="10Oyi0" id="65cu2fSPfYx" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="65cu2fSPfYy" role="3clF46">
+        <property role="TrG5h" value="aPcPairReceiverID" />
+        <node concept="10Oyi0" id="65cu2fSPfYz" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="65cu2fSPfM_" role="3clF45" />
+      <node concept="3Tm1VV" id="65cu2fSPfMA" role="1B3o_S" />
+      <node concept="3clFbS" id="65cu2fSPfMB" role="3clF47">
+        <node concept="XkiVB" id="65cu2fSPfN5" role="3cqZAp">
+          <ref role="37wK5l" node="7BWfrtCZHux" resolve="Message" />
+          <node concept="37vLTw" id="65cu2fSPfZv" role="37wK5m">
+            <ref role="3cqZAo" node="65cu2fSPfYw" resolve="consId" />
+          </node>
+          <node concept="37vLTw" id="65cu2fSPg0p" role="37wK5m">
+            <ref role="3cqZAo" node="65cu2fSPfYy" resolve="aPcPairReceiverID" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="65cu2fSPg0O" role="jymVt" />
+    <node concept="2tJIrI" id="65cu2fSPg1h" role="jymVt" />
+    <node concept="3Tm1VV" id="65cu2fSPfEJ" role="1B3o_S" />
+    <node concept="3uibUv" id="65cu2fSPfM2" role="1zkMxy">
       <ref role="3uigEE" node="7BWfrtCZHjD" resolve="Message" />
     </node>
   </node>
