@@ -7512,6 +7512,24 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="6GJ49gRYy1S" role="jymVt">
+      <property role="TrG5h" value="getNumberOfConsumers" />
+      <node concept="10Oyi0" id="6GJ49gRYT_C" role="3clF45" />
+      <node concept="3Tm1VV" id="6GJ49gRYy1V" role="1B3o_S" />
+      <node concept="3clFbS" id="6GJ49gRYy1W" role="3clF47">
+        <node concept="3clFbF" id="6GJ49gRYLTc" role="3cqZAp">
+          <node concept="2OqwBi" id="6GJ49gRYM0b" role="3clFbG">
+            <node concept="37vLTw" id="6GJ49gRYLTb" role="2Oq$k0">
+              <ref role="3cqZAo" node="7BWfrtCZtdt" resolve="allConsumers" />
+            </node>
+            <node concept="liA8E" id="6GJ49gRYNnJ" role="2OqNvi">
+              <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="6GJ49gRYOjj" role="jymVt" />
     <node concept="3clFb_" id="1w1E2yWpAi2" role="jymVt">
       <property role="TrG5h" value="needsShutdownMsg" />
       <node concept="10P_77" id="1w1E2yWpEDP" role="3clF45" />
@@ -18433,6 +18451,32 @@
                       <node concept="Xl_RD" id="7tfEsbGWwhM" role="3uHU7w">
                         <property role="Xl_RC" value=": " />
                       </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="6GJ49gRYlz8" role="3cqZAp">
+              <node concept="2OqwBi" id="6GJ49gRYlM7" role="3clFbG">
+                <node concept="37vLTw" id="6GJ49gRYlz6" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7tfEsbGWjZY" resolve="dashinfo" />
+                </node>
+                <node concept="liA8E" id="6GJ49gRYlPt" role="2OqNvi">
+                  <ref role="37wK5l" node="5w7roaPFdmr" resolve="addMonitoringInfo" />
+                  <node concept="Xl_RD" id="6GJ49gRYlR7" role="37wK5m">
+                    <property role="Xl_RC" value="Number of Consumers" />
+                  </node>
+                  <node concept="3cpWs3" id="6GJ49gRYlXN" role="37wK5m">
+                    <node concept="2OqwBi" id="6GJ49gRYm2B" role="3uHU7w">
+                      <node concept="37vLTw" id="6GJ49gRYlZQ" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7tfEsbGWwUu" resolve="crtl" />
+                      </node>
+                      <node concept="liA8E" id="6GJ49gRYm6y" role="2OqNvi">
+                        <ref role="37wK5l" node="6GJ49gRYy1S" resolve="getNumberOfConsumers" />
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="6GJ49gRYlVE" role="3uHU7B">
+                      <property role="Xl_RC" value="" />
                     </node>
                   </node>
                 </node>
