@@ -19483,6 +19483,19 @@
             </node>
           </node>
           <node concept="3clFbS" id="s_xv0_kIj8" role="2GV8ay">
+            <node concept="3clFbH" id="5of9Qp2Bycd" role="3cqZAp" />
+            <node concept="3SKdUt" id="5of9Qp2Byd4" role="3cqZAp">
+              <node concept="3SKdUq" id="5of9Qp2Byd5" role="3SKWNk">
+                <property role="3SKdUp" value="init spring ioc first : )" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="5of9Qp2Byd6" role="3cqZAp">
+              <node concept="2YIFZM" id="5of9Qp2Byd7" role="3clFbG">
+                <ref role="37wK5l" to="28jr:2h5WDoUYWm9" resolve="initRichClientSetup" />
+                <ref role="1Pybhc" to="28jr:2UFgF_pdJvB" resolve="Log4JProperties" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="5of9Qp2BycC" role="3cqZAp" />
             <node concept="3cpWs8" id="s_xv0_6D1D" role="3cqZAp">
               <node concept="3cpWsn" id="s_xv0_6D1E" role="3cpWs9">
                 <property role="TrG5h" value="module" />
