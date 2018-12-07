@@ -360,7 +360,7 @@
     <property role="3GE5qa" value="Service" />
     <property role="TrG5h" value="OperationCall" />
     <property role="34LRSv" value="#" />
-    <property role="R4oN_" value="run service operation" />
+    <property role="R4oN_" value="call component method" />
     <property role="1pbfSe" value="580839380" />
     <ref role="1TJDcQ" to="tpee:fz7wK6G" resolve="BaseMethodCall" />
     <node concept="1TJgyj" id="2P7gGuypd_d" role="1TKVEi">

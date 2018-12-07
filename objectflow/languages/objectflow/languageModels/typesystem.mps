@@ -1566,7 +1566,7 @@
           <node concept="3clFbS" id="1Csx3LqDdAb" role="3eOfB_">
             <node concept="2MkqsV" id="1Csx3LqDdBd" role="3cqZAp">
               <node concept="Xl_RD" id="1Csx3LqDdBg" role="2MkJ7o">
-                <property role="Xl_RC" value="Object holding the status has to be a ViewObject or an Entity!" />
+                <property role="Xl_RC" value="Object holding the status has to be an Entity!" />
               </node>
               <node concept="2OqwBi" id="1Csx3LqDdBw" role="2OEOjV">
                 <node concept="2OqwBi" id="1Csx3LqDdBm" role="2Oq$k0">
