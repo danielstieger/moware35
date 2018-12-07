@@ -1528,7 +1528,7 @@
         <node concept="3clFbS" id="1Csx3LqDd_m" role="3clFbx">
           <node concept="2MkqsV" id="1Csx3LqDd_z" role="3cqZAp">
             <node concept="Xl_RD" id="1Csx3LqDd_A" role="2MkJ7o">
-              <property role="Xl_RC" value="Exactly one businessobject has do be specified for this process as a parameter!" />
+              <property role="Xl_RC" value="Exactly one Entity has do be specified for this process as a parameter!" />
             </node>
             <node concept="1YBJjd" id="1Csx3LqDd_B" role="2OEOjV">
               <ref role="1YBMHb" node="1Csx3LqDd$Y" resolve="prcs" />

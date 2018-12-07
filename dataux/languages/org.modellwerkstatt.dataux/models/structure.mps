@@ -967,6 +967,9 @@
     <node concept="PrWs8" id="2N7eHMakYK0" role="PzmwI">
       <ref role="PrY4T" node="2N7eHMakYIc" resolve="IModule" />
     </node>
+    <node concept="PrWs8" id="1Zhh974J5Yp" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6K73LRuXmzF">
     <property role="1pbfSe" value="1258059784" />
@@ -1232,6 +1235,9 @@
     <node concept="PrWs8" id="2B50FNVZuOp" role="PzmwI">
       <ref role="PrY4T" node="2N7eHMakYIc" resolve="IModule" />
     </node>
+    <node concept="PrWs8" id="1Zhh974J8Bw" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="PlHQZ" id="2N7eHMakYIc">
     <property role="1pbfSe" value="1222957464" />
@@ -1241,7 +1247,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
+      <ref role="20lvS9" to="un0u:q_zDmI5v5l" resolve="Config" />
     </node>
     <node concept="1TJgyj" id="2N7eHMakYJu" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

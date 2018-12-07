@@ -882,6 +882,9 @@
     <node concept="PrWs8" id="6ffh1MXA9UF" role="PzmwI">
       <ref role="PrY4T" node="6ffh1MX_A5f" resolve="ISpaceNamed" />
     </node>
+    <node concept="PrWs8" id="1Zhh973W4LU" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6ffh1MXA9UI">
     <property role="3GE5qa" value="OFXCore.infra" />
