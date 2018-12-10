@@ -4890,7 +4890,7 @@
           <node concept="1rXfSq" id="7tfEsbHU1NZ" role="3clFbG">
             <ref role="37wK5l" node="4NpYXr63ibf" resolve="setInternalState" />
             <node concept="Xl_RD" id="7tfEsbHU1O0" role="37wK5m">
-              <property role="Xl_RC" value="Existed eventloop, informing timerController" />
+              <property role="Xl_RC" value="Exited eventloop, informing timerController" />
             </node>
           </node>
         </node>
@@ -5896,28 +5896,44 @@
                     <ref role="1Px2BO" node="2fj6lk$8KUF" resolve="JmxBatchJobCoreReporter.Cat" />
                     <ref role="Rm8GQ" node="2fj6lk$8KUJ" resolve="JOB_ERROR" />
                   </node>
-                  <node concept="3cpWs3" id="4InK$iNqkVZ" role="37wK5m">
-                    <node concept="3fqX7Q" id="4InK$iNqmhn" role="3uHU7w">
-                      <node concept="37vLTw" id="4InK$iNqnwA" role="3fr31v">
-                        <ref role="3cqZAo" node="5lMTsSl$mR2" resolve="manualRun" />
+                  <node concept="3cpWs3" id="7n_$dfXfz7X" role="37wK5m">
+                    <node concept="2OqwBi" id="7n_$dfXf$NW" role="3uHU7w">
+                      <node concept="37vLTw" id="7n_$dfXf$_T" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4NpYXr5VCvU" resolve="timerContoller" />
+                      </node>
+                      <node concept="liA8E" id="7n_$dfXfAbW" role="2OqNvi">
+                        <ref role="37wK5l" node="4InK$iNK7vr" resolve="getFullStatusReport" />
+                        <node concept="10Nm6u" id="7n_$dfXfAI1" role="37wK5m" />
                       </node>
                     </node>
-                    <node concept="3cpWs3" id="4InK$iNqfuv" role="3uHU7B">
-                      <node concept="3cpWs3" id="5lMTsSl$CYz" role="3uHU7B">
-                        <node concept="Xl_RD" id="5lMTsSl$$NT" role="3uHU7B">
-                          <property role="Xl_RC" value="Requested a producer-run while still processing isNoConsumerWorking()=false, inbox size=" />
-                        </node>
-                        <node concept="2OqwBi" id="5lMTsSl$OFA" role="3uHU7w">
-                          <node concept="37vLTw" id="5lMTsSl$Oy6" role="2Oq$k0">
-                            <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                    <node concept="3cpWs3" id="7n_$dfXfrNc" role="3uHU7B">
+                      <node concept="3cpWs3" id="4InK$iNqkVZ" role="3uHU7B">
+                        <node concept="3cpWs3" id="4InK$iNqfuv" role="3uHU7B">
+                          <node concept="3cpWs3" id="5lMTsSl$CYz" role="3uHU7B">
+                            <node concept="Xl_RD" id="5lMTsSl$$NT" role="3uHU7B">
+                              <property role="Xl_RC" value="Requested a producer-run while still processing isNoConsumerWorking()=false, inbox size=" />
+                            </node>
+                            <node concept="2OqwBi" id="5lMTsSl$OFA" role="3uHU7w">
+                              <node concept="37vLTw" id="5lMTsSl$Oy6" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                              </node>
+                              <node concept="liA8E" id="5lMTsSl$OSW" role="2OqNvi">
+                                <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
+                              </node>
+                            </node>
                           </node>
-                          <node concept="liA8E" id="5lMTsSl$OSW" role="2OqNvi">
-                            <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
+                          <node concept="Xl_RD" id="4InK$iNqfO$" role="3uHU7w">
+                            <property role="Xl_RC" value=" =&gt; rescheduling? " />
+                          </node>
+                        </node>
+                        <node concept="3fqX7Q" id="4InK$iNqmhn" role="3uHU7w">
+                          <node concept="37vLTw" id="4InK$iNqnwA" role="3fr31v">
+                            <ref role="3cqZAo" node="5lMTsSl$mR2" resolve="manualRun" />
                           </node>
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="4InK$iNqfO$" role="3uHU7w">
-                        <property role="Xl_RC" value=" =&gt; rescheduling? " />
+                      <node concept="Xl_RD" id="7n_$dfXfs3O" role="3uHU7w">
+                        <property role="Xl_RC" value="\n\nDebug Information.. " />
                       </node>
                     </node>
                   </node>
@@ -21078,6 +21094,65 @@
     </node>
     <node concept="2tJIrI" id="7XC7Kvk6UrY" role="jymVt" />
     <node concept="2tJIrI" id="4$zcAetsWor" role="jymVt" />
+    <node concept="2YIFZL" id="7n_$dfX0Jqp" role="jymVt">
+      <property role="TrG5h" value="main" />
+      <node concept="37vLTG" id="7n_$dfX0Jqq" role="3clF46">
+        <property role="TrG5h" value="args" />
+        <node concept="10Q1$e" id="7n_$dfX0Jqr" role="1tU5fm">
+          <node concept="17QB3L" id="7n_$dfX0Jqs" role="10Q1$1" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7n_$dfX0Jqt" role="3clF45" />
+      <node concept="3Tm1VV" id="7n_$dfX0Jqu" role="1B3o_S" />
+      <node concept="3clFbS" id="7n_$dfX0Jqv" role="3clF47">
+        <node concept="3cpWs8" id="7n_$dfX0KmB" role="3cqZAp">
+          <node concept="3cpWsn" id="7n_$dfX0KmC" role="3cpWs9">
+            <property role="TrG5h" value="cst" />
+            <node concept="3uibUv" id="7n_$dfX0KmD" role="1tU5fm">
+              <ref role="3uigEE" to="iou4:~CronSequenceGenerator" resolve="CronSequenceGenerator" />
+            </node>
+            <node concept="2ShNRf" id="7n_$dfX0Kro" role="33vP2m">
+              <node concept="1pGfFk" id="7n_$dfX0Kqq" role="2ShVmc">
+                <ref role="37wK5l" to="iou4:~CronSequenceGenerator.&lt;init&gt;(java.lang.String)" resolve="CronSequenceGenerator" />
+                <node concept="Xl_RD" id="7n_$dfX0Ksu" role="37wK5m">
+                  <property role="Xl_RC" value="* * 10-21 * * *" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="7n_$dfX0KEI" role="3cqZAp">
+          <node concept="2OqwBi" id="7n_$dfX0KEF" role="3clFbG">
+            <node concept="10M0yZ" id="7n_$dfX0KEG" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="7n_$dfX0KEH" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="7n_$dfX0KMV" role="37wK5m">
+                <node concept="2OqwBi" id="7n_$dfX0KQi" role="3uHU7w">
+                  <node concept="37vLTw" id="7n_$dfX0KON" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7n_$dfX0KmC" resolve="cst" />
+                  </node>
+                  <node concept="liA8E" id="7n_$dfX0KS6" role="2OqNvi">
+                    <ref role="37wK5l" to="iou4:~CronSequenceGenerator.next(java.util.Date):java.util.Date" resolve="next" />
+                    <node concept="2ShNRf" id="7n_$dfX0KUd" role="37wK5m">
+                      <node concept="1pGfFk" id="7n_$dfX0O_U" role="2ShVmc">
+                        <ref role="37wK5l" to="33ny:~Date.&lt;init&gt;()" resolve="Date" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="7n_$dfX0KFZ" role="3uHU7B">
+                  <property role="Xl_RC" value="&gt; " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7n_$dfX0HjC" role="jymVt" />
     <node concept="3Tm1VV" id="4$zcAetsWnZ" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="7tfEsbFuYlz">
