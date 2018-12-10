@@ -1419,6 +1419,30 @@
             <ref role="3bR37D" node="1JLTjCmZpiM" resolve="org.modellwerkstatt.objectflow.runtime" />
           </node>
         </node>
+        <node concept="1SiIV0" id="WkCinTpb8O" role="3bR37C">
+          <node concept="3bR9La" id="WkCinTpb8P" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KXW" resolve="jetbrains.mps.lang.core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="WkCinTpb8Q" role="3bR37C">
+          <node concept="3bR9La" id="WkCinTpb8R" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:7Kfy9QB6KYb" resolve="jetbrains.mps.baseLanguage" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="WkCinTpb8S" role="3bR37C">
+          <node concept="3bR9La" id="WkCinTpb8T" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:1TaHNgiIbIQ" resolve="MPS.Core" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="WkCinTpb8U" role="3bR37C">
+          <node concept="3bR9La" id="WkCinTpb8V" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="1JLTjCmZpP8" resolve="org.modellwerkstatt.objectflow" />
+          </node>
+        </node>
       </node>
       <node concept="1E1JtA" id="3ZVr8i9E19j" role="2G$12L">
         <property role="BnDLt" value="true" />

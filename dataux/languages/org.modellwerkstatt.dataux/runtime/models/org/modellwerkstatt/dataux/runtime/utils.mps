@@ -1956,6 +1956,60 @@
               <node concept="3clFbH" id="4Rlyz3EoLco" role="3cqZAp" />
             </node>
           </node>
+          <node concept="3eNFk2" id="WkCinTHvz1" role="3eNLev">
+            <node concept="3clFbC" id="WkCinTHvEy" role="3eO9$A">
+              <node concept="Rm8GO" id="WkCinTHvI1" role="3uHU7w">
+                <ref role="Rm8GQ" node="WkCinTeOf3" resolve="EN_DEFAULT_TRANS" />
+                <ref role="1Px2BO" node="4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
+              </node>
+              <node concept="37vLTw" id="WkCinTHvBK" role="3uHU7B">
+                <ref role="3cqZAo" node="4Rlyz3EoDyi" resolve="translationSelection" />
+              </node>
+            </node>
+            <node concept="3clFbS" id="WkCinTHvz3" role="3eOfB_">
+              <node concept="3cpWs8" id="WkCinTHvJe" role="3cqZAp">
+                <node concept="3cpWsn" id="WkCinTHvJf" role="3cpWs9">
+                  <property role="TrG5h" value="trans" />
+                  <node concept="17QB3L" id="WkCinTHvJg" role="1tU5fm" />
+                  <node concept="2OqwBi" id="WkCinTHvJh" role="33vP2m">
+                    <node concept="37vLTw" id="WkCinTHvJi" role="2Oq$k0">
+                      <ref role="3cqZAo" node="2zlZ_in69hi" resolve="keyToTranslate" />
+                    </node>
+                    <node concept="liA8E" id="WkCinTHvJj" role="2OqNvi">
+                      <ref role="37wK5l" node="WkCinTHvQU" resolve="getLangEN" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbJ" id="WkCinTHvJk" role="3cqZAp">
+                <property role="TyiWK" value="false" />
+                <property role="TyiWL" value="true" />
+                <node concept="3clFbS" id="WkCinTHvJl" role="3clFbx">
+                  <node concept="3cpWs6" id="WkCinTHvJm" role="3cqZAp">
+                    <node concept="2OqwBi" id="WkCinTHvJn" role="3cqZAk">
+                      <node concept="37vLTw" id="WkCinTHvJo" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2zlZ_in69hi" resolve="keyToTranslate" />
+                      </node>
+                      <node concept="liA8E" id="WkCinTHvJp" role="2OqNvi">
+                        <ref role="37wK5l" node="2zlZ_in69iB" resolve="getLangDefault" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbC" id="WkCinTHvJq" role="3clFbw">
+                  <node concept="10Nm6u" id="WkCinTHvJr" role="3uHU7w" />
+                  <node concept="37vLTw" id="WkCinTHvJs" role="3uHU7B">
+                    <ref role="3cqZAo" node="WkCinTHvJf" resolve="trans" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="WkCinTHvJt" role="3cqZAp">
+                <node concept="37vLTw" id="WkCinTHvJu" role="3cqZAk">
+                  <ref role="3cqZAo" node="WkCinTHvJf" resolve="trans" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="3clFbH" id="c79$i9nCEe" role="3cqZAp" />
         <node concept="YS8fn" id="4Rlyz3EoLEV" role="3cqZAp">
@@ -1997,6 +2051,10 @@
         <property role="TrG5h" value="V_TRANSLATIONS" />
         <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
       </node>
+      <node concept="QsSxf" id="WkCinTeOf3" role="Qtgdg">
+        <property role="TrG5h" value="EN_DEFAULT_TRANS" />
+        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
+      </node>
       <node concept="3Tm1VV" id="4Rlyz3EoCHs" role="1B3o_S" />
       <node concept="2tJIrI" id="4Rlyz3EoD36" role="jymVt" />
     </node>
@@ -2035,6 +2093,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVB" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRUVC" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4Ci" role="37wK5m">
+          <property role="Xl_RC" value="Do you really want to close the app?\nAll running commands will be terminated." />
+        </node>
       </node>
       <node concept="QsSxf" id="3zf0S8jLMuW" role="Qtgdg">
         <property role="TrG5h" value="CLOS_APP_SHORT" />
@@ -2044,6 +2105,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVD" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRUVE" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4Ey" role="37wK5m">
+          <property role="Xl_RC" value="Close app?" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtC" role="Qtgdg">
         <property role="TrG5h" value="START" />
@@ -2055,6 +2119,9 @@
           <property role="Xl_RC" value="START" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVF" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4FN" role="37wK5m">
+          <property role="Xl_RC" value="_START" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtF" role="Qtgdg">
         <property role="TrG5h" value="EDIT" />
@@ -2064,6 +2131,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVG" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRUVH" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4GM" role="37wK5m">
+          <property role="Xl_RC" value="Edit" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQuC" role="Qtgdg">
         <property role="TrG5h" value="CUT" />
@@ -2073,6 +2143,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVI" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRUVJ" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4HO" role="37wK5m">
+          <property role="Xl_RC" value="Cut" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQuF" role="Qtgdg">
         <property role="TrG5h" value="COPY" />
@@ -2082,6 +2155,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVK" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRUVL" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4IN" role="37wK5m">
+          <property role="Xl_RC" value="Copy" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQuI" role="Qtgdg">
         <property role="TrG5h" value="PASTE" />
@@ -2091,6 +2167,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVM" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRUVN" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4JP" role="37wK5m">
+          <property role="Xl_RC" value="Paste" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtI" role="Qtgdg">
         <property role="TrG5h" value="EXTRA" />
@@ -2102,6 +2181,9 @@
           <property role="Xl_RC" value="Extras" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVO" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4KR" role="37wK5m">
+          <property role="Xl_RC" value="_Extras" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtO" role="Qtgdg">
         <property role="TrG5h" value="HELP" />
@@ -2113,6 +2195,9 @@
           <property role="Xl_RC" value="Hilfe" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVP" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4M5" role="37wK5m">
+          <property role="Xl_RC" value="_Help" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtR" role="Qtgdg">
         <property role="TrG5h" value="VERSION" />
@@ -2124,6 +2209,9 @@
           <property role="Xl_RC" value="Version" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVQ" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4N7" role="37wK5m">
+          <property role="Xl_RC" value="_Version" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtU" role="Qtgdg">
         <property role="TrG5h" value="ABOUT" />
@@ -2133,6 +2221,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVR" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRUVS" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4Oi" role="37wK5m">
+          <property role="Xl_RC" value="About" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQtL" role="Qtgdg">
         <property role="TrG5h" value="QUIT" />
@@ -2144,6 +2235,9 @@
           <property role="Xl_RC" value="Beenden" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVT" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4Ph" role="37wK5m">
+          <property role="Xl_RC" value="Quit (ALT-F4)" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQvN" role="Qtgdg">
         <property role="TrG5h" value="OK_BUTTON" />
@@ -2155,6 +2249,9 @@
         <node concept="Xl_RD" id="4Rlyz3EmQHd" role="37wK5m">
           <property role="Xl_RC" value="Ok" />
         </node>
+        <node concept="Xl_RD" id="WkCinTf4QO" role="37wK5m">
+          <property role="Xl_RC" value="Ok (F12)" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQvQ" role="Qtgdg">
         <property role="TrG5h" value="ESC_BUTTON" />
@@ -2164,6 +2261,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRUVV" role="37wK5m" />
         <node concept="Xl_RD" id="4Rlyz3EmQHe" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4S5" role="37wK5m">
+          <property role="Xl_RC" value="Cancel" />
+        </node>
       </node>
       <node concept="QsSxf" id="2FClOw1VSS5" role="Qtgdg">
         <property role="TrG5h" value="CLOSE_BUTTON" />
@@ -2174,6 +2274,9 @@
         <node concept="10Nm6u" id="7r26jiNRWCg" role="37wK5m" />
         <node concept="Xl_RD" id="4Rlyz3EmQHh" role="37wK5m">
           <property role="Xl_RC" value="Abbr" />
+        </node>
+        <node concept="Xl_RD" id="WkCinTf4Ta" role="37wK5m">
+          <property role="Xl_RC" value="Close" />
         </node>
       </node>
       <node concept="QsSxf" id="4vHQZKCcE0A" role="Qtgdg">
@@ -2186,6 +2289,9 @@
         <node concept="Xl_RD" id="4Rlyz3EmQHf" role="37wK5m">
           <property role="Xl_RC" value="Ja" />
         </node>
+        <node concept="Xl_RD" id="WkCinTf4Uf" role="37wK5m">
+          <property role="Xl_RC" value="Yes (F12)" />
+        </node>
       </node>
       <node concept="QsSxf" id="4vHQZKCcRpU" role="Qtgdg">
         <property role="TrG5h" value="NO_BUTTON" />
@@ -2197,6 +2303,9 @@
         <node concept="Xl_RD" id="4Rlyz3EmQHg" role="37wK5m">
           <property role="Xl_RC" value="Nein" />
         </node>
+        <node concept="Xl_RD" id="WkCinTf4Vz" role="37wK5m">
+          <property role="Xl_RC" value="No (ESC)" />
+        </node>
       </node>
       <node concept="QsSxf" id="5ECQsWUk$8w" role="Qtgdg">
         <property role="TrG5h" value="HELP_BUTTON" />
@@ -2206,6 +2315,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCh" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCi" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4WL" role="37wK5m">
+          <property role="Xl_RC" value="?" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQwf" role="Qtgdg">
         <property role="TrG5h" value="ERROR" />
@@ -2215,6 +2327,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCj" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCk" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4XH" role="37wK5m">
+          <property role="Xl_RC" value="Error" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQwi" role="Qtgdg">
         <property role="TrG5h" value="INFORMATION" />
@@ -2224,6 +2339,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCl" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCm" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4YM" role="37wK5m">
+          <property role="Xl_RC" value="Information" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQwl" role="Qtgdg">
         <property role="TrG5h" value="QUESTION" />
@@ -2233,6 +2351,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCn" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCo" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf4ZO" role="37wK5m">
+          <property role="Xl_RC" value="Question" />
+        </node>
       </node>
       <node concept="QsSxf" id="2UFgF_lRBS0" role="Qtgdg">
         <property role="TrG5h" value="TEC_USER_ERROR" />
@@ -2243,6 +2364,9 @@
         <node concept="10Nm6u" id="7r26jiNRWCp" role="37wK5m" />
         <node concept="Xl_RD" id="c79$i9pMMr" role="37wK5m">
           <property role="Xl_RC" value="Ein technisches Problem ist aufgetreten. Das Kommando wurde beendet!" />
+        </node>
+        <node concept="Xl_RD" id="WkCinTf50Q" role="37wK5m">
+          <property role="Xl_RC" value="An Error has occurred! The command was canceled." />
         </node>
       </node>
       <node concept="QsSxf" id="7iXVPHb52Pu" role="Qtgdg">
@@ -2255,6 +2379,9 @@
         <node concept="Xl_RD" id="7iXVPHb53f_" role="37wK5m">
           <property role="Xl_RC" value="Ein technisches Problem ist aufgetreten. Das Kommando '%s' wurde beendet!" />
         </node>
+        <node concept="Xl_RD" id="WkCinTf530" role="37wK5m">
+          <property role="Xl_RC" value="A technical problem has occurred. The command '%s' was canceled!" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wFQxQ" role="Qtgdg">
         <property role="TrG5h" value="TEC_ERROR" />
@@ -2264,6 +2391,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCr" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCs" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf54P" role="37wK5m">
+          <property role="Xl_RC" value="Technical exception" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2UD" role="Qtgdg">
         <property role="TrG5h" value="CRTL_SPACE_PRESS" />
@@ -2273,6 +2403,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCt" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCu" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf563" role="37wK5m">
+          <property role="Xl_RC" value="&lt;crtl-space&gt; or &lt;mouse-click&gt;" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2UH" role="Qtgdg">
         <property role="TrG5h" value="REF_VALIDATION_OPTIONAL_ERR" />
@@ -2282,6 +2415,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCv" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCw" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf57D" role="37wK5m">
+          <property role="Xl_RC" value="A valid choice (or no choice) has to be made." />
+        </node>
       </node>
       <node concept="QsSxf" id="7ecadVRps$R" role="Qtgdg">
         <property role="TrG5h" value="REF_VALIDATION_ERR" />
@@ -2291,6 +2427,9 @@
         </node>
         <node concept="10Nm6u" id="7ecadVRps$T" role="37wK5m" />
         <node concept="10Nm6u" id="7ecadVRps$U" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf59x" role="37wK5m">
+          <property role="Xl_RC" value="A valid choice has to be made." />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2UK" role="Qtgdg">
         <property role="TrG5h" value="REF_NO_OPTION_ERR" />
@@ -2300,6 +2439,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCx" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCy" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5aG" role="37wK5m">
+          <property role="Xl_RC" value="You have to choose an option." />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2NB" role="Qtgdg">
         <property role="TrG5h" value="DATE_VALIDATION_ERR" />
@@ -2309,6 +2451,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCz" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWC$" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5co" role="37wK5m">
+          <property role="Xl_RC" value="Invalid date. You have to specify the date as %s." />
+        </node>
       </node>
       <node concept="QsSxf" id="1l2SXGvJjp8" role="Qtgdg">
         <property role="TrG5h" value="DATETIME_VALIDATION_ERR" />
@@ -2318,6 +2463,9 @@
         </node>
         <node concept="Xl_RD" id="1l2SXGvJjP0" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWC_" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5dp" role="37wK5m">
+          <property role="Xl_RC" value="Invalid date/time. You have to specify the date/time as %s." />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Oi" role="Qtgdg">
         <property role="TrG5h" value="DECIMAL_VALIDATION_ERR" />
@@ -2327,6 +2475,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCA" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCB" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5ex" role="37wK5m">
+          <property role="Xl_RC" value="You have to specify the number as %s" />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2OE" role="Qtgdg">
         <property role="TrG5h" value="DECIMAL_BETWEEN_ERR" />
@@ -2336,6 +2487,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCC" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCD" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5g1" role="37wK5m">
+          <property role="Xl_RC" value="The number has to be between %s and %s." />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Q2" role="Qtgdg">
         <property role="TrG5h" value="DECIMAL_MINIMUM_ERR" />
@@ -2345,6 +2499,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCE" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCF" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5hB" role="37wK5m">
+          <property role="Xl_RC" value="The number has to be larger then %s." />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Qa" role="Qtgdg">
         <property role="TrG5h" value="DECIMAL_MAXIMUM_ERR" />
@@ -2354,6 +2511,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCG" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCH" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5iY" role="37wK5m">
+          <property role="Xl_RC" value="The number has to be smaller then %s." />
+        </node>
       </node>
       <node concept="QsSxf" id="4sMOTLiJLba" role="Qtgdg">
         <property role="TrG5h" value="DECIMAL_SCALE_ERR" />
@@ -2363,6 +2523,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCI" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCJ" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5kx" role="37wK5m">
+          <property role="Xl_RC" value="The number is allowed to contain only %s decimals." />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Rk" role="Qtgdg">
         <property role="TrG5h" value="INTEGER_VALIDATION_ERR" />
@@ -2372,6 +2535,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCK" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCL" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5I7" role="37wK5m">
+          <property role="Xl_RC" value="You have to specify an integer number." />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2V9" role="Qtgdg">
         <property role="TrG5h" value="STATUS_VALIDATION_ERR" />
@@ -2381,6 +2547,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCM" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCN" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5Jx" role="37wK5m">
+          <property role="Xl_RC" value="You have to select a status." />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Vl" role="Qtgdg">
         <property role="TrG5h" value="STRING_MAX_ERR" />
@@ -2390,6 +2559,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCO" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCP" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5KJ" role="37wK5m">
+          <property role="Xl_RC" value="You are not allowed to enter more then %s characters." />
+        </node>
       </node>
       <node concept="QsSxf" id="4Zj1V_wG2Vo" role="Qtgdg">
         <property role="TrG5h" value="STRING_MIN_ERR" />
@@ -2399,6 +2571,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCQ" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCR" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5MB" role="37wK5m">
+          <property role="Xl_RC" value="You have to enter more then %s characters." />
+        </node>
       </node>
       <node concept="QsSxf" id="2k02KvYsQn9" role="Qtgdg">
         <property role="TrG5h" value="TCN_PROBLEM" />
@@ -2408,6 +2583,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCS" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCT" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5NP" role="37wK5m">
+          <property role="Xl_RC" value="Another user has changed this record. You have to discard this record\nand re-run this command. " />
+        </node>
       </node>
       <node concept="QsSxf" id="76zkUWQiQps" role="Qtgdg">
         <property role="TrG5h" value="INSERT_DELETE_RELOAD_PROBLEM" />
@@ -2417,6 +2595,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCU" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCV" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5Qw" role="37wK5m">
+          <property role="Xl_RC" value="Part of this record could not be saved, deleted or reloaded." />
+        </node>
       </node>
       <node concept="QsSxf" id="2UFgF_lTjOD" role="Qtgdg">
         <property role="TrG5h" value="GET_USER_PROBLEM" />
@@ -2426,6 +2607,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCW" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCX" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5RR" role="37wK5m">
+          <property role="Xl_RC" value="A necessary record was not found on the database." />
+        </node>
       </node>
       <node concept="QsSxf" id="33ZdaytgtNw" role="Qtgdg">
         <property role="TrG5h" value="GET_PROBLEM" />
@@ -2435,6 +2619,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWCY" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWCZ" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5Tk" role="37wK5m">
+          <property role="Xl_RC" value="A necessary record was not found on the database." />
+        </node>
       </node>
       <node concept="QsSxf" id="4vUcH_0hKSO" role="Qtgdg">
         <property role="TrG5h" value="SESSION_DIRTY" />
@@ -2446,6 +2633,9 @@
         <node concept="Xl_RD" id="4Rlyz3EmQHD" role="37wK5m">
           <property role="Xl_RC" value="Es wurden Daten verändert, die NICHT gespeichert wurden! Wirklich beenden ohne speichern?" />
         </node>
+        <node concept="Xl_RD" id="WkCinTf5Ug" role="37wK5m">
+          <property role="Xl_RC" value="Data was changed which was not saved yet. Do you want to proceed without saving?" />
+        </node>
       </node>
       <node concept="QsSxf" id="5ECQsWUjJIu" role="Qtgdg">
         <property role="TrG5h" value="HELP_URL" />
@@ -2455,6 +2645,7 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWD1" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWD2" role="37wK5m" />
+        <node concept="10Nm6u" id="WkCinTf5VN" role="37wK5m" />
       </node>
       <node concept="QsSxf" id="1V62ZiDaX2F" role="Qtgdg">
         <property role="TrG5h" value="LOGIN_FIRST" />
@@ -2464,6 +2655,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWD3" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWD4" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5WK" role="37wK5m">
+          <property role="Xl_RC" value="System Login" />
+        </node>
       </node>
       <node concept="QsSxf" id="1V62ZiDlQYU" role="Qtgdg">
         <property role="TrG5h" value="LOGIN_BUTTON" />
@@ -2473,6 +2667,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWD5" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWD6" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5XP" role="37wK5m">
+          <property role="Xl_RC" value="Login (F12)" />
+        </node>
       </node>
       <node concept="QsSxf" id="1EBV9L$IJAc" role="Qtgdg">
         <property role="TrG5h" value="LOGIN_EXTENDED_USERNAME" />
@@ -2482,6 +2679,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWD7" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWD8" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf5Z3" role="37wK5m">
+          <property role="Xl_RC" value="Username" />
+        </node>
       </node>
       <node concept="QsSxf" id="1V62ZiDaXrg" role="Qtgdg">
         <property role="TrG5h" value="USERNAME" />
@@ -2491,6 +2691,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWD9" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDa" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf608" role="37wK5m">
+          <property role="Xl_RC" value="User" />
+        </node>
       </node>
       <node concept="QsSxf" id="1V62ZiDaXN5" role="Qtgdg">
         <property role="TrG5h" value="PASSWORD" />
@@ -2500,6 +2703,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDb" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDc" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf617" role="37wK5m">
+          <property role="Xl_RC" value="Password" />
+        </node>
       </node>
       <node concept="QsSxf" id="1Q0KaWuHuYZ" role="Qtgdg">
         <property role="TrG5h" value="LOGIN_FAILED" />
@@ -2509,6 +2715,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDd" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDe" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf626" role="37wK5m">
+          <property role="Xl_RC" value="You could not be logged on to the system.\n(None or inappropriate permissions)" />
+        </node>
       </node>
       <node concept="QsSxf" id="7r26jiO4Dc1" role="Qtgdg">
         <property role="TrG5h" value="LOGIN_USER_FAILED" />
@@ -2518,6 +2727,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiO4Dx9" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiO4Dxa" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf64s" role="37wK5m">
+          <property role="Xl_RC" value="The user '%s' could not be logged on to the system.\n(None or inappropriate permissions)" />
+        </node>
       </node>
       <node concept="QsSxf" id="1Q0KaWuHvoG" role="Qtgdg">
         <property role="TrG5h" value="WRONGUSER_PWD" />
@@ -2527,6 +2739,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDf" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDg" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf67a" role="37wK5m">
+          <property role="Xl_RC" value="Wrong username and/or password." />
+        </node>
       </node>
       <node concept="QsSxf" id="58$$edtkjnA" role="Qtgdg">
         <property role="TrG5h" value="NO_PERMISSIONS_FOR_CMD" />
@@ -2536,6 +2751,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDh" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDi" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf68u" role="37wK5m">
+          <property role="Xl_RC" value="You do not have permissions to execute this command." />
+        </node>
       </node>
       <node concept="QsSxf" id="3zf0S8jTsbg" role="Qtgdg">
         <property role="TrG5h" value="MOWARE_ABOUT" />
@@ -2547,15 +2765,19 @@
           <property role="Xl_RC" value="die modellwerkstatt" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDj" role="37wK5m" />
+        <node concept="10Nm6u" id="WkCinTf6qS" role="37wK5m" />
       </node>
       <node concept="QsSxf" id="3zf0S8jTsmW" role="Qtgdg">
         <property role="TrG5h" value="MOWARE_HELP" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="3zf0S8jTsmX" role="37wK5m">
-          <property role="Xl_RC" value="Falls sie Hilfe mit dieser Applikation benötigen, wenden Sie sich and ... ." />
+          <property role="Xl_RC" value="Falls sie Hilfe mit dieser Applikation benötigen, wenden Sie sich an ... ." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDk" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDl" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6bf" role="37wK5m">
+          <property role="Xl_RC" value="If you need help with this app please consult ..." />
+        </node>
       </node>
       <node concept="QsSxf" id="1sUmI9zht75" role="Qtgdg">
         <property role="TrG5h" value="LOCK_NOT_GOT_READONLY" />
@@ -2565,6 +2787,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDm" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDn" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6cM" role="37wK5m">
+          <property role="Xl_RC" value="%s is using ressources which are necessary for this command. (command in read-only mode)" />
+        </node>
       </node>
       <node concept="QsSxf" id="6G8jBJnC_iZ" role="Qtgdg">
         <property role="TrG5h" value="LOCK_NOT_GOT_CANCEL" />
@@ -2574,6 +2799,9 @@
         </node>
         <node concept="10Nm6u" id="6G8jBJnC_j1" role="37wK5m" />
         <node concept="10Nm6u" id="6G8jBJnC_j2" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6f5" role="37wK5m">
+          <property role="Xl_RC" value="%s is using ressources neccessary for the execution of this command.\n Command canceled." />
+        </node>
       </node>
       <node concept="QsSxf" id="7DInbKypMVW" role="Qtgdg">
         <property role="TrG5h" value="MAINTAINANCE_MODE" />
@@ -2583,6 +2811,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDo" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDp" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6hu" role="37wK5m">
+          <property role="Xl_RC" value="This services is not available at the moment. Maintenance work is carried out." />
+        </node>
       </node>
       <node concept="QsSxf" id="7nxGN1HIKgU" role="Qtgdg">
         <property role="TrG5h" value="APPLICATION_LOCKED" />
@@ -2592,6 +2823,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDq" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDr" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6jp" role="37wK5m">
+          <property role="Xl_RC" value="This app is replaced with a newer version. Please save \nyour changes and restart the application." />
+        </node>
       </node>
       <node concept="QsSxf" id="6OyHsl_0Q4P" role="Qtgdg">
         <property role="TrG5h" value="APPLICATION_RUNNING_IN_BROWSER" />
@@ -2601,6 +2835,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDs" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDt" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6l2" role="37wK5m">
+          <property role="Xl_RC" value="This app is executed in another browser-tab or you did not log-off of this app (Menu 'Start' -&gt; 'Quit'). (Click on this message to confirm)" />
+        </node>
       </node>
       <node concept="QsSxf" id="7DInbKyry1J" role="Qtgdg">
         <property role="TrG5h" value="SERVLET_BASE_ADR" />
@@ -2610,6 +2847,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDu" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDv" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6oh" role="37wK5m">
+          <property role="Xl_RC" value="Your last command was canceled. You are back on the landing page." />
+        </node>
       </node>
       <node concept="QsSxf" id="7708TIHHbb2" role="Qtgdg">
         <property role="TrG5h" value="MOWARE_VERSION" />
@@ -2625,6 +2865,7 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDw" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDx" role="37wK5m" />
+        <node concept="10Nm6u" id="WkCinTf6pW" role="37wK5m" />
       </node>
       <node concept="QsSxf" id="5JJsFAvp84Y" role="Qtgdg">
         <property role="TrG5h" value="CMD_OPENED_IN_OTHER_TAB" />
@@ -2634,6 +2875,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDy" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDz" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6Pc" role="37wK5m">
+          <property role="Xl_RC" value="The command is executed in another browser tab." />
+        </node>
       </node>
       <node concept="QsSxf" id="5JJsFAvpd5y" role="Qtgdg">
         <property role="TrG5h" value="CMD_CLOSED_IN_TAB" />
@@ -2643,6 +2887,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWD$" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWD_" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6QM" role="37wK5m">
+          <property role="Xl_RC" value="The command in this tab was canceled." />
+        </node>
       </node>
       <node concept="QsSxf" id="6eUMu2ekBdf" role="Qtgdg">
         <property role="TrG5h" value="NETWORK_PROBLEMS" />
@@ -2652,6 +2899,9 @@
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDA" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDB" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6S3" role="37wK5m">
+          <property role="Xl_RC" value="Serious network problems or low wifi reception." />
+        </node>
       </node>
       <node concept="QsSxf" id="4ysbFF_K1ve" role="Qtgdg">
         <property role="TrG5h" value="FATA_APPFRMWRK_PROBLEM" />
@@ -2661,6 +2911,9 @@
         </node>
         <node concept="10Nm6u" id="4ysbFF_K1vg" role="37wK5m" />
         <node concept="10Nm6u" id="4ysbFF_K1vh" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6TP" role="37wK5m">
+          <property role="Xl_RC" value="A serious error occurred. System is not ready!" />
+        </node>
       </node>
       <node concept="QsSxf" id="gGnCBOHk0g" role="Qtgdg">
         <property role="TrG5h" value="CMD_NOT_AVAILABLE" />
@@ -2670,6 +2923,9 @@
         </node>
         <node concept="10Nm6u" id="gGnCBOHkxP" role="37wK5m" />
         <node concept="10Nm6u" id="gGnCBOHkyQ" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6VB" role="37wK5m">
+          <property role="Xl_RC" value="Command not available or api error?" />
+        </node>
       </node>
       <node concept="QsSxf" id="2e3BpjBfPxm" role="Qtgdg">
         <property role="TrG5h" value="INNER_CMD_NOT_ENABLED" />
@@ -2679,6 +2935,9 @@
         </node>
         <node concept="10Nm6u" id="2e3BpjBfQ5E" role="37wK5m" />
         <node concept="10Nm6u" id="2e3BpjBfQ6M" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6WP" role="37wK5m">
+          <property role="Xl_RC" value="Can not execute the command '%s' since critical conditions are not fullfilled." />
+        </node>
       </node>
       <node concept="QsSxf" id="7RwCLGxb43N" role="Qtgdg">
         <property role="TrG5h" value="INNER_CMD_WRONG_STATE" />
@@ -2688,6 +2947,9 @@
         </node>
         <node concept="10Nm6u" id="7RwCLGxb43P" role="37wK5m" />
         <node concept="10Nm6u" id="7RwCLGxb43Q" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf6YZ" role="37wK5m">
+          <property role="Xl_RC" value="Command '%s' can not be applied in this state." />
+        </node>
       </node>
       <node concept="QsSxf" id="7RwCLGxb4nv" role="Qtgdg">
         <property role="TrG5h" value="INNER_CMD_NO_PERM" />
@@ -2697,6 +2959,9 @@
         </node>
         <node concept="10Nm6u" id="7RwCLGxb4nx" role="37wK5m" />
         <node concept="10Nm6u" id="7RwCLGxb4ny" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf70m" role="37wK5m">
+          <property role="Xl_RC" value="You do not have permissions for the command '%s'" />
+        </node>
       </node>
       <node concept="QsSxf" id="18nf27m6wZ8" role="Qtgdg">
         <property role="TrG5h" value="SESSION_SHUTDOWN" />
@@ -2706,6 +2971,9 @@
         </node>
         <node concept="10Nm6u" id="18nf27m6xnu" role="37wK5m" />
         <node concept="10Nm6u" id="18nf27m6xoo" role="37wK5m" />
+        <node concept="Xl_RD" id="WkCinTf71Q" role="37wK5m">
+          <property role="Xl_RC" value="All running commands are now terminated. The app will be restarted, press a key." />
+        </node>
       </node>
       <node concept="3Tm1VV" id="2zlZ_in69hn" role="1B3o_S" />
       <node concept="2tJIrI" id="3zf0S8jTrHW" role="jymVt" />
@@ -2725,6 +2993,11 @@
         <node concept="3Tm6S6" id="4Rlyz3EdtoW" role="1B3o_S" />
         <node concept="17QB3L" id="4Rlyz3EdtoX" role="1tU5fm" />
       </node>
+      <node concept="312cEg" id="WkCinTeHLB" role="jymVt">
+        <property role="TrG5h" value="enDefault" />
+        <node concept="3Tm6S6" id="WkCinTeHLC" role="1B3o_S" />
+        <node concept="17QB3L" id="WkCinTeHLD" role="1tU5fm" />
+      </node>
       <node concept="2tJIrI" id="4Rlyz3Edt98" role="jymVt" />
       <node concept="2tJIrI" id="4Rlyz3Edthi" role="jymVt" />
       <node concept="2tJIrI" id="4xVSf7d2dLJ" role="jymVt" />
@@ -2740,6 +3013,10 @@
         <node concept="37vLTG" id="4Rlyz3Edoya" role="3clF46">
           <property role="TrG5h" value="l3" />
           <node concept="17QB3L" id="4Rlyz3Edo$f" role="1tU5fm" />
+        </node>
+        <node concept="37vLTG" id="WkCinTeIAg" role="3clF46">
+          <property role="TrG5h" value="l4" />
+          <node concept="17QB3L" id="WkCinTeIBv" role="1tU5fm" />
         </node>
         <node concept="3cqZAl" id="2zlZ_in69hp" role="3clF45" />
         <node concept="3clFbS" id="2zlZ_in69hr" role="3clF47">
@@ -2778,6 +3055,19 @@
                 <node concept="Xjq3P" id="c79$i9pa7n" role="2Oq$k0" />
                 <node concept="2OwXpG" id="c79$i9pa_N" role="2OqNvi">
                   <ref role="2Oxat5" node="4Rlyz3EdtoV" resolve="langH1Adopt" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbF" id="WkCinTeIDE" role="3cqZAp">
+            <node concept="37vLTI" id="WkCinTeIQS" role="3clFbG">
+              <node concept="37vLTw" id="WkCinTeISh" role="37vLTx">
+                <ref role="3cqZAo" node="WkCinTeIAg" resolve="l4" />
+              </node>
+              <node concept="2OqwBi" id="WkCinTeIGf" role="37vLTJ">
+                <node concept="Xjq3P" id="WkCinTeIDC" role="2Oq$k0" />
+                <node concept="2OwXpG" id="WkCinTeILa" role="2OqNvi">
+                  <ref role="2Oxat5" node="WkCinTeHLB" resolve="enDefault" />
                 </node>
               </node>
             </node>
@@ -2824,6 +3114,21 @@
               <node concept="Xjq3P" id="4Rlyz3EdskU" role="2Oq$k0" />
               <node concept="2OwXpG" id="4Rlyz3EdtHI" role="2OqNvi">
                 <ref role="2Oxat5" node="4Rlyz3EdtoV" resolve="langH1Adopt" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFb_" id="WkCinTHvQU" role="jymVt">
+        <property role="TrG5h" value="getLangEN" />
+        <node concept="17QB3L" id="WkCinTHvQV" role="3clF45" />
+        <node concept="3Tm1VV" id="WkCinTHvQW" role="1B3o_S" />
+        <node concept="3clFbS" id="WkCinTHvQX" role="3clF47">
+          <node concept="3cpWs6" id="WkCinTHvQY" role="3cqZAp">
+            <node concept="2OqwBi" id="WkCinTHvQZ" role="3cqZAk">
+              <node concept="Xjq3P" id="WkCinTHvR0" role="2Oq$k0" />
+              <node concept="2OwXpG" id="WkCinTHwn0" role="2OqNvi">
+                <ref role="2Oxat5" node="WkCinTeHLB" resolve="enDefault" />
               </node>
             </node>
           </node>
