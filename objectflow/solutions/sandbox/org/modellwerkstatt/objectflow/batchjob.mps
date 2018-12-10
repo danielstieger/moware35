@@ -5718,28 +5718,44 @@
                     <ref role="1Px2BO" node="2fj6lk$8KUF" resolve="JmxBatchJobCoreReporter.Cat" />
                     <ref role="Rm8GQ" node="2fj6lk$8KUJ" resolve="JOB_ERROR" />
                   </node>
-                  <node concept="3cpWs3" id="4InK$iNqkVZ" role="37wK5m">
-                    <node concept="3fqX7Q" id="4InK$iNqmhn" role="3uHU7w">
-                      <node concept="37vLTw" id="4InK$iNqnwA" role="3fr31v">
-                        <ref role="3cqZAo" node="5lMTsSl$mR2" resolve="manualRun" />
+                  <node concept="3cpWs3" id="23a$JN2z2jP" role="37wK5m">
+                    <node concept="2OqwBi" id="23a$JN2z3P4" role="3uHU7w">
+                      <node concept="37vLTw" id="23a$JN2z3BY" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4NpYXr5VCvU" resolve="timerContoller" />
+                      </node>
+                      <node concept="liA8E" id="23a$JN2z56V" role="2OqNvi">
+                        <ref role="37wK5l" node="4InK$iNK7vr" resolve="getFullStatusReport" />
+                        <node concept="10Nm6u" id="23a$JN2z5jz" role="37wK5m" />
                       </node>
                     </node>
-                    <node concept="3cpWs3" id="4InK$iNqfuv" role="3uHU7B">
-                      <node concept="3cpWs3" id="5lMTsSl$CYz" role="3uHU7B">
-                        <node concept="Xl_RD" id="5lMTsSl$$NT" role="3uHU7B">
-                          <property role="Xl_RC" value="Requested a producer-run while still processing isNoConsumerWorking()=false, inbox size=" />
-                        </node>
-                        <node concept="2OqwBi" id="5lMTsSl$OFA" role="3uHU7w">
-                          <node concept="37vLTw" id="5lMTsSl$Oy6" role="2Oq$k0">
-                            <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                    <node concept="3cpWs3" id="23a$JN2yZ0l" role="3uHU7B">
+                      <node concept="3cpWs3" id="4InK$iNqkVZ" role="3uHU7B">
+                        <node concept="3cpWs3" id="4InK$iNqfuv" role="3uHU7B">
+                          <node concept="3cpWs3" id="5lMTsSl$CYz" role="3uHU7B">
+                            <node concept="Xl_RD" id="5lMTsSl$$NT" role="3uHU7B">
+                              <property role="Xl_RC" value="Requested a producer-run while still processing isNoConsumerWorking()=false, inbox size=" />
+                            </node>
+                            <node concept="2OqwBi" id="5lMTsSl$OFA" role="3uHU7w">
+                              <node concept="37vLTw" id="5lMTsSl$Oy6" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6BG_0Ec5J5n" resolve="inbox" />
+                              </node>
+                              <node concept="liA8E" id="5lMTsSl$OSW" role="2OqNvi">
+                                <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
+                              </node>
+                            </node>
                           </node>
-                          <node concept="liA8E" id="5lMTsSl$OSW" role="2OqNvi">
-                            <ref role="37wK5l" to="5zyv:~ConcurrentLinkedQueue.size():int" resolve="size" />
+                          <node concept="Xl_RD" id="4InK$iNqfO$" role="3uHU7w">
+                            <property role="Xl_RC" value=" =&gt; rescheduling?" />
+                          </node>
+                        </node>
+                        <node concept="3fqX7Q" id="4InK$iNqmhn" role="3uHU7w">
+                          <node concept="37vLTw" id="4InK$iNqnwA" role="3fr31v">
+                            <ref role="3cqZAo" node="5lMTsSl$mR2" resolve="manualRun" />
                           </node>
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="4InK$iNqfO$" role="3uHU7w">
-                        <property role="Xl_RC" value=" =&gt; rescheduling? " />
+                      <node concept="Xl_RD" id="23a$JN2yZ2f" role="3uHU7w">
+                        <property role="Xl_RC" value="\n\n Additional debug info " />
                       </node>
                     </node>
                   </node>
