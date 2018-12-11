@@ -4853,7 +4853,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="3U0QWzuKJ_h">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <ref role="1M2myG" to="un0u:3U0QWzu_6fi" resolve="OFXExceptionStrategyProp" />
     <node concept="1N5Pfh" id="3U0QWzuKJ_i" role="1Mr941">
       <ref role="1N5Vy1" to="un0u:3U0QWzuKJ_f" />
@@ -4890,7 +4890,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="3U0QWzuP6xS">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <ref role="1M2myG" to="un0u:3U0QWzuEgZN" resolve="OFXExceptionStrategyInclude" />
     <node concept="1N5Pfh" id="3U0QWzuP6xT" role="1Mr941">
       <ref role="1N5Vy1" to="un0u:3U0QWzuEgZQ" />

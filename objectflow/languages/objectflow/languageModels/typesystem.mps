@@ -12928,7 +12928,7 @@
   </node>
   <node concept="18kY7G" id="7bWGJuS3ClF">
     <property role="TrG5h" value="check_OFXStrategyForException" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <node concept="3clFbS" id="7bWGJuS3ClG" role="18ibNy">
       <node concept="3clFbJ" id="7bWGJuS3ClP" role="3cqZAp">
         <node concept="3clFbS" id="7bWGJuS3ClR" role="3clFbx">

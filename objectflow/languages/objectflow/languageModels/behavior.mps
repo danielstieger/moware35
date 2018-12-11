@@ -17962,7 +17962,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7bWGJuRUiq5">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <ref role="13h7C2" to="un0u:3U0QWzu$3aR" resolve="OFXExceptionStrategy" />
     <node concept="13i0hz" id="7bWGJuRUiqS" role="13h7CS">
       <property role="TrG5h" value="getMembers" />
@@ -18041,7 +18041,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7bWGJuRIohF">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <ref role="13h7C2" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
     <node concept="13hLZK" id="7bWGJuRIohG" role="13h7CW">
       <node concept="3clFbS" id="7bWGJuRIohH" role="2VODD2" />
@@ -18092,7 +18092,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7bWGJuRIogW">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <ref role="13h7C2" to="un0u:3U0QWzu$6wv" resolve="IOFXExceptionStrategyMember" />
     <node concept="13i0hz" id="7bWGJuRIogZ" role="13h7CS">
       <property role="13i0iv" value="false" />
@@ -18121,7 +18121,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7bWGJuRJV_Q">
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <ref role="13h7C2" to="un0u:3U0QWzuEgZN" resolve="OFXExceptionStrategyInclude" />
     <node concept="13hLZK" id="7bWGJuRJV_R" role="13h7CW">
       <node concept="3clFbS" id="7bWGJuRJV_S" role="2VODD2" />

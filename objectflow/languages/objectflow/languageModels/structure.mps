@@ -12,6 +12,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="6054523464626862044" name="jetbrains.mps.lang.structure.structure.AttributeInfo_IsMultiple" flags="ng" index="tn0Fv">
         <property id="6054523464626875854" name="value" index="tnX3d" />
       </concept>
@@ -3837,7 +3838,7 @@
   </node>
   <node concept="1TIwiD" id="3U0QWzu$3aR">
     <property role="1pbfSe" value="487657087" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <property role="TrG5h" value="OFXExceptionStrategy" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3U0QWzu$6CW" role="1TKVEi">
@@ -3852,7 +3853,7 @@
   </node>
   <node concept="1TIwiD" id="3U0QWzu$6uM">
     <property role="1pbfSe" value="487670650" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <property role="TrG5h" value="OFXStrategyForException" />
     <property role="34LRSv" value="strategy" />
     <property role="R4oN_" value="for exception" />
@@ -3890,12 +3891,12 @@
   </node>
   <node concept="PlHQZ" id="3U0QWzu$6wv">
     <property role="1pbfSe" value="487670759" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <property role="TrG5h" value="IOFXExceptionStrategyMember" />
   </node>
   <node concept="1TIwiD" id="3U0QWzu_6fi">
     <property role="1pbfSe" value="487931802" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <property role="TrG5h" value="OFXExceptionStrategyProp" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3U0QWzuKJ_f" role="1TKVEi">
@@ -3904,10 +3905,11 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fKQsSyN" resolve="EnumConstantDeclaration" />
     </node>
+    <node concept="asaX9" id="1Z999TJy7pK" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="3U0QWzuEgZN">
     <property role="1pbfSe" value="489286587" />
-    <property role="3GE5qa" value="OFXCore.batch2" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
     <property role="TrG5h" value="OFXExceptionStrategyInclude" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3U0QWzuEgZQ" role="1TKVEi">
@@ -4121,6 +4123,26 @@
     </node>
     <node concept="PrWs8" id="35a9wK8brvW" role="PzmwI">
       <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1Z999TJy7rR">
+    <property role="1pbfSe" value="1890477163" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="TrG5h" value="IOFXStrategyBehaviour" />
+  </node>
+  <node concept="1TIwiD" id="1Z999TJyiCN">
+    <property role="1pbfSe" value="1890431279" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="TrG5h" value="OFXDelayStartBehaviour" />
+    <property role="34LRSv" value="DELAY_EXECUTION" />
+    <property role="R4oN_" value="wait for some time before moving on" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1Z999TJyiG$" role="1TKVEl">
+      <property role="TrG5h" value="supendSeconds" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="PrWs8" id="1Z999TJyiE8" role="PzmwI">
+      <ref role="PrY4T" node="1Z999TJy7rR" resolve="IOFXStrategyBehaviour" />
     </node>
   </node>
 </model>
