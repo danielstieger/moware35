@@ -281,9 +281,6 @@
       <concept id="6952410984693239415" name="org.modellwerkstatt.objectflow.structure.OFXTestMethocCallVarRef" flags="ng" index="3zkua3">
         <reference id="6952410984693239500" name="varReference" index="3zku8S" />
       </concept>
-      <concept id="59360650270057719" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitNoExecOption" flags="ng" index="1Cak35">
-        <reference id="59360650270057722" name="test" index="1Cak38" />
-      </concept>
       <concept id="59360650273300411" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitIncludeSuit" flags="ng" index="1DZZI9">
         <property id="6831326074114415183" name="execute" index="26Iqih" />
         <reference id="59360650273300414" name="testsuit" index="1DZZIc" />
@@ -10007,6 +10004,10 @@
               <ref role="Rm8GQ" to="z3ji:2xm_Jkjrpmn" resolve="CONSUMER_RESTART" />
               <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
             </node>
+            <node concept="Rm8GO" id="3A3LR0wK1zd" role="37wK5m">
+              <ref role="Rm8GQ" to="z3ji:1TthV9g3fUH" resolve="DELAY_EXECUTION" />
+              <ref role="1Px2BO" to="z3ji:2xm_JkjroON" resolve="OFXExceptionStrategy.StrategyProp" />
+            </node>
           </node>
         </node>
         <node concept="10Nm6u" id="4$zcAetqKGW" role="37wK5m" />
@@ -12139,54 +12140,6 @@
     </node>
     <node concept="1DZZI9" id="5lMTsSlMp$b" role="38MLOi">
       <ref role="1DZZIc" node="5lMTsSlMoHs" resolve="InfraSetups" />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qns" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1KbDF" resolve="Exception in Producer delays call according to strategy." />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnt" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1Ma5D" resolve="Exception in Producer delays call according to strategy, proceed with re-runs" />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnu" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1Nxvt" resolve="Exception in Consumer, wait and then work up inbox, receive runCompleteResched()" />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnv" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1RPRT" resolve="Exception in Consumer, but inbox already empty! Do reschedule after ex hanling" />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnw" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1SFbu" resolve="Exception in Consumer, wait and proceed on inbox, then next inbox load" />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnx" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1RdQ4" resolve="2 Exception in Consumers, wait the longer one, then work up inbox, receive runCompleteResched()" />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qny" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1VDs6" resolve="2 Exception in Consumers, wait longer, work up inbox, resched" />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnz" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1WcQq" resolve="2 Exception in Consumers, wait longer, work up inbox, resched, ex resched" />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qn$" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1Y3Ia" resolve="2 Exception in Consumers, wait longer, unexpected prodrun clears inbox, then again resched" />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qn_" role="38MLOi">
-      <ref role="1Cak38" node="4$zcAetq$hH" resolve="Exception in Consumer, will start a new one. " />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnA" role="38MLOi">
-      <ref role="1Cak38" node="4$zcAetrTCh" resolve="Exception in Consumer, will be parked without restart." />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnB" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1TWT8" resolve="Manualrun does not issue resched, even if exception inmid., stops execution!" />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnC" role="38MLOi">
-      <ref role="1Cak38" node="2smfeL1Uwu9" resolve="Manualrun does not issue resched, even if exception inmid AND last inbox item." />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnD" role="38MLOi">
-      <ref role="1Cak38" node="7tfEsbGyfWj" resolve="Run independent crons in delay mode. Both should process." />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnE" role="38MLOi">
-      <ref role="1Cak38" node="7tfEsbGyAfA" resolve="Run dependent crons in delay mode. Only one should process." />
-    </node>
-    <node concept="1Cak35" id="7n_$dfX8qnF" role="38MLOi">
-      <ref role="1Cak38" node="7tfEsbG$cA7" resolve="Run dependent crons in delay mode. EX should make them run with enought time. " />
     </node>
   </node>
   <node concept="2WPaUQ" id="5lMTsSlMp$c">

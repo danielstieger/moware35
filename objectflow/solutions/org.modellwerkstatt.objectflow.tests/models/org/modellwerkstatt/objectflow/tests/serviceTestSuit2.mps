@@ -12,6 +12,7 @@
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/)" />
     <import index="mbq3" ref="r:7e4701a9-41c8-48f8-85a5-b51defdf8297(org.modellwerkstatt.objectflow.tests.manmapTestSuit2)" />
     <import index="dw32" ref="r:6b63e401-766b-47ab-bd2d-34f6c32977f2(org.modellwerkstatt.objectflow.tests.objectflowTestSuit2)" />
+    <import index="zbds" ref="r:95086127-b806-489c-89da-1144432cab9f(org.modellwerkstatt.objectflow.tests.jobTestSuit3)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
   </imports>
   <registry>
@@ -965,6 +966,14 @@
     <node concept="1DZZI9" id="7X5ehdqLOMk" role="38MLOi">
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="dw32:3U0QWztN8iD" resolve="New OFXRunCmd infra" />
+    </node>
+    <node concept="1DZZI9" id="3A3LR0wK$Lv" role="38MLOi">
+      <property role="26Iqih" value="true" />
+      <ref role="1DZZIc" to="zbds:5lMTsSlMoVE" resolve="Consumer Producer Rainy" />
+    </node>
+    <node concept="1DZZI9" id="3A3LR0wK$QQ" role="38MLOi">
+      <property role="26Iqih" value="true" />
+      <ref role="1DZZIc" to="zbds:5lMTsSlMocw" resolve="Consumer Producer Sunny" />
     </node>
     <node concept="1DF_5m" id="4Ta2XmW47C7" role="3yMuLx" />
     <node concept="2d2NRx" id="5p$R$8zooMb" role="3yTP5x">
