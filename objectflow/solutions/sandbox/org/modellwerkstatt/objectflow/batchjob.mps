@@ -18182,24 +18182,8 @@
                       <node concept="3cpWs3" id="4InK$iNQu9T" role="3uHU7B">
                         <node concept="3cpWs3" id="4InK$iNQtZm" role="3uHU7B">
                           <node concept="3cpWs3" id="4InK$iNQtBn" role="3uHU7B">
-                            <node concept="3cpWs3" id="4InK$iNQspF" role="3uHU7B">
-                              <node concept="2OqwBi" id="4InK$iNQrLr" role="3uHU7B">
-                                <node concept="10M0yZ" id="4InK$iNQqeY" role="2Oq$k0">
-                                  <ref role="1PxDUh" node="66durT_3en0" resolve="JmxBatchJobCoreReporter" />
-                                  <ref role="3cqZAo" node="2T5SnS24sOh" resolve="EXACT_TIME_ONLY_FORMATTER" />
-                                </node>
-                                <node concept="liA8E" id="4InK$iNQrMq" role="2OqNvi">
-                                  <ref role="37wK5l" to="x5li:~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolve="print" />
-                                  <node concept="2ShNRf" id="4InK$iNQrNU" role="37wK5m">
-                                    <node concept="1pGfFk" id="4InK$iNQsnK" role="2ShVmc">
-                                      <ref role="37wK5l" to="w08f:~DateTime.&lt;init&gt;()" resolve="DateTime" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="Xl_RD" id="4InK$iNQsqE" role="3uHU7w">
-                                <property role="Xl_RC" value=": sched entry for " />
-                              </node>
+                            <node concept="Xl_RD" id="4InK$iNQsqE" role="3uHU7B">
+                              <property role="Xl_RC" value="sched entry for " />
                             </node>
                             <node concept="2OqwBi" id="4InK$iNQtPz" role="3uHU7w">
                               <node concept="2OqwBi" id="4InK$iNQtIS" role="2Oq$k0">

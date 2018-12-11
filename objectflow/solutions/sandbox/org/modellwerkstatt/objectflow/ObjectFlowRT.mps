@@ -1130,7 +1130,7 @@
       <property role="TrG5h" value="setValue" />
       <node concept="37vLTG" id="3BCllXnpIt6" role="3clF46">
         <property role="TrG5h" value="id" />
-        <node concept="10Oyi0" id="3BCllXnpIt7" role="1tU5fm" />
+        <node concept="17QB3L" id="3A3LR0wgxkL" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="3BCllXnpIt8" role="3clF46">
         <property role="TrG5h" value="val" />
@@ -1148,8 +1148,13 @@
             </node>
             <node concept="liA8E" id="3BCllXnpJgZ" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
-              <node concept="37vLTw" id="3BCllXnpJhh" role="37wK5m">
-                <ref role="3cqZAo" node="3BCllXnpIt6" resolve="id" />
+              <node concept="2OqwBi" id="3A3LR0wgxKm" role="37wK5m">
+                <node concept="37vLTw" id="3A3LR0wgxDD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3BCllXnpIt6" resolve="id" />
+                </node>
+                <node concept="liA8E" id="3A3LR0wgxRQ" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.hashCode():int" resolve="hashCode" />
+                </node>
               </node>
               <node concept="37vLTw" id="3BCllXnpJlh" role="37wK5m">
                 <ref role="3cqZAo" node="3BCllXnpIt8" resolve="val" />
@@ -1164,7 +1169,7 @@
       <property role="TrG5h" value="getValue" />
       <node concept="37vLTG" id="3BCllXnpItf" role="3clF46">
         <property role="TrG5h" value="id" />
-        <node concept="10Oyi0" id="3BCllXnpItg" role="1tU5fm" />
+        <node concept="17QB3L" id="3A3LR0wgx6d" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="3BCllXnWFSN" role="3clF45">
         <ref role="3uigEE" to="wyt6:~Boolean" resolve="Boolean" />
@@ -1178,8 +1183,13 @@
             </node>
             <node concept="liA8E" id="3BCllXnpJ$G" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
-              <node concept="37vLTw" id="3BCllXnpJ_O" role="37wK5m">
-                <ref role="3cqZAo" node="3BCllXnpItf" resolve="id" />
+              <node concept="2OqwBi" id="3A3LR0wgy7Z" role="37wK5m">
+                <node concept="37vLTw" id="3BCllXnpJ_O" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3BCllXnpItf" resolve="id" />
+                </node>
+                <node concept="liA8E" id="3A3LR0wgyoW" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.hashCode():int" resolve="hashCode" />
+                </node>
               </node>
             </node>
           </node>
@@ -1192,7 +1202,7 @@
       <property role="TrG5h" value="setIdentity" />
       <node concept="37vLTG" id="35a9wK8sLNo" role="3clF46">
         <property role="TrG5h" value="id" />
-        <node concept="10Oyi0" id="35a9wK8sLNp" role="1tU5fm" />
+        <node concept="17QB3L" id="3A3LR0wgwwa" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="35a9wK8sLNq" role="3clF46">
         <property role="TrG5h" value="val" />
@@ -1210,8 +1220,13 @@
             </node>
             <node concept="liA8E" id="35a9wK8sLNy" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~Map.put(java.lang.Object,java.lang.Object):java.lang.Object" resolve="put" />
-              <node concept="37vLTw" id="35a9wK8sLNz" role="37wK5m">
-                <ref role="3cqZAo" node="35a9wK8sLNo" resolve="id" />
+              <node concept="2OqwBi" id="3A3LR0wgwLk" role="37wK5m">
+                <node concept="37vLTw" id="35a9wK8sLNz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="35a9wK8sLNo" resolve="id" />
+                </node>
+                <node concept="liA8E" id="3A3LR0wgwSO" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.hashCode():int" resolve="hashCode" />
+                </node>
               </node>
               <node concept="37vLTw" id="35a9wK8sLN$" role="37wK5m">
                 <ref role="3cqZAo" node="35a9wK8sLNq" resolve="val" />
@@ -1226,7 +1241,7 @@
       <property role="TrG5h" value="getIdentity" />
       <node concept="37vLTG" id="35a9wK8sLNA" role="3clF46">
         <property role="TrG5h" value="id" />
-        <node concept="10Oyi0" id="35a9wK8sLNB" role="1tU5fm" />
+        <node concept="17QB3L" id="3A3LR0wgyur" role="1tU5fm" />
       </node>
       <node concept="3uibUv" id="35a9wK8sSg0" role="3clF45">
         <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
@@ -1240,8 +1255,13 @@
             </node>
             <node concept="liA8E" id="35a9wK8sLNI" role="2OqNvi">
               <ref role="37wK5l" to="33ny:~Map.get(java.lang.Object):java.lang.Object" resolve="get" />
-              <node concept="37vLTw" id="35a9wK8sLNJ" role="37wK5m">
-                <ref role="3cqZAo" node="35a9wK8sLNA" resolve="id" />
+              <node concept="2OqwBi" id="3A3LR0wgyJP" role="37wK5m">
+                <node concept="37vLTw" id="35a9wK8sLNJ" role="2Oq$k0">
+                  <ref role="3cqZAo" node="35a9wK8sLNA" resolve="id" />
+                </node>
+                <node concept="liA8E" id="3A3LR0wgz9e" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.hashCode():int" resolve="hashCode" />
+                </node>
               </node>
             </node>
           </node>
