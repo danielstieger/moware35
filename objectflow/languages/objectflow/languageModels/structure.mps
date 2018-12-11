@@ -3861,6 +3861,7 @@
     <node concept="1TJgyi" id="7bWGJuRDHjl" role="1TKVEl">
       <property role="TrG5h" value="suspendSeconds" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <node concept="asaX9" id="1Z999TK3tYx" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="3U0QWzu$7hK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -3877,13 +3878,20 @@
     <node concept="1TJgyj" id="3U0QWzu_6fv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="props" />
-      <property role="20lbJX" value="1..n" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3U0QWzu_6fi" resolve="OFXExceptionStrategyProp" />
+      <node concept="asaX9" id="1Z999TJVqrp" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="7JtXXwmFLXL" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="docu" />
       <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
+    </node>
+    <node concept="1TJgyj" id="1Z999TJVqqi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="properties" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1Z999TJy7rR" resolve="IOFXStratBehaviour" />
     </node>
     <node concept="PrWs8" id="3U0QWzuF6_v" role="PzmwI">
       <ref role="PrY4T" node="3U0QWzu$6wv" resolve="IOFXExceptionStrategyMember" />
@@ -4128,12 +4136,12 @@
   <node concept="PlHQZ" id="1Z999TJy7rR">
     <property role="1pbfSe" value="1890477163" />
     <property role="3GE5qa" value="OFXCore.batch2.strat" />
-    <property role="TrG5h" value="IOFXStrategyBehaviour" />
+    <property role="TrG5h" value="IOFXStratBehaviour" />
   </node>
   <node concept="1TIwiD" id="1Z999TJyiCN">
     <property role="1pbfSe" value="1890431279" />
     <property role="3GE5qa" value="OFXCore.batch2.strat" />
-    <property role="TrG5h" value="OFXDelayStartBehaviour" />
+    <property role="TrG5h" value="OFXDelayStratBehaviour" />
     <property role="34LRSv" value="DELAY_EXECUTION" />
     <property role="R4oN_" value="wait for some time before moving on" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -4142,7 +4150,51 @@
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="PrWs8" id="1Z999TJyiE8" role="PzmwI">
-      <ref role="PrY4T" node="1Z999TJy7rR" resolve="IOFXStrategyBehaviour" />
+      <ref role="PrY4T" node="1Z999TJy7rR" resolve="IOFXStratBehaviour" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1Z999TJVqgd">
+    <property role="1pbfSe" value="1883846485" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="TrG5h" value="OFXSilentNoLogStratBehaviour" />
+    <property role="34LRSv" value="SILENT_NO_LOG" />
+    <property role="R4oN_" value="do not log ex message" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1Z999TJVqi9" role="PzmwI">
+      <ref role="PrY4T" node="1Z999TJy7rR" resolve="IOFXStratBehaviour" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1Z999TJVqge">
+    <property role="1pbfSe" value="1883846484" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="TrG5h" value="OFXConsRestartStratBehaviour" />
+    <property role="34LRSv" value="CONSUMER_RESTART" />
+    <property role="R4oN_" value="kill consumer and start a new one" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1Z999TJVqid" role="PzmwI">
+      <ref role="PrY4T" node="1Z999TJy7rR" resolve="IOFXStratBehaviour" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1Z999TJVqha">
+    <property role="1pbfSe" value="1883846424" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="TrG5h" value="OFXReAddInboxStratBehaviour" />
+    <property role="34LRSv" value="READD_TO_INBOX" />
+    <property role="R4oN_" value="add item to inbox in case of ex" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1Z999TJVqib" role="PzmwI">
+      <ref role="PrY4T" node="1Z999TJy7rR" resolve="IOFXStratBehaviour" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1Z999TJVqi6">
+    <property role="1pbfSe" value="1883846364" />
+    <property role="3GE5qa" value="OFXCore.batch2.strat" />
+    <property role="TrG5h" value="OFXClearInboxStratBehaviour" />
+    <property role="34LRSv" value="CLEAR_INBOX" />
+    <property role="R4oN_" value="clear inbox (and wait for resched)" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1Z999TJVqi7" role="PzmwI">
+      <ref role="PrY4T" node="1Z999TJy7rR" resolve="IOFXStratBehaviour" />
     </node>
   </node>
 </model>

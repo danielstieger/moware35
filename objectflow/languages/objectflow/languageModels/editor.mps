@@ -10335,6 +10335,27 @@
         <property role="1$x2rV" value="&lt;not used&gt;" />
         <ref role="1NtTu8" to="un0u:3U0QWzu$7oy" />
       </node>
+      <node concept="3F0ifn" id="1Z999TJVqqO" role="3EZMnx">
+        <property role="3F0ifm" value="=&gt;" />
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+      </node>
+      <node concept="3F2HdR" id="1Z999TJVqr9" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="un0u:1Z999TJVqqi" />
+        <node concept="l2Vlx" id="1Z999TJVqrb" role="2czzBx" />
+        <node concept="3F0ifn" id="1Z999TK2OTJ" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;props&gt;" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3U0QWzuFWM1" role="3EZMnx">
+        <property role="3F0ifm" value=" " />
+        <node concept="pVoyu" id="7JtXXwmIWPc" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+    </node>
+    <node concept="3EZMnI" id="1Z999TJVqqo" role="6VMZX">
       <node concept="3F0ifn" id="3U0QWzu_6g8" role="3EZMnx">
         <property role="3F0ifm" value="=&gt; deleay execution for " />
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
@@ -10354,12 +10375,7 @@
         <ref role="1NtTu8" to="un0u:3U0QWzu_6fv" />
         <node concept="l2Vlx" id="3U0QWzu_6gm" role="2czzBx" />
       </node>
-      <node concept="3F0ifn" id="3U0QWzuFWM1" role="3EZMnx">
-        <property role="3F0ifm" value=" " />
-        <node concept="pVoyu" id="7JtXXwmIWPc" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
+      <node concept="l2Vlx" id="1Z999TJVqqp" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="3U0QWzu_6fq">
@@ -10806,7 +10822,7 @@
   </node>
   <node concept="24kQdi" id="1Z999TJyiId">
     <property role="3GE5qa" value="OFXCore.batch2.strat" />
-    <ref role="1XX52x" to="un0u:1Z999TJyiCN" resolve="OFXDelayStartBehaviour" />
+    <ref role="1XX52x" to="un0u:1Z999TJyiCN" resolve="OFXDelayStratBehaviour" />
     <node concept="3EZMnI" id="1Z999TJyiIM" role="2wV5jI">
       <node concept="PMmxH" id="1Z999TJyiJ7" role="3EZMnx">
         <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
@@ -10823,7 +10839,7 @@
   </node>
   <node concept="24kQdi" id="1Z999TJyiPw">
     <property role="3GE5qa" value="OFXCore.batch2.strat" />
-    <ref role="1XX52x" to="un0u:1Z999TJy7rR" resolve="IOFXStrategyBehaviour" />
+    <ref role="1XX52x" to="un0u:1Z999TJy7rR" resolve="IOFXStratBehaviour" />
     <node concept="PMmxH" id="1Z999TJyiPK" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
     </node>

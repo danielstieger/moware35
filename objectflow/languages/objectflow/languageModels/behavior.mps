@@ -121,7 +121,6 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1092119917967" name="jetbrains.mps.baseLanguage.structure.MulExpression" flags="nn" index="17qRlL" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -18067,26 +18066,6 @@
       <node concept="_YKpA" id="7bWGJuRIohW" role="3clF45">
         <node concept="3Tqbb2" id="7bWGJuRIohX" role="_ZDj9">
           <ref role="ehGHo" to="un0u:3U0QWzu$6uM" resolve="OFXStrategyForException" />
-        </node>
-      </node>
-    </node>
-    <node concept="13i0hz" id="3exXxRexTnb" role="13h7CS">
-      <property role="TrG5h" value="getSuspendTimeInMillis" />
-      <node concept="3Tm1VV" id="3exXxRexTnc" role="1B3o_S" />
-      <node concept="10Oyi0" id="3exXxRexTnX" role="3clF45" />
-      <node concept="3clFbS" id="3exXxRexTne" role="3clF47">
-        <node concept="3cpWs6" id="3exXxRexTTo" role="3cqZAp">
-          <node concept="17qRlL" id="3exXxRexTEg" role="3cqZAk">
-            <node concept="2OqwBi" id="3exXxRexTqD" role="3uHU7B">
-              <node concept="13iPFW" id="3exXxRexToE" role="2Oq$k0" />
-              <node concept="3TrcHB" id="3exXxRexTuI" role="2OqNvi">
-                <ref role="3TsBF5" to="un0u:7bWGJuRDHjl" resolve="suspendSeconds" />
-              </node>
-            </node>
-            <node concept="3cmrfG" id="3exXxRexTM9" role="3uHU7w">
-              <property role="3cmrfH" value="1000" />
-            </node>
-          </node>
         </node>
       </node>
     </node>
