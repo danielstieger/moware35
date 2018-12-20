@@ -92,11 +92,25 @@
 
 /* editor screen, scanning, etc.  ------------------------------------------ */
 .sv-editor {color:#000 !important; background-color:#FFF!important;}
-.sv-input  {padding: 2px !important }
+.sv-input  {padding: 2px !important; border-bottom: 1px solid #009688 !important; }
 .sv-label  {color: #666666 !important; text-align: right; padding-right: 24px;}
 .sv-edit-row {padding: 8px 0px; }
 .sv-edit-row2 {padding: 10px 0px; }
 .sv-editor-title {padding: 8px 8px !important; border-bottom: 1px solid #333333!important; }
 
-.w3-input {border-bottom: 1px solid #009688 !important;}
+.w3-input {}
 .w3-input:disabled {border-bottom: none !important;}
+
+
+
+/* editor screen, scanning, etc.  ------------------------------------------ */
+.sv-editor-2A {color:#000 !important; background-color:#FFF !important;}
+.sv-editor-2B {color:#000 !important; background-color:#F7F7F7 !important;}
+
+
+.sv-edit-row-2 {padding: 0px 0px; }
+.sv-label-2  {color: #666666 !important; text-align: right; padding-right: 24px; line-height: 38px; border-bottom: 1px solid #009688 !important;}
+.sv-input-col-2 {background-color:#FFF !important;}
+.sv-dis-input-col-2 {line-height: 38px; border-bottom: 1px solid #009688 !important;}
+.sv-input-2  { border-bottom: 1px solid #009688 !important; }
+.sv-select-2 { height: 38px; background-color: #FFF !important; border-bottom: 1px solid #009688 !important; }
