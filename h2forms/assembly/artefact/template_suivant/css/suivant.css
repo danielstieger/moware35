@@ -105,12 +105,26 @@
 
 /* editor screen, scanning, etc.  ------------------------------------------ */
 .sv-editor-2A {color:#000 !important; background-color:#FFF !important;}
-.sv-editor-2B {color:#000 !important; background-color:#F7F7F7 !important;}
+.sv-editor-2B {color:#000 !important; background-color:#f2f2f2 !important;}
 
 
 .sv-edit-row-2 {padding: 0px 0px; }
 .sv-label-2  {color: #666666 !important; text-align: right; padding-right: 24px; line-height: 38px; border-bottom: 1px solid #009688 !important;}
 .sv-input-col-2 {background-color:#FFF !important;}
 .sv-dis-input-col-2 {line-height: 38px; border-bottom: 1px solid #009688 !important;}
-.sv-input-2  { border-bottom: 1px solid #009688 !important; }
-.sv-select-2 { height: 38px; background-color: #FFF !important; border-bottom: 1px solid #009688 !important; }
+.sv-input-2  { border-bottom: 1px solid #009688 !important; line-height: 22px !important; }
+.sv-select-2 { height: 39px; background-color: #FFF !important; border-bottom: 1px solid #009688 !important; }
+
+
+/* label fett
+ * ohne grüner strich rechts
+ * felder stimmen nicht ...
+ *
+ */
+.sv-label-3  {color: #666666 !important; text-align: right; padding-right: 24px;
+   line-height: 38px; border-bottom: 1px solid #009688 !important; font-weight: 600 !important;}
+
+.sv-label-4  {color: #888 !important; text-align: right; padding-right: 24px;
+      line-height: 38px; border-bottom: 1px solid #FFF !important; font-weight: 600 !important;}
+
+.sv-dis-input-col-4 {line-height: 38px; border-bottom: 1px solid #FFF !important;}
