@@ -1,0 +1,68 @@
+{% macro defCol(col) %}
+    {% if col is null %}#6b9ff4{% else %}{{ col }}{% endif %}
+{% endmacro %}
+<!DOCTYPE html>
+<html>
+  <title>{{ statics.applicationName }} {{ client.device }}/{{ client.debug }}</title>
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="{{ statics.applicationName }}">
+  <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#c6c6c6">
+
+  {% if keyboard %}
+  <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" >
+  {% endif %}
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+
+  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/suivant.css{{ page.ncs }}">
+  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3-theme-teal.css{{ page.ncs }}">
+  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3.css{{ page.ncs }}">
+  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/font-awesome.min.css{{ page.ncs }}">
+
+  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/suivantui.js{{ page.ncs }}"></script>
+  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/suivant.js{{ page.ncs }}"></script>
+  <link rel="icon" type="image/ico" href="{{ client.staticContentUrlPrefix }}/images/favicon.ico{{ page.ncs }}">
+  <style>
+  h1   {font-size:20px}
+  h2   {font-size:18px}
+  h3   {font-size:16px}
+  h4   {font-size:14px}
+  h5   {font-size:12px}
+  h6   {font-size:10px}
+  </style>
+
+<body class="sv-back-gray">
+<form method="POST" name="baseform" id="baseform">
+    <input type="hidden" name="NaviCrtl" value=""/>
+    <input type="hidden" name="SelectionId" value=""/>
+    <input type="hidden" name="SequenceId" value="{{ page.sequenceId }}"/>
+    <input type="hidden" name="PageTmpValue" value="0"/>
+    <input type="hidden" name="H1HttpClient" value="{{ client.device }}"/>
+    <input type="hidden" name="Progressor" value="{{ client.progressor }}"/>
+    <input type="hidden" name="DebugInformation" value="-"/>
+
+    {% block content %} {% endblock %}
+</form>
+</body>
+</html>
+
+
+

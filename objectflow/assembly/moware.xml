@@ -90,7 +90,8 @@
 	<target name="h2forms">
 		<!--     H2 forms settings      -->
 		<property name="h2formsAppLoader"     value="org.modellwerkstatt.h2forms.core.H2ApplicationLoader" /> 
-  		<property name="h2formsTemplate"      value="template_leg" /> 
+  		<property name="h2formsTemplate1"      value="template_leg" /> 
+		<property name="h2formsTemplate2"      value="template_suivant" /> 
 
 		<mkdir dir="${mowareAppTargetDir}/META-INF"/>
 		<mkdir dir="${mowareAppTargetDir}/WEB-INF/lib"/>
@@ -111,10 +112,16 @@
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
 		</copy>
 		
-		<mkdir dir="${mowareAppTargetDir}/static/${h2formsTemplate}"/>
-		<copy todir="${mowareAppTargetDir}/static/${h2formsTemplate}">
-		  <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/${h2formsTemplate}/" />
+		<mkdir dir="${mowareAppTargetDir}/static/${h2formsTemplate1}"/>
+		<copy todir="${mowareAppTargetDir}/static/${h2formsTemplate1}">
+		  <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/${h2formsTemplate1}/" />
 		</copy>
+	
+		<mkdir dir="${mowareAppTargetDir}/static/${h2formsTemplate2}"/>
+		<copy todir="${mowareAppTargetDir}/static/${h2formsTemplate2}">
+		  <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/${h2formsTemplate2}/" />
+		</copy>
+	
 	
 		<copy file="${mowarePluginHomeDir}/h2assembly/artefact/context.xml" tofile="${mowareAppTargetDir}/META-INF/context.xml" filtering="yes" overwrite="yes">
 		</copy>

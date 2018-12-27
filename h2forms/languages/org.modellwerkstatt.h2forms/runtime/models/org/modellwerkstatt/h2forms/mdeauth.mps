@@ -672,6 +672,48 @@
           </node>
         </node>
         <node concept="3clFbH" id="7WBKY1Wi5KL" role="3cqZAp" />
+        <node concept="3cpWs8" id="2f$GH$eemXJ" role="3cqZAp">
+          <node concept="3cpWsn" id="2f$GH$eemXK" role="3cpWs9">
+            <property role="TrG5h" value="loginUserParamName" />
+            <node concept="17QB3L" id="2f$GH$eemXL" role="1tU5fm" />
+            <node concept="2OqwBi" id="2f$GH$eemXM" role="33vP2m">
+              <node concept="37vLTw" id="2f$GH$eemXN" role="2Oq$k0">
+                <ref role="3cqZAo" node="1wwgtxzg9Et" resolve="request" />
+              </node>
+              <node concept="liA8E" id="2f$GH$eemXO" role="2OqNvi">
+                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                <node concept="Xl_RD" id="2f$GH$eeL9l" role="37wK5m">
+                  <property role="Xl_RC" value="username" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="2f$GH$eensz" role="3cqZAp">
+          <node concept="3clFbS" id="2f$GH$eens_" role="3clFbx">
+            <node concept="3clFbF" id="2f$GH$eenJJ" role="3cqZAp">
+              <node concept="37vLTI" id="2f$GH$eenKI" role="3clFbG">
+                <node concept="2OqwBi" id="2f$GH$eenMQ" role="37vLTx">
+                  <node concept="37vLTw" id="2f$GH$eenLU" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1wwgtxzgBSI" resolve="client" />
+                  </node>
+                  <node concept="2S8uIT" id="2f$GH$eenSl" role="2OqNvi">
+                    <ref role="2S8YL0" to="tea8:7WBKY1WgdlQ" resolve="remoteAddr" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2f$GH$eenJH" role="37vLTJ">
+                  <ref role="3cqZAo" node="2f$GH$eemXK" resolve="loginUserParamName" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="2f$GH$eenEG" role="3clFbw">
+            <node concept="10Nm6u" id="2f$GH$eenI5" role="3uHU7w" />
+            <node concept="37vLTw" id="2f$GH$eenAl" role="3uHU7B">
+              <ref role="3cqZAo" node="2f$GH$eemXK" resolve="loginUserParamName" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1wwgtxzi_Yi" role="3cqZAp">
           <node concept="37vLTI" id="1wwgtxziA8A" role="3clFbG">
             <node concept="37vLTw" id="7WBKY1Wi668" role="37vLTJ">
@@ -683,13 +725,8 @@
               </node>
               <node concept="liA8E" id="1wwgtxzg_Nu" role="2OqNvi">
                 <ref role="37wK5l" to="1e0c:r$jHpEYDXt" resolve="checkLoginPrepareUserEnv" />
-                <node concept="2OqwBi" id="7WBKY1Wi4dK" role="37wK5m">
-                  <node concept="37vLTw" id="7WBKY1Wi4aP" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1wwgtxzgBSI" resolve="client" />
-                  </node>
-                  <node concept="2S8uIT" id="7WBKY1Wi4kt" role="2OqNvi">
-                    <ref role="2S8YL0" to="tea8:7WBKY1WgdlQ" resolve="remoteAddr" />
-                  </node>
+                <node concept="37vLTw" id="2f$GH$eeo0H" role="37wK5m">
+                  <ref role="3cqZAo" node="2f$GH$eemXK" resolve="loginUserParamName" />
                 </node>
                 <node concept="Xl_RD" id="1wwgtxzg_WT" role="37wK5m">
                   <property role="Xl_RC" value="" />
