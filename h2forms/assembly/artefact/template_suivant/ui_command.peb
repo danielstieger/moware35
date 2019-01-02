@@ -2,38 +2,44 @@
 
 {% block content %}
 <div class="w3-container w3-row w3-theme-d3" onclick="svHideAllContainsDropdown()">
-    <div class="w3-col s9 w3-left-align"> {{ client.appVersionInfo }}</div>
+    <div class="w3-col s9 w3-left-align"> User Info / Identity</div>
     <div class="w3-col s3 w3-right-align"> {{ client.username }} </div>
 </div>
 <div class="w3-bar w3-theme" onclick="svHideAllContainsDropdown()">
     {% for conc in conclusions %}
-        {% if conc.visible and conc.hotKey equals "UPD" %}
-            <input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
-
-        {% elseif conc.triggerCode equals 0 %}
+        {% if loop.first %}
             <button type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"
             {% if not conc.enabled %} disabled {% endif %}> <i class="material-icons"> arrow_back </i></button>
-            <span class="w3-bar-item sv-bartitle"> {{ page.chrumbs|last }} </span>
+            <span class="w3-bar-item sv-bartitle"> {{ windowTitle }} </span>
             <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
                 <button class="w3-bar-item w3-button">Logout</button>
                 <button class="w3-bar-item w3-button" onclick="EB.Application.quit();">Exit Browser</button>
             </div>
+        <div class="w3-right">
+
+        {% elseif conc.visible and conc.hotKey equals "UPD" %}
+            <input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
 
         {% elseif conc.visible %}
-        <button type="button" class="w3-bar-item w3-button w3-right"
+           <button type="button" class="w3-bar-item w3-button"
            {% if not conc.enabled %} disabled {% else %} onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"{% endif %}>
            {% if conc.materialImgName is not null %} <i class="material-icons">{{ conc.materialImgName|raw }}</i>
            {% else %}{{ conc.label }}{% endif %} </button>
         {% endif %}
+
+        {% if loop.last %}</div>{% endif %}
     {% endfor %}
 </div>
 
-{% include "./messages.peb" %}
-
+{% if splittedPageTitle is not null %}
 <div class="w3-panel" onclick="svHideAllContainsDropdown()">
-    <div class="w3-block"> 16.8.18 - windowtitle </div>
-    <div class="w3-block"> 16 Belege zur Bearbeitung - pagetitle</div>
+    {% for line in splittedPageTitle %}
+        <div class="w3-block"> {{ line }} </div>
+    {% endfor %}
 </div>
+{% endif %}
+
+{% include "./messages.peb" %}
 
 <div class="w3-panel">
     <div class="w3-row sv-docrow sv-nav" onClick="javascript: openPage('wareneingang.html')">
