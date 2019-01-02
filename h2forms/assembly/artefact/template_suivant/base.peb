@@ -7,16 +7,16 @@
 
   <!-- Add to homescreen for Chrome on Android -->
   <meta name="mobile-web-app-capable" content="yes">
-  <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+  <link rel="icon" sizes="192x192" href="{{ client.staticContentUrlPrefix }}/images/android-desktop.png{{ page.ncs }}">
 
   <!-- Add to homescreen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="{{ statics.applicationName }}">
-  <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+  <link rel="apple-touch-icon-precomposed" href="{{ client.staticContentUrlPrefix }}/images/ios-desktop.png{{ page.ncs }}">
 
   <!-- Tile icon for Win8 (144x144 + tile color) -->
-  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileImage" content="{{ client.staticContentUrlPrefix }}/images/touch/ms-touch-icon-144x144-precomposed.png{{ page.ncs }}">
   <meta name="msapplication-TileColor" content="#c6c6c6">
 
   {% if keyboard %}
@@ -32,10 +32,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 
-  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/suivant.css{{ page.ncs }}">
+  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/suivant-tmpl.css{{ page.ncs }}">
   <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3-theme-teal.css{{ page.ncs }}">
   <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3.css{{ page.ncs }}">
-  <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/font-awesome.min.css{{ page.ncs }}">
 
   <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/suivantui.js{{ page.ncs }}"></script>
   <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/suivant.js{{ page.ncs }}"></script>

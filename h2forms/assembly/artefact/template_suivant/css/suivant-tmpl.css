@@ -1,0 +1,130 @@
+/* ---- Material Icons Stuff ------------------------------------------------ */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(maticonsfont/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(maticonsfont/MaterialIcons-Regular.woff2) format('woff2'),
+       url(maticonsfont/MaterialIcons-Regular.woff) format('woff'),
+       url(maticonsfont/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;  /* Preferred icon size */
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: bottom;
+  line-height: 1;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+
+
+
+
+/* moware suivant adoptions * * * * * * * * * * * * * * * * * * * * * * * * * */
+.sv-nav { cursor: pointer; }
+
+
+/* start screen with tiles */
+.sv-status-gray {color:#000 !important; background-color:#b3b3b3 !important}
+.sv-branding-gray {color:#000 !important; background-color:#d9d9d9}
+.sv-back-gray {color:#d9d9d9 !important; background-color:#333333 !important}
+.sv-tile {color:#000 !important; background-color:#f2f2f2!important;
+          border-right:10px solid #ccc!important;
+          margin-bottom: 12px;
+        }
+
+.sv-tile h1 {margin: 4px;}
+.sv-tile p  {margin: 4px;}
+
+
+
+/* document search screen -------------------------------------------------- */
+.w3-bar-item {height: 50px !important }
+.sv-bartitle {font-size: 18px; line-height: 34px}  /* bar-item height - padding (16) */
+/* try adjustment via w3-large as attribute to w3-bar (according doc) */
+
+.sv-docrow {color:#000 !important; background-color:#f2f2f2!important;
+            padding: 18px 16px; margin-bottom: 6px; }
+
+@media only screen and (max-width: 600px) {
+  .sv-s-right-align {text-align: right !important;}
+}
+
+
+/* action handling in page title area -------------------------------------- */
+.sv-pt-container {
+  padding: 16px 0px 12px 16px;
+}
+
+.sv-pt-item {
+  height: 50px !important;
+}
+
+
+/* document screen itself -------------------------------------------------- */
+.sv-doc {color:#000 !important; background-color:#f2f2f2!important;
+         padding-left: 0px !important; padding-right: 0px !important; }
+.sv-posrow {border-bottom:1px solid #333333!important;
+            padding: 18px 16px; }
+.sv-table-button-bar {margin-top: 16px; display: none; }
+
+
+/* editor screen, scanning, etc.  ------------------------------------------ */
+.sv-editor {color:#000 !important; background-color:#FFF!important;}
+.sv-input  {padding: 2px !important; border-bottom: 1px solid #009688 !important; }
+.sv-label  {color: #666666 !important; text-align: right; padding-right: 24px;}
+.sv-edit-row {padding: 8px 0px; }
+.sv-edit-row2 {padding: 10px 0px; }
+.sv-editor-title {padding: 8px 8px !important; border-bottom: 1px solid #333333!important; }
+
+.w3-input {}
+.w3-input:disabled {border-bottom: none !important;}
+
+
+
+/* editor screen, scanning, etc.  ------------------------------------------ */
+.sv-editor-2A {color:#000 !important; background-color:#FFF !important;}
+.sv-editor-2B {color:#000 !important; background-color:#f2f2f2 !important;}
+
+
+.sv-edit-row-2 {padding: 0px 0px; }
+.sv-label-2  {color: #666666 !important; text-align: right; padding-right: 24px; line-height: 38px; border-bottom: 1px solid #009688 !important;}
+.sv-input-col-2 {background-color:#FFF !important;}
+.sv-dis-input-col-2 {line-height: 38px; border-bottom: 1px solid #009688 !important;}
+.sv-input-2  { border-bottom: 1px solid #009688 !important; line-height: 22px !important; }
+.sv-select-2 { height: 39px; background-color: #FFF !important; border-bottom: 1px solid #009688 !important; }
+
+
+/* label fett
+ * ohne grüner strich rechts
+ * felder stimmen nicht ...
+ *
+ */
+.sv-label-3  {color: #666666 !important; text-align: right; padding-right: 24px;
+   line-height: 38px; border-bottom: 1px solid #009688 !important; font-weight: 600 !important;}
+
+.sv-label-4  {color: #888 !important; text-align: right; padding-right: 24px;
+      line-height: 38px; border-bottom: 1px solid #FFF !important; font-weight: 600 !important;}
+
+.sv-dis-input-col-4 {line-height: 38px; border-bottom: 1px solid #FFF !important;}

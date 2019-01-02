@@ -16,26 +16,32 @@
  */
 
 
-var $ = function(query) {
-  return document.querySelector(query);
-};
-var $$ = function(query) {
-  return document.querySelectorAll(query);
-};
-
 var systemMenuHandler;
 
 
 function openPage(page) {
   if (! svHideAllContainsDropdown()) {
       svDisableNavigation();
-
-      setTimeout(function(){
-        window.location = page;
-      }, 1500);
+      window.location = page;
   }
 }
 
+function saveSubmit(submitParameter){
+
+    if (! svHideAllContainsDropdown()) {
+        var f = $('form');
+    	f.NaviCrtl.value = submitParameter;
+    	f.submit();
+    }
+}
+
+
+
+
+
+
+
+/* DEPRECATED Method -- * . * . -- * . * . -- * . * . -- * . * . -- * . * . -- * . * . -- * . * . -- * . * . */
 function toggleDropDown(x) {
     console.log('toggleDropDown called for ' + x);
     var icon_i = x.parentElement.querySelector('i');
@@ -48,17 +54,6 @@ function toggleDropDown(x) {
         icon_i.innerHTML = 'more_vert';
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */

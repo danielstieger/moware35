@@ -9,6 +9,14 @@
  *
  */
 
+var $ = function(query) {
+  return document.querySelector(query);
+};
+var $$ = function(query) {
+  return document.querySelectorAll(query);
+};
+
+
 function svIsDropdown(elem) {
   return (elem.className.indexOf("w3-dropdown-content") != -1);
 }

@@ -27747,6 +27747,11 @@
                   </node>
                   <node concept="3eNFk2" id="2YKZ3if90Aq" role="3eNLev">
                     <node concept="3clFbS" id="2YKZ3if90Ar" role="3eOfB_">
+                      <node concept="3SKdUt" id="66oHjdj_WYf" role="3cqZAp">
+                        <node concept="3SKdUq" id="66oHjdj_WYh" role="3SKWNk">
+                          <property role="3SKdUp" value="cmd container not closed, log event ... " />
+                        </node>
+                      </node>
                       <node concept="3clFbF" id="2YKZ3if90As" role="3cqZAp">
                         <node concept="2OqwBi" id="2YKZ3if90At" role="3clFbG">
                           <node concept="37vLTw" id="2YKZ3if90Au" role="2Oq$k0">
@@ -27779,12 +27784,20 @@
                       </node>
                       <node concept="3clFbH" id="2YKZ3if90AB" role="3cqZAp" />
                     </node>
-                    <node concept="2OqwBi" id="2YKZ3if90Ww" role="3eO9$A">
-                      <node concept="37vLTw" id="2YKZ3if90Wx" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
+                    <node concept="1Wc70l" id="66oHjdj_VIp" role="3eO9$A">
+                      <node concept="3y3z36" id="66oHjdj_Wng" role="3uHU7B">
+                        <node concept="10Nm6u" id="66oHjdj_WoJ" role="3uHU7w" />
+                        <node concept="37vLTw" id="66oHjdj_W3S" role="3uHU7B">
+                          <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="2YKZ3if90Wy" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:4X6$QoZ0_id" resolve="getDetailCmdLogging" />
+                      <node concept="2OqwBi" id="2YKZ3if90Ww" role="3uHU7w">
+                        <node concept="37vLTw" id="2YKZ3if90Wx" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
+                        </node>
+                        <node concept="liA8E" id="2YKZ3if90Wy" role="2OqNvi">
+                          <ref role="37wK5l" to="250q:4X6$QoZ0_id" resolve="getDetailCmdLogging" />
+                        </node>
                       </node>
                     </node>
                   </node>

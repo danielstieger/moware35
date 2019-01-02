@@ -1,0 +1,47 @@
+{% extends "./base.peb" %}
+
+{% block content %}
+<div class="w3-container w3-row w3-theme-d3" onclick="svHideAllContainsDropdown()">
+    <div class="w3-col s9 w3-left-align"> {{ client.appVersionInfo }}</div>
+    <div class="w3-col s3 w3-right-align"> {{ client.username }} </div>
+</div>
+<div class="w3-bar w3-theme" onclick="svHideAllContainsDropdown()">
+    {% for conc in conclusions %}
+        {% if conc.visible and conc.hotKey equals "UPD" %}
+            <input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
+
+        {% elseif conc.triggerCode equals 0 %}
+            <button type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"
+            {% if not conc.enabled %} disabled {% endif %}> <i class="material-icons"> arrow_back </i></button>
+            <span class="w3-bar-item sv-bartitle"> {{ page.chrumbs|last }} </span>
+            <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
+                <button class="w3-bar-item w3-button">Logout</button>
+                <button class="w3-bar-item w3-button" onclick="EB.Application.quit();">Exit Browser</button>
+            </div>
+
+        {% elseif conc.visible %}
+        <button type="button" class="w3-bar-item w3-button w3-right"
+           {% if not conc.enabled %} disabled {% else %} onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"{% endif %}>
+           {% if conc.materialImgName is not null %} <i class="material-icons">{{ conc.materialImgName|raw }}</i>
+           {% else %}{{ conc.label }}{% endif %} </button>
+        {% endif %}
+    {% endfor %}
+</div>
+
+{% include "./messages.peb" %}
+
+<div class="w3-panel" onclick="svHideAllContainsDropdown()">
+    <div class="w3-block"> 16.8.18 - windowtitle </div>
+    <div class="w3-block"> 16 Belege zur Bearbeitung - pagetitle</div>
+</div>
+
+<div class="w3-panel">
+    <div class="w3-row sv-docrow sv-nav" onClick="javascript: openPage('wareneingang.html')">
+        <div class="w3-col s8 m4"> <strong> Initial editor </strong> </div>
+        <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Bereit </div>
+        <div class="w3-col s6 m3"> 11 Lieferscheine </div>
+        <div class="w3-col s2 m1"> ok </div>
+        <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
+    </div>
+</div>
+{% endblock %}
