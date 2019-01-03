@@ -48,7 +48,7 @@
   h6   {font-size:10px}
   </style>
 
-<body class="sv-back-gray">
+<body class="{% if message is not null and message.modalWithButtons %}sv-back-modal{% else %}sv-back-gray{% endif %}">
 <form method="POST" name="baseform" id="baseform">
     <input type="hidden" name="NaviCrtl" value=""/>
     <input type="hidden" name="SelectionId" value=""/>
@@ -58,7 +58,33 @@
     <input type="hidden" name="Progressor" value="{{ client.progressor }}"/>
     <input type="hidden" name="DebugInformation" value="-"/>
 
-    {% block content %} {% endblock %}
+{% if message is not null and message.modalWithButtons %}
+    <div class="w3-container w3-row sv-status-gray">
+        <div class="w3-col s3 w3-left-align">{{ client.device }}/{{ client.debug }}</div>
+        <div class="w3-col s6 w3-center"> {{ client.appVersionInfo }} </div>
+        <div class="w3-col s3 w3-right-align">{{ client.username }}</div>
+    </div>
+    <div class="w3-bar sv-question-red" onclick="svHideAllContainsDropdown()">
+        {% for btn in message.buttons %}
+        {% if loop.length == 1 %}
+            <span class="w3-bar-item sv-bartitle"> </span>
+            <div class="w3-right">
+        {% endif %}
+        <button type="button" id="{{ btn.buttonCode }}" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('{{ btn.buttonCode }}');">
+        {{ btn.label }} </button>
+
+        {% if loop.first and loop.length >= 2 %}
+            <span class="w3-bar-item sv-bartitle"> </span>
+            <div class="w3-right">
+        {% endif %}
+
+        {% if loop.last %}</div>{% endif %}
+    {% endfor %}
+    </div>
+    {% include "./messages.peb" %}
+{% else %}
+{% block content %} {% endblock %}
+{% endif %}
 </form>
 </body>
 </html>

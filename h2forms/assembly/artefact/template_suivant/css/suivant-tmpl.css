@@ -57,13 +57,18 @@
 .sv-tile h1 {margin: 4px;}
 .sv-tile p  {margin: 4px;}
 
+/* messages and questions */
+.sv-back-modal {color: #000 !important; background-color: #f2f2f2 !important;}
+.sv-question-red { color: #FFF !important; background-color: #E4211f !important}
+.sv-warning-orange { color: #FFF !important; background-color: #e49f1f !important}
+
 
 
 /* document search screen -------------------------------------------------- */
 .w3-bar-item {height: 50px !important }
 .sv-bartitle {font-size: 18px; line-height: 34px}  /* bar-item height - padding (16) */
-/* try adjustment via w3-large as attribute to w3-bar (according doc) */
 
+/* try adjustment via w3-large as attribute to w3-bar (according doc) */
 .sv-docrow {color:#000 !important; background-color:#f2f2f2!important;
             padding: 18px 16px; margin-bottom: 6px; }
 

@@ -2627,14 +2627,14 @@
         <property role="TrG5h" value="SESSION_DIRTY" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="4vUcH_0hKSP" role="37wK5m">
-          <property role="Xl_RC" value="Es wurden mit diesem Kommando Daten verändert, die NICHT gespeichert wurden!\nKommando dennoch beenden?\n" />
+          <property role="Xl_RC" value="Veränderungen wurden NICHT gespeichert!\nMöchten Sie fortfahren ohne zu speichern?\n" />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWD0" role="37wK5m" />
-        <node concept="Xl_RD" id="4Rlyz3EmQHD" role="37wK5m">
-          <property role="Xl_RC" value="Es wurden Daten verändert, die NICHT gespeichert wurden! Wirklich beenden ohne speichern?" />
+        <node concept="Xl_RD" id="3V1gzeLFrAl" role="37wK5m">
+          <property role="Xl_RC" value="Veränderungen wurden NICHT gespeichert!\nMöchten Sie fortfahren ohne zu speichern?\n" />
         </node>
         <node concept="Xl_RD" id="WkCinTf5Ug" role="37wK5m">
-          <property role="Xl_RC" value="Data was changed which was not saved yet. Do you want to proceed without saving?" />
+          <property role="Xl_RC" value="Data was changed but NOT saved yet. Do you want to proceed without saving?" />
         </node>
       </node>
       <node concept="QsSxf" id="5ECQsWUjJIu" role="Qtgdg">

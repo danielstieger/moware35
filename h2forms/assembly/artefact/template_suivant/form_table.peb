@@ -1,0 +1,41 @@
+{% macro jsLinkWhenEnabled(act, index) %}
+{% if act.enabled %} onClick="TableSelectAndExec('menu_{{ act.popupMenuId }}_{{ index }}', 'trigger_{{ act.triggerCode }}', 'TR_index');"{% endif %}
+{% endmacro %}
+{% macro renderCell(cell, last) %}
+<div class="w3-col s{{ cell.sizeS }} m{{ cell.sizeM }} {% if cell.closeRow %}sv-s-right-align{% endif %} {% if last %}w3-right-align{% endif %}" {% if cell.color is not null %}style="font-weight: 500; color: {{ cell.color }};"{% endif %}>{{ cell.content | default("&nbsp;") | raw }}</div>
+{% endmacro %}
+
+<div class="w3-panel">
+{% for row in tableRows %}
+    {% if row.numActions == 0 %}
+        <div class="w3-row sv-docrow w3-disabled">
+        {% for cell in row.cells %}
+            {{ renderCell(cell, loop.last) }}
+        {% endfor %}
+        </div>
+    {% elseif row.numActions == 1 %}
+        <div class="w3-row sv-docrow sv-nav" {{ jsLinkWhenEnabled(row.mainAction, row.index) }}>
+        {% for cell in row.cells %}
+            {{ renderCell(cell, loop.last) }}
+        {% endfor %}
+        </div>
+    {% else %}
+        <div class="w3-row sv-docrow sv-nav" onClick="javascript: svShowTableActionButtons(event, this);">
+        {% for cell in row.cells %}
+            {{ renderCell(cell, loop.last) }}
+        {% endfor %}
+            <div class="w3-col s12 sv-table-button-bar ">
+                {% for act in row.actions %}
+                    <button type="button" class="w3-button sv-table-button w3-theme" {% if not act.enabled %}disabled{% endif %} {{ jsLinkWhenEnabled(row.mainAction, row.index) }}> {{ act.label }} </button>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endfor %}
+
+{% if footer is not null %}
+    <div class="w3-row sv-docrow w3-disabled">
+        <div class="w3-col s12 m12 sv-s-right-align w3-right-align">{{ footer }}</div>
+    </div>
+{% endif %}
+</div>

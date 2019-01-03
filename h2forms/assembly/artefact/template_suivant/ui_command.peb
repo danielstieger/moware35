@@ -9,7 +9,7 @@
     {% for conc in conclusions %}
         {% if loop.first %}
             <button type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"
-            {% if not conc.enabled %} disabled {% endif %}> <i class="material-icons"> arrow_back </i></button>
+            {% if not conc.enabled %} disabled {% endif %} id="cnc_{{ conc.triggerCode }}"> <i class="material-icons"> arrow_back </i></button>
             <span class="w3-bar-item sv-bartitle"> {{ windowTitle }} </span>
             <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
                 <button class="w3-bar-item w3-button">Logout</button>
@@ -31,23 +31,19 @@
     {% endfor %}
 </div>
 
-{% if splittedPageTitle is not null %}
+{% if flagText is not null %}
+<div class="w3-panel">
+<div class="w3-card w3-padding sv-question-red">
+    <p id="flagbeep">{{ flagText }}</p>
+</div>
+</div>
+{% elseif splittedPageTitleText is not null %}
 <div class="w3-panel" onclick="svHideAllContainsDropdown()">
-    {% for line in splittedPageTitle %}
+    {% for line in splittedPageTitleText %}
         <div class="w3-block"> {{ line }} </div>
     {% endfor %}
 </div>
 {% endif %}
-
 {% include "./messages.peb" %}
-
-<div class="w3-panel">
-    <div class="w3-row sv-docrow sv-nav" onClick="javascript: openPage('wareneingang.html')">
-        <div class="w3-col s8 m4"> <strong> Initial editor </strong> </div>
-        <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Bereit </div>
-        <div class="w3-col s6 m3"> 11 Lieferscheine </div>
-        <div class="w3-col s2 m1"> ok </div>
-        <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
-    </div>
-</div>
+{{ form.toHtml }}
 {% endblock %}

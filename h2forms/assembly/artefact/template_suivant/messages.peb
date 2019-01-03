@@ -1,14 +1,15 @@
 {% if message is not null %}
 {% if message.infoSmall or message.userQuestion or message.errorSmall %}
 <div class="w3-panel">
-    <div class="w3-card w3-padding w3-red">
+    <div class="w3-card w3-padding sv-question-red">
         <h1>{{ message.heading }}</h1>
-        <p id="errorbeep">{{ message.textBr | raw}} </p>
+        <p id="errorbeep">{{ message.textBr | raw }}
+        </p>
     </div>
 </div>
 {% elseif message.errorLarge is not null %}
 <div class="w3-panel">
-    <div class="w3-card w3-padding w3-red">
+    <div class="w3-card w3-padding sv-question-red">
         <h1>{{ message.heading }}</h1>
         <p id="errorbeep"> <pre> <code> {{ message.text | raw }} </code> </pre>
         <br/><br/><br/>
@@ -17,7 +18,7 @@
 </div>
 {% else%}
 <div class="w3-panel">
-    <div class="w3-card w3-padding w3-yellow">
+    <div class="w3-card w3-padding sv-warning-orange">
         <h1>{{ message.heading }}</h1>
         <p id="info">{{ message.textBr | raw}} </p>
     </div>
