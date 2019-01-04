@@ -1,5 +1,6 @@
 {% if message is not null %}
-{% if message.infoSmall or message.userQuestion or message.errorSmall %}
+<!-- {{ message.toString }} -->
+{% if message.userQuestion or message.errorSmall %}
 <div class="w3-panel">
     <div class="w3-card w3-padding sv-question-red">
         <h1>{{ message.heading }}</h1>
@@ -7,16 +8,21 @@
         </p>
     </div>
 </div>
-{% elseif message.errorLarge is not null %}
+{% elseif message.errorLarge %}
 <div class="w3-panel">
     <div class="w3-card w3-padding sv-question-red">
         <h1>{{ message.heading }}</h1>
-        <p id="errorbeep"> <pre> <code> {{ message.text | raw }} </code> </pre>
-        <br/><br/><br/>
-        </p>
+        <pre id="errorbeep">
+        <code> {{ message.text | raw }} </code>
+        <br><br><br>
+        </pre>
     </div>
 </div>
-{% else%}
+{% elseif message.infoSmall %}
+<div class="w3-panel">
+        <p>{{ message.heading }}: {{ message.text | raw }}</p>
+</div>
+{% else %}
 <div class="w3-panel">
     <div class="w3-card w3-padding sv-warning-orange">
         <h1>{{ message.heading }}</h1>

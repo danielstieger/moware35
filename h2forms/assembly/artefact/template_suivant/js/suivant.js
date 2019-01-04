@@ -26,6 +26,16 @@ function openPage(page) {
   }
 }
 
+function tableSelectAndExec(selectionstr, valstr, eventSource){
+    if (! svHideAllContainsDropdown()) {
+        var f = $('form');
+        f.NaviCrtl.value=valstr;
+        f.SelectionId.value=selectionstr;
+        f.submit();
+    }
+}
+
+
 function saveSubmit(submitParameter){
 
     if (! svHideAllContainsDropdown()) {

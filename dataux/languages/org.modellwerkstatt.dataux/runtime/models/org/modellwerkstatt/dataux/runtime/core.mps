@@ -16204,7 +16204,7 @@
             <node concept="3clFbS" id="6X2OBnWw8Nv" role="3eOfB_">
               <node concept="3SKdUt" id="6X2OBnWrqft" role="3cqZAp">
                 <node concept="3SKdUq" id="6X2OBnWrqfv" role="3SKWNk">
-                  <property role="3SKdUp" value="(update selection)" />
+                  <property role="3SKdUp" value="(update selection, clear any flag on ui)" />
                 </node>
               </node>
               <node concept="3clFbH" id="67$PHrtddsz" role="3cqZAp" />
@@ -16341,6 +16341,28 @@
               <node concept="3clFbH" id="1LBGCxvZTd$" role="3cqZAp" />
               <node concept="SfApY" id="77KX0PDusse" role="3cqZAp">
                 <node concept="3clFbS" id="77KX0PDussg" role="SfCbr">
+                  <node concept="3clFbJ" id="42aYeYNM2JO" role="3cqZAp">
+                    <node concept="3clFbS" id="42aYeYNM2JQ" role="3clFbx">
+                      <node concept="3clFbF" id="42aYeYNLLPe" role="3cqZAp">
+                        <node concept="2OqwBi" id="42aYeYNLLPf" role="3clFbG">
+                          <node concept="37vLTw" id="42aYeYNLLPg" role="2Oq$k0">
+                            <ref role="3cqZAo" node="5yru0E42RFI" resolve="currentGenPagePane" />
+                          </node>
+                          <node concept="liA8E" id="42aYeYNLLPh" role="2OqNvi">
+                            <ref role="37wK5l" to="yg8v:72_IH8pull1" resolve="setFlag" />
+                            <node concept="Xl_RD" id="42aYeYNLLPi" role="37wK5m">
+                              <property role="Xl_RC" value="" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3fqX7Q" id="42aYeYNM2Ml" role="3clFbw">
+                      <node concept="1rXfSq" id="42aYeYNM2NK" role="3fr31v">
+                        <ref role="37wK5l" node="63VjT6lViBN" resolve="isAutoConNoUi" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="6X2OBnWrpW7" role="3cqZAp">
                     <node concept="2OqwBi" id="6X2OBnWrpX2" role="3clFbG">
                       <node concept="37vLTw" id="6X2OBnWrpW5" role="2Oq$k0">

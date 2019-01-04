@@ -43,7 +43,7 @@
 
 /* moware suivant adoptions * * * * * * * * * * * * * * * * * * * * * * * * * */
 .sv-nav { cursor: pointer; }
-
+.sv-disabled { cursor: not-allowed; opacity: 0.85;}
 
 /* start screen with tiles */
 .sv-status-gray {color:#000 !important; background-color:#b3b3b3 !important}

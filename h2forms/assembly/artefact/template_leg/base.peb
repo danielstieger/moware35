@@ -70,12 +70,12 @@
                 {% if message.infoSmall or message.userQuestion or message.errorSmall %}
                     <p id="errorbeep" class="error">{{ message.heading }}: {{ message.textBr | raw}} </p>
 
-                {% elseif message.errorLarge is not null %}
-                    <p id="errorbeep"> {{ message.heading }} <br/>
-                    <pre> <code> {{ message.text | raw }} </code> </pre>
+                {% elseif message.errorLarge %}
+                    <pre id="errorbeep"> {{ message.heading }} <br>
+                    <code> {{ message.text | raw }} </code>
                     <br/><br/><br/>
-                    </p>
-                {% else%}
+                    </pre>
+                {% else %}
                     <p class="info"> {{ message.textBr | raw }}  </p>
     			{% endif %}
 			{% endif %}

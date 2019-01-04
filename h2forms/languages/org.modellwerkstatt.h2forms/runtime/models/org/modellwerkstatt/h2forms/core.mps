@@ -9660,8 +9660,8 @@
             <node concept="2ShNRf" id="7r26jiO3F4L" role="37vLTx">
               <node concept="1pGfFk" id="7r26jiO3EXU" role="2ShVmc">
                 <ref role="37wK5l" node="5hYsHqQzfX7" resolve="H2Message" />
-                <node concept="Rm8GO" id="4ysbFF_V2uk" role="37wK5m">
-                  <ref role="Rm8GQ" to="250q:2ppo89mgGiY" resolve="INFO_LARGE" />
+                <node concept="Rm8GO" id="42aYeYNMom4" role="37wK5m">
+                  <ref role="Rm8GQ" to="250q:4Ucpg8z6mvn" resolve="INFO_SMALL" />
                   <ref role="1Px2BO" to="250q:4Ucpg8z6mu9" resolve="IToolkit_Application.DlgType" />
                 </node>
                 <node concept="2OqwBi" id="7r26jiO3F_h" role="37wK5m">
@@ -11982,7 +11982,7 @@
                     </node>
                   </node>
                   <node concept="3cmrfG" id="6HZE0_Umwe$" role="3uHU7w">
-                    <property role="3cmrfH" value="20" />
+                    <property role="3cmrfH" value="30" />
                   </node>
                 </node>
               </node>
@@ -11995,7 +11995,7 @@
                 </node>
               </node>
               <node concept="3cmrfG" id="6HZE0_Umw$_" role="3K4GZi">
-                <property role="3cmrfH" value="40" />
+                <property role="3cmrfH" value="30" />
               </node>
             </node>
           </node>

@@ -14,7 +14,7 @@
 {% for itm in page.mainLandingMenu %}
 {% if itm.tile %}
     <div class="w3-col s12 m6 sv-nav">
-        <div class="w3-container sv-tile {% if not itm.enabled %}w3-disabled{% endif %}" style="border-color: {{ defCol(itm.color) }}!important"
+        <div class="w3-container sv-tile {% if not itm.enabled %}sv-disabled{% endif %}" style="border-color: {{ defCol(itm.color) }}!important"
              {% if itm.enabled %} onClick="javascript: openPage('{{ statics.mainLandingPagePath }}/{{ itm.uri }}/');"{% endif %}>
             <h1 style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | first }} </h1>
             <p style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | last }}
