@@ -1,5 +1,8 @@
+{% macro imgLabel(act) %}
+{% if act.materialImgName is not null %} <i class="material-icons">{{ act.materialImgName|raw }}</i>
+{% else %}{{ act.label }}{% endif %}
+{% endmacro %}
 {% extends "./base.peb" %}
-
 {% block content %}
 <div class="w3-container w3-row w3-theme-d3" onclick="svHideAllContainsDropdown()">
     <div class="w3-col s9 w3-left-align"> User Info / Identity</div>
@@ -23,8 +26,7 @@
         {% elseif conc.visible %}
            <button type="button" class="w3-bar-item w3-button"
            {% if not conc.enabled %} disabled {% else %} onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"{% endif %}>
-           {% if conc.materialImgName is not null %} <i class="material-icons">{{ conc.materialImgName|raw }}</i>
-           {% else %}{{ conc.label }}{% endif %} </button>
+           {{ imgLabel(conc) }}</button>
         {% endif %}
 
         {% if loop.last %}</div>{% endif %}

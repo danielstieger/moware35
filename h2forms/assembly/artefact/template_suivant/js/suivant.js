@@ -28,6 +28,7 @@ function openPage(page) {
 
 function tableSelectAndExec(selectionstr, valstr, eventSource){
     if (! svHideAllContainsDropdown()) {
+        svDisableNavigation();
         var f = $('form');
         f.NaviCrtl.value=valstr;
         f.SelectionId.value=selectionstr;
@@ -35,10 +36,15 @@ function tableSelectAndExec(selectionstr, valstr, eventSource){
     }
 }
 
+function layoutSelectAndExec(selectionstr, valstr, eventSource){
+    tableSelectAndExec(selectionstr, valstr, eventSource);
+}
+
 
 function saveSubmit(submitParameter){
 
     if (! svHideAllContainsDropdown()) {
+        svDisableNavigation();
         var f = $('form');
     	f.NaviCrtl.value = submitParameter;
     	f.submit();

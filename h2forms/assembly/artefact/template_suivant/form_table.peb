@@ -7,6 +7,11 @@
 {% macro rowType(page) %}
 {% if page.hasSessionToCommit %}sv-posrow{% else %}sv-docrow{% endif %}
 {% endmacro %}
+{% macro imgLabel(act) %}
+{% if act.materialImgName is not null %} <i class="material-icons">{{ act.materialImgName|raw }}</i>
+{% else %}{{ act.label }}{% endif %}
+{% endmacro %}
+
 
 <div class="w3-panel {% if page.hasSessionToCommit %}sv-doc{% endif %}">
 {% for row in tableRows %}
@@ -29,7 +34,7 @@
         {% endfor %}
             <div class="w3-col s12 sv-table-button-bar {% if row.selected %}w3-show{% endif %}">
                 {% for act in row.actions %}
-                    <button type="button" class="w3-button sv-table-button w3-theme" {% if not act.enabled %}disabled{% endif %} {{ jsLinkWhenEnabled(act, row.index) }}> {{ act.label }} </button>
+                    <button type="button" class="w3-button sv-table-button w3-theme" {% if not act.enabled %}disabled{% endif %} {{ jsLinkWhenEnabled(act, row.index) }}> {{ imgLabel(act) }} </button>
                 {% endfor %}
             </div>
         </div>

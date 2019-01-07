@@ -62,7 +62,9 @@
 .sv-question-red { color: #FFF !important; background-color: #E4211f !important}
 .sv-warning-orange { color: #FFF !important; background-color: #e49f1f !important}
 
-
+/* action handling in page title area -------------------------------------- */
+.sv-pt-container { padding: 16px 0px 12px 16px; }
+.sv-pt-item { height: 50px !important; }
 
 /* document search screen -------------------------------------------------- */
 .w3-bar-item {height: 50px !important }
@@ -75,17 +77,6 @@
 @media only screen and (max-width: 600px) {
   .sv-s-right-align {text-align: right !important;}
 }
-
-
-/* action handling in page title area -------------------------------------- */
-.sv-pt-container {
-  padding: 16px 0px 12px 16px;
-}
-
-.sv-pt-item {
-  height: 50px !important;
-}
-
 
 /* document screen itself -------------------------------------------------- */
 .sv-doc {color:#000 !important; background-color:#f2f2f2!important;
