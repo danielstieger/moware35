@@ -552,7 +552,7 @@
       <node concept="3clFbS" id="17uSheOuH5V" role="3clF47" />
     </node>
     <node concept="2YIFZL" id="1NLiuQtgR7D" role="jymVt">
-      <property role="TrG5h" value="keyEquality" />
+      <property role="TrG5h" value="keyEqualityForJoin" />
       <node concept="37vLTG" id="1NLiuQtgRcY" role="3clF46">
         <property role="TrG5h" value="origTableName" />
         <node concept="17QB3L" id="1NLiuQtgRd1" role="1tU5fm" />
@@ -652,6 +652,29 @@
             </node>
           </node>
           <node concept="3clFbS" id="1NLiuQtgR7S" role="2LFqv$">
+            <node concept="3cpWs8" id="4XZT_pJDEOF" role="3cqZAp">
+              <node concept="3cpWsn" id="4XZT_pJDEOI" role="3cpWs9">
+                <property role="TrG5h" value="propToMap" />
+                <node concept="3Tqbb2" id="4XZT_pJDEOD" role="1tU5fm">
+                  <ref role="ehGHo" to="tpee:huRhdFY" resolve="Property" />
+                </node>
+                <node concept="2OqwBi" id="4XZT_pJDHum" role="33vP2m">
+                  <node concept="2OqwBi" id="4XZT_pJDFSD" role="2Oq$k0">
+                    <node concept="37vLTw" id="4XZT_pJDFbA" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1NLiuQtgR7K" resolve="objKeys" />
+                    </node>
+                    <node concept="34jXtK" id="4XZT_pJDH3W" role="2OqNvi">
+                      <node concept="37vLTw" id="4XZT_pJDHiC" role="25WWJ7">
+                        <ref role="3cqZAo" node="1NLiuQtgR7R" resolve="i" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="4XZT_pJDHAV" role="2OqNvi">
+                    <ref role="3Tt5mk" to="r5tz:Kou8LehQEJ" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="1NLiuQtgR9s" role="3cqZAp">
               <node concept="2OqwBi" id="1NLiuQtgR9w" role="3clFbG">
                 <node concept="37vLTw" id="KVbXdPfeKG" role="2Oq$k0">
@@ -697,6 +720,76 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="4XZT_pJHuVX" role="3cqZAp" />
+            <node concept="3clFbH" id="4XZT_pJHv8c" role="3cqZAp" />
+            <node concept="3cpWs8" id="4XZT_pJHhUk" role="3cqZAp">
+              <node concept="3cpWsn" id="4XZT_pJHhUn" role="3cpWs9">
+                <property role="TrG5h" value="fmToMap" />
+                <node concept="3Tqbb2" id="4XZT_pJHhUi" role="1tU5fm">
+                  <ref role="ehGHo" to="r5tz:Kou8LehH1z" resolve="FieldMapping" />
+                </node>
+                <node concept="2OqwBi" id="1NLiuQtgRaQ" role="33vP2m">
+                  <node concept="37vLTw" id="KVbXdPffoF" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1NLiuQtgRay" resolve="refFields" />
+                  </node>
+                  <node concept="1z4cxt" id="4XZT_pJDE6n" role="2OqNvi">
+                    <node concept="1bVj0M" id="4XZT_pJDE6q" role="23t8la">
+                      <node concept="3clFbS" id="4XZT_pJDE6r" role="1bW5cS">
+                        <node concept="3clFbF" id="4XZT_pJDEgn" role="3cqZAp">
+                          <node concept="3clFbC" id="4XZT_pJDHN0" role="3clFbG">
+                            <node concept="37vLTw" id="4XZT_pJDI1E" role="3uHU7w">
+                              <ref role="3cqZAo" node="4XZT_pJDEOI" resolve="propToMap" />
+                            </node>
+                            <node concept="2OqwBi" id="4XZT_pJDEmL" role="3uHU7B">
+                              <node concept="37vLTw" id="4XZT_pJDEgm" role="2Oq$k0">
+                                <ref role="3cqZAo" node="4XZT_pJDE6s" resolve="it" />
+                              </node>
+                              <node concept="3TrEf2" id="4XZT_pJDEwZ" role="2OqNvi">
+                                <ref role="3Tt5mk" to="r5tz:Kou8LehQEJ" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="4XZT_pJDE6s" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="4XZT_pJDE6t" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="4XZT_pJHiJn" role="3cqZAp">
+              <node concept="3clFbS" id="4XZT_pJHiJp" role="3clFbx">
+                <node concept="YS8fn" id="4XZT_pJHjiI" role="3cqZAp">
+                  <node concept="2ShNRf" id="4XZT_pJHjnJ" role="YScLw">
+                    <node concept="1pGfFk" id="4XZT_pJHktK" role="2ShVmc">
+                      <ref role="37wK5l" to="wyt6:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                      <node concept="3cpWs3" id="4XZT_pJHkY_" role="37wK5m">
+                        <node concept="Xl_RD" id="4XZT_pJHl36" role="3uHU7w">
+                          <property role="Xl_RC" value=" but did not find an equivalent in join mapping itself." />
+                        </node>
+                        <node concept="3cpWs3" id="4XZT_pJHkDQ" role="3uHU7B">
+                          <node concept="Xl_RD" id="4XZT_pJHkzw" role="3uHU7B">
+                            <property role="Xl_RC" value="Looking to map " />
+                          </node>
+                          <node concept="37vLTw" id="4XZT_pJHkOp" role="3uHU7w">
+                            <ref role="3cqZAo" node="4XZT_pJDEOI" resolve="propToMap" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbC" id="4XZT_pJHj7c" role="3clFbw">
+                <node concept="10Nm6u" id="4XZT_pJHjcf" role="3uHU7w" />
+                <node concept="37vLTw" id="4XZT_pJHiY7" role="3uHU7B">
+                  <ref role="3cqZAo" node="4XZT_pJHhUn" resolve="fmToMap" />
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="1NLiuQtgRaF" role="3cqZAp">
               <node concept="2OqwBi" id="1NLiuQtgRaG" role="3clFbG">
                 <node concept="37vLTw" id="KVbXdPfeFf" role="2Oq$k0">
@@ -715,18 +808,11 @@
                     </node>
                     <node concept="2OqwBi" id="1NLiuQtgRaP" role="3uHU7w">
                       <node concept="2OqwBi" id="FaoLX6dZji" role="2Oq$k0">
-                        <node concept="2OqwBi" id="1NLiuQtgRaQ" role="2Oq$k0">
-                          <node concept="37vLTw" id="KVbXdPffoF" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1NLiuQtgRay" resolve="refFields" />
-                          </node>
-                          <node concept="34jXtK" id="1NLiuQtgRaS" role="2OqNvi">
-                            <node concept="37vLTw" id="KVbXdPfeyq" role="25WWJ7">
-                              <ref role="3cqZAo" node="1NLiuQtgR7R" resolve="i" />
-                            </node>
-                          </node>
-                        </node>
                         <node concept="3TrEf2" id="FaoLX6dZjo" role="2OqNvi">
                           <ref role="3Tt5mk" to="r5tz:Kou8Lei0RB" />
+                        </node>
+                        <node concept="37vLTw" id="4XZT_pJHiyv" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4XZT_pJHhUn" resolve="fmToMap" />
                         </node>
                       </node>
                       <node concept="3TrcHB" id="1NLiuQtgRb3" role="2OqNvi">
@@ -738,6 +824,7 @@
               </node>
             </node>
             <node concept="3clFbH" id="1NLiuQtgR9r" role="3cqZAp" />
+            <node concept="3clFbH" id="4XZT_pJHv24" role="3cqZAp" />
             <node concept="3clFbJ" id="1NLiuQtgR8I" role="3cqZAp">
               <property role="TyiWK" value="false" />
               <property role="TyiWL" value="true" />
@@ -1334,7 +1421,7 @@
                     <node concept="liA8E" id="1NLiuQtgRbv" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                       <node concept="2YIFZM" id="1NLiuQtgRbz" role="37wK5m">
-                        <ref role="37wK5l" node="1NLiuQtgR7D" resolve="keyEquality" />
+                        <ref role="37wK5l" node="1NLiuQtgR7D" resolve="keyEqualityForJoin" />
                         <ref role="1Pybhc" node="17uSheOuH5Q" resolve="ManmapSQLStatementProvider" />
                         <node concept="Xl_RD" id="1NLiuQtgRbC" role="37wK5m">
                           <property role="Xl_RC" value="iRoot" />
@@ -1492,7 +1579,7 @@
                         <ref role="37wK5l" to="wyt6:~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolve="append" />
                         <node concept="2YIFZM" id="1NLiuQtgRgt" role="37wK5m">
                           <ref role="1Pybhc" node="17uSheOuH5Q" resolve="ManmapSQLStatementProvider" />
-                          <ref role="37wK5l" node="1NLiuQtgR7D" resolve="keyEquality" />
+                          <ref role="37wK5l" node="1NLiuQtgR7D" resolve="keyEqualityForJoin" />
                           <node concept="37vLTw" id="KVbXdPfeFl" role="37wK5m">
                             <ref role="3cqZAo" node="1NLiuQth0$7" resolve="alias" />
                           </node>

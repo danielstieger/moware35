@@ -7720,12 +7720,6 @@
         <ref role="3rFog7" node="RffU3z0k64" resolve="account" />
         <node concept="12nL8U" id="RffU3z0kmd" role="3rGzxd">
           <ref role="12nL8V" node="2i3o0he2nSK" resolve="key" />
-          <node concept="12nEzJ" id="RffU3z0kmx" role="3caO6$">
-            <ref role="12nL8z" node="5LYSiLACQh8" resolve="number" />
-            <node concept="Xl_RD" id="RffU3z0kmy" role="12k7lF">
-              <property role="Xl_RC" value="REF_ACCOUNTNUM" />
-            </node>
-          </node>
           <node concept="12nEzJ" id="RffU3z0kmz" role="3caO6$">
             <ref role="12nL8z" node="5LYSiLACQhf" resolve="mandant" />
             <node concept="Xl_RD" id="RffU3z0km$" role="12k7lF">
@@ -7736,6 +7730,12 @@
             <ref role="12nL8z" node="3n7eUMgdFL3" resolve="active" />
             <node concept="Xl_RD" id="RffU3z0kmA" role="12k7lF">
               <property role="Xl_RC" value="REF_ACCOUNTACT" />
+            </node>
+          </node>
+          <node concept="12nEzJ" id="RffU3z0kmx" role="3caO6$">
+            <ref role="12nL8z" node="5LYSiLACQh8" resolve="number" />
+            <node concept="Xl_RD" id="RffU3z0kmy" role="12k7lF">
+              <property role="Xl_RC" value="REF_ACCOUNTNUM" />
             </node>
           </node>
         </node>
