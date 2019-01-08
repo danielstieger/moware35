@@ -36,8 +36,11 @@ function tableSelectAndExec(selectionstr, valstr, eventSource){
     }
 }
 
-function layoutSelectAndExec(selectionstr, valstr, eventSource){
-    tableSelectAndExec(selectionstr, valstr, eventSource);
+function layoutSelectAndExec(selectionstr, valstr, dropdown){
+    if (dropdown == true) {
+        svHideAllContainsDropdown();
+    }
+    tableSelectAndExec(selectionstr, valstr, 'dropdown');
 }
 
 

@@ -1,33 +1,41 @@
 {% if message is not null %}
-<!-- {{ message.toString }} -->
-{% if message.userQuestion or message.errorSmall %}
-<div class="w3-panel">
-    <div class="w3-card w3-padding sv-question-red">
-        <h1>{{ message.heading }}</h1>
-        <p id="errorbeep">{{ message.textBr | raw }}
-        </p>
+    <!-- {{ message.toString }} -->
+    {% if message.userQuestion or message.errorSmall%}
+    <div class="w3-panel">
+        <div class="w3-card w3-padding sv-question-red">
+            <h1>{{ message.heading }}</h1>
+            <p id="errorbeep">{{ message.textBr | raw }}
+            </p>
+        </div>
+    </div> {#
+    {% elseif message.errorSmall %}
+    <div id="errorbeep" class="w3-card sv-top-dlg sv-question-red">
+        {{ message.heading }}: {{ message.text | raw }}
+    </div> #}
+
+    {% elseif message.errorLarge %}
+    <div class="w3-panel">
+        <div class="w3-card w3-padding sv-question-red">
+            <h1>{{ message.heading }}</h1>
+            <pre id="errorbeep">
+            <code> {{ message.text | raw }} </code>
+            <br><br><br>
+            </pre>
+        </div>
     </div>
-</div>
-{% elseif message.errorLarge %}
-<div class="w3-panel">
-    <div class="w3-card w3-padding sv-question-red">
-        <h1>{{ message.heading }}</h1>
-        <pre id="errorbeep">
-        <code> {{ message.text | raw }} </code>
-        <br><br><br>
-        </pre>
+    {% elseif message.isToast %}
+    <div class="w3-card sv-top-dlg sv-info-gray">
+        {{ message.heading }}: {{ message.text | raw }}
     </div>
-</div>
-{% elseif message.infoSmall %}
-<div class="w3-panel">
-        <p>{{ message.heading }}: {{ message.text | raw }}</p>
-</div>
-{% else %}
-<div class="w3-panel">
-    <div class="w3-card w3-padding sv-warning-orange">
-        <h1>{{ message.heading }}</h1>
-        <p id="info">{{ message.textBr | raw}} </p>
+
+    {% elseif message.infoSmall %}
+    <div id="errorbeep" class="w3-card sv-top-dlg sv-question-red">
+        {{ message.heading }}: {{ message.text | raw }}
     </div>
-</div>
-{% endif %}
+
+    {% else %}
+    <div id="info" class="w3-card sv-top-dlg sv-warning-orange">
+        {{ message.heading }}:  {{ message.textBr | raw}}
+    </div>
+    {% endif %}
 {% endif %}

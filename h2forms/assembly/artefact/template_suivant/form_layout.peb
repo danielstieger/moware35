@@ -1,10 +1,15 @@
-{% macro jsLinkWhenEnabledLayout(act) %}
-{% if act.enabled %} onClick="layoutSelectAndExec('menu_{{ act.popupMenuId }}_0', 'trigger_{{ act.triggerCode }}', 'rightFC');"{% endif %}
+{% macro jsLinkWhenEnabledLayout(act, dropdown) %}
+{% if act.enabled %} onClick="layoutSelectAndExec('menu_{{ act.popupMenuId }}_0', 'trigger_{{ act.triggerCode }}', {{ dropdown }});"{% endif %}
 {% endmacro %}
-{% macro imgLabel(act) %}
+{% macro imgOrLabel(act) %}
 {% if act.materialImgName is not null %} <i class="material-icons">{{ act.materialImgName|raw }}</i>
 {% else %}{{ act.label }}{% endif %}
 {% endmacro %}
+{% macro imgAndLabel(act) %}
+{% if act.materialImgName is not null %} <i class="material-icons">{{ act.materialImgName|raw }}</i>{% endif %}
+{{ act.label }}
+{% endmacro %}
+
 {% if actions is not null and splittedPageTitleText is not null%}
 <div class="sv-pt-container" onclick="svHideAllContainsDropdown()">
 {% for line in splittedPageTitleText %}
@@ -13,41 +18,47 @@
       {% if dropDownActions is not null %}
         <div class="w3-dropdown-click w3-right">
             <button type="button" class="w3-button sv-pt-item" onClick="svShowDropdown(event, $('#Dropdown_{{ formId }}'));"> <i class="material-icons"> more_vert </i> </button>
-            <div id="Dropdown_{{ formId }}" class="w3-dropdown-content w3-bar-block" style="right:0">
+            <div id="Dropdown_{{ formId }}" class="w3-dropdown-content sv-dropdown-wide w3-bar-block" style="right:0">
                 {% for act in dropDownActions %}
-                    <button type="button" class="w3-bar-item w3-button" {{ jsLinkWhenEnabledLayout(act) }} {% if not act.enabled %} disabled {% endif %}>{{ imgLabel(act) }}</button>
+                    <button type="button" class="w3-bar-item w3-button" {{ jsLinkWhenEnabledLayout(act, true) }} {% if not act.enabled %} disabled {% endif %}>{{ imgAndLabel(act) }}</button>
                 {% endfor %}
             </div>
         </div>
       {% endif %}
       {% if topBarActions is not null %}
         {% for act in topBarActions %}
-        <button type="button" class="w3-button sv-pt-item w3-right" {{ jsLinkWhenEnabledLayout(act) }} {% if not act.enabled %} disabled {% endif %}>{{ imgLabel(act) }}</button>
+        <button type="button" class="w3-button sv-pt-item w3-right" {{ jsLinkWhenEnabledLayout(act, false) }} {% if not act.enabled %} disabled {% endif %}>{{ imgOrLabel(act) }}</button>
         {% endfor %}
       {% endif %}
     {% endif %}
     </div>
 {% endfor %}
 </div>
-{% elseif actions is not null %}
+{% elseif actions is not null and splittedPageTitleText is null %}
 <div class="sv-pt-container" onclick="svHideAllContainsDropdown()">
 <div class="w3-block"> <span>&nbsp;</span>
     {% if dropDownActions is not null %}
     <div class="w3-dropdown-click w3-right">
         <button type="button" class="w3-button sv-pt-item" onClick="svShowDropdown(event, $('#Dropdown_{{ formId }}'));"> <i class="material-icons"> more_vert </i> </button>
-        <div id="Dropdown_{{ formId }}" class="w3-dropdown-content w3-bar-block" style="right:0">
+        <div id="Dropdown_{{ formId }}" class="w3-dropdown-content sv-dropdown-wide w3-bar-block" style="right:0">
         {% for act in dropDownActions %}
-            <button type="button" class="w3-bar-item w3-button" {{ jsLinkWhenEnabledLayout(act) }} {% if not act.enabled %} disabled {% endif %}>{{ imgLabel(act) }}</button>
+            <button type="button" class="w3-bar-item w3-button" {{ jsLinkWhenEnabledLayout(act, true) }} {% if not act.enabled %} disabled {% endif %}>{{ imgAndLabel(act) }}</button>
         {% endfor %}
         </div>
     </div>
     {% endif %}
     {% if topBarActions is not null %}
         {% for act in topBarActions %}
-            <button type="button" class="w3-button sv-pt-item w3-right" {{ jsLinkWhenEnabledLayout(act) }} {% if not act.enabled %} disabled {% endif %}>{{ imgLabel(act) }}</button>
+            <button type="button" class="w3-button sv-pt-item w3-right" {{ jsLinkWhenEnabledLayout(act, false) }} {% if not act.enabled %} disabled {% endif %}>{{ imgOrLabel(act) }}</button>
         {% endfor %}
     {% endif %}
 </div>
+</div>
+{% elseif actions is null and splittedPageTitleText is not null %}
+<div class="w3-panel" onclick="svHideAllContainsDropdown()">
+    {% for line in splittedPageTitleText %}
+        <div class="w3-block"> {{ line }} </div>
+    {% endfor %}	    
 </div>
 {% endif %}
 {% for form in children %}

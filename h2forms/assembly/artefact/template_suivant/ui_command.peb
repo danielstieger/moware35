@@ -34,10 +34,8 @@
 </div>
 
 {% if flagText is not null %}
-<div class="w3-panel">
-    <div class="w3-card w3-padding sv-question-red">
-        <p id="flagbeep">{{ flagText }}</p>
-    </div>
+<div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">
+    {{ flagText }}
 </div>
 {% endif %}
 {% include "./messages.peb" %}
