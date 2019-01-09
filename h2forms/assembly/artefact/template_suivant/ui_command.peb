@@ -15,8 +15,8 @@
             {% if not conc.enabled %} disabled {% endif %} id="cnc_{{ conc.triggerCode }}"> <i class="material-icons"> arrow_back </i></button>
             <span class="w3-bar-item sv-bartitle"> {{ windowTitle }} </span>
             <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
-                <button class="w3-bar-item w3-button">Logout</button>
-                <button class="w3-bar-item w3-button" onclick="EB.Application.quit();">Exit Browser</button>
+                <button type="button" class="w3-bar-item w3-button" onclick="svLogout();">Logout</button>
+                <button type="button" class="w3-bar-item w3-button" onclick="svExit();">Exit Browser</button>
             </div>
         <div class="w3-right">
 

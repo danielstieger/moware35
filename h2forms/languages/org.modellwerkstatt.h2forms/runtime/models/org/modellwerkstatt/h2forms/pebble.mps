@@ -13403,7 +13403,7 @@
       <node concept="312cEg" id="7ZfE5kQYsSW" role="jymVt">
         <property role="34CwA1" value="false" />
         <property role="eg7rD" value="false" />
-        <property role="TrG5h" value="triggerCode" />
+        <property role="TrG5h" value="itemId" />
         <property role="3TUv4t" value="false" />
         <node concept="10Oyi0" id="7ZfE5kQYtAE" role="1tU5fm" />
         <node concept="3Tm1VV" id="7ZfE5kQYsSY" role="1B3o_S" />
@@ -13458,7 +13458,7 @@
               <node concept="2OqwBi" id="7ZfE5kQYsTJ" role="37vLTJ">
                 <node concept="Xjq3P" id="7ZfE5kQYsTK" role="2Oq$k0" />
                 <node concept="2OwXpG" id="7ZfE5kQYsTL" role="2OqNvi">
-                  <ref role="2Oxat5" node="7ZfE5kQYsSW" resolve="triggerCode" />
+                  <ref role="2Oxat5" node="7ZfE5kQYsSW" resolve="itemId" />
                 </node>
               </node>
             </node>
@@ -13514,7 +13514,7 @@
                 <ref role="3cqZAo" node="7ZfE5kQYsSQ" resolve="label" />
               </node>
               <node concept="37vLTw" id="7ZfE5kQZaoF" role="37wK5m">
-                <ref role="3cqZAo" node="7ZfE5kQYsSW" resolve="triggerCode" />
+                <ref role="3cqZAo" node="7ZfE5kQYsSW" resolve="itemId" />
               </node>
             </node>
           </node>

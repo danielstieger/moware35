@@ -8,7 +8,7 @@
 <select name="{{ editorId }}" id="{{ editorId }}" jumpable="#{{ editorId }}_L" editorIndex="{{ editorIndex }}"
 		{% if requestFocus %} focusme="true" {% endif %} {% if not enabled %} disabled {% endif %}>
 {% for item in items %}
-<option value="{{ item.triggerCode }}" {% if item.selected %} selected {% endif %}>{{ item.label }}</option>
+<option value="{{ item.itemId }}" {% if item.selected %} selected {% endif %}>{{ item.label }}</option>
 {% endfor %}
 </select>
 {% if errorText is not null %}

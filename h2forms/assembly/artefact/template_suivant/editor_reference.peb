@@ -1,0 +1,13 @@
+<div class="w3-col m3 s5 sv-edit-label">{{ labelText }}:</div>
+<div class="w3-col m9 s7 {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
+{% if enabled %}
+    <select name="{{ editorId }}" id="{{ editorId }}" class="w3-select sv-edit-select ">
+    {% for item in items %}
+        <option value="{{ item.itemId }}" {% if item.selected %} selected {% endif %}>{{ item.label }}</option>
+    {% endfor %}
+    </select>
+{% if errorText is not null %}<label class="sv-question-red">{{ errorText }}</label>{% endif %}
+{% else %}
+{{ value }}
+{% endif %}
+</div>

@@ -6125,6 +6125,15 @@
         <property role="Xl_RC" value="message_ok" />
       </node>
     </node>
+    <node concept="Wx3nA" id="2$x$a0MZc5u" role="jymVt">
+      <property role="TrG5h" value="LOGOUT_CODE" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="2$x$a0MZc5v" role="1tU5fm" />
+      <node concept="3Tm1VV" id="2$x$a0MZc5w" role="1B3o_S" />
+      <node concept="Xl_RD" id="2$x$a0MZc5x" role="33vP2m">
+        <property role="Xl_RC" value="logout" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="6HZE0_UkJar" role="jymVt" />
     <node concept="312cEg" id="7r26jiNZEhy" role="jymVt">
       <property role="34CwA1" value="false" />
@@ -6927,30 +6936,43 @@
             <node concept="3cpWs6" id="5RU7BPydVnv" role="3cqZAp" />
             <node concept="3clFbH" id="5RU7BPydKTi" role="3cqZAp" />
           </node>
-          <node concept="22lmx$" id="5RU7BPydN$8" role="3clFbw">
-            <node concept="3y3z36" id="5RU7BPydQ3E" role="3uHU7w">
-              <node concept="10Nm6u" id="5RU7BPydQ78" role="3uHU7w" />
-              <node concept="2OqwBi" id="5RU7BPydPBE" role="3uHU7B">
-                <node concept="37vLTw" id="5RU7BPydPza" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5hYsHqQ_VNp" resolve="request" />
+          <node concept="22lmx$" id="2$x$a0MZb0l" role="3clFbw">
+            <node concept="2OqwBi" id="2$x$a0MZbUS" role="3uHU7w">
+              <node concept="liA8E" id="2$x$a0MZc3h" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="37vLTw" id="2$x$a0MZbN1" role="37wK5m">
+                  <ref role="3cqZAo" node="75445jw3uHP" resolve="naviCrtl" />
                 </node>
-                <node concept="liA8E" id="5RU7BPydPVH" role="2OqNvi">
-                  <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
-                  <node concept="Xl_RD" id="5RU7BPydQ0z" role="37wK5m">
-                    <property role="Xl_RC" value="logout" />
-                  </node>
-                </node>
+              </node>
+              <node concept="37vLTw" id="2$x$a0MZgeG" role="2Oq$k0">
+                <ref role="3cqZAo" node="2$x$a0MZc5u" resolve="LOGOUT_CODE" />
               </node>
             </node>
-            <node concept="2OqwBi" id="5RU7BPydMrm" role="3uHU7B">
-              <node concept="liA8E" id="5RU7BPydN8u" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
-                <node concept="37vLTw" id="5RU7BPydLIL" role="37wK5m">
-                  <ref role="3cqZAo" node="7uReT0jY8gZ" resolve="latestReqeustCommandUrl" />
+            <node concept="22lmx$" id="5RU7BPydN$8" role="3uHU7B">
+              <node concept="2OqwBi" id="5RU7BPydMrm" role="3uHU7B">
+                <node concept="liA8E" id="5RU7BPydN8u" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                  <node concept="37vLTw" id="5RU7BPydLIL" role="37wK5m">
+                    <ref role="3cqZAo" node="7uReT0jY8gZ" resolve="latestReqeustCommandUrl" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="2$x$a0MZfv1" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2$x$a0MZc5u" resolve="LOGOUT_CODE" />
                 </node>
               </node>
-              <node concept="Xl_RD" id="5RU7BPydNdu" role="2Oq$k0">
-                <property role="Xl_RC" value="logout" />
+              <node concept="3y3z36" id="5RU7BPydQ3E" role="3uHU7w">
+                <node concept="2OqwBi" id="5RU7BPydPBE" role="3uHU7B">
+                  <node concept="37vLTw" id="5RU7BPydPza" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5hYsHqQ_VNp" resolve="request" />
+                  </node>
+                  <node concept="liA8E" id="5RU7BPydPVH" role="2OqNvi">
+                    <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                    <node concept="37vLTw" id="2$x$a0MZfPh" role="37wK5m">
+                      <ref role="3cqZAo" node="2$x$a0MZc5u" resolve="LOGOUT_CODE" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="10Nm6u" id="5RU7BPydQ78" role="3uHU7w" />
               </node>
             </node>
           </node>

@@ -55,7 +55,14 @@ function saveSubmit(submitParameter){
 }
 
 
+function svLogout(){
+    svHideAllContainsDropdown();
+    tableSelectAndExec('logout', 'logout', 'logout');
+}
 
+function svExit(){
+
+}
 
 
 

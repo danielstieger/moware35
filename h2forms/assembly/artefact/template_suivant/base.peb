@@ -48,7 +48,7 @@
   h6   {font-size:10px}
   </style>
 
-<body class="{% if message is not null and message.modalWithButtons %}sv-back-modal{% else %}sv-back-gray{% endif %}">
+<body class="{% if message is not null and message.modalWithButtons %}sv-back-modal{% elseif page.hasSessionToCommit %}sv-back-white{% else %}sv-back-gray{% endif %}">
 <form method="POST" name="baseform" id="baseform">
     <input type="hidden" name="NaviCrtl" value=""/>
     <input type="hidden" name="SelectionId" value=""/>
