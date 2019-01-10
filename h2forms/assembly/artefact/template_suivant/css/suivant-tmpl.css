@@ -48,8 +48,12 @@
 /* body and start screen with tiles -------------------------------------- */
 .sv-status-gray {color:#000 !important; background-color:#b3b3b3 !important}
 .sv-branding-gray {color:#000 !important; background-color:#d9d9d9}
-.sv-back-gray {color:#d9d9d9 !important; background-color:#333333 !important}
-.sv-back-white {color:#000 !important; background-color:#f2f2f2!important;}
+
+.sv-back-no-session {color:#d9d9d9 !important; background-color:#333333 !important}
+.sv-back-readOnly {color:#000 !important; background-color:#f2f2f2!important;}
+.sv-back-session {color:#000 !important; background-color:#f2f2f2!important;}
+.sv-back-modal {color: #000 !important; background-color: #f2f2f2 !important;}
+
 
 .sv-tile {color:#000 !important; background-color:#f2f2f2!important;
           border-right:10px solid #ccc!important;
@@ -61,14 +65,13 @@
 
 /* messages and questions */
 .sv-top-dlg { margin: 2px 6px 0px 6px; padding: 4px 12px; }
-.sv-back-modal {color: #000 !important; background-color: #f2f2f2 !important;}
 .sv-question-red { color: #FFF !important; background-color: #E4211f !important}
 .sv-warning-orange { color: #FFF !important; background-color: #e49f1f !important}
 .sv-info-gray { color: #000 !important; background-color: #f2f2f2 !important }
 
 /* action handling in page title area -------------------------------------- */
-div.w3-bar + div.sv-splittedtitle {color:#d9d9d9 !important; background-color:#333333 !important}
-.sv-pt-container { padding: 16px 0px 28px 16px; }
+div.sv-splittedtitle { margin-top: 0px !important; padding: 16px; color:#d9d9d9 !important; background-color:#333333 !important}
+.sv-pt-container { padding: 16px 0px 28px 16px !important; }
 .sv-pt-item { height: 50px !important; }
 
 /* document search screen -------------------------------------------------- */

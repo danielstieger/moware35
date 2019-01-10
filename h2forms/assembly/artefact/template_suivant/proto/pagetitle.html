@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <title>moware suivant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+
+  <link rel="stylesheet" href="../css/suivant.css?id=1234">
+  <link rel="stylesheet" href="../css/w3-theme-teal.css?id=1234">
+  <link rel="stylesheet" href="../css/w3.css?id=1234">
+  <link rel="icon" type="image/ico" href="../images/favicon.ico">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+  <script charset="utf-8" src="../js/suivantui.js?id=1234"></script>
+  <script charset="utf-8" src="../js/suivant.js?id=1234"></script>
+
+  <style>
+  h1   {font-size:24px}
+  h2   {font-size:22px}
+  h3   {font-size:18px}
+  h4   {font-size:16px}
+  h5   {font-size:14px}
+  h6   {font-size:12px}
+  </style>
+
+  <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
+  <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" >
+<body class="sv-back-gray">
+
+<div class="w3-container w3-row w3-theme-d3" onclick="svHideAllContainsDropdown()">
+  <div class="w3-col s9 w3-left-align"> Breadchrumbs </div>
+  <div class="w3-col s3 w3-right-align"> F 8126 </div>
+</div>
+
+<div class="w3-bar w3-theme" onclick="svHideAllContainsDropdown()">
+  <button type="button" class="w3-bar-item w3-button" onClick="javascript: openPage('wareneingaenge.html')"> <i class="material-icons"> arrow_back </i></button>
+  <span class="w3-bar-item sv-bartitle"> Page Title Test </span>
+  <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
+      <button class="w3-bar-item w3-button">Logout</button>
+      <button class="w3-bar-item w3-button" onclick="EB.Application.quit();">Exit Browser</button>
+  </div>
+
+  <button type="button" class="w3-bar-item w3-button w3-right"> <i class="material-icons"> done </i> OK </button>
+</div>
+
+<div class="sv-pt-container w3-cell-row" onclick="svHideAllContainsDropdown()">
+  <div class="w3-cell">
+    <p>Pressegroßvertrieb</p>
+    <p>6 Positionen total</p>
+  </div>
+
+  <div class="w3-cell w3-cell-bottom w3-green">
+    <div class="w3-dropdown-click w3-right">
+      <button class="w3-button sv-pt-item" onClick="svShowDropdown(event, $('#TableDropDownContent'));"> <i class="material-icons"> more_vert </i> </button>
+      <div id="TableDropDownContent" class="w3-dropdown-content w3-bar-block" style="right:0">
+        <button class="w3-bar-item w3-button">Bearbeiten</button>
+        <button disabled class="w3-bar-item w3-button">Alle abschließen</button>
+        <button class="w3-bar-item w3-button">Alle 0 setzen</button>
+      </div>
+    </div>
+    <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> check_circle </i> </button>
+    <button class="w3-button sv-pt-item w3-right"> Löschen </button>
+    <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> add_shopping_cart </i> </button>
+    <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> add_shopping_cart </i> </button>
+    <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> add_shopping_cart </i> </button>
+    <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> add_shopping_cart </i> </button>
+    <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> add_shopping_cart </i> </button>
+    <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> add_shopping_cart </i> </button>
+    <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> add_shopping_cart </i> </button>
+    <button class="w3-button sv-pt-item w3-right"> <i class="material-icons"> add_shopping_cart </i> </button>
+  </div>
+</div>
+
+<div class="w3-panel sv-doc">
+  <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor_stacked.html')">
+    <div class="w3-col s8 m4"> <strong> Stacked Editor </strong> </div>
+    <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Kontrolle </div>
+    <div class="w3-col s4 m2"> 701231 </div>
+    <div class="w3-col s2 m1"> 20 </div>
+    <div class="w3-col s2 m1"> OK </div>
+    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
+  </div>
+  <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor_grid.html')">
+    <div class="w3-col s8 m4"> <strong> 4 / 8 Editor </strong> </div>
+    <div class="w3-col s4 m2 sv-s-right-align w3-text-green"> Avisiert </div>
+    <div class="w3-col s4 m2"> 701231 </div>
+    <div class="w3-col s2 m1"> 20 </div>
+    <div class="w3-col s2 m1"> OK </div>
+    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
+  </div>
+  <div class="w3-row sv-posrow sv-nav" onClick="javascript: openPage('editor.html')">
+    <div class="w3-col s8 m4"> <strong> 3 / 9 Editor </strong> </div>
+    <div class="w3-col s4 m2 sv-s-right-align w3-text-red"> Kontrolle </div>
+    <div class="w3-col s4 m2"> 701231 </div>
+    <div class="w3-col s2 m1"> 20 </div>
+    <div class="w3-col s2 m1"> OK </div>
+    <div class="w3-col s4 m2 w3-right-align"> 12 Euro </div>
+  </div>
+</div>
+
+<div class="w3-bottom">
+<a class="w3-button w3-card-4 w3-xlarge w3-circle w3-theme w3-right" style="position:absolute;bottom: 24px;right:24px;">+</a>
+</div>
+</body>
+</html>
