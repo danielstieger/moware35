@@ -5,7 +5,7 @@
 <div class="w3-col s{{ cell.sizeS }} m{{ cell.sizeM }} {% if cell.closeRow %}sv-s-right-align{% endif %} {% if last %}w3-right-align{% endif %}" {% if cell.color is not null %}style="font-weight: 500; color: {{ cell.color }};"{% endif %}>{{ cell.content | default("&nbsp;") | raw }}</div>
 {% endmacro %}
 {% macro rowType(page) %}
-{% if page.hasSessionToCommit %}sv-posrow{% else %}sv-docrow{% endif %}
+{% if page.isDocumentSearch %}sv-table-docrow{% else %}sv-table-posrow{% endif %}
 {% endmacro %}
 {% macro imgLabel(act) %}
 {% if act.materialImgName is not null %} <i class="material-icons">{{ act.materialImgName|raw }}</i>
@@ -19,7 +19,7 @@
     </div>
 {% endif %}
 
-<div class="w3-panel {% if page.hasSessionToCommit %}sv-doc{% endif %}">
+<div class="w3-panel {% if page.isDocumentSearch %}sv-table-search{% else %}sv-table-doc{% endif %}">
 {% for row in tableRows %}
     {% if row.numActions == 0 %}
         <div class="w3-row {{ rowType(page) }} sv-disabled">

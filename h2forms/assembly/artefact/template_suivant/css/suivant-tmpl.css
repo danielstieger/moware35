@@ -39,8 +39,6 @@
 
 
 
-
-
 /* moware suivant adoptions * * * * * * * * * * * * * * * * * * * * * * * * * */
 .sv-nav { cursor: pointer; }
 .sv-disabled { cursor: not-allowed; opacity: 0.85;}
@@ -54,7 +52,7 @@
 .sv-back-session {color:#000 !important; background-color:#f2f2f2!important;}
 .sv-back-modal {color: #000 !important; background-color: #f2f2f2 !important;}
 
-
+.sv-tile-panel { padding: 0.01em 8px !important }
 .sv-tile {color:#000 !important; background-color:#f2f2f2!important;
           border-right:10px solid #ccc!important;
           margin-bottom: 12px;
@@ -64,42 +62,47 @@
 .sv-tile p  {margin: 4px;}
 
 /* messages and questions */
-.sv-top-dlg { margin: 2px 6px 0px 6px; padding: 4px 12px; }
+.sv-top-dlg { margin: 2px 6px 0px 6px; padding: 4px 8px; }
 .sv-question-red { color: #FFF !important; background-color: #E4211f !important}
 .sv-warning-orange { color: #FFF !important; background-color: #e49f1f !important}
 .sv-info-gray { color: #000 !important; background-color: #f2f2f2 !important }
 
 /* action handling in page title area -------------------------------------- */
-div.sv-splittedtitle { margin-top: 0px !important; padding: 16px; color:#d9d9d9 !important; background-color:#333333 !important}
-.sv-pt-container { padding: 16px 0px 28px 16px !important; }
-.sv-pt-item { height: 50px !important; }
+.sv-top-title { margin-top: 0px !important; color:#d9d9d9 !important; background-color:#333333 !important}
+div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div.sv-top-title + div.sv-editor {margin-top: 0px !important;}
+
+.sv-layout-menu { padding: 0px 8px 0px 12px !important; }
+.sv-layout-menu-item { height: 50px !important; }
+
 
 /* document search screen -------------------------------------------------- */
 .w3-bar-item {height: 50px !important }
 .sv-dropdown-wide {min-width: 220px !important}
 .sv-bartitle {font-size: 18px; line-height: 34px}  /* bar-item height - padding (16) */
 
-/* try adjustment via w3-large as attribute to w3-bar (according doc) */
-.sv-docrow {color:#000 !important; background-color:#f2f2f2!important;
-            padding: 18px 16px; margin-bottom: 6px; }
+/* document screen itself -------------------------------------------------- */
+.sv-table-doc {color:#000 !important; background-color:#f2f2f2!important;
+                  padding: 0.01em 0px !important; }
+.sv-table-posrow {border-bottom:1px solid #333333!important;
+                  padding: 8px 16px; }
+
+.sv-table-search { padding: 0.01em 8px !important }
+.sv-table-docrow {color:#000 !important; background-color:#f2f2f2!important;
+            padding: 8px 16px; margin-bottom: 6px; }
+.sv-table-button-bar {margin-top: 8px; display: none; }
 
 @media only screen and (max-width: 600px) {
   .sv-s-right-align {text-align: right !important;}
 }
 
-/* document screen itself -------------------------------------------------- */
-.sv-doc {color:#000 !important; background-color:#f2f2f2!important;
-         padding-left: 0px !important; padding-right: 0px !important; }
-.sv-posrow {border-bottom:1px solid #333333!important;
-            padding: 18px 16px; }
-.sv-table-button-bar {margin-top: 16px; display: none; }
+
 
 
 /* editor screen, scanning, etc.  ------------------------------------------ */
 .w3-input {}
 .w3-input:disabled {border-bottom: none !important;}
 
-.sv-editor {color:#000 !important; background-color:#f2f2f2 !important;}
+.sv-editor {color:#000 !important; background-color:#f2f2f2 !important; padding: 0.01em 8px !important; }
 .sv-edit-row {padding: 0px 0px; }
 .sv-edit-label {color: #888 !important; text-align: right; padding-right: 24px;
       line-height: 38px; border-bottom: 1px solid #FFF !important; font-weight: 600 !important;}

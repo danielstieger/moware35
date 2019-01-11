@@ -35677,6 +35677,102 @@
   <node concept="wbJL_" id="FplMliKw0v">
     <property role="TrG5h" value="NKRepository" />
     <property role="3GE5qa" value="nk" />
+    <node concept="wbJLE" id="26OSHcw1DZ5" role="jymVt">
+      <property role="TrG5h" value="findAllViewObjWithSameArticleJoined" />
+      <property role="wbJLN" value="READONLY" />
+      <node concept="37vLTG" id="26OSHcw1E4L" role="3clF46">
+        <property role="TrG5h" value="articleId" />
+        <node concept="10Oyi0" id="26OSHcw1E6u" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="26OSHcw1DZ6" role="1B3o_S" />
+      <node concept="3clFbS" id="26OSHcw1DZ7" role="3clF47">
+        <node concept="3clFbH" id="26OSHcw1DZ8" role="3cqZAp" />
+        <node concept="3cpWs6" id="26OSHcw1DZ9" role="3cqZAp">
+          <node concept="1eaaFm" id="26OSHcw1DZa" role="3cqZAk">
+            <node concept="37vLTw" id="26OSHcw1E8w" role="18nGdJ">
+              <ref role="3cqZAo" node="26OSHcw1E4L" resolve="articleId" />
+            </node>
+            <node concept="1pXOCm" id="26OSHcw1DZb" role="q55Dl">
+              <ref role="1pXOCo" node="26OSHcuO$Qw" resolve="nkMapperJoined" />
+            </node>
+            <node concept="1Q8zPT" id="26OSHcw1DZc" role="1ea49x">
+              <node concept="19SGf9" id="26OSHcw1DZd" role="1Q8hHE">
+                <node concept="19SUe$" id="26OSHcw1DZe" role="19SJt6">
+                  <property role="19SUeA" value="SELECT r.NAME, r.COUNT, r.BIG_DECI, r.LOCAL_DATE, &#10;       r.DATE_TIME, r.STA_STATUS, r.REF_ARTICLE, a.NAME, a.STATUS &#10;&#10;FROM MMT_NKVIEWOBJECT r JOIN MMT_NKARTICLE a on r.REF_ARTICLE = a.ID&#10; &#10;WHERE r.REF_ARTICLE = ?&#10;" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="26OSHcx_oWn" role="3cqZAp" />
+        <node concept="3clFbH" id="26OSHcx_oYb" role="3cqZAp" />
+      </node>
+      <node concept="_YKpA" id="26OSHcw1DZf" role="3clF45">
+        <node concept="3uibUv" id="26OSHcw1DZg" role="_ZDj9">
+          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+        </node>
+      </node>
+    </node>
+    <node concept="wbJLE" id="FplMliKw1K" role="jymVt">
+      <property role="TrG5h" value="findAllViewObjects" />
+      <node concept="3Tm1VV" id="FplMliKw1M" role="1B3o_S" />
+      <node concept="3clFbS" id="FplMliKw1N" role="3clF47">
+        <node concept="3clFbH" id="FplMlj1bbF" role="3cqZAp" />
+        <node concept="3cpWs6" id="FplMlj1bh9" role="3cqZAp">
+          <node concept="1eaaFm" id="FplMliZUvv" role="3cqZAk">
+            <node concept="1pXOCm" id="2x95vWfZafS" role="q55Dl">
+              <ref role="1pXOCo" node="FplMliTv5U" resolve="nkMapper" />
+            </node>
+            <node concept="1Q8zPT" id="FplMlj9s1o" role="1ea49x">
+              <node concept="19SGf9" id="FplMlj9s1p" role="1Q8hHE">
+                <node concept="19SUe$" id="FplMlj9s1q" role="19SJt6">
+                  <property role="19SUeA" value="SELECT NAME, COUNT, BIG_DECI, LOCAL_DATE, &#10;&#10;DATE_TIME, STA_STATUS FROM MMT_NKVIEWOBJECT" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="FplMlj1bjy" role="3clF45">
+        <node concept="3uibUv" id="FplMlj1b$D" role="_ZDj9">
+          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+        </node>
+      </node>
+    </node>
+    <node concept="wbJLE" id="26OSHcuV_Sn" role="jymVt">
+      <property role="TrG5h" value="findAllViewObjectsWithName" />
+      <property role="wbJLN" value="READONLY" />
+      <node concept="37vLTG" id="26OSHcuVA1Z" role="3clF46">
+        <property role="TrG5h" value="name" />
+        <node concept="17QB3L" id="26OSHcuVA3M" role="1tU5fm" />
+      </node>
+      <node concept="3Tm1VV" id="26OSHcuV_So" role="1B3o_S" />
+      <node concept="3clFbS" id="26OSHcuV_Sp" role="3clF47">
+        <node concept="3clFbH" id="26OSHcuV_Sq" role="3cqZAp" />
+        <node concept="3cpWs6" id="26OSHcuV_Sr" role="3cqZAp">
+          <node concept="1eaaFm" id="26OSHcuV_Ss" role="3cqZAk">
+            <node concept="37vLTw" id="26OSHcuVA9F" role="18nGdJ">
+              <ref role="3cqZAo" node="26OSHcuVA1Z" resolve="name" />
+            </node>
+            <node concept="1pXOCm" id="26OSHcuW9Bc" role="q55Dl">
+              <ref role="1pXOCo" node="FplMliTv5U" resolve="nkMapper" />
+            </node>
+            <node concept="1Q8zPT" id="26OSHcuV_Su" role="1ea49x">
+              <node concept="19SGf9" id="26OSHcuV_Sv" role="1Q8hHE">
+                <node concept="19SUe$" id="26OSHcuV_Sw" role="19SJt6">
+                  <property role="19SUeA" value="SELECT NAME, COUNT, BIG_DECI, LOCAL_DATE, DATE_TIME, STA_STATUS FROM MMT_NKVIEWOBJECT&#10;WHERE NAME = ?" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="26OSHcuV_Sx" role="3clF45">
+        <node concept="3uibUv" id="26OSHcuV_Sy" role="_ZDj9">
+          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
+        </node>
+      </node>
+    </node>
     <node concept="wbJLE" id="26OSHcvUyjb" role="jymVt">
       <property role="TrG5h" value="getArticleById" />
       <node concept="37vLTG" id="26OSHcvUyky" role="3clF46">
@@ -35725,66 +35821,6 @@
               </node>
             </node>
           </node>
-        </node>
-      </node>
-    </node>
-    <node concept="wbJLE" id="FplMliKw1K" role="jymVt">
-      <property role="TrG5h" value="findAllViewObjects" />
-      <node concept="3Tm1VV" id="FplMliKw1M" role="1B3o_S" />
-      <node concept="3clFbS" id="FplMliKw1N" role="3clF47">
-        <node concept="3clFbH" id="FplMlj1bbF" role="3cqZAp" />
-        <node concept="3cpWs6" id="FplMlj1bh9" role="3cqZAp">
-          <node concept="1eaaFm" id="FplMliZUvv" role="3cqZAk">
-            <node concept="1pXOCm" id="2x95vWfZafS" role="q55Dl">
-              <ref role="1pXOCo" node="FplMliTv5U" resolve="nkMapper" />
-            </node>
-            <node concept="1Q8zPT" id="FplMlj9s1o" role="1ea49x">
-              <node concept="19SGf9" id="FplMlj9s1p" role="1Q8hHE">
-                <node concept="19SUe$" id="FplMlj9s1q" role="19SJt6">
-                  <property role="19SUeA" value="SELECT NAME, COUNT, BIG_DECI, LOCAL_DATE, DATE_TIME, STA_STATUS FROM MMT_NKVIEWOBJECT" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="_YKpA" id="FplMlj1bjy" role="3clF45">
-        <node concept="3uibUv" id="FplMlj1b$D" role="_ZDj9">
-          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
-        </node>
-      </node>
-    </node>
-    <node concept="wbJLE" id="26OSHcuV_Sn" role="jymVt">
-      <property role="TrG5h" value="findAllViewObjectsWithName" />
-      <property role="wbJLN" value="READONLY" />
-      <node concept="37vLTG" id="26OSHcuVA1Z" role="3clF46">
-        <property role="TrG5h" value="name" />
-        <node concept="17QB3L" id="26OSHcuVA3M" role="1tU5fm" />
-      </node>
-      <node concept="3Tm1VV" id="26OSHcuV_So" role="1B3o_S" />
-      <node concept="3clFbS" id="26OSHcuV_Sp" role="3clF47">
-        <node concept="3clFbH" id="26OSHcuV_Sq" role="3cqZAp" />
-        <node concept="3cpWs6" id="26OSHcuV_Sr" role="3cqZAp">
-          <node concept="1eaaFm" id="26OSHcuV_Ss" role="3cqZAk">
-            <node concept="37vLTw" id="26OSHcuVA9F" role="18nGdJ">
-              <ref role="3cqZAo" node="26OSHcuVA1Z" resolve="name" />
-            </node>
-            <node concept="1pXOCm" id="26OSHcuW9Bc" role="q55Dl">
-              <ref role="1pXOCo" node="FplMliTv5U" resolve="nkMapper" />
-            </node>
-            <node concept="1Q8zPT" id="26OSHcuV_Su" role="1ea49x">
-              <node concept="19SGf9" id="26OSHcuV_Sv" role="1Q8hHE">
-                <node concept="19SUe$" id="26OSHcuV_Sw" role="19SJt6">
-                  <property role="19SUeA" value="SELECT NAME, COUNT, BIG_DECI, LOCAL_DATE, DATE_TIME, STA_STATUS FROM MMT_NKVIEWOBJECT&#10;WHERE NAME = ?" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="_YKpA" id="26OSHcuV_Sx" role="3clF45">
-        <node concept="3uibUv" id="26OSHcuV_Sy" role="_ZDj9">
-          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
         </node>
       </node>
     </node>
@@ -35842,42 +35878,6 @@
         </node>
       </node>
     </node>
-    <node concept="wbJLE" id="26OSHcw1DZ5" role="jymVt">
-      <property role="TrG5h" value="findAllViewObjWithSameArticleJoined" />
-      <property role="wbJLN" value="READONLY" />
-      <node concept="37vLTG" id="26OSHcw1E4L" role="3clF46">
-        <property role="TrG5h" value="articleId" />
-        <node concept="10Oyi0" id="26OSHcw1E6u" role="1tU5fm" />
-      </node>
-      <node concept="3Tm1VV" id="26OSHcw1DZ6" role="1B3o_S" />
-      <node concept="3clFbS" id="26OSHcw1DZ7" role="3clF47">
-        <node concept="3clFbH" id="26OSHcw1DZ8" role="3cqZAp" />
-        <node concept="3cpWs6" id="26OSHcw1DZ9" role="3cqZAp">
-          <node concept="1eaaFm" id="26OSHcw1DZa" role="3cqZAk">
-            <node concept="37vLTw" id="26OSHcw1E8w" role="18nGdJ">
-              <ref role="3cqZAo" node="26OSHcw1E4L" resolve="articleId" />
-            </node>
-            <node concept="1pXOCm" id="26OSHcw1DZb" role="q55Dl">
-              <ref role="1pXOCo" node="26OSHcuO$Qw" resolve="nkMapperJoined" />
-            </node>
-            <node concept="1Q8zPT" id="26OSHcw1DZc" role="1ea49x">
-              <node concept="19SGf9" id="26OSHcw1DZd" role="1Q8hHE">
-                <node concept="19SUe$" id="26OSHcw1DZe" role="19SJt6">
-                  <property role="19SUeA" value="SELECT r.NAME, r.COUNT, r.BIG_DECI, r.LOCAL_DATE, r.DATE_TIME, r.STA_STATUS, &#10;       r.REF_ARTICLE, a.NAME, a.STATUS &#10;&#10;FROM MMT_NKVIEWOBJECT r JOIN MMT_NKARTICLE a on r.REF_ARTICLE = a.ID&#10; &#10;WHERE r.REF_ARTICLE = ?&#10;" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="26OSHcx_oWn" role="3cqZAp" />
-        <node concept="3clFbH" id="26OSHcx_oYb" role="3cqZAp" />
-      </node>
-      <node concept="_YKpA" id="26OSHcw1DZf" role="3clF45">
-        <node concept="3uibUv" id="26OSHcw1DZg" role="_ZDj9">
-          <ref role="3uigEE" node="5OR7PPl8z27" resolve="NkViewObject" />
-        </node>
-      </node>
-    </node>
     <node concept="wbJLE" id="26OSHcx_p7F" role="jymVt">
       <property role="TrG5h" value="findAllObjUserStackedComplexMapping" />
       <node concept="_YKpA" id="26OSHcx_p9Y" role="3clF45">
@@ -35929,46 +35929,6 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="FplMliKw0w" role="1B3o_S" />
-    <node concept="1o6$dd" id="FplMliTv5U" role="2_$AKh">
-      <property role="TrG5h" value="nkMapper" />
-      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkViewObject" />
-      <node concept="12nEzJ" id="FplMlj9rYs" role="3caO6$">
-        <ref role="12nL8z" node="5OR7PPl8z2e" resolve="name" />
-        <node concept="Xl_RD" id="FplMlj9rYt" role="12k7lF">
-          <property role="Xl_RC" value="NAME" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="FplMlj9rYu" role="3caO6$">
-        <ref role="12nL8z" node="FplMliKC5A" resolve="count" />
-        <node concept="Xl_RD" id="FplMlj9rYv" role="12k7lF">
-          <property role="Xl_RC" value="COUNT" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="FplMlj9rYw" role="3caO6$">
-        <ref role="12nL8z" node="FplMliKC6x" resolve="bigDeci" />
-        <node concept="Xl_RD" id="FplMlj9rYx" role="12k7lF">
-          <property role="Xl_RC" value="BIG_DECI" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="FplMlj9rYy" role="3caO6$">
-        <ref role="12nL8z" node="FplMliKC7P" resolve="localDate" />
-        <node concept="Xl_RD" id="FplMlj9rYz" role="12k7lF">
-          <property role="Xl_RC" value="LOCAL_DATE" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="FplMlj9rY$" role="3caO6$">
-        <ref role="12nL8z" node="FplMliKF6M" resolve="dateTime" />
-        <node concept="Xl_RD" id="FplMlj9rY_" role="12k7lF">
-          <property role="Xl_RC" value="DATE_TIME" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="FplMljbocq" role="3caO6$">
-        <ref role="12nL8z" node="FplMljbo5j" resolve="status" />
-        <node concept="Xl_RD" id="FplMljbocr" role="12k7lF">
-          <property role="Xl_RC" value="STA_STATUS" />
-        </node>
-      </node>
-    </node>
     <node concept="1o6$dd" id="26OSHcuOdnl" role="2_$AKh">
       <property role="TrG5h" value="nkMapperComplex" />
       <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkViewObject" />
@@ -36029,67 +35989,6 @@
           <ref role="12nL8z" node="26OSHcu9Ub9" resolve="id" />
           <node concept="Xl_RD" id="26OSHcuOdGA" role="12k7lF">
             <property role="Xl_RC" value="REF_ARTICLE" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1o6$dd" id="26OSHcuO$Qw" role="2_$AKh">
-      <property role="TrG5h" value="nkMapperJoined" />
-      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkViewObject" />
-      <node concept="12nEzJ" id="26OSHcuO$Qx" role="3caO6$">
-        <ref role="12nL8z" node="5OR7PPl8z2e" resolve="name" />
-        <node concept="Xl_RD" id="26OSHcuO$Qy" role="12k7lF">
-          <property role="Xl_RC" value="NAME" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="26OSHcuO$Qz" role="3caO6$">
-        <ref role="12nL8z" node="FplMliKC5A" resolve="count" />
-        <node concept="Xl_RD" id="26OSHcuO$Q$" role="12k7lF">
-          <property role="Xl_RC" value="COUNT" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="26OSHcuO$QE" role="3caO6$">
-        <ref role="12nL8z" node="FplMliKC6x" resolve="bigDeci" />
-        <node concept="Xl_RD" id="26OSHcuO$QF" role="12k7lF">
-          <property role="Xl_RC" value="BIG_DECI" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="26OSHcuO$QG" role="3caO6$">
-        <ref role="12nL8z" node="FplMliKC7P" resolve="localDate" />
-        <node concept="Xl_RD" id="26OSHcuO$QH" role="12k7lF">
-          <property role="Xl_RC" value="LOCAL_DATE" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="26OSHcuO$QI" role="3caO6$">
-        <ref role="12nL8z" node="FplMliKF6M" resolve="dateTime" />
-        <node concept="Xl_RD" id="26OSHcuO$QJ" role="12k7lF">
-          <property role="Xl_RC" value="DATE_TIME" />
-        </node>
-      </node>
-      <node concept="12nEzJ" id="26OSHcuO$QK" role="3caO6$">
-        <ref role="12nL8z" node="FplMljbo5j" resolve="status" />
-        <node concept="Xl_RD" id="26OSHcuO$QL" role="12k7lF">
-          <property role="Xl_RC" value="STA_STATUS" />
-        </node>
-      </node>
-      <node concept="12nL8U" id="26OSHcuO_2U" role="3caO6$">
-        <ref role="12nL8V" node="26OSHcu9UnH" resolve="refArticle" />
-        <node concept="12nEzJ" id="26OSHcuO_3R" role="3caO6$">
-          <ref role="12nL8z" node="26OSHcu9Ub9" resolve="id" />
-          <node concept="Xl_RD" id="26OSHcuO_3S" role="12k7lF">
-            <property role="Xl_RC" value="ID" />
-          </node>
-        </node>
-        <node concept="12nEzJ" id="26OSHcuO_3T" role="3caO6$">
-          <ref role="12nL8z" node="26OSHcu9UqB" resolve="name" />
-          <node concept="Xl_RD" id="26OSHcuO_3U" role="12k7lF">
-            <property role="Xl_RC" value="NAME" />
-          </node>
-        </node>
-        <node concept="12nEzJ" id="26OSHcuO_3V" role="3caO6$">
-          <ref role="12nL8z" node="26OSHcu9Us3" resolve="status" />
-          <node concept="Xl_RD" id="26OSHcuO_3W" role="12k7lF">
-            <property role="Xl_RC" value="STATUS" />
           </node>
         </node>
       </node>
@@ -36201,6 +36100,107 @@
         <ref role="12nL8z" node="1ZjRqWs0_Pk" resolve="myStaStatus" />
         <node concept="Xl_RD" id="1ZjRqWs0_PH" role="12k7lF">
           <property role="Xl_RC" value="MY_STA_STATUS" />
+        </node>
+      </node>
+    </node>
+    <node concept="1o6$dd" id="FplMliTv5U" role="2_$AKh">
+      <property role="TrG5h" value="nkMapper" />
+      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkViewObject" />
+      <node concept="12nEzJ" id="FplMlj9rYs" role="3caO6$">
+        <ref role="12nL8z" node="5OR7PPl8z2e" resolve="name" />
+        <node concept="Xl_RD" id="FplMlj9rYt" role="12k7lF">
+          <property role="Xl_RC" value="NAME" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="FplMlj9rYu" role="3caO6$">
+        <ref role="12nL8z" node="FplMliKC5A" resolve="count" />
+        <node concept="Xl_RD" id="FplMlj9rYv" role="12k7lF">
+          <property role="Xl_RC" value="COUNT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="FplMlj9rYw" role="3caO6$">
+        <ref role="12nL8z" node="FplMliKC6x" resolve="bigDeci" />
+        <node concept="Xl_RD" id="FplMlj9rYx" role="12k7lF">
+          <property role="Xl_RC" value="BIG_DECI" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="FplMlj9rYy" role="3caO6$">
+        <ref role="12nL8z" node="FplMliKC7P" resolve="localDate" />
+        <node concept="Xl_RD" id="FplMlj9rYz" role="12k7lF">
+          <property role="Xl_RC" value="LOCAL_DATE" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="FplMlj9rY$" role="3caO6$">
+        <ref role="12nL8z" node="FplMliKF6M" resolve="dateTime" />
+        <node concept="Xl_RD" id="FplMlj9rY_" role="12k7lF">
+          <property role="Xl_RC" value="DATE_TIME" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="FplMljbocq" role="3caO6$">
+        <ref role="12nL8z" node="FplMljbo5j" resolve="status" />
+        <node concept="Xl_RD" id="FplMljbocr" role="12k7lF">
+          <property role="Xl_RC" value="STA_STATUS" />
+        </node>
+      </node>
+    </node>
+    <node concept="1o6$dd" id="26OSHcuO$Qw" role="2_$AKh">
+      <property role="TrG5h" value="nkMapperJoined" />
+      <ref role="1o6$9c" node="5OR7PPl8z27" resolve="NkViewObject" />
+      <node concept="12nEzJ" id="26OSHcuO$Qx" role="3caO6$">
+        <ref role="12nL8z" node="5OR7PPl8z2e" resolve="name" />
+        <node concept="Xl_RD" id="26OSHcuO$Qy" role="12k7lF">
+          <property role="Xl_RC" value="NAME" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="26OSHcuO$Qz" role="3caO6$">
+        <ref role="12nL8z" node="FplMliKC5A" resolve="count" />
+        <node concept="Xl_RD" id="26OSHcuO$Q$" role="12k7lF">
+          <property role="Xl_RC" value="COUNT" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="26OSHcuO$QE" role="3caO6$">
+        <ref role="12nL8z" node="FplMliKC6x" resolve="bigDeci" />
+        <node concept="Xl_RD" id="26OSHcuO$QF" role="12k7lF">
+          <property role="Xl_RC" value="BIG_DECI" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="26OSHcuO$QG" role="3caO6$">
+        <ref role="12nL8z" node="FplMliKC7P" resolve="localDate" />
+        <node concept="Xl_RD" id="26OSHcuO$QH" role="12k7lF">
+          <property role="Xl_RC" value="LOCAL_DATE" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="26OSHcuO$QI" role="3caO6$">
+        <ref role="12nL8z" node="FplMliKF6M" resolve="dateTime" />
+        <node concept="Xl_RD" id="26OSHcuO$QJ" role="12k7lF">
+          <property role="Xl_RC" value="DATE_TIME" />
+        </node>
+      </node>
+      <node concept="12nEzJ" id="26OSHcuO$QK" role="3caO6$">
+        <ref role="12nL8z" node="FplMljbo5j" resolve="status" />
+        <node concept="Xl_RD" id="26OSHcuO$QL" role="12k7lF">
+          <property role="Xl_RC" value="STA_STATUS" />
+        </node>
+      </node>
+      <node concept="12nL8U" id="26OSHcuO_2U" role="3caO6$">
+        <ref role="12nL8V" node="26OSHcu9UnH" resolve="refArticle" />
+        <node concept="12nEzJ" id="26OSHcuO_3R" role="3caO6$">
+          <ref role="12nL8z" node="26OSHcu9Ub9" resolve="id" />
+          <node concept="Xl_RD" id="26OSHcuO_3S" role="12k7lF">
+            <property role="Xl_RC" value="ID" />
+          </node>
+        </node>
+        <node concept="12nEzJ" id="26OSHcuO_3T" role="3caO6$">
+          <ref role="12nL8z" node="26OSHcu9UqB" resolve="name" />
+          <node concept="Xl_RD" id="26OSHcuO_3U" role="12k7lF">
+            <property role="Xl_RC" value="NAME" />
+          </node>
+        </node>
+        <node concept="12nEzJ" id="26OSHcuO_3V" role="3caO6$">
+          <ref role="12nL8z" node="26OSHcu9Us3" resolve="status" />
+          <node concept="Xl_RD" id="26OSHcuO_3W" role="12k7lF">
+            <property role="Xl_RC" value="STATUS" />
+          </node>
         </node>
       </node>
     </node>

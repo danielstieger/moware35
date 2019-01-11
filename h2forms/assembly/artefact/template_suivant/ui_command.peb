@@ -4,11 +4,11 @@
 {% endmacro %}
 {% extends "./base.peb" %}
 {% block content %}
-<div class="w3-container w3-row w3-theme-d3" onclick="svHideAllContainsDropdown()">
+<div class="w3-container w3-row sv-currentfg-D3" onclick="svHideAllContainsDropdown()">
     <div class="w3-col s9 w3-left-align"> User Info / Identity</div>
     <div class="w3-col s3 w3-right-align"> {{ client.username }} </div>
 </div>
-<div class="w3-bar w3-theme" onclick="svHideAllContainsDropdown()">
+<div class="w3-bar sv-currentfg" onclick="svHideAllContainsDropdown()">
     {% for conc in conclusions %}
         {% if loop.first %}
             <button type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"
