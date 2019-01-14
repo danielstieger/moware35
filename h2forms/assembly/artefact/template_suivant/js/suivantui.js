@@ -17,6 +17,11 @@ var $$ = function(query) {
 };
 
 
+function svLog(methodName, msg) {
+    console.log('- '+ methodName + "(): " + msg);
+    alert('- '+ methodName + "(): " + msg);
+}
+
 function svIsDropdown(elem) {
   return (elem.className.indexOf("w3-dropdown-content") != -1);
 }
@@ -71,6 +76,9 @@ function svDisableNavigation() {
   });
 }
 
+function svFocusOnElement(elem) {
+
+}
 
 
 /*  *  *  *  *  *  *  *  * LongTouchHandler   *  *  *  *  *  *  *  *  *  *  */

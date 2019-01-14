@@ -22,7 +22,7 @@
   <meta name="msapplication-TileImage" content="{{ client.staticContentUrlPrefix }}/images/touch/ms-touch-icon-144x144-precomposed.png{{ page.ncs }}">
   <meta name="msapplication-TileColor" content="#c6c6c6">
 
-  {% if keyboard %}
+  {% if keyboard and client.device equals "ZEBRAEB_TC" %}
   <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
   <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Hidden" >
   <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Hidden" >
@@ -40,7 +40,20 @@
   <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/w3.css{{ page.ncs }}">
 
   <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/suivantui.js{{ page.ncs }}"></script>
+  {% if client.device equals "ZEBRAEB_TC" %}
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.application.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_zebra.js{{ page.ncs }}"></script>
+  {% elseif client.device equals "SCANDIT" %}
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_scandit.js{{ page.ncs }}"></script>
+  {% else %}
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_none.js{{ page.ncs }}"></script>
+  {% endif %}
   <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/suivant.js{{ page.ncs }}"></script>
+
   <link rel="icon" type="image/ico" href="{{ client.staticContentUrlPrefix }}/images/favicon.ico{{ page.ncs }}">
   <style media="screen" type="text/css">
       h1   {font-size:20px}
