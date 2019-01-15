@@ -76,8 +76,20 @@ function svDisableNavigation() {
   });
 }
 
-function svFocusOnElement(elem) {
+function svAdjustFocus() {
+    var elem = $('[focusme="true"]');
 
+    if (elem){
+        var elemType = elem.type;
+        if (elemType == 'text' || elemType == 'textarea') {
+            elem.select();
+            elem.focus();
+
+        } else {
+            elem.focus();
+
+        }
+    }
 }
 
 

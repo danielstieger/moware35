@@ -19,6 +19,17 @@
 var systemMenuHandler;
 
 
+function scanEnabled(){
+    return ($('input[name="scanconclusion"]') != null);
+}
+
+function saveSubmitDueScan(){
+    var conclusion = $('input[name="scanconclusion"]').value;
+    saveSubmit(conclusion);
+}
+
+
+
 function openPage(page) {
   if (! svHideAllContainsDropdown()) {
       svDisableNavigation();
@@ -65,9 +76,7 @@ function svLogout(){
 document.addEventListener('DOMContentLoaded', function() {
     systemMenuHandler = new SVLongTouchHandler($('.sv-bartitle'), $('#SystemDropdownMenu'));
 
-
-
-    hwEnableScan();
+    hwInitAfterDomReady();
 
     if($('#flagbeep')) {
         hwFlagBeep(400);
@@ -76,5 +85,9 @@ document.addEventListener('DOMContentLoaded', function() {
         hwFlagBeep(1000);
     }
 
-    svLog('DOMContentLoader', 'initalization done for ' + hwStackInfo());
+    setTimeout(function() {
+            svAdjustFocus();
+        	}, 400);
+
+    // svLog('DOMContentLoader', 'init done ' + hwStackInfo());
 });

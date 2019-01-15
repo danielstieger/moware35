@@ -22,14 +22,20 @@
   <meta name="msapplication-TileImage" content="{{ client.staticContentUrlPrefix }}/images/touch/ms-touch-icon-144x144-precomposed.png{{ page.ncs }}">
   <meta name="msapplication-TileColor" content="#c6c6c6">
 
-  {% if keyboard and client.device equals "ZEBRAEB_TC" %}
-  <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
+  <!-- <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
   <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Hidden" >
   <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Hidden" >
   <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Hidden" >
   <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
-  <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" >
-  {% endif %}
+  <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" > -->
+
+  <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Visible" >
+  <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Visible" >
+
 
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />
   <meta charset="UTF-8">
@@ -46,6 +52,7 @@
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.sip.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_zebra.js{{ page.ncs }}"></script>
   {% elseif client.device equals "SCANDIT" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_scandit.js{{ page.ncs }}"></script>
@@ -66,7 +73,8 @@
       .sv-currentfg-D3 { background: {{ defColD3(page.colorD3) }} !important; }
   </style>
 
-<body class="{% if message is not null and message.modalWithButtons %}sv-back-modal{% elseif not page.hasSessionToCommit and page.isReadOnly %}sv-back-readOnly{% elseif page.isDocumentSearch %}sv-back-no-session{% else %}sv-back-session{% endif %}">
+<body class="{% if message is not null and message.modalWithButtons %}sv-back-modal{% elseif not page.hasSessionToCommit and page.isReadOnly %}sv-back-readOnly{% elseif page.isDocumentSearch %}sv-back-no-session{% else %}sv-back-session{% endif %}"
+      {% if message is not null and message.errorLarge %} style="overflow-x: scroll !important;" {% endif %}>
 <form method="POST" name="baseform" id="baseform">
     <input type="hidden" name="NaviCrtl" value=""/>
     <input type="hidden" name="SelectionId" value=""/>

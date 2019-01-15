@@ -15,7 +15,7 @@
 
     {% elseif message.errorLarge %}
     <div class="w3-panel">
-        <div class="w3-card w3-padding sv-question-red">
+        <div class="w3-card w3-padding sv-question-red" style="width: 1200px;">
             <h1>{{ message.heading }}</h1>
             <pre id="errorbeep">
             <code> {{ message.text | raw }} </code>

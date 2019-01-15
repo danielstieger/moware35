@@ -16,5 +16,22 @@
  *
  */
 
+function hwStackInfo(){
+    return '[hwsprt_none V0.0]';
+}
 
+function hwInitAfterDomReady(){
 
+}
+
+function hwInternVibrate(t) {
+
+}
+
+function hwFlagBeep(t) {
+
+}
+
+function hwExit(){
+
+}

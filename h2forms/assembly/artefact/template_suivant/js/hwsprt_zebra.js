@@ -21,12 +21,8 @@ function hwStackInfo(){
     return '[hwsprt_zebra V0.0]';
 }
 
-function hwIsScanEnabled(){
-    return ($('input[name="scanconclusion"]') != null);
-}
-
 function hwEnableSoftScanButton(val){
-    $('#scanSoftButton').disabled = ! val;
+    /* $('#scanSoftButton').disabled = ! val; */
 }
 
 
@@ -36,10 +32,9 @@ function hwEnableSoftScanButton(val){
 /* * * * * * * * * * * scanning stuff * * */
 
 function hwDisableScan(){
+    //svLog('hwDisableScan', 'zebra disableScan() called . . . .');
 
-    svLog('hwDisableScan', 'zebra disableScan() called . . . .');
-
-    if (hsIsScanEnabled()) {
+    if (scanEnabled()) {
         try {
             hwEnableSoftScanButton(false);
             EB.Barcode.disable();
@@ -56,24 +51,50 @@ function zebraScanReceived(params){
     }
 
     svDisableNavigation();
-
     $('input[scanable="true"]').value = params['data'];
-    var conclusion = $('input[name="scanconclusion"]').value;
 
     hwDisableScan();
-    svLog('zebraScanReceived', 'sequencId: ' + $('form').SequenceId.value + ' conclusion: ' + conclusion);
-
-    svFocusOnElement(null);
-    saveSubmit(conclusion);
+    saveSubmitDueScan();
 }
 
 
-function hwEnableScan(){
-    svLog('hwEnableScan', 'zebra enableScan called . . . .');
+function hwInitAfterDomReady(){
+    // svLog('hwInitAfterDomReady', 'zebra enableScan called . . . .');
 
-    if (hwIsScanEnabled()) {
+    EB.Sip.disableAllIME();
+
+    var focusHandler = function(event) {
+        	var nodeName = event.target.nodeName.toLowerCase();
+            var useNumericKeyboard = event.target.getAttribute('useNumericKeyboard');
+            console.log('focusHandler. ' + nodeName + ' useNumericKeyboard ' + useNumericKeyboard);
+
+    		if((nodeName == 'input' || nodeName == 'textarea') && useNumericKeyboard == null) {
+                console.log('EB.Sip.show()')
+                EB.Sip.resetToDefault();
+                EB.Sip.show();
+
+    		} else {
+    		    EB.Sip.disableAllIME();
+                console.log('EB.Sip.disableAllIME()')
+    		}
+    };
+    document.body.addEventListener('focus', focusHandler, true); //Non-IE
+
+
+
+    // TODO: install key handlers
+    /* var capturekeyCallback = function (params){
+      var key = params['keyValue'];
+
+      svLog('capturekeyCallback', "Key is '" + key + "'.");
+    }
+    EB.KeyCapture.captureKey(false, 'all', capturekeyCallback); */
+
+
+
+    if (scanEnabled()) {
         try {
-            svLog('hwEnableScan', 'calling EB.Barcode.enable()');
+            // svLog('hwEnableScan', 'calling EB.Barcode.enable()');
             EB.Barcode.enable({
                 allDecoders:false,
                 code128:true,
@@ -96,7 +117,7 @@ function hwEnableScan(){
             hwEnableSoftScanButton(true);
 
         } catch(err) {
-            logDebug('enableScan() ' + err);
+            svLog('hwInitAfterDomReady', 'EX while zebra EB.Barcode.enable(). ' + err);
         }
     }
 }
@@ -105,17 +126,17 @@ function hwEnableScan(){
 function hwScanSubmit(){
     // issuing a scan, which in turn will fire
     // the scan conclusion then ... and submit
-
-    svLog('hwScanSubmit', 'zebra issuing a scan');
+    // svLog('hwScanSubmit', 'zebra issuing a scan');
     EB.Barcode.stop();
     EB.Barcode.start();
 }
 
+function hwDefaultOkSubmit(){
+    svLog('hwDefaultOkSubmit', 'default ok submit called');
+}
 
 
-
-/* Hotkey stuff ******************************************************* */
-function hwInternVibrate(t) {
+function hwInternVibrate(t){
     try {
    		EB.Notification.vibrate(t);
    	} catch(err) {
@@ -124,7 +145,7 @@ function hwInternVibrate(t) {
 }
 
 
-function hwFlagBeep(t) {
+function hwFlagBeep(t){
     try {
         EB.Notification.beep({frequency :1200, volume :5.0, duration: t});
         EB.Notification.vibrate(t);
@@ -134,10 +155,6 @@ function hwFlagBeep(t) {
     }
 }
 
-
-function hwInstallKeyHandler(){
-
-}
 
 function hwExit(){
     try {
