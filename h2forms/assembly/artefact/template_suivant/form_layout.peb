@@ -6,7 +6,7 @@
 {% else %}{{ act.label }}{% endif %}
 {% endmacro %}
 {% macro imgAndLabel(act) %}
-{% if act.materialImgName is not null %} <i class="material-icons">{{ act.materialImgName|raw }}</i>{% endif %}
+{% if act.materialImgName is not null %} <i class="material-icons">{{ act.materialImgName|raw }}</i>{% endif %}&nbsp;
 {{ act.label }}
 {% endmacro %}
 
