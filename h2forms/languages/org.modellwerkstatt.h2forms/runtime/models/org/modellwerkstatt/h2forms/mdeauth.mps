@@ -434,6 +434,33 @@
               <property role="Xl_RC" value="com.symbol.enterprisebrowser" />
             </node>
           </node>
+          <node concept="3eNFk2" id="6PcZc$6eYwK" role="3eNLev">
+            <node concept="2OqwBi" id="6PcZc$6eYBw" role="3eO9$A">
+              <node concept="Xl_RD" id="6PcZc$6eYAm" role="2Oq$k0">
+                <property role="Xl_RC" value="com.scandit.enterprisebrowser" />
+              </node>
+              <node concept="liA8E" id="6PcZc$6eYDT" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="37vLTw" id="6PcZc$6eYFf" role="37wK5m">
+                  <ref role="3cqZAo" node="3Sgll4LMSoL" resolve="requestedWith" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbS" id="6PcZc$6eYwM" role="3eOfB_">
+              <node concept="3clFbF" id="6PcZc$6eYHK" role="3cqZAp">
+                <node concept="37vLTI" id="6PcZc$6eYJf" role="3clFbG">
+                  <node concept="Rm8GO" id="6PcZc$6eZ0A" role="37vLTx">
+                    <ref role="Rm8GQ" to="tea8:6PcZc$6eYQR" resolve="SCANDIT" />
+                    <ref role="1Px2BO" to="tea8:1DW7q9hIaqF" resolve="ContextClient.Devices" />
+                  </node>
+                  <node concept="37vLTw" id="6PcZc$6eYHI" role="37vLTJ">
+                    <ref role="3cqZAo" node="4Rlyz3E6UWl" resolve="deviceDetected" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbH" id="6PcZc$6eYGM" role="3cqZAp" />
+            </node>
+          </node>
           <node concept="3eNFk2" id="4Rlyz3E7aqn" role="3eNLev">
             <node concept="3clFbS" id="4Rlyz3E7aqp" role="3eOfB_">
               <node concept="3clFbF" id="4Rlyz3E7FQh" role="3cqZAp">
@@ -489,7 +516,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="186V0VF2ntb" role="3cqZAp" />
-        <node concept="1X3_iC" id="7VDbE_c6VOk" role="lGtFl">
+        <node concept="1X3_iC" id="6PcZc$6f817" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3cpWs8" id="186V0VF2nQO" role="8Wnug">
@@ -510,7 +537,7 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="7VDbE_c6WjN" role="lGtFl">
+        <node concept="1X3_iC" id="6PcZc$6f8a_" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="2$JKZl" id="186V0VF2oct" role="8Wnug">

@@ -66,17 +66,14 @@ function hwInitAfterDomReady(){
     var focusHandler = function(event) {
         	var nodeName = event.target.nodeName.toLowerCase();
             var useNumericKeyboard = event.target.getAttribute('useNumericKeyboard');
-            console.log('focusHandler. ' + nodeName + ' useNumericKeyboard ' + useNumericKeyboard);
 
     		if((nodeName == 'input' || nodeName == 'textarea') && useNumericKeyboard == null) {
-                console.log('EB.Sip.show()')
                 EB.Sip.resetToDefault();
                 EB.Sip.show();
 
     		} else {
     		    EB.Sip.disableAllIME();
-                console.log('EB.Sip.disableAllIME()')
-    		}
+            }
     };
     document.body.addEventListener('focus', focusHandler, true); //Non-IE
 
@@ -93,25 +90,34 @@ function hwInitAfterDomReady(){
 
 
     if (scanEnabled()) {
-        try {
-            // svLog('hwEnableScan', 'calling EB.Barcode.enable()');
-            EB.Barcode.enable({
-                allDecoders:false,
-                code128:true,
-                code39:true,
-                ean13:true,
-                ean8:true,
-                gs1dataBar:true,
-                gs1dataBarExpanded:true,
-                gs1dataBarLimited:true,
-                pdf417:true,
-                qrCode:true,
-                dataMatrix:true,
-                /* upcEanSupplemental5:true,
-                upcEanSupplemental2:true,
-                upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO, */
+        var isInit = sessionStorage.getItem("isEBInitialized");
 
-                }, zebraScanReceived);
+        try {
+            if (isInit == "true") {
+                EB.Barcode.enable({}, zebraScanReceived);
+
+            } else{
+                // svLog('hwEnableScan', 'calling EB.Barcode.enable()');
+                EB.Barcode.enable({
+                    allDecoders:false,
+                    code128:true,
+                    code39:true,
+                    ean13:true,
+                    ean8:true,
+                    gs1dataBar:true,
+                    gs1dataBarExpanded:true,
+                    gs1dataBarLimited:true,
+                    pdf417:true,
+                    qrCode:true,
+                    dataMatrix:true,
+                    /* upcEanSupplemental5:true,
+                    upcEanSupplemental2:true,
+                    upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO, */
+
+                    }, zebraScanReceived);
+
+                sessionStorage.setItem("isEBInitialized", "true");
+            }
 
             /* EB.Barcode.enable({allDecoders:true,  }, scanReceived); */
             hwEnableSoftScanButton(true);

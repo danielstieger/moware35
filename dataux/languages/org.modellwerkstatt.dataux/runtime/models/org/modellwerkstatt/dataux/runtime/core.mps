@@ -10147,6 +10147,38 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="54mRB2k14dz" role="jymVt">
+      <property role="TrG5h" value="getAdditionalUserInfo" />
+      <node concept="17QB3L" id="54mRB2k14d$" role="3clF45" />
+      <node concept="3Tm1VV" id="54mRB2k14d_" role="1B3o_S" />
+      <node concept="3clFbS" id="54mRB2k14dA" role="3clF47">
+        <node concept="3clFbJ" id="54mRB2k14dB" role="3cqZAp">
+          <node concept="3clFbS" id="54mRB2k14dC" role="3clFbx">
+            <node concept="3cpWs6" id="54mRB2k14dD" role="3cqZAp">
+              <node concept="Xl_RD" id="54mRB2k14dE" role="3cqZAk">
+                <property role="Xl_RC" value="(app already shut down)" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="54mRB2k14dF" role="3clFbw">
+            <node concept="10Nm6u" id="54mRB2k14dG" role="3uHU7w" />
+            <node concept="37vLTw" id="54mRB2k14dH" role="3uHU7B">
+              <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="54mRB2k14dI" role="3cqZAp">
+          <node concept="2OqwBi" id="54mRB2k14dJ" role="3cqZAk">
+            <node concept="37vLTw" id="54mRB2k14dK" role="2Oq$k0">
+              <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
+            </node>
+            <node concept="liA8E" id="54mRB2k14dL" role="2OqNvi">
+              <ref role="37wK5l" to="w7gk:54mRB2jO8q8" resolve="getAdditionalUserInfo" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="4z69JWeWMvs" role="jymVt">
       <property role="TrG5h" value="endOfRequest" />
       <node concept="37vLTG" id="4z69JWeX1GE" role="3clF46">
