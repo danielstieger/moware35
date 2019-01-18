@@ -22,19 +22,23 @@
   <meta name="msapplication-TileImage" content="{{ client.staticContentUrlPrefix }}/images/touch/ms-touch-icon-144x144-precomposed.png{{ page.ncs }}">
   <meta name="msapplication-TileColor" content="#c6c6c6">
 
-  <!-- <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
-  <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Hidden" >
-  <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Hidden" >
-  <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Hidden" >
-  <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
-  <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" > -->
 
-  <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Visible" >
-  <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Visible" >
-  <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Visible" >
-  <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Visible" >
-  <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Visible" >
-  <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Visible" >
+{% if keyboard %}
+    <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Visible" >
+    <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Visible" >
+    <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Visible" >
+    <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Visible" >
+    <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Visible" >
+    <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Visible" >
+{% else %}
+    <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
+    <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Hidden" >
+    <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Hidden" >
+    <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Hidden" >
+    <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
+    <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" >
+{% endif %}
+
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0, minimum-scale=1, maximum-scale=1" />

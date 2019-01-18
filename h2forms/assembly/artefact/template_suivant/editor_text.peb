@@ -1,3 +1,4 @@
+{% if not multiline %}
 <div class="w3-col m3 s5 sv-edit-label">{{ labelText }}:</div>
 <div class="w3-col m9 s7 {% if enabled %}sv-edit-input-col{% else %}sv-edit-input-col-dis{% endif %}">
     {% if enabled %}
@@ -9,3 +10,7 @@
         {{ text }}
     {% endif %}
 </div>
+{% else %}
+<div class="w3-col m3  s1"> &nbsp; </div>
+<div class="w3-col m9 s11 sv-multiline-edit-input-col-dis"> {{ textBr | raw }} </div>
+{% endif %}
