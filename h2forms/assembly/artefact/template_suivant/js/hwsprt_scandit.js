@@ -20,35 +20,39 @@ function hwStackInfo(){
     return '[hwsprt_scandit V0.0]';
 }
 
-function hwEnableSoftScanButton(val){
+
+/* * * * * * * * * * * scanning stuff * * */
+
+function scEnableSoftScanButton(val){
     var btn = $('#scanSoftButton')
     if (btn) {
         btn.disabled = ! val;
     }
 }
 
-
-
-
-
-/* * * * * * * * * * * scanning stuff * * */
-
-function hwDisableScan(){
-    // svLog('hwDisableScan', 'scandit disableScan() called . . . .');
-
-    if (scanEnabled()) {
+function scDisableScan(){
+    // svLog('scDisableScan', 'scandit disableScan() called . . . .');
+    if (svScanEnabled()) {
         window.picker.cancel();
     }
 }
 
-function scanditScanReceived(data){
+function scScanReceived(data){
     svDisableNavigation();
     $('input[scanable="true"]').value = data;
 
-    hwDisableScan();
+    scDisableScan();
+    // svLog('scScanReceived', 'submitting now')
     saveSubmitDueScan();
 }
 
+function scScanSubmit(){
+    // issuing a scan, which in turn will fire
+    // the scan conclusion then ... and submit
+    // svLog('swScanSubmit', 'issuing a scan');
+    window.picker.show(scanSession => scanSession.newlyRecognizedCodes.forEach(barcode => scScanReceived(barcode.data)));
+    window.picker.startScanning();
+}
 
 function hwInitAfterDomReady(){
     // svLog('hwInitAfterDomReady', 'scandit enableScan called . . . .');
@@ -80,12 +84,12 @@ function hwInitAfterDomReady(){
                 //settings.activeScanningAreaPortrait = new Scandit.Rect(0.0, 0.5, 1.0, 0.5);
 
                 window.picker = new Scandit.BarcodePicker(settings);
-                //window.picker.getOverlayView().setViewfinderDimension(0.0, 0.5, 1.0, 0.5);
-                window.picker.setMargins(new Scandit.Margins("0%","50%", "0%", "0%"), new Scandit.Margins("0%","50%", "0%", "0%"), 0);
-                // window.picker.getOverlayView().setGuiStyle(Scandit.ScanOverlay.GuiStyle.LASER);
+                // window.picker.getOverlayView().setViewfinderDimension(0.0, 0.5, 1.0, 0.5);
+                // window.picker.setMargins(new Scandit.Margins("0%","50%", "0%", "0%"), new Scandit.Margins("0%","50%", "0%", "0%"), 0);
+                window.picker.getOverlayView().setGuiStyle(Scandit.ScanOverlay.GuiStyle.LASER);
 
-                if (scanEnabled()) {
-                    hwEnableSoftScanButton(true);
+                if (svScanEnabled()) {
+                    scEnableSoftScanButton(true);
                 }
 
              } catch(err) {
@@ -101,17 +105,7 @@ function hwInitAfterDomReady(){
 }
 
 
-function hwScanSubmit(){
-    // issuing a scan, which in turn will fire
-    // the scan conclusion then ... and submit
-    // svLog('hwScanSubmit', 'scandit issuing a scan');
-    window.picker.show(scanSession => scanSession.newlyRecognizedCodes.forEach(barcode => scanditScanReceived(barcode.data)));
-    window.picker.startScanning();
-}
 
-function hwDefaultOkSubmit(){
-    svLog('hwDefaultOkSubmit', 'default ok submit called');
-}
 
 
 function hwInternVibrate(t){

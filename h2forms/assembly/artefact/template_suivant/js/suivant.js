@@ -19,7 +19,7 @@
 var systemMenuHandler;
 
 
-function scanEnabled(){
+function svScanEnabled(){
     return ($('input[name="scanconclusion"]') != null);
 }
 
@@ -74,7 +74,11 @@ function svLogout(){
 
 /* listener and event handling attached to document, window etc. * * * * * * * * * * * * * * * * * * */
 document.addEventListener('DOMContentLoaded', function() {
-    systemMenuHandler = new SVLongTouchHandler($('.sv-bartitle'), $('#SystemDropdownMenu'));
+    var sysMenu = $('.sv-bartitle');
+    if (sysMenu) {
+        systemMenuHandler = new SVLongTouchHandler($('.sv-bartitle'), $('#SystemDropdownMenu'));
+        console.log('suivant.js: system menu installed.')
+    }
 
     hwInitAfterDomReady();
 

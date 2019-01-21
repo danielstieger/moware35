@@ -21,31 +21,30 @@ function hwStackInfo(){
     return '[hwsprt_zebra V0.0]';
 }
 
-function hwEnableSoftScanButton(val){
-    /* $('#scanSoftButton').disabled = ! val; */
-}
-
-
 
 
 
 /* * * * * * * * * * * scanning stuff * * */
+function zzEnableSoftScanButton(val){
+    /* $('#scanSoftButton').disabled = ! val; */
+}
 
-function hwDisableScan(){
-    //svLog('hwDisableScan', 'zebra disableScan() called . . . .');
 
-    if (scanEnabled()) {
+function zzDisableScan(){
+    //svLog('zzDisableScan', 'zebra disableScan() called . . . .');
+
+    if (svScanEnabled()) {
         try {
-            hwEnableSoftScanButton(false);
+            zzEnableSoftScanButton(false);
             EB.Barcode.disable();
 
         } catch(err) {
-            svLog('hwDisableScan', 'Ex while disabling scanner. ' + err);
+            svLog('zzDisableScan', 'Ex while disabling scanner. ' + err);
         }
     }
 }
 
-function zebraScanReceived(params){
+function zzScanReceived(params){
     if(params['data']== "" || params['time']==""){
         return;
     }
@@ -53,10 +52,28 @@ function zebraScanReceived(params){
     svDisableNavigation();
     $('input[scanable="true"]').value = params['data'];
 
-    hwDisableScan();
+    zzDisableScan();
     saveSubmitDueScan();
 }
 
+function zzScanSubmit(){
+    // issuing a scan, which in turn will fire
+    // the scan conclusion then ... and submit
+    // svLog('zzScanSubmit', 'zebra issuing a scan');
+    EB.Barcode.stop();
+    EB.Barcode.start();
+}
+
+function zzDefaultOkSubmit(){
+    // svLog('hwDefaultOkSubmit', 'default ok submit called');
+
+    if (svScanEnabled()) {
+        svDisableNavigation();
+
+        zzDisableScan();
+        saveSubmitDueScan();
+    }
+}
 
 function hwInitAfterDomReady(){
     // svLog('hwInitAfterDomReady', 'zebra enableScan called . . . .');
@@ -90,12 +107,12 @@ function hwInitAfterDomReady(){
     }
     EB.KeyCapture.captureKey(false, '0x04', ignoreKeys);
 
-    if (scanEnabled()) {
+    if (svScanEnabled()) {
         var isInit = sessionStorage.getItem("isEBInitialized");
 
         try {
             if (isInit == "true") {
-                EB.Barcode.enable({}, zebraScanReceived);
+                EB.Barcode.enable({}, zzScanReceived);
 
             } else{
                 // svLog('hwEnableScan', 'calling EB.Barcode.enable()');
@@ -115,40 +132,19 @@ function hwInitAfterDomReady(){
                     upcEanSupplemental2:true,
                     upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO, */
 
-                    }, zebraScanReceived);
+                    }, zzScanReceived);
 
                 sessionStorage.setItem("isEBInitialized", "true");
             }
 
             /* EB.Barcode.enable({allDecoders:true,  }, scanReceived); */
-            hwEnableSoftScanButton(true);
+            zzEnableSoftScanButton(true);
 
         } catch(err) {
             svLog('hwInitAfterDomReady', 'EX while zebra EB.Barcode.enable(). ' + err);
         }
     }
 }
-
-
-function hwScanSubmit(){
-    // issuing a scan, which in turn will fire
-    // the scan conclusion then ... and submit
-    // svLog('hwScanSubmit', 'zebra issuing a scan');
-    EB.Barcode.stop();
-    EB.Barcode.start();
-}
-
-function hwDefaultOkSubmit(){
-    // svLog('hwDefaultOkSubmit', 'default ok submit called');
-
-    if (scanEnabled()) {
-        svDisableNavigation();
-
-        hwDisableScan();
-        saveSubmitDueScan();
-    }
-}
-
 
 function hwInternVibrate(t){
     try {

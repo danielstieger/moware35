@@ -23,7 +23,7 @@
         {% elseif conc.visible and conc.hotKey equals "UPD" %}
             <input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
             {% if client.device equals "SCANDIT" %}
-                <button id="scanSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: hwScanSubmit();" disabled><i class="material-icons">camera</i></button>
+                <button id="scanSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: scScanSubmit();" disabled><i class="material-icons">camera</i></button>
             {% endif %}
 
         {% elseif conc.visible %}
