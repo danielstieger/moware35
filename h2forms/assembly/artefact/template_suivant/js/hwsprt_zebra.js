@@ -82,12 +82,13 @@ function hwInitAfterDomReady(){
     // TODO: install key handlers
     /* var capturekeyCallback = function (params){
       var key = params['keyValue'];
-
       svLog('capturekeyCallback', "Key is '" + key + "'.");
     }
     EB.KeyCapture.captureKey(false, 'all', capturekeyCallback); */
 
-
+    var ignoreKeys = function (params){
+    }
+    EB.KeyCapture.captureKey(false, '0x04', ignoreKeys);
 
     if (scanEnabled()) {
         var isInit = sessionStorage.getItem("isEBInitialized");
@@ -138,7 +139,14 @@ function hwScanSubmit(){
 }
 
 function hwDefaultOkSubmit(){
-    svLog('hwDefaultOkSubmit', 'default ok submit called');
+    // svLog('hwDefaultOkSubmit', 'default ok submit called');
+
+    if (scanEnabled()) {
+        svDisableNavigation();
+
+        hwDisableScan();
+        saveSubmitDueScan();
+    }
 }
 
 
