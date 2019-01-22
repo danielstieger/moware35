@@ -37,11 +37,18 @@ function scDisableScan(){
     }
 }
 
-function scScanReceived(data){
+function scScanReceived(scanSession){
+
     svDisableNavigation();
+    scDisableScan();
+
+    var data = '';
+    for (barcode in scanSession.newlyRecognizedCodes) {
+        console.log('scScanReceived() we have code ' + barcode + ' / ' + barcode.data + ' received.')
+        data += barcode.data;
+    }
     $('input[scanable="true"]').value = data;
 
-    scDisableScan();
     // svLog('scScanReceived', 'submitting now')
     saveSubmitDueScan();
 }
@@ -50,7 +57,7 @@ function scScanSubmit(){
     // issuing a scan, which in turn will fire
     // the scan conclusion then ... and submit
     // svLog('swScanSubmit', 'issuing a scan');
-    window.picker.show(scanSession => scanSession.newlyRecognizedCodes.forEach(barcode => scScanReceived(barcode.data)));
+
     window.picker.startScanning();
 }
 
@@ -87,6 +94,8 @@ function hwInitAfterDomReady(){
                 // window.picker.getOverlayView().setViewfinderDimension(0.0, 0.5, 1.0, 0.5);
                 // window.picker.setMargins(new Scandit.Margins("0%","50%", "0%", "0%"), new Scandit.Margins("0%","50%", "0%", "0%"), 0);
                 window.picker.getOverlayView().setGuiStyle(Scandit.ScanOverlay.GuiStyle.LASER);
+                window.picker.show(scScanReceived);
+
 
                 if (svScanEnabled()) {
                     scEnableSoftScanButton(true);

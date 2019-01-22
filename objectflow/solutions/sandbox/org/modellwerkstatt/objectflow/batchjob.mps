@@ -14466,9 +14466,31 @@
       <node concept="3clFbS" id="3tgwmmDjmJJ" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="3tgwmmDl6I5" role="jymVt" />
+    <node concept="3clFb_" id="2SRXiXA4XBW" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setPlatformShortName" />
+      <node concept="37vLTG" id="2SRXiXA4XBX" role="3clF46">
+        <property role="TrG5h" value="platformName" />
+        <node concept="17QB3L" id="2SRXiXA4XBY" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="2SRXiXA4XBZ" role="3clF45" />
+      <node concept="3Tm1VV" id="2SRXiXA4XC0" role="1B3o_S" />
+      <node concept="3clFbS" id="2SRXiXA4XC2" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="2SRXiXA4XC3" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getPlatformShortName" />
+      <node concept="17QB3L" id="2SRXiXA4XC4" role="3clF45" />
+      <node concept="3Tm1VV" id="2SRXiXA4XC5" role="1B3o_S" />
+      <node concept="3clFbS" id="2SRXiXA4XC7" role="3clF47">
+        <node concept="3clFbF" id="2SRXiXA4XKE" role="3cqZAp">
+          <node concept="10Nm6u" id="2SRXiXA4XKD" role="3clFbG" />
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="3tgwmmDl6Im" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getPlatformName" />
+      <property role="TrG5h" value="getPlatformFQName" />
       <node concept="17QB3L" id="3tgwmmDl6In" role="3clF45" />
       <node concept="3Tm1VV" id="3tgwmmDl6Io" role="1B3o_S" />
       <node concept="3clFbS" id="3tgwmmDl6Iq" role="3clF47">

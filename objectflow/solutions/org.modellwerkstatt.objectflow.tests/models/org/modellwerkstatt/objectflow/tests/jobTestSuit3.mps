@@ -4324,7 +4324,7 @@
                 <node concept="3Tm1VV" id="5lMTsSlMoFH" role="1B3o_S" />
                 <node concept="3clFb_" id="5lMTsSlMoFI" role="jymVt">
                   <property role="1EzhhJ" value="false" />
-                  <property role="TrG5h" value="getPlatformName" />
+                  <property role="TrG5h" value="getPlatformFQName" />
                   <node concept="17QB3L" id="5lMTsSlMoFJ" role="3clF45" />
                   <node concept="3Tm1VV" id="5lMTsSlMoFK" role="1B3o_S" />
                   <node concept="3clFbS" id="5lMTsSlMoFL" role="3clF47">
@@ -4332,6 +4332,28 @@
                       <node concept="Xl_RD" id="5lMTsSlMoFN" role="3clFbG">
                         <property role="Xl_RC" value="" />
                       </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFb_" id="2SRXiXA4XdJ" role="jymVt">
+                  <property role="1EzhhJ" value="false" />
+                  <property role="TrG5h" value="setPlatformShortName" />
+                  <node concept="37vLTG" id="2SRXiXA4XdK" role="3clF46">
+                    <property role="TrG5h" value="platformName" />
+                    <node concept="17QB3L" id="2SRXiXA4XdL" role="1tU5fm" />
+                  </node>
+                  <node concept="3cqZAl" id="2SRXiXA4XdM" role="3clF45" />
+                  <node concept="3Tm1VV" id="2SRXiXA4XdN" role="1B3o_S" />
+                  <node concept="3clFbS" id="2SRXiXA4XdQ" role="3clF47" />
+                </node>
+                <node concept="3clFb_" id="2SRXiXA4XdR" role="jymVt">
+                  <property role="1EzhhJ" value="false" />
+                  <property role="TrG5h" value="getPlatformShortName" />
+                  <node concept="17QB3L" id="2SRXiXA4XdS" role="3clF45" />
+                  <node concept="3Tm1VV" id="2SRXiXA4XdT" role="1B3o_S" />
+                  <node concept="3clFbS" id="2SRXiXA4XdW" role="3clF47">
+                    <node concept="3clFbF" id="2SRXiXA4Xqv" role="3cqZAp">
+                      <node concept="10Nm6u" id="2SRXiXA4Xqu" role="3clFbG" />
                     </node>
                   </node>
                 </node>
