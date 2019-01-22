@@ -67,6 +67,41 @@ function scScanSubmit(){
     console.log('scScanSubmit() done, startScanning() called.');
 }
 
+
+function scInitPicker() {
+
+     if (window.Scandit == undefined) {
+        setTimeout(scInitPicker, 500);
+        console.log('scInitPicker() scandit API not ready, delaying init for another 500ms.')
+        return;
+     }
+
+    try {
+        const settings = new Scandit.ScanSettings();
+        settings.setSymbologyEnabled(Scandit.Barcode.Symbology.CODE128, true);
+        settings.setSymbologyEnabled(Scandit.Barcode.Symbology.EAN13, true);
+        settings.setSymbologyEnabled(Scandit.Barcode.Symbology.UPCA, true);
+        settings.setSymbologyEnabled(Scandit.Barcode.Symbology.UPCE, true);
+        settings.setSymbologyEnabled(Scandit.Barcode.Symbology.QR, true);
+        settings.setSymbologyEnabled(Scandit.Barcode.Symbology.DATA_MATRIX, true);
+        //settings.activeScanningAreaPortrait = new Scandit.Rect(0.0, 0.5, 1.0, 0.5);
+
+        window.picker = new Scandit.BarcodePicker(settings);
+        // window.picker.getOverlayView().setViewfinderDimension(0.0, 0.5, 1.0, 0.5);
+        // window.picker.setMargins(new Scandit.Margins("0%","50%", "0%", "0%"), new Scandit.Margins("0%","50%", "0%", "0%"), 0);
+        window.picker.getOverlayView().setGuiStyle(Scandit.ScanOverlay.GuiStyle.LASER);
+        window.picker.getOverlayView().setBeepEnabled(true);
+        window.picker.getOverlayView().setVibrateEnabled(true);
+
+        if (svScanEnabled()) {
+            scEnableSoftScanButton(true);
+        }
+
+     } catch(err) {
+        svLog('hwInitAfterDomReady', 'EX while scandit picker init. ' + err);
+     }
+}
+
 function hwInitAfterDomReady(){
     // svLog('hwInitAfterDomReady', 'scandit enableScan called . . . .');
 
@@ -85,36 +120,13 @@ function hwInitAfterDomReady(){
 
 
     if (!window.picker) {
-        setTimeout(function() {
-            try {
-                const settings = new Scandit.ScanSettings();
-                settings.setSymbologyEnabled(Scandit.Barcode.Symbology.CODE128, true);
-                settings.setSymbologyEnabled(Scandit.Barcode.Symbology.EAN13, true);
-                settings.setSymbologyEnabled(Scandit.Barcode.Symbology.UPCA, true);
-                settings.setSymbologyEnabled(Scandit.Barcode.Symbology.UPCE, true);
-                settings.setSymbologyEnabled(Scandit.Barcode.Symbology.QR, true);
-                settings.setSymbologyEnabled(Scandit.Barcode.Symbology.DATA_MATRIX, true);
-                //settings.activeScanningAreaPortrait = new Scandit.Rect(0.0, 0.5, 1.0, 0.5);
-
-                window.picker = new Scandit.BarcodePicker(settings);
-                // window.picker.getOverlayView().setViewfinderDimension(0.0, 0.5, 1.0, 0.5);
-                // window.picker.setMargins(new Scandit.Margins("0%","50%", "0%", "0%"), new Scandit.Margins("0%","50%", "0%", "0%"), 0);
-                window.picker.getOverlayView().setGuiStyle(Scandit.ScanOverlay.GuiStyle.LASER);
-
-                if (svScanEnabled()) {
-                    scEnableSoftScanButton(true);
-                }
-
-             } catch(err) {
-                svLog('hwInitAfterDomReady', 'EX while scandit picker init. ' + err);
-             }
-
-        }, 1000);
+        setTimeout(scInitPicker, 500);
         // svLog('hwInitAfterDomReady', 'initialized scandit picker. done.')
 
+    } else {
+        console.log('hwInitAfterDomReady window.picker already set - this should not happen. ');
+        svLog('hwInitAfterDomReady', 'window.picker already set - this should not happen.');
     }
-
-
 }
 
 
