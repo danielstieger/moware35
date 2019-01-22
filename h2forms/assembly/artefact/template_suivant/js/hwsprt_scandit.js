@@ -42,23 +42,29 @@ function scScanReceived(scanSession){
     svDisableNavigation();
     scDisableScan();
 
-    var data = '';
-    for (barcode in scanSession.newlyRecognizedCodes) {
-        console.log('scScanReceived() we have code ' + barcode + ' / ' + barcode.data + ' received.')
-        data += barcode.data;
-    }
-    $('input[scanable="true"]').value = data;
+    if (scanSession.newlyRecognizedCodes.length == 1){
+        var data = scanSession.newlyRecognizedCodes[0].data;
+        $('input[scanable="true"]').value = data;
 
-    // svLog('scScanReceived', 'submitting now')
-    saveSubmitDueScan();
+        // svLog('scScanReceived', 'submitting now')
+        saveSubmitDueScan();
+
+    } else{
+        svLog('scScanReceived', 'Scandit scan receive problem. recognized codes len is not 1, it s ' + scanSession.newlyRecognizedCodes.length);
+        alert('Scandit scan receive problem. recognized codes len is not 1, it s ' + scanSession.newlyRecognizedCodes.length);
+
+    }
 }
 
 function scScanSubmit(){
     // issuing a scan, which in turn will fire
     // the scan conclusion then ... and submit
     // svLog('swScanSubmit', 'issuing a scan');
-
+    console.log('scScanSubmit() calling window.picker.show()');
+    window.picker.show(scScanReceived);
+    console.log('scScanSubmit() done, calling window.picker.startScanning()');
     window.picker.startScanning();
+    console.log('scScanSubmit() done, startScanning() called.');
 }
 
 function hwInitAfterDomReady(){
@@ -94,8 +100,6 @@ function hwInitAfterDomReady(){
                 // window.picker.getOverlayView().setViewfinderDimension(0.0, 0.5, 1.0, 0.5);
                 // window.picker.setMargins(new Scandit.Margins("0%","50%", "0%", "0%"), new Scandit.Margins("0%","50%", "0%", "0%"), 0);
                 window.picker.getOverlayView().setGuiStyle(Scandit.ScanOverlay.GuiStyle.LASER);
-                window.picker.show(scScanReceived);
-
 
                 if (svScanEnabled()) {
                     scEnableSoftScanButton(true);

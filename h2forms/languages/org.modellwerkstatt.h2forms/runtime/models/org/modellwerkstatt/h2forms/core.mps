@@ -8494,17 +8494,23 @@
                 <ref role="2S8YL0" node="2I8y5Kp2400" resolve="isPreventHtmlCaching" />
               </node>
             </node>
-            <node concept="2OqwBi" id="2462lDSohEu" role="37vLTx">
-              <node concept="2OqwBi" id="2462lDSoh0k" role="2Oq$k0">
-                <node concept="37vLTw" id="2462lDSogTj" role="2Oq$k0">
-                  <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-                </node>
-                <node concept="liA8E" id="2462lDSoh$X" role="2OqNvi">
-                  <ref role="37wK5l" to="1e0c:5YG5DD904R$" resolve="getAppTelemetrics" />
-                </node>
+            <node concept="22lmx$" id="2SRXiXAA81z" role="37vLTx">
+              <node concept="10M0yZ" id="2SRXiXAA8wj" role="3uHU7B">
+                <ref role="1PxDUh" to="28jr:7sK_OLreJFv" resolve="MoVersion" />
+                <ref role="3cqZAo" to="28jr:79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
               </node>
-              <node concept="liA8E" id="2462lDSoi43" role="2OqNvi">
-                <ref role="37wK5l" to="x37d:1S90xUtsT8k" resolve="isPreventHtmlCaching" />
+              <node concept="2OqwBi" id="2462lDSohEu" role="3uHU7w">
+                <node concept="2OqwBi" id="2462lDSoh0k" role="2Oq$k0">
+                  <node concept="37vLTw" id="2462lDSogTj" role="2Oq$k0">
+                    <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
+                  </node>
+                  <node concept="liA8E" id="2462lDSoh$X" role="2OqNvi">
+                    <ref role="37wK5l" to="1e0c:5YG5DD904R$" resolve="getAppTelemetrics" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2462lDSoi43" role="2OqNvi">
+                  <ref role="37wK5l" to="x37d:1S90xUtsT8k" resolve="isPreventHtmlCaching" />
+                </node>
               </node>
             </node>
           </node>
