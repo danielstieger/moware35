@@ -110,7 +110,10 @@ div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div
 .sv-edit-input-col-dis {line-height: 38px; border-bottom: 1px solid #FFF !important;}
 .sv-edit-input { border-bottom: 1px solid #009688 !important; line-height: 22px !important; }
 .sv-edit-select { height: 39px; background-color: #FFF !important; border-bottom: 1px solid #009688 !important; }
+
 .sv-multiline-edit-input-col-dis {line-height: 24px; border-bottom: 1px solid #FFF !important; }
+.sv-multiline-edit-label {color: #888 !important; text-align: right; padding-right: 24px;
+      line-height: 24px; border-bottom: 1px solid #FFF !important; font-weight: 600 !important;}
 
 body[class="sv-back-no-session"] div[class*="sv-editor"] {padding-bottom: 300px !important; }
 

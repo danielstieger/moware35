@@ -96,16 +96,38 @@ function hwInitAfterDomReady(){
 
 
 
-    // TODO: install key handlers
-    /* var capturekeyCallback = function (params){
-      var key = params['keyValue'];
-      svLog('capturekeyCallback', "Key is '" + key + "'.");
+    /*var capturekeyCallback = function (params){
+        var key = params['keyValue'];
+        svLog('capturekeyCallback', "Key is '" + key + "'.");
     }
     EB.KeyCapture.captureKey(false, 'all', capturekeyCallback); */
 
     var ignoreKeys = function (params){
     }
     EB.KeyCapture.captureKey(false, '0x04', ignoreKeys);
+
+
+    var keyCallBack = function(event) {
+        console.log('keyCallBack() KeyCode received ' + event.keyCode);
+        if (event.keyCode == 13) {
+            var allInputs = $$('input:enabled, select:enabled');
+            var next = false;
+            for (id in allInputs) {
+                if (next == true) {
+                    svFocusOnElem(allInputs[id]);
+                    break;
+                }
+                if (allInputs[id] == event.target) {
+                    next = true;
+                }
+            }
+
+            event.preventDefault();
+            return false;
+        }
+    }
+    $('body').addEventListener('keydown', keyCallBack);
+
 
     if (svScanEnabled()) {
         var isInit = sessionStorage.getItem("isEBInitialized");
