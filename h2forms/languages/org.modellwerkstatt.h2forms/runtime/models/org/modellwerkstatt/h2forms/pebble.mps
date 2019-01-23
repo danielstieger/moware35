@@ -12682,6 +12682,27 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7324YUt8CVI" role="jymVt" />
+    <node concept="3clFb_" id="6oBKRh56AWf" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setForcedNumericalEditor" />
+      <node concept="3cqZAl" id="6oBKRh56AWg" role="3clF45" />
+      <node concept="3Tm1VV" id="6oBKRh56AWh" role="1B3o_S" />
+      <node concept="3clFbS" id="6oBKRh56AWj" role="3clF47">
+        <node concept="3clFbF" id="6oBKRh56Bki" role="3cqZAp">
+          <node concept="37vLTI" id="6oBKRh56Bmz" role="3clFbG">
+            <node concept="3clFbT" id="6oBKRh56BnS" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="6oBKRh56BMX" role="37vLTJ">
+              <ref role="3cqZAo" node="2wfjZb3ppoL" resolve="useNumericKeyboard" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="6oBKRh56Ev2" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3clFb_" id="7324YUt8DsF" role="jymVt">
       <property role="TrG5h" value="isMultiLine" />
       <node concept="10P_77" id="7324YUt8DUM" role="3clF45" />
@@ -13621,6 +13642,13 @@
       <node concept="3cqZAl" id="46JJF8IMpiA" role="3clF45" />
       <node concept="3Tm1VV" id="46JJF8IMpiB" role="1B3o_S" />
       <node concept="3clFbS" id="46JJF8IMpiE" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="6oBKRh56CXq" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setForcedNumericalEditor" />
+      <node concept="3cqZAl" id="6oBKRh56CXr" role="3clF45" />
+      <node concept="3Tm1VV" id="6oBKRh56CXs" role="1B3o_S" />
+      <node concept="3clFbS" id="6oBKRh56CXt" role="3clF47" />
     </node>
     <node concept="3clFb_" id="12GNNnCCdch" role="jymVt">
       <property role="1EzhhJ" value="false" />

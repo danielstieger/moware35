@@ -1564,5 +1564,38 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="6oBKRh4IQ55">
+    <property role="3GE5qa" value="delegates.options" />
+    <ref role="1M2myG" to="1btx:6oBKRh4IQ4U" resolve="ForceNumericEditor" />
+    <node concept="nKS2y" id="6oBKRh4IQeq" role="1MLUbF">
+      <node concept="3clFbS" id="6oBKRh4IQer" role="2VODD2">
+        <node concept="3clFbF" id="6oBKRh4IQf1" role="3cqZAp">
+          <node concept="1Wc70l" id="6oBKRh4IQMn" role="3clFbG">
+            <node concept="2OqwBi" id="6oBKRh4IQQ2" role="3uHU7w">
+              <node concept="nLn13" id="6oBKRh4IQO7" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="6oBKRh4IQT1" role="2OqNvi">
+                <node concept="chp4Y" id="6oBKRh4IQU$" role="cj9EA">
+                  <ref role="cht4Q" to="1btx:1h$q6rwn4fM" resolve="StringDelegate" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="6oBKRh4IQf2" role="3uHU7B">
+              <node concept="2OqwBi" id="6oBKRh4IQf3" role="2Oq$k0">
+                <node concept="nLn13" id="6oBKRh4IQf4" role="2Oq$k0" />
+                <node concept="2Xjw5R" id="6oBKRh4IQf5" role="2OqNvi">
+                  <node concept="1xMEDy" id="6oBKRh4IQf6" role="1xVPHs">
+                    <node concept="chp4Y" id="6oBKRh4IQf7" role="ri$Ld">
+                      <ref role="cht4Q" to="1btx:6MSPLZmFnKF" resolve="DelegateForm" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3x8VRR" id="6oBKRh4IQf8" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
