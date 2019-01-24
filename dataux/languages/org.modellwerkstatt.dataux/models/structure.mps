@@ -958,6 +958,11 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="2qrl3a2LC$O" resolve="AppTile" />
     </node>
+    <node concept="1TJgyj" id="4h8GofeXdtB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tileInit" />
+      <ref role="20lvS9" node="4h8GofeXcDf" resolve="TileInitFunction" />
+    </node>
     <node concept="1TJgyj" id="2rqRJfqYMVo" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="infoWidget" />
@@ -1423,6 +1428,16 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6oBKRh4IQ4V" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4h8GofeXcDf">
+    <property role="1pbfSe" value="322796498" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="TileInitFunction" />
+    <property role="34LRSv" value="tileInit" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="4h8GofeXcEz" role="PzmwI">
+      <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
     </node>
   </node>
 </model>

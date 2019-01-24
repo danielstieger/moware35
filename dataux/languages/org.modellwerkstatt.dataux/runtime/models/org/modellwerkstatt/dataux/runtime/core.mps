@@ -7537,7 +7537,6 @@
               </node>
             </node>
             <node concept="3clFbH" id="2qrl3a2UkmO" role="3cqZAp" />
-            <node concept="3clFbH" id="2qrl3a2Ukr1" role="3cqZAp" />
             <node concept="3clFbF" id="6zVU6_jBKYZ" role="3cqZAp">
               <node concept="37vLTI" id="6zVU6_jBMPK" role="3clFbG">
                 <node concept="37vLTw" id="6zVU6_jBKYX" role="37vLTJ">
@@ -9516,70 +9515,23 @@
             <property role="3SKdUp" value="do not expose session to toolkit" />
           </node>
         </node>
-        <node concept="3clFbF" id="6zVU6_j$yXp" role="3cqZAp">
-          <node concept="2OqwBi" id="6zVU6_j$z6a" role="3clFbG">
-            <node concept="37vLTw" id="6zVU6_j$yXn" role="2Oq$k0">
-              <ref role="3cqZAo" node="6zVU6_j$mgZ" resolve="tileActions" />
+        <node concept="3clFbF" id="4h8GoffhwPF" role="3cqZAp">
+          <node concept="2OqwBi" id="4h8GoffhxdY" role="3clFbG">
+            <node concept="37vLTw" id="4h8GoffhwPD" role="2Oq$k0">
+              <ref role="3cqZAo" node="2ppo89mdSpM" resolve="applicationBehaviour" />
             </node>
-            <node concept="2es0OD" id="6zVU6_j$zqC" role="2OqNvi">
-              <node concept="1bVj0M" id="6zVU6_j$zqE" role="23t8la">
-                <node concept="3clFbS" id="6zVU6_j$zqF" role="1bW5cS">
-                  <node concept="3cpWs8" id="6zVU6_j$$tI" role="3cqZAp">
-                    <node concept="3cpWsn" id="6zVU6_j$$tL" role="3cpWs9">
-                      <property role="TrG5h" value="t" />
-                      <node concept="17QB3L" id="6zVU6_j$$tG" role="1tU5fm" />
-                      <node concept="2OqwBi" id="6zVU6_j$$NO" role="33vP2m">
-                        <node concept="37vLTw" id="6zVU6_j$$HL" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6zVU6_j$zqG" resolve="it" />
-                        </node>
-                        <node concept="liA8E" id="6zVU6_j$$U2" role="2OqNvi">
-                          <ref role="37wK5l" to="yg8v:6zVU6_jnID6" resolve="calcTileLabel" />
-                          <node concept="37vLTw" id="6zVU6_j$_gO" role="37wK5m">
-                            <ref role="3cqZAo" node="2qrl3a2ZxLK" resolve="tilesSession" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3clFbJ" id="6zVU6_j$_wf" role="3cqZAp">
-                    <node concept="3clFbS" id="6zVU6_j$_wh" role="3clFbx">
-                      <node concept="3clFbF" id="6zVU6_j$zw$" role="3cqZAp">
-                        <node concept="37vLTI" id="6zVU6_j$Age" role="3clFbG">
-                          <node concept="37vLTw" id="6zVU6_j$Am_" role="37vLTx">
-                            <ref role="3cqZAo" node="6zVU6_j$$tL" resolve="t" />
-                          </node>
-                          <node concept="2OqwBi" id="6zVU6_j$zTA" role="37vLTJ">
-                            <node concept="2OqwBi" id="6zVU6_j$z$2" role="2Oq$k0">
-                              <node concept="37vLTw" id="6zVU6_j$zwz" role="2Oq$k0">
-                                <ref role="3cqZAo" node="6zVU6_j$zqG" resolve="it" />
-                              </node>
-                              <node concept="liA8E" id="6zVU6_j$zLf" role="2OqNvi">
-                                <ref role="37wK5l" to="yg8v:6zVU6_jnJ5s" resolve="getAction" />
-                              </node>
-                            </node>
-                            <node concept="2OwXpG" id="6zVU6_j$$0x" role="2OqNvi">
-                              <ref role="2Oxat5" to="yg8v:Y3fiVJM08v" resolve="labelText" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3y3z36" id="6zVU6_j$_HH" role="3clFbw">
-                      <node concept="10Nm6u" id="6zVU6_j$_Po" role="3uHU7w" />
-                      <node concept="37vLTw" id="6zVU6_j$_BY" role="3uHU7B">
-                        <ref role="3cqZAo" node="6zVU6_j$$tL" resolve="t" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="Rh6nW" id="6zVU6_j$zqG" role="1bW2Oz">
-                  <property role="TrG5h" value="it" />
-                  <node concept="2jxLKc" id="6zVU6_j$zqH" role="1tU5fm" />
-                </node>
+            <node concept="liA8E" id="4h8Goffhxwy" role="2OqNvi">
+              <ref role="37wK5l" to="yg8v:4h8Goff2NxP" resolve="recalcTilesLabel" />
+              <node concept="37vLTw" id="4h8GoffhFgs" role="37wK5m">
+                <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
+              </node>
+              <node concept="37vLTw" id="4h8GoffhFEd" role="37wK5m">
+                <ref role="3cqZAo" node="2qrl3a2ZxLK" resolve="tilesSession" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="4h8GoffhwAr" role="3cqZAp" />
         <node concept="3SKdUt" id="6zVU6_jBUQ$" role="3cqZAp">
           <node concept="3SKdUq" id="6zVU6_jBUQA" role="3SKWNk">
             <property role="3SKdUp" value="always, even when size = 0 " />

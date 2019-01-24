@@ -294,6 +294,26 @@
         </node>
       </node>
     </node>
+    <node concept="3clFb_" id="4h8Goff2NxP" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="recalcTilesLabel" />
+      <node concept="37vLTG" id="4h8Goff3kr2" role="3clF46">
+        <property role="TrG5h" value="userEnvironment" />
+        <node concept="3uibUv" id="4h8Goff3kr3" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4h8Goff3kr4" role="3clF46">
+        <property role="TrG5h" value="session" />
+        <node concept="3uibUv" id="4h8Goff3kr5" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4h8Goff2NxQ" role="3clF47" />
+      <node concept="3Tm1VV" id="4h8Goff2NxR" role="1B3o_S" />
+      <node concept="3cqZAl" id="4h8Goff2N_g" role="3clF45" />
+    </node>
     <node concept="2tJIrI" id="1SuqpWQOJ92" role="jymVt" />
     <node concept="3clFb_" id="3sx4Hz319k9" role="jymVt">
       <property role="1EzhhJ" value="true" />
@@ -2623,7 +2643,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="6zVU6_jnID6" role="jymVt">
-      <property role="TrG5h" value="calcTileLabel" />
+      <property role="TrG5h" value="calcAndSetCurrentTileLabel" />
       <property role="1EzhhJ" value="true" />
       <node concept="37vLTG" id="2qrl3a2Q8bD" role="3clF46">
         <property role="TrG5h" value="__manMapSession" />
@@ -2631,8 +2651,8 @@
           <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
         </node>
       </node>
-      <node concept="17QB3L" id="6zVU6_jq8mN" role="3clF45" />
-      <node concept="3Tm1VV" id="6zVU6_jnID9" role="1B3o_S" />
+      <node concept="3cqZAl" id="4h8Goff3dkA" role="3clF45" />
+      <node concept="3Tm1VV" id="4h8Goff3pgj" role="1B3o_S" />
       <node concept="3clFbS" id="6zVU6_jnIDa" role="3clF47" />
     </node>
     <node concept="3clFb_" id="6zVU6_jnXp4" role="jymVt">

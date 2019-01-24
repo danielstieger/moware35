@@ -2134,7 +2134,7 @@
       <node concept="3F0ifn" id="6K73LRuXmMr" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2BbJI" role="3EZMnx" />
       <node concept="3F0ifn" id="1aaqwMInUi_" role="3EZMnx">
-        <property role="3F0ifm" value="local variables (currently not enbld!):" />
+        <property role="3F0ifm" value="local variables:" />
         <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
       </node>
       <node concept="3F2HdR" id="1aaqwMInUiA" role="3EZMnx">
@@ -2220,6 +2220,10 @@
         <property role="3F0ifm" value="tiles for this module:" />
         <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
       </node>
+      <node concept="3F1sOY" id="4h8GofeXdNL" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;tile init function&gt;" />
+        <ref role="1NtTu8" to="1btx:4h8GofeXdtB" />
+      </node>
       <node concept="3F2HdR" id="2qrl3a2LDff" role="3EZMnx">
         <ref role="1NtTu8" to="1btx:2qrl3a2LDec" />
         <node concept="2iRkQZ" id="2qrl3a2LDfg" role="2czzBx" />
@@ -2230,6 +2234,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="2qrl3a2LDfi" role="3EZMnx" />
+      <node concept="3F0ifn" id="4h8GofeXdQy" role="3EZMnx" />
       <node concept="3F0ifn" id="2rqRJfqYNhD" role="3EZMnx">
         <property role="3F0ifm" value="info widgets for this module:" />
         <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
