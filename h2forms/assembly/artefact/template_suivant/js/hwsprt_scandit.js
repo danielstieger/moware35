@@ -39,6 +39,8 @@ function scDisableScan(){
 
 function scScanReceived(scanSession){
 
+    console.log('scScanReceived() running scan pickers callback!');
+
     svDisableNavigation();
     scDisableScan();
 
@@ -47,6 +49,8 @@ function scScanReceived(scanSession){
         $('input[scanable="true"]').value = data;
 
         // svLog('scScanReceived', 'submitting now')
+
+        console.log('scScanReceived() DONE on this page - submitting page next via http.POST!');
         saveSubmitDueScan();
 
     } else{
@@ -64,7 +68,7 @@ function scScanSubmit(){
     window.picker.show(scScanReceived);
     console.log('scScanSubmit() done, calling window.picker.startScanning()');
     window.picker.startScanning();
-    console.log('scScanSubmit() done, startScanning() called.');
+    console.log('scScanSubmit() done, startScanning() called. . . . .');
 }
 
 
@@ -94,6 +98,7 @@ function scInitPicker() {
         window.picker.getOverlayView().setVibrateEnabled(true);
 
         if (svScanEnabled()) {
+            console.log('scInitPicker() picker initialized, scan button enabled.');
             scEnableSoftScanButton(true);
         }
 
@@ -110,15 +115,15 @@ function hwInitAfterDomReady(){
             var useNumericKeyboard = event.target.getAttribute('useNumericKeyboard');
 
     		if((nodeName == 'input' || nodeName == 'textarea') && useNumericKeyboard == null) {
-                console.log('scandit - use standard keyboard.')
+                // console.log('scandit - use standard keyboard.');
 
     		} else {
-    		    console.log('scandit - disable sip keyboard please.')
+    		    // console.log('scandit - disable sip keyboard please.');
     		}
     };
     document.body.addEventListener('focus', focusHandler, true); //Non-IE
 
-
+    console.log('hwInitAfterDomReady() dom is ready now. page reloaded. * * * * * * * * * * * * * * * * * * * * * * * ');
     if (!window.picker) {
         setTimeout(scInitPicker, 500);
         // svLog('hwInitAfterDomReady', 'initialized scandit picker. done.')

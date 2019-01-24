@@ -37,7 +37,7 @@ function svShow(elem) {
 }
 
 function svHideAllContainsDropdown() {
-  console.log('svHideAllContainsDropdown() called .... ');
+  // console.log('svHideAllContainsDropdown() called .... ');
   var wasDropdownAlso = false;
   $$('.w3-show').forEach(function(elem) {
     if (svIsDropdown(elem)) { 
