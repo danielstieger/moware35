@@ -33,7 +33,7 @@ function scEnableSoftScanButton(val){
 function scDisableScan(){
     // svLog('scDisableScan', 'scandit disableScan() called . . . .');
     if (svScanEnabled()) {
-        window.picker.cancel();
+        window.picker.stopScanning();
     }
 }
 
