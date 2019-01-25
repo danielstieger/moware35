@@ -769,8 +769,43 @@
                         <node concept="2ShNRf" id="5r27HhKAL9k" role="YScLw">
                           <node concept="1pGfFk" id="5r27HhKALJe" role="2ShVmc">
                             <ref role="37wK5l" to="28jr:2BAZOY0pIca" resolve="OFXIllegalChangeException" />
-                            <node concept="Xl_RD" id="5r27HhKALLC" role="37wK5m">
-                              <property role="Xl_RC" value="Changing values in read only entity is not allowed." />
+                            <node concept="3cpWs3" id="4y0AFSAbllK" role="37wK5m">
+                              <node concept="Xl_RD" id="4y0AFSAblFK" role="3uHU7w">
+                                <property role="Xl_RC" value="]" />
+                              </node>
+                              <node concept="3cpWs3" id="4y0AFSAbkwN" role="3uHU7B">
+                                <node concept="3cpWs3" id="4y0AFSAbgvD" role="3uHU7B">
+                                  <node concept="3cpWs3" id="4y0AFSAb9fW" role="3uHU7B">
+                                    <node concept="Xl_RD" id="5r27HhKALLC" role="3uHU7B">
+                                      <property role="Xl_RC" value="Changing values in read only entity is not allowed [new= " />
+                                    </node>
+                                    <node concept="3t17PB" id="4y0AFSAbfGz" role="3uHU7w" />
+                                  </node>
+                                  <node concept="Xl_RD" id="4y0AFSAbgS7" role="3uHU7w">
+                                    <property role="Xl_RC" value="], [was= " />
+                                  </node>
+                                </node>
+                                <node concept="37vLTw" id="4y0AFSAbkTF" role="3uHU7w">
+                                  <ref role="3cqZAo" node="2mU4kly3HyS" resolve="ofxInteger" />
+                                  <node concept="1ZhdrF" id="4y0AFSAbkTG" role="lGtFl">
+                                    <property role="2qtEX8" value="variableDeclaration" />
+                                    <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068498886296/1068581517664" />
+                                    <node concept="3$xsQk" id="4y0AFSAbkTH" role="3$ytzL">
+                                      <node concept="3clFbS" id="4y0AFSAbkTI" role="2VODD2">
+                                        <node concept="3clFbF" id="4y0AFSAbkTJ" role="3cqZAp">
+                                          <node concept="2OqwBi" id="4y0AFSAbkTK" role="3clFbG">
+                                            <node concept="1iwH7S" id="4y0AFSAbkTL" role="2Oq$k0" />
+                                            <node concept="1iwH70" id="4y0AFSAbkTM" role="2OqNvi">
+                                              <ref role="1iwH77" node="1ejJFIuETYP" resolve="OFXField" />
+                                              <node concept="30H73N" id="4y0AFSAbkTN" role="1iwH7V" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
