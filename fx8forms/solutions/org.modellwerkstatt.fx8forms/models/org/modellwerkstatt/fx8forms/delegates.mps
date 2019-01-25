@@ -10993,17 +10993,22 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="3clFbF" id="2H7OQEG6efw" role="3cqZAp">
-                          <node concept="1rXfSq" id="2H7OQEG6efu" role="3clFbG">
-                            <ref role="37wK5l" node="4n24ZlETfD$" resolve="showCompletionAndBindIfPossible" />
-                            <node concept="3clFbT" id="2H7OQEG6ejs" role="37wK5m">
-                              <property role="3clFbU" value="false" />
+                        <node concept="3SKdUt" id="1v6GfuscDAb" role="3cqZAp">
+                          <node concept="3SKdUq" id="1v6GfuscDAd" role="3SKWNk">
+                            <property role="3SKdUp" value="Introduced with MRS Plugin, after reported bug " />
+                          </node>
+                        </node>
+                        <node concept="3clFbF" id="1v6GfuscDuD" role="3cqZAp">
+                          <node concept="2OqwBi" id="1v6GfuscDuE" role="3clFbG">
+                            <node concept="37vLTw" id="1v6GfuscDuF" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4n24ZlETfv5" resolve="popup" />
                             </node>
-                            <node concept="3clFbT" id="2H7OQEG6el9" role="37wK5m">
-                              <property role="3clFbU" value="true" />
+                            <node concept="liA8E" id="1v6GfuscDuG" role="2OqNvi">
+                              <ref role="37wK5l" to="zsw4:~PopupWindow.hide():void" resolve="hide" />
                             </node>
                           </node>
                         </node>
+                        <node concept="3clFbH" id="1v6Gfusgik7" role="3cqZAp" />
                       </node>
                     </node>
                     <node concept="3uibUv" id="2H7OQEG5ZNF" role="2Ghqu4">
