@@ -4610,7 +4610,7 @@
       </node>
     </node>
     <node concept="2YIFZL" id="FaoLX6iqRd" role="jymVt">
-      <property role="TrG5h" value="isReference" />
+      <property role="TrG5h" value="isEntityReference" />
       <node concept="37vLTG" id="FaoLX6iqRi" role="3clF46">
         <property role="TrG5h" value="t" />
         <node concept="3Tqbb2" id="FaoLX6iqRk" role="1tU5fm">
