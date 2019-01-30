@@ -10800,7 +10800,7 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="1w5LdygnqrR" role="3cqZAp" />
+            <node concept="3clFbH" id="3RUln167UbB" role="3cqZAp" />
             <node concept="3clFbJ" id="6lryfQFaw54" role="3cqZAp">
               <node concept="3clFbS" id="6lryfQFaw55" role="3clFbx">
                 <node concept="YS8fn" id="3g5RX4qSeOo" role="3cqZAp">
@@ -15403,12 +15403,22 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="3RUln15qmr0" role="3clFbw">
-            <node concept="37vLTw" id="3RUln15qmgI" role="2Oq$k0">
-              <ref role="3cqZAo" node="4wvbHtt1N76" resolve="__manMapSession" />
+          <node concept="1Wc70l" id="3RUln16jzrI" role="3clFbw">
+            <node concept="3fqX7Q" id="3RUln16j$PS" role="3uHU7w">
+              <node concept="2OqwBi" id="3RUln16j$PU" role="3fr31v">
+                <node concept="Xjq3P" id="3RUln16j$PV" role="2Oq$k0" />
+                <node concept="liA8E" id="3RUln16j$PW" role="2OqNvi">
+                  <ref role="37wK5l" node="6qsy3WVQom3" resolve="hasSuccessorCommand" />
+                </node>
+              </node>
             </node>
-            <node concept="liA8E" id="3RUln15qn3$" role="2OqNvi">
-              <ref role="37wK5l" to="w7gk:3_5k9VmQvru" resolve="isReadOnly" />
+            <node concept="2OqwBi" id="3RUln15qmr0" role="3uHU7B">
+              <node concept="37vLTw" id="3RUln15qmgI" role="2Oq$k0">
+                <ref role="3cqZAo" node="4wvbHtt1N76" resolve="__manMapSession" />
+              </node>
+              <node concept="liA8E" id="3RUln15qn3$" role="2OqNvi">
+                <ref role="37wK5l" to="w7gk:3_5k9VmQvru" resolve="isReadOnly" />
+              </node>
             </node>
           </node>
           <node concept="9aQIb" id="3RUln15sCoX" role="9aQIa">

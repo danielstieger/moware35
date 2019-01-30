@@ -27771,6 +27771,25 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="cMAJ_MgMmQ" role="3cqZAp" />
+                <node concept="3clFbF" id="3RUln16fFzW" role="3cqZAp">
+                  <node concept="2OqwBi" id="3RUln16fFzT" role="3clFbG">
+                    <node concept="10M0yZ" id="3RUln16fFzU" role="2Oq$k0">
+                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                      <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                    </node>
+                    <node concept="liA8E" id="3RUln16fFzV" role="2OqNvi">
+                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                      <node concept="3cpWs3" id="3RUln16fGxs" role="37wK5m">
+                        <node concept="37vLTw" id="3RUln16fGOj" role="3uHU7w">
+                          <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
+                        </node>
+                        <node concept="Xl_RD" id="3RUln16fGsf" role="3uHU7B">
+                          <property role="Xl_RC" value="EV " />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3SKdUt" id="6LCrX7JBrVs" role="3cqZAp">
                   <node concept="3SKdUq" id="6LCrX7JBrVu" role="3SKWNk">
                     <property role="3SKdUp" value="logging purpose" />
@@ -27816,21 +27835,31 @@
                     </node>
                   </node>
                   <node concept="3eNFk2" id="39R747tvCcu" role="3eNLev">
-                    <node concept="22lmx$" id="39R747tvDcc" role="3eO9$A">
-                      <node concept="2ZW3vV" id="39R747tvDs7" role="3uHU7w">
-                        <node concept="3uibUv" id="39R747tvDFC" role="2ZW6by">
-                          <ref role="3uigEE" node="zBgVaD6kSK" resolve="FocusEvent" />
+                    <node concept="22lmx$" id="3RUln16fRLk" role="3eO9$A">
+                      <node concept="2ZW3vV" id="3RUln16fS6V" role="3uHU7w">
+                        <node concept="3uibUv" id="3RUln16fSoW" role="2ZW6by">
+                          <ref role="3uigEE" node="1LBGCxvJ9W6" resolve="CloseContainerEvent" />
                         </node>
-                        <node concept="37vLTw" id="39R747tvDqV" role="2ZW6bz">
+                        <node concept="37vLTw" id="3RUln16fS3f" role="2ZW6bz">
                           <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
                         </node>
                       </node>
-                      <node concept="2ZW3vV" id="39R747tvCHW" role="3uHU7B">
-                        <node concept="3uibUv" id="39R747tvCWm" role="2ZW6by">
-                          <ref role="3uigEE" node="zBgVaD6gWS" resolve="ReevalEvent" />
+                      <node concept="22lmx$" id="39R747tvDcc" role="3uHU7B">
+                        <node concept="2ZW3vV" id="39R747tvCHW" role="3uHU7B">
+                          <node concept="3uibUv" id="39R747tvCWm" role="2ZW6by">
+                            <ref role="3uigEE" node="zBgVaD6gWS" resolve="ReevalEvent" />
+                          </node>
+                          <node concept="37vLTw" id="39R747tvCuV" role="2ZW6bz">
+                            <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
+                          </node>
                         </node>
-                        <node concept="37vLTw" id="39R747tvCuV" role="2ZW6bz">
-                          <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
+                        <node concept="2ZW3vV" id="39R747tvDs7" role="3uHU7w">
+                          <node concept="3uibUv" id="39R747tvDFC" role="2ZW6by">
+                            <ref role="3uigEE" node="zBgVaD6kSK" resolve="FocusEvent" />
+                          </node>
+                          <node concept="37vLTw" id="39R747tvDqV" role="2ZW6bz">
+                            <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -27840,7 +27869,12 @@
                           <property role="3SKdUp" value="do not report those events. " />
                         </node>
                       </node>
-                      <node concept="3clFbH" id="39R747tvE9k" role="3cqZAp" />
+                      <node concept="3SKdUt" id="3RUln16fSW1" role="3cqZAp">
+                        <node concept="3SKdUq" id="3RUln16fSW3" role="3SKWNk">
+                          <property role="3SKdUp" value="close container event additionally, since uiFactory is null anyway. " />
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="3RUln16fSEr" role="3cqZAp" />
                     </node>
                   </node>
                   <node concept="3eNFk2" id="2YKZ3if90Aq" role="3eNLev">
@@ -27885,7 +27919,7 @@
                     <node concept="1Wc70l" id="66oHjdj_VIp" role="3eO9$A">
                       <node concept="3y3z36" id="66oHjdj_Wng" role="3uHU7B">
                         <node concept="10Nm6u" id="66oHjdj_WoJ" role="3uHU7w" />
-                        <node concept="37vLTw" id="66oHjdj_W3S" role="3uHU7B">
+                        <node concept="37vLTw" id="3RUln16fTFa" role="3uHU7B">
                           <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
                         </node>
                       </node>
