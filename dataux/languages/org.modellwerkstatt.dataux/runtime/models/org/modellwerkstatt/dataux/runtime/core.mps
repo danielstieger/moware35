@@ -12136,6 +12136,36 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="3RUln15qrbu" role="3cqZAp" />
+        <node concept="3clFbJ" id="3RUln15qwvu" role="3cqZAp">
+          <node concept="3clFbS" id="3RUln15qwvw" role="3clFbx">
+            <node concept="3clFbF" id="3RUln15qHse" role="3cqZAp">
+              <node concept="2OqwBi" id="3RUln15qHsP" role="3clFbG">
+                <node concept="Xjq3P" id="3RUln15qHsc" role="2Oq$k0" />
+                <node concept="liA8E" id="3RUln15qHvK" role="2OqNvi">
+                  <ref role="37wK5l" node="7b0Ejx_yqRf" resolve="receive" />
+                  <node concept="2ShNRf" id="3RUln15qHIJ" role="37wK5m">
+                    <node concept="1pGfFk" id="3RUln15qQrm" role="2ShVmc">
+                      <ref role="37wK5l" node="1LBGCxvJ9Wk" resolve="CloseContainerEvent" />
+                      <node concept="Xl_RD" id="3RUln15qRyh" role="37wK5m">
+                        <property role="Xl_RC" value="user canceled due to ro-session and no page present" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="3RUln15qRL8" role="3cqZAp" />
+          </node>
+          <node concept="2OqwBi" id="3RUln15qCSg" role="3clFbw">
+            <node concept="37vLTw" id="3RUln15q$JQ" role="2Oq$k0">
+              <ref role="3cqZAo" node="7aUgYCzl1hk" resolve="command" />
+            </node>
+            <node concept="liA8E" id="3RUln15qHq0" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:1HDSUXwnQpO" resolve="isUserCancelTerminated" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="3GQ300Qw8ih" role="3cqZAp" />
         <node concept="3clFbH" id="3EJ222E2iDu" role="3cqZAp" />
         <node concept="3SKdUt" id="5I8HAEt6dzC" role="3cqZAp">
