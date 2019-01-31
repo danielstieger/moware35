@@ -471,6 +471,7 @@
       <concept id="1146171026731" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" flags="nn" index="3t7uKx">
         <child id="1146171026732" name="value" index="3t7uKA" />
       </concept>
+      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -3861,6 +3862,37 @@
       <node concept="3F0ifn" id="3g5RX4qSv3Q" role="3EZMnx">
         <property role="3F0ifm" value=" //run page init" />
         <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+      </node>
+      <node concept="3EZMnI" id="2_YacpKx0H5" role="3EZMnx">
+        <node concept="VPM3Z" id="2_YacpKx0H7" role="3F10Kt">
+          <property role="VOm3f" value="false" />
+        </node>
+        <node concept="3F0ifn" id="2_YacpKx0Df" role="3EZMnx">
+          <property role="3F0ifm" value=" //then show flagMsg (if not null)" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
+        </node>
+        <node concept="3F1sOY" id="2_YacpKx0Fl" role="3EZMnx">
+          <ref role="1NtTu8" to="un0u:2_YacpKx0lq" />
+        </node>
+        <node concept="l2Vlx" id="2_YacpKx0Ha" role="2iSdaV" />
+        <node concept="pVoyu" id="2_YacpKx0I1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pkWqt" id="2_YacpKx0Iw" role="pqm2j">
+          <node concept="3clFbS" id="2_YacpKx0Ix" role="2VODD2">
+            <node concept="3clFbF" id="2_YacpKxeHk" role="3cqZAp">
+              <node concept="2OqwBi" id="2_YacpKxf81" role="3clFbG">
+                <node concept="2OqwBi" id="2_YacpKxeLF" role="2Oq$k0">
+                  <node concept="pncrf" id="2_YacpKxeHj" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="2_YacpKxeVS" role="2OqNvi">
+                    <ref role="3Tt5mk" to="un0u:2_YacpKx0lq" />
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="2_YacpKxfen" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

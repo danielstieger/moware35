@@ -5841,5 +5841,53 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="2_YacpKxidm">
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="AddFlagTextPageCommand" />
+    <ref role="2ZfgGC" to="un0u:1Csx3Lqx5LQ" resolve="PageCommand" />
+    <node concept="2S6ZIM" id="2_YacpKxidn" role="2ZfVej">
+      <node concept="3clFbS" id="2_YacpKxido" role="2VODD2">
+        <node concept="3clFbF" id="2_YacpKxiwI" role="3cqZAp">
+          <node concept="Xl_RD" id="2_YacpKxiwH" role="3clFbG">
+            <property role="Xl_RC" value="Add a flag-text to this page statement." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="2_YacpKxidp" role="2ZfgGD">
+      <node concept="3clFbS" id="2_YacpKxidq" role="2VODD2">
+        <node concept="3clFbF" id="2_YacpKxjbM" role="3cqZAp">
+          <node concept="2OqwBi" id="2_YacpKxjvn" role="3clFbG">
+            <node concept="2OqwBi" id="2_YacpKxjeS" role="2Oq$k0">
+              <node concept="2Sf5sV" id="2_YacpKxjbK" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2_YacpKxjmJ" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:2_YacpKx0lq" />
+              </node>
+            </node>
+            <node concept="2DeJnY" id="2_YacpKxjz$" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="2_YacpKxiG6" role="2ZfVeh">
+      <node concept="3clFbS" id="2_YacpKxiG7" role="2VODD2">
+        <node concept="3clFbF" id="2_YacpKxiHm" role="3cqZAp">
+          <node concept="2OqwBi" id="2_YacpKxj1I" role="3clFbG">
+            <node concept="2OqwBi" id="2_YacpKxiLH" role="2Oq$k0">
+              <node concept="2Sf5sV" id="2_YacpKxiHl" role="2Oq$k0" />
+              <node concept="2Xjw5R" id="2_YacpKxiU_" role="2OqNvi">
+                <node concept="1xMEDy" id="2_YacpKxiUB" role="1xVPHs">
+                  <node concept="chp4Y" id="2_YacpKxiW_" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3x8VRR" id="2_YacpKxj9g" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

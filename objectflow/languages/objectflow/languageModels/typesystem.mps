@@ -13711,5 +13711,84 @@
       <ref role="1YaFvo" to="un0u:35a9wK7WMy0" resolve="Identity" />
     </node>
   </node>
+  <node concept="1YbPZF" id="2_YacpKx0m6">
+    <property role="TrG5h" value="typeof_PageCommand" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <node concept="3clFbS" id="2_YacpKx0m7" role="18ibNy">
+      <node concept="1Z5TYs" id="2_YacpKx0_k" role="3cqZAp">
+        <node concept="mw_s8" id="2_YacpKx0_U" role="1ZfhKB">
+          <node concept="2c44tf" id="2_YacpKx0_Q" role="mwGJk">
+            <node concept="17QB3L" id="2_YacpKx0Ar" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="2_YacpKx0_n" role="1ZfhK$">
+          <node concept="1Z2H0r" id="2_YacpKx0mr" role="mwGJk">
+            <node concept="2OqwBi" id="2_YacpKx0qK" role="1Z2MuG">
+              <node concept="1YBJjd" id="2_YacpKx0np" role="2Oq$k0">
+                <ref role="1YBMHb" node="2_YacpKx0m9" resolve="pageCommand" />
+              </node>
+              <node concept="3TrEf2" id="2_YacpKx0yS" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:2_YacpKx0lq" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2_YacpKx0m9" role="1YuTPh">
+      <property role="TrG5h" value="pageCommand" />
+      <ref role="1YaFvo" to="un0u:1Csx3Lqx5LQ" resolve="PageCommand" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="2_YacpKxgWK">
+    <property role="TrG5h" value="check_PageCommand" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <node concept="3clFbS" id="2_YacpKxgWL" role="18ibNy">
+      <node concept="3clFbJ" id="2_YacpKxgXj" role="3cqZAp">
+        <node concept="1Wc70l" id="2_YacpKxhva" role="3clFbw">
+          <node concept="2OqwBi" id="2_YacpKxhQC" role="3uHU7w">
+            <node concept="2OqwBi" id="2_YacpKxh_v" role="2Oq$k0">
+              <node concept="1YBJjd" id="2_YacpKxhxB" role="2Oq$k0">
+                <ref role="1YBMHb" node="2_YacpKxgWN" resolve="pageCommand" />
+              </node>
+              <node concept="2Xjw5R" id="2_YacpKxhJ8" role="2OqNvi">
+                <node concept="1xMEDy" id="2_YacpKxhJa" role="1xVPHs">
+                  <node concept="chp4Y" id="2_YacpKxhL_" role="ri$Ld">
+                    <ref role="cht4Q" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3w_OXm" id="2_YacpKxi4u" role="2OqNvi" />
+          </node>
+          <node concept="2OqwBi" id="2_YacpKxhjh" role="3uHU7B">
+            <node concept="2OqwBi" id="2_YacpKxh1P" role="2Oq$k0">
+              <node concept="1YBJjd" id="2_YacpKxgY8" role="2Oq$k0">
+                <ref role="1YBMHb" node="2_YacpKxgWN" resolve="pageCommand" />
+              </node>
+              <node concept="3TrEf2" id="2_YacpKxha1" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:2_YacpKx0lq" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="2_YacpKxhq6" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3clFbS" id="2_YacpKxgXl" role="3clFbx">
+          <node concept="2MkqsV" id="2_YacpKxi7e" role="3cqZAp">
+            <node concept="Xl_RD" id="2_YacpKxi7x" role="2MkJ7o">
+              <property role="Xl_RC" value="You can not pass a flag-text to the page statement when not used within a page conclusion." />
+            </node>
+            <node concept="1YBJjd" id="2_YacpKxica" role="2OEOjV">
+              <ref role="1YBMHb" node="2_YacpKxgWN" resolve="pageCommand" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="2_YacpKxgWN" role="1YuTPh">
+      <property role="TrG5h" value="pageCommand" />
+      <ref role="1YaFvo" to="un0u:1Csx3Lqx5LQ" resolve="PageCommand" />
+    </node>
+  </node>
 </model>
 
