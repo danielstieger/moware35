@@ -4071,17 +4071,6 @@
     <property role="3GE5qa" value="OFXCore.command.eventHandler" />
     <property role="TrG5h" value="IPageEventHandler" />
   </node>
-  <node concept="1TIwiD" id="7HkVpVcIOzH">
-    <property role="1pbfSe" value="1209022091" />
-    <property role="3GE5qa" value="OFXCore.command.eventHandler" />
-    <property role="TrG5h" value="GlobalUpdateHandler" />
-    <property role="34LRSv" value="Update Event" />
-    <property role="R4oN_" value="entity created updated" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="7HkVpVcNO_X" role="PzmwI">
-      <ref role="PrY4T" node="7HkVpVcFgBy" resolve="IPageEventHandler" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="1nLGXVrWsoS">
     <property role="1pbfSe" value="236750314" />
     <property role="3GE5qa" value="OFXTest.statements" />

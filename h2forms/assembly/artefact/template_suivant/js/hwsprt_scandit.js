@@ -75,8 +75,8 @@ function scScanSubmit(){
 function scInitPicker() {
 
      if (window.Scandit == undefined) {
-        setTimeout(scInitPicker, 500);
-        console.log('scInitPicker() scandit API not ready, delaying init for another 500ms.')
+        setTimeout(scInitPicker, 200);
+        console.log('scInitPicker() scandit API not ready, delaying init for another 200ms.')
         return;
      }
 
@@ -125,7 +125,7 @@ function hwInitAfterDomReady(){
 
     console.log('hwInitAfterDomReady() dom is ready now. page reloaded. * * * * * * * * * * * * * * * * * * * * * * * ');
     if (!window.picker) {
-        setTimeout(scInitPicker, 500);
+        setTimeout(scInitPicker, 200);
         // svLog('hwInitAfterDomReady', 'initialized scandit picker. done.')
 
     } else {
@@ -142,11 +142,9 @@ function hwInternVibrate(t){
 
 }
 
-
 function hwFlagBeep(t){
 
 }
-
 
 function hwExit(){
 

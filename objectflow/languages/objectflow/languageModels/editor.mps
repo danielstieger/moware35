@@ -1940,7 +1940,7 @@
           <node concept="3clFbS" id="6hacA6tTJwy" role="2VODD2">
             <node concept="3clFbF" id="6hacA6tTLF6" role="3cqZAp">
               <node concept="2YIFZM" id="6hacA6tTLF8" role="3clFbG">
-                <ref role="37wK5l" to="3ojc:FaoLX6iqRd" resolve="isReference" />
+                <ref role="37wK5l" to="3ojc:FaoLX6iqRd" resolve="isEntityReference" />
                 <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
                 <node concept="2OqwBi" id="6hacA6tTLFm" role="37wK5m">
                   <node concept="2OqwBi" id="6hacA6tTLFc" role="2Oq$k0">
@@ -10741,21 +10741,6 @@
           <ref role="1k5W1q" node="6ffh1MXBJSj" resolve="O2Name" />
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="7HkVpVcNOAi">
-    <property role="3GE5qa" value="OFXCore.command.eventHandler" />
-    <ref role="1XX52x" to="un0u:7HkVpVcIOzH" resolve="GlobalUpdateHandler" />
-    <node concept="3EZMnI" id="7HkVpVcNOEP" role="2wV5jI">
-      <node concept="3F0ifn" id="7HkVpVcNOEQ" role="3EZMnx">
-        <property role="3F0ifm" value="on global update of" />
-        <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
-      </node>
-      <node concept="3F0ifn" id="7HkVpVcNOES" role="3EZMnx">
-        <property role="3F0ifm" value="..." />
-        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
-      </node>
-      <node concept="l2Vlx" id="7HkVpVcNOF2" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="35a9wK7WMya">
