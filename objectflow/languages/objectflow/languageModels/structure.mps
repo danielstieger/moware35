@@ -1094,18 +1094,6 @@
       <property role="20kJfa" value="enabledExpression" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
-    <node concept="1TJgyj" id="OmBzHGq6ok" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="roleReference" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1Csx3LqBLit" resolve="ConditionReference" />
-    </node>
-    <node concept="1TJgyj" id="11hNSr_9JtB" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="roleReferenceReadOnly" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1Csx3LqBLit" resolve="ConditionReference" />
-    </node>
     <node concept="1TJgyj" id="2ylNKzJFBoA" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="permRoleReference" />

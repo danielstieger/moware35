@@ -390,6 +390,7 @@
       <concept id="1202120902084" name="jetbrains.mps.baseLanguage.collections.structure.WhereOperation" flags="nn" index="3zZkjj" />
       <concept id="1202128969694" name="jetbrains.mps.baseLanguage.collections.structure.SelectOperation" flags="nn" index="3$u5V9" />
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
+      <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
     </language>
   </registry>
   <node concept="1YbPZF" id="f6irPlxvru">
@@ -3582,66 +3583,74 @@
     <property role="TrG5h" value="check_Transition" />
     <property role="3GE5qa" value="OFXCore.process" />
     <node concept="3clFbS" id="5bU9G119zRk" role="18ibNy">
-      <node concept="3clFbJ" id="5bU9G119zRm" role="3cqZAp">
-        <node concept="2OqwBi" id="5bU9G119zRA" role="3clFbw">
-          <node concept="2OqwBi" id="5bU9G119zRs" role="2Oq$k0">
-            <node concept="1YBJjd" id="5bU9G119zRp" role="2Oq$k0">
-              <ref role="1YBMHb" node="5bU9G119zRl" resolve="t" />
-            </node>
-            <node concept="3Tsc0h" id="5bU9G119zRy" role="2OqNvi">
-              <ref role="3TtcxE" to="un0u:OmBzHGq6ok" />
-            </node>
-          </node>
-          <node concept="2HwmR7" id="5bU9G119zRF" role="2OqNvi">
-            <node concept="1bVj0M" id="5bU9G119zRG" role="23t8la">
-              <node concept="3clFbS" id="5bU9G119zRH" role="1bW5cS">
-                <node concept="3clFbF" id="5bU9G119_jI" role="3cqZAp">
-                  <node concept="3fqX7Q" id="5bU9G119_k9" role="3clFbG">
-                    <node concept="2OqwBi" id="5bU9G119_jM" role="3fr31v">
-                      <node concept="2OqwBi" id="5bU9G119_jY" role="2Oq$k0">
-                        <node concept="37vLTw" id="6svR_JBEO3b" role="2Oq$k0">
-                          <ref role="3cqZAo" node="5bU9G119zRI" resolve="it" />
-                        </node>
-                        <node concept="3TrEf2" id="5bU9G119_k4" role="2OqNvi">
-                          <ref role="3Tt5mk" to="un0u:1Csx3LqBLiu" />
+      <node concept="3clFbJ" id="3RUln16bMei" role="3cqZAp">
+        <node concept="3clFbS" id="3RUln16bMek" role="3clFbx">
+          <node concept="3clFbF" id="1o139e20rxW" role="3cqZAp">
+            <node concept="2OqwBi" id="1o139e205WO" role="3clFbG">
+              <node concept="2OqwBi" id="1o139e20513" role="2Oq$k0">
+                <node concept="1YBJjd" id="1o139e204Zz" role="2Oq$k0">
+                  <ref role="1YBMHb" node="5bU9G119zRl" resolve="t" />
+                </node>
+                <node concept="3Tsc0h" id="1o139e205hw" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:2ylNKzJFBoA" />
+                </node>
+              </node>
+              <node concept="2es0OD" id="1o139e208nO" role="2OqNvi">
+                <node concept="1bVj0M" id="1o139e208nQ" role="23t8la">
+                  <node concept="3clFbS" id="1o139e208nR" role="1bW5cS">
+                    <node concept="3clFbJ" id="1o139e20iKd" role="3cqZAp">
+                      <node concept="3clFbS" id="1o139e20iKf" role="3clFbx">
+                        <node concept="3SKdUt" id="1o139e20pEM" role="3cqZAp">
+                          <node concept="3SKdUq" id="1o139e20pEO" role="3SKWNk">
+                            <property role="3SKdUp" value="okay, this is a disabled condition" />
+                          </node>
                         </node>
                       </node>
-                      <node concept="1mIQ4w" id="5bU9G119_jS" role="2OqNvi">
-                        <node concept="chp4Y" id="5bU9G119_k5" role="cj9EA">
-                          <ref role="cht4Q" to="un0u:OmBzHGou9H" resolve="Role" />
+                      <node concept="2OqwBi" id="1o139e20jNh" role="3clFbw">
+                        <node concept="2OqwBi" id="1o139e20nbf" role="2Oq$k0">
+                          <node concept="2OqwBi" id="1o139e20iRq" role="2Oq$k0">
+                            <node concept="1YBJjd" id="1o139e20iO3" role="2Oq$k0">
+                              <ref role="1YBMHb" node="5bU9G119zRl" resolve="t" />
+                            </node>
+                            <node concept="3Tsc0h" id="1o139e20j6w" role="2OqNvi">
+                              <ref role="3TtcxE" to="un0u:2ylNKzJFBoH" />
+                            </node>
+                          </node>
+                          <node concept="13MTOL" id="1o139e20p_W" role="2OqNvi">
+                            <ref role="13MTZf" to="un0u:4Wj1gYHiHe_" />
+                          </node>
+                        </node>
+                        <node concept="3JPx81" id="1o139e20mcU" role="2OqNvi">
+                          <node concept="2OqwBi" id="1o139e20mo6" role="25WWJ7">
+                            <node concept="37vLTw" id="1o139e20mho" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1o139e208nS" resolve="it" />
+                            </node>
+                            <node concept="3TrEf2" id="1o139e20myq" role="2OqNvi">
+                              <ref role="3Tt5mk" to="un0u:4Wj1gYHiHe_" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="9aQIb" id="1o139e20qoe" role="9aQIa">
+                        <node concept="3clFbS" id="1o139e20qof" role="9aQI4">
+                          <node concept="2MkqsV" id="3RUln16bXyB" role="3cqZAp">
+                            <node concept="Xl_RD" id="3RUln16bXyX" role="2MkJ7o">
+                              <property role="Xl_RC" value="This might be a problem: R/O or R/W roles can only be applied to session owner commands, since session state will be change." />
+                            </node>
+                            <node concept="1YBJjd" id="3RUln16bXD1" role="2OEOjV">
+                              <ref role="1YBMHb" node="5bU9G119zRl" resolve="t" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
                   </node>
+                  <node concept="Rh6nW" id="1o139e208nS" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="1o139e208nT" role="1tU5fm" />
+                  </node>
                 </node>
               </node>
-              <node concept="Rh6nW" id="5bU9G119zRI" role="1bW2Oz">
-                <property role="TrG5h" value="it" />
-                <node concept="2jxLKc" id="5bU9G119zRJ" role="1tU5fm" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbS" id="5bU9G119zRo" role="3clFbx">
-          <node concept="2MkqsV" id="5bU9G119_kb" role="3cqZAp">
-            <node concept="1YBJjd" id="5bU9G119_kf" role="2OEOjV">
-              <ref role="1YBMHb" node="5bU9G119zRl" resolve="t" />
-            </node>
-            <node concept="Xl_RD" id="5bU9G119_ke" role="2MkJ7o">
-              <property role="Xl_RC" value="Only roles are allowed as role conditions." />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbH" id="3RUln16bM8q" role="3cqZAp" />
-      <node concept="3clFbJ" id="3RUln16bMei" role="3cqZAp">
-        <node concept="3clFbS" id="3RUln16bMek" role="3clFbx">
-          <node concept="2MkqsV" id="3RUln16bXyB" role="3cqZAp">
-            <node concept="Xl_RD" id="3RUln16bXyX" role="2MkJ7o">
-              <property role="Xl_RC" value="R/O or R/W roles can only be applied to session owner commands, since session state will be change." />
-            </node>
-            <node concept="1YBJjd" id="3RUln16bXD1" role="2OEOjV">
-              <ref role="1YBMHb" node="5bU9G119zRl" resolve="t" />
             </node>
           </node>
         </node>

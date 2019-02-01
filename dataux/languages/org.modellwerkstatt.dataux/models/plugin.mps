@@ -4541,7 +4541,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="7wNjWSaKGh0" role="3cqZAp" />
+                  <node concept="3clFbH" id="1o139e1IoZJ" role="3cqZAp" />
                   <node concept="3clFbF" id="7ojk6m61E8N" role="3cqZAp">
                     <node concept="2OqwBi" id="7ojk6m61ElJ" role="3clFbG">
                       <node concept="37vLTw" id="7ojk6m61E8L" role="2Oq$k0">
@@ -4566,6 +4566,7 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="1o139e1Io3v" role="3cqZAp" />
                   <node concept="3clFbF" id="7wNjWSaKH0e" role="3cqZAp">
                     <node concept="2OqwBi" id="7wNjWSaKH0f" role="3clFbG">
                       <node concept="37vLTw" id="7wNjWSaL36E" role="2Oq$k0">
@@ -4680,23 +4681,12 @@
                                 </node>
                               </node>
                               <node concept="22lmx$" id="1XzaP_Oru7U" role="3clFbw">
-                                <node concept="2OqwBi" id="1XzaP_OruEq" role="3uHU7w">
-                                  <node concept="37vLTw" id="1XzaP_Orupf" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="1XzaP_Orrsi" resolve="modName" />
-                                  </node>
-                                  <node concept="liA8E" id="1XzaP_Orv5j" role="2OqNvi">
-                                    <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
-                                    <node concept="Xl_RD" id="1XzaP_Orvm$" role="37wK5m">
-                                      <property role="Xl_RC" value="fopland" />
-                                    </node>
-                                  </node>
-                                </node>
                                 <node concept="22lmx$" id="7wNjWSaLB_9" role="3uHU7B">
                                   <node concept="2OqwBi" id="7wNjWSaLAh0" role="3uHU7B">
                                     <node concept="liA8E" id="7wNjWSaLAAV" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
+                                      <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                                       <node concept="Xl_RD" id="7wNjWSaLAP$" role="37wK5m">
-                                        <property role="Xl_RC" value="fatflow" />
+                                        <property role="Xl_RC" value=".fatflow" />
                                       </node>
                                     </node>
                                     <node concept="37vLTw" id="1XzaP_Ortni" role="2Oq$k0">
@@ -4708,10 +4698,21 @@
                                       <ref role="3cqZAo" node="1XzaP_Orrsi" resolve="modName" />
                                     </node>
                                     <node concept="liA8E" id="7wNjWSaLCZU" role="2OqNvi">
-                                      <ref role="37wK5l" to="wyt6:~String.endsWith(java.lang.String):boolean" resolve="endsWith" />
+                                      <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                                       <node concept="Xl_RD" id="7wNjWSaLDfc" role="37wK5m">
                                         <property role="Xl_RC" value=".forms" />
                                       </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="1XzaP_OruEq" role="3uHU7w">
+                                  <node concept="37vLTw" id="1XzaP_Orupf" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="1XzaP_Orrsi" resolve="modName" />
+                                  </node>
+                                  <node concept="liA8E" id="1XzaP_Orv5j" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                                    <node concept="Xl_RD" id="1XzaP_Orvm$" role="37wK5m">
+                                      <property role="Xl_RC" value="fopland" />
                                     </node>
                                   </node>
                                 </node>
@@ -4726,7 +4727,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbH" id="7wNjWSaKG6T" role="3cqZAp" />
+                  <node concept="3clFbH" id="1o139e1IsHU" role="3cqZAp" />
                 </node>
                 <node concept="Rh6nW" id="7ojk6m5rCAT" role="1bW2Oz">
                   <property role="TrG5h" value="mod" />

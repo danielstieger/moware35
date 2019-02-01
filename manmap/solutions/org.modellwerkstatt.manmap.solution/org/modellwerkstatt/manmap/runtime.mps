@@ -5791,7 +5791,7 @@
     </node>
     <node concept="3clFb_" id="54mRB2jNQxU" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setAdditionalUserInfo" />
+      <property role="TrG5h" value="setDynamicStatusInfo" />
       <node concept="3cqZAl" id="54mRB2jNQxV" role="3clF45" />
       <node concept="3Tm1VV" id="54mRB2jNQxW" role="1B3o_S" />
       <node concept="3clFbS" id="54mRB2jNQxX" role="3clF47" />
@@ -5802,7 +5802,7 @@
     </node>
     <node concept="3clFb_" id="54mRB2jO8q8" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getAdditionalUserInfo" />
+      <property role="TrG5h" value="getDynamicStatusInfo" />
       <node concept="17QB3L" id="54mRB2jO8wk" role="3clF45" />
       <node concept="3Tm1VV" id="54mRB2jO8qa" role="1B3o_S" />
       <node concept="3clFbS" id="54mRB2jO8qb" role="3clF47" />
@@ -7366,7 +7366,17 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="3wMahqy82LO" role="jymVt" />
+    <node concept="2tJIrI" id="1o139e6OxQb" role="jymVt" />
+    <node concept="Wx3nA" id="1o139e6OxUb" role="jymVt">
+      <property role="TrG5h" value="initialized" />
+      <property role="3TUv4t" value="false" />
+      <node concept="10P_77" id="1o139e6OxTD" role="1tU5fm" />
+      <node concept="3Tm6S6" id="1o139e6OxNc" role="1B3o_S" />
+      <node concept="3clFbT" id="1o139e6OxXj" role="33vP2m">
+        <property role="3clFbU" value="false" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1o139e6OxJR" role="jymVt" />
     <node concept="2tJIrI" id="1VxIuFUt3CS" role="jymVt" />
     <node concept="3clFbW" id="1VxIuFUt3H7" role="jymVt">
       <node concept="37vLTG" id="1VxIuFUt41O" role="3clF46">
@@ -7513,6 +7523,16 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1o139e6Oy0e" role="3cqZAp">
+          <node concept="37vLTI" id="1o139e6Oy1L" role="3clFbG">
+            <node concept="3clFbT" id="1o139e6Oy2i" role="37vLTx">
+              <property role="3clFbU" value="true" />
+            </node>
+            <node concept="37vLTw" id="1o139e6Oy0c" role="37vLTJ">
+              <ref role="3cqZAo" node="1o139e6OxUb" resolve="initialized" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="2AHcQZ" id="1VxIuFUt3Jf" role="2AJF6D">
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
@@ -7525,14 +7545,23 @@
       <property role="DiZV1" value="false" />
       <node concept="3clFbS" id="7gwY4W7Asu$" role="3clF47">
         <node concept="3clFbH" id="1VxIuFTVCJq" role="3cqZAp" />
-        <node concept="3SKdUt" id="1VxIuFTVCVL" role="3cqZAp">
-          <node concept="3SKdUq" id="1VxIuFTVCVN" role="3SKWNk">
-            <property role="3SKdUp" value="TODO: It might be necessary or wanted to let null " />
+        <node concept="3clFbJ" id="1o139e6Oybc" role="3cqZAp">
+          <node concept="3clFbS" id="1o139e6Oybe" role="3clFbx">
+            <node concept="YS8fn" id="1o139e6Oyiu" role="3cqZAp">
+              <node concept="2ShNRf" id="1o139e6OyiW" role="YScLw">
+                <node concept="1pGfFk" id="1o139e6O$te" role="2ShVmc">
+                  <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                  <node concept="Xl_RD" id="1o139e6O$tK" role="37wK5m">
+                    <property role="Xl_RC" value="org.modellwerkstatt.manmap.runtime.MMStaticAccessHelper was not instantiated in your runtime configuration. Please add this bean." />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
-        </node>
-        <node concept="3SKdUt" id="1VxIuFTVD4d" role="3cqZAp">
-          <node concept="3SKdUq" id="1VxIuFTVD4f" role="3SKWNk">
-            <property role="3SKdUp" value="also prevail as &quot;no key&quot; ??? " />
+          <node concept="3fqX7Q" id="1o139e6OyfG" role="3clFbw">
+            <node concept="37vLTw" id="1o139e6OyhH" role="3fr31v">
+              <ref role="3cqZAo" node="1o139e6OxUb" resolve="initialized" />
+            </node>
           </node>
         </node>
         <node concept="3clFbH" id="1VxIuFTVCRt" role="3cqZAp" />
