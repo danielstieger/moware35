@@ -266,7 +266,7 @@
     <node concept="2tJIrI" id="Y3fiVK$o3H" role="jymVt" />
     <node concept="3clFb_" id="Y3fiVK$o3W" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getStartMenu" />
+      <property role="TrG5h" value="createStartMenu" />
       <node concept="3uibUv" id="Y3fiVK$o4r" role="3clF45">
         <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
       </node>
@@ -275,7 +275,7 @@
     </node>
     <node concept="3clFb_" id="Y3fiVK$o4C" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getExtrasMenu" />
+      <property role="TrG5h" value="createExtrasMenu" />
       <node concept="3uibUv" id="Y3fiVK$o4D" role="3clF45">
         <ref role="3uigEE" node="Y3fiVJM09J" resolve="MenuSub" />
       </node>
@@ -285,7 +285,7 @@
     <node concept="3clFb_" id="2qrl3a2UnwH" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
-      <property role="TrG5h" value="getAppTiles" />
+      <property role="TrG5h" value="createAppTileActions" />
       <node concept="3clFbS" id="2qrl3a2UnwK" role="3clF47" />
       <node concept="3Tm1VV" id="2qrl3a2UnwL" role="1B3o_S" />
       <node concept="_YKpA" id="2qrl3a2UnuY" role="3clF45">
@@ -308,6 +308,14 @@
         <property role="TrG5h" value="session" />
         <node concept="3uibUv" id="4h8Goff3kr5" role="1tU5fm">
           <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="6PWRVmw85AI" role="3clF46">
+        <property role="TrG5h" value="tileActions" />
+        <node concept="_YKpA" id="6PWRVmw85Cn" role="1tU5fm">
+          <node concept="3uibUv" id="6PWRVmw85Co" role="_ZDj9">
+            <ref role="3uigEE" node="6zVU6_jnH8I" resolve="TileAction" />
+          </node>
         </node>
       </node>
       <node concept="3clFbS" id="4h8Goff2NxQ" role="3clF47" />

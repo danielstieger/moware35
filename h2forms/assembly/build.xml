@@ -41,7 +41,7 @@
   <exec executable="java" outputproperty="appBuildVersion">
    <arg value="-cp"/>
    <arg value="${solultionSimpleGen}" />
-   <arg value="Simple.baseApp.TestSetting" />
+   <arg value="org.modellwerkstatt.simple.baseApp.TestSetting" />
   </exec>
   
   <echo>

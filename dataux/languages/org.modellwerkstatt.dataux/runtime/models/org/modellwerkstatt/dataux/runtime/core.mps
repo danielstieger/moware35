@@ -7358,7 +7358,7 @@
                 </node>
                 <node concept="2OqwBi" id="3nLGOmWz8XN" role="33vP2m">
                   <node concept="liA8E" id="3nLGOmWz93B" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:Y3fiVK$o3W" resolve="getStartMenu" />
+                    <ref role="37wK5l" to="yg8v:Y3fiVK$o3W" resolve="createStartMenu" />
                   </node>
                   <node concept="37vLTw" id="938$CrLumN" role="2Oq$k0">
                     <ref role="3cqZAo" node="2ppo89mdSpM" resolve="applicationBehaviour" />
@@ -7377,7 +7377,7 @@
                     <ref role="3cqZAo" node="2ppo89mdSpM" resolve="applicationBehaviour" />
                   </node>
                   <node concept="liA8E" id="3nLGOmWzcYk" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:Y3fiVK$o4C" resolve="getExtrasMenu" />
+                    <ref role="37wK5l" to="yg8v:Y3fiVK$o4C" resolve="createExtrasMenu" />
                   </node>
                 </node>
               </node>
@@ -7547,7 +7547,7 @@
                     <ref role="3cqZAo" node="2ppo89mdSpM" resolve="applicationBehaviour" />
                   </node>
                   <node concept="liA8E" id="2qrl3a2UAgs" role="2OqNvi">
-                    <ref role="37wK5l" to="yg8v:2qrl3a2UnwH" resolve="getAppTiles" />
+                    <ref role="37wK5l" to="yg8v:2qrl3a2UnwH" resolve="createAppTileActions" />
                   </node>
                 </node>
               </node>
@@ -9528,6 +9528,9 @@
               <node concept="37vLTw" id="4h8GoffhFEd" role="37wK5m">
                 <ref role="3cqZAo" node="2qrl3a2ZxLK" resolve="tilesSession" />
               </node>
+              <node concept="37vLTw" id="6PWRVmw8I_0" role="37wK5m">
+                <ref role="3cqZAo" node="6zVU6_j$mgZ" resolve="tileActions" />
+              </node>
             </node>
           </node>
         </node>
@@ -10125,7 +10128,7 @@
               <ref role="3cqZAo" node="2ppo89mgxKh" resolve="userEnvironment" />
             </node>
             <node concept="liA8E" id="54mRB2k14dL" role="2OqNvi">
-              <ref role="37wK5l" to="w7gk:54mRB2jO8q8" resolve="getAdditionalUserInfo" />
+              <ref role="37wK5l" to="w7gk:54mRB2jO8q8" resolve="getDynamicStatusInfo" />
             </node>
           </node>
         </node>
@@ -27878,25 +27881,6 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="cMAJ_MgMmQ" role="3cqZAp" />
-                <node concept="3clFbF" id="3RUln16fFzW" role="3cqZAp">
-                  <node concept="2OqwBi" id="3RUln16fFzT" role="3clFbG">
-                    <node concept="10M0yZ" id="3RUln16fFzU" role="2Oq$k0">
-                      <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-                      <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-                    </node>
-                    <node concept="liA8E" id="3RUln16fFzV" role="2OqNvi">
-                      <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-                      <node concept="3cpWs3" id="3RUln16fGxs" role="37wK5m">
-                        <node concept="37vLTw" id="3RUln16fGOj" role="3uHU7w">
-                          <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
-                        </node>
-                        <node concept="Xl_RD" id="3RUln16fGsf" role="3uHU7B">
-                          <property role="Xl_RC" value="EV " />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
                 <node concept="3SKdUt" id="6LCrX7JBrVs" role="3cqZAp">
                   <node concept="3SKdUq" id="6LCrX7JBrVu" role="3SKWNk">
                     <property role="3SKdUp" value="logging purpose" />

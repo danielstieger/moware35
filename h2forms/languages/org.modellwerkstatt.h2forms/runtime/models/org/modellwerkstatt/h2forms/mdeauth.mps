@@ -771,7 +771,30 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="7WBKY1Wi5Bo" role="3cqZAp" />
+        <node concept="3clFbF" id="5F7kbaBzkwQ" role="3cqZAp">
+          <node concept="2YIFZM" id="5F7kbaBzkF5" role="3clFbG">
+            <ref role="37wK5l" to="tea8:4QTIUTCpF18" resolve="hardLog" />
+            <ref role="1Pybhc" to="tea8:3h3MBx3irbo" resolve="H2ApplicationLoader" />
+            <node concept="3cpWs3" id="5F7kbaBzkTQ" role="37wK5m">
+              <node concept="37vLTw" id="5F7kbaBzkW8" role="3uHU7w">
+                <ref role="3cqZAo" node="7WBKY1Wi15c" resolve="errorMessage" />
+              </node>
+              <node concept="3cpWs3" id="5F7kbaBzkOQ" role="3uHU7B">
+                <node concept="3cpWs3" id="5F7kbaBzkLh" role="3uHU7B">
+                  <node concept="Xl_RD" id="5F7kbaBzkIr" role="3uHU7B">
+                    <property role="Xl_RC" value="Chcking login for user " />
+                  </node>
+                  <node concept="37vLTw" id="5F7kbaBzkN5" role="3uHU7w">
+                    <ref role="3cqZAo" node="2f$GH$eemXK" resolve="loginUserParamName" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="5F7kbaBzkQl" role="3uHU7w">
+                  <property role="Xl_RC" value=" -&gt; " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="63IPdUQHW$L" role="3cqZAp" />
         <node concept="3clFbJ" id="1wwgtxzgBia" role="3cqZAp">
           <node concept="3clFbS" id="1wwgtxzgBic" role="3clFbx">
@@ -972,7 +995,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="2462lDSop$8" role="3cqZAp" />
         <node concept="3clFbF" id="2462lDSomzv" role="3cqZAp">
           <node concept="2OqwBi" id="2462lDSomMk" role="3clFbG">
             <node concept="2OqwBi" id="2462lDSomC3" role="2Oq$k0">
@@ -984,7 +1006,11 @@
               </node>
             </node>
             <node concept="liA8E" id="2462lDSomX8" role="2OqNvi">
-              <ref role="37wK5l" to="tea8:2I8y5Kp1Dc_" resolve="handleResponse" />
+              <ref role="37wK5l" to="tea8:57ov2SAcmz" resolve="handleSpecialPageResponse" />
+              <node concept="Rm8GO" id="6PWRVmxovdG" role="37wK5m">
+                <ref role="Rm8GQ" to="tea8:57ov2SAcjG" resolve="LOGIN_PAGE" />
+                <ref role="1Px2BO" to="tea8:57ov2SAcdJ" resolve="IH2FormsTemplateRenderer.SpecialPage" />
+              </node>
               <node concept="37vLTw" id="2462lDSon2m" role="37wK5m">
                 <ref role="3cqZAo" node="1wwgtxzg9E$" resolve="response" />
               </node>
@@ -1013,7 +1039,6 @@
               <node concept="37vLTw" id="2462lDSopb3" role="37wK5m">
                 <ref role="3cqZAo" node="1wwgtxzgm_Q" resolve="h2msg" />
               </node>
-              <node concept="10Nm6u" id="2462lDSopi_" role="37wK5m" />
             </node>
           </node>
         </node>
