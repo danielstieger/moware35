@@ -15050,6 +15050,16 @@
               </node>
             </node>
             <node concept="3clFbH" id="2h5WDoUYKPI" role="3cqZAp" />
+            <node concept="3cpWs8" id="4wid93DQytt" role="3cqZAp">
+              <node concept="3cpWsn" id="4wid93DQytw" role="3cpWs9">
+                <property role="TrG5h" value="start" />
+                <node concept="3cpWsb" id="4wid93DQytr" role="1tU5fm" />
+                <node concept="2YIFZM" id="4wid93DQyRV" role="33vP2m">
+                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                  <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                </node>
+              </node>
+            </node>
             <node concept="3cpWs8" id="16HdUMOWEHz" role="3cqZAp">
               <node concept="3cpWsn" id="16HdUMOWEH$" role="3cpWs9">
                 <property role="TrG5h" value="context" />
@@ -15066,6 +15076,34 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="4wid93DQzuW" role="3cqZAp">
+              <node concept="2OqwBi" id="4wid93DQzuT" role="3clFbG">
+                <node concept="10M0yZ" id="4wid93DQzuU" role="2Oq$k0">
+                  <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                  <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                </node>
+                <node concept="liA8E" id="4wid93DQzuV" role="2OqNvi">
+                  <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                  <node concept="3cpWs3" id="4wid93DQ_cL" role="37wK5m">
+                    <node concept="1eOMI4" id="4wid93DQ_tL" role="3uHU7w">
+                      <node concept="3cpWsd" id="4wid93DQAmP" role="1eOMHV">
+                        <node concept="37vLTw" id="4wid93DQAB5" role="3uHU7w">
+                          <ref role="3cqZAo" node="4wid93DQytw" resolve="start" />
+                        </node>
+                        <node concept="2YIFZM" id="4wid93DQ_Yx" role="3uHU7B">
+                          <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                          <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="4wid93DQzRZ" role="3uHU7B">
+                      <property role="Xl_RC" value="Startup of spring ioc container has lasted ms: " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbH" id="4wid93DQz6y" role="3cqZAp" />
             <node concept="3cpWs8" id="Y3fiVL6fTB" role="3cqZAp">
               <node concept="3cpWsn" id="Y3fiVL6fTC" role="3cpWs9">
                 <property role="TrG5h" value="factory" />

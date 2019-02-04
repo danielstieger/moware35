@@ -2009,11 +2009,17 @@
   </node>
   <node concept="1TIwiD" id="q_zDmI5v5l">
     <property role="3GE5qa" value="Configuration" />
-    <property role="TrG5h" value="Config" />
+    <property role="TrG5h" value="OFXConfig" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/configuration.png" />
     <property role="1pbfSe" value="1262780438" />
+    <property role="34LRSv" value="Config" />
+    <property role="R4oN_" value="MoWare Configuration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4wid93DQNLB" role="1TKVEl">
+      <property role="TrG5h" value="genTimeDependencies" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyi" id="33KhHQNY4a3" role="1TKVEl">
       <property role="TrG5h" value="lastUpdated" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -2313,7 +2319,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="q_zDmI5v5l" resolve="Config" />
+      <ref role="20lvS9" node="q_zDmI5v5l" resolve="OFXConfig" />
     </node>
     <node concept="1TJgyj" id="61VVfi2BbQl" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
