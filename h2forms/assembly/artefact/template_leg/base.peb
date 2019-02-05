@@ -67,17 +67,19 @@
         <div class="scrollWrap"> <div class="scroll"> <div class="content">
             <div class="contentTop"  editorIndex="-1"></div>
  			{% if message is not null %}
-                {% if message.infoSmall or message.userQuestion or message.errorSmall %}
-                    <p id="errorbeep" class="error">{{ message.heading }}: {{ message.textBr | raw}} </p>
+                {% if message.isToast %}
+                    <p class="info"> {{ message.textBr | raw }}  </p>
 
                 {% elseif message.errorLarge %}
                     <pre id="errorbeep"> {{ message.heading }} <br>
                     <code> {{ message.text | raw }} </code>
                     <br/><br/><br/>
                     </pre>
+
                 {% else %}
-                    <p class="info"> {{ message.textBr | raw }}  </p>
+                    <p id="errorbeep" class="error">{{ message.heading }}: {{ message.textBr | raw}} </p>
     			{% endif %}
+
 			{% endif %}
 
 
