@@ -515,6 +515,20 @@
           </node>
         </node>
         <node concept="3clFbH" id="2yuEF6qbakB" role="3cqZAp" />
+        <node concept="3cpWs8" id="5H_LKg_Wgoe" role="3cqZAp">
+          <node concept="3cpWsn" id="5H_LKg_Wgoh" role="3cpWs9">
+            <property role="TrG5h" value="nameToRegister" />
+            <node concept="17QB3L" id="5H_LKg_Wgoc" role="1tU5fm" />
+            <node concept="3cpWs3" id="2yuEF6qbs$m" role="33vP2m">
+              <node concept="37vLTw" id="5H_LKg_Wh9m" role="3uHU7w">
+                <ref role="3cqZAo" node="2yuEF6qbh0w" resolve="telemetricsServiceName" />
+              </node>
+              <node concept="37vLTw" id="2yuEF6qbsvq" role="3uHU7B">
+                <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="SfApY" id="2yuEF6qbsGv" role="3cqZAp">
           <node concept="3clFbS" id="2yuEF6qbsG$" role="SfCbr">
             <node concept="3clFbF" id="2yuEF6qbaov" role="3cqZAp">
@@ -530,13 +544,8 @@
                   <node concept="2ShNRf" id="2yuEF6qbd6r" role="37wK5m">
                     <node concept="1pGfFk" id="2yuEF6qbd_B" role="2ShVmc">
                       <ref role="37wK5l" to="9vh7:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="3cpWs3" id="2yuEF6qbs$m" role="37wK5m">
-                        <node concept="37vLTw" id="2yuEF6qbsBi" role="3uHU7w">
-                          <ref role="3cqZAo" node="2yuEF6qbh0w" resolve="telemetricsServiceName" />
-                        </node>
-                        <node concept="37vLTw" id="2yuEF6qbsvq" role="3uHU7B">
-                          <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
-                        </node>
+                      <node concept="37vLTw" id="5H_LKg_Whpv" role="37wK5m">
+                        <ref role="3cqZAo" node="5H_LKg_Wgoh" resolve="nameToRegister" />
                       </node>
                     </node>
                   </node>
@@ -550,8 +559,21 @@
               <node concept="YS8fn" id="2yuEF6qbvt5" role="3cqZAp">
                 <node concept="2ShNRf" id="2yuEF6qbvtJ" role="YScLw">
                   <node concept="1pGfFk" id="2yuEF6qbxT3" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
-                    <node concept="37vLTw" id="2yuEF6qby89" role="37wK5m">
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="3cpWs3" id="5H_LKg_WhVp" role="37wK5m">
+                      <node concept="Xl_RD" id="5H_LKg_WhWX" role="3uHU7w">
+                        <property role="Xl_RC" value="' " />
+                      </node>
+                      <node concept="3cpWs3" id="5H_LKg_WhLN" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_WhzJ" role="3uHU7B">
+                          <property role="Xl_RC" value="Problems while reg '" />
+                        </node>
+                        <node concept="37vLTw" id="5H_LKg_WhQ5" role="3uHU7w">
+                          <ref role="3cqZAo" node="5H_LKg_Wgoh" resolve="nameToRegister" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="5H_LKg_Wje2" role="37wK5m">
                       <ref role="3cqZAo" node="2yuEF6qbsGE" resolve="e" />
                     </node>
                   </node>
@@ -570,7 +592,20 @@
               <node concept="YS8fn" id="2yuEF6qbyiO" role="3cqZAp">
                 <node concept="2ShNRf" id="2yuEF6qbyiP" role="YScLw">
                   <node concept="1pGfFk" id="2yuEF6qbyiQ" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="3cpWs3" id="5H_LKg_WjkA" role="37wK5m">
+                      <node concept="Xl_RD" id="5H_LKg_WjkB" role="3uHU7w">
+                        <property role="Xl_RC" value="' " />
+                      </node>
+                      <node concept="3cpWs3" id="5H_LKg_WjkC" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_WjkD" role="3uHU7B">
+                          <property role="Xl_RC" value="Problems while reg '" />
+                        </node>
+                        <node concept="37vLTw" id="5H_LKg_WjkE" role="3uHU7w">
+                          <ref role="3cqZAo" node="5H_LKg_Wgoh" resolve="nameToRegister" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="37vLTw" id="2yuEF6qbyiR" role="37wK5m">
                       <ref role="3cqZAo" node="2yuEF6qbsGL" resolve="e" />
                     </node>
@@ -590,7 +625,20 @@
               <node concept="YS8fn" id="2yuEF6qbyt8" role="3cqZAp">
                 <node concept="2ShNRf" id="2yuEF6qbyt9" role="YScLw">
                   <node concept="1pGfFk" id="2yuEF6qbyta" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="3cpWs3" id="5H_LKg_WjpO" role="37wK5m">
+                      <node concept="Xl_RD" id="5H_LKg_WjpP" role="3uHU7w">
+                        <property role="Xl_RC" value="' " />
+                      </node>
+                      <node concept="3cpWs3" id="5H_LKg_WjpQ" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_WjpR" role="3uHU7B">
+                          <property role="Xl_RC" value="Problems while reg '" />
+                        </node>
+                        <node concept="37vLTw" id="5H_LKg_WjpS" role="3uHU7w">
+                          <ref role="3cqZAo" node="5H_LKg_Wgoh" resolve="nameToRegister" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="37vLTw" id="2yuEF6qbytb" role="37wK5m">
                       <ref role="3cqZAo" node="2yuEF6qbsGS" resolve="e" />
                     </node>
@@ -610,7 +658,20 @@
               <node concept="YS8fn" id="2yuEF6qbyBv" role="3cqZAp">
                 <node concept="2ShNRf" id="2yuEF6qbyBw" role="YScLw">
                   <node concept="1pGfFk" id="2yuEF6qbyBx" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="3cpWs3" id="5H_LKg_Wjva" role="37wK5m">
+                      <node concept="Xl_RD" id="5H_LKg_Wjvb" role="3uHU7w">
+                        <property role="Xl_RC" value="' " />
+                      </node>
+                      <node concept="3cpWs3" id="5H_LKg_Wjvc" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_Wjvd" role="3uHU7B">
+                          <property role="Xl_RC" value="Problems while reg '" />
+                        </node>
+                        <node concept="37vLTw" id="5H_LKg_Wjve" role="3uHU7w">
+                          <ref role="3cqZAo" node="5H_LKg_Wgoh" resolve="nameToRegister" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="37vLTw" id="2yuEF6qbyBy" role="37wK5m">
                       <ref role="3cqZAo" node="2yuEF6qbsGZ" resolve="e" />
                     </node>
@@ -647,6 +708,45 @@
             <property role="3SKdUp" value="log errors via jmxRegistration... " />
           </node>
         </node>
+        <node concept="3cpWs8" id="5H_LKg_WofI" role="3cqZAp">
+          <node concept="3cpWsn" id="5H_LKg_WofL" role="3cpWs9">
+            <property role="TrG5h" value="nameToReg" />
+            <node concept="17QB3L" id="5H_LKg_WofG" role="1tU5fm" />
+            <node concept="3cpWs3" id="4n24ZlExRME" role="33vP2m">
+              <node concept="2OqwBi" id="4n24ZlExShR" role="3uHU7w">
+                <node concept="37vLTw" id="4n24ZlExSet" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="clientTelemetrics" />
+                </node>
+                <node concept="liA8E" id="4n24ZlExStj" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                </node>
+              </node>
+              <node concept="3cpWs3" id="4n24ZlExQEC" role="3uHU7B">
+                <node concept="3cpWs3" id="6TYnK1bIDex" role="3uHU7B">
+                  <node concept="3cpWs3" id="1EBV9L$_BG4" role="3uHU7B">
+                    <node concept="37vLTw" id="1EBV9L$_BG7" role="3uHU7B">
+                      <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
+                    </node>
+                    <node concept="37vLTw" id="5H_LKg_Wo$Q" role="3uHU7w">
+                      <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="clientServiceName" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="31dwTLE$jWF" role="3uHU7w">
+                    <node concept="37vLTw" id="31dwTLE$jPW" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="clientTelemetrics" />
+                    </node>
+                    <node concept="liA8E" id="31dwTLE$kfd" role="2OqNvi">
+                      <ref role="37wK5l" to="1e0c:4n24ZlExUzM" resolve="getuser_credentials" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="4n24ZlExR5U" role="3uHU7w">
+                  <property role="Xl_RC" value=" @" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="SfApY" id="1EBV9L$_BFR" role="3cqZAp">
           <node concept="3clFbS" id="1EBV9L$_BFS" role="SfCbr">
             <node concept="3clFbF" id="1EBV9L$_BFT" role="3cqZAp">
@@ -662,38 +762,8 @@
                   <node concept="2ShNRf" id="1EBV9L$_BFY" role="37wK5m">
                     <node concept="1pGfFk" id="1EBV9L$_BFZ" role="2ShVmc">
                       <ref role="37wK5l" to="9vh7:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="3cpWs3" id="4n24ZlExRME" role="37wK5m">
-                        <node concept="2OqwBi" id="4n24ZlExShR" role="3uHU7w">
-                          <node concept="37vLTw" id="4n24ZlExSet" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="clientTelemetrics" />
-                          </node>
-                          <node concept="liA8E" id="4n24ZlExStj" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
-                          </node>
-                        </node>
-                        <node concept="3cpWs3" id="4n24ZlExQEC" role="3uHU7B">
-                          <node concept="3cpWs3" id="6TYnK1bIDex" role="3uHU7B">
-                            <node concept="3cpWs3" id="1EBV9L$_BG4" role="3uHU7B">
-                              <node concept="37vLTw" id="1EBV9L$_BG7" role="3uHU7B">
-                                <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
-                              </node>
-                              <node concept="37vLTw" id="1EBV9L$_FOq" role="3uHU7w">
-                                <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="clientServiceName" />
-                              </node>
-                            </node>
-                            <node concept="2OqwBi" id="31dwTLE$jWF" role="3uHU7w">
-                              <node concept="37vLTw" id="31dwTLE$jPW" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1EBV9L$_BFI" resolve="clientTelemetrics" />
-                              </node>
-                              <node concept="liA8E" id="31dwTLE$kfd" role="2OqNvi">
-                                <ref role="37wK5l" to="1e0c:4n24ZlExUzM" resolve="getuser_credentials" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="Xl_RD" id="4n24ZlExR5U" role="3uHU7w">
-                            <property role="Xl_RC" value=" @" />
-                          </node>
-                        </node>
+                      <node concept="37vLTw" id="5H_LKg_WoOL" role="37wK5m">
+                        <ref role="3cqZAo" node="5H_LKg_WofL" resolve="nameToReg" />
                       </node>
                     </node>
                   </node>
@@ -730,8 +800,18 @@
                           <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="1EBV9L$_BGm" role="3uHU7B">
-                        <property role="Xl_RC" value="MalformedObjectNameException " />
+                      <node concept="3cpWs3" id="5H_LKg_WpeR" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_Wpfj" role="3uHU7w">
+                          <property role="Xl_RC" value="': " />
+                        </node>
+                        <node concept="3cpWs3" id="5H_LKg_Wp34" role="3uHU7B">
+                          <node concept="Xl_RD" id="1EBV9L$_BGm" role="3uHU7B">
+                            <property role="Xl_RC" value="MalformedObjectNameException while reg '" />
+                          </node>
+                          <node concept="37vLTw" id="5H_LKg_Wp8z" role="3uHU7w">
+                            <ref role="3cqZAo" node="5H_LKg_WofL" resolve="nameToReg" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -764,8 +844,18 @@
                           <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="1EBV9L$_BG$" role="3uHU7B">
-                        <property role="Xl_RC" value="MBeanRegistrationException" />
+                      <node concept="3cpWs3" id="5H_LKg_Wr9F" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_Wrag" role="3uHU7w">
+                          <property role="Xl_RC" value="': " />
+                        </node>
+                        <node concept="3cpWs3" id="5H_LKg_WqX0" role="3uHU7B">
+                          <node concept="Xl_RD" id="1EBV9L$_BG$" role="3uHU7B">
+                            <property role="Xl_RC" value="MBeanRegistrationException while reg '" />
+                          </node>
+                          <node concept="37vLTw" id="5H_LKg_Wr40" role="3uHU7w">
+                            <ref role="3cqZAo" node="5H_LKg_WofL" resolve="nameToReg" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -798,8 +888,18 @@
                           <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="1EBV9L$_BGM" role="3uHU7B">
-                        <property role="Xl_RC" value="NotCompliantMBeanException" />
+                      <node concept="3cpWs3" id="5H_LKg_WqEl" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_WqGu" role="3uHU7w">
+                          <property role="Xl_RC" value="': " />
+                        </node>
+                        <node concept="3cpWs3" id="5H_LKg_Wqvh" role="3uHU7B">
+                          <node concept="Xl_RD" id="1EBV9L$_BGM" role="3uHU7B">
+                            <property role="Xl_RC" value="NotCompliantMBeanException while reg '" />
+                          </node>
+                          <node concept="37vLTw" id="5H_LKg_Wq$E" role="3uHU7w">
+                            <ref role="3cqZAo" node="5H_LKg_WofL" resolve="nameToReg" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -832,8 +932,18 @@
                           <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="1EBV9L$_BH0" role="3uHU7B">
-                        <property role="Xl_RC" value="InstanceAlreadExistsExceptoin " />
+                      <node concept="3cpWs3" id="5H_LKg_Wqe1" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_WqeA" role="3uHU7w">
+                          <property role="Xl_RC" value="': " />
+                        </node>
+                        <node concept="3cpWs3" id="5H_LKg_Wq3b" role="3uHU7B">
+                          <node concept="Xl_RD" id="1EBV9L$_BH0" role="3uHU7B">
+                            <property role="Xl_RC" value="InstanceAlreadExistsExceptoin while reg '" />
+                          </node>
+                          <node concept="37vLTw" id="5H_LKg_Wq8m" role="3uHU7w">
+                            <ref role="3cqZAo" node="5H_LKg_WofL" resolve="nameToReg" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -869,6 +979,45 @@
             <property role="3SKdUp" value="log errors via jmxRegistration... " />
           </node>
         </node>
+        <node concept="3cpWs8" id="5H_LKg_Wrxv" role="3cqZAp">
+          <node concept="3cpWsn" id="5H_LKg_Wrxy" role="3cpWs9">
+            <property role="TrG5h" value="nameToUnreg" />
+            <node concept="17QB3L" id="5H_LKg_Wrxt" role="1tU5fm" />
+            <node concept="3cpWs3" id="4n24ZlExTdm" role="33vP2m">
+              <node concept="2OqwBi" id="4n24ZlExTdn" role="3uHU7w">
+                <node concept="37vLTw" id="4n24ZlExTdo" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="clientTelemetrics" />
+                </node>
+                <node concept="liA8E" id="4n24ZlExTdp" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
+                </node>
+              </node>
+              <node concept="3cpWs3" id="4n24ZlExTdq" role="3uHU7B">
+                <node concept="3cpWs3" id="4n24ZlExTdr" role="3uHU7B">
+                  <node concept="3cpWs3" id="4n24ZlExTds" role="3uHU7B">
+                    <node concept="37vLTw" id="4n24ZlExTdt" role="3uHU7B">
+                      <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
+                    </node>
+                    <node concept="37vLTw" id="5H_LKg_WrY9" role="3uHU7w">
+                      <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="clientServiceName" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="4n24ZlExTdu" role="3uHU7w">
+                    <node concept="37vLTw" id="4n24ZlExTdv" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="clientTelemetrics" />
+                    </node>
+                    <node concept="liA8E" id="4n24ZlExTdw" role="2OqNvi">
+                      <ref role="37wK5l" to="1e0c:4n24ZlExUzM" resolve="getuser_credentials" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="4n24ZlExTdx" role="3uHU7w">
+                  <property role="Xl_RC" value=" @" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="SfApY" id="1EBV9L$_AMf" role="3cqZAp">
           <node concept="3clFbS" id="1EBV9L$_AMg" role="SfCbr">
             <node concept="3clFbF" id="1EBV9L$_AMh" role="3cqZAp">
@@ -881,38 +1030,8 @@
                   <node concept="2ShNRf" id="1EBV9L$_AMl" role="37wK5m">
                     <node concept="1pGfFk" id="1EBV9L$_AMm" role="2ShVmc">
                       <ref role="37wK5l" to="9vh7:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="3cpWs3" id="4n24ZlExTdm" role="37wK5m">
-                        <node concept="2OqwBi" id="4n24ZlExTdn" role="3uHU7w">
-                          <node concept="37vLTw" id="4n24ZlExTdo" role="2Oq$k0">
-                            <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="clientTelemetrics" />
-                          </node>
-                          <node concept="liA8E" id="4n24ZlExTdp" role="2OqNvi">
-                            <ref role="37wK5l" to="wyt6:~Object.hashCode():int" resolve="hashCode" />
-                          </node>
-                        </node>
-                        <node concept="3cpWs3" id="4n24ZlExTdq" role="3uHU7B">
-                          <node concept="3cpWs3" id="4n24ZlExTdr" role="3uHU7B">
-                            <node concept="3cpWs3" id="4n24ZlExTds" role="3uHU7B">
-                              <node concept="37vLTw" id="4n24ZlExTdt" role="3uHU7B">
-                                <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
-                              </node>
-                              <node concept="37vLTw" id="4n24ZlExTdE" role="3uHU7w">
-                                <ref role="3cqZAo" node="1EBV9L$_A0$" resolve="clientServiceName" />
-                              </node>
-                            </node>
-                            <node concept="2OqwBi" id="4n24ZlExTdu" role="3uHU7w">
-                              <node concept="37vLTw" id="4n24ZlExTdv" role="2Oq$k0">
-                                <ref role="3cqZAo" node="1EBV9L$_AM6" resolve="clientTelemetrics" />
-                              </node>
-                              <node concept="liA8E" id="4n24ZlExTdw" role="2OqNvi">
-                                <ref role="37wK5l" to="1e0c:4n24ZlExUzM" resolve="getuser_credentials" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="Xl_RD" id="4n24ZlExTdx" role="3uHU7w">
-                            <property role="Xl_RC" value=" @" />
-                          </node>
-                        </node>
+                      <node concept="37vLTw" id="5H_LKg_Wsbu" role="37wK5m">
+                        <ref role="3cqZAo" node="5H_LKg_Wrxy" resolve="nameToUnreg" />
                       </node>
                     </node>
                   </node>
@@ -954,8 +1073,18 @@
                           <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="1EBV9L$_AMH" role="3uHU7B">
-                        <property role="Xl_RC" value="MalformedObjectNameException " />
+                      <node concept="3cpWs3" id="5H_LKg_Wtgr" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_Wti$" role="3uHU7w">
+                          <property role="Xl_RC" value="': " />
+                        </node>
+                        <node concept="3cpWs3" id="5H_LKg_Wtan" role="3uHU7B">
+                          <node concept="Xl_RD" id="1EBV9L$_AMH" role="3uHU7B">
+                            <property role="Xl_RC" value="MalformedObjectNameException while unreg '" />
+                          </node>
+                          <node concept="37vLTw" id="5H_LKg_Wte3" role="3uHU7w">
+                            <ref role="3cqZAo" node="5H_LKg_Wrxy" resolve="nameToUnreg" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -988,8 +1117,18 @@
                           <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="1EBV9L$_AMV" role="3uHU7B">
-                        <property role="Xl_RC" value="MBeanRegistrationException " />
+                      <node concept="3cpWs3" id="5H_LKg_WsXT" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_Wt02" role="3uHU7w">
+                          <property role="Xl_RC" value="': " />
+                        </node>
+                        <node concept="3cpWs3" id="5H_LKg_WsS3" role="3uHU7B">
+                          <node concept="Xl_RD" id="1EBV9L$_AMV" role="3uHU7B">
+                            <property role="Xl_RC" value="MBeanRegistrationException while unreg '" />
+                          </node>
+                          <node concept="37vLTw" id="5H_LKg_WsVx" role="3uHU7w">
+                            <ref role="3cqZAo" node="5H_LKg_Wrxy" resolve="nameToUnreg" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -1028,8 +1167,18 @@
                           <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
                         </node>
                       </node>
-                      <node concept="Xl_RD" id="1EBV9L$_ANb" role="3uHU7B">
-                        <property role="Xl_RC" value="InstanceNotFoundException " />
+                      <node concept="3cpWs3" id="5H_LKg_WsEb" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_WsGk" role="3uHU7w">
+                          <property role="Xl_RC" value="': " />
+                        </node>
+                        <node concept="3cpWs3" id="5H_LKg_Wsyy" role="3uHU7B">
+                          <node concept="Xl_RD" id="1EBV9L$_ANb" role="3uHU7B">
+                            <property role="Xl_RC" value="InstanceNotFoundException while unreg '" />
+                          </node>
+                          <node concept="37vLTw" id="5H_LKg_WsA7" role="3uHU7w">
+                            <ref role="3cqZAo" node="5H_LKg_Wrxy" resolve="nameToUnreg" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -1097,6 +1246,20 @@
       <node concept="3cqZAl" id="2yuEF6qa7Zg" role="3clF45" />
       <node concept="3Tm1VV" id="2yuEF6qa7Zh" role="1B3o_S" />
       <node concept="3clFbS" id="2yuEF6qa7Zi" role="3clF47">
+        <node concept="3cpWs8" id="5H_LKg_Wmk3" role="3cqZAp">
+          <node concept="3cpWsn" id="5H_LKg_Wmk6" role="3cpWs9">
+            <property role="TrG5h" value="nameToUnRegister" />
+            <node concept="17QB3L" id="5H_LKg_Wmk1" role="1tU5fm" />
+            <node concept="3cpWs3" id="2yuEF6qbCOp" role="33vP2m">
+              <node concept="37vLTw" id="5H_LKg_Wnlr" role="3uHU7w">
+                <ref role="3cqZAo" node="2yuEF6qbh0w" resolve="telemetricsServiceName" />
+              </node>
+              <node concept="37vLTw" id="2yuEF6qbCI7" role="3uHU7B">
+                <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="SfApY" id="2yuEF6qacTG" role="3cqZAp">
           <node concept="3clFbS" id="2yuEF6qacTL" role="SfCbr">
             <node concept="3clFbF" id="2yuEF6qa8aW" role="3cqZAp">
@@ -1109,13 +1272,8 @@
                   <node concept="2ShNRf" id="2yuEF6qa8ut" role="37wK5m">
                     <node concept="1pGfFk" id="2yuEF6qaanD" role="2ShVmc">
                       <ref role="37wK5l" to="9vh7:~ObjectName.&lt;init&gt;(java.lang.String)" resolve="ObjectName" />
-                      <node concept="3cpWs3" id="2yuEF6qbCOp" role="37wK5m">
-                        <node concept="37vLTw" id="2yuEF6qbHah" role="3uHU7w">
-                          <ref role="3cqZAo" node="2yuEF6qbh0w" resolve="telemetricsServiceName" />
-                        </node>
-                        <node concept="37vLTw" id="2yuEF6qbCI7" role="3uHU7B">
-                          <ref role="3cqZAo" node="2yuEF6q8EVm" resolve="namePrefix" />
-                        </node>
+                      <node concept="37vLTw" id="5H_LKg_WnB3" role="37wK5m">
+                        <ref role="3cqZAo" node="5H_LKg_Wmk6" resolve="nameToUnRegister" />
                       </node>
                     </node>
                   </node>
@@ -1139,7 +1297,20 @@
               <node concept="YS8fn" id="2yuEF6qag$z" role="3cqZAp">
                 <node concept="2ShNRf" id="2yuEF6qag$$" role="YScLw">
                   <node concept="1pGfFk" id="2yuEF6qag$_" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="3cpWs3" id="5H_LKg_WmoR" role="37wK5m">
+                      <node concept="Xl_RD" id="5H_LKg_WmoS" role="3uHU7w">
+                        <property role="Xl_RC" value="' " />
+                      </node>
+                      <node concept="3cpWs3" id="5H_LKg_WmoT" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_WmoU" role="3uHU7B">
+                          <property role="Xl_RC" value="Problems while un-reg '" />
+                        </node>
+                        <node concept="37vLTw" id="5H_LKg_WmoV" role="3uHU7w">
+                          <ref role="3cqZAo" node="5H_LKg_Wmk6" resolve="nameToUnRegister" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="37vLTw" id="2yuEF6qag$A" role="37wK5m">
                       <ref role="3cqZAo" node="2yuEF6qacTR" resolve="e" />
                     </node>
@@ -1160,7 +1331,20 @@
               <node concept="YS8fn" id="2yuEF6qagv$" role="3cqZAp">
                 <node concept="2ShNRf" id="2yuEF6qagv_" role="YScLw">
                   <node concept="1pGfFk" id="2yuEF6qagvA" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="3cpWs3" id="5H_LKg_Wmvg" role="37wK5m">
+                      <node concept="Xl_RD" id="5H_LKg_Wmvh" role="3uHU7w">
+                        <property role="Xl_RC" value="' " />
+                      </node>
+                      <node concept="3cpWs3" id="5H_LKg_Wmvi" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_Wmvj" role="3uHU7B">
+                          <property role="Xl_RC" value="Problems while un-reg '" />
+                        </node>
+                        <node concept="37vLTw" id="5H_LKg_Wmvk" role="3uHU7w">
+                          <ref role="3cqZAo" node="5H_LKg_Wmk6" resolve="nameToUnRegister" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="37vLTw" id="2yuEF6qagvB" role="37wK5m">
                       <ref role="3cqZAo" node="2yuEF6qacTY" resolve="e" />
                     </node>
@@ -1181,7 +1365,20 @@
               <node concept="YS8fn" id="2yuEF6qagr3" role="3cqZAp">
                 <node concept="2ShNRf" id="2yuEF6qafEm" role="YScLw">
                   <node concept="1pGfFk" id="2yuEF6qag8_" role="2ShVmc">
-                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String,java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="3cpWs3" id="5H_LKg_Wm$u" role="37wK5m">
+                      <node concept="Xl_RD" id="5H_LKg_Wm$v" role="3uHU7w">
+                        <property role="Xl_RC" value="' " />
+                      </node>
+                      <node concept="3cpWs3" id="5H_LKg_Wm$w" role="3uHU7B">
+                        <node concept="Xl_RD" id="5H_LKg_Wm$x" role="3uHU7B">
+                          <property role="Xl_RC" value="Problems while un-reg '" />
+                        </node>
+                        <node concept="37vLTw" id="5H_LKg_Wm$y" role="3uHU7w">
+                          <ref role="3cqZAo" node="5H_LKg_Wmk6" resolve="nameToUnRegister" />
+                        </node>
+                      </node>
+                    </node>
                     <node concept="37vLTw" id="2yuEF6qagao" role="37wK5m">
                       <ref role="3cqZAo" node="2yuEF6qacU5" resolve="e" />
                     </node>
