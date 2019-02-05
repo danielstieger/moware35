@@ -82,11 +82,11 @@
     <property name="javaxbusFile"      value="mo-javaxbus-1.0.jar" />
     
     <delete includeEmptyDirs="true">
-  		<fileset dir="${mowareHome}/objectflow/languages/objectflow/jars/eventbus/" includes="**/*" defaultexcludes="no"/>
+  		<fileset dir="${mowareHome}/objectflow/languages/objectflow/jars/basis/" includes="*javaxbus*" defaultexcludes="no"/>
 	</delete>  
 	
 	<mkdir dir="xbustmp" />
-    <jar destfile="${mowareHome}/objectflow/languages/objectflow/jars/eventbus/${javaxbusFile}" basedir="xbustmp" update="false">
+    <jar destfile="${mowareHome}/objectflow/languages/objectflow/jars/basis/${javaxbusFile}" basedir="xbustmp" update="false">
       <manifest>
         <attribute name="Version"    value="1.0" />
       </manifest>
@@ -98,10 +98,10 @@
     
     
     <delete includeEmptyDirs="true">
-  		<fileset dir="${mowarePluginHomeDir}/jars/eventbus/" includes="**/*" defaultexcludes="no"/>
+  		<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*javaxbus*" defaultexcludes="no"/>
 	</delete>  
-  	<copy todir="${mowarePluginHomeDir}/jars/eventbus">
-  		<fileset dir="${mowareHome}/objectflow/languages/objectflow/jars/eventbus/" includes="${javaxbusFile}" />
+  	<copy todir="${mowarePluginHomeDir}/jars/basis">
+  		<fileset dir="${mowareHome}/objectflow/languages/objectflow/jars/basis/" includes="${javaxbusFile}" />
   	</copy>
   </target>
 
