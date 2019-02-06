@@ -253,6 +253,9 @@
         <reference id="3674496190759069547" name="status" index="0hwAU" />
         <child id="3674496190759055885" name="expression" index="0h_Ns" />
       </concept>
+      <concept id="406105322043152820" name="org.modellwerkstatt.objectflow.structure.ComponentsScanning" flags="ng" index="20ptWn">
+        <child id="406105322043152971" name="componentBaseName" index="20ptNC" />
+      </concept>
       <concept id="7926373352206300571" name="org.modellwerkstatt.objectflow.structure.OperationCall" flags="ng" index="1odsa">
         <reference id="7926373352206300596" name="runtimeHandledObject" index="1ods_" />
         <child id="3262649880243657037" name="sessionExpression" index="2f8TIa" />
@@ -308,10 +311,10 @@
       <concept id="4338511869696968148" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDependentOption" flags="ng" index="zbZxr">
         <reference id="4338511869696968277" name="test" index="zbZJq" />
       </concept>
-      <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.Config" flags="ng" index="2CG7Z0">
+      <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
+        <child id="406105322043153886" name="dependencyResolution" index="20ptHX" />
         <child id="478945708906902061" name="elements" index="2CGBMS" />
-        <child id="4625932951302987031" name="comcponentScanBase" index="3d0G2l" />
       </concept>
       <concept id="478945708907022269" name="org.modellwerkstatt.objectflow.structure.OFXConfigProperty" flags="ng" index="2CJ4$C">
         <property id="478945708938010900" name="ref" index="2DlMY1" />
@@ -4452,8 +4455,10 @@
       </node>
     </node>
     <node concept="2CPvp3" id="2UR_HtvhiaQ" role="2CGBMS" />
-    <node concept="Xl_RD" id="2x95vWhrecO" role="3d0G2l">
-      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
+    <node concept="20ptWn" id="1HpoBiwNsBE" role="20ptHX">
+      <node concept="Xl_RD" id="1HpoBiwNsBF" role="20ptNC">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
+      </node>
     </node>
   </node>
   <node concept="2CG7Z0" id="4LC0Y0L2p9d">
@@ -4800,8 +4805,10 @@
       </node>
     </node>
     <node concept="2CPvp3" id="2n3p7A96FaZ" role="2CGBMS" />
-    <node concept="Xl_RD" id="2x95vWhmJcf" role="3d0G2l">
-      <property role="Xl_RC" value="org.modellwerkstatt" />
+    <node concept="20ptWn" id="1HpoBiwNtAV" role="20ptHX">
+      <node concept="Xl_RD" id="1HpoBiwNtAW" role="20ptNC">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
+      </node>
     </node>
   </node>
   <node concept="wbJL_" id="70qPrkCy95v">
@@ -34994,8 +35001,10 @@
       </node>
     </node>
     <node concept="2CPvp3" id="6VW5G60I4vG" role="2CGBMS" />
-    <node concept="Xl_RD" id="2x95vWhmJcg" role="3d0G2l">
-      <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
+    <node concept="20ptWn" id="1HpoBiwNtF0" role="20ptHX">
+      <node concept="Xl_RD" id="1HpoBiwNtF1" role="20ptNC">
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.tests" />
+      </node>
     </node>
   </node>
   <node concept="2EH5hC" id="6VW5G61m1vG">
