@@ -2016,10 +2016,6 @@
     <property role="34LRSv" value="Config" />
     <property role="R4oN_" value="MoWare Configuration" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="4wid93DQNLB" role="1TKVEl">
-      <property role="TrG5h" value="genTimeDependencies" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
     <node concept="1TJgyi" id="33KhHQNY4a3" role="1TKVEl">
       <property role="TrG5h" value="lastUpdated" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -2030,11 +2026,10 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="q_zDmI5Z8G" resolve="IOFXConfigElement" />
     </node>
-    <node concept="1TJgyj" id="40MBoadc5On" role="1TKVEi">
+    <node concept="1TJgyj" id="myLEe5LLRu" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="comcponentScanBase" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+      <property role="20kJfa" value="dependencyResolution" />
+      <ref role="20lvS9" node="myLEe5LLB3" resolve="IOFXDependencyResolutionStrategy" />
     </node>
     <node concept="PrWs8" id="q_zDmI5wCk" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -4183,6 +4178,39 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1Z999TJVqi7" role="PzmwI">
       <ref role="PrY4T" node="1Z999TJy7rR" resolve="IOFXStratBehaviour" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="myLEe5LLAO">
+    <property role="1pbfSe" value="1955995561" />
+    <property role="3GE5qa" value="Configuration" />
+    <property role="TrG5h" value="ComponentsScanning" />
+    <property role="34LRSv" value="Component Scanning" />
+    <property role="R4oN_" value="on startup" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="myLEe5LLDb" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="componentBaseName" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
+    <node concept="PrWs8" id="myLEe5LLCh" role="PzmwI">
+      <ref role="PrY4T" node="myLEe5LLB3" resolve="IOFXDependencyResolutionStrategy" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="myLEe5LLB3">
+    <property role="1pbfSe" value="1955995546" />
+    <property role="3GE5qa" value="Configuration" />
+    <property role="TrG5h" value="IOFXDependencyResolutionStrategy" />
+  </node>
+  <node concept="1TIwiD" id="myLEe5LLKg">
+    <property role="1pbfSe" value="1955994957" />
+    <property role="3GE5qa" value="Configuration" />
+    <property role="TrG5h" value="GenTimeScanning" />
+    <property role="34LRSv" value="Generation Time Resolution" />
+    <property role="R4oN_" value="at gen." />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="myLEe5LLL9" role="PzmwI">
+      <ref role="PrY4T" node="myLEe5LLB3" resolve="IOFXDependencyResolutionStrategy" />
     </node>
   </node>
 </model>

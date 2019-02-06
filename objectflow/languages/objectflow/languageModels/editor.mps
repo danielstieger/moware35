@@ -6698,36 +6698,21 @@
         </node>
       </node>
       <node concept="3F0ifn" id="q_zDmI5XZ7" role="3EZMnx">
-        <property role="3F0ifm" value="Scanning for components at:" />
+        <property role="3F0ifm" value="Dependency resolution:" />
         <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
         <node concept="pVoyu" id="q_zDmI5XZ8" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F1sOY" id="40MBoadc5SW" role="3EZMnx">
-        <ref role="1NtTu8" to="un0u:40MBoadc5On" />
-      </node>
-      <node concept="3F0ifn" id="4wid93DQNR9" role="3EZMnx">
-        <property role="3F0ifm" value="// use gen time dependency resolvement " />
-        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
-        <node concept="pVoyu" id="4wid93DQO3a" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="4wid93DQO3q" role="3F10Kt">
+      <node concept="3F1sOY" id="myLEe5LMIF" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:myLEe5LLRu" />
+        <node concept="pVoyu" id="myLEe5LMND" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0A7n" id="4wid93DQNZg" role="3EZMnx">
-        <ref role="1NtTu8" to="un0u:4wid93DQNLB" resolve="genTimeDependencies" />
-        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
-      </node>
-      <node concept="3F0ifn" id="4wid93DQO7p" role="3EZMnx">
-        <property role="3F0ifm" value=" (experimental)" />
-        <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
-      </node>
-      <node concept="3F0ifn" id="33KhHQNYCfi" role="3EZMnx">
+      <node concept="3F0ifn" id="myLEe5LMDH" role="3EZMnx">
         <property role="3F0ifm" value="" />
-        <node concept="pVoyu" id="33KhHQNYCfj" role="3F10Kt">
+        <node concept="pVoyu" id="myLEe5LMDI" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -10837,6 +10822,31 @@
     <ref role="1XX52x" to="un0u:1Z999TJy7rR" resolve="IOFXStratBehaviour" />
     <node concept="PMmxH" id="1Z999TJyiPK" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="myLEe5LLGT">
+    <property role="3GE5qa" value="Configuration" />
+    <ref role="1XX52x" to="un0u:myLEe5LLAO" resolve="ComponentsScanning" />
+    <node concept="3EZMnI" id="myLEe5LLHg" role="2wV5jI">
+      <node concept="3F0ifn" id="myLEe5LLH_" role="3EZMnx">
+        <property role="3F0ifm" value="Component Scanning for " />
+        <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
+      </node>
+      <node concept="3F1sOY" id="myLEe5LLIs" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:myLEe5LLDb" />
+      </node>
+      <node concept="l2Vlx" id="myLEe5LLHj" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="myLEe5LLOk">
+    <property role="3GE5qa" value="Configuration" />
+    <ref role="1XX52x" to="un0u:myLEe5LLKg" resolve="GenTimeScanning" />
+    <node concept="3EZMnI" id="myLEe5LLP7" role="2wV5jI">
+      <node concept="3F0ifn" id="myLEe5LLP8" role="3EZMnx">
+        <property role="3F0ifm" value="Generation time dependency resolution" />
+        <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
+      </node>
+      <node concept="l2Vlx" id="myLEe5LLPa" role="2iSdaV" />
     </node>
   </node>
 </model>

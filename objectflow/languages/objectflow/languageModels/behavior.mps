@@ -9512,7 +9512,7 @@
   </node>
   <node concept="13h7C7" id="q_zDmI5$Ub">
     <property role="3GE5qa" value="Configuration" />
-    <ref role="13h7C2" to="un0u:q_zDmI5v5l" resolve="Config" />
+    <ref role="13h7C2" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
     <node concept="13i0hz" id="q_zDmI5$W_" role="13h7CS">
       <property role="TrG5h" value="getConfigFileName" />
       <node concept="3Tm1VV" id="q_zDmI5$WA" role="1B3o_S" />
@@ -9890,39 +9890,20 @@
         <node concept="3clFbH" id="33KhHQQQ4yb" role="3cqZAp" />
         <node concept="3clFbJ" id="33KhHQQHPGe" role="3cqZAp">
           <node concept="3clFbS" id="33KhHQQHPGh" role="3clFbx">
-            <node concept="3clFbH" id="33KhHQQR4Hc" role="3cqZAp" />
-            <node concept="3cpWs8" id="33KhHQQHSNl" role="3cqZAp">
-              <node concept="3cpWsn" id="33KhHQQHSNo" role="3cpWs9">
-                <property role="TrG5h" value="pops" />
-                <node concept="_YKpA" id="33KhHQQHSNj" role="1tU5fm">
-                  <node concept="3Tqbb2" id="33KhHQQHSNG" role="_ZDj9">
-                    <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="33KhHQQHTut" role="33vP2m">
+            <node concept="3cpWs6" id="33KhHQR$A9Q" role="3cqZAp">
+              <node concept="2YIFZM" id="33KhHQR$Ayi" role="3cqZAk">
+                <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
+                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
+                <node concept="2OqwBi" id="33KhHQQHTut" role="37wK5m">
                   <node concept="2OqwBi" id="33KhHQQHSRB" role="2Oq$k0">
                     <node concept="13iPFW" id="33KhHQQHSP3" role="2Oq$k0" />
                     <node concept="3TrEf2" id="33KhHQQHTff" role="2OqNvi">
                       <ref role="3Tt5mk" to="un0u:q_zDmI6svA" />
                     </node>
                   </node>
-                  <node concept="2Rf3mk" id="33KhHQQHTUX" role="2OqNvi">
-                    <node concept="1xMEDy" id="33KhHQQHTUZ" role="1xVPHs">
-                      <node concept="chp4Y" id="33KhHQQHU4W" role="ri$Ld">
-                        <ref role="cht4Q" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
-                      </node>
-                    </node>
+                  <node concept="2qgKlT" id="myLEe5zAKr" role="2OqNvi">
+                    <ref role="37wK5l" node="myLEe5rshn" resolve="getConfigPropertiesToOverwrite" />
                   </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbH" id="33KhHQQR50n" role="3cqZAp" />
-            <node concept="3cpWs6" id="33KhHQR$A9Q" role="3cqZAp">
-              <node concept="2YIFZM" id="33KhHQR$Ayi" role="3cqZAk">
-                <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
-                <ref role="1Pybhc" to="o8zo:4IP40Bi3e_R" resolve="ListScope" />
-                <node concept="37vLTw" id="33KhHQR$AJe" role="37wK5m">
-                  <ref role="3cqZAo" node="33KhHQQHSNo" resolve="pops" />
                 </node>
               </node>
             </node>
@@ -9965,6 +9946,33 @@
       </node>
       <node concept="3uibUv" id="33KhHQQHPCA" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+    </node>
+    <node concept="13i0hz" id="myLEe5vHAX" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getConfigPropertiesToOverwrite" />
+      <ref role="13i0hy" node="myLEe5rshn" resolve="getConfigPropertiesToOverwrite" />
+      <node concept="3Tm1VV" id="myLEe5vHAY" role="1B3o_S" />
+      <node concept="3clFbS" id="myLEe5vHB2" role="3clF47">
+        <node concept="3clFbF" id="myLEe5vHWI" role="3cqZAp">
+          <node concept="2OqwBi" id="myLEe5vIcO" role="3clFbG">
+            <node concept="2OqwBi" id="myLEe5vHZi" role="2Oq$k0">
+              <node concept="13iPFW" id="myLEe5vHWH" role="2Oq$k0" />
+              <node concept="3TrEf2" id="myLEe5vI4b" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:q_zDmI6svA" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="myLEe5vIkO" role="2OqNvi">
+              <ref role="37wK5l" node="myLEe5rshn" resolve="getConfigPropertiesToOverwrite" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="myLEe5vHB3" role="3clF45">
+        <node concept="3Tqbb2" id="myLEe5vHB4" role="_ZDj9">
+          <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+        </node>
       </node>
     </node>
     <node concept="13i0hz" id="2h5WDoV6dtm" role="13h7CS">
@@ -10600,6 +10608,81 @@
       <node concept="_YKpA" id="7mQLbAcn6pI" role="3clF45">
         <node concept="3Tqbb2" id="7mQLbAcn6pJ" role="_ZDj9">
           <ref role="ehGHo" to="un0u:q_zDmI6CDL" resolve="IOFXConfigNamedElement" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="myLEe5zxhV" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getConfigPropertiesToOverwrite" />
+      <ref role="13i0hy" node="myLEe5rshn" resolve="getConfigPropertiesToOverwrite" />
+      <node concept="3Tm1VV" id="myLEe5zxhW" role="1B3o_S" />
+      <node concept="3clFbS" id="myLEe5zxi0" role="3clF47">
+        <node concept="3cpWs8" id="myLEe5zxO3" role="3cqZAp">
+          <node concept="3cpWsn" id="myLEe5zxO4" role="3cpWs9">
+            <property role="TrG5h" value="props" />
+            <node concept="_YKpA" id="myLEe5zxO5" role="1tU5fm">
+              <node concept="3Tqbb2" id="myLEe5zxO6" role="_ZDj9">
+                <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="myLEe5zxO7" role="33vP2m">
+              <node concept="Tc6Ow" id="myLEe5zxO8" role="2ShVmc">
+                <node concept="3Tqbb2" id="myLEe5zxO9" role="HW$YZ">
+                  <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="myLEe5zxOa" role="3cqZAp" />
+        <node concept="3clFbF" id="myLEe5zyAz" role="3cqZAp">
+          <node concept="2OqwBi" id="myLEe5zz$w" role="3clFbG">
+            <node concept="2OqwBi" id="myLEe5zyWV" role="2Oq$k0">
+              <node concept="13iPFW" id="myLEe5zyAx" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="myLEe5zzdy" role="2OqNvi">
+                <ref role="3TtcxE" to="un0u:q_zDmI6lCH" />
+              </node>
+            </node>
+            <node concept="2es0OD" id="myLEe5z$c3" role="2OqNvi">
+              <node concept="1bVj0M" id="myLEe5z$c5" role="23t8la">
+                <node concept="3clFbS" id="myLEe5z$c6" role="1bW5cS">
+                  <node concept="3clFbF" id="myLEe5z$eY" role="3cqZAp">
+                    <node concept="2OqwBi" id="myLEe5z$HA" role="3clFbG">
+                      <node concept="37vLTw" id="myLEe5z$eX" role="2Oq$k0">
+                        <ref role="3cqZAo" node="myLEe5zxO4" resolve="props" />
+                      </node>
+                      <node concept="X8dFx" id="myLEe5z_Op" role="2OqNvi">
+                        <node concept="2OqwBi" id="myLEe5zA0N" role="25WWJ7">
+                          <node concept="37vLTw" id="myLEe5z_Vr" role="2Oq$k0">
+                            <ref role="3cqZAo" node="myLEe5z$c7" resolve="it" />
+                          </node>
+                          <node concept="2qgKlT" id="myLEe5zAca" role="2OqNvi">
+                            <ref role="37wK5l" node="myLEe5rshn" resolve="getConfigPropertiesToOverwrite" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="Rh6nW" id="myLEe5z$c7" role="1bW2Oz">
+                  <property role="TrG5h" value="it" />
+                  <node concept="2jxLKc" id="myLEe5z$c8" role="1tU5fm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="myLEe5zxOu" role="3cqZAp" />
+        <node concept="3clFbF" id="myLEe5zxOv" role="3cqZAp">
+          <node concept="37vLTw" id="myLEe5zxOw" role="3clFbG">
+            <ref role="3cqZAo" node="myLEe5zxO4" resolve="props" />
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="myLEe5zxi1" role="3clF45">
+        <node concept="3Tqbb2" id="myLEe5zxi2" role="_ZDj9">
+          <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
         </node>
       </node>
     </node>
@@ -18941,6 +19024,145 @@
       </node>
       <node concept="3uibUv" id="1Zhh973W4MN" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="myLEe5rsh6">
+    <property role="3GE5qa" value="Configuration" />
+    <ref role="13h7C2" to="un0u:q_zDmI5Z8G" resolve="IOFXConfigElement" />
+    <node concept="13i0hz" id="myLEe5rshn" role="13h7CS">
+      <property role="13i0iv" value="true" />
+      <property role="13i0it" value="true" />
+      <property role="TrG5h" value="getConfigPropertiesToOverwrite" />
+      <node concept="3Tm1VV" id="myLEe5rsho" role="1B3o_S" />
+      <node concept="_YKpA" id="myLEe5rshH" role="3clF45">
+        <node concept="3Tqbb2" id="myLEe5rsj5" role="_ZDj9">
+          <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="myLEe5rshq" role="3clF47" />
+    </node>
+    <node concept="13hLZK" id="myLEe5rsh7" role="13h7CW">
+      <node concept="3clFbS" id="myLEe5rsh8" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="myLEe5vG3P">
+    <property role="3GE5qa" value="Configuration" />
+    <ref role="13h7C2" to="un0u:q_zDmIs7zm" resolve="OFXConfigEmpty" />
+    <node concept="13hLZK" id="myLEe5vG3Q" role="13h7CW">
+      <node concept="3clFbS" id="myLEe5vG3R" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="myLEe5vG3Z" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getConfigPropertiesToOverwrite" />
+      <ref role="13i0hy" node="myLEe5rshn" resolve="getConfigPropertiesToOverwrite" />
+      <node concept="3Tm1VV" id="myLEe5vG40" role="1B3o_S" />
+      <node concept="3clFbS" id="myLEe5vG44" role="3clF47">
+        <node concept="3clFbF" id="myLEe5vG4s" role="3cqZAp">
+          <node concept="2ShNRf" id="myLEe5vG4q" role="3clFbG">
+            <node concept="Tc6Ow" id="myLEe5vHlc" role="2ShVmc">
+              <node concept="3Tqbb2" id="myLEe5vHxf" role="HW$YZ">
+                <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="myLEe5vG45" role="3clF45">
+        <node concept="3Tqbb2" id="myLEe5vG46" role="_ZDj9">
+          <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="myLEe5vInI">
+    <property role="3GE5qa" value="Configuration" />
+    <ref role="13h7C2" to="un0u:q_zDmI6nTa" resolve="OFXConfigInstance" />
+    <node concept="13hLZK" id="myLEe5vInJ" role="13h7CW">
+      <node concept="3clFbS" id="myLEe5vInK" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="myLEe5vInZ" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getConfigPropertiesToOverwrite" />
+      <ref role="13i0hy" node="myLEe5rshn" resolve="getConfigPropertiesToOverwrite" />
+      <node concept="3Tm1VV" id="myLEe5vIo0" role="1B3o_S" />
+      <node concept="3clFbS" id="myLEe5vIo4" role="3clF47">
+        <node concept="3cpWs8" id="myLEe5vIDF" role="3cqZAp">
+          <node concept="3cpWsn" id="myLEe5vIDI" role="3cpWs9">
+            <property role="TrG5h" value="props" />
+            <node concept="_YKpA" id="myLEe5vIDB" role="1tU5fm">
+              <node concept="3Tqbb2" id="myLEe5vIE7" role="_ZDj9">
+                <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="myLEe5vOIl" role="33vP2m">
+              <node concept="Tc6Ow" id="myLEe5vOIa" role="2ShVmc">
+                <node concept="3Tqbb2" id="myLEe5vOIb" role="HW$YZ">
+                  <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="myLEe5vKS7" role="3cqZAp" />
+        <node concept="1DcWWT" id="myLEe5vL5r" role="3cqZAp">
+          <node concept="3clFbS" id="myLEe5vL5t" role="2LFqv$">
+            <node concept="3clFbJ" id="myLEe5vNFF" role="3cqZAp">
+              <node concept="3clFbS" id="myLEe5vNFH" role="3clFbx">
+                <node concept="3clFbF" id="myLEe5vOJ3" role="3cqZAp">
+                  <node concept="2OqwBi" id="myLEe5vPbu" role="3clFbG">
+                    <node concept="37vLTw" id="myLEe5vOJ1" role="2Oq$k0">
+                      <ref role="3cqZAo" node="myLEe5vIDI" resolve="props" />
+                    </node>
+                    <node concept="TSZUe" id="myLEe5vRky" role="2OqNvi">
+                      <node concept="1PxgMI" id="myLEe5vRot" role="25WWJ7">
+                        <ref role="1PxNhF" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+                        <node concept="37vLTw" id="myLEe5vRmg" role="1PxMeX">
+                          <ref role="3cqZAo" node="myLEe5vL5u" resolve="elem" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="myLEe5vNJw" role="3clFbw">
+                <node concept="37vLTw" id="myLEe5vNFU" role="2Oq$k0">
+                  <ref role="3cqZAo" node="myLEe5vL5u" resolve="elem" />
+                </node>
+                <node concept="1mIQ4w" id="myLEe5vNQ_" role="2OqNvi">
+                  <node concept="chp4Y" id="myLEe5vNRy" role="cj9EA">
+                    <ref role="cht4Q" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWsn" id="myLEe5vL5u" role="1Duv9x">
+            <property role="TrG5h" value="elem" />
+            <node concept="3Tqbb2" id="myLEe5vLeF" role="1tU5fm">
+              <ref role="ehGHo" to="un0u:q_zDmI6nVE" resolve="IOFXConfigInstanceElement" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="myLEe5vLmN" role="1DdaDG">
+            <node concept="13iPFW" id="myLEe5vLh3" role="2Oq$k0" />
+            <node concept="3Tsc0h" id="myLEe5vLut" role="2OqNvi">
+              <ref role="3TtcxE" to="un0u:q_zDmI6sv0" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="myLEe5vRM3" role="3cqZAp" />
+        <node concept="3clFbF" id="myLEe5vSs0" role="3cqZAp">
+          <node concept="37vLTw" id="myLEe5vSrY" role="3clFbG">
+            <ref role="3cqZAo" node="myLEe5vIDI" resolve="props" />
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="myLEe5vIo5" role="3clF45">
+        <node concept="3Tqbb2" id="myLEe5vIo6" role="_ZDj9">
+          <ref role="ehGHo" to="un0u:q_zDmI6suX" resolve="OFXConfigProperty" />
+        </node>
       </node>
     </node>
   </node>
