@@ -50,14 +50,16 @@
  
 <project>
 
-	<property name="mowarePluginHomeDir"  value="${user.home}/.MPS33/config/plugins/moware" />
-	<property name="mowareMpsHomeDir"     value="C:/javaexe/MPS335" />
-	<property name="mowareAppTargetDir"   value="work" />
+	<property name="mowarePluginHomeDir"      value="${user.home}/.MPS33/config/plugins/moware" />
+	<property name="mowareMpsHomeDir"         value="C:/javaexe/MPS335" />
+	<property name="mowareAppTargetDir"       value="work" />
+	<property name="mowareAppTargetDirSub"    value="lib" />
 	
 	
 	<target name="fx8forms">
-		<mkdir dir="${mowareAppTargetDir}/lib"/>
-		<copy todir="${mowareAppTargetDir}/lib">
+    <echo>Copying moware.fx8forms dependencies to ${mowareAppTargetDir}/${mowareAppTargetDirSub} </echo>
+		<mkdir dir="${mowareAppTargetDir}/${mowareAppTargetDirSub}"/>
+		<copy todir="${mowareAppTargetDir}/${mowareAppTargetDirSub}">
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
 
@@ -90,9 +92,11 @@
 	<target name="h2forms">
 		<!--     H2 forms settings      -->
 		<property name="h2formsAppLoader"     value="org.modellwerkstatt.h2forms.core.H2ApplicationLoader" /> 
-  		<property name="h2formsTemplate1"      value="template_leg" /> 
+  	<property name="h2formsTemplate1"      value="template_leg" /> 
 		<property name="h2formsTemplate2"      value="template_suivant" /> 
 
+    <echo>Copying moware.h2forms dependencies to ${mowareAppTargetDir}/WEB-INF/lib   
+                                             and ${mowareAppTargetDir}s/static </echo>
 		<mkdir dir="${mowareAppTargetDir}/META-INF"/>
 		<mkdir dir="${mowareAppTargetDir}/WEB-INF/lib"/>
 
@@ -147,7 +151,9 @@
 	
 	<target name="vaadinforms">
 		<property name="appFavicon"     value="./favicon.ico" /> 
-		
+		<echo>Copying moware.vaadinforms dependencies to ${mowareAppTargetDir}/WEB-INF/lib   
+		                                             and ${mowareAppTargetDir}/static
+		                              favicon taken from ${appFavicon} </echo>
 		<mkdir dir="${mowareAppTargetDir}/META-INF"/>
 		<mkdir dir="${mowareAppTargetDir}/WEB-INF/lib"/>
 
@@ -202,6 +208,7 @@
 	
 	
 	<target name="ofxbatchjob">
+		<echo>Copying moware.ofxbatchjob dependencies to ${mowareAppTargetDir}/WEB-INF/lib</echo>
 		<mkdir dir="${mowareAppTargetDir}/WEB-INF/lib"/>
 
 		<copy todir="${mowareAppTargetDir}/WEB-INF/lib">
