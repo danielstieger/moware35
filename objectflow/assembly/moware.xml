@@ -10,13 +10,13 @@
              
 			 mowarePluginHomeDir    path to moware plugin base directory 
 			 mowareMpsHomeDir       path to mps installation base directory
-			 mowareAppTargetDir     path to target directory, where we copy dependent jars
+			 mowareWorkDir     path to target directory, where we copy dependent jars
 			                        or the complete app setup (h2forms/vaadin)
 
 			 DEFAULTS
 			 mowarePluginHomeDir    ${user.home}/.MPS33/config/plugins/moware 
 			 mowareMpsHomeDir       C:/javaexe/MPS335
-			 mowareAppTargetDir     work
+			 mowareWorkDir     work
 
 			 
 			 Necessary properties for jobs, h2forms & vaadin apps
@@ -52,14 +52,17 @@
 
 	<property name="mowarePluginHomeDir"      value="${user.home}/.MPS33/config/plugins/moware" />
 	<property name="mowareMpsHomeDir"         value="C:/javaexe/MPS335" />
-	<property name="mowareAppTargetDir"       value="work" />
-	<property name="mowareAppTargetDirSub"    value="lib" />
+	<property name="mowareWorkDir"       value="work" />
+
+  <property name="appFavicon"     value="./favicon.ico" /> 
 	
 	
 	<target name="fx8forms">
-    <echo>Copying moware.fx8forms dependencies to ${mowareAppTargetDir}/${mowareAppTargetDirSub} </echo>
-		<mkdir dir="${mowareAppTargetDir}/${mowareAppTargetDirSub}"/>
-		<copy todir="${mowareAppTargetDir}/${mowareAppTargetDirSub}">
+    <echo>Copying moware.fx8forms dependencies to ${mowareWorkDir}/WEB-INF/lib </echo>
+		
+		<mkdir dir="${mowareWorkDir}/META-INF"/>
+		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
+		<copy todir="${mowareWorkDir}/WEB-INF/lib">
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
 
@@ -95,12 +98,12 @@
   	<property name="h2formsTemplate1"      value="template_leg" /> 
 		<property name="h2formsTemplate2"      value="template_suivant" /> 
 
-    <echo>Copying moware.h2forms dependencies to ${mowareAppTargetDir}/WEB-INF/lib   
-                                             and ${mowareAppTargetDir}s/static </echo>
-		<mkdir dir="${mowareAppTargetDir}/META-INF"/>
-		<mkdir dir="${mowareAppTargetDir}/WEB-INF/lib"/>
+    <echo>Copying moware.h2forms dependencies to ${mowareWorkDir}/WEB-INF/lib   
+                                   and ${mowareWorkDir}s/static </echo>
+		<mkdir dir="${mowareWorkDir}/META-INF"/>
+		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
 
-		<copy todir="${mowareAppTargetDir}/WEB-INF/lib">
+		<copy todir="${mowareWorkDir}/WEB-INF/lib">
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
@@ -116,21 +119,21 @@
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
 		</copy>
 		
-		<mkdir dir="${mowareAppTargetDir}/static/${h2formsTemplate1}"/>
-		<copy todir="${mowareAppTargetDir}/static/${h2formsTemplate1}">
+		<mkdir dir="${mowareWorkDir}/static/${h2formsTemplate1}"/>
+		<copy todir="${mowareWorkDir}/static/${h2formsTemplate1}">
 		  <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/${h2formsTemplate1}/" />
 		</copy>
 	
-		<mkdir dir="${mowareAppTargetDir}/static/${h2formsTemplate2}"/>
-		<copy todir="${mowareAppTargetDir}/static/${h2formsTemplate2}">
+		<mkdir dir="${mowareWorkDir}/static/${h2formsTemplate2}"/>
+		<copy todir="${mowareWorkDir}/static/${h2formsTemplate2}">
 		  <fileset dir="${mowarePluginHomeDir}/h2assembly/artefact/${h2formsTemplate2}/" />
 		</copy>
 	
 	
-		<copy file="${mowarePluginHomeDir}/h2assembly/artefact/context.xml" tofile="${mowareAppTargetDir}/META-INF/context.xml" filtering="yes" overwrite="yes">
+		<copy file="${mowarePluginHomeDir}/h2assembly/artefact/context.xml" tofile="${mowareWorkDir}/META-INF/context.xml" filtering="yes" overwrite="yes">
 		</copy>
 	
-		<copy file="${mowarePluginHomeDir}/h2assembly/artefact/web.xml" tofile="${mowareAppTargetDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
+		<copy file="${mowarePluginHomeDir}/h2assembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
 		  <filterchain>
 			  <tokenfilter>
 				  <replaceregex pattern="LOADER_FQNAME"            replace="${h2formsAppLoader}"/>
@@ -150,14 +153,13 @@
 	
 	
 	<target name="vaadinforms">
-		<property name="appFavicon"     value="./favicon.ico" /> 
-		<echo>Copying moware.vaadinforms dependencies to ${mowareAppTargetDir}/WEB-INF/lib   
-		                                             and ${mowareAppTargetDir}/static
-		                              favicon taken from ${appFavicon} </echo>
-		<mkdir dir="${mowareAppTargetDir}/META-INF"/>
-		<mkdir dir="${mowareAppTargetDir}/WEB-INF/lib"/>
+		<echo>Copying moware.vaadinforms dependencies to ${mowareWorkDir}/WEB-INF/lib   
+                                       and ${mowareWorkDir}/static
+                        favicon taken from ${appFavicon} </echo>
+		<mkdir dir="${mowareWorkDir}/META-INF"/>
+		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
 
-		<copy todir="${mowareAppTargetDir}/WEB-INF/lib">
+		<copy todir="${mowareWorkDir}/WEB-INF/lib">
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
@@ -175,16 +177,16 @@
 		
 		
 		<!-- change favicon with local one -->
-		<jar destfile="${mowareAppTargetDir}/WEB-INF/lib/moware-updated-theme-1.0.jar">
-			<zipfileset src="${mowareAppTargetDir}/WEB-INF/lib/moware-vaadin-theme-1.0.jar"  excludes="VAADIN/themes/moware/*.ico"/>
-			<zipfileset file="${appFavicon}"                                                 prefix="VAADIN/themes/moware/" />
+		<jar destfile="${mowareWorkDir}/WEB-INF/lib/moware-updated-theme-1.0.jar">
+			<zipfileset src="${mowareWorkDir}/WEB-INF/lib/moware-vaadin-theme-1.0.jar"  excludes="VAADIN/themes/moware/*.ico"/>
+			<zipfileset file="${appFavicon}"                                            fullpath="VAADIN/themes/moware/favicon.ico" />
 		</jar>
-		<delete file="${mowareAppTargetDir}/WEB-INF/lib/moware-vaadin-theme-1.0.jar" />
+		<delete file="${mowareWorkDir}/WEB-INF/lib/moware-vaadin-theme-1.0.jar" />
 		
-		<copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/context.xml" tofile="${mowareAppTargetDir}/WEB-INF/context.xml" filtering="yes" overwrite="yes">
+		<copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/context.xml" tofile="${mowareWorkDir}/WEB-INF/context.xml" filtering="yes" overwrite="yes">
     	</copy>
     
-		<copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/web.xml" tofile="${mowareAppTargetDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
+		<copy file="${mowarePluginHomeDir}/vaadinassembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
 		  <filterchain>
 			  <tokenfilter>
 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
@@ -208,10 +210,10 @@
 	
 	
 	<target name="ofxbatchjob">
-		<echo>Copying moware.ofxbatchjob dependencies to ${mowareAppTargetDir}/WEB-INF/lib</echo>
-		<mkdir dir="${mowareAppTargetDir}/WEB-INF/lib"/>
+		<echo>Copying moware.ofxbatchjob dependencies to ${mowareWorkDir}/WEB-INF/lib</echo>
+		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
 
-		<copy todir="${mowareAppTargetDir}/WEB-INF/lib">
+		<copy todir="${mowareWorkDir}/WEB-INF/lib">
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
 
@@ -226,7 +228,7 @@
 		</copy>
 		
 		
-		<copy file="${mowarePluginHomeDir}/ofassembly/artefact/web.xml" tofile="${mowareAppTargetDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
+		<copy file="${mowarePluginHomeDir}/ofassembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
 		  <filterchain>
 			  <tokenfilter>
 				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>

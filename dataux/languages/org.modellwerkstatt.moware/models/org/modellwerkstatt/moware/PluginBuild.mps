@@ -1059,6 +1059,45 @@
           </node>
         </node>
       </node>
+      <node concept="1E1JtA" id="4D13xqtRuEB" role="2G$12L">
+        <property role="BnDLt" value="true" />
+        <property role="TrG5h" value="org.modellwerkstatt.objectflow.tests" />
+        <property role="3LESm3" value="08c9a2cc-7837-46ae-a3ab-0cf6a857d8df" />
+        <property role="2GAjPV" value="false" />
+        <node concept="398BVA" id="4D13xqtRuEC" role="3LF7KH">
+          <ref role="398BVh" node="1JLTjCmZkW7" resolve="mowareHome" />
+          <node concept="2Ry0Ak" id="4D13xqtRuED" role="iGT6I">
+            <property role="2Ry0Am" value="objectflow" />
+            <node concept="2Ry0Ak" id="4D13xqtRuEE" role="2Ry0An">
+              <property role="2Ry0Am" value="solutions" />
+              <node concept="2Ry0Ak" id="4D13xqtRvLD" role="2Ry0An">
+                <property role="2Ry0Am" value="org.modellwerkstatt.objectflow.tests" />
+                <node concept="2Ry0Ak" id="4D13xqtRvVK" role="2Ry0An">
+                  <property role="2Ry0Am" value="org.modellwerkstatt.objectflow.tests.msd" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4D13xqtRuEH" role="3bR37C">
+          <node concept="3bR9La" id="4D13xqtRuEI" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="1JLTjCmZp5F" resolve="org.modellwerkstatt.manmap.runtime" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4D13xqtRuEJ" role="3bR37C">
+          <node concept="3bR9La" id="4D13xqtRuEK" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" to="ffeo:mXGwHwhVPj" resolve="JDK" />
+          </node>
+        </node>
+        <node concept="1SiIV0" id="4D13xqtRwbq" role="3bR37C">
+          <node concept="3bR9La" id="4D13xqtRwbr" role="1SiIV1">
+            <property role="3bR36h" value="false" />
+            <ref role="3bR37D" node="1JLTjCmZpiM" resolve="org.modellwerkstatt.objectflow.runtime" />
+          </node>
+        </node>
+      </node>
       <node concept="1E1JtD" id="1JLTjCmZpP8" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="org.modellwerkstatt.objectflow" />
