@@ -87,8 +87,8 @@
       h4   {font-size:14px}
       h5   {font-size:12px}
       h6   {font-size:10px}
-      .sv-currentfg { background: {{ defCol(page.color) }} !important; }
-      .sv-currentfg-D3 { background: {{ defColD3(page.colorD3) }} !important; }
+      .sv-currentfg { color: #d9d9d9 !important; background: {{ defCol(page.color) }} !important; }
+      .sv-currentfg-D3 { color: #d9d9d9 !important; background: {{ defColD3(page.colorD3) }} !important; }
   </style>
 
 <body class="{% if message is not null and message.modalWithButtons %}sv-back-modal{% elseif not page.hasSessionToCommit and page.isReadOnly %}sv-back-readOnly{% elseif page.isDocumentSearch %}sv-back-no-session{% else %}sv-back-session{% endif %}"

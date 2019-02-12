@@ -5653,7 +5653,7 @@
       <node concept="3clFbS" id="1ZjRqWr8Irh" role="2VODD2">
         <node concept="3clFbF" id="1ZjRqWr8Iri" role="3cqZAp">
           <node concept="Xl_RD" id="1ZjRqWr8Irj" role="3clFbG">
-            <property role="Xl_RC" value="Create TEST for ViewObject and NoKeyMapping for SQL-Query" />
+            <property role="Xl_RC" value="Create TEST for SQL-Query" />
           </node>
         </node>
       </node>
@@ -5769,45 +5769,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="1ZjRqWr8Nbs" role="3cqZAp" />
-      </node>
-    </node>
-    <node concept="2SaL7w" id="1ZjRqWr8JMv" role="2ZfVeh">
-      <node concept="3clFbS" id="1ZjRqWr8JMw" role="2VODD2">
-        <node concept="3cpWs8" id="1ZjRqWr8KZZ" role="3cqZAp">
-          <node concept="3cpWsn" id="1ZjRqWr8L02" role="3cpWs9">
-            <property role="TrG5h" value="qfs" />
-            <node concept="3Tqbb2" id="1ZjRqWr8KZX" role="1tU5fm">
-              <ref role="ehGHo" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
-            </node>
-            <node concept="2OqwBi" id="1ZjRqWr8JYD" role="33vP2m">
-              <node concept="2Sf5sV" id="1ZjRqWr8JV_" role="2Oq$k0" />
-              <node concept="2Xjw5R" id="1ZjRqWr8K6V" role="2OqNvi">
-                <node concept="1xMEDy" id="1ZjRqWr8K6X" role="1xVPHs">
-                  <node concept="chp4Y" id="1ZjRqWr8KiT" role="ri$Ld">
-                    <ref role="cht4Q" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3cpWs6" id="1ZjRqWr8LKt" role="3cqZAp">
-          <node concept="2OqwBi" id="1ZjRqWr8MHA" role="3cqZAk">
-            <node concept="2OqwBi" id="1ZjRqWr8Muz" role="2Oq$k0">
-              <node concept="37vLTw" id="1ZjRqWr8Mr6" role="2Oq$k0">
-                <ref role="3cqZAo" node="1ZjRqWr8L02" resolve="qfs" />
-              </node>
-              <node concept="3TrEf2" id="1ZjRqWr8MAB" role="2OqNvi">
-                <ref role="3Tt5mk" to="r5tz:42_QlHqGoce" />
-              </node>
-            </node>
-            <node concept="1mIQ4w" id="1ZjRqWr8MRs" role="2OqNvi">
-              <node concept="chp4Y" id="1ZjRqWr8MWW" role="cj9EA">
-                <ref role="cht4Q" to="r5tz:FplMljbxON" resolve="NoKeyMapperFieldRef" />
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>

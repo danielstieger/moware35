@@ -96,6 +96,7 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
+      <concept id="1140133623887" name="jetbrains.mps.lang.smodel.structure.Node_DeleteOperation" flags="nn" index="1PgB_6" />
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
         <reference id="1140138128738" name="concept" index="1PxNhF" />
         <child id="1140138123956" name="leftExpression" index="1PxMeX" />
@@ -314,6 +315,31 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="59yQXoMlMCq">
+    <property role="TrG5h" value="RemoveSqlRichText" />
+    <property role="2ZfUl0" value="true" />
+    <property role="3GE5qa" value="customsql" />
+    <ref role="2ZfgGC" to="r5tz:6TB1IkohjIs" resolve="SqlString" />
+    <node concept="2S6ZIM" id="59yQXoMlMCr" role="2ZfVej">
+      <node concept="3clFbS" id="59yQXoMlMCs" role="2VODD2">
+        <node concept="3clFbF" id="59yQXoMlMKB" role="3cqZAp">
+          <node concept="Xl_RD" id="59yQXoMlMKA" role="3clFbG">
+            <property role="Xl_RC" value="Delete this SQL string." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="59yQXoMlMCt" role="2ZfgGD">
+      <node concept="3clFbS" id="59yQXoMlMCu" role="2VODD2">
+        <node concept="3clFbF" id="59yQXoMlN0g" role="3cqZAp">
+          <node concept="2OqwBi" id="59yQXoMlN2h" role="3clFbG">
+            <node concept="2Sf5sV" id="59yQXoMlN0e" role="2Oq$k0" />
+            <node concept="1PgB_6" id="59yQXoMlN7X" role="2OqNvi" />
           </node>
         </node>
       </node>

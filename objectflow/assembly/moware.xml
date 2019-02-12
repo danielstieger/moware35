@@ -52,9 +52,8 @@
 
 	<property name="mowarePluginHomeDir"      value="${user.home}/.MPS33/config/plugins/moware" />
 	<property name="mowareMpsHomeDir"         value="C:/javaexe/MPS335" />
-	<property name="mowareWorkDir"       value="work" />
-
-  <property name="appFavicon"     value="./favicon.ico" /> 
+	<property name="mowareWorkDir"       	  value="work" />
+	<property name="appFavicon"     		  value="./favicon.ico" /> 
 	
 	
 	<target name="fx8forms">
@@ -94,12 +93,14 @@
 	
 	<target name="h2forms">
 		<!--     H2 forms settings      -->
-		<property name="h2formsAppLoader"     value="org.modellwerkstatt.h2forms.core.H2ApplicationLoader" /> 
-  	<property name="h2formsTemplate1"      value="template_leg" /> 
+		<property name="h2formsAppLoader"      value="org.modellwerkstatt.h2forms.core.H2ApplicationLoader" /> 
+  		<property name="h2formsTemplate1"      value="template_leg" /> 
 		<property name="h2formsTemplate2"      value="template_suivant" /> 
 
     <echo>Copying moware.h2forms dependencies to ${mowareWorkDir}/WEB-INF/lib   
-                                   and ${mowareWorkDir}s/static </echo>
+                         			 and ${mowareWorkDir}s/static 
+                         			 homescreen ${appHomeScreen} </echo>
+                                   
 		<mkdir dir="${mowareWorkDir}/META-INF"/>
 		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
 

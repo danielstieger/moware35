@@ -405,7 +405,7 @@
       <node concept="17QB3L" id="4QTIUTCpC24" role="1tU5fm" />
       <node concept="3Tm6S6" id="4QTIUTCpBjC" role="1B3o_S" />
       <node concept="Xl_RD" id="4QTIUTCpC73" role="33vP2m">
-        <property role="Xl_RC" value="/Users/danielstieger/h2hardlog.txt" />
+        <property role="Xl_RC" value="/home/daniels/h2hardlog.txt" />
       </node>
     </node>
     <node concept="Wx3nA" id="Gy0DA$Zk4e" role="jymVt">
@@ -10368,29 +10368,6 @@
         </node>
       </node>
       <node concept="3clFbS" id="kWPevMdd54" role="3clF47">
-        <node concept="1X3_iC" id="6zVU6_jHeld" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="3clFbF" id="5hYsHqQ$hCj" role="8Wnug">
-            <node concept="2YIFZM" id="5hYsHqQ$hI5" role="3clFbG">
-              <ref role="37wK5l" node="4QTIUTCpF18" resolve="hardLog" />
-              <ref role="1Pybhc" node="3h3MBx3irbo" resolve="H2ApplicationLoader" />
-              <node concept="3cpWs3" id="5hYsHqQ$hTH" role="37wK5m">
-                <node concept="1eOMI4" id="7r26jiO6Zy5" role="3uHU7w">
-                  <node concept="3clFbC" id="7r26jiO6ZFA" role="1eOMHV">
-                    <node concept="10Nm6u" id="7r26jiO6ZI0" role="3uHU7w" />
-                    <node concept="37vLTw" id="7r26jiO6Zy6" role="3uHU7B">
-                      <ref role="3cqZAo" node="kWPevMddpN" resolve="appController" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="Xl_RD" id="5hYsHqQ$hJC" role="3uHU7B">
-                  <property role="Xl_RC" value="H2Application.VALUE_UNBOUND() appCrtl null: " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="4cdUWYrY0$s" role="3cqZAp">
           <node concept="1rXfSq" id="4cdUWYrY0$q" role="3clFbG">
             <ref role="37wK5l" node="4cdUWYrXYuF" resolve="externalCloseApplicationWithSessionId" />
@@ -10437,7 +10414,6 @@
                     <property role="3SKdUp" value="do not clean up this app" />
                   </node>
                 </node>
-                <node concept="3clFbH" id="4cdUWYrKK_f" role="3cqZAp" />
               </node>
               <node concept="1rXfSq" id="4cdUWYrLKdb" role="3clFbw">
                 <ref role="37wK5l" node="4cdUWYrLBYi" resolve="origSessionButApplicationTakenOver" />
