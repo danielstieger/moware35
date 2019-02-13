@@ -177,9 +177,6 @@
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1173122760281" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorsOperation" flags="nn" index="z$bX8" />
-      <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
-      </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1154546920561" name="jetbrains.mps.lang.smodel.structure.OperationParm_ConceptList" flags="ng" index="3gmYPX">
         <child id="1154546920563" name="concept" index="3gmYPZ" />
@@ -189,6 +186,9 @@
       </concept>
       <concept id="1182511038748" name="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" flags="nn" index="1j9C0f">
         <reference id="1182511038750" name="concept" index="1j9C0d" />
+      </concept>
+      <concept id="1176109685393" name="jetbrains.mps.lang.smodel.structure.Model_RootsIncludingImportedOperation" flags="nn" index="3lApI0">
+        <reference id="1176109685394" name="concept" index="3lApI3" />
       </concept>
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
@@ -259,11 +259,11 @@
       <ref role="1N5Vy1" to="r5tz:Kou8LehH1X" />
       <node concept="1MUpDS" id="Kou8LehLJi" role="1N6uqs">
         <node concept="3clFbS" id="Kou8LehLJj" role="2VODD2">
-          <node concept="3clFbF" id="Kou8LehLJk" role="3cqZAp">
-            <node concept="2OqwBi" id="Kou8LehLJo" role="3clFbG">
-              <node concept="1Q6Npb" id="Kou8LehLJl" role="2Oq$k0" />
-              <node concept="2RRcyG" id="Kou8LehLJu" role="2OqNvi">
-                <ref role="2RRcyH" to="tpee:fz12cDA" resolve="ClassConcept" />
+          <node concept="3clFbF" id="4bjBXGryldL" role="3cqZAp">
+            <node concept="2OqwBi" id="4bjBXGrylfA" role="3clFbG">
+              <node concept="1Q6Npb" id="4bjBXGryldK" role="2Oq$k0" />
+              <node concept="3lApI0" id="4bjBXGryliP" role="2OqNvi">
+                <ref role="3lApI3" to="tpee:fz12cDA" resolve="ClassConcept" />
               </node>
             </node>
           </node>
