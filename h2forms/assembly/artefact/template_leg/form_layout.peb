@@ -1,4 +1,4 @@
-{% if titleText %} <p> {{ titleText }} </p> {% endif %}
+{% if titleText is not null %} <p> {{ titleText }} </p> {% endif %}
 {% if actions is not null %}
     <div class="fcButtonsDiv">
     {% for act in actions %}
