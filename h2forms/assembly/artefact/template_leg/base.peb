@@ -58,9 +58,13 @@
             <div id="dbgFld" class="rightCustomHeaderDivLine2"> </div>
 
             <h1 onclick="javascript: window.location=window.location;">
+			{% if page.chrumbs is not null %}
 			{% for chrumb in page.chrumbs %}
                 <div id="chrumbdiv{{ loop.index }}" {% if loop.index == 0 %}class="currentfg"{% endif %}> {{ chrumb }} </div>
 			{% endfor %}
+			{% else %}
+				<div id="chrumbdiv0" class="currentfg">{{ client.appVersionInfo }}</div>
+			{% endif %}
             </h1>
         </header>
         <div class="scrollMask"></div>

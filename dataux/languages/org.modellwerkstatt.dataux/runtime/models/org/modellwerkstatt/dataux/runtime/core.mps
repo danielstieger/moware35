@@ -7120,7 +7120,7 @@
                   <node concept="3cpWs3" id="3u2T0a7tEIr" role="37wK5m">
                     <node concept="3cpWs3" id="3u2T0a7tEIs" role="3uHU7B">
                       <node concept="Xl_RD" id="3u2T0a7tEIt" role="3uHU7w">
-                        <property role="Xl_RC" value="-" />
+                        <property role="Xl_RC" value=" " />
                       </node>
                       <node concept="2OqwBi" id="3u2T0a7tEIu" role="3uHU7B">
                         <node concept="37vLTw" id="3u2T0a7tEIv" role="2Oq$k0">
@@ -20648,6 +20648,25 @@
   <node concept="312cEu" id="SQhsWRUr6_">
     <property role="TrG5h" value="CoreReporter" />
     <property role="1sVAO0" value="true" />
+    <node concept="Wx3nA" id="5tY3Zy1St1S" role="jymVt">
+      <property role="TrG5h" value="GLOBAL_LOG_SLOT" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="5tY3Zy1SvG5" role="1B3o_S" />
+      <node concept="17QB3L" id="5tY3Zy1Su11" role="1tU5fm" />
+      <node concept="Xl_RD" id="5tY3Zy1Suyr" role="33vP2m">
+        <property role="Xl_RC" value="globallog" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="5tY3Zy1Sw0V" role="jymVt">
+      <property role="TrG5h" value="USER_LOG_SLOT" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm1VV" id="5tY3Zy1Sw0W" role="1B3o_S" />
+      <node concept="17QB3L" id="5tY3Zy1Sw0X" role="1tU5fm" />
+      <node concept="Xl_RD" id="5tY3Zy1Sx0t" role="33vP2m">
+        <property role="Xl_RC" value="userlog" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5tY3Zy1SuH0" role="jymVt" />
     <node concept="312cEg" id="2ppo89mfsS6" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -20687,7 +20706,7 @@
       <node concept="17QB3L" id="4n24ZlEyejn" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="4n24ZlEy_i1" role="jymVt">
-      <property role="TrG5h" value="systemInfo" />
+      <property role="TrG5h" value="appVersionInfo" />
       <node concept="3Tmbuc" id="4n24ZlEy_i2" role="1B3o_S" />
       <node concept="17QB3L" id="4n24ZlEy_i3" role="1tU5fm" />
     </node>
@@ -20895,6 +20914,7 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="5tY3Zy1RYHi" role="jymVt" />
     <node concept="2tJIrI" id="5YG5DD8XtN3" role="jymVt" />
     <node concept="3clFb_" id="2ppo89mgo8P" role="jymVt">
       <property role="TrG5h" value="userLoggedIn" />
@@ -20987,7 +21007,7 @@
               <ref role="3cqZAo" node="3u2T0a7sezk" resolve="sysInfo" />
             </node>
             <node concept="37vLTw" id="4n24ZlEyAb0" role="37vLTJ">
-              <ref role="3cqZAo" node="4n24ZlEy_i1" resolve="systemInfo" />
+              <ref role="3cqZAo" node="4n24ZlEy_i1" resolve="appVersionInfo" />
             </node>
           </node>
         </node>
@@ -21182,8 +21202,8 @@
               <node concept="37vLTw" id="4X6$QoYxTSN" role="37wK5m">
                 <ref role="3cqZAo" node="cMAJ_Mgdmb" resolve="lastInteraction" />
               </node>
-              <node concept="Xl_RD" id="4X6$QoYxTSO" role="37wK5m">
-                <property role="Xl_RC" value="userlog" />
+              <node concept="37vLTw" id="5tY3Zy1SxcZ" role="37wK5m">
+                <ref role="3cqZAo" node="5tY3Zy1Sw0V" resolve="USER_LOG_SLOT" />
               </node>
               <node concept="37vLTw" id="4X6$QoYxUxg" role="37wK5m">
                 <ref role="3cqZAo" node="4n24ZlExVl7" resolve="msg" />
@@ -21298,7 +21318,10 @@
               <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
               <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
               <node concept="Xl_RD" id="cMAJ_MgzVu" role="37wK5m">
-                <property role="Xl_RC" value="%5d%s%25s%s %s" />
+                <property role="Xl_RC" value="%25s%5d%s%25s%s %s" />
+              </node>
+              <node concept="37vLTw" id="5tY3Zy1S7O$" role="37wK5m">
+                <ref role="3cqZAo" node="4n24ZlEy_i1" resolve="appVersionInfo" />
               </node>
               <node concept="37vLTw" id="cMAJ_Mg$fm" role="37wK5m">
                 <ref role="3cqZAo" node="cMAJ_Mg8gg" resolve="msTaken" />
@@ -21390,8 +21413,8 @@
               <node concept="37vLTw" id="1YUU7GW1qC1" role="37wK5m">
                 <ref role="3cqZAo" node="cMAJ_Mgdmb" resolve="lastInteraction" />
               </node>
-              <node concept="Xl_RD" id="4X6$QoYxTrW" role="37wK5m">
-                <property role="Xl_RC" value="globallog" />
+              <node concept="37vLTw" id="5tY3Zy1SvSL" role="37wK5m">
+                <ref role="3cqZAo" node="5tY3Zy1St1S" resolve="GLOBAL_LOG_SLOT" />
               </node>
               <node concept="37vLTw" id="1YUU7GW5gNh" role="37wK5m">
                 <ref role="3cqZAo" node="1YUU7GW5giy" resolve="completeMsg" />
@@ -21437,7 +21460,7 @@
                         <property role="Xl_RC" value=" - " />
                       </node>
                       <node concept="37vLTw" id="63IPdUQEmu4" role="3uHU7B">
-                        <ref role="3cqZAo" node="4n24ZlEy_i1" resolve="systemInfo" />
+                        <ref role="3cqZAo" node="4n24ZlEy_i1" resolve="appVersionInfo" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="2ppo89mgr7O" role="3uHU7w">
@@ -24856,7 +24879,7 @@
                       <property role="Xl_RC" value="* * * ApplicationStateInformation " />
                     </node>
                     <node concept="37vLTw" id="4n24ZlEyBgt" role="3uHU7w">
-                      <ref role="3cqZAo" node="4n24ZlEy_i1" resolve="systemInfo" />
+                      <ref role="3cqZAo" node="4n24ZlEy_i1" resolve="appVersionInfo" />
                     </node>
                   </node>
                   <node concept="Xl_RD" id="4n24ZlEwiMQ" role="3uHU7w">
@@ -32790,16 +32813,6 @@
             <node concept="10Nm6u" id="63VjT6lJ0b0" role="37vLTx" />
             <node concept="37vLTw" id="63VjT6lJ011" role="37vLTJ">
               <ref role="3cqZAo" node="63VjT6lIXMb" resolve="dynParameterProvider" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5YEYfHwTS9p" role="3cqZAp">
-          <node concept="2OqwBi" id="5YEYfHwTSws" role="3clFbG">
-            <node concept="37vLTw" id="5YEYfHwTS9n" role="2Oq$k0">
-              <ref role="3cqZAo" node="5YEYfHwQ7Tg" resolve="initialLocalSelection" />
-            </node>
-            <node concept="liA8E" id="5YEYfHwTSDH" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.clear():void" resolve="clear" />
             </node>
           </node>
         </node>
