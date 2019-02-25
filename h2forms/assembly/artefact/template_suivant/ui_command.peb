@@ -12,7 +12,7 @@
     {% for conc in conclusions %}
         {% if loop.first %}
             <button type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"
-            {% if not conc.enabled %} disabled {% endif %} id="cnc_{{ conc.triggerCode }}"> <i class="material-icons"> arrow_back </i></button>
+            {% if not conc.enabled %} disabled {% endif %} id="cnc_{{ conc.triggerCode }}"> <i class="material-icons"> &#xe5c4; </i></button>
             <span class="w3-bar-item sv-bartitle"> {{ windowTitle }} </span>
             <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
                 <button type="button" class="w3-bar-item w3-button" onclick="svLogout();">Logout</button>

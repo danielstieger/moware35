@@ -89,6 +89,11 @@ document.addEventListener('DOMContentLoaded', function() {
         hwFlagBeep(1000);
     }
 
+    var scrollToMeElement = $('div.activelyScrollToMe');
+    if (scrollToMeElement) {
+        scrollToMeElement.scrollIntoView();
+    }
+
     setTimeout(function() {
             svAdjustFocus();
         	}, 400);
