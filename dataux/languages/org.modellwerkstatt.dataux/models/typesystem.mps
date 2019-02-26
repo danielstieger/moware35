@@ -7396,5 +7396,35 @@
       <ref role="1YaFvo" to="1btx:2B50FNWXTFI" resolve="OptIncludeBatchUi" />
     </node>
   </node>
+  <node concept="1YbPZF" id="3OfvFtmn_JV">
+    <property role="TrG5h" value="typeof_StartupCommandCall" />
+    <property role="3GE5qa" value="uimodule" />
+    <node concept="3clFbS" id="3OfvFtmn_JW" role="18ibNy">
+      <node concept="1Z5TYs" id="3OfvFtmn_VA" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="3OfvFtmn_VY" role="1ZfhKB">
+          <node concept="2c44tf" id="3OfvFtmn_VU" role="mwGJk">
+            <node concept="10P_77" id="3OfvFtmn_Wk" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="3OfvFtmn_VD" role="1ZfhK$">
+          <node concept="1Z2H0r" id="3OfvFtmn_Kt" role="mwGJk">
+            <node concept="2OqwBi" id="3OfvFtmn_NC" role="1Z2MuG">
+              <node concept="1YBJjd" id="3OfvFtmn_KT" role="2Oq$k0">
+                <ref role="1YBMHb" node="3OfvFtmn_JY" resolve="startupCommandCall" />
+              </node>
+              <node concept="3TrEf2" id="3OfvFtmn_Tz" role="2OqNvi">
+                <ref role="3Tt5mk" to="1btx:3OfvFtmn_Hu" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="3OfvFtmn_JY" role="1YuTPh">
+      <property role="TrG5h" value="startupCommandCall" />
+      <ref role="1YaFvo" to="1btx:3OfvFtmn_Ez" resolve="StartupCommandCall" />
+    </node>
+  </node>
 </model>
 

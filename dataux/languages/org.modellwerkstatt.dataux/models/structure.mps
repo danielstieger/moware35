@@ -918,6 +918,11 @@
     <property role="R4oN_" value="application with UI" />
     <property role="3GE5qa" value="uimodule" />
     <ref role="1TJDcQ" to="un0u:6ffh1MXA9UE" resolve="Container" />
+    <node concept="1TJgyj" id="3OfvFtmlqEF" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="onStartupCmd" />
+      <ref role="20lvS9" node="3OfvFtmn_Ez" resolve="StartupCommandCall" />
+    </node>
     <node concept="1TJgyj" id="3yttyAVb68W" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="configuredComponents" />
@@ -1252,7 +1257,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="configuration" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="un0u:q_zDmI5v5l" resolve="Config" />
+      <ref role="20lvS9" to="un0u:q_zDmI5v5l" resolve="OFXConfig" />
     </node>
     <node concept="1TJgyj" id="2N7eHMakYJu" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1438,6 +1443,27 @@
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
     <node concept="PrWs8" id="4h8GofeXcEz" role="PzmwI">
       <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3OfvFtmn_Ez">
+    <property role="1pbfSe" value="1821517478" />
+    <property role="3GE5qa" value="uimodule" />
+    <property role="TrG5h" value="StartupCommandCall" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3OfvFtmn_Hu" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="enabledCondition" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="3OfvFtmwVS5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="commandCall" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="un0u:3n7eUMgsANq" resolve="CommandCallBasis" />
+    </node>
+    <node concept="PrWs8" id="3OfvFtmn_EZ" role="PzmwI">
+      <ref role="PrY4T" to="un0u:6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
   </node>
 </model>

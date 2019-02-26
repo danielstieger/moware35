@@ -17,6 +17,7 @@
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="q1sf" ref="r:ef9c70a3-ad04-4165-a5aa-0013bf6d0c5a(org.modellwerkstatt.manmap.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -2186,6 +2187,16 @@
       </node>
       <node concept="3F0ifn" id="6K73LRuYaX5" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2BstE" role="3EZMnx" />
+      <node concept="3F0ifn" id="3OfvFtmnAbL" role="3EZMnx">
+        <property role="3F0ifm" value="startup command to run:" />
+        <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
+      </node>
+      <node concept="3F1sOY" id="3OfvFtmnAqN" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;no startup cmd&gt;" />
+        <ref role="1NtTu8" to="1btx:3OfvFtmlqEF" />
+      </node>
+      <node concept="3F0ifn" id="3OfvFtmnAlO" role="3EZMnx" />
+      <node concept="3F0ifn" id="3OfvFtmnAbQ" role="3EZMnx" />
       <node concept="3F0ifn" id="61VVfi2Bsub" role="3EZMnx">
         <property role="3F0ifm" value="main menu for this module:" />
         <ref role="1k5W1q" to="z8tr:7i5NrsZlm8b" resolve="O2Section" />
@@ -3074,6 +3085,28 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3OfvFtmn_H_">
+    <property role="3GE5qa" value="uimodule" />
+    <ref role="1XX52x" to="1btx:3OfvFtmn_Ez" resolve="StartupCommandCall" />
+    <node concept="3EZMnI" id="3OfvFtmn_I2" role="2wV5jI">
+      <node concept="3F0ifn" id="3OfvFtmn_J_" role="3EZMnx">
+        <property role="3F0ifm" value="when" />
+        <ref role="1k5W1q" to="q1sf:Kou8Lei6h5" resolve="TecDetail" />
+      </node>
+      <node concept="3F1sOY" id="3OfvFtmn_I9" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;true&gt;" />
+        <ref role="1NtTu8" to="1btx:3OfvFtmn_Hu" />
+      </node>
+      <node concept="3F0ifn" id="3OfvFtmn_JJ" role="3EZMnx">
+        <property role="3F0ifm" value="run" />
+        <ref role="1k5W1q" to="q1sf:Kou8Lei6h5" resolve="TecDetail" />
+      </node>
+      <node concept="3F1sOY" id="3OfvFtmwVSg" role="3EZMnx">
+        <ref role="1NtTu8" to="1btx:3OfvFtmwVS5" />
+      </node>
+      <node concept="l2Vlx" id="3OfvFtmn_I5" role="2iSdaV" />
     </node>
   </node>
 </model>

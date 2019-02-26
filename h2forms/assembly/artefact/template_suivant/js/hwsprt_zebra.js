@@ -190,6 +190,8 @@ function hwFlagBeep(t){
 
 function hwExit(){
     try {
+        EB.Sip.resetToDefault();
+        EB.Sip.show();
         EB.Application.quit();
     } catch(err) {
         svLog('hwExit', 'EX while trying EB.Application.quit. ' + err);
