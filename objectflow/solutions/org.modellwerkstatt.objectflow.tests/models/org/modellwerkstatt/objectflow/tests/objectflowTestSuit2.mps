@@ -304,6 +304,9 @@
         <reference id="4533072425307838444" name="status" index="2XvMaQ" />
         <reference id="1707329006119989962" name="element" index="1Vchh_" />
       </concept>
+      <concept id="4533072425307800381" name="org.modellwerkstatt.objectflow.structure.StatusType" flags="ig" index="2XvVpB">
+        <reference id="6600213247848012755" name="status" index="3$lB4D" />
+      </concept>
       <concept id="1881524139084590827" name="org.modellwerkstatt.objectflow.structure.PageConclusion" flags="ng" index="10qiFn">
         <property id="1881524139085356503" name="conclusionType" index="10BtBF" />
         <reference id="8554054623635738995" name="label" index="2DFCCC" />
@@ -2106,7 +2109,7 @@
   </node>
   <node concept="2WPaUQ" id="5MCXLSnMi3q">
     <property role="TrG5h" value="Test Commands (deprecated)" />
-    <ref role="2WPtWl" to="mbq3:7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
+    <ref role="2WPtWl" to="mbq3:6VW5G62DV5y" resolve="MPreisOFXLdapConfig" />
     <node concept="3yPF9F" id="6BKPvpE4xY$" role="3yMuLx">
       <property role="TrG5h" value="Create CommandVariantInfo" />
       <node concept="37vLTG" id="5p$R$8zoAxi" role="3clF46">
@@ -6271,7 +6274,7 @@
   </node>
   <node concept="2WPaUQ" id="7pudXbEJVMv">
     <property role="TrG5h" value="Test Wizzard" />
-    <ref role="2WPtWl" to="mbq3:7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
+    <ref role="2WPtWl" to="mbq3:6VW5G62DV5y" resolve="MPreisOFXLdapConfig" />
     <node concept="1DZZI9" id="7pudXbEMBFo" role="38MLOi">
       <ref role="1DZZIc" to="mbq3:2i3o0hdVwMp" resolve="Creators" />
     </node>
@@ -8617,7 +8620,7 @@
   </node>
   <node concept="2WPaUQ" id="5zF9hZsDuXt">
     <property role="TrG5h" value="Test Service" />
-    <ref role="2WPtWl" to="mbq3:7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
+    <ref role="2WPtWl" to="mbq3:6VW5G62DV5y" resolve="MPreisOFXLdapConfig" />
     <node concept="3ulXEM" id="2SRXiXA4Nh2" role="23Ghgl">
       <property role="TrG5h" value="platform" />
       <node concept="3uibUv" id="2SRXiXA4Nl2" role="1tU5fm">
@@ -8654,6 +8657,77 @@
       </node>
     </node>
     <node concept="1DF_5m" id="5zF9hZsDuXu" role="3yMuLx" />
+    <node concept="3yPF9F" id="3OfvFtlCDqJ" role="3yMuLx">
+      <property role="TrG5h" value="Multistring - Print status" />
+      <node concept="3cqZAl" id="3OfvFtlCDCL" role="3clF45" />
+      <node concept="3clFbS" id="3OfvFtlCDqN" role="3clF47">
+        <node concept="3cpWs8" id="3OfvFtlCEdp" role="3cqZAp">
+          <node concept="3cpWsn" id="3OfvFtlCEds" role="3cpWs9">
+            <property role="TrG5h" value="s" />
+            <node concept="17QB3L" id="3OfvFtlCEdn" role="1tU5fm" />
+            <node concept="35AVbj" id="3OfvFtlCDKB" role="33vP2m">
+              <property role="35AVef" value="%st ok" />
+              <node concept="2XvMaL" id="3OfvFtlCE2X" role="35Gt3$">
+                <ref role="1Vchh_" to="mbq3:2i3o0he2lCO" resolve="on" />
+                <ref role="2XvMaQ" to="mbq3:2i3o0he2l$T" resolve="Active" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3OfvFtlCDIJ" role="3cqZAp">
+          <node concept="2OqwBi" id="3OfvFtlCEj4" role="1gVkn0">
+            <node concept="37vLTw" id="3OfvFtlCEhz" role="2Oq$k0">
+              <ref role="3cqZAo" node="3OfvFtlCEds" resolve="s" />
+            </node>
+            <node concept="liA8E" id="3OfvFtlCEr3" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="3OfvFtlCEH1" role="37wK5m">
+                <property role="Xl_RC" value="On ok" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3OfvFtm64Qf" role="3cqZAp" />
+        <node concept="3cpWs8" id="3OfvFtm652A" role="3cqZAp">
+          <node concept="3cpWsn" id="3OfvFtm652D" role="3cpWs9">
+            <property role="TrG5h" value="status" />
+            <node concept="2XvVpB" id="3OfvFtm652$" role="1tU5fm">
+              <ref role="3$lB4D" to="mbq3:5LYSiLABM5g" resolve="OnOff" />
+            </node>
+            <node concept="2XvMaL" id="3OfvFtm650N" role="33vP2m">
+              <ref role="2XvMaQ" to="mbq3:5LYSiLABM5g" resolve="OnOff" />
+              <ref role="1Vchh_" to="mbq3:5LYSiLABM5i" resolve="on" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3OfvFtm64Rq" role="3cqZAp">
+          <node concept="37vLTI" id="3OfvFtm64Tf" role="3clFbG">
+            <node concept="35AVbj" id="3OfvFtm64Ut" role="37vLTx">
+              <property role="35AVef" value="%st ok" />
+              <node concept="37vLTw" id="3OfvFtm655A" role="35Gt3$">
+                <ref role="3cqZAo" node="3OfvFtm652D" resolve="status" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3OfvFtm64Ro" role="37vLTJ">
+              <ref role="3cqZAo" node="3OfvFtlCEds" resolve="s" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3OfvFtm656j" role="3cqZAp">
+          <node concept="2OqwBi" id="3OfvFtm656k" role="1gVkn0">
+            <node concept="37vLTw" id="3OfvFtm656l" role="2Oq$k0">
+              <ref role="3cqZAo" node="3OfvFtlCEds" resolve="s" />
+            </node>
+            <node concept="liA8E" id="3OfvFtm656m" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="3OfvFtm656n" role="37wK5m">
+                <property role="Xl_RC" value="On_Short ok" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3yPF9F" id="5zF9hZsDv9m" role="3yMuLx">
       <property role="TrG5h" value="MultiString - Print BigDecimal." />
       <node concept="3cqZAl" id="5zF9hZsDvbc" role="3clF45" />
@@ -14095,7 +14169,7 @@
   </node>
   <node concept="2WPaUQ" id="6Lgq4tpieLM">
     <property role="TrG5h" value="Test RolesAndPermission" />
-    <ref role="2WPtWl" to="mbq3:7shQO0QvvlW" resolve="MPreisLolaTestSuitConfig" />
+    <ref role="2WPtWl" to="mbq3:6VW5G62DV5y" resolve="MPreisOFXLdapConfig" />
     <node concept="3yPF9F" id="6Lgq4tpifca" role="3yMuLx">
       <property role="TrG5h" value="Access static role - eval to true" />
       <node concept="3cqZAl" id="6Lgq4tpifcj" role="3clF45" />

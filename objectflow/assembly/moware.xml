@@ -210,6 +210,39 @@
 	
 	
 	
+	<target name="ofxbatchjob_print">
+		<echo>Copying moware.ofxbatchjob dependencies to ${mowareWorkDir}/WEB-INF/lib</echo>
+		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
+
+		<copy todir="${mowareWorkDir}/WEB-INF/lib">
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.objectflow.runtime.jar" />
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.manmap.runtime.jar" />
+
+			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
+							
+			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" /> 
+            <fileset dir="${mowarePluginHomeDir}/jars/printing21/" includes="*.jar" />   
+ 
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
+			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />
+		</copy>
+		
+		
+		<copy file="${mowarePluginHomeDir}/ofassembly/artefact/web.xml" tofile="${mowareWorkDir}/WEB-INF/web.xml" filtering="yes" overwrite="yes">
+		  <filterchain>
+			  <tokenfilter>
+				  <replaceregex pattern="APPLICATION_FQNAME"       replace="${appMainclass}"/>
+				  <replaceregex pattern="APPLICATION_CONFIG"       replace="${appConfiguration}"/>
+				  <replaceregex pattern="LOADER_FQNAME"            replace="${appMainclass}"/>
+				  <replaceregex pattern="APPLICATION_BUILDVERSION" replace="${appBuildVersion}"/>
+			  </tokenfilter>
+		  </filterchain>
+		</copy>
+
+	</target>
+	
+	
 	<target name="ofxbatchjob">
 		<echo>Copying moware.ofxbatchjob dependencies to ${mowareWorkDir}/WEB-INF/lib</echo>
 		<mkdir dir="${mowareWorkDir}/WEB-INF/lib"/>
@@ -221,8 +254,7 @@
 			<fileset dir="${mowarePluginHomeDir}/languages/MoWareLangAndSolutions/" includes="org.modellwerkstatt.dataux.runtime.jar" />
 							
 			<fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*.jar" />
-            <fileset dir="${mowarePluginHomeDir}/jars/basis/" includes="*spring*.jar, joda-time*.jar, commons-logging*.jar" />      
- 
+            
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-collections.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="mps-closures.jar" />
 			<fileset dir="${mowareMpsHomeDir}/lib/" includes="commons-lang-2.4.jar" />

@@ -5173,7 +5173,6 @@
     </node>
     <node concept="2tJIrI" id="19VJYqAvlVj" role="jymVt" />
     <node concept="2tJIrI" id="1Qo13pXrk9R" role="jymVt" />
-    <node concept="2tJIrI" id="1Qo13pXrkdF" role="jymVt" />
     <node concept="312cEg" id="1Qo13pXqrTE" role="jymVt">
       <property role="TrG5h" value="initBeforeRenderDone" />
       <node concept="3Tm6S6" id="1Qo13pXqrTF" role="1B3o_S" />
