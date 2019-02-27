@@ -7802,6 +7802,43 @@
               </node>
             </node>
             <node concept="3clFbH" id="2CZV3d2XcNE" role="3cqZAp" />
+            <node concept="3cpWs8" id="2G0kEsKHsXx" role="3cqZAp">
+              <node concept="3cpWsn" id="2G0kEsKHsXy" role="3cpWs9">
+                <property role="TrG5h" value="cmdStart" />
+                <node concept="3uibUv" id="2G0kEsKHsXz" role="1tU5fm">
+                  <ref role="3uigEE" node="7_LnCNXPtES" resolve="BasisCmdStart" />
+                </node>
+                <node concept="2OqwBi" id="2G0kEsKHtHZ" role="33vP2m">
+                  <node concept="37vLTw" id="2G0kEsKHtBu" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2ppo89mdSpM" resolve="applicationBehaviour" />
+                  </node>
+                  <node concept="liA8E" id="2G0kEsKHtZb" role="2OqNvi">
+                    <ref role="37wK5l" to="yg8v:3OfvFtmCgsZ" resolve="createStartupCmd" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="2G0kEsKHuOd" role="3cqZAp">
+              <node concept="3clFbS" id="2G0kEsKHuOf" role="3clFbx">
+                <node concept="3clFbF" id="2G0kEsKHw$G" role="3cqZAp">
+                  <node concept="2OqwBi" id="2G0kEsKHxm5" role="3clFbG">
+                    <node concept="Xjq3P" id="2G0kEsKHxkQ" role="2Oq$k0" />
+                    <node concept="liA8E" id="2G0kEsKHxAZ" role="2OqNvi">
+                      <ref role="37wK5l" node="7_LnCNXOC77" resolve="receive" />
+                      <node concept="37vLTw" id="2G0kEsKHxYq" role="37wK5m">
+                        <ref role="3cqZAo" node="2G0kEsKHsXy" resolve="cmdStart" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="2G0kEsKHvTM" role="3clFbw">
+                <node concept="10Nm6u" id="2G0kEsKHvYC" role="3uHU7w" />
+                <node concept="37vLTw" id="2G0kEsKHvJh" role="3uHU7B">
+                  <ref role="3cqZAo" node="2G0kEsKHsXy" resolve="cmdStart" />
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="TDmWw" id="2CZV3d2XcNG" role="TEbGg">
             <node concept="3cpWsn" id="2CZV3d2XcNI" role="TDEfY">
@@ -10250,6 +10287,34 @@
           </node>
         </node>
         <node concept="3clFbH" id="3spXEPYHZaa" role="3cqZAp" />
+        <node concept="1X3_iC" id="7C2V1jU6Q3y" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="7C2V1jU4XUu" role="8Wnug">
+            <node concept="2OqwBi" id="7C2V1jU4XUr" role="3clFbG">
+              <node concept="10M0yZ" id="7C2V1jU4XUs" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              </node>
+              <node concept="liA8E" id="7C2V1jU4XUt" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="3cpWs3" id="7C2V1jU4Yrs" role="37wK5m">
+                  <node concept="2OqwBi" id="7C2V1jU4YOP" role="3uHU7w">
+                    <node concept="37vLTw" id="7C2V1jU4YDc" role="2Oq$k0">
+                      <ref role="3cqZAo" node="12Eg3QJiJka" resolve="runningTabCommandContainers" />
+                    </node>
+                    <node concept="liA8E" id="7C2V1jU4Z0a" role="2OqNvi">
+                      <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                    </node>
+                  </node>
+                  <node concept="Xl_RD" id="7C2V1jU4Y75" role="3uHU7B">
+                    <property role="Xl_RC" value="internal_closeAllRunningCmds() running cmds, size of tabs is now " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="50$EOT995ba" role="3cqZAp">
           <node concept="3clFbS" id="50$EOT995bc" role="3clFbx">
             <node concept="3SKdUt" id="938$Cs1_26" role="3cqZAp">
@@ -10265,6 +10330,29 @@
                 </node>
               </node>
               <node concept="3clFbS" id="50$EOT994qR" role="2LFqv$">
+                <node concept="1X3_iC" id="7C2V1jU6PXW" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="7C2V1jU5mUr" role="8Wnug">
+                    <node concept="2OqwBi" id="7C2V1jU5mUo" role="3clFbG">
+                      <node concept="10M0yZ" id="7C2V1jU5mUp" role="2Oq$k0">
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                      </node>
+                      <node concept="liA8E" id="7C2V1jU5mUq" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="3cpWs3" id="7C2V1jU5ooG" role="37wK5m">
+                          <node concept="37vLTw" id="7C2V1jU5oxG" role="3uHU7w">
+                            <ref role="3cqZAo" node="50$EOT994qP" resolve="c" />
+                          </node>
+                          <node concept="Xl_RD" id="7C2V1jU5mZn" role="3uHU7B">
+                            <property role="Xl_RC" value="internal_closeAllRunningCmds() - sending event CancelNoDlgEvent to " />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="50$EOT994qS" role="3cqZAp">
                   <node concept="2OqwBi" id="50$EOT994qT" role="3clFbG">
                     <node concept="1eOMI4" id="938$Cs1_j_" role="2Oq$k0">
@@ -17525,12 +17613,21 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="6Au2sPCLinr" role="3cqZAp">
-          <node concept="37vLTI" id="6Au2sPCLiN_" role="3clFbG">
-            <node concept="10Nm6u" id="6Au2sPCLiXE" role="37vLTx" />
-            <node concept="37vLTw" id="6Au2sPCLinp" role="37vLTJ">
-              <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
+        <node concept="1X3_iC" id="7C2V1jU65Uq" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="6Au2sPCLinr" role="8Wnug">
+            <node concept="37vLTI" id="6Au2sPCLiN_" role="3clFbG">
+              <node concept="10Nm6u" id="6Au2sPCLiXE" role="37vLTx" />
+              <node concept="37vLTw" id="6Au2sPCLinp" role="37vLTJ">
+                <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
+              </node>
             </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7C2V1jU6or0" role="3cqZAp">
+          <node concept="3SKdUq" id="7C2V1jU6or2" role="3SKWNk">
+            <property role="3SKdUp" value="dan spring 19 - do not uifactory to null, we use it for logging." />
           </node>
         </node>
         <node concept="3clFbF" id="2JDNIBMO8xY" role="3cqZAp">
@@ -26592,6 +26689,39 @@
       <node concept="3cqZAl" id="1nXeD0e_4Ci" role="3clF45" />
       <node concept="3Tm1VV" id="zBgVaD5RNm" role="1B3o_S" />
       <node concept="3clFbS" id="zBgVaD5RNn" role="3clF47">
+        <node concept="1X3_iC" id="7C2V1jU6NNk" role="lGtFl">
+          <property role="3V$3am" value="statement" />
+          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+          <node concept="3clFbF" id="7C2V1jU5uWr" role="8Wnug">
+            <node concept="2OqwBi" id="7C2V1jU5uWo" role="3clFbG">
+              <node concept="10M0yZ" id="7C2V1jU5uWp" role="2Oq$k0">
+                <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+              </node>
+              <node concept="liA8E" id="7C2V1jU5uWq" role="2OqNvi">
+                <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="3cpWs3" id="7C2V1jU5$81" role="37wK5m">
+                  <node concept="Xl_RD" id="7C2V1jU5$8J" role="3uHU7w">
+                    <property role="Xl_RC" value=" events." />
+                  </node>
+                  <node concept="3cpWs3" id="7C2V1jU5z5h" role="3uHU7B">
+                    <node concept="Xl_RD" id="7C2V1jU5vW$" role="3uHU7B">
+                      <property role="Xl_RC" value="EventCommandContainer.processPendingEvents() we will process " />
+                    </node>
+                    <node concept="2OqwBi" id="7C2V1jU5zuX" role="3uHU7w">
+                      <node concept="37vLTw" id="7C2V1jU5zom" role="2Oq$k0">
+                        <ref role="3cqZAo" node="7BWfrtCZtdh" resolve="containerEventQueue" />
+                      </node>
+                      <node concept="liA8E" id="7C2V1jU5zDc" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~Collection.size():int" resolve="size" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="5NnlNqu2jBY" role="3cqZAp">
           <node concept="3clFbS" id="5NnlNqu2jC0" role="3clFbx">
             <node concept="YS8fn" id="5NnlNqu2lSd" role="3cqZAp">
@@ -26701,6 +26831,30 @@
                     </node>
                   </node>
                 </node>
+                <node concept="1X3_iC" id="7C2V1jU6MR9" role="lGtFl">
+                  <property role="3V$3am" value="statement" />
+                  <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                  <node concept="3clFbF" id="7C2V1jU5_FO" role="8Wnug">
+                    <node concept="2OqwBi" id="7C2V1jU5_FP" role="3clFbG">
+                      <node concept="10M0yZ" id="7C2V1jU5_FQ" role="2Oq$k0">
+                        <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+                        <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+                      </node>
+                      <node concept="liA8E" id="7C2V1jU5_FR" role="2OqNvi">
+                        <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+                        <node concept="3cpWs3" id="7C2V1jU5_FU" role="37wK5m">
+                          <node concept="Xl_RD" id="7C2V1jU5_FV" role="3uHU7B">
+                            <property role="Xl_RC" value="EventCommandContainer.processPendingEvents() processing " />
+                          </node>
+                          <node concept="37vLTw" id="7C2V1jU5B5n" role="3uHU7w">
+                            <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="7C2V1jU5$OB" role="3cqZAp" />
                 <node concept="3clFbF" id="cMAJ_MgKEW" role="3cqZAp">
                   <node concept="37vLTI" id="cMAJ_MgLci" role="3clFbG">
                     <node concept="2YIFZM" id="cMAJ_MgLCz" role="37vLTx">

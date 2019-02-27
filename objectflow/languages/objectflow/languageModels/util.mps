@@ -1488,14 +1488,6 @@
             </node>
             <node concept="3clFbF" id="3uuuASvDO3H" role="3cqZAp">
               <node concept="37vLTI" id="3uuuASvE5xE" role="3clFbG">
-                <node concept="2OqwBi" id="3uuuASvLM5b" role="37vLTx">
-                  <node concept="37vLTw" id="35a9wK5SWUr" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1TGYwFrb0ze" resolve="theObject" />
-                  </node>
-                  <node concept="2qgKlT" id="35a9wK5T1ja" role="2OqNvi">
-                    <ref role="37wK5l" to="70o0:2vvVhmoLArJ" resolve="getName" />
-                  </node>
-                </node>
                 <node concept="2OqwBi" id="3uuuASvDZld" role="37vLTJ">
                   <node concept="2OqwBi" id="3uuuASvDUWH" role="2Oq$k0">
                     <node concept="37vLTw" id="35a9wK5SWFI" role="2Oq$k0">
@@ -1507,6 +1499,14 @@
                   </node>
                   <node concept="3TrcHB" id="3uuuASvE1a3" role="2OqNvi">
                     <ref role="3TsBF5" to="tpee:f$Xl_Oh" resolve="value" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="2G0kEsKFYb5" role="37vLTx">
+                  <node concept="37vLTw" id="2G0kEsKFYb6" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1TGYwFrj7V5" resolve="tok" />
+                  </node>
+                  <node concept="2OwXpG" id="2G0kEsKFYb7" role="2OqNvi">
+                    <ref role="2Oxat5" node="1TGYwFrhVsn" resolve="id" />
                   </node>
                 </node>
               </node>
