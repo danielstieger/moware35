@@ -108,7 +108,7 @@ function hwInitAfterDomReady(){
 
 
     var keyCallBack = function(event) {
-        console.log('keyCallBack() KeyCode received ' + event.keyCode);
+        // console.log('keyCallBack() KeyCode received ' + event.keyCode);
         if (event.keyCode == 13) {
             var allInputs = $$('input:enabled, select:enabled');
             var next = false;
@@ -138,23 +138,23 @@ function hwInitAfterDomReady(){
 
             } else{
                 // svLog('hwEnableScan', 'calling EB.Barcode.enable()');
-                EB.Barcode.enable({
-                    allDecoders:false,
-                    code128:true,
-                    code39:true,
-                    ean13:true,
-                    ean8:true,
-                    gs1dataBar:true,
-                    gs1dataBarExpanded:true,
-                    gs1dataBarLimited:true,
-                    pdf417:true,
-                    qrCode:true,
-                    dataMatrix:true,
-                    /* upcEanSupplemental5:true,
-                    upcEanSupplemental2:true,
-                    upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO, */
+                 EB.Barcode.enable({
+                           allDecoders:false,
+                           code128:true,
+                           code39:true,
+                           ean13:true,
+                           ean8:true,
+                           gs1dataBar:true,
+                           gs1dataBarExpanded:true,
+                           gs1dataBarLimited:true,
+                           pdf417:true,
+                           qrCode:true,
+                           dataMatrix:true,
+                           /* upcEanSupplemental5:true,
+                           upcEanSupplemental2:true,
+                           upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO, */
+                   }, zzScanReceived);
 
-                    }, zzScanReceived);
 
                 sessionStorage.setItem("isEBInitialized", "true");
             }
