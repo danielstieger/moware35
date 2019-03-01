@@ -136,9 +136,27 @@ function hwInitAfterDomReady(){
             if (isInit == "true") {
                 EB.Barcode.enable({}, zzScanReceived);
 
-            } else{
-                // svLog('hwEnableScan', 'calling EB.Barcode.enable()');
-                 EB.Barcode.enable({
+            } else {
+                 // svLog('hwEnableScan', 'calling EB.Barcode.enable()');
+                 /* EB.Barcode.setProperties({
+                                            allDecoders:false,
+                                            code128:true,
+                                            code39:true,
+                                            ean13:true,
+                                            ean8:true,
+                                            gs1dataBar:true,
+                                            gs1dataBarExpanded:true,
+                                            gs1dataBarLimited:true,
+                                            pdf417:true,
+                                            qrCode:true,
+                                            dataMatrix:true,
+                                            /* upcEanSupplemental5:true,
+                                            upcEanSupplemental2:true,
+                                            upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO,
+                                    }); */
+                 EB.Barcode.enable({}, zzScanReceived);
+
+                 /* EB.Barcode.enable({
                            allDecoders:false,
                            code128:true,
                            code39:true,
@@ -150,10 +168,8 @@ function hwInitAfterDomReady(){
                            pdf417:true,
                            qrCode:true,
                            dataMatrix:true,
-                           /* upcEanSupplemental5:true,
-                           upcEanSupplemental2:true,
-                           upcEanSupplementalMode:EB.Barcode.UPCEAN_AUTO, */
-                   }, zzScanReceived);
+
+                   }, zzScanReceived); */
 
 
                 sessionStorage.setItem("isEBInitialized", "true");
