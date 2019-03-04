@@ -4,6 +4,7 @@
 {% endmacro %}
 {% extends "./base.peb" %}
 {% block content %}
+        <!-- {{ keyboardScan }} / {{ conclusions|length }} -->
 <div class="w3-container w3-row sv-currentfg-D3" onclick="svHideAllContainsDropdown()">
     <div class="w3-col s8 w3-left-align">{{ client.additionalUserInfo }}&nbsp;</div>
     <div class="w3-col s4 w3-right-align">{{ client.username }}</div>
@@ -11,14 +12,19 @@
 <div class="w3-bar sv-currentfg" onclick="svHideAllContainsDropdown()">
     {% for conc in conclusions %}
         {% if loop.first %}
-            <button type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"
-            {% if not conc.enabled %} disabled {% endif %} id="cnc_{{ conc.triggerCode }}"> <i class="material-icons"> &#xe5c4; </i></button>
+           {% if scanConclusion is not null and conclusions|length > 2 %} <div class="w3-bar-item w3-button">&nbsp;</div>
+
+           {% else %}
+                <button type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"
+                {% if not conc.enabled %} disabled {% endif %} id="cnc_{{ conc.triggerCode }}"> <i class="material-icons"> close </i></button>
+           {% endif %}
+
             <span class="w3-bar-item sv-bartitle"> {{ windowTitle }} </span>
-            <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
-                <button type="button" class="w3-bar-item w3-button" onclick="svLogout();">Logout</button>
-                <button type="button" class="w3-bar-item w3-button" onclick="hwExit();">Exit Browser</button>
-            </div>
-        <div class="w3-right">
+                <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
+                    <button type="button" class="w3-bar-item w3-button" onclick="svLogout();">Logout</button>
+                    <button type="button" class="w3-bar-item w3-button" onclick="hwExit();">Exit Browser</button>
+                </div>
+            <div class="w3-right">
 
         {% elseif conc.visible and conc.hotKey equals "UPD" %}
             <input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">

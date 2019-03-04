@@ -39,8 +39,8 @@
     <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Visible" >
     <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
     <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Hidden" >
+    <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Visible" >
+    <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Visible" >
 {% else %}
     <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
     <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Hidden" >
