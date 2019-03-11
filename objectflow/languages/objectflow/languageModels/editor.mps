@@ -2900,6 +2900,9 @@
           <node concept="pVoyu" id="4W_zHnBGWvg" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
+          <node concept="3nxI2P" id="2YP3mGXJquC" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
         <node concept="3F1sOY" id="3IuMOEB7hjX" role="3EZMnx">
           <property role="1$x2rV" value="&lt;msg&gt;" />
@@ -4020,7 +4023,7 @@
     <ref role="1XX52x" to="un0u:1Csx3LqAMK0" resolve="OnTriggerTransition" />
     <node concept="3EZMnI" id="1Csx3LqAMK3" role="2wV5jI">
       <node concept="3F0ifn" id="1Csx3LqAMK6" role="3EZMnx">
-        <property role="3F0ifm" value="on trigger" />
+        <property role="3F0ifm" value="on action" />
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
       </node>
       <node concept="3EZMnI" id="1Csx3LqAGdl" role="3EZMnx">
@@ -5944,7 +5947,7 @@
     </node>
     <node concept="3EZMnI" id="2znuo4bOF8s" role="2wV5jI">
       <node concept="3F0ifn" id="2znuo4bOF8t" role="3EZMnx">
-        <property role="3F0ifm" value="on trigger" />
+        <property role="3F0ifm" value="on action" />
         <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
       </node>
       <node concept="3EZMnI" id="2znuo4bOF8u" role="3EZMnx">

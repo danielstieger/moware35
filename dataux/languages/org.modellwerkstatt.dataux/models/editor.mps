@@ -1023,7 +1023,7 @@
         </node>
       </node>
       <node concept="1iCGBv" id="7rG0OCdgX6a" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;object&gt;" />
+        <property role="1$x2rV" value="&lt;type&gt;" />
         <ref role="1NtTu8" to="1btx:7Cs1IG3kosY" />
         <node concept="1sVBvm" id="7rG0OCdgX6b" role="1sWHZn">
           <node concept="3F0A7n" id="7rG0OCdgX6c" role="2wV5jI">
