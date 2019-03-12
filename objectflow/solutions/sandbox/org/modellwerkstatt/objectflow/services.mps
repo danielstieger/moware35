@@ -41301,10 +41301,10 @@
     <property role="TrG5h" value="MoOptionalEventBus" />
     <node concept="3Tm1VV" id="1PUq9fiYGad" role="1B3o_S" />
     <node concept="Wx3nA" id="1SDXsyHoGu9" role="jymVt">
-      <property role="TrG5h" value="DEBUG" />
+      <property role="TrG5h" value="DEBUG_SENDER_RECEIVER" />
       <property role="3TUv4t" value="true" />
       <node concept="10P_77" id="1SDXsyHoGtl" role="1tU5fm" />
-      <node concept="3Tm6S6" id="1SDXsyHoFBx" role="1B3o_S" />
+      <node concept="3Tm1VV" id="7lZUamRmsMY" role="1B3o_S" />
       <node concept="3clFbT" id="1SDXsyHoIeW" role="33vP2m">
         <property role="3clFbU" value="true" />
       </node>
@@ -42036,6 +42036,19 @@
           <node concept="3clFbS" id="7HkVpVcZr9e" role="3clFbx">
             <node concept="SfApY" id="7HkVpVcZr9f" role="3cqZAp">
               <node concept="3clFbS" id="7HkVpVcZr9g" role="SfCbr">
+                <node concept="3clFbF" id="7lZUamRms4L" role="3cqZAp">
+                  <node concept="1rXfSq" id="7lZUamRms4J" role="3clFbG">
+                    <ref role="37wK5l" node="7lZUamRmsSh" resolve="dd" />
+                    <node concept="3cpWs3" id="7lZUamRmsj2" role="37wK5m">
+                      <node concept="37vLTw" id="7lZUamRmska" role="3uHU7w">
+                        <ref role="3cqZAo" node="7HkVpVcZqAb" resolve="json" />
+                      </node>
+                      <node concept="Xl_RD" id="7lZUamRmsbO" role="3uHU7B">
+                        <property role="Xl_RC" value="publis " />
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="7HkVpVcZr9F" role="3cqZAp">
                   <node concept="2OqwBi" id="7HkVpVcZr9G" role="3clFbG">
                     <node concept="37vLTw" id="7HkVpVcZr9H" role="2Oq$k0">
@@ -42569,14 +42582,10 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7HkVpVbZ1mx" role="jymVt" />
-    <node concept="3clFb_" id="1SDXsyHoJHc" role="jymVt">
+    <node concept="2YIFZL" id="7lZUamRmsSh" role="jymVt">
       <property role="TrG5h" value="dd" />
-      <node concept="37vLTG" id="1SDXsyHoLXt" role="3clF46">
-        <property role="TrG5h" value="msg" />
-        <node concept="17QB3L" id="1SDXsyHoLXC" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="1SDXsyHoJHe" role="3clF45" />
-      <node concept="3Tm1VV" id="1SDXsyHoJHf" role="1B3o_S" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
       <node concept="3clFbS" id="1SDXsyHoJHg" role="3clF47">
         <node concept="3clFbJ" id="1SDXsyHoMUm" role="3cqZAp">
           <node concept="3clFbS" id="1SDXsyHoMUo" role="3clFbx">
@@ -42593,7 +42602,7 @@
                       <ref role="3cqZAo" node="1SDXsyHoLXt" resolve="msg" />
                     </node>
                     <node concept="Xl_RD" id="1SDXsyHoMJ9" role="3uHU7B">
-                      <property role="Xl_RC" value="Eventbus: " />
+                      <property role="Xl_RC" value="EB.debug(): " />
                     </node>
                   </node>
                 </node>
@@ -42601,10 +42610,16 @@
             </node>
           </node>
           <node concept="37vLTw" id="1SDXsyHoMWF" role="3clFbw">
-            <ref role="3cqZAo" node="1SDXsyHoGu9" resolve="DEBUG" />
+            <ref role="3cqZAo" node="1SDXsyHoGu9" resolve="DEBUG_SENDER_RECEIVER" />
           </node>
         </node>
       </node>
+      <node concept="37vLTG" id="1SDXsyHoLXt" role="3clF46">
+        <property role="TrG5h" value="msg" />
+        <node concept="17QB3L" id="1SDXsyHoLXC" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="1SDXsyHoJHe" role="3clF45" />
+      <node concept="3Tm1VV" id="1SDXsyHoJHf" role="1B3o_S" />
     </node>
     <node concept="2tJIrI" id="1SDXsyHoIRj" role="jymVt" />
     <node concept="3clFb_" id="1YUU7GVWqDS" role="jymVt">
@@ -42727,6 +42742,20 @@
         </node>
       </node>
       <node concept="3clFbS" id="4NXmMPR2sNa" role="3clF47">
+        <node concept="3clFbF" id="7lZUamRmuzz" role="3cqZAp">
+          <node concept="2YIFZM" id="7lZUamRmu_L" role="3clFbG">
+            <ref role="37wK5l" node="7lZUamRmsSh" resolve="dd" />
+            <ref role="1Pybhc" node="1PUq9fiYGac" resolve="MoOptionalEventBus" />
+            <node concept="3cpWs3" id="7lZUamRmuLF" role="37wK5m">
+              <node concept="37vLTw" id="7lZUamRmuMw" role="3uHU7w">
+                <ref role="3cqZAo" node="4NXmMPR2sN7" resolve="msg" />
+              </node>
+              <node concept="Xl_RD" id="7lZUamRmuAZ" role="3uHU7B">
+                <property role="Xl_RC" value="EventbusHandler.handler received " />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="4NXmMPR2twr" role="3cqZAp">
           <node concept="2OqwBi" id="4NXmMPR2txa" role="3clFbG">
             <node concept="37vLTw" id="4NXmMPR2twq" role="2Oq$k0">

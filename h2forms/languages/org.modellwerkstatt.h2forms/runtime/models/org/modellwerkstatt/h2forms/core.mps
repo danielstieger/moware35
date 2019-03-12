@@ -2491,6 +2491,27 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3cpWs8" id="7wVqvO39ipI" role="3cqZAp">
+                  <node concept="3cpWsn" id="7wVqvO39ipL" role="3cpWs9">
+                    <property role="TrG5h" value="currentUserName" />
+                    <node concept="17QB3L" id="7wVqvO39ipG" role="1tU5fm" />
+                    <node concept="10QFUN" id="78d1$l3UeWy" role="33vP2m">
+                      <node concept="17QB3L" id="78d1$l3UeWz" role="10QFUM" />
+                      <node concept="2OqwBi" id="78d1$l3UeW$" role="10QFUP">
+                        <node concept="37vLTw" id="78d1$l3UeW_" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
+                        </node>
+                        <node concept="liA8E" id="78d1$l3UeWA" role="2OqNvi">
+                          <ref role="37wK5l" to="nwfd:~HttpSession.getAttribute(java.lang.String):java.lang.Object" resolve="getAttribute" />
+                          <node concept="Xl_RD" id="78d1$l3UeWB" role="37wK5m">
+                            <property role="Xl_RC" value="userName" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="7wVqvO39mLw" role="3cqZAp" />
                 <node concept="3clFbJ" id="Gy0DA_01XX" role="3cqZAp">
                   <node concept="3clFbS" id="Gy0DA_01XZ" role="3clFbx">
                     <node concept="3clFbF" id="kA5KhwfNGS" role="3cqZAp">
@@ -2579,34 +2600,22 @@
                         </node>
                       </node>
                     </node>
+                    <node concept="3clFbH" id="7wVqvO39o1C" role="3cqZAp" />
                     <node concept="3cpWs8" id="78d1$l3UdIh" role="3cqZAp">
                       <node concept="3cpWsn" id="78d1$l3UdIk" role="3cpWs9">
                         <property role="TrG5h" value="msg" />
                         <node concept="17QB3L" id="78d1$l3UdIf" role="1tU5fm" />
-                        <node concept="3cpWs3" id="78d1$l3UeWv" role="33vP2m">
-                          <node concept="Xl_RD" id="78d1$l3UeWw" role="3uHU7B">
-                            <property role="Xl_RC" value=" $ $ $ $ " />
-                          </node>
-                          <node concept="1eOMI4" id="78d1$l3UeWx" role="3uHU7w">
-                            <node concept="3cpWs3" id="78d1$l3UjaO" role="1eOMHV">
-                              <node concept="Xl_RD" id="78d1$l3UjbL" role="3uHU7w">
-                                <property role="Xl_RC" value=" $ IPCHANGE $ " />
-                              </node>
-                              <node concept="10QFUN" id="78d1$l3UeWy" role="3uHU7B">
-                                <node concept="17QB3L" id="78d1$l3UeWz" role="10QFUM" />
-                                <node concept="2OqwBi" id="78d1$l3UeW$" role="10QFUP">
-                                  <node concept="37vLTw" id="78d1$l3UeW_" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="5w_GCYFYLFX" resolve="session" />
-                                  </node>
-                                  <node concept="liA8E" id="78d1$l3UeWA" role="2OqNvi">
-                                    <ref role="37wK5l" to="nwfd:~HttpSession.getAttribute(java.lang.String):java.lang.Object" resolve="getAttribute" />
-                                    <node concept="Xl_RD" id="78d1$l3UeWB" role="37wK5m">
-                                      <property role="Xl_RC" value="userName" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
+                        <node concept="3cpWs3" id="7wVqvO39qPA" role="33vP2m">
+                          <node concept="3cpWs3" id="78d1$l3UeWv" role="3uHU7B">
+                            <node concept="Xl_RD" id="78d1$l3UeWw" role="3uHU7B">
+                              <property role="Xl_RC" value=" $ $ $ $ " />
                             </node>
+                            <node concept="37vLTw" id="7wVqvO39qKR" role="3uHU7w">
+                              <ref role="3cqZAo" node="7wVqvO39ipL" resolve="currentUserName" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="78d1$l3UjbL" role="3uHU7w">
+                            <property role="Xl_RC" value=" $ IPCHANGE $ " />
                           </node>
                         </node>
                       </node>
@@ -7688,11 +7697,11 @@
                       <property role="Xl_RC" value="conclusion_0" />
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="5tY3Zy1u0v$" role="3uHU7B">
-                    <node concept="37vLTw" id="5tY3Zy1u0oP" role="2Oq$k0">
+                  <node concept="2OqwBi" id="7wVqvO39x5Y" role="3uHU7B">
+                    <node concept="37vLTw" id="7wVqvO39x5Z" role="2Oq$k0">
                       <ref role="3cqZAo" node="kA5KhwhNnH" resolve="latestMessage" />
                     </node>
-                    <node concept="liA8E" id="5tY3Zy1u0Oc" role="2OqNvi">
+                    <node concept="liA8E" id="7wVqvO39x60" role="2OqNvi">
                       <ref role="37wK5l" node="7r26jiNZiKs" resolve="isUserQuestion" />
                     </node>
                   </node>

@@ -132,15 +132,13 @@ function hwInitAfterDomReady(){
     if (svScanEnabled()) {
         var isInit = sessionStorage.getItem("isEBInitialized");
 
-        svLog('hwEnableScan', 'sessionStorage isInit now ' + isInit);
-
         try {
             if (isInit == "true") {
                 EB.Barcode.enable({}, zzScanReceived);
 
             } else {
-                 svLog('hwEnableScan', 'calling EB.Barcode.setProperties()');
-                 EB.Barcode.setProperties({
+                 // svLog('hwEnableScan', 'calling EB.Barcode.enable()');
+                 EB.Barcode.enable({
                            allDecoders:false,
                            code128:true,
                            code39:true,
@@ -153,10 +151,7 @@ function hwInitAfterDomReady(){
                            qrCode:true,
                            dataMatrix:true,
 
-                    });
-
-                 svLog('hwEnableScan', 'calling EB.Barcode.enable()');
-                 EB.Barcode.enable({}, zzScanReceived);
+                   }, zzScanReceived);
 
                 sessionStorage.setItem("isEBInitialized", "true");
             }
