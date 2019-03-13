@@ -269,6 +269,14 @@
       <node concept="3Tm1VV" id="4X6$QoZ0B32" role="1B3o_S" />
       <node concept="10P_77" id="4X6$QoZ0B33" role="3clF45" />
     </node>
+    <node concept="3clFb_" id="4Z3lS8AGmF5" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getEventBusLocking" />
+      <node concept="3clFbS" id="4Z3lS8AGmF6" role="3clF47" />
+      <node concept="3Tm1VV" id="4Z3lS8AGmF7" role="1B3o_S" />
+      <node concept="10P_77" id="4Z3lS8AGmF8" role="3clF45" />
+    </node>
     <node concept="2tJIrI" id="4X6$QoZ0_9R" role="jymVt" />
     <node concept="3clFb_" id="5XGplYAWG3H" role="jymVt">
       <property role="1EzhhJ" value="true" />

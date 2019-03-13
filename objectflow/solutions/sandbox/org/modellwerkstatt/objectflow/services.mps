@@ -41305,9 +41305,7 @@
       <property role="3TUv4t" value="true" />
       <node concept="10P_77" id="1SDXsyHoGtl" role="1tU5fm" />
       <node concept="3Tm1VV" id="7lZUamRmsMY" role="1B3o_S" />
-      <node concept="3clFbT" id="1SDXsyHoIeW" role="33vP2m">
-        <property role="3clFbU" value="true" />
-      </node>
+      <node concept="3clFbT" id="1SDXsyHoIeW" role="33vP2m" />
     </node>
     <node concept="2tJIrI" id="1SDXsyHoHlt" role="jymVt" />
     <node concept="312cEg" id="1YUU7GVVOBU" role="jymVt">
