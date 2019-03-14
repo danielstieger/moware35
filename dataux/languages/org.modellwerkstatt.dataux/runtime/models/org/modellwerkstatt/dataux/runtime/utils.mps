@@ -2369,6 +2369,20 @@
           <property role="Xl_RC" value="An Error has occurred! The command was canceled." />
         </node>
       </node>
+      <node concept="QsSxf" id="2M4KcIRCo58" role="Qtgdg">
+        <property role="TrG5h" value="LOST_CONN_USER_ERROR" />
+        <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
+        <node concept="Xl_RD" id="2M4KcIRCo59" role="37wK5m">
+          <property role="Xl_RC" value="Die Datenbank-Verbindung wurde geschlossen! Ihre Bearbeitung wurde abgebrochen\nund beendet." />
+        </node>
+        <node concept="10Nm6u" id="2M4KcIRCo5a" role="37wK5m" />
+        <node concept="Xl_RD" id="2M4KcIRCo5b" role="37wK5m">
+          <property role="Xl_RC" value="Die Datenbank-Verbindung wurde geschlossen. Das Kommando wurde beendet!" />
+        </node>
+        <node concept="Xl_RD" id="2M4KcIRCo5c" role="37wK5m">
+          <property role="Xl_RC" value="The database connection was closed! The command was canceled." />
+        </node>
+      </node>
       <node concept="QsSxf" id="7iXVPHb52Pu" role="Qtgdg">
         <property role="TrG5h" value="SF_TEC_USER_ERROR_" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
@@ -2783,12 +2797,12 @@
         <property role="TrG5h" value="LOCK_NOT_GOT_READONLY" />
         <ref role="37wK5l" node="2zlZ_in69ho" resolve="DefaultTrans.Key" />
         <node concept="Xl_RD" id="1sUmI9zht9C" role="37wK5m">
-          <property role="Xl_RC" value="%s verwendet Ressourcen, die für die Ausführung des Kommandos notwendig sind (Kommando nur im Lesemodus)." />
+          <property role="Xl_RC" value="Kommando nur im Lesemodus! Benutzer %s bearbeitet ebenfalls gerade geforderte Ressourcen." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDm" role="37wK5m" />
         <node concept="10Nm6u" id="7r26jiNRWDn" role="37wK5m" />
         <node concept="Xl_RD" id="WkCinTf6cM" role="37wK5m">
-          <property role="Xl_RC" value="%s is using ressources which are necessary for this command. (command in read-only mode)" />
+          <property role="Xl_RC" value="Command in read-only mode! USer %s is using ressources which are necessary ." />
         </node>
       </node>
       <node concept="QsSxf" id="6G8jBJnC_iZ" role="Qtgdg">

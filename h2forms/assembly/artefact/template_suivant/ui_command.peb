@@ -42,11 +42,18 @@
     {% endfor %}
 </div>
 
+{% if notificationText is not null %}
+<div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">
+{{ notificationText }}
+</div>
+{% endif %}
+
 {% if flagText is not null %}
 <div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">
     {{ flagText }}
 </div>
 {% endif %}
+
 {% include "./messages.peb" %}
 {{ form.toHtml }}
 {% endblock %}

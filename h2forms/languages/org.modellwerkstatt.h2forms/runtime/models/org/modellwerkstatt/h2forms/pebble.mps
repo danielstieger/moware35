@@ -3162,37 +3162,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="4Z3lS8BdZTU" role="3cqZAp">
-          <node concept="3clFbS" id="4Z3lS8BdZTW" role="3clFbx">
-            <node concept="3clFbF" id="4Z3lS8Be09X" role="3cqZAp">
-              <node concept="2OqwBi" id="4Z3lS8Be0aU" role="3clFbG">
-                <node concept="37vLTw" id="4Z3lS8Be09V" role="2Oq$k0">
-                  <ref role="3cqZAo" node="2xnCXJMh7KC" resolve="form" />
-                </node>
-                <node concept="liA8E" id="4Z3lS8Be0h0" role="2OqNvi">
-                  <ref role="37wK5l" node="7RHNXGyZ3Wa" resolve="setFlagText" />
-                  <node concept="37vLTw" id="4Z3lS8Be0is" role="37wK5m">
-                    <ref role="3cqZAo" node="4Z3lS8BdYvj" resolve="notificationText" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="4Z3lS8Be0P$" role="3cqZAp">
-              <node concept="37vLTI" id="4Z3lS8Be0WS" role="3clFbG">
-                <node concept="10Nm6u" id="4Z3lS8Be138" role="37vLTx" />
-                <node concept="37vLTw" id="4Z3lS8Be0Py" role="37vLTJ">
-                  <ref role="3cqZAo" node="4Z3lS8BdYvj" resolve="notificationText" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3y3z36" id="4Z3lS8Be02Q" role="3clFbw">
-            <node concept="10Nm6u" id="4Z3lS8Be047" role="3uHU7w" />
-            <node concept="37vLTw" id="4Z3lS8BdZVP" role="3uHU7B">
-              <ref role="3cqZAo" node="4Z3lS8BdYvj" resolve="notificationText" />
-            </node>
-          </node>
-        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="2xnCXJMgrl6" role="jymVt" />
@@ -3239,25 +3208,6 @@
       <node concept="3cqZAl" id="2xnCXJMgk$H" role="3clF45" />
       <node concept="3Tm1VV" id="2xnCXJMgk$I" role="1B3o_S" />
       <node concept="3clFbS" id="2xnCXJMgk$K" role="3clF47">
-        <node concept="3clFbF" id="4Z3lS8Bi4Hc" role="3cqZAp">
-          <node concept="2OqwBi" id="4Z3lS8Bi4H9" role="3clFbG">
-            <node concept="10M0yZ" id="4Z3lS8Bi4Ha" role="2Oq$k0">
-              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
-              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
-            </node>
-            <node concept="liA8E" id="4Z3lS8Bi4Hb" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
-              <node concept="3cpWs3" id="4Z3lS8Bi4QK" role="37wK5m">
-                <node concept="37vLTw" id="4Z3lS8Bi4Te" role="3uHU7w">
-                  <ref role="3cqZAo" node="2xnCXJMgk$F" resolve="notificat" />
-                </node>
-                <node concept="Xl_RD" id="4Z3lS8Bi4IA" role="3uHU7B">
-                  <property role="Xl_RC" value="CommandContainerUi() Received Notification " />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="4Z3lS8Be0w$" role="3cqZAp">
           <node concept="37vLTI" id="4Z3lS8Be0BO" role="3clFbG">
             <node concept="37vLTw" id="4Z3lS8Be0IJ" role="37vLTx">
@@ -3737,7 +3687,7 @@
                     <ref role="3cqZAo" node="2xnCXJMgViT" resolve="cmdContainer" />
                   </node>
                   <node concept="liA8E" id="2xnCXJMh1eW" role="2OqNvi">
-                    <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receive" />
+                    <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
                     <node concept="2ShNRf" id="2xnCXJMh1AE" role="37wK5m">
                       <node concept="1pGfFk" id="2xnCXJMh3DP" role="2ShVmc">
                         <ref role="37wK5l" to="1e0c:zBgVaD6ku7" resolve="ConclusionEvent" />
@@ -4557,6 +4507,22 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="2M4KcIRtk1w" role="3cqZAp">
+          <node concept="37vLTI" id="2M4KcIRtkE$" role="3clFbG">
+            <node concept="37vLTw" id="2M4KcIRtlG3" role="37vLTx">
+              <ref role="3cqZAo" node="4Z3lS8BdYvj" resolve="notificationText" />
+            </node>
+            <node concept="3EllGN" id="2M4KcIRtk1_" role="37vLTJ">
+              <node concept="10M0yZ" id="2M4KcIRtk1A" role="3ElVtu">
+                <ref role="1PxDUh" node="2JP_IULTUsl" resolve="AbstractForm" />
+                <ref role="3cqZAo" node="2M4KcIRtiLo" resolve="NOTIFICATION_TEXT" />
+              </node>
+              <node concept="37vLTw" id="2M4KcIRtk1B" role="3ElQJh">
+                <ref role="3cqZAo" node="19VJYqAuTR8" resolve="renderMap" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="19VJYqAvWdU" role="3cqZAp" />
         <node concept="3clFbH" id="7ZfE5kQXLlb" role="3cqZAp" />
         <node concept="3SKdUt" id="7ZfE5kQXMpR" role="3cqZAp">
@@ -5148,6 +5114,15 @@
       <node concept="3Tm1VV" id="19VJYqAvTU2" role="1B3o_S" />
       <node concept="Xl_RD" id="19VJYqAvTU3" role="33vP2m">
         <property role="Xl_RC" value="windowTitle" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="2M4KcIRtiLo" role="jymVt">
+      <property role="TrG5h" value="NOTIFICATION_TEXT" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="2M4KcIRtiLp" role="1tU5fm" />
+      <node concept="3Tm1VV" id="2M4KcIRtiLq" role="1B3o_S" />
+      <node concept="Xl_RD" id="2M4KcIRtiLr" role="33vP2m">
+        <property role="Xl_RC" value="notificationText" />
       </node>
     </node>
     <node concept="Wx3nA" id="66oHjdjHOwo" role="jymVt">

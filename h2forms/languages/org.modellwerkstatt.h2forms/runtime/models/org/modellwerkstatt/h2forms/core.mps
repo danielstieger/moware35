@@ -10397,9 +10397,38 @@
       <node concept="10P_77" id="5NnlNqu2w1u" role="3clF45" />
       <node concept="3Tm1VV" id="5NnlNqu2w1v" role="1B3o_S" />
       <node concept="3clFbS" id="5NnlNqu2w1y" role="3clF47">
-        <node concept="3clFbF" id="5NnlNqu2y72" role="3cqZAp">
-          <node concept="3clFbT" id="5NnlNqu2y71" role="3clFbG">
-            <property role="3clFbU" value="true" />
+        <node concept="3cpWs8" id="2M4KcIQT03S" role="3cqZAp">
+          <node concept="3cpWsn" id="2M4KcIQT03V" role="3cpWs9">
+            <property role="TrG5h" value="threadName" />
+            <node concept="17QB3L" id="2M4KcIQT03R" role="1tU5fm" />
+            <node concept="2OqwBi" id="2M4KcIQT0hk" role="33vP2m">
+              <node concept="2OqwBi" id="2M4KcIQT0c0" role="2Oq$k0">
+                <node concept="2YIFZM" id="2M4KcIQT0bf" role="2Oq$k0">
+                  <ref role="37wK5l" to="wyt6:~Thread.currentThread():java.lang.Thread" resolve="currentThread" />
+                  <ref role="1Pybhc" to="wyt6:~Thread" resolve="Thread" />
+                </node>
+                <node concept="liA8E" id="2M4KcIQT0dK" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Thread.getName():java.lang.String" resolve="getName" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2M4KcIQT0oQ" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2M4KcIQT0en" role="3cqZAp" />
+        <node concept="3cpWs6" id="2M4KcIQT0z5" role="3cqZAp">
+          <node concept="2OqwBi" id="2M4KcIQT2Y_" role="3cqZAk">
+            <node concept="37vLTw" id="2M4KcIQT0JI" role="2Oq$k0">
+              <ref role="3cqZAo" node="2M4KcIQT03V" resolve="threadName" />
+            </node>
+            <node concept="liA8E" id="2M4KcIQT5aE" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+              <node concept="Xl_RD" id="2M4KcIQT71P" role="37wK5m">
+                <property role="Xl_RC" value="http-nio" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
