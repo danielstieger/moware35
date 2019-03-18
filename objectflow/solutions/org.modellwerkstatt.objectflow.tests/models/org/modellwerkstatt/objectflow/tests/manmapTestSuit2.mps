@@ -35904,7 +35904,7 @@
             <node concept="1Q8zPT" id="26OSHcw1DZc" role="1ea49x">
               <node concept="19SGf9" id="26OSHcw1DZd" role="1Q8hHE">
                 <node concept="19SUe$" id="26OSHcw1DZe" role="19SJt6">
-                  <property role="19SUeA" value="SELECT r.NAME, r.COUNT, r.BIG_DECI, r.LOCAL_DATE, &#10;       r.DATE_TIME, r.STA_STATUS, r.REF_ARTICLE, a.ID, a.NAME, a.STATUS &#10;&#10;FROM MMT_NKVIEWOBJECT r JOIN MMT_NKARTICLE a on r.REF_ARTICLE = a.ID&#10; &#10;WHERE r.REF_ARTICLE = ?&#10;" />
+                  <property role="19SUeA" value="SELECT r.NAME as rNAME, r.COUNT as rCOUNT, r.BIG_DECI as rBIG_DECI, r.LOCAL_DATE as rLOCAL_DATE, &#10;       r.DATE_TIME as rDATE_TIME, r.STA_STATUS as rSTA_STATUS, r.REF_ARTICLE as rREF_ARTICLE, &#10;       a.ID as aID, a.NAME as aNAME, a.STATUS as aSTATUS &#10;&#10;FROM MMT_NKVIEWOBJECT r JOIN MMT_NKARTICLE a on r.REF_ARTICLE = a.ID&#10; &#10;WHERE r.REF_ARTICLE = ?&#10;" />
                 </node>
               </node>
             </node>
@@ -36355,37 +36355,37 @@
       <node concept="12nEzJ" id="26OSHcuO$Qx" role="3caO6$">
         <ref role="12nL8z" node="5OR7PPl8z2e" resolve="name" />
         <node concept="Xl_RD" id="26OSHcuO$Qy" role="12k7lF">
-          <property role="Xl_RC" value="r.NAME" />
+          <property role="Xl_RC" value="rNAME" />
         </node>
       </node>
       <node concept="12nEzJ" id="26OSHcuO$Qz" role="3caO6$">
         <ref role="12nL8z" node="FplMliKC5A" resolve="count" />
         <node concept="Xl_RD" id="26OSHcuO$Q$" role="12k7lF">
-          <property role="Xl_RC" value="r.COUNT" />
+          <property role="Xl_RC" value="rCOUNT" />
         </node>
       </node>
       <node concept="12nEzJ" id="26OSHcuO$QE" role="3caO6$">
         <ref role="12nL8z" node="FplMliKC6x" resolve="bigDeci" />
         <node concept="Xl_RD" id="26OSHcuO$QF" role="12k7lF">
-          <property role="Xl_RC" value="r.BIG_DECI" />
+          <property role="Xl_RC" value="rBIG_DECI" />
         </node>
       </node>
       <node concept="12nEzJ" id="26OSHcuO$QG" role="3caO6$">
         <ref role="12nL8z" node="FplMliKC7P" resolve="localDate" />
         <node concept="Xl_RD" id="26OSHcuO$QH" role="12k7lF">
-          <property role="Xl_RC" value="r.LOCAL_DATE" />
+          <property role="Xl_RC" value="rLOCAL_DATE" />
         </node>
       </node>
       <node concept="12nEzJ" id="26OSHcuO$QI" role="3caO6$">
         <ref role="12nL8z" node="FplMliKF6M" resolve="dateTime" />
         <node concept="Xl_RD" id="26OSHcuO$QJ" role="12k7lF">
-          <property role="Xl_RC" value="r.DATE_TIME" />
+          <property role="Xl_RC" value="rDATE_TIME" />
         </node>
       </node>
       <node concept="12nEzJ" id="26OSHcuO$QK" role="3caO6$">
         <ref role="12nL8z" node="FplMljbo5j" resolve="status" />
         <node concept="Xl_RD" id="26OSHcuO$QL" role="12k7lF">
-          <property role="Xl_RC" value="r.STA_STATUS" />
+          <property role="Xl_RC" value="rSTA_STATUS" />
         </node>
       </node>
       <node concept="12nL8U" id="26OSHcuO_2U" role="3caO6$">
@@ -36393,19 +36393,19 @@
         <node concept="12nEzJ" id="26OSHcuO_3R" role="3caO6$">
           <ref role="12nL8z" node="26OSHcu9Ub9" resolve="id" />
           <node concept="Xl_RD" id="26OSHcuO_3S" role="12k7lF">
-            <property role="Xl_RC" value="a.ID" />
+            <property role="Xl_RC" value="aID" />
           </node>
         </node>
         <node concept="12nEzJ" id="26OSHcuO_3T" role="3caO6$">
           <ref role="12nL8z" node="26OSHcu9UqB" resolve="name" />
           <node concept="Xl_RD" id="26OSHcuO_3U" role="12k7lF">
-            <property role="Xl_RC" value="a.NAME" />
+            <property role="Xl_RC" value="aNAME" />
           </node>
         </node>
         <node concept="12nEzJ" id="26OSHcuO_3V" role="3caO6$">
           <ref role="12nL8z" node="26OSHcu9Us3" resolve="status" />
           <node concept="Xl_RD" id="26OSHcuO_3W" role="12k7lF">
-            <property role="Xl_RC" value="a.STATUS" />
+            <property role="Xl_RC" value="aSTATUS" />
           </node>
         </node>
       </node>

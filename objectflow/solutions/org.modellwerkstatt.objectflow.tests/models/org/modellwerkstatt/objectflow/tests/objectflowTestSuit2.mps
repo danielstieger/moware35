@@ -278,9 +278,13 @@
         <child id="3551693089258339309" name="covers" index="TetRx" />
       </concept>
       <concept id="4779674245164303002" name="org.modellwerkstatt.objectflow.structure.StaticRole" flags="ng" index="2RjHbW">
+        <child id="4779674245164323009" name="isAlsoRole" index="2RjC2B" />
         <child id="4779674245164315371" name="staticRoleFunc" index="2RjIad" />
       </concept>
       <concept id="4779674245164315510" name="org.modellwerkstatt.objectflow.structure.StaticRoleFunc" flags="ig" index="2RjIcg" />
+      <concept id="4779674245172928845" name="org.modellwerkstatt.objectflow.structure.StaticRoleReference" flags="ng" index="2RMn4F">
+        <reference id="4779674245172928846" name="staticRole" index="2RMn4C" />
+      </concept>
       <concept id="9110730801960129924" name="org.modellwerkstatt.objectflow.structure.OFXRunCmd" flags="ng" index="2Tpcjw">
         <child id="9110730801960131774" name="commandCall" index="2TpcRq" />
         <child id="9110730801960131775" name="pages" index="2TpcRr" />
@@ -14164,6 +14168,43 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="2RjHbW" id="6v1stH8TiL9" role="2RjxEn">
+      <property role="TrG5h" value="HatBasisFunktionen" />
+      <node concept="2RjIcg" id="6v1stH8TiLa" role="2RjIad">
+        <node concept="3clFbS" id="6v1stH8TiLb" role="2VODD2">
+          <node concept="3clFbF" id="6v1stH8Tj4O" role="3cqZAp">
+            <node concept="3eOVzh" id="6v1stH8Tj9Y" role="3clFbG">
+              <node concept="3cmrfG" id="6v1stH8Tja4" role="3uHU7w">
+                <property role="3cmrfH" value="10" />
+              </node>
+              <node concept="3cmrfG" id="6v1stH8Tj4N" role="3uHU7B">
+                <property role="3cmrfH" value="2" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2RjHbW" id="6v1stH8TiMB" role="2RjxEn">
+      <property role="TrG5h" value="HatSpezialFunktionen" />
+      <node concept="2RjIcg" id="6v1stH8TiMC" role="2RjIad">
+        <node concept="3clFbS" id="6v1stH8TiMD" role="2VODD2">
+          <node concept="3clFbF" id="6v1stH8TiOr" role="3cqZAp">
+            <node concept="3eOVzh" id="6v1stH8TiT4" role="3clFbG">
+              <node concept="3cmrfG" id="6v1stH8TiOq" role="3uHU7B">
+                <property role="3cmrfH" value="1" />
+              </node>
+              <node concept="3cmrfG" id="6v1stH8Tj0p" role="3uHU7w">
+                <property role="3cmrfH" value="10" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2RMn4F" id="6v1stH8TiOc" role="2RjC2B">
+        <ref role="2RMn4C" node="6v1stH8TiL9" resolve="HatBasisFunktionen" />
       </node>
     </node>
   </node>

@@ -2800,7 +2800,9 @@
           <property role="Xl_RC" value="Kommando nur im Lesemodus! Benutzer %s bearbeitet ebenfalls gerade geforderte Ressourcen." />
         </node>
         <node concept="10Nm6u" id="7r26jiNRWDm" role="37wK5m" />
-        <node concept="10Nm6u" id="7r26jiNRWDn" role="37wK5m" />
+        <node concept="Xl_RD" id="4L33b_Gb60b" role="37wK5m">
+          <property role="Xl_RC" value="Nur im Lesemodus! %s bearbeitet." />
+        </node>
         <node concept="Xl_RD" id="WkCinTf6cM" role="37wK5m">
           <property role="Xl_RC" value="Command in read-only mode! USer %s is using ressources which are necessary ." />
         </node>

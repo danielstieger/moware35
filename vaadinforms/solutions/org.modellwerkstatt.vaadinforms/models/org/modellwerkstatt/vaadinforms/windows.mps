@@ -11747,7 +11747,7 @@
                                     <ref role="3cqZAo" node="6go2Mrswmnz" resolve="cmdContainer" />
                                   </node>
                                   <node concept="liA8E" id="r$jHpEL45r" role="2OqNvi">
-                                    <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receive" />
+                                    <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
                                     <node concept="2ShNRf" id="r$jHpEL45s" role="37wK5m">
                                       <node concept="1pGfFk" id="r$jHpEL45t" role="2ShVmc">
                                         <ref role="37wK5l" to="1e0c:zBgVaD6ku7" resolve="ConclusionEvent" />
@@ -12364,7 +12364,7 @@
                 </node>
                 <node concept="10M0yZ" id="50$EOT96D3y" role="37wK5m">
                   <ref role="1PxDUh" to="waq:~Notification" resolve="Notification" />
-                  <ref role="3cqZAo" to="waq:~Notification.TYPE_WARNING_MESSAGE" resolve="TYPE_WARNING_MESSAGE" />
+                  <ref role="3cqZAo" to="waq:~Notification.TYPE_ERROR_MESSAGE" resolve="TYPE_ERROR_MESSAGE" />
                 </node>
               </node>
             </node>
@@ -27866,7 +27866,7 @@
                       </node>
                     </node>
                     <node concept="liA8E" id="4M9afjaZr$L" role="2OqNvi">
-                      <ref role="37wK5l" to="1e0c:7BWfrtCZte1" resolve="receive" />
+                      <ref role="37wK5l" to="1e0c:7BWfrtCZte1" resolve="receiveProcess" />
                       <node concept="2ShNRf" id="4M9afjaZrAz" role="37wK5m">
                         <node concept="1pGfFk" id="4M9afjaZsJN" role="2ShVmc">
                           <ref role="37wK5l" to="1e0c:zBgVaD67P_" resolve="KeyEvent" />
