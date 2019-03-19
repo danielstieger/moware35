@@ -10811,6 +10811,7 @@
       <node concept="3Tm6S6" id="7TsEWieWEMy" role="1B3o_S" />
       <node concept="17QB3L" id="7TsEWieWHAj" role="1tU5fm" />
     </node>
+    <node concept="2tJIrI" id="2P$1DRipdt9" role="jymVt" />
     <node concept="2tJIrI" id="27BPRG5LOXI" role="jymVt" />
     <node concept="312cEg" id="4mX9Xggw2_w" role="jymVt">
       <property role="TrG5h" value="currentConclusionInfos" />
@@ -10886,6 +10887,11 @@
       <property role="TrG5h" value="commandRequestedModalTab" />
       <node concept="3Tmbuc" id="v00WQaz3_6" role="1B3o_S" />
       <node concept="10P_77" id="v00WQaymKu" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="2P$1DRipjFw" role="jymVt">
+      <property role="TrG5h" value="lockNotGrantedTime" />
+      <node concept="3Tmbuc" id="2P$1DRipjFx" role="1B3o_S" />
+      <node concept="3cpWsb" id="2P$1DRipyGv" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="64d_SurBjqc" role="jymVt" />
     <node concept="312cEg" id="4Z3lS8B2xzN" role="jymVt">
@@ -11842,6 +11848,17 @@
                       </node>
                       <node concept="37vLTw" id="4Z3lS8B2LpT" role="1DdaDG">
                         <ref role="3cqZAo" node="1sUmI9zhki7" resolve="locks" />
+                      </node>
+                    </node>
+                    <node concept="3clFbF" id="2P$1DRipznU" role="3cqZAp">
+                      <node concept="37vLTI" id="2P$1DRipzzh" role="3clFbG">
+                        <node concept="2YIFZM" id="2P$1DRipzKv" role="37vLTx">
+                          <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                          <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                        </node>
+                        <node concept="37vLTw" id="2P$1DRipznS" role="37vLTJ">
+                          <ref role="3cqZAo" node="2P$1DRipjFw" resolve="lockNotGrantedTime" />
+                        </node>
                       </node>
                     </node>
                     <node concept="3clFbF" id="7lZUamR5oNS" role="3cqZAp">
@@ -29779,7 +29796,56 @@
                               </node>
                             </node>
                           </node>
-                          <node concept="3clFbH" id="4L33b_GaQLl" role="3cqZAp" />
+                          <node concept="3cpWs8" id="2P$1DRip_Qj" role="3cqZAp">
+                            <node concept="3cpWsn" id="2P$1DRip_Qm" role="3cpWs9">
+                              <property role="TrG5h" value="diffTime" />
+                              <node concept="3cpWsb" id="2P$1DRip_Qh" role="1tU5fm" />
+                              <node concept="3cpWsd" id="2P$1DRipAcd" role="33vP2m">
+                                <node concept="37vLTw" id="2P$1DRipA$Y" role="3uHU7w">
+                                  <ref role="3cqZAo" node="2P$1DRipjFw" resolve="lockNotGrantedTime" />
+                                </node>
+                                <node concept="2YIFZM" id="2P$1DRipA8P" role="3uHU7B">
+                                  <ref role="37wK5l" to="wyt6:~System.currentTimeMillis():long" resolve="currentTimeMillis" />
+                                  <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="2P$1DRipCBT" role="3cqZAp">
+                            <node concept="2OqwBi" id="2P$1DRipCBU" role="3clFbG">
+                              <node concept="37vLTw" id="2P$1DRipCBV" role="2Oq$k0">
+                                <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                              </node>
+                              <node concept="liA8E" id="2P$1DRipCBW" role="2OqNvi">
+                                <ref role="37wK5l" node="6Au2sPCLqv2" resolve="logEvent" />
+                                <node concept="37vLTw" id="2P$1DRipDeR" role="37wK5m">
+                                  <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="commandShortName" />
+                                </node>
+                                <node concept="3cpWs3" id="2P$1DRipFNC" role="37wK5m">
+                                  <node concept="37vLTw" id="2P$1DRipFZq" role="3uHU7w">
+                                    <ref role="3cqZAo" node="2M4KcIQU5xt" resolve="byUserName" />
+                                  </node>
+                                  <node concept="3cpWs3" id="2P$1DRipFyO" role="3uHU7B">
+                                    <node concept="3cpWs3" id="2P$1DRipEXr" role="3uHU7B">
+                                      <node concept="Xl_RD" id="2P$1DRipEfc" role="3uHU7B">
+                                        <property role="Xl_RC" value="LOCK for " />
+                                      </node>
+                                      <node concept="37vLTw" id="2P$1DRipF8b" role="3uHU7w">
+                                        <ref role="3cqZAo" node="2M4KcIQU5xc" resolve="lockName" />
+                                      </node>
+                                    </node>
+                                    <node concept="Xl_RD" id="2P$1DRipFzD" role="3uHU7w">
+                                      <property role="Xl_RC" value=" not granted, used by " />
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="37vLTw" id="2P$1DRipGCm" role="37wK5m">
+                                  <ref role="3cqZAo" node="2P$1DRip_Qm" resolve="diffTime" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbH" id="2P$1DRipCdk" role="3cqZAp" />
                           <node concept="3SKdUt" id="2M4KcIQWV34" role="3cqZAp">
                             <node concept="3SKdUq" id="2M4KcIQWV35" role="3SKWNk">
                               <property role="3SKdUp" value="okay, this is a relevant lock and we are locked out here..." />

@@ -6409,7 +6409,7 @@
         <ref role="PMmxG" node="6ffh1MXB2lM" resolve="ISpaceNamedEditor" />
       </node>
       <node concept="3F0ifn" id="49kO6rP6GbK" role="3EZMnx">
-        <property role="3F0ifm" value="overwrites/is also static role" />
+        <property role="3F0ifm" value="is also / can also" />
         <ref role="1k5W1q" node="6ffh1MXA9UL" resolve="O2Concept" />
         <node concept="pVoyu" id="49kO6rP6GbL" role="3F10Kt">
           <property role="VOm3f" value="true" />
