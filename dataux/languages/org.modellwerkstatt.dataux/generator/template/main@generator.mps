@@ -10902,7 +10902,7 @@
                                         <ref role="3cqZAo" to="yg8v:4XXgpA_y1$I" resolve="eventProcessor" />
                                       </node>
                                       <node concept="liA8E" id="63VjT6lA5HS" role="2OqNvi">
-                                        <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receive" />
+                                        <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
                                         <node concept="37vLTw" id="63VjT6lA5HT" role="37wK5m">
                                           <ref role="3cqZAo" node="63VjT6lA5GQ" resolve="multi" />
                                         </node>
@@ -10989,7 +10989,7 @@
                                           <ref role="3cqZAo" to="yg8v:4XXgpA_y1$I" resolve="eventProcessor" />
                                         </node>
                                         <node concept="liA8E" id="63VjT6lA5Iy" role="2OqNvi">
-                                          <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receive" />
+                                          <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
                                           <node concept="37vLTw" id="63VjT6lA5Iz" role="37wK5m">
                                             <ref role="3cqZAo" node="63VjT6lA5Ih" resolve="ev" />
                                           </node>
@@ -12153,7 +12153,7 @@
                                         <ref role="3cqZAo" to="yg8v:4XXgpA_y1$I" resolve="eventProcessor" />
                                       </node>
                                       <node concept="liA8E" id="5YEYfHwT6SS" role="2OqNvi">
-                                        <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receive" />
+                                        <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
                                         <node concept="37vLTw" id="5YEYfHwT6Xa" role="37wK5m">
                                           <ref role="3cqZAo" node="5YEYfHwT6f6" resolve="multi" />
                                         </node>
@@ -12251,7 +12251,7 @@
                                           <ref role="3cqZAo" to="yg8v:4XXgpA_y1$I" resolve="eventProcessor" />
                                         </node>
                                         <node concept="liA8E" id="5YEYfHwPWQs" role="2OqNvi">
-                                          <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receive" />
+                                          <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
                                           <node concept="37vLTw" id="63VjT6l$Fr2" role="37wK5m">
                                             <ref role="3cqZAo" node="63VjT6l$Ett" resolve="ev" />
                                           </node>
@@ -12948,7 +12948,7 @@
                                     <ref role="3cqZAo" to="yg8v:4XXgpA_y1$I" resolve="eventProcessor" />
                                   </node>
                                   <node concept="liA8E" id="4RCyjo5gFsh" role="2OqNvi">
-                                    <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receive" />
+                                    <ref role="37wK5l" to="1e0c:7b0Ejx_yqRf" resolve="receiveProcess" />
                                     <node concept="37vLTw" id="4RCyjo5gFsi" role="37wK5m">
                                       <ref role="3cqZAo" node="4RCyjo5gFs0" resolve="ev" />
                                     </node>
@@ -14526,6 +14526,12 @@
           </node>
         </node>
         <node concept="3clFbH" id="3OfvFtmCE6R" role="3cqZAp" />
+      </node>
+      <node concept="37vLTG" id="hcdqIeSldv" role="3clF46">
+        <property role="TrG5h" value="__manMapSession" />
+        <node concept="3uibUv" id="hcdqIeSldu" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+        </node>
       </node>
     </node>
     <node concept="3clFb_" id="4h8Goff35tC" role="jymVt">
@@ -18042,6 +18048,12 @@
         <property role="1EzhhJ" value="false" />
         <property role="2aFKle" value="false" />
         <property role="TrG5h" value="createStartupCmd" />
+        <node concept="37vLTG" id="hcdqIf9Gy7" role="3clF46">
+          <property role="TrG5h" value="__manMapSession" />
+          <node concept="3uibUv" id="hcdqIf9K9B" role="1tU5fm">
+            <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+          </node>
+        </node>
         <node concept="3Tm1VV" id="3OfvFtmCov2" role="1B3o_S" />
         <node concept="3uibUv" id="3OfvFtmCN$b" role="3clF45">
           <ref role="3uigEE" to="1e0c:7_LnCNXPtES" resolve="BasisCmdStart" />

@@ -7778,6 +7778,9 @@
                   </node>
                   <node concept="liA8E" id="2G0kEsKHtZb" role="2OqNvi">
                     <ref role="37wK5l" to="yg8v:3OfvFtmCgsZ" resolve="createStartupCmd" />
+                    <node concept="37vLTw" id="hcdqIeSnMB" role="37wK5m">
+                      <ref role="3cqZAo" node="2qrl3a2ZxLK" resolve="tilesSession" />
+                    </node>
                   </node>
                 </node>
               </node>

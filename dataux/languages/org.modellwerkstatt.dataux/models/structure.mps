@@ -1462,6 +1462,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="un0u:3n7eUMgsANq" resolve="CommandCallBasis" />
     </node>
+    <node concept="PrWs8" id="hcdqIeJT7b" role="PzmwI">
+      <ref role="PrY4T" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+    </node>
     <node concept="PrWs8" id="3OfvFtmn_EZ" role="PzmwI">
       <ref role="PrY4T" to="un0u:6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>

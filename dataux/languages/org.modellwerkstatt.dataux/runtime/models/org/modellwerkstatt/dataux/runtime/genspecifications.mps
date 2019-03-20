@@ -286,6 +286,12 @@
       <property role="1EzhhJ" value="true" />
       <property role="2aFKle" value="false" />
       <property role="TrG5h" value="createStartupCmd" />
+      <node concept="37vLTG" id="hcdqIeShOX" role="3clF46">
+        <property role="TrG5h" value="session" />
+        <node concept="3uibUv" id="hcdqIeShOY" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:7rqBz8B3JBf" resolve="IOFXSession" />
+        </node>
+      </node>
       <node concept="3clFbS" id="3OfvFtmCgt2" role="3clF47" />
       <node concept="3Tm1VV" id="3OfvFtmCgt3" role="1B3o_S" />
       <node concept="3uibUv" id="3OfvFtmCLe0" role="3clF45">
