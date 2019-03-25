@@ -25631,12 +25631,22 @@
                 </node>
                 <node concept="3clFbH" id="1mou_EBa4hf" role="3cqZAp" />
               </node>
-              <node concept="2OqwBi" id="1mou_EB9_Dw" role="3clFbw">
-                <node concept="37vLTw" id="1mou_EB9_qE" role="2Oq$k0">
-                  <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
+              <node concept="22lmx$" id="4$IxB89csat" role="3clFbw">
+                <node concept="2OqwBi" id="4$IxB89csok" role="3uHU7w">
+                  <node concept="37vLTw" id="4$IxB89csk7" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
+                  </node>
+                  <node concept="liA8E" id="4$IxB89csrE" role="2OqNvi">
+                    <ref role="37wK5l" node="5YVCCVeHFSl" resolve="wasUserCancel" />
+                  </node>
                 </node>
-                <node concept="liA8E" id="1mou_EB9_Tb" role="2OqNvi">
-                  <ref role="37wK5l" node="5YVCCVeHGfM" resolve="wasCancelByEx" />
+                <node concept="2OqwBi" id="1mou_EB9_Dw" role="3uHU7B">
+                  <node concept="37vLTw" id="1mou_EB9_qE" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
+                  </node>
+                  <node concept="liA8E" id="1mou_EB9_Tb" role="2OqNvi">
+                    <ref role="37wK5l" node="5YVCCVeHGfM" resolve="wasCancelByEx" />
+                  </node>
                 </node>
               </node>
               <node concept="3eNFk2" id="1mou_EBa2Io" role="3eNLev">
