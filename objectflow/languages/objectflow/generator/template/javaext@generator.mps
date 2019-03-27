@@ -1686,7 +1686,31 @@
                 </node>
                 <node concept="1DoJHT" id="3NyU3mKv19X" role="2OqNvi">
                   <property role="1Dpdpm" value="bpLieferantKEY" />
-                  <node concept="10Oyi0" id="3NyU3mKv19Z" role="1Ez5kq" />
+                  <node concept="10Oyi0" id="3NyU3mKv19Z" role="1Ez5kq">
+                    <node concept="29HgVG" id="1iBk_KsgzcW" role="lGtFl">
+                      <node concept="3NFfHV" id="1iBk_KsgzcX" role="3NFExx">
+                        <node concept="3clFbS" id="1iBk_KsgzcY" role="2VODD2">
+                          <node concept="3clFbF" id="1iBk_Ksg$WD" role="3cqZAp">
+                            <node concept="2OqwBi" id="1iBk_KsrTIm" role="3clFbG">
+                              <node concept="2YIFZM" id="1iBk_Ksg_7w" role="2Oq$k0">
+                                <ref role="37wK5l" to="3ojc:2wjP6CcCUFg" resolve="getKeyPropertyromBusinessObjectProperty" />
+                                <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
+                                <node concept="2OqwBi" id="1iBk_Ksg_pa" role="37wK5m">
+                                  <node concept="30H73N" id="1iBk_Ksg_gE" role="2Oq$k0" />
+                                  <node concept="3TrEf2" id="1iBk_Ksg_Bv" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="un0u:6j_KBLoaFpG" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3TrEf2" id="1iBk_KsrUc2" role="2OqNvi">
+                                <ref role="3Tt5mk" to="tpee:huRkE2T" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                   <node concept="raruj" id="3NyU3mKv1a0" role="lGtFl" />
                   <node concept="17Uvod" id="3NyU3mKv1a1" role="lGtFl">
                     <property role="2qtEX9" value="methodName" />
