@@ -7773,6 +7773,29 @@
                 <ref role="37wK5l" node="3nLGOmWzIoC" resolve="reevalEnabledInMenus" />
               </node>
             </node>
+            <node concept="3SKdUt" id="2LxPC2g_6bz" role="3cqZAp">
+              <node concept="3SKdUq" id="2LxPC2g_6b_" role="3SKWNk">
+                <property role="3SKdUp" value="TODO: Remove this one here ... once dbg done" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="2LxPC2g_07d" role="3cqZAp">
+              <node concept="2OqwBi" id="2LxPC2g_16p" role="3clFbG">
+                <node concept="2OqwBi" id="2LxPC2g_0MI" role="2Oq$k0">
+                  <node concept="37vLTw" id="2LxPC2g_07b" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
+                  </node>
+                  <node concept="liA8E" id="2LxPC2g_14a" role="2OqNvi">
+                    <ref role="37wK5l" to="250q:7HkVpVbXnBN" resolve="getEventBus" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2LxPC2g_1o$" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:2LxPC2g$TLK" resolve="setSysInfo" />
+                  <node concept="37vLTw" id="2LxPC2g_2qj" role="37wK5m">
+                    <ref role="3cqZAo" node="4n24ZlEy_i1" resolve="appVersionInfo" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="3CnNtH_5Kut" role="3cqZAp">
               <node concept="2OqwBi" id="3CnNtH_5LJ5" role="3clFbG">
                 <node concept="Xjq3P" id="3CnNtH_5Kur" role="2Oq$k0" />

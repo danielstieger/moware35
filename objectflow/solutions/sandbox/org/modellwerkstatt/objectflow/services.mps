@@ -41339,6 +41339,15 @@
       <node concept="3Tm6S6" id="7HkVpVbYVl5" role="1B3o_S" />
       <node concept="10Oyi0" id="7HkVpVbYVTQ" role="1tU5fm" />
     </node>
+    <node concept="312cEg" id="2LxPC2g$LE5" role="jymVt">
+      <property role="TrG5h" value="systemsInformation" />
+      <property role="34CwA1" value="true" />
+      <node concept="3Tm6S6" id="2LxPC2g$LE6" role="1B3o_S" />
+      <node concept="17QB3L" id="2LxPC2g$Rr0" role="1tU5fm" />
+      <node concept="Xl_RD" id="2LxPC2g$R_R" role="33vP2m">
+        <property role="Xl_RC" value="(no sysinfo set)" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="1PUq9fiYG$H" role="jymVt" />
     <node concept="2tJIrI" id="1YUU7GVVJGH" role="jymVt" />
     <node concept="3clFbW" id="1YUU7GVVOhS" role="jymVt">
@@ -41430,6 +41439,28 @@
       </node>
     </node>
     <node concept="2tJIrI" id="57ov2SWFuF" role="jymVt" />
+    <node concept="3clFb_" id="2LxPC2g$UGp" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setSysInfo" />
+      <node concept="37vLTG" id="2LxPC2g$UGq" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="2LxPC2g$UGr" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="2LxPC2g$UGs" role="3clF45" />
+      <node concept="3Tm1VV" id="2LxPC2g$UGt" role="1B3o_S" />
+      <node concept="3clFbS" id="2LxPC2g$UGv" role="3clF47">
+        <node concept="3clFbF" id="2LxPC2g$VqD" role="3cqZAp">
+          <node concept="37vLTI" id="2LxPC2g$Vtz" role="3clFbG">
+            <node concept="37vLTw" id="2LxPC2g$VuX" role="37vLTx">
+              <ref role="3cqZAo" node="2LxPC2g$UGq" resolve="s" />
+            </node>
+            <node concept="37vLTw" id="2LxPC2g$VqC" role="37vLTJ">
+              <ref role="3cqZAo" node="2LxPC2g$LE5" resolve="systemsInformation" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="1YUU7GVVOtG" role="jymVt">
       <property role="TrG5h" value="init" />
       <node concept="3cqZAl" id="1YUU7GVVOtI" role="3clF45" />
@@ -41496,26 +41527,31 @@
                               <node concept="3cpWsn" id="G_aOOcumjV" role="3cpWs9">
                                 <property role="TrG5h" value="errorText" />
                                 <node concept="17QB3L" id="G_aOOcumjQ" role="1tU5fm" />
-                                <node concept="3cpWs3" id="G_aOOcun84" role="33vP2m">
-                                  <node concept="Xl_RD" id="G_aOOcun8B" role="3uHU7w">
-                                    <property role="Xl_RC" value=", " />
+                                <node concept="3cpWs3" id="2LxPC2g$SPT" role="33vP2m">
+                                  <node concept="37vLTw" id="2LxPC2g$SYE" role="3uHU7w">
+                                    <ref role="3cqZAo" node="2LxPC2g$LE5" resolve="systemsInformation" />
                                   </node>
-                                  <node concept="3cpWs3" id="G_aOOculwo" role="3uHU7B">
-                                    <node concept="3cpWs3" id="G_aOOculdJ" role="3uHU7B">
-                                      <node concept="3cpWs3" id="G_aOOcul6E" role="3uHU7B">
-                                        <node concept="Xl_RD" id="G_aOOcukqW" role="3uHU7B">
-                                          <property role="Xl_RC" value="Eventbus related problem: connected-now " />
+                                  <node concept="3cpWs3" id="G_aOOcun84" role="3uHU7B">
+                                    <node concept="3cpWs3" id="G_aOOculwo" role="3uHU7B">
+                                      <node concept="3cpWs3" id="G_aOOculdJ" role="3uHU7B">
+                                        <node concept="3cpWs3" id="G_aOOcul6E" role="3uHU7B">
+                                          <node concept="Xl_RD" id="G_aOOcukqW" role="3uHU7B">
+                                            <property role="Xl_RC" value="Eventbus related problem: connected-now " />
+                                          </node>
+                                          <node concept="37vLTw" id="G_aOOcul8o" role="3uHU7w">
+                                            <ref role="3cqZAo" node="G_aOOcujDQ" resolve="stillConnected" />
+                                          </node>
                                         </node>
-                                        <node concept="37vLTw" id="G_aOOcul8o" role="3uHU7w">
-                                          <ref role="3cqZAo" node="G_aOOcujDQ" resolve="stillConnected" />
+                                        <node concept="Xl_RD" id="G_aOOculfy" role="3uHU7w">
+                                          <property role="Xl_RC" value=", bus-receiver-running " />
                                         </node>
                                       </node>
-                                      <node concept="Xl_RD" id="G_aOOculfy" role="3uHU7w">
-                                        <property role="Xl_RC" value=", bus-receiver-running " />
+                                      <node concept="37vLTw" id="G_aOOcul_v" role="3uHU7w">
+                                        <ref role="3cqZAo" node="G_aOOcujDS" resolve="eventLoopRunning" />
                                       </node>
                                     </node>
-                                    <node concept="37vLTw" id="G_aOOcul_v" role="3uHU7w">
-                                      <ref role="3cqZAo" node="G_aOOcujDS" resolve="eventLoopRunning" />
+                                    <node concept="Xl_RD" id="G_aOOcun8B" role="3uHU7w">
+                                      <property role="Xl_RC" value=" @ " />
                                     </node>
                                   </node>
                                 </node>
@@ -41679,26 +41715,31 @@
                               <node concept="3cpWsn" id="G_aOOcur4_" role="3cpWs9">
                                 <property role="TrG5h" value="errorText" />
                                 <node concept="17QB3L" id="G_aOOcur4A" role="1tU5fm" />
-                                <node concept="3cpWs3" id="G_aOOcur4B" role="33vP2m">
-                                  <node concept="Xl_RD" id="G_aOOcur4C" role="3uHU7w">
-                                    <property role="Xl_RC" value=", " />
+                                <node concept="3cpWs3" id="2LxPC2g$Sgh" role="33vP2m">
+                                  <node concept="37vLTw" id="2LxPC2g$Sn2" role="3uHU7w">
+                                    <ref role="3cqZAo" node="2LxPC2g$LE5" resolve="systemsInformation" />
                                   </node>
-                                  <node concept="3cpWs3" id="G_aOOcur4D" role="3uHU7B">
-                                    <node concept="3cpWs3" id="G_aOOcur4E" role="3uHU7B">
-                                      <node concept="3cpWs3" id="G_aOOcur4F" role="3uHU7B">
-                                        <node concept="Xl_RD" id="G_aOOcur4G" role="3uHU7B">
-                                          <property role="Xl_RC" value="Eventbus related problem: connected-now " />
+                                  <node concept="3cpWs3" id="G_aOOcur4B" role="3uHU7B">
+                                    <node concept="3cpWs3" id="G_aOOcur4D" role="3uHU7B">
+                                      <node concept="3cpWs3" id="G_aOOcur4E" role="3uHU7B">
+                                        <node concept="3cpWs3" id="G_aOOcur4F" role="3uHU7B">
+                                          <node concept="Xl_RD" id="G_aOOcur4G" role="3uHU7B">
+                                            <property role="Xl_RC" value="Eventbus related problem: connected-now " />
+                                          </node>
+                                          <node concept="37vLTw" id="G_aOOcur4H" role="3uHU7w">
+                                            <ref role="3cqZAo" node="G_aOOcukU7" resolve="stillConnected" />
+                                          </node>
                                         </node>
-                                        <node concept="37vLTw" id="G_aOOcur4H" role="3uHU7w">
-                                          <ref role="3cqZAo" node="G_aOOcukU7" resolve="stillConnected" />
+                                        <node concept="Xl_RD" id="G_aOOcur4I" role="3uHU7w">
+                                          <property role="Xl_RC" value=", bus-receiver-running " />
                                         </node>
                                       </node>
-                                      <node concept="Xl_RD" id="G_aOOcur4I" role="3uHU7w">
-                                        <property role="Xl_RC" value=", bus-receiver-running " />
+                                      <node concept="37vLTw" id="G_aOOcur4J" role="3uHU7w">
+                                        <ref role="3cqZAo" node="G_aOOcukU9" resolve="eventLoopRunning" />
                                       </node>
                                     </node>
-                                    <node concept="37vLTw" id="G_aOOcur4J" role="3uHU7w">
-                                      <ref role="3cqZAo" node="G_aOOcukU9" resolve="eventLoopRunning" />
+                                    <node concept="Xl_RD" id="G_aOOcur4C" role="3uHU7w">
+                                      <property role="Xl_RC" value=" @ " />
                                     </node>
                                   </node>
                                 </node>
@@ -42925,6 +42966,17 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3clFb_" id="2LxPC2g$VWq" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="setSysInfo" />
+      <node concept="37vLTG" id="2LxPC2g$VWr" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="2LxPC2g$VWs" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="2LxPC2g$VWt" role="3clF45" />
+      <node concept="3Tm1VV" id="2LxPC2g$VWu" role="1B3o_S" />
+      <node concept="3clFbS" id="2LxPC2g$VWw" role="3clF47" />
     </node>
     <node concept="3clFb_" id="7HkVpVbXnO8" role="jymVt">
       <property role="1EzhhJ" value="false" />

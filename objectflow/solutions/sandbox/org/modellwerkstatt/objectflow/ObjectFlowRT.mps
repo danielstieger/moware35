@@ -43203,7 +43203,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware 2019.9 (wbg) (dev " />
+            <property role="Xl_RC" value="moware 2019.10 (bus) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
@@ -44685,6 +44685,17 @@
   </node>
   <node concept="3HP615" id="7HkVpVbXei3">
     <property role="TrG5h" value="IMoEventBusService" />
+    <node concept="3clFb_" id="2LxPC2g$TLK" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setSysInfo" />
+      <node concept="37vLTG" id="2LxPC2g$TVs" role="3clF46">
+        <property role="TrG5h" value="s" />
+        <node concept="17QB3L" id="2LxPC2g$TYL" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="2LxPC2g$TLM" role="3clF45" />
+      <node concept="3Tm1VV" id="2LxPC2g$TLN" role="1B3o_S" />
+      <node concept="3clFbS" id="2LxPC2g$TLO" role="3clF47" />
+    </node>
     <node concept="3clFb_" id="57ov2SWJWO" role="jymVt">
       <property role="TrG5h" value="getServerName" />
       <property role="1EzhhJ" value="true" />
