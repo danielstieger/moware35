@@ -25637,40 +25637,10 @@
             </node>
             <node concept="3clFbH" id="6HvFgwbGH1s" role="3cqZAp" />
             <node concept="3clFbJ" id="1mou_EB9_6H" role="3cqZAp">
-              <node concept="3eNFk2" id="5GImeV79rby" role="3eNLev">
-                <node concept="3fqX7Q" id="5GImeV7cXh5" role="3eO9$A">
-                  <node concept="2OqwBi" id="5GImeV7cXh7" role="3fr31v">
-                    <node concept="2OqwBi" id="5GImeV7cXh8" role="2Oq$k0">
-                      <node concept="37vLTw" id="5GImeV7cXh9" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActEvent" />
-                      </node>
-                      <node concept="liA8E" id="5YEYfHwUi5t" role="2OqNvi">
-                        <ref role="37wK5l" node="63VjT6lP1E_" resolve="getParentContainer" />
-                      </node>
-                    </node>
-                    <node concept="liA8E" id="5GImeV7cXhb" role="2OqNvi">
-                      <ref role="37wK5l" node="5GImeV79v0E" resolve="isStillOkayAsParentForMultiExecution" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbS" id="5GImeV79rb$" role="3eOfB_">
-                  <node concept="3SKdUt" id="5GImeV7d9tM" role="3cqZAp">
-                    <node concept="3SKdUq" id="5GImeV7d9tO" role="3SKWNk">
-                      <property role="3SKdUp" value="stop processing" />
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="5YVCCVeEtx4" role="3cqZAp">
-                    <node concept="1rXfSq" id="5YVCCVeEtx5" role="3clFbG">
-                      <ref role="37wK5l" node="1nXeD0e_o4L" resolve="stopMultiAction" />
-                    </node>
-                  </node>
-                  <node concept="3clFbH" id="5GImeV7d9s9" role="3cqZAp" />
-                </node>
-              </node>
               <node concept="3clFbS" id="1mou_EB9_6J" role="3clFbx">
                 <node concept="3SKdUt" id="1mou_EB7bHL" role="3cqZAp">
-                  <node concept="3SKdUq" id="1mou_EB7bHN" role="3SKWNk">
-                    <property role="3SKdUp" value="GE or GO had an exception, stop multiaction anyway." />
+                  <node concept="3SKdUq" id="mNslnbyutw" role="3SKWNk">
+                    <property role="3SKdUp" value="stop multiprocessing ... " />
                   </node>
                 </node>
                 <node concept="3clFbF" id="5YVCCVeEtUv" role="3cqZAp">
@@ -25680,102 +25650,123 @@
                 </node>
                 <node concept="3clFbH" id="1mou_EBa4hf" role="3cqZAp" />
               </node>
-              <node concept="22lmx$" id="4$IxB89csat" role="3clFbw">
-                <node concept="2OqwBi" id="4$IxB89csok" role="3uHU7w">
-                  <node concept="37vLTw" id="4$IxB89csk7" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
-                  </node>
-                  <node concept="liA8E" id="4$IxB89csrE" role="2OqNvi">
-                    <ref role="37wK5l" node="5YVCCVeHFSl" resolve="wasUserCancel" />
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="1mou_EB9_Dw" role="3uHU7B">
-                  <node concept="37vLTw" id="1mou_EB9_qE" role="2Oq$k0">
-                    <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
-                  </node>
-                  <node concept="liA8E" id="1mou_EB9_Tb" role="2OqNvi">
-                    <ref role="37wK5l" node="5YVCCVeHGfM" resolve="wasCancelByEx" />
-                  </node>
-                </node>
-              </node>
               <node concept="3eNFk2" id="1mou_EBa2Io" role="3eNLev">
                 <node concept="3clFbS" id="1mou_EBa2Iq" role="3eOfB_">
-                  <node concept="3SKdUt" id="5YEYfHwUnJJ" role="3cqZAp">
-                    <node concept="3SKdUq" id="5YEYfHwUnJL" role="3SKWNk">
-                      <property role="3SKdUp" value="start next cmd... " />
-                    </node>
-                  </node>
-                  <node concept="3clFbF" id="5YEYfHwUF2S" role="3cqZAp">
-                    <node concept="37vLTI" id="5YEYfHwUFwD" role="3clFbG">
-                      <node concept="10Nm6u" id="5YEYfHwUF$m" role="37vLTx" />
-                      <node concept="37vLTw" id="5YEYfHwUF2Q" role="37vLTJ">
-                        <ref role="3cqZAo" node="5YEYfHwUoOW" resolve="currentMultiActContainer" />
+                  <node concept="3cpWs8" id="mNslnbyvet" role="3cqZAp">
+                    <node concept="3cpWsn" id="mNslnbyvew" role="3cpWs9">
+                      <property role="TrG5h" value="startNext" />
+                      <node concept="10P_77" id="mNslnbyver" role="1tU5fm" />
+                      <node concept="1eOMI4" id="7_LnCNXTb98" role="33vP2m">
+                        <node concept="22lmx$" id="3nYsKhuZxOz" role="1eOMHV">
+                          <node concept="2OqwBi" id="6X2OBnWvdhj" role="3uHU7B">
+                            <node concept="37vLTw" id="6X2OBnWvdb4" role="2Oq$k0">
+                              <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
+                            </node>
+                            <node concept="liA8E" id="6X2OBnWvdnR" role="2OqNvi">
+                              <ref role="37wK5l" node="5YVCCVeHjfl" resolve="wasOk" />
+                            </node>
+                          </node>
+                          <node concept="1eOMI4" id="5qtEEIGCdmc" role="3uHU7w">
+                            <node concept="1Wc70l" id="5qtEEIGCeXf" role="1eOMHV">
+                              <node concept="2OqwBi" id="3nYsKhuZy6d" role="3uHU7B">
+                                <node concept="37vLTw" id="3nYsKhuZxZC" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActEvent" />
+                                </node>
+                                <node concept="liA8E" id="5YEYfHwUi9f" role="2OqNvi">
+                                  <ref role="37wK5l" node="5YEYfHwQuGe" resolve="isGoOnWhenCanceled" />
+                                </node>
+                              </node>
+                              <node concept="2OqwBi" id="5qtEEIGCgvH" role="3uHU7w">
+                                <node concept="37vLTw" id="5qtEEIGCgvI" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
+                                </node>
+                                <node concept="liA8E" id="5qtEEIGCgvJ" role="2OqNvi">
+                                  <ref role="37wK5l" node="5YVCCVeIgws" resolve="wasCancelOrUserCancel" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
-                  <node concept="3clFbF" id="5YEYfHwUkKt" role="3cqZAp">
-                    <node concept="1rXfSq" id="5YEYfHwUkKr" role="3clFbG">
-                      <ref role="37wK5l" node="7_LnCNXS$zn" resolve="handleMultiStartEvent" />
+                  <node concept="3clFbH" id="mNslnbyvmg" role="3cqZAp" />
+                  <node concept="3clFbJ" id="mNslnbyv7E" role="3cqZAp">
+                    <node concept="3clFbS" id="mNslnbyv7G" role="3clFbx">
+                      <node concept="3clFbF" id="5YEYfHwUF2S" role="3cqZAp">
+                        <node concept="37vLTI" id="5YEYfHwUFwD" role="3clFbG">
+                          <node concept="10Nm6u" id="5YEYfHwUF$m" role="37vLTx" />
+                          <node concept="37vLTw" id="5YEYfHwUF2Q" role="37vLTJ">
+                            <ref role="3cqZAo" node="5YEYfHwUoOW" resolve="currentMultiActContainer" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="5YEYfHwUkKt" role="3cqZAp">
+                        <node concept="1rXfSq" id="5YEYfHwUkKr" role="3clFbG">
+                          <ref role="37wK5l" node="7_LnCNXS$zn" resolve="handleMultiStartEvent" />
+                        </node>
+                      </node>
+                      <node concept="3clFbH" id="mNslnbyv7F" role="3cqZAp" />
+                    </node>
+                    <node concept="37vLTw" id="mNslnbyx6x" role="3clFbw">
+                      <ref role="3cqZAo" node="mNslnbyvew" resolve="startNext" />
+                    </node>
+                    <node concept="9aQIb" id="mNslnbyvoA" role="9aQIa">
+                      <node concept="3clFbS" id="mNslnbyvoB" role="9aQI4">
+                        <node concept="3SKdUt" id="mNslnbyvsc" role="3cqZAp">
+                          <node concept="3SKdUq" id="mNslnbyvsd" role="3SKWNk">
+                            <property role="3SKdUp" value="Stop multiprocessing" />
+                          </node>
+                        </node>
+                        <node concept="3clFbF" id="mNslnbyvxU" role="3cqZAp">
+                          <node concept="1rXfSq" id="mNslnbyvxS" role="3clFbG">
+                            <ref role="37wK5l" node="1nXeD0e_o4L" resolve="stopMultiAction" />
+                          </node>
+                        </node>
+                        <node concept="3clFbH" id="mNslnbywXm" role="3cqZAp" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbH" id="5YEYfHwUEUe" role="3cqZAp" />
+                  <node concept="3clFbH" id="mNslnbytmD" role="3cqZAp" />
                 </node>
-                <node concept="1Wc70l" id="7_LnCNXTa0B" role="3eO9$A">
-                  <node concept="1eOMI4" id="7_LnCNXTb98" role="3uHU7w">
-                    <node concept="22lmx$" id="3nYsKhuZxOz" role="1eOMHV">
-                      <node concept="2OqwBi" id="6X2OBnWvdhj" role="3uHU7B">
-                        <node concept="37vLTw" id="6X2OBnWvdb4" role="2Oq$k0">
-                          <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
-                        </node>
-                        <node concept="liA8E" id="6X2OBnWvdnR" role="2OqNvi">
-                          <ref role="37wK5l" node="5YVCCVeHjfl" resolve="wasOk" />
-                        </node>
-                      </node>
-                      <node concept="1eOMI4" id="5qtEEIGCdmc" role="3uHU7w">
-                        <node concept="1Wc70l" id="5qtEEIGCeXf" role="1eOMHV">
-                          <node concept="2OqwBi" id="3nYsKhuZy6d" role="3uHU7B">
-                            <node concept="37vLTw" id="3nYsKhuZxZC" role="2Oq$k0">
-                              <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActEvent" />
-                            </node>
-                            <node concept="liA8E" id="5YEYfHwUi9f" role="2OqNvi">
-                              <ref role="37wK5l" node="5YEYfHwQuGe" resolve="isGoOnWhenCanceled" />
-                            </node>
-                          </node>
-                          <node concept="2OqwBi" id="5qtEEIGCgvH" role="3uHU7w">
-                            <node concept="37vLTw" id="5qtEEIGCgvI" role="2Oq$k0">
-                              <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
-                            </node>
-                            <node concept="liA8E" id="5qtEEIGCgvJ" role="2OqNvi">
-                              <ref role="37wK5l" node="5YVCCVeIgws" resolve="wasCancelOrUserCancel" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
+                <node concept="3clFbC" id="1mou_EB9Aw4" role="3eO9$A">
+                  <node concept="37vLTw" id="5YEYfHwUEuK" role="3uHU7B">
+                    <ref role="3cqZAo" node="5YEYfHwUoOW" resolve="currentMultiActContainer" />
                   </node>
-                  <node concept="3clFbC" id="1mou_EB9Aw4" role="3uHU7B">
-                    <node concept="37vLTw" id="5YEYfHwUEuK" role="3uHU7B">
-                      <ref role="3cqZAo" node="5YEYfHwUoOW" resolve="currentMultiActContainer" />
+                  <node concept="2OqwBi" id="1mou_EB9Aw5" role="3uHU7w">
+                    <node concept="37vLTw" id="1mou_EB9Aw6" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
                     </node>
-                    <node concept="2OqwBi" id="1mou_EB9Aw5" role="3uHU7w">
-                      <node concept="37vLTw" id="1mou_EB9Aw6" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
-                      </node>
-                      <node concept="liA8E" id="1mou_EB9Aw7" role="2OqNvi">
-                        <ref role="37wK5l" node="T$VfFDOC_f" resolve="getClosedContainer" />
-                      </node>
+                    <node concept="liA8E" id="1mou_EB9Aw7" role="2OqNvi">
+                      <ref role="37wK5l" node="T$VfFDOC_f" resolve="getClosedContainer" />
                     </node>
                   </node>
                 </node>
               </node>
               <node concept="9aQIb" id="5YVCCVeEsAc" role="9aQIa">
                 <node concept="3clFbS" id="5YVCCVeEsAd" role="9aQI4">
-                  <node concept="3SKdUt" id="6HvFgwbGHKQ" role="3cqZAp">
-                    <node concept="3SKdUq" id="6HvFgwbGHKR" role="3SKWNk">
-                      <property role="3SKdUp" value="nothing do to ? " />
+                  <node concept="3SKdUt" id="mNslnbytb_" role="3cqZAp">
+                    <node concept="3SKdUq" id="mNslnbytbB" role="3SKWNk">
+                      <property role="3SKdUp" value="nothing to do?" />
                     </node>
                   </node>
-                  <node concept="3clFbH" id="6HvFgwbGHL8" role="3cqZAp" />
+                  <node concept="3clFbH" id="mNslnbytbL" role="3cqZAp" />
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="5GImeV7cXh5" role="3clFbw">
+                <node concept="2OqwBi" id="5GImeV7cXh7" role="3fr31v">
+                  <node concept="2OqwBi" id="5GImeV7cXh8" role="2Oq$k0">
+                    <node concept="37vLTw" id="5GImeV7cXh9" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5ZV7jolbyFl" resolve="multiActEvent" />
+                    </node>
+                    <node concept="liA8E" id="5YEYfHwUi5t" role="2OqNvi">
+                      <ref role="37wK5l" node="63VjT6lP1E_" resolve="getParentContainer" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="5GImeV7cXhb" role="2OqNvi">
+                    <ref role="37wK5l" node="5GImeV79v0E" resolve="isStillOkayAsParentForMultiExecution" />
+                  </node>
                 </node>
               </node>
             </node>
