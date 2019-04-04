@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="org.modellwerkstatt.objectflow" uuid="ec097fca-5b84-41f2-847d-6a5690cae277" languageVersion="0" moduleVersion="2">
+<language namespace="org.modellwerkstatt.objectflow" uuid="ec097fca-5b84-41f2-847d-6a5690cae277" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}/languageModels" type="default">
       <sourceRoot location="." />

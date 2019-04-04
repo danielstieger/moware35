@@ -19986,10 +19986,12 @@
             <node concept="3cpWs3" id="6cFiWEVtKuD" role="3clFbG">
               <node concept="2OqwBi" id="6cFiWEVtKLy" role="3uHU7w">
                 <node concept="30H73N" id="6cFiWEVtKDM" role="2Oq$k0" />
-                <node concept="2bSWHS" id="6cFiWEVtLBa" role="2OqNvi" />
+                <node concept="3TrcHB" id="ZnoxjbjDmZ" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
               </node>
               <node concept="Xl_RD" id="6cFiWEVtGHC" role="3uHU7B">
-                <property role="Xl_RC" value="DataBaseSchemaDescription_" />
+                <property role="Xl_RC" value="DbSchema_" />
               </node>
             </node>
           </node>

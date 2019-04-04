@@ -1452,6 +1452,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="7i5NrsZlxZT" resolve="BusinessProperty" />
     </node>
+    <node concept="PrWs8" id="ZnoxjbjKwr" role="PrDN$">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2P7gGuyaWH6">
     <property role="3GE5qa" value="BusinessObject.Options" />

@@ -390,6 +390,7 @@
       <concept id="5332677359380589431" name="jetbrains.mps.lang.access.structure.ExecuteTransparentCommandStatement" flags="nn" index="2LD9aU" />
       <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
       <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
+        <child id="1423104411234567454" name="repo" index="ukAjM" />
         <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
       </concept>
       <concept id="8974276187400348183" name="jetbrains.mps.lang.access.structure.ExecuteWriteActionStatement" flags="nn" index="1QHqEM" />
@@ -8074,7 +8075,19 @@
                                           </node>
                                         </node>
                                       </node>
+                                      <node concept="2OqwBi" id="1ESR_GozAfX" role="ukAjM">
+                                        <node concept="1Q80Hx" id="1ESR_GozA50" role="2Oq$k0" />
+                                        <node concept="liA8E" id="1ESR_GozAjs" role="2OqNvi">
+                                          <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                                        </node>
+                                      </node>
                                     </node>
+                                  </node>
+                                </node>
+                                <node concept="2OqwBi" id="1ESR_Goz_GO" role="ukAjM">
+                                  <node concept="1Q80Hx" id="1ESR_Goz_wR" role="2Oq$k0" />
+                                  <node concept="liA8E" id="1ESR_Goz_Lj" role="2OqNvi">
+                                    <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
                                   </node>
                                 </node>
                               </node>
@@ -8551,7 +8564,19 @@
                                                         </node>
                                                       </node>
                                                     </node>
+                                                    <node concept="2OqwBi" id="1ESR_GozBuP" role="ukAjM">
+                                                      <node concept="1Q80Hx" id="1ESR_GozB7e" role="2Oq$k0" />
+                                                      <node concept="liA8E" id="1ESR_GozB_P" role="2OqNvi">
+                                                        <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
+                                                      </node>
+                                                    </node>
                                                   </node>
+                                                </node>
+                                              </node>
+                                              <node concept="2OqwBi" id="1ESR_Goz$CK" role="ukAjM">
+                                                <node concept="1Q80Hx" id="1ESR_Goz$hf" role="2Oq$k0" />
+                                                <node concept="liA8E" id="1ESR_Goz$Jy" role="2OqNvi">
+                                                  <ref role="37wK5l" to="cj4x:~EditorContext.getRepository():org.jetbrains.mps.openapi.module.SRepository" resolve="getRepository" />
                                                 </node>
                                               </node>
                                             </node>
