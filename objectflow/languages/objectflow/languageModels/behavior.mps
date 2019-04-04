@@ -1137,21 +1137,18 @@
         <node concept="3cpWs8" id="hDMFM$S" role="3cqZAp">
           <node concept="3cpWsn" id="hDMFM$T" role="3cpWs9">
             <property role="TrG5h" value="classifiers" />
-            <node concept="2OqwBi" id="i2lZKQa" role="33vP2m">
-              <node concept="2ShNRf" id="i2lZKQb" role="2Oq$k0">
-                <node concept="1pGfFk" id="i2lZKQc" role="2ShVmc">
-                  <ref role="37wK5l" to="5h2r:1QoA1nPIAYW" resolve="ClassifierAndSuperClassifiersScope" />
-                  <node concept="37vLTw" id="6svR_JBENZb" role="37wK5m">
-                    <ref role="3cqZAo" node="3tee2E$M2au" resolve="cc" />
-                  </node>
+            <node concept="2I9FWS" id="3pHEpk1yc8l" role="1tU5fm">
+              <ref role="2I9WkF" to="tpee:g7pOWCK" resolve="Classifier" />
+            </node>
+            <node concept="2OqwBi" id="3pHEpk1ydE$" role="33vP2m">
+              <node concept="2YIFZM" id="3pHEpk1y7yW" role="2Oq$k0">
+                <ref role="37wK5l" to="fnmy:F_gw8Xp7cA" resolve="getExtendedClassifiers" />
+                <ref role="1Pybhc" to="fnmy:3IVP2zisgL0" resolve="ClassifierScopeUtils" />
+                <node concept="37vLTw" id="3pHEpk1y7I6" role="37wK5m">
+                  <ref role="3cqZAo" node="3tee2E$M2au" resolve="cc" />
                 </node>
               </node>
-              <node concept="liA8E" id="i2lZKQg" role="2OqNvi">
-                <ref role="37wK5l" to="5h2r:2Jvt1sWfvlW" resolve="getClassifiers" />
-              </node>
-            </node>
-            <node concept="2I9FWS" id="i2lASj$" role="1tU5fm">
-              <ref role="2I9WkF" to="tpee:g7pOWCK" resolve="Classifier" />
+              <node concept="ANE8D" id="3pHEpk1yepq" role="2OqNvi" />
             </node>
           </node>
         </node>
