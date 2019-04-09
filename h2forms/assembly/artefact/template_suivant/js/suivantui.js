@@ -19,7 +19,7 @@ var $$ = function(query) {
 
 function svLog(methodName, msg) {
     console.log('- '+ methodName + "(): " + msg);
-    alert('- '+ methodName + "(): " + msg);
+    // alert('- '+ methodName + "(): " + msg);
 }
 
 function svIsDropdown(elem) {
