@@ -761,7 +761,7 @@
                       <node concept="3clFbS" id="6j_KBLodGWc" role="1bW5cS">
                         <node concept="3clFbF" id="63w_NJwJKjm" role="3cqZAp">
                           <node concept="2YIFZM" id="63w_NJwJKjo" role="3clFbG">
-                            <ref role="37wK5l" to="3ojc:FaoLX6iqRd" resolve="isReference" />
+                            <ref role="37wK5l" to="3ojc:FaoLX6iqRd" resolve="isEntityReference" />
                             <ref role="1Pybhc" to="3ojc:vASbT$6zkP" resolve="OFXLegacyHelper" />
                             <node concept="2OqwBi" id="63w_NJwJKjs" role="37wK5m">
                               <node concept="37vLTw" id="6svR_JBEO0p" role="2Oq$k0">
@@ -5045,6 +5045,34 @@
   <node concept="1M2fIO" id="35a9wK8J3qy">
     <property role="3GE5qa" value="Permission" />
     <ref role="1M2myG" to="un0u:35a9wK7WMy0" resolve="Identity" />
+    <node concept="osYL8" id="5etApAuXIBk" role="1MLXOK">
+      <node concept="3clFbS" id="5etApAuXIBl" role="2VODD2">
+        <node concept="3clFbJ" id="5etApAuXKsz" role="3cqZAp">
+          <node concept="3clFbC" id="5etApAuXKxR" role="3clFbw">
+            <node concept="oXsJc" id="5etApAuXKtY" role="3uHU7B" />
+            <node concept="28GBK8" id="5etApAuXKOJ" role="3uHU7w">
+              <ref role="28GBKb" to="un0u:35a9wK7WMy0" resolve="Identity" />
+              <ref role="28H3Ia" to="un0u:35a9wK8sZJH" />
+            </node>
+          </node>
+          <node concept="3clFbS" id="5etApAuXKs_" role="3clFbx">
+            <node concept="3cpWs6" id="5etApAv2XQJ" role="3cqZAp">
+              <node concept="3clFbC" id="5etApAv3aFc" role="3cqZAk">
+                <node concept="3TUQnm" id="5etApAv3aJG" role="3uHU7w">
+                  <ref role="3TV0OU" to="tpee:g7uibYu" resolve="ClassifierType" />
+                </node>
+                <node concept="otxO1" id="5etApAv3a_4" role="3uHU7B" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5etApAuXKIf" role="3cqZAp">
+          <node concept="3clFbT" id="5etApAuXKIx" role="3cqZAk">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -4563,7 +4563,7 @@
                   </node>
                   <node concept="3SKdUt" id="2QHjcDu2Bvm" role="3cqZAp">
                     <node concept="3SKdUq" id="2QHjcDu2Bvo" role="3SKWNk">
-                      <property role="3SKdUp" value="replace anyway, does not matter if it is a viewobject of entity .. :)" />
+                      <property role="3SKdUp" value="replace anyway, does not matter if it is a viewobject or entity .. :)" />
                     </node>
                   </node>
                   <node concept="3SKdUt" id="6Au2sPCFXBB" role="3cqZAp">
