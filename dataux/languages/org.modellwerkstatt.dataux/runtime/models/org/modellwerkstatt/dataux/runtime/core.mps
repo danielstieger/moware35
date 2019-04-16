@@ -26092,6 +26092,7 @@
                     <property role="3SKdUp" value="okay, not displayed ... " />
                   </node>
                 </node>
+                <node concept="3clFbH" id="3feBNMFxD_d" role="3cqZAp" />
               </node>
               <node concept="2OqwBi" id="39R747ug2i2" role="3clFbw">
                 <node concept="37vLTw" id="39R747ug2hy" role="2Oq$k0">
@@ -26103,6 +26104,11 @@
               </node>
               <node concept="9aQIb" id="39R747ug2r4" role="9aQIa">
                 <node concept="3clFbS" id="39R747ug2r5" role="9aQI4">
+                  <node concept="3SKdUt" id="3feBNMFxsEi" role="3cqZAp">
+                    <node concept="3SKdUq" id="3feBNMFxsEk" role="3SKWNk">
+                      <property role="3SKdUp" value="Parent already closed. Eg. GE Printing takes some time, user closes GO in between... " />
+                    </node>
+                  </node>
                   <node concept="3clFbF" id="5YEYfHwUiPQ" role="3cqZAp">
                     <node concept="1rXfSq" id="5YEYfHwUiPO" role="3clFbG">
                       <ref role="37wK5l" node="2ppo89mfoLL" resolve="logProblem" />
@@ -26111,22 +26117,38 @@
                           <ref role="1Pybhc" to="28jr:I5W9GWEHym" resolve="OFXConsoleHelper" />
                           <ref role="37wK5l" to="28jr:3jf78U038H6" resolve="_____organizeCurrentStacktrace_____" />
                         </node>
-                        <node concept="3cpWs3" id="5YEYfHwUjN3" role="3uHU7B">
-                          <node concept="3cpWs3" id="5YEYfHwUjBl" role="3uHU7B">
-                            <node concept="Xl_RD" id="5YEYfHwUjrm" role="3uHU7B">
-                              <property role="Xl_RC" value="Parent not found? This should no happen in MRS: " />
-                            </node>
-                            <node concept="37vLTw" id="5YEYfHwUjHY" role="3uHU7w">
-                              <ref role="3cqZAo" node="7TgG1qSf3Vk" resolve="parent" />
-                            </node>
-                          </node>
-                          <node concept="Xl_RD" id="5YEYfHwUjRx" role="3uHU7w">
+                        <node concept="3cpWs3" id="3feBNMFxDKy" role="3uHU7B">
+                          <node concept="Xl_RD" id="3feBNMFxDUK" role="3uHU7w">
                             <property role="Xl_RC" value="\n" />
+                          </node>
+                          <node concept="3cpWs3" id="3feBNMFxDFL" role="3uHU7B">
+                            <node concept="3cpWs3" id="5YEYfHwUjN3" role="3uHU7B">
+                              <node concept="3cpWs3" id="5YEYfHwUjBl" role="3uHU7B">
+                                <node concept="Xl_RD" id="5YEYfHwUjrm" role="3uHU7B">
+                                  <property role="Xl_RC" value="Parent not found - this should no happen in MRS: parent " />
+                                </node>
+                                <node concept="37vLTw" id="5YEYfHwUjHY" role="3uHU7w">
+                                  <ref role="3cqZAo" node="7TgG1qSf3Vk" resolve="parent" />
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="5YEYfHwUjRx" role="3uHU7w">
+                                <property role="Xl_RC" value=" for " />
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="3feBNMFxEcQ" role="3uHU7w">
+                              <node concept="37vLTw" id="3feBNMFxE8A" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3faLA0M353i" resolve="termEvent" />
+                              </node>
+                              <node concept="liA8E" id="3feBNMFxEWd" role="2OqNvi">
+                                <ref role="37wK5l" node="T$VfFDOC_f" resolve="getClosedContainer" />
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
                     </node>
                   </node>
+                  <node concept="3clFbH" id="3feBNMFxD_h" role="3cqZAp" />
                 </node>
               </node>
             </node>
