@@ -2085,18 +2085,28 @@
     <property role="TrG5h" value="StatusDelegate" />
     <node concept="Wx3nA" id="1kaU3pLVdBW" role="jymVt">
       <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="OPTIONAL_ITEM_TEXT" />
+      <property role="3TUv4t" value="true" />
+      <node concept="17QB3L" id="1xTTu1NY6CT" role="1tU5fm" />
+      <node concept="3Tm1VV" id="1xTTu1NYkWa" role="1B3o_S" />
+      <node concept="Xl_RD" id="1xTTu1NY7zL" role="33vP2m">
+        <property role="Xl_RC" value="---" />
+      </node>
+    </node>
+    <node concept="Wx3nA" id="1xTTu1NY5A$" role="jymVt">
+      <property role="IEkAT" value="false" />
       <property role="TrG5h" value="optionalItem" />
       <property role="3TUv4t" value="true" />
-      <node concept="3uibUv" id="1kaU3pLVd$S" role="1tU5fm">
+      <node concept="3uibUv" id="1xTTu1NY5A_" role="1tU5fm">
         <ref role="3uigEE" node="dX9tEwAiIy" resolve="StatusDelegate.Item" />
       </node>
-      <node concept="3Tm6S6" id="1kaU3pLVdxl" role="1B3o_S" />
-      <node concept="2ShNRf" id="1kaU3pLVd_I" role="33vP2m">
-        <node concept="1pGfFk" id="1kaU3pLVd_H" role="2ShVmc">
+      <node concept="3Tm6S6" id="1xTTu1NY5AA" role="1B3o_S" />
+      <node concept="2ShNRf" id="1xTTu1NY5AB" role="33vP2m">
+        <node concept="1pGfFk" id="1xTTu1NY5AC" role="2ShVmc">
           <ref role="37wK5l" node="1ejJFIuLEyW" resolve="StatusDelegate.Item" />
-          <node concept="10Nm6u" id="1kaU3pLVdBS" role="37wK5m" />
-          <node concept="Xl_RD" id="1kaU3pLVdB9" role="37wK5m">
-            <property role="Xl_RC" value="---" />
+          <node concept="10Nm6u" id="1xTTu1NY5AD" role="37wK5m" />
+          <node concept="37vLTw" id="1xTTu1NY8c9" role="37wK5m">
+            <ref role="3cqZAo" node="1kaU3pLVdBW" resolve="OPTIONAL_ITEM_TEXT" />
           </node>
         </node>
       </node>
@@ -2316,8 +2326,8 @@
                   <ref role="3cqZAo" node="1kaU3pLUXOk" resolve="availableItems" />
                 </node>
                 <node concept="TSZUe" id="1kaU3pLVgVG" role="2OqNvi">
-                  <node concept="37vLTw" id="1kaU3pLVh2E" role="25WWJ7">
-                    <ref role="3cqZAo" node="1kaU3pLVdBW" resolve="optionalItem" />
+                  <node concept="37vLTw" id="1xTTu1NY8mA" role="25WWJ7">
+                    <ref role="3cqZAo" node="1xTTu1NY5A$" resolve="optionalItem" />
                   </node>
                 </node>
               </node>
