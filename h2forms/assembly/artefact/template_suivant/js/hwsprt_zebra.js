@@ -78,6 +78,7 @@ function zzDefaultOkSubmit(){
 function hwInitAfterDomReady(){
     // svLog('hwInitAfterDomReady', 'zebra enableScan called . . . .');
 
+    console.log('calling EB.Sip.disableAllIME()');
     EB.Sip.disableAllIME();
 
     var focusHandler = function(event) {
@@ -85,10 +86,12 @@ function hwInitAfterDomReady(){
             var useNumericKeyboard = event.target.getAttribute('useNumericKeyboard');
 
     		if((nodeName == 'input' || nodeName == 'textarea') && useNumericKeyboard == null) {
+                console.log('calling EB.Sip.resetToDefault() and show()');
                 EB.Sip.resetToDefault();
                 EB.Sip.show();
 
     		} else {
+    		    console.log('calling EB.Sip.disableAllIME()');
     		    EB.Sip.disableAllIME();
             }
     };
