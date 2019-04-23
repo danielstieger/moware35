@@ -32275,24 +32275,36 @@
           <node concept="3clFbS" id="4T6wObo7w3A" role="3clFbx">
             <node concept="SfApY" id="4T6wObo7yem" role="3cqZAp">
               <node concept="3clFbS" id="4T6wObo7yen" role="SfCbr">
+                <node concept="3cpWs8" id="2TytTkVGZ9R" role="3cqZAp">
+                  <node concept="3cpWsn" id="2TytTkVGZ9S" role="3cpWs9">
+                    <property role="TrG5h" value="dbmd" />
+                    <node concept="3uibUv" id="2TytTkVGZ9T" role="1tU5fm">
+                      <ref role="3uigEE" to="zj7m:~DatabaseMetaData" resolve="DatabaseMetaData" />
+                    </node>
+                    <node concept="2OqwBi" id="2TytTkVGZnh" role="33vP2m">
+                      <node concept="2OqwBi" id="2TytTkVGZjl" role="2Oq$k0">
+                        <node concept="37vLTw" id="2TytTkVGZhW" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4T6wObo7pIq" resolve="dataSource" />
+                        </node>
+                        <node concept="liA8E" id="2TytTkVGZm6" role="2OqNvi">
+                          <ref role="37wK5l" to="iiye:~DataSource.getConnection():java.sql.Connection" resolve="getConnection" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="2TytTkVGZqB" role="2OqNvi">
+                        <ref role="37wK5l" to="zj7m:~Connection.getMetaData():java.sql.DatabaseMetaData" resolve="getMetaData" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="2TytTkVGZs_" role="3cqZAp" />
                 <node concept="3clFbF" id="4T6wObo7wHl" role="3cqZAp">
                   <node concept="37vLTI" id="4T6wObo7xf4" role="3clFbG">
                     <node concept="37vLTw" id="4T6wObo7wHk" role="37vLTJ">
                       <ref role="3cqZAo" node="2qrl3a2nGV5" resolve="connectionInfo" />
                     </node>
                     <node concept="2OqwBi" id="4T6wObo7sNv" role="37vLTx">
-                      <node concept="2OqwBi" id="4T6wObo7seE" role="2Oq$k0">
-                        <node concept="2OqwBi" id="4T6wObo7rV7" role="2Oq$k0">
-                          <node concept="37vLTw" id="4T6wObo7rTJ" role="2Oq$k0">
-                            <ref role="3cqZAo" node="4T6wObo7pIq" resolve="dataSource" />
-                          </node>
-                          <node concept="liA8E" id="4T6wObo7sc8" role="2OqNvi">
-                            <ref role="37wK5l" to="iiye:~DataSource.getConnection():java.sql.Connection" resolve="getConnection" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="4T6wObo7sml" role="2OqNvi">
-                          <ref role="37wK5l" to="zj7m:~Connection.getMetaData():java.sql.DatabaseMetaData" resolve="getMetaData" />
-                        </node>
+                      <node concept="37vLTw" id="2TytTkVGZ$6" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2TytTkVGZ9S" resolve="dbmd" />
                       </node>
                       <node concept="liA8E" id="4T6wObo7tr2" role="2OqNvi">
                         <ref role="37wK5l" to="zj7m:~DatabaseMetaData.getURL():java.lang.String" resolve="getURL" />
@@ -32300,6 +32312,42 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="2TytTkVGZE9" role="3cqZAp" />
+                <node concept="3cpWs8" id="2TytTkVGYeq" role="3cqZAp">
+                  <node concept="3cpWsn" id="2TytTkVGYet" role="3cpWs9">
+                    <property role="TrG5h" value="version" />
+                    <node concept="17QB3L" id="2TytTkVGYeo" role="1tU5fm" />
+                    <node concept="2OqwBi" id="2TytTkVGYSE" role="33vP2m">
+                      <node concept="37vLTw" id="2TytTkVGZIN" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2TytTkVGZ9S" resolve="dbmd" />
+                      </node>
+                      <node concept="liA8E" id="2TytTkVGYXJ" role="2OqNvi">
+                        <ref role="37wK5l" to="zj7m:~DatabaseMetaData.getDriverVersion():java.lang.String" resolve="getDriverVersion" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="2TytTkVGZOM" role="3cqZAp">
+                  <node concept="d57v9" id="2TytTkVGZUn" role="3clFbG">
+                    <node concept="3cpWs3" id="2TytTkVHtlt" role="37vLTx">
+                      <node concept="Xl_RD" id="2TytTkVHtm8" role="3uHU7w">
+                        <property role="Xl_RC" value=")" />
+                      </node>
+                      <node concept="3cpWs3" id="2TytTkVH01C" role="3uHU7B">
+                        <node concept="Xl_RD" id="2TytTkVGZWz" role="3uHU7B">
+                          <property role="Xl_RC" value=" (ver " />
+                        </node>
+                        <node concept="37vLTw" id="2TytTkVH04K" role="3uHU7w">
+                          <ref role="3cqZAo" node="2TytTkVGYet" resolve="version" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="2TytTkVGZOK" role="37vLTJ">
+                      <ref role="3cqZAo" node="2qrl3a2nGV5" resolve="connectionInfo" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="2TytTkVH073" role="3cqZAp" />
               </node>
               <node concept="TDmWw" id="4T6wObo7yet" role="TEbGg">
                 <node concept="3clFbS" id="4T6wObo7yew" role="TDEfX">
