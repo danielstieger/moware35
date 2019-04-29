@@ -30368,6 +30368,7 @@
       <node concept="10P_77" id="5dZoziR9qIU" role="3clF45" />
       <node concept="3Tm1VV" id="5dZoziR9qIV" role="1B3o_S" />
       <node concept="3clFbS" id="5dZoziR9qIW" role="3clF47">
+        <node concept="3clFbH" id="7comOWF2TP2" role="3cqZAp" />
         <node concept="3SKdUt" id="16VphDIVlZU" role="3cqZAp">
           <node concept="3SKdUq" id="16VphDIVlZW" role="3SKWNk">
             <property role="3SKdUp" value="first set with non null list changes hash, others not! " />
@@ -30382,6 +30383,12 @@
             </node>
             <node concept="3clFbJ" id="6_ccWWp7uPy" role="3cqZAp">
               <node concept="3clFbS" id="6_ccWWp7uP$" role="3clFbx">
+                <node concept="3SKdUt" id="7comOWF2BuD" role="3cqZAp">
+                  <node concept="3SKdUq" id="7comOWF2BuF" role="3SKWNk">
+                    <property role="3SKdUp" value="however, re-sorting things is allowed ... :)" />
+                  </node>
+                </node>
+                <node concept="3clFbH" id="7comOWF2BnD" role="3cqZAp" />
                 <node concept="3SKdUt" id="6_ccWWp7y0y" role="3cqZAp">
                   <node concept="3SKdUq" id="6_ccWWp7y0$" role="3SKWNk">
                     <property role="3SKdUp" value="some items where added in meantime, the will be removed or overwritten" />
@@ -30402,26 +30409,43 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="7comOWF2_Pi" role="3cqZAp" />
               </node>
-              <node concept="1Wc70l" id="6_ccWWp7vsg" role="3clFbw">
-                <node concept="3eOSWO" id="6_ccWWp7wcD" role="3uHU7w">
-                  <node concept="3cmrfG" id="6_ccWWp7wfK" role="3uHU7w">
-                    <property role="3cmrfH" value="0" />
-                  </node>
-                  <node concept="2OqwBi" id="6_ccWWp7vOb" role="3uHU7B">
-                    <node concept="37vLTw" id="6_ccWWp7vDN" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5dZoziR9qI4" resolve="currentList" />
+              <node concept="1Wc70l" id="7comOWF2_Wc" role="3clFbw">
+                <node concept="3y3z36" id="7comOWF2AKw" role="3uHU7w">
+                  <node concept="1rXfSq" id="7comOWF2B1F" role="3uHU7w">
+                    <ref role="37wK5l" node="16VphDIGB4c" resolve="hashOfList" />
+                    <node concept="37vLTw" id="7comOWF2BfJ" role="37wK5m">
+                      <ref role="3cqZAo" node="5dZoziR9qJH" resolve="val" />
                     </node>
-                    <node concept="liA8E" id="6_ccWWp7vYk" role="2OqNvi">
-                      <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                  </node>
+                  <node concept="1rXfSq" id="7comOWF2AfD" role="3uHU7B">
+                    <ref role="37wK5l" node="16VphDIGB4c" resolve="hashOfList" />
+                    <node concept="37vLTw" id="7comOWF2Axq" role="37wK5m">
+                      <ref role="3cqZAo" node="5dZoziR9qI4" resolve="currentList" />
                     </node>
                   </node>
                 </node>
-                <node concept="3y3z36" id="6_ccWWp7vcO" role="3uHU7B">
-                  <node concept="37vLTw" id="6_ccWWp7uXL" role="3uHU7B">
-                    <ref role="3cqZAo" node="5dZoziR9qI4" resolve="currentList" />
+                <node concept="1Wc70l" id="6_ccWWp7vsg" role="3uHU7B">
+                  <node concept="3y3z36" id="6_ccWWp7vcO" role="3uHU7B">
+                    <node concept="37vLTw" id="6_ccWWp7uXL" role="3uHU7B">
+                      <ref role="3cqZAo" node="5dZoziR9qI4" resolve="currentList" />
+                    </node>
+                    <node concept="10Nm6u" id="6_ccWWp7vi2" role="3uHU7w" />
                   </node>
-                  <node concept="10Nm6u" id="6_ccWWp7vi2" role="3uHU7w" />
+                  <node concept="3eOSWO" id="6_ccWWp7wcD" role="3uHU7w">
+                    <node concept="2OqwBi" id="6_ccWWp7vOb" role="3uHU7B">
+                      <node concept="37vLTw" id="6_ccWWp7vDN" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5dZoziR9qI4" resolve="currentList" />
+                      </node>
+                      <node concept="liA8E" id="6_ccWWp7vYk" role="2OqNvi">
+                        <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                      </node>
+                    </node>
+                    <node concept="3cmrfG" id="6_ccWWp7wfK" role="3uHU7w">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                  </node>
                 </node>
               </node>
               <node concept="9aQIb" id="6_ccWWp7xme" role="9aQIa">
@@ -43203,7 +43227,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware 2019.13 (akteur+) (dev " />
+            <property role="Xl_RC" value="moware 2019.14 (list) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
