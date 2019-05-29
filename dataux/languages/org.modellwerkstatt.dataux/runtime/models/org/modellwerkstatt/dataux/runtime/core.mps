@@ -8063,6 +8063,7 @@
                 <ref role="37wK5l" node="3nLGOmWzIoC" resolve="reevalEnabledInMenus" />
               </node>
             </node>
+            <node concept="3clFbH" id="Sdc_RvDl4E" role="3cqZAp" />
             <node concept="3SKdUt" id="2LxPC2g_6bz" role="3cqZAp">
               <node concept="3SKdUq" id="2LxPC2g_6b_" role="3SKWNk">
                 <property role="3SKdUp" value="TODO: Remove this one here ... once dbg done" />
@@ -8104,6 +8105,17 @@
               </node>
             </node>
             <node concept="3clFbH" id="2CZV3d2XcNE" role="3cqZAp" />
+            <node concept="3SKdUt" id="Sdc_RvDmOE" role="3cqZAp">
+              <node concept="3SKdUq" id="Sdc_RvDmOG" role="3SKWNk">
+                <property role="3SKdUp" value="always setup tiles initially here, then eval start cmd" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="6zVU6_j$xNo" role="3cqZAp">
+              <node concept="1rXfSq" id="6zVU6_j$xNm" role="3clFbG">
+                <ref role="37wK5l" node="6zVU6_j$2uG" resolve="recalcAndShowTiles" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="Sdc_RvDnt3" role="3cqZAp" />
             <node concept="3cpWs8" id="2G0kEsKHsXx" role="3cqZAp">
               <node concept="3cpWsn" id="2G0kEsKHsXy" role="3cpWs9">
                 <property role="TrG5h" value="cmdStart" />
@@ -8146,7 +8158,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbH" id="6L32xcj7JK5" role="3cqZAp" />
               </node>
               <node concept="3y3z36" id="2G0kEsKHvTM" role="3clFbw">
                 <node concept="10Nm6u" id="2G0kEsKHvYC" role="3uHU7w" />
@@ -8154,18 +8165,8 @@
                   <ref role="3cqZAo" node="2G0kEsKHsXy" resolve="cmdStart" />
                 </node>
               </node>
-              <node concept="9aQIb" id="6L32xcj7Jl6" role="9aQIa">
-                <node concept="3clFbS" id="6L32xcj7Jl7" role="9aQI4">
-                  <node concept="3clFbF" id="6zVU6_j$xNo" role="3cqZAp">
-                    <node concept="1rXfSq" id="6zVU6_j$xNm" role="3clFbG">
-                      <ref role="37wK5l" node="6zVU6_j$2uG" resolve="recalcAndShowTiles" />
-                    </node>
-                  </node>
-                  <node concept="3clFbH" id="6L32xcj7JUo" role="3cqZAp" />
-                </node>
-              </node>
             </node>
-            <node concept="3clFbH" id="6L32xcj7Iuh" role="3cqZAp" />
+            <node concept="3clFbH" id="6L32xcj7JUo" role="3cqZAp" />
           </node>
           <node concept="TDmWw" id="2CZV3d2XcNG" role="TEbGg">
             <node concept="3cpWsn" id="2CZV3d2XcNI" role="TDEfY">
