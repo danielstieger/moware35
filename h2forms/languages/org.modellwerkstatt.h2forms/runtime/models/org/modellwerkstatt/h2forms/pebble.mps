@@ -9058,11 +9058,15 @@
       <node concept="3Tmbuc" id="7ZfE5kQZ$AX" role="1B3o_S" />
       <node concept="17QB3L" id="6nF$iZDJ3Ra" role="1tU5fm" />
     </node>
-    <node concept="2tJIrI" id="7ZfE5kQYU2$" role="jymVt" />
     <node concept="312cEg" id="6nF$iZDKzXX" role="jymVt">
       <property role="TrG5h" value="promptText" />
       <node concept="3Tmbuc" id="7ZfE5kQZ$x_" role="1B3o_S" />
       <node concept="17QB3L" id="6nF$iZDKzXZ" role="1tU5fm" />
+    </node>
+    <node concept="312cEg" id="63DqpXBUlb2" role="jymVt">
+      <property role="TrG5h" value="propertyName" />
+      <node concept="3Tmbuc" id="63DqpXBUlb3" role="1B3o_S" />
+      <node concept="17QB3L" id="63DqpXBUlb4" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="5rjVZFJ$M$Y" role="jymVt" />
     <node concept="312cEg" id="6nF$iZDK$eM" role="jymVt">
@@ -9380,7 +9384,23 @@
       </node>
       <node concept="3cqZAl" id="46JJF8IMpiw" role="3clF45" />
       <node concept="3Tm1VV" id="46JJF8IMpix" role="1B3o_S" />
-      <node concept="3clFbS" id="46JJF8IMpi$" role="3clF47" />
+      <node concept="3clFbS" id="46JJF8IMpi$" role="3clF47">
+        <node concept="3clFbF" id="63DqpXBUl1F" role="3cqZAp">
+          <node concept="37vLTI" id="63DqpXBUmda" role="3clFbG">
+            <node concept="37vLTw" id="63DqpXBUnkY" role="37vLTJ">
+              <ref role="3cqZAo" node="63DqpXBUlb2" resolve="propertyName" />
+            </node>
+            <node concept="2OqwBi" id="63DqpXBUl3U" role="37vLTx">
+              <node concept="37vLTw" id="63DqpXBUl1E" role="2Oq$k0">
+                <ref role="3cqZAo" node="46JJF8IMpiu" resolve="dlgt" />
+              </node>
+              <node concept="liA8E" id="63DqpXBUl9y" role="2OqNvi">
+                <ref role="37wK5l" to="zhcn:52pTiJH2OhE" resolve="getPropertyName" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3clFb_" id="46JJF8IMpjj" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -9982,8 +10002,18 @@
                 <node concept="2ShNRf" id="2wfjZb3lqM$" role="YScLw">
                   <node concept="1pGfFk" id="2wfjZb3lyYz" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                    <node concept="Xl_RD" id="2wfjZb3lz0Y" role="37wK5m">
-                      <property role="Xl_RC" value="Delegate, no scope set, but rendering." />
+                    <node concept="3cpWs3" id="63DqpXBUnGb" role="37wK5m">
+                      <node concept="Xl_RD" id="63DqpXBUnMp" role="3uHU7w">
+                        <property role="Xl_RC" value="', no scope set, but rendering." />
+                      </node>
+                      <node concept="3cpWs3" id="63DqpXBUnug" role="3uHU7B">
+                        <node concept="Xl_RD" id="2wfjZb3lz0Y" role="3uHU7B">
+                          <property role="Xl_RC" value="Delegate for '" />
+                        </node>
+                        <node concept="37vLTw" id="63DqpXBUnzx" role="3uHU7w">
+                          <ref role="3cqZAo" node="63DqpXBUlb2" resolve="propertyName" />
+                        </node>
+                      </node>
                     </node>
                   </node>
                 </node>
