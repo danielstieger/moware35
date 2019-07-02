@@ -12,6 +12,7 @@
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
+    <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -242,6 +243,26 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="_UgoZ" id="gmd$AzCMxI">
+    <property role="2BwPSy" value="migration" />
+    <property role="TrG5h" value="AutoCreateTests" />
+    <property role="_Wzho" value="Auto-Gen tests for custom sqls." />
+    <property role="2BwPS$" value="MoWare" />
+    <node concept="_XfAh" id="gmd$AzCMxJ" role="_YvDr">
+      <property role="_XH9r" value="Add tests for MapSelect" />
+      <ref role="_XDHR" to="r5tz:3NdPOdMTnQl" resolve="QueryFromSql" />
+      <node concept="_ZGcI" id="gmd$AzCMxK" role="_XPhp">
+        <node concept="3clFbS" id="gmd$AzCMxL" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="_XfAh" id="gmd$AzCMZJ" role="_YvDr">
+      <property role="_XH9r" value="Add tests for MapUpdate" />
+      <ref role="_XDHR" to="r5tz:7opW4z6uEx2" resolve="UpdateFormSql" />
+      <node concept="_ZGcI" id="gmd$AzCMZK" role="_XPhp">
+        <node concept="3clFbS" id="gmd$AzCMZL" role="2VODD2" />
       </node>
     </node>
   </node>
