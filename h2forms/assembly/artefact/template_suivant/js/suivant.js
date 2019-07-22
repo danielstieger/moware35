@@ -98,5 +98,5 @@ document.addEventListener('DOMContentLoaded', function() {
             svAdjustFocus();
         	}, 400);
 
-    // svLog('DOMContentLoader', 'init done ' + hwStackInfo());
+    svLog('DOMContentLoader', 'init done ' + hwStackInfo());
 });

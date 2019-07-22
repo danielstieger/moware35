@@ -13,7 +13,7 @@
     <link rel="icon" href="{{ statics.staticContentUrlPrefix }}/img/favicon.ico" />
     <link rel="stylesheet" href="{{ client.staticContentUrlPrefix }}/css/style.css{{ page.ncs }}"/>
 
-    {% if client.device equals "ZEBRAEB_TC" %}
+    {% if client.device equals "ZEBRAEB_TC56" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>

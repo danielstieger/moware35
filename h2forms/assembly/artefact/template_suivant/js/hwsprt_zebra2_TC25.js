@@ -18,7 +18,7 @@
 
 
 function hwStackInfo(){
-    return '[hwsprt_zebra V0.0]';
+    return '[hwsprt_zebra2_TC25]';
 }
 
 
@@ -78,21 +78,22 @@ function zzDefaultOkSubmit(){
 function hwInitAfterDomReady(){
     // svLog('hwInitAfterDomReady', 'zebra enableScan called . . . .');
 
-    console.log('calling EB.Sip.disableAllIME()');
-    EB.Sip.disableAllIME();
+    function myCallback() {
+	}
+	EB.Ekb.connect(myCallback);
+    EB.Ekb.disable();
 
     var focusHandler = function(event) {
         	var nodeName = event.target.nodeName.toLowerCase();
             var useNumericKeyboard = event.target.getAttribute('useNumericKeyboard');
 
     		if((nodeName == 'input' || nodeName == 'textarea') && useNumericKeyboard == null) {
-                console.log('calling EB.Sip.resetToDefault() and show()');
-                EB.Sip.resetToDefault();
-                EB.Sip.show();
+                console.log('calling EB.Ekb.enable()');
+                EB.Ekb.enable();
 
     		} else {
-    		    console.log('calling EB.Sip.disableAllIME()');
-    		    EB.Sip.disableAllIME();
+    		    console.log('calling EB.Ekb.disable()');
+    		    EB.Ekb.disable();
             }
     };
     document.body.addEventListener('focus', focusHandler, true); //Non-IE
@@ -192,8 +193,7 @@ function hwFlagBeep(t){
 
 function hwExit(){
     try {
-        EB.Sip.resetToDefault();
-        EB.Sip.show();
+        EB.Ekb.enable();
         EB.Application.quit();
     } catch(err) {
         svLog('hwExit', 'EX while trying EB.Application.quit. ' + err);

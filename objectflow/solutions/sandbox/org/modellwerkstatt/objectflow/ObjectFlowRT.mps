@@ -31370,7 +31370,7 @@
     </node>
     <node concept="3clFb_" id="1nLGXVr3Di9" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="isNewInSession" />
+      <property role="TrG5h" value="isTransientInSession" />
       <node concept="10P_77" id="1nLGXVr3Dia" role="3clF45" />
       <node concept="3Tm1VV" id="1nLGXVr3Dib" role="1B3o_S" />
       <node concept="3clFbS" id="1nLGXVr3Dic" role="3clF47" />
@@ -43212,8 +43212,8 @@
       <property role="TrG5h" value="DEVELOPMENT_SETTING" />
       <node concept="3Tm1VV" id="79n7_omqfJA" role="1B3o_S" />
       <node concept="10P_77" id="79n7_omq78Z" role="1tU5fm" />
-      <node concept="3clFbT" id="6v1stH9Cgd3" role="33vP2m">
-        <property role="3clFbU" value="false" />
+      <node concept="3clFbT" id="2kuDuEAbg8i" role="33vP2m">
+        <property role="3clFbU" value="true" />
       </node>
     </node>
     <node concept="Wx3nA" id="7708TIHG3jD" role="jymVt">
@@ -43227,7 +43227,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware 2019.17 (reporting) (dev " />
+            <property role="Xl_RC" value="moware 2019.18 (TC25) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />

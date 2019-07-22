@@ -18,7 +18,7 @@
 
 
 function hwStackInfo(){
-    return '[hwsprt_zebra V0.0]';
+    return '[hwsprt_zebra18_TC55]';
 }
 
 

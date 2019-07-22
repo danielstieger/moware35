@@ -6753,7 +6753,7 @@
               <node concept="37vLTI" id="5qqOeaPL7r5" role="3clFbG">
                 <node concept="Rm8GO" id="5qqOeaPL8f5" role="37vLTx">
                   <ref role="1Px2BO" node="1DW7q9hIaqF" resolve="ContextClient.Devices" />
-                  <ref role="Rm8GQ" node="1DW7q9hIa$2" resolve="ZEBRAEB_TC" />
+                  <ref role="Rm8GQ" node="1DW7q9hIa$2" resolve="ZEBRAEB_TC56" />
                 </node>
                 <node concept="2OqwBi" id="5qqOeaPL6IG" role="37vLTJ">
                   <node concept="37vLTw" id="5qqOeaPL62Y" role="2Oq$k0">
@@ -12939,9 +12939,16 @@
       </node>
       <node concept="2tJIrI" id="57ov2SMeaU" role="jymVt" />
       <node concept="QsSxf" id="1DW7q9hIa$2" role="Qtgdg">
-        <property role="TrG5h" value="ZEBRAEB_TC" />
+        <property role="TrG5h" value="ZEBRAEB_TC56" />
         <ref role="37wK5l" node="57ov2SMefa" resolve="ContextClient.Devices" />
         <node concept="3clFbT" id="57ov2SMeCO" role="37wK5m">
+          <property role="3clFbU" value="true" />
+        </node>
+      </node>
+      <node concept="QsSxf" id="2kuDuEA0tcD" role="Qtgdg">
+        <property role="TrG5h" value="ZEBRAEB_TC25" />
+        <ref role="37wK5l" node="57ov2SMefa" resolve="ContextClient.Devices" />
+        <node concept="3clFbT" id="2kuDuEA0tcE" role="37wK5m">
           <property role="3clFbU" value="true" />
         </node>
       </node>
