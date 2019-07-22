@@ -75,13 +75,13 @@
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/elements.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_zebra18_TC56.js{{ page.ncs }}"></script>
   {% elseif client.device equals "ZEBRAEB_TC25" %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/ebapi.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.application.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.barcode.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.notification.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.keycapture.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/eb.ekb.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/elements.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.application.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.barcode.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.notification.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.keycapture.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.ekb.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_zebra2_TC25.js{{ page.ncs }}"></script>
   {% elseif client.device equals "SCANDIT" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_scandit.js{{ page.ncs }}"></script>
