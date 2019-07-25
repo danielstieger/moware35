@@ -1847,7 +1847,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="1nLGXVr3Igk" role="jymVt">
-      <property role="TrG5h" value="isNewInSession" />
+      <property role="TrG5h" value="isTransientInSession" />
       <node concept="10P_77" id="1nLGXVr3Igl" role="3clF45" />
       <node concept="3Tm1VV" id="1nLGXVr3Igm" role="1B3o_S" />
       <node concept="3clFbS" id="1nLGXVr3Ign" role="3clF47">
@@ -3424,7 +3424,7 @@
       </node>
     </node>
     <node concept="3clFb_" id="1nLGXVr4$Iy" role="jymVt">
-      <property role="TrG5h" value="isNewInSession" />
+      <property role="TrG5h" value="isTransientInSession" />
       <node concept="10P_77" id="1nLGXVr4$Iz" role="3clF45" />
       <node concept="3Tm1VV" id="1nLGXVr4$I$" role="1B3o_S" />
       <node concept="3clFbS" id="1nLGXVr4$I_" role="3clF47">
