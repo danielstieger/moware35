@@ -238,6 +238,9 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="1144226303539" name="jetbrains.mps.baseLanguage.structure.ForeachStatement" flags="nn" index="1DcWWT">
+        <child id="1144226360166" name="iterable" index="1DdaDG" />
+      </concept>
       <concept id="1144230876926" name="jetbrains.mps.baseLanguage.structure.AbstractForStatement" flags="nn" index="1DupvO">
         <child id="1144230900587" name="variable" index="1Duv9x" />
       </concept>
@@ -9935,6 +9938,7 @@
             <node concept="3uibUv" id="706Aplvx7r_" role="1tU5fm">
               <ref role="3uigEE" to="t6h5:~Method" resolve="Method" />
             </node>
+            <node concept="10Nm6u" id="1cvpOu_E6Ia" role="33vP2m" />
           </node>
         </node>
         <node concept="3cpWs8" id="706Aplvxiq0" role="3cqZAp">
@@ -9987,17 +9991,42 @@
                 <node concept="2ShNRf" id="706Aplvx7C7" role="YScLw">
                   <node concept="1pGfFk" id="706Aplvx7C9" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                    <node concept="3cpWs3" id="706Aplvxhqc" role="37wK5m">
-                      <node concept="2OqwBi" id="706Aplvxhqx" role="3uHU7w">
-                        <node concept="37vLTw" id="5hc8PGHPziS" role="2Oq$k0">
-                          <ref role="3cqZAo" node="706Aplvx7rF" resolve="e" />
-                        </node>
-                        <node concept="liA8E" id="706AplvxhqA" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
-                        </node>
+                    <node concept="3cpWs3" id="1cvpOu_EWFG" role="37wK5m">
+                      <node concept="Xl_RD" id="1cvpOu_EX5a" role="3uHU7w">
+                        <property role="Xl_RC" value="'" />
                       </node>
-                      <node concept="Xl_RD" id="706Aplvx7Ca" role="3uHU7B">
-                        <property role="Xl_RC" value="ValueObjectReplacementFacility - SecurityException - " />
+                      <node concept="3cpWs3" id="1cvpOu_EYDg" role="3uHU7B">
+                        <node concept="37vLTw" id="1cvpOu_EYZA" role="3uHU7w">
+                          <ref role="3cqZAo" node="706Aplvx7sd" resolve="param1" />
+                        </node>
+                        <node concept="3cpWs3" id="1cvpOu_EV_Z" role="3uHU7B">
+                          <node concept="3cpWs3" id="1cvpOu_EURe" role="3uHU7B">
+                            <node concept="3cpWs3" id="1cvpOu_ETR8" role="3uHU7B">
+                              <node concept="3cpWs3" id="706Aplvxhqc" role="3uHU7B">
+                                <node concept="Xl_RD" id="706Aplvx7Ca" role="3uHU7B">
+                                  <property role="Xl_RC" value="ValueObjectReplacementFacility - SecurityException - " />
+                                </node>
+                                <node concept="2OqwBi" id="706Aplvxhqx" role="3uHU7w">
+                                  <node concept="37vLTw" id="5hc8PGHPziS" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="706Aplvx7rF" resolve="e" />
+                                  </node>
+                                  <node concept="liA8E" id="706AplvxhqA" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="1cvpOu_ETRH" role="3uHU7w">
+                                <property role="Xl_RC" value=" / " />
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="1cvpOu_EVfN" role="3uHU7w">
+                              <ref role="3cqZAo" node="706Aplvx7s9" resolve="propertyName" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="1cvpOu_EVFI" role="3uHU7w">
+                            <property role="Xl_RC" value=" to '" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -10018,17 +10047,42 @@
                 <node concept="2ShNRf" id="706AplvxhqD" role="YScLw">
                   <node concept="1pGfFk" id="706AplvxhqE" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                    <node concept="3cpWs3" id="706AplvxhqF" role="37wK5m">
-                      <node concept="2OqwBi" id="706AplvxhqG" role="3uHU7w">
-                        <node concept="37vLTw" id="5hc8PGHPzkh" role="2Oq$k0">
-                          <ref role="3cqZAo" node="706Aplvx7rL" resolve="e" />
-                        </node>
-                        <node concept="liA8E" id="706AplvxhqI" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
-                        </node>
+                    <node concept="3cpWs3" id="1cvpOu_EZkr" role="37wK5m">
+                      <node concept="Xl_RD" id="1cvpOu_EZks" role="3uHU7w">
+                        <property role="Xl_RC" value="'" />
                       </node>
-                      <node concept="Xl_RD" id="706AplvxhqJ" role="3uHU7B">
-                        <property role="Xl_RC" value="ValueObjectReplacementFacility - NoSuchMethodException - " />
+                      <node concept="3cpWs3" id="1cvpOu_EZkt" role="3uHU7B">
+                        <node concept="37vLTw" id="1cvpOu_EZku" role="3uHU7w">
+                          <ref role="3cqZAo" node="706Aplvx7sd" resolve="param1" />
+                        </node>
+                        <node concept="3cpWs3" id="1cvpOu_EZkv" role="3uHU7B">
+                          <node concept="3cpWs3" id="1cvpOu_EZkw" role="3uHU7B">
+                            <node concept="3cpWs3" id="1cvpOu_EZkx" role="3uHU7B">
+                              <node concept="3cpWs3" id="1cvpOu_EZky" role="3uHU7B">
+                                <node concept="Xl_RD" id="1cvpOu_EZkz" role="3uHU7B">
+                                  <property role="Xl_RC" value="ValueObjectReplacementFacility - NoSuchMethodException - " />
+                                </node>
+                                <node concept="2OqwBi" id="1cvpOu_EZk$" role="3uHU7w">
+                                  <node concept="37vLTw" id="1cvpOu_EZk_" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="706Aplvx7rL" resolve="e" />
+                                  </node>
+                                  <node concept="liA8E" id="1cvpOu_EZkA" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="1cvpOu_EZkB" role="3uHU7w">
+                                <property role="Xl_RC" value=" / " />
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="1cvpOu_EZkC" role="3uHU7w">
+                              <ref role="3cqZAo" node="706Aplvx7s9" resolve="propertyName" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="1cvpOu_EZkD" role="3uHU7w">
+                            <property role="Xl_RC" value=" to '" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -10055,17 +10109,42 @@
                 <node concept="2ShNRf" id="706AplvxhqM" role="YScLw">
                   <node concept="1pGfFk" id="706AplvxhqN" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                    <node concept="3cpWs3" id="706AplvxhqO" role="37wK5m">
-                      <node concept="2OqwBi" id="706AplvxhqP" role="3uHU7w">
-                        <node concept="37vLTw" id="5hc8PGHPzgN" role="2Oq$k0">
-                          <ref role="3cqZAo" node="706Aplvx7_Z" resolve="e" />
-                        </node>
-                        <node concept="liA8E" id="706AplvxhqR" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
-                        </node>
+                    <node concept="3cpWs3" id="1cvpOu_EZHl" role="37wK5m">
+                      <node concept="Xl_RD" id="1cvpOu_EZHm" role="3uHU7w">
+                        <property role="Xl_RC" value="'" />
                       </node>
-                      <node concept="Xl_RD" id="706AplvxhqS" role="3uHU7B">
-                        <property role="Xl_RC" value="ValueObjectReplacementFacility - IllegalArgumentException - " />
+                      <node concept="3cpWs3" id="1cvpOu_EZHn" role="3uHU7B">
+                        <node concept="37vLTw" id="1cvpOu_EZHo" role="3uHU7w">
+                          <ref role="3cqZAo" node="706Aplvx7sd" resolve="param1" />
+                        </node>
+                        <node concept="3cpWs3" id="1cvpOu_EZHp" role="3uHU7B">
+                          <node concept="3cpWs3" id="1cvpOu_EZHq" role="3uHU7B">
+                            <node concept="3cpWs3" id="1cvpOu_EZHr" role="3uHU7B">
+                              <node concept="3cpWs3" id="1cvpOu_EZHs" role="3uHU7B">
+                                <node concept="Xl_RD" id="1cvpOu_EZHt" role="3uHU7B">
+                                  <property role="Xl_RC" value="ValueObjectReplacementFacility - IllegalArgumentException - " />
+                                </node>
+                                <node concept="2OqwBi" id="1cvpOu_EZHu" role="3uHU7w">
+                                  <node concept="37vLTw" id="1cvpOu_EZHv" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="706Aplvx7_Z" resolve="e" />
+                                  </node>
+                                  <node concept="liA8E" id="1cvpOu_EZHw" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="1cvpOu_EZHx" role="3uHU7w">
+                                <property role="Xl_RC" value=" / " />
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="1cvpOu_EZHy" role="3uHU7w">
+                              <ref role="3cqZAo" node="706Aplvx7s9" resolve="propertyName" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="1cvpOu_EZHz" role="3uHU7w">
+                            <property role="Xl_RC" value=" to '" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -10085,17 +10164,42 @@
                 <node concept="2ShNRf" id="706AplvxhqV" role="YScLw">
                   <node concept="1pGfFk" id="706AplvxhqW" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                    <node concept="3cpWs3" id="706AplvxhqX" role="37wK5m">
-                      <node concept="2OqwBi" id="706AplvxhqY" role="3uHU7w">
-                        <node concept="37vLTw" id="5hc8PGHPzlp" role="2Oq$k0">
-                          <ref role="3cqZAo" node="706Aplvx7A4" resolve="e" />
-                        </node>
-                        <node concept="liA8E" id="706Aplvxhr0" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
-                        </node>
+                    <node concept="3cpWs3" id="1cvpOu_F06h" role="37wK5m">
+                      <node concept="Xl_RD" id="1cvpOu_F06i" role="3uHU7w">
+                        <property role="Xl_RC" value="'" />
                       </node>
-                      <node concept="Xl_RD" id="706Aplvxhr1" role="3uHU7B">
-                        <property role="Xl_RC" value="ValueObjectReplacementFacility - IllegalAccessException - " />
+                      <node concept="3cpWs3" id="1cvpOu_F06j" role="3uHU7B">
+                        <node concept="37vLTw" id="1cvpOu_F06k" role="3uHU7w">
+                          <ref role="3cqZAo" node="706Aplvx7sd" resolve="param1" />
+                        </node>
+                        <node concept="3cpWs3" id="1cvpOu_F06l" role="3uHU7B">
+                          <node concept="3cpWs3" id="1cvpOu_F06m" role="3uHU7B">
+                            <node concept="3cpWs3" id="1cvpOu_F06n" role="3uHU7B">
+                              <node concept="3cpWs3" id="1cvpOu_F06o" role="3uHU7B">
+                                <node concept="Xl_RD" id="1cvpOu_F06p" role="3uHU7B">
+                                  <property role="Xl_RC" value="ValueObjectReplacementFacility - IllegalAccessException - " />
+                                </node>
+                                <node concept="2OqwBi" id="1cvpOu_F06q" role="3uHU7w">
+                                  <node concept="37vLTw" id="1cvpOu_F06r" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="706Aplvx7A4" resolve="e" />
+                                  </node>
+                                  <node concept="liA8E" id="1cvpOu_F06s" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="1cvpOu_F06t" role="3uHU7w">
+                                <property role="Xl_RC" value=" / " />
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="1cvpOu_F06u" role="3uHU7w">
+                              <ref role="3cqZAo" node="706Aplvx7s9" resolve="propertyName" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="1cvpOu_F06v" role="3uHU7w">
+                            <property role="Xl_RC" value=" to '" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -10115,17 +10219,42 @@
                 <node concept="2ShNRf" id="706Aplvxhr4" role="YScLw">
                   <node concept="1pGfFk" id="706Aplvxhr5" role="2ShVmc">
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
-                    <node concept="3cpWs3" id="706Aplvxhr6" role="37wK5m">
-                      <node concept="2OqwBi" id="706Aplvxhr7" role="3uHU7w">
-                        <node concept="37vLTw" id="5hc8PGHPzpg" role="2Oq$k0">
-                          <ref role="3cqZAo" node="706Aplvx7Aa" resolve="e" />
-                        </node>
-                        <node concept="liA8E" id="706Aplvxhr9" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
-                        </node>
+                    <node concept="3cpWs3" id="1cvpOu_F0va" role="37wK5m">
+                      <node concept="Xl_RD" id="1cvpOu_F0vb" role="3uHU7w">
+                        <property role="Xl_RC" value="'" />
                       </node>
-                      <node concept="Xl_RD" id="706Aplvxhra" role="3uHU7B">
-                        <property role="Xl_RC" value="ValueObjectReplacementFacility - InvocationTargetException - " />
+                      <node concept="3cpWs3" id="1cvpOu_F0vc" role="3uHU7B">
+                        <node concept="37vLTw" id="1cvpOu_F0vd" role="3uHU7w">
+                          <ref role="3cqZAo" node="706Aplvx7sd" resolve="param1" />
+                        </node>
+                        <node concept="3cpWs3" id="1cvpOu_F0ve" role="3uHU7B">
+                          <node concept="3cpWs3" id="1cvpOu_F0vf" role="3uHU7B">
+                            <node concept="3cpWs3" id="1cvpOu_F0vg" role="3uHU7B">
+                              <node concept="3cpWs3" id="1cvpOu_F0vh" role="3uHU7B">
+                                <node concept="Xl_RD" id="1cvpOu_F0vi" role="3uHU7B">
+                                  <property role="Xl_RC" value="ValueObjectReplacementFacility - InvocationTargetException - " />
+                                </node>
+                                <node concept="2OqwBi" id="1cvpOu_F0vj" role="3uHU7w">
+                                  <node concept="37vLTw" id="1cvpOu_F0vk" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="706Aplvx7Aa" resolve="e" />
+                                  </node>
+                                  <node concept="liA8E" id="1cvpOu_F0vl" role="2OqNvi">
+                                    <ref role="37wK5l" to="wyt6:~Throwable.getMessage():java.lang.String" resolve="getMessage" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="1cvpOu_F0vm" role="3uHU7w">
+                                <property role="Xl_RC" value=" / " />
+                              </node>
+                            </node>
+                            <node concept="37vLTw" id="1cvpOu_F0vn" role="3uHU7w">
+                              <ref role="3cqZAo" node="706Aplvx7s9" resolve="propertyName" />
+                            </node>
+                          </node>
+                          <node concept="Xl_RD" id="1cvpOu_F0vo" role="3uHU7w">
+                            <property role="Xl_RC" value=" to '" />
+                          </node>
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -10167,6 +10296,23 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3cpWs6" id="1cvpOu_Fdzr" role="3cqZAp">
+                  <node concept="2OqwBi" id="1cvpOu_Fdzs" role="3cqZAk">
+                    <node concept="37vLTw" id="1cvpOu_Fdzt" role="2Oq$k0">
+                      <ref role="3cqZAo" node="706Aplvx7r$" resolve="method" />
+                    </node>
+                    <node concept="liA8E" id="1cvpOu_Fdzu" role="2OqNvi">
+                      <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...):java.lang.Object" resolve="invoke" />
+                      <node concept="37vLTw" id="1cvpOu_Fdzv" role="37wK5m">
+                        <ref role="3cqZAo" node="706Aplvx7s2" resolve="obj" />
+                      </node>
+                      <node concept="37vLTw" id="1cvpOu_Fdzw" role="37wK5m">
+                        <ref role="3cqZAo" node="706Aplvx7sd" resolve="param1" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="1cvpOu_E4Uc" role="3cqZAp" />
               </node>
               <node concept="2ZW3vV" id="6cFiWEW2DN6" role="3clFbw">
                 <node concept="3uibUv" id="6cFiWEW2SEM" role="2ZW6by">
@@ -10209,25 +10355,195 @@
                       </node>
                     </node>
                   </node>
+                  <node concept="3cpWs6" id="706Aplvx7sZ" role="3cqZAp">
+                    <node concept="2OqwBi" id="706Aplvx7sQ" role="3cqZAk">
+                      <node concept="37vLTw" id="5hc8PGHPzoo" role="2Oq$k0">
+                        <ref role="3cqZAo" node="706Aplvx7r$" resolve="method" />
+                      </node>
+                      <node concept="liA8E" id="706Aplvx7sS" role="2OqNvi">
+                        <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...):java.lang.Object" resolve="invoke" />
+                        <node concept="37vLTw" id="5hc8PGHPzEH" role="37wK5m">
+                          <ref role="3cqZAo" node="706Aplvx7s2" resolve="obj" />
+                        </node>
+                        <node concept="37vLTw" id="5hc8PGHPzEC" role="37wK5m">
+                          <ref role="3cqZAo" node="706Aplvx7sd" resolve="param1" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
-            </node>
-            <node concept="3cpWs6" id="706Aplvx7sZ" role="3cqZAp">
-              <node concept="2OqwBi" id="706Aplvx7sQ" role="3cqZAk">
-                <node concept="37vLTw" id="5hc8PGHPzoo" role="2Oq$k0">
-                  <ref role="3cqZAo" node="706Aplvx7r$" resolve="method" />
-                </node>
-                <node concept="liA8E" id="706Aplvx7sS" role="2OqNvi">
-                  <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...):java.lang.Object" resolve="invoke" />
-                  <node concept="37vLTw" id="5hc8PGHPzEH" role="37wK5m">
-                    <ref role="3cqZAo" node="706Aplvx7s2" resolve="obj" />
-                  </node>
-                  <node concept="37vLTw" id="5hc8PGHPzEC" role="37wK5m">
+              <node concept="3eNFk2" id="1cvpOu_E588" role="3eNLev">
+                <node concept="3clFbC" id="1cvpOu_E5zQ" role="3eO9$A">
+                  <node concept="10Nm6u" id="1cvpOu_E5JC" role="3uHU7w" />
+                  <node concept="37vLTw" id="1cvpOu_E5nX" role="3uHU7B">
                     <ref role="3cqZAo" node="706Aplvx7sd" resolve="param1" />
                   </node>
                 </node>
+                <node concept="3clFbS" id="1cvpOu_E58a" role="3eOfB_">
+                  <node concept="3SKdUt" id="1cvpOu_E73X" role="3cqZAp">
+                    <node concept="3SKdUq" id="1cvpOu_E73Z" role="3SKWNk">
+                      <property role="3SKdUp" value="quite a complecated case, we need to find the correct method, user wants to set null" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs8" id="1cvpOu_E7D2" role="3cqZAp">
+                    <node concept="3cpWsn" id="1cvpOu_E7D3" role="3cpWs9">
+                      <property role="TrG5h" value="allMethods" />
+                      <node concept="10Q1$e" id="1cvpOu_E7D4" role="1tU5fm">
+                        <node concept="3uibUv" id="1cvpOu_E7D5" role="10Q1$1">
+                          <ref role="3uigEE" to="t6h5:~Method" resolve="Method" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="1cvpOu_E8qh" role="33vP2m">
+                        <node concept="2OqwBi" id="1cvpOu_E80r" role="2Oq$k0">
+                          <node concept="37vLTw" id="1cvpOu_E7Z$" role="2Oq$k0">
+                            <ref role="3cqZAo" node="706Aplvx7s2" resolve="obj" />
+                          </node>
+                          <node concept="liA8E" id="1cvpOu_E8cV" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1cvpOu_E8FZ" role="2OqNvi">
+                          <ref role="37wK5l" to="wyt6:~Class.getMethods():java.lang.reflect.Method[]" resolve="getMethods" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1DcWWT" id="1cvpOu_E8Ui" role="3cqZAp">
+                    <node concept="3clFbS" id="1cvpOu_E8Uk" role="2LFqv$">
+                      <node concept="3clFbJ" id="1cvpOu_EawQ" role="3cqZAp">
+                        <node concept="3clFbS" id="1cvpOu_EawR" role="3clFbx">
+                          <node concept="3clFbJ" id="1cvpOu_EawS" role="3cqZAp">
+                            <node concept="3clFbS" id="1cvpOu_EawT" role="3clFbx">
+                              <node concept="YS8fn" id="1cvpOu_EawU" role="3cqZAp">
+                                <node concept="2ShNRf" id="1cvpOu_EawV" role="YScLw">
+                                  <node concept="1pGfFk" id="1cvpOu_EawW" role="2ShVmc">
+                                    <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                                    <node concept="3cpWs3" id="1cvpOu_Edd5" role="37wK5m">
+                                      <node concept="Xl_RD" id="1cvpOu_Edzu" role="3uHU7w">
+                                        <property role="Xl_RC" value="' with &lt;unknown&gt; parameter (for setting null), but multiple methods with same name found." />
+                                      </node>
+                                      <node concept="3cpWs3" id="1cvpOu_EcBJ" role="3uHU7B">
+                                        <node concept="Xl_RD" id="1cvpOu_EawX" role="3uHU7B">
+                                          <property role="Xl_RC" value="ValueObjectReplacementFacility - Looking for '" />
+                                        </node>
+                                        <node concept="37vLTw" id="1cvpOu_EcU8" role="3uHU7w">
+                                          <ref role="3cqZAo" node="706Aplvxiq1" resolve="withMethod" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3y3z36" id="1cvpOu_EawY" role="3clFbw">
+                              <node concept="10Nm6u" id="1cvpOu_EawZ" role="3uHU7w" />
+                              <node concept="37vLTw" id="1cvpOu_Eb8L" role="3uHU7B">
+                                <ref role="3cqZAo" node="706Aplvx7r$" resolve="method" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="1cvpOu_Eax1" role="3cqZAp">
+                            <node concept="37vLTI" id="1cvpOu_Eax2" role="3clFbG">
+                              <node concept="37vLTw" id="1cvpOu_Eax3" role="37vLTx">
+                                <ref role="3cqZAo" node="1cvpOu_E8Ul" resolve="m" />
+                              </node>
+                              <node concept="37vLTw" id="1cvpOu_EbUE" role="37vLTJ">
+                                <ref role="3cqZAo" node="706Aplvx7r$" resolve="method" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="1cvpOu_Eax5" role="3clFbw">
+                          <node concept="2OqwBi" id="1cvpOu_Eax6" role="2Oq$k0">
+                            <node concept="37vLTw" id="1cvpOu_Eax7" role="2Oq$k0">
+                              <ref role="3cqZAo" node="1cvpOu_E8Ul" resolve="m" />
+                            </node>
+                            <node concept="liA8E" id="1cvpOu_Eax8" role="2OqNvi">
+                              <ref role="37wK5l" to="t6h5:~Method.getName():java.lang.String" resolve="getName" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="1cvpOu_Eax9" role="2OqNvi">
+                            <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                            <node concept="37vLTw" id="1cvpOu_EaPX" role="37wK5m">
+                              <ref role="3cqZAo" node="706Aplvxiq1" resolve="withMethod" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3cpWsn" id="1cvpOu_E8Ul" role="1Duv9x">
+                      <property role="TrG5h" value="m" />
+                      <node concept="3uibUv" id="1cvpOu_E8X_" role="1tU5fm">
+                        <ref role="3uigEE" to="t6h5:~Method" resolve="Method" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="1cvpOu_E9rf" role="1DdaDG">
+                      <ref role="3cqZAo" node="1cvpOu_E7D3" resolve="allMethods" />
+                    </node>
+                  </node>
+                  <node concept="3clFbJ" id="1cvpOu_Ehb$" role="3cqZAp">
+                    <node concept="3clFbS" id="1cvpOu_EhbA" role="3clFbx">
+                      <node concept="YS8fn" id="1cvpOu_EhAE" role="3cqZAp">
+                        <node concept="2ShNRf" id="1cvpOu_EhAF" role="YScLw">
+                          <node concept="1pGfFk" id="1cvpOu_EhAG" role="2ShVmc">
+                            <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                            <node concept="3cpWs3" id="1cvpOu_EhAH" role="37wK5m">
+                              <node concept="Xl_RD" id="1cvpOu_EhAI" role="3uHU7w">
+                                <property role="Xl_RC" value="' with &lt;unknown&gt; parameter (for setting null), but none found." />
+                              </node>
+                              <node concept="3cpWs3" id="1cvpOu_EhAJ" role="3uHU7B">
+                                <node concept="Xl_RD" id="1cvpOu_EhAK" role="3uHU7B">
+                                  <property role="Xl_RC" value="ValueObjectReplacementFacility - Looking for '" />
+                                </node>
+                                <node concept="37vLTw" id="1cvpOu_EhAL" role="3uHU7w">
+                                  <ref role="3cqZAo" node="706Aplvxiq1" resolve="withMethod" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3clFbC" id="1cvpOu_Ehzg" role="3clFbw">
+                      <node concept="10Nm6u" id="1cvpOu_EhzQ" role="3uHU7w" />
+                      <node concept="37vLTw" id="1cvpOu_EhwR" role="3uHU7B">
+                        <ref role="3cqZAo" node="706Aplvx7r$" resolve="method" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="1cvpOu_El$J" role="3cqZAp" />
+                  <node concept="3SKdUt" id="1cvpOu_Em0b" role="3cqZAp">
+                    <node concept="3SKdUq" id="1cvpOu_Em0d" role="3SKWNk">
+                      <property role="3SKdUp" value="null is not working, convert it . " />
+                    </node>
+                  </node>
+                  <node concept="3cpWs6" id="1cvpOu_FdZ9" role="3cqZAp">
+                    <node concept="2OqwBi" id="1cvpOu_FdZa" role="3cqZAk">
+                      <node concept="37vLTw" id="1cvpOu_FdZb" role="2Oq$k0">
+                        <ref role="3cqZAo" node="706Aplvx7r$" resolve="method" />
+                      </node>
+                      <node concept="liA8E" id="1cvpOu_FdZc" role="2OqNvi">
+                        <ref role="37wK5l" to="t6h5:~Method.invoke(java.lang.Object,java.lang.Object...):java.lang.Object" resolve="invoke" />
+                        <node concept="37vLTw" id="1cvpOu_FdZd" role="37wK5m">
+                          <ref role="3cqZAo" node="706Aplvx7s2" resolve="obj" />
+                        </node>
+                        <node concept="2ShNRf" id="1cvpOu_DPvT" role="37wK5m">
+                          <node concept="3g6Rrh" id="1cvpOu_DQrj" role="2ShVmc">
+                            <node concept="3uibUv" id="1cvpOu_DQhs" role="3g7fb8">
+                              <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+                            </node>
+                            <node concept="10Nm6u" id="1cvpOu_DQ$t" role="3g7hyw" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3clFbH" id="1cvpOu_Eimv" role="3cqZAp" />
+                </node>
               </node>
             </node>
+            <node concept="3clFbH" id="1cvpOu_E66b" role="3cqZAp" />
             <node concept="3clFbH" id="706Aplvx7_W" role="3cqZAp" />
           </node>
         </node>
@@ -10277,7 +10593,7 @@
             </node>
           </node>
         </node>
-        <node concept="1X3_iC" id="4xVSf7d09IV" role="lGtFl">
+        <node concept="1X3_iC" id="1cvpOu_DCqT" role="lGtFl">
           <property role="3V$3am" value="statement" />
           <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
           <node concept="3clFbF" id="3$8$cDw_Gd3" role="8Wnug">
