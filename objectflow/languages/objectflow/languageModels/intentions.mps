@@ -4386,7 +4386,7 @@
         <node concept="3clFbH" id="6WBZVtR3Ij3" role="3cqZAp" />
         <node concept="3SKdUt" id="72pStkQu8rB" role="3cqZAp">
           <node concept="3SKdUq" id="72pStkQu8rD" role="3SKWNk">
-            <property role="3SKdUp" value="ok, in text method. " />
+            <property role="3SKdUp" value="ok, in test method. " />
           </node>
         </node>
         <node concept="3clFbF" id="72pStkQuG2l" role="3cqZAp">

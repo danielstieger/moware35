@@ -6169,6 +6169,36 @@
               </node>
             </node>
             <node concept="3clFbS" id="7$A8r6g3qn_" role="TDEfX">
+              <node concept="3clFbF" id="4pwVvMenc7G" role="3cqZAp">
+                <node concept="2OqwBi" id="4pwVvMencpE" role="3clFbG">
+                  <node concept="2YIFZM" id="4pwVvMencfL" role="2Oq$k0">
+                    <ref role="37wK5l" to="1u6b:~LogFactory.getLog(java.lang.Class):org.apache.commons.logging.Log" resolve="getLog" />
+                    <ref role="1Pybhc" to="1u6b:~LogFactory" resolve="LogFactory" />
+                    <node concept="3VsKOn" id="4pwVvMencmZ" role="37wK5m">
+                      <ref role="3VsUkX" node="7$A8r6g3qlE" resolve="OFXSimpleManMapSession" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="4pwVvMencIF" role="2OqNvi">
+                    <ref role="37wK5l" to="1u6b:~Log.error(java.lang.Object,java.lang.Throwable):void" resolve="error" />
+                    <node concept="3cpWs3" id="4pwVvMener9" role="37wK5m">
+                      <node concept="Xl_RD" id="4pwVvMenesF" role="3uHU7w">
+                        <property role="Xl_RC" value=")." />
+                      </node>
+                      <node concept="3cpWs3" id="4pwVvMenebC" role="3uHU7B">
+                        <node concept="Xl_RD" id="4pwVvMencLf" role="3uHU7B">
+                          <property role="Xl_RC" value="Exception while running the transaction. (rolling back or to savepoint " />
+                        </node>
+                        <node concept="37vLTw" id="4pwVvMenejz" role="3uHU7w">
+                          <ref role="3cqZAo" node="1fVuXfYtcoS" resolve="savePointObj" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="4pwVvMendzM" role="37wK5m">
+                      <ref role="3cqZAo" node="7$A8r6g3qnz" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbJ" id="7$A8r6g3xiJ" role="3cqZAp">
                 <node concept="3clFbS" id="7$A8r6g3xiK" role="3clFbx">
                   <node concept="3clFbJ" id="1fVuXfYtcpF" role="3cqZAp">
@@ -43227,7 +43257,7 @@
         </node>
         <node concept="3cpWs3" id="2$gclwwfVsB" role="3uHU7B">
           <node concept="Xl_RD" id="7708TIHG4ay" role="3uHU7B">
-            <property role="Xl_RC" value="moware 2019.19 (ValueObj) (dev " />
+            <property role="Xl_RC" value="moware 2019.20 (trakt) (dev " />
           </node>
           <node concept="37vLTw" id="7sK_OLreK65" role="3uHU7w">
             <ref role="3cqZAo" node="79n7_omq6WT" resolve="DEVELOPMENT_SETTING" />
