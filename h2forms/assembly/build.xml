@@ -13,7 +13,7 @@
  set PATH=%PATH%;c:\javaexe\ant_MPS25\bin
  
  
- export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home
  export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
  
 -->

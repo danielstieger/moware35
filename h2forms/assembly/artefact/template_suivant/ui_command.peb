@@ -6,8 +6,8 @@
 {% block content %}
         <!-- {{ keyboardScan }} / {{ conclusions|length }} -->
 <div class="w3-container w3-row sv-currentfg-D3" onclick="svHideAllContainsDropdown()">
-    <div class="w3-col s8 w3-left-align">{{ client.additionalUserInfo }}&nbsp;</div>
-    <div class="w3-col s4 w3-right-align">{{ client.username }}</div>
+    <div class="w3-col s7 w3-left-align">{{ client.dynamicStatusInfo }}</div>
+    <div class="w3-col s5 w3-right-align">{{ client.appVersionInfo }}</div>
 </div>
 <div class="w3-bar sv-currentfg" onclick="svHideAllContainsDropdown()">
     {% for conc in conclusions %}

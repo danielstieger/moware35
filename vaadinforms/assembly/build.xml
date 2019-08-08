@@ -11,7 +11,7 @@
  set PATH=%PATH%;c:\javaexe\ant_MPS25\bin;c:\PROGRA~2\WIXTOO~1.7\bin
  
  
- export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home
  export PATH=$PATH:/Users/danielstieger/javaexe/ant/bin
  export PATH=$PATH:/Users/danielstieger/javaexe/maven/bin
  

@@ -1,8 +1,8 @@
 {% extends "./base.peb" %}
 {% block content %}
 <div class="w3-container w3-row sv-status-gray">
-    <div class="w3-col s6 w3-left-align">{{ client.device }}/{{ client.debug }}</div>
-    <div class="w3-col s6 w3-right-align"> {{ client.appVersionInfo }} </div>
+    <div class="w3-col s7 w3-left-align">{{ client.DeviceInfoString }}</div>
+    <div class="w3-col s5 w3-right-align"> {{ client.appVersionInfo }} </div>
 </div>
 
 <div class="sv-branding-gray sv-bartitle">
