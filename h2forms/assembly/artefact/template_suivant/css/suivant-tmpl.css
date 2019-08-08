@@ -87,6 +87,8 @@ div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div
             padding: 8px 16px; margin-bottom: 6px; }
 .sv-table-button-bar {margin-top: 8px; display: none; }
 
+.sv-table-impcell {font-weight: bold;}
+
 @media only screen and (max-width: 600px) {
   .sv-s-right-align {text-align: right !important;}
 }

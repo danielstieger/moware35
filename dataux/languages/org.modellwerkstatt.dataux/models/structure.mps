@@ -1469,5 +1469,17 @@
       <ref role="PrY4T" to="un0u:6xpSWdTCm5i" resolve="ICanRunCommands" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6kvb4HUJgmO">
+    <property role="1pbfSe" value="539217409" />
+    <property role="3GE5qa" value="delegates.options" />
+    <property role="TrG5h" value="ImportantDOption" />
+    <property role="34LRSv" value="IMPORTANT" />
+    <property role="R4oN_" value="most important field in table" />
+    <property role="MwhBj" value="${module}/icons/containerelement2.png" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="6kvb4HUJgmP" role="PzmwI">
+      <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+  </node>
 </model>
 

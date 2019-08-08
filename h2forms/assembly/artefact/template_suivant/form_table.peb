@@ -2,7 +2,7 @@
 {% if act.enabled %} onClick="tableSelectAndExec('menu_{{ act.popupMenuId }}_{{ index }}', 'trigger_{{ act.triggerCode }}', 'TR_index');"{% endif %}
 {% endmacro %}
 {% macro renderCell(cell, last) %}
-<div class="w3-col s{{ cell.sizeS }} m{{ cell.sizeM }} {% if cell.closeRow %}sv-s-right-align{% endif %} {% if last %}w3-right-align{% endif %}" {% if cell.color is not null %}style="font-weight: 500; color: {{ cell.color }};"{% endif %}>{{ cell.content | default("&nbsp;") | raw }}</div>
+<div class="w3-col s{{ cell.sizeS }} m{{ cell.sizeM }} {% if cell.closeRow %}sv-s-right-align{% endif %} {% if last %}w3-right-align{% endif %}{% if cell.important %} sv-table-impcell{% endif %}" {% if cell.color is not null %}style="font-weight: 500; color: {{ cell.color }};"{% endif %}>{{ cell.content | default("&nbsp;") | raw }}</div>
 {% endmacro %}
 {% macro rowType(page) %}
 {% if page.isDocumentSearch %}sv-table-docrow{% else %}sv-table-posrow{% endif %}
