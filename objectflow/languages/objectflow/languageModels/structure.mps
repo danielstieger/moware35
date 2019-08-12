@@ -4216,5 +4216,40 @@
       <ref role="PrY4T" node="myLEe5LLB3" resolve="IOFXDependencyResolutionStrategy" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1Ddwjyi_e78">
+    <property role="1pbfSe" value="1394449664" />
+    <property role="3GE5qa" value="Builder" />
+    <property role="TrG5h" value="PlatformAwareMultiString" />
+    <property role="34LRSv" value="'''" />
+    <property role="R4oN_" value="platform aware string" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="1Ddwjyi_ebJ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="translations" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="1Ddwjyi_ezE" resolve="PlatformMultiString" />
+    </node>
+    <node concept="PrWs8" id="6MsAQ7OoDv4" role="PzmwI">
+      <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1Ddwjyi_ezE">
+    <property role="1pbfSe" value="1394447838" />
+    <property role="3GE5qa" value="Builder" />
+    <property role="TrG5h" value="PlatformMultiString" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1Ddwjyi_e_y" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="1Ddwjyi_eA7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="multiString" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="371pDBOmHha" resolve="MultiString" />
+    </node>
+  </node>
 </model>
 

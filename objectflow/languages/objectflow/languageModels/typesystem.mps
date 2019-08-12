@@ -13849,5 +13849,158 @@
       <ref role="1YaFvo" to="un0u:1Csx3Lqx5LQ" resolve="PageCommand" />
     </node>
   </node>
+  <node concept="1YbPZF" id="1Ddwjyi_edW">
+    <property role="TrG5h" value="typeof_PlatformAwareMultiString" />
+    <property role="3GE5qa" value="Builder" />
+    <node concept="3clFbS" id="1Ddwjyi_edX" role="18ibNy">
+      <node concept="1Z5TYs" id="1Ddwjyi_ewi" role="3cqZAp">
+        <node concept="mw_s8" id="1Ddwjyi_ewj" role="1ZfhKB">
+          <node concept="2c44tf" id="1Ddwjyi_ewk" role="mwGJk">
+            <node concept="17QB3L" id="1Ddwjyi_ewl" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="1Ddwjyi_ewm" role="1ZfhK$">
+          <node concept="1Z2H0r" id="1Ddwjyi_ewn" role="mwGJk">
+            <node concept="1YBJjd" id="1Ddwjyi_eyk" role="1Z2MuG">
+              <ref role="1YBMHb" node="1Ddwjyi_edZ" resolve="platformAwareMultiString" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1Ddwjyi_edZ" role="1YuTPh">
+      <property role="TrG5h" value="platformAwareMultiString" />
+      <ref role="1YaFvo" to="un0u:1Ddwjyi_e78" resolve="PlatformAwareMultiString" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="1DdwjyiNW6D">
+    <property role="TrG5h" value="check_PlatformAwareMultiString" />
+    <property role="3GE5qa" value="Builder" />
+    <node concept="3clFbS" id="1DdwjyiNW6E" role="18ibNy">
+      <node concept="3clFbH" id="1DdwjyiTxUh" role="3cqZAp" />
+      <node concept="3clFbJ" id="1DdwjyiTxZD" role="3cqZAp">
+        <node concept="3clFbS" id="1DdwjyiTxZF" role="3clFbx">
+          <node concept="2MkqsV" id="1DdwjyiT$$k" role="3cqZAp">
+            <node concept="Xl_RD" id="1DdwjyiT$$z" role="2MkJ7o">
+              <property role="Xl_RC" value="You need at least two platform specific strings here." />
+            </node>
+            <node concept="1YBJjd" id="1DdwjyiT$Cy" role="2OEOjV">
+              <ref role="1YBMHb" node="1DdwjyiNW6G" resolve="pams" />
+            </node>
+          </node>
+        </node>
+        <node concept="2dkUwp" id="1Ddwjyj8zYz" role="3clFbw">
+          <node concept="2OqwBi" id="1DdwjyiTyIz" role="3uHU7B">
+            <node concept="2OqwBi" id="1DdwjyiTy5P" role="2Oq$k0">
+              <node concept="1YBJjd" id="1DdwjyiTy3s" role="2Oq$k0">
+                <ref role="1YBMHb" node="1DdwjyiNW6G" resolve="pams" />
+              </node>
+              <node concept="3Tsc0h" id="1DdwjyiTygW" role="2OqNvi">
+                <ref role="3TtcxE" to="un0u:1Ddwjyi_ebJ" />
+              </node>
+            </node>
+            <node concept="34oBXx" id="1DdwjyiTzzM" role="2OqNvi" />
+          </node>
+          <node concept="3cmrfG" id="1DdwjyiT$p$" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1DdwjyiNW6Y" role="3cqZAp" />
+      <node concept="3clFbJ" id="1DdwjyiNWHv" role="3cqZAp">
+        <node concept="3clFbS" id="1DdwjyiNWHx" role="3clFbx">
+          <node concept="2MkqsV" id="1DdwjyiNYOE" role="3cqZAp">
+            <node concept="Xl_RD" id="1DdwjyiNYOT" role="2MkJ7o">
+              <property role="Xl_RC" value="Exactly one default has to be specified as last string." />
+            </node>
+            <node concept="1YBJjd" id="1DdwjyiNYSz" role="2OEOjV">
+              <ref role="1YBMHb" node="1DdwjyiNW6G" resolve="pams" />
+            </node>
+          </node>
+        </node>
+        <node concept="3y3z36" id="1DdwjyiNYJA" role="3clFbw">
+          <node concept="3cmrfG" id="1DdwjyiNYMk" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="1DdwjyiNYhk" role="3uHU7B">
+            <node concept="2OqwBi" id="1DdwjyiNXkq" role="2Oq$k0">
+              <node concept="2OqwBi" id="1DdwjyiNWLH" role="2Oq$k0">
+                <node concept="1YBJjd" id="1DdwjyiNWJk" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1DdwjyiNW6G" resolve="pams" />
+                </node>
+                <node concept="3Tsc0h" id="1DdwjyiNWQN" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:1Ddwjyi_ebJ" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="1DdwjyiNY3H" role="2OqNvi">
+                <node concept="1bVj0M" id="1DdwjyiNY3J" role="23t8la">
+                  <node concept="3clFbS" id="1DdwjyiNY3K" role="1bW5cS">
+                    <node concept="3clFbF" id="1DdwjyiNY5P" role="3cqZAp">
+                      <node concept="2OqwBi" id="1DdwjyiNY9l" role="3clFbG">
+                        <node concept="37vLTw" id="1DdwjyiNY5O" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1DdwjyiNY3L" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="1DdwjyiNYdE" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:1DdwjyiNWrH" resolve="isDefault" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="1DdwjyiNY3L" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="1DdwjyiNY3M" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="1DdwjyiNYnm" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1DdwjyiNW7a" role="3cqZAp" />
+      <node concept="3clFbJ" id="1DdwjyiNYTi" role="3cqZAp">
+        <node concept="3clFbS" id="1DdwjyiNYTk" role="3clFbx">
+          <node concept="2MkqsV" id="1DdwjyiO1eh" role="3cqZAp">
+            <node concept="Xl_RD" id="1DdwjyiO1ew" role="2MkJ7o">
+              <property role="Xl_RC" value="The last string has to be specified as default (without condition)" />
+            </node>
+            <node concept="2OqwBi" id="1DdwjyiO1SV" role="2OEOjV">
+              <node concept="2OqwBi" id="1DdwjyiO1jf" role="2Oq$k0">
+                <node concept="1YBJjd" id="1DdwjyiO1h5" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1DdwjyiNW6G" resolve="pams" />
+                </node>
+                <node concept="3Tsc0h" id="1DdwjyiO1rh" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:1Ddwjyi_ebJ" />
+                </node>
+              </node>
+              <node concept="1yVyf7" id="1DdwjyiO2EW" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3fqX7Q" id="1DdwjyiO1aU" role="3clFbw">
+          <node concept="2OqwBi" id="1DdwjyiO1aW" role="3fr31v">
+            <node concept="2OqwBi" id="1DdwjyiO1aX" role="2Oq$k0">
+              <node concept="2OqwBi" id="1DdwjyiO1aY" role="2Oq$k0">
+                <node concept="1YBJjd" id="1DdwjyiO1aZ" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1DdwjyiNW6G" resolve="pams" />
+                </node>
+                <node concept="3Tsc0h" id="1DdwjyiO1b0" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:1Ddwjyi_ebJ" />
+                </node>
+              </node>
+              <node concept="1yVyf7" id="1DdwjyiO1b1" role="2OqNvi" />
+            </node>
+            <node concept="2qgKlT" id="1DdwjyiO1b2" role="2OqNvi">
+              <ref role="37wK5l" to="70o0:1DdwjyiNWrH" resolve="isDefault" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="1DdwjyiNW6G" role="1YuTPh">
+      <property role="TrG5h" value="pams" />
+      <ref role="1YaFvo" to="un0u:1Ddwjyi_e78" resolve="PlatformAwareMultiString" />
+    </node>
+  </node>
 </model>
 
