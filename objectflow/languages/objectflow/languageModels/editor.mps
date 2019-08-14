@@ -2506,7 +2506,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="1Csx3LqtqV2" role="3EZMnx">
-          <property role="3F0ifm" value="then, calc page title:" />
+          <property role="3F0ifm" value="page title:" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="1Csx3LqtqV3" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -2515,6 +2515,10 @@
         <node concept="3F1sOY" id="7j1iBG4L7t7" role="3EZMnx">
           <property role="1$x2rV" value="&lt;title&gt;" />
           <ref role="1NtTu8" to="un0u:7j1iBG4KMlj" />
+        </node>
+        <node concept="3F0ifn" id="7FBYhBUxOMS" role="3EZMnx">
+          <property role="3F0ifm" value="// also calculated on child term" />
+          <ref role="1k5W1q" node="3g5RX4qMHze" resolve="O2Hint" />
         </node>
         <node concept="3F0ifn" id="1Csx3LqtqUQ" role="3EZMnx">
           <property role="3F0ifm" value="" />
@@ -2979,7 +2983,7 @@
           <property role="VOm3f" value="false" />
         </node>
         <node concept="3F0ifn" id="1rbZyOx3wxy" role="3EZMnx">
-          <property role="3F0ifm" value="then, calc title" />
+          <property role="3F0ifm" value="command title" />
           <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
           <node concept="pVoyu" id="4W_zHnBGWvj" role="3F10Kt">
             <property role="VOm3f" value="true" />

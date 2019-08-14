@@ -64,8 +64,10 @@
 .sv-info-gray { color: #000 !important; background-color: #f2f2f2 !important }
 
 /* action handling in page title area -------------------------------------- */
+.sv-top-spacer { height: 72.28px !important; }
 .sv-top-title { margin-top: 0px !important; color:#d9d9d9 !important; background-color:#333333 !important}
 div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div.sv-top-title + div.sv-editor {margin-top: 0px !important;}
+
 
 .sv-layout-menu { padding: 0px 8px 0px 12px !important; }
 .sv-layout-menu-item { height: 50px !important; }

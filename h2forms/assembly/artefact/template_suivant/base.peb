@@ -114,6 +114,7 @@
     <input type="hidden" name="DebugInformation" value="-"/>
 
 {% if message is not null and message.modalWithButtons %}
+    <div class="w3-top">
     <div class="w3-container w3-row sv-status-gray">
         <div class="w3-col s7 w3-left-align">{{ client.dynamicStatusInfo|default("&nbsp;") }}</div>
         <div class="w3-col s5 w3-right-align">{{ client.appVersionInfo }}</div>
@@ -135,6 +136,8 @@
         {% if loop.last %}</div>{% endif %}
     {% endfor %}
     </div>
+    </div>
+    <div class="sv-top-spacer">&nbsp;</div>
     {% include "./messages.peb" %}
 {% else %}
 {% block content %} {% endblock %}
