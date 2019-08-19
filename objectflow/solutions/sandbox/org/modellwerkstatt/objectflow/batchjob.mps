@@ -13167,7 +13167,7 @@
         <ref role="37wK5l" to="x5li:~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolve="forPattern" />
         <ref role="1Pybhc" to="x5li:~DateTimeFormat" resolve="DateTimeFormat" />
         <node concept="Xl_RD" id="2T5SnS24sOl" role="37wK5m">
-          <property role="Xl_RC" value="HH:mm:ss.SSS" />
+          <property role="Xl_RC" value="dd.MMM HH:mm:ss.SSS" />
         </node>
       </node>
     </node>
