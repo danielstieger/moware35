@@ -64,7 +64,6 @@
 .sv-info-gray { color: #000 !important; background-color: #f2f2f2 !important }
 
 /* action handling in page title area -------------------------------------- */
-.sv-top-spacer { height: 72.28px !important; }
 .sv-top-title { margin-top: 0px !important; color:#d9d9d9 !important; background-color:#333333 !important}
 div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div.sv-top-title + div.sv-editor {margin-top: 0px !important;}
 
@@ -91,6 +90,8 @@ div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div
 
 .sv-table-impcell {font-weight: bold;}
 
+.sv-cropped-text {overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+
 @media only screen and (max-width: 600px) {
   .sv-s-right-align {text-align: right !important;}
 }
@@ -116,4 +117,3 @@ div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div
       line-height: 24px; border-bottom: 1px solid #FFF !important; font-weight: 600 !important;}
 
 body[class="sv-back-no-session"] div[class*="sv-editor"] {padding-bottom: 300px !important; }
-

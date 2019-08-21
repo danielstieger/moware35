@@ -20,8 +20,9 @@
  
 <project name="MdeApplication" default="default">      
   
+  <property name="buildUserHome" value="c:/" />
   <!-- **** include files setup **************************************************************** -->
-  <include file="../../objectflow/assembly/bmoware.xml" as="bmoware"/>
+  <!-- <include file="../../objectflow/assembly/bmoware.xml" as="bmoware"/> -->
   <include file="../../objectflow/assembly/moware.xml" as="moware"/>
 
 
@@ -57,8 +58,8 @@
 
 
 
-
-  <target name="default" depends="bmoware.mowarePluginAdoption, moware.h2forms">
+<!-- bmoware.mowarePluginAdoption, -->
+  <target name="default" depends="moware.h2forms">
   
     <mkdir dir="work/WEB-INF/classes"/>
     <copy todir="work/WEB-INF/classes">

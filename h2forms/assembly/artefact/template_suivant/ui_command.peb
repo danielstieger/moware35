@@ -7,8 +7,8 @@
         <!-- {{ keyboardScan }} / {{ conclusions|length }} -->
 <div class="w3-top">
 <div class="w3-container w3-row sv-currentfg-D3" onclick="svHideAllContainsDropdown()">
-    <div class="w3-col s7 w3-left-align">{{ client.dynamicStatusInfo|default("&nbsp;") }}</div>
-    <div class="w3-col s5 w3-right-align">{{ client.appVersionInfo }}</div>
+    <div class="w3-col s6 w3-left-align sv-cropped-text">{{ client.dynamicStatusInfo|default("&nbsp;") }}</div>
+    <div class="w3-col s6 w3-right-align sv-cropped-text">{{ client.appVersionInfo }}</div>
 </div>
 <div class="w3-bar sv-currentfg" onclick="svHideAllContainsDropdown()">
     {% for conc in conclusions %}
@@ -41,7 +41,10 @@
     {% endfor %}
 </div>
 </div>
-<div class="sv-top-spacer">&nbsp;</div>
+
+<!-- top spacer -->
+<div class="w3-container w3-row sv-currentfg-D3"><div class="w3-col s12 w3-left-align">modellwerkstatt.org</div></div>
+<div class="w3-bar"> <span class="w3-bar-item"> - </span> </div>
 
 
 {% if notificationText is not null %}
