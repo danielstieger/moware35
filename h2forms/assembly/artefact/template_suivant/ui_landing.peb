@@ -20,9 +20,8 @@
     <div class="w3-col s12 m6 sv-nav">
         <div class="w3-container sv-tile {% if not itm.enabled %}sv-disabled{% endif %}" style="border-color: {{ defCol(itm.color) }}!important"
              {% if itm.enabled %} onClick="javascript: openPage('{{ statics.mainLandingPagePath }}/{{ itm.uri }}/');"{% endif %}>
-            <h1 style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | first }} </h1>
-            <p style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | last }}
-             {% if itm.cntNumStr is not null %}<span class="w3-badge">{{ itm.cntNumStr }}</span>{% endif %}</p>
+            <h1 style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | first }} {% if itm.cntNumStr is not null %}<span class="w3-badge sv-tile-badge-h1">{{ itm.cntNumStr }}</span>{% endif %}</h1>
+            <p style="color: {{ defCol(itm.color) }}"> {{ itm.splittedLabel | last }} </p>
         </div>
     </div>
 {% endif %}
