@@ -55,9 +55,15 @@
   <div class="w3-col s3 w3-right-align"> F 8126 </div>
 </div>
 
-<div class="sv-branding-gray sv-bartitle">
-  <img src="../images/mpreis.png?id=1234">
+<div class="w3-bar sv-branding-gray" onclick="svHideAllContainsDropdown()">
+    <img class="w3-left" src="{{ client.staticContentUrlPrefix }}/images/mpreis.png{{ page.ncs }}">
+    <div class="w3-bar-item sv-bartitle"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+    <div id="SystemDropdownMenu" class="w3-dropdown-content w3-bar-block">
+        <button type="button" class="w3-bar-item w3-button" onclick="svLogout();">Logout</button>
+        <button type="button" class="w3-bar-item w3-button" onclick="hwExit();">Exit Browser</button>
+    </div>
 </div>
+
 <div class="w3-panel">
 <div class="w3-card w3-padding sv-branding-gray">
   <h1>Login / Anmeldung</h1>
