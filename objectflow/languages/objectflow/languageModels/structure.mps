@@ -2301,7 +2301,7 @@
   <node concept="1TIwiD" id="1aaqwMInGiU">
     <property role="1pbfSe" value="1058459962" />
     <property role="3GE5qa" value="OFXTest" />
-    <property role="TrG5h" value="TestSuit" />
+    <property role="TrG5h" value="OFXTestSuit" />
     <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/testsuit.png" />
     <property role="34LRSv" value="Testsuit" />
@@ -2477,7 +2477,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="testsuit" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="1aaqwMInGiU" resolve="TestSuit" />
+      <ref role="20lvS9" node="1aaqwMInGiU" resolve="OFXTestSuit" />
     </node>
     <node concept="PrWs8" id="3iT39DbhYW" role="PzmwI">
       <ref role="PrY4T" node="2w93nZwHmJr" resolve="IOFXTestSuitOption" />
