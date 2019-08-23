@@ -64,15 +64,11 @@ function zzScanSubmit(){
     EB.Barcode.start();
 }
 
-function zzDefaultOkSubmit(){
+function zzDefaultGoSubmit(){
     // svLog('hwDefaultOkSubmit', 'default ok submit called');
 
-    if (svScanEnabled()) {
-        svDisableNavigation();
-
-        zzDisableScan();
-        saveSubmitDueScan();
-    }
+    svDisableNavigation();
+    saveSubmitDueGo();
 }
 
 function hwInitAfterDomReady(){

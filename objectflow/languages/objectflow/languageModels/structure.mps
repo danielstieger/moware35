@@ -3267,7 +3267,11 @@
     </node>
     <node concept="M4N5e" id="7MWNCzXNDQp" role="M5hS2">
       <property role="1uS6qv" value="UPD_FF1" />
-      <property role="1uS6qo" value="UPDATE" />
+      <property role="1uS6qo" value="SCAN/UPDATE" />
+    </node>
+    <node concept="M4N5e" id="6eGMS3GUIM7" role="M5hS2">
+      <property role="1uS6qv" value="GO_FF1" />
+      <property role="1uS6qo" value="GO/OK" />
     </node>
     <node concept="M4N5e" id="1hImSMr5NTE" role="M5hS2">
       <property role="1uS6qo" value="?" />

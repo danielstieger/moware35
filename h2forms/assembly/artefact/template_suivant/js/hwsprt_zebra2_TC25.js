@@ -59,41 +59,36 @@ function zzScanReceived(params){
 function zzScanSubmit(){
     // issuing a scan, which in turn will fire
     // the scan conclusion then ... and submit
-    // svLog('zzScanSubmit', 'zebra issuing a scan');
+    svLog('zzScanSubmit', 'zebra issuing a scan');
     EB.Barcode.stop();
     EB.Barcode.start();
 }
 
-function zzDefaultOkSubmit(){
+function zzDefaultGoSubmit(){
     // svLog('hwDefaultOkSubmit', 'default ok submit called');
 
-    if (svScanEnabled()) {
-        svDisableNavigation();
-
-        zzDisableScan();
-        saveSubmitDueScan();
-    }
+    svDisableNavigation();
+    saveSubmitDueGo();
 }
 
 function hwInitAfterDomReady(){
     // svLog('hwInitAfterDomReady', 'zebra enableScan called . . . .');
 
-    function myCallback() {
-	}
-	EB.Ekb.connect(myCallback);
-    EB.Ekb.disable();
+    EB.Sip.disableAllIME();
 
     var focusHandler = function(event) {
         	var nodeName = event.target.nodeName.toLowerCase();
             var useNumericKeyboard = event.target.getAttribute('useNumericKeyboard');
 
     		if((nodeName == 'input' || nodeName == 'textarea') && useNumericKeyboard == null) {
-                console.log('calling EB.Ekb.enable()');
-                EB.Ekb.enable();
+                EB.Sip.resetToDefault();
+                EB.Sip.show();
+                svLog('focusHandler', 'EB.Sip. resetToDefault() / show() called.');
 
     		} else {
-    		    console.log('calling EB.Ekb.disable()');
-    		    EB.Ekb.disable();
+    		    EB.Sip.disableAllIME();
+    		    svLog('focusHandler', 'EB.Sip.disableAllIME() called.');
+
             }
     };
     document.body.addEventListener('focus', focusHandler, true); //Non-IE
@@ -193,7 +188,8 @@ function hwFlagBeep(t){
 
 function hwExit(){
     try {
-        EB.Ekb.enable();
+        EB.Sip.resetToDefault();
+        EB.Sip.show();
         EB.Application.quit();
     } catch(err) {
         svLog('hwExit', 'EX while trying EB.Application.quit. ' + err);

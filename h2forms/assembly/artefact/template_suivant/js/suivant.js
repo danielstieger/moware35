@@ -28,6 +28,10 @@ function saveSubmitDueScan(){
     saveSubmit(conclusion);
 }
 
+function saveSubmitDueGo(){
+    var conclusion = $('input[name="goconclusion"]').value;
+    saveSubmit(conclusion);
+}
 
 
 function openPage(page) {

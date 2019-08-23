@@ -23,24 +23,29 @@
   <meta name="msapplication-TileColor" content="#c6c6c6">
 
 
-{% if keyboardScan %}
+{% if keyboard %}
     <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Visible" >
     <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Visible" >
     <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Visible" >
     <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Visible" >
     <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Hidden" >
-{% elseif keyboard %}
-    <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar3" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar4" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" >
-    <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Visible" >
-    <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Visible" >
+
+    {% if scanConclusion is null %}
+        <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Hidden" >
+        <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Visible" >
+    {% else %}
+        <meta HTTP-Equiv="ButtonBar5" Content="Visibility:Visible" >
+        <meta HTTP-Equiv="ButtonBar7" Content="Visibility:Hidden" >
+    {% endif %}
+
+    {% if goConclusion is null %}
+        <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Hidden" >
+        <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Visible" >
+    {% else %}
+        <meta HTTP-Equiv="ButtonBar6" Content="Visibility:Visible" >
+        <meta HTTP-Equiv="ButtonBar8" Content="Visibility:Hidden" >
+    {% endif %}
+
 {% else %}
     <meta HTTP-Equiv="ButtonBar1" Content="Visibility:Hidden" >
     <meta HTTP-Equiv="ButtonBar2" Content="Visibility:Hidden" >
@@ -75,13 +80,17 @@
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi/elements.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_zebra18_TC56.js{{ page.ncs }}"></script>
   {% elseif client.device equals "ZEBRAEB_TC25" %}
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi-modules.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script>
+
+  <!--
+  <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/ebapi.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.application.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.barcode.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.notification.js{{ page.ncs }}"></script>
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.keycapture.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.ekb.js{{ page.ncs }}"></script>
-    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/eb.sip.js{{ page.ncs }}"></script>
+    <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/ebapi2/elements.js{{ page.ncs }}"></script> -->
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_zebra2_TC25.js{{ page.ncs }}"></script>
   {% elseif client.device equals "SCANDIT" %}
     <script charset="utf-8" src="{{ client.staticContentUrlPrefix }}/js/hwsprt_scandit.js{{ page.ncs }}"></script>

@@ -13,8 +13,6 @@
 <div class="w3-bar sv-currentfg" onclick="svHideAllContainsDropdown()">
     {% for conc in conclusions %}
         {% if loop.first %}
-           <!-- if scanConclusion is not null and conclusions|length > 2 <div class="w3-bar-item">&nbsp;</div> -->
-
            <button type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmit('conclusion_{{ conc.triggerCode }}');"
            {% if not conc.enabled %} disabled {% endif %} id="cnc_{{ conc.triggerCode }}"> <i class="material-icons"> close </i></button>
 
@@ -29,6 +27,12 @@
             <input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
             {% if client.device equals "SCANDIT" %}
                 <button id="scanSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: scScanSubmit();" disabled><i class="material-icons">camera</i></button>
+            {% endif %}
+
+        {% elseif conc.visible and conc.hotKey equals "GO" %}
+            <input name="goconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
+            {% if client.device equals "SCANDIT" %}
+                <button id="goSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: scGoSubmit();" disabled><i class="material-icons">gavel</i></button>
             {% endif %}
 
         {% elseif conc.visible %}

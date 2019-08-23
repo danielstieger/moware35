@@ -5,6 +5,6 @@
         zzScanSubmit();
     </scantriggerscript>
     <defaultokconclusion>
-        zzDefaultOkSubmit();
+        zzDefaultGoSubmit();
     </defaultokconclusion>
 </CustomScripts>
