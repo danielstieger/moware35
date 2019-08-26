@@ -2963,6 +2963,21 @@
           </node>
         </node>
         <node concept="l2Vlx" id="1rbZyOwYWfu" role="2iSdaV" />
+        <node concept="3F0ifn" id="7yNVvqMPYqp" role="3EZMnx">
+          <property role="3F0ifm" value="command options:" />
+          <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+          <node concept="pVoyu" id="7yNVvqMPYtA" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="7yNVvqMPYrM" role="3EZMnx">
+          <ref role="1NtTu8" to="un0u:7yNVvqMPXUb" />
+          <node concept="l2Vlx" id="7yNVvqMPYrO" role="2czzBx" />
+          <node concept="3F0ifn" id="7yNVvqMPYsu" role="2czzBI">
+            <property role="3F0ifm" value="" />
+            <property role="ilYzB" value="&lt;options&gt;" />
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="5nmfkjWvqpW" role="3EZMnx">
         <property role="3F0ifm" value="" />
@@ -7373,7 +7388,7 @@
   </node>
   <node concept="24kQdi" id="1aaqwMInGrH">
     <property role="3GE5qa" value="OFXTest" />
-    <ref role="1XX52x" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="1XX52x" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="3EZMnI" id="1aaqwMInUhD" role="2wV5jI">
       <node concept="3EZMnI" id="1aaqwMInUhE" role="3EZMnx">
         <node concept="VPM3Z" id="1aaqwMInUhF" role="3F10Kt">
@@ -10989,6 +11004,14 @@
         <property role="3F0ifm" value="" />
         <property role="ilYzB" value="&lt;platform multistrings&gt;" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7yNVvqMQeBy">
+    <property role="3GE5qa" value="OFXCore.command" />
+    <ref role="1XX52x" to="un0u:7yNVvqMPYuw" resolve="CommandNoEscOption" />
+    <node concept="PMmxH" id="7yNVvqMQeBT" role="2wV5jI">
+      <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      <ref role="1k5W1q" node="1Csx3LqGvar" resolve="O2SubConcept" />
     </node>
   </node>
 </model>

@@ -649,6 +649,12 @@
     <property role="19KtqR" value="true" />
     <property role="1pbfSe" value="559815142" />
     <ref role="1TJDcQ" node="6ffh1MXA9UE" resolve="Container" />
+    <node concept="1TJgyj" id="7yNVvqMPXUb" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7yNVvqMPXVq" resolve="ICommandOption" />
+    </node>
     <node concept="1TJgyi" id="7rG0OCcIAfg" role="1TKVEl">
       <property role="TrG5h" value="overWriteWindowTitle" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
@@ -4253,6 +4259,22 @@
       <property role="20kJfa" value="multiString" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="371pDBOmHha" resolve="MultiString" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="7yNVvqMPXVq">
+    <property role="1pbfSe" value="730582224" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="ICommandOption" />
+  </node>
+  <node concept="1TIwiD" id="7yNVvqMPYuw">
+    <property role="1pbfSe" value="730584470" />
+    <property role="3GE5qa" value="OFXCore.command" />
+    <property role="TrG5h" value="CommandNoEscOption" />
+    <property role="34LRSv" value="NO_ESC" />
+    <property role="R4oN_" value="do not enable user_cancel" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="7yNVvqMPYvp" role="PzmwI">
+      <ref role="PrY4T" node="7yNVvqMPXVq" resolve="ICommandOption" />
     </node>
   </node>
 </model>
