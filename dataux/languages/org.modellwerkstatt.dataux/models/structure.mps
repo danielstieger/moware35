@@ -1141,38 +1141,43 @@
     <property role="R4oN_" value="fold multiple cmds" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" node="3nLPQZQ0zzY" resolve="MenuAction" />
-    <node concept="1TJgyj" id="6IYVo2hTQQL" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="pageConclusion" />
-      <ref role="20lvS9" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
-      <node concept="asaX9" id="5YEYfHvvN2R" role="lGtFl" />
-    </node>
     <node concept="1TJgyj" id="5Ld38uBuIzZ" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="forSuccessorCommand" />
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="un0u:6ffh1MXzHna" resolve="Command" />
+      <node concept="asaX9" id="7yNVvqNVkkh" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="5Ld38uC1FwG" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="forSuccessorCommandPageConclusion" />
       <ref role="20lvS9" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
+      <node concept="asaX9" id="7yNVvqNVkkq" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="1K7fNI_kqJZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="innerActions" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1K7fNI_kq$B" resolve="MenuCompoundAction" />
+      <node concept="asaX9" id="7yNVvqNVkk1" role="lGtFl" />
     </node>
     <node concept="1TJgyj" id="3wfz3qPfteK" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="pageRefOption" />
+      <property role="20kJfa" value="graphOwnerAutoCon" />
       <ref role="20lvS9" node="3wfz3qPc3B0" resolve="IPageConclusionRefOption" />
     </node>
-    <node concept="PrWs8" id="3wfz3qPgVe0" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    <node concept="1TJgyj" id="7yNVvqNVkqb" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="graphEditCall" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="un0u:3n7eUMgsANq" resolve="CommandCallBasis" />
     </node>
-    <node concept="PrWs8" id="7PeCy_MzkA2" role="PzmwI">
+    <node concept="1TJgyj" id="7yNVvqNVkoa" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="graphEditAutoCon" />
+      <ref role="20lvS9" node="3wfz3qPc3B0" resolve="IPageConclusionRefOption" />
+    </node>
+    <node concept="PrWs8" id="7yNVvqOJOTo" role="PzmwI">
       <ref role="PrY4T" to="un0u:7PeCy_MumjU" resolve="IOFXSurpErrorMarker" />
     </node>
   </node>
