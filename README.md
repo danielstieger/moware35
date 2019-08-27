@@ -1,17 +1,17 @@
-#  mrs Branch: moware 
-MoWare 2019   - MRS edition
+#  master Branch: moware 
+MoWare 2019   - MRS edition on master
 [Compatible with MPS 3.3.5] 
 
 The moware 2019 software stack consists of three domain specific languages (DSL’s) 
-to model the different aspects of business applications. The languages are tightly 
-integrated. Thus, the languages can be stacked on top of each other, to model a 
-whole business application seamlessly, starting with the database access,
-the transformation of data via business logic and the visualization in user interfaces.
+to model the different aspects of business applications (check out http://www.modellwerkstatt.org/moware). 
+
+This is the so called moware mrs version which supports the new h2forms suivant, including scanning 
+support for TC56, TC25 and scandit browsers. The master branch covers the latest releases for moware mrs. 
 
 ```
-MoWare 2019 is not compatible to earlier releases like the MoWare RC50. 
+Future releases come with a different menu-compound-action handling, extensive changes in internal status
+handling and substantial improvements in string formatting.  
 ```
 
 More information is provided at http://www.modellwerkstatt.org
-More information on version can be found at http://www.modellwerkstatt.org/moware
 Released plugins can be found at https://github.com/danielstieger/moware35/releases
