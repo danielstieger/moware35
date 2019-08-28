@@ -59,8 +59,9 @@ function zzScanReceived(params){
 function zzScanSubmit(){
     // issuing a scan, which in turn will fire
     // the scan conclusion then ... and submit
-    svLog('zzScanSubmit', 'zebra issuing a scan');
+    // svLog('zzScanSubmit', 'zebra issuing a scan');
     EB.Barcode.stop();
+    EB.Barcode.triggerType = EB.Barcode.SOFT_ONCE;
     EB.Barcode.start();
 }
 

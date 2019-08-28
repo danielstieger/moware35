@@ -1,5 +1,5 @@
-#  mrs Branch: moware 
-MoWare 2019   - MRS edition
+#  MODIFIED mrs Branch: moware 
+MoWare 2019   - modified MRS edition
 [Compatible with MPS 3.3.5] 
 
 The moware 2019 software stack consists of three domain specific languages (DSL’s) 
@@ -9,7 +9,7 @@ whole business application seamlessly, starting with the database access,
 the transformation of data via business logic and the visualization in user interfaces.
 
 ```
-MoWare 2019 is not compatible to earlier releases like the MoWare RC50. 
+MoWare MODIFIED mrs is not compatible to earlier releases like the MoWare mrs. 
 ```
 
 More information is provided at http://www.modellwerkstatt.org
