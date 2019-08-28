@@ -6274,7 +6274,7 @@
                 <node concept="3clFbS" id="5LYSiLAC3em" role="3eOfB_">
                   <node concept="3SKdUt" id="5LYSiLABYzg" role="3cqZAp">
                     <node concept="3SKdUq" id="5LYSiLABYzh" role="3SKWNk">
-                      <property role="3SKdUp" value="STATUS ???" />
+                      <property role="3SKdUp" value="mapped to string (eg. status)" />
                     </node>
                   </node>
                   <node concept="3clFbF" id="5LYSiLABYzj" role="3cqZAp">
@@ -6392,24 +6392,25 @@
                   <node concept="3clFbH" id="5LYSiLAC3er" role="3cqZAp" />
                   <node concept="3clFbH" id="5LYSiLAC3es" role="3cqZAp" />
                 </node>
-                <node concept="2OqwBi" id="5LYSiLABYz7" role="3eO9$A">
-                  <node concept="2OqwBi" id="5LYSiLABYyX" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5LYSiLABYyO" role="2Oq$k0">
-                      <node concept="37vLTw" id="KVbXdPfeNs" role="2Oq$k0">
-                        <ref role="3cqZAo" node="7kI3k5AZW9i" resolve="fm" />
+                <node concept="2OqwBi" id="1uKMA6Mr8kq" role="3eO9$A">
+                  <node concept="2qgKlT" id="1uKMA6Mr8kr" role="2OqNvi">
+                    <ref role="37wK5l" to="lfe3:3wMahqxhMld" resolve="isIMapsToString" />
+                    <node concept="2OqwBi" id="1uKMA6Mr8ks" role="37wK5m">
+                      <node concept="2OqwBi" id="1uKMA6Mr8kt" role="2Oq$k0">
+                        <node concept="37vLTw" id="1uKMA6Mr8ku" role="2Oq$k0">
+                          <ref role="3cqZAo" node="7kI3k5AZW9i" resolve="fm" />
+                        </node>
+                        <node concept="3TrEf2" id="1uKMA6Mr8kv" role="2OqNvi">
+                          <ref role="3Tt5mk" to="r5tz:Kou8LehQEJ" />
+                        </node>
                       </node>
-                      <node concept="3TrEf2" id="5LYSiLABYyT" role="2OqNvi">
-                        <ref role="3Tt5mk" to="r5tz:Kou8LehQEJ" />
+                      <node concept="3TrEf2" id="1uKMA6Mr8kw" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:huRkE2T" />
                       </node>
-                    </node>
-                    <node concept="3TrEf2" id="5LYSiLABYz3" role="2OqNvi">
-                      <ref role="3Tt5mk" to="tpee:huRkE2T" />
                     </node>
                   </node>
-                  <node concept="1mIQ4w" id="5LYSiLABYzd" role="2OqNvi">
-                    <node concept="chp4Y" id="5LYSiLABYzf" role="cj9EA">
-                      <ref role="cht4Q" to="r5tz:Kou8LehQJ6" resolve="IPrimitiveType" />
-                    </node>
+                  <node concept="3TUQnm" id="1uKMA6Mr8kx" role="2Oq$k0">
+                    <ref role="3TV0OU" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
                   </node>
                 </node>
               </node>
@@ -7854,7 +7855,7 @@
                 <node concept="3clFbS" id="1YSLAaBArNk" role="3eOfB_">
                   <node concept="3SKdUt" id="1YSLAaBArNl" role="3cqZAp">
                     <node concept="3SKdUq" id="1YSLAaBArNm" role="3SKWNk">
-                      <property role="3SKdUp" value="STATUS ???" />
+                      <property role="3SKdUp" value="maped to string (e.g. status)" />
                     </node>
                   </node>
                   <node concept="3clFbF" id="1YSLAaBArNn" role="3cqZAp">
@@ -7975,24 +7976,25 @@
                   <node concept="3clFbH" id="1YSLAaBArO4" role="3cqZAp" />
                   <node concept="3clFbH" id="1YSLAaBArO5" role="3cqZAp" />
                 </node>
-                <node concept="2OqwBi" id="1YSLAaBArO6" role="3eO9$A">
-                  <node concept="2OqwBi" id="1YSLAaBArO7" role="2Oq$k0">
-                    <node concept="2OqwBi" id="1YSLAaBArO8" role="2Oq$k0">
-                      <node concept="37vLTw" id="1YSLAaBArO9" role="2Oq$k0">
-                        <ref role="3cqZAo" node="1YSLAaBArIR" resolve="fm" />
+                <node concept="2OqwBi" id="1uKMA6Mr8QG" role="3eO9$A">
+                  <node concept="2qgKlT" id="1uKMA6Mr8QH" role="2OqNvi">
+                    <ref role="37wK5l" to="lfe3:3wMahqxhMld" resolve="isIMapsToString" />
+                    <node concept="2OqwBi" id="1uKMA6Mr8QI" role="37wK5m">
+                      <node concept="2OqwBi" id="1uKMA6Mr8QJ" role="2Oq$k0">
+                        <node concept="37vLTw" id="1uKMA6Mr8QK" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1YSLAaBArIR" resolve="fm" />
+                        </node>
+                        <node concept="3TrEf2" id="1uKMA6Mr8QL" role="2OqNvi">
+                          <ref role="3Tt5mk" to="r5tz:Kou8LehQEJ" />
+                        </node>
                       </node>
-                      <node concept="3TrEf2" id="1YSLAaBArOa" role="2OqNvi">
-                        <ref role="3Tt5mk" to="r5tz:Kou8LehQEJ" />
+                      <node concept="3TrEf2" id="1uKMA6Mr8QM" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:huRkE2T" />
                       </node>
-                    </node>
-                    <node concept="3TrEf2" id="1YSLAaBArOb" role="2OqNvi">
-                      <ref role="3Tt5mk" to="tpee:huRkE2T" />
                     </node>
                   </node>
-                  <node concept="1mIQ4w" id="1YSLAaBArOc" role="2OqNvi">
-                    <node concept="chp4Y" id="1YSLAaBArOd" role="cj9EA">
-                      <ref role="cht4Q" to="r5tz:Kou8LehQJ6" resolve="IPrimitiveType" />
-                    </node>
+                  <node concept="3TUQnm" id="1uKMA6Mr8QN" role="2Oq$k0">
+                    <ref role="3TV0OU" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
                   </node>
                 </node>
               </node>

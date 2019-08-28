@@ -1290,7 +1290,7 @@
                   <node concept="3clFbS" id="QyBIeIJXr$" role="3clFbx">
                     <node concept="2MkqsV" id="QyBIeIJXs8" role="3cqZAp">
                       <node concept="Xl_RD" id="QyBIeIJXsb" role="2MkJ7o">
-                        <property role="Xl_RC" value="Only list&lt;int&gt;, list&lt;string&gt; or a list&lt;node&lt;IPrimitive&gt;&gt;is allowed here." />
+                        <property role="Xl_RC" value="Only list&lt;int&gt;, list&lt;string&gt; or a list&lt;node&lt;IMapsToString&gt;&gt;is allowed here." />
                       </node>
                       <node concept="2OqwBi" id="QyBIeIJXsf" role="2OEOjV">
                         <node concept="1YBJjd" id="QyBIeIJXsc" role="2Oq$k0">
@@ -1311,7 +1311,7 @@
                           </node>
                           <node concept="1mIQ4w" id="4JdxVp$xk8K" role="2OqNvi">
                             <node concept="chp4Y" id="4JdxVp$xk8L" role="cj9EA">
-                              <ref role="cht4Q" to="r5tz:Kou8LehQJ6" resolve="IPrimitiveType" />
+                              <ref role="cht4Q" to="r5tz:Kou8LehQJ6" resolve="IMapsToString" />
                             </node>
                           </node>
                         </node>
@@ -2196,7 +2196,7 @@
                     </node>
                     <node concept="1mIQ4w" id="4kj6wS7jgn7" role="2OqNvi">
                       <node concept="chp4Y" id="4kj6wS7jgss" role="cj9EA">
-                        <ref role="cht4Q" to="r5tz:Kou8LehQJ6" resolve="IPrimitiveType" />
+                        <ref role="cht4Q" to="r5tz:Kou8LehQJ6" resolve="IMapsToString" />
                       </node>
                     </node>
                   </node>
@@ -2487,7 +2487,7 @@
                     </node>
                     <node concept="1mIQ4w" id="4kj6wS7jhD_" role="2OqNvi">
                       <node concept="chp4Y" id="4kj6wS7jhIS" role="cj9EA">
-                        <ref role="cht4Q" to="r5tz:Kou8LehQJ6" resolve="IPrimitiveType" />
+                        <ref role="cht4Q" to="r5tz:Kou8LehQJ6" resolve="IMapsToString" />
                       </node>
                     </node>
                   </node>

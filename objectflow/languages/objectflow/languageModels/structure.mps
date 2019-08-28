@@ -91,7 +91,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="status" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="Status" />
+      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="StatusDeclaration" />
     </node>
     <node concept="1TJgyj" id="54AO9Sbt$cz" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -230,7 +230,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3VCHlE3_rxl">
-    <property role="TrG5h" value="Status" />
+    <property role="TrG5h" value="StatusDeclaration" />
     <property role="3GE5qa" value="Status" />
     <property role="1pbfSe" value="1031901777" />
     <property role="MwhBj" value="${module}/icons/status.png" />
@@ -251,6 +251,12 @@
     <property role="1pbfSe" value="1031901776" />
     <property role="MwhBj" value="${module}/icons/status.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1uKMA6MrtjH" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1uKMA6MrtjG" resolve="IStatusElementOption" />
+    </node>
     <node concept="1TJgyj" id="2IjElxgy051" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="doc" />
@@ -282,10 +288,10 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="status" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="Status" />
+      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="StatusDeclaration" />
     </node>
     <node concept="PrWs8" id="75DS814ewVP" role="PzmwI">
-      <ref role="PrY4T" to="r5tz:Kou8LehQJ6" resolve="IPrimitiveType" />
+      <ref role="PrY4T" to="r5tz:Kou8LehQJ6" resolve="IMapsToString" />
     </node>
   </node>
   <node concept="1TIwiD" id="3VCHlE3_TvF">
@@ -300,7 +306,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="status" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="Status" />
+      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="StatusDeclaration" />
     </node>
     <node concept="1TJgyj" id="1uLDEXGwbba" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -453,7 +459,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="status" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="Status" />
+      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="StatusDeclaration" />
     </node>
     <node concept="1TJgyj" id="3bYrH4MI38d" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1361,7 +1367,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="status" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="Status" />
+      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="StatusDeclaration" />
     </node>
     <node concept="1TJgyj" id="6W_Qo9eYs0v" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -1496,7 +1502,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="status" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="Status" />
+      <ref role="20lvS9" node="3VCHlE3_rxl" resolve="StatusDeclaration" />
     </node>
     <node concept="1TJgyj" id="54AO9SbtAe3" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -4275,6 +4281,59 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="7yNVvqMPYvp" role="PzmwI">
       <ref role="PrY4T" node="7yNVvqMPXVq" resolve="ICommandOption" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1uKMA6MrtjG">
+    <property role="1pbfSe" value="903962803" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="IStatusElementOption" />
+  </node>
+  <node concept="1TIwiD" id="1uKMA6MDibs">
+    <property role="1pbfSe" value="900338371" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="OnCreationStatusElemOption" />
+    <property role="34LRSv" value="ON_CREATION" />
+    <property role="R4oN_" value="set when status is created somewhere" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1uKMA6MDibt" role="PzmwI">
+      <ref role="PrY4T" node="1uKMA6MrtjG" resolve="IStatusElementOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1uKMA6ME2OZ">
+    <property role="1pbfSe" value="900139104" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="WhenNullOnDbStatusElemOption" />
+    <property role="R4oN_" value="set when value on db is null or empty" />
+    <property role="34LRSv" value="WHEN_NULL" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1uKMA6ME2P0" role="PzmwI">
+      <ref role="PrY4T" node="1uKMA6MrtjG" resolve="IStatusElementOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1uKMA6ME2Va">
+    <property role="1pbfSe" value="900138709" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="WhenUndefinedStatusElemOption" />
+    <property role="R4oN_" value="set when db value not defined" />
+    <property role="34LRSv" value="WHEN_UNDEFINED" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1uKMA6ME2Vb" role="PzmwI">
+      <ref role="PrY4T" node="1uKMA6MrtjG" resolve="IStatusElementOption" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1uKMA6MHfxC">
+    <property role="1pbfSe" value="899300663" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="ColorStatusElemOption" />
+    <property role="R4oN_" value="def. ui color for status" />
+    <property role="34LRSv" value="COLOR" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1uKMA6MHfxE" role="1TKVEl">
+      <property role="TrG5h" value="val" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="1uKMA6MHfxD" role="PzmwI">
+      <ref role="PrY4T" node="1uKMA6MrtjG" resolve="IStatusElementOption" />
     </node>
   </node>
 </model>

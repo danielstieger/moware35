@@ -14033,5 +14033,168 @@
       <ref role="1YaFvo" to="un0u:1Ddwjyi_e78" resolve="PlatformAwareMultiString" />
     </node>
   </node>
+  <node concept="18kY7G" id="1uKMA6MNdix">
+    <property role="TrG5h" value="check_StatusDeclaration" />
+    <property role="3GE5qa" value="Status" />
+    <node concept="3clFbS" id="1uKMA6MNdiy" role="18ibNy">
+      <node concept="3clFbH" id="1uKMA6MNdiC" role="3cqZAp" />
+      <node concept="3clFbJ" id="1uKMA6MNdiI" role="3cqZAp">
+        <node concept="3clFbS" id="1uKMA6MNdiK" role="3clFbx">
+          <node concept="2MkqsV" id="1uKMA6MNfZ0" role="3cqZAp">
+            <node concept="Xl_RD" id="1uKMA6MNfZf" role="2MkJ7o">
+              <property role="Xl_RC" value="You have to specify exactly one status element with 'on creation'." />
+            </node>
+            <node concept="1YBJjd" id="1uKMA6MNg2G" role="2OEOjV">
+              <ref role="1YBMHb" node="1uKMA6MNdi$" resolve="sd" />
+            </node>
+          </node>
+        </node>
+        <node concept="3y3z36" id="7IMtpAjHH49" role="3clFbw">
+          <node concept="2OqwBi" id="1uKMA6MNf$U" role="3uHU7B">
+            <node concept="2OqwBi" id="1uKMA6MNe7P" role="2Oq$k0">
+              <node concept="2OqwBi" id="1uKMA6MNdlS" role="2Oq$k0">
+                <node concept="1YBJjd" id="1uKMA6MNdjv" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1uKMA6MNdi$" resolve="sd" />
+                </node>
+                <node concept="3Tsc0h" id="1uKMA6MNdqR" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:3VCHlE3_rxo" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="1uKMA6MNffd" role="2OqNvi">
+                <node concept="1bVj0M" id="1uKMA6MNfff" role="23t8la">
+                  <node concept="3clFbS" id="1uKMA6MNffg" role="1bW5cS">
+                    <node concept="3clFbF" id="1uKMA6MNfhT" role="3cqZAp">
+                      <node concept="2OqwBi" id="1uKMA6MNfmH" role="3clFbG">
+                        <node concept="37vLTw" id="1uKMA6MNfhS" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1uKMA6MNffh" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="1uKMA6MNfv8" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:1uKMA6ME0Ng" resolve="isOnCreation" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="1uKMA6MNffh" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="1uKMA6MNffi" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="1uKMA6MNfH4" role="2OqNvi" />
+          </node>
+          <node concept="3cmrfG" id="1uKMA6MNfQO" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1uKMA6MNg3p" role="3cqZAp">
+        <node concept="3clFbS" id="1uKMA6MNg3q" role="3clFbx">
+          <node concept="2MkqsV" id="1uKMA6MNg3r" role="3cqZAp">
+            <node concept="Xl_RD" id="1uKMA6MNg3s" role="2MkJ7o">
+              <property role="Xl_RC" value="Only one status element can be marked as default for 'when null or empty' on db." />
+            </node>
+            <node concept="1YBJjd" id="1uKMA6MNg3t" role="2OEOjV">
+              <ref role="1YBMHb" node="1uKMA6MNdi$" resolve="sd" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="1uKMA6MNg3u" role="3clFbw">
+          <node concept="3cmrfG" id="1uKMA6MNg3v" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="1uKMA6MNg3w" role="3uHU7B">
+            <node concept="2OqwBi" id="1uKMA6MNg3x" role="2Oq$k0">
+              <node concept="2OqwBi" id="1uKMA6MNg3y" role="2Oq$k0">
+                <node concept="1YBJjd" id="1uKMA6MNg3z" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1uKMA6MNdi$" resolve="sd" />
+                </node>
+                <node concept="3Tsc0h" id="1uKMA6MNg3$" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:3VCHlE3_rxo" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="1uKMA6MNg3_" role="2OqNvi">
+                <node concept="1bVj0M" id="1uKMA6MNg3A" role="23t8la">
+                  <node concept="3clFbS" id="1uKMA6MNg3B" role="1bW5cS">
+                    <node concept="3clFbF" id="1uKMA6MNg3C" role="3cqZAp">
+                      <node concept="2OqwBi" id="1uKMA6MNg3D" role="3clFbG">
+                        <node concept="37vLTw" id="1uKMA6MNg3E" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1uKMA6MNg3G" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="1uKMA6MNgs3" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:1uKMA6ME2qc" resolve="isWhenNullOnDb" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="1uKMA6MNg3G" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="1uKMA6MNg3H" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="1uKMA6MNg3I" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbJ" id="1uKMA6MNgd6" role="3cqZAp">
+        <node concept="3clFbS" id="1uKMA6MNgd7" role="3clFbx">
+          <node concept="2MkqsV" id="1uKMA6MNgd8" role="3cqZAp">
+            <node concept="Xl_RD" id="1uKMA6MNgd9" role="2MkJ7o">
+              <property role="Xl_RC" value="Only one status element can be marked as default for 'when undifined' on db." />
+            </node>
+            <node concept="1YBJjd" id="1uKMA6MNgda" role="2OEOjV">
+              <ref role="1YBMHb" node="1uKMA6MNdi$" resolve="sd" />
+            </node>
+          </node>
+        </node>
+        <node concept="3eOSWO" id="1uKMA6MNgdb" role="3clFbw">
+          <node concept="3cmrfG" id="1uKMA6MNgdc" role="3uHU7w">
+            <property role="3cmrfH" value="1" />
+          </node>
+          <node concept="2OqwBi" id="1uKMA6MNgdd" role="3uHU7B">
+            <node concept="2OqwBi" id="1uKMA6MNgde" role="2Oq$k0">
+              <node concept="2OqwBi" id="1uKMA6MNgdf" role="2Oq$k0">
+                <node concept="1YBJjd" id="1uKMA6MNgdg" role="2Oq$k0">
+                  <ref role="1YBMHb" node="1uKMA6MNdi$" resolve="sd" />
+                </node>
+                <node concept="3Tsc0h" id="1uKMA6MNgdh" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:3VCHlE3_rxo" />
+                </node>
+              </node>
+              <node concept="3zZkjj" id="1uKMA6MNgdi" role="2OqNvi">
+                <node concept="1bVj0M" id="1uKMA6MNgdj" role="23t8la">
+                  <node concept="3clFbS" id="1uKMA6MNgdk" role="1bW5cS">
+                    <node concept="3clFbF" id="1uKMA6MNgdl" role="3cqZAp">
+                      <node concept="2OqwBi" id="1uKMA6MNgdm" role="3clFbG">
+                        <node concept="37vLTw" id="1uKMA6MNgdn" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1uKMA6MNgdp" resolve="it" />
+                        </node>
+                        <node concept="2qgKlT" id="1uKMA6MNhab" role="2OqNvi">
+                          <ref role="37wK5l" to="70o0:1uKMA6MNgDi" resolve="isWhenUndefinedOnDb" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="1uKMA6MNgdp" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="1uKMA6MNgdq" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34oBXx" id="1uKMA6MNgdr" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="1uKMA6MNgcm" role="3cqZAp" />
+      <node concept="3clFbH" id="1uKMA6MNg30" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="1uKMA6MNdi$" role="1YuTPh">
+      <property role="TrG5h" value="sd" />
+      <ref role="1YaFvo" to="un0u:3VCHlE3_rxl" resolve="StatusDeclaration" />
+    </node>
+  </node>
 </model>
 
