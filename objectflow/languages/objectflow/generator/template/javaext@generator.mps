@@ -27,7 +27,7 @@
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
-    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
@@ -1538,7 +1538,7 @@
           <node concept="3clFbF" id="YvGkpCL2nm" role="3cqZAp">
             <node concept="2YIFZM" id="YvGkpCL2xY" role="3clFbG">
               <ref role="1Pybhc" to="3ojc:f6irPlxOsl" resolve="OFXUtil" />
-              <ref role="37wK5l" to="3ojc:YvGkpCIw7E" resolve="isObjectComparatorRelated" />
+              <ref role="37wK5l" to="3ojc:YvGkpCIw7E" resolve="saveComperatorNeeded" />
               <node concept="30H73N" id="YvGkpCL6nw" role="37wK5m" />
             </node>
           </node>
@@ -1594,7 +1594,7 @@
           <node concept="3clFbF" id="YvGkpCLalI" role="3cqZAp">
             <node concept="2YIFZM" id="YvGkpCLaws" role="3clFbG">
               <ref role="1Pybhc" to="3ojc:f6irPlxOsl" resolve="OFXUtil" />
-              <ref role="37wK5l" to="3ojc:YvGkpCIw7E" resolve="isObjectComparatorRelated" />
+              <ref role="37wK5l" to="3ojc:YvGkpCIw7E" resolve="saveComperatorNeeded" />
               <node concept="30H73N" id="YvGkpCLehi" role="37wK5m" />
             </node>
           </node>

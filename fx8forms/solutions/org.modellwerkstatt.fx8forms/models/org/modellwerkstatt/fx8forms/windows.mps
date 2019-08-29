@@ -20,7 +20,7 @@
     <import index="zf81" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.net(JDK/)" />
     <import index="c1pc" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.event(org.modellwerkstatt.fx8forms/)" />
     <import index="wez1" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:com.sun.javafx.runtime(org.modellwerkstatt.fx8forms/)" />
-    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="y62k" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.util(org.modellwerkstatt.fx8forms/)" />
     <import index="f1mx" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.scene.text(org.modellwerkstatt.fx8forms/)" />
     <import index="os9n" ref="86b5ca77-71d4-452d-8c64-76f13a80aab6/java:javafx.collections(org.modellwerkstatt.fx8forms/)" />

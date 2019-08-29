@@ -9,7 +9,7 @@
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
   </languages>
   <imports>
-    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="25x5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.text(JDK/)" />
@@ -2663,7 +2663,7 @@
                     <property role="TrG5h" value="elements" />
                     <node concept="10Q1$e" id="276JbtCA1Wi" role="1tU5fm">
                       <node concept="3uibUv" id="276JbtCA1Wh" role="10Q1$1">
-                        <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXMetaStatusElement" />
+                        <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXStatusElement" />
                       </node>
                     </node>
                     <node concept="2OqwBi" id="1ejJFIuLDHE" role="33vP2m">
@@ -2706,7 +2706,7 @@
                                   <ref role="3cqZAo" node="276JbtCA1WJ" resolve="elem" />
                                 </node>
                                 <node concept="liA8E" id="1ejJFIuLE_h" role="2OqNvi">
-                                  <ref role="37wK5l" to="28jr:1ejJFIuA1Eo" resolve="getDBText" />
+                                  <ref role="37wK5l" to="28jr:1ejJFIuA1Eo" resolve="getDbValue" />
                                 </node>
                               </node>
                               <node concept="2OqwBi" id="1ejJFIuLE_Z" role="37wK5m">
@@ -2714,7 +2714,7 @@
                                   <ref role="3cqZAo" node="276JbtCA1WJ" resolve="elem" />
                                 </node>
                                 <node concept="liA8E" id="1ejJFIuLEA5" role="2OqNvi">
-                                  <ref role="37wK5l" to="28jr:1ejJFIuA1Ek" resolve="getLongText" />
+                                  <ref role="37wK5l" to="28jr:1ejJFIuA1Ek" resolve="getLongDesc" />
                                 </node>
                               </node>
                             </node>
@@ -2726,7 +2726,7 @@
                   <node concept="3cpWsn" id="276JbtCA1WJ" role="1Duv9x">
                     <property role="TrG5h" value="elem" />
                     <node concept="3uibUv" id="276JbtCA2gb" role="1tU5fm">
-                      <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXMetaStatusElement" />
+                      <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXStatusElement" />
                     </node>
                   </node>
                   <node concept="37vLTw" id="fdGRoMYQon" role="1DdaDG">
@@ -11222,7 +11222,7 @@
             <property role="TrG5h" value="elements" />
             <node concept="10Q1$e" id="ao4XGSR92W" role="1tU5fm">
               <node concept="3uibUv" id="ao4XGSR92X" role="10Q1$1">
-                <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXMetaStatusElement" />
+                <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXStatusElement" />
               </node>
             </node>
             <node concept="2OqwBi" id="ao4XGSR92Y" role="33vP2m">
@@ -11259,7 +11259,7 @@
           <node concept="3cpWsn" id="ao4XGSRfeC" role="3cpWs9">
             <property role="TrG5h" value="elem" />
             <node concept="3uibUv" id="ao4XGSRfeD" role="1tU5fm">
-              <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXMetaStatusElement" />
+              <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXStatusElement" />
             </node>
             <node concept="10Nm6u" id="ao4XGSRfje" role="33vP2m" />
           </node>
@@ -11268,7 +11268,7 @@
           <node concept="3cpWsn" id="ao4XGSRdK7" role="1Duv9x">
             <property role="TrG5h" value="x" />
             <node concept="3uibUv" id="ao4XGSReeQ" role="1tU5fm">
-              <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXMetaStatusElement" />
+              <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXStatusElement" />
             </node>
           </node>
           <node concept="3clFbS" id="ao4XGSRdK9" role="2LFqv$">
@@ -11293,7 +11293,7 @@
                     <ref role="3cqZAo" node="ao4XGSRdK7" resolve="x" />
                   </node>
                   <node concept="liA8E" id="ao4XGSRiHw" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:1ejJFIuA1Eo" resolve="getDBText" />
+                    <ref role="37wK5l" to="28jr:1ejJFIuA1Eo" resolve="getDbValue" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="ao4XGSRf0z" role="37wK5m">

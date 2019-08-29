@@ -12,7 +12,7 @@
     <import index="250q" ref="r:acfe327d-3896-43a3-9531-c834f24edd00(org.modellwerkstatt.dataux.runtime.toolkit)" />
     <import index="5wm0" ref="r:f3c994fa-eb1a-42d7-999f-013cab8f6849(org.modellwerkstatt.dataux.runtime.delegates)" />
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
-    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
     <import index="b31h" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.springframework.beans.factory.annotation(org.modellwerkstatt.manmap.solution/)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
@@ -2677,7 +2677,7 @@
                             <node concept="3cpWsn" id="yYLpwAiiC5" role="3cpWs9">
                               <property role="TrG5h" value="status" />
                               <node concept="3Tqbb2" id="yYLpwAiiC6" role="1tU5fm">
-                                <ref role="ehGHo" to="un0u:3VCHlE3_rxl" resolve="Status" />
+                                <ref role="ehGHo" to="un0u:3VCHlE3_rxl" resolve="StatusDeclaration" />
                               </node>
                               <node concept="2OqwBi" id="yYLpwAiiC7" role="33vP2m">
                                 <node concept="1PxgMI" id="yYLpwAiiC8" role="2Oq$k0">
@@ -3585,7 +3585,7 @@
                                 <node concept="3cpWsn" id="ao4XGT8y9$" role="3cpWs9">
                                   <property role="TrG5h" value="status" />
                                   <node concept="3Tqbb2" id="ao4XGT8y9v" role="1tU5fm">
-                                    <ref role="ehGHo" to="un0u:3VCHlE3_rxl" resolve="Status" />
+                                    <ref role="ehGHo" to="un0u:3VCHlE3_rxl" resolve="StatusDeclaration" />
                                   </node>
                                   <node concept="2OqwBi" id="ao4XGT8ydS" role="33vP2m">
                                     <node concept="1PxgMI" id="ao4XGT8ydT" role="2Oq$k0">
@@ -14545,7 +14545,7 @@
                                             </node>
                                           </node>
                                           <node concept="2qgKlT" id="4h8Goff31Il" role="2OqNvi">
-                                            <ref role="37wK5l" to="70o0:ao4XGS$LBz" resolve="getColor" />
+                                            <ref role="37wK5l" to="70o0:ao4XGS$LBz" resolve="DEPRECATED_getColorFromDocu" />
                                           </node>
                                         </node>
                                       </node>

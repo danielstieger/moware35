@@ -25,7 +25,7 @@
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" />
-    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="r5tz" ref="r:0099bcb7-afa1-43de-901e-d5e48f4490ca(org.modellwerkstatt.manmap.structure)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -6633,6 +6633,29 @@
         </node>
       </node>
       <node concept="17QB3L" id="4amE455RooJ" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="3RwvUFpX7ZN" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getImplementationFqName" />
+      <ref role="13i0hy" to="lfe3:3RwvUFpX7YS" resolve="getImplementationFqName" />
+      <node concept="3Tm1VV" id="3RwvUFpX7ZO" role="1B3o_S" />
+      <node concept="3clFbS" id="3RwvUFpX7ZR" role="3clF47">
+        <node concept="3clFbF" id="3RwvUFpX82G" role="3cqZAp">
+          <node concept="2OqwBi" id="3RwvUFpX8mD" role="3clFbG">
+            <node concept="2OqwBi" id="3RwvUFpX864" role="2Oq$k0">
+              <node concept="13iPFW" id="3RwvUFpX82F" role="2Oq$k0" />
+              <node concept="3TrEf2" id="3RwvUFpX8dh" role="2OqNvi">
+                <ref role="3Tt5mk" to="un0u:5IoEJEZNHJj" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="3RwvUFpX8wD" role="2OqNvi">
+              <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="3RwvUFpX7ZS" role="3clF45" />
     </node>
   </node>
   <node concept="13h7C7" id="6W_Qo9eYsRQ">

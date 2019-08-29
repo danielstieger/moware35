@@ -9,7 +9,7 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
   </languages>
   <imports>
-    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.ObjectFlowRT)" />
+    <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="xlxw" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.math(JDK/)" />
     <import index="w08f" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time(org.modellwerkstatt.manmap.solution/)" />
     <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" />
@@ -360,7 +360,7 @@
       <concept id="7270431012770461291" name="org.modellwerkstatt.objectflow.structure.BPRefIdReference" flags="ng" index="WNRgn">
         <reference id="7270431012770461292" name="businessProperty" index="WNRgg" />
       </concept>
-      <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.TestSuit" flags="ng" index="2WPaUQ">
+      <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="4079546759073522236" name="configuredComponents" index="23Ghgl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
@@ -372,7 +372,7 @@
         <property id="1085421207787009238" name="shortDesc" index="1YKsg0" />
         <property id="1085421207787009239" name="longDesc" index="1YKsg1" />
       </concept>
-      <concept id="4533072425307715669" name="org.modellwerkstatt.objectflow.structure.Status" flags="ng" index="2XvgOf">
+      <concept id="4533072425307715669" name="org.modellwerkstatt.objectflow.structure.StatusDeclaration" flags="ng" index="2XvgOf">
         <child id="4533072425307715672" name="element" index="2XvgO2" />
       </concept>
       <concept id="4533072425307838443" name="org.modellwerkstatt.objectflow.structure.StatusConstReference" flags="ng" index="2XvMaL">
@@ -30586,7 +30586,7 @@
                 <node concept="2Tkd$M" id="1nLGXVrnxwS" role="2OqNvi" />
               </node>
               <node concept="liA8E" id="1nLGXVrnxwT" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isNewInSession" />
+                <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isTransientInSession" />
               </node>
             </node>
           </node>
@@ -30627,7 +30627,7 @@
               <node concept="2Tkd$M" id="1nLGXVrn_rJ" role="2OqNvi" />
             </node>
             <node concept="liA8E" id="1nLGXVrn_rK" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isNewInSession" />
+              <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isTransientInSession" />
             </node>
           </node>
         </node>
@@ -36653,7 +36653,7 @@
                 <node concept="2Tkd$M" id="26OSHcw1P7R" role="2OqNvi" />
               </node>
               <node concept="liA8E" id="26OSHcw1Pd2" role="2OqNvi">
-                <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isNewInSession" />
+                <ref role="37wK5l" to="28jr:1nLGXVr3Di9" resolve="isTransientInSession" />
               </node>
             </node>
             <node concept="3clFbT" id="26OSHcw1PfY" role="3uHU7w">
