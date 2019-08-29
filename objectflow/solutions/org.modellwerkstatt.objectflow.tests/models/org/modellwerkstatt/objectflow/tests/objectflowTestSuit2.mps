@@ -72,12 +72,14 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1182160077978" name="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" flags="nn" index="YeOm9">
         <child id="1182160096073" name="cls" index="YeSDq" />
       </concept>
+      <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
         <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
@@ -90,6 +92,9 @@
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
+      <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
+        <child id="1070534760952" name="componentType" index="10Q1$1" />
+      </concept>
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg">
         <property id="8606350594693632173" name="isTransient" index="eg7rD" />
         <property id="1240249534625" name="isVolatile" index="34CwA1" />
@@ -298,7 +303,7 @@
       </concept>
       <concept id="1394557069844560977" name="org.modellwerkstatt.objectflow.structure.VslCancelExParam" flags="ng" index="Wg$Cl" />
       <concept id="1394557069844560490" name="org.modellwerkstatt.objectflow.structure.VslCancelMsgParam" flags="ng" index="Wg$KI" />
-      <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.TestSuit" flags="ng" index="2WPaUQ">
+      <concept id="1335996842166371514" name="org.modellwerkstatt.objectflow.structure.OFXTestSuit" flags="ng" index="2WPaUQ">
         <reference id="1335996842166433049" name="configuration" index="2WPtWl" />
         <child id="4079546759073522236" name="configuredComponents" index="23Ghgl" />
         <child id="2884851879190335597" name="options" index="38MLOi" />
@@ -14698,6 +14703,99 @@
         <node concept="3clFbH" id="7jdFSSWmVEw" role="3cqZAp" />
       </node>
     </node>
+  </node>
+  <node concept="312cEu" id="45gKusT0U3i">
+    <property role="TrG5h" value="MyTestClass" />
+    <node concept="2tJIrI" id="45gKusT0U3q" role="jymVt" />
+    <node concept="312cEu" id="45gKusT0U40" role="jymVt">
+      <property role="2bfB8j" value="false" />
+      <property role="TrG5h" value="MyTestStatus" />
+      <node concept="Wx3nA" id="45gKusT0U8r" role="jymVt">
+        <property role="TrG5h" value="CONST" />
+        <property role="3TUv4t" value="true" />
+        <node concept="10P_77" id="45gKusT0U5Z" role="1tU5fm" />
+        <node concept="3Tm1VV" id="45gKusT0U8Y" role="1B3o_S" />
+        <node concept="3clFbT" id="45gKusT0U8e" role="33vP2m">
+          <property role="3clFbU" value="false" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="45gKusT0U41" role="1B3o_S" />
+    </node>
+    <node concept="3Tm1VV" id="45gKusT0U3j" role="1B3o_S" />
+    <node concept="2tJIrI" id="45gKusT0U9p" role="jymVt" />
+    <node concept="2tJIrI" id="45gKusT0U9y" role="jymVt" />
+    <node concept="2YIFZL" id="45gKusT0U9X" role="jymVt">
+      <property role="TrG5h" value="main" />
+      <node concept="37vLTG" id="45gKusT0U9Y" role="3clF46">
+        <property role="TrG5h" value="args" />
+        <node concept="10Q1$e" id="45gKusT0U9Z" role="1tU5fm">
+          <node concept="17QB3L" id="45gKusT0Ua0" role="10Q1$1" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="45gKusT0Ua1" role="3clF45" />
+      <node concept="3Tm1VV" id="45gKusT0Ua2" role="1B3o_S" />
+      <node concept="3clFbS" id="45gKusT0Ua3" role="3clF47">
+        <node concept="3clFbF" id="45gKusT0UbA" role="3cqZAp">
+          <node concept="2OqwBi" id="45gKusT0Ubz" role="3clFbG">
+            <node concept="10M0yZ" id="45gKusT0Ub$" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="45gKusT0Ub_" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="45gKusT0Uit" role="37wK5m">
+                <node concept="10M0yZ" id="45gKusT0UkZ" role="3uHU7w">
+                  <ref role="1PxDUh" node="45gKusT0U40" resolve="MyTestClass.MyTestStatus" />
+                  <ref role="3cqZAo" node="45gKusT0U8r" resolve="CONST" />
+                </node>
+                <node concept="Xl_RD" id="45gKusT0UcD" role="3uHU7B">
+                  <property role="Xl_RC" value="&gt; " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="45gKusT0Uoq">
+    <property role="TrG5h" value="MyTestClass2" />
+    <node concept="2YIFZL" id="45gKusT0Upb" role="jymVt">
+      <property role="TrG5h" value="main" />
+      <node concept="37vLTG" id="45gKusT0Upc" role="3clF46">
+        <property role="TrG5h" value="args" />
+        <node concept="10Q1$e" id="45gKusT0Upd" role="1tU5fm">
+          <node concept="17QB3L" id="45gKusT0Upe" role="10Q1$1" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="45gKusT0Upf" role="3clF45" />
+      <node concept="3Tm1VV" id="45gKusT0Upg" role="1B3o_S" />
+      <node concept="3clFbS" id="45gKusT0Uph" role="3clF47">
+        <node concept="3clFbH" id="45gKusT0UI7" role="3cqZAp" />
+        <node concept="3clFbF" id="45gKusT0Uw3" role="3cqZAp">
+          <node concept="2OqwBi" id="45gKusT0Uw0" role="3clFbG">
+            <node concept="10M0yZ" id="45gKusT0Uw1" role="2Oq$k0">
+              <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
+              <ref role="3cqZAo" to="wyt6:~System.err" resolve="err" />
+            </node>
+            <node concept="liA8E" id="45gKusT0Uw2" role="2OqNvi">
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <node concept="3cpWs3" id="45gKusT0UAQ" role="37wK5m">
+                <node concept="10M0yZ" id="45gKusT0UEU" role="3uHU7w">
+                  <ref role="1PxDUh" node="45gKusT0U40" resolve="MyTestClass.MyTestStatus" />
+                  <ref role="3cqZAo" node="45gKusT0U8r" resolve="CONST" />
+                </node>
+                <node concept="Xl_RD" id="45gKusT0Ux6" role="3uHU7B">
+                  <property role="Xl_RC" value="&gt; " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="45gKusT0UJC" role="3cqZAp" />
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="45gKusT0Uor" role="1B3o_S" />
   </node>
 </model>
 

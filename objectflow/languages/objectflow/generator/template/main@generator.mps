@@ -10098,15 +10098,19 @@
         <node concept="3clFbH" id="7RwCLGxq9g4" role="3cqZAp" />
         <node concept="3cpWs8" id="7RwCLGxqn_4" role="3cqZAp">
           <node concept="3cpWsn" id="7RwCLGxqn_7" role="3cpWs9">
-            <property role="TrG5h" value="statusText" />
-            <node concept="17QB3L" id="7RwCLGxqn_2" role="1tU5fm" />
+            <property role="TrG5h" value="status" />
+            <node concept="3uibUv" id="45gKusT9B_I" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXStatusElement" />
+            </node>
             <node concept="2OqwBi" id="7RwCLGx8Og$" role="33vP2m">
               <node concept="37vLTw" id="7RwCLGx8Og_" role="2Oq$k0">
                 <ref role="3cqZAo" node="rS8NAHS31t" resolve="procDocument" />
               </node>
               <node concept="1DoJHT" id="7RwCLGx8OgA" role="2OqNvi">
                 <property role="1Dpdpm" value="getStatus" />
-                <node concept="17QB3L" id="7RwCLGx8OgB" role="1Ez5kq" />
+                <node concept="3uibUv" id="45gKusT9JGc" role="1Ez5kq">
+                  <ref role="3uigEE" to="28jr:1ejJFIu_S8w" resolve="IOFXMetaStatus.IOFXStatusElement" />
+                </node>
                 <node concept="17Uvod" id="7RwCLGx8OgC" role="lGtFl">
                   <property role="2qtEX9" value="methodName" />
                   <property role="P4ACc" value="df345b11-b8c7-4213-ac66-48d2a9b75d88/1174294166120/1174294288199" />
@@ -10132,53 +10136,28 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="45gKusT9ZHt" role="3cqZAp">
+          <node concept="3cpWsn" id="45gKusT9ZHw" role="3cpWs9">
+            <property role="TrG5h" value="text" />
+            <node concept="17QB3L" id="45gKusT9ZHr" role="1tU5fm" />
+            <node concept="Xl_RD" id="45gKusTa6YO" role="33vP2m">
+              <property role="Xl_RC" value="null" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="7RwCLGxqC8u" role="3cqZAp">
           <node concept="3clFbS" id="7RwCLGxqC8w" role="3clFbx">
             <node concept="3clFbF" id="7RwCLGxqLSl" role="3cqZAp">
               <node concept="37vLTI" id="7RwCLGxqLWK" role="3clFbG">
-                <node concept="37vLTw" id="7RwCLGxqLSj" role="37vLTJ">
-                  <ref role="3cqZAo" node="7RwCLGxqn_7" resolve="statusText" />
+                <node concept="37vLTw" id="45gKusTa83q" role="37vLTJ">
+                  <ref role="3cqZAo" node="45gKusT9ZHw" resolve="text" />
                 </node>
-                <node concept="2OqwBi" id="7RwCLGxsTbY" role="37vLTx">
-                  <node concept="1eOMI4" id="7RwCLGxsSPO" role="2Oq$k0">
-                    <node concept="2OqwBi" id="7RwCLGxsSPP" role="1eOMHV">
-                      <node concept="37vLTw" id="7RwCLGxsSPQ" role="2Oq$k0">
-                        <ref role="3cqZAo" node="rS8NAHS31t" resolve="procDocument" />
-                      </node>
-                      <node concept="1DoJHT" id="7RwCLGxsSPR" role="2OqNvi">
-                        <property role="1Dpdpm" value="getStatus_META" />
-                        <node concept="3uibUv" id="7RwCLGxsSPS" role="1Ez5kq">
-                          <ref role="3uigEE" to="28jr:5dZoziQ$O_J" resolve="OFXStatusAbstract" />
-                        </node>
-                        <node concept="17Uvod" id="7RwCLGxsSPT" role="lGtFl">
-                          <property role="2qtEX9" value="methodName" />
-                          <property role="P4ACc" value="df345b11-b8c7-4213-ac66-48d2a9b75d88/1174294166120/1174294288199" />
-                          <node concept="3zFVjK" id="7RwCLGxsSPU" role="3zH0cK">
-                            <node concept="3clFbS" id="7RwCLGxsSPV" role="2VODD2">
-                              <node concept="3clFbF" id="7RwCLGxsSPW" role="3cqZAp">
-                                <node concept="2OqwBi" id="7RwCLGxsSPX" role="3clFbG">
-                                  <node concept="2OqwBi" id="7RwCLGxsSPY" role="2Oq$k0">
-                                    <node concept="30H73N" id="7RwCLGxsSPZ" role="2Oq$k0" />
-                                    <node concept="2qgKlT" id="7RwCLGxsSQ0" role="2OqNvi">
-                                      <ref role="37wK5l" to="70o0:3PmKne7Nfxk" resolve="getProcessStatusProperty" />
-                                    </node>
-                                  </node>
-                                  <node concept="2qgKlT" id="7RwCLGxsSQ1" role="2OqNvi">
-                                    <ref role="37wK5l" to="70o0:1ejJFIuEo50" resolve="getMetaFieldGetAccesor" />
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
+                <node concept="2OqwBi" id="45gKusT9S9m" role="37vLTx">
+                  <node concept="37vLTw" id="45gKusT9RSN" role="2Oq$k0">
+                    <ref role="3cqZAo" node="7RwCLGxqn_7" resolve="status" />
                   </node>
-                  <node concept="liA8E" id="7RwCLGxsT_0" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:276JbtC_Zzw" resolve="getLongText" />
-                    <node concept="37vLTw" id="7RwCLGxsTFK" role="37wK5m">
-                      <ref role="3cqZAo" node="7RwCLGxqn_7" resolve="statusText" />
-                    </node>
+                  <node concept="liA8E" id="45gKusTa86s" role="2OqNvi">
+                    <ref role="37wK5l" to="28jr:1ejJFIuA1Ek" resolve="getLongDesc" />
                   </node>
                 </node>
               </node>
@@ -10187,7 +10166,7 @@
           <node concept="3y3z36" id="7RwCLGxqLuk" role="3clFbw">
             <node concept="10Nm6u" id="7RwCLGxqLZF" role="3uHU7w" />
             <node concept="37vLTw" id="7RwCLGxqKuG" role="3uHU7B">
-              <ref role="3cqZAo" node="7RwCLGxqn_7" resolve="statusText" />
+              <ref role="3cqZAo" node="7RwCLGxqn_7" resolve="status" />
             </node>
           </node>
         </node>
@@ -10199,8 +10178,8 @@
                 <ref role="Rm8GQ" to="28jr:rS8NAHUZY9" resolve="WRONG_STATE" />
                 <ref role="1Px2BO" to="28jr:rS8NAHUZwH" resolve="OFXCommandDisabledReason.ReasonType" />
               </node>
-              <node concept="37vLTw" id="7RwCLGxratZ" role="37wK5m">
-                <ref role="3cqZAo" node="7RwCLGxqn_7" resolve="statusText" />
+              <node concept="37vLTw" id="45gKusTa8az" role="37wK5m">
+                <ref role="3cqZAo" node="45gKusT9ZHw" resolve="text" />
               </node>
             </node>
           </node>

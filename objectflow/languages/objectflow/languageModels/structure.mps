@@ -235,6 +235,12 @@
     <property role="1pbfSe" value="1031901777" />
     <property role="MwhBj" value="${module}/icons/status.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="45gKusSALGo" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="options" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="45gKusSALGn" resolve="IStatusDeclarationOption" />
+    </node>
     <node concept="1TJgyj" id="3VCHlE3_rxo" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="element" />
@@ -4334,6 +4340,22 @@
     </node>
     <node concept="PrWs8" id="1uKMA6MHfxD" role="PzmwI">
       <ref role="PrY4T" node="1uKMA6MrtjG" resolve="IStatusElementOption" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="45gKusSALGn">
+    <property role="1pbfSe" value="2045500670" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="IStatusDeclarationOption" />
+  </node>
+  <node concept="1TIwiD" id="45gKusSB1S9">
+    <property role="1pbfSe" value="2045566960" />
+    <property role="3GE5qa" value="Status" />
+    <property role="TrG5h" value="AllowNullStatusDeclOption" />
+    <property role="34LRSv" value="ALLOW_NULL" />
+    <property role="R4oN_" value="null er empty dbValue results in null status" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="45gKusSB1Sc" role="PzmwI">
+      <ref role="PrY4T" node="45gKusSALGn" resolve="IStatusDeclarationOption" />
     </node>
   </node>
 </model>

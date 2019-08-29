@@ -1491,63 +1491,6 @@
         </node>
       </node>
     </node>
-    <node concept="3aamgX" id="1uLDEXGwqsD" role="3acgRq">
-      <ref role="30HIoZ" to="un0u:3VCHlE3_TvF" resolve="StatusConstReference" />
-      <node concept="gft3U" id="1uLDEXGwqsF" role="1lVwrX">
-        <node concept="Xl_RD" id="1uLDEXGwqsH" role="gfFT$">
-          <property role="Xl_RC" value="STATUSVALUE" />
-          <node concept="17Uvod" id="1uLDEXGwqsI" role="lGtFl">
-            <property role="2qtEX9" value="value" />
-            <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
-            <node concept="3zFVjK" id="1uLDEXGwqsJ" role="3zH0cK">
-              <node concept="3clFbS" id="1uLDEXGwqsK" role="2VODD2">
-                <node concept="3clFbF" id="1uLDEXGwqsL" role="3cqZAp">
-                  <node concept="2OqwBi" id="1uLDEXGwqsS" role="3clFbG">
-                    <node concept="2OqwBi" id="1uLDEXGwqsN" role="2Oq$k0">
-                      <node concept="30H73N" id="1uLDEXGwqsM" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="1uLDEXGwqsR" role="2OqNvi">
-                        <ref role="3Tt5mk" to="un0u:1uLDEXGwbba" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="1uLDEXGwqsW" role="2OqNvi">
-                      <ref role="3TsBF5" to="un0u:3VCHlE3_rxy" resolve="value" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3aamgX" id="3bYrH4MIGXi" role="3acgRq">
-      <ref role="30HIoZ" to="un0u:3bYrH4MI37T" resolve="StatusStaticAccess" />
-      <node concept="gft3U" id="3bYrH4MIGXk" role="1lVwrX">
-        <node concept="Xl_RD" id="3bYrH4MIGXm" role="gfFT$">
-          <property role="Xl_RC" value="STATUSTEXT" />
-          <node concept="29HgVG" id="3bYrH4MIGXr" role="lGtFl">
-            <node concept="3NFfHV" id="3bYrH4MIGXu" role="3NFExx">
-              <node concept="3clFbS" id="3bYrH4MIGXv" role="2VODD2">
-                <node concept="3clFbF" id="3bYrH4MIGXw" role="3cqZAp">
-                  <node concept="2OqwBi" id="3bYrH4MIGXx" role="3clFbG">
-                    <node concept="3TrEf2" id="3bYrH4MIGXy" role="2OqNvi">
-                      <ref role="3Tt5mk" to="un0u:3bYrH4MI38d" />
-                    </node>
-                    <node concept="30H73N" id="3bYrH4MIGXz" role="2Oq$k0" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="3aamgX" id="1uLDEXGwqEm" role="3acgRq">
-      <ref role="30HIoZ" to="un0u:3VCHlE3_KcX" resolve="StatusType" />
-      <node concept="gft3U" id="1uLDEXGwqEo" role="1lVwrX">
-        <node concept="17QB3L" id="1uLDEXGwqEq" role="gfFT$" />
-      </node>
-    </node>
     <node concept="3aamgX" id="5gW0nkjYeTT" role="3acgRq">
       <ref role="30HIoZ" to="tpee:fzclF8g" resolve="EqualsExpression" />
       <node concept="gft3U" id="5gW0nkjYeTX" role="1lVwrX">
@@ -4641,7 +4584,7 @@
                                   <node concept="2Xjw5R" id="4AdkG1V47Fh" role="2OqNvi">
                                     <node concept="1xMEDy" id="4AdkG1V47Fi" role="1xVPHs">
                                       <node concept="chp4Y" id="4AdkG1V47Fj" role="ri$Ld">
-                                        <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+                                        <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
                                       </node>
                                     </node>
                                   </node>
@@ -4790,7 +4733,7 @@
                                 <node concept="2Xjw5R" id="7ojk6m5IVt1" role="2OqNvi">
                                   <node concept="1xMEDy" id="7ojk6m5IVt2" role="1xVPHs">
                                     <node concept="chp4Y" id="7ojk6m5IVt3" role="ri$Ld">
-                                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+                                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
                                     </node>
                                   </node>
                                 </node>
