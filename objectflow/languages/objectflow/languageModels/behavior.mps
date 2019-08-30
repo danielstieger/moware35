@@ -15790,7 +15790,7 @@
       <node concept="3clFbS" id="6BKPvpCYM3W" role="3clF47">
         <node concept="3clFbF" id="6BKPvpCYM4T" role="3cqZAp">
           <node concept="Xl_RD" id="6BKPvpCYM4S" role="3clFbG">
-            <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.IOFXPlatform" />
+            <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.IOFXPlatform" />
           </node>
         </node>
       </node>
@@ -16434,6 +16434,47 @@
                   <node concept="2jxLKc" id="1uKMA6MOIKG" role="1tU5fm" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="2WQ7pT5TuSG" role="13h7CS">
+      <property role="TrG5h" value="getIMPL_StatusFqName" />
+      <node concept="3Tm1VV" id="2WQ7pT5TuSH" role="1B3o_S" />
+      <node concept="17QB3L" id="2WQ7pT5Tvjn" role="3clF45" />
+      <node concept="3clFbS" id="2WQ7pT5TuSJ" role="3clF47">
+        <node concept="3clFbF" id="2WQ7pT5Tvjr" role="3cqZAp">
+          <node concept="2OqwBi" id="2WQ7pT5TvJu" role="3clFbG">
+            <node concept="1PxgMI" id="2WQ7pT5TvFU" role="2Oq$k0">
+              <ref role="1PxNhF" to="un0u:3VCHlE3_rxl" resolve="StatusDeclaration" />
+              <node concept="2OqwBi" id="2WQ7pT5Tvmh" role="1PxMeX">
+                <node concept="13iPFW" id="2WQ7pT5Tvjq" role="2Oq$k0" />
+                <node concept="1mfA1w" id="2WQ7pT5Tvsc" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="2qgKlT" id="2WQ7pT5TvTw" role="2OqNvi">
+              <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="2WQ7pT63$KE" role="13h7CS">
+      <property role="TrG5h" value="getIMPL_ElementName" />
+      <node concept="3Tm1VV" id="2WQ7pT63$KF" role="1B3o_S" />
+      <node concept="17QB3L" id="2WQ7pT63$KG" role="3clF45" />
+      <node concept="3clFbS" id="2WQ7pT63$KH" role="3clF47">
+        <node concept="3clFbF" id="2WQ7pT63$KI" role="3cqZAp">
+          <node concept="2OqwBi" id="2WQ7pT63_wK" role="3clFbG">
+            <node concept="2OqwBi" id="2WQ7pT63_j9" role="2Oq$k0">
+              <node concept="13iPFW" id="2WQ7pT63_gf" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2WQ7pT63_p4" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2WQ7pT63_G_" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.toUpperCase():java.lang.String" resolve="toUpperCase" />
             </node>
           </node>
         </node>

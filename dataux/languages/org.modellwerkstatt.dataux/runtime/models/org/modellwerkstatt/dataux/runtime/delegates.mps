@@ -20,6 +20,7 @@
     <import index="ache" ref="r:652671b3-2859-4dde-a86b-6840e4c0fb9f(org.modellwerkstatt.dataux.runtime.utils)" />
     <import index="zhcn" ref="r:14385148-b6a1-46af-8af1-c5f3ff1b3e83(org.modellwerkstatt.dataux.runtime.extensions)" />
     <import index="1e0c" ref="r:0f1e8a33-3d62-4d74-9400-4bd6b3fbb8bd(org.modellwerkstatt.dataux.runtime.core)" />
+    <import index="w7gk" ref="r:22abd22f-3c78-4514-b7c6-da1d82c38fe2(org.modellwerkstatt.manmap.runtime)" implicit="true" />
     <import index="oz00" ref="37fdf88a-1025-4d01-864a-0bf987f72e6f/java:org.joda.time.base(org.modellwerkstatt.manmap.solution/)" implicit="true" />
   </imports>
   <registry>
@@ -2706,7 +2707,7 @@
                                   <ref role="3cqZAo" node="276JbtCA1WJ" resolve="elem" />
                                 </node>
                                 <node concept="liA8E" id="1ejJFIuLE_h" role="2OqNvi">
-                                  <ref role="37wK5l" to="28jr:1ejJFIuA1Eo" resolve="getDbValue" />
+                                  <ref role="37wK5l" to="w7gk:3RwvUFqjPyz" resolve="getDbValue" />
                                 </node>
                               </node>
                               <node concept="2OqwBi" id="1ejJFIuLE_Z" role="37wK5m">
@@ -11293,7 +11294,7 @@
                     <ref role="3cqZAo" node="ao4XGSRdK7" resolve="x" />
                   </node>
                   <node concept="liA8E" id="ao4XGSRiHw" role="2OqNvi">
-                    <ref role="37wK5l" to="28jr:1ejJFIuA1Eo" resolve="getDbValue" />
+                    <ref role="37wK5l" to="w7gk:3RwvUFqjPyz" resolve="getDbValue" />
                   </node>
                 </node>
                 <node concept="37vLTw" id="ao4XGSRf0z" role="37wK5m">

@@ -4087,7 +4087,7 @@
     <node concept="2CJf3v" id="5lMTsSlMoEe" role="2CGBMS">
       <property role="TrG5h" value="userEnviormentInformation" />
       <node concept="Xl_RD" id="5lMTsSlMoEf" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.UserEnvironmentInformation" />
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.UserEnvironmentInformation" />
       </node>
     </node>
     <node concept="2CJf3v" id="5lMTsSlMoEg" role="2CGBMS">

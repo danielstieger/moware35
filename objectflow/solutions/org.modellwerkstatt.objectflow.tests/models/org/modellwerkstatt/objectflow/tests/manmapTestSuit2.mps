@@ -311,6 +311,7 @@
       <concept id="4338511869696968148" name="org.modellwerkstatt.objectflow.structure.OFXTestSuitDependentOption" flags="ng" index="zbZxr">
         <reference id="4338511869696968277" name="test" index="zbZJq" />
       </concept>
+      <concept id="1707086779731223260" name="org.modellwerkstatt.objectflow.structure.OnCreationStatusElemOption" flags="ng" index="2_5uyX" />
       <concept id="478945708906770773" name="org.modellwerkstatt.objectflow.structure.OFXConfig" flags="ng" index="2CG7Z0">
         <property id="3526396426252206723" name="lastUpdated" index="2320hu" />
         <child id="406105322043153886" name="dependencyResolution" index="20ptHX" />
@@ -371,6 +372,7 @@
         <property id="4533072425307715682" name="value" index="2XvgOS" />
         <property id="1085421207787009238" name="shortDesc" index="1YKsg0" />
         <property id="1085421207787009239" name="longDesc" index="1YKsg1" />
+        <child id="1707086779727598829" name="options" index="2_RhUc" />
       </concept>
       <concept id="4533072425307715669" name="org.modellwerkstatt.objectflow.structure.StatusDeclaration" flags="ng" index="2XvgOf">
         <child id="4533072425307715672" name="element" index="2XvgO2" />
@@ -849,6 +851,7 @@
         <property role="2XvgOS" value="DF" />
         <property role="1YKsg0" value="Def." />
         <property role="1YKsg1" value="Default" />
+        <node concept="2_5uyX" id="2WQ7pT6gLIi" role="2_RhUc" />
       </node>
       <node concept="2XvgOc" id="612_n8Hc$sx" role="2XvgO2">
         <property role="TrG5h" value="stat1" />
@@ -4441,13 +4444,13 @@
       <node concept="2CJf3v" id="1lpzdTmkvSe" role="2CJdiS">
         <property role="TrG5h" value="printFactory" />
         <node concept="Xl_RD" id="1lpzdTmkvSg" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFakePrintFactory" />
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXFakePrintFactory" />
         </node>
       </node>
       <node concept="2CJf3v" id="6Rdz00zW6jD" role="2CJdiS">
         <property role="TrG5h" value="consoleAppFactory" />
         <node concept="Xl_RD" id="6Rdz00zW6jE" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXConsoleAppFactory" />
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXConsoleAppFactory" />
         </node>
       </node>
       <node concept="2CJ4_Q" id="5MCXLSo4_DS" role="2CJdiS">
@@ -4784,7 +4787,7 @@
       <node concept="2CJf3v" id="4LC0Y0L2pbp" role="2CJdiS">
         <property role="TrG5h" value="deprecatedServerDateProvider" />
         <node concept="Xl_RD" id="4LC0Y0L2pbq" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.DeprecatedServerDateProvider" />
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.DeprecatedServerDateProvider" />
         </node>
       </node>
       <node concept="2CJf3v" id="4LC0Y0L2pbr" role="2CJdiS">
@@ -4796,7 +4799,7 @@
       <node concept="2CJf3v" id="3OfvFtlM1cD" role="2CJdiS">
         <property role="TrG5h" value="stringFormatter" />
         <node concept="Xl_RD" id="3OfvFtlM1cE" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXStringFormatter" />
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXStringFormatter" />
         </node>
       </node>
     </node>
@@ -4806,7 +4809,7 @@
       <node concept="2CJf3v" id="4LC0Y0L2pbx" role="2CJdiS">
         <property role="TrG5h" value="userEnviormentInformation" />
         <node concept="Xl_RD" id="4LC0Y0L2pby" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.UserEnvironmentInformation" />
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.UserEnvironmentInformation" />
         </node>
       </node>
     </node>
@@ -17145,6 +17148,7 @@
         <property role="2XvgOS" value="1" />
         <property role="1YKsg0" value="On" />
         <property role="1YKsg1" value="ON" />
+        <node concept="2_5uyX" id="2WQ7pT6gLIj" role="2_RhUc" />
       </node>
       <node concept="2XvgOc" id="2i3o0he2lCQ" role="2XvgO2">
         <property role="TrG5h" value="off" />
@@ -25029,7 +25033,7 @@
                 </node>
               </node>
               <node concept="nIsag" id="2TdURcUzDrD" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sN" resolve="getStatusDBText" />
+                <ref role="nItbb" to="28jr:2TdURcTX4sN" resolve="getDbValue" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpLy3" role="2OqNvi">
@@ -25048,7 +25052,7 @@
                 <ref role="1Vchh_" node="5LYSiLABM5j" resolve="off" />
               </node>
               <node concept="nIsag" id="2TdURcUzDsP" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sN" resolve="getStatusDBText" />
+                <ref role="nItbb" to="28jr:2TdURcTX4sN" resolve="getDbValue" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpRaq" role="2OqNvi">
@@ -25106,7 +25110,7 @@
                 </node>
               </node>
               <node concept="nIsag" id="2TdURcUpRo3" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4rw" resolve="getStatusShortText" />
+                <ref role="nItbb" to="28jr:2TdURcTX4rw" resolve="getShortDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpRo4" role="2OqNvi">
@@ -25125,7 +25129,7 @@
                 <ref role="1Vchh_" node="5LYSiLABM5j" resolve="off" />
               </node>
               <node concept="nIsag" id="2TdURcUpRoa" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4rw" resolve="getStatusShortText" />
+                <ref role="nItbb" to="28jr:2TdURcTX4rw" resolve="getShortDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpRob" role="2OqNvi">
@@ -25183,7 +25187,7 @@
                 </node>
               </node>
               <node concept="nIsag" id="2TdURcUpSTY" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sB" resolve="getStatusLongText" />
+                <ref role="nItbb" to="28jr:2TdURcTX4sB" resolve="getLongDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpS5w" role="2OqNvi">
@@ -25202,7 +25206,7 @@
                 <ref role="1Vchh_" node="5LYSiLABM5j" resolve="off" />
               </node>
               <node concept="nIsag" id="2TdURcUpSWP" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sB" resolve="getStatusLongText" />
+                <ref role="nItbb" to="28jr:2TdURcTX4sB" resolve="getLongDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpS5B" role="2OqNvi">
@@ -25258,7 +25262,7 @@
                 </node>
               </node>
               <node concept="nIsag" id="2TdURcUpZ_r" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sB" resolve="getStatusLongText" />
+                <ref role="nItbb" to="28jr:2TdURcTX4sB" resolve="getLongDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpZ_s" role="2OqNvi">
@@ -25281,7 +25285,7 @@
                 </node>
               </node>
               <node concept="nIsag" id="2TdURcUzUXw" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4rw" resolve="getStatusShortText" />
+                <ref role="nItbb" to="28jr:2TdURcTX4rw" resolve="getShortDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUzU6f" role="2OqNvi">
@@ -25304,7 +25308,7 @@
                 </node>
               </node>
               <node concept="nIsag" id="2TdURcUzVQk" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sN" resolve="getStatusDBText" />
+                <ref role="nItbb" to="28jr:2TdURcTX4sN" resolve="getDbValue" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUzUYj" role="2OqNvi">
@@ -25577,6 +25581,7 @@
         <property role="2XvgOS" value="ON" />
         <property role="1YKsg0" value="On_Short" />
         <property role="1YKsg1" value="On_Long" />
+        <node concept="2_5uyX" id="2WQ7pT6gLIk" role="2_RhUc" />
       </node>
       <node concept="2XvgOc" id="5LYSiLABM5j" role="2XvgO2">
         <property role="TrG5h" value="off" />
@@ -34992,13 +34997,13 @@
       <node concept="2CJf3v" id="6VW5G60I4vB" role="2CJdiS">
         <property role="TrG5h" value="printFactory" />
         <node concept="Xl_RD" id="6VW5G60I4vC" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXFakePrintFactory" />
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXFakePrintFactory" />
         </node>
       </node>
       <node concept="2CJf3v" id="6VW5G60I4vD" role="2CJdiS">
         <property role="TrG5h" value="consoleAppFactory" />
         <node concept="Xl_RD" id="6VW5G60I4vE" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXConsoleAppFactory" />
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXConsoleAppFactory" />
         </node>
       </node>
       <node concept="2CJ4_Q" id="6VW5G60I4vF" role="2CJdiS">
@@ -36421,6 +36426,7 @@
         <property role="2XvgOS" value="O" />
         <property role="1YKsg0" value="On" />
         <property role="1YKsg1" value="On" />
+        <node concept="2_5uyX" id="2WQ7pT6gLIm" role="2_RhUc" />
       </node>
       <node concept="2XvgOc" id="FplMljbo5g" role="2XvgO2">
         <property role="TrG5h" value="off" />
@@ -38617,6 +38623,7 @@
         <property role="2XvgOS" value="A" />
         <property role="1YKsg0" value="A short" />
         <property role="1YKsg1" value="A long" />
+        <node concept="2_5uyX" id="2WQ7pT6gLIl" role="2_RhUc" />
       </node>
       <node concept="2XvgOc" id="5jJxQKSZnW4" role="2XvgO2">
         <property role="TrG5h" value="B" />
@@ -38841,7 +38848,7 @@
     <node concept="2CJf3v" id="5zF9hZsEnqh" role="2CGBMS">
       <property role="TrG5h" value="stringFormatter" />
       <node concept="Xl_RD" id="5zF9hZsEnqj" role="2CJf0U">
-        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.ObjectFlowRT.OFXStringFormatter" />
+        <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXStringFormatter" />
       </node>
     </node>
     <node concept="2CPvp3" id="5MCXLSo9cFu" role="2CGBMS" />

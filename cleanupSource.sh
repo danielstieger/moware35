@@ -9,6 +9,10 @@ rm -rf /Users/danielstieger/moware/objectflow/solutions/sandbox/classes_gen
 rm -rf /Users/danielstieger/moware/objectflow/solutions/sandbox/source_gen
 rm -rf /Users/danielstieger/moware/objectflow/solutions/sandbox/source_gen.caches
 
+rm -rf /Users/danielstieger/moware/objectflow/solutions/org.modellwerkstatt.objectflow.tests/classes_gen
+rm -rf /Users/danielstieger/moware/objectflow/solutions/org.modellwerkstatt.objectflow.tests/source_gen
+rm -rf /Users/danielstieger/moware/objectflow/solutions/org.modellwerkstatt.objectflow.tests/source_gen.caches
+
 rm -rf /Users/danielstieger/moware/forms/solutions/modellwerkstatt.forms.sandbox/classes_gen
 rm -rf /Users/danielstieger/moware/forms/solutions/modellwerkstatt.forms.sandbox/source_gen
 rm -rf /Users/danielstieger/moware/forms/solutions/modellwerkstatt.forms.sandbox/source_gen.caches
@@ -21,8 +25,6 @@ rm -rf /Users/danielstieger/moware/fatflow/languages/fatflow/generator/classes_g
 rm -rf /Users/danielstieger/moware/fatflow/languages/fatflow/generator/source_gen
 rm -rf /Users/danielstieger/moware/fatflow/languages/fatflow/generator/source_gen.caches
 
-
-
 rm -rf /Users/danielstieger/moware/fx8forms/solutions/org.modellwerkstatt.fx8forms/classes_gen
 rm -rf /Users/danielstieger/moware/fx8forms/solutions/org.modellwerkstatt.fx8forms/source_gen
 rm -rf /Users/danielstieger/moware/fx8forms/solutions/org.modellwerkstatt.fx8forms/source_gen.caches
@@ -34,3 +36,13 @@ rm -rf /Users/danielstieger/moware/h1forms/solutions/org.modellwerkstatt.h1forms
 rm -rf /Users/danielstieger/moware/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/classes_gen
 rm -rf /Users/danielstieger/moware/vaadinforms/solutions/org.modellwerkstatt.vaadinforms/source_gen
 rm -rf /Users/danielstieger/moware/vaadinforms/solutions/org.modellwerkstatt.vaadinforms//source_gen.caches
+
+
+rm -rf /Users/danielstieger/moware/h2forms/assembly/work
+rm -rf /Users/danielstiger/moware/h2forms/assembly/dist
+
+rm -rf /Users/danielstieger/moware/objectflow/assembly/work
+rm -rf /Users/danielstieger/moware/objectflow/assembly/dist
+
+rm -rf /Users/danielstieger/moware/vaadinforms/assembly/work
+rm -rf /Users/danielstieger/moware/vaadinforms/assembly/dist
