@@ -282,9 +282,6 @@
       <concept id="3146313690715522043" name="org.modellwerkstatt.objectflow.structure.Platform" flags="ng" index="2kDv1q">
         <child id="7604036740764640824" name="variantDeclarations" index="3hNl4o" />
       </concept>
-      <concept id="3336581779077474787" name="org.modellwerkstatt.objectflow.structure.StatusOperation" flags="ng" index="nIsag">
-        <reference id="3336581779077478840" name="method" index="nItbb" />
-      </concept>
       <concept id="8009651625739169400" name="org.modellwerkstatt.objectflow.structure.OFXTestCompareStatement" flags="ng" index="pXX7f">
         <child id="8009651625739172703" name="expression" index="pXWjC" />
         <child id="8484523473171385444" name="pathRef" index="JpL_1" />
@@ -25032,8 +25029,8 @@
                   <ref role="2S8YL0" node="5LYSiLABM5k" resolve="onOff" />
                 </node>
               </node>
-              <node concept="nIsag" id="2TdURcUzDrD" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sN" resolve="getDbValue" />
+              <node concept="liA8E" id="2WQ7pT7dysq" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2TdURcTX4sN" resolve="getDbValue" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpLy3" role="2OqNvi">
@@ -25051,8 +25048,8 @@
                 <ref role="2XvMaQ" node="5LYSiLABM5g" resolve="OnOff" />
                 <ref role="1Vchh_" node="5LYSiLABM5j" resolve="off" />
               </node>
-              <node concept="nIsag" id="2TdURcUzDsP" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sN" resolve="getDbValue" />
+              <node concept="liA8E" id="2WQ7pT7dysb" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2TdURcTX4sN" resolve="getDbValue" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpRaq" role="2OqNvi">
@@ -25098,6 +25095,7 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="2WQ7pT7de0Q" role="3cqZAp" />
         <node concept="1gVbGN" id="2TdURcUpRnX" role="3cqZAp">
           <node concept="2OqwBi" id="2TdURcUpRnY" role="1gVkn0">
             <node concept="2OqwBi" id="2TdURcUpRnZ" role="2Oq$k0">
@@ -25109,8 +25107,8 @@
                   <ref role="2S8YL0" node="5LYSiLABM5k" resolve="onOff" />
                 </node>
               </node>
-              <node concept="nIsag" id="2TdURcUpRo3" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4rw" resolve="getShortDesc" />
+              <node concept="liA8E" id="2WQ7pT7dyse" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2TdURcTX4rw" resolve="getShortDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpRo4" role="2OqNvi">
@@ -25128,8 +25126,8 @@
                 <ref role="2XvMaQ" node="5LYSiLABM5g" resolve="OnOff" />
                 <ref role="1Vchh_" node="5LYSiLABM5j" resolve="off" />
               </node>
-              <node concept="nIsag" id="2TdURcUpRoa" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4rw" resolve="getShortDesc" />
+              <node concept="liA8E" id="2WQ7pT7dys2" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2TdURcTX4rw" resolve="getShortDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpRob" role="2OqNvi">
@@ -25186,8 +25184,8 @@
                   <ref role="2S8YL0" node="5LYSiLABM5k" resolve="onOff" />
                 </node>
               </node>
-              <node concept="nIsag" id="2TdURcUpSTY" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sB" resolve="getLongDesc" />
+              <node concept="liA8E" id="2WQ7pT7dys5" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2TdURcTX4sB" resolve="getLongDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpS5w" role="2OqNvi">
@@ -25205,8 +25203,8 @@
                 <ref role="2XvMaQ" node="5LYSiLABM5g" resolve="OnOff" />
                 <ref role="1Vchh_" node="5LYSiLABM5j" resolve="off" />
               </node>
-              <node concept="nIsag" id="2TdURcUpSWP" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sB" resolve="getLongDesc" />
+              <node concept="liA8E" id="2WQ7pT7dys8" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2TdURcTX4sB" resolve="getLongDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpS5B" role="2OqNvi">
@@ -25261,8 +25259,8 @@
                   <ref role="2S8YL0" node="5LYSiLABM5k" resolve="onOff" />
                 </node>
               </node>
-              <node concept="nIsag" id="2TdURcUpZ_r" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sB" resolve="getLongDesc" />
+              <node concept="liA8E" id="2WQ7pT7dysh" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2TdURcTX4sB" resolve="getLongDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUpZ_s" role="2OqNvi">
@@ -25284,8 +25282,8 @@
                   <ref role="2S8YL0" node="5LYSiLABM5k" resolve="onOff" />
                 </node>
               </node>
-              <node concept="nIsag" id="2TdURcUzUXw" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4rw" resolve="getShortDesc" />
+              <node concept="liA8E" id="2WQ7pT7dysk" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2TdURcTX4rw" resolve="getShortDesc" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUzU6f" role="2OqNvi">
@@ -25307,8 +25305,8 @@
                   <ref role="2S8YL0" node="5LYSiLABM5k" resolve="onOff" />
                 </node>
               </node>
-              <node concept="nIsag" id="2TdURcUzVQk" role="2OqNvi">
-                <ref role="nItbb" to="28jr:2TdURcTX4sN" resolve="getDbValue" />
+              <node concept="liA8E" id="2WQ7pT7dysn" role="2OqNvi">
+                <ref role="37wK5l" to="28jr:2TdURcTX4sN" resolve="getDbValue" />
               </node>
             </node>
             <node concept="liA8E" id="2TdURcUzUYj" role="2OqNvi">
