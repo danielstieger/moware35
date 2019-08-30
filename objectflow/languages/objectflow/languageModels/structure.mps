@@ -297,7 +297,7 @@
       <ref role="20lvS9" node="3VCHlE3_rxl" resolve="StatusDeclaration" />
     </node>
     <node concept="PrWs8" id="75DS814ewVP" role="PzmwI">
-      <ref role="PrY4T" to="r5tz:Kou8LehQJ6" resolve="IMapsToString" />
+      <ref role="PrY4T" to="r5tz:Kou8LehQJ6" resolve="IStatusAsString" />
     </node>
   </node>
   <node concept="1TIwiD" id="3VCHlE3_TvF">
@@ -1220,35 +1220,6 @@
     <node concept="1TJgyi" id="5Ee0EjqWOQi" role="1TKVEl">
       <property role="TrG5h" value="text" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5Ee0EjqYhaE">
-    <property role="3GE5qa" value="OFXCore.process" />
-    <property role="TrG5h" value="InProcessCondition" />
-    <property role="34LRSv" value="in" />
-    <property role="R4oN_" value="check status in process" />
-    <property role="1pbfSe" value="898045262" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyj" id="5Ee0EjqYhb9" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="document" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="5Ee0EjqYhaH" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="process" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="6ffh1MXzHnh" resolve="Process" />
-    </node>
-    <node concept="1TJgyj" id="5Ee0EjqYhaI" role="1TKVEi">
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="condition" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="5Ee0EjqYKQb" resolve="IProcessCondition" />
-    </node>
-    <node concept="PrWs8" id="oHsXc864uq" role="PzmwI">
-      <ref role="PrY4T" node="4Wj1gYJvlKE" resolve="IO2ResultsInRTComponentCall" />
     </node>
   </node>
   <node concept="PlHQZ" id="5Ee0EjqYKQb">
