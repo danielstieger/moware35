@@ -9,6 +9,7 @@
     <use id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="4" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
+    <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="2" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
@@ -244,6 +245,16 @@
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
+    </language>
+    <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5349172909345501395" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseDocComment" flags="ng" index="P$AiS">
+        <child id="5383422241790532083" name="tags" index="3nqlJM" />
+      </concept>
+      <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
+      <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA" />
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
@@ -3943,6 +3954,36 @@
         </node>
       </node>
     </node>
+    <node concept="2YIFZL" id="qAMqEmQfsv" role="jymVt">
+      <property role="TrG5h" value="isVP" />
+      <node concept="37vLTG" id="qAMqEmQfsw" role="3clF46">
+        <property role="TrG5h" value="bp" />
+        <node concept="3Tqbb2" id="qAMqEmQfsx" role="1tU5fm">
+          <ref role="ehGHo" to="un0u:7i5NrsZlxZT" resolve="BusinessProperty" />
+        </node>
+      </node>
+      <node concept="10P_77" id="qAMqEmQfsy" role="3clF45" />
+      <node concept="3Tm1VV" id="qAMqEmQfsz" role="1B3o_S" />
+      <node concept="3clFbS" id="qAMqEmQfs$" role="3clF47">
+        <node concept="3clFbF" id="qAMqEmQia0" role="3cqZAp">
+          <node concept="2OqwBi" id="qAMqEmQiBR" role="3clFbG">
+            <node concept="2OqwBi" id="qAMqEmQig0" role="2Oq$k0">
+              <node concept="37vLTw" id="qAMqEmQi9Y" role="2Oq$k0">
+                <ref role="3cqZAo" node="qAMqEmQfsw" resolve="bp" />
+              </node>
+              <node concept="3TrEf2" id="qAMqEmQirx" role="2OqNvi">
+                <ref role="3Tt5mk" to="tpee:huRnVpq" />
+              </node>
+            </node>
+            <node concept="1mIQ4w" id="qAMqEmQiGU" role="2OqNvi">
+              <node concept="chp4Y" id="qAMqEmQiI0" role="cj9EA">
+                <ref role="cht4Q" to="tpee:huSWr6e" resolve="CustomPropertyImplementation" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2YIFZL" id="FaoLX6inEc" role="jymVt">
       <property role="TrG5h" value="isString" />
       <node concept="37vLTG" id="FaoLX6inEh" role="3clF46">
@@ -4019,6 +4060,14 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="P$JXv" id="qAMqEmQfqV" role="lGtFl">
+        <node concept="TZ5HI" id="qAMqEmQfqW" role="3nqlJM">
+          <node concept="TZ5HA" id="qAMqEmQfqX" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="qAMqEmQfqY" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
       </node>
     </node>
     <node concept="2YIFZL" id="6W_Qo9f1ZXJ" role="jymVt">
