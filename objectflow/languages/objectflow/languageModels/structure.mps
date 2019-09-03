@@ -4285,8 +4285,8 @@
     <property role="1pbfSe" value="900139104" />
     <property role="3GE5qa" value="Status" />
     <property role="TrG5h" value="WhenNullOnDbStatusElemOption" />
-    <property role="R4oN_" value="set when value on db is null or empty" />
-    <property role="34LRSv" value="WHEN_NULL" />
+    <property role="R4oN_" value="set when value is null or empty (while loading)" />
+    <property role="34LRSv" value="WHEN_NULL_WL" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1uKMA6ME2P0" role="PzmwI">
       <ref role="PrY4T" node="1uKMA6MrtjG" resolve="IStatusElementOption" />
@@ -4296,8 +4296,8 @@
     <property role="1pbfSe" value="900138709" />
     <property role="3GE5qa" value="Status" />
     <property role="TrG5h" value="WhenUndefinedStatusElemOption" />
-    <property role="R4oN_" value="set when db value not defined" />
-    <property role="34LRSv" value="WHEN_UNDEFINED" />
+    <property role="R4oN_" value="set when value not defined (while loading)" />
+    <property role="34LRSv" value="WHEN_UNDEFINED_WL" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1uKMA6ME2Vb" role="PzmwI">
       <ref role="PrY4T" node="1uKMA6MrtjG" resolve="IStatusElementOption" />
@@ -4327,8 +4327,8 @@
     <property role="1pbfSe" value="2045566960" />
     <property role="3GE5qa" value="Status" />
     <property role="TrG5h" value="AllowNullStatusDeclOption" />
-    <property role="34LRSv" value="ALLOW_NULL" />
-    <property role="R4oN_" value="null er empty dbValue results in null status" />
+    <property role="34LRSv" value="ALLOW_NULL_PERSISTANCE" />
+    <property role="R4oN_" value="null status allowed for persistance" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="45gKusSB1Sc" role="PzmwI">
       <ref role="PrY4T" node="45gKusSALGn" resolve="IStatusDeclarationOption" />
