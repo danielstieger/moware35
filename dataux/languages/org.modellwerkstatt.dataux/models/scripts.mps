@@ -119,6 +119,12 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
@@ -1520,6 +1526,38 @@
     <property role="TrG5h" value="Moware2019Analytics" />
     <property role="_Wzho" value="MoWare 2019.X Analytics" />
     <property role="2BwPS$" value="MoWare" />
+    <node concept="_XfAh" id="7cPOJCV082J" role="_YvDr">
+      <property role="_XH9r" value="AAA_Save not needed on page conclusions" />
+      <ref role="_XDHR" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
+      <node concept="_ZGcI" id="7cPOJCV082L" role="_XPhp">
+        <node concept="3clFbS" id="7cPOJCV082N" role="2VODD2">
+          <node concept="3SKdUt" id="7cPOJCV08Bb" role="3cqZAp">
+            <node concept="3SKdUq" id="7cPOJCV08Bc" role="3SKWNk">
+              <property role="3SKdUp" value="some code" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="7cPOJCV087g" role="_XDHO">
+        <node concept="3clFbS" id="7cPOJCV087h" role="2VODD2">
+          <node concept="3clFbF" id="7cPOJCV088m" role="3cqZAp">
+            <node concept="2OqwBi" id="7cPOJCV08r1" role="3clFbG">
+              <node concept="2OqwBi" id="7cPOJCV08bP" role="2Oq$k0">
+                <node concept="_YI3z" id="7cPOJCV088l" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7cPOJCV08iz" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:1Csx3LqwlRn" resolve="conclusionType" />
+                </node>
+              </node>
+              <node concept="3t7uKx" id="7cPOJCV08yh" role="2OqNvi">
+                <node concept="uoxfO" id="7cPOJCV08yj" role="3t7uKA">
+                  <ref role="uo_Cq" to="un0u:1Csx3LqwlRk" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="57zzBRHXxy9" role="_YvDr">
       <property role="_XH9r" value="Command with FINAL_CANCEL in use" />
       <ref role="_XDHR" to="un0u:6ffh1MXzHna" resolve="Command" />
