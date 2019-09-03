@@ -24505,7 +24505,7 @@
               <node concept="liA8E" id="qAMqEnq7Zz" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
                 <node concept="Xl_RD" id="qAMqEnq819" role="37wK5m">
-                  <property role="Xl_RC" value="SimpleStatus: C" />
+                  <property role="Xl_RC" value="SimpleStatus C" />
                 </node>
               </node>
             </node>

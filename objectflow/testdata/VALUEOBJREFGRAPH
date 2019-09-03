@@ -4,7 +4,7 @@ totalValue  0
 name  refvalobj
 parent (Reference) Key  (null-key) (OPP)
 childs (List)
-account (Reference) Key  Konto (1 / refvalobj / 1)
+account (Reference) Key  Konto (1 / refvalobj / Active on)
    Account  (_readOnly: false  _TCN: 0  _enabled: true)
    key (ValueObject)
       AccountKey  (_enabled: true  )
