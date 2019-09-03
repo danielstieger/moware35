@@ -7583,7 +7583,7 @@
     <node concept="2tJIrI" id="4JGvOeh_yrN" role="jymVt" />
     <node concept="3clFb_" id="1ejJFIuLxwQ" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="enableElements" />
+      <property role="TrG5h" value="enableElementsByDBValue" />
       <node concept="37vLTG" id="1ejJFIuLxwU" role="3clF46">
         <property role="TrG5h" value="stringList" />
         <node concept="17QB3L" id="1ejJFIuLxwW" role="1tU5fm" />
