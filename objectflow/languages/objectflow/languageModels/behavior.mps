@@ -3219,7 +3219,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="WgcdpLPQdq" role="13h7CS">
-      <property role="TrG5h" value="getStatusShortText" />
+      <property role="TrG5h" value="DEPRECATED_getStatusShortText" />
       <node concept="3Tm1VV" id="WgcdpLPQdr" role="1B3o_S" />
       <node concept="17QB3L" id="WgcdpLPQdu" role="3clF45" />
       <node concept="3clFbS" id="WgcdpLPQdt" role="3clF47">
@@ -3333,7 +3333,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="ao4XGT8lcq" role="13h7CS">
-      <property role="TrG5h" value="getStatusColorDescription" />
+      <property role="TrG5h" value="DEPRECATED_getStatusColorDescription" />
       <node concept="3Tm1VV" id="ao4XGT8lcr" role="1B3o_S" />
       <node concept="17QB3L" id="ao4XGT8lcs" role="3clF45" />
       <node concept="3clFbS" id="ao4XGT8lct" role="3clF47">
@@ -3461,7 +3461,7 @@
       </node>
     </node>
     <node concept="13i0hz" id="WgcdpLPQdv" role="13h7CS">
-      <property role="TrG5h" value="getStatusLongText" />
+      <property role="TrG5h" value="DEPRECATED_getStatusLongText" />
       <node concept="3Tm1VV" id="WgcdpLPQdw" role="1B3o_S" />
       <node concept="17QB3L" id="WgcdpLPQdz" role="3clF45" />
       <node concept="3clFbS" id="WgcdpLPQdy" role="3clF47">
