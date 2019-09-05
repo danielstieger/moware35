@@ -141,6 +141,7 @@ function hwInitAfterDomReady(){
                 svLog('hwEnableScan', 'calling EB.Barcode.setProperties()');
                 EB.Barcode.allDecoders = false;
                 EB.Barcode.code128 = true;
+                EB.Barcode.code128ean128 = true;
                 EB.Barcode.code39 = true;
                 EB.Barcode.ean13 = true;
                 EB.Barcode.ean8 = true;
@@ -150,6 +151,7 @@ function hwInitAfterDomReady(){
                 EB.Barcode.pdf417 = true;
                 EB.Barcode.qrCode = true;
                 EB.Barcode.dataMatrix = true;
+
 
                 svLog('hwEnableScan', 'calling EB.Barcode.enable()');
                 EB.Barcode.enable({}, zzScanReceived);

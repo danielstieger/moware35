@@ -17561,38 +17561,47 @@
               </node>
               <node concept="3clFbJ" id="6$YiAc0ADFC" role="3cqZAp">
                 <node concept="3clFbS" id="6$YiAc0ADFE" role="3clFbx">
-                  <node concept="3clFbF" id="6$YiAc0AVoU" role="3cqZAp">
-                    <node concept="2OqwBi" id="6$YiAc0AYzb" role="3clFbG">
-                      <node concept="37vLTw" id="6$YiAc0AVoS" role="2Oq$k0">
-                        <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
-                      </node>
-                      <node concept="liA8E" id="6$YiAc0AYUF" role="2OqNvi">
-                        <ref role="37wK5l" node="6Au2sPCLqc4" resolve="logProblem" />
-                        <node concept="3cpWs3" id="6$YiAc0B0kd" role="37wK5m">
-                          <node concept="37vLTw" id="6$YiAc0B0uX" role="3uHU7w">
-                            <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
-                          </node>
-                          <node concept="3cpWs3" id="6$YiAc0B02m" role="3uHU7B">
-                            <node concept="3cpWs3" id="6$YiAc0AZJ9" role="3uHU7B">
-                              <node concept="3cpWs3" id="6$YiAc0AZrp" role="3uHU7B">
-                                <node concept="3cpWs3" id="6$YiAc0AZfW" role="3uHU7B">
-                                  <node concept="Xl_RD" id="6$YiAc0AYZk" role="3uHU7B">
-                                    <property role="Xl_RC" value="fg.handleChildTerminate() NPE " />
-                                  </node>
-                                  <node concept="37vLTw" id="1LBGCxvZLUY" role="3uHU7w">
-                                    <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="commandShortName" />
-                                  </node>
-                                </node>
-                                <node concept="Xl_RD" id="6$YiAc0AZzZ" role="3uHU7w">
-                                  <property role="Xl_RC" value=" pre=" />
-                                </node>
-                              </node>
-                              <node concept="37vLTw" id="1LBGCxvZMi1" role="3uHU7w">
-                                <ref role="3cqZAo" node="1LBGCxvYOOc" resolve="predecessorCommand" />
-                              </node>
+                  <node concept="3SKdUt" id="7xII_Ry8eRu" role="3cqZAp">
+                    <node concept="3SKdUq" id="7xII_Ry8eRw" role="3SKWNk">
+                      <property role="3SKdUp" value="in case long runnig GE and user closed GO" />
+                    </node>
+                  </node>
+                  <node concept="1X3_iC" id="7xII_Ry87MD" role="lGtFl">
+                    <property role="3V$3am" value="statement" />
+                    <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
+                    <node concept="3clFbF" id="6$YiAc0AVoU" role="8Wnug">
+                      <node concept="2OqwBi" id="6$YiAc0AYzb" role="3clFbG">
+                        <node concept="37vLTw" id="6$YiAc0AVoS" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4XXgpAAf6WK" resolve="applicationController" />
+                        </node>
+                        <node concept="liA8E" id="6$YiAc0AYUF" role="2OqNvi">
+                          <ref role="37wK5l" node="6Au2sPCLqc4" resolve="logProblem" />
+                          <node concept="3cpWs3" id="6$YiAc0B0kd" role="37wK5m">
+                            <node concept="37vLTw" id="6$YiAc0B0uX" role="3uHU7w">
+                              <ref role="3cqZAo" node="4mX9XggjWRg" resolve="containerClosed" />
                             </node>
-                            <node concept="Xl_RD" id="6$YiAc0B033" role="3uHU7w">
-                              <property role="Xl_RC" value=" closed=" />
+                            <node concept="3cpWs3" id="6$YiAc0B02m" role="3uHU7B">
+                              <node concept="3cpWs3" id="6$YiAc0AZJ9" role="3uHU7B">
+                                <node concept="3cpWs3" id="6$YiAc0AZrp" role="3uHU7B">
+                                  <node concept="3cpWs3" id="6$YiAc0AZfW" role="3uHU7B">
+                                    <node concept="Xl_RD" id="6$YiAc0AYZk" role="3uHU7B">
+                                      <property role="Xl_RC" value="fg.handleChildTerminate() NPE " />
+                                    </node>
+                                    <node concept="37vLTw" id="1LBGCxvZLUY" role="3uHU7w">
+                                      <ref role="3cqZAo" node="cMAJ_MtcFe" resolve="commandShortName" />
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="6$YiAc0AZzZ" role="3uHU7w">
+                                    <property role="Xl_RC" value=" pre=" />
+                                  </node>
+                                </node>
+                                <node concept="37vLTw" id="1LBGCxvZMi1" role="3uHU7w">
+                                  <ref role="3cqZAo" node="1LBGCxvYOOc" resolve="predecessorCommand" />
+                                </node>
+                              </node>
+                              <node concept="Xl_RD" id="6$YiAc0B033" role="3uHU7w">
+                                <property role="Xl_RC" value=" closed=" />
+                              </node>
                             </node>
                           </node>
                         </node>
