@@ -137,6 +137,7 @@ function hwInitAfterDomReady(){
                  EB.Barcode.enable({
                            allDecoders:false,
                            code128:true,
+                           code128ean128:true,
                            code39:true,
                            ean13:true,
                            ean8:true,
