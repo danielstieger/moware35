@@ -403,9 +403,6 @@
         <child id="8484523473172248091" name="pathRef" index="JmycY" />
       </concept>
       <concept id="1581242713937921592" name="org.modellwerkstatt.objectflow.structure.OFXTestCompareOptionIgnoreNewInSession" flags="ng" index="3e07nA" />
-      <concept id="3179794825396545338" name="org.modellwerkstatt.objectflow.structure.OFXTestDateTimeOption" flags="ng" index="3egw6L">
-        <reference id="3179794825396546138" name="test" index="3egwNh" />
-      </concept>
       <concept id="3179794825395091428" name="org.modellwerkstatt.objectflow.structure.OFXTestNewSessionExpression" flags="ng" index="3er55J" />
       <concept id="7604036740764640594" name="org.modellwerkstatt.objectflow.structure.VariantDeclaration" flags="ng" index="3hNl9M">
         <property id="7604036740764640651" name="variant" index="3hNlaF" />
@@ -32890,15 +32887,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="3egw6L" id="4orEeMiNGBX" role="38MLOi">
-      <property role="xWaIK" value="0" />
-      <property role="xWaIL" value="0" />
-      <property role="xWaIY" value="9" />
-      <property role="xWaIZ" value="9" />
-      <property role="xWaIW" value="9" />
-      <property role="xWaIX" value="2019" />
-      <ref role="3egwNh" node="67iuXo6x8gv" resolve="Insert an AuditEntity with complete auditing (created / modified) - LocalDate and DateTime." />
     </node>
     <node concept="xWan4" id="W1NYBghmUy" role="38MLOi">
       <property role="xWaIZ" value="27" />

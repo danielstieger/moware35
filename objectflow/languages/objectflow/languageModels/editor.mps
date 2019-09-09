@@ -7003,7 +7003,7 @@
               </node>
               <node concept="3cpWs6" id="4orEeMj5qXy" role="3cqZAp">
                 <node concept="Xl_RD" id="4orEeMj5r4q" role="3cqZAk">
-                  <property role="Xl_RC" value="on startup (immediatelly before exec first test here)" />
+                  <property role="Xl_RC" value="on startup (immediately before first test here exec)" />
                 </node>
               </node>
               <node concept="3clFbH" id="4orEeMj57nb" role="3cqZAp" />
@@ -7030,14 +7030,14 @@
                 <node concept="3clFbS" id="4orEeMj5rC6" role="3clFbx">
                   <node concept="3cpWs6" id="4orEeMj5rC7" role="3cqZAp">
                     <node concept="Xl_RD" id="4orEeMj5rC8" role="3cqZAk">
-                      <property role="Xl_RC" value="on shutdown (on overall startup):" />
+                      <property role="Xl_RC" value="on shutdown (on overall shutdown):" />
                     </node>
                   </node>
                 </node>
               </node>
               <node concept="3cpWs6" id="4orEeMj5rC9" role="3cqZAp">
                 <node concept="Xl_RD" id="4orEeMj5rCa" role="3cqZAk">
-                  <property role="Xl_RC" value="on shutdown (immediatelly after last exec of test here)" />
+                  <property role="Xl_RC" value="on shutdown (immediately after last test here exec)" />
                 </node>
               </node>
               <node concept="3clFbH" id="4orEeMj5rCb" role="3cqZAp" />
