@@ -7515,17 +7515,67 @@
       <node concept="3F0ifn" id="1aaqwMInUiE" role="3EZMnx">
         <property role="3F0ifm" value="" />
       </node>
-      <node concept="3F0ifn" id="61VVfi2Bsww" role="3EZMnx">
-        <property role="3F0ifm" value="onStartup:" />
+      <node concept="1HlG4h" id="3FV5VF3pEFK" role="3EZMnx">
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="1HfYo3" id="3FV5VF3pEFM" role="1HlULh">
+          <node concept="3TQlhw" id="3FV5VF3pEFO" role="1Hhtcw">
+            <node concept="3clFbS" id="3FV5VF3pEFQ" role="2VODD2">
+              <node concept="3clFbJ" id="3FV5VF3pOuh" role="3cqZAp">
+                <node concept="2OqwBi" id="3FV5VF3pOzX" role="3clFbw">
+                  <node concept="pncrf" id="3FV5VF3pOvy" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="3FV5VF3pOIe" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:3FV5VF3pBxd" resolve="outSourcedDependent" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="3FV5VF3pOuj" role="3clFbx">
+                  <node concept="3cpWs6" id="3FV5VF3pOTM" role="3cqZAp">
+                    <node concept="Xl_RD" id="3FV5VF3pOUL" role="3cqZAk">
+                      <property role="Xl_RC" value="on startup (on global startup):" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="3FV5VF3pPlT" role="3cqZAp">
+                <node concept="Xl_RD" id="3FV5VF3pPqb" role="3cqZAk">
+                  <property role="Xl_RC" value="on startup (immediately before first test here executed):" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F1sOY" id="61VVfi2Bswx" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:61VVfi2BbQl" />
       </node>
       <node concept="3F0ifn" id="61VVfi2FUFt" role="3EZMnx" />
-      <node concept="3F0ifn" id="61VVfi2BbUk" role="3EZMnx">
-        <property role="3F0ifm" value="finally - onShutdown:" />
+      <node concept="1HlG4h" id="3FV5VF3pQe9" role="3EZMnx">
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="1HfYo3" id="3FV5VF3pQea" role="1HlULh">
+          <node concept="3TQlhw" id="3FV5VF3pQeb" role="1Hhtcw">
+            <node concept="3clFbS" id="3FV5VF3pQec" role="2VODD2">
+              <node concept="3clFbJ" id="3FV5VF3pQed" role="3cqZAp">
+                <node concept="2OqwBi" id="3FV5VF3pQee" role="3clFbw">
+                  <node concept="pncrf" id="3FV5VF3pQef" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="3FV5VF3pQeg" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:3FV5VF3pBxd" resolve="outSourcedDependent" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="3FV5VF3pQeh" role="3clFbx">
+                  <node concept="3cpWs6" id="3FV5VF3pQei" role="3cqZAp">
+                    <node concept="Xl_RD" id="3FV5VF3pQej" role="3cqZAk">
+                      <property role="Xl_RC" value="on shutdown (on global shutdown):" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="3FV5VF3pQek" role="3cqZAp">
+                <node concept="Xl_RD" id="3FV5VF3pQel" role="3cqZAk">
+                  <property role="Xl_RC" value="on shutdown (immediately after last test here executed):" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F1sOY" id="61VVfi2BssA" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:61VVfi2BbRa" />
