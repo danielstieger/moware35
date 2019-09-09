@@ -6981,17 +6981,69 @@
       <node concept="3F0ifn" id="1aaqwMInUiE" role="3EZMnx">
         <property role="3F0ifm" value="" />
       </node>
-      <node concept="3F0ifn" id="61VVfi2Bsww" role="3EZMnx">
-        <property role="3F0ifm" value="onStartup:" />
+      <node concept="1HlG4h" id="4orEeMj4SwT" role="3EZMnx">
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="1HfYo3" id="4orEeMj4SwV" role="1HlULh">
+          <node concept="3TQlhw" id="4orEeMj4SwX" role="1Hhtcw">
+            <node concept="3clFbS" id="4orEeMj4SwZ" role="2VODD2">
+              <node concept="3clFbJ" id="4orEeMj56qX" role="3cqZAp">
+                <node concept="2OqwBi" id="4orEeMj56wK" role="3clFbw">
+                  <node concept="pncrf" id="4orEeMj56sl" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="4orEeMj5pTu" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:4orEeMj5hl6" resolve="outsourcedDependetTests" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="4orEeMj56qZ" role="3clFbx">
+                  <node concept="3cpWs6" id="4orEeMj56PZ" role="3cqZAp">
+                    <node concept="Xl_RD" id="4orEeMj56Rw" role="3cqZAk">
+                      <property role="Xl_RC" value="on startup (on overall startup):" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="4orEeMj5qXy" role="3cqZAp">
+                <node concept="Xl_RD" id="4orEeMj5r4q" role="3cqZAk">
+                  <property role="Xl_RC" value="on startup (immediatelly before exec first test here)" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="4orEeMj57nb" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F1sOY" id="61VVfi2Bswx" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:61VVfi2BbQl" />
       </node>
       <node concept="3F0ifn" id="61VVfi2FUFt" role="3EZMnx" />
-      <node concept="3F0ifn" id="61VVfi2BbUk" role="3EZMnx">
-        <property role="3F0ifm" value="finally - onShutdown:" />
+      <node concept="1HlG4h" id="4orEeMj5rBY" role="3EZMnx">
         <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="1HfYo3" id="4orEeMj5rBZ" role="1HlULh">
+          <node concept="3TQlhw" id="4orEeMj5rC0" role="1Hhtcw">
+            <node concept="3clFbS" id="4orEeMj5rC1" role="2VODD2">
+              <node concept="3clFbJ" id="4orEeMj5rC2" role="3cqZAp">
+                <node concept="2OqwBi" id="4orEeMj5rC3" role="3clFbw">
+                  <node concept="pncrf" id="4orEeMj5rC4" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="4orEeMj5rC5" role="2OqNvi">
+                    <ref role="37wK5l" to="70o0:4orEeMj5hl6" resolve="outsourcedDependetTests" />
+                  </node>
+                </node>
+                <node concept="3clFbS" id="4orEeMj5rC6" role="3clFbx">
+                  <node concept="3cpWs6" id="4orEeMj5rC7" role="3cqZAp">
+                    <node concept="Xl_RD" id="4orEeMj5rC8" role="3cqZAk">
+                      <property role="Xl_RC" value="on shutdown (on overall startup):" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="4orEeMj5rC9" role="3cqZAp">
+                <node concept="Xl_RD" id="4orEeMj5rCa" role="3cqZAk">
+                  <property role="Xl_RC" value="on shutdown (immediatelly after last exec of test here)" />
+                </node>
+              </node>
+              <node concept="3clFbH" id="4orEeMj5rCb" role="3cqZAp" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F1sOY" id="61VVfi2BssA" role="3EZMnx">
         <ref role="1NtTu8" to="un0u:61VVfi2BbRa" />
