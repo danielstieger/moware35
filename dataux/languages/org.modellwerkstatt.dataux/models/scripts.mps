@@ -587,10 +587,21 @@
       <node concept="_Y34e" id="7yNVvqNVmL6" role="_XDHO">
         <node concept="3clFbS" id="7yNVvqNVmL7" role="2VODD2">
           <node concept="3clFbF" id="7yNVvqNVmMq" role="3cqZAp">
-            <node concept="2OqwBi" id="7yNVvqNVmSb" role="3clFbG">
-              <node concept="_YI3z" id="7yNVvqNVmMp" role="2Oq$k0" />
-              <node concept="2qgKlT" id="7yNVvqNVn45" role="2OqNvi">
-                <ref role="37wK5l" to="5y3p:50l$rcpKbIz" resolve="isBaseAction" />
+            <node concept="1Wc70l" id="76zKLSqIsf0" role="3clFbG">
+              <node concept="2OqwBi" id="76zKLSqIsXV" role="3uHU7w">
+                <node concept="2OqwBi" id="76zKLSqIsoG" role="2Oq$k0">
+                  <node concept="_YI3z" id="76zKLSqIsiI" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="76zKLSqIsKM" role="2OqNvi">
+                    <ref role="3Tt5mk" to="1btx:7yNVvqNVkqb" />
+                  </node>
+                </node>
+                <node concept="3w_OXm" id="76zKLSqIt8Y" role="2OqNvi" />
+              </node>
+              <node concept="2OqwBi" id="7yNVvqNVmSb" role="3uHU7B">
+                <node concept="_YI3z" id="7yNVvqNVmMp" role="2Oq$k0" />
+                <node concept="2qgKlT" id="7yNVvqNVn45" role="2OqNvi">
+                  <ref role="37wK5l" to="5y3p:50l$rcpKbIz" resolve="isBaseAction" />
+                </node>
               </node>
             </node>
           </node>
@@ -1526,8 +1537,47 @@
     <property role="TrG5h" value="Moware2019Analytics" />
     <property role="_Wzho" value="MoWare 2019.X Analytics" />
     <property role="2BwPS$" value="MoWare" />
+    <node concept="_XfAh" id="76zKLSqH1Ah" role="_YvDr">
+      <property role="_XH9r" value="AAA_Usage of OFXStringFormat class" />
+      <ref role="_XDHR" to="un0u:371pDBOmHha" resolve="MultiString" />
+      <node concept="_ZGcI" id="76zKLSqH1Aj" role="_XPhp">
+        <node concept="3clFbS" id="76zKLSqH1Al" role="2VODD2" />
+      </node>
+    </node>
+    <node concept="_XfAh" id="76zKLSqHFdr" role="_YvDr">
+      <property role="_XH9r" value="AAA_Usage of String.format() " />
+      <ref role="_XDHR" to="tpee:fIYIFW9" resolve="StaticMethodCall" />
+      <node concept="_ZGcI" id="76zKLSqHFds" role="_XPhp">
+        <node concept="3clFbS" id="76zKLSqHFdt" role="2VODD2" />
+      </node>
+      <node concept="_Y34e" id="76zKLSqHFj9" role="_XDHO">
+        <node concept="3clFbS" id="76zKLSqHFja" role="2VODD2">
+          <node concept="3clFbF" id="76zKLSqHFjL" role="3cqZAp">
+            <node concept="2OqwBi" id="76zKLSqHHdF" role="3clFbG">
+              <node concept="liA8E" id="76zKLSqHHpa" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                <node concept="2OqwBi" id="76zKLSqHFPf" role="37wK5m">
+                  <node concept="2OqwBi" id="76zKLSqHFo8" role="2Oq$k0">
+                    <node concept="_YI3z" id="76zKLSqHFjK" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="76zKLSqHFwB" role="2OqNvi">
+                      <ref role="3Tt5mk" to="tpee:fIYIWN3" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="76zKLSqHGIS" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+              </node>
+              <node concept="Xl_RD" id="76zKLSqHHqq" role="2Oq$k0">
+                <property role="Xl_RC" value="format" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="7cPOJCV082J" role="_YvDr">
-      <property role="_XH9r" value="AAA_Save not needed on page conclusions" />
+      <property role="_XH9r" value="Save not needed on page conclusions" />
       <ref role="_XDHR" to="un0u:1Csx3LqtqVF" resolve="PageConclusion" />
       <node concept="_ZGcI" id="7cPOJCV082L" role="_XPhp">
         <node concept="3clFbS" id="7cPOJCV082N" role="2VODD2">
