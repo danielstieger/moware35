@@ -4805,7 +4805,7 @@
       <node concept="2CJf3v" id="3OfvFtlM1cD" role="2CJdiS">
         <property role="TrG5h" value="stringFormatter" />
         <node concept="Xl_RD" id="3OfvFtlM1cE" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXStringFormatter" />
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXStringFormatter2" />
         </node>
       </node>
     </node>
