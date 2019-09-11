@@ -5259,6 +5259,41 @@
                 <node concept="2OqwBi" id="4pIZztVImsJ" role="3clFbG">
                   <node concept="37vLTw" id="4pIZztVImrY" role="2Oq$k0">
                     <ref role="3cqZAo" node="4pIZztVIf36" resolve="__manMapSession" />
+                    <node concept="1ZhdrF" id="7KkzKQPQqnq" role="lGtFl">
+                      <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068498886296/1068581517664" />
+                      <property role="2qtEX8" value="variableDeclaration" />
+                      <node concept="3$xsQk" id="7KkzKQPQqnr" role="3$ytzL">
+                        <node concept="3clFbS" id="7KkzKQPQqns" role="2VODD2">
+                          <node concept="3clFbJ" id="7KkzKQPQtYY" role="3cqZAp">
+                            <node concept="2OqwBi" id="7KkzKQPQueA" role="3clFbw">
+                              <node concept="2OqwBi" id="7KkzKQPQu2a" role="2Oq$k0">
+                                <node concept="30H73N" id="7KkzKQPQtZD" role="2Oq$k0" />
+                                <node concept="2Xjw5R" id="7KkzKQPQu70" role="2OqNvi">
+                                  <node concept="1xMEDy" id="7KkzKQPQu72" role="1xVPHs">
+                                    <node concept="chp4Y" id="7KkzKQPQu8T" role="ri$Ld">
+                                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3x8VRR" id="7KkzKQPQuvQ" role="2OqNvi" />
+                            </node>
+                            <node concept="3clFbS" id="7KkzKQPQtZ0" role="3clFbx">
+                              <node concept="3cpWs6" id="7KkzKQPQuyv" role="3cqZAp">
+                                <node concept="Xl_RD" id="7KkzKQPQu_I" role="3cqZAk">
+                                  <property role="Xl_RC" value="__stringFormatter" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3cpWs6" id="7KkzKQPQuIU" role="3cqZAp">
+                            <node concept="Xl_RD" id="7KkzKQPQuKK" role="3cqZAk">
+                              <property role="Xl_RC" value="__manMapSession" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                   <node concept="liA8E" id="4pIZztVIs4n" role="2OqNvi">
                     <ref role="37wK5l" to="28jr:76zKLSr574m" resolve="translate" />
@@ -26886,6 +26921,20 @@
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
+    <node concept="312cEg" id="7KkzKQPQim8" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="__stringFormatter" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="7KkzKQPQim9" role="1B3o_S" />
+      <node concept="3uibUv" id="7KkzKQPQkCb" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXStringFormatter" />
+      </node>
+      <node concept="2AHcQZ" id="7KkzKQPQimb" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7KkzKQPQfi9" role="jymVt" />
     <node concept="2tJIrI" id="2KwTCJyoq1J" role="jymVt" />
     <node concept="2tJIrI" id="1CWIGhcS7NQ" role="jymVt" />
     <node concept="312cEg" id="7ECLRBgCPnK" role="jymVt">

@@ -854,10 +854,6 @@
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="mbq3:1oH_MJfbPWk" resolve="ALL ALL ManMap Testsuits" />
     </node>
-    <node concept="1DZZI9" id="4pIZztVt82f" role="38MLOi">
-      <property role="26Iqih" value="true" />
-      <ref role="1DZZIc" to="dw32:76zKLSr56fO" resolve="StringFormatter2Test" />
-    </node>
     <node concept="1DZZI9" id="4Ta2XmW47D2" role="38MLOi">
       <property role="26Iqih" value="true" />
       <ref role="1DZZIc" to="dw32:5MCXLSnMi3q" resolve="Test Commands (deprecated)" />
@@ -868,7 +864,7 @@
     </node>
     <node concept="1DZZI9" id="4v9zWuRDqVu" role="38MLOi">
       <property role="26Iqih" value="true" />
-      <ref role="1DZZIc" to="dw32:5zF9hZsDuXt" resolve="Test Service" />
+      <ref role="1DZZIc" to="dw32:5zF9hZsDuXt" resolve="MultiString and Services" />
     </node>
     <node concept="1DZZI9" id="6Lgq4tptfnK" role="38MLOi">
       <property role="26Iqih" value="true" />
