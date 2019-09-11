@@ -9138,7 +9138,7 @@
                   <ref role="3cqZAo" node="76zKLSr5a0F" resolve="DE" />
                 </node>
                 <node concept="Xl_RD" id="76zKLSrtUHC" role="37wK5m">
-                  <property role="Xl_RC" value="%stdb,%st,%stl,%stdb,%stl,%st" />
+                  <property role="Xl_RC" value="%stdb,%sts,%st,%stdb,%sts,%st" />
                 </node>
                 <node concept="2XvMaL" id="76zKLSrtV$P" role="37wK5m">
                   <ref role="2XvMaQ" to="mbq3:5LYSiLABM5g" resolve="OnOff" />
@@ -10000,7 +10000,7 @@
             <property role="TrG5h" value="s" />
             <node concept="17QB3L" id="3OfvFtlCEdn" role="1tU5fm" />
             <node concept="35AVbj" id="3OfvFtlCDKB" role="33vP2m">
-              <property role="35AVef" value="%st ok" />
+              <property role="35AVef" value="%sts ok" />
               <node concept="2XvMaL" id="3OfvFtlCE2X" role="35Gt3$">
                 <ref role="1Vchh_" to="mbq3:2i3o0he2lCO" resolve="on" />
                 <ref role="2XvMaQ" to="mbq3:2i3o0he2l$T" resolve="Active" />
@@ -10037,7 +10037,7 @@
         <node concept="3clFbF" id="3OfvFtm64Rq" role="3cqZAp">
           <node concept="37vLTI" id="3OfvFtm64Tf" role="3clFbG">
             <node concept="35AVbj" id="3OfvFtm64Ut" role="37vLTx">
-              <property role="35AVef" value="%st ok" />
+              <property role="35AVef" value="%sts ok" />
               <node concept="37vLTw" id="3OfvFtm655A" role="35Gt3$">
                 <ref role="3cqZAo" node="3OfvFtm652D" resolve="status" />
               </node>

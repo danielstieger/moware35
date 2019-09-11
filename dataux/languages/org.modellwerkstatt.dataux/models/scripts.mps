@@ -1531,6 +1531,61 @@
         </node>
       </node>
     </node>
+    <node concept="_XfAh" id="3iM3jt7Jzp$" role="_YvDr">
+      <property role="_XH9r" value="Change MultiString %st to %sts " />
+      <ref role="_XDHR" to="un0u:371pDBOmHha" resolve="MultiString" />
+      <node concept="_ZGcI" id="3iM3jt7JzpA" role="_XPhp">
+        <node concept="3clFbS" id="3iM3jt7JzpC" role="2VODD2">
+          <node concept="3clFbF" id="3iM3jt7JzXS" role="3cqZAp">
+            <node concept="37vLTI" id="3iM3jt7J$dH" role="3clFbG">
+              <node concept="2OqwBi" id="3iM3jt7J$rs" role="37vLTx">
+                <node concept="2OqwBi" id="3iM3jt7J$h7" role="2Oq$k0">
+                  <node concept="_YI3z" id="3iM3jt7J$eZ" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="3iM3jt7J$lP" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:371pDBOmHkm" resolve="formatString" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="3iM3jt7J$y6" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <node concept="Xl_RD" id="3iM3jt7J$zc" role="37wK5m">
+                    <property role="Xl_RC" value="%st" />
+                  </node>
+                  <node concept="Xl_RD" id="3iM3jt7J$G8" role="37wK5m">
+                    <property role="Xl_RC" value="%sts" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3iM3jt7JzZs" role="37vLTJ">
+                <node concept="_YI3z" id="3iM3jt7JzXR" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3iM3jt7J$6x" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:371pDBOmHkm" resolve="formatString" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="3iM3jt7JzyQ" role="_XDHO">
+        <node concept="3clFbS" id="3iM3jt7JzyR" role="2VODD2">
+          <node concept="3clFbF" id="3iM3jt7Jzzu" role="3cqZAp">
+            <node concept="2OqwBi" id="3iM3jt7JzKT" role="3clFbG">
+              <node concept="2OqwBi" id="3iM3jt7JzA5" role="2Oq$k0">
+                <node concept="_YI3z" id="3iM3jt7Jzzt" role="2Oq$k0" />
+                <node concept="3TrcHB" id="3iM3jt7JzEn" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:371pDBOmHkm" resolve="formatString" />
+                </node>
+              </node>
+              <node concept="liA8E" id="3iM3jt7JzR1" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                <node concept="Xl_RD" id="3iM3jt7JzS8" role="37wK5m">
+                  <property role="Xl_RC" value="%st" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="_UgoZ" id="57zzBRHXxw1">
     <property role="2BwPSy" value="migration" />

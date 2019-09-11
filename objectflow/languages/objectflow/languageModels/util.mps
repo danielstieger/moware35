@@ -13911,7 +13911,7 @@
                       <node concept="liA8E" id="76zKLSr480U" role="2OqNvi">
                         <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
                         <node concept="Xl_RD" id="76zKLSr480V" role="37wK5m">
-                          <property role="Xl_RC" value="stl" />
+                          <property role="Xl_RC" value="sts" />
                         </node>
                       </node>
                     </node>

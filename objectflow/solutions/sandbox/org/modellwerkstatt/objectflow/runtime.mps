@@ -46773,12 +46773,12 @@
         </node>
         <node concept="TZ5HA" id="76zKLSqZHPt" role="TZ5H$">
           <node concept="1dT_AC" id="76zKLSqZHPu" role="1dT_Ay">
-            <property role="1dT_AB" value="%st   - status short description       (null is translated to &quot;&quot;)" />
+            <property role="1dT_AB" value="%st   - status long description       (null is translated to &quot;&quot;)" />
           </node>
         </node>
         <node concept="TZ5HA" id="76zKLSqZIL4" role="TZ5H$">
           <node concept="1dT_AC" id="76zKLSqZIL5" role="1dT_Ay">
-            <property role="1dT_AB" value="%stl  - status long description      (null is translated to &quot;&quot;)" />
+            <property role="1dT_AB" value="%sts  - status short description      (null is translated to &quot;&quot;)" />
           </node>
         </node>
         <node concept="TZ5HA" id="76zKLSqZJjX" role="TZ5H$">
@@ -47047,7 +47047,7 @@
           <property role="Xl_RC" value="st" />
         </node>
         <node concept="Xl_RD" id="76zKLSr0Yuk" role="2BsfMF">
-          <property role="Xl_RC" value="stl" />
+          <property role="Xl_RC" value="sts" />
         </node>
         <node concept="Xl_RD" id="76zKLSr0Z7P" role="2BsfMF">
           <property role="Xl_RC" value="stdb" />
@@ -47392,7 +47392,7 @@
                             <node concept="liA8E" id="76zKLSrvjbU" role="2OqNvi">
                               <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
                               <node concept="Xl_RD" id="76zKLSrvjbV" role="37wK5m">
-                                <property role="Xl_RC" value="stl" />
+                                <property role="Xl_RC" value="sts" />
                               </node>
                             </node>
                           </node>
@@ -47589,7 +47589,7 @@
                               <node concept="liA8E" id="76zKLSr2VbA" role="2OqNvi">
                                 <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
                                 <node concept="Xl_RD" id="76zKLSr2VeJ" role="37wK5m">
-                                  <property role="Xl_RC" value="stl" />
+                                  <property role="Xl_RC" value="sts" />
                                 </node>
                               </node>
                             </node>
@@ -47639,7 +47639,7 @@
                                       </node>
                                     </node>
                                     <node concept="liA8E" id="76zKLSr2Vj3" role="2OqNvi">
-                                      <ref role="37wK5l" node="1ejJFIuA1Ek" resolve="getLongDesc" />
+                                      <ref role="37wK5l" node="1ejJFIu_S8y" resolve="getShortDesc" />
                                     </node>
                                   </node>
                                   <node concept="AH0OO" id="76zKLSr2Vj4" role="37vLTJ">
@@ -47701,7 +47701,7 @@
                                       </node>
                                     </node>
                                     <node concept="liA8E" id="76zKLSr2NOs" role="2OqNvi">
-                                      <ref role="37wK5l" node="1ejJFIu_S8y" resolve="getShortDesc" />
+                                      <ref role="37wK5l" node="1ejJFIuA1Ek" resolve="getLongDesc" />
                                     </node>
                                   </node>
                                   <node concept="AH0OO" id="76zKLSr2NuE" role="37vLTJ">
@@ -47822,7 +47822,7 @@
                       <node concept="liA8E" id="76zKLSr480U" role="2OqNvi">
                         <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
                         <node concept="Xl_RD" id="76zKLSr480V" role="37wK5m">
-                          <property role="Xl_RC" value="stl" />
+                          <property role="Xl_RC" value="sts" />
                         </node>
                       </node>
                     </node>
