@@ -712,7 +712,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="3Rw9V4qxqoK">
-    <property role="3GE5qa" value="MultiString" />
+    <property role="3GE5qa" value="StringHandling" />
     <ref role="3_znuS" to="un0u:371pDBOmHha" resolve="MultiString" />
     <node concept="3__wT9" id="3Rw9V4qxqoL" role="3_A6iZ">
       <node concept="3clFbS" id="3Rw9V4qxqoM" role="2VODD2">
@@ -964,7 +964,7 @@
     </node>
   </node>
   <node concept="3_zdsH" id="1DdwjyiTiyf">
-    <property role="3GE5qa" value="MultiString" />
+    <property role="3GE5qa" value="StringHandling" />
     <ref role="3_znuS" to="un0u:1Ddwjyi_e78" resolve="PlatformAwareMultiString" />
     <node concept="3__wT9" id="1DdwjyiTiyg" role="3_A6iZ">
       <node concept="3clFbS" id="1DdwjyiTiyh" role="2VODD2">

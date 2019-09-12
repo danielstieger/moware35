@@ -2748,7 +2748,7 @@
   </node>
   <node concept="1TIwiD" id="371pDBOmHha">
     <property role="1pbfSe" value="639384291" />
-    <property role="3GE5qa" value="MultiString" />
+    <property role="3GE5qa" value="StringHandling" />
     <property role="TrG5h" value="MultiString" />
     <property role="34LRSv" value="''" />
     <property role="R4oN_" value="concat string with various infos" />
@@ -4222,7 +4222,7 @@
   </node>
   <node concept="1TIwiD" id="1Ddwjyi_e78">
     <property role="1pbfSe" value="1394449664" />
-    <property role="3GE5qa" value="MultiString" />
+    <property role="3GE5qa" value="StringHandling" />
     <property role="TrG5h" value="PlatformAwareMultiString" />
     <property role="34LRSv" value="'''" />
     <property role="R4oN_" value="platform aware string" />
@@ -4239,7 +4239,7 @@
   </node>
   <node concept="1TIwiD" id="1Ddwjyi_ezE">
     <property role="1pbfSe" value="1394447838" />
-    <property role="3GE5qa" value="MultiString" />
+    <property role="3GE5qa" value="StringHandling" />
     <property role="TrG5h" value="PlatformMultiString" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1Ddwjyi_e_y" role="1TKVEi">
@@ -4342,11 +4342,23 @@
   </node>
   <node concept="1TIwiD" id="3sIS$IK8V8p">
     <property role="1pbfSe" value="414018460" />
-    <property role="3GE5qa" value="MultiString" />
+    <property role="3GE5qa" value="StringHandling" />
     <property role="TrG5h" value="TranslatedMultiString" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="3sIS$IK8Va8" role="1TKVEl">
       <property role="TrG5h" value="formatString" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3sIS$IKDovi">
+    <property role="1pbfSe" value="405509603" />
+    <property role="3GE5qa" value="StringHandling" />
+    <property role="TrG5h" value="LangStringLiteral" />
+    <property role="34LRSv" value="&quot;" />
+    <property role="R4oN_" value="language aware string literal" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyi" id="3sIS$IKDxS9" role="1TKVEl">
+      <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

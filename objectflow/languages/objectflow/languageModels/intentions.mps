@@ -6241,7 +6241,7 @@
     <node concept="3Tm1VV" id="Znoxjb_pVl" role="1B3o_S" />
   </node>
   <node concept="2S6QgY" id="1Ddwjyi_eO3">
-    <property role="3GE5qa" value="MultiString" />
+    <property role="3GE5qa" value="StringHandling" />
     <property role="TrG5h" value="CreatePlatformAwareMultiString" />
     <ref role="2ZfgGC" to="un0u:371pDBOmHha" resolve="MultiString" />
     <node concept="2S6ZIM" id="1Ddwjyi_eO4" role="2ZfVej">
