@@ -233,6 +233,13 @@
         <child id="4678401045862675913" name="keyReference" index="27Af4Z" />
         <child id="4678401045862675827" name="msg" index="27Af65" />
       </concept>
+      <concept id="1895313098170229192" name="org.modellwerkstatt.objectflow.structure.PlatformAwareMultiString" flags="ng" index="28Qm3K">
+        <child id="1895313098170229487" name="translations" index="28Qmfn" />
+      </concept>
+      <concept id="1895313098170231018" name="org.modellwerkstatt.objectflow.structure.PlatformMultiString" flags="ng" index="28QmBi">
+        <child id="1895313098170231138" name="condition" index="28Qmxq" />
+        <child id="1895313098170231175" name="multiString" index="28QmyZ" />
+      </concept>
       <concept id="1440642197017487130" name="org.modellwerkstatt.objectflow.structure.StaticRessources" flags="ng" index="il5tC">
         <child id="3146313690717155086" name="labels" index="2kzhMJ" />
         <child id="3146313690715522546" name="platforms" index="2kDvpj" />
@@ -1102,6 +1109,38 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6Lgq4tpifPW" role="jymVt" />
+    <node concept="3clFb_" id="3sIS$IKpYqM" role="jymVt">
+      <property role="TrG5h" value="calcPlatformString" />
+      <node concept="17QB3L" id="3sIS$IKpYvt" role="3clF45" />
+      <node concept="3Tm1VV" id="3sIS$IKpYqP" role="1B3o_S" />
+      <node concept="3clFbS" id="3sIS$IKpYqQ" role="3clF47">
+        <node concept="3clFbF" id="3sIS$IKpYwq" role="3cqZAp">
+          <node concept="28Qm3K" id="3sIS$IKpYxj" role="3clFbG">
+            <node concept="28QmBi" id="3sIS$IKpYxl" role="28Qmfn">
+              <node concept="35AVbj" id="3sIS$IKpYwo" role="28QmyZ">
+                <property role="35AVef" value="Platform One" />
+              </node>
+              <node concept="1bGNo" id="3sIS$IKpYxr" role="28Qmxq">
+                <ref role="1bGZi" node="3Rw9V4qhf8F" resolve="Platform_1" />
+              </node>
+            </node>
+            <node concept="28QmBi" id="3sIS$IKpYxp" role="28Qmfn">
+              <node concept="35AVbj" id="3sIS$IKpYxq" role="28QmyZ">
+                <property role="35AVef" value="Platform Two" />
+              </node>
+              <node concept="1bGNo" id="3sIS$IKpYz1" role="28Qmxq">
+                <ref role="1bGZi" node="6BKPvpDdAXh" resolve="Platform_2" />
+              </node>
+            </node>
+            <node concept="28QmBi" id="3sIS$IKpY_R" role="28Qmfn">
+              <node concept="35AVbj" id="3sIS$IKpY_S" role="28QmyZ">
+                <property role="35AVef" value="Default" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="6BKPvpDdB43" role="jymVt" />
     <node concept="3Tm1VV" id="Joc9_LZQMh" role="1B3o_S" />
   </node>
@@ -10810,6 +10849,127 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3yPF9F" id="3sIS$IKpWXG" role="3yMuLx">
+      <property role="TrG5h" value="Check Platform aware string handling." />
+      <node concept="3cqZAl" id="3sIS$IKpWXH" role="3clF45" />
+      <node concept="3clFbS" id="3sIS$IKpWXI" role="3clF47">
+        <node concept="3clFbF" id="3sIS$IKpWY0" role="3cqZAp">
+          <node concept="2OqwBi" id="3sIS$IKpWY1" role="3clFbG">
+            <node concept="3urNR4" id="3sIS$IKpWY2" role="2Oq$k0">
+              <ref role="3cqZAo" node="2SRXiXA4Nh2" resolve="platform" />
+            </node>
+            <node concept="liA8E" id="3sIS$IKpWY3" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformShortName" />
+              <node concept="Xl_RD" id="3sIS$IKpXQp" role="37wK5m">
+                <property role="Xl_RC" value="Platform_1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3sIS$IKpYNV" role="3cqZAp">
+          <node concept="3cpWsn" id="3sIS$IKpYNY" role="3cpWs9">
+            <property role="TrG5h" value="st1" />
+            <node concept="17QB3L" id="3sIS$IKpYNT" role="1tU5fm" />
+            <node concept="1odsa" id="3sIS$IKpYa0" role="33vP2m">
+              <ref role="37wK5l" node="3sIS$IKpYqM" resolve="calcPlatformString" />
+              <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
+              <node concept="3er55J" id="3sIS$IKpYYQ" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3sIS$IKpWY5" role="3cqZAp">
+          <node concept="2OqwBi" id="3sIS$IKpZ56" role="1gVkn0">
+            <node concept="37vLTw" id="3sIS$IKpZ2_" role="2Oq$k0">
+              <ref role="3cqZAo" node="3sIS$IKpYNY" resolve="st1" />
+            </node>
+            <node concept="liA8E" id="3sIS$IKpZ8F" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="3sIS$IKpZ96" role="37wK5m">
+                <property role="Xl_RC" value="Platform One" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3sIS$IKpY65" role="3cqZAp" />
+        <node concept="3clFbH" id="3sIS$IKpWYd" role="3cqZAp" />
+        <node concept="3clFbF" id="3sIS$IKpZge" role="3cqZAp">
+          <node concept="2OqwBi" id="3sIS$IKpZgf" role="3clFbG">
+            <node concept="3urNR4" id="3sIS$IKpZgg" role="2Oq$k0">
+              <ref role="3cqZAo" node="2SRXiXA4Nh2" resolve="platform" />
+            </node>
+            <node concept="liA8E" id="3sIS$IKpZgh" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformShortName" />
+              <node concept="Xl_RD" id="3sIS$IKpZgi" role="37wK5m">
+                <property role="Xl_RC" value="Platform_2" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3sIS$IKpZgj" role="3cqZAp">
+          <node concept="3cpWsn" id="3sIS$IKpZgk" role="3cpWs9">
+            <property role="TrG5h" value="st2" />
+            <node concept="17QB3L" id="3sIS$IKpZgl" role="1tU5fm" />
+            <node concept="1odsa" id="3sIS$IKpZgm" role="33vP2m">
+              <ref role="37wK5l" node="3sIS$IKpYqM" resolve="calcPlatformString" />
+              <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
+              <node concept="3er55J" id="3sIS$IKpZgn" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3sIS$IKpZgo" role="3cqZAp">
+          <node concept="2OqwBi" id="3sIS$IKpZgp" role="1gVkn0">
+            <node concept="37vLTw" id="3sIS$IKpZgq" role="2Oq$k0">
+              <ref role="3cqZAo" node="3sIS$IKpZgk" resolve="st2" />
+            </node>
+            <node concept="liA8E" id="3sIS$IKpZgr" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="3sIS$IKpZgs" role="37wK5m">
+                <property role="Xl_RC" value="Platform Two" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3sIS$IKpZlD" role="3cqZAp" />
+        <node concept="3clFbF" id="3sIS$IKpZqI" role="3cqZAp">
+          <node concept="2OqwBi" id="3sIS$IKpZqJ" role="3clFbG">
+            <node concept="3urNR4" id="3sIS$IKpZqK" role="2Oq$k0">
+              <ref role="3cqZAo" node="2SRXiXA4Nh2" resolve="platform" />
+            </node>
+            <node concept="liA8E" id="3sIS$IKpZqL" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:2SRXiX_MA_4" resolve="setPlatformShortName" />
+              <node concept="Xl_RD" id="3sIS$IKriPk" role="37wK5m">
+                <property role="Xl_RC" value="Some Other Platform" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3sIS$IKpZqN" role="3cqZAp">
+          <node concept="3cpWsn" id="3sIS$IKpZqO" role="3cpWs9">
+            <property role="TrG5h" value="st3" />
+            <node concept="17QB3L" id="3sIS$IKpZqP" role="1tU5fm" />
+            <node concept="1odsa" id="3sIS$IKpZqQ" role="33vP2m">
+              <ref role="37wK5l" node="3sIS$IKpYqM" resolve="calcPlatformString" />
+              <ref role="1ods_" node="Joc9_LZQMg" resolve="SimpleService" />
+              <node concept="3er55J" id="3sIS$IKpZqR" role="2f8TIa" />
+            </node>
+          </node>
+        </node>
+        <node concept="1gVbGN" id="3sIS$IKpZqS" role="3cqZAp">
+          <node concept="2OqwBi" id="3sIS$IKpZqT" role="1gVkn0">
+            <node concept="37vLTw" id="3sIS$IKpZqU" role="2Oq$k0">
+              <ref role="3cqZAo" node="3sIS$IKpZqO" resolve="st3" />
+            </node>
+            <node concept="liA8E" id="3sIS$IKpZqV" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+              <node concept="Xl_RD" id="3sIS$IKpZqW" role="37wK5m">
+                <property role="Xl_RC" value="Default" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3sIS$IKpZob" role="3cqZAp" />
       </node>
     </node>
     <node concept="xWan4" id="6Irl3jv7iIn" role="38MLOi">

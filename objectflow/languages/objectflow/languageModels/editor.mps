@@ -8298,7 +8298,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="371pDBOmHl0">
-    <property role="3GE5qa" value="Builder" />
+    <property role="3GE5qa" value="MultiString" />
     <ref role="1XX52x" to="un0u:371pDBOmHha" resolve="MultiString" />
     <node concept="3EZMnI" id="371pDBOmHlX" role="2wV5jI">
       <node concept="3F0ifn" id="371pDBOmHms" role="3EZMnx">
@@ -8325,12 +8325,12 @@
           <property role="Vbekb" value="ITALIC" />
         </node>
       </node>
-      <node concept="3F0ifn" id="371pDBOscj6" role="3EZMnx">
-        <property role="3F0ifm" value="%" />
-      </node>
       <node concept="3F0ifn" id="6FU6_MeBY6A" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
+        <property role="3F0ifm" value="%(" />
         <ref role="1k5W1q" to="tpen:hFCSAw$" resolve="LeftParen" />
+        <node concept="11L4FC" id="3sIS$IKCM3U" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
       </node>
       <node concept="3F2HdR" id="371pDBOscn$" role="3EZMnx">
         <property role="2czwfO" value="," />
@@ -8338,7 +8338,6 @@
         <node concept="l2Vlx" id="371pDBOscnA" role="2czzBx" />
         <node concept="3F0ifn" id="371pDBOuSBh" role="2czzBI">
           <property role="3F0ifm" value="" />
-          <property role="ilYzB" value="&lt;arg&gt;" />
         </node>
       </node>
       <node concept="3F0ifn" id="6FU6_MeBYdg" role="3EZMnx">
@@ -8346,6 +8345,14 @@
         <ref role="1k5W1q" to="tpen:hFCSUmN" resolve="RightParen" />
       </node>
       <node concept="l2Vlx" id="371pDBOmHm0" role="2iSdaV" />
+    </node>
+    <node concept="3F2HdR" id="3sIS$IK8Wsu" role="6VMZX">
+      <property role="2czwfO" value="," />
+      <ref role="1NtTu8" to="un0u:3sIS$IK8Vbs" />
+      <node concept="3F0ifn" id="3sIS$IKdJ3J" role="2czzBI">
+        <property role="3F0ifm" value="" />
+        <property role="ilYzB" value="&lt;translations&gt;" />
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="3yttyAVqDln">
@@ -10493,7 +10500,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1Ddwjyi_eBl">
-    <property role="3GE5qa" value="Builder" />
+    <property role="3GE5qa" value="MultiString" />
     <ref role="1XX52x" to="un0u:1Ddwjyi_ezE" resolve="PlatformMultiString" />
     <node concept="3EZMnI" id="1Ddwjyi_eCd" role="2wV5jI">
       <node concept="3F1sOY" id="1Ddwjyi_eCr" role="3EZMnx">
@@ -10510,7 +10517,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1Ddwjyi_eJc">
-    <property role="3GE5qa" value="Builder" />
+    <property role="3GE5qa" value="MultiString" />
     <ref role="1XX52x" to="un0u:1Ddwjyi_e78" resolve="PlatformAwareMultiString" />
     <node concept="3F2HdR" id="1DdwjyiI8i6" role="2wV5jI">
       <ref role="1NtTu8" to="un0u:1Ddwjyi_ebJ" />
@@ -10560,6 +10567,57 @@
     <node concept="PMmxH" id="45gKusSB1So" role="2wV5jI">
       <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
       <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3sIS$IK8Vaf">
+    <property role="3GE5qa" value="MultiString" />
+    <ref role="1XX52x" to="un0u:3sIS$IK8V8p" resolve="TranslatedMultiString" />
+    <node concept="3EZMnI" id="3sIS$IK8Vak" role="2wV5jI">
+      <node concept="1HlG4h" id="3sIS$IK8VbQ" role="3EZMnx">
+        <ref role="1k5W1q" node="f6irPlx10_" resolve="O2Detail" />
+        <node concept="1HfYo3" id="3sIS$IK8VbS" role="1HlULh">
+          <node concept="3TQlhw" id="3sIS$IK8VbU" role="1Hhtcw">
+            <node concept="3clFbS" id="3sIS$IK8VbW" role="2VODD2">
+              <node concept="3clFbF" id="3sIS$IK8VM6" role="3cqZAp">
+                <node concept="3cpWs3" id="3sIS$IK8VRY" role="3clFbG">
+                  <node concept="2OqwBi" id="3sIS$IK8Whm" role="3uHU7w">
+                    <node concept="pncrf" id="3sIS$IK8VTY" role="2Oq$k0" />
+                    <node concept="2bSWHS" id="3sIS$IK8Wmx" role="2OqNvi" />
+                  </node>
+                  <node concept="Xl_RD" id="3sIS$IK8VM5" role="3uHU7B">
+                    <property role="Xl_RC" value="trans " />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3sIS$IK8Val" role="3EZMnx">
+        <property role="3F0ifm" value="'" />
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+        <node concept="11LMrY" id="3sIS$IK8Vam" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="3sIS$IK8Van" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="3sIS$IK8Vao" role="3EZMnx">
+        <ref role="1NtTu8" to="un0u:3sIS$IK8Va8" resolve="formatString" />
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+      </node>
+      <node concept="3F0ifn" id="3sIS$IK8Vap" role="3EZMnx">
+        <property role="3F0ifm" value="'" />
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+        <node concept="11L4FC" id="3sIS$IK8Vaq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="Vb9p2" id="3sIS$IK8Var" role="3F10Kt">
+          <property role="Vbekb" value="ITALIC" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="3sIS$IK8Vay" role="2iSdaV" />
     </node>
   </node>
 </model>

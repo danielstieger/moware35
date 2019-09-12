@@ -3823,7 +3823,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="TestDebugAllRemove" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="3iT39D7v69" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7v6a" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7v6g" role="3cqZAp">
@@ -3914,7 +3914,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="TestDebugAllAdd" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="3iT39D7DfL" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7DfM" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7DfN" role="3cqZAp">
@@ -3990,7 +3990,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="DontExecAddAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="3iT39D7Evz" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7Ev$" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7Ev_" role="3cqZAp">
@@ -4066,7 +4066,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="DontExecRemoveAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="3iT39D7HSd" role="2ZfVej">
       <node concept="3clFbS" id="3iT39D7HSe" role="2VODD2">
         <node concept="3cpWs6" id="3iT39D7HSf" role="3cqZAp">
@@ -4517,7 +4517,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="WriteDontCompareRemoveAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="6WBZVtQXiTp" role="2ZfVej">
       <node concept="3clFbS" id="6WBZVtQXiTq" role="2VODD2">
         <node concept="3cpWs6" id="6WBZVtQXiTr" role="3cqZAp">
@@ -4608,7 +4608,7 @@
     <property role="3GE5qa" value="OFXTest" />
     <property role="TrG5h" value="WriteDontCompareAddAll" />
     <property role="2ZfUl0" value="true" />
-    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+    <ref role="2ZfgGC" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
     <node concept="2S6ZIM" id="6WBZVtQXj5z" role="2ZfVej">
       <node concept="3clFbS" id="6WBZVtQXj5$" role="2VODD2">
         <node concept="3cpWs6" id="6WBZVtQXj5_" role="3cqZAp">
@@ -4719,7 +4719,7 @@
                 <node concept="2Xjw5R" id="2i3o0heds4C" role="2OqNvi">
                   <node concept="1xMEDy" id="2i3o0heds4E" role="1xVPHs">
                     <node concept="chp4Y" id="2i3o0hedw9g" role="ri$Ld">
-                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
                     </node>
                   </node>
                 </node>
@@ -5457,7 +5457,7 @@
               <node concept="3cpWsn" id="1ZFIhreoJTZ" role="3cpWs9">
                 <property role="TrG5h" value="st" />
                 <node concept="3Tqbb2" id="1ZFIhreoJTV" role="1tU5fm">
-                  <ref role="ehGHo" to="un0u:3VCHlE3_rxl" resolve="Status" />
+                  <ref role="ehGHo" to="un0u:3VCHlE3_rxl" resolve="StatusDeclaration" />
                 </node>
                 <node concept="2OqwBi" id="1ZFIhreoKSx" role="33vP2m">
                   <node concept="1PxgMI" id="1ZFIhreoKpS" role="2Oq$k0">
@@ -6071,7 +6071,7 @@
           <node concept="3cpWsn" id="1ZjRqWrr5Wj" role="3cpWs9">
             <property role="TrG5h" value="ts" />
             <node concept="3Tqbb2" id="1ZjRqWrr5We" role="1tU5fm">
-              <ref role="ehGHo" to="un0u:1aaqwMInGiU" resolve="TestSuit" />
+              <ref role="ehGHo" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
             </node>
             <node concept="2YIFZM" id="1ZjRqWrr61Z" role="33vP2m">
               <ref role="37wK5l" to="3ojc:1ZjRqWr8OMX" resolve="getOrCreateTestSuitForRepo" />
@@ -6241,7 +6241,7 @@
     <node concept="3Tm1VV" id="Znoxjb_pVl" role="1B3o_S" />
   </node>
   <node concept="2S6QgY" id="1Ddwjyi_eO3">
-    <property role="3GE5qa" value="Builder" />
+    <property role="3GE5qa" value="MultiString" />
     <property role="TrG5h" value="CreatePlatformAwareMultiString" />
     <ref role="2ZfgGC" to="un0u:371pDBOmHha" resolve="MultiString" />
     <node concept="2S6ZIM" id="1Ddwjyi_eO4" role="2ZfVej">
