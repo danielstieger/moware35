@@ -368,6 +368,8 @@
         <property id="1085421207787009238" name="shortDesc" index="1YKsg0" />
         <property id="1085421207787009239" name="longDesc" index="1YKsg1" />
         <child id="1707086779727598829" name="options" index="2_RhUc" />
+        <child id="6436022531938294753" name="shortDescNew" index="3RLGe5" />
+        <child id="6436022531938294806" name="longDescNew" index="3RLGhM" />
       </concept>
       <concept id="4533072425307715669" name="org.modellwerkstatt.objectflow.structure.StatusDeclaration" flags="ng" index="2XvgOf">
         <child id="4533072425307715672" name="element" index="2XvgO2" />
@@ -854,21 +856,39 @@
       <node concept="2XvgOc" id="612_n8Hc$sv" role="2XvgO2">
         <property role="TrG5h" value="default" />
         <property role="2XvgOS" value="DF" />
-        <property role="1YKsg0" value="Def." />
-        <property role="1YKsg1" value="Default" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="2WQ7pT6gLIi" role="2_RhUc" />
+        <node concept="Xl_RD" id="5_hm6iIKYTA" role="3RLGhM">
+          <property role="Xl_RC" value="Default" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTB" role="3RLGe5">
+          <property role="Xl_RC" value="Def." />
+        </node>
       </node>
       <node concept="2XvgOc" id="612_n8Hc$sx" role="2XvgO2">
         <property role="TrG5h" value="stat1" />
         <property role="2XvgOS" value="S1" />
-        <property role="1YKsg0" value="S1." />
-        <property role="1YKsg1" value="Status 1" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTo" role="3RLGhM">
+          <property role="Xl_RC" value="Status 1" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTp" role="3RLGe5">
+          <property role="Xl_RC" value="S1." />
+        </node>
       </node>
       <node concept="2XvgOc" id="612_n8Hc$s$" role="2XvgO2">
         <property role="TrG5h" value="stat2" />
         <property role="2XvgOS" value="S2" />
-        <property role="1YKsg0" value="S2." />
-        <property role="1YKsg1" value="Status 2" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTy" role="3RLGhM">
+          <property role="Xl_RC" value="Status 2" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTz" role="3RLGe5">
+          <property role="Xl_RC" value="S2." />
+        </node>
       </node>
       <node concept="1TNdZI" id="qAMqEluQ8v" role="1TMXFZ" />
     </node>
@@ -17782,15 +17802,27 @@
       <node concept="2XvgOc" id="2i3o0he2lCO" role="2XvgO2">
         <property role="TrG5h" value="on" />
         <property role="2XvgOS" value="1" />
-        <property role="1YKsg0" value="On" />
-        <property role="1YKsg1" value="ON" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="2WQ7pT6gLIj" role="2_RhUc" />
+        <node concept="Xl_RD" id="5_hm6iIKYTm" role="3RLGhM">
+          <property role="Xl_RC" value="ON" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTn" role="3RLGe5">
+          <property role="Xl_RC" value="On" />
+        </node>
       </node>
       <node concept="2XvgOc" id="2i3o0he2lCQ" role="2XvgO2">
         <property role="TrG5h" value="off" />
         <property role="2XvgOS" value="0" />
-        <property role="1YKsg0" value="Off" />
-        <property role="1YKsg1" value="OFF" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTe" role="3RLGhM">
+          <property role="Xl_RC" value="OFF" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTf" role="3RLGe5">
+          <property role="Xl_RC" value="Off" />
+        </node>
       </node>
       <node concept="1TNdZI" id="qAMqElBuZx" role="1TMXFZ" />
     </node>
@@ -26249,15 +26281,27 @@
       <node concept="2XvgOc" id="5LYSiLABM5i" role="2XvgO2">
         <property role="TrG5h" value="on" />
         <property role="2XvgOS" value="ON" />
-        <property role="1YKsg0" value="On_Short" />
-        <property role="1YKsg1" value="On_Long" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="2WQ7pT6gLIk" role="2_RhUc" />
+        <node concept="Xl_RD" id="5_hm6iIKYTE" role="3RLGhM">
+          <property role="Xl_RC" value="On_Long" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTF" role="3RLGe5">
+          <property role="Xl_RC" value="On_Short" />
+        </node>
       </node>
       <node concept="2XvgOc" id="5LYSiLABM5j" role="2XvgO2">
         <property role="TrG5h" value="off" />
         <property role="2XvgOS" value="OFF" />
-        <property role="1YKsg0" value="Off_Short" />
-        <property role="1YKsg1" value="Off_Long" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTu" role="3RLGhM">
+          <property role="Xl_RC" value="Off_Long" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTv" role="3RLGe5">
+          <property role="Xl_RC" value="Off_Short" />
+        </node>
       </node>
     </node>
     <node concept="3Tm1VV" id="66mO_QBe4P5" role="1B3o_S" />
@@ -37106,15 +37150,27 @@
       <node concept="2XvgOc" id="FplMljbo5e" role="2XvgO2">
         <property role="TrG5h" value="on" />
         <property role="2XvgOS" value="O" />
-        <property role="1YKsg0" value="On" />
-        <property role="1YKsg1" value="On" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="2WQ7pT6gLIm" role="2_RhUc" />
+        <node concept="Xl_RD" id="5_hm6iIKYTg" role="3RLGhM">
+          <property role="Xl_RC" value="On" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTh" role="3RLGe5">
+          <property role="Xl_RC" value="On" />
+        </node>
       </node>
       <node concept="2XvgOc" id="FplMljbo5g" role="2XvgO2">
         <property role="TrG5h" value="off" />
         <property role="2XvgOS" value="F" />
-        <property role="1YKsg0" value="Off" />
-        <property role="1YKsg1" value="Off" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTw" role="3RLGhM">
+          <property role="Xl_RC" value="Off" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTx" role="3RLGe5">
+          <property role="Xl_RC" value="Off" />
+        </node>
       </node>
     </node>
     <node concept="3Tm1VV" id="5OR7PPl8z29" role="1B3o_S" />
@@ -39303,21 +39359,39 @@
       <node concept="2XvgOc" id="5jJxQKSZnVV" role="2XvgO2">
         <property role="TrG5h" value="A" />
         <property role="2XvgOS" value="A" />
-        <property role="1YKsg0" value="A short" />
-        <property role="1YKsg1" value="A long" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="2WQ7pT6gLIl" role="2_RhUc" />
+        <node concept="Xl_RD" id="5_hm6iIKYTC" role="3RLGhM">
+          <property role="Xl_RC" value="A long" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTD" role="3RLGe5">
+          <property role="Xl_RC" value="A short" />
+        </node>
       </node>
       <node concept="2XvgOc" id="5jJxQKSZnW4" role="2XvgO2">
         <property role="TrG5h" value="B" />
         <property role="2XvgOS" value="B" />
-        <property role="1YKsg0" value="B short" />
-        <property role="1YKsg1" value="B long" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTI" role="3RLGhM">
+          <property role="Xl_RC" value="B long" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTJ" role="3RLGe5">
+          <property role="Xl_RC" value="B short" />
+        </node>
       </node>
       <node concept="2XvgOc" id="5jJxQKSZnW7" role="2XvgO2">
         <property role="TrG5h" value="C" />
         <property role="2XvgOS" value="C" />
-        <property role="1YKsg0" value="C short" />
-        <property role="1YKsg1" value="C long" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTO" role="3RLGhM">
+          <property role="Xl_RC" value="C long" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTP" role="3RLGe5">
+          <property role="Xl_RC" value="C short" />
+        </node>
       </node>
     </node>
     <node concept="3Tm1VV" id="5jJxQKSZnTw" role="1B3o_S" />
@@ -39547,21 +39621,39 @@
       <node concept="2XvgOc" id="77lIyOFCilO" role="2XvgO2">
         <property role="TrG5h" value="default" />
         <property role="2XvgOS" value="DF" />
-        <property role="1YKsg0" value="Def." />
-        <property role="1YKsg1" value="Default" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="77lIyOFCilP" role="2_RhUc" />
+        <node concept="Xl_RD" id="5_hm6iIKYT$" role="3RLGhM">
+          <property role="Xl_RC" value="Default" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYT_" role="3RLGe5">
+          <property role="Xl_RC" value="Def." />
+        </node>
       </node>
       <node concept="2XvgOc" id="77lIyOFCilQ" role="2XvgO2">
         <property role="TrG5h" value="stat1" />
         <property role="2XvgOS" value="S1" />
-        <property role="1YKsg0" value="S1." />
-        <property role="1YKsg1" value="Status 1" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTk" role="3RLGhM">
+          <property role="Xl_RC" value="Status 1" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTl" role="3RLGe5">
+          <property role="Xl_RC" value="S1." />
+        </node>
       </node>
       <node concept="2XvgOc" id="77lIyOFCilR" role="2XvgO2">
         <property role="TrG5h" value="stat2" />
         <property role="2XvgOS" value="S2" />
-        <property role="1YKsg0" value="S2." />
-        <property role="1YKsg1" value="Status 2" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTG" role="3RLGhM">
+          <property role="Xl_RC" value="Status 2" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTH" role="3RLGe5">
+          <property role="Xl_RC" value="S2." />
+        </node>
       </node>
     </node>
     <node concept="2XvgOf" id="77lIyOFCilS" role="2XvChp">
@@ -39569,22 +39661,40 @@
       <node concept="2XvgOc" id="77lIyOFCilT" role="2XvgO2">
         <property role="TrG5h" value="default" />
         <property role="2XvgOS" value="DF" />
-        <property role="1YKsg0" value="Def." />
-        <property role="1YKsg1" value="Default" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="77lIyOFCilU" role="2_RhUc" />
+        <node concept="Xl_RD" id="5_hm6iIKYTq" role="3RLGhM">
+          <property role="Xl_RC" value="Default" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTr" role="3RLGe5">
+          <property role="Xl_RC" value="Def." />
+        </node>
       </node>
       <node concept="2XvgOc" id="77lIyOFCilV" role="2XvgO2">
         <property role="TrG5h" value="stat1" />
         <property role="2XvgOS" value="S1" />
-        <property role="1YKsg0" value="S1." />
-        <property role="1YKsg1" value="Status 1" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTi" role="3RLGhM">
+          <property role="Xl_RC" value="Status 1" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTj" role="3RLGe5">
+          <property role="Xl_RC" value="S1." />
+        </node>
       </node>
       <node concept="2XvgOc" id="77lIyOFCilW" role="2XvgO2">
         <property role="TrG5h" value="stat2" />
         <property role="2XvgOS" value="S2" />
-        <property role="1YKsg0" value="S2." />
-        <property role="1YKsg1" value="Status 2" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
         <node concept="2_6eiF" id="77lIyOFCilX" role="2_RhUc" />
+        <node concept="Xl_RD" id="5_hm6iIKYTK" role="3RLGhM">
+          <property role="Xl_RC" value="Status 2" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTL" role="3RLGe5">
+          <property role="Xl_RC" value="S2." />
+        </node>
       </node>
     </node>
     <node concept="2XvgOf" id="77lIyOFCilY" role="2XvChp">
@@ -39592,22 +39702,40 @@
       <node concept="2XvgOc" id="77lIyOFCilZ" role="2XvgO2">
         <property role="TrG5h" value="default" />
         <property role="2XvgOS" value="DF" />
-        <property role="1YKsg0" value="Def." />
-        <property role="1YKsg1" value="Default" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
         <node concept="2_5uyX" id="77lIyOFCim0" role="2_RhUc" />
+        <node concept="Xl_RD" id="5_hm6iIKYTM" role="3RLGhM">
+          <property role="Xl_RC" value="Default" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTN" role="3RLGe5">
+          <property role="Xl_RC" value="Def." />
+        </node>
       </node>
       <node concept="2XvgOc" id="77lIyOFCim1" role="2XvgO2">
         <property role="TrG5h" value="stat1" />
         <property role="2XvgOS" value="S1" />
-        <property role="1YKsg0" value="S1." />
-        <property role="1YKsg1" value="Status 1" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
         <node concept="2_6etu" id="77lIyOFCim2" role="2_RhUc" />
+        <node concept="Xl_RD" id="5_hm6iIKYTs" role="3RLGhM">
+          <property role="Xl_RC" value="Status 1" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTt" role="3RLGe5">
+          <property role="Xl_RC" value="S1." />
+        </node>
       </node>
       <node concept="2XvgOc" id="77lIyOFCim3" role="2XvgO2">
         <property role="TrG5h" value="stat2" />
         <property role="2XvgOS" value="S2" />
-        <property role="1YKsg0" value="S2." />
-        <property role="1YKsg1" value="Status 2" />
+        <property role="1YKsg0" value="" />
+        <property role="1YKsg1" value="" />
+        <node concept="Xl_RD" id="5_hm6iIKYTc" role="3RLGhM">
+          <property role="Xl_RC" value="Status 2" />
+        </node>
+        <node concept="Xl_RD" id="5_hm6iIKYTd" role="3RLGe5">
+          <property role="Xl_RC" value="S2." />
+        </node>
       </node>
     </node>
     <node concept="1bOX9e" id="77lIyOFCim4" role="TxmiU">
