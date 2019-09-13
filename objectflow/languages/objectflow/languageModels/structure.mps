@@ -268,6 +268,18 @@
       <property role="20kJfa" value="doc" />
       <ref role="20lvS9" node="5Ee0EjqWOQg" resolve="OFXDocumentation" />
     </node>
+    <node concept="1TJgyj" id="5_hm6iI_TJx" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="shortDescNew" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
+    <node concept="1TJgyj" id="5_hm6iI_TKm" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="longDescNew" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+    </node>
     <node concept="1TJgyi" id="3VCHlE3_rxy" role="1TKVEl">
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
@@ -4350,14 +4362,36 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3sIS$IKDovi">
-    <property role="1pbfSe" value="405509603" />
+  <node concept="1TIwiD" id="5_hm6iIdeoj">
+    <property role="1pbfSe" value="126238327" />
     <property role="3GE5qa" value="StringHandling" />
-    <property role="TrG5h" value="LangStringLiteral" />
-    <property role="34LRSv" value="&quot;" />
-    <property role="R4oN_" value="language aware string literal" />
-    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
-    <node concept="1TJgyi" id="3sIS$IKDxS9" role="1TKVEl">
+    <property role="TrG5h" value="StringLiteralTransAttribut" />
+    <property role="19KtqR" value="false" />
+    <property role="34LRSv" value="TRANS" />
+    <property role="R4oN_" value="string literal translation" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyj" id="5_hm6iIdeB4" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="translations" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="5_hm6iIdesZ" resolve="TranslatedStringLiteral" />
+    </node>
+    <node concept="M6xJ_" id="5_hm6iIdeom" role="lGtFl">
+      <property role="Hh88m" value="translation" />
+      <node concept="trNpa" id="5_hm6iIdepW" role="EQaZv">
+        <ref role="trN6q" to="tpee:f$Xl_Og" resolve="StringLiteral" />
+      </node>
+      <node concept="tn0Fv" id="5_hm6iIdeop" role="HhnKV">
+        <property role="tnX3d" value="false" />
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5_hm6iIdesZ">
+    <property role="1pbfSe" value="126238627" />
+    <property role="3GE5qa" value="StringHandling" />
+    <property role="TrG5h" value="TranslatedStringLiteral" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5_hm6iIdeuR" role="1TKVEl">
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>

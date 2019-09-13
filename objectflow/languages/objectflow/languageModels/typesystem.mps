@@ -14576,29 +14576,5 @@
       <ref role="1YaFvo" to="un0u:3sIS$IK8V8p" resolve="TranslatedMultiString" />
     </node>
   </node>
-  <node concept="1YbPZF" id="3sIS$IKDy2k">
-    <property role="TrG5h" value="typeof_LangStringLiteral" />
-    <property role="3GE5qa" value="StringHandling" />
-    <node concept="3clFbS" id="3sIS$IKDy2l" role="18ibNy">
-      <node concept="1Z5TYs" id="hLF0kcM" role="3cqZAp">
-        <node concept="mw_s8" id="hLF0kcN" role="1ZfhK$">
-          <node concept="1Z2H0r" id="hLF0kcO" role="mwGJk">
-            <node concept="1YBJjd" id="3sIS$IKDyMF" role="1Z2MuG">
-              <ref role="1YBMHb" node="3sIS$IKDy2n" resolve="langStringLiteral" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="hLF0kcP" role="1ZfhKB">
-          <node concept="2c44tf" id="hq_x_Vs" role="mwGJk">
-            <node concept="17QB3L" id="hP32Oe0" role="2c44tc" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="3sIS$IKDy2n" role="1YuTPh">
-      <property role="TrG5h" value="langStringLiteral" />
-      <ref role="1YaFvo" to="un0u:3sIS$IKDovi" resolve="LangStringLiteral" />
-    </node>
-  </node>
 </model>
 
