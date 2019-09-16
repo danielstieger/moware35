@@ -5825,6 +5825,32 @@
       <node concept="10P_77" id="65KdKINS0ZB" role="3clF45" />
     </node>
     <node concept="2tJIrI" id="65KdKINRgb$" role="jymVt" />
+    <node concept="3clFb_" id="Da7DafdCon" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="setLang" />
+      <node concept="37vLTG" id="Da7DafdCqw" role="3clF46">
+        <property role="TrG5h" value="lang" />
+        <node concept="17QB3L" id="Da7DafdCrD" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="Da7DafdCop" role="3clF45" />
+      <node concept="3Tm1VV" id="Da7DafdCoq" role="1B3o_S" />
+      <node concept="3clFbS" id="Da7DafdCor" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="Da7DafdCvY" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getLang" />
+      <node concept="17QB3L" id="Da7DafdC$H" role="3clF45" />
+      <node concept="3Tm1VV" id="Da7DafdCw1" role="1B3o_S" />
+      <node concept="3clFbS" id="Da7DafdCw2" role="3clF47" />
+    </node>
+    <node concept="3clFb_" id="Da7Daff$_R" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getLangIndex" />
+      <node concept="10Oyi0" id="Da7Daff$Gr" role="3clF45" />
+      <node concept="3Tm1VV" id="Da7Daff$_T" role="1B3o_S" />
+      <node concept="3clFbS" id="Da7Daff$_U" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="Da7DafdNfJ" role="jymVt" />
     <node concept="3clFb_" id="5xcCl6qcmXE" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getVariant" />
