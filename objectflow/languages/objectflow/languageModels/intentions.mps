@@ -6497,5 +6497,54 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="12GSMxhZRms">
+    <property role="3GE5qa" value="StringHandling" />
+    <property role="TrG5h" value="CreateTranslatedMultiString" />
+    <ref role="2ZfgGC" to="un0u:371pDBOmHha" resolve="MultiString" />
+    <node concept="2S6ZIM" id="12GSMxhZRmt" role="2ZfVej">
+      <node concept="3clFbS" id="12GSMxhZRmu" role="2VODD2">
+        <node concept="3clFbF" id="12GSMxhZRmv" role="3cqZAp">
+          <node concept="Xl_RD" id="12GSMxhZRmw" role="3clFbG">
+            <property role="Xl_RC" value="Create Translations" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="12GSMxhZRmx" role="2ZfgGD">
+      <node concept="3clFbS" id="12GSMxhZRmy" role="2VODD2">
+        <node concept="3clFbF" id="12GSMxhZU$o" role="3cqZAp">
+          <node concept="2OqwBi" id="12GSMxhZV69" role="3clFbG">
+            <node concept="2OqwBi" id="12GSMxhZUAr" role="2Oq$k0">
+              <node concept="2Sf5sV" id="12GSMxhZU$m" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="12GSMxhZUHL" role="2OqNvi">
+                <ref role="3TtcxE" to="un0u:3sIS$IK8Vbs" />
+              </node>
+            </node>
+            <node concept="2DeJg1" id="12GSMxhZWzD" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="12GSMxhZRmE" role="2ZfVeh">
+      <node concept="3clFbS" id="12GSMxhZRmF" role="2VODD2">
+        <node concept="3clFbF" id="12GSMxhZRyX" role="3cqZAp">
+          <node concept="3clFbC" id="12GSMxhZUuF" role="3clFbG">
+            <node concept="3cmrfG" id="12GSMxhZUw1" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="2OqwBi" id="12GSMxhZSbV" role="3uHU7B">
+              <node concept="2OqwBi" id="12GSMxhZR_$" role="2Oq$k0">
+                <node concept="2Sf5sV" id="12GSMxhZRyW" role="2Oq$k0" />
+                <node concept="3Tsc0h" id="12GSMxhZRHN" role="2OqNvi">
+                  <ref role="3TtcxE" to="un0u:3sIS$IK8Vbs" />
+                </node>
+              </node>
+              <node concept="34oBXx" id="12GSMxhZTBE" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
