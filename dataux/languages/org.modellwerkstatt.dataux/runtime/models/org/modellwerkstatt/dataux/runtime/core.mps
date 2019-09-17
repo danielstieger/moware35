@@ -3944,6 +3944,14 @@
         <ref role="3uigEE" to="28jr:7MWNCzY1Tjr" resolve="IOFXPlatform" />
       </node>
     </node>
+    <node concept="312cEg" id="59qqFijeeMZ" role="jymVt">
+      <property role="34CwA1" value="false" />
+      <property role="eg7rD" value="false" />
+      <property role="TrG5h" value="langIndexRequested" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3Tmbuc" id="59qqFijebK8" role="1B3o_S" />
+      <node concept="10Oyi0" id="59qqFijeemG" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="5XruxTJJnKJ" role="jymVt" />
     <node concept="3clFbW" id="3972coxdHoE" role="jymVt">
       <node concept="37vLTG" id="72_IH8puY_L" role="3clF46">
@@ -3970,6 +3978,10 @@
           <ref role="3uigEE" to="wyt6:~Class" resolve="Class" />
         </node>
       </node>
+      <node concept="37vLTG" id="59qqFijesJR" role="3clF46">
+        <property role="TrG5h" value="langIndex" />
+        <node concept="10Oyi0" id="59qqFijetsp" role="1tU5fm" />
+      </node>
       <node concept="3cqZAl" id="3972coxdHoF" role="3clF45" />
       <node concept="3Tm1VV" id="3972coxdHoG" role="1B3o_S" />
       <node concept="3clFbS" id="3972coxdHoH" role="3clF47">
@@ -3995,7 +4007,20 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="6QGCiYWJyFf" role="3cqZAp" />
+        <node concept="3clFbF" id="59qqFijetCH" role="3cqZAp">
+          <node concept="37vLTI" id="59qqFijeu53" role="3clFbG">
+            <node concept="37vLTw" id="59qqFijeuFn" role="37vLTx">
+              <ref role="3cqZAo" node="59qqFijesJR" resolve="langIndex" />
+            </node>
+            <node concept="2OqwBi" id="59qqFijetKW" role="37vLTJ">
+              <node concept="Xjq3P" id="59qqFijetCF" role="2Oq$k0" />
+              <node concept="2OwXpG" id="59qqFijetSY" role="2OqNvi">
+                <ref role="2Oxat5" node="59qqFijeeMZ" resolve="langIndexRequested" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="59qqFijeuGC" role="3cqZAp" />
         <node concept="3clFbF" id="72_IH8puZqG" role="3cqZAp">
           <node concept="37vLTI" id="72_IH8puZus" role="3clFbG">
             <node concept="37vLTw" id="72_IH8puZPB" role="37vLTx">
@@ -6511,6 +6536,18 @@
       </node>
     </node>
     <node concept="2tJIrI" id="72_IH8pw7Jn" role="jymVt" />
+    <node concept="3clFb_" id="59qqFijepeC" role="jymVt">
+      <property role="TrG5h" value="getLangIndexRequested" />
+      <node concept="10Oyi0" id="59qqFijerPE" role="3clF45" />
+      <node concept="3Tm1VV" id="59qqFijepeF" role="1B3o_S" />
+      <node concept="3clFbS" id="59qqFijepeG" role="3clF47">
+        <node concept="3clFbF" id="59qqFijerU8" role="3cqZAp">
+          <node concept="37vLTw" id="59qqFijerU7" role="3clFbG">
+            <ref role="3cqZAo" node="59qqFijeeMZ" resolve="langIndexRequested" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="75iQIEa5KCk" role="jymVt" />
     <node concept="3clFb_" id="276JbtCyv3h" role="jymVt">
       <property role="TrG5h" value="gcClear" />
@@ -8185,10 +8222,10 @@
                       <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                     </node>
                     <node concept="liA8E" id="2CZV3d2XhuH" role="2OqNvi">
-                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                       <node concept="Rm8GO" id="2CZV3d2XhFS" role="37wK5m">
                         <ref role="Rm8GQ" to="ache:4ysbFF_K1ve" resolve="FATA_APPFRMWRK_PROBLEM" />
-                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                       </node>
                     </node>
                   </node>
@@ -8307,10 +8344,10 @@
                         <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                       </node>
                       <node concept="liA8E" id="7nxGN1HIHoE" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                         <node concept="Rm8GO" id="7nxGN1HKCw2" role="37wK5m">
                           <ref role="Rm8GQ" to="ache:7nxGN1HIKgU" resolve="APPLICATION_LOCKED" />
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                         </node>
                       </node>
                     </node>
@@ -9985,9 +10022,9 @@
                         <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                       </node>
                       <node concept="liA8E" id="938$CrQHX_" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                         <node concept="Rm8GO" id="938$CrQIiI" role="37wK5m">
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                           <ref role="Rm8GQ" to="ache:2zlZ_in69hs" resolve="CLOSE_APP" />
                         </node>
                       </node>
@@ -10176,10 +10213,10 @@
                     <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                   </node>
                   <node concept="liA8E" id="gGnCBOHgJb" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                     <node concept="Rm8GO" id="gGnCBOHkZa" role="37wK5m">
                       <ref role="Rm8GQ" to="ache:gGnCBOHk0g" resolve="CMD_NOT_AVAILABLE" />
-                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                     </node>
                   </node>
                 </node>
@@ -12584,10 +12621,10 @@
                               <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
                               <node concept="2OqwBi" id="6G8jBJnCChp" role="37wK5m">
                                 <node concept="liA8E" id="6G8jBJnCChq" role="2OqNvi">
-                                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                   <node concept="Rm8GO" id="6G8jBJnCCyz" role="37wK5m">
                                     <ref role="Rm8GQ" to="ache:6G8jBJnC_iZ" resolve="LOCK_NOT_GOT_CANCEL" />
-                                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                   </node>
                                 </node>
                                 <node concept="37vLTw" id="6G8jBJnCChs" role="2Oq$k0">
@@ -12637,9 +12674,9 @@
                                 <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
                                 <node concept="2OqwBi" id="1sUmI9zhEzE" role="37wK5m">
                                   <node concept="liA8E" id="1sUmI9zhEKV" role="2OqNvi">
-                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                     <node concept="Rm8GO" id="1sUmI9zhEVV" role="37wK5m">
-                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                       <ref role="Rm8GQ" to="ache:1sUmI9zht75" resolve="LOCK_NOT_GOT_READONLY" />
                                     </node>
                                   </node>
@@ -13595,6 +13632,19 @@
                     <ref role="37wK5l" to="yg8v:72_IH8pvERa" resolve="getPagePaneType" />
                   </node>
                 </node>
+                <node concept="2OqwBi" id="59qqFijeABI" role="37wK5m">
+                  <node concept="2OqwBi" id="59qqFijeAnk" role="2Oq$k0">
+                    <node concept="1rXfSq" id="59qqFijeAfL" role="2Oq$k0">
+                      <ref role="37wK5l" node="4xjkqfyDt2C" resolve="getSession" />
+                    </node>
+                    <node concept="liA8E" id="59qqFijeA$Y" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="59qqFijeAPC" role="2OqNvi">
+                    <ref role="37wK5l" to="w7gk:Da7Daff$_R" resolve="getLangIndex" />
+                  </node>
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="5yru0E4hJ40" role="37vLTJ">
@@ -13807,9 +13857,9 @@
                         <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
                       </node>
                       <node concept="liA8E" id="2DwOiMAxSaF" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                         <node concept="Rm8GO" id="2DwOiMAxUK3" role="37wK5m">
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                           <ref role="Rm8GQ" to="ache:2FClOw1VSS5" resolve="CLOSE_BUTTON" />
                         </node>
                       </node>
@@ -13856,9 +13906,9 @@
                       </node>
                       <node concept="2OqwBi" id="2DwOiMAxVDv" role="37wK5m">
                         <node concept="liA8E" id="2DwOiMAxVDx" role="2OqNvi">
-                          <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                          <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                           <node concept="Rm8GO" id="2DwOiMAxZLc" role="37wK5m">
-                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                             <ref role="Rm8GQ" to="ache:4Zj1V_wFQvQ" resolve="ESC_BUTTON" />
                           </node>
                         </node>
@@ -14172,6 +14222,19 @@
                     <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
                   </node>
                 </node>
+                <node concept="2OqwBi" id="59qqFijeAXO" role="37wK5m">
+                  <node concept="2OqwBi" id="59qqFijeAXP" role="2Oq$k0">
+                    <node concept="1rXfSq" id="59qqFijeAXQ" role="2Oq$k0">
+                      <ref role="37wK5l" node="4xjkqfyDt2C" resolve="getSession" />
+                    </node>
+                    <node concept="liA8E" id="59qqFijeAXR" role="2OqNvi">
+                      <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="59qqFijeAXS" role="2OqNvi">
+                    <ref role="37wK5l" to="w7gk:Da7Daff$_R" resolve="getLangIndex" />
+                  </node>
+                </node>
               </node>
             </node>
             <node concept="37vLTw" id="5z$1ZeY$MBG" role="37vLTJ">
@@ -14264,9 +14327,9 @@
                 </node>
                 <node concept="2OqwBi" id="5z$1ZeY_N8D" role="37wK5m">
                   <node concept="liA8E" id="5z$1ZeY_N8E" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                     <node concept="Rm8GO" id="5z$1ZeY_N8F" role="37wK5m">
-                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                       <ref role="Rm8GQ" to="ache:4Zj1V_wFQvQ" resolve="ESC_BUTTON" />
                     </node>
                   </node>
@@ -15951,10 +16014,10 @@
                     <ref role="1Pybhc" to="wyt6:~String" resolve="String" />
                     <node concept="2OqwBi" id="4L33b_FSlOS" role="37wK5m">
                       <node concept="liA8E" id="4L33b_FSlOT" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                         <node concept="Rm8GO" id="4L33b_FSrdD" role="37wK5m">
                           <ref role="Rm8GQ" to="ache:6G8jBJnC_iZ" resolve="LOCK_NOT_GOT_CANCEL" />
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                         </node>
                       </node>
                       <node concept="37vLTw" id="4L33b_FSlOV" role="2Oq$k0">
@@ -18787,9 +18850,9 @@
                   <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
                 </node>
                 <node concept="liA8E" id="7RwCLGxb2qW" role="2OqNvi">
-                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                   <node concept="Rm8GO" id="7RwCLGxb2qX" role="37wK5m">
-                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                     <ref role="Rm8GQ" to="ache:2e3BpjBfPxm" resolve="INNER_CMD_NOT_ENABLED" />
                   </node>
                 </node>
@@ -18844,9 +18907,9 @@
                         <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
                       </node>
                       <node concept="liA8E" id="7RwCLGxb3dy" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                         <node concept="Rm8GO" id="7RwCLGxb6Am" role="37wK5m">
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                           <ref role="Rm8GQ" to="ache:7RwCLGxb43N" resolve="INNER_CMD_WRONG_STATE" />
                         </node>
                       </node>
@@ -18897,9 +18960,9 @@
                         <ref role="3cqZAo" node="5YG5DD8PGOD" resolve="uiFactory" />
                       </node>
                       <node concept="liA8E" id="7RwCLGxb6HD" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                         <node concept="Rm8GO" id="7RwCLGxb78Z" role="37wK5m">
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                           <ref role="Rm8GQ" to="ache:7RwCLGxb4nv" resolve="INNER_CMD_NO_PERM" />
                         </node>
                       </node>
@@ -20196,9 +20259,9 @@
                     <ref role="37wK5l" to="wyt6:~String.format(java.lang.String,java.lang.Object...):java.lang.String" resolve="format" />
                     <node concept="2OqwBi" id="2M4KcIQWNqC" role="37wK5m">
                       <node concept="liA8E" id="2M4KcIQWNqD" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                         <node concept="Rm8GO" id="2M4KcIQWNqE" role="37wK5m">
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                           <ref role="Rm8GQ" to="ache:1sUmI9zht75" resolve="LOCK_NOT_GOT_READONLY" />
                         </node>
                       </node>
@@ -23657,9 +23720,9 @@
                   </node>
                   <node concept="2OqwBi" id="2ppo89mfSZO" role="3uHU7B">
                     <node concept="liA8E" id="2ppo89mfSZP" role="2OqNvi">
-                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                       <node concept="Rm8GO" id="2ppo89mfSZQ" role="37wK5m">
-                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                         <ref role="Rm8GQ" to="ache:2UFgF_lRBS0" resolve="TEC_USER_ERROR" />
                       </node>
                     </node>
@@ -23740,9 +23803,9 @@
                                     <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                                   </node>
                                   <node concept="liA8E" id="5_bDd1dBwru" role="2OqNvi">
-                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                     <node concept="Rm8GO" id="5_bDd1dB$Gj" role="37wK5m">
-                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                       <ref role="Rm8GQ" to="ache:2UFgF_lRBS0" resolve="TEC_USER_ERROR" />
                                     </node>
                                   </node>
@@ -23753,9 +23816,9 @@
                                   <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                                 </node>
                                 <node concept="liA8E" id="5_bDd1dBBwN" role="2OqNvi">
-                                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                   <node concept="Rm8GO" id="5_bDd1dBDm2" role="37wK5m">
-                                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                     <ref role="Rm8GQ" to="ache:2UFgF_lTjOD" resolve="GET_USER_PROBLEM" />
                                   </node>
                                 </node>
@@ -23789,9 +23852,9 @@
                                   <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                                 </node>
                                 <node concept="liA8E" id="5_bDd1dBGdF" role="2OqNvi">
-                                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                   <node concept="Rm8GO" id="5_bDd1dBHIG" role="37wK5m">
-                                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                     <ref role="Rm8GQ" to="ache:33ZdaytgtNw" resolve="GET_PROBLEM" />
                                   </node>
                                 </node>
@@ -23865,9 +23928,9 @@
                                   </node>
                                   <node concept="2OqwBi" id="5_bDd1dBKMZ" role="3uHU7B">
                                     <node concept="liA8E" id="5_bDd1dBKN1" role="2OqNvi">
-                                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                       <node concept="Rm8GO" id="5_bDd1dBKN2" role="37wK5m">
-                                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                         <ref role="Rm8GQ" to="ache:2UFgF_lRBS0" resolve="TEC_USER_ERROR" />
                                       </node>
                                     </node>
@@ -23878,9 +23941,9 @@
                                 </node>
                                 <node concept="2OqwBi" id="5_bDd1dBNTd" role="3uHU7w">
                                   <node concept="liA8E" id="5_bDd1dBNTf" role="2OqNvi">
-                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                     <node concept="Rm8GO" id="5_bDd1dBPKO" role="37wK5m">
-                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                       <ref role="Rm8GQ" to="ache:2k02KvYsQn9" resolve="TCN_PROBLEM" />
                                     </node>
                                   </node>
@@ -23914,9 +23977,9 @@
                                 </node>
                                 <node concept="2OqwBi" id="5_bDd1dBSBQ" role="3uHU7B">
                                   <node concept="liA8E" id="5_bDd1dBSBS" role="2OqNvi">
-                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                     <node concept="Rm8GO" id="5_bDd1dBUqI" role="37wK5m">
-                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                       <ref role="Rm8GQ" to="ache:2k02KvYsQn9" resolve="TCN_PROBLEM" />
                                     </node>
                                   </node>
@@ -23996,9 +24059,9 @@
                                   </node>
                                   <node concept="2OqwBi" id="76zkUWQjt_f" role="3uHU7B">
                                     <node concept="liA8E" id="76zkUWQjt_h" role="2OqNvi">
-                                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                       <node concept="Rm8GO" id="76zkUWQjt_i" role="37wK5m">
-                                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                         <ref role="Rm8GQ" to="ache:2UFgF_lRBS0" resolve="TEC_USER_ERROR" />
                                       </node>
                                     </node>
@@ -24009,9 +24072,9 @@
                                 </node>
                                 <node concept="2OqwBi" id="76zkUWQjt_j" role="3uHU7w">
                                   <node concept="liA8E" id="76zkUWQjt_l" role="2OqNvi">
-                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                     <node concept="Rm8GO" id="76zkUWQjuqz" role="37wK5m">
-                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                       <ref role="Rm8GQ" to="ache:76zkUWQiQps" resolve="INSERT_DELETE_RELOAD_PROBLEM" />
                                     </node>
                                   </node>
@@ -24045,9 +24108,9 @@
                                 </node>
                                 <node concept="2OqwBi" id="76zkUWQjt__" role="3uHU7B">
                                   <node concept="liA8E" id="76zkUWQjt_B" role="2OqNvi">
-                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                     <node concept="Rm8GO" id="76zkUWQjuAQ" role="37wK5m">
-                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                       <ref role="Rm8GQ" to="ache:76zkUWQiQps" resolve="INSERT_DELETE_RELOAD_PROBLEM" />
                                     </node>
                                   </node>
@@ -24114,10 +24177,10 @@
                           <ref role="3cqZAo" node="2ppo89mfsS6" resolve="uiFactory" />
                         </node>
                         <node concept="liA8E" id="2M4KcIRCnVB" role="2OqNvi">
-                          <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                          <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                           <node concept="Rm8GO" id="2M4KcIRCpeA" role="37wK5m">
                             <ref role="Rm8GQ" to="ache:2M4KcIRCo58" resolve="LOST_CONN_USER_ERROR" />
-                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                            <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                           </node>
                         </node>
                       </node>
@@ -24155,9 +24218,9 @@
                                 <node concept="3cpWs3" id="2M4KcIRCnju" role="3uHU7B">
                                   <node concept="2OqwBi" id="2M4KcIRCnjv" role="3uHU7B">
                                     <node concept="liA8E" id="2M4KcIRCnjw" role="2OqNvi">
-                                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                      <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                       <node concept="Rm8GO" id="2M4KcIRCnjx" role="37wK5m">
-                                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                        <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                         <ref role="Rm8GQ" to="ache:4Zj1V_wFQxQ" resolve="TEC_ERROR" />
                                       </node>
                                     </node>
@@ -24216,9 +24279,9 @@
                           </node>
                           <node concept="2OqwBi" id="2M4KcIRCn6D" role="3uHU7B">
                             <node concept="liA8E" id="2M4KcIRCn6E" role="2OqNvi">
-                              <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                              <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                               <node concept="Rm8GO" id="2M4KcIRCn6F" role="37wK5m">
-                                <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                 <ref role="Rm8GQ" to="ache:2UFgF_lRBS0" resolve="TEC_USER_ERROR" />
                               </node>
                             </node>
@@ -24258,9 +24321,9 @@
                                   <node concept="3cpWs3" id="2M4KcIRCn6V" role="3uHU7B">
                                     <node concept="2OqwBi" id="2M4KcIRCn6W" role="3uHU7B">
                                       <node concept="liA8E" id="2M4KcIRCn6X" role="2OqNvi">
-                                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                         <node concept="Rm8GO" id="2M4KcIRCn6Y" role="37wK5m">
-                                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                           <ref role="Rm8GQ" to="ache:4Zj1V_wFQxQ" resolve="TEC_ERROR" />
                                         </node>
                                       </node>
@@ -24308,9 +24371,9 @@
                     </node>
                     <node concept="2OqwBi" id="5_bDd1dBXpn" role="3uHU7B">
                       <node concept="liA8E" id="5_bDd1dBXpp" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                         <node concept="Rm8GO" id="5_bDd1dBXpq" role="37wK5m">
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                           <ref role="Rm8GQ" to="ache:2UFgF_lRBS0" resolve="TEC_USER_ERROR" />
                         </node>
                       </node>
@@ -24350,9 +24413,9 @@
                             <node concept="3cpWs3" id="4ysbFF_SCLX" role="3uHU7B">
                               <node concept="2OqwBi" id="5_bDd1dC02j" role="3uHU7B">
                                 <node concept="liA8E" id="5_bDd1dC02l" role="2OqNvi">
-                                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                  <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                   <node concept="Rm8GO" id="5_bDd1dC1z9" role="37wK5m">
-                                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                    <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                     <ref role="Rm8GQ" to="ache:4Zj1V_wFQxQ" resolve="TEC_ERROR" />
                                   </node>
                                 </node>
@@ -29624,9 +29687,9 @@
                             <ref role="37wK5l" node="1dzqM5xjgIy" resolve="askQuestionDialog" />
                             <node concept="2OqwBi" id="1kxCqBRbrBl" role="37wK5m">
                               <node concept="liA8E" id="1kxCqBRbrML" role="2OqNvi">
-                                <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                                <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                                 <node concept="Rm8GO" id="1kxCqBRbrUo" role="37wK5m">
-                                  <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                  <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                   <ref role="Rm8GQ" to="ache:4vUcH_0hKSO" resolve="SESSION_DIRTY" />
                                 </node>
                               </node>
@@ -31767,7 +31830,7 @@
       <property role="TrG5h" value="defaulTrans" />
       <property role="3TUv4t" value="false" />
       <node concept="3uibUv" id="20ohnkbA3uu" role="1tU5fm">
-        <ref role="3uigEE" to="ache:2zlZ_in5Vzm" resolve="DefaultTrans" />
+        <ref role="3uigEE" to="ache:2zlZ_in5Vzm" resolve="MoWareTranslations" />
       </node>
       <node concept="3Tmbuc" id="69JiVbyW3nb" role="1B3o_S" />
     </node>
@@ -31881,13 +31944,23 @@
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
+    <node concept="312cEg" id="59qqFijcOix" role="jymVt">
+      <property role="TrG5h" value="transProvider" />
+      <node concept="3Tm6S6" id="59qqFijcOiy" role="1B3o_S" />
+      <node concept="3uibUv" id="59qqFijcRfH" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXTranslationProvider" />
+      </node>
+      <node concept="2AHcQZ" id="59qqFijcOi$" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="69JiVbyVSQv" role="jymVt" />
     <node concept="2tJIrI" id="69JiVbyVSQx" role="jymVt" />
     <node concept="3clFbW" id="69JiVbyVSR7" role="jymVt">
       <node concept="37vLTG" id="69JiVbyVSRE" role="3clF46">
         <property role="TrG5h" value="transType" />
         <node concept="3uibUv" id="69JiVbyW3v_" role="1tU5fm">
-          <ref role="3uigEE" to="ache:4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
+          <ref role="3uigEE" to="ache:4Rlyz3EoCHr" resolve="MoWareTranslations.TranslationSelection" />
         </node>
       </node>
       <node concept="3cqZAl" id="69JiVbyVSR9" role="3clF45" />
@@ -31897,7 +31970,7 @@
           <node concept="37vLTI" id="69JiVbyW3_c" role="3clFbG">
             <node concept="2ShNRf" id="69JiVbyW3AB" role="37vLTx">
               <node concept="1pGfFk" id="69JiVbyW3Ax" role="2ShVmc">
-                <ref role="37wK5l" to="ache:2zlZ_in5Vzo" resolve="DefaultTrans" />
+                <ref role="37wK5l" to="ache:2zlZ_in5Vzo" resolve="MoWareTranslations" />
                 <node concept="37vLTw" id="69JiVbyW3C8" role="37wK5m">
                   <ref role="3cqZAo" node="69JiVbyVSRE" resolve="transType" />
                 </node>
@@ -32124,10 +32197,10 @@
           <node concept="37vLTI" id="WkCinTf28y" role="3clFbG">
             <node concept="2ShNRf" id="WkCinTf2c5" role="37vLTx">
               <node concept="1pGfFk" id="WkCinTf2a1" role="2ShVmc">
-                <ref role="37wK5l" to="ache:2zlZ_in5Vzo" resolve="DefaultTrans" />
+                <ref role="37wK5l" to="ache:2zlZ_in5Vzo" resolve="MoWareTranslations" />
                 <node concept="Rm8GO" id="WkCinTf4_T" role="37wK5m">
                   <ref role="Rm8GQ" to="ache:WkCinTeOf3" resolve="EN_DEFAULT_TRANS" />
-                  <ref role="1Px2BO" to="ache:4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
+                  <ref role="1Px2BO" to="ache:4Rlyz3EoCHr" resolve="MoWareTranslations.TranslationSelection" />
                 </node>
               </node>
             </node>
@@ -32539,7 +32612,20 @@
       </node>
     </node>
     <node concept="2tJIrI" id="7HkVpVbYhAH" role="jymVt" />
-    <node concept="2tJIrI" id="69JiVbyY3Ve" role="jymVt" />
+    <node concept="3clFb_" id="59qqFijcRkb" role="jymVt">
+      <property role="TrG5h" value="getTransProvider" />
+      <node concept="3uibUv" id="59qqFijcRJU" role="3clF45">
+        <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXTranslationProvider" />
+      </node>
+      <node concept="3Tm1VV" id="59qqFijcRke" role="1B3o_S" />
+      <node concept="3clFbS" id="59qqFijcRkf" role="3clF47">
+        <node concept="3clFbF" id="59qqFijcSwW" role="3cqZAp">
+          <node concept="37vLTw" id="59qqFijcSwV" role="3clFbG">
+            <ref role="3cqZAo" node="59qqFijcOix" resolve="transProvider" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="69JiVbyY42Z" role="jymVt" />
     <node concept="3clFb_" id="2vHEu_NFpyj" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -32617,16 +32703,51 @@
     </node>
     <node concept="3clFb_" id="69JiVbyW3G1" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="getTranslation" />
+      <property role="TrG5h" value="getSystemLabel" />
       <node concept="37vLTG" id="69JiVbyW3G2" role="3clF46">
         <property role="TrG5h" value="key" />
         <node concept="3uibUv" id="69JiVbyW3G3" role="1tU5fm">
-          <ref role="3uigEE" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+          <ref role="3uigEE" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
         </node>
       </node>
       <node concept="17QB3L" id="69JiVbyW3G4" role="3clF45" />
       <node concept="3Tm1VV" id="69JiVbyW3G5" role="1B3o_S" />
       <node concept="3clFbS" id="69JiVbyW3G7" role="3clF47">
+        <node concept="3SKdUt" id="59qqFijdWMM" role="3cqZAp">
+          <node concept="3SKdUq" id="59qqFijdWMO" role="3SKWNk">
+            <property role="3SKdUp" value="legacy existing translations" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="59qqFijdWPl" role="3cqZAp">
+          <node concept="3clFbS" id="59qqFijdWPn" role="3clFbx">
+            <node concept="3clFbF" id="59qqFijdX81" role="3cqZAp">
+              <node concept="2OqwBi" id="59qqFijdX9d" role="3clFbG">
+                <node concept="37vLTw" id="59qqFijdX7Z" role="2Oq$k0">
+                  <ref role="3cqZAo" node="59qqFijcOix" resolve="transProvider" />
+                </node>
+                <node concept="liA8E" id="59qqFijdXb_" role="2OqNvi">
+                  <ref role="37wK5l" to="28jr:Da7Daffh4p" resolve="translateSingle" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="59qqFijdWSV" role="3clFbw">
+            <node concept="37vLTw" id="59qqFijdWRm" role="2Oq$k0">
+              <ref role="3cqZAo" node="59qqFijcOix" resolve="transProvider" />
+            </node>
+            <node concept="liA8E" id="59qqFijdWUV" role="2OqNvi">
+              <ref role="37wK5l" to="28jr:59qqFijcJLp" resolve="providesTranslationKey" />
+              <node concept="2OqwBi" id="59qqFijdWZK" role="37wK5m">
+                <node concept="37vLTw" id="59qqFijdWWq" role="2Oq$k0">
+                  <ref role="3cqZAo" node="69JiVbyW3G2" resolve="key" />
+                </node>
+                <node concept="liA8E" id="59qqFijdX4S" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~Enum.name():java.lang.String" resolve="name" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="69JiVbyW3Lc" role="3cqZAp">
           <node concept="2OqwBi" id="69JiVbyW3Mb" role="3clFbG">
             <node concept="37vLTw" id="69JiVbyW3Lb" role="2Oq$k0">
@@ -32994,9 +33115,9 @@
                               <ref role="3cqZAo" node="r$jHpF3FkK" resolve="factory" />
                             </node>
                             <node concept="liA8E" id="6syaKFasWVn" role="2OqNvi">
-                              <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                              <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                               <node concept="Rm8GO" id="6syaKFasWVo" role="37wK5m">
-                                <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                                <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                                 <ref role="Rm8GQ" to="ache:1Q0KaWuHuYZ" resolve="LOGIN_FAILED" />
                               </node>
                             </node>
@@ -33078,9 +33199,9 @@
                     <ref role="3cqZAo" node="r$jHpF3FkK" resolve="factory" />
                   </node>
                   <node concept="liA8E" id="7r26jiO4vLy" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
                     <node concept="Rm8GO" id="7r26jiO4Fe_" role="37wK5m">
-                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                       <ref role="Rm8GQ" to="ache:7r26jiO4Dc1" resolve="LOGIN_USER_FAILED" />
                     </node>
                   </node>

@@ -226,11 +226,11 @@
     <property role="TrG5h" value="IToolkit_UiFactory" />
     <node concept="3clFb_" id="20ohnkbA2Ln" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="getTranslation" />
+      <property role="TrG5h" value="getSystemLabel" />
       <node concept="37vLTG" id="20ohnkbA2LZ" role="3clF46">
         <property role="TrG5h" value="key" />
         <node concept="3uibUv" id="20ohnkbA2ME" role="1tU5fm">
-          <ref role="3uigEE" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+          <ref role="3uigEE" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
         </node>
       </node>
       <node concept="17QB3L" id="20ohnkbA2Nl" role="3clF45" />
@@ -358,7 +358,17 @@
         <ref role="3uigEE" to="28jr:7HkVpVbXei3" resolve="IMoEventBusService" />
       </node>
     </node>
-    <node concept="2tJIrI" id="7HkVpVbYbZN" role="jymVt" />
+    <node concept="3clFb_" id="59qqFijcJRO" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="getTransProvider" />
+      <node concept="3clFbS" id="59qqFijcJRR" role="3clF47" />
+      <node concept="3Tm1VV" id="59qqFijcJRS" role="1B3o_S" />
+      <node concept="3uibUv" id="59qqFijcu0t" role="3clF45">
+        <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXTranslationProvider" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="59qqFijcp$9" role="jymVt" />
     <node concept="3clFb_" id="3VIcZtBdaPD" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="createToolkitFormContainer" />
