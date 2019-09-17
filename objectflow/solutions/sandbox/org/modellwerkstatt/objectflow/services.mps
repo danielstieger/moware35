@@ -4222,7 +4222,7 @@
                     <node concept="3eNFk2" id="wDSRHNKpaW" role="3eNLev">
                       <node concept="2ZW3vV" id="wDSRHNKpaX" role="3eO9$A">
                         <node concept="3uibUv" id="4Wr6DTBu73i" role="2ZW6by">
-                          <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVirtualProperty" />
+                          <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVPBase" />
                         </node>
                         <node concept="2OqwBi" id="wDSRHNKpaZ" role="2ZW6bz">
                           <node concept="37vLTw" id="wDSRHNKpb0" role="2Oq$k0">
@@ -4260,7 +4260,7 @@
                               <node concept="1eOMI4" id="wDSRHNKpbb" role="37wK5m">
                                 <node concept="10QFUN" id="wDSRHNKpbc" role="1eOMHV">
                                   <node concept="3uibUv" id="wDSRHNKsrT" role="10QFUM">
-                                    <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVirtualProperty" />
+                                    <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVPBase" />
                                   </node>
                                   <node concept="2OqwBi" id="wDSRHNKpbe" role="10QFUP">
                                     <node concept="37vLTw" id="wDSRHNKpbf" role="2Oq$k0">
@@ -4707,7 +4707,7 @@
       <node concept="37vLTG" id="wDSRHNKkqO" role="3clF46">
         <property role="TrG5h" value="meta" />
         <node concept="3uibUv" id="wDSRHNKltY" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVirtualProperty" />
+          <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVPBase" />
         </node>
       </node>
       <node concept="37vLTG" id="2kdFTcLMTqd" role="3clF46">
@@ -4760,6 +4760,10 @@
         <node concept="Xl_RD" id="3tZ99yEJcyr" role="37wK5m">
           <property role="Xl_RC" value="EEE dd.MM.yyyy" />
         </node>
+        <node concept="10M0yZ" id="3bICjcEj$rN" role="37wK5m">
+          <ref role="1PxDUh" to="28jr:76zKLSqSNNr" resolve="OFXStringFormatter2" />
+          <ref role="3cqZAo" to="28jr:3bICjcEfxvd" resolve="DEFAULT_LOCALE" />
+        </node>
       </node>
     </node>
     <node concept="Wx3nA" id="1MuBDjlMeNq" role="jymVt">
@@ -4774,6 +4778,10 @@
         <node concept="Xl_RD" id="1MuBDjlMeNu" role="37wK5m">
           <property role="Xl_RC" value="yyyy'-'MM'-'dd'T'HH':'mm':'ss" />
         </node>
+        <node concept="10M0yZ" id="3bICjcEj_7s" role="37wK5m">
+          <ref role="3cqZAo" to="28jr:3bICjcEfxvd" resolve="DEFAULT_LOCALE" />
+          <ref role="1PxDUh" to="28jr:76zKLSqSNNr" resolve="OFXStringFormatter2" />
+        </node>
       </node>
     </node>
     <node concept="Wx3nA" id="1MuBDjmqd9R" role="jymVt">
@@ -4787,6 +4795,10 @@
         <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forPattern" />
         <node concept="Xl_RD" id="1MuBDjmqd9V" role="37wK5m">
           <property role="Xl_RC" value="yyyy'-'MM'-'dd" />
+        </node>
+        <node concept="10M0yZ" id="3bICjcEj_nd" role="37wK5m">
+          <ref role="3cqZAo" to="28jr:3bICjcEfxvd" resolve="DEFAULT_LOCALE" />
+          <ref role="1PxDUh" to="28jr:76zKLSqSNNr" resolve="OFXStringFormatter2" />
         </node>
       </node>
     </node>
@@ -6208,7 +6220,7 @@
       <node concept="37vLTG" id="2kdFTcLKGdx" role="3clF46">
         <property role="TrG5h" value="metaInfo" />
         <node concept="3uibUv" id="2kdFTcLKGdy" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVirtualProperty" />
+          <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVPBase" />
         </node>
       </node>
       <node concept="37vLTG" id="2kdFTcLMXtz" role="3clF46">
@@ -8504,6 +8516,10 @@
         <ref role="37wK5l" to="28jr:3spXEPXIvVe" resolve="forPattern" />
         <node concept="Xl_RD" id="2T5SnS24sOl" role="37wK5m">
           <property role="Xl_RC" value="EEE HH:mm:ss" />
+        </node>
+        <node concept="10M0yZ" id="3bICjcEjyh_" role="37wK5m">
+          <ref role="1PxDUh" to="28jr:76zKLSqSNNr" resolve="OFXStringFormatter2" />
+          <ref role="3cqZAo" to="28jr:3bICjcEfxvd" resolve="DEFAULT_LOCALE" />
         </node>
       </node>
     </node>
@@ -11955,7 +11971,7 @@
       <node concept="37vLTG" id="wDSRHNMjmj" role="3clF46">
         <property role="TrG5h" value="meta" />
         <node concept="3uibUv" id="wDSRHNMjmk" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVirtualProperty" />
+          <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVPBase" />
         </node>
       </node>
       <node concept="37vLTG" id="2kdFTcLN3_1" role="3clF46">
@@ -38327,7 +38343,7 @@
       <node concept="37vLTG" id="6WBZVtRaoht" role="3clF46">
         <property role="TrG5h" value="meta" />
         <node concept="3uibUv" id="6WBZVtRaohu" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVirtualProperty" />
+          <ref role="3uigEE" to="28jr:5dZoziQ$jj7" resolve="OFXVPBase" />
         </node>
       </node>
       <node concept="37vLTG" id="6WBZVtRaohv" role="3clF46">
