@@ -72,10 +72,6 @@ function scScanSubmit(){
 }
 
 
-function scGoSubmit(){
-    saveSubmitDueGo();
-}
-
 
 function scInitPicker() {
 

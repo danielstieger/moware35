@@ -31,8 +31,8 @@
 
         {% elseif conc.visible and conc.hotKey equals "GO" %}
             <input name="goconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
-            {% if client.device equals "SCANDIT" %}
-                <button id="goSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: scGoSubmit();" disabled><i class="material-icons">gavel</i></button>
+            {% if not (client.device equals "ZEBRAEB_TC56" or client.device equals "ZEBRAEB_TC25") %}
+                <button id="goSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmitDueGo();"{% if not conc.enabled %} disabled {% endif %}><i class="material-icons">gavel</i></button>
             {% endif %}
 
         {% elseif conc.visible %}

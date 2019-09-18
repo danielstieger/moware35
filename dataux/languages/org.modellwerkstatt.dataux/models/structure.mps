@@ -663,12 +663,15 @@
     <property role="1pbfSe" value="966553330" />
     <property role="3GE5qa" value="delegates.options" />
     <property role="TrG5h" value="IssueUpdateDOption" />
-    <property role="34LRSv" value="ISSUE UPDATE CONCL" />
+    <property role="34LRSv" value="ISSUE UPDATE CONCL/SCANABLE" />
     <property role="R4oN_" value="trig. update conclusion if available" />
     <property role="MwhBj" value="${module}/icons/containerelement2.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="pQ21WN9Ark" role="PzmwI">
       <ref role="PrY4T" node="pQ21WN5qo6" resolve="IDOption" />
+    </node>
+    <node concept="PrWs8" id="5C9A0wrI6OY" role="PzmwI">
+      <ref role="PrY4T" to="un0u:7PeCy_MumjU" resolve="IOFXSurpErrorMarker" />
     </node>
   </node>
   <node concept="1TIwiD" id="pQ21WNah3z">
