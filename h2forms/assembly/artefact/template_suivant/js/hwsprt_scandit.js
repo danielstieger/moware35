@@ -72,11 +72,6 @@ function scScanSubmit(){
 }
 
 
-function scGoSubmit(){
-    saveSubmitDueGo();
-}
-
-
 function scInitPicker() {
 
      if (window.Scandit == undefined) {
