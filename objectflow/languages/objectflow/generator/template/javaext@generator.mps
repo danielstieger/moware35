@@ -31,6 +31,7 @@
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
     <import index="gyq6" ref="r:312e0051-8894-46ad-8718-37c737acdcf5(org.modellwerkstatt.objectflow.services)" />
+    <import index="lfe3" ref="r:c7239151-8fb0-47d8-99bf-c881f260bf23(org.modellwerkstatt.manmap.behavior)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -403,22 +404,11 @@
                 <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1070475926800/1070475926801" />
                 <node concept="3zFVjK" id="5gW0nkjXD6r" role="3zH0cK">
                   <node concept="3clFbS" id="5gW0nkjXD6s" role="2VODD2">
-                    <node concept="3clFbF" id="5gW0nkjXD6t" role="3cqZAp">
-                      <node concept="2OqwBi" id="5gW0nkjXD6u" role="3clFbG">
-                        <node concept="2OqwBi" id="5gW0nkjXD6v" role="2Oq$k0">
-                          <node concept="30H73N" id="5gW0nkjXD6w" role="2Oq$k0" />
-                          <node concept="3TrcHB" id="5gW0nkjXD6x" role="2OqNvi">
-                            <ref role="3TsBF5" to="un0u:f6irPlxvr5" resolve="value" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="5gW0nkjXD6y" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
-                          <node concept="Xl_RD" id="5gW0nkjXD6z" role="37wK5m">
-                            <property role="Xl_RC" value="d" />
-                          </node>
-                          <node concept="Xl_RD" id="5gW0nkjXD6$" role="37wK5m">
-                            <property role="Xl_RC" value="" />
-                          </node>
+                    <node concept="3clFbF" id="5pvqQyDGmgo" role="3cqZAp">
+                      <node concept="2OqwBi" id="5pvqQyDGmk3" role="3clFbG">
+                        <node concept="30H73N" id="5pvqQyDGmgm" role="2Oq$k0" />
+                        <node concept="2qgKlT" id="5pvqQyDGmrX" role="2OqNvi">
+                          <ref role="37wK5l" to="lfe3:51BqQ8KtRx7" resolve="getConstantValue" />
                         </node>
                       </node>
                     </node>

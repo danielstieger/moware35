@@ -144,8 +144,8 @@
   <node concept="1TIwiD" id="f6irPlxvr4">
     <property role="TrG5h" value="DezimalLiteral" />
     <property role="3GE5qa" value="Types" />
-    <property role="34LRSv" value="dezimal constant" />
-    <property role="R4oN_" value="dezimal constant" />
+    <property role="34LRSv" value="BigDecimal constant" />
+    <property role="R4oN_" value="BigDecimal constant" />
     <property role="1pbfSe" value="1498169473" />
     <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
     <node concept="1TJgyi" id="f6irPlxvr5" role="1TKVEl">
@@ -158,7 +158,7 @@
   </node>
   <node concept="Az7Fb" id="f6irPlxMBJ">
     <property role="TrG5h" value="_DezimalNumberValue" />
-    <property role="FLfZY" value="-?[0-9]+\\.[0-9]*E?-?[0-9]*d" />
+    <property role="FLfZY" value="-?[0-9]+\\.[0-9]*E?-?[0-9]*bd" />
     <property role="3GE5qa" value="Types" />
   </node>
   <node concept="1TIwiD" id="3UJHRuk6Ycv">

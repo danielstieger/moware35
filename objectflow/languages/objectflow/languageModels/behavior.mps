@@ -2817,7 +2817,7 @@
             <node concept="liA8E" id="3IztCXtaNhM" role="2OqNvi">
               <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
               <node concept="Xl_RD" id="3IztCXtaNhN" role="37wK5m">
-                <property role="Xl_RC" value="d" />
+                <property role="Xl_RC" value="bd" />
               </node>
               <node concept="Xl_RD" id="3IztCXtaNi2" role="37wK5m">
                 <property role="Xl_RC" value="" />

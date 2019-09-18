@@ -5250,6 +5250,13 @@
         <node concept="312cEu" id="4pIZztVIf2b" role="1Koe22">
           <property role="2bfB8j" value="true" />
           <property role="TrG5h" value="reduce_MultiString" />
+          <node concept="312cEg" id="5pvqQyCTUTm" role="jymVt">
+            <property role="TrG5h" value="__org_modellwerkstatt_objectflow_runtime_IOFXTranslationProvider" />
+            <node concept="3Tm6S6" id="5pvqQyCTUTn" role="1B3o_S" />
+            <node concept="3uibUv" id="5pvqQyCTV16" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXTranslationProvider" />
+            </node>
+          </node>
           <node concept="3clFb_" id="4pIZztVIf2g" role="jymVt">
             <property role="TrG5h" value="someMethod" />
             <node concept="3cqZAl" id="4pIZztVIf2h" role="3clF45" />
@@ -5257,48 +5264,49 @@
             <node concept="3clFbS" id="4pIZztVIf2j" role="3clF47">
               <node concept="3clFbF" id="4pIZztVIf2k" role="3cqZAp">
                 <node concept="2OqwBi" id="4pIZztVImsJ" role="3clFbG">
-                  <node concept="37vLTw" id="4pIZztVImrY" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4pIZztVIf36" resolve="__manMapSession" />
-                    <node concept="1ZhdrF" id="7KkzKQPQqnq" role="lGtFl">
-                      <property role="P3scX" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068498886296/1068581517664" />
-                      <property role="2qtEX8" value="variableDeclaration" />
-                      <node concept="3$xsQk" id="7KkzKQPQqnr" role="3$ytzL">
-                        <node concept="3clFbS" id="7KkzKQPQqns" role="2VODD2">
-                          <node concept="3clFbJ" id="7KkzKQPQtYY" role="3cqZAp">
-                            <node concept="2OqwBi" id="7KkzKQPQueA" role="3clFbw">
-                              <node concept="2OqwBi" id="7KkzKQPQu2a" role="2Oq$k0">
-                                <node concept="30H73N" id="7KkzKQPQtZD" role="2Oq$k0" />
-                                <node concept="2Xjw5R" id="7KkzKQPQu70" role="2OqNvi">
-                                  <node concept="1xMEDy" id="7KkzKQPQu72" role="1xVPHs">
-                                    <node concept="chp4Y" id="7KkzKQPQu8T" role="ri$Ld">
-                                      <ref role="cht4Q" to="un0u:1aaqwMInGiU" resolve="OFXTestSuit" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                              <node concept="3x8VRR" id="7KkzKQPQuvQ" role="2OqNvi" />
-                            </node>
-                            <node concept="3clFbS" id="7KkzKQPQtZ0" role="3clFbx">
-                              <node concept="3cpWs6" id="7KkzKQPQuyv" role="3cqZAp">
-                                <node concept="Xl_RD" id="7KkzKQPQu_I" role="3cqZAk">
-                                  <property role="Xl_RC" value="__stringFormatter" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3cpWs6" id="7KkzKQPQuIU" role="3cqZAp">
-                            <node concept="Xl_RD" id="7KkzKQPQuKK" role="3cqZAk">
-                              <property role="Xl_RC" value="__manMapSession" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
+                  <node concept="37vLTw" id="5pvqQyCTV9l" role="2Oq$k0">
+                    <ref role="3cqZAo" node="5pvqQyCTUTm" resolve="__org_modellwerkstatt_objectflow_runtime_IOFXTranslationProvider" />
                   </node>
                   <node concept="liA8E" id="4pIZztVIs4n" role="2OqNvi">
                     <ref role="37wK5l" to="28jr:76zKLSr574m" resolve="translate" />
-                    <node concept="Xl_RD" id="4pIZztVIs4Y" role="37wK5m">
-                      <property role="Xl_RC" value="DE" />
+                    <node concept="2OqwBi" id="5pvqQyCTVU7" role="37wK5m">
+                      <node concept="2OqwBi" id="5pvqQyCTVHG" role="2Oq$k0">
+                        <node concept="37vLTw" id="5pvqQyCTVBu" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4pIZztVIf36" resolve="__manMapSession" />
+                        </node>
+                        <node concept="liA8E" id="5pvqQyCTVQ6" role="2OqNvi">
+                          <ref role="37wK5l" to="28jr:2$LKw9UPfPW" resolve="getUserEnvironment" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="5pvqQyCTW2D" role="2OqNvi">
+                        <ref role="37wK5l" to="w7gk:Da7Daff$_R" resolve="getLangIndex" />
+                      </node>
+                      <node concept="1W57fq" id="5pvqQyCTWeQ" role="lGtFl">
+                        <node concept="3IZrLx" id="5pvqQyCTWeS" role="3IZSJc">
+                          <node concept="3clFbS" id="5pvqQyCTWeU" role="2VODD2">
+                            <node concept="3clFbF" id="5pvqQyCTZPi" role="3cqZAp">
+                              <node concept="2OqwBi" id="5pvqQyCTZRT" role="3clFbG">
+                                <node concept="2OqwBi" id="5pvqQyD2bhV" role="2Oq$k0">
+                                  <node concept="30H73N" id="5pvqQyD2bfA" role="2Oq$k0" />
+                                  <node concept="2Xjw5R" id="5pvqQyD2bmX" role="2OqNvi">
+                                    <node concept="1xMEDy" id="5pvqQyD2bmZ" role="1xVPHs">
+                                      <node concept="chp4Y" id="5pvqQyD2bu3" role="ri$Ld">
+                                        <ref role="cht4Q" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="3x8VRR" id="5pvqQyD2b_o" role="2OqNvi" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="gft3U" id="5pvqQyCU0n6" role="UU_$l">
+                          <node concept="3cmrfG" id="5pvqQyCU0uf" role="gfFT$">
+                            <property role="3cmrfH" value="-1" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
                     <node concept="Xl_RD" id="4pIZztVIsgz" role="37wK5m">
                       <property role="Xl_RC" value="%d ist 0" />
@@ -26921,22 +26929,7 @@
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
-    <node concept="312cEg" id="7KkzKQPQim8" role="jymVt">
-      <property role="34CwA1" value="false" />
-      <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="__stringFormatter" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3Tmbuc" id="7KkzKQPQim9" role="1B3o_S" />
-      <node concept="3uibUv" id="7KkzKQPQkCb" role="1tU5fm">
-        <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXStringFormatter" />
-      </node>
-      <node concept="2AHcQZ" id="7KkzKQPQimb" role="2AJF6D">
-        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="7KkzKQPQfi9" role="jymVt" />
-    <node concept="2tJIrI" id="2KwTCJyoq1J" role="jymVt" />
-    <node concept="2tJIrI" id="1CWIGhcS7NQ" role="jymVt" />
     <node concept="312cEg" id="7ECLRBgCPnK" role="jymVt">
       <property role="TrG5h" value="serviceField" />
       <node concept="3Tm6S6" id="7ECLRBgCPnL" role="1B3o_S" />

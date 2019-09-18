@@ -5541,18 +5541,7 @@
   </node>
   <node concept="312cEu" id="q_zDmLcP_h">
     <property role="TrG5h" value="OFXRuntimeDefinitions" />
-    <node concept="Wx3nA" id="q_zDmLlhEY" role="jymVt">
-      <property role="IEkAT" value="false" />
-      <property role="TrG5h" value="autGenSection" />
-      <property role="3TUv4t" value="true" />
-      <node concept="17QB3L" id="q_zDmLlhD8" role="1tU5fm" />
-      <node concept="3Tm6S6" id="q_zDmLlhsv" role="1B3o_S" />
-      <node concept="Xl_RD" id="q_zDmLlhDO" role="33vP2m">
-        <property role="Xl_RC" value="AUTO_CALC" />
-      </node>
-    </node>
     <node concept="2tJIrI" id="q_zDmLcPAO" role="jymVt" />
-    <node concept="2tJIrI" id="oHsXc94ca3" role="jymVt" />
     <node concept="2YIFZL" id="oHsXc94d1q" role="jymVt">
       <property role="IEkAT" value="false" />
       <property role="DiZV1" value="false" />
@@ -5656,6 +5645,36 @@
           </node>
         </node>
         <node concept="3clFbH" id="oHsXc9LRdo" role="3cqZAp" />
+        <node concept="3SKdUt" id="5pvqQyCUfy1" role="3cqZAp">
+          <node concept="3SKdUq" id="5pvqQyCUfy3" role="3SKWNk">
+            <property role="3SKdUp" value="Translation Provider is needed almost everywhere anyway" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="5pvqQyCUd51" role="3cqZAp">
+          <node concept="2OqwBi" id="5pvqQyCUdlk" role="3clFbG">
+            <node concept="37vLTw" id="5pvqQyCUd4Z" role="2Oq$k0">
+              <ref role="3cqZAo" node="oHsXc9LNXf" resolve="components" />
+            </node>
+            <node concept="TSZUe" id="5pvqQyCUdGv" role="2OqNvi">
+              <node concept="2OqwBi" id="5pvqQyCUesY" role="25WWJ7">
+                <node concept="2OqwBi" id="5pvqQyCUdT1" role="2Oq$k0">
+                  <node concept="2c44tf" id="5pvqQyCUdJh" role="2Oq$k0">
+                    <node concept="3uibUv" id="5pvqQyCUdNZ" role="2c44tc">
+                      <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXTranslationProvider" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="5pvqQyCUecl" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:g7uigIF" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="5pvqQyCUf1F" role="2OqNvi">
+                  <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="5pvqQyCUf7D" role="3cqZAp" />
         <node concept="3cpWs6" id="oHsXc9M5DY" role="3cqZAp">
           <node concept="2OqwBi" id="oHsXc9MdcK" role="3cqZAk">
             <node concept="2OqwBi" id="oHsXc9M6Je" role="2Oq$k0">

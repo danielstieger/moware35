@@ -9,11 +9,11 @@
     <import index="un0u" ref="r:5abca60f-e29b-478e-90f5-405db58d17d2(org.modellwerkstatt.objectflow.structure)" />
     <import index="28jr" ref="r:db7f402b-6d90-4cd6-961e-da1426ed222e(org.modellwerkstatt.objectflow.runtime)" />
     <import index="3ojc" ref="r:693b8f2f-e415-4689-bb6f-9d9af8e6c5c4(org.modellwerkstatt.objectflow.util)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="70o0" ref="r:b25cef59-f0a3-4531-9b4e-abb8f96a46f0(org.modellwerkstatt.objectflow.behavior)" implicit="true" />
     <import index="1btx" ref="r:29bd6c27-4b8b-45de-826b-b6e588367a39(org.modellwerkstatt.dataux.structure)" implicit="true" />
     <import index="5y3p" ref="r:f7ba5d2b-5bbb-404a-844e-8ceb4da1e46f(org.modellwerkstatt.dataux.behavior)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
   </imports>
@@ -247,6 +247,79 @@
     <property role="TrG5h" value="MoWareMRStoMMRS2019" />
     <property role="2BwPS$" value="MoWareMMRS_2019" />
     <property role="_Wzho" value="(0) From MoWare MRS 2018 to Moware MMRS 2019" />
+    <node concept="_XfAh" id="5pvqQyDHwFE" role="_YvDr">
+      <property role="_XH9r" value="Replace d in BigDecimal Constants with bd" />
+      <ref role="_XDHR" to="un0u:f6irPlxvr4" resolve="DezimalLiteral" />
+      <node concept="_ZGcI" id="5pvqQyDHwFG" role="_XPhp">
+        <node concept="3clFbS" id="5pvqQyDHwFI" role="2VODD2">
+          <node concept="3clFbF" id="5pvqQyDHyaC" role="3cqZAp">
+            <node concept="37vLTI" id="5pvqQyDHHMv" role="3clFbG">
+              <node concept="2OqwBi" id="5pvqQyDHHS2" role="37vLTJ">
+                <node concept="_YI3z" id="5pvqQyDHHOH" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5pvqQyDHHX$" role="2OqNvi">
+                  <ref role="3TsBF5" to="un0u:f6irPlxvr5" resolve="value" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="5pvqQyDHynO" role="37vLTx">
+                <node concept="2OqwBi" id="5pvqQyDHycz" role="2Oq$k0">
+                  <node concept="_YI3z" id="5pvqQyDHyaB" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="5pvqQyDHyht" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:f6irPlxvr5" resolve="value" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="5pvqQyDHyzc" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+                  <node concept="Xl_RD" id="5pvqQyDHyzK" role="37wK5m">
+                    <property role="Xl_RC" value="d" />
+                  </node>
+                  <node concept="Xl_RD" id="5pvqQyDHyBA" role="37wK5m">
+                    <property role="Xl_RC" value="bd" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_Y34e" id="5pvqQyDHwRf" role="_XDHO">
+        <node concept="3clFbS" id="5pvqQyDHwRg" role="2VODD2">
+          <node concept="3clFbF" id="5pvqQyDHwSl" role="3cqZAp">
+            <node concept="1Wc70l" id="5pvqQyDHxqL" role="3clFbG">
+              <node concept="3fqX7Q" id="5pvqQyDHxu8" role="3uHU7w">
+                <node concept="2OqwBi" id="5pvqQyDHxMU" role="3fr31v">
+                  <node concept="2OqwBi" id="5pvqQyDHx$5" role="2Oq$k0">
+                    <node concept="_YI3z" id="5pvqQyDHxw1" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="5pvqQyDHxEp" role="2OqNvi">
+                      <ref role="3TsBF5" to="un0u:f6irPlxvr5" resolve="value" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="5pvqQyDHy0x" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                    <node concept="Xl_RD" id="5pvqQyDHy2J" role="37wK5m">
+                      <property role="Xl_RC" value="bd" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="5pvqQyDHx8J" role="3uHU7B">
+                <node concept="2OqwBi" id="5pvqQyDHwVo" role="2Oq$k0">
+                  <node concept="_YI3z" id="5pvqQyDHwSk" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="5pvqQyDHx1f" role="2OqNvi">
+                    <ref role="3TsBF5" to="un0u:f6irPlxvr5" resolve="value" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="5pvqQyDHxg7" role="2OqNvi">
+                  <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+                  <node concept="Xl_RD" id="5pvqQyDHxhe" role="37wK5m">
+                    <property role="Xl_RC" value="d" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="_XfAh" id="1uKMA6MOBy4" role="_YvDr">
       <property role="_XH9r" value="Status update to new status handling" />
       <ref role="_XDHR" to="un0u:3VCHlE3_rxl" resolve="StatusDeclaration" />
