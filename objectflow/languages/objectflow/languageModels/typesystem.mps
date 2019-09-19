@@ -14576,5 +14576,45 @@
       <ref role="1YaFvo" to="un0u:3sIS$IK8V8p" resolve="TranslatedMultiString" />
     </node>
   </node>
+  <node concept="18kY7G" id="59p98S7zcka">
+    <property role="TrG5h" value="check_StringLiteralTransAttribut" />
+    <property role="3GE5qa" value="StringHandling" />
+    <node concept="3clFbS" id="59p98S7zckb" role="18ibNy">
+      <node concept="3clFbJ" id="59p98S7zckv" role="3cqZAp">
+        <node concept="2OqwBi" id="59p98S7zcuL" role="3clFbw">
+          <node concept="2OqwBi" id="59p98S7zcnb" role="2Oq$k0">
+            <node concept="1YBJjd" id="59p98S7zckM" role="2Oq$k0">
+              <ref role="1YBMHb" node="59p98S7zckd" resolve="stringLiteralTransAttribut" />
+            </node>
+            <node concept="2Xjw5R" id="59p98S7zcs7" role="2OqNvi">
+              <node concept="1xMEDy" id="59p98S7zcs9" role="1xVPHs">
+                <node concept="chp4Y" id="59p98S7zct2" role="ri$Ld">
+                  <ref role="cht4Q" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3x8VRR" id="59p98S7zcy1" role="2OqNvi" />
+        </node>
+        <node concept="3clFbS" id="59p98S7zckx" role="3clFbx">
+          <node concept="2MkqsV" id="59p98S7zcyT" role="3cqZAp">
+            <node concept="Xl_RD" id="59p98S7zcz5" role="2MkJ7o">
+              <property role="Xl_RC" value="Use MultiString here if you want to work with thranslations." />
+            </node>
+            <node concept="2OqwBi" id="59p98S7zcCS" role="2OEOjV">
+              <node concept="1YBJjd" id="59p98S7zcAC" role="2Oq$k0">
+                <ref role="1YBMHb" node="59p98S7zckd" resolve="stringLiteralTransAttribut" />
+              </node>
+              <node concept="1mfA1w" id="59p98S7zcJ3" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="59p98S7zckd" role="1YuTPh">
+      <property role="TrG5h" value="stringLiteralTransAttribut" />
+      <ref role="1YaFvo" to="un0u:5_hm6iIdeoj" resolve="StringLiteralTransAttribut" />
+    </node>
+  </node>
 </model>
 

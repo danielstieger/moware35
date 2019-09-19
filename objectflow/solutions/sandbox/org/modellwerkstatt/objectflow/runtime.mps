@@ -47492,10 +47492,6 @@
     </node>
     <node concept="3clFb_" id="3bICjcEdRMb" role="jymVt">
       <property role="TrG5h" value="setLocaleForTranslation" />
-      <node concept="37vLTG" id="3bICjcEe08q" role="3clF46">
-        <property role="TrG5h" value="translation" />
-        <node concept="17QB3L" id="3bICjcEe0Sh" role="1tU5fm" />
-      </node>
       <node concept="37vLTG" id="3bICjcEe0Uk" role="3clF46">
         <property role="TrG5h" value="locale" />
         <node concept="17QB3L" id="3bICjcEe1zz" role="1tU5fm" />
@@ -47511,9 +47507,6 @@
         <node concept="3clFbF" id="3bICjcEeA8O" role="3cqZAp">
           <node concept="1rXfSq" id="3bICjcEeA8M" role="3clFbG">
             <ref role="37wK5l" node="3bICjcEe2OP" resolve="checkAndAddLocale" />
-            <node concept="37vLTw" id="3bICjcEeAxt" role="37wK5m">
-              <ref role="3cqZAo" node="3bICjcEe08q" resolve="translation" />
-            </node>
             <node concept="37vLTw" id="3bICjcEeAA$" role="37wK5m">
               <ref role="3cqZAo" node="3bICjcEe0Uk" resolve="locale" />
             </node>
@@ -47727,6 +47720,23 @@
             <property role="3SKdUp" value=".. look up formatString .. " />
           </node>
         </node>
+        <node concept="3clFbF" id="59p98S7z7uN" role="3cqZAp">
+          <node concept="37vLTI" id="59p98S7z9_5" role="3clFbG">
+            <node concept="1rXfSq" id="59p98S7zbRC" role="37vLTx">
+              <ref role="37wK5l" node="Da7Daffi$1" resolve="translateSingle" />
+              <node concept="37vLTw" id="59p98S7Anm2" role="37wK5m">
+                <ref role="3cqZAo" node="76zKLSr1ayK" resolve="lang" />
+              </node>
+              <node concept="37vLTw" id="59p98S7zc9Y" role="37wK5m">
+                <ref role="3cqZAo" node="76zKLSqSNPW" resolve="formatString" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="59p98S7z7uL" role="37vLTJ">
+              <ref role="3cqZAo" node="76zKLSqSNPW" resolve="formatString" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="59p98S7A_bi" role="3cqZAp" />
         <node concept="3cpWs8" id="76zKLSr1q7y" role="3cqZAp">
           <node concept="3cpWsn" id="76zKLSr1q7_" role="3cpWs9">
             <property role="TrG5h" value="splitted" />
@@ -47786,7 +47796,6 @@
           </node>
         </node>
         <node concept="3clFbH" id="76zKLSr3Ig3" role="3cqZAp" />
-        <node concept="3clFbH" id="76zKLSr3J9O" role="3cqZAp" />
         <node concept="3clFbH" id="76zKLSr3K22" role="3cqZAp" />
         <node concept="3clFbF" id="76zKLSr2hxf" role="3cqZAp">
           <node concept="2OqwBi" id="76zKLSr2h$k" role="3clFbG">
@@ -51533,10 +51542,6 @@
     </node>
     <node concept="3clFb_" id="3bICjcEe2OP" role="jymVt">
       <property role="TrG5h" value="checkAndAddLocale" />
-      <node concept="37vLTG" id="3bICjcEe84s" role="3clF46">
-        <property role="TrG5h" value="val" />
-        <node concept="17QB3L" id="3bICjcEe85T" role="1tU5fm" />
-      </node>
       <node concept="37vLTG" id="3bICjcEe8QA" role="3clF46">
         <property role="TrG5h" value="locale" />
         <node concept="17QB3L" id="3bICjcEe9vP" role="1tU5fm" />
@@ -51549,7 +51554,30 @@
             <property role="3SKdUp" value="translations are trans_0, trans_1 etc. " />
           </node>
         </node>
-        <node concept="3clFbH" id="3bICjcEek4S" role="3cqZAp" />
+        <node concept="3SKdUt" id="59p98S7tZMl" role="3cqZAp">
+          <node concept="3SKdUq" id="59p98S7tZMn" role="3SKWNk">
+            <property role="3SKdUp" value="workaround for spring ioc property setting, use just one param :)" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="59p98S7tI$j" role="3cqZAp">
+          <node concept="3cpWsn" id="59p98S7tI$m" role="3cpWs9">
+            <property role="TrG5h" value="val" />
+            <node concept="17QB3L" id="59p98S7tI$h" role="1tU5fm" />
+            <node concept="3cpWs3" id="59p98S7tY4o" role="33vP2m">
+              <node concept="2OqwBi" id="59p98S7tYqh" role="3uHU7w">
+                <node concept="37vLTw" id="59p98S7tYek" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3bICjcEecMg" resolve="indexAndLocale" />
+                </node>
+                <node concept="34oBXx" id="59p98S7tYPa" role="2OqNvi" />
+              </node>
+              <node concept="Xl_RD" id="59p98S7tIKf" role="3uHU7B">
+                <property role="Xl_RC" value="trans_" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="59p98S7tYV7" role="3cqZAp" />
+        <node concept="3clFbH" id="59p98S7tHJe" role="3cqZAp" />
         <node concept="3cpWs8" id="3bICjcEekKU" role="3cqZAp">
           <node concept="3cpWsn" id="3bICjcEekKX" role="3cpWs9">
             <property role="TrG5h" value="lang" />
@@ -51575,7 +51603,7 @@
           <node concept="3clFbC" id="3bICjcEek5P" role="3clFbw">
             <node concept="10Nm6u" id="3bICjcEek5Q" role="3uHU7w" />
             <node concept="37vLTw" id="3bICjcEeknV" role="3uHU7B">
-              <ref role="3cqZAo" node="3bICjcEe84s" resolve="val" />
+              <ref role="3cqZAo" node="59p98S7tI$m" resolve="val" />
             </node>
           </node>
         </node>
@@ -51587,7 +51615,7 @@
                   <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                   <node concept="3cpWs3" id="3bICjcEek5X" role="37wK5m">
                     <node concept="37vLTw" id="3bICjcEekxk" role="3uHU7w">
-                      <ref role="3cqZAo" node="3bICjcEe84s" resolve="val" />
+                      <ref role="3cqZAo" node="59p98S7tI$m" resolve="val" />
                     </node>
                     <node concept="Xl_RD" id="3bICjcEek5Z" role="3uHU7B">
                       <property role="Xl_RC" value="Languages can be set to 'trans_&lt;xxx&gt;' only. You specified an illegal lang label: " />
@@ -51600,7 +51628,7 @@
           <node concept="3fqX7Q" id="3bICjcEek60" role="3clFbw">
             <node concept="2OqwBi" id="3bICjcEek61" role="3fr31v">
               <node concept="37vLTw" id="3bICjcEekso" role="2Oq$k0">
-                <ref role="3cqZAo" node="3bICjcEe84s" resolve="val" />
+                <ref role="3cqZAo" node="59p98S7tI$m" resolve="val" />
               </node>
               <node concept="liA8E" id="3bICjcEek63" role="2OqNvi">
                 <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
@@ -51624,7 +51652,7 @@
                   <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
                   <node concept="2OqwBi" id="3bICjcEek6d" role="37wK5m">
                     <node concept="37vLTw" id="3bICjcEel40" role="2Oq$k0">
-                      <ref role="3cqZAo" node="3bICjcEe84s" resolve="val" />
+                      <ref role="3cqZAo" node="59p98S7tI$m" resolve="val" />
                     </node>
                     <node concept="liA8E" id="3bICjcEek6f" role="2OqNvi">
                       <ref role="37wK5l" to="wyt6:~String.substring(int):java.lang.String" resolve="substring" />
@@ -51651,7 +51679,7 @@
                     <ref role="37wK5l" to="wyt6:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
                     <node concept="3cpWs3" id="3bICjcEek6s" role="37wK5m">
                       <node concept="37vLTw" id="3bICjcEel8R" role="3uHU7w">
-                        <ref role="3cqZAo" node="3bICjcEe84s" resolve="val" />
+                        <ref role="3cqZAo" node="59p98S7tI$m" resolve="val" />
                       </node>
                       <node concept="Xl_RD" id="3bICjcEek6u" role="3uHU7B">
                         <property role="Xl_RC" value="Languages can be set to 'trans_&lt;xxx&gt;' only. You specified an illegal integer suffix: " />

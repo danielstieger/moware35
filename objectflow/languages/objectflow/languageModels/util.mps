@@ -5553,6 +5553,10 @@
           <ref role="ehGHo" to="tpck:h0TrEE$" resolve="INamedConcept" />
         </node>
       </node>
+      <node concept="37vLTG" id="59p98S7GUCy" role="3clF46">
+        <property role="TrG5h" value="withTranslator" />
+        <node concept="10P_77" id="59p98S7GUT2" role="1tU5fm" />
+      </node>
       <node concept="3clFbS" id="oHsXc94cLC" role="3clF47">
         <node concept="3cpWs8" id="5cU7ygskgMy" role="3cqZAp">
           <node concept="3cpWsn" id="5cU7ygskgM_" role="3cpWs9">
@@ -5650,28 +5654,35 @@
             <property role="3SKdUp" value="Translation Provider is needed almost everywhere anyway" />
           </node>
         </node>
-        <node concept="3clFbF" id="5pvqQyCUd51" role="3cqZAp">
-          <node concept="2OqwBi" id="5pvqQyCUdlk" role="3clFbG">
-            <node concept="37vLTw" id="5pvqQyCUd4Z" role="2Oq$k0">
-              <ref role="3cqZAo" node="oHsXc9LNXf" resolve="components" />
-            </node>
-            <node concept="TSZUe" id="5pvqQyCUdGv" role="2OqNvi">
-              <node concept="2OqwBi" id="5pvqQyCUesY" role="25WWJ7">
-                <node concept="2OqwBi" id="5pvqQyCUdT1" role="2Oq$k0">
-                  <node concept="2c44tf" id="5pvqQyCUdJh" role="2Oq$k0">
-                    <node concept="3uibUv" id="5pvqQyCUdNZ" role="2c44tc">
-                      <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXTranslationProvider" />
+        <node concept="3clFbJ" id="59p98S7GW3B" role="3cqZAp">
+          <node concept="3clFbS" id="59p98S7GW3D" role="3clFbx">
+            <node concept="3clFbF" id="5pvqQyCUd51" role="3cqZAp">
+              <node concept="2OqwBi" id="5pvqQyCUdlk" role="3clFbG">
+                <node concept="37vLTw" id="5pvqQyCUd4Z" role="2Oq$k0">
+                  <ref role="3cqZAo" node="oHsXc9LNXf" resolve="components" />
+                </node>
+                <node concept="TSZUe" id="5pvqQyCUdGv" role="2OqNvi">
+                  <node concept="2OqwBi" id="5pvqQyCUesY" role="25WWJ7">
+                    <node concept="2OqwBi" id="5pvqQyCUdT1" role="2Oq$k0">
+                      <node concept="2c44tf" id="5pvqQyCUdJh" role="2Oq$k0">
+                        <node concept="3uibUv" id="5pvqQyCUdNZ" role="2c44tc">
+                          <ref role="3uigEE" to="28jr:76zKLSqT1uU" resolve="IOFXTranslationProvider" />
+                        </node>
+                      </node>
+                      <node concept="3TrEf2" id="5pvqQyCUecl" role="2OqNvi">
+                        <ref role="3Tt5mk" to="tpee:g7uigIF" />
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="5pvqQyCUf1F" role="2OqNvi">
+                      <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
                     </node>
                   </node>
-                  <node concept="3TrEf2" id="5pvqQyCUecl" role="2OqNvi">
-                    <ref role="3Tt5mk" to="tpee:g7uigIF" />
-                  </node>
-                </node>
-                <node concept="2qgKlT" id="5pvqQyCUf1F" role="2OqNvi">
-                  <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
                 </node>
               </node>
             </node>
+          </node>
+          <node concept="37vLTw" id="59p98S7GWkM" role="3clFbw">
+            <ref role="3cqZAo" node="59p98S7GUCy" resolve="withTranslator" />
           </node>
         </node>
         <node concept="3clFbH" id="5pvqQyCUf7D" role="3cqZAp" />
@@ -5842,6 +5853,9 @@
                           <ref role="37wK5l" node="oHsXc94d1q" resolve="calcO2RuntimeRequirementsInComponent" />
                           <node concept="37vLTw" id="4KZ25Dhhcc7" role="37wK5m">
                             <ref role="3cqZAo" node="4KZ25Dhhbly" resolve="cmd" />
+                          </node>
+                          <node concept="3clFbT" id="59p98S7GX02" role="37wK5m">
+                            <property role="3clFbU" value="true" />
                           </node>
                         </node>
                       </node>
