@@ -27,6 +27,8 @@
             <input name="scanconclusion" type="hidden" value="conclusion_{{ conc.triggerCode }}">
             {% if client.device equals "SCANDIT" %}
                 <button id="scanSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: scScanSubmit();" disabled><i class="material-icons">camera</i></button>
+            {% elseif not (client.device equals "ZEBRAEB_TC56" or client.device equals "ZEBRAEB_TC25") %}
+                <button id="scanSoftButton" type="button" class="w3-bar-item w3-button" onClick="javascript: saveSubmitDueScan();"{% if not conc.enabled %} disabled {% endif %}><i class="material-icons">camera</i></button>
             {% endif %}
 
         {% elseif conc.visible and conc.hotKey equals "GO" %}
