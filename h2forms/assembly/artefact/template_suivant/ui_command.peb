@@ -6,17 +6,10 @@
 {% block content %}
         <!-- {{ keyboardScan }} / {{ conclusions|length }} -->
 <div class="w3-top">
-{% if flagText is not null %}
-    <!-- <div id="flagbeep" class="w3-card sv-top-dlg sv-question-red"> -->
-    <div class="w3-container w3-row sv-question-red" onclick="svHideAllContainsDropdown()">
-        <div id="flagbeep" class="w3-col s12 w3-left-align">{{ flagText }}</div>
-    </div>
-{% else %}
     <div class="w3-container w3-row sv-currentfg-D3" onclick="svHideAllContainsDropdown()">
         <div class="w3-col s6 w3-left-align sv-cropped-text">{{ client.dynamicStatusInfo|default("&nbsp;") }}</div>
         <div class="w3-col s6 w3-right-align sv-cropped-text">{{ client.appVersionInfo }}</div>
     </div>
-{% endif %}
 <div class="w3-bar sv-currentfg" onclick="svHideAllContainsDropdown()">
     {% for conc in conclusions %}
         {% if loop.first %}
@@ -59,11 +52,12 @@
 <div class="w3-container w3-row sv-currentfg-D3"><div class="w3-col s12 w3-left-align">modellwerkstatt.org</div></div>
 <div class="w3-bar"> <span class="w3-bar-item"> - </span> </div>
 
+{% if flagText is not null %}
+<div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">{{ flagText }}</div>
+{% endif %}
 
 {% if notificationText is not null %}
-<div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">
-{{ notificationText }}
-</div>
+<div id="flagbeep" class="w3-card sv-top-dlg sv-question-red">{{ notificationText }}</div>
 {% endif %}
 
 {% include "./messages.peb" %}

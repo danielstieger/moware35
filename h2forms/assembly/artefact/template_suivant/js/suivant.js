@@ -42,10 +42,15 @@ function openPage(page) {
 }
 
 function tableSelectAndExec(selectionstr, valstr, eventSource){
+    var origScrollPos = parseInt(window.scrollY);
+
+
     if (! svHideAllContainsDropdown()) {
         svDisableNavigation();
+
         var f = $('form');
         f.NaviCrtl.value=valstr;
+        f.ScrollPosition.value = origScrollPos;
         f.SelectionId.value=selectionstr;
         f.submit();
     }
@@ -60,11 +65,14 @@ function layoutSelectAndExec(selectionstr, valstr, dropdown){
 
 
 function saveSubmit(submitParameter){
+    var origScrollPos = parseInt(window.scrollY);
 
     if (! svHideAllContainsDropdown()) {
         svDisableNavigation();
+
         var f = $('form');
-    	f.NaviCrtl.value = submitParameter;
+        f.ScrollPosition.value = origScrollPos;
+        f.NaviCrtl.value = submitParameter;
     	f.submit();
     }
 }
@@ -81,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var sysMenu = $('.sv-bartitle');
     if (sysMenu) {
         systemMenuHandler = new SVLongTouchHandler($('.sv-bartitle'), $('#SystemDropdownMenu'));
-        console.log('suivant.js: system menu installed.')
+        svLog('DOMContentLoader', 'system menu installed.')
     }
 
     hwInitAfterDomReady();
@@ -95,7 +103,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var scrollToMeElement = $('div.activelyScrollToMe');
     if (scrollToMeElement) {
-        scrollToMeElement.scrollIntoView();
+        var f = $('form');
+        window.scrollTo(0, f.ScrollPosition.value);
     }
 
     setTimeout(function() {
