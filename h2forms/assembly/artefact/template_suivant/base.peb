@@ -117,6 +117,7 @@
     <input type="hidden" name="NaviCrtl" value=""/>
     <input type="hidden" name="SelectionId" value=""/>
     <input type="hidden" name="SequenceId" value="{{ page.sequenceId }}"/>
+    <input type="hidden" name="ScrollPosition" value="{{ page.scrollPosition }}"/>
     <input type="hidden" name="PageTmpValue" value="0"/>
     <input type="hidden" name="H1HttpClient" value="{{ client.device }}"/>
     <input type="hidden" name="Progressor" value="{{ client.progressor }}"/>

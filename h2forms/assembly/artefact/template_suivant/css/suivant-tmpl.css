@@ -118,3 +118,5 @@ div.sv-top-title + div.sv-table-doc, div.sv-top-title + div.sv-table-search, div
       line-height: 24px; border-bottom: 1px solid #FFF !important; font-weight: 600 !important;}
 
 body[class="sv-back-no-session"] div[class*="sv-editor"] {padding-bottom: 300px !important; }
+
+.sv-keyboard-spacer { min-height: 460px; height: 460px; }

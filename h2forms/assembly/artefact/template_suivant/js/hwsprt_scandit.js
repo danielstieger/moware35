@@ -72,7 +72,6 @@ function scScanSubmit(){
 }
 
 
-
 function scInitPicker() {
 
      if (window.Scandit == undefined) {

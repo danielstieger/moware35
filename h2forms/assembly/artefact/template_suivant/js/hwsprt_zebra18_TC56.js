@@ -133,7 +133,7 @@ function hwInitAfterDomReady(){
                 EB.Barcode.enable({}, zzScanReceived);
 
             } else {
-                 // svLog('hwEnableScan', 'calling EB.Barcode.enable()');
+                 // svLog('hwEnableScan', 'calling EB.Barcode.enable() ean128 enabled.');
                  EB.Barcode.enable({
                            allDecoders:false,
                            code128:true,
