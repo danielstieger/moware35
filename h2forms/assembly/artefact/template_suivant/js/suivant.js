@@ -101,9 +101,9 @@ document.addEventListener('DOMContentLoaded', function() {
         hwFlagBeep(1000);
     }
 
-    var scrollToMeElement = $('div.activelyScrollToMe');
+    var f = $('form');
+    var scrollToMeElement = (f.ScrollPosition.value > 0);
     if (scrollToMeElement) {
-        var f = $('form');
         window.scrollTo(0, f.ScrollPosition.value);
     }
 
