@@ -1320,7 +1320,7 @@
         <node concept="XkiVB" id="2qrl3a2nNF8" role="3cqZAp">
           <ref role="37wK5l" to="1e0c:69JiVbyVSR7" resolve="BaseUiFactory" />
           <node concept="Rm8GO" id="2qrl3a2nO0A" role="37wK5m">
-            <ref role="1Px2BO" to="ache:4Rlyz3EoCHr" resolve="DefaultTrans.TranslationSelection" />
+            <ref role="1Px2BO" to="ache:4Rlyz3EoCHr" resolve="MoWareTranslations.TranslationSelection" />
             <ref role="Rm8GQ" to="ache:4Rlyz3EoCZ5" resolve="H1_TRANSLATIONS" />
           </node>
         </node>
@@ -3060,6 +3060,12 @@
       <node concept="3Tm6S6" id="4Z3lS8BdYvk" role="1B3o_S" />
       <node concept="17QB3L" id="4Z3lS8BdYvl" role="1tU5fm" />
     </node>
+    <node concept="2tJIrI" id="3Xf_bh$vdaa" role="jymVt" />
+    <node concept="312cEg" id="3Xf_bh$vc6M" role="jymVt">
+      <property role="TrG5h" value="lastScrollTopPosition" />
+      <node concept="3Tm6S6" id="3Xf_bh$vc6N" role="1B3o_S" />
+      <node concept="10Oyi0" id="3Xf_bh$vedm" role="1tU5fm" />
+    </node>
     <node concept="2tJIrI" id="4Z3lS8BdXwn" role="jymVt" />
     <node concept="2tJIrI" id="73XZ2qPML3n" role="jymVt" />
     <node concept="2tJIrI" id="19VJYqAuCGJ" role="jymVt" />
@@ -3098,6 +3104,16 @@
             <node concept="10Nm6u" id="4Z3lS8BdZMn" role="37vLTx" />
             <node concept="37vLTw" id="4Z3lS8BdZID" role="37vLTJ">
               <ref role="3cqZAo" node="4Z3lS8BdYvj" resolve="notificationText" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3Xf_bh$veug" role="3cqZAp">
+          <node concept="37vLTI" id="3Xf_bh$veBQ" role="3clFbG">
+            <node concept="3cmrfG" id="3Xf_bh$veDs" role="37vLTx">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="3Xf_bh$veue" role="37vLTJ">
+              <ref role="3cqZAo" node="3Xf_bh$vc6M" resolve="lastScrollTopPosition" />
             </node>
           </node>
         </node>
@@ -3608,6 +3624,58 @@
           </node>
         </node>
         <node concept="3clFbH" id="5dcOWM3UsVO" role="3cqZAp" />
+        <node concept="3clFbF" id="3Xf_bh$vfqC" role="3cqZAp">
+          <node concept="37vLTI" id="3Xf_bh$vfLc" role="3clFbG">
+            <node concept="3cmrfG" id="3Xf_bh$vfTp" role="37vLTx">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="3Xf_bh$vfqA" role="37vLTJ">
+              <ref role="3cqZAo" node="3Xf_bh$vc6M" resolve="lastScrollTopPosition" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="69$OOYrjtu4" role="3cqZAp">
+          <node concept="3cpWsn" id="69$OOYrjtu7" role="3cpWs9">
+            <property role="TrG5h" value="scrollPos" />
+            <node concept="17QB3L" id="69$OOYrjtu2" role="1tU5fm" />
+            <node concept="2OqwBi" id="69$OOYrjtM4" role="33vP2m">
+              <node concept="37vLTw" id="69$OOYrjtGm" role="2Oq$k0">
+                <ref role="3cqZAo" node="2xnCXJMgzUq" resolve="request" />
+              </node>
+              <node concept="liA8E" id="69$OOYrju5W" role="2OqNvi">
+                <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
+                <node concept="Xl_RD" id="69$OOYrjudj" role="37wK5m">
+                  <property role="Xl_RC" value="scrollPosition" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="69$OOYrjusi" role="3cqZAp">
+          <node concept="3clFbS" id="69$OOYrjusk" role="3clFbx">
+            <node concept="3clFbF" id="69$OOYrjCwd" role="3cqZAp">
+              <node concept="37vLTI" id="69$OOYrjCE1" role="3clFbG">
+                <node concept="2YIFZM" id="69$OOYrjDb$" role="37vLTx">
+                  <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
+                  <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
+                  <node concept="37vLTw" id="69$OOYrjDpl" role="37wK5m">
+                    <ref role="3cqZAo" node="69$OOYrjtu7" resolve="scrollPos" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="3Xf_bh$vg0P" role="37vLTJ">
+                  <ref role="3cqZAo" node="3Xf_bh$vc6M" resolve="lastScrollTopPosition" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="69$OOYrjuP1" role="3clFbw">
+            <node concept="10Nm6u" id="69$OOYrjuU$" role="3uHU7w" />
+            <node concept="37vLTw" id="69$OOYrjuGx" role="3uHU7B">
+              <ref role="3cqZAo" node="69$OOYrjtu7" resolve="scrollPos" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3Xf_bh$veJB" role="3cqZAp" />
         <node concept="3clFbJ" id="75445jw3v88" role="3cqZAp">
           <node concept="3eNFk2" id="4TjwvsKxf0_" role="3eNLev">
             <node concept="2OqwBi" id="4TjwvsKxfVI" role="3eO9$A">
@@ -4366,6 +4434,22 @@
           </node>
         </node>
         <node concept="3clFbH" id="66oHjdjqief" role="3cqZAp" />
+        <node concept="3clFbF" id="3Xf_bh$vggY" role="3cqZAp">
+          <node concept="37vLTI" id="3Xf_bh$vgUV" role="3clFbG">
+            <node concept="37vLTw" id="3Xf_bh$vh1q" role="37vLTx">
+              <ref role="3cqZAo" node="3Xf_bh$vc6M" resolve="lastScrollTopPosition" />
+            </node>
+            <node concept="2OqwBi" id="3Xf_bh$vgMn" role="37vLTJ">
+              <node concept="37vLTw" id="3Xf_bh$vggW" role="2Oq$k0">
+                <ref role="3cqZAo" node="19VJYqAuXbI" resolve="page" />
+              </node>
+              <node concept="2S8uIT" id="3Xf_bh$vgRh" role="2OqNvi">
+                <ref role="2S8YL0" to="tea8:69$OOYrjaMn" resolve="scrollPosition" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3Xf_bh$vh8W" role="3cqZAp" />
         <node concept="3SKdUt" id="5kphc59Vpxs" role="3cqZAp">
           <node concept="3SKdUq" id="5kphc59Vpxu" role="3SKWNk">
             <property role="3SKdUp" value="set changes first .. then create default map .. " />

@@ -6157,14 +6157,6 @@
       <node concept="3Tmbuc" id="6PWRVmw5Kdu" role="1B3o_S" />
       <node concept="17QB3L" id="6PWRVmw5Kdv" role="1tU5fm" />
     </node>
-    <node concept="312cEg" id="69$OOYrjuX$" role="jymVt">
-      <property role="34CwA1" value="false" />
-      <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="lastRequestScrollPosition" />
-      <property role="3TUv4t" value="false" />
-      <node concept="3Tmbuc" id="69$OOYrjuX_" role="1B3o_S" />
-      <node concept="10Oyi0" id="69$OOYrjxJe" role="1tU5fm" />
-    </node>
     <node concept="2tJIrI" id="7CJFVfzM3Fk" role="jymVt" />
     <node concept="312cEg" id="7CJFVfzM1Sg" role="jymVt">
       <property role="TrG5h" value="redirectBackToCallingApp" />
@@ -6452,16 +6444,6 @@
             </node>
             <node concept="37vLTw" id="6RB2CdyB4Eq" role="37vLTJ">
               <ref role="3cqZAo" node="6RB2CdyB00j" resolve="pressumablyFirstRequestWithOnStartupCmd" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="69$OOYrjzDx" role="3cqZAp">
-          <node concept="37vLTI" id="69$OOYrjzTz" role="3clFbG">
-            <node concept="3cmrfG" id="69$OOYrjzZM" role="37vLTx">
-              <property role="3cmrfH" value="0" />
-            </node>
-            <node concept="37vLTw" id="69$OOYrjzDv" role="37vLTJ">
-              <ref role="3cqZAo" node="69$OOYrjuX$" resolve="lastRequestScrollPosition" />
             </node>
           </node>
         </node>
@@ -6756,16 +6738,6 @@
             </node>
             <node concept="37vLTw" id="6RB2CdyBavY" role="37vLTJ">
               <ref role="3cqZAo" node="6RB2CdyB00j" resolve="pressumablyFirstRequestWithOnStartupCmd" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="69$OOYrj_gY" role="3cqZAp">
-          <node concept="37vLTI" id="69$OOYrjAg9" role="3clFbG">
-            <node concept="3cmrfG" id="69$OOYrjALF" role="37vLTx">
-              <property role="3cmrfH" value="0" />
-            </node>
-            <node concept="37vLTw" id="69$OOYrj_gW" role="37vLTJ">
-              <ref role="3cqZAo" node="69$OOYrjuX$" resolve="lastRequestScrollPosition" />
             </node>
           </node>
         </node>
@@ -8257,48 +8229,6 @@
         </node>
         <node concept="SfApY" id="2ewwURnGpdi" role="3cqZAp">
           <node concept="3clFbS" id="2ewwURnGpdk" role="SfCbr">
-            <node concept="3clFbH" id="69$OOYrjtik" role="3cqZAp" />
-            <node concept="3cpWs8" id="69$OOYrjtu4" role="3cqZAp">
-              <node concept="3cpWsn" id="69$OOYrjtu7" role="3cpWs9">
-                <property role="TrG5h" value="scrollPos" />
-                <node concept="17QB3L" id="69$OOYrjtu2" role="1tU5fm" />
-                <node concept="2OqwBi" id="69$OOYrjtM4" role="33vP2m">
-                  <node concept="37vLTw" id="69$OOYrjtGm" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5hYsHqQ_VNp" resolve="request" />
-                  </node>
-                  <node concept="liA8E" id="69$OOYrju5W" role="2OqNvi">
-                    <ref role="37wK5l" to="opgt:~ServletRequest.getParameter(java.lang.String):java.lang.String" resolve="getParameter" />
-                    <node concept="Xl_RD" id="69$OOYrjudj" role="37wK5m">
-                      <property role="Xl_RC" value="scrollPosition" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="69$OOYrjusi" role="3cqZAp">
-              <node concept="3clFbS" id="69$OOYrjusk" role="3clFbx">
-                <node concept="3clFbF" id="69$OOYrjCwd" role="3cqZAp">
-                  <node concept="37vLTI" id="69$OOYrjCE1" role="3clFbG">
-                    <node concept="2YIFZM" id="69$OOYrjDb$" role="37vLTx">
-                      <ref role="37wK5l" to="wyt6:~Integer.parseInt(java.lang.String):int" resolve="parseInt" />
-                      <ref role="1Pybhc" to="wyt6:~Integer" resolve="Integer" />
-                      <node concept="37vLTw" id="69$OOYrjDpl" role="37wK5m">
-                        <ref role="3cqZAo" node="69$OOYrjtu7" resolve="scrollPos" />
-                      </node>
-                    </node>
-                    <node concept="37vLTw" id="69$OOYrjCwb" role="37vLTJ">
-                      <ref role="3cqZAo" node="69$OOYrjuX$" resolve="lastRequestScrollPosition" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3y3z36" id="69$OOYrjuP1" role="3clFbw">
-                <node concept="10Nm6u" id="69$OOYrjuU$" role="3uHU7w" />
-                <node concept="37vLTw" id="69$OOYrjuGx" role="3uHU7B">
-                  <ref role="3cqZAo" node="69$OOYrjtu7" resolve="scrollPos" />
-                </node>
-              </node>
-            </node>
             <node concept="3SKdUt" id="2462lDSngiw" role="3cqZAp">
               <node concept="3SKdUq" id="2462lDSngiy" role="3SKWNk">
                 <property role="3SKdUp" value="currentComandUI might be null also - if all tabs closed." />
@@ -8809,21 +8739,6 @@
               </node>
               <node concept="2S8uIT" id="6jihzUGL54B" role="2OqNvi">
                 <ref role="2S8YL0" node="6jihzUGL2vu" resolve="mainLandingMenu" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="69$OOYrjEo0" role="3cqZAp">
-          <node concept="37vLTI" id="69$OOYrjFjx" role="3clFbG">
-            <node concept="37vLTw" id="69$OOYrjH1$" role="37vLTx">
-              <ref role="3cqZAo" node="69$OOYrjuX$" resolve="lastRequestScrollPosition" />
-            </node>
-            <node concept="2OqwBi" id="69$OOYrjEWS" role="37vLTJ">
-              <node concept="37vLTw" id="69$OOYrjEnY" role="2Oq$k0">
-                <ref role="3cqZAo" node="1Qo13pXmHrt" resolve="ctxPage" />
-              </node>
-              <node concept="2S8uIT" id="69$OOYrjFfD" role="2OqNvi">
-                <ref role="2S8YL0" node="69$OOYrjaMn" resolve="scrollPosition" />
               </node>
             </node>
           </node>
