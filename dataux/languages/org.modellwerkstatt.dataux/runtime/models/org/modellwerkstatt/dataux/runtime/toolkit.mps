@@ -227,6 +227,10 @@
     <node concept="3clFb_" id="20ohnkbA2Ln" role="jymVt">
       <property role="1EzhhJ" value="true" />
       <property role="TrG5h" value="getSystemLabel" />
+      <node concept="37vLTG" id="5oYBl3jBHoO" role="3clF46">
+        <property role="TrG5h" value="langIndex" />
+        <node concept="10Oyi0" id="5oYBl3jBHv0" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="20ohnkbA2LZ" role="3clF46">
         <property role="TrG5h" value="key" />
         <node concept="3uibUv" id="20ohnkbA2ME" role="1tU5fm">
@@ -868,7 +872,11 @@
     <node concept="2tJIrI" id="701$ZaZrUGG" role="jymVt" />
     <node concept="3clFb_" id="3y7CfyfpqEz" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="setMenu" />
+      <property role="TrG5h" value="setMenuAndInit" />
+      <node concept="37vLTG" id="2QY_rtDkmA$" role="3clF46">
+        <property role="TrG5h" value="langIndex" />
+        <node concept="10Oyi0" id="2QY_rtDkmMo" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="3y7CfyfpqOh" role="3clF46">
         <property role="TrG5h" value="startMenu" />
         <node concept="3uibUv" id="3y7Cfyfpw8V" role="1tU5fm">

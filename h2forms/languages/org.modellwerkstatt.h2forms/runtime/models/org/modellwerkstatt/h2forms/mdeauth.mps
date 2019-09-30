@@ -953,9 +953,12 @@
                     <ref role="3cqZAo" node="1wwgtxzgiJS" resolve="uiFactory" />
                   </node>
                   <node concept="liA8E" id="7r26jiO5NWu" role="2OqNvi">
-                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                    <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
+                    <node concept="3cmrfG" id="2QY_rtDqseP" role="37wK5m">
+                      <property role="3cmrfH" value="-1" />
+                    </node>
                     <node concept="Rm8GO" id="7r26jiO5O86" role="37wK5m">
-                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                      <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                       <ref role="Rm8GQ" to="ache:4Zj1V_wFQwf" resolve="ERROR" />
                     </node>
                   </node>
@@ -1947,9 +1950,12 @@
                         <ref role="3cqZAo" node="57ov2S_z6E" resolve="uiFactory" />
                       </node>
                       <node concept="liA8E" id="57ov2S_zb9" role="2OqNvi">
-                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getTranslation" />
+                        <ref role="37wK5l" to="250q:20ohnkbA2Ln" resolve="getSystemLabel" />
+                        <node concept="3cmrfG" id="2QY_rtDqsPv" role="37wK5m">
+                          <property role="3cmrfH" value="-1" />
+                        </node>
                         <node concept="Rm8GO" id="57ov2S_zba" role="37wK5m">
-                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="DefaultTrans.Key" />
+                          <ref role="1Px2BO" to="ache:2zlZ_in69hm" resolve="MoWareTranslations.Key" />
                           <ref role="Rm8GQ" to="ache:4Zj1V_wFQwf" resolve="ERROR" />
                         </node>
                       </node>
