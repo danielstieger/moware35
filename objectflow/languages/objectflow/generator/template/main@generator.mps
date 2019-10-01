@@ -10838,9 +10838,6 @@
                     </node>
                     <node concept="liA8E" id="11hNSr_f5aE" role="2OqNvi">
                       <ref role="37wK5l" to="w7gk:3_5k9VmQ$6f" resolve="setReadOnly" />
-                      <node concept="3clFbT" id="11hNSr_f5c3" role="37wK5m">
-                        <property role="3clFbU" value="true" />
-                      </node>
                     </node>
                   </node>
                 </node>

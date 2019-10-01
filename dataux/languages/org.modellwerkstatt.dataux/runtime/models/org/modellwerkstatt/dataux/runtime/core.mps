@@ -12745,9 +12745,6 @@
                         </node>
                         <node concept="liA8E" id="1sUmI9zhOJ9" role="2OqNvi">
                           <ref role="37wK5l" to="w7gk:3_5k9VmQ$6f" resolve="setReadOnly" />
-                          <node concept="3clFbT" id="1sUmI9zhOJv" role="37wK5m">
-                            <property role="3clFbU" value="true" />
-                          </node>
                         </node>
                       </node>
                     </node>
@@ -17160,7 +17157,7 @@
             <ref role="37wK5l" node="7b0Ejx_yqRf" resolve="receiveProcess" />
             <node concept="2ShNRf" id="1xkAMN4Ca8S" role="37wK5m">
               <node concept="1pGfFk" id="1xkAMN4Cei4" role="2ShVmc">
-                <ref role="37wK5l" node="1xkAMN4BQ4P" resolve="UpdUiAfterPageInit" />
+                <ref role="37wK5l" node="1xkAMN4BQ4P" resolve="SetupUiAftrPageInit" />
                 <node concept="37vLTw" id="1xkAMN4CidF" role="37wK5m">
                   <ref role="3cqZAo" node="1xkAMN4BBEN" resolve="onlyAReload" />
                 </node>
@@ -17175,11 +17172,11 @@
     </node>
     <node concept="2tJIrI" id="1xkAMN4_W$P" role="jymVt" />
     <node concept="3clFb_" id="1xkAMN4AVal" role="jymVt">
-      <property role="TrG5h" value="fg_updateUiAfterInitCurrentPage" />
+      <property role="TrG5h" value="fg_setupUiAfterPageInit" />
       <node concept="37vLTG" id="1xkAMN4CqCV" role="3clF46">
         <property role="TrG5h" value="uEvent" />
         <node concept="3uibUv" id="1xkAMN4Cu$Q" role="1tU5fm">
-          <ref role="3uigEE" node="1xkAMN4BQ4N" resolve="UpdUiAfterPageInit" />
+          <ref role="3uigEE" node="1xkAMN4BQ4N" resolve="SetupUiAftrPageInit" />
         </node>
       </node>
       <node concept="3cqZAl" id="1xkAMN4AVan" role="3clF45" />
@@ -29549,7 +29546,7 @@
                   <node concept="3eNFk2" id="1xkAMN4E6rT" role="3eNLev">
                     <node concept="2ZW3vV" id="1xkAMN4E75B" role="3eO9$A">
                       <node concept="3uibUv" id="1xkAMN4E7p2" role="2ZW6by">
-                        <ref role="3uigEE" node="1xkAMN4BQ4N" resolve="UpdUiAfterPageInit" />
+                        <ref role="3uigEE" node="1xkAMN4BQ4N" resolve="SetupUiAftrPageInit" />
                       </node>
                       <node concept="37vLTw" id="1xkAMN4E6Mq" role="2ZW6bz">
                         <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
@@ -29563,11 +29560,11 @@
                       </node>
                       <node concept="3clFbF" id="1xkAMN4E8cz" role="3cqZAp">
                         <node concept="1rXfSq" id="1xkAMN4E8vM" role="3clFbG">
-                          <ref role="37wK5l" node="1xkAMN4AVal" resolve="fg_updateUiAfterInitCurrentPage" />
+                          <ref role="37wK5l" node="1xkAMN4AVal" resolve="fg_setupUiAfterPageInit" />
                           <node concept="1eOMI4" id="1xkAMN4E8MV" role="37wK5m">
                             <node concept="10QFUN" id="1xkAMN4E8MS" role="1eOMHV">
                               <node concept="3uibUv" id="1xkAMN4E8MX" role="10QFUM">
-                                <ref role="3uigEE" node="1xkAMN4BQ4N" resolve="UpdUiAfterPageInit" />
+                                <ref role="3uigEE" node="1xkAMN4BQ4N" resolve="SetupUiAftrPageInit" />
                               </node>
                               <node concept="37vLTw" id="1xkAMN4E8MY" role="10QFUP">
                                 <ref role="3cqZAo" node="6QqzTrWU2Zx" resolve="ev" />
@@ -33921,7 +33918,7 @@
   </node>
   <node concept="312cEu" id="1xkAMN4BQ4N">
     <property role="3GE5qa" value="events" />
-    <property role="TrG5h" value="UpdUiAfterPageInit" />
+    <property role="TrG5h" value="SetupUiAftrPageInit" />
     <node concept="312cEg" id="1xkAMN4BQaC" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -34023,7 +34020,7 @@
               </node>
               <node concept="3cpWs3" id="39R747sDefg" role="3uHU7B">
                 <node concept="Xl_RD" id="1xkAMN4BQ4Z" role="3uHU7B">
-                  <property role="Xl_RC" value="EV UPDUI_AFTER_PAGEINIT" />
+                  <property role="Xl_RC" value="EV SETUPUI_AFTR_PAGEINIT" />
                 </node>
                 <node concept="37vLTw" id="39R747sDegd" role="3uHU7w">
                   <ref role="3cqZAo" node="39R747sCXQ8" resolve="SPACE_N_DELIM" />

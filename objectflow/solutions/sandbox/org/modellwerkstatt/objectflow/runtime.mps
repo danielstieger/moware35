@@ -5615,9 +5615,6 @@
         <node concept="3clFbF" id="4L33b_FHwXA" role="3cqZAp">
           <node concept="1rXfSq" id="4L33b_FHwX$" role="3clFbG">
             <ref role="37wK5l" to="w7gk:3_5k9VmQ$7u" resolve="setReadOnly" />
-            <node concept="3clFbT" id="4L33b_FHwZJ" role="37wK5m">
-              <property role="3clFbU" value="true" />
-            </node>
           </node>
         </node>
         <node concept="3clFbF" id="4L33b_FS58N" role="3cqZAp">
