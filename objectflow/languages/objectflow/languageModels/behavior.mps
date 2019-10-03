@@ -19656,5 +19656,64 @@
       <node concept="3clFbS" id="3sIS$IKekKC" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="3UVBaKgXOST">
+    <property role="3GE5qa" value="BusinessObject.Options" />
+    <ref role="13h7C2" to="un0u:33f56ccWqVT" resolve="RangeOption" />
+    <node concept="13i0hz" id="3UVBaKgXOSW" role="13h7CS">
+      <property role="TrG5h" value="getStartValue" />
+      <node concept="3Tm1VV" id="3UVBaKgXOSX" role="1B3o_S" />
+      <node concept="17QB3L" id="3UVBaKgXOT4" role="3clF45" />
+      <node concept="3clFbS" id="3UVBaKgXOSZ" role="3clF47">
+        <node concept="3clFbF" id="3UVBaKgXOTk" role="3cqZAp">
+          <node concept="2OqwBi" id="3UVBaKgXP4n" role="3clFbG">
+            <node concept="2OqwBi" id="3UVBaKgXOVi" role="2Oq$k0">
+              <node concept="13iPFW" id="3UVBaKgXOTj" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3UVBaKgXOYW" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:33f56ccWqVW" resolve="start" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3UVBaKgXPf_" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+              <node concept="Xl_RD" id="3UVBaKgXPgd" role="37wK5m">
+                <property role="Xl_RC" value="bd" />
+              </node>
+              <node concept="Xl_RD" id="3UVBaKgXPnP" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="3UVBaKgXOT7" role="13h7CS">
+      <property role="TrG5h" value="getStopValue" />
+      <node concept="3Tm1VV" id="3UVBaKgXOT8" role="1B3o_S" />
+      <node concept="17QB3L" id="3UVBaKgXOT9" role="3clF45" />
+      <node concept="3clFbS" id="3UVBaKgXOTa" role="3clF47">
+        <node concept="3clFbF" id="3UVBaKgXPqh" role="3cqZAp">
+          <node concept="2OqwBi" id="3UVBaKgXP_k" role="3clFbG">
+            <node concept="2OqwBi" id="3UVBaKgXPsf" role="2Oq$k0">
+              <node concept="13iPFW" id="3UVBaKgXPqg" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3UVBaKgXPvT" role="2OqNvi">
+                <ref role="3TsBF5" to="un0u:33f56ccWqVX" resolve="stop" />
+              </node>
+            </node>
+            <node concept="liA8E" id="3UVBaKgXPK2" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~String.replace(java.lang.CharSequence,java.lang.CharSequence):java.lang.String" resolve="replace" />
+              <node concept="Xl_RD" id="3UVBaKgXPKE" role="37wK5m">
+                <property role="Xl_RC" value="bd" />
+              </node>
+              <node concept="Xl_RD" id="3UVBaKgXPPm" role="37wK5m">
+                <property role="Xl_RC" value="" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="3UVBaKgXOSU" role="13h7CW">
+      <node concept="3clFbS" id="3UVBaKgXOSV" role="2VODD2" />
+    </node>
+  </node>
 </model>
 

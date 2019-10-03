@@ -317,6 +317,7 @@
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
       <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
+      <concept id="1235566831861" name="jetbrains.mps.baseLanguage.collections.structure.AllOperation" flags="nn" index="2HxqBE" />
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1162934736510" name="jetbrains.mps.baseLanguage.collections.structure.GetElementOperation" flags="nn" index="34jXtK" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
@@ -2433,82 +2434,207 @@
     <node concept="3clFbS" id="4yyZK2MlhR6" role="18ibNy">
       <node concept="3clFbJ" id="4yyZK2Mm4hD" role="3cqZAp">
         <node concept="3clFbS" id="4yyZK2Mm4hG" role="3clFbx">
-          <node concept="3clFbJ" id="4yyZK2MlzZD" role="3cqZAp">
-            <node concept="3clFbS" id="4yyZK2MlzZE" role="3clFbx">
-              <node concept="3SKdUt" id="4yyZK2Mm5NT" role="3cqZAp">
-                <node concept="3SKdUq" id="4yyZK2Mm5NV" role="3SKWNk">
-                  <property role="3SKdUp" value="this is not integer .. insert or update has to be provided" />
+          <node concept="3clFbJ" id="29mqFQye67L" role="3cqZAp">
+            <node concept="3clFbS" id="29mqFQye67N" role="3clFbx">
+              <node concept="3SKdUt" id="29mqFQye6pT" role="3cqZAp">
+                <node concept="3SKdUq" id="29mqFQye6pV" role="3SKWNk">
+                  <property role="3SKdUp" value="okay" />
                 </node>
               </node>
-              <node concept="3clFbJ" id="4yyZK2Mm5UM" role="3cqZAp">
-                <node concept="3clFbS" id="4yyZK2Mm5UP" role="3clFbx">
-                  <node concept="2MkqsV" id="4yyZK2Mm8fv" role="3cqZAp">
-                    <node concept="Xl_RD" id="4yyZK2Mm8fL" role="2MkJ7o">
-                      <property role="Xl_RC" value="For not int key entities, inser or update has to be provided in options." />
+              <node concept="3clFbH" id="29mqFQye6wc" role="3cqZAp" />
+            </node>
+            <node concept="2OqwBi" id="5E_HiByU73f" role="3clFbw">
+              <node concept="35c_gC" id="5E_HiByU71v" role="2Oq$k0">
+                <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+              </node>
+              <node concept="2qgKlT" id="5E_HiByU75Z" role="2OqNvi">
+                <ref role="37wK5l" to="lfe3:7kypvuI$E7P" resolve="isInteger" />
+                <node concept="2OqwBi" id="4yyZK2Mm3Un" role="37wK5m">
+                  <node concept="2OqwBi" id="4yyZK2Mm3Uo" role="2Oq$k0">
+                    <node concept="2OqwBi" id="4yyZK2Mm3Up" role="2Oq$k0">
+                      <node concept="2OqwBi" id="4yyZK2Mm3Uq" role="2Oq$k0">
+                        <node concept="1YBJjd" id="4yyZK2Mm3Ur" role="2Oq$k0">
+                          <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
+                        </node>
+                        <node concept="3TrEf2" id="4yyZK2Mm3Us" role="2OqNvi">
+                          <ref role="3Tt5mk" to="r5tz:75DS814r5Io" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="4yyZK2Mm3Ut" role="2OqNvi">
+                        <ref role="37wK5l" to="lfe3:3JsUq_Sf9_a" resolve="getIKeyMapping" />
+                      </node>
                     </node>
-                    <node concept="1YBJjd" id="4yyZK2Mm8u9" role="2OEOjV">
-                      <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
+                    <node concept="2qgKlT" id="4yyZK2Mm3Uu" role="2OqNvi">
+                      <ref role="37wK5l" to="lfe3:FaoLX6jltb" resolve="getKeyProperty" />
                     </node>
                   </node>
-                </node>
-                <node concept="1Wc70l" id="4yyZK2Mm7k9" role="3clFbw">
-                  <node concept="3fqX7Q" id="4yyZK2Mm7pl" role="3uHU7w">
-                    <node concept="2OqwBi" id="4yyZK2Mm7yN" role="3fr31v">
-                      <node concept="1YBJjd" id="4yyZK2Mm7t5" role="2Oq$k0">
-                        <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
-                      </node>
-                      <node concept="2qgKlT" id="4yyZK2Mm8a1" role="2OqNvi">
-                        <ref role="37wK5l" to="lfe3:6RVk_zvSWpA" resolve="isForceUpdate" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="3fqX7Q" id="4yyZK2Mm6Oz" role="3uHU7B">
-                    <node concept="2OqwBi" id="4yyZK2Mm6O_" role="3fr31v">
-                      <node concept="1YBJjd" id="4yyZK2Mm6OA" role="2Oq$k0">
-                        <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
-                      </node>
-                      <node concept="2qgKlT" id="4yyZK2Mm6OB" role="2OqNvi">
-                        <ref role="37wK5l" to="lfe3:6RVk_zvT0E9" resolve="isForceInsert" />
-                      </node>
-                    </node>
+                  <node concept="3TrEf2" id="4yyZK2Mm3Uv" role="2OqNvi">
+                    <ref role="3Tt5mk" to="tpee:huRkE2T" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="3fqX7Q" id="4yyZK2Mm3Uk" role="3clFbw">
-              <node concept="2OqwBi" id="5E_HiByU73f" role="3fr31v">
-                <node concept="35c_gC" id="5E_HiByU71v" role="2Oq$k0">
-                  <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
-                </node>
-                <node concept="2qgKlT" id="5E_HiByU75Z" role="2OqNvi">
-                  <ref role="37wK5l" to="lfe3:7kypvuI$E7P" resolve="isInteger" />
-                  <node concept="2OqwBi" id="4yyZK2Mm3Un" role="37wK5m">
-                    <node concept="2OqwBi" id="4yyZK2Mm3Uo" role="2Oq$k0">
-                      <node concept="2OqwBi" id="4yyZK2Mm3Up" role="2Oq$k0">
-                        <node concept="2OqwBi" id="4yyZK2Mm3Uq" role="2Oq$k0">
-                          <node concept="1YBJjd" id="4yyZK2Mm3Ur" role="2Oq$k0">
+            <node concept="3eNFk2" id="29mqFQye6wi" role="3eNLev">
+              <node concept="3clFbS" id="29mqFQye6wk" role="3eOfB_">
+                <node concept="3clFbJ" id="29mqFQye6G5" role="3cqZAp">
+                  <node concept="3clFbS" id="29mqFQye6G7" role="3clFbx">
+                    <node concept="3SKdUt" id="29mqFQyebZK" role="3cqZAp">
+                      <node concept="3SKdUq" id="29mqFQyebZM" role="3SKWNk">
+                        <property role="3SKdUp" value="okay." />
+                      </node>
+                    </node>
+                    <node concept="3clFbH" id="29mqFQyec64" role="3cqZAp" />
+                  </node>
+                  <node concept="2OqwBi" id="29mqFQye7Bf" role="3clFbw">
+                    <node concept="2OqwBi" id="29mqFQye7pi" role="2Oq$k0">
+                      <node concept="2OqwBi" id="29mqFQye7aG" role="2Oq$k0">
+                        <node concept="2OqwBi" id="29mqFQye6Kt" role="2Oq$k0">
+                          <node concept="1YBJjd" id="29mqFQye6Gk" role="2Oq$k0">
                             <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
                           </node>
-                          <node concept="3TrEf2" id="4yyZK2Mm3Us" role="2OqNvi">
+                          <node concept="3TrEf2" id="29mqFQye703" role="2OqNvi">
                             <ref role="3Tt5mk" to="r5tz:75DS814r5Io" />
                           </node>
                         </node>
-                        <node concept="2qgKlT" id="4yyZK2Mm3Ut" role="2OqNvi">
+                        <node concept="2qgKlT" id="29mqFQye7mN" role="2OqNvi">
                           <ref role="37wK5l" to="lfe3:3JsUq_Sf9_a" resolve="getIKeyMapping" />
                         </node>
                       </node>
-                      <node concept="2qgKlT" id="4yyZK2Mm3Uu" role="2OqNvi">
+                      <node concept="2qgKlT" id="29mqFQyeapa" role="2OqNvi">
+                        <ref role="37wK5l" to="lfe3:3JsUq_Sf9k2" resolve="getKeyFieldMappings" />
+                      </node>
+                    </node>
+                    <node concept="2HxqBE" id="29mqFQyeb$f" role="2OqNvi">
+                      <node concept="1bVj0M" id="29mqFQyeb$h" role="23t8la">
+                        <node concept="3clFbS" id="29mqFQyeb$i" role="1bW5cS">
+                          <node concept="3clFbF" id="29mqFQyebDq" role="3cqZAp">
+                            <node concept="2OqwBi" id="29mqFQyebJz" role="3clFbG">
+                              <node concept="37vLTw" id="29mqFQyebDp" role="2Oq$k0">
+                                <ref role="3cqZAo" node="29mqFQyeb$j" resolve="it" />
+                              </node>
+                              <node concept="2qgKlT" id="29mqFQyebT$" role="2OqNvi">
+                                <ref role="37wK5l" to="lfe3:2Oo32eoNPGM" resolve="isAutoKey" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="Rh6nW" id="29mqFQyeb$j" role="1bW2Oz">
+                          <property role="TrG5h" value="it" />
+                          <node concept="2jxLKc" id="29mqFQyeb$k" role="1tU5fm" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3eNFk2" id="29mqFQygbE1" role="3eNLev">
+                    <node concept="3clFbS" id="29mqFQygbE2" role="3eOfB_">
+                      <node concept="2MkqsV" id="29mqFQygbE3" role="3cqZAp">
+                        <node concept="Xl_RD" id="29mqFQygbE4" role="2MkJ7o">
+                          <property role="Xl_RC" value="Inser or update option has to be provided for string keys without auto-id option." />
+                        </node>
+                        <node concept="1YBJjd" id="29mqFQygbE5" role="2OEOjV">
+                          <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="1Wc70l" id="29mqFQygbQ9" role="3eO9$A">
+                      <node concept="3fqX7Q" id="29mqFQygbQa" role="3uHU7w">
+                        <node concept="2OqwBi" id="29mqFQygbQb" role="3fr31v">
+                          <node concept="1YBJjd" id="29mqFQygbQc" role="2Oq$k0">
+                            <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
+                          </node>
+                          <node concept="2qgKlT" id="29mqFQygbQd" role="2OqNvi">
+                            <ref role="37wK5l" to="lfe3:6RVk_zvSWpA" resolve="isForceUpdate" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3fqX7Q" id="29mqFQygbQe" role="3uHU7B">
+                        <node concept="2OqwBi" id="29mqFQygbQf" role="3fr31v">
+                          <node concept="1YBJjd" id="29mqFQygbQg" role="2Oq$k0">
+                            <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
+                          </node>
+                          <node concept="2qgKlT" id="29mqFQygbQh" role="2OqNvi">
+                            <ref role="37wK5l" to="lfe3:6RVk_zvT0E9" resolve="isForceInsert" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="29mqFQyec68" role="3cqZAp" />
+                <node concept="3clFbH" id="29mqFQyec9W" role="3cqZAp" />
+              </node>
+              <node concept="2OqwBi" id="29mqFQye6zQ" role="3eO9$A">
+                <node concept="35c_gC" id="29mqFQye6zR" role="2Oq$k0">
+                  <ref role="35c_gD" to="r5tz:Kou8LehPz3" resolve="IAtomMapping" />
+                </node>
+                <node concept="2qgKlT" id="29mqFQye6zS" role="2OqNvi">
+                  <ref role="37wK5l" to="lfe3:7kypvuI$E8Q" resolve="isString" />
+                  <node concept="2OqwBi" id="29mqFQye6zT" role="37wK5m">
+                    <node concept="2OqwBi" id="29mqFQye6zU" role="2Oq$k0">
+                      <node concept="2OqwBi" id="29mqFQye6zV" role="2Oq$k0">
+                        <node concept="2OqwBi" id="29mqFQye6zW" role="2Oq$k0">
+                          <node concept="1YBJjd" id="29mqFQye6zX" role="2Oq$k0">
+                            <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
+                          </node>
+                          <node concept="3TrEf2" id="29mqFQye6zY" role="2OqNvi">
+                            <ref role="3Tt5mk" to="r5tz:75DS814r5Io" />
+                          </node>
+                        </node>
+                        <node concept="2qgKlT" id="29mqFQye6zZ" role="2OqNvi">
+                          <ref role="37wK5l" to="lfe3:3JsUq_Sf9_a" resolve="getIKeyMapping" />
+                        </node>
+                      </node>
+                      <node concept="2qgKlT" id="29mqFQye6$0" role="2OqNvi">
                         <ref role="37wK5l" to="lfe3:FaoLX6jltb" resolve="getKeyProperty" />
                       </node>
                     </node>
-                    <node concept="3TrEf2" id="4yyZK2Mm3Uv" role="2OqNvi">
+                    <node concept="3TrEf2" id="29mqFQye6$1" role="2OqNvi">
                       <ref role="3Tt5mk" to="tpee:huRkE2T" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="9aQIb" id="29mqFQye7XV" role="9aQIa">
+              <node concept="3clFbS" id="29mqFQye7XW" role="9aQI4">
+                <node concept="3clFbJ" id="4yyZK2Mm5UM" role="3cqZAp">
+                  <node concept="3clFbS" id="4yyZK2Mm5UP" role="3clFbx">
+                    <node concept="2MkqsV" id="4yyZK2Mm8fv" role="3cqZAp">
+                      <node concept="Xl_RD" id="4yyZK2Mm8fL" role="2MkJ7o">
+                        <property role="Xl_RC" value="For not int/string key entities, inser or update has to be provided in options." />
+                      </node>
+                      <node concept="1YBJjd" id="4yyZK2Mm8u9" role="2OEOjV">
+                        <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="4yyZK2Mm7k9" role="3clFbw">
+                    <node concept="3fqX7Q" id="4yyZK2Mm7pl" role="3uHU7w">
+                      <node concept="2OqwBi" id="4yyZK2Mm7yN" role="3fr31v">
+                        <node concept="1YBJjd" id="4yyZK2Mm7t5" role="2Oq$k0">
+                          <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
+                        </node>
+                        <node concept="2qgKlT" id="4yyZK2Mm8a1" role="2OqNvi">
+                          <ref role="37wK5l" to="lfe3:6RVk_zvSWpA" resolve="isForceUpdate" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="3fqX7Q" id="4yyZK2Mm6Oz" role="3uHU7B">
+                      <node concept="2OqwBi" id="4yyZK2Mm6O_" role="3fr31v">
+                        <node concept="1YBJjd" id="4yyZK2Mm6OA" role="2Oq$k0">
+                          <ref role="1YBMHb" node="4yyZK2MlhR8" resolve="saveWithMap" />
+                        </node>
+                        <node concept="2qgKlT" id="4yyZK2Mm6OB" role="2OqNvi">
+                          <ref role="37wK5l" to="lfe3:6RVk_zvT0E9" resolve="isForceInsert" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
+          <node concept="3clFbH" id="29mqFQye6pY" role="3cqZAp" />
         </node>
         <node concept="2OqwBi" id="4yyZK2Mm579" role="3clFbw">
           <node concept="2OqwBi" id="4yyZK2Mm4uK" role="2Oq$k0">

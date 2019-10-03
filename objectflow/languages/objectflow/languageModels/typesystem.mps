@@ -13842,6 +13842,38 @@
     <property role="TrG5h" value="check_TranslatedMultiString" />
     <property role="3GE5qa" value="StringHandling" />
     <node concept="3clFbS" id="3sIS$IKeHxb" role="18ibNy">
+      <node concept="3clFbJ" id="3UVBaKgddnk" role="3cqZAp">
+        <node concept="3clFbS" id="3UVBaKgddnm" role="3clFbx">
+          <node concept="2MkqsV" id="3UVBaKgdglg" role="3cqZAp">
+            <node concept="Xl_RD" id="3UVBaKgdglD" role="2MkJ7o">
+              <property role="Xl_RC" value="Translations can not be applied in contexts where no session is available." />
+            </node>
+            <node concept="1YBJjd" id="3UVBaKgdgoy" role="2OEOjV">
+              <ref role="1YBMHb" node="3sIS$IKeHxd" resolve="tms" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="3UVBaKgdfAI" role="3clFbw">
+          <node concept="2OqwBi" id="3UVBaKgdeNW" role="2Oq$k0">
+            <node concept="2OqwBi" id="3UVBaKgde84" role="2Oq$k0">
+              <node concept="1YBJjd" id="3UVBaKgde6z" role="2Oq$k0">
+                <ref role="1YBMHb" node="3sIS$IKeHxd" resolve="tms" />
+              </node>
+              <node concept="2qgKlT" id="3UVBaKgdeLU" role="2OqNvi">
+                <ref role="37wK5l" to="70o0:3sIS$IKekKD" resolve="getOrigMultiString" />
+              </node>
+            </node>
+            <node concept="2Xjw5R" id="3UVBaKgdfyw" role="2OqNvi">
+              <node concept="1xMEDy" id="3UVBaKgdfyy" role="1xVPHs">
+                <node concept="chp4Y" id="3UVBaKgdf$8" role="ri$Ld">
+                  <ref role="cht4Q" to="un0u:4H7K4Wq6tCQ" resolve="IHandlesSession" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3w_OXm" id="3UVBaKgdgjj" role="2OqNvi" />
+        </node>
+      </node>
       <node concept="3clFbJ" id="3sIS$IKekZf" role="3cqZAp">
         <node concept="3clFbS" id="3sIS$IKekZg" role="3clFbx">
           <node concept="3cpWs8" id="3sIS$IKekZh" role="3cqZAp">

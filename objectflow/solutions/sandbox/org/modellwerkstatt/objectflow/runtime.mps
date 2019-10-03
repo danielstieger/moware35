@@ -47182,6 +47182,16 @@
   </node>
   <node concept="312cEu" id="76zKLSqSNNr">
     <property role="TrG5h" value="OFXStringFormatter2" />
+    <node concept="Wx3nA" id="3UVBaKgdmwJ" role="jymVt">
+      <property role="TrG5h" value="GLOBAL_INSTANCE_DEFAULT_LANG" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="3UVBaKgdD9a" role="1tU5fm">
+        <ref role="3uigEE" node="76zKLSqT1uU" resolve="IOFXTranslationProvider" />
+      </node>
+      <node concept="3Tm1VV" id="3UVBaKgdmwL" role="1B3o_S" />
+      <node concept="10Nm6u" id="3UVBaKgdD1j" role="33vP2m" />
+    </node>
+    <node concept="2tJIrI" id="3UVBaKgdqQv" role="jymVt" />
     <node concept="Wx3nA" id="3bICjcEfxvd" role="jymVt">
       <property role="TrG5h" value="DEFAULT_LOCALE" />
       <property role="3TUv4t" value="true" />
@@ -50747,7 +50757,8 @@
               <node concept="3cmrfG" id="59qqFijfmJ6" role="1sKJu8">
                 <property role="3cmrfH" value="0" />
               </node>
-              <node concept="37vLTw" id="59qqFijfmVV" role="1sKFgg">
+              <node concept="10M0yZ" id="3UVBaKgdqM3" role="1sKFgg">
+                <ref role="1PxDUh" node="76zKLSqSNNr" resolve="OFXStringFormatter2" />
                 <ref role="3cqZAo" node="3bICjcEfxvd" resolve="DEFAULT_LOCALE" />
               </node>
             </node>
@@ -51252,6 +51263,15 @@
               <node concept="3uibUv" id="3bICjcEfZNg" role="1tU5fm">
                 <ref role="3uigEE" to="wyt6:~ClassNotFoundException" resolve="ClassNotFoundException" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3UVBaKgdH4Z" role="3cqZAp" />
+        <node concept="3clFbF" id="3UVBaKgdI7t" role="3cqZAp">
+          <node concept="37vLTI" id="3UVBaKgdI_u" role="3clFbG">
+            <node concept="Xjq3P" id="3UVBaKgdIRx" role="37vLTx" />
+            <node concept="37vLTw" id="3UVBaKgdI7r" role="37vLTJ">
+              <ref role="3cqZAo" node="3UVBaKgdmwJ" resolve="GLOBAL_INSTANCE_DEFAULT_LANG" />
             </node>
           </node>
         </node>
