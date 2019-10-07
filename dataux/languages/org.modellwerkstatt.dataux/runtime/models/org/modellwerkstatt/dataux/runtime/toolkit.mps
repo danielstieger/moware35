@@ -75,6 +75,7 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA" />
       <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
       <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
         <reference id="6832197706140518108" name="param" index="zr_51" />
@@ -89,6 +90,9 @@
       </concept>
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
         <child id="8970989240999019149" name="part" index="1dT_Ay" />
+      </concept>
+      <concept id="8465538089690331492" name="jetbrains.mps.baseLanguage.javadoc.structure.DeprecatedBlockDocTag" flags="ng" index="TZ5HI">
+        <child id="2667874559098216723" name="text" index="3HnX3l" />
       </concept>
       <concept id="8970989240999019143" name="jetbrains.mps.baseLanguage.javadoc.structure.TextCommentLinePart" flags="ng" index="1dT_AC">
         <property id="8970989240999019144" name="text" index="1dT_AB" />
@@ -519,6 +523,64 @@
       <node concept="3clFbS" id="3sEA$PI$eTs" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="5Y1b9tR4bzl" role="jymVt" />
+    <node concept="2tJIrI" id="6j4XqQEnNVy" role="jymVt" />
+    <node concept="3clFb_" id="2vHEu_NBRze" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="2aFKle" value="false" />
+      <property role="TrG5h" value="createConfiguredUserPrintService" />
+      <node concept="37vLTG" id="2vHEu_NBRz_" role="3clF46">
+        <property role="TrG5h" value="tecHandle" />
+        <node concept="3uibUv" id="2vHEu_NBRzF" role="1tU5fm">
+          <ref role="3uigEE" to="wyt6:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="omQbG9SXh8" role="3clF46">
+        <property role="TrG5h" value="userEnvironment" />
+        <node concept="3uibUv" id="omQbG9SXwR" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2vHEu_NBRzh" role="3clF47" />
+      <node concept="3Tm1VV" id="2vHEu_NBRzi" role="1B3o_S" />
+      <node concept="3uibUv" id="2vHEu_NBRz3" role="3clF45">
+        <ref role="3uigEE" to="28jr:2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+      </node>
+      <node concept="P$JXv" id="6j4XqQEnNXm" role="lGtFl">
+        <node concept="TZ5HA" id="6j4XqQEnNXn" role="TZ5H$">
+          <node concept="1dT_AC" id="6j4XqQEnNXo" role="1dT_Ay">
+            <property role="1dT_AB" value="Print service for user, constructed by employing" />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="6j4XqQEodLe" role="TZ5H$">
+          <node concept="1dT_AC" id="6j4XqQEodLf" role="1dT_Ay">
+            <property role="1dT_AB" value="the IOFXPrintServiceFactory, however, the print factory can be configured without " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="5XtsZSXLpqo" role="TZ5H$">
+          <node concept="1dT_AC" id="5XtsZSXLpqp" role="1dT_Ay">
+            <property role="1dT_AB" value="touching the app factory. tecHandle and userEnvironment might be null in FatClient environments. " />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="5XtsZSXLpmF" role="TZ5H$">
+          <node concept="1dT_AC" id="5XtsZSXLpmG" role="1dT_Ay">
+            <property role="1dT_AB" value="(more or less, call is forwarded to iofxprintfactory)" />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="6j4XqQEnNXp" role="3nqlJM">
+          <node concept="zr_55" id="6j4XqQEnNXr" role="zr_5Q">
+            <ref role="zr_51" node="2vHEu_NBRz_" resolve="tecHandle" />
+          </node>
+        </node>
+        <node concept="x79VA" id="6j4XqQEnNXs" role="3nqlJM" />
+        <node concept="TZ5HI" id="3ooJmL_GUSr" role="3nqlJM">
+          <node concept="TZ5HA" id="3ooJmL_GUSs" role="3HnX3l" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3ooJmL_GUSt" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Deprecated" resolve="Deprecated" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3ooJmL_OZfw" role="jymVt" />
     <node concept="3Tm1VV" id="20ohnkbzF0e" role="1B3o_S" />
     <node concept="3uibUv" id="20ohnkbJcos" role="3HQHJm">
       <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />

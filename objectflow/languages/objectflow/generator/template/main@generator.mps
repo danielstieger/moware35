@@ -10619,6 +10619,12 @@
           <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
         </node>
       </node>
+      <node concept="37vLTG" id="3ooJmL_xxBu" role="3clF46">
+        <property role="TrG5h" value="userService" />
+        <node concept="3uibUv" id="3ooJmL_xC$7" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:67D5vCCQkbw" resolve="IOFXUserServices" />
+        </node>
+      </node>
       <node concept="3uibUv" id="3PmKne7RhhT" role="3clF45">
         <ref role="3uigEE" to="28jr:7rqBz8B3ElL" resolve="IOFXCommand" />
         <node concept="3uibUv" id="3PmKne7RhhU" role="11_B2D">
@@ -10730,6 +10736,9 @@
                           <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
                           <node concept="37vLTw" id="2$LKw9UP9y8" role="37wK5m">
                             <ref role="3cqZAo" node="3BCllXoOGmQ" resolve="userEnv" />
+                          </node>
+                          <node concept="37vLTw" id="3ooJmL_xD5t" role="37wK5m">
+                            <ref role="3cqZAo" node="3ooJmL_xxBu" resolve="userService" />
                           </node>
                         </node>
                       </node>

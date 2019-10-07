@@ -5721,6 +5721,7 @@
       <property role="TrG5h" value="setStartMenuAndInit" />
       <node concept="37vLTG" id="2QY_rtDtNzW" role="3clF46">
         <property role="TrG5h" value="langIndex" />
+        <property role="3TUv4t" value="true" />
         <node concept="10Oyi0" id="2QY_rtDtOF1" role="1tU5fm" />
       </node>
       <node concept="37vLTG" id="6go2MrssrMw" role="3clF46">
