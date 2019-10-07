@@ -7136,6 +7136,13 @@
       <node concept="17QB3L" id="6z8g0a0i9Ed" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="701$ZaZr3g6" role="jymVt" />
+    <node concept="312cEg" id="3ooJmL_rU_N" role="jymVt">
+      <property role="TrG5h" value="appPrintService" />
+      <node concept="3Tm6S6" id="3ooJmL_rU_O" role="1B3o_S" />
+      <node concept="3uibUv" id="3ooJmL_rXjR" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:2vHEu_N_3sh" resolve="IOFXUserPrintService" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="1i79Hb8rECZ" role="jymVt" />
     <node concept="312cEg" id="2qrl3a2ZxLK" role="jymVt">
       <property role="TrG5h" value="tilesSession" />
