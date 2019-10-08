@@ -15535,7 +15535,7 @@
       <node concept="312cEg" id="4jlzLDkHYbm" role="jymVt">
         <property role="34CwA1" value="false" />
         <property role="eg7rD" value="false" />
-        <property role="TrG5h" value="__localAppplicationFactory" />
+        <property role="TrG5h" value="__localApplicationFactory" />
         <property role="3TUv4t" value="false" />
         <node concept="3uibUv" id="59aH4f5JUGV" role="1tU5fm">
           <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
@@ -15568,6 +15568,19 @@
         </node>
         <node concept="3Tm6S6" id="4jlzLDltd1p" role="1B3o_S" />
         <node concept="2AHcQZ" id="4jlzLDltd1q" role="2AJF6D">
+          <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+        </node>
+      </node>
+      <node concept="312cEg" id="6cn6oSwfI5q" role="jymVt">
+        <property role="34CwA1" value="false" />
+        <property role="eg7rD" value="false" />
+        <property role="TrG5h" value="__userServices" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="6cn6oSx8yiF" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:67D5vCCQkbw" resolve="IOFXUserServices" />
+        </node>
+        <node concept="3Tm6S6" id="6cn6oSwfI5s" role="1B3o_S" />
+        <node concept="2AHcQZ" id="6cn6oSwfI5t" role="2AJF6D">
           <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
         </node>
       </node>
@@ -18141,7 +18154,7 @@
             <node concept="37vLTI" id="3Ux7NZv0aAD" role="3clFbG">
               <node concept="10Nm6u" id="3Ux7NZv0aC1" role="37vLTx" />
               <node concept="37vLTw" id="3Ux7NZv0a$l" role="37vLTJ">
-                <ref role="3cqZAo" node="4jlzLDkHYbm" resolve="__localAppplicationFactory" />
+                <ref role="3cqZAo" node="4jlzLDkHYbm" resolve="__localApplicationFactory" />
               </node>
             </node>
           </node>
@@ -18618,7 +18631,7 @@
                       <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
                     </node>
                     <node concept="2OwXpG" id="5BROMrW1qyf" role="2OqNvi">
-                      <ref role="2Oxat5" node="4jlzLDkHYbm" resolve="__localAppplicationFactory" />
+                      <ref role="2Oxat5" node="4jlzLDkHYbm" resolve="__localApplicationFactory" />
                     </node>
                   </node>
                   <node concept="liA8E" id="5BROMrW1qyg" role="2OqNvi">
@@ -18627,45 +18640,6 @@
                 </node>
                 <node concept="liA8E" id="5BROMrW1qyh" role="2OqNvi">
                   <ref role="37wK5l" to="28jr:6A6XM2SxGIh" resolve="getCurrentVariant" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="3uMEeikYiM_" role="3cqZAp">
-          <node concept="2OqwBi" id="3uMEeikYiMA" role="3clFbG">
-            <node concept="2OqwBi" id="3uMEeikYiMB" role="2Oq$k0">
-              <node concept="37vLTw" id="2B50FNWbeD0" role="2Oq$k0">
-                <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
-              </node>
-              <node concept="2OwXpG" id="3uMEeikYiMD" role="2OqNvi">
-                <ref role="2Oxat5" node="4jlzLDltd1n" resolve="__userEnvironment" />
-              </node>
-            </node>
-            <node concept="liA8E" id="3uMEeikYiME" role="2OqNvi">
-              <ref role="37wK5l" to="28jr:2vHEu_N$F8P" resolve="setUserPrintService" />
-              <node concept="2OqwBi" id="3uMEeikYiMF" role="37wK5m">
-                <node concept="2OqwBi" id="3uMEeikYiMG" role="2Oq$k0">
-                  <node concept="37vLTw" id="2B50FNWbeD4" role="2Oq$k0">
-                    <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
-                  </node>
-                  <node concept="2OwXpG" id="3uMEeikYiMI" role="2OqNvi">
-                    <ref role="2Oxat5" node="3l87qE_05rk" resolve="__localPrintFactory" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="3uMEeikYiMJ" role="2OqNvi">
-                  <ref role="37wK5l" to="28jr:5XtsZSXLp8v" resolve="createConfiguredUserPrintService" />
-                  <node concept="37vLTw" id="2B50FNWbeD8" role="37wK5m">
-                    <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
-                  </node>
-                  <node concept="2OqwBi" id="3uMEeikYiML" role="37wK5m">
-                    <node concept="37vLTw" id="2B50FNWbeDc" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
-                    </node>
-                    <node concept="2OwXpG" id="3uMEeikYiMN" role="2OqNvi">
-                      <ref role="2Oxat5" node="4jlzLDltd1n" resolve="__userEnvironment" />
-                    </node>
-                  </node>
                 </node>
               </node>
             </node>
@@ -18819,7 +18793,7 @@
                     <ref role="3cqZAo" node="7tfEsbHXrWr" resolve="singleton_batchJobImplementation" />
                   </node>
                   <node concept="2OwXpG" id="7tfEsbFsD4o" role="2OqNvi">
-                    <ref role="2Oxat5" node="4jlzLDkHYbm" resolve="__localAppplicationFactory" />
+                    <ref role="2Oxat5" node="4jlzLDkHYbm" resolve="__localApplicationFactory" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7tfEsbFsDox" role="2OqNvi">

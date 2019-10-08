@@ -5079,7 +5079,7 @@
           <node concept="312cEg" id="2KwTCJyoFnV" role="jymVt">
             <property role="34CwA1" value="false" />
             <property role="eg7rD" value="false" />
-            <property role="TrG5h" value="__localAppplicationFactory" />
+            <property role="TrG5h" value="__localApplicationFactory" />
             <property role="3TUv4t" value="false" />
             <node concept="3Tmbuc" id="2KwTCJyoFn7" role="1B3o_S" />
             <node concept="3uibUv" id="2KwTCJyoFpF" role="1tU5fm">
@@ -5096,6 +5096,16 @@
               <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
             </node>
           </node>
+          <node concept="312cEg" id="6cn6oSwfNVa" role="jymVt">
+            <property role="34CwA1" value="false" />
+            <property role="eg7rD" value="false" />
+            <property role="TrG5h" value="__userServices" />
+            <property role="3TUv4t" value="false" />
+            <node concept="3Tmbuc" id="6cn6oSwfNVb" role="1B3o_S" />
+            <node concept="3uibUv" id="6cn6oSwfSV_" role="1tU5fm">
+              <ref role="3uigEE" to="28jr:67D5vCCQkbw" resolve="IOFXUserServices" />
+            </node>
+          </node>
           <node concept="2tJIrI" id="2KwTCJyoFyU" role="jymVt" />
           <node concept="3clFb_" id="2KwTCJyoFqZ" role="jymVt">
             <property role="TrG5h" value="method" />
@@ -5110,12 +5120,15 @@
                   </node>
                   <node concept="2OqwBi" id="2KwTCJyoFwg" role="33vP2m">
                     <node concept="37vLTw" id="2KwTCJyoFvm" role="2Oq$k0">
-                      <ref role="3cqZAo" node="2KwTCJyoFnV" resolve="__localAppplicationFactory" />
+                      <ref role="3cqZAo" node="2KwTCJyoFnV" resolve="__localApplicationFactory" />
                     </node>
                     <node concept="liA8E" id="2KwTCJyoFy4" role="2OqNvi">
                       <ref role="37wK5l" to="28jr:3J6KGB_wcms" resolve="createNewSession" />
-                      <node concept="37vLTw" id="2KwTCJyoH0a" role="37wK5m">
+                      <node concept="37vLTw" id="6cn6oSwfSYp" role="37wK5m">
                         <ref role="3cqZAo" node="2KwTCJyoFzW" resolve="__userEnvironment" />
+                      </node>
+                      <node concept="37vLTw" id="6cn6oSwfT0M" role="37wK5m">
+                        <ref role="3cqZAo" node="6cn6oSwfNVa" resolve="__userServices" />
                       </node>
                     </node>
                     <node concept="raruj" id="2KwTCJyoH1i" role="lGtFl" />
@@ -26990,6 +27003,16 @@
         <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
       </node>
     </node>
+    <node concept="312cEg" id="6cn6oSwfFa6" role="jymVt">
+      <property role="TrG5h" value="__userServices" />
+      <node concept="3Tm6S6" id="6cn6oSwfFa7" role="1B3o_S" />
+      <node concept="3uibUv" id="6cn6oSwfHtw" role="1tU5fm">
+        <ref role="3uigEE" to="28jr:67D5vCCQkbw" resolve="IOFXUserServices" />
+      </node>
+      <node concept="2AHcQZ" id="6cn6oSwfFa9" role="2AJF6D">
+        <ref role="2AI5Lk" to="b31h:~Autowired" resolve="Autowired" />
+      </node>
+    </node>
     <node concept="312cEg" id="4T6wObo7pIq" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
@@ -27006,7 +27029,7 @@
     <node concept="312cEg" id="2KwTCJyovtB" role="jymVt">
       <property role="34CwA1" value="false" />
       <property role="eg7rD" value="false" />
-      <property role="TrG5h" value="__localAppplicationFactory" />
+      <property role="TrG5h" value="__localApplicationFactory" />
       <property role="3TUv4t" value="false" />
       <node concept="3Tmbuc" id="2KwTCJyovtC" role="1B3o_S" />
       <node concept="3uibUv" id="2KwTCJyo$U_" role="1tU5fm">
@@ -28446,7 +28469,7 @@
               <node concept="2OqwBi" id="5p$R$8zkCs2" role="37wK5m">
                 <node concept="2OqwBi" id="5p$R$8zkCmr" role="2Oq$k0">
                   <node concept="37vLTw" id="5p$R$8zkCjb" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2KwTCJyovtB" resolve="__localAppplicationFactory" />
+                    <ref role="3cqZAo" node="2KwTCJyovtB" resolve="__localApplicationFactory" />
                   </node>
                   <node concept="liA8E" id="5p$R$8zkCqa" role="2OqNvi">
                     <ref role="37wK5l" to="28jr:7MWNCzY5wUb" resolve="getPlatform" />
@@ -31441,19 +31464,28 @@
     <node concept="312cEu" id="65g7rxkv7rH" role="13RCb5">
       <property role="2bfB8j" value="true" />
       <property role="TrG5h" value="reduce_OFXRunCmd" />
-      <node concept="312cEg" id="65g7rxkv7rI" role="jymVt">
-        <property role="TrG5h" value="__userEnvironment" />
-        <node concept="3Tm6S6" id="65g7rxkv7rJ" role="1B3o_S" />
-        <node concept="3uibUv" id="65g7rxkv7rK" role="1tU5fm">
-          <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
-        </node>
-      </node>
       <node concept="312cEg" id="4jlzLDkI4It" role="jymVt">
-        <property role="TrG5h" value="__localAppplicationFactory" />
+        <property role="TrG5h" value="__localApplicationFactory" />
         <property role="3TUv4t" value="false" />
         <node concept="3Tm6S6" id="4jlzLDkI4Iu" role="1B3o_S" />
         <node concept="3uibUv" id="65g7rxkBZWn" role="1tU5fm">
           <ref role="3uigEE" to="28jr:3J6KGB_vWbR" resolve="IOFXApplicationFactory" />
+        </node>
+      </node>
+      <node concept="312cEg" id="6cn6oSwfcMf" role="jymVt">
+        <property role="TrG5h" value="__userEnvironment" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3Tm6S6" id="6cn6oSwfcMg" role="1B3o_S" />
+        <node concept="3uibUv" id="6cn6oSwfn_h" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:2$LKw9ULcTl" resolve="IOFXUserEnvironment" />
+        </node>
+      </node>
+      <node concept="312cEg" id="6cn6oSwfibs" role="jymVt">
+        <property role="TrG5h" value="__userServices" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3Tm6S6" id="6cn6oSwfibt" role="1B3o_S" />
+        <node concept="3uibUv" id="6cn6oSwfnSh" role="1tU5fm">
+          <ref role="3uigEE" to="28jr:67D5vCCQkbw" resolve="IOFXUserServices" />
         </node>
       </node>
       <node concept="2tJIrI" id="4jlzLDkI2A0" role="jymVt" />
@@ -31556,7 +31588,7 @@
                   </node>
                   <node concept="2OqwBi" id="4jlzLDk$u0M" role="33vP2m">
                     <node concept="37vLTw" id="4jlzLDk$tZS" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4jlzLDkI4It" resolve="__localAppplicationFactory" />
+                      <ref role="3cqZAo" node="4jlzLDkI4It" resolve="__localApplicationFactory" />
                     </node>
                     <node concept="liA8E" id="4jlzLDk$ukE" role="2OqNvi">
                       <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getProcessByInstanceName" />
@@ -31805,8 +31837,11 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="37vLTw" id="65g7rxkv7tv" role="37wK5m">
-                        <ref role="3cqZAo" node="65g7rxkv7rI" resolve="__userEnvironment" />
+                      <node concept="37vLTw" id="6cn6oSwfpTZ" role="37wK5m">
+                        <ref role="3cqZAo" node="6cn6oSwfcMf" resolve="__userEnvironment" />
+                      </node>
+                      <node concept="37vLTw" id="6cn6oSwfvca" role="37wK5m">
+                        <ref role="3cqZAo" node="6cn6oSwfibs" resolve="__userServices" />
                       </node>
                     </node>
                     <node concept="37vLTw" id="4jlzLDk$ymh" role="2Oq$k0">
@@ -31969,7 +32004,7 @@
                           </node>
                           <node concept="2OqwBi" id="4jlzLDk_rLr" role="33vP2m">
                             <node concept="37vLTw" id="4jlzLDk_rKx" role="2Oq$k0">
-                              <ref role="3cqZAo" node="4jlzLDkI4It" resolve="__localAppplicationFactory" />
+                              <ref role="3cqZAo" node="4jlzLDkI4It" resolve="__localApplicationFactory" />
                             </node>
                             <node concept="liA8E" id="4jlzLDk_rSN" role="2OqNvi">
                               <ref role="37wK5l" to="28jr:4XXgpA_yFXU" resolve="getProcessByInstanceName" />
@@ -32049,8 +32084,11 @@
                                   <ref role="37wK5l" to="28jr:4C7UZKDAoDO" resolve="getCommandSession" />
                                 </node>
                               </node>
-                              <node concept="37vLTw" id="4jlzLDk_AGp" role="37wK5m">
-                                <ref role="3cqZAo" node="65g7rxkv7rI" resolve="__userEnvironment" />
+                              <node concept="37vLTw" id="6cn6oSwf$Le" role="37wK5m">
+                                <ref role="3cqZAo" node="6cn6oSwfcMf" resolve="__userEnvironment" />
+                              </node>
+                              <node concept="37vLTw" id="6cn6oSwfAEU" role="37wK5m">
+                                <ref role="3cqZAo" node="6cn6oSwfibs" resolve="__userServices" />
                               </node>
                             </node>
                           </node>

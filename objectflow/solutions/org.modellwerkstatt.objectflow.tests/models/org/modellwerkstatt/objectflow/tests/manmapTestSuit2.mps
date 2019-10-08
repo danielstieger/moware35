@@ -4477,7 +4477,13 @@
       <node concept="2CJf3v" id="6Rdz00zW6jD" role="2CJdiS">
         <property role="TrG5h" value="consoleAppFactory" />
         <node concept="Xl_RD" id="6Rdz00zW6jE" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXConsoleAppFactory" />
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleAppFactory" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="6cn6oSxhWk7" role="2CJdiS">
+        <property role="TrG5h" value="userServices" />
+        <node concept="Xl_RD" id="6cn6oSxhWk8" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleUserServices" />
         </node>
       </node>
       <node concept="2CJ4_Q" id="5MCXLSo4_DS" role="2CJdiS">
@@ -35884,10 +35890,16 @@
           <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXFakePrintFactory" />
         </node>
       </node>
-      <node concept="2CJf3v" id="6VW5G60I4vD" role="2CJdiS">
+      <node concept="2CJf3v" id="6cn6oSxhWor" role="2CJdiS">
         <property role="TrG5h" value="consoleAppFactory" />
-        <node concept="Xl_RD" id="6VW5G60I4vE" role="2CJf0U">
-          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXConsoleAppFactory" />
+        <node concept="Xl_RD" id="6cn6oSxhWos" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleAppFactory" />
+        </node>
+      </node>
+      <node concept="2CJf3v" id="6cn6oSxhWot" role="2CJdiS">
+        <property role="TrG5h" value="userServices" />
+        <node concept="Xl_RD" id="6cn6oSxhWou" role="2CJf0U">
+          <property role="Xl_RC" value="org.modellwerkstatt.objectflow.runtime.OFXSimpleUserServices" />
         </node>
       </node>
       <node concept="2CJ4_Q" id="6VW5G60I4vF" role="2CJdiS">
